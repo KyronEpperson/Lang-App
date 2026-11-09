@@ -4,16 +4,21 @@
 <meta charset="utf-8">
 <title>Lang App</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta property="og:title" content="Lang App"><meta property="og:description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes, and a 5-minute daily session."><meta name="description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes, and a daily 5-minute session.">
+
 <meta name="theme-color" content="#f3efe6" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#15161c" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Lang App">
+<meta name="description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes and real conversations. 5 minutes a day, free in your browser.">
+<link rel="canonical" href="https://lang-app.io/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Lang App"><meta property="og:url" content="https://lang-app.io/">
+<meta property="og:title" content="Lang App — learn Korean, 5 minutes a day"><meta property="og:description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes and real conversations. 5 minutes a day, free in your browser.">
+<meta property="og:image" content="https://lang-app.io/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Lang App — learn Korean, 5 minutes a day">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Lang App — learn Korean, 5 minutes a day"><meta name="twitter:description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes and real conversations. 5 minutes a day, free in your browser."><meta name="twitter:image" content="https://lang-app.io/og-image.png">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 <link rel="manifest" href="manifest.json">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%231d1f2a%27/%3E%3Crect width=%2764%27 height=%276%27 fill=%27%23c2402f%27/%3E%3Ctext x=%2732%27 y=%2746%27 text-anchor=%27middle%27 font-size=%2736%27 font-weight=%27900%27 font-family=%27sans-serif%27 fill=%27%23f3efe6%27%3E한%3C/text%3E%3C/svg%3E">
-<link rel="icon" href="icon.png" sizes="512x512">
-<link rel="apple-touch-icon" href="icon.png">
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
@@ -409,7 +414,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
     <div class="panel"><h3 style="margin-top:0">Decks</h3><div id="pDecks"></div></div>
     <div class="panel"><h3 style="margin-top:0">Quiz accuracy</h3><div id="pQuiz"></div></div>
     <div class="panel"><div class="row"><h3 style="margin:0">Backup</h3><span style="display:flex;gap:8px;flex-wrap:wrap"><button class="ghost" id="expBtn">Copy export</button><button class="ghost" id="expFile">Share file</button><button class="ghost" id="impBtn">Import</button><label class="ghost" style="cursor:pointer">Open file<input type="file" id="impFile" accept="application/json,.json" style="display:none"></label></span></div><div id="impBox" hidden style="margin-top:10px"><textarea id="impTxt" rows="4" style="width:100%;font:.8rem var(--mono);border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);padding:8px" placeholder="Paste an export here"></textarea><div class="row" style="margin-top:8px"><span class="stat" id="impMsg">Merges with what is here; nothing is lost.</span><button class="big primary" id="impGo" style="padding:8px 14px">Merge in</button></div></div><p class="stat" style="margin:8px 0 0">Export = your whole progress as text. Use it to move between devices when account sync is off.</p></div>
-    <div class="panel"><div class="row"><label class="auto"><input type="checkbox" id="shuffleMode" checked> Shuffle decks</label><label class="auto"><input type="checkbox" id="freeMode"> Unlock everything (skip the guided path)</label><label class="auto"><input type="checkbox" id="uiKo"> 한국어 UI (menu labels in Korean)</label><label class="auto"><input type="checkbox" id="hapt"> Vibration feedback</label><label class="auto"><input type="checkbox" id="sfx"> Sound effects</label></div><div class="row" style="margin-top:10px"><button class="ghost" id="reOnboard">Redo setup questions</button><button class="ghost" id="reTour">Show the tour</button><span style="display:flex;gap:6px;align-items:center"><span class="stat">Accent</span><span id="accents" style="display:flex;gap:4px"></span><span class="stat" style="margin-left:8px">Text size</span><button class="ghost" id="zoomDn">A−</button><button class="ghost" id="zoomUp">A+</button></span></div><div class="row" style="margin-top:10px"><span class="sync" id="syncStat"><i></i>This device only</span><button class="ghost" id="acctBtn" hidden>Sign in to sync</button><button class="ghost" id="delAcct" hidden>Delete my account</button><a class="ghost" href="#privacy" style="text-decoration:none;padding:8px 12px;border-radius:10px">Privacy</a><button class="ghost" id="wipe">Erase all progress</button></div></div>
+    <div class="panel"><div class="row"><label class="auto"><input type="checkbox" id="shuffleMode" checked> Shuffle decks</label><label class="auto"><input type="checkbox" id="freeMode"> Unlock everything (skip the guided path)</label><label class="auto"><input type="checkbox" id="uiKo"> 한국어 UI (menu labels in Korean)</label><label class="auto"><input type="checkbox" id="hapt"> Vibration feedback</label><label class="auto"><input type="checkbox" id="sfx"> Sound effects</label></div><div class="row" style="margin-top:10px"><button class="ghost" id="reOnboard">Redo setup questions</button><button class="ghost" id="reTour">Show the tour</button><span style="display:flex;gap:6px;align-items:center"><span class="stat">Accent</span><span id="accents" style="display:flex;gap:4px"></span><span class="stat" style="margin-left:8px">Text size</span><button class="ghost" id="zoomDn">A−</button><button class="ghost" id="zoomUp">A+</button></span></div><div class="row" style="margin-top:10px"><span class="sync" id="syncStat"><i></i>This device only</span><button class="ghost" id="acctBtn" hidden>Sign in to sync</button><button class="ghost" id="delAcct" hidden>Delete my account</button><a class="ghost" href="#privacy" style="text-decoration:none;padding:8px 12px;border-radius:10px">Privacy</a><button class="ghost" id="shareApp" type="button">📤 Share Lang App</button><button class="ghost" id="wipe">Erase all progress</button></div></div>
     <p class="stat" id="aboutLine" style="text-align:center;margin:10px 0 0"></p>
   </section>
   <section class="view" id="v-privacy" hidden>
@@ -1757,6 +1762,11 @@ function delAccount(){ const sh=document.createElement('div'); sh.className='she
     try{ await sbRefresh(); const r=await fetch(SB.url+'/rest/v1/rpc/delete_my_account',{method:'POST',headers:sbHdr(true),body:'{}'}); if(!r.ok) throw new Error('HTTP '+r.status);
       sbSess=null; sbSave(); docRef=null; clearTimeout(pushT); S=fresh(); S.welcomed=1; try{ localStorage.setItem('ko-app2',JSON.stringify(S)); }catch(e){} memoClear(); hydrateCustom(); close(); hdr(); route(); renderAccount(); setSync('local'); toast('Account deleted. This device was cleared.'); }
     catch(e){ msg.textContent='Couldn\'t delete right now ('+(e.message||'error')+'). Try again, or post in Feedback.'; go.disabled=false; } }; }
+
+// G20: share the app
+async function shareApp(){ const url=window.claude?'https://lang-app.io':location.origin+'/'; const data={title:'Lang App',text:'Learning Korean 5 minutes a day with Lang App 🇰🇷',url};
+  try{ if(navigator.share){ await navigator.share(data); return; } }catch(e){ if(e&&e.name==='AbortError') return; }
+  try{ await navigator.clipboard.writeText(url); toast('Link copied — paste it anywhere'); }catch(e){ toast(url); } }
 async function sbInit(){ if(!sbOn()) return; sbLoad(); if(!sbSess) { renderAccount(); return; } if(!(await sbRefresh())){ renderAccount(); return; }
   sbLastPull=Date.now(); try{ docRef=sbDoc(); const snap=await docRef.get();
     if(snap.exists){ const remote=snap.data(); const merged=mergeState(S,remote); const changed=JSON.stringify(merged)!==JSON.stringify(S); S=merged; memoClear(); hydrateCustom(); applyIntervals(); try{localStorage.setItem('ko-app2',JSON.stringify(S));}catch(e){} if(changed){ hdr(); route(); } if(JSON.stringify(merged)!==JSON.stringify(remote)) syncPush(); }
@@ -1803,6 +1813,7 @@ $('fbForm').addEventListener('submit',async e=>{ e.preventDefault(); const msg=$
   if(ok){ st.innerHTML='<b>Posted — thank you!</b> 감사합니다 🙏'; $('fbMsg').value=''; $('fbCount').textContent='0 / 2000'; fbLoad(); } else st.textContent=''; });
 $('fbMsg').addEventListener('input',e=>{ $('fbCount').textContent=e.target.value.length+' / 2000'; });
 $('fbRefresh').addEventListener('click',fbLoad);
+$('shareApp').addEventListener('click',shareApp);
 // ===================== BOOT =====================
 function hydrateCustom(){ S.custom=sanitizeState({custom:S.custom}).custom; DECKS[MYDECK].length=0; (S.custom||[]).forEach(c=>DECKS[MYDECK].push(c)); }
 if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyUiLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); $('listenFirst').checked=!!S.listenFirst; $('confMode').checked=!!S.confMode; $('autoFlip').value=S.autoFlip; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); } if(window.requestIdleCallback) requestIdleCallback(()=>{ syncInit(); sbInit(); }); else setTimeout(()=>{ syncInit(); sbInit(); },1);
