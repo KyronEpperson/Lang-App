@@ -960,7 +960,7 @@ function renderRegisterQ(container, _lvl, onAnswer){ const toPolite=Math.random(
 const RR_L=['g','kk','n','d','tt','r','m','b','pp','s','ss','','j','jj','ch','k','t','p','h'];
 const RR_V=['a','ae','ya','yae','eo','e','yeo','ye','o','wa','wae','oe','yo','u','wo','we','wi','yu','eu','ui','i'];
 const RR_T={'':'','ㄱ':'k','ㄴ':'n','ㄷ':'t','ㄹ':'l','ㅁ':'m','ㅂ':'p','ㅇ':'ng'};
-function romanize(text){ return text.split(/(\s+)/).map(tok=>{ if(!/[가-힣]/.test(tok)) return tok; const said=pronounce(tok.replace(/[?!.,~]/g,''),true)[0]; let out='',prevT=''; // RR writes ㅢ as 'ui' even when said [이] for(const ch of said){ const o=ch.charCodeAt(0)-0xAC00; if(o<0||o>11171){ out+=ch; prevT=''; continue; } const L=PJ_L[Math.floor(o/588)],V=Math.floor(o%588/28),T=PJ_T[o%28]; let on=RR_L[PJ_L.indexOf(L)]; if(L==='ㄹ'&&prevT==='ㄹ') on='l'; out+=on+RR_V[V]+(RR_T[T]||''); prevT=T; } return out+(/[?!]$/.test(tok)?tok.slice(-1):''); }).join(''); }
+function romanize(text){ return text.split(/(\s+)/).map(tok=>{ if(!/[가-힣]/.test(tok)) return tok; const said=pronounce(tok.replace(/[?!.,~]/g,''),true)[0]; let out='',prevT=''; /* RR writes ㅢ as 'ui' even when said [이] */ for(const ch of said){ const o=ch.charCodeAt(0)-0xAC00; if(o<0||o>11171){ out+=ch; prevT=''; continue; } const L=PJ_L[Math.floor(o/588)],V=Math.floor(o%588/28),T=PJ_T[o%28]; let on=RR_L[PJ_L.indexOf(L)]; if(L==='ㄹ'&&prevT==='ㄹ') on='l'; out+=on+RR_V[V]+(RR_T[T]||''); prevT=T; } return out+(/[?!]$/.test(tok)?tok.slice(-1):''); }).join(''); }
 // Sound-changes drill: see the spelling, pick how it's actually said
 let soundPool=null;
 function renderSoundQ(container, _lvl, onAnswer){
