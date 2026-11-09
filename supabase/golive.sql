@@ -29,3 +29,37 @@ alter table public.app_errors enable row level security;
 drop policy if exists "app can report" on public.app_errors;
 create policy "app can report" on public.app_errors for insert to anon, authenticated with check (true);
 revoke select, update, delete on public.app_errors from anon, authenticated;
+
+-- 3) Abuse limits (anti-spam / anti-flood). Raise the numbers if the app gets popular.
+create or replace function public.limit_feedback() returns trigger language plpgsql security definer set search_path = public as $$
+begin
+  if (select count(*) from public.feedback where created_at > now() - interval '1 minute') >= 30 then
+    raise exception 'Too many posts right now — try again in a minute' using errcode = 'P0001';
+  end if;
+  if exists (select 1 from public.feedback where message = new.message and created_at > now() - interval '10 minutes') then
+    raise exception 'Duplicate post' using errcode = 'P0001';
+  end if;
+  return new;
+end $$;
+drop trigger if exists feedback_limit on public.feedback;
+create trigger feedback_limit before insert on public.feedback for each row execute function public.limit_feedback();
+
+create or replace function public.limit_errors() returns trigger language plpgsql security definer set search_path = public as $$
+begin
+  if (select count(*) from public.app_errors where created_at > now() - interval '1 minute') >= 60 then
+    return null;  -- silently drop floods
+  end if;
+  return new;
+end $$;
+drop trigger if exists app_errors_limit on public.app_errors;
+create trigger app_errors_limit before insert on public.app_errors for each row execute function public.limit_errors();
+
+-- keep the error table small: delete reports older than 30 days whenever new ones arrive (cheap, no cron needed)
+create or replace function public.prune_errors() returns trigger language plpgsql security definer set search_path = public as $$
+begin delete from public.app_errors where created_at < now() - interval '30 days'; return null; end $$;
+drop trigger if exists app_errors_prune on public.app_errors;
+create trigger app_errors_prune after insert on public.app_errors for each statement execute function public.prune_errors();
+
+-- 4) Progress row size cap (stops someone stuffing megabytes into their own row)
+alter table public.progress drop constraint if exists progress_state_size;
+alter table public.progress add constraint progress_state_size check (pg_column_size(state) < 2000000);

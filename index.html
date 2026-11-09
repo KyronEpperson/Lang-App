@@ -440,7 +440,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
       <h3>Contact</h3>
       <p>Use the Feedback tab. If it's private, post without your name and say how to reach you — or just sign in and tick "Show my name".</p>
       <p class="stat">Lang App is a free learning tool provided as-is. Last updated Nov 2026.</p>
-      <button class="ghost" type="button" onclick="history.length>1?history.back():(location.hash='#progress')">← Back</button>
+      <button class="ghost" type="button" id="privBack">← Back</button>
     </div>
   </section>
   <section class="view" id="v-feedback" hidden>
@@ -1725,7 +1725,8 @@ function codeBox(email,onDone){ const d=document.createElement('form'); d.style.
     rb.onclick=async()=>{ rb.disabled=true; const st=d.querySelector('[role=status]'); try{ await sbSendLink(email); st.textContent='New email sent — use the newest code.'; }catch(err){ st.textContent=err.message; rb.disabled=false; } }; }
   d.onsubmit=async e=>{ e.preventDefault(); const inp=d.querySelector('input'), st=d.querySelector('[role=status]'), b=d.querySelector('button'); b.disabled=true; st.textContent='Checking…'; const code=inp.value.replace(/\D/g,''); if(code.length<6){ st.textContent='Enter the 6-digit code from the email.'; b.disabled=false; return; } try{ await sbVerify(email,code); st.textContent='Signed in ✓'; toast('Signed in — progress syncing'); onDone&&onDone(); }catch(err){ st.textContent=err.message; b.disabled=false; inp.select(); } };
   setTimeout(()=>d.querySelector('input').focus(),60); return d; }
-async function sbSendLink(email){ const r=await fetch(SB.url+'/auth/v1/otp',{method:'POST',headers:sbHdr(false),body:JSON.stringify({email,create_user:true,options:{email_redirect_to:location.origin+location.pathname}})}); if(!r.ok){ let msg='Could not send the email'; try{ const j=await r.json(); msg=j.msg||j.error_description||msg; }catch(e){} if(r.status===429) msg='Email limit reached — wait a minute, or use the last code you got.'; throw new Error(msg); } }
+let sbLastSend=0;
+async function sbSendLink(email){ email=String(email||'').trim().toLowerCase(); if(!/^[^\s@]{1,64}@[^\s@]{1,190}\.[a-z]{2,}$/i.test(email)) throw new Error('That email address doesn\'t look right.'); if(Date.now()-sbLastSend<45000) throw new Error('Email just sent — check your inbox (and spam) before trying again.'); sbLastSend=Date.now(); const r=await fetch(SB.url+'/auth/v1/otp',{method:'POST',headers:sbHdr(false),body:JSON.stringify({email,create_user:true,options:{email_redirect_to:location.origin+location.pathname}})}); if(!r.ok){ let msg='Could not send the email'; try{ const j=await r.json(); msg=j.msg||j.error_description||msg; }catch(e){} if(r.status===429) msg='Email limit reached — wait a minute, or use the last code you got.'; throw new Error(msg); } }
 function sbSignOut(){ const sh=document.createElement('div'); sh.className='sheet'; sh.setAttribute('role','dialog'); sh.setAttribute('aria-modal','true'); sh.setAttribute('aria-label','Sign out');
   sh.innerHTML=`<div class="sheet-in"><h3 style="margin:0 0 4px">Sign out</h3><p class="stat" style="margin:0 0 8px">Your progress is safe in your account either way.</p><button class="opt" id="soKeep">Sign out · keep a copy on this device</button><button class="opt" id="soWipe">Sign out · remove my progress from this device <span class="stat">(shared / borrowed device)</span></button><button class="ghost" id="soCancel">Cancel</button></div>`;
   document.body.appendChild(sh); const close=()=>sh.remove(); sh.onclick=e=>{ if(e.target===sh) close(); }; sh.querySelector('#soCancel').onclick=close;
@@ -1804,8 +1805,8 @@ function renderBoard(){ const box=$('fbBoard'); $('fbAdminTag').hidden=!fbAdmin;
 async function fbPost(fields,named){ const last=S.fbLast||0; if(Date.now()-last<30000){ toast('Give it a few seconds before sending another.'); return false; }
   if(!fbLive()){ toast('Feedback sending works on the website version.'); return false; }
   const row=Object.assign({name:named?fbName():null,user_id:named&&sbSess?sbUid():null,by_admin:fbAdmin,route:(location.hash||'').slice(0,40),app_version:typeof APP_VERSION!=='undefined'?APP_VERSION:'',ua:navigator.userAgent.slice(0,200)},fields);
-  try{ await sbRefresh(); const r=await fetch(SB.url+'/rest/v1/feedback?select=id',{method:'POST',headers:Object.assign(sbHdr(!!sbSess),{'Prefer':'return=representation'}),body:JSON.stringify(row)}); if(!r.ok) throw 0; const j=await r.json(); S.fbMine=(S.fbMine||[]).concat(j.map(x=>x.id)).slice(-200); S.fbLast=Date.now(); save(); award(5); return true; }
-  catch(e){ toast('Could not send right now — try again in a moment.'); return false; } }
+  try{ await sbRefresh(); const r=await fetch(SB.url+'/rest/v1/feedback?select=id',{method:'POST',headers:Object.assign(sbHdr(!!sbSess),{'Prefer':'return=representation'}),body:JSON.stringify(row)}); if(!r.ok){ let m=''; try{ const j=await r.json(); if(j.code==='P0001') m=j.message; }catch(e){} throw {friendly:m}; } const j=await r.json(); S.fbMine=(S.fbMine||[]).concat(j.map(x=>x.id)).slice(-200); S.fbLast=Date.now(); save(); award(5); return true; }
+  catch(e){ toast((e&&e.friendly)||'Could not send right now — try again in a moment.'); return false; } }
 function renderFeedback(){ const n=fbName(); $('fbNameRow').hidden=!n; $('fbAttachLbl').textContent=n?'Show my name ('+n+') publicly':'Show my name'; if(!n) $('fbAttach').checked=false;
   document.querySelectorAll('[data-fbk]').forEach(b=>{ b.setAttribute('aria-pressed',String(b.dataset.fbk===fbKind)); b.onclick=()=>{ fbKind=b.dataset.fbk; renderFeedback(); }; });
   fbCheckAdmin().then(fbLoad); }
@@ -1815,6 +1816,7 @@ $('fbForm').addEventListener('submit',async e=>{ e.preventDefault(); const msg=$
 $('fbMsg').addEventListener('input',e=>{ $('fbCount').textContent=e.target.value.length+' / 2000'; });
 $('fbRefresh').addEventListener('click',fbLoad);
 $('shareApp').addEventListener('click',shareApp);
+$('privBack').addEventListener('click',()=>{ if(history.length>1) history.back(); else location.hash='#progress'; });
 
 // G25: crash reporting (website only) — short message + where, no progress data, no email; max 5 per session, deduped
 const errSeen=new Set(); let errSent=0;
