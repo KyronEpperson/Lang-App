@@ -18,6 +18,7 @@
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Lang App — learn Korean, 5 minutes a day"><meta name="twitter:description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes and real conversations. 5 minutes a day, free in your browser."><meta name="twitter:image" content="https://lang-app.io/og-image.png">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://ddhxqolevqbaabssupvb.supabase.co" crossorigin>
 <link rel="manifest" href="manifest.json">
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
 <script defer src="/_vercel/insights/script.js"></script>
@@ -299,7 +300,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 .sheet-in{background:var(--paper);border-radius:16px 16px 0 0;padding:14px 16px calc(14px + env(safe-area-inset-bottom,0px));width:100%;max-width:560px;display:grid;gap:6px;animation:up .2s ease}
 @keyframes up{from{transform:translateY(20px);opacity:0}to{transform:none;opacity:1}}
 @media (min-width:561px){.sheet{align-items:center}.sheet-in{border-radius:16px}}
-.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font:600 .88rem var(--body);opacity:0;transition:all .3s;z-index:20;pointer-events:none;white-space:nowrap}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font:600 .88rem var(--body);opacity:0;transition:all .3s;z-index:80;pointer-events:none;white-space:nowrap;max-width:calc(100vw - 32px);overflow:hidden;text-overflow:ellipsis}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .sharecard{width:100%;border-radius:12px;border:1px solid var(--line);display:block;margin-top:10px}
 .sdot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:7px;vertical-align:middle;background:var(--line)}
@@ -1698,7 +1699,7 @@ async function syncInit(){
     const el=$('syncStat'); el.innerHTML='<i class="on"></i>Synced to your account'; setSync('synced'); }
   catch(e){ docRef=null; }
 }
-function syncPush(){ if(!docRef) return; clearTimeout(pushT); pushT=setTimeout(async()=>{ if(syncing) { syncPush(); return; } syncing=true; try{ await docRef.set(JSON.parse(JSON.stringify(S))); setSync('synced'); }catch(e){ setSync('error'); if(e&&(e.code==='invalid_argument'||e.code==='unauthenticated')){ docRef=null; $('syncStat').innerHTML='<i></i>This device only'; setSync('local'); if(e.code==='unauthenticated'&&typeof renderAccount==='function'){ sbSess=null; sbSave(); renderAccount(); } } } syncing=false; },1500); }
+function syncPush(){ if(!docRef) return; clearTimeout(pushT); pushT=setTimeout(async()=>{ if(syncing) { syncPush(); return; } syncing=true; try{ await docRef.set(JSON.parse(JSON.stringify(S))); setSync('synced'); }catch(e){ setSync('error'); if(!navigator.onLine) toast('Offline — will sync when you reconnect'); if(e&&(e.code==='invalid_argument'||e.code==='unauthenticated')){ docRef=null; $('syncStat').innerHTML='<i></i>This device only'; setSync('local'); if(e.code==='unauthenticated'&&typeof renderAccount==='function'){ sbSess=null; sbSave(); renderAccount(); } } } syncing=false; },1500); }
 
 
 // ===================== SUPABASE SYNC (standalone website only) =====================
@@ -1749,7 +1750,7 @@ function showWelcome(){ const w=document.createElement('div'); w.className='welc
   const step2=()=>{ w.innerHTML=`<div class="wbox"><h1 style="font-size:1.4rem">Save across devices</h1><form id="wForm" style="display:grid;gap:8px"><input class="ans" id="wMail" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required style="text-align:left;font-size:1rem"><button class="big primary" type="submit">Send sign-in link</button><button class="ghost" type="button" id="wBack">← Back</button><div class="stat" id="wMsg"></div></form></div>`;
     w.querySelector('#wBack').onclick=step1; w.querySelector('#wForm').onsubmit=async e=>{ e.preventDefault(); const b=w.querySelector('button[type=submit]'); b.disabled=true; const msg=w.querySelector('#wMsg'); msg.textContent='Sending…'; try{ await sbSendLink(w.querySelector('#wMail').value.trim()); const em=w.querySelector('#wMail').value.trim(); msg.innerHTML='<b>Check your email.</b> Tap the link, or enter the code below.'; msg.after(codeBox(em,()=>{ w.remove(); hdr(); route(); })); const later=document.createElement('button'); later.className='ghost'; later.type='button'; later.textContent='Start on this device while I wait'; later.onclick=()=>{ S.welcomed=1; save(); w.remove(); }; w.querySelector('.wbox').appendChild(later); }catch(err){ msg.textContent=err.message||'Could not send the link'; b.disabled=false; } }; setTimeout(()=>w.querySelector('#wMail').focus(),50); };
   const step3=()=>{ w.innerHTML=`<div class="wbox"><h1 style="font-size:1.4rem">What should we call you?</h1><form id="wForm" style="display:grid;gap:8px"><input class="ans" id="wNickIn" maxlength="24" autocomplete="nickname" placeholder="Nickname" required style="text-align:left;font-size:1rem"><button class="big primary" type="submit">Start learning</button><button class="ghost" type="button" id="wBack">← Back</button><p class="stat warn" style="margin:0">Saved in this browser only. Clearing site data or switching devices loses progress — add an email any time in Progress to keep it safe.</p></form></div>`;
-    w.querySelector('#wBack').onclick=step1; w.querySelector('#wForm').onsubmit=e=>{ e.preventDefault(); const n=w.querySelector('#wNickIn').value.trim().slice(0,24); if(!n) return; S.nick=n; S.welcomed=1; save(); w.remove(); hdr(); toast('안녕하세요, '+n+'!'); }; setTimeout(()=>w.querySelector('#wNickIn').focus(),50); };
+    w.querySelector('#wBack').onclick=step1; w.querySelector('#wForm').onsubmit=e=>{ e.preventDefault(); const n=w.querySelector('#wNickIn').value.trim().slice(0,24); if(!n) return; S.nick=n; S.welcomed=1; save(); w.remove(); hdr(); toast('안녕하세요, '+n+'!'); askPersist(); }; setTimeout(()=>w.querySelector('#wNickIn').focus(),50); };
   step1(); document.body.appendChild(w); }
 let sbLastPull=0; document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible'&&typeof sbSess!=='undefined'&&sbSess&&Date.now()-sbLastPull>60000) sbInit(); });
 
@@ -1814,9 +1815,21 @@ $('fbForm').addEventListener('submit',async e=>{ e.preventDefault(); const msg=$
 $('fbMsg').addEventListener('input',e=>{ $('fbCount').textContent=e.target.value.length+' / 2000'; });
 $('fbRefresh').addEventListener('click',fbLoad);
 $('shareApp').addEventListener('click',shareApp);
+
+// G25: crash reporting (website only) — short message + where, no progress data, no email; max 5 per session, deduped
+const errSeen=new Set(); let errSent=0;
+function reportError(kind,msg,src,line){ try{ if(window.claude||typeof sbOn!=='function'||!sbOn()) return; const m=String(msg||'').slice(0,300); const key=kind+m+(line||''); if(errSeen.has(key)||errSent>=5) return; errSeen.add(key); errSent++;
+  fetch(SB.url+'/rest/v1/app_errors',{method:'POST',keepalive:true,headers:Object.assign(sbHdr(false),{'Prefer':'return=minimal'}),body:JSON.stringify({kind,message:m,source:String(src||'').replace(location.origin,'').slice(0,120),line:line|0,route:(location.hash||'').slice(0,40),app_version:typeof APP_VERSION!=='undefined'?APP_VERSION:'',ua:navigator.userAgent.slice(0,160)})}).catch(()=>{}); }catch(e){} }
+window.addEventListener('error',e=>reportError('error',e.message,e.filename,e.lineno));
+window.addEventListener('unhandledrejection',e=>{ const r=e.reason; reportError('promise',(r&&(r.message||r.code))||String(r)); });
+
+// G30: ask the browser not to evict this device's progress (matters most for nickname-only users)
+async function askPersist(){ try{ if(navigator.storage&&navigator.storage.persist&&!(await navigator.storage.persisted())) await navigator.storage.persist(); }catch(e){} }
+// G31: if a sync push failed while offline, retry when the connection comes back
+window.addEventListener('online',()=>{ if(typeof docRef!=='undefined'&&docRef){ syncPush(); } else if(typeof sbSess!=='undefined'&&sbSess){ sbInit(); } });
 // ===================== BOOT =====================
 function hydrateCustom(){ S.custom=sanitizeState({custom:S.custom}).custom; DECKS[MYDECK].length=0; (S.custom||[]).forEach(c=>DECKS[MYDECK].push(c)); }
-if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyUiLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); $('listenFirst').checked=!!S.listenFirst; $('confMode').checked=!!S.confMode; $('autoFlip').value=S.autoFlip; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); } if(window.requestIdleCallback) requestIdleCallback(()=>{ syncInit(); sbInit(); }); else setTimeout(()=>{ syncInit(); sbInit(); },1);
+if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyUiLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); $('listenFirst').checked=!!S.listenFirst; $('confMode').checked=!!S.confMode; $('autoFlip').value=S.autoFlip; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); else if(S.welcomed) askPersist(); } if(window.requestIdleCallback) requestIdleCallback(()=>{ syncInit(); sbInit(); }); else setTimeout(()=>{ syncInit(); sbInit(); },1);
 if(!window.claude && 'serviceWorker' in navigator && /^https?:/.test(location.protocol)){ navigator.serviceWorker.register('sw.js').then(reg=>{ const offer=w=>{ const t=$('toast'); t.innerHTML='New version ready · <button class="ghost" style="padding:2px 8px;color:var(--bg);border-color:var(--bg)">Reload</button>'; t.style.pointerEvents='auto'; t.classList.add('show'); clearTimeout(toastT); t.querySelector('button').onclick=()=>{ w.postMessage('skipWaiting'); }; };
   if(reg.waiting) offer(reg.waiting); reg.addEventListener('updatefound',()=>{ const nw=reg.installing; nw&&nw.addEventListener('statechange',()=>{ if(nw.state==='installed'&&navigator.serviceWorker.controller) offer(nw); }); }); }).catch(()=>{});
   let refreshing=false; navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(!refreshing){ refreshing=true; location.reload(); } }); }
