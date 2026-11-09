@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Lang App · Korean</title>
+<title>Lang App</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta property="og:title" content="Lang App · Korean"><meta property="og:description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes, and a 5-minute daily session."><meta name="description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes, and a daily 5-minute session.">
+<meta property="og:title" content="Lang App"><meta property="og:description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes, and a 5-minute daily session."><meta name="description" content="Learn Korean from zero: Hangul, flashcards with audio, quizzes, and a daily 5-minute session.">
 <meta name="theme-color" content="#f3efe6" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#15161c" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -331,7 +331,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 
 <div class="wrap">
   <header>
-    <div class="top"><h1>한글 <small>Korean starter</small></h1><div style="display:flex;gap:8px;align-items:center"><button class="ghost" id="gsBtn" aria-label="Search everything" title="Search (/ or Ctrl+K)" style="padding:4px 9px">🔍</button><div class="stat" id="hdrStat"><i class="sdot" id="syncDot" data-state="local"></i></div></div></div>
+    <div class="top"><h1>한글 <small>Lang App · Korean</small></h1><div style="display:flex;gap:8px;align-items:center"><button class="ghost" id="gsBtn" aria-label="Search everything" title="Search (/ or Ctrl+K)" style="padding:4px 9px">🔍</button><div class="stat" id="hdrStat"><i class="sdot" id="syncDot" data-state="local"></i></div></div></div>
     <nav id="nav"><a href="#today" data-ico="☀️">Today</a><a href="#practice" data-ico="🎯">Practice</a><a href="#review" data-ico="🔁">Review</a><a href="#lessons" data-ico="📖">Lessons</a><a href="#read" data-ico="🔤">Read</a><a href="#progress" data-ico="📈">Progress</a></nav>
   </header>
 
@@ -1608,7 +1608,7 @@ function drawRecap(o){ const cv=document.createElement('canvas'); cv.width=1080;
   g.fillStyle='#f3efe6'; g.font='900 110px "Noto Sans KR",sans-serif'; g.fillText('수고했어요',60,190); g.font='500 30px "DM Mono",monospace'; g.fillStyle='#9a9dab'; g.fillText('SESSION DONE · +'+o.xp+' XP · '+new Date().toLocaleDateString(),60,240);
   const stats=[[o.cards,'CARDS'],[o.quiz,'QUIZ'],[o.read,'READING'],[o.streak+'🔥','STREAK']];
   stats.forEach((s,i)=>{ const x=60+i*255; g.fillStyle='#f3efe6'; g.font='700 78px "DM Sans",sans-serif'; g.fillText(String(s[0]),x,440); g.fillStyle='#9a9dab'; g.font='500 24px "DM Mono",monospace'; g.fillText(s[1],x,485); });
-  g.fillStyle='#5fbf92'; g.font='500 26px "DM Mono",monospace'; g.fillText('Lv '+levelOf(S.xp)+' · '+titleOf(levelOf(S.xp))[2]+' · 한글 Korean starter',60,560); return cv; }
+  g.fillStyle='#5fbf92'; g.font='500 26px "DM Mono",monospace'; g.fillText('Lv '+levelOf(S.xp)+' · '+titleOf(levelOf(S.xp))[2]+' · Lang App',60,560); return cv; }
 async function showShare(out, cv, name){ out.innerHTML=''; const img=new Image(); img.className='sharecard'; img.src=cv.toDataURL('image/png'); img.alt='Share card'; out.appendChild(img);
   const dl=await claude_use('downloads'); const note=document.createElement('p'); note.style.cssText='font-size:.8rem;color:var(--muted);margin-top:8px';
   if(dl){ const b=document.createElement('button'); b.className='ghost'; b.textContent='Save PNG'; b.onclick=()=>cv.toBlob(async blob=>{ try{ await dl.save({filename:name,data:blob}); toast('Saved.'); }catch(e){ if(e&&e.code!=='declined') toast('Could not save here. Long-press the image instead.'); } },'image/png'); out.appendChild(b); }
