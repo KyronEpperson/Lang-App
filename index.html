@@ -464,7 +464,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='1.1.0 · 2026-11-11';
+const APP_VERSION='1.1.1 · 2026-11-12';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1950,7 +1950,7 @@ function playIntro(short){ try{ const nm=S.nick||(typeof sbSess!=='undefined'&&s
 // ===================== BOOT =====================
 function hydrateCustom(){ S.custom=sanitizeState({custom:S.custom}).custom; DECKS[MYDECK].length=0; (S.custom||[]).forEach(c=>DECKS[MYDECK].push(c)); }
 if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyUiLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); $('listenFirst').checked=!!S.listenFirst; $('confMode').checked=!!S.confMode; $('autoFlip').value=S.autoFlip; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); else if(S.welcomed) askPersist(); }
-if(!document.getElementById('welcome')&&S.introDay!==dkey()){ const first=!S.introDay; S.introDay=dkey(); save(); playIntro(!first&&!window.__justSignedIn); } if(window.requestIdleCallback) requestIdleCallback(()=>{ syncInit(); sbInit(); }); else setTimeout(()=>{ syncInit(); sbInit(); },1);
+if(!document.getElementById('welcome')){ playIntro(false); } // full intro on every page load (tap to skip; off via 3D effects toggle) if(window.requestIdleCallback) requestIdleCallback(()=>{ syncInit(); sbInit(); }); else setTimeout(()=>{ syncInit(); sbInit(); },1);
 if(!window.claude && 'serviceWorker' in navigator && /^https?:/.test(location.protocol)){ navigator.serviceWorker.register('sw.js').then(reg=>{ const offer=w=>{ const t=$('toast'); t.innerHTML='New version ready · <button class="ghost" style="padding:2px 8px;color:var(--bg);border-color:var(--bg)">Reload</button>'; t.style.pointerEvents='auto'; t.classList.add('show'); clearTimeout(toastT); t.querySelector('button').onclick=()=>{ w.postMessage('skipWaiting'); }; };
   if(reg.waiting) offer(reg.waiting); reg.addEventListener('updatefound',()=>{ const nw=reg.installing; nw&&nw.addEventListener('statechange',()=>{ if(nw.state==='installed'&&navigator.serviceWorker.controller) offer(nw); }); }); }).catch(()=>{});
   let refreshing=false; const hadCtl=!!navigator.serviceWorker.controller; /* first install must not reload the page mid-welcome */ navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(hadCtl&&!refreshing){ refreshing=true; location.reload(); } }); }

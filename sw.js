@@ -1,4 +1,4 @@
-const C='korean-v1794456570';const A=['./','index.html','manifest.json','icon.png','icon-192.png','apple-touch-icon.png','favicon-32.png','three.min.js','offline.html'];
+const C='korean-v1794510872';const A=['./','index.html','manifest.json','icon.png','icon-192.png','apple-touch-icon.png','favicon-32.png','three.min.js','offline.html'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(A)));});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
 self.addEventListener('message',e=>{if(e.data==='skipWaiting')self.skipWaiting();});
