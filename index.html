@@ -290,7 +290,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 .hard small{font-family:var(--mono);color:var(--accent);font-size:.74rem}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (prefers-contrast:more){:root{--line:#8a8578}.panel,.card .face,.chip,.opt,.ghost{border-width:2px}}
-#fx3d{position:fixed;inset:0;width:100%;height:100%;z-index:70;pointer-events:none;display:none;touch-action:none}
+#fx3d{position:fixed;top:0;left:0;width:100vw;height:100vh;height:100lvh;z-index:70;pointer-events:none;display:none;touch-action:none}
 #fxIntro{position:fixed;left:16px;right:16px;bottom:20%;z-index:71;text-align:center;pointer-events:none;color:#f3efe6;opacity:0;transform:translateY(12px);transition:opacity .6s,transform .6s}
 #fxIntro.in{opacity:1;transform:none}#fxIntro .fxi-t{font:700 1.7rem var(--ko);text-shadow:0 2px 18px rgba(255,90,69,.45)}#fxIntro .fxi-s{font:.98rem var(--body);color:#c9c3b6;margin-top:6px}
 #fxIntro .fxi-k{position:fixed;left:0;right:0;bottom:max(18px,env(safe-area-inset-bottom,0px));font:.7rem var(--mono);color:#7d8094;letter-spacing:.12em;text-transform:uppercase}
@@ -475,7 +475,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='1.3.0 · 2026-11-13';
+const APP_VERSION='1.3.1 · 2026-11-13';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1902,13 +1902,20 @@ const FX3D=(()=>{
     renderer=new T.WebGLRenderer({canvas:cv,alpha:true,antialias:!low,powerPreference:'high-performance'}); renderer.setClearColor(0x000000,0);
     scene=new T.Scene(); camera=new T.PerspectiveCamera(50,1,0.1,200); camera.position.set(0,0,12); size(); addEventListener('resize',size);
     const c=document.createElement('canvas'); c.width=c.height=64; const g=c.getContext('2d'); const gr=g.createRadialGradient(32,32,0,32,32,32); gr.addColorStop(0,'rgba(255,255,255,1)'); gr.addColorStop(.35,'rgba(255,255,255,.85)'); gr.addColorStop(1,'rgba(255,255,255,0)'); g.fillStyle=gr; g.fillRect(0,0,64,64); dotTex=new T.CanvasTexture(c);
-    document.addEventListener('visibilitychange',()=>{ if(document.hidden){ cancelAnimationFrame(raf); raf=0; } else if(items.length&&!raf){ last=performance.now(); raf=requestAnimationFrame(tick); } }); }
-  function size(){ if(!renderer) return; const w=innerWidth,h=innerHeight; renderer.setPixelRatio(Math.min(devicePixelRatio||1,low?1.5:2)); renderer.setSize(w,h,false); cv.style.width=w+'px'; cv.style.height=h+'px'; camera.aspect=w/h; camera.updateProjectionMatrix(); }
+    document.addEventListener('visibilitychange',()=>{ if(document.hidden){ cancelAnimationFrame(raf); raf=0; } else if(items.length&&!raf){ last=performance.now(); raf=requestAnimationFrame(tick); } });
+    cv.addEventListener('webglcontextlost',e=>{ e.preventDefault(); failed=true; hardReset(); });
+    cv.addEventListener('pointerdown',()=>{ if(items.length&&performance.now()-lastFrame>800) hardReset(); }); // a stalled animation must never trap the user
+    addEventListener('pageshow',()=>{ if(items.length&&!raf&&!document.hidden){ last=performance.now(); raf=requestAnimationFrame(tick); } }); }
+  let VW=innerWidth, VH=innerHeight;
+  function size(){ if(!renderer) return; const r=cv.getBoundingClientRect(); const w=Math.round(r.width)||innerWidth, h=Math.round(r.height)||innerHeight; if(w===VW&&h===VH&&size.done) return; size.done=true; VW=w; VH=h; renderer.setPixelRatio(Math.min(devicePixelRatio||1,low?1.5:2)); renderer.setSize(w,h,false); camera.aspect=w/h; camera.updateProjectionMatrix(); }
   const vh=()=>2*Math.tan(camera.fov*Math.PI/360)*camera.position.z, vw=()=>vh()*camera.aspect;
-  const toWorld=(px,py)=>[(px/innerWidth-.5)*vw(),(.5-py/innerHeight)*vh()];
+  const toWorld=(px,py)=>[(px/VW-.5)*vw(),(.5-py/VH)*vh()];
   function glyph(i){ if(glyphTex[i]) return glyphTex[i]; const c=document.createElement('canvas'); c.width=c.height=128; const g=c.getContext('2d'); g.font='700 96px "Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif'; g.textAlign='center'; g.textBaseline='middle'; g.fillStyle='#fff'; g.fillText(GLYPHS[i],64,70); return glyphTex[i]=new T.CanvasTexture(c); }
-  function add(it){ items.push(it); cv.style.display='block'; if(!raf){ last=performance.now(); raf=requestAnimationFrame(tick); } return it; }
-  function tick(now){ const dt=Math.min(.05,(now-last)/1000); last=now;
+  function add(it){ items.push(it); cv.style.display='block'; size(); if(!raf){ last=performance.now(); raf=requestAnimationFrame(tick); } return it; }
+  let lastFrame=0;
+  function hardReset(){ cancelAnimationFrame(raf); raf=0; items.splice(0).forEach(it=>{ try{ it.dispose&&it.dispose(); }catch(e){} }); try{ renderer&&renderer.clear(); }catch(e){} if(cv){ cv.style.display='none'; cv.style.background=''; cv.style.opacity=''; cv.style.pointerEvents='none'; } if(introEl){ introEl.remove(); introEl=null; } idleItem=null; idleClose(); try{ wakeOff(); }catch(e){} }
+  function tick(now){ const dt=Math.min(.1,Math.max(0,(now-last)/1000)); last=now; lastFrame=now; try{ step(dt); }catch(e){ failed=true; hardReset(); } }
+  function step(dt){
     for(let i=items.length-1;i>=0;i--){ const it=items[i]; it.t=(it.t||0)+dt; let alive=true; try{ alive=it.update(dt,it.t)!==false; }catch(e){ alive=false; } if(!alive){ try{ it.dispose&&it.dispose(); }catch(e){} items.splice(i,1); } }
     renderer.render(scene,camera);
     if(items.length) raf=requestAnimationFrame(tick); else { raf=0; renderer.clear(); cv.style.display='none'; cv.style.background=''; cv.style.opacity=''; cv.style.pointerEvents='none'; camera.position.set(0,0,12); camera.lookAt(0,0,0); } }
@@ -1937,9 +1944,9 @@ const FX3D=(()=>{
   function label(lines){ const c=document.createElement('canvas'); c.width=1024; c.height=512; const g=c.getContext('2d'); g.textAlign='center'; g.textBaseline='middle'; lines.forEach(l=>{ g.font=l.font; g.fillStyle=l.color; g.shadowColor='rgba(0,0,0,.55)'; g.shadowBlur=18; g.fillText(l.text,512,l.y,980); }); const t=new T.CanvasTexture(c); const m=new T.MeshBasicMaterial({map:t,transparent:true,depthWrite:false}); m.userData={ownMap:true}; return new T.Mesh(new T.PlaneGeometry(2,1),m); }
 
   // ---- effects ----
-  function flip(el){ const r=el&&el.getBoundingClientRect?el.getBoundingClientRect():null; const [x,y]=r?toWorld(r.left+r.width/2,r.top+r.height/2):[0,0]; const d=dark(), C=pal(d); const w=r?(r.width/innerWidth)*vw():3;
+  function flip(el){ const r=el&&el.getBoundingClientRect?el.getBoundingClientRect():null; const [x,y]=r?toWorld(r.left+r.width/2,r.top+r.height/2):[0,0]; const d=dark(), C=pal(d); const w=r?(r.width/VW)*vw():3;
     burst(x,y,{n:46,ring:true,speed:w*1.5,life:.6,gravity:0,drag:3.2,size:.16,colors:[C[1],C[0],C[2]]}); ringWave(x,y,{color:C[1],to:w*.6,life:.5,alpha:.55}); }
-  function good(){ let px=innerWidth/2, py=innerHeight*.45; if(lastPt&&performance.now()-lastPt[2]<1500){ px=lastPt[0]; py=lastPt[1]; } else { const a=document.activeElement; if(a&&a!==document.body&&a.getBoundingClientRect){ const r=a.getBoundingClientRect(); px=r.left+r.width/2; py=r.top+r.height/2; } }
+  function good(){ let px=VW/2, py=VH*.45; if(lastPt&&performance.now()-lastPt[2]<1500){ px=lastPt[0]; py=lastPt[1]; } else { const a=document.activeElement; if(a&&a!==document.body&&a.getBoundingClientRect){ const r=a.getBoundingClientRect(); px=r.left+r.width/2; py=r.top+r.height/2; } }
     const [x,y]=toWorld(px,py), d=dark(); burst(x,y,{n:22,speed:3.2,life:.6,gravity:1.5,size:.15,colors:d?['#7ee787','#ffd166','#ffffff']:['#1f9d55','#d98e04']}); }
   function streak(n){ const d=dark(), C=pal(d), H=vh(); const big=n>=20?3:n>=10?2:1; burst(0,H*.12,{n:60*big,speed:5+big,life:1.1,colors:C}); ringWave(0,H*.12,{color:C[0],to:3+big,life:.7}); const m=label([{text:'×'+n,font:'800 230px "DM Sans",system-ui,sans-serif',color:d?'#ffd166':'#c2402f',y:230},{text:n>=20?'불타오르네! 🔥':n>=10?'대박!':'좋아요!',font:'700 86px "Noto Sans KR",sans-serif',color:d?'#f3efe6':'#1d1f24',y:410}]); m.position.set(0,H*.12,1); scene.add(m);
     add({update(dt,t){ const s=2.2*eBack(t/.35); m.scale.set(s,s,1); m.material.opacity=Math.min(1,(1.15-t)*4); m.position.y=H*.12+t*.5; return t<1.15; }, dispose(){ kill(m); }}); }
@@ -1968,7 +1975,7 @@ const FX3D=(()=>{
     const NB=Math.round(380*K), Bg=points(NB,.09,true); for(let i=0;i<NB;i++){ Bg.pos[i*3]=rnd(-22,22); Bg.pos[i*3+1]=rnd(-22,22); Bg.pos[i*3+2]=rnd(-50,-12); paint(Bg,i,pick(['#6b6f8a','#8a7f9c','#55607a'])); } Bg.g.attributes.color.needsUpdate=true;
     introEl=document.createElement('div'); introEl.id='fxIntro'; introEl.setAttribute('aria-hidden','true'); const hello=document.createElement('div'); hello.className='fxi-t'; hello.textContent=o.title||'안녕하세요'; const sub=document.createElement('div'); sub.className='fxi-s'; sub.textContent=o.sub||'Learn Korean, 5 minutes a day'; const skip=document.createElement('div'); skip.className='fxi-k'; skip.textContent='tap to skip'; introEl.append(hello,sub,skip); document.body.appendChild(introEl);
     const t1=short?1.25:1.7, t2=short?1.75:2.5, t3=short?1.75:3.4, t4=short?1.75:4.05, t5=t4+.75; let skipT=null; const doSkip=()=>{ if(skipT===null) skipT=1; }; cv.addEventListener('pointerdown',doSkip,{once:true}); const key=e=>{ if(e.key==='Escape'||e.key==='Enter'||e.key===' ') doSkip(); }; addEventListener('keydown',key);
-    let shown=false, off=0, faded=false;
+    let shown=false, off=0, faded=false; const wd=setTimeout(()=>{ if(introEl) hardReset(); },(short?5:9)*1000);
     return add({update(dt,tr){ if(skipT===1){ off=Math.max(0,t4-tr); skipT=2; } const t=tr+off;
       if(!shown&&t>(short?.5:2.55)){ shown=true; introEl.classList.add('in'); }
       for(let i=0;i<N;i++){ const ax=A[i*3]*wa, ay=A[i*3+1]*wa+y0, bx=B[i*3]*wb, by=B[i*3+1]*wb+y0; let x,y,z;
@@ -1978,7 +1985,7 @@ const FX3D=(()=>{
         P.pos[i*3]=x; P.pos[i*3+1]=y; P.pos[i*3+2]=z; }
       P.g.attributes.position.needsUpdate=true; P.m.size=(low?.085:.07)*(1+.25*Math.sin(t*9)); Bg.p.rotation.z+=dt*.03; camera.position.x=Math.sin(t*.7)*.55; camera.position.y=Math.cos(t*.5)*.25; camera.lookAt(0,y0*.5,0);
       if(t>t4&&!faded){ faded=true; cv.style.opacity='0'; if(introEl) introEl.classList.remove('in'); }
-      return t<t5; }, dispose(){ kill(P.p); kill(Bg.p); removeEventListener('keydown',key); cv.removeEventListener('pointerdown',doSkip); if(introEl){ introEl.remove(); introEl=null; } }}); }
+      return t<t5; }, dispose(){ kill(P.p); kill(Bg.p); clearTimeout(wd); removeEventListener('keydown',key); cv.removeEventListener('pointerdown',doSkip); if(introEl){ introEl.remove(); introEl=null; } }}); }
 
   function elXY(el){ const r=el&&el.getBoundingClientRect?el.getBoundingClientRect():null; return r?toWorld(r.left+r.width/2,r.top+r.height/2):[0,0]; }
   function correct(el){ const [x,y]=elXY(el), d=dark(), H=vh(); burst(x,y,{n:90,speed:6.5,life:1,gravity:2.5,size:.2,colors:d?['#7ee787','#ffd166','#ffffff','#4fd1c5']:['#1f9d55','#d98e04','#1f9d8f']}); ringWave(x,y,{color:d?'#7ee787':'#1f9d55',to:3.4,life:.6,thick:true,alpha:.7}); ringWave(x,y,{color:'#ffd166',to:5.2,life:.8,delay:.08,alpha:.55});
@@ -2020,9 +2027,9 @@ const FX3D=(()=>{
       const morph=u<1.7; for(let i=0;i<N;i++){ const p=eIO((u-D[i]*.4)/1.15), sc=Math.sin(p*Math.PI)*1.3, a=i*3; P.pos[a]=from[a]+(to[a]-from[a])*p+R[a]*sc; P.pos[a+1]=from[a+1]+(to[a+1]-from[a+1])*p+R[a+1]*sc; P.pos[a+2]=from[a+2]+(to[a+2]-from[a+2])*p+R[a+2]*sc*1.6+(p>=1?Math.sin(to[a]*3+t*4)*.06:0);
         if(morph){ P.col[a]=cf[a]+(ct[a]-cf[a])*p; P.col[a+1]=cf[a+1]+(ct[a+1]-cf[a+1])*p; P.col[a+2]=cf[a+2]+(ct[a+2]-cf[a+2])*p; } }
       P.g.attributes.position.needsUpdate=true; if(morph) P.g.attributes.color.needsUpdate=true; P.m.size=(low?.085:.07)*(1+.22*Math.sin(t*7)); Bg.p.rotation.z+=dt*.03; camera.position.x=Math.sin(t*.45)*.6; camera.position.y=Math.cos(t*.33)*.3; camera.lookAt(0,y0*.5,0);
-      if(t>((o&&o.maxT)||240)){ if(idleEl){ idleEl.classList.add('in','static'); eTag.textContent='⏸'; eKo.textContent='잠깐 멈춤'; eRom.textContent='jamkkan meomchum'; eEn.textContent='Paused'; const el=idleEl; el.addEventListener('pointerdown',()=>{ el.remove(); if(idleEl===el) idleEl=null; },{once:true}); } this.frozen=true; return false; } // save battery: go static after 4 minutes
+      if(t>((o&&o.maxT)||240)){ if(idleEl){ idleEl.classList.add('in','static'); eTag.textContent='⏸'; eKo.textContent='잠깐 멈춤'; eRom.textContent='jamkkan meomchum'; eEn.textContent='Paused'; const el=idleEl; el.addEventListener('pointerdown',()=>{ el.remove(); if(idleEl===el) idleEl=null; },{once:true}); } this.frozen=true; try{ wakeOff(); }catch(e){} return false; } // save battery: go static after 4 minutes
       if(u>HOLD) next(t); },
-      dispose(){ kill(P.p); kill(Bg.p); cv.removeEventListener('pointerdown',stop); removeEventListener('keydown',key); if(!this.frozen) idleClose(); idleItem=null; }}); }
+      dispose(){ kill(P.p); kill(Bg.p); cv.removeEventListener('pointerdown',stop); removeEventListener('keydown',key); if(!this.frozen) idleClose(); idleItem=null; try{ wakeOff(); }catch(e){} }}); }
   const FN={flip,good,streak,celebrate,levelUp,intro,correct,wrong,idle};
   function run(kind){ const args=[].slice.call(arguments,1); if(!on()) return Promise.resolve(false); return load().then(()=>{ FN[kind].apply(null,args); return true; }).catch(()=>false); }
   return {on,run,preload:()=>{ if(on()) load().catch(()=>{}); },state:()=>({loaded:!!T,failed,items:items.length,idle:!!idleItem}),stopIdle:()=>{ if(idleItem) idleItem.stop(); }};
@@ -2034,14 +2041,18 @@ function playIntro(short){ try{ const nm=S.nick||(typeof sbSess!=='undefined'&&s
 
 
 // ---- Idle screensaver: after 60s without input, drift through a pause sign, encouragement and words to learn ----
-let idleT=null, idleMs=60000;
+let idleT=null, idleW=null, idleMs=30000, wakeL=null;
+async function wakeOn(){ try{ if('wakeLock' in navigator&&!wakeL&&!document.hidden&&FX3D.on()){ wakeL=await navigator.wakeLock.request('screen'); wakeL.addEventListener('release',()=>{ wakeL=null; }); } }catch(e){} }
+function wakeOff(){ try{ if(wakeL) wakeL.release(); }catch(e){} wakeL=null; }
 function idleSlides(){ const ok=k=>/^[가-힣 ?!]+$/.test(k)&&k.length<=7&&!/화이팅|잘하고 있어요|천천히/.test(k); const seen=new Set(), due=[], weak=[], fresh=[];
   names.forEach(d=>{ if(/^Hangul|^Pronunciation/.test(d)||!deckUnlocked(d)) return; DECKS[d].forEach(c=>{ if(!ok(c[0])||seen.has(c[0])) return; seen.add(c[0]); const s=cardState(d,c); const w={ko:c[0],rom:c[1],en:c[2],tag:d}; if(!s) fresh.push(w); else if(s.due<=dayNum()||s.lapses>1) due.push(Object.assign(w,{tag:'Due for review · '+d})); else weak.push(w); }); });
   const words=shuffle(due).slice(0,6).concat(shuffle(fresh).slice(0,6),shuffle(weak).slice(0,3)).slice(0,12).map(w=>Object.assign(w,{tag:/^Due/.test(w.tag)?w.tag:'Word to learn · '+w.tag}));
   const extra=[{shape:'heart',ko:'화이팅!',rom:'hwaiting',en:"You've got this!",tag:''},{shape:'star',ko:'잘하고 있어요',rom:'jalhago isseoyo',en:"You're doing great",tag:''},{ko:'천천히',rom:'cheoncheonhi',en:'Take your time',tag:''},{ko:'다시 시작',rom:'dasi sijak',en:'Tap to start again',tag:''}];
   const out=[{shape:'pause',ko:'잠깐 멈춤',rom:'jamkkan meomchum',en:'Paused',tag:''},{ko:'배우는 중',rom:'baeuneun jung',en:'Learning…',tag:''}]; let e=0;
   shuffle(words).forEach((w,i)=>{ out.push(w); if(i%3===2&&e<extra.length) out.push(extra[e++]); }); if(out.length<4) out.push(extra[0],extra[1]); return out; }
-function armIdle(){ clearTimeout(idleT); idleT=setTimeout(()=>{ const st=FX3D.state(); if(document.hidden||!FX3D.on()||st.items||st.idle||document.getElementById('welcome')||document.getElementById('fxIdle')||(window.speechSynthesis&&speechSynthesis.speaking)) return armIdle(); fx3('idle',{slides:idleSlides()}); },idleMs); }
+function armIdle(){ clearTimeout(idleT); clearTimeout(idleW); if(!FX3D.state().idle) wakeOff();
+  idleW=setTimeout(wakeOn,Math.max(0,idleMs-12000)); // phones auto-lock at ~30s: hold the screen on so the pause scene can appear (released when it ends)
+  idleT=setTimeout(()=>{ const st=FX3D.state(); if(document.hidden||!FX3D.on()||st.idle||document.getElementById('welcome')||document.getElementById('fxIdle')) return armIdle(); if(st.items){ idleT=setTimeout(armIdle,4000); return; } fx3('idle',{slides:idleSlides()}); },idleMs); }
 ['pointerdown','keydown','wheel','touchstart','input'].forEach(ev=>addEventListener(ev,armIdle,{passive:true,capture:true})); document.addEventListener('visibilitychange',armIdle); armIdle();
 // ===================== BOOT =====================
 function hydrateCustom(){ S.custom=sanitizeState({custom:S.custom}).custom; DECKS[MYDECK].length=0; (S.custom||[]).forEach(c=>DECKS[MYDECK].push(c)); }
