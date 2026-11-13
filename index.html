@@ -373,12 +373,9 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
     <div class="decks" id="decks" role="group" aria-label="Decks"></div>
     <div class="row" style="margin-top:10px">
       <div class="modes" style="width:auto"><button class="chip" id="cmDue" aria-pressed="true">Due</button><button class="chip" id="cmAll" aria-pressed="false">All</button><button class="chip" id="cmBrowse" aria-pressed="false">📖 Browse</button></div>
-      <label class="auto">Auto-flip <select class="ghost" id="autoFlip" style="padding:4px 6px"><option value="0">off</option><option value="3">3s</option><option value="5">5s</option></select></label>
       <label class="auto"><input type="checkbox" id="auto"> Audio</label>
       <label class="auto">Speed <select class="ghost" id="rateSel" style="padding:4px 6px"><option value="0.7">slow</option><option value="0.85">normal</option><option value="1">native</option></select></label>
-      <label class="auto"><input type="checkbox" id="hideRom"> Hide romanization</label>
-      <label class="auto"><input type="checkbox" id="listenFirst"> Listen first (new cards)</label>
-      <label class="auto"><input type="checkbox" id="confMode"> Ask "do you know it?" first</label>
+      <label class="auto"><input type="checkbox" id="hideRom"> Blur romanization in Browse</label>
     </div>
     <div id="cardsStage" style="margin-top:12px"></div>
     <div class="keys"><kbd>F</kbd> flip · <kbd>←</kbd> again · <kbd>→</kbd> got it · <kbd>P</kbd> play · <kbd>1-4</kbd> quiz answer · <kbd>Enter</kbd> next</div>
@@ -472,7 +469,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='1.2.0 · 2026-11-13';
+const APP_VERSION='1.2.1 · 2026-11-13';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -760,6 +757,7 @@ function cleanText(v,max){ return String(v==null?'':v).replace(/[<>]/g,'').repla
 function sanitizeState(s){ if(!s||typeof s!=='object') return s; ['__proto__','constructor','prototype'].forEach(k=>{ if(Object.prototype.hasOwnProperty.call(s,k)) delete s[k]; });
   if(Array.isArray(s.custom)) s.custom=s.custom.filter(c=>Array.isArray(c)).slice(0,2000).map(c=>c.slice(0,4).map((x,i)=>cleanText(x,i===3?400:200))); else s.custom=[];
   if(s.notes&&typeof s.notes==='object'){ const n={}; Object.keys(s.notes).slice(0,3000).forEach(k=>{ n[cleanText(k,200)]=cleanText(s.notes[k],600); }); s.notes=n; }
+  s.listenFirst=false; s.confMode=false; s.autoFlip=0; // retired flashcard options
   if(s.nick!=null) s.nick=cleanText(s.nick,24); if(s.studyAt!=null&&!/^\d{2}:\d{2}$/.test(s.studyAt)) s.studyAt='21:00'; if(s.accent!=null&&!/^[a-z]{2,12}$/.test(s.accent)) s.accent='red';
   return s; }
 function load(){ try{ const s=JSON.parse(localStorage.getItem('ko-app2')||'null'); if(s&&typeof s==='object') S=sanitizeState(Object.assign(fresh(),s));
@@ -1297,7 +1295,7 @@ function sessStep(){
   $('sessQuit').onclick=sessDone;
   const body=$('sessBody');
   const logIt=(ok)=>{ if(sess&&sess.log) sess.log.push({t:it.t,d:it.d,c:it.c,ok}); };
-  if(it.t==='card') cleanup=renderFlashcard(body,it.d,it.c,ok=>{ if(ok===null){ sess.i++; sessStep(); return; } logIt(ok); grade(it.d,it.c,ok,it.isNew); sess.stats.cards++; if(ok) sess.stats.got++; if(!ok){ sess.items.push({t:'card',d:it.d,c:it.c,isNew:false}); (sess.missed=sess.missed||[]).push({d:it.d,c:it.c}); } sess.i++; sessStep();
+  if(it.t==='card') cleanup=renderReviewQ(body,it.d,it.c,ok=>{ if(ok===null){ sess.i++; sessStep(); return; } logIt(ok); grade(it.d,it.c,ok,it.isNew); sess.stats.cards++; if(ok) sess.stats.got++; if(!ok){ sess.items.push({t:'card',d:it.d,c:it.c,isNew:false}); (sess.missed=sess.missed||[]).push({d:it.d,c:it.c}); } sess.i++; sessStep();
     const bar=document.querySelector('#session .sessbar'); if(bar&&sess) offerUndo(bar, ()=>{ if(sess&&undoGrade()){ sess.stats.cards--; if(ok) sess.stats.got--; if(!ok) sess.items.pop(); sess.i--; sessStep(); toast('Undone.'); } }); });
   else if(it.t==='quiz') cleanup=renderQuizQ(body,it.d,it.c,it.mode,ok=>{ logIt(ok); sess.stats.quiz++; if(ok) sess.stats.qok++; sess.i++; sessStep(); });
   else if(it.t==='role') cleanup=renderRoleQ(body,0,ok=>{ logIt(ok); sess.stats.h++; if(ok) sess.stats.hok++; sess.i++; sessStep(); });
@@ -1445,7 +1443,7 @@ function buildCards(){ const isTag=/^\*tag\*:/.test(deck); if(isTag){ const t=de
 
 // Review = multiple choice: see the meaning, pick the right Hangul. New cards are taught first, then quizzed.
 let rvTouched=false; // only auto-scroll once the user has started answering (never on page open)
-function rvView(el,toEnd){ try{ if(!el||$('v-cards').hidden) return; const r=el.getBoundingClientRect(), navH=innerWidth<700?64:8; if(toEnd){ if(r.bottom>innerHeight-navH) window.scrollBy({top:r.bottom-(innerHeight-navH)+8,behavior:'smooth'}); } else if(r.bottom>innerHeight-navH||r.top<60){ window.scrollBy({top:r.top-72,behavior:'smooth'}); } }catch(e){} }
+function rvView(el,toEnd){ try{ if(!el) return; const r=el.getBoundingClientRect(), navH=innerWidth<700?64:8; if(toEnd){ if(r.bottom>innerHeight-navH) window.scrollBy({top:r.bottom-(innerHeight-navH)+8,behavior:'smooth'}); } else if(r.bottom>innerHeight-navH||r.top<60){ window.scrollBy({top:r.top-72,behavior:'smooth'}); } }catch(e){} }
 function renderReviewQ(container, d, c, onAnswer){ const isH=/^Hangul|^Pronunciation/.test(d); const say=c[0].replace(/"/g,'&quot;'); let stage='q', locked=false, ok=false;
   const pool=[]; const seen=new Set([c[0]]); const take=x=>{ if(seen.has(x[0])||x[2]===c[2]) return false; seen.add(x[0]); return true; };
   shuffle(DECKS[d].filter(x=>x!==c)).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); });
@@ -1515,12 +1513,10 @@ $('rateSel').addEventListener('change', e => { S.rate=+e.target.value; save(); u
 function applyRom(){ document.body.classList.toggle('norom',!!S.hideRom); ['hideRom'].forEach(i=>{ const el=$(i); if(el) el.checked=!!S.hideRom; }); applyQuizRom(); }
 function applyQuizRom(){ const on=S.quizRom!==false; document.body.classList.toggle('noqrom',!on); const el=$('quizRom'); if(el) el.checked=on; document.querySelectorAll('.qromT').forEach(b=>{ b.setAttribute('aria-pressed',String(on)); b.textContent='Aa romanization: '+(on?'on':'off'); }); }
 function setQuizRom(v){ S.quizRom=!!v; save(); applyQuizRom(); }
-$('listenFirst').addEventListener('change', e=>{ S.listenFirst=e.target.checked; save(); });
-$('confMode').addEventListener('change', e=>{ S.confMode=e.target.checked; save(); });
 ['hideRom'].forEach(i=>$(i).addEventListener('change', e=>{ S.hideRom=e.target.checked; save(); applyRom(); }));
 $('quizRom').addEventListener('change',e=>setQuizRom(e.target.checked));
 document.addEventListener('click', e=>{ const r=e.target.closest('.rom'); if(r&&document.body.classList.contains('norom')){ e.stopPropagation(); r.classList.add('peek'); setTimeout(()=>r.classList.remove('peek'),2500); } }, true);
-$('autoFlip').addEventListener('change', e => { S.autoFlip=+e.target.value; save(); });
+
 
 // ===================== QUIZ TAB =====================
 let qSel=new Set(['Survival phrases']), qMode='mixed', qPool=[], quizTouched=false;
@@ -1998,7 +1994,7 @@ function playIntro(short){ try{ const nm=S.nick||(typeof sbSess!=='undefined'&&s
 
 // ===================== BOOT =====================
 function hydrateCustom(){ S.custom=sanitizeState({custom:S.custom}).custom; DECKS[MYDECK].length=0; (S.custom||[]).forEach(c=>DECKS[MYDECK].push(c)); }
-if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyUiLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); $('listenFirst').checked=!!S.listenFirst; $('confMode').checked=!!S.confMode; $('autoFlip').value=S.autoFlip; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); else if(S.welcomed) askPersist(); }
+if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyUiLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); S.listenFirst=false; S.confMode=false; S.autoFlip=0; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); else if(S.welcomed) askPersist(); }
 if(!document.getElementById('welcome')){ playIntro(false); } // full intro on every page load (tap to skip; off via 3D effects toggle) if(window.requestIdleCallback) requestIdleCallback(()=>{ syncInit(); sbInit(); }); else setTimeout(()=>{ syncInit(); sbInit(); },1);
 if(!window.claude && 'serviceWorker' in navigator && /^https?:/.test(location.protocol)){ navigator.serviceWorker.register('sw.js').then(reg=>{ const offer=w=>{ const t=$('toast'); t.innerHTML='New version ready · <button class="ghost" style="padding:2px 8px;color:var(--bg);border-color:var(--bg)">Reload</button>'; t.style.pointerEvents='auto'; t.classList.add('show'); clearTimeout(toastT); t.querySelector('button').onclick=()=>{ w.postMessage('skipWaiting'); }; };
   if(reg.waiting) offer(reg.waiting); reg.addEventListener('updatefound',()=>{ const nw=reg.installing; nw&&nw.addEventListener('statechange',()=>{ if(nw.state==='installed'&&navigator.serviceWorker.controller) offer(nw); }); }); }).catch(()=>{});
