@@ -295,6 +295,13 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 #fxIntro.in{opacity:1;transform:none}#fxIntro .fxi-t{font:700 1.7rem var(--ko);text-shadow:0 2px 18px rgba(255,90,69,.45)}#fxIntro .fxi-s{font:.98rem var(--body);color:#c9c3b6;margin-top:6px}
 #fxIntro .fxi-k{position:fixed;left:0;right:0;bottom:max(18px,env(safe-area-inset-bottom,0px));font:.7rem var(--mono);color:#7d8094;letter-spacing:.12em;text-transform:uppercase}
 .qrom{display:block;text-align:center;font:.92rem var(--mono);color:var(--accent);margin-top:2px}.opt .qrom{font-size:.74rem;margin-top:3px;opacity:.9;text-align:left}body.noqrom .qrom{display:none}
+.rvq{display:grid;gap:8px}.rvmean{text-align:center;font:600 1.1rem var(--body)}.rvans{text-align:left;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+@keyframes rvpop{0%{transform:scale(1)}35%{transform:scale(1.07)}70%{transform:scale(.98)}100%{transform:scale(1)}}@keyframes rvglow{0%{box-shadow:0 0 0 0 var(--ok)}100%{box-shadow:0 0 0 14px transparent}}
+@keyframes rvshake{10%,90%{transform:translateX(-2px)}20%,80%{transform:translateX(4px)}30%,50%,70%{transform:translateX(-7px)}40%,60%{transform:translateX(7px)}}
+@keyframes rvflash{0%{opacity:.55}100%{opacity:0}}
+.opt.pop{animation:rvpop .45s ease,rvglow .7s ease-out}.shake{animation:rvshake .45s cubic-bezier(.36,.07,.19,.97)}
+.rvflash{position:fixed;inset:0;z-index:69;pointer-events:none;background:radial-gradient(circle at 50% 55%,transparent 45%,rgba(194,64,47,.55));animation:rvflash .5s ease-out forwards}
+@media (prefers-reduced-motion: reduce){.opt.pop,.shake,.rvflash{animation:none}.rvflash{display:none}}
 .confetti{position:fixed;inset:0;pointer-events:none;z-index:30}
 .tour{position:fixed;inset:0;z-index:45}
 .spot{position:absolute;border-radius:14px;box-shadow:0 0 0 9999px rgba(0,0,0,.55);outline:2px solid var(--accent);pointer-events:none}
@@ -465,7 +472,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='1.1.2 · 2026-11-13';
+const APP_VERSION='1.2.0 · 2026-11-13';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1435,6 +1442,32 @@ function unlockAll(){ S.free=true; save(); toast('모두 열렸어요 · Everyth
 function unlockBtn(after){ const b=document.createElement('button'); b.className='chip'; b.type='button'; b.style.cssText='border-color:var(--accent);color:var(--accent)'; b.textContent='🔓 Unlock all'; b.onclick=()=>{ unlockAll(); after&&after(); }; return b; }
 function buildCards(){ const isTag=/^\*tag\*:/.test(deck); if(isTag){ const t=deck.slice(6); let q=[]; tagDecks(t).forEach(dd=>DECKS[dd].forEach(c=>{ if(cardsMode==='all'||isDue(dd,c)||isNew(dd,c)) q.push({d:dd,c}); })); q=S.shuffle===false?q:shuffle(q); queue=cardsMode==='due'?q.sort((a,b)=>(isDue(a.d,a.c)?0:1)-(isDue(b.d,b.c)?0:1)):q; qi=0; if(cardsMode==='browse') cardsMode='due'; renderCardsStage(); return; }
   if(deck!==ALLDUE&&(!DECKS[deck]||!deckUnlocked(deck))) deck=names[0]; const d=deck; if(d===MYDECK&&!DECKS[d].length){ cardsMode='browse'; } if(cardsMode==='browse'&&d!==ALLDUE){ renderBrowse(d); return; } if(cardsMode==='browse') cardsMode='due'; { let nl=newLeft(); queue = d===ALLDUE ? dueQueue() : (cardsMode==='due' ? DECKS[d].filter(c=>isDue(d,c)||(isNew(d,c)&&nl-->0)) : DECKS[d].slice()).map(c=>({d,c})); if(S.shuffle!==false) queue=shuffle(queue); } qi=0; renderCardsStage(); }
+
+// Review = multiple choice: see the meaning, pick the right Hangul. New cards are taught first, then quizzed.
+let rvTouched=false; // only auto-scroll once the user has started answering (never on page open)
+function rvView(el,toEnd){ try{ if(!el||$('v-cards').hidden) return; const r=el.getBoundingClientRect(), navH=innerWidth<700?64:8; if(toEnd){ if(r.bottom>innerHeight-navH) window.scrollBy({top:r.bottom-(innerHeight-navH)+8,behavior:'smooth'}); } else if(r.bottom>innerHeight-navH||r.top<60){ window.scrollBy({top:r.top-72,behavior:'smooth'}); } }catch(e){} }
+function renderReviewQ(container, d, c, onAnswer){ const isH=/^Hangul|^Pronunciation/.test(d); const say=c[0].replace(/"/g,'&quot;'); let stage='q', locked=false, ok=false;
+  const pool=[]; const seen=new Set([c[0]]); const take=x=>{ if(seen.has(x[0])||x[2]===c[2]) return false; seen.add(x[0]); return true; };
+  shuffle(DECKS[d].filter(x=>x!==c)).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); });
+  if(pool.length<3){ const extra=[]; names.forEach(n=>{ if(n!==d&&n!==MYDECK&&/^Hangul/.test(n)===/^Hangul/.test(d)) DECKS[n].forEach(x=>extra.push(x)); }); shuffle(extra).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); }); }
+  const opts=shuffle([c,...pool]);
+  const teach=()=>{ stage='teach'; container.innerHTML=`<div class="rvq"><div class="stat" style="text-align:center">✨ New card · ${d}</div><div class="q">${c[0]}</div>${isH?'':`<div class="qrom" style="display:block">${c[1]}</div>`}<div style="text-align:center;margin:6px 0"><button class="speak" data-say="${say}" type="button">🔊</button></div><div class="rvmean">${isH?'<span style="font-family:var(--mono);color:var(--accent)">'+c[1]+'</span> · ':''}${c[2]}</div><div class="note" style="margin:6px auto 0">${c[3]||''}</div>${isH?'':pronNote(c[0])}<button class="big primary rvgo" style="width:100%;margin-top:14px">Got it — quiz me</button></div>`;
+    const sp=container.querySelector('.speak'); if(S.auto) setTimeout(()=>speak(c[0],sp),200); container.querySelector('.rvgo').onclick=()=>{ rvTouched=true; ask(); }; setTimeout(()=>{ const b=container.querySelector('.rvgo'); b&&b.focus({preventScroll:true}); },50); };
+  const ask=()=>{ stage='q'; const romT=isH?'':`<div style="text-align:right"><button class="ghost qromT" type="button" style="font-size:.72rem;padding:4px 10px;min-height:32px"></button></div>`;
+    container.innerHTML=`<div class="rvq">${romT}<div class="stat" style="text-align:center">${d} · which one is it?</div><div class="q small">${isH?'<span style="font-family:var(--mono);color:var(--accent)">'+c[1]+'</span><div class="stat" style="margin-top:4px">'+c[2]+'</div>':c[2]}</div><div class="opts">${opts.map((o,i)=>`<button class="opt ko" data-a="${o[0].replace(/"/g,'&quot;')}" aria-label="${(o[0]+(isH?'':', '+o[1])).replace(/"/g,'&quot;')}"><kbd>${i+1}</kbd>${o[0]}${isH?'':`<span class="qrom">${o[1]}</span>`}</button>`).join('')}</div><div class="fb"></div><button class="big primary next" style="width:100%;margin-top:12px" hidden>Next</button></div>`;
+    const tb=container.querySelector('.qromT'); if(tb){ tb.onclick=()=>setQuizRom(S.quizRom===false); applyQuizRom(); } if(rvTouched) setTimeout(()=>rvView(container.querySelector('.rvq')),30);
+    container.querySelectorAll('.opt').forEach(b=>b.addEventListener('click',()=>{ if(locked) return; locked=true; rvTouched=true; ok=b.dataset.a===c[0]; const right=[...container.querySelectorAll('.opt')].find(o=>o.dataset.a===c[0]);
+      container.querySelectorAll('.opt').forEach(o=>{ o.disabled=true; }); right.classList.add('right','pop'); const box=container.querySelector('.rvq');
+      if(ok){ buzz(15); tone(880,90); setTimeout(()=>tone(1320,140),90); fx3('correct',b); }
+      else { b.classList.add('wrong','shake'); box.classList.add('shake'); buzz([40,50,40]); tone(200,220,'sawtooth'); fx3('wrong',b); const fl=document.createElement('div'); fl.className='rvflash'; document.body.appendChild(fl); setTimeout(()=>fl.remove(),520); }
+      container.querySelector('.fb').innerHTML=`<div class="rvans"><b style="color:${ok?'var(--ok)':'var(--accent)'}">${ok?'맞아요!':'아니에요'}</b> <span class="ko" style="font-size:1.25rem">${c[0]}</span> <button class="speak" data-say="${say}" type="button" style="padding:4px 9px">🔊</button><div class="stat">${c[1]} · ${c[2]}</div>${c[3]?`<div class="note" style="margin:4px 0 0;text-align:left">${c[3]}</div>`:''}${isH?'':pronNote(c[0])}</div>`;
+      if(S.auto!==false) setTimeout(()=>speak(c[0],container.querySelector('.fb .speak')),ok?250:500);
+      const n=container.querySelector('.next'); n.hidden=false; n.onclick=()=>onAnswer(ok); setTimeout(()=>{ n.focus({preventScroll:true}); rvView(n,true); },60); })); };
+  const key=e=>{ if(e.target.closest('input,textarea,select')) return; if(stage==='teach'&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); ask(); return; }
+    if(/^[1-4]$/.test(e.key)&&stage==='q'&&!locked){ const o=container.querySelectorAll('.opt')[+e.key-1]; if(o) o.click(); }
+    if((e.key==='Enter'||e.key===' ')&&locked){ const n=container.querySelector('.next'); if(n&&!n.hidden){ e.preventDefault(); n.click(); } }
+    if(e.key==='p'||e.key==='P'){ const s=container.querySelector('[data-say]'); if(s) speak(s.dataset.say,s); } };
+  document.addEventListener('keydown',key); if(isNew(d,c)) teach(); else ask(); return ()=>document.removeEventListener('keydown',key); }
 function renderCardsStage(){
   if(cleanup){cleanup();cleanup=null;}
   const all=deck===ALLDUE||/^\*tag\*:/.test(deck); const total=all?Math.max(1,queue.length):DECKS[deck].length, ln=all?qi:learned(deck);
@@ -1448,7 +1481,8 @@ function renderCardsStage(){
     const ca=$('cardsAll'); if(ca) ca.onclick=()=>{ cardsMode='all'; $('cmAll').setAttribute('aria-pressed',true); $('cmDue').setAttribute('aria-pressed',false); buildCards(); }; return; }
   $('left').textContent=(queue.length-qi)+' left'+(all?' · across '+new Set(queue.slice(qi).map(x=>x.d)).size+' decks':' · '+ln+'/'+total+' learned');
   const {d,c}=queue[qi];
-  cleanup=renderFlashcard(stage,d,c,ok=>{ if(ok===null){ qi++; chips(); renderCardsStage(); return; } const wasNew=isNew(d,c); grade(d,c,ok,wasNew); if(!ok) queue.push({d,c}); qi++; chips(); renderCardsStage();
+  const wasNew0=isNew(d,c);
+  cleanup=renderReviewQ(stage,d,c,ok=>{ if(ok===null){ qi++; chips(); renderCardsStage(); return; } const wasNew=wasNew0; grade(d,c,ok,wasNew); if(!ok) queue.push({d,c}); qi++; chips(); renderCardsStage();
     offerUndo($('left').parentElement, ()=>{ if(undoGrade()){ if(!ok) queue.pop(); qi--; chips(); renderCardsStage(); toast('Undone.'); } }); });
 }
 $('search').addEventListener('input', e=>{ const q=e.target.value.trim().toLowerCase(); const out=$('searchOut'); if(q.length<2){ out.hidden=true; out.innerHTML=''; return; }
@@ -1888,8 +1922,8 @@ const FX3D=(()=>{
     P.g.attributes.color.needsUpdate=true; const drag=o.drag||2.2, grav=o.gravity===undefined?3.5:o.gravity, delay=o.delay||0; P.p.visible=!delay;
     return add({update(dt,t){ if(t<delay) return; P.p.visible=true; const tt=t-delay; const k=Math.exp(-drag*dt); for(let i=0;i<n;i++){ vel[i*3]*=k; vel[i*3+1]=vel[i*3+1]*k-grav*dt; vel[i*3+2]*=k; P.pos[i*3]+=vel[i*3]*dt; P.pos[i*3+1]+=vel[i*3+1]*dt; P.pos[i*3+2]+=vel[i*3+2]*dt; }
       P.g.attributes.position.needsUpdate=true; const u=tt/life; P.m.opacity=1-u*u; P.m.size=(o.size||.22)*(1-.5*u); return tt<life; }, dispose(){ kill(P.p); }}); }
-  function ringWave(x,y,o){ o=o||{}; const g=new T.RingGeometry(o.thick?.93:.972,1,96), m=new T.MeshBasicMaterial({color:new T.Color(o.color||'#ffd166'),transparent:true,side:T.DoubleSide,depthWrite:false,blending:(o.dark!==undefined?o.dark:dark())?T.AdditiveBlending:T.NormalBlending}), r=new T.Mesh(g,m); r.position.set(x,y,o.z||0); scene.add(r); const life=o.life||.9, to=o.to||6, delay=o.delay||0; r.visible=!delay;
-    return add({update(dt,t){ if(t<delay) return; r.visible=true; const u=(t-delay)/life; const s=.2+eOut(u)*to; r.scale.set(s,s,1); m.opacity=(o.alpha||.8)*(1-u)*(1-u); return u<1; }, dispose(){ kill(r); }}); }
+  function ringWave(x,y,o){ o=o||{}; const g=new T.RingGeometry(o.thick?.93:.972,1,96), m=new T.MeshBasicMaterial({color:new T.Color(o.color||'#ffd166'),transparent:true,side:T.DoubleSide,depthWrite:false,blending:(o.dark!==undefined?o.dark:dark())?T.AdditiveBlending:T.NormalBlending}), r=new T.Mesh(g,m); r.position.set(x,y,o.z||0); scene.add(r); const life=o.life||.9, to=o.to||6, from=o.from===undefined?.2:o.from, delay=o.delay||0; r.visible=!delay;
+    return add({update(dt,t){ if(t<delay) return; r.visible=true; const u=(t-delay)/life; const s=from+eOut(u)*(to-from); r.scale.set(s,s,1); m.opacity=(o.alpha||.8)*(1-u)*(1-u); return u<1; }, dispose(){ kill(r); }}); }
   function glyphRain(o){ o=o||{}; const d=dark(), n=Math.round((o.n||34)*K), C=pal(d), W=vw(), H=vh(), sp=[];
     for(let i=0;i<n;i++){ const m=new T.SpriteMaterial({map:glyph(Math.floor(Math.random()*GLYPHS.length)),color:new T.Color(pick(C)),transparent:true,depthWrite:false}); const s=new T.Sprite(m); const sc=rnd(.45,.95); s.scale.set(sc,sc,1);
       s.position.set(rnd(-W/2,W/2),-H/2-rnd(.5,2),rnd(-2,2)); s.userData={vx:rnd(-1.2,1.2),vy:rnd(H*1.05,H*1.55),vr:rnd(-3,3),d:rnd(0,.5)}; scene.add(s); sp.push(s); }
@@ -1944,7 +1978,16 @@ const FX3D=(()=>{
       if(t>t4&&!faded){ faded=true; cv.style.opacity='0'; if(introEl) introEl.classList.remove('in'); }
       return t<t5; }, dispose(){ kill(P.p); kill(Bg.p); removeEventListener('keydown',key); cv.removeEventListener('pointerdown',doSkip); if(introEl){ introEl.remove(); introEl=null; } }}); }
 
-  const FN={flip,good,streak,celebrate,levelUp,intro};
+  function elXY(el){ const r=el&&el.getBoundingClientRect?el.getBoundingClientRect():null; return r?toWorld(r.left+r.width/2,r.top+r.height/2):[0,0]; }
+  function correct(el){ const [x,y]=elXY(el), d=dark(), H=vh(); burst(x,y,{n:90,speed:6.5,life:1,gravity:2.5,size:.2,colors:d?['#7ee787','#ffd166','#ffffff','#4fd1c5']:['#1f9d55','#d98e04','#1f9d8f']}); ringWave(x,y,{color:d?'#7ee787':'#1f9d55',to:3.4,life:.6,thick:true,alpha:.7}); ringWave(x,y,{color:'#ffd166',to:5.2,life:.8,delay:.08,alpha:.55});
+    const sp=[]; for(let i=0;i<Math.round(9*K);i++){ const m=new T.SpriteMaterial({map:glyph(Math.floor(Math.random()*GLYPHS.length)),color:new T.Color(pick(pal(d))),transparent:true,depthWrite:false}); const s=new T.Sprite(m); const sc=rnd(.3,.55); s.scale.set(sc,sc,1); s.position.set(x,y,.5); s.userData={vx:rnd(-3.2,3.2),vy:rnd(3,7.5),vr:rnd(-5,5)}; scene.add(s); sp.push(s); }
+    add({update(dt,t){ sp.forEach(s=>{ const u=s.userData; u.vy-=11*dt; s.position.x+=u.vx*dt; s.position.y+=u.vy*dt; s.material.rotation+=u.vr*dt; s.material.opacity=Math.min(1,(1.1-t)*3); }); return t<1.1; }, dispose(){ sp.forEach(kill); }});
+    const m=label([{text:'맞아요!',font:'800 150px "Noto Sans KR",sans-serif',color:d?'#7ee787':'#1f9d55',y:256}]); const ly=Math.min(H*.42,y+1.5); m.position.set(Math.max(-vw()*.25,Math.min(vw()*.25,x)),ly,1); scene.add(m);
+    add({update(dt,t){ const s=1.5*eBack(t/.3); m.scale.set(s,s,1); m.position.y=ly+t*.9; m.material.opacity=Math.min(1,(.95-t)*4); return t<.95; }, dispose(){ kill(m); }}); }
+  function wrong(el){ const [x,y]=elXY(el), d=dark(); burst(x,y,{n:70,speed:4,life:1.1,gravity:16,drag:.9,size:.19,colors:d?['#ff5a45','#ff8a75','#7a1f18','#3a3d48']:['#c2402f','#8f2a1e','#6b6f76']}); ringWave(x,y,{color:d?'#ff5a45':'#c2402f',from:4.2,to:.25,life:.45,thick:true,alpha:.75});
+    const g=new T.Group(), mat=new T.MeshBasicMaterial({color:new T.Color(d?'#ff5a45':'#c2402f'),transparent:true,depthWrite:false}); [1,-1].forEach(sg=>{ const b=new T.Mesh(new T.PlaneGeometry(1.5,.2),mat); b.rotation.z=sg*Math.PI/4; g.add(b); }); const gy=Math.min(vh()*.4,y+1.4); g.position.set(Math.max(-vw()*.25,Math.min(vw()*.25,x)),gy,1); scene.add(g);
+    add({update(dt,t){ const s=eBack(t/.22); g.scale.setScalar(Math.max(.001,s)); g.rotation.z=Math.sin(t*38)*.16*Math.max(0,1-t*2.2); g.position.y=gy-Math.max(0,t-.45)*5*(t-.45); mat.opacity=Math.min(1,(.8-t)*5); return t<.8; }, dispose(){ kill(g); }}); }
+  const FN={flip,good,streak,celebrate,levelUp,intro,correct,wrong};
   function run(kind){ const args=[].slice.call(arguments,1); if(!on()) return Promise.resolve(false); return load().then(()=>{ FN[kind].apply(null,args); return true; }).catch(()=>false); }
   return {on,run,preload:()=>{ if(on()) load().catch(()=>{}); },state:()=>({loaded:!!T,failed,items:items.length})};
 })();
