@@ -475,7 +475,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='1.3.1 · 2026-11-13';
+const APP_VERSION='1.3.2 · 2026-11-14';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -2017,7 +2017,7 @@ const FX3D=(()=>{
     idleClose(); idleEl=document.createElement('div'); idleEl.id='fxIdle'; idleEl.setAttribute('role','status'); const mk=c=>{ const e=document.createElement('div'); e.className=c; idleEl.appendChild(e); return e; }; const eTag=mk('fxd-tag'), eKo=mk('fxd-ko'), eRom=mk('fxd-rom'), eEn=mk('fxd-en'), eK=mk('fxd-k'); eK.textContent='tap anywhere to continue'; document.body.appendChild(idleEl);
     const cache={}; const HOLD=5.4; let si=-1, tS=0, exitT=-1, txtDone=true;
     const tgt=i=>{ if(cache[i]) return cache[i]; const s=slides[i], sm=s.shape?sampleShape(s.shape,N):sampleText(s.ko,N), w=Math.min(W*(s.shape?.5:.82),H*(s.shape?.26:.2)/sm.asp), out=new Float32Array(N*3); for(let k=0;k<N;k++){ out[k*3]=sm.p[k*3]*w; out[k*3+1]=sm.p[k*3+1]*w+y0; out[k*3+2]=sm.p[k*3+2]; } return cache[i]={p:out,w}; };
-    const setText=()=>{ const s=slides[si]; eTag.textContent=s.tag||''; eKo.textContent=s.shape?s.ko:''; eRom.textContent=s.rom||''; eEn.textContent=s.en||''; idleEl.classList.add('in'); };
+    const setText=()=>{ const s=slides[si]; eTag.textContent=s.tag||''; eKo.textContent=s.shape?s.ko:(s.sub||''); eRom.textContent=s.rom||''; eEn.textContent=s.en||''; idleEl.classList.add('in'); };
     const next=t=>{ si=(si+1)%slides.length; tS=t; from.set(P.pos); cf.set(P.col); const T2=tgt(si); to=T2.p; const pr=PAIRS[si%PAIRS.length], c1=new T.Color(pr[0]), c2=new T.Color(pr[1]), c=new T.Color();
       for(let i=0;i<N;i++){ c.copy(c1).lerp(c2,Math.min(1,Math.max(0,to[i*3]/T2.w+.5+rnd(-.12,.12)))); if(Math.random()<.06) c.set('#ffffff'); ct[i*3]=c.r; ct[i*3+1]=c.g; ct[i*3+2]=c.b; } idleEl.classList.remove('in'); txtDone=false; };
     const stop=()=>{ if(exitT<0) exitT=idleItem.t; }; const key=()=>stop(); cv.addEventListener('pointerdown',stop); addEventListener('keydown',key);
@@ -2041,6 +2041,14 @@ function playIntro(short){ try{ const nm=S.nick||(typeof sbSess!=='undefined'&&s
 
 
 // ---- Idle screensaver: after 60s without input, drift through a pause sign, encouragement and words to learn ----
+const IDIOMS=[["소원성취","所願成就","sowon seongchwi","May all your wishes come true"],["일석이조","一石二鳥","ilseogijo","Killing two birds with one stone"],["새옹지마","塞翁之馬","saeong jima","A blessing in disguise — bad luck may turn good"],["전화위복","轉禍爲福","jeonhwa wibok","Turning misfortune into good fortune"],
+["고진감래","苦盡甘來","gojin gamnae","After bitterness comes sweetness"],["대기만성","大器晩成","daegi manseong","Great talents bloom late"],["유비무환","有備無患","yubi muhwan","Be prepared and you'll have no worries"],["칠전팔기","七顚八起","chiljeon palgi","Fall seven times, get up eight"],
+["작심삼일","作心三日","jaksim samil","A resolution that lasts three days"],["이심전심","以心傳心","isim jeonsim","Understanding each other without words"],["동고동락","同苦同樂","donggo dongnak","Sharing the hard times and the good"],["금상첨화","錦上添花","geumsang cheomhwa","Icing on the cake"],
+["다다익선","多多益善","dada ikseon","The more, the better"],["일취월장","日就月將","ilchwi woljang","Getting better day by day"],["자업자득","自業自得","jaeop jadeuk","You reap what you sow"],["우공이산","愚公移山","ugong isan","Persistence can move mountains"],
+["형설지공","螢雪之功","hyeongseol jigong","Success earned through hard study"],["타산지석","他山之石","tasan jiseok","Learning from other people's mistakes"],["과유불급","過猶不及","gwayu bulgeup","Too much is as bad as too little"],["역지사지","易地思之","yeokji saji","Put yourself in their shoes"],
+["천생연분","天生緣分","cheonsaeng yeonbun","A match made in heaven"],["일편단심","一片丹心","ilpyeon dansim","Unwavering, single-hearted devotion"],["호시탐탐","虎視眈眈","hosi tamtam","Watching for your chance like a tiger"],["죽마고우","竹馬故友","jungma gou","A friend since childhood"],
+["온고지신","溫故知新","ongo jisin","Learn the new by studying the old"],["심사숙고","深思熟考","simsa sukgo","Thinking it over carefully"],["권선징악","勸善懲惡","gwonseon jingak","Good is rewarded, evil is punished"],["마이동풍","馬耳東風","mai dongpung","In one ear and out the other"],
+["십중팔구","十中八九","sipjung palgu","Nine times out of ten"],["백전백승","百戰百勝","baekjeon baekseung","Winning every battle"],["자수성가","自手成家","jasu seongga","Self-made success"],["초지일관","初志一貫","choji ilgwan","Sticking to your original goal"]];
 let idleT=null, idleW=null, idleMs=30000, wakeL=null;
 async function wakeOn(){ try{ if('wakeLock' in navigator&&!wakeL&&!document.hidden&&FX3D.on()){ wakeL=await navigator.wakeLock.request('screen'); wakeL.addEventListener('release',()=>{ wakeL=null; }); } }catch(e){} }
 function wakeOff(){ try{ if(wakeL) wakeL.release(); }catch(e){} wakeL=null; }
@@ -2049,7 +2057,9 @@ function idleSlides(){ const ok=k=>/^[가-힣 ?!]+$/.test(k)&&k.length<=7&&!/화
   const words=shuffle(due).slice(0,6).concat(shuffle(fresh).slice(0,6),shuffle(weak).slice(0,3)).slice(0,12).map(w=>Object.assign(w,{tag:/^Due/.test(w.tag)?w.tag:'Word to learn · '+w.tag}));
   const extra=[{shape:'heart',ko:'화이팅!',rom:'hwaiting',en:"You've got this!",tag:''},{shape:'star',ko:'잘하고 있어요',rom:'jalhago isseoyo',en:"You're doing great",tag:''},{ko:'천천히',rom:'cheoncheonhi',en:'Take your time',tag:''},{ko:'다시 시작',rom:'dasi sijak',en:'Tap to start again',tag:''}];
   const out=[{shape:'pause',ko:'잠깐 멈춤',rom:'jamkkan meomchum',en:'Paused',tag:''},{ko:'배우는 중',rom:'baeuneun jung',en:'Learning…',tag:''}]; let e=0;
-  shuffle(words).forEach((w,i)=>{ out.push(w); if(i%3===2&&e<extra.length) out.push(extra[e++]); }); if(out.length<4) out.push(extra[0],extra[1]); return out; }
+  const idi=shuffle(IDIOMS.slice()).slice(0,8).map(x=>({ko:x[0],sub:x[1],rom:x[2],en:x[3],tag:'사자성어 · four-character idiom'})); let q=0;
+  out.push(idi[q++]);
+  shuffle(words).forEach((w,i)=>{ out.push(w); if(i%2===1&&q<idi.length) out.push(idi[q++]); if(i%3===2&&e<extra.length) out.push(extra[e++]); }); while(q<idi.length&&out.length<14) out.push(idi[q++]); if(out.length<4) out.push(extra[0],extra[1]); return out; }
 function armIdle(){ clearTimeout(idleT); clearTimeout(idleW); if(!FX3D.state().idle) wakeOff();
   idleW=setTimeout(wakeOn,Math.max(0,idleMs-12000)); // phones auto-lock at ~30s: hold the screen on so the pause scene can appear (released when it ends)
   idleT=setTimeout(()=>{ const st=FX3D.state(); if(document.hidden||!FX3D.on()||st.idle||document.getElementById('welcome')||document.getElementById('fxIdle')) return armIdle(); if(st.items){ idleT=setTimeout(armIdle,4000); return; } fx3('idle',{slides:idleSlides()}); },idleMs); }
