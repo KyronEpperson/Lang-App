@@ -477,7 +477,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='2.0.3 · 2026-11-14';
+const APP_VERSION='2.1.0 · 2026-11-14';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -603,7 +603,32 @@ ${ex("몇 살이에요?","myeot sarieyo?","How old are you?")}${ex("스물여덟
 ${ex("안녕히 가세요","annyeonghi gaseyo","Go well (they are leaving)")}${ex("안녕히 계세요","annyeonghi gyeseyo","Stay well (you are leaving)")}
 <div class="tip">Both leaving (e.g. outside a café)? Both say 안녕히 가세요. Phone call? The person hanging up first says 안녕히 계세요.</div>
 <h3>Say it 3 ways</h3><div class="tbl"><table><tr><th>Formal</th><th>Polite</th><th>Casual</th><th></th></tr><tr><td class="k">만나서 반갑습니다</td><td class="k">만나서 반가워요</td><td class="k">반가워</td><td>nice to meet you</td></tr><tr><td class="k">성함이 어떻게 되세요?</td><td class="k">이름이 뭐예요?</td><td class="k">이름이 뭐야?</td><td>what's your name</td></tr></table></div>`},
-  { id:"sov", title:"4 · Word order", blurb:"Subject · Object · Verb. The verb always comes last.", deck:"Core verbs", body:`
+  { id:"nouns", title:"4 · Nouns", blurb:"Names of things. No a/the, no plurals to memorise, and they never change shape.", deck:"Places & buildings", body:`
+<p>A noun names a person, place or thing: 친구 (friend), 집 (house), 커피 (coffee). Korean nouns are easier than English ones — there is no <i>a</i> or <i>the</i>, no gender, and the word itself never changes.</p>
+${ex("책","chaek","a book / the book / books")}
+<h3>Plurals are optional</h3><p>One word covers one or many; context does the work. <b>들</b> can mark "more than one", mostly for people.</p>
+${ex("친구","chingu","friend / friends")}${ex("친구들","chingudeul","friends (clearly more than one)")}
+<h3>This, that, that over there</h3><p>Put <b>이</b> (this), <b>그</b> (that, near you) or <b>저</b> (that, far from both of us) in front of the noun.</p>
+${ex("이 책","i chaek","this book")}${ex("그 사람","geu saram","that person")}${ex("저 건물","jeo geonmul","that building over there")}
+<h3>Noun + noun = whose</h3><p>Just put the owner first. The possessive tag 의 exists but is usually dropped. "My" is <b>제</b> (polite) or <b>내</b> (casual).</p>
+${ex("친구 집","chingu jip","(my) friend's house")}${ex("제 이름","je ireum","my name")}
+<h3>Saying "it is a …"</h3><p>Glue <b>이에요</b> onto a noun ending in a consonant, <b>예요</b> onto one ending in a vowel. For "is not", use 이/가 아니에요.</p>
+${ex("학생이에요","haksaengieyo","(I) am a student")}${ex("의사예요","uisayeyo","(She) is a doctor")}${ex("학생이 아니에요","haksaengi anieyo","(I'm) not a student")}${ex("이거 뭐예요?","igeo mwoyeyo?","What is this?")}
+<div class="tip">Many nouns are built from reusable blocks. 학 means learning: 학교 (school), 학생 (student), 학원 (academy). Spot the block and new words get cheaper.</div>
+<div class="tip" style="background:var(--accent-soft)"><b>Common mistakes</b><ul style="margin:6px 0 0;padding-left:18px"><li>Adding 들 to everything — 사과 세 개 (three apples), not 사과들 세 개.</li><li>Mixing up 이에요 / 예요 — check the last letter: 선생님<b>이에요</b>, 가수<b>예요</b>.</li><li>Looking for a word for "the" — there isn't one.</li></ul></div>`},
+  { id:"verbbasics", title:"5 · Verbs", blurb:"Every verb ends in 다, never changes for I/you/she, and adjectives are verbs too.", deck:"Core verbs", body:`
+<p>A verb says what happens. In the dictionary every Korean verb ends in <b>다</b>. Take 다 off and you have the <b>stem</b>; endings go on the stem.</p>
+<div class="tbl"><table><tr><th>Dictionary</th><th>Stem</th><th>Polite (요)</th><th>Meaning</th></tr><tr><td class="k">가다</td><td class="k">가</td><td class="k">가요</td><td>go</td></tr><tr><td class="k">먹다</td><td class="k">먹</td><td class="k">먹어요</td><td>eat</td></tr><tr><td class="k">하다</td><td class="k">하</td><td class="k">해요</td><td>do</td></tr></table></div>
+<h3>One form for everyone</h3><p>The verb does not change for I, you, he or they. Who is doing it comes from context.</p>
+${ex("가요","gayo","I go / you go / she goes / we go")}
+<h3>Four kinds worth knowing</h3>
+<p><b>1 · Action verbs</b> — things you do.</p>${ex("먹어요","meogeoyo","eat")}${ex("마셔요","masyeoyo","drink")}
+<p><b>2 · Describing verbs</b> — English adjectives. In Korean they are verbs, so there is no separate "is".</p>${ex("날씨가 좋아요","nalssiga joayo","The weather is good")}${ex("가방이 커요","gabangi keoyo","The bag is big")}
+<p><b>3 · 하다 verbs</b> — a noun + 하다 (to do). Hundreds of verbs are made this way.</p>${ex("공부 → 공부해요","gongbu → gongbuhaeyo","study (noun) → (I) study")}${ex("운동해요","undonghaeyo","(I) exercise")}
+<p><b>4 · 있다 / 없다</b> — to exist or have / to not exist or not have.</p>${ex("시간이 있어요","sigani isseoyo","(I) have time")}${ex("돈이 없어요","doni eopseoyo","(I) have no money")}
+<div class="tip">The verb is the one part a sentence can't drop. 가요 on its own is a complete sentence.</div>
+<div class="tip" style="background:var(--accent-soft)"><b>Common mistakes</b><ul style="margin:6px 0 0;padding-left:18px"><li>Saying the dictionary form out loud — 먹다 is for dictionaries; say 먹어요.</li><li>Adding "is" to a describing verb — 좋아요 already means "is good".</li><li>Using 이에요 for "there is" — a cat exists = 고양이가 있어요.</li></ul></div>`},
+  { id:"sov", title:"6 · Word order", blurb:"Subject · Object · Verb. The verb always comes last.", deck:"Core verbs", body:`
 <p>English is Subject-Verb-Object: <i>I eat rice</i>. Korean is Subject-Object-<b>Verb</b>: <i>I rice eat</i>. Everything else can move around, but the verb closes the sentence.</p>
 ${ex("저는 밥을 먹어요","jeoneun babeul meogeoyo","I (topic) rice (object) eat")}${ex("친구가 커피를 마셔요","chinguga keopireul masyeoyo","Friend (subject) coffee (object) drinks")}
 <h3>Drop what's obvious</h3><p>Korean leaves out the subject whenever context makes it clear. Real conversations are mostly just objects and verbs.</p>
@@ -611,14 +636,14 @@ ${ex("밥 먹었어요?","bap meogeosseoyo?","(Did you) eat?")}${ex("네, 먹었
 <h3>Questions</h3><p>No word reordering. In 요-form, a question is the same sentence with rising intonation.</p>
 ${ex("가요","gayo","(I'm) going. / (Are you) going?")}${ex("어디 가요?","eodi gayo?","Where (are you) going?")}
 <div class="tip">Question words slot in where the answer would go: 뭐 (what), 어디 (where), 언제 (when), 누구 (who), 왜 (why), 어떻게 (how).</div>`},
-  { id:"particles", title:"5 · Particles", blurb:"The little tags that mark subject, object, and place.", deck:"Particles", body:`
+  { id:"particles", title:"7 · Particles", blurb:"The little tags that mark subject, object, and place.", deck:"Particles", body:`
 <p>Particles attach to the end of a noun and say what job it does. The form depends on whether the noun ends in a consonant or a vowel.</p>
 <div class="tbl"><table><tr><th>Job</th><th>After consonant</th><th>After vowel</th><th>Example</th></tr><tr><td>Topic</td><td class="k">은</td><td class="k">는</td><td>저는 (as for me)</td></tr><tr><td>Subject</td><td class="k">이</td><td class="k">가</td><td>비가 (rain)</td></tr><tr><td>Object</td><td class="k">을</td><td class="k">를</td><td>밥을 (rice)</td></tr><tr><td>To / at</td><td class="k" colspan="2">에</td><td>집에 (to home)</td></tr><tr><td>At (action)</td><td class="k" colspan="2">에서</td><td>집에서 (at home)</td></tr><tr><td>Also</td><td class="k" colspan="2">도</td><td>저도 (me too)</td></tr></table></div>
 <h3>Topic vs subject</h3><p><b>은/는</b> sets the frame ("speaking of X…") and is used for contrast or general statements. <b>이/가</b> points at who or what specifically does the action, and is used for new information.</p>
 ${ex("저는 학생이에요","jeoneun haksaengieyo","As for me, I'm a student")}${ex("누가 왔어요? 친구가 왔어요","nuga wasseoyo? chinguga wasseoyo","Who came? My friend came (new info → 가)")}${ex("집에 가요","jibe gayo","(I'm) going home (destination → 에)")}${ex("집에서 쉬어요","jibeseo swieoyo","(I'm) resting at home (action location → 에서)")}
 <div class="tip">In casual speech particles get dropped constantly. Learn them so you can read and understand; don't panic about using them perfectly.</div>
 <div class="tip" style="background:var(--accent-soft)"><b>Common mistakes</b><ul style="margin:6px 0 0;padding-left:18px"><li>Using 이/가 for 'as for me' — 저는 (topic) for introductions, 제가 only when you're the specific answer.</li><li>집에서 가요 — 에서 is where an action happens; destination is 집에 가요.</li><li>Putting the particle before the noun — particles always attach after.</li></ul></div>`},
-  { id:"verbs", title:"6 · Conjugating verbs", blurb:"Dictionary form to 요-form, past and future.", deck:"Core verbs", body:`
+  { id:"verbs", title:"8 · Conjugating verbs", blurb:"Dictionary form to 요-form, past and future.", deck:"Core verbs", body:`
 <p>Dictionary forms end in <b>다</b>: 가다 (go), 먹다 (eat), 하다 (do). Chop the 다 to get the stem, then add an ending.</p>
 <h3>Present 요-form</h3><p>Look at the <b>last vowel</b> of the stem:</p>
 <div class="tbl"><table><tr><th>Last vowel</th><th>Add</th><th>Example</th></tr><tr><td>ㅏ or ㅗ</td><td class="k">아요</td><td>가다 → 가요 · 보다 → 봐요</td></tr><tr><td>anything else</td><td class="k">어요</td><td>먹다 → 먹어요 · 마시다 → 마셔요</td></tr><tr><td>하다 verbs</td><td class="k">해요</td><td>하다 → 해요 · 사랑하다 → 사랑해요</td></tr></table></div>
@@ -630,14 +655,26 @@ ${ex("갈 거예요","gal geoyeyo","will go")}${ex("먹을 거예요","meogeul g
 <h3>Negative</h3><p>Put <b>안</b> in front of the verb.</p>
 ${ex("안 가요","an gayo","not going")}${ex("안 먹었어요","an meogeosseoyo","didn't eat")}
 <div class="tip" style="background:var(--accent-soft)"><b>Common mistakes</b><ul style="margin:6px 0 0;padding-left:18px"><li>가아요 — vowels merge: 가 + 아요 = 가요.</li><li>먹아요 — ㅓ stem takes 어요: 먹어요.</li><li>하어요 — 하다 is special: 해요.</li></ul></div>`},
-  { id:"numbers", title:"7 · Two number systems", blurb:"Native for counting and age, Sino-Korean for money and time.", deck:"Numbers", body:`
+  { id:"sentences", title:"9 · Putting nouns and verbs together", blurb:"Four sentence shapes that cover most of what you'll say, then how to grow them.", deck:"Activities", body:`
+<p>You have nouns, verbs and particles. Almost every beginner sentence is one of four shapes — and the verb is always last.</p>
+<h3>1 · A is B</h3><p>Noun + 이에요 / 예요.</p>${ex("저는 학생이에요","jeoneun haksaengieyo","I am a student")}
+<h3>2 · A is (like this)</h3><p>Noun + 이/가 + describing verb.</p>${ex("커피가 맛있어요","keopiga masisseoyo","The coffee is tasty")}
+<h3>3 · Do something to A</h3><p>Noun + 을/를 + action verb.</p>${ex("커피를 마셔요","keopireul masyeoyo","(I) drink coffee")}
+<h3>4 · Go to / be at / do at</h3><p>Place + 에 with 가요, 와요, 있어요. Place + 에서 when an action happens there.</p>${ex("카페에 가요","kapee gayo","(I) go to a café")}${ex("카페에서 공부해요","kapeeseo gongbuhaeyo","(I) study at a café")}
+<h3>Grow it one piece at a time</h3><p>Start from the verb and add to the front. Usual order: <b>who · when · with whom · where · what · verb</b>.</p>
+${ex("마셔요","masyeoyo","(I) drink")}${ex("커피를 마셔요","keopireul masyeoyo","(I) drink coffee")}${ex("카페에서 커피를 마셔요","kapeeseo keopireul masyeoyo","(I) drink coffee at a café")}${ex("저는 오늘 친구하고 카페에서 커피를 마셔요","jeoneun oneul chinguhago kapeeseo keopireul masyeoyo","Today I'm drinking coffee at a café with a friend")}
+<h3>Swap the parts</h3><p>Keep the frame, change one word. This is how one sentence becomes fifty.</p>
+${ex("물을 마셔요","mureul masyeoyo","(I) drink water — new noun")}${ex("커피를 사요","keopireul sayo","(I) buy coffee — new verb")}${ex("커피를 안 마셔요","keopireul an masyeoyo","(I) don't drink coffee — 안 before the verb")}${ex("커피 마셔요?","keopi masyeoyo?","Do you drink coffee? — same words, rising tone")}
+<div class="tip">Stuck mid-sentence? Say the nouns you know, then end with the verb. Korean listeners wait for the verb anyway.</div>
+<div class="tip" style="background:var(--accent-soft)"><b>Common mistakes</b><ul style="margin:6px 0 0;padding-left:18px"><li>English order — 저는 마셔요 커피를 ✗ → 저는 커피를 마셔요 ✓</li><li>을/를 with a describing verb — 커피를 맛있어요 ✗ → 커피가 맛있어요 ✓</li><li>에 for where you do something — 카페에 공부해요 ✗ → 카페에서 공부해요 ✓</li></ul></div>`},
+  { id:"numbers", title:"10 · Two number systems", blurb:"Native for counting and age, Sino-Korean for money and time.", deck:"Numbers", body:`
 <p>Korean has two sets of numbers and they are not interchangeable.</p>
 <div class="tbl"><table><tr><th></th><th>Native</th><th>Sino-Korean</th></tr><tr><td>1</td><td class="k">하나 (한)</td><td class="k">일</td></tr><tr><td>2</td><td class="k">둘 (두)</td><td class="k">이</td></tr><tr><td>3</td><td class="k">셋 (세)</td><td class="k">삼</td></tr><tr><td>4</td><td class="k">넷 (네)</td><td class="k">사</td></tr><tr><td>5</td><td class="k">다섯</td><td class="k">오</td></tr><tr><td>6</td><td class="k">여섯</td><td class="k">육</td></tr><tr><td>7</td><td class="k">일곱</td><td class="k">칠</td></tr><tr><td>8</td><td class="k">여덟</td><td class="k">팔</td></tr><tr><td>9</td><td class="k">아홉</td><td class="k">구</td></tr><tr><td>10</td><td class="k">열</td><td class="k">십</td></tr><tr><td>Used for</td><td>age, counting things, hours</td><td>money, dates, minutes, phone numbers, floors</td></tr></table></div>
 <p>Native numbers 1 to 4 shorten before a counter (the word in parentheses). Sino numbers build like English digits: 십일 = 11, 이십 = 20, 이십오 = 25, 백 = 100.</p>
 ${ex("커피 두 잔 주세요","keopi du jan juseyo","Two cups of coffee, please (native + counter 잔)")}${ex("오천 원이에요","ocheon wonieyo","It's 5,000 won (Sino)")}${ex("두 시 삼십 분","du si samsip bun","2:30 (native hour, Sino minutes)")}${ex("스물다섯 살이에요","seumuldaseot salieyo","I'm 25 (native + 살)")}
 <div class="tip">Korean groups large numbers by 10,000 (만), not 1,000. 50,000 won is 오만 원 (five ten-thousands), not fifty thousands.</div>
 <div class="tip" style="background:var(--accent-soft)"><b>Common mistakes</b><ul style="margin:6px 0 0;padding-left:18px"><li>다섯 시 삼십 분 ✓ but 삼 시 ✗ — hours are native (세 시).</li><li>하나 개 ✗ — 1–4 shorten before a counter: 한 개.</li><li>오십천 원 ✗ — Korean groups by 만: 오만 원.</li></ul></div>`},
-  { id:"food", title:"8 · Eating out", blurb:"Ordering, counters, and the two meal phrases everyone says.", deck:"Food & ordering", body:`
+  { id:"food", title:"11 · Eating out", blurb:"Ordering, counters, and the two meal phrases everyone says.", deck:"Food & ordering", body:`
 <p>Restaurants are the fastest place to use real Korean. Four phrases cover 90% of it.</p>
 ${ex("저기요!","jeogiyo!","Excuse me! (to call staff)")}${ex("이거 주세요","igeo juseyo","This one, please (point at the menu)")}${ex("물 주세요","mul juseyo","Water, please")}${ex("계산해 주세요","gyesanhae juseyo","Check, please")}
 <h3>Counting things</h3><p>Native number + counter. The two counters you need: <b>개</b> (things) and <b>잔</b> (cups/glasses). Remember 하나→한, 둘→두, 셋→세, 넷→네 before a counter.</p>
@@ -645,7 +682,7 @@ ${ex("김밥 두 개 주세요","gimbap du gae juseyo","Two gimbap, please")}${e
 <h3>Table manners in two lines</h3>
 ${ex("잘 먹겠습니다","jal meokgetseumnida","Before eating: 'I will eat well'")}${ex("잘 먹었습니다","jal meogeotseumnida","After eating: 'I ate well'")}
 <div class="tip">Pour drinks for others, never for yourself, and receive a pour with two hands. Oldest person lifts chopsticks first.</div>`},
-  { id:"getting-around", title:"9 · Getting around", blurb:"Asking where, understanding the answer, taxis and subway.", deck:"Directions & transport", body:`
+  { id:"getting-around", title:"12 · Getting around", blurb:"Asking where, understanding the answer, taxis and subway.", deck:"Directions & transport", body:`
 <p>Pattern: <b>place + 어디예요?</b> gets you the question. The answer will use 왼쪽, 오른쪽, 똑바로.</p>
 ${ex("지하철역 어디예요?","jihacheollyeok eodiyeyo?","Where is the subway station?")}${ex("똑바로 가세요","ttokbaro gaseyo","Go straight")}${ex("왼쪽으로 가세요","oenjjogeuro gaseyo","Go left (으로 = toward)")}
 <h3>Taxi</h3>
@@ -653,13 +690,13 @@ ${ex("명동으로 가 주세요","myeongdongeuro ga juseyo","Please go to Myeon
 <h3>Subway</h3><p>Stations announce in Korean then English. 이번 역 = this stop, 다음 역 = next stop, 갈아타다 = transfer.</p>
 ${ex("다음 역은 강남역입니다","daeum yeogeun gangnamyeogimnida","The next station is Gangnam")}
 <div class="tip">Get a T-money card (티머니 카드) at any 편의점 (convenience store). It works on subway, bus, and most taxis.</div>`},
-  { id:"titles", title:"10 · Titles & honorifics", blurb:"씨, 님, 오빠/언니 — what to call people and when a bare name is rude.", deck:"Family & people", body:`
+  { id:"titles", title:"13 · Titles & honorifics", blurb:"씨, 님, 오빠/언니 — what to call people and when a bare name is rude.", deck:"Family & people", body:`
 <p>Korean rarely uses "you" and almost never a bare first name for anyone older. You address people by a title or a relationship word.</p>
 <div class="tbl"><table><tr><th>Use</th><th>For</th><th>Example</th></tr><tr><td class="k">이름 + 씨</td><td>peers, coworkers, polite default</td><td>민수 씨, 지은 씨</td></tr><tr><td class="k">직함 + 님</td><td>anyone with a role, customers</td><td>선생님, 사장님 (boss/owner), 고객님</td></tr><tr><td class="k">오빠 / 형</td><td>older guy (you female / you male)</td><td>민수 오빠, 민수 형</td></tr><tr><td class="k">언니 / 누나</td><td>older girl (you female / you male)</td><td>지은 언니, 지은 누나</td></tr><tr><td class="k">bare name + 아/야</td><td>close friends, younger people only</td><td>민수야!, 지은아!</td></tr></table></div>
 ${ex("사장님, 계산해 주세요","sajangnim, gyesanhae juseyo","Boss (owner), the check please")}${ex("민수 씨, 시간 있어요?","minsu ssi, sigan isseoyo?","Minsu, are you free?")}${ex("오빠, 뭐 해?","oppa, mwo hae?","(to older guy, from a girl) What are you doing?")}
 <h3>The 아 / 야 rule</h3><p>Calling a close friend by name: a name ending in a <b>vowel</b> takes <b>야</b> (민수 → 민수야!), a name ending in a <b>consonant</b> takes <b>아</b> (지은 → 지은아!).</p>
 <div class="tip">When unsure, 씨 after the full name is never wrong with peers. Never put 씨 after your own name, and never use 야 with anyone older than you.</div>`},
-  { id:"plans", title:"11 · Making plans", blurb:"Suggest, invite, agree: ㄹ까요 / ㄹ래요 / 자, and 같이.", deck:"Hanging out", body:`
+  { id:"plans", title:"14 · Making plans", blurb:"Suggest, invite, agree: ㄹ까요 / ㄹ래요 / 자, and 같이.", deck:"Hanging out", body:`
 <p>Three endings cover every invitation. Attach them to the verb stem.</p>
 <div class="tbl"><table><tr><th>Ending</th><th>Feel</th><th>Example</th></tr><tr><td class="k">-(으)ㄹ까요?</td><td>"Shall we…?" — soft suggestion</td><td>커피 마실까요? / 카페 갈까?</td></tr><tr><td class="k">-(으)ㄹ래요?</td><td>"Do you want to…?" — asks their wish</td><td>같이 갈래요? / 영화 볼래?</td></tr><tr><td class="k">-자</td><td>"Let's…" — casual, decided</td><td>놀자! / 밥 먹자</td></tr></table></div>
 <p>ㄹ after a vowel stem (가 → 갈까요), 을 after a consonant stem (먹 → 먹을까요).</p>
@@ -669,7 +706,7 @@ ${ex("좋아요 / 콜!","joayo / kol!","Sounds good / Deal!")}${ex("미안, 그�
 <div class="tip">Koreans confirm meetups with place + exit number, not addresses: 강남역 11번 출구. Learn your station's exits.</div>
 <div class="tip" style="background:var(--accent-soft)"><b>Common mistakes</b><ul style="margin:6px 0 0;padding-left:18px"><li>볼래요 to an elder — use 보실래요 or 볼까요?</li><li>Giving an address — Koreans say station + exit: 강남역 11번 출구.</li><li>Saying yes with 네 only — add 좋아요 or 콜 so it sounds enthusiastic.</li></ul></div>
 <h3>Say it 3 ways</h3><div class="tbl"><table><tr><th>Formal</th><th>Polite</th><th>Casual</th><th></th></tr><tr><td class="k">같이 가시겠어요?</td><td class="k">같이 갈래요?</td><td class="k">같이 갈래?</td><td>want to go together</td></tr><tr><td class="k">시간 있으세요?</td><td class="k">시간 있어요?</td><td class="k">시간 있어?</td><td>are you free</td></tr></table></div>`},
-  { id:"texting", title:"12 · Texting like a local", blurb:"ㅋㅋ, ㅠㅠ, dropped particles, and the shorthand everyone uses on KakaoTalk.", deck:"Casual texting", body:`
+  { id:"texting", title:"15 · Texting like a local", blurb:"ㅋㅋ, ㅠㅠ, dropped particles, and the shorthand everyone uses on KakaoTalk.", deck:"Casual texting", body:`
 <p>Korean texting strips sentences down and leans on consonant-only shorthand. Learn these and chats stop looking like noise.</p>
 <div class="tbl"><table><tr><th>Shorthand</th><th>Means</th><th>Note</th></tr><tr><td class="k">ㅋㅋㅋ</td><td>lol</td><td>more ㅋ = funnier. ㅋ alone can read as dry.</td></tr><tr><td class="k">ㅎㅎ</td><td>hehe</td><td>softer, shy laugh</td></tr><tr><td class="k">ㅠㅠ / ㅜㅜ</td><td>crying</td><td>sad or "ugh"; the vowels look like tears</td></tr><tr><td class="k">ㅇㅇ</td><td>yeah (응)</td><td>casual yes</td></tr><tr><td class="k">ㄴㄴ</td><td>no (노노)</td><td>casual no</td></tr><tr><td class="k">ㅇㅋ</td><td>OK</td><td>오케이</td></tr><tr><td class="k">ㄱㄱ</td><td>go go (고고)</td><td>let's go / start</td></tr><tr><td class="k">ㅈㅅ</td><td>sorry (죄송)</td><td>very casual</td></tr><tr><td class="k">ㄱㅅ</td><td>thanks (감사)</td><td>very casual</td></tr></table></div>
 <h3>Drop everything optional</h3><p>Particles, subjects and 요 vanish in texts between friends.</p>
@@ -677,7 +714,7 @@ ${ex("지금 어디?","jigeum eodi?","Where (are you) now?")}${ex("나 다 왔�
 <h3>Politeness still exists</h3><p>With someone older or new, keep 요 and use 네 instead of ㅇㅇ. 넵 (nep) is the friendly-polite "yes!" used at work.</p>
 ${ex("넵, 확인했습니다","nep, hwaginhaetseumnida","Yes, confirmed (work chat)")}
 <div class="tip">Read receipts on KakaoTalk show a number that counts down as people read. Leaving someone on "1" (읽씹, read-and-ignore) is a known social crime.</div>`},
-  { id:"counters", title:"13 · Counters", blurb:"You can't say 'two coffees' without one. The ten counters that cover daily life.", deck:"Counters", body:`
+  { id:"counters", title:"16 · Counters", blurb:"You can't say 'two coffees' without one. The ten counters that cover daily life.", deck:"Counters", body:`
 <p>Korean counts things with <b>native number + counter</b>. The counter depends on what you're counting, like "two <i>cups</i> of coffee" or "three <i>sheets</i> of paper", except it's mandatory.</p>
 <div class="tbl"><table><tr><th>Counter</th><th>Counts</th><th>Example</th></tr><tr><td class="k">개</td><td>things (default)</td><td>사과 두 개</td></tr><tr><td class="k">명 / 분</td><td>people / people (polite)</td><td>세 명, 세 분</td></tr><tr><td class="k">잔</td><td>cups, glasses</td><td>커피 한 잔</td></tr><tr><td class="k">병</td><td>bottles</td><td>맥주 두 병</td></tr><tr><td class="k">마리</td><td>animals</td><td>강아지 한 마리</td></tr><tr><td class="k">권</td><td>books</td><td>책 세 권</td></tr><tr><td class="k">장</td><td>flat things, tickets</td><td>표 두 장</td></tr><tr><td class="k">살</td><td>years of age</td><td>스물다섯 살</td></tr><tr><td class="k">시간</td><td>hours (duration)</td><td>두 시간</td></tr><tr><td class="k">번</td><td>times</td><td>세 번</td></tr></table></div>
 <h3>The 1–4 change</h3><p>Before a counter: 하나 → <b>한</b>, 둘 → <b>두</b>, 셋 → <b>세</b>, 넷 → <b>네</b>, 스물 → <b>스무</b>. Everything else stays the same.</p>
@@ -685,7 +722,7 @@ ${ex("커피 두 잔 주세요","keopi du jan juseyo","Two coffees, please")}${e
 <h3>Word order</h3><p>Noun + number + counter: 맥주 (noun) 두 (number) 병 (counter). The particle, if any, goes after the counter: 맥주 두 병<b>을</b> 마셨어요.</p>
 <div class="tip">Stuck? 개 works for almost any object and nobody will blink. Just never use 개 for people (명) or drinks (잔).</div>
 <div class="tip" style="background:var(--accent-soft)"><b>Common mistakes</b><ul style="margin:6px 0 0;padding-left:18px"><li>두 명 for drinks ✗ — 명 is people; drinks are 잔.</li><li>세 개 사람 ✗ — order is noun + number + counter: 사람 세 명.</li><li>스물 살 ✗ — 스물 → 스무 before a counter: 스무 살.</li></ul></div>`},
-  { id:"story", title:"14 · Telling a story in the past", blurb:"String past-tense sentences together with 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로.", deck:"Connectors", body:`
+  { id:"story", title:"17 · Telling a story in the past", blurb:"String past-tense sentences together with 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로.", deck:"Connectors", body:`
 <p>Once you can make one past-tense sentence (lesson 6), a story is just several of them joined by connectors. Here is the whole toolkit.</p>
 <div class="tbl"><table><tr><th>Connector</th><th>Use</th></tr><tr><td class="k">먼저</td><td>first</td></tr><tr><td class="k">그리고</td><td>and then</td></tr><tr><td class="k">그다음에</td><td>after that</td></tr><tr><td class="k">그래서</td><td>so</td></tr><tr><td class="k">그런데</td><td>but / by the way</td></tr><tr><td class="k">마지막으로</td><td>lastly</td></tr></table></div>
 <h3>Yesterday, in six lines</h3>
@@ -693,7 +730,7 @@ ${ex("어제 친구를 만났어요","eoje chingureul mannasseoyo","Yesterday I 
 <h3>Time words that set the scene</h3><p>어제 (yesterday) · 지난주 (last week) · 지난 주말 (last weekend) · 아까 (a while ago) · 작년 (last year). Put them first.</p>
 ${ex("지난 주말에 뭐 했어요?","jinan jumare mwo haesseoyo?","What did you do last weekend?")}${ex("아까 점심 먹었어요","akka jeomsim meogeosseoyo","I had lunch a while ago")}
 <div class="tip">Native speakers overuse 그래서 and 근데 (casual 그런데) constantly. Copy that: two connectors cover most conversations.</div>`},
-  { id:"negation", title:"15 · Saying no, can't and don't know", blurb:"안 vs 못, -지 않아요, -(으)ㄹ 수 있어요 / 없어요, 몰라요 vs 모르겠어요.", deck:"Core verbs", body:`
+  { id:"negation", title:"18 · Saying no, can't and don't know", blurb:"안 vs 못, -지 않아요, -(으)ㄹ 수 있어요 / 없어요, 몰라요 vs 모르겠어요.", deck:"Core verbs", body:`
 <p>Three small words do most of the negative work in Korean. Pick by meaning: <b>won't</b>, <b>can't</b>, or <b>don't know</b>.</p>
 <div class="tbl"><table><tr><th>Form</th><th>Meaning</th><th>Example</th></tr><tr><td class="k">안 + verb</td><td>don't / not (choice)</td><td>안 먹어요 = I don't eat (it)</td></tr><tr><td class="k">못 + verb</td><td>can't (ability / circumstance)</td><td>못 먹어요 = I can't eat (it)</td></tr><tr><td class="k">-지 않아요</td><td>don't (slightly formal 안)</td><td>먹지 않아요</td></tr><tr><td class="k">-(으)ㄹ 수 있어요</td><td>can</td><td>할 수 있어요 = I can do it</td></tr><tr><td class="k">-(으)ㄹ 수 없어요</td><td>cannot</td><td>갈 수 없어요 = I can't go</td></tr></table></div>
 ${ex("매운 거 안 먹어요","maeun geo an meogeoyo","I don't eat spicy food (by choice)")}${ex("매운 거 못 먹어요","maeun geo mot meogeoyo","I can't eat spicy food (it hurts)")}${ex("한국어 할 수 있어요?","hangugeo hal su isseoyo?","Can you speak Korean?")}${ex("조금 할 수 있어요","jogeum hal su isseoyo","I can, a little")}${ex("오늘은 못 가요","oneureun mot gayo","I can't go today")}
@@ -702,7 +739,7 @@ ${ex("오늘 운동 안 해요","oneul undong an haeyo","I'm not working out tod
 <h3>I don't know</h3><p><b>몰라요</b> = I don't know (fact). <b>모르겠어요</b> = I'm not sure / I don't get it (softer, more common in conversation).</p>
 ${ex("잘 모르겠어요","jal moreugesseoyo","I'm not sure")}${ex("길을 몰라요","gireul mollayo","I don't know the way")}
 <div class="tip">Being asked 매운 거 먹을 수 있어요? (can you eat spicy?) is a rite of passage. 네, 잘 먹어요 earns respect; 조금요 is the honest answer.</div>`},
-  { id:"honorific", title:"16 · Honorific verbs", blurb:"-(으)시- and the special verbs: 드시다, 주무시다, 계시다, 말씀하시다.", deck:"Honorifics", body:`
+  { id:"honorific", title:"19 · Honorific verbs", blurb:"-(으)시- and the special verbs: 드시다, 주무시다, 계시다, 말씀하시다.", deck:"Honorifics", body:`
 <p>Politeness (요) is about the <b>listener</b>. Honorifics (시) are about the <b>subject</b> — the person doing the action. Use them for elders, customers, teachers, and your partner's parents.</p>
 <h3>The rule</h3><p>Insert <b>-(으)시-</b> after the stem: 가다 → 가<b>시</b>다 → 가<b>세요</b> (present) / 가<b>셨어요</b> (past). 으시 after a consonant: 앉다 → 앉<b>으세요</b>.</p>
 ${ex("어디 가세요?","eodi gaseyo?","Where are you going? (to an elder)")}${ex("언제 오셨어요?","eonje osyeosseoyo?","When did you arrive? (honorific)")}${ex("여기 앉으세요","yeogi anjeuseyo","Please sit here")}
@@ -710,14 +747,14 @@ ${ex("어디 가세요?","eodi gaseyo?","Where are you going? (to an elder)")}${
 <div class="tbl"><table><tr><th>Plain</th><th>Honorific</th><th>Meaning</th></tr><tr><td class="k">먹다 / 마시다</td><td class="k">드시다</td><td>eat / drink</td></tr><tr><td class="k">자다</td><td class="k">주무시다</td><td>sleep</td></tr><tr><td class="k">있다</td><td class="k">계시다</td><td>be (a person)</td></tr><tr><td class="k">말하다</td><td class="k">말씀하시다</td><td>speak</td></tr><tr><td class="k">이름</td><td class="k">성함</td><td>name</td></tr><tr><td class="k">나이</td><td class="k">연세</td><td>age</td></tr></table></div>
 ${ex("맛있게 드세요","masitge deuseyo","Enjoy your meal (lit. eat deliciously)")}${ex("안녕히 주무세요","annyeonghi jumuseyo","Good night (to an elder)")}${ex("사장님 계세요?","sajangnim gyeseyo?","Is the owner in?")}
 <div class="tip">Never use 시 about yourself. 저는 가세요 is a classic beginner mistake; it's 저는 가요.</div>`},
-  { id:"requests", title:"17 · Asking for things politely", blurb:"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요? — the softeners that get a yes.", deck:"Asking around", body:`
+  { id:"requests", title:"20 · Asking for things politely", blurb:"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요? — the softeners that get a yes.", deck:"Asking around", body:`
 <p>Korean has layers of softness. Stack them when you need a favor from a stranger.</p>
 <div class="tbl"><table><tr><th>Softener</th><th>Effect</th><th>Example</th></tr><tr><td class="k">좀</td><td>'a bit' — makes any request gentler</td><td>물 좀 주세요</td></tr><tr><td class="k">혹시</td><td>'by any chance' — opens a question</td><td>혹시 화장실 있어요?</td></tr><tr><td class="k">-아/어 주시겠어요?</td><td>'would you mind…?' — very polite</td><td>사진 좀 찍어 주시겠어요?</td></tr><tr><td class="k">-(으)면 안 돼요?</td><td>'would it be okay if…?' — asking permission</td><td>여기 앉으면 안 돼요?</td></tr><tr><td class="k">-아/어도 돼요?</td><td>'may I…?'</td><td>사진 찍어도 돼요?</td></tr></table></div>
 ${ex("혹시 영어 메뉴 있어요?","hoksi yeongeo menyu isseoyo?","By any chance, do you have an English menu?")}${ex("천천히 말씀해 주시겠어요?","cheoncheonhi malsseumhae jusigesseoyo?","Would you mind speaking slowly?")}${ex("창가 자리로 바꿔 주시겠어요?","changga jariro bakkwo jusigesseoyo?","Could you move us to a window seat?")}${ex("여기서 충전해도 돼요?","yeogiseo chungjeonhaedo dwaeyo?","May I charge here?")}
 <h3>Saying no politely</h3>
 ${ex("죄송하지만 안 돼요","joesonghajiman an dwaeyo","Sorry, but that's not possible")}${ex("괜찮아요, 됐어요","gwaenchanayo, dwaesseoyo","It's fine, never mind")}
 <div class="tip">혹시 + 좀 + 주시겠어요 is the maximum-politeness combo. Save it for real favors; for ordering, 주세요 is plenty.</div>`},
-  { id:"office", title:"18 · Office Korean", blurb:"Titles, the 수고 family, email openers and closers, and surviving 회식.", deck:"Work & office", body:`
+  { id:"office", title:"21 · Office Korean", blurb:"Titles, the 수고 family, email openers and closers, and surviving 회식.", deck:"Work & office", body:`
 <p>Korean offices run on titles and set phrases. Learn the set phrases and you sound like you belong on day one.</p>
 <h3>Titles (always + 님)</h3>
 <div class="tbl"><table><tr><th>Title</th><th>Roughly</th></tr><tr><td class="k">사원</td><td>staff</td></tr><tr><td class="k">대리님</td><td>assistant manager</td></tr><tr><td class="k">과장님</td><td>manager</td></tr><tr><td class="k">차장님 / 부장님</td><td>senior manager / department head</td></tr><tr><td class="k">팀장님</td><td>team lead</td></tr><tr><td class="k">사장님 / 대표님</td><td>CEO</td></tr></table></div>
@@ -732,6 +769,9 @@ ${ex("한 잔 받으세요","han jan badeuseyo","Please have a drink (pouring fo
 ];
 
 let CHECKS={
+  nouns:[["'This is a book' =",["이거 책이에요","이거 책예요","이거 책들이에요","이거 책 해요"],0,"책 ends in a consonant → 이에요. No word for 'a'."],["'That building over there' =",["저 건물","이 건물","그 건물","건물 저"],0,"이 = this, 그 = that (near you), 저 = over there."],["'My friend's house', most natural:",["제 친구 집","집 제 친구","친구들 집들","제 집 친구"],0,"Owner first; 의 is usually dropped."]],
+  verbbasics:[["Stem of 먹다 =",["먹","먹다","먹어","다"],0,"Drop 다 to get the stem."],["'The weather is good' =",["날씨가 좋아요","날씨가 좋아 이에요","날씨를 좋아요","날씨 좋다 예요"],0,"좋아요 already includes 'is'."],["'I have time' =",["시간이 있어요","시간이에요","시간을 해요","시간이 없어요"],0,"있어요 = exist / have."]],
+  sentences:[["'I drink coffee at a café' =",["카페에서 커피를 마셔요","카페에 커피를 마셔요","커피를 마셔요 카페에서","마셔요 카페에서 커피를"],0,"Place of action → 에서; verb last."],["'The coffee is tasty' =",["커피가 맛있어요","커피를 맛있어요","커피에 맛있어요","맛있어요 커피가 이에요"],0,"Describing verbs take 이/가, not 을/를."],["Usual order?",["who · when · where · what · verb","verb · what · where · who","who · verb · what · where","what · who · verb · when"],0,"Everything stacks up in front of the verb."]],
   office:[["You're leaving; your manager is still working. You say:",["수고하세요","수고했어요","수고하셨습니다","안녕"],0,"수고하세요 = keep up the good work (they stay)."],["Address a manager named 김민수 as:",["과장님","민수 씨","민수야","김민수"],0,"Title + 님, not the name."],["Politely declining a drink at 회식:",["저는 운전해야 돼서요","싫어요","안 마셔","됐어"],0,"Give a reason; 운전 is the universal one."]],
   honorific:[["'Enjoy your meal' to a customer:",["맛있게 드세요","맛있게 먹어요","맛있게 먹어","맛있게 먹으세요"],0,"드시다 replaces 먹다 in honorific speech."],["Honorific of 자다 (to sleep):",["주무시다","자시다","계시다","드시다"],0,"안녕히 주무세요."],["Which is wrong?",["저는 가세요","아버님 가세요","선생님 오셨어요","할머니 계세요"],0,"Never use 시 about yourself."]],
   requests:[["Most polite way to ask someone to take a photo:",["사진 좀 찍어 주시겠어요?","사진 찍어","사진 찍어요","사진 찍자"],0,"좀 + 주시겠어요 = maximum politeness."],["'By any chance' =",["혹시","좀","그냥","아마"],0,"혹시 opens a polite question."],["'May I sit here?' =",["여기 앉아도 돼요?","여기 앉으세요","여기 앉자","여기 앉을 거예요"],0,"-아/어도 돼요 = may I."]],
@@ -1010,7 +1050,7 @@ function learned(d){ if(!DECKS[d]) return 0; const k='l|'+d; if(memo[k]!==undefi
 function forecast(days){ const f=new Array(days).fill(0); const t=dayNum(); Object.values(S.cards).forEach(s=>{ if(s.leech||s.susp) return; const k=s.due-t; if(k<=0) f[0]++; else if(k<days) f[k]++; }); return f; }
 function dueCount(){ let n=0; names.forEach(d=>DECKS[d].forEach(c=>{ if(isDue(d,c)) n++; })); return n; }
 function deckUnlocked(d){ if(d===MYDECK||S.free) return true; const k='u|'+d; if(memo[k]!==undefined) return memo[k]; const i=PATH.indexOf(d); if(i<=0) return memo[k]=true; const prev=PATH[i-1]; return memo[k]=(DECKS[prev].length?learned(prev)/DECKS[prev].length>=0.6:true); }
-function lessonUnlocked(i){ return S.free || i===0 || !!S.lessons[LESSONS[i-1].id]; }
+function lessonUnlocked(i){ if(S.free||i===0||S.lessons[LESSONS[i-1].id]) return true; for(let k=LESSONS.length-1;k>=i;k--){ if(S.lessons[LESSONS[k].id]) return true; } return false; } /* a lesson at or before your furthest finished one is always open, so adding lessons mid-course never re-locks anything */
 function currentDeck(){ for(const d of PATH){ if(!deckUnlocked(d)) break; if(DECKS[d].some(c=>isNew(d,c))) return d; } return null; }
 let lastGrade=null; // {k, prev, xp} for undo
 let cardShownAt=0;
