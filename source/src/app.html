@@ -354,9 +354,9 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 .langhome .lh-name span{font-size:.82rem;color:var(--muted);overflow-wrap:anywhere}
 .langhome .lh-go{font-size:1.6rem;line-height:1;color:var(--accent);flex:none}
 .langhome .lh-soon{margin:10px 0 -4px;font:700 .72rem var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.langhome .lh-locked{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:8px}
-.langhome .lh-lock{display:flex;align-items:center;gap:6px;min-width:0;padding:9px 10px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:.84rem;opacity:.55;cursor:not-allowed;user-select:none;-webkit-user-select:none}
-.langhome .lh-ln{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.langhome .lh-locked{display:flex;flex-wrap:wrap;gap:8px}
+.langhome .lh-lock{display:grid;place-items:center;width:44px;height:44px;border:1px dashed var(--line);border-radius:12px;font-size:1.25rem;line-height:1;opacity:.5;cursor:not-allowed;user-select:none;-webkit-user-select:none}
+.langhome .lh-ln{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .langhome .ghost{min-height:36px}
 #courseBtn{padding:4px 8px;font-size:1rem;line-height:1;min-width:36px;min-height:32px}
 #hModes .chip[hidden],#regStart[hidden],#v-hangul .panel[hidden],#hLvls[hidden],label.auto[hidden]{display:none!important}
@@ -477,7 +477,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='2.0.1 · 2026-11-14';
+const APP_VERSION='2.0.2 · 2026-11-14';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -885,19 +885,19 @@ function maybeLangHome(){ if(needLangHome()&&!document.getElementById('welcome')
 function showLangHome(opts){ opts=opts||{}; closeSheet(); const old=$('langHome'); if(old) old.remove(); const w=document.createElement('div'); w.className='welcome langhome'; w.id='langHome'; w.setAttribute('role','dialog'); w.setAttribute('aria-modal','true'); w.setAttribute('aria-label','Choose your language · 언어 선택'); w.setAttribute('data-noi18n','');
   let native=null; const close=()=>{ w.remove(); document.removeEventListener('keydown',onKey); if(!META.seenHome){ META.seenHome=1; saveMeta(); } armIdle(); };
   const xBtn=()=>opts.closable?'<button class="ghost lh-x" type="button" aria-label="Close · 닫기">✕</button>':'';
-  const lock=(flag,label,sub)=>`<div class="lh-lock" role="listitem" aria-disabled="true" title="${escT(sub)}"><span aria-hidden="true">🔒</span><span aria-hidden="true">${flag}</span><span class="lh-ln">${escT(label)}</span></div>`;
+  const lock=(flag,label,sub)=>`<div class="lh-lock" role="listitem" aria-disabled="true" title="${escT(sub)}" data-ln="${escT(label)}"><span aria-hidden="true">${flag}</span><span class="lh-ln">${escT(label)}</span></div>`;
   const focus=()=>setTimeout(()=>{ const b=w.querySelector('.lh-row'); if(b&&!document.getElementById('fxIntro')) b.focus({preventScroll:true}); },60);
   const step1=()=>{ native=null; const live=liveNatives(); const soon=Object.keys(LANGS).filter(k=>!live.includes(k));
     w.innerHTML=`<div class="wbox"><div class="lh-top"><span class="lh-brand">Lang App</span>${xBtn()}</div><div><h1 class="lh-q">What language do you speak?</h1><p class="lh-sub" lang="ko">어떤 언어를 사용하세요?</p></div>
-      <div class="lh-list" role="list">${live.map(k=>`<div role="listitem"><button class="lh-row" type="button" data-native="${k}" lang="${k}"><span class="lh-flag" aria-hidden="true">${LANGS[k].flag}</span><span class="lh-name"><b>${LANGS[k].self}</b><span>${k==='en'?'영어':LANGS[k].name}</span></span><span class="lh-go" aria-hidden="true">›</span></button></div>`).join('')}</div>
-      ${soon.length?`<p class="lh-soon">Coming soon · 출시 예정</p><div class="lh-locked" role="list" aria-label="Coming soon · 출시 예정">${soon.map(k=>lock(LANGS[k].flag,LANGS[k].self,LANGS[k].name+' · coming soon · 출시 예정')).join('')}</div>`:''}</div>`; focus(); };
+      <div class="lh-list" role="list">${live.map(k=>`<div role="listitem"><button class="lh-row" type="button" data-native="${k}" lang="${k}"><span class="lh-flag" aria-hidden="true">${LANGS[k].flag}</span><span class="lh-name"><b>${LANGS[k].self}</b></span><span class="lh-go" aria-hidden="true">›</span></button></div>`).join('')}</div>
+      ${soon.length?`<p class="lh-soon">🔒 Coming soon · 출시 예정</p><div class="lh-locked" role="list" aria-label="Coming soon · 출시 예정">${soon.map(k=>lock(LANGS[k].flag,LANGS[k].self,LANGS[k].name+' · coming soon · 출시 예정')).join('')}</div>`:''}</div>`; focus(); };
   const step2=n=>{ native=n; const ko=n==='ko', tr=(en,k)=>ko?k:en; const live=Object.values(COURSES).filter(c=>c.native===n); const lt=live.map(c=>c.target); const soon=Object.keys(LANGS).filter(k=>k!==n&&!lt.includes(k));
-    w.innerHTML=`<div class="wbox" lang="${n}"><div class="lh-top"><button class="ghost lh-back" type="button">${tr('← Back','← 뒤로')}</button>${xBtn()}</div><div><h1 class="lh-q">${tr('What do you want to learn?','무엇을 배우고 싶으세요?')}</h1><p class="lh-sub">${tr('Pick a course. You can switch any time — progress is kept for each course.','코스를 골라 주세요. 언제든 바꿀 수 있고, 코스별 진도는 그대로 남아요.')}</p></div>
+    w.innerHTML=`<div class="wbox" lang="${n}"><div class="lh-top"><button class="ghost lh-back" type="button">${tr('← Back','← 뒤로')}</button>${xBtn()}</div><div><h1 class="lh-q">${tr('What do you want to learn?','무엇을 배우고 싶으세요?')}</h1></div>
       <div class="lh-list" role="list">${live.map(c=>{ const cur=META.picked&&c.id===COURSE.id; const rt=courseRT(c); const nd=rt.names.filter(d=>d!==MYDECK).length, nc=rt.names.reduce((s,d)=>s+rt.DECKS[d].length,0), nl=(c.LESSONS||[]).length;
-        return `<div role="listitem"><button class="lh-row${cur?' on':''}" type="button" data-course="${c.id}"><span class="lh-flag" aria-hidden="true">${LANGS[c.target].flag}</span><span class="lh-name"><b>${escT((c.name&&c.name[n])||langName(c.target,n))}</b><span>${cur?tr('Current course · ','현재 코스 · '):''}${tr(nd+' decks · '+nc+' cards · '+nl+' lessons','덱 '+nd+'개 · 카드 '+nc+'장 · 수업 '+nl+'개')}</span></span><span class="lh-go" aria-hidden="true">›</span></button></div>`; }).join('')}</div>
-      ${soon.length?`<p class="lh-soon">${tr('Coming soon','출시 예정')}</p><div class="lh-locked" role="list" aria-label="${tr('Coming soon','출시 예정')}">${soon.map(k=>lock(LANGS[k].flag,langName(k,n),tr('Coming soon','출시 예정'))).join('')}</div>`:''}</div>`; focus(); };
+        return `<div role="listitem"><button class="lh-row${cur?' on':''}" type="button" data-course="${c.id}"><span class="lh-flag" aria-hidden="true">${LANGS[c.target].flag}</span><span class="lh-name"><b>${escT((c.name&&c.name[n])||langName(c.target,n))}</b>${cur?`<span>${tr('Current course','현재 코스')}</span>`:''}</span><span class="lh-go" aria-hidden="true">›</span></button></div>`; }).join('')}</div>
+      ${soon.length?`<p class="lh-soon">🔒 ${tr('Coming soon','출시 예정')}</p><div class="lh-locked" role="list" aria-label="${tr('Coming soon','출시 예정')}">${soon.map(k=>lock(LANGS[k].flag,langName(k,n),tr('Coming soon','출시 예정'))).join('')}</div>`:''}</div>`; focus(); };
   const onKey=e=>{ if(e.key==='Escape'&&opts.closable&&document.getElementById('langHome')===w) close(); };
-  w.addEventListener('click',e=>{ const lk=e.target.closest('.lh-lock'); if(lk){ toast(native==='ko'?'출시 예정이에요 · Coming soon':'Coming soon · 출시 예정'); return; } const b=e.target.closest('button'); if(!b) return;
+  w.addEventListener('click',e=>{ const lk=e.target.closest('.lh-lock'); if(lk){ const ln=lk.dataset.ln||''; toast(native==='ko'?ln+' · 출시 예정':native==='en'?ln+' · coming soon':ln+' · coming soon · 출시 예정'); return; } const b=e.target.closest('button'); if(!b) return;
     if(b.classList.contains('lh-x')){ close(); return; } if(b.classList.contains('lh-back')){ step1(); return; }
     if(b.dataset.native){ step2(b.dataset.native); return; }
     if(b.dataset.course){ const id=b.dataset.course, was=COURSE.id, first=!META.picked; close(); if(id!==was||first) applyCourse(id,{noRoute:true}); if(location.hash!=='#today') location.hash='#today'; else route(); if(!first&&id!==was) toast(LL('Now learning '+tgtName()+' · progress saved per course',tgtName()+' 코스로 바꿨어요 · 진도는 코스별로 저장돼요')); } });
