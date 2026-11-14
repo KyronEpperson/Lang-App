@@ -477,7 +477,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='2.0.0 · 2026-11-14';
+const APP_VERSION='2.0.1 · 2026-11-14';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -815,7 +815,7 @@ function lessonBody(l){ return COURSE.builtin?l.body:'<div class="lbody" data-no
 function initMeta(){ let m=null; try{ m=JSON.parse(localStorage.getItem('la-meta')||'null'); }catch(e){ m=null; }
   if(!m||typeof m!=='object'||m.v!==1){ let had=false; try{ had=!!(localStorage.getItem('ko-app2')||localStorage.getItem('ko-app')); }catch(e){}
     META=had?{v:1,native:'en',course:'en-ko',picked:1,prefs:{},migrated:1}:{v:1,native:null,course:'en-ko',picked:0,prefs:{}}; saveMeta(); }
-  else META=Object.assign({v:1,native:null,course:'en-ko',picked:0,prefs:{}},m);
+  else META=Object.assign({v:1,native:null,course:'en-ko',picked:0,prefs:{}},m); if(META.seenHome===undefined){ META.seenHome=(META.picked&&!META.migrated)?1:0; saveMeta(); }
   if(!META.prefs||typeof META.prefs!=='object'||Array.isArray(META.prefs)) META.prefs={}; if(META.prefs.nick!=null) META.prefs.nick=cleanText(META.prefs.nick,24); if(!/^[a-z]{2}-[a-z]{2}$/.test(META.course||'')) META.course='en-ko'; }
 function bootCourse(){ const id=META.course; if(id!=='en-ko'&&COURSES[id]){ COURSE=COURSES[id]; setCourseTables(COURSE); } setI18n(); koVoice=null; pickVoice(); }
 function flushSaveNow(){ saveDirty=true; flushSave(); }
@@ -880,10 +880,10 @@ function renderCourseRow(){ const cr=$('courseRow'); if(!cr) return; const n=LAN
   cr.innerHTML=`<span class="stat" style="font-size:.9rem;color:var(--ink)">🌐 <span>Course</span> · <span data-noi18n>${n.flag} ${n.self} → ${g.flag} ${escT(langName(COURSE.target,COURSE.native==='ko'?'ko':'en'))}</span></span><button class="ghost" id="courseChg" type="button">Change course</button>`; $('courseChg').onclick=()=>showLangHome({step:2,closable:true}); }
 /* ---- language home: native → target, locked "Coming soon" lists ---- */
 function liveNatives(){ return NATIVE_LIVE.filter(n=>Object.values(COURSES).some(c=>c.native===n)); }
-function needLangHome(){ return !META.picked; }
-function maybeLangHome(){ if(needLangHome()&&!document.getElementById('welcome')&&!document.getElementById('langHome')) showLangHome(); }
+function needLangHome(){ return !META.picked||!META.seenHome; }
+function maybeLangHome(){ if(needLangHome()&&!document.getElementById('welcome')&&!document.getElementById('langHome')) showLangHome(META.picked?{closable:true}:undefined); }
 function showLangHome(opts){ opts=opts||{}; closeSheet(); const old=$('langHome'); if(old) old.remove(); const w=document.createElement('div'); w.className='welcome langhome'; w.id='langHome'; w.setAttribute('role','dialog'); w.setAttribute('aria-modal','true'); w.setAttribute('aria-label','Choose your language · 언어 선택'); w.setAttribute('data-noi18n','');
-  let native=null; const close=()=>{ w.remove(); document.removeEventListener('keydown',onKey); armIdle(); };
+  let native=null; const close=()=>{ w.remove(); document.removeEventListener('keydown',onKey); if(!META.seenHome){ META.seenHome=1; saveMeta(); } armIdle(); };
   const xBtn=()=>opts.closable?'<button class="ghost lh-x" type="button" aria-label="Close · 닫기">✕</button>':'';
   const lock=(flag,label,sub)=>`<div class="lh-lock" role="listitem" aria-disabled="true" title="${escT(sub)}"><span aria-hidden="true">🔒</span><span aria-hidden="true">${flag}</span><span class="lh-ln">${escT(label)}</span></div>`;
   const focus=()=>setTimeout(()=>{ const b=w.querySelector('.lh-row'); if(b&&!document.getElementById('fxIntro')) b.focus({preventScroll:true}); },60);
@@ -917,7 +917,7 @@ function applyRemoteRow(remote){ if(!remote||typeof remote!=='object') return fa
   one('en-ko',remote); Object.keys(rc).forEach(id=>{ if(id!=='en-ko') one(id,rc[id]); });
   if(changed){ memoClear(); hydrateCustom(); applyIntervals(); }
   if(!META.picked){ const hasProg=!!(remote.xp||Object.keys(remote.cards||{}).length); const want=rm&&COURSES[rm.course]?rm.course:(hasProg?'en-ko':null);
-    if(want){ const lh=$('langHome'); if(lh) lh.remove(); if(want===COURSE.id){ META.native=COURSE.native; META.picked=1; saveMeta(); setI18n(); applyCourseUi(); applyLang(); } else applyCourse(want,{noRoute:true}); changed=true; } }
+    if(want){ META.seenHome=1; const lh=$('langHome'); if(lh) lh.remove(); if(want===COURSE.id){ META.native=COURSE.native; META.picked=1; saveMeta(); setI18n(); applyCourseUi(); applyLang(); } else applyCourse(want,{noRoute:true}); changed=true; } }
   if(changed){ hdr(); route(); }
   if(stableStr(syncPayload())!==stableStr(remote)) syncPush(); return changed; }
 /* key-order-independent JSON (Postgres jsonb reorders keys, so a plain stringify compare would re-push on every pull) */
