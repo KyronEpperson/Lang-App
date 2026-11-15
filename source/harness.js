@@ -93,7 +93,11 @@ const ovr=async(p,label)=>{ const sw=await p.evaluate(()=>document.documentEleme
   if(koSkip){ mc.koSoon=await p.evaluate(()=>[...document.querySelectorAll('#langHome .lh-lock')].some(x=>/한국어/.test(x.textContent))&&!document.querySelector('#langHome [data-native="ko"]')); }
   else {
     await p.evaluate(()=>document.querySelector('#langHome [data-native="ko"]').click()); await p.waitForTimeout(120); await ovr(p,'langhome-2');
-    mc.lockedDisabled=mc.lockedDisabled&&await p.evaluate(()=>[...document.querySelectorAll('#langHome .lh-lock')].every(x=>x.getAttribute('aria-disabled')==='true'&&!x.matches('button')));
+    // step 2: locked target languages are preview-only buttons — they open the planned-lesson roadmap, never select a course or touch META/COURSES
+    mc.lockedDisabled=mc.lockedDisabled&&await p.evaluate(()=>{ const before=JSON.stringify(META), ids=Object.keys(COURSES).join(), nL=LESSONS.length; const l=[...document.querySelectorAll('#langHome .lh-lock')]; if(!l.length||!l.every(x=>x.dataset.road&&!x.dataset.course)) return false;
+      const codes=l.map(x=>x.dataset.road); let ok=true; codes.forEach(c=>{ document.querySelector('#langHome [data-road="'+c+'"]').click(); const n=document.querySelectorAll('#langHome .rm-it').length; ok=ok&&n>=12&&n===roadmapItems(c).length&&/[가-힣]/.test(document.getElementById('rmBody').textContent)&&!document.querySelector('#langHome [data-course]'); document.querySelector('#langHome .lh-back2').click(); });
+      const R=LANGAPP_PACKS.roadmaps, all=Object.keys(LANGS).every(k=>R[k]&&R[k].stages.length), idsU=Object.keys(R).every(k=>{ const a=roadmapItems(k).map(i=>i[0]); return new Set(a).size===a.length&&a.every(i=>i.indexOf(k+'-')===0); });
+      return ok&&all&&idsU&&JSON.stringify(META)===before&&Object.keys(COURSES).join()===ids&&LESSONS.length===nL&&!!document.querySelector('#langHome [data-course="ko-en"]'); });
     await p.evaluate(()=>document.querySelector('#langHome [data-course="ko-en"]').click()); await p.waitForTimeout(300);
     mc.koEnPick=await p.evaluate(()=>COURSE.id==='ko-en'&&document.documentElement.lang==='ko'&&/[가-힣]/.test(document.querySelector('#nav').textContent)&&!document.getElementById('langHome')&&JSON.parse(localStorage.getItem('la-meta')).course==='ko-en'&&S.nick==='Tester');
     await p.evaluate(()=>{ S.onboard={skipped:1}; S.hintSeen=1; S.tourDone=1; document.querySelectorAll('.tour,.tourov,[class*=tour]').forEach(e=>e.remove()); renderToday(); });
