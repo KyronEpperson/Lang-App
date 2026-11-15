@@ -41,7 +41,7 @@ Bridges to real sentences
 - Comparing (보다, 더, 제일)
 - Sound-change rules as their own lesson (why 감사합니다 sounds like 감사함니다)
 Production practice (features, not lessons)
-- Sentence builder drill: tap word tiles into the right order (uses the four shapes from lesson 9)
+- Sentence builder drill: tap word tiles into the right order (uses the four shapes from the Putting-together lesson)
 - Swap drill: keep the frame, change one noun or verb, say/type the result
 - Type-the-Korean answers for learned sentences (recall, not recognition)
 - Listening: hear a sentence, pick or type what was said

@@ -22,7 +22,7 @@ LANGAPP_PACKS.roadmaps = {
         ["ko-sentences", "Putting sentences together", "문장 만들기", "sentences"] ] },
       { en: "Saying what you want", ko: "원하는 것 말하기", items: [
         ["ko-want-like", "Want and like: -고 싶어요, 좋아해요", "-고 싶어요, 좋아해요"], ["ko-future", "Future: -(으)ㄹ 거예요", "미래: -(으)ㄹ 거예요"],
-        ["ko-can-must", "Can, can't, have to", "-(으)ㄹ 수 있어요, 못, -아/어야 해요", "cant"], ["ko-plans", "Making plans", "약속 잡기", "plans"],
+        ["ko-cant", "Can and can't: -(으)ㄹ 수 있어요, 못", "-(으)ㄹ 수 있어요, 못", "cant"], ["ko-have-to", "Have to: -아/어야 해요", "의무: -아/어야 해요"], ["ko-plans", "Making plans", "약속 잡기", "plans"],
         ["ko-titles", "Titles and honorifics", "호칭과 높임", "titles"], ["ko-requests", "Asking politely", "공손하게 부탁하기", "requests"],
         ["ko-honorific", "Honorific verbs", "높임 동사", "honorific"] ] },
       { en: "Longer sentences", ko: "긴 문장", items: [
