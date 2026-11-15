@@ -27,7 +27,7 @@ ok(C.id === 'ko-en' && C.native === 'ko' && C.target === 'en' && C.ttsLang === '
 ok(C.name && C.name.en === 'English' && C.name.ko === '영어' && C.brand === 'English', 'name/brand');
 const F = C.features || {};
 ok(['script', 'pron', 'conj', 'register', 'numbers', 'sound', 'strokes'].every(k => F[k] === false), 'features all false');
-for (const k of ['DECKS', 'GROUPS', 'TAGS', 'DESC', 'DIALOG', 'EXAMPLES', 'LESSONS', 'CHECKS', 'PATTERNS', 'PAIRS', 'GOALS', 'TITLES', 'PAUSE']) ok(k in C, 'missing key ' + k);
+for (const k of ['DECKS', 'GROUPS', 'TAGS', 'DESC', 'DIALOG', 'EXAMPLES', 'LESSONS', 'CHECKS', 'PRACTICE', 'PATTERNS', 'PAIRS', 'GOALS', 'TITLES', 'PAUSE']) ok(k in C, 'missing key ' + k);
 ok(Array.isArray(C.PAIRS) && C.PAIRS.length === 0, 'PAIRS must be []');
 
 const isStr = s => typeof s === 'string';
@@ -154,6 +154,97 @@ Object.keys(C.CHECKS).forEach(k => ok(ids.has(k), 'CHECKS for unknown lesson ' +
 const idxCounts = [0, 1, 2, 3].map(i => correctIdx.filter(x => x === i).length);
 ok(idxCounts.filter(n => n > 0).length >= 3 && Math.max(...idxCounts) <= correctIdx.length * 0.5, 'correct option position not varied: ' + idxCounts);
 
+/* PRACTICE (docs/PRACTICE-SPEC.md v1) */
+const practiceInfo = [];
+(function checkPractice() {
+  const P = C.PRACTICE;
+  if (!P || typeof P !== 'object') { fail('missing PRACTICE'); return; }
+  const lessonIds = C.LESSONS.map(l => l.id);
+  ok(Object.keys(P).join() === lessonIds.join(), 'PRACTICE keys must equal lesson ids in order: ' + Object.keys(P).join());
+  /* engine normaliser: trim, collapse spaces, strip . , ! ? ~ and quotes, lower-case, curly apostrophe = straight */
+  const pn = s => s.replace(/’/g, "'").replace(/[.,!?~"“”]/g, '').replace(/(^|\s)'|'(\s|$)/g, '$1$2').replace(/\s+/g, ' ').trim().toLowerCase();
+  const ART = /^(a|an|the)$/i;
+  const words = s => pn(s).split(' ');
+  const plPair = (u, v) => { u = u.toLowerCase(); v = v.toLowerCase(); return u === v + 's' || u === v + 'es' || (v.endsWith('y') && u === v.slice(0, -1) + 'ies'); };
+  const anyPair = (xs, ys) => xs.some(x => ys.some(y => plPair(x, y) || plPair(y, x)));
+  const namesPoint = s => isStr(s) && /관사|복수/.test(s);
+  const CONTR = { "i'm": 'i am', "i'll": 'i will', "i'd": 'i would', "i've": 'i have', "it's": 'it is', "that's": 'that is', "don't": 'do not', "doesn't": 'does not', "he's": 'he is', "she's": 'she is', "we're": 'we are', "we've": 'we have', "can't": 'cannot', "isn't": 'is not' };
+  const NO_REVERSE = new Set(["i've", "we've"]); /* "I've" before a plain noun object is not natural AmE, so "I have" does not demand it */
+  const allStrings = it => [it.q, it.p, it.why, it.hint, ...(it.o || []), ...(it.a || []), ...(it.x || [])].filter(isStr);
+  for (const id of lessonIds) {
+    const items = P[id];
+    if (!Array.isArray(items)) { fail('PRACTICE.' + id + ' missing'); continue; }
+    ok(items.length >= 12 && items.length <= 16, 'PRACTICE.' + id + ' has ' + items.length + ' items (12-16)');
+    const seq = items.map(it => it && it.t);
+    const cnt = t => seq.filter(x => x === t).length;
+    ok(/^(mc)+(order)+(fill)+(type)+$/.test(seq.join('')) && seq.join(',') === [...seq].sort((a, b) => ['mc', 'order', 'fill', 'type'].indexOf(a) - ['mc', 'order', 'fill', 'type'].indexOf(b)).join(','), 'PRACTICE.' + id + ' block order must be mc → order → fill → type');
+    ok(cnt('mc') >= 4 && cnt('mc') <= 5, 'PRACTICE.' + id + ' mc count ' + cnt('mc'));
+    ok(cnt('order') >= 3 && cnt('order') <= 4, 'PRACTICE.' + id + ' order count ' + cnt('order'));
+    ok(cnt('fill') === 3, 'PRACTICE.' + id + ' fill count ' + cnt('fill'));
+    ok(cnt('type') >= 3 && cnt('type') <= 4, 'PRACTICE.' + id + ' type count ' + cnt('type'));
+    let orderHits = 0, typeHits = 0;
+    items.forEach((it, i) => {
+      const w = 'PRACTICE.' + id + '#' + i + ' (' + (it && it.t) + ')';
+      if (!it || typeof it !== 'object') { fail(w + ' not an object'); return; }
+      const allowed = { mc: ['t', 'q', 'o', 'why'], order: ['t', 'p', 'a', 'x', 'why'], fill: ['t', 'q', 'p', 'a', 'o', 'why'], type: ['t', 'p', 'a', 'hint', 'x', 'why'] }[it.t];
+      if (!allowed) { fail(w + ' unknown type'); return; }
+      Object.keys(it).forEach(k => ok(allowed.includes(k), w + ' unexpected field ' + k));
+      allStrings(it).forEach(s => { ok(!/[<>]/.test(s), w + ' contains < or >: ' + s); ok(!/[\r\n\t]/.test(s), w + ' control char'); ok(s === s.trim() && s.length > 0, w + ' empty/untrimmed string'); });
+      const eng = [...(it.o || []), ...(it.a || []), ...(it.x || [])].concat(it.t === 'fill' ? [it.q] : []);
+      eng.forEach(s => ok(isStr(s) && !hasHangul(s), w + ' Hangul in English answer string: ' + s));
+      ok(it.t === 'fill' || it.t === 'mc' ? nonEmpty(it.why) && hasHangul(it.why) : (it.why === undefined || (nonEmpty(it.why) && hasHangul(it.why))), w + ' why must be Korean');
+      if (it.t === 'mc') {
+        ok(nonEmpty(it.q) && hasHangul(it.q), w + ' q must be Korean');
+        ok(Array.isArray(it.o) && it.o.length === 4 && it.o.every(nonEmpty), w + ' needs exactly 4 options');
+        ok(Array.isArray(it.o) && new Set(it.o.map(pn)).size === it.o.length, w + ' options not unique after normalising');
+      } else if (it.t === 'order') {
+        ok(nonEmpty(it.p) && hasHangul(it.p), w + ' p must be Korean');
+        ok(Array.isArray(it.a) && it.a.length >= 2 && it.a.length <= 6 && it.a.every(s => nonEmpty(s) && !/\s/.test(s)), w + ' a must be 2-6 single-word tiles');
+        ok(Array.isArray(it.x) && it.x.length >= 1 && it.x.length <= 2 && it.x.every(s => nonEmpty(s) && !/\s/.test(s)), w + ' x must be 1-2 single-word tiles');
+        if (Array.isArray(it.a) && Array.isArray(it.x)) {
+          const A = it.a.map(s => s.toLowerCase());
+          it.x.forEach(s => ok(!A.includes(s.toLowerCase()), w + ' distractor tile also in a: ' + s));
+          if (namesPoint(it.why) && (it.x.some(s => ART.test(s)) || anyPair(it.x, it.a))) orderHits++;
+        }
+      } else if (it.t === 'fill') {
+        ok(nonEmpty(it.q) && it.q.split('__').length === 2 && !/___/.test(it.q), w + ' q must contain exactly one "__"');
+        ok(nonEmpty(it.p) && hasHangul(it.p), w + ' p must be Korean');
+        ok(Array.isArray(it.a) && it.a.length >= 1 && it.a.every(nonEmpty), w + ' a must be non-empty');
+        ok(Array.isArray(it.o) && it.o.length === 3 && it.o.every(nonEmpty) && new Set(it.o.map(pn)).size === 3, w + ' o must be 3 distinct wrong fills');
+        if (Array.isArray(it.a) && Array.isArray(it.o)) { const A = new Set(it.a.map(pn)); it.o.forEach(s => ok(!A.has(pn(s)), w + ' wrong fill overlaps a: ' + s)); }
+      } else if (it.t === 'type') {
+        ok(nonEmpty(it.p) && hasHangul(it.p), w + ' p must be Korean');
+        ok(nonEmpty(it.hint) && hasHangul(it.hint), w + ' hint must be present and Korean-led');
+        ok(Array.isArray(it.a) && it.a.length >= 1 && it.a.every(nonEmpty), w + ' a must be non-empty');
+        if (!Array.isArray(it.a)) return;
+        ok(new Set(it.a.map(pn)).size === it.a.length, w + ' duplicate variants after normalising');
+        ok(!/[.,!?]$/.test(it.a[0]), w + ' a[0] should have no end punctuation');
+        const n0 = words(it.a[0]).length;
+        ok(n0 >= 2 && n0 <= 7, w + ' a[0] must be 2-7 words: ' + it.a[0]);
+        ok(it.x === undefined || (Array.isArray(it.x) && it.x.length >= 1 && it.x.length <= 2 && it.x.every(nonEmpty)), w + ' x must be 1-2 tiles');
+        const V = new Set(it.a.map(pn));
+        it.a.forEach(v => {
+          const s = pn(v);
+          for (const [c, e] of Object.entries(CONTR)) {
+            const re = new RegExp('(^| )' + c + '( |$)');
+            if (re.test(s)) ok(V.has(s.replace(re, '$1' + e + '$2')), w + ' contraction "' + c + '" without full form: ' + v);
+            const re2 = new RegExp('(^| )' + e + '( |$)');
+            if (!NO_REVERSE.has(c) && re2.test(s)) ok(V.has(s.replace(re2, '$1' + c + '$2')), w + ' full form "' + e + '" without contraction: ' + v);
+          }
+        });
+        const w0 = words(it.a[0]);
+        const allHaveArt = it.a.every(v => words(v).some(t => ART.test(t)));
+        const xArtOrPair = Array.isArray(it.x) && (it.x.some(s => ART.test(s)) || anyPair(it.x, w0));
+        if (namesPoint(it.why) && (allHaveArt || xArtOrPair)) typeHits++;
+      }
+    });
+    const nOrder = cnt('order'), nType = cnt('type');
+    ok(orderHits >= Math.ceil(nOrder / 2), 'PRACTICE.' + id + ' article/plural check: only ' + orderHits + '/' + nOrder + ' order items');
+    ok(typeHits >= Math.ceil(nType / 2), 'PRACTICE.' + id + ' article/plural check: only ' + typeHits + '/' + nType + ' type items');
+    practiceInfo.push(id + ' ' + items.length + ' (mc ' + cnt('mc') + ', order ' + cnt('order') + ' [a/p ' + orderHits + '], fill ' + cnt('fill') + ', type ' + cnt('type') + ' [a/p ' + typeHits + '])');
+  }
+})();
+
 /* PATTERNS */
 ok(C.PATTERNS.length >= 20, 'PATTERNS < 20');
 C.PATTERNS.forEach((p, i) => {
@@ -189,6 +280,7 @@ info.push('decks ' + deckNames.length + ' · cards ' + cardCount + ' · lessons 
   ' · PAUSE ' + ['compliment', 'expression', 'polite', 'saying'].map(k => k + ' ' + C.PAUSE.sets[k][1].length).join(', ') +
   ' · idioms ' + C.PAUSE.idioms.length + ' · groups ' + C.GROUPS.length + ' · tags ' + Object.keys(C.TAGS).length);
 info.push('correct-index distribution [0,1,2,3]: ' + idxCounts.join(','));
+info.push('practice: ' + practiceInfo.join(' | '));
 info.push('deck sizes: ' + deckNames.map(d => d + ' ' + C.DECKS[d].length).join(' | '));
 console.log(info.join('\n'));
 if (errs.length) { console.log('FAIL (' + errs.length + ')\n - ' + errs.join('\n - ')); process.exit(1); }

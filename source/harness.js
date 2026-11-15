@@ -140,6 +140,98 @@ const ovr=async(p,label)=>{ const sw=await p.evaluate(()=>document.documentEleme
   // old-shape remote row merges cleanly; unknown courses in _courses are kept
   mc.remoteMerge=await p.evaluate(()=>{ const remote={xp:900,cards:{'Numbers|하나, 둘, 셋':{box:2,due:0,seen:1,lapses:0,last:5}},days:{},updatedAt:1,_courses:{'xx-yy':{xp:5,cards:{}}}}; applyRemoteRow(remote); const ok1=S.xp===900&&!!S.cards['Numbers|하나, 둘, 셋']&&!!S.cards['Survival phrases|안녕하세요']&&!S._courses; const pl=syncPayload(); return ok1&&!!pl._courses&&pl._courses['xx-yy']&&pl._courses['xx-yy'].xp===5; });
   await ctx.close(); }
+{ // ---- lesson practice sets (docs/PRACTICE-SPEC.md) ----
+  const seed={'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}})};
+  const {ctx,p}=await newCtx(seed);
+  const EN=[{t:'mc',q:"Pick the most natural way to say 'I study Korean with my friend at the café near the station every Saturday' =",o:['토요일마다 역 근처 카페에서 친구랑 한국어를 공부해요','토요일마다 역 근처 카페에 친구랑 한국어를 공부해요','토요일마다 역 근처 카페를 친구랑 한국어를 공부해요','공부해요 토요일마다 역 근처 카페에서 친구랑 한국어를'],why:'Where an action happens → 에서.'},
+    {t:'mc',q:"'I study at a café' =",o:['카페에서 공부해요','카페에 공부해요','카페를 공부해요','공부해요 카페에서'],why:'Where an action happens → 에서.'},
+    {t:'order',p:'I drink coffee at a café',a:['카페에서','커피를','마셔요'],x:['카페에'],why:'Place of action first, verb last.'},
+    {t:'fill',q:'카페__ 공부해요',p:'I study at a café',a:['에서'],o:['에','를','는'],why:'Action location → 에서.'},
+    {t:'type',p:'I drink coffee',a:['커피를 마셔요','저는 커피를 마셔요','커피 마셔요'],hint:'커피 · 마셔요',x:['커피가'],why:'Object + 을/를, verb last.'}];
+  const KO=[{t:'mc',q:"'저는 학생이에요'를 영어로 하면?",o:["I'm a student.","I'm student.","I am a students.","Me student."],why:'직업·신분 앞에는 a/an이 필요해요.'},
+    {t:'order',p:'저는 커피를 마셔요',a:['I','drink','coffee'],x:['drinks'],why:'I 뒤에는 drink (s 없음).'},
+    {t:'fill',q:'She __ a teacher.',p:'그녀는 선생님이에요',a:['is'],o:['are','am','be'],why:'She → is.'},
+    {t:'type',p:'저는 피곤해요',a:["I'm tired",'I am tired'],hint:'tired',x:['tire'],why:'be + 형용사.'}];
+  // helpers live in the page: solve the current item correctly / submit a typed value
+  await p.evaluate(()=>{ window.__PID=LESSONS.some(l=>l.id==='sentences')?'sentences':LESSONS[0].id; });
+  await p.evaluate(()=>{ window.__prSolve=()=>{ const it=PR.items[PR.i], st=PR.st, q=s=>[...document.querySelectorAll('#pracRun '+s)];
+      if(st.mode==='pick') q('[data-po]').find(b=>st.opts[+b.dataset.po].ok).click();
+      else if(st.mode==='tiles'){ (it.t==='order'?it.a:it.a[0].split(' ')).forEach(w=>q('[data-pt]').find(x=>x.textContent===w).click()); q('.prac-chk')[0].click(); }
+      else window.__prSub(it.a[0]); };
+    window.__prSub=v=>{ const i=document.querySelector('#pracRun .prac-form input'); i.value=v; document.querySelector('#pracRun .prac-form').requestSubmit(); };
+    window.__prWrong=()=>{ const st=PR.st, q=s=>[...document.querySelectorAll('#pracRun '+s)]; if(st.mode==='pick') q('[data-po]:not([disabled])').find(b=>!st.opts[+b.dataset.po].ok).click(); else if(st.mode==='tiles'){ q('[data-pt]')[0].click(); q('.prac-chk')[0].click(); } else window.__prSub('zzz'); };
+    window.__prNext=()=>document.querySelector('#pracRun .prac-next').click(); });
+  // 1 data plumbing: marker object present, en-ko PRACTICE comes from it, a pack PRACTICE that is not a plain object becomes {}
+  mc.prData=await p.evaluate(()=>{ applyCourse('en-ko'); const a=typeof PRACTICE_BUILTIN==='object'&&!Array.isArray(PRACTICE_BUILTIN)&&JSON.stringify(PRACTICE)===JSON.stringify(cleanPractice(PRACTICE_BUILTIN));
+    const pk=Object.values(COURSES).find(x=>!x.builtin); if(!pk) return a; const c2=Object.assign({},pk,{PRACTICE:[1,2,3],_rt:null}); setCourseTables(c2); const b=JSON.stringify(PRACTICE)==='{}'; setCourseTables(COURSE); return a&&b&&JSON.stringify(PRACTICE)===JSON.stringify(cleanPractice(PRACTICE_BUILTIN)); });
+  // 2 runner: injected items → button → every item → end screen; no horizontal overflow in any state
+  const run=await p.evaluate(EN=>{ const ov=[], chk=l=>{ const sw=document.documentElement.scrollWidth; if(sw>390) ov.push(l+' '+sw); }; S.free=true; delete S.practice[__PID]; PRACTICE[__PID]=EN; location.hash='#lessons'; route(); showLesson(__PID);
+    const bt=document.getElementById('pracStart'); if(!bt||!/· 5$/.test(bt.textContent.trim())) return {ok:false,why:'button'}; chk('entry'); bt.click(); const kinds=[];
+    for(let n=0;n<EN.length;n++){ chk('item'+n); kinds.push(PR.st.mode); window.__prSolve(); chk('item'+n+'-done'); if(!PR.done||PR.first[n]!==true) return {ok:false,why:'item'+n}; window.__prNext(); }
+    const end=document.querySelector('#pracRun .prac-end'); chk('end'); const st=S.practice[__PID]; const ok=!!end&&st.n===1&&st.first===1&&st.last===1&&kinds.join()==='pick,pick,tiles,input,input';
+    document.querySelector('#pracRun .prac-again').click(); const again=PR&&PR.i===0&&!!document.querySelector('#pracRun .prac-opts'); document.querySelector('#pracRun .prac-back').click();
+    return {ok:ok&&again&&!!document.getElementById('pracStart')&&!PR,ov}; },EN);
+  run.ov&&run.ov.forEach(x=>res.overflow.push('390 practice '+x)); mc.prRunner=!!run.ok;
+  // 3 typed answers: normalisation, hint + one retry, first-attempt scoring after wrong-then-right; tiles fallback
+  mc.prTyped=await p.evaluate(EN=>{ const f=pracMatch('저는커피를  마셔요.',['저는 커피를 마셔요'])&&pracMatch(' 커피를 마셔요~ ',['커피를 마셔요'])&&!pracMatch('커피가 마셔요',['커피를 마셔요'])&&pracMatch('  I’M a STUDENT!! ',["I'm a student"])&&pracMatch('"Hello," she said.',['hello she said'])&&!pracMatch('I am student',["I'm a student"])&&!pracMatch('   ',['x'])&&pracMatch("don't",['don’t']);
+    delete S.practice[__PID]; PRACTICE[__PID]=[EN[4],EN[1],EN[3]]; S.kbTiles=false; showLesson(__PID); pracOpen(__PID);
+    window.__prSub('커피가 마셔요'); const retry=!PR.done&&PR.tries===1&&!!document.querySelector('#pracRun .prac-hint')&&document.querySelector('#pracRun .prac-form input').classList.contains('wrong');
+    window.__prSub('저는커피를 마셔요.'); const acc=PR.done&&PR.first[0]===false&&!!document.querySelector('#pracRun .prac-ok'); window.__prNext();
+    window.__prSolve(); const mcOk=PR.first[1]===true; window.__prNext();
+    window.__prWrong(); window.__prWrong(); const fail=PR.done&&PR.first[2]===false&&/에서/.test(document.querySelector('#pracRun .prac-model').textContent); window.__prNext();
+    const s1=S.practice[__PID], score=Math.abs(s1.last-1/3)<1e-9&&Math.abs(s1.first-1/3)<1e-9&&s1.n===1;
+    pracOpen(__PID); document.querySelector('#pracRun .prac-kb').click(); const tiles=S.kbTiles===true&&PR.st.mode==='tiles'&&PR.tries===0; window.__prSolve(); const tOk=PR.first[0]===true; window.__prNext(); window.__prSolve(); window.__prNext();
+    const pick=PR.st.mode==='pick'&&PR.st.opts.length===4; window.__prSolve(); window.__prNext(); const s2=S.practice[__PID], best=s2.n===2&&s2.first===1&&s2.last===1;
+    S.kbTiles=false; document.querySelector('#pracRun .prac-done').click(); return !!(f&&retry&&acc&&mcOk&&fail&&score&&tiles&&tOk&&pick&&best); },EN);
+  // the hint survives a tiles-toggle and an empty submit after the first wrong attempt
+  mc.prTyped=mc.prTyped&&await p.evaluate(EN=>{ PRACTICE[__PID]=[EN[4]]; S.kbTiles=false; showLesson(__PID); pracOpen(__PID); window.__prSub('커피가 마셔요'); const kb=()=>document.querySelector('#pracRun .prac-kb').click(), hint=()=>!!document.querySelector('#pracRun .prac-fb .prac-hint');
+    kb(); const a=hint()&&PR.tries===1&&PR.st.mode==='tiles'; kb(); const b=hint()&&PR.st.mode==='input'; window.__prSub('  '); const c=hint()&&PR.tries===1; window.__prSub('커피를 마셔요'); const d=PR.done&&PR.first[0]===false; document.querySelector('#pracRun .prac-back').click(); S.kbTiles=false; return a&&b&&c&&d; },EN);
+  // IME: a submit during composition is deferred until compositionend (never judged mid-composition, never dropped)
+  mc.prTyped=mc.prTyped&&await p.evaluate(async EN=>{ const w=ms=>new Promise(z=>setTimeout(z,ms)); PRACTICE[__PID]=[EN[4],EN[4]]; S.kbTiles=false; showLesson(__PID); pracOpen(__PID); const inp=()=>document.querySelector('#pracRun .prac-form input'), form=()=>document.querySelector('#pracRun .prac-form');
+    inp().dispatchEvent(new CompositionEvent('compositionstart')); inp().value='커피를 마셔'; form().requestSubmit(); const held=!PR.done&&PR.tries===0; inp().value='커피를 마셔요'; inp().dispatchEvent(new CompositionEvent('compositionend')); await w(40); const a=PR.done&&PR.first[0]===true; window.__prNext();
+    inp().dispatchEvent(new CompositionEvent('compositionstart')); inp().value='커피 마셔요'; form().requestSubmit(); await w(450); const b=PR.done&&PR.first[1]===true; document.querySelector('#pracRun .prac-back').click(); return held&&a&&b; },EN);
+  // 4 state: sanitizeState / mergeState / remote merge / sync payload
+  mc.prState=await p.evaluate(()=>{ const fr=fresh(); const f0=JSON.stringify(fr.practice)==='{}'&&fr.kbTiles===false;
+    const s=sanitizeState(Object.assign(fresh(),JSON.parse('{"practice":{"a":{"n":"3","first":7,"last":-1,"ts":5},"b":"x","c":null,"d":[1],"__proto__":{"n":9}},"kbTiles":"yes"}')));
+    const sOk=JSON.stringify(s.practice)==='{"a":{"n":3,"first":1,"last":0,"ts":5}}'&&s.kbTiles===true&&Object.getPrototypeOf(s.practice)===Object.prototype&&JSON.stringify(sanitizeState(JSON.parse(JSON.stringify(s))))===JSON.stringify(s)&&JSON.stringify(sanitizeState(Object.assign(fresh(),{practice:'junk'})).practice)==='{}';
+    const A=Object.assign(fresh(),{updatedAt:1,kbTiles:false,practice:{x:{n:2,first:0.9,last:0.5,ts:100},y:{n:1,first:0.2,last:0.2,ts:50}}}), B=Object.assign(fresh(),{updatedAt:2,kbTiles:true,practice:{x:{n:5,first:0.6,last:0.7,ts:200},z:{n:1,first:1,last:1,ts:10}}});
+    const m1=mergeState(A,B), m2=mergeState(B,A), xm=m=>JSON.stringify(m.practice.x)==='{"n":5,"first":0.9,"last":0.7,"ts":200}'&&!!m.practice.y&&!!m.practice.z&&m.kbTiles===true;
+    const mOk=xm(m1)&&xm(m2)&&JSON.stringify(mergeState(fresh(),Object.assign(fresh(),{practice:null})).practice)==='{}';
+    S.practice={q:{n:1,first:0.5,last:0.5,ts:1}}; S.kbTiles=false; const remote=Object.assign(JSON.parse(JSON.stringify(syncPayload())),{updatedAt:Date.now()+1e6,kbTiles:true,practice:{q:{n:3,first:0.4,last:0.4,ts:2},r:{n:1,first:1,last:1,ts:3}},_courses:{'ko-en':{practice:{k:{n:2,first:0.3,last:0.3,ts:9}},kbTiles:true,updatedAt:1}}});
+    applyRemoteRow(remote); const rOk=S.practice.q.n===3&&S.practice.q.first===0.5&&S.practice.q.last===0.4&&!!S.practice.r&&S.kbTiles===true;
+    let ko=null; try{ ko=JSON.parse(localStorage.getItem('la-s-ko-en')||'null'); }catch(e){} const kOk=!!(ko&&ko.practice&&ko.practice.k&&ko.practice.k.n===2&&ko.kbTiles===true);
+    const pl=JSON.parse(JSON.stringify(syncPayload())); const back=sanitizeState(Object.assign(fresh(),pl)); const pOk=pl.practice.q.n===3&&pl.kbTiles===true&&back.practice.r.first===1&&back.kbTiles===true&&!!(pl._courses&&pl._courses['ko-en']&&pl._courses['ko-en'].practice.k);
+    S.kbTiles=false; return !!(f0&&sOk&&mOk&&rOk&&kOk&&pOk); });
+  // 5 practice never gates unlocking and never marks a lesson done
+  mc.prNoGate=await p.evaluate(EN=>{ const sv=S.free; S.free=false; const snap=()=>JSON.stringify([S.lessons,S.checks||{},S.drills||{},LESSONS.map((l,i)=>lessonUnlocked(i))]); const b0=snap(); const id=LESSONS[0].id; PRACTICE[id]=[EN[1],EN[2]];
+    showLesson(id); pracOpen(id); window.__prSolve(); document.querySelector('#pracRun .prac-back').click(); const b1=snap();
+    pracOpen(id); window.__prSolve(); window.__prNext(); window.__prSolve(); window.__prNext(); const done=!!document.querySelector('#pracRun .prac-end')&&S.practice[id].first===1; const b2=snap();
+    pracOpen(id); window.__prWrong(); window.__prWrong(); window.__prNext(); window.__prWrong(); window.__prWrong(); window.__prNext(); const b3=snap(); S.free=sv; openLesson=null;
+    return done&&b0===b1&&b1===b2&&b2===b3&&!S.lessons[id]; },EN);
+  // 6 ko-en: runner chrome is Korean only (item content excluded via .pc); English answer accepted with case/punctuation variant
+  if(koSkip) mc.prKoChrome='skip (no ko-en pack)';
+  else mc.prKoChrome=await p.evaluate(async KO=>{ applyCourse('ko-en'); S.free=true; S.kbTiles=false; S.onboard={skipped:1}; S.hintSeen=1; S.tourDone=1; document.querySelectorAll('.tour').forEach(e=>e.remove()); const id=LESSONS[0].id; PRACTICE[id]=KO; delete S.practice[id]; location.hash='#lessons'; route(); showLesson(id);
+    const bad=[], tick=()=>new Promise(z=>setTimeout(z,30));
+    const scan=(root,tag)=>{ if(!root){ bad.push(tag+': missing'); return; } const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT); let n; while((n=w.nextNode())){ const el=n.parentElement; if(el&&el.closest('.pc')) continue; if(/[A-Za-z]/.test(n.nodeValue)) bad.push(tag+': '+n.nodeValue.trim().slice(0,40)); }
+      [root,...root.querySelectorAll('*')].filter(e=>!e.closest('.pc')).forEach(e=>['placeholder','aria-label','title'].forEach(a=>{ const v=e.getAttribute&&e.getAttribute(a); if(v&&/[A-Za-z]/.test(v)) bad.push(tag+' @'+a+': '+v.slice(0,40)); })); };
+    const R=()=>document.getElementById('pracRun');
+    scan(document.getElementById('pracEntry'),'entry'); document.getElementById('pracStart').click(); await tick(); scan(R(),'mc');
+    window.__prWrong(); scan(R(),'mc-retry'); window.__prSolve(); scan(R(),'mc-ok'); window.__prNext();
+    scan(R(),'order'); window.__prWrong(); window.__prWrong(); scan(R(),'order-fail'); window.__prNext();
+    scan(R(),'fill'); window.__prSub('   '); scan(R(),'fill-empty'); document.querySelector('#pracRun .prac-kb').click(); scan(R(),'fill-tiles'); document.querySelector('#pracRun .prac-kb').click(); window.__prSolve(); scan(R(),'fill-ok'); window.__prNext();
+    scan(R(),'type'); document.querySelector('#pracRun .prac-rule').click(); scan(document.querySelector('.prac-sheet'),'rule'); document.querySelector('.prac-sheet .prac-x').click();
+    window.__prSub('I tired'); const rej=!PR.done&&PR.tries===1; scan(R(),'type-retry'); window.__prSub('  i AM tired!! '); const acc=PR.done&&PR.first[3]===false; scan(R(),'type-ok'); window.__prNext();
+    scan(R(),'end'); const end=!!document.querySelector('#pracRun .prac-end')&&S.practice[id].last===0.25; /* mc wrong→right, order failed, fill right, type wrong→right */ document.querySelector('#pracRun .prac-done').click(); openLesson=null; route(); await tick();
+    const ind=document.querySelector('.lesson-btn[data-lesson="'+id+'"] .prac-ind'); if(!ind||!/^연습 25%$/.test(ind.textContent)) bad.push('badge: '+(ind&&ind.textContent)); window.__prKoBad=bad;
+    applyCourse('en-ko'); return bad.length===0&&rej&&acc&&end; },KO);
+  if(!koSkip) res.checks.prKoChromeBad=await p.evaluate(()=>window.__prKoBad);
+  // 7 a pack with a PRACTICE field still validates; malformed items are dropped, never thrown
+  mc.prPackValid=await p.evaluate(()=>{ const pk={id:'ko-en',native:'ko',target:'en',DECKS:{d:[['a','','b','']]},GROUPS:[['g',['d']]],PRACTICE:{l1:[{t:'mc',q:'x',o:['a','b','c','d']}]}}; const v1=validCourse('ko-en',pk);
+    const real=COURSES['ko-en']; const v2=!real||validCourse('ko-en',Object.assign({},real,{PRACTICE:{x:[]}}));
+    let threw=false, cp=null; try{ cp=cleanPractice({l1:[{t:'mc',q:'x',o:['a','b','c','d']},{t:'mc',q:'x',o:['a']},{t:'bad'},null,'str',7,[],{t:'fill',q:'no gap',a:['x']},{t:'type',p:'p',a:[]},{t:'order',p:'p',a:'ab'},{t:'type',p:'p',a:['x',5,null]},{t:'fill',q:'a __ b',a:['x'],o:['x','y']}],l2:'junk',l3:[],__proto__:[{t:'mc',q:'x',o:['a','b']}]}); cleanPractice(null); cleanPractice([1]); cleanPractice('x'); }catch(e){ threw=true; }
+    const c=!threw&&cp.l1.length===3&&!cp.l2&&!cp.l3&&cp.l1[1].a.join()==='x,5'&&cp.l1[2].o.join()==='y';
+    return v1&&v2&&c; });
+  await ctx.close(); }
 // pack integrity for every course
 res.checks.packs=await (async()=>{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const out={}; Object.values(COURSES).forEach(c=>{ const rt=courseRT(c); const raw=c.builtin?Object.keys(c.DECKS).filter(d=>d!==MYDECK):Object.keys(c.DECKS); const tg=[]; raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>tg.push(String(x[0]).toLowerCase().trim())));
     const grouped=raw.every(d=>(c.GROUPS||[]).some(g=>g[1].includes(d))&&(c.GROUPS||[]).filter(g=>g[1].includes(d)).length===1), tagged=raw.every(d=>Object.values(c.TAGS||{}).some(a=>a.includes(d)));

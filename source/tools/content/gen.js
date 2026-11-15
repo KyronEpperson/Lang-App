@@ -6,6 +6,7 @@ const OUT = process.argv[2] || '/home/claude/packs/course-ko-en.js';
 const decksSrc = require(path.join(DIR, 'decks.js'));
 const X = require(path.join(DIR, 'extra.js'));
 const L = require(path.join(DIR, 'lessons.js'));
+const PRACTICE = require(path.join(DIR, 'practice.js'));
 
 function rows(text, n, label) {
   return text.split('\n').map(s => s.trim()).filter(Boolean).map((line, i) => {
@@ -109,6 +110,7 @@ out += '  DIALOG: ' + objLines(DIALOG, J) + ',\n';
 out += '  EXAMPLES: ' + objLines(EXAMPLES, J) + ',\n';
 out += '  LESSONS: [\n' + LESSONS.map(l => '    ' + J(l)).join(',\n') + '\n  ],\n';
 out += '  CHECKS: ' + objLines(L.CHECKS, v => '[\n' + v.map(c => '      ' + J(c)).join(',\n') + '\n    ]') + ',\n';
+out += '  PRACTICE: ' + objLines(PRACTICE, v => '[\n' + v.map(c => '      ' + J(c)).join(',\n') + '\n    ]') + ',\n';
 out += '  PATTERNS: [\n' + PATTERNS.map(p => '    ' + J(p)).join(',\n') + '\n  ],\n';
 out += '  PAIRS: [],\n';
 out += '  GOALS: ' + objLines(GOALS, J) + ',\n';

@@ -1,0 +1,207 @@
+// en-ko lesson practice sets, part B (KO-CONTENT-B). Contract: docs/PRACTICE-SPEC.md (v1).
+// 12 lessons x 14 items: 5 mc -> 3 order -> 3 fill -> 3 type. Validate with: node tools/curriculum/ko/b-validate.js
+module.exports = {
+  numbers: [
+    { t:"mc", q:"'Two cups of coffee, please' =", o:["커피 두 잔 주세요","커피 둘 잔 주세요","커피 이 잔 주세요","커피 잔 두 주세요"], why:"Counting things uses native numbers, and 둘 shortens to 두 before a counter." },
+    { t:"mc", q:"'It's 5,000 won' =", o:["오천 원이에요","다섯천 원이에요","오만 원이에요","오백 원이에요"], why:"Money uses Sino numbers: 오 (5) + 천 (1,000)." },
+    { t:"mc", q:"'3 o'clock' =", o:["세 시","삼 시","셋 시","세 분"], why:"Hours use native numbers, and 셋 shortens to 세." },
+    { t:"mc", q:"'I'm 25 years old' =", o:["스물다섯 살이에요","이십오 살이에요","스물다섯 원이에요","다섯스물 살이에요"], why:"Age uses native numbers + 살." },
+    { t:"mc", q:"'50,000 won' =", o:["오만 원","오십천 원","다섯만 원","오천 원"], why:"Korean groups big numbers by 만 (10,000): 50,000 is five 만." },
+    { t:"order", p:"2:30 (two thirty)", a:["두","시","삼십","분"], x:["이"], why:"Native hour (두 시), Sino minutes (삼십 분)." },
+    { t:"order", p:"Two cups of coffee, please", a:["커피","두","잔","주세요"], x:["둘"], why:"Noun, number, counter, then the verb." },
+    { t:"order", p:"This is 50,000 won", a:["이거","오만","원이에요"], x:["오십천"], why:"50,000 = 오만: Korean counts in 만." },
+    { t:"fill", q:"커피 __ 잔 주세요", p:"One cup of coffee, please", a:["한"], o:["하나","일","이"], why:"하나 shortens to 한 before a counter." },
+    { t:"fill", q:"__ 시예요", p:"It's 4 o'clock", a:["네"], o:["사","넷","다섯"], why:"Hours are native, and 넷 shortens to 네." },
+    { t:"fill", q:"세 시 __ 분", p:"3:30 (write the minutes in Hangul)", a:["삼십"], o:["서른","셋십","세"], why:"Minutes use Sino numbers: 삼십 = 30." },
+    { t:"type", p:"I'm 28 years old (write the number in Hangul)", a:["스물여덟 살이에요","저는 스물여덟 살이에요","스물 여덟 살이에요","저는 스물 여덟 살이에요","스물여덟살이에요","저는 스물여덟살이에요"], hint:"스물여덟 · 살", x:["이십팔"], why:"Age = native number + 살." },
+    { t:"type", p:"It's 2 o'clock (write the number in Hangul)", a:["두 시예요","지금 두 시예요","두시예요","지금 두시예요"], hint:"두 · 시", x:["이"], why:"Hours are native: 둘 → 두 시." },
+    { t:"type", p:"It's 3,000 won (write the number in Hangul)", a:["삼천 원이에요","삼천원이에요"], hint:"삼천 · 원", x:["세"], why:"Money is Sino: 삼천 원. Native 세 is for hours and counted things." }
+  ],
+
+  food: [
+    { t:"mc", q:"To call a server over, you say:", o:["저기요!","잘 먹겠습니다!","건배!","계산해요!"], why:"저기요 = 'excuse me', to get someone's attention." },
+    { t:"mc", q:"Before you start eating, you say:", o:["잘 먹겠습니다","잘 먹었습니다","맛있어요","배고파요"], why:"먹겠습니다 = 'I will eat (well)'; 먹었습니다 is past, for after the meal." },
+    { t:"mc", q:"'Two gimbap, please' =", o:["김밥 두 개 주세요","김밥 둘 개 주세요","김밥 두 잔 주세요","김밥 이 개 주세요"], why:"Noun + native number + 개 for things; 둘 → 두." },
+    { t:"mc", q:"'Three beers (glasses), please' =", o:["맥주 세 잔 주세요","맥주 삼 잔 주세요","맥주 셋 잔 주세요","맥주 잔 세 주세요"], why:"Glasses take 잔, with the native number 세 in front of it." },
+    { t:"mc", q:"'Check, please' =", o:["계산해 주세요","메뉴 주세요","잘 먹었습니다","포장해 주세요"], why:"계산 = paying the bill; 해 주세요 = please do it." },
+    { t:"order", p:"Two gimbap, please", a:["김밥","두","개","주세요"], x:["둘"], why:"Noun + number + counter + 주세요." },
+    { t:"order", p:"One coffee, please", a:["커피","한","잔","주세요"], x:["하나"], why:"하나 → 한 before the counter 잔." },
+    { t:"order", p:"Please make it not spicy", a:["맵지","않게","해","주세요"], x:["안"], why:"맵지 않게 = not spicy; 해 주세요 = please make it." },
+    { t:"fill", q:"맥주 두 __ 주세요", p:"Two beers (glasses), please", a:["잔"], o:["살","원","시"], why:"Cups and glasses → 잔." },
+    { t:"fill", q:"잘 __", p:"I ate well (said after the meal)", a:["먹었습니다"], o:["먹겠습니다","먹어요","먹을 거예요"], why:"After the meal is past: 잘 먹었습니다." },
+    { t:"fill", q:"계산__ 주세요", p:"Check, please", a:["해"], o:["하","해요","했어"], why:"하다 → 해 before 주세요: 계산해 주세요." },
+    { t:"type", p:"Water, please", a:["물 주세요","저기요 물 주세요","물 좀 주세요"], hint:"물 · 주세요", why:"Noun + 주세요 is the all-purpose order." },
+    { t:"type", p:"Three gimbap, please (write the number in Hangul)", a:["김밥 세 개 주세요","김밥 세개 주세요"], hint:"김밥 · 세 · 개 · 주세요", x:["셋"], why:"셋 shortens to 세 before 개." },
+    { t:"type", p:"One coffee, please (write the number in Hangul)", a:["커피 한 잔 주세요","커피 한잔 주세요"], hint:"커피 · 한 · 잔 · 주세요", x:["일"], why:"Counting cups is native (한 잔), not Sino 일." }
+  ],
+
+  "getting-around": [
+    { t:"mc", q:"'Where is the subway station?' =", o:["지하철역 어디예요?","지하철역 어디 가요?","지하철역에서 어디예요?","지하철역을 어디예요?"], why:"Place + 어디예요? = 'Where is (place)?'" },
+    { t:"mc", q:"'Go left' =", o:["왼쪽으로 가세요","오른쪽으로 가세요","왼쪽을 가세요","똑바로 가세요"], why:"왼쪽 = left, 으로 = toward." },
+    { t:"mc", q:"In a taxi: 'Please go to Myeongdong' =", o:["명동으로 가 주세요","명동에서 가 주세요","명동 가요 주세요","명동으로 가세요 주세요"], why:"Destination + (으)로 + 가 주세요." },
+    { t:"mc", q:"'Please stop here' =", o:["여기서 세워 주세요","여기서 똑바로 가세요","저기서 세워 주세요","여기를 가 주세요"], why:"여기서 = here; 세워 주세요 = please stop." },
+    { t:"mc", q:"On the subway, 'next stop' =", o:["다음 역","이번 역","갈아타다","출구"], why:"다음 = next, 역 = station. 이번 역 = this stop." },
+    { t:"order", p:"Please go to Myeongdong", a:["명동으로","가","주세요"], x:["명동에서"], why:"Destination + 으로, then 가 주세요." },
+    { t:"order", p:"Please stop here", a:["여기서","세워","주세요"], x:["여기를"], why:"Place first, then 세워 주세요." },
+    { t:"order", p:"Where is the bus stop?", a:["버스","정류장","어디예요"], x:["어디에서"], why:"Place + 어디예요?" },
+    { t:"fill", q:"왼쪽__ 가세요", p:"Go left", a:["으로"], o:["로","에서","을"], why:"Toward a direction → (으)로; 왼쪽 ends in a consonant, so 으로." },
+    { t:"fill", q:"지하철역 __?", p:"Where is the subway station?", a:["어디예요"], o:["뭐예요","언제예요","누구예요"], why:"어디 = where." },
+    { t:"fill", q:"공항__ 가 주세요", p:"To the airport, please", a:["으로","에"], o:["로","에서","는"], why:"Destination → 으로 (after a consonant) or 에, never 에서." },
+    { t:"type", p:"Where is the subway station?", a:["지하철역 어디예요","지하철역이 어디예요","지하철역 어디에 있어요","지하철역이 어디에 있어요","지하철역 어디 있어요","지하철역이 어디 있어요","지하철역은 어디예요"], hint:"지하철역 · 어디예요", why:"Place + 어디예요?" },
+    { t:"type", p:"Go straight (giving directions)", a:["똑바로 가세요","쭉 가세요"], hint:"똑바로 · 가세요", why:"똑바로 = straight; 가세요 = please go." },
+    { t:"type", p:"Please go to the airport (to a taxi driver)", a:["공항으로 가 주세요","공항에 가 주세요","공항 가 주세요","공항으로 가주세요","공항에 가주세요","공항 가주세요"], hint:"공항 · 가 주세요", x:["공항에서"], why:"Destination takes 으로 or 에. 에서 is where an action happens." }
+  ],
+
+  titles: [
+    { t:"mc", q:"Calling your coworker 민수 politely:", o:["민수 씨","민수야","씨 민수","민수 님씨"], why:"Name + 씨 is the polite default for peers and coworkers." },
+    { t:"mc", q:"A woman calling her older male friend 민수:", o:["민수 오빠","민수 형","민수 언니","민수 누나"], why:"Women say 오빠 to older guys; men say 형." },
+    { t:"mc", q:"A man calling his older female friend 지은:", o:["지은 누나","지은 언니","지은 오빠","지은 형"], why:"Men say 누나 to older women; women say 언니." },
+    { t:"mc", q:"Calling your close friend 지은 by name:", o:["지은아!","지은야!","지은 씨야!","지은님아!"], why:"지은 ends in a consonant → 아." },
+    { t:"mc", q:"Calling the restaurant owner:", o:["사장님","사장 씨","사장아","사장"], why:"A role takes 님: 사장님." },
+    { t:"order", p:"Boss (owner), the check please", a:["사장님","계산해","주세요"], x:["사장아"], why:"Title first, then the request." },
+    { t:"order", p:"Minsu, are you free? (to a coworker)", a:["민수","씨","시간","있어요"], x:["민수야"], why:"Name + 씨 for a coworker, then the question." },
+    { t:"order", p:"(a girl to an older guy) What are you doing?", a:["오빠","뭐","해"], x:["형"], why:"A girl calls an older guy 오빠." },
+    { t:"fill", q:"민수__! 뭐 해?", p:"Minsu! What are you doing? (close friend)", a:["야"], o:["아","씨","님"], why:"민수 ends in a vowel → 야." },
+    { t:"fill", q:"지은__! 밥 먹었어?", p:"Jieun! Did you eat? (close friend)", a:["아"], o:["야","씨","님"], why:"지은 ends in a consonant → 아." },
+    { t:"fill", q:"선생__, 안녕하세요", p:"Hello, teacher", a:["님"], o:["씨","아","야"], why:"Roles take 님: 선생님." },
+    { t:"type", p:"To your close friend 민수: 'Minsu, what are you doing?' (casual)", a:["민수야 뭐 해","민수야 뭐해"], hint:"민수야 · 뭐 해", x:["민수아"], why:"Vowel-final name + 야, casual 뭐 해." },
+    { t:"type", p:"To your coworker 지은: 'Jieun, are you free?' (polite)", a:["지은 씨 시간 있어요","지은씨 시간 있어요"], hint:"지은 씨 · 시간 · 있어요", x:["지은아"], why:"Coworkers get name + 씨, and 요 stays on." },
+    { t:"type", p:"To your teacher: 'Hello, teacher!'", a:["선생님 안녕하세요","안녕하세요 선생님"], hint:"선생님 · 안녕하세요", x:["선생씨"], why:"Teachers are 선생님, never a name or 씨." }
+  ],
+
+  plans: [
+    { t:"mc", q:"'Shall we drink coffee?' (soft suggestion) =", o:["커피 마실까요?","커피 마셔요까요?","커피 마시을까요?","커피 마셨어요?"], why:"Vowel stem 마시 + ㄹ까요 = 마실까요." },
+    { t:"mc", q:"Asking what they want: 'Do you want to go together?' =", o:["같이 갈래요?","같이 가을래요?","같이 가자요?","같이 갔어요?"], why:"Vowel stem 가 + ㄹ래요 = 갈래요." },
+    { t:"mc", q:"To a close friend: 'Let's eat!' =", o:["밥 먹자!","밥 먹을자!","밥 먹어자!","밥 먹었자!"], why:"-자 goes straight onto the stem: 먹 + 자." },
+    { t:"mc", q:"먹다 + -(으)ㄹ까요 =", o:["먹을까요","먹ㄹ까요","먹까요","먹어까요"], why:"Consonant stem → 을까요." },
+    { t:"mc", q:"Saying yes to an invite with enthusiasm:", o:["좋아요!","미안해요","다음에 꼭 가요","약속 있어요"], why:"좋아요 = sounds good; the others turn it down." },
+    { t:"order", p:"What shall we do this weekend?", a:["주말에","뭐","할까요"], x:["주말에서"], why:"Time + 에, then 뭐 + 할까요." },
+    { t:"order", p:"What time shall we meet?", a:["몇","시에","볼까요"], x:["시에서"], why:"몇 시에 = at what time; 보다 doubles as 'meet'." },
+    { t:"order", p:"Shall we go to a café?", a:["카페에","갈까요"], x:["카페에서"], why:"Destination + 에 with 가다." },
+    { t:"fill", q:"영화 __?", p:"Do you want to watch a movie?", a:["볼래요","볼래"], o:["봐요래","보을래요","볼자"], why:"Vowel stem 보 + ㄹ래요 = 볼래요." },
+    { t:"fill", q:"주말에 뭐 __?", p:"What shall we do this weekend?", a:["할까요","할까"], o:["하을까요","했어요","하자요"], why:"하 + ㄹ까요 = 할까요." },
+    { t:"fill", q:"같이 __!", p:"Let's hang out together! (to a friend)", a:["놀자"], o:["놀을자","놀아자","놀았자"], why:"-자 attaches straight to the stem: 놀 + 자." },
+    { t:"type", p:"Shall we drink coffee? (use -(으)ㄹ까요)", a:["커피 마실까요","같이 커피 마실까요","커피 같이 마실까요","커피 마실까"], hint:"커피 · 마시다", why:"마시 + ㄹ까요 = 마실까요." },
+    { t:"type", p:"Do you want to eat together? (polite, use -(으)ㄹ래요)", a:["같이 먹을래요","같이 밥 먹을래요","밥 같이 먹을래요","같이 저녁 먹을래요","저녁 같이 먹을래요"], hint:"같이 · 먹다", why:"Consonant stem 먹 + 을래요." },
+    { t:"type", p:"To a friend: 'Let's meet at the café' (use -자)", a:["카페에서 만나자","카페에서 보자"], hint:"카페 · 만나다", x:["카페에"], why:"Meeting happens at a place → 에서; 만나 + 자." }
+  ],
+
+  texting: [
+    { t:"mc", q:"How do you text 'lol'?", o:["ㅋㅋㅋ","ㅠㅠ","ㅇㅋ","ㅈㅅ"], why:"ㅋ is a laugh sound; more ㅋ = funnier." },
+    { t:"mc", q:"A casual 'yeah' in a text:", o:["ㅇㅇ","ㄴㄴ","ㅠㅠ","ㄱㅅ"], why:"ㅇㅇ is short for 응 (yeah). ㄴㄴ = no." },
+    { t:"mc", q:"Texting your boss 'Yes, confirmed':", o:["넵, 확인했습니다","ㅇㅇ 확인","ㅇㅋ ㅋㅋ","응 확인했어"], why:"With seniors, keep it polite; 넵 is the friendly work 'yes'." },
+    { t:"mc", q:"Texting a friend 'Where (are you) now?':", o:["지금 어디?","지금 어디를?","어디 지금이에요?","지금 어디가요?"], why:"Between friends, drop everything optional: 지금 어디?" },
+    { t:"mc", q:"How do you text 'crying' or 'ugh'?", o:["ㅠㅠ","ㅎㅎ","ㅇㅇ","ㄱㅅ"], why:"ㅠㅠ: the vowels look like tears." },
+    { t:"order", p:"I'm almost there", a:["나","다","왔어"], x:["저는"], why:"Casual 나, no particle: 나 다 왔어." },
+    { t:"order", p:"Hungry, what should I eat", a:["배고파","뭐","먹지"], x:["배고파요"], why:"Friends drop 요; 뭐 먹지 = what should I eat." },
+    { t:"order", p:"Night, see you tomorrow", a:["잘","자","내일","봐"], x:["봐요"], why:"The standard casual sign-off." },
+    { t:"fill", q:"지금 __?", p:"Where are you now? (to a friend)", a:["어디","어디야"], o:["누구","뭐","언제"], why:"어디 = where; texts drop the rest." },
+    { t:"fill", q:"나 다 __", p:"I'm almost there", a:["왔어"], o:["갔어","와요","먹었어"], why:"다 왔어 = (I've) almost arrived." },
+    { t:"fill", q:"ㅇㅋ, 내일 __", p:"OK, see you tomorrow", a:["봐","보자"], o:["와","가","해"], why:"내일 봐 = see you tomorrow (casual)." },
+    { t:"type", p:"Text a friend: 'What are you up to?'", a:["뭐 해","뭐해","지금 뭐 해","지금 뭐해"], hint:"뭐 · 해", why:"The universal casual opener." },
+    { t:"type", p:"Text a friend: 'I'm on my way'", a:["나 지금 가","지금 가","나 지금 갈게","지금 갈게"], hint:"나 · 지금 · 가", why:"Casual: no 요, no particles." },
+    { t:"type", p:"Text a senior coworker: 'Yes, confirmed' (friendly-polite)", a:["넵 확인했습니다","네 확인했습니다","넵 확인했어요","네 확인했어요"], hint:"넵 · 확인했습니다", x:["ㅇㅇ"], why:"Politeness still exists: 넵 or 네, never ㅇㅇ, with seniors." }
+  ],
+
+  counters: [
+    { t:"mc", q:"'Three people' =", o:["세 명","세 개","삼 명","셋 명"], why:"People take 명, with native 세." },
+    { t:"mc", q:"'Two tickets, please' =", o:["표 두 장 주세요","표 두 권 주세요","표 이 장 주세요","두 표 장 주세요"], why:"Tickets are flat things → 장; noun + number + counter." },
+    { t:"mc", q:"'I have three cats' =", o:["고양이 세 마리 있어요","고양이 세 명 있어요","고양이 삼 마리 있어요","세 고양이 마리 있어요"], why:"Animals take 마리, with native 세." },
+    { t:"mc", q:"'Two bottles of beer' =", o:["맥주 두 병","맥주 두 권","맥주 둘 병","맥주 이 병"], why:"Bottles → 병, and 둘 → 두." },
+    { t:"mc", q:"'I'm 20 years old' =", o:["스무 살이에요","스물 살이에요","이십 살이에요","스무 명이에요"], why:"스물 shortens to 스무 before a counter." },
+    { t:"order", p:"I drank two bottles of beer", a:["맥주","두","병을","마셨어요"], x:["병이"], why:"Noun + number + counter, and the particle goes after the counter." },
+    { t:"order", p:"Four people (answering 'How many?')", a:["네","명이요"], x:["사"], why:"Native 넷 → 네 before 명." },
+    { t:"order", p:"Three books, please", a:["책","세","권","주세요"], x:["장"], why:"Books → 권." },
+    { t:"fill", q:"강아지 한 __ 있어요", p:"I have one puppy", a:["마리"], o:["명","잔","권"], why:"Animals → 마리." },
+    { t:"fill", q:"커피 __ 잔 주세요", p:"Two coffees, please", a:["두"], o:["둘","이","하나"], why:"Native 둘 shortens to 두 before a counter." },
+    { t:"fill", q:"몇 __이세요?", p:"How many people (are you)?", a:["명","분"], o:["개","잔","마리"], why:"People → 명 (polite: 분)." },
+    { t:"type", p:"Two tickets, please (write the number in Hangul)", a:["표 두 장 주세요","표 두장 주세요"], hint:"표 · 두 · 장 · 주세요", x:["권"], why:"Tickets → 장; 둘 → 두." },
+    { t:"type", p:"I have three cats (write the number in Hangul)", a:["고양이 세 마리 있어요","고양이가 세 마리 있어요","저는 고양이 세 마리 있어요","저는 고양이가 세 마리 있어요","고양이 세마리 있어요","고양이 세 마리가 있어요","저는 고양이 세 마리가 있어요"], hint:"고양이 · 세 · 마리 · 있어요", x:["명"], why:"Animals → 마리; noun + number + counter." },
+    { t:"type", p:"I studied for two hours (write the number in Hangul)", a:["두 시간 공부했어요","저는 두 시간 공부했어요","두시간 공부했어요","저는 두시간 공부했어요"], hint:"두 · 시간 · 공부했어요", x:["이"], why:"Duration is native + 시간 (두 시간). 두 시 alone means 2 o'clock." }
+  ],
+
+  story: [
+    { t:"mc", q:"Which connector means 'first'?", o:["먼저","마지막으로","그래서","그런데"], why:"먼저 = first; 마지막으로 = lastly." },
+    { t:"mc", q:"'So I got home late' =", o:["그래서 집에 늦게 왔어요","그런데 집에 늦게 왔어요","그래서 집에서 늦게 왔어요","그래서 집에 늦게 와요"], why:"그래서 = so; arriving home is 집에, in the past: 왔어요." },
+    { t:"mc", q:"'But the movie was too long' =", o:["그런데 영화가 너무 길었어요","그래서 영화가 너무 길었어요","그런데 영화를 너무 길었어요","그런데 영화가 너무 길어요"], why:"그런데 = but; a describing verb takes 이/가; past 길었어요." },
+    { t:"mc", q:"Past tense of 보다 (요-form):", o:["봤어요","봐요","볼 거예요","보았요"], why:"보 + 았어요 merges to 봤어요." },
+    { t:"mc", q:"'Lastly' =", o:["마지막으로","먼저","그다음에","아까"], why:"마지막으로 closes a sequence." },
+    { t:"order", p:"Yesterday I met a friend", a:["어제","친구를","만났어요"], x:["만나요"], why:"Time word first, past tense last." },
+    { t:"order", p:"After that, we watched a movie", a:["그다음에","영화를","봤어요"], x:["영화가"], why:"Connector first; a movie is what you watch → 를." },
+    { t:"order", p:"First we went to a café", a:["먼저","카페에","갔어요"], x:["카페에서"], why:"Going to a place → 에." },
+    { t:"fill", q:"__ 커피를 마셨어요", p:"And we drank coffee", a:["그리고"], o:["그런데","그래서","마지막으로"], why:"그리고 = and (then)." },
+    { t:"fill", q:"어제 친구를 __", p:"Yesterday I met a friend", a:["만났어요"], o:["만나요","만날 거예요","만나았어요"], why:"어제 needs the past: 만나 + 았어요 → 만났어요." },
+    { t:"fill", q:"지난 주말__ 뭐 했어요?", p:"What did you do last weekend?", a:["에"], o:["에서","을","이"], why:"Time words take 에." },
+    { t:"type", p:"I had lunch a while ago", a:["아까 점심 먹었어요","아까 점심을 먹었어요","저는 아까 점심 먹었어요","저는 아까 점심을 먹었어요"], hint:"아까 · 점심 · 먹었어요", why:"Time word first, then past tense." },
+    { t:"type", p:"So I rested at home", a:["그래서 집에서 쉬었어요","그래서 저는 집에서 쉬었어요"], hint:"그래서 · 집 · 쉬었어요", x:["집에"], why:"Resting happens at home → 집에서; 쉬 + 었어요." },
+    { t:"type", p:"But I didn't drink coffee (use 안)", a:["그런데 커피를 안 마셨어요","그런데 커피 안 마셨어요","근데 커피를 안 마셨어요","근데 커피 안 마셨어요","그런데 커피는 안 마셨어요","근데 커피는 안 마셨어요"], hint:"그런데 · 커피 · 안 · 마셨어요", x:["마셔요"], why:"안 goes right before the verb, even in the past." }
+  ],
+
+  cant: [
+    { t:"mc", q:"'I can't eat spicy food' (it hurts) =", o:["매운 거 못 먹어요","매운 거 안 먹어요","매운 거 먹어요 못","못 매운 거 먹어요"], why:"못 = can't, placed right before the verb. 안 = don't (by choice)." },
+    { t:"mc", q:"'I can do it' =", o:["할 수 있어요","할 수 없어요","하 수 있어요","해 수 있어요"], why:"Vowel stem 하 + ㄹ 수 있어요." },
+    { t:"mc", q:"'I can't exercise' — where does 못 go?", o:["운동 못 해요","못 운동해요","운동해요 못","운동 해요 못"], why:"With 하다 verbs, 못 goes between the noun and 해요." },
+    { t:"mc", q:"You're asked something and you're not sure. The soft, common reply:", o:["잘 모르겠어요","몰라요","안 알아요","못 알아요"], why:"모르겠어요 = I'm not sure; 몰라요 is a flat 'I don't know'." },
+    { t:"mc", q:"'I can't go' with -(으)ㄹ 수 없어요 =", o:["갈 수 없어요","가 수 없어요","갈 수 있어요","가을 수 없어요"], why:"Vowel stem 가 + ㄹ 수 없어요." },
+    { t:"order", p:"I can't go today", a:["오늘은","못","가요"], x:["안"], why:"못 right before the verb = can't." },
+    { t:"order", p:"Can you speak Korean?", a:["한국어","할","수","있어요"], x:["해"], why:"할 수 있어요 = can do; 한국어 하다 = speak Korean." },
+    { t:"order", p:"I don't know the way", a:["길을","몰라요"], x:["안"], why:"'Don't know' is its own verb, 몰라요; never 안 알아요." },
+    { t:"fill", q:"매운 거 __ 먹어요", p:"I can't eat spicy food", a:["못"], o:["안","잘","도"], why:"Can't → 못." },
+    { t:"fill", q:"조금 할 수 __", p:"I can, a little", a:["있어요"], o:["없어요","해요","돼요"], why:"-(으)ㄹ 수 있어요 = can." },
+    { t:"fill", q:"먹을 수 __", p:"I can't eat (it)", a:["없어요"], o:["있어요","안 해요","못 해요"], why:"-(으)ㄹ 수 없어요 = cannot." },
+    { t:"type", p:"I can speak Korean a little (use -(으)ㄹ 수 있어요)", a:["한국어 조금 할 수 있어요","한국어를 조금 할 수 있어요","저는 한국어 조금 할 수 있어요","저는 한국어를 조금 할 수 있어요"], hint:"한국어 · 조금 · 할 수 있어요", why:"하 + ㄹ 수 있어요 = can do." },
+    { t:"type", p:"I can't go today (use 못)", a:["오늘은 못 가요","오늘 못 가요","저는 오늘 못 가요","저는 오늘은 못 가요"], hint:"오늘 · 못 · 가요", x:["안"], why:"Circumstances stop you → 못." },
+    { t:"type", p:"I don't eat meat (by choice, use 안)", a:["고기 안 먹어요","고기를 안 먹어요","저는 고기 안 먹어요","저는 고기를 안 먹어요"], hint:"고기 · 안 · 먹어요", x:["못"], why:"A choice → 안. 못 would mean you can't." }
+  ],
+
+  honorific: [
+    { t:"mc", q:"To an elder: 'Where are you going?' =", o:["어디 가세요?","어디 갈세요?","어디 가으세요?","어디 가요?"], why:"Elder is the subject → 가 + 세요. Plain 가요 lacks the honorific." },
+    { t:"mc", q:"The honorific verb for 먹다 / 마시다:", o:["드시다","주무시다","계시다","말씀하시다"], why:"드시다 = eat / drink (honorific)." },
+    { t:"mc", q:"'Is the owner in?' =", o:["사장님 계세요?","사장님 계시요?","사장님 드세요?","사장님 주무세요?"], why:"For a person being somewhere, 있다 becomes 계시다 → 계세요." },
+    { t:"mc", q:"Saying you are going (about yourself):", o:["저는 가요","저는 가세요","저는 가셨어요","저는 가시요"], why:"Never use 시 about yourself." },
+    { t:"mc", q:"'When did you arrive?' (honorific past) =", o:["언제 오셨어요?","언제 왔으세요?","언제 오세요?","언제 오시었요?"], why:"오 + 시 + 었어요 → 오셨어요." },
+    { t:"order", p:"What is your name? (honorific)", a:["성함이","어떻게","되세요"], x:["성함을"], why:"성함 is the honorific word for 이름." },
+    { t:"order", p:"Good night (to an elder)", a:["안녕히","주무세요"], x:["자세요"], why:"자다 swaps entirely to 주무시다." },
+    { t:"order", p:"Please sit here", a:["여기","앉으세요"], x:["앉세요"], why:"Consonant stem 앉 + 으세요." },
+    { t:"fill", q:"여기 앉__", p:"Please sit here (to an elder)", a:["으세요"], o:["세요","시요","아세요"], why:"After a consonant stem, -으세요." },
+    { t:"fill", q:"할머니 __?", p:"Is grandma in? (honorific)", a:["계세요"], o:["있어요","드세요","가요"], why:"A respected person being somewhere → 계세요." },
+    { t:"fill", q:"언제 __?", p:"When did you arrive? (to an elder)", a:["오셨어요"], o:["왔어요","오세요","오셨요"], why:"Honorific past: 오셨어요." },
+    { t:"type", p:"To an elder: 'Enjoy your meal'", a:["맛있게 드세요"], hint:"맛있게 · 드세요", x:["먹어요"], why:"Eating, for an elder, is 드시다 → 드세요." },
+    { t:"type", p:"To an elder: 'Where are you going?'", a:["어디 가세요","어디에 가세요"], hint:"어디 · 가다", x:["가요"], why:"가 + 세요: the elder is the one going." },
+    { t:"type", p:"About yourself: 'I'm going home'", a:["저는 집에 가요","집에 가요","저 집에 가요"], hint:"집 · 가요", x:["가세요"], why:"No 시 about yourself, and destination takes 에." }
+  ],
+
+  requests: [
+    { t:"mc", q:"Make 'Water, please' gentler:", o:["물 좀 주세요","물 좀이 주세요","물 좀을 주세요","물 좀 줘요세요"], why:"좀 slips in after the noun and softens the request." },
+    { t:"mc", q:"'By any chance, do you have an English menu?' =", o:["혹시 영어 메뉴 있어요?","혹시 영어 메뉴예요?","혹시 영어 메뉴를 있어요?","혹시 영어 메뉴 해요?"], why:"혹시 opens the question; 있어요? = do you have?" },
+    { t:"mc", q:"Asking a stranger: 'Would you mind taking a photo (for us)?' =", o:["사진 좀 찍어 주시겠어요?","사진 좀 찍어도 돼요?","사진 좀 찍으면 안 돼요?","사진 좀 찍어요?"], why:"-아/어 주시겠어요 asks them to do it; -아/어도 돼요 asks if you may." },
+    { t:"mc", q:"'May I charge (my phone) here?' =", o:["여기서 충전해도 돼요?","여기서 충전해 주시겠어요?","여기서 충전하도 돼요?","여기서 충전해서 돼요?"], why:"May I → -아/어도 돼요; 하다 → 해도." },
+    { t:"mc", q:"Politely refusing: 'Sorry, but that's not possible' =", o:["죄송하지만 안 돼요","죄송하지만 돼요","죄송하지만 못 돼요","죄송하지만 안 되요"], why:"안 돼요 = not possible. It's spelled 돼요, never 되요." },
+    { t:"order", p:"Would you mind speaking slowly?", a:["천천히","말씀해","주시겠어요"], x:["말씀해도"], why:"Adverb, then verb + 주시겠어요." },
+    { t:"order", p:"May I sit here?", a:["여기","앉아도","돼요"], x:["앉아"], why:"앉 + 아도 돼요 = may I sit." },
+    { t:"order", p:"Would it be okay if I sit here?", a:["여기","앉으면","안","돼요"], x:["앉으도"], why:"Consonant stem + 으면 안 돼요?" },
+    { t:"fill", q:"사진 좀 찍어 __?", p:"Would you mind taking a photo (for us)?", a:["주시겠어요","주실래요"], o:["돼요","있어요","했어요"], why:"찍어 + 주시겠어요 = would you take (it) for me." },
+    { t:"fill", q:"__ 화장실 있어요?", p:"By any chance, is there a bathroom?", a:["혹시"], o:["좀","그래서","먼저"], why:"혹시 = by any chance; it opens the question." },
+    { t:"fill", q:"여기서 충전해__ 돼요?", p:"May I charge here?", a:["도"], o:["서","요","면"], why:"-아/어도 돼요 = may I." },
+    { t:"type", p:"Water, please (soften it with 좀)", a:["물 좀 주세요","저기요 물 좀 주세요"], hint:"물 · 좀 · 주세요", why:"좀 right after the noun." },
+    { t:"type", p:"May I take a photo? (use -아/어도 돼요)", a:["사진 찍어도 돼요","사진 좀 찍어도 돼요","사진을 찍어도 돼요","여기서 사진 찍어도 돼요"], hint:"사진 · 찍다 · 돼요", x:["찍으면"], why:"찍 + 어도 돼요." },
+    { t:"type", p:"Would it be okay if I sit here? (use -(으)면 안 돼요)", a:["여기 앉으면 안 돼요","여기에 앉으면 안 돼요","여기 앉으면 안돼요","여기에 앉으면 안돼요"], hint:"여기 · 앉다 · 안 돼요", x:["앉으도"], why:"Consonant stem 앉 + 으면 안 돼요. This 안 is part of the set phrase, not a plain 'not'." }
+  ],
+
+  office: [
+    { t:"mc", q:"Leaving while a coworker is still working, you say:", o:["수고하세요","수고하셨습니다","잘 먹었습니다","안녕히 주무세요"], why:"수고하세요 = keep up the good work, to someone who stays." },
+    { t:"mc", q:"To your manager at the end of the day:", o:["수고하셨습니다","수고했어요","수고해","수고하세요요"], why:"수고했어요 is for juniors or peers; seniors get 수고하셨습니다." },
+    { t:"mc", q:"How do you address your manager (과장)?", o:["과장님","과장 씨","과장아","과장"], why:"Titles always take 님." },
+    { t:"mc", q:"The standard email closer 'Please take a look':", o:["확인 부탁드립니다","확인해 줘","확인해도 돼요?","확인했어요"], why:"부탁드립니다 = I humbly ask." },
+    { t:"mc", q:"Signing an email as 키이:", o:["키이 드림","키이 씨","키이 님","키이야"], why:"드림 goes after your own name; never 씨 or 님 for yourself." },
+    { t:"order", p:"I'll head out first (to the room)", a:["먼저","퇴근하겠습니다"], x:["퇴근했어요"], why:"먼저 퇴근하겠습니다 is the set phrase." },
+    { t:"order", p:"What time is the meeting?", a:["회의","몇","시예요"], x:["언제"], why:"몇 시예요? = what time is it?" },
+    { t:"order", p:"Hello, this is Kii from the marketing team", a:["안녕하세요","마케팅팀","키이입니다"], x:["키이님"], why:"Team, then your name + 입니다. No 님 for yourself." },
+    { t:"fill", q:"확인 __", p:"Please take a look (email)", a:["부탁드립니다","부탁 드립니다"], o:["부탁해","했습니다","주세요요"], why:"부탁드립니다 = (I) humbly request." },
+    { t:"fill", q:"수고__", p:"Good work today (to a senior, after work)", a:["하셨습니다","하셨어요"], o:["했어","해","합니다"], why:"Seniors get the honorific past: 수고하셨습니다." },
+    { t:"fill", q:"과장__, 이거 확인해 주시겠어요?", p:"Manager, could you check this?", a:["님"], o:["씨","아","야"], why:"Titles always take 님." },
+    { t:"type", p:"To your team lead after work: 'Good work today'", a:["팀장님 수고하셨습니다","팀장님 오늘 수고하셨습니다","오늘 수고하셨습니다 팀장님","수고하셨습니다 팀장님","팀장님 수고하셨어요","팀장님 오늘 수고하셨어요"], hint:"팀장님 · 수고하셨습니다", x:["수고했어요"], why:"Title + 님, then the senior form 수고하셨습니다." },
+    { t:"type", p:"Leaving before your boss: 'I'll head out first'", a:["먼저 퇴근하겠습니다","저 먼저 퇴근하겠습니다","저는 먼저 퇴근하겠습니다"], hint:"먼저 · 퇴근하겠습니다", why:"Say it clearly to the room." },
+    { t:"type", p:"Manager, could you check this? (very polite)", a:["과장님 이거 확인해 주시겠어요","과장님 이거 좀 확인해 주시겠어요","과장님 확인해 주시겠어요","과장님 좀 확인해 주시겠어요","과장님 이거 확인해주시겠어요","과장님 이거 좀 확인해주시겠어요"], hint:"과장님 · 이거 · 확인해 주시겠어요", x:["과장씨"], why:"Title + 님, then -아/어 주시겠어요 from the requests lesson." }
+  ]
+};

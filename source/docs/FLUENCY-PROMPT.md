@@ -13,6 +13,12 @@ A learner who finishes the course should be able to **build their own sentences*
 5. **Ship**: bump version, copy to `lang-app/`, commit, push to main, republish the artifact. Log one line in `iterations.md`.
 6. If verification fails, restart the iteration with a new prompt — do not count it.
 
+## Standing references
+- `packs/roadmaps.js` is the lesson backlog for every language: build the next item whose 4th field (live lesson id) is empty, then set it.
+- `docs/PRACTICE-SPEC.md` is the practice-set contract: every new lesson ships with 12-16 items (mc → tiles → gap-fill → typed).
+- `docs/GRAMMAR-ORDER-RESEARCH.md` is the evidence: order is convention, practice volume and typed production are the levers.
+- Korean content fragments live in `tools/curriculum/ko/`; `tools/curriculum/merge_ko.py` shows how they were merged.
+
 ## Lesson contract
 - Edit `src/app.html` (en-ko) or the generators under `tools/content/` (ko-en). Never hand-edit packs or `korean-flashcards.html`.
 - Shape: one-paragraph idea in plain English → 3–5 short sections, each a rule in one sentence + 2–4 `${ex(korean, romanization, english)}` examples → one tip → "Common mistakes" box with ✗ → ✓ pairs.
