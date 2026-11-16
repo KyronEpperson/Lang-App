@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 766,
+  "exact": 768,
   "patterns": 272,
   "distinctPatternTemplates": 271
  },
@@ -5285,6 +5285,28 @@
    "where": "requested from JS (docs/LL-KEYS.md #117)",
    "context": "",
    "source": "docs/LL-KEYS.md",
+   "optionalFor": [
+    "ko"
+   ]
+  },
+  {
+   "key": "Could not load. Check your connection.",
+   "kind": "sentence",
+   "section": "engine (LL helper)",
+   "where": "toast when a course or interface file cannot be loaded (packMiss)",
+   "context": "shown as a short toast",
+   "source": "engine",
+   "optionalFor": [
+    "ko"
+   ]
+  },
+  {
+   "key": "A new version is ready. Reload to continue.",
+   "kind": "sentence",
+   "section": "engine (LL helper)",
+   "where": "toast when a course or interface file cannot be loaded (packMiss)",
+   "context": "shown as a short toast",
+   "source": "engine",
    "optionalFor": [
     "ko"
    ]

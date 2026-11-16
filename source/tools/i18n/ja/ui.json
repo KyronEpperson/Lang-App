@@ -5213,6 +5213,24 @@
    "optionalFor": [
     "ko"
    ]
+  },
+  "Could not load. Check your connection.": {
+   "t": "読み込めませんでした。接続を確認してください。",
+   "ko": null,
+   "kind": "sentence",
+   "where": "toast when a course or interface file cannot be loaded",
+   "optionalFor": [
+    "ko"
+   ]
+  },
+  "A new version is ready. Reload to continue.": {
+   "t": "新しいバージョンがあります。再読み込みしてください。",
+   "ko": null,
+   "kind": "sentence",
+   "where": "toast when a course or interface file cannot be loaded",
+   "optionalFor": [
+    "ko"
+   ]
   }
  },
  "patterns": {

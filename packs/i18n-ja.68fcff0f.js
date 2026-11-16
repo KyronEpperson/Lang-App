@@ -768,7 +768,9 @@ LANGAPP_PACKS.i18n.ja = {
     "Pronunciation hint (optional)": "読み方（任意）",
     "English, pronunciation, meaning, note — one per line (pronunciation/note optional)": "英語、読み方、意味、メモ — 1行に1枚（読み方・メモは任意）",
     "Change course": "コースを変更",
-    "listen · type · role-play": "聞く · 入力 · ロールプレイ"
+    "listen · type · role-play": "聞く · 入力 · ロールプレイ",
+    "Could not load. Check your connection.": "読み込めませんでした。接続を確認してください。",
+    "A new version is ready. Reload to continue.": "新しいバージョンがあります。再読み込みしてください。"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],

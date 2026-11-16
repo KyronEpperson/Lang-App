@@ -766,7 +766,9 @@ LANGAPP_PACKS.i18n.es = {
     "Pronunciation hint (optional)": "Ayuda de pronunciación (opcional)",
     "English, pronunciation, meaning, note — one per line (pronunciation/note optional)": "Inglés, pronunciación, significado, nota — una por línea (pronunciación y nota opcionales)",
     "Change course": "Cambiar curso",
-    "listen · type · role-play": "escuchar · escribir · diálogos"
+    "listen · type · role-play": "escuchar · escribir · diálogos",
+    "Could not load. Check your connection.": "No se pudo cargar. Revisa tu conexión.",
+    "A new version is ready. Reload to continue.": "Hay una versión nueva. Recarga para continuar."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Ejercicios"],

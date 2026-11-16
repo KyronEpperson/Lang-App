@@ -5213,6 +5213,24 @@
    "optionalFor": [
     "ko"
    ]
+  },
+  "Could not load. Check your connection.": {
+   "t": "No se pudo cargar. Revisa tu conexión.",
+   "ko": null,
+   "kind": "sentence",
+   "where": "toast when a course or interface file cannot be loaded",
+   "optionalFor": [
+    "ko"
+   ]
+  },
+  "A new version is ready. Reload to continue.": {
+   "t": "Hay una versión nueva. Recarga para continuar.",
+   "ko": null,
+   "kind": "sentence",
+   "where": "toast when a course or interface file cannot be loaded",
+   "optionalFor": [
+    "ko"
+   ]
   }
  },
  "patterns": {

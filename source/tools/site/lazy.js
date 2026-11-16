@@ -45,4 +45,17 @@ const skipIntro=async p=>{await p.waitForTimeout(800);await p.evaluate(()=>{cons
  await p.goto(U);await p.waitForFunction(()=>navigator.serviceWorker.controller||navigator.serviceWorker.ready.then(()=>true),null,{timeout:10000});await p.waitForTimeout(1500);await p.reload();await p.waitForTimeout(2000);
  await c.setOffline(true);await p.reload().catch(()=>{});await p.waitForTimeout(1500);const o=await p.evaluate(()=>({id:typeof COURSE!=='undefined'&&COURSE.id,L:typeof LESSONS!=='undefined'&&LESSONS.length,fail:!!document.getElementById('packFail')})).catch(e=>({err:String(e)}));
  ok('T6 offline reload still opens ja-en',o.id==='ja-en'&&o.L===41&&!o.fail,JSON.stringify(o));await c.close();}
-console.log(R.join('\n'));await b.close();s.close();})().catch(e=>{console.error('CRASH',e);process.exit(1);});
+// T7 sync restore on a new device: remote row names a course that is not loaded yet
+{const [c,p]=await mk({locale:'en-US',serviceWorkers:'block'});await p.goto(U);await skipIntro(p);
+ const r=await p.evaluate(async()=>{ const pushes=[]; const orig=window.syncPush; window.syncPush=function(){ pushes.push({picked:META.picked,course:COURSE.id}); };
+  const remote={xp:0,cards:{},updatedAt:5,_meta:{native:'es',course:'es-en'},_courses:{'es-en':{xp:50,lessons:{pron:1},cards:{},updatedAt:9}}};
+  applyRemoteRow(remote); const early=pushes.length; for(let i=0;i<80&&COURSE.id!=='es-en';i++) await new Promise(z=>setTimeout(z,100)); await new Promise(z=>setTimeout(z,300));
+  const out={early,course:COURSE.id,picked:META.picked,xp:S.xp,les:Object.keys(S.lessons).length,pushes,meta:syncPayload()._meta}; window.syncPush=orig; return out; });
+ ok('T7 remote course loads, then applies with its progress',r.course==='es-en'&&r.picked===1&&r.xp===50&&r.les===1,JSON.stringify(r).slice(0,260));
+ ok('T7 nothing pushed before the course loaded',r.early===0&&r.pushes.every(x=>x.picked===1)&&r.meta&&r.meta.course==='es-en',JSON.stringify(r.pushes).slice(0,160));await c.close();}
+// T8 pack file gone while online (tab left open across a deploy) → reload offer, not a connection message
+{const [c,p]=await mk({locale:'en-US',serviceWorkers:'block'});await p.route(/\/packs\/i18n-ja/,r=>r.fulfill({status:404,body:'nf'}));await p.goto(U);await skipIntro(p);
+ await p.evaluate(()=>{const w=document.getElementById('welcome');if(w)w.remove();showLangHome();});await p.click('#langHome [data-native="ja"]');await p.waitForTimeout(1200);
+ const t=await p.evaluate(()=>({toast:document.getElementById('toast').textContent,btn:!!document.querySelector('#toast button'),step1:!!document.querySelector('#langHome [data-native]'),dis:document.querySelector('#langHome [data-native="ja"]').disabled}));
+ ok('T8 missing pack online → reload offer, still on step 1',/new version/i.test(t.toast)&&t.btn&&t.step1&&!t.dis,JSON.stringify(t));await c.close();}
+console.log(R.join('\n'));await b.close();s.close();if(R.some(x=>x.startsWith('FAIL')))process.exitCode=1;})().catch(e=>{console.error('CRASH',e);process.exit(1);});

@@ -783,3 +783,9 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Results: 425 roadmap strings per language (`tools/i18n/<lang>/roadmap.json`, checked by `road.py check`). Japanese: new deck カタカナ英語の落とし穴 (24) and 53 cards added to six decks (366 → 443 cards). Spanish: new decks Palabras esenciales (24), Falsos amigos (23), Make y do (20), Incontables (15), Cognados y acento (14), Phrasal verbs +18 (366 → 480 cards). The katakana-english, false-friends and make-do lessons now open their own decks.
 - Evidence: gen / validate / parity PASS for both; all 13 roadmap previews show no English titles and no overflow in either language; e2e OK on the lessons tied to the new decks; harness 56 guards; site test 19/19.
 - Open: new cards and titles are agent-written; each `REVIEW.md` has a dated section listing what a native speaker should check.
+
+## Logo v2 and loading hardening (2.10.2)
+- Prompt (user): the flag L was the wrong idea; make the L out of letters that disperse, like the intro. Verify by looking at the rendered icon set and header.
+- Results: `tools/brand/logo.py` now draws an L of letter tiles in several scripts (한 あ A 文 ñ я 語 é …) with tiles breaking away and fading to the upper right; plain-tile version for the favicon and the in-app header. The flag version is kept as `logo_flags.py`. Intro for a visitor who has not picked a language says "Lang App" instead of 한글.
+- Hardening after review: sync restore no longer pushes before the remote course has loaded (T7); a pack that is missing while online offers a reload instead of blaming the connection (T8); the repo keeps the previous build's pack files so open tabs survive a deploy; `ship.sh` now runs the site test and refuses to ship on a failure. Japanese and Chinese interfaces use system CJK fonts and `zh-Hans` as the language tag.
+- Evidence: harness 56 guards; site test 22/22.
