@@ -44,7 +44,7 @@
    "roadmap": "ko"
   },
   "Nouns and things": {
-   "t": "Kata benda dan benda",
+   "t": "Kata benda dan barang",
    "ko": "명사와 사물",
    "kind": "stage",
    "roadmap": "ko"
@@ -314,7 +314,7 @@
    "roadmap": "en"
   },
   "Countable and uncountable: some, any, much, many": {
-   "t": "Kata benda bisa dihitung dan tidak bisa dihitung: some, any, much, many",
+   "t": "Kata benda yang bisa dan tidak bisa dihitung: some, any, much, many",
    "ko": "셀 수 있는 명사: some, any, much, many",
    "kind": "lesson title",
    "roadmap": "en"
@@ -668,7 +668,7 @@
    "roadmap": "ja"
   },
   "Mandarin, simplified characters": {
-   "t": "Mandarin, aksara sederhana",
+   "t": "Bahasa Mandarin, aksara sederhana",
    "ko": "표준 중국어 (간체자)",
    "kind": "variant",
    "roadmap": "zh"
@@ -848,7 +848,7 @@
    "roadmap": "zh"
   },
   "Spanish of Spain": {
-   "t": "Bahasa Spanyol di Spanyol",
+   "t": "Bahasa Spanyol standar (Spanyol)",
    "ko": "스페인 스페인어",
    "kind": "variant",
    "roadmap": "es"
@@ -1010,7 +1010,7 @@
    "roadmap": "es"
   },
   "French of France": {
-   "t": "Bahasa Prancis di Prancis",
+   "t": "Bahasa Prancis standar (Prancis)",
    "ko": "프랑스 프랑스어",
    "kind": "variant",
    "roadmap": "fr"
@@ -1190,7 +1190,7 @@
    "roadmap": "fr"
   },
   "German of Germany": {
-   "t": "Bahasa Jerman di Jerman",
+   "t": "Bahasa Jerman standar (Jerman)",
    "ko": "독일 독일어",
    "kind": "variant",
    "roadmap": "de"
@@ -1742,7 +1742,7 @@
    "roadmap": "th"
   },
   "Sounds and survival": {
-   "t": "Bunyi dan ungkapan bertahan hidup",
+   "t": "Bunyi dan ungkapan dasar",
    "ko": "소리와 생존 표현",
    "kind": "stage",
    "roadmap": "th"
@@ -1922,13 +1922,13 @@
    "roadmap": "id"
   },
   "A is B, with no 'to be'": {
-   "t": "A adalah B, tanpa 'to be'",
+   "t": "Kalimat A = B, tanpa 'to be'",
    "ko": "be동사 없이 A는 B",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "ini, itu: this and that": {
-   "t": "ini, itu: ini dan itu",
+   "t": "ini, itu: kata penunjuk",
    "ko": "ini, itu: 이것, 저것",
    "kind": "lesson title",
    "roadmap": "id"
@@ -1964,7 +1964,7 @@
    "roadmap": "id"
   },
   "ada: there is, have": {
-   "t": "ada: ada, punya",
+   "t": "ada: keberadaan dan kepemilikan",
    "ko": "ada: 있어요",
    "kind": "lesson title",
    "roadmap": "id"
@@ -2168,7 +2168,7 @@
    "roadmap": "hi"
   },
   "था / थी: was, used to": {
-   "t": "था / थी: dulu, biasanya dulu",
+   "t": "था / थी: bentuk lampau dan kebiasaan dulu",
    "ko": "था / थी: 과거",
    "kind": "lesson title",
    "roadmap": "hi"

@@ -34,7 +34,7 @@ practice:[
 ["ty","Ada dua kamar","There are two rooms","there are · two · room — bentuk jamak","room","Ada \"two\", jadi kata benda wajib bentuk jamak: \"rooms\"."]]},
 
 { id:"plurals", title:"Jamak -s, this / these, my / your", blurb:"Lebih dari satu, wajib -s, juga setelah angka. This untuk satu, these untuk banyak.", deck:"Belanja & bayar", body:`
-<p>Dalam bahasa Indonesia, jamak tidak wajib ditandai. Kita bisa bilang <i>buku-buku</i>, tapi setelah angka atau <i>banyak</i> kata ulang justru tidak dipakai: <i>dua buku</i>, <i>banyak buku</i>. Bahasa Inggris kebalikannya: begitu bendanya lebih dari satu, kata benda (<b>noun</b>) wajib diberi <b>-s</b>, termasuk setelah angka.</p>
+<p>Dalam bahasa Indonesia, jamak tidak wajib ditandai. Kita bisa bilang <i>buku-buku</i>, tetapi setelah angka atau <i>banyak</i> kata ulang justru tidak dipakai: <i>dua buku</i>, <i>banyak buku</i>. Bahasa Inggris kebalikannya: begitu bendanya lebih dari satu, kata benda (<b>noun</b>) wajib diberi <b>-s</b>, termasuk setelah angka.</p>
 <h3>Cara membuat bentuk jamak</h3>
 <div class="tbl"><table><tr><th>Aturan</th><th>Contoh</th></tr><tr><td>Kebanyakan kata: tambah -s</td><td class="k">book → books</td></tr><tr><td>Setelah s, x, ch, sh: tambah -es</td><td class="k">box → boxes</td></tr><tr><td>Konsonan + y: ganti jadi -ies</td><td class="k">city → cities</td></tr><tr><td>Tidak beraturan</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
 {{ex:two books|tuu buks|dua buku}}{{ex:three boxes|thrii BAAK-siz|tiga kotak}}{{ex:I have two children.|ai hèv tuu CIL-dren|Saya punya dua anak}}
@@ -62,7 +62,7 @@ practice:[
 ["ty","Ini buku-buku saya","These are my books","these · my · book — bentuk jamak","book","Lebih dari satu, jadi \"these\" dan jamak \"books\"."],
 ["ty","Saya punya dua saudara perempuan","I have two sisters","have · two · sister — bentuk jamak","sister","Ada \"two\", jadi jamak \"sisters\"."],
 ["ty","Ini tas saya","This is my bag","this · my · bag — tanpa artikel","a","Kalau ada \"my\", artikel \"a\" tidak dipakai."]]},
-{ id:"present", title:"Simple Present Tense: kata kerja tetap, negatifnya pakai don't", blurb:"Urutan katanya sama dengan bahasa Indonesia. Bedanya: ‘tidak’ bukan not, tapi don't.", deck:"Perkenalan diri", body:`
+{ id:"present", title:"Simple Present Tense: kata kerja tetap, negatifnya pakai don't", blurb:"Urutan katanya sama dengan bahasa Indonesia. Bedanya: ‘tidak’ bukan not, tetapi don't.", deck:"Perkenalan diri", body:`
 <p>Kabar baik: urutan kata dasar bahasa Inggris sama dengan bahasa Indonesia, yaitu <b>subjek → kata kerja → objek</b>. <i>Saya minum kopi</i> → <b>I drink coffee</b>. Dalam Simple Present Tense, kata kerjanya juga tetap V1 (bentuk dasar), seperti <i>minum</i> yang tidak pernah berubah.</p>
 {{ex:I drink coffee.|ai dringk KOO-fi|Saya minum kopi}}{{ex:I study English.|ai STA-di ING-glisy|Saya belajar bahasa Inggris}}
 <h3>Tempat dulu, baru waktu</h3>
@@ -93,11 +93,11 @@ practice:[
 ["ty","Saya suka kucing","I like cats","like · cat — bentuk jamak","cat","Untuk hewan secara umum, pakai bentuk jamak: \"cats\"."],
 ["ty","Saya tidak makan daging","I don't eat meat","don't · eat · meat — bukan not","am","‘Tidak’ + kata kerja biasa = \"don't\"."]]},
 { id:"questions", title:"Kalimat tanya: Do you …? dan kata tanya", blurb:"Menaikkan nada saja tidak cukup. Do di depan, kata tanya paling depan.", deck:"Ungkapan penting 2", body:`
-<p>Dalam bahasa Indonesia, <i>Kamu suka kopi?</i> sudah menjadi pertanyaan hanya dengan nada naik. Dalam tulisan kita bisa menambahkan <i>apakah</i> di depan. Bahasa Inggris juga menaruh sesuatu di depan, tapi kata itu berubah sesuai kalimatnya: <b>Is</b>, <b>Are</b>, <b>Do</b> atau <b>Does</b>.</p>
+<p>Dalam bahasa Indonesia, <i>Kamu suka kopi?</i> sudah menjadi pertanyaan hanya dengan nada naik. Dalam tulisan kita bisa menambahkan <i>apakah</i> di depan. Bahasa Inggris juga menaruh sesuatu di depan, tetapi kata itu berubah sesuai kalimatnya: <b>Is</b>, <b>Are</b>, <b>Do</b> atau <b>Does</b>.</p>
 <h3>Dengan to be: tukar posisi</h3>
 {{ex:Are you okay?|er yu ou-KEI?|Kamu baik-baik saja?}}{{ex:Is this your bag?|iz dhis yer bèg?|Ini tas kamu?}}
 <h3>Dengan kata kerja biasa: Do di depan</h3>
-<p>Kalau kalimatnya memakai kata kerja biasa, taruh <b>Do</b> di depan; urutan lainnya tetap. <b>Do</b> di sini bekerja seperti <i>apakah</i>, tapi tidak boleh dihilangkan.</p>
+<p>Kalau kalimatnya memakai kata kerja biasa, taruh <b>Do</b> di depan; urutan lainnya tetap. <b>Do</b> di sini bekerja seperti <i>apakah</i>, tetapi tidak boleh dihilangkan.</p>
 {{ex:Do you like coffee?|de yu laik KOO-fi?|Kamu suka kopi?}}{{ex:Do you speak English?|de yu spiik ING-glisy?|Kamu berbahasa Inggris?}}
 <p>Jawaban pendeknya mengulang kata kerja bantu: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
 <h3>Kata tanya paling depan</h3>
@@ -121,7 +121,7 @@ practice:[
 ["ty","Kamar mandinya di mana?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — artikel the","a","Kamar mandi yang sama-sama diketahui, jadi artikel \"the\"."],
 ["ty","Kamu suka anjing?","Do you like dogs","do · like · dog — bentuk jamak","dog","Untuk hewan secara umum, pakai bentuk jamak: \"dogs\"."]]},
 { id:"third-s", title:"he, she, it + -s: does / doesn't", blurb:"Subjeknya satu orang atau satu benda? Kata kerjanya ditambah -s. Kalimat tanya dan negatif pakai does.", deck:"Perkenalan diri", body:`
-<p>Dalam bahasa Indonesia, kata kerja tidak pernah berubah karena subjeknya: <i>saya kerja</i>, <i>dia kerja</i>. Dalam Simple Present Tense bahasa Inggris, kalau subjeknya <b>he</b>, <b>she</b>, <b>it</b>, atau satu orang atau satu benda, kata kerjanya ditambah <b>-s</b>. Aturannya kecil, tapi mudah terlupa: kesalahan ini bahkan masih sering muncul di skripsi mahasiswa.</p>
+<p>Dalam bahasa Indonesia, kata kerja tidak pernah berubah karena subjeknya: <i>saya kerja</i>, <i>dia kerja</i>. Dalam Simple Present Tense bahasa Inggris, kalau subjeknya <b>he</b>, <b>she</b>, <b>it</b>, atau satu orang atau satu benda, kata kerjanya ditambah <b>-s</b>. Aturannya kecil, tetapi mudah terlupa: kesalahan ini bahkan masih sering muncul di skripsi mahasiswa.</p>
 <div class="tbl"><table><tr><th>Subjek</th><th>Kata kerja</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
 {{ex:She works at a bank.|syi werks et e bèngk|Dia (perempuan) bekerja di bank}}{{ex:He likes soccer.|hi laiks SAA-ker|Dia (laki-laki) suka sepak bola}}{{ex:My mom cooks well.|mai maam kuks wél|Ibu saya pintar memasak}}
 <p>Ingat juga: <i>dia</i> bisa berarti <b>he</b> atau <b>she</b>. Pilih sesuai orangnya.</p>
@@ -152,7 +152,7 @@ practice:[
 <div class="tbl"><table><tr><th>Bisa dihitung</th><th>Tidak bisa dihitung</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>bisa pakai a / an, angka, -s jamak</td><td>tidak bisa pakai a / an, angka, -s jamak</td></tr></table></div>
 <p>Hati-hati dengan kata yang dalam bahasa Indonesia terasa bisa dihitung: <b>information</b> (informasi), <b>advice</b> (saran), <b>baggage</b> (bagasi), <b>furniture</b> (perabot). Semuanya tidak bisa dihitung, jadi tanpa -s dan tanpa <b>a</b>.</p>
 <h3>some dan any</h3>
-<p>‘Sedikit, beberapa’ dalam kalimat positif pakai <b>some</b>, dalam kalimat negatif dan kalimat tanya pakai <b>any</b>.</p>
+<p>‘Sedikit, beberapa’ dalam kalimat positif pakai <b>some</b>, dalam kalimat negatif dan kalimat tanya pakai <b>any</b>. Pengecualiannya: saat <b>meminta</b> atau <b>menawarkan</b> sesuatu, kalimat tanya tetap memakai <b>some</b>, karena kita mengharapkan jawaban ‘ya’: <b>Can I have some water?</b> / <b>Would you like some tea?</b></p>
 {{ex:I have some money.|ai hèv sem MA-ni|Saya punya sedikit uang}}{{ex:I don't have any money.|ai dount hèv É-ni MA-ni|Saya tidak punya uang sama sekali}}{{ex:Do you have any questions?|de yu hèv É-ni KWÉS-cenz?|Ada pertanyaan?}}
 <h3>many dan much</h3>
 <p>Yang bisa dihitung: <b>many</b> + bentuk jamak. Yang tidak bisa dihitung: <b>much</b>. <b>A lot of</b> bisa untuk keduanya.</p>
@@ -177,7 +177,7 @@ practice:[
 ["ty","Boleh minta air?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — tanpa artikel","a","\"Water\" tidak bisa dihitung, jadi \"some\", bukan artikel \"a\"."],
 ["ty","Kamu punya pertanyaan?","Do you have any questions","any · question — bentuk jamak","question","Setelah \"any\", kata benda yang bisa dihitung menjadi jamak: \"questions\"."],
 ["ty","Berapa orang?","How many people","how many · people — bukan much","much","Orang bisa dihitung, jadi \"many\"."]]},
-{ id:"object-have", title:"me, him, her dan have", blurb:"Setelah kata kerja, bukan I tapi me. Dia bisa him atau her, dan ‘punya’ = have.", deck:"Perkenalan diri", body:`
+{ id:"object-have", title:"me, him, her dan have", blurb:"Setelah kata kerja, bukan I tetapi me. Dia bisa him atau her, dan ‘punya’ = have.", deck:"Perkenalan diri", body:`
 <p>Dalam bahasa Indonesia, kata ganti tidak berubah bentuk: <i>Dia kenal saya</i>, <i>Saya kenal dia</i>. Dalam bahasa Inggris, kata ganti punya bentuk khusus untuk objek, yang dipakai <b>setelah</b> kata kerja atau preposisi (kata depan).</p>
 <div class="tbl"><table><tr><th>Subjek</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>Objek</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
 <p><i>Dia</i> harus dipilih: laki-laki <b>he / him</b>, perempuan <b>she / her</b>. Begitu juga akhiran <i>-nya</i>: <b>his</b>, <b>her</b>, atau <b>its</b> untuk benda dan hewan.</p>
@@ -211,7 +211,7 @@ practice:[
 <p>Polanya <b>can + V1</b>. Meskipun subjeknya he atau she, tidak ada -s: <b>She can swim</b>.</p>
 {{ex:I can swim.|ai ken swim|Saya bisa berenang}}{{ex:I can't drive.|ai kènt draiv|Saya tidak bisa menyetir}}{{ex:Can you speak Indonesian?|ken yu spiik in-de-NII-zyen?|Kamu bisa bahasa Indonesia?}}
 <h3>like + -ing: suka melakukan sesuatu</h3>
-<p>Untuk hobi, setelah <b>like</b> atau <b>love</b> pakai kata kerja bentuk -ing. Dalam bahasa Indonesia cukup <i>suka masak</i>, tapi <b>I like cook</b> salah.</p>
+<p>Untuk hobi, setelah <b>like</b> atau <b>love</b> pakai kata kerja bentuk -ing. Dalam bahasa Indonesia cukup <i>suka masak</i>, tetapi <b>I like cook</b> salah.</p>
 {{ex:I like cooking.|ai laik KU-king|Saya suka memasak}}{{ex:I love watching movies.|ai lav WAA-cing MUU-viz|Saya senang sekali menonton film}}{{ex:I don't like running.|ai dount laik RA-ning|Saya tidak suka lari}}
 <h3>I'd like: saya mau (dengan sopan)</h3>
 <p><b>I like</b> berarti suka secara umum, sedangkan <b>I'd like</b> berarti ‘saya mau’ sekarang, dengan sopan, mirip <i>Saya pesan …</i>. Untuk memesan, pakai <b>I'd like</b>.</p>
@@ -280,13 +280,13 @@ practice:[
 ["mc","'Tadi seru' dalam bahasa Inggris?","It was fun.","It were fun.","It did fun.","It funned.","Untuk \"it\", pakai \"was\"."],
 ["mc","'Kamu tadi sibuk?' dalam bahasa Inggris?","Were you busy?","Did you busy?","Was you busy?","Were you busied?","\"Busy\" kata sifat, jadi tanyakan dengan to be: \"Were\"."],
 ["or","Kami tadi menonton film","We watched a movie","watch movies","Satu film, jadi artikel \"a\" dan bentuk tunggal \"movie\"."],
-["or","Tadi saya main dengan teman-teman saya","I played with my friends","friend play","Lebih dari satu teman, jadi jamak \"friends\"."],
+["or","(Anak kecil bercerita) Tadi aku main dengan teman-temanku","I played with my friends","friend play","Lebih dari satu teman, jadi jamak \"friends\"."],
 ["or","Kemarin saya tidak bekerja","I didn't work yesterday","worked","Setelah \"didn't\", kata kerja V1."],
 ["fi","We __ at home last night.","Tadi malam kami di rumah","were","was|did|are","Untuk \"we\", pakai \"were\"."],
 ["fi","I __ soccer yesterday.","Kemarin saya main sepak bola","played","play|playing|was play","Ada \"yesterday\", jadi kata kerja V2: \"played\"."],
 ["fi","__ you work yesterday?","Kemarin kamu bekerja?","Did","Were|Do|Was","Pertanyaan lampau dengan kata kerja biasa pakai \"Did\"."],
 ["ty","Saya capek (lampau)","I was tired","was · tired — bentuk lampau","were","Untuk \"I\", pakai \"was\"; kata sifat butuh to be."],
-["ty","Saya menonton film (lampau)","I watched a movie","watched · movie — artikel a","the","Satu film, jadi artikel \"a\"."],
+["ty","Saya menonton film (lampau, pakai \"watch\")","I watched a movie","watched · movie — artikel a","the","Satu film, jadi artikel \"a\"."],
 ["ty","Saya menelepon teman-teman saya (lampau)","I called my friends","called · my · friend — bentuk jamak","friend","Lebih dari satu teman, jadi jamak \"friends\"."]]},
 { id:"irregular-past", title:"V2 tidak beraturan: went, ate, saw", blurb:"Kata kerja yang paling sering dipakai justru tidak memakai -ed. Hafalkan 12 ini dulu.", deck:"Obrolan ringan", body:`
 <p>Kata kerja sehari-hari kebanyakan <b>tidak beraturan</b>: bentuk V2 kata kerja ini tidak diberi -ed. Di sekolah kamu mungkin pernah menghafal daftar V1–V2–V3. Untuk sekarang, cukup pasangan V1 dan V2 berikut.</p>
@@ -315,7 +315,7 @@ practice:[
 ["ty","Saya membeli sebuah buku (lampau)","I bought a book","bought · book — artikel a","the","Satu buku, jadi artikel \"a\"."],
 ["ty","Saya bertemu teman-teman saya (lampau)","I met my friends|I saw my friends","met · my · friend — bentuk jamak","friend","Lebih dari satu teman, jadi jamak \"friends\"."]]},
 { id:"the", title:"Melihat lagi the: pertama a, berikutnya the", blurb:"Saat pertama disebut pakai a; begitu sudah sama-sama tahu, pakai the.", deck:"Arah & transportasi", body:`
-<p>Artikel tidak bisa dikuasai sekali jalan, apalagi karena bahasa Indonesia tidak punya artikel. Kadang <i>-nya</i> atau <i>itu</i> terasa mirip <b>the</b> (<i>bukunya</i>, <i>buku itu</i>), tapi keduanya tidak wajib, sedangkan <b>the</b> wajib. Di sini kita latih kapan pakai <b>the</b> dan kapan <b>tanpa artikel</b>.</p>
+<p>Artikel tidak bisa dikuasai sekali jalan, apalagi karena bahasa Indonesia tidak punya artikel. Kadang <i>-nya</i> atau <i>itu</i> terasa mirip <b>the</b> (<i>bukunya</i>, <i>buku itu</i>), tetapi keduanya tidak wajib, sedangkan <b>the</b> wajib. Di sini kita latih kapan pakai <b>the</b> dan kapan <b>tanpa artikel</b>.</p>
 <h3>Pertama a, disebut lagi the</h3>
 <p>Kalau pendengar baru pertama kali mendengar bendanya, pakai a. Kalau barusan sudah disebut, pakai the.</p>
 {{ex:I bought a shirt. The shirt is blue.|ai boot e syert. dhe syert iz bluu|Saya membeli kemeja. Kemejanya biru}}
@@ -353,7 +353,7 @@ practice:[
 <h3>Paling: pakai the</h3>
 {{ex:This is the best restaurant here.|dhis iz dhe bést RÉS-te-raant hir|Ini restoran paling enak di sini}}{{ex:Which is the cheapest?|wic iz dhe CII-pist?|Yang mana yang paling murah?}}
 <div class="tip">Kesalahan paling umum: <b>more cheaper</b>, <b>more bigger</b>, <b>more good</b> ✗ → <b>cheaper</b>, <b>bigger</b>, <b>better</b> ✓. -er dan more tidak dipakai bersamaan. Juga <b>bag big</b> ✗ → <b>big bag</b> ✓.</div>`,
-check:[["Bentuk perbandingan dari \"big\"?",["more big","biger","bigger","most big"],2,"Kata pendek ditambah -er; konsonan terakhirnya ditulis dua kali."],["This is ___ expensive than that. Apa isi bagian yang kosong?",["more","most","much","very"],0,"Kata panjang memakai \"more\"."],["Bentuk paling dari \"good\"?",["the goodest","the most good","the better","the best"],3,"good – better – the best."]],
+check:[["Bentuk perbandingan dari \"big\"?",["more big","biger","bigger","most big"],2,"\"big\" diakhiri satu vokal pendek + satu konsonan, jadi konsonannya digandakan: \"bigger\" (bandingkan \"cheap\" → \"cheaper\")."],["This is ___ expensive than that. Apa isi bagian yang kosong?",["more","most","much","very"],0,"Kata panjang memakai \"more\"."],["Bentuk paling dari \"good\"?",["the goodest","the most good","the better","the best"],3,"good – better – the best."]],
 practice:[
 ["mc","Bentuk perbandingan dari \"cheap\"?","cheaper","more cheap","cheapper","most cheap","Kata pendek ditambah -er."],
 ["mc","'Yang ini lebih mahal' dalam bahasa Inggris?","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","Kata panjang memakai \"more\"."],
@@ -427,8 +427,8 @@ practice:[
 ["ty","Saya suka kopi dan teh","I like coffee and tea","like · coffee · and · tea — tanpa artikel","a","Kopi dan teh secara umum tanpa artikel."],
 ["ty","Saya capek tapi senang","I'm tired but happy|I'm tired but I'm happy","tired · but · happy — pakai I'm","so","‘Tapi’ = \"but\"; kata sifat butuh to be."],
 ["ty","Saya suka anjing dan kucing","I like dogs and cats|I like cats and dogs","dog · and · cat — bentuk jamak","dog","Hewan secara umum pakai jamak: \"dogs\", \"cats\"."]]},
-{ id:"indo-english", title:"Inggris ala Indonesia: kata yang menjebak", blurb:"I'm boring, refreshing, handphone, resep: terdengar seperti bahasa Inggris, tapi artinya lain.", deck:"Jebakan Inggris ala Indonesia", body:`
-<p>Banyak kata Inggris sudah masuk ke bahasa Indonesia, tapi artinya bergeser di perjalanan. Akibatnya, kalimat yang terasa benar di telinga kita bisa membingungkan penutur asli. Ini bukan soal tata bahasa, melainkan soal kata yang menjebak.</p>
+{ id:"indo-english", title:"Inggris ala Indonesia: kata yang menjebak", blurb:"I'm boring, refreshing, handphone, resep: terdengar seperti bahasa Inggris, tetapi artinya lain.", deck:"Jebakan Inggris ala Indonesia", body:`
+<p>Banyak kata Inggris sudah masuk ke bahasa Indonesia, tetapi artinya bergeser di perjalanan. Akibatnya, kalimat yang terasa benar di telinga kita bisa membingungkan penutur asli. Ini bukan soal tata bahasa, melainkan soal kata yang menjebak.</p>
 <h3>bored atau boring?</h3>
 <p>Akhiran <b>-ed</b> untuk perasaanmu, <b>-ing</b> untuk hal yang menimbulkan perasaan itu. <b>I'm boring</b> berarti ‘saya orang yang membosankan’, bukan ‘saya bosan’.</p>
 {{ex:I'm bored.|aim boord|Saya bosan}}{{ex:This movie is boring.|dhis MUU-vi iz BOO-ring|Film ini membosankan}}{{ex:I'm interested in music.|aim IN-tre-stid in MYUU-zik|Saya tertarik pada musik}}
@@ -456,8 +456,8 @@ practice:[
 ["fi","I'm __ in music.","Saya tertarik pada musik","interested","interesting|interest|interests","Perasaanmu pakai -ed: \"interested\"."],
 ["fi","Can I __ your pen?","Boleh saya pinjam pulpenmu?","borrow","lend|loan|rent","Meminjam (kamu yang menerima) = \"borrow\"."],
 ["fi","Bring snacks, drinks or __.","Bawa camilan, minuman atau apa saja","whatever","whatsoever|whichever|however","Yang benar \"or whatever\", bukan \"or whatsoever\"."],
-["ty","Saya perlu resep dokter","I need a prescription","need · prescription — artikel a","recipe","Resep dokter = \"prescription\"; satu benda yang bisa dihitung perlu artikel \"a\"."],
+["ty","Saya perlu resep dokter","I need a prescription|I need a doctor's prescription|I need a prescription from a doctor","need · prescription — artikel a","recipe","Resep dokter = \"prescription\"; satu benda yang bisa dihitung perlu artikel \"a\"."],
 ["ty","Saya punya dua map","I have two folders","have · two · folder — bentuk jamak","folder","Map dokumen = \"folder\"; ada \"two\", jadi jamak \"folders\"."],
 ["ty","Saya bosan","I'm bored","I'm · bored — bukan boring","boring","Perasaanmu pakai -ed: \"bored\"."],
-["ty","HP saya di mana?","Where's my phone|Where is my phone","where · my · phone — bukan handphone","handphone","Dalam bahasa Inggris cukup \"phone\"; \"handphone\" tidak dipakai."]]},
+["ty","HP saya di mana?","Where's my phone|Where is my phone|Where's my cell phone|Where is my cell phone","where · my · phone — bukan handphone","handphone","Dalam bahasa Inggris cukup \"phone\"; \"handphone\" tidak dipakai."]]},
 ];

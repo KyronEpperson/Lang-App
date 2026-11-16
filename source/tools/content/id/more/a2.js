@@ -102,7 +102,7 @@ check:[["'Saya belum makan.' dalam bahasa Inggris?",["I already not eat.","I don
 practice:[
 ["mc","'Saya sedang makan.' dalam bahasa Inggris?","I'm eating.","I eating.","I eat now.","I'm eat.","'Sedang' adalah to be + -ing: \"I'm eating\"."],
 ["mc","'Saya pernah ke Bali.' dalam bahasa Inggris?","I've been to Bali.","I was to Bali.","I ever go to Bali.","I've went to Bali.","'Pernah' adalah have + V3: \"I've been\"."],
-["mc","'Kemarin saya menonton film itu.' dalam bahasa Inggris?","I saw the movie yesterday.","I've seen the movie yesterday.","I see the movie yesterday.","I already see the movie yesterday.","Ada \"yesterday\": pakai V2, walaupun kalimat Indonesianya tanpa penanda."],
+["mc","'Kemarin saya menonton film itu.' dalam bahasa Inggris?","I saw the movie yesterday.","I've seen the movie yesterday.","I see the movie yesterday.","I already see the movie yesterday.","Ada \"yesterday\", jadi pakai V2. Kalau waktunya disebut, jangan pakai have + V3."],
 ["mc","'Nanti saya telepon kamu.' dalam bahasa Inggris?","I'll call you later.","I call you later.","I calling you later.","I'm call you later.","'Nanti' untuk janji adalah \"will\" + V1."],
 ["mc","'Kamu sudah makan belum?' dalam bahasa Inggris?","Have you eaten yet?","Did you eat already yet?","Are you eat yet?","Have you eat yet?","'Sudah ... belum?' adalah Have you + V3 ... \"yet\"?"],
 ["or","Saya sudah beli tiket-tiketnya","I've already bought the tickets","ticket a","Tiket tertentu, lebih dari satu: artikel \"the\" dan bentuk jamak \"tickets\"."],
@@ -112,16 +112,16 @@ practice:[
 ["fi","I've __ finished my homework.","Saya sudah menyelesaikan PR saya","already","yet|ever|never","'Sudah' dalam kalimat positif Present Perfect adalah \"already\"."],
 ["fi","She __ cooking dinner now.","Dia (perempuan) sedang memasak makan malam sekarang","is","was|does|has","'Sedang' dan 'sekarang': \"is\" + -ing."],
 ["fi","I haven't seen it __.","Saya belum menontonnya","yet","already|ever|never","'Belum' adalah kalimat negatif + \"yet\" di akhir."],
-["ty","Kamu pernah melihat salju?","Have you ever seen snow","have you ever · seen · snow — tanpa artikel","a","Salju tidak bisa dihitung: tanpa artikel dan tanpa -s jamak."],
+["ty","Kamu pernah melihat salju?","Have you ever seen snow|Have you seen snow","have you ever · seen · snow — tanpa artikel","a","Salju tidak bisa dihitung: tanpa artikel dan tanpa -s jamak."],
 ["ty","Saya sudah membeli sebuah mobil","I've already bought a car|I've bought a car|I already bought a car","already · bought · car — artikel a","the","'Sudah' dengan hasil yang terasa sekarang: have + V3; satu mobil: artikel \"a\"."],
 ["ty","Dia (laki-laki) sedang membaca koran","He's reading a newspaper|He's reading the newspaper","reading · newspaper — perhatikan artikel","newspapers","'Sedang' adalah to be + -ing; satu koran perlu artikel (\"a\" atau \"the\")."],
-["ty","Saya belum makan","I haven't eaten yet","haven't · eaten · yet","already","'Belum' adalah haven't + V3 + \"yet\"."]]},
+["ty","Saya belum makan","I haven't eaten yet|I haven't eaten","haven't · eaten · yet","already","'Belum' adalah haven't + V3 + \"yet\"."]]},
 { id:"modals", title:"have to, must, should, might: kewajiban dan saran", blurb:"Harus, sebaiknya, mungkin. Setelah semuanya, pakai V1.", deck:"Rumah sakit & darurat", body:`
 <p>Empat kata ini menyatakan kewajiban, saran, dan kemungkinan. Setelah semuanya, kata kerja selalu <b>V1</b>, tanpa to (kecuali <b>have to</b>) dan tanpa -s.</p>
 <div class="tbl"><table><tr><th>Bahasa Indonesia</th><th>Bahasa Inggris</th></tr><tr><td><i>harus</i></td><td class="k">have to / must</td></tr><tr><td><i>sebaiknya</i></td><td class="k">should</td></tr><tr><td><i>mungkin</i></td><td class="k">might</td></tr><tr><td><i>boleh</i></td><td class="k">may / can</td></tr><tr><td><i>tidak harus, tidak perlu</i></td><td class="k">don't have to</td></tr><tr><td><i>tidak boleh, dilarang</i></td><td class="k">must not</td></tr></table></div>
 <h3>have to: harus</h3>
 <p>Paling sering dipakai sehari-hari. Dengan he, she, it: <b>has to</b>.</p>
-{{ex:I have to work tomorrow.|ai hèv te werk te-MAA-rou|Besok saya harus bekerja}}{{ex:She has to go now.|syi hèz te gou nau|Dia (perempuan) harus pergi sekarang}}
+{{ex:I have to work tomorrow.|ai hèf te werk te-MAA-rou|Besok saya harus bekerja}}{{ex:She has to go now.|syi hès te gou nau|Dia (perempuan) harus pergi sekarang}}
 <h3>don't have to tidak sama dengan must not</h3>
 <p>Hati-hati: <i>tidak harus</i> artinya "tidak perlu", bukan "dilarang".</p>
 <div class="tbl"><table><tr><th>Kalimat</th><th>Arti</th></tr><tr><td class="k">You don't have to come.</td><td>Kamu tidak perlu datang (tidak wajib)</td></tr><tr><td class="k">You must not smoke here.</td><td>Kamu tidak boleh merokok di sini (dilarang)</td></tr></table></div>
@@ -152,7 +152,7 @@ practice:[
 <div class="tbl"><table><tr><th>Diikuti to</th><th>Diikuti -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
 <h3>to + V1: hal yang akan dilakukan</h3>
 {{ex:I want to go home.|ai waant te gou houm|Saya mau pulang}}{{ex:I need to study.|ai niid te STA-di|Saya perlu belajar}}{{ex:I'd like to order.|aid laik te OOR-der|Saya mau pesan}}{{ex:I decided to learn English.|ai di-SAI-did te lern ING-glisy|Saya memutuskan untuk belajar bahasa Inggris}}
-<h3>-ing: kegiatan yang dinikmati atau diselesaikan</h3>
+<h3>-ing: setelah enjoy, finish, mind, keep, stop</h3>
 {{ex:I enjoy cooking.|ai in-JOI KU-king|Saya senang memasak}}{{ex:I finished working.|ai FI-nisyt WER-king|Saya sudah selesai bekerja}}{{ex:I don't mind waiting.|ai dount maind WEI-ding|Saya tidak keberatan menunggu}}
 <h3>Bisa keduanya</h3>
 <p><b>like</b>, <b>love</b>, dan <b>start</b> bisa diikuti to atau -ing: <b>I like to cook.</b> / <b>I like cooking.</b></p>
@@ -171,7 +171,7 @@ practice:[
 ["fi","She enjoys __.","Dia (perempuan) senang berenang","swimming","to swim|swim|swims","Setelah \"enjoy\", pakai bentuk -ing."],
 ["fi","I decided __ English.","Saya memutuskan untuk belajar bahasa Inggris","to study|to learn","study|studying|studied","Setelah \"decide\", pakai to + V1."],
 ["ty","Saya mau pulang","I want to go home","want to · go · home — tanpa artikel","the","Setelah \"want\" pakai to, dan \"home\" dipakai tanpa artikel."],
-["ty","Saya senang membaca buku","I enjoy reading books|I enjoy reading","enjoy · read · book — bentuk jamak","book","Setelah \"enjoy\" pakai -ing; buku secara umum: bentuk jamak \"books\"."],
+["ty","Saya senang membaca buku (pakai \"enjoy\")","I enjoy reading books|I enjoy reading","enjoy · read · book — bentuk jamak","book","Setelah \"enjoy\" pakai -ing; buku secara umum: bentuk jamak \"books\"."],
 ["ty","Saya mau pesan","I'd like to order|I want to order","I'd like · to · order","ordering","Setelah \"would like\", pakai to + V1."]]},
 { id:"articles-2", title:"the lanjutan: benda yang cuma satu dan jamak tanpa artikel", blurb:"Alat musik pakai the, olahraga tidak. Juga nama negara dan pernyataan umum.", deck:"Perjalanan (bandara & hotel)", body:`
 <p>Ini pelajaran artikel yang ketiga. Kali ini kita kelompokkan kasus yang aturannya sudah tetap.</p>
@@ -250,7 +250,7 @@ practice:[
 ["mc","This is the phone ___ I want.","that","who","what","it","Untuk benda, pakai \"that\"."],
 ["mc","'film yang kita tonton' dalam bahasa Inggris?","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","\"That\" boleh dihilangkan."],
 ["or","Ini buku yang saya beli","This is the book I bought","a what","Buku tertentu yang saya beli: artikel \"the\"."],
-["or","Saya punya seorang teman yang hobi memasak","I have a friend who cooks","the which","Satu teman yang baru disebut: artikel \"a\"."],
+["or","Saya punya seorang teman yang bisa memasak","I have a friend who cooks","the which","Satu teman yang baru disebut: artikel \"a\"."],
 ["or","Film yang kita tonton bagus sekali","The movie we saw was great","A movies","Film tertentu yang kita tonton: artikel \"the\"."],
 ["fi","the man __ lives here","laki-laki yang tinggal di sini","who|that","what|he|which","Untuk orang, pakai \"who\"."],
 ["fi","the book __ I read","buku yang saya baca","that|which","who|what|it","Untuk benda, pakai \"that\" (atau \"which\")."],

@@ -12,7 +12,7 @@ Good afternoon. | gud èf-ter-NUUN | Selamat siang / Selamat sore | Kira-kira pu
 Good evening. | gud IIV-ning | Selamat malam (saat bertemu) | Sapaan malam saat bertemu. "Good night" hanya untuk berpisah!
 How are you? | hau er yu? | Apa kabar? | Lebih mirip salam daripada pertanyaan sungguhan. Jawab singkat saja: "Good, thanks. You?"
 I'm good, thanks. And you? | aim gud, thèngks. en yuu? | Baik, terima kasih. Kamu? | "I'm fine, thank you" terdengar seperti buku pelajaran. "Good" jauh lebih alami
-What's up? | wats ap? | Ada apa? / Lagi apa? | Bukan bertanya soal "atas" (up). Biasanya dijawab "Not much."
+What's up? | wats ap? | Ada apa? / Lagi apa? | Sapaan santai antarteman, bukan pertanyaan serius. Biasanya dijawab "Not much."
 Not much. | naat mac | Biasa saja | Jawaban paling umum untuk "What's up?". Tanya balik: "Not much, you?"
 How's it going? | hauz it GOU-ing? | Bagaimana kabarnya? | Versi santai dari "How are you?". Jawab misalnya "Pretty good!"
 Nice to meet you. | nais te miit yu | Senang berkenalan denganmu | Hanya saat pertama kali bertemu. Jawabannya: "Nice to meet you, too."
@@ -20,7 +20,7 @@ Long time no see! | loong taim nou sii! | Lama tidak bertemu! | Untuk orang yang
 See you later. | sii yu LEI-der | Sampai nanti | Diucapkan saat berpisah, meskipun belum ada rencana bertemu lagi
 Take care. | teik kér | Hati-hati, ya / Jaga diri | Salam perpisahan yang hangat. Sering juga ditulis di akhir pesan
 Have a good one! | hèv e gud wan! | Semoga harimu menyenangkan! | Sering diucapkan kasir setelah kamu membayar. Cukup jawab "You too!"
-Bye! | bai! | Dah! | "Bye-bye" antarorang dewasa terdengar agak kekanak-kanakan
+Bye! | bai! | Dah! | Salam perpisahan paling umum. "Bye-bye" terdengar lebih manis, sering dipakai ke anak-anak atau di telepon
 Good night. | gud nait | Selamat tidur / Selamat malam (saat berpisah) | Hanya saat berpisah malam hari atau mau tidur. Untuk menyapa saat datang: "Good evening"
 `,
 "Perkenalan diri": `
@@ -34,7 +34,7 @@ I'm a student. | aim e STUU-dent | Saya pelajar / mahasiswa | Sebelum pekerjaan 
 What do you do? | wat de yu duu? | Kamu kerja apa? | Pertanyaan standar soal pekerjaan. Lebih halus daripada "What's your job?"
 I work at a bank. | ai werk et e bèngk | Saya bekerja di bank | Sebelum perusahaan atau tempat kerja pakai "at": "I work at a hotel."
 I work in marketing. | ai werk in MAAR-ke-ding | Saya bekerja di bidang pemasaran | Sebelum bidang atau divisi pakai "in". "di" dalam bahasa Indonesia bisa jadi "at" atau "in"
-I'm 25 years old. | aim TWÉN-ti-faiv yirz ould | Umur saya 25 tahun | Umur pakai "be", bukan "have". "years" dalam bentuk jamak. Menanyakan umur ke orang yang baru dikenal bisa terasa tidak sopan
+I'm 25 years old. | aim TWÉN-ti-faiv yirz ould | Umur saya 25 tahun | Umur pakai "be": "I'm 25" atau "I'm 25 years old", bukan "My age is 25". "years" dalam bentuk jamak. Menanyakan umur ke orang yang baru dikenal bisa terasa tidak sopan
 I'm really into hiking. | aim RII-li IN-tu HAI-king | Saya sangat suka mendaki gunung | Jauh lebih alami daripada "My hobby is…"
 I like watching movies. | ai laik WAA-cing MUU-viz | Saya suka menonton film | Setelah "like", kata kerja pakai bentuk -ing atau "to" + V1
 I've been learning English for a year. | aiv bin LER-ning ING-glisy fer e yir | Saya sudah setahun belajar bahasa Inggris | Untuk hal yang dimulai dulu dan masih berlangsung: "have been" + -ing. Jangan "I learn English since one year"
@@ -95,7 +95,7 @@ Where do I transfer? | wér de ai TRÈNS-fer? | Saya pindah jalur di mana? | Ing
 Does this bus go to the airport? | dez dhis bas gou te dhi ÉR-poort? | Bus ini ke bandara? | Sebelum bunyi vokal, "the" dibaca "dhi"
 Which stop should I get off at? | wic staap syud ai gét oof èt? | Saya turun di halte mana? | "get off" = turun (dari bus atau kereta)
 One ticket to Boston, please. | wan TI-kit te BOO-sten, pliiz | Satu tiket ke Boston | Sebelum tujuan pakai "to"
-Round trip or one way? | raund trip oor wan wei? | Pulang-pergi atau sekali jalan? | Inggris: "Return or single?"
+Round trip or one way? | raund trip er wan wei? | Pulang-pergi atau sekali jalan? | Inggris: "Return or single?"
 Can you take me to this address? | ken yu teik mi te dhis È-drés? | Tolong antar saya ke alamat ini | Di taksi atau ojek online, tunjukkan layar ponselmu supaya tidak salah
 Could you pull over here? | kud yu pul OU-ver hir? | Bisa berhenti di sini? | Saat mau turun dari taksi atau mobil, seperti "Kiri, Pak!". "Right here is fine." juga bisa
 How long does it take? | hau loong dez it teik? | Berapa lama perjalanannya? | Jawabannya misalnya: "About 20 minutes."
@@ -124,11 +124,11 @@ Is the tip included? | iz dhe tip in-KLUU-did? | Sudah termasuk tip? | Di restor
 Can I get an iced Americano? | ken ai gét en aist e-mé-ri-KAA-nou? | Minta satu es americano | -d pada "iced" hampir tidak terdengar. Untuk memesan minuman, "Can I get…?" paling umum
 What size would you like? | wat saiz wud yu laik? | Mau ukuran apa? | Pertanyaan barista. "would you" sering tersambung jadi satu bunyi
 Small, please. | smool, pliiz | Yang kecil, ya | Di Starbucks: "tall", "grande", "venti"
-For here or to go? | fer hir oor te gou? | Makan di sini atau dibawa pulang? | Inggris: "Eat in or take away?"
+For here or to go? | fer hir er te gou? | Makan di sini atau dibawa pulang? | Inggris: "Eat in or take away?"
 Can I get oat milk instead? | ken ai gét out milk in-STÉD? | Bisa diganti susu oat? | "instead" = sebagai gantinya. Kadang ada biaya tambahan
 Less ice, please. | lés ais, pliiz | Esnya sedikit saja | Tanpa es: "No ice, please." "ice" tidak bisa dihitung, jadi tanpa -s jamak
 Decaf, please. | DII-kèf, pliiz | Yang tanpa kafein, ya | Singkatan dari "decaffeinated"
-Can I get a name for the order? | ken ai gét e neim fer dhi OOR-der? | Pesanan atas nama siapa? | Barista menulis nama di gelas. Siapkan satu nama panggilan yang mudah
+Can I get a name for the order? | ken ai gét e neim fer dhi OOR-der? | Pesanan atas nama siapa? | Barista menulis nama di gelas. Kalau namamu panjang, sebut nama panggilan yang pendek dan mudah dieja
 Do you need a bag? | de yu niid e bèg? | Perlu kantong? | Kalau tidak perlu: "No, I'm good." g di akhir "bag" tetap bersuara: bèg, bukan bèk
 Can I get a receipt? | ken ai gét e ri-SIIT? | Boleh minta struk? | p pada "receipt" tidak dibaca: ri-SIIT
 Where can I find batteries? | wér ken ai faind BÈ-de-riz? | Baterai ada di mana? | Kalimat serbaguna untuk menanyakan letak barang
@@ -149,7 +149,7 @@ It's a bit tight. | its e bit tait | Agak sempit | Kalau longgar: "It's a bit lo
 Is this on sale? | iz dhis aan seil? | Ini sedang diskon? | "on sale" = sedang diskon; "for sale" = dijual. Mudah tertukar!
 Can you give me a discount? | ken yu giv mi e DIS-kaunt? | Bisa kurang harganya? | Di toko biasa di Amerika hampir tidak ada tawar-menawar, beda dengan pasar di Indonesia
 I'll take it. | ail teik it | Saya ambil yang ini | Kalau barangnya lebih dari satu: "I'll take them."
-Cash or card? | kèsy oor kaard? | Tunai atau kartu? | Pertanyaan wajib di kasir
+Cash or card? | kèsy er kaard? | Tunai atau kartu? | Pertanyaan wajib di kasir
 Do you take Apple Pay? | de yu teik È-pel pei? | Bisa bayar pakai Apple Pay? | "take" = menerima (cara pembayaran). Sama halnya: "Do you take QRIS?"
 Can I get a refund? | ken ai gét e RII-fand? | Bisa minta uang kembali? | Simpan struknya baik-baik
 I'd like to exchange this. | aid laik te iks-CEINJ dhis | Saya mau menukar ini | Sebutkan alasannya: "It's the wrong size."
@@ -158,7 +158,7 @@ Does that include tax? | dez dhèt in-KLUUD tèks? | Sudah termasuk pajak? | Di 
 `,
 "Angka, jam & tanggal": `
 What time is it? | wat taim iz it? | Jam berapa sekarang? | Ke orang yang tidak dikenal: "Excuse me, do you have the time?"
-It's three thirty. | its thrii THER-ti | Jam setengah empat | Awas: "setengah empat" = 3.30 = "three thirty". Jangan diterjemahkan jadi "half four"
+It's three thirty. | its thrii THER-ti | Jam setengah empat | Awas: "setengah empat" = 3.30 = "three thirty" atau "half past three". Jangan diterjemahkan jadi "half four": dalam bahasa Inggris Britania itu justru 4.30
 It's a quarter to five. | its e KWOOR-ter te faiv | Jam lima kurang seperempat | "quarter" = 15 menit. Bisa juga "four forty-five"
 At noon | et nuun | Pukul 12 siang | Tengah malam: "midnight". Lebih jelas daripada 12 a.m./p.m.
 What's the date today? | wats dhe deit te-DEI? | Hari ini tanggal berapa? | Untuk nama hari: "What day is it today?"
@@ -167,7 +167,7 @@ My birthday is in October. | mai BERTH-dei iz in aak-TOU-ber | Ulang tahun saya 
 On Monday | aan MAN-dei | Pada hari Senin | Sebelum nama hari pakai "on", bukan "in". Setiap Senin: "on Mondays"
 Next weekend | nékst WIIK-énd | Akhir pekan depan | Sebelum "next", "last", "this" tidak pakai preposisi
 The day after tomorrow | dhe dei ÈF-ter te-MAA-rou | Lusa | Kemarin lusa: "the day before yesterday"
-Thirteen or thirty? | ther-TIIN oor THER-ti? | Tiga belas atau tiga puluh? | 13 ditekan di belakang (-TIIN, panjang), 30 di depan. Selalu pastikan saat mendengar harga
+Thirteen or thirty? | ther-TIIN er THER-ti? | Tiga belas atau tiga puluh? | 13 ditekan di belakang (-TIIN, panjang), 30 di depan. Selalu pastikan saat mendengar harga
 Fifteen dollars | fif-TIIN DAA-lerz | Lima belas dolar | $15.50 dibaca "fifteen fifty". Rp15.000 dibaca "fifteen thousand rupiah"
 Two hundred and fifty | tuu HAN-dred en FIF-ti | Dua ratus lima puluh (250) | Di Amerika "and" sering dihilangkan: "two hundred fifty"
 Ten thousand | tén THAU-zend | Sepuluh ribu (10.000) | Dalam bahasa Inggris pemisah ribuan adalah koma (10,000) dan titik untuk desimal (2.5), kebalikan dari bahasa Indonesia
@@ -228,7 +228,7 @@ You have good taste. | yu hèv gud teist | Seleramu bagus | Memuji selera pakaia
 I really enjoyed spending time with you. | ai RII-li in-JOID SPÉN-ding taim widh yu | Saya senang sekali menghabiskan waktu bersamamu | Saat kencan atau pertemuan berakhir
 Do you want to grab coffee sometime? | de yu waant te grèb KOO-fi SAM-taim? | Kapan-kapan mau ngopi bareng? | "want to" sering terdengar seperti "WAA-ne". "grab" = makan atau minum dengan santai
 I miss you. | ai mis yu | Saya rindu kamu | Untuk orang yang sedang berjauhan, termasuk keluarga dan teman
-You mean a lot to me. | yu miin e laat te mii | Kamu sangat berarti buat saya | Untuk teman atau pasangan, saat ingin menyampaikan isi hati
+You mean a lot to me. | yu miin e laat te mi | Kamu sangat berarti buat saya | Untuk teman atau pasangan, saat ingin menyampaikan isi hati
 You're a lifesaver! | yer e LAIF-sei-ver! | Kamu penyelamatku! | Bahkan untuk bantuan kecil, diucapkan agak berlebihan sebagai terima kasih
 You made my day! | yu meid mai dei! | Hari saya jadi menyenangkan berkatmu! | Saat menerima kata-kata manis atau hadiah
 That's very kind of you. | dhèts VÉ-ri kaind ev yu | Baik sekali Anda | Ucapan sopan saat dibantu atau dipuji
@@ -279,7 +279,7 @@ Here's my passport. | hirz mai PÈS-poort | Ini paspor saya | Saat check-in atau
 I'm here for sightseeing. | aim hir fer SAIT-sii-ing | Saya datang untuk berwisata | Jawaban untuk pertanyaan imigrasi "What's the purpose of your visit?". Visa saat kedatangan = "visa on arrival"
 I'm staying for a week. | aim STEI-ing fer e wiik | Saya tinggal selama seminggu | Jawaban untuk "How long are you staying?"
 I'm staying at the Hilton. | aim STEI-ing et dhe HIL-ten | Saya menginap di Hotel Hilton | Jawaban untuk "Where are you staying?"
-Window or aisle? | WIN-dou oor ail? | Dekat jendela atau lorong? | s pada "aisle" tidak dibaca: ail
+Window or aisle? | WIN-dou er ail? | Dekat jendela atau lorong? | s pada "aisle" tidak dibaca: ail
 I'd like an aisle seat, please. | aid laik en ail siit, pliiz | Saya mau kursi dekat lorong | Dekat jendela: "a window seat". Saat berangkat dari Soekarno-Hatta (CGK) atau Ngurah Rai (DPS), petugas maskapai asing sering bertanya dalam bahasa Inggris
 Where is the baggage claim? | wér iz dhe BÈ-gij kleim? | Tempat pengambilan bagasi di mana? | Inggris: "baggage reclaim"
 My luggage is missing. | mai LA-gij iz MI-sing | Bagasi saya tidak ada | "luggage" tidak bisa dihitung: tanpa -s jamak. Satu koper = "a piece of luggage"
@@ -291,12 +291,12 @@ The air conditioner isn't working. | dhi ér ken-DI-sye-ner I-zent WER-king | AC
 Could I get some extra towels? | kud ai gét sem ÉK-stre TAU-elz? | Boleh minta handuk tambahan? | "Could I" terdengar hampir tersambung
 Can you hold my bags until 3? | ken yu hould mai bègz en-TIL thrii? | Bisa titip tas saya sampai jam 3? | Permintaan menitipkan barang setelah check-out. "hold" = menyimpan sementara. Di Amerika tamu biasanya memberi tip untuk porter dan petugas kamar
 My flight was delayed. | mai flait wez di-LEID | Penerbangan saya tertunda | Dibatalkan: "canceled"
-Where's gate 12? | wérz geit twélv? | Gerbang 12 di mana? | Dalam bahasa Inggris nomornya di belakang
+Where's gate 12? | wérz geit twélv? | Gerbang 12 di mana? | Nomor gerbang dibaca sebagai angka biasa: "gate twelve". Nomor kursi juga: "seat 14C" = "fourteen C"
 Do I need to take my laptop out? | de ai niid te teik mai LÈP-taap aut? | Laptopnya perlu dikeluarkan? | Di pemeriksaan keamanan bandara
 `,
 "Rumah sakit & darurat": `
 Help! | hélp! | Tolong! | Teriakkan keras-keras saat darurat
-Call 911! | kool nain wan wan! | Telepon 911! | Nomor darurat Amerika 911 (nain wan wan), Inggris 999. Di Indonesia 112
+Call 911! | kool nain wan wan! | Telepon 911! | Nomor darurat Amerika 911 (nain wan wan), Inggris 999. Di Indonesia: 112 (layanan darurat terpadu), 110 (polisi), 119 (ambulans)
 I need a doctor. | ai niid e DAAK-ter | Saya butuh dokter | Kalau gawat: "I need an ambulance."
 I don't feel well. | ai dount fiil wél | Saya merasa tidak enak badan | Ungkapan paling netral
 I have a headache. | ai hèv e HÉD-eik | Kepala saya sakit | Bagian tubuh + "ache": "stomachache", "toothache"
@@ -414,7 +414,7 @@ It's a must-watch. | its e MAST-waac | Wajib ditonton | Untuk rekomendasi yang k
 Plot twist! | plaat twist! | Ceritanya berbalik! | Juga dipakai saat ada kejadian tak terduga sehari-hari
 It's overrated. | its ou-ver-REI-did | Terlalu dibesar-besarkan | Kebalikannya: "underrated" (kurang dihargai)
 That scene gave me chills. | dhèt siin geiv mi cilz | Adegan itu bikin merinding | Saat merinding karena terharu atau tegang
-Who's your bias? | huuz yer BAI-es? | Anggota favoritmu siapa? | Istilah fandom K-pop yang juga akrab di Indonesia. Secara umum: "Who's your favorite member?"
+Who's your bias? | huuz yer BAI-es? | Anggota favoritmu siapa? | Istilah fandom untuk anggota grup musik favorit. Di luar fandom, katakan: "Who's your favorite member?"
 Are you kidding me? | er yu KI-ding mi? | Bercanda, ya? Yang benar saja! | Kalimat khas drama. Bisa kaget atau kesal
 I've got your back. | aiv gaat yer bèk | Aku selalu mendukungmu | Artinya siap melindungi dan membela
 Gotcha. | GAA-ce | Oke, paham / Kena kau! | Singkatan dari "got you". Paling sering berarti "paham"

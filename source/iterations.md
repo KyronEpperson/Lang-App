@@ -801,3 +801,21 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Cold review: 103 edits (36 IPA rows, 14 teaching fixes, 7 prompts, 23 interface values incl. the Practice tab shortened to "Luyện" after the sweep showed it overflowing, 8 roadmap titles). `tools/content/vi/REVIEW.md` has the top-ten for a native speaker.
 - Evidence: validate PASS, parity PASS, e2e OK on all 41 lessons, sweep 8 routes 0 issues, roadmap previews clean (two French/Italian tense names intentionally left as-is), site test PASS.
 - Also 2.11.1: the greeting animation no longer plays over the language picker (seen in the user's screenshot). The user's screenshot confirmed the live site is current.
+
+## Indonesian speakers → English (2.13.0)
+- Same pipeline. Profile `docs/profiles/id.md` (kamu register; respelling in Indonesian letters with CAPITAL stress, é/è, th/dh; standing rule artikel|jamak). 41 lessons (39 shared + `indo-english` + `time-markers`), 21 decks / 404 cards (new: Jebakan Inggris ala Indonesia, +11 pronunciation cards), interface 768 + 272 + 425 roadmap titles.
+- Cold review: 56 content edits (15 teaching fixes, 8 card notes, K-pop references removed, 11 prompts/answers, respelling conventions in `PRON-RULES.md`), 56 interface strings (Progress tab "Kemajuan" → "Progres" after the sweep showed it overflowing), 11 roadmap titles. `tools/content/id/REVIEW.md` has the top-ten for a native speaker.
+- Evidence: validate PASS, parity PASS, e2e OK on all 41 lessons, sweep 8 routes 0 issues, site test PASS.
+- Writers and the Vietnamese reviewer hit the 5-hour usage limit mid-run; all five were resumed from their saved state and finished.
+
+## Summary of this run (2.9.2 → 2.13.0)
+| Version | Change | Evidence |
+|---|---|---|
+| 2.9.2 | Rebrand to all-language wording, first logo | harness, screenshots |
+| 2.10.0 | Courses load on demand (index 1.93 MB → 0.73 MB) | site test on local server with production headers |
+| 2.10.1 | ja/es roadmap titles (425 each) and extra decks (ja 443, es 480 cards) | validate, parity, e2e, roadmap sweep |
+| 2.10.2 | Letter-tile logo, sync/loader hardening, ship gate on site test | site test 22/22 |
+| 2.11.0 | Chinese speakers → English | validate, parity, e2e 41/41, sweep, cold review |
+| 2.11.1 | Greeting no longer plays over the language picker | harness |
+| 2.12.0 | Vietnamese speakers → English | same as 2.11.0 |
+| 2.13.0 | Indonesian speakers → English | same as 2.11.0 |

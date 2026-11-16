@@ -45,11 +45,11 @@ module.exports = {
 
     { t: "type", p: "Saya punya satu ide.", a: ["I have an idea", "I've got an idea", "I have got an idea"], hint: "have · idea — artikel sebelum bunyi vokal", x: ["a"], why: "\"idea\" diawali bunyi vokal, jadi artikelnya \"an\"." },
     { t: "type", p: "Saya suka anjing. (anjing secara umum)", a: ["I like dogs", "I love dogs"], hint: "like · dog — hal umum, jadi jamak", x: ["dog", "a"], why: "Untuk hal yang umum, pakai bentuk jamak \"dogs\" tanpa artikel." },
-    { t: "type", p: "Ayo makan siang bersama.", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "let's · have · lunch — perlu artikel sebelum nama waktu makan?", x: ["a", "the"], why: "Di depan nama waktu makan tidak ada artikel." }
+    { t: "type", p: "Ayo makan siang.", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "let's · have · lunch — perlu artikel sebelum nama waktu makan?", x: ["a", "the"], why: "Di depan nama waktu makan tidak ada artikel." }
   ],
 
   be: [
-    { t: "mc", q: "'Saya capek.' dalam bahasa Inggris?", o: ["I'm tired.", "I tired.", "I do tired.", "I am tire."], why: "Untuk menyatakan keadaan, \"to be\" wajib ada, walaupun dalam bahasa Indonesia cukup ‘Saya capek’." },
+    { t: "mc", q: "'Saya capek.' dalam bahasa Inggris?", o: ["I'm tired.", "I tired.", "I do tired.", "I am tire."], why: "\"tired\" adalah kata sifat, jadi \"to be\" wajib ada, walaupun dalam bahasa Indonesia cukup ‘Saya capek’." },
     { t: "mc", q: "'Apakah dia (laki-laki) bisa berbahasa Inggris?' dalam bahasa Inggris?", o: ["Does he speak English?", "Do he speak English?", "Is he speak English?", "Does he speaks English?"], why: "Dengan \"he\", pakai \"does\". Setelah \"does\", kata kerjanya V1 tanpa -s." },
     { t: "mc", q: "'Dia (perempuan) sedang di kantor.' dalam bahasa Inggris?", o: ["She's at work.", "She at work.", "She does at work.", "She are at work."], why: "Untuk menyatakan tempat, pakai \"to be\"; dengan \"she\", pakai \"is\"." },
     { t: "mc", q: "Jawab 'ya' untuk \"Do you like coffee?\"", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "Pertanyaannya memakai \"do\", jadi jawab juga dengan \"do\"." },
@@ -60,8 +60,8 @@ module.exports = {
     { t: "order", p: "Dia (perempuan) punya dua ekor anjing.", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "Setelah \"she\", pakai \"has\"; karena dua, pakai -s jamak: \"dogs\"." },
 
     { t: "fill", q: "My brother __ in Seoul.", p: "Kakak laki-laki saya tinggal di Seoul.", a: ["lives"], o: ["live", "is live", "living"], why: "Subjeknya \"he\", jadi kata kerjanya ditambah -s: \"lives\"." },
-    { t: "fill", q: "__ you tired?", p: "Kamu capek?", a: ["Are"], o: ["Do", "Is", "Does"], why: "\"tired\" adalah keadaan, jadi bertanya dengan \"to be\". Dengan \"you\", pakai \"are\"." },
-    { t: "fill", q: "We __ hungry.", p: "Kami lapar.", a: ["are"], o: ["is", "am", "do"], why: "\"hungry\" adalah keadaan, jadi pakai \"to be\"; dengan \"we\", pakai \"are\"." },
+    { t: "fill", q: "__ you tired?", p: "Kamu capek?", a: ["Are"], o: ["Do", "Is", "Does"], why: "\"tired\" adalah kata sifat, jadi bertanya dengan \"to be\". Dengan \"you\", pakai \"are\"." },
+    { t: "fill", q: "We __ hungry.", p: "Kami lapar.", a: ["are"], o: ["is", "am", "do"], why: "\"hungry\" adalah kata sifat, jadi pakai \"to be\"; dengan \"we\", pakai \"are\"." },
 
     { t: "type", p: "Dia (laki-laki) guru.", a: ["He's a teacher", "He is a teacher"], hint: "teacher — to be + artikel sebelum pekerjaan", x: ["the"], why: "Menyebut identitas, jadi pakai \"to be\"; di depan pekerjaan, pakai artikel \"a\"." },
     { t: "type", p: "Saya tidak suka kopi.", a: ["I don't like coffee", "I do not like coffee"], hint: "don't · like · coffee — kalimat negatif kata kerja biasa", x: ["am"], why: "\"like\" adalah kata kerja biasa, jadi negatifnya \"don't\" (I'm not like ✗)." },
@@ -161,7 +161,7 @@ module.exports = {
 
     { t: "fill", q: "Can you turn it __?", p: "Bisa tolong matikan itu?", a: ["off"], o: ["of", "on", "out"], why: "Mematikan = \"turn off\". Jangan tertukar dengan ejaan \"of\"." },
     { t: "fill", q: "I work __ every morning.", p: "Saya berolahraga setiap pagi.", a: ["out"], o: ["up", "off", "on"], why: "\"work out\" = berolahraga." },
-    { t: "fill", q: "We ran out of __.", p: "Telur kami habis.", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "Benda yang bisa dihitung seperti telur memakai bentuk jamak \"eggs\" saat habis." },
+    { t: "fill", q: "We ran out of __.", p: "Telur kami habis.", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "Telur bisa dihitung, dan yang habis bukan satu butir, jadi pakai bentuk jamak \"eggs\"." },
 
     { t: "type", p: "Tolong matikan itu.", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — kata ganti di tengah", x: ["on"], why: "Kata ganti \"it\" berada di antara \"turn\" dan \"off\"." },
     { t: "type", p: "Saya merawat dua ekor kucing.", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — dua, jadi jamak", x: ["cat"], why: "\"look after\" = merawat. Dua ekor, jadi pakai -s jamak: \"cats\"." },
@@ -203,7 +203,7 @@ module.exports = {
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "Saya menulis email ini untuk menanyakan jadwal.", a: ["to"], o: ["for", "about", "at"], why: "Untuk menyatakan tujuan: \"I'm writing to\" + V1." },
     { t: "fill", q: "Thanks for all your hard __!", p: "Terima kasih atas kerja kerasnya!", a: ["work"], o: ["works", "working", "job"], why: "\"work\" (pekerjaan, usaha) di sini tidak bisa dihitung, jadi tanpa -s jamak." },
 
-    { t: "type", p: "Besok saya libur (tidak masuk kerja).", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow"], hint: "off · tomorrow — pakai to be + off", x: ["do"], why: "Untuk hari libur, pakai \"be off\"." },
+    { t: "type", p: "Besok saya libur (tidak masuk kerja; pakai \"off\").", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow"], hint: "off · tomorrow — pakai to be + off", x: ["do"], why: "Untuk hari libur, pakai \"be off\"." },
     { t: "type", p: "Berkasnya sudah saya lampirkan.", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — berkas yang itu", x: ["a"], why: "Berkas yang akan diterima lawan bicara, jadi artikelnya \"the\"." },
     { t: "type", p: "Selamat berakhir pekan!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — artikel untuk satu akhir pekan", x: ["the"], why: "Satu akhir pekan, jadi pakai artikel \"a\": \"a great weekend\"." }
   ],
@@ -224,7 +224,7 @@ module.exports = {
     { t: "fill", q: "I'm feeling under __ weather.", p: "Saya agak tidak enak badan.", a: ["the"], o: ["a", "an", "my"], why: "\"under the weather\": artikel \"the\" dipakai apa adanya." },
 
     { t: "type", p: "Gampang sekali.", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — jangan lupa artikel", x: ["the"], why: "\"a piece of cake\": artikel \"a\" wajib ada." },
-    { t: "type", p: "Semoga lancar, saya ikut berharap.", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — berapa jari?", x: ["finger"], why: "Dua jari disilangkan, jadi bentuk jamak \"fingers\"." },
+    { t: "type", p: "Semoga lancar, saya ikut berharap. (ungkapan menyilangkan jari)", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — berapa jari?", x: ["finger"], why: "Dua jari disilangkan, jadi bentuk jamak \"fingers\"." },
     { t: "type", p: "Cukup sampai di sini hari ini.", a: ["Let's call it a day"], hint: "call it · day — bukan the", x: ["the"], why: "\"call it a day\": artikelnya \"a\", bukan \"the\"." }
   ]
 };

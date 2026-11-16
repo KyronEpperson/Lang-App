@@ -87,7 +87,6 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | Nanti malam kamu datang ke pesta? / Sepertinya tidak. Badanku agak kurang enak.
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | Aku dengar kabar heboh soal Jen dan Mike. / Eh, apa? Ayo cerita!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | Serialnya sudah selesai kamu tonton? Akhirnya… / Jangan bocorkan! Aku baru episode 3.
-Who's your bias? | Who's your bias? | Definitely the main vocalist. What about you? | Anggota favoritmu siapa? / Jelas vokalis utamanya. Kalau kamu?
 `;
 
 exports.EXAMPLES = `

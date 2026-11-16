@@ -21,7 +21,7 @@
    "where": "html <small> text"
   },
   "Search everything": {
-   "t": "Cari di semua tempat",
+   "t": "Cari semuanya",
    "ko": "전체 검색",
    "kind": "label",
    "where": "html <button> @aria-label"
@@ -68,7 +68,7 @@
    "where": "html <a> text"
   },
   "Progress": {
-   "t": "Kemajuan",
+   "t": "Progres",
    "ko": "진도",
    "kind": "label",
    "context": "bottom-nav tab: stats screen",
@@ -89,7 +89,7 @@
    "where": "html <a> text"
   },
   "How do I say… (search all decks)": {
-   "t": "Bagaimana bilangnya… (cari di semua dek)",
+   "t": "Cara mengatakan… (cari di semua dek)",
    "ko": "이건 어떻게 말해요? (전체 덱 검색)",
    "kind": "sentence",
    "where": "html <input> @placeholder"
@@ -707,7 +707,7 @@
    "where": "html <button> text"
   },
   "Export = your whole progress as text. Use it to move between devices when account sync is off.": {
-   "t": "Ekspor = seluruh kemajuanmu dalam bentuk teks. Pakai untuk pindah perangkat saat sinkronisasi akun tidak aktif.",
+   "t": "Ekspor = seluruh progresmu dalam bentuk teks. Pakai untuk pindah perangkat saat sinkronisasi akun tidak aktif.",
    "ko": "내보내기 = 전체 진도를 텍스트로 저장해요. 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -815,7 +815,7 @@
    "where": "html <button> text"
   },
   "Erase all progress": {
-   "t": "Hapus semua kemajuan",
+   "t": "Hapus semua progres",
    "ko": "모든 진도 지우기",
    "kind": "label",
    "where": "js STR()"
@@ -845,7 +845,7 @@
    "where": "html <b> text"
   },
   "(browser storage): your progress, settings, nickname and custom phrases. Clearing site data or switching devices removes it unless you sign in.": {
-   "t": "(penyimpanan browser): kemajuan, pengaturan, nama panggilan, dan frasa buatanmu. Jika kamu menghapus data situs atau berganti perangkat, semuanya hilang, kecuali kamu masuk ke akun.",
+   "t": "(penyimpanan browser): progres, pengaturan, nama panggilan, dan frasa buatanmu. Jika kamu menghapus data situs atau berganti perangkat, semuanya hilang, kecuali kamu masuk ke akun.",
    "ko": "(브라우저 저장소): 진도, 설정, 닉네임, 직접 추가한 표현. 로그인하지 않으면 사이트 데이터를 지우거나 기기를 바꿀 때 사라져요.",
    "kind": "sentence",
    "where": "html text"
@@ -857,7 +857,7 @@
    "where": "html <b> text"
   },
   ": your email address and a copy of your progress, kept in our database (Supabase) so it syncs across devices. Only you can read your row.": {
-   "t": ": alamat email dan salinan kemajuanmu, disimpan di basis data kami (Supabase) agar tersinkron di semua perangkat. Hanya kamu yang bisa membaca datamu.",
+   "t": ": alamat email dan salinan progresmu, disimpan di basis data kami (Supabase) agar tersinkron di semua perangkat. Hanya kamu yang bisa membaca datamu.",
    "ko": ": 이메일 주소와 진도 사본을 데이터베이스(Supabase)에 보관해 여러 기기에서 동기화해요. 내 데이터는 나만 읽을 수 있어요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -910,7 +910,7 @@
    "where": "html <b> text"
   },
   ": if the app crashes, a short technical error message is recorded (no progress data, no email) so it can be fixed.": {
-   "t": ": jika aplikasi mogok, pesan kesalahan teknis singkat dicatat (tanpa data kemajuan, tanpa email) agar bisa diperbaiki.",
+   "t": ": jika aplikasi mogok, pesan kesalahan teknis singkat dicatat (tanpa data progres, tanpa email) agar bisa diperbaiki.",
    "ko": ": 앱에 오류가 나면 고칠 수 있도록 짧은 기술 오류 메시지만 기록해요(진도 데이터나 이메일은 포함하지 않아요).",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -929,7 +929,7 @@
    "where": "html <b> text"
   },
   ": Progress → Backup → Share file or Copy export; Import on any device.": {
-   "t": ": Kemajuan → Cadangan → Bagikan file atau Salin ekspor; lalu Impor di perangkat mana pun.",
+   "t": ": Progres → Cadangan → Bagikan file atau Salin ekspor; lalu Impor di perangkat mana pun.",
    "ko": ": 진도 → 백업 → 파일 공유 또는 내보내기 복사, 다른 기기에서 가져오기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -942,7 +942,7 @@
    "where": "html <b> text"
   },
   ": choose \"remove my progress from this device\".": {
-   "t": ": pilih \"hapus kemajuanku dari perangkat ini\".",
+   "t": ": pilih \"hapus progresku dari perangkat ini\".",
    "ko": ": \"이 기기에서 내 진도 지우기\"를 선택하세요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -955,7 +955,7 @@
    "where": "html <b> text"
   },
   ": Progress → Account → Delete my account. Removes your account and synced progress permanently; your feedback posts stay but are unlinked from you.": {
-   "t": ": Kemajuan → Akun → Hapus akunku. Akun dan kemajuan yang tersinkron akan terhapus permanen; masukan yang pernah kamu kirim tetap ada, tetapi tidak lagi terhubung denganmu.",
+   "t": ": Progres → Akun → Hapus akunku. Akun dan progres yang tersinkron akan terhapus permanen; masukan yang pernah kamu kirim tetap ada, tetapi tidak lagi terhubung denganmu.",
    "ko": ": 진도 → 계정 → 계정 삭제. 계정과 동기화된 진도가 영구 삭제돼요. 피드백 글은 남지만 내 계정과의 연결은 끊어져요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1013,7 +1013,7 @@
    "where": "html <p> text"
   },
   "Type": {
-   "t": "Jenis",
+   "t": "Ketik",
    "ko": "입력",
    "kind": "label",
    "context": "feedback form: category radio-group label (\"kind of feedback\"), not the verb",
@@ -1271,7 +1271,7 @@
    "where": "js j()"
   },
   "Browser storage is full or blocked — progress may not persist here": {
-   "t": "Penyimpanan browser penuh atau diblokir — kemajuan mungkin tidak tersimpan di sini",
+   "t": "Penyimpanan browser penuh atau diblokir — progres mungkin tidak tersimpan di sini",
    "ko": "브라우저 저장 공간이 가득 찼거나 막혀 있어요 — 여기서는 진도가 저장되지 않을 수 있어요",
    "kind": "sentence",
    "where": "js flushSave()"
@@ -1370,7 +1370,7 @@
    "where": "js code()"
   },
   "Signed in — progress syncing": {
-   "t": "Sudah masuk — kemajuan sedang disinkronkan",
+   "t": "Sudah masuk — progres sedang disinkronkan",
    "ko": "로그인했어요 — 진도를 동기화하는 중",
    "kind": "sentence",
    "where": "js code()"
@@ -1421,14 +1421,14 @@
    "where": "js d()"
   },
   "· progress is lost if site data is cleared": {
-   "t": "· kemajuan hilang jika data situs dihapus",
+   "t": "· progres hilang jika data situs dihapus",
    "ko": "· 사이트 데이터를 지우면 진도가 사라져요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "js d() <span>"
   },
   "Your progress is safe in your account either way.": {
-   "t": "Apa pun pilihanmu, kemajuanmu tetap aman di akunmu.",
+   "t": "Apa pun pilihanmu, progresmu tetap aman di akunmu.",
    "ko": "어느 쪽을 골라도 진도는 계정에 안전하게 남아요.",
    "kind": "sentence",
    "where": "js sh() <p>"
@@ -1440,7 +1440,7 @@
    "where": "js sh() <button>"
   },
   "Sign out · remove my progress from this device": {
-   "t": "Keluar · hapus kemajuanku dari perangkat ini",
+   "t": "Keluar · hapus progresku dari perangkat ini",
    "ko": "로그아웃 · 이 기기에서 내 진도 지우기",
    "kind": "sentence",
    "where": "js sh() <button>"
@@ -1476,7 +1476,7 @@
    "where": "js sh() <h3>"
   },
   "Enter your email and we'll send a sign-in link and a 6-digit code. No password. Your progress merges with what's already on this device.": {
-   "t": "Masukkan emailmu, lalu kami kirim tautan masuk dan kode 6 digit. Tanpa kata sandi. Kemajuanmu akan digabung dengan data yang sudah ada di perangkat ini.",
+   "t": "Masukkan emailmu, lalu kami kirim tautan masuk dan kode 6 digit. Tanpa kata sandi. Progresmu akan digabung dengan data yang sudah ada di perangkat ini.",
    "ko": "이메일을 입력하면 로그인 링크와 6자리 코드를 보내 드려요. 비밀번호는 필요 없어요. 진도는 이 기기에 있는 기록과 합쳐져요.",
    "kind": "sentence",
    "where": "js sh() <p>"
@@ -1525,7 +1525,7 @@
    "where": "js w()"
   },
   "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": {
-   "t": "Kartu dengan audio, kuis, dan sesi harian 5 menit. Sebelum mulai — bagaimana kemajuanmu sebaiknya disimpan?",
+   "t": "Kartu dengan audio, kuis, dan sesi harian 5 menit. Sebelum mulai — bagaimana progresmu sebaiknya disimpan?",
    "ko": "소리 나는 플래시카드, 퀴즈, 하루 5분 학습. 시작하기 전에 — 진도를 어떻게 저장할까요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -1538,7 +1538,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "We email you a sign-in link + 6-digit code. No password. Your progress follows you to any phone or laptop.": {
-   "t": "Kami kirim tautan masuk + kode 6 digit ke emailmu. Tanpa kata sandi. Kemajuanmu ikut ke HP atau laptop mana pun.",
+   "t": "Kami kirim tautan masuk + kode 6 digit ke emailmu. Tanpa kata sandi. Progresmu ikut ke HP atau laptop mana pun.",
    "ko": "로그인 링크와 6자리 코드를 이메일로 보내 드려요. 비밀번호는 필요 없어요. 어떤 폰이나 노트북에서도 진도가 이어져요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1556,13 +1556,13 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Progress lives in this browser and is lost if you clear site data, switch devices, or the browser evicts storage.": {
-   "t": "Kemajuan tersimpan di browser ini dan akan hilang jika kamu menghapus data situs, berganti perangkat, atau browser mengosongkan penyimpanannya.",
+   "t": "Progres tersimpan di browser ini dan akan hilang jika kamu menghapus data situs, berganti perangkat, atau browser mengosongkan penyimpanannya.",
    "ko": "진도는 이 브라우저에만 저장돼요. 사이트 데이터를 지우거나, 기기를 바꾸거나, 브라우저가 저장 공간을 비우면 사라져요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "You can add an email later in Progress.": {
-   "t": "Kamu bisa menambahkan email nanti di Kemajuan.",
+   "t": "Kamu bisa menambahkan email nanti di Progres.",
    "ko": "이메일은 나중에 진도 탭에서 추가할 수 있어요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1605,7 +1605,7 @@
    "where": "js step3() <button>"
   },
   "Saved in this browser only. Clearing site data or switching devices loses progress — add an email any time in Progress to keep it safe.": {
-   "t": "Hanya tersimpan di browser ini. Kemajuan hilang jika kamu menghapus data situs atau berganti perangkat — tambahkan email kapan saja di Kemajuan agar tetap aman.",
+   "t": "Hanya tersimpan di browser ini. Progres hilang jika kamu menghapus data situs atau berganti perangkat — tambahkan email kapan saja di Progres agar tetap aman.",
    "ko": "이 브라우저에만 저장돼요. 사이트 데이터를 지우거나 기기를 바꾸면 진도가 사라져요 — 안전하게 지키려면 언제든 진도 탭에서 이메일을 추가하세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1806,7 +1806,7 @@
    "where": "js k()"
   },
   "Suspended. Restore it from Progress.": {
-   "t": "Ditangguhkan. Pulihkan dari Kemajuan.",
+   "t": "Ditangguhkan. Pulihkan dari Progres.",
    "ko": "보류했어요. 진도 탭에서 되돌릴 수 있어요.",
    "kind": "sentence",
    "where": "js k()"
@@ -1916,7 +1916,7 @@
    "where": "js ov()"
   },
   "🩹 Marked as a leech and parked from sessions. Manage it in Progress.": {
-   "t": "🩹 Ditandai sebagai kartu macet dan dikeluarkan dulu dari sesi. Kelola di Kemajuan.",
+   "t": "🩹 Ditandai sebagai kartu macet dan dikeluarkan dulu dari sesi. Kelola di Progres.",
    "ko": "🩹 거머리 카드로 표시하고 학습에서 잠시 뺐어요. 진도 탭에서 관리할 수 있어요.",
    "kind": "sentence",
    "where": "js s()"
@@ -2919,7 +2919,7 @@
    "where": "js a()"
   },
   "Added. It will show up in Review today.": {
-   "t": "Ditambahkan. Kartu ini akan muncul di Ulang hari ini.",
+   "t": "Ditambahkan. Kartu ini akan muncul di tab Ulang hari ini.",
    "ko": "추가했어요. 오늘 복습에 나올 거예요.",
    "kind": "sentence",
    "where": "js c()"
@@ -3155,19 +3155,19 @@
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "Perjalanan ke luar negeri",
+   "t": "Persiapan ke luar negeri",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Make friends & date": {
-   "t": "Cari teman & kencan",
+   "t": "Berteman dengan orang asing",
    "ko": "친구 사귀기 & 데이트",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Conversational in 90 days": {
-   "t": "Lancar bercakap dalam 90 hari",
+   "t": "Lancar bicara dalam 90 hari",
    "ko": "90일 만에 회화하기",
    "kind": "label",
    "where": "js ids()"
@@ -3253,7 +3253,7 @@
    "where": "js GOALS()"
   },
   "Dating, friends & nights out": {
-   "t": "Kencan, teman & hiburan malam",
+   "t": "Kencan, teman & nongkrong",
    "ko": "데이트, 친구 & 밤 문화",
    "kind": "sentence",
    "where": "js GOALS()"
@@ -3374,7 +3374,7 @@
    "where": "js ENGINE_I18N()"
   },
   "Settings · Progress": {
-   "t": "Pengaturan · Kemajuan",
+   "t": "Pengaturan · Progres",
    "ko": "설정 · 진도",
    "kind": "label",
    "where": "js at()"
@@ -4047,14 +4047,14 @@
    "where": "js (top level)"
   },
   "Pro": {
-   "t": "Jago",
+   "t": "Profesional",
    "ko": "고수",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <a> text"
   },
   "Master": {
-   "t": "Ahli",
+   "t": "Pakar",
    "ko": "달인",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4075,7 +4075,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Talker": {
-   "t": "Pembicara",
+   "t": "Jago ngobrol",
    "ko": "수다쟁이",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4124,7 +4124,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Korean progress": {
-   "t": "Kemajuan bahasa Inggris",
+   "t": "Progres bahasa Inggris",
    "ko": "영어 학습 진도",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -4512,13 +4512,13 @@
    "where": "js stats()"
   },
   "Export = this course's progress as text (other courses are exported separately). Use it to move between devices when account sync is off.": {
-   "t": "Ekspor = kemajuan kursus ini dalam bentuk teks (kursus lain diekspor terpisah). Pakai untuk pindah perangkat saat sinkronisasi akun tidak aktif.",
+   "t": "Ekspor = progres kursus ini dalam bentuk teks (kursus lain diekspor terpisah). Pakai untuk pindah perangkat saat sinkronisasi akun tidak aktif.",
    "ko": "내보내기 = 이 코스의 진도를 텍스트로 저장해요 (다른 코스는 따로 내보내요). 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "Erase this course's progress": {
-   "t": "Hapus kemajuan kursus ini",
+   "t": "Hapus progres kursus ini",
    "ko": "이 코스 진도 지우기",
    "kind": "label",
    "where": "html <button> text"
@@ -4536,7 +4536,7 @@
    "where": "js r()"
   },
   "This course's progress was erased. Other courses are untouched.": {
-   "t": "Kemajuan kursus ini sudah dihapus. Kursus lain tidak berubah.",
+   "t": "Progres kursus ini sudah dihapus. Kursus lain tidak berubah.",
    "ko": "이 코스의 진도를 지웠어요. 다른 코스는 그대로예요.",
    "kind": "sentence",
    "where": "js g()"
@@ -5022,7 +5022,7 @@
    ]
   },
   "How should we save your progress?": {
-   "t": "Bagaimana kemajuanmu sebaiknya disimpan?",
+   "t": "Bagaimana progresmu sebaiknya disimpan?",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1 second line",
@@ -5072,7 +5072,7 @@
    ]
   },
   "This device only — lost if browser data is cleared. Add an email later in Progress.": {
-   "t": "Hanya perangkat ini — hilang jika data browser dihapus. Tambahkan email nanti di Kemajuan.",
+   "t": "Hanya perangkat ini — hilang jika data browser dihapus. Tambahkan email nanti di Progres.",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 3 warning line",
@@ -6273,7 +6273,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged. {n} cards of progress were new.": {
-   "t": "Digabung. Ada kemajuan baru untuk {1} kartu.",
+   "t": "Digabung. Ada progres baru untuk {1} kartu.",
    "ko": "합쳤어요. 카드 {1}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=n",
    "example": "Merged. 5 cards of progress were new.",
@@ -6286,13 +6286,13 @@
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
   },
   "This permanently deletes your account ({s}) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "Ini akan menghapus akunmu ({1}) dan kemajuan yang tersinkron secara permanen. Tindakan ini tidak bisa dibatalkan. Masukan yang pernah kamu kirim tetap ada, tetapi tidak lagi terhubung denganmu. Ketik",
+   "t": "Ini akan menghapus akunmu ({1}) dan progres yang tersinkron secara permanen. Tindakan ini tidak bisa dibatalkan. Masukan yang pernah kamu kirim tetap ada, tetapi tidak lagi terhubung denganmu. Ketik",
    "ko": "계정({1})과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "{1}=s",
    "example": "This permanently deletes your account (Greetings) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
   },
   "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "Ini akan menghapus akunmu dan kemajuan yang tersinkron secara permanen. Tindakan ini tidak bisa dibatalkan. Masukan yang pernah kamu kirim tetap ada, tetapi tidak lagi terhubung denganmu. Ketik",
+   "t": "Ini akan menghapus akunmu dan progres yang tersinkron secara permanen. Tindakan ini tidak bisa dibatalkan. Masukan yang pernah kamu kirim tetap ada, tetapi tidak lagi terhubung denganmu. Ketik",
    "ko": "계정과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "",
    "example": "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
@@ -6727,13 +6727,13 @@
    "example": "5/2 · Read"
   },
   "Progress · quick actions": {
-   "t": "Kemajuan · aksi cepat",
+   "t": "Progres · aksi cepat",
    "ko": "진도 · 빠른 실행",
    "slots": "",
    "example": "Progress · quick actions"
   },
   "{n}/{n} · Progress": {
-   "t": "{1}/{2} · Kemajuan",
+   "t": "{1}/{2} · Progres",
    "ko": "{1}/{2} · 진도",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Progress"
@@ -6863,55 +6863,55 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged into {x}. {n} cards of progress were new.": {
-   "t": "Digabung ke {1}. Ada kemajuan baru untuk {2} kartu.",
+   "t": "Digabung ke kursus bahasa {1}. Ada progres baru untuk {2} kartu.",
    "ko": "{1} 코스에 합쳤어요. 카드 {2}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=x, {2}=n",
    "example": "Merged into Hello there. 5 cards of progress were new.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} progress": {
-   "t": "Kemajuan {1}",
+   "t": "Progres bahasa {1}",
    "ko": "{1} 진도",
    "slots": "{1}=x",
    "example": "Hello there progress"
   },
   "Now learning {x} · progress saved per course": {
-   "t": "Sekarang belajar {1} · kemajuan disimpan per kursus",
+   "t": "Sekarang belajar bahasa {1} · progres disimpan per kursus",
    "ko": null,
    "slots": "{1}=x",
    "example": "Now learning 英語 · progress saved per course",
    "context": "{0} = target language name in the UI language (英語) — Course switched toast (LL)"
   },
   "How much {x} do you know?": {
-   "t": "Seberapa jauh kamu menguasai {1}?",
+   "t": "Seberapa jauh kamu menguasai bahasa {1}?",
    "ko": null,
    "slots": "{1}=x",
    "example": "How much 英語 do you know?",
    "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   "What do you want {x} for?": {
-   "t": "Untuk apa kamu belajar {1}?",
+   "t": "Untuk apa kamu belajar bahasa {1}?",
    "ko": null,
    "slots": "{1}=x",
    "example": "What do you want 英語 for?",
    "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   "type it in {x}": {
-   "t": "ketik dalam {1}",
+   "t": "ketik dalam bahasa {1}",
    "ko": null,
    "slots": "{1}=x",
    "example": "type it in 英語",
    "context": "{0} = target language name in the UI language — Type drill / typed quiz instruction (LL)"
   },
   "Type in {x}…": {
-   "t": "Ketik dalam {1}…",
+   "t": "Ketik dalam bahasa {1}…",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type in 英語…",
    "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)"
   },
   "Type the {x}, or tap Check again to give up.": {
-   "t": "Ketik jawabannya dalam {1}, atau ketuk Periksa sekali lagi untuk menyerah.",
+   "t": "Ketik jawabannya dalam bahasa {1}, atau ketuk Periksa sekali lagi untuk menyerah.",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type the 英語, or tap Check again to give up.",
@@ -6946,21 +6946,21 @@
    "context": "{0} = item count (≥ 12 in shipped packs) — Lesson practice entry, before any run (LL)"
   },
   "No {x} keyboard? Use tiles": {
-   "t": "Tidak ada keyboard {1}? Pakai susun kata",
+   "t": "Tidak ada keyboard bahasa {1}? Pakai susun kata",
    "ko": null,
    "slots": "{1}=x",
    "example": "No 英語 keyboard? Use tiles",
    "context": "{0} = target language name in the UI language — Practice runner: tiles toggle (LL)"
   },
   "Learning {x} 5 minutes a day with Lang App {x}": {
-   "t": "Belajar {1} 5 menit sehari dengan Lang App {2}",
+   "t": "Belajar bahasa {1} 5 menit sehari dengan Lang App {2}",
    "ko": null,
    "slots": "{1}=x, {2}=x",
    "example": "Learning 英語 5 minutes a day with Lang App 🇺🇸",
    "context": "{0} = target language name in the UI language; {1} = flag emoji — Share sheet text (LL)"
   },
   "Learn {x}, 5 minutes a day": {
-   "t": "Belajar {1}, 5 menit sehari",
+   "t": "Belajar bahasa {1}, 5 menit sehari",
    "ko": null,
    "slots": "{1}=x",
    "example": "Learn 英語, 5 minutes a day",

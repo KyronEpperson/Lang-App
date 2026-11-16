@@ -1,10 +1,10 @@
 /* id-en: the original 11 lessons and their checks, written for Indonesian speakers (docs/profiles/id.md §8).
    English check options and answer positions follow ko-en; lesson-body example rows are localised (profile §9). */
 exports.LESSONS = [
-{ id:"pron", title:"1 · Jebakan pelafalan: TH, V/F, bunyi akhir, tekanan", blurb:"Bunyi bahasa Inggris yang paling sering kita baca ala Indonesia, plus cara membaca panduan cara baca di kartu.", deck:"Awas pelafalan", body:`
+{ id:"pron", title:"1 · Jebakan pelafalan: TH, V/F, bunyi akhir, tekanan", blurb:"Bunyi bahasa Inggris yang paling sering kita baca ala Indonesia, plus cara memakai panduan cara baca di kartu.", deck:"Awas pelafalan", body:`
 <p>Bahasa Indonesia ditulis hampir persis seperti diucapkan, jadi wajar kalau kita membaca kata Inggris dengan bunyi huruf Indonesia. Masalahnya, bahasa Inggris membedakan beberapa bunyi yang bagi telinga kita terdengar sama. Kuncinya ada di <b>posisi lidah, gigi, dan bibir</b>. Berlatihlah di depan cermin.</p>
-<h3>Cara membaca panduan cara baca</h3>
-<div class="tbl"><table><tr><th>Kamu lihat</th><th>Artinya</th><th>Contoh</th></tr><tr><td class="k">HURUF KAPITAL</td><td>suku kata yang ditekan</td><td>hotel → hou-TÉL</td></tr><tr><td class="k">ii / i</td><td>i panjang / i pendek dan santai</td><td>sheep → syiip, ship → syip</td></tr><tr><td class="k">uu / u</td><td>u panjang / u pendek</td><td>food → fuud, book → buk</td></tr><tr><td class="k">é / è</td><td>e seperti pada <i>enak</i> / mulut dibuka lebih lebar, hampir a</td><td>bed → béd, bad → bèd</td></tr><tr><td class="k">e</td><td>e lemah dan pendek seperti pada <i>emas</i></td><td>about → e-BAUT</td></tr><tr><td class="k">aa / oo</td><td>a panjang dan terbuka / o terbuka</td><td>hot → haat, talk → took</td></tr><tr><td class="k">th / dh</td><td>lidah di antara gigi, tanpa suara / bersuara</td><td>think → thingk, this → dhis</td></tr><tr><td class="k">sy, c, j, ng</td><td>dibaca seperti pada <i>syarat</i>, <i>cari</i>, <i>jalan</i>, <i>bangku</i></td><td>she → syi, check → cék</td></tr></table></div>
+<h3>Cara memakai panduan cara baca</h3>
+<div class="tbl"><table><tr><th>Kamu lihat</th><th>Artinya</th><th>Contoh</th></tr><tr><td class="k">HURUF KAPITAL</td><td>suku kata yang ditekan</td><td>hotel → hou-TÉL</td></tr><tr><td class="k">ii / i</td><td>i panjang / i pendek dan santai</td><td>sheep → syiip, ship → syip</td></tr><tr><td class="k">uu / u</td><td>u panjang / u pendek</td><td>food → fuud, book → buk</td></tr><tr><td class="k">é / è</td><td>e seperti pada <i>meja</i> / mulut dibuka lebih lebar, hampir a</td><td>bed → béd, bad → bèd</td></tr><tr><td class="k">e</td><td>e lemah dan pendek seperti pada <i>emas</i></td><td>about → e-BAUT</td></tr><tr><td class="k">aa / oo</td><td>a panjang dan terbuka / o terbuka</td><td>hot → haat, talk → took</td></tr><tr><td class="k">th / dh</td><td>lidah di antara gigi, tanpa suara / bersuara</td><td>think → thingk, this → dhis</td></tr><tr><td class="k">sy, c, j, ng</td><td>dibaca seperti pada <i>syarat</i>, <i>cari</i>, <i>jalan</i>, <i>bangku</i></td><td>she → syi, check → cék</td></tr></table></div>
 <h3>TH: lidah di antara gigi</h3>
 <p>Bahasa Indonesia tidak punya bunyi TH, jadi kita sering menggantinya dengan t atau d: <b>think</b> jadi "tink", <b>they</b> jadi "dei". Julurkan ujung lidah sedikit di antara gigi atas dan bawah, lalu embuskan udara. Tanpa getaran pita suara, itu <b>th</b> (<b>think</b>); dengan getaran, itu <b>dh</b> (<b>this</b>). Kalau diganti t atau s, yang terdengar kata lain: <b>three</b> jadi <b>tree</b>, <b>think</b> jadi <b>sink</b>. Catatan: dalam ejaan Latin bahasa Jawa, th dan dh dibaca seperti t dan d. Di sini th dan dh <b>bukan</b> t dan d, lidahnya harus terlihat di antara gigi.</p>
 {{ex:think|thingk|berpikir}}{{ex:three / tree|thrii / trii|tiga / pohon}}{{ex:this|dhis|ini}}
@@ -20,7 +20,7 @@ exports.LESSONS = [
 <p>Dalam bahasa Indonesia, <i>sebab</i> dibaca "sebap" dan k di akhir <i>anak</i> hampir tidak terdengar. Dalam bahasa Inggris, konsonan akhir bisa mengubah arti: <b>b, d, g, v, z tetap bersuara</b>, dan k diucapkan penuh. Gugus konsonan di akhir kata juga jangan dipotong: <b>task</b> bukan "tas", <b>English</b> bukan "Inggris".</p>
 {{ex:bag / back|bèg / bèk|tas / punggung}}{{ex:dogs / docks|doogz / daaks|anjing (lebih dari satu) / dermaga}}{{ex:task|tèsk|tugas}}{{ex:English|ING-glisy|bahasa Inggris}}
 <h3>Vokal panjang dan pendek, é dan è</h3>
-<p>Bahasa Indonesia hanya punya satu i dan satu u. Bahasa Inggris punya dua: <b>ii</b> yang panjang dan tegang (<b>sheep</b>) dan <b>i</b> yang pendek dan santai (<b>ship</b>). Begitu juga é dan è: <b>bed</b> (é, seperti <i>enak</i>) dan <b>bad</b> (è, buka mulut lebih lebar daripada é).</p>
+<p>Bahasa Indonesia hanya punya satu i dan satu u. Bahasa Inggris punya dua: <b>ii</b> yang panjang dan tegang (<b>sheep</b>) dan <b>i</b> yang pendek dan santai (<b>ship</b>). Begitu juga é dan è: <b>bed</b> (é, seperti <i>meja</i>) dan <b>bad</b> (è, buka mulut lebih lebar daripada é).</p>
 {{ex:ship / sheep|syip / syiip|kapal / domba}}{{ex:bed / bad|béd / bèd|tempat tidur / buruk}}
 <h3>Tekanan kata</h3>
 <p>Bahasa Indonesia menekan suku kata dengan cukup rata. Bahasa Inggris mengucapkan satu suku kata <b>lebih keras, lebih panjang, dan lebih tinggi</b>, sementara suku kata lain melemah menjadi e pendek. Pelafalan yang benar dengan tekanan yang salah sering tidak dimengerti.</p>
@@ -43,9 +43,9 @@ exports.LESSONS = [
 <div class="tip">Kesalahan nomor satu: <b>I'm teacher.</b> ✗ → <b>I'm a teacher.</b> ✓ Jangan pernah lupa a di depan pekerjaan!</div>`},
 
 { id:"be", title:"3 · To be dan kata kerja biasa", blurb:"am/is/are dan do/does: jangan dihilangkan, jangan dicampur.", deck:"Perkenalan diri", body:`
-<p>Dalam bahasa Indonesia, kalimat seperti <i>Saya lapar</i> atau <i>Dia guru</i> tidak butuh kata kerja. Dalam bahasa Inggris, setiap kalimat <b>wajib punya kata kerja</b>. Kalau tidak ada tindakan, kata kerjanya adalah <b>to be</b> (am, is, are). Jenis kata kerja ini juga menentukan cara membuat kalimat negatif dan kalimat tanya.</p>
+<p>Dalam bahasa Indonesia, kalimat seperti <i>Saya lapar</i> atau <i>Dia guru</i> tidak butuh kata kerja. Dalam bahasa Inggris, setiap kalimat <b>wajib punya kata kerja</b>. Kalau tidak ada kata kerja lain, yang mengisinya adalah <b>to be</b> (am, is, are). Jenis kata kerja ini juga menentukan cara membuat kalimat negatif dan kalimat tanya.</p>
 <h3>Dua jenis kata kerja</h3>
-<div class="tbl"><table><tr><th></th><th>to be</th><th>kata kerja biasa</th></tr><tr><td>Arti</td><td>adalah, berada di, dalam keadaan</td><td>tindakan, kebiasaan (makan, tinggal, suka)</td></tr><tr><td>Contoh</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>Negatif</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>Tanya</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>to be</th><th>kata kerja biasa</th></tr><tr><td>Arti</td><td>adalah, berada di, dalam keadaan</td><td>semua kata kerja lain (makan, tinggal, suka, mau)</td></tr><tr><td>Contoh</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>Negatif</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>Tanya</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
 <p>Bentuk <b>to be</b> mengikuti subjek: <b>I am</b> / <b>you, we, they are</b> / <b>he, she, it is</b>. Dalam percakapan hampir selalu disingkat: I'm, you're, she's.</p>
 {{ex:I'm hungry.|aim HANG-gri|Saya lapar.}}{{ex:She's at work.|syiz et werk|Dia (perempuan) sedang di kantor.}}{{ex:Are you okay?|er yu ou-KEI?|Kamu baik-baik saja?}}
 <h3>Jangan dihilangkan, jangan ditambahkan</h3>
@@ -54,7 +54,7 @@ exports.LESSONS = [
 <h3>he, she, it: tambahkan -s</h3>
 <p>Kata <i>dia</i> bisa berarti <b>he</b> (laki-laki) atau <b>she</b> (perempuan), jadi pilih sesuai orangnya. Kalau subjeknya <b>he</b>, <b>she</b> atau <b>it</b>, kata kerja biasa dalam <i>Simple Present Tense</i> ditambah <b>-s</b>, sedangkan kalimat negatif dan kalimat tanya memakai <b>does</b>. Setelah does, -s pada kata kerja hilang.</p>
 {{ex:My brother works in Jakarta.|mai BRA-dher werks in je-KAAR-te|Kakak laki-laki saya bekerja di Jakarta.}}{{ex:Does he speak English?|dez hi spiik ING-glisy?|Apakah dia (laki-laki) bisa berbahasa Inggris?}}{{ex:She doesn't eat meat.|syi DA-zent iit miit|Dia (perempuan) tidak makan daging.}}
-<div class="tip">Kalau bingung, tanyakan: "Apakah kalimat ini punya <b>tindakan</b>?" Kalau ya, pakai do/does. Kalau tidak (keadaan, identitas, tempat), pakai <b>to be</b>.</div>`},
+<div class="tip">Kalau bingung, tanyakan: "Selain to be, apakah kalimat ini punya kata kerja lain (<b>like</b>, <b>live</b>, <b>work</b>, <b>want</b>…)?" Kalau ada, kalimat negatif dan kalimat tanyanya pakai do/does. Kalau tidak ada (subjek langsung diikuti kata sifat, kata benda, atau tempat), pakai <b>to be</b>.</div>`},
 
 { id:"polite", title:"4 · Meminta dengan sopan", blurb:"Can you → Could you → Would you mind. Kata please saja belum cukup!", deck:"Ungkapan penting 1", body:`
 <p>Bahasa Indonesia punya <i>Anda</i>, <i>Bapak</i>, <i>Ibu</i>, dan kata <i>tolong</i>. Bahasa Inggris hanya punya satu <b>you</b>, jadi kesopanan ditunjukkan lewat <b>bentuk kalimat permintaan</b>. Menerjemahkan <i>Tolong ambilkan…</i> menjadi <b>Please give me…</b> masih terdengar seperti perintah. Ubah permintaanmu menjadi pertanyaan.</p>
@@ -120,7 +120,7 @@ exports.LESSONS = [
 {{ex:Well, I should get going.|wél, ai syud gét GOU-ing|Ya sudah, saya pamit dulu.}}{{ex:It was nice talking to you.|it wez nais TOO-king te yu|Senang mengobrol denganmu.}}
 <div class="tip">Untuk menyetujui kalimat negatif, pakai <b>Me neither</b>. "I don't like horror movies." → "Me neither." (Me too ✗). Dalam bahasa Inggris Amerika lisan kadang terdengar Me either, tetapi Me neither yang baku.</div>`},
 
-{ id:"phrasal", title:"8 · Pengantar phrasal verb", blurb:"Kata kerja + kata kecil = arti baru. Separuh percakapan penutur asli isinya ini.", deck:"Phrasal verb", body:`
+{ id:"phrasal", title:"8 · Pengantar phrasal verb", blurb:"Kata kerja + kata kecil = arti baru. Penutur asli memakainya di hampir setiap percakapan.", deck:"Phrasal verb", body:`
 <p><i>Phrasal verb</i> adalah <b>kata kerja + kata kecil seperti up, out, off, on</b> yang bersama-sama membentuk arti baru. Dalam percakapan sehari-hari, bentuk ini jauh lebih sering terdengar daripada kata buku pelajaran seperti postpone atau discover.</p>
 <div class="tbl"><table><tr><th>Kata formal</th><th>Phrasal verb (sehari-hari)</th><th>Arti</th></tr><tr><td>postpone</td><td class="k">put off</td><td>menunda</td></tr><tr><td>discover</td><td class="k">find out</td><td>mengetahui</td></tr><tr><td>exercise</td><td class="k">work out</td><td>berolahraga</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>tahan menghadapi</td></tr></table></div>
 <h3>Kata kecilnya memberi petunjuk</h3>
@@ -227,7 +227,7 @@ exports.CHECKS = {
   ],
   email: [
     ["Kamu baru pertama kali menghubungi Jenny Park di perusahaan klien. Salam pembuka mana yang paling aman?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "Dalam email kerja Amerika, Hi + nama paling aman. Untuk situasi yang sangat formal: \"Dear Ms. Park,\""],
-    ["Proyek selesai dan kamu ingin berterima kasih atas kerja keras tim. Kalimat mana yang tepat?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "‘Terima kasih atas kerja kerasnya’ → \"Thanks for all your hard work!\" Kata \"suffer\" berarti ‘menderita’, jadi jangan dipakai."],
+    ["Proyek selesai dan kamu ingin berterima kasih atas kerja keras tim. Kalimat mana yang tepat?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "‘Terima kasih atas kerja kerasnya’ → \"Thanks for all your hard work!\" \"suffer\" berarti ‘menderita’, jadi dua pilihan itu terdengar aneh."],
     ["Kalimat mana yang meminta tenggat dengan sopan?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "\"Could you ~?\" + \"by\" + hari atau tanggal: halus, tetapi jelas."]
   ],
   idioms: [

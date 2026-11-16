@@ -39,7 +39,7 @@ exports.DESC = {
   "Phrasal verb": "Phrasal verb wajib penutur asli seperti pick up dan figure out",
   "Awas pelafalan": "TH/T, V/F, SH/S, i/ii, é/è, konsonan akhir bersuara (bag/back, dogs/docks), dan tekanan kata: pasangan bunyi yang paling sering tertukar",
   "Idiom bahasa Inggris": "Ungkapan yang aneh kalau diterjemahkan kata per kata, dengan padanannya dalam bahasa Indonesia",
-  "Film, serial & slang": "Ungkapan masa kini dari serial, fandom K-pop, dan media sosial",
+  "Film, serial & slang": "Ungkapan masa kini dari film, serial, dan media sosial",
   "Jebakan Inggris ala Indonesia": "Boring/bored, refreshing, borrow/lend, map, resep, titel, ons: kata yang sering salah dipakai penutur bahasa Indonesia"
 };
 
