@@ -33,7 +33,7 @@ I live in Jakarta. | ai liv in je-KAAR-te | Saya tinggal di Jakarta | v pada "li
 I'm a student. | aim e STUU-dent | Saya pelajar / mahasiswa | Sebelum pekerjaan wajib ada artikel "a/an"! "I'm student" adalah kesalahan paling umum. Dosen = "lecturer"
 What do you do? | wat de yu duu? | Kamu kerja apa? | Pertanyaan standar soal pekerjaan. Lebih halus daripada "What's your job?"
 I work at a bank. | ai werk et e bèngk | Saya bekerja di bank | Sebelum perusahaan atau tempat kerja pakai "at": "I work at a hotel."
-I work in marketing. | ai werk in MAAR-ke-ting | Saya bekerja di bidang pemasaran | Sebelum bidang atau divisi pakai "in". "di" dalam bahasa Indonesia bisa jadi "at" atau "in"
+I work in marketing. | ai werk in MAAR-ke-ding | Saya bekerja di bidang pemasaran | Sebelum bidang atau divisi pakai "in". "di" dalam bahasa Indonesia bisa jadi "at" atau "in"
 I'm 25 years old. | aim TWÉN-ti-faiv yirz ould | Umur saya 25 tahun | Umur pakai "be", bukan "have". "years" dalam bentuk jamak. Menanyakan umur ke orang yang baru dikenal bisa terasa tidak sopan
 I'm really into hiking. | aim RII-li IN-tu HAI-king | Saya sangat suka mendaki gunung | Jauh lebih alami daripada "My hobby is…"
 I like watching movies. | ai laik WAA-cing MUU-viz | Saya suka menonton film | Setelah "like", kata kerja pakai bentuk -ing atau "to" + V1
@@ -106,7 +106,7 @@ A table for two, please. | e TEI-bel fer tuu, pliiz | Meja untuk dua orang | Di 
 Do you have a reservation? | de yu hèv e ré-zer-VEI-syen? | Sudah reservasi? | Pertanyaan pelayan. Jawab misalnya "Yes, under Budi."
 Can I see the menu? | ken ai sii dhe MÉ-nyu? | Boleh lihat menunya? | Tekanan "menu" ada di depan: MÉ-nyu
 What do you recommend? | wat de yu ré-ke-MÉND? | Ada menu yang direkomendasikan? | "What's popular here?" juga bagus
-I'll have the steak. | ail hèv dhe steik | Saya pesan steiknya | Rumus dasar memesan: I'll have + nama menu
+I'll have the steak. | ail hèv dhe steik | Saya pesan steiknya | Rumus dasar memesan: "I'll have" + nama menu
 Can I get a Coke? | ken ai gét e kouk? | Boleh minta satu cola? | "get a" tersambung jadi GÉ-de. Cola biasanya disebut "Coke"
 Medium rare, please. | MII-di-em rér, pliiz | Tolong dimasak setengah matang | Jawaban untuk "How would you like your steak?"
 No onions, please. | nou A-nyenz, pliiz | Tanpa bawang bombai, ya | "Can I get it without onions?" artinya sama. "onions" dalam bentuk jamak
@@ -140,7 +140,7 @@ Keep the change. | kiip dhe ceinj | Kembaliannya ambil saja | Sering dipakai di 
 `,
 "Belanja & bayar": `
 I'm just looking, thanks. | aim jast LU-king, thèngks | Lihat-lihat dulu, terima kasih | Saat pramuniaga bertanya "Can I help you find anything?"
-Do you have this in a medium? | de yu hèv dhis in e MII-di-em? | Ada ukuran M? | Ukuran: small / medium / large
+Do you have this in a medium? | de yu hèv dhis in e MII-di-em? | Ada ukuran M? | Ukuran: "small" / "medium" / "large"
 Do you have it in black? | de yu hèv it in blèk? | Ada warna hitam? | Sebelum warna pakai "in"
 Can I try this on? | ken ai trai dhis aan? | Boleh saya coba? | "try on" = mencoba (pakaian, sepatu)
 Where's the fitting room? | wérz dhe FI-ding ruum? | Kamar pas di mana? | Inggris: "changing room"
@@ -162,7 +162,7 @@ It's three thirty. | its thrii THER-ti | Jam setengah empat | Awas: "setengah em
 It's a quarter to five. | its e KWOOR-ter te faiv | Jam lima kurang seperempat | "quarter" = 15 menit. Bisa juga "four forty-five"
 At noon | et nuun | Pukul 12 siang | Tengah malam: "midnight". Lebih jelas daripada 12 a.m./p.m.
 What's the date today? | wats dhe deit te-DEI? | Hari ini tanggal berapa? | Untuk nama hari: "What day is it today?"
-It's May 3rd. | its mei therd | Tanggal 3 Mei | Tanggal dibaca dengan bilangan urutan: first, second, third, fourth… Di Amerika bulan disebut dulu, baru tanggal
+It's May 3rd. | its mei therd | Tanggal 3 Mei | Tanggal dibaca dengan bilangan urutan: "first", "second", "third", "fourth"… Di Amerika bulan disebut dulu, baru tanggal
 My birthday is in October. | mai BERTH-dei iz in aak-TOU-ber | Ulang tahun saya bulan Oktober | Sebelum bulan pakai "in", sebelum tanggal pakai "on": "on October 5th"
 On Monday | aan MAN-dei | Pada hari Senin | Sebelum nama hari pakai "on", bukan "in". Setiap Senin: "on Mondays"
 Next weekend | nékst WIIK-énd | Akhir pekan depan | Sebelum "next", "last", "this" tidak pakai preposisi
@@ -235,11 +235,11 @@ That's very kind of you. | dhèts VÉ-ri kaind ev yu | Baik sekali Anda | Ucapan
 `,
 "Kerja & email": `
 I hope this email finds you well. | ai houp dhis II-meil faindz yu wél | Semoga Anda dalam keadaan baik | Pembuka email formal, pengganti "Dengan hormat". Lebih santai: "I hope you're doing well."
-I'm writing to ask about the schedule. | aim RAI-ding te èsk e-BAUT dhe SKÉ-juul | Saya menghubungi Anda untuk menanyakan jadwal | Sebutkan tujuan email di kalimat pertama: I'm writing to + V1
+I'm writing to ask about the schedule. | aim RAI-ding te èsk e-BAUT dhe SKÉ-juul | Saya menghubungi Anda untuk menanyakan jadwal | Sebutkan tujuan email di kalimat pertama: "I'm writing to" + V1
 I've attached the report. | aiv e-TÈCT dhe ri-POORT | Laporannya saya lampirkan | "Please find attached…" terdengar lebih kaku
 Just a quick reminder about tomorrow's meeting. | jast e kwik ri-MAIN-der e-BAUT te-MAA-rouz MII-ding | Sekadar mengingatkan soal rapat besok | Cara halus untuk mengingatkan
 Let me know if you have any questions. | lét mi nou if yu hèv É-ni KWÉS-cenz | Kabari saya kalau ada pertanyaan | Kalimat penutup email yang paling umum
-Could you send me the file by Friday? | kud yu sénd mi dhe fail bai FRAI-dei? | Bisa kirim filenya paling lambat hari Jumat? | "by" = paling lambat (tenggat); "until" = terus sampai
+Could you send me the file by Friday? | kud yu sénd mi dhe fail bai FRAI-dei? | Bisa kirim berkasnya paling lambat hari Jumat? | "by" = paling lambat (tenggat); "until" = terus sampai
 Sorry for the late reply. | SAA-ri fer dhe leit ri-PLAI | Maaf terlambat membalas | Alternatif yang lebih positif: "Thanks for your patience."
 Thanks for getting back to me. | thèngks fer GÉ-ding bèk te mi | Terima kasih atas balasannya | "get back to" = menghubungi kembali
 Best regards, | bést ri-GAARDZ | Salam (penutup email) | Penutup yang aman, pengganti "Hormat saya". Untuk yang akrab: "Best," atau "Thanks,"
@@ -276,7 +276,7 @@ FYI | éf wai ai | Sekadar info (for your information) | Sering dipakai di email
 `,
 "Perjalanan (bandara & hotel)": `
 Here's my passport. | hirz mai PÈS-poort | Ini paspor saya | Saat check-in atau di imigrasi
-I'm here for sightseeing. | aim hir fer SAIT-sii-ing | Saya datang untuk berwisata | Jawaban untuk pertanyaan imigrasi "What's the purpose of your visit?"
+I'm here for sightseeing. | aim hir fer SAIT-sii-ing | Saya datang untuk berwisata | Jawaban untuk pertanyaan imigrasi "What's the purpose of your visit?". Visa saat kedatangan = "visa on arrival"
 I'm staying for a week. | aim STEI-ing fer e wiik | Saya tinggal selama seminggu | Jawaban untuk "How long are you staying?"
 I'm staying at the Hilton. | aim STEI-ing et dhe HIL-ten | Saya menginap di Hotel Hilton | Jawaban untuk "Where are you staying?"
 Window or aisle? | WIN-dou oor ail? | Dekat jendela atau lorong? | s pada "aisle" tidak dibaca: ail
@@ -289,9 +289,9 @@ Can I check in early? | ken ai cék in ER-li? | Bisa check-in lebih awal? | "che
 Is breakfast included? | iz BRÉK-fest in-KLUU-did? | Sudah termasuk sarapan? | "breakfast" dibaca BRÉK-fest, bukan "brek-fast"
 The air conditioner isn't working. | dhi ér ken-DI-sye-ner I-zent WER-king | AC-nya tidak berfungsi | Singkatnya "AC" (ei sii), sama seperti di Indonesia
 Could I get some extra towels? | kud ai gét sem ÉK-stre TAU-elz? | Boleh minta handuk tambahan? | "Could I" terdengar hampir tersambung
-Can you hold my bags until 3? | ken yu hould mai bègz en-TIL thrii? | Bisa titip tas saya sampai jam 3? | Permintaan menitipkan barang setelah check-out. "hold" = menyimpan sementara
+Can you hold my bags until 3? | ken yu hould mai bègz en-TIL thrii? | Bisa titip tas saya sampai jam 3? | Permintaan menitipkan barang setelah check-out. "hold" = menyimpan sementara. Di Amerika tamu biasanya memberi tip untuk porter dan petugas kamar
 My flight was delayed. | mai flait wez di-LEID | Penerbangan saya tertunda | Dibatalkan: "canceled"
-Where's gate 12? | wérz geit twélv? | Gerbang 12 di mana? | Dalam bahasa Inggris nomornya di belakang. Di Amerika tamu biasanya memberi tip untuk porter dan petugas kamar, berbeda dengan di Indonesia
+Where's gate 12? | wérz geit twélv? | Gerbang 12 di mana? | Dalam bahasa Inggris nomornya di belakang
 Do I need to take my laptop out? | de ai niid te teik mai LÈP-taap aut? | Laptopnya perlu dikeluarkan? | Di pemeriksaan keamanan bandara
 `,
 "Rumah sakit & darurat": `

@@ -40,7 +40,7 @@
    "where": "html <a> text"
   },
   "Practice": {
-   "t": "Luyện tập",
+   "t": "Luyện",
    "ko": "연습",
    "kind": "label",
    "context": "bottom-nav tab: quizzes and drills",
@@ -1013,7 +1013,7 @@
    "where": "html <p> text"
   },
   "Type": {
-   "t": "Loại",
+   "t": "Gõ",
    "ko": "입력",
    "kind": "label",
    "context": "feedback form: category radio-group label (\"kind of feedback\"), not the verb",
@@ -2625,7 +2625,7 @@
    "where": "js STR()"
   },
   "New quiz": {
-   "t": "Bài mới",
+   "t": "Trắc nghiệm mới",
    "ko": "새 퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4026,7 +4026,7 @@
    "where": "html <h3> text"
   },
   "Sprout": {
-   "t": "Mầm non",
+   "t": "Chồi non",
    "ko": "새싹",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4436,42 +4436,42 @@
    "where": "html <button> text"
   },
   "#basics": {
-   "t": "#cơbản",
+   "t": "#coban",
    "ko": "#기초",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#travel": {
-   "t": "#dulịch",
+   "t": "#dulich",
    "ko": "#여행",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#social": {
-   "t": "#giaotiếp",
+   "t": "#giaotiep",
    "ko": "#친구·사교",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#work": {
-   "t": "#côngviệc",
+   "t": "#congviec",
    "ko": "#직장",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#media": {
-   "t": "#giảitrí",
+   "t": "#giaitri",
    "ko": "#미디어",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#skills": {
-   "t": "#kỹnăng",
+   "t": "#kynang",
    "ko": "#실력",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4505,7 +4505,7 @@
    "where": "js g()"
   },
   "DRILLS": {
-   "t": "BÀI LUYỆN",
+   "t": "KỸ NĂNG",
    "ko": "훈련",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
@@ -6679,13 +6679,13 @@
    "example": "5/2 · Today"
   },
   "Practice · quick actions": {
-   "t": "Luyện tập · thao tác nhanh",
+   "t": "Luyện · thao tác nhanh",
    "ko": "연습 · 빠른 실행",
    "slots": "",
    "example": "Practice · quick actions"
   },
   "{n}/{n} · Practice": {
-   "t": "{1}/{2} · Luyện tập",
+   "t": "{1}/{2} · Luyện",
    "ko": "{1}/{2} · 연습",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Practice"
@@ -6863,20 +6863,20 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged into {x}. {n} cards of progress were new.": {
-   "t": "Đã gộp vào {1}. Có tiến độ mới ở {2} thẻ.",
+   "t": "{1}: đã gộp. Có tiến độ mới ở {2} thẻ.",
    "ko": "{1} 코스에 합쳤어요. 카드 {2}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=x, {2}=n",
    "example": "Merged into Hello there. 5 cards of progress were new.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} progress": {
-   "t": "Tiến độ {1}",
+   "t": "{1} · tiến độ",
    "ko": "{1} 진도",
    "slots": "{1}=x",
    "example": "Hello there progress"
   },
   "Now learning {x} · progress saved per course": {
-   "t": "Đang học {1} · tiến độ được lưu riêng cho từng khóa học",
+   "t": "Đã chuyển khóa học: {1} · tiến độ được lưu riêng cho từng khóa",
    "ko": null,
    "slots": "{1}=x",
    "example": "Now learning 英語 · progress saved per course",
@@ -6897,21 +6897,21 @@
    "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   "type it in {x}": {
-   "t": "gõ bằng {1}",
+   "t": "gõ câu trả lời · {1}",
    "ko": null,
    "slots": "{1}=x",
    "example": "type it in 英語",
    "context": "{0} = target language name in the UI language — Type drill / typed quiz instruction (LL)"
   },
   "Type in {x}…": {
-   "t": "Gõ bằng {1}…",
+   "t": "{1}: gõ vào đây…",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type in 英語…",
    "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)"
   },
   "Type the {x}, or tap Check again to give up.": {
-   "t": "Gõ bằng {1}, hoặc chạm Kiểm tra lần nữa để bỏ cuộc.",
+   "t": "Hãy gõ câu trả lời ({1}), hoặc chạm Kiểm tra lần nữa để bỏ qua.",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type the 英語, or tap Check again to give up.",
@@ -6946,21 +6946,21 @@
    "context": "{0} = item count (≥ 12 in shipped packs) — Lesson practice entry, before any run (LL)"
   },
   "No {x} keyboard? Use tiles": {
-   "t": "Không có bàn phím {1}? Chọn từ có sẵn",
+   "t": "{1}: không có bàn phím? Chọn từ có sẵn",
    "ko": null,
    "slots": "{1}=x",
    "example": "No 英語 keyboard? Use tiles",
    "context": "{0} = target language name in the UI language — Practice runner: tiles toggle (LL)"
   },
   "Learning {x} 5 minutes a day with Lang App {x}": {
-   "t": "Học {1} 5 phút mỗi ngày với Lang App {2}",
+   "t": "{1} · 5 phút mỗi ngày với Lang App {2}",
    "ko": null,
    "slots": "{1}=x, {2}=x",
    "example": "Learning 英語 5 minutes a day with Lang App 🇺🇸",
    "context": "{0} = target language name in the UI language; {1} = flag emoji — Share sheet text (LL)"
   },
   "Learn {x}, 5 minutes a day": {
-   "t": "Học {1}, 5 phút mỗi ngày",
+   "t": "{1} · 5 phút mỗi ngày",
    "ko": null,
    "slots": "{1}=x",
    "example": "Learn 英語, 5 minutes a day",

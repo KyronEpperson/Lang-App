@@ -38,7 +38,7 @@
    "roadmap": "ko"
   },
   "Politeness in brief": {
-   "t": "Kính ngữ tóm tắt",
+   "t": "Sơ lược về kính ngữ",
    "ko": "높임말 한눈에",
    "kind": "lesson title",
    "roadmap": "ko"
@@ -668,7 +668,7 @@
    "roadmap": "ja"
   },
   "Mandarin, simplified characters": {
-   "t": "Tiếng Phổ thông, chữ giản thể",
+   "t": "Tiếng Trung phổ thông, chữ giản thể",
    "ko": "표준 중국어 (간체자)",
    "kind": "variant",
    "roadmap": "zh"
@@ -848,7 +848,7 @@
    "roadmap": "zh"
   },
   "Spanish of Spain": {
-   "t": "Tiếng Tây Ban Nha ở Tây Ban Nha",
+   "t": "Tiếng Tây Ban Nha chuẩn (Tây Ban Nha)",
    "ko": "스페인 스페인어",
    "kind": "variant",
    "roadmap": "es"
@@ -1010,7 +1010,7 @@
    "roadmap": "es"
   },
   "French of France": {
-   "t": "Tiếng Pháp ở Pháp",
+   "t": "Tiếng Pháp chuẩn (Pháp)",
    "ko": "프랑스 프랑스어",
    "kind": "variant",
    "roadmap": "fr"
@@ -1190,7 +1190,7 @@
    "roadmap": "fr"
   },
   "German of Germany": {
-   "t": "Tiếng Đức ở Đức",
+   "t": "Tiếng Đức chuẩn (Đức)",
    "ko": "독일 독일어",
    "kind": "variant",
    "roadmap": "de"
@@ -1364,7 +1364,7 @@
    "roadmap": "pt"
   },
   "estar, and ser vs estar": {
-   "t": "estar, và ser so với estar",
+   "t": "estar; phân biệt ser và estar",
    "ko": "estar, ser vs estar",
    "kind": "lesson title",
    "roadmap": "pt"
@@ -1676,7 +1676,7 @@
    "roadmap": "vi"
   },
   "A2 · Getting things done": {
-   "t": "A2 · Làm được việc",
+   "t": "A2 · Xoay xở hằng ngày",
    "ko": "A2 · 생활 표현",
    "kind": "stage",
    "roadmap": "vi"
@@ -1742,7 +1742,7 @@
    "roadmap": "th"
   },
   "Sounds and survival": {
-   "t": "Âm và câu sinh tồn",
+   "t": "Âm và câu cấp tốc",
    "ko": "소리와 생존 표현",
    "kind": "stage",
    "roadmap": "th"

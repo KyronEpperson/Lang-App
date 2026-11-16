@@ -1,420 +1,463 @@
-/* TRANSLATE/ADAPT (id): scaffolded from tools/content/ko/more/a1.js by new_lang.js.
-   Translate/adapt everything that is Korean for id speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the id point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage A1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* id-en stage A1: lessons for Indonesian speakers (source of truth for id). Shorthand is expanded by _dsl.js.
+   Contrasts follow docs/profiles/id.md §4 and §8; pron follows §6; practice sets follow the article-plural standing rule (§7). */
 module.exports = [
-{ id:"it-there", title:"it과 there: 주어 자리 채우기", blurb:"날씨·시간은 it, '~이 있어요'는 there is / there are.", deck:"스몰토크", body:`
-<p>한국어는 "추워요", "카페가 있어요"처럼 주어 없이도 말이 돼요. 영어는 주어 자리가 비면 안 돼요. 그래서 뜻이 없는 <b>it</b>과 <b>there</b>로 그 자리를 채워요.</p>
-<h3>날씨·시간은 It</h3>
-<p>이때 it은 '그것'이 아니에요. 자리만 채우는 말이에요.</p>
-{{ex:It's cold today.|이츠 콜드 투데이|오늘 추워요}}{{ex:It's three o'clock.|이츠 쓰리 어클락|세 시예요}}{{ex:It's raining.|이츠 레이닝|비가 와요}}
-<h3>'~이 있어요'는 There is / There are</h3>
-<p>하나면 <b>There is a …</b>, 여럿이면 <b>There are … -s</b>예요. 말할 때는 There's로 줄여요.</p>
-{{ex:There's a cafe near here.|데어즈 어 캐페이 니어 히어|이 근처에 카페가 있어요}}{{ex:There are two rooms.|데어 아 투 룸즈|방이 두 개 있어요}}
-<h3>질문과 부정</h3>
-{{ex:Is there a bathroom here?|이즈 데어 어 배쓰룸 히어?|여기 화장실 있어요?}}{{ex:Are there any seats?|아 데어 애니 싯츠?|자리 있어요?}}{{ex:There isn't a bus today.|데어 이즌 어 버스 투데이|오늘은 버스가 없어요}}
-<h3>have와 구분하기</h3>
-<p>사람이 가진 것은 <b>have</b>, 어떤 장소에 있는 것은 <b>there is</b>예요.</p>
-{{ex:I have a car.|아이 해버 카|저는 차가 있어요}}{{ex:There's a car outside.|데어즈 어 카 아웃사이드|밖에 차가 있어요}}
-<div class="tip">가장 흔한 실수: <b>Is cold.</b> (X) → <b>It's cold.</b> (O) / <b>Have a cafe here.</b> (X) → <b>There's a cafe here.</b> (O)</div>`,
-check:[["'오늘 더워요'를 영어로 하면?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"날씨는 it으로 주어 자리를 채워요."],["There ___ three people. 빈칸에 알맞은 것은?",["is","are","have","be"],1,"여럿이면 there are예요."],["'여기 화장실 있어요?'를 영어로 하면?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"있는지 물을 때는 Is there a ~?예요."]],
+{ id:"it-there", title:"it dan there: subjek yang tidak boleh kosong", blurb:"Cuaca dan jam pakai it; ‘ada …’ pakai there is / there are.", deck:"Obrolan ringan", body:`
+<p>Dalam bahasa Indonesia, kalimat seperti <i>Hujan</i>, <i>Dingin, ya</i> atau <i>Ada kafe di dekat sini</i> sudah lengkap tanpa subjek. Dalam bahasa Inggris, posisi subjek tidak boleh kosong. Karena itu kita pakai dua kata pengisi yang tidak punya arti sendiri: <b>it</b> dan <b>there</b>.</p>
+<h3>Cuaca dan jam: It</h3>
+<p>Di sini <b>it</b> tidak berarti ‘itu’. Kata ini hanya mengisi posisi subjek. <i>Sudah jam tiga</i> menjadi <b>It's three o'clock</b>, tanpa terjemahan untuk <i>sudah</i>.</p>
+{{ex:It's cold today.|its kould te-DEI|Hari ini dingin}}{{ex:It's three o'clock.|its thrii e-KLAAK|Sudah jam tiga}}{{ex:It's raining.|its REI-ning|Sedang hujan}}
+<h3>‘Ada …’: There is / There are</h3>
+<p><i>Ada</i> tidak pernah berubah, entah bendanya satu atau banyak. Dalam bahasa Inggris, kata kerjanya mengikuti kata bendanya: untuk satu benda <b>There is a …</b>, untuk lebih dari satu <b>There are …</b> dengan -s jamak. Dalam percakapan, <b>There is</b> disingkat menjadi <b>There's</b>.</p>
+{{ex:There's a cafe near here.|dhérz e kè-FEI nir hir|Ada kafe di dekat sini}}{{ex:There are two rooms.|dhér er tuu ruumz|Ada dua kamar}}
+<h3>Kalimat tanya dan kalimat negatif</h3>
+<p>Untuk bertanya, <b>is</b> atau <b>are</b> pindah ke depan <b>there</b>.</p>
+{{ex:Is there a bathroom here?|iz dhér e BÈTH-ruum hir?|Di sini ada kamar mandi?}}{{ex:Are there any seats?|er dhér É-ni siits?|Masih ada kursi kosong?}}{{ex:There isn't a bus today.|dhér I-zent e bas te-DEI|Hari ini tidak ada bus}}
+<h3>Jangan tertukar dengan have</h3>
+<p>Dalam bahasa sehari-hari, <i>Saya ada mobil</i> dan <i>Di luar ada mobil</i> sama-sama memakai <i>ada</i>. Bahasa Inggris memisahkannya: yang dimiliki seseorang pakai <b>have</b>, yang berada di suatu tempat pakai <b>there is</b>.</p>
+{{ex:I have a car.|ai hèv e kaar|Saya punya mobil}}{{ex:There's a car outside.|dhérz e kaar aut-SAID|Di luar ada mobil}}
+<div class="tip">Kesalahan paling umum: <b>Is cold.</b> ✗ → <b>It's cold.</b> ✓ / <b>Have a cafe here.</b> ✗ → <b>There's a cafe here.</b> ✓ / <b>There is two rooms.</b> ✗ → <b>There are two rooms.</b> ✓</div>`,
+check:[["Bahasa Inggrisnya 'Hari ini panas'?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"Untuk cuaca, posisi subjek diisi \"it\"."],["There ___ three people. Apa isi bagian yang kosong?",["is","are","have","be"],1,"\"Three people\" lebih dari satu, jadi \"there are\"."],["Bahasa Inggrisnya 'Di sini ada kamar mandi?'",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"Untuk bertanya apakah sesuatu ada, pakai \"Is there a …?\"."]],
 practice:[
-["mc","'비가 와요' =","It's raining.","Is raining.","There is raining.","Rain is.","날씨는 it이 주어예요."],
-["mc","'이 근처에 카페가 있어요' =","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","장소에 있는 것은 there is, 하나라서 관사 a를 붙여요."],
-["mc","There ___ two rooms. 빈칸은?","are","is","have","has","복수 rooms라서 are예요."],
-["mc","'세 시예요' =","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","시간도 it으로 시작해요."],
-["mc","'저는 차가 있어요' =","I have a car.","There is a car me.","I am a car.","It's a car me.","사람이 가진 것은 have예요."],
-["or","오늘 추워요","It's cold today","There's","날씨는 it이 주어예요."],
-["or","밖에 차가 있어요","There's a car outside","cars","하나니까 관사 a와 단수 car를 써요."],
-["or","자리가 두 개 있어요","There are two seats","seat is","둘 이상이면 are와 복수 seats예요."],
-["fi","__ cold today.","오늘 추워요","It's|It is","Is|There's|This","주어 자리를 it으로 채워요."],
-["fi","There __ a bank near here.","근처에 은행이 있어요","is","are|have|be","하나라서 is예요."],
-["fi","__ there any seats?","자리 있어요?","Are","Is|Do|Have","복수 seats라서 Are예요."],
-["ty","오늘 더워요","It's hot today","it · hot · today — 날씨는 it","There's","날씨는 it으로 시작해요."],
-["ty","여기 화장실 있어요?","Is there a bathroom here|Is there a restroom here","is there · bathroom — 관사 주의","the","처음 묻는 하나라서 관사 a를 붙여요."],
-["ty","방이 두 개 있어요","There are two rooms","there are · two · room — 복수","room","둘이니까 복수 rooms예요."]]},
+["mc","'Sedang hujan' dalam bahasa Inggris?","It's raining.","Is raining.","There is raining.","Rain is.","Untuk cuaca, subjeknya \"it\"."],
+["mc","'Ada kafe di dekat sini' dalam bahasa Inggris?","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","‘Ada’ di suatu tempat = \"there is\"; satu kafe, jadi pakai artikel \"a\"."],
+["mc","There ___ two rooms. Apa isi bagian yang kosong?","are","is","have","has","\"Rooms\" bentuk jamak, jadi \"are\"."],
+["mc","'Sudah jam tiga' dalam bahasa Inggris?","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","Jam juga diawali \"it\"; ‘sudah’ tidak perlu diterjemahkan."],
+["mc","'Saya punya mobil' dalam bahasa Inggris?","I have a car.","There is a car me.","I am a car.","It's a car me.","Yang dimiliki seseorang pakai \"have\"."],
+["or","Hari ini dingin","It's cold today","There's","Untuk cuaca, subjeknya \"it\", bukan \"there\"."],
+["or","Di luar ada mobil","There's a car outside","cars","Satu mobil, jadi artikel \"a\" dan bentuk tunggal \"car\", bukan jamak."],
+["or","Ada dua kursi kosong","There are two seats","seat is","Lebih dari satu, jadi \"are\" dan bentuk jamak \"seats\"."],
+["fi","__ cold today.","Hari ini dingin","It's|It is","Is|There's|This","Posisi subjek diisi \"it\"."],
+["fi","There __ a bank near here.","Ada bank di dekat sini","is","are|have|be","Satu bank, jadi \"is\"."],
+["fi","__ there any seats?","Masih ada kursi kosong?","Are","Is|Do|Have","\"Seats\" bentuk jamak, jadi \"Are\"."],
+["ty","Hari ini panas","It's hot today","it · hot · today — cuaca pakai it","There's","Untuk cuaca, kalimatnya diawali \"it\"."],
+["ty","Di sini ada kamar mandi?","Is there a bathroom here|Is there a restroom here","is there · bathroom — ingat artikel","the","Satu kamar mandi yang baru ditanyakan, jadi artikel \"a\"."],
+["ty","Ada dua kamar","There are two rooms","there are · two · room — bentuk jamak","room","Ada \"two\", jadi kata benda wajib bentuk jamak: \"rooms\"."]]},
 
-{ id:"plurals", title:"복수 -s와 this / these, my / your", blurb:"둘 이상이면 꼭 -s. this는 하나, these는 여럿.", deck:"쇼핑·계산", body:`
-<p>한국어는 "사과 세 개"처럼 명사 모양이 그대로예요. 영어는 둘 이상이면 명사에 꼭 <b>-s</b>를 붙여요. 한국인이 가장 자주 빼먹는 부분이에요.</p>
-<h3>복수 만들기</h3>
-<div class="tbl"><table><tr><th>규칙</th><th>예</th></tr><tr><td>대부분 -s</td><td class="k">book → books</td></tr><tr><td>s·x·ch·sh 뒤 -es</td><td class="k">box → boxes</td></tr><tr><td>자음 + y → -ies</td><td class="k">city → cities</td></tr><tr><td>불규칙</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
-{{ex:two books|투 북스|책 두 권}}{{ex:three boxes|쓰리 박시즈|상자 세 개}}{{ex:I have two children.|아이 해브 투 칠드런|저는 아이가 둘 있어요}}
-<h3>this / that 은 하나, these / those 는 여럿</h3>
-{{ex:This is my bag.|디스 이즈 마이 백|이건 제 가방이에요}}{{ex:These are my keys.|디즈 아 마이 키즈|이것들은 제 열쇠예요}}{{ex:Those shoes are nice.|도즈 슈즈 아 나이스|저 신발 예뻐요}}
+{ id:"plurals", title:"Jamak -s, this / these, my / your", blurb:"Lebih dari satu, wajib -s, juga setelah angka. This untuk satu, these untuk banyak.", deck:"Belanja & bayar", body:`
+<p>Dalam bahasa Indonesia, jamak tidak wajib ditandai. Kita bisa bilang <i>buku-buku</i>, tapi setelah angka atau <i>banyak</i> kata ulang justru tidak dipakai: <i>dua buku</i>, <i>banyak buku</i>. Bahasa Inggris kebalikannya: begitu bendanya lebih dari satu, kata benda (<b>noun</b>) wajib diberi <b>-s</b>, termasuk setelah angka.</p>
+<h3>Cara membuat bentuk jamak</h3>
+<div class="tbl"><table><tr><th>Aturan</th><th>Contoh</th></tr><tr><td>Kebanyakan kata: tambah -s</td><td class="k">book → books</td></tr><tr><td>Setelah s, x, ch, sh: tambah -es</td><td class="k">box → boxes</td></tr><tr><td>Konsonan + y: ganti jadi -ies</td><td class="k">city → cities</td></tr><tr><td>Tidak beraturan</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
+{{ex:two books|tuu buks|dua buku}}{{ex:three boxes|thrii BAAK-siz|tiga kotak}}{{ex:I have two children.|ai hèv tuu CIL-dren|Saya punya dua anak}}
+<p>Cukup satu tanda: <b>two books</b>, sama seperti kita bilang <i>dua buku</i>, bukan <i>dua buku-buku</i>. Kata ulang tidak diterjemahkan dua kali.</p>
+<h3>this / that untuk satu, these / those untuk banyak</h3>
+<p>Urutannya terbalik dari bahasa Indonesia: <i>buku ini</i> → <b>this book</b>, <i>tas saya</i> → <b>my bag</b>. Kata penunjuk dan pemilik selalu di depan kata benda.</p>
+{{ex:this book|dhis buk|buku ini}}{{ex:This is my bag.|dhis iz mai bèg|Ini tas saya}}{{ex:These are my keys.|dhiiz er mai kiiz|Ini kunci-kunci saya}}{{ex:Those shoes are nice.|dhouz syuuz er nais|Sepatu itu bagus}}
 <h3>my, your, his, her, our, their</h3>
-<p>'누구의'를 말하는 단어예요. 이 단어가 있으면 a나 the를 같이 쓰지 않아요.</p>
-{{ex:Is this your phone?|이즈 디스 유어 폰?|이거 당신 휴대폰이에요?}}{{ex:Her brothers live in Busan.|허 브라더즈 리브 인 부산|그녀의 오빠들은 부산에 살아요}}
-<div class="tip">숫자, many, these, those 뒤의 명사는 항상 복수예요: <b>two friend</b> (X) → <b>two friends</b> (O), <b>my a bag</b> (X) → <b>my bag</b> (O)</div>`,
-check:[["I have two ___. 빈칸에 알맞은 것은?",["sister","sisters","a sister","sister's"],1,"둘이니까 복수 sisters예요."],["___ are my keys. 빈칸에 알맞은 것은?",["This","That","These","It"],2,"keys가 복수라서 These예요."],["'이건 제 가방이에요'를 영어로 하면?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"my가 있으면 관사를 붙이지 않아요."]],
+<p>Kata ganti kepemilikan ini menggantikan <i>-ku</i>, <i>-mu</i>, <i>-nya</i>, <i>kami</i> dan <i>mereka</i> di belakang kata benda. Kalau sudah ada <b>my</b> atau <b>your</b>, jangan tambahkan artikel <b>a</b> atau <b>the</b>.</p>
+{{ex:Is this your phone?|iz dhis yer foun?|Ini ponsel kamu?}}{{ex:Her brothers live in Surabaya.|her BRA-dherz liv in suu-re-BAI-e|Saudara laki-lakinya tinggal di Surabaya}}
+<div class="tip">Setelah angka, <b>many</b>, <b>these</b> dan <b>those</b>, kata benda selalu jamak: <b>two friend</b> ✗ → <b>two friends</b> ✓ / <b>book this</b> ✗ → <b>this book</b> ✓ / <b>my a bag</b> ✗ → <b>my bag</b> ✓</div>`,
+check:[["I have two ___. Apa isi bagian yang kosong?",["sister","sisters","a sister","sister's"],1,"Ada \"two\", jadi bentuk jamak \"sisters\"."],["___ are my keys. Apa isi bagian yang kosong?",["This","That","These","It"],2,"\"Keys\" jamak, jadi \"These\"."],["Bahasa Inggrisnya 'Ini tas saya'?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"Kalau sudah ada \"my\", tidak pakai artikel, dan \"my\" di depan kata benda."]],
 practice:[
-["mc","'책 두 권' =","two books","two book","two a book","twos book","둘 이상이면 복수 -s를 붙여요."],
-["mc","child의 복수형은?","children","childs","childes","child","불규칙 복수예요."],
-["mc","___ shoes are nice. (저 신발)","Those","That","This","It","shoes가 복수라서 those예요."],
-["mc","'이건 제 가방이에요' =","This is my bag.","This is a my bag.","This is my a bag.","This is the my bag.","my와 관사는 같이 쓰지 않아요."],
-["mc","box의 복수형은?","boxes","boxs","boxies","box","s, x, ch, sh 뒤에는 -es예요."],
-["or","이것들은 제 열쇠예요","These are my keys","key This","여럿이라 these와 복수 keys를 써요."],
-["or","저는 아이가 둘 있어요","I have two children","child a","둘이니까 복수 children이에요. 관사 a는 빼요."],
-["or","저 신발 예뻐요","Those shoes are nice","That","shoes가 복수라서 those예요."],
-["fi","I have three __.","저는 고양이가 세 마리 있어요","cats","cat|a cat|cat's","셋이니까 복수 cats예요."],
-["fi","__ is my friend.","이 사람은 제 친구예요","This","These|Those|They","한 명이라서 this예요."],
-["fi","Two __, please.","커피 두 잔 주세요","coffees","coffee|a coffee|coffee's","잔 수를 세어 주문할 때는 coffees처럼 복수로 말해요."],
-["ty","이것들은 제 책이에요","These are my books","these · my · book — 복수","book","여럿이라 these와 복수 books예요."],
-["ty","저는 언니가 둘 있어요","I have two sisters","have · two · sister — 복수","sister","둘이니까 복수 sisters예요."],
-["ty","이건 제 가방이에요","This is my bag","this · my · bag — 관사 없이","a","my가 있으면 관사 a를 쓰지 않아요."]]},
-{ id:"present", title:"현재형과 어순: 주어 + 동사 + 목적어", blurb:"한국어는 동사가 끝, 영어는 동사가 두 번째예요.", deck:"자기소개", body:`
-<p>한국어는 "저는 커피를 <b>마셔요</b>"처럼 동사가 맨 끝에 와요. 영어는 <b>누가 → 한다 → 무엇을</b> 순서예요. 조사가 없기 때문에 이 순서가 곧 뜻이에요.</p>
-<h3>주어 + 동사 + 목적어</h3>
-{{ex:I drink coffee.|아이 드링크 커피|저는 커피를 마셔요}}{{ex:I study English.|아이 스터디 잉글리시|저는 영어를 공부해요}}
-<h3>장소와 시간은 뒤에</h3>
-<p>나머지 정보는 <b>장소 → 시간</b> 순서로 뒤에 붙여요.</p>
-{{ex:We live in Seoul.|위 리브 인 서울|우리는 서울에 살아요}}{{ex:I study English every day.|아이 스터디 잉글리시 에브리 데이|저는 매일 영어를 공부해요}}{{ex:They work on weekends.|데이 워크 온 위켄즈|그들은 주말에 일해요}}
-<h3>현재형은 습관과 사실</h3>
-<p>늘 하는 일, 변하지 않는 사실을 말해요. 부정은 동사 앞에 <b>don't</b>를 넣어요.</p>
-{{ex:I don't eat meat.|아이 돈 잇 밋|저는 고기를 안 먹어요}}
-<h3>얼마나 자주: always, usually, sometimes, never</h3>
-<p>이 단어들은 동사 <b>바로 앞</b>에 와요.</p>
-{{ex:I usually get up at seven.|아이 유주얼리 게럽 앳 세븐|저는 보통 7시에 일어나요}}{{ex:I never drink coffee at night.|아이 네버 드링크 커피 앳 나잇|저는 밤에는 커피를 절대 안 마셔요}}
-<div class="tip">한국어 순서대로 옮기면 틀려요: <b>I coffee drink.</b> (X) → <b>I drink coffee.</b> (O). 주어 다음에 바로 동사를 말하는 연습을 하세요.</div>`,
-check:[["'저는 커피를 마셔요'의 바른 어순은?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"주어 + 동사 + 목적어 순서예요."],["I ___ eat meat. (안 먹어요)",["not","am not","no","don't"],3,"일반동사 부정은 don't예요."],["always의 알맞은 자리는?",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"빈도 부사는 동사 바로 앞에 와요."]],
+["mc","'dua buku' dalam bahasa Inggris?","two books","two book","two a book","twos book","Setelah angka, kata benda wajib bentuk jamak -s."],
+["mc","Bentuk jamak dari \"child\"?","children","childs","childes","child","Jamak tidak beraturan: \"children\"."],
+["mc","Isi bagian yang kosong: ___ shoes are nice. (sepatu itu)","Those","That","This","It","\"Shoes\" jamak dan letaknya agak jauh, jadi \"those\"."],
+["mc","'Ini tas saya' dalam bahasa Inggris?","This is my bag.","This is a my bag.","This is my a bag.","This is the my bag.","\"My\" tidak dipakai bersama artikel."],
+["mc","Bentuk jamak dari \"box\"?","boxes","boxs","boxies","box","Setelah s, x, ch, sh, tambahkan -es."],
+["or","Ini kunci-kunci saya","These are my keys","key This","Lebih dari satu, jadi \"these\" dan bentuk jamak \"keys\"."],
+["or","Saya punya dua anak","I have two children","child a","Ada \"two\", jadi jamak \"children\"; artikel \"a\" tidak dipakai."],
+["or","Sepatu itu bagus","Those shoes are nice","That","\"Shoes\" jamak, jadi \"those\", bukan \"that\"."],
+["fi","I have three __.","Saya punya tiga kucing","cats","cat|a cat|cat's","Ada \"three\", jadi bentuk jamak \"cats\"."],
+["fi","__ is my friend.","Ini teman saya","This","These|Those|They","Satu orang, jadi \"this\"."],
+["fi","Two __, please.","Kopinya dua, ya","coffees","coffee|a coffee|coffee's","Saat memesan per gelas, kopi dihitung: \"two coffees\" (jamak)."],
+["ty","Ini buku-buku saya","These are my books","these · my · book — bentuk jamak","book","Lebih dari satu, jadi \"these\" dan jamak \"books\"."],
+["ty","Saya punya dua saudara perempuan","I have two sisters","have · two · sister — bentuk jamak","sister","Ada \"two\", jadi jamak \"sisters\"."],
+["ty","Ini tas saya","This is my bag","this · my · bag — tanpa artikel","a","Kalau ada \"my\", artikel \"a\" tidak dipakai."]]},
+{ id:"present", title:"Simple Present Tense: kata kerja tetap, negatifnya pakai don't", blurb:"Urutan katanya sama dengan bahasa Indonesia. Bedanya: ‘tidak’ bukan not, tapi don't.", deck:"Perkenalan diri", body:`
+<p>Kabar baik: urutan kata dasar bahasa Inggris sama dengan bahasa Indonesia, yaitu <b>subjek → kata kerja → objek</b>. <i>Saya minum kopi</i> → <b>I drink coffee</b>. Dalam Simple Present Tense, kata kerjanya juga tetap V1 (bentuk dasar), seperti <i>minum</i> yang tidak pernah berubah.</p>
+{{ex:I drink coffee.|ai dringk KOO-fi|Saya minum kopi}}{{ex:I study English.|ai STA-di ING-glisy|Saya belajar bahasa Inggris}}
+<h3>Tempat dulu, baru waktu</h3>
+<p>Keterangan tempat dan waktu biasanya di akhir kalimat, dengan urutan <b>tempat → waktu</b>. Dalam bahasa Indonesia kita sering mulai dengan <i>Setiap hari …</i>; dalam bahasa Inggris keterangan waktu lebih sering di belakang.</p>
+{{ex:We live in Jakarta.|wi liv in je-KAAR-te|Kami tinggal di Jakarta}}{{ex:I study English every day.|ai STA-di ING-glisy ÉV-ri dei|Saya belajar bahasa Inggris setiap hari}}{{ex:They work on weekends.|dhei werk aan WIIK-éndz|Mereka bekerja setiap akhir pekan}}
+<h3>Kebiasaan dan fakta, plus don't</h3>
+<p>Simple Present Tense dipakai untuk kebiasaan dan fakta. Bagian yang paling sering salah adalah kalimat negatif. Dalam bahasa Indonesia, <i>tidak</i> langsung di depan kata kerja. Dalam bahasa Inggris, <b>not</b> tidak bisa berdiri sendiri di depan kata kerja biasa; kita perlu kata kerja bantu <b>don't</b>.</p>
+{{ex:I don't eat meat.|ai dount iit miit|Saya tidak makan daging}}{{ex:I don't like spicy food.|ai dount laik SPAI-si fuud|Saya tidak suka makanan pedas}}
+<p>Jangan juga menambahkan <b>to be</b> di depan kata kerja: <b>I am work</b> ✗ → <b>I work</b> ✓.</p>
+<h3>Seberapa sering: always, usually, sometimes, never</h3>
+<p>Kata-kata ini diletakkan <b>tepat sebelum</b> kata kerja, sama seperti <i>biasanya</i> dalam <i>Saya biasanya bangun jam tujuh</i>.</p>
+{{ex:I usually get up at seven.|ai YUU-zyu-e-li gét ap et SÉ-ven|Saya biasanya bangun jam tujuh}}{{ex:I never drink coffee at night.|ai NÉ-ver dringk KOO-fi et nait|Saya tidak pernah minum kopi malam-malam}}
+<div class="tip">Kesalahan paling umum: <b>I not like spicy food.</b> ✗ → <b>I don't like spicy food.</b> ✓ / <b>I am work in Jakarta.</b> ✗ → <b>I work in Jakarta.</b> ✓</div>`,
+check:[["Mana urutan yang benar untuk 'Saya minum kopi'?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"Subjek + kata kerja + objek, sama seperti bahasa Indonesia."],["I ___ eat meat. (tidak makan) Apa isi bagian yang kosong?",["not","am not","no","don't"],3,"Kalimat negatif dengan kata kerja biasa pakai \"don't\"."],["Pilih kalimat dengan posisi \"always\" yang benar.",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"Kata seperti \"always\" diletakkan tepat sebelum kata kerja."]],
 practice:[
-["mc","'저는 영어를 공부해요' =","I study English.","I English study.","I am study English.","Study I English.","주어 + 동사 + 목적어 순서예요."],
-["mc","'저는 고기를 안 먹어요' =","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","일반동사 부정은 don't예요."],
-["mc","'우리는 서울에 살아요' =","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","동사 다음에 장소가 와요."],
-["mc","'저는 보통 7시에 일어나요' =","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually는 동사 바로 앞에 와요."],
-["mc","매일 하는 일을 말하는 문장은?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","습관은 현재형으로 말해요."],
-["or","저는 매일 커피를 마셔요","I drink coffee every day","the am","습관은 현재형이에요. 일반적인 coffee에는 관사를 붙이지 않아요."],
-["or","저는 책을 많이 읽어요","I read many books","book","many 뒤에는 복수 books가 와요."],
-["or","우리는 주말에 일해요","We work on weekends","are","일반동사 앞에 be동사를 겹쳐 쓰지 않아요."],
-["fi","I __ like fish.","저는 생선을 안 좋아해요","don't|do not","not|am not|no","일반동사 부정은 don't예요."],
-["fi","I __ English every day.","저는 매일 영어를 공부해요","study","am study|studying|to study","현재형은 동사를 그대로 써요."],
-["fi","They live __ Busan.","그들은 부산에 살아요","in","at|on|to","도시 앞에는 in이에요."],
-["ty","저는 차를 마셔요","I drink tea","drink · tea — 관사 없이","a","일반적인 tea에는 관사를 붙이지 않아요."],
-["ty","저는 고양이를 좋아해요","I like cats","like · cat — 복수로","cat","그 동물 전체를 말할 때는 복수 cats예요."],
-["ty","저는 고기를 안 먹어요","I don't eat meat","don't · eat · meat","am","일반동사 부정은 don't예요."]]},
-{ id:"questions", title:"질문 만들기: Do you ~?와 의문사", blurb:"끝만 올리면 안 돼요. Do를 앞에, 의문사는 맨 앞에.", deck:"생존 영어 2", body:`
-<p>한국어는 끝만 올리면 질문이 돼요. 영어는 <b>단어 순서</b>를 바꿔야 질문이에요.</p>
-<h3>be동사: 자리 바꾸기</h3>
-{{ex:Are you okay?|아 유 오케이?|괜찮아요?}}{{ex:Is this your bag?|이즈 디스 유어 백?|이거 당신 가방이에요?}}
-<h3>일반동사: Do를 앞에</h3>
-<p>문장 앞에 <b>Do</b>를 붙여요. 나머지 순서는 그대로예요.</p>
-{{ex:Do you like coffee?|두 유 라익 커피?|커피 좋아하세요?}}{{ex:Do you speak English?|두 유 스픽 잉글리시?|영어 하세요?}}
-<p>대답은 짧게 해요: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
-<h3>의문사는 맨 앞에</h3>
-<p>what(무엇), where(어디), when(언제), who(누구), why(왜), how(어떻게)를 맨 앞에 두고 질문 순서를 그대로 이어요.</p>
-{{ex:Where do you live?|웨어 두 유 리브?|어디 사세요?}}{{ex:What do you do?|왓 두 유 두?|무슨 일 하세요?}}{{ex:Where is the bathroom?|웨어 이즈 더 배쓰룸?|화장실이 어디예요?}}{{ex:How much is this?|하우 머치 이즈 디스?|이거 얼마예요?}}
-<div class="tip">가장 흔한 실수: <b>Where you live?</b> (X) → <b>Where do you live?</b> (O), <b>Are you like coffee?</b> (X) → <b>Do you like coffee?</b> (O)</div>`,
-check:[["'커피 좋아하세요?'를 영어로 하면?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"일반동사 질문은 Do로 시작해요."],["'어디 사세요?'를 영어로 하면?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"의문사 + do + 주어 + 동사 순서예요."],["Do you speak English?의 알맞은 대답은?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Do로 물으면 do로 대답해요."]],
+["mc","'Saya belajar bahasa Inggris' dalam bahasa Inggris?","I study English.","I English study.","I am study English.","Study I English.","Subjek + kata kerja + objek; tidak perlu \"am\"."],
+["mc","'Saya tidak makan daging' dalam bahasa Inggris?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","‘Tidak’ + kata kerja biasa = \"don't\" + V1."],
+["mc","'Kami tinggal di Seoul' dalam bahasa Inggris?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","Tempat diletakkan setelah kata kerja."],
+["mc","'Saya biasanya bangun jam tujuh' dalam bahasa Inggris?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","\"Usually\" tepat sebelum kata kerja."],
+["mc","Mana kalimat untuk kebiasaan setiap hari?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","Kebiasaan pakai Simple Present Tense."],
+["or","Saya minum kopi setiap hari","I drink coffee every day","the am","Kebiasaan pakai V1; kopi secara umum tanpa artikel."],
+["or","Saya banyak membaca buku","I read many books","book","Setelah \"many\", kata benda bentuk jamak: \"books\"."],
+["or","Kami bekerja setiap akhir pekan","We work on weekends","are","Kata kerja biasa tidak didahului \"are\"."],
+["fi","I __ like fish.","Saya tidak suka ikan","don't|do not","not|am not|no","Kalimat negatif dengan kata kerja biasa pakai \"don't\"."],
+["fi","I __ English every day.","Saya belajar bahasa Inggris setiap hari","study","am study|studying|to study","Simple Present Tense: kata kerja V1 saja."],
+["fi","They live __ Busan.","Mereka tinggal di Busan","in","at|on|to","Di depan nama kota pakai \"in\"."],
+["ty","Saya minum teh","I drink tea","drink · tea — tanpa artikel","a","Teh secara umum tanpa artikel."],
+["ty","Saya suka kucing","I like cats","like · cat — bentuk jamak","cat","Untuk hewan secara umum, pakai bentuk jamak: \"cats\"."],
+["ty","Saya tidak makan daging","I don't eat meat","don't · eat · meat — bukan not","am","‘Tidak’ + kata kerja biasa = \"don't\"."]]},
+{ id:"questions", title:"Kalimat tanya: Do you …? dan kata tanya", blurb:"Menaikkan nada saja tidak cukup. Do di depan, kata tanya paling depan.", deck:"Ungkapan penting 2", body:`
+<p>Dalam bahasa Indonesia, <i>Kamu suka kopi?</i> sudah menjadi pertanyaan hanya dengan nada naik. Dalam tulisan kita bisa menambahkan <i>apakah</i> di depan. Bahasa Inggris juga menaruh sesuatu di depan, tapi kata itu berubah sesuai kalimatnya: <b>Is</b>, <b>Are</b>, <b>Do</b> atau <b>Does</b>.</p>
+<h3>Dengan to be: tukar posisi</h3>
+{{ex:Are you okay?|er yu ou-KEI?|Kamu baik-baik saja?}}{{ex:Is this your bag?|iz dhis yer bèg?|Ini tas kamu?}}
+<h3>Dengan kata kerja biasa: Do di depan</h3>
+<p>Kalau kalimatnya memakai kata kerja biasa, taruh <b>Do</b> di depan; urutan lainnya tetap. <b>Do</b> di sini bekerja seperti <i>apakah</i>, tapi tidak boleh dihilangkan.</p>
+{{ex:Do you like coffee?|de yu laik KOO-fi?|Kamu suka kopi?}}{{ex:Do you speak English?|de yu spiik ING-glisy?|Kamu berbahasa Inggris?}}
+<p>Jawaban pendeknya mengulang kata kerja bantu: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
+<h3>Kata tanya paling depan</h3>
+<p>Kata tanya seperti <b>what</b> (apa), <b>where</b> (di mana), <b>when</b> (kapan), <b>who</b> (siapa), <b>why</b> (kenapa) dan <b>how</b> (bagaimana) selalu di awal kalimat, lalu diikuti urutan pertanyaan biasa. Dalam bahasa Indonesia kita sering menaruhnya di akhir (<i>Kamu tinggal di mana?</i>); dalam bahasa Inggris tidak bisa.</p>
+{{ex:Where do you live?|wér de yu liv?|Kamu tinggal di mana?}}{{ex:What do you do?|wat de yu duu?|Kamu kerja apa?}}{{ex:Where is the bathroom?|wér iz dhe BÈTH-ruum?|Kamar mandinya di mana?}}{{ex:How much is this?|hau mac iz dhis?|Ini berapa harganya?}}
+<div class="tip">Kesalahan paling umum: <b>You like coffee?</b> ✗ (dalam tulisan) → <b>Do you like coffee?</b> ✓ / <b>Where you live?</b> ✗ → <b>Where do you live?</b> ✓ / <b>Are you like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓</div>`,
+check:[["Bahasa Inggrisnya 'Kamu suka kopi?'",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"Pertanyaan dengan kata kerja biasa diawali \"Do\"."],["Bahasa Inggrisnya 'Kamu tinggal di mana?'",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"Urutannya: kata tanya + do + subjek + kata kerja."],["Jawaban yang tepat untuk \"Do you speak English?\"",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Ditanya dengan \"Do\", dijawab dengan \"do\"."]],
 practice:[
-["mc","'영어 하세요?' =","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","일반동사 질문은 Do로 시작해요."],
-["mc","'어디 사세요?' =","Where do you live?","Where you live?","Where are you live?","Where live you?","의문사 + do + 주어 + 동사예요."],
-["mc","'이거 얼마예요?' =","How much is this?","How much this is?","How much does this?","What much is this?","가격은 How much is ~?로 물어요."],
-["mc","Do you like tea? — 알맞은 대답은?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Do로 물으면 do로 대답해요."],
-["mc","'무슨 일 하세요?' (직업) =","What do you do?","What are you do?","What you do?","What do you?","직업은 What do you do?로 물어요."],
-["or","커피 좋아하세요?","Do you like coffee","Are the","일반동사 질문은 Do로 시작해요. 일반적인 coffee에는 관사가 없어요."],
-["or","화장실이 어디예요?","Where is the bathroom","a do","이 건물의 그 화장실이라서 관사 the예요."],
-["or","어디 사세요?","Where do you live","are","일반동사 질문에는 do가 필요해요."],
-["fi","__ you like music?","음악 좋아하세요?","Do","Are|Is|Does","일반동사 like의 질문은 Do예요."],
-["fi","__ do you live?","어디 사세요?","Where","What|Who|When","장소를 물을 때는 where예요."],
-["fi","What time __ it?","몇 시예요?","is","do|does|are","시간은 be동사로 물어요."],
-["ty","영어 하세요?","Do you speak English","do · speak · English","Are","일반동사 질문은 Do로 시작해요."],
-["ty","화장실이 어디예요?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — 관사 the","a","서로 아는 그 화장실이라 관사 the예요."],
-["ty","개 좋아하세요?","Do you like dogs","do · like · dog — 복수","dog","동물 전체를 말할 때는 복수 dogs예요."]]},
-{ id:"third-s", title:"he·she·it에는 -s: does / doesn't", blurb:"주어가 한 사람이면 동사에 -s. 질문과 부정은 does.", deck:"자기소개", body:`
-<p>현재형에서 주어가 <b>he, she, it</b>이나 한 사람·한 물건이면 동사에 <b>-s</b>를 붙여요. 한국어에 없는 규칙이라 말할 때 자주 빠져요.</p>
-<div class="tbl"><table><tr><th>주어</th><th>동사</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
-{{ex:She works at a bank.|쉬 웍스 앳 어 뱅크|그녀는 은행에서 일해요}}{{ex:He likes soccer.|히 라익스 사커|그는 축구를 좋아해요}}{{ex:My mom cooks well.|마이 맘 쿡스 웰|우리 엄마는 요리를 잘해요}}
-<h3>모양이 조금 바뀌는 동사</h3>
-{{ex:She has a car.|쉬 해즈 어 카|그녀는 차가 있어요 (have → has)}}{{ex:He goes to work at eight.|히 고우즈 투 워크 앳 에잇|그는 8시에 출근해요 (go → goes)}}{{ex:She studies English.|쉬 스터디즈 잉글리시|그녀는 영어를 공부해요 (study → studies)}}
-<h3>부정과 질문은 does</h3>
-<p><b>doesn't</b>나 <b>Does</b>를 쓰면 -s는 거기로 옮겨 가요. 뒤의 동사는 -s 없이 써요.</p>
-{{ex:He doesn't drink coffee.|히 더즌 드링크 커피|그는 커피를 안 마셔요}}{{ex:Does she live here?|더즈 쉬 리브 히어?|그녀는 여기 살아요?}}
-<div class="tip">가장 흔한 실수: <b>She work here.</b> (X) → <b>She works here.</b> (O), <b>Does she works?</b> (X) → <b>Does she work?</b> (O)</div>`,
-check:[["She ___ in Seoul. 빈칸에 알맞은 것은?",["live","lives","living","is live"],1,"she라서 동사에 -s를 붙여요."],["He ___ like coffee. 빈칸에 알맞은 것은?",["don't","isn't","doesn't","not"],2,"he의 부정은 doesn't예요."],["'그녀는 차가 있어요'를 영어로 하면?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"have는 she 뒤에서 has가 돼요."]],
+["mc","'Kamu berbahasa Inggris?' dalam bahasa Inggris?","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","Pertanyaan dengan kata kerja biasa diawali \"Do\"."],
+["mc","'Kamu tinggal di mana?' dalam bahasa Inggris?","Where do you live?","Where you live?","Where are you live?","Where live you?","Kata tanya + do + subjek + kata kerja."],
+["mc","'Ini berapa?' dalam bahasa Inggris?","How much is this?","How much this is?","How much does this?","What much is this?","Harga ditanyakan dengan \"How much is …?\"."],
+["mc","Jawab 'ya' untuk \"Do you like tea?\"","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Ditanya dengan \"Do\", dijawab dengan \"do\"."],
+["mc","'Kamu kerja apa?' (pekerjaan) dalam bahasa Inggris?","What do you do?","What are you do?","What you do?","What do you?","Pekerjaan ditanyakan dengan \"What do you do?\"."],
+["or","Kamu suka kopi?","Do you like coffee","Are the","Diawali \"Do\"; kopi secara umum tanpa artikel."],
+["or","Kamar mandinya di mana?","Where is the bathroom","a do","Kamar mandi di gedung ini sudah sama-sama diketahui, jadi artikel \"the\"."],
+["or","Kamu tinggal di mana?","Where do you live","are","Pertanyaan dengan kata kerja biasa butuh \"do\"."],
+["fi","__ you like music?","Kamu suka musik?","Do","Are|Is|Does","\"Like\" kata kerja biasa, jadi \"Do\"."],
+["fi","__ do you live?","Kamu tinggal di mana?","Where","What|Who|When","Untuk menanyakan tempat, pakai \"where\"."],
+["fi","What time __ it?","Jam berapa sekarang?","is","do|does|are","Jam ditanyakan dengan to be: \"is\"."],
+["ty","Kamu berbahasa Inggris?","Do you speak English","do · speak · English — pakai Do","Are","Pertanyaan dengan kata kerja biasa diawali \"Do\"."],
+["ty","Kamar mandinya di mana?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — artikel the","a","Kamar mandi yang sama-sama diketahui, jadi artikel \"the\"."],
+["ty","Kamu suka anjing?","Do you like dogs","do · like · dog — bentuk jamak","dog","Untuk hewan secara umum, pakai bentuk jamak: \"dogs\"."]]},
+{ id:"third-s", title:"he, she, it + -s: does / doesn't", blurb:"Subjeknya satu orang atau satu benda? Kata kerjanya ditambah -s. Kalimat tanya dan negatif pakai does.", deck:"Perkenalan diri", body:`
+<p>Dalam bahasa Indonesia, kata kerja tidak pernah berubah karena subjeknya: <i>saya kerja</i>, <i>dia kerja</i>. Dalam Simple Present Tense bahasa Inggris, kalau subjeknya <b>he</b>, <b>she</b>, <b>it</b>, atau satu orang atau satu benda, kata kerjanya ditambah <b>-s</b>. Aturannya kecil, tapi mudah terlupa: kesalahan ini bahkan masih sering muncul di skripsi mahasiswa.</p>
+<div class="tbl"><table><tr><th>Subjek</th><th>Kata kerja</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
+{{ex:She works at a bank.|syi werks et e bèngk|Dia (perempuan) bekerja di bank}}{{ex:He likes soccer.|hi laiks SAA-ker|Dia (laki-laki) suka sepak bola}}{{ex:My mom cooks well.|mai maam kuks wél|Ibu saya pintar memasak}}
+<p>Ingat juga: <i>dia</i> bisa berarti <b>he</b> atau <b>she</b>. Pilih sesuai orangnya.</p>
+<h3>Kata kerja yang bentuknya sedikit berubah</h3>
+{{ex:She has a car.|syi hèz e kaar|Dia punya mobil (have → has)}}{{ex:He goes to work at eight.|hi gouz te werk et eit|Dia berangkat kerja jam delapan (go → goes)}}{{ex:She studies English.|syi STA-diz ING-glisy|Dia belajar bahasa Inggris (study → studies)}}
+<h3>Kalimat negatif dan tanya: does</h3>
+<p>Kalau ada <b>doesn't</b> atau <b>Does</b>, -s pindah ke kata kerja bantu itu. Kata kerja sesudahnya kembali ke V1 tanpa -s.</p>
+{{ex:He doesn't drink coffee.|hi DA-zent dringk KOO-fi|Dia tidak minum kopi}}{{ex:Does she live here?|dez syi liv hir?|Dia tinggal di sini?}}
+<div class="tip">Kesalahan paling umum: <b>She work here.</b> ✗ → <b>She works here.</b> ✓ / <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓ / <b>They works.</b> ✗ → <b>They work.</b> ✓</div>`,
+check:[["She ___ in Seoul. Apa isi bagian yang kosong?",["live","lives","living","is live"],1,"Subjeknya \"she\", jadi kata kerja ditambah -s."],["He ___ like coffee. Apa isi bagian yang kosong?",["don't","isn't","doesn't","not"],2,"Kalimat negatif untuk \"he\" pakai \"doesn't\"."],["Bahasa Inggrisnya 'Dia (perempuan) punya mobil'?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"Setelah \"she\", \"have\" menjadi \"has\"."]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","한 사람이라서 works예요."],
-["mc","'그는 커피를 안 마셔요' =","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he의 부정은 doesn't + 동사원형이에요."],
-["mc","'그녀는 여기 살아요?' =","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does 뒤 동사는 -s 없이 써요."],
-["mc","have → she ___","has","haves","have","is have","have는 has로 바뀌어요."],
-["mc","study → he ___","studies","studys","study","studyes","자음 + y는 -ies로 바뀌어요."],
-["or","그녀는 은행에서 일해요","She works at a bank","work the","she라서 works예요. 처음 말하는 직장에는 관사 a를 써요."],
-["or","그는 개가 두 마리 있어요","He has two dogs","have dog","he라서 has, 둘이니까 복수 dogs예요."],
-["or","그녀는 고기를 안 먹어요","She doesn't eat meat","eats","doesn't 뒤에는 -s 없는 동사가 와요."],
-["fi","He __ soccer.","그는 축구를 좋아해요","likes","like|liking|is like","he라서 likes예요."],
-["fi","__ she speak English?","그녀는 영어를 해요?","Does","Do|Is|Are","she의 질문은 Does예요."],
-["fi","She __ to work at eight.","그녀는 8시에 출근해요","goes","go|going|gos","go는 goes가 돼요."],
-["ty","그는 차가 있어요","He has a car","has · car — 관사 a","have","he라서 has, 차 한 대라서 관사 a예요."],
-["ty","그녀는 고양이를 좋아해요","She likes cats","likes · cat — 복수","cat","she라서 likes, 고양이 전체는 복수 cats예요."],
-["ty","그는 여기 안 살아요","He doesn't live here","doesn't · live · here","lives","doesn't 뒤에는 동사원형이 와요."]]},
-{ id:"countable", title:"셀 수 있는 명사와 없는 명사: some, any, much, many", blurb:"water에는 a도 -s도 못 붙여요. many는 셀 수 있을 때, much는 없을 때.", deck:"식당 주문", body:`
-<p>영어 명사는 <b>셀 수 있는 것</b>과 <b>셀 수 없는 것</b>으로 나뉘어요. 한국어에는 없는 구분이라 처음엔 낯설어요.</p>
-<div class="tbl"><table><tr><th>셀 수 있음</th><th>셀 수 없음</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, 숫자, -s 가능</td><td>a / an, 숫자, -s 불가능</td></tr></table></div>
-<h3>some 과 any</h3>
-<p>'조금, 몇 개'는 긍정문에서 <b>some</b>, 부정문과 질문에서 <b>any</b>예요.</p>
-{{ex:I have some money.|아이 해브 썸 머니|돈이 좀 있어요}}{{ex:I don't have any money.|아이 돈 해브 애니 머니|돈이 하나도 없어요}}{{ex:Do you have any questions?|두 유 해브 애니 퀘스천즈?|질문 있어요?}}
-<h3>many 와 much</h3>
-<p>셀 수 있으면 <b>many</b> + 복수, 셀 수 없으면 <b>much</b>예요. <b>a lot of</b>는 둘 다 돼요.</p>
-{{ex:How many people?|하우 매니 피플?|몇 명이에요?}}{{ex:How much is it?|하우 머치 이즈 잇?|얼마예요?}}{{ex:I don't have much time.|아이 돈 해브 머치 타임|시간이 별로 없어요}}
-<h3>셀 수 없는 것을 세는 방법</h3>
-{{ex:a glass of water|어 글래스 오브 워러|물 한 잔}}{{ex:a cup of coffee|어 컵 오브 커피|커피 한 잔}}
-<div class="tip">가장 흔한 실수: <b>a water</b>, <b>many money</b>, <b>informations</b> (X) → <b>some water</b>, <b>much money</b>, <b>information</b> (O)</div>`,
-check:[["How ___ people are there? 빈칸에 알맞은 것은?",["much","many","any","a"],1,"people은 셀 수 있어서 many예요."],["다음 중 셀 수 없는 명사는?",["apple","chair","water","friend"],2,"water에는 a나 -s를 붙이지 않아요."],["I don't have ___ money. 빈칸에 알맞은 것은?",["some","a","many","any"],3,"부정문에서는 any를 써요."]],
+["mc","My brother ___ in Busan. Apa isi bagian yang kosong?","works","work","working","is work","Satu orang, jadi \"works\"."],
+["mc","'Dia (laki-laki) tidak minum kopi' dalam bahasa Inggris?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","Untuk \"he\": \"doesn't\" + V1."],
+["mc","'Dia (perempuan) tinggal di sini?' dalam bahasa Inggris?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Setelah \"Does\", kata kerja tanpa -s."],
+["mc","Bentuk \"have\" untuk \"she\"?","has","haves","have","is have","\"Have\" berubah menjadi \"has\"."],
+["mc","Bentuk \"study\" untuk \"he\"?","studies","studys","study","studyes","Konsonan + y menjadi -ies."],
+["or","Dia (perempuan) bekerja di bank","She works at a bank","work the","\"She\" + \"works\"; tempat kerja yang baru disebut pakai artikel \"a\"."],
+["or","Dia (laki-laki) punya dua anjing","He has two dogs","have dog","\"He\" + \"has\"; ada \"two\", jadi jamak \"dogs\"."],
+["or","Dia (perempuan) tidak makan daging","She doesn't eat meat","eats","Setelah \"doesn't\", kata kerja tanpa -s."],
+["fi","He __ soccer.","Dia (laki-laki) suka sepak bola","likes","like|liking|is like","Subjeknya \"he\", jadi \"likes\"."],
+["fi","__ she speak English?","Dia (perempuan) berbahasa Inggris?","Does","Do|Is|Are","Pertanyaan untuk \"she\" pakai \"Does\"."],
+["fi","She __ to work at eight.","Dia (perempuan) berangkat kerja jam delapan","goes","go|going|gos","\"Go\" menjadi \"goes\"."],
+["ty","Dia (laki-laki) punya mobil","He has a car","has · car — artikel a","have","\"He\" + \"has\"; satu mobil, jadi artikel \"a\"."],
+["ty","Dia (perempuan) suka kucing","She likes cats","likes · cat — bentuk jamak","cat","\"She\" + \"likes\"; kucing secara umum pakai jamak \"cats\"."],
+["ty","Dia (laki-laki) tidak tinggal di sini","He doesn't live here","doesn't · live · here — kata kerja V1","lives","Setelah \"doesn't\", kata kerja kembali ke V1."]]},
+{ id:"countable", title:"Bisa dihitung atau tidak: some, any, much, many", blurb:"‘Banyak’ dalam bahasa Inggris ada dua: many untuk yang bisa dihitung, much untuk yang tidak.", deck:"Pesan di restoran", body:`
+<p>Kata benda bahasa Inggris dibagi dua: <b>yang bisa dihitung</b> (<b>countable</b>) dan <b>yang tidak bisa dihitung</b> (<b>uncountable</b>). Bahasa Indonesia tidak membedakannya; <i>banyak</i> dipakai untuk apa saja: <i>banyak teman</i>, <i>banyak uang</i>. Dalam bahasa Inggris, pilihan katanya tergantung jenis kata bendanya.</p>
+<div class="tbl"><table><tr><th>Bisa dihitung</th><th>Tidak bisa dihitung</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>bisa pakai a / an, angka, -s jamak</td><td>tidak bisa pakai a / an, angka, -s jamak</td></tr></table></div>
+<p>Hati-hati dengan kata yang dalam bahasa Indonesia terasa bisa dihitung: <b>information</b> (informasi), <b>advice</b> (saran), <b>baggage</b> (bagasi), <b>furniture</b> (perabot). Semuanya tidak bisa dihitung, jadi tanpa -s dan tanpa <b>a</b>.</p>
+<h3>some dan any</h3>
+<p>‘Sedikit, beberapa’ dalam kalimat positif pakai <b>some</b>, dalam kalimat negatif dan kalimat tanya pakai <b>any</b>.</p>
+{{ex:I have some money.|ai hèv sem MA-ni|Saya punya sedikit uang}}{{ex:I don't have any money.|ai dount hèv É-ni MA-ni|Saya tidak punya uang sama sekali}}{{ex:Do you have any questions?|de yu hèv É-ni KWÉS-cenz?|Ada pertanyaan?}}
+<h3>many dan much</h3>
+<p>Yang bisa dihitung: <b>many</b> + bentuk jamak. Yang tidak bisa dihitung: <b>much</b>. <b>A lot of</b> bisa untuk keduanya.</p>
+{{ex:How many people?|hau MÉ-ni PII-pel?|Berapa orang?}}{{ex:How much is it?|hau mac iz it?|Berapa harganya?}}{{ex:I don't have much time.|ai dount hèv mac taim|Saya tidak punya banyak waktu}}
+<h3>Cara menghitung yang tidak bisa dihitung</h3>
+<p>Mirip <i>segelas</i> dan <i>secangkir</i> dalam bahasa Indonesia, kita sebut wadahnya.</p>
+{{ex:a glass of water|e glès ev WAA-der|segelas air}}{{ex:a cup of coffee|e kap ev KOO-fi|secangkir kopi}}
+<div class="tip">Kesalahan paling umum: <b>a water</b>, <b>many money</b>, <b>informations</b>, <b>advices</b> ✗ → <b>some water</b>, <b>much money</b>, <b>information</b>, <b>advice</b> ✓</div>`,
+check:[["How ___ people are there? Apa isi bagian yang kosong?",["much","many","any","a"],1,"\"People\" bisa dihitung, jadi \"many\"."],["Mana kata benda yang tidak bisa dihitung?",["apple","chair","water","friend"],2,"\"Water\" tidak bisa diberi \"a\" atau -s."],["I don't have ___ money. Apa isi bagian yang kosong?",["some","a","many","any"],3,"Dalam kalimat negatif, pakai \"any\"."]],
 practice:[
-["mc","Can I have ___ water?","some","a","many","an","water는 셀 수 없어서 a나 many를 못 써요."],
-["mc","How ___ time do we have?","much","many","any","a","time은 셀 수 없어서 much예요."],
-["mc","'질문 있어요?' =","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","any 뒤 셀 수 있는 명사는 복수예요."],
-["mc","'물 한 잔' =","a glass of water","a water glass of","one waters","a glass water","셀 수 없는 것은 a glass of로 세요."],
-["mc","I have ___ friends in Seoul.","many","much","a","an","friends는 셀 수 있는 복수라서 many예요."],
-["or","저는 돈이 좀 있어요","I have some money","a moneys","money는 셀 수 없어서 관사 a나 복수 -s를 못 붙여요."],
-["or","사과 두 개 주세요","Two apples please","apple","둘이니까 복수 apples예요."],
-["or","시간이 별로 없어요","I don't have much time","many","time은 셀 수 없어서 much예요."],
-["fi","How __ is this?","이거 얼마예요?","much","many|any|some","가격은 how much로 물어요."],
-["fi","I don't have __ questions.","질문 없어요","any","some|much|a","부정문에서는 any를 써요."],
-["fi","a cup __ coffee","커피 한 잔","of","for|in|a","a cup of ~로 세요."],
-["ty","물 좀 주시겠어요?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — 관사 없이","a","water는 셀 수 없어서 관사 a 대신 some을 써요."],
-["ty","질문 있어요?","Do you have any questions","any · question — 복수","question","any 뒤 셀 수 있는 명사는 복수 questions예요."],
-["ty","몇 명이에요?","How many people","how many · people","much","사람은 셀 수 있어서 many예요."]]},
-{ id:"object-have", title:"me, him, her와 have", blurb:"동사 뒤에는 I가 아니라 me. 그리고 만능 동사 have.", deck:"자기소개", body:`
-<p>한국어는 '를'만 붙이면 되지만, 영어는 대명사의 <b>모양 자체</b>가 바뀌어요. 동사나 전치사 <b>뒤</b>에는 이 모양을 써요.</p>
-<div class="tbl"><table><tr><th>주어</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>목적어</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
-{{ex:She knows me.|쉬 노우즈 미|그녀는 저를 알아요}}{{ex:I like him.|아이 라익 힘|저는 그를 좋아해요}}{{ex:Can you help us?|캔 유 헬프 어스?|우리 좀 도와줄래요?}}{{ex:I work with her.|아이 워크 윋 허|저는 그녀와 같이 일해요}}
-<h3>have: 있다, 가지다</h3>
-<p>'~가 있어요'를 사람 주어로 말할 때 써요. 가족, 물건, 시간 모두 have예요.</p>
-{{ex:I have two brothers.|아이 해브 투 브라더즈|저는 형이 둘 있어요}}{{ex:Do you have a pen?|두 유 해버 펜?|펜 있어요?}}{{ex:I don't have time.|아이 돈 해브 타임|시간이 없어요}}
-<h3>have: 먹다, 마시다</h3>
-<p>식사 이름 앞에는 관사를 붙이지 않아요.</p>
-{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}{{ex:I have coffee every morning.|아이 해브 커피 에브리 모닝|저는 매일 아침 커피를 마셔요}}
-<div class="tip">가장 흔한 실수: <b>She knows I.</b> (X) → <b>She knows me.</b> (O), <b>I am two brothers.</b> (X) → <b>I have two brothers.</b> (O)</div>`,
-check:[["I like ___. (그를)",["he","his","him","he's"],2,"동사 뒤에는 목적격 him이에요."],["Can you help ___? (우리를)",["us","we","our","ours"],0,"동사 뒤에는 목적격 us예요."],["'펜 있어요?'를 영어로 하면?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have는 일반동사라서 Do로 물어요."]],
+["mc","Can I have ___ water? Apa isi bagian yang kosong?","some","a","many","an","\"Water\" tidak bisa dihitung, jadi tidak bisa pakai \"a\" atau \"many\"."],
+["mc","How ___ time do we have? Apa isi bagian yang kosong?","much","many","any","a","\"Time\" tidak bisa dihitung, jadi \"much\"."],
+["mc","'Ada pertanyaan?' dalam bahasa Inggris?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","Setelah \"any\", kata benda yang bisa dihitung berbentuk jamak."],
+["mc","'segelas air' dalam bahasa Inggris?","a glass of water","a water glass of","one waters","a glass water","Yang tidak bisa dihitung dihitung dengan wadahnya: \"a glass of\"."],
+["mc","I have ___ friends in Seoul. Apa isi bagian yang kosong?","many","much","a","an","\"Friends\" bisa dihitung dan jamak, jadi \"many\"."],
+["or","Saya punya sedikit uang","I have some money","a moneys","\"Money\" tidak bisa dihitung: tanpa artikel \"a\" dan tanpa -s jamak."],
+["or","Apelnya dua, ya","Two apples please","apple","Ada \"two\", jadi bentuk jamak \"apples\"."],
+["or","Saya tidak punya banyak waktu","I don't have much time","many","\"Time\" tidak bisa dihitung, jadi \"much\"."],
+["fi","How __ is this?","Ini berapa harganya?","much","many|any|some","Harga ditanyakan dengan \"how much\"."],
+["fi","I don't have __ questions.","Saya tidak punya pertanyaan","any","some|much|a","Dalam kalimat negatif, pakai \"any\"."],
+["fi","a cup __ coffee","secangkir kopi","of","for|in|a","Polanya \"a cup of …\"."],
+["ty","Boleh minta air?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — tanpa artikel","a","\"Water\" tidak bisa dihitung, jadi \"some\", bukan artikel \"a\"."],
+["ty","Kamu punya pertanyaan?","Do you have any questions","any · question — bentuk jamak","question","Setelah \"any\", kata benda yang bisa dihitung menjadi jamak: \"questions\"."],
+["ty","Berapa orang?","How many people","how many · people — bukan much","much","Orang bisa dihitung, jadi \"many\"."]]},
+{ id:"object-have", title:"me, him, her dan have", blurb:"Setelah kata kerja, bukan I tapi me. Dia bisa him atau her, dan ‘punya’ = have.", deck:"Perkenalan diri", body:`
+<p>Dalam bahasa Indonesia, kata ganti tidak berubah bentuk: <i>Dia kenal saya</i>, <i>Saya kenal dia</i>. Dalam bahasa Inggris, kata ganti punya bentuk khusus untuk objek, yang dipakai <b>setelah</b> kata kerja atau preposisi (kata depan).</p>
+<div class="tbl"><table><tr><th>Subjek</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>Objek</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
+<p><i>Dia</i> harus dipilih: laki-laki <b>he / him</b>, perempuan <b>she / her</b>. Begitu juga akhiran <i>-nya</i>: <b>his</b>, <b>her</b>, atau <b>its</b> untuk benda dan hewan.</p>
+{{ex:She knows me.|syi nouz mi|Dia kenal saya}}{{ex:I like him.|ai laik him|Saya suka dia (laki-laki)}}{{ex:Can you help us?|ken yu hélp as?|Bisa bantu kami?}}{{ex:I work with her.|ai werk widh her|Saya bekerja dengan dia (perempuan)}}{{ex:Budi loves his mother.|BUU-di lavz hiz MA-dher|Budi sayang ibunya}}
+<h3>have: punya</h3>
+<p>Dalam bahasa sehari-hari kita sering bilang <i>Saya ada mobil</i>. Dalam bahasa Inggris, apa pun yang dimiliki seseorang pakai <b>have</b>: keluarga, barang, juga waktu.</p>
+{{ex:I have two brothers.|ai hèv tuu BRA-dherz|Saya punya dua saudara laki-laki}}{{ex:Do you have a pen?|de yu hèv e pén?|Kamu punya pulpen?}}{{ex:I don't have time.|ai dount hèv taim|Saya tidak punya waktu}}
+<h3>have: makan, minum</h3>
+<p>Di depan nama waktu makan (<b>breakfast</b>, <b>lunch</b>, <b>dinner</b>) tidak pakai artikel.</p>
+{{ex:Let's have lunch.|léts hèv lanc|Ayo makan siang}}{{ex:I have coffee every morning.|ai hèv KOO-fi ÉV-ri MOOR-ning|Saya minum kopi setiap pagi}}
+<div class="tip">Kesalahan paling umum: <b>She knows I.</b> ✗ → <b>She knows me.</b> ✓ / <b>Budi loves her mother.</b> ✗ (kalau maksudnya ibu Budi) → <b>Budi loves his mother.</b> ✓ / <b>I am two brothers.</b> ✗ → <b>I have two brothers.</b> ✓</div>`,
+check:[["I like ___. (dia, laki-laki) Apa isi bagian yang kosong?",["he","his","him","he's"],2,"Setelah kata kerja, pakai bentuk objek \"him\"."],["Can you help ___? (kami) Apa isi bagian yang kosong?",["us","we","our","ours"],0,"Setelah kata kerja, pakai bentuk objek \"us\"."],["Bahasa Inggrisnya 'Kamu punya pulpen?'",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"\"Have\" kata kerja biasa, jadi ditanyakan dengan \"Do\"."]],
 practice:[
-["mc","She knows ___. (나를)","me","I","my","mine","동사 뒤에는 목적격 me예요."],
-["mc","I like ___. (그들을)","them","they","their","theirs","동사 뒤에는 목적격 them이에요."],
-["mc","'우리 좀 도와줄래요?' =","Can you help us?","Can you help we?","Can you help our?","Can us help you?","동사 뒤에는 us예요."],
-["mc","'점심 먹어요' =","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","식사 이름에는 관사를 붙이지 않아요."],
-["mc","'저는 형이 둘 있어요' =","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","가족은 have로 말하고, 둘이니까 복수예요."],
-["or","펜 있어요?","Do you have a pen","the pens","아무 펜 하나라서 관사 a와 단수 pen이에요."],
-["or","저는 그녀를 좋아해요","I like her","she","동사 뒤에는 목적격 her예요."],
-["or","저는 여동생이 둘 있어요","I have two sisters","sister a","둘이니까 복수 sisters예요. 관사 a는 못 써요."],
-["fi","Call __ tonight.","오늘 밤에 저한테 전화해요","me","I|my|mine","동사 뒤에는 me예요."],
-["fi","I work with __.","저는 그와 같이 일해요","him","he|his|he's","전치사 뒤에도 목적격을 써요."],
-["fi","She __ a dog.","그녀는 개를 키워요","has","have|is|haves","she라서 has예요."],
-["ty","저 좀 도와줄래요?","Can you help me|Could you help me","can you · help · me","I","동사 뒤에는 목적격 me예요."],
-["ty","펜 있어요?","Do you have a pen","do you have · pen — 관사 a","the","아무 펜 하나를 찾으니까 관사 a예요."],
-["ty","저는 친구가 많아요","I have many friends|I have a lot of friends","have · many · friend — 복수","friend","many 뒤에는 복수 friends가 와요."]]},
-{ id:"can-like", title:"can, like + -ing, I'd like: 할 수 있는 것과 원하는 것", blurb:"할 수 있는 것, 좋아하는 것, 지금 원하는 것을 말해요.", deck:"스몰토크", body:`
-<p>자기소개와 주문에 바로 쓰는 세 가지 틀이에요.</p>
-<h3>can: 할 수 있어요</h3>
-<p><b>can + 동사원형</b>이에요. 주어가 he, she여도 -s를 붙이지 않아요.</p>
-{{ex:I can swim.|아이 캔 스윔|저는 수영할 수 있어요}}{{ex:I can't drive.|아이 캔트 드라이브|저는 운전 못 해요}}{{ex:Can you speak Korean?|캔 유 스픽 코리언?|한국어 할 수 있어요?}}
-<h3>like + -ing: ~하는 걸 좋아해요</h3>
-<p>취미를 말할 때는 like, love 뒤에 <b>동사 + ing</b>를 써요.</p>
-{{ex:I like cooking.|아이 라익 쿠킹|저는 요리하는 걸 좋아해요}}{{ex:I love watching movies.|아이 러브 왓칭 무비즈|저는 영화 보는 걸 정말 좋아해요}}{{ex:I don't like running.|아이 돈 라익 러닝|저는 달리기를 안 좋아해요}}
-<h3>I'd like: ~주세요, ~하고 싶어요</h3>
-<p><b>I like</b>는 늘 좋아한다는 뜻이고, <b>I'd like</b>는 지금 원한다는 공손한 표현이에요. 주문할 때는 I'd like를 써요.</p>
-{{ex:I'd like a coffee, please.|아이드 라이커 커피 플리즈|커피 한 잔 주세요}}{{ex:Would you like some tea?|우쥬 라익 썸 티?|차 좀 드릴까요?}}
-<div class="tip">가장 흔한 실수: <b>He can swims.</b> (X) → <b>He can swim.</b> (O), 카페에서 <b>I like a coffee.</b> (X) → <b>I'd like a coffee.</b> (O)</div>`,
-check:[["She can ___ very well. 빈칸에 알맞은 것은?",["sings","sing","singing","to sing"],1,"can 뒤에는 동사원형이 와요."],["'저는 요리하는 걸 좋아해요'를 영어로 하면?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like 뒤에는 -ing를 써요."],["카페에서 주문할 때 가장 자연스러운 말은?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"지금 원하는 것은 I'd like로 말해요."]],
+["mc","She knows ___. (saya) Apa isi bagian yang kosong?","me","I","my","mine","Setelah kata kerja, pakai bentuk objek \"me\"."],
+["mc","I like ___. (mereka) Apa isi bagian yang kosong?","them","they","their","theirs","Setelah kata kerja, pakai bentuk objek \"them\"."],
+["mc","'Bisa bantu kami?' dalam bahasa Inggris?","Can you help us?","Can you help we?","Can you help our?","Can us help you?","Setelah kata kerja, pakai \"us\"."],
+["mc","'Ayo makan siang' dalam bahasa Inggris?","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","Nama waktu makan tidak pakai artikel."],
+["mc","'Saya punya dua saudara laki-laki' dalam bahasa Inggris?","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","Keluarga pakai \"have\", dan setelah \"two\" pakai jamak."],
+["or","Kamu punya pulpen?","Do you have a pen","the pens","Pulpen apa saja, satu, jadi artikel \"a\" dan bentuk tunggal \"pen\"."],
+["or","Saya suka dia (perempuan)","I like her","she","Setelah kata kerja, pakai bentuk objek \"her\"."],
+["or","Saya punya dua adik perempuan","I have two sisters","sister a","Ada \"two\", jadi jamak \"sisters\"; artikel \"a\" tidak bisa dipakai."],
+["fi","Call __ tonight.","Telepon saya nanti malam","me","I|my|mine","Setelah kata kerja, pakai \"me\"."],
+["fi","I work with __.","Saya bekerja dengan dia (laki-laki)","him","he|his|he's","Setelah preposisi juga pakai bentuk objek."],
+["fi","She __ a dog.","Dia (perempuan) memelihara anjing","has","have|is|haves","Subjeknya \"she\", jadi \"has\"."],
+["ty","Bisa bantu saya?","Can you help me|Could you help me","can you · help · me — bentuk objek","I","Setelah kata kerja, pakai bentuk objek \"me\"."],
+["ty","Kamu punya pulpen?","Do you have a pen","do you have · pen — artikel a","the","Mencari pulpen apa saja, jadi artikel \"a\"."],
+["ty","Saya punya banyak teman","I have many friends|I have a lot of friends","have · many · friend — bentuk jamak","friend","Setelah \"many\", kata benda berbentuk jamak: \"friends\"."]]},
+{ id:"can-like", title:"can, like + -ing, I'd like: yang bisa dan yang diinginkan", blurb:"Bisa = can, suka melakukan = like + -ing, dan untuk memesan: I'd like.", deck:"Obrolan ringan", body:`
+<p>Tiga pola ini langsung terpakai untuk memperkenalkan diri dan memesan. Ketiganya punya padanan yang jelas dalam bahasa Indonesia: <i>bisa</i>, <i>suka</i>, dan <i>mau</i> atau <i>pengin</i>.</p>
+<h3>can: bisa</h3>
+<p>Polanya <b>can + V1</b>. Meskipun subjeknya he atau she, tidak ada -s: <b>She can swim</b>.</p>
+{{ex:I can swim.|ai ken swim|Saya bisa berenang}}{{ex:I can't drive.|ai kènt draiv|Saya tidak bisa menyetir}}{{ex:Can you speak Indonesian?|ken yu spiik in-de-NII-zyen?|Kamu bisa bahasa Indonesia?}}
+<h3>like + -ing: suka melakukan sesuatu</h3>
+<p>Untuk hobi, setelah <b>like</b> atau <b>love</b> pakai kata kerja bentuk -ing. Dalam bahasa Indonesia cukup <i>suka masak</i>, tapi <b>I like cook</b> salah.</p>
+{{ex:I like cooking.|ai laik KU-king|Saya suka memasak}}{{ex:I love watching movies.|ai lav WAA-cing MUU-viz|Saya senang sekali menonton film}}{{ex:I don't like running.|ai dount laik RA-ning|Saya tidak suka lari}}
+<h3>I'd like: saya mau (dengan sopan)</h3>
+<p><b>I like</b> berarti suka secara umum, sedangkan <b>I'd like</b> berarti ‘saya mau’ sekarang, dengan sopan, mirip <i>Saya pesan …</i>. Untuk memesan, pakai <b>I'd like</b>.</p>
+{{ex:I'd like a coffee, please.|aid laik e KOO-fi, pliiz|Saya pesan kopi satu}}{{ex:Would you like some tea?|wud yu laik sem tii?|Mau teh?}}
+<div class="tip">Kesalahan paling umum: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓ / di kafe, <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
+check:[["She can ___ very well. Apa isi bagian yang kosong?",["sings","sing","singing","to sing"],1,"Setelah \"can\", kata kerja V1."],["Bahasa Inggrisnya 'Saya suka memasak'?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"Setelah \"like\", pakai bentuk -ing."],["Kalimat yang paling wajar untuk memesan di kafe?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"Yang kamu mau sekarang diucapkan dengan \"I'd like\"."]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can 뒤에는 동사원형이 와요."],
-["mc","'저는 운전 못 해요' =","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can의 부정은 can't예요."],
-["mc","'저는 영화 보는 걸 좋아해요' =","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like 뒤는 -ing, 영화 전체는 복수 movies예요."],
-["mc","주문할 때 '커피 한 잔 주세요' =","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","지금 원하는 것은 I'd like로 말해요."],
-["mc","'차 좀 드릴까요?' =","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","권할 때는 Would you like ~?예요."],
-["or","커피 한 잔 주세요","I'd like a coffee please","the coffees","주문하는 한 잔이라 관사 a와 단수 coffee예요."],
-["or","저는 책 읽는 걸 좋아해요","I like reading books","book read","like 뒤는 -ing, 책 전체는 복수 books예요."],
-["or","수영할 줄 알아요?","Can you swim","swimming","can 뒤에는 동사원형이 와요."],
-["fi","I can't __.","저는 수영 못 해요","swim","swimming|swims|to swim","can't 뒤에는 동사원형이 와요."],
-["fi","I like __ music.","저는 음악 듣는 걸 좋아해요","listening to","listen to|listen|to listening","like 뒤에는 -ing를 써요."],
-["fi","__ like a sandwich, please.","샌드위치 하나 주세요","I'd|I would","I|I'm|I can","주문은 I'd like로 해요."],
-["ty","저는 요리하는 걸 좋아해요","I like cooking|I love cooking|I like to cook","like · cook — -ing","cook","like 뒤에는 -ing를 써요."],
-["ty","샌드위치 하나 주세요","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich","I'd like · sandwich — 관사 a","the","아무 샌드위치 하나라서 관사 a예요."],
-["ty","저는 개를 좋아해요","I like dogs|I love dogs","like · dog — 복수","dog","개 전체를 말할 때는 복수 dogs예요."]]},
-{ id:"continuous", title:"지금 하는 중: be + -ing", blurb:"늘 하는 일은 현재형, 지금 하는 일은 be + -ing.", deck:"스몰토크", body:`
-<p>한국어 "일해요"는 습관도 되고 지금 하는 일도 돼요. 영어는 둘을 나눠요. <b>지금 이 순간</b> 하고 있는 일은 <b>be + 동사-ing</b>예요.</p>
-{{ex:I'm working now.|아임 워킹 나우|저 지금 일하고 있어요}}{{ex:She's cooking dinner.|쉬즈 쿠킹 디너|그녀는 저녁을 만들고 있어요}}{{ex:It's raining.|이츠 레이닝|비가 오고 있어요}}
-<h3>질문과 부정</h3>
-{{ex:What are you doing?|와라유 두잉?|지금 뭐 해요?}}{{ex:Are you listening?|아 유 리스닝?|듣고 있어요?}}{{ex:I'm not sleeping.|아임 낫 슬리핑|저 안 자고 있어요}}
-<h3>현재형과 비교</h3>
-<div class="tbl"><table><tr><th>늘 (현재형)</th><th>지금 (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
-<h3>-ing를 붙이지 않는 동사</h3>
-<p>like, know, want, need, have(가지다)처럼 <b>상태</b>를 말하는 동사는 지금 일이어도 현재형으로 써요.</p>
-{{ex:I know him.|아이 노우 힘|저는 그를 알아요}}{{ex:I want some water.|아이 원트 썸 워러|물이 마시고 싶어요}}
-<div class="tip">가장 흔한 실수: be동사를 빼먹는 것. <b>I working.</b> (X) → <b>I'm working.</b> (O), <b>I'm knowing.</b> (X) → <b>I know.</b> (O)</div>`,
-check:[["'지금 뭐 해요?'를 영어로 하면?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"지금 하는 일은 be + -ing로 물어요."],["I ___ coffee every morning. 빈칸에 알맞은 것은?",["am drinking","drinking","drink","am drink"],2,"매일 하는 습관은 현재형이에요."],["다음 중 알맞은 문장은?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"know, want, have(소유)는 -ing를 쓰지 않아요."]],
+["mc","He can ___ Korean. Apa isi bagian yang kosong?","speak","speaks","speaking","to speak","Setelah \"can\", kata kerja V1."],
+["mc","'Saya tidak bisa menyetir' dalam bahasa Inggris?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","Bentuk negatif \"can\" adalah \"can't\"."],
+["mc","'Saya suka menonton film' dalam bahasa Inggris?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","Setelah \"like\" pakai -ing; film secara umum pakai jamak \"movies\"."],
+["mc","Untuk memesan, 'Saya pesan kopi satu' dalam bahasa Inggris?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","Yang kamu mau sekarang pakai \"I'd like\"."],
+["mc","'Mau teh?' (menawarkan) dalam bahasa Inggris?","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","Untuk menawarkan, pakai \"Would you like …?\"."],
+["or","Saya pesan kopi satu","I'd like a coffee please","the coffees","Satu gelas yang dipesan, jadi artikel \"a\" dan bentuk tunggal \"coffee\"."],
+["or","Saya suka membaca buku","I like reading books","book read","Setelah \"like\" pakai -ing; buku secara umum pakai jamak \"books\"."],
+["or","Kamu bisa berenang?","Can you swim","swimming","Setelah \"can\", kata kerja V1."],
+["fi","I can't __.","Saya tidak bisa berenang","swim","swimming|swims|to swim","Setelah \"can't\", kata kerja V1."],
+["fi","I like __ music.","Saya suka mendengarkan musik","listening to","listen to|listen|to listening","Setelah \"like\", pakai bentuk -ing."],
+["fi","__ like a sandwich, please.","Saya pesan satu sandwich","I'd|I would","I|I'm|I can","Untuk memesan, pakai \"I'd like\"."],
+["ty","Saya suka memasak","I like cooking|I love cooking|I like to cook","like · cook — bentuk -ing","cook","Setelah \"like\", pakai bentuk -ing."],
+["ty","Saya pesan satu sandwich","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich","I'd like · sandwich — artikel a","the","Sandwich apa saja, satu, jadi artikel \"a\"."],
+["ty","Saya suka anjing","I like dogs|I love dogs","like · dog — bentuk jamak","dog","Untuk anjing secara umum, pakai jamak \"dogs\"."]]},
+{ id:"continuous", title:"Sedang terjadi: be + -ing", blurb:"Kebiasaan pakai Simple Present Tense, yang sedang terjadi sekarang pakai be + -ing.", deck:"Obrolan ringan", body:`
+<p>Dalam bahasa Indonesia, <i>sedang</i> menandai kegiatan yang berlangsung sekarang: <i>Saya sedang bekerja</i>. Tapi <i>sedang</i> sering dihilangkan, sehingga <i>Saya kerja</i> bisa berarti kebiasaan atau sekarang. Dalam bahasa Inggris, yang terjadi <b>saat ini</b> wajib pakai <b>be + kata kerja-ing</b> (Present Continuous Tense). Bagian <b>be</b> tidak boleh hilang.</p>
+{{ex:I'm working now.|aim WER-king nau|Saya sedang bekerja}}{{ex:She's cooking dinner.|syiz KU-king DI-ner|Dia sedang memasak makan malam}}{{ex:It's raining.|its REI-ning|Sedang hujan}}
+<h3>Kalimat tanya dan kalimat negatif</h3>
+{{ex:What are you doing?|wat er yu DUU-ing?|Kamu sedang apa?}}{{ex:Are you listening?|er yu LI-se-ning?|Kamu sedang mendengarkan?}}{{ex:I'm not sleeping.|aim naat SLII-ping|Saya tidak sedang tidur}}
+<h3>Bandingkan dengan Simple Present Tense</h3>
+<div class="tbl"><table><tr><th>Kebiasaan (Simple Present)</th><th>Sekarang (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
+<h3>Kata kerja yang tidak pakai -ing</h3>
+<p>Kata kerja yang menyatakan <b>keadaan</b>, seperti like, know, want, need dan have (punya), tetap memakai Simple Present Tense meskipun maksudnya sekarang.</p>
+{{ex:I know him.|ai nou him|Saya kenal dia}}{{ex:I want some water.|ai waant sem WAA-der|Saya mau minum air}}
+<div class="tip">Kesalahan paling umum: lupa <b>to be</b>. <b>I working.</b> ✗ → <b>I'm working.</b> ✓ / <b>I'm knowing.</b> ✗ → <b>I know.</b> ✓</div>`,
+check:[["Bahasa Inggrisnya 'Kamu sedang apa?'",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"Yang sedang terjadi ditanyakan dengan be + -ing."],["I ___ coffee every morning. Apa isi bagian yang kosong?",["am drinking","drinking","drink","am drink"],2,"Kebiasaan setiap hari pakai Simple Present Tense."],["Pilih kalimat yang benar.",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"\"Know\", \"want\" dan \"have\" (punya) tidak pakai -ing."]],
 practice:[
-["mc","'저 지금 일하고 있어요' =","I'm working now.","I work now am.","I'm work now.","I working now.","지금 하는 일은 be + -ing예요."],
-["mc","'그녀는 저녁을 만들고 있어요' =","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","be + -ing이고, 식사 이름에는 관사가 없어요."],
-["mc","매일 하는 일을 말하는 문장은?","I walk to work every day.","I'm walking to work every day.","I walking to work every day.","I'm walk to work every day.","습관은 현재형이에요."],
-["mc","'지금 뭐 해요?' =","What are you doing?","What do you doing?","What are you do?","What you are doing?","의문사 + be + 주어 + -ing예요."],
-["mc","'저는 그를 알아요' =","I know him.","I'm knowing him.","I knowing him.","I'm know him.","know는 -ing를 쓰지 않는 동사예요."],
-["or","저는 책을 읽고 있어요","I'm reading a book","read books","지금 읽는 한 권이라 관사 a와 단수 book이에요."],
-["or","아이들이 놀고 있어요","The kids are playing","kid is","여럿이라 복수 kids와 are를 써요."],
-["or","지금 비가 오고 있어요","It's raining now","rains","지금 일어나는 일은 be + -ing예요."],
-["fi","I'm __ TV.","저는 TV를 보고 있어요","watching","watch|watches|to watch","be 뒤에는 -ing가 와요."],
-["fi","What __ you doing?","뭐 하고 있어요?","are","do|is|does","you에는 are예요."],
-["fi","She __ working today.","그녀는 오늘 일 안 해요","isn't|is not","doesn't|don't|not","be + -ing의 부정은 isn't예요."],
-["ty","저 지금 요리하고 있어요","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — -ing · now","cook","지금 하는 일은 be + -ing예요."],
-["ty","저는 영화를 보고 있어요","I'm watching a movie","I'm · watching · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","아이들이 자고 있어요","The kids are sleeping|The children are sleeping","kids · are · sleeping — 복수","kid","여럿이라 복수 kids와 are예요."]]},
-{ id:"past", title:"과거형: was / were와 -ed", blurb:"be동사는 was·were, 일반동사는 -ed. 질문과 부정은 did.", deck:"스몰토크", body:`
-<p>한국어의 '-았/었어요'에 해당해요. be동사와 일반동사의 과거가 따로 있어요.</p>
-<h3>be동사의 과거: was / were</h3>
-<p>I, he, she, it에는 <b>was</b>, you, we, they에는 <b>were</b>예요.</p>
-{{ex:I was tired.|아이 워즈 타이어드|피곤했어요}}{{ex:It was fun.|잇 워즈 펀|재미있었어요}}{{ex:We were at home.|위 워 앳 홈|우리는 집에 있었어요}}{{ex:Were you busy?|워 유 비지?|바빴어요?}}
-<h3>일반동사의 과거: -ed</h3>
-<p>동사 끝에 <b>-ed</b>를 붙여요. 주어가 누구든 모양이 같아요.</p>
-{{ex:I worked yesterday.|아이 웍트 예스터데이|어제 일했어요}}{{ex:We watched a movie.|위 왓치트 어 무비|우리는 영화를 봤어요}}{{ex:She called me.|쉬 콜드 미|그녀가 저한테 전화했어요}}
-<h3>부정과 질문은 did</h3>
-<p><b>didn't</b>나 <b>Did</b>를 쓰면 동사는 원래 모양으로 돌아가요.</p>
-{{ex:I didn't work yesterday.|아이 디든 워크 예스터데이|어제 일 안 했어요}}{{ex:Did you call me?|디쥬 콜 미?|저한테 전화했어요?}}
-<div class="tip">가장 흔한 실수: <b>I didn't worked.</b> (X) → <b>I didn't work.</b> (O), <b>I was work.</b> (X) → <b>I worked.</b> (O)</div>`,
-check:[["They ___ at home yesterday. 빈칸에 알맞은 것은?",["was","were","did","are"],1,"they에는 were예요."],["'어제 일 안 했어요'를 영어로 하면?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"didn't 뒤에는 동사원형이 와요."],["Did you ___ the movie? 빈칸에 알맞은 것은?",["watch","watched","watching","watches"],0,"Did 뒤에는 동사원형이 와요."]],
+["mc","'Saya sedang bekerja' dalam bahasa Inggris?","I'm working now.","I work now am.","I'm work now.","I working now.","Yang sedang terjadi: be + -ing."],
+["mc","'Dia sedang memasak makan malam' dalam bahasa Inggris?","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","Be + -ing, dan nama waktu makan tanpa artikel."],
+["mc","Mana kalimat untuk kebiasaan setiap hari?","I walk to work every day.","I'm walking to work every day.","I walking to work every day.","I'm walk to work every day.","Kebiasaan pakai Simple Present Tense."],
+["mc","'Kamu sedang apa?' dalam bahasa Inggris?","What are you doing?","What do you doing?","What are you do?","What you are doing?","Kata tanya + be + subjek + -ing."],
+["mc","'Saya kenal dia' dalam bahasa Inggris?","I know him.","I'm knowing him.","I knowing him.","I'm know him.","\"Know\" tidak pakai -ing."],
+["or","Saya sedang membaca buku","I'm reading a book","read books","Satu buku yang sedang dibaca, jadi artikel \"a\" dan bentuk tunggal \"book\"."],
+["or","Anak-anak sedang bermain","The kids are playing","kid is","Lebih dari satu, jadi jamak \"kids\" dan \"are\"."],
+["or","Sekarang sedang hujan","It's raining now","rains","Yang sedang terjadi: be + -ing."],
+["fi","I'm __ TV.","Saya sedang menonton TV","watching","watch|watches|to watch","Setelah be, pakai -ing."],
+["fi","What __ you doing?","Kamu sedang apa?","are","do|is|does","Untuk \"you\", pakai \"are\"."],
+["fi","She __ working today.","Hari ini dia tidak bekerja","isn't|is not","doesn't|don't|not","Negatif dari be + -ing: \"isn't\"."],
+["ty","Saya sedang memasak","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook · now — pakai bentuk -ing","cook","Yang sedang terjadi: be + -ing."],
+["ty","Saya sedang menonton film","I'm watching a movie","I'm · watching · movie — artikel a","the","Film apa saja, satu, jadi artikel \"a\"."],
+["ty","Anak-anak sedang tidur","The kids are sleeping|The children are sleeping","kids · are · sleeping — bentuk jamak","kid","Lebih dari satu, jadi jamak \"kids\" dan \"are\"."]]},
+{ id:"past", title:"Simple Past Tense: was / were dan -ed", blurb:"Meskipun sudah ada ‘kemarin’, kata kerjanya tetap harus berubah: was / were, V2 -ed, dan did.", deck:"Obrolan ringan", body:`
+<p>Ini pelajaran kunci. Dalam bahasa Indonesia, waktu ditunjukkan oleh kata seperti <i>kemarin</i> atau <i>tadi</i>, sementara kata kerjanya tetap: <i>Kemarin saya kerja</i>. Dalam bahasa Inggris, <b>kata kerjanya sendiri harus berubah</b>, meskipun sudah ada <b>yesterday</b>.</p>
+<h3>To be bentuk lampau: was / were</h3>
+<p>I, he, she, it pakai <b>was</b>; you, we, they pakai <b>were</b>. Di depan kata sifat, <b>to be</b> tetap perlu: <i>Tadi saya capek</i> → <b>I was tired</b>.</p>
+{{ex:I was tired.|ai wez TAI-erd|Tadi saya capek}}{{ex:It was fun.|it wez fan|Tadi seru}}{{ex:We were at home.|wi wer et houm|Kami tadi di rumah}}{{ex:Were you busy?|wer yu BI-zi?|Kamu tadi sibuk?}}
+<h3>Kata kerja biasa: V2 dengan -ed</h3>
+<p>Tambahkan <b>-ed</b> di akhir kata kerja; bentuknya sama untuk semua subjek. Ucapannya ada tiga: t (<b>watched</b> → waact), d (<b>called</b> → koold), dan id setelah t atau d (<b>wanted</b> → WAAN-tid).</p>
+{{ex:I worked yesterday.|ai werkt YÉS-ter-dei|Kemarin saya bekerja}}{{ex:We watched a movie.|wi waact e MUU-vi|Kami menonton film}}{{ex:She called me.|syi koold mi|Dia menelepon saya}}
+<h3>Kalimat negatif dan tanya: did</h3>
+<p>Kalau ada <b>didn't</b> atau <b>Did</b>, kata kerjanya kembali ke V1, karena tanda lampaunya sudah ada pada did.</p>
+{{ex:I didn't work yesterday.|ai DI-dent werk YÉS-ter-dei|Kemarin saya tidak bekerja}}{{ex:Did you call me?|did yu kool mi?|Kamu tadi menelepon saya?}}
+<div class="tip">Kesalahan paling umum: <b>Yesterday I work.</b> ✗ → <b>Yesterday I worked.</b> ✓ / <b>I didn't worked.</b> ✗ → <b>I didn't work.</b> ✓ / <b>I was work.</b> ✗ → <b>I worked.</b> ✓</div>`,
+check:[["They ___ at home yesterday. Apa isi bagian yang kosong?",["was","were","did","are"],1,"Untuk \"they\", pakai \"were\"."],["Bahasa Inggrisnya 'Kemarin saya tidak bekerja'?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"Setelah \"didn't\", kata kerja V1."],["Did you ___ the movie? Apa isi bagian yang kosong?",["watch","watched","watching","watches"],0,"Setelah \"Did\", kata kerja V1."]],
 practice:[
-["mc","I ___ tired yesterday.","was","were","did","am","I에는 was예요."],
-["mc","'우리는 영화를 봤어요' =","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","일반동사 과거는 -ed예요."],
-["mc","'어제 전화했어요?' =","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Did 뒤에는 동사원형이 와요."],
-["mc","'재미있었어요' =","It was fun.","It were fun.","It did fun.","It funned.","it에는 was예요."],
-["mc","'바빴어요?' =","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy는 상태라서 be동사로 물어요."],
-["or","우리는 영화를 봤어요","We watched a movie","watch movies","영화 한 편이라 관사 a와 단수 movie예요."],
-["or","저는 친구들과 놀았어요","I played with my friends","friend play","여러 명이라 복수 friends예요."],
-["or","어제 일 안 했어요","I didn't work yesterday","worked","didn't 뒤에는 동사원형이 와요."],
-["fi","We __ at home last night.","우리는 어젯밤에 집에 있었어요","were","was|did|are","we에는 were예요."],
-["fi","I __ soccer yesterday.","어제 축구했어요","played","play|playing|was play","과거는 -ed예요."],
-["fi","__ you work yesterday?","어제 일했어요?","Did","Were|Do|Was","일반동사 과거 질문은 Did예요."],
-["ty","피곤했어요","I was tired","was · tired","were","I에는 was예요."],
-["ty","저는 영화를 봤어요","I watched a movie","watched · movie — 관사 a","the","영화 한 편이라 관사 a를 붙여요."],
-["ty","저는 친구들한테 전화했어요","I called my friends","called · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"irregular-past", title:"불규칙 과거: went, ate, saw", blurb:"가장 자주 쓰는 동사일수록 -ed가 아니에요. 12개만 먼저 외워요.", deck:"스몰토크", body:`
-<p>매일 쓰는 동사들은 과거형이 <b>불규칙</b>이에요. 규칙이 없으니 짝으로 외워요.</p>
-<div class="tbl"><table><tr><th>현재</th><th>과거</th><th>현재</th><th>과거</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
-{{ex:I went to Busan.|아이 웬 투 부산|부산에 갔어요}}{{ex:We ate pizza.|위 에잇 피짜|우리는 피자를 먹었어요}}{{ex:I saw a movie.|아이 쏘 어 무비|영화를 봤어요}}{{ex:I met my friends.|아이 멧 마이 프렌즈|친구들을 만났어요}}{{ex:I bought a book.|아이 봇 어 북|책을 한 권 샀어요}}
-<h3>질문과 부정에서는 원래 모양으로</h3>
-<p><b>did</b>가 과거를 표시하니까 동사는 원형으로 돌아가요.</p>
-{{ex:What did you do?|왓 디쥬 두?|뭐 했어요?}}{{ex:Where did you go?|웨어 디쥬 고?|어디 갔어요?}}{{ex:I didn't go.|아이 디든 고|안 갔어요}}
-<div class="tip">가장 흔한 실수: <b>I goed.</b> (X) → <b>I went.</b> (O), <b>Did you went?</b> (X) → <b>Did you go?</b> (O)</div>`,
-check:[["go의 과거형은?",["goed","gone","went","going"],2,"go의 과거는 went예요."],["'뭐 했어요?'를 영어로 하면?",["What did you do?","What did you did?","What you did?","What were you do?"],0,"did 뒤에는 동사원형 do가 와요."],["I didn't ___ breakfast. 빈칸에 알맞은 것은?",["ate","eaten","eats","eat"],3,"didn't 뒤에는 동사원형이 와요."]],
+["mc","I ___ tired yesterday. Apa isi bagian yang kosong?","was","were","did","am","Untuk \"I\", pakai \"was\"."],
+["mc","'Kami tadi menonton film' dalam bahasa Inggris?","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","Kata kerja biasa dalam bentuk lampau: V2 dengan -ed."],
+["mc","'Kemarin kamu menelepon?' dalam bahasa Inggris?","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Setelah \"Did\", kata kerja V1."],
+["mc","'Tadi seru' dalam bahasa Inggris?","It was fun.","It were fun.","It did fun.","It funned.","Untuk \"it\", pakai \"was\"."],
+["mc","'Kamu tadi sibuk?' dalam bahasa Inggris?","Were you busy?","Did you busy?","Was you busy?","Were you busied?","\"Busy\" kata sifat, jadi tanyakan dengan to be: \"Were\"."],
+["or","Kami tadi menonton film","We watched a movie","watch movies","Satu film, jadi artikel \"a\" dan bentuk tunggal \"movie\"."],
+["or","Tadi saya main dengan teman-teman saya","I played with my friends","friend play","Lebih dari satu teman, jadi jamak \"friends\"."],
+["or","Kemarin saya tidak bekerja","I didn't work yesterday","worked","Setelah \"didn't\", kata kerja V1."],
+["fi","We __ at home last night.","Tadi malam kami di rumah","were","was|did|are","Untuk \"we\", pakai \"were\"."],
+["fi","I __ soccer yesterday.","Kemarin saya main sepak bola","played","play|playing|was play","Ada \"yesterday\", jadi kata kerja V2: \"played\"."],
+["fi","__ you work yesterday?","Kemarin kamu bekerja?","Did","Were|Do|Was","Pertanyaan lampau dengan kata kerja biasa pakai \"Did\"."],
+["ty","Saya capek (lampau)","I was tired","was · tired — bentuk lampau","were","Untuk \"I\", pakai \"was\"; kata sifat butuh to be."],
+["ty","Saya menonton film (lampau)","I watched a movie","watched · movie — artikel a","the","Satu film, jadi artikel \"a\"."],
+["ty","Saya menelepon teman-teman saya (lampau)","I called my friends","called · my · friend — bentuk jamak","friend","Lebih dari satu teman, jadi jamak \"friends\"."]]},
+{ id:"irregular-past", title:"V2 tidak beraturan: went, ate, saw", blurb:"Kata kerja yang paling sering dipakai justru tidak memakai -ed. Hafalkan 12 ini dulu.", deck:"Obrolan ringan", body:`
+<p>Kata kerja sehari-hari kebanyakan <b>tidak beraturan</b>: bentuk V2 kata kerja ini tidak diberi -ed. Di sekolah kamu mungkin pernah menghafal daftar V1–V2–V3. Untuk sekarang, cukup pasangan V1 dan V2 berikut.</p>
+<div class="tbl"><table><tr><th>V1</th><th>V2</th><th>V1</th><th>V2</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
+{{ex:I went to Surabaya.|ai wént te suu-re-BAI-e|Saya pergi ke Surabaya}}{{ex:We ate pizza.|wi eit PIIT-se|Kami makan piza}}{{ex:I saw a movie.|ai soo e MUU-vi|Saya menonton film}}{{ex:I met my friends.|ai mét mai fréndz|Saya bertemu teman-teman saya}}{{ex:I bought a book.|ai boot e buk|Saya membeli sebuah buku}}
+<p>Ingat: keterangan waktu tidak menggantikan bentuk kata kerja. <i>Kemarin saya pergi ke pasar</i> tetap butuh V2.</p>
+{{ex:Yesterday I went to the market.|YÉS-ter-dei ai wént te dhe MAAR-kit|Kemarin saya pergi ke pasar}}
+<h3>Dalam kalimat tanya dan negatif: kembali ke V1</h3>
+<p><b>Did</b> sudah menandai lampau, jadi kata kerjanya kembali ke V1.</p>
+{{ex:What did you do?|wat did yu duu?|Apa yang kamu lakukan?}}{{ex:Where did you go?|wér did yu gou?|Kamu pergi ke mana?}}{{ex:I didn't go.|ai DI-dent gou|Saya tidak pergi}}
+<div class="tip">Kesalahan paling umum: <b>I goed.</b> ✗ → <b>I went.</b> ✓ / <b>Did you went?</b> ✗ → <b>Did you go?</b> ✓ / <b>Yesterday I go to the market.</b> ✗ → <b>Yesterday I went to the market.</b> ✓</div>`,
+check:[["Bentuk V2 dari \"go\"?",["goed","gone","went","going"],2,"V2 dari \"go\" adalah \"went\"."],["Bahasa Inggrisnya 'Apa yang kamu lakukan?' (lampau)",["What did you do?","What did you did?","What you did?","What were you do?"],0,"Setelah \"did\", kata kerja V1 \"do\"."],["I didn't ___ breakfast. Apa isi bagian yang kosong?",["ate","eaten","eats","eat"],3,"Setelah \"didn't\", kata kerja V1."]],
 practice:[
-["mc","eat의 과거형은?","ate","eated","eat","eaten","eat의 과거는 ate예요."],
-["mc","'어디 갔어요?' =","Where did you go?","Where did you went?","Where you went?","Where were you go?","did 뒤에는 동사원형이 와요."],
-["mc","'저는 책을 한 권 샀어요' =","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","buy의 과거는 bought, 한 권이라 관사 a예요."],
-["mc","see의 과거형은?","saw","seed","seen","sawed","see의 과거는 saw예요."],
-["mc","'저는 안 갔어요' =","I didn't go.","I didn't went.","I wasn't go.","I not went.","didn't 뒤에는 동사원형이 와요."],
-["or","저는 영화를 봤어요","I saw a movie","see movies","한 편이라 관사 a와 단수 movie예요. see의 과거는 saw예요."],
-["or","우리는 피자를 먹었어요","We ate pizza","eated","eat의 과거는 ate예요."],
-["or","저는 친구들을 만났어요","I met my friends","friend meet","여러 명이라 복수 friends예요."],
-["fi","I __ to Jeju last year.","작년에 제주에 갔어요","went","go|goed|gone","go의 과거는 went예요."],
-["fi","What did you __?","뭐 먹었어요?","eat","ate|eaten|eating","did 뒤에는 동사원형이 와요."],
-["fi","She __ a new phone.","그녀는 새 휴대폰을 샀어요","bought","buyed|buy|buys","buy의 과거는 bought예요."],
-["ty","저는 부산에 갔어요","I went to Busan","went · to · Busan","go","go의 과거는 went예요."],
-["ty","저는 책을 한 권 샀어요","I bought a book","bought · book — 관사 a","the","한 권이라 관사 a를 붙여요."],
-["ty","저는 친구들을 만났어요","I met my friends|I saw my friends","met · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"the", title:"the 다시 보기: 처음엔 a, 다음엔 the", blurb:"처음 꺼낼 땐 a, 서로 아는 것이 되면 the.", deck:"길 묻기·교통", body:`
-<p>관사는 한 번에 익혀지지 않아요. 여기서는 <b>the</b>를 쓰는 때와 <b>아무것도 안 쓰는 때</b>를 다시 연습해요.</p>
-<h3>처음엔 a, 다시 말할 땐 the</h3>
-<p>듣는 사람이 처음 듣는 것이면 a, 방금 말해서 이제 아는 것이면 the예요.</p>
-{{ex:I bought a shirt. The shirt is blue.|아이 봇 어 셔트. 더 셔트 이즈 블루|셔츠를 하나 샀어요. 그 셔츠는 파란색이에요}}
-<h3>상황상 하나뿐이면 the</h3>
-<p>이 방의 창문, 이 근처의 역처럼 무엇인지 뻔하면 처음부터 the예요.</p>
-{{ex:Can you open the window?|캔 유 오픈 더 윈도우?|창문 좀 열어 줄래요?}}{{ex:Where's the subway station?|웨어즈 더 서브웨이 스테이션?|지하철역이 어디예요?}}{{ex:The sun is hot today.|더 썬 이즈 핫 투데이|오늘 햇볕이 뜨거워요}}
-<h3>관사를 안 쓰는 표현</h3>
-<p>자주 쓰는 장소·교통·식사 표현은 통째로 외워요.</p>
-{{ex:I go to work by bus.|아이 고우 투 워크 바이 버스|저는 버스로 출근해요}}{{ex:I'm at home.|아임 앳 홈|저 집에 있어요}}{{ex:I go to bed at eleven.|아이 고우 투 베드 앳 일레븐|저는 11시에 자요}}
-<div class="tip">스스로 물어보세요: "듣는 사람이 <b>어느 것인지</b> 알까?" 알면 the, 모르면 a예요.</div>`,
-check:[["I have a cat. ___ cat is white. 빈칸에 알맞은 것은?",["A","An","The","(없음)"],2,"방금 말한 그 고양이라서 the예요."],["I go to ___ work by bus. 빈칸에 알맞은 것은?",["a","the","an","(없음)"],3,"go to work에는 관사를 쓰지 않아요."],["이 방의 창문을 열어 달라고 할 때 알맞은 말은?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"둘 다 아는 그 창문이라서 the예요."]],
+["mc","Bentuk V2 dari \"eat\"?","ate","eated","eat","eaten","V2 dari \"eat\" adalah \"ate\"."],
+["mc","'Kamu pergi ke mana?' (lampau) dalam bahasa Inggris?","Where did you go?","Where did you went?","Where you went?","Where were you go?","Setelah \"did\", kata kerja V1."],
+["mc","'Tadi saya membeli sebuah buku' dalam bahasa Inggris?","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","V2 dari \"buy\" adalah \"bought\"; satu buku pakai artikel \"a\"."],
+["mc","Bentuk V2 dari \"see\"?","saw","seed","seen","sawed","V2 dari \"see\" adalah \"saw\"."],
+["mc","'Saya tidak pergi' (lampau) dalam bahasa Inggris?","I didn't go.","I didn't went.","I wasn't go.","I not went.","Setelah \"didn't\", kata kerja V1."],
+["or","Saya tadi menonton film","I saw a movie","see movies","V2 dari \"see\" adalah \"saw\"; satu film, jadi artikel \"a\" dan bentuk tunggal \"movie\"."],
+["or","Kami tadi makan piza","We ate pizza","eated","V2 dari \"eat\" adalah \"ate\"."],
+["or","Saya tadi bertemu teman-teman saya","I met my friends","friend meet","Lebih dari satu teman, jadi jamak \"friends\"."],
+["fi","I __ to Jeju last year.","Tahun lalu saya pergi ke Jeju","went","go|goed|gone","V2 dari \"go\" adalah \"went\"."],
+["fi","What did you __?","Tadi kamu makan apa?","eat","ate|eaten|eating","Setelah \"did\", kata kerja V1."],
+["fi","She __ a new phone.","Dia membeli ponsel baru","bought","buyed|buy|buys","V2 dari \"buy\" adalah \"bought\"."],
+["ty","Saya pergi ke Busan (lampau)","I went to Busan","went · to · Busan — bentuk V2","go","V2 dari \"go\" adalah \"went\"."],
+["ty","Saya membeli sebuah buku (lampau)","I bought a book","bought · book — artikel a","the","Satu buku, jadi artikel \"a\"."],
+["ty","Saya bertemu teman-teman saya (lampau)","I met my friends|I saw my friends","met · my · friend — bentuk jamak","friend","Lebih dari satu teman, jadi jamak \"friends\"."]]},
+{ id:"the", title:"Melihat lagi the: pertama a, berikutnya the", blurb:"Saat pertama disebut pakai a; begitu sudah sama-sama tahu, pakai the.", deck:"Arah & transportasi", body:`
+<p>Artikel tidak bisa dikuasai sekali jalan, apalagi karena bahasa Indonesia tidak punya artikel. Kadang <i>-nya</i> atau <i>itu</i> terasa mirip <b>the</b> (<i>bukunya</i>, <i>buku itu</i>), tapi keduanya tidak wajib, sedangkan <b>the</b> wajib. Di sini kita latih kapan pakai <b>the</b> dan kapan <b>tanpa artikel</b>.</p>
+<h3>Pertama a, disebut lagi the</h3>
+<p>Kalau pendengar baru pertama kali mendengar bendanya, pakai a. Kalau barusan sudah disebut, pakai the.</p>
+{{ex:I bought a shirt. The shirt is blue.|ai boot e syert. dhe syert iz bluu|Saya membeli kemeja. Kemejanya biru}}
+<h3>Sudah jelas dari situasi: the</h3>
+<p>Jendela di ruangan ini, stasiun di dekat sini, matahari: kalau semua orang tahu yang mana, langsung pakai the sejak awal.</p>
+{{ex:Can you open the window?|ken yu OU-pen dhe WIN-dou?|Bisa tolong buka jendelanya?}}{{ex:Where's the subway station?|wérz dhe SAB-wei STEI-syen?|Stasiun MRT di mana?}}{{ex:The sun is hot today.|dhe san iz haat te-DEI|Hari ini mataharinya terik}}
+<h3>Ungkapan tanpa artikel</h3>
+<p>Beberapa ungkapan tempat, transportasi dan waktu makan sebaiknya dihafal utuh.</p>
+{{ex:I go to work by bus.|ai gou te werk bai bas|Saya berangkat kerja naik bus}}{{ex:I'm at home.|aim et houm|Saya di rumah}}{{ex:I go to bed at eleven.|ai gou te béd et i-LÉ-ven|Saya tidur jam sebelas}}
+<div class="tip">Tanyakan pada dirimu: "Apakah pendengar tahu <b>yang mana</b>?" Kalau tahu, the. Kalau tidak, a. Petunjuk praktis: kalau dalam bahasa Indonesia kamu bisa menambahkan <i>-nya</i> atau <i>itu</i>, biasanya bahasa Inggrisnya pakai the.</div>`,
+check:[["I have a cat. ___ cat is white. Apa isi bagian yang kosong?",["A","An","The","(tanpa artikel)"],2,"Kucing yang barusan disebut, jadi \"the\"."],["I go to ___ work by bus. Apa isi bagian yang kosong?",["a","the","an","(tanpa artikel)"],3,"\"Go to work\" tidak pakai artikel."],["Kalimat yang tepat untuk minta dibukakan jendela di ruangan ini?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"Jendela yang sama-sama diketahui, jadi \"the\"."]],
 practice:[
-["mc","I bought a shirt. ___ shirt is blue.","The","A","An","Some","방금 말한 그 셔츠라서 the예요."],
-["mc","'역이 어디예요?' =","Where's the station?","Where's a station?","Where's station?","Where the station?","이 근처의 그 역이라서 the예요."],
-["mc","다음 중 알맞은 문장은?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","go to work, by bus에는 관사가 없어요."],
-["mc","'해가 뜨거워요' =","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","하나뿐인 것에는 the를 붙여요."],
-["mc","'저 집에 있어요' =","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","at home에는 관사가 없어요."],
-["or","창문 좀 열어 줄래요?","Can you open the window","a windows","둘 다 아는 그 창문이라 관사 the예요."],
-["or","저는 버스로 출근해요","I go to work by bus","the a","go to work, by bus에는 관사를 쓰지 않아요."],
-["or","그 개는 커요","The dog is big","A dogs","이미 말한 그 개라서 관사 the예요."],
-["fi","I saw a movie. __ movie was great.","영화를 봤어요. 그 영화 정말 좋았어요","The","A|An|Some","방금 말한 그 영화라서 the예요."],
-["fi","Where's __ bathroom?","화장실이 어디예요?","the","a|an|some","이 건물의 그 화장실이라서 the예요."],
-["fi","I have __ idea.","좋은 생각이 있어요","an","a|the|some","처음 꺼내는 하나이고 모음 소리로 시작해서 an이에요."],
-["ty","문 좀 닫아 줄래요?","Can you close the door|Could you close the door","can you · close · door — 관사 the","a","둘 다 아는 그 문이라 관사 the예요."],
-["ty","역이 어디예요?","Where is the station|Where's the station","where · station — 관사 the","a","이 근처의 그 역이라 관사 the예요."],
-["ty","저는 집에 있어요","I'm at home|I'm home","I'm · at · home — 관사 없이","the","home 앞에는 관사를 쓰지 않아요."]]},
-{ id:"adjectives", title:"형용사와 비교: bigger, more expensive, the best", blurb:"형용사는 명사 앞에. 비교는 -er / more, 최고는 the -est / the most.", deck:"쇼핑·계산", body:`
-<p>형용사는 명사 <b>앞</b>이나 be동사 <b>뒤</b>에 와요. 쇼핑할 때 꼭 필요한 비교 표현까지 같이 익혀요.</p>
-{{ex:a big bag|어 빅 백|큰 가방}}{{ex:This bag is big.|디스 백 이즈 빅|이 가방은 커요}}{{ex:It's too small.|이츠 투 스몰|너무 작아요}}
-<h3>비교: -er 또는 more</h3>
-<p>짧은 단어는 <b>-er</b>, 긴 단어는 앞에 <b>more</b>를 붙여요. '~보다'는 <b>than</b>이에요.</p>
-<div class="tbl"><table><tr><th>원래</th><th>더 ~한</th><th>가장 ~한</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
-{{ex:This one is cheaper.|디스 원 이즈 치퍼|이게 더 싸요}}{{ex:It's more expensive than that one.|이츠 모어 익스펜시브 댄 댓 원|저것보다 더 비싸요}}{{ex:Do you have a bigger size?|두 유 해버 비거 사이즈?|더 큰 사이즈 있어요?}}
-<h3>최상급에는 the</h3>
-{{ex:This is the best restaurant here.|디스 이즈 더 베스트 레스토란트 히어|여기서 제일 좋은 식당이에요}}{{ex:Which is the cheapest?|위치 이즈 더 치피스트?|어느 게 제일 싸요?}}
-<div class="tip">가장 흔한 실수: <b>more cheaper</b>, <b>more good</b> (X) → <b>cheaper</b>, <b>better</b> (O). -er와 more는 같이 쓰지 않아요.</div>`,
-check:[["big의 비교급은?",["more big","biger","bigger","most big"],2,"짧은 단어는 -er, 끝 자음을 한 번 더 써요."],["This is ___ expensive than that. 빈칸에 알맞은 것은?",["more","most","much","very"],0,"긴 단어의 비교급은 more를 붙여요."],["good의 최상급은?",["the goodest","the most good","the better","the best"],3,"good – better – the best예요."]],
+["mc","I bought a shirt. ___ shirt is blue. Apa isi bagian yang kosong?","The","A","An","Some","Kemeja yang barusan disebut, jadi \"the\"."],
+["mc","'Stasiunnya di mana?' dalam bahasa Inggris?","Where's the station?","Where's a station?","Where's station?","Where the station?","Stasiun di dekat sini yang sama-sama diketahui, jadi \"the\"."],
+["mc","Pilih kalimat yang benar.","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","\"Go to work\" dan \"by bus\" tidak pakai artikel."],
+["mc","'Mataharinya terik' dalam bahasa Inggris?","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","Benda yang hanya ada satu pakai \"the\"."],
+["mc","'Saya di rumah' dalam bahasa Inggris?","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","\"At home\" tidak pakai artikel."],
+["or","Bisa tolong buka jendelanya?","Can you open the window","a windows","Jendela yang sama-sama diketahui, jadi artikel \"the\"."],
+["or","Saya berangkat kerja naik bus","I go to work by bus","the a","\"Go to work\" dan \"by bus\" tanpa artikel."],
+["or","Anjingnya besar","The dog is big","A dogs","Anjing yang sudah disebut, jadi artikel \"the\"."],
+["fi","I saw a movie. __ movie was great.","Saya menonton film. Filmnya bagus sekali","The","A|An|Some","Film yang barusan disebut, jadi \"the\"."],
+["fi","Where's __ bathroom?","Kamar mandinya di mana?","the","a|an|some","Kamar mandi di gedung ini, jadi \"the\"."],
+["fi","I have __ idea.","Saya punya ide","an","a|the|some","Baru pertama disebut dan diawali bunyi vokal, jadi \"an\"."],
+["ty","Bisa tolong tutup pintunya?","Can you close the door|Could you close the door","can you · close · door — artikel the","a","Pintu yang sama-sama diketahui, jadi artikel \"the\"."],
+["ty","Stasiunnya di mana?","Where is the station|Where's the station","where · station — artikel the","a","Stasiun di dekat sini, jadi artikel \"the\"."],
+["ty","Saya di rumah","I'm at home|I'm home","I'm · at · home — tanpa artikel","the","Di depan \"home\" tidak pakai artikel."]]},
+{ id:"adjectives", title:"Kata sifat dan perbandingan: bigger, more expensive, the best", blurb:"Kata sifat di depan kata benda. Lebih = -er / more, paling = the -est / the most.", deck:"Belanja & bayar", body:`
+<p>Dalam bahasa Indonesia, kata sifat (<b>adjective</b>) ada di belakang kata benda: <i>tas besar</i>, <i>rumah besar</i>. Dalam bahasa Inggris urutannya terbalik: kata sifat di <b>depan</b> kata benda, atau setelah <b>to be</b>.</p>
+{{ex:a big bag|e big bèg|tas besar}}{{ex:a big house|e big haus|rumah besar}}{{ex:This bag is big.|dhis bèg iz big|Tas ini besar}}{{ex:It's too small.|its tuu smool|Terlalu kecil}}
+<p>Jangan lupa artikelnya: <i>rumah besar</i> → <b>a big house</b>, bukan <b>house big</b>.</p>
+<h3>Lebih: -er atau more</h3>
+<p><i>Lebih</i> tidak selalu <b>more</b>. Kata pendek ditambah <b>-er</b>, kata panjang diberi <b>more</b> di depannya. <i>Daripada</i> = <b>than</b>.</p>
+<div class="tbl"><table><tr><th>Biasa</th><th>Lebih …</th><th>Paling …</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
+{{ex:This one is cheaper.|dhis wan iz CII-per|Yang ini lebih murah}}{{ex:It's more expensive than that one.|its moor ik-SPÉN-siv dhen dhèt wan|Yang ini lebih mahal daripada yang itu}}{{ex:Do you have a bigger size?|de yu hèv e BI-ger saiz?|Ada ukuran yang lebih besar?}}
+<h3>Paling: pakai the</h3>
+{{ex:This is the best restaurant here.|dhis iz dhe bést RÉS-te-raant hir|Ini restoran paling enak di sini}}{{ex:Which is the cheapest?|wic iz dhe CII-pist?|Yang mana yang paling murah?}}
+<div class="tip">Kesalahan paling umum: <b>more cheaper</b>, <b>more bigger</b>, <b>more good</b> ✗ → <b>cheaper</b>, <b>bigger</b>, <b>better</b> ✓. -er dan more tidak dipakai bersamaan. Juga <b>bag big</b> ✗ → <b>big bag</b> ✓.</div>`,
+check:[["Bentuk perbandingan dari \"big\"?",["more big","biger","bigger","most big"],2,"Kata pendek ditambah -er; konsonan terakhirnya ditulis dua kali."],["This is ___ expensive than that. Apa isi bagian yang kosong?",["more","most","much","very"],0,"Kata panjang memakai \"more\"."],["Bentuk paling dari \"good\"?",["the goodest","the most good","the better","the best"],3,"good – better – the best."]],
 practice:[
-["mc","cheap의 비교급은?","cheaper","more cheap","cheapper","most cheap","짧은 단어는 -er를 붙여요."],
-["mc","'이게 더 비싸요' =","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","긴 단어는 more를 붙여요."],
-["mc","'더 큰 사이즈 있어요?' =","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","관사 + 형용사 + 명사 순서예요."],
-["mc","good의 비교급은?","better","gooder","more good","best","good – better – best예요."],
-["mc","'여기가 제일 좋은 식당이에요' =","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","최상급 앞에는 the를 붙여요."],
-["or","더 큰 사이즈 있어요?","Do you have a bigger size","the sizes","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["or","이게 제일 싸요","This is the cheapest","a cheaper","최상급 앞에는 관사 the를 붙여요."],
-["or","이게 저것보다 싸요","This is cheaper than that","more","-er 형용사에는 more를 붙이지 않아요."],
-["fi","It's __ small.","너무 작아요","too","much|more|most","'너무'는 too예요."],
-["fi","This is cheaper __ that one.","이게 저것보다 싸요","than","then|that|more","'~보다'는 than이에요."],
-["fi","It's the __ expensive one.","제일 비싼 거예요","most","more|much|very","긴 단어의 최상급은 the most예요."],
-["ty","더 작은 사이즈 있어요?","Do you have a smaller size","smaller · size — 관사 a","the","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["ty","이게 제일 좋아요","This is the best|This one is the best","the · best — 관사 the","a","최상급 앞에는 관사 the를 붙여요."],
-["ty","이게 더 싸요","This is cheaper|This one is cheaper","cheap — 비교급","more","짧은 단어는 -er를 붙여요."]]},
-{ id:"going-to", title:"계획 말하기: be going to", blurb:"이미 마음먹은 일은 be going to + 동사.", deck:"스몰토크", body:`
-<p>'~할 거예요'처럼 <b>미리 정한 계획</b>을 말할 때 써요. 틀은 <b>be + going to + 동사원형</b>이에요.</p>
-{{ex:I'm going to visit Busan.|아임 고잉 투 비짓 부산|저는 부산에 갈 거예요}}{{ex:She's going to buy a car.|쉬즈 고잉 투 바이 어 카|그녀는 차를 살 거예요}}{{ex:We're going to have dinner.|위어 고잉 투 해브 디너|우리는 저녁을 먹을 거예요}}
-<h3>부정과 질문</h3>
-{{ex:I'm not going to go.|아임 낫 고잉 투 고|저는 안 갈 거예요}}{{ex:Are you going to come?|아 유 고잉 투 컴?|올 거예요?}}{{ex:What are you going to do this weekend?|왓 아 유 고잉 투 두 디스 위켄드?|이번 주말에 뭐 할 거예요?}}
-<h3>보이는 대로 예상할 때도</h3>
-{{ex:It's going to rain.|이츠 고잉 투 레인|비가 올 거예요}}
-<h3>함께 쓰는 시간 표현</h3>
-<p>tomorrow(내일), tonight(오늘 밤), this weekend(이번 주말), next week(다음 주)를 문장 끝에 붙여요.</p>
-<div class="tip">말할 때는 going to가 <b>gonna(거나)</b>처럼 들려요. 그리고 be동사를 빼먹지 마세요: <b>I going to go.</b> (X) → <b>I'm going to go.</b> (O)</div>`,
-check:[["'내일 친구를 만날 거예요'를 영어로 하면?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + 동사원형이에요."],["She ___ going to study. 빈칸에 알맞은 것은?",["am","are","is","be"],2,"she에는 is예요."],["'주말에 뭐 할 거예요?'를 영어로 하면?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"의문사 + be + 주어 + going to예요."]],
+["mc","Bentuk perbandingan dari \"cheap\"?","cheaper","more cheap","cheapper","most cheap","Kata pendek ditambah -er."],
+["mc","'Yang ini lebih mahal' dalam bahasa Inggris?","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","Kata panjang memakai \"more\"."],
+["mc","'Ada ukuran yang lebih besar?' dalam bahasa Inggris?","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","Urutannya: artikel + kata sifat + kata benda."],
+["mc","Bentuk perbandingan dari \"good\"?","better","gooder","more good","best","good – better – best."],
+["mc","'Ini restoran paling enak' dalam bahasa Inggris?","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","Di depan bentuk paling pakai \"the\"."],
+["or","Ada ukuran yang lebih besar?","Do you have a bigger size","the sizes","Mencari ukuran apa saja, satu, jadi artikel \"a\"."],
+["or","Yang ini paling murah","This is the cheapest","a cheaper","Di depan bentuk paling pakai artikel \"the\"."],
+["or","Yang ini lebih murah daripada yang itu","This is cheaper than that","more","Kata sifat dengan -er tidak diberi \"more\"."],
+["fi","It's __ small.","Terlalu kecil","too","much|more|most","‘Terlalu’ = \"too\"."],
+["fi","This is cheaper __ that one.","Yang ini lebih murah daripada yang itu","than","then|that|more","‘Daripada’ = \"than\"."],
+["fi","It's the __ expensive one.","Ini yang paling mahal","most","more|much|very","Bentuk paling untuk kata panjang: \"the most\"."],
+["ty","Punya ukuran yang lebih kecil?","Do you have a smaller size","smaller · size — artikel a","the","Mencari ukuran apa saja, jadi artikel \"a\"."],
+["ty","Yang ini paling bagus","This is the best|This one is the best","the · best — artikel the","a","Di depan bentuk paling pakai artikel \"the\"."],
+["ty","Yang ini lebih murah","This is cheaper|This one is cheaper","cheap — bentuk perbandingan","more","Kata pendek ditambah -er, tanpa \"more\"."]]},
+{ id:"going-to", title:"Membicarakan rencana: be going to", blurb:"Untuk rencana yang sudah diputuskan: be going to + V1.", deck:"Obrolan ringan", body:`
+<p>Bahasa Indonesia memakai satu kata, <i>akan</i>, untuk semua hal di masa depan. Bahasa Inggris punya dua pilihan utama, <b>will</b> dan <b>be going to</b>. Kita mulai dengan <b>be going to</b>, untuk <b>rencana yang sudah diputuskan</b>. Polanya <b>be + going to + V1</b>.</p>
+{{ex:I'm going to visit Bali.|aim GOU-ing te VI-zit BAA-li|Saya akan ke Bali}}{{ex:She's going to buy a car.|syiz GOU-ing te bai e kaar|Dia akan membeli mobil}}{{ex:We're going to have dinner.|wir GOU-ing te hèv DI-ner|Kami akan makan malam}}
+<h3>Kalimat negatif dan tanya</h3>
+{{ex:I'm not going to go.|aim naat GOU-ing te gou|Saya tidak akan pergi}}{{ex:Are you going to come?|er yu GOU-ing te kam?|Kamu akan datang?}}{{ex:What are you going to do this weekend?|wat er yu GOU-ing te duu dhis WIIK-énd?|Akhir pekan ini kamu akan melakukan apa?}}
+<h3>Perkiraan dari apa yang terlihat</h3>
+{{ex:It's going to rain.|its GOU-ing te rein|Sepertinya mau hujan}}
+<h3>Keterangan waktu yang sering dipakai</h3>
+<p><b>tomorrow</b> (besok), <b>tonight</b> (nanti malam), <b>this weekend</b> (akhir pekan ini) dan <b>next week</b> (minggu depan) biasanya di akhir kalimat. Keterangan waktu tidak menggantikan bentuk kata kerja: <i>Besok saya pergi</i> tetap <b>I'm going to go tomorrow</b>.</p>
+<div class="tip">Dalam percakapan, going to sering terdengar seperti <b>gonna</b> (GA-ne). Dan jangan lupa <b>to be</b>: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
+check:[["Bahasa Inggrisnya 'Besok saya akan bertemu teman saya'?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + V1."],["She ___ going to study. Apa isi bagian yang kosong?",["am","are","is","be"],2,"Untuk \"she\", pakai \"is\"."],["Bahasa Inggrisnya 'Akhir pekan ini kamu akan melakukan apa?'",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Kata tanya + be + subjek + going to."]],
 practice:[
-["mc","'저는 부산에 갈 거예요' =","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + 동사원형이에요."],
-["mc","They ___ going to come.","are","is","am","be","they에는 are예요."],
-["mc","'비가 올 거예요' =","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to 뒤에는 동사원형이 와요."],
-["mc","'저는 안 갈 거예요' =","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be동사 뒤에 not을 넣어요."],
-["mc","'올 거예요?' =","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","be동사를 앞으로 보내요."],
-["or","그녀는 차를 살 거예요","She's going to buy a car","the cars","차 한 대라서 관사 a와 단수 car예요."],
-["or","저는 친구들을 만날 거예요","I'm going to meet my friends","friend","여러 명이라 복수 friends예요."],
-["or","우리는 저녁을 먹을 거예요","We're going to have dinner","a","식사 이름 dinner에는 관사를 쓰지 않아요."],
-["fi","I'm going __ study tonight.","오늘 밤에 공부할 거예요","to","for|at|will","going to + 동사원형이에요."],
-["fi","__ you going to come?","올 거예요?","Are","Do|Is|Will","you에는 Are예요."],
-["fi","It's going to __ tomorrow.","내일 비가 올 거예요","rain","rains|raining|rained","going to 뒤에는 동사원형이 와요."],
-["ty","저는 영화를 볼 거예요","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","뭐 할 거예요?","What are you going to do","what · going to · do","will","계획을 물을 때는 be going to예요."],
-["ty","저는 친구들을 만날 거예요","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"joining", title:"문장 잇기: and, but, or, so, because", blurb:"짧은 문장 두 개를 하나로. so와 because는 순서가 반대예요.", deck:"감정·반응", body:`
-<p>짧은 문장만 말하면 뚝뚝 끊겨요. 이 다섯 단어로 문장을 이으면 훨씬 자연스러워요.</p>
+["mc","'Saya akan pergi ke Busan' dalam bahasa Inggris?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + V1."],
+["mc","They ___ going to come. Apa isi bagian yang kosong?","are","is","am","be","Untuk \"they\", pakai \"are\"."],
+["mc","'Sepertinya mau hujan' dalam bahasa Inggris?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","Setelah \"going to\", kata kerja V1."],
+["mc","'Saya tidak akan pergi' dalam bahasa Inggris?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","\"Not\" diletakkan setelah to be."],
+["mc","'Kamu akan datang?' dalam bahasa Inggris?","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","To be pindah ke depan."],
+["or","Dia akan membeli mobil","She's going to buy a car","the cars","Satu mobil, jadi artikel \"a\" dan bentuk tunggal \"car\"."],
+["or","Saya akan bertemu teman-teman saya","I'm going to meet my friends","friend","Lebih dari satu teman, jadi jamak \"friends\"."],
+["or","Kami akan makan malam","We're going to have dinner","a","Nama waktu makan \"dinner\" tidak pakai artikel."],
+["fi","I'm going __ study tonight.","Nanti malam saya akan belajar","to","for|at|will","Polanya going to + V1."],
+["fi","__ you going to come?","Kamu akan datang?","Are","Do|Is|Will","Untuk \"you\", pakai \"Are\"."],
+["fi","It's going to __ tomorrow.","Besok sepertinya hujan","rain","rains|raining|rained","Setelah \"going to\", kata kerja V1."],
+["ty","Saya akan menonton film (sudah direncanakan)","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — artikel a","the","Film apa saja, satu, jadi artikel \"a\"."],
+["ty","Kamu akan melakukan apa? (rencana)","What are you going to do","what · going to · do — bukan will","will","Untuk menanyakan rencana, pakai be going to."],
+["ty","Saya akan bertemu teman-teman saya (sudah direncanakan)","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — bentuk jamak","friend","Lebih dari satu teman, jadi jamak \"friends\"."]]},
+{ id:"joining", title:"Menyambung kalimat: and, but, or, so, because", blurb:"Dua kalimat pendek jadi satu. Pakai because atau so, jangan dua-duanya.", deck:"Perasaan & reaksi", body:`
+<p>Kalau hanya memakai kalimat pendek, bicaramu terdengar terputus-putus. Lima kata sambung ini membuat kalimatmu jauh lebih lancar.</p>
 <h3>and, but, or</h3>
-{{ex:I like coffee and tea.|아이 라익 커피 앤 티|저는 커피와 차를 좋아해요}}{{ex:I'm tired but happy.|아임 타이어드 벗 해피|피곤하지만 행복해요}}{{ex:Coffee or tea?|커피 오어 티?|커피 아니면 차?}}
-<h3>so: 그래서</h3>
-<p><b>이유 + so + 결과</b> 순서예요. 한국어 '~해서'와 순서가 같아요.</p>
-{{ex:I was tired, so I went home.|아이 워즈 타이어드 쏘 아이 웬 홈|피곤해서 집에 갔어요}}
-<h3>because: 왜냐하면</h3>
-<p><b>결과 + because + 이유</b> 순서예요. 한국어와 반대라서 주의해요.</p>
-{{ex:I went home because I was tired.|아이 웬 홈 비코즈 아이 워즈 타이어드|피곤해서 집에 갔어요}}{{ex:I stayed home because it was raining.|아이 스테이드 홈 비코즈 잇 워즈 레이닝|비가 와서 집에 있었어요}}
-<h3>too: ~도</h3>
-{{ex:I like it too.|아이 라이킷 투|저도 좋아해요}}
-<div class="tip">so와 because를 한 문장에 같이 쓰지 않아요: <b>Because I was tired, so I went home.</b> (X). 둘 중 하나만 고르세요.</div>`,
-check:[["I was sick, ___ I stayed home. 빈칸에 알맞은 것은?",["because","but","so","or"],2,"이유 다음에 결과가 오면 so예요."],["I stayed home ___ I was sick. 빈칸에 알맞은 것은?",["because","so","but","and"],0,"결과 다음에 이유가 오면 because예요."],["'커피 드실래요, 차 드실래요?'에 알맞은 말은?",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"둘 중 하나를 고를 때는 or예요."]],
+{{ex:I like coffee and tea.|ai laik KOO-fi en tii|Saya suka kopi dan teh}}{{ex:I'm tired but happy.|aim TAI-erd bet HÈ-pi|Saya capek tapi senang}}{{ex:Coffee or tea?|KOO-fi er tii?|Kopi atau teh?}}
+<h3>so: jadi</h3>
+<p>Urutannya <b>sebab + so + akibat</b>, sama seperti <i>…, jadi …</i>.</p>
+{{ex:I was tired, so I went home.|ai wez TAI-erd, sou ai wént houm|Saya capek, jadi saya pulang}}
+<h3>because: karena</h3>
+<p>Urutannya <b>akibat + because + sebab</b>, seperti <i>… karena …</i>. Kalau <b>because</b> ada di awal kalimat, jangan tambahkan <b>so</b> di tengah, walaupun bahasa Indonesia punya pola <i>karena …, maka …</i>.</p>
+{{ex:I went home because I was tired.|ai wént houm bi-KAZ ai wez TAI-erd|Saya pulang karena capek}}{{ex:I stayed home because it was raining.|ai steid houm bi-KAZ it wez REI-ning|Saya di rumah saja karena hujan}}
+<h3>Satu kata sambung saja</h3>
+<p>Hal yang sama berlaku untuk <i>meskipun …, tetapi …</i>: bahasa Inggris memakai <b>although</b> atau <b>but</b>, tidak keduanya.</p>
+{{ex:Although it was late, we went out.|ool-DHOU it wez leit, wi wént aut|Meskipun sudah malam, kami tetap keluar}}
+<h3>too: juga</h3>
+{{ex:I like it too.|ai laik it tuu|Saya juga suka}}
+<div class="tip">Jangan pakai kata sambung berpasangan: <b>Because I was tired, so I went home.</b> ✗ / <b>Although it was late, but we went out.</b> ✗. Pilih salah satu saja.</div>`,
+check:[["I was sick, ___ I stayed home. Apa isi bagian yang kosong?",["because","but","so","or"],2,"Sebab dulu, lalu akibat: \"so\"."],["I stayed home ___ I was sick. Apa isi bagian yang kosong?",["because","so","but","and"],0,"Akibat dulu, lalu sebab: \"because\"."],["Ungkapan yang tepat untuk 'Mau kopi atau teh?'",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"Untuk memilih salah satu, pakai \"or\"."]],
 practice:[
-["mc","I like dogs ___ I don't like cats.","but","so","or","because","반대되는 내용은 but으로 이어요."],
-["mc","I was hungry, ___ I ate a sandwich.","so","because","but","or","이유 다음에 결과가 오면 so예요."],
-["mc","I ate a sandwich ___ I was hungry.","because","so","but","or","결과 다음에 이유가 오면 because예요."],
-["mc","'커피 아니면 차?' =","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","둘 중 하나는 or예요."],
-["mc","'피곤하지만 행복해요' =","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","'~지만'은 but이에요."],
-["or","저는 고양이와 개를 좋아해요","I like cats and dogs","cat dog","동물 전체는 복수 cats, dogs로 말해요."],
-["or","커피 한 잔이랑 샌드위치 하나 주세요","A coffee and a sandwich please","the or","하나씩 주문하니까 각각 관사 a를 붙여요."],
-["or","배고파서 먹었어요","I was hungry so I ate","because","이유 다음에 결과가 오면 so예요."],
-["fi","I'm tired __ happy.","피곤하지만 행복해요","but","so|because|or","'~지만'은 but이에요."],
-["fi","I stayed home __ it was raining.","비가 와서 집에 있었어요","because","so|but|or","결과 다음에 이유가 오면 because예요."],
-["fi","Coffee __ tea?","커피 아니면 차?","or","so|but|because","둘 중 하나는 or예요."],
-["ty","저는 커피와 차를 좋아해요","I like coffee and tea","like · coffee · and · tea — 관사 없이","a","일반적인 coffee, tea에는 관사를 붙이지 않아요."],
-["ty","피곤하지만 행복해요","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","'~지만'은 but이에요."],
-["ty","저는 개와 고양이를 좋아해요","I like dogs and cats|I like cats and dogs","dog · and · cat — 복수","dog","동물 전체는 복수 dogs, cats로 말해요."]]},
+["mc","I like dogs ___ I don't like cats. Apa isi bagian yang kosong?","but","so","or","because","Isi yang berlawanan disambung dengan \"but\"."],
+["mc","I was hungry, ___ I ate a sandwich. Apa isi bagian yang kosong?","so","because","but","or","Sebab dulu, lalu akibat: \"so\"."],
+["mc","I ate a sandwich ___ I was hungry. Apa isi bagian yang kosong?","because","so","but","or","Akibat dulu, lalu sebab: \"because\"."],
+["mc","'Kopi atau teh?' dalam bahasa Inggris?","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","Untuk memilih salah satu, pakai \"or\"."],
+["mc","'Saya capek tapi senang' dalam bahasa Inggris?","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","‘Tapi’ = \"but\"."],
+["or","Saya suka kucing dan anjing","I like cats and dogs","cat dog","Hewan secara umum pakai jamak: \"cats\", \"dogs\"."],
+["or","Kopi satu dan sandwich satu, ya","A coffee and a sandwich please","the or","Dipesan satu-satu, jadi masing-masing pakai artikel \"a\"."],
+["or","Tadi saya lapar, jadi saya makan","I was hungry so I ate","because","Sebab dulu, lalu akibat: \"so\"."],
+["fi","I'm tired __ happy.","Saya capek tapi senang","but","so|because|or","‘Tapi’ = \"but\"."],
+["fi","I stayed home __ it was raining.","Saya di rumah saja karena hujan","because","so|but|or","Akibat dulu, lalu sebab: \"because\"."],
+["fi","Coffee __ tea?","Kopi atau teh?","or","so|but|because","Untuk memilih salah satu, pakai \"or\"."],
+["ty","Saya suka kopi dan teh","I like coffee and tea","like · coffee · and · tea — tanpa artikel","a","Kopi dan teh secara umum tanpa artikel."],
+["ty","Saya capek tapi senang","I'm tired but happy|I'm tired but I'm happy","tired · but · happy — pakai I'm","so","‘Tapi’ = \"but\"; kata sifat butuh to be."],
+["ty","Saya suka anjing dan kucing","I like dogs and cats|I like cats and dogs","dog · and · cat — bentuk jamak","dog","Hewan secara umum pakai jamak: \"dogs\", \"cats\"."]]},
+{ id:"indo-english", title:"Inggris ala Indonesia: kata yang menjebak", blurb:"I'm boring, refreshing, handphone, resep: terdengar seperti bahasa Inggris, tapi artinya lain.", deck:"Jebakan Inggris ala Indonesia", body:`
+<p>Banyak kata Inggris sudah masuk ke bahasa Indonesia, tapi artinya bergeser di perjalanan. Akibatnya, kalimat yang terasa benar di telinga kita bisa membingungkan penutur asli. Ini bukan soal tata bahasa, melainkan soal kata yang menjebak.</p>
+<h3>bored atau boring?</h3>
+<p>Akhiran <b>-ed</b> untuk perasaanmu, <b>-ing</b> untuk hal yang menimbulkan perasaan itu. <b>I'm boring</b> berarti ‘saya orang yang membosankan’, bukan ‘saya bosan’.</p>
+{{ex:I'm bored.|aim boord|Saya bosan}}{{ex:This movie is boring.|dhis MUU-vi iz BOO-ring|Film ini membosankan}}{{ex:I'm interested in music.|aim IN-tre-stid in MYUU-zik|Saya tertarik pada musik}}
+<h3>Kata yang artinya bergeser</h3>
+<div class="tbl"><table><tr><th>Dalam bahasa Indonesia</th><th>Jangan ✗</th><th>Bahasa Inggrisnya ✓</th></tr><tr><td><i>refreshing</i> (jalan-jalan, rehat)</td><td>go refreshing</td><td class="k">take a break / get away</td></tr><tr><td><i>handphone</i>, <i>HP</i></td><td>handphone</td><td class="k">phone / cell phone</td></tr><tr><td><i>map</i> (tempat dokumen)</td><td>map</td><td class="k">folder</td></tr><tr><td><i>resep</i> dokter</td><td>recipe</td><td class="k">prescription</td></tr><tr><td><i>titel</i> (gelar)</td><td>title</td><td class="k">degree</td></tr><tr><td><i>kompleks</i> (perumahan)</td><td>complex</td><td class="k">housing complex / housing estate</td></tr><tr><td><i>ekonomis</i> (hemat)</td><td>economic</td><td class="k">economical</td></tr><tr><td><i>hand body</i></td><td>hand body</td><td class="k">lotion / body lotion</td></tr><tr><td><i>buka puasa</i></td><td>breakfasting</td><td class="k">break the fast</td></tr></table></div>
+{{ex:I need a break.|ai niid e breik|Saya perlu rehat sebentar}}{{ex:I need a prescription.|ai niid e pri-SKRIP-syen|Saya perlu resep dokter}}{{ex:This is a folder.|dhis iz e FOUL-der|Ini map}}{{ex:Where's my phone?|wérz mai foun?|HP saya di mana?}}
+<p>Perhatikan juga artikel dan jamaknya: <b>a folder</b>, <b>two folders</b>, <b>a prescription</b>.</p>
+<h3>Pinjam: borrow atau lend?</h3>
+<p><i>Pinjam</i> dipakai untuk dua arah. Bahasa Inggris memisahkannya: <b>borrow</b> = meminjam (kamu yang menerima), <b>lend</b> = meminjamkan (kamu yang memberi).</p>
+{{ex:Can I borrow your pen?|ken ai BAA-rou yer pén?|Boleh saya pinjam pulpenmu?}}{{ex:Can you lend me a pen?|ken yu lénd mi e pén?|Bisa pinjamkan saya pulpen?}}
+<h3>Good night dan jawaban ‘ya’</h3>
+<p><b>Good night</b> bukan sapaan <i>Selamat malam</i> saat bertemu; artinya pamit atau mau tidur. Saat bertemu pada malam hari, ucapkan <b>Good evening</b>. Lalu, kalau ditanya dengan kalimat negatif, jawaban bahasa Inggris mengikuti faktanya, bukan pertanyaannya: <i>Dia tidak datang? — Ya, dia tidak datang</i> → <b>No, he didn't.</b></p>
+{{ex:Good evening.|gud IIV-ning|Selamat malam (saat bertemu)}}{{ex:Didn't he come? / No, he didn't.|DI-dent hi kam? / nou, hi DI-dent|Dia tidak datang? / Ya, dia tidak datang}}
+<div class="tip">Kesalahan paling umum: <b>I'm boring.</b> ✗ → <b>I'm bored.</b> ✓ / <b>Let's go refreshing.</b> ✗ → <b>Let's take a break.</b> ✓ / <b>Can you borrow me a pen?</b> ✗ → <b>Can you lend me a pen?</b> ✓ / <b>… or whatsoever</b> ✗ → <b>… or whatever</b> ✓</div>`,
+check:[["Kamu merasa bosan. Kalimat mana yang benar?",["I'm boring.","I'm bored.","I'm bore.","I boring."],1,"Perasaanmu pakai -ed: \"bored\". \"I'm boring\" berarti kamu orang yang membosankan."],["Kamu mau meminjam pulpen teman. Kalimat mana yang benar?",["Can you borrow me your pen?","Can I lend your pen?","Can you borrow your pen?","Can I borrow your pen?"],3,"Meminjam (kamu yang menerima) = \"borrow\"; meminjamkan (kamu yang memberi) = \"lend\"."],["Bahasa Inggrisnya 'resep dokter'?",["prescription","recipe","receipt","description"],0,"Resep dokter = \"prescription\"; \"recipe\" hanya untuk masakan."]],
+practice:[
+["mc","Kamu merasa bosan. Mana yang benar?","I'm bored.","I'm boring.","I'm bore.","I'm boredom.","Perasaanmu pakai -ed; \"boring\" berarti membosankan."],
+["mc","'Saya perlu resep dokter' dalam bahasa Inggris?","I need a prescription.","I need a recipe.","I need a receipt.","I need a prescript.","Resep dokter = \"prescription\"; \"recipe\" untuk masakan."],
+["mc","Kamu minta teman meminjamkan pulpennya. Mana yang benar?","Can you lend me a pen?","Can you borrow me a pen?","Can I lend a pen?","Can you lend a pen me?","Memberi pinjaman = \"lend\"; menerima pinjaman = \"borrow\"."],
+["mc","Sapaan yang tepat saat bertemu orang pada malam hari?","Good evening.","Good night.","Good noon.","Good late.","\"Good night\" untuk pamit atau mau tidur, bukan untuk menyapa."],
+["mc","Jawab 'Ya, dia tidak datang' untuk \"Didn't he come?\"","No, he didn't.","Yes, he didn't.","Yes, he did.","No, he did.","Jawaban bahasa Inggris mengikuti fakta: dia tidak datang, jadi \"No\"."],
+["or","Saya meminjam dua buku dari Sari","I borrowed two books from Sari","lent book","Meminjam = \"borrowed\"; ada \"two\", jadi bentuk jamak \"books\"."],
+["or","Ini map","This is a folder","map the","Map dokumen = \"folder\"; satu benda yang bisa dihitung perlu artikel \"a\"."],
+["or","Kami bosan","We're bored","boring","Perasaan pakai -ed: \"bored\"."],
+["fi","I'm __ in music.","Saya tertarik pada musik","interested","interesting|interest|interests","Perasaanmu pakai -ed: \"interested\"."],
+["fi","Can I __ your pen?","Boleh saya pinjam pulpenmu?","borrow","lend|loan|rent","Meminjam (kamu yang menerima) = \"borrow\"."],
+["fi","Bring snacks, drinks or __.","Bawa camilan, minuman atau apa saja","whatever","whatsoever|whichever|however","Yang benar \"or whatever\", bukan \"or whatsoever\"."],
+["ty","Saya perlu resep dokter","I need a prescription","need · prescription — artikel a","recipe","Resep dokter = \"prescription\"; satu benda yang bisa dihitung perlu artikel \"a\"."],
+["ty","Saya punya dua map","I have two folders","have · two · folder — bentuk jamak","folder","Map dokumen = \"folder\"; ada \"two\", jadi jamak \"folders\"."],
+["ty","Saya bosan","I'm bored","I'm · bored — bukan boring","boring","Perasaanmu pakai -ed: \"bored\"."],
+["ty","HP saya di mana?","Where's my phone|Where is my phone","where · my · phone — bukan handphone","handphone","Dalam bahasa Inggris cukup \"phone\"; \"handphone\" tidak dipakai."]]},
 ];

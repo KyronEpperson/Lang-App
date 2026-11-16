@@ -1,29 +1,29 @@
 exports.LESSONS = [
 { id:"pron", title:"1 · Bẫy phát âm: phiên âm, TH, âm cuối, R/L", blurb:"Đọc được phiên âm IPA của khóa học, rồi sửa những âm người Việt hay nhầm nhất: TH, SH, TR, âm cuối và trọng âm.", deck:"Phát âm dễ sai", body:`
-<p>Mọi thẻ và ví dụ trong khóa học đều có <b>phiên âm IPA</b> theo giọng Mỹ, đặt giữa hai dấu gạch chéo. Ký hiệu gần giống bảng phiên âm trong sách giáo khoa, chỉ khác vài chỗ. Mất hai phút làm quen, sau đó bạn có thể nhìn phiên âm mà đọc theo. Muốn ẩn phiên âm thì tắt nút “Hiện phiên âm”.</p>
+<p>Mọi thẻ và ví dụ trong khóa học đều có <b>phiên âm IPA</b> theo giọng Mỹ, đặt giữa hai dấu gạch chéo. Ký hiệu gần giống bảng phiên âm trong sách giáo khoa, chỉ khác vài chỗ. Mất hai phút làm quen, sau đó bạn có thể nhìn phiên âm mà đọc theo. Muốn ẩn phiên âm thì chạm nút “Aa phiên âm”, hoặc tắt “Hiện phiên âm khi luyện tập” trong phần cài đặt ở Tiến độ.</p>
 <h3>Đọc phiên âm của khóa học</h3>
 <div class="tbl"><table><tr><th>Sách giáo khoa (Anh-Anh)</th><th>Khóa học này (Anh-Mỹ)</th><th>Ví dụ</th></tr><tr><td class="k">əʊ</td><td>oʊ</td><td>go /goʊ/</td></tr><tr><td class="k">ɒ</td><td>ɑː</td><td>hot /hɑːt/</td></tr><tr><td class="k">ɜː, ə (chữ r câm)</td><td>ɝː, ɚ (đọc cả âm r)</td><td>bird /bɝːd/, teacher /ˈtiːtʃɚ/</td></tr><tr><td class="k">ɑː (car)</td><td>ɑːr</td><td>car /kɑːr/</td></tr></table></div>
 <p>Dấu <b>ˈ</b> đứng trước âm tiết mang trọng âm. Dấu <b>‿</b> là nối âm: phụ âm cuối của từ trước nối sang nguyên âm của từ sau, như <b>turn it on</b> /tɝːn‿ɪt‿ɑːn/. Âm <b>t</b> nằm giữa hai nguyên âm (<b>water</b>, <b>thirty</b>) người Mỹ đọc nhanh, gần như /d/; phiên âm vẫn ghi /t/, bạn cứ nghe theo âm thanh.</p>
 <h3>TH: không phải “th” tiếng Việt</h3>
 <p>Chữ “th” trong tiếng Việt là /t/ bật hơi, nên đọc <b>think</b> theo mặt chữ sẽ thành “tink”. Âm /θ/ của tiếng Anh cần <b>đưa đầu lưỡi ra giữa hai hàm răng</b> rồi thổi hơi. Nếu dây thanh rung, ta có /ð/ trong <b>this</b>; đừng đọc thành /z/ hay /d/. Đọc /θ/ thành /t/ thì <b>three</b> (số 3) thành <b>tree</b> (cái cây); đọc thành /s/ thì <b>think</b> thành <b>sink</b>.</p>
-{{ex:three|/θriː/|số 3}}{{ex:tree|/triː/|cái cây}}{{ex:thank|/θæŋk/|cảm ơn}}{{ex:tank|/tæŋk/|bể chứa; xe tăng}}{{ex:think|/θɪŋk/|nghĩ}}{{ex:sink|/sɪŋk/|bồn rửa; chìm}}{{ex:this|/ðɪs/|cái này}}
+{{ex:three|/θriː/|số 3}}{{ex:tree|/triː/|cái cây}}{{ex:thank|/θæŋk/|cảm ơn}}{{ex:tank|/tæŋk/|bể chứa / xe tăng}}{{ex:think|/θɪŋk/|nghĩ}}{{ex:sink|/sɪŋk/|bồn rửa / chìm}}{{ex:this|/ðɪs/|cái này}}
 <h3>S và SH, SH và CH, TR</h3>
 <p>Nhiều người đọc “s” và “x” giống nhau, “tr” và “ch” giống nhau, nên dễ nhầm các cặp sau. /ʃ/ (sh) phải <b>tròn môi</b> và hơi kéo dài; /tʃ/ (ch) bắt đầu bằng một tiếng bật ngắn; /tr/ trong <b>tree</b> là /t/ cộng /r/, không phải “ch”.</p>
-{{ex:she|/ʃiː/|cô ấy}}{{ex:see|/siː/|nhìn thấy}}{{ex:chair|/tʃer/|cái ghế}}{{ex:share|/ʃer/|chia sẻ; phần}}
+{{ex:she|/ʃiː/|cô ấy}}{{ex:see|/siː/|nhìn thấy}}{{ex:chair|/tʃer/|cái ghế}}{{ex:share|/ʃer/|chia sẻ / phần}}
 <h3>R và L, L và N</h3>
 <p>Âm <b>L</b>: đầu lưỡi <b>chạm</b> vào lợi sau răng trên rồi rời ra. Âm <b>R</b>: đầu lưỡi <b>không chạm vào đâu cả</b>, hơi cong về sau, môi hơi tròn; đừng đọc như “r” rung hay như /z/. Ở một số vùng, L và N dễ lẫn: <b>light</b> (ánh sáng) khác <b>night</b> (ban đêm).</p>
-{{ex:rice|/raɪs/|gạo, cơm}}{{ex:lice|/laɪs/|chấy, rận}}{{ex:right|/raɪt/|bên phải; đúng}}{{ex:light|/laɪt/|ánh sáng; nhẹ}}{{ex:night|/naɪt/|ban đêm}}
+{{ex:rice|/raɪs/|gạo / cơm}}{{ex:lice|/laɪs/|chấy / chí}}{{ex:right|/raɪt/|bên phải / đúng}}{{ex:light|/laɪt/|ánh sáng / nhẹ}}{{ex:night|/naɪt/|ban đêm}}
 <h3>F và P, V và B</h3>
 <p>Tin vui: tiếng Việt có “ph” = /f/ và có “v”, nên chỉ cần nhớ <b>f</b> đọc như “ph”: răng trên chạm môi dưới. <b>P</b> là hai môi mím lại rồi bật ra (tiếng Việt chỉ có “p” đầu từ ở vài từ mượn như “pin”), đừng đọc thành “b”. <b>V</b> cũng là răng trên chạm môi dưới, khác <b>B</b> hai môi.</p>
 {{ex:fan|/fæn/|cái quạt}}{{ex:pan|/pæn/|cái chảo}}{{ex:very|/ˈveri/|rất}}{{ex:berry|/ˈberi/|quả mọng}}{{ex:vote|/voʊt/|bỏ phiếu}}{{ex:boat|/boʊt/|con thuyền}}
 <h3>Âm cuối phải nghe được</h3>
 <p>Âm cuối tiếng Việt ngắn và không bật ra (“p, t, c”), còn âm cuối tiếng Anh <b>phải nghe rõ</b>. Đừng đọc <b>dog</b> thành “đóc”: /g/ cuối vẫn là /g/. Âm cuối đổi thì nghĩa đổi: <b>bag</b> (cái túi) / <b>back</b> (lưng). Đuôi -s và -ed cũng nằm ở cuối từ; nuốt mất là sai cả ngữ pháp. Bài “Âm cuối” sẽ luyện kỹ phần này.</p>
-{{ex:bag|/bæg/|cái túi}}{{ex:back|/bæk/|lưng; phía sau}}
+{{ex:bag|/bæg/|cái túi}}{{ex:back|/bæk/|lưng / phía sau}}
 <h3>Nguyên âm dài và ngắn</h3>
 <p>/iː/ dài và căng, /ɪ/ ngắn và lỏng. Nhầm hai âm này là nói sang từ khác: <b>sheep</b> (con cừu) / <b>ship</b> (con tàu).</p>
 {{ex:sheep|/ʃiːp/|con cừu}}{{ex:ship|/ʃɪp/|con tàu}}
 <h3>Trọng âm quyết định người nghe có hiểu không</h3>
-<p>Tiếng Việt đọc mỗi âm tiết đều nhau, có thanh điệu riêng. Tiếng Anh thì mỗi từ có một âm tiết đọc <b>mạnh, dài và cao hơn</b>, các âm tiết còn lại đọc lướt. Phát âm đúng mà sai trọng âm thì người nghe vẫn không hiểu.</p>
+<p>Tiếng Việt đọc mỗi âm tiết đều nhau, có thanh điệu riêng. Tiếng Anh thì mỗi từ có từ hai âm tiết trở lên đều có một âm tiết đọc <b>mạnh, dài và cao hơn</b>, các âm tiết còn lại đọc lướt; các từ nhỏ như a, the, to thường đọc lướt cả từ. Phát âm đúng mà sai trọng âm thì người nghe vẫn không hiểu.</p>
 <div class="tbl"><table><tr><th>Từ</th><th>Trọng âm</th><th>Phiên âm</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>/bəˈnænə/</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>/hoʊˈtel/</td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>/məkˈdɑːnəldz/</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>/ˌθɝːˈtiːn/, /ˈθɝːti/</td></tr></table></div>
 <div class="tip">Cách tự kiểm tra: khi đọc F và V, răng trên phải chạm môi dưới; khi đọc TH, đầu lưỡi phải <b>lộ ra</b> giữa hai hàm răng. Soi gương mà thấy được là bạn đang làm đúng.</div>`},
 
@@ -58,7 +58,7 @@ exports.LESSONS = [
 <h3>he, she, it: thêm -s</h3>
 <p>Động từ tiếng Việt không bao giờ đổi theo chủ ngữ, nhưng tiếng Anh thì có. Chủ ngữ ngôi thứ ba số ít (một người hay một vật, trừ I và you) thì động từ thường ở hiện tại thêm <b>-s</b>; câu phủ định và câu hỏi dùng <b>does</b>. Đã có does thì động từ chính bỏ -s.</p>
 {{ex:My brother works in Hanoi.|/maɪ ˈbrʌðɚ wɝːks‿ɪn hæˈnɔɪ/|Anh trai tôi làm việc ở Hà Nội}}{{ex:Does he speak English?|/dʌz hi spiːk‿ˈɪŋglɪʃ/|Anh ấy có nói tiếng Anh không?}}{{ex:She doesn't eat meat.|/ʃi ˈdʌzənt‿iːt miːt/|Cô ấy không ăn thịt}}
-<div class="tip">Phân vân thì tự hỏi: “Câu này có <b>hành động</b> không?” Có thì dùng do / does; không có (trạng thái, tính từ, danh tính, vị trí) thì dùng to be.</div>`},
+<div class="tip">Phân vân thì tự hỏi: “Ngoài to be, câu này có <b>động từ nào khác</b> không (like, live, work, want…)?” Có thì câu phủ định và câu hỏi dùng do / does; không có (chỉ có tính từ, danh từ hay nơi chốn) thì dùng to be.</div>`},
 
 { id:"polite", title:"4 · Nhờ vả lịch sự", blurb:"\"Can you\" → \"Could you\" → \"Would you mind\". Đừng nói \"Give me\" nữa!", deck:"Tiếng Anh cấp tốc 1", body:`
 <p>Tiếng Việt thể hiện lịch sự qua cách xưng hô (anh, chị, em…) và các từ như “ạ”, “dạ”, “vui lòng”. Tiếng Anh chỉ có một chữ <b>you</b> cho mọi người, từ bạn bè đến sếp. Sự lịch sự nằm ở <b>cách đặt câu nhờ vả</b>: cùng một nội dung, đổi khung câu là nghe thô lỗ hay lịch sự ngay.</p>
@@ -130,7 +130,7 @@ exports.LESSONS = [
 <p>Nhiều cụm động từ có tân ngữ tách ra được. Danh từ đứng trước hay sau từ nhỏ đều được, nhưng <b>đại từ như it, them, me bắt buộc đứng giữa</b>.</p>
 {{ex:Turn on the light. / Turn the light on.|/tɝːn‿ɑːn ðə laɪt/ / /tɝːn ðə laɪt‿ɑːn/|Bật đèn lên (cả hai đều đúng ✓)}}{{ex:Turn it on.|/tɝːn‿ɪt‿ɑːn/|Bật nó lên (turn on it ✗)}}{{ex:I'll pick you up at seven.|/aɪl pɪk ju ʌp‿ət ˈsevən/|7 giờ tôi đến đón bạn}}
 <h3>Cụm động từ không tách được</h3>
-<p>Những cụm đi với giới từ như <b>look after</b>, <b>look for</b>, <b>get along with</b> thì không tách: <i>look after my cat</i>, <i>look after her</i>.</p>
+<p>Những cụm đi với giới từ như <b>look after</b>, <b>look for</b>, <b>get along with</b> thì không tách: <b>look after my cat</b>, <b>look after her</b>.</p>
 <div class="tip">Hãy học cụm động từ <b>trọn cả cụm</b>, như học một từ. Học kèm câu ví dụ thì vị trí của đại từ sẽ tự nhiên thành phản xạ. Mỗi ngày thử dùng thật ba cụm!</div>`},
 
 { id:"numbers", title:"9 · Nói số, giờ và giá tiền", blurb:"Dấu chấm và dấu phẩy đổi chỗ, 13 khác 30, cách đọc giá tiền và năm.", deck:"Số · giờ · ngày tháng", body:`

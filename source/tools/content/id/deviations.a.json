@@ -1,0 +1,16 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "Perkenalan diri": "localisation per profile id.md §9 (Minji→Budi, Korea→Indonesia, Seoul→Jakarta): cards 0 'My name is Budi.', 4 'I'm from Indonesia.', 5 'I live in Jakarta.'",
+    "Ungkapan penting 1": "localisation per profile id.md §9: card 12 'Do you speak Korean?' → 'Do you speak Indonesian?' (learner's own language)",
+    "Obrolan ringan": "localisation per profile id.md §9: card 6 'Have you been to Korea?' → 'Have you been to Indonesia?'",
+    "Pujian & rasa suka": "localisation per profile id.md §9: card 8 'Your Korean is really good!' → 'Your Indonesian is really good!'",
+    "Telepon & singkatan chat": "localisation per profile id.md §9 (Minji→Budi; Mr. Kim→Mr. Wijaya, family name as in profile §8 email): cards 0 'Hello, this is Budi.', 1 'Can I speak to Mr. Wijaya?'",
+    "Perjalanan (bandara & hotel)": "localisation per profile id.md §9: card 8 reservation name 'under Kim' → 'under Wijaya'",
+    "Rumah sakit & darurat": "localisation per profile id.md §9: card 15 'the Korean embassy' → 'the Indonesian embassy' (learner's own embassy)",
+    "Awas pelafalan": "id-only cards appended per profile id.md §4.10 / §9 Awas pelafalan list (cards 26–36): ship, sheep, sip (sy/s, i/ii), fairy (v/f with very), van (with fan), bag/back (final voicing), bad/bed (è/é), dogs/docks (final z vs s). Pairs whose other half already exists reuse the shared cards (think/sink, three/tree, very, fan, walk/work); 'tink' is an error form, so it is named in the note of 'think' rather than given a card. Original 26 cards unchanged",
+    "Jebakan Inggris ala Indonesia": "id-only deck (profile id.md §4.11 / §8 indo-english / §9 false-friend table): -ed/-ing feelings, refreshing, buka puasa, whatsoever, map/folder, resep, titel, kompleks, ekonomis, hand body, Good night as a greeting, handphone, mobil, borrow/lend, answering negative questions, ons/pon; 27 cards; linked to the id-only lesson indo-english; no ko-en counterpart",
+    "count": "deck count 21 vs ko-en 20: id-only deck Jebakan Inggris ala Indonesia (profile id.md §9) appended last"
+  }
+}

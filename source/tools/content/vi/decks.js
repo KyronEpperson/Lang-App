@@ -11,7 +11,7 @@ Good afternoon. | /gʊd‿ˌæftɚˈnuːn/ | Chào buổi chiều | Khoảng 12 
 Good evening. | /gʊd‿ˈiːvnɪŋ/ | Chào buổi tối | Chào khi gặp nhau buổi tối. "Good night" chỉ dùng khi chia tay!
 How are you? | /haʊ ɑːr ju/ | Bạn khỏe không? | Đây là lời chào hơn là hỏi thăm thật. Đáp nhẹ nhàng: "Good, thanks. You?"
 I'm good, thanks. And you? | /aɪm gʊd θæŋks/ /ænd ju/ | Tôi khỏe, cảm ơn. Còn bạn? | "I'm fine, thank you" nghe như sách giáo khoa; "I'm good" tự nhiên hơn nhiều.
-What's up? | /wʌts‿ʌp/ | Dạo này sao rồi? / Có gì mới không? | Không liên quan gì đến “ở trên” (up). Thường đáp: "Not much."
+What's up? | /wʌts‿ʌp/ | Dạo này sao rồi? / Có gì mới không? | Không phải hỏi “ở trên có gì”, mà là câu hỏi thăm thân mật giữa người quen: “dạo này thế nào?”. Thường đáp: "Not much."
 Not much. | /nɑːt mʌtʃ/ | Cũng bình thường thôi | Câu đáp phổ biến nhất cho "What's up?". Hỏi lại: "Not much, you?"
 How's it going? | /haʊz‿ɪt ˈgoʊɪŋ/ | Mọi chuyện thế nào? / Ổn cả chứ? | Cách hỏi thân mật của "How are you?". Đáp: "Pretty good!"
 Nice to meet you. | /naɪs tə miːt ju/ | Rất vui được gặp bạn | Chỉ dùng khi gặp lần đầu. Đáp: "Nice to meet you, too."
@@ -345,14 +345,14 @@ right | /raɪt/ | bên phải / đúng | Bắt đầu bằng /r/ — không đ�
 light | /laɪt/ | ánh sáng / nhẹ | Bắt đầu bằng /l/, đầu lưỡi chạm lợi trên. Đừng đọc thành "night" (xem thẻ "night").
 fan | /fæn/ | quạt / người hâm mộ | /f/: răng trên chạm nhẹ môi dưới rồi thổi hơi. Nguyên âm /æ/ mở miệng rộng hơn “e”.
 pan | /pæn/ | cái chảo | /p/: bật hơi mạnh từ hai môi.
-coffee | /ˈkɑːfi/ | cà phê | Trọng âm ở âm đầu: CO-ffee. Giữ âm /f/ ở giữa.
-copy | /ˈkɑːpi/ | sao chép / bản sao | Âm giữa là /p/ bật hơi. Trọng âm ở âm đầu.
+coffee | /ˈkɑːfi/ | cà phê | Trọng âm ở âm đầu: CO-ffee, không đọc đều hai âm như “cà phê”.
+copy | /ˈkɑːpi/ | sao chép / bản sao | Trọng âm ở âm đầu: CO-py. Âm /p/ ở giữa bật hơi rõ, không đọc thành “cóp-pi”.
 think | /θɪŋk/ | nghĩ | /θ/: đầu lưỡi giữa hai hàm răng rồi thổi hơi. Đọc theo chữ “th” tiếng Việt (/tʰ/) sẽ thành “tink”; đọc /s/ sẽ thành "sink".
 sink | /sɪŋk/ | bồn rửa / chìm | Âm /s/, lưỡi ở sau răng.
 three | /θriː/ | số 3 | Lưỡi giữa hai hàm răng! Đọc /t/ sẽ thành "tree".
 tree | /triː/ | cái cây | /tr/ khác /tʃ/: đừng đọc thành “chi”. Cong lưỡi cho âm /r/.
 this | /ðɪs/ | cái này | /ð/ hữu thanh: lưỡi giữa hai hàm răng, rung dây thanh. Không đọc thành /z/ hay /d/.
-very | /ˈveri/ | rất | /v/: răng trên chạm môi dưới, rung dây thanh. Đọc thành /b/ sẽ nghe như "berry".
+very | /ˈveri/ | rất | /v/ giống “v” tiếng Việt: răng trên chạm môi dưới, rung dây thanh. Khác "berry" (/b/ bằng hai môi).
 berry | /ˈberi/ | quả mọng (như dâu tây) | Âm /b/ bằng hai môi.
 vote | /voʊt/ | bỏ phiếu | Bắt đầu bằng /v/; phân biệt với "boat". Đọc rõ /t/ cuối.
 boat | /boʊt/ | con thuyền | Bắt đầu bằng /b/. Nguyên âm đôi /oʊ/, không phải “ô”.
@@ -361,7 +361,7 @@ work | /wɝːk/ | làm việc | Cong lưỡi cho âm /ɝː/. Hay nhầm với "w
 beach | /biːtʃ/ | bãi biển | /iː/ dài! Đọc ngắn sẽ nghe như một từ chửi tục.
 leave | /liːv/ | rời đi | /iː/ dài, giữ âm /v/ cuối. Phân biệt với "live".
 live | /lɪv/ | sống | /ɪ/ ngắn và thả lỏng. Đừng bỏ /v/ cuối.
-banana | /bəˈnænə/ | quả chuối | Trọng âm ở giữa: ba-NA-na; hai âm kia đọc nhẹ thành /ə/.
+banana | /bəˈnænə/ | chuối | Trọng âm ở giữa: ba-NA-na; hai âm kia đọc nhẹ thành /ə/.
 hotel | /hoʊˈtel/ | khách sạn | Trọng âm ở sau: ho-TEL. Đọc rõ /l/ cuối.
 milk | /mɪlk/ | sữa | Cụm phụ âm cuối /lk/: đừng thêm “ơ” sau /k/, cũng đừng bỏ /l/.
 McDonald's | /məkˈdɑːnəldz/ | nhà hàng McDonald's | Trọng âm ở "DO". Cụm âm cuối /ldz/.
@@ -426,7 +426,7 @@ Let's do this! | /lets duː ðɪs/ | Làm thôi! | Cổ vũ tinh thần trước
 `,
 "Âm cuối": `
 six | /sɪks/ | số 6 | Cụm phụ âm cuối /ks/. Chỉ đọc /k/ sẽ thành "sick".
-sick | /sɪk/ | ốm | Âm cuối /k/, giống “c” cuối tiếng Việt nhưng được bật nhẹ ra.
+sick | /sɪk/ | ốm / bệnh | Âm cuối /k/, giống “c” cuối tiếng Việt nhưng được bật nhẹ ra.
 bag | /bæg/ | cái túi | Âm cuối /g/ hữu thanh, nguyên âm kéo dài hơn. Đọc thành /k/ sẽ thành "back".
 back | /bæk/ | phía sau / lưng | Âm cuối /k/ vô thanh; nguyên âm ngắn hơn "bag".
 dog | /dɑːg/ | con chó | Âm cuối /g/. Đọc kiểu “đóc” là thành "dock".
@@ -436,7 +436,7 @@ seat | /siːt/ | chỗ ngồi | Âm cuối /t/ vô thanh.
 rise | /raɪz/ | tăng lên / mọc (mặt trời) | Âm cuối /z/ rung dây thanh; "rice" (bộ Phát âm dễ sai) kết thúc bằng /s/.
 nine | /naɪn/ | số 9 | Âm cuối /n/. Đừng nhầm với "night" (âm cuối /t/, bộ Phát âm dễ sai).
 card | /kɑːrd/ | thẻ / tấm thiệp | Âm cuối /rd/: bỏ /d/ sẽ thành "car".
-car | /kɑːr/ | xe ô tô | Kết thúc bằng /r/, không có /d/.
+car | /kɑːr/ | xe ô tô / xe hơi | Kết thúc bằng /r/, không có /d/.
 wash | /wɑːʃ/ | rửa / giặt | Âm cuối /ʃ/ kéo dài được. Phân biệt với "watch".
 watch | /wɑːtʃ/ | xem / đồng hồ đeo tay | Âm cuối /tʃ/ bật ra. Đừng đọc thành "wash".
 mice | /maɪs/ | lũ chuột | Âm cuối /s/: số nhiều bất quy tắc của "mouse". Bỏ /s/ sẽ thành "my".
@@ -462,7 +462,7 @@ There are many people here. | /ðer ɑːr ˈmeni ˈpiːpəl hɪr/ | Ở đây c�
 I really like it. | /aɪ ˈriːli laɪk‿ɪt/ | Tôi rất thích nó | I very like it. ✗ → I really like it. ✓ "very" không đứng trước động từ; hoặc nói "I like it very much."
 I hung out with my friends. | /aɪ hʌŋ‿aʊt wɪð maɪ frendz/ | Tôi đi chơi với bạn bè | I played with my friends. ✗ (người lớn) → I hung out with my friends. ✓ “Đi chơi” của người lớn là "hang out"; "play" dành cho trẻ con, game, thể thao.
 How do you pronounce this word? | /haʊ duː ju prəˈnaʊns ðɪs wɝːd/ | Từ này phát âm thế nào? | How to pronounce this word? ✗ → How do you pronounce this word? ✓ Câu hỏi trực tiếp cần trợ động từ "do".
-I need to go grocery shopping. | /aɪ niːd tə goʊ ˈgroʊsəri ˈʃɑːpɪŋ/ | Tôi phải đi chợ | “Đi chợ” thường là đi mua thực phẩm, kể cả ở siêu thị: "go grocery shopping". "Go to the market" chỉ dùng khi đến một khu chợ thật.
+It's raining heavily. | /ɪts ˈreɪnɪŋ ˈhevəli/ | Trời đang mưa to | It's raining big. ✗ → It's raining heavily. ✓ “Mưa to” là "heavy rain" / "rain heavily", không phải "big rain".
 Take this medicine twice a day. | /teɪk ðɪs ˈmedɪsən twaɪs‿ə deɪ/ | Uống thuốc này ngày hai lần | Drink this medicine. ✗ → Take this medicine. ✓ “Uống thuốc” là "take medicine"; "drink" chỉ dùng cho đồ uống.
 I agree with you. | /aɪ əˈgriː wɪð ju/ | Tôi đồng ý với bạn | I am agree. ✗ → I agree. ✓ "agree" là động từ thường, không cần "am".
 He is hungry. | /hi ɪz ˈhʌŋgri/ | Anh ấy đói | He hungry. ✗ → He is hungry. ✓ Tiếng Việt nói “Anh ấy đói”, nhưng tính từ tiếng Anh cần động từ to be đi trước.

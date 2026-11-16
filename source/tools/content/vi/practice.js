@@ -9,7 +9,7 @@ const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
   pron: [
-    { t: "mc", q: "Từ nào nghĩa là “gạo, cơm”?", o: ["rice", "lice", "rise", "nice"], why: "\"Rice\" bắt đầu bằng R: đầu lưỡi không chạm vào đâu. Đọc bằng L (đầu lưỡi chạm lợi) thì thành \"lice\" (con chấy)." },
+    { t: "mc", q: "Từ nào nghĩa là “gạo / cơm”?", o: ["rice", "lice", "rise", "nice"], why: "\"Rice\" bắt đầu bằng R: đầu lưỡi không chạm vào đâu. Đọc bằng L (đầu lưỡi chạm lợi) thì thành \"lice\" (con chấy)." },
     { t: "mc", q: "Từ nào nghĩa là “cái quạt”?", o: ["fan", "pan", "van", "ban"], why: "F đọc như “ph” tiếng Việt: răng trên chạm môi dưới. Mím hai môi rồi bật ra (P) thì thành \"pan\" (cái chảo)." },
     { t: "mc", q: "Từ nào nghĩa là “nghĩ”?", o: ["think", "sink", "thing", "pink"], why: "TH: đưa đầu lưỡi ra giữa hai hàm răng. Đọc bằng /s/ thì thành \"sink\" (bồn rửa), đọc như “th” tiếng Việt thì thành \"tink\"." },
     { t: "mc", q: "Từ nào nghĩa là “bỏ phiếu”?", o: ["vote", "boat", "goat", "bought"], why: "V: răng trên chạm môi dưới, dây thanh rung. Đọc bằng hai môi (B) thì thành \"boat\" (con thuyền)." },
@@ -224,7 +224,7 @@ module.exports = {
     { t: "fill", q: "I'm feeling under __ weather.", p: "Tôi thấy hơi mệt trong người", a: ["the"], o: ["a", "an", "my"], why: "\"Under the weather\": giữ nguyên mạo từ \"the\"." },
 
     { t: "type", p: "Dễ như ăn kẹo", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — đừng quên mạo từ", x: ["the"], why: "\"A piece of cake\": nhất định phải có mạo từ \"a\"." },
-    { t: "type", p: "Tôi sẽ cầu mong mọi việc suôn sẻ", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — mấy ngón tay?", x: ["finger"], why: "Bắt chéo hai ngón tay nên dùng số nhiều \"fingers\"." },
+    { t: "type", p: "Tôi sẽ cầu mong mọi việc suôn sẻ (bắt chéo ngón tay)", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — mấy ngón tay?", x: ["finger"], why: "Bắt chéo hai ngón tay nên dùng số nhiều \"fingers\"." },
     { t: "type", p: "Hôm nay đến đây thôi", a: ["Let's call it a day"], hint: "call it · day — không phải \"the\"", x: ["the"], why: "\"Call it a day\": mạo từ \"a\", không phải \"the\"." }
   ]
 };

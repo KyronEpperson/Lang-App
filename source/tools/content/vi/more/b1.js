@@ -62,7 +62,7 @@ practice:[
 <p>Dùng khi tưởng tượng điều không có thật. Tiếng Việt vẫn dùng “nếu… thì…” và để ngữ cảnh (hoặc “giá mà”, “lẽ ra”) cho biết đó là giả định. Tiếng Anh báo hiệu bằng thì của động từ: lùi về quá khứ một bậc.</p>
 <h3>Câu điều kiện loại 2: trái với hiện tại</h3>
 <p><b>If + quá khứ đơn, would + động từ nguyên mẫu</b>. Động từ ở quá khứ nhưng nghĩa là hiện tại.</p>
-{{ex:If I had time, I would travel.|/ɪf‿aɪ hæd taɪm aɪ wʊd ˈtrævəl/|Nếu có thời gian, tôi đã đi du lịch rồi (tiếc là không có)}}{{ex:If I were you, I'd take it.|/ɪf‿aɪ wɝː ju aɪd teɪk‿ɪt/|Nếu tôi là bạn, tôi sẽ nhận}}{{ex:What would you do?|/wʌt wʊd ju duː/|Trong trường hợp đó bạn sẽ làm gì?}}
+{{ex:If I had time, I would travel.|/ɪf‿aɪ hæd taɪm aɪ wʊd ˈtrævəl/|Nếu có thời gian thì tôi sẽ đi du lịch (tiếc là bây giờ không có)}}{{ex:If I were you, I'd take it.|/ɪf‿aɪ wɝː ju aɪd teɪk‿ɪt/|Nếu tôi là bạn, tôi sẽ nhận}}{{ex:What would you do?|/wʌt wʊd ju duː/|Trong trường hợp đó bạn sẽ làm gì?}}
 <h3>Câu điều kiện loại 3: trái với quá khứ</h3>
 <p><b>If + had + V3, would have + V3</b>.</p>
 {{ex:If I had studied, I would have passed.|/ɪf‿aɪ hæd ˈstʌdid aɪ wʊd hæv pæst/|Nếu hồi đó tôi học bài thì tôi đã đỗ rồi}}
@@ -77,7 +77,7 @@ practice:[
 ["mc","If I had known, I ___ come. Từ nào điền vào chỗ trống?","would have","would","will have","had","Trái với quá khứ thì dùng \"would have\" + V3."],
 ["mc","“Lẽ ra tôi nên gọi điện” =","I should have called.","I should called.","I should had call.","I must called.","Tiếc nuối dùng \"should have\" + V3."],
 ["mc","“Trong trường hợp đó bạn sẽ làm gì?” =","What would you do?","What will you did?","What would you did?","What you would do?","Giả định dùng \"would\" + động từ nguyên mẫu."],
-["or","Nếu có thời gian thì tôi đi du lịch rồi","If I had time I'd travel","have will","Trái với hiện tại nên dùng quá khứ \"had\" và \"would\"."],
+["or","Nếu (bây giờ) có thời gian thì tôi sẽ đi du lịch","If I had time I'd travel","have will","Trái với hiện tại nên dùng quá khứ \"had\" và \"would\"."],
 ["or","Là tôi thì tôi sẽ đi taxi","I'd take a taxi","the taxis","Một chiếc taxi bất kỳ nên dùng mạo từ \"a\"."],
 ["or","Lẽ ra tôi nên mua vé","I should have bought a ticket","the buy","Danh từ đếm được số ít \"ticket\" cần mạo từ \"a\"."],
 ["fi","If I __ you, I'd go.","Nếu tôi là bạn, tôi sẽ đi","were|was","am|be|would be","\"If I were you\" là cách nói cố định."],

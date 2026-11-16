@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "indo-english": "id-only lesson (profile id.md §8 'add', §4.11, §9): Inggris ala Indonesia — -ed/-ing feelings (bored/boring, interested), shifted loanwords (refreshing, handphone/HP, map, resep, titel, kompleks, ekonomis, hand body, buka puasa), borrow vs lend (pinjam), Good night vs Good evening, answering negative questions (Ya, dia tidak datang → No, he didn't), …or whatever; placed after smalltalk via profile.json lessonOrder.after; deck Jebakan Inggris ala Indonesia; no ko-en counterpart (mirrors ja katakana-english / es false-friends / zh chinglish)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["indo-english"]
+}

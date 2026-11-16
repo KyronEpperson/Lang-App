@@ -34,7 +34,7 @@ practice:[
 ["ty","Ở đây có nhà vệ sinh không?","Is there a bathroom here|Is there a restroom here","is there · bathroom — chú ý mạo từ","the","Hỏi về một thứ người nghe chưa biết nên dùng mạo từ \"a\"."],
 ["ty","Có hai phòng","There are two rooms","there are · two · room — số nhiều","room","Có \"two\" nên danh từ phải ở dạng số nhiều: \"rooms\"."]]},
 { id:"plurals", title:"Số nhiều -s, this / these, my / your", blurb:"Từ hai trở lên thì danh từ phải có -s. This cho một, these cho nhiều.", deck:"Mua sắm · thanh toán", body:`
-<p>Tiếng Việt nói “ba quả táo”, “những quyển sách”: danh từ không bao giờ đổi hình thức, và “các / những” có thể bỏ đi. Tiếng Anh thì khác: từ hai trở lên, danh từ <b>bắt buộc</b> phải thêm <b>-s</b>, kể cả khi đã có con số đứng trước. Đây là lỗi người Việt mắc nhiều nhất, ngay cả ở trình độ cao.</p>
+<p>Tiếng Việt nói “ba quả táo”, “những quyển sách”: danh từ không bao giờ đổi hình thức, và “các / những” có thể bỏ đi. Tiếng Anh thì khác: từ hai trở lên, danh từ <b>bắt buộc</b> phải thêm <b>-s</b>, kể cả khi đã có con số đứng trước. Đây là một trong những lỗi người Việt mắc nhiều nhất (cùng với mạo từ), kể cả ở trình độ cao.</p>
 <h3>Cách tạo số nhiều</h3>
 <div class="tbl"><table><tr><th>Quy tắc</th><th>Ví dụ</th></tr><tr><td>Hầu hết thêm -s</td><td class="k">book → books</td></tr><tr><td>Sau s, x, ch, sh thêm -es</td><td class="k">box → boxes</td></tr><tr><td>Phụ âm + y → -ies</td><td class="k">city → cities</td></tr><tr><td>Bất quy tắc</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
 <p>Đuôi -s phải được đọc ra: /s/ trong <b>books</b>, /z/ trong <b>keys</b>, /ɪz/ trong <b>boxes</b>. Bài “Âm cuối” sẽ luyện kỹ phần này.</p>
@@ -59,7 +59,7 @@ practice:[
 ["fi","__ is my friend.","Đây là bạn tôi","This","These|Those|They","Một người nên dùng \"this\"."],
 ["fi","Two __, please.","Cho tôi hai cốc cà phê","coffees","coffee|a coffee|coffee's","Gọi đồ uống theo số cốc thì nói số nhiều \"coffees\"."],
 ["ty","Đây là những quyển sách của tôi","These are my books","these · my · book — số nhiều","book","Nhiều quyển nên dùng \"these\" và số nhiều \"books\"."],
-["ty","Tôi có hai chị gái","I have two sisters","have · two · sister — số nhiều","sister","Có \"two\" nên dùng số nhiều \"sisters\"."],
+["ty","Tôi có hai chị em gái","I have two sisters","have · two · sister — số nhiều","sister","Có \"two\" nên dùng số nhiều \"sisters\"."],
 ["ty","Đây là túi của tôi","This is my bag","this · my · bag — không dùng mạo từ","a","Đã có \"my\" thì không dùng mạo từ \"a\"."]]},
 { id:"present", title:"Thì hiện tại đơn và trật tự từ", blurb:"Chủ ngữ + động từ + tân ngữ giống tiếng Việt. Chú ý vị trí của always, usually, never.", deck:"Giới thiệu bản thân", body:`
 <p>Tin vui: câu cơ bản của tiếng Anh có trật tự giống tiếng Việt, <b>chủ ngữ + động từ + tân ngữ</b>. “Tôi uống cà phê” là <b>I drink coffee</b>. Thì hiện tại đơn dùng cho thói quen và những điều luôn đúng.</p>
@@ -182,13 +182,13 @@ practice:[
 ["fi","I need two __.","Tôi cần hai cái hộp","boxes","box|boxs|a box","Có \"two\" nên dùng số nhiều; sau x thêm -es, đọc là /ɪz/."],
 ["ty","sáu học sinh","six students","six · student — số nhiều","student","Có \"six\" nên \"students\" ở dạng số nhiều, cụm phụ âm /nts/."],
 ["ty","Anh ấy có hai cái túi","He has two bags","has · two · bag — số nhiều","bag","Có \"two\" nên dùng số nhiều \"bags\"; đuôi -s đọc là /z/."],
-["ty","Mẹ tôi nấu ăn ngon","My mom cooks well|My mother cooks well","mom · cook · well — ngôi thứ ba số ít","cook","\"My mom\" là ngôi thứ ba số ít nên dùng \"cooks\"; đọc rõ /ks/."]]},
+["ty","Mẹ tôi nấu ăn ngon","My mom cooks well|My mother cooks well|My mom cooks really well|My mother cooks really well|My mom cooks very well|My mother cooks very well","mom · cook · well — ngôi thứ ba số ít","cook","\"My mom\" là ngôi thứ ba số ít nên dùng \"cooks\"; đọc rõ /ks/."]]},
 { id:"countable", title:"Danh từ đếm được và không đếm được: some, any, much, many", blurb:"“Water” không đi với a và không thêm -s. Many cho danh từ đếm được, much cho danh từ không đếm được.", deck:"Gọi món ở nhà hàng", body:`
 <p>Tiếng Việt đếm mọi thứ qua loại từ: “một cốc nước”, “một bát phở”, “hai quả táo”. Tiếng Anh chia danh từ thành <b>danh từ đếm được</b> (đi thẳng với số: <b>two apples</b>) và <b>danh từ không đếm được</b> (cần một đơn vị đo: <b>a glass of water</b>).</p>
 <div class="tbl"><table><tr><th>Đếm được</th><th>Không đếm được</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>dùng được a / an, số đếm, -s</td><td>không dùng a / an, số đếm, -s</td></tr></table></div>
-<p>Một số từ đếm được trong tiếng Việt nhưng không đếm được trong tiếng Anh: <b>information</b>, <b>advice</b>, <b>homework</b>, <b>furniture</b>, <b>luggage</b>. Không bao giờ nói <b>informations</b>.</p>
+<p>Một số từ tiếng Việt đếm thoải mái (“một thông tin”, “hai lời khuyên”) nhưng trong tiếng Anh lại là danh từ không đếm được: <b>information</b>, <b>advice</b>, <b>homework</b>, <b>furniture</b>, <b>luggage</b>. Không bao giờ nói <b>informations</b>.</p>
 <h3>some và any</h3>
-<p>“Một ít, vài” là <b>some</b> trong câu khẳng định, <b>any</b> trong câu phủ định và câu nghi vấn.</p>
+<p>“Một ít, vài” là <b>some</b> trong câu khẳng định, <b>any</b> trong câu phủ định và câu nghi vấn. Riêng lời xin và lời mời, dù là câu hỏi, vẫn dùng <b>some</b>: <b>Can I have some water?</b> / <b>Would you like some tea?</b></p>
 {{ex:I have some money.|/aɪ hæv sʌm ˈmʌni/|Tôi có một ít tiền}}{{ex:I don't have any money.|/aɪ doʊnt hæv‿ˈeni ˈmʌni/|Tôi không có đồng nào}}{{ex:Do you have any questions?|/duː ju hæv‿ˈeni ˈkwestʃənz/|Bạn có câu hỏi nào không?}}
 <h3>many và much</h3>
 <p>Danh từ đếm được dùng <b>many</b> + số nhiều; danh từ không đếm được dùng <b>much</b>. <b>A lot of</b> dùng được cho cả hai.</p>
@@ -292,7 +292,7 @@ practice:[
 ["or","Tôi đang đọc một quyển sách","I'm reading a book","read books","Một quyển đang đọc nên dùng mạo từ \"a\" và danh từ số ít \"book\"."],
 ["or","Bọn trẻ đang chơi","The kids are playing","kid is","Nhiều đứa trẻ nên dùng số nhiều \"kids\" và \"are\"."],
 ["or","Bây giờ trời đang mưa","It's raining now","rains","Việc đang xảy ra lúc này dùng be + V-ing."],
-["fi","I'm __ TV.","Tôi đang xem tivi","watching","watch|watches|to watch","Sau động từ to be dùng V-ing."],
+["fi","I'm __ TV.","Tôi đang xem ti vi","watching","watch|watches|to watch","Sau động từ to be dùng V-ing."],
 ["fi","What __ you doing?","Bạn đang làm gì?","are","do|is|does","Với \"you\" dùng \"are\"."],
 ["fi","She __ working today.","Hôm nay cô ấy không làm việc","isn't|is not","doesn't|don't|not","Phủ định của be + V-ing là \"isn't\"."],
 ["ty","Bây giờ tôi đang nấu ăn","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — dạng V-ing · now","cook","Việc đang làm lúc này dùng be + V-ing."],
@@ -319,13 +319,13 @@ practice:[
 ["mc","“Vui lắm” (chuyện đã qua) =","It was fun.","It were fun.","It did fun.","It funned.","Với \"it\" dùng \"was\"."],
 ["mc","“Lúc đó bạn có bận không?” =","Were you busy?","Did you busy?","Was you busy?","Were you busied?","\"Busy\" là tính từ nên hỏi bằng động từ to be."],
 ["or","Chúng tôi đã xem một bộ phim","We watched a movie","watch movies","Một bộ phim nên dùng mạo từ \"a\" và danh từ số ít \"movie\"."],
-["or","Tôi đã đi chơi với bạn bè","I played with my friends","friend play","Nhiều người bạn nên dùng số nhiều \"friends\"."],
+["or","(Một em bé kể) Con đã chơi với các bạn","I played with my friends","friend play","Nhiều người bạn nên dùng số nhiều \"friends\"."],
 ["or","Hôm qua tôi không đi làm","I didn't work yesterday","worked","Sau \"didn't\" là động từ nguyên mẫu."],
 ["fi","We __ at home last night.","Tối qua chúng tôi ở nhà","were","was|did|are","Với \"we\" dùng \"were\"."],
 ["fi","I __ soccer yesterday.","Hôm qua tôi đá bóng","played","play|playing|was play","Có \"yesterday\" vẫn phải dùng thì quá khứ đơn: thêm -ed."],
 ["fi","__ you work yesterday?","Hôm qua bạn có đi làm không?","Did","Were|Do|Was","Câu hỏi ở thì quá khứ đơn với động từ thường dùng \"Did\"."],
 ["ty","Lúc đó tôi mệt","I was tired","was · tired — quá khứ","were","Với \"I\" dùng \"was\"."],
-["ty","Tôi đã xem một bộ phim","I watched a movie","watched · movie — mạo từ a","the","Một bộ phim nên dùng mạo từ \"a\"."],
+["ty","Tôi đã xem một bộ phim (dùng watch)","I watched a movie","watched · movie — mạo từ a","the","Một bộ phim nên dùng mạo từ \"a\"."],
 ["ty","Tôi đã gọi điện cho các bạn tôi","I called my friends","called · my · friend — số nhiều","friend","Nhiều người bạn nên dùng số nhiều \"friends\"."]]},
 { id:"irregular-past", title:"Động từ bất quy tắc ở quá khứ: went, ate, saw", blurb:"Động từ càng thông dụng càng hay bất quy tắc. Học trước 12 động từ này.", deck:"Trò chuyện xã giao", body:`
 <p>Những động từ dùng hằng ngày thường là <b>động từ bất quy tắc</b>: dạng quá khứ (V2) không thêm -ed. Không có quy tắc chung nên hãy học theo cặp, và đừng nói <b>buyed</b> hay <b>goed</b>.</p>
@@ -391,7 +391,7 @@ practice:[
 <h3>So sánh nhất: luôn có the</h3>
 {{ex:This is the best restaurant here.|/ðɪs‿ɪz ðə best ˈrestərɑːnt hɪr/|Đây là nhà hàng ngon nhất ở đây}}{{ex:Which is the cheapest?|/wɪtʃ‿ɪz ðə ˈtʃiːpɪst/|Cái nào rẻ nhất?}}
 <div class="tip">Lỗi hay gặp nhất: <b>a bag big</b> ✗ → <b>a big bag</b> ✓ / <b>more cheaper</b>, <b>more good</b> ✗ → <b>cheaper</b>, <b>better</b> ✓. Không dùng -er và more cùng lúc.</div>`,
-check:[["So sánh hơn của \"big\" là gì?",["more big","biger","bigger","most big"],2,"Từ ngắn thêm -er và gấp đôi phụ âm cuối: \"bigger\"."],["This is ___ expensive than that. Chọn từ điền vào chỗ trống.",["more","most","much","very"],0,"Từ dài dùng \"more\" để so sánh hơn."],["So sánh nhất của \"good\" là gì?",["the goodest","the most good","the better","the best"],3,"\"Good\" – \"better\" – \"the best\"."]],
+check:[["So sánh hơn của \"big\" là gì?",["more big","biger","bigger","most big"],2,"\"Big\" là từ ngắn nên thêm -er; vì kết thúc bằng một nguyên âm + một phụ âm nên gấp đôi \"g\": \"bigger\"."],["This is ___ expensive than that. Chọn từ điền vào chỗ trống.",["more","most","much","very"],0,"Từ dài dùng \"more\" để so sánh hơn."],["So sánh nhất của \"good\" là gì?",["the goodest","the most good","the better","the best"],3,"\"Good\" – \"better\" – \"the best\"."]],
 practice:[
 ["mc","So sánh hơn của \"cheap\" là gì?","cheaper","more cheap","cheapper","most cheap","Từ ngắn thêm -er."],
 ["mc","“Cái này đắt hơn” =","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","Từ dài dùng \"more\"."],

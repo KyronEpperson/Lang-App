@@ -56,7 +56,7 @@ What do you do for fun? | What do you do for fun? | I play badminton and watch a
 Me neither. | I don't really like spicy food. | Me neither. | Tôi không thích đồ cay lắm. / Tôi cũng không.
 It was nice talking to you. | Well, I should get going. It was nice talking to you. | You too! See you around. | Thôi, tôi phải đi đây. Nói chuyện với bạn rất vui. / Tôi cũng vậy! Hẹn gặp lại nhé.
 Congratulations! | I got the job! | Congratulations! I'm so happy for you! | Tôi được nhận việc rồi! / Chúc mừng nhé! Mừng cho bạn quá!
-No way! | I met BTS at the airport yesterday. | No way! Did you get a picture? | Hôm qua tôi gặp BTS ở sân bay. / Không thể nào! Bạn có chụp ảnh không?
+No way! | I met a famous singer at the airport yesterday. | No way! Did you get a picture? | Hôm qua tôi gặp một ca sĩ nổi tiếng ở sân bay. / Không thể nào! Bạn có chụp ảnh không?
 I'm sorry to hear that. | My grandma is in the hospital. | Oh, I'm sorry to hear that. I hope she feels better soon. | Bà tôi đang nằm viện. / Ôi, tôi rất tiếc. Mong bà sớm khỏe lại.
 It's not a big deal. | I'm so sorry I spilled your coffee! | It's not a big deal. Don't worry about it. | Xin lỗi, tôi làm đổ cà phê của bạn rồi! / Chuyện nhỏ thôi mà. Đừng bận tâm.
 I love your shoes. | I love your shoes! Where did you get them? | Thanks! I got them in Hanoi. | Giày của bạn đẹp quá! Bạn mua ở đâu thế? / Cảm ơn! Tôi mua ở Hà Nội.

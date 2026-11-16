@@ -1,0 +1,9 @@
+{
+  "lessons": {
+    "time-markers": "id-only lesson (profile id.md §8 additions, §4.5): maps the Indonesian aspect markers sudah/sedang/akan/pernah/belum/tadi/nanti onto English verb forms; placed after perfect via profile.json lessonOrder.after; new body, check and 16-item practice set that satisfies the standing rule article-plural (§7)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["time-markers"],
+  "droppedLessons": []
+}

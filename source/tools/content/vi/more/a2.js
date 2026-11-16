@@ -4,7 +4,7 @@ module.exports = [
 { id:"past-continuous", title:"Thì quá khứ tiếp diễn: was / were + -ing", blurb:"Việc đang diễn ra tại một thời điểm trong quá khứ — phần bối cảnh của câu chuyện.", deck:"Cảm xúc · phản ứng", body:`
 <p>Thì quá khứ tiếp diễn nói về việc <b>đang xảy ra</b> tại một thời điểm trong quá khứ. Tiếng Việt chỉ cần thêm “đang” (“lúc đó tôi đang ngủ”), động từ giữ nguyên. Tiếng Anh phải đưa động từ to be về quá khứ: <b>was / were</b> + dạng V-ing.</p>
 <p><b>I, he, she, it</b> → <b>was</b>; <b>you, we, they</b> → <b>were</b>. Không được bỏ <b>was / were</b>: <b>I sleeping.</b> ✗ → <b>I was sleeping.</b> ✓</p>
-{{ex:I was sleeping.|/aɪ wəz ˈsliːpɪŋ/|Lúc đó tôi đang ngủ}}{{ex:We were watching TV.|/wi wɝː ˈwɑːtʃɪŋ tiː ˈviː/|Chúng tôi đang xem tivi}}{{ex:It was raining.|/ɪt wəz ˈreɪnɪŋ/|Trời đang mưa}}
+{{ex:I was sleeping.|/aɪ wəz ˈsliːpɪŋ/|Lúc đó tôi đang ngủ}}{{ex:We were watching TV.|/wi wɝː ˈwɑːtʃɪŋ tiː ˈviː/|Chúng tôi đang xem ti vi}}{{ex:It was raining.|/ɪt wəz ˈreɪnɪŋ/|Trời đang mưa}}
 <h3>Câu nghi vấn</h3>
 <p>Đưa <b>was / were</b> lên trước chủ ngữ. Ở đây không dùng <b>did</b>.</p>
 {{ex:What were you doing?|/wʌt wɝː ju ˈduːɪŋ/|Lúc đó bạn đang làm gì?}}{{ex:Were you working at nine?|/wɝː ju ˈwɝːkɪŋ‿ət naɪn/|Lúc chín giờ bạn có đang làm việc không?}}
@@ -21,7 +21,7 @@ practice:[
 ["mc","“Lúc đó trời đang mưa” =","It was raining.","It were raining.","It was rain.","It rained was.","Tiếng Việt không cần chủ ngữ, tiếng Anh phải có \"it\": \"it\" + \"was\" + V-ing."],
 ["or","Lúc đó tôi đang đọc một quyển sách","I was reading a book","read books","Một quyển sách bất kỳ: danh từ đếm được số ít cần mạo từ \"a\"."],
 ["or","Bọn trẻ đang ngủ","The kids were sleeping","kid was","Nhiều đứa trẻ nên dùng số nhiều \"kids\" và \"were\"."],
-["or","Chúng tôi đang xem tivi","We were watching TV","was","Chủ ngữ \"we\" đi với \"were\"."],
+["or","Chúng tôi đang xem ti vi","We were watching TV","was","Chủ ngữ \"we\" đi với \"were\"."],
 ["fi","I was __ dinner.","Tôi đang nấu bữa tối","cooking|making","cook|cooked|cooks","Sau \"was\" là dạng V-ing."],
 ["fi","What __ you doing?","Lúc đó bạn đang làm gì?","were","was|did|does","Chủ ngữ \"you\" đi với \"were\"."],
 ["fi","I was sleeping __ you called.","Lúc bạn gọi, tôi đang ngủ","when","so|than|or","“Khi / lúc” là \"when\"."],
@@ -119,7 +119,7 @@ practice:[
 <div class="tbl"><table><tr><th>Sau là to</th><th>Sau là -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
 <h3>to + động từ: việc sắp làm</h3>
 {{ex:I want to go home.|/aɪ wɑːnt tə goʊ hoʊm/|Tôi muốn về nhà}}{{ex:I need to study.|/aɪ niːd tə ˈstʌdi/|Tôi cần học bài}}{{ex:I'd like to order.|/aɪd laɪk tu ˈɔːrdɚ/|Tôi muốn gọi món}}{{ex:I decided to learn English.|/aɪ dɪˈsaɪdɪd tə lɝːn‿ˈɪŋglɪʃ/|Tôi đã quyết định học tiếng Anh}}
-<h3>V-ing: việc đang làm, việc thích làm</h3>
+<h3>V-ing: sau enjoy, finish, mind, keep, stop</h3>
 {{ex:I enjoy cooking.|/aɪ ɪnˈdʒɔɪ ˈkʊkɪŋ/|Tôi thích nấu ăn}}{{ex:I finished working.|/aɪ ˈfɪnɪʃt ˈwɝːkɪŋ/|Tôi làm xong việc rồi}}{{ex:I don't mind waiting.|/aɪ doʊnt maɪnd ˈweɪtɪŋ/|Tôi chờ cũng được}}
 <h3>Động từ đi được với cả hai</h3>
 <p><b>like, love, start</b> dùng được cả <b>to</b> lẫn <b>-ing</b>.</p>
@@ -141,7 +141,7 @@ practice:[
 ["fi","She enjoys __.","Cô ấy thích bơi","swimming","to swim|swim|swims","Sau \"enjoy\" là dạng V-ing."],
 ["fi","I decided __ English.","Tôi đã quyết định học tiếng Anh","to study|to learn","study|studying|studied","Sau \"decide\" là \"to\" + động từ."],
 ["ty","Tôi muốn về nhà","I want to go home","want to · go · home — không dùng mạo từ","the","Sau \"want\" là \"to\"; trước \"home\" không dùng mạo từ."],
-["ty","Tôi thích đọc sách","I enjoy reading books|I enjoy reading","enjoy · read · book — số nhiều","book","Sau \"enjoy\" là V-ing; sách nói chung thì dùng số nhiều \"books\"."],
+["ty","Tôi thích đọc sách (dùng enjoy)","I enjoy reading books|I enjoy reading","enjoy · read · book — số nhiều","book","Sau \"enjoy\" là V-ing; sách nói chung thì dùng số nhiều \"books\"."],
 ["ty","Tôi muốn gọi món","I'd like to order|I want to order","I'd like · to · order — cách nói lịch sự","ordering","Sau \"would like\" là \"to\" + động từ."]]},
 { id:"articles-2", title:"Mạo từ the nâng cao: thứ duy nhất và số nhiều không mạo từ", blurb:"Nhạc cụ có \"the\", môn thể thao thì không. Thêm tên nước và cách nói về cả một loại.", deck:"Du lịch (sân bay · khách sạn)", body:`
 <p>Bài thứ ba về mạo từ. Tiếng Việt không có mạo từ, nên cách chắc nhất là nhớ theo nhóm: nhóm nào luôn có <b>the</b>, nhóm nào không bao giờ có.</p>

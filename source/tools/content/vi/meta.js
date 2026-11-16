@@ -58,7 +58,7 @@ exports.PLAN_PRESETS = {
 };
 
 /* native names for the shared level titles in gen.js (Beginner, Student, Talker, Traveler, Local, Pro, Master) */
-exports.TITLES = ["Người mới", "Học viên", "Người trò chuyện", "Lữ khách", "Người bản địa", "Cao thủ", "Bậc thầy"];
+exports.TITLES = ["Người mới", "Học viên", "Hoạt ngôn", "Lữ khách", "Người bản địa", "Cao thủ", "Bậc thầy"];
 
 /* native labels for the pause-screen phrase sets; gen.js prefixes the shared English label ("Compliment · ") */
 exports.PAUSE_LABELS = { compliment: "Lời khen", expression: "Câu nói hằng ngày", polite: "Phép lịch sự", saying: "Danh ngôn" };

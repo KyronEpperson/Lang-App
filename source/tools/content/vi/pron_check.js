@@ -1,7 +1,7 @@
 /* vi-en IPA consistency checker (not part of the build). Rules: tools/content/vi/PRON-RULES.md (base: docs/profiles/vi.md §6).
    usage: node tools/content/vi/pron_check.js [summary|phrases|words|rules|all]
    Collects every English -> IPA pair from decks.js (field 2), extra.js IDIOMS (field 3) and the {{ex:English|pron|meaning}} rows of
-   lessons.js and more/*.js, aligns them word by word (‿ counts as a word break), and reports: phrases with more than one
+   lessons.js and more/*.js, aligns them word by word (‿ counts as a word break; IPA quoted in notes, tables and prose is NOT scanned), and reports: phrases with more than one
    transcription, words with more than one transcription (the weak/strong function words in ALLOWED are skipped), and rule hits. */
 const fs = require('fs');
 const D = __dirname + '/';
