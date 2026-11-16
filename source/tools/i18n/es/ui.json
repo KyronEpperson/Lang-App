@@ -1013,7 +1013,7 @@
    "where": "html <p> text"
   },
   "Type": {
-   "t": "Tipo",
+   "t": "Escribir",
    "ko": "입력",
    "kind": "label",
    "context": "feedback form: category radio-group label (\"kind of feedback\"), not the verb",

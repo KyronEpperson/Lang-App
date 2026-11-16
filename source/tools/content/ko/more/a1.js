@@ -146,7 +146,7 @@ practice:[
 <p>영어 명사는 <b>셀 수 있는 것</b>과 <b>셀 수 없는 것</b>으로 나뉘어요. 한국어에는 없는 구분이라 처음엔 낯설어요.</p>
 <div class="tbl"><table><tr><th>셀 수 있음</th><th>셀 수 없음</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, 숫자, -s 가능</td><td>a / an, 숫자, -s 불가능</td></tr></table></div>
 <h3>some 과 any</h3>
-<p>'조금, 몇 개'는 긍정문에서 <b>some</b>, 부정문과 질문에서 <b>any</b>예요.</p>
+<p>'조금, 몇 개'는 긍정문에서 <b>some</b>, 부정문과 질문에서 <b>any</b>예요. 단, 부탁하거나 권할 때는 질문이어도 <b>some</b>을 써요: <b>Can I have some water?</b></p>
 {{ex:I have some money.|아이 해브 썸 머니|돈이 좀 있어요}}{{ex:I don't have any money.|아이 돈 해브 애니 머니|돈이 하나도 없어요}}{{ex:Do you have any questions?|두 유 해브 애니 퀘스천즈?|질문 있어요?}}
 <h3>many 와 much</h3>
 <p>셀 수 있으면 <b>many</b> + 복수, 셀 수 없으면 <b>much</b>예요. <b>a lot of</b>는 둘 다 돼요.</p>

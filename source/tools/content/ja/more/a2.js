@@ -114,7 +114,7 @@ practice:[
 <div class="tbl"><table><tr><th>後ろに to</th><th>後ろに ing形</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
 <h3>to + 動詞：これからすること</h3>
 {{ex:I want to go home.|アイ ワナ ゴウ ホウム|家に帰りたいです}}{{ex:I need to study.|アイ ニード タ スタディー|勉強しなければなりません}}{{ex:I'd like to order.|アイド ライク トゥ オーダー|注文したいです}}{{ex:I decided to learn English.|アイ ディサイディッド タ ラーン イングリッシュ|英語を習うことにしました}}
-<h3>ing形：していること、楽しんでいること</h3>
+<h3>enjoy, finish, mind のあとは ing形</h3>
 {{ex:I enjoy cooking.|アイ エンジョイ クッキング|料理をするのが楽しいです}}{{ex:I finished working.|アイ フィニッシュト ワーキング|仕事が終わりました}}{{ex:I don't mind waiting.|アイ ドウント マインド ウェイリング|待つのはかまいません}}
 <h3>どちらも使える動詞</h3>
 <p>like, love, start は to と ing形のどちらも使えます。</p>

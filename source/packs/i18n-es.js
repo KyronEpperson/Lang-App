@@ -153,7 +153,7 @@ LANGAPP_PACKS.i18n.es = {
     "← Back": "← Volver",
     "Tell us what you think": "Danos tu opinión",
     "Bugs, missing phrases, wrong pronunciations, ideas — anything. It goes straight to the person building this.": "Errores, frases que faltan, pronunciaciones incorrectas, ideas… lo que sea. Llega directamente a quien desarrolla la app.",
-    "Type": "Tipo",
+    "Type": "Escribir",
     "💡 Idea": "💡 Idea",
     "🐞 Bug": "🐞 Error",
     "📝 Content fix": "📝 Corrección",

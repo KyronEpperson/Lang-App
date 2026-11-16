@@ -151,7 +151,7 @@ practice:[
 <p>インフォメーション、バゲージ、ファニチャー、アドバイスなどは、英語では数えられない名詞です。日本語で「情報を二つ」と言えても、英語で <b>informations</b> や <b>an advice</b> とは言いません。</p>
 {{ex:Can I get some information?|キャナイ ゲット サム インファメイション?|情報をいただけますか？}}{{ex:How much baggage do you have?|ハウ マッチ バギッジ ドゥ ユー ハヴ?|お荷物はどのくらいありますか？}}
 <h3>some と any</h3>
-<p>「いくらか、いくつか」は、肯定文では <b>some</b>、否定文と疑問文では <b>any</b> です。</p>
+<p>「いくらか、いくつか」は、肯定文では <b>some</b>、否定文と疑問文では <b>any</b> です。ただし、頼むときや勧めるときは疑問文でも <b>some</b> を使います：<b>Can I have some water?</b></p>
 {{ex:I have some money.|アイ ハヴ サム マニー|お金が少しあります}}{{ex:I don't have any money.|アイ ドウント ハヴ エニー マニー|お金が全然ありません}}{{ex:Do you have any questions?|ドゥ ユー ハヴ エニー クエスチョンズ?|何か質問はありますか？}}
 <h3>many と much</h3>
 <p>数えられる名詞には <b>many</b> + 複数形、数えられない名詞には <b>much</b> を使います。<b>a lot of</b> はどちらにも使えます。</p>

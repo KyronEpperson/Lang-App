@@ -44,7 +44,7 @@ exports.LESSONS = [
 <h3>he·she·it에는 -s</h3>
 <p>주어가 한 사람(나·너 제외)이면 현재형 일반동사에 <b>-s</b>를 붙이고, 부정·질문에는 <b>does</b>를 써요. does를 쓰면 동사의 -s는 빠져요.</p>
 {{ex:My brother works in Seoul.|마이 브라더 웍스 인 서울|우리 형은 서울에서 일해요}}{{ex:Does he speak English?|더즈 히 스픽 잉글리시?|그는 영어를 해요?}}{{ex:She doesn't eat meat.|쉬 더즌트 잇 밋|그녀는 고기를 안 먹어요}}
-<div class="tip">헷갈리면 이렇게 물어보세요: "이 문장에 <b>행동</b>이 있나?" 있으면 do/does, 없으면(상태·정체·위치) be동사예요.</div>`},
+<div class="tip">헷갈리면 이렇게 물어보세요: "이 문장에 be 말고 <b>다른 동사</b>(like, live, want, go…)가 있나?" 있으면 do/does, 없으면(상태·정체·위치) be동사예요.</div>`},
 
 { id:"polite", title:"4 · 공손하게 부탁하기", blurb:"Can you → Could you → Would you mind. 'Give me'는 이제 그만!", deck:"생존 영어 1", body:`
 <p>영어에는 존댓말 어미가 없지만, <b>부탁하는 방식</b>으로 공손함을 표현해요. 같은 내용도 문장 틀에 따라 무례하게도, 정중하게도 들려요.</p>

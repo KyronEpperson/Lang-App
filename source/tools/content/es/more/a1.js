@@ -166,7 +166,7 @@ practice:[
 <p><i>advice</i> (consejos), <i>information</i> (información, datos), <i>news</i> (noticias), <i>furniture</i> (muebles), <i>homework</i> (tareas), <i>luggage</i> (maletas). Nunca llevan -s ni <i>a</i>, y el verbo va en singular.</p>
 {{ex:Can I give you some advice?|ken ai GUIV iu sem ed-VAIS?|¿Te puedo dar un consejo?}}{{ex:The news is good.|dhe NUUS is GUD|Las noticias son buenas}}{{ex:a piece of furniture|e PIIS ev FER-ni-cher|un mueble}}
 <h3>some y any</h3>
-<p><b>some</b> en afirmativas; <b>any</b> en negativas y preguntas. Y una sola negación: «No tengo nada de dinero» es <i>I don't have any money</i>, no <i>I don't have no money</i>.</p>
+<p><b>some</b> en afirmativas; <b>any</b> en negativas y preguntas (pero al pedir u ofrecer algo se usa <b>some</b>: <i>Can I have some water?</i>). Y una sola negación: «No tengo nada de dinero» es <i>I don't have any money</i>, no <i>I don't have no money</i>.</p>
 {{ex:I have some money.|ai jav sem MA-ni|Tengo algo de dinero}}{{ex:I don't have any money.|ai DOUNT jav E-ni MA-ni|No tengo nada de dinero}}{{ex:Do you have any questions?|du iu jav E-ni KWES-chens?|¿Tienes alguna pregunta?}}
 <h3>many y much</h3>
 <p>Contables: <b>many</b> + plural. Incontables: <b>much</b>. <b>a lot of</b> sirve para los dos.</p>

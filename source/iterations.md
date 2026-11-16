@@ -819,3 +819,7 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 | 2.11.1 | Greeting no longer plays over the language picker | harness |
 | 2.12.0 | Vietnamese speakers → English | same as 2.11.0 |
 | 2.13.0 | Indonesian speakers → English | same as 2.11.0 |
+
+## Fixes carried back to the older courses (2.13.1)
+- All three new-language reviewers independently found the same three teaching errors, which came from the Korean source: the *be* tip ("is there an action?" gives the wrong answer for like/live/want), the some/any rule (no exception for requests and offers), and the to-ing heading. Fixed in ko-en, ja-en and es-en. Spanish quiz chip label "Tipo" → "Escribir".
+- Open, same in all six English courses (listed in each REVIEW.md §3): a few shared practice items accept a wrong answer ("I'll get the door" for closing it) or reject a natural one; fixing them means changing the shared English side once in the Korean source.

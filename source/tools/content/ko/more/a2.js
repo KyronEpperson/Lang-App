@@ -113,7 +113,7 @@ practice:[
 <div class="tbl"><table><tr><th>뒤에 to</th><th>뒤에 -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
 <h3>to + 동사: 앞으로 할 일</h3>
 {{ex:I want to go home.|아이 원투 고 홈|집에 가고 싶어요}}{{ex:I need to study.|아이 니투 스터디|공부해야 해요}}{{ex:I'd like to order.|아이드 라익 투 오더|주문하고 싶어요}}{{ex:I decided to learn English.|아이 디사이디드 투 런 잉글리시|영어를 배우기로 했어요}}
-<h3>-ing: 하고 있는 일, 즐기는 일</h3>
+<h3>enjoy, finish, mind 뒤에는 -ing</h3>
 {{ex:I enjoy cooking.|아이 인조이 쿠킹|요리하는 걸 즐겨요}}{{ex:I finished working.|아이 피니쉬트 워킹|일 끝났어요}}{{ex:I don't mind waiting.|아이 돈 마인드 웨이링|기다려도 괜찮아요}}
 <h3>둘 다 되는 동사</h3>
 <p>like, love, start는 to와 -ing 둘 다 쓸 수 있어요.</p>
