@@ -59,7 +59,7 @@ exports.LESSONS = [
 {{ex:Would you mind opening the window?|우쥬 마인드 오프닝 더 윈도우?|창문 좀 열어 주셔도 될까요?}}{{ex:No, not at all.|노, 낫 앳 올|네, 그럼요 (전혀 안 꺼려요)}}
 <div class="tip">마법의 단어 <b>please</b>와 <b>thank you</b>는 아무리 많이 써도 지나치지 않아요. 문장 끝에 please만 붙여도 훨씬 부드러워져요. 억양도 중요해요: 끝을 살짝 올리면 부탁, 내리면 명령처럼 들려요.</div>`},
 
-{ id:"tense", title:"5 · 시제 기초: 현재·과거·미래", blurb:"습관은 현재, 지금은 진행형, 계획은 going to.", deck:"스몰토크", body:`
+{ id:"tense", title:"5 · 시제 한눈에 정리: 현재·과거·미래", blurb:"습관은 현재, 지금은 진행형, 계획은 going to.", deck:"스몰토크", body:`
 <p>한국어는 "먹어요" 하나로 습관도, 지금 하는 일도, 가까운 미래도 말할 수 있어요. 영어는 이걸 나눠서 말해요. 스몰토크에 꼭 필요한 다섯 가지만 익혀요.</p>
 <h3>현재형 vs 현재진행형</h3>
 <div class="tbl"><table><tr><th>형태</th><th>뜻</th><th>예</th></tr><tr><td class="k">현재형</td><td>습관, 늘 그런 사실</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + ~ing</td><td>지금 하는 중 / 정해 둔 가까운 일정</td><td>I'm drinking coffee right now.</td></tr></table></div>

@@ -35,16 +35,16 @@ LANGAPP_PACKS.roadmaps = {
     stages: [
       { en: "A1 · First sentences", ko: "A1 · 첫 문장", items: [
         ["en-pron", "Pronunciation traps: R/L, F/P, TH", "발음 함정: R/L, F/P, TH", "pron"], ["en-be", "be, subject pronouns, every sentence needs a subject", "be동사, 주어 대명사, 주어는 꼭 필요", "be"],
-        ["en-it-there", "It's cold · there is / there are", "It's cold · there is / there are"], ["en-nouns", "Nouns: a/an, plural -s, this/that, my/your", "명사: a/an, 복수 -s, this/that, my/your", "articles"],
-        ["en-present", "Present simple and subject-verb-object", "현재 시제와 주어-동사-목적어"], ["en-questions", "Questions: do, then question words", "의문문: do, 의문사"],
-        ["en-third-s", "He/she/it: -s, does / doesn't", "3인칭 단수 -s, does / doesn't"], ["en-prep", "at / in / on", "전치사 at / in / on", "prep"],
-        ["en-countable", "Countable and uncountable: some, any, much, many", "셀 수 있는 명사: some, any, much, many"] ] },
+        ["en-it-there", "It's cold · there is / there are", "It's cold · there is / there are", "it-there"], ["en-nouns", "a / an and the: the basics", "a / an과 the 기초", "articles"], ["en-plurals", "Plurals, this / these, my / your", "복수 -s, this / these, my / your", "plurals"],
+        ["en-present", "Present simple and subject-verb-object", "현재 시제와 주어-동사-목적어", "present"], ["en-questions", "Questions: do, then question words", "의문문: do, 의문사", "questions"],
+        ["en-third-s", "He/she/it: -s, does / doesn't", "3인칭 단수 -s, does / doesn't", "third-s"], ["en-prep", "at / in / on", "전치사 at / in / on", "prep"],
+        ["en-countable", "Countable and uncountable: some, any, much, many", "셀 수 있는 명사: some, any, much, many", "countable"] ] },
       { en: "A1 · Doing things", ko: "A1 · 행동 말하기", items: [
-        ["en-object-have", "Object pronouns and have", "목적격 대명사와 have"], ["en-can-like", "can, like + -ing, I'd like", "can, like + -ing, I'd like", "polite"],
-        ["en-continuous", "Present continuous vs present simple", "현재진행 vs 현재"], ["en-past", "was / were and regular past -ed", "was / were, 규칙 과거 -ed", "tense"],
-        ["en-irregular-past", "Irregular past, past questions", "불규칙 과거, 과거 의문문"], ["en-the", "the: first vs second mention", "the: 처음 말할 때와 다시 말할 때"],
-        ["en-adjectives", "Adjectives, comparatives, superlatives", "형용사, 비교급, 최상급"], ["en-going-to", "going to: plans", "going to: 계획"],
-        ["en-joining", "and, but, or, so, because", "and, but, or, so, because"] ] },
+        ["en-object-have", "Object pronouns and have", "목적격 대명사와 have", "object-have"], ["en-can-like", "can, like + -ing, I'd like", "can, like + -ing, I'd like", "can-like"],
+        ["en-continuous", "Present continuous vs present simple", "현재진행 vs 현재", "continuous"], ["en-past", "was / were and regular past -ed", "was / were, 규칙 과거 -ed", "past"],
+        ["en-irregular-past", "Irregular past, past questions", "불규칙 과거, 과거 의문문", "irregular-past"], ["en-the", "the: first vs second mention", "the: 처음 말할 때와 다시 말할 때", "the"],
+        ["en-adjectives", "Adjectives, comparatives, superlatives", "형용사, 비교급, 최상급", "adjectives"], ["en-going-to", "going to: plans", "going to: 계획", "going-to"],
+        ["en-joining", "and, but, or, so, because", "and, but, or, so, because", "joining"] ] },
       { en: "A2 · Building range", ko: "A2 · 표현 넓히기", items: [
         ["en-past-continuous", "Past continuous", "과거진행"], ["en-will", "will vs going to", "will vs going to"],
         ["en-perfect", "Present perfect: experience", "현재완료: 경험"], ["en-modals", "have to, must, should, might", "have to, must, should, might"],

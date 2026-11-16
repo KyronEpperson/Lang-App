@@ -702,3 +702,24 @@ Add `compare` after `noun-modifiers` (보다, 더, 덜, 제일); check + practic
 - Korean roadmap: 33 items, 0 planned. Grammar gate clean across all 33 practice sets and checks. No stale "lesson N" or "Conjugating verbs" references.
 - New harness guard `prSweep` (every lesson has a check and 12+ practice items; every item accepts its answers and rejects its distractors): 45 guards pass.
 - Old-user state (9 lessons done in the 2.3 order): all 9 still done; lessons up to the one after the furthest finished stay open.
+
+---
+
+# Loop G (2026-11-15) — finish the English course for Korean speakers (ko-en)
+
+Goal: every English roadmap item has a live lesson with a 3-question check and a 14-item practice set.
+Source of truth: `tools/content/more/{a1,a2,b1}.js` (shorthand expanded by `_dsl.js`); `gen.js` orders and numbers all lessons;
+`validate.js` enforces the practice spec plus the standing article/plural rule; `e2e_en.js` completes each lesson and sweeps the matcher.
+Overlap decision: the original 11 lessons stay as they are (the old `tense` lesson becomes an A1 recap); dedicated lessons were added
+around them, and three loose roadmap links were fixed (`en-past`, `en-can-like` now have their own lessons; `en-plurals` added).
+
+## G1 — prompt
+Pilot the pipeline with one lesson (`it-there`): generator, validator, build, harness, e2e, screenshot.
+### G1 — results
+- Pass. Lesson renders with Hangul pronunciation rows; check and practice work; 45 harness guards.
+
+## G2 — prompt
+Write the remaining 14 A1 lessons (plurals, present, questions, third-s, countable, object-have, can-like, continuous, past, irregular-past, the, adjectives, going-to, joining), each with check + 14 practice items meeting the article/plural rule.
+### G2 — results
+- First validation failed: 12 items had prompts or hints with no Korean, and one title had no Hangul. Helper now adds the Korean cue automatically; title fixed.
+- Re-run: validator PASS (26 lessons, 78 checks, 364 practice items), harness 45 guards, e2e OK for all 15 new A1 lessons + the recap.

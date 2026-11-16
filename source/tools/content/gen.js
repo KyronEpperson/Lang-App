@@ -6,7 +6,7 @@ const OUT = process.argv[2] || '/home/claude/packs/course-ko-en.js';
 const decksSrc = require(path.join(DIR, 'decks.js'));
 const X = require(path.join(DIR, 'extra.js'));
 const L = require(path.join(DIR, 'lessons.js'));
-const PRACTICE = require(path.join(DIR, 'practice.js'));
+const PRACTICE = { ...require(path.join(DIR, 'practice.js')) };
 
 function rows(text, n, label) {
   return text.split('\n').map(s => s.trim()).filter(Boolean).map((line, i) => {
@@ -36,7 +36,22 @@ const PAUSE = {
   idioms: IDIOMS
 };
 
-const LESSONS = L.LESSONS.map(l => ({ ...l, body: l.body.replace(/^\s+|\s+$/g, '').replace(/\n/g, '') }));
+/* Lessons: the original 11 (lessons.js / practice.js) plus stage files in more/ (a1.js, a2.js, b1.js), in the course ORDER below.
+   Titles are numbered here; source titles carry no number (an old "N · " prefix is stripped). */
+const DSL = require(path.join(DIR, 'more', '_dsl.js'));
+const MORE = ['a1.js', 'a2.js', 'b1.js'].filter(f => fs.existsSync(path.join(DIR, 'more', f))).flatMap(f => require(path.join(DIR, 'more', f)).map(DSL.lesson));
+const ORDER = ['pron', 'be', 'it-there', 'articles', 'plurals', 'present', 'questions', 'third-s', 'prep', 'countable', 'object-have', 'can-like', 'polite', 'continuous', 'past', 'irregular-past', 'the', 'adjectives', 'going-to', 'tense', 'joining', 'numbers', 'smalltalk',
+  'past-continuous', 'will', 'perfect', 'modals', 'to-ing', 'articles-2', 'first-conditional', 'relative', 'phrasal',
+  'perfect-2', 'narrative', 'conditionals', 'passive', 'reported', 'email', 'idioms'];
+const byId = {};
+L.LESSONS.forEach(l => { byId[l.id] = { ...l, title: l.title.replace(/^\d+ · /, '') }; });
+MORE.forEach(l => { if (byId[l.id]) throw new Error('duplicate lesson id ' + l.id); byId[l.id] = { id: l.id, title: l.title, blurb: l.blurb, deck: l.deck, body: l.body }; L.CHECKS[l.id] = l.check; PRACTICE[l.id] = l.practice; });
+const have = ORDER.filter(id => byId[id]);
+Object.keys(byId).forEach(id => { if (!ORDER.includes(id)) throw new Error('lesson not in ORDER: ' + id); });
+const LESSONS = have.map((id, i) => ({ ...byId[id], title: (i + 1) + ' · ' + byId[id].title, body: byId[id].body.replace(/^\s+|\s+$/g, '').replace(/\n/g, '') }));
+const ordObj = o => Object.fromEntries(have.map(id => [id, o[id]]));
+L.CHECKS = ordObj(L.CHECKS);
+const PRACTICE_ORDERED = ordObj(PRACTICE);
 
 const GROUPS = [
   ["첫걸음", ["인사", "자기소개", "생존 영어 1", "생존 영어 2"]],
@@ -110,7 +125,7 @@ out += '  DIALOG: ' + objLines(DIALOG, J) + ',\n';
 out += '  EXAMPLES: ' + objLines(EXAMPLES, J) + ',\n';
 out += '  LESSONS: [\n' + LESSONS.map(l => '    ' + J(l)).join(',\n') + '\n  ],\n';
 out += '  CHECKS: ' + objLines(L.CHECKS, v => '[\n' + v.map(c => '      ' + J(c)).join(',\n') + '\n    ]') + ',\n';
-out += '  PRACTICE: ' + objLines(PRACTICE, v => '[\n' + v.map(c => '      ' + J(c)).join(',\n') + '\n    ]') + ',\n';
+out += '  PRACTICE: ' + objLines(PRACTICE_ORDERED, v => '[\n' + v.map(c => '      ' + J(c)).join(',\n') + '\n    ]') + ',\n';
 out += '  PATTERNS: [\n' + PATTERNS.map(p => '    ' + J(p)).join(',\n') + '\n  ],\n';
 out += '  PAIRS: [],\n';
 out += '  GOALS: ' + objLines(GOALS, J) + ',\n';
