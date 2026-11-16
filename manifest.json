@@ -2,7 +2,7 @@
  "id": "/",
  "name": "Lang App",
  "short_name": "Lang App",
- "description": "Learn Korean from zero: Hangul, flashcards with audio, quizzes and real conversations. 5 minutes a day, free in your browser.",
+ "description": "Learn a new language from zero: flashcards with audio, short grammar lessons, typing practice and real conversations. Korean for English speakers; English for Korean, Japanese and Spanish speakers. 5 minutes a day, free in your browser.",
  "lang": "en",
  "start_url": "/#today",
  "scope": "/",

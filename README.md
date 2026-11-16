@@ -1,6 +1,6 @@
-# 한글 Korean Starter
+# Lang App
 
-Static single-page Korean learning app. Deploy on Vercel: import this repo, framework "Other", no build step.
+Static single-page language learning app (Korean for English speakers; English for Korean, Japanese and Spanish speakers). Deploy on Vercel: import this repo, framework "Other", no build step.
 
 ## Handoff notes (v41)
 
