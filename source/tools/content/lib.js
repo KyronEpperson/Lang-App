@@ -42,6 +42,7 @@ function loadProfile(lang) {
   if (p.standingRule.kind !== 'none' && !p.standingRule.keywords) bad('"standingRule.keywords" (regex source) required for kind ' + p.standingRule.kind);
   if (p.standingRule.keywords) new RegExp(p.standingRule.keywords, p.standingRule.flags || '');
   if (p.pronPattern) new RegExp(p.pronPattern, 'u');
+  if (p.pronScript != null) { if (typeof p.pronScript !== 'string') bad('"pronScript" must be a regex source string'); new RegExp(p.pronScript, 'u'); } /* optional: what a pron must contain when it is not written in the native script (zh: IPA) */
   p.labels = p.labels || {};
   if (p.labels.cueTest) new RegExp(p.labels.cueTest);
   p.nativeNameEn = p.nativeNameEn || lang;

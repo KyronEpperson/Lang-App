@@ -1,29 +1,28 @@
 {
   "native": "zh",
-  "nativeNameEn": "TODO English name of the language (used in the pack header comment)",
+  "nativeNameEn": "Chinese",
   "name": {
     "en": "English",
-    "zh": "TODO the word for \"English\" in zh"
+    "zh": "英语"
   },
   "ttsLang": "en-US",
-  "nativeScript": null,
-  "pron": "optional",
+  "nativeScript": "[\\u3400-\\u4dbf\\u4e00-\\u9fff]",
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
   "standingRule": {
-    "kind": "none",
-    "keywords": ""
+    "kind": "article-plural",
+    "keywords": "冠词|复数"
   },
   "labels": {
-    "mcBlankCue": "",
-    "typeHintCue": "",
-    "cueTest": null
+    "mcBlankCue": " 空格处应填什么？",
+    "typeHintCue": " — 用这些词",
+    "cueTest": "[\\u3400-\\u4dbf\\u4e00-\\u9fff]"
   },
-  "_help": {
-    "nativeScript": "regex source matching the learner's script (ja e.g. \"[\\\\u3040-\\\\u30ff\\\\u4e00-\\\\u9fff]\"); null when it is the Latin script (es): validators then require native strings to be non-empty and differ from the English",
-    "pron": "required | optional | none — policy for the card / {{ex:}} pron field (from docs/profiles/zh.md)",
-    "standingRule": "kind \"article-plural\" (keywords = regex the why must contain, ko: \"관사|복수\"), \"verb-core\" (es) or \"none\"; optional \"flags\": \"i\"; new kinds: validate.js STANDING_RULES",
-    "pronPattern": "optional regex every non-empty pron must fully match (e.g. katakana only for ja)",
-    "labels": "mcBlankCue / typeHintCue are appended by more/_dsl.js to mc questions / type hints that contain no native text (cueTest regex, else nativeScript; null = never). ko: {\"mcBlankCue\":\" 빈칸에 알맞은 것은?\",\"typeHintCue\":\" — 이 단어들로\"}",
-    "lessonOrder": "optional {\"after\": {\"<extra lesson id>\": \"<id it follows>\"}} — also list the id in deviations.json extraLessons",
-    "_help": "delete this _help block when done"
-  }
+  "lessonOrder": {
+    "after": {
+      "chinglish": "smalltalk",
+      "articles-3": "passive"
+    }
+  },
+  "pronScript": "ˈ"
 }

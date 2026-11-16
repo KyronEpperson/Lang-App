@@ -20,7 +20,9 @@ html{font-size:calc(16px * var(--zoom,1))}
 html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}
 /* Japanese and Chinese interfaces: use the system's own CJK fonts so characters get the right regional shapes (the Korean web font would draw them Korean-style) */
 html[lang=ja]{--display:'DM Sans','Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Meiryo','Noto Sans JP','Noto Sans CJK JP',system-ui,sans-serif}
-html[lang^=zh]{--display:'DM Sans','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC','Source Han Sans SC',system-ui,sans-serif}
+/* Vietnamese: the web fonts have no Vietnamese letters, so use system fonts for everything rather than mixing two fonts inside one word */
+html[lang=vi]{--body:system-ui,-apple-system,'Segoe UI',Roboto,'Noto Sans','Helvetica Neue',Arial,sans-serif;--display:var(--body);--mono:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Roboto Mono',monospace}
+html[lang^=zh]{--display:'DM Sans','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC','Source Han Sans SC',system-ui,sans-serif;--mono:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Roboto Mono',monospace} /* mono: system fonts that include the IPA letters used for pronunciation */
 body{background:var(--bg);color:var(--ink);font-family:var(--body);margin:0;line-height:1.45;padding-block:0 24px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .wrap{max-width:600px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
@@ -534,7 +536,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-left:0;padding-right:
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.10.2 · 2026-11-16';
+const APP_VERSION='2.11.0 · 2026-11-16';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields

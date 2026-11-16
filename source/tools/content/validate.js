@@ -48,7 +48,9 @@ const isNative = NT.native;
 const PRON = PROFILE.pron;
 const PRON_RE = PROFILE.pronPattern ? new RegExp(PROFILE.pronPattern, 'u') : null; /* optional extra: exact shape of a non-empty pron (ja: katakana only) */
 const pronShape = p => !PRON_RE || PRON_RE.test(p);
-const pronOk = (p, en) => PRON === 'none' ? p === '' : PRON === 'optional' ? (p === '' || (isNative(p, en) && pronShape(p))) : (nonEmpty(p) && isNative(p, en) && pronShape(p));
+const PRON_SC = PROFILE.pronScript ? new RegExp(PROFILE.pronScript, 'u') : null; /* optional: pron is not in the native script (zh uses IPA); it must match this instead and differ from the English */
+const pronNative = (p, en) => PRON_SC ? (PRON_SC.test(p) && p.trim().toLowerCase() !== String(en || '').trim().toLowerCase()) : isNative(p, en);
+const pronOk = (p, en) => PRON === 'none' ? p === '' : PRON === 'optional' ? (p === '' || (pronNative(p, en) && pronShape(p))) : (nonEmpty(p) && pronNative(p, en) && pronShape(p));
 /* mc questions and type hints: with labels.cueTest set they must also match it (same test the DSL uses for cue injection) */
 const CUE = PROFILE.labels.cueTest ? new RegExp(PROFILE.labels.cueTest) : null;
 const cueOk = s => !CUE || CUE.test(s);
@@ -355,7 +357,7 @@ ok(C.PAUSE.idioms.length >= 24, 'idioms < 24');
 const iseen = new Set();
 C.PAUSE.idioms.forEach((x, i) => {
   ok(Array.isArray(x) && x.length === 4 && x.every(nonEmpty), 'idiom shape #' + i);
-  ok(!hasNative(x[0]) && isNative(x[1], x[0]) && isNative(x[2], x[0]) && isNative(x[3], x[0]), 'idiom lang #' + i);
+  ok(!hasNative(x[0]) && isNative(x[1], x[0]) && (pronNative(x[2], x[0]) && pronShape(x[2])) && isNative(x[3], x[0]), 'idiom lang #' + i);
   const n = norm(x[0]); ok(!iseen.has(n), 'idiom dup ' + x[0]); iseen.add(n);
   ok(!targets.has(n), 'idiom duplicates a card target: ' + x[0]);
 });

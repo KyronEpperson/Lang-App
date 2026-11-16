@@ -1,413 +1,479 @@
-/* TRANSLATE/ADAPT (zh): scaffolded from tools/content/ko/decks.js by new_lang.js.
-   Translate/adapt everything that is Korean for zh speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the zh point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
+/* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note
+   zh-en: pron = IPA (OALD North American values in the school symbol set) per docs/profiles/zh.md §6; must match profile.json pronPattern.
+   Deck names are FINAL (tools/content/zh/DECKNAMES.md). The last two decks are zh-only (profile §9). */
 module.exports = {
-"인사": `
-Hello. | 헬로우 | 안녕하세요 | 가장 기본 인사예요. 언제 어디서나, 누구에게나 OK
-Hi! | 하이! | 안녕! / 안녕하세요 | Hello보다 가볍고 친근해요. 미국에선 직장 동료끼리도 Hi를 써요
-Hey! | 헤이! | 야! / 안녕! | 친구끼리 쓰는 말. 처음 보는 사람에게 쓰면 무례하게 들릴 수 있어요
-Good morning. | 굿 모닝 | 좋은 아침이에요 | 정오 전까지 써요. 줄여서 그냥 "Morning!"이라고도 해요
-Good afternoon. | 굿 애프터눈 | 안녕하세요 (오후 인사) | 낮 12시~6시쯤. 약간 격식 있는 느낌이라 가게·회사에서 자주 들려요
-Good evening. | 굿 이브닝 | 안녕하세요 (저녁 인사) | 만날 때 하는 저녁 인사예요. Good night은 헤어질 때만 써요!
-How are you? | 하우 아 유? | 잘 지내요? / 안녕하세요? | 진짜 안부라기보다 인사예요. "Good, thanks. You?"로 가볍게 받아요
-I'm good, thanks. And you? | 아임 굿, 땡스. 앤 쥬? | 잘 지내요, 고마워요. 당신은요? | "I'm fine, thank you"는 교과서 느낌. good이 훨씬 자연스러워요
-What's up? | 왓썹? | 뭐 해? / 별일 없어? | 하늘(up)을 볼 필요 없어요. 보통 "Not much."로 대답해요
-Not much. | 낫 머치 | 별일 없어 | What's up?에 대한 가장 흔한 대답. "Not much, you?"로 되물어요
-How's it going? | 하우즈 잇 고잉? | 어떻게 지내? / 잘 돼 가? | How are you?의 캐주얼 버전. "Pretty good!"으로 받아요
-Nice to meet you. | 나이스 투 미츄 | 만나서 반가워요 | 처음 만났을 때만 써요. 대답은 "Nice to meet you, too."
-Long time no see! | 롱 타임 노 씨! | 오랜만이에요! | 친한 사이에서 써요. 조금 격식 있게는 "It's been a while."
-See you later. | 씨 유 레이러 | 나중에 봐요 | 다시 만날 계획이 없어도 헤어질 때 인사로 그냥 써요
-Take care. | 테익 케어 | 잘 지내요 / 몸조심해요 | 헤어질 때 하는 따뜻한 인사. 문자 끝에도 자주 붙여요
-Have a good one! | 해버 굿 원! | 좋은 하루 보내요! | 가게 직원이 계산 후 자주 해요. "You too!"로 받으면 끝
-Bye! | 바이! | 안녕! (헤어질 때) | "Bye-bye"는 어른끼리 쓰면 조금 귀엽게(아이 말투처럼) 들릴 수 있어요
-Good night. | 굿 나잇 | 잘 자요 / 안녕히 가세요 (밤) | 밤에 헤어지거나 자러 갈 때만 써요. 만날 때는 Good evening
+"问候": `
+Hello. | /həˈloʊ/ | 你好 | 最基本的问候，什么场合、对什么人都能用。
+Hi! | /ˈhaɪ/ | 嗨 / 你好（较随意） | 比 Hello 轻松亲切。在美国，同事之间也常说 Hi。
+Hey! | /ˈheɪ/ | 嘿 / 你好（熟人之间） | 朋友之间用。对陌生人说可能显得不礼貌。
+Good morning. | /ˈgʊd ˈmɔːrnɪŋ/ | 早上好 | 中午以前都可以用，也可以简单说 Morning!
+Good afternoon. | /ˈgʊd ˌæftərˈnuːn/ | 下午好 | 大约中午 12 点到傍晚 6 点。语气稍正式，商店和公司里常听到。
+Good evening. | /ˈgʊd ˈiːvnɪŋ/ | 晚上好 | 晚上见面时的问候。Good night 只在道别时用。
+How are you? | /ˈhaʊ ər ju/ | 你好吗？ | 这是打招呼，不是真的问近况。轻松回一句 Good, thanks. You? 就行。
+I'm good, thanks. And you? | /aɪm ˈgʊd ˈθæŋks ‖ ənd ˈjuː/ | 挺好的，谢谢。你呢？ | 课本里的 I'm fine, thank you. 听起来很书面，I'm good 自然得多。
+What's up? | /ˈwʌts ˈʌp/ | 在干吗？/ 有什么新鲜事？ | 不是问“上面有什么”，而是熟人之间随口问“最近怎么样”。一般回答 Not much.
+Not much. | /ˈnɑːt ˈmʌtʃ/ | 没什么特别的 | What's up? 最常见的回答，可以再反问一句 Not much, you?
+How's it going? | /ˈhaʊz ɪt ˈgoʊɪŋ/ | 最近怎么样？/ 还顺利吗？ | How are you? 的口语版，可以回答 Pretty good!
+Nice to meet you. | /ˈnaɪs tə ˈmiːt ju/ | 很高兴认识你 | 只在第一次见面时用。回答 Nice to meet you, too.
+Long time no see! | /ˈlɔːŋ ˈtaɪm ˈnoʊ ˈsiː/ | 好久不见！ | 这句来自中文“好久不见”，英语母语者也常说，是被接受的说法。稍正式一点：It's been a while.
+See you later. | /ˈsiː ju ˈleɪtər/ | 回头见 | 即使没有再见面的计划，道别时也可以随口说。
+Take care. | /ˈteɪk ˈker/ | 保重 | 温暖的道别语，也常放在消息结尾。
+Have a good one! | /ˈhæv ə ˈgʊd ˈwʌn/ | 祝你今天愉快！ | 店员结账后常说。回一句 You too! 就可以了。
+Bye! | /ˈbaɪ/ | 再见！ | 成年人之间说 Bye-bye 会显得有点孩子气。
+Good night. | /ˈgʊd ˈnaɪt/ | 晚安 | 只在晚上道别或去睡觉时用。见面打招呼要说 Good evening。
 `,
-"자기소개": `
-My name is Minji. | 마이 네임 이즈 민지 | 제 이름은 민지예요 | 일상에서는 더 짧게 "I'm Minji."라고 많이 해요
-Please call me Jay. | 플리즈 콜 미 제이 | 제이라고 불러 주세요 | 영어 이름이 있거나 이름을 줄여 부르고 싶을 때
-What should I call you? | 왓 슈다이 콜 유? | 뭐라고 부르면 될까요? | 상대 이름 발음이 어렵거나 애칭이 궁금할 때 유용해요
-Where are you from? | 웨어 아 유 프럼? | 어디서 왔어요? / 어느 나라 사람이에요? | 외국에서 가장 먼저 듣는 질문 중 하나예요
-I'm from Korea. | 아임 프럼 코리아 | 한국에서 왔어요 | 도시까지 말하면 대화가 이어져요: "I'm from Busan, in South Korea."
-I live in Seoul. | 아이 리브 인 서울 | 서울에 살아요 | live의 v는 윗니로 아랫입술을 살짝 물고 소리 내요
-I'm a student. | 아임 어 스튜던트 | 저는 학생이에요 | 직업 앞에는 꼭 a/an! "I'm student"는 가장 흔한 실수예요
-What do you do? | 왓 두 유 두? | 무슨 일 하세요? | 직업을 묻는 표준 질문. "What's your job?"보다 부드러워요
-I work at a bank. | 아이 워크 앳 어 뱅크 | 은행에서 일해요 | 회사·장소 앞엔 at: "I work at Samsung."
-I work in marketing. | 아이 워크 인 마케팅 | 마케팅 분야에서 일해요 | 분야·부서 앞엔 in. at(회사)과 구분해요
-I'm 25 years old. | 아임 트웬티파이브 이어즈 올드 | 저는 25살이에요 | 영어권에선 만 나이로 말해요. 나이를 먼저 묻는 건 실례일 수 있어요
-I'm really into hiking. | 아임 륄리 인투 하이킹 | 등산에 푹 빠져 있어요 | "My hobby is…"보다 훨씬 자연스러운 취미 표현이에요
-I like watching movies. | 아이 라익 와칭 무비즈 | 영화 보는 걸 좋아해요 | like 뒤에 동작이 오면 ~ing 또는 to + 동사원형
-I've been learning English for a year. | 아이브 빈 러닝 잉글리시 포러 이어 | 영어를 1년째 배우고 있어요 | 지금까지 계속 해 온 일은 have been + ~ing
-I'm here on vacation. | 아임 히어 온 베이케이션 | 휴가로 왔어요 | 영국식은 "I'm here on holiday."
-I'm married. | 아임 매리드 | 결혼했어요 | 미혼이면 "I'm single." 초면에 결혼 여부를 묻는 건 피하는 게 좋아요
-I have a younger brother. | 아이 해버 영거 브라더 | 남동생이 한 명 있어요 | 영어는 형·오빠·남동생을 older/younger brother로만 구분해요
+"自我介绍": `
+My name is Li Wei. | /maɪ ˈneɪm ɪz ˈliː ˈweɪ/ | 我叫李伟 | 日常更常说 I'm Li Wei. 中文名按“姓在前”说就行，正式场合别人会称你 Mr. Li。
+Please call me Jay. | /ˈpliːz ˈkɔːl mi ˈdʒeɪ/ | 叫我 Jay 就好 | 有英文名或想让对方用简称时说。很多中国职场人士都有英文名。
+What should I call you? | /ˈwʌt ʃəd aɪ ˈkɔːl ju/ | 我该怎么称呼你？ | 对方名字不好念，或想知道对方的昵称时很有用。
+Where are you from? | /ˈwer ər ju frʌm/ | 你是哪里人？/ 你从哪儿来？ | 在国外最先被问到的问题之一。
+I'm from China. | /aɪm frəm ˈtʃaɪnə/ | 我来自中国 | 说出城市，话题更容易展开：I'm from Chengdu, in China.
+I live in Beijing. | /aɪ ˈlɪv ɪn ˌbeɪˈdʒɪŋ/ | 我住在北京 | live 的 v 要用上齿轻碰下唇，别读成 w。
+I'm a student. | /aɪm ə ˈstuːdnt/ | 我是学生 | 职业前一定要加冠词 a / an。I'm student. ✗ 是最常见的错误。
+What do you do? | /ˈwʌt də ju ˈduː/ | 你是做什么工作的？ | 问职业的标准说法，比 What's your job? 委婉。
+I work at a bank. | /aɪ ˈwɜːrk ət ə ˈbæŋk/ | 我在银行工作 | 公司、地点前用 at：I work at Google.
+I work in marketing. | /aɪ ˈwɜːrk ɪn ˈmɑːrkɪtɪŋ/ | 我做市场营销 | 领域、部门前用 in，和 at（公司）区分开。
+I'm 25 years old. | /aɪm ˌtwentiˈfaɪv ˈjɪrz ˈoʊld/ | 我 25 岁 | 英语国家说的是周岁。初次见面直接问年龄可能不太礼貌。
+I'm really into hiking. | /aɪm ˈriːəli ɪntə ˈhaɪkɪŋ/ | 我特别喜欢徒步 | 比 My hobby is… 自然得多的说爱好的方式。
+I like watching movies. | /aɪ ˈlaɪk ˈwɑːtʃɪŋ ˈmuːviz/ | 我喜欢看电影 | like 后面接动作，用 -ing 形式或 to + 动词原形。
+I've been learning English for a year. | /aɪv bɪn ˈlɜːrnɪŋ ˈɪŋglɪʃ fər ə ˈjɪr/ | 我学英语一年了 | 从过去一直持续到现在的事，用 have been + -ing（现在完成进行时）。中文“学了一年了”不变形，英语要靠动词形式。
+I'm here on vacation. | /aɪm ˈhɪr ɑːn veɪˈkeɪʃn/ | 我来度假 | 英式英语说 I'm here on holiday.
+I'm married. | /aɪm ˈmærid/ | 我结婚了 | 单身就说 I'm single. 初次见面最好别问对方是否结婚。
+I have a younger brother. | /aɪ ˈhæv ə ˈjʌŋgər ˈbrʌðər/ | 我有一个弟弟 | 英语不分哥哥、弟弟，只用 older / younger brother 区分。
 `,
-"생존 영어 1": `
-Excuse me. | 익스큐즈 미 | 실례합니다 / 저기요 | 사람을 부르거나 지나갈 때 써요. 부딪친 뒤에는 Sorry!
-Thank you. | 땡큐 | 감사합니다 | th는 혀끝을 이 사이에 살짝. 그래도 "땡큐"로 충분히 통해요
-Thanks a lot. | 땡스 어 랏 | 정말 고마워요 | Thank you보다 가볍고 친근해요
-You're welcome. | 유어 웰컴 | 천만에요 | 캐주얼하게는 "Sure." "No problem." "Anytime."
-No problem. | 노 프라블럼 | 별거 아니에요 | 고맙다는 말에 대한 대답으로 아주 흔해요
-I'm sorry. | 아임 쏘리 | 죄송해요 | 진짜 사과할 때. 가볍게 부딪쳤을 땐 "Sorry!" 한 마디면 돼요
-Yes, please. | 예스, 플리즈 | 네, 주세요 | "Would you like some water?" 같은 제안에 대한 대답
-No, thank you. | 노, 땡큐 | 아니요, 괜찮아요 | 거절할 때 그냥 No보다 훨씬 공손해요. 캐주얼: "I'm good, thanks."
-Sorry? | 쏘리? (끝을 올려서) | 네? 뭐라고요? | 끝을 올리면 "다시 말해 주세요"라는 뜻이 돼요. 미국에선 "Pardon?"보다 흔해요
-Could you say that again? | 쿠쥬 쎄이 댓 어게인? | 다시 말씀해 주시겠어요? | 못 알아들었을 때 당당하게 써요. 원어민도 자주 해요
-Could you speak more slowly? | 쿠쥬 스픽 모어 슬로울리? | 좀 더 천천히 말해 주시겠어요? | please를 붙이면 더 공손해요
-I don't understand. | 아이 돈 언더스탠드 | 이해가 안 돼요 | 조금 딱딱해요. 부드럽게: "Sorry, I didn't quite catch that."
-Do you speak Korean? | 두 유 스픽 코리안? | 한국어 하세요? | "Can you speak…?"보다 "Do you speak…?"가 더 자연스럽고 공손해요
-I speak a little English. | 아이 스픽 어 리를 잉글리시 | 영어를 조금 해요 | little의 tt는 "ㄹ"처럼 굴려요: 리를
-How do you say this in English? | 하우 두 유 쎄이 디스 인 잉글리시? | 이거 영어로 뭐라고 해요? | 물건을 가리키며 쓰면 단어를 바로 배울 수 있어요
-What does this mean? | 왓 더즈 디스 민? | 이게 무슨 뜻이에요? | 메뉴판·표지판을 가리키며 써요
-Can you help me? | 캔 유 헬프 미? | 좀 도와주실래요? | 더 공손하게: "Could you help me?"
+"生存英语1": `
+Excuse me. | /ɪkˈskjuːz mi/ | 打扰一下 / 劳驾 | 叫住别人或借过时用。撞到人以后说 Sorry!
+Thank you. | /ˈθæŋk ju/ | 谢谢 | th 要把舌尖轻放在上下齿之间送气，别读成 sank you。
+Thanks a lot. | /ˈθæŋks ə ˈlɑːt/ | 太感谢了 | 比 Thank you 轻松亲切。
+You're welcome. | /jʊr ˈwelkəm/ | 不客气 | 口语里也常说 Sure. / No problem. / Anytime.
+No problem. | /ˈnoʊ ˈprɑːbləm/ | 没问题 / 小事一桩 | 回应别人道谢时非常常用。
+I'm sorry. | /aɪm ˈsɑːri/ | 对不起 | 真正道歉时用。轻轻碰到别人，说一句 Sorry! 就够了。
+Yes, please. | /ˈjes ˈpliːz/ | 好的，谢谢 | 回应 Would you like some water? 这类提议。
+No, thank you. | /ˈnoʊ ˈθæŋk ju/ | 不用了，谢谢 | 拒绝时比单说 No 礼貌得多。口语：I'm good, thanks.
+Sorry? | /ˈsɑːri/ | 什么？/ 你说什么？ | 句尾语调上扬，意思是“请再说一遍”。在美国比 Pardon? 更常用。
+Could you say that again? | /kəd ju ˈseɪ ˈðæt əˈgen/ | 能再说一遍吗？ | 没听懂就大方地问，母语者之间也常这样说。
+Could you speak more slowly? | /kəd ju ˈspiːk ˈmɔːr ˈsloʊli/ | 能说慢一点吗？ | 加上 please 更礼貌。
+I don't understand. | /aɪ ˈdoʊnt ˌʌndərˈstænd/ | 我不明白 | 有点生硬。委婉一点：Sorry, I didn't quite catch that.
+Do you speak Chinese? | /də ju ˈspiːk ˌtʃaɪˈniːz/ | 你会说中文吗？ | Do you speak…? 比 Can you speak…? 更自然、更礼貌。
+I speak a little English. | /aɪ ˈspiːk ə ˈlɪtl ˈɪŋglɪʃ/ | 我会说一点英语 | 美音里 little 中间的 t 读得像轻 d。
+How do you say this in English? | /ˈhaʊ də ju ˈseɪ ˈðɪs ɪn ˈɪŋglɪʃ/ | 这个用英语怎么说？ | 指着东西问，马上就能学到新词。
+What does this mean? | /ˈwʌt dəz ˈðɪs ˈmiːn/ | 这是什么意思？ | 指着菜单、标牌问。
+Can you help me? | /kən ju ˈhelp mi/ | 能帮我一下吗？ | 更礼貌的说法：Could you help me?
 `,
-"생존 영어 2": `
-Where's the restroom? | 웨어즈 더 레스트룸? | 화장실이 어디예요? | 미국: restroom·bathroom, 영국: toilet·loo. "toilet"은 미국에선 변기 자체를 뜻해요
-How much is this? | 하우 머치 이즈 디스? | 이거 얼마예요? | 여러 개면 "How much are these?"
-Is there an ATM around here? | 이즈 데어런 에이티엠 어롸운드 히어? | 이 근처에 ATM 있어요? | 영국에선 cash machine이라고도 해요
-Can I get the Wi-Fi password? | 캔 아이 겟 더 와이파이 패스워드? | 와이파이 비밀번호 알려 주실래요? | 영어로는 "와이파이"가 맞아요. "Is there Wi-Fi here?"도 OK
-I'm lost. | 아임 로스트 | 길을 잃었어요 | 지도를 보여 주며 "Where am I on this map?"도 써 보세요
-Can I pay by card? | 캔 아이 페이 바이 카드? | 카드 돼요? | 미국은 거의 다 카드 OK. 작은 가게는 최소 금액이 있을 수 있어요
-One moment, please. | 원 모먼트, 플리즈 | 잠시만요 | 공손한 표현이라 가게·전화에서 많이 들어요
-Just a second. | 저스트 어 세컨 | 잠깐만 | 캐주얼. 더 짧게 "Just a sec."
-No worries. | 노 워리즈 | 괜찮아요 / 신경 쓰지 마요 | 호주·영국에서 특히 많이 쓰고 미국에서도 흔해요
-That's okay. | 댓츠 오케이 | 괜찮아요 (상대가 사과할 때) | 누가 사과하면 "That's okay!" 또는 "Don't worry about it."
-Of course. | 오브 코스 | 물론이죠 | 부탁을 들어줄 때. 질문에 쓰면 "당연한 걸 왜 물어?"처럼 들릴 수 있어 말투를 부드럽게
-I'm not sure. | 아임 낫 슈어 | 잘 모르겠어요 | I don't know보다 부드러워요
-I have a question. | 아이 해버 퀘스천 | 질문이 있어요 | 수업·회의에서: "Can I ask a question?"
-Can you write it down? | 캔 유 롸이릿 다운? | 적어 주실 수 있어요? | 주소·숫자·이름을 못 알아들었을 때 최고의 해결책
-Can I take a picture? | 캔 아이 테이커 픽처? | 사진 찍어도 돼요? | 박물관·가게에서 먼저 물어보는 게 매너예요
-Could you take a picture of us? | 쿠쥬 테이커 픽처 오브 어스? | 저희 사진 좀 찍어 주실래요? | 찍어 준 뒤엔 "Thank you so much!"
-After you. | 애프터 유 | 먼저 가세요 | 문 앞·엘리베이터에서 양보할 때. 영어권에선 문을 잡아 주는 게 기본 매너예요
-Watch out! | 와치 아웃! | 조심해요! | 위험할 때 크게 외쳐요. "Look out!"도 같은 뜻
+"生存英语2": `
+Where's the restroom? | /ˈwerz ðə ˈrestruːm/ | 洗手间在哪儿？ | 美国说 restroom / bathroom，英国说 toilet / loo。在美国 toilet 指马桶本身。
+How much is this? | /ˈhaʊ ˈmʌtʃ ɪz ˈðɪs/ | 这个多少钱？ | 问好几件东西：How much are these?
+Is there an ATM around here? | /ɪz ðer ən ˌeɪ tiː ˈem əˈraʊnd ˈhɪr/ | 这附近有 ATM 吗？ | 英国也叫 cash machine。
+Can I get the Wi-Fi password? | /kən aɪ ˈget ðə ˈwaɪfaɪ ˈpæswɜːrd/ | 能告诉我 Wi-Fi 密码吗？ | 也可以问 Is there Wi-Fi here?
+I'm lost. | /aɪm ˈlɔːst/ | 我迷路了 | 也可以拿出地图问：Where am I on this map?
+Can I pay by card? | /kən aɪ ˈpeɪ baɪ ˈkɑːrd/ | 可以刷卡吗？ | 在国外微信、支付宝很少能用，要准备好银行卡。美国几乎都能刷卡，小店可能有最低消费。
+One moment, please. | /ˈwʌn ˈmoʊmənt ˈpliːz/ | 请稍等 | 礼貌说法，商店里、电话里常听到。
+Just a second. | /ˈdʒʌst ə ˈsekənd/ | 等一下 | 口语。更短：Just a sec.
+No worries. | /ˈnoʊ ˈwɜːriz/ | 没事 / 别在意 | 澳大利亚、英国特别常用，美国也很常见。
+That's okay. | /ˈðæts oʊˈkeɪ/ | 没关系（别人道歉时） | 别人道歉时说 That's okay! 或 Don't worry about it.
+Of course. | /əv ˈkɔːrs/ | 当然 | 答应请求时用。回答问题时用可能像在说“这还用问？”，语气要柔和。
+I'm not sure. | /aɪm ˈnɑːt ˈʃʊr/ | 我不太确定 | 比 I don't know 委婉。
+I have a question. | /aɪ ˈhæv ə ˈkwestʃən/ | 我有个问题 | 课上、会上也可以说 Can I ask a question?
+Can you write it down? | /kən ju ˈraɪt ɪt ˈdaʊn/ | 能帮我写下来吗？ | 地址、数字、名字听不清时最好的办法。
+Can I take a picture? | /kən aɪ ˈteɪk ə ˈpɪktʃər/ | 可以拍照吗？ | 在博物馆、商店里先问一句是基本礼貌。
+Could you take a picture of us? | /kəd ju ˈteɪk ə ˈpɪktʃər əv əs/ | 能帮我们拍张照吗？ | 拍完说一句 Thank you so much!
+After you. | /ˈæftər ˈjuː/ | 你先请 | 在门口、电梯前让别人先走时说。英语国家习惯为后面的人扶门。
+Watch out! | /ˈwɑːtʃ ˈaʊt/ | 小心！ | 有危险时大声喊。Look out! 意思一样。
 `,
-"길 묻기·교통": `
-How do I get to the subway station? | 하우 두 아이 겟 투 더 썹웨이 스테이션? | 지하철역에 어떻게 가요? | 영국: underground / tube station. 목적지만 바꿔서 쓰면 돼요
-Is it far from here? | 이즈 잇 파 프럼 히어? | 여기서 멀어요? | far의 r은 혀를 살짝 말아요
-Is it within walking distance? | 이즈 잇 위딘 워킹 디스턴스? | 걸어갈 수 있는 거리예요? | "Can I walk there?"도 OK
-Go straight. | 고 스트레잇 | 쭉 가세요 / 직진하세요 | "Go straight for two blocks." 미국은 거리를 block으로 세요
-Turn left at the corner. | 턴 레프트 앳 더 코너 | 모퉁이에서 왼쪽으로 도세요 | 신호등에서는 "at the light"
-It's on your right. | 잇츠 온 유어 롸잇 | 오른쪽에 있어요 | right의 r은 입술을 내밀고 "(우)롸"
-It's across the street. | 잇츠 어크로스 더 스트릿 | 길 건너편에 있어요 | across from ~ = ~의 맞은편
-It's next to the bank. | 잇츠 넥스 투 더 뱅크 | 은행 옆에 있어요 | next to의 t는 하나만 살짝 발음돼요
-Which line goes downtown? | 위치 라인 고즈 다운타운? | 시내 가는 건 몇 호선이에요? | downtown 앞에는 to를 쓰지 않아요
-Where do I transfer? | 웨어 두 아이 트랜스퍼? | 어디서 갈아타요? | 영국에선 change: "Where do I change?"
-Does this bus go to the airport? | 더즈 디스 버스 고 투 디 에어포트? | 이 버스 공항 가요? | 모음 앞 the는 "디"로 발음해요
-Which stop should I get off at? | 위치 스탑 슈다이 게로프 앳? | 어느 정류장에서 내려야 해요? | get off = (버스·지하철에서) 내리다
-One ticket to Boston, please. | 원 티킷 투 보스턴, 플리즈 | 보스턴행 표 한 장 주세요 | 목적지 앞엔 to
-Round trip or one way? | 롸운드 트립 오어 원 웨이? | 왕복이에요, 편도예요? | 영국식: "Return or single?"
-Can you take me to this address? | 캔 유 테익 미 투 디스 애드레스? | 이 주소로 가 주세요 | 택시에서 화면을 보여 주며 쓰면 실수가 없어요
-Could you pull over here? | 쿠쥬 풀 오버 히어? | 여기 세워 주시겠어요? | 택시·차에서 내리고 싶을 때. "Right here is fine."도 OK
-How long does it take? | 하우 롱 더즈 잇 테익? | 얼마나 걸려요? | 대답: "About 20 minutes."
-Is this seat taken? | 이즈 디스 씻 테이큰? | 이 자리 주인 있어요? | 비어 있으면 "No, go ahead."라고 해요. seat는 길게 "씨-잇"
+"问路与交通": `
+How do I get to the subway station? | /ˈhaʊ də aɪ ˈget tə ðə ˈsʌbweɪ ˈsteɪʃn/ | 地铁站怎么走？ | 英国说 underground / tube station。换个目的地就能直接套用。
+Is it far from here? | /ɪz ɪt ˈfɑːr frəm ˈhɪr/ | 离这儿远吗？ | 美音 far 结尾的 r 要卷舌读出来。
+Is it within walking distance? | /ɪz ɪt wɪðɪn ˈwɔːkɪŋ ˈdɪstəns/ | 走路能到吗？ | 也可以问 Can I walk there?
+Go straight. | /ˈgoʊ ˈstreɪt/ | 一直往前走 | Go straight for two blocks. 美国常用 block（街区）表示距离。
+Turn left at the corner. | /ˈtɜːrn ˈleft ət ðə ˈkɔːrnər/ | 在拐角处左转 | 在红绿灯处：at the light。
+It's on your right. | /ɪts ɑːn jʊr ˈraɪt/ | 在你右手边 | right 开头是 r 不是 l，嘴唇微微收圆。
+It's across the street. | /ɪts əkrɔːs ðə ˈstriːt/ | 在马路对面 | across from… = 在……的对面。
+It's next to the bank. | /ɪts ˈnekst tə ðə ˈbæŋk/ | 在银行旁边 | next to 里两个 t 连在一起，只读一个。
+Which line goes downtown? | /ˈwɪtʃ ˈlaɪn ˈgoʊz ˌdaʊnˈtaʊn/ | 哪条线去市中心？ | downtown 前面不加 to。
+Where do I transfer? | /ˈwer də aɪ trænsˈfɜːr/ | 在哪儿换乘？ | 英国说 change：Where do I change?
+Does this bus go to the airport? | /dəz ˈðɪs ˈbʌs ˈgoʊ tə ði ˈerpɔːrt/ | 这趟公交去机场吗？ | 元音前的 the 读 /ði/。
+Which stop should I get off at? | /ˈwɪtʃ ˈstɑːp ʃəd aɪ ˈget ˈɔːf æt/ | 我该在哪一站下车？ | get off = 下（公交、地铁）。介词 at 放在句尾。
+One ticket to Boston, please. | /ˈwʌn ˈtɪkɪt tə ˈbɔːstən ˈpliːz/ | 一张去波士顿的票 | 目的地前用 to。
+Round trip or one way? | /ˈraʊnd ˈtrɪp ər ˈwʌn ˈweɪ/ | 往返还是单程？ | 英式：Return or single?
+Can you take me to this address? | /kən ju ˈteɪk mi tə ˈðɪs ˈædres/ | 请送我到这个地址 | 打车时把手机屏幕给司机看，就不会出错。
+Could you pull over here? | /kəd ju ˈpʊl ˈoʊvər ˈhɪr/ | 能在这儿停一下吗？ | 想下车时说。Right here is fine. 也可以。
+How long does it take? | /ˈhaʊ ˈlɔːŋ dəz ɪt ˈteɪk/ | 要多长时间？ | 回答：About 20 minutes.
+Is this seat taken? | /ɪz ˈðɪs ˈsiːt ˈteɪkən/ | 这个座位有人吗？ | 没人就会回答 No, go ahead. seat 的元音要拉长，别读成 sit。
 `,
-"식당 주문": `
-A table for two, please. | 어 테이블 포 투, 플리즈 | 두 명이요 | 미국 식당은 보통 직원이 자리를 안내해 줄 때까지 기다려요
-Do you have a reservation? | 두 유 해버 레저베이션? | 예약하셨어요? | 직원이 묻는 말. "Yes, under Kim."처럼 대답해요
-Can I see the menu? | 캔 아이 씨 더 메뉴? | 메뉴판 좀 볼 수 있을까요? | menu 강세는 앞: 메뉴
-What do you recommend? | 왓 두 유 레커멘드? | 추천해 주실 메뉴 있어요? | "What's popular here?"도 좋아요
-I'll have the steak. | 아일 해브 더 스테익 | 스테이크로 할게요 | 주문의 기본 공식: I'll have + 메뉴
-Can I get a Coke? | 캔 아이 게러 코크? | 콜라 한 잔 주실래요? | get a는 "게러"처럼 이어져요. 콜라는 보통 Coke라고 해요
-Medium rare, please. | 미디엄 레어, 플리즈 | 미디엄 레어로 주세요 | "How would you like your steak?"에 대한 대답
-No onions, please. | 노 어니언즈, 플리즈 | 양파는 빼 주세요 | "Can I get it without onions?"도 같은 뜻
-I'm allergic to peanuts. | 아임 얼러직 투 피넛츠 | 땅콩 알레르기가 있어요 | allergic 강세는 가운데 "러". 알레르기는 영어로 allergy(앨러지)
-Is it spicy? | 이즈 잇 스파이시? | 매워요? | 미국의 spicy는 한국 기준으로 안 매울 때가 많아요
-Could we get some water? | 쿳 위 겟 썸 워러? | 물 좀 주시겠어요? | 미국 식당 물은 보통 무료. water는 "워러"처럼 굴려요
-Everything was great. | 에브리띵 워즈 그레잇 | 다 맛있었어요 | 직원이 "How is everything?" 하고 물으면 이렇게 답해요
-Can we get the check, please? | 캔 위 겟 더 첵, 플리즈? | 계산서 주세요 | 영국: the bill. 미국은 보통 자리에서 계산해요
-Can we split the bill? | 캔 위 스플릿 더 빌? | 따로 계산할 수 있나요? | "separate checks"라고도 해요
-It's on me. | 잇츠 온 미 | 제가 살게요 | "My treat!"도 같은 뜻이에요
-Can I get this to go? | 캔 아이 겟 디스 투 고? | 이거 포장돼요? | 남은 음식을 싸 갈 땐 "Can I get a box?"
-Is the tip included? | 이즈 더 팁 인클루디드? | 팁 포함인가요? | 미국 식당은 보통 15~20% 팁을 따로 내요
+"餐厅点餐": `
+A table for two, please. | /ə ˈteɪbl fər ˈtuː ˈpliːz/ | 两位 | 美国餐厅一般要等服务员带位。
+Do you have a reservation? | /də ju ˈhæv ə ˌrezərˈveɪʃn/ | 有预订吗？ | 服务员会这样问。回答：Yes, under Li.
+Can I see the menu? | /kən aɪ ˈsiː ðə ˈmenjuː/ | 能看一下菜单吗？ | menu 重音在前。
+What do you recommend? | /ˈwʌt də ju ˌrekəˈmend/ | 有什么推荐的吗？ | 也可以问 What's popular here?
+I'll have the steak. | /aɪl ˈhæv ðə ˈsteɪk/ | 我要牛排 | 点菜基本句型：I'll have + 菜名。
+Can I get a Coke? | /kən aɪ ˈget ə ˈkoʊk/ | 来一杯可乐 | 可乐一般说 Coke。get a 连读，美音听起来像 geda。
+Medium rare, please. | /ˈmiːdiəm ˈrer ˈpliːz/ | 牛排要三分熟 | 回答 How would you like your steak? 中文常说的“五分熟”是 medium。
+No onions, please. | /ˈnoʊ ˈʌnjənz ˈpliːz/ | 不要洋葱 | 也可以说 Can I get it without onions?
+I'm allergic to peanuts. | /aɪm əˈlɜːrdʒɪk tə ˈpiːnʌts/ | 我对花生过敏 | allergic 重音在第二个音节。名词“过敏”是 allergy。
+Is it spicy? | /ɪz ɪt ˈspaɪsi/ | 辣吗？ | 美国的 spicy 对很多中国人来说不算辣。
+Could we get some water? | /kəd wi ˈget ˈsʌm ˈwɔːtər/ | 能给我们一些水吗？ | 美国餐厅的冰水一般免费。美音 water 的 t 读得像轻 d。
+Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | 都很好吃 | 服务员问 How is everything? 时这样回答。
+Can we get the check, please? | /kən wi ˈget ðə ˈtʃek ˈpliːz/ | 买单 | 英国说 the bill。美国一般坐在座位上结账。
+Can we split the bill? | /kən wi ˈsplɪt ðə ˈbɪl/ | 可以分开付吗？ | 也说 separate checks。
+It's on me. | /ɪts ɑːn ˈmiː/ | 我请客 | My treat! 意思一样。
+Can I get this to go? | /kən aɪ ˈget ˈðɪs tə ˈgoʊ/ | 这个能打包吗？ | 打包剩菜也可以说 Can I get a box?
+Is the tip included? | /ɪz ðə ˈtɪp ɪnˈkluːdɪd/ | 含小费吗？ | 国内吃饭不给小费，美国餐厅一般要另付 15%～20%。
 `,
-"카페·편의점": `
-Can I get an iced Americano? | 캔 아이 게런 아이스트 아메리카노? | 아이스 아메리카노 주세요 | iced의 -d는 거의 안 들려요. 음료 주문은 Can I get ~?이 가장 흔해요
-What size would you like? | 왓 싸이즈 우쥬 라익? | 사이즈는 어떤 걸로 하시겠어요? | 직원이 묻는 말. would you는 "우쥬"
-Small, please. | 스몰, 플리즈 | 작은 걸로 주세요 | 스타벅스는 tall·grande·venti라고 말해요
-For here or to go? | 포 히어 오어 투 고? | 드시고 가세요, 가져가세요? | 영국식: "Eat in or take away?"
-Can I get oat milk instead? | 캔 아이 겟 오트 밀크 인스테드? | 귀리 우유로 바꿔 주실래요? | instead = 대신에. 추가 요금이 붙을 수 있어요
-Less ice, please. | 레스 아이스, 플리즈 | 얼음 적게 주세요 | 얼음 빼고: "No ice, please."
-Decaf, please. | 디캐프, 플리즈 | 디카페인으로 주세요 | decaffeinated의 줄임말이에요
-Can I get a name for the order? | 캔 아이 게러 네임 포 디 오더? | 주문하시는 분 성함이요? | 직원이 컵에 이름을 적으려고 물어요. 쉬운 영어 이름을 하나 정해 두면 편해요
-Do you need a bag? | 두 유 니더 백? | 봉투 필요하세요? | 필요 없으면 "No, I'm good."
-Can I get a receipt? | 캔 아이 게러 리씻? | 영수증 주세요 | receipt의 p는 소리 내지 않아요: 리씻
-Where can I find batteries? | 웨어 캔 아이 파인드 배러리즈? | 건전지 어디 있어요? | 물건 위치를 물을 때 만능 문장
-Do you sell phone chargers? | 두 유 쎌 폰 차저즈? | 휴대폰 충전기 팔아요? | "Do you have ~?"도 같은 뜻
-Can you heat this up? | 캔 유 히리썹? | 이거 데워 주실 수 있어요? | heat this up이 "히리썹"처럼 이어져요
-That's it. | 댓츠 잇 | 그게 다예요 | 직원이 "Anything else?"라고 물을 때
-Here you go. | 히어 유 고 | 여기요 | 돈이나 물건을 건넬 때 써요
-Keep the change. | 킵 더 체인지 | 잔돈은 가지세요 | 택시·배달에서 팁 대신 자주 써요
+"咖啡店与便利店": `
+Can I get an iced Americano? | /kən aɪ ˈget ən ˈaɪst əˌmerɪˈkɑːnoʊ/ | 一杯冰美式 | iced 的 -d 几乎听不到。点饮料最常用 Can I get…?
+What size would you like? | /ˈwʌt ˈsaɪz wəd ju ˈlaɪk/ | 要什么杯型？ | 店员会这样问。
+Small, please. | /ˈsmɔːl ˈpliːz/ | 小杯 | 星巴克用 tall / grande / venti。
+For here or to go? | /fər ˈhɪr ər tə ˈgoʊ/ | 在这儿喝还是带走？ | 英式：Eat in or take away?
+Can I get oat milk instead? | /kən aɪ ˈget ˈoʊt ˈmɪlk ɪnˈsted/ | 能换成燕麦奶吗？ | instead = 代替。可能要加钱。
+Less ice, please. | /ˈles ˈaɪs ˈpliːz/ | 少冰 | 去冰：No ice, please.
+Decaf, please. | /ˈdiːkæf ˈpliːz/ | 要低因的 | decaffeinated 的简称。
+Can I get a name for the order? | /kən aɪ ˈget ə ˈneɪm fər ði ˈɔːrdər/ | 请问怎么称呼？（写在杯子上） | 店员要在杯子上写名字。准备一个好念的英文名或简称会很方便。
+Do you need a bag? | /də ju ˈniːd ə ˈbæg/ | 需要袋子吗？ | 不需要就说 No, I'm good.
+Can I get a receipt? | /kən aɪ ˈget ə rɪˈsiːt/ | 请给我小票 | receipt 里的 p 不发音。
+Where can I find batteries? | /ˈwer kən aɪ ˈfaɪnd ˈbætəriz/ | 电池在哪儿？ | 问东西放在哪儿的万能句。
+Do you sell phone chargers? | /də ju ˈsel ˈfoʊn ˈtʃɑːrdʒərz/ | 有手机充电器卖吗？ | 也可以说 Do you have…?
+Can you heat this up? | /kən ju ˈhiːt ˈðɪs ˈʌp/ | 能帮我加热一下吗？ | heat this up 要连起来读。
+That's it. | /ˈðæts ˈɪt/ | 就这些 | 店员问 Anything else? 时这样回答。
+Here you go. | /ˈhɪr ju ˈgoʊ/ | 给你 | 递钱或递东西时说。
+Keep the change. | /ˈkiːp ðə ˈtʃeɪndʒ/ | 不用找了 | 在美国打车、收外卖时常用来代替小费。
 `,
-"쇼핑·계산": `
-I'm just looking, thanks. | 아임 저스트 루킹, 땡스 | 그냥 구경하는 거예요 | 직원이 "Can I help you find anything?" 할 때
-Do you have this in a medium? | 두 유 해브 디스 인 어 미디엄? | 이거 M 사이즈 있어요? | 사이즈는 small / medium / large
-Do you have it in black? | 두 유 해빗 인 블랙? | 검은색 있어요? | 색깔 앞엔 in
-Can I try this on? | 캔 아이 트라이 디스 온? | 입어 봐도 돼요? | try on = (옷·신발을) 입어 보다·신어 보다
-Where's the fitting room? | 웨어즈 더 피팅 룸? | 탈의실 어디예요? | 영국: changing room
-It's too big. | 잇츠 투 빅 | 너무 커요 | 작으면 "It's too small."
-It's a bit tight. | 잇츠 어 빗 타잇 | 조금 껴요 | 헐렁하면 "It's a bit loose."
-Is this on sale? | 이즈 디스 온 쎄일? | 이거 세일해요? | on sale = 할인 중. for sale = 판매 중. 헷갈리기 쉬워요!
-Can you give me a discount? | 캔 유 깁 미 어 디스카운트? | 좀 깎아 주실 수 있어요? | 미국 일반 매장에선 흥정을 거의 안 해요. 시장·중고 거래에서만
-I'll take it. | 아일 테이킷 | 이걸로 할게요 | 살 물건을 정했을 때. 두 개 이상이면 "I'll take them."
-Cash or card? | 캐시 오어 카드? | 현금이요, 카드요? | 계산대에서 꼭 듣는 질문
-Do you take Apple Pay? | 두 유 테익 애플 페이? | 애플페이 돼요? | take = (결제 수단을) 받다
-Can I get a refund? | 캔 아이 게러 리펀드? | 환불돼요? | 영수증을 꼭 챙기세요
-I'd like to exchange this. | 아이드 라익 투 익스체인지 디스 | 이거 교환하고 싶어요 | 이유도 덧붙여요: "It's the wrong size."
-Can you gift wrap it? | 캔 유 기프트 랩 잇? | 선물 포장해 주실 수 있어요? | wrap의 w만 소리 나요: 랩
-Does that include tax? | 더즈 댓 인클루드 택스? | 세금 포함인가요? | 미국은 가격표에 세금이 빠져 있어서 계산할 때 더 나와요
+"购物与结账": `
+I'm just looking, thanks. | /aɪm ˈdʒʌst ˈlʊkɪŋ ˈθæŋks/ | 我随便看看 | 店员问 Can I help you find anything? 时用。
+Do you have this in a medium? | /də ju ˈhæv ˈðɪs ɪn ə ˈmiːdiəm/ | 这个有 M 码吗？ | 尺码：small / medium / large。
+Do you have it in black? | /də ju ˈhæv ɪt ɪn ˈblæk/ | 有黑色的吗？ | 颜色前用 in。
+Can I try this on? | /kən aɪ ˈtraɪ ˈðɪs ˈɑːn/ | 可以试穿吗？ | try on = 试穿（衣服、鞋）。
+Where's the fitting room? | /ˈwerz ðə ˈfɪtɪŋ ˈruːm/ | 试衣间在哪儿？ | 英国说 changing room。
+It's too big. | /ɪts ˈtuː ˈbɪg/ | 太大了 | 太小：It's too small.
+It's a bit tight. | /ɪts ə ˈbɪt ˈtaɪt/ | 有点紧 | 太松：It's a bit loose.
+Is this on sale? | /ɪz ˈðɪs ɑːn ˈseɪl/ | 这个打折吗？ | on sale = 打折；for sale = 出售。很容易混。
+Can you give me a discount? | /kən ju ˈgɪv mi ə ˈdɪskaʊnt/ | 能便宜点吗？ | 美国普通商店基本不讲价，只在跳蚤市场、二手交易时砍价。
+I'll take it. | /aɪl ˈteɪk ɪt/ | 就要这个了 | 决定买时说。两件以上：I'll take them.
+Cash or card? | /ˈkæʃ ər ˈkɑːrd/ | 现金还是刷卡？ | 结账时一定会听到。
+Do you take Apple Pay? | /də ju ˈteɪk ˈæpl ˈpeɪ/ | 能用 Apple Pay 吗？ | take = 接受（某种付款方式）。微信、支付宝在国外不一定能用。
+Can I get a refund? | /kən aɪ ˈget ə ˈriːfʌnd/ | 能退款吗？ | 记得保留小票。
+I'd like to exchange this. | /aɪd ˈlaɪk tu ɪksˈtʃeɪndʒ ˈðɪs/ | 我想换一下这个 | 补充原因：It's the wrong size.
+Can you gift wrap it? | /kən ju ˈgɪft ˈræp ɪt/ | 能包装成礼物吗？ | wrap 的 w 不发音。
+Does that include tax? | /dəz ˈðæt ɪnˈkluːd ˈtæks/ | 含税吗？ | 美国标价通常不含税，结账时会多出一些。
 `,
-"숫자·시간·날짜": `
-What time is it? | 왓 타임 이즈 잇? | 지금 몇 시예요? | 모르는 사람에게는 "Excuse me, do you have the time?"
-It's three thirty. | 잇츠 쓰리 써리 | 3시 반이에요 | "half past three"(영국식)도 같은 뜻
-It's a quarter to five. | 잇츠 어 쿼러 투 파이브 | 5시 15분 전이에요 | quarter = 15분. "four forty-five"라고 해도 돼요
-At noon | 앳 눈 | 정오에 / 낮 12시에 | 자정은 midnight. 12 a.m./p.m.보다 헷갈리지 않아요
-What's the date today? | 왓츠 더 데잇 투데이? | 오늘 며칠이에요? | 요일은 "What day is it today?"
-It's May 3rd. | 잇츠 메이 써드 | 5월 3일이에요 | 날짜는 서수로 읽어요: first, second, third, fourth…
-My birthday is in October. | 마이 버스데이 이즈 인 악토버 | 제 생일은 10월이에요 | 월 앞에는 in, 날짜 앞에는 on: on October 5th
-On Monday | 온 먼데이 | 월요일에 | 요일 앞에는 on. 매주라면 on Mondays
-Next weekend | 넥스트 위켄드 | 다음 주말 | next·last·this 앞에는 전치사를 쓰지 않아요
-The day after tomorrow | 더 데이 애프터 터마로우 | 모레 | 그저께는 the day before yesterday
-Thirteen or thirty? | 써틴 오어 써리? | 13이에요, 30이에요? | 13은 뒤(-teen)를 길게, 30은 앞을 세게. 가격 들을 때 꼭 확인해요
-Fifteen dollars | 피프틴 달러즈 | 15달러 | $15.50은 "fifteen fifty"라고 읽어요
-Two hundred and fifty | 투 헌드레드 앤 피프티 | 이백오십 (250) | 미국에선 and를 자주 생략해요: two hundred fifty
-Ten thousand | 텐 싸우전드 | 만 (10,000) | 영어에는 '만' 단위가 없어요! 세 자리씩 끊어서 10 thousand
-One million | 원 밀리언 | 백만 (1,000,000) | 천만 = ten million, 1억 = one hundred million
-Twice a week | 트와이스 어 윅 | 일주일에 두 번 | once(한 번), twice(두 번), three times(세 번)
-In ten minutes | 인 텐 미닛츠 | 10분 후에 | 미래 시간 앞의 in = ~ 후에. "10분 안에"가 아니에요
+"数字、时间与日期": `
+What time is it? | /ˈwʌt ˈtaɪm ɪz ɪt/ | 现在几点？ | 问陌生人：Excuse me, do you have the time?
+It's three thirty. | /ɪts ˈθriː ˈθɜːrti/ | 三点半 | 英式也说 half past three。
+It's a quarter to five. | /ɪts ə ˈkwɔːrtər tə ˈfaɪv/ | 差一刻五点 | quarter = 一刻钟（15 分钟）。也可以说 four forty-five。
+At noon | /ət ˈnuːn/ | 中午 12 点 | 午夜是 midnight，比 12 a.m. / 12 p.m. 更不容易搞混。
+What's the date today? | /ˈwʌts ðə ˈdeɪt təˈdeɪ/ | 今天几号？ | 问星期几：What day is it today?
+It's May 3rd. | /ɪts ˈmeɪ ˈθɜːrd/ | 5 月 3 日 | 日期用序数词读：first, second, third, fourth…
+My birthday is in October. | /maɪ ˈbɜːrθdeɪ ɪz ɪn ɑːkˈtoʊbər/ | 我的生日在 10 月 | 月份前用 in，具体日期前用 on：on October 5th。
+On Monday | /ɑːn ˈmʌndeɪ/ | 在星期一 | 星期前用 on。每周一：on Mondays。
+Next weekend | /ˈnekst ˈwiːkend/ | 下周末 | next / last / this 前面不加介词。
+The day after tomorrow | /ðə ˈdeɪ æftər təˈmɑːroʊ/ | 后天 | 前天：the day before yesterday。
+Thirteen or thirty? | /ˌθɜːrˈtiːn ər ˈθɜːrti/ | 13 还是 30？ | 13 重音在后（-teen 拉长），30 重音在前。听价格时一定要确认。
+Fifteen dollars | /ˌfɪfˈtiːn ˈdɑːlərz/ | 15 美元 | $15.50 读作 fifteen fifty。
+Two hundred and fifty | /ˈtuː ˈhʌndrəd ənd ˈfɪfti/ | 二百五十 (250) | 美国常省略 and：two hundred fifty。
+Ten thousand | /ˈten ˈθaʊznd/ | 一万 (10,000) | 英语没有“万”这个单位，按三位一组数：10 thousand。
+One million | /ˈwʌn ˈmɪljən/ | 一百万 (1,000,000) | 一千万 = ten million，一亿 = one hundred million。
+Twice a week | /ˈtwaɪs ə ˈwiːk/ | 一周两次 | once（一次）、twice（两次）、three times（三次）。
+In ten minutes | /ɪn ˈten ˈmɪnɪts/ | 10 分钟后 | 表示将来时间的 in = ……之后，不是“10 分钟之内”。
 `,
-"스몰토크": `
-How was your weekend? | 하우 워즈 유어 위켄드? | 주말 어땠어요? | 월요일 단골 질문. 한두 문장으로 짧게 대답하고 되물어요
-It was pretty relaxing. | 잇 워즈 프리티 릴랙싱 | 꽤 여유로웠어요 | pretty = 꽤. "예쁜"이 아니에요
-Any plans for the weekend? | 애니 플랜즈 포 더 위켄드? | 주말에 계획 있어요? | 금요일 단골 질문. 계획 없으면 "Not really, just relaxing."
-Nice weather today, huh? | 나이스 웨더 투데이, 허? | 오늘 날씨 좋네요 | 날씨는 누구와도 할 수 있는 가장 안전한 화제예요
-It's freezing today. | 잇츠 프리징 투데이 | 오늘 엄청 춥네요 | 더울 땐 "It's boiling!" 또는 "It's so hot!"
-How long have you lived here? | 하우 롱 해뷰 리브드 히어? | 여기 산 지 얼마나 됐어요? | 대답: "About three years."
-Have you been to Korea? | 해뷰 빈 투 코리아? | 한국 가 본 적 있어요? | 경험을 물을 땐 have been to
-What do you do for fun? | 왓 두 유 두 포 펀? | 쉴 때 주로 뭐 해요? | "What's your hobby?"보다 훨씬 자연스러운 취미 질문이에요
-Have you seen any good shows lately? | 해뷰 씬 애니 굿 쇼즈 레잇리? | 요즘 재밌는 거 봤어요? | show = 드라마·예능 같은 TV 프로그램
-That sounds fun. | 댓 싸운즈 펀 | 재밌겠다 | 상대 이야기에 반응할 때. "That sounds great!"도 좋아요
-Same here. | 쎄임 히어 | 저도 그래요 | 캐주얼하게 그냥 "Same!"
-Me neither. | 미 니더 | 저도 안 그래요 | 부정문에 맞장구칠 때. "I don't like it." → "Me neither." (Me too 아님!)
-I know, right? | 아이 노우, 롸잇? | 그러니까요! / 내 말이! | 강하게 동의할 때 쓰는 캐주얼한 표현
-Oh, really? | 오, 륄리? | 아, 정말요? | 관심을 보여 주는 맞장구. 끝을 올려요
-By the way | 바이 더 웨이 | 그런데 / 그나저나 | 화제를 바꿀 때. 문자로는 BTW
-How's work? | 하우즈 워크? | 일은 어때요? | 아는 사이의 안부 질문. "Busy, but good!"처럼 대답해요
-It was nice talking to you. | 잇 워즈 나이스 토킹 투 유 | 이야기 즐거웠어요 | 대화를 자연스럽게 끝낼 때 써요
+"闲聊": `
+How was your weekend? | /ˈhaʊ wəz jʊr ˈwiːkend/ | 周末过得怎么样？ | 周一必问。用一两句话简单回答，再反问对方。
+It was pretty relaxing. | /ɪt wəz ˈprɪti rɪˈlæksɪŋ/ | 挺放松的 | pretty = 相当、挺，不是“漂亮”。
+Any plans for the weekend? | /ˈeni ˈplænz fər ðə ˈwiːkend/ | 周末有什么安排吗？ | 周五必问。没计划就说 Not really, just relaxing.
+Nice weather today, huh? | /ˈnaɪs ˈweðər təˈdeɪ ˈhʌ/ | 今天天气不错啊 | 天气是和谁都能聊的最安全话题。中文的“吃了吗？”在英语里不是问候语。
+It's freezing today. | /ɪts ˈfriːzɪŋ təˈdeɪ/ | 今天冷死了 | 热的时候：It's boiling! 或 It's so hot!
+How long have you lived here? | /ˈhaʊ ˈlɔːŋ həv ju ˈlɪvd ˈhɪr/ | 你在这儿住了多久了？ | 回答：About three years.
+Have you been to China? | /həv ju bɪn tə ˈtʃaɪnə/ | 你去过中国吗？ | 问经历用 have been to。中文的“去过”对应现在完成时。
+What do you do for fun? | /ˈwʌt də ju ˈduː fər ˈfʌn/ | 你平时喜欢干什么？ | 比 What's your hobby? 自然得多。
+Have you seen any good shows lately? | /həv ju ˈsiːn ˈeni ˈgʊd ˈʃoʊz ˈleɪtli/ | 最近看了什么好看的剧吗？ | show = 电视剧、综艺等节目。
+That sounds fun. | /ˈðæt ˈsaʊndz ˈfʌn/ | 听起来很有意思 | 回应对方时用。That sounds great! 也很好。
+Same here. | /ˈseɪm ˈhɪr/ | 我也是 | 口语里直接说 Same!
+Me neither. | /ˈmiː ˈniːðər/ | 我也不 | 附和否定句：I don't like it. → Me neither.（不能说 Me too）
+I know, right? | /aɪ ˈnoʊ ˈraɪt/ | 就是说啊！ | 强烈同意时的口语表达。
+Oh, really? | /ˈoʊ ˈriːəli/ | 哦，真的吗？ | 表示感兴趣的附和，句尾上扬。
+By the way | /baɪ ðə ˈweɪ/ | 顺便说一句 | 转换话题时用。消息里写 BTW。
+How's work? | /ˈhaʊz ˈwɜːrk/ | 工作怎么样？ | 熟人间的问候，可以回答 Busy, but good! 工资、年龄、婚恋、体重都不适合拿来闲聊。
+It was nice talking to you. | /ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/ | 跟你聊得很开心 | 自然结束对话时说。
 `,
-"감정·반응": `
-I'm so happy for you! | 아임 쏘 해피 포 유! | 정말 잘됐다! (축하) | 상대에게 좋은 일이 생겼을 때
-Congratulations! | 컹그래츄레이션스! | 축하해요! | 꼭 -s를 붙여요. 줄여서 "Congrats!"
-That's awesome! | 댓츠 어썸! | 대박! 멋지다! | 미국인이 정말 자주 쓰는 리액션이에요
-No way! | 노 웨이! | 말도 안 돼! / 헐! | 놀랐을 때. 거절할 때도 써요: "No way, I'm not doing that."
-Seriously? | 시리어슬리? | 진심이야? / 진짜로? | 말투에 따라 놀람 또는 짜증을 나타내요
-I'm so tired. | 아임 쏘 타이어드 | 너무 피곤해요 | 완전 지쳤을 땐 "I'm exhausted."
-I'm stressed out. | 아임 스트레스드 아웃 | 스트레스를 너무 받아요 | "I have stress"보다 자연스러워요
-I'm bored. | 아임 보어드 | 심심해요 / 지루해요 | 주의! "I'm boring"은 "나는 지루한 사람이에요"라는 뜻
-I'm excited. | 아임 익싸이티드 | 신나요 / 설레요 | 기대되는 일이 있을 때. -ed는 내가 느끼는 감정
-I'm nervous. | 아임 너버스 | 긴장돼요 | 면접·발표 전에. 상대에게: "Don't be nervous."
-That's too bad. | 댓츠 투 배드 | 아쉽네요 / 안타깝네요 | 가벼운 아쉬움. 심각한 일엔 아래 표현을 써요
-I'm sorry to hear that. | 아임 쏘리 투 히어 댓 | 그런 일이 있었다니 마음이 안 좋네요 | 사과가 아니라 위로예요. sorry = 유감스러운
-What a relief! | 와러 릴리프! | 다행이다! | "Phew!"와 함께 쓰면 더 자연스러워요
-Oh my gosh! | 오 마이 가쉬! | 세상에! | Oh my God를 순화한 표현. 문자로는 OMG
-I'm upset. | 아임 업셋 | 속상해요 / 기분이 상했어요 | 화남과 슬픔의 중간 느낌이에요
-That's so annoying. | 댓츠 쏘 어노잉 | 진짜 짜증 나 | 사람에게 "You're annoying"은 꽤 세게 들려요
-I can't wait! | 아이 캔트 웨잇! | 너무 기대돼! / 빨리 하고 싶어! | 직역하면 "못 기다리겠어"
-It's not a big deal. | 잇츠 나러 빅 딜 | 별일 아니에요 | 상대가 미안해할 때 안심시키는 말
+"情绪与反应": `
+I'm so happy for you! | /aɪm ˈsoʊ ˈhæpi fər ju/ | 真为你高兴！ | 对方有好事时说。
+Congratulations! | /kənˌgrætʃəˈleɪʃnz/ | 恭喜！ | 一定要加 -s。简称 Congrats!
+That's awesome! | /ˈðæts ˈɔːsəm/ | 太棒了！ | 美国人超常用的反应。
+No way! | /ˈnoʊ ˈweɪ/ | 不会吧！ | 吃惊时说。也可以表示拒绝：No way, I'm not doing that.
+Seriously? | /ˈsɪriəsli/ | 真的假的？/ 认真的？ | 根据语气，可以表示惊讶，也可以表示不耐烦。
+I'm so tired. | /aɪm ˈsoʊ ˈtaɪərd/ | 好累啊 | 累坏了：I'm exhausted.
+I'm stressed out. | /aɪm ˈstrest ˈaʊt/ | 压力好大 | 比 I have stress 自然。
+I'm bored. | /aɪm ˈbɔːrd/ | 好无聊 | 注意：I'm boring 的意思是“我是个无聊的人”。
+I'm excited. | /aɪm ɪkˈsaɪtɪd/ | 好激动 / 好期待 | 有值得期待的事时说。-ed 形容词表示自己的感受。
+I'm nervous. | /aɪm ˈnɜːrvəs/ | 好紧张 | 面试、演讲前。安慰别人：Don't be nervous.
+That's too bad. | /ˈðæts ˈtuː ˈbæd/ | 太可惜了 | 轻微的遗憾。严重的事用下一句。
+I'm sorry to hear that. | /aɪm ˈsɑːri tə ˈhɪr ˈðæt/ | 听到这个消息我很难过 | 不是道歉，而是安慰。sorry 在这里是“遗憾、难过”。
+What a relief! | /ˈwʌt ə rɪˈliːf/ | 那就放心了！ | 和 Phew! 一起说更自然。
+Oh my gosh! | /ˈoʊ maɪ ˈgɑːʃ/ | 天哪！ | Oh my God 的委婉说法。消息里写 OMG。
+I'm upset. | /aɪm ʌpˈset/ | 我心里很不舒服 | 介于生气和伤心之间的感觉。
+That's so annoying. | /ˈðæts ˈsoʊ əˈnɔɪɪŋ/ | 真烦人 | 当面对人说 You're annoying 语气很重。
+I can't wait! | /aɪ ˈkænt ˈweɪt/ | 等不及了！ | 字面意思是“没法等了”，表示非常期待。
+It's not a big deal. | /ɪts ˈnɑːt ə ˈbɪg ˈdiːl/ | 没什么大不了的 | 对方过意不去时，用来让对方放心。
 `,
-"칭찬·호감 표현": `
-You look great! | 유 룩 그레잇! | 좋아 보여요! / 멋져요! | 외모 칭찬은 "You look ~"로. 아는 사이에서 자연스러워요
-I love your shoes. | 아이 러브 유어 슈즈 | 신발 너무 예뻐요 | love = 정말 마음에 든다. 처음 보는 사람에게도 가볍게 칭찬해요
-That color looks good on you. | 댓 컬러 룩스 굿 온 유 | 그 색 잘 어울려요 | look good on + 사람 = ~에게 잘 어울리다
-You have a great smile. | 유 해버 그레잇 스마일 | 미소가 정말 예뻐요 | 친해진 사이에서 쓰는 따뜻한 칭찬
-You're so funny. | 유어 쏘 퍼니 | 진짜 웃겨요 | funny = 웃긴. fun = 함께 있으면 즐거운
-Great job! | 그레잇 잡! | 잘했어요! | 직장·학교 어디서나. "Nice work!"도 같아요
-I'm proud of you. | 아임 프라우드 오브 유 | 네가 자랑스러워 | 가족·친구에게. 상사가 부하에게 쓰기도 해요
-You did it! | 유 디딧! | 해냈구나! | 목표를 이룬 사람에게
-Your Korean is really good! | 유어 코리안 이즈 륄리 굿! | 한국어 진짜 잘하시네요! | 한국어를 배우는 외국인 친구에게 해 주면 좋아해요
-You have good taste. | 유 해브 굿 테이스트 | 안목이 좋으시네요 / 센스 있어요 | 옷·음악·인테리어 취향 칭찬. "센스"는 영어로 taste예요
-I really enjoyed spending time with you. | 아이 륄리 인조이드 스펜딩 타임 위드 유 | 같이 시간 보내서 정말 즐거웠어요 | 데이트·모임이 끝날 때
-Do you want to grab coffee sometime? | 두 유 워너 그랩 커피 썸타임? | 언제 커피 한잔할래요? | want to는 "워너". grab = 가볍게 먹다·마시다
-I miss you. | 아이 미스 유 | 보고 싶어요 | 지금 떨어져 있는 사람에게. 가족·친구에게도 써요
-You mean a lot to me. | 유 민 어 랏 투 미 | 너는 나한테 정말 소중해 | 친구·연인에게 진심을 전할 때
-You're a lifesaver! | 유어러 라이프세이버! | 덕분에 살았어요! | 작은 도움에도 과장해서 고마움을 표현해요
-You made my day! | 유 메이드 마이 데이! | 덕분에 하루가 행복해졌어요! | 기분 좋은 말이나 선물을 받았을 때
-That's very kind of you. | 댓츠 베리 카인드 오브 유 | 정말 친절하시네요 | 도움이나 칭찬을 받았을 때 공손하게
+"赞美与好感": `
+You look great! | /ju ˈlʊk ˈgreɪt/ | 你看起来真棒！ | 夸外表用 You look…，熟人之间很自然。
+I love your shoes. | /aɪ ˈlʌv jʊr ˈʃuːz/ | 你的鞋子好好看 | love = 非常喜欢。对陌生人也可以随口夸一句。
+That color looks good on you. | /ˈðæt ˈkʌlər ˈlʊks ˈgʊd ɑːn ju/ | 这个颜色很适合你 | look good on + 人 = 穿在某人身上好看。
+You have a great smile. | /ju ˈhæv ə ˈgreɪt ˈsmaɪl/ | 你笑起来真好看 | 熟了以后用的温暖赞美。
+You're so funny. | /jʊr ˈsoʊ ˈfʌni/ | 你真逗 | funny = 好笑的；fun = 和你在一起很开心。
+Great job! | /ˈgreɪt ˈdʒɑːb/ | 干得好！ | 职场、学校都能用。Nice work! 也一样。
+I'm proud of you. | /aɪm ˈpraʊd əv ju/ | 我为你骄傲 | 对家人、朋友说，上司也会对下属说。
+You did it! | /ju ˈdɪd ɪt/ | 你做到了！ | 对达成目标的人说。
+Your Chinese is really good! | /jʊr ˌtʃaɪˈniːz ɪz ˈriːəli ˈgʊd/ | 你的中文说得真好！ | 对学中文的外国朋友说，对方会很开心。
+You have good taste. | /ju ˈhæv ˈgʊd ˈteɪst/ | 你很有品位 | 夸衣着、音乐、装修的品位。
+I really enjoyed spending time with you. | /aɪ ˈriːəli ɪnˈdʒɔɪd ˈspendɪŋ ˈtaɪm wɪð ju/ | 和你在一起很开心 | 约会、聚会结束时说。
+Do you want to grab coffee sometime? | /də ju ˈwɑːnt tə ˈgræb ˈkɔːfi ˈsʌmtaɪm/ | 改天一起喝杯咖啡吧？ | want to 口语读作 wanna。grab = 随便吃点、喝点。
+I miss you. | /aɪ ˈmɪs ju/ | 我想你 | 对分开的人说，家人、朋友都可以。
+You mean a lot to me. | /ju ˈmiːn ə ˈlɑːt tə mi/ | 你对我很重要 | 对朋友、恋人表达真心时说。
+You're a lifesaver! | /jʊr ə ˈlaɪfseɪvər/ | 你真是救了我！ | 即使是小忙，也可以夸张地表达感谢。
+You made my day! | /ju ˈmeɪd maɪ ˈdeɪ/ | 你让我一整天都很开心！ | 收到暖心的话或礼物时说。
+That's very kind of you. | /ˈðæts ˈveri ˈkaɪnd əv ju/ | 你人真好 | 得到帮助或夸奖时礼貌地回应。
 `,
-"직장·이메일": `
-I hope this email finds you well. | 아이 호프 디스 이메일 파인즈 유 웰 | 잘 지내고 계시길 바랍니다 | 격식 있는 이메일 첫 인사. 조금 가볍게: "I hope you're doing well."
-I'm writing to ask about the schedule. | 아임 롸이팅 투 애스크 어바웃 더 스케줄 | 일정에 대해 여쭤보려고 연락드립니다 | 메일 목적을 첫 문장에 밝혀요. I'm writing to + 목적
-I've attached the report. | 아이브 어태치드 더 리포트 | 보고서를 첨부했습니다 | "Please find attached…"는 더 딱딱한 표현이에요
-Just a quick reminder about tomorrow's meeting. | 저스트 어 퀵 리마인더 어바웃 터마로우즈 미팅 | 내일 회의 관련해서 다시 한번 알려 드려요 | 독촉을 부드럽게 하는 표현
-Let me know if you have any questions. | 렛 미 노우 이퓨 해브 애니 퀘스천즈 | 궁금한 점 있으면 말씀해 주세요 | 이메일 마무리 단골 문장
-Could you send me the file by Friday? | 쿠쥬 쎈드 미 더 파일 바이 프라이데이? | 금요일까지 파일 보내 주실 수 있나요? | by = ~까지 (기한). until = ~까지 계속
-Sorry for the late reply. | 쏘리 포 더 레잇 리플라이 | 답장이 늦어 죄송합니다 | 조금 덜 미안하게: "Thanks for your patience."
-Thanks for getting back to me. | 땡스 포 게링 백 투 미 | 답장 주셔서 감사합니다 | get back to = 다시 연락하다
-Best regards, | 베스트 리가즈 | ~ 드림 (이메일 맺음말) | 무난한 맺음말. 가까운 사이: "Best," "Thanks,"
-Let's schedule a meeting. | 렛츠 스케줄 어 미팅 | 회의 일정을 잡읍시다 | 미국: 스케줄, 영국: 셰듈
-I'm running late. | 아임 러닝 레잇 | 조금 늦을 것 같아요 | 이동 중에 미리 연락할 때. "I'll be there in 10."
-Can we push the meeting to 3? | 캔 위 푸쉬 더 미팅 투 쓰리? | 회의를 3시로 미룰 수 있을까요? | 앞당길 땐 move up: "Can we move it up to 1?"
-I'll get back to you. | 아일 겟 백 투 유 | 확인하고 다시 연락드릴게요 | 바로 답하기 어려울 때 시간을 버는 표현
-Can you walk me through it? | 캔 유 워크 미 쓰루 잇? | 하나씩 설명해 주실래요? | walk through = 단계별로 안내하다
-Let's touch base next week. | 렛츠 터치 베이스 넥스트 윅 | 다음 주에 잠깐 얘기 나눠요 | 짧게 진행 상황을 공유하자는 뜻
-What's the deadline? | 왓츠 더 데드라인? | 마감이 언제예요? | "When is this due?"도 같은 뜻
-I'm working from home today. | 아임 워킹 프럼 홈 투데이 | 오늘 재택근무해요 | 줄여서 WFH
-I'm off tomorrow. | 아임 오프 터마로우 | 내일 쉬어요 (휴무예요) | 연차는 "I'm taking a day off tomorrow."
-Thanks for all your hard work. | 땡스 포 올 유어 하드 워크 | 그동안 정말 고생 많으셨어요 | "수고하셨습니다"에 딱 맞는 말은 없어요. 퇴근 인사는 그냥 "See you tomorrow!"
+"工作与邮件": `
+I hope this email finds you well. | /aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/ | 希望你一切都好 | 正式邮件的开头问候。轻松一点：I hope you're doing well. 不必像中文“您好！”那样句句客气。
+I'm writing to ask about the schedule. | /aɪm ˈraɪtɪŋ tu ˈæsk əbaʊt ðə ˈskedʒuːl/ | 写信是想问一下日程安排 | 第一句就说明来意：I'm writing to + 目的。
+I've attached the report. | /aɪv əˈtætʃt ðə rɪˈpɔːrt/ | 报告已附上 | Please find attached… 更正式，也更生硬。
+Just a quick reminder about tomorrow's meeting. | /ˈdʒʌst ə ˈkwɪk rɪˈmaɪndər əbaʊt təˈmɑːroʊz ˈmiːtɪŋ/ | 提醒一下明天的会议 | 委婉催促的说法。
+Let me know if you have any questions. | /ˈlet mi ˈnoʊ ɪf ju ˈhæv ˈeni ˈkwestʃənz/ | 有问题请随时告诉我 | 邮件结尾最常用的一句。
+Could you send me the file by Friday? | /kəd ju ˈsend mi ðə ˈfaɪl baɪ ˈfraɪdeɪ/ | 能在周五之前把文件发给我吗？ | by = 在……之前（截止）；until = 一直到……
+Sorry for the late reply. | /ˈsɑːri fər ðə ˈleɪt rɪˈplaɪ/ | 抱歉回复晚了 | 也可以说 Thanks for your patience.
+Thanks for getting back to me. | /ˈθæŋks fər ˈgetɪŋ ˈbæk tə mi/ | 感谢回复 | get back to = 回复、再联系。
+Best regards, | /ˈbest rɪˈgɑːrdz/ | 祝好（邮件结尾） | 中文的“祝好”“此致敬礼”用 Best regards 就行。关系近：Best, / Thanks,
+Let's schedule a meeting. | /ˈlets ˈskedʒuːl ə ˈmiːtɪŋ/ | 我们约个时间开会吧 | 美音 /ˈskedʒuːl/，英音 /ˈʃedjuːl/。
+I'm running late. | /aɪm ˈrʌnɪŋ ˈleɪt/ | 我要晚到一会儿 | 在路上提前告知：I'll be there in 10.
+Can we push the meeting to 3? | /kən wi ˈpʊʃ ðə ˈmiːtɪŋ tə ˈθriː/ | 会议能推迟到 3 点吗？ | 提前用 move up：Can we move it up to 1?
+I'll get back to you. | /aɪl ˈget ˈbæk tə ju/ | 我确认一下再回复你 | 不能马上答复时争取时间。
+Can you walk me through it? | /kən ju ˈwɔːk mi θruː ɪt/ | 能一步步给我讲一下吗？ | walk through = 一步一步讲解。
+Let's touch base next week. | /ˈlets ˈtʌtʃ ˈbeɪs ˈnekst ˈwiːk/ | 下周我们再碰一下 | 意思是简单沟通一下进展。
+What's the deadline? | /ˈwʌts ðə ˈdedlaɪn/ | 截止日期是什么时候？ | When is this due? 意思一样。
+I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | 我今天在家办公 | 缩写 WFH。
+I'm off tomorrow. | /aɪm ˈɔːf təˈmɑːroʊ/ | 我明天休息 | 请假：I'm taking a day off tomorrow.
+Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | 辛苦了 / 感谢你的付出 | 中文的“辛苦了”没有完全对应的说法。下班道别直接说 See you tomorrow! 就好。
 `,
-"전화·문자 줄임말": `
-Hello, this is Minji. | 헬로우, 디스 이즈 민지 | 여보세요, 민지예요 | 전화에서는 "I'm Minji" 대신 "This is Minji"
-Can I speak to Mr. Kim? | 캔 아이 스픽 투 미스터 킴? | 김 선생님과 통화할 수 있을까요? | 더 공손하게: "May I speak to…?"
-Who's calling, please? | 후즈 콜링, 플리즈? | 누구시죠? | 전화 받는 쪽에서 묻는 말
-Hold on a second. | 홀드 온 어 세컨드 | 잠시만 기다려 주세요 | 전화·대화 중에 잠깐 기다려 달라고 할 때
-Sorry, you're breaking up. | 쏘리, 유어 브레이킹 업 | 죄송해요, 소리가 끊겨요 | break up = (전화 소리가) 끊기다. 연인이 헤어지다는 뜻도 있어요
-Can I call you back? | 캔 아이 콜 유 백? | 다시 전화드려도 될까요? | 바쁠 때: "I'm in a meeting. Can I call you back?"
-I'll text you. | 아일 텍스트 유 | 문자할게 | 미국에선 메시지 보내는 걸 text라고 해요
-I'm on my way. | 아임 온 마이 웨이 | 가는 중이야 | 문자로는 OMW
-LOL | 엘오엘 | ㅋㅋㅋ (laughing out loud) | 진짜 크게 웃기보다는 가벼운 ㅋㅋ 느낌이에요
-BRB | 비알비 | 금방 올게 (be right back) | 채팅·게임에서 잠깐 자리 비울 때
-BTW | 비티더블유 | 근데 (by the way) | 화제 전환
-TBH | 티비에이치 | 솔직히 (to be honest) | 문장 앞이나 뒤에 붙여요
-IDK | 아이디케이 | 몰라 (I don't know) | 소문자 idk로 많이 써요
-OMG | 오엠지 | 헐 / 세상에 (oh my God) | 말로도 "오엠지!"라고 해요
-ASAP | 에이에스에이피 / 에이샙 | 최대한 빨리 (as soon as possible) | 직장에서도 쓰지만 상사에게는 날짜를 주는 게 더 공손해요
-TTYL | 티티와이엘 | 나중에 얘기해 (talk to you later) | 대화를 끝낼 때
-NVM | 엔브이엠 | 아냐, 됐어 (never mind) | 질문을 취소할 때
-FYI | 에프와이아이 | 참고로 (for your information) | 업무 메일·메신저에서 많이 써요
+"电话与短信缩写": `
+Hello, this is Li Wei. | /həˈloʊ ˈðɪs ɪz ˈliː ˈweɪ/ | 喂，我是李伟 | 打电话时不说 I'm Li Wei，而说 This is Li Wei。
+Can I speak to Mr. Li? | /kən aɪ ˈspiːk tə ˈmɪstər ˈliː/ | 请问李先生在吗？ | 中文名姓在前，称呼用姓：Mr. Li，不是 Mr. Wei。更礼貌：May I speak to…?
+Who's calling, please? | /ˈhuːz ˈkɔːlɪŋ ˈpliːz/ | 请问是哪位？ | 接电话的一方问。
+Hold on a second. | /ˈhoʊld ˈɑːn ə ˈsekənd/ | 请稍等一下 | 打电话或说话时请对方稍等。
+Sorry, you're breaking up. | /ˈsɑːri jʊr ˈbreɪkɪŋ ˈʌp/ | 抱歉，信号不好，听不清 | break up = （电话声音）断断续续。也有“分手”的意思。
+Can I call you back? | /kən aɪ ˈkɔːl ju ˈbæk/ | 我待会儿打给你行吗？ | 忙的时候：I'm in a meeting. Can I call you back?
+I'll text you. | /aɪl ˈtekst ju/ | 我发消息给你 | 美国把发短信、发消息都叫 text。
+I'm on my way. | /aɪm ɑːn maɪ ˈweɪ/ | 我在路上了 | 消息里写 OMW。
+LOL | /ˌel oʊ ˈel/ | 哈哈哈 (laughing out loud) | 不是真的大笑，就像随手打的“哈哈哈”。
+BRB | /ˌbiː ɑːr ˈbiː/ | 马上回来 (be right back) | 聊天、打游戏时暂时离开用。
+BTW | /ˌbiː tiː ˈdʌbəljuː/ | 顺便说一句 (by the way) | 转换话题时用。
+TBH | /ˌtiː biː ˈeɪtʃ/ | 说实话 (to be honest) | 放在句首或句尾都可以。
+IDK | /ˌaɪ diː ˈkeɪ/ | 不知道 (I don't know) | 常写成小写 idk。
+OMG | /ˌoʊ em ˈdʒiː/ | 天哪 (oh my God) | 口语里也会直接说 O-M-G!
+ASAP | /ˌeɪ es eɪ ˈpiː/ /ˈeɪsæp/ | 尽快 (as soon as possible) | 职场常用，但对上级最好给出具体日期，更礼貌。
+TTYL | /ˌtiː tiː waɪ ˈel/ | 回头聊 (talk to you later) | 结束聊天时用。
+NVM | /ˌen viː ˈem/ | 没事了，算了 (never mind) | 收回刚才的问题时用。
+FYI | /ˌef waɪ ˈaɪ/ | 供参考 (for your information) | 工作邮件、即时通讯里很常用。
 `,
-"여행(공항·호텔)": `
-Here's my passport. | 히어즈 마이 패스포트 | 여기 여권이요 | 체크인·입국 심사에서 건네며
-I'm here for sightseeing. | 아임 히어 포 싸잇씽 | 관광하러 왔어요 | 입국 심사 "What's the purpose of your visit?"에 대한 대답
-I'm staying for a week. | 아임 스테잉 포러 윅 | 일주일 머물 거예요 | "How long are you staying?"에 대한 대답
-I'm staying at the Hilton. | 아임 스테잉 앳 더 힐튼 | 힐튼 호텔에 묵어요 | "Where are you staying?"에 대한 대답
-Window or aisle? | 윈도우 오어 아일? | 창가석이요, 통로석이요? | aisle의 s는 묵음이에요: 아일
-I'd like an aisle seat, please. | 아이드 라익 언 아일 씻, 플리즈 | 통로 쪽 자리로 주세요 | 창가는 a window seat
-Where is the baggage claim? | 웨어리즈 더 배기지 클레임? | 짐 찾는 곳이 어디예요? | 영국에선 baggage reclaim
-My luggage is missing. | 마이 러기지 이즈 미싱 | 짐이 안 나왔어요 | luggage는 셀 수 없어요: a piece of luggage
-I have a reservation under Kim. | 아이 해버 레저베이션 언더 킴 | 김 이름으로 예약했어요 | under + 예약자 이름
-What time is check-out? | 왓 타임 이즈 체카웃? | 체크아웃은 몇 시예요? | 늦게 나가고 싶으면 "Can I get a late check-out?"
-Can I check in early? | 캔 아이 체킨 얼리? | 일찍 체크인할 수 있나요? | check in이 "체킨"처럼 이어져요
-Is breakfast included? | 이즈 브렉퍼스트 인클루디드? | 조식 포함이에요? | breakfast는 "브렉퍼스트". 브레이크가 아니에요
-The air conditioner isn't working. | 디 에어 컨디셔너 이즌트 워킹 | 에어컨이 안 돼요 | "에어컨"은 콩글리시. 줄여서 AC(에이씨)라고 해요
-Could I get some extra towels? | 쿠다이 겟 썸 엑스트라 타월즈? | 수건 좀 더 주실 수 있나요? | could I는 "쿠다이"처럼 이어져요
-Can you hold my bags until 3? | 캔 유 홀드 마이 백즈 언틸 쓰리? | 3시까지 짐 좀 맡아 주실 수 있어요? | 체크아웃 후 짐 보관 요청. hold = 맡아 두다
-My flight was delayed. | 마이 플라잇 워즈 딜레이드 | 비행기가 지연됐어요 | 결항은 canceled
-Where's gate 12? | 웨어즈 게잇 트웰브? | 12번 게이트 어디예요? | 영어는 번호를 뒤에 붙여요
-Do I need to take my laptop out? | 두 아이 니드 투 테익 마이 랩탑 아웃? | 노트북 꺼내야 해요? | 보안 검색대에서. "노트북"은 영어로 laptop이에요
+"旅行（机场与酒店）": `
+Here's my passport. | /ˈhɪrz maɪ ˈpæspɔːrt/ | 这是我的护照 | 值机、入境检查时递过去说。
+I'm here for sightseeing. | /aɪm ˈhɪr fər ˈsaɪtsiːɪŋ/ | 我来旅游观光 | 回答入境问题 What's the purpose of your visit?
+I'm staying for a week. | /aɪm ˈsteɪɪŋ fər ə ˈwiːk/ | 我待一周 | 回答 How long are you staying?
+I'm staying at the Hilton. | /aɪm ˈsteɪɪŋ ət ðə ˈhɪltən/ | 我住希尔顿酒店 | 回答 Where are you staying?
+Window or aisle? | /ˈwɪndoʊ ər ˈaɪl/ | 靠窗还是靠过道？ | aisle 的 s 不发音。
+I'd like an aisle seat, please. | /aɪd ˈlaɪk ən ˈaɪl ˈsiːt ˈpliːz/ | 我想要靠过道的座位 | 靠窗：a window seat。
+Where is the baggage claim? | /ˈwer ɪz ðə ˈbægɪdʒ ˈkleɪm/ | 行李提取处在哪儿？ | 英国说 baggage reclaim。
+My luggage is missing. | /maɪ ˈlʌgɪdʒ ɪz ˈmɪsɪŋ/ | 我的行李不见了 | luggage 是不可数名词：a piece of luggage。
+I have a reservation under Li. | /aɪ ˈhæv ə ˌrezərˈveɪʃn ʌndər ˈliː/ | 我用“李”这个姓预订了 | under + 预订人的姓名。报中文名时说姓就行，必要时拼出来：L-I。
+What time is check-out? | /ˈwʌt ˈtaɪm ɪz ˈtʃekaʊt/ | 几点退房？ | 想晚点走：Can I get a late check-out?
+Can I check in early? | /kən aɪ ˈtʃek ˈɪn ˈɜːrli/ | 可以提前入住吗？ | check in 要连读。
+Is breakfast included? | /ɪz ˈbrekfəst ɪnˈkluːdɪd/ | 含早餐吗？ | breakfast 读 /ˈbrekfəst/，不是 break + fast。
+The air conditioner isn't working. | /ði ˈer kənˈdɪʃənər ˈɪznt ˈwɜːrkɪŋ/ | 空调坏了 | 口语简称 AC。
+Could I get some extra towels? | /kəd aɪ ˈget ˈsʌm ˈekstrə ˈtaʊəlz/ | 能再给我几条毛巾吗？ | could I 要连读。
+Can you hold my bags until 3? | /kən ju ˈhoʊld maɪ ˈbægz əntɪl ˈθriː/ | 能帮我寄存行李到 3 点吗？ | 退房后寄存行李。hold = 代为保管。
+My flight was delayed. | /maɪ ˈflaɪt wəz dɪˈleɪd/ | 我的航班延误了 | 取消：canceled。
+Where's gate 12? | /ˈwerz ˈgeɪt ˈtwelv/ | 12 号登机口在哪儿？ | 英语把编号放在后面。
+Do I need to take my laptop out? | /də aɪ ˈniːd tə ˈteɪk maɪ ˈlæptɑːp ˈaʊt/ | 需要把笔记本电脑拿出来吗？ | 过安检时问。
 `,
-"병원·긴급": `
-Help! | 헬프! | 도와주세요! | 위급할 때 크게 외쳐요
-Call 911! | 콜 나인 원 원! | 911에 전화해 주세요! | 미국 긴급번호는 911(나인 원 원), 영국은 999
-I need a doctor. | 아이 니더 닥터 | 의사가 필요해요 | 급하면 "I need an ambulance."
-I don't feel well. | 아이 돈 필 웰 | 몸이 안 좋아요 | 가장 무난한 표현이에요
-I have a headache. | 아이 해버 헤데익 | 머리가 아파요 | 아픈 곳 + ache: stomachache, toothache
-I have a fever. | 아이 해버 피버 | 열이 나요 | f는 윗니를 아랫입술에 대고 바람을 내보내요
-My stomach hurts. | 마이 스터먹 허츠 | 배가 아파요 | 아픈 부위 + hurts. stomach는 "스터먹"
-I have a sore throat. | 아이 해버 쏘어 쓰롯 | 목이 아파요 | sore = 쓰리고 아픈. 목 전체(neck)가 아니라 목구멍이에요
-I feel dizzy. | 아이 필 디지 | 어지러워요 | 메스꺼우면 "I feel sick." / "I feel nauseous."
-I sprained my ankle. | 아이 스프레인드 마이 앵클 | 발목을 삐었어요 | sprain = 삐다. 손목은 wrist
-Is there a pharmacy near here? | 이즈 데어러 파머시 니어 히어? | 이 근처에 약국 있어요? | 미국에선 drugstore(CVS 등)라고도 해요
-Do I need a prescription? | 두 아이 니더 프리스크립션? | 처방전이 필요한가요? | 미국은 처방전 없이 살 수 있는 약을 over-the-counter라고 해요
-I lost my wallet. | 아이 로스트 마이 월릿 | 지갑을 잃어버렸어요 | 휴대폰이면 phone. 분실물 센터는 lost and found
-Someone stole my phone. | 썸원 스톨 마이 폰 | 누가 제 휴대폰을 훔쳐 갔어요 | steal(훔치다)의 과거형 stole
-Where is the police station? | 웨어리즈 더 폴리스 스테이션? | 경찰서가 어디예요? | police 강세는 뒤: 폴리-스
-I need to contact the Korean embassy. | 아이 니드 투 칸택트 더 코리안 엠버시 | 한국 대사관에 연락해야 해요 | 여권 분실 시 꼭 필요한 문장이에요
-I have travel insurance. | 아이 해브 트래블 인슈어런스 | 여행자 보험이 있어요 | 병원비가 비싼 나라에선 꼭 가입하고 가세요
+"医院与紧急情况": `
+Help! | /ˈhelp/ | 救命！ | 紧急时大声喊。
+Call 911! | /ˈkɔːl ˈnaɪn ˈwʌn ˈwʌn/ | 快打 911！ | 美国急救电话是 911（读作 nine one one），英国是 999。
+I need a doctor. | /aɪ ˈniːd ə ˈdɑːktər/ | 我需要医生 | 情况紧急：I need an ambulance.
+I don't feel well. | /aɪ ˈdoʊnt ˈfiːl ˈwel/ | 我不太舒服 | 最常用的说法。
+I have a headache. | /aɪ ˈhæv ə ˈhedeɪk/ | 我头疼 | 疼的部位 + ache：stomachache, toothache。
+I have a fever. | /aɪ ˈhæv ə ˈfiːvər/ | 我发烧了 | f 要用上齿轻碰下唇送气。
+My stomach hurts. | /maɪ ˈstʌmək ˈhɜːrts/ | 我肚子疼 | 部位 + hurts。hurts 结尾的 -ts 要读出来。
+I have a sore throat. | /aɪ ˈhæv ə ˈsɔːr ˈθroʊt/ | 我嗓子疼 | sore = 酸痛。throat 是喉咙，不是脖子 (neck)。
+I feel dizzy. | /aɪ ˈfiːl ˈdɪzi/ | 我头晕 | 想吐：I feel sick. / I feel nauseous.
+I sprained my ankle. | /aɪ ˈspreɪnd maɪ ˈæŋkl/ | 我崴了脚 | sprain = 扭伤。手腕是 wrist。
+Is there a pharmacy near here? | /ɪz ðer ə ˈfɑːrməsi nɪr ˈhɪr/ | 这附近有药店吗？ | 美国也叫 drugstore（比如 CVS）。
+Do I need a prescription? | /də aɪ ˈniːd ə prɪˈskrɪpʃn/ | 需要处方吗？ | 在美国，不用处方就能买的药叫 over-the-counter。
+I lost my wallet. | /aɪ ˈlɔːst maɪ ˈwɑːlɪt/ | 我的钱包丢了 | 丢了手机就说 phone。失物招领处是 lost and found。
+Someone stole my phone. | /ˈsʌmwʌn ˈstoʊl maɪ ˈfoʊn/ | 有人偷了我的手机 | stole 是 steal（偷）的过去式。
+Where is the police station? | /ˈwer ɪz ðə pəˈliːs ˈsteɪʃn/ | 警察局在哪儿？ | police 重音在后。
+I need to contact the Chinese embassy. | /aɪ ˈniːd tə ˈkɑːntækt ðə ˌtʃaɪˈniːz ˈembəsi/ | 我需要联系中国大使馆 | 护照丢失时一定用得上。
+I have travel insurance. | /aɪ ˈhæv ˈtrævl ɪnˈʃʊrəns/ | 我买了旅行保险 | 去医疗费高的国家，一定要提前买。
 `,
-"구동사": `
-pick up | 피컵 | (차로) 데리러 가다 / 줍다 | "I'll pick you up at 7." 대명사(you, it)는 가운데에 와요
-give up | 기법 | 포기하다 | "Don't give up!" 무엇을 포기하는지는 ~ing: give up smoking
-figure out | 피겨라웃 | 알아내다 / 해결하다 | "I can't figure out this app." (이 앱 어떻게 쓰는지 모르겠어)
-find out | 파인다웃 | (사실을) 알게 되다 | 정보를 알아낼 때. figure out은 머리를 써서 풀 때
-look for | 룩 포 | 찾다 (찾는 중이다) | "I'm looking for my keys." 찾아냈으면 find
-look after | 룩 애프터 | 돌보다 | "Can you look after my cat?" 미국에선 take care of도 많이 써요
-look forward to | 룩 포워드 투 | ~을 기대하다 | to 뒤에 명사나 ~ing: "I'm looking forward to seeing you."
-run out of | 러나우로브 | ~이 다 떨어지다 | 무엇이 떨어졌는지는 of 뒤에: "We ran out of milk." (우유가 다 떨어졌어)
-turn on | 터논 | 켜다 | 전기·기계를 켤 때: "Turn on the light." 대명사는 가운데: "Turn it on."
-turn off | 터노프 | 끄다 | 대명사는 가운데: "Turn it off." (turn off it X)
-turn down | 턴 다운 | 거절하다 / (소리를) 줄이다 | 두 가지 뜻 모두 자주 써요: "She turned down the offer." / "Turn it down!"
-put off | 푸로프 | 미루다 | 일상 대화에선 postpone보다 훨씬 많이 써요: "Stop putting it off!"
-show up | 쇼우 업 | 나타나다 / 오다 | 약속 장소에 나타날 때: "He didn't show up to the party." (파티에 안 왔어)
-hang out | 행아웃 | 놀다 / 어울리다 | 친구랑 노는 건 play가 아니라 hang out! (play는 아이들이나 게임·운동)
-check out | 체카웃 | 확인하다 / 한번 보다 | "Check out this video!" 호텔 체크아웃이라는 뜻도 있어요
-work out | 워카웃 | 운동하다 / 잘 풀리다 | 헬스장 운동은 exercise보다 work out: "I work out every day." / "It'll work out." (잘될 거야)
-come up with | 커멉 위드 | (아이디어를) 생각해 내다 | 아이디어·핑계·해결책을 떠올릴 때: "She came up with a great idea."
-get along with | 게럴롱 위드 | ~와 잘 지내다 | 사이가 좋을 때: "I get along with my coworkers." (동료들과 잘 지내요)
-calm down | 캄 다운 | 진정하다 | calm의 l은 소리 나지 않아요. 화난 사람에게 쓰면 더 화나게 할 수도 있어요
-set up | 쎄럽 | 설치하다 / 마련하다 | 기기 설치·회의 준비 등: "Can you help me set up my printer?"
-break up | 브레이컵 | 헤어지다 | "They broke up last month." 누구와: break up with
-fill out | 필 아웃 | (서류를) 작성하다 | "Please fill out this form." 영국식은 fill in
-grow up | 그로우 업 | 자라다 | 자란 곳을 말할 때: "I grew up in Daegu." (대구에서 자랐어요)
-wake up | 웨이컵 | 잠에서 깨다 | 깨어나는 순간은 wake up, 침대에서 나오는 건 get up
+"短语动词": `
+pick up | /ˈpɪk ˈʌp/ | （开车）接 / 捡起 | I'll pick you up at 7. 代词 (you, it) 放在中间。
+give up | /ˈgɪv ˈʌp/ | 放弃 | Don't give up! 放弃做某事用 -ing：give up smoking。
+figure out | /ˈfɪgjər ˈaʊt/ | 弄明白 / 想出办法 | I can't figure out this app.（这个应用我搞不懂怎么用）
+find out | /ˈfaɪnd ˈaʊt/ | 发现 / 得知 | 指打听到信息。figure out 是动脑子解决问题。
+look for | /ˈlʊk fɔːr/ | 寻找 | I'm looking for my keys. 找到了用 find。
+look after | /ˈlʊk ˈæftər/ | 照顾 | Can you look after my cat? 美国也常说 take care of。
+look forward to | /ˈlʊk ˈfɔːrwərd tuː/ | 期待 | to 后面接名词或 -ing：I'm looking forward to seeing you.
+run out of | /ˈrʌn ˈaʊt əv/ | 用完 / 耗尽 | 用完的东西放在 of 后面：We ran out of milk.（牛奶喝完了）
+turn on | /ˈtɜːrn ˈɑːn/ | 打开（电器） | “开灯”要说 turn on the light，不说 open the light ✗。代词放中间：Turn it on.
+turn off | /ˈtɜːrn ˈɔːf/ | 关掉（电器） | 代词放中间：Turn it off. (turn off it ✗)
+turn down | /ˈtɜːrn ˈdaʊn/ | 拒绝 / 调小（音量） | 两个意思都很常用：She turned down the offer. / Turn it down!
+put off | /ˈpʊt ˈɔːf/ | 推迟 / 拖延 | 日常口语里比 postpone 常用得多：Stop putting it off!
+show up | /ˈʃoʊ ˈʌp/ | 出现 / 露面 | 指到场：He didn't show up to the party.（他没来派对）
+hang out | /ˈhæŋ ˈaʊt/ | 一起玩 / 闲逛 | 和朋友出去玩用 hang out，不用 play（play 多用于小孩、游戏、运动）。
+check out | /ˈtʃek ˈaʊt/ | 看看 / 查看 | Check out this video! 也有“退房”的意思。
+work out | /ˈwɜːrk ˈaʊt/ | 健身 / 顺利解决 | 去健身房锻炼常说 work out：I work out every day. / It'll work out.（会好起来的）
+come up with | /ˈkʌm ˈʌp wɪð/ | 想出（主意） | 想出主意、借口、办法：She came up with a great idea.
+get along with | /ˈget əˈlɔːŋ wɪð/ | 和……相处融洽 | 关系好：I get along with my coworkers.（我和同事相处得很好）
+calm down | /ˈkɑːm ˈdaʊn/ | 冷静下来 | calm 的 l 不发音。对生气的人这么说，可能让对方更生气。
+set up | /ˈset ˈʌp/ | 安装 / 设置 / 安排 | 安装设备、准备会议等：Can you help me set up my printer?
+break up | /ˈbreɪk ˈʌp/ | 分手 | They broke up last month. 和谁分手：break up with。
+fill out | /ˈfɪl ˈaʊt/ | 填写（表格） | Please fill out this form. 英式说 fill in。
+grow up | /ˈgroʊ ˈʌp/ | 长大 | 说在哪里长大：I grew up in Chengdu.（我在成都长大）
+wake up | /ˈweɪk ˈʌp/ | 醒来 | 醒过来是 wake up，起床下地是 get up。
 `,
-"발음 주의": `
-rice | 롸이스 | 쌀 / 밥 | R: 입술을 둥글게 내밀고, 혀끝은 어디에도 닿지 않게. lice와 구분해요
-lice | 라이스 | 이 (머리에 사는 벌레) | L: 혀끝을 윗니 뒤 잇몸에 붙였다 떼요. "I like rice"를 lice로 말하면 큰일!
-right | 롸잇 | 오른쪽 / 맞는 | R로 시작. light와 구분
-light | 라잇 | 빛 / 가벼운 | L로 시작. 혀끝이 윗잇몸에 닿아요
-fan | 팬 (f) | 선풍기 / 팬 (좋아하는 사람) | F: 윗니를 아랫입술에 살짝 대고 바람을 내보내요
-pan | 팬 (p) | 프라이팬 | P: 두 입술을 붙였다가 터뜨려요
-coffee | 커피 (f) | 커피 | 가운데 f를 살려요. p로 말하면 copy(카피)처럼 들려요
-copy | 카피 | 복사하다 / 복사본 | 가운데가 p. 미국식은 "카피"에 가까워요
-think | 띵크 (th) | 생각하다 | TH: 혀끝을 윗니와 아랫니 사이에 살짝 내밀고 바람. s로 말하면 sink
-sink | 씽크 | 싱크대 / 가라앉다 | 혀가 이 뒤에 숨어 있는 s 소리
-three | 쓰리 (th) | 숫자 3 | 혀를 이 사이에! t로 말하면 tree처럼 들려요
-tree | 트리 | 나무 | tr은 "츄리"에 가깝게 들리기도 해요
-this | 디스 (th) | 이것 | 성대를 울리는 th. 혀끝을 이 사이에 두고 "드"
-very | 베리 (v) | 매우 | V: 윗니를 아랫입술에 대고 성대를 울려요. b로 말하면 berry
-berry | 베리 (b) | 베리 (딸기 같은 열매) | 두 입술을 붙였다 떼는 b
-vote | 보웃 (v) | 투표하다 | v로 시작. boat와 구분
-boat | 보웃 (b) | 배 / 보트 | b로 시작. "보트"보다 "보웃"에 가까워요
-walk | 웍 | 걷다 | l은 소리 나지 않아요. 입을 크게 벌린 "어"
-work | 워r크 | 일하다 | 혀를 뒤로 말아 r을 넣어요. walk와 헷갈리기 쉬운 짝꿍
-beach | 비-치 | 해변 | "이-"를 길게! 짧게 말하면 욕처럼 들릴 수 있어요
-leave | 리-브 | 떠나다 | 길게 "리-". 짧은 live(살다)와 구분해요
-live | 리브 (짧게) | 살다 | 짧고 힘을 빼서 "리브". leave보다 입을 덜 벌려요
-banana | 버내너 | 바나나 | 강세는 가운데 "내". "바나나"라고 또박또박 읽으면 못 알아들어요
-hotel | 호우텔 | 호텔 | 강세는 뒤 "텔". 앞을 세게 말하면 어색해요
-milk | 밀크 (크는 아주 약하게) | 우유 | 끝에 "으"를 붙이지 마요. 끝 자음은 입 모양만 살짝
-McDonald's | 먹다널즈 | 맥도날드 | 강세는 "다". 미국에서 "맥도날드"라고 하면 잘 못 알아들어요
+"发音易错": `
+rice | /ˈraɪs/ | 米 / 米饭 | r：嘴唇微微收圆，舌尖不碰任何地方。和 lice 区分。
+lice | /ˈlaɪs/ | 虱子 | l：舌尖抵住上齿龈再放开。把 I like rice 说成 lice 就尴尬了。
+right | /ˈraɪt/ | 右边 / 正确的 | r 开头，和 light 区分。
+light | /ˈlaɪt/ | 光 / 灯 / 轻的 | l 开头，舌尖碰上齿龈。部分地区的同学 n / l 不分，也要和 night 区分。
+fan | /ˈfæn/ | 风扇 / 粉丝 | f：上齿轻碰下唇送气。/æ/ 嘴要张大。
+pan | /ˈpæn/ | 平底锅 | p：双唇闭合后爆破。
+coffee | /ˈkɔːfi/ | 咖啡 | 中间的 f 要咬唇。美音元音是 /ɔː/。
+copy | /ˈkɑːpi/ | 复印 / 副本 | 中间是 p。美音元音是 /ɑː/。
+think | /ˈθɪŋk/ | 想 / 认为 | /θ/：舌尖轻放在上下齿之间送气。读成 s 就变成 sink。
+sink | /ˈsɪŋk/ | 水槽 / 下沉 | 舌尖藏在齿后的 s。
+three | /ˈθriː/ | 三 | 舌尖要放在齿间，读成 t 就像 tree。
+tree | /ˈtriː/ | 树 | tr 连在一起读，听起来有点像拼音 ch（“出”的声母）。
+this | /ˈðɪs/ | 这个 | 带声的 /ð/：舌尖放在齿间，声带振动，别读成 z 或 d。
+very | /ˈveri/ | 非常 | v：上齿碰下唇，声带振动。别读成 w (wary)。
+berry | /ˈberi/ | 浆果 | 双唇闭合再放开的 b。
+vote | /ˈvoʊt/ | 投票 | v 开头，和 boat 区分。
+boat | /ˈboʊt/ | 船 | b 开头。结尾的 t 轻轻收住，不要加元音。
+walk | /ˈwɔːk/ | 走路 | l 不发音，元音是张大嘴的 /ɔː/。
+work | /ˈwɜːrk/ | 工作 | 卷舌元音 /ɜːr/。和 walk 是容易混的一对。
+beach | /ˈbiːtʃ/ | 海滩 | /iː/ 要拉长，读短了听起来像骂人的词。
+leave | /ˈliːv/ | 离开 | 长音 /iː/。和短音的 live（住）区分。
+live | /ˈlɪv/ | 住 / 生活 | 短音 /ɪ/，嘴放松。
+banana | /bəˈnænə/ | 香蕉 | 重音在中间。每个音节读得一样重，对方反而听不懂。
+hotel | /hoʊˈtel/ | 酒店 | 重音在后。重音放在前面听起来很别扭。
+milk | /ˈmɪlk/ | 牛奶 | 结尾不要加“克”那样的元音，轻轻收住 k。
+McDonald's | /məkˈdɑːnldz/ | 麦当劳 | 重音在 Don。照着“麦当劳”说，对方很难听懂。
+bed | /ˈbed/ | 床 | 结尾的 d 是浊音，短促，不加元音。读成清音就成了 bet。
+bet | /ˈbet/ | 打赌 | 结尾是清音 t，元音比 bed 更短促。
+card | /ˈkɑːrd/ | 卡片 / 卡 | 结尾的 d 要读出来，丢掉就成了 car。
+car | /ˈkɑːr/ | 汽车 | 美音结尾要卷舌读出 r。
+cap | /ˈkæp/ | 帽子 | 结尾是清音 p，双唇闭上就行，不加元音。
+cab | /ˈkæb/ | 出租车 | 结尾是浊音 b，元音比 cap 稍长。
+mouth | /ˈmaʊθ/ | 嘴 | 结尾舌尖伸到齿间送气。读成 s 就是 mouse。
+mouse | /ˈmaʊs/ | 老鼠 / 鼠标 | 结尾是 s，舌尖在齿后。
+wary | /ˈweri/ | 谨慎的 | w：双唇收圆，不碰牙齿。和 very 区分。
+vest | /ˈvest/ | 背心 / 马甲 | v 开头，上齿碰下唇。
+west | /ˈwest/ | 西方 / 西边 | w 开头，嘴唇收圆。
+night | /ˈnaɪt/ | 夜晚 | n：气流从鼻腔出来。部分地区的同学容易和 light 混淆。
+know | /ˈnoʊ/ | 知道 | k 不发音。n 开头，部分地区的同学容易和 low 混淆。
+low | /ˈloʊ/ | 低的 | l 开头，舌尖抵住上齿龈，气流从舌头两侧出来。
+bad | /ˈbæd/ | 坏的 | /æ/ 嘴张大，嘴角向两边拉。和 bed 区分。
+friends | /ˈfrendz/ | 朋友（复数） | 辅音连缀 -ndz 要读全，别说成 frens。
+asked | /ˈæskt/ | 问了（ask 的过去式） | 结尾 -skt 三个辅音都要读出来，别只说 as。
+months | /ˈmʌnθs/ | 月（复数） | 结尾 -nθs 很难，可以先慢慢读 month，再加 s。
 `,
-"영어 관용구": `
-It's a piece of cake. | 잇츠 어 피스 오브 케익 | 식은 죽 먹기예요 | 아주 쉬운 일. "The test was a piece of cake."
-I'm on cloud nine. | 아임 온 클라우드 나인 | 날아갈 듯 기뻐요 | 엄청 행복할 때
-It costs an arm and a leg. | 잇 코스츠 언 암 앤 어 레그 | 엄청 비싸요 | 팔다리를 내줄 만큼 비싸다는 뜻
-Let's call it a day. | 렛츠 콜 잇 어 데이 | 오늘은 여기까지 해요 | 일·공부를 마칠 때. 회의에서도 자연스러워요
-I'm feeling under the weather. | 아임 필링 언더 더 웨더 | 몸이 좀 안 좋아요 | 감기 기운처럼 가볍게 아플 때. 날씨와는 상관없어요
-I need to hit the books. | 아이 니드 투 힛 더 북스 | 공부 좀 열심히 해야 해 | 시험 전에. 책을 때리는 게 아니에요
-Once in a blue moon | 원스 인 어 블루 문 | 아주 가끔 | 아주 드문 일에: "I only eat fast food once in a blue moon."
-Better late than never. | 베러 레잇 댄 네버 | 늦더라도 안 하는 것보단 낫죠 | 늦게 시작한 사람을 격려할 때
-Don't beat around the bush. | 돈 비러롸운 더 부쉬 | 돌려 말하지 마요 | 본론을 말해 달라는 뜻
-It's not my cup of tea. | 잇츠 낫 마이 커퍼 티 | 제 취향은 아니에요 | 부드럽게 싫다고 할 때 좋아요
-Let's get the ball rolling. | 렛츠 겟 더 볼 롤링 | 자, 시작해 봅시다 | 회의·프로젝트 시작할 때
-I'll keep my fingers crossed. | 아일 킵 마이 핑거즈 크로스드 | 잘되길 빌게요 | 검지와 중지를 꼬는 제스처와 함께 써요
-Hang in there. | 행 인 데어 | 조금만 버텨 / 힘내 | 힘든 시기를 보내는 사람에게
-Speak of the devil! | 스픽 오브 더 데블! | 호랑이도 제 말 하면 온다더니! | 얘기하던 사람이 나타났을 때
-The ball is in your court. | 더 볼 이즈 인 유어 코트 | 이제 당신이 결정할 차례예요 | 테니스에서 온 표현
-My lips are sealed. | 마이 립스 아 씰드 | 비밀 지킬게요 | 입술을 봉했다는 뜻
-It's on the tip of my tongue. | 잇츠 온 더 팁 오브 마이 텅 | 혀끝에서 맴도는데… | 생각날 듯 말 듯할 때
-I'm all ears. | 아임 올 이어즈 | 잘 듣고 있어요 / 어서 말해 봐요 | 귀를 쫑긋 세우고 듣는다는 뜻
-When pigs fly. | 웬 픽스 플라이 | 해가 서쪽에서 뜨겠다 | 절대 일어나지 않을 일. "He'll clean his room when pigs fly."
+"英语习语": `
+It's a piece of cake. | /ɪts ə ˈpiːs əv ˈkeɪk/ | 小菜一碟 | 非常容易：The test was a piece of cake.
+I'm on cloud nine. | /aɪm ɑːn ˈklaʊd ˈnaɪn/ | 高兴得要飞起来了 | 特别开心的时候说。
+It costs an arm and a leg. | /ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/ | 贵得要命 | 贵到要拿胳膊和腿去换。
+Let's call it a day. | /ˈlets ˈkɔːl ɪt ə ˈdeɪ/ | 今天就到这儿吧 | 结束工作、学习时说，开会时也很自然。
+I'm feeling under the weather. | /aɪm ˈfiːlɪŋ ʌndər ðə ˈweðər/ | 我有点不舒服 | 像要感冒那样轻微不适，和天气无关。
+I need to hit the books. | /aɪ ˈniːd tə ˈhɪt ðə ˈbʊks/ | 我得用功读书了 | 考试前说。不是真的打书。
+Once in a blue moon | /ˈwʌns ɪn ə ˈbluː ˈmuːn/ | 极少 / 难得一次 | 非常少见：I only eat fast food once in a blue moon.
+Better late than never. | /ˈbetər ˈleɪt ðən ˈnevər/ | 迟做总比不做好 | 鼓励起步晚的人。
+Don't beat around the bush. | /ˈdoʊnt ˈbiːt əraʊnd ðə ˈbʊʃ/ | 别拐弯抹角 | 让对方直说重点。
+It's not my cup of tea. | /ɪts ˈnɑːt maɪ ˈkʌp əv ˈtiː/ | 不是我喜欢的类型 | 委婉地表示不喜欢。
+Let's get the ball rolling. | /ˈlets ˈget ðə ˈbɔːl ˈroʊlɪŋ/ | 我们开始吧 | 会议、项目开始时说。
+I'll keep my fingers crossed. | /aɪl ˈkiːp maɪ ˈfɪŋgərz ˈkrɔːst/ | 祝你好运 | 常配合食指和中指交叉的手势。
+Hang in there. | /ˈhæŋ ˈɪn ˈðer/ | 坚持住 | 对处境艰难的人说。中文的“加油”在这种场合就可以说 Hang in there.
+Speak of the devil! | /ˈspiːk əv ðə ˈdevl/ | 说曹操，曹操到！ | 正说着某人，他就出现了。
+The ball is in your court. | /ðə ˈbɔːl ɪz ɪn jʊr ˈkɔːrt/ | 该你做决定了 | 来自网球。
+My lips are sealed. | /maɪ ˈlɪps ər ˈsiːld/ | 我保证守口如瓶 | 字面意思是“嘴唇封住了”。
+It's on the tip of my tongue. | /ɪts ɑːn ðə ˈtɪp əv maɪ ˈtʌŋ/ | 话到嘴边就是想不起来 | 明明知道却一时说不出来的时候。
+I'm all ears. | /aɪm ˈɔːl ˈɪrz/ | 洗耳恭听 | 意思是“你说吧，我认真听着”。
+When pigs fly. | /wen ˈpɪgz ˈflaɪ/ | 除非太阳从西边出来 | 绝不可能发生的事：He'll clean his room when pigs fly.
 `,
-"영화·드라마·슬랭": `
-Spill the tea. | 스필 더 티 | 썰 좀 풀어 봐 | tea = 가십·소문. 친구 사이 슬랭
-No cap. | 노 캡 | 진짜야, 거짓말 아님 | 젊은 층 슬랭. cap = 거짓말
-That song slaps. | 댓 쏭 슬랩스 | 그 노래 진짜 좋다 | slap = (음악이) 끝내주다. 음식에도 써요
-I'm dead. | 아임 데드 | 개웃겨 / 빵 터졌어 | 문자에서 💀 이모지와 함께 써요. 진짜 죽었다는 뜻 아니에요
-Low-key | 로우키 | 은근히 / 살짝 | "I low-key love this song." 반대는 high-key(대놓고)
-I'm obsessed with this song. | 아임 업세스트 위드 디스 쏭 | 이 노래에 완전 꽂혔어 | obsessed = 푹 빠진. 긍정적으로 많이 써요
-What's it about? | 왓츠 잇 어바웃? | 무슨 내용이야? | 영화·드라마 줄거리를 물을 때
-No spoilers! | 노 스포일러즈! | 스포 금지! | "Don't spoil it!"도 같은 뜻
-I binge-watched the whole season. | 아이 빈지와치트 더 홀 시즌 | 시즌 전체를 정주행했어 | binge-watch = 몰아보기
-The ending was so good. | 디 엔딩 워즈 쏘 굿 | 결말 진짜 좋았어 | 별로였으면 "The ending was disappointing."
-It's a must-watch. | 잇츠 어 머스트와치 | 꼭 봐야 하는 작품이야 | 강력 추천할 때
-Plot twist! | 플랏 트위스트! | 반전! | 일상에서 예상 못 한 일이 생겼을 때도 써요
-It's overrated. | 잇츠 오버레이티드 | 과대평가됐어 | 반대는 underrated(과소평가된)
-That scene gave me chills. | 댓 씬 게이브 미 칠즈 | 그 장면 소름 돋았어 | 감동이나 긴장으로 소름 돋을 때
-Who's your bias? | 후즈 유어 바이어스? | 최애가 누구야? | K-pop 팬덤에서 쓰는 말. 일반적으로는 "Who's your favorite member?"
-Are you kidding me? | 아 유 키딩 미? | 장난해? / 이게 말이 돼? | 드라마 단골 대사. 놀람·짜증 모두 가능
-I've got your back. | 아이브 갓 유어 백 | 내가 네 편이야 | 든든하게 지켜 주겠다는 뜻
-Gotcha. | 가차 | 알았어 / 잡았다! | got you의 줄임말. 이해했다는 뜻으로 가장 많이 써요
-Let's do this! | 렛츠 두 디스! | 가자! 해 보자! | 시작 전에 의욕을 북돋울 때
+"影视与俚语": `
+Spill the tea. | /ˈspɪl ðə ˈtiː/ | 快说说有什么八卦 | tea = 八卦、内幕。朋友之间的俚语。
+No cap. | /ˈnoʊ ˈkæp/ | 真的，不骗你 | 年轻人的俚语。cap = 谎话。
+That song slaps. | /ˈðæt ˈsɔːŋ ˈslæps/ | 这首歌太好听了 | slap = （音乐等）超赞，也可以形容食物。
+I'm dead. | /aɪm ˈded/ | 笑死我了 | 消息里常配 💀 表情，不是真的死了。
+Low-key | /ˌloʊˈkiː/ | 有点 / 偷偷地 | I low-key love this song. 反义词是 high-key（毫不掩饰地）。
+I'm obsessed with this song. | /aɪm əbˈsest wɪð ˈðɪs ˈsɔːŋ/ | 这首歌我单曲循环了 | obsessed = 着迷的，多用在正面意思上。
+What's it about? | /ˈwʌts ɪt əˈbaʊt/ | 讲的是什么？ | 问电影、电视剧的剧情。
+No spoilers! | /ˈnoʊ ˈspɔɪlərz/ | 不许剧透！ | Don't spoil it! 意思一样。
+I binge-watched the whole season. | /aɪ ˈbɪndʒwɑːtʃt ðə ˈhoʊl ˈsiːzn/ | 我一口气追完了一整季 | binge-watch = 刷剧、一口气看完。
+The ending was so good. | /ði ˈendɪŋ wəz ˈsoʊ ˈgʊd/ | 结局太好了 | 不好看：The ending was disappointing.
+It's a must-watch. | /ɪts ə ˈmʌstwɑːtʃ/ | 一定要看 | 强烈推荐时说。
+Plot twist! | /ˈplɑːt ˈtwɪst/ | 剧情反转！ | 生活里出现意外时也可以说。
+It's overrated. | /ɪts ˌoʊvərˈreɪtɪd/ | 被高估了 | 反义词是 underrated（被低估的）。
+That scene gave me chills. | /ˈðæt ˈsiːn ˈgeɪv mi ˈtʃɪlz/ | 那场戏看得我起鸡皮疙瘩 | 因为感动或紧张起鸡皮疙瘩。
+Who's your bias? | /ˈhuːz jʊr ˈbaɪəs/ | 你的本命是谁？ | K-pop 粉丝用语，和饭圈说的“本命”差不多。一般说 Who's your favorite member?
+Are you kidding me? | /ər ju ˈkɪdɪŋ mi/ | 你在开玩笑吧？ | 影视剧常见台词，可以表示惊讶，也可以表示恼火。
+I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | 我挺你 / 有我在 | 意思是会一直支持你、保护你。
+Gotcha. | /ˈgɑːtʃə/ | 明白了 / 抓到你了！ | got you 的缩略，最常用来表示“懂了”。
+Let's do this! | /ˈlets ˈduː ˈðɪs/ | 开干吧！ | 开始前给大家鼓劲。
+`,
+"中式英语陷阱": `
+Turn on the light. | /ˈtɜːrn ˈɑːn ðə ˈlaɪt/ | 开灯 | 中式英语：“开灯”不是 open the light ✗。灯、电视、空调等电器的“开”用 turn on。
+Turn off the TV. | /ˈtɜːrn ˈɔːf ðə ˌtiː ˈviː/ | 关电视 | 中式英语：“关电视”不是 close the TV ✗。电器的“关”用 turn off，门窗才用 close。
+I'll take you to the station. | /aɪl ˈteɪk ju tə ðə ˈsteɪʃn/ | 我带你去车站 | 一词多义：“带”某人去别处用 take；带到说话人这里才用 bring。
+Can you bring me some water? | /kən ju ˈbrɪŋ mi ˈsʌm ˈwɔːtər/ | 能给我拿点水来吗？ | 一词多义：“带来、拿来”（朝说话人的方向）用 bring，和 take 方向相反。
+Can you lend me a pen? | /kən ju ˈlend mi ə ˈpen/ | 能借我一支笔吗？ | 一词多义：“借”给别人用 lend。Can you borrow me a pen? ✗
+Can I borrow your charger? | /kən aɪ ˈbɑːroʊ jʊr ˈtʃɑːrdʒər/ | 我能借一下你的充电器吗？ | 一词多义：从别人那里“借”用 borrow。记住：lend 是借出，borrow 是借入。
+I'm reading a book. | /aɪm ˈriːdɪŋ ə ˈbʊk/ | 我在看书 | 一词多义：“看书”用 read，不说 see a book ✗ 或 look a book ✗。
+I'm watching TV. | /aɪm ˈwɑːtʃɪŋ ˌtiː ˈviː/ | 我在看电视 | 一词多义：看电视、看比赛这种持续地看用 watch。watch TV 是固定说法，TV 前不加冠词；指某台电视机时才说 the TV：Turn off the TV.
+Look at this picture. | /ˈlʊk ət ˈðɪs ˈpɪktʃər/ | 看看这张照片 | 一词多义：主动去“看”某个东西用 look at，at 不能漏；“看见”用 see。
+I was on my phone all night. | /aɪ wəz ɑːn maɪ ˈfoʊn ˈɔːl ˈnaɪt/ | 我玩了一晚上手机 | 中式英语：“玩手机”不是 play the phone ✗，要说 be on my phone 或 use my phone。
+Reading helps you gain knowledge. | /ˈriːdɪŋ ˈhelps ju ˈgeɪn ˈnɑːlɪdʒ/ | 读书能帮你增长知识 | 中式英语：“学习知识”不说 learn knowledge ✗，用 gain knowledge，或直接说 learn a lot。knowledge 不可数，没有复数。
+Do you play any sports? | /də ju ˈpleɪ ˈeni ˈspɔːrts/ | 你平时做运动吗？ | 一词多义：“运动”指球类说 play sports / play basketball；泛指锻炼说 exercise 或 work out。
+Take this medicine twice a day. | /ˈteɪk ˈðɪs ˈmedɪsn ˈtwaɪs ə ˈdeɪ/ | 这个药一天吃两次 | 中式英语：“吃药”不是 eat medicine ✗，要用 take。medicine 泛指药物时不可数。
+I'm giving a presentation tomorrow. | /aɪm ˈgɪvɪŋ ə ˌpriːzenˈteɪʃn təˈmɑːroʊ/ | 我明天要做报告 | 中式英语：“做报告”直译成 make a report 不自然。在会上讲给大家听，用 give a presentation。
+You've made a lot of progress. | /juv ˈmeɪd ə ˈlɑːt əv ˈprɑːgres/ | 你进步很大 | 中式英语：“取得进步”用 make progress。progress 不可数：a progress ✗、progresses ✗。
+I'd like to ask a question. | /aɪd ˈlaɪk tu ˈæsk ə ˈkwestʃən/ | 我想提个问题 | 中式英语：“提问题”不说 put forward a question ✗。日常用 ask a question；在会上提出某个问题供讨论，可以说 raise a question。
+You should see a doctor. | /ju ʃəd ˈsiː ə ˈdɑːktər/ | 你应该去看病 | 中式英语：“看病”不是 see a sickness ✗，而是 see a doctor（去看医生）。
+It's really crowded. | /ɪts ˈriːəli ˈkraʊdɪd/ | 人山人海 / 太挤了 | 中式英语：“人山人海”不能直译成 people mountain people sea ✗。不过 Long time no see. 这种来自中文的说法已经被英语接受了。
+I really like it. | /aɪ ˈriːəli ˈlaɪk ɪt/ | 我很喜欢 | 中式英语：“很喜欢”不是 I very like it. ✗。very 不能直接修饰动词，要说 I really like it. 或 I like it very much.
+Although it rained, we went hiking. | /ɔːlðoʊ ɪt ˈreɪnd wi ˈwent ˈhaɪkɪŋ/ | 虽然下雨了，我们还是去徒步了 | 中式英语：“虽然……但是”在英语里只用一个连词。Although it rained, but we went… ✗
+Because I was tired, I went to bed early. | /bɪkəz aɪ wəz ˈtaɪərd aɪ ˈwent tə ˈbed ˈɜːrli/ | 因为太累了，所以我早早睡了 | 中式英语：“因为……所以”只用一个，because 和 so 不能同时出现。go to bed 不加冠词。
+I'm on the bus. | /aɪm ɑːn ðə ˈbʌs/ | 我在公交车上 | 中式英语：“在公交车上”用 on，不用 in ✗。公交、地铁、火车、飞机用 on，小汽车、出租车用 in。
+What do you think? | /ˈwʌt də ju ˈθɪŋk/ | 你觉得怎么样？ | 中式英语：“你觉得怎么样？”不说 How do you think? ✗。问看法用 What do you think?
+Tell me the truth. | /ˈtel mi ðə ˈtruːθ/ | 跟我说实话 | 一词多义：“说”：say 后接说的内容，tell 后接人，speak 接语言，talk 指交谈。say the truth ✗ → tell the truth ✓
+I'm studying for an exam. | /aɪm ˈstʌdiɪŋ fər ən ɪgˈzæm/ | 我在准备考试 | 一词多义：“学”：learn 指学会 (learn to swim)，study 指花时间学习、备考。
+I don't agree. | /aɪ ˈdoʊnt əˈgriː/ | 我不同意 | 中式英语：“我不同意”不是 I'm not agree. ✗。agree 是动词，前面不需要 be 动词。
+`,
+"数量表达": `
+three books | /ˈθriː ˈbʊks/ | 三本书 | 英语数可数名词不用量词：数字后面直接跟名词，名词加复数 -s。
+two cats | /ˈtuː ˈkæts/ | 两只猫 | 中文的“只、条、头”英语都没有。复数 -s 要读出来。
+a car | /ə ˈkɑːr/ | 一辆车 | 单数可数名词前用冠词 a，就相当于“一辆”。
+five people | /ˈfaɪv ˈpiːpl/ | 五个人 | people 本身就是复数，不加 -s。一个人是 a person。
+two children | /ˈtuː ˈtʃɪldrən/ | 两个孩子 | child 的复数是不规则的 children。
+some information | /ˈsʌm ˌɪnfərˈmeɪʃn/ | 一些信息 | information 不可数：an information ✗、informations ✗。
+a piece of advice | /ə ˈpiːs əv ədˈvaɪs/ | 一条建议 | advice 不可数，要数就用 a piece of：two pieces of advice ✓，two advices ✗。
+two pieces of furniture | /ˈtuː ˈpiːsɪz əv ˈfɜːrnɪtʃər/ | 两件家具 | furniture 不可数，复数加在 piece 上：pieces。
+a piece of news | /ə ˈpiːs əv ˈnuːz/ | 一条新闻 / 一个消息 | news 虽然以 s 结尾，却是不可数名词，动词用单数：The news is good. 也可以说 an item of news。
+a cup of coffee | /ə ˈkʌp əv ˈkɔːfi/ | 一杯咖啡 | 热饮用 cup。两杯：two cups of coffee。
+a glass of water | /ə ˈglæs əv ˈwɔːtər/ | 一杯水 | 冷饮、玻璃杯用 glass。中文都说“杯”，英语要分 cup 和 glass。
+a bottle of water | /ə ˈbɑːtl əv ˈwɔːtər/ | 一瓶水 | water 不可数，按瓶数就说 two bottles of water。
+a slice of bread | /ə ˈslaɪs əv ˈbred/ | 一片面包 | bread 不可数：a bread ✗。
+a loaf of bread | /ə ˈloʊf əv ˈbred/ | 一条面包 | 整条面包用 loaf，复数是 loaves。
+a bowl of rice | /ə ˈboʊl əv ˈraɪs/ | 一碗米饭 | rice 不可数，两碗是 two bowls of rice。
+a pair of shoes | /ə ˈper əv ˈʃuːz/ | 一双鞋 | 成双成对的东西用 a pair of，后面的名词用复数。
+a pair of jeans | /ə ˈper əv ˈdʒiːnz/ | 一条牛仔裤 | 中文说“一条”，英语因为有两条裤腿，用 a pair of。glasses（眼镜）、scissors（剪刀）也一样。
+a lot of homework | /ə ˈlɑːt əv ˈhoʊmwɜːrk/ | 很多作业 | homework 不可数：homeworks ✗、many homework ✗，用 a lot of 或 much。
+two pieces of luggage | /ˈtuː ˈpiːsɪz əv ˈlʌgɪdʒ/ | 两件行李 | luggage / baggage 不可数，按件数要用 pieces。
+a sheet of paper | /ə ˈʃiːt əv ˈpeɪpər/ | 一张纸 | paper 当“纸”讲时不可数；a paper 是“一份报纸”或“一篇论文”。
 `
 };

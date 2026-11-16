@@ -83,6 +83,7 @@ packs/course-<lang>-en.js, packs/i18n-<lang>.js   generated, never hand-edited
 | `pron` | validate | `required` / `optional` / `none`: policy for the card `pron` field and the `{{ex:English|pron|meaning}}` middle field (`none` = must be empty) |
 | `standingRule` | validate | `{kind, keywords, flags?}`. `article-plural` = the ko rule: ≥ half of the order items and ≥ half of the type items in every lesson hinge on a/an/the or plural -s, **and** their `why` matches `keywords`. `verb-core` = the es rule (docs/profiles/es.md §7): ≥ half of order + type items together hinge on agreement, do-support or auxiliary inversion, or dummy it/there (heuristic). `none` = no rule. `flags` (optional, extra) = regex flags for `keywords`, e.g. `"i"` |
 | `pronPattern` (optional, extra) | validate | regex that every non-empty `pron` must match in full, e.g. the katakana-only rule in docs/profiles/ja.md §6 |
+| `pronScript` (optional) | validate | regex a non-empty `pron` must contain when the aid is NOT written in the native script (zh: IPA, `ˈ`); replaces the native-script test for `pron` only |
 | `labels.mcBlankCue`, `labels.typeHintCue` | _dsl | text appended to a shorthand mc question or type hint that has no native text (ko: " 빈칸에 알맞은 것은?", " — 이 단어들로") |
 | `labels.cueTest` (optional) | _dsl | regex for "has native text" when it should differ from `nativeScript` |
 | `nativeNameEn` (optional, extra) | gen | English name of the language for the pack's header comment ("English for Korean speakers") |

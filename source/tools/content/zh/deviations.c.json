@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "chinglish": "zh-only lesson (profile zh.md §8 'add' / §4.8–4.10 / §9): Chinglish traps — one Chinese verb vs several English verbs (开/看/带/借/学/说), calques (玩手机, 学习知识, 吃药, 人山人海), very + verb, paired connectors; placed after smalltalk via profile.json lessonOrder.after; deck 中式英语陷阱; no ko-en counterpart (mirrors ja katakana-english)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["chinglish"]
+}

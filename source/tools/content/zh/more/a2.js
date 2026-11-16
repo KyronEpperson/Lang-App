@@ -1,224 +1,229 @@
-/* TRANSLATE/ADAPT (zh): scaffolded from tools/content/ko/more/a2.js by new_lang.js.
-   Translate/adapt everything that is Korean for zh speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the zh point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage A2: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* zh-en stage A2: new lessons. English side shared with ko-en (parity.js); shorthand is expanded by _dsl.js. */
 module.exports = [
-{ id:"past-continuous", title:"과거진행: was / were + -ing", blurb:"그때 하고 있던 일. 이야기의 배경을 깔아 줘요.", deck:"감정·반응", body:`
-<p>과거의 <b>어느 순간에 하고 있던 일</b>을 말해요. 현재진행의 be동사만 과거(was / were)로 바꾸면 돼요.</p>
-{{ex:I was sleeping.|아이 워즈 슬리핑|저는 자고 있었어요}}{{ex:We were watching TV.|위 워 왓칭 티비|우리는 TV를 보고 있었어요}}{{ex:It was raining.|잇 워즈 레이닝|비가 오고 있었어요}}
-<h3>질문</h3>
-{{ex:What were you doing?|왓 워 유 두잉?|뭐 하고 있었어요?}}{{ex:Were you working at nine?|워 유 워킹 앳 나인?|9시에 일하고 있었어요?}}
-<h3>when과 함께: 하던 중에 일이 생겼어요</h3>
-<p>길게 하던 일은 <b>과거진행</b>, 그 사이에 일어난 짧은 일은 <b>과거형</b>이에요.</p>
-{{ex:I was cooking when you called.|아이 워즈 쿠킹 웬 유 콜드|전화했을 때 저는 요리하고 있었어요}}{{ex:I was walking home when it started to rain.|아이 워즈 워킹 홈 웬 잇 스타티드 투 레인|집에 걸어가는데 비가 오기 시작했어요}}
-<div class="tip">'~하고 있었어요'를 과거형으로만 말하면 느낌이 달라져요. <b>I cooked when you called.</b>는 "전화가 오자 요리를 시작했어요"라는 뜻이 돼요.</div>`,
-check:[["'9시에 뭐 하고 있었어요?'를 영어로 하면?",["What did you doing at nine?","What were you doing at nine?","What was you doing at nine?","What were you do at nine?"],1,"you에는 were, 뒤에는 -ing가 와요."],["I was cooking ___ you called. 빈칸에 알맞은 것은?",["when","so","or","than"],0,"'~했을 때'는 when이에요."],["They ___ watching TV. 빈칸에 알맞은 것은?",["was","did","were","are being"],2,"they에는 were예요."]],
+{ id:"past-continuous", title:"过去进行时：was / were + -ing", blurb:"当时正在做的事，用来交代故事的背景。", deck:"情绪与反应", body:`
+<p>说过去<b>某个时刻正在做的事</b>。把现在进行时里的 be 动词换成过去式 (was / were) 就行。中文说“我那时在睡觉”，靠“那时”和“在”来表达；英语要靠动词形式。</p>
+{{ex:I was sleeping.|/aɪ wəz ˈsliːpɪŋ/|我当时在睡觉}}{{ex:We were watching TV.|/wi wər ˈwɑːtʃɪŋ ˌtiː ˈviː/|我们当时在看电视}}{{ex:It was raining.|/ɪt wəz ˈreɪnɪŋ/|当时在下雨}}
+<h3>疑问句</h3>
+{{ex:What were you doing?|/ˈwʌt wər ju ˈduːɪŋ/|你当时在干什么？}}{{ex:Were you working at nine?|/wər ju ˈwɜːrkɪŋ ət ˈnaɪn/|你 9 点的时候在工作吗？}}
+<h3>和 when 连用：正在做一件事时，发生了另一件事</h3>
+<p>持续进行的动作用<b>过去进行时</b>，中途发生的短暂动作用<b>一般过去时</b>。</p>
+{{ex:I was cooking when you called.|/aɪ wəz ˈkʊkɪŋ wen ju ˈkɔːld/|你打电话来的时候，我正在做饭}}{{ex:I was walking home when it started to rain.|/aɪ wəz ˈwɔːkɪŋ ˈhoʊm wen ɪt ˈstɑːrtɪd tə ˈreɪn/|我走路回家的时候，开始下雨了}}
+<p>中文的“在 / 正在”可以省略，英语的 was / were 不能省：<b>I cooking.</b> ✗ → <b>I was cooking.</b> ✓</p>
+<div class="tip">“正在做”如果只用一般过去时，意思就变了。<b>I cooked when you called.</b> 的意思是“你打来电话以后，我才开始做饭”。</div>`,
+check:[["“你 9 点的时候在干什么？”用英语怎么说？",["What did you doing at nine?","What were you doing at nine?","What was you doing at nine?","What were you do at nine?"],1,"主语 you 用 were，后面接 -ing 形式。"],["I was cooking ___ you called. 空格处应填什么？",["when","so","or","than"],0,"“……的时候”用 when。"],["They ___ watching TV. 空格处应填什么？",["was","did","were","are being"],2,"主语 they 用 were。"]],
 practice:[
-["mc","I ___ sleeping at ten.","was","were","did","am","I에는 was예요."],
-["mc","'전화했을 때 저는 요리하고 있었어요' =","I was cooking when you called.","I cooked when you were calling.","I was cook when you called.","I cooking when you called.","하던 일은 과거진행, 끼어든 일은 과거형이에요."],
-["mc","'뭐 하고 있었어요?' =","What were you doing?","What did you doing?","What was you doing?","What were you do?","you에는 were, 뒤에는 -ing예요."],
-["mc","They ___ playing soccer.","were","was","did","are","they에는 were예요."],
-["mc","'비가 오고 있었어요' =","It was raining.","It were raining.","It was rain.","It rained was.","it에는 was + -ing예요."],
-["or","저는 책을 읽고 있었어요","I was reading a book","read books","읽던 한 권이라 관사 a와 단수 book이에요."],
-["or","아이들이 자고 있었어요","The kids were sleeping","kid was","여럿이라 복수 kids와 were를 써요."],
-["or","우리는 TV를 보고 있었어요","We were watching TV","was","we에는 were예요."],
-["fi","I was __ dinner.","저녁을 만들고 있었어요","cooking|making","cook|cooked|cooks","was 뒤에는 -ing가 와요."],
-["fi","What __ you doing?","뭐 하고 있었어요?","were","was|did|does","you에는 were예요."],
-["fi","I was sleeping __ you called.","전화했을 때 자고 있었어요","when","so|than|or","'~했을 때'는 when이에요."],
-["ty","저는 일하고 있었어요","I was working","was · work — -ing","were","I에는 was + -ing예요."],
-["ty","저는 영화를 보고 있었어요","I was watching a movie","was · watching · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","아이들이 놀고 있었어요","The kids were playing|The children were playing","kids · were · playing — 복수","kid","여럿이라 복수 kids와 were예요."]]},
-{ id:"will", title:"will: 지금 정한 일, 약속, 예측", blurb:"그 자리에서 결정하면 will, 미리 정했으면 going to.", deck:"스몰토크", body:`
-<p><b>will + 동사원형</b>이에요. 말할 때는 거의 항상 <b>I'll, you'll, it'll</b>로 줄여요. 부정은 <b>won't</b>예요.</p>
-<h3>지금 막 정했을 때</h3>
-{{ex:I'll have the pasta.|아일 해브 더 파스타|저는 파스타로 할게요}}{{ex:I'll get it.|아일 게릿|제가 받을게요}}
-<h3>약속과 제안</h3>
-{{ex:I'll help you.|아일 헬프 유|도와줄게요}}{{ex:I'll call you later.|아일 콜 유 레이러|나중에 전화할게요}}{{ex:I won't be late.|아이 원트 비 레이트|안 늦을게요}}
-<h3>예측</h3>
-{{ex:It'll be fine.|이를 비 파인|괜찮을 거예요}}{{ex:I think it will rain.|아이 띵크 잇 윌 레인|비가 올 것 같아요}}
-<h3>will과 be going to</h3>
-<div class="tbl"><table><tr><th></th><th>언제</th><th>예</th></tr><tr><td class="k">will</td><td>지금 결정, 약속</td><td>I'll get the door.</td></tr><tr><td class="k">be going to</td><td>미리 세운 계획</td><td>I'm going to visit Jeju next month.</td></tr></table></div>
-<div class="tip">가장 흔한 실수: <b>I will to go.</b>, <b>I'll going.</b> (X) → <b>I'll go.</b> (O). will 뒤에는 동사원형만 와요.</div>`,
-check:[["전화가 울릴 때 '제가 받을게요'는?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"그 자리에서 정한 일은 will이에요."],["I ___ be late. (안 늦을게요)",["won't","willn't","don't will","not will"],0,"will의 부정은 won't예요."],["미리 세운 계획을 말하는 문장은?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"미리 세운 계획은 be going to예요."]],
+["mc","I ___ sleeping at ten.","was","were","did","am","主语 I 用 was。"],
+["mc","“你打电话来的时候，我正在做饭”=","I was cooking when you called.","I cooked when you were calling.","I was cook when you called.","I cooking when you called.","持续的动作用过去进行时，插进来的动作用一般过去时。"],
+["mc","“你当时在干什么？”=","What were you doing?","What did you doing?","What was you doing?","What were you do?","you 用 were，后面接 -ing 形式。"],
+["mc","They ___ playing soccer.","were","was","did","are","主语 they 用 were。"],
+["mc","“当时在下雨”=","It was raining.","It were raining.","It was rain.","It rained was.","it 用 was，后面接 -ing 形式。"],
+["or","我当时在看一本书","I was reading a book","read books","看的是一本书，用冠词 a 和单数 book。"],
+["or","孩子们当时在睡觉","The kids were sleeping","kid was","孩子不止一个，用复数 kids 和 were。"],
+["or","我们当时在看电视","We were watching TV","was","主语 we 用 were。"],
+["fi","I was __ dinner.","我当时在做晚饭","cooking|making","cook|cooked|cooks","was 后面接 -ing 形式。"],
+["fi","What __ you doing?","你当时在干什么？","were","was|did|does","主语 you 用 were。"],
+["fi","I was sleeping __ you called.","你打电话来的时候，我在睡觉","when","so|than|or","“……的时候”用 when。"],
+["ty","我当时在工作","I was working","was · work — -ing 形式","were","主语 I 用 was，再加 -ing 形式。"],
+["ty","我当时在看电影","I was watching a movie","was · watching · movie — 冠词 a","the","没有特指哪部电影，用冠词 a。"],
+["ty","孩子们当时在玩","The kids were playing|The children were playing","kids · were · playing — 复数","kid","孩子不止一个，用复数 kids 和 were。"]]},
+{ id:"will", title:"will：当场决定、承诺、预测", blurb:"当场决定用 will，事先计划好用 be going to。", deck:"闲聊", body:`
+<p><b>will + 动词原形</b>。口语里几乎总是缩写成 <b>I'll、you'll、it'll</b>，否定是 <b>won't</b>。</p>
+<p>注意中文的“会”有两个意思：“明天会下雨”是预测，用 will；“我会游泳”是能力，要用 can：I can swim.</p>
+<h3>当场决定</h3>
+{{ex:I'll have the pasta.|/aɪl ˈhæv ðə ˈpɑːstə/|我要意大利面}}{{ex:I'll get it.|/aɪl ˈget ɪt/|我来接（电话）/ 我去开门}}
+<h3>承诺和提议</h3>
+{{ex:I'll help you.|/aɪl ˈhelp ju/|我来帮你}}{{ex:I'll call you later.|/aɪl ˈkɔːl ju ˈleɪtər/|我晚点给你打电话}}{{ex:I won't be late.|/aɪ ˈwoʊnt bi ˈleɪt/|我不会迟到的}}
+<h3>预测</h3>
+{{ex:It'll be fine.|/ɪtl bi ˈfaɪn/|会没事的}}{{ex:I think it will rain.|/aɪ ˈθɪŋk ɪt wəl ˈreɪn/|我觉得会下雨}}
+<h3>will 和 be going to</h3>
+<div class="tbl"><table><tr><th></th><th>什么时候用</th><th>例句</th></tr><tr><td class="k">will</td><td>当场决定、承诺</td><td>I'll get the door.</td></tr><tr><td class="k">be going to</td><td>事先定好的计划</td><td>I'm going to visit Hangzhou next month.</td></tr></table></div>
+<div class="tip">最常见的错误：<b>I will to go.</b>、<b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ will 后面只能接动词原形。</div>`,
+check:[["电话响了，“我来接”怎么说？",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"当场决定的事用 will。"],["I ___ be late.（我不会迟到的）",["won't","willn't","don't will","not will"],0,"will 的否定是 won't。"],["哪一句说的是事先定好的计划？",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"事先定好的计划用 be going to。"]],
 practice:[
-["mc","'도와줄게요' =","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","will 뒤에는 동사원형이 와요."],
-["mc","식당에서 지금 정할 때 '저는 파스타로 할게요' =","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","그 자리에서 정한 일은 will이에요."],
-["mc","'안 늦을게요' =","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","will not은 won't로 줄여요."],
-["mc","'올 거예요?' =","Will you come?","Do you will come?","Will you coming?","Will come you?","Will + 주어 + 동사원형이에요."],
-["mc","미리 세운 계획을 말하는 문장은?","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","미리 세운 계획은 be going to예요."],
-["or","나중에 전화할게요","I'll call you later","calling","will 뒤에는 동사원형이 와요."],
-["or","저는 커피로 할게요","I'll have a coffee","the coffees","주문하는 한 잔이라 관사 a예요."],
-["or","제가 문 열게요","I'll open the door","a doors","여기 있는 그 문이라 관사 the예요."],
-["fi","I __ call you tomorrow.","내일 전화할게요","will","am|going|do","약속은 will로 말해요."],
-["fi","I __ forget.","안 잊을게요","won't|will not","don't|not|willn't","will의 부정은 won't예요."],
-["fi","__ you help me?","도와줄래요?","Will|Can|Could|Would","Do|Are|Is","부탁할 때는 Will you ~?를 써요."],
-["ty","도와줄게요","I'll help you|I'll help","I'll · help · you","helping","will 뒤에는 동사원형이 와요."],
-["ty","저는 샐러드로 할게요","I'll have a salad|I'll have the salad","I'll have · salad — 관사 주의","salads","하나를 주문하니까 관사 a(메뉴의 그것이면 the)를 붙여요."],
-["ty","제가 문 닫을게요","I'll close the door|I'll get the door","I'll · close · door — 관사 the","a","여기 있는 그 문이라 관사 the예요."]]},
-{ id:"perfect", title:"현재완료: 해 본 적 있어요", blurb:"have + 과거분사로 경험을 말해요. 언제인지 말하면 과거형.", deck:"여행(공항·호텔)", body:`
-<p><b>have + 과거분사(p.p.)</b>는 '지금까지 살면서 ~해 본 적이 있다'는 뜻이에요. <b>언제</b>인지는 말하지 않아요.</p>
-{{ex:I've been to Japan.|아이브 빈 투 저팬|일본에 가 본 적 있어요}}{{ex:She has visited Korea twice.|쉬 해즈 비지티드 코리아 트와이스|그녀는 한국에 두 번 와 봤어요}}
-<h3>ever 와 never</h3>
-{{ex:Have you ever eaten kimchi?|해뷰 에버 이튼 김치?|김치 먹어 본 적 있어요?}}{{ex:I've never seen it.|아이브 네버 씬 잇|그건 본 적 없어요}}
-<p>대답은 <b>Yes, I have.</b> / <b>No, I haven't.</b>예요.</p>
-<h3>자주 쓰는 과거분사</h3>
-<div class="tbl"><table><tr><th>원형</th><th>과거</th><th>과거분사</th></tr><tr><td class="k">be</td><td class="k">was</td><td class="k">been</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">eaten</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">seen</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">done</td></tr><tr><td class="k">try</td><td class="k">tried</td><td class="k">tried</td></tr></table></div>
-<h3>언제인지 말하면 과거형</h3>
-<p>last year, yesterday, in 2020처럼 시점이 있으면 현재완료를 쓰지 않아요.</p>
-{{ex:I went to Japan last year.|아이 웬 투 저팬 래스트 이어|작년에 일본에 갔어요}}
-<div class="tip">가장 흔한 실수: <b>I've been to Japan last year.</b> (X) → <b>I went to Japan last year.</b> (O)</div>`,
-check:[["'일본에 가 본 적 있어요?'를 영어로 하면?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"경험은 Have you ever + 과거분사예요."],["I ___ never seen that movie. 빈칸에 알맞은 것은?",["am","did","have","was"],2,"have + never + 과거분사예요."],["다음 중 알맞은 문장은?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"last year처럼 시점이 있으면 과거형이에요."]],
+["mc","“我来帮你”=","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","will 后面接动词原形。"],
+["mc","在餐厅当场决定：“我要意大利面”=","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","当场决定的事用 will。"],
+["mc","“我不会迟到的”=","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","will not 缩写成 won't。"],
+["mc","“你会来吗？”=","Will you come?","Do you will come?","Will you coming?","Will come you?","Will + 主语 + 动词原形。"],
+["mc","哪一句说的是事先定好的计划？","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","事先定好的计划用 be going to。"],
+["or","我晚点给你打电话","I'll call you later","calling","will 后面接动词原形。"],
+["or","我要一杯咖啡","I'll have a coffee","the coffees","点的是一杯，用冠词 a。"],
+["or","我去开门","I'll open the door","a doors","就是这扇门，用冠词 the。"],
+["fi","I __ call you tomorrow.","我明天给你打电话","will","am|going|do","承诺用 will。"],
+["fi","I __ forget.","我不会忘的","won't|will not","don't|not|willn't","will 的否定是 won't。"],
+["fi","__ you help me?","你能帮我一下吗？","Will|Can|Could|Would","Do|Are|Is","请别人帮忙可以说 Will you …?"],
+["ty","我来帮你","I'll help you|I'll help","I'll · help · you","helping","will 后面接动词原形。"],
+["ty","我要一份沙拉（用 will）","I'll have a salad|I'll have the salad","I'll have · salad — 注意冠词","salads","点一份，加冠词 a（指菜单上那道菜也可以用 the）。"],
+["ty","我去关门（用 will）","I'll close the door|I'll get the door","I'll · close · door — 冠词 the","a","就是这扇门，用冠词 the。"]]},
+{ id:"perfect", title:"现在完成时：做过某事", blurb:"have + 过去分词，表达经历。说出具体时间就用一般过去时。", deck:"旅行（机场与酒店）", body:`
+<p><b>have + 过去分词</b>表示“到现在为止，做过某事”，相当于中文的“过”：我去过北京 → I've been to Beijing. 这种用法<b>不说具体什么时候</b>。</p>
+{{ex:I've been to Beijing.|/aɪv bɪn tə ˌbeɪˈdʒɪŋ/|我去过北京}}{{ex:She has visited China twice.|/ʃi həz ˈvɪzɪtɪd ˈtʃaɪnə ˈtwaɪs/|她来过中国两次}}
+<h3>ever 和 never</h3>
+{{ex:Have you ever eaten Peking duck?|/həv ju ˈevər ˈiːtn ˈpiːkɪŋ ˈdʌk/|你吃过北京烤鸭吗？}}{{ex:I've never seen it.|/aɪv ˈnevər ˈsiːn ɪt/|我从没看过}}
+<p>回答用 <b>Yes, I have.</b> / <b>No, I haven't.</b></p>
+<h3>常用的过去分词</h3>
+<div class="tbl"><table><tr><th>原形</th><th>过去式</th><th>过去分词</th></tr><tr><td class="k">be</td><td class="k">was</td><td class="k">been</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">eaten</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">seen</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">done</td></tr><tr><td class="k">try</td><td class="k">tried</td><td class="k">tried</td></tr></table></div>
+<h3>been to 和 gone to</h3>
+<p><b>been to</b> 是“去过（已经回来了）”，<b>gone to</b> 是“去了（人还在那边）”。</p>
+{{ex:She's gone to Shanghai.|/ʃiz ˈgɔːn tə ˌʃæŋˈhaɪ/|她去上海了（现在不在这儿）}}
+<h3>说出具体时间就用一般过去时</h3>
+<p>有 last year、yesterday、in 2020 这样的时间点，就不能用现在完成时。“了”也不等于现在完成时：“我去年去了日本”有具体时间，要用一般过去时。</p>
+{{ex:I went to Japan last year.|/aɪ ˈwent tə dʒəˈpæn ˈlæst ˈjɪr/|我去年去了日本}}
+<div class="tip">最常见的错误：<b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓</div>`,
+check:[["“你去过日本吗？”用英语怎么说？",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"问经历用 Have you ever + 过去分词。"],["I ___ never seen that movie. 空格处应填什么？",["am","did","have","was"],2,"have + never + 过去分词。"],["下面哪一句是正确的？",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"有 last year 这样的时间点，用一般过去时。"]],
 practice:[
-["mc","'저는 일본에 가 본 적 있어요' =","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","have + 과거분사 been이에요."],
-["mc","see의 과거분사는?","seen","saw","seed","seeing","see – saw – seen이에요."],
-["mc","'김치 먹어 본 적 있어요?' =","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","Have you ever + 과거분사예요."],
-["mc","'저는 그걸 본 적 없어요' =","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","have + never + 과거분사예요."],
-["mc","'작년에'가 있을 때 알맞은 문장은?","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","시점이 있으면 과거형이에요."],
-["or","저는 그 영화를 본 적 있어요","I've seen the movie","a saw","서로 아는 그 영화라서 관사 the예요."],
-["or","한국에 두 번 가 봤어요","I've been to Korea twice","went","have 뒤에는 과거분사 been이 와요."],
-["or","저는 뱀을 본 적 없어요","I've never seen a snake","the snakes","아무 뱀 한 마리를 말하니까 관사 a예요."],
-["fi","Have you ever __ to Busan?","부산에 가 본 적 있어요?","been","be|went|go","have 뒤에는 과거분사 been이에요."],
-["fi","I've __ eaten that.","그건 먹어 본 적 없어요","never","ever|no|not never","'한 번도 없다'는 never예요."],
-["fi","She __ visited Korea twice.","그녀는 한국에 두 번 와 봤어요","has","have|is|did","she에는 has예요."],
-["ty","일본에 가 본 적 있어요?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","경험은 Have you ever been to ~?로 물어요."],
-["ty","저는 그 책을 읽어 봤어요","I've read the book|I've read that book","I've · read · book — 관사 the","a","서로 아는 그 책이라서 관사 the예요."],
-["ty","저는 고양이를 키워 본 적 없어요","I've never had a cat","never · had · cat — 관사 a","the","아무 고양이 한 마리라서 관사 a예요."]]},
-{ id:"modals", title:"have to, must, should, might: 의무와 조언", blurb:"해야 해요, 하는 게 좋아요, 할지도 몰라요.", deck:"병원·긴급", body:`
-<p>의무, 조언, 가능성을 말하는 네 가지예요. 모두 뒤에 <b>동사원형</b>이 와요.</p>
-<h3>have to: 해야 해요</h3>
-<p>일상에서 가장 많이 써요. she, he에는 <b>has to</b>예요.</p>
-{{ex:I have to work tomorrow.|아이 해브 투 워크 투마로우|내일 일해야 해요}}{{ex:She has to go now.|쉬 해즈 투 고 나우|그녀는 지금 가야 해요}}
-<h3>don't have to 와 must not 은 달라요</h3>
-<div class="tbl"><table><tr><th>표현</th><th>뜻</th></tr><tr><td class="k">You don't have to come.</td><td>안 와도 돼요 (필요 없음)</td></tr><tr><td class="k">You must not smoke here.</td><td>여기서 피우면 안 돼요 (금지)</td></tr></table></div>
-<h3>should: 하는 게 좋아요</h3>
-{{ex:You should see a doctor.|유 슈드 씨 어 닥터|병원에 가 보는 게 좋겠어요}}{{ex:You shouldn't worry.|유 슈든트 워리|걱정하지 않는 게 좋아요}}
-<h3>might: 할지도 몰라요</h3>
-{{ex:It might rain.|잇 마잇 레인|비가 올지도 몰라요}}{{ex:I might be late.|아이 마잇 비 레이트|늦을지도 몰라요}}
-<div class="tip">가장 흔한 실수: <b>You should to go.</b>, <b>It might rains.</b> (X) → <b>You should go.</b>, <b>It might rain.</b> (O)</div>`,
-check:[["'안 와도 돼요'를 영어로 하면?",["You must not come.","You don't have to come.","You shouldn't to come.","You haven't to come."],1,"'필요 없다'는 don't have to예요."],["조언할 때: You ___ see a doctor.",["might","have","should","must to"],2,"조언은 should + 동사원형이에요."],["She ___ to work today. 빈칸에 알맞은 것은?",["have","must","should","has"],3,"she에는 has to예요."]],
+["mc","“我去过日本”=","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","have + 过去分词 been。"],
+["mc","see 的过去分词是？","seen","saw","seed","seeing","see 的三种形式是 see – saw – seen。"],
+["mc","“你吃过泡菜吗？”=","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","问经历用 Have you ever + 过去分词。"],
+["mc","“我从没看过它”=","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","have + never + 过去分词。"],
+["mc","有“去年”时，正确的句子是？","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","有具体时间点，用一般过去时。"],
+["or","那部电影我看过","I've seen the movie","a saw","指双方都知道的那部电影，用冠词 the。"],
+["or","我去过韩国两次","I've been to Korea twice","went","have 后面接过去分词 been。"],
+["or","我从没见过蛇","I've never seen a snake","the snakes","不是特指哪条蛇，用冠词 a。"],
+["fi","Have you ever __ to Busan?","你去过釜山吗？","been","be|went|go","have 后面接过去分词 been。"],
+["fi","I've __ eaten that.","那个我从没吃过","never","ever|no|not never","“从来没有”用 never。"],
+["fi","She __ visited Korea twice.","她来过韩国两次","has","have|is|did","主语 she 用 has。"],
+["ty","你去过日本吗？","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","问经历用 Have you ever been to …?"],
+["ty","那本书我读过","I've read the book|I've read that book","I've · read · book — 冠词 the","a","指双方都知道的那本书，用冠词 the。"],
+["ty","我从没养过猫（用 have）","I've never had a cat","never · had · cat — 冠词 a","the","不是特指哪只猫，用冠词 a。"]]},
+{ id:"modals", title:"have to、must、should、might：义务和建议", blurb:"必须做、最好做、可能会做。", deck:"医院与紧急情况", body:`
+<p>这四个词分别表达义务、建议和可能性，后面都接<b>动词原形</b>。大致对应中文的“得 / 必须”“应该 / 最好”“可能”。</p>
+<h3>have to：得、必须</h3>
+<p>日常最常用。主语是 he / she 时用 <b>has to</b>（第三人称单数）。</p>
+{{ex:I have to work tomorrow.|/aɪ ˈhæf tə ˈwɜːrk təˈmɑːroʊ/|我明天得上班}}{{ex:She has to go now.|/ʃi ˈhæs tə ˈgoʊ ˈnaʊ/|她现在得走了}}
+<h3>don't have to 和 must not 不一样</h3>
+<div class="tbl"><table><tr><th>表达</th><th>意思</th></tr><tr><td class="k">You don't have to come.</td><td>你不用来（没必要）</td></tr><tr><td class="k">You must not smoke here.</td><td>这里禁止吸烟（不允许）</td></tr></table></div>
+<h3>should：应该、最好</h3>
+{{ex:You should see a doctor.|/ju ʃəd ˈsiː ə ˈdɑːktər/|你应该去看看医生}}{{ex:You shouldn't worry.|/ju ˈʃʊdnt ˈwɜːri/|你别担心了}}
+<h3>might：可能、也许</h3>
+{{ex:It might rain.|/ɪt maɪt ˈreɪn/|可能会下雨}}{{ex:I might be late.|/aɪ maɪt bi ˈleɪt/|我可能会晚到}}
+<p>“可能会下雨”里的“会”不用再翻成 will，说 It might rain. 就够了。另外，must 多表示说话人自己认为必须，have to 多表示外部规定或客观需要；中文的“会 / 能 / 可以”也不能一一对应，要按意思选 can、be able to 或 may。</p>
+<div class="tip">最常见的错误：<b>You should to go.</b>、<b>It might rains.</b> ✗ → <b>You should go.</b>、<b>It might rain.</b> ✓</div>`,
+check:[["“你不用来”用英语怎么说？",["You must not come.","You don't have to come.","You shouldn't to come.","You haven't to come."],1,"“没必要”用 don't have to。"],["给建议时：You ___ see a doctor.",["might","have","should","must to"],2,"建议用 should + 动词原形。"],["She ___ to work today. 空格处应填什么？",["have","must","should","has"],3,"主语 she 用 has to。"]],
 practice:[
-["mc","'저는 내일 일해야 해요' =","I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow.","have to + 동사원형이에요."],
-["mc","'안 와도 돼요' =","You don't have to come.","You must not come.","You don't must come.","You haven't come to.","'필요 없다'는 don't have to예요."],
-["mc","'병원에 가 보는 게 좋겠어요' =","You should see a doctor.","You should to see a doctor.","You should seeing a doctor.","You might a doctor see.","should + 동사원형, 의사 한 명이라 관사 a예요."],
-["mc","'비가 올지도 몰라요' =","It might rain.","It might rains.","It might to rain.","It mights rain.","might + 동사원형이에요."],
-["mc","'여기서 담배 피우면 안 돼요' =","You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here.","금지는 must not이에요."],
-["or","병원에 가 보세요","You should see a doctor","the doctors","아무 의사 한 명이라 관사 a예요."],
-["or","저는 지금 가야 해요","I have to go now","going","have to 뒤에는 동사원형이 와요."],
-["or","표를 사야 해요","You have to buy a ticket","the tickets","표 한 장이라 관사 a와 단수 ticket이에요."],
-["fi","She __ to study tonight.","그녀는 오늘 밤 공부해야 해요","has","have|must|should","she에는 has to예요."],
-["fi","You __ have to pay.","돈 안 내도 돼요","don't|do not","must not|not|aren't","'필요 없다'는 don't have to예요."],
-["fi","It __ rain tomorrow.","내일 비가 올지도 몰라요","might|may|could","must to|has to|should to","가능성은 might예요."],
-["ty","저는 일해야 해요","I have to work|I must work|I need to work","have to · work","should","의무는 have to예요."],
-["ty","병원에 가 보세요","You should see a doctor|You should go to a doctor","should · see · doctor — 관사 a","the","아무 의사 한 명이라 관사 a예요."],
-["ty","표를 사야 해요","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — 관사 a","the","표 한 장이라 관사 a예요."]]},
-{ id:"to-ing", title:"동사 뒤 to와 -ing: want to, enjoy -ing", blurb:"want 뒤는 to, enjoy 뒤는 -ing. 동사마다 정해져 있어요.", deck:"스몰토크", body:`
-<p>동사 두 개를 이어 쓸 때, 앞 동사에 따라 뒤가 <b>to + 동사</b>인지 <b>동사-ing</b>인지 정해져 있어요. 자주 쓰는 것부터 묶어서 외워요.</p>
-<div class="tbl"><table><tr><th>뒤에 to</th><th>뒤에 -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
-<h3>to + 동사: 앞으로 할 일</h3>
-{{ex:I want to go home.|아이 원투 고 홈|집에 가고 싶어요}}{{ex:I need to study.|아이 니투 스터디|공부해야 해요}}{{ex:I'd like to order.|아이드 라익 투 오더|주문하고 싶어요}}{{ex:I decided to learn English.|아이 디사이디드 투 런 잉글리시|영어를 배우기로 했어요}}
-<h3>-ing: 하고 있는 일, 즐기는 일</h3>
-{{ex:I enjoy cooking.|아이 인조이 쿠킹|요리하는 걸 즐겨요}}{{ex:I finished working.|아이 피니쉬트 워킹|일 끝났어요}}{{ex:I don't mind waiting.|아이 돈 마인드 웨이링|기다려도 괜찮아요}}
-<h3>둘 다 되는 동사</h3>
-<p>like, love, start는 to와 -ing 둘 다 쓸 수 있어요.</p>
-<div class="tip">가장 흔한 실수: <b>I want go.</b>, <b>I enjoy to cook.</b> (X) → <b>I want to go.</b>, <b>I enjoy cooking.</b> (O)</div>`,
-check:[["I want ___ home. 빈칸에 알맞은 것은?",["go","going","to go","to going"],2,"want 뒤에는 to + 동사가 와요."],["I enjoy ___ movies. 빈칸에 알맞은 것은?",["watching","to watch","watch","to watching"],0,"enjoy 뒤에는 -ing가 와요."],["'주문하고 싶어요'를 영어로 하면?",["I'd like order.","I'd like ordering.","I like to ordering.","I'd like to order."],3,"would like 뒤에는 to + 동사가 와요."]],
+["mc","“我明天得上班”=","I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow.","have to + 动词原形。"],
+["mc","“你不用来”=","You don't have to come.","You must not come.","You don't must come.","You haven't come to.","“没必要”用 don't have to。"],
+["mc","“你应该去看看医生”=","You should see a doctor.","You should to see a doctor.","You should seeing a doctor.","You might a doctor see.","should + 动词原形；医生是一位，用冠词 a。"],
+["mc","“可能会下雨”=","It might rain.","It might rains.","It might to rain.","It mights rain.","might + 动词原形。"],
+["mc","“这里禁止吸烟”=","You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here.","禁止用 must not。"],
+["or","你应该去看看医生","You should see a doctor","the doctors","不是特指哪位医生，用冠词 a。"],
+["or","我现在得走了","I have to go now","going","have to 后面接动词原形。"],
+["or","你得买一张票","You have to buy a ticket","the tickets","一张票，用冠词 a 和单数 ticket。"],
+["fi","She __ to study tonight.","她今晚得学习","has","have|must|should","主语 she 用 has to（第三人称单数）。"],
+["fi","You __ have to pay.","你不用付钱","don't|do not","must not|not|aren't","“没必要”用 don't have to。"],
+["fi","It __ rain tomorrow.","明天可能会下雨","might|may|could","must to|has to|should to","可能性用 might。"],
+["ty","我得上班","I have to work|I must work|I need to work","have to · work","should","义务用 have to。"],
+["ty","你应该去看看医生","You should see a doctor|You should go to a doctor","should · see · doctor — 冠词 a","the","不是特指哪位医生，用冠词 a。"],
+["ty","得买一张票","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — 冠词 a","the","一张票，用冠词 a。"]]},
+{ id:"to-ing", title:"动词后接 to 还是 -ing：want to、enjoy -ing", blurb:"want 后面接 to，enjoy 后面接 -ing，由前面的动词决定。", deck:"闲聊", body:`
+<p>中文“我想去”“我喜欢做饭”，两个动词可以直接连在一起，英语不行：<b>I want go.</b> ✗ 第二个动词要么用 <b>to + 动词原形</b>（动词不定式），要么用 <b>-ing</b>（动名词），由前面的动词决定。常用的成组记。</p>
+<div class="tbl"><table><tr><th>后接 to</th><th>后接 -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
+<h3>to + 动词：打算做的事</h3>
+{{ex:I want to go home.|/aɪ ˈwɑːnt tə ˈgoʊ ˈhoʊm/|我想回家}}{{ex:I need to study.|/aɪ ˈniːd tə ˈstʌdi/|我得学习}}{{ex:I'd like to order.|/aɪd ˈlaɪk tu ˈɔːrdər/|我想点餐}}{{ex:I decided to learn English.|/aɪ dɪˈsaɪdɪd tə ˈlɜːrn ˈɪŋglɪʃ/|我决定学英语}}
+<h3>-ing：enjoy、finish、mind 等动词后面</h3>
+{{ex:I enjoy cooking.|/aɪ ɪnˈdʒɔɪ ˈkʊkɪŋ/|我喜欢做饭}}{{ex:I finished working.|/aɪ ˈfɪnɪʃt ˈwɜːrkɪŋ/|我工作做完了}}{{ex:I don't mind waiting.|/aɪ ˈdoʊnt ˈmaɪnd ˈweɪtɪŋ/|我不介意等}}
+<h3>两种都可以的动词</h3>
+<p>like、love、start 后面接 to 或 -ing 都可以。</p>
+<div class="tip">最常见的错误：<b>I want go.</b>、<b>I enjoy to cook.</b> ✗ → <b>I want to go.</b>、<b>I enjoy cooking.</b> ✓</div>`,
+check:[["I want ___ home. 空格处应填什么？",["go","going","to go","to going"],2,"want 后面接 to + 动词原形。"],["I enjoy ___ movies. 空格处应填什么？",["watching","to watch","watch","to watching"],0,"enjoy 后面接 -ing 形式。"],["“我想点餐”用英语怎么说？",["I'd like order.","I'd like ordering.","I like to ordering.","I'd like to order."],3,"would like 后面接 to + 动词原形。"]],
 practice:[
-["mc","I need ___ now.","to go","going","go","to going","need 뒤에는 to + 동사예요."],
-["mc","I enjoy ___.","cooking","to cook","cook","to cooking","enjoy 뒤에는 -ing예요."],
-["mc","'주문하고 싶어요' =","I'd like to order.","I'd like order.","I'd like ordering.","I like order to.","would like 뒤에는 to + 동사예요."],
-["mc","'일 끝났어요' =","I finished working.","I finished to work.","I finished work to.","I finish worked.","finish 뒤에는 -ing예요."],
-["mc","'기다려도 괜찮아요' =","I don't mind waiting.","I don't mind to wait.","I don't mind wait.","I'm not mind waiting.","mind 뒤에는 -ing예요."],
-["or","저는 차를 사고 싶어요","I want to buy a car","the buying","want 뒤는 to, 차 한 대라서 관사 a예요."],
-["or","저는 영화 보는 걸 즐겨요","I enjoy watching movies","movie watch","enjoy 뒤는 -ing, 영화 전체는 복수 movies예요."],
-["or","저는 쉬어야 해요","I need to rest","resting","need 뒤에는 to + 동사예요."],
-["fi","I want __ a coffee.","커피 한 잔 마시고 싶어요","to have|to drink|to get","have|having|drinking","want 뒤에는 to + 동사예요."],
-["fi","She enjoys __.","그녀는 수영을 즐겨요","swimming","to swim|swim|swims","enjoy 뒤에는 -ing예요."],
-["fi","I decided __ English.","영어를 공부하기로 했어요","to study|to learn","study|studying|studied","decide 뒤에는 to + 동사예요."],
-["ty","저는 집에 가고 싶어요","I want to go home","want to · go · home — 관사 없이","the","want 뒤에는 to가 오고, home 앞에는 관사를 쓰지 않아요."],
-["ty","저는 책 읽는 걸 즐겨요","I enjoy reading books|I enjoy reading","enjoy · read · book — 복수","book","enjoy 뒤는 -ing, 책 전체는 복수 books예요."],
-["ty","주문하고 싶어요","I'd like to order|I want to order","I'd like · to · order","ordering","would like 뒤에는 to + 동사예요."]]},
-{ id:"articles-2", title:"the 심화: 하나뿐인 것과 관사 없는 복수", blurb:"악기에는 the, 운동에는 없음. 나라 이름과 '~라는 것 전체'까지.", deck:"여행(공항·호텔)", body:`
-<p>관사 세 번째 시간이에요. 규칙으로 정해진 경우들을 묶어서 정리해요.</p>
-<h3>the를 붙이는 경우</h3>
-<div class="tbl"><table><tr><th>경우</th><th>예</th></tr><tr><td>세상에 하나뿐인 것</td><td class="k">the sun, the internet</td></tr><tr><td>악기</td><td class="k">play the piano</td></tr><tr><td>강·바다</td><td class="k">the Han River, the Pacific</td></tr><tr><td>복수형·연합 나라 이름</td><td class="k">the United States, the Philippines</td></tr></table></div>
-{{ex:I play the piano.|아이 플레이 더 피애노|저는 피아노를 쳐요}}{{ex:She's from the United States.|쉬즈 프럼 더 유나이티드 스테이츠|그녀는 미국에서 왔어요}}{{ex:I found it on the internet.|아이 파운딧 온 디 이너넷|인터넷에서 찾았어요}}
-<h3>관사를 안 붙이는 경우</h3>
-<div class="tbl"><table><tr><th>경우</th><th>예</th></tr><tr><td>대부분의 나라·도시</td><td class="k">Korea, Seoul</td></tr><tr><td>운동·언어·식사</td><td class="k">play soccer, speak English, have lunch</td></tr><tr><td>'~라는 것 전체'</td><td class="k">Dogs are cute. I love music.</td></tr></table></div>
-{{ex:I live in Korea.|아이 리브 인 코리아|저는 한국에 살아요}}{{ex:I play soccer.|아이 플레이 사커|저는 축구를 해요}}{{ex:Dogs are cute.|독즈 아 큐트|개는 귀여워요}}
-<h3>전체와 특정한 것</h3>
-{{ex:I like dogs.|아이 라익 독즈|저는 개를 좋아해요 (개 전체)}}{{ex:The dogs in this park are cute.|더 독즈 인 디스 파크 아 큐트|이 공원의 개들은 귀여워요 (그 개들)}}
-<div class="tip">'전체'를 말할 때는 the 없이 복수로: <b>I like the dogs.</b>는 "그 개들을 좋아해요"라는 뜻이 돼요.</div>`,
-check:[["I play ___ soccer. 빈칸에 알맞은 것은?",["a","the","an","(없음)"],3,"운동 이름에는 관사를 쓰지 않아요."],["She's from ___ United States. 빈칸에 알맞은 것은?",["the","a","an","(없음)"],0,"United States 앞에는 the를 붙여요."],["'개는 귀여워요' (개 전체)를 영어로 하면?",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"전체를 말할 때는 관사 없이 복수예요."]],
+["mc","I need ___ now.","to go","going","go","to going","need 后面接 to + 动词原形。"],
+["mc","I enjoy ___.","cooking","to cook","cook","to cooking","enjoy 后面接 -ing 形式。"],
+["mc","“我想点餐”=","I'd like to order.","I'd like order.","I'd like ordering.","I like order to.","would like 后面接 to + 动词原形。"],
+["mc","“我工作做完了”=","I finished working.","I finished to work.","I finished work to.","I finish worked.","finish 后面接 -ing 形式。"],
+["mc","“我不介意等”=","I don't mind waiting.","I don't mind to wait.","I don't mind wait.","I'm not mind waiting.","mind 后面接 -ing 形式。"],
+["or","我想买一辆车","I want to buy a car","the buying","want 后面接 to；一辆车，用冠词 a。"],
+["or","我喜欢看电影","I enjoy watching movies","movie watch","enjoy 后面接 -ing；泛指电影，用复数 movies。"],
+["or","我得休息一下","I need to rest","resting","need 后面接 to + 动词原形。"],
+["fi","I want __ a coffee.","我想喝杯咖啡","to have|to drink|to get","have|having|drinking","want 后面接 to + 动词原形。"],
+["fi","She enjoys __.","她喜欢游泳","swimming","to swim|swim|swims","enjoy 后面接 -ing 形式。"],
+["fi","I decided __ English.","我决定学英语","to study|to learn","study|studying|studied","decide 后面接 to + 动词原形。"],
+["ty","我想回家","I want to go home","want to · go · home — 不加冠词","the","want 后面接 to；home 前面不加冠词。"],
+["ty","我喜欢看书（用 enjoy）","I enjoy reading books|I enjoy reading","enjoy · read · book — 复数","book","enjoy 后面接 -ing；泛指书，用复数 books。"],
+["ty","我想点餐","I'd like to order|I want to order","I'd like · to · order","ordering","would like 后面接 to + 动词原形。"]]},
+{ id:"articles-2", title:"冠词进阶：独一无二的 the 和不加冠词的泛指", blurb:"乐器前加 the，运动前不加。还有国名和“泛指一类事物”。", deck:"旅行（机场与酒店）", body:`
+<p>冠词第三课。中文没有冠词，很多同学怕漏掉，干脆“保险起见”加个 the。其实中国学生的冠词错误里，最常见的就是<b>多余的 the</b>。这一课把有固定规则的情况归纳一下：哪些要加 the，哪些一定不加。</p>
+<h3>要加 the 的情况</h3>
+<div class="tbl"><table><tr><th>情况</th><th>例子</th></tr><tr><td>世界上独一无二的事物</td><td class="k">the sun, the internet</td></tr><tr><td>乐器</td><td class="k">play the piano</td></tr><tr><td>江河、海洋</td><td class="k">the Yangtze River, the Pacific</td></tr><tr><td>复数形式或联合体的国名</td><td class="k">the United States, the Philippines</td></tr></table></div>
+{{ex:I play the piano.|/aɪ ˈpleɪ ðə piˈænoʊ/|我弹钢琴}}{{ex:She's from the United States.|/ʃiz frəm ðə juˈnaɪtɪd ˈsteɪts/|她来自美国}}{{ex:I found it on the internet.|/aɪ ˈfaʊnd ɪt ɑːn ði ˈɪntərnet/|我是在网上找到的}}
+<h3>不加冠词的情况</h3>
+<div class="tbl"><table><tr><th>情况</th><th>例子</th></tr><tr><td>大多数国家和城市</td><td class="k">China, Beijing</td></tr><tr><td>运动、语言、三餐</td><td class="k">play soccer, speak English, have lunch</td></tr><tr><td>泛指一类事物</td><td class="k">Dogs are cute. Coffee is expensive.</td></tr></table></div>
+{{ex:I live in China.|/aɪ ˈlɪv ɪn ˈtʃaɪnə/|我住在中国}}{{ex:I play soccer.|/aɪ ˈpleɪ ˈsɑːkər/|我踢足球}}{{ex:Dogs are cute.|/ˈdɔːgz ər ˈkjuːt/|狗很可爱}}{{ex:Coffee is expensive.|/ˈkɔːfi ɪz ɪkˈspensɪv/|咖啡很贵（泛指）}}
+<h3>泛指和特指</h3>
+<p>中文“狗很可爱”“我喜欢音乐”，名词前什么都不加。英语泛指时也一样：可数名词用复数，不可数名词直接用，<b>都不加 the</b>。</p>
+{{ex:I like dogs.|/aɪ ˈlaɪk ˈdɔːgz/|我喜欢狗（泛指所有的狗）}}{{ex:The dogs in this park are cute.|/ðə ˈdɔːgz ɪn ˈðɪs ˈpɑːrk ər ˈkjuːt/|这个公园里的狗很可爱（特指）}}
+<div class="tip">泛指时不加 the：<b>I like the dogs.</b> 的意思是“我喜欢那些狗”。同样，<b>The music is my life.</b> ✗ → <b>Music is my life.</b> ✓</div>`,
+check:[["I play ___ soccer. 空格处应填什么？",["a","the","an","（不填）"],3,"运动名称前不加冠词。"],["She's from ___ United States. 空格处应填什么？",["the","a","an","（不填）"],0,"United States 前面要加 the。"],["“狗很可爱”（泛指）用英语怎么说？",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"泛指时不加冠词，用复数。"]],
 practice:[
-["mc","I play ___ piano.","the","a","an","some","악기 앞에는 the를 붙여요."],
-["mc","'저는 한국에 살아요' =","I live in Korea.","I live in the Korea.","I live in a Korea.","I live Korea in.","대부분의 나라 이름에는 관사가 없어요."],
-["mc","'저는 축구를 해요' =","I play soccer.","I play the soccer.","I play a soccer.","I play soccers.","운동 이름에는 관사가 없어요."],
-["mc","'고양이는 귀여워요' (고양이 전체) =","Cats are cute.","The cat are cute.","A cats are cute.","Cat is cute.","전체를 말할 때는 관사 없이 복수예요."],
-["mc","She's from ___ United States.","the","a","an","some","United States 앞에는 the를 붙여요."],
-["or","저는 피아노를 쳐요","I play the piano","a pianos","악기 앞에는 관사 the를 붙여요."],
-["or","개는 귀여워요","Dogs are cute","The dog","개 전체를 말할 때는 관사 없이 복수 dogs예요."],
-["or","저는 인터넷에서 찾았어요","I found it on the internet","a","하나뿐인 internet에는 관사 the를 붙여요."],
-["fi","I speak __.","저는 영어를 해요","English","the English|an English|a English","언어 이름에는 관사가 없어요."],
-["fi","The sun rises in __ east.","해는 동쪽에서 떠요","the","a|an|some","방위 앞에는 the를 붙여요."],
-["fi","I love __.","저는 음악을 정말 좋아해요","music","the musics|a music|musics","'음악 전체'는 관사 없이, 셀 수 없어서 -s도 없어요."],
-["ty","저는 미국에서 왔어요","I'm from the United States|I'm from the US|I'm from America","I'm from · United States — 관사 the","a","United States 앞에는 관사 the를 붙여요."],
-["ty","저는 기타를 쳐요","I play the guitar|I play guitar","play · guitar — 관사 the","a","악기 앞에는 관사 the를 붙여요."],
-["ty","고양이는 귀여워요","Cats are cute","cat — 관사 없이 복수","The cat","전체를 말할 때는 관사 없이 복수 cats예요."]]},
-{ id:"first-conditional", title:"조건문 1: If + 현재, will", blurb:"'~하면 ~할 거예요'. if 뒤에는 will을 쓰지 않아요.", deck:"직장·이메일", body:`
-<p>실제로 일어날 수 있는 일을 말해요. <b>If + 현재형, will + 동사</b>예요. 뜻은 미래여도 if 쪽은 <b>현재형</b>으로 써요.</p>
-{{ex:If it rains, I'll stay home.|이프 잇 레인즈 아일 스테이 홈|비가 오면 집에 있을게요}}{{ex:If you don't hurry, you'll miss the bus.|이퓨 돈 허리 유일 미스 더 버스|서두르지 않으면 버스를 놓칠 거예요}}
-<h3>순서를 바꿔도 돼요</h3>
-<p>if를 뒤로 보내면 쉼표가 없어져요.</p>
-{{ex:I'll help you if I have time.|아일 헬퓨 이프 아이 해브 타임|시간 있으면 도와줄게요}}
-<h3>명령문과 함께</h3>
-{{ex:If you're late, call me.|이퓨어 레이트 콜 미|늦으면 전화해요}}{{ex:If you need help, let me know.|이퓨 니드 헬프 렛 미 노우|도움이 필요하면 알려 줘요}}
-<h3>when: ~하면 (확실한 일)</h3>
-<p>일어날 것이 확실하면 if 대신 when이에요. 여기에도 will을 쓰지 않아요.</p>
-{{ex:When I get home, I'll call you.|웬 아이 겟 홈 아일 콜 유|집에 도착하면 전화할게요}}
-<div class="tip">가장 흔한 실수: <b>If it will rain, …</b> (X) → <b>If it rains, …</b> (O)</div>`,
-check:[["If it ___ tomorrow, I'll stay home. 빈칸에 알맞은 것은?",["will rain","rains","rained","raining"],1,"if 뒤에는 현재형을 써요."],["If you study, you ___ pass. 빈칸에 알맞은 것은?",["pass will","passing","will pass","passed"],2,"결과 쪽은 will + 동사원형이에요."],["다음 중 알맞은 문장은?",["If I have time, I'll call you.","If I will have time, I call you.","If I'll have time, I'll call you.","If I have time, I calling you."],0,"if 쪽은 현재형, 결과 쪽은 will이에요."]],
+["mc","I play ___ piano.","the","a","an","some","乐器前加 the。"],
+["mc","“我住在韩国”=","I live in Korea.","I live in the Korea.","I live in a Korea.","I live Korea in.","大多数国名前不加冠词。"],
+["mc","“我踢足球”=","I play soccer.","I play the soccer.","I play a soccer.","I play soccers.","运动名称前不加冠词。"],
+["mc","“猫很可爱”（泛指）=","Cats are cute.","The cat are cute.","A cats are cute.","Cat is cute.","泛指时不加冠词，用复数。"],
+["mc","She's from ___ United States.","the","a","an","some","United States 前面要加 the。"],
+["or","我弹钢琴","I play the piano","a pianos","乐器前要加冠词 the。"],
+["or","狗很可爱（泛指）","Dogs are cute","The dog","泛指狗这种动物，不加冠词，用复数 dogs。"],
+["or","我是在网上找到的","I found it on the internet","a","internet 是独一无二的，要加冠词 the。"],
+["fi","I speak __.","我会说英语","English","the English|an English|a English","语言名称前不加冠词。"],
+["fi","The sun rises in __ east.","太阳从东方升起","the","a|an|some","方位词前加 the。"],
+["fi","I love __.","我很喜欢音乐","music","the musics|a music|musics","泛指音乐，不加冠词；music 不可数，也没有 -s。"],
+["ty","我来自美国","I'm from the United States|I'm from the US|I'm from America","I'm from · United States — 冠词 the","a","United States 前面要加冠词 the。"],
+["ty","我弹吉他","I play the guitar|I play guitar","play · guitar — 冠词 the","a","乐器前要加冠词 the。"],
+["ty","猫很可爱（泛指）","Cats are cute","cat — 不加冠词，用复数","The cat","泛指时不加冠词，用复数 cats。"]]},
+{ id:"first-conditional", title:"如果……（真实条件）：If + 一般现在时，will", blurb:"“如果……就会……”。if 后面不用 will。", deck:"工作与邮件", body:`
+<p>用来说有可能真的发生的事，结构是 <b>If + 一般现在时，will + 动词原形</b>。中文“如果明天下雨”里动词没有变化；英语 if 这一半虽然说的是将来，也要用<b>一般现在时</b>：If it rains tomorrow，不说 If it will rain tomorrow。</p>
+{{ex:If it rains, I'll stay home.|/ɪf ɪt ˈreɪnz aɪl ˈsteɪ ˈhoʊm/|如果下雨，我就待在家}}{{ex:If you don't hurry, you'll miss the bus.|/ɪf ju ˈdoʊnt ˈhɜːri jul ˈmɪs ðə ˈbʌs/|你不快点就赶不上公交车了}}
+<h3>顺序可以调换</h3>
+<p>if 放到后面时，中间不用逗号。</p>
+{{ex:I'll help you if I have time.|/aɪl ˈhelp ju ɪf aɪ ˈhæv ˈtaɪm/|我有时间就帮你}}
+<h3>和祈使句连用</h3>
+{{ex:If you're late, call me.|/ɪf jʊr ˈleɪt ˈkɔːl mi/|要是晚了，就给我打电话}}{{ex:If you need help, let me know.|/ɪf ju ˈniːd ˈhelp ˈlet mi ˈnoʊ/|需要帮忙就告诉我}}
+<h3>when：……的时候（肯定会发生）</h3>
+<p>肯定会发生的事，用 when 代替 if。when 后面同样不用 will。</p>
+{{ex:When I get home, I'll call you.|/wen aɪ ˈget ˈhoʊm aɪl ˈkɔːl ju/|我到家就给你打电话}}
+<div class="tip">最常见的错误：<b>If it will rain, …</b> ✗ → <b>If it rains, …</b> ✓</div>`,
+check:[["If it ___ tomorrow, I'll stay home. 空格处应填什么？",["will rain","rains","rained","raining"],1,"if 后面用一般现在时。"],["If you study, you ___ pass. 空格处应填什么？",["pass will","passing","will pass","passed"],2,"结果部分用 will + 动词原形。"],["下面哪一句是正确的？",["If I have time, I'll call you.","If I will have time, I call you.","If I'll have time, I'll call you.","If I have time, I calling you."],0,"if 部分用一般现在时，结果部分用 will。"]],
 practice:[
-["mc","If it ___, I'll stay home.","rains","will rain","rained","is rain","if 뒤에는 현재형을 써요."],
-["mc","If you're late, ___ me.","call","will calling","calls","to call","명령문은 동사원형으로 시작해요."],
-["mc","'시간 있으면 도와줄게요' =","I'll help you if I have time.","I help you if I'll have time.","I'll help you if I will have time.","I'll helping you if I have time.","if 뒤에는 will을 쓰지 않아요."],
-["mc","'서두르지 않으면 버스를 놓칠 거예요' =","If you don't hurry, you'll miss the bus.","If you won't hurry, you miss the bus.","If you don't hurry, you miss will the bus.","If you not hurry, you'll miss bus.","if 쪽은 현재형 부정 don't예요."],
-["mc","'집에 도착하면 전화할게요' =","When I get home, I'll call you.","When I'll get home, I call you.","When I will get home, I'll call you.","When I get the home, I call you.","when 뒤에도 현재형을 써요."],
-["or","비 오면 집에 있을게요","If it rains I'll stay home","will the","if 뒤에는 현재형을 써요. home 앞에는 관사가 없어요."],
-["or","시간 있으면 전화해요","If you have time call me","will","if 뒤에는 will을 쓰지 않아요."],
-["or","버스를 놓칠 거예요","You'll miss the bus","a buses","타려던 그 버스라서 관사 the예요."],
-["fi","If it __ tomorrow, we'll cancel.","내일 비가 오면 취소할 거예요","rains","will rain|rained|raining","if 뒤에는 현재형을 써요."],
-["fi","If you study, you __ pass.","공부하면 합격할 거예요","will|can|might","are|did|passing","결과 쪽은 will + 동사원형이에요."],
-["fi","__ you need help, call me.","도움이 필요하면 전화해요","If|When","So|But|Because","'~하면'은 if예요."],
-["ty","시간 있으면 도와줄게요","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","if 뒤에는 will을 쓰지 않아요."],
-["ty","비 오면 택시를 탈게요","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi — 관사 a","the","아무 택시 한 대라서 관사 a예요."],
-["ty","버스를 놓칠 거예요","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — 관사 the","a","타려던 그 버스라서 관사 the예요."]]},
-{ id:"relative", title:"who / that: 사람과 물건 꾸미기", blurb:"한국어는 앞에서 꾸미고, 영어는 뒤에서 꾸며요.", deck:"쇼핑·계산", body:`
-<p>한국어는 "<b>제가 산</b> 책"처럼 꾸미는 말이 앞에 와요. 영어는 명사를 먼저 말하고 <b>뒤에서</b> 설명해요: the book <b>that I bought</b>.</p>
-<h3>사람은 who</h3>
-{{ex:I have a friend who speaks Korean.|아이 해버 프렌드 후 스픽스 코리언|한국어 하는 친구가 있어요}}{{ex:the man who lives next door|더 맨 후 리브즈 넥스트 도어|옆집에 사는 남자}}
-<h3>물건은 that</h3>
-{{ex:the book that I bought|더 북 댓 아이 봇|제가 산 책}}{{ex:This is the phone that I want.|디스 이즈 더 폰 댓 아이 원트|이게 제가 원하는 휴대폰이에요}}
-<h3>that은 자주 생략해요</h3>
-<p>뒤에 '주어 + 동사'가 바로 오면 that을 빼도 돼요. 말할 때는 거의 빼요.</p>
-{{ex:The movie we saw was great.|더 무비 위 쏘 워즈 그레이트|우리가 본 영화 정말 좋았어요}}
-<h3>장소는 where</h3>
-{{ex:the cafe where we met|더 캐페이 웨어 위 멧|우리가 만난 카페}}
-<div class="tip">순서만 기억하세요: <b>명사 먼저, 설명은 뒤에.</b> "제가 산 책" → the book (that) I bought. what은 쓰지 않아요: <b>the book what I bought</b> (X)</div>`,
-check:[["I have a friend ___ lives in Busan. 빈칸에 알맞은 것은?",["which","who","what","he"],1,"사람을 꾸밀 때는 who예요."],["'제가 산 책'을 영어로 하면?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"명사를 먼저 말하고 that으로 설명해요."],["다음 중 알맞은 문장은?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"꾸미는 말은 명사 뒤에 와요."]],
+["mc","If it ___, I'll stay home.","rains","will rain","rained","is rain","if 后面用一般现在时。"],
+["mc","If you're late, ___ me.","call","will calling","calls","to call","祈使句以动词原形开头。"],
+["mc","“我有时间就帮你”=","I'll help you if I have time.","I help you if I'll have time.","I'll help you if I will have time.","I'll helping you if I have time.","if 后面不用 will。"],
+["mc","“你不快点就赶不上公交车了”=","If you don't hurry, you'll miss the bus.","If you won't hurry, you miss the bus.","If you don't hurry, you miss will the bus.","If you not hurry, you'll miss bus.","if 部分用一般现在时的否定 don't。"],
+["mc","“我到家就给你打电话”=","When I get home, I'll call you.","When I'll get home, I call you.","When I will get home, I'll call you.","When I get the home, I call you.","when 后面也用一般现在时。"],
+["or","下雨的话我就待在家","If it rains I'll stay home","will the","if 后面用一般现在时；home 前面不加冠词。"],
+["or","你有时间就给我打电话","If you have time call me","will","if 后面不用 will。"],
+["or","你会赶不上公交车的","You'll miss the bus","a buses","要坐的就是那趟车，用冠词 the。"],
+["fi","If it __ tomorrow, we'll cancel.","如果明天下雨，我们就取消","rains","will rain|rained|raining","if 后面用一般现在时。"],
+["fi","If you study, you __ pass.","你好好学习就会通过","will|can|might","are|did|passing","结果部分用 will + 动词原形。"],
+["fi","__ you need help, call me.","需要帮忙就给我打电话","If|When","So|But|Because","“如果”用 if。"],
+["ty","我有时间就帮你","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","if 后面不用 will。"],
+["ty","下雨的话我就打车","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi — 冠词 a","the","随便哪辆出租车都行，用冠词 a。"],
+["ty","要赶不上公交车了","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — 冠词 the","a","要坐的就是那趟车，用冠词 the。"]]},
+{ id:"relative", title:"定语从句：用 who / that 修饰人和物", blurb:"中文的修饰语放在名词前，英语的放在名词后。", deck:"购物与结账", body:`
+<p>中文说“<b>我买的</b>书”，修饰语加“的”放在名词前面。英语先说名词，再在<b>后面</b>补充说明：the book <b>that I bought</b>。这就是定语从句，who / that 是关系代词。</p>
+<h3>人用 who</h3>
+{{ex:I have a friend who lives in Chengdu.|/aɪ ˈhæv ə ˈfrend hu ˈlɪvz ɪn ˌtʃeŋˈduː/|我有个住在成都的朋友}}{{ex:the man who lives next door|/ðə ˈmæn hu ˈlɪvz ˈnekst ˈdɔːr/|住在隔壁的那个男人}}
+<h3>物用 that</h3>
+{{ex:the book that I bought|/ðə ˈbʊk ðət aɪ ˈbɔːt/|我买的书}}{{ex:This is the phone that I want.|/ˈðɪs ɪz ðə ˈfoʊn ðət aɪ ˈwɑːnt/|这就是我想要的手机}}
+<h3>that 常常省略</h3>
+<p>后面直接是“主语 + 动词”时，that 可以省掉，口语里基本都省。</p>
+{{ex:The movie we saw was great.|/ðə ˈmuːvi wi ˈsɔː wəz ˈgreɪt/|我们看的那部电影太好看了}}
+<h3>地点用 where</h3>
+{{ex:the cafe where we met|/ðə kæˈfeɪ wer wi ˈmet/|我们见面的那家咖啡馆}}
+<h3>别漏掉关系代词</h3>
+<p>中文的定语从句没有关系代词，所以容易写成两个动词挤在一起：<b>I have a friend lives in Chengdu.</b> ✗ → <b>I have a friend who lives in Chengdu.</b> ✓ 也不要照搬“有很多人想来”：<b>There are many people want to come.</b> ✗ → <b>Many people want to come.</b> ✓</p>
+<div class="tip">记住顺序：<b>名词在前，说明在后。</b>“我买的书” → the book (that) I bought。不能用 what：<b>the book what I bought</b> ✗</div>`,
+check:[["I have a friend ___ lives in Busan. 空格处应填什么？",["which","who","what","he"],1,"修饰人用 who。"],["“我买的书”用英语怎么说？",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"先说名词，再用 that 补充说明。"],["下面哪一句是正确的？",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"修饰语放在名词后面。"]],
 practice:[
-["mc","I have a friend ___ speaks English.","who","which","what","she","사람을 꾸밀 때는 who예요."],
-["mc","'제가 산 책' =","the book that I bought","the I bought book","the book what I bought","the bought I book","명사 먼저, 설명은 뒤에 와요."],
-["mc","'옆집에 사는 남자' =","the man who lives next door","the lives next door man","the man lives who next door","the man what lives next door","사람은 who로 꾸며요."],
-["mc","This is the phone ___ I want.","that","who","what","it","물건은 that으로 꾸며요."],
-["mc","'우리가 본 영화' =","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","that은 생략할 수 있어요."],
-["or","제가 산 책이에요","This is the book I bought","a what","내가 산 바로 그 책이라서 관사 the예요."],
-["or","요리하는 친구가 있어요","I have a friend who cooks","the which","처음 말하는 친구 한 명이라 관사 a예요."],
-["or","우리가 본 영화 좋았어요","The movie we saw was great","A movies","우리가 본 바로 그 영화라서 관사 the예요."],
-["fi","the man __ lives here","여기 사는 남자","who|that","what|he|which","사람은 who로 꾸며요."],
-["fi","the book __ I read","제가 읽은 책","that|which","who|what|it","물건은 that으로 꾸며요."],
-["fi","the cafe __ we met","우리가 만난 카페","where","who|what|it","장소는 where로 꾸며요."],
-["ty","제가 산 책이에요","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — 관사 the","a","내가 산 바로 그 책이라서 관사 the예요."],
-["ty","한국어 하는 친구가 있어요","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — 관사 a","the","처음 말하는 친구 한 명이라 관사 a예요."],
-["ty","우리가 본 영화 좋았어요","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","명사 먼저, 설명은 뒤에 와요."]]},
+["mc","I have a friend ___ speaks English.","who","which","what","she","修饰人用 who。"],
+["mc","“我买的书”=","the book that I bought","the I bought book","the book what I bought","the bought I book","名词在前，说明在后。"],
+["mc","“住在隔壁的那个男人”=","the man who lives next door","the lives next door man","the man lives who next door","the man what lives next door","修饰人用 who。"],
+["mc","This is the phone ___ I want.","that","who","what","it","修饰物用 that。"],
+["mc","“我们看的那部电影”=","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","that 可以省略。"],
+["or","这是我买的书","This is the book I bought","a what","就是我买的那本书，用冠词 the。"],
+["or","我有个会做饭的朋友","I have a friend who cooks","the which","第一次提到的一位朋友，用冠词 a。"],
+["or","我们看的那部电影很好看","The movie we saw was great","A movies","就是我们看的那部电影，用冠词 the。"],
+["fi","the man __ lives here","住在这里的那个男人","who|that","what|he|which","修饰人用 who。"],
+["fi","the book __ I read","我读过的那本书","that|which","who|what|it","修饰物用 that。"],
+["fi","the cafe __ we met","我们见面的那家咖啡馆","where","who|what|it","修饰地点用 where。"],
+["ty","这是我买的书","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — 冠词 the","a","就是我买的那本书，用冠词 the。"],
+["ty","我有个会说韩语的朋友","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — 冠词 a","the","第一次提到的一位朋友，用冠词 a。"],
+["ty","我们看的那部电影很好看","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","名词在前，说明在后。"]]},
 ];

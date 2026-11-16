@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "articles-3": "zh-only lesson (profile zh.md §8 add, §4.1): articles revisited at B1 with the focus on the unneeded the — generic vs specific (zero article for generic plurals, uncountables and abstract nouns: Life / Education / Time is…), the with of-/in-phrases and relative clauses, zero-article fixed phrases (go to bed, go to work/school, at home/work, in class, by train/bus), and the with superlatives and ordinals. Chinese writers' article errors are dominated by extra the (Rozovskaya & Roth 2010: 48%); ko-en has no such lesson. English side started from ja articles-3 and refocused: superlative/ordinal items replace ja's 'an engineer who…' and 'an interesting article' items, and 'Education is important' replaces ja's 'The coffee you made' type item. Placed after passive (profile.json lessonOrder.after)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["articles-3"]
+}

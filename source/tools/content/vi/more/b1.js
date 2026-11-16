@@ -1,142 +1,144 @@
-/* TRANSLATE/ADAPT (vi): scaffolded from tools/content/ko/more/b1.js by new_lang.js.
-   Translate/adapt everything that is Korean for vi speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the vi point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage B1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* vi-en stage B1: lessons for Vietnamese speakers (source of truth). English side shared with ko-en (parity.js).
+   Shorthand is expanded by _dsl.js. */
 module.exports = [
-{ id:"perfect-2", title:"현재완료 2: for와 since, 지금까지 쭉", blurb:"과거에 시작해서 지금도 계속되는 일. for + 기간, since + 시작점.", deck:"자기소개", body:`
-<p>현재완료의 두 번째 쓰임이에요. <b>과거에 시작해서 지금까지 이어지는 일</b>을 말해요. 한국어 '~한 지 ~ 됐어요'에 해당해요.</p>
-{{ex:I've lived in Seoul for five years.|아이브 리브드 인 서울 포 파이브 이어즈|서울에 산 지 5년 됐어요}}{{ex:I've worked here since 2020.|아이브 웍트 히어 신스 투웨니 투웨니|2020년부터 여기서 일하고 있어요}}{{ex:I've known her for a long time.|아이브 노운 허 포러 롱 타임|그녀를 안 지 오래됐어요}}
-<h3>for 와 since</h3>
-<div class="tbl"><table><tr><th>for + 기간</th><th>since + 시작점</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
-<h3>How long ~?</h3>
-{{ex:How long have you been here?|하우 롱 해뷰 빈 히어?|여기 얼마나 계셨어요?}}{{ex:How long have you studied English?|하우 롱 해뷰 스터디드 잉글리시?|영어 공부한 지 얼마나 됐어요?}}
+{ id:"perfect-2", title:"Thì hiện tại hoàn thành 2: for và since, kéo dài đến nay", blurb:"Việc bắt đầu trong quá khứ và vẫn tiếp tục đến bây giờ. \"for\" + khoảng thời gian, \"since\" + mốc thời gian.", deck:"Giới thiệu bản thân", body:`
+<p>Cách dùng thứ hai của thì hiện tại hoàn thành: việc <b>bắt đầu trong quá khứ và vẫn kéo dài đến bây giờ</b>. Tiếng Việt nói “Tôi sống ở đây từ năm 2020” hay “Tôi sống ở đây được 5 năm rồi”, động từ “sống” không đổi, nên rất dễ nói <b>I live here since 2020.</b> ✗ Tiếng Anh phải dùng <b>have + V3</b>.</p>
+{{ex:I've lived in Hanoi for five years.|/aɪv lɪvd‿ɪn hæˈnɔɪ fɚ faɪv jɪrz/|Tôi sống ở Hà Nội được 5 năm rồi}}{{ex:I've worked here since 2020.|/aɪv wɝːkt hɪr sɪns ˈtwenti ˈtwenti/|Tôi làm việc ở đây từ năm 2020}}{{ex:I've known her for a long time.|/aɪv noʊn hɝː fɚ ə lɑːŋ taɪm/|Tôi quen cô ấy lâu rồi}}
+<h3>for và since</h3>
+<div class="tbl"><table><tr><th>for + khoảng thời gian</th><th>since + mốc thời gian</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
+<p>“được 3 năm” → <b>for three years</b>; “từ năm 2020” → <b>since 2020</b>.</p>
+<h3>How long…?</h3>
+{{ex:How long have you been here?|/haʊ lɑːŋ hæv ju bɪn hɪr/|Bạn ở đây bao lâu rồi?}}{{ex:How long have you studied English?|/haʊ lɑːŋ hæv ju ˈstʌdid‿ˈɪŋglɪʃ/|Bạn học tiếng Anh được bao lâu rồi?}}
 <h3>just, already, yet</h3>
-{{ex:I've just finished.|아이브 저스트 피니쉬트|방금 끝냈어요}}{{ex:I've already seen it.|아이브 올레디 씬 잇|이미 봤어요}}{{ex:Have you eaten yet?|해뷰 이튼 옛?|벌써 먹었어요?}}
-<div class="tip">가장 흔한 실수: 현재형으로 말하는 것. <b>I live here for five years.</b> (X) → <b>I've lived here for five years.</b> (O)</div>`,
-check:[["I've lived here ___ three years. 빈칸에 알맞은 것은?",["since","for","during","from"],1,"기간 앞에는 for예요."],["I've worked here ___ 2020. 빈칸에 알맞은 것은?",["for","in","since","at"],2,"시작점 앞에는 since예요."],["'여기 얼마나 계셨어요?'를 영어로 하면?",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"How long have you + 과거분사예요."]],
+<p>“vừa mới” → <b>just</b>, “rồi” → <b>already</b>, “… chưa?” → <b>yet</b>.</p>
+{{ex:I've just finished.|/aɪv dʒʌst ˈfɪnɪʃt/|Tôi vừa làm xong}}{{ex:I've already seen it.|/aɪv‿ɑːlˈredi siːn‿ɪt/|Tôi xem rồi}}{{ex:Have you eaten yet?|/hæv ju ˈiːtən jet/|Bạn ăn chưa?}}
+<p>Trong tiếng Việt, “Ăn cơm chưa?” còn là một lời chào. Trong tiếng Anh, <b>Have you eaten yet?</b> chỉ là câu hỏi thật, không dùng để chào.</p>
+<div class="tip">Lỗi hay gặp nhất: dùng thì hiện tại đơn. <b>I live here for five years.</b> ✗ → <b>I've lived here for five years.</b> ✓</div>`,
+check:[["I've lived here ___ three years. Từ nào điền vào chỗ trống?",["since","for","during","from"],1,"Trước khoảng thời gian dùng \"for\"."],["I've worked here ___ 2020. Từ nào điền vào chỗ trống?",["for","in","since","at"],2,"Trước mốc thời gian dùng \"since\"."],["“Bạn ở đây bao lâu rồi?” trong tiếng Anh là câu nào?",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"\"How long have you\" + V3."]],
 practice:[
-["mc","I've known him ___ ten years.","for","since","from","during","기간 앞에는 for예요."],
-["mc","She's lived here ___ 2019.","since","for","in","at","시작점 앞에는 since예요."],
-["mc","'여기 얼마나 계셨어요?' =","How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?","How long have you + 과거분사예요."],
-["mc","'방금 끝냈어요' =","I've just finished.","I just have finish.","I've just finish.","I'm just finished have.","have + just + 과거분사예요."],
-["mc","'벌써 먹었어요?' =","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","질문에서 '벌써'는 yet이에요."],
-["or","저는 여기서 5년 살았어요","I've lived here for five years","year since","5년이니까 복수 years, 기간 앞에는 for예요."],
-["or","저는 그 영화를 이미 봤어요","I've already seen the movie","a saw","서로 아는 그 영화라서 관사 the예요."],
-["or","얼마나 기다렸어요?","How long have you waited","did","How long have you + 과거분사예요."],
-["fi","I've worked here __ two years.","여기서 일한 지 2년 됐어요","for","since|from|during","기간 앞에는 for예요."],
-["fi","I've been here __ Monday.","월요일부터 여기 있어요","since","for|at|during","시작점 앞에는 since예요."],
-["fi","Have you finished __?","벌써 끝냈어요?","yet|already","ever|never|since","질문에서 '벌써'는 yet이에요."],
-["ty","저는 여기서 3년 살았어요","I've lived here for three years","I've lived · here · for · three · year — 복수","year","3년이니까 복수 years예요."],
-["ty","여기 얼마나 계셨어요?","How long have you been here","how long · have you · been here","are","How long have you + 과거분사예요."],
-["ty","저는 그 책을 이미 읽었어요","I've already read the book|I've read the book already|I already read the book","already · read · book — 관사 the","a","서로 아는 그 책이라서 관사 the예요."]]},
-{ id:"narrative", title:"이야기 시제: 과거, 과거진행, 과거완료", blurb:"배경은 과거진행, 사건은 과거형, 더 먼저 일어난 일은 had + p.p.", deck:"영화·드라마·슬랭", body:`
-<p>있었던 일을 이야기할 때는 세 가지 시제를 섞어 써요. 각자 맡은 역할이 달라요.</p>
-<div class="tbl"><table><tr><th>시제</th><th>역할</th><th>예</th></tr><tr><td class="k">과거진행</td><td>배경, 하던 일</td><td>I was walking home.</td></tr><tr><td class="k">과거형</td><td>일어난 사건</td><td>I saw an old friend.</td></tr><tr><td class="k">과거완료</td><td>그보다 먼저 일어난 일</td><td>He had moved to Busan.</td></tr></table></div>
-<h3>배경 + 사건</h3>
-{{ex:I was walking home when I saw an old friend.|아이 워즈 워킹 홈 웬 아이 쏘 언 올드 프렌드|집에 걸어가다가 옛 친구를 만났어요}}
-<h3>과거완료: had + 과거분사</h3>
-<p>과거의 어느 때보다 <b>더 먼저</b> 일어난 일이에요.</p>
-{{ex:When I arrived, the movie had already started.|웬 아이 어라이브드 더 무비 해드 올레디 스타티드|도착했을 때 영화는 이미 시작했어요}}{{ex:I had never seen snow before.|아이 해드 네버 씬 스노우 비포|그전에는 눈을 본 적이 없었어요}}
-<h3>순서를 알려 주는 말</h3>
-<p>first(먼저), then(그다음에), after that(그 후에), finally(마침내)로 이어 가요.</p>
-{{ex:First we ate dinner. Then we watched a movie.|퍼스트 위 에잇 디너. 덴 위 왓치트 어 무비|먼저 저녁을 먹었어요. 그다음에 영화를 봤어요}}
-<div class="tip">then(그다음에)과 than(~보다)은 발음이 비슷하지만 다른 단어예요. 이야기에는 <b>then</b>이에요.</div>`,
-check:[["When I arrived, the train ___ already left. 빈칸에 알맞은 것은?",["has","was","had","did"],2,"더 먼저 일어난 일은 had + 과거분사예요."],["I ___ walking home when it started to rain. 빈칸에 알맞은 것은?",["was","had","did","have"],0,"하던 일(배경)은 과거진행이에요."],["그보다 더 먼저 일어난 일을 나타내는 문장은?",["I was eating.","I ate.","I eat.","I had eaten."],3,"had + 과거분사가 과거완료예요."]],
+["mc","I've known him ___ ten years. Từ nào điền vào chỗ trống?","for","since","from","during","Trước khoảng thời gian dùng \"for\"."],
+["mc","She's lived here ___ 2019. Từ nào điền vào chỗ trống?","since","for","in","at","Trước mốc thời gian dùng \"since\"."],
+["mc","“Bạn ở đây bao lâu rồi?” =","How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?","\"How long have you\" + V3."],
+["mc","“Tôi vừa làm xong” =","I've just finished.","I just have finish.","I've just finish.","I'm just finished have.","\"have\" + \"just\" + V3."],
+["mc","“Bạn ăn chưa?” =","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","Trong câu hỏi, “… chưa?” là \"yet\"."],
+["or","Tôi sống ở đây được 5 năm rồi","I've lived here for five years","year since","Có \"five\" nên dùng số nhiều \"years\"; trước khoảng thời gian dùng \"for\"."],
+["or","Tôi xem bộ phim đó rồi","I've already seen the movie","a saw","Bộ phim mà cả hai đều biết nên dùng mạo từ \"the\"."],
+["or","Bạn đợi bao lâu rồi?","How long have you waited","did","\"How long have you\" + V3."],
+["fi","I've worked here __ two years.","Tôi làm việc ở đây được 2 năm rồi","for","since|from|during","Trước khoảng thời gian dùng \"for\"."],
+["fi","I've been here __ Monday.","Tôi ở đây từ thứ hai","since","for|at|during","Trước mốc thời gian dùng \"since\"."],
+["fi","Have you finished __?","Bạn làm xong chưa?","yet|already","ever|never|since","Trong câu hỏi, “… chưa?” là \"yet\"."],
+["ty","Tôi sống ở đây được 3 năm rồi","I've lived here for three years","I've lived · here · for · three · year — số nhiều","year","Có \"three\" nên dùng số nhiều \"years\"."],
+["ty","Bạn ở đây bao lâu rồi?","How long have you been here","how long · have you · been here — câu hỏi","are","\"How long have you\" + V3."],
+["ty","Tôi đọc quyển sách đó rồi","I've already read the book|I've read the book already|I already read the book","already · read · book — mạo từ \"the\"","a","Quyển sách mà cả hai đều biết nên dùng mạo từ \"the\"."]]},
+{ id:"narrative", title:"Thì khi kể chuyện: quá khứ đơn, quá khứ tiếp diễn, quá khứ hoàn thành", blurb:"Bối cảnh dùng quá khứ tiếp diễn, sự việc dùng quá khứ đơn, việc xảy ra trước đó nữa dùng \"had\" + V3.", deck:"Phim ảnh · tiếng lóng", body:`
+<p>Khi kể chuyện, tiếng Việt dựa vào từ chỉ thời gian và các chữ “đang”, “đã”, “rồi”, mà những chữ này lại thường bị lược bỏ. Tiếng Anh kết hợp ba thì, mỗi thì một vai trò, và động từ lúc nào cũng phải chia.</p>
+<div class="tbl"><table><tr><th>Thì</th><th>Vai trò</th><th>Ví dụ</th></tr><tr><td class="k">Quá khứ tiếp diễn</td><td>bối cảnh, việc đang làm</td><td>I was walking home.</td></tr><tr><td class="k">Quá khứ đơn</td><td>sự việc xảy ra</td><td>I saw an old friend.</td></tr><tr><td class="k">Quá khứ hoàn thành</td><td>việc xảy ra trước đó</td><td>He had moved to Ho Chi Minh City.</td></tr></table></div>
+<h3>Bối cảnh + sự việc</h3>
+{{ex:I was walking home when I saw an old friend.|/aɪ wəz ˈwɑːkɪŋ hoʊm wen‿aɪ sɑː ən‿oʊld frend/|Tôi đang đi bộ về nhà thì gặp một người bạn cũ}}
+<h3>Thì quá khứ hoàn thành: had + V3</h3>
+<p>Việc xảy ra <b>trước</b> một thời điểm khác trong quá khứ, gần giống “đã… rồi” trong câu “Khi tôi đến thì phim đã chiếu rồi”.</p>
+{{ex:When I arrived, the movie had already started.|/wen‿aɪ əˈraɪvd ðə ˈmuːvi hæd‿ɑːlˈredi ˈstɑːrtɪd/|Khi tôi đến thì phim đã bắt đầu rồi}}{{ex:I had never seen snow before.|/aɪ hæd ˈnevɚ siːn snoʊ bɪˈfɔːr/|Trước đó tôi chưa bao giờ thấy tuyết}}
+<h3>Từ nối chỉ thứ tự</h3>
+<p>Dùng <b>first</b> (đầu tiên), <b>then</b> (rồi, sau đó), <b>after that</b> (sau đó nữa), <b>finally</b> (cuối cùng) để nối các sự việc.</p>
+{{ex:First we ate dinner. Then we watched a movie.|/fɝːst wiː eɪt ˈdɪnɚ/ /ðen wiː wɑːtʃt‿ə ˈmuːvi/|Đầu tiên chúng tôi ăn tối. Sau đó chúng tôi xem phim}}
+<div class="tip"><b>then</b> (sau đó) và <b>than</b> (hơn) phát âm gần giống nhau nhưng là hai từ khác nhau. Khi kể chuyện thì dùng <b>then</b>.</div>`,
+check:[["When I arrived, the train ___ already left. Từ nào điền vào chỗ trống?",["has","was","had","did"],2,"Việc xảy ra trước đó dùng \"had\" + V3."],["I ___ walking home when it started to rain. Từ nào điền vào chỗ trống?",["was","had","did","have"],0,"Việc đang làm (bối cảnh) dùng quá khứ tiếp diễn."],["Câu nào diễn tả việc xảy ra trước đó nữa?",["I was eating.","I ate.","I eat.","I had eaten."],3,"\"had\" + V3 là thì quá khứ hoàn thành."]],
 practice:[
-["mc","When I got there, the movie ___ already started.","had","has","was","did","더 먼저 일어난 일은 had + 과거분사예요."],
-["mc","I ___ cooking when the phone rang.","was","had","did","have","하던 일은 과거진행이에요."],
-["mc","'도착했을 때 기차는 이미 떠났어요' =","When I arrived, the train had already left.","When I arrived, the train already leaves.","When I had arrived, the train left already had.","When I arrive, the train has left already.","더 먼저 일어난 일에 had + 과거분사를 써요."],
-["mc","이야기를 이을 때 '그다음에' =","then","than","that","them","then은 '그다음에', than은 '~보다'예요."],
-["mc","'그전에는 눈을 본 적이 없었어요' =","I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before.","had + never + 과거분사예요."],
-["or","기차는 이미 떠났어요","The train had already left","a has","타려던 그 기차라서 관사 the예요."],
-["or","저는 옛 친구를 만났어요","I met an old friend","a friends","old는 모음 소리로 시작해서 관사 an이에요."],
-["or","저는 집에 걸어가고 있었어요","I was walking home","had","배경은 과거진행이에요."],
-["fi","I was sleeping __ you called.","전화했을 때 자고 있었어요","when","than|so|had","'~했을 때'는 when이에요."],
-["fi","The bus had already __.","버스는 이미 떠났어요","left|gone","leave|leaving|leaves","had 뒤에는 과거분사가 와요."],
-["fi","First we ate. __ we watched a movie.","먼저 먹었어요. 그다음에 영화를 봤어요","Then|After that|Next","Than|Because|When","'그다음에'는 then이에요."],
-["ty","영화는 이미 시작했어요","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — 관사 the","a","보려던 그 영화라서 관사 the예요."],
-["ty","저는 옛 친구를 만났어요","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — 관사 an","a","old는 모음 소리로 시작해서 관사 an이에요."],
-["ty","저는 집에 걸어가고 있었어요","I was walking home","was · walking · home","had","배경은 과거진행으로 말해요."]]},
-{ id:"conditionals", title:"조건문 2·3: 가정과 후회", blurb:"지금 사실과 반대면 would, 지나간 일의 후회는 would have.", deck:"감정·반응", body:`
-<p>실제가 아닌 일을 상상할 때 써요. 한국어 '~라면 ~할 텐데', '~했더라면 ~했을 텐데'예요.</p>
-<h3>조건문 2: 지금 사실과 반대</h3>
-<p><b>If + 과거형, would + 동사</b>예요. 과거형을 쓰지만 뜻은 지금이에요.</p>
-{{ex:If I had time, I would travel.|이프 아이 해드 타임 아이 우드 트래블|시간이 있으면 여행할 텐데}}{{ex:If I were you, I'd take it.|이프 아이 워 유 아이드 테이킷|내가 너라면 그걸 받을 거야}}{{ex:What would you do?|왓 우쥬 두?|당신이라면 어떻게 하겠어요?}}
-<h3>조건문 3: 지나간 일과 반대</h3>
-<p><b>If + had + 과거분사, would have + 과거분사</b>예요.</p>
-{{ex:If I had studied, I would have passed.|이프 아이 해드 스터디드 아이 우드 해브 패스트|공부했더라면 합격했을 텐데}}
-<h3>후회: should have, I wish</h3>
-{{ex:I should have called.|아이 슈드 해브 콜드|전화했어야 했는데}}{{ex:I wish I had more time.|아이 위시 아이 해드 모어 타임|시간이 더 있으면 좋겠어요}}
-<div class="tbl"><table><tr><th>종류</th><th>if 쪽</th><th>결과 쪽</th></tr><tr><td>1 (가능한 일)</td><td class="k">현재형</td><td class="k">will</td></tr><tr><td>2 (지금과 반대)</td><td class="k">과거형</td><td class="k">would</td></tr><tr><td>3 (과거와 반대)</td><td class="k">had + p.p.</td><td class="k">would have + p.p.</td></tr></table></div>
-<div class="tip">If I were you는 굳어진 표현이에요. I 뒤에도 was가 아니라 <b>were</b>를 써요.</div>`,
-check:[["If I ___ rich, I would travel. 빈칸에 알맞은 것은?",["am","were","will be","would be"],1,"지금 사실과 반대면 과거형(were)이에요."],["If I had studied, I ___ passed. 빈칸에 알맞은 것은?",["would","will have","would have","had"],2,"과거와 반대면 would have + 과거분사예요."],["'전화했어야 했는데'를 영어로 하면?",["I should have called.","I should called.","I should had call.","I would call should."],0,"후회는 should have + 과거분사예요."]],
+["mc","When I got there, the movie ___ already started. Từ nào điền vào chỗ trống?","had","has","was","did","Việc xảy ra trước đó dùng \"had\" + V3."],
+["mc","I ___ cooking when the phone rang. Từ nào điền vào chỗ trống?","was","had","did","have","Việc đang làm dùng quá khứ tiếp diễn."],
+["mc","“Khi tôi đến thì tàu đã chạy rồi” =","When I arrived, the train had already left.","When I arrived, the train already leaves.","When I had arrived, the train left already had.","When I arrive, the train has left already.","Việc xảy ra trước đó dùng \"had\" + V3."],
+["mc","Khi nối các sự việc, “sau đó” là từ nào?","then","than","that","them","\"Then\" là “sau đó”, \"than\" là “hơn”."],
+["mc","“Trước đó tôi chưa bao giờ thấy tuyết” =","I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before.","\"had\" + \"never\" + V3."],
+["or","Tàu đã chạy rồi","The train had already left","a has","Chuyến tàu định đi thì cả hai đều biết, nên dùng mạo từ \"the\"."],
+["or","Tôi gặp một người bạn cũ","I met an old friend","a friends","\"Old\" bắt đầu bằng một nguyên âm nên dùng mạo từ \"an\"."],
+["or","Tôi đang đi bộ về nhà","I was walking home","had","Bối cảnh dùng quá khứ tiếp diễn."],
+["fi","I was sleeping __ you called.","Lúc bạn gọi, tôi đang ngủ","when","than|so|had","“Khi / lúc” là \"when\"."],
+["fi","The bus had already __.","Xe buýt đã chạy rồi","left|gone","leave|leaving|leaves","Sau \"had\" là V3."],
+["fi","First we ate. __ we watched a movie.","Đầu tiên chúng tôi ăn. Sau đó chúng tôi xem phim","Then|After that|Next","Than|Because|When","“Sau đó” là \"then\"."],
+["ty","Phim đã bắt đầu rồi","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — mạo từ \"the\"","a","Bộ phim định xem thì cả hai đều biết, nên dùng mạo từ \"the\"."],
+["ty","Tôi gặp một người bạn cũ","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — mạo từ \"an\"","a","\"Old\" bắt đầu bằng một nguyên âm nên dùng mạo từ \"an\"."],
+["ty","Tôi đang đi bộ về nhà","I was walking home","was · walking · home — bối cảnh","had","Bối cảnh dùng quá khứ tiếp diễn."]]},
+{ id:"conditionals", title:"Câu điều kiện loại 2 và loại 3: giả định và tiếc nuối", blurb:"Trái với hiện tại thì dùng \"would\", tiếc nuối chuyện đã qua thì dùng \"would have\".", deck:"Cảm xúc · phản ứng", body:`
+<p>Dùng khi tưởng tượng điều không có thật. Tiếng Việt vẫn dùng “nếu… thì…” và để ngữ cảnh (hoặc “giá mà”, “lẽ ra”) cho biết đó là giả định. Tiếng Anh báo hiệu bằng thì của động từ: lùi về quá khứ một bậc.</p>
+<h3>Câu điều kiện loại 2: trái với hiện tại</h3>
+<p><b>If + quá khứ đơn, would + động từ nguyên mẫu</b>. Động từ ở quá khứ nhưng nghĩa là hiện tại.</p>
+{{ex:If I had time, I would travel.|/ɪf‿aɪ hæd taɪm aɪ wʊd ˈtrævəl/|Nếu có thời gian, tôi đã đi du lịch rồi (tiếc là không có)}}{{ex:If I were you, I'd take it.|/ɪf‿aɪ wɝː ju aɪd teɪk‿ɪt/|Nếu tôi là bạn, tôi sẽ nhận}}{{ex:What would you do?|/wɑːt wʊd ju duː/|Trong trường hợp đó bạn sẽ làm gì?}}
+<h3>Câu điều kiện loại 3: trái với quá khứ</h3>
+<p><b>If + had + V3, would have + V3</b>.</p>
+{{ex:If I had studied, I would have passed.|/ɪf‿aɪ hæd ˈstʌdid aɪ wʊd hæv pæst/|Nếu hồi đó tôi học bài thì tôi đã đỗ rồi}}
+<h3>Tiếc nuối: should have, I wish</h3>
+{{ex:I should have called.|/aɪ ʃʊd hæv kɑːld/|Lẽ ra tôi nên gọi điện}}{{ex:I wish I had more time.|/aɪ wɪʃ‿aɪ hæd mɔːr taɪm/|Ước gì tôi có nhiều thời gian hơn}}
+<div class="tbl"><table><tr><th>Loại</th><th>Vế if</th><th>Vế kết quả</th></tr><tr><td>1 (có thể xảy ra)</td><td class="k">hiện tại đơn</td><td class="k">will</td></tr><tr><td>2 (trái với hiện tại)</td><td class="k">quá khứ đơn</td><td class="k">would</td></tr><tr><td>3 (trái với quá khứ)</td><td class="k">had + V3</td><td class="k">would have + V3</td></tr></table></div>
+<div class="tip"><b>If I were you</b> là cách nói cố định: sau <b>I</b> cũng dùng <b>were</b>, không phải <b>was</b>.</div>`,
+check:[["If I ___ rich, I would travel. Từ nào điền vào chỗ trống?",["am","were","will be","would be"],1,"Trái với hiện tại thì vế \"if\" dùng quá khứ (\"were\")."],["If I had studied, I ___ passed. Từ nào điền vào chỗ trống?",["would","will have","would have","had"],2,"Trái với quá khứ thì dùng \"would have\" + V3."],["“Lẽ ra tôi nên gọi điện” trong tiếng Anh là câu nào?",["I should have called.","I should called.","I should had call.","I would call should."],0,"Tiếc nuối dùng \"should have\" + V3."]],
 practice:[
-["mc","If I ___ time, I would help.","had","have","will have","would have","지금 사실과 반대면 if 쪽은 과거형이에요."],
-["mc","'내가 너라면 그걸 살 거야' =","If I were you, I'd buy it.","If I am you, I'll buy it.","If I were you, I buy it.","If I would be you, I'd buy it.","If I were you, I'd ~는 굳어진 표현이에요."],
-["mc","If I had known, I ___ come.","would have","would","will have","had","과거와 반대면 would have + 과거분사예요."],
-["mc","'전화했어야 했는데' =","I should have called.","I should called.","I should had call.","I must called.","후회는 should have + 과거분사예요."],
-["mc","'당신이라면 어떻게 하겠어요?' =","What would you do?","What will you did?","What would you did?","What you would do?","가정은 would + 동사원형이에요."],
-["or","시간이 있으면 여행할 텐데","If I had time I'd travel","have will","지금 사실과 반대면 과거형 had와 would를 써요."],
-["or","저라면 택시를 탈 거예요","I'd take a taxi","the taxis","아무 택시 한 대라서 관사 a예요."],
-["or","표를 샀어야 했는데","I should have bought a ticket","the buy","표 한 장이라 관사 a예요."],
-["fi","If I __ you, I'd go.","내가 너라면 갈 거야","were|was","am|be|would be","If I were you는 굳어진 표현이에요."],
-["fi","I would __ helped.","도와줬을 텐데","have","had|has|having","would have + 과거분사예요."],
-["fi","I wish I __ more time.","시간이 더 있으면 좋겠어요","had","have|would have|will have","I wish 뒤에는 과거형을 써요."],
-["ty","내가 너라면 갈 거야","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd ~예요."],
-["ty","차가 있으면 좋을 텐데","I wish I had a car","I wish · had · car — 관사 a","the","아무 차 한 대라서 관사 a예요."],
-["ty","택시를 탔어야 했는데","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — 관사 a","the","아무 택시 한 대라서 관사 a예요."]]},
-{ id:"passive", title:"수동태: be + 과거분사", blurb:"누가 했는지보다 무슨 일이 생겼는지가 중요할 때.", deck:"직장·이메일", body:`
-<p>'~되다, ~당하다'를 말할 때 써요. 틀은 <b>be동사 + 과거분사</b>예요. 누가 했는지 모르거나 중요하지 않을 때 자연스러워요.</p>
-{{ex:My phone was stolen.|마이 폰 워즈 스톨른|휴대폰을 도난당했어요}}{{ex:This was made in Korea.|디스 워즈 메이드 인 코리아|이건 한국에서 만들어졌어요}}{{ex:The meeting was canceled.|더 미팅 워즈 캔슬드|회의가 취소됐어요}}
-<h3>현재: 늘 그렇게 되는 일</h3>
-{{ex:English is spoken here.|잉글리시 이즈 스포큰 히어|여기서는 영어를 써요}}{{ex:Breakfast is served at seven.|브렉퍼스트 이즈 서브드 앳 세븐|조식은 7시에 제공돼요}}
-<h3>누가 했는지는 by</h3>
-{{ex:It was written by Han Kang.|잇 워즈 리튼 바이 한강|한강이 쓴 거예요}}
-<h3>능동과 수동</h3>
-<div class="tbl"><table><tr><th>능동</th><th>수동</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
-<div class="tip">가장 흔한 실수: be동사를 빼먹는 것. <b>My phone stolen.</b> (X) → <b>My phone was stolen.</b> (O)</div>`,
-check:[["My bag ___ stolen yesterday. 빈칸에 알맞은 것은?",["is","was","did","has"],1,"어제 일이라서 was + 과거분사예요."],["This phone ___ made in Korea. 빈칸에 알맞은 것은?",["was","did","has","does"],0,"수동태는 be동사 + 과거분사예요."],["'회의가 취소됐어요'를 영어로 하면?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be동사 + 과거분사 canceled예요."]],
+["mc","If I ___ time, I would help. Từ nào điền vào chỗ trống?","had","have","will have","would have","Trái với hiện tại thì vế \"if\" dùng quá khứ đơn."],
+["mc","“Nếu tôi là bạn, tôi sẽ mua nó” =","If I were you, I'd buy it.","If I am you, I'll buy it.","If I were you, I buy it.","If I would be you, I'd buy it.","\"If I were you, I'd…\" là cách nói cố định."],
+["mc","If I had known, I ___ come. Từ nào điền vào chỗ trống?","would have","would","will have","had","Trái với quá khứ thì dùng \"would have\" + V3."],
+["mc","“Lẽ ra tôi nên gọi điện” =","I should have called.","I should called.","I should had call.","I must called.","Tiếc nuối dùng \"should have\" + V3."],
+["mc","“Trong trường hợp đó bạn sẽ làm gì?” =","What would you do?","What will you did?","What would you did?","What you would do?","Giả định dùng \"would\" + động từ nguyên mẫu."],
+["or","Nếu có thời gian thì tôi đi du lịch rồi","If I had time I'd travel","have will","Trái với hiện tại nên dùng quá khứ \"had\" và \"would\"."],
+["or","Là tôi thì tôi sẽ đi taxi","I'd take a taxi","the taxis","Một chiếc taxi bất kỳ nên dùng mạo từ \"a\"."],
+["or","Lẽ ra tôi nên mua vé","I should have bought a ticket","the buy","Danh từ đếm được số ít \"ticket\" cần mạo từ \"a\"."],
+["fi","If I __ you, I'd go.","Nếu tôi là bạn, tôi sẽ đi","were|was","am|be|would be","\"If I were you\" là cách nói cố định."],
+["fi","I would __ helped.","(Nếu biết thì) tôi đã giúp rồi","have","had|has|having","\"would have\" + V3."],
+["fi","I wish I __ more time.","Ước gì tôi có nhiều thời gian hơn","had","have|would have|will have","Sau \"I wish\" dùng quá khứ đơn."],
+["ty","Nếu tôi là bạn, tôi sẽ đi","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go — giả định","am","Cách nói cố định: \"If I were you, I'd…\"."],
+["ty","Ước gì tôi có một chiếc ô tô","I wish I had a car","I wish · had · car — mạo từ \"a\"","the","Một chiếc xe bất kỳ nên dùng mạo từ \"a\"."],
+["ty","Lẽ ra tôi nên đi taxi","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — mạo từ \"a\"","the","Một chiếc taxi bất kỳ nên dùng mạo từ \"a\"."]]},
+{ id:"passive", title:"Câu bị động: be + V3", blurb:"Dùng khi việc xảy ra quan trọng hơn ai làm.", deck:"Công sở · email", body:`
+<p>Tiếng Việt có “bị” cho việc không hay và “được” cho việc tốt: “Tôi bị phạt”, “Tôi được khen”. Tiếng Anh không phân biệt như vậy: cả hai đều là <b>động từ to be + quá khứ phân từ (V3)</b>. Câu bị động nghe tự nhiên khi không biết hoặc không cần nói ai làm.</p>
+{{ex:My phone was stolen.|/maɪ foʊn wəz ˈstoʊlən/|Điện thoại của tôi bị lấy cắp}}{{ex:This was made in Vietnam.|/ðɪs wəz meɪd‿ɪn viːetˈnɑːm/|Cái này được sản xuất ở Việt Nam}}{{ex:The meeting was canceled.|/ðə ˈmiːtɪŋ wəz ˈkænsəld/|Cuộc họp đã bị hủy}}
+<h3>Hiện tại: việc luôn diễn ra như vậy</h3>
+{{ex:English is spoken here.|/ˈɪŋglɪʃ‿ɪz ˈspoʊkən hɪr/|Ở đây có nói tiếng Anh}}{{ex:Breakfast is served at seven.|/ˈbrekfəst‿ɪz sɝːvd‿ət ˈsevən/|Bữa sáng được phục vụ lúc 7 giờ}}
+<h3>Người thực hiện: by</h3>
+{{ex:It was written by my teacher.|/ɪt wəz ˈrɪtən baɪ maɪ ˈtiːtʃɚ/|Bài này do thầy giáo tôi viết}}
+<h3>Chủ động và bị động</h3>
+<div class="tbl"><table><tr><th>Câu chủ động</th><th>Câu bị động</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
+<h3>Động từ không có tân ngữ thì không có bị động</h3>
+<p>Câu tiếng Việt có “bị”, “được” chưa chắc là câu bị động trong tiếng Anh. Những động từ không có tân ngữ như <b>happen</b>, <b>become</b>, <b>arrive</b> không dùng ở dạng bị động: <b>The accident was happened.</b> ✗ → <b>The accident happened.</b> ✓, <b>It was become legal.</b> ✗ → <b>It became legal.</b> ✓</p>
+<div class="tip">Lỗi hay gặp nhất: quên động từ to be. <b>My phone stolen.</b> ✗ → <b>My phone was stolen.</b> ✓</div>`,
+check:[["My bag ___ stolen yesterday. Từ nào điền vào chỗ trống?",["is","was","did","has"],1,"Việc xảy ra hôm qua nên dùng \"was\" + V3."],["This phone ___ made in Korea. Từ nào điền vào chỗ trống?",["was","did","has","does"],0,"Câu bị động: động từ to be + V3."],["“Cuộc họp đã bị hủy” trong tiếng Anh là câu nào?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"Động từ to be + V3 \"canceled\"."]],
 practice:[
-["mc","My phone ___ stolen.","was","did","has","is steal","수동태는 be동사 + 과거분사예요."],
-["mc","'이건 한국에서 만들어졌어요' =","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be동사 + 과거분사 made예요."],
-["mc","'여기서는 영어를 써요' (수동) =","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","늘 그런 일은 is + 과거분사예요."],
-["mc","'회의가 취소됐어요' =","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","be동사 + 과거분사예요."],
-["mc","'조식은 7시에 제공돼요' =","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","식사 이름에는 관사가 없고, is + 과거분사예요."],
-["or","제 가방을 도난당했어요","My bag was stolen","stole","be동사 뒤에는 과거분사 stolen이 와요."],
-["or","회의가 취소됐어요","The meeting was canceled","A meetings","서로 아는 그 회의라서 관사 the예요."],
-["or","창문이 깨졌어요","The window was broken","a windows","여기 있는 그 창문이라 관사 the예요."],
-["fi","This was __ in Korea.","이건 한국에서 만들어졌어요","made","make|making|makes","be동사 뒤에는 과거분사가 와요."],
-["fi","The room __ cleaned every day.","방은 매일 청소돼요","is|gets","does|has|did","늘 그런 일은 is + 과거분사예요."],
-["fi","It was written __ Han Kang.","한강이 쓴 거예요","by","from|of|with","누가 했는지는 by로 말해요."],
-["ty","제 휴대폰을 도난당했어요","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be동사 + 과거분사 stolen이에요."],
-["ty","그 회의는 취소됐어요","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — 관사 the","a","서로 아는 그 회의라서 관사 the예요."],
-["ty","문이 잠겨 있었어요","The door was locked","the door · was · locked — 관사 the","a","여기 있는 그 문이라 관사 the예요."]]},
-{ id:"reported", title:"간접화법: 남의 말 전하기", blurb:"She said she was tired. 시제를 한 칸 뒤로, tell 뒤에는 사람.", deck:"전화·문자 줄임말", body:`
-<p>다른 사람이 한 말을 전할 때 써요. 한국어 '~라고 했어요'예요. 전하는 말의 <b>시제를 한 칸 과거로</b> 옮겨요.</p>
-<div class="tbl"><table><tr><th>원래 말</th><th>전할 때</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>
-{{ex:She said she was tired.|쉬 세드 쉬 워즈 타이어드|그녀는 피곤하다고 했어요}}{{ex:He said he would come.|히 세드 히 우드 컴|그는 오겠다고 했어요}}
-<h3>say 와 tell</h3>
-<p><b>tell</b> 뒤에는 꼭 듣는 사람이 와요. <b>say</b> 뒤에는 오지 않아요.</p>
-{{ex:He told me he was busy.|히 톨드 미 히 워즈 비지|그는 저한테 바쁘다고 했어요}}
-<h3>질문을 전할 때</h3>
-<p>예/아니오 질문은 <b>if</b>, 의문사 질문은 의문사를 그대로 쓰고, 뒤는 <b>평서문 순서</b>(주어 + 동사)예요.</p>
-{{ex:She asked if I was okay.|쉬 애스크트 이프 아이 워즈 오케이|그녀는 제가 괜찮은지 물었어요}}{{ex:He asked where I lived.|히 애스크트 웨어 아이 리브드|그는 제가 어디 사는지 물었어요}}
-<div class="tip">가장 흔한 실수: <b>He said me …</b> (X) → <b>He told me …</b> (O), <b>He asked where did I live.</b> (X) → <b>He asked where I lived.</b> (O)</div>`,
-check:[["She said she ___ tired. 빈칸에 알맞은 것은?",["is being","was","be","will"],1,"전하는 말은 시제를 과거로 옮겨요."],["He ___ me he would come. 빈칸에 알맞은 것은?",["said","say","told","tell to"],2,"듣는 사람(me)이 있으면 told예요."],["'그는 제가 어디 사는지 물었어요'를 영어로 하면?",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"전하는 질문은 평서문 순서예요."]],
+["mc","My phone ___ stolen. Từ nào điền vào chỗ trống?","was","did","has","is steal","Câu bị động: động từ to be + V3."],
+["mc","“Cái này được sản xuất ở Hàn Quốc” =","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","Động từ to be + V3 \"made\"."],
+["mc","“Ở đây có nói tiếng Anh” (câu bị động) =","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","Việc luôn diễn ra như vậy: \"is\" + V3."],
+["mc","“Cuộc họp đã bị hủy” =","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","Động từ to be + V3."],
+["mc","“Bữa sáng được phục vụ lúc 7 giờ” =","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","Tên bữa ăn không có mạo từ; dùng \"is\" + V3."],
+["or","Túi của tôi bị lấy cắp","My bag was stolen","stole","Sau động từ to be là V3 \"stolen\"."],
+["or","Cuộc họp đã bị hủy","The meeting was canceled","A meetings","Cuộc họp mà cả hai đều biết nên dùng mạo từ \"the\"."],
+["or","Cửa sổ bị vỡ","The window was broken","a windows","Cái cửa sổ ở ngay đây nên dùng mạo từ \"the\"."],
+["fi","This was __ in Korea.","Cái này được sản xuất ở Hàn Quốc","made","make|making|makes","Sau động từ to be là V3."],
+["fi","The room __ cleaned every day.","Phòng được dọn mỗi ngày","is|gets","does|has|did","Việc luôn diễn ra như vậy: \"is\" + V3."],
+["fi","It was written __ Han Kang.","Tác phẩm này do Han Kang viết","by","from|of|with","Người thực hiện đứng sau \"by\"."],
+["ty","Điện thoại của tôi bị lấy cắp","My phone was stolen|My phone got stolen","my phone · was · stolen — câu bị động","stole","Động từ to be + V3 \"stolen\"."],
+["ty","Cuộc họp đó đã bị hủy","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — mạo từ \"the\"","a","Cuộc họp mà cả hai đều biết nên dùng mạo từ \"the\"."],
+["ty","Cửa đã bị khóa","The door was locked","the door · was · locked — mạo từ \"the\"","a","Cánh cửa ở ngay đây nên dùng mạo từ \"the\"."]]},
+{ id:"reported", title:"Câu tường thuật: thuật lại lời người khác", blurb:"\"She said she was tired.\" Lùi thì một bậc, sau \"tell\" phải có người nghe.", deck:"Điện thoại · viết tắt khi nhắn tin", body:`
+<p>Dùng khi kể lại lời người khác, giống “… nói là …” trong tiếng Việt. Tiếng Việt giữ nguyên động từ (“Cô ấy nói là cô ấy mệt”), còn tiếng Anh <b>lùi thì một bậc</b> về quá khứ.</p>
+<div class="tbl"><table><tr><th>Lời nói gốc</th><th>Khi thuật lại</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>
+{{ex:She said she was tired.|/ʃi sed ʃi wəz ˈtaɪɚd/|Cô ấy nói là cô ấy mệt}}{{ex:He said he would come.|/hi sed hi wʊd kʌm/|Anh ấy nói là sẽ đến}}
+<h3>say và tell</h3>
+<p>Sau <b>tell</b> bắt buộc có người nghe, sau <b>say</b> thì không. Tiếng Việt nói “nói với tôi”, nhưng tiếng Anh không có <b>said me</b> hay <b>told to me</b>.</p>
+{{ex:He told me he was busy.|/hi toʊld miː hi wəz ˈbɪzi/|Anh ấy bảo tôi là anh ấy bận}}
+<h3>Thuật lại câu hỏi</h3>
+<p>Câu hỏi có/không dùng <b>if</b>; câu hỏi có từ để hỏi thì giữ nguyên từ để hỏi. Phần sau theo <b>trật tự câu khẳng định</b> (chủ ngữ + động từ): không đảo, không dùng <b>do / did</b>.</p>
+{{ex:She asked if I was okay.|/ʃi æskt‿ɪf‿aɪ wəz‿oʊˈkeɪ/|Cô ấy hỏi tôi có ổn không}}{{ex:He asked where I lived.|/hi æskt wer aɪ lɪvd/|Anh ấy hỏi tôi sống ở đâu}}
+<div class="tip">Lỗi hay gặp nhất: <b>He said me …</b> ✗ → <b>He told me …</b> ✓; <b>He asked where did I live.</b> ✗ → <b>He asked where I lived.</b> ✓</div>`,
+check:[["She said she ___ tired. Từ nào điền vào chỗ trống?",["is being","was","be","will"],1,"Khi thuật lại, lùi thì về quá khứ."],["He ___ me he would come. Từ nào điền vào chỗ trống?",["said","say","told","tell to"],2,"Có người nghe (\"me\") thì dùng \"told\"."],["“Anh ấy hỏi tôi sống ở đâu” trong tiếng Anh là câu nào?",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"Câu hỏi được thuật lại theo trật tự câu khẳng định."]],
 practice:[
-["mc","She said she ___ busy.","was","is being","be","were being","전하는 말은 시제를 과거로 옮겨요."],
-["mc","He ___ me he was late.","told","said","say","tells to","듣는 사람이 있으면 told예요."],
-["mc","'그는 오겠다고 했어요' =","He said he would come.","He said he will came.","He told he would come.","He said me he would come.","will은 would로 바뀌어요."],
-["mc","'그녀는 제가 괜찮은지 물었어요' =","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","예/아니오 질문은 if로 전해요."],
-["mc","'그는 제가 어디 사는지 물었어요' =","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","전하는 질문은 평서문 순서예요."],
-["or","그녀는 피곤하다고 했어요","She said she was tired","told","듣는 사람이 없으면 said예요."],
-["or","그는 차를 샀다고 했어요","He said he bought a car","the cars","처음 말하는 차 한 대라서 관사 a예요."],
-["or","그녀는 그 책이 좋았다고 했어요","She said she liked the book","a books","서로 아는 그 책이라서 관사 the예요."],
-["fi","She __ she was tired.","그녀는 피곤하다고 했어요","said","told|asked|say","듣는 사람이 없으면 said예요."],
-["fi","He told __ he was busy.","그는 저한테 바쁘다고 했어요","me","I|my|to","told 뒤에는 듣는 사람이 와요."],
-["fi","She asked __ I was okay.","그녀는 제가 괜찮은지 물었어요","if|whether","that|what|did","예/아니오 질문은 if로 전해요."],
-["ty","그는 바쁘다고 했어요","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","전하는 말은 시제를 과거로 옮겨요."],
-["ty","그녀는 차가 있다고 했어요","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — 관사 a","the","처음 말하는 차 한 대라서 관사 a예요."],
-["ty","그는 그 영화를 봤다고 했어요","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — 관사 the","a","서로 아는 그 영화라서 관사 the예요."]]},
+["mc","She said she ___ busy. Từ nào điền vào chỗ trống?","was","is being","be","were being","Khi thuật lại, lùi thì về quá khứ."],
+["mc","He ___ me he was late. Từ nào điền vào chỗ trống?","told","said","say","tells to","Có người nghe thì dùng \"told\"."],
+["mc","“Anh ấy nói là sẽ đến” =","He said he would come.","He said he will came.","He told he would come.","He said me he would come.","\"Will\" đổi thành \"would\"."],
+["mc","“Cô ấy hỏi tôi có ổn không” =","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","Câu hỏi có/không được thuật lại bằng \"if\"."],
+["mc","“Anh ấy hỏi tôi sống ở đâu” =","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","Câu hỏi được thuật lại theo trật tự câu khẳng định."],
+["or","Cô ấy nói là cô ấy mệt","She said she was tired","told","Không có người nghe thì dùng \"said\"."],
+["or","Anh ấy nói là đã mua một chiếc ô tô","He said he bought a car","the cars","Lần đầu nhắc đến một chiếc xe nên dùng mạo từ \"a\"."],
+["or","Cô ấy nói là cô ấy thích quyển sách đó","She said she liked the book","a books","Quyển sách mà cả hai đều biết nên dùng mạo từ \"the\"."],
+["fi","She __ she was tired.","Cô ấy nói là cô ấy mệt","said","told|asked|say","Không có người nghe thì dùng \"said\"."],
+["fi","He told __ he was busy.","Anh ấy bảo tôi là anh ấy bận","me","I|my|to","Sau \"told\" là người nghe, dùng đại từ tân ngữ \"me\"."],
+["fi","She asked __ I was okay.","Cô ấy hỏi tôi có ổn không","if|whether","that|what|did","Câu hỏi có/không được thuật lại bằng \"if\"."],
+["ty","Anh ấy nói là anh ấy bận","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy — lùi thì","is","Khi thuật lại, lùi thì về quá khứ."],
+["ty","Cô ấy nói là cô ấy có ô tô","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — mạo từ \"a\"","the","Lần đầu nhắc đến một chiếc xe nên dùng mạo từ \"a\"."],
+["ty","Anh ấy nói là đã xem bộ phim đó","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — mạo từ \"the\"","a","Bộ phim mà cả hai đều biết nên dùng mạo từ \"the\"."]]},
 ];

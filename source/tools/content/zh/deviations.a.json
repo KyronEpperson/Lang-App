@@ -1,0 +1,17 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "自我介绍": "localisation per profile zh.md §9 (Minji→Li Wei, Korea→China, Seoul→Beijing): cards 0 'My name is Li Wei.', 4 'I'm from China.', 5 'I live in Beijing.'",
+    "生存英语1": "localisation per profile zh.md §9: card 12 'Do you speak Korean?' → 'Do you speak Chinese?' (learner's own language)",
+    "闲聊": "localisation per profile zh.md §9: card 6 'Have you been to Korea?' → 'Have you been to China?'",
+    "赞美与好感": "localisation per profile zh.md §9: card 8 'Your Korean is really good!' → 'Your Chinese is really good!'",
+    "电话与短信缩写": "localisation per profile zh.md §9 (Minji→Li Wei; surname-first address, Mr. Kim→Mr. Li): cards 0 'Hello, this is Li Wei.', 1 'Can I speak to Mr. Li?'",
+    "旅行（机场与酒店）": "localisation per profile zh.md §9: card 8 reservation name 'under Kim' → 'under Li' (surname)",
+    "医院与紧急情况": "localisation per profile zh.md §9: card 15 'the Korean embassy' → 'the Chinese embassy' (learner's own embassy)",
+    "发音易错": "zh-only cards appended per profile zh.md §4.4 / §9 (cards 26–43): final voicing bed/bet, card/car, cap/cab; TH mouth/mouse; v/w wary, vest/west; n/l night, know/low (regional note); vowels bad (vs bed); clusters friends, asked, months. Pairs whose other half already exists reuse the shared cards (think/sink, three/tree, very, leave/live, light). Original 26 cards unchanged",
+    "中式英语陷阱": "zh-only deck (profile zh.md §4.8–4.10 / §9): one Chinese verb vs several English verbs (开 / 看 / 带 / 借 / 说 / 学) and Chinglish calques; linked to the zh-only lesson chinglish; no ko-en counterpart",
+    "数量表达": "zh-only deck (profile zh.md §4.7 / §9 optional deck): measure words vs English plurals and measure phrases for uncountables; linked to countable; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 20: zh-only decks 中式英语陷阱 and 数量表达 (profile zh.md §9) appended last"
+  }
+}

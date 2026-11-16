@@ -1,0 +1,17 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "Giới thiệu bản thân": "localisation per profile vi.md §9 (Minji→Minh, Korea→Vietnam, Seoul→Hanoi): cards 0 'My name is Minh.', 4 'I'm from Vietnam.', 5 'I live in Hanoi.'",
+    "Tiếng Anh cấp tốc 1": "localisation per profile vi.md §9: card 12 'Do you speak Korean?' → 'Do you speak Vietnamese?' (learner's own language)",
+    "Trò chuyện xã giao": "localisation per profile vi.md §9: card 6 'Have you been to Korea?' → 'Have you been to Vietnam?'",
+    "Lời khen · thiện cảm": "localisation per profile vi.md §9: card 8 'Your Korean is really good!' → 'Your Vietnamese is really good!'",
+    "Điện thoại · viết tắt khi nhắn tin": "localisation per profile vi.md §9 (Minji→Minh, Mr. Kim→Mr. Nguyen): cards 0 'Hello, this is Minh.', 1 'Can I speak to Mr. Nguyen?'",
+    "Du lịch (sân bay · khách sạn)": "localisation per profile vi.md §9: card 8 reservation name 'under Kim' → 'under Nguyen' (surname)",
+    "Bệnh viện · khẩn cấp": "localisation per profile vi.md §9: card 15 'the Korean embassy' → 'the Vietnamese embassy' (learner's own embassy)",
+    "Phát âm dễ sai": "vi-only cards appended per profile vi.md §4.13 / §9 (cards 26–41): thank/tank (θ→t), she/see (ʃ→s), ship/sip/sheep (ʃ→s, long/short), chair/share (tʃ/ʃ), pie/buy and pea/bee (initial p→b), night (l/n, pairs with the shared 'light'), full/fool (long/short). three/tree, rice/lice and light reuse the shared cards; watch/wash live in «Âm cuối» (targets must be unique). Original 26 cards unchanged",
+    "Âm cuối": "vi-only deck (profile vi.md §8 final-sounds, §9): final-consonant minimal pairs (six/sick, bag/back, dog/dock, seed/seat, card/car, wash/watch, mice/my, plus rise and nine paired with the shared rice / night), -s triple books/dogs/buses, -ed triple watched/played/wanted, clusters last/next/desks/months/asked/students, and hobby (no added -s); each note names the ending; linked to the vi-only lesson final-sounds; no ko-en counterpart",
+    "Lỗi dịch từ tiếng Việt": "vi-only deck (profile vi.md §4 / §9 optional deck): calques from Vietnamese — mở/tắt đèn (open/close the light), có = there is (Have many people), rất thích (I very like), đi chơi (play), How to…?, đi chợ, uống thuốc (drink medicine), I am agree, be before adjectives, trời mưa, wh-word in place, có… không (yes or no?), của (phone of Lan), noun-phrase order (shop coffee), nhà = family, mượn/cho mượn (borrow/lend), go to home, đã ≠ already; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 20: vi-only decks «Âm cuối» and «Lỗi dịch từ tiếng Việt» (profile vi.md §9) appended last"
+  }
+}

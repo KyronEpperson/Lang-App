@@ -1,0 +1,9 @@
+{
+  "lessons": {
+    "final-sounds": "vi-only lesson (profile vi.md §8 'add' / §4.13 / §9): final consonants, clusters, voicing at the end, linking, -s as /s z ɪz/ and an -ed preview; endings are the most documented Vietnamese pronunciation problem and carry plural and third-person -s; placed after third-s via profile.json lessonOrder.after; deck «Âm cuối»; no ko-en counterpart",
+    "noun-phrase": "vi-only lesson (profile vi.md §8 'add' / §4.6): noun-phrase order — adjective before the noun, noun + noun with a singular modifier (shoe shop), 's and my/your instead of «của», article before the whole phrase (an old car); placed after adjectives via profile.json lessonOrder.after; deck «Mua sắm · thanh toán» (the deck the profile names); no ko-en counterpart"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["final-sounds", "noun-phrase"]
+}

@@ -1,29 +1,28 @@
 {
   "native": "id",
-  "nativeNameEn": "TODO English name of the language (used in the pack header comment)",
+  "nativeNameEn": "Indonesian",
   "name": {
     "en": "English",
-    "id": "TODO the word for \"English\" in id"
+    "id": "bahasa Inggris"
   },
   "ttsLang": "en-US",
   "nativeScript": null,
-  "pron": "optional",
+  "pron": "required",
+  "pronPattern": "^[abcdefghijklmnoprstuvwyzéèABCDEFGHIJKLMNOPRSTUVWYZÉÈ ?!.,/-]+( \\((i pendek|u pendek|dengar audio)\\))?$",
   "standingRule": {
-    "kind": "none",
-    "keywords": ""
+    "kind": "article-plural",
+    "keywords": "\\bartikel|\\bjamak",
+    "flags": "i"
   },
   "labels": {
-    "mcBlankCue": "",
-    "typeHintCue": "",
-    "cueTest": null
+    "mcBlankCue": " Apa isi bagian yang kosong?",
+    "typeHintCue": " — pakai kata-kata ini",
+    "cueTest": "\\b([Yy]ang|[Uu]ntuk|[Dd]engan|[Aa]dalah|[Aa]rti|[Aa]rtinya|[Kk]alimat|[Bb]entuk|[Kk]ata|[Kk]ata-kata|[Ii]ni|[Ii]tu|[Tt]idak|[Bb]ukan|[Aa]pa|[Bb]agaimana|[Mm]ana|[Dd]alam|[Pp]ada|[Jj]amak|[Tt]unggal|[Aa]rtikel|[Bb]enar|[Ss]alah|[Tt]epat|[Pp]ilih|[Ii]si|[Kk]osong|[Ss]usun|[Tt]ulis|[Pp]akai|[Gg]unakan|[Jj]awab|[Jj]awaban|[Bb]ahasa|[Ii]nggris|[Ii]nggrisnya|[Ss]aya|[Aa]ku|[Kk]amu|[Dd]ia|[Mm]ereka|[Kk]ita|[Kk]ami|[Dd]i|[Kk]e|[Dd]ari|[Aa]tau|[Jj]uga|[Ss]udah|[Ss]edang|[Aa]kan|[Bb]elum|[Pp]ernah|[Ss]ebuah|[Ss]eorang|[Bb]erapa|[Ss]iapa|[Kk]apan|[Kk]enapa|[Mm]engapa|[Kk]arena|[Jj]adi|[Bb]isa|[Mm]au|[Hh]arus|[Tt]olong|[Ss]ebelum|[Ss]etelah|[Ss]esudah)\\b"
   },
-  "_help": {
-    "nativeScript": "regex source matching the learner's script (ja e.g. \"[\\\\u3040-\\\\u30ff\\\\u4e00-\\\\u9fff]\"); null when it is the Latin script (es): validators then require native strings to be non-empty and differ from the English",
-    "pron": "required | optional | none — policy for the card / {{ex:}} pron field (from docs/profiles/id.md)",
-    "standingRule": "kind \"article-plural\" (keywords = regex the why must contain, ko: \"관사|복수\"), \"verb-core\" (es) or \"none\"; optional \"flags\": \"i\"; new kinds: validate.js STANDING_RULES",
-    "pronPattern": "optional regex every non-empty pron must fully match (e.g. katakana only for ja)",
-    "labels": "mcBlankCue / typeHintCue are appended by more/_dsl.js to mc questions / type hints that contain no native text (cueTest regex, else nativeScript; null = never). ko: {\"mcBlankCue\":\" 빈칸에 알맞은 것은?\",\"typeHintCue\":\" — 이 단어들로\"}",
-    "lessonOrder": "optional {\"after\": {\"<extra lesson id>\": \"<id it follows>\"}} — also list the id in deviations.json extraLessons",
-    "_help": "delete this _help block when done"
+  "lessonOrder": {
+    "after": {
+      "indo-english": "smalltalk",
+      "time-markers": "perfect"
+    }
   }
 }
