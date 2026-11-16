@@ -426,7 +426,7 @@ practice:[
 ["ty","コーヒーも紅茶も好きです","I like coffee and tea","like · coffee · and · tea — 冠詞なしで","a","一般的な coffee、tea には冠詞をつけません。"],
 ["ty","疲れているけど幸せです","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","「〜けど」は but です。"],
 ["ty","犬も猫も好きです","I like dogs and cats|I like cats and dogs","dog · and · cat — 複数","dog","動物全般は複数形 dogs、cats で言います。"]]},
-{ id:"katakana-english", title:"カタカナ英語の落とし穴：和製英語と意味のずれ", blurb:"マンションは mansion ではありません。カタカナ語は、英語でも同じ意味か確かめてから使いましょう。", deck:"スモールトーク", body:`
+{ id:"katakana-english", title:"カタカナ英語の落とし穴：和製英語と意味のずれ", blurb:"マンションは mansion ではありません。カタカナ語は、英語でも同じ意味か確かめてから使いましょう。", deck:"カタカナ英語の落とし穴", body:`
 <p>日本語には英語から来たカタカナ語がたくさんあります。便利な反面、日本で作られた言葉（和製英語）や、英語とは意味がずれた言葉も多く、そのまま使うと通じなかったり、誤解されたりします。</p>
 <h3>和製英語：英語にない言葉</h3>
 <div class="tbl"><table><tr><th>カタカナ語</th><th>英語</th></tr><tr><td>サラリーマン</td><td class="k">office worker</td></tr><tr><td>ノートパソコン</td><td class="k">laptop</td></tr><tr><td>コンセント</td><td class="k">outlet</td></tr><tr><td>バイキング（食べ放題）</td><td class="k">buffet</td></tr><tr><td>シャープペンシル</td><td class="k">mechanical pencil</td></tr></table></div>

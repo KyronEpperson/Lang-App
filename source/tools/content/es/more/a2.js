@@ -235,7 +235,7 @@ practice:[
 ["ty","Ella tiene una amiga que habla japonés","She has a friend who speaks Japanese|She has a friend that speaks Japanese","friend · who · speak Japanese — con la tercera persona","have","Con \"she\" va \"has\", y \"speaks\" concuerda con \"a friend\": tercera persona."],
 ["ty","La película que vimos estuvo buenísima","The movie we saw was great|The movie that we saw was great|The movie we saw was amazing|The movie that we saw was amazing","movie · we saw · great — el relativo es opcional","were","Puedes omitir \"that\", y con \"the movie\" (singular) va \"was\": concordancia."],
 ["ty","Este es el celular que quiero","This is the phone I want|This is the phone that I want|This is the phone which I want","phone · I want — el relativo es opcional","what","Puedes omitir \"that\": \"the phone I want\"."]]},
-{ id:"make-do", title:"make o do, say o tell", blurb:"«Hacer» puede ser make o do, y «decir», say o tell. Aprende las combinaciones más comunes.", deck:"Trabajo y correo", body:`
+{ id:"make-do", title:"make o do, say o tell", blurb:"«Hacer» puede ser make o do, y «decir», say o tell. Aprende las combinaciones más comunes.", deck:"Make y do", body:`
 <p>En español, «hacer» sirve para casi todo. En inglés hay dos verbos: <b>make</b> (crear o producir algo) y <b>do</b> (realizar una tarea o una actividad). La regla ayuda, pero lo más útil es aprender las combinaciones fijas.</p>
 <div class="tbl"><table><tr><th>make</th><th>do</th></tr><tr><td class="k">a mistake, a decision, friends, dinner, money, a plan</td><td class="k">homework, the dishes, business, exercise, a favor, your best</td></tr></table></div>
 <h3>make: crear o producir</h3>

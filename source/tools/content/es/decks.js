@@ -351,7 +351,7 @@ look up | LUK AP | buscar (en el diccionario o en internet) | "Look it up online
 give back | GUIV BAK | devolver | Con objetos es más común que "return": "Give it back!"
 throw away | THROU e-WEI | tirar (a la basura) | "Don't throw it away!" En Estados Unidos también se dice "throw out"
 sit down | SIT DAUN | sentarse | "Please sit down." Para levantarse de una silla: "stand up"
-end up | END AP | terminar (sin haberlo planeado) | "We ended up at a taco place." (Terminamos en una taquería.)
+end up | END AP | terminar (sin haberlo planeado) | "We ended up at a taco place." (Terminamos en un lugar de tacos.)
 run into | RAN IN-tu | encontrarse por casualidad con | "I ran into Carlos at the mall." Para un encuentro sin planear. "into" se escribe junto
 take care of | TEIK KER ev | cuidar / encargarse de | "I'll take care of it." (Yo me encargo.) Para cuidar a alguien también: "look after"
 hurry up | JER-i AP | apurarse / darse prisa | "Hurry up! We're late." Sin "up" es igual de correcto: "Hurry!"
@@ -497,7 +497,7 @@ do exercise | DUU EK-ser-sais | hacer ejercicio | Aún más común: el verbo sol
 do someone a favor | DUU SAM-wan e FEI-ver | hacerle un favor a alguien | "Can you do me a favor?" = ¿Me haces un favor? En inglés británico se escribe "favour"
 do your best | DUU iur BEST | dar lo mejor de ti | "Don't worry, just do your best."
 do business | DUU BIS-nes | hacer negocios | "We do business in Mexico." "business" tiene solo dos sílabas: BIS-nes
-do the shopping | DUU dhe SHAA-ping | hacer las compras | Para la compra de la semana. Ir de compras por gusto: "go shopping"
+do the grocery shopping | DUU dhe GROU-se-ri SHAA-ping | hacer las compras del supermercado | La compra de comida de la semana. Ir de compras por gusto: "go shopping"
 do a good job | DUU e GUD DYAAB | hacer un buen trabajo | "You did a good job!" Ojo: aquí "job" es la tarea, no el empleo
 `,
 "Incontables": `
@@ -523,7 +523,7 @@ conversation | kaan-ver-SEI-shen | conversación | -tion = -ción. Ojo: el acent
 university | iu-ni-VER-si-ri | universidad | -ty = -dad. Ojo: el acento va en "VER", no al final. Empieza con sonido «iu»: "a university", no "an university"
 opportunity | aa-per-TUU-ni-ri | oportunidad | -ty = -dad. Ojo: el acento va en "TUU", no al final. La "t" de "-ty" suena casi como una «r» suave
 famous | FEI-mes | famoso / famosa | -ous = -oso. Ojo: el acento va al principio, en "FEI", y "-ous" suena «es»
-delicious | di-LI-shes | delicioso / deliciosa | -ous = -oso. El acento cae en la misma sílaba que en español, pero "-cious" suena «shes»
+delicious | di-LI-shes | delicioso / deliciosa | -ous = -oso. Ojo: el acento va en "LI", no en «cio» como en «delicioso». Y "-cious" suena «shes»
 probably | PRAA-be-bli | probablemente | -ly = -mente. Ojo: el acento va al principio, en "PRAA"; en español va en «men»
 exactly | ig-SAKT-li | exactamente | -ly = -mente. La "x" suena «gs» y el acento va en "SAKT"
 different | DI-frent | diferente / distinto | -ent = -ente. Ojo: el acento va al principio y se dicen solo dos sílabas: «DI-frent». Se dice "different from", no "different of"

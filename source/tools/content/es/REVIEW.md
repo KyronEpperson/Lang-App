@@ -116,22 +116,23 @@ Scope: additions only. No existing deck, card, card text or card order changed (
 | Phrasal verbs (extended) | +18 (24 → 42) | come in, go on, put up with, put out, get up, go out, come back, get on, take off, put on, look up, give back, throw away, sit down, end up, run into, take care of, hurry up; notes name the Latinate verb they replace (enter, continue, tolerate, extinguish, return) |
 | Palabras esenciales (new) | 24 | get (×4 senses), take, put, keep, enough (×3, incl. word order), though, even though, already, still, yet (×2), would, let, bring, almost, anyway, in short phrases |
 | Falsos amigos (new) | 23 | actually/currently, embarrassed/pregnant, library/bookstore, attend/assist, realize, sensible, career, college, exit/success, carpet, constipated, pretend, eventually, bother (vs molest), parents, discuss, support, introduce; partial cognates (realize, discuss, support) carry «Ojo:» notes |
-| Make y do (new) | 20 | 11 make + 9 do collocations |
+| Make y do (new) | 20 | 11 make + 9 do collocations (do the grocery shopping, not the British "do the shopping") |
 | Incontables (new) | 15 | advice (×2, incl. a piece of), information, news, furniture, homework, luggage, hair, traffic, money, progress, fun, bread, weather, work, in sentences that show singular agreement, much, a piece of, no a/an |
 | Cognados y acento (new) | 14 | -tion, -ty, -ous, -ly, -ent, ph/f, ch/qu, plus comfortable; every note gives the correspondence and an «Ojo:» on stress where English differs from Spanish |
 
 Registered in meta.js (new group «Claves para hispanohablantes», tag `skills`, DESC for each deck), DECKNAMES.md, and deviations.json (`decks` "16", "20"–"24", "count"). Respellings follow PRON-RULES.md; the scratch word → respelling check found no new conflicts, and phrases that already exist as lesson examples ("Can I give you some advice?", "The news is good.") reuse their exact `pron`.
 
 ### Roadmap titles
-tools/i18n/es/roadmap.json: all 425 `t` filled (stage names, planned-lesson titles, variant and basis lines for the 15 roadmaps). Only `t` changed (checked by script). Sentence case; target-language words kept as written (감사합니다, は, Passé composé, Iḍāfa…); CEFR → MCER; "X vs Y" → «X frente a Y»; glossary terms (presente perfecto, pasado continuo, estilo indirecto, voz pasiva, palabras interrogativas, orden de las palabras).
+tools/i18n/es/roadmap.json: all 425 `t` filled (stage names, planned-lesson titles, variant and basis lines for the 15 roadmaps). Only `t` changed (checked by script). Sentence case; target-language words kept as written (감사합니다, は, Passé composé, Iḍāfa…); CEFR → MCER; "X vs Y" → «X frente a Y»; "Impersonal se" → «El se impersonal»; glossary terms (presente perfecto, pasado continuo, estilo indirecto, voz pasiva, palabras interrogativas, orden de las palabras).
 
 ### For a native speaker to check
-1. **New respellings** to read against the audio: i-NAF (enough), DHOU (though), OL-moust, E-ni-wei, ME-sidy, JER-i AP, iu-ni-VER-si-ri, aa-per-TUU-ni-ri, FOU-re-graf, KAMF-ter-bel, LON-dri, ke-RIR, PER-ents, BAA-dher.
-2. **Regional wording**: «tender la cama / hacer la cama», «pedir una cita», «hacer las compras», «¿Me trae pan, por favor?», «taquería» in the end up note (Mexican flavour; «Terminamos en un lugar de tacos» would be more neutral).
+1. **New respellings** to read against the audio: i-NAF (enough), DHOU (though), OL-moust, E-ni-wei, ME-sidy, GROU-se-ri, iu-ni-VER-si-ri, aa-per-TUU-ni-ri, FOU-re-graf, KAMF-ter-bel, LON-dri, ke-RIR, PER-ents, BAA-dher.
+2. **Regional wording**: «tender la cama / hacer la cama», «pedir una cita», «hacer las compras del supermercado», «¿Me trae pan, por favor?», «Terminamos en un lugar de tacos» (end up note).
 3. **The bother/molest note** names sexual abuse explicitly. It is the standard warning, but check the tone.
 4. **Glosses that could be argued**: «assist = ayudar (formal)» (it also means «asistir» to a person), «career = trayectoria profesional», «It takes 20 minutes = Se tarda 20 minutos».
 5. **Roadmap terms**: «clasificadores» for Korean/Chinese/Japanese counters, «plurales sanos y fractos» (Arabic), «paréntesis verbal» (German Satzklammer), «Prepositivo» (Russian case), «Hindi universitario para principiantes, etapas 1-2».
 6. **Lesson make-do still links to «Trabajo y correo»**: consider pointing it to «Make y do» (left unchanged on purpose).
+7. **Sixth deck group** «Claves para hispanohablantes»: the engine renders any number of groups, but it appends «My phrases» to the last group, so that deck now shows under the new group instead of «Como un nativo». The `conv` plan (`@path`) now spans 25 decks instead of 20, which lengthens the schedule for anyone mid-plan; the new group earns its own certificate, and «Como un nativo» is unchanged.
 
 ### Results (scratch output, live pack untouched)
 - `node tools/content/gen.js es <scratch>`: written (25 decks, 480 cards).

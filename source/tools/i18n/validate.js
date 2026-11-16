@@ -24,7 +24,8 @@ if(!P||typeof P.exact!=='object'||!Array.isArray(P.patterns)){ fail('shape: pack
 if(Object.keys(ctx.LANGAPP_PACKS).join()!=='course,i18n'||Object.keys(ctx.LANGAPP_PACKS.i18n).join()!==LANG||Object.keys(ctx.LANGAPP_PACKS.course).length) fail('pack assigns outside i18n.'+LANG);
 const ex=P.exact, keys=Object.keys(ex);
 /* duplicates: parse keys from source lines */
-const lineKeys=[...src.matchAll(/^\s{4}("(?:[^"\\]|\\.)*")\s*:/gm)].map(m=>JSON.parse(m[1]));
+const exSrc=src.split('\n  patterns: [')[0]; /* the optional road map (roadmap titles, tools/i18n/road.py) comes after patterns and is checked by road.py */
+const lineKeys=[...exSrc.matchAll(/^\s{4}("(?:[^"\\]|\\.)*")\s*:/gm)].map(m=>JSON.parse(m[1]));
 const seen=new Map(); lineKeys.forEach(k=>seen.set(k,(seen.get(k)||0)+1));
 const dups=[...seen].filter(([k,n])=>n>1); if(dups.length) fail('duplicate keys: '+JSON.stringify(dups));
 if(lineKeys.length!==keys.length) fail('parsed '+lineKeys.length+' keys vs '+keys.length+' loaded');

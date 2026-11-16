@@ -36,7 +36,7 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["What do you do?","ワット ドゥ ユー ドゥー?","お仕事は何をされていますか？","職業を聞く定番の質問です。What's your job? よりやわらかく聞こえます。"],
       ["I work at a bank.","アイ ワーク アラ バンク","銀行で働いています","会社や職場の前は at です。例：I work at Toyota."],
       ["I work in marketing.","アイ ワーク イン マーケリング","マーケティングの仕事をしています","分野や部署の前は in です。会社名の前の at と区別しましょう。"],
-      ["I'm 25 years old.","アイム トゥウェニーファイヴ イヤーズ オウルド","25歳です","自わから言うのは問題ありませんが、英語圏では初対面で相手の年齢を聞くのは避けましょう。"],
+      ["I'm 25 years old.","アイム トゥウェニーファイヴ イヤーズ オウルド","25歳です","自分から言うのは問題ありませんが、英語圏では初対面で相手の年齢を聞くのは避けましょう。"],
       ["I'm really into hiking.","アイム ゥリーリー イントゥ ハイキング","ハイキングにハマっています","My hobby is … より自然な趣味の言い方です。"],
       ["I like watching movies.","アイ ライク ワッチング ムーヴィーズ","映画を見るのが好きです","like の後ろに動作が来るときは ing形 か to + 動詞の原形 にします。"],
       ["I've been learning English for a year.","アイヴ ビン ラーニング イングリッシュ フォーラ イヤー","英語を1年間勉強しています","以前から続けていて今も続いていることは have been + ing形（現在完了進行形）で表します。"],
@@ -101,7 +101,10 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["Can you take me to this address?","キャニュー テイク ミー タ ズィス アドゥレス?","この住所までお願いします","タクシーで画面を見せながら言えば間違いがありません。"],
       ["Could you pull over here?","クジュー プル オウヴァー ヒア?","ここで止めてもらえますか？","タクシーや車から降りたいときに。Right here is fine. もOKです。"],
       ["How long does it take?","ハウ ローング ダズィット テイク?","どのくらいかかりますか？","答えは About 20 minutes. などです。"],
-      ["Is this seat taken?","イズ ズィス スィート テイクン?","この席は空いていますか？","空いていれば No, go ahead. と言われます。seat は長く「スィート」と発音します。"]
+      ["Is this seat taken?","イズ ズィス スィート テイクン?","この席は空いていますか？","空いていれば No, go ahead. と言われます。seat は長く「スィート」と発音します。"],
+      ["Where can I buy a transit card?","ウェア キャナイ バイ ア トゥランズィット カード?","交通系ICカードはどこで買えますか？","Suica のようなカードは英語で transit card と言います。IC card とはふつう言いません。都市ごとに呼び名があり、ロンドンなら Oyster card です。"],
+      ["Do I tap my card here?","ドゥ アイ タップ マイ カード ヒア?","ここでカードをタッチしますか？","改札でカードを「タッチする」は tap と言います。スマホやクレジットカードをかざして乗れる都市も増えています。"],
+      ["How do I add money to my card?","ハウ ドゥ アイ アッド マニー タ マイ カード?","カードにチャージするにはどうすればいいですか？","入金の「チャージ」は英語では add money / reload / top up です。英語の charge は「（料金を）請求する」「充電する」の意味がふつうです。"]
     ],
     "レストランで注文": [
       ["A table for two, please.","ア テイブル フォー トゥー, プリーズ","2名です","アメリカのレストランでは、店員が席に案内するまで入り口で待つのが一般的です。"],
@@ -135,7 +138,7 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["Can I get a receipt?","キャナイ ゲラ ゥリスィート?","レシートをください","receipt の p は発音しません。"],
       ["Where can I find batteries?","ウェア キャナイ ファインド バラリーズ?","電池はどこにありますか？","商品の場所を聞くときの万能フレーズです。"],
       ["Do you sell phone chargers?","ドゥ ユー セル フォウン チャージャーズ?","スマホの充電器は売っていますか？","Do you have 〜? も同じ意味です。"],
-      ["Can you heat this up?","キャニュー ヒート ズィサップ?","これを温めてもらえますか？","海外のコンビニでは「温めますか？」と聞かれないことが多いので、自わから頼みましょう。"],
+      ["Can you heat this up?","キャニュー ヒート ズィサップ?","これを温めてもらえますか？","海外のコンビニでは「温めますか？」と聞かれないことが多いので、自分から頼みましょう。"],
       ["That's it.","ザッツィット","以上です","店員に Anything else? と聞かれたときに使います。"],
       ["Here you go.","ヒア ユー ゴウ","はい、どうぞ","お金や物を手渡すときに使います。"],
       ["Keep the change.","キープ ザ チェインジ","おつりは取っておいてください","タクシーなどで、チップ代わりによく使います。"]
@@ -194,7 +197,13 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["Oh, really?","オウ, ゥリーリー?","え、本当ですか？","興味を示すあいづちです。語尾を上げます。"],
       ["By the way","バイ ザ ウェイ","ところで","話題を変えるときに使います。メッセージでは BTW です。"],
       ["How's work?","ハウズ ワーク?","仕事はどうですか？","知り合い同士の近況の聞き方です。Busy, but good! のように答えます。"],
-      ["It was nice talking to you.","イット ワズ ナイス トーキング タ ユー","お話しできて楽しかったです","会話を自然に終わらせるときに使います。"]
+      ["It was nice talking to you.","イット ワズ ナイス トーキング タ ユー","お話しできて楽しかったです","会話を自然に終わらせるときに使います。"],
+      ["It's supposed to rain tomorrow.","イッツ サポウスト タ ゥレイン タマーロウ","明日は雨らしいですよ","be supposed to で「〜らしい、〜の予定だ」。天気予報の話はスモールトークの定番です。"],
+      ["What kind of food do you like?","ワット カインダヴ フード ドゥ ユー ライク?","どんな食べ物が好きですか？","食べ物は誰とでも盛り上がる安全な話題です。答えたら What about you? と聞き返しましょう。"],
+      ["Have you tried Japanese food?","ハヴュー トゥライド ジャパニーズ フード?","日本食を食べたことはありますか？","相手が日本に興味を持っていそうなら自然な話題です。Can you use chopsticks? は「どうせ使えないでしょう」という前提に聞こえることがあるので避けましょう。"],
+      ["Do you like to travel?","ドゥ ユー ライク タ トゥラヴェル?","旅行は好きですか？","趣味の話を広げる定番の質問です。Where have you been recently? と続けられます。"],
+      ["I love going to hot springs.","アイ ラヴ ゴウイング タ ハット スプリングズ","温泉に行くのが大好きです","温泉は hot spring(s) です。日本好きの人なら onsen でも通じます。"],
+      ["Do you watch anime?","ドゥ ユー ワッチ アニメイ?","アニメは見ますか？","英語の anime は日本のアニメを指します。アメリカのアニメはふつう cartoon と言います。血液型・年齢・結婚しているかどうかは、英語圏では初対面で聞かないのがマナーです。"]
     ],
     "気持ち・リアクション": [
       ["I'm so happy for you!","アイム ソウ ハッピー フォー ユー!","本当によかったね！","相手にいいことがあったときに使います。"],
@@ -254,7 +263,17 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["What's the deadline?","ワッツ ザ デッドライン?","締め切りはいつですか？","When is this due? も同じ意味です。"],
       ["I'm working from home today.","アイム ワーキング フラム ホウム トゥデイ","今日は在宅勤務です","略して WFH。「リモートワーク」も通じますが、会話では work from home がよく使われます。"],
       ["I'm off tomorrow.","アイム オーフ タマーロウ","明日は休みです","有給休暇を取るなら I'm taking a day off tomorrow. です。"],
-      ["Thanks for all your hard work.","サンクス フォー オール ユア ハード ワーク","本当にお疲れさまでした","「お疲れさまです」にぴったりの英語はありません。毎日の退勤時は See you tomorrow! で十分です。"]
+      ["Thanks for all your hard work.","サンクス フォー オール ユア ハード ワーク","本当にお疲れさまでした","「お疲れさまです」にぴったりの英語はありません。毎日の退勤時は See you tomorrow! で十分です。"],
+      ["Hi Yuki,","ハイ ユーキ","ユキさん、こんにちは（メールの書き出し）","英語のメールでは、同僚や取引先にも Hi + ファーストネーム がふつうです。「さん」「様」にあたる言葉はないので、Dear Yuki-san ✕ → Hi Yuki, ○ です。"],
+      ["Dear Mr. Smith,","ディア ミスター スミス","スミス様（改まったメールの書き出し）","初めての相手や改まった場面では Dear + Mr. / Ms. + 名字 を使います。返信で相手がファーストネームで署名してきたら、次からは Hi + 名前 に切り替えましょう。"],
+      ["I hope you're doing well.","アイ ホウプ ユア ドゥーイング ウェル","お元気でお過ごしでしょうか","「お世話になっております」の代わりになる、やわらかい書き出しです。毎回書く必要はありません。"],
+      ["Thanks in advance.","サンクス イン アドヴァンス","よろしくお願いします（依頼の結び）","何かを頼んだメールの結びに使います。「よろしくお願いします」に決まった訳はなく、場面に合わせて Thanks! / Best, なども使います。"],
+      ["Looking forward to hearing from you.","ルッキング フォーワード タ ヒアリング フラム ユー","ご連絡をお待ちしております","この to は前置詞なので、後ろは ing形 です。返事がほしいときの結びの定番です。"],
+      ["Just following up on my last email.","ジャスト ファーロウインガップ オン マイ ラスト イーメイル","前回のメールの件で、念のためご連絡しました","返事が来ないときの、やわらかい催促の書き出しです。謝りすぎず、用件だけを短く書きましょう。"],
+      ["Does Tuesday work for you?","ダズ トゥーズデイ ワーク フォー ユー?","火曜日のご都合はいかがですか？","日程調整の定番です。この work は「（予定が）都合がいい」の意味です。"],
+      ["Could we reschedule?","クッド ウィ ゥリースケジュール?","日程を変更できますか？","都合が悪くなったときに使います。理由は Something came up.（急用ができました）で十分です。"],
+      ["I'll send you a calendar invite.","アイル センジュー ア キャレンダー インヴァイト","カレンダーの招待を送ります","会議の日程が決まったあとの定番の一言です。名詞の invite は前を強く読みます。"],
+      ["Feel free to reach out.","フィール フリー タ ゥリーチャウト","お気軽にご連絡ください","reach out は「連絡する」。メールの結びで Let me know if you have any questions. と同じように使えます。"]
     ],
     "電話・メッセージ略語": [
       ["Hello, this is Yuki.","ヘロウ, ズィス イズ ユーキ","もしもし、ユキです","電話では I'm Yuki. ではなく This is Yuki. と言います。"],
@@ -274,7 +293,16 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["ASAP","エイエスエイピー / エイサップ","至急（as soon as possible）","職場でも使いますが、上司や取引先には具体的な日付を伝えるほうが丁寧です。"],
       ["TTYL","ティーティーワイエル","またあとでね（talk to you later）","会話を終えるときに使います。"],
       ["NVM","エンヴィーエム","やっぱりいいや（never mind）","質問を取り消すときに使います。"],
-      ["FYI","エフワイアイ","ご参考まで（for your information）","仕事のメールやチャットでもよく使います。"]
+      ["FYI","エフワイアイ","ご参考まで（for your information）","仕事のメールやチャットでもよく使います。"],
+      ["haha","ハハ","笑 / w（文字で笑うとき）","日本語の「笑」や「w」にいちばん近い書き方です。hahaha と長くするほど大笑いになります。lol より少し気持ちがこもった感じです。"],
+      ["JK","ジェイケイ","冗談だよ（just kidding）","言いすぎたかなと思ったときに、文の最後につけます。日本語で「（笑）」をつけて和らげる感覚に近いです。日本語の「JK（女子高生）」とは関係ありません。"],
+      ["OMW","オウエムダブリュー","今向かってる（on my way）","I'm on my way. の略です。待ち合わせのメッセージでよく使います。"],
+      ["GTG","ジーティージー","もう行かなきゃ（got to go）","チャットやゲームを抜けるときに使います。g2g とも書きます。"],
+      ["IMO","アイエムオウ","私の意見では（in my opinion）","意見をやわらかく言うときに使います。IMHO（in my humble opinion）とも書きます。"],
+      ["TMI","ティーエムアイ","そこまで聞いてない（too much information）","生々しい話を聞かされたときの、軽いツッコミです。"],
+      ["TY","ティーワイ","ありがとう（thank you）","thx とも書きます。返事は NP（no problem）や YW（you're welcome）です。"],
+      ["NP","エンピー","いいよ / 気にしないで（no problem）","Thanks! への軽い返事です。仕事の相手には No problem! と書くほうが無難です。"],
+      ["HBD","エイチビーディー","誕生日おめでとう（happy birthday）","SNSのコメントでよく見かけます。親しい相手以外には Happy birthday! と書くほうが丁寧です。"]
     ],
     "旅行（空港・ホテル）": [
       ["Here's my passport.","ヒアズ マイ パスポート","パスポートをどうぞ","チェックインや入国審査で手渡しながら言います。"],
@@ -294,7 +322,11 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["Can you hold my bags until 3?","キャニュー ホウルド マイ バッグズ アンティル スリー?","3時まで荷物を預かってもらえますか？","チェックアウト後に荷物を預けたいときに。hold は「預かっておく」です。"],
       ["My flight was delayed.","マイ フライト ワズ ディレイド","飛行機が遅れました","欠航は canceled です。"],
       ["Where's gate 12?","ウェアズ ゲイト トゥウェルヴ?","12番ゲートはどこですか？","英語では番号を後ろにつけます。"],
-      ["Do I need to take my laptop out?","ドゥ アイ ニード タ テイク マイ ラップタップ アウト?","ノートパソコンは出す必要がありますか？","保安検査で使います。「ノートパソコン」は英語で laptop。note PC は和製英語です。"]
+      ["Do I need to take my laptop out?","ドゥ アイ ニード タ テイク マイ ラップタップ アウト?","ノートパソコンは出す必要がありますか？","保安検査で使います。「ノートパソコン」は英語で laptop。note PC は和製英語です。"],
+      ["I'm flying out of Haneda.","アイム フライインガウラヴ ハネイダ","羽田から出発します","出発する空港は fly out of で表します。成田なら Narita、関西空港なら Kansai International です。"],
+      ["I'd like to check this bag.","アイド ライク タ チェック ズィス バッグ","このかばんを預けたいです","空港で荷物を預けるのは check です。機内持ち込みの手荷物は carry-on と言います。"],
+      ["I have a connecting flight.","アイ ハヴァ カネクティング フライト","乗り継ぎ便があります","乗り継ぎは connecting flight / connection と言います。乗り継ぎ時間が短いときは、係員にこう伝えましょう。"],
+      ["How much should I tip?","ハウ マッチ シュダイ ティップ?","チップはいくら払えばいいですか？","日本にはチップの習慣がありませんが、アメリカではレストランで15〜20%が目安です。タクシーやホテルのポーターにも少額を渡します。"]
     ],
     "病院・緊急時": [
       ["Help!","ヘルプ!","助けて！","緊急時は大きな声で叫びましょう。"],
@@ -367,7 +399,28 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["banana","バナナ","バナナ","真ん中の「ナ」を強く、長めに読みます。日本語のように平らに読むと通じにくいです。"],
       ["hotel","ホウテル","ホテル","後ろの「テル」を強く読みます。前を強く読むと不自然です。"],
       ["milk","ミルク","牛乳","最後の「ク」に母音をつけないように。最後の子音は口の形だけ軽く作ります。"],
-      ["McDonald's","マクダーナルズ","マクドナルド","「ダー」を強く読みます。「マクドナルド」と言うと通じにくいです。"]
+      ["McDonald's","マクダーナルズ","マクドナルド","「ダー」を強く読みます。「マクドナルド」と言うと通じにくいです。"],
+      ["play","プレイ (l)","遊ぶ / （スポーツ・楽器を）する","L：舌先を上の歯ぐきにつけます。pl のように子音が続くところは、R/L の区別がいちばん難しい位置です。"],
+      ["pray","プレイ (r)","祈る","R：舌をどこにもつけず、唇を丸めます。カタカナでは play と同じ「プレイ」になるので、音声で聞き分けましょう。"],
+      ["fly","フライ (l)","飛ぶ / ハエ","fl の L です。舌先を上の歯ぐきにつけてから離します。"],
+      ["fry","フライ (r)","揚げる / 炒める","料理の「フライ」はこちらですが、音は R です。fly と言うと「ハエ」や「飛ぶ」に聞こえます。"],
+      ["sea","スィー (s)","海","s + イー。日本語の「シー」ではなく「スィー」です。舌先を下の歯の裏に近づけて息を出します。"],
+      ["she","シー (sh)","彼女は","唇を少し突き出して出す sh の音です。sea を「シー」と言うと she に聞こえます。"],
+      ["seat","スィート (s)","座席","「シート」と言うと sheet（シーツ）に聞こえます。スィ の音を意識しましょう。"],
+      ["sheet","シート (sh)","シーツ / （紙）1枚","sh の音です。a sheet of paper で「紙1枚」です。"],
+      ["sick","スィック (s)","病気の / 気分が悪い","s の音です。thick と同じ「スィック」になるので、舌の位置で区別します。"],
+      ["thick","スィック (th)","厚い / 濃い","TH：舌先を上下の歯で軽くはさんで息を出します。"],
+      ["mouse","マウス (s)","ネズミ / （パソコンの）マウス","最後は舌が歯の裏に隠れた s です。"],
+      ["mouth","マウス (th)","口","最後は舌を歯の間に出す th です。mouse と同じカタカナになるので、音声で確かめましょう。"],
+      ["food","フード (f)","食べ物","F：上の歯を下唇に当てて息を出します。日本語の「フ」は唇を合わせる音なので、そのままだと who'd に近く聞こえます。"],
+      ["who'd","フード (h)","who would / who had の短縮形","H：唇は合わせず、のどから息を出します。food との違いは音声で聞き分けましょう。"],
+      ["fold","フォウルド (f)","折りたたむ","f の音です。上の歯を下唇に当てます。"],
+      ["hold","ホウルド (h)","持つ / 押さえておく","h の音です。唇はどこにもつけません。"],
+      ["cold","コウルド","寒い / 冷たい","二重母音：「コ」から「ウ」へ口を動かします。「コールド」と伸ばすと called に聞こえます。"],
+      ["called","コールド","call の過去形（電話した / 呼んだ）","口を縦に開いたまま「コー」と伸ばします。cold の「コウ」と区別しましょう。"],
+      ["low","ロウ","低い","二重母音の「オウ」です。「ロー」と伸ばすと law に聞こえます。"],
+      ["law","ロー","法律","口を縦に開いたまま伸ばす「オー」です。"],
+      ["bought","ボート","buy の過去形（買った）","「ボート」と伸ばす音は bought です。船の boat は二重母音の「ボウト」です。"]
     ],
     "英語イディオム": [
       ["It's a piece of cake.","イッツァ ピーサヴ ケイク","朝飯前です","とても簡単なことです。例：The test was a piece of cake."],
@@ -410,16 +463,42 @@ LANGAPP_PACKS.course['ja-en'] = {
       ["I've got your back.","アイヴ ガット ユア バック","私がついてるよ","味方になって支える、という意味です。"],
       ["Gotcha.","ガッチャ","わかった / 捕まえた！","got you の略です。「了解」の意味でいちばんよく使います。"],
       ["Let's do this!","レッツ ドゥー ズィス!","よし、やろう！","始める前に気合いを入れるときに使います。"]
+    ],
+    "カタカナ英語の落とし穴": [
+      ["I live in an apartment.","アイ リヴ イナン アパートメント","マンションに住んでいます","意味のずれ。英語の mansion は「大豪邸」です。ふつうの集合住宅は apartment（建物全体は apartment building）と言います。"],
+      ["He's an office worker.","ヒーザン アーフィス ワーカー","彼はサラリーマンです","和製英語。salaryman は英語ではほとんど通じません。office worker のほか、I work in sales. のように仕事の中身で言うのも自然です。"],
+      ["She's an office worker.","シーザン アーフィス ワーカー","彼女はOLです","和製英語。OL（office lady）は英語では使いません。男女とも office worker です。"],
+      ["Where's the outlet?","ウェアズ ズィ アウトレット?","コンセントはどこですか？","和製英語。英語の consent は「同意」です。壁の差し込み口は outlet（イギリスでは socket）と言います。"],
+      ["My laptop is dead.","マイ ラップタップ イズ デッド","ノートパソコンの電池が切れました","和製英語。note PC は通じません。laptop と言いましょう。dead は電池切れにも使います。"],
+      ["I'd like to make a complaint.","アイド ライク タ メイカ カンプレイント","クレームを言いたいのですが","意味のずれ。英語の claim は「主張する、（保険などを）請求する」です。苦情は complaint です。"],
+      ["I'm so excited!","アイム ソウ イクサイリッド!","テンション上がる！","意味のずれ。英語の tension は「緊張、張りつめた空気」です。気分が上がっているときは excited を使います。"],
+      ["She's very sensitive.","シーズ ヴェリー センスィリヴ","彼女はとても繊細です（ナイーブ）","意味のずれ。英語の naive は「世間知らず、考えが甘い」で、ほめ言葉にはなりません。"],
+      ["He's slim.","ヒーズ スリム","彼はスマートです（細身）","意味のずれ。英語の smart は「頭がいい」です。体型のことは slim と言います。"],
+      ["The hotel has a breakfast buffet.","ザ ホウテル ハザ ブレックファスト バフェイ","ホテルの朝食はバイキングです","和製英語。英語の Viking は「北欧の海賊」です。食べ放題の形式は buffet、または all-you-can-eat と言います。"],
+      ["Can you turn on the air conditioner?","キャニュー ターノン ズィ エア カンディショナー?","クーラーをつけてもらえますか？","意味のずれ。英語の cooler はふつう飲み物を冷やす「クーラーボックス」のことです。冷房は air conditioner、略して AC です。"],
+      ["Can I borrow a mechanical pencil?","キャナイ バーロウ ア メカニカル ペンスル?","シャーペンを借りてもいいですか？","和製英語。sharp pencil は通じません。mechanical pencil と言います。"],
+      ["I'll email you.","アイル イーメイリュー","メールします","意味のずれ。英語の mail は主に「郵便」です。電子メールは email で、動詞としても I'll email you. と言います。"],
+      ["Is there a gas station near here?","イズ ゼアラ ギャス ステイション ニア ヒア?","この近くにガソリンスタンドはありますか？","和製英語。gasoline stand は通じません。アメリカでは gas station、イギリスでは petrol station です。"],
+      ["I'll ask at the front desk.","アイル アスク アット ザ フラント デスク","フロントで聞いてみます","和製英語。front だけでは「前」の意味です。ホテルの受付は front desk、または reception と言います。"],
+      ["Can I get some fries?","キャナイ ゲット サム フライズ?","フライドポテトをください","和製英語。fried potato とはふつう言いません。アメリカでは fries（イギリスでは chips）です。"],
+      ["Please put your phone on silent.","プリーズ プット ユア フォウン オン サイレント","携帯をマナーモードにしてください","和製英語。manner mode は通じません。音を消すのは silent、振動させるのは vibrate です。"],
+      ["Can I get your autograph?","キャナイ ゲット ユア オーラグラフ?","サインをもらえますか？","意味のずれ。有名人の「サイン」は autograph です。英語の sign は「署名する」「標識」で、書類の署名は signature と言います。"],
+      ["He cheated on the test.","ヒー チーリッド オン ザ テスト","彼はテストでカンニングをしました","意味のずれ。英語の cunning は「ずる賢い」という形容詞で、不正行為の意味はありません。"],
+      ["It's on the house.","イッツ オン ザ ハウス","こちらはサービスです","意味のずれ。英語の service は「接客・業務」で、「無料のおまけ」の意味はありません。お店のおごりは on the house と言います。"],
+      ["We're renovating our kitchen.","ウィア ゥレナヴェイリング アワ キッチン","台所をリフォームしています","意味のずれ。英語の reform は「（制度などを）改革する」です。家の改装は renovate、または remodel と言います。"],
+      ["I bought a new dress.","アイ ボータ ヌー ドゥレス","新しいワンピースを買いました","和製英語。英語の one-piece はふつう女性用の水着を指します。ワンピースは dress です。"],
+      ["I like your earrings.","アイ ライク ユア イアリングズ","そのピアス、すてきですね","和製英語。英語の pierce は「穴をあける」という動詞です。耳のアクセサリーは、穴があってもなくても earrings と言います。"],
+      ["Do you want to play cards?","ドゥ ユー ワナ プレイ カーズ?","トランプしない？","意味のずれ。英語の trump は「切り札」です。トランプ遊びは cards、1組は a deck of cards と言います。"]
     ]
   },
-  GROUPS: [["はじめの一歩",["あいさつ","自己紹介","サバイバル英語1","サバイバル英語2"]],["旅行・日常",["道案内・交通","レストランで注文","カフェ・コンビニ","買い物・会計","数字・時間・日付","旅行（空港・ホテル）","病院・緊急時"]],["会話・人間関係",["スモールトーク","気持ち・リアクション","ほめ言葉・好意の表現","電話・メッセージ略語"]],["仕事",["仕事・メール"]],["ネイティブらしく",["発音注意","句動詞","英語イディオム","映画・ドラマ・スラング"]]],
+  GROUPS: [["はじめの一歩",["あいさつ","自己紹介","サバイバル英語1","サバイバル英語2"]],["旅行・日常",["道案内・交通","レストランで注文","カフェ・コンビニ","買い物・会計","数字・時間・日付","旅行（空港・ホテル）","病院・緊急時"]],["会話・人間関係",["スモールトーク","気持ち・リアクション","ほめ言葉・好意の表現","電話・メッセージ略語"]],["仕事",["仕事・メール"]],["ネイティブらしく",["発音注意","句動詞","英語イディオム","映画・ドラマ・スラング","カタカナ英語の落とし穴"]]],
   TAGS: {
     "basics": ["あいさつ","自己紹介","サバイバル英語1","サバイバル英語2","数字・時間・日付"],
     "travel": ["サバイバル英語1","サバイバル英語2","道案内・交通","レストランで注文","カフェ・コンビニ","買い物・会計","数字・時間・日付","旅行（空港・ホテル）","病院・緊急時"],
-    "social": ["あいさつ","自己紹介","スモールトーク","気持ち・リアクション","ほめ言葉・好意の表現","電話・メッセージ略語"],
+    "social": ["あいさつ","自己紹介","スモールトーク","気持ち・リアクション","ほめ言葉・好意の表現","電話・メッセージ略語","カタカナ英語の落とし穴"],
     "work": ["仕事・メール","電話・メッセージ略語","数字・時間・日付","スモールトーク"],
     "media": ["映画・ドラマ・スラング","英語イディオム","気持ち・リアクション"],
-    "skills": ["発音注意","句動詞","英語イディオム"]
+    "skills": ["発音注意","句動詞","英語イディオム","カタカナ英語の落とし穴"]
   },
   DESC: {
     "あいさつ": "会ったとき・別れるときの基本のあいさつと、自然な返し方",
@@ -439,9 +518,10 @@ LANGAPP_PACKS.course['ja-en'] = {
     "旅行（空港・ホテル）": "入国審査、チェックイン、座席、荷物、ホテルでのお願い",
     "病院・緊急時": "体調が悪いとき、けがをしたとき、紛失・盗難などの緊急表現",
     "句動詞": "pick up、figure out などネイティブが毎日使う句動詞",
-    "発音注意": "R/L・F/P・TH・V/B・長い音と短い音・アクセント — 日本人が間違えやすい発音のペア",
+    "発音注意": "R/L・F/P・F/H・TH・V/B・スィ/シ・二重母音・長い音と短い音・アクセント — 日本人が間違えやすい発音のペア",
     "英語イディオム": "直訳すると意味不明な、ネイティブがよく使うイディオム",
-    "映画・ドラマ・スラング": "ドラマ・音楽・SNSで耳にする最近の表現"
+    "映画・ドラマ・スラング": "ドラマ・音楽・SNSで耳にする最近の表現",
+    "カタカナ英語の落とし穴": "マンション・コンセント・テンションなど、英語では通じない和製英語と意味がずれたカタカナ語"
   },
   DIALOG: {
     "How are you?": ["Hi, Jake! How are you?","Good, thanks! How about you?","やあ、ジェイク！ 元気？ / 元気だよ、ありがとう！ そっちは？"],
@@ -611,7 +691,7 @@ LANGAPP_PACKS.course['ja-en'] = {
     {"id":"joining","title":"21 · 文をつなぐ：and, but, or, so, because","blurb":"短い文二つを一つに。so と because は順番が逆です。","deck":"気持ち・リアクション","body":"<p>短い文ばかりだと、話が途切れ途切れに聞こえてしまいます。この五つの単語で文をつなぐと、ぐっと自然になります。</p><h3>and, but, or</h3>{{ex:I like coffee and tea.|アイ ライク カーフィー アン ティー|コーヒーも紅茶も好きです}}{{ex:I'm tired but happy.|アイム タイアード バット ハッピー|疲れているけど幸せです}}{{ex:Coffee or tea?|カーフィー オア ティー?|コーヒーにしますか、紅茶にしますか？}}<h3>so：だから</h3><p><b>理由 + so + 結果</b>の順です。日本語の「〜ので、…」と同じ順番です。</p>{{ex:I was tired, so I went home.|アイ ワズ タイアード, ソウ アイ ウェント ホウム|疲れていたので家に帰りました}}<h3>because：なぜなら</h3><p><b>結果 + because + 理由</b>の順です。日本語と逆なので注意しましょう。</p>{{ex:I went home because I was tired.|アイ ウェント ホウム ビコーズ アイ ワズ タイアード|疲れていたので家に帰りました}}{{ex:I stayed home because it was raining.|アイ ステイド ホウム ビコーズィット ワズ ゥレイニング|雨が降っていたので家にいました}}<h3>Because … だけで終わらせない</h3><p>会話で「なぜ？」と聞かれたら、<b>Because I was tired.</b> だけで答えても大丈夫です。でも書くときは、because の部分だけでは文として不完全です。日本語の「〜だから。」の感覚で because の文だけを書かず、結果の文とつなげましょう。</p>{{ex:Why did you go home? Because I was tired.|ワイ ディジュー ゴウ ホウム? ビコーズ アイ ワズ タイアード|どうして帰ったの？ ― 疲れていたから}}<h3>too：〜も</h3>{{ex:I like it too.|アイ ライキット トゥー|私も好きです}}<div class=\"tip\">so と because を一つの文で一緒に使いません：<b>Because I was tired, so I went home.</b> ✕。どちらか一つを選びましょう。</div>"},
     {"id":"numbers","title":"22 · 数字・時間・値段の言い方","blurb":"「万」がない英語の数字、13と30の区別、値段の読み方。","deck":"数字・時間・日付","body":"<p>数字は旅行でも仕事でもすぐに使いますが、日本語と単位の区切りが違うので、間違いが多いところです。</p><h3>3けたずつ区切る</h3><p>日本語は4けた（万、億）、英語は<b>3けた（thousand, million, billion）</b>で区切ります。カンマの位置がそのまま単位です。</p><div class=\"tbl\"><table><tr><th>数字</th><th>日本語</th><th>英語</th></tr><tr><td class=\"k\">10,000</td><td>1万</td><td>ten thousand</td></tr><tr><td class=\"k\">50,000</td><td>5万</td><td>fifty thousand</td></tr><tr><td class=\"k\">100,000</td><td>10万</td><td>one hundred thousand</td></tr><tr><td class=\"k\">1,000,000</td><td>100万</td><td>one million</td></tr><tr><td class=\"k\">100,000,000</td><td>1億</td><td>one hundred million</td></tr></table></div><p>円の値段は大きな数字になりがちです：¥3,000 = three thousand yen、¥15,000 = fifteen thousand yen。数字のあとの thousand にも yen にも、複数の s はつけません。</p><h3>-teen と -ty</h3><p>13〜19は<b>後ろ</b>を、30・40・50…は<b>前</b>を強く言います。アメリカ英語の thirty は、t がラ行のような軽い音になって「サーリー」のように聞こえます。</p>{{ex:thirteen|サーティーン|数字の13}}{{ex:thirty|サーリー|数字の30}}{{ex:fifteen / fifty|フィフティーン / フィフティー|数字の15 / 50}}<h3>時刻</h3><p>いちばん簡単なのは、時と分をそのまま読む方法です。1〜9分には oh をつけます。</p>{{ex:It's seven fifteen.|イッツ セヴン フィフティーン|7時15分です}}{{ex:It's nine oh five.|イッツ ナイン オウ ファイヴ|9時5分です}}{{ex:It's a quarter past ten.|イッツァ クォーラー パスト テン|10時15分です}}<h3>値段と年</h3><p>値段はドルとセントを分けて、数字二つのかたまりで読みます。年は2けたずつ区切ります。</p>{{ex:It's four ninety-nine.|イッツ フォー ナインティーナイン|4ドル99セントです}}{{ex:That's twelve fifty.|ザッツ トゥウェルヴ フィフティー|12ドル50セントです}}{{ex:twenty twenty-six|トゥウェニー トゥウェニースィックス|2026年}}<div class=\"tip\">日付の書き方に注意！ アメリカは<b>月/日</b>（5/3 = 5月3日）、イギリスは<b>日/月</b>（5/3 = 3月5日）です。日本式の「年/月/日」もそのままでは誤解されることがあります。迷ったら May 3rd のように月を文字で書くのが安全です。</div>"},
     {"id":"smalltalk","title":"23 · スモールトークの文化","blurb":"How are you? は質問ではなくあいさつです。安全な話題と避けたい話題。","deck":"スモールトーク","body":"<p>英語圏では、エレベーターやレジ、会議の前などに、初対面の人とも気軽に言葉を交わします。深い話ではなく、<b>場をなごませる短い会話</b>です。日本では知らない人と雑談する機会が少ないので、最初は戸惑うかもしれません。</p><h3>How are you? はあいさつ</h3><p>本当の体調を聞いているわけではありません。短く答えて<b>聞き返す</b>のがマナーです。</p>{{ex:Hey, how's it going?|ヘイ, ハウズィット ゴウイング?|やあ、調子どう？}}{{ex:Pretty good! How about you?|プリリー グッド! ハウ アバウチュー?|いい感じ！ そっちは？}}<h3>安全な話題 vs 避けたい話題</h3><div class=\"tbl\"><table><tr><th>安全です</th><th>初対面では避けましょう</th></tr><tr><td>天気、週末・休暇の予定</td><td>年齢、結婚・恋人の有無</td></tr><tr><td>食べ物、おいしいお店、旅行</td><td>体重・見た目の評価（「太った？」）</td></tr><tr><td>ドラマ・映画・スポーツ・アニメ</td><td>血液型、収入、家賃</td></tr><tr><td>仕事（軽く）、住んでいる街</td><td>政治、宗教</td></tr></table></div><p>日本では年齢や血液型の話で盛り上がることがありますが、英語圏では年齢を聞くと失礼になりやすく、血液型にはほとんど関心がありません。外国の人にいきなり「日本の印象は？」「お箸は使えますか？」と聞くのも、相手をよそ者扱いしているように聞こえることがあるので気をつけましょう。</p><h3>会話を続けるコツ</h3><p>答え + <b>情報を一つ足す</b> + <b>聞き返す</b>。この三拍子で会話が途切れません。</p>{{ex:It was great! I went hiking. What about you?|イット ワズ グレイト! アイ ウェント ハイキング. ワット アバウチュー?|最高でした！ ハイキングに行ったんです。そちらは？}}<p>あいづちも大切です：<b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b> 黙ってうなずくだけでなく、声に出して反応しましょう。</p><h3>自然に切り上げる</h3>{{ex:Well, I should get going.|ウェル, アイ シュッド ゲット ゴウイング|じゃあ、そろそろ行きますね}}{{ex:It was nice talking to you.|イット ワズ ナイス トーキング タ ユー|お話しできて楽しかったです}}<div class=\"tip\">否定文にあいづちを打つときは <b>Me neither</b> です。I don't like horror movies. → Me neither.（Me too ✕）。アメリカの話し言葉では Me either も聞きますが、Me neither が標準です。</div>"},
-    {"id":"katakana-english","title":"24 · カタカナ英語の落とし穴：和製英語と意味のずれ","blurb":"マンションは mansion ではありません。カタカナ語は、英語でも同じ意味か確かめてから使いましょう。","deck":"スモールトーク","body":"<p>日本語には英語から来たカタカナ語がたくさんあります。便利な反面、日本で作られた言葉（和製英語）や、英語とは意味がずれた言葉も多く、そのまま使うと通じなかったり、誤解されたりします。</p><h3>和製英語：英語にない言葉</h3><div class=\"tbl\"><table><tr><th>カタカナ語</th><th>英語</th></tr><tr><td>サラリーマン</td><td class=\"k\">office worker</td></tr><tr><td>ノートパソコン</td><td class=\"k\">laptop</td></tr><tr><td>コンセント</td><td class=\"k\">outlet</td></tr><tr><td>バイキング（食べ放題）</td><td class=\"k\">buffet</td></tr><tr><td>シャープペンシル</td><td class=\"k\">mechanical pencil</td></tr></table></div>{{ex:He's an office worker.|ヒーザン アーフィス ワーカー|彼は会社員です}}{{ex:I use a laptop.|アイ ユーザ ラップタップ|ノートパソコンを使っています}}{{ex:Where's the outlet?|ウェアズ ズィ アウトレット?|コンセントはどこですか？}}{{ex:The hotel has a breakfast buffet.|ザ ホウテル ハザ ブレックファスト バフェイ|ホテルの朝食はバイキングです}}<p>consent は「同意」、Viking は「北欧の海賊」です。Where's the consent? と聞いても、コンセントの場所は教えてもらえません。</p><h3>意味のずれ：英語にあるけれど意味が違う言葉</h3><div class=\"tbl\"><table><tr><th>カタカナ語</th><th>英語での意味</th><th>言いたいことは</th></tr><tr><td>マンション</td><td>mansion ＝ 大豪邸</td><td class=\"k\">apartment</td></tr><tr><td>クレーム</td><td>claim ＝ 主張する、請求する</td><td class=\"k\">complaint</td></tr><tr><td>テンションが高い</td><td>tension ＝ 緊張、張りつめた空気</td><td class=\"k\">excited</td></tr><tr><td>ナイーブ</td><td>naive ＝ 世間知らず</td><td class=\"k\">sensitive</td></tr><tr><td>スマート（細身）</td><td>smart ＝ 頭がいい</td><td class=\"k\">slim</td></tr></table></div>{{ex:I live in an apartment.|アイ リヴ イナン アパートメント|マンションに住んでいます}}{{ex:I'd like to make a complaint.|アイド ライク タ メイカ カンプレイント|クレームを言いたいのですが}}{{ex:I'm so excited!|アイム ソウ イクサイリッド!|テンション上がる！}}{{ex:She's very sensitive.|シーズ ヴェリー センスィリヴ|彼女はとても繊細です}}{{ex:He's slim.|ヒーズ スリム|彼はスマートです（細身）}}<p>I live in a mansion. と言うと、大金持ちだと思われてしまいます。apartment は母音で始まるので、冠詞は an です。</p><h3>カタカナ読みが本当の音を隠す言葉</h3><p>意味は同じでも、カタカナのまま発音すると通じにくい言葉もあります。アクセント（強く読む位置）と母音に注意して、音声をまねしましょう。</p>{{ex:coffee|カーフィー|コーヒー（CO-ffee：前を強く）}}{{ex:hotel|ホウテル|ホテル（ho-TEL：後ろを強く）}}{{ex:water|ワーラー|水（ウォーターではなくワーラーに近い音）}}<div class=\"tip\">カタカナ語を英語で使う前に、英語でも同じ意味かどうか確かめましょう：<b>I live in a mansion.</b> ✕ → <b>I live in an apartment.</b> ○ / <b>my note PC</b> ✕ → <b>my laptop</b> ○</div>"},
+    {"id":"katakana-english","title":"24 · カタカナ英語の落とし穴：和製英語と意味のずれ","blurb":"マンションは mansion ではありません。カタカナ語は、英語でも同じ意味か確かめてから使いましょう。","deck":"カタカナ英語の落とし穴","body":"<p>日本語には英語から来たカタカナ語がたくさんあります。便利な反面、日本で作られた言葉（和製英語）や、英語とは意味がずれた言葉も多く、そのまま使うと通じなかったり、誤解されたりします。</p><h3>和製英語：英語にない言葉</h3><div class=\"tbl\"><table><tr><th>カタカナ語</th><th>英語</th></tr><tr><td>サラリーマン</td><td class=\"k\">office worker</td></tr><tr><td>ノートパソコン</td><td class=\"k\">laptop</td></tr><tr><td>コンセント</td><td class=\"k\">outlet</td></tr><tr><td>バイキング（食べ放題）</td><td class=\"k\">buffet</td></tr><tr><td>シャープペンシル</td><td class=\"k\">mechanical pencil</td></tr></table></div>{{ex:He's an office worker.|ヒーザン アーフィス ワーカー|彼は会社員です}}{{ex:I use a laptop.|アイ ユーザ ラップタップ|ノートパソコンを使っています}}{{ex:Where's the outlet?|ウェアズ ズィ アウトレット?|コンセントはどこですか？}}{{ex:The hotel has a breakfast buffet.|ザ ホウテル ハザ ブレックファスト バフェイ|ホテルの朝食はバイキングです}}<p>consent は「同意」、Viking は「北欧の海賊」です。Where's the consent? と聞いても、コンセントの場所は教えてもらえません。</p><h3>意味のずれ：英語にあるけれど意味が違う言葉</h3><div class=\"tbl\"><table><tr><th>カタカナ語</th><th>英語での意味</th><th>言いたいことは</th></tr><tr><td>マンション</td><td>mansion ＝ 大豪邸</td><td class=\"k\">apartment</td></tr><tr><td>クレーム</td><td>claim ＝ 主張する、請求する</td><td class=\"k\">complaint</td></tr><tr><td>テンションが高い</td><td>tension ＝ 緊張、張りつめた空気</td><td class=\"k\">excited</td></tr><tr><td>ナイーブ</td><td>naive ＝ 世間知らず</td><td class=\"k\">sensitive</td></tr><tr><td>スマート（細身）</td><td>smart ＝ 頭がいい</td><td class=\"k\">slim</td></tr></table></div>{{ex:I live in an apartment.|アイ リヴ イナン アパートメント|マンションに住んでいます}}{{ex:I'd like to make a complaint.|アイド ライク タ メイカ カンプレイント|クレームを言いたいのですが}}{{ex:I'm so excited!|アイム ソウ イクサイリッド!|テンション上がる！}}{{ex:She's very sensitive.|シーズ ヴェリー センスィリヴ|彼女はとても繊細です}}{{ex:He's slim.|ヒーズ スリム|彼はスマートです（細身）}}<p>I live in a mansion. と言うと、大金持ちだと思われてしまいます。apartment は母音で始まるので、冠詞は an です。</p><h3>カタカナ読みが本当の音を隠す言葉</h3><p>意味は同じでも、カタカナのまま発音すると通じにくい言葉もあります。アクセント（強く読む位置）と母音に注意して、音声をまねしましょう。</p>{{ex:coffee|カーフィー|コーヒー（CO-ffee：前を強く）}}{{ex:hotel|ホウテル|ホテル（ho-TEL：後ろを強く）}}{{ex:water|ワーラー|水（ウォーターではなくワーラーに近い音）}}<div class=\"tip\">カタカナ語を英語で使う前に、英語でも同じ意味かどうか確かめましょう：<b>I live in a mansion.</b> ✕ → <b>I live in an apartment.</b> ○ / <b>my note PC</b> ✕ → <b>my laptop</b> ○</div>"},
     {"id":"past-continuous","title":"25 · 過去進行形：was / were + ing形","blurb":"そのときしていたこと。話の背景を作ります。","deck":"気持ち・リアクション","body":"<p>過去の<b>ある時点でしていたこと</b>を言います。現在進行形の be動詞を過去形（was / were）にするだけです。日本語の「〜していた」にあたりますが、「結婚していた」「知っていた」のような状態には使いません。</p>{{ex:I was sleeping.|アイ ワズ スリーピング|寝ていました}}{{ex:We were watching TV.|ウィ ワー ワッチング ティーヴィー|私たちはテレビを見ていました}}{{ex:It was raining.|イット ワズ ゥレイニング|雨が降っていました}}<h3>疑問文</h3>{{ex:What were you doing?|ワット ワー ユー ドゥーイング?|何をしていましたか？}}{{ex:Were you working at nine?|ワー ユー ワーキング アット ナイン?|9時に仕事をしていましたか？}}<h3>when と一緒に：している最中に何かが起きた</h3><p>続いていた動作は<b>過去進行形</b>、その途中で起きた短い出来事は<b>過去形</b>です。</p>{{ex:I was cooking when you called.|アイ ワズ クッキング ウェニュー コールド|電話をくれたとき、料理をしていました}}{{ex:I was walking home when it started to rain.|アイ ワズ ウォーキング ホウム ウェニット スターリッド タ ゥレイン|歩いて帰る途中で雨が降り出しました}}<div class=\"tip\">「〜していた」を過去形だけで言うと意味が変わります。<b>I cooked when you called.</b> は「電話が来てから料理を始めた」という意味になります。</div>"},
     {"id":"will","title":"26 · will：その場で決めたこと・約束・予測","blurb":"その場で決めたら will、前から決めていたら be going to。","deck":"スモールトーク","body":"<p><b>will + 動詞の原形</b>です。話すときはほとんど <b>I'll, you'll, it'll</b> と短縮します。否定は <b>won't</b> です。日本語の「〜します」「〜しますね」が、英語では will になることがよくあります。</p><h3>その場で決めたとき</h3>{{ex:I'll have the pasta.|アイル ハヴ ザ パースタ|パスタにします}}{{ex:I'll get it.|アイル ゲリット|私が出ます}}<h3>約束と申し出</h3>{{ex:I'll help you.|アイル ヘルピュー|手伝いますよ}}{{ex:I'll call you later.|アイル コーリュー レイラー|あとで電話しますね}}{{ex:I won't be late.|アイ ウォウント ビー レイト|遅れません}}<h3>予測</h3>{{ex:It'll be fine.|イルル ビー ファイン|大丈夫ですよ}}{{ex:I think it will rain.|アイ スィンキット ウィル ゥレイン|雨が降ると思います}}<h3>will と be going to</h3><div class=\"tbl\"><table><tr><th></th><th>いつ使う？</th><th>例</th></tr><tr><td class=\"k\">will</td><td>その場で決めたこと、約束</td><td>I'll get the door.</td></tr><tr><td class=\"k\">be going to</td><td>前から決めていた予定</td><td>I'm going to visit Okinawa next month.</td></tr></table></div><div class=\"tip\">いちばん多い間違い：<b>I will to go.</b>、<b>I'll going.</b> ✕ → <b>I'll go.</b> ○ will の後ろは動詞の原形だけです。</div>"},
     {"id":"perfect","title":"27 · 現在完了（経験）：〜したことがあります","blurb":"have + 過去分詞で経験を言います。いつのことか言うなら過去形です。","deck":"旅行（空港・ホテル）","body":"<p>学校で習った<b>現在完了の経験用法</b>です。<b>have + 過去分詞</b>で「（今までに）〜したことがある」を表します。日本語の「〜たことがある」とほぼ同じ感覚で使えますが、英語では<b>いつ</b>のことかは言いません。</p>{{ex:I've been to Hawaii.|アイヴ ビン タ ハワイ|ハワイに行ったことがあります}}{{ex:She has visited Japan twice.|シー ハズ ヴィズィリッド ジャパン トゥワイス|彼女は日本に2回来たことがあります}}<h3>ever と never</h3>{{ex:Have you ever eaten natto?|ハヴュー エヴァー イートゥン ナートウ?|納豆を食べたことがありますか？}}{{ex:I've never seen it.|アイヴ ネヴァー スィーニット|それは見たことがありません}}<p>答えは <b>Yes, I have.</b> / <b>No, I haven't.</b> です。</p><h3>よく使う過去分詞</h3><div class=\"tbl\"><table><tr><th>原形</th><th>過去形</th><th>過去分詞</th></tr><tr><td class=\"k\">be</td><td class=\"k\">was</td><td class=\"k\">been</td></tr><tr><td class=\"k\">eat</td><td class=\"k\">ate</td><td class=\"k\">eaten</td></tr><tr><td class=\"k\">see</td><td class=\"k\">saw</td><td class=\"k\">seen</td></tr><tr><td class=\"k\">do</td><td class=\"k\">did</td><td class=\"k\">done</td></tr><tr><td class=\"k\">try</td><td class=\"k\">tried</td><td class=\"k\">tried</td></tr></table></div><h3>「〜たことがある」と「〜た」</h3><p>日本語でも「行ったことがある」（経験）と「去年行った」（過去の出来事）は言い方が違いますね。英語も同じで、<b>last year, yesterday, in 2020</b> のように時点がつくと、現在完了ではなく<b>過去形</b>を使います。</p>{{ex:I went to Hawaii last year.|アイ ウェント タ ハワイ ラスト イヤー|去年ハワイに行きました}}<div class=\"tip\">いちばん多い間違い：<b>I've been to Hawaii last year.</b> ✕ → <b>I went to Hawaii last year.</b> ○ 「去年」がついたら過去形です。</div>"},
@@ -1532,7 +1612,7 @@ LANGAPP_PACKS.course['ja-en'] = {
   PLAN_PRESETS: {
     "trip": {"label":"海外旅行の準備","weeks":3,"decks":["あいさつ","サバイバル英語1","サバイバル英語2","道案内・交通","レストランで注文","カフェ・コンビニ","買い物・会計","数字・時間・日付","旅行（空港・ホテル）","病院・緊急時"],"lessons":["pron","polite","prep","numbers"]},
     "social": {"label":"外国人の友達を作る","weeks":6,"decks":["あいさつ","自己紹介","サバイバル英語1","スモールトーク","気持ち・リアクション","ほめ言葉・好意の表現","電話・メッセージ略語","句動詞","映画・ドラマ・スラング","英語イディオム"],"lessons":["pron","articles","be","tense","smalltalk","phrasal","idioms"]},
-    "conv": {"label":"90日で英会話","weeks":13,"decks":["あいさつ","自己紹介","サバイバル英語1","サバイバル英語2","道案内・交通","レストランで注文","カフェ・コンビニ","買い物・会計","数字・時間・日付","旅行（空港・ホテル）","病院・緊急時","スモールトーク","気持ち・リアクション","ほめ言葉・好意の表現","電話・メッセージ略語","仕事・メール","発音注意","句動詞","英語イディオム","映画・ドラマ・スラング"],"lessons":["pron","be","it-there","articles","plurals","present","questions","third-s","prep","countable","object-have","can-like","polite","continuous","past","irregular-past","the","adjectives","going-to","tense","joining","numbers","smalltalk","katakana-english","past-continuous","will","perfect","modals","to-ing","articles-2","first-conditional","relative","phrasal","perfect-2","narrative","conditionals","passive","articles-3","reported","email","idioms"]}
+    "conv": {"label":"90日で英会話","weeks":13,"decks":["あいさつ","自己紹介","サバイバル英語1","サバイバル英語2","道案内・交通","レストランで注文","カフェ・コンビニ","買い物・会計","数字・時間・日付","旅行（空港・ホテル）","病院・緊急時","スモールトーク","気持ち・リアクション","ほめ言葉・好意の表現","電話・メッセージ略語","仕事・メール","発音注意","句動詞","英語イディオム","映画・ドラマ・スラング","カタカナ英語の落とし穴"],"lessons":["pron","be","it-there","articles","plurals","present","questions","third-s","prep","countable","object-have","can-like","polite","continuous","past","irregular-past","the","adjectives","going-to","tense","joining","numbers","smalltalk","katakana-english","past-continuous","will","perfect","modals","to-ing","articles-2","first-conditional","relative","phrasal","perfect-2","narrative","conditionals","passive","articles-3","reported","email","idioms"]}
   },
   TITLES: [[1,"Beginner","入門者"],[3,"Student","学習者"],[5,"Talker","おしゃべり"],[8,"Traveler","旅人"],[12,"Local","地元通"],[16,"Pro","上級者"],[20,"Master","達人"]],
   PAUSE: {
