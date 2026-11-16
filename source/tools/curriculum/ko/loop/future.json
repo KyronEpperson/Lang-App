@@ -1,0 +1,17 @@
+{"after":"past","roadmap":"ko-future",
+"check":[["먹다 in the future =",["먹을 거예요","먹를 거예요","먹었어요","먹어 거예요"],0,"Consonant stem + 을 거예요."],["'What will you do on the weekend?' =",["주말에 뭐 할 거예요?","주말에 뭐 했어요?","주말에 뭐 하을 거예요?","주말에 뭐 해요 거예요?"],0,"하 + ㄹ 거예요 → 할 거예요."],["'(I) won't go' =",["안 갈 거예요","갈 안 거예요","안 갔어요","갈 거 안 예요"],0,"안 goes before the verb."]],
+"practice":[
+{"t":"mc","q":"가다 in the future =","o":["갈 거예요","가을 거예요","갔어요","가 거예요"],"why":"Vowel stem + ㄹ 거예요."},
+{"t":"mc","q":"먹다 in the future =","o":["먹을 거예요","먹를 거예요","먹었어요","먹 거예요"],"why":"Consonant stem + 을 거예요."},
+{"t":"mc","q":"하다 in the future =","o":["할 거예요","하을 거예요","했어요","해 거예요"],"why":"하 + ㄹ → 할 거예요."},
+{"t":"mc","q":"Which word means 'tomorrow'?","o":["내일","어제","지금","아까"],"why":"내일 = tomorrow; 어제 = yesterday."},
+{"t":"mc","q":"'(I) won't go' =","o":["안 갈 거예요","갈 안 거예요","안 갔어요","갈 거 안 예요"],"why":"안 goes before the verb."},
+{"t":"order","p":"I'll go to school tomorrow","a":["내일","학교에","갈","거예요"],"x":["갔어요"],"why":"Time first; 갈 거예요 = will go."},
+{"t":"order","p":"What will you do on the weekend?","a":["주말에","뭐","할","거예요"],"x":["했어요"],"why":"할 거예요 = will do."},
+{"t":"order","p":"(I) will be at home","a":["집에","있을","거예요"],"x":["있었어요"],"why":"있 + 을 거예요."},
+{"t":"fill","q":"갈 __","p":"(I) will go","a":["거예요"],"o":["어요","었어요","이에요"],"why":"Stem + ㄹ + 거예요."},
+{"t":"fill","q":"먹__ 거예요","p":"(I) will eat","a":["을"],"o":["ㄹ","를","은"],"why":"Consonant stem → 을 거예요."},
+{"t":"fill","q":"내일 친구가 __ 거예요","p":"My friend will come tomorrow","a":["올"],"o":["왔","와","오을"],"why":"오 + ㄹ → 올 거예요."},
+{"t":"type","p":"(I) will go tomorrow","a":["내일 갈 거예요","저는 내일 갈 거예요"],"hint":"내일 · 가다 · ㄹ 거예요","x":["갔어요"],"why":"가 + ㄹ 거예요."},
+{"t":"type","p":"My friend will eat","a":["친구가 먹을 거예요","친구는 먹을 거예요"],"hint":"친구 · 먹다 · 을 거예요","x":["먹었어요"],"why":"먹 + 을 거예요."},
+{"t":"type","p":"(I) won't go","a":["안 갈 거예요","저는 안 갈 거예요"],"hint":"안 · 가다 · ㄹ 거예요","x":["갔어요"],"why":"안 + 갈 거예요."}]}

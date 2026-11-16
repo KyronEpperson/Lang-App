@@ -1,0 +1,17 @@
+{"after":"verbbasics","roadmap":"ko-present",
+"check":[["먹다 in the polite present =",["먹어요","먹아요","먹해요","먹요"],0,"Last vowel is ㅓ (not ㅏ/ㅗ) → 어요."],["보다 in the polite present =",["봐요","보어요","보요","바요"],0,"ㅗ stem + 아요; 보 + 아 merge into 봐."],["'Are you going home?' =",["집에 가요?","집에 가다?","집에 가아요?","집에 가해요?"],0,"Same 요-form; only the tone rises."]],
+"practice":[
+{"t":"mc","q":"보다 in the polite present =","o":["봐요","보어요","바요","보요"],"why":"ㅗ stem + 아요; 보 + 아 merge into 봐."},
+{"t":"mc","q":"마시다 in the polite present =","o":["마셔요","마시아요","마시요","마사요"],"why":"ㅣ stem + 어요; 시 + 어 merge into 셔."},
+{"t":"mc","q":"먹다 in the polite present =","o":["먹어요","먹아요","먹해요","먹요"],"why":"ㅓ stem → 어요."},
+{"t":"mc","q":"공부하다 in the polite present =","o":["공부해요","공부하요","공부하어요","공부아요"],"why":"하다 verbs → 해요."},
+{"t":"mc","q":"'(I'm) not going' =","o":["안 가요","가요 안","안 가다","아니 가요"],"why":"안 goes right before the verb."},
+{"t":"order","p":"My friend is coming","a":["친구가","와요"],"x":["오요"],"why":"오 + 아요 merge into 와요."},
+{"t":"order","p":"I go to school","a":["저는","학교에","가요"],"x":["가다"],"why":"Say the 요-form, not the dictionary form."},
+{"t":"order","p":"What are you doing now?","a":["지금","뭐","해요"],"x":["하다"],"why":"하다 → 해요."},
+{"t":"fill","q":"먹__요","p":"(I) eat","a":["어"],"o":["아","해","으"],"why":"ㅓ stem → 어요."},
+{"t":"fill","q":"사랑__","p":"I love (you)","a":["해요"],"o":["하요","하어요","아요"],"why":"하다 verbs → 해요."},
+{"t":"fill","q":"__ 가요","p":"(I'm) not going","a":["안"],"o":["않","아니","없"],"why":"안 goes right before the verb."},
+{"t":"type","p":"(I) go home","a":["집에 가요","저는 집에 가요"],"hint":"집에 · 가다","x":["가다"],"why":"가 + 아요 → 가요."},
+{"t":"type","p":"My friend eats","a":["친구가 먹어요","친구는 먹어요"],"hint":"친구 · 먹다","x":["먹아요"],"why":"먹 + 어요."},
+{"t":"type","p":"(I'm) not going home","a":["집에 안 가요","저는 집에 안 가요"],"hint":"집에 · 안 · 가요","x":["가다"],"why":"안 sits right before the verb."}]}

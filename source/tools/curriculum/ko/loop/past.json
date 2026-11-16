@@ -1,0 +1,17 @@
+{"after":"verbs","roadmap":"ko-past",
+"check":[["가다 in the past =",["갔어요","가었어요","가요","갔아요"],0,"가요 → drop 요 → 갔어요."],["'(I) was a student' =",["학생이었어요","학생였어요","학생 있었어요","학생했어요"],0,"Consonant ending → 이었어요."],["'What did you do yesterday?' =",["어제 뭐 했어요?","어제 뭐 해요?","뭐 어제 했다요?","어제 뭐 하었어요?"],0,"해요 → 했어요; the time word goes first."]],
+"practice":[
+{"t":"mc","q":"먹다 in the past =","o":["먹었어요","먹았어요","먹어요","먹었아요"],"why":"먹어요 → 먹었어요."},
+{"t":"mc","q":"오다 in the past =","o":["왔어요","오았어요","와었어요","왔아요"],"why":"와요 → 왔어요."},
+{"t":"mc","q":"하다 in the past =","o":["했어요","하었어요","해었어요","하았어요"],"why":"해요 → 했어요."},
+{"t":"mc","q":"'(It) was good' =","o":["좋았어요","좋었어요","좋아었어요","좋했어요"],"why":"좋아요 → 좋았어요."},
+{"t":"mc","q":"'(I) didn't go' =","o":["안 갔어요","갔어요 안","안 가요","안 갔아요"],"why":"안 before the verb; 갔어요 is the past."},
+{"t":"order","p":"My friend came yesterday","a":["어제","친구가","왔어요"],"x":["와요"],"why":"Time word first, past verb last."},
+{"t":"order","p":"(I) was at home yesterday","a":["어제","집에","있었어요"],"x":["있어요"],"why":"있어요 → 있었어요."},
+{"t":"order","p":"What did you do?","a":["뭐","했어요"],"x":["해요"],"why":"해요 → 했어요."},
+{"t":"fill","q":"먹__어요","p":"(I) ate","a":["었"],"o":["았","했","였"],"why":"먹어요 → 먹었어요."},
+{"t":"fill","q":"공부__어요","p":"(I) studied","a":["했"],"o":["하았","었","았"],"why":"해요 → 했어요."},
+{"t":"fill","q":"의사__어요","p":"(She) was a doctor","a":["였"],"o":["했","았","었"],"why":"Vowel ending → 였어요."},
+{"t":"type","p":"(I) went home","a":["집에 갔어요","저는 집에 갔어요"],"hint":"집에 · 가다 · past","x":["가요"],"why":"가요 → 갔어요."},
+{"t":"type","p":"I was a student","a":["저는 학생이었어요","학생이었어요"],"hint":"저 · 학생 · 이었어요","x":["학생이에요"],"why":"이에요 → 이었어요."},
+{"t":"type","p":"(I) didn't eat yesterday","a":["어제 안 먹었어요","저는 어제 안 먹었어요"],"hint":"어제 · 안 · 먹다","x":["먹어요"],"why":"안 + past verb."}]}
