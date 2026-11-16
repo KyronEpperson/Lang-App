@@ -723,3 +723,15 @@ Write the remaining 14 A1 lessons (plurals, present, questions, third-s, countab
 ### G2 — results
 - First validation failed: 12 items had prompts or hints with no Korean, and one title had no Hangul. Helper now adds the Korean cue automatically; title fixed.
 - Re-run: validator PASS (26 lessons, 78 checks, 364 practice items), harness 45 guards, e2e OK for all 15 new A1 lessons + the recap.
+
+## G3 — prompt
+Write the eight A2 lessons (past-continuous, will, perfect, modals, to-ing, articles-2, first-conditional, relative) with checks and practice; validate, build, harness, e2e.
+### G3 — results
+- One title lacked Hangul (fixed). Validator PASS at 34 lessons; e2e OK for all eight.
+
+## G4 — prompt
+Write the five B1 lessons (perfect-2, narrative, conditionals, passive, reported); validate, link the roadmap, build, harness, e2e.
+### G4 — results
+- Validator PASS: 39 lessons, 117 checks, 546 practice items; correct-answer positions spread 28/30/32/27.
+- English roadmap: 32 items, 0 planned. Harness 45 guards. e2e OK for all A2/B1 lessons plus phrasal, email, idioms in their new positions.
+- All 39 lessons render with no raw tokens, no overflow, and every English example string present unchanged under the Korean UI; 546 items load with no warnings.

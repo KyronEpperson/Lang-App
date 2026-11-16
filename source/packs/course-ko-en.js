@@ -609,9 +609,22 @@ LANGAPP_PACKS.course['ko-en'] = {
     {"id":"joining","title":"21 · 문장 잇기: and, but, or, so, because","blurb":"짧은 문장 두 개를 하나로. so와 because는 순서가 반대예요.","deck":"감정·반응","body":"<p>짧은 문장만 말하면 뚝뚝 끊겨요. 이 다섯 단어로 문장을 이으면 훨씬 자연스러워요.</p><h3>and, but, or</h3>{{ex:I like coffee and tea.|아이 라익 커피 앤 티|저는 커피와 차를 좋아해요}}{{ex:I'm tired but happy.|아임 타이어드 벗 해피|피곤하지만 행복해요}}{{ex:Coffee or tea?|커피 오어 티?|커피 아니면 차?}}<h3>so: 그래서</h3><p><b>이유 + so + 결과</b> 순서예요. 한국어 '~해서'와 순서가 같아요.</p>{{ex:I was tired, so I went home.|아이 워즈 타이어드 쏘 아이 웬 홈|피곤해서 집에 갔어요}}<h3>because: 왜냐하면</h3><p><b>결과 + because + 이유</b> 순서예요. 한국어와 반대라서 주의해요.</p>{{ex:I went home because I was tired.|아이 웬 홈 비코즈 아이 워즈 타이어드|피곤해서 집에 갔어요}}{{ex:I stayed home because it was raining.|아이 스테이드 홈 비코즈 잇 워즈 레이닝|비가 와서 집에 있었어요}}<h3>too: ~도</h3>{{ex:I like it too.|아이 라이킷 투|저도 좋아해요}}<div class=\"tip\">so와 because를 한 문장에 같이 쓰지 않아요: <b>Because I was tired, so I went home.</b> (X). 둘 중 하나만 고르세요.</div>"},
     {"id":"numbers","title":"22 · 숫자·시간·가격 말하기","blurb":"'만'이 없는 영어 숫자, 13과 30 구분, 가격 읽는 법.","deck":"숫자·시간·날짜","body":"<p>숫자는 여행과 일에서 바로 쓰이는데, 한국어와 단위가 달라서 실수가 많아요.</p><h3>세 자리씩 끊어요</h3><p>한국어는 네 자리(만, 억), 영어는 <b>세 자리(thousand, million, billion)</b>로 끊어요. 쉼표 위치가 바로 단위예요.</p><div class=\"tbl\"><table><tr><th>숫자</th><th>한국어</th><th>영어</th></tr><tr><td class=\"k\">10,000</td><td>만</td><td>ten thousand</td></tr><tr><td class=\"k\">50,000</td><td>오만</td><td>fifty thousand</td></tr><tr><td class=\"k\">100,000</td><td>십만</td><td>one hundred thousand</td></tr><tr><td class=\"k\">1,000,000</td><td>백만</td><td>one million</td></tr><tr><td class=\"k\">100,000,000</td><td>일억</td><td>one hundred million</td></tr></table></div><h3>-teen과 -ty</h3><p>13~19는 <b>뒤</b>를, 30·40·50…은 <b>앞</b>을 세게 말해요. 미국식 thirty는 t가 굴러서 \"써리\"처럼 들려요.</p>{{ex:thirteen|써틴|숫자 13}}{{ex:thirty|써리|숫자 30}}{{ex:fifteen / fifty|피프틴 / 피프티|숫자 15 / 50}}<h3>시간</h3><p>가장 쉬운 방법은 시와 분을 그대로 읽는 거예요. 1~9분은 \"oh\"를 붙여요.</p>{{ex:It's seven fifteen.|잇츠 쎄븐 피프틴|7시 15분이에요}}{{ex:It's nine oh five.|잇츠 나인 오 파이브|9시 5분이에요}}{{ex:It's a quarter past ten.|잇츠 어 쿼러 패스트 텐|10시 15분이에요}}<h3>가격과 연도</h3><p>가격은 달러와 센트를 따로 읽거나, 그냥 숫자 두 개로 읽어요. 연도는 두 자리씩 끊어요.</p>{{ex:It's four ninety-nine.|잇츠 포 나인티나인|4달러 99센트예요}}{{ex:That's twelve fifty.|댓츠 트웰브 피프티|12달러 50센트입니다}}{{ex:twenty twenty-six|트웬티 트웬티식스|2026년}}<div class=\"tip\">날짜 표기 주의! 미국은 <b>월/일</b>(5/3 = 5월 3일), 영국은 <b>일/월</b>(5/3 = 3월 5일)이에요. 헷갈리면 May 3rd처럼 월을 글자로 쓰는 게 안전해요.</div>"},
     {"id":"smalltalk","title":"23 · 스몰토크 문화","blurb":"How are you?는 질문이 아니라 인사예요. 안전한 주제와 피할 주제.","deck":"스몰토크","body":"<p>영어권에서는 엘리베이터, 계산대, 회의 시작 전에 처음 보는 사람과도 가볍게 이야기를 나눠요. 깊은 대화가 아니라 <b>분위기를 부드럽게 하는 짧은 대화</b>예요.</p><h3>How are you?는 인사예요</h3><p>진짜 컨디션을 묻는 게 아니에요. 짧게 대답하고 <b>되물어 주는 것</b>이 매너예요.</p>{{ex:Hey, how's it going?|헤이, 하우즈 잇 고잉?|안녕, 잘 지내?}}{{ex:Pretty good! How about you?|프리티 굿! 하우 어바웃 유?|잘 지내! 너는?}}<h3>안전한 주제 vs 피할 주제</h3><div class=\"tbl\"><table><tr><th>안전해요</th><th>초면엔 피해요</th></tr><tr><td>날씨, 주말·휴가 계획</td><td>나이, 결혼·연애 여부</td></tr><tr><td>음식, 맛집, 여행</td><td>체중·외모 평가 (\"살쪘어요?\")</td></tr><tr><td>드라마·영화·스포츠</td><td>연봉, 집값</td></tr><tr><td>일 (가볍게), 동네</td><td>정치, 종교</td></tr></table></div><p>한국에서는 나이를 먼저 묻는 게 자연스럽지만, 영어권에서는 실례가 될 수 있어요.</p><h3>대화를 이어 가는 기술</h3><p>대답 + <b>정보 하나 더</b> + <b>되묻기</b>. 이 세 박자면 대화가 끊기지 않아요.</p>{{ex:It was great! I went hiking. What about you?|잇 워즈 그레잇! 아이 웬 하이킹. 왓 어바웃 유?|좋았어요! 등산 갔었어요. 당신은요?}}<p>맞장구도 중요해요: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p><h3>자연스럽게 끝내기</h3>{{ex:Well, I should get going.|웰, 아이 슈드 겟 고잉|그럼 이만 가 볼게요}}{{ex:It was nice talking to you.|잇 워즈 나이스 토킹 투 유|이야기 즐거웠어요}}<div class=\"tip\">부정문에 맞장구칠 때는 <b>Me neither</b>예요. \"I don't like horror movies.\" → \"Me neither.\" (Me too X). 미국 구어에서는 Me either도 들리지만 Me neither가 표준이에요.</div>"},
-    {"id":"phrasal","title":"24 · 구동사 입문","blurb":"동사 + 작은 단어 = 완전히 새로운 뜻. 원어민 대화의 절반이에요.","deck":"구동사","body":"<p>구동사(phrasal verb)는 <b>동사 + up/out/off/on 같은 작은 단어</b>가 합쳐져 새로운 뜻을 만든 거예요. 교과서식 단어(postpone, discover)보다 일상 대화에서 훨씬 많이 들려요.</p><div class=\"tbl\"><table><tr><th>딱딱한 단어</th><th>구동사 (일상)</th><th>뜻</th></tr><tr><td>postpone</td><td class=\"k\">put off</td><td>미루다</td></tr><tr><td>discover</td><td class=\"k\">find out</td><td>알게 되다</td></tr><tr><td>exercise</td><td class=\"k\">work out</td><td>운동하다</td></tr><tr><td>tolerate</td><td class=\"k\">put up with</td><td>참다</td></tr></table></div><h3>작은 단어에 힌트가 있어요</h3><p><b>up</b>은 '완전히·위로', <b>out</b>은 '밖으로·끝까지', <b>off</b>는 '떨어져·멈춤', <b>on</b>은 '붙어서·계속'이라는 느낌이 있어요.</p>{{ex:I grew up in Daegu.|아이 그루 업 인 대구|대구에서 자랐어요}}{{ex:We ran out of milk.|위 래나우로브 밀크|우유가 다 떨어졌어요}}{{ex:Turn off your phone, please.|터노프 유어 폰, 플리즈|휴대폰 꺼 주세요}}<h3>대명사는 가운데에!</h3><p>목적어를 받는 구동사 중 많은 것은 둘로 나눌 수 있어요. 명사는 앞뒤 어디든 괜찮지만, <b>it·them·me 같은 대명사는 반드시 가운데</b>에 와요.</p>{{ex:Turn on the light. / Turn the light on.|턴 온 더 라잇 / 턴 더 라잇 온|불 켜 줘 (둘 다 O)}}{{ex:Turn it on.|터니론|그거 켜 줘 (turn on it X)}}{{ex:I'll pick you up at seven.|아일 픽 유 업 앳 쎄븐|7시에 데리러 갈게}}<h3>나눌 수 없는 구동사</h3><p>look after, look for, get along with처럼 전치사가 붙는 것은 나누지 않아요: <i>look after my cat</i>, <i>look after her</i>.</p><div class=\"tip\">구동사는 단어처럼 <b>통째로</b> 외우세요. 예문과 함께 외우면 대명사 위치도 자연스럽게 익혀져요. 하루에 세 개씩만 실제로 써 보세요!</div>"},
-    {"id":"email","title":"25 · 이메일 영어","blurb":"인사 → 목적 → 요청 → 마무리. 짧고 분명하게.","deck":"직장·이메일","body":"<p>영어 업무 이메일은 <b>짧고, 목적이 분명하고, 친절하게</b>가 원칙이에요. 한국식으로 길게 사과하거나 겸손을 표현하면 오히려 요점이 흐려져요.</p><h3>기본 구조</h3><div class=\"tbl\"><table><tr><th>부분</th><th>예시</th></tr><tr><td>인사</td><td class=\"k\">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>첫 줄 (안부·목적)</td><td class=\"k\">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>본문 (요청)</td><td class=\"k\">Could you send me… by Friday?</td></tr><tr><td>마무리</td><td class=\"k\">Let me know if you have any questions.</td></tr><tr><td>맺음말</td><td class=\"k\">Best regards, / Best, / Thanks,</td></tr></table></div><h3>인사는 Hi가 기본</h3><p>미국 회사에서는 처음 연락하는 사람에게도 <b>Hi + 이름</b>이 무난해요. 아주 격식 있는 경우에만 Dear를 써요. 이름 대신 직함만 쓰는 건(Dear Manager) 어색해요.</p>{{ex:I hope this email finds you well.|아이 호프 디스 이메일 파인즈 유 웰|잘 지내고 계시길 바랍니다}}{{ex:I'm writing to follow up on our meeting.|아임 롸이팅 투 팔로우 업 온 아워 미팅|지난 회의 관련해서 후속으로 연락드립니다}}<h3>요청은 부드럽게, 기한은 분명하게</h3>{{ex:Could you send me the report by Thursday?|쿠쥬 쎈드 미 더 리포트 바이 써즈데이?|목요일까지 보고서 보내 주실 수 있나요?}}{{ex:Thanks for your patience.|땡스 포 유어 페이션스|기다려 주셔서 감사합니다}}<p>ASAP는 상대를 재촉하는 느낌이 있어요. 가능하면 <b>by + 날짜</b>로 기한을 주세요.</p><h3>\"수고하셨습니다\"는?</h3><p>영어에 딱 맞는 말은 없어요. 상황에 맞게 바꿔 말해요.</p><ul><li>프로젝트가 끝났을 때: <b>Thanks for all your hard work!</b></li><li>금요일 이메일 끝: <b>Have a great weekend!</b></li><li>도움을 받았을 때: <b>I really appreciate your help.</b></li></ul><div class=\"tip\">\"Sorry for the late reply\"를 매번 쓸 필요는 없어요. 대신 <b>Thanks for your patience</b>를 쓰면 사과 없이도 예의 바르고 긍정적으로 들려요.</div>"},
-    {"id":"idioms","title":"26 · 관용구와 슬랭 쓰는 법","blurb":"직역하면 이상한 표현들. 언제, 누구에게 써야 할까요?","deck":"영어 관용구","body":"<p>관용구(idiom)는 단어 뜻을 합쳐도 전체 뜻이 나오지 않는 표현이에요. \"a piece of cake\"는 케이크 이야기가 아니라 \"아주 쉽다\"는 뜻이죠. 영화·드라마를 자막 없이 보려면 꼭 알아야 해요.</p><h3>그림으로 기억하세요</h3><p>대부분의 관용구는 머릿속에 장면을 그리면 쉽게 외워져요.</p>{{ex:It's a piece of cake.|잇츠 어 피스 오브 케익|식은 죽 먹기예요 (케이크 한 조각 먹듯 쉽다)}}{{ex:It costs an arm and a leg.|잇 코스츠 언 암 앤 어 레그|엄청 비싸요 (팔다리를 줘야 할 만큼)}}{{ex:I'm all ears.|아임 올 이어즈|잘 듣고 있어요 (온몸이 귀)}}<h3>한국어와 비슷한 표현</h3><div class=\"tbl\"><table><tr><th>영어</th><th>한국어</th></tr><tr><td class=\"k\">Speak of the devil!</td><td>호랑이도 제 말 하면 온다</td></tr><tr><td class=\"k\">Kill two birds with one stone</td><td>일석이조</td></tr><tr><td class=\"k\">When pigs fly</td><td>해가 서쪽에서 뜨면</td></tr><tr><td class=\"k\">A blessing in disguise</td><td>전화위복</td></tr></table></div><h3>관용구 vs 슬랭</h3><p><b>관용구</b>는 오래된 표현이라 나이와 상관없이, 직장에서도 써요(Let's call it a day). <b>슬랭</b>은 젊은 층의 유행어라 친구끼리만 써요(No cap, That song slaps). 슬랭은 빨리 바뀌고, 어른이 쓰면 어색하게 들릴 수도 있어요.</p>{{ex:Let's call it a day.|렛츠 콜 잇 어 데이|오늘은 여기까지 해요 (회의에서도 OK)}}{{ex:No cap, this is the best pizza ever.|노 캡, 디스 이즈 더 베스트 핏자 에버|진짜로, 이거 인생 피자야 (친구끼리만)}}<div class=\"tip\">관용구는 너무 많이 넣으면 오히려 부자연스러워요. 대화 한 번에 하나 정도, 상황에 딱 맞을 때 쓰면 \"영어 잘한다!\"는 인상을 줄 수 있어요.</div>"}
+    {"id":"past-continuous","title":"24 · 과거진행: was / were + -ing","blurb":"그때 하고 있던 일. 이야기의 배경을 깔아 줘요.","deck":"감정·반응","body":"<p>과거의 <b>어느 순간에 하고 있던 일</b>을 말해요. 현재진행의 be동사만 과거(was / were)로 바꾸면 돼요.</p>{{ex:I was sleeping.|아이 워즈 슬리핑|저는 자고 있었어요}}{{ex:We were watching TV.|위 워 왓칭 티비|우리는 TV를 보고 있었어요}}{{ex:It was raining.|잇 워즈 레이닝|비가 오고 있었어요}}<h3>질문</h3>{{ex:What were you doing?|왓 워 유 두잉?|뭐 하고 있었어요?}}{{ex:Were you working at nine?|워 유 워킹 앳 나인?|9시에 일하고 있었어요?}}<h3>when과 함께: 하던 중에 일이 생겼어요</h3><p>길게 하던 일은 <b>과거진행</b>, 그 사이에 일어난 짧은 일은 <b>과거형</b>이에요.</p>{{ex:I was cooking when you called.|아이 워즈 쿠킹 웬 유 콜드|전화했을 때 저는 요리하고 있었어요}}{{ex:I was walking home when it started to rain.|아이 워즈 워킹 홈 웬 잇 스타티드 투 레인|집에 걸어가는데 비가 오기 시작했어요}}<div class=\"tip\">'~하고 있었어요'를 과거형으로만 말하면 느낌이 달라져요. <b>I cooked when you called.</b>는 \"전화가 오자 요리를 시작했어요\"라는 뜻이 돼요.</div>"},
+    {"id":"will","title":"25 · will: 지금 정한 일, 약속, 예측","blurb":"그 자리에서 결정하면 will, 미리 정했으면 going to.","deck":"스몰토크","body":"<p><b>will + 동사원형</b>이에요. 말할 때는 거의 항상 <b>I'll, you'll, it'll</b>로 줄여요. 부정은 <b>won't</b>예요.</p><h3>지금 막 정했을 때</h3>{{ex:I'll have the pasta.|아일 해브 더 파스타|저는 파스타로 할게요}}{{ex:I'll get it.|아일 게릿|제가 받을게요}}<h3>약속과 제안</h3>{{ex:I'll help you.|아일 헬프 유|도와줄게요}}{{ex:I'll call you later.|아일 콜 유 레이러|나중에 전화할게요}}{{ex:I won't be late.|아이 원트 비 레이트|안 늦을게요}}<h3>예측</h3>{{ex:It'll be fine.|이를 비 파인|괜찮을 거예요}}{{ex:I think it will rain.|아이 띵크 잇 윌 레인|비가 올 것 같아요}}<h3>will과 be going to</h3><div class=\"tbl\"><table><tr><th></th><th>언제</th><th>예</th></tr><tr><td class=\"k\">will</td><td>지금 결정, 약속</td><td>I'll get the door.</td></tr><tr><td class=\"k\">be going to</td><td>미리 세운 계획</td><td>I'm going to visit Jeju next month.</td></tr></table></div><div class=\"tip\">가장 흔한 실수: <b>I will to go.</b>, <b>I'll going.</b> (X) → <b>I'll go.</b> (O). will 뒤에는 동사원형만 와요.</div>"},
+    {"id":"perfect","title":"26 · 현재완료: 해 본 적 있어요","blurb":"have + 과거분사로 경험을 말해요. 언제인지 말하면 과거형.","deck":"여행(공항·호텔)","body":"<p><b>have + 과거분사(p.p.)</b>는 '지금까지 살면서 ~해 본 적이 있다'는 뜻이에요. <b>언제</b>인지는 말하지 않아요.</p>{{ex:I've been to Japan.|아이브 빈 투 저팬|일본에 가 본 적 있어요}}{{ex:She has visited Korea twice.|쉬 해즈 비지티드 코리아 트와이스|그녀는 한국에 두 번 와 봤어요}}<h3>ever 와 never</h3>{{ex:Have you ever eaten kimchi?|해뷰 에버 이튼 김치?|김치 먹어 본 적 있어요?}}{{ex:I've never seen it.|아이브 네버 씬 잇|그건 본 적 없어요}}<p>대답은 <b>Yes, I have.</b> / <b>No, I haven't.</b>예요.</p><h3>자주 쓰는 과거분사</h3><div class=\"tbl\"><table><tr><th>원형</th><th>과거</th><th>과거분사</th></tr><tr><td class=\"k\">be</td><td class=\"k\">was</td><td class=\"k\">been</td></tr><tr><td class=\"k\">eat</td><td class=\"k\">ate</td><td class=\"k\">eaten</td></tr><tr><td class=\"k\">see</td><td class=\"k\">saw</td><td class=\"k\">seen</td></tr><tr><td class=\"k\">do</td><td class=\"k\">did</td><td class=\"k\">done</td></tr><tr><td class=\"k\">try</td><td class=\"k\">tried</td><td class=\"k\">tried</td></tr></table></div><h3>언제인지 말하면 과거형</h3><p>last year, yesterday, in 2020처럼 시점이 있으면 현재완료를 쓰지 않아요.</p>{{ex:I went to Japan last year.|아이 웬 투 저팬 래스트 이어|작년에 일본에 갔어요}}<div class=\"tip\">가장 흔한 실수: <b>I've been to Japan last year.</b> (X) → <b>I went to Japan last year.</b> (O)</div>"},
+    {"id":"modals","title":"27 · have to, must, should, might: 의무와 조언","blurb":"해야 해요, 하는 게 좋아요, 할지도 몰라요.","deck":"병원·긴급","body":"<p>의무, 조언, 가능성을 말하는 네 가지예요. 모두 뒤에 <b>동사원형</b>이 와요.</p><h3>have to: 해야 해요</h3><p>일상에서 가장 많이 써요. she, he에는 <b>has to</b>예요.</p>{{ex:I have to work tomorrow.|아이 해브 투 워크 투마로우|내일 일해야 해요}}{{ex:She has to go now.|쉬 해즈 투 고 나우|그녀는 지금 가야 해요}}<h3>don't have to 와 must not 은 달라요</h3><div class=\"tbl\"><table><tr><th>표현</th><th>뜻</th></tr><tr><td class=\"k\">You don't have to come.</td><td>안 와도 돼요 (필요 없음)</td></tr><tr><td class=\"k\">You must not smoke here.</td><td>여기서 피우면 안 돼요 (금지)</td></tr></table></div><h3>should: 하는 게 좋아요</h3>{{ex:You should see a doctor.|유 슈드 씨 어 닥터|병원에 가 보는 게 좋겠어요}}{{ex:You shouldn't worry.|유 슈든트 워리|걱정하지 않는 게 좋아요}}<h3>might: 할지도 몰라요</h3>{{ex:It might rain.|잇 마잇 레인|비가 올지도 몰라요}}{{ex:I might be late.|아이 마잇 비 레이트|늦을지도 몰라요}}<div class=\"tip\">가장 흔한 실수: <b>You should to go.</b>, <b>It might rains.</b> (X) → <b>You should go.</b>, <b>It might rain.</b> (O)</div>"},
+    {"id":"to-ing","title":"28 · 동사 뒤 to와 -ing: want to, enjoy -ing","blurb":"want 뒤는 to, enjoy 뒤는 -ing. 동사마다 정해져 있어요.","deck":"스몰토크","body":"<p>동사 두 개를 이어 쓸 때, 앞 동사에 따라 뒤가 <b>to + 동사</b>인지 <b>동사-ing</b>인지 정해져 있어요. 자주 쓰는 것부터 묶어서 외워요.</p><div class=\"tbl\"><table><tr><th>뒤에 to</th><th>뒤에 -ing</th></tr><tr><td class=\"k\">want, need, hope, plan, decide, would like</td><td class=\"k\">enjoy, finish, mind, keep, stop</td></tr></table></div><h3>to + 동사: 앞으로 할 일</h3>{{ex:I want to go home.|아이 원투 고 홈|집에 가고 싶어요}}{{ex:I need to study.|아이 니투 스터디|공부해야 해요}}{{ex:I'd like to order.|아이드 라익 투 오더|주문하고 싶어요}}{{ex:I decided to learn English.|아이 디사이디드 투 런 잉글리시|영어를 배우기로 했어요}}<h3>-ing: 하고 있는 일, 즐기는 일</h3>{{ex:I enjoy cooking.|아이 인조이 쿠킹|요리하는 걸 즐겨요}}{{ex:I finished working.|아이 피니쉬트 워킹|일 끝났어요}}{{ex:I don't mind waiting.|아이 돈 마인드 웨이링|기다려도 괜찮아요}}<h3>둘 다 되는 동사</h3><p>like, love, start는 to와 -ing 둘 다 쓸 수 있어요.</p><div class=\"tip\">가장 흔한 실수: <b>I want go.</b>, <b>I enjoy to cook.</b> (X) → <b>I want to go.</b>, <b>I enjoy cooking.</b> (O)</div>"},
+    {"id":"articles-2","title":"29 · the 심화: 하나뿐인 것과 관사 없는 복수","blurb":"악기에는 the, 운동에는 없음. 나라 이름과 '~라는 것 전체'까지.","deck":"여행(공항·호텔)","body":"<p>관사 세 번째 시간이에요. 규칙으로 정해진 경우들을 묶어서 정리해요.</p><h3>the를 붙이는 경우</h3><div class=\"tbl\"><table><tr><th>경우</th><th>예</th></tr><tr><td>세상에 하나뿐인 것</td><td class=\"k\">the sun, the internet</td></tr><tr><td>악기</td><td class=\"k\">play the piano</td></tr><tr><td>강·바다</td><td class=\"k\">the Han River, the Pacific</td></tr><tr><td>복수형·연합 나라 이름</td><td class=\"k\">the United States, the Philippines</td></tr></table></div>{{ex:I play the piano.|아이 플레이 더 피애노|저는 피아노를 쳐요}}{{ex:She's from the United States.|쉬즈 프럼 더 유나이티드 스테이츠|그녀는 미국에서 왔어요}}{{ex:I found it on the internet.|아이 파운딧 온 디 이너넷|인터넷에서 찾았어요}}<h3>관사를 안 붙이는 경우</h3><div class=\"tbl\"><table><tr><th>경우</th><th>예</th></tr><tr><td>대부분의 나라·도시</td><td class=\"k\">Korea, Seoul</td></tr><tr><td>운동·언어·식사</td><td class=\"k\">play soccer, speak English, have lunch</td></tr><tr><td>'~라는 것 전체'</td><td class=\"k\">Dogs are cute. I love music.</td></tr></table></div>{{ex:I live in Korea.|아이 리브 인 코리아|저는 한국에 살아요}}{{ex:I play soccer.|아이 플레이 사커|저는 축구를 해요}}{{ex:Dogs are cute.|독즈 아 큐트|개는 귀여워요}}<h3>전체와 특정한 것</h3>{{ex:I like dogs.|아이 라익 독즈|저는 개를 좋아해요 (개 전체)}}{{ex:The dogs in this park are cute.|더 독즈 인 디스 파크 아 큐트|이 공원의 개들은 귀여워요 (그 개들)}}<div class=\"tip\">'전체'를 말할 때는 the 없이 복수로: <b>I like the dogs.</b>는 \"그 개들을 좋아해요\"라는 뜻이 돼요.</div>"},
+    {"id":"first-conditional","title":"30 · 조건문 1: If + 현재, will","blurb":"'~하면 ~할 거예요'. if 뒤에는 will을 쓰지 않아요.","deck":"직장·이메일","body":"<p>실제로 일어날 수 있는 일을 말해요. <b>If + 현재형, will + 동사</b>예요. 뜻은 미래여도 if 쪽은 <b>현재형</b>으로 써요.</p>{{ex:If it rains, I'll stay home.|이프 잇 레인즈 아일 스테이 홈|비가 오면 집에 있을게요}}{{ex:If you don't hurry, you'll miss the bus.|이퓨 돈 허리 유일 미스 더 버스|서두르지 않으면 버스를 놓칠 거예요}}<h3>순서를 바꿔도 돼요</h3><p>if를 뒤로 보내면 쉼표가 없어져요.</p>{{ex:I'll help you if I have time.|아일 헬퓨 이프 아이 해브 타임|시간 있으면 도와줄게요}}<h3>명령문과 함께</h3>{{ex:If you're late, call me.|이퓨어 레이트 콜 미|늦으면 전화해요}}{{ex:If you need help, let me know.|이퓨 니드 헬프 렛 미 노우|도움이 필요하면 알려 줘요}}<h3>when: ~하면 (확실한 일)</h3><p>일어날 것이 확실하면 if 대신 when이에요. 여기에도 will을 쓰지 않아요.</p>{{ex:When I get home, I'll call you.|웬 아이 겟 홈 아일 콜 유|집에 도착하면 전화할게요}}<div class=\"tip\">가장 흔한 실수: <b>If it will rain, …</b> (X) → <b>If it rains, …</b> (O)</div>"},
+    {"id":"relative","title":"31 · who / that: 사람과 물건 꾸미기","blurb":"한국어는 앞에서 꾸미고, 영어는 뒤에서 꾸며요.","deck":"쇼핑·계산","body":"<p>한국어는 \"<b>제가 산</b> 책\"처럼 꾸미는 말이 앞에 와요. 영어는 명사를 먼저 말하고 <b>뒤에서</b> 설명해요: the book <b>that I bought</b>.</p><h3>사람은 who</h3>{{ex:I have a friend who speaks Korean.|아이 해버 프렌드 후 스픽스 코리언|한국어 하는 친구가 있어요}}{{ex:the man who lives next door|더 맨 후 리브즈 넥스트 도어|옆집에 사는 남자}}<h3>물건은 that</h3>{{ex:the book that I bought|더 북 댓 아이 봇|제가 산 책}}{{ex:This is the phone that I want.|디스 이즈 더 폰 댓 아이 원트|이게 제가 원하는 휴대폰이에요}}<h3>that은 자주 생략해요</h3><p>뒤에 '주어 + 동사'가 바로 오면 that을 빼도 돼요. 말할 때는 거의 빼요.</p>{{ex:The movie we saw was great.|더 무비 위 쏘 워즈 그레이트|우리가 본 영화 정말 좋았어요}}<h3>장소는 where</h3>{{ex:the cafe where we met|더 캐페이 웨어 위 멧|우리가 만난 카페}}<div class=\"tip\">순서만 기억하세요: <b>명사 먼저, 설명은 뒤에.</b> \"제가 산 책\" → the book (that) I bought. what은 쓰지 않아요: <b>the book what I bought</b> (X)</div>"},
+    {"id":"phrasal","title":"32 · 구동사 입문","blurb":"동사 + 작은 단어 = 완전히 새로운 뜻. 원어민 대화의 절반이에요.","deck":"구동사","body":"<p>구동사(phrasal verb)는 <b>동사 + up/out/off/on 같은 작은 단어</b>가 합쳐져 새로운 뜻을 만든 거예요. 교과서식 단어(postpone, discover)보다 일상 대화에서 훨씬 많이 들려요.</p><div class=\"tbl\"><table><tr><th>딱딱한 단어</th><th>구동사 (일상)</th><th>뜻</th></tr><tr><td>postpone</td><td class=\"k\">put off</td><td>미루다</td></tr><tr><td>discover</td><td class=\"k\">find out</td><td>알게 되다</td></tr><tr><td>exercise</td><td class=\"k\">work out</td><td>운동하다</td></tr><tr><td>tolerate</td><td class=\"k\">put up with</td><td>참다</td></tr></table></div><h3>작은 단어에 힌트가 있어요</h3><p><b>up</b>은 '완전히·위로', <b>out</b>은 '밖으로·끝까지', <b>off</b>는 '떨어져·멈춤', <b>on</b>은 '붙어서·계속'이라는 느낌이 있어요.</p>{{ex:I grew up in Daegu.|아이 그루 업 인 대구|대구에서 자랐어요}}{{ex:We ran out of milk.|위 래나우로브 밀크|우유가 다 떨어졌어요}}{{ex:Turn off your phone, please.|터노프 유어 폰, 플리즈|휴대폰 꺼 주세요}}<h3>대명사는 가운데에!</h3><p>목적어를 받는 구동사 중 많은 것은 둘로 나눌 수 있어요. 명사는 앞뒤 어디든 괜찮지만, <b>it·them·me 같은 대명사는 반드시 가운데</b>에 와요.</p>{{ex:Turn on the light. / Turn the light on.|턴 온 더 라잇 / 턴 더 라잇 온|불 켜 줘 (둘 다 O)}}{{ex:Turn it on.|터니론|그거 켜 줘 (turn on it X)}}{{ex:I'll pick you up at seven.|아일 픽 유 업 앳 쎄븐|7시에 데리러 갈게}}<h3>나눌 수 없는 구동사</h3><p>look after, look for, get along with처럼 전치사가 붙는 것은 나누지 않아요: <i>look after my cat</i>, <i>look after her</i>.</p><div class=\"tip\">구동사는 단어처럼 <b>통째로</b> 외우세요. 예문과 함께 외우면 대명사 위치도 자연스럽게 익혀져요. 하루에 세 개씩만 실제로 써 보세요!</div>"},
+    {"id":"perfect-2","title":"33 · 현재완료 2: for와 since, 지금까지 쭉","blurb":"과거에 시작해서 지금도 계속되는 일. for + 기간, since + 시작점.","deck":"자기소개","body":"<p>현재완료의 두 번째 쓰임이에요. <b>과거에 시작해서 지금까지 이어지는 일</b>을 말해요. 한국어 '~한 지 ~ 됐어요'에 해당해요.</p>{{ex:I've lived in Seoul for five years.|아이브 리브드 인 서울 포 파이브 이어즈|서울에 산 지 5년 됐어요}}{{ex:I've worked here since 2020.|아이브 웍트 히어 신스 투웨니 투웨니|2020년부터 여기서 일하고 있어요}}{{ex:I've known her for a long time.|아이브 노운 허 포러 롱 타임|그녀를 안 지 오래됐어요}}<h3>for 와 since</h3><div class=\"tbl\"><table><tr><th>for + 기간</th><th>since + 시작점</th></tr><tr><td class=\"k\">for three years</td><td class=\"k\">since 2020</td></tr><tr><td class=\"k\">for two hours</td><td class=\"k\">since Monday</td></tr></table></div><h3>How long ~?</h3>{{ex:How long have you been here?|하우 롱 해뷰 빈 히어?|여기 얼마나 계셨어요?}}{{ex:How long have you studied English?|하우 롱 해뷰 스터디드 잉글리시?|영어 공부한 지 얼마나 됐어요?}}<h3>just, already, yet</h3>{{ex:I've just finished.|아이브 저스트 피니쉬트|방금 끝냈어요}}{{ex:I've already seen it.|아이브 올레디 씬 잇|이미 봤어요}}{{ex:Have you eaten yet?|해뷰 이튼 옛?|벌써 먹었어요?}}<div class=\"tip\">가장 흔한 실수: 현재형으로 말하는 것. <b>I live here for five years.</b> (X) → <b>I've lived here for five years.</b> (O)</div>"},
+    {"id":"narrative","title":"34 · 이야기 시제: 과거, 과거진행, 과거완료","blurb":"배경은 과거진행, 사건은 과거형, 더 먼저 일어난 일은 had + p.p.","deck":"영화·드라마·슬랭","body":"<p>있었던 일을 이야기할 때는 세 가지 시제를 섞어 써요. 각자 맡은 역할이 달라요.</p><div class=\"tbl\"><table><tr><th>시제</th><th>역할</th><th>예</th></tr><tr><td class=\"k\">과거진행</td><td>배경, 하던 일</td><td>I was walking home.</td></tr><tr><td class=\"k\">과거형</td><td>일어난 사건</td><td>I saw an old friend.</td></tr><tr><td class=\"k\">과거완료</td><td>그보다 먼저 일어난 일</td><td>He had moved to Busan.</td></tr></table></div><h3>배경 + 사건</h3>{{ex:I was walking home when I saw an old friend.|아이 워즈 워킹 홈 웬 아이 쏘 언 올드 프렌드|집에 걸어가다가 옛 친구를 만났어요}}<h3>과거완료: had + 과거분사</h3><p>과거의 어느 때보다 <b>더 먼저</b> 일어난 일이에요.</p>{{ex:When I arrived, the movie had already started.|웬 아이 어라이브드 더 무비 해드 올레디 스타티드|도착했을 때 영화는 이미 시작했어요}}{{ex:I had never seen snow before.|아이 해드 네버 씬 스노우 비포|그전에는 눈을 본 적이 없었어요}}<h3>순서를 알려 주는 말</h3><p>first(먼저), then(그다음에), after that(그 후에), finally(마침내)로 이어 가요.</p>{{ex:First we ate dinner. Then we watched a movie.|퍼스트 위 에잇 디너. 덴 위 왓치트 어 무비|먼저 저녁을 먹었어요. 그다음에 영화를 봤어요}}<div class=\"tip\">then(그다음에)과 than(~보다)은 발음이 비슷하지만 다른 단어예요. 이야기에는 <b>then</b>이에요.</div>"},
+    {"id":"conditionals","title":"35 · 조건문 2·3: 가정과 후회","blurb":"지금 사실과 반대면 would, 지나간 일의 후회는 would have.","deck":"감정·반응","body":"<p>실제가 아닌 일을 상상할 때 써요. 한국어 '~라면 ~할 텐데', '~했더라면 ~했을 텐데'예요.</p><h3>조건문 2: 지금 사실과 반대</h3><p><b>If + 과거형, would + 동사</b>예요. 과거형을 쓰지만 뜻은 지금이에요.</p>{{ex:If I had time, I would travel.|이프 아이 해드 타임 아이 우드 트래블|시간이 있으면 여행할 텐데}}{{ex:If I were you, I'd take it.|이프 아이 워 유 아이드 테이킷|내가 너라면 그걸 받을 거야}}{{ex:What would you do?|왓 우쥬 두?|당신이라면 어떻게 하겠어요?}}<h3>조건문 3: 지나간 일과 반대</h3><p><b>If + had + 과거분사, would have + 과거분사</b>예요.</p>{{ex:If I had studied, I would have passed.|이프 아이 해드 스터디드 아이 우드 해브 패스트|공부했더라면 합격했을 텐데}}<h3>후회: should have, I wish</h3>{{ex:I should have called.|아이 슈드 해브 콜드|전화했어야 했는데}}{{ex:I wish I had more time.|아이 위시 아이 해드 모어 타임|시간이 더 있으면 좋겠어요}}<div class=\"tbl\"><table><tr><th>종류</th><th>if 쪽</th><th>결과 쪽</th></tr><tr><td>1 (가능한 일)</td><td class=\"k\">현재형</td><td class=\"k\">will</td></tr><tr><td>2 (지금과 반대)</td><td class=\"k\">과거형</td><td class=\"k\">would</td></tr><tr><td>3 (과거와 반대)</td><td class=\"k\">had + p.p.</td><td class=\"k\">would have + p.p.</td></tr></table></div><div class=\"tip\">If I were you는 굳어진 표현이에요. I 뒤에도 was가 아니라 <b>were</b>를 써요.</div>"},
+    {"id":"passive","title":"36 · 수동태: be + 과거분사","blurb":"누가 했는지보다 무슨 일이 생겼는지가 중요할 때.","deck":"직장·이메일","body":"<p>'~되다, ~당하다'를 말할 때 써요. 틀은 <b>be동사 + 과거분사</b>예요. 누가 했는지 모르거나 중요하지 않을 때 자연스러워요.</p>{{ex:My phone was stolen.|마이 폰 워즈 스톨른|휴대폰을 도난당했어요}}{{ex:This was made in Korea.|디스 워즈 메이드 인 코리아|이건 한국에서 만들어졌어요}}{{ex:The meeting was canceled.|더 미팅 워즈 캔슬드|회의가 취소됐어요}}<h3>현재: 늘 그렇게 되는 일</h3>{{ex:English is spoken here.|잉글리시 이즈 스포큰 히어|여기서는 영어를 써요}}{{ex:Breakfast is served at seven.|브렉퍼스트 이즈 서브드 앳 세븐|조식은 7시에 제공돼요}}<h3>누가 했는지는 by</h3>{{ex:It was written by Han Kang.|잇 워즈 리튼 바이 한강|한강이 쓴 거예요}}<h3>능동과 수동</h3><div class=\"tbl\"><table><tr><th>능동</th><th>수동</th></tr><tr><td class=\"k\">Someone stole my bag.</td><td class=\"k\">My bag was stolen.</td></tr><tr><td class=\"k\">They canceled the flight.</td><td class=\"k\">The flight was canceled.</td></tr></table></div><div class=\"tip\">가장 흔한 실수: be동사를 빼먹는 것. <b>My phone stolen.</b> (X) → <b>My phone was stolen.</b> (O)</div>"},
+    {"id":"reported","title":"37 · 간접화법: 남의 말 전하기","blurb":"She said she was tired. 시제를 한 칸 뒤로, tell 뒤에는 사람.","deck":"전화·문자 줄임말","body":"<p>다른 사람이 한 말을 전할 때 써요. 한국어 '~라고 했어요'예요. 전하는 말의 <b>시제를 한 칸 과거로</b> 옮겨요.</p><div class=\"tbl\"><table><tr><th>원래 말</th><th>전할 때</th></tr><tr><td class=\"k\">\"I'm tired.\"</td><td class=\"k\">She said she was tired.</td></tr><tr><td class=\"k\">\"I'll come.\"</td><td class=\"k\">He said he would come.</td></tr><tr><td class=\"k\">\"I can help.\"</td><td class=\"k\">She said she could help.</td></tr></table></div>{{ex:She said she was tired.|쉬 세드 쉬 워즈 타이어드|그녀는 피곤하다고 했어요}}{{ex:He said he would come.|히 세드 히 우드 컴|그는 오겠다고 했어요}}<h3>say 와 tell</h3><p><b>tell</b> 뒤에는 꼭 듣는 사람이 와요. <b>say</b> 뒤에는 오지 않아요.</p>{{ex:He told me he was busy.|히 톨드 미 히 워즈 비지|그는 저한테 바쁘다고 했어요}}<h3>질문을 전할 때</h3><p>예/아니오 질문은 <b>if</b>, 의문사 질문은 의문사를 그대로 쓰고, 뒤는 <b>평서문 순서</b>(주어 + 동사)예요.</p>{{ex:She asked if I was okay.|쉬 애스크트 이프 아이 워즈 오케이|그녀는 제가 괜찮은지 물었어요}}{{ex:He asked where I lived.|히 애스크트 웨어 아이 리브드|그는 제가 어디 사는지 물었어요}}<div class=\"tip\">가장 흔한 실수: <b>He said me …</b> (X) → <b>He told me …</b> (O), <b>He asked where did I live.</b> (X) → <b>He asked where I lived.</b> (O)</div>"},
+    {"id":"email","title":"38 · 이메일 영어","blurb":"인사 → 목적 → 요청 → 마무리. 짧고 분명하게.","deck":"직장·이메일","body":"<p>영어 업무 이메일은 <b>짧고, 목적이 분명하고, 친절하게</b>가 원칙이에요. 한국식으로 길게 사과하거나 겸손을 표현하면 오히려 요점이 흐려져요.</p><h3>기본 구조</h3><div class=\"tbl\"><table><tr><th>부분</th><th>예시</th></tr><tr><td>인사</td><td class=\"k\">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>첫 줄 (안부·목적)</td><td class=\"k\">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>본문 (요청)</td><td class=\"k\">Could you send me… by Friday?</td></tr><tr><td>마무리</td><td class=\"k\">Let me know if you have any questions.</td></tr><tr><td>맺음말</td><td class=\"k\">Best regards, / Best, / Thanks,</td></tr></table></div><h3>인사는 Hi가 기본</h3><p>미국 회사에서는 처음 연락하는 사람에게도 <b>Hi + 이름</b>이 무난해요. 아주 격식 있는 경우에만 Dear를 써요. 이름 대신 직함만 쓰는 건(Dear Manager) 어색해요.</p>{{ex:I hope this email finds you well.|아이 호프 디스 이메일 파인즈 유 웰|잘 지내고 계시길 바랍니다}}{{ex:I'm writing to follow up on our meeting.|아임 롸이팅 투 팔로우 업 온 아워 미팅|지난 회의 관련해서 후속으로 연락드립니다}}<h3>요청은 부드럽게, 기한은 분명하게</h3>{{ex:Could you send me the report by Thursday?|쿠쥬 쎈드 미 더 리포트 바이 써즈데이?|목요일까지 보고서 보내 주실 수 있나요?}}{{ex:Thanks for your patience.|땡스 포 유어 페이션스|기다려 주셔서 감사합니다}}<p>ASAP는 상대를 재촉하는 느낌이 있어요. 가능하면 <b>by + 날짜</b>로 기한을 주세요.</p><h3>\"수고하셨습니다\"는?</h3><p>영어에 딱 맞는 말은 없어요. 상황에 맞게 바꿔 말해요.</p><ul><li>프로젝트가 끝났을 때: <b>Thanks for all your hard work!</b></li><li>금요일 이메일 끝: <b>Have a great weekend!</b></li><li>도움을 받았을 때: <b>I really appreciate your help.</b></li></ul><div class=\"tip\">\"Sorry for the late reply\"를 매번 쓸 필요는 없어요. 대신 <b>Thanks for your patience</b>를 쓰면 사과 없이도 예의 바르고 긍정적으로 들려요.</div>"},
+    {"id":"idioms","title":"39 · 관용구와 슬랭 쓰는 법","blurb":"직역하면 이상한 표현들. 언제, 누구에게 써야 할까요?","deck":"영어 관용구","body":"<p>관용구(idiom)는 단어 뜻을 합쳐도 전체 뜻이 나오지 않는 표현이에요. \"a piece of cake\"는 케이크 이야기가 아니라 \"아주 쉽다\"는 뜻이죠. 영화·드라마를 자막 없이 보려면 꼭 알아야 해요.</p><h3>그림으로 기억하세요</h3><p>대부분의 관용구는 머릿속에 장면을 그리면 쉽게 외워져요.</p>{{ex:It's a piece of cake.|잇츠 어 피스 오브 케익|식은 죽 먹기예요 (케이크 한 조각 먹듯 쉽다)}}{{ex:It costs an arm and a leg.|잇 코스츠 언 암 앤 어 레그|엄청 비싸요 (팔다리를 줘야 할 만큼)}}{{ex:I'm all ears.|아임 올 이어즈|잘 듣고 있어요 (온몸이 귀)}}<h3>한국어와 비슷한 표현</h3><div class=\"tbl\"><table><tr><th>영어</th><th>한국어</th></tr><tr><td class=\"k\">Speak of the devil!</td><td>호랑이도 제 말 하면 온다</td></tr><tr><td class=\"k\">Kill two birds with one stone</td><td>일석이조</td></tr><tr><td class=\"k\">When pigs fly</td><td>해가 서쪽에서 뜨면</td></tr><tr><td class=\"k\">A blessing in disguise</td><td>전화위복</td></tr></table></div><h3>관용구 vs 슬랭</h3><p><b>관용구</b>는 오래된 표현이라 나이와 상관없이, 직장에서도 써요(Let's call it a day). <b>슬랭</b>은 젊은 층의 유행어라 친구끼리만 써요(No cap, That song slaps). 슬랭은 빨리 바뀌고, 어른이 쓰면 어색하게 들릴 수도 있어요.</p>{{ex:Let's call it a day.|렛츠 콜 잇 어 데이|오늘은 여기까지 해요 (회의에서도 OK)}}{{ex:No cap, this is the best pizza ever.|노 캡, 디스 이즈 더 베스트 핏자 에버|진짜로, 이거 인생 피자야 (친구끼리만)}}<div class=\"tip\">관용구는 너무 많이 넣으면 오히려 부자연스러워요. 대화 한 번에 하나 정도, 상황에 딱 맞을 때 쓰면 \"영어 잘한다!\"는 인상을 줄 수 있어요.</div>"}
   ],
   CHECKS: {
     "pron": [
@@ -729,10 +742,75 @@ LANGAPP_PACKS.course['ko-en'] = {
       ["초면에 피하는 게 좋은 질문은?",["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"],2,"영어권에서는 나이를 먼저 묻는 게 실례가 될 수 있어요."],
       ["I don't like horror movies.에 동의할 때",["Me too.","So do I.","Me neither.","Me also."],2,"부정문에 맞장구칠 땐 Me neither(또는 Neither do I)예요."]
     ],
+    "past-continuous": [
+      ["'9시에 뭐 하고 있었어요?'를 영어로 하면?",["What did you doing at nine?","What were you doing at nine?","What was you doing at nine?","What were you do at nine?"],1,"you에는 were, 뒤에는 -ing가 와요."],
+      ["I was cooking ___ you called. 빈칸에 알맞은 것은?",["when","so","or","than"],0,"'~했을 때'는 when이에요."],
+      ["They ___ watching TV. 빈칸에 알맞은 것은?",["was","did","were","are being"],2,"they에는 were예요."]
+    ],
+    "will": [
+      ["전화가 울릴 때 '제가 받을게요'는?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"그 자리에서 정한 일은 will이에요."],
+      ["I ___ be late. (안 늦을게요)",["won't","willn't","don't will","not will"],0,"will의 부정은 won't예요."],
+      ["미리 세운 계획을 말하는 문장은?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"미리 세운 계획은 be going to예요."]
+    ],
+    "perfect": [
+      ["'일본에 가 본 적 있어요?'를 영어로 하면?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"경험은 Have you ever + 과거분사예요."],
+      ["I ___ never seen that movie. 빈칸에 알맞은 것은?",["am","did","have","was"],2,"have + never + 과거분사예요."],
+      ["다음 중 알맞은 문장은?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"last year처럼 시점이 있으면 과거형이에요."]
+    ],
+    "modals": [
+      ["'안 와도 돼요'를 영어로 하면?",["You must not come.","You don't have to come.","You shouldn't to come.","You haven't to come."],1,"'필요 없다'는 don't have to예요."],
+      ["조언할 때: You ___ see a doctor.",["might","have","should","must to"],2,"조언은 should + 동사원형이에요."],
+      ["She ___ to work today. 빈칸에 알맞은 것은?",["have","must","should","has"],3,"she에는 has to예요."]
+    ],
+    "to-ing": [
+      ["I want ___ home. 빈칸에 알맞은 것은?",["go","going","to go","to going"],2,"want 뒤에는 to + 동사가 와요."],
+      ["I enjoy ___ movies. 빈칸에 알맞은 것은?",["watching","to watch","watch","to watching"],0,"enjoy 뒤에는 -ing가 와요."],
+      ["'주문하고 싶어요'를 영어로 하면?",["I'd like order.","I'd like ordering.","I like to ordering.","I'd like to order."],3,"would like 뒤에는 to + 동사가 와요."]
+    ],
+    "articles-2": [
+      ["I play ___ soccer. 빈칸에 알맞은 것은?",["a","the","an","(없음)"],3,"운동 이름에는 관사를 쓰지 않아요."],
+      ["She's from ___ United States. 빈칸에 알맞은 것은?",["the","a","an","(없음)"],0,"United States 앞에는 the를 붙여요."],
+      ["'개는 귀여워요' (개 전체)를 영어로 하면?",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"전체를 말할 때는 관사 없이 복수예요."]
+    ],
+    "first-conditional": [
+      ["If it ___ tomorrow, I'll stay home. 빈칸에 알맞은 것은?",["will rain","rains","rained","raining"],1,"if 뒤에는 현재형을 써요."],
+      ["If you study, you ___ pass. 빈칸에 알맞은 것은?",["pass will","passing","will pass","passed"],2,"결과 쪽은 will + 동사원형이에요."],
+      ["다음 중 알맞은 문장은?",["If I have time, I'll call you.","If I will have time, I call you.","If I'll have time, I'll call you.","If I have time, I calling you."],0,"if 쪽은 현재형, 결과 쪽은 will이에요."]
+    ],
+    "relative": [
+      ["I have a friend ___ lives in Busan. 빈칸에 알맞은 것은?",["which","who","what","he"],1,"사람을 꾸밀 때는 who예요."],
+      ["'제가 산 책'을 영어로 하면?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"명사를 먼저 말하고 that으로 설명해요."],
+      ["다음 중 알맞은 문장은?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"꾸미는 말은 명사 뒤에 와요."]
+    ],
     "phrasal": [
       ["'그거 좀 꺼 줄래?' 올바른 문장은?",["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"],3,"대명사(it)는 구동사 가운데에 와요: turn it off."],
       ["run out of의 뜻은?",["밖으로 뛰어나가다","~이 다 떨어지다","~에서 도망치다","늦게 도착하다"],1,"We ran out of milk. = 우유가 다 떨어졌어요."],
       ["'회의를 다음 주로 미루자' =",["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."],0,"put off = 미루다. put on은 '입다·켜다', put out은 '(불을) 끄다'예요."]
+    ],
+    "perfect-2": [
+      ["I've lived here ___ three years. 빈칸에 알맞은 것은?",["since","for","during","from"],1,"기간 앞에는 for예요."],
+      ["I've worked here ___ 2020. 빈칸에 알맞은 것은?",["for","in","since","at"],2,"시작점 앞에는 since예요."],
+      ["'여기 얼마나 계셨어요?'를 영어로 하면?",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"How long have you + 과거분사예요."]
+    ],
+    "narrative": [
+      ["When I arrived, the train ___ already left. 빈칸에 알맞은 것은?",["has","was","had","did"],2,"더 먼저 일어난 일은 had + 과거분사예요."],
+      ["I ___ walking home when it started to rain. 빈칸에 알맞은 것은?",["was","had","did","have"],0,"하던 일(배경)은 과거진행이에요."],
+      ["그보다 더 먼저 일어난 일을 나타내는 문장은?",["I was eating.","I ate.","I eat.","I had eaten."],3,"had + 과거분사가 과거완료예요."]
+    ],
+    "conditionals": [
+      ["If I ___ rich, I would travel. 빈칸에 알맞은 것은?",["am","were","will be","would be"],1,"지금 사실과 반대면 과거형(were)이에요."],
+      ["If I had studied, I ___ passed. 빈칸에 알맞은 것은?",["would","will have","would have","had"],2,"과거와 반대면 would have + 과거분사예요."],
+      ["'전화했어야 했는데'를 영어로 하면?",["I should have called.","I should called.","I should had call.","I would call should."],0,"후회는 should have + 과거분사예요."]
+    ],
+    "passive": [
+      ["My bag ___ stolen yesterday. 빈칸에 알맞은 것은?",["is","was","did","has"],1,"어제 일이라서 was + 과거분사예요."],
+      ["This phone ___ made in Korea. 빈칸에 알맞은 것은?",["was","did","has","does"],0,"수동태는 be동사 + 과거분사예요."],
+      ["'회의가 취소됐어요'를 영어로 하면?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be동사 + 과거분사 canceled예요."]
+    ],
+    "reported": [
+      ["She said she ___ tired. 빈칸에 알맞은 것은?",["is being","was","be","will"],1,"전하는 말은 시제를 과거로 옮겨요."],
+      ["He ___ me he would come. 빈칸에 알맞은 것은?",["said","say","told","tell to"],2,"듣는 사람(me)이 있으면 told예요."],
+      ["'그는 제가 어디 사는지 물었어요'를 영어로 하면?",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"전하는 질문은 평서문 순서예요."]
     ],
     "email": [
       ["처음 연락하는 거래처 담당자 Jenny Park에게 가장 무난한 인사는?",["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"],2,"미국 업무 이메일에선 Hi + 이름이 가장 무난해요. 아주 격식 있을 땐 Dear Ms. Park,"],
@@ -1114,6 +1192,134 @@ LANGAPP_PACKS.course['ko-en'] = {
       {"t":"type","p":"오늘 날씨 좋네요","a":["Nice weather today huh","Nice weather today","It's nice weather today","It is nice weather today","The weather is nice today","The weather's nice today"],"hint":"nice · weather · today — 관사를 붙일까요?","x":["a"],"why":"weather는 셀 수 없는 명사라 관사 a를 붙이지 않아요 (a nice weather X)."},
       {"t":"type","p":"저는 영화 보는 걸 좋아해요","a":["I like watching movies","I like to watch movies","I love watching movies","I love to watch movies"],"hint":"like · watch · movie — 전체를 말할 땐 복수형","x":["movie"],"why":"영화 전반을 말하니 복수형 movies예요."}
     ],
+    "past-continuous": [
+      {"t":"mc","q":"I ___ sleeping at ten. 빈칸에 알맞은 것은?","o":["was","were","did","am"],"why":"I에는 was예요."},
+      {"t":"mc","q":"'전화했을 때 저는 요리하고 있었어요' =","o":["I was cooking when you called.","I cooked when you were calling.","I was cook when you called.","I cooking when you called."],"why":"하던 일은 과거진행, 끼어든 일은 과거형이에요."},
+      {"t":"mc","q":"'뭐 하고 있었어요?' =","o":["What were you doing?","What did you doing?","What was you doing?","What were you do?"],"why":"you에는 were, 뒤에는 -ing예요."},
+      {"t":"mc","q":"They ___ playing soccer. 빈칸에 알맞은 것은?","o":["were","was","did","are"],"why":"they에는 were예요."},
+      {"t":"mc","q":"'비가 오고 있었어요' =","o":["It was raining.","It were raining.","It was rain.","It rained was."],"why":"it에는 was + -ing예요."},
+      {"t":"order","p":"저는 책을 읽고 있었어요","a":["I","was","reading","a","book"],"x":["read","books"],"why":"읽던 한 권이라 관사 a와 단수 book이에요."},
+      {"t":"order","p":"아이들이 자고 있었어요","a":["The","kids","were","sleeping"],"x":["kid","was"],"why":"여럿이라 복수 kids와 were를 써요."},
+      {"t":"order","p":"우리는 TV를 보고 있었어요","a":["We","were","watching","TV"],"x":["was"],"why":"we에는 were예요."},
+      {"t":"fill","q":"I was __ dinner.","p":"저녁을 만들고 있었어요","a":["cooking","making"],"o":["cook","cooked","cooks"],"why":"was 뒤에는 -ing가 와요."},
+      {"t":"fill","q":"What __ you doing?","p":"뭐 하고 있었어요?","a":["were"],"o":["was","did","does"],"why":"you에는 were예요."},
+      {"t":"fill","q":"I was sleeping __ you called.","p":"전화했을 때 자고 있었어요","a":["when"],"o":["so","than","or"],"why":"'~했을 때'는 when이에요."},
+      {"t":"type","p":"저는 일하고 있었어요","a":["I was working"],"hint":"was · work — -ing — 이 단어들로","x":["were"],"why":"I에는 was + -ing예요."},
+      {"t":"type","p":"저는 영화를 보고 있었어요","a":["I was watching a movie"],"hint":"was · watching · movie — 관사 a","x":["the"],"why":"아무 영화 한 편이라 관사 a예요."},
+      {"t":"type","p":"아이들이 놀고 있었어요","a":["The kids were playing","The children were playing"],"hint":"kids · were · playing — 복수","x":["kid"],"why":"여럿이라 복수 kids와 were예요."}
+    ],
+    "will": [
+      {"t":"mc","q":"'도와줄게요' =","o":["I'll help you.","I help you will.","I'll helping you.","I'll to help you."],"why":"will 뒤에는 동사원형이 와요."},
+      {"t":"mc","q":"식당에서 지금 정할 때 '저는 파스타로 할게요' =","o":["I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta."],"why":"그 자리에서 정한 일은 will이에요."},
+      {"t":"mc","q":"'안 늦을게요' =","o":["I won't be late.","I willn't be late.","I don't will be late.","I won't late."],"why":"will not은 won't로 줄여요."},
+      {"t":"mc","q":"'올 거예요?' =","o":["Will you come?","Do you will come?","Will you coming?","Will come you?"],"why":"Will + 주어 + 동사원형이에요."},
+      {"t":"mc","q":"미리 세운 계획을 말하는 문장은?","o":["I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju."],"why":"미리 세운 계획은 be going to예요."},
+      {"t":"order","p":"나중에 전화할게요","a":["I'll","call","you","later"],"x":["calling"],"why":"will 뒤에는 동사원형이 와요."},
+      {"t":"order","p":"저는 커피로 할게요","a":["I'll","have","a","coffee"],"x":["the","coffees"],"why":"주문하는 한 잔이라 관사 a예요."},
+      {"t":"order","p":"제가 문 열게요","a":["I'll","open","the","door"],"x":["a","doors"],"why":"여기 있는 그 문이라 관사 the예요."},
+      {"t":"fill","q":"I __ call you tomorrow.","p":"내일 전화할게요","a":["will"],"o":["am","going","do"],"why":"약속은 will로 말해요."},
+      {"t":"fill","q":"I __ forget.","p":"안 잊을게요","a":["won't","will not"],"o":["don't","not","willn't"],"why":"will의 부정은 won't예요."},
+      {"t":"fill","q":"__ you help me?","p":"도와줄래요?","a":["Will","Can","Could","Would"],"o":["Do","Are","Is"],"why":"부탁할 때는 Will you ~?를 써요."},
+      {"t":"type","p":"도와줄게요","a":["I'll help you","I will help you","I'll help","I will help"],"hint":"I'll · help · you — 이 단어들로","x":["helping"],"why":"will 뒤에는 동사원형이 와요."},
+      {"t":"type","p":"저는 샐러드로 할게요","a":["I'll have a salad","I will have a salad","I'll have the salad","I will have the salad"],"hint":"I'll have · salad — 관사 주의","x":["salads"],"why":"하나를 주문하니까 관사 a(메뉴의 그것이면 the)를 붙여요."},
+      {"t":"type","p":"제가 문 닫을게요","a":["I'll close the door","I will close the door","I'll get the door","I will get the door"],"hint":"I'll · close · door — 관사 the","x":["a"],"why":"여기 있는 그 문이라 관사 the예요."}
+    ],
+    "perfect": [
+      {"t":"mc","q":"'저는 일본에 가 본 적 있어요' =","o":["I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan."],"why":"have + 과거분사 been이에요."},
+      {"t":"mc","q":"see의 과거분사는?","o":["seen","saw","seed","seeing"],"why":"see – saw – seen이에요."},
+      {"t":"mc","q":"'김치 먹어 본 적 있어요?' =","o":["Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?"],"why":"Have you ever + 과거분사예요."},
+      {"t":"mc","q":"'저는 그걸 본 적 없어요' =","o":["I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it."],"why":"have + never + 과거분사예요."},
+      {"t":"mc","q":"'작년에'가 있을 때 알맞은 문장은?","o":["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year."],"why":"시점이 있으면 과거형이에요."},
+      {"t":"order","p":"저는 그 영화를 본 적 있어요","a":["I've","seen","the","movie"],"x":["a","saw"],"why":"서로 아는 그 영화라서 관사 the예요."},
+      {"t":"order","p":"한국에 두 번 가 봤어요","a":["I've","been","to","Korea","twice"],"x":["went"],"why":"have 뒤에는 과거분사 been이 와요."},
+      {"t":"order","p":"저는 뱀을 본 적 없어요","a":["I've","never","seen","a","snake"],"x":["the","snakes"],"why":"아무 뱀 한 마리를 말하니까 관사 a예요."},
+      {"t":"fill","q":"Have you ever __ to Busan?","p":"부산에 가 본 적 있어요?","a":["been"],"o":["be","went","go"],"why":"have 뒤에는 과거분사 been이에요."},
+      {"t":"fill","q":"I've __ eaten that.","p":"그건 먹어 본 적 없어요","a":["never"],"o":["ever","no","not never"],"why":"'한 번도 없다'는 never예요."},
+      {"t":"fill","q":"She __ visited Korea twice.","p":"그녀는 한국에 두 번 와 봤어요","a":["has"],"o":["have","is","did"],"why":"she에는 has예요."},
+      {"t":"type","p":"일본에 가 본 적 있어요?","a":["Have you ever been to Japan","Have you been to Japan"],"hint":"have you ever · been · Japan — 이 단어들로","x":["went"],"why":"경험은 Have you ever been to ~?로 물어요."},
+      {"t":"type","p":"저는 그 책을 읽어 봤어요","a":["I've read the book","I have read the book","I've read that book","I have read that book"],"hint":"I've · read · book — 관사 the","x":["a"],"why":"서로 아는 그 책이라서 관사 the예요."},
+      {"t":"type","p":"저는 고양이를 키워 본 적 없어요","a":["I've never had a cat","I have never had a cat"],"hint":"never · had · cat — 관사 a","x":["the"],"why":"아무 고양이 한 마리라서 관사 a예요."}
+    ],
+    "modals": [
+      {"t":"mc","q":"'저는 내일 일해야 해요' =","o":["I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow."],"why":"have to + 동사원형이에요."},
+      {"t":"mc","q":"'안 와도 돼요' =","o":["You don't have to come.","You must not come.","You don't must come.","You haven't come to."],"why":"'필요 없다'는 don't have to예요."},
+      {"t":"mc","q":"'병원에 가 보는 게 좋겠어요' =","o":["You should see a doctor.","You should to see a doctor.","You should seeing a doctor.","You might a doctor see."],"why":"should + 동사원형, 의사 한 명이라 관사 a예요."},
+      {"t":"mc","q":"'비가 올지도 몰라요' =","o":["It might rain.","It might rains.","It might to rain.","It mights rain."],"why":"might + 동사원형이에요."},
+      {"t":"mc","q":"'여기서 담배 피우면 안 돼요' =","o":["You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here."],"why":"금지는 must not이에요."},
+      {"t":"order","p":"병원에 가 보세요","a":["You","should","see","a","doctor"],"x":["the","doctors"],"why":"아무 의사 한 명이라 관사 a예요."},
+      {"t":"order","p":"저는 지금 가야 해요","a":["I","have","to","go","now"],"x":["going"],"why":"have to 뒤에는 동사원형이 와요."},
+      {"t":"order","p":"표를 사야 해요","a":["You","have","to","buy","a","ticket"],"x":["the","tickets"],"why":"표 한 장이라 관사 a와 단수 ticket이에요."},
+      {"t":"fill","q":"She __ to study tonight.","p":"그녀는 오늘 밤 공부해야 해요","a":["has"],"o":["have","must","should"],"why":"she에는 has to예요."},
+      {"t":"fill","q":"You __ have to pay.","p":"돈 안 내도 돼요","a":["don't","do not"],"o":["must not","not","aren't"],"why":"'필요 없다'는 don't have to예요."},
+      {"t":"fill","q":"It __ rain tomorrow.","p":"내일 비가 올지도 몰라요","a":["might","may","could"],"o":["must to","has to","should to"],"why":"가능성은 might예요."},
+      {"t":"type","p":"저는 일해야 해요","a":["I have to work","I must work","I need to work"],"hint":"have to · work — 이 단어들로","x":["should"],"why":"의무는 have to예요."},
+      {"t":"type","p":"병원에 가 보세요","a":["You should see a doctor","You should go to a doctor"],"hint":"should · see · doctor — 관사 a","x":["the"],"why":"아무 의사 한 명이라 관사 a예요."},
+      {"t":"type","p":"표를 사야 해요","a":["You have to buy a ticket","I have to buy a ticket","We have to buy a ticket"],"hint":"have to · buy · ticket — 관사 a","x":["the"],"why":"표 한 장이라 관사 a예요."}
+    ],
+    "to-ing": [
+      {"t":"mc","q":"I need ___ now. 빈칸에 알맞은 것은?","o":["to go","going","go","to going"],"why":"need 뒤에는 to + 동사예요."},
+      {"t":"mc","q":"I enjoy ___. 빈칸에 알맞은 것은?","o":["cooking","to cook","cook","to cooking"],"why":"enjoy 뒤에는 -ing예요."},
+      {"t":"mc","q":"'주문하고 싶어요' =","o":["I'd like to order.","I'd like order.","I'd like ordering.","I like order to."],"why":"would like 뒤에는 to + 동사예요."},
+      {"t":"mc","q":"'일 끝났어요' =","o":["I finished working.","I finished to work.","I finished work to.","I finish worked."],"why":"finish 뒤에는 -ing예요."},
+      {"t":"mc","q":"'기다려도 괜찮아요' =","o":["I don't mind waiting.","I don't mind to wait.","I don't mind wait.","I'm not mind waiting."],"why":"mind 뒤에는 -ing예요."},
+      {"t":"order","p":"저는 차를 사고 싶어요","a":["I","want","to","buy","a","car"],"x":["the","buying"],"why":"want 뒤는 to, 차 한 대라서 관사 a예요."},
+      {"t":"order","p":"저는 영화 보는 걸 즐겨요","a":["I","enjoy","watching","movies"],"x":["movie","watch"],"why":"enjoy 뒤는 -ing, 영화 전체는 복수 movies예요."},
+      {"t":"order","p":"저는 쉬어야 해요","a":["I","need","to","rest"],"x":["resting"],"why":"need 뒤에는 to + 동사예요."},
+      {"t":"fill","q":"I want __ a coffee.","p":"커피 한 잔 마시고 싶어요","a":["to have","to drink","to get"],"o":["have","having","drinking"],"why":"want 뒤에는 to + 동사예요."},
+      {"t":"fill","q":"She enjoys __.","p":"그녀는 수영을 즐겨요","a":["swimming"],"o":["to swim","swim","swims"],"why":"enjoy 뒤에는 -ing예요."},
+      {"t":"fill","q":"I decided __ English.","p":"영어를 공부하기로 했어요","a":["to study","to learn"],"o":["study","studying","studied"],"why":"decide 뒤에는 to + 동사예요."},
+      {"t":"type","p":"저는 집에 가고 싶어요","a":["I want to go home"],"hint":"want to · go · home — 관사 없이","x":["the"],"why":"want 뒤에는 to가 오고, home 앞에는 관사를 쓰지 않아요."},
+      {"t":"type","p":"저는 책 읽는 걸 즐겨요","a":["I enjoy reading books","I enjoy reading"],"hint":"enjoy · read · book — 복수","x":["book"],"why":"enjoy 뒤는 -ing, 책 전체는 복수 books예요."},
+      {"t":"type","p":"주문하고 싶어요","a":["I'd like to order","I would like to order","I want to order"],"hint":"I'd like · to · order — 이 단어들로","x":["ordering"],"why":"would like 뒤에는 to + 동사예요."}
+    ],
+    "articles-2": [
+      {"t":"mc","q":"I play ___ piano. 빈칸에 알맞은 것은?","o":["the","a","an","some"],"why":"악기 앞에는 the를 붙여요."},
+      {"t":"mc","q":"'저는 한국에 살아요' =","o":["I live in Korea.","I live in the Korea.","I live in a Korea.","I live Korea in."],"why":"대부분의 나라 이름에는 관사가 없어요."},
+      {"t":"mc","q":"'저는 축구를 해요' =","o":["I play soccer.","I play the soccer.","I play a soccer.","I play soccers."],"why":"운동 이름에는 관사가 없어요."},
+      {"t":"mc","q":"'고양이는 귀여워요' (고양이 전체) =","o":["Cats are cute.","The cat are cute.","A cats are cute.","Cat is cute."],"why":"전체를 말할 때는 관사 없이 복수예요."},
+      {"t":"mc","q":"She's from ___ United States. 빈칸에 알맞은 것은?","o":["the","a","an","some"],"why":"United States 앞에는 the를 붙여요."},
+      {"t":"order","p":"저는 피아노를 쳐요","a":["I","play","the","piano"],"x":["a","pianos"],"why":"악기 앞에는 관사 the를 붙여요."},
+      {"t":"order","p":"개는 귀여워요","a":["Dogs","are","cute"],"x":["The","dog"],"why":"개 전체를 말할 때는 관사 없이 복수 dogs예요."},
+      {"t":"order","p":"저는 인터넷에서 찾았어요","a":["I","found","it","on","the","internet"],"x":["a"],"why":"하나뿐인 internet에는 관사 the를 붙여요."},
+      {"t":"fill","q":"I speak __.","p":"저는 영어를 해요","a":["English"],"o":["the English","an English","a English"],"why":"언어 이름에는 관사가 없어요."},
+      {"t":"fill","q":"The sun rises in __ east.","p":"해는 동쪽에서 떠요","a":["the"],"o":["a","an","some"],"why":"방위 앞에는 the를 붙여요."},
+      {"t":"fill","q":"I love __.","p":"저는 음악을 정말 좋아해요","a":["music"],"o":["the musics","a music","musics"],"why":"'음악 전체'는 관사 없이, 셀 수 없어서 -s도 없어요."},
+      {"t":"type","p":"저는 미국에서 왔어요","a":["I'm from the United States","I am from the United States","I'm from the US","I am from the US","I'm from America","I am from America"],"hint":"I'm from · United States — 관사 the","x":["a"],"why":"United States 앞에는 관사 the를 붙여요."},
+      {"t":"type","p":"저는 기타를 쳐요","a":["I play the guitar","I play guitar"],"hint":"play · guitar — 관사 the","x":["a"],"why":"악기 앞에는 관사 the를 붙여요."},
+      {"t":"type","p":"고양이는 귀여워요","a":["Cats are cute"],"hint":"cat — 관사 없이 복수","x":["The","cat"],"why":"전체를 말할 때는 관사 없이 복수 cats예요."}
+    ],
+    "first-conditional": [
+      {"t":"mc","q":"If it ___, I'll stay home. 빈칸에 알맞은 것은?","o":["rains","will rain","rained","is rain"],"why":"if 뒤에는 현재형을 써요."},
+      {"t":"mc","q":"If you're late, ___ me. 빈칸에 알맞은 것은?","o":["call","will calling","calls","to call"],"why":"명령문은 동사원형으로 시작해요."},
+      {"t":"mc","q":"'시간 있으면 도와줄게요' =","o":["I'll help you if I have time.","I help you if I'll have time.","I'll help you if I will have time.","I'll helping you if I have time."],"why":"if 뒤에는 will을 쓰지 않아요."},
+      {"t":"mc","q":"'서두르지 않으면 버스를 놓칠 거예요' =","o":["If you don't hurry, you'll miss the bus.","If you won't hurry, you miss the bus.","If you don't hurry, you miss will the bus.","If you not hurry, you'll miss bus."],"why":"if 쪽은 현재형 부정 don't예요."},
+      {"t":"mc","q":"'집에 도착하면 전화할게요' =","o":["When I get home, I'll call you.","When I'll get home, I call you.","When I will get home, I'll call you.","When I get the home, I call you."],"why":"when 뒤에도 현재형을 써요."},
+      {"t":"order","p":"비 오면 집에 있을게요","a":["If","it","rains","I'll","stay","home"],"x":["will","the"],"why":"if 뒤에는 현재형을 써요. home 앞에는 관사가 없어요."},
+      {"t":"order","p":"시간 있으면 전화해요","a":["If","you","have","time","call","me"],"x":["will"],"why":"if 뒤에는 will을 쓰지 않아요."},
+      {"t":"order","p":"버스를 놓칠 거예요","a":["You'll","miss","the","bus"],"x":["a","buses"],"why":"타려던 그 버스라서 관사 the예요."},
+      {"t":"fill","q":"If it __ tomorrow, we'll cancel.","p":"내일 비가 오면 취소할 거예요","a":["rains"],"o":["will rain","rained","raining"],"why":"if 뒤에는 현재형을 써요."},
+      {"t":"fill","q":"If you study, you __ pass.","p":"공부하면 합격할 거예요","a":["will","can","might"],"o":["are","did","passing"],"why":"결과 쪽은 will + 동사원형이에요."},
+      {"t":"fill","q":"__ you need help, call me.","p":"도움이 필요하면 전화해요","a":["If","When"],"o":["So","But","Because"],"why":"'~하면'은 if예요."},
+      {"t":"type","p":"시간 있으면 도와줄게요","a":["I'll help if I have time","I will help if I have time","I'll help you if I have time","I will help you if I have time","If I have time I'll help","If I have time I will help","If I have time I'll help you","If I have time I will help you"],"hint":"I'll help · if · have time — 이 단어들로","x":["will"],"why":"if 뒤에는 will을 쓰지 않아요."},
+      {"t":"type","p":"비 오면 택시를 탈게요","a":["If it rains I'll take a taxi","If it rains I will take a taxi","I'll take a taxi if it rains","I will take a taxi if it rains","If it rains I'll get a taxi","If it rains I will get a taxi"],"hint":"if · rains · take · taxi — 관사 a","x":["the"],"why":"아무 택시 한 대라서 관사 a예요."},
+      {"t":"type","p":"버스를 놓칠 거예요","a":["You'll miss the bus","You will miss the bus","We'll miss the bus","We will miss the bus","I'll miss the bus","I will miss the bus"],"hint":"miss · bus — 관사 the","x":["a"],"why":"타려던 그 버스라서 관사 the예요."}
+    ],
+    "relative": [
+      {"t":"mc","q":"I have a friend ___ speaks English. 빈칸에 알맞은 것은?","o":["who","which","what","she"],"why":"사람을 꾸밀 때는 who예요."},
+      {"t":"mc","q":"'제가 산 책' =","o":["the book that I bought","the I bought book","the book what I bought","the bought I book"],"why":"명사 먼저, 설명은 뒤에 와요."},
+      {"t":"mc","q":"'옆집에 사는 남자' =","o":["the man who lives next door","the lives next door man","the man lives who next door","the man what lives next door"],"why":"사람은 who로 꾸며요."},
+      {"t":"mc","q":"This is the phone ___ I want. 빈칸에 알맞은 것은?","o":["that","who","what","it"],"why":"물건은 that으로 꾸며요."},
+      {"t":"mc","q":"'우리가 본 영화' =","o":["the movie we saw","the we saw movie","the movie what we saw","movie the that we saw"],"why":"that은 생략할 수 있어요."},
+      {"t":"order","p":"제가 산 책이에요","a":["This","is","the","book","I","bought"],"x":["a","what"],"why":"내가 산 바로 그 책이라서 관사 the예요."},
+      {"t":"order","p":"요리하는 친구가 있어요","a":["I","have","a","friend","who","cooks"],"x":["the","which"],"why":"처음 말하는 친구 한 명이라 관사 a예요."},
+      {"t":"order","p":"우리가 본 영화 좋았어요","a":["The","movie","we","saw","was","great"],"x":["A","movies"],"why":"우리가 본 바로 그 영화라서 관사 the예요."},
+      {"t":"fill","q":"the man __ lives here","p":"여기 사는 남자","a":["who","that"],"o":["what","he","which"],"why":"사람은 who로 꾸며요."},
+      {"t":"fill","q":"the book __ I read","p":"제가 읽은 책","a":["that","which"],"o":["who","what","it"],"why":"물건은 that으로 꾸며요."},
+      {"t":"fill","q":"the cafe __ we met","p":"우리가 만난 카페","a":["where"],"o":["who","what","it"],"why":"장소는 where로 꾸며요."},
+      {"t":"type","p":"제가 산 책이에요","a":["This is the book I bought","This is the book that I bought","It's the book I bought","It is the book I bought","It's the book that I bought","It is the book that I bought"],"hint":"the book · I bought — 관사 the","x":["a"],"why":"내가 산 바로 그 책이라서 관사 the예요."},
+      {"t":"type","p":"한국어 하는 친구가 있어요","a":["I have a friend who speaks Korean","I have a friend that speaks Korean"],"hint":"a friend · who · speaks Korean — 관사 a","x":["the"],"why":"처음 말하는 친구 한 명이라 관사 a예요."},
+      {"t":"type","p":"우리가 본 영화 좋았어요","a":["The movie we saw was great","The movie we saw was good","The movie that we saw was great","The movie that we saw was good"],"hint":"the movie · we saw · was great — 이 단어들로","x":["what"],"why":"명사 먼저, 설명은 뒤에 와요."}
+    ],
     "phrasal": [
       {"t":"mc","q":"'그거 켜 줘' =","o":["Turn it on.","Turn on it.","Turn it of.","On turn it."],"why":"대명사 it은 구동사 가운데에 와요: turn it on."},
       {"t":"mc","q":"'우유가 다 떨어졌어요' =","o":["We ran out of milk.","We ran out milk.","We ran of out milk.","We ran off of milk."],"why":"run out of = ~이 다 떨어지다. of를 빼먹지 마세요."},
@@ -1129,6 +1335,86 @@ LANGAPP_PACKS.course['ko-en'] = {
       {"t":"type","p":"그거 좀 꺼 주세요","a":["Turn it off","Turn it off please","Please turn it off","Can you turn it off","Can you turn it off please","Could you turn it off","Could you turn it off please"],"hint":"turn · off — 대명사는 가운데","x":["on"],"why":"대명사 it은 turn과 off 사이에 와요."},
       {"t":"type","p":"저는 고양이 두 마리를 돌봐요","a":["I look after two cats","I take care of two cats"],"hint":"look after · two · cat — 둘이면 복수형","x":["cat"],"why":"look after = 돌보다. 두 마리니까 복수 -s를 붙여 cats예요."},
       {"t":"type","p":"우유가 다 떨어졌어요","a":["We ran out of milk","We've run out of milk","We have run out of milk","We're out of milk","We are out of milk","I ran out of milk","I'm out of milk","I am out of milk"],"hint":"run out of · milk — 관사를 붙일까요?","x":["a"],"why":"milk는 셀 수 없는 명사라 관사 a를 붙이지 않아요."}
+    ],
+    "perfect-2": [
+      {"t":"mc","q":"I've known him ___ ten years. 빈칸에 알맞은 것은?","o":["for","since","from","during"],"why":"기간 앞에는 for예요."},
+      {"t":"mc","q":"She's lived here ___ 2019. 빈칸에 알맞은 것은?","o":["since","for","in","at"],"why":"시작점 앞에는 since예요."},
+      {"t":"mc","q":"'여기 얼마나 계셨어요?' =","o":["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],"why":"How long have you + 과거분사예요."},
+      {"t":"mc","q":"'방금 끝냈어요' =","o":["I've just finished.","I just have finish.","I've just finish.","I'm just finished have."],"why":"have + just + 과거분사예요."},
+      {"t":"mc","q":"'벌써 먹었어요?' =","o":["Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?"],"why":"질문에서 '벌써'는 yet이에요."},
+      {"t":"order","p":"저는 여기서 5년 살았어요","a":["I've","lived","here","for","five","years"],"x":["year","since"],"why":"5년이니까 복수 years, 기간 앞에는 for예요."},
+      {"t":"order","p":"저는 그 영화를 이미 봤어요","a":["I've","already","seen","the","movie"],"x":["a","saw"],"why":"서로 아는 그 영화라서 관사 the예요."},
+      {"t":"order","p":"얼마나 기다렸어요?","a":["How","long","have","you","waited"],"x":["did"],"why":"How long have you + 과거분사예요."},
+      {"t":"fill","q":"I've worked here __ two years.","p":"여기서 일한 지 2년 됐어요","a":["for"],"o":["since","from","during"],"why":"기간 앞에는 for예요."},
+      {"t":"fill","q":"I've been here __ Monday.","p":"월요일부터 여기 있어요","a":["since"],"o":["for","at","during"],"why":"시작점 앞에는 since예요."},
+      {"t":"fill","q":"Have you finished __?","p":"벌써 끝냈어요?","a":["yet","already"],"o":["ever","never","since"],"why":"질문에서 '벌써'는 yet이에요."},
+      {"t":"type","p":"저는 여기서 3년 살았어요","a":["I've lived here for three years","I have lived here for three years"],"hint":"I've lived · here · for · three · year — 복수","x":["year"],"why":"3년이니까 복수 years예요."},
+      {"t":"type","p":"여기 얼마나 계셨어요?","a":["How long have you been here"],"hint":"how long · have you · been here — 이 단어들로","x":["are"],"why":"How long have you + 과거분사예요."},
+      {"t":"type","p":"저는 그 책을 이미 읽었어요","a":["I've already read the book","I have already read the book","I've read the book already","I have read the book already","I already read the book"],"hint":"already · read · book — 관사 the","x":["a"],"why":"서로 아는 그 책이라서 관사 the예요."}
+    ],
+    "narrative": [
+      {"t":"mc","q":"When I got there, the movie ___ already started. 빈칸에 알맞은 것은?","o":["had","has","was","did"],"why":"더 먼저 일어난 일은 had + 과거분사예요."},
+      {"t":"mc","q":"I ___ cooking when the phone rang. 빈칸에 알맞은 것은?","o":["was","had","did","have"],"why":"하던 일은 과거진행이에요."},
+      {"t":"mc","q":"'도착했을 때 기차는 이미 떠났어요' =","o":["When I arrived, the train had already left.","When I arrived, the train already leaves.","When I had arrived, the train left already had.","When I arrive, the train has left already."],"why":"더 먼저 일어난 일에 had + 과거분사를 써요."},
+      {"t":"mc","q":"이야기를 이을 때 '그다음에' =","o":["then","than","that","them"],"why":"then은 '그다음에', than은 '~보다'예요."},
+      {"t":"mc","q":"'그전에는 눈을 본 적이 없었어요' =","o":["I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before."],"why":"had + never + 과거분사예요."},
+      {"t":"order","p":"기차는 이미 떠났어요","a":["The","train","had","already","left"],"x":["a","has"],"why":"타려던 그 기차라서 관사 the예요."},
+      {"t":"order","p":"저는 옛 친구를 만났어요","a":["I","met","an","old","friend"],"x":["a","friends"],"why":"old는 모음 소리로 시작해서 관사 an이에요."},
+      {"t":"order","p":"저는 집에 걸어가고 있었어요","a":["I","was","walking","home"],"x":["had"],"why":"배경은 과거진행이에요."},
+      {"t":"fill","q":"I was sleeping __ you called.","p":"전화했을 때 자고 있었어요","a":["when"],"o":["than","so","had"],"why":"'~했을 때'는 when이에요."},
+      {"t":"fill","q":"The bus had already __.","p":"버스는 이미 떠났어요","a":["left","gone"],"o":["leave","leaving","leaves"],"why":"had 뒤에는 과거분사가 와요."},
+      {"t":"fill","q":"First we ate. __ we watched a movie.","p":"먼저 먹었어요. 그다음에 영화를 봤어요","a":["Then","After that","Next"],"o":["Than","Because","When"],"why":"'그다음에'는 then이에요."},
+      {"t":"type","p":"영화는 이미 시작했어요","a":["The movie had already started","The movie had started already","The movie already started"],"hint":"the movie · had · already · started — 관사 the","x":["a"],"why":"보려던 그 영화라서 관사 the예요."},
+      {"t":"type","p":"저는 옛 친구를 만났어요","a":["I met an old friend","I saw an old friend","I ran into an old friend"],"hint":"met · old friend — 관사 an","x":["a"],"why":"old는 모음 소리로 시작해서 관사 an이에요."},
+      {"t":"type","p":"저는 집에 걸어가고 있었어요","a":["I was walking home"],"hint":"was · walking · home — 이 단어들로","x":["had"],"why":"배경은 과거진행으로 말해요."}
+    ],
+    "conditionals": [
+      {"t":"mc","q":"If I ___ time, I would help. 빈칸에 알맞은 것은?","o":["had","have","will have","would have"],"why":"지금 사실과 반대면 if 쪽은 과거형이에요."},
+      {"t":"mc","q":"'내가 너라면 그걸 살 거야' =","o":["If I were you, I'd buy it.","If I am you, I'll buy it.","If I were you, I buy it.","If I would be you, I'd buy it."],"why":"If I were you, I'd ~는 굳어진 표현이에요."},
+      {"t":"mc","q":"If I had known, I ___ come. 빈칸에 알맞은 것은?","o":["would have","would","will have","had"],"why":"과거와 반대면 would have + 과거분사예요."},
+      {"t":"mc","q":"'전화했어야 했는데' =","o":["I should have called.","I should called.","I should had call.","I must called."],"why":"후회는 should have + 과거분사예요."},
+      {"t":"mc","q":"'당신이라면 어떻게 하겠어요?' =","o":["What would you do?","What will you did?","What would you did?","What you would do?"],"why":"가정은 would + 동사원형이에요."},
+      {"t":"order","p":"시간이 있으면 여행할 텐데","a":["If","I","had","time","I'd","travel"],"x":["have","will"],"why":"지금 사실과 반대면 과거형 had와 would를 써요."},
+      {"t":"order","p":"저라면 택시를 탈 거예요","a":["I'd","take","a","taxi"],"x":["the","taxis"],"why":"아무 택시 한 대라서 관사 a예요."},
+      {"t":"order","p":"표를 샀어야 했는데","a":["I","should","have","bought","a","ticket"],"x":["the","buy"],"why":"표 한 장이라 관사 a예요."},
+      {"t":"fill","q":"If I __ you, I'd go.","p":"내가 너라면 갈 거야","a":["were","was"],"o":["am","be","would be"],"why":"If I were you는 굳어진 표현이에요."},
+      {"t":"fill","q":"I would __ helped.","p":"도와줬을 텐데","a":["have"],"o":["had","has","having"],"why":"would have + 과거분사예요."},
+      {"t":"fill","q":"I wish I __ more time.","p":"시간이 더 있으면 좋겠어요","a":["had"],"o":["have","would have","will have"],"why":"I wish 뒤에는 과거형을 써요."},
+      {"t":"type","p":"내가 너라면 갈 거야","a":["If I were you I'd go","If I were you I would go","I'd go if I were you","I would go if I were you","If I was you I'd go","If I was you I would go"],"hint":"if I were you · I'd · go — 이 단어들로","x":["am"],"why":"If I were you, I'd ~예요."},
+      {"t":"type","p":"차가 있으면 좋을 텐데","a":["I wish I had a car"],"hint":"I wish · had · car — 관사 a","x":["the"],"why":"아무 차 한 대라서 관사 a예요."},
+      {"t":"type","p":"택시를 탔어야 했는데","a":["I should have taken a taxi","I should have got a taxi","I should have gotten a taxi"],"hint":"should have · taken · taxi — 관사 a","x":["the"],"why":"아무 택시 한 대라서 관사 a예요."}
+    ],
+    "passive": [
+      {"t":"mc","q":"My phone ___ stolen. 빈칸에 알맞은 것은?","o":["was","did","has","is steal"],"why":"수동태는 be동사 + 과거분사예요."},
+      {"t":"mc","q":"'이건 한국에서 만들어졌어요' =","o":["This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea."],"why":"be동사 + 과거분사 made예요."},
+      {"t":"mc","q":"'여기서는 영어를 써요' (수동) =","o":["English is spoken here.","English speaks here.","English is speak here.","English spoken is here."],"why":"늘 그런 일은 is + 과거분사예요."},
+      {"t":"mc","q":"'회의가 취소됐어요' =","o":["The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled."],"why":"be동사 + 과거분사예요."},
+      {"t":"mc","q":"'조식은 7시에 제공돼요' =","o":["Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven."],"why":"식사 이름에는 관사가 없고, is + 과거분사예요."},
+      {"t":"order","p":"제 가방을 도난당했어요","a":["My","bag","was","stolen"],"x":["stole"],"why":"be동사 뒤에는 과거분사 stolen이 와요."},
+      {"t":"order","p":"회의가 취소됐어요","a":["The","meeting","was","canceled"],"x":["A","meetings"],"why":"서로 아는 그 회의라서 관사 the예요."},
+      {"t":"order","p":"창문이 깨졌어요","a":["The","window","was","broken"],"x":["a","windows"],"why":"여기 있는 그 창문이라 관사 the예요."},
+      {"t":"fill","q":"This was __ in Korea.","p":"이건 한국에서 만들어졌어요","a":["made"],"o":["make","making","makes"],"why":"be동사 뒤에는 과거분사가 와요."},
+      {"t":"fill","q":"The room __ cleaned every day.","p":"방은 매일 청소돼요","a":["is","gets"],"o":["does","has","did"],"why":"늘 그런 일은 is + 과거분사예요."},
+      {"t":"fill","q":"It was written __ Han Kang.","p":"한강이 쓴 거예요","a":["by"],"o":["from","of","with"],"why":"누가 했는지는 by로 말해요."},
+      {"t":"type","p":"제 휴대폰을 도난당했어요","a":["My phone was stolen","My phone got stolen"],"hint":"my phone · was · stolen — 이 단어들로","x":["stole"],"why":"be동사 + 과거분사 stolen이에요."},
+      {"t":"type","p":"그 회의는 취소됐어요","a":["The meeting was canceled","The meeting was cancelled","The meeting got canceled"],"hint":"the meeting · was · canceled — 관사 the","x":["a"],"why":"서로 아는 그 회의라서 관사 the예요."},
+      {"t":"type","p":"문이 잠겨 있었어요","a":["The door was locked"],"hint":"the door · was · locked — 관사 the","x":["a"],"why":"여기 있는 그 문이라 관사 the예요."}
+    ],
+    "reported": [
+      {"t":"mc","q":"She said she ___ busy. 빈칸에 알맞은 것은?","o":["was","is being","be","were being"],"why":"전하는 말은 시제를 과거로 옮겨요."},
+      {"t":"mc","q":"He ___ me he was late. 빈칸에 알맞은 것은?","o":["told","said","say","tells to"],"why":"듣는 사람이 있으면 told예요."},
+      {"t":"mc","q":"'그는 오겠다고 했어요' =","o":["He said he would come.","He said he will came.","He told he would come.","He said me he would come."],"why":"will은 would로 바뀌어요."},
+      {"t":"mc","q":"'그녀는 제가 괜찮은지 물었어요' =","o":["She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay."],"why":"예/아니오 질문은 if로 전해요."},
+      {"t":"mc","q":"'그는 제가 어디 사는지 물었어요' =","o":["He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I."],"why":"전하는 질문은 평서문 순서예요."},
+      {"t":"order","p":"그녀는 피곤하다고 했어요","a":["She","said","she","was","tired"],"x":["told"],"why":"듣는 사람이 없으면 said예요."},
+      {"t":"order","p":"그는 차를 샀다고 했어요","a":["He","said","he","bought","a","car"],"x":["the","cars"],"why":"처음 말하는 차 한 대라서 관사 a예요."},
+      {"t":"order","p":"그녀는 그 책이 좋았다고 했어요","a":["She","said","she","liked","the","book"],"x":["a","books"],"why":"서로 아는 그 책이라서 관사 the예요."},
+      {"t":"fill","q":"She __ she was tired.","p":"그녀는 피곤하다고 했어요","a":["said"],"o":["told","asked","say"],"why":"듣는 사람이 없으면 said예요."},
+      {"t":"fill","q":"He told __ he was busy.","p":"그는 저한테 바쁘다고 했어요","a":["me"],"o":["I","my","to"],"why":"told 뒤에는 듣는 사람이 와요."},
+      {"t":"fill","q":"She asked __ I was okay.","p":"그녀는 제가 괜찮은지 물었어요","a":["if","whether"],"o":["that","what","did"],"why":"예/아니오 질문은 if로 전해요."},
+      {"t":"type","p":"그는 바쁘다고 했어요","a":["He said he was busy","He said that he was busy","He told me he was busy"],"hint":"he said · he was · busy — 이 단어들로","x":["is"],"why":"전하는 말은 시제를 과거로 옮겨요."},
+      {"t":"type","p":"그녀는 차가 있다고 했어요","a":["She said she had a car","She said that she had a car","She told me she had a car"],"hint":"she said · had · car — 관사 a","x":["the"],"why":"처음 말하는 차 한 대라서 관사 a예요."},
+      {"t":"type","p":"그는 그 영화를 봤다고 했어요","a":["He said he saw the movie","He said he had seen the movie","He said he watched the movie","He told me he saw the movie"],"hint":"he said · saw · movie — 관사 the","x":["a"],"why":"서로 아는 그 영화라서 관사 the예요."}
     ],
     "email": [
       {"t":"mc","q":"Dear로 시작할 때 가장 자연스러운 인사는?","o":["Dear Mr. Smith,","Dear Manager,","Dear Smith Mr.,","Dear Sir Smith,"],"why":"Dear 뒤에는 직함만 쓰지 말고 이름을 써요."},
@@ -1200,7 +1486,7 @@ LANGAPP_PACKS.course['ko-en'] = {
   PLAN_PRESETS: {
     "trip": {"label":"해외여행 준비","weeks":3,"decks":["인사","생존 영어 1","생존 영어 2","길 묻기·교통","식당 주문","카페·편의점","쇼핑·계산","숫자·시간·날짜","여행(공항·호텔)","병원·긴급"],"lessons":["pron","polite","prep","numbers"]},
     "social": {"label":"외국인 친구 사귀기","weeks":6,"decks":["인사","자기소개","생존 영어 1","스몰토크","감정·반응","칭찬·호감 표현","전화·문자 줄임말","구동사","영화·드라마·슬랭","영어 관용구"],"lessons":["pron","articles","be","tense","smalltalk","phrasal","idioms"]},
-    "conv": {"label":"90일 회화 완성","weeks":13,"decks":["인사","자기소개","생존 영어 1","생존 영어 2","길 묻기·교통","식당 주문","카페·편의점","쇼핑·계산","숫자·시간·날짜","여행(공항·호텔)","병원·긴급","스몰토크","감정·반응","칭찬·호감 표현","전화·문자 줄임말","직장·이메일","발음 주의","구동사","영어 관용구","영화·드라마·슬랭"],"lessons":["pron","be","it-there","articles","plurals","present","questions","third-s","prep","countable","object-have","can-like","polite","continuous","past","irregular-past","the","adjectives","going-to","tense","joining","numbers","smalltalk","phrasal","email","idioms"]}
+    "conv": {"label":"90일 회화 완성","weeks":13,"decks":["인사","자기소개","생존 영어 1","생존 영어 2","길 묻기·교통","식당 주문","카페·편의점","쇼핑·계산","숫자·시간·날짜","여행(공항·호텔)","병원·긴급","스몰토크","감정·반응","칭찬·호감 표현","전화·문자 줄임말","직장·이메일","발음 주의","구동사","영어 관용구","영화·드라마·슬랭"],"lessons":["pron","be","it-there","articles","plurals","present","questions","third-s","prep","countable","object-have","can-like","polite","continuous","past","irregular-past","the","adjectives","going-to","tense","joining","numbers","smalltalk","past-continuous","will","perfect","modals","to-ing","articles-2","first-conditional","relative","phrasal","perfect-2","narrative","conditionals","passive","reported","email","idioms"]}
   },
   TITLES: [[1,"Beginner","입문"],[3,"Student","학생"],[5,"Talker","수다쟁이"],[8,"Traveler","여행자"],[12,"Local","현지인"],[16,"Pro","고수"],[20,"Master","달인"]],
   PAUSE: {

@@ -46,13 +46,13 @@ LANGAPP_PACKS.roadmaps = {
         ["en-adjectives", "Adjectives, comparatives, superlatives", "형용사, 비교급, 최상급", "adjectives"], ["en-going-to", "going to: plans", "going to: 계획", "going-to"],
         ["en-joining", "and, but, or, so, because", "and, but, or, so, because", "joining"] ] },
       { en: "A2 · Building range", ko: "A2 · 표현 넓히기", items: [
-        ["en-past-continuous", "Past continuous", "과거진행"], ["en-will", "will vs going to", "will vs going to"],
-        ["en-perfect", "Present perfect: experience", "현재완료: 경험"], ["en-modals", "have to, must, should, might", "have to, must, should, might"],
-        ["en-to-ing", "Verb + to or -ing", "동사 + to / -ing"], ["en-articles-2", "the for one-of-a-kind, no article with plurals", "유일한 것의 the, 복수의 무관사"],
-        ["en-first-conditional", "First conditional: if", "조건문 1: if"], ["en-relative", "who / that: describing people and things", "관계대명사 who / that"] ] },
+        ["en-past-continuous", "Past continuous", "과거진행", "past-continuous"], ["en-will", "will vs going to", "will vs going to", "will"],
+        ["en-perfect", "Present perfect: experience", "현재완료: 경험", "perfect"], ["en-modals", "have to, must, should, might", "have to, must, should, might", "modals"],
+        ["en-to-ing", "Verb + to or -ing", "동사 + to / -ing", "to-ing"], ["en-articles-2", "the for one-of-a-kind, no article with plurals", "유일한 것의 the, 복수의 무관사", "articles-2"],
+        ["en-first-conditional", "First conditional: if", "조건문 1: if", "first-conditional"], ["en-relative", "who / that: describing people and things", "관계대명사 who / that", "relative"] ] },
       { en: "B1 · Telling more", ko: "B1 · 더 길게 말하기", items: [
-        ["en-perfect-2", "Present perfect with for / since", "현재완료 for / since"], ["en-narrative", "Narrative tenses", "이야기 시제"],
-        ["en-conditionals", "Second and third conditional", "조건문 2, 3"], ["en-passive", "Passive", "수동태"], ["en-reported", "Reported speech", "간접화법"] ] } ] },
+        ["en-perfect-2", "Present perfect with for / since", "현재완료 for / since", "perfect-2"], ["en-narrative", "Narrative tenses", "이야기 시제", "narrative"],
+        ["en-conditionals", "Second and third conditional", "조건문 2, 3", "conditionals"], ["en-passive", "Passive", "수동태", "passive"], ["en-reported", "Reported speech", "간접화법", "reported"] ] } ] },
 
   ja: { variant: {en: "Standard (Tokyo) Japanese", ko: "표준 일본어"}, basis: {en: "JLPT N5 grammar, in Genki I lesson order", ko: "JLPT N5 문법, Genki I 순서"},
     src: ["Genki I 3rd edition syllabus (The Japan Times)", "JLPT N5 grammar list (Wikibooks)"], note: "The script stage is standard practice; the fetched syllabus starts at lesson 1.",
