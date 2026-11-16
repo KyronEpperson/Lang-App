@@ -179,7 +179,7 @@ practice:[
 {{ex:I have two brothers.|아이 해브 투 브라더즈|저는 형이 둘 있어요}}{{ex:Do you have a pen?|두 유 해버 펜?|펜 있어요?}}{{ex:I don't have time.|아이 돈 해브 타임|시간이 없어요}}
 <h3>have: 먹다, 마시다</h3>
 <p>식사 이름 앞에는 관사를 붙이지 않아요.</p>
-{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}{{ex:I had coffee this morning.|아이 해드 커피 디스 모닝|오늘 아침에 커피 마셨어요}}
+{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}{{ex:I have coffee every morning.|아이 해브 커피 에브리 모닝|저는 매일 아침 커피를 마셔요}}
 <div class="tip">가장 흔한 실수: <b>She knows I.</b> (X) → <b>She knows me.</b> (O), <b>I am two brothers.</b> (X) → <b>I have two brothers.</b> (O)</div>`,
 check:[["I like ___. (그를)",["he","his","him","he's"],2,"동사 뒤에는 목적격 him이에요."],["Can you help ___? (우리를)",["us","we","our","ours"],0,"동사 뒤에는 목적격 us예요."],["'펜 있어요?'를 영어로 하면?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have는 일반동사라서 Do로 물어요."]],
 practice:[
