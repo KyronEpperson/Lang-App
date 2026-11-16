@@ -36,10 +36,24 @@ out.append("  },")
 out.append("  patterns: [")
 for i, (s, r) in enumerate(PAT):
     out.append("    [" + json.dumps(s, ensure_ascii=False) + ", " + json.dumps(r, ensure_ascii=False) + "]" + ("," if i < len(PAT) - 1 else ""))
-out.append("  ]")
+ROAD = {}
+_rf = os.path.join(D, lang, 'roadmap.json')
+if os.path.exists(_rf):
+    for k, v in json.load(open(_rf, encoding='utf-8')).get('road', {}).items():
+        t = (v.get('t', '') if isinstance(v, dict) else v).strip()
+        if t: ROAD[k] = t
+if ROAD:
+    out.append("  ],")
+    out.append("  road: {")
+    rk = list(ROAD.items())
+    for i, (k, v) in enumerate(rk):
+        out.append("    " + json.dumps(k, ensure_ascii=False) + ": " + json.dumps(v, ensure_ascii=False) + ("," if i < len(rk) - 1 else ""))
+    out.append("  }")
+else:
+    out.append("  ]")
 out.append("};")
 txt = "\n".join(out) + "\n"
 txt = txt.replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')
 assert '</script' not in txt.lower()
 open(OUT, 'w', encoding='utf-8').write(txt)
-print('wrote', OUT, '· exact', len(E), 'patterns', len(PAT))
+print('wrote', OUT, '· exact', len(E), 'patterns', len(PAT), 'road', len(ROAD))

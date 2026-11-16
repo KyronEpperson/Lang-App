@@ -766,3 +766,8 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Lookup audit with the real packs: every interface lookup during routes, a Today session, a lesson with check and practice, drills, review and the language home resolved to a translation (0 fallbacks to English in either language).
 - Found and fixed: the tab-shrink added in 2.9.0 also triggered for English (a 2px rounding overflow), making English tab labels smaller; the threshold is now 3px, so only Spanish shrinks. A pre-existing pattern-order bug left "lessons" untranslated in the weekly plan chip (all languages); order fixed. Two Japanese cards still said Kim; now Tanaka.
 - Existing-user switch test: en-ko (3 lessons, 120 XP) → es-en → back, then reload: progress, interface language and tab size all restored; Spanish progress kept separately.
+
+## Rebrand (2.9.2)
+- Prompt: replace the Korean-specific logo and wording with an all-language brand: an "L" built from flag tiles, and copy that says what the app is. Verify: icon set and share image re-rendered and looked at; header at 390px in light and dark; harness.
+- Results: `tools/brand/logo.py` draws the L (Korea, Japan, Spain, United States, Brazil, India tiles); `tools/brand/render.py` renders icon.png, icon-192/512, maskable, apple-touch, favicon-32 and og-image.png. Header is now "[L] Lang App" + the language being learned (was "한글 Korean starter"); page title, description, share text, manifest, offline page and README no longer say Korean only. Header stats stay on one line at phone width.
+- Also in this build (no visible change until the title files land): roadmap titles can be translated per interface language (`tools/i18n/road.py`, pack `road` map, engine `rmT`).
