@@ -76,7 +76,7 @@ for(const [w,scheme] of [[390,'dark'],[1024,'light']]){
 }
 // ---- v2 multi-course guards (spec §4.5) ----
 const mc={}; let koSkip=false;
-const newCtx=async(seed)=>{ const ctx=await b.newContext({viewport:{width:390,height:800},colorScheme:'dark',hasTouch:true,isMobile:true}); const p=await ctx.newPage();
+const newCtx=async(seed,locale)=>{ const ctx=await b.newContext(Object.assign({viewport:{width:390,height:800},colorScheme:'dark',hasTouch:true,isMobile:true},locale?{locale}:{})); const p=await ctx.newPage();
   p.on('pageerror',e=>res.errors.push('MC PAGEERR '+e.message)); p.on('console',m=>{ if(m.type()==='error'&&!/fonts|net::/.test(m.text())) res.errors.push('MC CONSOLE '+m.text()); });
   await ctx.route('**/*.supabase.co/**',r=>r.fulfill({status:200,body:'[]',contentType:'application/json'})); await p.route('**/fonts.g*/**',r=>r.fulfill({body:'',contentType:'text/css'}));
   if(seed) await ctx.addInitScript(s=>{ if(!sessionStorage.getItem('__seeded')){ Object.entries(s).forEach(([k,v])=>localStorage.setItem(k,v)); sessionStorage.setItem('__seeded','1'); } },seed);
@@ -238,6 +238,155 @@ const ovr=async(p,label)=>{ const sw=await p.evaluate(()=>document.documentEleme
       if(it.t==='type'){ it.a.forEach(a=>{ if(!pracMatch(a,it.a)) bad++; }); const tl=it.a[0].split(' '); (it.x||[]).forEach(x=>tl.forEach((_,k)=>{ const alt=tl.slice(); alt[k]=x; if(pracMatch(alt.join(' '),it.a)) bad++; })); } }));
     return every&&bad===0&&Object.keys(PRACTICE).length>=LESSONS.length; });
   await ctx.close(); }
+// ---- X → English pilot engine guards (docs/PILOT-SPEC.md): fixture ja-en course + ja interface pack injected at runtime, each in its own context ----
+// pre-native screens as they were before the multi-language engine (English browser; a Korean browser got exactly the same)
+const PRE_BASE={"w1": {"text": "Lang App\n\nHow should we save your progress?\n\n진도를 어떻게 저장할까요?\n\n📧 Email · 이메일\nSaves across all your devices · 모든 기기에 저장\n👤 Nickname · 닉네임\nThis device only — lost if browser data is cleared\n이 기기에만 · 브라우저 데이터를 지우면 사라져요\n\nPrivacy & terms · 개인정보", "attrs": ["aria-label=Welcome to Lang App", "lang=ko", "lang=ko"]}, "w2": {"text": "Save across devices\n모든 기기에 저장하기\nSend sign-in link · 링크 보내기\n← Back · 뒤로", "attrs": ["aria-label=Welcome to Lang App", "lang=ko", "aria-label=Email · 이메일", "placeholder=you@example.com"]}, "w3": {"text": "What should we call you?\n어떻게 불러 드릴까요?\nStart learning · 시작하기\n← Back · 뒤로\n\nThis device only — lost if browser data is cleared. Add an email later in Progress.\n\n이 기기에만 저장돼요. 진도 탭에서 나중에 이메일을 추가할 수 있어요.", "attrs": ["aria-label=Welcome to Lang App", "lang=ko", "placeholder=Nickname · 닉네임", "lang=ko"]}, "lh1": {"text": "LANG APP\nWhat language do you speak?\n\n어떤 언어를 사용하세요?\n\n🇺🇸\nEnglish\n›\n🇰🇷\n한국어\n›\n\n🔒 COMING SOON · 출시 예정\n\n🇯🇵\n日本語\n🇨🇳\n中文\n🇪🇸\nEspañol\n🇫🇷\nFrançais\n🇩🇪\nDeutsch\n🇧🇷\nPortuguês\n🇮🇹\nItaliano\n🇻🇳\nTiếng Việt\n🇹🇭\nไทย\n🇮🇩\nBahasa Indonesia\n🇮🇳\nहिन्दी\n🇸🇦\nالعربية\n🇷🇺\nРусский", "attrs": ["aria-label=Choose your language · 언어 선택", "lang=ko", "lang=en", "lang=ko", "aria-label=Coming soon · 출시 예정", "title=Japanese · coming soon · 출시 예정", "title=Chinese · coming soon · 출시 예정", "title=Spanish · coming soon · 출시 예정", "title=French · coming soon · 출시 예정", "title=German · coming soon · 출시 예정", "title=Portuguese · coming soon · 출시 예정", "title=Italian · coming soon · 출시 예정", "title=Vietnamese · coming soon · 출시 예정", "title=Thai · coming soon · 출시 예정", "title=Indonesian · coming soon · 출시 예정", "title=Hindi · coming soon · 출시 예정", "title=Arabic · coming soon · 출시 예정", "title=Russian · coming soon · 출시 예정"]}};
+const preSnap=async p=>p.evaluate(async()=>{ const snap=sel=>{ const w=document.querySelector(sel); if(!w) return null; const a=[]; [w,...w.querySelectorAll('*')].forEach(e=>['aria-label','placeholder','title','lang'].forEach(k=>{ if(e.hasAttribute(k)) a.push(k+'='+e.getAttribute(k)); })); return {text:w.innerText,attrs:a}; };
+  const z=()=>new Promise(r=>setTimeout(r,90)); const r={}; r.w1=snap('#welcome'); document.querySelector('#wEmail').click(); await z(); r.w2=snap('#welcome'); document.querySelector('#wBack').click(); await z(); document.querySelector('#wNick').click(); await z(); r.w3=snap('#welcome');
+  document.querySelector('#wNickIn').value='T'; document.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,200)); r.lh1=snap('#langHome'); return r; });
+// fixture: ja-en = ko-en with every Hangul character mapped to a CJK ideograph (so any Hangul left on screen is engine text), plus a tiny ja interface pack
+const FX_JA={exact:{'Today':'今日','Practice':'練習','Correct!':'正解！','Check':'確認','Lesson':'レッスン','Show the rule':'ルールを見る','← Back':'← 戻る','What do you want to learn?':'何を学びたいですか？','Current course':'現在のコース',
+  'Coming soon · tap to preview':'近日公開 · タップでプレビュー','Coming soon':'近日公開','Choose the right one':'正しいものを選んでください','Your answer':'あなたの答え','What language do you speak?':'何語を話しますか？','Email':'メール','Nickname':'ニックネーム','The order may change.':'順番は変わることがあります。'},
+  patterns:[['^Coming soon · (\\d+) lessons planned$','近日公開 · $1 レッスン予定'],['^Type in (.+)…$','$1で入力…']]};
+const fxInject=async(p,pick)=>p.evaluate(([J,pick])=>{ const H=v=>typeof v==='string'?v.replace(/[가-힣]/g,c=>String.fromCharCode(0x4E00+c.charCodeAt(0)-0xAC00)).replace(/[ㄱ-ㅣ]/g,c=>String.fromCharCode(0x3041+(c.charCodeAt(0)-0x3131)%80)):Array.isArray(v)?v.map(H):v&&typeof v==='object'?Object.fromEntries(Object.entries(v).map(([k,x])=>[H(k),H(x)])):v;
+  const src=Object.assign({},COURSES['ko-en']); delete src._rt; COURSES['ja-en']=Object.assign(H(src),{id:'ja-en',native:'ja',target:'en',name:{en:'English',ja:'英語'},_rt:null}); LANGAPP_PACKS.i18n.ja=JSON.parse(JSON.stringify(J));
+  if(pick){ applyCourse('ja-en'); S.onboard={skipped:1}; S.hintSeen=1; S.tourDone=1; S.free=true; document.querySelectorAll('.tour,.tourov,#fxIntro').forEach(e=>e.remove()); } return true; },[FX_JA,!!pick]);
+const ALL_HANGUL=/[가-힣ㄱ-ㅣ]/;
+if(koSkip){ ['fxNativeList','fxLL','fxNoi18n','fxNoKorean','fxFullWidth','fxUnknownCourse','fxPreNative','fxBootJa','bootPackCourse'].forEach(k=>mc[k]='skip (no ko-en pack to clone)'); }
+else {
+{ // pre-native screens: English and Korean browsers unchanged; a Japanese browser without a ja course unchanged; with one, English + Japanese from the pack
+  const out={};
+  for(const loc of ['en-US','ko-KR','ja-JP']){ const {ctx,p}=await newCtx(null,loc); const got=await preSnap(p); out[loc]=JSON.stringify(got)===JSON.stringify(PRE_BASE); if(!out[loc]) res.checks['preNativeDiff_'+loc]=got;
+    if(loc!=='ja-JP') out[loc+'-intro']=await p.evaluate(()=>{ const sv=META.picked; META.picked=0; const a=preBi('Hello','안녕하세요')==='Hello · 안녕하세요'&&introSub(false)==='Learn a language, 5 minutes a day · 하루 5분'; META.picked=sv; return a; }); await ctx.close(); }
+  { const {ctx,p}=await newCtx(null,'ja-JP'); await fxInject(p,false);
+    out.ja=await p.evaluate(async()=>{ const ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); const old=document.getElementById('welcome'); if(old) old.remove(); const lh=document.getElementById('langHome'); if(lh) lh.remove(); showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText;
+      const a=preLang()==='ja'&&/📧 Email · メール/.test(t1)&&/👤 Nickname · ニックネーム/.test(t1)&&/Saves across all your devices/.test(t1)&&!/Saves across all your devices ·/.test(t1)&&!ALLH(t1)&&!w.querySelector('[lang="ko"]')&&/^How should we save your progress\?$/m.test(t1);
+      w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); const t3=w.innerText; const b=/Nickname · ニックネーム/.test(w.querySelector('#wNickIn').placeholder)&&!ALLH(t3);
+      w.querySelector('#wNickIn').value='T'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,200)); const h=document.getElementById('langHome'); const th=h?h.textContent:'';
+      const c=!!h&&/何語を話しますか？/.test(th)&&!!h.querySelector('.lh-sub[lang="ja"]')&&/Coming soon · 近日公開/.test(th)&&!ALLH(th.replace(/한국어/g,''))&&[...h.querySelectorAll('.lh-lock')].every(x=>/^[\w ]+ · coming soon · 近日公開$/.test(x.title))&&!!h.querySelector('[data-native="ja"]');
+      return (a&&b&&c)||('a'+a+' b'+b+' c'+c+' | '+t1.slice(0,300)+' | '+th.slice(0,300)); }).catch(e=>'ERR '+e.message);
+    await ctx.close(); }
+  res.checks.fxPreNative=out; mc.fxPreNative=Object.values(out).every(v=>v===true); }
+{ // step 1 lists Japanese; selecting it + the course switches COURSE.id, <html lang> and uiLang(); LL / langName / runner / language home under the fixture
+  const seed={'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}})};
+  const {ctx,p}=await newCtx(seed); await p.evaluate(()=>{ window.ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); }); await fxInject(p,false);
+  mc.fxNativeList=await p.evaluate(async()=>{ showLangHome({closable:true}); const h=document.getElementById('langHome'); const row=h.querySelector('[data-native="ja"]'); if(!row||!/日本語/.test(row.textContent)||[...h.querySelectorAll('.lh-lock')].some(x=>/日本語/.test(x.textContent))) return 'step1';
+    const natives=[...h.querySelectorAll('[data-native]')].map(b=>b.dataset.native).join(); if(natives!=='en,ko,ja') return 'order '+natives; row.click();
+    const t2=h.innerText; if(!h.querySelector('[data-course="ja-en"]')||!/何を学びたいですか？/.test(t2)||!/← 戻る/.test(t2)||!/近日公開 · タップでプレビュー/.test(t2)||ALLH(t2)||!/英語/.test(t2)) return 'step2 '+t2.slice(0,200);
+    const lk=h.querySelector('.lh-lock[data-road="fr"]'); if(lk){ lk.click(); const t3=h.innerText; if(!/近日公開 · \d+ レッスン予定/.test(t3)||!/順番は変わることがあります。/.test(t3)||ALLH(t3)) return 'step3 '+t3.slice(0,160); h.querySelector('.lh-back2').click(); }
+    h.querySelector('[data-course="ja-en"]').click(); await new Promise(z=>setTimeout(z,200));
+    return COURSE.id==='ja-en'&&document.documentElement.lang==='ja'&&uiLang()==='ja'&&/今日/.test(document.querySelector('#nav').textContent)&&JSON.parse(localStorage.getItem('la-meta')).course==='ja-en'&&!document.getElementById('langHome')||'switch '+COURSE.id+' '+document.documentElement.lang; });
+  if(mc.fxNativeList!==true){ res.checks.fxNativeList=mc.fxNativeList; mc.fxNativeList=false; await p.evaluate(()=>{ const h=document.getElementById('langHome'); if(h) h.remove(); applyCourse('ja-en'); }); }
+  mc.fxLL=await p.evaluate(()=>{ const r=[]; const ja=[LL('Practice','연습'),LL('No such key in any pack','한국어'),LL('Type in 英語…','영어로…'),langName('ko','ja'),langName('en','es'),langName('ja','ko'),langName('ja','en'),tgtName()];
+    applyCourse('ko-en'); const ko=[LL('Practice','연습'),LL('No such key in any pack','한국어'),langName('en','ko')]; applyCourse('en-ko'); const en=[LL('Practice','연습'),LL('No such key in any pack','한국어')]; applyCourse('ja-en');
+    window.__fxLL={ja,ko,en}; return ja[0]==='練習'&&ja[1]==='No such key in any pack'&&ja[2]==='英語で入力…'&&ja[3]==='韓国語'&&ja[4]==='Inglés'&&ja[5]==='일본어'&&ja[6]==='Japanese'&&ja[7]==='英語'&&ko[0]==='연습'&&ko[1]==='한국어'&&ko[2]==='영어'&&en[0]==='Practice'&&en[1]==='No such key in any pack'; });
+  if(!mc.fxLL) res.checks.fxLL=await p.evaluate(()=>window.__fxLL);
+  // data-noi18n practice runner + language home step 2: fixture translations shown, no Hangul, English only where the fixture has no key
+  mc.fxNoi18n=await p.evaluate(async()=>{ const J=LANGAPP_PACKS.i18n.ja.exact, bad=[]; let hits=0; const tick=()=>new Promise(z=>setTimeout(z,30));
+    const scan=(root,tag)=>{ if(!root){ bad.push(tag+' missing'); return; } const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT); let n; while((n=w.nextNode())){ const s=n.nodeValue.trim(); if(!s) continue; if(ALLH(s)) bad.push(tag+' hangul: '+s.slice(0,40)); if(n.parentElement.closest('.pc')) continue; if(Object.prototype.hasOwnProperty.call(J,s)) bad.push(tag+' untranslated: '+s); if(Object.values(J).some(v=>s.includes(v))) hits++; }
+      [root,...root.querySelectorAll('[placeholder],[aria-label],[title]')].forEach(e=>['placeholder','aria-label','title'].forEach(a=>{ const v=e.getAttribute(a); if(!v) return; if(ALLH(v)) bad.push(tag+' @'+a+' hangul: '+v); if(Object.prototype.hasOwnProperty.call(J,v.trim())) bad.push(tag+' @'+a+' untranslated: '+v); if(Object.values(J).some(x=>v.includes(x))) hits++; })); };
+    const id=LESSONS.find(l=>(PRACTICE[l.id]||[]).length).id; location.hash='#lessons'; route(); showLesson(id); await tick(); scan(document.getElementById('pracEntry'),'entry'); document.getElementById('pracStart').click(); await tick();
+    for(let i=0;i<PR.items.length&&i<14;i++){ scan(document.getElementById('pracRun'),'item'+i+':'+PR.st.mode); const k=document.querySelector('#pracRun .prac-kb'); if(k&&i===3){ k.click(); scan(document.getElementById('pracRun'),'tiles'); k.click(); } window.__prW&&0; const st=PR.st; if(st.mode==='pick'){ document.querySelector('#pracRun [data-po]').click(); } else if(st.mode==='tiles'){ const t=document.querySelector('#pracRun [data-pt]'); if(t) t.click(); const c=document.querySelector('#pracRun .prac-chk'); if(c&&!c.disabled) c.click(); } else { const f=document.querySelector('#pracRun .prac-form'); f.querySelector('input').value='zzz'; f.requestSubmit(); } scan(document.getElementById('pracRun'),'fb'+i);
+      if(!PR.done){ if(st.mode==='input'){ const f=document.querySelector('#pracRun .prac-form'); f.querySelector('input').value='zzz'; f.requestSubmit(); } else if(st.mode==='pick'){ const o=document.querySelector('#pracRun [data-po]:not([disabled])'); if(o) o.click(); } else { const t=document.querySelector('#pracRun [data-pt]'); if(t) t.click(); const c=document.querySelector('#pracRun .prac-chk'); if(c&&!c.disabled) c.click(); } scan(document.getElementById('pracRun'),'fb2-'+i); }
+      if(!PR.done) break; document.querySelector('#pracRun .prac-rule')&&i===0&&(document.querySelector('#pracRun .prac-rule').click(),scan(document.querySelector('.prac-sheet'),'rule'),document.querySelector('.prac-sheet .prac-x').click()); document.querySelector('#pracRun .prac-next').click(); await tick(); if(!PR) break; }
+    if(document.querySelector('#pracRun .prac-back')) document.querySelector('#pracRun .prac-back').click(); openLesson=null; route();
+    showLangHome({step:2,closable:true}); const h=document.getElementById('langHome'); scan(h,'home2'); h.remove(); window.__fxBad=bad; return bad.length===0&&hits>=5; });
+  if(!mc.fxNoi18n) res.checks.fxNoi18nBad=await p.evaluate(()=>window.__fxBad.slice(0,20));
+  // no Korean anywhere on screen under the ja UI (all fixture content is Hangul-free, so any Hangul is engine text): every route, a Today session with right and wrong answers, drills, learn loop, lesson checks, idle slides
+  const nk=await p.evaluate(async()=>{ const tick=ms=>new Promise(z=>setTimeout(z,ms||60)); const hits=new Set(); document.querySelectorAll('#fxIntro,.tour,.tourov').forEach(e=>e.remove()); S.onboard={skipped:1}; S.hintSeen=1; S.tourDone=1; S.free=true; save();
+    const scan=tag=>{ const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT); let n; while((n=w.nextNode())){ const s=n.nodeValue.trim(); const el=n.parentElement; if(!s||!el||el.closest('[hidden],script,style,#fxIntro')) continue; if(ALLH(s)) hits.add(tag+': '+s.slice(0,50)); }
+      document.querySelectorAll('[placeholder],[aria-label],[title]').forEach(e=>{ if(e.closest('[hidden]')) return; ['placeholder','aria-label','title'].forEach(a=>{ const v=e.getAttribute(a); if(v&&ALLH(v)) hits.add(tag+' @'+a+': '+v.slice(0,50)); }); }); };
+    for(const r of ['today','practice','review','lessons','read','progress','feedback','privacy']){ location.hash='#'+r; route(); await tick(); scan(r); }
+    location.hash='#today'; route(); await tick(); if(!document.querySelector('#startSess')) hits.add('no #startSess'); else document.querySelector('#startSess').click(); await tick(150);
+    for(let st=0;st<140;st++){ const b=document.querySelector('#sessBody'); if(!b) break; scan('sess'); const it=sess&&sess.items[sess.i]; if(b.querySelector('.rvgo')){ b.querySelector('.rvgo').click(); await tick(); continue; } if(b.querySelector('.card')&&b.querySelector('[data-ans="1"]')){ b.querySelector('[data-ans="1"]').click(); await tick(230); continue; }
+      const nx=b.querySelector('.next:not([hidden])'); if(nx){ nx.click(); await tick(); continue; } if(b.querySelector('#sayNext')){ document.querySelector('#sayGood').checked=true; b.querySelector('#sayNext').click(); await tick(); continue; }
+      const opts=[...b.querySelectorAll('.opt:not([disabled])')]; if(opts.length){ const want=it&&it.c&&it.c[0]; (st%2?opts.find(o=>o.dataset.a!==want)||opts[0]:(opts.find(o=>o.dataset.a===want)||opts[0])).click(); await tick(120); scan('sess-fb'); continue; }
+      const inp=b.querySelector('input.ans:not([disabled])'); if(inp){ inp.value=st%2?'zz':((it&&it.c)?it.c[0]:'zz'); b.querySelector('form').requestSubmit(); await tick(100); scan('sess-fb'); if(st%2&&b.querySelector('form')){ b.querySelector('form').requestSubmit(); await tick(100); scan('sess-fb2'); } continue; } await tick(400); }
+    scan('sess-done'); location.hash='#read'; route(); await tick();
+    for(const m of ['type','listen','role','say']){ const c=document.querySelector('#hModes [data-hm="'+m+'"]'); if(!c||c.hidden) continue; c.click(); await tick(100); scan('drill-'+m); const o=document.querySelector('#v-hangul .opt'); if(o){ o.click(); await tick(100); scan('drill-'+m+'-fb'); } const f=document.querySelector('#v-hangul form'); if(f){ const i=f.querySelector('input'); if(i) i.value='zz'; f.requestSubmit(); await tick(100); f.requestSubmit(); await tick(100); scan('drill-'+m+'-fb'); } }
+    location.hash='#practice'; route(); await tick(); const ls=document.querySelector('#learnStart'); if(ls){ ls.click(); await tick(); for(let i=0;i<5;i++){ const a=document.querySelector('#quizRun [data-ans="1"]'); if(a){ a.click(); await tick(230); } } scan('learn'); const o=document.querySelector('#quizRun .opt'); if(o){ o.click(); await tick(100); scan('learn-fb'); } }
+    location.hash='#lessons'; route(); await tick(); showLesson(LESSONS[0].id); await tick(); scan('lesson'); const ck=document.querySelector('#lessonBody .opt'); if(ck){ ck.click(); await tick(100); scan('check-fb'); } openLesson=null; route(); await tick();
+    idleSlidesGen().forEach(x=>['ko','rom','en','tag','sub'].forEach(k=>{ if(x[k]&&ALLH(String(x[k]))) hits.add('idle '+k+': '+String(x[k]).slice(0,40)); }));
+    [greet()[0],greet()[1],introSub(false),introSub(true)].forEach(s=>{ if(ALLH(s)) hits.add('greet/intro: '+s); }); location.hash='#today'; route(); return [...hits]; });
+  res.checks.fxNoKorean=nk.slice(0,20); mc.fxNoKorean=nk.length===0;
+  await ctx.close(); }
+{ // typed answers in full-width mode match; results for every shipped practice item are identical to the previous normaliser
+  const seed={'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}})};
+  const {ctx,p}=await newCtx(seed); await fxInject(p,false);
+  mc.fxFullWidth=await p.evaluate(()=>{ const oldNorm=s=>String(s==null?'':s).normalize('NFC').toLowerCase().replace(/[’‘`´ʼ]/g,"'").replace(/[.,!?~…。、！？，．～]/g,'').replace(/["“”«»「」『』]/g,'').replace(/(^|[^\p{L}\p{N}])'+/gu,'$1').replace(/'+(?=[^\p{L}\p{N}]|$)/gu,'').replace(/\s+/g,' ').trim();
+    const oldMatch=(input,answers)=>{ const n=oldNorm(input); if(!n) return false; const ns=n.replace(/\s+/g,''); return (answers||[]).some(a=>{ const w=oldNorm(a); if(w===n) return true; return /[ㄱ-ㆎ가-힣]/.test(w+n)&&w.replace(/\s+/g,'')===ns; }); };
+    const fw=pracMatch('Ｉ　ｌｉｋｅ　ｃａｔｓ',['I like cats'])&&pracMatch('ｄｏｎ＇ｔ　ｗｏｒｒｙ！',["Don't worry"])&&pracMatch('Ｉ’ｍ　２０',["I'm 20"])&&!pracMatch('Ｉ　ｌｉｋｅ　ｄｏｇｓ',['I like cats'])&&pracMatch('저는　커피를 마셔요',['저는 커피를 마셔요']);
+    applyCourse('ja-en'); const nt=normT('Ｉ　ｌｉｋｅ　ｃａｔｓ．')===normT('I like cats.'); let diff=0, total=0;
+    for(const cid of ['en-ko','ko-en','ja-en']){ applyCourse(cid); Object.keys(PRACTICE).forEach(id=>PRACTICE[id].forEach(it=>{ const ans=(it.a||[]).map(String), cand=[...ans,...(it.x||[]),...(it.o||[]),ans.join(' ')].map(String);
+      if(it.t==='order'){ const m=ans.join(' '); (it.x||[]).forEach(x=>ans.forEach((_,k)=>{ const alt=ans.slice(); alt[k]=x; cand.push(alt.join(' ')); })); cand.forEach(c=>{ total++; if(pracMatch(c,[m])!==oldMatch(c,[m])) diff++; }); }
+      else cand.forEach(c=>{ total++; if(pracMatch(c,ans)!==oldMatch(c,ans)) diff++; }); })); }
+    applyCourse('en-ko'); window.__fw={fw,nt,diff,total}; return fw&&nt&&diff===0&&total>500; });
+  res.checks.fxFullWidth=await p.evaluate(()=>window.__fw);
+  await ctx.close(); }
+{ // a course this build does not know (e.g. synced from a newer build) survives course switches, remote merges, sync payloads, exports/imports and boot
+  const xx={xp:42,updatedAt:1000,cards:{'Deck|word':{box:3,due:5,seen:2,lapses:0,last:900,newField:7}},days:{'2026-11-01':12},practice:{l1:{n:2,first:1,last:0.5,ts:5,extra:'keep'}},zz:{nested:[1,2,{a:'b'}]},listenFirst:true,custom:[[1,2]]};
+  const xs=JSON.stringify(xx);
+  const seed={'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}}),'la-s-xx-yy':xs};
+  const {ctx,p}=await newCtx(seed);
+  const u=await p.evaluate(xs=>{ const raw=()=>localStorage.getItem('la-s-xx-yy'); const out={};
+    applyCourse('ko-en'); S.xp=5; save(); flushSave(); applyCourse('en-ko'); out.switch=raw()===xs;
+    out.payload=stableStr(syncPayload()._courses['xx-yy'])===stableStr(JSON.parse(xs));
+    const older=JSON.parse(xs); older.updatedAt=10; older.xp=1; delete older.zz; applyRemoteRow({xp:0,cards:{},days:{},updatedAt:1,_courses:{'xx-yy':older}}); out.olderRemote=raw()===xs;
+    applyRemoteRow({xp:0,cards:{},days:{},updatedAt:1,_courses:{'xx-yy':JSON.parse(xs)}}); out.sameRemote=raw()===xs;
+    const newer=JSON.parse(xs); newer.updatedAt=2000; newer.xp=50; newer.zz2={k:1}; newer.practice.l1.extra2=3; applyRemoteRow({xp:0,cards:{},days:{},updatedAt:1,_courses:{'xx-yy':newer}}); out.newerRemote=stableStr(JSON.parse(raw()))===stableStr(newer);
+    out.payload2=stableStr(syncPayload()._courses['xx-yy'])===stableStr(newer);
+    const ex=JSON.parse(exportText()); out.exportCurrent=ex._course==='en-ko'&&!ex._courses; const before=raw(); document.getElementById('impTxt').value=exportText(); document.getElementById('impGo').click(); out.importOther=raw()===before;
+    document.getElementById('impTxt').value=JSON.stringify({_course:'xx-yy',cards:{'Deck|other':{box:2,due:0,seen:1,lapses:0,last:3000}},xp:60,updatedAt:3000}); document.getElementById('impGo').click(); const m=JSON.parse(raw()); out.importTagged=!!m.cards['Deck|word']&&!!m.cards['Deck|other']&&m.xp===60&&!!m.zz&&!!m.zz2;
+    out.erase=null; return out; },xs);
+  await ctx.close();
+  const b2=JSON.stringify(Object.assign({},xx)); const {ctx:c2,p:p2}=await newCtx({'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'xx',course:'xx-yy',picked:1,seenHome:1,prefs:{}}),'la-s-xx-yy':b2});
+  u.boot=await p2.evaluate(b2=>{ save(); flushSave(); return COURSE.id==='en-ko'&&localStorage.getItem('la-s-xx-yy')===b2&&syncPayload()._meta.course==='xx-yy'&&stableStr(syncPayload()._courses['xx-yy'])===stableStr(JSON.parse(b2)); },b2);
+  await c2.close(); delete u.erase; res.checks.fxUnknownCourse=u; mc.fxUnknownCourse=Object.values(u).every(v=>v===true); }
+{ // boot with a pack-shaped ja-en course and ja interface pack inlined like real packs (bare: no TITLES/GOALS/PLAN_PRESETS/PAUSE/PRACTICE, so engine fallbacks are exercised)
+  const OUT2=OUT.replace('page.html','page-ja.html'); const fxSrc='/* fixture: ja-en */\n;(function(){ var H=function(v){ return typeof v==="string"?v.replace(/[가-힣]/g,function(c){ return String.fromCharCode(0x4E00+c.charCodeAt(0)-0xAC00); }).replace(/[ㄱ-ㅣ]/g,function(c){ return String.fromCharCode(0x3041+(c.charCodeAt(0)-0x3131)%80); }):Array.isArray(v)?v.map(H):v&&typeof v==="object"?Object.fromEntries(Object.entries(v).map(function(e){ return [H(e[0]),H(e[1])]; })):v; };\n'+
+    ' var c=H(LANGAPP_PACKS.course["ko-en"]); ["TITLES","GOALS","PLAN_PRESETS","PAUSE","PRACTICE","_rt"].forEach(function(k){ delete c[k]; }); c.id="ja-en"; c.native="ja"; c.target="en"; c.name={en:"English",ja:"英語"}; LANGAPP_PACKS.course["ja-en"]=c; LANGAPP_PACKS.i18n.ja='+JSON.stringify(FX_JA)+'; })();\n';
+  const hh=fs.readFileSync(OUT,'utf8'); fs.writeFileSync(OUT2,hh.replace('/* pack: i18n-ko.js */',()=>fxSrc+'/* pack: i18n-ko.js */'));
+  const ctxAt=async(seed,locale)=>{ const ctx=await b.newContext(Object.assign({viewport:{width:390,height:800},colorScheme:'dark',hasTouch:true,isMobile:true},locale?{locale}:{})); const p=await ctx.newPage();
+    p.on('pageerror',e=>res.errors.push('JA PAGEERR '+e.message)); p.on('console',m=>{ if(m.type()==='error'&&!/fonts|net::/.test(m.text())) res.errors.push('JA CONSOLE '+m.text()); });
+    await ctx.route(/supabase|fonts\.g/,r=>r.fulfill({status:200,body:'[]',contentType:'application/json'}));
+    if(seed) await ctx.addInitScript(s=>{ if(!sessionStorage.getItem('__seeded')){ Object.entries(s).forEach(([k,v])=>localStorage.setItem(k,v)); sessionStorage.setItem('__seeded','1'); } },seed);
+    await p.goto('file://'+OUT2); await p.waitForTimeout(300); await p.evaluate(()=>{ window.ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); const c=document.getElementById('fx3d'); if(c) c.style.display='none'; }); return {ctx,p}; };
+  const bt={};
+  { const {ctx,p}=await ctxAt(null,'ja-JP'); // fresh Japanese visitor: first paint is English + Japanese, language home lists Japanese, picking it lands in ja-en with the ja UI
+    bt.freshJa=await p.evaluate(async()=>{ const w=document.getElementById('welcome'); if(!w) return 'no welcome'; const t=w.innerText; if(!/📧 Email · メール/.test(t)||ALLH(t)||w.querySelector('[lang="ko"]')||preLang()!=='ja') return 'welcome '+t.slice(0,120);
+      w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); w.querySelector('#wNickIn').value='J'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,250));
+      const h=document.getElementById('langHome'); if(!h||!/何語を話しますか？/.test(h.textContent)||!h.querySelector('[data-native="ja"]')) return 'step1'; h.querySelector('[data-native="ja"]').click(); h.querySelector('[data-course="ja-en"]').click(); await new Promise(z=>setTimeout(z,250));
+      return COURSE.id==='ja-en'&&uiLang()==='ja'&&document.documentElement.lang==='ja'&&!!COURSES['ja-en']&&!COURSES['ja-en'].builtin||'pick '+COURSE.id; });
+    await ctx.close(); }
+  { const st=JSON.stringify({nick:'J',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1,xp:11});
+    const {ctx,p}=await ctxAt({'la-s-ja-en':st,'ko-app2':JSON.stringify({nick:'J',welcomed:1,xp:33}),'la-meta':JSON.stringify({v:1,native:'ja',course:'ja-en',picked:1,seenHome:1,prefs:{}})});
+    // reload straight into ja-en: ja UI at boot, every route and the sheets/search/tour/exam render without Korean (TITLES/GOALS/PLAN_PRESETS fallbacks included)
+    const r=await p.evaluate(async()=>{ const tick=ms=>new Promise(z=>setTimeout(z,ms||70)); const hits=new Set(); const boot=COURSE.id==='ja-en'&&uiLang()==='ja'&&document.documentElement.lang==='ja'&&S.xp===11; document.querySelectorAll('#fxIntro,.tour,.tourov').forEach(e=>e.remove());
+      const scan=tag=>{ const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT); let n; while((n=w.nextNode())){ const s=n.nodeValue.trim(); const el=n.parentElement; if(!s||!el||el.closest('[hidden],script,style,#fxIntro')) continue; if(ALLH(s)) hits.add(tag+': '+s.slice(0,50)); }
+        document.querySelectorAll('[placeholder],[aria-label],[title]').forEach(e=>{ if(e.closest('[hidden]')) return; ['placeholder','aria-label','title'].forEach(a=>{ const v=e.getAttribute(a); if(v&&ALLH(v)) hits.add(tag+' @'+a+': '+v.slice(0,50)); }); }); };
+      for(const rt of ['today','practice','review','lessons','read','progress','feedback','privacy']){ location.hash='#'+rt; await tick(); scan(rt); }
+      location.hash='#progress'; await tick(); const pl=document.querySelector('[data-plan]'); scan('plans');
+      globalSearch(); const gi=document.querySelector('#gsIn'); gi.value='a'; gi.dispatchEvent(new Event('input')); await tick(); scan('search'); closeSheet();
+      for(const sh of ['read','review','practice']){ try{ openSheet(sh); await tick(); scan('sheet-'+sh); closeSheet(); }catch(e){} }
+      location.hash='#today'; await tick(); try{ S.tourDone=0; tourStep(0); await tick(); scan('tour'); document.querySelectorAll('.tour,.tourov,[class*=tour]').forEach(e=>{ if(e.id!=='v-today') e.remove(); }); S.tourDone=1; }catch(e){}
+      location.hash='#practice'; await tick(); const ex=document.getElementById('examStart'); if(ex&&!ex.disabled){ ex.click(); await tick(150); scan('exam'); const o=document.querySelector('#quizRun .opt'); if(o){ o.click(); await tick(120); scan('exam-fb'); } }
+      const lv=[titleOf(1),titleOf(3)].map(t=>t.join(' ')); if(lv.some(ALLH)) hits.add('titles: '+lv.join(' | ')); idleSlidesGen().forEach(x=>['ko','en','tag','rom'].forEach(k=>{ if(x[k]&&ALLH(String(x[k]))) hits.add('idle '+k+': '+x[k]); }));
+      // three courses keep their own progress across switches; the sync payload carries both pack courses
+      S.xp=11; save(); flushSave(); applyCourse('ko-en'); S.xp=22; save(); flushSave(); applyCourse('en-ko'); const en0=S.xp===33; applyCourse('ja-en'); const a=S.xp===11; applyCourse('ko-en'); const b2=S.xp===22; applyCourse('en-ko'); const c=S.xp===33; applyCourse('ja-en');
+      const pay=syncPayload(); const three=en0&&a&&b2&&c&&pay.xp===33&&pay._courses['ja-en'].xp===11&&pay._courses['ko-en'].xp===22&&pay._meta.course==='ja-en';
+      location.hash='#today'; return {boot,three,hits:[...hits].slice(0,20)}; });
+    bt.bootJa=r.boot; bt.threeCourses=r.three; bt.bootNoKorean=r.hits.length===0; if(r.hits.length) res.checks.bootJaHangul=r.hits;
+    await ctx.close(); }
+  { // a device that has not picked a course yet adopts ja-en from the synced _meta
+    const {ctx,p}=await ctxAt({'ko-app2':JSON.stringify({nick:'J',welcomed:1}),'la-meta':JSON.stringify({v:1,native:null,course:'en-ko',picked:0,seenHome:0,prefs:{}})});
+    bt.remoteMetaJa=await p.evaluate(()=>{ const lh=document.getElementById('langHome'); const before=META.picked===0; applyRemoteRow({xp:0,cards:{},days:{},updatedAt:1,_meta:{native:'ja',course:'ja-en'},_courses:{'ja-en':{xp:7,cards:{},days:{},updatedAt:5}}}); return before&&COURSE.id==='ja-en'&&S.xp===7&&uiLang()==='ja'&&document.documentElement.lang==='ja'&&!document.getElementById('langHome'); });
+    await ctx.close(); }
+  res.checks.fxBoot=bt; mc.fxBootJa=Object.values(bt).every(v=>v===true); }
+{ // booting straight into a pack course (reload while in ko-en) and opening Practice must not fall back to an en-ko deck name
+  const {ctx,p}=await newCtx({'la-s-ko-en':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'ko-app2':JSON.stringify({nick:'K',welcomed:1}),'la-meta':JSON.stringify({v:1,native:'ko',course:'ko-en',picked:1,seenHome:1,prefs:{}})});
+  mc.bootPackCourse=await p.evaluate(async()=>{ let ok=COURSE.id==='ko-en'&&uiLang()==='ko'; for(const r of ['practice','review','read','lessons','progress','today']){ try{ location.hash='#'+r; route(); await new Promise(z=>setTimeout(z,60)); }catch(e){ ok=false; } } return ok&&[...qSel].every(d=>DECKS[d])&&document.querySelectorAll('#quizDecks .chip').length>0; });
+  await ctx.close(); }
+}
 // pack integrity for every course
 res.checks.packs=await (async()=>{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const out={}; Object.values(COURSES).forEach(c=>{ const rt=courseRT(c); const raw=c.builtin?Object.keys(c.DECKS).filter(d=>d!==MYDECK):Object.keys(c.DECKS); const tg=[]; raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>tg.push(String(x[0]).toLowerCase().trim())));
     const grouped=raw.every(d=>(c.GROUPS||[]).some(g=>g[1].includes(d))&&(c.GROUPS||[]).filter(g=>g[1].includes(d)).length===1), tagged=raw.every(d=>Object.values(c.TAGS||{}).some(a=>a.includes(d)));

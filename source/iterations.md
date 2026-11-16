@@ -735,3 +735,15 @@ Write the five B1 lessons (perfect-2, narrative, conditionals, passive, reported
 - Validator PASS: 39 lessons, 117 checks, 546 practice items; correct-answer positions spread 28/30/32/27.
 - English roadmap: 32 items, 0 planned. Harness 45 guards. e2e OK for all A2/B1 lessons plus phrasal, email, idioms in their new positions.
 - All 39 lessons render with no raw tokens, no overflow, and every English example string present unchanged under the Korean UI; 546 items load with no warnings.
+
+---
+
+# Pilot P (2026-11-16) — Japanese and Spanish speakers learning English
+
+Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/profiles/{ja,es,OTHERS}.md`.
+
+## P1 — phase 1 (five parallel agents)
+- Engine: interface works for any language (`LL` routed through the interface pack, `Intl.DisplayNames` language names, pre-native screens use the browser language, full-width input folding, unknown-course state passes through sync untouched). 54 harness guards. Fixes a crash when reloading in ko-en and opening Practice.
+- Pipeline: generators are per-language (`tools/content/<lang>/`, `tools/i18n/<lang>/`); regenerated Korean course and interface packs are byte-identical; new `parity.js` enforces the shared English side.
+- Research: profiles for Japanese and Spanish speakers, planning profiles for eleven more languages.
+- Lead: the generated key-merge script mis-parsed the engine's key tables (27 junk keys); replaced with a table-aware merge. Frozen interface key list: 766 exact strings, 272 patterns.

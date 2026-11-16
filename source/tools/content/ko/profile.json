@@ -1,0 +1,13 @@
+{
+  "native": "ko",
+  "nativeNameEn": "Korean",
+  "name": { "en": "English", "ko": "영어" },
+  "ttsLang": "en-US",
+  "nativeScript": "[가-힣ㄱ-ㅎㅏ-ㅣ]",
+  "pron": "required",
+  "standingRule": { "kind": "article-plural", "keywords": "관사|복수" },
+  "labels": {
+    "mcBlankCue": " 빈칸에 알맞은 것은?",
+    "typeHintCue": " — 이 단어들로"
+  }
+}

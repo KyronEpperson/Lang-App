@@ -1,14 +1,27 @@
-const fs=require('fs'), vm=require('vm');
-const F='/home/claude/packs/i18n-ko.js', src=fs.readFileSync(F,'utf8');
+/* Validates packs/i18n-<lang>.js against tools/i18n/keys.json and tools/i18n/<lang>/ui.json.
+   usage: node tools/i18n/validate.js [<lang>=ko] [<pack path>]
+   Fails on: pack structure (no </script, no // comments, assigns only LANGAPP_PACKS.i18n.<lang>, no duplicate/empty/untrimmed keys,
+   valid anchored regexes, $k refs exist); any non-optional keys.json key (exact or pattern template) untranslated or empty;
+   a pattern translation whose {k} slot set differs from the template's slots; pack content out of sync with ui.json (run gen.py).
+   Warns on: translations > 1.6 x English and > 14 chars for short labels (button overflow risk); for languages without a distinct
+   script, translations identical to the English key; ui.json keys unknown to keys.json.
+   Optional coverage report vs the app (tools/i18n/cov.json from lex.py/extract.py/static.py) runs only when cov.json exists. */
+const fs=require('fs'), vm=require('vm'), path=require('path');
+let LANG=process.argv[2]||'ko', F=process.argv[3];
+if(/\.js$/.test(LANG)){ F=LANG; const m=path.basename(F).match(/^i18n-(.+)\.js$/); LANG=m?m[1]:'ko'; }
+if(!/^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/.test(LANG)){ console.log('FAIL: bad language code '+LANG); process.exit(1); }
+F=F||'/home/claude/packs/i18n-'+LANG+'.js';
+const src=fs.readFileSync(F,'utf8');
 const fail=m=>{console.log('FAIL: '+m); process.exitCode=1;};
+const warns=[]; const warn=m=>warns.push(m);
 if(/<\/script/i.test(src)) fail('contains </script');
 /* line comments: strip strings then look for // */
 const noStr=src.replace(/"(?:[^"\\\n]|\\.)*"/g,'""').replace(/\/\*[\s\S]*?\*\//g,'');
 if(/\/\//.test(noStr)) fail('// line comment present');
 const ctx={LANGAPP_PACKS:{course:{},i18n:{}}}; vm.createContext(ctx); vm.runInContext(src,ctx,{filename:F});
-const P=ctx.LANGAPP_PACKS.i18n.ko;
-if(!P||typeof P.exact!=='object'||!Array.isArray(P.patterns)) fail('shape');
-if(Object.keys(ctx.LANGAPP_PACKS).join()!=='course,i18n'||Object.keys(ctx.LANGAPP_PACKS.i18n).join()!=='ko'||Object.keys(ctx.LANGAPP_PACKS.course).length) fail('pack assigns outside i18n.ko');
+const P=ctx.LANGAPP_PACKS.i18n[LANG];
+if(!P||typeof P.exact!=='object'||!Array.isArray(P.patterns)){ fail('shape: pack does not define LANGAPP_PACKS.i18n.'+LANG); process.exit(1); }
+if(Object.keys(ctx.LANGAPP_PACKS).join()!=='course,i18n'||Object.keys(ctx.LANGAPP_PACKS.i18n).join()!==LANG||Object.keys(ctx.LANGAPP_PACKS.course).length) fail('pack assigns outside i18n.'+LANG);
 const ex=P.exact, keys=Object.keys(ex);
 /* duplicates: parse keys from source lines */
 const lineKeys=[...src.matchAll(/^\s{4}("(?:[^"\\]|\\.)*")\s*:/gm)].map(m=>JSON.parse(m[1]));
@@ -18,7 +31,7 @@ if(lineKeys.length!==keys.length) fail('parsed '+lineKeys.length+' keys vs '+key
 for(const k of keys){ const v=ex[k];
   if(typeof v!=='string'||!v.trim()) fail('empty value for '+k);
   if(k!==k.trim()) fail('untrimmed key '+JSON.stringify(k));
-  if(!/[A-Za-z]/.test(k)) fail('key without Latin letters (pure Korean/punctuation): '+k);
+  if(!/[A-Za-z]/.test(k)) fail('key without Latin letters (pure native text/punctuation): '+k);
   if(/^[\p{P}\p{S}\s\d]*$/u.test(k)) fail('pure punctuation key '+k); }
 const RX=[]; P.patterns.forEach((p,i)=>{ if(!Array.isArray(p)||p.length!==2||typeof p[0]!=='string'||typeof p[1]!=='string'||!p[1].trim()) return fail('bad pattern '+i);
   if(!p[0].startsWith('^')||!p[0].endsWith('$')) fail('unanchored '+p[0]);
@@ -28,11 +41,55 @@ const RX=[]; P.patterns.forEach((p,i)=>{ if(!Array.isArray(p)||p.length!==2||typ
   RX.push([r,p[1]]); });
 let FRAG_SAMPLES=[];
 const t=s=>{ s=s.trim(); if(ex[s]) return ex[s]; for(const [r,rep] of RX) if(r.test(s)) return s.replace(r,rep); return null; };
+/* ---- keys.json coverage, slots, sync with ui.json ---- */
+const KEYS=JSON.parse(fs.readFileSync(__dirname+'/keys.json','utf8'));
+const UIF=__dirname+'/'+LANG+'/ui.json';
+if(!fs.existsSync(UIF)){ fail('missing '+UIF); process.exit(1); }
+const UI=JSON.parse(fs.readFileSync(UIF,'utf8'));
+const txt=v=>v&&typeof v==='object'?(v.t||''):(typeof v==='string'?v:'');
+const uiEx={}, uiPat={}; Object.entries(UI.exact||{}).forEach(([k,v])=>uiEx[k.trim()]=txt(v)); Object.entries(UI.patterns||{}).forEach(([k,v])=>uiPat[k]=txt(v));
+const optional=e=>(e.optionalFor||[]).includes(LANG);
+let profile=null; try{ profile=JSON.parse(fs.readFileSync('/home/claude/tools/content/'+LANG+'/profile.json','utf8')); }catch(e){}
+const allTr=Object.values(uiEx).filter(Boolean);
+const distinctScript=profile&&('nativeScript' in profile)? !!profile.nativeScript : allTr.filter(v=>/[^\u0000-\u024f\u2000-\u2bff\s\d\p{P}\p{S}]/u.test(v)).length>allTr.length/2;
+const untranslated=[], slotBad=[], longW=[], sameW=[], outOfSync=[];
+const nTpl=new Set(), doneTpl=new Set();
+KEYS.exact.forEach(e=>{ const k=e.key, v=uiEx[k];
+  if(v===undefined||!v.trim()){ if(!optional(e)) untranslated.push(k); return; }
+  if(ex[k]!==v) outOfSync.push(k);
+  const en=k.length, tl=[...v].length;
+  if((e.kind==='label'||e.kind==='canvas') && tl>1.6*en && tl>14) longW.push(JSON.stringify(k)+' -> '+JSON.stringify(v)+' ('+tl+' vs '+en+')');
+  if(!distinctScript && v.trim()===k && !/^(Lang App|XP|Enter|Lv|DELETE)$/.test(k)) sameW.push(k); });
+const expectPat=[];
+KEYS.patterns.forEach(p=>{ const t=p.template, v=uiPat[t]; nTpl.add(t);
+  if(v===undefined||!v.trim()){ if(!optional(p)&&!doneTpl.has(t)&&!untranslated.includes('pattern: '+t)) untranslated.push('pattern: '+t); return; }
+  doneTpl.add(t);
+  const n=p.slots.length, refs=new Set([...v.matchAll(/\{(\d+)\}/g)].map(m=>+m[1]));
+  const want=new Set(Array.from({length:n},(_,i)=>i+1));
+  if(refs.size!==want.size||[...want].some(i=>!refs.has(i))) slotBad.push(JSON.stringify(t)+' -> '+JSON.stringify(v)+' (needs {1}..{'+n+'} each at least once)');
+  expectPat.push([p.regex, v.replace(/\{(\d+)\}/g,'$$$1')]);
+  if(!distinctScript && v.trim()===t) sameW.push('pattern: '+t); });
+if(JSON.stringify(expectPat)!==JSON.stringify(P.patterns.map(p=>[p[0],p[1]]))) outOfSync.push('patterns (order or content) differ from keys.json + ui.json');
+const known=new Set(KEYS.exact.map(e=>e.key)), knownT=new Set(KEYS.patterns.map(p=>p.template));
+const unknown=Object.keys(uiEx).filter(k=>!known.has(k)).concat(Object.keys(uiPat).filter(t=>!knownT.has(t)).map(t=>'pattern: '+t));
+Object.keys(ex).filter(k=>!known.has(k)).forEach(k=>outOfSync.push('pack key not in keys.json: '+k));
+if(untranslated.length) fail(untranslated.length+' untranslated key(s): '+JSON.stringify(untranslated.slice(0,25))+(untranslated.length>25?' …':''));
+if(slotBad.length) fail('slot mismatch in '+slotBad.length+' pattern(s):\n  '+slotBad.join('\n  '));
+if(outOfSync.length) fail('pack out of sync with '+UIF+' (run: python3 tools/i18n/gen.py '+LANG+'): '+JSON.stringify(outOfSync.slice(0,10)));
+if(unknown.length) warn(unknown.length+' key(s) in ui.json not in keys.json (ignored by gen.py): '+JSON.stringify(unknown.slice(0,10)));
+if(longW.length) warn(longW.length+' label(s) may overflow small buttons (> 1.6 x English and > 14 chars):\n    '+longW.join('\n    '));
+if(sameW.length) warn(sameW.length+' translation(s) identical to the English key (no distinct script):\n    '+sameW.join('\n    '));
+const nOptEx=KEYS.exact.filter(optional).length;
+console.log('keys.json: exact '+(KEYS.exact.length-untranslated.filter(k=>!k.startsWith('pattern: ')).length)+'/'+KEYS.exact.length+' translated'+(nOptEx?' ('+nOptEx+' optional for '+LANG+')':'')+
+  ' · pattern templates '+doneTpl.size+'/'+nTpl.size+' (positions '+P.patterns.length+'/'+KEYS.patterns.length+') · script '+(distinctScript?'distinct':'Latin (identical-to-English check on)'));
+
 /* sample dynamic renders */
 const samples=['5 cards due','Level 7','Quiz · 3/12 · new 5 + 7 learned · read','12 left · across 3 decks','Mix · 15 cards · passed','Weak spots · 3/24 · pass 1/3 · listen',
  '🛡️ Streak shield earned (1/2). A missed day won\'t break your streak.','Syncing as kii@example.com','80% · 20 tried · streak 3 · best 5','Last 40 reviews · 85% correct · 3s per card · best hour 09:00 (92%)',
  'Practice · quick actions','2/5 · Review','Practice 인사','Resend email (42s)','Due for review · 인사','레벨 업! Level 5 · Talker 수다쟁이 🎉','Flashcard: Excuse me. (익스큐즈 미). Press to flip, arrow keys to answer.'];
 samples.forEach(s=>console.log('  sample: '+s+'  =>  '+t(s)));
+if(!fs.existsSync(__dirname+'/cov.json')) console.log('coverage vs app: skipped (no tools/i18n/cov.json; see docs/PIPELINE.md)');
+else {
 const cov=JSON.parse(fs.readFileSync(__dirname+'/cov.json','utf8'));
 const rep=(name,list)=>{ const miss=list.filter(s=>t(s)===null); console.log(`${name}: ${list.length-miss.length}/${list.length} = ${((list.length-miss.length)/list.length*100).toFixed(1)}%`); return miss; };
 
@@ -67,5 +124,7 @@ console.log(`JS UI coverage: ${ui-mj.length-canvas.length-fragBad.length}/${ui} 
 FRAG_SAMPLES=Object.values(FRAG);
 fs.writeFileSync(__dirname+'/miss.json',JSON.stringify({static:ms,js:mj},null,1));
 console.log('static misses:',JSON.stringify(ms)); console.log('JS unexplained misses: '+JSON.stringify(mj)); for(const s of fragBad) console.log('  frag render untranslated: '+FRAG[s]);
-console.log(`exact=${keys.length} patterns=${P.patterns.length}`); if(!process.exitCode) console.log('VALID ✅');
+}
+warns.forEach(w=>console.log('WARN: '+w));
+console.log(`exact=${keys.length} patterns=${P.patterns.length} warnings=${warns.length}`); console.log(process.exitCode?'FAIL':'PASS');
 if(process.env.SHOW) for(const s of FRAG_SAMPLES) console.log('  '+s+'  =>  '+t(s));
