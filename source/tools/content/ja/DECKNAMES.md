@@ -24,5 +24,7 @@ Separator is the katakana middle dot ・ (U+30FB); parentheses are full-width �
 | 18 | 発音注意 |
 | 19 | 英語イディオム |
 | 20 | 映画・ドラマ・スラング |
+| 21 | カタカナ英語の落とし穴 |
 
 Note: profile §9 also proposes a 21st deck 「カタカナ英語の落とし穴」; it is NOT in this set of 20 (not assigned to JA-CONTENT-A). If the lead adds it, that exact name is reserved.
+Added 2026-11-16: deck 21 「カタカナ英語の落とし穴」 (profile §9, ja-only; appended last in decks.js and in the 「ネイティブらしく」 group). Rows 1–20 are unchanged.

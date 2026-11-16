@@ -337,6 +337,24 @@ break up | BREIK AP | terminar (una relación) | "They broke up last month." Con
 fill out | FIL AUT | llenar (un formulario) | "Please fill out this form." En inglés británico: fill in
 grow up | GROU AP | crecer (de niño) / criarse | "I grew up in Monterrey." (Crecí en Monterrey.)
 wake up | WEIK AP | despertarse | Abrir los ojos es "wake up"; levantarse de la cama es "get up"
+come in | KAM IN | entrar / pasar | Más natural que "enter", que suena formal, de letrero. "Come in!" = ¡Pasa!
+go on | GOU AAN | continuar / pasar (ocurrir) | Más natural que "continue": "Please go on." Y "What's going on?" = ¿Qué pasa?
+put up with | PUT AP widh | aguantar / soportar | Mucho más común que "tolerate": "I can't put up with this noise."
+put out | PUT AUT | apagar (un fuego o un cigarrillo) | Más común que "extinguish". Ojo: la luz no se "put out"; se apaga con "turn off"
+get up | GUET AP | levantarse (de la cama) | "I get up at seven." Despertarse es "wake up"; levantarse es "get up"
+go out | GOU AUT | salir (a divertirse) | "Do you want to go out tonight?" Con una pareja: "go out with" = salir con alguien
+come back | KAM BAK | volver / regresar | Al hablar es más común que "return": "When are you coming back?"
+get on | GUET AAN | subirse (al autobús, al tren o al avión) | Al auto o al taxi se dice "get in". Para bajarse: "get off" (autobús) y "get out of" (auto)
+take off | TEIK OF | quitarse (ropa) / despegar (un avión) | "Please take off your shoes." / "The plane took off late."
+put on | PUT AAN | ponerse (ropa) | "Put on your jacket. It's cold." Con pronombre va en medio: "Put it on." Lo contrario es "take off"
+look up | LUK AP | buscar (en el diccionario o en internet) | "Look it up online." Para algo perdido se usa "look for"
+give back | GUIV BAK | devolver | Con objetos es más común que "return": "Give it back!"
+throw away | THROU e-WEI | tirar (a la basura) | "Don't throw it away!" En Estados Unidos también se dice "throw out"
+sit down | SIT DAUN | sentarse | "Please sit down." Para levantarse de una silla: "stand up"
+end up | END AP | terminar (sin haberlo planeado) | "We ended up at a taco place." (Terminamos en una taquería.)
+run into | RAN IN-tu | encontrarse por casualidad con | "I ran into Carlos at the mall." Para un encuentro sin planear. "into" se escribe junto
+take care of | TEIK KER ev | cuidar / encargarse de | "I'll take care of it." (Yo me encargo.) Para cuidar a alguien también: "look after"
+hurry up | JER-i AP | apurarse / darse prisa | "Hurry up! We're late." Sin "up" es igual de correcto: "Hurry!"
 `,
 "Trampas de pronunciación": `
 ship | SHIP (i corta) | barco / buque | «i» corta y relajada. Si la alargas, dices "sheep" (oveja)
@@ -407,5 +425,112 @@ Are you kidding me? | er iu KI-ding mi? | ¿Me estás tomando el pelo? | Frase t
 I've got your back. | aiv GAAT iur BAK | Cuenta conmigo | Significa que vas a apoyar y defender a la otra persona
 Gotcha. | GAA-che | Entendido / ¡Te atrapé! | Viene de "got you". Lo más común es usarlo para decir que entendiste
 Let's do this! | lets DUU DHIS! | ¡Vamos con todo! | Para darse ánimo antes de empezar algo
+`,
+/* es-only decks (profile §9 "Decks to reweight"): no counterpart in ko-en; parity reasons in deviations.json "decks". Added 2026-11-16. */
+"Palabras esenciales": `
+Did you get my message? | did iu GUET mai ME-sidy? | ¿Te llegó mi mensaje? | "get" = recibir. Es uno de los verbos más usados del inglés hablado: recibir, conseguir, llegar, ponerse… Después de "did", va sin cambios
+I don't get it. | ai DOUNT GUET it | No lo entiendo | "get" también significa «entender» en la conversación. Más informal que "I don't understand"
+I'm getting tired. | aim GUE-ring TAI-erd | Me estoy cansando | "get" + adjetivo = ponerse, volverse: "get tired", "get angry", "get better"
+What time do you get home? | WAT TAIM du iu GUET JOUM? | ¿A qué hora llegas a casa? | "get" + lugar = llegar. Ojo: "get home", sin "to"; pero "get to work", "get to the station"
+It takes 20 minutes. | it TEIKS TWEN-ti MI-nits | Se tarda 20 minutos | "take" + tiempo = tardar. Ojo: el sujeto "it" es obligatorio, y "takes" lleva -s (tercera persona)
+Take your time. | TEIK iur TAIM | Tómate tu tiempo / Sin prisa | "take" sirve para tomar, llevar y tardar. Frase amable para que alguien no se apure
+Where did you put my keys? | WER did iu PUT mai KIIS? | ¿Dónde pusiste mis llaves? | "put" = poner. Es irregular y no cambia en pasado: put, put, put
+Keep going! | KIIP GOU-ing! | ¡Sigue así! / ¡No pares! | "keep" + -ing = seguir haciendo algo. Mucho más común que "continue"
+Can I keep this? | ken ai KIIP DHIS? | ¿Me puedo quedar con esto? | "keep" = quedarse con algo o guardarlo. Como en "Keep the change" (quédese con el cambio)
+That's enough. | dhats i-NAF | Ya basta / Es suficiente | Ojo: "enough" suena «i-NAF»: la "gh" final suena como una «f»
+I don't have enough time. | ai DOUNT jav i-NAF TAIM | No tengo suficiente tiempo | Con sustantivos, "enough" va delante: "enough time", "enough money"
+It's not big enough. | its NAAT BIG i-NAF | No es lo bastante grande | Ojo: con adjetivos, "enough" va detrás: "big enough", nunca "enough big"
+I like it, though. | ai LAIK it, DHOU | Aun así, me gusta | "though" al final de la frase = «aun así, de todos modos». La "gh" no suena: «DHOU»
+Even though it was late, we stayed. | II-ven DHOU it wes LEIT, wi STEID | Aunque era tarde, nos quedamos | "even though" = aunque (algo que sí es cierto). Más enfático que "although"
+I've already eaten. | aiv ol-RE-di II-ten | Ya comí | "already" = ya (antes de lo esperado). Va entre "have" y el participio
+Are you still here? | er iu STIL JIR? | ¿Sigues aquí? | "still" = todavía (algo continúa). Va después de "be" y antes de los demás verbos: "I still live here"
+Not yet. | NAAT IET | Todavía no / Aún no | "yet" va al final. En negativas significa «todavía»: "I haven't finished yet."
+Have you finished yet? | jav iu FI-nisht IET? | ¿Ya terminaste? | En preguntas, "yet" = «ya» y va al final. En Estados Unidos también se oye "Did you finish yet?"
+I'd love to. | aid LAV TUU | Me encantaría | "'d" es "would", el condicional: «me encantaría». Respuesta típica a una invitación
+Would you like some tea? | wud iu LAIK sem TII? | ¿Quieres un poco de té? | "Would you like…?" ofrece algo con cortesía. Ojo: "Do you like…?" pregunta si te gusta
+Let me help you. | LET mi JELP iu | Déjame ayudarte | "let" + persona + verbo sin "to" = dejar, permitir: "Let me see", "Let me know"
+Can you bring me the menu? | ken iu BRING mi dhe ME-niu? | ¿Me traes el menú? | "bring" = traer (hacia aquí); "take" = llevar (hacia allá). Pasado: "brought"
+I almost forgot. | ai OL-moust fer-GAAT | Casi se me olvida | "almost" = casi. Va antes del verbo: "I almost missed the bus."
+Anyway, let's go. | E-ni-wei, lets GOU | En fin, vámonos | "anyway" = en fin, de todos modos. Sirve para cerrar un tema y pasar a otra cosa
+`,
+"Falsos amigos": `
+actually | AK-chu-e-li | en realidad / de hecho | Ojo: no es «actualmente», que se dice "currently". "Actually, I'm from Lima." = En realidad, soy de Lima
+currently | KER-ent-li | actualmente / en este momento | La palabra correcta para «actualmente»: "I'm currently looking for a job."
+embarrassed | im-BE-rest | avergonzado / avergonzada | Ojo: «embarazada» es "pregnant". "I'm so embarrassed!" = ¡Qué vergüenza!
+pregnant | PREG-nent | embarazada | La palabra correcta para «embarazada». Si dices "embarrassed", dirás que te da vergüenza
+library | LAI-bre-ri | biblioteca | Ojo: «librería» es "bookstore". En la "library" se piden libros prestados
+bookstore | BUK-stor | librería (tienda de libros) | La palabra correcta para «librería». En inglés británico: bookshop
+attend | e-TEND | asistir a (clase, una reunión) | Ojo: va sin "to": "attend a meeting", no "attend to a meeting". Y "assist" significa «ayudar»
+assist | e-SIST | ayudar (formal) | Ojo: no es «asistir a», que se dice "attend". En la conversación diaria se dice "help"
+realize | RII-e-lais | darse cuenta | Ojo: casi nunca es «realizar» (eso es "carry out" o "do"). "I didn't realize." = No me di cuenta. Solo coincide en "realize a dream" (cumplir un sueño)
+sensible | SEN-si-bel | sensato / sensata | Ojo: «sensible» se dice "sensitive". "That's a sensible idea." = Es una idea sensata
+career | ke-RIR | trayectoria profesional | Ojo: la «carrera» que estudias es tu "major" o tu "degree". "career" es tu vida laboral: "a career in marketing"
+college | KAA-lidy | universidad | Ojo: no es «colegio», que se dice "school". En Estados Unidos, "college" es la universidad: "She's in college."
+exit | EG-sit | salida | Ojo: no es «éxito», que se dice "success". En los letreros: EXIT
+success | sek-SES | éxito | La palabra correcta para «éxito»: "The party was a success." La "cc" suena «ks»
+carpet | KAAR-pet | alfombra | Ojo: «carpeta» es "folder". "carpet" suele cubrir todo el piso; una alfombra pequeña es "rug"
+constipated | KAAN-sti-pei-rid | estreñido / estreñida | Ojo: no es «constipado» (resfriado). Para un resfriado se dice "I have a cold."
+pretend | pri-TEND | fingir | Ojo: «pretender» (aspirar a, intentar) es "intend" o "try". "He's pretending to sleep." = Está fingiendo que duerme
+eventually | i-VEN-chu-e-li | al final / con el tiempo | Ojo: no es «eventualmente» (posiblemente, de vez en cuando). "Eventually, she found a job."
+bother | BAA-dher | molestar / fastidiar | Para «molestar» usa "bother": "Sorry to bother you." Ojo: "molest" significa abusar sexualmente de alguien; nunca lo uses por «molestar»
+parents | PER-ents | padres (papá y mamá) | Ojo: no es «parientes», que se dice "relatives". "My parents live in Bogotá."
+discuss | di-SKAS | hablar de / tratar (un tema) | Ojo: "discuss" nunca es pelear; «discutir» en ese sentido es "argue". Y va sin "about": "discuss the plan"
+support | se-PORT | apoyar / respaldar | Ojo: «soportar» (aguantar) no es "support", sino "put up with" o "stand": "I can't stand the noise."
+introduce | in-tre-DUUS | presentar (a una persona) | Ojo: «introducir» (meter) es "put in" o "insert". "Let me introduce you to my sister."
+`,
+"Make y do": `
+make a mistake | MEIK e mi-STEIK | cometer un error | Ojo: nunca "do a mistake". Varios errores: "make mistakes"
+make a decision | MEIK e di-SI-shen | tomar una decisión | Ojo: la decisión se "make", no se "take" (en inglés británico también se oye "take a decision")
+make money | MEIK MA-ni | ganar dinero | Ojo: no es "win money", que es ganar en un juego o un sorteo. También: "earn money"
+make friends | MEIK FRENDS | hacer amigos | "She makes friends easily." Igual que en español, pero con "make"
+make an appointment | MEIK en e-POINT-ment | pedir una cita (médico, dentista) | Una cita romántica es "a date". Ojo: "appointment" se escribe con dos "p"
+make a phone call | MEIK e FOUN KOL | hacer una llamada | Más corto: "make a call". Llamar a alguien: "call someone"
+make the bed | MEIK dhe BED | tender la cama / hacer la cama | Ojo: es "make", aunque la cama no se fabrique. Es una combinación fija: memorízala entera
+make sure | MEIK SHUR | asegurarse | "Make sure you lock the door." = Asegúrate de cerrar con llave
+make an effort | MEIK en E-fert | hacer un esfuerzo / esforzarse | "He's making an effort to speak English."
+make noise | MEIK NOIS | hacer ruido | "Don't make so much noise!" Aquí "noise" es incontable: va sin "a"
+make plans | MEIK PLANS | hacer planes | "Let's make plans for Saturday." Los planes se crean, así que van con "make"
+do homework | DUU JOUM-werk | hacer la tarea | Ojo: "do", no "make". Y "homework" es incontable: "do my homework", nunca "homeworks"
+do the dishes | DUU dhe DI-shis | lavar los platos | Las tareas de la casa van con "do". También: "wash the dishes"
+do the laundry | DUU dhe LON-dri | lavar la ropa | Otra tarea de la casa, así que "do". "laundry" es también la ropa sucia
+do exercise | DUU EK-ser-sais | hacer ejercicio | Aún más común: el verbo solo, "exercise", o "work out": "I work out every day."
+do someone a favor | DUU SAM-wan e FEI-ver | hacerle un favor a alguien | "Can you do me a favor?" = ¿Me haces un favor? En inglés británico se escribe "favour"
+do your best | DUU iur BEST | dar lo mejor de ti | "Don't worry, just do your best."
+do business | DUU BIS-nes | hacer negocios | "We do business in Mexico." "business" tiene solo dos sílabas: BIS-nes
+do the shopping | DUU dhe SHAA-ping | hacer las compras | Para la compra de la semana. Ir de compras por gusto: "go shopping"
+do a good job | DUU e GUD DYAAB | hacer un buen trabajo | "You did a good job!" Ojo: aquí "job" es la tarea, no el empleo
+`,
+"Incontables": `
+Can I give you some advice? | ken ai GUIV iu sem ed-VAIS? | ¿Te puedo dar un consejo? | Ojo: "advice" es incontable: nunca "an advice" ni "advices". Se dice "some advice" o "a piece of advice"
+a piece of advice | e PIIS ev ed-VAIS | un consejo | Para contar un incontable: "a piece of" + sustantivo. Dos consejos: "two pieces of advice"
+I need some information. | ai NIID sem in-fer-MEI-shen | Necesito información | Sin -s y sin "an": "some information", "a lot of information". Nunca "informations"
+The news is good. | dhe NUUS is GUD | Las noticias son buenas | Ojo: "news" termina en -s pero lleva el verbo en singular: "is", no "are". Una noticia: "a piece of news"
+We need new furniture. | wi NIID NUU FER-ni-cher | Necesitamos muebles nuevos | "furniture" es incontable: nunca "furnitures". Un mueble: "a piece of furniture"
+I have a lot of homework. | ai jav e LAAT ev JOUM-werk | Tengo mucha tarea | Ojo: "homework" no lleva -s ni "a". Una tarea concreta es "an assignment"
+How much luggage do you have? | JAU MACH LA-guidy du iu JAV? | ¿Cuánto equipaje llevas? | Con incontables se pregunta "How much", no "How many". Una maleta: "a suitcase" o "a bag"
+My hair is long. | mai JER is LONG | Tengo el pelo largo | Ojo: "hair" (el pelo) es singular: "my hair is", no "my hairs are". "hairs" son pelos sueltos
+The traffic is terrible. | dhe TRA-fik is TE-re-bel | El tráfico está horrible | "traffic" es incontable: "a lot of traffic", nunca "a traffic" ni "traffics"
+Money isn't everything. | MA-ni I-sent EV-ri-thing | El dinero no lo es todo | "money" es incontable y lleva el verbo en singular: "money is". Va sin "the" porque es general
+I made a lot of progress. | ai MEID e LAAT ev PRAA-gres | Avancé mucho | "progress" es incontable: nunca "progresses" ni "a progress"
+We had a lot of fun. | wi jad e LAAT ev FAN | Nos divertimos mucho | "fun" es incontable: "a lot of fun", nunca "a fun" ni "funs". Ojo: "fun" (divertido) no es "funny" (gracioso)
+Can I get some bread? | ken ai GUET sem BRED? | ¿Me trae pan, por favor? | "bread" es incontable: "some bread". Una barra: "a loaf of bread"; una rebanada: "a slice of bread"
+What nice weather! | WAT NAIS WE-dher! | ¡Qué buen tiempo hace! | Ojo: sin "a": "What nice weather!", no "What a nice weather!". "weather" es incontable
+I have a lot of work today. | ai jav e LAAT ev WERK te-DEI | Hoy tengo mucho trabajo | "work" (el trabajo que haces) es incontable. Un empleo es "a job": "I have a new job."
+`,
+"Cognados y acento": `
+information | in-fer-MEI-shen | información | -tion = -ción. Ojo: el acento va en "MEI", no al final como en «información». Y "-tion" suena «shen»
+conversation | kaan-ver-SEI-shen | conversación | -tion = -ción. Ojo: el acento va en "SEI", la penúltima sílaba, no al final
+university | iu-ni-VER-si-ri | universidad | -ty = -dad. Ojo: el acento va en "VER", no al final. Empieza con sonido «iu»: "a university", no "an university"
+opportunity | aa-per-TUU-ni-ri | oportunidad | -ty = -dad. Ojo: el acento va en "TUU", no al final. La "t" de "-ty" suena casi como una «r» suave
+famous | FEI-mes | famoso / famosa | -ous = -oso. Ojo: el acento va al principio, en "FEI", y "-ous" suena «es»
+delicious | di-LI-shes | delicioso / deliciosa | -ous = -oso. El acento cae en la misma sílaba que en español, pero "-cious" suena «shes»
+probably | PRAA-be-bli | probablemente | -ly = -mente. Ojo: el acento va al principio, en "PRAA"; en español va en «men»
+exactly | ig-SAKT-li | exactamente | -ly = -mente. La "x" suena «gs» y el acento va en "SAKT"
+different | DI-frent | diferente / distinto | -ent = -ente. Ojo: el acento va al principio y se dicen solo dos sílabas: «DI-frent». Se dice "different from", no "different of"
+excellent | EK-se-lent | excelente | -ent = -ente. Ojo: el acento va al principio, en "EK", no en «len»
+photograph | FOU-re-graf | fotografía / foto | ph = f. Ojo: el acento va en "FOU". El fotógrafo es "photographer", con otro acento: «fe-TAA-gre-fer»
+pharmacy | FAAR-me-si | farmacia | ph = f. Ojo: el acento va en "FAAR", no en «ma». En Estados Unidos también se dice "drugstore"
+chemistry | KE-mis-tri | química | ch = qu: aquí la "ch" suena «k». Ojo: el acento va al principio, en "KE"
+comfortable | KAMF-ter-bel | cómodo / cómoda | Ojo: no se dice «com-for-TA-ble». El acento va al principio y suena en tres sílabas: «KAMF-ter-bel»
 `
 };

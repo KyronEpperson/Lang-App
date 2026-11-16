@@ -14,4 +14,18 @@ for s in scripts:
     f=tempfile.NamedTemporaryFile('w',suffix='.js',delete=False,encoding='utf8'); f.write(s); f.close()
     r=subprocess.run(['node','--check',f.name],capture_output=True,text=True); os.unlink(f.name)
     if r.returncode: print('SCRIPT SYNTAX ERROR:',r.stderr[-300:]); ok=False
+m=re.search(r'var M=(\{.*?\});window\.LANGAPP_MANIFEST=M;',html)
+if not m: print('PACK MANIFEST missing from index.html'); ok=False
+else:
+    man=json.loads(m.group(1).replace('<\\/','</')); files=[c['file'] for c in man['courses'].values()]+list(man['i18n'].values())
+    for f in files:
+        fp=os.path.join(d,f)
+        if not os.path.exists(fp): print('PACK FILE MISSING:',f); ok=False; continue
+        r=subprocess.run(['node','--check',fp],capture_output=True,text=True)
+        if r.returncode: print('PACK SYNTAX ERROR:',f,r.stderr[-200:]); ok=False
+    extra=set(os.listdir(os.path.join(d,'packs')))-{f.split('/')[-1] for f in files}
+    if extra: print('STALE PACK FILES:',sorted(extra)); ok=False
+    swp=open(os.path.join(d,'sw.js')).read()
+    for f in files:
+        if f not in swp: print('sw.js pack map lacks',f); ok=False
 print('verify_build: OK' if ok else 'verify_build: FAILED'); sys.exit(0 if ok else 1)

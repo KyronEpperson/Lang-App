@@ -48,7 +48,14 @@
     "14": "Profile §9: reservation \"under Kim\" → \"under Garcia\".",
     "15": "Profile §9: \"the Korean embassy\" → \"my embassy\" (works for every Spanish-speaking country).",
     "17": "Profile §8 (pron: replace Korean traps with Spanish ones) and §4.16: the R/L and F/P pairs rice/lice, right/light, fan/pan, coffee/copy are replaced in place by ship/sheep (/iː/–/ɪ/), shoes/choose (/ʃ/–/tʃ/), yet/jet (/j/–/dʒ/), school (no prothetic e) and worked (-ed as /t/); th, b/v, vowel-length, stress and final-consonant cards are kept.",
-    "19": "Profile §9 (replace K-pop references): \"Who's your bias?\" (K-pop fandom term) → \"Who's your favorite character?\"."
+    "19": "Profile §9 (replace K-pop references): \"Who's your bias?\" (K-pop fandom term) → \"Who's your favorite character?\".",
+    "16": "Profile §9 \"Decks to reweight\" item 2 and §4.14 (phrasal-verb avoidance): es-only cards appended after the 24 shared ones (come in, go on, put up with, put out, get up, go out, come back, get on, take off, put on, look up, give back, throw away, sit down, end up, run into, take care of, hurry up), several as the informal alternative to a Latinate cognate (enter, continue, tolerate, extinguish, return); the shared cards are unchanged and in their original order.",
+    "20": "Profile §9 \"Decks to reweight\" (es-only deck, no ko-en counterpart; added 2026-11-16): «Palabras esenciales», the high-frequency non-cognate Germanic core (get, take, put, keep, enough, though, already, still, yet, would, let, bring, almost, anyway) in short example phrases (§5 implications, §9 item 1).",
+    "21": "Profile §9 \"Decks to reweight\" (es-only deck, no ko-en counterpart; added 2026-11-16): «Falsos amigos», linked to the es-only lesson false-friends (§4.8, §8, §9 item 3); partial cognates (realize, discuss, support) carry «Ojo:» notes.",
+    "22": "Profile §9 \"Decks to reweight\" (es-only deck, no ko-en counterpart; added 2026-11-16): «Make y do», make/do collocations (both «hacer»; §4.12, §9 item 4), backing the es-only lesson make-do.",
+    "23": "Profile §9 \"Decks to reweight\" (es-only deck, no ko-en counterpart; added 2026-11-16): «Incontables», Spanish-countable / English-uncountable nouns (advice, information, news, furniture, homework, luggage…) in phrases that show the grammar (§4.10, §9 item 5).",
+    "24": "Profile §9 \"Decks to reweight\" (es-only deck, no ko-en counterpart; added 2026-11-16): «Cognados y acento», the regular cognate correspondences -tion/-ción, -ty/-dad, -ous/-oso, -ly/-mente, -ent/-ente, ph/f, ch/qu with stress-marked pron and «Ojo:» notes where English stress differs (§5, §9 cognate strategy).",
+    "count": "Profile §9 \"Decks to reweight\": five es-only decks appended after the 20 shared ones (indices 20-24: Palabras esenciales, Falsos amigos, Make y do, Incontables, Cognados y acento); the 20 shared decks keep their positions."
   },
   "extraLessons": [
     "false-friends",

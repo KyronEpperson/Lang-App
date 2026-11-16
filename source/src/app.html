@@ -342,7 +342,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-left:0;padding-right:
 .langhome{background:radial-gradient(130% 55% at 50% -12%,var(--accent-soft),transparent 62%),var(--bg)}
 .langhome .wbox{max-width:460px;gap:14px}
 .langhome .lh-top{display:flex;justify-content:space-between;align-items:center;min-height:38px}
-.langhome .lh-brand{font:700 .78rem var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.lh-row.busy{opacity:.55;cursor:progress}.langhome .lh-brand{font:700 .78rem var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
 .langhome .lh-q{font:800 1.6rem/1.2 var(--display);margin:0;color:var(--ink)}
 .langhome .lh-sub{font:500 1rem/1.45 var(--display);color:var(--muted);margin:6px 0 0}
 .langhome .lh-list{display:grid;gap:10px}
@@ -531,7 +531,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-left:0;padding-right:
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.9.2 · 2026-11-16';
+const APP_VERSION='2.10.0 · 2026-11-16';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -547,7 +547,7 @@ const APP_VERSION='2.9.2 · 2026-11-16';
 //   SYNC        account sync + merge
 // ============================================================
 // ===================== DATA =====================
-window.LANGAPP_PACKS={course:{},i18n:{}}; /* filled by packs/*.js at build time */
+window.LANGAPP_PACKS=window.LANGAPP_PACKS||{}; LANGAPP_PACKS.course=LANGAPP_PACKS.course||{}; LANGAPP_PACKS.i18n=LANGAPP_PACKS.i18n||{}; /* filled by packs/*.js: inlined below (single-file build) or loaded as files listed in LANGAPP_MANIFEST (site build) */
 /*__PACKS__*/
 let DECKS = {
   "Hangul vowels":[["ㅏ","a","a as in father","Vertical stroke, tick to the right."],["ㅓ","eo","uh as in up","Tick to the left. Not 'oh'."],["ㅗ","o","o as in go","Horizontal, tick up."],["ㅜ","u","oo as in moon","Horizontal, tick down."],["ㅡ","eu","like the vowel in 'book' with lips flat","No English match; smile and say 'oo'."],["ㅣ","i","ee as in see","Single vertical stroke."],["ㅐ","ae","e as in bed (open; same sound as ㅔ today)","Modern Korean: sounds same as ㅔ."],["ㅔ","e","e as in bed","Same sound as ㅐ in speech."],["ㅑ","ya","ya","ㅏ with an extra tick = y-glide."],["ㅕ","yeo","yuh","ㅓ + y."],["ㅛ","yo","yo","ㅗ + y."],["ㅠ","yu","yoo","ㅜ + y."]],
@@ -1096,6 +1096,21 @@ function globalsOf(s){ const g={}; GLOBAL_KEYS.forEach(k=>{ if(s&&s[k]!==undefin
 function overlayPrefs(){ const p=META.prefs||{}; GLOBAL_KEYS.forEach(k=>{ if(p[k]!==undefined) S[k]=p[k]; }); }
 function validCourse(id,c){ return !!(c&&typeof c==='object'&&c.id===id&&/^[a-z]{2}-[a-z]{2}$/.test(id)&&LANGS[c.native]&&LANGS[c.target]&&c.DECKS&&typeof c.DECKS==='object'&&Object.keys(c.DECKS).length&&Array.isArray(c.GROUPS)); }
 let TOUR_READ=null, QUICK_READ_ALL=null;
+/* ---- on-demand packs (site build). LANGAPP_MANIFEST={courses:{id:{id,native,target,name,file}},i18n:{lang:file}} is set by the site's loader script; the single-file build has no manifest and every pack inline, so these all resolve at once. ---- */
+function packMan(){ const m=window.LANGAPP_MANIFEST; return m&&typeof m==='object'?m:null; }
+function courseStubs(){ const m=packMan(), out={}; if(m&&m.courses) Object.keys(m.courses).forEach(id=>{ const c=m.courses[id]; if(c&&c.id===id&&/^[a-z]{2}-[a-z]{2}$/.test(id)&&LANGS[c.native]&&LANGS[c.target]&&typeof c.file==='string') out[id]=c; }); Object.keys(COURSES).forEach(id=>{ out[id]=COURSES[id]; }); return out; }
+function knownCourse(id){ return !!(COURSES[id]||courseStubs()[id]); }
+const PACK_P={};
+function loadPack(file){ if(!/^packs\/[a-z0-9.-]+\.js$/.test(file)) return Promise.resolve(false); if(PACK_P[file]) return PACK_P[file]; return PACK_P[file]=new Promise(res=>{ const el=document.createElement('script'); el.src=file; el.onload=()=>res(true); el.onerror=()=>{ delete PACK_P[file]; el.remove(); res(false); }; document.head.appendChild(el); }); }
+function i18nReady(l){ if(!l||l==='en') return true; if(LANGAPP_PACKS.i18n[l]) return true; const m=packMan(); return !(m&&m.i18n&&m.i18n[l]); }
+function ensureI18n(l){ if(i18nReady(l)) return Promise.resolve(true); return loadPack(packMan().i18n[l]).then(()=>!!LANGAPP_PACKS.i18n[l]); }
+function ensureCourse(id){ if(COURSES[id]) return ensureI18n(COURSES[id].native).then(()=>true); const st=courseStubs()[id]; if(!st) return Promise.resolve(false);
+  return Promise.all([loadPack(st.file),ensureI18n(st.native)]).then(()=>{ const P=LANGAPP_PACKS.course[id]; try{ if(!COURSES[id]&&validCourse(id,P)) COURSES[id]=P; }catch(e){} return !!COURSES[id]; }); }
+/* the saved course could not be loaded at boot (offline and not cached): block the app so the built-in course is never used in its place, and retry */
+function packFail(){ if(document.getElementById('packFail')) return; const w=document.createElement('div'); w.className='welcome'; w.id='packFail'; w.setAttribute('role','alertdialog'); w.setAttribute('aria-modal','true'); w.setAttribute('data-noi18n','');
+  w.innerHTML='<div class="wbox"><div><h1>'+LOGO_SVG+'Lang App</h1><p class="stat" style="margin:8px 0 0">Your course could not be loaded. Check your connection and try again. Your progress is safe on this device.</p></div><button class="choice" id="packRetry" type="button"><b>↻ Try again</b></button></div>';
+  document.body.appendChild(w); const go=()=>{ ensureCourse(META.course).then(ok=>{ if(!ok) return; window.removeEventListener('online',go); w.remove(); applyCourse(META.course,{keepGlobals:true}); }); }; w.querySelector('#packRetry').onclick=go; window.addEventListener('online',go); }
+function packBootCheck(){ if(META.picked&&META.course!==COURSE.id&&knownCourse(META.course)){ packFail(); return false; } return true; }
 function registerCourses(){
   COURSES['en-ko']=Object.assign(COURSE,{DECKS,GROUPS,TAGS,DESC,DIALOG,EXAMPLES,LESSONS,CHECKS,PATTERNS,PAIRS,GOALS,PLAN_PRESETS,TITLES,PAUSE:{sets:PAUSE_SETS,idioms:IDIOMS},introWord:'한글',builtin:true,_rt:{DECKS,GROUPS,PATH,names}});
   const P=(window.LANGAPP_PACKS&&window.LANGAPP_PACKS.course)||{}; Object.keys(P).forEach(id=>{ if(id==='en-ko') return; try{ if(validCourse(id,P[id])) COURSES[id]=P[id]; else console.warn('Lang App: course pack "'+id+'" ignored (invalid shape)'); }catch(e){} });
@@ -1135,7 +1150,7 @@ function resetCourseRuntime(){ memoClear(); hydrateCustom(); applyIntervals(); S
 function applyCourse(id,opts){ opts=opts||{}; const c=COURSES[id]; if(!c) return false; const switching=COURSE.id!==id; let g=null;
   if(switching){ if(cleanup){ try{ cleanup(); }catch(e){} cleanup=null; } sess=null; flushSaveNow(); g=globalsOf(S); }
   COURSE=c; META.course=id; META.native=c.native; META.picked=1; saveMeta(); setI18n(); setCourseTables(c);
-  if(switching){ load(); Object.assign(S,g); resetCourseRuntime(); flushSaveNow(); }
+  if(switching){ load(); if(!opts.keepGlobals) Object.assign(S,g); resetCourseRuntime(); flushSaveNow(); }
   applyCourseUi(); applyLang(); hdr(); if(!opts.noRoute) route(); if(switching) syncPush(); return true; }
 /* ---- interface language ---- */
 function setI18n(){ const n=COURSE.native; const p=n&&n!=='en'&&window.LANGAPP_PACKS&&LANGAPP_PACKS.i18n&&LANGAPP_PACKS.i18n[n]; I18N_CACHE=new Map();
@@ -1187,7 +1202,7 @@ function applyCourseUi(){ const sc=CF('script'), bi=!!COURSE.builtin, tn=langNam
 function renderCourseRow(){ const cr=$('courseRow'); if(!cr) return; const n=LANGS[COURSE.native]||LANGS.en, g=LANGS[COURSE.target]||LANGS.ko;
   cr.innerHTML=`<span class="stat" style="font-size:.9rem;color:var(--ink)">🌐 <span>Course</span> · <span data-noi18n>${n.flag} ${n.self} → ${g.flag} ${escT(langName(COURSE.target,COURSE.native==='ko'?'ko':uiLang()))}</span></span><button class="ghost" id="courseChg" type="button">Change course</button>`; $('courseChg').onclick=()=>showLangHome({step:2,closable:true}); }
 /* ---- language home: native → target, locked "Coming soon" lists ---- */
-function liveNatives(){ const s=new Set(Object.values(COURSES).map(c=>c&&c.native)); return NATIVE_LIVE.filter(n=>s.has(n)).concat(Object.keys(LANGS).filter(n=>s.has(n)&&!NATIVE_LIVE.includes(n))); }
+function liveNatives(){ const s=new Set(Object.values(courseStubs()).map(c=>c&&c.native)); return NATIVE_LIVE.filter(n=>s.has(n)).concat(Object.keys(LANGS).filter(n=>s.has(n)&&!NATIVE_LIVE.includes(n))); }
 function roadmapOf(code){ const R=window.LANGAPP_PACKS&&LANGAPP_PACKS.roadmaps; return (R&&R[code])||null; }
 function roadmapItems(code){ const r=roadmapOf(code); return r?r.stages.reduce((a,st)=>a.concat(st.items),[]):[]; }
 /* roadmap items for the active course's target language that no live lesson covers yet (placeholders; never part of LESSONS or the unlock chain) */
@@ -1211,18 +1226,18 @@ function showLangHome(opts){ opts=opts||{}; closeSheet(); const old=$('langHome'
     w.innerHTML=`<div class="wbox"><div class="lh-top"><span class="lh-brand">${LOGO_SVG}Lang App</span>${xBtn()}</div><div><h1 class="lh-q">What language do you speak?</h1>${preLine('What language do you speak?','어떤 언어를 사용하세요?','<p class="lh-sub" lang="%L">','</p>')}</div>
       <div class="lh-list" role="list">${live.map(k=>`<div role="listitem"><button class="lh-row" type="button" data-native="${k}" lang="${k}"><span class="lh-flag" aria-hidden="true">${LANGS[k].flag}</span><span class="lh-name"><b>${LANGS[k].self}</b></span><span class="lh-go" aria-hidden="true">›</span></button></div>`).join('')}</div>
       ${soon.length?`<p class="lh-soon">🔒 ${escT(preBi('Coming soon','출시 예정'))}</p><div class="lh-locked" role="list" aria-label="${escT(preBi('Coming soon','출시 예정'))}">${soon.map(k=>lock(LANGS[k].flag,LANGS[k].self,soonT(k))).join('')}</div>`:''}</div>`; focus(); };
-  const step2=n=>{ native=n; const tr=(en,k)=>escT(LLin(n,en,k)); const live=Object.values(COURSES).filter(c=>c.native===n); const lt=live.map(c=>c.target); const soon=Object.keys(LANGS).filter(k=>k!==n&&!lt.includes(k));
+  const step2=n=>{ native=n; const tr=(en,k)=>escT(LLin(n,en,k)); const live=Object.values(courseStubs()).filter(c=>c.native===n); const lt=live.map(c=>c.target); const soon=Object.keys(LANGS).filter(k=>k!==n&&!lt.includes(k));
     w.innerHTML=`<div class="wbox" lang="${n}"><div class="lh-top"><button class="ghost lh-back" type="button">${tr('← Back','← 뒤로')}</button>${xBtn(n)}</div><div><h1 class="lh-q">${tr('What do you want to learn?','무엇을 배우고 싶으세요?')}</h1></div>
-      <div class="lh-list" role="list">${live.map(c=>{ const cur=META.picked&&c.id===COURSE.id; const rt=courseRT(c); const nd=rt.names.filter(d=>d!==MYDECK).length, nc=rt.names.reduce((s,d)=>s+rt.DECKS[d].length,0), nl=(c.LESSONS||[]).length;
+      <div class="lh-list" role="list">${live.map(c=>{ const cur=META.picked&&c.id===COURSE.id;
         return `<div role="listitem"><button class="lh-row${cur?' on':''}" type="button" data-course="${c.id}"><span class="lh-flag" aria-hidden="true">${LANGS[c.target].flag}</span><span class="lh-name"><b>${escT((c.name&&c.name[n])||langName(c.target,n))}</b>${cur?`<span>${tr('Current course','현재 코스')}</span>`:''}</span><span class="lh-go" aria-hidden="true">›</span></button></div>`; }).join('')}</div>
       ${soon.length?`<p class="lh-soon">🔒 ${tr('Coming soon · tap to preview','출시 예정 · 눌러서 미리 보기')}</p><div class="lh-locked" role="list" aria-label="${tr('Coming soon','출시 예정')}">${soon.map(k=>lock(LANGS[k].flag,langName(k,n),tr('Coming soon','출시 예정'),k)).join('')}</div>`:''}</div>`; focus(); };
   const onKey=e=>{ if(e.key==='Escape'&&opts.closable&&document.getElementById('langHome')===w) close(); };
   w.addEventListener('click',e=>{ const rd=e.target.closest('[data-road]'); if(rd&&native){ step3(rd.dataset.road,native); return; } const b2=e.target.closest('.lh-back2'); if(b2){ step2(native); return; } const lk=e.target.closest('.lh-lock'); if(lk){ const ln=lk.dataset.ln||''; toast(native==='ko'?ln+' · 출시 예정':native==='en'?ln+' · coming soon':native?ln+' · '+LLin(native,'Coming soon'):soonT2(ln)); return; } const b=e.target.closest('button'); if(!b) return;
     if(b.classList.contains('lh-x')){ close(); return; } if(b.classList.contains('lh-back')){ step1(); return; }
-    if(b.dataset.native){ step2(b.dataset.native); return; }
-    if(b.dataset.course){ const id=b.dataset.course, was=COURSE.id, first=!META.picked; close(); if(id!==was||first) applyCourse(id,{noRoute:true}); if(location.hash!=='#today') location.hash='#today'; else route(); if(!first&&id!==was) toast(LL('Now learning '+tgtName()+' · progress saved per course',tgtName()+' 코스로 바꿨어요 · 진도는 코스별로 저장돼요')); } });
+    if(b.dataset.native){ const nn=b.dataset.native; if(i18nReady(nn)) step2(nn); else { b.disabled=true; b.classList.add('busy'); ensureI18n(nn).then(()=>{ if(document.getElementById('langHome')===w) step2(nn); }); } return; }
+    if(b.dataset.course){ const id=b.dataset.course, was=COURSE.id, first=!META.picked; if(!COURSES[id]){ b.disabled=true; b.classList.add('busy'); ensureCourse(id).then(ok=>{ b.disabled=false; b.classList.remove('busy'); if(document.getElementById('langHome')!==w) return; if(ok) b.click(); else toast(native&&native!=='en'&&native!=='ko'?LLin(native,'Could not load. Check your connection.'):preBi('Could not load. Check your connection.','불러오지 못했어요. 연결을 확인해 주세요.')); }); return; } close(); if(id!==was||first) applyCourse(id,{noRoute:true}); if(location.hash!=='#today') location.hash='#today'; else route(); if(!first&&id!==was) toast(LL('Now learning '+tgtName()+' · progress saved per course',tgtName()+' 코스로 바꿨어요 · 진도는 코스별로 저장돼요')); } });
   document.addEventListener('keydown',onKey);
-  if(opts.step===2&&META.native&&liveNatives().includes(META.native)) step2(META.native); else step1(); document.body.appendChild(w); }
+  if(opts.step===2&&META.native&&liveNatives().includes(META.native)&&i18nReady(META.native)) step2(META.native); else step1(); document.body.appendChild(w); }
 /* ---- sync shape: en-ko at the top level (old clients keep working) + _courses:{id:state} + _meta:{native,course} ---- */
 function storedCourseStates(){ const out={}; try{ for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(/^la-s-[a-z]{2}-[a-z]{2}$/.test(k||'')){ const v=JSON.parse(localStorage.getItem(k)||'null'); if(v&&typeof v==='object') out[k.slice(5)]=v; } } }catch(e){} return out; }
 function stripSync(s){ const o=JSON.parse(JSON.stringify(s||{})); delete o._courses; delete o._meta; return o; }
@@ -1238,8 +1253,9 @@ function applyRemoteRow(remote){ if(!remote||typeof remote!=='object') return fa
     else { let loc=null; try{ loc=JSON.parse(localStorage.getItem(stateKey(id))||'null'); }catch(e){} const merged=(loc&&typeof loc==='object')?mergeState(sanitizeState(Object.assign(fresh(),loc)),rs):sanitizeState(Object.assign(fresh(),rs)); try{ localStorage.setItem(stateKey(id),JSON.stringify(merged)); }catch(e){} } };
   one('en-ko',remote); Object.keys(rc).forEach(id=>{ if(id!=='en-ko') one(id,rc[id]); });
   if(changed){ memoClear(); hydrateCustom(); applyIntervals(); }
-  if(!META.picked){ const hasProg=!!(remote.xp||Object.keys(remote.cards||{}).length); const want=rm&&COURSES[rm.course]?rm.course:(hasProg?'en-ko':null);
-    if(want){ META.seenHome=1; const lh=$('langHome'); if(lh) lh.remove(); if(want===COURSE.id){ META.native=COURSE.native; META.picked=1; saveMeta(); setI18n(); applyCourseUi(); applyLang(); } else applyCourse(want,{noRoute:true}); changed=true; } }
+  if(!META.picked){ const hasProg=!!(remote.xp||Object.keys(remote.cards||{}).length); const want=rm&&knownCourse(rm.course)?rm.course:(hasProg?'en-ko':null);
+    const take=()=>{ META.seenHome=1; const lh=$('langHome'); if(lh) lh.remove(); if(want===COURSE.id){ META.native=COURSE.native; META.picked=1; saveMeta(); setI18n(); applyCourseUi(); applyLang(); } else applyCourse(want,{noRoute:true}); };
+    if(want&&COURSES[want]){ take(); changed=true; } else if(want){ ensureCourse(want).then(ok=>{ if(ok&&!META.picked){ take(); hdr(); route(); } }); } }
   if(changed){ hdr(); route(); }
   if(stableStr(syncPayload())!==stableStr(remote)) syncPush(); return changed; }
 /* key-order-independent JSON (Postgres jsonb reorders keys, so a plain stringify compare would re-push on every pull) */
@@ -2705,7 +2721,7 @@ function armIdle(){ clearTimeout(idleT); clearTimeout(idleW); if(!FX3D.state().i
 ['pointerdown','keydown','wheel','touchstart','input'].forEach(ev=>addEventListener(ev,armIdle,{passive:true,capture:true})); document.addEventListener('visibilitychange',armIdle); armIdle();
 // ===================== BOOT =====================
 function hydrateCustom(){ S.custom=sanitizeState({custom:S.custom}).custom; DECKS[MYDECK].length=0; (S.custom||[]).forEach(c=>DECKS[MYDECK].push(c)); }
-registerCourses(); initMeta(); bootCourse(); if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyCourseUi(); applyLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); S.listenFirst=false; S.confMode=false; S.autoFlip=0; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); else if(S.welcomed) askPersist(); } $('courseBtn').onclick=()=>showLangHome({step:2,closable:true}); maybeLangHome();
+registerCourses(); initMeta(); bootCourse(); if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyCourseUi(); applyLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); S.listenFirst=false; S.confMode=false; S.autoFlip=0; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); else if(S.welcomed) askPersist(); } $('courseBtn').onclick=()=>showLangHome({step:2,closable:true}); maybeLangHome(); packBootCheck();
 if(!document.getElementById('welcome')){ playIntro(false); } /* full intro on every page load (tap to skip; off via 3D effects toggle). This used to be a // comment that silently swallowed the sync boot call below. */ if(window.requestIdleCallback) requestIdleCallback(()=>{ syncInit(); sbInit(); }); else setTimeout(()=>{ syncInit(); sbInit(); },1);
 if(!window.claude && 'serviceWorker' in navigator && /^https?:/.test(location.protocol)){ navigator.serviceWorker.register('sw.js').then(reg=>{ const offer=w=>{ const t=$('toast'); t.innerHTML='New version ready · <button class="ghost" style="padding:2px 8px;color:var(--bg);border-color:var(--bg)">Reload</button>'; t.style.pointerEvents='auto'; t.classList.add('show'); clearTimeout(toastT); t.querySelector('button').onclick=()=>{ w.postMessage('skipWaiting'); }; };
   if(reg.waiting) offer(reg.waiting); reg.addEventListener('updatefound',()=>{ const nw=reg.installing; nw&&nw.addEventListener('statechange',()=>{ if(nw.state==='installed'&&navigator.serviceWorker.controller) offer(nw); }); }); }).catch(()=>{});

@@ -1,0 +1,14 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "スモールトーク": "localisation per profile ja.md §9: card 6 'Have you been to Korea?' → 'Have you been to Japan?'; ja-only cards appended per profile §9 small talk (weather, food, travel, hot springs, anime; chopsticks/blood-type/age warnings in notes): cards 17–22",
+    "電話・メッセージ略語": "localisation per profile ja.md §9 (Minji→Yuki): card 0 'Hello, this is Yuki.'; Mr. Kim → Mr. Tanaka; ja-only cards appended per profile §9 (abbreviations explained with 笑 / w): haha, JK, OMW, GTG, IMO, TMI, TY, NP, HBD",
+    "旅行（空港・ホテル）": "profile §9: reservation name localised (Kim → Tanaka); ja-only cards appended per profile §9 travel (departure from Haneda/Narita/Kansai, checked bag, connecting flight, tipping)",
+    "発音注意": "ja-only cards appended per profile ja.md §4.4 / §9: cluster R/L (play/pray, fly/fry), SI/SHI (sea/she, seat/sheet), TH/S (sick/thick, mouse/mouth), F/H (food/who'd, fold/hold) and diphthong pairs (cold/called, low/law, bought vs boat); original cards unchanged",
+    "道案内・交通": "ja-only cards appended per profile ja.md §9 travel: IC card ≈ transit card (buy, tap, add money)",
+    "仕事・メール": "ja-only cards appended per profile ja.md §9 work and email: first-name greeting (Hi Yuki, not Yuki-san), formal opening, natural openings/closings replacing お世話になっております / よろしくお願いします, scheduling",
+    "カタカナ英語の落とし穴": "ja-only deck: wasei-eigo and shifted loanwords (profile ja.md §4.5 / §9); no ko-en counterpart",
+    "count": "deck count 21 vs ko-en 20: ja-only deck カタカナ英語の落とし穴 (wasei-eigo, profile ja.md §9) appended last"
+  }
+}

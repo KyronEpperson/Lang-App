@@ -6,7 +6,8 @@ exports.GROUPS = [
   ["Viajes y vida diaria", ["Direcciones y transporte", "En el restaurante", "Cafetería y tienda", "Compras y pagos", "Números, horas y fechas", "Viajes (aeropuerto y hotel)", "Salud y emergencias"]],
   ["Conversación y relaciones", ["Charla casual", "Emociones y reacciones", "Cumplidos y afecto", "Teléfono y abreviaturas"]],
   ["Trabajo", ["Trabajo y correo"]],
-  ["Como un nativo", ["Trampas de pronunciación", "Phrasal verbs", "Expresiones idiomáticas", "Cine, series y jerga"]]
+  ["Como un nativo", ["Trampas de pronunciación", "Phrasal verbs", "Expresiones idiomáticas", "Cine, series y jerga"]],
+  ["Claves para hispanohablantes", ["Palabras esenciales", "Falsos amigos", "Make y do", "Incontables", "Cognados y acento"]]
 ];
 
 exports.TAGS = {
@@ -15,7 +16,7 @@ exports.TAGS = {
   social: ["Saludos", "Presentarse", "Charla casual", "Emociones y reacciones", "Cumplidos y afecto", "Teléfono y abreviaturas"],
   work: ["Trabajo y correo", "Teléfono y abreviaturas", "Números, horas y fechas", "Charla casual"],
   media: ["Cine, series y jerga", "Expresiones idiomáticas", "Emociones y reacciones"],
-  skills: ["Trampas de pronunciación", "Phrasal verbs", "Expresiones idiomáticas"]
+  skills: ["Trampas de pronunciación", "Phrasal verbs", "Expresiones idiomáticas", "Palabras esenciales", "Falsos amigos", "Make y do", "Incontables", "Cognados y acento"]
 };
 
 exports.DESC = {
@@ -38,7 +39,12 @@ exports.DESC = {
   "Phrasal verbs": "Los phrasal verbs que más usan los nativos, como pick up y figure out, en lugar del verbo culto",
   "Trampas de pronunciación": "Ship/sheep, very/berry, shoes/choose, yet/jet, school sin «e», la -ed y el acento: los sonidos que más cuestan a los hispanohablantes",
   "Expresiones idiomáticas": "Expresiones que no se entienden palabra por palabra, con su equivalente en español",
-  "Cine, series y jerga": "Expresiones actuales de series, música y redes sociales"
+  "Cine, series y jerga": "Expresiones actuales de series, música y redes sociales",
+  "Palabras esenciales": "Get, take, put, keep, enough, though, still, yet: palabras cortas que los nativos usan a cada rato y que no se parecen al español",
+  "Falsos amigos": "Actually, embarrassed, library, college: palabras que se parecen al español pero significan otra cosa",
+  "Make y do": "Las dos formas de «hacer»: make a mistake, make a decision, do homework, do the dishes",
+  "Incontables": "Advice, information, news, furniture, homework: se cuentan en español, pero en inglés no llevan -s ni a/an",
+  "Cognados y acento": "-tion = -ción, -ty = -dad, -ous = -oso, -ly = -mente: palabras que ya conoces, con el acento donde lo pone el inglés"
 };
 
 /* goal keys (travel/work/social/media) are fixed by the engine */

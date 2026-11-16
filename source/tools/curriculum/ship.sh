@@ -3,7 +3,7 @@
 set -e; cd /home/claude
 sed -i "s/const APP_VERSION='[^']*'/const APP_VERSION='$1 · $(date +%F)'/" src/app.html
 ./build.sh 2>&1 | grep verify; node harness.js 2>&1 | tail -1 | grep -q "✅ no errors · ✅ no overflow · ✅ [0-9]* guards pass" || { echo HARNESS FAIL; exit 1; }
-cp korean-site/{index.html,sw.js,vercel.json,manifest.json,offline.html,README.md} korean-site/*.png lang-app/; cp src/app.html lang-app/source/src/; cp packs/*.js lang-app/source/packs/; cp docs/*.md lang-app/source/docs/; cp harness.js iterations.md lang-app/source/ 2>/dev/null; rm -rf lang-app/source/tools; cp -r tools lang-app/source/tools
+cp korean-site/{index.html,sw.js,vercel.json,manifest.json,offline.html,README.md} korean-site/*.png lang-app/; rm -rf lang-app/packs; cp -r korean-site/packs lang-app/packs; cp korean-site/verify_build.py lang-app/; cp build.sh lang-app/source/ 2>/dev/null; cp src/app.html lang-app/source/src/; cp packs/*.js lang-app/source/packs/; cp docs/*.md lang-app/source/docs/; cp harness.js iterations.md lang-app/source/ 2>/dev/null; rm -rf lang-app/source/tools; cp -r tools lang-app/source/tools
 cd lang-app && git add -A && git -c user.name="Kyron Epperson" -c user.email="epperson.kyron@gmail.com" commit -q -m "$2
 
 $3

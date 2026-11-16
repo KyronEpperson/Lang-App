@@ -454,7 +454,7 @@ practice:[
 ["ty","Me quedé en casa porque estaba lloviendo","I stayed home because it was raining|I stayed at home because it was raining|I stayed home because it rained|I stayed at home because it rained","stayed home · because · rain — con sujeto","so","Después de \"because\" hace falta un sujeto: \"it was raining\", nunca \"because was raining\"."],
 ["ty","Él no vino por la lluvia","He didn't come because of the rain","didn't · come · because of — la lluvia","came","Negativa en pasado con el auxiliar \"didn't\"; \"because of\" va antes de un sustantivo."]]},
 
-{ id:"false-friends", title:"Falsos amigos: actually no es «actualmente»", blurb:"Palabras que se parecen al español pero significan otra cosa, y cómo aprovechar los cognados que sí son de fiar.", deck:"Charla casual", body:`
+{ id:"false-friends", title:"Falsos amigos: actually no es «actualmente»", blurb:"Palabras que se parecen al español pero significan otra cosa, y cómo aprovechar los cognados que sí son de fiar.", deck:"Falsos amigos", body:`
 <p>Miles de palabras inglesas se parecen al español y significan lo mismo: <i>hotel, important, family, possible</i>. La gran mayoría de los cognados de origen latino son de fiar. Pero unos pocos, muy frecuentes, son <b>falsos amigos</b>: se parecen y significan otra cosa. Estos son los que más problemas causan.</p>
 <h3>Los que dan vergüenza</h3>
 <p><i>embarrassed</i> es «avergonzado»; «embarazada» es <i>pregnant</i>. Y <i>constipated</i> no es «constipado» (resfriado), sino «estreñido».</p>

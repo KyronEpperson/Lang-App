@@ -41,3 +41,16 @@ Other agents: if your lesson/practice quotes one of these Korean-course cards, u
 | Salud y emergencias | I need to contact the Korean embassy. | I need to contact my embassy. |
 | Trampas de pronunciación | rice, lice, right, light, fan, pan, coffee, copy | ship, sheep, shoes, choose, yet, jet, school, worked |
 | Cine, series y jerga | Who's your bias? | Who's your favorite character? |
+
+## es-only decks (added 2026-11-16; no Korean counterpart)
+Appended after deck 20, so the 20 shared positions above are unchanged. Parity reasons: deviations.json `decks` "20"–"24" and "count". Group in meta.js: «Claves para hispanohablantes».
+
+| # | Spanish name | English gloss | Source (docs/profiles/es.md) |
+|---|---|---|---|
+| 21 | Palabras esenciales | Essential words (Germanic core) | §9 item 1, §5 |
+| 22 | Falsos amigos | False friends (lesson `false-friends`) | §9 item 3, §4.8 |
+| 23 | Make y do | Make & do collocations | §9 item 4, §4.12 |
+| 24 | Incontables | Uncountable nouns | §9 item 5, §4.10 |
+| 25 | Cognados y acento | Cognate endings & stress | §9 cognate strategy |
+
+Deck 18 «Phrasal verbs» also gained 18 es-only cards at its end (deviations.json `decks` "16"); its first 24 cards are the shared ones.

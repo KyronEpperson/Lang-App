@@ -105,3 +105,54 @@ Checks and practice keep Seoul, Busan, Jeju, Daegu, kimchi, Korea and Han Kang b
 10. **Remaining 〜しましょう in UI onboarding and learning prompts, and おしゃべり (Talker) as a level title.** These are judgement calls.
 
 Not touched by rule: English option or answer text in checks and practice; deviations*.json; profile.json.
+
+## Added 2026-11-16: extra decks and roadmap titles
+
+Scope: an audit of profile §9 "Deck changes" against the course, then additions only. No existing deck, card text or card order changed; checked by comparing the generated pack before and after (every old deck is an exact prefix of the new one, and the rest of the pack is identical apart from meta). gen, validate and parity PASS on a scratch pack. `pron_check.js` reports 0 phrase conflicts and 0 pattern failures. The only new WORD lines are §C linked forms: アウラヴ (out of), シーザン (she's an) and ターノン (turn on).
+
+### Roadmap titles
+- All 425 `t` fields in tools/i18n/ja/roadmap.json are filled; `road.py check ja` passes 425/425. No other field changed.
+- Terms: §3 glossary for the English roadmap (三単現の s, 現在進行形, 仮定法過去, 受け身（受動態）, 間接話法). Other languages use the standard Japanese textbook terms: 声母・韻母, 量詞, 4格, 枠構造, 分離動詞, 代名動詞, 複合過去, 半過去, 近過去, 部分冠詞, 平音節・促音節, 類別詞, 斜格, 後置詞, 前置格, 生格, 造格, 体, 運動の動詞.
+- Ranges are written `A1〜B1`. Quoted target-language words stay as written. Three English-roadmap tokens follow the glossary instead: -s → 三単現の s, -ing → ing形, to / -ing → 不定詞 / 動名詞. going to is written be going to, as in the course.
+- About 25 titles are dictionary-form verb phrases (人と会う, タイ文字を読む), as in existing course titles (文をつなぐ). 「韓国語話者向けに調整」 is a literal rendering of the English roadmap's basis line, and it reads oddly to a Japanese user. The lead decides.
+
+### New deck: 「カタカナ英語の落とし穴」 (24 cards, deck 21)
+- Covers all 13 §9 items: mansion, consent, salaryman, note PC, naive, claim, smart, tension, Viking, cooler, sharp pencil, mail, OL.
+- Also adds: ガソリンスタンド, フロント, フライドポテト, マナーモード, サイン, カンニング, サービス, リフォーム, ワンピース, ピアス, トランプ.
+- Every note begins 和製英語 or 意味のずれ.
+- Sentences shared with the katakana-english lesson rows reuse those readings exactly.
+- Registration: decks.js (last), meta.js (GROUPS 「ネイティブらしく」 at the end, TAGS skills and social, DESC), DECKNAMES.md row 21, and deviations `decks["カタカナ英語の落とし穴"]` and `decks["count"]`.
+
+### Extended decks (cards appended at the end)
+| deck | new cards | content |
+|---|---|---|
+| 発音注意 | +21 (26 → 47) | play/pray, fly/fry (cluster R/L); sea/she, seat/sheet (SI/SHI); sick/thick, mouse/mouth (TH/S); food/who'd, fold/hold (F/H); cold/called, low/law, bought (vs the existing boat) as diphthong pairs |
+| 仕事・メール | +10 (19 → 29) | Hi Yuki, (no さん/様), Dear Mr. Smith, I hope you're doing well., Thanks in advance., Looking forward to hearing from you., Just following up…, Does Tuesday work for you?, Could we reschedule?, calendar invite, Feel free to reach out. |
+| 電話・メッセージ略語 | +9 (18 → 27) | haha (= 笑 / w), JK, OMW, GTG, IMO, TMI, TY, NP, HBD |
+| スモールトーク | +6 (17 → 23) | rain tomorrow, food, Japanese food (with the chopsticks warning), travel, hot springs, anime (with the blood type / age / marital status warning) |
+| 旅行（空港・ホテル） | +4 (18 → 22) | flying out of Haneda (Narita / Kansai in the note), checking a bag, connecting flight, how much to tip |
+| 道案内・交通 | +3 (18 → 21) | transit card (≈ IC card), tapping a card, adding money (チャージ) |
+
+Total: 77 new cards. A deviations.json `decks` entry covers each extended deck: new keys for 発音注意, 仕事・メール and 道案内・交通, and the existing reasons extended for スモールトーク, 電話・メッセージ略語 and 旅行. The same entries are in a new fragment, deviations.e.json, so `merge_deviations.py` keeps them. Without the fragment, a re-merge would restore the shorter a–d reasons; parity would still pass.
+
+### Already covered, so nothing added
+- "to go" vs テイクアウト (2 cards).
+- LOL = 笑 / w.
+- Meeting, schedule and deadline.
+- Tipping included / Keep the change.
+
+§9 asks to "replace F/P emphasis" in 発音注意. Removing cards would lose learners' progress, so the F/P cards stay and the new pairs follow them. The 発音注意 DESC now lists F/H, スィ/シ and 二重母音.
+
+### Needs a native speaker / lead decision
+1. **Place-name reading ハネイダ (Haneda).** It follows en-US audio, like トウキオウ. I avoided Narita as a card target because §A4 would give ナリーラ; the lead should rule on place-name flaps.
+2. **Readings to confirm:**
+   - アニメイ (anime), トゥランズィット (transit), ゥレナヴェイリング (renovating, flap), チーリッド (cheated, flap), サポウスト (supposed), ペンスル (pencil), バーロウ (borrow).
+   - The linked forms イーメイリュー (email you), センジュー (send you), ゥリーチャウト (reach out), ファーロウインガップ (following up), フライインガウラヴ (flying out of, §C5 + §C1 like ゥラナウラヴ) and ボータ (bought a, as in the a1.js row).
+   - The flap in オーラグラフ (autograph) follows §A4.
+   - Two choices, ambiguous under the rules: チーリッド オン (cheated on) is not linked because it is read as a preposition rather than a §C5 particle, and サポウスト タ (supposed to) is not reduced because §C7 covers only identical consonants.
+   - Abbreviation readings: オウエムダブリュー, エンピー.
+3. **who'd** is a weak flashcard: its meaning is only "who would / who had の短縮形". It is there because §6 names the pair. fold/hold carries the same F/H contrast.
+4. **She's an office worker. (OL) and He's an office worker. (salaryman)** are separate cards whose English differs only in the pronoun. Check that learners do not find them redundant.
+5. **Tipping figure (15〜20%)** matches the existing restaurant note. Check whether "20% and up" is now the norm.
+6. **The katakana-english lesson still points to deck スモールトーク.** I did not repoint it to the new deck, because the engine effect is unknown. The lead may want `deck:"カタカナ英語の落とし穴"` in more/a1.js.
+7. **Typo seen, not fixed (card text is frozen):** 「自わから」 in the 25歳 and heat-this-up notes, which should be 自分から. Fixing a note does not touch the card key (target), so the lead may allow it.
