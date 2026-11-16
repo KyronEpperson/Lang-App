@@ -747,3 +747,17 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Pipeline: generators are per-language (`tools/content/<lang>/`, `tools/i18n/<lang>/`); regenerated Korean course and interface packs are byte-identical; new `parity.js` enforces the shared English side.
 - Research: profiles for Japanese and Spanish speakers, planning profiles for eleven more languages.
 - Lead: the generated key-merge script mis-parsed the engine's key tables (27 junk keys); replaced with a table-aware merge. Frozen interface key list: 766 exact strings, 272 patterns.
+
+## P2 — phase 2 (ten writer agents, then two cold reviewers)
+- Per language: interface (766 strings + 271 patterns), decks and extras (20 decks, 366 cards, dialogues, patterns, idioms), and three lesson agents (original 11, A1, A2/B1) writing explanations from that language's point of view, plus two extra lessons per language (ja: katakana-english, articles-3; es: false-friends, make-do).
+- Spanish practice sets were rebuilt around the verb-core standing rule; 36 of 39 shared lessons are declared deviations. Japanese keeps the article/plural rule and the shared English side (6 decks and 1 lesson deviate).
+- Reviewers settled one pronunciation-aid rule set per language (PRON-RULES.md), normalised ~150 readings each, fixed prompts that invited unlisted answers, corrected inaccurate statements, and unified localisation. Their open items are in tools/content/{ja,es}/REVIEW.md. Both reviewers hit the usage limit mid-run and were resumed.
+- Lead: fixed one item whose distractor tile equalled an answer word (es prep#13), a tab-bar collision for long Spanish labels (auto-tight font), and two harness guards that assumed no real Japanese/Spanish course.
+
+### P2 — verification
+- Validators PASS for both courses and both interface packs; parity PASS (declared deviations only).
+- Harness 56 guards. All 41 lessons of each new course completed end to end as a non-free user; every practice item (574 ja, 575 es) accepts its answers and rejects its distractors.
+- Route sweep per course: no Korean text, no untranslated interface strings beyond cognates and the product name, no overflow; tab labels fit at 390px.
+- Under each new interface, all check options and lesson example sentences render unchanged (the translator does not touch course English).
+- Fresh-visitor journeys (Spanish and Japanese browser): welcome → nickname → language home → course → onboarding, no errors.
+- Page weight: 1.92 MB with five courses' worth of packs inline (was 1.06 MB).

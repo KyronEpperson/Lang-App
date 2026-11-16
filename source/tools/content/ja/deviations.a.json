@@ -1,0 +1,12 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "自己紹介": "localisation per profile ja.md §9 (Minji→Yuki, Seoul→Tokyo, Korea→Japan): cards 0 'My name is Yuki.', 4 'I'm from Japan.', 5 'I live in Tokyo.'",
+    "サバイバル英語1": "localisation per profile ja.md §9: card 12 'Do you speak Korean?' → 'Do you speak Japanese?' (learner's own language)",
+    "スモールトーク": "localisation per profile ja.md §9: card 6 'Have you been to Korea?' → 'Have you been to Japan?'",
+    "ほめ言葉・好意の表現": "localisation per profile ja.md §9: card 8 'Your Korean is really good!' → 'Your Japanese is really good!'",
+    "電話・メッセージ略語": "localisation per profile ja.md §9 (Minji→Yuki): card 0 'Hello, this is Yuki.'",
+    "病院・緊急時": "localisation per profile ja.md §9: card 15 'the Korean embassy' → 'the Japanese embassy' (learner's own embassy)"
+  }
+}

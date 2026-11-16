@@ -1,0 +1,19 @@
+{
+  "lessons": {
+    "past-continuous": "standing rule verb-core (profile §7): order/type items reworked from article/plural hinges to was/were agreement, auxiliary inversion and dummy it; mc #4 adds the subjectless distractor 'Was raining.' (profile §4.5)",
+    "will": "standing rule verb-core (profile §7): order/type items reworked to will-inversion, dummy it and 3rd-person no-s after will; mc #0 adds the Spanish present-as-offer error 'I help you.', mc #4 replaced by 'She will comes' agreement item; profile §9 localisation: Jeju -> Lima in check 2",
+    "perfect": "standing rule verb-core (profile §7): order/type items reworked to has/have agreement and auxiliary inversion; profile §8 (accept US 'Did you ever…?', past simple with finished time); profile §9 localisation: Korea/Busan/kimchi/Jeju -> Peru/Chile/Miami/sushi/Lima/Mexico",
+    "modals": "standing rule verb-core (profile §7): order/type items reworked to has to agreement and do-support with have to (questions/negatives)",
+    "to-ing": "standing rule verb-core (profile §7): order/type items reworked to 3rd-person enjoys/wants and do-support; profile §8: added preposition + -ing and want someone to (mc #3, #4, order #2, type #2)",
+    "articles-2": "standing rule verb-core (profile §7): order/type items reworked so generic-noun article items also hinge on is/are agreement and 3rd-person -s; profile §8 refocus on generic nouns without the (mc #0, #1); profile §9 localisation: Korea -> Peru in body",
+    "first-conditional": "standing rule verb-core (profile §7): order/type items reworked to 3rd-person -s after if (rains/calls) and doesn't in the if-clause",
+    "relative": "standing rule verb-core (profile §7): order/type items reworked to relative-clause agreement (who cooks/lives, has, was); checks 1-2 and mc #1, #2, #4 refocused on who/which/what and omission instead of Korean pre-noun order (profile §8); profile §9 localisation: Busan -> Bogota, Korean -> Japanese",
+    "perfect-2": "standing rule verb-core (profile §7): order/type items reworked to has/have agreement in for/since sentences and How long has she…?; profile §8: «desde hace» -> for",
+    "narrative": "standing rule verb-core (profile §7): order/type items reworked to did-support in past questions/negatives and was/were agreement",
+    "conditionals": "standing rule verb-core (profile §7): order/type items reworked to would-inversion in questions and dummy it (It would be great)",
+    "passive": "standing rule verb-core (profile §7): order/type items reworked to was/were and is/are agreement in the passive and is-inversion; profile §8 Spanish se-passive (mc #2 'Here speaks English', mc #4 plural agreement); profile §9 localisation: Korea/Han Kang -> Mexico/Isabel Allende",
+    "reported": "standing rule verb-core (profile §7): order/type items reworked to was/were and there was agreement and dummy it; profile §8 say/tell recap kept in order #1 and type #1"
+  },
+  "items": {},
+  "decks": {}
+}

@@ -1,0 +1,16 @@
+{
+  "lessons": {
+    "pron": "profile §8 pron: Spanish-speaker sound traps (ship/sheep, s + consonant, b/v, sh/ch, j/y, h, th, -ed, stress) replace the Korean R/L, F/P traps, so English examples, checks and practice items differ; also standing rule verb-core (profile §7)",
+    "articles": "profile §8 articles: Spanish has articles, so the lesson refocuses on where English and Spanish differ (a/an with jobs, a/an by sound, no article for generic nouns, possessive with body parts); checks and practice reworked; also standing rule verb-core (profile §7)",
+    "be": "profile §8 be: be for Spanish ser/estar and for tener (I'm 25, I'm hungry, You're right) plus obligatory subject (It's late); checks and practice reworked; also standing rule verb-core (profile §7)",
+    "tense": "standing rule verb-core (profile §7); profile §8 tense: mixed items include third-person -s and did; one check replaced by a did-question check; Jeju localised (profile §9)",
+    "prep": "standing rule verb-core (profile §7); Seoul localised to Lima (profile §9)",
+    "smalltalk": "standing rule verb-core (profile §7); order and type items reworked around do/are questions",
+    "phrasal": "standing rule verb-core (profile §7); profile §8 phrasal: cognate verb vs phrasal verb (continue -> go on) item added; Daegu localised (profile §9)",
+    "numbers": "profile §8 numbers: decimal point, billion = mil millones, years read in pairs; won replaced by dollars (profile §9); checks and practice reworked; also standing rule verb-core (profile §7)",
+    "email": "standing rule verb-core (profile §7); profile §8 email: Spanish closing formula (Quedo a la espera...) replaces the Korean 'thanks for your hard work' check and one mc",
+    "idioms": "standing rule verb-core (profile §7); profile §8 idioms: Spanish calque trap (tomar el pelo -> pull someone's leg) and Spanish equivalents (rey de Roma) replace Korean ones"
+  },
+  "items": {},
+  "decks": {}
+}

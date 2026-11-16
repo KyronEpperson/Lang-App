@@ -1,0 +1,19 @@
+{
+  "lessons": {
+    "it-there": "profile §8 (core lesson for Spanish speakers: dummy it for Llueve / Es importante, hay → there is/are with agreement, has ≠ hay; typed items raised from 3 to 4, the validator maximum) + standing rule verb-core (profile §7)",
+    "plurals": "profile §8 (regular -s is easy for Spanish speakers: refocused on irregular plurals, people/person, invariable adjectives before the noun, this/these with is/are) + standing rule verb-core (profile §7)",
+    "present": "profile §8 (S-V-O matches Spanish: refocused on the obligatory subject, don't instead of no, frequency-adverb position; Seoul/Busan localised per §9) + standing rule verb-core (profile §7)",
+    "countable": "profile §8/§4.10 (Spanish-countable, English-uncountable nouns: advice, information, news, furniture; Seoul localised per §9) + standing rule verb-core (profile §7)",
+    "object-have": "profile §8/§4.11/§4.7 (have vs be for tener expressions: I'm 25, I'm hungry, You're right; su → his/her by owner; object pronoun after the verb) + standing rule verb-core (profile §7)",
+    "can-like": "profile §8 (gustar reversal: I like pizza / I like dogs, not Pizza likes me) + standing rule verb-core (profile §7)",
+    "continuous": "profile §8 (¿Qué haces? → What are you doing?) + standing rule verb-core (profile §7)",
+    "past": "profile §8 (-ed pronunciation t/d/id and did + base form in questions and negatives) + standing rule verb-core (profile §7)",
+    "irregular-past": "standing rule verb-core (profile §7: did + base form, Did you go? not Did you went?); Jeju/Busan localised per §9",
+    "the": "profile §8/§4.2 (first/second mention as a short recap; main focus generic nouns without the and possessives for body parts) + standing rule verb-core (profile §7)",
+    "adjectives": "profile §8/§4.6 (adjective before the noun and invariable: big houses, not houses bigs; than not that) + standing rule verb-core (profile §7)",
+    "going-to": "standing rule verb-core (profile §7); Busan localised per §9",
+    "joining": "profile §8 (because vs because of added) + standing rule verb-core (profile §7)"
+  },
+  "items": {},
+  "decks": {}
+}

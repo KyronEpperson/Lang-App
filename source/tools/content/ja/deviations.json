@@ -1,0 +1,19 @@
+{
+  "lessons": {
+    "pron": "Profile ja.md §8 reweight / §4.4: lesson-body example rows retargeted to Japanese error zones (added pray/play, sink, food/who'd, sea/she, seat/sheet, vote/boat, milk/good, cold/called; F/P rows kept as fan/pan). Body rows only: the check options/answers and all 14 practice items are unchanged and match ko-en (verified with parity run without this entry), so the lead may drop this entry."
+  },
+  "items": {},
+  "decks": {
+    "自己紹介": "localisation per profile ja.md §9 (Minji→Yuki, Seoul→Tokyo, Korea→Japan): cards 0 'My name is Yuki.', 4 'I'm from Japan.', 5 'I live in Tokyo.'",
+    "サバイバル英語1": "localisation per profile ja.md §9: card 12 'Do you speak Korean?' → 'Do you speak Japanese?' (learner's own language)",
+    "スモールトーク": "localisation per profile ja.md §9: card 6 'Have you been to Korea?' → 'Have you been to Japan?'",
+    "ほめ言葉・好意の表現": "localisation per profile ja.md §9: card 8 'Your Korean is really good!' → 'Your Japanese is really good!'",
+    "電話・メッセージ略語": "localisation per profile ja.md §9 (Minji→Yuki): card 0 'Hello, this is Yuki.'",
+    "病院・緊急時": "localisation per profile ja.md §9: card 15 'the Korean embassy' → 'the Japanese embassy' (learner's own embassy)"
+  },
+  "extraLessons": [
+    "katakana-english",
+    "articles-3"
+  ],
+  "droppedLessons": []
+}

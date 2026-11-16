@@ -311,6 +311,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
   nav{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--paper);border-top:1px solid var(--line);border-bottom:0;padding-left:max(6px,env(safe-area-inset-left,0px));padding-right:max(6px,env(safe-area-inset-right,0px));padding-bottom:env(safe-area-inset-bottom,0px);display:flex}
   nav a{padding:9px 1px 8px;font-size:.62rem;letter-spacing:-.01em;border-bottom:0;border-top:2px solid transparent;margin:0;min-height:48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
   nav a::before{content:attr(data-ico);font-size:1.05rem;line-height:1}
+nav.tight a{font-size:.55rem;letter-spacing:-.035em;padding-left:0;padding-right:0}
   nav a.on{border-top-color:var(--accent)}
   header{padding-top:10px;gap:0}
   .wrap{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
@@ -529,7 +530,7 @@ input.ans.wrong{border-color:var(--accent);background:var(--accent-soft)}
 <script>
 // ============================================================
 // 한글 Korean starter — single-file app
-const APP_VERSION='2.8.0 · 2026-11-15';
+const APP_VERSION='2.9.0 · 2026-11-16';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1155,7 +1156,8 @@ function trAttr(el,a){ const cur=el.getAttribute(a); if(cur==null) return; let m
   if(!I18N){ if(rec&&rec.out===cur&&src!==cur) el.setAttribute(a,src); if(m) delete m[a]; return; }
   const out=t(src); if(out!==cur) el.setAttribute(a,out); if(out!==src){ if(!m){ m={}; trA.set(el,m); } m[a]={src,out}; } else if(m) delete m[a]; }
 function i18nSkip(el){ return !el||!el.closest||!!el.closest(I18N_SKIP); }
-function translateDom(root){ root=root||document.body; if(!root||(!I18N&&!trEver)) return; if(I18N) trEver=true;
+function fitNav(){ const n=document.getElementById('nav'); if(!n) return; n.classList.remove('tight'); if([...n.children].some(a=>a.scrollWidth>a.clientWidth+1)) n.classList.add('tight'); } /* long translated tab labels (e.g. Spanish) get a slightly smaller font instead of colliding */
+function translateDom(root){ root=root||document.body; if(root===document.body) setTimeout(fitNav,0); if(!root||(!I18N&&!trEver)) return; if(I18N) trEver=true;
   if(root.nodeType===3){ if(root.nodeValue.trim()&&!i18nSkip(root.parentElement)) trText(root); return; } if(root.nodeType!==1||root.closest('[data-noi18n]')) return;
   const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>(!n.nodeValue.trim()||i18nSkip(n.parentElement))?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT}); let n; while((n=w.nextNode())) trText(n);
   [root,...root.querySelectorAll('[placeholder],[aria-label],[title]')].forEach(el=>{ if(el.closest('[data-noi18n]')) return; I18N_ATTRS.forEach(a=>{ if(el.hasAttribute(a)) trAttr(el,a); }); }); }

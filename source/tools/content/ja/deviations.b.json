@@ -1,0 +1,7 @@
+{
+  "lessons": {
+    "pron": "Profile ja.md §8 reweight / §4.4: lesson-body example rows retargeted to Japanese error zones (added pray/play, sink, food/who'd, sea/she, seat/sheet, vote/boat, milk/good, cold/called; F/P rows kept as fan/pan). Body rows only: the check options/answers and all 14 practice items are unchanged and match ko-en (verified with parity run without this entry), so the lead may drop this entry."
+  },
+  "items": {},
+  "decks": {}
+}

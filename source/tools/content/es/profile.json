@@ -1,0 +1,27 @@
+{
+  "native": "es",
+  "nativeNameEn": "Spanish",
+  "name": {
+    "en": "English",
+    "es": "inglés"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "standingRule": {
+    "kind": "verb-core",
+    "keywords": "sujeto|auxiliar|tercera persona|concordancia",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " ¿Qué va en el hueco?",
+    "typeHintCue": " — usa estas palabras",
+    "cueTest": "[¿¡áéíóúñÁÉÍÓÚÑ]|\\b(de|del|la|el|los|las|que|para|con|una?|es|forma|plural|pasado|significa)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "false-friends": "smalltalk",
+      "make-do": "to-ing"
+    }
+  }
+}

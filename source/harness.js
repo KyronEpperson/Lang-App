@@ -255,10 +255,21 @@ const ALL_HANGUL=/[가-힣ㄱ-ㅣ]/;
 if(koSkip){ ['fxNativeList','fxLL','fxNoi18n','fxNoKorean','fxFullWidth','fxUnknownCourse','fxPreNative','fxBootJa','bootPackCourse'].forEach(k=>mc[k]='skip (no ko-en pack to clone)'); }
 else {
 { // pre-native screens: English and Korean browsers unchanged; a Japanese browser without a ja course unchanged; with one, English + Japanese from the pack
-  const out={};
-  for(const loc of ['en-US','ko-KR','ja-JP']){ const {ctx,p}=await newCtx(null,loc); const got=await preSnap(p); out[loc]=JSON.stringify(got)===JSON.stringify(PRE_BASE); if(!out[loc]) res.checks['preNativeDiff_'+loc]=got;
+  const out={}; let realJa=false;
+  for(const loc of ['en-US','ko-KR','ja-JP']){ const {ctx,p}=await newCtx(null,loc); if(loc==='ja-JP'&&await p.evaluate(()=>!!COURSES['ja-en'])){ /* a real ja-en course ships: the Japanese-browser screens are checked with the real pack below */ realJa=true; await ctx.close(); continue; } const got=await preSnap(p); { /* welcome screens must match the baseline exactly; language-home step 1 may list extra live native languages (moved out of "coming soon") but its English + Korean header, rows and labels are unchanged */
+      const same=k=>JSON.stringify(got[k])===JSON.stringify(PRE_BASE[k]); const head=s=>s.slice(0,s.indexOf('한국어\n›')+5); const g=got.lh1||{text:'',attrs:[]}, bs=PRE_BASE.lh1;
+      const lhOk=same('lh1')||(head(g.text)===head(bs.text)&&g.text.indexOf('🔒 COMING SOON · 출시 예정')>0&&bs.attrs.filter(x=>!/^title=/.test(x)).every(x=>g.attrs.includes(x))&&g.attrs.filter(x=>/^title=/.test(x)).every(x=>bs.attrs.includes(x)));
+      out[loc]=Object.keys(PRE_BASE).filter(k=>k!=='lh1').every(same)&&lhOk; } if(!out[loc]) res.checks['preNativeDiff_'+loc]=got;
     if(loc!=='ja-JP') out[loc+'-intro']=await p.evaluate(()=>{ const sv=META.picked; META.picked=0; const a=preBi('Hello','안녕하세요')==='Hello · 안녕하세요'&&introSub(false)==='Learn a language, 5 minutes a day · 하루 5분'; META.picked=sv; return a; }); await ctx.close(); }
-  { const {ctx,p}=await newCtx(null,'ja-JP'); await fxInject(p,false);
+  if(realJa){ const {ctx,p}=await newCtx(null,'ja-JP');
+    out.ja=await p.evaluate(async()=>{ const ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s), JA=s=>/[\u3040-\u30ff\u4e00-\u9fff]/.test(s); const old=document.getElementById('welcome'); if(old) old.remove(); const lh=document.getElementById('langHome'); if(lh) lh.remove(); showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText;
+      const a=preLang()==='ja'&&JA(t1)&&!ALLH(t1)&&!w.querySelector('[lang="ko"]')&&/^How should we save your progress\?$/m.test(t1);
+      w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); const b=JA(w.querySelector('#wNickIn').placeholder)&&!ALLH(w.innerText);
+      w.querySelector('#wNickIn').value='T'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,200)); const h=document.getElementById('langHome'); const th=h?h.textContent:'';
+      const c=!!h&&JA(th)&&!!h.querySelector('.lh-sub[lang="ja"]')&&!ALLH(th.replace(/한국어/g,''))&&!!h.querySelector('[data-native="ja"]')&&!!h.querySelector('[data-native="ko"]')&&!!h.querySelector('[data-native="en"]');
+      return (a&&b&&c)||('a'+a+' b'+b+' c'+c+' | '+t1.slice(0,300)+' | '+th.slice(0,300)); }).catch(e=>'ERR '+e.message);
+    await ctx.close(); }
+  else { const {ctx,p}=await newCtx(null,'ja-JP'); await fxInject(p,false);
     out.ja=await p.evaluate(async()=>{ const ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); const old=document.getElementById('welcome'); if(old) old.remove(); const lh=document.getElementById('langHome'); if(lh) lh.remove(); showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText;
       const a=preLang()==='ja'&&/📧 Email · メール/.test(t1)&&/👤 Nickname · ニックネーム/.test(t1)&&/Saves across all your devices/.test(t1)&&!/Saves across all your devices ·/.test(t1)&&!ALLH(t1)&&!w.querySelector('[lang="ko"]')&&/^How should we save your progress\?$/m.test(t1);
       w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); const t3=w.innerText; const b=/Nickname · ニックネーム/.test(w.querySelector('#wNickIn').placeholder)&&!ALLH(t3);
@@ -271,7 +282,7 @@ else {
   const seed={'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}})};
   const {ctx,p}=await newCtx(seed); await p.evaluate(()=>{ window.ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); }); await fxInject(p,false);
   mc.fxNativeList=await p.evaluate(async()=>{ showLangHome({closable:true}); const h=document.getElementById('langHome'); const row=h.querySelector('[data-native="ja"]'); if(!row||!/日本語/.test(row.textContent)||[...h.querySelectorAll('.lh-lock')].some(x=>/日本語/.test(x.textContent))) return 'step1';
-    const natives=[...h.querySelectorAll('[data-native]')].map(b=>b.dataset.native).join(); if(natives!=='en,ko,ja') return 'order '+natives; row.click();
+    const natives=[...h.querySelectorAll('[data-native]')].map(b=>b.dataset.native).join(); if(natives.indexOf('en,ko,ja')!==0) return 'order '+natives; row.click();
     const t2=h.innerText; if(!h.querySelector('[data-course="ja-en"]')||!/何を学びたいですか？/.test(t2)||!/← 戻る/.test(t2)||!/近日公開 · タップでプレビュー/.test(t2)||ALLH(t2)||!/英語/.test(t2)) return 'step2 '+t2.slice(0,200);
     const lk=h.querySelector('.lh-lock[data-road="fr"]'); if(lk){ lk.click(); const t3=h.innerText; if(!/近日公開 · \d+ レッスン予定/.test(t3)||!/順番は変わることがあります。/.test(t3)||ALLH(t3)) return 'step3 '+t3.slice(0,160); h.querySelector('.lh-back2').click(); }
     h.querySelector('[data-course="ja-en"]').click(); await new Promise(z=>setTimeout(z,200));

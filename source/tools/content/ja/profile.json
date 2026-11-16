@@ -1,0 +1,26 @@
+{
+  "native": "ja",
+  "nativeNameEn": "Japanese",
+  "name": {
+    "en": "English",
+    "ja": "英語"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": "[\\u3040-\\u30ff\\u4e00-\\u9fff]",
+  "pron": "required",
+  "pronPattern": "^[\\u30A0-\\u30FF\\u3099-\\u309C ?!.,'/]+( \\((th|s|r|l|v|b|f|h|sh)\\))?$",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "冠詞|複数"
+  },
+  "labels": {
+    "mcBlankCue": " 空所に入るのは？",
+    "typeHintCue": " — この単語を使って"
+  },
+  "lessonOrder": {
+    "after": {
+      "katakana-english": "smalltalk",
+      "articles-3": "passive"
+    }
+  }
+}

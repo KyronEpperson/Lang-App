@@ -9677,7 +9677,7 @@
      "type": "x"
     }
    ],
-   "regex": "^Learning (.+) 5 minutes a day with Lang App (\\S+)$",
+   "regex": "^Learning (.+) 5 minutes a day with Lang App (.+)$",
    "example": "Learning 英語 5 minutes a day with Lang App 🇺🇸",
    "section": "engine (LL helper)",
    "context": "{0} = target language name in the UI language; {1} = flag emoji — Share sheet text (LL)",
@@ -9753,7 +9753,7 @@
      "type": "x"
     }
    ],
-   "regex": "^Level up! Level (\\d+) · (.+?) 🎉$",
+   "regex": "^Level up! Level (\\d+) · (.+) 🎉$",
    "example": "Level up! Level 2 · Beginner 初心者 🎉",
    "section": "engine (LL helper)",
    "context": "{0} = level; {1} = level title from the course pack's TITLES (<English> <native>) — Level-up toast for non-Korean courses (DOM translator; Korean side keeps ^레벨 업! Level …) (DOM translator (JS-built text))",
