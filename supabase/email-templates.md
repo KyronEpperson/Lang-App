@@ -6,7 +6,7 @@ Both templates need `{{ .Token }}` (the 6-digit code) — that's what lets the i
 Subject: `Your Lang App code: {{ .Token }}`
 ```html
 <div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:440px;margin:0 auto;padding:24px;color:#1d1f24">
-  <div style="font-size:28px;font-weight:700">한글 <span style="font-size:16px;font-weight:500;color:#6b6f76">Lang App</span></div>
+  <div style="font-size:26px;font-weight:700">Lang App</div>
   <p style="font-size:16px;line-height:1.5">Here's your sign-in code. Type it into the app:</p>
   <div style="font:700 34px/1 ui-monospace,Menlo,monospace;letter-spacing:8px;background:#f3efe6;border-radius:12px;padding:18px;text-align:center">{{ .Token }}</div>
   <p style="font-size:15px;line-height:1.5">Or tap to sign in on this device:</p>
@@ -18,6 +18,10 @@ Subject: `Your Lang App code: {{ .Token }}`
 ## Magic Link  (returning users)
 Subject: `Your Lang App code: {{ .Token }}`
 Use the same HTML as above (it already uses `{{ .ConfirmationURL }}` and `{{ .Token }}`).
+
+## URL Configuration (Authentication → URL Configuration)
+- **Site URL**: `https://lang-app.io`
+- **Redirect URLs**: add `https://lang-app.io/**` (keep `https://lang-app-3qdw.vercel.app/**` if you still use it). Without this the email link opens the vercel.app address instead of lang-app.io.
 
 ## Also in Authentication settings
 - **Emails → SMTP**: the built-in sender is capped at a few emails per hour. Before sharing widely, plug in a free SMTP (Resend, Brevo) so sign-in emails don't get rate-limited.

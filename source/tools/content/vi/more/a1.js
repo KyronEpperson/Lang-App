@@ -66,7 +66,7 @@ practice:[
 {{ex:I drink coffee.|/aɪ drɪŋk ˈkɑːfi/|Tôi uống cà phê}}{{ex:I study English.|/aɪ ˈstʌdi ˈɪŋglɪʃ/|Tôi học tiếng Anh}}
 <h3>Nơi chốn trước, thời gian sau</h3>
 <p>Thông tin thêm đặt ở cuối câu, theo thứ tự <b>nơi chốn → thời gian</b>. Tiếng Việt hay đưa thời gian lên đầu (“Ngày nào tôi cũng…”); tiếng Anh thường để ở cuối.</p>
-{{ex:We live in Hanoi.|/wiː lɪv‿ɪn hæˈnɔɪ/|Chúng tôi sống ở Hà Nội}}{{ex:I study English every day.|/aɪ ˈstʌdi ˈɪŋglɪʃ‿ˈevri deɪ/|Ngày nào tôi cũng học tiếng Anh}}{{ex:They work on weekends.|/ðeɪ wɝːk‿ɑːn ˈwiːkendz/|Họ làm việc vào cuối tuần}}
+{{ex:We live in Hanoi.|/wi lɪv‿ɪn hæˈnɔɪ/|Chúng tôi sống ở Hà Nội}}{{ex:I study English every day.|/aɪ ˈstʌdi ˈɪŋglɪʃ‿ˈevri deɪ/|Ngày nào tôi cũng học tiếng Anh}}{{ex:They work on weekends.|/ðeɪ wɝːk‿ɑːn ˈwiːkendz/|Họ làm việc vào cuối tuần}}
 <h3>Câu phủ định: don't</h3>
 <p>Tiếng Việt chỉ cần thêm “không” trước động từ. Tiếng Anh cần trợ động từ (do, does, did): <b>don't</b> + động từ. Không nói <b>I not eat</b>.</p>
 {{ex:I don't eat meat.|/aɪ doʊnt‿iːt miːt/|Tôi không ăn thịt}}
@@ -216,7 +216,7 @@ practice:[
 { id:"object-have", title:"Me, him, her và động từ have", blurb:"Sau động từ dùng me, không dùng I. Và have: một động từ dùng cho rất nhiều việc.", deck:"Giới thiệu bản thân", body:`
 <p>Tiếng Việt dùng cùng một từ ở mọi vị trí: “Cô ấy biết tôi” và “Tôi biết cô ấy”. Đại từ nhân xưng tiếng Anh thì <b>đổi hình thức</b>: sau động từ hoặc giới từ phải dùng đại từ tân ngữ.</p>
 <div class="tbl"><table><tr><th>Chủ ngữ</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>Tân ngữ</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
-{{ex:She knows me.|/ʃi noʊz miː/|Cô ấy biết tôi}}{{ex:I like him.|/aɪ laɪk hɪm/|Tôi thích anh ấy}}{{ex:Can you help us?|/kən ju help‿ʌs/|Bạn giúp chúng tôi được không?}}{{ex:I work with her.|/aɪ wɝːk wɪð hɝː/|Tôi làm việc cùng cô ấy}}
+{{ex:She knows me.|/ʃi noʊz mi/|Cô ấy biết tôi}}{{ex:I like him.|/aɪ laɪk hɪm/|Tôi thích anh ấy}}{{ex:Can you help us?|/kən ju help‿ʌs/|Bạn giúp chúng tôi được không?}}{{ex:I work with her.|/aɪ wɝːk wɪð hɝː/|Tôi làm việc cùng cô ấy}}
 <h3>Sở hữu: my car, không phải car of me</h3>
 <p>“Xe của tôi” không dịch từng chữ thành <b>car of me</b>. Tính từ sở hữu đứng trước danh từ: <b>my car</b>, <b>your phone</b>, <b>her bag</b>.</p>
 {{ex:My car is outside.|/maɪ kɑːr ɪz‿aʊtˈsaɪd/|Xe của tôi ở bên ngoài}}
@@ -250,7 +250,7 @@ practice:[
 {{ex:I can swim.|/aɪ kən swɪm/|Tôi biết bơi}}{{ex:I can't drive.|/aɪ kænt draɪv/|Tôi không biết lái xe}}{{ex:Can you speak Vietnamese?|/kən ju spiːk viːetnəˈmiːz/|Bạn có nói được tiếng Việt không?}}
 <h3>like + V-ing: thích làm gì</h3>
 <p>Khi nói về sở thích, sau <b>like, love</b> dùng dạng V-ing. Tiếng Việt chỉ đặt hai động từ cạnh nhau (“thích nấu ăn”), còn tiếng Anh cần <b>-ing</b>: <b>like cooking</b>. Còn “rất thích” không phải <b>very like</b>, mà là <b>really like</b> hoặc <b>like … very much</b>.</p>
-{{ex:I like cooking.|/aɪ laɪk ˈkʊkɪŋ/|Tôi thích nấu ăn}}{{ex:I love watching movies.|/aɪ lʌv ˈwɑːtʃɪŋ ˈmuːviz/|Tôi rất thích xem phim}}{{ex:I don't like running.|/aɪ doʊnt laɪk ˈrʌnɪŋ/|Tôi không thích chạy bộ}}{{ex:I really like it.|/aɪ ˈriːəli laɪk‿ɪt/|Tôi rất thích}}
+{{ex:I like cooking.|/aɪ laɪk ˈkʊkɪŋ/|Tôi thích nấu ăn}}{{ex:I love watching movies.|/aɪ lʌv ˈwɑːtʃɪŋ ˈmuːviz/|Tôi rất thích xem phim}}{{ex:I don't like running.|/aɪ doʊnt laɪk ˈrʌnɪŋ/|Tôi không thích chạy bộ}}{{ex:I really like it.|/aɪ ˈriːli laɪk‿ɪt/|Tôi rất thích}}
 <h3>I'd like: cho tôi…, tôi muốn…</h3>
 <p><b>I like</b> là thích nói chung; <b>I'd like</b> là muốn ngay bây giờ, nói một cách lịch sự. Khi gọi món, dùng <b>I'd like</b>.</p>
 {{ex:I'd like a coffee, please.|/aɪd laɪk‿ə ˈkɑːfi pliːz/|Cho tôi một cốc cà phê}}{{ex:Would you like some tea?|/wʊd ju laɪk sʌm tiː/|Bạn có muốn uống chút trà không?}}
@@ -302,13 +302,13 @@ practice:[
 <p>Tiếng Việt có thể đánh dấu quá khứ bằng “đã”, nhưng thường bỏ luôn khi đã có từ chỉ thời gian: “Hôm qua tôi đi làm”. Tiếng Anh thì <b>động từ phải đổi</b>. Có <b>yesterday</b> vẫn phải dùng thì quá khứ đơn.</p>
 <h3>Động từ to be: was / were</h3>
 <p><b>I, he, she, it</b> dùng <b>was</b>; <b>you, we, they</b> dùng <b>were</b>.</p>
-{{ex:I was tired.|/aɪ wəz ˈtaɪɚd/|Lúc đó tôi mệt}}{{ex:It was fun.|/ɪt wəz fʌn/|Vui lắm}}{{ex:We were at home.|/wiː wɝː ət hoʊm/|Chúng tôi ở nhà}}{{ex:Were you busy?|/wɝː ju ˈbɪzi/|Lúc đó bạn có bận không?}}
+{{ex:I was tired.|/aɪ wəz ˈtaɪɚd/|Lúc đó tôi mệt}}{{ex:It was fun.|/ɪt wəz fʌn/|Vui lắm}}{{ex:We were at home.|/wi wɝː ət hoʊm/|Chúng tôi ở nhà}}{{ex:Were you busy?|/wɝː ju ˈbɪzi/|Lúc đó bạn có bận không?}}
 <h3>Động từ thường: thêm -ed</h3>
 <p>Thêm <b>-ed</b> vào cuối động từ, chủ ngữ nào cũng vậy. Đuôi -ed phải được đọc ra: /t/ trong <b>worked</b>, <b>watched</b>; /d/ trong <b>called</b>, <b>played</b>; /ɪd/ trong <b>wanted</b>. Phiên âm trong khóa học luôn ghi đủ âm cuối này.</p>
-{{ex:I worked yesterday.|/aɪ wɝːkt ˈjestɚdeɪ/|Hôm qua tôi đi làm}}{{ex:We watched a movie.|/wiː wɑːtʃt‿ə ˈmuːvi/|Chúng tôi đã xem một bộ phim}}{{ex:She called me.|/ʃi kɑːld miː/|Cô ấy đã gọi cho tôi}}
+{{ex:I worked yesterday.|/aɪ wɝːkt ˈjestɚdeɪ/|Hôm qua tôi đi làm}}{{ex:We watched a movie.|/wi wɑːtʃt‿ə ˈmuːvi/|Chúng tôi đã xem một bộ phim}}{{ex:She called me.|/ʃi kɑːld mi/|Cô ấy đã gọi cho tôi}}
 <h3>Câu phủ định và câu hỏi: did</h3>
 <p>Có <b>didn't</b> hoặc <b>Did</b> thì động từ trở về dạng nguyên mẫu, vì <b>did</b> đã mang nghĩa quá khứ.</p>
-{{ex:I didn't work yesterday.|/aɪ ˈdɪdənt wɝːk ˈjestɚdeɪ/|Hôm qua tôi không đi làm}}{{ex:Did you call me?|/dɪd ju kɑːl miː/|Bạn có gọi cho tôi không?}}
+{{ex:I didn't work yesterday.|/aɪ ˈdɪdənt wɝːk ˈjestɚdeɪ/|Hôm qua tôi không đi làm}}{{ex:Did you call me?|/dɪd ju kɑːl mi/|Bạn có gọi cho tôi không?}}
 <p>“Đã” cũng không phải lúc nào cũng là <b>already</b>. “Hôm qua tôi đã đi làm” chỉ cần <b>I worked yesterday</b>.</p>
 <div class="tip">Lỗi hay gặp nhất: <b>I work yesterday.</b> ✗ → <b>I worked yesterday.</b> ✓ / <b>I didn't worked.</b> ✗ → <b>I didn't work.</b> ✓ / <b>I was work.</b> ✗ → <b>I worked.</b> ✓</div>`,
 check:[["They ___ at home yesterday. Chọn từ điền vào chỗ trống.",["was","were","did","are"],1,"Với \"they\" dùng \"were\"."],["Nói “Hôm qua tôi không đi làm” bằng tiếng Anh thế nào?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"Sau \"didn't\" là động từ nguyên mẫu."],["Did you ___ the movie? Chọn từ điền vào chỗ trống.",["watch","watched","watching","watches"],0,"Sau \"Did\" là động từ nguyên mẫu."]],
@@ -330,7 +330,7 @@ practice:[
 { id:"irregular-past", title:"Động từ bất quy tắc ở quá khứ: went, ate, saw", blurb:"Động từ càng thông dụng càng hay bất quy tắc. Học trước 12 động từ này.", deck:"Trò chuyện xã giao", body:`
 <p>Những động từ dùng hằng ngày thường là <b>động từ bất quy tắc</b>: dạng quá khứ (V2) không thêm -ed. Không có quy tắc chung nên hãy học theo cặp, và đừng nói <b>buyed</b> hay <b>goed</b>.</p>
 <div class="tbl"><table><tr><th>Hiện tại</th><th>Quá khứ</th><th>Hiện tại</th><th>Quá khứ</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
-{{ex:I went to Da Nang.|/aɪ went tə dɑː ˈnɑːŋ/|Tôi đã đi Đà Nẵng}}{{ex:We ate pizza.|/wiː eɪt ˈpiːtsə/|Chúng tôi đã ăn bánh pizza}}{{ex:I saw a movie.|/aɪ sɑː ə ˈmuːvi/|Tôi đã xem một bộ phim}}{{ex:I met my friends.|/aɪ met maɪ frendz/|Tôi đã gặp bạn bè}}{{ex:I bought a book.|/aɪ bɑːt‿ə bʊk/|Tôi đã mua một quyển sách}}
+{{ex:I went to Da Nang.|/aɪ went tə dɑː ˈnɑːŋ/|Tôi đã đi Đà Nẵng}}{{ex:We ate pizza.|/wi eɪt ˈpiːtsə/|Chúng tôi đã ăn bánh pizza}}{{ex:I saw a movie.|/aɪ sɑː ə ˈmuːvi/|Tôi đã xem một bộ phim}}{{ex:I met my friends.|/aɪ met maɪ frendz/|Tôi đã gặp bạn bè}}{{ex:I bought a book.|/aɪ bɑːt‿ə bʊk/|Tôi đã mua một quyển sách}}
 <h3>Câu hỏi và câu phủ định: trở về nguyên mẫu</h3>
 <p><b>did</b> đã mang nghĩa quá khứ, nên động từ chính trở về dạng nguyên mẫu.</p>
 {{ex:What did you do?|/wʌt dɪd ju duː/|Bạn đã làm gì?}}{{ex:Where did you go?|/wer dɪd ju goʊ/|Bạn đã đi đâu?}}{{ex:I didn't go.|/aɪ ˈdɪdənt goʊ/|Tôi đã không đi}}
@@ -387,7 +387,7 @@ practice:[
 <h3>So sánh hơn: -er hoặc more</h3>
 <p>Từ ngắn thêm <b>-er</b>, từ dài thêm <b>more</b> phía trước. “Hơn…” là <b>than</b>.</p>
 <div class="tbl"><table><tr><th>Tính từ</th><th>So sánh hơn</th><th>So sánh nhất</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
-{{ex:This one is cheaper.|/ðɪs wʌn‿ɪz ˈtʃiːpɚ/|Cái này rẻ hơn}}{{ex:It's more expensive than that one.|/ɪts mɔːr ɪkˈspensɪv ðæn ðæt wʌn/|Nó đắt hơn cái kia}}{{ex:Do you have a bigger size?|/duː ju hæv‿ə ˈbɪgɚ saɪz/|Có cỡ to hơn không?}}
+{{ex:This one is cheaper.|/ðɪs wʌn‿ɪz ˈtʃiːpɚ/|Cái này rẻ hơn}}{{ex:It's more expensive than that one.|/ɪts mɔːr ɪkˈspensɪv ðən ðæt wʌn/|Nó đắt hơn cái kia}}{{ex:Do you have a bigger size?|/duː ju hæv‿ə ˈbɪgɚ saɪz/|Có cỡ to hơn không?}}
 <h3>So sánh nhất: luôn có the</h3>
 {{ex:This is the best restaurant here.|/ðɪs‿ɪz ðə best ˈrestərɑːnt hɪr/|Đây là nhà hàng ngon nhất ở đây}}{{ex:Which is the cheapest?|/wɪtʃ‿ɪz ðə ˈtʃiːpɪst/|Cái nào rẻ nhất?}}
 <div class="tip">Lỗi hay gặp nhất: <b>a bag big</b> ✗ → <b>a big bag</b> ✓ / <b>more cheaper</b>, <b>more good</b> ✗ → <b>cheaper</b>, <b>better</b> ✓. Không dùng -er và more cùng lúc.</div>`,

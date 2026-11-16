@@ -64,20 +64,20 @@ exports.LESSONS = [
 <p>Tiếng Việt thể hiện lịch sự qua cách xưng hô (anh, chị, em…) và các từ như “ạ”, “dạ”, “vui lòng”. Tiếng Anh chỉ có một chữ <b>you</b> cho mọi người, từ bạn bè đến sếp. Sự lịch sự nằm ở <b>cách đặt câu nhờ vả</b>: cùng một nội dung, đổi khung câu là nghe thô lỗ hay lịch sự ngay.</p>
 <h3>Các bậc lịch sự</h3>
 <div class="tbl"><table><tr><th>Cách nói</th><th>Cảm giác</th><th>Dùng khi nào</th></tr><tr><td class="k">Give me ~.</td><td>Ra lệnh, nghe thô lỗ</td><td>Đừng dùng</td></tr><tr><td class="k">Can you ~?</td><td>Nhờ thân mật</td><td>Bạn bè, cửa hàng</td></tr><tr><td class="k">Could you ~?</td><td>Nhờ lịch sự</td><td>Người lạ, nơi làm việc</td></tr><tr><td class="k">Would you mind ~ing?</td><td>Rất lịch sự</td><td>Việc nhờ lớn, cấp trên</td></tr></table></div>
-{{ex:Could you help me?|/kʊd ju help miː/|Bạn giúp tôi một chút được không?}}{{ex:Could you say that again?|/kʊd ju seɪ ðæt‿əˈgen/|Bạn nói lại giúp tôi được không?}}{{ex:Would you mind taking a picture of us?|/wʊd ju maɪnd ˈteɪkɪŋ‿ə ˈpɪktʃɚ əv‿ʌs/|Phiền bạn chụp giúp chúng tôi một tấm ảnh được không?}}
+{{ex:Could you help me?|/kʊd ju help mi/|Bạn giúp tôi một chút được không?}}{{ex:Could you say that again?|/kʊd ju seɪ ðæt‿əˈgen/|Bạn nói lại giúp tôi được không?}}{{ex:Would you mind taking a picture of us?|/wʊd ju maɪnd ˈteɪkɪŋ‿ə ˈpɪktʃɚ əv‿ʌs/|Phiền bạn chụp giúp chúng tôi một tấm ảnh được không?}}
 <h3>Gọi món: Can I get ~? / I'd like ~</h3>
 <p><b>I want ~</b> nghe như trẻ con đòi. Ở cửa hàng, hãy nói thế này.</p>
 {{ex:Can I get a latte, please?|/kən‿aɪ get‿ə ˈlɑːteɪ pliːz/|Cho tôi một cốc latte}}{{ex:I'd like a window seat.|/aɪd laɪk‿ə ˈwɪndoʊ siːt/|Cho tôi ghế cạnh cửa sổ}}
 <h3>Cái bẫy của Would you mind…?</h3>
 <p>“Mind” nghĩa là “phiền, ngại”. Vì vậy trả lời <b>"No"</b> lại có nghĩa là <b>đồng ý</b>!</p>
-{{ex:Would you mind opening the window?|/wʊd ju maɪnd ˈoʊpənɪŋ ðə ˈwɪndoʊ/|Phiền bạn mở giúp cửa sổ được không?}}{{ex:No, not at all.|/noʊ nɑːt‿ət‿ɑːl/|Được chứ (không phiền gì cả)}}
+{{ex:Would you mind opening the window?|/wʊd ju maɪnd‿ˈoʊpənɪŋ ðə ˈwɪndoʊ/|Phiền bạn mở giúp cửa sổ được không?}}{{ex:No, not at all.|/noʊ nɑːt‿ət‿ɑːl/|Được chứ (không phiền gì cả)}}
 <div class="tip">Hai từ <b>please</b> và <b>thank you</b> dùng bao nhiêu cũng không thừa. Chỉ cần thêm please vào cuối câu là nghe mềm hơn hẳn. Ngữ điệu cũng quan trọng: lên giọng nhẹ ở cuối là nhờ, xuống giọng thì nghe như ra lệnh.</div>`},
 
 { id:"tense", title:"5 · Tổng quan các thì: hiện tại, quá khứ, tương lai", blurb:"Thói quen dùng hiện tại đơn, việc đang làm dùng tiếp diễn, kế hoạch dùng \"going to\". Từ chỉ thời gian không thay được thì.", deck:"Trò chuyện xã giao", body:`
 <p>Tiếng Việt chỉ cần “tôi ăn” cho cả thói quen, việc đang làm lẫn việc sắp làm; “đã, đang, sẽ” có thể bỏ khi đã có “hôm qua”, “bây giờ”. Tiếng Anh thì <b>chính động từ phải đổi dạng</b>, dù câu đã có từ chỉ thời gian. Có <b>yesterday</b> vẫn phải dùng <b>went</b>: <b>I go to school yesterday.</b> ✗ → <b>I went to school yesterday.</b> ✓. Cũng đừng thêm already vì quen nói “đã”: <b>I already go…</b> ✗.</p>
 <h3>Hiện tại đơn và hiện tại tiếp diễn</h3>
 <div class="tbl"><table><tr><th>Dạng</th><th>Nghĩa</th><th>Ví dụ</th></tr><tr><td class="k">Hiện tại đơn</td><td>thói quen, sự thật</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + V-ing</td><td>đang làm / lịch hẹn gần đã định</td><td>I'm drinking coffee right now.</td></tr></table></div>
-{{ex:I work at a bank.|/aɪ wɝːk‿ət‿ə bæŋk/|Tôi làm ở ngân hàng (công việc thường ngày)}}{{ex:I'm working from home today.|/aɪm ˈwɝːkɪŋ frʌm hoʊm təˈdeɪ/|Hôm nay tôi làm việc ở nhà}}
+{{ex:I work at a bank.|/aɪ wɝːk‿ət‿ə bæŋk/|Tôi làm ở ngân hàng (công việc thường ngày)}}{{ex:I'm working from home today.|/aɪm ˈwɝːkɪŋ frəm hoʊm təˈdeɪ/|Hôm nay tôi làm việc ở nhà}}
 <p>“Đang” gần giống be + V-ing, nhưng <b>be</b> không được bỏ: <b>I going.</b> ✗ → <b>I'm going.</b> ✓</p>
 <h3>Quá khứ đơn</h3>
 <p>Động từ có quy tắc thêm <b>-ed</b>; phần lớn động từ hay dùng là bất quy tắc: <b>go → went, eat → ate, see → saw, have → had, get → got</b>.</p>
@@ -124,7 +124,7 @@ exports.LESSONS = [
 <div class="tbl"><table><tr><th>Từ trang trọng</th><th>Cụm động từ (hằng ngày)</th><th>Nghĩa</th></tr><tr><td>postpone</td><td class="k">put off</td><td>hoãn lại</td></tr><tr><td>discover</td><td class="k">find out</td><td>phát hiện ra</td></tr><tr><td>exercise</td><td class="k">work out</td><td>tập thể dục</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>chịu đựng</td></tr></table></div>
 <h3>Từ nhỏ mang gợi ý về nghĩa</h3>
 <p><b>up</b> gợi ý “lên, hết hẳn”, <b>out</b> là “ra ngoài, đến cùng”, <b>off</b> là “rời ra, dừng”, <b>on</b> là “gắn vào, tiếp tục”.</p>
-{{ex:I grew up in Da Nang.|/aɪ gruː ʌp‿ɪn dɑː ˈnɑːŋ/|Tôi lớn lên ở Đà Nẵng}}{{ex:We ran out of milk.|/wiː ræn‿aʊt‿əv mɪlk/|Nhà mình hết sữa rồi}}{{ex:Turn off your phone, please.|/tɝːn‿ɑːf jʊr foʊn pliːz/|Vui lòng tắt điện thoại}}
+{{ex:I grew up in Da Nang.|/aɪ gruː ʌp‿ɪn dɑː ˈnɑːŋ/|Tôi lớn lên ở Đà Nẵng}}{{ex:We ran out of milk.|/wi ræn‿aʊt‿əv mɪlk/|Nhà mình hết sữa rồi}}{{ex:Turn off your phone, please.|/tɝːn‿ɑːf jʊr foʊn pliːz/|Vui lòng tắt điện thoại}}
 <p>Đừng dịch từng chữ từ tiếng Việt: “mở đèn” là <b>turn on the light</b>, không phải <b>open the light</b> ✗.</p>
 <h3>Đại từ đứng giữa!</h3>
 <p>Nhiều cụm động từ có tân ngữ tách ra được. Danh từ đứng trước hay sau từ nhỏ đều được, nhưng <b>đại từ như it, them, me bắt buộc đứng giữa</b>.</p>
@@ -144,7 +144,7 @@ exports.LESSONS = [
 {{ex:thirteen|/ˌθɝːˈtiːn/|số 13}}{{ex:thirty|/ˈθɝːti/|số 30}}{{ex:fifteen / fifty|/ˌfɪfˈtiːn/ / /ˈfɪfti/|số 15 / số 50}}
 <h3>Giờ</h3>
 <p>Cách dễ nhất là đọc giờ rồi đọc phút. Phút từ 1 đến 9 thì thêm <b>oh</b> phía trước.</p>
-{{ex:It's seven fifteen.|/ɪts ˈsevən ˌfɪfˈtiːn/|Bây giờ là 7 giờ 15}}{{ex:It's nine oh five.|/ɪts naɪn oʊ faɪv/|Bây giờ là 9 giờ 5 phút}}{{ex:It's a quarter past ten.|/ɪts‿ə ˈkwɔːrtɚ pæst ten/|Bây giờ là 10 giờ 15}}
+{{ex:It's seven fifteen.|/ɪts ˈsevən ˌfɪfˈtiːn/|Bây giờ là 7 giờ 15}}{{ex:It's nine oh five.|/ɪts naɪn‿oʊ faɪv/|Bây giờ là 9 giờ 5 phút}}{{ex:It's a quarter past ten.|/ɪts‿ə ˈkwɔːrtɚ pæst ten/|Bây giờ là 10 giờ 15}}
 <h3>Giá tiền và năm</h3>
 <p>Giá tiền đọc đô la và xu riêng, hoặc đọc gọn thành hai cụm số. Năm thì tách thành hai cặp số.</p>
 {{ex:It's four ninety-nine.|/ɪts fɔːr ˈnaɪnti naɪn/|Giá 4 đô 99}}{{ex:That's twelve fifty.|/ðæts twelv ˈfɪfti/|Hết 12 đô 50}}{{ex:twenty twenty-six|/ˈtwenti ˈtwenti sɪks/|năm 2026}}
@@ -157,9 +157,9 @@ exports.LESSONS = [
 <h3>Chào bằng Hi là đủ</h3>
 <p>“Kính gửi anh/chị…” không cần dịch sát. Ở công ty Mỹ, <b>Hi + tên</b> là phù hợp, kể cả khi viết cho người lần đầu liên lạc. Chỉ dùng Dear khi rất trang trọng. Chỉ ghi chức danh (Dear Manager) nghe rất lạ. Cuối thư, “Trân trọng” tương ứng với <b>Best regards</b>.</p>
 <p>Tên người Việt: người đọc tiếng Anh thường gọi bằng tên riêng, nên Nguyễn Văn Minh có thể ký <b>Minh Nguyen</b>, và người ta sẽ chào <b>Hi Minh</b>. Bạn cũng chào đối tác bằng tên riêng của họ.</p>
-{{ex:I hope this email finds you well.|/aɪ hoʊp ðɪs ˈiːmeɪl faɪndz ju wel/|Hy vọng anh/chị vẫn khỏe}}{{ex:I'm writing to follow up on our meeting.|/aɪm ˈraɪtɪŋ tə ˈfɑːloʊ ʌp‿ɑːn‿aʊr ˈmiːtɪŋ/|Tôi viết thư này để trao đổi tiếp về cuộc họp vừa rồi}}
+{{ex:I hope this email finds you well.|/aɪ hoʊp ðɪs‿ˈiːmeɪl faɪndz ju wel/|Hy vọng anh/chị vẫn khỏe}}{{ex:I'm writing to follow up on our meeting.|/aɪm ˈraɪtɪŋ tə ˈfɑːloʊ ʌp‿ɑːn‿aʊr ˈmiːtɪŋ/|Tôi viết thư này để trao đổi tiếp về cuộc họp vừa rồi}}
 <h3>Nhờ nhẹ nhàng, hạn chót rõ ràng</h3>
-{{ex:Could you send me the report by Thursday?|/kʊd ju send miː ðə rɪˈpɔːrt baɪ ˈθɝːzdeɪ/|Anh/chị gửi giúp tôi bản báo cáo chậm nhất vào thứ năm được không?}}{{ex:Thanks for your patience.|/θæŋks fɚ jʊr ˈpeɪʃəns/|Cảm ơn anh/chị đã kiên nhẫn chờ}}
+{{ex:Could you send me the report by Thursday?|/kʊd ju send mi ðə rɪˈpɔːrt baɪ ˈθɝːzdeɪ/|Anh/chị gửi giúp tôi bản báo cáo chậm nhất vào thứ năm được không?}}{{ex:Thanks for your patience.|/θæŋks fɚ jʊr ˈpeɪʃəns/|Cảm ơn anh/chị đã kiên nhẫn chờ}}
 <p><b>ASAP</b> nghe như đang hối thúc người nhận. Nếu được, hãy ghi hạn chót bằng <b>by + ngày</b>.</p>
 <h3>“Mọi người vất vả rồi” nói thế nào?</h3>
 <p>Dịch sát “vất vả” thành <b>suffered</b> sẽ rất lạ. Hãy đổi cách nói theo tình huống.</p>

@@ -4,10 +4,10 @@ module.exports = [
 { id:"past-continuous", title:"Thì quá khứ tiếp diễn: was / were + -ing", blurb:"Việc đang diễn ra tại một thời điểm trong quá khứ — phần bối cảnh của câu chuyện.", deck:"Cảm xúc · phản ứng", body:`
 <p>Thì quá khứ tiếp diễn nói về việc <b>đang xảy ra</b> tại một thời điểm trong quá khứ. Tiếng Việt chỉ cần thêm “đang” (“lúc đó tôi đang ngủ”), động từ giữ nguyên. Tiếng Anh phải đưa động từ to be về quá khứ: <b>was / were</b> + dạng V-ing.</p>
 <p><b>I, he, she, it</b> → <b>was</b>; <b>you, we, they</b> → <b>were</b>. Không được bỏ <b>was / were</b>: <b>I sleeping.</b> ✗ → <b>I was sleeping.</b> ✓</p>
-{{ex:I was sleeping.|/aɪ wəz ˈsliːpɪŋ/|Lúc đó tôi đang ngủ}}{{ex:We were watching TV.|/wiː wɝː ˈwɑːtʃɪŋ tiːˈviː/|Chúng tôi đang xem tivi}}{{ex:It was raining.|/ɪt wəz ˈreɪnɪŋ/|Trời đang mưa}}
+{{ex:I was sleeping.|/aɪ wəz ˈsliːpɪŋ/|Lúc đó tôi đang ngủ}}{{ex:We were watching TV.|/wi wɝː ˈwɑːtʃɪŋ tiː ˈviː/|Chúng tôi đang xem tivi}}{{ex:It was raining.|/ɪt wəz ˈreɪnɪŋ/|Trời đang mưa}}
 <h3>Câu nghi vấn</h3>
 <p>Đưa <b>was / were</b> lên trước chủ ngữ. Ở đây không dùng <b>did</b>.</p>
-{{ex:What were you doing?|/wɑːt wɝː ju ˈduːɪŋ/|Lúc đó bạn đang làm gì?}}{{ex:Were you working at nine?|/wɝː ju ˈwɝːkɪŋ‿ət naɪn/|Lúc chín giờ bạn có đang làm việc không?}}
+{{ex:What were you doing?|/wʌt wɝː ju ˈduːɪŋ/|Lúc đó bạn đang làm gì?}}{{ex:Were you working at nine?|/wɝː ju ˈwɝːkɪŋ‿ət naɪn/|Lúc chín giờ bạn có đang làm việc không?}}
 <h3>Với when: đang làm thì có việc xen vào</h3>
 <p>Việc kéo dài dùng <b>thì quá khứ tiếp diễn</b>, việc ngắn xen vào dùng <b>thì quá khứ đơn</b>, giống câu “Tôi đang nấu ăn thì bạn gọi”.</p>
 {{ex:I was cooking when you called.|/aɪ wəz ˈkʊkɪŋ wen ju kɑːld/|Lúc bạn gọi, tôi đang nấu ăn}}{{ex:I was walking home when it started to rain.|/aɪ wəz ˈwɑːkɪŋ hoʊm wen‿ɪt ˈstɑːrtɪd tə reɪn/|Tôi đang đi bộ về nhà thì trời bắt đầu mưa}}
@@ -147,7 +147,7 @@ practice:[
 <p>Bài thứ ba về mạo từ. Tiếng Việt không có mạo từ, nên cách chắc nhất là nhớ theo nhóm: nhóm nào luôn có <b>the</b>, nhóm nào không bao giờ có.</p>
 <h3>Trường hợp dùng the</h3>
 <div class="tbl"><table><tr><th>Trường hợp</th><th>Ví dụ</th></tr><tr><td>Thứ duy nhất trên đời</td><td class="k">the sun, the internet</td></tr><tr><td>Nhạc cụ</td><td class="k">play the piano</td></tr><tr><td>Sông, biển</td><td class="k">the Mekong, the Pacific</td></tr><tr><td>Tên nước có dạng số nhiều hoặc liên bang</td><td class="k">the United States, the Philippines</td></tr></table></div>
-{{ex:I play the piano.|/aɪ pleɪ ðə piˈænoʊ/|Tôi chơi đàn piano}}{{ex:She's from the United States.|/ʃiz frʌm ðə juˈnaɪtɪd steɪts/|Cô ấy đến từ Mỹ}}{{ex:I found it on the internet.|/aɪ faʊnd‿ɪt‿ɑːn ði ˈɪntɚnet/|Tôi tìm thấy nó trên mạng}}
+{{ex:I play the piano.|/aɪ pleɪ ðə piˈænoʊ/|Tôi chơi đàn piano}}{{ex:She's from the United States.|/ʃiz frəm ðə juˈnaɪtɪd steɪts/|Cô ấy đến từ Mỹ}}{{ex:I found it on the internet.|/aɪ faʊnd‿ɪt‿ɑːn ði ˈɪntɚnet/|Tôi tìm thấy nó trên mạng}}
 <h3>Trường hợp không dùng mạo từ</h3>
 <div class="tbl"><table><tr><th>Trường hợp</th><th>Ví dụ</th></tr><tr><td>Phần lớn tên nước, thành phố</td><td class="k">Vietnam, Hanoi</td></tr><tr><td>Môn thể thao, ngôn ngữ, bữa ăn</td><td class="k">play soccer, speak English, have lunch</td></tr><tr><td>Nói về cả một loại</td><td class="k">Dogs are cute. I love music.</td></tr></table></div>
 {{ex:I live in Vietnam.|/aɪ lɪv‿ɪn viːetˈnɑːm/|Tôi sống ở Việt Nam}}{{ex:I play soccer.|/aɪ pleɪ ˈsɑːkɚ/|Tôi chơi bóng đá}}{{ex:Dogs are cute.|/dɑːgz‿ɑːr kjuːt/|Chó thì dễ thương}}
@@ -179,7 +179,7 @@ practice:[
 <p>Khi <b>if</b> đứng sau thì không cần dấu phẩy.</p>
 {{ex:I'll help you if I have time.|/aɪl help ju ɪf‿aɪ hæv taɪm/|Nếu có thời gian, tôi sẽ giúp bạn}}
 <h3>Với câu mệnh lệnh</h3>
-{{ex:If you're late, call me.|/ɪf jʊr leɪt kɑːl miː/|Nếu đến muộn thì gọi cho tôi nhé}}{{ex:If you need help, let me know.|/ɪf ju niːd help let miː noʊ/|Nếu cần giúp thì cứ báo tôi}}
+{{ex:If you're late, call me.|/ɪf jʊr leɪt kɑːl mi/|Nếu đến muộn thì gọi cho tôi nhé}}{{ex:If you need help, let me know.|/ɪf ju niːd help let mi noʊ/|Nếu cần giúp thì cứ báo tôi}}
 <h3>when: khi (chắc chắn xảy ra)</h3>
 <p>Nếu việc chắc chắn sẽ xảy ra thì dùng <b>when</b> thay cho <b>if</b>. Sau <b>when</b> cũng không dùng <b>will</b>.</p>
 {{ex:When I get home, I'll call you.|/wen‿aɪ get hoʊm aɪl kɑːl ju/|Về đến nhà tôi sẽ gọi cho bạn}}
@@ -209,9 +209,9 @@ practice:[
 {{ex:the book that I bought|/ðə bʊk ðæt‿aɪ bɑːt/|quyển sách tôi đã mua}}{{ex:This is the phone that I want.|/ðɪs‿ɪz ðə foʊn ðæt‿aɪ wɑːnt/|Đây là cái điện thoại tôi muốn có}}
 <h3>Thường bỏ that</h3>
 <p>Nếu ngay sau là “chủ ngữ + động từ” thì có thể bỏ <b>that</b>, giống như bỏ “mà” trong tiếng Việt. Khi nói, người ta gần như luôn bỏ. Còn <b>who lives…</b>, <b>who speaks…</b> thì không bỏ được, vì phần sau không có chủ ngữ.</p>
-{{ex:The movie we saw was great.|/ðə ˈmuːvi wiː sɑː wəz greɪt/|Bộ phim chúng tôi xem hay lắm}}
+{{ex:The movie we saw was great.|/ðə ˈmuːvi wi sɑː wəz greɪt/|Bộ phim chúng tôi xem hay lắm}}
 <h3>Nơi chốn: where</h3>
-{{ex:the cafe where we met|/ðə kæˈfeɪ wer wiː met/|quán cà phê nơi chúng ta gặp nhau}}
+{{ex:the cafe where we met|/ðə kæˈfeɪ wer wi met/|quán cà phê nơi chúng ta gặp nhau}}
 <div class="tip">Không dùng <b>what</b>: <b>the book what I bought</b> ✗ → <b>the book (that) I bought</b> ✓</div>`,
 check:[["I have a friend ___ lives in Busan. Từ nào điền vào chỗ trống?",["which","who","what","he"],1,"Bổ nghĩa cho người dùng \"who\"."],["“quyển sách tôi đã mua” trong tiếng Anh là cụm nào?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Danh từ đứng trước, rồi giải thích bằng \"that\", giống trật tự tiếng Việt."],["Câu nào đúng?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Phần bổ nghĩa đứng sau danh từ và mở đầu bằng \"who\"."]],
 practice:[

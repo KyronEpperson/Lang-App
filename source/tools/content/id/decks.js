@@ -1,413 +1,452 @@
-/* TRANSLATE/ADAPT (id): scaffolded from tools/content/ko/decks.js by new_lang.js.
-   Translate/adapt everything that is Korean for id speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the id point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
+/* id-en decks (Indonesian speakers learning English). Deck source: one card per line, fields separated by " | " : target | pron | meaning | note
+   pron = Indonesian-letter respelling ("cara baca") per docs/profiles/id.md §6: stressed syllable of 2+ syllable words in CAPITALS,
+   ii/uu/aa/oo long vowels, é = /ɛ/, è = /æ/, e = schwa, sy/c/j/ng/ngk/ngg as in Indonesian, th/dh/v/z kept distinct, flap t = d,
+   weak function words; one-word collisions tagged (i pendek). Deck names are fixed in DECKNAMES.md (rows 1–20 by position, row 21 id-only). */
 module.exports = {
-"인사": `
-Hello. | 헬로우 | 안녕하세요 | 가장 기본 인사예요. 언제 어디서나, 누구에게나 OK
-Hi! | 하이! | 안녕! / 안녕하세요 | Hello보다 가볍고 친근해요. 미국에선 직장 동료끼리도 Hi를 써요
-Hey! | 헤이! | 야! / 안녕! | 친구끼리 쓰는 말. 처음 보는 사람에게 쓰면 무례하게 들릴 수 있어요
-Good morning. | 굿 모닝 | 좋은 아침이에요 | 정오 전까지 써요. 줄여서 그냥 "Morning!"이라고도 해요
-Good afternoon. | 굿 애프터눈 | 안녕하세요 (오후 인사) | 낮 12시~6시쯤. 약간 격식 있는 느낌이라 가게·회사에서 자주 들려요
-Good evening. | 굿 이브닝 | 안녕하세요 (저녁 인사) | 만날 때 하는 저녁 인사예요. Good night은 헤어질 때만 써요!
-How are you? | 하우 아 유? | 잘 지내요? / 안녕하세요? | 진짜 안부라기보다 인사예요. "Good, thanks. You?"로 가볍게 받아요
-I'm good, thanks. And you? | 아임 굿, 땡스. 앤 쥬? | 잘 지내요, 고마워요. 당신은요? | "I'm fine, thank you"는 교과서 느낌. good이 훨씬 자연스러워요
-What's up? | 왓썹? | 뭐 해? / 별일 없어? | 하늘(up)을 볼 필요 없어요. 보통 "Not much."로 대답해요
-Not much. | 낫 머치 | 별일 없어 | What's up?에 대한 가장 흔한 대답. "Not much, you?"로 되물어요
-How's it going? | 하우즈 잇 고잉? | 어떻게 지내? / 잘 돼 가? | How are you?의 캐주얼 버전. "Pretty good!"으로 받아요
-Nice to meet you. | 나이스 투 미츄 | 만나서 반가워요 | 처음 만났을 때만 써요. 대답은 "Nice to meet you, too."
-Long time no see! | 롱 타임 노 씨! | 오랜만이에요! | 친한 사이에서 써요. 조금 격식 있게는 "It's been a while."
-See you later. | 씨 유 레이러 | 나중에 봐요 | 다시 만날 계획이 없어도 헤어질 때 인사로 그냥 써요
-Take care. | 테익 케어 | 잘 지내요 / 몸조심해요 | 헤어질 때 하는 따뜻한 인사. 문자 끝에도 자주 붙여요
-Have a good one! | 해버 굿 원! | 좋은 하루 보내요! | 가게 직원이 계산 후 자주 해요. "You too!"로 받으면 끝
-Bye! | 바이! | 안녕! (헤어질 때) | "Bye-bye"는 어른끼리 쓰면 조금 귀엽게(아이 말투처럼) 들릴 수 있어요
-Good night. | 굿 나잇 | 잘 자요 / 안녕히 가세요 (밤) | 밤에 헤어지거나 자러 갈 때만 써요. 만날 때는 Good evening
+"Salam": `
+Hello. | hé-LOU | Halo | Salam paling dasar. Cocok di mana saja dan untuk siapa saja
+Hi! | hai! | Hai! | Lebih santai dan akrab daripada "Hello". Di Amerika, rekan kerja pun saling menyapa "Hi"
+Hey! | hei! | Hei! (sapaan akrab) | Untuk teman. Ke orang yang baru dikenal bisa terdengar kurang sopan
+Good morning. | gud MOOR-ning | Selamat pagi | Dipakai sampai tengah hari. Ke teman cukup "Morning!"
+Good afternoon. | gud èf-ter-NUUN | Selamat siang / Selamat sore | Kira-kira pukul 12.00–18.00. Agak formal, sering terdengar di toko dan kantor
+Good evening. | gud IIV-ning | Selamat malam (saat bertemu) | Sapaan malam saat bertemu. "Good night" hanya untuk berpisah!
+How are you? | hau er yu? | Apa kabar? | Lebih mirip salam daripada pertanyaan sungguhan. Jawab singkat saja: "Good, thanks. You?"
+I'm good, thanks. And you? | aim gud, thèngks. en yuu? | Baik, terima kasih. Kamu? | "I'm fine, thank you" terdengar seperti buku pelajaran. "Good" jauh lebih alami
+What's up? | wats ap? | Ada apa? / Lagi apa? | Bukan bertanya soal "atas" (up). Biasanya dijawab "Not much."
+Not much. | naat mac | Biasa saja | Jawaban paling umum untuk "What's up?". Tanya balik: "Not much, you?"
+How's it going? | hauz it GOU-ing? | Bagaimana kabarnya? | Versi santai dari "How are you?". Jawab misalnya "Pretty good!"
+Nice to meet you. | nais te miit yu | Senang berkenalan denganmu | Hanya saat pertama kali bertemu. Jawabannya: "Nice to meet you, too."
+Long time no see! | loong taim nou sii! | Lama tidak bertemu! | Untuk orang yang sudah akrab. Lebih formal: "It's been a while."
+See you later. | sii yu LEI-der | Sampai nanti | Diucapkan saat berpisah, meskipun belum ada rencana bertemu lagi
+Take care. | teik kér | Hati-hati, ya / Jaga diri | Salam perpisahan yang hangat. Sering juga ditulis di akhir pesan
+Have a good one! | hèv e gud wan! | Semoga harimu menyenangkan! | Sering diucapkan kasir setelah kamu membayar. Cukup jawab "You too!"
+Bye! | bai! | Dah! | "Bye-bye" antarorang dewasa terdengar agak kekanak-kanakan
+Good night. | gud nait | Selamat tidur / Selamat malam (saat berpisah) | Hanya saat berpisah malam hari atau mau tidur. Untuk menyapa saat datang: "Good evening"
 `,
-"자기소개": `
-My name is Minji. | 마이 네임 이즈 민지 | 제 이름은 민지예요 | 일상에서는 더 짧게 "I'm Minji."라고 많이 해요
-Please call me Jay. | 플리즈 콜 미 제이 | 제이라고 불러 주세요 | 영어 이름이 있거나 이름을 줄여 부르고 싶을 때
-What should I call you? | 왓 슈다이 콜 유? | 뭐라고 부르면 될까요? | 상대 이름 발음이 어렵거나 애칭이 궁금할 때 유용해요
-Where are you from? | 웨어 아 유 프럼? | 어디서 왔어요? / 어느 나라 사람이에요? | 외국에서 가장 먼저 듣는 질문 중 하나예요
-I'm from Korea. | 아임 프럼 코리아 | 한국에서 왔어요 | 도시까지 말하면 대화가 이어져요: "I'm from Busan, in South Korea."
-I live in Seoul. | 아이 리브 인 서울 | 서울에 살아요 | live의 v는 윗니로 아랫입술을 살짝 물고 소리 내요
-I'm a student. | 아임 어 스튜던트 | 저는 학생이에요 | 직업 앞에는 꼭 a/an! "I'm student"는 가장 흔한 실수예요
-What do you do? | 왓 두 유 두? | 무슨 일 하세요? | 직업을 묻는 표준 질문. "What's your job?"보다 부드러워요
-I work at a bank. | 아이 워크 앳 어 뱅크 | 은행에서 일해요 | 회사·장소 앞엔 at: "I work at Samsung."
-I work in marketing. | 아이 워크 인 마케팅 | 마케팅 분야에서 일해요 | 분야·부서 앞엔 in. at(회사)과 구분해요
-I'm 25 years old. | 아임 트웬티파이브 이어즈 올드 | 저는 25살이에요 | 영어권에선 만 나이로 말해요. 나이를 먼저 묻는 건 실례일 수 있어요
-I'm really into hiking. | 아임 륄리 인투 하이킹 | 등산에 푹 빠져 있어요 | "My hobby is…"보다 훨씬 자연스러운 취미 표현이에요
-I like watching movies. | 아이 라익 와칭 무비즈 | 영화 보는 걸 좋아해요 | like 뒤에 동작이 오면 ~ing 또는 to + 동사원형
-I've been learning English for a year. | 아이브 빈 러닝 잉글리시 포러 이어 | 영어를 1년째 배우고 있어요 | 지금까지 계속 해 온 일은 have been + ~ing
-I'm here on vacation. | 아임 히어 온 베이케이션 | 휴가로 왔어요 | 영국식은 "I'm here on holiday."
-I'm married. | 아임 매리드 | 결혼했어요 | 미혼이면 "I'm single." 초면에 결혼 여부를 묻는 건 피하는 게 좋아요
-I have a younger brother. | 아이 해버 영거 브라더 | 남동생이 한 명 있어요 | 영어는 형·오빠·남동생을 older/younger brother로만 구분해요
+"Perkenalan diri": `
+My name is Budi. | mai neim iz BUU-di | Nama saya Budi | Sehari-hari lebih sering cukup "I'm Budi."
+Please call me Jay. | pliiz kool mi jei | Panggil saya Jay saja | Kalau kamu punya nama panggilan atau nama yang lebih mudah diucapkan
+What should I call you? | wat syud ai kool yu? | Enaknya saya panggil kamu apa? | Berguna kalau namanya sulit diucapkan atau kamu ingin tahu nama panggilannya
+Where are you from? | wér er yu fram? | Kamu dari mana? | Salah satu pertanyaan pertama yang akan kamu dengar. "from" ada di akhir kalimat
+I'm from Indonesia. | aim frem in-de-NII-zye | Saya dari Indonesia | Sebut kotanya juga supaya obrolan berlanjut: "I'm from Surabaya, in Indonesia."
+I live in Jakarta. | ai liv in je-KAAR-te | Saya tinggal di Jakarta | v pada "live" dibaca dengan gigi atas menyentuh bibir bawah dan pita suara bergetar, bukan f
+I'm a student. | aim e STUU-dent | Saya pelajar / mahasiswa | Sebelum pekerjaan wajib ada artikel "a/an"! "I'm student" adalah kesalahan paling umum. Dosen = "lecturer"
+What do you do? | wat de yu duu? | Kamu kerja apa? | Pertanyaan standar soal pekerjaan. Lebih halus daripada "What's your job?"
+I work at a bank. | ai werk et e bèngk | Saya bekerja di bank | Sebelum perusahaan atau tempat kerja pakai "at": "I work at a hotel."
+I work in marketing. | ai werk in MAAR-ke-ting | Saya bekerja di bidang pemasaran | Sebelum bidang atau divisi pakai "in". "di" dalam bahasa Indonesia bisa jadi "at" atau "in"
+I'm 25 years old. | aim TWÉN-ti-faiv yirz ould | Umur saya 25 tahun | Umur pakai "be", bukan "have". "years" dalam bentuk jamak. Menanyakan umur ke orang yang baru dikenal bisa terasa tidak sopan
+I'm really into hiking. | aim RII-li IN-tu HAI-king | Saya sangat suka mendaki gunung | Jauh lebih alami daripada "My hobby is…"
+I like watching movies. | ai laik WAA-cing MUU-viz | Saya suka menonton film | Setelah "like", kata kerja pakai bentuk -ing atau "to" + V1
+I've been learning English for a year. | aiv bin LER-ning ING-glisy fer e yir | Saya sudah setahun belajar bahasa Inggris | Untuk hal yang dimulai dulu dan masih berlangsung: "have been" + -ing. Jangan "I learn English since one year"
+I'm here on vacation. | aim hir aan vei-KEI-syen | Saya ke sini untuk berlibur | Dalam bahasa Inggris Britania: "on holiday"
+I'm married. | aim MÉ-rid | Saya sudah menikah | Kalau belum: "I'm single." Jangan membuka obrolan dengan "Are you married?": bagi penutur asli itu terlalu pribadi
+I have a younger brother. | ai hèv e YANG-ger BRA-dher | Saya punya satu adik laki-laki | "adik" tidak punya padanan langsung: sebut "younger brother" atau "younger sister". Kakak = "older brother / sister"
 `,
-"생존 영어 1": `
-Excuse me. | 익스큐즈 미 | 실례합니다 / 저기요 | 사람을 부르거나 지나갈 때 써요. 부딪친 뒤에는 Sorry!
-Thank you. | 땡큐 | 감사합니다 | th는 혀끝을 이 사이에 살짝. 그래도 "땡큐"로 충분히 통해요
-Thanks a lot. | 땡스 어 랏 | 정말 고마워요 | Thank you보다 가볍고 친근해요
-You're welcome. | 유어 웰컴 | 천만에요 | 캐주얼하게는 "Sure." "No problem." "Anytime."
-No problem. | 노 프라블럼 | 별거 아니에요 | 고맙다는 말에 대한 대답으로 아주 흔해요
-I'm sorry. | 아임 쏘리 | 죄송해요 | 진짜 사과할 때. 가볍게 부딪쳤을 땐 "Sorry!" 한 마디면 돼요
-Yes, please. | 예스, 플리즈 | 네, 주세요 | "Would you like some water?" 같은 제안에 대한 대답
-No, thank you. | 노, 땡큐 | 아니요, 괜찮아요 | 거절할 때 그냥 No보다 훨씬 공손해요. 캐주얼: "I'm good, thanks."
-Sorry? | 쏘리? (끝을 올려서) | 네? 뭐라고요? | 끝을 올리면 "다시 말해 주세요"라는 뜻이 돼요. 미국에선 "Pardon?"보다 흔해요
-Could you say that again? | 쿠쥬 쎄이 댓 어게인? | 다시 말씀해 주시겠어요? | 못 알아들었을 때 당당하게 써요. 원어민도 자주 해요
-Could you speak more slowly? | 쿠쥬 스픽 모어 슬로울리? | 좀 더 천천히 말해 주시겠어요? | please를 붙이면 더 공손해요
-I don't understand. | 아이 돈 언더스탠드 | 이해가 안 돼요 | 조금 딱딱해요. 부드럽게: "Sorry, I didn't quite catch that."
-Do you speak Korean? | 두 유 스픽 코리안? | 한국어 하세요? | "Can you speak…?"보다 "Do you speak…?"가 더 자연스럽고 공손해요
-I speak a little English. | 아이 스픽 어 리를 잉글리시 | 영어를 조금 해요 | little의 tt는 "ㄹ"처럼 굴려요: 리를
-How do you say this in English? | 하우 두 유 쎄이 디스 인 잉글리시? | 이거 영어로 뭐라고 해요? | 물건을 가리키며 쓰면 단어를 바로 배울 수 있어요
-What does this mean? | 왓 더즈 디스 민? | 이게 무슨 뜻이에요? | 메뉴판·표지판을 가리키며 써요
-Can you help me? | 캔 유 헬프 미? | 좀 도와주실래요? | 더 공손하게: "Could you help me?"
+"Ungkapan penting 1": `
+Excuse me. | ik-SKYUUZ mi | Permisi | Untuk memanggil orang atau minta jalan. Kalau menyenggol orang, ucapkan "Sorry!"
+Thank you. | thèngk yu | Terima kasih | th: ujung lidah di antara gigi. Jangan dibaca "tengkyu"
+Thanks a lot. | thèngks e laat | Terima kasih banyak | Lebih santai dan akrab daripada "Thank you"
+You're welcome. | yer WÉL-kem | Sama-sama | Versi santai: "Sure.", "No problem.", "Anytime."
+No problem. | nou PRAA-blem | Tidak masalah | Jawaban yang sangat umum untuk "thank you"
+I'm sorry. | aim SAA-ri | Maaf / Mohon maaf | Untuk minta maaf sungguh-sungguh. Kalau hanya menyenggol orang, cukup "Sorry!"
+Yes, please. | yés, pliiz | Ya, boleh / Mau, terima kasih | Untuk menerima tawaran seperti "Would you like some water?"
+No, thank you. | nou, thèngk yu | Tidak, terima kasih | Jauh lebih sopan daripada "No" saja. Santai: "I'm good, thanks."
+Sorry? | SAA-ri? | Maaf? Apa tadi? | Dengan nada naik artinya "tolong ulangi". Di Amerika lebih umum daripada "Pardon?"
+Could you say that again? | kud yu sei dhèt e-GÉN? | Bisa diulang? | Pakai saja tanpa ragu kalau tidak menangkap ucapan orang. Penutur asli juga sering bilang begini
+Could you speak more slowly? | kud yu spiik moor SLOU-li? | Bisa bicara lebih pelan? | Tambahkan "please" supaya lebih sopan
+I don't understand. | ai dount an-der-STÈND | Saya tidak mengerti | Agak kaku. Lebih halus: "Sorry, I didn't quite catch that." Jangan "I not understand"
+Do you speak Indonesian? | de yu spiik in-de-NII-zyen? | Kamu bisa bahasa Indonesia? | "Do you speak…?" lebih alami dan sopan daripada "Can you speak…?". Nama bahasa selalu berhuruf kapital: "Indonesian", "English"
+I speak a little English. | ai spiik e LI-del ING-glisy | Saya bisa sedikit bahasa Inggris | tt pada "little" dibaca seperti d yang ringan: LI-del
+How do you say this in English? | hau de yu sei dhis in ING-glisy? | Ini bahasa Inggrisnya apa? | Sambil menunjuk benda, kamu langsung dapat kata baru
+What does this mean? | wat dez dhis miin? | Ini artinya apa? | Sambil menunjuk menu atau papan petunjuk. Setelah "does", kata kerja tanpa -s: "mean"
+Can you help me? | ken yu hélp mi? | Bisa bantu saya? | Lebih sopan: "Could you help me?"
 `,
-"생존 영어 2": `
-Where's the restroom? | 웨어즈 더 레스트룸? | 화장실이 어디예요? | 미국: restroom·bathroom, 영국: toilet·loo. "toilet"은 미국에선 변기 자체를 뜻해요
-How much is this? | 하우 머치 이즈 디스? | 이거 얼마예요? | 여러 개면 "How much are these?"
-Is there an ATM around here? | 이즈 데어런 에이티엠 어롸운드 히어? | 이 근처에 ATM 있어요? | 영국에선 cash machine이라고도 해요
-Can I get the Wi-Fi password? | 캔 아이 겟 더 와이파이 패스워드? | 와이파이 비밀번호 알려 주실래요? | 영어로는 "와이파이"가 맞아요. "Is there Wi-Fi here?"도 OK
-I'm lost. | 아임 로스트 | 길을 잃었어요 | 지도를 보여 주며 "Where am I on this map?"도 써 보세요
-Can I pay by card? | 캔 아이 페이 바이 카드? | 카드 돼요? | 미국은 거의 다 카드 OK. 작은 가게는 최소 금액이 있을 수 있어요
-One moment, please. | 원 모먼트, 플리즈 | 잠시만요 | 공손한 표현이라 가게·전화에서 많이 들어요
-Just a second. | 저스트 어 세컨 | 잠깐만 | 캐주얼. 더 짧게 "Just a sec."
-No worries. | 노 워리즈 | 괜찮아요 / 신경 쓰지 마요 | 호주·영국에서 특히 많이 쓰고 미국에서도 흔해요
-That's okay. | 댓츠 오케이 | 괜찮아요 (상대가 사과할 때) | 누가 사과하면 "That's okay!" 또는 "Don't worry about it."
-Of course. | 오브 코스 | 물론이죠 | 부탁을 들어줄 때. 질문에 쓰면 "당연한 걸 왜 물어?"처럼 들릴 수 있어 말투를 부드럽게
-I'm not sure. | 아임 낫 슈어 | 잘 모르겠어요 | I don't know보다 부드러워요
-I have a question. | 아이 해버 퀘스천 | 질문이 있어요 | 수업·회의에서: "Can I ask a question?"
-Can you write it down? | 캔 유 롸이릿 다운? | 적어 주실 수 있어요? | 주소·숫자·이름을 못 알아들었을 때 최고의 해결책
-Can I take a picture? | 캔 아이 테이커 픽처? | 사진 찍어도 돼요? | 박물관·가게에서 먼저 물어보는 게 매너예요
-Could you take a picture of us? | 쿠쥬 테이커 픽처 오브 어스? | 저희 사진 좀 찍어 주실래요? | 찍어 준 뒤엔 "Thank you so much!"
-After you. | 애프터 유 | 먼저 가세요 | 문 앞·엘리베이터에서 양보할 때. 영어권에선 문을 잡아 주는 게 기본 매너예요
-Watch out! | 와치 아웃! | 조심해요! | 위험할 때 크게 외쳐요. "Look out!"도 같은 뜻
+"Ungkapan penting 2": `
+Where's the restroom? | wérz dhe RÉST-ruum? | Toiletnya di mana? | Amerika: "restroom" / "bathroom"; Inggris: "toilet". Di Amerika "toilet" berarti kloset itu sendiri
+How much is this? | hau mac iz dhis? | Ini harganya berapa? | Kalau barangnya lebih dari satu (jamak): "How much are these?"
+Is there an ATM around here? | iz dhér en ei tii ém e-RAUND hir? | Ada ATM di sekitar sini? | Di Inggris juga disebut "cash machine"
+Can I get the Wi-Fi password? | ken ai gét dhe WAI-fai PÈS-werd? | Boleh minta kata sandi Wi-Fi? | Wi-Fi dibaca WAI-fai. "Is there Wi-Fi here?" juga bisa
+I'm lost. | aim loost | Saya tersesat | Tunjukkan peta dan tanya: "Where am I on this map?"
+Can I pay by card? | ken ai pei bai kaard? | Bisa bayar pakai kartu? | Di Amerika hampir semua tempat menerima kartu. Toko kecil kadang punya batas minimum
+One moment, please. | wan MOU-ment, pliiz | Mohon tunggu sebentar | Ungkapan sopan. Sering terdengar di toko dan di telepon
+Just a second. | jast e SÉ-kend | Sebentar, ya | Santai. Lebih singkat: "Just a sec."
+No worries. | nou WER-iz | Santai saja | Sangat umum di Australia dan Inggris, juga di Amerika
+That's okay. | dhèts ou-KEI | Tidak apa-apa (saat orang minta maaf) | Kalau orang minta maaf: "That's okay!" atau "Don't worry about it."
+Of course. | ev koors | Tentu saja | Untuk mengabulkan permintaan. Sebagai jawaban atas pertanyaan biasa bisa terdengar seperti "ya jelas, dong", jadi ucapkan dengan nada ramah
+I'm not sure. | aim naat syur | Saya kurang yakin | Lebih halus daripada "I don't know"
+I have a question. | ai hèv e KWÉS-cen | Saya mau bertanya | Di kelas atau rapat: "Can I ask a question?"
+Can you write it down? | ken yu rait it daun? | Bisa tolong ditulis? | Solusi terbaik kalau kamu tidak menangkap alamat, angka, atau nama
+Can I take a picture? | ken ai teik e PIK-cer? | Boleh saya ambil foto? | Di museum atau toko, sebaiknya tanya dulu
+Could you take a picture of us? | kud yu teik e PIK-cer ev as? | Bisa tolong fotokan kami? | Setelah difotokan: "Thank you so much!"
+After you. | ÈF-ter yuu | Silakan duluan | Saat mempersilakan orang di pintu atau lift. Menahan pintu untuk orang di belakangmu adalah sopan santun dasar
+Watch out! | waac aut! | Awas! | Teriakkan saat ada bahaya. "Look out!" artinya sama
 `,
-"길 묻기·교통": `
-How do I get to the subway station? | 하우 두 아이 겟 투 더 썹웨이 스테이션? | 지하철역에 어떻게 가요? | 영국: underground / tube station. 목적지만 바꿔서 쓰면 돼요
-Is it far from here? | 이즈 잇 파 프럼 히어? | 여기서 멀어요? | far의 r은 혀를 살짝 말아요
-Is it within walking distance? | 이즈 잇 위딘 워킹 디스턴스? | 걸어갈 수 있는 거리예요? | "Can I walk there?"도 OK
-Go straight. | 고 스트레잇 | 쭉 가세요 / 직진하세요 | "Go straight for two blocks." 미국은 거리를 block으로 세요
-Turn left at the corner. | 턴 레프트 앳 더 코너 | 모퉁이에서 왼쪽으로 도세요 | 신호등에서는 "at the light"
-It's on your right. | 잇츠 온 유어 롸잇 | 오른쪽에 있어요 | right의 r은 입술을 내밀고 "(우)롸"
-It's across the street. | 잇츠 어크로스 더 스트릿 | 길 건너편에 있어요 | across from ~ = ~의 맞은편
-It's next to the bank. | 잇츠 넥스 투 더 뱅크 | 은행 옆에 있어요 | next to의 t는 하나만 살짝 발음돼요
-Which line goes downtown? | 위치 라인 고즈 다운타운? | 시내 가는 건 몇 호선이에요? | downtown 앞에는 to를 쓰지 않아요
-Where do I transfer? | 웨어 두 아이 트랜스퍼? | 어디서 갈아타요? | 영국에선 change: "Where do I change?"
-Does this bus go to the airport? | 더즈 디스 버스 고 투 디 에어포트? | 이 버스 공항 가요? | 모음 앞 the는 "디"로 발음해요
-Which stop should I get off at? | 위치 스탑 슈다이 게로프 앳? | 어느 정류장에서 내려야 해요? | get off = (버스·지하철에서) 내리다
-One ticket to Boston, please. | 원 티킷 투 보스턴, 플리즈 | 보스턴행 표 한 장 주세요 | 목적지 앞엔 to
-Round trip or one way? | 롸운드 트립 오어 원 웨이? | 왕복이에요, 편도예요? | 영국식: "Return or single?"
-Can you take me to this address? | 캔 유 테익 미 투 디스 애드레스? | 이 주소로 가 주세요 | 택시에서 화면을 보여 주며 쓰면 실수가 없어요
-Could you pull over here? | 쿠쥬 풀 오버 히어? | 여기 세워 주시겠어요? | 택시·차에서 내리고 싶을 때. "Right here is fine."도 OK
-How long does it take? | 하우 롱 더즈 잇 테익? | 얼마나 걸려요? | 대답: "About 20 minutes."
-Is this seat taken? | 이즈 디스 씻 테이큰? | 이 자리 주인 있어요? | 비어 있으면 "No, go ahead."라고 해요. seat는 길게 "씨-잇"
+"Arah & transportasi": `
+How do I get to the subway station? | hau de ai gét te dhe SAB-wei STEI-syen? | Bagaimana cara ke stasiun kereta bawah tanah? | Inggris: "underground" / "tube station". Ganti tujuannya saja; di Jakarta misalnya "the MRT station"
+Is it far from here? | iz it faar frem hir? | Jauh dari sini? | r pada "far" tidak digetarkan seperti r bahasa Indonesia: lidah sedikit ditarik ke belakang
+Is it within walking distance? | iz it wi-DHIN WOO-king DIS-tens? | Bisa jalan kaki ke sana? | "Can I walk there?" juga bisa
+Go straight. | gou streit | Jalan lurus | "Go straight for two blocks." Di Amerika jarak sering dihitung dengan "block" (blok)
+Turn left at the corner. | tern léft et dhe KOOR-ner | Belok kiri di tikungan | Di lampu lalu lintas: "at the light"
+It's on your right. | its aan yer rait | Ada di sebelah kananmu | r di awal "right": bibir sedikit dimajukan, lidah tidak menyentuh apa-apa
+It's across the street. | its e-KROOS dhe striit | Ada di seberang jalan | "across from" = di seberang / berhadapan dengan
+It's next to the bank. | its nékst te dhe bèngk | Ada di sebelah bank | Pada "next to", bunyi t hanya terdengar sekali
+Which line goes downtown? | wic lain gouz DAUN-taun? | Jalur mana yang ke pusat kota? | Sebelum "downtown" tidak pakai "to"
+Where do I transfer? | wér de ai TRÈNS-fer? | Saya pindah jalur di mana? | Inggris: "change": "Where do I change?"
+Does this bus go to the airport? | dez dhis bas gou te dhi ÉR-poort? | Bus ini ke bandara? | Sebelum bunyi vokal, "the" dibaca "dhi"
+Which stop should I get off at? | wic staap syud ai gét oof èt? | Saya turun di halte mana? | "get off" = turun (dari bus atau kereta)
+One ticket to Boston, please. | wan TI-kit te BOO-sten, pliiz | Satu tiket ke Boston | Sebelum tujuan pakai "to"
+Round trip or one way? | raund trip oor wan wei? | Pulang-pergi atau sekali jalan? | Inggris: "Return or single?"
+Can you take me to this address? | ken yu teik mi te dhis È-drés? | Tolong antar saya ke alamat ini | Di taksi atau ojek online, tunjukkan layar ponselmu supaya tidak salah
+Could you pull over here? | kud yu pul OU-ver hir? | Bisa berhenti di sini? | Saat mau turun dari taksi atau mobil, seperti "Kiri, Pak!". "Right here is fine." juga bisa
+How long does it take? | hau loong dez it teik? | Berapa lama perjalanannya? | Jawabannya misalnya: "About 20 minutes."
+Is this seat taken? | iz dhis siit TEI-ken? | Kursi ini ada orangnya? | Kalau kosong, jawabannya "No, go ahead." "seat" dibaca panjang: siit
 `,
-"식당 주문": `
-A table for two, please. | 어 테이블 포 투, 플리즈 | 두 명이요 | 미국 식당은 보통 직원이 자리를 안내해 줄 때까지 기다려요
-Do you have a reservation? | 두 유 해버 레저베이션? | 예약하셨어요? | 직원이 묻는 말. "Yes, under Kim."처럼 대답해요
-Can I see the menu? | 캔 아이 씨 더 메뉴? | 메뉴판 좀 볼 수 있을까요? | menu 강세는 앞: 메뉴
-What do you recommend? | 왓 두 유 레커멘드? | 추천해 주실 메뉴 있어요? | "What's popular here?"도 좋아요
-I'll have the steak. | 아일 해브 더 스테익 | 스테이크로 할게요 | 주문의 기본 공식: I'll have + 메뉴
-Can I get a Coke? | 캔 아이 게러 코크? | 콜라 한 잔 주실래요? | get a는 "게러"처럼 이어져요. 콜라는 보통 Coke라고 해요
-Medium rare, please. | 미디엄 레어, 플리즈 | 미디엄 레어로 주세요 | "How would you like your steak?"에 대한 대답
-No onions, please. | 노 어니언즈, 플리즈 | 양파는 빼 주세요 | "Can I get it without onions?"도 같은 뜻
-I'm allergic to peanuts. | 아임 얼러직 투 피넛츠 | 땅콩 알레르기가 있어요 | allergic 강세는 가운데 "러". 알레르기는 영어로 allergy(앨러지)
-Is it spicy? | 이즈 잇 스파이시? | 매워요? | 미국의 spicy는 한국 기준으로 안 매울 때가 많아요
-Could we get some water? | 쿳 위 겟 썸 워러? | 물 좀 주시겠어요? | 미국 식당 물은 보통 무료. water는 "워러"처럼 굴려요
-Everything was great. | 에브리띵 워즈 그레잇 | 다 맛있었어요 | 직원이 "How is everything?" 하고 물으면 이렇게 답해요
-Can we get the check, please? | 캔 위 겟 더 첵, 플리즈? | 계산서 주세요 | 영국: the bill. 미국은 보통 자리에서 계산해요
-Can we split the bill? | 캔 위 스플릿 더 빌? | 따로 계산할 수 있나요? | "separate checks"라고도 해요
-It's on me. | 잇츠 온 미 | 제가 살게요 | "My treat!"도 같은 뜻이에요
-Can I get this to go? | 캔 아이 겟 디스 투 고? | 이거 포장돼요? | 남은 음식을 싸 갈 땐 "Can I get a box?"
-Is the tip included? | 이즈 더 팁 인클루디드? | 팁 포함인가요? | 미국 식당은 보통 15~20% 팁을 따로 내요
+"Pesan di restoran": `
+A table for two, please. | e TEI-bel fer tuu, pliiz | Meja untuk dua orang | Di restoran Amerika, biasanya kamu menunggu pelayan mengantar ke meja
+Do you have a reservation? | de yu hèv e ré-zer-VEI-syen? | Sudah reservasi? | Pertanyaan pelayan. Jawab misalnya "Yes, under Budi."
+Can I see the menu? | ken ai sii dhe MÉ-nyu? | Boleh lihat menunya? | Tekanan "menu" ada di depan: MÉ-nyu
+What do you recommend? | wat de yu ré-ke-MÉND? | Ada menu yang direkomendasikan? | "What's popular here?" juga bagus
+I'll have the steak. | ail hèv dhe steik | Saya pesan steiknya | Rumus dasar memesan: I'll have + nama menu
+Can I get a Coke? | ken ai gét e kouk? | Boleh minta satu cola? | "get a" tersambung jadi GÉ-de. Cola biasanya disebut "Coke"
+Medium rare, please. | MII-di-em rér, pliiz | Tolong dimasak setengah matang | Jawaban untuk "How would you like your steak?"
+No onions, please. | nou A-nyenz, pliiz | Tanpa bawang bombai, ya | "Can I get it without onions?" artinya sama. "onions" dalam bentuk jamak
+I'm allergic to peanuts. | aim e-LER-jik te PII-nats | Saya alergi kacang tanah | Tekanan "allergic" ada di tengah: e-LER-jik. Kata bendanya "allergy" (È-ler-ji)
+Is it spicy? | iz it SPAI-si? | Pedas? | Ukuran "spicy" di Amerika sering jauh di bawah standar sambal kita
+Could we get some water? | kud wi gét sem WAA-der? | Boleh minta air putih? | Air putih di restoran Amerika biasanya gratis. t pada "water" dibaca seperti d: WAA-der
+Everything was great. | ÉV-ri-thing wez greit | Semuanya enak sekali | Jawaban kalau pelayan bertanya "How is everything?"
+Can we get the check, please? | ken wi gét dhe cék, pliiz? | Minta bonnya, ya | Inggris: "the bill". Di Amerika biasanya kamu membayar di meja
+Can we split the bill? | ken wi split dhe bil? | Bisa bayar masing-masing? | Bisa juga "separate checks"
+It's on me. | its aan mii | Saya yang traktir | "My treat!" artinya sama
+Can I get this to go? | ken ai gét dhis te gou? | Ini bisa dibungkus? | Untuk membawa pulang sisa makanan: "Can I get a box?"
+Is the tip included? | iz dhe tip in-KLUU-did? | Sudah termasuk tip? | Di restoran Amerika biasanya ada tip 15–20% terpisah. Di Indonesia tip tidak wajib
 `,
-"카페·편의점": `
-Can I get an iced Americano? | 캔 아이 게런 아이스트 아메리카노? | 아이스 아메리카노 주세요 | iced의 -d는 거의 안 들려요. 음료 주문은 Can I get ~?이 가장 흔해요
-What size would you like? | 왓 싸이즈 우쥬 라익? | 사이즈는 어떤 걸로 하시겠어요? | 직원이 묻는 말. would you는 "우쥬"
-Small, please. | 스몰, 플리즈 | 작은 걸로 주세요 | 스타벅스는 tall·grande·venti라고 말해요
-For here or to go? | 포 히어 오어 투 고? | 드시고 가세요, 가져가세요? | 영국식: "Eat in or take away?"
-Can I get oat milk instead? | 캔 아이 겟 오트 밀크 인스테드? | 귀리 우유로 바꿔 주실래요? | instead = 대신에. 추가 요금이 붙을 수 있어요
-Less ice, please. | 레스 아이스, 플리즈 | 얼음 적게 주세요 | 얼음 빼고: "No ice, please."
-Decaf, please. | 디캐프, 플리즈 | 디카페인으로 주세요 | decaffeinated의 줄임말이에요
-Can I get a name for the order? | 캔 아이 게러 네임 포 디 오더? | 주문하시는 분 성함이요? | 직원이 컵에 이름을 적으려고 물어요. 쉬운 영어 이름을 하나 정해 두면 편해요
-Do you need a bag? | 두 유 니더 백? | 봉투 필요하세요? | 필요 없으면 "No, I'm good."
-Can I get a receipt? | 캔 아이 게러 리씻? | 영수증 주세요 | receipt의 p는 소리 내지 않아요: 리씻
-Where can I find batteries? | 웨어 캔 아이 파인드 배러리즈? | 건전지 어디 있어요? | 물건 위치를 물을 때 만능 문장
-Do you sell phone chargers? | 두 유 쎌 폰 차저즈? | 휴대폰 충전기 팔아요? | "Do you have ~?"도 같은 뜻
-Can you heat this up? | 캔 유 히리썹? | 이거 데워 주실 수 있어요? | heat this up이 "히리썹"처럼 이어져요
-That's it. | 댓츠 잇 | 그게 다예요 | 직원이 "Anything else?"라고 물을 때
-Here you go. | 히어 유 고 | 여기요 | 돈이나 물건을 건넬 때 써요
-Keep the change. | 킵 더 체인지 | 잔돈은 가지세요 | 택시·배달에서 팁 대신 자주 써요
+"Kafe & minimarket": `
+Can I get an iced Americano? | ken ai gét en aist e-mé-ri-KAA-nou? | Minta satu es americano | -d pada "iced" hampir tidak terdengar. Untuk memesan minuman, "Can I get…?" paling umum
+What size would you like? | wat saiz wud yu laik? | Mau ukuran apa? | Pertanyaan barista. "would you" sering tersambung jadi satu bunyi
+Small, please. | smool, pliiz | Yang kecil, ya | Di Starbucks: "tall", "grande", "venti"
+For here or to go? | fer hir oor te gou? | Makan di sini atau dibawa pulang? | Inggris: "Eat in or take away?"
+Can I get oat milk instead? | ken ai gét out milk in-STÉD? | Bisa diganti susu oat? | "instead" = sebagai gantinya. Kadang ada biaya tambahan
+Less ice, please. | lés ais, pliiz | Esnya sedikit saja | Tanpa es: "No ice, please." "ice" tidak bisa dihitung, jadi tanpa -s jamak
+Decaf, please. | DII-kèf, pliiz | Yang tanpa kafein, ya | Singkatan dari "decaffeinated"
+Can I get a name for the order? | ken ai gét e neim fer dhi OOR-der? | Pesanan atas nama siapa? | Barista menulis nama di gelas. Siapkan satu nama panggilan yang mudah
+Do you need a bag? | de yu niid e bèg? | Perlu kantong? | Kalau tidak perlu: "No, I'm good." g di akhir "bag" tetap bersuara: bèg, bukan bèk
+Can I get a receipt? | ken ai gét e ri-SIIT? | Boleh minta struk? | p pada "receipt" tidak dibaca: ri-SIIT
+Where can I find batteries? | wér ken ai faind BÈ-de-riz? | Baterai ada di mana? | Kalimat serbaguna untuk menanyakan letak barang
+Do you sell phone chargers? | de yu sél foun CAAR-jerz? | Jual pengisi daya HP? | "Do you have…?" artinya sama. Penutur asli bilang "phone", bukan "handphone"
+Can you heat this up? | ken yu hiit dhis ap? | Bisa tolong dipanaskan? | "heat this up" tersambung, terdengar hampir seperti satu kata
+That's it. | dhèts it | Itu saja | Saat kasir bertanya "Anything else?"
+Here you go. | hir yu gou | Ini, silakan | Saat menyerahkan uang atau barang
+Keep the change. | kiip dhe ceinj | Kembaliannya ambil saja | Sering dipakai di taksi atau saat pesan antar sebagai pengganti tip
 `,
-"쇼핑·계산": `
-I'm just looking, thanks. | 아임 저스트 루킹, 땡스 | 그냥 구경하는 거예요 | 직원이 "Can I help you find anything?" 할 때
-Do you have this in a medium? | 두 유 해브 디스 인 어 미디엄? | 이거 M 사이즈 있어요? | 사이즈는 small / medium / large
-Do you have it in black? | 두 유 해빗 인 블랙? | 검은색 있어요? | 색깔 앞엔 in
-Can I try this on? | 캔 아이 트라이 디스 온? | 입어 봐도 돼요? | try on = (옷·신발을) 입어 보다·신어 보다
-Where's the fitting room? | 웨어즈 더 피팅 룸? | 탈의실 어디예요? | 영국: changing room
-It's too big. | 잇츠 투 빅 | 너무 커요 | 작으면 "It's too small."
-It's a bit tight. | 잇츠 어 빗 타잇 | 조금 껴요 | 헐렁하면 "It's a bit loose."
-Is this on sale? | 이즈 디스 온 쎄일? | 이거 세일해요? | on sale = 할인 중. for sale = 판매 중. 헷갈리기 쉬워요!
-Can you give me a discount? | 캔 유 깁 미 어 디스카운트? | 좀 깎아 주실 수 있어요? | 미국 일반 매장에선 흥정을 거의 안 해요. 시장·중고 거래에서만
-I'll take it. | 아일 테이킷 | 이걸로 할게요 | 살 물건을 정했을 때. 두 개 이상이면 "I'll take them."
-Cash or card? | 캐시 오어 카드? | 현금이요, 카드요? | 계산대에서 꼭 듣는 질문
-Do you take Apple Pay? | 두 유 테익 애플 페이? | 애플페이 돼요? | take = (결제 수단을) 받다
-Can I get a refund? | 캔 아이 게러 리펀드? | 환불돼요? | 영수증을 꼭 챙기세요
-I'd like to exchange this. | 아이드 라익 투 익스체인지 디스 | 이거 교환하고 싶어요 | 이유도 덧붙여요: "It's the wrong size."
-Can you gift wrap it? | 캔 유 기프트 랩 잇? | 선물 포장해 주실 수 있어요? | wrap의 w만 소리 나요: 랩
-Does that include tax? | 더즈 댓 인클루드 택스? | 세금 포함인가요? | 미국은 가격표에 세금이 빠져 있어서 계산할 때 더 나와요
+"Belanja & bayar": `
+I'm just looking, thanks. | aim jast LU-king, thèngks | Lihat-lihat dulu, terima kasih | Saat pramuniaga bertanya "Can I help you find anything?"
+Do you have this in a medium? | de yu hèv dhis in e MII-di-em? | Ada ukuran M? | Ukuran: small / medium / large
+Do you have it in black? | de yu hèv it in blèk? | Ada warna hitam? | Sebelum warna pakai "in"
+Can I try this on? | ken ai trai dhis aan? | Boleh saya coba? | "try on" = mencoba (pakaian, sepatu)
+Where's the fitting room? | wérz dhe FI-ding ruum? | Kamar pas di mana? | Inggris: "changing room"
+It's too big. | its tuu big | Terlalu besar | Kalau kekecilan: "It's too small."
+It's a bit tight. | its e bit tait | Agak sempit | Kalau longgar: "It's a bit loose."
+Is this on sale? | iz dhis aan seil? | Ini sedang diskon? | "on sale" = sedang diskon; "for sale" = dijual. Mudah tertukar!
+Can you give me a discount? | ken yu giv mi e DIS-kaunt? | Bisa kurang harganya? | Di toko biasa di Amerika hampir tidak ada tawar-menawar, beda dengan pasar di Indonesia
+I'll take it. | ail teik it | Saya ambil yang ini | Kalau barangnya lebih dari satu: "I'll take them."
+Cash or card? | kèsy oor kaard? | Tunai atau kartu? | Pertanyaan wajib di kasir
+Do you take Apple Pay? | de yu teik È-pel pei? | Bisa bayar pakai Apple Pay? | "take" = menerima (cara pembayaran). Sama halnya: "Do you take QRIS?"
+Can I get a refund? | ken ai gét e RII-fand? | Bisa minta uang kembali? | Simpan struknya baik-baik
+I'd like to exchange this. | aid laik te iks-CEINJ dhis | Saya mau menukar ini | Sebutkan alasannya: "It's the wrong size."
+Can you gift wrap it? | ken yu gift rèp it? | Bisa dibungkus kado? | w pada "wrap" tidak dibaca: rèp
+Does that include tax? | dez dhèt in-KLUUD tèks? | Sudah termasuk pajak? | Di Amerika harga di label belum termasuk pajak, jadi di kasir totalnya lebih besar
 `,
-"숫자·시간·날짜": `
-What time is it? | 왓 타임 이즈 잇? | 지금 몇 시예요? | 모르는 사람에게는 "Excuse me, do you have the time?"
-It's three thirty. | 잇츠 쓰리 써리 | 3시 반이에요 | "half past three"(영국식)도 같은 뜻
-It's a quarter to five. | 잇츠 어 쿼러 투 파이브 | 5시 15분 전이에요 | quarter = 15분. "four forty-five"라고 해도 돼요
-At noon | 앳 눈 | 정오에 / 낮 12시에 | 자정은 midnight. 12 a.m./p.m.보다 헷갈리지 않아요
-What's the date today? | 왓츠 더 데잇 투데이? | 오늘 며칠이에요? | 요일은 "What day is it today?"
-It's May 3rd. | 잇츠 메이 써드 | 5월 3일이에요 | 날짜는 서수로 읽어요: first, second, third, fourth…
-My birthday is in October. | 마이 버스데이 이즈 인 악토버 | 제 생일은 10월이에요 | 월 앞에는 in, 날짜 앞에는 on: on October 5th
-On Monday | 온 먼데이 | 월요일에 | 요일 앞에는 on. 매주라면 on Mondays
-Next weekend | 넥스트 위켄드 | 다음 주말 | next·last·this 앞에는 전치사를 쓰지 않아요
-The day after tomorrow | 더 데이 애프터 터마로우 | 모레 | 그저께는 the day before yesterday
-Thirteen or thirty? | 써틴 오어 써리? | 13이에요, 30이에요? | 13은 뒤(-teen)를 길게, 30은 앞을 세게. 가격 들을 때 꼭 확인해요
-Fifteen dollars | 피프틴 달러즈 | 15달러 | $15.50은 "fifteen fifty"라고 읽어요
-Two hundred and fifty | 투 헌드레드 앤 피프티 | 이백오십 (250) | 미국에선 and를 자주 생략해요: two hundred fifty
-Ten thousand | 텐 싸우전드 | 만 (10,000) | 영어에는 '만' 단위가 없어요! 세 자리씩 끊어서 10 thousand
-One million | 원 밀리언 | 백만 (1,000,000) | 천만 = ten million, 1억 = one hundred million
-Twice a week | 트와이스 어 윅 | 일주일에 두 번 | once(한 번), twice(두 번), three times(세 번)
-In ten minutes | 인 텐 미닛츠 | 10분 후에 | 미래 시간 앞의 in = ~ 후에. "10분 안에"가 아니에요
+"Angka, jam & tanggal": `
+What time is it? | wat taim iz it? | Jam berapa sekarang? | Ke orang yang tidak dikenal: "Excuse me, do you have the time?"
+It's three thirty. | its thrii THER-ti | Jam setengah empat | Awas: "setengah empat" = 3.30 = "three thirty". Jangan diterjemahkan jadi "half four"
+It's a quarter to five. | its e KWOOR-ter te faiv | Jam lima kurang seperempat | "quarter" = 15 menit. Bisa juga "four forty-five"
+At noon | et nuun | Pukul 12 siang | Tengah malam: "midnight". Lebih jelas daripada 12 a.m./p.m.
+What's the date today? | wats dhe deit te-DEI? | Hari ini tanggal berapa? | Untuk nama hari: "What day is it today?"
+It's May 3rd. | its mei therd | Tanggal 3 Mei | Tanggal dibaca dengan bilangan urutan: first, second, third, fourth… Di Amerika bulan disebut dulu, baru tanggal
+My birthday is in October. | mai BERTH-dei iz in aak-TOU-ber | Ulang tahun saya bulan Oktober | Sebelum bulan pakai "in", sebelum tanggal pakai "on": "on October 5th"
+On Monday | aan MAN-dei | Pada hari Senin | Sebelum nama hari pakai "on", bukan "in". Setiap Senin: "on Mondays"
+Next weekend | nékst WIIK-énd | Akhir pekan depan | Sebelum "next", "last", "this" tidak pakai preposisi
+The day after tomorrow | dhe dei ÈF-ter te-MAA-rou | Lusa | Kemarin lusa: "the day before yesterday"
+Thirteen or thirty? | ther-TIIN oor THER-ti? | Tiga belas atau tiga puluh? | 13 ditekan di belakang (-TIIN, panjang), 30 di depan. Selalu pastikan saat mendengar harga
+Fifteen dollars | fif-TIIN DAA-lerz | Lima belas dolar | $15.50 dibaca "fifteen fifty". Rp15.000 dibaca "fifteen thousand rupiah"
+Two hundred and fifty | tuu HAN-dred en FIF-ti | Dua ratus lima puluh (250) | Di Amerika "and" sering dihilangkan: "two hundred fifty"
+Ten thousand | tén THAU-zend | Sepuluh ribu (10.000) | Dalam bahasa Inggris pemisah ribuan adalah koma (10,000) dan titik untuk desimal (2.5), kebalikan dari bahasa Indonesia
+One million | wan MIL-yen | Satu juta (1.000.000) | "miliar" = "billion". Rp1.500.000 = "one and a half million rupiah"
+Twice a week | twais e wiik | Dua kali seminggu | Sekali: "once", dua kali: "twice", tiga kali: "three times"
+In ten minutes | in tén MI-nits | Sepuluh menit lagi | "in" + waktu = sekian waktu lagi, bukan "dalam waktu sepuluh menit"
 `,
-"스몰토크": `
-How was your weekend? | 하우 워즈 유어 위켄드? | 주말 어땠어요? | 월요일 단골 질문. 한두 문장으로 짧게 대답하고 되물어요
-It was pretty relaxing. | 잇 워즈 프리티 릴랙싱 | 꽤 여유로웠어요 | pretty = 꽤. "예쁜"이 아니에요
-Any plans for the weekend? | 애니 플랜즈 포 더 위켄드? | 주말에 계획 있어요? | 금요일 단골 질문. 계획 없으면 "Not really, just relaxing."
-Nice weather today, huh? | 나이스 웨더 투데이, 허? | 오늘 날씨 좋네요 | 날씨는 누구와도 할 수 있는 가장 안전한 화제예요
-It's freezing today. | 잇츠 프리징 투데이 | 오늘 엄청 춥네요 | 더울 땐 "It's boiling!" 또는 "It's so hot!"
-How long have you lived here? | 하우 롱 해뷰 리브드 히어? | 여기 산 지 얼마나 됐어요? | 대답: "About three years."
-Have you been to Korea? | 해뷰 빈 투 코리아? | 한국 가 본 적 있어요? | 경험을 물을 땐 have been to
-What do you do for fun? | 왓 두 유 두 포 펀? | 쉴 때 주로 뭐 해요? | "What's your hobby?"보다 훨씬 자연스러운 취미 질문이에요
-Have you seen any good shows lately? | 해뷰 씬 애니 굿 쇼즈 레잇리? | 요즘 재밌는 거 봤어요? | show = 드라마·예능 같은 TV 프로그램
-That sounds fun. | 댓 싸운즈 펀 | 재밌겠다 | 상대 이야기에 반응할 때. "That sounds great!"도 좋아요
-Same here. | 쎄임 히어 | 저도 그래요 | 캐주얼하게 그냥 "Same!"
-Me neither. | 미 니더 | 저도 안 그래요 | 부정문에 맞장구칠 때. "I don't like it." → "Me neither." (Me too 아님!)
-I know, right? | 아이 노우, 롸잇? | 그러니까요! / 내 말이! | 강하게 동의할 때 쓰는 캐주얼한 표현
-Oh, really? | 오, 륄리? | 아, 정말요? | 관심을 보여 주는 맞장구. 끝을 올려요
-By the way | 바이 더 웨이 | 그런데 / 그나저나 | 화제를 바꿀 때. 문자로는 BTW
-How's work? | 하우즈 워크? | 일은 어때요? | 아는 사이의 안부 질문. "Busy, but good!"처럼 대답해요
-It was nice talking to you. | 잇 워즈 나이스 토킹 투 유 | 이야기 즐거웠어요 | 대화를 자연스럽게 끝낼 때 써요
+"Obrolan ringan": `
+How was your weekend? | hau wez yer WIIK-énd? | Akhir pekanmu bagaimana? | Pertanyaan khas hari Senin. Jawab satu atau dua kalimat, lalu tanya balik
+It was pretty relaxing. | it wez PRI-di ri-LÈK-sing | Cukup santai | "pretty" di sini = cukup, bukan "cantik"
+Any plans for the weekend? | É-ni plènz fer dhe WIIK-énd? | Ada rencana akhir pekan ini? | Pertanyaan khas hari Jumat. Kalau tidak ada: "Not really, just relaxing."
+Nice weather today, huh? | nais WÉ-dher te-DEI, ha? | Cuacanya cerah, ya, hari ini? | Di negara empat musim, cuaca adalah topik paling aman. Di Indonesia orang lebih sering membahas macet ("traffic jam"), makanan, atau mudik
+It's freezing today. | its FRII-zing te-DEI | Hari ini dingin sekali | Kalau panas: "It's boiling!" atau "It's so hot!"
+How long have you lived here? | hau loong hev yu livd hir? | Sudah berapa lama tinggal di sini? | Jawaban: "About three years."
+Have you been to Indonesia? | hev yu bin te in-de-NII-zye? | Pernah ke Indonesia? | Untuk menanyakan pengalaman ("pernah") pakai "have been to"
+What do you do for fun? | wat de yu duu fer fan? | Kalau sedang santai, kamu suka apa? | Jauh lebih alami daripada "What's your hobby?"
+Have you seen any good shows lately? | hev yu siin É-ni gud syouz LEIT-li? | Akhir-akhir ini nonton tayangan yang seru? | "show" = acara TV atau serial, termasuk di platform streaming
+That sounds fun. | dhèt saundz fan | Kedengarannya seru | Untuk menanggapi cerita orang. "That sounds great!" juga bagus
+Same here. | seim hir | Saya juga | Versi santai: "Same!"
+Me neither. | mii NII-dher | Saya juga tidak | Untuk menyetujui kalimat negatif: "I don't like it." → "Me neither." (bukan "Me too")
+I know, right? | ai nou, rait? | Iya, kan? Betul sekali! | Ungkapan santai untuk setuju sepenuhnya
+Oh, really? | ou, RII-li? | Oh, ya? Masa? | Tanggapan untuk menunjukkan minat. Nadanya naik di akhir
+By the way | bai dhe wei | Ngomong-ngomong | Untuk ganti topik. Di pesan ditulis "BTW", sama seperti kebiasaan kita
+How's work? | hauz werk? | Bagaimana pekerjaanmu? | Pertanyaan kabar untuk orang yang sudah dikenal. Jawab misalnya "Busy, but good!"
+It was nice talking to you. | it wez nais TOO-king te yu | Senang mengobrol denganmu | Untuk menutup obrolan dengan wajar
 `,
-"감정·반응": `
-I'm so happy for you! | 아임 쏘 해피 포 유! | 정말 잘됐다! (축하) | 상대에게 좋은 일이 생겼을 때
-Congratulations! | 컹그래츄레이션스! | 축하해요! | 꼭 -s를 붙여요. 줄여서 "Congrats!"
-That's awesome! | 댓츠 어썸! | 대박! 멋지다! | 미국인이 정말 자주 쓰는 리액션이에요
-No way! | 노 웨이! | 말도 안 돼! / 헐! | 놀랐을 때. 거절할 때도 써요: "No way, I'm not doing that."
-Seriously? | 시리어슬리? | 진심이야? / 진짜로? | 말투에 따라 놀람 또는 짜증을 나타내요
-I'm so tired. | 아임 쏘 타이어드 | 너무 피곤해요 | 완전 지쳤을 땐 "I'm exhausted."
-I'm stressed out. | 아임 스트레스드 아웃 | 스트레스를 너무 받아요 | "I have stress"보다 자연스러워요
-I'm bored. | 아임 보어드 | 심심해요 / 지루해요 | 주의! "I'm boring"은 "나는 지루한 사람이에요"라는 뜻
-I'm excited. | 아임 익싸이티드 | 신나요 / 설레요 | 기대되는 일이 있을 때. -ed는 내가 느끼는 감정
-I'm nervous. | 아임 너버스 | 긴장돼요 | 면접·발표 전에. 상대에게: "Don't be nervous."
-That's too bad. | 댓츠 투 배드 | 아쉽네요 / 안타깝네요 | 가벼운 아쉬움. 심각한 일엔 아래 표현을 써요
-I'm sorry to hear that. | 아임 쏘리 투 히어 댓 | 그런 일이 있었다니 마음이 안 좋네요 | 사과가 아니라 위로예요. sorry = 유감스러운
-What a relief! | 와러 릴리프! | 다행이다! | "Phew!"와 함께 쓰면 더 자연스러워요
-Oh my gosh! | 오 마이 가쉬! | 세상에! | Oh my God를 순화한 표현. 문자로는 OMG
-I'm upset. | 아임 업셋 | 속상해요 / 기분이 상했어요 | 화남과 슬픔의 중간 느낌이에요
-That's so annoying. | 댓츠 쏘 어노잉 | 진짜 짜증 나 | 사람에게 "You're annoying"은 꽤 세게 들려요
-I can't wait! | 아이 캔트 웨잇! | 너무 기대돼! / 빨리 하고 싶어! | 직역하면 "못 기다리겠어"
-It's not a big deal. | 잇츠 나러 빅 딜 | 별일 아니에요 | 상대가 미안해할 때 안심시키는 말
+"Perasaan & reaksi": `
+I'm so happy for you! | aim sou HÈ-pi fer yu! | Ikut senang mendengarnya! | Saat orang lain mendapat kabar baik
+Congratulations! | ken-grè-ce-LEI-syenz! | Selamat! | Selalu dengan -s. Singkatnya: "Congrats!"
+That's awesome! | dhèts OO-sem! | Keren sekali! | Tanggapan yang sangat sering dipakai orang Amerika
+No way! | nou wei! | Tidak mungkin! / Masa? | Saat kaget. Juga untuk menolak: "No way, I'm not doing that."
+Seriously? | SI-ri-es-li? | Serius? | Tergantung nada, bisa berarti kaget atau kesal
+I'm so tired. | aim sou TAI-erd | Capek sekali | Kalau benar-benar habis tenaga: "I'm exhausted."
+I'm stressed out. | aim strést aut | Saya stres berat | Lebih alami daripada "I have stress"
+I'm bored. | aim boord | Saya bosan | Awas! "I'm boring" = saya orang yang membosankan. Kesalahan khas Inggris ala Indonesia
+I'm excited. | aim ik-SAI-did | Saya senang sekali / Saya tidak sabar | Untuk hal yang ditunggu-tunggu. -ed = perasaan yang kamu rasakan
+I'm nervous. | aim NER-ves | Saya gugup | Sebelum wawancara atau presentasi. Ke orang lain: "Don't be nervous."
+That's too bad. | dhèts tuu bèd | Sayang sekali | Untuk kekecewaan ringan. Untuk hal serius pakai ungkapan berikutnya
+I'm sorry to hear that. | aim SAA-ri te hir dhèt | Saya ikut sedih mendengarnya | Ini ungkapan simpati, bukan permintaan maaf. "sorry" = ikut prihatin
+What a relief! | wat e ri-LIIF! | Syukurlah! Lega rasanya! | Lebih alami lagi kalau didahului "Phew!"
+Oh my gosh! | ou mai gaasy! | Ya ampun! | Versi halus dari "Oh my God". Di pesan: "OMG"
+I'm upset. | aim ap-SÉT | Saya kesal / Saya sedih | Perasaan di antara marah dan sedih
+That's so annoying. | dhèts sou e-NOI-ing | Menyebalkan sekali | Mengatakan "You're annoying" langsung ke orang terdengar cukup kasar
+I can't wait! | ai kènt weit! | Sudah tidak sabar! | Arti harfiahnya "tidak bisa menunggu"
+It's not a big deal. | its naat e big diil | Bukan masalah besar | Untuk menenangkan orang yang merasa bersalah
 `,
-"칭찬·호감 표현": `
-You look great! | 유 룩 그레잇! | 좋아 보여요! / 멋져요! | 외모 칭찬은 "You look ~"로. 아는 사이에서 자연스러워요
-I love your shoes. | 아이 러브 유어 슈즈 | 신발 너무 예뻐요 | love = 정말 마음에 든다. 처음 보는 사람에게도 가볍게 칭찬해요
-That color looks good on you. | 댓 컬러 룩스 굿 온 유 | 그 색 잘 어울려요 | look good on + 사람 = ~에게 잘 어울리다
-You have a great smile. | 유 해버 그레잇 스마일 | 미소가 정말 예뻐요 | 친해진 사이에서 쓰는 따뜻한 칭찬
-You're so funny. | 유어 쏘 퍼니 | 진짜 웃겨요 | funny = 웃긴. fun = 함께 있으면 즐거운
-Great job! | 그레잇 잡! | 잘했어요! | 직장·학교 어디서나. "Nice work!"도 같아요
-I'm proud of you. | 아임 프라우드 오브 유 | 네가 자랑스러워 | 가족·친구에게. 상사가 부하에게 쓰기도 해요
-You did it! | 유 디딧! | 해냈구나! | 목표를 이룬 사람에게
-Your Korean is really good! | 유어 코리안 이즈 륄리 굿! | 한국어 진짜 잘하시네요! | 한국어를 배우는 외국인 친구에게 해 주면 좋아해요
-You have good taste. | 유 해브 굿 테이스트 | 안목이 좋으시네요 / 센스 있어요 | 옷·음악·인테리어 취향 칭찬. "센스"는 영어로 taste예요
-I really enjoyed spending time with you. | 아이 륄리 인조이드 스펜딩 타임 위드 유 | 같이 시간 보내서 정말 즐거웠어요 | 데이트·모임이 끝날 때
-Do you want to grab coffee sometime? | 두 유 워너 그랩 커피 썸타임? | 언제 커피 한잔할래요? | want to는 "워너". grab = 가볍게 먹다·마시다
-I miss you. | 아이 미스 유 | 보고 싶어요 | 지금 떨어져 있는 사람에게. 가족·친구에게도 써요
-You mean a lot to me. | 유 민 어 랏 투 미 | 너는 나한테 정말 소중해 | 친구·연인에게 진심을 전할 때
-You're a lifesaver! | 유어러 라이프세이버! | 덕분에 살았어요! | 작은 도움에도 과장해서 고마움을 표현해요
-You made my day! | 유 메이드 마이 데이! | 덕분에 하루가 행복해졌어요! | 기분 좋은 말이나 선물을 받았을 때
-That's very kind of you. | 댓츠 베리 카인드 오브 유 | 정말 친절하시네요 | 도움이나 칭찬을 받았을 때 공손하게
+"Pujian & rasa suka": `
+You look great! | yu luk greit! | Kamu kelihatan keren! | Pujian penampilan pakai "You look…". Wajar antarorang yang sudah kenal
+I love your shoes. | ai lav yer syuuz | Sepatumu bagus sekali | "love" = sangat suka. Di Amerika orang biasa memuji orang yang baru ditemui seperti ini
+That color looks good on you. | dhèt KA-ler luks gud aan yu | Warna itu cocok untukmu | "look good on" + orang = cocok dipakai seseorang
+You have a great smile. | yu hèv e greit smail | Senyummu manis sekali | Pujian hangat untuk orang yang sudah akrab
+You're so funny. | yer sou FA-ni | Kamu lucu sekali | "funny" = lucu; "fun" = menyenangkan diajak bersama
+Great job! | greit jaab! | Kerja bagus! | Di kantor atau sekolah. "Nice work!" juga sama
+I'm proud of you. | aim praud ev yu | Saya bangga padamu | Untuk keluarga dan teman. Atasan juga bisa mengatakannya ke bawahan
+You did it! | yu did it! | Kamu berhasil! | Untuk orang yang berhasil mencapai targetnya
+Your Indonesian is really good! | yer in-de-NII-zyen iz RII-li gud! | Bahasa Indonesiamu bagus sekali! | Ucapkan ke teman asing yang belajar bahasa Indonesia, pasti dia senang
+You have good taste. | yu hèv gud teist | Seleramu bagus | Memuji selera pakaian, musik, atau dekorasi
+I really enjoyed spending time with you. | ai RII-li in-JOID SPÉN-ding taim widh yu | Saya senang sekali menghabiskan waktu bersamamu | Saat kencan atau pertemuan berakhir
+Do you want to grab coffee sometime? | de yu waant te grèb KOO-fi SAM-taim? | Kapan-kapan mau ngopi bareng? | "want to" sering terdengar seperti "WAA-ne". "grab" = makan atau minum dengan santai
+I miss you. | ai mis yu | Saya rindu kamu | Untuk orang yang sedang berjauhan, termasuk keluarga dan teman
+You mean a lot to me. | yu miin e laat te mii | Kamu sangat berarti buat saya | Untuk teman atau pasangan, saat ingin menyampaikan isi hati
+You're a lifesaver! | yer e LAIF-sei-ver! | Kamu penyelamatku! | Bahkan untuk bantuan kecil, diucapkan agak berlebihan sebagai terima kasih
+You made my day! | yu meid mai dei! | Hari saya jadi menyenangkan berkatmu! | Saat menerima kata-kata manis atau hadiah
+That's very kind of you. | dhèts VÉ-ri kaind ev yu | Baik sekali Anda | Ucapan sopan saat dibantu atau dipuji
 `,
-"직장·이메일": `
-I hope this email finds you well. | 아이 호프 디스 이메일 파인즈 유 웰 | 잘 지내고 계시길 바랍니다 | 격식 있는 이메일 첫 인사. 조금 가볍게: "I hope you're doing well."
-I'm writing to ask about the schedule. | 아임 롸이팅 투 애스크 어바웃 더 스케줄 | 일정에 대해 여쭤보려고 연락드립니다 | 메일 목적을 첫 문장에 밝혀요. I'm writing to + 목적
-I've attached the report. | 아이브 어태치드 더 리포트 | 보고서를 첨부했습니다 | "Please find attached…"는 더 딱딱한 표현이에요
-Just a quick reminder about tomorrow's meeting. | 저스트 어 퀵 리마인더 어바웃 터마로우즈 미팅 | 내일 회의 관련해서 다시 한번 알려 드려요 | 독촉을 부드럽게 하는 표현
-Let me know if you have any questions. | 렛 미 노우 이퓨 해브 애니 퀘스천즈 | 궁금한 점 있으면 말씀해 주세요 | 이메일 마무리 단골 문장
-Could you send me the file by Friday? | 쿠쥬 쎈드 미 더 파일 바이 프라이데이? | 금요일까지 파일 보내 주실 수 있나요? | by = ~까지 (기한). until = ~까지 계속
-Sorry for the late reply. | 쏘리 포 더 레잇 리플라이 | 답장이 늦어 죄송합니다 | 조금 덜 미안하게: "Thanks for your patience."
-Thanks for getting back to me. | 땡스 포 게링 백 투 미 | 답장 주셔서 감사합니다 | get back to = 다시 연락하다
-Best regards, | 베스트 리가즈 | ~ 드림 (이메일 맺음말) | 무난한 맺음말. 가까운 사이: "Best," "Thanks,"
-Let's schedule a meeting. | 렛츠 스케줄 어 미팅 | 회의 일정을 잡읍시다 | 미국: 스케줄, 영국: 셰듈
-I'm running late. | 아임 러닝 레잇 | 조금 늦을 것 같아요 | 이동 중에 미리 연락할 때. "I'll be there in 10."
-Can we push the meeting to 3? | 캔 위 푸쉬 더 미팅 투 쓰리? | 회의를 3시로 미룰 수 있을까요? | 앞당길 땐 move up: "Can we move it up to 1?"
-I'll get back to you. | 아일 겟 백 투 유 | 확인하고 다시 연락드릴게요 | 바로 답하기 어려울 때 시간을 버는 표현
-Can you walk me through it? | 캔 유 워크 미 쓰루 잇? | 하나씩 설명해 주실래요? | walk through = 단계별로 안내하다
-Let's touch base next week. | 렛츠 터치 베이스 넥스트 윅 | 다음 주에 잠깐 얘기 나눠요 | 짧게 진행 상황을 공유하자는 뜻
-What's the deadline? | 왓츠 더 데드라인? | 마감이 언제예요? | "When is this due?"도 같은 뜻
-I'm working from home today. | 아임 워킹 프럼 홈 투데이 | 오늘 재택근무해요 | 줄여서 WFH
-I'm off tomorrow. | 아임 오프 터마로우 | 내일 쉬어요 (휴무예요) | 연차는 "I'm taking a day off tomorrow."
-Thanks for all your hard work. | 땡스 포 올 유어 하드 워크 | 그동안 정말 고생 많으셨어요 | "수고하셨습니다"에 딱 맞는 말은 없어요. 퇴근 인사는 그냥 "See you tomorrow!"
+"Kerja & email": `
+I hope this email finds you well. | ai houp dhis II-meil faindz yu wél | Semoga Anda dalam keadaan baik | Pembuka email formal, pengganti "Dengan hormat". Lebih santai: "I hope you're doing well."
+I'm writing to ask about the schedule. | aim RAI-ding te èsk e-BAUT dhe SKÉ-juul | Saya menghubungi Anda untuk menanyakan jadwal | Sebutkan tujuan email di kalimat pertama: I'm writing to + V1
+I've attached the report. | aiv e-TÈCT dhe ri-POORT | Laporannya saya lampirkan | "Please find attached…" terdengar lebih kaku
+Just a quick reminder about tomorrow's meeting. | jast e kwik ri-MAIN-der e-BAUT te-MAA-rouz MII-ding | Sekadar mengingatkan soal rapat besok | Cara halus untuk mengingatkan
+Let me know if you have any questions. | lét mi nou if yu hèv É-ni KWÉS-cenz | Kabari saya kalau ada pertanyaan | Kalimat penutup email yang paling umum
+Could you send me the file by Friday? | kud yu sénd mi dhe fail bai FRAI-dei? | Bisa kirim filenya paling lambat hari Jumat? | "by" = paling lambat (tenggat); "until" = terus sampai
+Sorry for the late reply. | SAA-ri fer dhe leit ri-PLAI | Maaf terlambat membalas | Alternatif yang lebih positif: "Thanks for your patience."
+Thanks for getting back to me. | thèngks fer GÉ-ding bèk te mi | Terima kasih atas balasannya | "get back to" = menghubungi kembali
+Best regards, | bést ri-GAARDZ | Salam (penutup email) | Penutup yang aman, pengganti "Hormat saya". Untuk yang akrab: "Best," atau "Thanks,"
+Let's schedule a meeting. | léts SKÉ-juul e MII-ding | Mari kita jadwalkan rapat | Amerika: SKÉ-juul; Inggris: diawali bunyi sy
+I'm running late. | aim RA-ning leit | Saya agak terlambat | Kabari lebih dulu saat masih di jalan: "I'll be there in 10."
+Can we push the meeting to 3? | ken wi pusy dhe MII-ding te thrii? | Rapatnya bisa diundur ke jam 3? | Untuk memajukan: "move up": "Can we move it up to 1?"
+I'll get back to you. | ail gét bèk te yu | Nanti saya kabari lagi | Untuk mengulur waktu kalau belum bisa langsung menjawab
+Can you walk me through it? | ken yu wook mi thruu it? | Bisa jelaskan langkah demi langkah? | "walk through" = memandu langkah demi langkah
+Let's touch base next week. | léts tac beis nékst wiik | Kita bicarakan sebentar minggu depan | Ajakan untuk saling memberi kabar perkembangan
+What's the deadline? | wats dhe DÉD-lain? | Tenggatnya kapan? | "When is this due?" artinya sama. Di kampus: "thesis deadline" = tenggat skripsi
+I'm working from home today. | aim WER-king frem houm te-DEI | Hari ini saya kerja dari rumah | Disingkat WFH, sama seperti di Indonesia
+I'm off tomorrow. | aim oof te-MAA-rou | Besok saya libur | Cuti: "I'm taking a day off tomorrow."
+Thanks for all your hard work. | thèngks fer ool yer haard werk | Terima kasih atas kerja kerasnya | Cocok di akhir proyek. Saat pulang kantor cukup "See you tomorrow!"
 `,
-"전화·문자 줄임말": `
-Hello, this is Minji. | 헬로우, 디스 이즈 민지 | 여보세요, 민지예요 | 전화에서는 "I'm Minji" 대신 "This is Minji"
-Can I speak to Mr. Kim? | 캔 아이 스픽 투 미스터 킴? | 김 선생님과 통화할 수 있을까요? | 더 공손하게: "May I speak to…?"
-Who's calling, please? | 후즈 콜링, 플리즈? | 누구시죠? | 전화 받는 쪽에서 묻는 말
-Hold on a second. | 홀드 온 어 세컨드 | 잠시만 기다려 주세요 | 전화·대화 중에 잠깐 기다려 달라고 할 때
-Sorry, you're breaking up. | 쏘리, 유어 브레이킹 업 | 죄송해요, 소리가 끊겨요 | break up = (전화 소리가) 끊기다. 연인이 헤어지다는 뜻도 있어요
-Can I call you back? | 캔 아이 콜 유 백? | 다시 전화드려도 될까요? | 바쁠 때: "I'm in a meeting. Can I call you back?"
-I'll text you. | 아일 텍스트 유 | 문자할게 | 미국에선 메시지 보내는 걸 text라고 해요
-I'm on my way. | 아임 온 마이 웨이 | 가는 중이야 | 문자로는 OMW
-LOL | 엘오엘 | ㅋㅋㅋ (laughing out loud) | 진짜 크게 웃기보다는 가벼운 ㅋㅋ 느낌이에요
-BRB | 비알비 | 금방 올게 (be right back) | 채팅·게임에서 잠깐 자리 비울 때
-BTW | 비티더블유 | 근데 (by the way) | 화제 전환
-TBH | 티비에이치 | 솔직히 (to be honest) | 문장 앞이나 뒤에 붙여요
-IDK | 아이디케이 | 몰라 (I don't know) | 소문자 idk로 많이 써요
-OMG | 오엠지 | 헐 / 세상에 (oh my God) | 말로도 "오엠지!"라고 해요
-ASAP | 에이에스에이피 / 에이샙 | 최대한 빨리 (as soon as possible) | 직장에서도 쓰지만 상사에게는 날짜를 주는 게 더 공손해요
-TTYL | 티티와이엘 | 나중에 얘기해 (talk to you later) | 대화를 끝낼 때
-NVM | 엔브이엠 | 아냐, 됐어 (never mind) | 질문을 취소할 때
-FYI | 에프와이아이 | 참고로 (for your information) | 업무 메일·메신저에서 많이 써요
+"Telepon & singkatan chat": `
+Hello, this is Budi. | hé-LOU, dhis iz BUU-di | Halo, ini Budi | Di telepon pakai "This is Budi", bukan "I'm Budi"
+Can I speak to Mr. Wijaya? | ken ai spiik te MIS-ter wi-JAA-ye? | Bisa bicara dengan Pak Wijaya? | Lebih sopan: "May I speak to…?". "Mr." dipakai dengan nama keluarga; kalau namanya hanya satu, sebut nama itu saja
+Who's calling, please? | huuz KOO-ling, pliiz? | Dengan siapa saya bicara? | Pertanyaan dari pihak yang menerima telepon
+Hold on a second. | hould aan e SÉ-kend | Tunggu sebentar, ya | Untuk minta ditunggu sebentar saat menelepon atau mengobrol
+Sorry, you're breaking up. | SAA-ri, yer BREI-king ap | Maaf, suaramu putus-putus | "break up" = (suara telepon) terputus-putus. Juga berarti putus (pacaran)
+Can I call you back? | ken ai kool yu bèk? | Nanti saya telepon balik, boleh? | Saat sibuk: "I'm in a meeting. Can I call you back?"
+I'll text you. | ail tékst yu | Nanti aku kirim pesan | Di Amerika, mengirim pesan disebut "text"
+I'm on my way. | aim aan mai wei | Aku sedang di jalan | Di pesan: "OMW". Sama dengan "otw" yang biasa kita pakai
+LOL | él ou él | wkwkwk (laughing out loud) | Biasanya bukan tertawa keras sungguhan, lebih seperti "wkwk" ringan
+BRB | bii aar bii | Sebentar, nanti balik lagi (be right back) | Saat meninggalkan obrolan atau gim sebentar
+BTW | bii tii DA-bel-yuu | Ngomong-ngomong (by the way) | Untuk ganti topik. Pengguna Indonesia juga memakainya
+TBH | tii bii eic | Jujur saja (to be honest) | Diletakkan di awal atau akhir kalimat
+IDK | ai dii kei | Tidak tahu (I don't know) | Sering ditulis huruf kecil: "idk"
+OMG | ou ém jii | Ya ampun (oh my God) | Juga diucapkan huruf per huruf
+ASAP | ei és ei pii / EI-sèp | Secepatnya (as soon as possible) | Dipakai juga di kantor, tetapi ke atasan lebih sopan menyebut tanggal
+TTYL | tii tii wai él | Nanti ngobrol lagi (talk to you later) | Untuk mengakhiri obrolan
+NVM | én vii ém | Tidak jadi, lupakan saja (never mind) | Untuk membatalkan pertanyaan
+FYI | éf wai ai | Sekadar info (for your information) | Sering dipakai di email dan chat kantor
 `,
-"여행(공항·호텔)": `
-Here's my passport. | 히어즈 마이 패스포트 | 여기 여권이요 | 체크인·입국 심사에서 건네며
-I'm here for sightseeing. | 아임 히어 포 싸잇씽 | 관광하러 왔어요 | 입국 심사 "What's the purpose of your visit?"에 대한 대답
-I'm staying for a week. | 아임 스테잉 포러 윅 | 일주일 머물 거예요 | "How long are you staying?"에 대한 대답
-I'm staying at the Hilton. | 아임 스테잉 앳 더 힐튼 | 힐튼 호텔에 묵어요 | "Where are you staying?"에 대한 대답
-Window or aisle? | 윈도우 오어 아일? | 창가석이요, 통로석이요? | aisle의 s는 묵음이에요: 아일
-I'd like an aisle seat, please. | 아이드 라익 언 아일 씻, 플리즈 | 통로 쪽 자리로 주세요 | 창가는 a window seat
-Where is the baggage claim? | 웨어리즈 더 배기지 클레임? | 짐 찾는 곳이 어디예요? | 영국에선 baggage reclaim
-My luggage is missing. | 마이 러기지 이즈 미싱 | 짐이 안 나왔어요 | luggage는 셀 수 없어요: a piece of luggage
-I have a reservation under Kim. | 아이 해버 레저베이션 언더 킴 | 김 이름으로 예약했어요 | under + 예약자 이름
-What time is check-out? | 왓 타임 이즈 체카웃? | 체크아웃은 몇 시예요? | 늦게 나가고 싶으면 "Can I get a late check-out?"
-Can I check in early? | 캔 아이 체킨 얼리? | 일찍 체크인할 수 있나요? | check in이 "체킨"처럼 이어져요
-Is breakfast included? | 이즈 브렉퍼스트 인클루디드? | 조식 포함이에요? | breakfast는 "브렉퍼스트". 브레이크가 아니에요
-The air conditioner isn't working. | 디 에어 컨디셔너 이즌트 워킹 | 에어컨이 안 돼요 | "에어컨"은 콩글리시. 줄여서 AC(에이씨)라고 해요
-Could I get some extra towels? | 쿠다이 겟 썸 엑스트라 타월즈? | 수건 좀 더 주실 수 있나요? | could I는 "쿠다이"처럼 이어져요
-Can you hold my bags until 3? | 캔 유 홀드 마이 백즈 언틸 쓰리? | 3시까지 짐 좀 맡아 주실 수 있어요? | 체크아웃 후 짐 보관 요청. hold = 맡아 두다
-My flight was delayed. | 마이 플라잇 워즈 딜레이드 | 비행기가 지연됐어요 | 결항은 canceled
-Where's gate 12? | 웨어즈 게잇 트웰브? | 12번 게이트 어디예요? | 영어는 번호를 뒤에 붙여요
-Do I need to take my laptop out? | 두 아이 니드 투 테익 마이 랩탑 아웃? | 노트북 꺼내야 해요? | 보안 검색대에서. "노트북"은 영어로 laptop이에요
+"Perjalanan (bandara & hotel)": `
+Here's my passport. | hirz mai PÈS-poort | Ini paspor saya | Saat check-in atau di imigrasi
+I'm here for sightseeing. | aim hir fer SAIT-sii-ing | Saya datang untuk berwisata | Jawaban untuk pertanyaan imigrasi "What's the purpose of your visit?"
+I'm staying for a week. | aim STEI-ing fer e wiik | Saya tinggal selama seminggu | Jawaban untuk "How long are you staying?"
+I'm staying at the Hilton. | aim STEI-ing et dhe HIL-ten | Saya menginap di Hotel Hilton | Jawaban untuk "Where are you staying?"
+Window or aisle? | WIN-dou oor ail? | Dekat jendela atau lorong? | s pada "aisle" tidak dibaca: ail
+I'd like an aisle seat, please. | aid laik en ail siit, pliiz | Saya mau kursi dekat lorong | Dekat jendela: "a window seat". Saat berangkat dari Soekarno-Hatta (CGK) atau Ngurah Rai (DPS), petugas maskapai asing sering bertanya dalam bahasa Inggris
+Where is the baggage claim? | wér iz dhe BÈ-gij kleim? | Tempat pengambilan bagasi di mana? | Inggris: "baggage reclaim"
+My luggage is missing. | mai LA-gij iz MI-sing | Bagasi saya tidak ada | "luggage" tidak bisa dihitung: tanpa -s jamak. Satu koper = "a piece of luggage"
+I have a reservation under Wijaya. | ai hèv e ré-zer-VEI-syen AN-der wi-JAA-ye | Saya sudah reservasi atas nama Wijaya | "under" + nama pemesan
+What time is check-out? | wat taim iz CÉK-aut? | Check-out jam berapa? | Kalau ingin keluar lebih lambat: "Can I get a late check-out?"
+Can I check in early? | ken ai cék in ER-li? | Bisa check-in lebih awal? | "check in" tersambung, terdengar seperti satu kata
+Is breakfast included? | iz BRÉK-fest in-KLUU-did? | Sudah termasuk sarapan? | "breakfast" dibaca BRÉK-fest, bukan "brek-fast"
+The air conditioner isn't working. | dhi ér ken-DI-sye-ner I-zent WER-king | AC-nya tidak berfungsi | Singkatnya "AC" (ei sii), sama seperti di Indonesia
+Could I get some extra towels? | kud ai gét sem ÉK-stre TAU-elz? | Boleh minta handuk tambahan? | "Could I" terdengar hampir tersambung
+Can you hold my bags until 3? | ken yu hould mai bègz en-TIL thrii? | Bisa titip tas saya sampai jam 3? | Permintaan menitipkan barang setelah check-out. "hold" = menyimpan sementara
+My flight was delayed. | mai flait wez di-LEID | Penerbangan saya tertunda | Dibatalkan: "canceled"
+Where's gate 12? | wérz geit twélv? | Gerbang 12 di mana? | Dalam bahasa Inggris nomornya di belakang. Di Amerika tamu biasanya memberi tip untuk porter dan petugas kamar, berbeda dengan di Indonesia
+Do I need to take my laptop out? | de ai niid te teik mai LÈP-taap aut? | Laptopnya perlu dikeluarkan? | Di pemeriksaan keamanan bandara
 `,
-"병원·긴급": `
-Help! | 헬프! | 도와주세요! | 위급할 때 크게 외쳐요
-Call 911! | 콜 나인 원 원! | 911에 전화해 주세요! | 미국 긴급번호는 911(나인 원 원), 영국은 999
-I need a doctor. | 아이 니더 닥터 | 의사가 필요해요 | 급하면 "I need an ambulance."
-I don't feel well. | 아이 돈 필 웰 | 몸이 안 좋아요 | 가장 무난한 표현이에요
-I have a headache. | 아이 해버 헤데익 | 머리가 아파요 | 아픈 곳 + ache: stomachache, toothache
-I have a fever. | 아이 해버 피버 | 열이 나요 | f는 윗니를 아랫입술에 대고 바람을 내보내요
-My stomach hurts. | 마이 스터먹 허츠 | 배가 아파요 | 아픈 부위 + hurts. stomach는 "스터먹"
-I have a sore throat. | 아이 해버 쏘어 쓰롯 | 목이 아파요 | sore = 쓰리고 아픈. 목 전체(neck)가 아니라 목구멍이에요
-I feel dizzy. | 아이 필 디지 | 어지러워요 | 메스꺼우면 "I feel sick." / "I feel nauseous."
-I sprained my ankle. | 아이 스프레인드 마이 앵클 | 발목을 삐었어요 | sprain = 삐다. 손목은 wrist
-Is there a pharmacy near here? | 이즈 데어러 파머시 니어 히어? | 이 근처에 약국 있어요? | 미국에선 drugstore(CVS 등)라고도 해요
-Do I need a prescription? | 두 아이 니더 프리스크립션? | 처방전이 필요한가요? | 미국은 처방전 없이 살 수 있는 약을 over-the-counter라고 해요
-I lost my wallet. | 아이 로스트 마이 월릿 | 지갑을 잃어버렸어요 | 휴대폰이면 phone. 분실물 센터는 lost and found
-Someone stole my phone. | 썸원 스톨 마이 폰 | 누가 제 휴대폰을 훔쳐 갔어요 | steal(훔치다)의 과거형 stole
-Where is the police station? | 웨어리즈 더 폴리스 스테이션? | 경찰서가 어디예요? | police 강세는 뒤: 폴리-스
-I need to contact the Korean embassy. | 아이 니드 투 칸택트 더 코리안 엠버시 | 한국 대사관에 연락해야 해요 | 여권 분실 시 꼭 필요한 문장이에요
-I have travel insurance. | 아이 해브 트래블 인슈어런스 | 여행자 보험이 있어요 | 병원비가 비싼 나라에선 꼭 가입하고 가세요
+"Rumah sakit & darurat": `
+Help! | hélp! | Tolong! | Teriakkan keras-keras saat darurat
+Call 911! | kool nain wan wan! | Telepon 911! | Nomor darurat Amerika 911 (nain wan wan), Inggris 999. Di Indonesia 112
+I need a doctor. | ai niid e DAAK-ter | Saya butuh dokter | Kalau gawat: "I need an ambulance."
+I don't feel well. | ai dount fiil wél | Saya merasa tidak enak badan | Ungkapan paling netral
+I have a headache. | ai hèv e HÉD-eik | Kepala saya sakit | Bagian tubuh + "ache": "stomachache", "toothache"
+I have a fever. | ai hèv e FII-ver | Saya demam | f: gigi atas di bibir bawah, lalu embuskan udara. Jangan dibaca p
+My stomach hurts. | mai STA-mek herts | Perut saya sakit | Bagian tubuh + "hurts". "stomach" dibaca STA-mek
+I have a sore throat. | ai hèv e soor throut | Tenggorokan saya sakit | "sore" = perih. Bukan leher ("neck"), tetapi tenggorokan
+I feel dizzy. | ai fiil DI-zi | Kepala saya berputar / Saya pusing | Kalau mual: "I feel sick." / "I feel nauseous."
+I sprained my ankle. | ai spreind mai ÈNG-kel | Pergelangan kaki saya terkilir | "sprain" = terkilir. Pergelangan tangan: "wrist"
+Is there a pharmacy near here? | iz dhér e FAAR-me-si nir hir? | Ada apotek di dekat sini? | Di Amerika juga disebut "drugstore" (misalnya CVS)
+Do I need a prescription? | de ai niid e pri-SKRIP-syen? | Perlu resep dokter? | Obat tanpa resep disebut "over-the-counter". Awas: resep masakan = "recipe"
+I lost my wallet. | ai loost mai WAA-lit | Dompet saya hilang | Untuk HP: "phone". Tempat barang hilang: "lost and found"
+Someone stole my phone. | SAM-wan stoul mai foun | Ada yang mencuri HP saya | "stole" adalah V2 dari "steal" (mencuri)
+Where is the police station? | wér iz dhe pe-LIIS STEI-syen? | Kantor polisi di mana? | Tekanan "police" ada di belakang: pe-LIIS
+I need to contact the Indonesian embassy. | ai niid te KAAN-tèkt dhi in-de-NII-zyen ÉM-be-si | Saya perlu menghubungi Kedutaan Besar Indonesia | Kalimat penting kalau paspormu hilang
+I have travel insurance. | ai hèv TRÈ-vel in-SYU-rens | Saya punya asuransi perjalanan | Di negara yang biaya rumah sakitnya mahal, asuransi ini wajib disiapkan
 `,
-"구동사": `
-pick up | 피컵 | (차로) 데리러 가다 / 줍다 | "I'll pick you up at 7." 대명사(you, it)는 가운데에 와요
-give up | 기법 | 포기하다 | "Don't give up!" 무엇을 포기하는지는 ~ing: give up smoking
-figure out | 피겨라웃 | 알아내다 / 해결하다 | "I can't figure out this app." (이 앱 어떻게 쓰는지 모르겠어)
-find out | 파인다웃 | (사실을) 알게 되다 | 정보를 알아낼 때. figure out은 머리를 써서 풀 때
-look for | 룩 포 | 찾다 (찾는 중이다) | "I'm looking for my keys." 찾아냈으면 find
-look after | 룩 애프터 | 돌보다 | "Can you look after my cat?" 미국에선 take care of도 많이 써요
-look forward to | 룩 포워드 투 | ~을 기대하다 | to 뒤에 명사나 ~ing: "I'm looking forward to seeing you."
-run out of | 러나우로브 | ~이 다 떨어지다 | 무엇이 떨어졌는지는 of 뒤에: "We ran out of milk." (우유가 다 떨어졌어)
-turn on | 터논 | 켜다 | 전기·기계를 켤 때: "Turn on the light." 대명사는 가운데: "Turn it on."
-turn off | 터노프 | 끄다 | 대명사는 가운데: "Turn it off." (turn off it X)
-turn down | 턴 다운 | 거절하다 / (소리를) 줄이다 | 두 가지 뜻 모두 자주 써요: "She turned down the offer." / "Turn it down!"
-put off | 푸로프 | 미루다 | 일상 대화에선 postpone보다 훨씬 많이 써요: "Stop putting it off!"
-show up | 쇼우 업 | 나타나다 / 오다 | 약속 장소에 나타날 때: "He didn't show up to the party." (파티에 안 왔어)
-hang out | 행아웃 | 놀다 / 어울리다 | 친구랑 노는 건 play가 아니라 hang out! (play는 아이들이나 게임·운동)
-check out | 체카웃 | 확인하다 / 한번 보다 | "Check out this video!" 호텔 체크아웃이라는 뜻도 있어요
-work out | 워카웃 | 운동하다 / 잘 풀리다 | 헬스장 운동은 exercise보다 work out: "I work out every day." / "It'll work out." (잘될 거야)
-come up with | 커멉 위드 | (아이디어를) 생각해 내다 | 아이디어·핑계·해결책을 떠올릴 때: "She came up with a great idea."
-get along with | 게럴롱 위드 | ~와 잘 지내다 | 사이가 좋을 때: "I get along with my coworkers." (동료들과 잘 지내요)
-calm down | 캄 다운 | 진정하다 | calm의 l은 소리 나지 않아요. 화난 사람에게 쓰면 더 화나게 할 수도 있어요
-set up | 쎄럽 | 설치하다 / 마련하다 | 기기 설치·회의 준비 등: "Can you help me set up my printer?"
-break up | 브레이컵 | 헤어지다 | "They broke up last month." 누구와: break up with
-fill out | 필 아웃 | (서류를) 작성하다 | "Please fill out this form." 영국식은 fill in
-grow up | 그로우 업 | 자라다 | 자란 곳을 말할 때: "I grew up in Daegu." (대구에서 자랐어요)
-wake up | 웨이컵 | 잠에서 깨다 | 깨어나는 순간은 wake up, 침대에서 나오는 건 get up
+"Phrasal verb": `
+pick up | pik ap | menjemput / memungut | "I'll pick you up at 7." Kata ganti (you, it) diletakkan di tengah
+give up | giv ap | menyerah | "Don't give up!" Yang ditinggalkan pakai bentuk -ing: "give up smoking"
+figure out | FI-gyer aut | memahami / memecahkan | "I can't figure out this app." (Saya tidak paham cara memakai aplikasi ini)
+find out | faind aut | mengetahui (fakta) | Untuk mendapat informasi. "figure out" = memecahkan dengan berpikir
+look for | luk foor | mencari | "I'm looking for my keys." Kalau sudah ketemu: "find"
+look after | luk ÈF-ter | menjaga / merawat | "Can you look after my cat?" Di Amerika "take care of" juga sering dipakai
+look forward to | luk FOOR-werd tuu | menantikan | Setelah "to" pakai kata benda atau bentuk -ing: "I'm looking forward to seeing you."
+run out of | ran aut av | kehabisan | Yang habis disebut setelah "of": "We ran out of milk." (Susu kami habis)
+turn on | tern aan | menyalakan | Untuk listrik atau mesin: "Turn on the light." Kata ganti di tengah: "Turn it on."
+turn off | tern oof | mematikan | Kata ganti di tengah: "Turn it off." (bukan "turn off it")
+turn down | tern daun | menolak / mengecilkan (suara) | Kedua arti sama-sama sering: "She turned down the offer." / "Turn it down!"
+put off | put oof | menunda | Dalam obrolan jauh lebih sering daripada "postpone": "Stop putting it off!"
+show up | syou ap | datang / muncul | Muncul di tempat janjian: "He didn't show up to the party." (Dia tidak datang ke pesta)
+hang out | hèng aut | main / nongkrong | Main dengan teman = "hang out", bukan "play" ("play" untuk anak-anak, gim, atau olahraga)
+check out | cék aut | melihat / mengecek | "Check out this video!" Juga berarti check-out dari hotel
+work out | werk aut | berolahraga / berhasil (beres) | Olahraga di gym: "I work out every day." / "It'll work out." (Pasti beres)
+come up with | kam ap widh | menemukan (ide) | Untuk ide, alasan, atau solusi: "She came up with a great idea."
+get along with | gét e-LOONG widh | akur dengan | "I get along with my coworkers." (Saya akur dengan rekan kerja)
+calm down | kaam daun | tenang / menenangkan diri | l pada "calm" tidak dibaca. Mengatakannya ke orang yang marah bisa membuatnya makin marah
+set up | sét ap | memasang / menyiapkan | Memasang alat atau menyiapkan rapat: "Can you help me set up my printer?"
+break up | breik ap | putus (pacaran) | "They broke up last month." Dengan siapa: "break up with"
+fill out | fil aut | mengisi (formulir) | "Please fill out this form." Inggris: "fill in"
+grow up | grou ap | tumbuh besar | Untuk menyebut tempat kamu dibesarkan: "I grew up in Medan." (Saya besar di Medan)
+wake up | weik ap | bangun (dari tidur) | Saat terbangun = "wake up"; keluar dari tempat tidur = "get up"
 `,
-"발음 주의": `
-rice | 롸이스 | 쌀 / 밥 | R: 입술을 둥글게 내밀고, 혀끝은 어디에도 닿지 않게. lice와 구분해요
-lice | 라이스 | 이 (머리에 사는 벌레) | L: 혀끝을 윗니 뒤 잇몸에 붙였다 떼요. "I like rice"를 lice로 말하면 큰일!
-right | 롸잇 | 오른쪽 / 맞는 | R로 시작. light와 구분
-light | 라잇 | 빛 / 가벼운 | L로 시작. 혀끝이 윗잇몸에 닿아요
-fan | 팬 (f) | 선풍기 / 팬 (좋아하는 사람) | F: 윗니를 아랫입술에 살짝 대고 바람을 내보내요
-pan | 팬 (p) | 프라이팬 | P: 두 입술을 붙였다가 터뜨려요
-coffee | 커피 (f) | 커피 | 가운데 f를 살려요. p로 말하면 copy(카피)처럼 들려요
-copy | 카피 | 복사하다 / 복사본 | 가운데가 p. 미국식은 "카피"에 가까워요
-think | 띵크 (th) | 생각하다 | TH: 혀끝을 윗니와 아랫니 사이에 살짝 내밀고 바람. s로 말하면 sink
-sink | 씽크 | 싱크대 / 가라앉다 | 혀가 이 뒤에 숨어 있는 s 소리
-three | 쓰리 (th) | 숫자 3 | 혀를 이 사이에! t로 말하면 tree처럼 들려요
-tree | 트리 | 나무 | tr은 "츄리"에 가깝게 들리기도 해요
-this | 디스 (th) | 이것 | 성대를 울리는 th. 혀끝을 이 사이에 두고 "드"
-very | 베리 (v) | 매우 | V: 윗니를 아랫입술에 대고 성대를 울려요. b로 말하면 berry
-berry | 베리 (b) | 베리 (딸기 같은 열매) | 두 입술을 붙였다 떼는 b
-vote | 보웃 (v) | 투표하다 | v로 시작. boat와 구분
-boat | 보웃 (b) | 배 / 보트 | b로 시작. "보트"보다 "보웃"에 가까워요
-walk | 웍 | 걷다 | l은 소리 나지 않아요. 입을 크게 벌린 "어"
-work | 워r크 | 일하다 | 혀를 뒤로 말아 r을 넣어요. walk와 헷갈리기 쉬운 짝꿍
-beach | 비-치 | 해변 | "이-"를 길게! 짧게 말하면 욕처럼 들릴 수 있어요
-leave | 리-브 | 떠나다 | 길게 "리-". 짧은 live(살다)와 구분해요
-live | 리브 (짧게) | 살다 | 짧고 힘을 빼서 "리브". leave보다 입을 덜 벌려요
-banana | 버내너 | 바나나 | 강세는 가운데 "내". "바나나"라고 또박또박 읽으면 못 알아들어요
-hotel | 호우텔 | 호텔 | 강세는 뒤 "텔". 앞을 세게 말하면 어색해요
-milk | 밀크 (크는 아주 약하게) | 우유 | 끝에 "으"를 붙이지 마요. 끝 자음은 입 모양만 살짝
-McDonald's | 먹다널즈 | 맥도날드 | 강세는 "다". 미국에서 "맥도날드"라고 하면 잘 못 알아들어요
+"Awas pelafalan": `
+rice | rais | beras / nasi | r: lidah tidak menyentuh apa pun. Kamu sudah punya r dan l, jadi cukup jangan digetarkan seperti r bahasa Indonesia
+lice | lais | kutu (rambut) | l: ujung lidah menyentuh gusi di belakang gigi atas, sama seperti l bahasa Indonesia
+right | rait | kanan / benar | Diawali r. Bedakan dengan "light"
+light | lait | cahaya / ringan | Diawali l. Ujung lidah menyentuh gusi atas
+fan | fèn | kipas angin / penggemar | f: gigi atas menyentuh bibir bawah, lalu embuskan udara. Penutur bahasa Sunda kadang mengucapkannya p
+pan | pèn | wajan | p: kedua bibir dirapatkan lalu dilepas
+coffee | KOO-fi | kopi | Bunyi f di tengah harus jelas. Kalau dibaca p, terdengar seperti "copy"
+copy | KAA-pi | menyalin / salinan | Di tengahnya p, dan vokal pertamanya aa
+think | thingk | berpikir | th: ujung lidah di antara gigi atas dan bawah, lalu embuskan udara. Jangan dibaca "tink", dan jangan s ("sink")
+sink | singk | wastafel / tenggelam | Bunyi s biasa, lidah di belakang gigi
+three | thrii | tiga | Lidah di antara gigi! Kalau dibaca t, terdengar seperti "tree"
+tree | trii | pohon | t biasa, ujung lidah di gusi atas
+this | dhis | ini | th yang bersuara (dh): lidah di antara gigi, pita suara bergetar. Bukan d
+very | VÉ-ri | sangat | v: gigi atas di bibir bawah dan pita suara bergetar. Kalau dibaca b, terdengar seperti "berry"; kalau f, seperti "fairy"
+berry | BÉ-ri | buah beri | b: kedua bibir dirapatkan lalu dilepas
+vote | vout | memberikan suara (memilih) | Diawali v. Bedakan dengan "boat"
+boat | bout | perahu | Diawali b. Vokalnya ou, bukan o biasa
+walk | wook | berjalan kaki | l tidak dibaca. Mulut terbuka lebar: wook
+work | werk | bekerja | Ada bunyi er. Mudah tertukar dengan "walk"
+beach | biic | pantai | ii dibaca panjang! Kalau pendek, terdengar seperti kata kasar
+leave | liiv | pergi / berangkat | ii panjang dan v bersuara di akhir. Bedakan dengan "live" yang pendek
+live | liv | tinggal / hidup | i pendek dan santai. Mulut tidak selebar saat mengucapkan "leave"
+banana | be-NÈ-ne | pisang | Tekanannya di tengah: be-NÈ-ne. Kalau dibaca "ba-na-na" rata, sulit dipahami
+hotel | hou-TÉL | hotel (penginapan) | Tekanannya di belakang: hou-TÉL
+milk | milk (i pendek) | susu | Jangan tambahkan vokal di akhir. k diucapkan penuh, tidak seperti k pada "anak"
+McDonald's | mek-DAA-nelz | restoran McDonald's | Tekanannya di DAA. s di akhir dibaca z
+ship | syip | kapal laut | sy seperti pada "syarat", i pendek. Bedakan dengan "sip" dan "sheep"
+sheep | syiip | domba | ii panjang. Kalau pendek, jadi "ship"
+sip | sip (i pendek) | menyesap / seteguk | s biasa, bukan sy. Bedakan dengan "ship"
+fairy | FÉ-ri | peri | Diawali f tanpa suara. Bedakan dengan "very" (v bersuara)
+van | vèn | mobil van | v bersuara: gigi atas di bibir bawah dan pita suara bergetar. Bedakan dengan "fan"
+bag | bèg | tas | g di akhir tetap bersuara. Kalau dibaca k, jadi "back"
+back | bèk | punggung / kembali | k di akhir diucapkan penuh, tidak seperti k pada "anak"
+bad | bèd | buruk | è: buka mulut lebih lebar daripada é. d di akhir tetap bersuara, bukan t
+bed | béd | tempat tidur | é: mulut lebih sempit daripada è pada "bad"
+dogs | doogz | anjing-anjing (jamak) | -s jamak setelah bunyi bersuara dibaca z: doogz. Bedakan dengan "docks"
+docks | daaks | dermaga (jamak) | k + s tanpa suara: daaks. Bedakan dengan "dogs"
 `,
-"영어 관용구": `
-It's a piece of cake. | 잇츠 어 피스 오브 케익 | 식은 죽 먹기예요 | 아주 쉬운 일. "The test was a piece of cake."
-I'm on cloud nine. | 아임 온 클라우드 나인 | 날아갈 듯 기뻐요 | 엄청 행복할 때
-It costs an arm and a leg. | 잇 코스츠 언 암 앤 어 레그 | 엄청 비싸요 | 팔다리를 내줄 만큼 비싸다는 뜻
-Let's call it a day. | 렛츠 콜 잇 어 데이 | 오늘은 여기까지 해요 | 일·공부를 마칠 때. 회의에서도 자연스러워요
-I'm feeling under the weather. | 아임 필링 언더 더 웨더 | 몸이 좀 안 좋아요 | 감기 기운처럼 가볍게 아플 때. 날씨와는 상관없어요
-I need to hit the books. | 아이 니드 투 힛 더 북스 | 공부 좀 열심히 해야 해 | 시험 전에. 책을 때리는 게 아니에요
-Once in a blue moon | 원스 인 어 블루 문 | 아주 가끔 | 아주 드문 일에: "I only eat fast food once in a blue moon."
-Better late than never. | 베러 레잇 댄 네버 | 늦더라도 안 하는 것보단 낫죠 | 늦게 시작한 사람을 격려할 때
-Don't beat around the bush. | 돈 비러롸운 더 부쉬 | 돌려 말하지 마요 | 본론을 말해 달라는 뜻
-It's not my cup of tea. | 잇츠 낫 마이 커퍼 티 | 제 취향은 아니에요 | 부드럽게 싫다고 할 때 좋아요
-Let's get the ball rolling. | 렛츠 겟 더 볼 롤링 | 자, 시작해 봅시다 | 회의·프로젝트 시작할 때
-I'll keep my fingers crossed. | 아일 킵 마이 핑거즈 크로스드 | 잘되길 빌게요 | 검지와 중지를 꼬는 제스처와 함께 써요
-Hang in there. | 행 인 데어 | 조금만 버텨 / 힘내 | 힘든 시기를 보내는 사람에게
-Speak of the devil! | 스픽 오브 더 데블! | 호랑이도 제 말 하면 온다더니! | 얘기하던 사람이 나타났을 때
-The ball is in your court. | 더 볼 이즈 인 유어 코트 | 이제 당신이 결정할 차례예요 | 테니스에서 온 표현
-My lips are sealed. | 마이 립스 아 씰드 | 비밀 지킬게요 | 입술을 봉했다는 뜻
-It's on the tip of my tongue. | 잇츠 온 더 팁 오브 마이 텅 | 혀끝에서 맴도는데… | 생각날 듯 말 듯할 때
-I'm all ears. | 아임 올 이어즈 | 잘 듣고 있어요 / 어서 말해 봐요 | 귀를 쫑긋 세우고 듣는다는 뜻
-When pigs fly. | 웬 픽스 플라이 | 해가 서쪽에서 뜨겠다 | 절대 일어나지 않을 일. "He'll clean his room when pigs fly."
+"Idiom bahasa Inggris": `
+It's a piece of cake. | its e piis ev keik | Semudah membalikkan telapak tangan | Untuk hal yang sangat mudah. "The test was a piece of cake."
+I'm on cloud nine. | aim aan klaud nain | Senang bukan main | Saat sangat bahagia
+It costs an arm and a leg. | it koosts en aarm en e lég | Harganya selangit | Artinya mahal sampai rasanya harus menyerahkan tangan dan kaki
+Let's call it a day. | léts kool it e dei | Cukup sampai di sini hari ini | Untuk mengakhiri kerja atau belajar. Wajar juga di rapat
+I'm feeling under the weather. | aim FII-ling AN-der dhe WÉ-dher | Badan saya agak kurang enak | Sakit ringan, misalnya mau flu. Tidak ada hubungannya dengan cuaca
+I need to hit the books. | ai niid te hit dhe buks | Saya harus belajar keras | Sebelum ujian. Bukan memukul buku!
+Once in a blue moon | wans in e bluu muun | Jarang sekali | Untuk hal yang sangat jarang: "I only eat fast food once in a blue moon."
+Better late than never. | BÉ-der leit dhen NÉ-ver | Lebih baik terlambat daripada tidak sama sekali | Untuk menyemangati orang yang baru mulai
+Don't beat around the bush. | dount biit e-RAUND dhe busy | Jangan bertele-tele | Minta orang langsung ke pokok persoalan
+It's not my cup of tea. | its naat mai kap ev tii | Bukan selera saya | Cara halus untuk bilang tidak suka
+Let's get the ball rolling. | léts gét dhe bool ROU-ling | Ayo kita mulai | Saat memulai rapat atau proyek
+I'll keep my fingers crossed. | ail kiip mai FING-gerz kroost | Semoga berhasil, ya | Sering disertai gerakan menyilangkan jari telunjuk dan jari tengah
+Hang in there. | hèng in dhér | Bertahanlah / Semangat, ya | Untuk orang yang sedang mengalami masa sulit
+Speak of the devil! | spiik ev dhe DÉ-vel! | Panjang umur! | Saat orang yang sedang dibicarakan tiba-tiba muncul, persis seperti "Panjang umur!"
+The ball is in your court. | dhe bool iz in yer koort | Sekarang giliranmu memutuskan | Berasal dari tenis
+My lips are sealed. | mai lips er siild | Saya tutup mulut | Artinya bibir sudah disegel: rahasiamu aman
+It's on the tip of my tongue. | its aan dhe tip ev mai tang | Sudah di ujung lidah… | Saat hampir ingat, tetapi kata itu belum keluar juga
+I'm all ears. | aim ool irz | Saya siap mendengarkan | Artinya seluruh diri jadi telinga
+When pigs fly. | wén pigz flai | Sampai kucing bertanduk | Untuk hal yang tidak akan pernah terjadi: "He'll clean his room when pigs fly."
 `,
-"영화·드라마·슬랭": `
-Spill the tea. | 스필 더 티 | 썰 좀 풀어 봐 | tea = 가십·소문. 친구 사이 슬랭
-No cap. | 노 캡 | 진짜야, 거짓말 아님 | 젊은 층 슬랭. cap = 거짓말
-That song slaps. | 댓 쏭 슬랩스 | 그 노래 진짜 좋다 | slap = (음악이) 끝내주다. 음식에도 써요
-I'm dead. | 아임 데드 | 개웃겨 / 빵 터졌어 | 문자에서 💀 이모지와 함께 써요. 진짜 죽었다는 뜻 아니에요
-Low-key | 로우키 | 은근히 / 살짝 | "I low-key love this song." 반대는 high-key(대놓고)
-I'm obsessed with this song. | 아임 업세스트 위드 디스 쏭 | 이 노래에 완전 꽂혔어 | obsessed = 푹 빠진. 긍정적으로 많이 써요
-What's it about? | 왓츠 잇 어바웃? | 무슨 내용이야? | 영화·드라마 줄거리를 물을 때
-No spoilers! | 노 스포일러즈! | 스포 금지! | "Don't spoil it!"도 같은 뜻
-I binge-watched the whole season. | 아이 빈지와치트 더 홀 시즌 | 시즌 전체를 정주행했어 | binge-watch = 몰아보기
-The ending was so good. | 디 엔딩 워즈 쏘 굿 | 결말 진짜 좋았어 | 별로였으면 "The ending was disappointing."
-It's a must-watch. | 잇츠 어 머스트와치 | 꼭 봐야 하는 작품이야 | 강력 추천할 때
-Plot twist! | 플랏 트위스트! | 반전! | 일상에서 예상 못 한 일이 생겼을 때도 써요
-It's overrated. | 잇츠 오버레이티드 | 과대평가됐어 | 반대는 underrated(과소평가된)
-That scene gave me chills. | 댓 씬 게이브 미 칠즈 | 그 장면 소름 돋았어 | 감동이나 긴장으로 소름 돋을 때
-Who's your bias? | 후즈 유어 바이어스? | 최애가 누구야? | K-pop 팬덤에서 쓰는 말. 일반적으로는 "Who's your favorite member?"
-Are you kidding me? | 아 유 키딩 미? | 장난해? / 이게 말이 돼? | 드라마 단골 대사. 놀람·짜증 모두 가능
-I've got your back. | 아이브 갓 유어 백 | 내가 네 편이야 | 든든하게 지켜 주겠다는 뜻
-Gotcha. | 가차 | 알았어 / 잡았다! | got you의 줄임말. 이해했다는 뜻으로 가장 많이 써요
-Let's do this! | 렛츠 두 디스! | 가자! 해 보자! | 시작 전에 의욕을 북돋울 때
+"Film, serial & slang": `
+Spill the tea. | spil dhe tii | Ayo cerita gosipnya! | "tea" = gosip. Slang antarteman
+No cap. | nou kèp | Serius, tidak bohong | Slang anak muda. "cap" = bohong
+That song slaps. | dhèt soong slèps | Lagu itu mantap sekali | "slap" = (musik) keren sekali. Juga dipakai untuk makanan
+I'm dead. | aim déd | Ngakak! | Di pesan sering disertai emoji tengkorak. Bukan mati sungguhan
+Low-key | LOU-kii | diam-diam / sedikit | "I low-key love this song." Kebalikannya: "high-key" (terang-terangan)
+I'm obsessed with this song. | aim eb-SÉST widh dhis soong | Aku tergila-gila sama lagu ini | "obsessed" = sangat suka. Biasanya bermakna positif
+What's it about? | wats it e-BAUT? | Ceritanya tentang apa? | Untuk menanyakan alur film atau serial
+No spoilers! | nou SPOI-lerz! | Jangan bocorkan ceritanya! | "Don't spoil it!" artinya sama
+I binge-watched the whole season. | ai BINJ-waact dhe houl SII-zen | Aku maraton nonton satu musim penuh | "binge-watch" = menonton maraton
+The ending was so good. | dhi ÉN-ding wez sou gud | Akhir ceritanya bagus sekali | Kalau mengecewakan: "The ending was disappointing."
+It's a must-watch. | its e MAST-waac | Wajib ditonton | Untuk rekomendasi yang kuat
+Plot twist! | plaat twist! | Ceritanya berbalik! | Juga dipakai saat ada kejadian tak terduga sehari-hari
+It's overrated. | its ou-ver-REI-did | Terlalu dibesar-besarkan | Kebalikannya: "underrated" (kurang dihargai)
+That scene gave me chills. | dhèt siin geiv mi cilz | Adegan itu bikin merinding | Saat merinding karena terharu atau tegang
+Who's your bias? | huuz yer BAI-es? | Anggota favoritmu siapa? | Istilah fandom K-pop yang juga akrab di Indonesia. Secara umum: "Who's your favorite member?"
+Are you kidding me? | er yu KI-ding mi? | Bercanda, ya? Yang benar saja! | Kalimat khas drama. Bisa kaget atau kesal
+I've got your back. | aiv gaat yer bèk | Aku selalu mendukungmu | Artinya siap melindungi dan membela
+Gotcha. | GAA-ce | Oke, paham / Kena kau! | Singkatan dari "got you". Paling sering berarti "paham"
+Let's do this! | léts duu dhis! | Ayo, kita lakukan! | Untuk membakar semangat sebelum mulai
+`,
+"Jebakan Inggris ala Indonesia": `
+This movie is boring. | dhis MUU-vi iz BOO-ring | Film ini membosankan | Inggris ala Indonesia: "boring" = membuat bosan. Untuk perasaanmu: "I'm bored". "I'm boring" = saya orang yang membosankan
+I'm interested in art. | aim IN-tre-stid in aart | Saya tertarik pada seni | Perasaanmu pakai -ed ("interested"); yang menimbulkan perasaan pakai -ing: "Art is interesting."
+The trip was tiring. | dhe trip wez TAI-e-ring | Perjalanannya melelahkan | Pola yang sama: "I'm tired" (saya lelah), "The trip was tiring" (perjalanannya melelahkan)
+Let's take a break. | léts teik e breik | Ayo kita istirahat sebentar | Inggris ala Indonesia: "refreshing" bukan kata kerja untuk rehat. Pakai "take a break", "unwind", atau "get away"
+I want to unwind this weekend. | ai waant te an-WAIND dhis WIIK-énd | Saya mau melepas penat akhir pekan ini | "refreshing" dalam bahasa Inggris adalah kata sifat: "This drink is refreshing" (minuman ini menyegarkan)
+Let's get away to Bali. | léts gét e-WEI te BAA-li | Ayo liburan sebentar ke Bali | Pengganti "Let's go refreshing to Bali". "get away" = pergi sejenak dari rutinitas
+We break the fast at sunset. | wi breik dhe fèst et SAN-sét | Kami berbuka puasa saat magrib | Inggris ala Indonesia: "breakfasting" untuk buka puasa. Pakai "break the fast" atau "have iftar"; "breakfast" = sarapan
+Bring snacks, drinks, or whatever. | bring snèks, dringks, er wat-É-ver | Bawa camilan, minuman, atau apa saja | Inggris ala Indonesia: "or whatsoever". Yang benar "or whatever"; "whatsoever" dipakai dalam kalimat negatif: "no idea whatsoever"
+folder | FOUL-der | map (dokumen) | Arti berbeda: map untuk kertas = "folder"
+map | mèp | peta | Arti berbeda: "map" dalam bahasa Inggris adalah peta, bukan map dokumen
+prescription | pri-SKRIP-syen | resep dokter | Arti berbeda: resep dari dokter = "prescription", bukan "recipe"
+recipe | RÉ-se-pi | resep masakan | Hanya untuk memasak: "my mom's rendang recipe"
+degree | di-GRII | gelar (S1, S2, S3) | Inggris ala Indonesia: "titel". "title" dipakai untuk sebutan seperti Dr. atau Prof.; gelar sarjana = "a bachelor's degree"
+housing complex | HAU-zing KAAM-pléks | kompleks perumahan | "complex" saja bisa berarti rumit. Sebut lengkap: "housing complex" atau "housing estate"
+economical | é-ke-NAA-mi-kel | hemat / irit | Arti berbeda: "ekonomis" (hemat) = "economical", bukan "economic"
+economic | é-ke-NAA-mik | berkaitan dengan ekonomi | "economic growth" = pertumbuhan ekonomi
+body lotion | BAA-di LOU-syen | losion (hand body) | Inggris ala Indonesia: "hand body". Penutur asli bilang "lotion" atau "body lotion"
+Good evening, everyone. | gud IIV-ning, ÉV-ri-wan | Selamat malam, semuanya (sapaan pembuka) | Inggris ala Indonesia: membuka acara malam dengan "Good night". "Good night" hanya untuk berpisah atau mau tidur
+cell phone | sél foun | HP / ponsel | Inggris ala Indonesia: "handphone". Penutur asli bilang "phone" atau "cell phone" (Inggris: "mobile phone")
+car | kaar | mobil | Arti berbeda: "mobile" bukan mobil, tetapi "dapat bergerak" atau ponsel ("mobile phone")
+borrow | BAA-rou | meminjam (dari orang lain) | "pinjam" punya dua arah. Kamu yang menerima barang = "borrow"
+lend | lénd | meminjamkan (kepada orang lain) | Kamu yang memberi barang = "lend": "I can lend you my pen."
+Can I borrow your charger? | ken ai BAA-rou yer CAAR-jer? | Boleh saya pinjam pengisi dayamu? | Kamu yang menerima, jadi "borrow". Jangan "Can you borrow me…?"
+Could you lend me some money? | kud yu lénd mi sem MA-ni? | Bisa pinjamkan saya uang? | Orang lain yang memberi, jadi "lend". "money" tidak bisa dihitung: tanpa -s jamak
+No, he didn't come. | nou, hi DI-dent kam | Iya, dia memang tidak datang | Inggris ala Indonesia: menjawab "Yes" untuk menyetujui kalimat negatif. Dalam bahasa Inggris jawab sesuai faktanya: tidak datang = "No"
+100 grams | wan HAN-dred grèmz | satu ons (100 gram) | Arti berbeda: "ons" di Indonesia = 100 gram, sedangkan "ounce" ≈ 28 gram. "grams" dalam bentuk jamak
+half a kilo | hèf e KII-lou | setengah kilo (satu pon) | Arti berbeda: "pon" di pasar = 500 gram, sedangkan "pound" ≈ 454 gram
 `
 };

@@ -27,7 +27,7 @@ My name is Minh. | /maɪ neɪm‿ɪz mɪn/ | Tên tôi là Minh | Thường ngà
 Please call me Jay. | /pliːz kɑːl mi dʒeɪ/ | Cứ gọi tôi là Jay | Khi bạn có tên tiếng Anh hoặc muốn người khác gọi tên ngắn cho dễ.
 What should I call you? | /wʌt ʃʊd‿aɪ kɑːl ju/ | Tôi nên gọi bạn là gì? | Hữu ích khi tên người kia khó đọc. Tiếng Anh không cần chọn “anh / chị / em”: cứ gọi bằng tên.
 Where are you from? | /wer ɑːr ju frʌm/ | Bạn đến từ đâu? / Bạn là người nước nào? | Một trong những câu hỏi đầu tiên bạn sẽ nghe ở nước ngoài.
-I'm from Vietnam. | /aɪm frəm viːətˈnɑːm/ | Tôi đến từ Việt Nam | Nói thêm thành phố để câu chuyện tiếp tục: "I'm from Da Nang, in Vietnam."
+I'm from Vietnam. | /aɪm frəm viːetˈnɑːm/ | Tôi đến từ Việt Nam | Nói thêm thành phố để câu chuyện tiếp tục: "I'm from Da Nang, in Vietnam."
 I live in Hanoi. | /aɪ lɪv‿ɪn hæˈnɔɪ/ | Tôi sống ở Hà Nội | Âm /v/ cuối của "live": răng trên chạm nhẹ môi dưới; nối sang "in" thành /lɪvɪn/.
 I'm a student. | /aɪm‿ə ˈstuːdənt/ | Tôi là sinh viên | Trước nghề nghiệp luôn có mạo từ "a / an"! "I'm student" là lỗi rất phổ biến vì tiếng Việt không có mạo từ.
 What do you do? | /wʌt duː ju duː/ | Bạn làm nghề gì? | Câu hỏi chuẩn về nghề nghiệp, nhẹ nhàng hơn "What's your job?".
@@ -54,7 +54,7 @@ Sorry? | /ˈsɑːri/ | Xin lỗi, bạn nói gì cơ? | Lên giọng ở cuối 
 Could you say that again? | /kʊd ju seɪ ðæt‿əˈgen/ | Bạn nói lại được không? | Cứ tự tin dùng khi nghe không kịp; người bản xứ cũng hay hỏi lại.
 Could you speak more slowly? | /kʊd ju spiːk mɔːr ˈsloʊli/ | Bạn nói chậm hơn được không? | Thêm "please" sẽ lịch sự hơn.
 I don't understand. | /aɪ doʊnt‿ˌʌndɚˈstænd/ | Tôi không hiểu | Hơi cứng. Nhẹ nhàng hơn: "Sorry, I didn't quite catch that."
-Do you speak Vietnamese? | /duː ju spiːk viːətnəˈmiːz/ | Bạn có nói được tiếng Việt không? | "Do you speak…?" tự nhiên và lịch sự hơn "Can you speak…?".
+Do you speak Vietnamese? | /duː ju spiːk viːetnəˈmiːz/ | Bạn có nói được tiếng Việt không? | "Do you speak…?" tự nhiên và lịch sự hơn "Can you speak…?".
 I speak a little English. | /aɪ spiːk‿ə ˈlɪtəl‿ˈɪŋglɪʃ/ | Tôi nói được một chút tiếng Anh | "tt" trong "little" giọng Mỹ đọc nhanh gần như /d/; phiên âm vẫn ghi /t/.
 How do you say this in English? | /haʊ duː ju seɪ ðɪs‿ɪn‿ˈɪŋglɪʃ/ | Cái này tiếng Anh nói thế nào? | Chỉ vào đồ vật khi hỏi để học từ mới ngay. Không nói "How to say this?".
 What does this mean? | /wʌt dʌz ðɪs miːn/ | Cái này nghĩa là gì? | Chỉ vào thực đơn, biển báo khi hỏi.
@@ -111,10 +111,10 @@ Medium rare, please. | /ˈmiːdiəm rer pliːz/ | Cho tôi tái vừa (medium ra
 No onions, please. | /noʊ ˈʌnjənz pliːz/ | Không cho hành tây | "Can I get it without onions?" cũng cùng nghĩa. Đọc rõ /z/ cuối.
 I'm allergic to peanuts. | /aɪm‿əˈlɝːdʒɪk tə ˈpiːnʌts/ | Tôi bị dị ứng lạc / đậu phộng | Trọng âm ở giữa: a-LLER-gic. Danh từ là "allergy" /ˈælɚdʒi/.
 Is it spicy? | /ɪz‿ɪt ˈspaɪsi/ | Món này có cay không? | "Spicy" ở Mỹ thường không cay lắm so với khẩu vị của nhiều người Việt.
-Could we get some water? | /kʊd wiː get sʌm ˈwɑːtɚ/ | Cho chúng tôi xin ít nước | Nước lọc ở nhà hàng Mỹ thường miễn phí. "t" trong "water" giọng Mỹ gần như /d/.
+Could we get some water? | /kʊd wi get sʌm ˈwɑːtɚ/ | Cho chúng tôi xin ít nước | Nước lọc ở nhà hàng Mỹ thường miễn phí. "t" trong "water" giọng Mỹ gần như /d/.
 Everything was great. | /ˈevriθɪŋ wəz greɪt/ | Mọi thứ đều rất ngon | Đáp khi nhân viên hỏi "How is everything?"
-Can we get the check, please? | /kən wiː get ðə tʃek pliːz/ | Cho chúng tôi tính tiền | Tiếng Anh-Anh: the bill. Ở Mỹ thường thanh toán ngay tại bàn.
-Can we split the bill? | /kən wiː splɪt ðə bɪl/ | Chúng tôi trả riêng được không? | Cũng có thể nói "separate checks".
+Can we get the check, please? | /kən wi get ðə tʃek pliːz/ | Cho chúng tôi tính tiền | Tiếng Anh-Anh: the bill. Ở Mỹ thường thanh toán ngay tại bàn.
+Can we split the bill? | /kən wi splɪt ðə bɪl/ | Chúng tôi trả riêng được không? | Cũng có thể nói "separate checks".
 It's on me. | /ɪts‿ɑːn miː/ | Để tôi mời | "My treat!" cũng cùng nghĩa.
 Can I get this to go? | /kən‿aɪ get ðɪs tə goʊ/ | Cho tôi mang về | Gói đồ ăn thừa: "Can I get a box?"
 Is the tip included? | /ɪz ðə tɪp‿ɪnˈkluːdɪd/ | Đã gồm tiền tip chưa? | Ở nhà hàng Mỹ thường để tip riêng 15–20%; ở Việt Nam thì ít khi.
@@ -181,7 +181,7 @@ Any plans for the weekend? | /ˈeni plænz fɚ ðə ˈwiːkend/ | Cuối tuần 
 Nice weather today, huh? | /naɪs ˈweðɚ təˈdeɪ hʌ/ | Hôm nay trời đẹp nhỉ | Thời tiết là chủ đề an toàn nhất để nói với bất kỳ ai.
 It's freezing today. | /ɪts ˈfriːzɪŋ təˈdeɪ/ | Hôm nay lạnh cóng | Nóng thì nói "It's boiling!" hoặc "It's so hot!"
 How long have you lived here? | /haʊ lɑːŋ hæv ju lɪvd hɪr/ | Bạn sống ở đây bao lâu rồi? | Đáp: "About three years."
-Have you been to Vietnam? | /hæv ju bɪn tə viːətˈnɑːm/ | Bạn đến Việt Nam bao giờ chưa? | Hỏi về trải nghiệm: have been to.
+Have you been to Vietnam? | /hæv ju bɪn tə viːetˈnɑːm/ | Bạn đến Việt Nam bao giờ chưa? | Hỏi về trải nghiệm: have been to.
 What do you do for fun? | /wʌt duː ju duː fɚ fʌn/ | Lúc rảnh bạn thường làm gì? | Tự nhiên hơn nhiều so với "What's your hobby?".
 Have you seen any good shows lately? | /hæv ju siːn‿ˈeni gʊd ʃoʊz ˈleɪtli/ | Dạo này bạn có xem gì hay không? | "show" = chương trình truyền hình, phim bộ.
 That sounds fun. | /ðæt saʊndz fʌn/ | Nghe vui đấy | Phản hồi khi người khác kể chuyện. "That sounds great!" cũng hay.
@@ -222,7 +222,7 @@ You're so funny. | /jʊr soʊ ˈfʌni/ | Bạn hài hước thật | "funny" = b
 Great job! | /greɪt dʒɑːb/ | Làm tốt lắm! | Dùng được ở cơ quan, trường học. "Nice work!" cũng vậy.
 I'm proud of you. | /aɪm praʊd‿əv ju/ | Tôi tự hào về bạn | Nói với gia đình, bạn bè; cấp trên nói với cấp dưới cũng được.
 You did it! | /ju dɪd‿ɪt/ | Bạn làm được rồi! | Nói với người vừa đạt được mục tiêu.
-Your Vietnamese is really good! | /jʊr viːətnəˈmiːz‿ɪz ˈriːli gʊd/ | Bạn nói tiếng Việt giỏi thật! | Bạn nước ngoài đang học tiếng Việt nghe câu này sẽ rất vui.
+Your Vietnamese is really good! | /jʊr viːetnəˈmiːz‿ɪz ˈriːli gʊd/ | Bạn nói tiếng Việt giỏi thật! | Bạn nước ngoài đang học tiếng Việt nghe câu này sẽ rất vui.
 You have good taste. | /ju hæv gʊd teɪst/ | Bạn có gu thật đấy | Khen gu ăn mặc, âm nhạc, trang trí. “Gu” tiếng Anh là "taste".
 I really enjoyed spending time with you. | /aɪ ˈriːli ɪnˈdʒɔɪd ˈspendɪŋ taɪm wɪð ju/ | Đi chơi với bạn vui lắm | Khi kết thúc buổi hẹn hoặc buổi gặp mặt.
 Do you want to grab coffee sometime? | /duː ju wɑːnt tə græb ˈkɑːfi ˈsʌmtaɪm/ | Hôm nào đi cà phê nhé? | "want to" nói nhanh thành "wanna". "grab" = ăn, uống nhanh.
@@ -244,7 +244,7 @@ Thanks for getting back to me. | /θæŋks fɚ ˈgetɪŋ bæk tə mi/ | Cảm ơ
 Best regards, | /best rɪˈgɑːrdz/ | Trân trọng, | Lời kết an toàn. Thân hơn: "Best," "Thanks,"
 Let's schedule a meeting. | /lets ˈskedʒuːl‿ə ˈmiːtɪŋ/ | Chúng ta lên lịch họp nhé | Mỹ đọc /ˈskedʒuːl/, Anh đọc /ˈʃedjuːl/.
 I'm running late. | /aɪm ˈrʌnɪŋ leɪt/ | Tôi sẽ đến muộn một chút | Báo trước khi đang trên đường. "I'll be there in 10."
-Can we push the meeting to 3? | /kən wiː pʊʃ ðə ˈmiːtɪŋ tə θriː/ | Dời cuộc họp sang 3 giờ được không? | Dời sớm hơn dùng "move up": "Can we move it up to 1?"
+Can we push the meeting to 3? | /kən wi pʊʃ ðə ˈmiːtɪŋ tə θriː/ | Dời cuộc họp sang 3 giờ được không? | Dời sớm hơn dùng "move up": "Can we move it up to 1?"
 I'll get back to you. | /aɪl get bæk tə ju/ | Tôi sẽ kiểm tra rồi báo lại | Khi chưa trả lời ngay được.
 Can you walk me through it? | /kən ju wɑːk mi θruː ɪt/ | Anh/chị hướng dẫn tôi từng bước được không? | "walk through" = hướng dẫn từng bước.
 Let's touch base next week. | /lets tʌtʃ beɪs nekst wiːk/ | Tuần sau chúng ta trao đổi nhanh nhé | Gặp ngắn để cập nhật tiến độ.
@@ -309,7 +309,7 @@ Do I need a prescription? | /duː aɪ niːd‿ə prɪˈskrɪpʃən/ | Tôi có c
 I lost my wallet. | /aɪ lɑːst maɪ ˈwɑːlɪt/ | Tôi bị mất ví | Điện thoại thì "phone". Nơi giữ đồ thất lạc: lost and found.
 Someone stole my phone. | /ˈsʌmwʌn stoʊl maɪ foʊn/ | Có người lấy trộm điện thoại của tôi | "stole" là quá khứ của "steal" (ăn trộm).
 Where is the police station? | /wer ɪz ðə pəˈliːs ˈsteɪʃən/ | Đồn cảnh sát ở đâu? | Trọng âm của "police" ở âm sau: po-LICE.
-I need to contact the Vietnamese embassy. | /aɪ niːd tə ˈkɑːntækt ðə viːətnəˈmiːz‿ˈembəsi/ | Tôi cần liên hệ Đại sứ quán Việt Nam | Câu rất cần khi mất hộ chiếu.
+I need to contact the Vietnamese embassy. | /aɪ niːd tə ˈkɑːntækt ðə viːetnəˈmiːz‿ˈembəsi/ | Tôi cần liên hệ Đại sứ quán Việt Nam | Câu rất cần khi mất hộ chiếu.
 I have travel insurance. | /aɪ hæv ˈtrævəl‿ɪnˈʃʊrəns/ | Tôi có bảo hiểm du lịch | Ở nước có viện phí đắt, nhất định nên mua trước khi đi.
 `,
 "Cụm động từ": `

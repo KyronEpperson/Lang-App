@@ -536,7 +536,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-left:0;padding-right:
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.11.0 · 2026-11-16';
+const APP_VERSION='2.11.1 · 2026-11-16';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -2689,7 +2689,7 @@ const FX3D=(()=>{
 // Thin wrappers used around the app; heavy celebrations fall back to the 2D confetti when 3D is off/unavailable
 function fx3(kind){ const a=arguments; FX3D.run.apply(null,a).then(ok=>{ if(!ok&&(kind==='celebrate'||kind==='levelUp')) confetti(); }); }
 function streakFx(n){ if(n===5||n===10||n===20||(n>20&&n%10===0)) fx3('streak',n); }
-function playIntro(short){ try{ const nm=S.nick||(typeof sbSess!=='undefined'&&sbSess&&sbSess.user&&sbSess.user.email?sbSess.user.email.split('@')[0]:''); fx3('intro',{short:!!short,word:(META.picked?(COURSE.introWord||COURSE.brand||'한글'):'Lang App'),title:(META.picked?(HELLO[COURSE.target]||'안녕하세요'):preBi('Hello','안녕하세요'))+(nm?', '+nm:'')+'!',sub:introSub(short)}); }catch(e){} }
+function playIntro(short){ if(document.getElementById('langHome')) return; /* the language picker is its own first screen: no greeting animation on top of it */ try{ const nm=S.nick||(typeof sbSess!=='undefined'&&sbSess&&sbSess.user&&sbSess.user.email?sbSess.user.email.split('@')[0]:''); fx3('intro',{short:!!short,word:(META.picked?(COURSE.introWord||COURSE.brand||'한글'):'Lang App'),title:(META.picked?(HELLO[COURSE.target]||'안녕하세요'):preBi('Hello','안녕하세요'))+(nm?', '+nm:'')+'!',sub:introSub(short)}); }catch(e){} }
 function introSub(short){ return !META.picked?preBi('Learn a language, 5 minutes a day','하루 5분'):short&&greet()[1]?greet()[1].split('·').pop().trim():(COURSE.builtin?'Learn Korean, 5 minutes a day':LL('Learn '+tgtName()+', 5 minutes a day','하루 5분, '+langName(COURSE.target,'ko')+' 배우기')); }
 
 

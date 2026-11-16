@@ -40,7 +40,7 @@ practice:[
 {{ex:When I arrived, the movie had already started.|/wen‿aɪ əˈraɪvd ðə ˈmuːvi hæd‿ɑːlˈredi ˈstɑːrtɪd/|Khi tôi đến thì phim đã bắt đầu rồi}}{{ex:I had never seen snow before.|/aɪ hæd ˈnevɚ siːn snoʊ bɪˈfɔːr/|Trước đó tôi chưa bao giờ thấy tuyết}}
 <h3>Từ nối chỉ thứ tự</h3>
 <p>Dùng <b>first</b> (đầu tiên), <b>then</b> (rồi, sau đó), <b>after that</b> (sau đó nữa), <b>finally</b> (cuối cùng) để nối các sự việc.</p>
-{{ex:First we ate dinner. Then we watched a movie.|/fɝːst wiː eɪt ˈdɪnɚ/ /ðen wiː wɑːtʃt‿ə ˈmuːvi/|Đầu tiên chúng tôi ăn tối. Sau đó chúng tôi xem phim}}
+{{ex:First we ate dinner. Then we watched a movie.|/fɝːst wi eɪt ˈdɪnɚ/ /ðen wi wɑːtʃt‿ə ˈmuːvi/|Đầu tiên chúng tôi ăn tối. Sau đó chúng tôi xem phim}}
 <div class="tip"><b>then</b> (sau đó) và <b>than</b> (hơn) phát âm gần giống nhau nhưng là hai từ khác nhau. Khi kể chuyện thì dùng <b>then</b>.</div>`,
 check:[["When I arrived, the train ___ already left. Từ nào điền vào chỗ trống?",["has","was","had","did"],2,"Việc xảy ra trước đó dùng \"had\" + V3."],["I ___ walking home when it started to rain. Từ nào điền vào chỗ trống?",["was","had","did","have"],0,"Việc đang làm (bối cảnh) dùng quá khứ tiếp diễn."],["Câu nào diễn tả việc xảy ra trước đó nữa?",["I was eating.","I ate.","I eat.","I had eaten."],3,"\"had\" + V3 là thì quá khứ hoàn thành."]],
 practice:[
@@ -62,7 +62,7 @@ practice:[
 <p>Dùng khi tưởng tượng điều không có thật. Tiếng Việt vẫn dùng “nếu… thì…” và để ngữ cảnh (hoặc “giá mà”, “lẽ ra”) cho biết đó là giả định. Tiếng Anh báo hiệu bằng thì của động từ: lùi về quá khứ một bậc.</p>
 <h3>Câu điều kiện loại 2: trái với hiện tại</h3>
 <p><b>If + quá khứ đơn, would + động từ nguyên mẫu</b>. Động từ ở quá khứ nhưng nghĩa là hiện tại.</p>
-{{ex:If I had time, I would travel.|/ɪf‿aɪ hæd taɪm aɪ wʊd ˈtrævəl/|Nếu có thời gian, tôi đã đi du lịch rồi (tiếc là không có)}}{{ex:If I were you, I'd take it.|/ɪf‿aɪ wɝː ju aɪd teɪk‿ɪt/|Nếu tôi là bạn, tôi sẽ nhận}}{{ex:What would you do?|/wɑːt wʊd ju duː/|Trong trường hợp đó bạn sẽ làm gì?}}
+{{ex:If I had time, I would travel.|/ɪf‿aɪ hæd taɪm aɪ wʊd ˈtrævəl/|Nếu có thời gian, tôi đã đi du lịch rồi (tiếc là không có)}}{{ex:If I were you, I'd take it.|/ɪf‿aɪ wɝː ju aɪd teɪk‿ɪt/|Nếu tôi là bạn, tôi sẽ nhận}}{{ex:What would you do?|/wʌt wʊd ju duː/|Trong trường hợp đó bạn sẽ làm gì?}}
 <h3>Câu điều kiện loại 3: trái với quá khứ</h3>
 <p><b>If + had + V3, would have + V3</b>.</p>
 {{ex:If I had studied, I would have passed.|/ɪf‿aɪ hæd ˈstʌdid aɪ wʊd hæv pæst/|Nếu hồi đó tôi học bài thì tôi đã đỗ rồi}}
@@ -120,7 +120,7 @@ practice:[
 {{ex:She said she was tired.|/ʃi sed ʃi wəz ˈtaɪɚd/|Cô ấy nói là cô ấy mệt}}{{ex:He said he would come.|/hi sed hi wʊd kʌm/|Anh ấy nói là sẽ đến}}
 <h3>say và tell</h3>
 <p>Sau <b>tell</b> bắt buộc có người nghe, sau <b>say</b> thì không. Tiếng Việt nói “nói với tôi”, nhưng tiếng Anh không có <b>said me</b> hay <b>told to me</b>.</p>
-{{ex:He told me he was busy.|/hi toʊld miː hi wəz ˈbɪzi/|Anh ấy bảo tôi là anh ấy bận}}
+{{ex:He told me he was busy.|/hi toʊld mi hi wəz ˈbɪzi/|Anh ấy bảo tôi là anh ấy bận}}
 <h3>Thuật lại câu hỏi</h3>
 <p>Câu hỏi có/không dùng <b>if</b>; câu hỏi có từ để hỏi thì giữ nguyên từ để hỏi. Phần sau theo <b>trật tự câu khẳng định</b> (chủ ngữ + động từ): không đảo, không dùng <b>do / did</b>.</p>
 {{ex:She asked if I was okay.|/ʃi æskt‿ɪf‿aɪ wəz‿oʊˈkeɪ/|Cô ấy hỏi tôi có ổn không}}{{ex:He asked where I lived.|/hi æskt wer aɪ lɪvd/|Anh ấy hỏi tôi sống ở đâu}}
