@@ -1,0 +1,17 @@
+{"after":"story","roadmap":"ko-noun-modifiers",
+"check":[["'a big bag' =",["큰 가방","크은 가방","가방 큰","크는 가방"],0,"Vowel stem + ㄴ, in front of the noun."],["'tasty food' =",["맛있는 음식","맛있은 음식","맛있어 음식","음식 맛있는"],0,"있다 words take 는."],["'spicy food' =",["매운 음식","맵은 음식","맵는 음식","매우는 음식"],0,"ㅂ stem: 맵다 → 매운."]],
+"practice":[
+{"t":"mc","q":"'a big bag' =","o":["큰 가방","크은 가방","가방 큰","크는 가방"],"why":"크 + ㄴ → 큰."},
+{"t":"mc","q":"'tasty food' =","o":["맛있는 음식","맛있은 음식","맛있어 음식","음식 맛있는"],"why":"있다 words take 는."},
+{"t":"mc","q":"'spicy food' =","o":["매운 음식","맵은 음식","맵는 음식","매우는 음식"],"why":"ㅂ → 우 + ㄴ."},
+{"t":"mc","q":"'good weather' =","o":["좋은 날씨","좋는 날씨","좋아 날씨","조은 날씨"],"why":"Consonant stem + 은."},
+{"t":"mc","q":"'a long movie' =","o":["긴 영화","길은 영화","길는 영화","기는 영화"],"why":"ㄹ drops: 길다 → 긴."},
+{"t":"order","p":"(I) have a big bag","a":["큰","가방이","있어요"],"x":["크는"],"why":"큰 + noun; the particle goes on the noun."},
+{"t":"order","p":"(I) like spicy food","a":["매운","음식을","좋아해요"],"x":["맵은"],"why":"맵다 → 매운."},
+{"t":"order","p":"It's a fun movie","a":["재미있는","영화예요"],"x":["재미있은"],"why":"있다 words take 는."},
+{"t":"fill","q":"좋__ 날씨","p":"good weather","a":["은"],"o":["는","ㄴ","을"],"why":"Consonant stem + 은."},
+{"t":"fill","q":"맛있__ 음식","p":"tasty food","a":["는"],"o":["은","ㄴ","을"],"why":"있다 words take 는."},
+{"t":"fill","q":"__ 집","p":"a small house","a":["작은"],"o":["작는","작운","작아"],"why":"작 + 은."},
+{"t":"type","p":"It's a big house","a":["큰 집이에요"],"hint":"크다 · 집 · 이에요","x":["크는"],"why":"크 + ㄴ → 큰 집."},
+{"t":"type","p":"(I) like spicy food","a":["매운 음식을 좋아해요","저는 매운 음식을 좋아해요","매운 음식 좋아해요","저는 매운 음식 좋아해요"],"hint":"맵다 · 음식 · 좋아해요","x":["맵은"],"why":"맵다 → 매운."},
+{"t":"type","p":"Have a good day","a":["좋은 하루 보내세요","좋은 하루 되세요"],"hint":"좋다 · 하루 · 보내세요","x":["좋는"],"why":"좋 + 은 → 좋은 하루."}]}

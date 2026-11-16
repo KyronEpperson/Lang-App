@@ -1,0 +1,17 @@
+{"after":"counters","roadmap":"ko-joining",
+"check":[["'It's expensive but tasty' =",["비싸지만 맛있어요","비싸고 맛있어요","비싸서 맛있어요","비싸요지만 맛있어요"],0,"-지만 = but."],["'I was busy, so I didn't go' =",["바빠서 안 갔어요","바빴어서 안 갔어요","바쁘고 안 갔어요","바쁘지만 안 갔어요"],0,"-아/어서 never takes the past."],["'It's cheap and tasty' =",["싸고 맛있어요","싸지만 맛있어요","싸요고 맛있어요","싸서고 맛있어요"],0,"Stem + 고 = and."]],
+"practice":[
+{"t":"mc","q":"'It's expensive but tasty' =","o":["비싸지만 맛있어요","비싸고 맛있어요","비싸서 맛있어요","비싸요지만 맛있어요"],"why":"-지만 = but."},
+{"t":"mc","q":"'I was busy, so I didn't go' =","o":["바빠서 안 갔어요","바빴어서 안 갔어요","바쁘고 안 갔어요","바쁘지만 안 갔어요"],"why":"Reason + 서; no past before 서."},
+{"t":"mc","q":"'It's cheap and tasty' =","o":["싸고 맛있어요","싸지만 맛있어요","싸요고 맛있어요","싸서고 맛있어요"],"why":"Stem + 고."},
+{"t":"mc","q":"'(I) go to a café and study (there)' =","o":["카페에 가서 공부해요","카페에 가지만 공부해요","카페에 갔어서 공부해요","카페에 가요서 공부해요"],"why":"가서 links two steps of one trip."},
+{"t":"mc","q":"Which ending means 'but'?","o":["지만","고","아서","에서"],"why":"-지만 = but."},
+{"t":"order","p":"(I) eat and (then) drink coffee","a":["밥을","먹고","커피를","마셔요"],"x":["먹지만"],"why":"먹 + 고 = and."},
+{"t":"order","p":"It's expensive but good","a":["비싸지만","좋아요"],"x":["비싸서"],"why":"-지만 = but."},
+{"t":"order","p":"I'm busy, so I'm not going","a":["바빠서","안","가요"],"x":["바쁘고"],"why":"바빠요 → 바빠서."},
+{"t":"fill","q":"싸__ 맛있어요","p":"It's cheap and tasty","a":["고"],"o":["지만","서","면"],"why":"Stem + 고 = and."},
+{"t":"fill","q":"비싸__ 맛있어요","p":"It's expensive but tasty","a":["지만"],"o":["고","서","에"],"why":"Stem + 지만 = but."},
+{"t":"fill","q":"배고파__ 밥을 먹었어요","p":"I was hungry, so I ate","a":["서"],"o":["고","지만","를"],"why":"요-form without 요 + 서."},
+{"t":"type","p":"It's cheap and tasty","a":["싸고 맛있어요"],"hint":"싸다 · 고 · 맛있어요","x":["싸지만"],"why":"싸 + 고."},
+{"t":"type","p":"It's expensive but tasty","a":["비싸지만 맛있어요"],"hint":"비싸다 · 지만 · 맛있어요","x":["비싸고"],"why":"비싸 + 지만."},
+{"t":"type","p":"I'm busy, so I'm not going","a":["바빠서 안 가요","저는 바빠서 안 가요","바빠서 가지 않아요"],"hint":"바빠요 · 서 · 안 가요","x":["바쁘고"],"why":"바빠 + 서."}]}

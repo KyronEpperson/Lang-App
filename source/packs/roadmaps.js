@@ -8,11 +8,11 @@ LANGAPP_PACKS.roadmaps = {
     src: ["Talk To Me In Korean levels 1-2", "Sogang Korean 1A/1B", "How to Study Korean unit 1", "reports/Grammar learning order research.md"], note: "Synthesis from the research report; official King Sejong and TOPIK lists were not retrieved.",
     stages: [
       { en: "Script and first words", ko: "글자와 첫 표현", items: [
-        ["ko-hangul", "Hangul", "한글", "hangul"], ["ko-sound-changes", "Sound changes: why 감사합니다 sounds different", "소리 변화: 비음화와 격음화"],
+        ["ko-hangul", "Hangul", "한글", "hangul"], ["ko-sound-changes", "Sound changes: why 감사합니다 sounds different", "소리 변화: 비음화와 격음화", "sound-changes"],
         ["ko-meet", "Meeting people", "사람 만나기", "meet"], ["ko-polite", "Politeness in brief", "높임말 한눈에", "polite"] ] },
       { en: "Nouns and things", ko: "명사와 사물", items: [
         ["ko-nouns", "Nouns, 이에요/예요, 은/는", "명사, 이에요/예요, 은/는", "nouns"], ["ko-isseoyo", "있어요/없어요, 이/가, place 에", "있어요/없어요, 이/가, 장소 에", "isseoyo"],
-        ["ko-pronouns-questions", "Pronouns and first question words", "대명사와 의문사"], ["ko-numbers", "Two number systems", "두 가지 숫자", "numbers"],
+        ["ko-pronouns-questions", "Pronouns and first question words", "대명사와 의문사", "pronouns-questions"], ["ko-numbers", "Two number systems", "두 가지 숫자", "numbers"],
         ["ko-counters", "Counters and 주세요", "단위 명사와 주세요", "counters"], ["ko-food", "Eating out", "식당에서", "food"] ] },
       { en: "Verbs and sentences", ko: "동사와 문장", items: [
         ["ko-verbbasics", "Verbs: 다, stems and kinds", "동사: 다, 어간, 종류", "verbbasics"], ["ko-present", "Present 요-form", "현재 요-형", "verbs"],
@@ -21,13 +21,13 @@ LANGAPP_PACKS.roadmaps = {
         ["ko-negation", "안 and -지 않아요", "안, -지 않아요", "negation"], ["ko-do-man", "도 and 만: also, only", "도와 만", "do-man"],
         ["ko-sentences", "Putting sentences together", "문장 만들기", "sentences"] ] },
       { en: "Saying what you want", ko: "원하는 것 말하기", items: [
-        ["ko-want-like", "Want and like: -고 싶어요, 좋아해요", "-고 싶어요, 좋아해요"], ["ko-future", "Future: -(으)ㄹ 거예요", "미래: -(으)ㄹ 거예요", "future"],
-        ["ko-cant", "Can and can't: -(으)ㄹ 수 있어요, 못", "-(으)ㄹ 수 있어요, 못", "cant"], ["ko-have-to", "Have to: -아/어야 해요", "의무: -아/어야 해요"], ["ko-plans", "Making plans", "약속 잡기", "plans"],
+        ["ko-want-like", "Want and like: -고 싶어요, 좋아해요", "-고 싶어요, 좋아해요", "want-like"], ["ko-future", "Future: -(으)ㄹ 거예요", "미래: -(으)ㄹ 거예요", "future"],
+        ["ko-cant", "Can and can't: -(으)ㄹ 수 있어요, 못", "-(으)ㄹ 수 있어요, 못", "cant"], ["ko-have-to", "Have to: -아/어야 해요", "의무: -아/어야 해요", "have-to"], ["ko-plans", "Making plans", "약속 잡기", "plans"],
         ["ko-titles", "Titles and honorifics", "호칭과 높임", "titles"], ["ko-requests", "Asking politely", "공손하게 부탁하기", "requests"],
         ["ko-honorific", "Honorific verbs", "높임 동사", "honorific"] ] },
       { en: "Longer sentences", ko: "긴 문장", items: [
-        ["ko-joining", "Joining sentences: -고, -아/어서, -지만", "문장 잇기: -고, -아/어서, -지만"], ["ko-story", "Telling a story in the past", "과거 이야기하기", "story"],
-        ["ko-noun-modifiers", "Adjectives before nouns: -(으)ㄴ", "관형형: -(으)ㄴ"], ["ko-compare", "Comparing: 보다 더, 제일", "비교: 보다 더, 제일"],
+        ["ko-joining", "Joining sentences: -고, -아/어서, -지만", "문장 잇기: -고, -아/어서, -지만", "joining"], ["ko-story", "Telling a story in the past", "과거 이야기하기", "story"],
+        ["ko-noun-modifiers", "Adjectives before nouns: -(으)ㄴ", "관형형: -(으)ㄴ", "noun-modifiers"], ["ko-compare", "Comparing: 보다 더, 제일", "비교: 보다 더, 제일", "compare"],
         ["ko-office", "Office Korean: -(스)ㅂ니다", "직장 한국어: -(스)ㅂ니다", "office"], ["ko-texting", "Texting and casual speech", "문자와 반말", "texting"] ] } ] },
 
   en: { variant: {en: "General (American) English", ko: "미국식 영어"}, basis: {en: "CEFR A1-B1 order, adjusted for Korean speakers", ko: "CEFR A1-B1 순서 (한국어 화자에 맞게 조정)"},

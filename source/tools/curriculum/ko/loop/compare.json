@@ -1,0 +1,17 @@
+{"after":"noun-modifiers","roadmap":"ko-compare",
+"check":[["'The bus is cheaper than a taxi' =",["버스가 택시보다 싸요","버스보다 택시가 싸요","버스가 택시더 싸요","버스가 택시 제일 싸요"],0,"보다 goes on the thing you compare against."],["'This is the tastiest' =",["이게 제일 맛있어요","이게 더 맛있어요","이게 보다 맛있어요","이게 덜 맛있어요"],0,"제일 = the most."],["'More, please' =",["더 주세요","제일 주세요","보다 주세요","덜 주세요"],0,"더 = more."]],
+"practice":[
+{"t":"mc","q":"'The bus is cheaper than a taxi' =","o":["버스가 택시보다 싸요","버스보다 택시가 싸요","버스가 택시더 싸요","버스가 택시 제일 싸요"],"why":"보다 marks the 'than' item."},
+{"t":"mc","q":"'This is the tastiest' =","o":["이게 제일 맛있어요","이게 더 맛있어요","이게 보다 맛있어요","이게 덜 맛있어요"],"why":"제일 = the most."},
+{"t":"mc","q":"'More, please' =","o":["더 주세요","제일 주세요","보다 주세요","덜 주세요"],"why":"더 = more."},
+{"t":"mc","q":"'Today is colder than yesterday' =","o":["오늘이 어제보다 더 추워요","어제가 오늘보다 더 추워요","오늘이 어제 더보다 추워요","오늘보다 어제가 추워요"],"why":"어제보다 = than yesterday."},
+{"t":"mc","q":"'It's less spicy' =","o":["덜 매워요","더 매워요","제일 매워요","안 매워요"],"why":"덜 = less."},
+{"t":"order","p":"The bus is cheaper than a taxi (start with the bus)","a":["버스가","택시보다","싸요"],"x":["택시가"],"why":"택시보다 = than a taxi."},
+{"t":"order","p":"This is the tastiest","a":["이게","제일","맛있어요"],"x":["보다"],"why":"제일 before the describing word."},
+{"t":"order","p":"Which is better?","a":["뭐가","더","좋아요"],"x":["제일"],"why":"더 = more."},
+{"t":"fill","q":"버스가 택시__ 싸요","p":"The bus is cheaper than a taxi","a":["보다"],"o":["더","제일","가"],"why":"보다 = than."},
+{"t":"fill","q":"이게 __ 맛있어요","p":"This is the tastiest","a":["제일","가장"],"o":["더","덜","보다"],"why":"제일 / 가장 = the most."},
+{"t":"fill","q":"__ 주세요","p":"More, please","a":["더"],"o":["덜","제일","보다"],"why":"더 = more."},
+{"t":"type","p":"The bus is cheaper than a taxi","a":["버스가 택시보다 싸요","버스가 택시보다 더 싸요","택시보다 버스가 싸요","택시보다 버스가 더 싸요","버스는 택시보다 싸요","버스는 택시보다 더 싸요"],"hint":"버스 · 택시보다 · 싸요","x":["택시가"],"why":"보다 goes on 택시."},
+{"t":"type","p":"This is the tastiest","a":["이게 제일 맛있어요","이게 가장 맛있어요","이것이 제일 맛있어요","이거 제일 맛있어요","이거 가장 맛있어요","이것이 가장 맛있어요"],"hint":"이게 · 제일 · 맛있어요","x":["더"],"why":"제일 = the most."},
+{"t":"type","p":"More, please","a":["더 주세요"],"hint":"더 · 주세요","x":["덜"],"why":"더 = more."}]}

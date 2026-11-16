@@ -1,0 +1,17 @@
+{"after":"isseoyo","roadmap":"ko-pronouns-questions",
+"check":[["'What is this?' =",["이거 뭐예요?","이거 누구예요?","이거 어디예요?","뭐 이거 있어요?"],0,"뭐 = what; it sits where the answer goes."],["'Where is the bathroom?' =",["화장실이 어디에 있어요?","화장실이 뭐예요?","화장실이 언제 있어요?","어디 화장실 이에요?"],0,"어디 = where; 에 있어요 = is at."],["'Who is there?' =",["누가 있어요?","누구가 있어요?","누구 이에요 있어요?","뭐가 누구예요?"],0,"누구 + 가 → 누가."]],
+"practice":[
+{"t":"mc","q":"Which word means 'who'?","o":["누구","뭐","어디","언제"],"why":"누구 = who."},
+{"t":"mc","q":"'How much is this?' =","o":["이거 얼마예요?","이거 몇이에요?","이거 언제예요?","이거 어디예요?"],"why":"얼마 = how much (price)."},
+{"t":"mc","q":"'Over there' (far from both of us) =","o":["저기","여기","거기","저거"],"why":"저 = far; 저기 = that place over there."},
+{"t":"mc","q":"The polite word for 'I' =","o":["저","나","우리","너"],"why":"저 is polite; 나 is for close friends."},
+{"t":"mc","q":"'My home' the natural way =","o":["우리 집","나 집","우리가 집","저가 집"],"why":"Home and family take 우리."},
+{"t":"order","p":"Where is the bathroom?","a":["화장실이","어디에","있어요"],"x":["언제"],"why":"어디에 있어요 = where is it."},
+{"t":"order","p":"Who is that person (over there)?","a":["저","사람","누구예요"],"x":["뭐예요"],"why":"누구 = who."},
+{"t":"order","p":"When is your birthday?","a":["생일이","언제예요"],"x":["어디예요"],"why":"언제 = when."},
+{"t":"fill","q":"이거 __예요?","p":"What is this?","a":["뭐"],"o":["누구","어디","언제"],"why":"뭐 = what."},
+{"t":"fill","q":"__가 있어요?","p":"Who is there?","a":["누"],"o":["누구","뭐","저"],"why":"누구 + 가 → 누가."},
+{"t":"fill","q":"화장실이 __에 있어요?","p":"Where is the bathroom?","a":["어디"],"o":["언제","누구","얼마"],"why":"어디 = where."},
+{"t":"type","p":"What is this?","a":["이거 뭐예요","이게 뭐예요","이건 뭐예요","이것은 뭐예요","이것이 뭐예요"],"hint":"이거 · 뭐","x":["누구예요"],"why":"The question word sits where the answer goes."},
+{"t":"type","p":"Where is it?","a":["어디에 있어요","어디 있어요"],"hint":"어디 · 있어요","x":["언제"],"why":"어디에 있어요."},
+{"t":"type","p":"Who is that person?","a":["그 사람 누구예요","그 사람은 누구예요","저 사람 누구예요","저 사람은 누구예요","그 사람이 누구예요","저 사람이 누구예요"],"hint":"사람 · 누구","x":["뭐예요"],"why":"누구예요 = who is (it)."}]}

@@ -1,0 +1,17 @@
+{"after":"meet","roadmap":"ko-sound-changes",
+"check":[["감사합니다 sounds like:",["감사함니다","감사합니다, exactly as spelled","감사하니다","감사합미다"],0,"ㅂ before ㄴ softens to ㅁ."],["한국어 sounds like:",["한구거","한국 어, with a pause","한궁어","하구거"],0,"The final ㄱ slides into the empty ㅇ seat."],["좋아요 sounds like:",["조아요","조하요","조타요","좋하요"],0,"ㅎ between vowels goes silent."]],
+"practice":[
+{"t":"mc","q":"감사합니다 sounds like:","o":["감사함니다","감사합니다","감사하니다","감사합미다"],"why":"ㅂ before ㄴ softens to ㅁ."},
+{"t":"mc","q":"한국어 sounds like:","o":["한구거","한국어","한궁어","하구거"],"why":"Final ㄱ links into the next block."},
+{"t":"mc","q":"좋아요 sounds like:","o":["조아요","조하요","조타요","좋하요"],"why":"ㅎ between vowels goes silent."},
+{"t":"mc","q":"연락 (contact) sounds like:","o":["열락","연낙","여락","연락"],"why":"ㄴ + ㄹ → ㄹㄹ."},
+{"t":"mc","q":"축하 (congratulations) sounds like:","o":["추카","추가","축아","추하"],"why":"ㄱ + ㅎ → ㅋ."},
+{"t":"order","p":"Build how 한국어 SOUNDS","a":["한","구","거"],"x":["국"],"why":"ㄱ moves to the next block."},
+{"t":"order","p":"Build how 음악 SOUNDS","a":["으","막"],"x":["음"],"why":"ㅁ moves to the next block."},
+{"t":"order","p":"Build how 한국말 SOUNDS","a":["한","궁","말"],"x":["국"],"why":"ㄱ before ㅁ → ㅇ."},
+{"t":"fill","q":"감사__니다","p":"Thank you — write the block as it SOUNDS","a":["함"],"o":["합","한","항"],"why":"ㅂ + ㄴ → ㅁ + ㄴ."},
+{"t":"fill","q":"조__요","p":"It's good — how 좋아요 SOUNDS","a":["아"],"o":["하","타","카"],"why":"The ㅎ is silent between vowels."},
+{"t":"fill","q":"열__","p":"Contact — how 연락 SOUNDS","a":["락"],"o":["낙","악","각"],"why":"ㄴ + ㄹ → ㄹㄹ."},
+{"t":"type","p":"Type the real SPELLING of the word that sounds like 한구거 (Korean language)","a":["한국어"],"hint":"한 · 국 · 어","x":["한구거"],"why":"Spelling keeps the ㄱ under 국."},
+{"t":"type","p":"Type the real SPELLING of the word that sounds like 조아요 (it's good)","a":["좋아요"],"hint":"좋 · 아 · 요","x":["조아요"],"why":"The silent ㅎ is still written."},
+{"t":"type","p":"Type the real SPELLING of the word that sounds like 이써요 (there is)","a":["있어요"],"hint":"있 · 어 · 요","x":["이써요"],"why":"ㅆ is written under 있."}]}

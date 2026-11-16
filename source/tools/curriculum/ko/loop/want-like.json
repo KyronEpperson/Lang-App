@@ -1,0 +1,17 @@
+{"after":"sentences","roadmap":"ko-want-like",
+"check":[["'(I) want to go' =",["가고 싶어요","가다 싶어요","가요 싶어요","가고 좋아요"],0,"Stem + 고 싶어요."],["'(I) like coffee' =",["커피를 좋아해요","커피가 좋아해요","커피를 좋아요","커피에 좋아해요"],0,"좋아해요 is an action verb → 을/를."],["'What do you want to eat?' =",["뭐 먹고 싶어요?","뭐 먹어 싶어요?","뭐 먹고 좋아해요?","뭐를 먹다 싶어요?"],0,"먹 + 고 싶어요."]],
+"practice":[
+{"t":"mc","q":"'(I) want to go' =","o":["가고 싶어요","가다 싶어요","가요 싶어요","가고 좋아요"],"why":"Stem + 고 싶어요."},
+{"t":"mc","q":"'(I) like coffee' =","o":["커피를 좋아해요","커피가 좋아해요","커피를 좋아요","커피에 좋아해요"],"why":"좋아해요 takes 을/를."},
+{"t":"mc","q":"'What do you want to eat?' =","o":["뭐 먹고 싶어요?","뭐 먹어 싶어요?","뭐 먹고 좋아해요?","뭐를 먹다 싶어요?"],"why":"먹 + 고 싶어요."},
+{"t":"mc","q":"'(I) don't want to go' =","o":["안 가고 싶어요","가고 싶어요","안 갔어요","가지 싶어요"],"why":"안 in front of the verb."},
+{"t":"mc","q":"'I miss you' =","o":["보고 싶어요","보다 싶어요","봐요 싶어요","보고 좋아요"],"why":"Literally 'I want to see (you)'."},
+{"t":"order","p":"(I) want to drink coffee","a":["커피를","마시고","싶어요"],"x":["마셔요"],"why":"마시 + 고 싶어요."},
+{"t":"order","p":"(I) want to go to Korea","a":["한국에","가고","싶어요"],"x":["한국을"],"why":"Destination takes 에."},
+{"t":"order","p":"(I) like movies","a":["영화를","좋아해요"],"x":["영화가"],"why":"좋아해요 takes 을/를."},
+{"t":"fill","q":"먹__ 싶어요","p":"(I) want to eat","a":["고"],"o":["어","다","을"],"why":"Stem + 고 싶어요."},
+{"t":"fill","q":"커피__ 좋아해요","p":"(I) like coffee","a":["를","는"],"o":["가","에","에서"],"why":"좋아해요 is an action verb → 를."},
+{"t":"fill","q":"영화가 __","p":"The movie is good","a":["좋아요"],"o":["좋아해요","싶어요","좋고"],"why":"이/가 goes with the describing verb 좋아요."},
+{"t":"type","p":"(I) want to go home","a":["집에 가고 싶어요","저는 집에 가고 싶어요"],"hint":"집에 · 가다 · 고 싶어요","x":["가요"],"why":"가 + 고 싶어요."},
+{"t":"type","p":"(I) like coffee","a":["커피를 좋아해요","저는 커피를 좋아해요","커피 좋아해요","저는 커피 좋아해요","커피가 좋아요","저는 커피가 좋아요"],"hint":"커피 · 좋아해요","x":["커피에"],"why":"커피를 좋아해요, or 커피가 좋아요."},
+{"t":"type","p":"What do you want to eat?","a":["뭐 먹고 싶어요","뭐를 먹고 싶어요","뭘 먹고 싶어요"],"hint":"뭐 · 먹다 · 고 싶어요","x":["먹어요"],"why":"먹 + 고 싶어요."}]}

@@ -658,3 +658,47 @@ Add a `past` lesson directly after `verbs` (았어요/었어요/했어요, 이�
 Add a `future` lesson after `past` (-(으)ㄹ 거예요 for plans and guesses) with check + 14 practice items; link roadmap `ko-future`; same verification.
 ### F3 — results
 - 26 lessons; 11 examples, 0 mismatches. First run failed the grammar gate (future-modifier tiles 있을/오을 read as the object particle); gate taught to tolerate them in `future`, re-run passed. Harness 44 guards, e2e OK.
+
+## F4 — prompt
+Add `sound-changes` after `meet` (linking, nasalisation, ㅎ, ㄴ+ㄹ) using the Pronunciation tips deck and pointing to the existing 🔀 drill; check + 14 practice items; link `ko-sound-changes`.
+### F4 — results
+- 27 lessons; 11 examples, 0 romanization mismatches; practice uses "how it sounds" tiles and spell-it-back typing. e2e OK.
+
+## F5 — prompt
+Add `pronouns-questions` after `isseoyo` using only 이에요/있어요 grammar (저/우리, name + 씨, 이거/여기 sets, seven question words); check + practice; link `ko-pronouns-questions`.
+### F5 — results
+- 28 lessons; 12 examples, 0 mismatches; grammar gate clean (no verbs or particles ahead of their lessons). e2e OK.
+
+## F6 — prompt
+Add `want-like` after `sentences` (-고 싶어요, 좋아해요 vs 좋아요); check + practice; link `ko-want-like`.
+### F6 — results
+- 29 lessons; 12 examples, 0 mismatches. Harness 44 guards, e2e OK for F4–F6.
+
+## F7 — prompt
+Add `have-to` after `cant` (-아/어야 해요 / 돼요, questions, past, 안 …도 돼요); check + practice; link `ko-have-to`.
+### F7 — results
+- 30 lessons; 9 examples, 0 mismatches; 6 new forms hand-checked. e2e OK.
+
+## F8 — prompt
+Add `joining` after `counters`, before `story` (-고, -지만, -아/어서); check + practice; link `ko-joining`.
+### F8 — results (first attempt FAILED, not counted)
+- Grammar gate: 12 uses of 못 / 수 없어요, which are taught four lessons later in `cant`.
+## F8b — prompt
+Rewrite the 못 examples, check and practice items with 안 (already taught) and re-run.
+### F8b — results
+- 31 lessons; 9 examples, 0 mismatches; gate clean. e2e OK.
+
+## F9 — prompt
+Add `noun-modifiers` after `story` (-(으)ㄴ, 는 for 있다 words, ㅂ and ㄹ stems); check + practice; link `ko-noun-modifiers`.
+### F9 — results
+- 32 lessons; 12 examples, 0 mismatches; irregular forms hand-checked (매운, 추운, 긴, 맛있는, 재미있는). e2e OK.
+
+## F10 — prompt
+Add `compare` after `noun-modifiers` (보다, 더, 덜, 제일); check + practice; link `ko-compare`.
+### F10 — results
+- 33 lessons; 10 examples, 0 mismatches. e2e OK.
+
+### Closing audit
+- Korean roadmap: 33 items, 0 planned. Grammar gate clean across all 33 practice sets and checks. No stale "lesson N" or "Conjugating verbs" references.
+- New harness guard `prSweep` (every lesson has a check and 12+ practice items; every item accepts its answers and rejects its distractors): 45 guards pass.
+- Old-user state (9 lessons done in the 2.3 order): all 9 still done; lessons up to the one after the furthest finished stay open.

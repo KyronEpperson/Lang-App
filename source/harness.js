@@ -231,6 +231,12 @@ const ovr=async(p,label)=>{ const sw=await p.evaluate(()=>document.documentEleme
     let threw=false, cp=null; try{ cp=cleanPractice({l1:[{t:'mc',q:'x',o:['a','b','c','d']},{t:'mc',q:'x',o:['a']},{t:'bad'},null,'str',7,[],{t:'fill',q:'no gap',a:['x']},{t:'type',p:'p',a:[]},{t:'order',p:'p',a:'ab'},{t:'type',p:'p',a:['x',5,null]},{t:'fill',q:'a __ b',a:['x'],o:['x','y']}],l2:'junk',l3:[],__proto__:[{t:'mc',q:'x',o:['a','b']}]}); cleanPractice(null); cleanPractice([1]); cleanPractice('x'); }catch(e){ threw=true; }
     const c=!threw&&cp.l1.length===3&&!cp.l2&&!cp.l3&&cp.l1[1].a.join()==='x,5'&&cp.l1[2].o.join()==='y';
     return v1&&v2&&c; });
+  // every lesson of the active course has a 3-question check and a 12+ item practice set, and every shipped practice item accepts its own answers and rejects its distractors
+  mc.prSweep=await p.evaluate(()=>{ let bad=0; const every=LESSONS.every(l=>(CHECKS[l.id]||[]).length===3&&(PRACTICE[l.id]||[]).length>=12); Object.keys(PRACTICE).forEach(id=>PRACTICE[id].forEach(it=>{
+      if(it.t==='order'){ const m=it.a.join(' '); if(!pracMatch(m,[m])) bad++; (it.x||[]).forEach(x=>it.a.forEach((_,k)=>{ const alt=it.a.slice(); alt[k]=x; if(pracMatch(alt.join(' '),[m])) bad++; })); }
+      if(it.t==='fill'){ it.a.forEach(a=>{ if(!pracMatch(a,it.a)) bad++; }); (it.o||[]).forEach(o=>{ if(pracMatch(o,it.a)) bad++; }); }
+      if(it.t==='type'){ it.a.forEach(a=>{ if(!pracMatch(a,it.a)) bad++; }); const tl=it.a[0].split(' '); (it.x||[]).forEach(x=>tl.forEach((_,k)=>{ const alt=tl.slice(); alt[k]=x; if(pracMatch(alt.join(' '),it.a)) bad++; })); } }));
+    return every&&bad===0&&Object.keys(PRACTICE).length>=LESSONS.length; });
   await ctx.close(); }
 // pack integrity for every course
 res.checks.packs=await (async()=>{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const out={}; Object.values(COURSES).forEach(c=>{ const rt=courseRT(c); const raw=c.builtin?Object.keys(c.DECKS).filter(d=>d!==MYDECK):Object.keys(c.DECKS); const tg=[]; raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>tg.push(String(x[0]).toLowerCase().trim())));

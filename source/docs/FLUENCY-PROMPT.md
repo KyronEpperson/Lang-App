@@ -19,6 +19,10 @@ A learner who finishes the course should be able to **build their own sentences*
 - `docs/GRAMMAR-ORDER-RESEARCH.md` is the evidence: order is convention, practice volume and typed production are the levers.
 - Korean content fragments live in `tools/curriculum/ko/`; `tools/curriculum/merge_ko.py` shows how they were merged.
 
+## Status (2026-11-15)
+- Korean roadmap is fully built (33 lessons, 0 planned). Next backlog: the English roadmap (25 planned) and the production features below.
+- To add a lesson: write `tools/curriculum/ko/loop/<id>.lesson.js` + `<id>.json`, run `python3 tools/curriculum/loop.py <id>`, build, harness, `node tools/curriculum/e2e.js <id>`.
+
 ## Lesson contract
 - Edit `src/app.html` (en-ko) or the generators under `tools/content/` (ko-en). Never hand-edit packs or `korean-flashcards.html`.
 - Shape: one-paragraph idea in plain English → 3–5 short sections, each a rule in one sentence + 2–4 `${ex(korean, romanization, english)}` examples → one tip → "Common mistakes" box with ✗ → ✓ pairs.
