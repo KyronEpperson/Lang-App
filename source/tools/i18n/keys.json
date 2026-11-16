@@ -8242,24 +8242,6 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   {
-   "id": "This week: {x} · {n} new/day",
-   "template": "This week: {x} · {n} new/day",
-   "slots": [
-    {
-     "n": 1,
-     "type": "x"
-    },
-    {
-     "n": 2,
-     "type": "n"
-    }
-   ],
-   "regex": "^This week: (.+) · (\\d+) new\\/day$",
-   "example": "This week: Hello there · 5 new/day",
-   "section": "patterns",
-   "context": "count slot: the translation must read correctly at 1 and at 2+"
-  },
-  {
    "id": "This week: · lessons {s} · {n} new/day",
    "template": "This week: · lessons {s} · {n} new/day",
    "slots": [
@@ -8276,6 +8258,24 @@
    "example": "This week: · lessons Greetings · 5 new/day",
    "section": "patterns",
    "context": "example is caught first by earlier pattern \"This week: {x} · {n} new/day\"; count slot: the translation must read correctly at 1 and at 2+"
+  },
+  {
+   "id": "This week: {x} · {n} new/day",
+   "template": "This week: {x} · {n} new/day",
+   "slots": [
+    {
+     "n": 1,
+     "type": "x"
+    },
+    {
+     "n": 2,
+     "type": "n"
+    }
+   ],
+   "regex": "^This week: (.+) · (\\d+) new\\/day$",
+   "example": "This week: Hello there · 5 new/day",
+   "section": "patterns",
+   "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   {
    "id": "{n} decks · {n} lessons · {n} weeks · {n} new cards/day",

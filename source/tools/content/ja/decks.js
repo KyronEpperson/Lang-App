@@ -254,7 +254,7 @@ Thanks for all your hard work. | サンクス フォー オール ユア ハー�
 `,
 "電話・メッセージ略語": `
 Hello, this is Yuki. | ヘロウ, ズィス イズ ユーキ | もしもし、ユキです | 電話では I'm Yuki. ではなく This is Yuki. と言います。
-Can I speak to Mr. Kim? | キャナイ スピーク タ ミスター キム? | キムさんはいらっしゃいますか？ | より丁寧には May I speak to …? 英語には「様」「さん」がなく、Mr. / Ms. + 名字 で呼びます。
+Can I speak to Mr. Tanaka? | キャナイ スピーク タ ミスター タナーカ? | 田中さんはいらっしゃいますか？ | より丁寧には May I speak to …? 英語には「様」「さん」がなく、Mr. / Ms. + 名字 で呼びます。
 Who's calling, please? | フーズ コーリング, プリーズ? | どちら様ですか？ | 電話を受ける側が聞く言葉です。
 Hold on a second. | ホウルドナ セカンド | ちょっと待ってください | 電話や会話の途中で少し待ってほしいときに使います。
 Sorry, you're breaking up. | サーリー, ユア ブレイキンガップ | すみません、声が途切れています | break up は「（電話の音声が）途切れる」。恋人と別れるという意味もあります。
@@ -281,7 +281,7 @@ Window or aisle? | ウィンドウ オア アイル? | 窓側ですか、通路�
 I'd like an aisle seat, please. | アイド ライカン アイル スィート, プリーズ | 通路側の席をお願いします | 窓側なら a window seat です。
 Where is the baggage claim? | ウェアリズ ザ バギッジ クレイム? | 手荷物受取所はどこですか？ | claim はここでは「受け取る」の意味です。日本語の「クレーム（苦情）」は英語では complaint です。
 My luggage is missing. | マイ ラギッジ イズ ミスィング | 荷物が出てきません | luggage は数えられない名詞です。1個なら a piece of luggage と言います。
-I have a reservation under Kim. | アイ ハヴァ ゥレザヴェイション アンダー キム | キムの名前で予約しています | under + 予約者の名前 で伝えます。
+I have a reservation under Tanaka. | アイ ハヴァ ゥレザヴェイション アンダー タナーカ | 田中の名前で予約しています | under + 予約者の名前 で伝えます。
 What time is check-out? | ワット タイム イズ チェッカウト? | チェックアウトは何時ですか？ | 遅く出たいなら Can I get a late check-out? と聞きます。
 Can I check in early? | キャナイ チェッキン アーリー? | 早めにチェックインできますか？ | check in は「チェッキン」のようにつながります。
 Is breakfast included? | イズ ブレックファスト インクルーディッド? | 朝食付きですか？ | breakfast は「ブレックファスト」。「ブレイク」とは読みません。

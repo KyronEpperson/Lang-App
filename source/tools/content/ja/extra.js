@@ -71,7 +71,7 @@ I'm on my way. | Are you almost here? | Yeah, I'm on my way! | もうすぐ着�
 I'm here for sightseeing. | What's the purpose of your visit? | I'm here for sightseeing. | 入国の目的は何ですか？ / 観光です。
 I'm staying for a week. | How long are you staying? | I'm staying for a week. | 滞在期間はどのくらいですか？ / 1週間です。
 Window or aisle? | Window or aisle? | Aisle, please. | 窓側と通路側、どちらになさいますか？ / 通路側でお願いします。
-I have a reservation under Kim. | Hi, are you checking in? | Yes, I have a reservation under Kim. | こんにちは、チェックインですか？ / はい、キムの名前で予約しています。
+I have a reservation under Tanaka. | Hi, are you checking in? | Yes, I have a reservation under Tanaka. | こんにちは、チェックインですか？ / はい、田中の名前で予約しています。
 The air conditioner isn't working. | Front desk. How can I help you? | Hi, the air conditioner isn't working in room 512. | フロントです。どうなさいましたか？ / すみません、512号室のエアコンが動かないんです。
 My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I see your baggage tag? | 荷物が出てこないんです。 / 申し訳ございません。手荷物引換証を見せていただけますか？
 I don't feel well. | Are you okay? You look pale. | I don't feel well. I think I need to sit down. | 大丈夫ですか？ 顔色が悪いですよ。 / 体調がよくなくて。少し座ったほうがよさそうです。
