@@ -65,7 +65,7 @@ module.exports = {
     { t: "fill", q: "__ you hungry?", p: "Tu as faim ?", a: ["Are"], o: ["Do", "Is", "Have"], why: "« Avoir faim » se dit avec be, et avec \"you\", c'est \"are\"." },
     { t: "fill", q: "We __ cold.", p: "Nous avons froid", a: ["are"], o: ["have", "is", "do"], why: "« Avoir froid » se dit avec be, et avec \"we\", c'est \"are\"." },
 
-    { t: "type", p: "Il est professeur", a: ["He is a teacher", "He's a teacher"], hint: "teacher — be et un article", x: ["the"], why: "Avec \"he\", be devient \"is\" : troisième personne. Le métier prend \"a\"." },
+    { t: "type", p: "Il est enseignant", a: ["He is a teacher", "He's a teacher"], hint: "teacher — be et un article", x: ["the"], why: "Avec \"he\", be devient \"is\" : troisième personne. Le métier prend \"a\"." },
     { t: "type", p: "J'ai 25 ans", a: ["I'm 25", "I am 25", "I'm 25 years old", "I am 25 years old", "I'm twenty-five", "I am twenty-five", "I'm twenty-five years old", "I am twenty-five years old"], hint: "25 — avec be, pas avec have", x: ["have"], why: "L'âge se dit avec \"be\", pas avec \"have\"." },
     { t: "type", p: "Il est tard", a: ["It's late", "It is late"], hint: "late — « il » se traduit par \"it\"", x: ["is"], why: "« Il est tard » : le sujet \"it\" + \"is\". Jamais \"Is late\"." }
   ],
@@ -75,7 +75,7 @@ module.exports = {
     { t: "mc", q: "Quelle est la façon la plus polie de demander de l'aide à un inconnu ?", o: ["Could you help me?", "Help me.", "You help me.", "I want help."], why: "\"Could you…?\" est la façon aimable de demander quelque chose à un inconnu." },
     { t: "mc", q: "Tu n'as pas compris ce qu'on t'a dit. Comment demander poliment de répéter ?", o: ["Could you say that again?", "Say again.", "What you say?", "Again say, please."], why: "\"Could you say that again?\" est la façon aimable de faire répéter quelqu'un." },
     { t: "mc", q: "Demande très poliment : « Ça vous dérangerait de nous prendre en photo ? »", o: ["Would you mind taking a picture of us?", "Would you mind take a picture of us?", "Would you mind to take a picture of us?", "Would you mind took a picture of us?"], why: "Après \"mind\", on met la forme en -ing : \"taking\"." },
-    { t: "mc", q: "Dans l'avion : « Je voudrais une place côté fenêtre »", o: ["I'd like a window seat.", "I'd like window seat.", "I like a window seat.", "I'd like the window seats."], why: "\"I'd like…\" est une demande polie, comme « je voudrais ». C'est une seule place : \"a window seat\"." },
+    { t: "mc", q: "Dans l'avion : « Je voudrais une place côté hublot »", o: ["I'd like a window seat.", "I'd like window seat.", "I like a window seat.", "I'd like the window seats."], why: "\"I'd like…\" est une demande polie, comme « je voudrais ». C'est une seule place : \"a window seat\"." },
 
     { t: "order", p: "Je peux avoir un latte ?", a: ["Can", "I", "get", "a", "latte"], x: ["gets", "give"], why: "Pour demander, l'auxiliaire \"can\" passe devant le sujet (\"Can I get…?\", pas \"I can get…?\") et le verbe reste à la base verbale : \"get\", pas \"gets\"." },
     { t: "order", p: "Ça vous dérangerait d'ouvrir la fenêtre ? (celle de cette pièce)", a: ["Would", "you", "mind", "opening", "the", "window"], x: ["open", "minds"], why: "Dans la question, l'auxiliaire \"would\" passe devant \"you\", et \"mind\" reste à la base verbale, sans -s. Après \"mind\", la forme en -ing." },
@@ -143,7 +143,7 @@ module.exports = {
 
     { t: "fill", q: "Pretty good! How __ you?", p: "Plutôt bien ! Et toi ?", a: ["about"], o: ["for", "with", "of"], why: "Réponds brièvement et renvoie la question avec \"How about you?\"" },
     { t: "fill", q: "I know, __?", p: "Carrément ! / C'est clair !", a: ["right"], o: ["no", "yes", "true"], why: "\"I know, right?\" sert à approuver quelqu'un avec enthousiasme." },
-    { t: "fill", q: "Have you seen any good __ lately?", p: "Tu as vu quelque chose de bien récemment ?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "Après \"any\", dans une question, les noms dénombrables se mettent au pluriel." },
+    { t: "fill", q: "Have you seen any good __ lately?", p: "Tu as vu de bonnes séries ou de bons films récemment ?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "Après \"any\", dans une question, les noms dénombrables se mettent au pluriel." },
 
     { t: "type", p: "C'était comment, ton week-end ?", a: ["How was your weekend"], hint: "how · weekend — au passé", x: ["is"], why: "Dans la question, \"was\" passe devant le sujet (\"your weekend\") : \"How was your weekend?\"" },
     { t: "type", p: "Tu habites dans le coin ?", a: ["Do you live around here", "Do you live near here", "Do you live nearby"], hint: "live · around here — une question avec \"do\"", x: ["are"], why: "Au présent, la question prend l'auxiliaire \"do\" devant le sujet : \"Do you live…?\"" },
@@ -199,7 +199,7 @@ module.exports = {
 
     { t: "order", p: "Tu as reçu mon e-mail ?", a: ["Did", "you", "get", "my", "email"], x: ["got"], why: "La question au prétérit prend l'auxiliaire \"did\", et le verbe reste à la base verbale : \"get\"." },
     { t: "order", p: "Le rapport est en pièce jointe", a: ["The", "report", "is", "attached"], x: ["are"], why: "Un seul sujet (\"the report\") : \"is\", accord." },
-    { t: "order", p: "Je vérifie et je reviens vers vous", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "\"Get back to you\" = revenir vers quelqu'un, le recontacter. Avec \"to\"." },
+    { t: "order", p: "Je reviens vers vous", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "\"Get back to you\" = revenir vers quelqu'un, le recontacter. Avec \"to\"." },
 
     { t: "fill", q: "Could you send me the file __ Friday?", p: "Pourriez-vous m'envoyer le fichier d'ici vendredi ?", a: ["by"], o: ["until", "in", "at"], why: "Pour un délai (« au plus tard le… »), on utilise \"by\" + date." },
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "Je vous écris pour vous demander le planning", a: ["to"], o: ["for", "about", "at"], why: "Pour le but : \"I'm writing to\" + verbe." },

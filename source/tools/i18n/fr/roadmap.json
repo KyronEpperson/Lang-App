@@ -56,7 +56,7 @@
    "roadmap": "ko"
   },
   "있어요/없어요, 이/가, place 에": {
-   "t": "있어요/없어요, 이/가, 에 de lieu",
+   "t": "있어요/없어요, 이/가 et 에 (lieu)",
    "ko": "있어요/없어요, 이/가, 장소 에",
    "kind": "lesson title",
    "roadmap": "ko"
@@ -302,7 +302,7 @@
    "roadmap": "en"
   },
   "He/she/it: -s, does / doesn't": {
-   "t": "He/she/it: -s, does / doesn't",
+   "t": "He/she/it : -s, does / doesn't",
    "ko": "3인칭 단수 -s, does / doesn't",
    "kind": "lesson title",
    "roadmap": "en"
@@ -2408,7 +2408,7 @@
    "roadmap": "ru"
   },
   "Hard and soft, voiced and voiceless": {
-   "t": "Dures et molles, sonores et sourdes",
+   "t": "Consonnes dures et molles, sonores et sourdes",
    "ko": "경음과 연음, 유성과 무성",
    "kind": "lesson title",
    "roadmap": "ru"

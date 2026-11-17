@@ -11,14 +11,14 @@ Good afternoon. | /ˈgʊd ˌæftərˈnuːn/ | Bonjour (l'après-midi) | De midi 
 Good evening. | /ˈgʊd ˈiːvnɪŋ/ | Bonsoir (en arrivant) | "Good evening" sert à saluer en arrivant le soir. "Good night" ne sert qu'à dire au revoir
 How are you? | /ˈhaʊ ər ju/ | Comment vas-tu ? | C'est une formule de salut, pas une vraie question. Réponds brièvement : "Good, thanks. You?"
 I'm good, thanks. And you? | /aɪm ˈgʊd ˈθæŋks ‖ ənd ˈjuː/ | Bien, merci. Et toi ? | "I'm fine, thank you" sonne comme un manuel ; "good" est bien plus naturel. Ici, "I'm good" veut dire « je vais bien »
-What's up? | /ˈwʌts ˈʌp/ | Quoi de neuf ? | Ce n'est pas « qu'est-ce qu'il y a là-haut ? » ni « qu'est-ce qui ne va pas ? » : c'est un « Quoi de neuf ? » décontracté. La réponse habituelle est "Not much."
+What's up? | /ˈwʌts ˈʌp/ | Quoi de neuf ? | Salut décontracté entre amis ou collègues, comme « Quoi de neuf ? » ou « Ça va ? ». On n'attend pas de vraie nouvelle : la réponse habituelle est "Not much."
 Not much. | /ˈnɑːt ˈmʌtʃ/ | Pas grand-chose | La réponse la plus courante à "What's up?". Renvoie la question : "Not much, you?"
 How's it going? | /ˈhaʊz ɪt ˈgoʊɪŋ/ | Comment ça va ? | Version décontractée de "How are you?". Réponse typique : "Pretty good!"
-Nice to meet you. | /ˈnaɪs tə ˈmiːt ju/ | C'est un plaisir de te rencontrer | Seulement la première fois qu'on rencontre quelqu'un. Réponse : "Nice to meet you, too."
+Nice to meet you. | /ˈnaɪs tə ˈmiːt ju/ | Enchanté / Enchantée | Seulement la première fois qu'on rencontre quelqu'un. Réponse : "Nice to meet you, too."
 Long time no see! | /ˈlɔːŋ ˈtaɪm ˈnoʊ ˈsiː/ | Ça fait longtemps ! | Entre connaissances proches. Plus neutre : "It's been a while."
-See you later. | /ˈsiː ju ˈleɪtər/ | À tout à l'heure | On le dit en se quittant, même sans projet de se revoir : comme notre « à plus ! »
+See you later. | /ˈsiː ju ˈleɪtər/ | À plus tard | On le dit en se quittant, même sans projet de se revoir : comme notre « à plus ! »
 Take care. | /ˈteɪk ˈker/ | Prends soin de toi | Au revoir chaleureux ; on l'écrit aussi à la fin des messages
-Have a good one! | /ˈhæv ə ˈgʊd ˈwʌn/ | Bonne continuation ! | Les caissiers le disent souvent après l'encaissement. Réponds simplement "You too!"
+Have a good one! | /ˈhæv ə ˈgʊd ˈwʌn/ | Bonne journée ! / Bonne soirée ! | Les caissiers le disent souvent après l'encaissement. Réponds simplement "You too!"
 Bye! | /ˈbaɪ/ | Au revoir ! | Entre adultes, "Bye-bye" paraît un peu enfantin
 Good night. | /ˈgʊd ˈnaɪt/ | Bonne nuit | Seulement pour dire au revoir le soir ou avant d'aller dormir. Pour saluer en arrivant : "Good evening"
 `,
@@ -39,7 +39,7 @@ I like watching movies. | /aɪ ˈlaɪk ˈwɑːtʃɪŋ ˈmuːviz/ | J'aime regard
 I've been learning English for a year. | /aɪv bɪn ˈlɜːrnɪŋ ˈɪŋglɪʃ fər ə ˈjɪr/ | Cela fait un an que j'apprends l'anglais | Le français dit « j'apprends depuis un an » avec le présent ; l'anglais veut "have been" + -ing avec "for". Jamais "I learn English since one year"
 I'm here on vacation. | /aɪm ˈhɪr ɑːn veɪˈkeɪʃn/ | Je suis ici en vacances | En anglais britannique : "on holiday". "vacation" reste au singulier, alors que « vacances » est pluriel en français
 I'm married. | /aɪm ˈmærid/ | Je suis marié / mariée | Si ce n'est pas le cas : "I'm single." On dit "married to" quelqu'un, pas "married with"
-I have a younger brother. | /aɪ ˈhæv ə ˈjʌŋgər ˈbrʌðər/ | J'ai un petit frère | "brother" désigne seulement un frère. Frères et sœurs en général : "brothers and sisters" ou "siblings". "younger" = plus jeune, "older" = plus âgé
+I have a younger brother. | /aɪ ˈhæv ə ˈjʌŋgər ˈbrʌðər/ | J'ai un petit frère | "younger brother" = petit frère, "older brother" = grand frère ; à l'oral, on entend aussi "little brother" et "big brother". Frères et sœurs en général : "siblings"
 `,
 "Survie 1": `
 Excuse me. | /ɪkˈskjuːz mi/ | Excusez-moi | Pour attirer l'attention de quelqu'un ou demander le passage. Si tu bouscules quelqu'un, dis plutôt "Sorry!"
@@ -69,10 +69,10 @@ I'm lost. | /aɪm ˈlɔːst/ | Je suis perdu / perdue | Montre la carte et deman
 Can I pay by card? | /kən aɪ ˈpeɪ baɪ ˈkɑːrd/ | Puis-je payer par carte ? | Comme en français, on dit "by card" (par carte). Certains commerces demandent un montant minimum
 One moment, please. | /ˈwʌn ˈmoʊmənt ˈpliːz/ | Un instant, s'il vous plaît | Formule polie très courante dans les magasins et au téléphone
 Just a second. | /ˈdʒʌst ə ˈsekənd/ | Une seconde | Informel. Plus court : "Just a sec."
-No worries. | /ˈnoʊ ˈwɜːriz/ | Ne t'en fais pas | Très courant en Australie et au Royaume-Uni, et aussi aux États-Unis
+No worries. | /ˈnoʊ ˈwɜːriz/ | Pas de souci | Très courant en Australie et au Royaume-Uni, et aussi aux États-Unis
 That's okay. | /ˈðæts oʊˈkeɪ/ | Ce n'est rien | Réponse à des excuses. On dit aussi : "Don't worry about it."
 Of course. | /əv ˈkɔːrs/ | Bien sûr | Pour accepter une demande. En réponse à une question, cela peut sonner comme « évidemment ! » : dis-le d'un ton aimable
-I'm not sure. | /aɪm ˈnɑːt ˈʃʊr/ | Je ne suis pas sûr / sûre | Plus doux que "I don't know". Le verbe reste "be" : "I'm not sure", comme « je ne suis pas sûr »
+I'm not sure. | /aɪm ˈnɑːt ˈʃʊr/ | Je ne suis pas sûr / sûre | Plus doux que "I don't know". "sure" se prononce /ˈʃʊr/, avec le son « ch »
 I have a question. | /aɪ ˈhæv ə ˈkwestʃən/ | J'ai une question | En cours ou en réunion : "Can I ask a question?". "question" se dit /ˈkwestʃən/ avec un "tch", pas « kès-tion » comme en français
 Can you write it down? | /kən ju ˈraɪt ɪt ˈdaʊn/ | Peux-tu me l'écrire ? | La meilleure solution si tu ne comprends pas une adresse, un nombre ou un nom
 Can I take a picture? | /kən aɪ ˈteɪk ə ˈpɪktʃər/ | Puis-je prendre une photo ? | Dans les musées et les magasins, demande d'abord. On "take" une photo : jamais "make a photo", calque de « faire une photo »
@@ -103,16 +103,16 @@ Is this seat taken? | /ɪz ˈðɪs ˈsiːt ˈteɪkən/ | Cette place est-elle pr
 "Au restaurant": `
 A table for two, please. | /ə ˈteɪbl fər ˈtuː ˈpliːz/ | Une table pour deux, s'il vous plaît | Aux États-Unis, on attend généralement qu'un serveur nous place
 Do you have a reservation? | /də ju ˈhæv ə ˌrezərˈveɪʃn/ | Avez-vous réservé ? | C'est le personnel qui le demande. Réponse : "Yes, under Garcia."
-Can I see the menu? | /kən aɪ ˈsiː ðə ˈmenjuː/ | Puis-je voir la carte ? | "menu" s'accentue sur la première syllabe, /ˈmenjuː/, et non sur la dernière. Attention : « la carte » (du restaurant) se dit "the menu", pas "the card"
+Can I see the menu? | /kən aɪ ˈsiː ðə ˈmenjuː/ | Puis-je voir la carte ? | L'accent tonique de "menu" est sur la première syllabe, /ˈmenjuː/, et non sur la dernière. Attention : « la carte » (du restaurant) se dit "the menu", pas "the card"
 What do you recommend? | /ˈwʌt də ju ˌrekəˈmend/ | Que me conseillez-vous ? | On peut aussi demander "What's popular here?". Réponse possible : "I'd recommend the salmon."
 I'll have the steak. | /aɪl ˈhæv ðə ˈsteɪk/ | Je prends le steak | Formule de base pour commander : "I'll have" + plat. Pas de "I take" : le français dit « je prends », pas l'anglais
 Can I get a Coke? | /kən aɪ ˈget ə ˈkoʊk/ | Je pourrais avoir un Coca ? | "Can I get...?" est la façon la plus courante de commander aux États-Unis
 Medium rare, please. | /ˈmiːdiəm ˈrer ˈpliːz/ | Saignant, s'il vous plaît | Réponse à "How would you like your steak?". Autres cuissons : "rare" (bleu), "medium" (à point), "well done" (bien cuit)
-No onions, please. | /ˈnoʊ ˈʌnjənz ˈpliːz/ | Sans oignons, s'il vous plaît | On peut aussi dire "Can I get it without onions?". En anglais, "onions" se met au pluriel
-I'm allergic to peanuts. | /aɪm əˈlɜːrdʒɪk tə ˈpiːnʌts/ | Je suis allergique aux cacahuètes | "allergic" porte l'accent sur la deuxième syllabe, /əˈlɜːrdʒɪk/ ; le nom "allergy" est accentué au début. Après "allergic", la préposition est "to"
-Is it spicy? | /ɪz ɪt ˈspaɪsi/ | C'est épicé ? | Attention : "spicy" veut dire piquant, fort en piment. Pour « bien assaisonné », dis "flavorful". Aux États-Unis, c'est souvent moins fort qu'on ne l'imagine
+No onions, please. | /ˈnoʊ ˈʌnjənz ˈpliːz/ | Sans oignons, s'il vous plaît | On peut aussi dire "Can I get it without onions?". "onion" se prononce /ˈʌnjən/ : le « o » se dit comme un « a » bref
+I'm allergic to peanuts. | /aɪm əˈlɜːrdʒɪk tə ˈpiːnʌts/ | Je suis allergique aux cacahuètes | "allergic" porte l'accent tonique sur la deuxième syllabe, /əˈlɜːrdʒɪk/ ; le nom "allergy" est accentué au début. Après "allergic", la préposition est "to"
+Is it spicy? | /ɪz ɪt ˈspaɪsi/ | C'est épicé ? | Attention : "spicy" veut dire piquant, fort en piment. Pour « bien assaisonné », dis "flavorful". Pour un plat doux, demande "mild"
 Could we get some water? | /kəd wi ˈget ˈsʌm ˈwɔːtər/ | Pourrions-nous avoir de l'eau ? | Aux États-Unis, l'eau du robinet est servie gratuitement (comme la « carafe d'eau » en France). Dans une demande ou une offre, on garde "some"
-Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | Tout était délicieux | Réponse quand on te demande "How is everything?"
+Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | Tout était parfait | Réponse quand on te demande "How is everything?"
 Can we get the check, please? | /kən wi ˈget ðə ˈtʃek ˈpliːz/ | L'addition, s'il vous plaît | En anglais britannique : "the bill". Aux États-Unis, on paie souvent à la table
 Can we split the bill? | /kən wi ˈsplɪt ðə ˈbɪl/ | Peut-on payer séparément ? | On peut aussi demander "separate checks"
 It's on me. | /ɪts ɑːn ˈmiː/ | C'est moi qui invite | On dit aussi "My treat!"
@@ -127,7 +127,7 @@ For here or to go? | /fər ˈhɪr ər tə ˈgoʊ/ | Sur place ou à emporter ? 
 Can I get oat milk instead? | /kən aɪ ˈget ˈoʊt ˈmɪlk ɪnˈsted/ | Je peux avoir du lait d'avoine à la place ? | "instead" = à la place. Cela peut coûter un supplément
 Less ice, please. | /ˈles ˈaɪs ˈpliːz/ | Moins de glaçons, s'il vous plaît | Sans glaçon : "No ice, please."
 Decaf, please. | /ˈdiːkæf ˈpliːz/ | Un déca, s'il vous plaît | Abréviation de "decaffeinated"
-Can I get a name for the order? | /kən aɪ ˈget ə ˈneɪm fər ði ˈɔːrdər/ | À quel nom, la commande ? | Le personnel le demande pour l'écrire sur le gobelet. Prépare un prénom facile ou épelle le tien
+Can I get a name for the order? | /kən aɪ ˈget ə ˈneɪm fər ði ˈɔːrdər/ | À quel nom, la commande ? | Le personnel le demande pour l'écrire sur le gobelet. Si ton prénom est difficile pour un anglophone (Guillaume, Aurélien), épelle-le ou donne un prénom court
 Do you need a bag? | /də ju ˈniːd ə ˈbæg/ | Vous avez besoin d'un sac ? | Si non : "No, I'm good."
 Can I get a receipt? | /kən aɪ ˈget ə rɪˈsiːt/ | Je peux avoir un reçu ? | Le "p" de "receipt" ne se prononce pas : /rɪˈsiːt/
 Where can I find batteries? | /ˈwer kən aɪ ˈfaɪnd ˈbætəriz/ | Où trouver des piles ? | Phrase passe-partout pour chercher n'importe quel produit. Une pile électrique se dit "battery", jamais "pile"
@@ -199,13 +199,13 @@ Congratulations! | /kənˌgrætʃəˈleɪʃnz/ | Félicitations ! | Toujours av
 That's awesome! | /ˈðæts ˈɔːsəm/ | C'est génial ! | Réaction très fréquente aux États-Unis
 No way! | /ˈnoʊ ˈweɪ/ | Pas possible ! | Exprime la surprise. Sert aussi à refuser : "No way, I'm not doing that."
 Seriously? | /ˈsɪriəsli/ | Sérieux ? | Selon le ton, exprime la surprise ou l'agacement
-I'm so tired. | /aɪm ˈsoʊ ˈtaɪərd/ | Je suis tellement fatigué / fatiguée | Pour dire « épuisé » : "I'm exhausted." Toujours avec "be" : jamais "I have tired"
+I'm so tired. | /aɪm ˈsoʊ ˈtaɪərd/ | Je suis tellement fatigué / fatiguée | Pour dire « épuisé » : "I'm exhausted."
 I'm stressed out. | /aɪm ˈstrest ˈaʊt/ | Je suis très stressé / stressée | Plus naturel que "I have stress". "out" renforce le sens : "stressed out" = à bout
 I'm bored. | /aɪm ˈbɔːrd/ | Je m'ennuie | Attention : "I'm boring" veut dire « je suis ennuyeux ». Le français « s'ennuyer » devient "be bored", avec "be" et le participe en -ed
 I'm excited. | /aɪm ɪkˈsaɪtɪd/ | Je suis emballé / emballée | "excited" = plein d'enthousiasme, impatient, sans le sens sexuel de « excité » en français
 I'm nervous. | /aɪm ˈnɜːrvəs/ | Je suis nerveux / nerveuse | Avant un entretien d'embauche ou une présentation. À quelqu'un d'autre : "Don't be nervous."
 That's too bad. | /ˈðæts ˈtuː ˈbæd/ | Quel dommage | Pour un petit contretemps. Pour quelque chose de grave, dis "I'm sorry to hear that."
-I'm sorry to hear that. | /aɪm ˈsɑːri tə ˈhɪr ˈðæt/ | Ça me peine d'apprendre ça | Ce n'est pas une excuse : c'est de l'empathie. Ne le confonds pas avec "I'm sorry" (pour t'excuser)
+I'm sorry to hear that. | /aɪm ˈsɑːri tə ˈhɪr ˈðæt/ | Ça me fait de la peine d'apprendre ça | Ce n'est pas une excuse : c'est de l'empathie. Ne le confonds pas avec "I'm sorry" (pour t'excuser)
 What a relief! | /ˈwʌt ə rɪˈliːf/ | Quel soulagement ! | Va bien avec "Phew!"
 Oh my gosh! | /ˈoʊ maɪ ˈgɑːʃ/ | Oh mon Dieu ! | Version atténuée de "Oh my God". Dans les messages : "OMG"
 I'm upset. | /aɪm ʌpˈset/ | Je suis contrarié / contrariée | Entre fâché et triste
@@ -229,7 +229,7 @@ Do you want to grab coffee sometime? | /də ju ˈwɑːnt tə ˈgræb ˈkɔːfi �
 I miss you. | /aɪ ˈmɪs ju/ | Tu me manques | Attention, c'est inversé par rapport au français : en anglais, le sujet est celui qui ressent l'absence ("I"), alors que le sujet français est la personne absente (« tu »)
 You mean a lot to me. | /ju ˈmiːn ə ˈlɑːt tə mi/ | Tu comptes beaucoup pour moi | Pour exprimer une affection sincère
 You're a lifesaver! | /jʊr ə ˈlaɪfseɪvər/ | Tu me sauves la vie ! | S'emploie en exagérant, même pour de petits services
-You made my day! | /ju ˈmeɪd maɪ ˈdeɪ/ | Tu m'as fait ma journée ! | Quand quelqu'un te dit quelque chose de gentil ou t'offre un cadeau
+You made my day! | /ju ˈmeɪd maɪ ˈdeɪ/ | Tu as illuminé ma journée ! | Quand quelqu'un te dit quelque chose de gentil ou t'offre un cadeau
 That's very kind of you. | /ˈðæts ˈveri ˈkaɪnd əv ju/ | C'est très gentil de ta part | Pour remercier d'une aide ou d'un compliment. "kind" = gentil, aimable
 `,
 "Travail et e-mails": `
@@ -249,7 +249,7 @@ I'll get back to you. | /aɪl ˈget ˈbæk tə ju/ | Je reviens vers vous | Pour
 Can you walk me through it? | /kən ju ˈwɔːk mi θruː ɪt/ | Peux-tu me l'expliquer pas à pas ? | "walk through" = guider pas à pas
 Let's touch base next week. | /ˈlets ˈtʌtʃ ˈbeɪs ˈnekst ˈwiːk/ | Faisons un point la semaine prochaine | Propose un échange court pour se tenir au courant
 What's the deadline? | /ˈwʌts ðə ˈdedlaɪn/ | Quelle est la date limite ? | On peut aussi demander "When is this due?". Question qu'on entend souvent dans les dialogues de bureau, y compris dans ceux du TOEIC
-I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | Je télétravaille aujourd'hui | Abrégé : "WFH". On dit aussi "I'm working remotely."
+I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | Aujourd'hui, je travaille de chez moi | Abrégé : "WFH". On dit aussi "I'm working remotely."
 I'm off tomorrow. | /aɪm ˈɔːf təˈmɑːroʊ/ | Je ne travaille pas demain | Pour un jour de congé : "I'm taking a day off tomorrow."
 Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | Merci pour tout ton travail | Pour remercier le travail d'une personne ou d'une équipe
 `,
@@ -274,7 +274,7 @@ NVM | /ˌen viː ˈem/ | oublie ça (never mind) | Pour retirer une question
 FYI | /ˌef waɪ ˈaɪ/ | pour info (for your information) | Très courant dans les e-mails et les chats de travail : « pour que tu sois au courant »
 `,
 "Voyages (aéroport et hôtel)": `
-Here's my passport. | /ˈhɪrz maɪ ˈpæspɔːrt/ | Voici mon passeport | Quand tu le tends au comptoir ou à la douane. "passport" porte l'accent sur la première syllabe : /ˈpæspɔːrt/
+Here's my passport. | /ˈhɪrz maɪ ˈpæspɔːrt/ | Voici mon passeport | Quand tu le tends au comptoir ou à la douane. "passport" porte l'accent tonique sur la première syllabe : /ˈpæspɔːrt/
 I'm here for sightseeing. | /aɪm ˈhɪr fər ˈsaɪtsiːɪŋ/ | Je suis ici pour faire du tourisme | Réponse à "What's the purpose of your visit?" à l'immigration
 I'm staying for a week. | /aɪm ˈsteɪɪŋ fər ə ˈwiːk/ | Je reste une semaine | Réponse à "How long are you staying?". Attention : "stay" = rester ; "rest" = se reposer
 I'm staying at the Hilton. | /aɪm ˈsteɪɪŋ ət ðə ˈhɪltən/ | Je loge à l'hôtel Hilton | Réponse à "Where are you staying?". Avec un hôtel précis, on utilise "at"
@@ -290,7 +290,7 @@ The air conditioner isn't working. | /ði ˈer kənˈdɪʃənər ˈɪznt ˈwɜː
 Could I get some extra towels? | /kəd aɪ ˈget ˈsʌm ˈekstrə ˈtaʊəlz/ | Pourrais-je avoir des serviettes en plus ? | "extra" = en plus. Dans une demande, on garde "some"
 Can you hold my bags until 3? | /kən ju ˈhoʊld maɪ ˈbægz əntɪl ˈθriː/ | Pouvez-vous garder mes bagages jusqu'à 15 h ? | Pour laisser ses bagages après avoir libéré la chambre. "hold" = garder (en dépôt)
 My flight was delayed. | /maɪ ˈflaɪt wəz dɪˈleɪd/ | Mon vol a été retardé | S'il est annulé : "canceled". Faux ami : "delay" = retard, pas « délai ». La terminaison -ed se dit /d/ après une voyelle
-Where's gate 12? | /ˈwerz ˈgeɪt ˈtwelv/ | Où se trouve la porte d'embarquement 12 ? | En anglais, le numéro vient après le mot : "gate 12"
+Where's gate 12? | /ˈwerz ˈgeɪt ˈtwelv/ | Où se trouve la porte d'embarquement 12 ? | Les numéros se lisent comme des nombres : "gate twelve", "seat fourteen C". Sur les panneaux : "Departures" (départs) et "Gate" (porte)
 Do I need to take my laptop out? | /də aɪ ˈniːd tə ˈteɪk maɪ ˈlæptɑːp ˈaʊt/ | Dois-je sortir mon ordinateur portable ? | Au contrôle de sécurité. "laptop" = ordinateur portable
 `,
 "Santé et urgences": `
@@ -304,12 +304,12 @@ My stomach hurts. | /maɪ ˈstʌmək ˈhɜːrts/ | J'ai mal au ventre | On dit "
 I have a sore throat. | /aɪ ˈhæv ə ˈsɔːr ˈθroʊt/ | J'ai mal à la gorge | "sore" = douloureux. "throat" = la gorge (à l'intérieur) ; le cou, c'est "neck"
 I feel dizzy. | /aɪ ˈfiːl ˈdɪzi/ | J'ai la tête qui tourne | Avec des nausées : "I feel sick." ou "I feel nauseous." Le verbe est "feel", pas "have"
 I sprained my ankle. | /aɪ ˈspreɪnd maɪ ˈæŋkl/ | Je me suis foulé la cheville | On dit "my ankle", jamais "the ankle". Le poignet se dit "wrist"
-Is there a pharmacy near here? | /ɪz ðer ə ˈfɑːrməsi nɪr ˈhɪr/ | Y a-t-il une pharmacie près d'ici ? | Aux États-Unis, on dit aussi "drugstore". « Il y a » se dit "Is there" (singulier) ou "Are there" (pluriel). "pharmacy" porte l'accent sur la première syllabe
+Is there a pharmacy near here? | /ɪz ðer ə ˈfɑːrməsi nɪr ˈhɪr/ | Y a-t-il une pharmacie près d'ici ? | Aux États-Unis, on dit aussi "drugstore". « Il y a » se dit "Is there" (singulier) ou "Are there" (pluriel). "pharmacy" porte l'accent tonique sur la première syllabe
 Do I need a prescription? | /də aɪ ˈniːd ə prɪˈskrɪpʃn/ | Ai-je besoin d'une ordonnance ? | Les médicaments sans ordonnance se disent "over-the-counter". "prescription" = ordonnance
-I lost my wallet. | /aɪ ˈlɔːst maɪ ˈwɑːlɪt/ | J'ai perdu mon portefeuille | Objets trouvés : "lost and found". On dit "my wallet", pas "the wallet"
+I lost my wallet. | /aɪ ˈlɔːst maɪ ˈwɑːlɪt/ | J'ai perdu mon portefeuille | Objets trouvés : "lost and found"
 Someone stole my phone. | /ˈsʌmwʌn ˈstoʊl maɪ ˈfoʊn/ | On m'a volé mon portable | "stole" est le prétérit de "steal" (voler un objet) ; on "rob" une personne ou un lieu
-Where is the police station? | /ˈwer ɪz ðə pəˈliːs ˈsteɪʃn/ | Où est le commissariat ? | "police" porte l'accent sur la fin : /pəˈliːs/
-I need to contact my embassy. | /aɪ ˈniːd tə ˈkɑːntækt maɪ ˈembəsi/ | Je dois contacter mon ambassade | Indispensable si tu perds ton passeport. "embassy" porte l'accent sur la première syllabe
+Where is the police station? | /ˈwer ɪz ðə pəˈliːs ˈsteɪʃn/ | Où est le commissariat ? | "police" porte l'accent tonique sur la fin : /pəˈliːs/
+I need to contact my embassy. | /aɪ ˈniːd tə ˈkɑːntækt maɪ ˈembəsi/ | Je dois contacter mon ambassade | Indispensable si tu perds ton passeport. "embassy" porte l'accent tonique sur la première syllabe
 I have travel insurance. | /aɪ ˈhæv ˈtrævl ɪnˈʃʊrəns/ | J'ai une assurance voyage | Souscris-la avant de partir : les soins médicaux aux États-Unis coûtent très cher
 `,
 "Phrasal verbs": `
@@ -326,10 +326,10 @@ turn off | /ˈtɜːrn ˈɔːf/ | éteindre (un appareil, la lumière) | Avec un 
 turn down | /ˈtɜːrn ˈdaʊn/ | refuser / baisser (le volume) | "She turned down the offer." / "Turn it down!"
 put off | /ˈpʊt ˈɔːf/ | repousser / remettre à plus tard | Bien plus courant que le verbe latin "postpone" (reporter) : "Stop putting it off!"
 show up | /ˈʃoʊ ˈʌp/ | se présenter / apparaître | "He didn't show up to the party." (Il ne s'est pas pointé à la fête.)
-hang out | /ˈhæŋ ˈaʊt/ | traîner / sortir avec des amis | Pour passer du temps avec des amis, on n'emploie pas "play" (réservé aux enfants, aux jeux et aux sports)
+hang out | /ˈhæŋ ˈaʊt/ | traîner / sortir avec des amis | Passer du temps ensemble, sans programme précis : "We hung out at the park." Prétérit : "hung out"
 check out | /ˈtʃek ˈaʊt/ | jeter un œil / regarder | "Check out this video!" Signifie aussi libérer sa chambre d'hôtel
 work out | /ˈwɜːrk ˈaʊt/ | faire du sport / se passer bien | "I work out every day." / "It'll work out." (Ça va s'arranger.)
-come up with | /ˈkʌm ˈʌp wɪð/ | trouver (une idée) | Pour une idée, une excuse ou une solution : "She came up with a great idea." Le sujet est la personne qui trouve l'idée
+come up with | /ˈkʌm ˈʌp wɪð/ | trouver (une idée) | Pour une idée, une excuse ou une solution : "She came up with a great idea."
 get along with | /ˈget əˈlɔːŋ wɪð/ | s'entendre avec | "I get along with my coworkers."
 calm down | /ˈkɑːm ˈdaʊn/ | se calmer | Le « l » de "calm" est muet : /ˈkɑːm/. Dire "Calm down!" à quelqu'un de fâché peut aggraver les choses
 set up | /ˈset ˈʌp/ | installer / organiser | "Can you help me set up my printer?"
@@ -364,7 +364,7 @@ choose | /ˈtʃuːz/ | choisir | Le "ch" anglais se dit souvent « tch » (/t�
 hair | /ˈher/ | cheveux | Le « h » est un vrai souffle, comme pour embuer une vitre : /ˈher/. Sans lui, tu dis "air". Singulier en anglais : "my hair is long"
 air | /ˈer/ | l'air (qu'on respire) | Pas de souffle au début : /ˈer/. Avec un « h » ajouté, tu dis "hair" (cheveux). Le « r » est anglais, pas celui de la gorge
 school | /ˈskuːl/ | école | Le "ch" se dit /k/ : /ˈskuːl/, avec un « ou » long. Ne le lis pas à la française
-worked | /ˈwɜːrkt/ | travaillé (prétérit de "work") | Une seule syllabe : /ˈwɜːrkt/. Le -ed se dit /t/ après un son sourd. Jamais « wor-kid »
+worked | /ˈwɜːrkt/ | travaillé (prétérit de "work") | Une seule syllabe : /ˈwɜːrkt/. Le -ed se dit /t/ après un son sourd. Jamais « wor-ked » en deux syllabes
 think | /ˈθɪŋk/ | penser | "th" /θ/ : langue entre les dents, en soufflant. Avec un « s », on dit "sink" ; avec un « t », "tink"
 sink | /ˈsɪŋk/ | évier / couler | « s » normal /s/ : /ˈsɪŋk/. Compare avec "think". Le « n » devant « k » est /ŋ/ : ne nasalise pas la voyelle comme en français
 three | /ˈθriː/ | trois | Langue entre les dents : /ˈθriː/. Avec un « t », on dit "tree" ; avec un « s », « sri »
@@ -379,10 +379,10 @@ work | /ˈwɜːrk/ | travailler | /ˈwɜːrk/ : voyelle centrale, lèvres non a
 beach | /ˈbiːtʃ/ | plage | Voyelle longue : /ˈbiːtʃ/. Raccourcie, elle donne un mot grossier. Le « ch » final est /tʃ/
 leave | /ˈliːv/ | partir / quitter | /iː/ long : /ˈliːv/. Compare avec "live" (habiter), qui est bref
 live | /ˈlɪv/ | habiter / vivre | /ɪ/ bref et relâché : /ˈlɪv/. Le français n'a qu'un « i » : ne l'allonge pas
-banana | /bəˈnænə/ | banane | L'accent est au milieu, /bəˈnænə/, pas « ba-na-NA ». Les deux autres voyelles se réduisent à un « e » très faible
-hotel | /hoʊˈtel/ | l'hôtel (hébergement) | Le « h » se prononce, et l'accent est à la fin : /hoʊˈtel/. En français, le « h » est muet
-milk | /ˈmɪlk/ | lait | N'ajoute pas de voyelle à la fin (« milke ») : le mot finit par « k » : /ˈmɪlk/
-McDonald's | /məkˈdɑːnldz/ | le McDonald's (restauration rapide) | L'accent est sur "Don" : /məkˈdɑːnldz/. Dis-le comme un mot anglais, pas comme « mac-do »
+banana | /bəˈnænə/ | banane | L'accent tonique est au milieu, /bəˈnænə/, pas « ba-na-NA ». Les deux autres voyelles se réduisent à un « e » très faible
+hotel | /hoʊˈtel/ | l'hôtel (hébergement) | Le « h » se prononce, et l'accent tonique est à la fin : /hoʊˈtel/. En français, le « h » est muet
+milk | /ˈmɪlk/ | lait | /ɪ/ bref et relâché : /ˈmɪlk/, pas le « i » tendu du français. Le « l » se prononce, langue en arrière
+McDonald's | /məkˈdɑːnldz/ | le McDonald's (restauration rapide) | L'accent tonique est sur "Don" : /məkˈdɑːnldz/. Dis-le comme un mot anglais, pas comme « mac-do »
 `,
 "Expressions idiomatiques": `
 It's a piece of cake. | /ɪts ə ˈpiːs əv ˈkeɪk/ | C'est du gâteau | Pour quelque chose de très facile : "The test was a piece of cake." Même image qu'en français
@@ -391,7 +391,7 @@ It costs an arm and a leg. | /ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/ | Ça c
 Let's call it a day. | /ˈlets ˈkɔːl ɪt ə ˈdeɪ/ | On s'arrête là pour aujourd'hui | Pour terminer le travail ou les révisions. Naturel en réunion
 I'm feeling under the weather. | /aɪm ˈfiːlɪŋ ʌndər ðə ˈweðər/ | Je ne suis pas dans mon assiette | Pour un petit malaise, comme un rhume. Cela n'a rien à voir avec la météo
 I need to hit the books. | /aɪ ˈniːd tə ˈhɪt ðə ˈbʊks/ | Il faut que je me mette à bûcher | Avant un examen : réviser à fond
-Once in a blue moon | /ˈwʌns ɪn ə ˈbluː ˈmuːn/ | Tous les trente-six du mois | Très rarement. Équivalent de « tous les 36 du mois »
+Once in a blue moon | /ˈwʌns ɪn ə ˈbluː ˈmuːn/ | Tous les trente-six du mois | Très rarement. Une "blue moon" est une deuxième pleine lune dans le même mois, un phénomène rare
 Better late than never. | /ˈbetər ˈleɪt ðən ˈnevər/ | Mieux vaut tard que jamais | Comme en français
 Don't beat around the bush. | /ˈdoʊnt ˈbiːt əraʊnd ðə ˈbʊʃ/ | Ne tourne pas autour du pot | Pour demander à quelqu'un d'aller droit au but. Même image qu'en français, avec un buisson à la place du pot
 It's not my cup of tea. | /ɪts ˈnɑːt maɪ ˈkʌp əv ˈtiː/ | Ce n'est pas mon truc | Façon douce de dire qu'une chose ne te plaît pas. Le français emprunte parfois l'image : « pas ma tasse de thé »
@@ -410,7 +410,7 @@ Spill the tea. | /ˈspɪl ðə ˈtiː/ | Balance les potins | "tea" = ragots. Ar
 No cap. | /ˈnoʊ ˈkæp/ | Sans mentir | Argot des jeunes : "cap" = mensonge
 That song slaps. | /ˈðæt ˈsɔːŋ ˈslæps/ | Ce morceau déchire | "slap" = être excellent (musique ou nourriture)
 I'm dead. | /aɪm ˈded/ | Je meurs de rire | Dans les messages, avec l'émoji tête de mort. Cela ne veut pas dire être mort
-Low-key | /ˌloʊˈkiː/ | Un peu / en cachette | "I low-key love this song." Contraire : "high-key" (ouvertement)
+Low-key | /ˌloʊˈkiː/ | Un peu / discrètement | "I low-key love this song." Contraire : "high-key" (ouvertement)
 I'm obsessed with this song. | /aɪm əbˈsest wɪð ˈðɪs ˈsɔːŋ/ | Je suis obsédé / obsédée par ce morceau | "obsessed" se dit en positif : ça te plaît énormément. On dit "with", jamais "by"
 What's it about? | /ˈwʌts ɪt əˈbaʊt/ | De quoi ça parle ? | Pour demander l'intrigue. "about" reste à la fin de la phrase
 No spoilers! | /ˈnoʊ ˈspɔɪlərz/ | Pas de spoilers ! | On dit aussi "Don't spoil it!"
@@ -424,11 +424,11 @@ Who's your favorite character? | /ˈhuːz jʊr ˈfeɪvərɪt ˈkærɪktər/ | Qu
 Are you kidding me? | /ər ju ˈkɪdɪŋ mi/ | Tu te moques de moi ? | Phrase typique des séries : surprise ou colère
 I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Je te soutiens | Veut dire que tu vas soutenir et défendre l'autre personne
 Gotcha. | /ˈgɑːtʃə/ | Compris / Je t'ai eu ! | Vient de "got you". Le plus courant : dire qu'on a compris
-Let's do this! | /ˈlets ˈduː ˈðɪs/ | Allons-y à fond ! | Pour se donner du courage avant de commencer quelque chose
+Let's do this! | /ˈlets ˈduː ˈðɪs/ | C'est parti ! | Pour se donner du courage avant de commencer quelque chose
 `,
 "Mots essentiels": `
 Did you get my message? | /dɪd ju ˈget maɪ ˈmesɪdʒ/ | As-tu reçu mon message ? | "get" = recevoir. C'est l'un des verbes les plus employés de l'anglais parlé : recevoir, obtenir, arriver, devenir… Après "did", on garde la base verbale : "get"
-I don't get it. | /aɪ ˈdoʊnt ˈget ɪt/ | Je n'y comprends rien | "get" veut aussi dire « comprendre » à l'oral. Plus familier que "I don't understand"
+I don't get it. | /aɪ ˈdoʊnt ˈget ɪt/ | Je ne pige pas | "get" veut aussi dire « comprendre » à l'oral. Plus familier que "I don't understand"
 I'm getting tired. | /aɪm ˈgetɪŋ ˈtaɪərd/ | Je commence à être fatigué / fatiguée | "get" + adjectif = devenir : "get tired", "get angry", "get better"
 What time do you get home? | /ˈwʌt ˈtaɪm də ju ˈget ˈhoʊm/ | À quelle heure rentres-tu à la maison ? | "get" + lieu = arriver. On dit "get home", sans "to" ; mais "get to work", "get to the station"
 It takes 20 minutes. | /ɪt ˈteɪks ˈtwenti ˈmɪnɪts/ | Ça prend 20 minutes | Bonne nouvelle : le verbe français « prendre » correspond à "take". Le sujet "it" est obligatoire, et "takes" prend un -s : troisième personne
@@ -439,14 +439,14 @@ Can I keep this? | /kən aɪ ˈkiːp ˈðɪs/ | Je peux le garder ? | "keep" = 
 That's enough. | /ˈðæts ɪˈnʌf/ | Ça suffit | Attention : "enough" se prononce /ɪˈnʌf/ : le "gh" final se dit /f/
 I don't have enough time. | /aɪ ˈdoʊnt ˈhæv ɪˈnʌf ˈtaɪm/ | Je n'ai pas assez de temps | Avec un nom, "enough" se place devant : "enough time", "enough money"
 It's not big enough. | /ɪts ˈnɑːt ˈbɪg ɪˈnʌf/ | Ce n'est pas assez grand | Avec un adjectif, "enough" se place derrière : "big enough", jamais "enough big" (le français met « assez » devant)
-I like it, though. | /aɪ ˈlaɪk ɪt ˈðoʊ/ | Il me plaît quand même | "though" en fin de phrase = « quand même, pourtant ». Le "gh" est muet : /ˈðoʊ/
+I like it, though. | /aɪ ˈlaɪk ɪt ˈðoʊ/ | Ça me plaît quand même | "though" en fin de phrase = « quand même, pourtant ». Le "gh" est muet : /ˈðoʊ/
 Even though it was late, we stayed. | /ˈiːvn ˈðoʊ ɪt wəz ˈleɪt wi ˈsteɪd/ | Même s'il était tard, nous sommes restés | "even though" = bien que, même si (un fait réel). Plus emphatique que "although"
 I've already eaten. | /aɪv ɔːlˈredi ˈiːtn/ | J'ai déjà mangé | "already" = déjà. Il se place entre "have" et le participe passé. Ici, le present perfect convient : le résultat compte maintenant (je n'ai plus faim)
 Are you still here? | /ər ju ˈstɪl ˈhɪr/ | Tu es toujours là ? | "still" = toujours, encore (quelque chose continue). Il se place après "be" et avant les autres verbes : "I still live here"
 Not yet. | /ˈnɑːt ˈjet/ | Pas encore | "yet" se met à la fin. Dans une phrase négative, il signifie « encore » : "I haven't finished yet."
 Have you finished yet? | /həv ju ˈfɪnɪʃt ˈjet/ | As-tu déjà fini ? | Dans une question, "yet" = déjà, et il se place à la fin. Aux États-Unis, on entend aussi "Did you finish yet?"
-I'd love to. | /aɪd ˈlʌv tuː/ | J'adorerais | "'d" = "would", le conditionnel : « ça me plairait ». Réponse typique à une invitation
-Would you like some tea? | /wəd ju ˈlaɪk ˈsʌm ˈtiː/ | Voulez-vous du thé ? | "Would you like…?" propose quelque chose poliment. Attention : "Do you like…?" demande si on aime. Dans une offre, on garde "some"
+I'd love to. | /aɪd ˈlʌv tuː/ | Avec plaisir ! | "'d" = "would", le conditionnel : « ça me plairait ». Réponse typique à une invitation
+Would you like some tea? | /wəd ju ˈlaɪk ˈsʌm ˈtiː/ | Tu veux du thé ? | "Would you like…?" propose quelque chose poliment. Attention : "Do you like…?" demande si on aime. Dans une offre, on garde "some"
 Let me help you. | /ˈlet mi ˈhelp ju/ | Laisse-moi t'aider | "let" + personne + base verbale, sans "to" : "Let me see", "Let me know"
 Can you bring me the menu? | /kən ju ˈbrɪŋ mi ðə ˈmenjuː/ | Peux-tu m'apporter la carte ? | "bring" = apporter (vers ici) ; "take" = emporter (vers là-bas). Prétérit : "brought"
 I almost forgot. | /aɪ ˈɔːlmoʊst fərˈgɑːt/ | J'ai failli oublier | "almost" = presque ; il se place avant le verbe : "I almost missed the bus." (J'ai failli rater le bus.)
@@ -517,19 +517,19 @@ What nice weather! | /ˈwʌt ˈnaɪs ˈweðər/ | Quel beau temps ! | Sans "a"�
 I have a lot of work today. | /aɪ ˈhæv ə ˈlɑːt əv ˈwɜːrk təˈdeɪ/ | J'ai beaucoup de travail aujourd'hui | "work" (le travail qu'on fait) est indénombrable. Un emploi, c'est "a job" : "I have a new job."
 `,
 "Mots transparents et accent": `
-information | /ˌɪnfərˈmeɪʃn/ | l'information (une info) | -tion = -tion. Piège : l'accent est sur "MA" (/ˌɪnfərˈmeɪʃn/), pas sur la fin, et "-tion" se dit /ʃn/, jamais « sion » ni « tion » à la française
-conversation | /ˌkɑːnvərˈseɪʃn/ | la conversation (une discussion) | -tion = -tion. L'accent est sur l'avant-dernière syllabe, /ˌkɑːnvərˈseɪʃn/, pas sur la fin
-university | /ˌjuːnɪˈvɜːrsəti/ | l'université | -ty = -té. L'accent est sur "VER" : /ˌjuːnɪˈvɜːrsəti/. Le mot commence par le son /j/ : "a university", jamais "an university"
-opportunity | /ˌɑːpərˈtuːnəti/ | l'opportunité (une occasion) | -ty = -té. L'accent est sur "TU" : /ˌɑːpərˈtuːnəti/, au milieu du mot, pas à la fin
-famous | /ˈfeɪməs/ | célèbre | -ous = -eux. L'accent est au début : /ˈfeɪməs/, avec "-ous" = /əs/.
-delicious | /dɪˈlɪʃəs/ | délicieux / délicieuse | -ous = -eux. L'accent est sur "LI" : /dɪˈlɪʃəs/, pas sur « ci ». Et "-cious" se dit /ʃəs/
-probably | /ˈprɑːbəbli/ | probablement | -ly = -ment. L'accent est au début : /ˈprɑːbəbli/, en trois syllabes, pas « pro-ba-ble-ment »
-exactly | /ɪgˈzæktli/ | exactement | -ly = -ment. Le "x" se dit /gz/ et l'accent est sur la deuxième syllabe : /ɪgˈzæktli/
-different | /ˈdɪfrənt/ | différent / différente | -ent = -ent. L'accent est au début, en deux ou trois syllabes : /ˈdɪfrənt/, jamais « di-fé-rent ». On dit "different from", pas "different of"
-excellent | /ˈeksələnt/ | excellent / excellente | -ent = -ent. L'accent est au début, sur "EK" : /ˈeksələnt/, jamais sur la fin
-photograph | /ˈfoʊtəgræf/ | la photographie (une photo) | ph = ph. L'accent est sur la première syllabe : /ˈfoʊtəgræf/. Le photographe, lui, est "photographer" /fəˈtɑːgrəfər/ : l'accent change de place
-pharmacy | /ˈfɑːrməsi/ | la pharmacie | ph = ph. L'accent est au début : /ˈfɑːrməsi/, jamais sur « ma ». Aux États-Unis, on dit aussi "drugstore"
-chemistry | /ˈkemɪstri/ | la chimie | Contrairement à « chimie » (/ʃ/), le "ch" anglais se dit /k/ ici : /ˈkemɪstri/. L'accent est au début
-comfortable | /ˈkʌmftərbl/ | confortable | Attention : l'anglais écrit un « m » ("comfortable"), alors que le français écrit un « n ». L'accent est au début : /ˈkʌmftərbl/, jamais « com-for-TA-ble »
+information | /ˌɪnfərˈmeɪʃn/ | l'information (une info) | -tion = -tion. Piège : l'accent tonique est sur "ma" (/ˌɪnfərˈmeɪʃn/), pas sur la fin, et "-tion" se dit /ʃn/, jamais « sion » ni « tion » à la française
+conversation | /ˌkɑːnvərˈseɪʃn/ | la conversation (une discussion) | -tion = -tion. L'accent tonique est sur l'avant-dernière syllabe, /ˌkɑːnvərˈseɪʃn/, pas sur la fin
+university | /ˌjuːnɪˈvɜːrsəti/ | l'université | -ty = -té. L'accent tonique est sur "ver" : /ˌjuːnɪˈvɜːrsəti/. Le mot commence par le son /j/ : "a university", jamais "an university"
+opportunity | /ˌɑːpərˈtuːnəti/ | l'opportunité (une occasion) | -ty = -té. L'accent tonique est sur "tu" : /ˌɑːpərˈtuːnəti/, au milieu du mot, pas à la fin
+famous | /ˈfeɪməs/ | célèbre | -ous = -eux. L'accent tonique est au début : /ˈfeɪməs/, avec "-ous" = /əs/
+delicious | /dɪˈlɪʃəs/ | délicieux / délicieuse | -ous = -eux. L'accent tonique est sur "li" : /dɪˈlɪʃəs/, pas sur la fin comme dans « délicieux ». Et "-cious" se dit /ʃəs/
+probably | /ˈprɑːbəbli/ | probablement | -ly = -ment. L'accent tonique est au début : /ˈprɑːbəbli/, en trois syllabes, pas « pro-ba-ble-ment »
+exactly | /ɪgˈzæktli/ | exactement | -ly = -ment. Le "x" se dit /gz/ et l'accent tonique est sur la deuxième syllabe : /ɪgˈzæktli/
+different | /ˈdɪfrənt/ | différent / différente | -ent = -ent. L'accent tonique est au début, en deux ou trois syllabes : /ˈdɪfrənt/, jamais « di-fé-rent ». On dit "different from", pas "different of"
+excellent | /ˈeksələnt/ | excellent / excellente | -ent = -ent. L'accent tonique est au début, sur "ex" : /ˈeksələnt/, jamais sur la fin
+photograph | /ˈfoʊtəgræf/ | la photographie (une photo) | ph = ph. L'accent tonique est sur la première syllabe : /ˈfoʊtəgræf/. Le photographe, lui, est "photographer" /fəˈtɑːgrəfər/ : l'accent change de place
+pharmacy | /ˈfɑːrməsi/ | la pharmacie | ph = ph. L'accent tonique est au début : /ˈfɑːrməsi/, pas sur la fin comme dans « pharmacie ». Aux États-Unis, on dit aussi "drugstore"
+chemistry | /ˈkemɪstri/ | la chimie | Contrairement à « chimie » (/ʃ/), le "ch" anglais se dit /k/ ici : /ˈkemɪstri/. L'accent tonique est au début
+comfortable | /ˈkʌmftərbl/ | confortable | Attention : l'anglais écrit un « m » ("comfortable"), alors que le français écrit un « n ». L'accent tonique est au début : /ˈkʌmftərbl/, jamais « com-for-TA-ble »
 `
 };

@@ -256,7 +256,7 @@ if(koSkip){ ['fxNativeList','fxLL','fxNoi18n','fxNoKorean','fxFullWidth','fxUnkn
 else {
 { // pre-native screens use ONE language taken from the browser: English, Korean, or a live interface language (Japanese here); never two at once
   const out={};
-  for(const loc of ['en-US','ko-KR','ja-JP','fr-FR']){ const {ctx,p}=await newCtx(null,loc);
+  for(const loc of ['en-US','ko-KR','ja-JP','sv-SE']){ const {ctx,p}=await newCtx(null,loc);
     out[loc]=await p.evaluate(async(loc)=>{ const H=s=>/[가-힣ㄱ-ㅣ]/.test(s), J=s=>/[぀-ヿ]/.test(s); const L=loc.slice(0,2); const hasJa=!!(LANGAPP_PACKS.i18n.ja&&COURSES['ja-en']);
       const want=L==='ko'?'ko':(L==='ja'&&hasJa)?'ja':'en'; const old=document.getElementById('welcome'); if(old) old.remove(); const lh=document.getElementById('langHome'); if(lh) lh.remove(); const sv=META.picked; META.picked=0;
       showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText; w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); const t2=w.innerText+' '+w.querySelector('#wNickIn').placeholder;

@@ -60,7 +60,7 @@ practice:[
 { id:"perfect", title:"Present perfect : les expériences", blurb:"have + participe passé pour ce que tu as déjà fait dans ta vie. Si tu dis quand, c'est le prétérit.", deck:"Voyages (aéroport et hôtel)", body:`
 <p>Le <i>present perfect</i> (<b>have/has + participe passé</b>) parle d'expériences : ce que tu as <b>déjà</b> fait (ou <b>jamais</b> fait) dans ta vie, sans dire quand.</p>
 <p>Ne le confonds pas avec le passé composé. « J'ai visité » peut se traduire de deux façons : <i>I've visited</i> (une expérience, sans date) ou <i>I visited</i> (un moment précis et terminé). Le bon réflexe : « déjà » ou « jamais » sans date → <i>present perfect</i> ; une date ou un moment terminé → prétérit.</p>
-{{ex:I've been to New York.|/aɪv bɪn tə ˈnuː ˈjɔːrk/|J'ai déjà visité New York}}{{ex:She has visited Canada twice.|/ʃi həz ˈvɪzɪtɪd ˈkænədə ˈtwaɪs/|Elle est allée deux fois au Canada}}
+{{ex:I've been to New York.|/aɪv bɪn tə ˌnuː ˈjɔːrk/|J'ai déjà visité New York}}{{ex:She has visited Canada twice.|/ʃi həz ˈvɪzɪtɪd ˈkænədə ˈtwaɪs/|Elle est allée deux fois au Canada}}
 <p>Avec <i>he, she, it</i>, l'auxiliaire est <b>has</b> (troisième personne) ; avec les autres, <b>have</b>.</p>
 <h3>ever et never</h3>
 {{ex:Have you ever eaten sushi?|/həv ju ˈevər ˈiːtn ˈsuːʃi/|Tu as déjà mangé des sushis ?}}{{ex:I've never seen it.|/aɪv ˈnevər ˈsiːn ɪt/|Je ne l'ai jamais vu}}
@@ -69,7 +69,7 @@ practice:[
 <div class="tbl"><table><tr><th>Base verbale</th><th>Prétérit</th><th>Participe passé</th></tr><tr><td class="k">be</td><td class="k">was</td><td class="k">been</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">eaten</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">seen</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">done</td></tr><tr><td class="k">try</td><td class="k">tried</td><td class="k">tried</td></tr></table></div>
 <h3>Si tu dis quand, c'est le prétérit</h3>
 <p>Avec <i>yesterday, last year, in 2020</i> ou <i>ago</i> (un moment terminé), on utilise le prétérit, même si le français dit « je suis allé » ou « je l'ai vu ».</p>
-{{ex:I went to New York last year.|/aɪ ˈwent tə ˈnuː ˈjɔːrk ˈlæst ˈjɪr/|J'ai visité New York l'année dernière}}
+{{ex:I went to New York last year.|/aɪ ˈwent tə ˌnuː ˈjɔːrk ˈlæst ˈjɪr/|J'ai visité New York l'année dernière}}
 <div class="tip">L'erreur typique des francophones : <b>I've been to New York last year.</b> ✗ → <b>I went to New York last year.</b> ✓. De même, <b>I have seen him yesterday</b> ✗ → <b>I saw him yesterday</b> ✓. En anglais américain, on entend aussi <i>Did you ever go to New York?</i>, et c'est correct.</div>`,
 check:[["« Tu as déjà visité le Japon ? » en anglais :",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Pour une expérience : \"Have you ever\" + participe passé, et \"been to\" + lieu."],["I ___ never seen that movie. Que mettre dans le trou ?",["am","did","have","was"],2,"C'est \"have\" + \"never\" + participe passé."],["Quelle phrase est correcte ?",["I went to Lima last year.","I've been to Lima last year.","I have go to Lima last year.","I've went to Lima."],0,"Avec \"last year\" (un moment terminé), c'est le prétérit."]],
 practice:[

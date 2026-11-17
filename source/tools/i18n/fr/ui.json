@@ -223,7 +223,7 @@
    "where": "js (top level)"
   },
   "native": {
-   "t": "native",
+   "t": "naturelle",
    "ko": "원어민 속도",
    "kind": "label",
    "context": "audio speed option: native-speaker speed",
@@ -770,7 +770,7 @@
    "where": "html <span> text"
   },
   "Text size": {
-   "t": "Taille du texte",
+   "t": "Texte",
    "ko": "글자 크기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1045,7 +1045,7 @@
    "where": "html <button> text"
   },
   "What's on your mind?": {
-   "t": "Qu'as-tu en tête ?",
+   "t": "À quoi penses-tu ?",
    "ko": "어떤 생각이 드세요?",
    "kind": "sentence",
    "where": "html <textarea> @placeholder"
@@ -2404,14 +2404,14 @@
    "where": "js o() <div>"
   },
   "Make it polite (요-form)": {
-   "t": "Rends-le poli",
+   "t": "Rends la phrase plus polie",
    "ko": "존댓말로 바꾸세요 (요-형)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js opts() <div>"
   },
   "Make it casual (반말)": {
-   "t": "Rends-le familier",
+   "t": "Rends la phrase plus familière",
    "ko": "반말로 바꾸세요",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -2952,7 +2952,7 @@
    "where": "js names2()"
   },
   "Perfect on": {
-   "t": "Sans faute en",
+   "t": "Sans faute :",
    "ko": "완벽했어요:",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2965,7 +2965,7 @@
    "where": "js names2()"
   },
   "Steady. Missed cards come back as reviews.": {
-   "t": "Régulier. Les cartes ratées reviennent dans les révisions.",
+   "t": "Bon rythme. Les cartes ratées reviennent dans les révisions.",
    "ko": "꾸준해요. 틀린 카드는 복습으로 다시 나와요.",
    "kind": "sentence",
    "where": "js names2()"
@@ -3154,19 +3154,19 @@
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "Voyage à l'étranger",
+   "t": "Préparer un voyage",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Make friends & date": {
-   "t": "Amis et rencontres",
+   "t": "Se faire des amis en anglais",
    "ko": "친구 사귀기 & 데이트",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Conversational in 90 days": {
-   "t": "Discuter en 90 jours",
+   "t": "Conversation en 90 jours",
    "ko": "90일 만에 회화하기",
    "kind": "label",
    "where": "js ids()"
@@ -3258,7 +3258,7 @@
    "where": "js GOALS()"
   },
   "K-dramas & music": {
-   "t": "Séries et musique",
+   "t": "Séries et films",
    "ko": "드라마 & 음악",
    "kind": "label",
    "where": "js GOALS()"
@@ -4193,7 +4193,7 @@
    "where": "js x()"
   },
   "good afternoon": {
-   "t": "bon après-midi",
+   "t": "bonjour",
    "ko": "좋은 오후예요",
    "kind": "label",
    "where": "js x()"
@@ -5131,7 +5131,7 @@
    ]
   },
   "Good afternoon": {
-   "t": "Bon après-midi",
+   "t": "Bonjour",
    "ko": null,
    "kind": "label",
    "context": "i18nGet (optional gloss) — Today greeting gloss",
@@ -5772,7 +5772,7 @@
    "example": "Hello there · 5/2 · pass 3/3 · read"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · read": {
-   "t": "Quiz · {1}/{2} · 5 nouvelles + {3} apprises · lire",
+   "t": "Quiz · {1}/{2} · 5 nouvelles + apprises : {3} · lire",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · read",
@@ -5827,7 +5827,7 @@
    "example": "Hello there · 5/2 · pass 3/3 · recall"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · recall": {
-   "t": "Quiz · {1}/{2} · 5 nouvelles + {3} apprises · retrouver",
+   "t": "Quiz · {1}/{2} · 5 nouvelles + apprises : {3} · retrouver",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · recall",
@@ -5882,7 +5882,7 @@
    "example": "Hello there · 5/2 · pass 3/3 · listen"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · listen": {
-   "t": "Quiz · {1}/{2} · 5 nouvelles + {3} apprises · écouter",
+   "t": "Quiz · {1}/{2} · 5 nouvelles + apprises : {3} · écouter",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · listen",
@@ -5937,7 +5937,7 @@
    "example": "Hello there · 5/2 · pass 3/3 · type"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · type": {
-   "t": "Quiz · {1}/{2} · 5 nouvelles + {3} apprises · écrire",
+   "t": "Quiz · {1}/{2} · 5 nouvelles + apprises : {3} · écrire",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · type",
@@ -5992,7 +5992,7 @@
    "example": "Hello there · 5/2 · pass 3/3 · mixed"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · mixed": {
-   "t": "Quiz · {1}/{2} · 5 nouvelles + {3} apprises · mixte",
+   "t": "Quiz · {1}/{2} · 5 nouvelles + apprises : {3} · mixte",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · mixed",
@@ -6567,7 +6567,7 @@
    "example": "Hello there · 6 = mastered"
   },
   "{n} predictions · when you said \"yes\" you were right {n}% of the time ({n}/{n}) · when \"not sure\", you still got {n}% ({n}/{n}) · {n} overconfident cards go first in Weak spots": {
-   "t": "Prédictions : {1} · quand tu disais « oui », tu avais raison dans {2} % des cas ({3}/{4}) · avec « je ne sais pas trop », tu as quand même réussi {5} % ({6}/{7}) · {8} cartes surestimées passent en premier dans Points faibles",
+   "t": "Prédictions : {1} · quand tu disais « oui », tu avais raison dans {2} % des cas ({3}/{4}) · avec « je ne sais pas trop », tu as quand même réussi {5} % ({6}/{7}) · cartes surestimées, placées en tête de Points faibles : {8}",
    "ko": "예측 {1}번 · \"네\"라고 했을 때 {2}% 맞혔어요 ({3}/{4}) · \"잘 모르겠어요\"라고 했을 때도 {5}% 맞혔어요 ({6}/{7}) · 과신한 카드 {8}장은 약점 공략에 먼저 나와요",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n, {6}=n, {7}=n, {8}=n",
    "example": "5 predictions · when you said \"yes\" you were right 2% of the time (3/4) · when \"not sure\", you still got 6% (7/8) · 9 overconfident cards go first in Weak spots",
@@ -6931,14 +6931,14 @@
    "context": "{0} = count (always ≥ 1; English uses the plural form even for 1) — Lessons list: planned roadmap heading (LL)"
   },
   "Best first try {n}% · last {n}% · 1 run": {
-   "t": "Meilleur premier essai : {1} % · dernier : {2} % · 1 pratique",
+   "t": "Meilleur premier essai : {1} % · dernier : {2} % · 1 tentative",
    "ko": null,
    "slots": "{1}=n, {2}=n",
    "example": "Best first try 80% · last 60% · 1 run",
    "context": "{0},{1} = percent 0–100 — Lesson practice entry, after a run (singular) (LL)"
   },
   "Best first try {n}% · last {n}% · {n} runs": {
-   "t": "Meilleur premier essai : {1} % · dernier : {2} % · pratiques : {3}",
+   "t": "Meilleur premier essai : {1} % · dernier : {2} % · tentatives : {3}",
    "ko": null,
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Best first try 80% · last 60% · 3 runs",

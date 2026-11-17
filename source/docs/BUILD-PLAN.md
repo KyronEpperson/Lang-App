@@ -9,7 +9,7 @@ Status on 2026-11-17: live courses are en-ko, ko-en, ja-en, es-en, zh-en, vi-en,
 | Plan, tooling, merge, tests, final read and ship decision | Fable (lead) | Owns the English side, the deviations and the release |
 | Research profile | Opus | Judgment-heavy; sets the rules every writer follows |
 | Lessons: core (B), A1 (C), A2 + B1 (D) | Opus ×3 | Teaching accuracy is where reviewers found real errors |
-| Decks, dialogues, metadata (A) | Sonnet | Short phrases to a fixed pattern, checked by validators |
+| Decks, dialogues, metadata (A) | Opus from German on (Sonnet for pt, fr, it) | Two runs showed Sonnet's card notes and glosses need about five times more fixes per line than the Opus lesson files |
 | Interface strings + roadmap titles (I) | Sonnet | ~1,465 short strings with an automatic checker |
 | Mechanical checks | Scripts (`validate.js`, `parity.js`, `lint.js`, `pron_check.js`); Haiku only to triage what they flag | A script is cheaper and more reliable than an agent |
 | Cold review | Opus | Last independent read before the lead |

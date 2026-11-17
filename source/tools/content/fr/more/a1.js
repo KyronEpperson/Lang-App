@@ -84,11 +84,11 @@ practice:[
 <p>« Je mange » veut dire <i>I eat</i> (en général) ou <i>I'm eating</i> (en ce moment). Le présent simple sert aux habitudes et aux vérités générales ; pour ce qui se passe maintenant, tu verras <i>be</i> + -ing un peu plus loin. Et un avant-goût : l'adjectif se place avant le nom, « une grande maison » se dit <i>a big house</i>.</p>
 {{ex:I have a big house.|/aɪ ˈhæv ə ˈbɪg ˈhaʊs/|J'ai une grande maison}}
 <div class="tip">Erreurs fréquentes : <b>I not eat meat.</b> ✗ → <b>I don't eat meat.</b> ✓ · <b>I drink always tea.</b> ✗ → <b>I always drink tea.</b> ✓ · <b>We doesn't live here.</b> ✗ → <b>We don't live here.</b> ✓</div>`,
-check:[["Comment dit-on « Je travaille dans une banque » ?",["Work in a bank.","Am work in a bank.","I work in a bank.","I working in a bank."],2,"Sujet + verbe, sans \"am\" ni -ing : \"I work\"."],["I ___ eat meat. (je ne mange pas)",["not","am not","no","don't"],3,"Pour nier un verbe ordinaire, on utilise l'auxiliaire \"don't\"."],["Où se place \"always\" ?",["I always drink tea.","Always drink tea.","I drink always tea.","I drink tea the always."],0,"Les adverbes de fréquence se placent juste avant le verbe, pas après comme en français."]],
+check:[["Comment dit-on « Je travaille dans une banque » ?",["Work in a bank.","Am work in a bank.","I work in a bank.","I working in a bank."],2,"Sujet + verbe, sans \"am\" ni -ing : \"I work\"."],["I ___ eat meat. (je ne mange pas)",["not","am not","no","don't"],3,"Pour nier un verbe lexical, on utilise l'auxiliaire \"don't\"."],["Où se place \"always\" ?",["I always drink tea.","Always drink tea.","I drink always tea.","I drink tea the always."],0,"Les adverbes de fréquence se placent juste avant le verbe, pas après comme en français."]],
 practice:[
 ["mc","Comment dit-on « J'étudie l'anglais » ?","I study English.","Study English.","I am study English.","I studying English.","Présent simple : \"I study\", sans \"am\" ni -ing."],
 ["mc","Comment dit-on « Je ne mange pas de viande » ?","I don't eat meat.","I no eat meat.","I'm not eat meat.","I eat not meat.","La négation se fait avec l'auxiliaire \"don't\" devant le verbe : ni \"no\" ni \"not\" tout seul."],
-["mc","Comment dit-on « Nous habitons à Bogotá » ?","We live in Bogotá.","Live in Bogotá.","We are live in Bogotá.","We living in Bogotá.","\"We live\" : pas de \"are\" devant un verbe ordinaire."],
+["mc","Comment dit-on « Nous habitons à Bogotá » ?","We live in Bogotá.","Live in Bogotá.","We are live in Bogotá.","We living in Bogotá.","\"We live\" : pas de \"are\" devant un verbe lexical."],
 ["mc","Comment dit-on « D'habitude, je me lève à sept heures » ?","I usually get up at seven.","Usually I get up seven.","I get up usually at seven.","I am usually get up at seven.","\"Usually\" se place juste avant le verbe."],
 ["mc","Quelle phrase traduit « Je bois toujours du thé » ?","I always drink tea.","I drink always tea.","Always drink tea.","I am always drink tea.","\"Always\" se place avant le verbe, pas après comme en français."],
 ["or","Je travaille le week-end","I work on weekends","works","Avec \"I\", le verbe ne prend pas de -s : le -s est réservé à la troisième personne."],
@@ -102,7 +102,7 @@ practice:[
 ["ty","Nous n'habitons pas ici","We don't live here","we · don't · live — avec l'auxiliaire","no","Pour nier, on met l'auxiliaire \"don't\" devant le verbe."]]},
 
 { id:"questions", title:"Questions : do et l'ordre des mots", blurb:"En français, l'intonation ou « est-ce que » suffisent. En anglais, il faut do, et le mot interrogatif vient en premier.", deck:"Survie 2", body:`
-<p>En français, une question peut garder l'ordre d'une affirmation, avec une autre intonation : « Tu aimes le café ? ». On peut aussi ajouter « est-ce que » ou inverser : « Aimes-tu le café ? ». En anglais, l'intonation ne suffit pas, et on n'inverse jamais un verbe ordinaire : il faut <b>inverser l'auxiliaire</b> ou ajouter <b>do</b>.</p>
+<p>En français, une question peut garder l'ordre d'une affirmation, avec une autre intonation : « Tu aimes le café ? ». On peut aussi ajouter « est-ce que » ou inverser : « Aimes-tu le café ? ». En anglais, l'intonation ne suffit pas, et on n'inverse jamais un verbe lexical : il faut <b>inverser l'auxiliaire</b> ou ajouter <b>do</b>.</p>
 <h3>Avec be : on inverse</h3>
 {{ex:Are you okay?|/ər ju oʊˈkeɪ/|Ça va ?}}{{ex:Is this your bag?|/ɪz ˈðɪs jʊr ˈbæg/|C'est ton sac ?}}
 <h3>Avec les autres verbes : Do au début</h3>
@@ -118,7 +118,7 @@ practice:[
 <div class="tip">Erreurs fréquentes : <b>You like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓ · <b>Speak you English?</b> ✗ → <b>Do you speak English?</b> ✓ · <b>Where you live?</b> ✗ → <b>Where do you live?</b> ✓</div>`,
 check:[["Comment dit-on « Tu aimes le café ? » ?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"Avec un verbe comme \"like\", la question commence par l'auxiliaire \"Do\"."],["Comment dit-on « Où est-ce que tu habites ? » ?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"Mot interrogatif + \"do\" + sujet + verbe."],["Do you speak English? Quelle est la bonne réponse ?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Si on te pose la question avec \"do\", tu réponds avec \"do\"."]],
 practice:[
-["mc","Comment dit-on « Tu parles anglais ? » ?","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","\"Speak you English?\" calque « Parles-tu anglais ? » : avec un verbe ordinaire, la question a besoin de l'auxiliaire \"Do\"."],
+["mc","Comment dit-on « Tu parles anglais ? » ?","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","\"Speak you English?\" calque « Parles-tu anglais ? » : avec un verbe lexical, la question a besoin de l'auxiliaire \"Do\"."],
 ["mc","Comment dit-on « Où est-ce que tu habites ? » ?","Where do you live?","Where you live?","Where are you live?","Where live you?","Mot interrogatif + auxiliaire \"do\" + sujet + verbe."],
 ["mc","Comment dit-on « Combien ça coûte ? » ?","How much is this?","How much this is?","How much does this?","What much is this?","Le prix se demande avec \"How much is…?\"."],
 ["mc","Do you like tea? Quelle est la bonne réponse ?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Question avec \"do\", réponse avec \"do\" : \"Yes, I do\"."],
@@ -210,7 +210,7 @@ practice:[
 <p>L'âge, la faim, le froid, la soif, la peur et « avoir raison » se disent avec <b>be</b>.</p>
 {{ex:I'm 20 years old.|/aɪm ˈtwenti ˈjɪrz ˈoʊld/|J'ai 20 ans}}{{ex:I'm hungry.|/aɪm ˈhʌŋgri/|J'ai faim}}{{ex:Are you cold?|/ər ju ˈkoʊld/|Tu as froid ?}}{{ex:You're right.|/jʊr ˈraɪt/|Tu as raison}}
 <div class="tip">Erreurs fréquentes : <b>I have 20 years.</b> ✗ → <b>I'm 20.</b> ✓ · <b>I have hungry.</b> ✗ → <b>I'm hungry.</b> ✓ · <b>Ana loves his brother.</b> ✗ → <b>Ana loves her brother.</b> ✓ · <b>the car of my father</b> ✗ → <b>my father's car</b> ✓</div>`,
-check:[["I like ___. (lui)",["he","his","him","he's"],2,"Après le verbe, on met le pronom complément \"him\"."],["Comment dit-on « J'ai faim » ?",["I'm hungry.","I have hungry.","I have hunger.","I'm hunger."],0,"« Avoir faim » se dit avec \"be\" : \"I'm hungry\"."],["Comment dit-on « Tu as un stylo ? » ?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"\"Have\" est un verbe ordinaire : la question prend \"Do\"."]],
+check:[["I like ___. (lui)",["he","his","him","he's"],2,"Après le verbe, on met le pronom complément \"him\"."],["Comment dit-on « J'ai faim » ?",["I'm hungry.","I have hungry.","I have hunger.","I'm hunger."],0,"« Avoir faim » se dit avec \"be\" : \"I'm hungry\"."],["Comment dit-on « Tu as un stylo ? » ?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"\"Have\" est un verbe lexical : la question prend \"Do\"."]],
 practice:[
 ["mc","She knows ___. (moi) Que mettre dans le trou ?","me","I","my","mine","Après le verbe, on met le pronom complément \"me\"."],
 ["mc","Comment dit-on « J'ai 25 ans » ?","I'm 25.","I have 25 years.","I have 25.","I'm 25 years.","L'âge se dit avec \"be\", pas avec \"have\"."],
@@ -301,7 +301,7 @@ practice:[
 <h3>Négations et questions : did</h3>
 <p>Comme <i>do</i> au présent, le prétérit utilise l'auxiliaire <b>did</b>, et le verbe revient à sa base verbale : seul l'auxiliaire porte le passé. <i>Did you call?</i>, jamais <i>Did you called?</i> ; <i>I didn't understand</i>, jamais <i>I didn't understood</i>.</p>
 {{ex:I didn't work yesterday.|/aɪ ˈdɪdnt ˈwɜːrk ˈjestərdeɪ/|Je n'ai pas travaillé hier}}{{ex:Did you call me?|/dɪd ju ˈkɔːl mi/|Tu m'as appelé ?}}
-<div class="tip">Erreurs fréquentes : <b>I didn't worked.</b> ✗ → <b>I didn't work.</b> ✓ · <b>You called me?</b> ✗ → <b>Did you call me?</b> ✓ · <b>work-ed</b> en deux syllabes ✗ → <b>worked</b> en une syllabe ✓</div>`,
+<div class="tip">Erreurs fréquentes : <b>I didn't worked.</b> ✗ → <b>I didn't work.</b> ✓ · <b>You called me?</b> ✗ → <b>Did you call me?</b> ✓ · <b>wor-ked</b> en deux syllabes ✗ → <b>worked</b> en une syllabe ✓</div>`,
 check:[["They ___ at home yesterday. Que mettre dans le trou ?",["was","were","did","are"],1,"Avec \"they\", le prétérit de \"be\" est \"were\"."],["Comment dit-on « Je n'ai pas travaillé hier » ?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"Après \"didn't\", le verbe reste à la base verbale."],["Did you ___ the movie? Que mettre dans le trou ?",["watch","watched","watching","watches"],0,"Après \"Did\", le verbe reste à la base verbale."]],
 practice:[
 ["mc","I ___ tired yesterday. Que mettre dans le trou ?","was","were","did","am","Avec \"I\", le prétérit de \"be\" est \"was\"."],
@@ -314,7 +314,7 @@ practice:[
 ["or","Je n'ai pas travaillé hier","I didn't work yesterday","worked","Après l'auxiliaire \"didn't\", le verbe reste à la base verbale."],
 ["fi","We __ at home last night.","Hier soir, nous étions à la maison","were","was|did|are","Avec \"we\", le prétérit de \"be\" est \"were\"."],
 ["fi","I __ soccer yesterday.","Hier, j'ai joué au foot","played","play|playing|was play","Prétérit régulier : \"play\" + -ed."],
-["fi","__ you work yesterday?","Tu as travaillé hier ?","Did","Were|Do|Was","Question au prétérit avec un verbe ordinaire : \"Did\"."],
+["fi","__ you work yesterday?","Tu as travaillé hier ?","Did","Were|Do|Was","Question au prétérit avec un verbe lexical : \"Did\"."],
 ["ty","C'était amusant","It was fun","it · fun — au prétérit","were","« C'était » se dit avec le sujet \"it\" + \"was\", jamais \"were\"."],
 ["ty","Tu as travaillé hier ?","Did you work yesterday","did · work · yesterday — à la base verbale","worked","La question au prétérit prend l'auxiliaire \"Did\" ; le verbe reste à la base verbale."],
 ["ty","J'ai regardé un film","I watched a movie|I saw a movie","watched · movie — prétérit en -ed","watch","Prétérit régulier : \"watch\" + -ed, et ici le -ed se prononce comme un « t »."]]},
@@ -386,7 +386,7 @@ practice:[
 <h3>Superlatif : avec the</h3>
 {{ex:This is the best restaurant here.|/ˈðɪs ɪz ðə ˈbest ˈrestərɑːnt ˈhɪr/|C'est le meilleur restaurant du coin}}{{ex:Which is the cheapest?|/ˈwɪtʃ ɪz ðə ˈtʃiːpɪst/|Lequel est le moins cher ?}}
 <div class="tip">Erreurs fréquentes : <b>the cars reds</b> ✗ → <b>the red cars</b> ✓ · <b>more cheaper</b> ✗ → <b>cheaper</b> ✓ · <b>bigger that</b> ✗ → <b>bigger than</b> ✓</div>`,
-check:[["Quel est le comparatif de \"big\" ?",["more big","biger","bigger","most big"],2,"Mot court : -er, et on double la consonne finale."],["This is ___ expensive than that. Que mettre dans le trou ?",["more","most","much","very"],0,"Mot long : le comparatif se forme avec \"more\"."],["Quel est le superlatif de \"good\" ?",["the goodest","the most good","the better","the best"],3,"\"Good\" → \"better\" → \"the best\"."]],
+check:[["Quel est le comparatif de \"big\" ?",["more big","biger","bigger","most big"],2,"Mot court : -er. Dans \"big\" (consonne + voyelle + consonne), le g double : \"bigger\". Compare : \"cheap\" → \"cheaper\"."],["This is ___ expensive than that. Que mettre dans le trou ?",["more","most","much","very"],0,"Mot long : le comparatif se forme avec \"more\"."],["Quel est le superlatif de \"good\" ?",["the goodest","the most good","the better","the best"],3,"\"Good\" → \"better\" → \"the best\"."]],
 practice:[
 ["mc","Quel est le comparatif de \"cheap\" ?","cheaper","more cheap","more cheaper","most cheap","Mots courts : -er. Jamais \"more\" + -er."],
 ["mc","Comment dit-on « C'est plus cher » ?","This is more expensive.","This is expensiver.","This is most expensive.","This is more expensiver.","Mots longs : \"more\" + adjectif."],
@@ -496,6 +496,6 @@ practice:[
 ["fi","I bought it at the __.","Je l'ai acheté à la librairie","bookstore","library|bookcase|book","« Librairie » se dit \"bookstore\" ; \"library\", c'est la bibliothèque."],
 ["fi","I found a __ in my pocket.","J'ai trouvé une pièce dans ma poche","coin","corner|piece|room","Une pièce de monnaie, c'est \"a coin\" ; « un coin » se dit \"corner\", et \"piece\" veut dire « morceau »."],
 ["ty","Elle est déçue","She is disappointed|She's disappointed|She feels disappointed","she · disappointed — pas \"deceived\"","deceived","Avec \"she\", \"be\" devient \"is\" (troisième personne) ; « déçu » se dit \"disappointed\", et \"deceived\" veut dire « trompé »."],
-["ty","Il ne s'en est pas rendu compte (sans \"it\")","He didn't realize|He didn't notice","didn't · realize — à la base verbale","realized","Négation au prétérit avec l'auxiliaire \"didn't\" ; \"realize\" = se rendre compte."],
+["ty","Il ne s'en est pas rendu compte (sans \"it\")","He didn't realize|He did not realize|He didn't notice|He did not notice","didn't · realize — à la base verbale","realized","Négation au prétérit avec l'auxiliaire \"didn't\" ; \"realize\" = se rendre compte."],
 ["ty","Elle assiste au cours","She attends class|She attends classes|She attends her classes|She goes to class|She goes to classes","attend · class — avec she","assists","Avec \"she\", \"attends\" prend un -s (troisième personne) ; « assister à » se dit \"attend\", et « attendre », \"wait\"."]]},
 ];

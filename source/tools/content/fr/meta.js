@@ -31,7 +31,7 @@ exports.DESC = {
   "Nombres, heures et dates": "Heures, dates, prix et grands nombres à l'anglaise (horloge de 12 heures, point décimal)",
   "Conversation informelle": "Briser la glace et faire durer la conversation : météo, week-end, loisirs",
   "Émotions et réactions": "Féliciter, s'étonner, consoler et dire ce que tu ressens",
-  "Compliments et affection": "Faire des compliments, remercier et se rapprocher de quelqu'un avec qui tu veux plus de complicité",
+  "Compliments et affection": "Faire des compliments, remercier et exprimer ton affection",
   "Travail et e-mails": "Des phrases pour les e-mails professionnels, les réunions, les changements d'horaire, les entretiens et le TOEIC",
   "Téléphone et abréviations": "L'anglais au téléphone et les abréviations de chat comme LOL, BRB et TBH",
   "Voyages (aéroport et hôtel)": "Immigration, enregistrement, sièges, bagages et demandes à l'hôtel",

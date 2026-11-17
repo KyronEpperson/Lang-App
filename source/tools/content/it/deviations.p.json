@@ -1,0 +1,23 @@
+{
+  "lessons": {
+    "pron": "profile it.md §8 pron: Italian sound traps (h dropped and added, th as t/d, added final vowel, a sounds cat/cut, ch read as k, il fa caldo -> makes, a Roma -> at) replace the Spanish b/v, prothetic e, j/y items (checks 1-2, P1, P4, P5, P6 x, P7, P8, P10, P12 x)",
+    "false-friends": "profile it.md §8 false-friends: Spanish-only traps (embarrassed/embarazada, pregnant, carpet/carpeta, success/exit) replaced by Italian false friends (factory/fattoria, educated/educato, camera, farm); Madrid/Mexico localised to Milan/Italy (check 0, check 1, P1, P4, P5, P8, P10, P11)"
+  },
+  "items": {
+    "articles#check0": "technical: es-en option 3 «(nada)» is Spanish text not caught by es cueTest; Italian «(niente)» (profile it.md §8)",
+    "polite#check2": "technical: es-en options 0-1 are Spanish text not caught by es cueTest; Italian «forma base» (profile it.md §8)",
+    "numbers#check1": "technical: es-en options 2-3 are Spanish text not caught by es cueTest; Italian translation (profile it.md §8)",
+    "numbers#check2": "technical: es-en options 0 and 2 are Spanish text not caught by es cueTest; Italian «un miliardo», «cento milioni» (profile it.md §8)",
+    "phrasal#check1": "technical: es-en options 0, 1, 3 are Spanish text not caught by es cueTest; Italian translation (profile it.md §8)",
+    "idioms#check1": "technical: es-en options 0-2 are Spanish text not caught by es cueTest; Italian translation (profile it.md §8)"
+  },
+  "decks": {
+    "1": "profile it.md §9: I'm from Mexico. -> I'm from Italy.; I live in Lima. -> I live in Rome.",
+    "2": "profile it.md §9: Do you speak Spanish? -> Do you speak Italian?",
+    "11": "profile it.md §9: Your Spanish is really good! -> Your Italian is really good!",
+    "17": "profile it.md §9: Spanish traps yet/jet, very/berry, vote/boat replaced in place by hair/air, cat/cut, bad/bed (h, TRAP/STRUT, TRAP/DRESS)",
+    "21": "profile it.md §9: Falsi amici rebuilt; embarrassed, pregnant, career, exit, success, carpet, bother replaced in place by factory, educated, argument, magazine, camera, lecture, rumor"
+  },
+  "extraLessons": [],
+  "droppedLessons": []
+}
