@@ -849,3 +849,10 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Decision: from German on, decks and dialogues go back to Opus; the interface stays on Sonnet. Italian's decks were already being written on Sonnet and get the same strengthened review.
 - Lead sign-off: read REVIEW.md and the rebuilt `false-friends` lesson; fixed a settings row that overflowed by 8px («Taille du texte» → «Texte»); the first-screen guard now uses a Swedish browser as its "unsupported language" case, since French is supported.
 - Evidence: validate PASS, parity PASS, lint 0 blocking, e2e OK on all 41 lessons, sweep with no overflow and all tab labels fitting, harness 61 guards, site test PASS.
+
+## Italian speakers → English (2.17.0)
+- Built from the Spanish course. Profile `docs/profiles/it.md` (tu, IPA, verb-core with «d'accordo» excluded). 41 lessons (`pron`, `false-friends` rebuilt; first-conditional and perfect-2 explanations rewritten because the Spanish premise is false for Italian), 25 decks / 480 cards, interface 769 + 272 + 425.
+- Third and last run with Sonnet decks. Reviewer's edits per file: decks.js 60, extra.js 13, meta.js 3 · lessons.js 1, practice.js 2, a1 2, a2 0, b1 0 · ui.json 17 (all follow-through on a tab rename), roadmap.json 3. Decks/dialogues needed about 14 times more edits per line than the lesson files. From German on, decks are written by Opus.
+- Lead fixes: the «Feedback» tab did not fit (→ «Pareri», carried through 12 strings by the reviewer); the settings row with accent colour and text size now wraps instead of overflowing (it overflowed in fr, it and de).
+- Honest limit: the reviewer read all lesson bodies, checks, typed items and the false-friends set in full, but only scanned the ~330 multiple-choice/order/fill items of the three stage files and most interface strings.
+- Evidence: validate PASS, parity PASS, lint 0 blocking, e2e OK on all 41 lessons, sweep clean with all tab labels fitting, site test PASS.

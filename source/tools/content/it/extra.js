@@ -22,7 +22,7 @@ Can you help me? | Excuse me, can you help me? I'm looking for this hotel. | Sur
 No, thank you. | Would you like a bag? | No, thank you. I have one. | Vuole una busta? / No, grazie. Ce l'ho già.
 Where's the restroom? | Excuse me, where's the restroom? | It's down the hall, on the left. | Scusi, dov'è il bagno? / In fondo al corridoio, a sinistra.
 Can I get the Wi-Fi password? | Can I get the Wi-Fi password? | Sure, it's on the back of your receipt. | Mi dai la password del wifi? / Certo, è sul retro dello scontrino.
-Could you take a picture of us? | Excuse me, could you take a picture of us? | Of course! Say cheese! | Scusa, ci scatteresti una foto? / Certo! Dite "cheese"!
+Could you take a picture of us? | Excuse me, could you take a picture of us? | Of course! Say cheese! | Scusa, ci faresti una foto? / Certo! Dite "cheese"!
 Can you write it down? | The address is 1428 Elm Street. | Sorry, can you write it down? | L'indirizzo è 1428 Elm Street. / Scusa, me lo puoi scrivere?
 No worries. | Sorry I'm a little late! | No worries. I just got here, too. | Scusa se sono un po' in ritardo! / Non ti preoccupare. Io sono qui da poco.
 How do I get to the subway station? | How do I get to the subway station? | Go straight two blocks and turn right. You can't miss it. | Come arrivo alla stazione della metropolitana? / Vai dritto per due isolati e gira a destra. Non puoi sbagliarti.
@@ -36,7 +36,7 @@ A table for two, please. | Hi! How many? | A table for two, please. | Salve! Qua
 What do you recommend? | What do you recommend? | The salmon is really popular. | Che cosa mi consiglia? / Il salmone è tra i piatti più ordinati.
 I'll have the steak. | Are you ready to order? | Yes, I'll have the steak, please. | Siete pronti per ordinare? / Sì, per me la bistecca, per favore.
 Medium rare, please. | How would you like your steak? | Medium rare, please. | Come desidera la bistecca? / Poco cotta, per favore.
-I'm allergic to peanuts. | Does this have nuts in it? I'm allergic to peanuts. | Let me check with the kitchen. | Ci sono frutta a guscio qui dentro? Ho un'allergia alle arachidi. / Chiedo in cucina.
+I'm allergic to peanuts. | Does this have nuts in it? I'm allergic to peanuts. | Let me check with the kitchen. | Contiene frutta a guscio? Ho un'allergia alle arachidi. / Chiedo in cucina.
 Everything was great. | How was everything? | Everything was great, thank you! | Com'era tutto? / Tutto ottimo, grazie!
 Can we get the check, please? | Can we get the check, please? | Sure, I'll be right back with it. | Ci porta il conto, per favore? / Certo, glielo porto subito.
 It's on me. | Let's split it. | No, no. It's on me today. | Facciamo alla romana. / No, no. Oggi offro io.
@@ -79,7 +79,7 @@ My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I se
 I don't feel well. | Are you okay? You look pale. | I don't feel well. I think I need to sit down. | Tutto bene? Hai una brutta cera. / Non mi sento bene. Credo di dovermi sedere.
 I have a sore throat. | What seems to be the problem? | I have a sore throat and a slight fever. | Qual è il problema? / Ho mal di gola e un po' di febbre.
 I lost my wallet. | I lost my wallet. I think I left it on the bus. | Let's call the bus company's lost and found. | Ho perso il portafoglio. Credo di averlo lasciato sull'autobus. / Chiamiamo l'ufficio oggetti smarriti dell'azienda dei trasporti.
-hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | Ti va di passare del tempo insieme questo fine settimana? / Certo! Andiamo al cinema.
+hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | Ti va di vederci questo fine settimana? / Certo! Andiamo al cinema.
 pick up | Can you pick me up at the airport? | Of course. What time does your flight land? | Mi vieni a prendere all'aeroporto? / Certo. A che ora atterra il tuo volo?
 work out | You look great! Do you work out? | Yeah, I go to the gym three times a week. | Stai benissimo! Ti alleni? / Sì, vado in palestra tre volte a settimana.
 It's not my cup of tea. | Do you want to go to the jazz concert? | Thanks, but honestly, it's not my cup of tea. | Ti va di andare al concerto jazz? / Grazie, ma sinceramente non fa per me.
@@ -101,7 +101,7 @@ What does this mean? | What does this word on the sign mean? | Che cosa signific
 How much is this? | How much is this T-shirt? | Quanto costa questa maglietta?
 Can I pay by card? | Can I pay by card, or is it cash only? | Posso pagare con la carta o accettate solo contanti?
 Just a second. | Just a second, I'm almost done. | Un secondo, ho quasi finito.
-I'm not sure. | I'm not sure, but I think it's on the second floor. | Non so con certezza, ma credo sia al secondo piano.
+I'm not sure. | I'm not sure, but I think it's on the second floor. | Non ne sono sicuro, ma credo che sia al primo piano.
 It's next to the bank. | The cafe is next to the bank on Main Street. | Il bar è accanto alla banca, in Main Street.
 Turn left at the corner. | Turn left at the corner, and you'll see the station. | Gira a sinistra all'angolo e vedrai la stazione.
 Where do I transfer? | Where do I transfer to get to Union Station? | Dove cambio linea per arrivare a Union Station?
@@ -125,7 +125,7 @@ I'm bored. | I'm bored. Do you want to go for a walk? | Mi annoio. Ti va di fare
 I'm nervous. | I'm nervous about my job interview tomorrow. | Sono in ansia per il colloquio di lavoro di domani.
 I can't wait! | We're going to London next week. I can't wait! | Andiamo a Londra la settimana prossima. Non vedo l'ora!
 That color looks good on you. | That color looks good on you. You should wear it more often. | Quel colore ti sta bene. Dovresti metterlo più spesso.
-You made my day! | Thanks for the cookies. You made my day! | Grazie per i biscotti. Mi hai fatto la giornata!
+You made my day! | Thanks for the cookies. You made my day! | Grazie per i biscotti. Mi hai rallegrato la giornata!
 Let me know if you have any questions. | I've attached the slides. Let me know if you have any questions. | Ti ho allegato le slide. Fammi sapere se hai domande.
 Could you send me the file by Friday? | Could you send me the file by Friday? I need it for the presentation. | Potresti mandarmi il file entro venerdì? Mi serve per la presentazione.
 Let's touch base next week. | Let's touch base next week and see how things are going. | Sentiamoci la settimana prossima per vedere come va.
@@ -144,7 +144,7 @@ Once in a blue moon | I only drink soda once in a blue moon. | Bevo bibite gassa
 Low-key | I low-key want to dye my hair pink. | Sotto sotto, mi viene voglia di tingermi i capelli di rosa.
 I binge-watched the whole season. | I binge-watched the whole season in one weekend. | Ho guardato tutta la stagione in un solo fine settimana.
 school | My kids walk to school every day. | I miei figli vanno a scuola a piedi ogni giorno.
-think | I think so, too. | Lo penso anch'io.
+think | I think so, too. | Anch'io la penso così.
 `;
 
 /* pattern | spiegazione | example | lesson id */
@@ -180,12 +180,12 @@ exports.PAUSE = {
 compliment: `
 You're amazing | Sei incredibile
 You nailed it | Ce l'hai fatta alla grande
-You're a natural | Sei un talento naturale
+You're a natural | Ti viene naturale
 Looking sharp! | Che eleganza!
 You're so thoughtful | Sei una persona premurosa
 You have a great sense of humor | Hai un grande senso dell'umorismo
 You're one of a kind | Sei una persona unica
-You light up the room | Illumini la stanza
+You light up the room | Sei solare
 I admire you | Ti ammiro
 You inspire me | Mi ispiri
 You're really talented | Hai davvero talento
@@ -208,7 +208,7 @@ I see | Capisco
 No kidding | Ma dai! / Davvero?
 Good point | Giusta osservazione
 Exactly | Esatto
-Totally | Assolutamente
+Totally | Assolutamente sì
 Never mind | Lascia stare
 My bad | Colpa mia
 It depends | Dipende
@@ -228,7 +228,7 @@ Pardon me | Mi scusi
 Go ahead | Fai pure
 May I come in? | Posso entrare?
 Sorry to bother you | Scusa il disturbo
-I appreciate it | Lo apprezzo molto
+I appreciate it | Grazie, sei molto gentile
 Bless you | Salute! (quando qualcuno starnutisce)
 Have a nice day | Buona giornata
 Nice to see you | Che piacere vederti
@@ -238,7 +238,7 @@ Help yourself | Serviti pure
 It's my pleasure | Piacere mio
 Sorry I'm late | Scusa il ritardo
 Thank you for your time | Grazie per il tempo che mi hai dedicato
-I beg your pardon? | Prego? (molto formale)
+I beg your pardon? | Come, prego? (molto formale)
 Don't mention it | Di niente
 Cheers | Grazie! (britannico) / Cin cin! (brindando)
 Excuse me, coming through | Permesso, devo passare
@@ -254,7 +254,7 @@ Don't judge a book by its cover | L'abito non fa il monaco
 When in Rome, do as the Romans do | Paese che vai, usanza che trovi
 Slow and steady wins the race | Chi va piano va sano e va lontano
 Knowledge is power | Sapere è potere
-Honesty is the best policy | L'onestà è la migliore politica
+Honesty is the best policy | L'onestà paga sempre
 Seeing is believing | Vedere per credere
 Out of sight, out of mind | Lontano dagli occhi, lontano dal cuore
 Laughter is the best medicine | Ridere fa buon sangue
@@ -262,7 +262,7 @@ Live and learn | Non si finisce mai di imparare
 A friend in need is a friend indeed | Gli amici si vedono nel momento del bisogno
 It's never too late to learn | Non è mai troppo tardi per imparare
 Every expert was once a beginner | Ogni esperto è stato un principiante
-Stay hungry, stay foolish | Abbi sempre fame, resta sempre folle
+Stay hungry, stay foolish | Siate affamati, siate folli
 Small steps every day | Piccoli passi ogni giorno
 `
 };

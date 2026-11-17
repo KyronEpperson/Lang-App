@@ -142,7 +142,7 @@ module.exports = {
 
     { t: "fill", q: "Pretty good! How __ you?", p: "Abbastanza bene! E tu?", a: ["about"], o: ["for", "with", "of"], why: "Rispondi in breve e ricambia la domanda con \"How about you?\"" },
     { t: "fill", q: "I know, __?", p: "Vero? / Proprio così!", a: ["right"], o: ["no", "yes", "true"], why: "\"I know, right?\" serve a dare ragione a qualcuno con enfasi." },
-    { t: "fill", q: "Have you seen any good __ lately?", p: "Hai visto qualcosa di bello ultimamente?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "Dopo \"any\", in una domanda, i nomi numerabili vanno al plurale. In italiano si dice «gli show», ma in inglese ci vuole la -s: \"shows\"." },
+    { t: "fill", q: "Have you seen any good __ lately?", p: "Hai visto qualche bella serie o qualche bel film ultimamente?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "Dopo \"any\", in una domanda, i nomi numerabili vanno al plurale. In italiano si dice «gli show», ma in inglese ci vuole la -s: \"shows\"." },
 
     { t: "type", p: "Com'è stato il tuo fine settimana?", a: ["How was your weekend"], hint: "how · weekend — la domanda è al passato", x: ["is"], why: "Nella domanda \"was\" va prima del soggetto (\"your weekend\"): \"How was your weekend?\"" },
     { t: "type", p: "Abiti da queste parti?", a: ["Do you live around here", "Do you live near here", "Do you live nearby"], hint: "live · around here — domanda con \"do\"", x: ["are"], why: "Al presente la domanda vuole l'ausiliare \"do\" prima del soggetto: \"Do you live…?\"" },
@@ -198,7 +198,7 @@ module.exports = {
 
     { t: "order", p: "Hai ricevuto la mia e-mail?", a: ["Did", "you", "get", "my", "email"], x: ["got"], why: "La domanda al passato vuole l'ausiliare \"did\", e il verbo resta alla forma base: \"get\"." },
     { t: "order", p: "La relazione è in allegato", a: ["The", "report", "is", "attached"], x: ["are"], why: "Un solo soggetto (\"the report\") vuole \"is\": accordo." },
-    { t: "order", p: "Verifico e Le faccio sapere", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "\"Get back to you\" = ricontattarti, farti sapere. Ci vuole \"to\"." },
+    { t: "order", p: "Le farò sapere", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "\"Get back to you\" = ricontattarti, farti sapere. Ci vuole \"to\"." },
 
     { t: "fill", q: "Could you send me the file __ Friday?", p: "Potrebbe inviarmi il file entro venerdì?", a: ["by"], o: ["until", "in", "at"], why: "Per una scadenza («entro…») si usa \"by\" + data." },
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "Le scrivo per chiedere informazioni sul calendario", a: ["to"], o: ["for", "about", "at"], why: "Per dire lo scopo: \"I'm writing to\" + forma base." },

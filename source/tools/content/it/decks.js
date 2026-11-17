@@ -17,8 +17,8 @@ How's it going? | /ˈhaʊz ɪt ˈgoʊɪŋ/ | Come va? | Versione informale di "H
 Nice to meet you. | /ˈnaɪs tə ˈmiːt ju/ | Piacere (di conoscerti) | Solo la prima volta che incontri qualcuno. Si risponde "Nice to meet you, too."
 Long time no see! | /ˈlɔːŋ ˈtaɪm ˈnoʊ ˈsiː/ | Da quanto tempo! | Tra conoscenti con confidenza. Più neutro: "It's been a while."
 See you later. | /ˈsiː ju ˈleɪtər/ | A dopo | Come «ci vediamo», si dice anche quando non c'è nessun programma preciso di rivedersi
-Take care. | /ˈteɪk ˈker/ | Abbi cura di te | Saluto caloroso, meno solenne dell'italiano; si scrive spesso anche alla fine dei messaggi
-Have a good one! | /ˈhæv ə ˈgʊd ˈwʌn/ | Buona giornata! | Lo dicono spesso i cassieri dopo aver incassato: "one" è un giorno o una serata qualsiasi. Rispondi "You too!" e basta
+Take care. | /ˈteɪk ˈker/ | Stammi bene / Abbi cura di te | Saluto caloroso, meno solenne dell'italiano; si scrive spesso anche alla fine dei messaggi
+Have a good one! | /ˈhæv ə ˈgʊd ˈwʌn/ | Buona giornata! | Lo dicono spesso i cassieri quando paghi: "one" è un giorno o una serata qualsiasi. Rispondi "You too!" e basta
 Bye! | /ˈbaɪ/ | Ciao! (quando vai via) | In inglese "Bye" è solo per congedarsi, mentre «ciao» va bene per entrambe le cose. "Bye-bye" tra adulti suona un po' infantile
 Good night. | /ˈgʊd ˈnaɪt/ | Buonanotte | Quando saluti la sera tardi o vai a dormire. Per salutare arrivando di sera si dice "Good evening"
 `,
@@ -27,7 +27,7 @@ My name is Ana. | /maɪ ˈneɪm ɪz ˈænə/ | Mi chiamo Ana | Nella conversazio
 Please call me Jay. | /ˈpliːz ˈkɔːl mi ˈdʒeɪ/ | Per favore, chiamami Jay | Utile se il tuo nome è difficile da pronunciare per chi parla inglese o se preferisci un soprannome
 What should I call you? | /ˈwʌt ʃəd aɪ ˈkɔːl ju/ | Come preferisci che ti chiami? | Utile quando non sai come pronunciare un nome o se la persona usa un soprannome
 Where are you from? | /ˈwer ər ju frʌm/ | Di dove sei? | Una delle prime domande che ti faranno. Attenzione all'ordine: in italiano «di» è all'inizio, in inglese "from" va in fondo e non si dice mai "From where are you?"
-I'm from Italy. | /aɪm frəm ˈɪtəli/ | Sono italiano / italiana | Con i paesi si usa "from". Aggiungi la città e la conversazione parte da sola: "I'm from Bologna, in Italy." Nazionalità e lingue in inglese hanno la maiuscola ("Italian"), in italiano no
+I'm from Italy. | /aɪm frəm ˈɪtəli/ | Vengo dall'Italia | Con i paesi si usa "from". Aggiungi la città e la conversazione parte da sola: "I'm from Bologna, in Italy." Nazionalità e lingue in inglese hanno la maiuscola ("Italian"), in italiano no
 I live in Rome. | /aɪ ˈlɪv ɪn ˈroʊm/ | Vivo a Roma | «A Roma» si dice "in Rome", mai "at Rome": con le città si usa "in". In inglese le città hanno il loro nome inglese: Rome, Milan, Naples
 I'm a student. | /aɪm ə ˈstuːdnt/ | Sono studente / studentessa | In inglese la professione vuole "a/an": «sono studente» diventa "I'm a student", mai "I'm student"
 What do you do? | /ˈwʌt də ju ˈduː/ | Che lavoro fai? | Il modo normale di chiedere del lavoro, più gentile di "What's your job?". Non vuol dire «che cosa stai facendo adesso?»: per quello si dice "What are you doing?"
@@ -48,10 +48,10 @@ Thanks a lot. | /ˈθæŋks ə ˈlɑːt/ | Grazie mille | Più informale e calor
 You're welcome. | /jʊr ˈwelkəm/ | Prego (risposta a «grazie») | Più informale: "Sure.", "No problem.", "Anytime." Attenzione: "welcome" vuol dire anche «benvenuto», come in "Welcome to Rome!"
 No problem. | /ˈnoʊ ˈprɑːbləm/ | Figurati | Risposta molto comune a "thank you"
 I'm sorry. | /aɪm ˈsɑːri/ | Mi dispiace | Per scusarti sul serio. Se sfiori appena qualcuno basta "Sorry!"
-Yes, please. | /ˈjes ˈpliːz/ | Sì, grazie (per accettare) | Per accettare un'offerta come "Would you like some water?". In italiano si dice «sì, grazie»; in inglese per accettare si dice "please", e "thank you" serve per rifiutare
+Yes, please. | /ˈjes ˈpliːz/ | Sì, grazie (per accettare) | Per accettare un'offerta come "Would you like some water?". In italiano si dice «sì, grazie»; in inglese per accettare si aggiunge di solito "please", mentre "No, thank you" è il modo cortese di rifiutare
 No, thank you. | /ˈnoʊ ˈθæŋk ju/ | No, grazie | Molto più cortese di un semplice "No". Informale: "I'm good, thanks."
 Sorry? | /ˈsɑːri/ | Come? / Scusa? | Con l'intonazione che sale vuol dire «puoi ripetere?». Negli Stati Uniti è più comune di "Pardon?"
-Could you say that again? | /kəd ju ˈseɪ ˈðæt əˈgen/ | Potresti ripeterlo? | Usalo senza timore quando non capisci: lo dicono anche i madrelingua
+Could you say that again? | /kəd ju ˈseɪ ˈðæt əˈgen/ | Potresti ripetere? | Usalo senza timore quando non capisci: lo dicono anche i madrelingua
 Could you speak more slowly? | /kəd ju ˈspiːk ˈmɔːr ˈsloʊli/ | Potresti parlare più piano? | Con "please" suona ancora più cortese. "slowly" è un avverbio: «più lentamente» si dice "more slowly", non "more slow"
 I don't understand. | /aɪ ˈdoʊnt ˌʌndərˈstænd/ | Non capisco | Un po' secco. Più morbido: "Sorry, I didn't quite catch that." La negazione si fa con "don't": «non capisco» è "I don't understand", mai "I no understand"
 Do you speak Italian? | /də ju ˈspiːk ɪˈtæljən/ | Parli italiano? | Più naturale e cortese di "Can you speak...?". La domanda vuole "do": in italiano basta l'intonazione, in inglese non si dice "You speak Italian?". Le lingue hanno la maiuscola
@@ -72,11 +72,11 @@ Just a second. | /ˈdʒʌst ə ˈsekənd/ | Un secondo | Informale. Più breve: 
 No worries. | /ˈnoʊ ˈwɜːriz/ | Non ti preoccupare | Molto comune in Australia e nel Regno Unito, e anche negli Stati Uniti
 That's okay. | /ˈðæts oʊˈkeɪ/ | Non fa niente | Risposta a delle scuse. Anche: "Don't worry about it."
 Of course. | /əv ˈkɔːrs/ | Certo | Per accettare una richiesta. Come risposta a una domanda può suonare come «ovvio!», quindi dillo con tono gentile
-I'm not sure. | /aɪm ˈnɑːt ˈʃʊr/ | Non sono sicuro / sicura | Più morbido di "I don't know". La negazione con "be" si fa con "not": "I'm not sure"
+I'm not sure. | /aɪm ˈnɑːt ˈʃʊr/ | Non sono sicuro / sicura | Più morbido di "I don't know". "sure" si legge /ʃʊr/, con il suono «sc» di «scena» all'inizio
 I have a question. | /aɪ ˈhæv ə ˈkwestʃən/ | Ho una domanda | In classe o nelle riunioni: "Can I ask a question?" La domanda si "ask" (si chiede), non si "make": «fare una domanda» si dice "ask a question"
 Can you write it down? | /kən ju ˈraɪt ɪt ˈdaʊn/ | Me lo puoi scrivere? | La soluzione migliore se non capisci un indirizzo, un numero o un nome. Con il pronome il verbo frasale si spezza: "write it down"
 Can I take a picture? | /kən aɪ ˈteɪk ə ˈpɪktʃər/ | Posso fare una foto? | Nei musei e nei negozi chiedi prima. La foto si scatta con "take", non con "make": «fare una foto» è "take a picture"
-Could you take a picture of us? | /kəd ju ˈteɪk ə ˈpɪktʃər əv əs/ | Ci scatteresti una foto? | Dopo, ringrazia: "Thank you so much!"
+Could you take a picture of us? | /kəd ju ˈteɪk ə ˈpɪktʃər əv əs/ | Ci faresti una foto? | Dopo, ringrazia: "Thank you so much!"
 After you. | /ˈæftər ˈjuː/ | Prima tu | Per cedere il passo a una porta o in ascensore. Dove in italiano si direbbe «prego», in inglese si dice "After you."
 Watch out! | /ˈwɑːtʃ ˈaʊt/ | Attenzione! | Si grida davanti a un pericolo. "Look out!" vuol dire lo stesso
 `,
@@ -95,36 +95,36 @@ Does this bus go to the airport? | /dəz ˈðɪs ˈbʌs ˈgoʊ tə ði ˈerpɔː
 Which stop should I get off at? | /ˈwɪtʃ ˈstɑːp ʃəd aɪ ˈget ˈɔːf æt/ | A quale fermata scendo? | "get off" = scendere (dall'autobus o dalla metro). La preposizione "at" va in fondo, non all'inizio come «a quale»
 One ticket to Boston, please. | /ˈwʌn ˈtɪkɪt tə ˈbɔːstən ˈpliːz/ | Un biglietto per Boston, per favore | Davanti alla destinazione va "to", non "for" come in italiano («per»)
 Round trip or one way? | /ˈraʊnd ˈtrɪp ər ˈwʌn ˈweɪ/ | Andata e ritorno o solo andata? | In inglese britannico: "Return or single?"
-Can you take me to this address? | /kən ju ˈteɪk mi tə ˈðɪs ˈædres/ | Mi porta a questo indirizzo? | Mostra lo schermo al tassista per evitare errori. "address" si scrive con due "d" e due "s", a differenza di «indirizzo»
+Can you take me to this address? | /kən ju ˈteɪk mi tə ˈðɪs ˈædres/ | Mi porta a questo indirizzo? | Mostra lo schermo al tassista per evitare errori. "address" si scrive con due "d" e due "s", e il nome ha l'accento tonico sulla prima sillaba: /ˈædres/
 Could you pull over here? | /kəd ju ˈpʊl ˈoʊvər ˈhɪr/ | Può accostare qui? | Per far fermare il taxi o l'auto. Anche: "Right here is fine."
 How long does it take? | /ˈhaʊ ˈlɔːŋ dəz ɪt ˈteɪk/ | Quanto ci vuole? | Risposta: "About 20 minutes." «Ci vuole» non ha soggetto, mentre in inglese serve "it": "it takes"
-Is this seat taken? | /ɪz ˈðɪs ˈsiːt ˈteɪkən/ | Questo posto è occupato? | Se è libero: "No, go ahead." "seat" ha la "ee" lunga: se la accorci diventa "sit"
+Is this seat taken? | /ɪz ˈðɪs ˈsiːt ˈteɪkən/ | Questo posto è occupato? | Se è libero: "No, go ahead." "seat" ha la /iː/, lunga e tesa; con la /ɪ/ rilassata diventa "sit"
 `,
 "Al ristorante": `
 A table for two, please. | /ə ˈteɪbl fər ˈtuː ˈpliːz/ | Un tavolo per due, per favore | Negli Stati Uniti di solito si aspetta che il personale assegni il tavolo. "table" finisce in /l/ e non ha nessuna vocale dopo
 Do you have a reservation? | /də ju ˈhæv ə ˌrezərˈveɪʃn/ | Ha prenotato? | Lo chiede il personale. Risposta: "Yes, under Garcia." «Prenotazione» = "reservation", mentre il verbo è "book" o "reserve"
-Can I see the menu? | /kən aɪ ˈsiː ðə ˈmenjuː/ | Posso vedere il menù? | In italiano «menù» ha l'accento sull'ultima sillaba; in inglese cade sulla prima: /ˈmenjuː/
+Can I see the menu? | /kən aɪ ˈsiː ðə ˈmenjuː/ | Posso vedere il menù? | In italiano «menù» ha l'accento tonico sull'ultima sillaba; in inglese cade sulla prima: /ˈmenjuː/
 What do you recommend? | /ˈwʌt də ju ˌrekəˈmend/ | Che cosa mi consiglia? | Anche: "What's popular here?" Si scrive con una sola "c" e due "m", a differenza di «raccomandare»
 I'll have the steak. | /aɪl ˈhæv ðə ˈsteɪk/ | Per me la bistecca | Formula base per ordinare: "I'll have" + piatto. In "steak" c'è il dittongo /eɪ/: suona come "stake"
 Can I get a Coke? | /kən aɪ ˈget ə ˈkoʊk/ | Mi porti una Coca-Cola? | "Can I get...?" è il modo più comune di ordinare negli Stati Uniti
 Medium rare, please. | /ˈmiːdiəm ˈrer ˈpliːz/ | Poco cotta, per favore | Risposta a "How would you like your steak?". Gli altri gradi: rare (molto al sangue), medium (media), well done (ben cotta)
 No onions, please. | /ˈnoʊ ˈʌnjənz ˈpliːz/ | Senza cipolla, per favore | Anche: "Can I get it without onions?" In inglese va al plurale: "onions"
-I'm allergic to peanuts. | /aɪm əˈlɜːrdʒɪk tə ˈpiːnʌts/ | Sono allergico / allergica alle arachidi | Si dice "allergic to". L'allergia è "allergy" (/ˈælərdʒi/) e ha l'accento sulla prima sillaba, a differenza di «allergìa»
-Is it spicy? | /ɪz ɪt ˈspaɪsi/ | È piccante? | Negli Stati Uniti "spicy" di solito pizzica meno di quanto ti aspetti. Per il cibo piccante non usare "hot", che vuol dire anche «caldo»
+I'm allergic to peanuts. | /aɪm əˈlɜːrdʒɪk tə ˈpiːnʌts/ | Sono allergico / allergica alle arachidi | Si dice "allergic to". L'allergia è "allergy" (/ˈælərdʒi/) e ha l'accento tonico sulla prima sillaba, a differenza di «allergìa»
+Is it spicy? | /ɪz ɪt ˈspaɪsi/ | È piccante? | Se vuoi un piatto poco piccante, chiedi "mild". Anche "hot" vuol dire «piccante», ma può essere confuso con «caldo»
 Could we get some water? | /kəd wi ˈget ˈsʌm ˈwɔːtər/ | Possiamo avere dell'acqua? | Negli Stati Uniti l'acqua normale è gratis. In una richiesta o in un'offerta si usa "some", non "any". In americano la "t" tra due vocali suona come una "d" veloce
-Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | Tutto squisito | Risposta a "How is everything?". Si usa il passato ("was"), perché il pasto è finito
+Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | Era tutto ottimo | Risposta a "How is everything?". Si usa il passato ("was"), perché il pasto è finito
 Can we get the check, please? | /kən wi ˈget ðə ˈtʃek ˈpliːz/ | Il conto, per favore | In inglese britannico: the bill. Negli Stati Uniti si paga di solito al tavolo
 Can we split the bill? | /kən wi ˈsplɪt ðə ˈbɪl/ | Possiamo pagare alla romana? | Anche: "separate checks". «Alla romana» = tutti pagano la stessa parte: "split the bill"
 It's on me. | /ɪts ɑːn ˈmiː/ | Offro io | Anche: "My treat!"
 Can I get this to go? | /kən aɪ ˈget ˈðɪs tə ˈgoʊ/ | Posso portare via questo? | Per portare via gli avanzi: "Can I get a box?" Negli Stati Uniti è normalissimo
-Is the tip included? | /ɪz ðə ˈtɪp ɪnˈkluːdɪd/ | La mancia è inclusa? | Negli Stati Uniti si lascia a parte il 15-20 % ed è considerata dovuta; in Italia la mancia è facoltativa. In Italia c'è il «coperto»: negli Stati Uniti non esiste
+Is the tip included? | /ɪz ðə ˈtɪp ɪnˈkluːdɪd/ | La mancia è inclusa? | Negli Stati Uniti si lascia a parte il 15-20% ed è considerata dovuta; in Italia la mancia è facoltativa. In Italia c'è il «coperto»: negli Stati Uniti non esiste
 `,
 "Bar e negozio": `
 Can I get an iced Americano? | /kən aɪ ˈget ən ˈaɪst əˌmerɪˈkɑːnoʊ/ | Mi fa un caffè americano freddo? | Si ordina così negli Stati Uniti: "Can I get...?" "iced" finisce in /t/ ed è una sola sillaba: /ˈaɪst/. Non è l'«americano» del bar italiano, che è un espresso allungato
 What size would you like? | /ˈwʌt ˈsaɪz wəd ju ˈlaɪk/ | Di che misura lo desidera? | Lo chiede il personale. Risposta: "Small", "Medium" o "Large"
 Small, please. | /ˈsmɔːl ˈpliːz/ | Piccolo, per favore | Da Starbucks le misure sono tall (piccola), grande (media) e venti (grande): attenzione, «grande» è la misura media
 For here or to go? | /fər ˈhɪr ər tə ˈgoʊ/ | Per consumare qui o da portare via? | Lo chiede il personale quando paghi. In inglese britannico: "Eat in or take away?"
-Can I get oat milk instead? | /kən aɪ ˈget ˈoʊt ˈmɪlk ɪnˈsted/ | Posso avere il latte d'avena al posto di questo? | "instead" = al posto di. Può costare un extra
+Can I get oat milk instead? | /kən aɪ ˈget ˈoʊt ˈmɪlk ɪnˈsted/ | Posso averlo con il latte d'avena? | "instead" = al posto di. Può costare un extra
 Less ice, please. | /ˈles ˈaɪs ˈpliːz/ | Meno ghiaccio, per favore | Senza ghiaccio: "No ice, please." Il ghiaccio non si conta: "less ice", non "fewer ice"
 Decaf, please. | /ˈdiːkæf ˈpliːz/ | Un decaffeinato, per favore | Abbreviazione di "decaffeinated"
 Can I get a name for the order? | /kən aɪ ˈget ə ˈneɪm fər ði ˈɔːrdər/ | A che nome? | Lo chiede il personale per scriverlo sul bicchiere. Se devi sillabare il tuo nome, ricorda che le lettere inglesi si leggono in un altro modo: E si dice /iː/, I si dice /aɪ/, G si dice /dʒiː/
@@ -150,7 +150,7 @@ Can you give me a discount? | /kən ju ˈgɪv mi ə ˈdɪskaʊnt/ | Mi può fare
 I'll take it. | /aɪl ˈteɪk ɪt/ | Lo prendo | Per più cose: "I'll take them."
 Cash or card? | /ˈkæʃ ər ˈkɑːrd/ | Contanti o carta? | Domanda tipica alla cassa. Basta rispondere "Card, please."
 Do you take Apple Pay? | /də ju ˈteɪk ˈæpl ˈpeɪ/ | Accettate Apple Pay? | "take" = accettare (un metodo di pagamento): più colloquiale di "accept"
-Can I get a refund? | /kən aɪ ˈget ə ˈriːfʌnd/ | Posso avere un rimborso? | Tieni sempre lo scontrino. Il sostantivo ha l'accento sulla prima sillaba: /ˈriːfʌnd/
+Can I get a refund? | /kən aɪ ˈget ə ˈriːfʌnd/ | Posso avere un rimborso? | Tieni sempre lo scontrino. Il sostantivo ha l'accento tonico sulla prima sillaba: /ˈriːfʌnd/
 I'd like to exchange this. | /aɪd ˈlaɪk tu ɪksˈtʃeɪndʒ ˈðɪs/ | Vorrei cambiare questo | Spiega il motivo: "It's the wrong size." Cambiare un articolo con un altro è "exchange", non "change"
 Can you gift wrap it? | /kən ju ˈgɪft ˈræp ɪt/ | Me lo può incartare per regalo? | La "w" di "wrap" non si pronuncia: suona come «rap»
 Does that include tax? | /dəz ˈðæt ɪnˈkluːd ˈtæks/ | Sono incluse le tasse? | Negli Stati Uniti il prezzo sul cartellino non include le tasse: si aggiungono alla cassa. In Italia il prezzo comprende già l'IVA. Dopo "does" il verbo non prende la -s: "include"
@@ -166,12 +166,12 @@ My birthday is in October. | /maɪ ˈbɜːrθdeɪ ɪz ɪn ɑːkˈtoʊbər/ | Il 
 On Monday | /ɑːn ˈmʌndeɪ/ | Lunedì (un lunedì preciso) | In italiano «lunedì» non ha preposizione; in inglese serve "on", senza articolo. Per «ogni lunedì» si usa il plurale: "on Mondays"
 Next weekend | /ˈnekst ˈwiːkend/ | Il prossimo fine settimana | Con "next", "last" e "this" non si usa nessuna preposizione: mai "in next weekend"
 The day after tomorrow | /ðə ˈdeɪ æftər təˈmɑːroʊ/ | Dopodomani | L'altroieri: "the day before yesterday"
-Thirteen or thirty? | /ˌθɜːrˈtiːn ər ˈθɜːrti/ | Tredici o trenta? | In italiano «tredici» e «trenta» si distinguono bene; in inglese conta l'accento: in 13 è sulla fine (/ˌθɜːrˈtiːn/, con la "ee" lunga), in 30 all'inizio (/ˈθɜːrti/). Chiedi sempre conferma quando senti un prezzo
+Thirteen or thirty? | /ˌθɜːrˈtiːn ər ˈθɜːrti/ | Tredici o trenta? | In italiano «tredici» e «trenta» si distinguono bene; in inglese conta l'accento tonico: in 13 è sulla fine (/ˌθɜːrˈtiːn/, con la "ee" lunga), in 30 all'inizio (/ˈθɜːrti/). Chiedi sempre conferma quando senti un prezzo
 Fifteen dollars | /ˌfɪfˈtiːn ˈdɑːlərz/ | Quindici dollari | $15.50 si legge "fifteen fifty". In inglese il simbolo viene prima del numero ($15, €25), in italiano dopo (25 €). A voce si dice "dollars" o "euros" dopo il numero
 Two hundred and fifty | /ˈtuː ˈhʌndrəd ənd ˈfɪfti/ | Duecentocinquanta (250) | Negli Stati Uniti spesso si omette "and": "two hundred fifty". Dopo un numero "hundred" non prende la -s
-Ten thousand | /ˈten ˈθaʊznd/ | Diecimila (10,000) | Attenzione: in inglese le migliaia si separano con la virgola e i decimali con il punto, il contrario dell'italiano: 10,000 è diecimila e 3.5 si legge «tre virgola cinque»
+Ten thousand | /ˈten ˈθaʊznd/ | Diecimila (10,000) | Attenzione: in inglese le migliaia si separano con la virgola e i decimali con il punto, il contrario dell'italiano: 10,000 è diecimila, e 3.5 («tre virgola cinque») si legge "three point five"
 One million | /ˈwʌn ˈmɪljən/ | Un milione (1,000,000) | Attenzione: "billion" è un miliardo (mille milioni). Il «bilione» italiano (mille miliardi), che si usa poco, in inglese è "trillion"
-Twice a week | /ˈtwaɪs ə ˈwiːk/ | Due volte a settimana | once (una volta), twice (due volte), three times (tre volte). «A settimana» è "a week": non si dice "per week" né "in the week"
+Twice a week | /ˈtwaɪs ə ˈwiːk/ | Due volte a settimana | once (una volta), twice (due volte), three times (tre volte). «A settimana» si dice di solito "a week"; "per week" è più formale. Non si dice "in the week"
 In ten minutes | /ɪn ˈten ˈmɪnɪts/ | Tra dieci minuti | "in" + tempo = «tra» o «fra» (quando succederà qualcosa): non si dice mai "between ten minutes"
 `,
 "Due chiacchiere": `
@@ -195,7 +195,7 @@ It was nice talking to you. | /ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/ | È stato 
 `,
 "Emozioni e reazioni": `
 I'm so happy for you! | /aɪm ˈsoʊ ˈhæpi fər ju/ | Sono davvero felice per te! | Quando a qualcuno succede qualcosa di bello. "so" rafforza l'aggettivo, come «davvero»: mai "very much happy"
-Congratulations! | /kənˌgrætʃəˈleɪʃnz/ | Congratulazioni! | È sempre al plurale, come in italiano. L'accento è su "lei" (/ˈleɪ/), non su «zio». Abbreviato: "Congrats!"
+Congratulations! | /kənˌgrætʃəˈleɪʃnz/ | Congratulazioni! | È sempre al plurale, come in italiano. L'accento tonico è su "la" (/ˈleɪ/), non su «zio» come in «congratulazioni». Abbreviato: "Congrats!"
 That's awesome! | /ˈðæts ˈɔːsəm/ | Fantastico! | Reazione molto frequente negli Stati Uniti, per qualsiasi cosa positiva
 No way! | /ˈnoʊ ˈweɪ/ | Non ci credo! | Sorpresa. Serve anche per rifiutare: "No way, I'm not doing that."
 Seriously? | /ˈsɪriəsli/ | Davvero? | A seconda del tono, esprime sorpresa o fastidio. In italiano si direbbe «sul serio?»
@@ -229,11 +229,11 @@ Do you want to grab coffee sometime? | /də ju ˈwɑːnt tə ˈgræb ˈkɔːfi �
 I miss you. | /aɪ ˈmɪs ju/ | Mi manchi | Per chi è lontano. Il soggetto è invertito: in «mi manchi» il soggetto sei tu, in "I miss you" sono io che sento la mancanza
 You mean a lot to me. | /ju ˈmiːn ə ˈlɑːt tə mi/ | Significhi molto per me | Per esprimere un affetto sincero. «Per me» qui è "to me", non "for me"
 You're a lifesaver! | /jʊr ə ˈlaɪfseɪvər/ | Mi hai salvato la vita! | Esagerazione affettuosa, anche per un favore piccolo. È un nome, quindi vuole "a": "a lifesaver"
-You made my day! | /ju ˈmeɪd maɪ ˈdeɪ/ | Mi hai fatto la giornata! | Quando qualcuno ti dice qualcosa di bello o ti fa un regalo. "made" è il passato di "make"
+You made my day! | /ju ˈmeɪd maɪ ˈdeɪ/ | Mi hai rallegrato la giornata! | Quando qualcuno ti dice qualcosa di bello o ti fa un regalo. "made" è il passato di "make"
 That's very kind of you. | /ˈðæts ˈveri ˈkaɪnd əv ju/ | È molto gentile da parte tua | Per ringraziare di un aiuto o di un complimento. «Da parte tua» si traduce "of you": mai "from you"
 `,
 "Lavoro ed e-mail": `
-I hope this email finds you well. | /aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/ | Spero che tu stia bene | Apertura formale di un'e-mail, utile anche per le prove scritte Cambridge (B1 Preliminary, B2 First). Più informale: "I hope you're doing well." In inglese "email" si scrive senza trattino
+I hope this email finds you well. | /aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/ | Spero che stia bene | Apertura formale di un'e-mail, utile anche per le prove scritte Cambridge (B1 Preliminary, B2 First). Più informale: "I hope you're doing well." In inglese "email" si scrive senza trattino
 I'm writing to ask about the schedule. | /aɪm ˈraɪtɪŋ tu ˈæsk əbaʊt ðə ˈskedʒuːl/ | Ti scrivo per chiedere informazioni sull'orario | Spiega il motivo già nella prima frase: «per» + infinito si traduce "to" + forma base ("to ask"), non "for ask" né "for asking"
 I've attached the report. | /aɪv əˈtætʃt ðə rɪˈpɔːrt/ | Ti ho allegato la relazione | "Please find attached..." è più formale. Qui il present perfect è giusto: l'allegato è lì adesso, senza un momento preciso nel passato
 Just a quick reminder about tomorrow's meeting. | /ˈdʒʌst ə ˈkwɪk rɪˈmaɪndər əbaʊt təˈmɑːroʊz ˈmiːtɪŋ/ | Solo un breve promemoria sulla riunione di domani | Modo gentile per insistere. «La riunione di domani» si dice "tomorrow's meeting" (genitivo sassone), non "the meeting of tomorrow"
@@ -285,12 +285,12 @@ My luggage is missing. | /maɪ ˈlʌgɪdʒ ɪz ˈmɪsɪŋ/ | Il mio bagaglio è 
 I have a reservation under Garcia. | /aɪ ˈhæv ə ˌrezərˈveɪʃn ʌndər gɑːrˈsiːə/ | Ho una prenotazione a nome Garcia | "under" + cognome = a nome di. Non si dice "at the name of"
 What time is check-out? | /ˈwʌt ˈtaɪm ɪz ˈtʃekaʊt/ | A che ora bisogna lasciare la camera? | Per uscire più tardi: "Can I get a late check-out?" La camera d'albergo è "room": "camera" in inglese è la macchina fotografica. Il sostantivo ha il trattino, il verbo no ("to check out")
 Can I check in early? | /kən aɪ ˈtʃek ˈɪn ˈɜːrli/ | Posso fare il check-in prima? | Qui è un verbo, quindi staccato: "check in". "early" è un avverbio e va in fondo alla frase
-Is breakfast included? | /ɪz ˈbrekfəst ɪnˈkluːdɪd/ | La colazione è inclusa? | "breakfast" si legge /ˈbrekfəst/: la "ea" è /e/, come in "bed", non «i»
+Is breakfast included? | /ɪz ˈbrekfəst ɪnˈkluːdɪd/ | La colazione è compresa? | "breakfast" si legge /ˈbrekfəst/: la "ea" è /e/, come in "bed", non «i»
 The air conditioner isn't working. | /ði ˈer kənˈdɪʃənər ˈɪznt ˈwɜːrkɪŋ/ | L'aria condizionata non funziona | Abbreviato: AC. Per un guasto di adesso l'inglese usa il present continuous ("isn't working"), mentre l'italiano usa il presente semplice
 Could I get some extra towels? | /kəd aɪ ˈget ˈsʌm ˈekstrə ˈtaʊəlz/ | Potrei avere degli asciugamani in più? | "extra" = in più. In una richiesta si usa "some", non "any". "towels" ha la -s
 Can you hold my bags until 3? | /kən ju ˈhoʊld maɪ ˈbægz əntɪl ˈθriː/ | Potete tenere i miei bagagli fino alle 3? | Per lasciare i bagagli dopo aver lasciato la camera. «I bagagli» qui sono "my bags" (che si contano) oppure "my luggage" (che non si conta)
-My flight was delayed. | /maɪ ˈflaɪt wəz dɪˈleɪd/ | Il mio volo ha subito un ritardo | In inglese si usa il passivo ("was delayed"), non "is late". Se lo cancellano: "canceled". La -ed di "delayed" suona /d/: /dɪˈleɪd/
-Where's gate 12? | /ˈwerz ˈgeɪt ˈtwelv/ | Dov'è il gate 12? | Anche in Italia si dice «gate», ma in inglese si legge /ˈgeɪt/. Il numero va dopo: "gate 12", a voce "gate twelve"
+My flight was delayed. | /maɪ ˈflaɪt wəz dɪˈleɪd/ | Il mio volo era in ritardo | "delayed" è la parola dei tabelloni e degli annunci; a voce si sente anche "My flight was late". Se lo cancellano: "canceled". La -ed di "delayed" suona /d/: /dɪˈleɪd/
+Where's gate 12? | /ˈwerz ˈgeɪt ˈtwelv/ | Dov'è il gate 12? | Anche in Italia si dice «gate», ma in inglese si legge /ˈgeɪt/, con il dittongo. I numeri del gate e del posto si leggono così: "gate twelve", "seat fourteen B"
 Do I need to take my laptop out? | /də aɪ ˈniːd tə ˈteɪk maɪ ˈlæptɑːp ˈaʊt/ | Devo tirare fuori il portatile? | Ai controlli di sicurezza. «Portatile» (il computer) è "laptop". Il pronome o il nome va in mezzo al verbo frasale: "take my laptop out"
 `,
 "Salute ed emergenze": `
@@ -304,24 +304,24 @@ My stomach hurts. | /maɪ ˈstʌmək ˈhɜːrts/ | Mi fa male lo stomaco | Con l
 I have a sore throat. | /aɪ ˈhæv ə ˈsɔːr ˈθroʊt/ | Ho mal di gola | "sore" = dolorante. "throat" è la gola, dentro; il collo è "neck". Anche qui serve "a". La "th" si fa con la lingua tra i denti
 I feel dizzy. | /aɪ ˈfiːl ˈdɪzi/ | Mi gira la testa | Con la nausea: "I feel sick." o "I feel nauseous." In inglese si usa "feel" + aggettivo, non "have"
 I sprained my ankle. | /aɪ ˈspreɪnd maɪ ˈæŋkl/ | Mi sono slogato la caviglia | "my ankle", non "the ankle", e senza «mi» riflessivo. Il polso è "wrist". La -ed di "sprained" suona /d/
-Is there a pharmacy near here? | /ɪz ðer ə ˈfɑːrməsi nɪr ˈhɪr/ | C'è una farmacia qui vicino? | Negli Stati Uniti anche: drugstore. «C'è» si dice "Is there", mai "Has a pharmacy"
+Is there a pharmacy near here? | /ɪz ðer ə ˈfɑːrməsi nɪr ˈhɪr/ | C'è una farmacia qui vicino? | Negli Stati Uniti anche: drugstore. «C'è» è "Is there" con un nome singolare, «ci sono» è "Are there" con il plurale
 Do I need a prescription? | /də aɪ ˈniːd ə prɪˈskrɪpʃn/ | Mi serve la ricetta? | I medicinali senza ricetta si chiamano "over-the-counter". La ricetta medica è "prescription"; la ricetta di cucina è "recipe"
 I lost my wallet. | /aɪ ˈlɔːst maɪ ˈwɑːlɪt/ | Ho perso il portafoglio | Oggetti smarriti: "lost and found". Con le cose personali: "my wallet", mai "the wallet". "lost" è il passato di "lose"
 Someone stole my phone. | /ˈsʌmwʌn ˈstoʊl maɪ ˈfoʊn/ | Qualcuno mi ha rubato il cellulare | «Mi ha rubato» diventa "stole my phone": il «mi» italiano si traduce con "my". "stole" è il passato di "steal"
-Where is the police station? | /ˈwer ɪz ðə pəˈliːs ˈsteɪʃn/ | Dov'è la stazione di polizia? | In Italia si direbbe «commissariato» o «caserma dei carabinieri». "police" ha l'accento sull'ultima sillaba: /pəˈliːs/
+Where is the police station? | /ˈwer ɪz ðə pəˈliːs ˈsteɪʃn/ | Dov'è la stazione di polizia? | In Italia si direbbe «commissariato» o «caserma dei carabinieri». "police" ha l'accento tonico sull'ultima sillaba: /pəˈliːs/
 I need to contact my embassy. | /aɪ ˈniːd tə ˈkɑːntækt maɪ ˈembəsi/ | Devo contattare la mia ambasciata | Indispensabile se perdi il passaporto. Si dice "contact" senza "to": non "contact to my embassy"
 I have travel insurance. | /aɪ ˈhæv ˈtrævl ɪnˈʃʊrəns/ | Ho un'assicurazione di viaggio | Stipulala prima di partire: negli Stati Uniti l'assistenza sanitaria costa moltissimo e la tessera sanitaria europea non vale. "insurance" non si conta, quindi senza "an"
 `,
 "Phrasal verbs": `
-pick up | /ˈpɪk ˈʌp/ | andare a prendere / raccogliere | "I'll pick you up at 7." Il pronome (you, it) va in mezzo. Corrisponde al latinismo «raccogliere» o a «passare a prendere»
-give up | /ˈgɪv ˈʌp/ | arrendersi / smettere | "Don't give up!" Con un verbo, -ing: "give up smoking". Verbo latino corrispondente: «rinunciare»
+pick up | /ˈpɪk ˈʌp/ | andare a prendere / raccogliere | "I'll pick you up at 7." Il pronome (you, it) va in mezzo. Per gli oggetti è più comune di "collect"
+give up | /ˈgɪv ˈʌp/ | arrendersi / smettere | "Don't give up!" Con un verbo, -ing: "give up smoking"
 figure out | /ˈfɪgjər ˈaʊt/ | venirne a capo | "I can't figure out this app." Più di «capire» ("understand"): è riuscire a capire dopo averci pensato
 find out | /ˈfaɪnd ˈaʊt/ | scoprire | Per scoprire un'informazione. "figure out" è risolvere ragionando
 look for | /ˈlʊk fɔːr/ | cercare | "I'm looking for my keys." Dopo "look" serve sempre "for": non si dice "look my keys". Se l'hai trovato: "find"
-look after | /ˈlʊk ˈæftər/ | badare a | "Can you look after my cat?" Verbo latino corrispondente: «accudire». Negli Stati Uniti anche: "take care of"
+look after | /ˈlʊk ˈæftər/ | badare a | "Can you look after my cat?" Negli Stati Uniti anche: "take care of"
 look forward to | /ˈlʊk ˈfɔːrwərd tuː/ | non vedere l'ora (di) | "to" qui è una preposizione: dopo va un nome o -ing. «Non vedo l'ora di vederti» è "I'm looking forward to seeing you", non "to see you"
 run out of | /ˈrʌn ˈaʊt əv/ | restare senza | "We ran out of milk." (Ci è finito il latte.) Il soggetto è la persona ("we"), non la cosa
-turn on | /ˈtɜːrn ˈɑːn/ | accendere | "Turn on the light." Con il pronome: "Turn it on." Verbo latino corrispondente: «accendere»
+turn on | /ˈtɜːrn ˈɑːn/ | accendere | "Turn on the light." Con il pronome: "Turn it on."
 turn off | /ˈtɜːrn ˈɔːf/ | spegnere (luce, apparecchio) | Con il pronome, in mezzo: "Turn it off." (mai "turn off it"). Per luci e apparecchi
 turn down | /ˈtɜːrn ˈdaʊn/ | rifiutare / abbassare | "She turned down the offer." / "Turn it down!" per il volume
 put off | /ˈpʊt ˈɔːf/ | rimandare | Molto più comune di "postpone": "Stop putting it off!"
@@ -337,18 +337,18 @@ break up | /ˈbreɪk ˈʌp/ | lasciarsi | "They broke up last month." Con chi: "
 fill out | /ˈfɪl ˈaʊt/ | compilare | "Please fill out this form." In inglese britannico: fill in. "fill" da solo non vuol dire «compilare»
 grow up | /ˈgroʊ ˈʌp/ | crescere (da bambini) | "I grew up in Naples." Per le persone si dice "grow up"; "grow" da solo si usa per piante, capelli e barba
 wake up | /ˈweɪk ˈʌp/ | svegliarsi | Aprire gli occhi è "wake up"; alzarsi dal letto è "get up". Senza «mi» riflessivo: "I wake up", non "I wake myself up"
-come in | /ˈkʌm ˈɪn/ | entrare | Più naturale di "enter", che suona formale, da cartello. "Come in!" = Avanti! Verbo latino corrispondente: «entrare»
-go on | /ˈgoʊ ˈɑːn/ | continuare / succedere | Più naturale di "continue": "Please go on." E "What's going on?" = Che sta succedendo? Verbo latino corrispondente: «continuare»
-put up with | /ˈpʊt ˈʌp wɪð/ | sopportare | Molto più comune di "tolerate": "I can't put up with this noise." «Sopportare» non è "support": è "put up with". Verbo latino: «tollerare»
+come in | /ˈkʌm ˈɪn/ | entrare | Più naturale di "enter", che suona formale, da cartello. "Come in!" = Avanti!
+go on | /ˈgoʊ ˈɑːn/ | continuare / succedere | Più naturale di "continue": "Please go on." E "What's going on?" = Che sta succedendo?
+put up with | /ˈpʊt ˈʌp wɪð/ | sopportare | Molto più comune di "tolerate": "I can't put up with this noise." «Sopportare» non è "support": è "put up with"
 put out | /ˈpʊt ˈaʊt/ | spegnere (un fuoco o una sigaretta) | Più comune di "extinguish". La luce non si "put out": «spegnere» la luce è "turn off"
 get up | /ˈget ˈʌp/ | alzarsi (dal letto) | "I get up at seven." Svegliarsi è "wake up"; alzarsi è "get up"
 go out | /ˈgoʊ ˈaʊt/ | uscire la sera | "Do you want to go out tonight?" Con un partner: "go out with" = uscire con qualcuno
-come back | /ˈkʌm ˈbæk/ | tornare | Parlando è più comune di "return": "When are you coming back?" Verbo latino corrispondente: «ritornare»
+come back | /ˈkʌm ˈbæk/ | tornare | Parlando è più comune di "return": "When are you coming back?"
 get on | /ˈget ˈɑːn/ | salire (su autobus, treno o aereo) | Per l'auto o il taxi si usa "get in". Per scendere: "get off" (autobus) e "get out of" (auto)
 take off | /ˈteɪk ˈɔːf/ | togliersi (i vestiti) / decollare | "Please take off your shoes." / "The plane took off late." In inglese non c'è «si» riflessivo: "take off your shoes"
 put on | /ˈpʊt ˈɑːn/ | mettersi (i vestiti) | "Put on your jacket. It's cold." Con il pronome va in mezzo: "Put it on." Il contrario è "take off"
 look up | /ˈlʊk ˈʌp/ | cercare (su un dizionario o online) | "Look it up online." Per qualcosa di perso si usa "look for"
-give back | /ˈgɪv ˈbæk/ | restituire | Con gli oggetti è più comune di "return": "Give it back!" Verbo latino corrispondente: «restituire»
+give back | /ˈgɪv ˈbæk/ | restituire | Con gli oggetti è più comune di "return": "Give it back!"
 throw away | /ˈθroʊ əˈweɪ/ | buttare via | "Don't throw it away!" Negli Stati Uniti si dice anche "throw out"
 sit down | /ˈsɪt ˈdaʊn/ | sedersi | "Please sit down." Per alzarsi da una sedia: "stand up". In inglese non c'è «si» riflessivo
 end up | /ˈend ˈʌp/ | finire per | "We ended up at a pizza place." Per qualcosa che non avevi programmato
@@ -357,14 +357,14 @@ take care of | /ˈteɪk ˈker əv/ | occuparsi di | "I'll take care of it." (Ci 
 hurry up | /ˈhɜːri ˈʌp/ | sbrigarsi | "Hurry up! We're late." Senza "up" è ugualmente corretto: "Hurry!"
 `,
 "Trappole di pronuncia": `
-ship | /ˈʃɪp/ | nave | La "i" è breve e rilassata, a metà tra «i» ed «e»: non è la «i» italiana accorciata. Se la allunghi dici "sheep" (pecora)
-sheep | /ˈʃiːp/ | pecora | "ee" lunga e tesa, con le labbra tirate. Se la accorci dici "ship". Il plurale è uguale: one sheep, two sheep
+ship | /ˈʃɪp/ | nave | La "i" è breve e rilassata, a metà tra «i» ed «e»: non è la «i» italiana accorciata. Con la «i» italiana, tesa, dici "sheep" (pecora)
+sheep | /ˈʃiːp/ | pecora | "ee" lunga e tesa, con le labbra tirate. Se la rilassi verso la «e» dici "ship": conta il timbro, non solo la durata. Il plurale è uguale: one sheep, two sheep
 shoes | /ˈʃuːz/ | scarpe | La "sh" è la «sc» di «scena». Se la dici come «c» di «ciao» suona "choose": cambia solo il primo suono
 choose | /ˈtʃuːz/ | scegliere | La "ch" inglese è la «c» di «ciao», mai la «k» di «chiave». Confrontala con "shoes": cambia solo il primo suono
 hair | /ˈher/ | i capelli | La "h" si sente, come un soffio: senza si dice "air". "hair" non si conta: "my hair", non "my hairs", anche se «i capelli» è plurale
 air | /ˈer/ | l'aria | Nessun suono all'inizio: la parola comincia con la vocale. Se aggiungi una "h" diventa "hair"
 school | /ˈskuːl/ | scuola | La "sch" si legge /sk/ come l'inizio di «scuola»; la "oo" è lunga (/uː/) e la parola finisce in "l", senza vocale dopo
-worked | /ˈwɜːrkt/ | lavorato (passato di "work") | Una sola sillaba che finisce in /t/: mai "wor-ked" e mai /d/. La -ed dopo /k/ suona /t/
+worked | /ˈwɜːrkt/ | lavorato (passato di "work") | Una sola sillaba che finisce in /t/: mai «uor-ked» e mai /d/. La -ed dopo /k/ suona /t/
 think | /ˈθɪŋk/ | pensare | La "th" è la punta della lingua tra i denti, soffiando e senza voce: né «t» né «s». Con «t» suona "tink", con «s» "sink"
 sink | /ˈsɪŋk/ | lavandino / affondare | La "s" è con la lingua dietro i denti. Confrontala con "think"
 three | /ˈθriː/ | tre | Lingua tra i denti. Con «t» suona "tree" (albero). La "r" inglese non è vibrata
@@ -379,10 +379,10 @@ work | /ˈwɜːrk/ | lavorare | La vocale è /ɜːr/: labbra non arrotondate e l
 beach | /ˈbiːtʃ/ | spiaggia | "ea" lunga. Se la accorci suona come una parolaccia. La "ch" è /tʃ/, come la «c» di «ciao»
 leave | /ˈliːv/ | andarsene | "ea" lunga. Confrontala con "live" (vivere), che ha la vocale breve
 live | /ˈlɪv/ | vivere | La "i" è breve e rilassata, con la bocca meno tesa che in "leave"
-banana | /bəˈnænə/ | la banana (frutto) | L'accento è sulla sillaba centrale, come in italiano; la prima e l'ultima vocale diventano una /ə/ debolissima: /bəˈnænə/
-hotel | /hoʊˈtel/ | l'hotel (albergo) | La "h" si sente e l'accento è sull'ultima sillaba; la prima vocale è un dittongo (/oʊ/): /hoʊˈtel/
-milk | /ˈmɪlk/ | il latte (bevanda) | Finisce in /k/: nessuna vocale dopo la «k» (non «milke»). Attenzione: "a latte" è un caffellatte, il latte è "milk"
-McDonald's | /məkˈdɑːnldz/ | il McDonald's (fast food) | L'accento è su "Don" come in italiano, ma la "o" è /ɑː/ (aperta) e dopo /ldz/ non c'è nessuna vocale
+banana | /bəˈnænə/ | la banana (frutto) | L'accento tonico è sulla sillaba centrale, come in italiano; la prima e l'ultima vocale diventano una /ə/ debolissima: /bəˈnænə/
+hotel | /hoʊˈtel/ | l'hotel (albergo) | La "h" si sente e l'accento tonico è sull'ultima sillaba; la prima vocale è un dittongo (/oʊ/): /hoʊˈtel/
+milk | /ˈmɪlk/ | il latte (bevanda) | Finisce in /k/: nessuna vocale dopo la «k» (non «milche»). Attenzione: "a latte" è un caffellatte, il latte è "milk"
+McDonald's | /məkˈdɑːnldz/ | il McDonald's (fast food) | L'accento tonico è su "Don" come in italiano, ma la "o" è /ɑː/ (aperta) e dopo /ldz/ non c'è nessuna vocale
 `,
 "Espressioni idiomatiche": `
 It's a piece of cake. | /ɪts ə ˈpiːs əv ˈkeɪk/ | È un gioco da ragazzi | Per qualcosa di molto facile: "The test was a piece of cake." Come «è una passeggiata»: in inglese è una fetta di torta
@@ -393,7 +393,7 @@ I'm feeling under the weather. | /aɪm ˈfiːlɪŋ ʌndər ðə ˈweðər/ | Mi 
 I need to hit the books. | /aɪ ˈniːd tə ˈhɪt ðə ˈbʊks/ | Devo mettermi sotto con lo studio | Prima di un esame, come la maturità o una prova Cambridge. Simile a «mettersi sotto a studiare»
 Once in a blue moon | /ˈwʌns ɪn ə ˈbluː ˈmuːn/ | Ogni morte di papa | Molto di rado. L'italiano usa un papa, l'inglese una luna blu
 Better late than never. | /ˈbetər ˈleɪt ðən ˈnevər/ | Meglio tardi che mai | Uguale all'italiano. Nel confronto «che» si dice "than", mai "that"
-Don't beat around the bush. | /ˈdoʊnt ˈbiːt əraʊnd ðə ˈbʊʃ/ | Non menare il can per l'aia | Per chiedere a qualcuno di venire al punto. Come in italiano cambia l'immagine: un cespuglio, non un cane
+Don't beat around the bush. | /ˈdoʊnt ˈbiːt əraʊnd ðə ˈbʊʃ/ | Non menare il can per l'aia | Per chiedere a qualcuno di venire al punto. L'immagine cambia: in inglese un cespuglio, in italiano un cane
 It's not my cup of tea. | /ɪts ˈnɑːt maɪ ˈkʌp əv ˈtiː/ | Non fa per me | Modo gentile per dire che una cosa non ti piace. Dopo "my" non c'è l'articolo
 Let's get the ball rolling. | /ˈlets ˈget ðə ˈbɔːl ˈroʊlɪŋ/ | Diamo il via | Per iniziare una riunione o un progetto: letteralmente, «facciamo rotolare la palla»
 I'll keep my fingers crossed. | /aɪl ˈkiːp maɪ ˈfɪŋgərz ˈkrɔːst/ | Terrò le dita incrociate | Lo stesso gesto dell'italiano «incrociare le dita»; in inglese si dice "keep" (tenere)
@@ -402,7 +402,7 @@ Speak of the devil! | /ˈspiːk əv ðə ˈdevl/ | Parli del diavolo! | Quando a
 The ball is in your court. | /ðə ˈbɔːl ɪz ɪn jʊr ˈkɔːrt/ | La palla è nel tuo campo | Viene dal tennis, come in italiano: ora tocca a te decidere
 My lips are sealed. | /maɪ ˈlɪps ər ˈsiːld/ | Sarò una tomba | In inglese le labbra sono «sigillate»; in italiano si è una tomba. Davanti a "my" non c'è l'articolo
 It's on the tip of my tongue. | /ɪts ɑːn ðə ˈtɪp əv maɪ ˈtʌŋ/ | Ce l'ho sulla punta della lingua | Uguale all'italiano. Il soggetto "it" è la parola che non ti viene
-I'm all ears. | /aɪm ˈɔːl ˈɪrz/ | Sono tutto orecchi | Uguale all'italiano. "ears" è plurale, come «orecchi»
+I'm all ears. | /aɪm ˈɔːl ˈɪrz/ | Sono tutt'orecchi | Uguale all'italiano. "ears" è plurale, come «orecchi»
 When pigs fly. | /wen ˈpɪgz ˈflaɪ/ | Quando gli asini voleranno | Per qualcosa che non succederà mai: "He'll clean his room when pigs fly." Dopo "when" il presente anche per il futuro: mai "when pigs will fly"
 `,
 "Cinema, serie e slang": `
@@ -420,7 +420,7 @@ It's a must-watch. | /ɪts ə ˈmʌstwɑːtʃ/ | Imperdibile | Per consigliare q
 Plot twist! | /ˈplɑːt ˈtwɪst/ | Colpo di scena! | Anche nella vita vera, quando succede qualcosa che nessuno si aspettava
 It's overrated. | /ɪts ˌoʊvərˈreɪtɪd/ | È sopravvalutato | Il contrario: "underrated" (sottovalutato)
 That scene gave me chills. | /ˈðæt ˈsiːn ˈgeɪv mi ˈtʃɪlz/ | Quella scena mi ha fatto venire i brividi | Per emozione o tensione. Si dice "give me chills", non "make me chills"
-Who's your favorite character? | /ˈhuːz jʊr ˈfeɪvərɪt ˈkærɪktər/ | Qual è il tuo personaggio preferito? | Negli Stati Uniti si scrive "favorite"; in inglese britannico "favourite". In "character" la "ch" è /k/, come in «chitarra», e l'accento è sulla prima sillaba
+Who's your favorite character? | /ˈhuːz jʊr ˈfeɪvərɪt ˈkærɪktər/ | Qual è il tuo personaggio preferito? | Negli Stati Uniti si scrive "favorite"; in inglese britannico "favourite". In "character" la "ch" è /k/, come in «chitarra», e l'accento tonico è sulla prima sillaba
 Are you kidding me? | /ər ju ˈkɪdɪŋ mi/ | Stai scherzando? | Frase tipica delle serie TV: sorpresa o rabbia. "kid" qui è un verbo (scherzare), oltre che un nome (bambino)
 I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Ti copro le spalle | Vuol dire che sosterrai e difenderai l'altra persona. In italiano si coprono «le spalle»; in inglese si ha la schiena ("back")
 Gotcha. | /ˈgɑːtʃə/ | Capito! | Viene da "got you". L'uso più comune è dire che hai capito. La "tch" è /tʃ/, come la «c» di «ciao»
@@ -428,9 +428,9 @@ Let's do this! | /ˈlets ˈduː ˈðɪs/ | Facciamolo! | Per darsi la carica pri
 `,
 "Parole essenziali": `
 Did you get my message? | /dɪd ju ˈget maɪ ˈmesɪdʒ/ | Ti è arrivato il mio messaggio? | "get" = ricevere. È uno dei verbi più usati dell'inglese parlato: ricevere, ottenere, arrivare, diventare... Dopo "did" il verbo resta alla forma base ("get", non "got")
-I don't get it. | /aɪ ˈdoʊnt ˈget ɪt/ | Non lo capisco | "get" vuol dire anche «capire» nella conversazione. Più informale di "I don't understand"
+I don't get it. | /aɪ ˈdoʊnt ˈget ɪt/ | Non ci arrivo | "get" vuol dire anche «capire» nella conversazione. Più informale di "I don't understand"
 I'm getting tired. | /aɪm ˈgetɪŋ ˈtaɪərd/ | Mi sto stancando | "get" + aggettivo = diventare: "get tired", "get angry", "get better"
-What time do you get home? | /ˈwʌt ˈtaɪm də ju ˈget ˈhoʊm/ | A che ora arrivi a casa? | "get" + luogo = arrivare. Attenzione: "get home" senza "to", mentre «a casa» in altri casi: "get to work", "get to the station"
+What time do you get home? | /ˈwʌt ˈtaɪm də ju ˈget ˈhoʊm/ | A che ora arrivi a casa? | "get" + luogo = arrivare. Attenzione: "get home" va senza "to"; con gli altri luoghi serve "to": "get to work", "get to the station"
 It takes 20 minutes. | /ɪt ˈteɪks ˈtwenti ˈmɪnɪts/ | Ci vogliono 20 minuti | «Ci vogliono» (volerci) si dice "it takes", non "it wants": il soggetto "it" è obbligatorio e "takes" prende la -s (terza persona)
 Take your time. | /ˈteɪk jʊr ˈtaɪm/ | Fai con calma | "take" serve per prendere, portare e metterci tempo. Frase gentile per dire a qualcuno di non avere fretta
 Where did you put my keys? | /ˈwer dɪd ju ˈpʊt maɪ ˈkiːz/ | Dove hai messo le mie chiavi? | "put" = mettere. È irregolare e non cambia al passato: put, put, put. Davanti a "my" non c'è l'articolo
@@ -445,8 +445,8 @@ I've already eaten. | /aɪv ɔːlˈredi ˈiːtn/ | Ho già mangiato | Come in it
 Are you still here? | /ər ju ˈstɪl ˈhɪr/ | Sei ancora qui? | "still" = ancora (qualcosa continua). «Ancora» può essere anche "yet" (non ancora) o "again" (di nuovo). Va dopo "be" e prima degli altri verbi: "I still live here"
 Not yet. | /ˈnɑːt ˈjet/ | Non ancora | "yet" va in fondo. Nelle frasi negative vuol dire «ancora»: "I haven't finished yet." La "y" è la «i» di «ieri»
 Have you finished yet? | /həv ju ˈfɪnɪʃt ˈjet/ | Hai già finito? | Nelle domande «già» si dice "yet", in fondo alla frase, non "already". Negli Stati Uniti si sente anche "Did you finish yet?"
-I'd love to. | /aɪd ˈlʌv tuː/ | Mi piacerebbe | "'d" è "would", il condizionale. In italiano il soggetto di «mi piacerebbe» è la cosa che piace, in inglese è "I". Risposta tipica a un invito
-Would you like some tea? | /wəd ju ˈlaɪk ˈsʌm ˈtiː/ | Gradisci del tè? | "Would you like...?" offre qualcosa con cortesia. "Do you like...?" chiede se ti piace. In un'offerta si usa "some", non "any"
+I'd love to. | /aɪd ˈlʌv tuː/ | Mi piacerebbe molto! / Volentieri! | "'d" è "would", il condizionale. In italiano il soggetto di «mi piacerebbe» è la cosa che piace, in inglese è "I". Risposta tipica a un invito
+Would you like some tea? | /wəd ju ˈlaɪk ˈsʌm ˈtiː/ | Vuoi un tè? | "Would you like...?" offre qualcosa con cortesia. "Do you like...?" chiede se ti piace. In un'offerta si usa "some", non "any"
 Let me help you. | /ˈlet mi ˈhelp ju/ | Lascia che ti aiuti | "let" + persona + forma base senza "to": "Let me see", "Let me know"
 Can you bring me the menu? | /kən ju ˈbrɪŋ mi ðə ˈmenjuː/ | Mi porti il menù? | In italiano «portare» è un solo verbo; in inglese "bring" è portare verso chi parla, "take" è portare via. Passato: "brought"
 I almost forgot. | /aɪ ˈɔːlmoʊst fərˈgɑːt/ | Per poco non me ne dimenticavo | "almost" = quasi. Va prima del verbo: "I almost missed the bus." (Per poco non perdevo l'autobus.)
@@ -521,15 +521,15 @@ information | /ˌɪnfərˈmeɪʃn/ | l'informazione | -tion = -zione. Attenzione
 conversation | /ˌkɑːnvərˈseɪʃn/ | la conversazione | -tion = -zione. L'accento tonico è su "sa" (/ˌkɑːnvərˈseɪʃn/), non su «zio»; "-tion" si legge /ʃn/
 university | /ˌjuːnɪˈvɜːrsəti/ | l'università | -ty = -tà. L'accento tonico è su "ver" (/ˌjuːnɪˈvɜːrsəti/), non sull'ultima sillaba come in «università». Comincia con /j/: "a university", non "an university"
 opportunity | /ˌɑːpərˈtuːnəti/ | l'opportunità | -ty = -tà. L'accento tonico è su "tu" (/ˌɑːpərˈtuːnəti/), non sull'ultima sillaba come in «opportunità»
-famous | /ˈfeɪməs/ | famoso / famosa | -ous = -oso. L'accento è sulla prima sillaba, che è un dittongo (/ˈfeɪməs/); "-ous" si legge /əs/, non «us»
+famous | /ˈfeɪməs/ | famoso / famosa | -ous = -oso. L'accento tonico è sulla prima sillaba, che è un dittongo (/ˈfeɪməs/); "-ous" si legge /əs/, non «us»
 delicious | /dɪˈlɪʃəs/ | delizioso / deliziosa | -ous = -oso. L'accento tonico è su "li" (/dɪˈlɪʃəs/), mentre in «delizioso» cade su «zio». "-cious" si legge /ʃəs/
-probably | /ˈprɑːbəbli/ | probabilmente | -ly = -mente. L'accento è sulla prima sillaba (/ˈprɑːbəbli/): in «probabilmente» cade su «men»
-exactly | /ɪgˈzæktli/ | esattamente | -ly = -mente. Si scrive con la "x" (/gz/), mentre «esattamente» ha la "s". L'accento tonico è su "sact" (/ɪgˈzæktli/)
-different | /ˈdɪfrənt/ | diverso / differente | -ent = -ente. L'accento è sulla prima sillaba e le sillabe sono due (/ˈdɪfrənt/). Si dice "different from", come «diverso da»
-excellent | /ˈeksələnt/ | eccellente | -ent = -ente. L'accento è sulla prima sillaba (/ˈeksələnt/), non su «len» come in «eccellente»
-photograph | /ˈfoʊtəgræf/ | la fotografia | ph = f. L'accento è sulla prima sillaba (/ˈfoʊtəgræf/), non su «to» come in «fotògrafo». Il fotografo è "photographer", con un altro accento: /fəˈtɑːgrəfər/
-pharmacy | /ˈfɑːrməsi/ | la farmacia | ph = f. L'accento è sulla prima sillaba (/ˈfɑːrməsi/), non su «ci» come in «farmacìa». Si scrive con una sola "m". Negli Stati Uniti anche: drugstore
-chemistry | /ˈkemɪstri/ | la chimica | Qui la "ch" è /k/, come in «chimica», ma la prima vocale è /e/, non «i»: /ˈkemɪstri/, con l'accento sulla prima sillaba
-comfortable | /ˈkʌmftərbl/ | comodo / comoda | Non si dice «con-for-TE-vole»: l'accento è sulla prima sillaba e si pronunciano solo tre sillabe: /ˈkʌmftərbl/
+probably | /ˈprɑːbəbli/ | probabilmente | -ly = -mente. L'accento tonico è sulla prima sillaba (/ˈprɑːbəbli/): in «probabilmente» cade su «men»
+exactly | /ɪgˈzæktli/ | esattamente | -ly = -mente. Si scrive con la "x" (/gz/), mentre «esattamente» ha la "s". L'accento tonico è sulla seconda sillaba: /ɪgˈzæktli/
+different | /ˈdɪfrənt/ | diverso / differente | -ent = -ente. L'accento tonico è sulla prima sillaba e le sillabe sono due (/ˈdɪfrənt/). Si dice "different from", come «diverso da»
+excellent | /ˈeksələnt/ | eccellente | -ent = -ente. L'accento tonico è sulla prima sillaba (/ˈeksələnt/), non su «len» come in «eccellente»
+photograph | /ˈfoʊtəgræf/ | la fotografia | ph = f. L'accento tonico è sulla prima sillaba (/ˈfoʊtəgræf/), non su «to» come in «fotògrafo». Il fotografo è "photographer", con l'accento tonico sulla seconda sillaba: /fəˈtɑːgrəfər/
+pharmacy | /ˈfɑːrməsi/ | la farmacia | ph = f. L'accento tonico è sulla prima sillaba (/ˈfɑːrməsi/), non su «ci» come in «farmacìa». Si scrive con una sola "m". Negli Stati Uniti anche: drugstore
+chemistry | /ˈkemɪstri/ | la chimica | Qui la "ch" è /k/, come in «chimica», ma la prima vocale è /e/, non «i»: /ˈkemɪstri/, con l'accento tonico sulla prima sillaba
+comfortable | /ˈkʌmftərbl/ | comodo / comoda | L'accento tonico non va verso la fine come in «confortevole»: cade sulla prima sillaba, e le sillabe pronunciate sono solo tre: /ˈkʌmftərbl/
 `
 };

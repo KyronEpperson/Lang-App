@@ -26,7 +26,7 @@ exports.DESC = {
   "Sopravvivenza 2": "Bagno, prezzi, wifi, foto: frasi da usare appena arrivi",
   "Indicazioni e trasporti": "Chiedere la strada, capire le indicazioni e muoverti in metropolitana, autobus e taxi",
   "Al ristorante": "Dal chiedere un tavolo al chiedere il conto: piatti, allergie, pagamento e mancia",
-  "Bar e negozio": "Ordinare da bere, scegliere dimensioni e opzioni, scontrini e buste (e perché un \"latte\" americano non è un caffellatte)",
+  "Bar e negozio": "Ordinare da bere, scegliere misura e opzioni, scontrini e buste (e perché un \"latte\" americano non è un caffellatte)",
   "Acquisti e pagamenti": "Guardare, provare i vestiti, chiedere la taglia, pagare, fare un reso e un cambio",
   "Numeri, ore e date": "Ore, date, prezzi e numeri grandi all'inglese (con il punto decimale)",
   "Due chiacchiere": "Rompere il ghiaccio e portare avanti la conversazione: tempo, fine settimana, hobby",
@@ -36,7 +36,7 @@ exports.DESC = {
   "Telefono e abbreviazioni": "Inglese al telefono e abbreviazioni da chat come LOL, BRB e TBH",
   "Viaggi (aeroporto e hotel)": "Controllo passaporti, check-in, posti, bagagli e richieste in albergo",
   "Salute ed emergenze": "Che cosa dire se ti senti male, ti fai male, perdi qualcosa o ti rubano qualcosa",
-  "Phrasal verbs": "I phrasal verbs che i madrelingua usano di più, come pick up e figure out, al posto del verbo colto",
+  "Phrasal verbs": "I phrasal verb che i madrelingua usano di più, come pick up e figure out, al posto del verbo colto",
   "Trappole di pronuncia": "Ship/sheep, hair/air, cat/cut, bad/bed, shoes/choose, la h, la th, la -ed e le vocali finali: i suoni che costano di più a chi parla italiano",
   "Espressioni idiomatiche": "Espressioni che non si capiscono parola per parola, con il loro equivalente italiano",
   "Cinema, serie e slang": "Espressioni di oggi dalle serie, dalla musica e dai social",
@@ -44,7 +44,7 @@ exports.DESC = {
   "Falsi amici": "Actually, factory, educated, library, college: parole che assomigliano all'italiano ma significano un'altra cosa",
   "Make e do": "I due modi di dire «fare»: make a mistake, make a decision, do homework, do the dishes",
   "Non numerabili": "Advice, information, news, furniture, homework: in italiano si contano, in inglese non vogliono né -s né a/an",
-  "Parole trasparenti e accento": "-tion = -zione, -ty = -tà, -ous = -oso, -ly = -mente: parole che conosci già, con l'accento dove lo mette l'inglese"
+  "Parole trasparenti e accento": "-tion = -zione, -ty = -tà, -ous = -oso, -ly = -mente: parole che conosci già, con l'accento tonico dove lo mette l'inglese"
 };
 
 /* goal keys (travel/work/social/media) are fixed by the engine */

@@ -75,7 +75,7 @@
    "where": "html <a> text"
   },
   "Feedback": {
-   "t": "Feedback",
+   "t": "Pareri",
    "ko": "피드백",
    "kind": "label",
    "context": "bottom-nav tab: send feedback",
@@ -770,7 +770,7 @@
    "where": "html <span> text"
   },
   "Text size": {
-   "t": "Dimensione del testo",
+   "t": "Testo",
    "ko": "글자 크기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -864,7 +864,7 @@
    "where": "html text"
   },
   "Feedback board": {
-   "t": "Bacheca dei feedback",
+   "t": "Bacheca dei pareri",
    "ko": "피드백 게시판",
    "kind": "label",
    "where": "html <b> text"
@@ -982,7 +982,7 @@
    "where": "html <h3> text"
   },
   "Use the Feedback tab. If it's private, post without your name and say how to reach you — or just sign in and tick \"Show my name\".": {
-   "t": "Usa la scheda Feedback. Se è una cosa privata, scrivi senza il tuo nome e indica come contattarti — oppure accedi e spunta \"Mostra il mio nome\".",
+   "t": "Usa la scheda Pareri. Se è una cosa privata, scrivi senza il tuo nome e indica come contattarti — oppure accedi e spunta \"Mostra il mio nome\".",
    "ko": "피드백 탭을 이용하세요. 비공개로 전하고 싶다면 이름 없이 올리고 연락 방법을 남겨 주세요 — 아니면 로그인하고 \"내 이름 표시\"를 체크하세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1052,7 +1052,7 @@
    "where": "html <textarea> @placeholder"
   },
   "Feedback message": {
-   "t": "Messaggio di feedback",
+   "t": "Il tuo parere",
    "ko": "피드백 내용",
    "kind": "label",
    "where": "html <textarea> @aria-label"
@@ -1070,19 +1070,19 @@
    "where": "html <p> text"
   },
   "Send feedback": {
-   "t": "Invia feedback",
+   "t": "Invia il parere",
    "ko": "피드백 보내기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Community feedback": {
-   "t": "Feedback della community",
+   "t": "Pareri della community",
    "ko": "커뮤니티 피드백",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Refresh feedback": {
-   "t": "Aggiorna i feedback",
+   "t": "Aggiorna i pareri",
    "ko": "피드백 새로고침",
    "kind": "label",
    "where": "html <button> @aria-label"
@@ -1113,7 +1113,7 @@
    "where": "js box() <div>"
   },
   "Couldn't load feedback right now.": {
-   "t": "Impossibile caricare i feedback in questo momento.",
+   "t": "Impossibile caricare i pareri in questo momento.",
    "ko": "지금은 피드백을 불러올 수 없어요.",
    "kind": "sentence",
    "where": "js r() <div>"
@@ -1235,7 +1235,7 @@
    "where": "js pl() <button>"
   },
   "No feedback yet — be the first.": {
-   "t": "Ancora nessun feedback — inizia tu.",
+   "t": "Ancora nessun parere — inizia tu.",
    "ko": "아직 피드백이 없어요 — 첫 글을 남겨 보세요.",
    "kind": "sentence",
    "where": "js roots() <div>"
@@ -1259,7 +1259,7 @@
    "where": "js last()"
   },
   "Feedback sending works on the website version.": {
-   "t": "L'invio dei feedback funziona nella versione web.",
+   "t": "L'invio dei pareri funziona nella versione web.",
    "ko": "피드백 보내기는 웹사이트 버전에서 할 수 있어요.",
    "kind": "sentence",
    "where": "js last()"
@@ -3155,19 +3155,19 @@
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "Viaggio all'estero",
+   "t": "Preparare un viaggio",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Make friends & date": {
-   "t": "Amicizie e appuntamenti",
+   "t": "Fare amicizia in inglese",
    "ko": "친구 사귀기 & 데이트",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Conversational in 90 days": {
-   "t": "Conversare in 90 giorni",
+   "t": "Conversazione in 90 giorni",
    "ko": "90일 만에 회화하기",
    "kind": "label",
    "where": "js ids()"
@@ -4464,7 +4464,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#media": {
-   "t": "#media",
+   "t": "#cinema",
    "ko": "#미디어",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -6287,7 +6287,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Couldn't delete right now ({x}). Try again, or post in Feedback.": {
-   "t": "Impossibile eliminare in questo momento ({1}). Riprova oppure scrivi in Feedback.",
+   "t": "Impossibile eliminare in questo momento ({1}). Riprova oppure scrivi in Pareri.",
    "ko": "지금은 삭제할 수 없어요 ({1}). 다시 시도하거나 피드백에 남겨 주세요.",
    "slots": "{1}=x",
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
@@ -6746,13 +6746,13 @@
    "example": "5/2 · Progress"
   },
   "Feedback · quick actions": {
-   "t": "Feedback · azioni rapide",
+   "t": "Pareri · azioni rapide",
    "ko": "피드백 · 빠른 실행",
    "slots": "",
    "example": "Feedback · quick actions"
   },
   "{n}/{n} · Feedback": {
-   "t": "{1}/{2} · Feedback",
+   "t": "{1}/{2} · Pareri",
    "ko": "{1}/{2} · 피드백",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Feedback"
@@ -6890,7 +6890,7 @@
    "context": "{0} = target language name in the UI language (英語) — Course switched toast (LL)"
   },
   "How much {x} do you know?": {
-   "t": "Quanto sai di {1}?",
+   "t": "Quanto ne sai di {1}?",
    "ko": null,
    "slots": "{1}=x",
    "example": "How much 英語 do you know?",

@@ -1,0 +1,252 @@
+/* de-en: the original 11 lessons and their checks, written for German speakers (Germany; docs/profiles/de.md §8).
+   English examples, check options and answer positions follow es-en except in the lessons and checks listed in deviations.json
+   (pron rebuilt for German sound traps; technical German check options in articles, polite, numbers, phrasal, idioms). */
+exports.LESSONS = [
+{ id:"pron", title:"1 · Aussprachefallen: Lautschrift, bad/bed, w/v, th, Auslaut", blurb:"Lerne die Lautschrift (IPA) auf den Karten lesen und lerne die typischen Fallen für Deutschsprachige kennen: /æ/, w und v, th, das englische j und stimmhafte Endungen.", deck:"Aussprachefallen", body:`
+<p>Die Karten und Beispiele in diesem Kurs zeigen die <b>Lautschrift (IPA), wie im Wörterbuch</b>, mit den Lauten des amerikanischen Englisch. Du kennst sie wahrscheinlich aus der Schule. Sie löst ein echtes Problem: Liest du englische Wörter mit deutschen Buchstabenwerten, wird aus <i>wine</i> „Wein“ mit deutschem w, aus <i>zoo</i> ein „Tsu“ und aus <i>bag</i> ein „Bäck“. Nimm dir ein paar Minuten für die Tabelle und schau später wieder hinein, wenn du sie brauchst. Du kannst die Lautschrift unter „Lautschrift anzeigen (IPA)“ ausschalten.</p>
+<h3>So liest du die Lautschrift</h3>
+<div class="tbl"><table><tr><th>IPA</th><th>Wie im Deutschen (⚠ = Falle)</th><th>Beispiel</th></tr><tr><td class="k">iː / ɪ</td><td>„ie“ in „Liebe“ / „i“ in „Mitte“</td><td>sheep /ˈʃiːp/, ship /ˈʃɪp/</td></tr><tr><td class="k">e</td><td>„e“ in „Bett“</td><td>bed /ˈbed/</td></tr><tr><td class="k">æ</td><td>kein deutscher Laut: zwischen „ä“ und „a“, Mund weit offen; <b>bad ist nicht bed</b> ⚠</td><td>bad /ˈbæd/</td></tr><tr><td class="k">ʌ</td><td>kurzes „a“ wie in „Mann“, aber weiter hinten und entspannter ⚠</td><td>cut /ˈkʌt/</td></tr><tr><td class="k">ə</td><td>„e“ am Ende von „bitte“</td><td>about /əˈbaʊt/</td></tr><tr><td class="k">ɑː</td><td>„a“ in „Vater“</td><td>hot /ˈhɑːt/</td></tr><tr><td class="k">ɔː</td><td>offenes „o“ wie in „Sonne“, aber lang</td><td>talk /ˈtɔːk/</td></tr><tr><td class="k">uː / ʊ</td><td>„u“ in „Schule“ / „u“ in „Mutter“</td><td>food /ˈfuːd/, book /ˈbʊk/</td></tr><tr><td class="k">ɜːr / ər</td><td>wie „ö“ in „Löffel“, aber ohne runde Lippen, dann das englische r ⚠</td><td>bird /ˈbɜːrd/, water /ˈwɔːtər/</td></tr><tr><td class="k">eɪ aɪ ɔɪ oʊ aʊ</td><td>zwei Laute, die ineinander gleiten: „ei“ in „Eis“ = aɪ, „eu“ in „heute“ = ɔɪ, „au“ in „Haus“ = aʊ; <b>day ist nicht „De“, go ist nicht „Go“</b> ⚠</td><td>day /ˈdeɪ/, go /ˈgoʊ/</td></tr><tr><td class="k">θ / ð</td><td>Zunge zwischen den Zähnen, ohne / mit Stimme; weder „s“ noch „z“, weder „f“ noch „d“ ⚠</td><td>think /ˈθɪŋk/, this /ˈðɪs/</td></tr><tr><td class="k">w</td><td>Lippen rund wie bei „u“, dann öffnen; nie das deutsche „w“ ⚠</td><td>wine /ˈwaɪn/, we /wi/</td></tr><tr><td class="k">v</td><td>das deutsche „w“ in „Wein“ ⚠</td><td>vine /ˈvaɪn/, very /ˈveri/</td></tr><tr><td class="k">z / s</td><td>z = weiches „s“ wie in „Sonne“ (nicht das deutsche „z“ = ts); s = „ß“ in „Fuß“ ⚠</td><td>zoo /ˈzuː/, sun /ˈsʌn/</td></tr><tr><td class="k">ʃ / ʒ</td><td>„sch“ in „Schule“ / „g“ in „Garage“</td><td>she /ʃi/, usually /ˈjuːʒuəli/</td></tr><tr><td class="k">tʃ / dʒ</td><td>„tsch“ in „Deutsch“ / „dsch“ in „Dschungel“; das englische <i>j</i> ist dʒ ⚠</td><td>chair /ˈtʃer/, job /ˈdʒɑːb/</td></tr><tr><td class="k">j</td><td>das deutsche „j“ in „ja“; das IPA-<i>j</i> ist das englische <i>y</i> ⚠</td><td>yes /ˈjes/</td></tr><tr><td class="k">ŋ</td><td>„ng“ in „singen“, ohne g danach</td><td>sing /ˈsɪŋ/</td></tr><tr><td class="k">r</td><td>Zunge nach hinten gebogen, berührt nichts; kein Rachen-r, und nach Vokalen immer hörbar ⚠</td><td>red /ˈred/, car /ˈkɑːr/</td></tr><tr><td class="k">b d g z v am Wortende</td><td>bleiben stimmhaft, werden nicht zu p t k s f ⚠</td><td>bag /ˈbæg/, back /ˈbæk/</td></tr><tr><td class="k">ˈ</td><td>steht <b>vor</b> der betonten Silbe, oft nicht dort, wo das deutsche Fremdwort betont ist ⚠</td><td>chemistry /ˈkemɪstri/</td></tr></table></div>
+<p>Wörter ohne ˈ (<i>a, the, to, can</i>…) sind schwach: schnell und ohne Druck sprechen. Achtung, Buchstaben-Falle: In der Lautschrift ist <i>z</i> ein weiches „s“ und <i>j</i> das englische <i>y</i>. Das deutsche „z“ wäre /ts/. Und im amerikanischen Englisch klingt ein <i>t</i> zwischen Vokalen wie ein schnelles „d“ (<i>water</i>, <i>city</i>). Die Lautschrift zeigt das nicht, das Audio schon.</p>
+<h3>Vokale: bad ist nicht bed</h3>
+<p>Langes und kurzes i kennst du aus dem Deutschen („Miete“, „Mitte“), also ist <i>sheep / ship</i> leicht, wenn du auf die Schreibung achtest. Die echte Lücke ist /æ/: Das Deutsche hat diesen Laut nicht, und so klingen <i>bad</i> und <i>bed</i>, <i>man</i> und <i>men</i> bei vielen gleich. Öffne den Mund für /æ/ weit, fast wie für „a“.</p>
+{{ex:ship / sheep|/ˈʃɪp/ /ˈʃiːp/|Schiff / Schaf}}{{ex:live / leave|/ˈlɪv/ /ˈliːv/|wohnen / weggehen}}{{ex:full / fool|/ˈfʊl/ /ˈfuːl/|voll / Dummkopf}}{{ex:bad / bed|/ˈbæd/ /ˈbed/|schlecht / Bett}}{{ex:The sheep is on the ship.|/ðə ˈʃiːp ɪz ɑːn ðə ˈʃɪp/|Das Schaf ist auf dem Schiff.}}
+<h3>W und V</h3>
+<p>Das deutsche „w“ ist das englische <b>v</b>: <i>very</i>, <i>vine</i>. Das englische <b>w</b> gibt es im Deutschen nicht: Runde die Lippen wie für „u“ und öffne sie dann. Wer das lernt, macht oft den umgekehrten Fehler und sagt „wery“. Merke: Der Buchstabe <i>v</i> ist immer der „Wein“-Laut, der Buchstabe <i>w</i> immer der runde Lippenlaut.</p>
+{{ex:wine / vine|/ˈwaɪn/ /ˈvaɪn/|der Wein / die Weinrebe}}{{ex:The apartment is very warm.|/ði əˈpɑːrtmənt ɪz ˈveri ˈwɔːrm/|Die Wohnung ist sehr warm.}}
+<h3>Stimmhaft bis zum Schluss</h3>
+<p>Am Wortende sprichst du im Deutschen b, d, g wie p, t, k („Tag“ klingt wie „Tak“). Im Englischen nicht: <i>bag</i> und <i>back</i> sind zwei Wörter. Halte die Stimme beim letzten Laut an und mach den Vokal davor etwas länger. Das gilt auch für die Endung <b>-ed</b>: Sie ist nur nach <i>t</i> oder <i>d</i> eine eigene Silbe, und nach stimmhaften Lauten bleibt sie ein weiches /d/: <i>played</i> klingt nicht wie <i>plate</i>.</p>
+{{ex:bag / back|/ˈbæg/ /ˈbæk/|die Tasche / der Rücken}}
+<div class="tbl"><table><tr><th>Klingt wie</th><th>Wann</th><th>Beispiel</th></tr><tr><td class="k">t</td><td>nach stimmlosen Lauten (k, p, s, sch, tsch, f)</td><td>worked /ˈwɜːrkt/</td></tr><tr><td class="k">d</td><td>nach stimmhaften Lauten (Vokal, l, n, g, v…)</td><td>played /ˈpleɪd/</td></tr><tr><td class="k">ɪd</td><td>nur nach t oder d</td><td>wanted /ˈwɑːntɪd/</td></tr></table></div>
+{{ex:I worked yesterday.|/aɪ ˈwɜːrkt ˈjestərdeɪ/|Ich habe gestern gearbeitet.}}{{ex:We played soccer.|/wi ˈpleɪd ˈsɑːkər/|Wir haben Fußball gespielt.}}{{ex:She wanted to stay.|/ʃi ˈwɑːntɪd tə ˈsteɪ/|Sie wollte bleiben.}}
+<h3>TH</h3>
+<p>Für <b>th</b> legst du die Zungenspitze zwischen die Zähne: ohne Stimme in <i>think</i> /θ/, mit Stimme in <i>this</i> /ð/. Ersetzt du es durch „s“, „z“, „f“ oder „d“, sagst du ein anderes Wort: Aus <i>think</i> wird <i>sink</i> („Spülbecken“), aus <i>three</i> wird <i>tree</i> („Baum“).</p>
+{{ex:I think so.|/aɪ ˈθɪŋk ˈsoʊ/|Ich glaube schon.}}{{ex:think / sink|/ˈθɪŋk/ /ˈsɪŋk/|denken / Spülbecken}}{{ex:three / tree|/ˈθriː/ /ˈtriː/|drei / Baum}}
+<h3>SH, CH und das englische J</h3>
+<p><b>sh</b> ist „sch“, <b>ch</b> ist „tsch“: <i>shoes</i> („Schuhe“) und <i>choose</i> („wählen“). Das englische <b>j</b> ist immer „dsch“ wie in „Dschungel“. Liest du es wie das deutsche j, wird aus <i>joke</i> („Witz“) <i>yolk</i> („Eigelb“).</p>
+{{ex:shoes / choose|/ˈʃuːz/ /ˈtʃuːz/|Schuhe / wählen}}{{ex:joke / yolk|/ˈdʒoʊk/ /ˈjoʊk/|der Witz / das Eigelb}}{{ex:I like my job.|/aɪ ˈlaɪk maɪ ˈdʒɑːb/|Ich mag meinen Job.}}
+<h3>Die betonte Silbe</h3>
+<p>Deutsche Fremdwörter sind oft hinten betont („komfortabel“, „Schokolade“). Die englischen Verwandten meistens nicht, und die schwachen Silben werden sehr kurz.</p>
+<div class="tbl"><table><tr><th>Wort</th><th>Im Englischen</th><th>Nicht so</th></tr><tr><td class="k">comfortable</td><td>/ˈkʌmftərbl/: vorn betont, drei Silben</td><td>hinten betont wie „komfortabel“</td></tr><tr><td class="k">chocolate</td><td>/ˈtʃɑːklət/: zwei Silben</td><td>drei Silben, betont wie „Schokolade“</td></tr><tr><td class="k">vegetable</td><td>/ˈvedʒtəbl/: vorn betont, drei Silben</td><td>mit Betonung auf „ta“</td></tr><tr><td class="k">Wednesday</td><td>/ˈwenzdeɪ/: zwei Silben, das d ist stumm</td><td>drei Silben mit hörbarem d</td></tr></table></div>
+<div class="tip">Nimm dich selbst auf: <i>bad / bed</i>, <i>wine / vine</i>, <i>bag / back</i>, und vergleiche mit dem Audio. Klingt es gleich, übertreib den Unterschied: Mund weit auf für /æ/, runde Lippen für <i>w</i>, Stimme an bis zum letzten Laut.</div>`},
+
+{ id:"articles", title:"2 · a, an und the: wo Englisch und Deutsch nicht zusammenpassen", blurb:"Artikel kennst du aus dem Deutschen. Hier sind die Fälle, in denen das Englische sie anders setzt oder weglässt.", deck:"Sich vorstellen", body:`
+<p>Das Deutsche hat auch Artikel („ein, eine, der, die, das“), und meistens setzt du sie im Englischen richtig. Fehler passieren in den wenigen Fällen, in denen die beiden Sprachen <b>nicht zusammenpassen</b>. Es sind vier.</p>
+<h3>1. Berufe: mit a / an</h3>
+<p>Im Deutschen sagst du „Ich bin Student“ oder „Sie ist Ärztin“, ohne Artikel. Im Englischen ist der Artikel bei einem Beruf im Singular <b>Pflicht</b>.</p>
+{{ex:I'm a student.|/aɪm ə ˈstuːdnt/|Ich bin Student.}}{{ex:She's a nurse.|/ʃiz ə ˈnɜːrs/|Sie ist Krankenpflegerin.}}{{ex:My brother is an engineer.|/maɪ ˈbrʌðər ɪz ən ˌendʒɪˈnɪr/|Mein Bruder ist Ingenieur.}}
+<h3>2. a oder an? Der Laut entscheidet</h3>
+<p>Nimm <b>an</b>, wenn das nächste Wort mit einem Vokal <b>klingt</b>, auch wenn es mit einem Konsonanten geschrieben wird, und <b>a</b>, wenn es mit einem Konsonanten klingt, auch wenn es mit einem Vokal geschrieben wird.</p>
+<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university (klingt „ju“)</td><td class="k">an hour (das h ist stumm)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket (klingt „wan“)</td><td class="k">an MBA (klingt „em“)</td></tr></table></div>
+<h3>3. Abstraktes allgemein: ohne Artikel</h3>
+<p>Im Deutschen sagst du „<b>Das</b> Leben ist hart“ oder „<b>Die</b> Natur ist schön“. Im Englischen stehen abstrakte Begriffe und nicht zählbare Nomen, wenn du allgemein sprichst, <b>ohne Artikel</b>. Bei Plural im allgemeinen Sinn ist es wie im Deutschen: „Ich liebe Hunde“ = <i>I love dogs</i>.</p>
+{{ex:Life is hard.|/ˈlaɪf ɪz ˈhɑːrd/|Das Leben ist hart.}}{{ex:I love dogs.|/aɪ ˈlʌv ˈdɔːgz/|Ich liebe Hunde.}}{{ex:Coffee is expensive here.|/ˈkɔːfi ɪz ɪkˈspensɪv ˈhɪr/|Hier ist Kaffee teuer.}}
+<h3>4. Körperteile: Possessivbegleiter, nicht „the“</h3>
+<p>Im Deutschen sagst du „Mir tut <b>der</b> Kopf weh“ oder „Wasch dir <b>die</b> Hände“: Das „mir“ oder „dir“ zeigt, wessen Kopf es ist. Diese Form gibt es im Englischen nicht. Stattdessen steht der <b>Possessivbegleiter</b>: <i>my, your, his, her</i>.</p>
+{{ex:My head hurts.|/maɪ ˈhed ˈhɜːrts/|Mir tut der Kopf weh.}}{{ex:Wash your hands.|/ˈwɑːʃ jʊr ˈhændz/|Wasch dir die Hände.}}{{ex:I brush my teeth every day.|/aɪ ˈbrʌʃ maɪ ˈtiːθ ˈevri ˈdeɪ/|Ich putze mir jeden Tag die Zähne.}}
+<h3>Wie im Deutschen: the</h3>
+<p><i>The</i> funktioniert wie „der, die, das“: für etwas, das du schon erwähnt hast oder das beide kennen. Und es hat nur eine Form, egal ob Singular, Plural oder welches Geschlecht.</p>
+{{ex:I have a dog. The dog is so cute.|/aɪ ˈhæv ə ˈdɔːg ‖ ðə ˈdɔːg ɪz ˈsoʊ ˈkjuːt/|Ich habe einen Hund. Der Hund ist so süß.}}
+<div class="tip">Die zwei typischsten Fehler: <b>She is doctor.</b> (✗) → <b>She is a doctor.</b> (✓) und <b>The life is hard.</b> (✗) → <b>Life is hard.</b> (✓)</div>`},
+
+{ id:"be", title:"3 · Das Verb be: sein… und manchmal haben", blurb:"Be ist leicht, aber wo du „Hunger haben“ oder „mir ist kalt“ sagst, steht im Englischen auch be: I'm hungry, I'm cold.", deck:"Sich vorstellen", body:`
+<p><b>be</b> entspricht „sein“, und das Alter sagst du wie im Deutschen damit: <i>I'm 25</i>. Die Überraschung kommt anderswo: Bei vielen Ausdrücken, in denen das Deutsche <b>haben</b> sagt oder „mir ist…“, steht im Englischen <i>be</i> + Adjektiv, und das Subjekt ist immer <i>I</i>, nie <i>me</i>.</p>
+<h3>Die Formen von be</h3>
+<div class="tbl"><table><tr><th>Subjekt</th><th>be</th><th>Kurzform</th></tr><tr><td class="k">I</td><td>am</td><td>I'm</td></tr><tr><td class="k">you / we / they</td><td>are</td><td>you're, we're, they're</td></tr><tr><td class="k">he / she / it</td><td>is</td><td>he's, she's, it's</td></tr></table></div>
+{{ex:She's a teacher.|/ʃiz ə ˈtiːtʃər/|Sie ist Lehrerin.}}{{ex:She's at work.|/ʃiz ət ˈwɜːrk/|Sie ist bei der Arbeit.}}{{ex:Are you okay?|/ər ju oʊˈkeɪ/|Geht's dir gut?}}
+<h3>Wo das Deutsche „haben“ oder „mir ist“ sagt</h3>
+<p>Körpergefühle gehen mit <i>be</i> + Adjektiv. <i>I have hunger</i> oder <i>Me is cold</i> verrät sofort die deutsche Vorlage.</p>
+<div class="tbl"><table><tr><th>Deutsch</th><th>Englisch</th></tr><tr><td>Ich bin 25 (Jahre alt).</td><td class="k">I'm 25. / I'm 25 years old.</td></tr><tr><td>Ich habe Hunger. / Ich habe Durst.</td><td class="k">I'm hungry. / I'm thirsty.</td></tr><tr><td>Mir ist kalt. / Mir ist warm.</td><td class="k">I'm cold. / I'm hot.</td></tr><tr><td>Ich bin müde. / Ich habe Angst.</td><td class="k">I'm sleepy. / I'm scared.</td></tr><tr><td>Du hast recht.</td><td class="k">You're right.</td></tr></table></div>
+{{ex:I'm 25 years old.|/aɪm ˌtwentiˈfaɪv ˈjɪrz ˈoʊld/|Ich bin 25 Jahre alt.}}{{ex:I'm hungry.|/aɪm ˈhʌŋgri/|Ich habe Hunger.}}{{ex:I'm cold.|/aɪm ˈkoʊld/|Mir ist kalt.}}{{ex:You're right.|/jʊr ˈraɪt/|Du hast recht.}}
+<h3>Das Subjekt: wie im Deutschen</h3>
+<p>Hier hilft dir das Deutsche: Wo du „es“ sagst, steht <b>it</b>. „Es ist spät“ ist <i>It's late</i>.</p>
+{{ex:It's late.|/ɪts ˈleɪt/|Es ist spät.}}{{ex:He's at home.|/hiz ət ˈhoʊm/|Er ist zu Hause.}}
+<h3>Be und andere Verben nicht mischen</h3>
+<p>Mit <i>like, live, work</i> und allen anderen Verben steht kein <i>be</i>: <i>I like coffee</i>, nicht <i>I am like coffee</i>. Für Verneinung und Frage stell dir eine Frage: Gibt es im Satz noch ein anderes Verb als <i>be</i>? Wenn ja, brauchst du das Hilfsverb <i>do</i>. Wenn nicht, rückt <i>be</i> selbst vor das Subjekt, wie im Deutschen („Bist du müde?“).</p>
+<div class="tbl"><table><tr><th></th><th>be</th><th>andere Verben</th></tr><tr><td>Aussage</td><td class="k">I'm tired.</td><td class="k">I like coffee.</td></tr><tr><td>Verneinung</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>Frage</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
+<h3>he / she / it: -s und does</h3>
+<p>Das Deutsche hat für jede Person eine Endung; das Englische hat im simple present nur noch eine: das <b>-s</b> bei <i>he, she, it</i> (oder einem Nomen im Singular). „He, she, it – das s muss mit!“ In Verneinung und Frage steht <b>does</b>, und das Verb verliert das -s.</p>
+{{ex:My brother works in Munich.|/maɪ ˈbrʌðər ˈwɜːrks ɪn ˈmjuːnɪk/|Mein Bruder arbeitet in München.}}{{ex:Does he speak English?|/dəz hi ˈspiːk ˈɪŋglɪʃ/|Spricht er Englisch?}}{{ex:She doesn't eat meat.|/ʃi ˈdʌznt ˈiːt ˈmiːt/|Sie isst kein Fleisch.}}
+<div class="tip">Typische Fehler: <b>I have hunger</b> → <b>I'm hungry</b>; <b>Me is cold</b> → <b>I'm cold</b>; <b>She work</b> → <b>She works</b>.</div>`},
+
+{ id:"polite", title:"4 · Höflich bitten", blurb:"Can you → Could you → Would you mind. Ein englisches you für du, ihr und Sie – die Höflichkeit steckt woanders.", deck:"Das Nötigste 1", body:`
+<p>Im Englischen steht <b>you</b> für „du“, „ihr“ und „Sie“. Du wirst kein höfliches „Sie“ finden: Die Höflichkeit steckt nicht im Pronomen, sondern darin, <b>wie du bittest</b>: mit <i>could</i>, <i>would</i> und <i>please</i>.</p>
+<h3>Die Höflichkeitsleiter</h3>
+<div class="tbl"><table><tr><th>Ausdruck</th><th>Wie es klingt</th><th>Wann</th></tr><tr><td class="k">Give me ~.</td><td>direkter Befehl, klingt unhöflich</td><td>besser vermeiden</td></tr><tr><td class="k">Can you ~?</td><td>lockere Bitte</td><td>Freunde, Läden</td></tr><tr><td class="k">Could you ~?</td><td>freundliche Bitte</td><td>Fremde, Arbeit</td></tr><tr><td class="k">Would you mind ~ing?</td><td>sehr höflich</td><td>große Gefallen, Vorgesetzte</td></tr></table></div>
+{{ex:Could you help me?|/kəd ju ˈhelp mi/|Könntest du mir helfen? / Könnten Sie mir helfen?}}{{ex:Could you say that again?|/kəd ju ˈseɪ ˈðæt əˈgen/|Kannst du das noch mal sagen?}}{{ex:Would you mind taking a picture of us?|/wəd ju ˈmaɪnd ˈteɪkɪŋ ə ˈpɪktʃər əv əs/|Würde es dir etwas ausmachen, ein Foto von uns zu machen?}}
+<h3>Bestellen: Can I get…? / I'd like…</h3>
+<p>„Ich will einen Kaffee“ ist schon im Deutschen knapp; <i>I want…</i> und <i>Give me…</i> klingen im Englischen noch schroffer. Im Laden oder im Café sagt man so. Und Vorsicht: „Kann ich… bekommen?“ heißt <i>Can I get…?</i>, nie <i>Can I become…?</i> (<i>become</i> = werden).</p>
+{{ex:Can I get a latte, please?|/kən aɪ ˈget ə ˈlɑːteɪ ˈpliːz/|Kann ich einen Latte bekommen, bitte?}}{{ex:Can I get the check?|/kən aɪ ˈget ðə ˈtʃek/|Kann ich die Rechnung bekommen?}}{{ex:I'd like a window seat.|/aɪd ˈlaɪk ə ˈwɪndoʊ ˈsiːt/|Ich hätte gern einen Fensterplatz.}}
+<h3>Would you mind…? wie „Macht es dir etwas aus…?“</h3>
+<p><i>Mind</i> heißt „etwas dagegen haben, etwas ausmachen“. Wie im Deutschen antwortest du mit <b>Nein</b>, wenn es dir nichts ausmacht.</p>
+{{ex:Would you mind opening the window?|/wəd ju ˈmaɪnd ˈoʊpənɪŋ ðə ˈwɪndoʊ/|Würde es dir etwas ausmachen, das Fenster aufzumachen?}}{{ex:No, not at all.|/ˈnoʊ ˈnɑːt ət ˈɔːl/|Nein, überhaupt nicht. (Ich mach's gern.)}}
+<div class="tip"><b>Please</b> und <b>thank you</b> sind nie zu viel: Schon ein <i>please</i> am Ende macht den Satz viel freundlicher. Auch die Melodie zählt: Geht die Stimme am Ende hoch, klingt es wie eine Bitte, geht sie runter, wie ein Befehl.</div>`},
+
+{ id:"tense", title:"5 · Zeiten im Überblick: Gegenwart, Vergangenheit, Zukunft", blurb:"Gewohnheiten im simple present, was gerade passiert im present progressive, Pläne mit going to. Und did in Fragen zur Vergangenheit.", deck:"Smalltalk", body:`
+<p>„Ich arbeite“ kann im Deutschen „jeden Tag“ oder „gerade“ heißen, und „morgen arbeite ich“ ist auch noch Präsens. Das Englische trennt das genauer. Hier sind die fünf Formen, die du im Gespräch am häufigsten brauchst, und die <b>Signalwörter</b>, die dir zeigen, welche passt.</p>
+<h3>Simple present oder present progressive</h3>
+<div class="tbl"><table><tr><th>Form</th><th>Gebrauch</th><th>Beispiel</th></tr><tr><td class="k">simple present</td><td>Gewohnheiten, Tatsachen (<i>every day, usually, often</i>)</td><td>She drinks coffee every morning.</td></tr><tr><td class="k">present progressive: be + -ing</td><td>was gerade passiert (<i>now, right now</i>) / feste Pläne</td><td>I'm drinking coffee right now.</td></tr></table></div>
+<p>Das Deutsche hat keine Verlaufsform; das Wort „gerade“ ist deine Brücke: „Ich trinke gerade Kaffee“ = <i>I'm drinking coffee</i>. „Was machst du (gerade)?“ ist <i>What are you doing?</i>; <i>What do you do?</i> fragt nach deinem Beruf. Und vergiss das <b>-s</b> bei <i>he, she, it</i> nicht.</p>
+{{ex:She works at a bank.|/ʃi ˈwɜːrks ət ə ˈbæŋk/|Sie arbeitet bei einer Bank.}}{{ex:I'm working from home today.|/aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/|Heute arbeite ich von zu Hause.}}{{ex:What are you doing?|/ˈwʌt ər ju ˈduːɪŋ/|Was machst du gerade?}}
+<h3>Simple past</h3>
+<p>Im gesprochenen Deutsch erzählt man fast alles im Perfekt („Ich bin gegangen“). Im Englischen ist das <b>simple past</b> die normale Zeit für Vergangenes, auch im Gespräch. Regelmäßige Verben bekommen <b>-ed</b>, viele häufige Verben sind unregelmäßig: <i>go → went, eat → ate, see → saw, have → had, get → got</i>. In Frage und Verneinung steht das Hilfsverb <b>did</b>, und das Verb steht in der Grundform: <i>Did you go?</i>, nicht <i>Did you went?</i></p>
+{{ex:I went to the beach last weekend.|/aɪ ˈwent tə ðə ˈbiːtʃ ˈlæst ˈwiːkend/|Ich war letztes Wochenende am Strand.}}{{ex:Did you have fun?|/dɪd ju ˈhæv ˈfʌn/|Hattest du Spaß?}}{{ex:I didn't see it.|/aɪ ˈdɪdnt ˈsiː ɪt/|Ich habe es nicht gesehen.}}
+<h3>Zukunft: will oder going to</h3>
+<div class="tbl"><table><tr><th></th><th>Wann</th><th>Beispiel</th></tr><tr><td class="k">will</td><td>spontane Entscheidung, Versprechen, Angebot</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>Plan, den du schon hattest</td><td>I'm going to visit London next month.</td></tr></table></div>
+<p>Im Deutschen reicht für die Zukunft oft das Präsens: „Ich rufe dich später an“, „Ich helfe dir“. Im Englischen geht das nicht: Ein spontanes Angebot braucht <i>will</i> (<i>I'll help you</i>), ein Plan <i>going to</i>, ein fester Termin das present progressive (<i>I'm working tomorrow</i>). Und Vorsicht: Das deutsche „ich will“ heißt <i>I want</i>, nicht <i>I will</i>.</p>
+{{ex:I'll call you later.|/aɪl ˈkɔːl ju ˈleɪtər/|Ich rufe dich später an.}}{{ex:I'll help you.|/aɪl ˈhelp ju/|Ich helfe dir.}}{{ex:I'm going to take a cooking class.|/aɪm ˈgoʊɪŋ tə ˈteɪk ə ˈkʊkɪŋ ˈklæs/|Ich werde einen Kochkurs machen.}}
+<p>Gesprochen klingt <i>going to</i> oft wie <b>gonna</b>. Schriftlich schreibst du <i>going to</i>.</p>
+<div class="tip">Auf <i>How was your weekend?</i> antwortest du im simple past, auf <i>Any plans for the weekend?</i> mit <i>going to</i>. Die Zeit der Frage übernehmen ist der einfachste Trick.</div>`},
+
+{ id:"prep", title:"6 · Präpositionen in / on / at", blurb:"Um 7, am Montag, im Mai: Die deutschen Präpositionen helfen dir hier mehr, als du denkst – mit ein paar Fallen.", deck:"Zahlen, Uhrzeit und Datum", body:`
+<p>Für die Zeit hast du im Deutschen schon fast das richtige System: „um“ für Uhrzeiten, „am“ für Tage, „im“ für Monate. Das Englische teilt genauso auf: <b>at</b> für einen genauen Punkt, <b>on</b> für Tage und Flächen, <b>in</b> für größere Zeiträume und Räume (innen drin).</p>
+<h3>Zeit</h3>
+<div class="tbl"><table><tr><th>Präposition</th><th>Wofür</th><th>Beispiele</th></tr><tr><td class="k">in</td><td>Monate, Jahre, Jahreszeiten, Tageszeiten („im“)</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>Wochentage, Daten, bestimmte Tage („am“)</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>Uhrzeiten und Zeitpunkte („um“)</td><td>at 7, at noon, at night</td></tr></table></div>
+<p>Zwei Unterschiede: Jahreszahlen stehen mit <b>in</b> (<i>in 1998</i>), wo du im Deutschen gar keine Präposition sagst. Und „nachts“ heißt <i>at night</i>.</p>
+{{ex:See you on Friday.|/ˈsiː ju ɑːn ˈfraɪdeɪ/|Bis Freitag.}}{{ex:The meeting is at three.|/ðə ˈmiːtɪŋ ɪz ət ˈθriː/|Das Meeting ist um drei.}}{{ex:I was born in 1998.|/aɪ wəz ˈbɔːrn ɪn ˌnaɪnˈtiːn ˌnaɪnti ˈeɪt/|Ich bin 1998 geboren.}}
+<h3>Ort</h3>
+<div class="tbl"><table><tr><th>Präposition</th><th>Idee</th><th>Beispiele</th></tr><tr><td class="k">in</td><td>in einem Raum; Städte und Länder</td><td>in the car, in Berlin, in Germany</td></tr><tr><td class="k">on</td><td>auf einer Fläche; Straßen; öffentliche Verkehrsmittel</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>ein bestimmter Punkt; ein Ort, an dem man etwas tut</td><td>at the station, at work, at home</td></tr></table></div>
+<p>Achtung: „im Bus“ heißt <i>on the bus</i>, „zu Hause“ <i>at home</i>, „auf dem Foto“ aber <i>in the photo</i>.</p>
+{{ex:I'm on the bus.|/aɪm ɑːn ðə ˈbʌs/|Ich bin im Bus.}}{{ex:Let's meet at the station.|/ˈlets ˈmiːt ət ðə ˈsteɪʃn/|Treffen wir uns am Bahnhof.}}{{ex:I'm at home.|/aɪm ət ˈhoʊm/|Ich bin zu Hause.}}
+<h3>Ohne Präposition</h3>
+<p>Mit <b>next, last, this, every, tomorrow, yesterday</b> steht keine Präposition, wie im Deutschen „nächste Woche“: <i>next week</i>, nie <i>on next week</i>.</p>
+{{ex:See you next week.|/ˈsiː ju ˈnekst ˈwiːk/|Bis nächste Woche.}}
+<h3>„Bis“ und andere Fallen</h3>
+<p>„Bis“ hat zwei Übersetzungen: <b>until</b> für eine Dauer (<i>I'm here until Friday</i>), <b>by</b> für eine Frist (<i>Send it by Friday</i> = spätestens Freitag). Und „seit“ ist nicht immer <i>since</i>: Mehr dazu in der Lektion zum present perfect.</p>
+<div class="tip">Nützliche Ausnahmen: <b>at night</b>, aber <b>in the morning / afternoon / evening</b>. Das Wochenende heißt in den USA <b>on the weekend</b> (britisch: <i>at the weekend</i>). Und Verben mit eigener Präposition: <i>wait <b>for</b></i> (warten auf), <i>depend <b>on</b></i> (abhängen von), <i>good <b>at</b></i> (gut in), <i>married <b>to</b></i> (verheiratet mit).</div>`},
+
+{ id:"smalltalk", title:"7 · Smalltalk", blurb:"How are you? ist ein Gruß, keine Frage. Sichere Themen und Themen, die du besser meidest.", deck:"Smalltalk", body:`
+<p>In englischsprachigen Ländern plaudert man ganz selbstverständlich kurz mit Fremden: im Aufzug, in der Schlange an der Kasse oder vor einem Meeting. Das ist kein tiefes Gespräch, sondern ein <b>kurzer Austausch für gute Stimmung</b>. Wer aus Deutschland kommt, findet das oft oberflächlich; es ist aber einfach Höflichkeit.</p>
+<h3>How are you? ist ein Gruß</h3>
+<p>Niemand will wirklich wissen, wie es dir geht: Es ist eher ein „Na, alles gut?“. Höflich ist eine kurze Antwort und die <b>Gegenfrage</b>. Eine ehrliche Zustandsbeschreibung ist hier fehl am Platz.</p>
+{{ex:Hey, how's it going?|/ˈheɪ ˈhaʊz ɪt ˈgoʊɪŋ/|Hey, wie läuft's?}}{{ex:Pretty good! How about you?|/ˈprɪti ˈgʊd ‖ ˈhaʊ əbaʊt ˈjuː/|Ziemlich gut! Und dir?}}
+<h3>Sichere Themen und Themen, die du besser meidest</h3>
+<div class="tbl"><table><tr><th>Sicher</th><th>Besser meiden bei neuen Bekanntschaften</th></tr><tr><td>das Wetter, Pläne fürs Wochenende oder den Urlaub</td><td>das Alter, ob jemand einen Partner oder Kinder hat</td></tr><tr><td>Essen, Restaurants, Reisen</td><td>Bemerkungen über Aussehen oder Gewicht</td></tr><tr><td>Serien, Filme, Sport (Fußball heißt in den USA <i>soccer</i>)</td><td>Gehalt, was die Wohnung gekostet hat</td></tr><tr><td>die Arbeit (ohne Details), die Gegend</td><td>Politik, Religion</td></tr></table></div>
+<p>Direkte Kritik oder ein schnelles „Nein, das stimmt nicht“ wirkt im Englischen härter als im Deutschen. Im Smalltalk bleibt man positiv und weich.</p>
+<h3>So hältst du das Gespräch am Laufen</h3>
+<p>Antwort + <b>ein Detail mehr</b> + <b>Gegenfrage</b>. Mit diesen drei Schritten reißt das Gespräch nicht ab.</p>
+{{ex:It was great! I went hiking. What about you?|/ɪt wəz ˈgreɪt ‖ aɪ ˈwent ˈhaɪkɪŋ ‖ ˈwʌt əbaʊt ˈjuː/|Super! Ich war wandern. Und du?}}
+<p>Reagiere auch: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
+<h3>Natürlich beenden</h3>
+{{ex:Well, I should get going.|/ˈwel aɪ ʃəd ˈget ˈgoʊɪŋ/|So, ich muss dann mal los.}}{{ex:It was nice talking to you.|/ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/|Schön, mit dir geredet zu haben.}}
+<div class="tip">„Ich auch“ ist <b>Me too</b>, aber „Ich auch nicht“ ist <b>Me neither</b>: <i>I don't like horror movies.</i> → <i>Me neither.</i> (nicht <i>Me too</i>). Im gesprochenen amerikanischen Englisch hört man auch <i>Me either</i>, Standard ist aber <i>Me neither</i>.</div>`},
+
+{ id:"phrasal", title:"8 · Einführung in die phrasal verbs", blurb:"Verb + Partikel = neue Bedeutung. Wie die trennbaren Verben im Deutschen: aufstehen, anrufen, ausmachen.", deck:"Phrasal Verbs", body:`
+<p>Ein <i>phrasal verb</i> ist ein <b>Verb + eine Partikel</b> wie <i>up, out, off, on</i>, die zusammen eine neue Bedeutung haben. Das Prinzip kennst du: Die deutschen <b>trennbaren Verben</b> funktionieren genauso („aufstehen“, „ausmachen“, „aufgeben“), und oft passt sogar das Bild. Die Partikel steht wie im Deutschen gern am Ende: „Mach es aus“ = <i>Turn it off</i>.</p>
+<div class="tbl"><table><tr><th>Deutsch</th><th>Phrasal verb</th><th>förmlicher</th></tr><tr><td>reinkommen</td><td class="k">come in</td><td>enter</td></tr><tr><td>aufstehen</td><td class="k">get up</td><td>rise</td></tr><tr><td>weitermachen</td><td class="k">go on</td><td>continue</td></tr><tr><td>herausfinden</td><td class="k">find out</td><td>discover</td></tr><tr><td>aufschieben, verschieben</td><td class="k">put off</td><td>postpone</td></tr><tr><td>(ein Feuer) ausmachen, löschen</td><td class="k">put out</td><td>extinguish</td></tr></table></div>
+<p>Die förmlichen Verben (<i>enter, continue, postpone</i>) sind richtig, klingen im Gespräch aber steif. Muttersprachler sagen meist das <i>phrasal verb</i>.</p>
+<h3>Die Partikel gibt einen Hinweis</h3>
+<p><b>up</b> heißt oft „nach oben, ganz und gar“ (wie „auf-“); <b>out</b> „nach draußen, bis zum Ende“ (wie „aus-“); <b>off</b> „weg, aus“ (wie „ab-“); <b>on</b> „an, weiter“ (wie „an-“, „weiter-“). Ganz verlassen kannst du dich darauf nicht: <i>turn on</i> ist „anmachen“, <i>turn off</i> aber „ausmachen“.</p>
+{{ex:Come in, please.|/ˈkʌm ˈɪn ˈpliːz/|Komm rein, bitte.}}{{ex:I grew up in Hamburg.|/aɪ ˈgruː ˈʌp ɪn ˈhæmbɜːrg/|Ich bin in Hamburg aufgewachsen.}}{{ex:We ran out of milk.|/wi ˈræn ˈaʊt əv ˈmɪlk/|Uns ist die Milch ausgegangen.}}{{ex:Turn off your phone, please.|/ˈtɜːrn ˈɔːf jʊr ˈfoʊn ˈpliːz/|Mach bitte dein Handy aus.}}
+<h3>Das Pronomen steht in der Mitte</h3>
+<p>Viele <i>phrasal verbs</i> mit Objekt lassen sich trennen. Ein Nomen kann vor oder nach der Partikel stehen, ein <b>Pronomen</b> (<i>it, them, me, you</i>) steht <b>immer in der Mitte</b>, genau wie „Mach es an“.</p>
+{{ex:Turn on the light. / Turn the light on.|/ˈtɜːrn ˈɑːn ðə ˈlaɪt/ /ˈtɜːrn ðə ˈlaɪt ˈɑːn/|Mach das Licht an. (Beides ist richtig.)}}{{ex:Turn it on.|/ˈtɜːrn ɪt ˈɑːn/|Mach es an. (Nie: turn on it)}}{{ex:I'll pick you up at seven.|/aɪl ˈpɪk ju ˈʌp ət ˈsevn/|Ich hole dich um sieben ab.}}
+<h3>Phrasal verbs, die man nicht trennt</h3>
+<p>Verben mit Präposition wie <i>look after</i> (aufpassen auf), <i>look for</i> (suchen) oder <i>get along with</i> (gut auskommen mit) werden nicht getrennt: <i>look after my cat</i>, <i>look after her</i>.</p>
+<div class="tip">Lerne jedes <i>phrasal verb</i> wie ein einziges Wort, in einem Beispielsatz; dann sitzt auch die Stellung des Pronomens. Für Serien und Filme sind sie unverzichtbar: <i>extinguish</i> hörst du dort kaum, <i>put out</i> ständig.</div>`},
+
+{ id:"numbers", title:"9 · Zahlen, Uhrzeiten und Preise", blurb:"Dezimalpunkt, billion = Milliarde, 13 gegen 30, halb vier und wie man Preise, Jahre und Daten liest.", deck:"Zahlen, Uhrzeit und Datum", body:`
+<p>Zahlen begegnen dir auf jeder Reise und in jedem Meeting. Die Unterschiede zum Deutschen liegen bei Punkt und Komma, bei <i>billion</i>, bei der Reihenfolge der Ziffern und beim Lesen von Uhrzeiten, Preisen, Jahren und Daten.</p>
+<h3>Dezimalpunkt und Tausenderkomma</h3>
+<p>Im Englischen stehen bei Dezimalzahlen ein <b>Punkt</b> und bei Tausendern ein <b>Komma</b>: genau umgekehrt wie in Deutschland.</p>
+<div class="tbl"><table><tr><th>Englisch</th><th>Deutschland</th><th>Gelesen</th></tr><tr><td class="k">3.5</td><td>3,5</td><td>three point five</td></tr><tr><td class="k">1,500</td><td>1.500</td><td>one thousand five hundred</td></tr><tr><td class="k">2,000,000</td><td>2.000.000</td><td>two million</td></tr></table></div>
+<h3>Vorsicht bei billion!</h3>
+<div class="tbl"><table><tr><th>Englisch</th><th>Deutsch</th></tr><tr><td class="k">one thousand (1,000)</td><td>tausend</td></tr><tr><td class="k">one million</td><td>eine Million</td></tr><tr><td class="k">one billion</td><td>eine Milliarde</td></tr><tr><td class="k">one trillion</td><td>eine Billion</td></tr></table></div>
+{{ex:three point five|/ˈθriː ˈpɔɪnt ˈfaɪv/|3,5 (drei Komma fünf)}}{{ex:one billion dollars|/ˈwʌn ˈbɪljən ˈdɑːlərz/|eine Milliarde Dollar}}
+<h3>Erst die Zehner, dann die Einer</h3>
+<p>Im Deutschen sagst du „fünfundvierzig“, Einer zuerst. Im Englischen kommen die Zehner zuerst: <i>forty-five</i>. Wer beim Zuhören nicht aufpasst, schreibt 54 statt 45. Und bei 13 bis 19 liegt die Betonung <b>hinten</b> (thir<b>TEEN</b>), bei 30, 40, 50… <b>vorn</b> (<b>THIR</b>ty). Im amerikanischen Englisch klingt das <i>t</i> in <i>thirty</i> fast wie ein „d“: Entscheidend ist die Betonung.</p>
+{{ex:thirteen / thirty|/ˌθɜːrˈtiːn/ /ˈθɜːrti/|13 / 30}}{{ex:fifteen / fifty|/ˌfɪfˈtiːn/ /ˈfɪfti/|15 / 50}}
+<h3>Die Uhrzeit</h3>
+<p>Am einfachsten liest du Stunde und Minuten, wie sie dastehen. Bei Minute 1 bis 9 sagt man „oh“. Vorsicht bei „halb“: „halb vier“ ist 3:30, also <i>three thirty</i> oder <i>half past three</i>. Das britische <i>half four</i> heißt 4:30, nicht 3:30!</p>
+{{ex:It's seven fifteen.|/ɪts ˈsevn ˌfɪfˈtiːn/|Es ist sieben Uhr fünfzehn.}}{{ex:It's nine oh five.|/ɪts ˈnaɪn ˈoʊ ˈfaɪv/|Es ist neun Uhr fünf.}}{{ex:It's a quarter past ten.|/ɪts ə ˈkwɔːrtər pæst ˈten/|Es ist Viertel nach zehn.}}
+<h3>Preise, Jahre und Daten</h3>
+<p>Preise liest man als zwei Zahlen; das Währungszeichen steht im Englischen vorn: <i>$4.99</i>, <i>€25</i> (<i>twenty-five euros</i>). Jahre in zwei Paaren: 19 | 90, ohne „hundert“. Daten schreibt man mit dem Monat zuerst (<i>November 15</i>) und liest sie mit Ordnungszahl (<i>November fifteenth</i>).</p>
+{{ex:It's four ninety-nine.|/ɪts ˈfɔːr ˌnaɪnti ˈnaɪn/|Das kostet 4,99 Dollar.}}{{ex:nineteen ninety|/ˌnaɪnˈtiːn ˈnaɪnti/|das Jahr 1990}}{{ex:November fifteenth|/noʊˈvembər ˌfɪfˈtiːnθ/|der 15. November}}
+<div class="tip">In den USA steht beim kurzen Datum der <b>Monat zuerst</b>: 11/5 ist der 5. November, nicht der 11. Mai. Wenn es missverständlich sein könnte, schreib den Monat aus: <i>November 5</i>.</div>`},
+
+{ id:"email", title:"10 · E-Mails auf Englisch", blurb:"Anrede → Anliegen → Bitte → Schluss. Kurz, klar und ohne übersetzte deutsche Formeln.", deck:"Arbeit und E-Mails", body:`
+<p>Eine berufliche E-Mail auf Englisch ist <b>kurz, direkt und freundlich</b>. Deutsche Formeln („Sehr geehrte Damen und Herren“, „anbei erhalten Sie…“, „Mit freundlichen Grüßen“) wirken Wort für Wort übersetzt steif oder seltsam. Benutze lieber die englischen Formeln.</p>
+<h3>Grundaufbau</h3>
+<div class="tbl"><table><tr><th>Teil</th><th>Beispiel</th></tr><tr><td>Anrede</td><td class="k">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>Erste Zeile (Gruß und Anliegen)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>Hauptteil (Bitte)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>Schluss</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>Grußformel</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
+<h3>Anrede: Hi ist normal</h3>
+<p>In US-Firmen ist <b>Hi + Vorname</b> üblich, sogar bei einer ersten E-Mail. <i>Dear</i> ist für sehr formelle Fälle, und <i>Dear Sir or Madam</i> ist viel seltener als „Sehr geehrte Damen und Herren“: Nimm es nur, wenn du den Namen wirklich nicht kennst. Das Duzen oder Siezen fällt weg: Der Ton macht die Höflichkeit.</p>
+{{ex:I hope this email finds you well.|/aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/|Ich hoffe, es geht Ihnen gut.}}{{ex:I'm writing to follow up on our meeting.|/aɪm ˈraɪtɪŋ tə ˈfɑːloʊ ˈʌp ɑːn aʊər ˈmiːtɪŋ/|Ich melde mich wegen unseres Meetings.}}
+<h3>Deutsche Formeln und ihre englische Entsprechung</h3>
+<div class="tbl"><table><tr><th>Deutsch</th><th>Englisch</th></tr><tr><td>Sehr geehrter Herr Weber,</td><td class="k">Dear Mr. Weber, / Hi Lukas,</td></tr><tr><td>Anbei erhalten Sie den Bericht.</td><td class="k">I've attached the report.</td></tr><tr><td>Ich freue mich auf Ihre Antwort.</td><td class="k">I look forward to hearing from you.</td></tr><tr><td>Für Rückfragen stehe ich gern zur Verfügung.</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>Mit freundlichen Grüßen</td><td class="k">Best regards,</td></tr></table></div>
+<p>Nach <i>look forward to</i> steht die -ing-Form: <i>hearing</i>, nicht <i>hear</i>. Und: Englische Nomen schreibt man klein. <i>Please send the Report to the Team</i> ist falsch, richtig ist <i>Please send the report to the team</i>.</p>
+<h3>Freundlich bitten, klare Frist nennen</h3>
+{{ex:Could you send me the report by Thursday?|/kəd ju ˈsend mi ðə rɪˈpɔːrt baɪ ˈθɜːrzdeɪ/|Könnten Sie mir den Bericht bis Donnerstag schicken?}}{{ex:Thanks for your patience.|/ˈθæŋks fər jʊr ˈpeɪʃns/|Danke für Ihre Geduld.}}
+<p><i>ASAP</i> kann nach Druck klingen. Nenn lieber eine Frist mit <b>by + Datum</b> (spätestens); <i>until</i> wäre „bis“ im Sinn von „die ganze Zeit bis“.</p>
+<div class="tip">Du musst nicht jede Antwort mit <i>Sorry for the late reply</i> beginnen. <b>Thanks for your patience</b> ist freundlich und positiv, ohne Entschuldigung. Und zum Abschied am Freitag: <b>Have a great weekend!</b></div>`},
+
+{ id:"idioms", title:"11 · Redewendungen und Slang", blurb:"Sätze, die man Wort für Wort nicht versteht. Welche dem Deutschen ähneln und wann man sie benutzt.", deck:"Redewendungen", body:`
+<p>Eine Redewendung ist ein Satz, dessen Bedeutung sich nicht aus den Wörtern ergibt: <i>a piece of cake</i> hat nichts mit Kuchen zu tun, sondern heißt „kinderleicht“. Wenn du Serien und Filme ohne Untertitel verstehen willst, brauchst du sie.</p>
+<h3>Stell dir die Szene vor</h3>
+<p>Die meisten merkst du dir leichter, wenn du dir das Bild vorstellst.</p>
+{{ex:It's a piece of cake.|/ɪts ə ˈpiːs əv ˈkeɪk/|Das ist ein Kinderspiel.}}{{ex:It costs an arm and a leg.|/ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/|Das kostet ein Vermögen.}}{{ex:I'm all ears.|/aɪm ˈɔːl ˈɪrz/|Ich bin ganz Ohr.}}
+<h3>Wie im Deutschen… oder fast</h3>
+<div class="tbl"><table><tr><th>Englisch</th><th>Deutsch</th></tr><tr><td class="k">Speak of the devil!</td><td>Wenn man vom Teufel spricht! (gleiches Bild)</td></tr><tr><td class="k">Kill two birds with one stone</td><td>Zwei Fliegen mit einer Klappe schlagen (Vögel und ein Stein)</td></tr><tr><td class="k">I'm on cloud nine</td><td>Ich bin auf Wolke sieben (Wolke neun!)</td></tr><tr><td class="k">I'll keep my fingers crossed</td><td>Ich drücke dir die Daumen (gekreuzte Finger)</td></tr><tr><td class="k">When pigs fly</td><td>Wenn Schweine fliegen können</td></tr><tr><td class="k">It's raining cats and dogs</td><td>Es regnet in Strömen</td></tr></table></div>
+<p>Und umgekehrt: Viele deutsche Redewendungen lassen sich <b>nicht wörtlich übersetzen</b>. „Du nimmst mich auf den Arm“ ist <i>You're pulling my leg</i> (am Bein ziehen); „Das ist nicht mein Ding“ ist <i>It's not my cup of tea</i>. Wer Wort für Wort übersetzt, wird nicht verstanden.</p>
+{{ex:You're pulling my leg.|/jʊr ˈpʊlɪŋ maɪ ˈleg/|Du nimmst mich auf den Arm.}}
+<h3>Redewendung oder Slang</h3>
+<p><b>Redewendungen</b> gibt es schon lange, und alle benutzen sie, auch im Job (<i>Let's call it a day</i>). <b>Slang</b> ist Jugendsprache unter Freunden (<i>No cap</i>, <i>That song slaps</i>). Slang ändert sich schnell und kann aus dem Mund von Erwachsenen bemüht klingen.</p>
+{{ex:Let's call it a day.|/ˈlets ˈkɔːl ɪt ə ˈdeɪ/|Machen wir für heute Schluss. (Passt auch im Meeting.)}}{{ex:No cap, this is the best pizza ever.|/ˈnoʊ ˈkæp ˈðɪs ɪz ðə ˈbest ˈpiːtsə ˈevər/|Ohne Witz, das ist die beste Pizza überhaupt. (Nur unter Freunden.)}}
+<div class="tip">Pack dein Englisch nicht mit Redewendungen voll: eine pro Gespräch, wenn sie passt, macht einen guten Eindruck. Zu viele klingen nach Schulbuch.</div>`}
+];
+
+exports.CHECKS = {
+  pron: [
+    ["Welches Wort bedeutet „schlecht“?", ["bed","bad","bet","bat"], 1, "\"Bad\" hat /æ/: Mund weit auf, zwischen „ä“ und „a“. Mit dem e aus „Bett“ wird es \"bed\" („Bett“)."],
+    ["Wie spricht man \"bag\" richtig aus?", ["Wie „back“, mit k am Ende","Wie „beg“, mit e","In zwei Silben: „bä-ge“","Mit stimmhaftem g am Ende und längerem Vokal: /ˈbæg/"], 3, "Im Englischen werden b, d, g am Wortende nicht zu p, t, k. Halte die Stimme beim g an und mach den Vokal etwas länger: /ˈbæg/. Mit k wäre es \"back\"."],
+    ["Wo liegt die Betonung von \"comfortable\"?", ["Hinten, wie bei „komfortabel“","Auf \"for\"","Am Anfang: /ˈkʌmftərbl/","Keine Silbe ist betont"], 2, "/ˈkʌmftərbl/: Die Betonung liegt vorn, und das Wort hat nur drei Silben – anders als das deutsche „komfortabel“."]
+  ],
+  articles: [
+    ["I'm ___ engineer. Was gehört in die Lücke?", ["a","an","the","(nichts)"], 1, "\"Engineer\" beginnt mit einem Vokal, also \"an\". Und bei Berufen ist der Artikel Pflicht, anders als bei „Ich bin Ingenieur“."],
+    ["Wie sagt man „Das Leben ist hart“?", ["The life is hard.","A life is hard.","Life is hard.","The lives are hard."], 2, "Wenn du allgemein oder abstrakt sprichst, steht im Englischen kein Artikel: \"Life is hard\"."],
+    ["Wie sagt man „Mir tut der Kopf weh“?", ["The head hurts me.","Me hurts the head.","Hurts my head.","My head hurts."], 3, "Bei Körperteilen benutzt das Englische den Possessivbegleiter (\"my\", \"your\", \"her\"), nicht \"the\". Und das Subjekt steht vor dem Verb."]
+  ],
+  be: [
+    ["Wie sagt man „Ich bin 25“?", ["I have 25 years.","I'm 25.","I've 25 years.","I'm having 25."], 1, "Das Alter sagst du wie im Deutschen mit be: \"I'm 25\" (oder \"I'm 25 years old\"). Nie mit \"have\"."],
+    ["Wie sagt man „Meine Schwester wohnt in Lima“?", ["My sister live in Lima.","My sister is live in Lima.","My sister living in Lima.","My sister lives in Lima."], 3, "\"My sister\" entspricht \"she\" (3. Person Singular), also bekommt das Verb ein -s: \"lives\". Und ohne \"is\"."],
+    ["Jemand fragt \"Are you hungry?\", und du hast keinen Hunger. Was antwortest du?", ["No, I'm not.","No, I don't.","No, I amn't.","No, I haven't."], 0, "Die Frage war mit be, also antwortest du mit be: \"No, I'm not\". So funktioniert die Kurzantwort."]
+  ],
+  polite: [
+    ["Wie bittest du eine fremde Person am höflichsten um etwas?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "\"Could you…?\" ist die einfache höfliche Bitte. \"Give me\" klingt wie ein Befehl."],
+    ["Jemand fragt \"Would you mind opening the window?\". Welche Antwort heißt „klar, mach ich“?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "\"Mind\" = etwas dagegen haben. Wie bei „Macht es dir etwas aus…?“ heißt „Nein“, dass du es gern machst."],
+    ["Welche Verbform steht nach \"Would you mind\"?", ["Grundform (open)","to + Grundform (to open)","Simple past (opened)","-ing-Form (opening)"], 3, "Nach \"mind\" steht die -ing-Form: \"Would you mind waiting?\""]
+  ],
+  tense: [
+    ["Wie sagt man „Ich trinke jeden Morgen Kaffee“ (eine Gewohnheit)?", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "\"Every morning\" ist ein Signalwort für Gewohnheiten: simple present. Das present progressive hieße „ich trinke gerade“."],
+    ["Dein Freund hat kein Geld dabei, und du entscheidest spontan: „Ich zahle!“", ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, "Eine spontane Entscheidung steht mit \"will\". \"Going to\" ist für Pläne, die du schon hattest. Das deutsche Präsens („Ich zahle“) geht hier nicht."],
+    ["Wähle die richtige Frage: „Warst du auf der Party?“", ["Did you went to the party?","Did you go to the party?","Do you went to the party?","Went you to the party?"], 1, "In Fragen zur Vergangenheit zeigt schon \"did\" die Vergangenheit: Das Verb steht in der Grundform (\"go\")."]
+  ],
+  prep: [
+    ["„Treffen wir uns um 7“ = Let's meet ___ 7.", ["in","at","on","to"], 1, "„Um“ + Uhrzeit: \"at\"."],
+    ["„Am Montag“ = ___ Monday", ["on","in","at","by"], 0, "„Am“ + Tag oder Datum: \"on\", ohne Artikel."],
+    ["Welcher Satz ist richtig?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "Mit \"next\", \"last\", \"this\" und \"every\" steht keine Präposition – wie bei „nächste Woche“."]
+  ],
+  smalltalk: [
+    ["Im Café sagt jemand \"How are you today?\". Was ist die natürlichste Antwort?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "\"How are you?\" ist ein Gruß. Antworte kurz und stell die Gegenfrage."],
+    ["Welche Frage solltest du bei einer neuen Bekanntschaft vermeiden?", ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, "Nach dem Alter zu fragen, wirkt bei Menschen, die man gerade kennenlernt, im Englischen unhöflich."],
+    ["Jemand sagt \"I don't like horror movies.\". Wie sagst du „Ich auch nicht“?", ["Me too.","So do I.","Me neither.","Me also."], 2, "„Ich auch nicht“ ist \"Me neither\" (oder \"Neither do I\"). \"Me too\" heißt „ich auch“."]
+  ],
+  phrasal: [
+    ["„Kannst du es ausmachen?“ Welcher Satz ist richtig?", ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, "Das Pronomen (\"it\") steht in der Mitte des phrasal verb: \"turn it off\" – wie „mach es aus“."],
+    ["Was bedeutet \"run out of\"?", ["Hinausrennen","Nichts mehr von etwas haben, ausgehen","Irgendwo weglaufen","Zu spät kommen"], 1, "\"We ran out of milk.\" = Uns ist die Milch ausgegangen."],
+    ["Wie sagt man „Verschieben wir das Meeting auf nächste Woche“?", ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, "\"Put off\" = verschieben. \"Put on\" heißt „anziehen“ oder „anmachen“, \"put out\" „(ein Feuer) löschen“."]
+  ],
+  numbers: [
+    ["Wie liest man 3.5 auf Englisch?", ["three comma five","three point five","three and five","thirty-five"], 1, "Im Englischen schreibt und liest man Dezimalzahlen mit Punkt: \"three point five\"."],
+    ["Wo liegt die Betonung von \"thirteen\"?", ["Auf beiden Silben gleich","Keine Silbe ist betont","Auf teen (am Ende)","Auf thir (am Anfang)"], 2, "Zahlen auf -teen sind hinten betont: /ˌθɜːrˈtiːn/. \"Thirty\" ist vorn betont: /ˈθɜːrti/."],
+    ["Was bedeutet \"one billion\"?", ["eine Milliarde","eine Billion (tausend Milliarden)","hundert Millionen","eine Million"], 0, "\"Billion\" = Milliarde. Die deutsche „Billion“ ist \"one trillion\"."]
+  ],
+  email: [
+    ["Du schreibst zum ersten Mal an Jenny Park, eine Kundin. Welche Anrede passt am besten?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "In beruflichen E-Mails in den USA ist \"Hi\" + Vorname am sichersten. Wenn es sehr formell ist: \"Dear Ms. Park,\""],
+    ["Wie sagst du natürlich „Ich freue mich auf Ihre Antwort“?", ["I stay waiting your answer.","I look forward to hearing from you.","I wait your response.","I remain attentive."], 1, "\"I look forward to hearing from you\" ist die übliche Formel. Wörtliche Übersetzungen klingen seltsam."],
+    ["Welcher Satz bittet freundlich um eine Frist?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "\"Could you…?\" + \"by\" + Datum: freundlich und trotzdem eine klare Frist."]
+  ],
+  idioms: [
+    ["Was bedeutet \"The test was a piece of cake\"?", ["Der Test war kinderleicht.","Wir haben während des Tests Kuchen gegessen.","Der Test war sehr schwer.","Der Test ist mir total misslungen."], 0, "\"A piece of cake\" = ein Kinderspiel."],
+    ["Was bedeutet \"I'm feeling under the weather\"?", ["Das Wetter ist schlecht.","Ich bin draußen.","Ich fühle mich nicht so gut.","Ich bin im Regen nass geworden."], 2, "Mit dem Wetter hat es nichts zu tun: Es heißt, dass du dich nicht gut fühlst."],
+    ["Welcher Satz passt am wenigsten, wenn du deiner Chefin einen Bericht vorstellst?", ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, "\"No cap\" und \"slaps\" sind Slang unter Freunden. Redewendungen dagegen benutzt man auch im Job."]
+  ]
+};

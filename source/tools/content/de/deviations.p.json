@@ -1,0 +1,23 @@
+{
+  "lessons": {
+    "pron": "profile de.md §8 pron: German sound traps (bad/bed TRAP vs DRESS, final devoicing bag/back, w/v and the overcorrection wery, th as s/z, English j as dsch) replace the Spanish prothetic e and b/v items (checks 0-2, P1, P5, P6 x, P7, P8, P12 x)",
+    "false-friends": "profile de.md §8 false-friends: Spanish-only traps (embarrassed, pregnant, library/bookstore, attend/assist, success/exit, carpet) replaced by German false friends (become/bekommen, Chef, Handy, also, wo/who, will, Mappe/map, sympathisch); Madrid/Mexico localised to Berlin/Germany (checks 0-2, P1, P2, P4, P5, P6, P8, P9, P10, P11, P13)"
+  },
+  "items": {
+    "articles#check0": "technical: es-en option 3 «(nada)» is Spanish text not caught by es cueTest; German «(nichts)» (profile de.md §8)",
+    "polite#check2": "technical: es-en options 0-1 are Spanish text not caught by es cueTest; German «Grundform» (profile de.md §8)",
+    "numbers#check1": "technical: es-en options 2-3 are Spanish text not caught by es cueTest; German translation (profile de.md §8)",
+    "numbers#check2": "technical: es-en options 0 and 2 are Spanish text not caught by es cueTest; German «eine Milliarde», «hundert Millionen», long scale (profile de.md §8)",
+    "phrasal#check1": "technical: es-en options 0, 1, 3 are Spanish text not caught by es cueTest; German translation (profile de.md §8)",
+    "idioms#check1": "technical: es-en options 0-2 are Spanish text not caught by es cueTest; German translation (profile de.md §8)"
+  },
+  "decks": {
+    "1": "profile de.md §9: I'm from Mexico. -> I'm from Germany.; I live in Lima. -> I live in Berlin.",
+    "2": "profile de.md §9: Do you speak Spanish? -> Do you speak German?",
+    "11": "profile de.md §9: Your Spanish is really good! -> Your German is really good!",
+    "17": "profile de.md §9: Spanish traps yet/jet, very/berry, vote/boat replaced in place by bad/bed, wine/vine, bag/back (TRAP vs DRESS, w/v, final devoicing)",
+    "21": "profile de.md §9: Falsche Freunde rebuilt; embarrassed, pregnant, library, bookstore, attend, assist, career, exit, success, carpet, constipated, pretend, bother, parents, support, introduce replaced in place by become, chef, gift, handy, also, map, brave, sea, rent, meaning, art, fast, bald, receipt, spend, will"
+  },
+  "extraLessons": [],
+  "droppedLessons": []
+}
