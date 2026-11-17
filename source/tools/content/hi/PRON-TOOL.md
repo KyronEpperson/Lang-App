@@ -1,0 +1,10 @@
+# hi-en `pron` tool (rules: docs/profiles/hi.md §6). **If the string is already in the course,** look up the exact English text (same punctuation and capitals) in `tools/content/hi/pron_lookup.json` and paste the value verbatim. It covers 733 strings: every zh deck card, `{{ex}}` row and idiom. lint.js blocks one string with two different aids.
+**For a new string,** first write the IPA in zh conventions (`tools/content/zh/PRON-RULES.md`: American values, ASCII g, ˈ on content words, weak forms, ` ‖ ` between sentences, numbers as words). Copy word IPA from zh rows wherever the same words occur.
+Then run `node tools/content/hi/pron_hi.js "/aɪ ˈlaɪk ˈmæŋgoʊz/"`, which prints आइ लाइक ˈमैंगोज़. It refuses unknown symbols and any output that fails `pronPattern`. Read the result aloud and compare it with the audio.
+`node tools/content/hi/pron_hi.js --selftest` checks the 205 example pairs from §6. Run it after any change to the converter.
+**Hand case 1, names and places** (rule 10): zh rows that hi localises (Li Wei, Beijing, Shanghai) need new IPA from the en-US TTS. Listen first, then convert (/maɪ ˈneɪm ɪz ˈpriːjə/ → माइ नेम इज़ ˈप्रीया).
+**Hand case 2, weak or strong forms** come from the IPA you write. Use the strong form when the word is stranded, contrastive or alone (*Where are you from?* = frʌm, *you* = ˈjuː), then convert.
+**Hand case 3, consonant + ˈ + vowel** (/wɪðˈɪn/): no row has this yet. The tool writes virama + ˈ + an independent vowel (विद़्ˈइन). Check that it reads well, or move ˈ in the IPA.
+**Virama before ˈ:** the tool follows rule 4 everywhere: फ़िफ़्ˈटीन, थ़र्ˈटीन, आक्ˈटोबर, शैङ्ˈहाइ (46 lookup rows). §6 rule 2 and the 2015 row print fifteen without the virama. That is a profile erratum, so do not copy it.
+A word that has only ˌ in zh gets no mark (*twenty twenty-six* → ˈट्वेन्टि ट्वेन्टि सिक्स), and a one-syllable word never gets ˈ. This is rule 2 as written, so do not add marks.
+Paste ˈ as U+02C8 and nukta letters as base letter + U+093C (the tool's output already is). Precomposed nukta letters (U+0958–095F) from phonetic keyboards fail validate.js.

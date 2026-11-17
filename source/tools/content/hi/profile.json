@@ -1,0 +1,26 @@
+{
+  "native": "hi",
+  "nativeNameEn": "Hindi",
+  "name": {
+    "en": "English",
+    "hi": "अंग्रेज़ी"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": "[\\u0900-\\u0963\\u0971-\\u097f]",
+  "pron": "required",
+  "pronPattern": "^ˈ?[\\u0905-\\u0939][\\u0901\\u0902\\u0905-\\u0939\\u093C\\u093E-\\u094D]*(?:ˈ[\\u0905-\\u0939][\\u0901\\u0902\\u0905-\\u0939\\u093C\\u093E-\\u094D]*)*(?:(?: |। | / )ˈ?[\\u0905-\\u0939][\\u0901\\u0902\\u0905-\\u0939\\u093C\\u093E-\\u094D]*(?:ˈ[\\u0905-\\u0939][\\u0901\\u0902\\u0905-\\u0939\\u093C\\u093E-\\u094D]*)*)*$",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "आर्ट[िी]कल|बहुवचन|गणनीय"
+  },
+  "labels": {
+    "mcBlankCue": " ख़ाली जगह में क्या आएगा?",
+    "typeHintCue": " — इन शब्दों से"
+  },
+  "lessonOrder": {
+    "after": {
+      "indian-english": "smalltalk",
+      "stative-since": "perfect-2"
+    }
+  }
+}

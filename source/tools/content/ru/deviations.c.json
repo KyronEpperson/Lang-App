@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "runglish": "ru-only lesson (profile ru.md §8 'add' / §4.7 / §9): Runglish traps — false friends (magazine/store, accurate/neat, intelligent, cabinet/office, fabric/factory, actual/current, brilliant/diamond, normal/fine), one Russian word vs two English words (say/tell, do/make, learn/study/teach, comfortable/convenient, opportunity/possibility, useful/healthy), calques (feel myself, Thanks God, speak freely, Moscow city) and it for objects; placed after smalltalk via profile.json lessonOrder.after; deck «Ложные друзья и кальки»; no ko-en counterpart (mirrors zh chinglish); its practice set meets the article-plural rule on its own (order 4/4, type 3/4)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["runglish"]
+}

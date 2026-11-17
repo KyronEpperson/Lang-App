@@ -21,7 +21,10 @@ html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}
 /* Japanese and Chinese interfaces: use the system's own CJK fonts so characters get the right regional shapes (the Korean web font would draw them Korean-style) */
 html[lang=ja]{--display:'DM Sans','Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Meiryo','Noto Sans JP','Noto Sans CJK JP',system-ui,sans-serif}
 /* Vietnamese: the web fonts have no Vietnamese letters, so use system fonts for everything rather than mixing two fonts inside one word */
-html[lang=vi]{--body:system-ui,-apple-system,'Segoe UI',Roboto,'Noto Sans','Helvetica Neue',Arial,sans-serif;--display:var(--body);--mono:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Roboto Mono',monospace}
+html[lang=vi],html[lang=ru]{--body:system-ui,-apple-system,'Segoe UI',Roboto,'Noto Sans','Helvetica Neue',Arial,sans-serif;--display:var(--body);--mono:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Roboto Mono',monospace}
+/* Hindi: Devanagari system fonts (the web fonts have none), taller lines so matras and conjuncts are not clipped */
+html[lang=hi]{--body:'DM Sans','Nirmala UI','Kohinoor Devanagari','Devanagari Sangam MN','Noto Sans Devanagari',system-ui,sans-serif;--display:var(--body);--mono:'Nirmala UI','Kohinoor Devanagari','Noto Sans Devanagari',ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+html[lang=hi] body{line-height:1.65}html[lang=hi] p{line-height:1.7}html[lang=hi] nav a{overflow:visible;line-height:1.5}
 /* courses whose pronunciation aid is IPA: a monospace stack that has the IPA letters */
 html[lang=pt],html[lang=fr],html[lang=it],html[lang=de]{--mono:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Roboto Mono',monospace}
 html[lang^=zh]{--display:'DM Sans','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC','Source Han Sans SC',system-ui,sans-serif;--mono:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Roboto Mono',monospace} /* mono: system fonts that include the IPA letters used for pronunciation */
@@ -538,7 +541,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-left:0;padding-right:
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.18.0 · 2026-11-17';
+const APP_VERSION='2.19.0 · 2026-11-17';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields

@@ -1,0 +1,24 @@
+{
+  "lessons": {
+    "runglish": "ru-only lesson (profile ru.md §8 'add' / §4.7 / §9): Runglish traps — false friends (magazine/store, accurate/neat, intelligent, cabinet/office, fabric/factory, actual/current, brilliant/diamond, normal/fine), one Russian word vs two English words (say/tell, do/make, learn/study/teach, comfortable/convenient, opportunity/possibility, useful/healthy), calques (feel myself, Thanks God, speak freely, Moscow city) and it for objects; placed after smalltalk via profile.json lessonOrder.after; deck «Ложные друзья и кальки»; no ko-en counterpart (mirrors zh chinglish); its practice set meets the article-plural rule on its own (order 4/4, type 3/4)",
+    "articles-3": "ru-only lesson (profile ru.md §8 add, §4.1): «Артикли: итоговое повторение» — articles revisited at B1 in both directions, matching the Russian split of article errors (omission 42% vs overuse 37%, Rozovskaya & Roth 2010): zero article for generic plurals, uncountables and abstract nouns (Cats sleep a lot, Time is money, Life is short), the for nouns defined by a phrase or clause (the music here, the coffee you made) and with superlatives (body only), a / an for one-of-many nouns even with a description (an engineer who…, an interesting article), zero-article fixed phrases (go to bed, go to work / school, at home / work, by train / bus). ko-en has no such lesson. English side (check and practice) copied verbatim from ja articles-3 as profile §8 says, with one localisation per profile §9: Tokyo → Moscow in the engineer mc item (all four options) and the matching body row. Placed after passive via profile.json lessonOrder.after; deck «Светская беседа» (deck 10, as ja/zh)."
+  },
+  "items": {},
+  "decks": {
+    "Рассказ о себе": "localisation per profile ru.md §9 (Minji→Anna, Korea→Russia, Seoul→Moscow): cards 0 'My name is Anna.', 4 'I'm from Russia.', 5 'I live in Moscow.'",
+    "Самое нужное 1": "localisation per profile ru.md §9: card 12 'Do you speak Korean?' → 'Do you speak Russian?' (learner's own language)",
+    "Светская беседа": "localisation per profile ru.md §9: card 6 'Have you been to Korea?' → 'Have you been to Russia?'",
+    "Комплименты и симпатия": "localisation per profile ru.md §9: card 8 'Your Korean is really good!' → 'Your Russian is really good!'",
+    "Звонки и сокращения в чатах": "localisation per profile ru.md §9 (Minji→Anna; surnames only in work/phone scenes, Mr. Kim→Mr. Petrov): cards 0 'Hello, this is Anna.', 1 'Can I speak to Mr. Petrov?'",
+    "Путешествия (аэропорт и отель)": "localisation per profile ru.md §9: card 8 reservation name 'under Kim' → 'under Petrov' (surname)",
+    "Врач и экстренные случаи": "localisation per profile ru.md §9: card 15 'the Korean embassy' → 'the Russian embassy' (learner's own embassy)",
+    "Произношение: ловушки": "ru-only cards appended per profile ru.md §4.12 / §8 pron / §9 (cards 26–40): ship / sheep (ɪ vs iː, quality not only length), wine / vine and west / vest (w vs v), bad / bat and dog / dock (final devoicing), house (h not х), sing / singing (ŋ without g), comfortable and development (stress). think / sink already in the shared cards. Original 26 cards unchanged",
+    "Ложные друзья и кальки": "ru-only deck (profile ru.md §4.7 / §9 deck 21): false friends (magazine, fabric, cabinet, accurate, intelligent, actual, brilliant, normal), one Russian word for two English words (сказать, делать, учить, удобный, возможность, полезный), calques (feel myself, Thanks God, speak freely, Moscow city, depend from, on the picture, call to, wait + object) and it for objects; linked to the ru-only lesson runglish; no ko-en counterpart",
+    "count": "deck count 21 vs ko-en 20: ru-only deck «Ложные друзья и кальки» (profile ru.md §9, DECKNAMES row 21) appended last"
+  },
+  "extraLessons": [
+    "runglish",
+    "articles-3"
+  ],
+  "droppedLessons": []
+}

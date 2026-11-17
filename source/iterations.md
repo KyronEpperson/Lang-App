@@ -863,3 +863,11 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Reviewer read every content file in full; the interface (1,041 strings) was scanned by script and by main-screen group, not string by string.
 - Lead fixes: «Feedback» tab did not fit → «Meinung» (15 strings followed by the reviewer); settings row now wraps.
 - Evidence: validate PASS, parity PASS, lint 0 blocking, e2e OK on all 41 lessons, sweep clean with all tab labels fitting, harness 63 guards, site test PASS.
+
+## Russian speakers → English (2.19.0)
+- Built from the Korean course (article-less source language, so the three articles lessons stay). Profile `docs/profiles/ru.md` (ты, IPA aid, standing article rule). 41 lessons including the Russian-only `runglish` (false friends, say/tell, calques, it for objects) and `articles-3`, 21 decks / 405 cards, interface 769 + 272 + 425.
+- Model split: Opus for profile, lessons, decks and cold review; Sonnet for the interface. Reviewer's edits per file: decks.js 8, extra.js 8, meta.js 1 · lessons.js 6, practice.js 7, a1 10, a2 2, b1 0 · ui.json 23, roadmap.json 4 (69 total, 34 of them wrong or misleading). Opus decks are now level with the lesson files.
+- Notable fixes: the copied "action → do, state → be" test removed from the be lesson and its practice (like/want are states and take do); «до пятницы» → «к пятнице» where the answer is *by*; pronunciation-aid labels unified on «транскрипция»; big-number labels made number-neutral («выучено карточек», «ДН. ПОДРЯД»).
+- Reviewer read every content file, all 1,041 interface strings and all 425 roadmap titles in full; pronunciation was checked by script against the Chinese course (673 identical, 94 Russian-only read by hand).
+- Lead sign-off: read REVIEW.md and the `runglish` lesson in full; regenerated and reran everything. Open (shared, needs engine or source work): *Who's your bias?* card, the roadmap basis line, «Ввести» serving two controls, two shared English items a native would query (REVIEW.md §5).
+- Evidence: validate PASS, parity PASS (vs ko-en), lint 0 blocking, e2e OK on all 41 lessons, sweep with no overflow and all tab labels fitting, harness 64 guards.

@@ -1,0 +1,16 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "अपना परिचय": "localisation per profile hi.md §9 (Minji→Priya, Korea→India, Seoul→Delhi; same positions as zh): cards 0 'My name is Priya.', 4 'I'm from India.', 5 'I live in Delhi.'",
+    "सबसे ज़रूरी 1": "localisation per profile hi.md §9: card 12 'Do you speak Korean?' → 'Do you speak Hindi?' (learner's own language)",
+    "हल्की-फुल्की बातचीत": "localisation per profile hi.md §9: card 6 'Have you been to Korea?' → 'Have you been to India?'",
+    "तारीफ़ और पसंद": "localisation per profile hi.md §9: card 8 'Your Korean is really good!' → 'Your Hindi is really good!'",
+    "कॉल और चैट की शॉर्ट फ़ॉर्म": "localisation per profile hi.md §9 (Minji→Priya; surnames only in work scenes, Mr. Kim→Mr. Sharma): cards 0 'Hello, this is Priya.', 1 'Can I speak to Mr. Sharma?'",
+    "यात्रा (एयरपोर्ट और होटल)": "localisation per profile hi.md §9: card 8 reservation name 'under Kim' → 'under Sharma' (surname)",
+    "डॉक्टर और इमरजेंसी": "localisation per profile hi.md §9: card 15 'the Korean embassy' → 'the Indian embassy' (learner's own embassy)",
+    "उच्चारण के जाल": "hi-only cards appended per profile hi.md §9 «उच्चारण के जाल» (cards 26–39): vine / wine, vest / west, wary (very / wary), zoo / Jew, zero, easy, van (fan / van), school, station, about, photography — the v / w, z / j, f / v, s-cluster and stress traps of §4.13. three / tree, very and hotel already exist and are reused. Original 26 cards unchanged",
+    "इंडियन इंग्लिश: भारत बनाम विदेश": "hi-only deck (profile hi.md §4.11 / §8 indian-english / §9, 23 cards): the international form of Indian English usages (prepone, out of station, good name, cousin sister, passed out, revert, years back, native place, mention not, kindly, intimate, shifting, belong to, Myself…, I have a doubt, discuss about, Do one thing, isn't it?, see a picture, take lunch, today itself, now only, do the needful); linked to the hi-only lesson indian-english; no ko-en counterpart",
+    "count": "deck count 21 vs ko-en 20: hi-only deck «इंडियन इंग्लिश: भारत बनाम विदेश» (profile hi.md §9, DECKNAMES row 21) appended last"
+  }
+}

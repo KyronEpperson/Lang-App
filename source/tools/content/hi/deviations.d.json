@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "stative-since": "hi-only lesson (profile hi.md §8 add, §4.2): states vs actions with the continuous (I am knowing ✗, He is having a car ✗), Hindi से → since / for / from, and से + रहा है → Present Perfect (states) or Present Perfect Continuous (actions), How long…? for कब से. The most Hindi-specific grammar zone (Khan 2021; Demszky et al. STATIVE PROGRESSIVE; Van Rooy 2014); ko-en has no such lesson. New English side (checks and practice written for this course, practice meets the article-plural standing rule). Placed after perfect-2 (profile.json lessonOrder.after), deck अपना परिचय (deck 2, the deck of perfect-2)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["stative-since"]
+}

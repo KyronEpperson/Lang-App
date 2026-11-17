@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "indian-english": "hi-only lesson (profile hi.md §8 'add' / §4.11 / §9): Indian English usages that are normal in India but puzzle listeners abroad (prepone, out of station, good name, passed out, revert, years back, mention not, shifting), forms wrong in any variety (Myself Rahul, discuss about, I have a doubt, Do one thing) and Hindi calques (see a picture, eat my head, I belong to); placed after smalltalk via profile.json lessonOrder.after; deck 21 «इंडियन इंग्लिश: भारत बनाम विदेश»; no ko-en counterpart (mirrors zh chinglish)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["indian-english"]
+}

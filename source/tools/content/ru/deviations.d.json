@@ -1,0 +1,10 @@
+{
+  "lessons": {
+    "articles-3": "ru-only lesson (profile ru.md §8 add, §4.1): «Артикли: итоговое повторение» — articles revisited at B1 in both directions, matching the Russian split of article errors (omission 42% vs overuse 37%, Rozovskaya & Roth 2010): zero article for generic plurals, uncountables and abstract nouns (Cats sleep a lot, Time is money, Life is short), the for nouns defined by a phrase or clause (the music here, the coffee you made) and with superlatives (body only), a / an for one-of-many nouns even with a description (an engineer who…, an interesting article), zero-article fixed phrases (go to bed, go to work / school, at home / work, by train / bus). ko-en has no such lesson. English side (check and practice) copied verbatim from ja articles-3 as profile §8 says, with one localisation per profile §9: Tokyo → Moscow in the engineer mc item (all four options) and the matching body row. Placed after passive via profile.json lessonOrder.after; deck «Светская беседа» (deck 10, as ja/zh)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": [
+    "articles-3"
+  ]
+}
