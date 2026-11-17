@@ -55,7 +55,7 @@ practice:[
 ["fi","__ you help me?","Bạn giúp tôi được không?","Will|Can|Could|Would","Do|Are|Is","Khi nhờ ai đó, dùng \"Will you…?\" (hoặc \"Can / Could / Would you…?\")."],
 ["ty","Tôi sẽ giúp bạn","I'll help you|I'll help","I'll · help · you — động từ nguyên mẫu","helping","Sau \"will\" là động từ nguyên mẫu."],
 ["ty","Cho tôi một phần salad","I'll have a salad|I'll have the salad","I'll have · salad — chú ý mạo từ","salads","Gọi một phần nên dùng mạo từ \"a\" (món salad có trong thực đơn thì dùng \"the\")."],
-["ty","Để tôi đóng cửa","I'll close the door|I'll get the door","I'll · close · door — mạo từ \"the\"","a","Cánh cửa ở ngay đây nên dùng mạo từ \"the\"."]]},
+["ty","Để tôi đóng cửa","I'll close the door|I'll shut the door","I'll · close · door — mạo từ \"the\"","a","Cánh cửa ở ngay đây nên dùng mạo từ \"the\"."]]},
 { id:"perfect", title:"Thì hiện tại hoàn thành: đã từng làm gì", blurb:"\"have\" + quá khứ phân từ (V3) để kể trải nghiệm. Nói rõ lúc nào thì dùng quá khứ đơn.", deck:"Du lịch (sân bay · khách sạn)", body:`
 <p><b>have + quá khứ phân từ (V3)</b> nghĩa là “đã từng… (tính đến bây giờ)”, và câu <b>không nói lúc nào</b>. Tiếng Việt dùng “đã từng”, “chưa bao giờ”, “… chưa?” mà động từ không đổi; tiếng Anh phải đổi động từ sang V3.</p>
 {{ex:I've been to Japan.|/aɪv bɪn tə dʒəˈpæn/|Tôi đã từng đến Nhật Bản}}{{ex:She has visited Vietnam twice.|/ʃi hæz ˈvɪzɪtɪd viːetˈnɑːm twaɪs/|Cô ấy đã đến Việt Nam hai lần}}
@@ -112,7 +112,7 @@ practice:[
 ["fi","You __ have to pay.","Bạn không cần phải trả tiền","don't|do not","must not|not|aren't","“Không cần phải” là \"don't have to\"."],
 ["fi","It __ rain tomorrow.","Mai trời có thể sẽ mưa","might|may|could","must to|has to|should to","Nói về khả năng dùng \"might\"."],
 ["ty","Tôi phải làm việc","I have to work|I must work|I need to work","have to · work — bắt buộc","should","Sự bắt buộc dùng \"have to\"."],
-["ty","Bạn nên đi khám bác sĩ","You should see a doctor|You should go to a doctor","should · see · doctor — mạo từ \"a\"","the","Một bác sĩ bất kỳ nên dùng mạo từ \"a\"."],
+["ty","Bạn nên đi khám bác sĩ","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — mạo từ \"a\"","the","Một bác sĩ bất kỳ nên dùng mạo từ \"a\"."],
 ["ty","Phải mua vé","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — mạo từ \"a\"","the","Danh từ đếm được số ít \"ticket\" cần mạo từ \"a\"."]]},
 { id:"to-ing", title:"to hay -ing sau động từ: want to, enjoy -ing", blurb:"Sau \"want\" là \"to\", sau \"enjoy\" là -ing. Mỗi động từ đi với một dạng cố định.", deck:"Trò chuyện xã giao", body:`
 <p>Tiếng Việt nối hai động từ liền nhau: “muốn đi”, “thích nấu ăn”, không cần thêm gì. Trong tiếng Anh, động từ thứ hai phải ở dạng <b>to + động từ</b> hoặc <b>V-ing</b>, tùy động từ đứng trước. Hãy học theo nhóm, bắt đầu từ những động từ hay gặp.</p>

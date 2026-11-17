@@ -1074,7 +1074,7 @@ LANGAPP_PACKS.course['es-en'] = {
       {"t":"fill","q":"__ you like music?","p":"¿Te gusta la música?","a":["Do"],"o":["Are","Is","Does"],"why":"\"Like\" no es \"be\", así que el auxiliar es \"Do\"."},
       {"t":"fill","q":"__ do you live?","p":"¿Dónde vives?","a":["Where"],"o":["What","Who","When"],"why":"Para preguntar por un lugar, \"where\"."},
       {"t":"fill","q":"What time __ it?","p":"¿Qué hora es?","a":["is"],"o":["do","does","are"],"why":"La hora se pregunta con \"be\": \"What time is it?\"."},
-      {"t":"type","p":"¿Hablas inglés?","a":["Do you speak English"],"hint":"do · speak · English — pregunta con auxiliar","x":["Are"],"why":"La pregunta necesita el auxiliar \"Do\" antes de \"you\"."},
+      {"t":"type","p":"¿Hablas inglés?","a":["Do you speak English","Can you speak English"],"hint":"do · speak · English — pregunta con auxiliar","x":["Are"],"why":"La pregunta necesita el auxiliar \"Do\" antes de \"you\"."},
       {"t":"type","p":"¿Dónde está el baño?","a":["Where is the bathroom","Where is the restroom","Where's the bathroom","Where's the restroom"],"hint":"where · bathroom — con el verbo be","x":["a"],"why":"Con \"be\", \"is\" va antes del sujeto: \"Where is the bathroom?\"."},
       {"t":"type","p":"¿Te gustan los perros?","a":["Do you like dogs"],"hint":"do · like · dog — en plural","x":["dog"],"why":"\"Like\" necesita el auxiliar \"Do\"; los perros en general van en plural y sin \"the\"."}
     ],
@@ -1602,7 +1602,7 @@ LANGAPP_PACKS.course['es-en'] = {
       {"t":"fill","q":"Could you send me the file __ Friday?","p":"¿Podría enviarme el archivo para el viernes?","a":["by"],"o":["until","in","at"],"why":"Para un plazo («a más tardar el…») se usa \"by\" + fecha."},
       {"t":"fill","q":"I'm writing __ ask about the schedule.","p":"Le escribo para preguntar por el horario","a":["to"],"o":["for","about","at"],"why":"Para el propósito: \"I'm writing to\" + verbo."},
       {"t":"fill","q":"Thanks for all your hard __!","p":"¡Gracias por todo su esfuerzo!","a":["work"],"o":["works","working","job"],"why":"\"Work\" (trabajo, esfuerzo) es incontable: no lleva -s."},
-      {"t":"type","p":"Mañana tengo el día libre","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow"],"hint":"off · tomorrow — con be","x":["have"],"why":"«Tener el día libre» se dice con \"be off\"."},
+      {"t":"type","p":"Mañana tengo el día libre","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow","I have tomorrow off","I'm taking tomorrow off","I am taking tomorrow off","I have a day off tomorrow"],"hint":"off · tomorrow — con be","x":["have"],"why":"«Tener el día libre» se dice con \"be off\"."},
       {"t":"type","p":"¿Cuándo es la fecha límite?","a":["When is the deadline","When's the deadline","What's the deadline","What is the deadline"],"hint":"when · deadline — pregunta con \"is\"","x":["are"],"why":"En la pregunta, \"is\" va antes del sujeto (\"the deadline\")."},
       {"t":"type","p":"Ella está de vacaciones esta semana","a":["She is on vacation this week","She's on vacation this week"],"hint":"vacation · this week — con \"on\"","x":["are"],"why":"Con \"she\", be es \"is\": tercera persona. «De vacaciones» = \"on vacation\"."}
     ],

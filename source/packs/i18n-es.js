@@ -768,7 +768,8 @@ LANGAPP_PACKS.i18n.es = {
     "Change course": "Cambiar curso",
     "listen · type · role-play": "escuchar · escribir · diálogos",
     "Could not load. Check your connection.": "No se pudo cargar. Revisa tu conexión.",
-    "A new version is ready. Reload to continue.": "Hay una versión nueva. Recarga para continuar."
+    "A new version is ready. Reload to continue.": "Hay una versión nueva. Recarga para continuar.",
+    "Category": "Categoría"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Ejercicios"],

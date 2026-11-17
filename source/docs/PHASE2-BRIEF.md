@@ -50,3 +50,14 @@ Then proofread everything once more as a native-speaker editor would: grammar, r
 ## Report back (concise)
 Files written, counts (lessons / items / cards / keys), validator lines that still mention your files (should be none) and why, every deviation
 you recorded with its reason, and a list of specific strings you are unsure about so a reviewer can check them.
+
+
+## Added 2026-11-17: recurring problems every writer must avoid (found by three cold reviews)
+- **Leftover notes from the source course.** Card notes and explanations written for Korean (or Spanish) speakers must be rewritten, not translated: the "What's up?" note, notes about sounds the source language lacks, notes that mention Hangul, Konglish or Spanish spelling.
+- **K-pop and source-country references** in dialogues and examples (BTS, Jimin, bias, K-dramas, Gangnam, Seoul National University; Lima, Madrid for es-based courses): localise per profile §9. Shared practice items keep their English as is.
+- **Three teaching errors that were copied three times** — do not reintroduce them: (1) "does the sentence have an action? → do/does" (fails for like/live/want; ask "is there another verb besides be?"); (2) "any in questions" without the request/offer exception (*Can I have some water?*); (3) an -ing heading that says "things you are doing or enjoy" over *finish* and *mind*.
+- **Prompts must lead to an accepted answer.** If your prompt could naturally be answered with a sentence that is not in the accepted list, make the prompt more specific (add a cue such as "(use enjoy)"); do not change the accepted list of a shared item.
+- **Tab-bar labels** (interface writer): seven labels share a 390px bar; each ≤ 8 characters, the two longest are checked by the lead in a real layout.
+- **Count patterns have ONE translation each** (no plural forms): word them so any number reads correctly ("Cards: {1}"). **Language-name slots** are filled with the dictionary form of the language name: put the slot at the start or after a colon so no case ending or article is needed.
+- **Reference course.** If `profile.json` has `"reference": "es"`, your files were scaffolded from the Spanish-speakers' course: everything Spanish is a placeholder, parity compares your English side with es-en, and "Korean" in the older sections of this brief means "Spanish" for you.
+- The lead runs `node tools/content/lint.js <lang>` after merging: the same English text must carry the same pronunciation aid in every file. Agree with the profile's §6 key rather than inventing variants.

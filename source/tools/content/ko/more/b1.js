@@ -23,7 +23,7 @@ practice:[
 ["fi","I've worked here __ two years.","여기서 일한 지 2년 됐어요","for","since|from|during","기간 앞에는 for예요."],
 ["fi","I've been here __ Monday.","월요일부터 여기 있어요","since","for|at|during","시작점 앞에는 since예요."],
 ["fi","Have you finished __?","벌써 끝냈어요?","yet|already","ever|never|since","질문에서 '벌써'는 yet이에요."],
-["ty","저는 여기서 3년 살았어요","I've lived here for three years","I've lived · here · for · three · year — 복수","year","3년이니까 복수 years예요."],
+["ty","저는 여기서 3년 살았어요","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — 복수","year","3년이니까 복수 years예요."],
 ["ty","여기 얼마나 계셨어요?","How long have you been here","how long · have you · been here","are","How long have you + 과거분사예요."],
 ["ty","저는 그 책을 이미 읽었어요","I've already read the book|I've read the book already|I already read the book","already · read · book — 관사 the","a","서로 아는 그 책이라서 관사 the예요."]]},
 { id:"narrative", title:"이야기 시제: 과거, 과거진행, 과거완료", blurb:"배경은 과거진행, 사건은 과거형, 더 먼저 일어난 일은 had + p.p.", deck:"영화·드라마·슬랭", body:`

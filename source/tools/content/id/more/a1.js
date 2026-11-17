@@ -117,7 +117,7 @@ practice:[
 ["fi","__ you like music?","Kamu suka musik?","Do","Are|Is|Does","\"Like\" kata kerja biasa, jadi \"Do\"."],
 ["fi","__ do you live?","Kamu tinggal di mana?","Where","What|Who|When","Untuk menanyakan tempat, pakai \"where\"."],
 ["fi","What time __ it?","Jam berapa sekarang?","is","do|does|are","Jam ditanyakan dengan to be: \"is\"."],
-["ty","Kamu berbahasa Inggris?","Do you speak English","do · speak · English — pakai Do","Are","Pertanyaan dengan kata kerja biasa diawali \"Do\"."],
+["ty","Kamu berbahasa Inggris?","Do you speak English|Can you speak English","do · speak · English — pakai Do","Are","Pertanyaan dengan kata kerja biasa diawali \"Do\"."],
 ["ty","Kamar mandinya di mana?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — artikel the","a","Kamar mandi yang sama-sama diketahui, jadi artikel \"the\"."],
 ["ty","Kamu suka anjing?","Do you like dogs","do · like · dog — bentuk jamak","dog","Untuk hewan secara umum, pakai bentuk jamak: \"dogs\"."]]},
 { id:"third-s", title:"he, she, it + -s: does / doesn't", blurb:"Subjeknya satu orang atau satu benda? Kata kerjanya ditambah -s. Kalimat tanya dan negatif pakai does.", deck:"Perkenalan diri", body:`
@@ -231,7 +231,7 @@ practice:[
 ["fi","I like __ music.","Saya suka mendengarkan musik","listening to","listen to|listen|to listening","Setelah \"like\", pakai bentuk -ing."],
 ["fi","__ like a sandwich, please.","Saya pesan satu sandwich","I'd|I would","I|I'm|I can","Untuk memesan, pakai \"I'd like\"."],
 ["ty","Saya suka memasak","I like cooking|I love cooking|I like to cook","like · cook — bentuk -ing","cook","Setelah \"like\", pakai bentuk -ing."],
-["ty","Saya pesan satu sandwich","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich","I'd like · sandwich — artikel a","the","Sandwich apa saja, satu, jadi artikel \"a\"."],
+["ty","Saya pesan satu sandwich","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — artikel a","the","Sandwich apa saja, satu, jadi artikel \"a\"."],
 ["ty","Saya suka anjing","I like dogs|I love dogs","like · dog — bentuk jamak","dog","Untuk anjing secara umum, pakai jamak \"dogs\"."]]},
 { id:"continuous", title:"Sedang terjadi: be + -ing", blurb:"Kebiasaan pakai Simple Present Tense, yang sedang terjadi sekarang pakai be + -ing.", deck:"Obrolan ringan", body:`
 <p>Dalam bahasa Indonesia, <i>sedang</i> menandai kegiatan yang berlangsung sekarang: <i>Saya sedang bekerja</i>. Tapi <i>sedang</i> sering dihilangkan, sehingga <i>Saya kerja</i> bisa berarti kebiasaan atau sekarang. Dalam bahasa Inggris, yang terjadi <b>saat ini</b> wajib pakai <b>be + kata kerja-ing</b> (Present Continuous Tense). Bagian <b>be</b> tidak boleh hilang.</p>

@@ -203,7 +203,7 @@ module.exports = {
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "Tôi viết thư này để hỏi về lịch trình", a: ["to"], o: ["for", "about", "at"], why: "Nói mục đích: \"I'm writing to\" + động từ nguyên mẫu." },
     { t: "fill", q: "Thanks for all your hard __!", p: "Cảm ơn mọi người đã vất vả thời gian qua", a: ["work"], o: ["works", "working", "job"], why: "\"Work\" (công việc) ở đây là danh từ không đếm được nên không thêm -s số nhiều." },
 
-    { t: "type", p: "Ngày mai tôi nghỉ (không đi làm)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow"], hint: "off · tomorrow — động từ to be + off", x: ["do"], why: "Ngày nghỉ làm thì nói \"be off\"." },
+    { t: "type", p: "Ngày mai tôi nghỉ (không đi làm)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — động từ to be + off", x: ["do"], why: "Ngày nghỉ làm thì nói \"be off\"." },
     { t: "type", p: "Tôi đã đính kèm tệp", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — chính tệp đó", x: ["a"], why: "Đó chính là tệp người nhận sẽ thấy nên dùng mạo từ \"the\"." },
     { t: "type", p: "Chúc cuối tuần vui vẻ!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — mạo từ trước một kỳ cuối tuần", x: ["the"], why: "Nói về một kỳ cuối tuần nên có mạo từ \"a\": \"a great weekend\"." }
   ],

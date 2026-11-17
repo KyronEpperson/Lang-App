@@ -5233,6 +5233,12 @@
    "optionalFor": [
     "ko"
    ]
+  },
+  "Category": {
+   "t": "Loại",
+   "ko": "분류",
+   "kind": "label",
+   "where": "aria-label of the feedback category chips"
   }
  },
  "patterns": {

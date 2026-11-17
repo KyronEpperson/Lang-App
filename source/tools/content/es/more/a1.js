@@ -128,7 +128,7 @@ practice:[
 ["fi","__ you like music?","¿Te gusta la música?","Do","Are|Is|Does","\"Like\" no es \"be\", así que el auxiliar es \"Do\"."],
 ["fi","__ do you live?","¿Dónde vives?","Where","What|Who|When","Para preguntar por un lugar, \"where\"."],
 ["fi","What time __ it?","¿Qué hora es?","is","do|does|are","La hora se pregunta con \"be\": \"What time is it?\"."],
-["ty","¿Hablas inglés?","Do you speak English","do · speak · English — pregunta con auxiliar","Are","La pregunta necesita el auxiliar \"Do\" antes de \"you\"."],
+["ty","¿Hablas inglés?","Do you speak English|Can you speak English","do · speak · English — pregunta con auxiliar","Are","La pregunta necesita el auxiliar \"Do\" antes de \"you\"."],
 ["ty","¿Dónde está el baño?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — con el verbo be","a","Con \"be\", \"is\" va antes del sujeto: \"Where is the bathroom?\"."],
 ["ty","¿Te gustan los perros?","Do you like dogs","do · like · dog — en plural","dog","\"Like\" necesita el auxiliar \"Do\"; los perros en general van en plural y sin \"the\"."]]},
 

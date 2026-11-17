@@ -984,7 +984,7 @@ LANGAPP_PACKS.course['id-en'] = {
       {"t":"fill","q":"__ you like music?","p":"Kamu suka musik?","a":["Do"],"o":["Are","Is","Does"],"why":"\"Like\" kata kerja biasa, jadi \"Do\"."},
       {"t":"fill","q":"__ do you live?","p":"Kamu tinggal di mana?","a":["Where"],"o":["What","Who","When"],"why":"Untuk menanyakan tempat, pakai \"where\"."},
       {"t":"fill","q":"What time __ it?","p":"Jam berapa sekarang?","a":["is"],"o":["do","does","are"],"why":"Jam ditanyakan dengan to be: \"is\"."},
-      {"t":"type","p":"Kamu berbahasa Inggris?","a":["Do you speak English"],"hint":"do · speak · English — pakai Do","x":["Are"],"why":"Pertanyaan dengan kata kerja biasa diawali \"Do\"."},
+      {"t":"type","p":"Kamu berbahasa Inggris?","a":["Do you speak English","Can you speak English"],"hint":"do · speak · English — pakai Do","x":["Are"],"why":"Pertanyaan dengan kata kerja biasa diawali \"Do\"."},
       {"t":"type","p":"Kamar mandinya di mana?","a":["Where is the bathroom","Where is the restroom","Where's the bathroom","Where's the restroom"],"hint":"where · bathroom — artikel the","x":["a"],"why":"Kamar mandi yang sama-sama diketahui, jadi artikel \"the\"."},
       {"t":"type","p":"Kamu suka anjing?","a":["Do you like dogs"],"hint":"do · like · dog — bentuk jamak","x":["dog"],"why":"Untuk hewan secara umum, pakai bentuk jamak: \"dogs\"."}
     ],
@@ -1065,7 +1065,7 @@ LANGAPP_PACKS.course['id-en'] = {
       {"t":"fill","q":"I like __ music.","p":"Saya suka mendengarkan musik","a":["listening to"],"o":["listen to","listen","to listening"],"why":"Setelah \"like\", pakai bentuk -ing."},
       {"t":"fill","q":"__ like a sandwich, please.","p":"Saya pesan satu sandwich","a":["I'd","I would"],"o":["I","I'm","I can"],"why":"Untuk memesan, pakai \"I'd like\"."},
       {"t":"type","p":"Saya suka memasak","a":["I like cooking","I love cooking","I like to cook"],"hint":"like · cook — bentuk -ing","x":["cook"],"why":"Setelah \"like\", pakai bentuk -ing."},
-      {"t":"type","p":"Saya pesan satu sandwich","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich"],"hint":"I'd like · sandwich — artikel a","x":["the"],"why":"Sandwich apa saja, satu, jadi artikel \"a\"."},
+      {"t":"type","p":"Saya pesan satu sandwich","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich","Could I have a sandwich","Could I get a sandwich"],"hint":"I'd like · sandwich — artikel a","x":["the"],"why":"Sandwich apa saja, satu, jadi artikel \"a\"."},
       {"t":"type","p":"Saya suka anjing","a":["I like dogs","I love dogs"],"hint":"like · dog — bentuk jamak","x":["dog"],"why":"Untuk anjing secara umum, pakai jamak \"dogs\"."}
     ],
     "polite": [
@@ -1291,7 +1291,7 @@ LANGAPP_PACKS.course['id-en'] = {
       {"t":"fill","q":"__ you help me?","p":"Kamu mau bantu saya?","a":["Will","Can","Could","Would"],"o":["Do","Are","Is"],"why":"Untuk minta tolong, pakai \"Will you ...?\" (atau \"Can / Could / Would\")."},
       {"t":"type","p":"Saya bantu, ya","a":["I'll help you","I will help you","I'll help","I will help"],"hint":"I'll · help · you — pakai kata-kata ini","x":["helping"],"why":"Setelah \"will\", pakai V1."},
       {"t":"type","p":"Saya pesan salad satu","a":["I'll have a salad","I will have a salad","I'll have the salad","I will have the salad"],"hint":"I'll have · salad — perhatikan artikel","x":["salads"],"why":"Memesan satu porsi: artikel \"a\" (atau \"the\" untuk salad yang ada di menu)."},
-      {"t":"type","p":"Biar saya yang tutup pintunya","a":["I'll close the door","I will close the door","I'll get the door","I will get the door"],"hint":"I'll · close · door — artikel the","x":["a"],"why":"Pintu yang ada di sini: artikel \"the\"."}
+      {"t":"type","p":"Biar saya yang tutup pintunya","a":["I'll close the door","I will close the door","I'll shut the door","I will shut the door"],"hint":"I'll · close · door — artikel the","x":["a"],"why":"Pintu yang ada di sini: artikel \"the\"."}
     ],
     "perfect": [
       {"t":"mc","q":"'Saya pernah ke Jepang.' dalam bahasa Inggris?","o":["I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan."],"why":"Polanya have + V3 \"been\"."},
@@ -1340,7 +1340,7 @@ LANGAPP_PACKS.course['id-en'] = {
       {"t":"fill","q":"You __ have to pay.","p":"Kamu tidak perlu bayar","a":["don't","do not"],"o":["must not","not","aren't"],"why":"'Tidak perlu' adalah \"don't have to\"."},
       {"t":"fill","q":"It __ rain tomorrow.","p":"Besok mungkin hujan","a":["might","may","could"],"o":["must to","has to","should to"],"why":"Kemungkinan memakai \"might\"."},
       {"t":"type","p":"Saya harus bekerja","a":["I have to work","I must work","I need to work"],"hint":"have to · work — pakai kata-kata ini","x":["should"],"why":"Kewajiban: \"have to\" + V1."},
-      {"t":"type","p":"Sebaiknya kamu periksa ke dokter","a":["You should see a doctor","You should go to a doctor"],"hint":"should · see · doctor — artikel a","x":["the"],"why":"Dokter mana saja, satu orang: artikel \"a\"."},
+      {"t":"type","p":"Sebaiknya kamu periksa ke dokter","a":["You should see a doctor","You should go to a doctor","You should go see a doctor","You should go to the doctor"],"hint":"should · see · doctor — artikel a","x":["the"],"why":"Dokter mana saja, satu orang: artikel \"a\"."},
       {"t":"type","p":"Harus beli satu tiket","a":["You have to buy a ticket","I have to buy a ticket","We have to buy a ticket"],"hint":"have to · buy · ticket — artikel a","x":["the"],"why":"Satu tiket: artikel \"a\"."}
     ],
     "to-ing": [
@@ -1435,7 +1435,7 @@ LANGAPP_PACKS.course['id-en'] = {
       {"t":"fill","q":"I've worked here __ two years.","p":"Saya sudah dua tahun bekerja di sini","a":["for"],"o":["since","from","during"],"why":"Sebelum lamanya waktu, pakai \"for\"."},
       {"t":"fill","q":"I've been here __ Monday.","p":"Saya di sini sejak hari Senin","a":["since"],"o":["for","at","during"],"why":"Sebelum titik awal, pakai \"since\"."},
       {"t":"fill","q":"Have you finished __?","p":"Kamu sudah selesai belum?","a":["yet","already"],"o":["ever","never","since"],"why":"Dalam kalimat tanya, 'sudah ... belum?' adalah \"yet\"."},
-      {"t":"type","p":"Saya sudah tiga tahun tinggal di sini","a":["I've lived here for three years","I have lived here for three years"],"hint":"I've lived · here · for · three · year — bentuk jamak","x":["year"],"why":"Tiga tahun: bentuk jamak \"years\"."},
+      {"t":"type","p":"Saya sudah tiga tahun tinggal di sini","a":["I've lived here for three years","I have lived here for three years","I've been living here for three years","I have been living here for three years"],"hint":"I've lived · here · for · three · year — bentuk jamak","x":["year"],"why":"Tiga tahun: bentuk jamak \"years\"."},
       {"t":"type","p":"Sudah berapa lama kamu di sini?","a":["How long have you been here"],"hint":"how long · have you · been here — pakai kata-kata ini","x":["are"],"why":"Polanya How long have you + V3."},
       {"t":"type","p":"Saya sudah membaca buku itu","a":["I've already read the book","I have already read the book","I've read the book already","I have read the book already","I already read the book"],"hint":"already · read · book — artikel the","x":["a"],"why":"Buku yang sudah sama-sama diketahui: artikel \"the\"."}
     ],
@@ -1515,7 +1515,7 @@ LANGAPP_PACKS.course['id-en'] = {
       {"t":"fill","q":"Could you send me the file __ Friday?","p":"Bisakah Anda mengirim berkasnya paling lambat hari Jumat?","a":["by"],"o":["until","in","at"],"why":"Tenggat (‘paling lambat’) memakai \"by\" + hari atau tanggal."},
       {"t":"fill","q":"I'm writing __ ask about the schedule.","p":"Saya menulis email ini untuk menanyakan jadwal.","a":["to"],"o":["for","about","at"],"why":"Untuk menyatakan tujuan: \"I'm writing to\" + V1."},
       {"t":"fill","q":"Thanks for all your hard __!","p":"Terima kasih atas kerja kerasnya!","a":["work"],"o":["works","working","job"],"why":"\"work\" (pekerjaan, usaha) di sini tidak bisa dihitung, jadi tanpa -s jamak."},
-      {"t":"type","p":"Besok saya libur (tidak masuk kerja; pakai \"off\").","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow"],"hint":"off · tomorrow — pakai to be + off","x":["do"],"why":"Untuk hari libur, pakai \"be off\"."},
+      {"t":"type","p":"Besok saya libur (tidak masuk kerja; pakai \"off\").","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow","I have tomorrow off","I'm taking tomorrow off","I am taking tomorrow off","I have a day off tomorrow"],"hint":"off · tomorrow — pakai to be + off","x":["do"],"why":"Untuk hari libur, pakai \"be off\"."},
       {"t":"type","p":"Berkasnya sudah saya lampirkan.","a":["I've attached the file","I have attached the file","I attached the file"],"hint":"attach · file — berkas yang itu","x":["a"],"why":"Berkas yang akan diterima lawan bicara, jadi artikelnya \"the\"."},
       {"t":"type","p":"Selamat berakhir pekan!","a":["Have a great weekend","Have a nice weekend","Have a good weekend"],"hint":"have · great · weekend — artikel untuk satu akhir pekan","x":["the"],"why":"Satu akhir pekan, jadi pakai artikel \"a\": \"a great weekend\"."}
     ],

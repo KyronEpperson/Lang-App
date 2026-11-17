@@ -26,7 +26,7 @@ practice:[
 ["fi","I've worked here __ two years.","Saya sudah dua tahun bekerja di sini","for","since|from|during","Sebelum lamanya waktu, pakai \"for\"."],
 ["fi","I've been here __ Monday.","Saya di sini sejak hari Senin","since","for|at|during","Sebelum titik awal, pakai \"since\"."],
 ["fi","Have you finished __?","Kamu sudah selesai belum?","yet|already","ever|never|since","Dalam kalimat tanya, 'sudah ... belum?' adalah \"yet\"."],
-["ty","Saya sudah tiga tahun tinggal di sini","I've lived here for three years","I've lived · here · for · three · year — bentuk jamak","year","Tiga tahun: bentuk jamak \"years\"."],
+["ty","Saya sudah tiga tahun tinggal di sini","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — bentuk jamak","year","Tiga tahun: bentuk jamak \"years\"."],
 ["ty","Sudah berapa lama kamu di sini?","How long have you been here","how long · have you · been here","are","Polanya How long have you + V3."],
 ["ty","Saya sudah membaca buku itu","I've already read the book|I've read the book already|I already read the book","already · read · book — artikel the","a","Buku yang sudah sama-sama diketahui: artikel \"the\"."]]},
 { id:"narrative", title:"Tense untuk bercerita: Simple Past, Past Continuous, Past Perfect", blurb:"Latar pakai Past Continuous, kejadian pakai V2, yang terjadi lebih dulu pakai had + V3.", deck:"Film, serial & slang", body:`

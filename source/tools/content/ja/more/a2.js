@@ -51,7 +51,7 @@ practice:[
 ["fi","__ you help me?","手伝ってくれますか？","Will|Can|Could|Would","Do|Are|Is","頼むときは Will you 〜? を使います。"],
 ["ty","手伝いますよ","I'll help you|I'll help","I'll · help · you","helping","will の後ろは動詞の原形です。"],
 ["ty","サラダにします","I'll have a salad|I'll have the salad","I'll have · salad — 冠詞に注意","salads","一つ注文するので冠詞 a（メニューにあるそのサラダなら the）をつけます。"],
-["ty","私がドアを閉めます","I'll close the door|I'll get the door","I'll · close · door — 冠詞 the","a","ここにあるそのドアなので冠詞 the です。"]]},
+["ty","私がドアを閉めます","I'll close the door|I'll shut the door","I'll · close · door — 冠詞 the","a","ここにあるそのドアなので冠詞 the です。"]]},
 { id:"perfect", title:"現在完了（経験）：〜したことがあります", blurb:"have + 過去分詞で経験を言います。いつのことか言うなら過去形です。", deck:"旅行（空港・ホテル）", body:`
 <p>学校で習った<b>現在完了の経験用法</b>です。<b>have + 過去分詞</b>で「（今までに）〜したことがある」を表します。日本語の「〜たことがある」とほぼ同じ感覚で使えますが、英語では<b>いつ</b>のことかは言いません。</p>
 {{ex:I've been to Hawaii.|アイヴ ビン タ ハワイ|ハワイに行ったことがあります}}{{ex:She has visited Japan twice.|シー ハズ ヴィズィリッド ジャパン トゥワイス|彼女は日本に2回来たことがあります}}
@@ -107,7 +107,7 @@ practice:[
 ["fi","You __ have to pay.","お金は払わなくていいです","don't|do not","must not|not|aren't","「必要がない」は don't have to です。"],
 ["fi","It __ rain tomorrow.","明日は雨が降るかもしれません","might|may|could","must to|has to|should to","可能性は might です。"],
 ["ty","私は仕事をしなければなりません","I have to work|I must work|I need to work","have to · work","should","義務は have to です。"],
-["ty","医者に診てもらったほうがいいですよ","You should see a doctor|You should go to a doctor","should · see · doctor — 冠詞 a","the","誰か一人の医者なので冠詞 a です。"],
+["ty","医者に診てもらったほうがいいですよ","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — 冠詞 a","the","誰か一人の医者なので冠詞 a です。"],
 ["ty","切符を買わなければなりません","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — 冠詞 a","the","切符1枚なので冠詞 a です。"]]},
 { id:"to-ing", title:"不定詞と動名詞：want to と enjoy 〜ing", blurb:"want の後ろは to、enjoy の後ろは ing形。動詞ごとに決まっています。", deck:"スモールトーク", body:`
 <p>日本語では「〜すること」「〜するのが」で済みますが、英語では動詞を二つ続けるとき、前の動詞によって後ろが<b>不定詞（to + 動詞の原形）</b>か<b>動名詞（ing形）</b>かが決まっています。よく使う動詞からセットで覚えましょう。</p>

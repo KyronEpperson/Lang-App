@@ -10,15 +10,16 @@ const argv = process.argv.slice(2);
 const flag = n => { const i = argv.indexOf(n); if (i < 0) return null; const v = argv[i + 1]; argv.splice(i, 2); return v; };
 const force = argv.includes('--force'); if (force) argv.splice(argv.indexOf('--force'), 1);
 const out = flag('--out');
+const FROM = LIB.checkLang(flag('--from') || 'ko'); /* which finished course to scaffold from (and check parity against): ko, or es for article languages */
 const LANG = LIB.checkLang(argv[0] || '');
 if (LANG === 'ko') { console.error('ko is the reference language; refusing to scaffold over it'); process.exit(2); }
 const DEST = out ? path.resolve(out) : LIB.langDir(LANG);
 if (fs.existsSync(DEST) && fs.readdirSync(DEST).length && !force) { console.error(DEST + ' exists and is not empty (use --force to overwrite)'); process.exit(2); }
-const SRC = LIB.langDir('ko');
-const banner = f => '/* TRANSLATE/ADAPT (' + LANG + '): scaffolded from tools/content/ko/' + f + ' by new_lang.js.\n' +
-  '   Translate/adapt everything that is Korean for ' + LANG + ' speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,\n' +
+const SRC = LIB.langDir(FROM);
+const banner = f => '/* TRANSLATE/ADAPT (' + LANG + '): scaffolded from tools/content/' + FROM + '/' + f + ' by new_lang.js.\n' +
+  '   Translate/adapt everything that is not English (the ' + FROM + ' text) for ' + LANG + ' speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,\n' +
   '   explanations written from the ' + LANG + ' point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position\n' +
-  '   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */\n';
+  '   identical to ' + FROM + '-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */\n';
 for (const f of LIB.SOURCE_FILES) {
   const from = path.join(SRC, f), to = path.join(DEST, f);
   if (!fs.existsSync(from)) continue;
@@ -28,6 +29,7 @@ for (const f of LIB.SOURCE_FILES) {
 const ko = LIB.loadProfile('ko');
 const profile = {
   native: LANG,
+  ...(FROM !== 'ko' ? { reference: FROM } : {}),
   nativeNameEn: 'TODO English name of the language (used in the pack header comment)',
   name: { en: 'English', [LANG]: 'TODO the word for "English" in ' + LANG },
   ttsLang: 'en-US',
@@ -47,5 +49,5 @@ const profile = {
 };
 fs.writeFileSync(path.join(DEST, 'profile.json'), JSON.stringify(profile, null, 2) + '\n');
 fs.writeFileSync(path.join(DEST, 'deviations.json'), JSON.stringify({ lessons: {}, items: {}, decks: {}, extraLessons: [], droppedLessons: [] }, null, 2) + '\n');
-console.log('scaffolded ' + DEST + ' (' + LIB.SOURCE_FILES.length + ' sources from ko + profile.json + deviations.json)');
+console.log('scaffolded ' + DEST + ' (' + LIB.SOURCE_FILES.length + ' sources from ' + FROM + ' + profile.json + deviations.json)');
 console.log('next: fill profile.json, translate/adapt every Korean string, then: node tools/content/gen.js ' + LANG + ' && node tools/content/validate.js ' + LANG + ' && node tools/content/parity.js ' + LANG);

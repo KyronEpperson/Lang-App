@@ -703,7 +703,8 @@ LANGAPP_PACKS.i18n.ko = {
     "This course's progress was erased. Other courses are untouched.": "이 코스의 진도를 지웠어요. 다른 코스는 그대로예요.",
     "Listening, typing, role-play and saying it out loud — pick a drill.": "듣기, 입력, 역할극, 소리 내어 말하기 — 훈련을 골라 보세요.",
     "Language · 언어": "언어",
-    "· finished": "· 완료"
+    "· finished": "· 완료",
+    "Category": "분류"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 훈련"],

@@ -1014,7 +1014,7 @@ LANGAPP_PACKS.course['vi-en'] = {
       {"t":"fill","q":"__ you like music?","p":"Bạn có thích âm nhạc không?","a":["Do"],"o":["Are","Is","Does"],"why":"\"Like\" là động từ thường nên hỏi bằng \"Do\"."},
       {"t":"fill","q":"__ do you live?","p":"Bạn sống ở đâu?","a":["Where"],"o":["What","Who","When"],"why":"Hỏi nơi chốn dùng \"where\"."},
       {"t":"fill","q":"What time __ it?","p":"Mấy giờ rồi?","a":["is"],"o":["do","does","are"],"why":"Hỏi giờ dùng động từ to be."},
-      {"t":"type","p":"Bạn có nói tiếng Anh không?","a":["Do you speak English"],"hint":"do · speak · English — bắt đầu bằng do","x":["Are"],"why":"Câu hỏi với động từ thường bắt đầu bằng \"Do\"."},
+      {"t":"type","p":"Bạn có nói tiếng Anh không?","a":["Do you speak English","Can you speak English"],"hint":"do · speak · English — bắt đầu bằng do","x":["Are"],"why":"Câu hỏi với động từ thường bắt đầu bằng \"Do\"."},
       {"t":"type","p":"Nhà vệ sinh ở đâu?","a":["Where is the bathroom","Where is the restroom","Where's the bathroom","Where's the restroom"],"hint":"where · bathroom — mạo từ the","x":["a"],"why":"Cả hai đều biết là nhà vệ sinh nào nên dùng mạo từ \"the\"."},
       {"t":"type","p":"Bạn có thích chó không?","a":["Do you like dogs"],"hint":"do · like · dog — số nhiều","x":["dog"],"why":"Nói về loài chó nói chung thì dùng số nhiều \"dogs\"."}
     ],
@@ -1111,7 +1111,7 @@ LANGAPP_PACKS.course['vi-en'] = {
       {"t":"fill","q":"I like __ music.","p":"Tôi thích nghe nhạc","a":["listening to"],"o":["listen to","listen","to listening"],"why":"Sau \"like\" dùng V-ing."},
       {"t":"fill","q":"__ like a sandwich, please.","p":"Cho tôi một cái bánh sandwich","a":["I'd","I would"],"o":["I","I'm","I can"],"why":"Gọi món dùng \"I'd like\"."},
       {"t":"type","p":"Tôi thích nấu ăn","a":["I like cooking","I love cooking","I like to cook"],"hint":"like · cook — dạng V-ing","x":["cook"],"why":"Sau \"like\" dùng V-ing."},
-      {"t":"type","p":"Cho tôi một cái bánh sandwich","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich"],"hint":"I'd like · sandwich — mạo từ a","x":["the"],"why":"Một cái bánh bất kỳ nên dùng mạo từ \"a\"."},
+      {"t":"type","p":"Cho tôi một cái bánh sandwich","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich","Could I have a sandwich","Could I get a sandwich"],"hint":"I'd like · sandwich — mạo từ a","x":["the"],"why":"Một cái bánh bất kỳ nên dùng mạo từ \"a\"."},
       {"t":"type","p":"Tôi thích chó","a":["I like dogs","I love dogs"],"hint":"like · dog — số nhiều","x":["dog"],"why":"Nói về loài chó nói chung thì dùng số nhiều \"dogs\"."}
     ],
     "polite": [
@@ -1336,7 +1336,7 @@ LANGAPP_PACKS.course['vi-en'] = {
       {"t":"fill","q":"__ you help me?","p":"Bạn giúp tôi được không?","a":["Will","Can","Could","Would"],"o":["Do","Are","Is"],"why":"Khi nhờ ai đó, dùng \"Will you…?\" (hoặc \"Can / Could / Would you…?\")."},
       {"t":"type","p":"Tôi sẽ giúp bạn","a":["I'll help you","I will help you","I'll help","I will help"],"hint":"I'll · help · you — động từ nguyên mẫu","x":["helping"],"why":"Sau \"will\" là động từ nguyên mẫu."},
       {"t":"type","p":"Cho tôi một phần salad","a":["I'll have a salad","I will have a salad","I'll have the salad","I will have the salad"],"hint":"I'll have · salad — chú ý mạo từ","x":["salads"],"why":"Gọi một phần nên dùng mạo từ \"a\" (món salad có trong thực đơn thì dùng \"the\")."},
-      {"t":"type","p":"Để tôi đóng cửa","a":["I'll close the door","I will close the door","I'll get the door","I will get the door"],"hint":"I'll · close · door — mạo từ \"the\"","x":["a"],"why":"Cánh cửa ở ngay đây nên dùng mạo từ \"the\"."}
+      {"t":"type","p":"Để tôi đóng cửa","a":["I'll close the door","I will close the door","I'll shut the door","I will shut the door"],"hint":"I'll · close · door — mạo từ \"the\"","x":["a"],"why":"Cánh cửa ở ngay đây nên dùng mạo từ \"the\"."}
     ],
     "perfect": [
       {"t":"mc","q":"“Tôi đã từng đến Nhật Bản” =","o":["I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan."],"why":"\"have\" + quá khứ phân từ \"been\"."},
@@ -1367,7 +1367,7 @@ LANGAPP_PACKS.course['vi-en'] = {
       {"t":"fill","q":"You __ have to pay.","p":"Bạn không cần phải trả tiền","a":["don't","do not"],"o":["must not","not","aren't"],"why":"“Không cần phải” là \"don't have to\"."},
       {"t":"fill","q":"It __ rain tomorrow.","p":"Mai trời có thể sẽ mưa","a":["might","may","could"],"o":["must to","has to","should to"],"why":"Nói về khả năng dùng \"might\"."},
       {"t":"type","p":"Tôi phải làm việc","a":["I have to work","I must work","I need to work"],"hint":"have to · work — bắt buộc","x":["should"],"why":"Sự bắt buộc dùng \"have to\"."},
-      {"t":"type","p":"Bạn nên đi khám bác sĩ","a":["You should see a doctor","You should go to a doctor"],"hint":"should · see · doctor — mạo từ \"a\"","x":["the"],"why":"Một bác sĩ bất kỳ nên dùng mạo từ \"a\"."},
+      {"t":"type","p":"Bạn nên đi khám bác sĩ","a":["You should see a doctor","You should go to a doctor","You should go see a doctor","You should go to the doctor"],"hint":"should · see · doctor — mạo từ \"a\"","x":["the"],"why":"Một bác sĩ bất kỳ nên dùng mạo từ \"a\"."},
       {"t":"type","p":"Phải mua vé","a":["You have to buy a ticket","I have to buy a ticket","We have to buy a ticket"],"hint":"have to · buy · ticket — mạo từ \"a\"","x":["the"],"why":"Danh từ đếm được số ít \"ticket\" cần mạo từ \"a\"."}
     ],
     "to-ing": [
@@ -1462,7 +1462,7 @@ LANGAPP_PACKS.course['vi-en'] = {
       {"t":"fill","q":"I've worked here __ two years.","p":"Tôi làm việc ở đây được 2 năm rồi","a":["for"],"o":["since","from","during"],"why":"Trước khoảng thời gian dùng \"for\"."},
       {"t":"fill","q":"I've been here __ Monday.","p":"Tôi ở đây từ thứ hai","a":["since"],"o":["for","at","during"],"why":"Trước mốc thời gian dùng \"since\"."},
       {"t":"fill","q":"Have you finished __?","p":"Bạn làm xong chưa?","a":["yet","already"],"o":["ever","never","since"],"why":"Trong câu hỏi, “… chưa?” là \"yet\"."},
-      {"t":"type","p":"Tôi sống ở đây được 3 năm rồi","a":["I've lived here for three years","I have lived here for three years"],"hint":"I've lived · here · for · three · year — số nhiều","x":["year"],"why":"Có \"three\" nên dùng số nhiều \"years\"."},
+      {"t":"type","p":"Tôi sống ở đây được 3 năm rồi","a":["I've lived here for three years","I have lived here for three years","I've been living here for three years","I have been living here for three years"],"hint":"I've lived · here · for · three · year — số nhiều","x":["year"],"why":"Có \"three\" nên dùng số nhiều \"years\"."},
       {"t":"type","p":"Bạn ở đây bao lâu rồi?","a":["How long have you been here"],"hint":"how long · have you · been here — câu hỏi","x":["are"],"why":"\"How long have you\" + V3."},
       {"t":"type","p":"Tôi đọc quyển sách đó rồi","a":["I've already read the book","I have already read the book","I've read the book already","I have read the book already","I already read the book"],"hint":"already · read · book — mạo từ \"the\"","x":["a"],"why":"Quyển sách mà cả hai đều biết nên dùng mạo từ \"the\"."}
     ],
@@ -1542,7 +1542,7 @@ LANGAPP_PACKS.course['vi-en'] = {
       {"t":"fill","q":"Could you send me the file __ Friday?","p":"Anh/chị gửi giúp tôi tệp chậm nhất vào thứ sáu được không?","a":["by"],"o":["until","in","at"],"why":"Hạn chót (“chậm nhất là”) dùng \"by\" + ngày."},
       {"t":"fill","q":"I'm writing __ ask about the schedule.","p":"Tôi viết thư này để hỏi về lịch trình","a":["to"],"o":["for","about","at"],"why":"Nói mục đích: \"I'm writing to\" + động từ nguyên mẫu."},
       {"t":"fill","q":"Thanks for all your hard __!","p":"Cảm ơn mọi người đã vất vả thời gian qua","a":["work"],"o":["works","working","job"],"why":"\"Work\" (công việc) ở đây là danh từ không đếm được nên không thêm -s số nhiều."},
-      {"t":"type","p":"Ngày mai tôi nghỉ (không đi làm)","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow"],"hint":"off · tomorrow — động từ to be + off","x":["do"],"why":"Ngày nghỉ làm thì nói \"be off\"."},
+      {"t":"type","p":"Ngày mai tôi nghỉ (không đi làm)","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow","I have tomorrow off","I'm taking tomorrow off","I am taking tomorrow off","I have a day off tomorrow"],"hint":"off · tomorrow — động từ to be + off","x":["do"],"why":"Ngày nghỉ làm thì nói \"be off\"."},
       {"t":"type","p":"Tôi đã đính kèm tệp","a":["I've attached the file","I have attached the file","I attached the file"],"hint":"attach · file — chính tệp đó","x":["a"],"why":"Đó chính là tệp người nhận sẽ thấy nên dùng mạo từ \"the\"."},
       {"t":"type","p":"Chúc cuối tuần vui vẻ!","a":["Have a great weekend","Have a nice weekend","Have a good weekend"],"hint":"have · great · weekend — mạo từ trước một kỳ cuối tuần","x":["the"],"why":"Nói về một kỳ cuối tuần nên có mạo từ \"a\": \"a great weekend\"."}
     ],

@@ -202,7 +202,7 @@ module.exports = {
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "スケジュールについてお伺いしたく、ご連絡しました", a: ["to"], o: ["for", "about", "at"], why: "目的は I'm writing to + 原形です。" },
     { t: "fill", q: "Thanks for all your hard __!", p: "本当にお疲れさまでした", a: ["work"], o: ["works", "working", "job"], why: "work（仕事）は数えられない名詞なので、複数の s をつけません。" },
 
-    { t: "type", p: "明日は休みです（off を使って）", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow"], hint: "off · tomorrow — be動詞 + off", x: ["do"], why: "休みの日は be off で言います。" },
+    { t: "type", p: "明日は休みです（off を使って）", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be動詞 + off", x: ["do"], why: "休みの日は be off で言います。" },
     { t: "type", p: "ファイルを添付しました", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — まさにそのファイル", x: ["a"], why: "相手が受け取るそのファイルなので冠詞 the です。" },
     { t: "type", p: "よい週末を！", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — 週末一つの前の冠詞", x: ["the"], why: "週末一つのことなので冠詞 a をつけます：a great weekend。" }
   ],

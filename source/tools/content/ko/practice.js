@@ -202,7 +202,7 @@ module.exports = {
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "일정에 대해 여쭤보려고 연락드립니다", a: ["to"], o: ["for", "about", "at"], why: "목적은 I'm writing to + 동사원형이에요." },
     { t: "fill", q: "Thanks for all your hard __!", p: "그동안 정말 고생 많으셨어요", a: ["work"], o: ["works", "working", "job"], why: "work(일)는 셀 수 없는 명사라 복수 -s를 붙이지 않아요." },
 
-    { t: "type", p: "저 내일 쉬어요 (휴무예요)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow"], hint: "off · tomorrow — be동사 + off", x: ["do"], why: "쉬는 날은 be off로 말해요." },
+    { t: "type", p: "저 내일 쉬어요 (휴무예요)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be동사 + off", x: ["do"], why: "쉬는 날은 be off로 말해요." },
     { t: "type", p: "파일을 첨부했습니다", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — 바로 그 파일", x: ["a"], why: "상대가 받을 바로 그 파일이니 관사 the예요." },
     { t: "type", p: "좋은 주말 보내세요!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — 주말 하나 앞 관사", x: ["the"], why: "주말 하나를 말하니 관사 a를 붙여요: a great weekend." }
   ],

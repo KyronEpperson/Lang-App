@@ -828,3 +828,9 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Prompt (user): the first screens showed English and Korean together; show only the visitor's language. Also stop using the vercel.app address.
 - Results: `preLang()` now returns one language from the browser (Korean, a live interface language whose pack is loaded, else English) and `preT/preBi` return a single string; the six second-line slots are gone. Guard `fxPreNative` rewritten for en, ko, ja and fr browsers (fr falls back to English). `vercel.json` redirects lang-app-3qdw.vercel.app to lang-app.io.
 - Evidence: harness 59 guards; screenshots in English, Korean and Spanish browsers; site test PASS.
+
+## Groundwork for the remaining eight languages (2.14.1)
+- Prompt: before any new course is scaffolded, fix once what would otherwise be inherited eight times, and write the plan (`docs/BUILD-PLAN.md`).
+- Results: shared practice answers corrected in all six English courses (will / questions / modals / can-like / perfect-2 / email items); feedback "Category" label split from the quiz "Type" label; shared `lint.js`; `new_lang.js --from es` + `profile.reference` + parity against the Spanish course for article languages; writer brief gained the list of recurring review findings.
+- Evidence: validate and parity PASS for ko, ja, es, zh, vi, id; lint 0 blocking on all five adapted courses; harness 59 guards.
+- Model split from here on: Opus for profile, lessons and cold review; Sonnet for decks and interface; scripts for mechanical checks; lead does the final read and ship decision.

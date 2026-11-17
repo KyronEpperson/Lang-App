@@ -1014,7 +1014,7 @@ LANGAPP_PACKS.course['zh-en'] = {
       {"t":"fill","q":"__ you like music?","p":"你喜欢音乐吗？","a":["Do"],"o":["Are","Is","Does"],"why":"实义动词 like 的疑问句用 Do。"},
       {"t":"fill","q":"__ do you live?","p":"你住在哪里？","a":["Where"],"o":["What","Who","When"],"why":"问地点用 where。"},
       {"t":"fill","q":"What time __ it?","p":"现在几点？","a":["is"],"o":["do","does","are"],"why":"问时间用 be 动词。"},
-      {"t":"type","p":"你会说英语吗？","a":["Do you speak English"],"hint":"do · speak · English — 用这些词","x":["Are"],"why":"实义动词的疑问句用 Do 开头。"},
+      {"t":"type","p":"你会说英语吗？","a":["Do you speak English","Can you speak English"],"hint":"do · speak · English — 用这些词","x":["Are"],"why":"实义动词的疑问句用 Do 开头。"},
       {"t":"type","p":"洗手间在哪里？","a":["Where is the bathroom","Where is the restroom","Where's the bathroom","Where's the restroom"],"hint":"where · bathroom — 冠词 the","x":["a"],"why":"双方都知道是哪个洗手间，用冠词 the。"},
       {"t":"type","p":"你喜欢狗吗？","a":["Do you like dogs"],"hint":"do · like · dog — 复数","x":["dog"],"why":"泛指一类动物用复数 dogs。"}
     ],
@@ -1095,7 +1095,7 @@ LANGAPP_PACKS.course['zh-en'] = {
       {"t":"fill","q":"I like __ music.","p":"我喜欢听音乐","a":["listening to"],"o":["listen to","listen","to listening"],"why":"like 后面用 -ing 形式。"},
       {"t":"fill","q":"__ like a sandwich, please.","p":"请给我一个三明治","a":["I'd","I would"],"o":["I","I'm","I can"],"why":"点餐用 I'd like。"},
       {"t":"type","p":"我喜欢做饭","a":["I like cooking","I love cooking","I like to cook"],"hint":"like · cook — 用 -ing","x":["cook"],"why":"like 后面用 -ing 形式。"},
-      {"t":"type","p":"请给我一个三明治","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich"],"hint":"I'd like · sandwich — 冠词 a","x":["the"],"why":"随便一个三明治，用冠词 a。"},
+      {"t":"type","p":"请给我一个三明治","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich","Could I have a sandwich","Could I get a sandwich"],"hint":"I'd like · sandwich — 冠词 a","x":["the"],"why":"随便一个三明治，用冠词 a。"},
       {"t":"type","p":"我喜欢狗","a":["I like dogs","I love dogs"],"hint":"like · dog — 复数","x":["dog"],"why":"泛指狗用复数 dogs。"}
     ],
     "polite": [
@@ -1322,7 +1322,7 @@ LANGAPP_PACKS.course['zh-en'] = {
       {"t":"fill","q":"__ you help me?","p":"你能帮我一下吗？","a":["Will","Can","Could","Would"],"o":["Do","Are","Is"],"why":"请别人帮忙可以说 Will you …?"},
       {"t":"type","p":"我来帮你","a":["I'll help you","I will help you","I'll help","I will help"],"hint":"I'll · help · you — 用这些词","x":["helping"],"why":"will 后面接动词原形。"},
       {"t":"type","p":"我要一份沙拉（用 will）","a":["I'll have a salad","I will have a salad","I'll have the salad","I will have the salad"],"hint":"I'll have · salad — 注意冠词","x":["salads"],"why":"点一份，加冠词 a（指菜单上那道菜也可以用 the）。"},
-      {"t":"type","p":"我去关门（用 will）","a":["I'll close the door","I will close the door","I'll get the door","I will get the door"],"hint":"I'll · close · door — 冠词 the","x":["a"],"why":"就是这扇门，用冠词 the。"}
+      {"t":"type","p":"我去关门（用 will）","a":["I'll close the door","I will close the door","I'll shut the door","I will shut the door"],"hint":"I'll · close · door — 冠词 the","x":["a"],"why":"就是这扇门，用冠词 the。"}
     ],
     "perfect": [
       {"t":"mc","q":"“我去过日本”=","o":["I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan."],"why":"have + 过去分词 been。"},
@@ -1353,7 +1353,7 @@ LANGAPP_PACKS.course['zh-en'] = {
       {"t":"fill","q":"You __ have to pay.","p":"你不用付钱","a":["don't","do not"],"o":["must not","not","aren't"],"why":"“没必要”用 don't have to。"},
       {"t":"fill","q":"It __ rain tomorrow.","p":"明天可能会下雨","a":["might","may","could"],"o":["must to","has to","should to"],"why":"可能性用 might。"},
       {"t":"type","p":"我得上班","a":["I have to work","I must work","I need to work"],"hint":"have to · work — 用这些词","x":["should"],"why":"义务用 have to。"},
-      {"t":"type","p":"你应该去看看医生","a":["You should see a doctor","You should go to a doctor"],"hint":"should · see · doctor — 冠词 a","x":["the"],"why":"不是特指哪位医生，用冠词 a。"},
+      {"t":"type","p":"你应该去看看医生","a":["You should see a doctor","You should go to a doctor","You should go see a doctor","You should go to the doctor"],"hint":"should · see · doctor — 冠词 a","x":["the"],"why":"不是特指哪位医生，用冠词 a。"},
       {"t":"type","p":"得买一张票","a":["You have to buy a ticket","I have to buy a ticket","We have to buy a ticket"],"hint":"have to · buy · ticket — 冠词 a","x":["the"],"why":"一张票，用冠词 a。"}
     ],
     "to-ing": [
@@ -1448,7 +1448,7 @@ LANGAPP_PACKS.course['zh-en'] = {
       {"t":"fill","q":"I've worked here __ two years.","p":"我在这里工作两年了","a":["for"],"o":["since","from","during"],"why":"一段时间前面用 for。"},
       {"t":"fill","q":"I've been here __ Monday.","p":"我从星期一起就在这里","a":["since"],"o":["for","at","during"],"why":"起点前面用 since。"},
       {"t":"fill","q":"Have you finished __?","p":"你已经做完了吗？","a":["yet","already"],"o":["ever","never","since"],"why":"疑问句里的“已经”用 yet。"},
-      {"t":"type","p":"我在这里住了三年了","a":["I've lived here for three years","I have lived here for three years"],"hint":"I've lived · here · for · three · year — 复数","x":["year"],"why":"三年，用复数 years。"},
+      {"t":"type","p":"我在这里住了三年了","a":["I've lived here for three years","I have lived here for three years","I've been living here for three years","I have been living here for three years"],"hint":"I've lived · here · for · three · year — 复数","x":["year"],"why":"三年，用复数 years。"},
       {"t":"type","p":"你在这里多久了？","a":["How long have you been here"],"hint":"how long · have you · been here — 用这些词","x":["are"],"why":"How long have you + 过去分词。"},
       {"t":"type","p":"那本书我已经读过了","a":["I've already read the book","I have already read the book","I've read the book already","I have read the book already","I already read the book"],"hint":"already · read · book — 冠词 the","x":["a"],"why":"指双方都知道的那本书，用冠词 the。"}
     ],
@@ -1544,7 +1544,7 @@ LANGAPP_PACKS.course['zh-en'] = {
       {"t":"fill","q":"Could you send me the file __ Friday?","p":"能在周五前把文件发给我吗？","a":["by"],"o":["until","in","at"],"why":"期限（在……之前）用 by + 日期。"},
       {"t":"fill","q":"I'm writing __ ask about the schedule.","p":"想问一下日程安排","a":["to"],"o":["for","about","at"],"why":"说明目的用 I'm writing to + 动词原形。"},
       {"t":"fill","q":"Thanks for all your hard __!","p":"大家辛苦了！","a":["work"],"o":["works","working","job"],"why":"work（工作）是不可数名词，不加复数 -s。"},
-      {"t":"type","p":"我明天休息","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow"],"hint":"off · tomorrow — be 动词 + off","x":["do"],"why":"休息、不上班用 be off。"},
+      {"t":"type","p":"我明天休息","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow","I have tomorrow off","I'm taking tomorrow off","I am taking tomorrow off","I have a day off tomorrow"],"hint":"off · tomorrow — be 动词 + off","x":["do"],"why":"休息、不上班用 be off。"},
       {"t":"type","p":"文件已添加为附件","a":["I've attached the file","I have attached the file","I attached the file"],"hint":"attach · file — 就是那份文件","x":["a"],"why":"对方要收到的就是这份文件，所以用冠词 the。"},
       {"t":"type","p":"周末愉快！","a":["Have a great weekend","Have a nice weekend","Have a good weekend"],"hint":"have · great · weekend — 一个周末前的冠词","x":["the"],"why":"说的是一个周末，加冠词 a：a great weekend。"}
     ],

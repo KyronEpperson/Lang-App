@@ -51,7 +51,7 @@ practice:[
 ["fi","__ you help me?","도와줄래요?","Will|Can|Could|Would","Do|Are|Is","부탁할 때는 Will you ~?를 써요."],
 ["ty","도와줄게요","I'll help you|I'll help","I'll · help · you","helping","will 뒤에는 동사원형이 와요."],
 ["ty","저는 샐러드로 할게요","I'll have a salad|I'll have the salad","I'll have · salad — 관사 주의","salads","하나를 주문하니까 관사 a(메뉴의 그것이면 the)를 붙여요."],
-["ty","제가 문 닫을게요","I'll close the door|I'll get the door","I'll · close · door — 관사 the","a","여기 있는 그 문이라 관사 the예요."]]},
+["ty","제가 문 닫을게요","I'll close the door|I'll shut the door","I'll · close · door — 관사 the","a","여기 있는 그 문이라 관사 the예요."]]},
 { id:"perfect", title:"현재완료: 해 본 적 있어요", blurb:"have + 과거분사로 경험을 말해요. 언제인지 말하면 과거형.", deck:"여행(공항·호텔)", body:`
 <p><b>have + 과거분사(p.p.)</b>는 '지금까지 살면서 ~해 본 적이 있다'는 뜻이에요. <b>언제</b>인지는 말하지 않아요.</p>
 {{ex:I've been to Japan.|아이브 빈 투 저팬|일본에 가 본 적 있어요}}{{ex:She has visited Korea twice.|쉬 해즈 비지티드 코리아 트와이스|그녀는 한국에 두 번 와 봤어요}}
@@ -106,7 +106,7 @@ practice:[
 ["fi","You __ have to pay.","돈 안 내도 돼요","don't|do not","must not|not|aren't","'필요 없다'는 don't have to예요."],
 ["fi","It __ rain tomorrow.","내일 비가 올지도 몰라요","might|may|could","must to|has to|should to","가능성은 might예요."],
 ["ty","저는 일해야 해요","I have to work|I must work|I need to work","have to · work","should","의무는 have to예요."],
-["ty","병원에 가 보세요","You should see a doctor|You should go to a doctor","should · see · doctor — 관사 a","the","아무 의사 한 명이라 관사 a예요."],
+["ty","병원에 가 보세요","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — 관사 a","the","아무 의사 한 명이라 관사 a예요."],
 ["ty","표를 사야 해요","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — 관사 a","the","표 한 장이라 관사 a예요."]]},
 { id:"to-ing", title:"동사 뒤 to와 -ing: want to, enjoy -ing", blurb:"want 뒤는 to, enjoy 뒤는 -ing. 동사마다 정해져 있어요.", deck:"스몰토크", body:`
 <p>동사 두 개를 이어 쓸 때, 앞 동사에 따라 뒤가 <b>to + 동사</b>인지 <b>동사-ing</b>인지 정해져 있어요. 자주 쓰는 것부터 묶어서 외워요.</p>

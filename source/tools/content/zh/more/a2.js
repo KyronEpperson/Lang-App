@@ -53,7 +53,7 @@ practice:[
 ["fi","__ you help me?","你能帮我一下吗？","Will|Can|Could|Would","Do|Are|Is","请别人帮忙可以说 Will you …?"],
 ["ty","我来帮你","I'll help you|I'll help","I'll · help · you","helping","will 后面接动词原形。"],
 ["ty","我要一份沙拉（用 will）","I'll have a salad|I'll have the salad","I'll have · salad — 注意冠词","salads","点一份，加冠词 a（指菜单上那道菜也可以用 the）。"],
-["ty","我去关门（用 will）","I'll close the door|I'll get the door","I'll · close · door — 冠词 the","a","就是这扇门，用冠词 the。"]]},
+["ty","我去关门（用 will）","I'll close the door|I'll shut the door","I'll · close · door — 冠词 the","a","就是这扇门，用冠词 the。"]]},
 { id:"perfect", title:"现在完成时：做过某事", blurb:"have + 过去分词，表达经历。说出具体时间就用一般过去时。", deck:"旅行（机场与酒店）", body:`
 <p><b>have + 过去分词</b>表示“到现在为止，做过某事”，相当于中文的“过”：我去过北京 → I've been to Beijing. 这种用法<b>不说具体什么时候</b>。</p>
 {{ex:I've been to Beijing.|/aɪv bɪn tə ˌbeɪˈdʒɪŋ/|我去过北京}}{{ex:She has visited China twice.|/ʃi həz ˈvɪzɪtɪd ˈtʃaɪnə ˈtwaɪs/|她来过中国两次}}
@@ -112,7 +112,7 @@ practice:[
 ["fi","You __ have to pay.","你不用付钱","don't|do not","must not|not|aren't","“没必要”用 don't have to。"],
 ["fi","It __ rain tomorrow.","明天可能会下雨","might|may|could","must to|has to|should to","可能性用 might。"],
 ["ty","我得上班","I have to work|I must work|I need to work","have to · work","should","义务用 have to。"],
-["ty","你应该去看看医生","You should see a doctor|You should go to a doctor","should · see · doctor — 冠词 a","the","不是特指哪位医生，用冠词 a。"],
+["ty","你应该去看看医生","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — 冠词 a","the","不是特指哪位医生，用冠词 a。"],
 ["ty","得买一张票","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — 冠词 a","the","一张票，用冠词 a。"]]},
 { id:"to-ing", title:"动词后接 to 还是 -ing：want to、enjoy -ing", blurb:"want 后面接 to，enjoy 后面接 -ing，由前面的动词决定。", deck:"闲聊", body:`
 <p>中文“我想去”“我喜欢做饭”，两个动词可以直接连在一起，英语不行：<b>I want go.</b> ✗ 第二个动词要么用 <b>to + 动词原形</b>（动词不定式），要么用 <b>-ing</b>（动名词），由前面的动词决定。常用的成组记。</p>

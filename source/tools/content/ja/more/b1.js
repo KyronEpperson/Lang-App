@@ -25,7 +25,7 @@ practice:[
 ["fi","I've worked here __ two years.","ここで働いて2年になります","for","since|from|during","期間の前は for です。"],
 ["fi","I've been here __ Monday.","月曜日からここにいます","since","for|at|during","始まった時点の前は since です。"],
 ["fi","Have you finished __?","もう終わりましたか？","yet|already","ever|never|since","疑問文の「もう」は yet です。"],
-["ty","ここに住んで3年になります（have + 過去分詞で）","I've lived here for three years","I've lived · here · for · three · year — 複数形","year","3年なので複数形の years です。"],
+["ty","ここに住んで3年になります（have + 過去分詞で）","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — 複数形","year","3年なので複数形の years です。"],
 ["ty","ここにどのくらいいますか？","How long have you been here","how long · have you · been here","are","How long have you + 過去分詞です。"],
 ["ty","私はその本をもう読みました","I've already read the book|I've read the book already|I already read the book","already · read · book — 冠詞 the","a","お互いにわかっているその本なので冠詞 the です。"]]},
 { id:"narrative", title:"物語の時制：過去形・過去進行形・過去完了形", blurb:"背景は過去進行形、出来事は過去形、それより前のことは had + 過去分詞。", deck:"映画・ドラマ・スラング", body:`

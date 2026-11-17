@@ -115,7 +115,7 @@ practice:[
 ["fi","__ you like music?","Bạn có thích âm nhạc không?","Do","Are|Is|Does","\"Like\" là động từ thường nên hỏi bằng \"Do\"."],
 ["fi","__ do you live?","Bạn sống ở đâu?","Where","What|Who|When","Hỏi nơi chốn dùng \"where\"."],
 ["fi","What time __ it?","Mấy giờ rồi?","is","do|does|are","Hỏi giờ dùng động từ to be."],
-["ty","Bạn có nói tiếng Anh không?","Do you speak English","do · speak · English — bắt đầu bằng do","Are","Câu hỏi với động từ thường bắt đầu bằng \"Do\"."],
+["ty","Bạn có nói tiếng Anh không?","Do you speak English|Can you speak English","do · speak · English — bắt đầu bằng do","Are","Câu hỏi với động từ thường bắt đầu bằng \"Do\"."],
 ["ty","Nhà vệ sinh ở đâu?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — mạo từ the","a","Cả hai đều biết là nhà vệ sinh nào nên dùng mạo từ \"the\"."],
 ["ty","Bạn có thích chó không?","Do you like dogs","do · like · dog — số nhiều","dog","Nói về loài chó nói chung thì dùng số nhiều \"dogs\"."]]},
 { id:"third-s", title:"Ngôi thứ ba số ít: thêm -s, does / doesn't", blurb:"He, she, it hoặc một người: động từ thêm -s. Câu hỏi và câu phủ định dùng does.", deck:"Giới thiệu bản thân", body:`
@@ -269,7 +269,7 @@ practice:[
 ["fi","I like __ music.","Tôi thích nghe nhạc","listening to","listen to|listen|to listening","Sau \"like\" dùng V-ing."],
 ["fi","__ like a sandwich, please.","Cho tôi một cái bánh sandwich","I'd|I would","I|I'm|I can","Gọi món dùng \"I'd like\"."],
 ["ty","Tôi thích nấu ăn","I like cooking|I love cooking|I like to cook","like · cook — dạng V-ing","cook","Sau \"like\" dùng V-ing."],
-["ty","Cho tôi một cái bánh sandwich","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich","I'd like · sandwich — mạo từ a","the","Một cái bánh bất kỳ nên dùng mạo từ \"a\"."],
+["ty","Cho tôi một cái bánh sandwich","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — mạo từ a","the","Một cái bánh bất kỳ nên dùng mạo từ \"a\"."],
 ["ty","Tôi thích chó","I like dogs|I love dogs","like · dog — số nhiều","dog","Nói về loài chó nói chung thì dùng số nhiều \"dogs\"."]]},
 { id:"continuous", title:"Thì hiện tại tiếp diễn: be + V-ing", blurb:"Thói quen dùng thì hiện tại đơn; việc đang làm lúc này dùng be + V-ing.", deck:"Trò chuyện xã giao", body:`
 <p>“Đang” trong tiếng Việt gần giống <b>be + V-ing</b>, nhưng có hai khác biệt. Thứ nhất, “đang” có thể bỏ (“Tôi làm việc” vẫn có thể hiểu là đang làm), còn tiếng Anh phải chọn rõ: việc <b>đang diễn ra lúc này</b> dùng <b>be + V-ing</b>. Thứ hai, động từ to be là <b>bắt buộc</b>: không nói <b>I going</b>.</p>

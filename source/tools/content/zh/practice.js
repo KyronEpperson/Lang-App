@@ -203,7 +203,7 @@ module.exports = {
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "想问一下日程安排", a: ["to"], o: ["for", "about", "at"], why: "说明目的用 I'm writing to + 动词原形。" },
     { t: "fill", q: "Thanks for all your hard __!", p: "大家辛苦了！", a: ["work"], o: ["works", "working", "job"], why: "work（工作）是不可数名词，不加复数 -s。" },
 
-    { t: "type", p: "我明天休息", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow"], hint: "off · tomorrow — be 动词 + off", x: ["do"], why: "休息、不上班用 be off。" },
+    { t: "type", p: "我明天休息", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be 动词 + off", x: ["do"], why: "休息、不上班用 be off。" },
     { t: "type", p: "文件已添加为附件", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — 就是那份文件", x: ["a"], why: "对方要收到的就是这份文件，所以用冠词 the。" },
     { t: "type", p: "周末愉快！", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — 一个周末前的冠词", x: ["the"], why: "说的是一个周末，加冠词 a：a great weekend。" }
   ],

@@ -54,7 +54,7 @@ practice:[
 ["fi","__ you help me?","Kamu mau bantu saya?","Will|Can|Could|Would","Do|Are|Is","Untuk minta tolong, pakai \"Will you ...?\" (atau \"Can / Could / Would\")."],
 ["ty","Saya bantu, ya","I'll help you|I'll help","I'll · help · you","helping","Setelah \"will\", pakai V1."],
 ["ty","Saya pesan salad satu","I'll have a salad|I'll have the salad","I'll have · salad — perhatikan artikel","salads","Memesan satu porsi: artikel \"a\" (atau \"the\" untuk salad yang ada di menu)."],
-["ty","Biar saya yang tutup pintunya","I'll close the door|I'll get the door","I'll · close · door — artikel the","a","Pintu yang ada di sini: artikel \"the\"."]]},
+["ty","Biar saya yang tutup pintunya","I'll close the door|I'll shut the door","I'll · close · door — artikel the","a","Pintu yang ada di sini: artikel \"the\"."]]},
 { id:"perfect", title:"Present Perfect Tense: pernah dan belum pernah", blurb:"have + V3 untuk pengalaman. Kalau waktunya disebut, pakai V2.", deck:"Perjalanan (bandara & hotel)", body:`
 <p><b>Present Perfect Tense</b> (<b>have / has + V3</b>) dipakai untuk pengalaman: <i>pernah</i> melakukan sesuatu sampai sekarang. Kapan terjadinya tidak disebut.</p>
 {{ex:I've been to Japan.|aiv bin te je-PÈN|Saya pernah ke Jepang}}{{ex:She has visited Indonesia twice.|syi hez VI-zi-did in-de-NII-zye twais|Dia (perempuan) sudah dua kali berkunjung ke Indonesia}}
@@ -145,7 +145,7 @@ practice:[
 ["fi","You __ have to pay.","Kamu tidak perlu bayar","don't|do not","must not|not|aren't","'Tidak perlu' adalah \"don't have to\"."],
 ["fi","It __ rain tomorrow.","Besok mungkin hujan","might|may|could","must to|has to|should to","Kemungkinan memakai \"might\"."],
 ["ty","Saya harus bekerja","I have to work|I must work|I need to work","have to · work","should","Kewajiban: \"have to\" + V1."],
-["ty","Sebaiknya kamu periksa ke dokter","You should see a doctor|You should go to a doctor","should · see · doctor — artikel a","the","Dokter mana saja, satu orang: artikel \"a\"."],
+["ty","Sebaiknya kamu periksa ke dokter","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — artikel a","the","Dokter mana saja, satu orang: artikel \"a\"."],
 ["ty","Harus beli satu tiket","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — artikel a","the","Satu tiket: artikel \"a\"."]]},
 { id:"to-ing", title:"to atau -ing setelah kata kerja: want to, enjoy -ing", blurb:"Setelah want pakai to, setelah enjoy pakai -ing. Setiap kata kerja punya pasangannya sendiri.", deck:"Obrolan ringan", body:`
 <p>Dalam bahasa Indonesia, dua kata kerja bisa langsung berderet: <i>mau pergi</i>, <i>suka memasak</i>, <i>selesai bekerja</i>. Dalam bahasa Inggris, kata kerja kedua harus berbentuk <b>to + V1</b> (<b>to infinitive</b>) atau <b>V-ing</b> (<b>gerund</b>), tergantung kata kerja pertamanya. Hafalkan per kelompok, mulai dari yang paling sering.</p>

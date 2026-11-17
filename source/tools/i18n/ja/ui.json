@@ -5231,6 +5231,12 @@
    "optionalFor": [
     "ko"
    ]
+  },
+  "Category": {
+   "t": "カテゴリ",
+   "ko": "분류",
+   "kind": "label",
+   "where": "aria-label of the feedback category chips"
   }
  },
  "patterns": {

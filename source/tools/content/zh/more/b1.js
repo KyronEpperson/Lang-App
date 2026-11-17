@@ -25,7 +25,7 @@ practice:[
 ["fi","I've worked here __ two years.","我在这里工作两年了","for","since|from|during","一段时间前面用 for。"],
 ["fi","I've been here __ Monday.","我从星期一起就在这里","since","for|at|during","起点前面用 since。"],
 ["fi","Have you finished __?","你已经做完了吗？","yet|already","ever|never|since","疑问句里的“已经”用 yet。"],
-["ty","我在这里住了三年了","I've lived here for three years","I've lived · here · for · three · year — 复数","year","三年，用复数 years。"],
+["ty","我在这里住了三年了","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — 复数","year","三年，用复数 years。"],
 ["ty","你在这里多久了？","How long have you been here","how long · have you · been here","are","How long have you + 过去分词。"],
 ["ty","那本书我已经读过了","I've already read the book|I've read the book already|I already read the book","already · read · book — 冠词 the","a","指双方都知道的那本书，用冠词 the。"]]},
 { id:"narrative", title:"讲故事的时态：一般过去时、过去进行时、过去完成时", blurb:"背景用过去进行时，事件用一般过去时，更早发生的事用 had + 过去分词。", deck:"影视与俚语", body:`

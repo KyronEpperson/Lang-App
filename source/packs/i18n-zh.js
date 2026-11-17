@@ -768,7 +768,8 @@ LANGAPP_PACKS.i18n.zh = {
     "Change course": "更换语言课程",
     "listen · type · role-play": "听力 · 输入 · 情景对话",
     "Could not load. Check your connection.": "加载失败，请检查网络连接。",
-    "A new version is ready. Reload to continue.": "新版本已就绪，请刷新后继续。"
+    "A new version is ready. Reload to continue.": "新版本已就绪，请刷新后继续。",
+    "Category": "类别"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],

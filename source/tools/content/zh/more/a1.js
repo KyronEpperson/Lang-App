@@ -116,7 +116,7 @@ practice:[
 ["fi","__ you like music?","你喜欢音乐吗？","Do","Are|Is|Does","实义动词 like 的疑问句用 Do。"],
 ["fi","__ do you live?","你住在哪里？","Where","What|Who|When","问地点用 where。"],
 ["fi","What time __ it?","现在几点？","is","do|does|are","问时间用 be 动词。"],
-["ty","你会说英语吗？","Do you speak English","do · speak · English","Are","实义动词的疑问句用 Do 开头。"],
+["ty","你会说英语吗？","Do you speak English|Can you speak English","do · speak · English","Are","实义动词的疑问句用 Do 开头。"],
 ["ty","洗手间在哪里？","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — 冠词 the","a","双方都知道是哪个洗手间，用冠词 the。"],
 ["ty","你喜欢狗吗？","Do you like dogs","do · like · dog — 复数","dog","泛指一类动物用复数 dogs。"]]},
 { id:"third-s", title:"第三人称单数：he / she / it 加 -s，does / doesn't", blurb:"主语是一个人或一样东西，动词加 -s。疑问和否定用 does。", deck:"自我介绍", body:`
@@ -231,7 +231,7 @@ practice:[
 ["fi","I like __ music.","我喜欢听音乐","listening to","listen to|listen|to listening","like 后面用 -ing 形式。"],
 ["fi","__ like a sandwich, please.","请给我一个三明治","I'd|I would","I|I'm|I can","点餐用 I'd like。"],
 ["ty","我喜欢做饭","I like cooking|I love cooking|I like to cook","like · cook — 用 -ing","cook","like 后面用 -ing 形式。"],
-["ty","请给我一个三明治","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich","I'd like · sandwich — 冠词 a","the","随便一个三明治，用冠词 a。"],
+["ty","请给我一个三明治","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — 冠词 a","the","随便一个三明治，用冠词 a。"],
 ["ty","我喜欢狗","I like dogs|I love dogs","like · dog — 复数","dog","泛指狗用复数 dogs。"]]},
 { id:"continuous", title:"正在做的事：be + -ing", blurb:"经常做的事用一般现在时，现在正在做的事用 be + -ing。", deck:"闲聊", body:`
 <p>中文的“在”“正在”和英语的现在进行时很像：我在工作 → I'm working. 区别是英语一定要有 <b>be 动词</b>，动词也一定要变成 <b>-ing</b>，两样都不能少。</p>

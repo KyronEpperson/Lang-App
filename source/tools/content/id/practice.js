@@ -203,7 +203,7 @@ module.exports = {
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "Saya menulis email ini untuk menanyakan jadwal.", a: ["to"], o: ["for", "about", "at"], why: "Untuk menyatakan tujuan: \"I'm writing to\" + V1." },
     { t: "fill", q: "Thanks for all your hard __!", p: "Terima kasih atas kerja kerasnya!", a: ["work"], o: ["works", "working", "job"], why: "\"work\" (pekerjaan, usaha) di sini tidak bisa dihitung, jadi tanpa -s jamak." },
 
-    { t: "type", p: "Besok saya libur (tidak masuk kerja; pakai \"off\").", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow"], hint: "off · tomorrow — pakai to be + off", x: ["do"], why: "Untuk hari libur, pakai \"be off\"." },
+    { t: "type", p: "Besok saya libur (tidak masuk kerja; pakai \"off\").", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — pakai to be + off", x: ["do"], why: "Untuk hari libur, pakai \"be off\"." },
     { t: "type", p: "Berkasnya sudah saya lampirkan.", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — berkas yang itu", x: ["a"], why: "Berkas yang akan diterima lawan bicara, jadi artikelnya \"the\"." },
     { t: "type", p: "Selamat berakhir pekan!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — artikel untuk satu akhir pekan", x: ["the"], why: "Satu akhir pekan, jadi pakai artikel \"a\": \"a great weekend\"." }
   ],

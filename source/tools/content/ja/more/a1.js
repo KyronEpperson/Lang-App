@@ -115,7 +115,7 @@ practice:[
 ["fi","__ you like music?","音楽は好きですか？","Do","Are|Is|Does","一般動詞 like の疑問文は Do で始めます。"],
 ["fi","__ do you live?","どこに住んでいますか？","Where","What|Who|When","場所を聞くときは where です。"],
 ["fi","What time __ it?","今何時ですか？","is","do|does|are","時間は be動詞で聞きます。"],
-["ty","英語を話しますか？","Do you speak English","do · speak · English","Are","一般動詞の疑問文は Do で始めます。"],
+["ty","英語を話しますか？","Do you speak English|Can you speak English","do · speak · English","Are","一般動詞の疑問文は Do で始めます。"],
 ["ty","トイレはどこですか？","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — 冠詞 the","a","お互いにわかっているそのトイレなので冠詞 the です。"],
 ["ty","犬は好きですか？","Do you like dogs","do · like · dog — 複数","dog","動物全体を指すときは複数形 dogs です。"]]},
 { id:"third-s", title:"三単現の s：does / doesn't", blurb:"主語が he / she / it なら動詞に s。疑問文と否定文は does。", deck:"自己紹介", body:`
@@ -231,7 +231,7 @@ practice:[
 ["fi","I like __ music.","音楽を聴くのが好きです","listening to","listen to|listen|to listening","like のあとは ing形を使います。"],
 ["fi","__ like a sandwich, please.","サンドイッチを一つください","I'd|I would","I|I'm|I can","注文は I'd like で言います。"],
 ["ty","料理をするのが好きです","I like cooking|I love cooking|I like to cook","like · cook — ing形","cook","like のあとは ing形を使います。"],
-["ty","サンドイッチを一つください","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich","I'd like · sandwich — 冠詞 a","the","どれでもいい一つなので冠詞 a です。"],
+["ty","サンドイッチを一つください","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — 冠詞 a","the","どれでもいい一つなので冠詞 a です。"],
 ["ty","犬が好きです","I like dogs|I love dogs","like · dog — 複数","dog","犬全般を指すときは複数形 dogs です。"]]},
 { id:"continuous", title:"今しているところ：be + -ing", blurb:"いつものことは現在形、今していることは be + -ing。「〜ている」がいつも -ing になるわけではありません。", deck:"スモールトーク", body:`
 <p><b>今この瞬間</b>にしていることは、<b>be動詞 + 動詞の ing形</b>（現在進行形）で表します。</p>

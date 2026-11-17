@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 768,
+  "exact": 769,
   "patterns": 272,
   "distinctPatternTemplates": 271
  },
@@ -5310,6 +5310,14 @@
    "optionalFor": [
     "ko"
    ]
+  },
+  {
+   "key": "Category",
+   "kind": "label",
+   "section": "static html",
+   "where": "aria-label of the feedback category chips (Idea / Bug / Content / Other)",
+   "context": "screen-reader label",
+   "source": "html"
   }
  ],
  "patterns": [

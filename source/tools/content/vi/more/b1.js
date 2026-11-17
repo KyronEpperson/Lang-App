@@ -27,7 +27,7 @@ practice:[
 ["fi","I've worked here __ two years.","Tôi làm việc ở đây được 2 năm rồi","for","since|from|during","Trước khoảng thời gian dùng \"for\"."],
 ["fi","I've been here __ Monday.","Tôi ở đây từ thứ hai","since","for|at|during","Trước mốc thời gian dùng \"since\"."],
 ["fi","Have you finished __?","Bạn làm xong chưa?","yet|already","ever|never|since","Trong câu hỏi, “… chưa?” là \"yet\"."],
-["ty","Tôi sống ở đây được 3 năm rồi","I've lived here for three years","I've lived · here · for · three · year — số nhiều","year","Có \"three\" nên dùng số nhiều \"years\"."],
+["ty","Tôi sống ở đây được 3 năm rồi","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — số nhiều","year","Có \"three\" nên dùng số nhiều \"years\"."],
 ["ty","Bạn ở đây bao lâu rồi?","How long have you been here","how long · have you · been here — câu hỏi","are","\"How long have you\" + V3."],
 ["ty","Tôi đọc quyển sách đó rồi","I've already read the book|I've read the book already|I already read the book","already · read · book — mạo từ \"the\"","a","Quyển sách mà cả hai đều biết nên dùng mạo từ \"the\"."]]},
 { id:"narrative", title:"Thì khi kể chuyện: quá khứ đơn, quá khứ tiếp diễn, quá khứ hoàn thành", blurb:"Bối cảnh dùng quá khứ tiếp diễn, sự việc dùng quá khứ đơn, việc xảy ra trước đó nữa dùng \"had\" + V3.", deck:"Phim ảnh · tiếng lóng", body:`

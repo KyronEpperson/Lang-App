@@ -932,7 +932,7 @@ LANGAPP_PACKS.course['ko-en'] = {
       {"t":"fill","q":"__ you like music?","p":"음악 좋아하세요?","a":["Do"],"o":["Are","Is","Does"],"why":"일반동사 like의 질문은 Do예요."},
       {"t":"fill","q":"__ do you live?","p":"어디 사세요?","a":["Where"],"o":["What","Who","When"],"why":"장소를 물을 때는 where예요."},
       {"t":"fill","q":"What time __ it?","p":"몇 시예요?","a":["is"],"o":["do","does","are"],"why":"시간은 be동사로 물어요."},
-      {"t":"type","p":"영어 하세요?","a":["Do you speak English"],"hint":"do · speak · English — 이 단어들로","x":["Are"],"why":"일반동사 질문은 Do로 시작해요."},
+      {"t":"type","p":"영어 하세요?","a":["Do you speak English","Can you speak English"],"hint":"do · speak · English — 이 단어들로","x":["Are"],"why":"일반동사 질문은 Do로 시작해요."},
       {"t":"type","p":"화장실이 어디예요?","a":["Where is the bathroom","Where is the restroom","Where's the bathroom","Where's the restroom"],"hint":"where · bathroom — 관사 the","x":["a"],"why":"서로 아는 그 화장실이라 관사 the예요."},
       {"t":"type","p":"개 좋아하세요?","a":["Do you like dogs"],"hint":"do · like · dog — 복수","x":["dog"],"why":"동물 전체를 말할 때는 복수 dogs예요."}
     ],
@@ -1013,7 +1013,7 @@ LANGAPP_PACKS.course['ko-en'] = {
       {"t":"fill","q":"I like __ music.","p":"저는 음악 듣는 걸 좋아해요","a":["listening to"],"o":["listen to","listen","to listening"],"why":"like 뒤에는 -ing를 써요."},
       {"t":"fill","q":"__ like a sandwich, please.","p":"샌드위치 하나 주세요","a":["I'd","I would"],"o":["I","I'm","I can"],"why":"주문은 I'd like로 해요."},
       {"t":"type","p":"저는 요리하는 걸 좋아해요","a":["I like cooking","I love cooking","I like to cook"],"hint":"like · cook — -ing — 이 단어들로","x":["cook"],"why":"like 뒤에는 -ing를 써요."},
-      {"t":"type","p":"샌드위치 하나 주세요","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich"],"hint":"I'd like · sandwich — 관사 a","x":["the"],"why":"아무 샌드위치 하나라서 관사 a예요."},
+      {"t":"type","p":"샌드위치 하나 주세요","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich","Could I have a sandwich","Could I get a sandwich"],"hint":"I'd like · sandwich — 관사 a","x":["the"],"why":"아무 샌드위치 하나라서 관사 a예요."},
       {"t":"type","p":"저는 개를 좋아해요","a":["I like dogs","I love dogs"],"hint":"like · dog — 복수","x":["dog"],"why":"개 전체를 말할 때는 복수 dogs예요."}
     ],
     "polite": [
@@ -1222,7 +1222,7 @@ LANGAPP_PACKS.course['ko-en'] = {
       {"t":"fill","q":"__ you help me?","p":"도와줄래요?","a":["Will","Can","Could","Would"],"o":["Do","Are","Is"],"why":"부탁할 때는 Will you ~?를 써요."},
       {"t":"type","p":"도와줄게요","a":["I'll help you","I will help you","I'll help","I will help"],"hint":"I'll · help · you — 이 단어들로","x":["helping"],"why":"will 뒤에는 동사원형이 와요."},
       {"t":"type","p":"저는 샐러드로 할게요","a":["I'll have a salad","I will have a salad","I'll have the salad","I will have the salad"],"hint":"I'll have · salad — 관사 주의","x":["salads"],"why":"하나를 주문하니까 관사 a(메뉴의 그것이면 the)를 붙여요."},
-      {"t":"type","p":"제가 문 닫을게요","a":["I'll close the door","I will close the door","I'll get the door","I will get the door"],"hint":"I'll · close · door — 관사 the","x":["a"],"why":"여기 있는 그 문이라 관사 the예요."}
+      {"t":"type","p":"제가 문 닫을게요","a":["I'll close the door","I will close the door","I'll shut the door","I will shut the door"],"hint":"I'll · close · door — 관사 the","x":["a"],"why":"여기 있는 그 문이라 관사 the예요."}
     ],
     "perfect": [
       {"t":"mc","q":"'저는 일본에 가 본 적 있어요' =","o":["I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan."],"why":"have + 과거분사 been이에요."},
@@ -1253,7 +1253,7 @@ LANGAPP_PACKS.course['ko-en'] = {
       {"t":"fill","q":"You __ have to pay.","p":"돈 안 내도 돼요","a":["don't","do not"],"o":["must not","not","aren't"],"why":"'필요 없다'는 don't have to예요."},
       {"t":"fill","q":"It __ rain tomorrow.","p":"내일 비가 올지도 몰라요","a":["might","may","could"],"o":["must to","has to","should to"],"why":"가능성은 might예요."},
       {"t":"type","p":"저는 일해야 해요","a":["I have to work","I must work","I need to work"],"hint":"have to · work — 이 단어들로","x":["should"],"why":"의무는 have to예요."},
-      {"t":"type","p":"병원에 가 보세요","a":["You should see a doctor","You should go to a doctor"],"hint":"should · see · doctor — 관사 a","x":["the"],"why":"아무 의사 한 명이라 관사 a예요."},
+      {"t":"type","p":"병원에 가 보세요","a":["You should see a doctor","You should go to a doctor","You should go see a doctor","You should go to the doctor"],"hint":"should · see · doctor — 관사 a","x":["the"],"why":"아무 의사 한 명이라 관사 a예요."},
       {"t":"type","p":"표를 사야 해요","a":["You have to buy a ticket","I have to buy a ticket","We have to buy a ticket"],"hint":"have to · buy · ticket — 관사 a","x":["the"],"why":"표 한 장이라 관사 a예요."}
     ],
     "to-ing": [
@@ -1348,7 +1348,7 @@ LANGAPP_PACKS.course['ko-en'] = {
       {"t":"fill","q":"I've worked here __ two years.","p":"여기서 일한 지 2년 됐어요","a":["for"],"o":["since","from","during"],"why":"기간 앞에는 for예요."},
       {"t":"fill","q":"I've been here __ Monday.","p":"월요일부터 여기 있어요","a":["since"],"o":["for","at","during"],"why":"시작점 앞에는 since예요."},
       {"t":"fill","q":"Have you finished __?","p":"벌써 끝냈어요?","a":["yet","already"],"o":["ever","never","since"],"why":"질문에서 '벌써'는 yet이에요."},
-      {"t":"type","p":"저는 여기서 3년 살았어요","a":["I've lived here for three years","I have lived here for three years"],"hint":"I've lived · here · for · three · year — 복수","x":["year"],"why":"3년이니까 복수 years예요."},
+      {"t":"type","p":"저는 여기서 3년 살았어요","a":["I've lived here for three years","I have lived here for three years","I've been living here for three years","I have been living here for three years"],"hint":"I've lived · here · for · three · year — 복수","x":["year"],"why":"3년이니까 복수 years예요."},
       {"t":"type","p":"여기 얼마나 계셨어요?","a":["How long have you been here"],"hint":"how long · have you · been here — 이 단어들로","x":["are"],"why":"How long have you + 과거분사예요."},
       {"t":"type","p":"저는 그 책을 이미 읽었어요","a":["I've already read the book","I have already read the book","I've read the book already","I have read the book already","I already read the book"],"hint":"already · read · book — 관사 the","x":["a"],"why":"서로 아는 그 책이라서 관사 the예요."}
     ],
@@ -1428,7 +1428,7 @@ LANGAPP_PACKS.course['ko-en'] = {
       {"t":"fill","q":"Could you send me the file __ Friday?","p":"금요일까지 파일 보내 주실 수 있나요?","a":["by"],"o":["until","in","at"],"why":"기한(~까지)은 by + 날짜예요."},
       {"t":"fill","q":"I'm writing __ ask about the schedule.","p":"일정에 대해 여쭤보려고 연락드립니다","a":["to"],"o":["for","about","at"],"why":"목적은 I'm writing to + 동사원형이에요."},
       {"t":"fill","q":"Thanks for all your hard __!","p":"그동안 정말 고생 많으셨어요","a":["work"],"o":["works","working","job"],"why":"work(일)는 셀 수 없는 명사라 복수 -s를 붙이지 않아요."},
-      {"t":"type","p":"저 내일 쉬어요 (휴무예요)","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow"],"hint":"off · tomorrow — be동사 + off","x":["do"],"why":"쉬는 날은 be off로 말해요."},
+      {"t":"type","p":"저 내일 쉬어요 (휴무예요)","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow","I have tomorrow off","I'm taking tomorrow off","I am taking tomorrow off","I have a day off tomorrow"],"hint":"off · tomorrow — be동사 + off","x":["do"],"why":"쉬는 날은 be off로 말해요."},
       {"t":"type","p":"파일을 첨부했습니다","a":["I've attached the file","I have attached the file","I attached the file"],"hint":"attach · file — 바로 그 파일","x":["a"],"why":"상대가 받을 바로 그 파일이니 관사 the예요."},
       {"t":"type","p":"좋은 주말 보내세요!","a":["Have a great weekend","Have a nice weekend","Have a good weekend"],"hint":"have · great · weekend — 주말 하나 앞 관사","x":["the"],"why":"주말 하나를 말하니 관사 a를 붙여요: a great weekend."}
     ],

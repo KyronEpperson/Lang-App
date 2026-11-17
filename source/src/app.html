@@ -522,7 +522,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-left:0;padding-right:
   <section class="view" id="v-feedback" hidden>
     <div class="panel"><h3 style="margin-top:0">Tell us what you think</h3><p class="stat" style="margin:0 0 10px">Bugs, missing phrases, wrong pronunciations, ideas — anything. It goes straight to the person building this.</p>
       <form id="fbForm" style="display:grid;gap:10px">
-        <div class="row" style="justify-content:flex-start;gap:6px" role="radiogroup" aria-label="Type"><button type="button" class="chip" data-fbk="idea" aria-pressed="true">💡 Idea</button><button type="button" class="chip" data-fbk="bug" aria-pressed="false">🐞 Bug</button><button type="button" class="chip" data-fbk="content" aria-pressed="false">📝 Content fix</button><button type="button" class="chip" data-fbk="love" aria-pressed="false">❤️ Love it</button></div>
+        <div class="row" style="justify-content:flex-start;gap:6px" role="radiogroup" aria-label="Category"><button type="button" class="chip" data-fbk="idea" aria-pressed="true">💡 Idea</button><button type="button" class="chip" data-fbk="bug" aria-pressed="false">🐞 Bug</button><button type="button" class="chip" data-fbk="content" aria-pressed="false">📝 Content fix</button><button type="button" class="chip" data-fbk="love" aria-pressed="false">❤️ Love it</button></div>
         <textarea id="fbMsg" rows="5" maxlength="2000" required placeholder="What's on your mind?" aria-label="Feedback message" style="width:100%;font:1rem var(--body);padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--paper);color:var(--fg);resize:vertical"></textarea>
         <label class="auto" id="fbNameRow"><input type="checkbox" id="fbAttach"> <span id="fbAttachLbl">Show my name</span></label><p class="stat" style="margin:0">Your post appears on the public board below. Don't include passwords, phone numbers or addresses.</p>
         <div class="row"><span class="stat" id="fbCount">0 / 2000</span><button class="big primary" type="submit" id="fbSend" style="padding:10px 18px">Send feedback</button></div>
@@ -536,7 +536,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-left:0;padding-right:
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.14.0 · 2026-11-17';
+const APP_VERSION='2.14.1 · 2026-11-17';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields

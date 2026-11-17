@@ -1024,7 +1024,7 @@ LANGAPP_PACKS.course['ja-en'] = {
       {"t":"fill","q":"__ you like music?","p":"音楽は好きですか？","a":["Do"],"o":["Are","Is","Does"],"why":"一般動詞 like の疑問文は Do で始めます。"},
       {"t":"fill","q":"__ do you live?","p":"どこに住んでいますか？","a":["Where"],"o":["What","Who","When"],"why":"場所を聞くときは where です。"},
       {"t":"fill","q":"What time __ it?","p":"今何時ですか？","a":["is"],"o":["do","does","are"],"why":"時間は be動詞で聞きます。"},
-      {"t":"type","p":"英語を話しますか？","a":["Do you speak English"],"hint":"do · speak · English — この単語を使って","x":["Are"],"why":"一般動詞の疑問文は Do で始めます。"},
+      {"t":"type","p":"英語を話しますか？","a":["Do you speak English","Can you speak English"],"hint":"do · speak · English — この単語を使って","x":["Are"],"why":"一般動詞の疑問文は Do で始めます。"},
       {"t":"type","p":"トイレはどこですか？","a":["Where is the bathroom","Where is the restroom","Where's the bathroom","Where's the restroom"],"hint":"where · bathroom — 冠詞 the","x":["a"],"why":"お互いにわかっているそのトイレなので冠詞 the です。"},
       {"t":"type","p":"犬は好きですか？","a":["Do you like dogs"],"hint":"do · like · dog — 複数","x":["dog"],"why":"動物全体を指すときは複数形 dogs です。"}
     ],
@@ -1105,7 +1105,7 @@ LANGAPP_PACKS.course['ja-en'] = {
       {"t":"fill","q":"I like __ music.","p":"音楽を聴くのが好きです","a":["listening to"],"o":["listen to","listen","to listening"],"why":"like のあとは ing形を使います。"},
       {"t":"fill","q":"__ like a sandwich, please.","p":"サンドイッチを一つください","a":["I'd","I would"],"o":["I","I'm","I can"],"why":"注文は I'd like で言います。"},
       {"t":"type","p":"料理をするのが好きです","a":["I like cooking","I love cooking","I like to cook"],"hint":"like · cook — ing形","x":["cook"],"why":"like のあとは ing形を使います。"},
-      {"t":"type","p":"サンドイッチを一つください","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich"],"hint":"I'd like · sandwich — 冠詞 a","x":["the"],"why":"どれでもいい一つなので冠詞 a です。"},
+      {"t":"type","p":"サンドイッチを一つください","a":["I'd like a sandwich","I would like a sandwich","I'd like a sandwich please","I would like a sandwich please","Can I have a sandwich","Can I get a sandwich","Could I have a sandwich","Could I get a sandwich"],"hint":"I'd like · sandwich — 冠詞 a","x":["the"],"why":"どれでもいい一つなので冠詞 a です。"},
       {"t":"type","p":"犬が好きです","a":["I like dogs","I love dogs"],"hint":"like · dog — 複数","x":["dog"],"why":"犬全般を指すときは複数形 dogs です。"}
     ],
     "polite": [
@@ -1330,7 +1330,7 @@ LANGAPP_PACKS.course['ja-en'] = {
       {"t":"fill","q":"__ you help me?","p":"手伝ってくれますか？","a":["Will","Can","Could","Would"],"o":["Do","Are","Is"],"why":"頼むときは Will you 〜? を使います。"},
       {"t":"type","p":"手伝いますよ","a":["I'll help you","I will help you","I'll help","I will help"],"hint":"I'll · help · you — この単語を使って","x":["helping"],"why":"will の後ろは動詞の原形です。"},
       {"t":"type","p":"サラダにします","a":["I'll have a salad","I will have a salad","I'll have the salad","I will have the salad"],"hint":"I'll have · salad — 冠詞に注意","x":["salads"],"why":"一つ注文するので冠詞 a（メニューにあるそのサラダなら the）をつけます。"},
-      {"t":"type","p":"私がドアを閉めます","a":["I'll close the door","I will close the door","I'll get the door","I will get the door"],"hint":"I'll · close · door — 冠詞 the","x":["a"],"why":"ここにあるそのドアなので冠詞 the です。"}
+      {"t":"type","p":"私がドアを閉めます","a":["I'll close the door","I will close the door","I'll shut the door","I will shut the door"],"hint":"I'll · close · door — 冠詞 the","x":["a"],"why":"ここにあるそのドアなので冠詞 the です。"}
     ],
     "perfect": [
       {"t":"mc","q":"「私は日本に行ったことがあります」=","o":["I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan."],"why":"have + 過去分詞の been です。"},
@@ -1361,7 +1361,7 @@ LANGAPP_PACKS.course['ja-en'] = {
       {"t":"fill","q":"You __ have to pay.","p":"お金は払わなくていいです","a":["don't","do not"],"o":["must not","not","aren't"],"why":"「必要がない」は don't have to です。"},
       {"t":"fill","q":"It __ rain tomorrow.","p":"明日は雨が降るかもしれません","a":["might","may","could"],"o":["must to","has to","should to"],"why":"可能性は might です。"},
       {"t":"type","p":"私は仕事をしなければなりません","a":["I have to work","I must work","I need to work"],"hint":"have to · work — この単語を使って","x":["should"],"why":"義務は have to です。"},
-      {"t":"type","p":"医者に診てもらったほうがいいですよ","a":["You should see a doctor","You should go to a doctor"],"hint":"should · see · doctor — 冠詞 a","x":["the"],"why":"誰か一人の医者なので冠詞 a です。"},
+      {"t":"type","p":"医者に診てもらったほうがいいですよ","a":["You should see a doctor","You should go to a doctor","You should go see a doctor","You should go to the doctor"],"hint":"should · see · doctor — 冠詞 a","x":["the"],"why":"誰か一人の医者なので冠詞 a です。"},
       {"t":"type","p":"切符を買わなければなりません","a":["You have to buy a ticket","I have to buy a ticket","We have to buy a ticket"],"hint":"have to · buy · ticket — 冠詞 a","x":["the"],"why":"切符1枚なので冠詞 a です。"}
     ],
     "to-ing": [
@@ -1456,7 +1456,7 @@ LANGAPP_PACKS.course['ja-en'] = {
       {"t":"fill","q":"I've worked here __ two years.","p":"ここで働いて2年になります","a":["for"],"o":["since","from","during"],"why":"期間の前は for です。"},
       {"t":"fill","q":"I've been here __ Monday.","p":"月曜日からここにいます","a":["since"],"o":["for","at","during"],"why":"始まった時点の前は since です。"},
       {"t":"fill","q":"Have you finished __?","p":"もう終わりましたか？","a":["yet","already"],"o":["ever","never","since"],"why":"疑問文の「もう」は yet です。"},
-      {"t":"type","p":"ここに住んで3年になります（have + 過去分詞で）","a":["I've lived here for three years","I have lived here for three years"],"hint":"I've lived · here · for · three · year — 複数形","x":["year"],"why":"3年なので複数形の years です。"},
+      {"t":"type","p":"ここに住んで3年になります（have + 過去分詞で）","a":["I've lived here for three years","I have lived here for three years","I've been living here for three years","I have been living here for three years"],"hint":"I've lived · here · for · three · year — 複数形","x":["year"],"why":"3年なので複数形の years です。"},
       {"t":"type","p":"ここにどのくらいいますか？","a":["How long have you been here"],"hint":"how long · have you · been here — この単語を使って","x":["are"],"why":"How long have you + 過去分詞です。"},
       {"t":"type","p":"私はその本をもう読みました","a":["I've already read the book","I have already read the book","I've read the book already","I have read the book already","I already read the book"],"hint":"already · read · book — 冠詞 the","x":["a"],"why":"お互いにわかっているその本なので冠詞 the です。"}
     ],
@@ -1552,7 +1552,7 @@ LANGAPP_PACKS.course['ja-en'] = {
       {"t":"fill","q":"Could you send me the file __ Friday?","p":"金曜日までにファイルを送っていただけますか？","a":["by"],"o":["until","in","at"],"why":"期限（〜までに）は by + 日付です。"},
       {"t":"fill","q":"I'm writing __ ask about the schedule.","p":"スケジュールについてお伺いしたく、ご連絡しました","a":["to"],"o":["for","about","at"],"why":"目的は I'm writing to + 原形です。"},
       {"t":"fill","q":"Thanks for all your hard __!","p":"本当にお疲れさまでした","a":["work"],"o":["works","working","job"],"why":"work（仕事）は数えられない名詞なので、複数の s をつけません。"},
-      {"t":"type","p":"明日は休みです（off を使って）","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow"],"hint":"off · tomorrow — be動詞 + off","x":["do"],"why":"休みの日は be off で言います。"},
+      {"t":"type","p":"明日は休みです（off を使って）","a":["I'm off tomorrow","I am off tomorrow","I'm off work tomorrow","I am off work tomorrow","I have tomorrow off","I'm taking tomorrow off","I am taking tomorrow off","I have a day off tomorrow"],"hint":"off · tomorrow — be動詞 + off","x":["do"],"why":"休みの日は be off で言います。"},
       {"t":"type","p":"ファイルを添付しました","a":["I've attached the file","I have attached the file","I attached the file"],"hint":"attach · file — まさにそのファイル","x":["a"],"why":"相手が受け取るそのファイルなので冠詞 the です。"},
       {"t":"type","p":"よい週末を！","a":["Have a great weekend","Have a nice weekend","Have a good weekend"],"hint":"have · great · weekend — 週末一つの前の冠詞","x":["the"],"why":"週末一つのことなので冠詞 a をつけます：a great weekend。"}
     ],

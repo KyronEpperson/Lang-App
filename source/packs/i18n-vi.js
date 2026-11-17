@@ -768,7 +768,8 @@ LANGAPP_PACKS.i18n.vi = {
     "Change course": "Đổi khóa học",
     "listen · type · role-play": "nghe · gõ · nhập vai",
     "Could not load. Check your connection.": "Không tải được. Hãy kiểm tra kết nối mạng.",
-    "A new version is ready. Reload to continue.": "Đã có phiên bản mới. Tải lại để tiếp tục."
+    "A new version is ready. Reload to continue.": "Đã có phiên bản mới. Tải lại để tiếp tục.",
+    "Category": "Loại"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],

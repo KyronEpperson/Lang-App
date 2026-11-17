@@ -768,7 +768,8 @@ LANGAPP_PACKS.i18n.id = {
     "Change course": "Ganti kursus",
     "listen · type · role-play": "dengar · ketik · bermain peran",
     "Could not load. Check your connection.": "Tidak dapat memuat. Periksa koneksimu.",
-    "A new version is ready. Reload to continue.": "Versi baru sudah siap. Muat ulang untuk melanjutkan."
+    "A new version is ready. Reload to continue.": "Versi baru sudah siap. Muat ulang untuk melanjutkan.",
+    "Category": "Kategori"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],

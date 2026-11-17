@@ -13,15 +13,19 @@
 const LIB = require('./lib.js');
 const argv = process.argv.slice(2);
 const refAt = argv.indexOf('--ref');
-const REF = refAt >= 0 ? argv.splice(refAt, 2)[1] : LIB.packPath('ko');
+const REFARG = refAt >= 0 ? argv.splice(refAt, 2)[1] : null;
 const LANG = LIB.checkLang(argv[0] || '');
+/* reference course: profile.reference (default ko). pt, fr, it, de use es (article languages share the Spanish course's English side). */
+const REFLANG = (LIB.loadProfile(LANG).reference) || 'ko';
+const REF = REFARG || LIB.packPath(REFLANG);
 const FILE = argv[1] || LIB.packPath(LANG);
 const DEV = LIB.loadDeviations(LANG);
-const KO = LIB.loadPack(REF, 'ko').C;
+const KO = LIB.loadPack(REF, REFLANG).C;
 const XX = LIB.loadPack(FILE, LANG).C;
 if (!KO) { console.log('FAIL: no ko-en course in ' + REF); process.exit(1); }
 if (!XX) { console.log('FAIL: no ' + LIB.courseId(LANG) + ' course in ' + FILE); process.exit(1); }
-const HANGUL = new RegExp(LIB.loadProfile('ko').nativeScript, 'u');
+/* a check option counts as native-language (not compared) when it has the reference language's script or cue words */
+const _rp = LIB.loadProfile(REFLANG); const HANGUL = new RegExp(_rp.nativeScript || (_rp.labels && _rp.labels.cueTest) || '[^\\x00-\\x7F]', 'u' + (_rp.nativeScript ? '' : 'i'));
 
 const diffs = [], used = new Set(), stats = { lessons: 0, decks: 0, cards: 0, checks: 0, options: 0, items: 0 };
 const J = v => JSON.stringify(v);

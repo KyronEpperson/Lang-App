@@ -84,6 +84,7 @@ packs/course-<lang>-en.js, packs/i18n-<lang>.js   generated, never hand-edited
 | `standingRule` | validate | `{kind, keywords, flags?}`. `article-plural` = the ko rule: ≥ half of the order items and ≥ half of the type items in every lesson hinge on a/an/the or plural -s, **and** their `why` matches `keywords`. `verb-core` = the es rule (docs/profiles/es.md §7): ≥ half of order + type items together hinge on agreement, do-support or auxiliary inversion, or dummy it/there (heuristic). `none` = no rule. `flags` (optional, extra) = regex flags for `keywords`, e.g. `"i"` |
 | `pronPattern` (optional, extra) | validate | regex that every non-empty `pron` must match in full, e.g. the katakana-only rule in docs/profiles/ja.md §6 |
 | `pronScript` (optional) | validate | regex a non-empty `pron` must contain when the aid is NOT written in the native script (zh: IPA, `ˈ`); replaces the native-script test for `pron` only |
+| `reference` (optional) | new_lang, parity | 2-letter code of the finished course this one is scaffolded from and checked against (default `ko`; `es` for article languages: `node tools/content/new_lang.js <lang> --from es`) |
 | `labels.mcBlankCue`, `labels.typeHintCue` | _dsl | text appended to a shorthand mc question or type hint that has no native text (ko: " 빈칸에 알맞은 것은?", " — 이 단어들로") |
 | `labels.cueTest` (optional) | _dsl | regex for "has native text" when it should differ from `nativeScript` |
 | `nativeNameEn` (optional, extra) | gen | English name of the language for the pack's header comment ("English for Korean speakers") |
@@ -189,3 +190,7 @@ It prints sample renders. It prints the coverage report only when `tools/i18n/co
   for script detection. Without a profile, the validator guesses from the translations.
 * **e2e_en.js and lesson ids.** e2e_en.js picks the language from its first argument only when `tools/content/<arg>/profile.json`
   exists. A future language code that equals a lesson id (`be`) must always be passed explicitly first.
+
+
+## Lint (after merge, before review)
+`node tools/content/lint.js <lang>` reads the generated pack and reports: the same English text with two pronunciation aids (blocking), lesson deck links that do not exist (blocking), practice sets outside 12–16 items (blocking), meaning variants and K-pop leftovers (info). Trailing `(tags)` on a pron are ignored.

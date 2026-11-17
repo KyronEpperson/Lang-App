@@ -768,7 +768,8 @@ LANGAPP_PACKS.i18n.ja = {
     "Change course": "コースを変更",
     "listen · type · role-play": "聞く · 入力 · ロールプレイ",
     "Could not load. Check your connection.": "読み込めませんでした。接続を確認してください。",
-    "A new version is ready. Reload to continue.": "新しいバージョンがあります。再読み込みしてください。"
+    "A new version is ready. Reload to continue.": "新しいバージョンがあります。再読み込みしてください。",
+    "Category": "カテゴリ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],

@@ -113,7 +113,7 @@ practice:[
 ["fi","__ you like music?","음악 좋아하세요?","Do","Are|Is|Does","일반동사 like의 질문은 Do예요."],
 ["fi","__ do you live?","어디 사세요?","Where","What|Who|When","장소를 물을 때는 where예요."],
 ["fi","What time __ it?","몇 시예요?","is","do|does|are","시간은 be동사로 물어요."],
-["ty","영어 하세요?","Do you speak English","do · speak · English","Are","일반동사 질문은 Do로 시작해요."],
+["ty","영어 하세요?","Do you speak English|Can you speak English","do · speak · English","Are","일반동사 질문은 Do로 시작해요."],
 ["ty","화장실이 어디예요?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — 관사 the","a","서로 아는 그 화장실이라 관사 the예요."],
 ["ty","개 좋아하세요?","Do you like dogs","do · like · dog — 복수","dog","동물 전체를 말할 때는 복수 dogs예요."]]},
 { id:"third-s", title:"he·she·it에는 -s: does / doesn't", blurb:"주어가 한 사람이면 동사에 -s. 질문과 부정은 does.", deck:"자기소개", body:`
@@ -223,7 +223,7 @@ practice:[
 ["fi","I like __ music.","저는 음악 듣는 걸 좋아해요","listening to","listen to|listen|to listening","like 뒤에는 -ing를 써요."],
 ["fi","__ like a sandwich, please.","샌드위치 하나 주세요","I'd|I would","I|I'm|I can","주문은 I'd like로 해요."],
 ["ty","저는 요리하는 걸 좋아해요","I like cooking|I love cooking|I like to cook","like · cook — -ing","cook","like 뒤에는 -ing를 써요."],
-["ty","샌드위치 하나 주세요","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich","I'd like · sandwich — 관사 a","the","아무 샌드위치 하나라서 관사 a예요."],
+["ty","샌드위치 하나 주세요","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — 관사 a","the","아무 샌드위치 하나라서 관사 a예요."],
 ["ty","저는 개를 좋아해요","I like dogs|I love dogs","like · dog — 복수","dog","개 전체를 말할 때는 복수 dogs예요."]]},
 { id:"continuous", title:"지금 하는 중: be + -ing", blurb:"늘 하는 일은 현재형, 지금 하는 일은 be + -ing.", deck:"스몰토크", body:`
 <p>한국어 "일해요"는 습관도 되고 지금 하는 일도 돼요. 영어는 둘을 나눠요. <b>지금 이 순간</b> 하고 있는 일은 <b>be + 동사-ing</b>예요.</p>
