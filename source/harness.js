@@ -254,29 +254,16 @@ const fxInject=async(p,pick)=>p.evaluate(([J,pick])=>{ const H=v=>typeof v==='st
 const ALL_HANGUL=/[가-힣ㄱ-ㅣ]/;
 if(koSkip){ ['fxNativeList','fxLL','fxNoi18n','fxNoKorean','fxFullWidth','fxUnknownCourse','fxPreNative','fxBootJa','bootPackCourse'].forEach(k=>mc[k]='skip (no ko-en pack to clone)'); }
 else {
-{ // pre-native screens: English and Korean browsers unchanged; a Japanese browser without a ja course unchanged; with one, English + Japanese from the pack
-  const out={}; let realJa=false;
-  for(const loc of ['en-US','ko-KR','ja-JP']){ const {ctx,p}=await newCtx(null,loc); if(loc==='ja-JP'&&await p.evaluate(()=>!!COURSES['ja-en'])){ /* a real ja-en course ships: the Japanese-browser screens are checked with the real pack below */ realJa=true; await ctx.close(); continue; } const got=await preSnap(p); { /* welcome screens must match the baseline exactly; language-home step 1 may list extra live native languages (moved out of "coming soon") but its English + Korean header, rows and labels are unchanged */
-      const same=k=>JSON.stringify(got[k])===JSON.stringify(PRE_BASE[k]); const head=s=>s.slice(0,s.indexOf('한국어\n›')+5); const g=got.lh1||{text:'',attrs:[]}, bs=PRE_BASE.lh1;
-      const lhOk=same('lh1')||(head(g.text)===head(bs.text)&&g.text.indexOf('🔒 COMING SOON · 출시 예정')>0&&bs.attrs.filter(x=>!/^title=/.test(x)).every(x=>g.attrs.includes(x))&&g.attrs.filter(x=>/^title=/.test(x)).every(x=>bs.attrs.includes(x)));
-      out[loc]=Object.keys(PRE_BASE).filter(k=>k!=='lh1').every(same)&&lhOk; } if(!out[loc]) res.checks['preNativeDiff_'+loc]=got;
-    if(loc!=='ja-JP') out[loc+'-intro']=await p.evaluate(()=>{ const sv=META.picked; META.picked=0; const a=preBi('Hello','안녕하세요')==='Hello · 안녕하세요'&&introSub(false)==='Learn a language, 5 minutes a day · 하루 5분'; META.picked=sv; return a; }); await ctx.close(); }
-  if(realJa){ const {ctx,p}=await newCtx(null,'ja-JP');
-    out.ja=await p.evaluate(async()=>{ const ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s), JA=s=>/[\u3040-\u30ff\u4e00-\u9fff]/.test(s); const old=document.getElementById('welcome'); if(old) old.remove(); const lh=document.getElementById('langHome'); if(lh) lh.remove(); showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText;
-      const a=preLang()==='ja'&&JA(t1)&&!ALLH(t1)&&!w.querySelector('[lang="ko"]')&&/^How should we save your progress\?$/m.test(t1);
-      w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); const b=JA(w.querySelector('#wNickIn').placeholder)&&!ALLH(w.innerText);
-      w.querySelector('#wNickIn').value='T'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,200)); const h=document.getElementById('langHome'); const th=h?h.textContent:'';
-      const c=!!h&&JA(th)&&!!h.querySelector('.lh-sub[lang="ja"]')&&!ALLH(th.replace(/한국어/g,''))&&!!h.querySelector('[data-native="ja"]')&&!!h.querySelector('[data-native="ko"]')&&!!h.querySelector('[data-native="en"]');
-      return (a&&b&&c)||('a'+a+' b'+b+' c'+c+' | '+t1.slice(0,300)+' | '+th.slice(0,300)); }).catch(e=>'ERR '+e.message);
-    await ctx.close(); }
-  else { const {ctx,p}=await newCtx(null,'ja-JP'); await fxInject(p,false);
-    out.ja=await p.evaluate(async()=>{ const ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); const old=document.getElementById('welcome'); if(old) old.remove(); const lh=document.getElementById('langHome'); if(lh) lh.remove(); showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText;
-      const a=preLang()==='ja'&&/📧 Email · メール/.test(t1)&&/👤 Nickname · ニックネーム/.test(t1)&&/Saves across all your devices/.test(t1)&&!/Saves across all your devices ·/.test(t1)&&!ALLH(t1)&&!w.querySelector('[lang="ko"]')&&/^How should we save your progress\?$/m.test(t1);
-      w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); const t3=w.innerText; const b=/Nickname · ニックネーム/.test(w.querySelector('#wNickIn').placeholder)&&!ALLH(t3);
-      w.querySelector('#wNickIn').value='T'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,200)); const h=document.getElementById('langHome'); const th=h?h.textContent:'';
-      const c=!!h&&/何語を話しますか？/.test(th)&&!!h.querySelector('.lh-sub[lang="ja"]')&&/Coming soon · 近日公開/.test(th)&&!ALLH(th.replace(/한국어/g,''))&&[...h.querySelectorAll('.lh-lock')].every(x=>/^[\w ]+ · coming soon · 近日公開$/.test(x.title))&&!!h.querySelector('[data-native="ja"]');
-      return (a&&b&&c)||('a'+a+' b'+b+' c'+c+' | '+t1.slice(0,300)+' | '+th.slice(0,300)); }).catch(e=>'ERR '+e.message);
-    await ctx.close(); }
+{ // pre-native screens use ONE language taken from the browser: English, Korean, or a live interface language (Japanese here); never two at once
+  const out={};
+  for(const loc of ['en-US','ko-KR','ja-JP','fr-FR']){ const {ctx,p}=await newCtx(null,loc);
+    out[loc]=await p.evaluate(async(loc)=>{ const H=s=>/[가-힣ㄱ-ㅣ]/.test(s), J=s=>/[぀-ヿ]/.test(s); const L=loc.slice(0,2); const hasJa=!!(LANGAPP_PACKS.i18n.ja&&COURSES['ja-en']);
+      const want=L==='ko'?'ko':(L==='ja'&&hasJa)?'ja':'en'; const old=document.getElementById('welcome'); if(old) old.remove(); const lh=document.getElementById('langHome'); if(lh) lh.remove(); const sv=META.picked; META.picked=0;
+      showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText; w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); const t2=w.innerText+' '+w.querySelector('#wNickIn').placeholder;
+      w.querySelector('#wNickIn').value='T'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,200)); const h=document.getElementById('langHome'); const th=h?h.innerText.replace(/한국어|日本語/g,''):''; const hello=preBi('Hello','안녕하세요'), sub=introSub(false); META.picked=sv; if(h) h.remove();
+      const all=t1+' '+t2+' '+th+' '+hello+' '+sub; const enLine=/How should we save your progress\?/.test(t1), enQ=/What language do you speak\?/.test(th);
+      const ok=preLang()===want&&!!h&&(want==='en'?(enLine&&enQ&&!H(all)&&!J(all)&&hello==='Hello'&&sub==='Learn a language, 5 minutes a day'):want==='ko'?(!enLine&&!enQ&&/진도를 어떻게 저장할까요\?/.test(t1)&&/어떤 언어를 사용하세요\?/.test(th)&&!J(all)&&hello==='안녕하세요'&&sub==='하루 5분'):(!enLine&&!enQ&&J(t1)&&J(th)&&!H(all)));
+      return ok||(want+' | '+t1.slice(0,200)+' | '+th.slice(0,200)+' | '+hello+' | '+sub); },loc).catch(e=>'ERR '+e.message); await ctx.close(); }
   res.checks.fxPreNative=out; mc.fxPreNative=Object.values(out).every(v=>v===true); }
 { // step 1 lists Japanese; selecting it + the course switches COURSE.id, <html lang> and uiLang(); LL / langName / runner / language home under the fixture
   const seed={'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}})};
@@ -363,8 +350,8 @@ else {
     if(seed) await ctx.addInitScript(s=>{ if(!sessionStorage.getItem('__seeded')){ Object.entries(s).forEach(([k,v])=>localStorage.setItem(k,v)); sessionStorage.setItem('__seeded','1'); } },seed);
     await p.goto('file://'+OUT2); await p.waitForTimeout(300); await p.evaluate(()=>{ window.ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); const c=document.getElementById('fx3d'); if(c) c.style.display='none'; }); return {ctx,p}; };
   const bt={};
-  { const {ctx,p}=await ctxAt(null,'ja-JP'); // fresh Japanese visitor: first paint is English + Japanese, language home lists Japanese, picking it lands in ja-en with the ja UI
-    bt.freshJa=await p.evaluate(async()=>{ const w=document.getElementById('welcome'); if(!w) return 'no welcome'; const t=w.innerText; if(!/📧 Email · メール/.test(t)||ALLH(t)||w.querySelector('[lang="ko"]')||preLang()!=='ja') return 'welcome '+t.slice(0,120);
+  { const {ctx,p}=await ctxAt(null,'ja-JP'); // fresh Japanese visitor: first paint is Japanese only, language home lists Japanese, picking it lands in ja-en with the ja UI
+    bt.freshJa=await p.evaluate(async()=>{ const w=document.getElementById('welcome'); if(!w) return 'no welcome'; const t=w.innerText; if(!/📧 メール/.test(t)||/Email ·/.test(t)||ALLH(t)||w.querySelector('[lang="ko"]')||preLang()!=='ja') return 'welcome '+t.slice(0,120);
       w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); w.querySelector('#wNickIn').value='J'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,250));
       const h=document.getElementById('langHome'); if(!h||!/何語を話しますか？/.test(h.textContent)||!h.querySelector('[data-native="ja"]')) return 'step1'; h.querySelector('[data-native="ja"]').click(); h.querySelector('[data-course="ja-en"]').click(); await new Promise(z=>setTimeout(z,250));
       return COURSE.id==='ja-en'&&uiLang()==='ja'&&document.documentElement.lang==='ja'&&!!COURSES['ja-en']&&!COURSES['ja-en'].builtin||'pick '+COURSE.id; });

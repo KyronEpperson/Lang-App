@@ -21,7 +21,7 @@ Use the same HTML as above (it already uses `{{ .ConfirmationURL }}` and `{{ .To
 
 ## URL Configuration (Authentication → URL Configuration)
 - **Site URL**: `https://lang-app.io`
-- **Redirect URLs**: add `https://lang-app.io/**` (keep `https://lang-app-3qdw.vercel.app/**` if you still use it). Without this the email link opens the vercel.app address instead of lang-app.io.
+- **Redirect URLs**: add `https://lang-app.io/**` and remove the `lang-app-3qdw.vercel.app` entries (that address now redirects to lang-app.io). Without this the email link opens the vercel.app address instead of lang-app.io.
 
 ## Also in Authentication settings
 - **Emails → SMTP**: the built-in sender is capped at a few emails per hour. Before sharing widely, plug in a free SMTP (Resend, Brevo) so sign-in emails don't get rate-limited.

@@ -823,3 +823,8 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 ## Fixes carried back to the older courses (2.13.1)
 - All three new-language reviewers independently found the same three teaching errors, which came from the Korean source: the *be* tip ("is there an action?" gives the wrong answer for like/live/want), the some/any rule (no exception for requests and offers), and the to-ing heading. Fixed in ko-en, ja-en and es-en. Spanish quiz chip label "Tipo" → "Escribir".
 - Open, same in all six English courses (listed in each REVIEW.md §3): a few shared practice items accept a wrong answer ("I'll get the door" for closing it) or reject a natural one; fixing them means changing the shared English side once in the Korean source.
+
+## Single-language first screens, one address (2.14.0)
+- Prompt (user): the first screens showed English and Korean together; show only the visitor's language. Also stop using the vercel.app address.
+- Results: `preLang()` now returns one language from the browser (Korean, a live interface language whose pack is loaded, else English) and `preT/preBi` return a single string; the six second-line slots are gone. Guard `fxPreNative` rewritten for en, ko, ja and fr browsers (fr falls back to English). `vercel.json` redirects lang-app-3qdw.vercel.app to lang-app.io.
+- Evidence: harness 59 guards; screenshots in English, Korean and Spanish browsers; site test PASS.
