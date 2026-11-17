@@ -82,7 +82,7 @@ module.exports = {
     { t: "order", p: "Könntest du langsamer sprechen?", a: ["Could", "you", "speak", "more", "slowly"], x: ["speaks", "slow"], why: "Das Hilfsverb \"could\" steht vor dem Subjekt (\"Could you…?\"), und das Verb bleibt in der Grundform: \"speak\", nie \"speaks\"." },
 
     { t: "fill", q: "Would you mind __ the door?", p: "Würde es dir etwas ausmachen, die Tür zu schließen?", a: ["closing"], o: ["close", "to close", "closed"], why: "Nach \"mind\" steht die -ing-Form." },
-    { t: "fill", q: "Can I get __ iced coffee?", p: "Kann ich einen Eiskaffee bekommen?", a: ["an"], o: ["a", "two", "many"], why: "\"Iced\" beginnt mit einem Vokal („ai“): \"an\"." },
+    { t: "fill", q: "Can I get __ iced coffee?", p: "Kann ich einen Iced Coffee bekommen?", a: ["an"], o: ["a", "two", "many"], why: "\"Iced\" beginnt mit einem Vokal („ai“): \"an\"." },
     { t: "fill", q: "No, not at __.", p: "(Antwort auf \"Would you mind…?\") Nein, überhaupt nicht. Mach ich gern.", a: ["all"], o: ["any", "one", "ever"], why: "\"No, not at all\" = „Das macht mir überhaupt nichts aus“, also „gern, mach ich“." },
 
     { t: "type", p: "Könntest du mir helfen? (höflich)", a: ["Could you help me", "Could you help me please", "Could you please help me", "Would you help me", "Would you help me please", "Would you mind helping me"], hint: "could · help – höflich fragen", x: ["can"], why: "Die höfliche Frage beginnt mit dem Hilfsverb \"could\" vor \"you\"." },
@@ -143,7 +143,7 @@ module.exports = {
 
     { t: "fill", q: "Pretty good! How __ you?", p: "Ziemlich gut! Und dir?", a: ["about"], o: ["for", "with", "of"], why: "Antworte kurz und gib die Frage mit \"How about you?\" zurück." },
     { t: "fill", q: "I know, __?", p: "Genau! / Finde ich auch!", a: ["right"], o: ["no", "yes", "true"], why: "Mit \"I know, right?\" gibst du jemandem mit Nachdruck recht." },
-    { t: "fill", q: "Have you seen any good __ lately?", p: "Hast du in letzter Zeit was Gutes gesehen?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "In dieser offenen Frage steht nach \"any\" ein zählbares Nomen im Plural." },
+    { t: "fill", q: "Have you seen any good __ lately?", p: "Hast du in letzter Zeit gute Serien oder Filme gesehen?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "In dieser offenen Frage steht nach \"any\" ein zählbares Nomen im Plural." },
 
     { t: "type", p: "Wie war dein Wochenende?", a: ["How was your weekend"], hint: "how · weekend – im simple past", x: ["is"], why: "In der Frage steht \"was\" vor dem Subjekt (\"your weekend\"): \"How was your weekend?\"" },
     { t: "type", p: "Wohnst du hier in der Nähe?", a: ["Do you live around here", "Do you live near here", "Do you live nearby"], hint: "live · around here – Frage mit \"do\"", x: ["are"], why: "Im simple present braucht die Frage das Hilfsverb \"do\" vor dem Subjekt: \"Do you live…?\", nicht \"Live you…?\"." },
@@ -199,7 +199,7 @@ module.exports = {
 
     { t: "order", p: "Hast du meine E-Mail bekommen?", a: ["Did", "you", "get", "my", "email"], x: ["got"], why: "Die Frage im simple past braucht das Hilfsverb \"did\", und das Verb steht in der Grundform: \"get\"." },
     { t: "order", p: "Der Bericht ist im Anhang", a: ["The", "report", "is", "attached"], x: ["are"], why: "Ein Subjekt im Singular (\"the report\") braucht \"is\": Übereinstimmung." },
-    { t: "order", p: "Ich schaue es mir an und melde mich", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "\"Get back to you\" = sich wieder melden. Es steht mit \"to\"." },
+    { t: "order", p: "Ich melde mich wieder bei Ihnen", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "\"Get back to you\" = sich wieder melden. Es steht mit \"to\"." },
 
     { t: "fill", q: "Could you send me the file __ Friday?", p: "Könnten Sie mir die Datei bis Freitag schicken?", a: ["by"], o: ["until", "in", "at"], why: "„Bis“ als Frist (spätestens am…) heißt \"by\". \"Until\" ist „bis“ für eine Dauer." },
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "Ich schreibe Ihnen, um nach dem Zeitplan zu fragen", a: ["to"], o: ["for", "about", "at"], why: "Für den Zweck: \"I'm writing to\" + Grundform (um … zu)." },

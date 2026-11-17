@@ -248,7 +248,7 @@
       "roadmap": "en"
     },
     "CEFR A1-B1 order, adjusted for Korean speakers": {
-      "t": "CEFR-Reihenfolge A1–B1, angepasst für Koreanischsprachige",
+      "t": "GER-Reihenfolge A1–B1, angepasst für Koreanischsprachige",
       "ko": "CEFR A1-B1 순서 (한국어 화자에 맞게 조정)",
       "kind": "basis",
       "roadmap": "en"
@@ -686,7 +686,7 @@
       "roadmap": "zh"
     },
     "Pinyin: initials and finals": {
-      "t": "Pinyin: Initialen und Finalen",
+      "t": "Pinyin: Anlaute und Auslaute",
       "ko": "병음: 성모와 운모",
       "kind": "lesson title",
       "roadmap": "zh"
@@ -854,7 +854,7 @@
       "roadmap": "es"
     },
     "CEFR A1, Plan Curricular del Instituto Cervantes": {
-      "t": "CEFR A1, Plan Curricular des Instituto Cervantes",
+      "t": "GER A1, Plan Curricular des Instituto Cervantes",
       "ko": "CEFR A1, 세르반테스 문화원 교육과정",
       "kind": "basis",
       "roadmap": "es"
@@ -1016,7 +1016,7 @@
       "roadmap": "fr"
     },
     "CEFR A1-A2 key contents (France Éducation international)": {
-      "t": "Wichtige Inhalte für CEFR A1–A2 (France Éducation international)",
+      "t": "Wichtige Inhalte für GER A1–A2 (France Éducation international)",
       "ko": "CEFR A1-A2 핵심 내용 (France Éducation international)",
       "kind": "basis",
       "roadmap": "fr"
@@ -1742,7 +1742,7 @@
       "roadmap": "th"
     },
     "Sounds and survival": {
-      "t": "Laute und Survival-Phrasen",
+      "t": "Laute und das Nötigste",
       "ko": "소리와 생존 표현",
       "kind": "stage",
       "roadmap": "th"
@@ -2534,7 +2534,7 @@
       "roadmap": "ru"
     },
     "Verbs of motion: идти / ехать": {
-      "t": "Verben der Bewegung: идти / ехать",
+      "t": "Bewegungsverben: идти / ехать",
       "ko": "운동 동사: идти / ехать",
       "kind": "lesson title",
       "roadmap": "ru"

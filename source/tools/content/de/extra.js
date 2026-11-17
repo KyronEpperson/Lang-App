@@ -38,7 +38,7 @@ Medium rare, please. | How would you like your steak? | Medium rare, please. | W
 I'm allergic to peanuts. | Does this have nuts in it? I'm allergic to peanuts. | Let me check with the kitchen. | Sind da Nüsse drin? Ich bin allergisch gegen Erdnüsse. / Ich frage kurz in der Küche nach.
 Everything was great. | How was everything? | Everything was great, thank you! | Hat alles geschmeckt? / Es war alles super, danke!
 Can we get the check, please? | Can we get the check, please? | Sure, I'll be right back with it. | Die Rechnung, bitte. / Gern, ich bringe sie sofort.
-It's on me. | Let's split it. | No, no. It's on me today. | Lass uns teilen. / Nein, nein. Heute lade ich dich ein.
+It's on me. | Let's split it. | No, no. It's on me today. | Lass uns die Rechnung teilen. / Nein, nein. Heute lade ich dich ein.
 Can I get an iced Americano? | Hi, what can I get for you? | Can I get an iced Americano? | Hallo, was darf es sein? / Kann ich einen Iced Americano bekommen?
 For here or to go? | For here or to go? | To go, please. | Hier trinken oder mitnehmen? / Zum Mitnehmen, bitte.
 Can I get a name for the order? | Can I get a name for the order? | It's Jay. J-A-Y. | Auf welchen Namen? / Jay. J-A-Y.
@@ -108,7 +108,7 @@ Can I get a Coke? | Can I get a Coke with no ice? | Kann ich eine Cola ohne Eis 
 Is it spicy? | Is it spicy? I can't handle spicy food. | Ist es scharf? Ich vertrage kein scharfes Essen.
 Can we split the bill? | Can we split the bill three ways? | Können wir die Rechnung durch drei teilen?
 Can I get this to go? | I can't finish this. Can I get this to go? | Ich schaffe das nicht. Kann ich den Rest mitnehmen?
-Less ice, please. | Can I get a large iced latte? Less ice, please. | Kann ich einen großen Eis-Latte haben? Mit weniger Eis, bitte.
+Less ice, please. | Can I get a large iced latte? Less ice, please. | Kann ich einen großen Iced Latte haben? Mit weniger Eis, bitte.
 Can I get a receipt? | Can I get a receipt? It's for work. | Kann ich einen Kassenbon bekommen? Das ist für die Arbeit.
 Is this on sale? | Is this jacket on sale? | Ist diese Jacke im Angebot?
 I'd like to exchange this. | I'd like to exchange this for a smaller size. | Ich würde das gern gegen eine kleinere Größe umtauschen.
@@ -140,7 +140,7 @@ put off | Stop putting off your homework! | Hör auf, deine Hausaufgaben aufzusc
 get along with | I get along with my roommate really well. | Ich verstehe mich richtig gut mit meinem Mitbewohner.
 It costs an arm and a leg. | Living in New York costs an arm and a leg. | In New York zu wohnen kostet ein Vermögen.
 Once in a blue moon | I only drink soda once in a blue moon. | Ich trinke nur alle Jubeljahre mal Limo.
-Low-key | I low-key want to dye my hair pink. | Irgendwie will ich mir heimlich die Haare pink färben.
+Low-key | I low-key want to dye my hair pink. | Insgeheim will ich mir die Haare pink färben.
 I binge-watched the whole season. | I binge-watched the whole season in one weekend. | Ich habe die ganze Staffel an einem Wochenende am Stück geschaut.
 school | My kids walk to school every day. | Meine Kinder gehen jeden Tag zu Fuß zur Schule.
 think | I think so, too. | Das finde ich auch.
@@ -159,7 +159,7 @@ Do you ~? / Does he ~? | Fragen mit Vollverben brauchen das Hilfsverb "do"; bei 
 don't / doesn't + Verb | Verneinung bei Vollverben: "don't" vor dem Verb, nie "I eat not meat" | I don't eat meat. | be
 he / she / it + Verb-s | Im simple present bekommt die 3. Person Singular ein -s: „he, she, it – das s muss mit“ | My sister works at a hospital. | be
 be + -ing | Was gerade jetzt passiert, oder ein fest geplanter Termin bald | I'm meeting Lukas tonight. | tense
-Verb-ed / unregelmäßige Vergangenheit | simple past: abgeschlossene Handlungen in der Vergangenheit (went, ate, saw...). Signalwörter: yesterday, last week, ago | I went to Hamburg last week. | tense
+Verb-ed / unregelmäßige Vergangenheit | Für abgeschlossene Handlungen in der Vergangenheit steht das simple past (went, ate, saw...). Signalwörter: yesterday, last week, ago | I went to Hamburg last week. | tense
 will + Verb | Spontane Entscheidung, Versprechen oder Vorhersage. „Ich will“ ist dagegen "I want" | I'll call you later. | tense
 be going to + Verb | Fest geplante Vorhaben. Im Deutschen reicht oft das Präsens: „Ich besuche am Wochenende meine Eltern“ | I'm going to visit my parents this weekend. | tense
 Have you ever ~? | Nach Erfahrungen fragen: „Hast du schon mal...?“ | Have you ever tried sushi? | tense
@@ -184,7 +184,7 @@ Looking sharp! | Schick siehst du aus!
 You're so thoughtful | Du bist so aufmerksam
 You have a great sense of humor | Du hast einen tollen Humor
 You're one of a kind | Dich gibt es nur einmal
-You light up the room | Mit dir wird es überall heller
+You light up the room | Du bist ein echter Sonnenschein
 I admire you | Ich bewundere dich
 You inspire me | Du inspirierst mich
 You're really talented | Du bist wirklich talentiert
@@ -205,7 +205,7 @@ Makes sense | Ergibt Sinn / Leuchtet ein
 Got it | Alles klar
 I see | Verstehe
 No kidding | Echt jetzt? / Wem sagst du das
-Good point | Guter Punkt
+Good point | Da ist was dran
 Exactly | Genau
 Totally | Absolut / Total
 Never mind | Vergiss es / Schon gut
@@ -230,7 +230,7 @@ Sorry to bother you | Entschuldige die Störung
 I appreciate it | Das weiß ich zu schätzen
 Bless you | Gesundheit!
 Have a nice day | Einen schönen Tag noch
-Nice to see you | Schön, dich zu sehen (jemanden, den du kennst)
+Nice to see you | Schön, dich zu sehen (zu jemandem, den du kennst)
 If you don't mind | Wenn es dir nichts ausmacht
 Would you like some? | Möchtest du auch etwas?
 Help yourself | Bedien dich
@@ -272,7 +272,7 @@ Break a leg | Hals- und Beinbruch! | /ˈbreɪk ə ˈleg/ | Sagt man vor einem Au
 Bite the bullet | In den sauren Apfel beißen | /ˈbaɪt ðə ˈbʊlɪt/ | Etwas Unangenehmes tun, das sich nicht vermeiden lässt. Im Englischen beißt man auf eine Kugel
 Cut corners | Pfuschen / Abkürzungen nehmen | /ˈkʌt ˈkɔːrnərz/ | Schritte auslassen, um Zeit oder Geld zu sparen (negativ)
 Hit the sack | Sich in die Falle hauen | /ˈhɪt ðə ˈsæk/ | Locker: "I'm tired. I'm going to hit the sack."
-Let the cat out of the bag | Die Katze aus dem Sack lassen | /ˈlet ðə ˈkæt ˈaʊt əv ðə ˈbæg/ | Ein Geheimnis verraten, etwa eine Überraschungsparty. Gleiches Bild, aber im Deutschen meist absichtlich, im Englischen oft aus Versehen
+Let the cat out of the bag | Die Katze aus dem Sack lassen | /ˈlet ðə ˈkæt ˈaʊt əv ðə ˈbæg/ | Ein Geheimnis verraten, etwa eine Überraschungsparty. Gleiches Bild wie im Deutschen
 Kill two birds with one stone | Zwei Fliegen mit einer Klappe schlagen | /ˈkɪl ˈtuː ˈbɜːrdz wɪð ˈwʌn ˈstoʊn/ | Zwei Dinge auf einmal erledigen. Achtung: Im Englischen sind es Vögel und ein Stein, nie "two flies"
 Burn the midnight oil | Bis spät in die Nacht arbeiten | /ˈbɜːrn ðə ˈmɪdnaɪt ˈɔɪl/ | Vor einer Prüfung oder einer Deadline. Wörtlich „das Mitternachtsöl verbrennen“
 The best of both worlds | Das Beste aus beiden Welten | /ðə ˈbest əv ˈboʊθ ˈwɜːrldz/ | Wenn du die Vorteile von zwei Möglichkeiten gleichzeitig hast
@@ -281,7 +281,7 @@ Every cloud has a silver lining | Jedes Unglück hat auch sein Gutes | /ˈevri �
 Get cold feet | Kalte Füße bekommen | /ˈget ˈkoʊld ˈfiːt/ | Kurz vor einer Hochzeit oder einer großen Entscheidung zögern. Gleiches Bild wie im Deutschen
 Hit the nail on the head | Den Nagel auf den Kopf treffen | /ˈhɪt ðə ˈneɪl ɑːn ðə ˈhed/ | Genau das Richtige sagen. Wie im Deutschen
 In the same boat | Im selben Boot | /ɪn ðə ˈseɪm ˈboʊt/ | Um jemanden zu trösten, dem es genauso geht: "Don't worry, we're all in the same boat."
-Miss the boat | Den Anschluss verpassen | /ˈmɪs ðə ˈboʊt/ | Eine gute Gelegenheit verpassen. Im Englischen verpasst man das Boot
+Miss the boat | Die Chance verpassen | /ˈmɪs ðə ˈboʊt/ | Eine gute Gelegenheit verpassen, wie bei „Der Zug ist abgefahren“. Im Englischen verpasst man das Boot
 No pain, no gain | Ohne Fleiß kein Preis | /ˈnoʊ ˈpeɪn ˈnoʊ ˈgeɪn/ | Sagt man oft beim Sport oder beim Lernen
 On the fence | Unentschlossen | /ɑːn ðə ˈfens/ | Wie jemand, der auf einem Zaun sitzt und sich nicht für eine Seite entscheidet: "I'm still on the fence about the job offer."
 Pull someone's leg | Jemanden auf den Arm nehmen | /ˈpʊl ˈsʌmwʌnz ˈleg/ | Mit etwas Erfundenem scherzen: "Relax, I'm just pulling your leg!" Im Englischen zieht man am Bein

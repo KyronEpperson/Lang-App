@@ -109,7 +109,7 @@ practice:[
 {{ex:Do you like coffee?|/də ju ˈlaɪk ˈkɔːfi/|Magst du Kaffee?}}{{ex:Do you speak English?|/də ju ˈspiːk ˈɪŋglɪʃ/|Sprichst du Englisch?}}
 <p>Kurzantworten wiederholen das Hilfsverb: <i>Yes, I do.</i> / <i>No, I don't.</i> (nicht <i>Yes, I like</i>).</p>
 <h3>Fragewort + do + Subjekt + Verb</h3>
-<p>Vorsicht bei den Fragewörtern, sie sind falsche Freunde: <b>wo = where</b>, <b>wer = who</b>, <b>wie = how</b>, <b>was = what</b>. Und auch nach dem Fragewort kommt <i>do</i>: „Wo wohnst du?“ ist <i>Where do you live?</i>, nicht <i>Where live you?</i>.</p>
+<p>Vorsicht bei <b>wo</b> und <b>wer</b>, sie sind falsche Freunde: <b>wo = where</b>, <b>wer = who</b>. Außerdem: <b>wie = how</b>, <b>was = what</b>. Und auch nach dem Fragewort kommt <i>do</i>: „Wo wohnst du?“ ist <i>Where do you live?</i>, nicht <i>Where live you?</i>.</p>
 {{ex:Where do you live?|/ˈwer də ju ˈlɪv/|Wo wohnst du?}}{{ex:What do you do?|/ˈwʌt də ju ˈduː/|Was machst du beruflich?}}{{ex:Where is the bathroom?|/ˈwer ɪz ðə ˈbæθruːm/|Wo ist die Toilette?}}{{ex:How much is this?|/ˈhaʊ ˈmʌtʃ ɪz ˈðɪs/|Wie viel kostet das?}}
 <h3>Verneinung: don't und nur eine Verneinung</h3>
 <p>Auch beim Verneinen brauchst du <i>don't</i>: „Ich verstehe nicht“ ist <i>I don't understand</i>, nicht <i>I understand not</i>. „Ich weiß nichts“ ist <i>I don't know anything</i>.</p>
@@ -137,7 +137,7 @@ practice:[
 <div class="tbl"><table><tr><th>Subjekt</th><th>Verb</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
 {{ex:She works at a bank.|/ʃi ˈwɜːrks ət ə ˈbæŋk/|Sie arbeitet bei einer Bank}}{{ex:He likes soccer.|/hi ˈlaɪks ˈsɑːkər/|Er mag Fußball}}{{ex:My mom cooks well.|/maɪ ˈmɑːm ˈkʊks ˈwel/|Meine Mutter kocht gut}}
 <h3>Verben, die sich etwas ändern</h3>
-{{ex:She has a car.|/ʃi ˈhæz ə ˈkɑːr/|Sie hat ein Auto (have → has)}}{{ex:He goes to work at eight.|/hi ˈgoʊz tə ˈwɜːrk ət ˈeɪt/|Er fängt um acht an zu arbeiten (go → goes)}}{{ex:She studies English.|/ʃi ˈstʌdiz ˈɪŋglɪʃ/|Sie lernt Englisch (study → studies)}}
+{{ex:She has a car.|/ʃi ˈhæz ə ˈkɑːr/|Sie hat ein Auto (have → has)}}{{ex:He goes to work at eight.|/hi ˈgoʊz tə ˈwɜːrk ət ˈeɪt/|Er geht um acht zur Arbeit (go → goes)}}{{ex:She studies English.|/ʃi ˈstʌdiz ˈɪŋglɪʃ/|Sie lernt Englisch (study → studies)}}
 <h3>Verneinung und Frage: does</h3>
 <p>Mit <b>doesn't</b> oder <b>Does</b> wandert das -s zum Hilfsverb, und das Vollverb steht wieder in der Grundform.</p>
 {{ex:He doesn't drink coffee.|/hi ˈdʌznt ˈdrɪŋk ˈkɔːfi/|Er trinkt keinen Kaffee}}{{ex:Does she live here?|/dəz ʃi ˈlɪv ˈhɪr/|Wohnt sie hier?}}
@@ -154,7 +154,7 @@ practice:[
 ["or","Sie isst kein Fleisch","She doesn't eat meat","eats","Nach dem Hilfsverb \"doesn't\" steht das Verb ohne -s."],
 ["fi","He __ soccer.","Er mag Fußball","likes","like|liking|is like","Mit \"he\": \"likes\" (dritte Person)."],
 ["fi","__ she speak English?","Spricht sie Englisch?","Does","Do|Is|Are","Mit \"she\" braucht die Frage das Hilfsverb \"Does\"."],
-["fi","She __ to work at eight.","Sie fängt um acht an zu arbeiten","goes","go|going|gos","\"Go\" wird zu \"goes\"."],
+["fi","She __ to work at eight.","Sie geht um acht zur Arbeit","goes","go|going|gos","\"Go\" wird zu \"goes\"."],
 ["ty","Er hat ein Auto","He has a car","has · car – mit he","have","Mit \"he\" wird \"have\" zu \"has\": dritte Person."],
 ["ty","Sie mag Katzen","She likes cats","likes · cat – mit she, im Plural","cat","Mit \"she\" bekommt \"likes\" ein -s (dritte Person); Katzen allgemein im Plural."],
 ["ty","Er wohnt nicht hier","He doesn't live here","doesn't · live · here – Verb in der Grundform","lives","Nach dem Hilfsverb \"doesn't\" steht das Verb in der Grundform."]]},
@@ -346,8 +346,8 @@ practice:[
 <h3>Wiederholung: erst a, dann the</h3>
 {{ex:I bought a shirt. The shirt is blue.|/aɪ ˈbɔːt ə ˈʃɜːrt ‖ ðə ˈʃɜːrt ɪz ˈbluː/|Ich habe ein Hemd gekauft. Das Hemd ist blau}}{{ex:Can you open the window?|/kən ju ˈoʊpən ðə ˈwɪndoʊ/|Kannst du das Fenster aufmachen?}}
 <h3>Allgemein: ohne the</h3>
-<p>„Das Leben ist schwer“, „Die Natur ist schön“, „Der Kaffee ist hier teuer“: Wenn du <b>allgemein</b> sprichst, steht im Englischen <b>kein Artikel</b>.</p>
-{{ex:Life is hard.|/ˈlaɪf ɪz ˈhɑːrd/|Das Leben ist schwer}}{{ex:I love dogs.|/aɪ ˈlʌv ˈdɔːgz/|Ich liebe Hunde}}{{ex:Coffee is expensive here.|/ˈkɔːfi ɪz ɪkˈspensɪv ˈhɪr/|Der Kaffee ist hier teuer}}
+<p>„Das Leben ist hart“, „Die Natur ist schön“, „Der Kaffee ist hier teuer“: Wenn du <b>allgemein</b> sprichst, steht im Englischen <b>kein Artikel</b>.</p>
+{{ex:Life is hard.|/ˈlaɪf ɪz ˈhɑːrd/|Das Leben ist hart}}{{ex:I love dogs.|/aɪ ˈlʌv ˈdɔːgz/|Ich liebe Hunde}}{{ex:Coffee is expensive here.|/ˈkɔːfi ɪz ɪkˈspensɪv ˈhɪr/|Der Kaffee ist hier teuer}}
 <h3>Der Körper: Possessivbegleiter statt the</h3>
 <p>Wo das Deutsche „Ich wasche mir <b>die</b> Haare“ sagt, nimmt das Englische den Possessivbegleiter: <i>my hair</i>.</p>
 {{ex:I washed my hair.|/aɪ ˈwɑːʃt maɪ ˈher/|Ich habe mir die Haare gewaschen}}{{ex:She broke her leg.|/ʃi ˈbroʊk hər ˈleg/|Sie hat sich das Bein gebrochen}}{{ex:My head hurts.|/maɪ ˈhed ˈhɜːrts/|Mir tut der Kopf weh}}
@@ -364,12 +364,12 @@ practice:[
 ["mc","Wie sagt man „Ich liebe Hunde“?","I love dogs.","I love the dogs.","I love a dogs.","The dogs I love.","Allgemein: Plural ohne \"the\", also \"I love dogs\"."],
 ["or","Kannst du das Fenster aufmachen?","Can you open the window","a","In der Frage steht das Hilfsverb \"can\" vor \"you\"; \"the\", weil beide wissen, welches Fenster."],
 ["or","Mir tut der Kopf weh","My head hurts","The hurt","Man sagt \"my head\", nicht \"the head\"; und \"hurts\" hat das -s der dritten Person."],
-["or","Das Leben ist schwer","Life is hard","The","Abstrakte Nomen stehen allgemein ohne \"the\": \"Life is hard\"."],
+["or","Das Leben ist hart","Life is hard","The","Abstrakte Nomen stehen allgemein ohne \"the\": \"Life is hard\"."],
 ["fi","I saw a movie. __ movie was great.","Ich habe einen Film gesehen. Der Film war super","The","A|An|Some","Der Film wurde schon erwähnt: \"the\"."],
 ["fi","I brushed __ teeth.","Ich habe mir die Zähne geputzt","my","the|a|some","Bei Körperteilen steht der Possessivbegleiter: \"my teeth\"."],
 ["fi","I'm at __.","Ich bin zu Hause","home","the home|a home|house","\"At home\" steht ohne Artikel."],
 ["ty","Ich habe mir die Haare gewaschen","I washed my hair","washed · hair – mit Possessivbegleiter","the","Bei Körperteilen nimmt das Englische den Possessivbegleiter: \"my hair\"."],
-["ty","Wo ist die Station?","Where is the station|Where's the station","where · station – mit the","a","Mit \"be\" steht \"is\" vor dem Subjekt; \"the\", weil es der Bahnhof hier ist."],
+["ty","Wo ist die Station?","Where is the station|Where's the station","where · station – mit the","a","Mit \"be\" steht \"is\" vor dem Subjekt; \"the\", weil es die Station hier ist."],
 ["ty","Milch ist gut für dich","Milk is good for you","milk · good – kein Artikel","The","Allgemein steht \"milk\" ohne Artikel; nicht zählbar und Singular: \"is\" (Übereinstimmung)."]]},
 
 { id:"adjectives", title:"Adjektive und Vergleiche: big houses, cheaper than, the best", blurb:"Das Adjektiv steht vor dem Nomen und bekommt keine Endung. Beim Vergleich heißt „als“ than, nicht as.", deck:"Einkaufen und Bezahlen", body:`
@@ -382,7 +382,7 @@ practice:[
 <h3>Superlativ: mit the</h3>
 {{ex:This is the best restaurant here.|/ˈðɪs ɪz ðə ˈbest ˈrestərɑːnt ˈhɪr/|Das ist das beste Restaurant hier}}{{ex:Which is the cheapest?|/ˈwɪtʃ ɪz ðə ˈtʃiːpɪst/|Welcher ist der billigste?}}
 <div class="tip">Typische Fehler: <b>bigger as</b> ✗ → <b>bigger than</b> ✓ · <b>more cheaper</b> ✗ → <b>cheaper</b> ✓ · <b>bigs houses</b> ✗ → <b>big houses</b> ✓</div>`,
-check:[["Wie lautet der Komparativ von \"big\"?",["more big","biger","bigger","most big"],2,"Kurzes Wort: -er, und der Endkonsonant wird verdoppelt."],["This is ___ expensive than that. Was gehört in die Lücke?",["more","most","much","very"],0,"Langes Wort: Der Komparativ braucht \"more\"."],["Wie lautet der Superlativ von \"good\"?",["the goodest","the most good","the better","the best"],3,"\"Good\" → \"better\" → \"the best\"."]],
+check:[["Wie lautet der Komparativ von \"big\"?",["more big","biger","bigger","most big"],2,"Kurzes Wort: -er. Bei \"big\" (Konsonant + Vokal + Konsonant) wird das g verdoppelt: \"bigger\". Aber: \"cheap\" → \"cheaper\"."],["This is ___ expensive than that. Was gehört in die Lücke?",["more","most","much","very"],0,"Langes Wort: Der Komparativ braucht \"more\"."],["Wie lautet der Superlativ von \"good\"?",["the goodest","the most good","the better","the best"],3,"\"Good\" → \"better\" → \"the best\"."]],
 practice:[
 ["mc","Wie lautet der Komparativ von \"cheap\"?","cheaper","more cheap","more cheaper","most cheap","Kurze Wörter: -er. Nie \"more\" + -er."],
 ["mc","Wie sagt man „Das ist teurer“?","This is more expensive.","This is expensiver.","This is most expensive.","This is more expensiver.","Lange Wörter: \"more\" + Adjektiv."],
@@ -419,7 +419,7 @@ practice:[
 ["mc","Wie sagt man „Ich gehe nicht hin“ (so ist es geplant)?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","Die Verneinung setzt \"not\" hinter \"be\", ohne \"don't\"."],
 ["mc","Wie sagt man „Kommst du?“ (hast du es vor)?","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","In der Frage steht \"be\" vor \"you\"."],
 ["or","Kommst du (hast du es vor)?","Are you going to come","Do","Die Frage beginnt mit dem Hilfsverb \"Are\": \"Are you going to…?\"."],
-["or","Sie werden verreisen","They are going to travel","is","Mit \"they\" heißt das Hilfsverb \"are\" (Übereinstimmung)."],
+["or","Die beiden werden verreisen","They are going to travel","is","Mit \"they\" heißt das Hilfsverb \"are\" (Übereinstimmung)."],
 ["or","Wir gehen gleich zu Abend essen","We're going to have dinner","a","Mahlzeiten stehen ohne Artikel: \"have dinner\"."],
 ["fi","I'm going __ study tonight.","Heute Abend lerne ich (so ist es geplant)","to","for|at|will","\"Going to\" + Grundform."],
 ["fi","__ you going to come?","Kommst du?","Are","Do|Is|Will","Mit \"you\": \"Are\"."],
@@ -489,6 +489,6 @@ practice:[
 ["fi","My __ is on the table.","Mein Handy liegt auf dem Tisch","phone|cell phone|cellphone|cell|mobile|mobile phone|smartphone","handy|hand|handle","Das Handy ist ein \"phone\" oder \"cell phone\" (britisch: \"mobile\"); \"handy\" heißt „praktisch“."],
 ["fi","Put the papers in the blue __.","Leg die Papiere in die blaue Mappe","folder|file|binder","map|card|mop","Die „Mappe“ ist ein \"folder\"; \"map\" ist eine Landkarte."],
 ["ty","Sie bekommt viele Briefe","She gets a lot of letters|She gets lots of letters|She gets many letters|She receives a lot of letters|She receives lots of letters|She receives many letters","she · get · letters – nicht „become“","becomes","Mit \"she\" bekommt das Verb ein -s: dritte Person. „Bekommen“ heißt \"get\" oder \"receive\", nicht \"become\"."],
-["ty","Er hat es nicht gemerkt","He didn't realize|He didn't notice","didn't · realize – nach „didn't“ die Grundform","realized","Verneinung in der Vergangenheit mit dem Hilfsverb \"didn't\"; \"realize\" = merken."],
+["ty","Er hat es nicht gemerkt","He didn't realize|He didn't notice|He didn't realize it|He didn't notice it","didn't · realize – nach „didn't“ die Grundform","realized","Verneinung in der Vergangenheit mit dem Hilfsverb \"didn't\"; \"realize\" = merken."],
 ["ty","Sie will Ärztin werden","She wants to be a doctor|She wants to become a doctor","want · doctor – „will“ ist nicht \"will\"","will","Mit \"she\" bekommt \"want\" ein -s: dritte Person. „Sie will“ heißt \"she wants\"; \"will\" ist Zukunft („wird“)."]]},
 ];

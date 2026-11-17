@@ -864,7 +864,7 @@
    "where": "html text"
   },
   "Feedback board": {
-   "t": "Feedback-Board",
+   "t": "Pinnwand",
    "ko": "피드백 게시판",
    "kind": "label",
    "where": "html <b> text"
@@ -955,14 +955,14 @@
    "where": "html <b> text"
   },
   ": Progress → Account → Delete my account. Removes your account and synced progress permanently; your feedback posts stay but are unlinked from you.": {
-   "t": ": Profil → Konto → Mein Konto löschen. Dein Konto und der synchronisierte Fortschritt werden dauerhaft entfernt; deine Feedback-Beiträge bleiben, sind aber nicht mehr mit dir verknüpft.",
+   "t": ": Profil → Konto → Mein Konto löschen. Dein Konto und der synchronisierte Fortschritt werden dauerhaft entfernt; deine Beiträge unter „Meinung“ bleiben, sind aber nicht mehr mit dir verknüpft.",
    "ko": ": 진도 → 계정 → 계정 삭제. 계정과 동기화된 진도가 영구 삭제돼요. 피드백 글은 남지만 내 계정과의 연결은 끊어져요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Board rules": {
-   "t": "Regeln fürs Board",
+   "t": "Regeln",
    "ko": "게시판 규칙",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -982,7 +982,7 @@
    "where": "html <h3> text"
   },
   "Use the Feedback tab. If it's private, post without your name and say how to reach you — or just sign in and tick \"Show my name\".": {
-   "t": "Nutze den Tab „Feedback“. Wenn es privat sein soll, poste ohne deinen Namen und schreib dazu, wie wir dich erreichen – oder melde dich einfach an und kreuze „Meinen Namen zeigen“ an.",
+   "t": "Nutze den Tab „Meinung“. Wenn es privat sein soll, poste ohne deinen Namen und schreib dazu, wie wir dich erreichen – oder melde dich einfach an und kreuze „Meinen Namen zeigen“ an.",
    "ko": "피드백 탭을 이용하세요. 비공개로 전하고 싶다면 이름 없이 올리고 연락 방법을 남겨 주세요 — 아니면 로그인하고 \"내 이름 표시\"를 체크하세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1052,7 +1052,7 @@
    "where": "html <textarea> @placeholder"
   },
   "Feedback message": {
-   "t": "Feedback-Nachricht",
+   "t": "Deine Meinung",
    "ko": "피드백 내용",
    "kind": "label",
    "where": "html <textarea> @aria-label"
@@ -1064,25 +1064,25 @@
    "where": "html text"
   },
   "Your post appears on the public board below. Don't include passwords, phone numbers or addresses.": {
-   "t": "Dein Beitrag erscheint unten auf dem öffentlichen Board. Gib keine Passwörter, Telefonnummern oder Adressen an.",
+   "t": "Dein Beitrag erscheint unten auf der öffentlichen Pinnwand. Gib keine Passwörter, Telefonnummern oder Adressen an.",
    "ko": "글은 아래 공개 게시판에 올라가요. 비밀번호, 전화번호, 주소는 적지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "Send feedback": {
-   "t": "Feedback senden",
+   "t": "Meinung senden",
    "ko": "피드백 보내기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Community feedback": {
-   "t": "Community-Feedback",
+   "t": "Meinungen der Community",
    "ko": "커뮤니티 피드백",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Refresh feedback": {
-   "t": "Feedback aktualisieren",
+   "t": "Meinungen aktualisieren",
    "ko": "피드백 새로고침",
    "kind": "label",
    "where": "html <button> @aria-label"
@@ -1107,13 +1107,13 @@
    "where": "html <span> text"
   },
   "The community board lives on the website version of the app.": {
-   "t": "Das Community-Board gibt es in der Website-Version der App.",
+   "t": "Die Pinnwand der Community gibt es in der Website-Version der App.",
    "ko": "커뮤니티 게시판은 웹사이트 버전에서 볼 수 있어요.",
    "kind": "sentence",
    "where": "js box() <div>"
   },
   "Couldn't load feedback right now.": {
-   "t": "Feedback konnte gerade nicht geladen werden.",
+   "t": "Die Meinungen konnten gerade nicht geladen werden.",
    "ko": "지금은 피드백을 불러올 수 없어요.",
    "kind": "sentence",
    "where": "js r() <div>"
@@ -1235,7 +1235,7 @@
    "where": "js pl() <button>"
   },
   "No feedback yet — be the first.": {
-   "t": "Noch kein Feedback – mach den Anfang.",
+   "t": "Noch keine Meinungen – mach den Anfang.",
    "ko": "아직 피드백이 없어요 — 첫 글을 남겨 보세요.",
    "kind": "sentence",
    "where": "js roots() <div>"
@@ -1259,7 +1259,7 @@
    "where": "js last()"
   },
   "Feedback sending works on the website version.": {
-   "t": "Feedback senden funktioniert in der Website-Version.",
+   "t": "Meinungen senden kannst du in der Website-Version.",
    "ko": "피드백 보내기는 웹사이트 버전에서 할 수 있어요.",
    "kind": "sentence",
    "where": "js last()"
@@ -2294,7 +2294,7 @@
    "where": "js pool()"
   },
   "no feedback until the end": {
-   "t": "kein Feedback bis zum Ende",
+   "t": "Auflösung erst am Ende",
    "ko": "끝날 때까지 정답을 알려 주지 않아요",
    "kind": "sentence",
    "where": "js q() <span>"
@@ -2919,7 +2919,7 @@
    "where": "js a()"
   },
   "Added. It will show up in Review today.": {
-   "t": "Hinzugefügt. Sie erscheint heute unter Abfrage.",
+   "t": "Hinzugefügt. Die Karte erscheint heute unter „Abfrage“.",
    "ko": "추가했어요. 오늘 복습에 나올 거예요.",
    "kind": "sentence",
    "where": "js c()"
@@ -3155,13 +3155,13 @@
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "Auslandsreise",
+   "t": "Eine Reise vorbereiten",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Make friends & date": {
-   "t": "Freundschaften & Dating",
+   "t": "Freunde auf Englisch finden",
    "ko": "친구 사귀기 & 데이트",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
@@ -3247,7 +3247,7 @@
    "where": "js tn() <button>"
   },
   "Travel & getting around": {
-   "t": "Reisen & Unterwegs sein",
+   "t": "Reisen & unterwegs sein",
    "ko": "여행 & 이동",
    "kind": "label",
    "where": "js GOALS()"
@@ -4450,7 +4450,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#social": {
-   "t": "#soziales",
+   "t": "#kontakte",
    "ko": "#친구·사교",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4471,7 +4471,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#skills": {
-   "t": "#skills",
+   "t": "#knackpunkte",
    "ko": "#실력",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -6287,19 +6287,19 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Couldn't delete right now ({x}). Try again, or post in Feedback.": {
-   "t": "Löschen gerade nicht möglich ({1}). Versuche es erneut oder schreib uns unter Feedback.",
+   "t": "Löschen gerade nicht möglich ({1}). Versuche es erneut oder schreib uns unter „Meinung“.",
    "ko": "지금은 삭제할 수 없어요 ({1}). 다시 시도하거나 피드백에 남겨 주세요.",
    "slots": "{1}=x",
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
   },
   "This permanently deletes your account ({s}) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "Dadurch werden dein Konto ({1}) und dein synchronisierter Fortschritt endgültig gelöscht. Das lässt sich nicht rückgängig machen. Deine Feedback-Beiträge bleiben bestehen, sind aber nicht mehr mit dir verknüpft. Tippe",
+   "t": "Dadurch werden dein Konto ({1}) und dein synchronisierter Fortschritt endgültig gelöscht. Das lässt sich nicht rückgängig machen. Deine Beiträge unter „Meinung“ bleiben bestehen, sind aber nicht mehr mit dir verknüpft. Tippe",
    "ko": "계정({1})과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "{1}=s",
    "example": "This permanently deletes your account (Greetings) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
   },
   "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "Dadurch werden dein Konto () und dein synchronisierter Fortschritt endgültig gelöscht. Das lässt sich nicht rückgängig machen. Deine Feedback-Beiträge bleiben bestehen, sind aber nicht mehr mit dir verknüpft. Tippe",
+   "t": "Dadurch werden dein Konto () und dein synchronisierter Fortschritt endgültig gelöscht. Das lässt sich nicht rückgängig machen. Deine Beiträge unter „Meinung“ bleiben bestehen, sind aber nicht mehr mit dir verknüpft. Tippe",
    "ko": "계정과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "",
    "example": "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
@@ -6746,13 +6746,13 @@
    "example": "5/2 · Progress"
   },
   "Feedback · quick actions": {
-   "t": "Feedback · Schnellaktionen",
+   "t": "Meinung · Schnellaktionen",
    "ko": "피드백 · 빠른 실행",
    "slots": "",
    "example": "Feedback · quick actions"
   },
   "{n}/{n} · Feedback": {
-   "t": "{1}/{2} · Feedback",
+   "t": "{1}/{2} · Meinung",
    "ko": "{1}/{2} · 피드백",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Feedback"
@@ -6939,7 +6939,7 @@
    "context": "{0},{1} = percent 0–100 — Lesson practice entry, after a run (singular) (LL)"
   },
   "Best first try {n}% · last {n}% · {n} runs": {
-   "t": "Bestwert im ersten Versuch {1} % · zuletzt {2} % · {3} Durchläufe",
+   "t": "Bestwert im ersten Versuch {1} % · zuletzt {2} % · Durchläufe: {3}",
    "ko": null,
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Best first try 80% · last 60% · 3 runs",

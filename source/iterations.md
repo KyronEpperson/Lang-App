@@ -856,3 +856,10 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Lead fixes: the «Feedback» tab did not fit (→ «Pareri», carried through 12 strings by the reviewer); the settings row with accent colour and text size now wraps instead of overflowing (it overflowed in fr, it and de).
 - Honest limit: the reviewer read all lesson bodies, checks, typed items and the false-friends set in full, but only scanned the ~330 multiple-choice/order/fill items of the three stage files and most interface strings.
 - Evidence: validate PASS, parity PASS, lint 0 blocking, e2e OK on all 41 lessons, sweep clean with all tab labels fitting, site test PASS.
+
+## German speakers → English (2.18.0)
+- Built from the Spanish course. Profile `docs/profiles/de.md` (du, IPA, verb-core). 41 lessons (`pron` rebuilt around w/v, final devoicing, æ; `false-friends` rebuilt with 16 German pairs), 25 decks / 480 cards, interface 769 + 272 + 425.
+- First run with Opus-written decks. Reviewer's edits per file: decks.js 26, extra.js 9, meta.js 1 · lessons.js 9, practice.js 3, a1 10, a2 1, b1 0 · ui.json 26 (15 from a tab rename), roadmap.json 6. Decks now sit at 4.2 edits per 100 lines against 1.6 for lessons (pt was 5×, it 14×), and wrong-teaching rates are level (1.3 vs 1.0). Decision confirmed: decks on Opus, interface on Sonnet.
+- Reviewer read every content file in full; the interface (1,041 strings) was scanned by script and by main-screen group, not string by string.
+- Lead fixes: «Feedback» tab did not fit → «Meinung» (15 strings followed by the reviewer); settings row now wraps.
+- Evidence: validate PASS, parity PASS, lint 0 blocking, e2e OK on all 41 lessons, sweep clean with all tab labels fitting, harness 63 guards, site test PASS.

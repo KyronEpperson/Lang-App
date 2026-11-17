@@ -20,7 +20,7 @@ exports.TAGS = {
 };
 
 exports.DESC = {
-  "Begrüßung": "Begrüßen und verabschieden, und natürlich darauf antworten",
+  "Begrüßung": "Begrüßen, sich verabschieden und natürlich antworten",
   "Sich vorstellen": "Sagen, wie du heißt, woher du kommst, was du machst und was dir Spaß macht – und dasselbe fragen",
   "Das Nötigste 1": "Danke sagen, sich entschuldigen und um Wiederholung bitten: das Wichtigste für den ersten Reisetag",
   "Das Nötigste 2": "Toilette, Preise, WLAN, Fotos: Sätze für die ersten Stunden vor Ort",
