@@ -1,156 +1,154 @@
-/* TRANSLATE/ADAPT (pt): scaffolded from tools/content/es/more/b1.js by new_lang.js.
-   Translate/adapt everything that is not English (the es text) for pt speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the pt point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to es-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* es-en stage B1: lessons for Spanish speakers (source of truth). Shorthand is expanded by _dsl.js. */
+/* pt-en stage B1: lessons for Brazilian Portuguese speakers. English side shared with es-en (parity.js).
+   Contrasts follow docs/profiles/pt.md §4 and §8; practice sets follow the verb-core standing rule (§7). Shorthand is expanded by _dsl.js. */
 module.exports = [
-{ id:"perfect-2", title:"Presente perfecto 2: for, since y «desde hace»", blurb:"Algo que empezó en el pasado y sigue hoy. For + duración, since + punto de inicio.", deck:"Presentarse", body:`
-<p>El segundo uso del presente perfecto: algo que <b>empezó en el pasado y sigue ahora</b>. Aquí el español usa el presente («Vivo aquí desde 2020», «Trabajo aquí desde hace tres años»), pero el inglés necesita <b>have/has + participio</b>.</p>
-{{ex:I've lived in Lima for five years.|aiv LIVD in LII-me fer FAIV IIRS|Vivo en Lima desde hace cinco años}}{{ex:She has worked here since 2020.|shi jas WERKT JIR sins TWEN-ti TWEN-ti|Ella trabaja aquí desde 2020}}{{ex:I've known her for a long time.|aiv NOUN jer fer e LONG TAIM|La conozco desde hace mucho}}
-<h3>for y since</h3>
-<div class="tbl"><table><tr><th>for + cuánto tiempo («desde hace»)</th><th>since + punto de inicio («desde»)</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
+{ id:"perfect-2", title:"Present perfect 2: for, since e «há… anos»", blurb:"Algo que começou no passado e continua hoje. For + duração, since + ponto de partida.", deck:"Apresentações", body:`
+<p>O segundo uso do <i>present perfect</i>: algo que <b>começou no passado e continua agora</b>. Aqui o português usa o presente («Moro aqui desde 2020», «Trabalho aqui há três anos»), mas o inglês precisa de <b>have/has + particípio</b>.</p>
+{{ex:I've lived in Rio for five years.|/aɪv ˈlɪvd ɪn ˈriːoʊ fər ˈfaɪv ˈjɪrz/|Moro no Rio há cinco anos}}{{ex:She has worked here since 2020.|/ʃi həz ˈwɜːrkt ˈhɪr sɪns ˈtwenti ˈtwenti/|Ela trabalha aqui desde 2020}}{{ex:I've known her for a long time.|/aɪv ˈnoʊn hər fər ə ˈlɔːŋ ˈtaɪm/|Eu a conheço há muito tempo}}
+<h3>for e since</h3>
+<div class="tbl"><table><tr><th>for + quanto tempo («há», «faz»)</th><th>since + ponto de partida («desde»)</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
+<p>Não confunda: «há três anos» de duração (<i>for three years</i>) não é o mesmo que «há três anos» no passado, que vira <i>three years ago</i> com o passado simples.</p>
 <h3>How long…?</h3>
-<p>«¿Cuánto tiempo llevas…?» se pregunta con <i>How long have you…?</i>, con el auxiliar antes del sujeto. Con <i>he, she, it</i>, el auxiliar es <i>has</i>.</p>
-{{ex:How long have you been here?|JAU LONG jav iu BIN JIR?|¿Cuánto tiempo llevas aquí?}}{{ex:How long has she studied English?|JAU LONG jas shi STA-did ING-glish?|¿Cuánto tiempo lleva ella estudiando inglés?}}
+<p>«Há quanto tempo você…?» se pergunta com <i>How long have you…?</i>, com o auxiliar antes do sujeito. Com <i>he, she, it</i>, o auxiliar é <i>has</i>.</p>
+{{ex:How long have you been here?|/ˈhaʊ ˈlɔːŋ həv ju bɪn ˈhɪr/|Há quanto tempo você está aqui?}}{{ex:How long has she studied English?|/ˈhaʊ ˈlɔːŋ həz ʃi ˈstʌdid ˈɪŋglɪʃ/|Há quanto tempo ela estuda inglês?}}
 <h3>just, already, yet</h3>
-{{ex:I've just finished.|aiv DYAST FI-nisht|Acabo de terminar}}{{ex:I've already seen it.|aiv ol-RE-di SIIN it|Ya la vi}}{{ex:Have you eaten yet?|jav iu II-ten IET?|¿Ya comiste?}}
-<p>En inglés americano también se dice <i>Did you eat yet?</i> y <i>I already saw it</i>; las dos formas son correctas.</p>
-<div class="tip">El error típico de los hispanohablantes: <b>I live here since 2020.</b> ✗ → <b>I've lived here since 2020.</b> ✓. Y «desde hace» es <i>for</i>, no <i>since</i>: <b>for five years</b>.</div>`,
-check:[["I've lived here ___ three years. ¿Qué va en el hueco?",["since","for","during","from"],1,"«Desde hace» + duración es \"for\"."],["I've worked here ___ 2020. ¿Qué va en el hueco?",["for","in","since","at"],2,"«Desde» + punto de inicio es \"since\"."],["«¿Cuánto tiempo llevas aquí?» en inglés:",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"Es \"How long have you\" + participio."]],
+{{ex:I've just finished.|/aɪv ˈdʒʌst ˈfɪnɪʃt/|Acabei de terminar}}{{ex:I've already seen it.|/aɪv ɔːlˈredi ˈsiːn ɪt/|Eu já vi}}{{ex:Have you eaten yet?|/həv ju ˈiːtn ˈjet/|Você já comeu?}}
+<p>No inglês americano também se diz <i>Did you eat yet?</i> e <i>I already saw it</i>; as duas formas estão corretas.</p>
+<div class="tip">O erro típico dos brasileiros: <b>I live here since 2020.</b> ✗ → <b>I've lived here since 2020.</b> ✓. E «há cinco anos» (duração) é <i>for</i>, não <i>since</i>: <b>for five years</b>.</div>`,
+check:[["I've lived here ___ three years. O que vai no espaço?",["since","for","during","from"],1,"«Há» + duração é \"for\"."],["I've worked here ___ 2020. O que vai no espaço?",["for","in","since","at"],2,"«Desde» + ponto de partida é \"since\"."],["«Há quanto tempo você está aqui?» em inglês:",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"A forma é \"How long have you\" + particípio."]],
 practice:[
-["mc","I've known him ___ ten years.","for","since","from","during","«Desde hace» + duración es \"for\"."],
-["mc","She's lived here ___ 2019.","since","for","in","at","«Desde» + punto de inicio es \"since\"."],
-["mc","«¿Cuánto tiempo llevas aquí?» en inglés:","How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?","En la pregunta, el auxiliar \"have\" va antes del sujeto."],
-["mc","¿Cómo se dice «Acabo de terminar»?","I've just finished.","I just have finish.","I've just finish.","I'm just finished have.","Es \"have\" + \"just\" + participio."],
-["mc","«¿Ya comiste?» en inglés:","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","En preguntas, «ya» suele ser \"yet\", al final."],
-["or","Ella vive aquí desde 2020","She has lived here since 2020","have","Con \"she\" el auxiliar es \"has\": tercera persona."],
-["or","¿Cuánto tiempo hace que vives aquí?","How long have you lived here","has live","Con \"you\" el auxiliar es \"have\" (concordancia) y va antes del sujeto; después, el participio \"lived\", no el presente."],
-["or","Vivo aquí desde hace cinco años","I've lived here for five years","since","«Desde hace» + duración es \"for\", no \"since\"."],
-["fi","I've worked here __ two years.","Trabajo aquí desde hace dos años","for","since|from|during","«Desde hace» + duración es \"for\"."],
-["fi","I've been here __ Monday.","Estoy aquí desde el lunes","since","for|at|during","«Desde» + punto de inicio es \"since\"."],
-["fi","Have you finished __?","¿Ya terminaste?","yet|already","ever|never|since","En preguntas, «ya» suele ser \"yet\"."],
-["ty","¿Cuánto tiempo lleva ella aquí?","How long has she been here","how long · been · here — pregunta con el auxiliar","is","Con \"she\" el auxiliar es \"has\" (tercera persona), y va antes del sujeto."],
-["ty","Mi hermano trabaja aquí desde 2021","My brother has worked here since 2021|My brother has been working here since 2021","work · here · since — con el sujeto en tercera persona","works","Con \"my brother\" (tercera persona) va \"has\" + participio, no el presente."],
-["ty","Vivo aquí desde hace tres años","I've lived here for three years|I've been living here for three years","live · here · three years — con \"for\"","since","«Desde hace» + duración es \"for\", con presente perfecto."]]},
-{ id:"narrative", title:"Tiempos para narrar: pasado simple, continuo y perfecto", blurb:"El fondo va en pasado continuo, los hechos en pasado simple y lo anterior con had + participio.", deck:"Cine, series y jerga", body:`
-<p>Para contar una historia se mezclan tres tiempos verbales. Cada uno tiene su papel, y se parecen bastante a los del español:</p>
-<div class="tbl"><table><tr><th>Tiempo</th><th>Papel</th><th>Ejemplo</th></tr><tr><td class="k">pasado continuo («estaba caminando»)</td><td>el fondo, lo que estaba pasando</td><td>I was walking home.</td></tr><tr><td class="k">pasado simple («vi»)</td><td>lo que pasó</td><td>I saw an old friend.</td></tr><tr><td class="k">pasado perfecto («había visto»)</td><td>lo que pasó antes</td><td>He had moved to Miami.</td></tr></table></div>
-<h3>Fondo + hecho</h3>
-{{ex:I was walking home when I saw an old friend.|ai wes WO-king JOUM wen ai SO en OULD FREND|Iba caminando a casa cuando vi a un viejo amigo}}
-<h3>Pasado perfecto: had + participio</h3>
-<p>Equivale a «había + participio»: algo que pasó <b>antes</b> de otro momento del pasado. <i>had</i> es igual para todas las personas.</p>
-{{ex:When I arrived, the movie had already started.|wen ai e-RAIVD dhe MUU-vi jad ol-RE-di STAAR-tid|Cuando llegué, la película ya había empezado}}{{ex:I had never seen snow before.|ai jad NE-ver SIIN SNOU bi-FOR|Nunca había visto la nieve}}
-<h3>Palabras para ordenar</h3>
-<p><i>first</i> (primero), <i>then</i> (luego), <i>after that</i> (después de eso), <i>finally</i> (al final).</p>
-{{ex:First we ate dinner. Then we watched a movie.|FERST wi EIT DI-ner. DHEN wi WAACHT e MUU-vi|Primero cenamos. Luego vimos una película}}
-<h3>Preguntas y negaciones</h3>
-<p>En pasado simple, las preguntas y negaciones llevan el auxiliar <i>did</i> + verbo base: <b>Did you see him?</b>, <b>I didn't see him</b>, no <i>Did you saw</i>. En pasado continuo, el auxiliar es <i>was/were</i>, que concuerda con el sujeto.</p>
-{{ex:What were you doing when I called?|WAT wer iu DUU-ing wen ai KOLD?|¿Qué estabas haciendo cuando te llamé?}}{{ex:Did you see the movie?|did iu SII dhe MUU-vi?|¿Viste la película?}}
-<div class="tip"><i>then</i> (luego) y <i>than</i> («que», en comparaciones) suenan parecido, pero son palabras distintas. Para narrar se usa <b>then</b>.</div>`,
-check:[["When I arrived, the train ___ already left. ¿Qué va en el hueco?",["has","was","had","did"],2,"Lo que pasó antes va con \"had\" + participio."],["I ___ walking home when it started to rain. ¿Qué va en el hueco?",["was","had","did","have"],0,"El fondo de la historia va en pasado continuo."],["¿Qué oración habla de algo que pasó antes de otro momento del pasado?",["I was eating.","I ate.","I eat.","I had eaten."],3,"\"Had\" + participio es el pasado perfecto."]],
+["mc","I've known him ___ ten years. O que vai no espaço?","for","since","from","during","«Há» + duração é \"for\"."],
+["mc","She's lived here ___ 2019. O que vai no espaço?","since","for","in","at","«Desde» + ponto de partida é \"since\"."],
+["mc","«Há quanto tempo você está aqui?» em inglês:","How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?","Na pergunta, o auxiliar \"have\" vem antes do sujeito."],
+["mc","Como se diz «Acabei de terminar»?","I've just finished.","I just have finish.","I've just finish.","I'm just finished have.","A forma é \"have\" + \"just\" + particípio."],
+["mc","«Você já comeu?» em inglês:","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","Em perguntas, «já» costuma ser \"yet\", no fim da frase."],
+["or","Ela mora aqui desde 2020","She has lived here since 2020","have","Com \"she\", o auxiliar é \"has\": terceira pessoa."],
+["or","Há quanto tempo você mora aqui?","How long have you lived here","has live","Com \"you\", o auxiliar é \"have\" (concordância) e vem antes do sujeito; depois vem o particípio \"lived\", e não o presente."],
+["or","Eu moro aqui há cinco anos","I've lived here for five years","since","«Há» + duração é \"for\", não \"since\"."],
+["fi","I've worked here __ two years.","Eu trabalho aqui há dois anos","for","since|from|during","«Há» + duração é \"for\"."],
+["fi","I've been here __ Monday.","Estou aqui desde segunda-feira","since","for|at|during","«Desde» + ponto de partida é \"since\"."],
+["fi","Have you finished __?","Você já terminou?","yet|already","ever|never|since","Em perguntas, «já» costuma ser \"yet\"."],
+["ty","Há quanto tempo ela está aqui?","How long has she been here","how long · been · here — pergunta com o auxiliar","is","Com \"she\", o auxiliar é \"has\" (terceira pessoa), e vem antes do sujeito."],
+["ty","Meu irmão trabalha aqui desde 2021","My brother has worked here since 2021|My brother has been working here since 2021","work · here · since — o sujeito está na terceira pessoa","works","Com \"my brother\" (terceira pessoa) vai \"has\" + particípio, e não o presente."],
+["ty","Eu moro aqui há três anos","I've lived here for three years|I've been living here for three years","live · here · three years — frase com \"for\"","since","«Há» + duração é \"for\", com o present perfect."]]},
+{ id:"narrative", title:"Tempos para narrar: passado simples, passado contínuo e past perfect", blurb:"O cenário vai no passado contínuo, os fatos no passado simples e o que veio antes com had + particípio.", deck:"Cinema, séries e gírias", body:`
+<p>Para contar uma história, misturam-se três tempos verbais. Cada um tem seu papel, e eles se parecem bastante com os do português:</p>
+<div class="tbl"><table><tr><th>Tempo verbal</th><th>Papel</th><th>Exemplo</th></tr><tr><td class="k">passado contínuo (<i>past continuous</i>, «estava andando»)</td><td>o cenário, o que estava acontecendo</td><td>I was walking home.</td></tr><tr><td class="k">passado simples (<i>simple past</i>, «vi»)</td><td>o que aconteceu</td><td>I saw an old friend.</td></tr><tr><td class="k">past perfect («tinha visto»)</td><td>o que aconteceu antes</td><td>He had moved to Miami.</td></tr></table></div>
+<h3>Cenário + fato</h3>
+{{ex:I was walking home when I saw an old friend.|/aɪ wəz ˈwɔːkɪŋ ˈhoʊm wen aɪ ˈsɔː ən ˈoʊld ˈfrend/|Eu estava voltando a pé para casa quando vi um velho amigo}}
+<h3>Past perfect: had + particípio</h3>
+<p>O <i>past perfect</i> (mais-que-perfeito) equivale a «tinha + particípio»: algo que aconteceu <b>antes</b> de outro momento do passado. <i>had</i> é igual para todas as pessoas.</p>
+{{ex:When I arrived, the movie had already started.|/wen aɪ əˈraɪvd ðə ˈmuːvi həd ɔːlˈredi ˈstɑːrtɪd/|Quando eu cheguei, o filme já tinha começado}}{{ex:I had never seen snow before.|/aɪ həd ˈnevər ˈsiːn ˈsnoʊ bɪˈfɔːr/|Eu nunca tinha visto neve}}
+<h3>Palavras para ordenar</h3>
+<p><i>first</i> (primeiro), <i>then</i> (depois, aí), <i>after that</i> (depois disso), <i>finally</i> (no fim).</p>
+{{ex:First we ate dinner. Then we watched a movie.|/ˈfɜːrst wi ˈeɪt ˈdɪnər ‖ ˈðen wi ˈwɑːtʃt ə ˈmuːvi/|Primeiro jantamos. Depois vimos um filme}}
+<h3>Perguntas e negativas</h3>
+<p>No passado simples, perguntas e negativas levam o auxiliar <i>did</i> + verbo na forma base: <b>Did you see him?</b>, <b>I didn't see him</b>, e não <i>Did you saw</i>. No passado contínuo, o auxiliar é <i>was/were</i>, que concorda com o sujeito.</p>
+{{ex:What were you doing when I called?|/ˈwʌt wər ju ˈduːɪŋ wen aɪ ˈkɔːld/|O que você estava fazendo quando eu liguei?}}{{ex:Did you see the movie?|/dɪd ju ˈsiː ðə ˈmuːvi/|Você viu o filme?}}
+<div class="tip"><i>then</i> (depois) e <i>than</i> («do que», em comparações) soam parecido, mas são palavras diferentes. Para narrar, use <b>then</b>.</div>`,
+check:[["When I arrived, the train ___ already left. O que vai no espaço?",["has","was","had","did"],2,"O que aconteceu antes vai com \"had\" + particípio."],["I ___ walking home when it started to rain. O que vai no espaço?",["was","had","did","have"],0,"O cenário da história vai no passado contínuo."],["Qual frase fala de algo que aconteceu antes de outro momento do passado?",["I was eating.","I ate.","I eat.","I had eaten."],3,"\"Had\" + particípio é o past perfect."]],
 practice:[
-["mc","When I got there, the movie ___ already started.","had","has","was","did","Lo que pasó antes va con \"had\" + participio."],
-["mc","I ___ cooking when the phone rang.","was","had","did","have","El fondo de la historia va en pasado continuo."],
-["mc","¿Cómo se dice «Cuando llegué, el tren ya había salido»?","When I arrived, the train had already left.","When I arrived, the train already leaves.","When I had arrived, the train left already had.","When I arrive, the train has left already.","Lo que pasó antes va con \"had\" + participio."],
-["mc","Para seguir la historia, ¿cómo se dice «luego»?","then","than","that","them","\"Then\" es «luego»; \"than\" se usa en comparaciones."],
-["mc","¿Cómo se dice «Nunca había visto la nieve»?","I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before.","Es \"had\" + \"never\" + participio."],
-["or","¿Viste a tu amigo?","Did you see your friend","saw","En la pregunta en pasado va el auxiliar \"did\" y el verbo base \"see\"."],
-["or","Ella estaba caminando a casa","She was walking home","were","Con \"she\" va \"was\": concordancia."],
-["or","El tren ya había salido","The train had already left","has","Lo que pasó antes va con \"had\" + participio."],
-["fi","I was sleeping __ you called.","Estaba durmiendo cuando llamaste","when","than|so|had","«Cuando» se dice \"when\"."],
-["fi","The bus had already __.","El autobús ya había salido","left|gone","leave|leaving|leaves","Después de \"had\" va el participio."],
-["fi","First we ate. __ we watched a movie.","Primero comimos. Luego vimos una película","Then|After that|Next","Than|Because|When","«Luego» es \"then\"."],
-["ty","No vi la película","I didn't see the movie|I didn't watch the movie","see · movie — negación con el auxiliar","saw","La negación en pasado usa el auxiliar \"didn't\" + verbo base: \"see\", no \"saw\"."],
-["ty","Ellos estaban viendo la tele","They were watching TV|They were watching television","watch · TV — en pasado continuo","was","Con \"they\" va \"were\" + -ing: concordancia."],
-["ty","La película ya había empezado","The movie had already started|The movie had started already","movie · already · start — con \"had\" + participio","has","Lo que pasó antes va con \"had\" + participio."]]},
-{ id:"conditionals", title:"Segundo y tercer condicional: situaciones imaginarias", blurb:"Si tuviera… → if + pasado, would. Si hubiera… → if + had + participio, would have.", deck:"Emociones y reacciones", body:`
-<p>Sirven para imaginar lo que no es real, y se corresponden bastante bien con el español: «si tuviera…, haría…» y «si hubiera…, habría…». La diferencia: donde el español usa subjuntivo después de «si», el inglés usa un tiempo pasado, y <b>nunca would</b> después de <i>if</i>.</p>
-<h3>Segundo condicional: un presente imaginario</h3>
-<p><b>If + pasado simple, would + verbo</b>. «Si tuviera tiempo» → <i>If I had time</i>.</p>
-{{ex:If I had time, I would travel.|if ai jad TAIM ai wud TRA-vel|Si tuviera tiempo, viajaría}}{{ex:If I were you, I'd take it.|if ai wer IUU aid TEIK it|Yo que tú, lo aceptaría}}{{ex:What would you do?|WAT wud iu DUU?|¿Qué harías tú?}}
-<h3>Tercer condicional: un pasado imaginario</h3>
-<p><b>If + had + participio, would have + participio</b>. Es el mismo esquema que «si hubiera estudiado, habría aprobado».</p>
-{{ex:If I had studied, I would have passed.|if ai jad STA-did ai wud ev PAST|Si hubiera estudiado, habría aprobado}}
-<h3>Lamentos: should have, I wish</h3>
-{{ex:I should have called.|ai shud ev KOLD|Debería haber llamado}}{{ex:I wish I had more time.|ai WISH ai jad MOR TAIM|Ojalá tuviera más tiempo}}
-<div class="tbl"><table><tr><th>Tipo</th><th>Parte con if</th><th>Resultado</th></tr><tr><td>1 (posible)</td><td class="k">presente</td><td class="k">will</td></tr><tr><td>2 (imaginario, ahora)</td><td class="k">pasado</td><td class="k">would</td></tr><tr><td>3 (imaginario, en el pasado)</td><td class="k">had + participio</td><td class="k">would have + participio</td></tr></table></div>
-<h3>Preguntas y sujeto</h3>
-<p>En las preguntas, el auxiliar <i>would</i> va antes del sujeto. Y aunque en español digas «Sería genial», en inglés hace falta un sujeto: <i>It would be great</i>.</p>
-{{ex:Would you move to another country?|wud iu MUUV te e-NA-dher KAN-tri?|¿Te mudarías a otro país?}}{{ex:It would be great.|it wud bi GREIT|Sería genial}}
-<div class="tip"><i>If I were you</i> es una expresión fija: con <i>I</i> también va <b>were</b>, no <i>was</i>. Y nunca pongas <i>would</i> después de <i>if</i>: <b>If I would have time</b> ✗ → <b>If I had time</b> ✓.</div>`,
-check:[["If I ___ rich, I would travel. ¿Qué va en el hueco?",["am","were","will be","would be"],1,"Para algo imaginario en el presente, después de \"if\" va el pasado (\"were\")."],["If I had studied, I ___ passed. ¿Qué va en el hueco?",["would","will have","would have","had"],2,"Para un pasado imaginario: \"would have\" + participio."],["«Debería haber llamado» en inglés:",["I should have called.","I should called.","I should had call.","I would call should."],0,"Para lamentar algo: \"should have\" + participio."]],
+["mc","When I got there, the movie ___ already started. O que vai no espaço?","had","has","was","did","O que aconteceu antes vai com \"had\" + particípio."],
+["mc","I ___ cooking when the phone rang. O que vai no espaço?","was","had","did","have","O cenário da história vai no passado contínuo."],
+["mc","Como se diz «Quando eu cheguei, o trem já tinha saído»?","When I arrived, the train had already left.","When I arrived, the train already leaves.","When I had arrived, the train left already had.","When I arrive, the train has left already.","O que aconteceu antes vai com \"had\" + particípio."],
+["mc","Para continuar a história, como se diz «depois»?","then","than","that","them","\"Then\" é «depois»; \"than\" se usa em comparações."],
+["mc","Como se diz «Eu nunca tinha visto neve»?","I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before.","A forma é \"had\" + \"never\" + particípio."],
+["or","Você viu seu amigo?","Did you see your friend","saw","Na pergunta no passado vem o auxiliar \"did\" e o verbo na forma base \"see\"."],
+["or","Ela estava voltando a pé para casa","She was walking home","were","Com \"she\" vai \"was\": concordância."],
+["or","O trem já tinha saído","The train had already left","has","O que aconteceu antes vai com \"had\" + particípio."],
+["fi","I was sleeping __ you called.","Eu estava dormindo quando você ligou","when","than|so|had","«Quando» é \"when\"."],
+["fi","The bus had already __.","O ônibus já tinha saído","left|gone","leave|leaving|leaves","Depois de \"had\" vem o particípio."],
+["fi","First we ate. __ we watched a movie.","Primeiro comemos. Depois vimos um filme","Then|After that|Next","Than|Because|When","«Depois» é \"then\"."],
+["ty","Eu não vi o filme","I didn't see the movie|I didn't watch the movie","see · movie — negação com o auxiliar","saw","A negação no passado usa o auxiliar \"didn't\" + verbo na forma base: \"see\", e não \"saw\"."],
+["ty","Eles estavam vendo TV","They were watching TV|They were watching television","watch · TV — frase no passado contínuo","was","Com \"they\" vai \"were\" + -ing: concordância."],
+["ty","O filme já tinha começado","The movie had already started|The movie had started already","movie · already · start — com \"had\" + particípio","has","O que aconteceu antes vai com \"had\" + particípio."]]},
+{ id:"conditionals", title:"Segundo e terceiro condicional: situações imaginárias", blurb:"Se eu tivesse… → if + passado, would. Se eu tivesse feito… → if + had + particípio, would have.", deck:"Emoções e reações", body:`
+<p>Servem para imaginar o que não é real, e combinam bem com o português: «se eu tivesse…, eu faria…» e «se eu tivesse feito…, eu teria…». A diferença: onde o português usa o subjuntivo depois de «se», o inglês usa um tempo do passado, e <b>nunca would</b> depois de <i>if</i>.</p>
+<h3>Segundo condicional: um presente imaginário</h3>
+<p><b>If + passado simples, would + verbo</b>. «Se eu tivesse tempo» → <i>If I had time</i>.</p>
+{{ex:If I had time, I would travel.|/ɪf aɪ ˈhæd ˈtaɪm aɪ wəd ˈtrævl/|Se eu tivesse tempo, eu viajaria}}{{ex:If I were you, I'd take it.|/ɪf aɪ wər ˈjuː aɪd ˈteɪk ɪt/|Se eu fosse você, eu aceitaria}}{{ex:What would you do?|/ˈwʌt wəd ju ˈduː/|O que você faria?}}
+<h3>Terceiro condicional: um passado imaginário</h3>
+<p><b>If + had + particípio, would have + particípio</b>. É o mesmo esquema de «se eu tivesse estudado, teria passado».</p>
+{{ex:If I had studied, I would have passed.|/ɪf aɪ həd ˈstʌdid aɪ wəd əv ˈpæst/|Se eu tivesse estudado, teria passado}}
+<h3>Arrependimentos: should have, I wish</h3>
+{{ex:I should have called.|/aɪ ʃəd əv ˈkɔːld/|Eu devia ter ligado}}{{ex:I wish I had more time.|/aɪ ˈwɪʃ aɪ ˈhæd ˈmɔːr ˈtaɪm/|Quem me dera ter mais tempo}}
+<div class="tbl"><table><tr><th>Tipo</th><th>Parte com if</th><th>Resultado</th></tr><tr><td>1 (possível)</td><td class="k">presente</td><td class="k">will</td></tr><tr><td>2 (imaginário, agora)</td><td class="k">passado</td><td class="k">would</td></tr><tr><td>3 (imaginário, no passado)</td><td class="k">had + particípio</td><td class="k">would have + particípio</td></tr></table></div>
+<h3>Perguntas e sujeito</h3>
+<p>Nas perguntas, o auxiliar <i>would</i> vem antes do sujeito. E, embora em português se diga «Seria ótimo», em inglês é preciso um sujeito: <i>It would be great</i>.</p>
+{{ex:Would you move to another country?|/wəd ju ˈmuːv tu əˈnʌðər ˈkʌntri/|Você se mudaria para outro país?}}{{ex:It would be great.|/ɪt wəd bi ˈgreɪt/|Seria ótimo}}
+<div class="tip"><i>If I were you</i> («se eu fosse você») é uma expressão fixa: com <i>I</i> também vai <b>were</b>, e não <i>was</i>. E nunca coloque <i>would</i> depois de <i>if</i>: <b>If I would have time</b> ✗ → <b>If I had time</b> ✓.</div>`,
+check:[["If I ___ rich, I would travel. O que vai no espaço?",["am","were","will be","would be"],1,"Para algo imaginário no presente, depois de \"if\" vem o passado (\"were\")."],["If I had studied, I ___ passed. O que vai no espaço?",["would","will have","would have","had"],2,"Para um passado imaginário: \"would have\" + particípio."],["«Eu devia ter ligado» em inglês:",["I should have called.","I should called.","I should had call.","I would call should."],0,"Para lamentar algo: \"should have\" + particípio."]],
 practice:[
-["mc","If I ___ time, I would help.","had","have","will have","would have","Para algo imaginario en el presente, después de \"if\" va el pasado."],
-["mc","¿Cómo se dice «Yo que tú, lo compraría»?","If I were you, I'd buy it.","If I am you, I'll buy it.","If I were you, I buy it.","If I would be you, I'd buy it.","\"If I were you, I'd…\" es una expresión fija."],
-["mc","If I had known, I ___ come.","would have","would","will have","had","Para un pasado imaginario: \"would have\" + participio."],
-["mc","¿Cómo se dice «Debería haber llamado»?","I should have called.","I should called.","I should had call.","I must called.","Para lamentar algo: \"should have\" + participio."],
-["mc","«¿Qué harías tú?» en inglés:","What would you do?","What will you did?","What would you did?","What you would do?","En la pregunta, el auxiliar \"would\" va antes del sujeto."],
-["or","¿Me ayudarías?","Would you help me","Do","En la pregunta, el auxiliar \"would\" va antes del sujeto."],
-["or","¿Dónde vivirías?","Where would you live","will","Después de la palabra interrogativa, el auxiliar \"would\" va antes del sujeto."],
-["or","Si tuviera tiempo, viajaría","If I had time I'd travel","have will","Después de \"if\" va el pasado (\"had\"), no \"will\" ni \"would\"."],
-["fi","If I __ you, I'd go.","Yo que tú, iría","were|was","am|be|would be","\"If I were you\" es una expresión fija."],
-["fi","I would __ helped.","Te habría ayudado","have","had|has|having","Es \"would have\" + participio."],
-["fi","I wish I __ more time.","Ojalá tuviera más tiempo","had","have|would have|will have","Después de \"I wish\" va el pasado."],
-["ty","¿Qué harías tú?","What would you do","would · do — pregunta con el auxiliar","will","En la pregunta, el auxiliar \"would\" va antes del sujeto."],
-["ty","Sería genial","It would be great|It'd be great|That would be great","great — con el sujeto \"it\"","is","En inglés el sujeto es obligatorio: \"It would be great\"."],
-["ty","Yo que tú, iría","If I were you I'd go|I'd go if I were you|If I was you I'd go","if · were · go — una expresión fija","am","«Yo que tú» es \"If I were you\", con \"were\"."]]},
-{ id:"passive", title:"Voz pasiva: be + participio", blurb:"Cuando importa lo que pasó y no quién lo hizo. Donde el español dice «se habla inglés», el inglés usa la pasiva.", deck:"Trabajo y correo", body:`
-<p>La voz pasiva es <b>be + participio</b>. Se usa cuando no sabes quién hizo algo o no importa.</p>
-<p>En español, la pasiva con «ser» suena formal, y en su lugar se usa «se» o la tercera persona del plural: «Se habla inglés», «Se canceló la reunión», «Me robaron el celular». En inglés, todo eso va en <b>voz pasiva</b>.</p>
-{{ex:English is spoken here.|ING-glish is SPOU-ken JIR|Aquí se habla inglés}}{{ex:My phone was stolen.|mai FOUN wes STOU-len|Me robaron el celular}}{{ex:The meeting was canceled.|dhe MII-ring wes KAN-seld|Se canceló la reunión}}
-<h3>Concordancia con be</h3>
-<p>El verbo <i>be</i> concuerda con el sujeto: singular → <b>is/was</b>; plural → <b>are/were</b>.</p>
-{{ex:This was made in Mexico.|dhis wes MEID in MEK-si-kou|Esto se hizo en México}}{{ex:These shoes were made in Italy.|dhiis SHUUS wer MEID in I-re-li|Estos zapatos se hicieron en Italia}}{{ex:Breakfast is served at seven.|BREK-fest is SERVD et SE-ven|El desayuno se sirve a las siete}}
-<h3>Quién lo hizo: by</h3>
-{{ex:It was written by Isabel Allende.|it wes RI-ten bai I-se-bel a-IEN-dei|Lo escribió Isabel Allende}}
-<h3>Activa y pasiva</h3>
-<div class="tbl"><table><tr><th>Activa</th><th>Pasiva</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
-<h3>Preguntas</h3>
-<p>En la pregunta, el auxiliar <i>is/was</i> va antes del sujeto.</p>
-{{ex:Is breakfast included?|is BREK-fest in-KLUU-did?|¿El desayuno está incluido?}}
-<div class="tip">Errores típicos: olvidar <i>be</i> (<b>My phone stolen</b> ✗) o traducir «se» palabra por palabra (<b>Here speaks English</b> ✗). Lo correcto: <b>My phone was stolen</b>, <b>English is spoken here</b> ✓.</div>`,
-check:[["My bag ___ stolen yesterday. ¿Qué va en el hueco?",["is","was","did","has"],1,"Pasó ayer: \"was\" + participio."],["This phone ___ made in Mexico. ¿Qué va en el hueco?",["was","did","has","does"],0,"La voz pasiva es \"be\" + participio."],["«Se canceló la reunión» en inglés:",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"Es \"be\" + el participio \"canceled\"."]],
+["mc","If I ___ time, I would help. O que vai no espaço?","had","have","will have","would have","Para algo imaginário no presente, depois de \"if\" vem o passado."],
+["mc","Como se diz «Se eu fosse você, eu compraria»?","If I were you, I'd buy it.","If I am you, I'll buy it.","If I were you, I buy it.","If I would be you, I'd buy it.","\"If I were you, I'd…\" é uma expressão fixa."],
+["mc","If I had known, I ___ come. O que vai no espaço?","would have","would","will have","had","Para um passado imaginário: \"would have\" + particípio."],
+["mc","Como se diz «Eu devia ter ligado»?","I should have called.","I should called.","I should had call.","I must called.","Para lamentar algo: \"should have\" + particípio."],
+["mc","«O que você faria?» em inglês:","What would you do?","What will you did?","What would you did?","What you would do?","Na pergunta, o auxiliar \"would\" vem antes do sujeito."],
+["or","Você me ajudaria?","Would you help me","Do","Na pergunta, o auxiliar \"would\" vem antes do sujeito."],
+["or","Onde você moraria?","Where would you live","will","Depois da palavra interrogativa, o auxiliar \"would\" vem antes do sujeito."],
+["or","Se eu tivesse tempo, eu viajaria","If I had time I'd travel","have will","Depois de \"if\" vem o passado (\"had\"), e não \"will\" nem \"would\"."],
+["fi","If I __ you, I'd go.","Se eu fosse você, eu iria","were|was","am|be|would be","\"If I were you\" é uma expressão fixa."],
+["fi","I would __ helped.","Eu teria ajudado","have","had|has|having","A forma é \"would have\" + particípio."],
+["fi","I wish I __ more time.","Quem me dera ter mais tempo","had","have|would have|will have","Depois de \"I wish\" vem o passado."],
+["ty","O que você faria?","What would you do","would · do — pergunta com o auxiliar","will","Na pergunta, o auxiliar \"would\" vem antes do sujeito."],
+["ty","Seria ótimo","It would be great|It'd be great|That would be great","great — a frase precisa do sujeito \"it\"","is","Em inglês o sujeito é obrigatório: \"It would be great\"."],
+["ty","Se eu fosse você, eu iria","If I were you I'd go|I'd go if I were you|If I was you I'd go","if · were · go — uma expressão fixa","am","«Se eu fosse você» é \"If I were you\", com \"were\"."]]},
+{ id:"passive", title:"Voz passiva: be + particípio", blurb:"Quando importa o que aconteceu, e não quem fez. Onde o português diz «aqui se fala inglês», o inglês usa a voz passiva.", deck:"Trabalho e e-mail", body:`
+<p>A voz passiva é <b>be + particípio</b>. Ela é usada quando você não sabe quem fez algo ou quando isso não importa.</p>
+<p>O português também tem voz passiva com «ser» («A reunião foi cancelada»), mas muitas vezes prefere o «se» ou a terceira pessoa do plural: «Aqui se fala inglês», «Vende-se», «Roubaram meu celular». Em inglês, tudo isso vai na <b>voz passiva</b>.</p>
+{{ex:English is spoken here.|/ˈɪŋglɪʃ ɪz ˈspoʊkən ˈhɪr/|Aqui se fala inglês}}{{ex:My phone was stolen.|/maɪ ˈfoʊn wəz ˈstoʊlən/|Roubaram meu celular}}{{ex:The meeting was canceled.|/ðə ˈmiːtɪŋ wəz ˈkænsld/|A reunião foi cancelada}}
+<h3>Concordância com be</h3>
+<p>O verbo <i>be</i> concorda com o sujeito: singular → <b>is/was</b>; plural → <b>are/were</b>.</p>
+{{ex:This was made in Brazil.|/ˈðɪs wəz ˈmeɪd ɪn brəˈzɪl/|Isto foi feito no Brasil}}{{ex:These shoes were made in Italy.|/ˈðiːz ˈʃuːz wər ˈmeɪd ɪn ˈɪtəli/|Estes sapatos foram feitos na Itália}}{{ex:Breakfast is served at seven.|/ˈbrekfəst ɪz ˈsɜːrvd ət ˈsevn/|O café da manhã é servido às sete}}
+<h3>Quem fez: by</h3>
+{{ex:It was written by Paulo Coelho.|/ɪt wəz ˈrɪtn baɪ ˈpaʊloʊ kuˈeɪljoʊ/|Foi escrito por Paulo Coelho}}
+<h3>Ativa e passiva</h3>
+<div class="tbl"><table><tr><th>Ativa</th><th>Passiva</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
+<h3>Perguntas</h3>
+<p>Na pergunta, o auxiliar <i>is/was</i> vem antes do sujeito.</p>
+{{ex:Is breakfast included?|/ɪz ˈbrekfəst ɪnˈkluːdɪd/|O café da manhã está incluído?}}
+<div class="tip">Erros comuns: esquecer o <i>be</i> (<b>My phone stolen</b> ✗) ou traduzir o «se» palavra por palavra (<b>Here speaks English</b> ✗). O certo: <b>My phone was stolen</b>, <b>English is spoken here</b> ✓.</div>`,
+check:[["My bag ___ stolen yesterday. O que vai no espaço?",["is","was","did","has"],1,"Aconteceu ontem: \"was\" + particípio."],["This phone ___ made in Mexico. O que vai no espaço?",["was","did","has","does"],0,"A voz passiva é \"be\" + particípio."],["«A reunião foi cancelada» em inglês:",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"A forma é \"be\" + o particípio \"canceled\"."]],
 practice:[
-["mc","My phone ___ stolen.","was","did","has","is steal","La voz pasiva es \"be\" + participio."],
-["mc","¿Cómo se dice «Esto se hizo en México»?","This was made in Mexico.","This made in Mexico.","This was make in Mexico.","This did made in Mexico.","Es \"be\" + el participio \"made\"."],
-["mc","¿Cómo se dice «Aquí se habla inglés»?","English is spoken here.","Here speaks English.","English is speak here.","English speaks here.","La construcción con «se» pasa a voz pasiva: \"is\" + participio."],
-["mc","¿Cómo se dice «Se canceló la reunión»?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","Es \"be\" + participio."],
-["mc","¿Cómo se dice «Estos zapatos se hicieron en Italia»?","These shoes were made in Italy.","These shoes was made in Italy.","These shoes made in Italy.","These shoes were make in Italy.","Con un sujeto plural va \"were\": concordancia."],
-["or","Me robaron las maletas","My bags were stolen","was","Con el plural \"bags\" va \"were\": concordancia."],
-["or","Aquí se habla inglés","English is spoken here","are speaks","Con \"English\" (singular) va \"is\" + participio: concordancia."],
-["or","Se canceló la reunión","The meeting was canceled","did","La voz pasiva se forma con \"be\" + participio, no con \"did\"."],
-["fi","This was __ in Mexico.","Esto se hizo en México","made","make|making|makes","Después de \"be\" va el participio."],
-["fi","The room __ cleaned every day.","La habitación se limpia todos los días","is|gets","does|has|did","Para algo habitual: \"is\" + participio."],
-["fi","It was written __ Isabel Allende.","Lo escribió Isabel Allende","by","from|of|with","Quién lo hizo se dice con \"by\"."],
-["ty","Me robaron el celular","My phone was stolen|My phone got stolen|My cell phone was stolen","phone · steal — usa la voz pasiva","stole","Con \"my phone\" (singular) va \"was\" + participio: concordancia."],
-["ty","¿El desayuno está incluido?","Is breakfast included|Is the breakfast included","breakfast · include — pregunta con el auxiliar","Does","En la pregunta, el auxiliar \"is\" va antes del sujeto."],
-["ty","La puerta estaba cerrada con llave","The door was locked","door · lock — con la voz pasiva","were","Con \"the door\" (singular) va \"was\": concordancia."]]},
-{ id:"reported", title:"Estilo indirecto: contar lo que dijo otra persona", blurb:"She said she was tired. El tiempo verbal retrocede, y tell siempre lleva a la persona.", deck:"Teléfono y abreviaturas", body:`
-<p>Sirve para contar lo que dijo otra persona: «dijo que…». Igual que en español («Estoy cansada» → «Dijo que estaba cansada»), el tiempo verbal <b>retrocede un paso hacia el pasado</b>.</p>
-<div class="tbl"><table><tr><th>Estilo directo</th><th>Estilo indirecto</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>
-{{ex:She said she was tired.|shi SED shi wes TAI-erd|Dijo que estaba cansada}}{{ex:He said he would come.|ji SED ji wud KAM|Dijo que vendría}}
-<h3>say o tell</h3>
-<p>Los dos son «decir», pero <b>tell</b> lleva a la persona justo después (<i>told me</i>), y <b>say</b> no (<i>said</i>, o <i>said to me</i>). Es uno de los errores más comunes: <i>He said me</i> ✗.</p>
-{{ex:He told me he was busy.|ji TOULD mi ji wes BI-si|Me dijo que estaba ocupado}}{{ex:She said there was a problem.|shi SED dher wes e PRAA-blem|Dijo que había un problema}}
-<p>Fíjate en el segundo ejemplo: «había» necesita sujeto en inglés (<i>there was</i>), y concuerda con lo que viene después.</p>
-<h3>Preguntas en estilo indirecto</h3>
-<p>Para preguntas de sí o no, usa <b>if</b>. Con palabra interrogativa, la repites. En los dos casos, el orden es el de una afirmación (sujeto + verbo), y <b>no se usa do/did</b>.</p>
-{{ex:She asked if I was okay.|shi ASKT if ai wes ou-KEI|Me preguntó si estaba bien}}{{ex:He asked where I lived.|ji ASKT wer ai LIVD|Me preguntó dónde vivía}}
-<div class="tip">Errores típicos: <b>He said me…</b> ✗ → <b>He told me…</b> ✓; <b>He asked where did I live</b> ✗ → <b>He asked where I lived</b> ✓.</div>`,
-check:[["She said she ___ tired. ¿Qué va en el hueco?",["is being","was","be","will"],1,"En estilo indirecto, el tiempo verbal retrocede al pasado."],["He ___ me he would come. ¿Qué va en el hueco?",["said","say","told","tell to"],2,"Con la persona justo después (\"me\") va \"told\"."],["«Me preguntó dónde vivía» en inglés:",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"En una pregunta indirecta, el orden es el de una afirmación."]],
+["mc","My phone ___ stolen. O que vai no espaço?","was","did","has","is steal","A voz passiva é \"be\" + particípio."],
+["mc","Como se diz «Isto foi feito no México»?","This was made in Mexico.","This made in Mexico.","This was make in Mexico.","This did made in Mexico.","A forma é \"be\" + o particípio \"made\"."],
+["mc","Como se diz «Aqui se fala inglês»?","English is spoken here.","Here speaks English.","English is speak here.","English speaks here.","A construção com «se» vira voz passiva: \"is\" + particípio."],
+["mc","Como se diz «A reunião foi cancelada»?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","A forma é \"be\" + particípio."],
+["mc","Como se diz «Estes sapatos foram feitos na Itália»?","These shoes were made in Italy.","These shoes was made in Italy.","These shoes made in Italy.","These shoes were make in Italy.","Com um sujeito no plural vai \"were\": concordância."],
+["or","Roubaram minhas malas","My bags were stolen","was","Com o plural \"bags\" vai \"were\": concordância."],
+["or","Aqui se fala inglês","English is spoken here","are speaks","Com \"English\" (singular) vai \"is\" + particípio: concordância."],
+["or","A reunião foi cancelada","The meeting was canceled","did","A voz passiva se forma com \"be\" + particípio, e não com \"did\"."],
+["fi","This was __ in Mexico.","Isto foi feito no México","made","make|making|makes","Depois de \"be\" vem o particípio."],
+["fi","The room __ cleaned every day.","O quarto é limpo todos os dias","is|gets","does|has|did","Para algo habitual: \"is\" + particípio."],
+["fi","It was written __ Isabel Allende.","Foi escrito por Isabel Allende","by","from|of|with","Quem fez se diz com \"by\"."],
+["ty","Roubaram meu celular (use a voz passiva)","My phone was stolen|My phone got stolen|My cell phone was stolen","phone · steal — frase na voz passiva","stole","Com \"my phone\" (singular) vai \"was\" + particípio: concordância."],
+["ty","O café da manhã está incluído?","Is breakfast included|Is the breakfast included","breakfast · include — pergunta com o auxiliar","Does","Na pergunta, o auxiliar \"is\" vem antes do sujeito."],
+["ty","A porta estava trancada","The door was locked","door · lock — frase na voz passiva","were","Com \"the door\" (singular) vai \"was\": concordância."]]},
+{ id:"reported", title:"Discurso indireto: contar o que outra pessoa disse", blurb:"She said she was tired. O tempo verbal recua, e tell sempre leva a pessoa.", deck:"Telefone e abreviações", body:`
+<p>O discurso indireto serve para contar o que outra pessoa disse: «ela disse que…». Assim como em português («Estou cansada» → «Ela disse que estava cansada»), o tempo verbal <b>recua um passo para o passado</b>.</p>
+<div class="tbl"><table><tr><th>Discurso direto</th><th>Discurso indireto</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>
+{{ex:She said she was tired.|/ʃi ˈsed ʃi wəz ˈtaɪərd/|Ela disse que estava cansada}}{{ex:He said he would come.|/hi ˈsed hi wəd ˈkʌm/|Ele disse que viria}}
+<h3>say ou tell</h3>
+<p>Os dois são «dizer», mas <b>tell</b> leva a pessoa logo depois (<i>told me</i>), e <b>say</b> não (<i>said</i>, ou <i>said to me</i>). É um dos erros mais comuns: <i>He said me</i> ✗.</p>
+{{ex:He told me he was busy.|/hi ˈtoʊld mi hi wəz ˈbɪzi/|Ele me disse que estava ocupado}}{{ex:She said there was a problem.|/ʃi ˈsed ðer wəz ə ˈprɑːbləm/|Ela disse que tinha um problema}}
+<p>Repare no segundo exemplo: o «tinha» de «tinha um problema» não é <i>had</i>. Em inglês, ele precisa de sujeito (<i>there was</i>), que concorda com o que vem depois.</p>
+<h3>Perguntas no discurso indireto</h3>
+<p>Para perguntas de sim ou não, use <b>if</b>. Com palavra interrogativa, repita a palavra. Nos dois casos, a ordem é a de uma afirmação (sujeito + verbo), e <b>não se usa do/did</b>.</p>
+{{ex:She asked if I was okay.|/ʃi ˈæskt ɪf aɪ wəz oʊˈkeɪ/|Ela perguntou se eu estava bem}}{{ex:He asked where I lived.|/hi ˈæskt ˈwer aɪ ˈlɪvd/|Ele perguntou onde eu morava}}
+<div class="tip">Erros comuns: <b>He said me…</b> ✗ → <b>He told me…</b> ✓; <b>He asked where did I live</b> ✗ → <b>He asked where I lived</b> ✓.</div>`,
+check:[["She said she ___ tired. O que vai no espaço?",["is being","was","be","will"],1,"No discurso indireto, o tempo verbal recua para o passado."],["He ___ me he would come. O que vai no espaço?",["said","say","told","tell to"],2,"Com a pessoa logo depois (\"me\") vai \"told\"."],["«Ele me perguntou onde eu morava» em inglês:",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"Numa pergunta indireta, a ordem é a de uma afirmação."]],
 practice:[
-["mc","She said she ___ busy.","was","is being","be","were being","En estilo indirecto, el tiempo verbal retrocede al pasado."],
-["mc","He ___ me he was late.","told","said","say","tells to","Con la persona justo después se usa \"told\"."],
-["mc","¿Cómo se dice «Dijo que vendría»?","He said he would come.","He said he will came.","He told he would come.","He said me he would come.","\"Will\" pasa a \"would\"."],
-["mc","¿Cómo se dice «Me preguntó si estaba bien»?","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","Las preguntas de sí o no se cuentan con \"if\"."],
-["mc","¿Cómo se dice «Me preguntó dónde vivía»?","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","En una pregunta indirecta, el orden es el de una afirmación."],
-["or","Dijo que estaba cansada","She said she was tired","told were","Con \"she\" va \"was\": concordancia. Sin persona después, \"said\"."],
-["or","Me dijo que estaba ocupado","He told me he was busy","said","Con la persona justo después (\"me\") se usa \"told\"."],
-["or","Dijo que había un problema","He said there was a problem","were","Con \"a problem\" (singular) va \"there was\": concordancia."],
-["fi","She __ she was tired.","Dijo que estaba cansada","said","told|asked|say","Sin persona después se usa \"said\"."],
-["fi","He told __ he was busy.","Me dijo que estaba ocupado","me","I|my|to","Después de \"told\" va la persona."],
-["fi","She asked __ I was okay.","Me preguntó si estaba bien","if|whether","that|what|did","Las preguntas de sí o no se cuentan con \"if\"."],
-["ty","Él dijo que hacía frío","He said it was cold|He said that it was cold","said · cold — con el sujeto \"it\"","is","En inglés el sujeto es obligatorio: \"it was cold\"."],
-["ty","Él me dijo que estaba ocupado","He told me he was busy|He told me that he was busy|He said to me he was busy|He said to me that he was busy|He said he was busy|He said that he was busy","told · me · busy — \"tell\" con la persona después","said","Con \"he\" va \"was\" (tercera persona), y con la persona después, \"told\"."],
-["ty","Ella me preguntó dónde vivía","She asked me where I lived|She asked where I lived","asked · where · lived — con el orden de una afirmación","did","En una pregunta indirecta, el orden es el de una afirmación, sin \"did\"."]]},
+["mc","She said she ___ busy. O que vai no espaço?","was","is being","be","were being","No discurso indireto, o tempo verbal recua para o passado."],
+["mc","He ___ me he was late. O que vai no espaço?","told","said","say","tells to","Com a pessoa logo depois se usa \"told\"."],
+["mc","Como se diz «Ele disse que viria»?","He said he would come.","He said he will came.","He told he would come.","He said me he would come.","\"Will\" vira \"would\"."],
+["mc","Como se diz «Ela me perguntou se eu estava bem»?","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","Perguntas de sim ou não são contadas com \"if\"."],
+["mc","Como se diz «Ele me perguntou onde eu morava»?","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","Numa pergunta indireta, a ordem é a de uma afirmação."],
+["or","Ela disse que estava cansada","She said she was tired","told were","Com \"she\" vai \"was\": concordância. Sem a pessoa depois, \"said\"."],
+["or","Ele me disse que estava ocupado","He told me he was busy","said","Com a pessoa logo depois (\"me\") se usa \"told\"."],
+["or","Ele disse que tinha um problema","He said there was a problem","were","Com \"a problem\" (singular) vai \"there was\": concordância."],
+["fi","She __ she was tired.","Ela disse que estava cansada","said","told|asked|say","Sem a pessoa depois se usa \"said\"."],
+["fi","He told __ he was busy.","Ele me disse que estava ocupado","me","I|my|to","Depois de \"told\" vem a pessoa."],
+["fi","She asked __ I was okay.","Ela me perguntou se eu estava bem","if|whether","that|what|did","Perguntas de sim ou não são contadas com \"if\"."],
+["ty","Ele disse que estava frio","He said it was cold|He said that it was cold","said · cold — a frase precisa do sujeito \"it\"","is","Em inglês o sujeito é obrigatório: \"it was cold\"."],
+["ty","Ele me disse que estava ocupado","He told me he was busy|He told me that he was busy|He said to me he was busy|He said to me that he was busy|He said he was busy|He said that he was busy","told · me · busy — \"tell\" e a pessoa logo após o verbo","said","Com \"he\" vai \"was\" (terceira pessoa), e com a pessoa depois, \"told\"."],
+["ty","Ela me perguntou onde eu morava","She asked me where I lived|She asked where I lived","asked · where · lived — com a ordem de uma afirmação","did","Numa pergunta indireta, a ordem é a de uma afirmação, sem \"did\"."]]},
 ];

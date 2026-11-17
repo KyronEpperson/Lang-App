@@ -1,73 +1,69 @@
-/* TRANSLATE/ADAPT (pt): scaffolded from tools/content/es/meta.js by new_lang.js.
-   Translate/adapt everything that is not English (the es text) for pt speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the pt point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to es-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* es-en course metadata in the learner's language (Spanish). Read by tools/content/gen.js.
+/* pt-en course metadata in the learner's language (Brazilian Portuguese). Read by tools/content/gen.js.
    Deck names here must match the deck names in decks.js (see DECKNAMES.md). Lesson ids are the shared English ids.
    PLAN_PRESETS: decks "@path" = every deck in GROUPS order; lessons "@all" = every lesson in course order. */
 exports.GROUPS = [
-  ["Primeros pasos", ["Saludos", "Presentarse", "Supervivencia 1", "Supervivencia 2"]],
-  ["Viajes y vida diaria", ["Direcciones y transporte", "En el restaurante", "Cafetería y tienda", "Compras y pagos", "Números, horas y fechas", "Viajes (aeropuerto y hotel)", "Salud y emergencias"]],
-  ["Conversación y relaciones", ["Charla casual", "Emociones y reacciones", "Cumplidos y afecto", "Teléfono y abreviaturas"]],
-  ["Trabajo", ["Trabajo y correo"]],
-  ["Como un nativo", ["Trampas de pronunciación", "Phrasal verbs", "Expresiones idiomáticas", "Cine, series y jerga"]],
-  ["Claves para hispanohablantes", ["Palabras esenciales", "Falsos amigos", "Make y do", "Incontables", "Cognados y acento"]]
+  ["Primeiros passos", ["Cumprimentos", "Apresentações", "Sobrevivência 1", "Sobrevivência 2"]],
+  ["Viagem e dia a dia", ["Direções e transporte", "No restaurante", "Cafeteria e mercado", "Compras e pagamentos", "Números, horas e datas", "Viagens (aeroporto e hotel)", "Saúde e emergências"]],
+  ["Conversa e relacionamentos", ["Bate-papo", "Emoções e reações", "Elogios e carinho", "Telefone e abreviações"]],
+  ["Trabalho", ["Trabalho e e-mail"]],
+  ["Como um nativo", ["Armadilhas de pronúncia", "Phrasal verbs", "Expressões idiomáticas", "Cinema, séries e gírias"]],
+  ["Pontos-chave para brasileiros", ["Palavras essenciais", "Falsos cognatos", "Make e do", "Incontáveis", "Cognatos e sílaba tônica"]]
 ];
 
 exports.TAGS = {
-  basics: ["Saludos", "Presentarse", "Supervivencia 1", "Supervivencia 2", "Números, horas y fechas"],
-  travel: ["Supervivencia 1", "Supervivencia 2", "Direcciones y transporte", "En el restaurante", "Cafetería y tienda", "Compras y pagos", "Números, horas y fechas", "Viajes (aeropuerto y hotel)", "Salud y emergencias"],
-  social: ["Saludos", "Presentarse", "Charla casual", "Emociones y reacciones", "Cumplidos y afecto", "Teléfono y abreviaturas"],
-  work: ["Trabajo y correo", "Teléfono y abreviaturas", "Números, horas y fechas", "Charla casual"],
-  media: ["Cine, series y jerga", "Expresiones idiomáticas", "Emociones y reacciones"],
-  skills: ["Trampas de pronunciación", "Phrasal verbs", "Expresiones idiomáticas", "Palabras esenciales", "Falsos amigos", "Make y do", "Incontables", "Cognados y acento"]
+  basics: ["Cumprimentos", "Apresentações", "Sobrevivência 1", "Sobrevivência 2", "Números, horas e datas"],
+  travel: ["Sobrevivência 1", "Sobrevivência 2", "Direções e transporte", "No restaurante", "Cafeteria e mercado", "Compras e pagamentos", "Números, horas e datas", "Viagens (aeroporto e hotel)", "Saúde e emergências"],
+  social: ["Cumprimentos", "Apresentações", "Bate-papo", "Emoções e reações", "Elogios e carinho", "Telefone e abreviações"],
+  work: ["Trabalho e e-mail", "Telefone e abreviações", "Números, horas e datas", "Bate-papo"],
+  media: ["Cinema, séries e gírias", "Expressões idiomáticas", "Emoções e reações"],
+  skills: ["Armadilhas de pronúncia", "Phrasal verbs", "Expressões idiomáticas", "Palavras essenciais", "Falsos cognatos", "Make e do", "Incontáveis", "Cognatos e sílaba tônica"]
 };
 
 exports.DESC = {
-  "Saludos": "Saludos y despedidas básicos, y cómo responder con naturalidad",
-  "Presentarse": "Decir tu nombre, de dónde eres, a qué te dedicas y tus aficiones, y preguntarle lo mismo a otra persona",
-  "Supervivencia 1": "Dar las gracias, disculparte y pedir que te repitan: lo imprescindible del primer día de viaje",
-  "Supervivencia 2": "Baño, precios, wifi, fotos: frases para usar en cuanto llegas",
-  "Direcciones y transporte": "Preguntar el camino, entender indicaciones y moverte en metro, autobús y taxi",
-  "En el restaurante": "De pedir mesa a pedir la cuenta: platos, alergias, pago y propina",
-  "Cafetería y tienda": "Pedir bebidas, cambiar tamaño u opciones, recibos y bolsas",
-  "Compras y pagos": "Mirar, probarte ropa, pedir tallas, pagar, devolver y cambiar",
-  "Números, horas y fechas": "Horas, fechas, precios y números grandes a la manera inglesa (con punto decimal)",
-  "Charla casual": "Romper el hielo y mantener la conversación: clima, fin de semana, aficiones",
-  "Emociones y reacciones": "Felicitar, sorprenderte, consolar y decir cómo te sientes",
-  "Cumplidos y afecto": "Hacer cumplidos, dar las gracias y acercarte a alguien con quien quieres más confianza",
-  "Trabajo y correo": "Frases para correos de trabajo, reuniones y cambios de horario",
-  "Teléfono y abreviaturas": "Inglés al teléfono y abreviaturas de chat como LOL, BRB y TBH",
-  "Viajes (aeropuerto y hotel)": "Migración, check-in, asientos, equipaje y peticiones en el hotel",
-  "Salud y emergencias": "Qué decir si te enfermas, te lastimas, pierdes algo o te roban",
-  "Phrasal verbs": "Los phrasal verbs que más usan los nativos, como pick up y figure out, en lugar del verbo culto",
-  "Trampas de pronunciación": "Ship/sheep, very/berry, shoes/choose, yet/jet, school sin «e», la -ed y el acento: los sonidos que más cuestan a los hispanohablantes",
-  "Expresiones idiomáticas": "Expresiones que no se entienden palabra por palabra, con su equivalente en español",
-  "Cine, series y jerga": "Expresiones actuales de series, música y redes sociales",
-  "Palabras esenciales": "Get, take, put, keep, enough, though, still, yet: palabras cortas que los nativos usan a cada rato y que no se parecen al español",
-  "Falsos amigos": "Actually, embarrassed, library, college: palabras que se parecen al español pero significan otra cosa",
-  "Make y do": "Las dos formas de «hacer»: make a mistake, make a decision, do homework, do the dishes",
-  "Incontables": "Advice, information, news, furniture, homework: se cuentan en español, pero en inglés no llevan -s ni a/an",
-  "Cognados y acento": "-tion = -ción, -ty = -dad, -ous = -oso, -ly = -mente: palabras que ya conoces, con el acento donde lo pone el inglés"
+  "Cumprimentos": "Cumprimentos e despedidas básicos, e como responder com naturalidade",
+  "Apresentações": "Dizer seu nome, de onde você é, o que faz e do que gosta, e perguntar o mesmo a outra pessoa",
+  "Sobrevivência 1": "Agradecer, pedir desculpas e pedir que repitam: o essencial do primeiro dia de viagem",
+  "Sobrevivência 2": "Banheiro, preços, wi-fi, fotos: frases para usar assim que você chega",
+  "Direções e transporte": "Perguntar o caminho, entender as indicações e andar de metrô, ônibus e táxi",
+  "No restaurante": "Da mesa à conta: pratos, alergias, pagamento e gorjeta",
+  "Cafeteria e mercado": "Pedir bebidas, trocar tamanho ou opções, recibos e sacolas",
+  "Compras e pagamentos": "Olhar, provar roupas, pedir tamanhos, pagar, devolver e trocar",
+  "Números, horas e datas": "Horas, datas, preços e números grandes do jeito inglês (com ponto decimal)",
+  "Bate-papo": "Quebrar o gelo e manter a conversa: clima, fim de semana, hobbies",
+  "Emoções e reações": "Parabenizar, se surpreender, consolar e dizer como você se sente",
+  "Elogios e carinho": "Fazer elogios, agradecer e se aproximar de alguém com quem você quer mais intimidade",
+  "Trabalho e e-mail": "Frases para e-mails de trabalho, reuniões, mudanças de horário e entrevistas de emprego",
+  "Telefone e abreviações": "Inglês ao telefone e abreviações de chat como LOL, BRB e TBH",
+  "Viagens (aeroporto e hotel)": "Imigração, check-in, assentos, bagagem e pedidos no hotel",
+  "Saúde e emergências": "O que dizer se você ficar doente, se machucar, perder algo ou for roubado",
+  "Phrasal verbs": "Os phrasal verbs que os nativos mais usam, como pick up e figure out, no lugar do verbo de origem latina",
+  "Armadilhas de pronúncia": "Ship/sheep, head/red, bad/bed, team/teen, cold/code, school sem «i» na frente, o -ed e a sílaba tônica: os sons que mais dão trabalho a quem fala português",
+  "Expressões idiomáticas": "Expressões que não se entendem palavra por palavra, com o equivalente em português",
+  "Cinema, séries e gírias": "Expressões atuais de séries, música e redes sociais",
+  "Palavras essenciais": "Get, take, put, keep, enough, though, still, yet: palavrinhas que os nativos usam o tempo todo e que não se parecem com o português",
+  "Falsos cognatos": "Actually, push, lunch, college, parents: palavras que se parecem com o português, mas significam outra coisa",
+  "Make e do": "As duas formas de «fazer»: make a mistake, make a decision, do homework, do the dishes",
+  "Incontáveis": "Advice, information, news, furniture, bread: em português se contam, mas em inglês não levam -s nem a/an",
+  "Cognatos e sílaba tônica": "-tion = -ção, -ty = -dade, -ous = -oso, -ly = -mente: palavras que você já conhece, com a sílaba tônica onde o inglês a põe"
 };
 
 /* goal keys (travel/work/social/media) are fixed by the engine */
 exports.GOALS = {
-  travel: { label: "Viajar", decks: ["Supervivencia 1", "Supervivencia 2", "Direcciones y transporte", "En el restaurante", "Cafetería y tienda", "Compras y pagos", "Viajes (aeropuerto y hotel)", "Salud y emergencias"] },
-  work: { label: "Trabajo", decks: ["Presentarse", "Trabajo y correo", "Teléfono y abreviaturas", "Números, horas y fechas", "Charla casual"] },
-  social: { label: "Amigos y citas", decks: ["Saludos", "Presentarse", "Charla casual", "Emociones y reacciones", "Cumplidos y afecto", "Teléfono y abreviaturas"] },
-  media: { label: "Cine, series y música", decks: ["Cine, series y jerga", "Expresiones idiomáticas", "Emociones y reacciones", "Phrasal verbs", "Trampas de pronunciación"] }
+  travel: { label: "Viajar", decks: ["Sobrevivência 1", "Sobrevivência 2", "Direções e transporte", "No restaurante", "Cafeteria e mercado", "Compras e pagamentos", "Viagens (aeroporto e hotel)", "Saúde e emergências"] },
+  work: { label: "Trabalho", decks: ["Apresentações", "Trabalho e e-mail", "Telefone e abreviações", "Números, horas e datas", "Bate-papo"] },
+  social: { label: "Amigos", decks: ["Cumprimentos", "Apresentações", "Bate-papo", "Emoções e reações", "Elogios e carinho", "Telefone e abreviações"] },
+  media: { label: "Séries e filmes", decks: ["Cinema, séries e gírias", "Expressões idiomáticas", "Emoções e reações", "Phrasal verbs", "Armadilhas de pronúncia"] }
 };
 
 exports.PLAN_PRESETS = {
-  trip: { label: "Preparar un viaje", weeks: 3, decks: ["Saludos", "Supervivencia 1", "Supervivencia 2", "Direcciones y transporte", "En el restaurante", "Cafetería y tienda", "Compras y pagos", "Números, horas y fechas", "Viajes (aeropuerto y hotel)", "Salud y emergencias"], lessons: ["pron", "polite", "prep", "numbers"] },
-  social: { label: "Hacer amigos en inglés", weeks: 6, decks: ["Saludos", "Presentarse", "Supervivencia 1", "Charla casual", "Emociones y reacciones", "Cumplidos y afecto", "Teléfono y abreviaturas", "Phrasal verbs", "Cine, series y jerga", "Expresiones idiomáticas"], lessons: ["pron", "articles", "be", "tense", "smalltalk", "phrasal", "idioms"] },
-  conv: { label: "Conversación en 90 días", weeks: 13, decks: "@path", lessons: "@all" }
+  trip: { label: "Preparar uma viagem", weeks: 3, decks: ["Cumprimentos", "Sobrevivência 1", "Sobrevivência 2", "Direções e transporte", "No restaurante", "Cafeteria e mercado", "Compras e pagamentos", "Números, horas e datas", "Viagens (aeroporto e hotel)", "Saúde e emergências"], lessons: ["pron", "polite", "prep", "numbers"] },
+  social: { label: "Fazer amigos em inglês", weeks: 6, decks: ["Cumprimentos", "Apresentações", "Sobrevivência 1", "Bate-papo", "Emoções e reações", "Elogios e carinho", "Telefone e abreviações", "Phrasal verbs", "Cinema, séries e gírias", "Expressões idiomáticas"], lessons: ["pron", "articles", "be", "tense", "smalltalk", "phrasal", "idioms"] },
+  conv: { label: "Conversação em 90 dias", weeks: 13, decks: "@path", lessons: "@all" }
 };
 
 /* native names for the shared level titles in gen.js (Beginner, Student, Talker, Traveler, Local, Pro, Master) */
-/* gender-neutral nouns on purpose (profile §10): no Viajero/Experto/Maestro that would agree with the user */
-exports.TITLES = ["Principiante", "Estudiante", "Hablante", "Trotamundos", "Local", "Profesional", "Leyenda"];
+/* common-gender nouns on purpose (profile §10): no title that must agree with the gender of the user */
+exports.TITLES = ["Iniciante", "Estudante", "Tagarela", "Viajante", "De casa", "Profissional", "Lenda"];
 
 /* native labels for the pause-screen phrase sets; gen.js prefixes the shared English label ("Compliment · ") */
-exports.PAUSE_LABELS = { compliment: "Cumplido", expression: "Expresión diaria", polite: "Cortesía", saying: "Refrán" };
+exports.PAUSE_LABELS = { compliment: "Elogio", expression: "Expressão do dia a dia", polite: "Cortesia", saying: "Ditado popular" };

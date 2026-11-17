@@ -1,0 +1,23 @@
+{
+  "lessons": {
+    "pron": "profile fr.md §8 pron: French sound traps (h dropped and added, th as s/z, word stress, ee/i, a/u, ch and j read the French way, il fait -> makes) replace the Spanish b/v, prothetic e, j/y items (checks 1-2, P1, P4, P5, P6 x, P7, P8, P10, P12 x)",
+    "false-friends": "profile fr.md §8 false-friends: Spanish-only traps (embarrassed/embarazada, pregnant, carpet/carpeta, success/exit) replaced by French false friends (disappointed/déçu, demand/demander, sympathetic/sympathique, coin, bookstore/librairie); Madrid/Mexico localised to Paris/France (check 0, check 1, P1, P4, P5, P8, P10, P11)"
+  },
+  "items": {
+    "articles#check0": "technical: es-en option 3 «(nada)» is Spanish text not caught by es cueTest; French «(rien)» (profile fr.md §8)",
+    "polite#check2": "technical: es-en options 0-1 are Spanish text not caught by es cueTest; French «base verbale» (profile fr.md §8)",
+    "numbers#check1": "technical: es-en options 2-3 are Spanish text not caught by es cueTest; French translation (profile fr.md §8)",
+    "numbers#check2": "technical: es-en options 0 and 2 are Spanish text not caught by es cueTest; French «un milliard», long scale (profile fr.md §8)",
+    "phrasal#check1": "technical: es-en options 0, 1, 3 are Spanish text not caught by es cueTest; French translation (profile fr.md §8)",
+    "idioms#check1": "technical: es-en options 0-2 are Spanish text not caught by es cueTest; French translation (profile fr.md §8)"
+  },
+  "decks": {
+    "1": "profile fr.md §9: I'm from Mexico. -> I'm from France.; I live in Lima. -> I live in Paris.",
+    "2": "profile fr.md §9: Do you speak Spanish? -> Do you speak French?",
+    "11": "profile fr.md §9: Your Spanish is really good! -> Your French is really good!",
+    "17": "profile fr.md §9: Spanish traps yet/jet, very/berry, vote/boat replaced in place by hair/air, cat/cut, eat/heat (h, TRAP/STRUT)",
+    "21": "profile fr.md §9: Faux amis rebuilt; embarrassed, pregnant, career, exit, success, carpet, constipated, bother replaced in place by disappointed, demand, lecture, rest, coin, large, sympathetic, journey"
+  },
+  "extraLessons": [],
+  "droppedLessons": []
+}

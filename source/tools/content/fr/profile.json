@@ -1,0 +1,29 @@
+{
+  "native": "fr",
+  "reference": "es",
+  "nativeNameEn": "French",
+  "name": {
+    "en": "English",
+    "fr": "anglais"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "standingRule": {
+    "kind": "verb-core",
+    "keywords": "sujet|auxiliaire|troisi[èe]me personne|(?<!d['’])accord",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Que mettre dans le trou ?",
+    "typeHintCue": " — utilise ces mots",
+    "cueTest": "[àâçéèêëîïôöùûüÿœæÀÂÇÉÈÊËÎÏÔÖÙÛÜŸŒÆ«»]|\\b([Dd]e|[Dd]u|[Dd]es|[Ll]e|[Ll]a|[Ll]es|[Uu]n|[Uu]ne|[Ee]t|[Oo]u|[Qq]ue|[Qq]u'|[Qq]ui|[Qq]uel|[Qq]uelle|[Qq]uels|[Qq]uelles|[Ss]ont|[Dd]ans|[Aa]vec|[Ss]ans|[Ee]n|[Aa]u|[Aa]ux|[Ss]ur|[Pp]as|[Mm]ais|[Cc]e|[Cc]es|[Cc]ette|[Ii]l|[Ee]lle|[Ii]ls|[Ee]lles|[Jj]e|[Tt]u|[Vv]ous|[Mm]ot|[Mm]ots|[Ff]orme|[Vv]erbe|[Tt]emps|[Tt]rou|[Vv]eut|[Dd]it|[Ss]ignifie|[Tt]raduis|[Cc]hoisis|[Uu]tilise|[Rr]emets|[Vv]oici|[Pp]rend|[Mm]anque)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "false-friends": "smalltalk",
+      "make-do": "to-ing"
+    }
+  }
+}

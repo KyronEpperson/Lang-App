@@ -1,0 +1,24 @@
+{
+  "lessons": {
+    "pron": "profile pt.md §8 pron: Brazilian sound traps (final consonants and epenthesis, r/h, final l, final m/n, t/d before i, th, ee/i, -ed) replace the Spanish b/v, sh/ch, j/y items (P1, P2, P4, P6 x, P8 o, P10, P12 x; checks 1-2 rewritten with IPA)",
+    "false-friends": "profile pt.md §8 false-friends: Spanish-only traps (embarrassed/embarazada, carpet/carpeta, success/éxito) replaced by Portuguese false cognates (pretend, push, parents); Madrid/Mexico localised to São Paulo/Brazil (check 0, check 1, P1, P4, P8, P10, P11)"
+  },
+  "items": {
+    "polite#check2": "technical: es-en option 0 is Spanish text not caught by es cueTest; Portuguese translation (profile pt.md §8)",
+    "numbers#check1": "technical: es-en options 2-3 are Spanish text not caught by es cueTest; Portuguese translation (profile pt.md §8)",
+    "numbers#check2": "technical: es-en options 0 and 2 are Spanish text not caught by es cueTest; Portuguese translation, short-scale bilhão (profile pt.md §8)",
+    "phrasal#check1": "technical: es-en options are Spanish text not caught by es cueTest; Portuguese translation (profile pt.md §8)",
+    "idioms#check1": "technical: es-en options are Spanish text not caught by es cueTest; Portuguese translation (profile pt.md §8)"
+  },
+  "decks": {
+    "1": "profile pt.md §9: I'm from Mexico. -> I'm from Brazil.; I live in Lima. -> I live in São Paulo.",
+    "2": "profile pt.md §9: Do you speak Spanish? -> Do you speak Portuguese?",
+    "11": "profile pt.md §9: Your Spanish is really good! -> Your Portuguese is really good!",
+    "17": "profile pt.md §9: Spanish traps shoes/choose, yet/jet, very/berry, vote/boat replaced in place by head/red, bad/bed, team/teen, cold/code",
+    "21": "profile pt.md §9: Falsos cognatos rebuilt; embarrassed, pregnant, career, carpet, constipated, bother replaced in place by push, pull, lunch, novel, exquisite, prejudice"
+  },
+  "extraLessons": [
+    "verb-prep"
+  ],
+  "droppedLessons": []
+}

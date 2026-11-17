@@ -1,30 +1,30 @@
 {
   "native": "pt",
   "reference": "es",
-  "nativeNameEn": "TODO English name of the language (used in the pack header comment)",
+  "nativeNameEn": "Brazilian Portuguese",
   "name": {
     "en": "English",
-    "pt": "TODO the word for \"English\" in pt"
+    "pt": "inglês"
   },
   "ttsLang": "en-US",
   "nativeScript": null,
-  "pron": "optional",
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
   "standingRule": {
-    "kind": "none",
-    "keywords": ""
+    "kind": "verb-core",
+    "keywords": "sujeito|auxiliar|terceira pessoa|concord[âa]ncia",
+    "flags": "i"
   },
   "labels": {
-    "mcBlankCue": "",
-    "typeHintCue": "",
-    "cueTest": null
+    "mcBlankCue": " O que vai no espaço?",
+    "typeHintCue": " — use estas palavras",
+    "cueTest": "[ãõçâêôàáéíóúÃÕÇÂÊÔÀÁÉÍÓÚ]|\\b([Dd]e|[Qq]ue|[Pp]ara|[Uu]ma|[Qq]ual|[Qq]uais|[Ff]rase|[Pp]alavras?|[Ss]ignifica|[Dd]iz|[Ff]orma|[Pp]assado|[Cc]orreta|[Cc]erta|[Rr]esposta|[Pp]ergunta|[Ee]spaço|[Ll]acuna|[Cc]omo|[Ee]le|[Ee]la|[Ee]les|[Ee]las|[Ee]u|[Tt]em|[Ss]eu|[Ss]ua|[Vv]ai|[Ii]sso|[Ee]sta|[Ee]ste|[Ee]stas|[Ee]stes|[Ee]scolha|[Ee]screva|[Cc]omplete|[Oo]rdene|[Tt]raduza|[Ee]m)\\b"
   },
-  "_help": {
-    "nativeScript": "regex source matching the learner's script (ja e.g. \"[\\\\u3040-\\\\u30ff\\\\u4e00-\\\\u9fff]\"); null when it is the Latin script (es): validators then require native strings to be non-empty and differ from the English",
-    "pron": "required | optional | none — policy for the card / {{ex:}} pron field (from docs/profiles/pt.md)",
-    "standingRule": "kind \"article-plural\" (keywords = regex the why must contain, ko: \"관사|복수\"), \"verb-core\" (es) or \"none\"; optional \"flags\": \"i\"; new kinds: validate.js STANDING_RULES",
-    "pronPattern": "optional regex every non-empty pron must fully match (e.g. katakana only for ja)",
-    "labels": "mcBlankCue / typeHintCue are appended by more/_dsl.js to mc questions / type hints that contain no native text (cueTest regex, else nativeScript; null = never). ko: {\"mcBlankCue\":\" 빈칸에 알맞은 것은?\",\"typeHintCue\":\" — 이 단어들로\"}",
-    "lessonOrder": "optional {\"after\": {\"<extra lesson id>\": \"<id it follows>\"}} — also list the id in deviations.json extraLessons",
-    "_help": "delete this _help block when done"
+  "lessonOrder": {
+    "after": {
+      "false-friends": "smalltalk",
+      "make-do": "to-ing",
+      "verb-prep": "make-do"
+    }
   }
 }

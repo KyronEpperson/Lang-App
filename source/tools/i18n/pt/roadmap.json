@@ -2,2551 +2,2551 @@
  "about": "Roadmap titles for pt. Fill every \"t\" (short, the way a course lesson title reads). \"ko\" and \"kind\" are reference only. Keep quoted target-language words (e.g. 감사합니다, ser/estar) as they are.",
  "road": {
   "Standard (Seoul) Korean": {
-   "t": "",
+   "t": "Coreano padrão (de Seul)",
    "ko": "표준어",
    "kind": "variant",
    "roadmap": "ko"
   },
   "Common order of Korean beginner courses (TTMIK, Sogang, How to Study Korean)": {
-   "t": "",
+   "t": "Ordem comum dos cursos de coreano para iniciantes (TTMIK, Sogang, How to Study Korean)",
    "ko": "한국어 초급 교재들의 공통 순서",
    "kind": "basis",
    "roadmap": "ko"
   },
   "Script and first words": {
-   "t": "",
+   "t": "Escrita e primeiras expressões",
    "ko": "글자와 첫 표현",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Hangul": {
-   "t": "",
+   "t": "Hangul",
    "ko": "한글",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Sound changes: why 감사합니다 sounds different": {
-   "t": "",
+   "t": "Mudanças de som: por que 감사합니다 soa diferente",
    "ko": "소리 변화: 비음화와 격음화",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Meeting people": {
-   "t": "",
+   "t": "Conhecer pessoas",
    "ko": "사람 만나기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Politeness in brief": {
-   "t": "",
+   "t": "Cortesia em resumo",
    "ko": "높임말 한눈에",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Nouns and things": {
-   "t": "",
+   "t": "Substantivos e coisas",
    "ko": "명사와 사물",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Nouns, 이에요/예요, 은/는": {
-   "t": "",
+   "t": "Substantivos, 이에요/예요, 은/는",
    "ko": "명사, 이에요/예요, 은/는",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "있어요/없어요, 이/가, place 에": {
-   "t": "",
+   "t": "있어요/없어요, 이/가 e 에 (lugar)",
    "ko": "있어요/없어요, 이/가, 장소 에",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Pronouns and first question words": {
-   "t": "",
+   "t": "Pronomes e as primeiras palavras interrogativas",
    "ko": "대명사와 의문사",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Two number systems": {
-   "t": "",
+   "t": "Os dois sistemas de numerais",
    "ko": "두 가지 숫자",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Counters and 주세요": {
-   "t": "",
+   "t": "Contadores e 주세요",
    "ko": "단위 명사와 주세요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Eating out": {
-   "t": "",
+   "t": "Comer fora",
    "ko": "식당에서",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Verbs and sentences": {
-   "t": "",
+   "t": "Verbos e frases",
    "ko": "동사와 문장",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Verbs: 다, stems and kinds": {
-   "t": "",
+   "t": "Verbos: 다, radicais e tipos",
    "ko": "동사: 다, 어간, 종류",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Present 요-form": {
-   "t": "",
+   "t": "Presente na forma 요",
    "ko": "현재 요-형",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Word order and 을/를": {
-   "t": "",
+   "t": "Ordem das palavras e 을/를",
    "ko": "어순과 을/를",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "에 vs 에서": {
-   "t": "",
+   "t": "에 vs 에서",
    "ko": "에 vs 에서",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Getting around": {
-   "t": "",
+   "t": "Locomoção",
    "ko": "길 찾기와 교통",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Past tense": {
-   "t": "",
+   "t": "Passado",
    "ko": "과거 시제",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "안 and -지 않아요": {
-   "t": "",
+   "t": "안 e -지 않아요",
    "ko": "안, -지 않아요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "도 and 만: also, only": {
-   "t": "",
+   "t": "도 e 만: também e só",
    "ko": "도와 만",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Putting sentences together": {
-   "t": "",
+   "t": "Juntar frases",
    "ko": "문장 만들기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Saying what you want": {
-   "t": "",
+   "t": "Dizer o que você quer",
    "ko": "원하는 것 말하기",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Want and like: -고 싶어요, 좋아해요": {
-   "t": "",
+   "t": "Querer e gostar: -고 싶어요, 좋아해요",
    "ko": "-고 싶어요, 좋아해요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Future: -(으)ㄹ 거예요": {
-   "t": "",
+   "t": "Futuro: -(으)ㄹ 거예요",
    "ko": "미래: -(으)ㄹ 거예요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Can and can't: -(으)ㄹ 수 있어요, 못": {
-   "t": "",
+   "t": "Poder e não poder: -(으)ㄹ 수 있어요, 못",
    "ko": "-(으)ㄹ 수 있어요, 못",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Have to: -아/어야 해요": {
-   "t": "",
+   "t": "Ter que: -아/어야 해요",
    "ko": "의무: -아/어야 해요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Making plans": {
-   "t": "",
+   "t": "Fazer planos",
    "ko": "약속 잡기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Titles and honorifics": {
-   "t": "",
+   "t": "Títulos e honoríficos",
    "ko": "호칭과 높임",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Asking politely": {
-   "t": "",
+   "t": "Pedir com educação",
    "ko": "공손하게 부탁하기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Honorific verbs": {
-   "t": "",
+   "t": "Verbos honoríficos",
    "ko": "높임 동사",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Longer sentences": {
-   "t": "",
+   "t": "Frases mais longas",
    "ko": "긴 문장",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Joining sentences: -고, -아/어서, -지만": {
-   "t": "",
+   "t": "Unir frases: -고, -아/어서, -지만",
    "ko": "문장 잇기: -고, -아/어서, -지만",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Telling a story in the past": {
-   "t": "",
+   "t": "Contar uma história no passado",
    "ko": "과거 이야기하기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Adjectives before nouns: -(으)ㄴ": {
-   "t": "",
+   "t": "Adjetivos antes de substantivos: -(으)ㄴ",
    "ko": "관형형: -(으)ㄴ",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Comparing: 보다 더, 제일": {
-   "t": "",
+   "t": "Comparar: 보다 더, 제일",
    "ko": "비교: 보다 더, 제일",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Office Korean: -(스)ㅂ니다": {
-   "t": "",
+   "t": "Coreano de escritório: -(스)ㅂ니다",
    "ko": "직장 한국어: -(스)ㅂ니다",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Texting and casual speech": {
-   "t": "",
+   "t": "Mensagens de texto e fala informal",
    "ko": "문자와 반말",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "General (American) English": {
-   "t": "",
+   "t": "Inglês geral (americano)",
    "ko": "미국식 영어",
    "kind": "variant",
    "roadmap": "en"
   },
   "CEFR A1-B1 order, adjusted for Korean speakers": {
-   "t": "",
+   "t": "Ordem do QECR A1–B1, adaptada para falantes de coreano",
    "ko": "CEFR A1-B1 순서 (한국어 화자에 맞게 조정)",
    "kind": "basis",
    "roadmap": "en"
   },
   "A1 · First sentences": {
-   "t": "",
+   "t": "A1 · Primeiras frases",
    "ko": "A1 · 첫 문장",
    "kind": "stage",
    "roadmap": "en"
   },
   "Pronunciation traps: R/L, F/P, TH": {
-   "t": "",
+   "t": "Armadilhas de pronúncia: R/L, F/P, TH",
    "ko": "발음 함정: R/L, F/P, TH",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "be, subject pronouns, every sentence needs a subject": {
-   "t": "",
+   "t": "be, pronomes sujeito, toda frase precisa de sujeito",
    "ko": "be동사, 주어 대명사, 주어는 꼭 필요",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "It's cold · there is / there are": {
-   "t": "",
+   "t": "It's cold · there is / there are",
    "ko": "It's cold · there is / there are",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "a / an and the: the basics": {
-   "t": "",
+   "t": "a / an e the: o básico",
    "ko": "a / an과 the 기초",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Plurals, this / these, my / your": {
-   "t": "",
+   "t": "Plurais, this / these, my / your",
    "ko": "복수 -s, this / these, my / your",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present simple and subject-verb-object": {
-   "t": "",
+   "t": "Presente simples e sujeito-verbo-objeto",
    "ko": "현재 시제와 주어-동사-목적어",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Questions: do, then question words": {
-   "t": "",
+   "t": "Perguntas: do e depois as palavras interrogativas",
    "ko": "의문문: do, 의문사",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "He/she/it: -s, does / doesn't": {
-   "t": "",
+   "t": "He/she/it: -s, does / doesn't",
    "ko": "3인칭 단수 -s, does / doesn't",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "at / in / on": {
-   "t": "",
+   "t": "at / in / on",
    "ko": "전치사 at / in / on",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Countable and uncountable: some, any, much, many": {
-   "t": "",
+   "t": "Contáveis e incontáveis: some, any, much, many",
    "ko": "셀 수 있는 명사: some, any, much, many",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "A1 · Doing things": {
-   "t": "",
+   "t": "A1 · Fazer coisas",
    "ko": "A1 · 행동 말하기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Object pronouns and have": {
-   "t": "",
+   "t": "Pronomes objeto e have",
    "ko": "목적격 대명사와 have",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "can, like + -ing, I'd like": {
-   "t": "",
+   "t": "can, like + -ing, I'd like",
    "ko": "can, like + -ing, I'd like",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present continuous vs present simple": {
-   "t": "",
+   "t": "Presente contínuo vs presente simples",
    "ko": "현재진행 vs 현재",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "was / were and regular past -ed": {
-   "t": "",
+   "t": "was / were e o passado regular em -ed",
    "ko": "was / were, 규칙 과거 -ed",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Irregular past, past questions": {
-   "t": "",
+   "t": "Passado irregular e perguntas no passado",
    "ko": "불규칙 과거, 과거 의문문",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "the: first vs second mention": {
-   "t": "",
+   "t": "the: primeira vs segunda menção",
    "ko": "the: 처음 말할 때와 다시 말할 때",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Adjectives, comparatives, superlatives": {
-   "t": "",
+   "t": "Adjetivos, comparativos e superlativos",
    "ko": "형용사, 비교급, 최상급",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "going to: plans": {
-   "t": "",
+   "t": "going to: planos",
    "ko": "going to: 계획",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "and, but, or, so, because": {
-   "t": "",
+   "t": "and, but, or, so, because",
    "ko": "and, but, or, so, because",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "A2 · Building range": {
-   "t": "",
+   "t": "A2 · Ampliar o repertório",
    "ko": "A2 · 표현 넓히기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Past continuous": {
-   "t": "",
+   "t": "Passado contínuo",
    "ko": "과거진행",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "will vs going to": {
-   "t": "",
+   "t": "will vs going to",
    "ko": "will vs going to",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present perfect: experience": {
-   "t": "",
+   "t": "Present perfect: experiência",
    "ko": "현재완료: 경험",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "have to, must, should, might": {
-   "t": "",
+   "t": "have to, must, should, might",
    "ko": "have to, must, should, might",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Verb + to or -ing": {
-   "t": "",
+   "t": "Verbo + to ou -ing",
    "ko": "동사 + to / -ing",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "the for one-of-a-kind, no article with plurals": {
-   "t": "",
+   "t": "the para coisas únicas, sem artigo com plurais",
    "ko": "유일한 것의 the, 복수의 무관사",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "First conditional: if": {
-   "t": "",
+   "t": "Primeiro condicional: if",
    "ko": "조건문 1: if",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "who / that: describing people and things": {
-   "t": "",
+   "t": "who / that: descrever pessoas e coisas",
    "ko": "관계대명사 who / that",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "B1 · Telling more": {
-   "t": "",
+   "t": "B1 · Contar mais",
    "ko": "B1 · 더 길게 말하기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Present perfect with for / since": {
-   "t": "",
+   "t": "Present perfect com for / since",
    "ko": "현재완료 for / since",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Narrative tenses": {
-   "t": "",
+   "t": "Tempos narrativos",
    "ko": "이야기 시제",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Second and third conditional": {
-   "t": "",
+   "t": "Segundo e terceiro condicional",
    "ko": "조건문 2, 3",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Passive": {
-   "t": "",
+   "t": "Voz passiva",
    "ko": "수동태",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Reported speech": {
-   "t": "",
+   "t": "Discurso indireto",
    "ko": "간접화법",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Standard (Tokyo) Japanese": {
-   "t": "",
+   "t": "Japonês padrão (de Tóquio)",
    "ko": "표준 일본어",
    "kind": "variant",
    "roadmap": "ja"
   },
   "JLPT N5 grammar, in Genki I lesson order": {
-   "t": "",
+   "t": "Gramática do JLPT N5, na ordem das lições do Genki I",
    "ko": "JLPT N5 문법, Genki I 순서",
    "kind": "basis",
    "roadmap": "ja"
   },
   "Script and sounds": {
-   "t": "",
+   "t": "Escrita e sons",
    "ko": "글자와 소리",
    "kind": "stage",
    "roadmap": "ja"
   },
   "Hiragana": {
-   "t": "",
+   "t": "Hiragana",
    "ko": "히라가나",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Katakana": {
-   "t": "",
+   "t": "Katakana",
    "ko": "가타카나",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Long vowels, small っ and pitch": {
-   "t": "",
+   "t": "Vogais longas, っ pequeno e altura tonal",
    "ko": "장음, 촉음 っ, 억양",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "First kanji: numbers, days, people": {
-   "t": "",
+   "t": "Primeiros kanji: números, dias, pessoas",
    "ko": "첫 한자: 숫자, 요일, 사람",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "First sentences": {
-   "t": "",
+   "t": "Primeiras frases",
    "ko": "첫 문장",
    "kind": "stage",
    "roadmap": "ja"
   },
   "X は Y です: A is B": {
-   "t": "",
+   "t": "X は Y です: A é B",
    "ko": "X は Y です: A는 B예요",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "これ・それ・あれ: this and that": {
-   "t": "",
+   "t": "これ・それ・あれ: este e aquele",
    "ko": "これ・それ・あれ: 이것, 그것, 저것",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "の and も: possession and also": {
-   "t": "",
+   "t": "の e も: posse e também",
    "ko": "の와 も: 소유와 '도'",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Verbs in ます form": {
-   "t": "",
+   "t": "Verbos na forma ます",
    "ko": "동사 ます형",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Particles を・に・で・へ": {
-   "t": "",
+   "t": "Partículas を・に・で・へ",
    "ko": "조사 を・に・で・へ",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "あります / います: there is": {
-   "t": "",
+   "t": "あります / います: existir, haver",
    "ko": "あります / います: 있어요",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Past: でした・ました": {
-   "t": "",
+   "t": "Passado: でした・ました",
    "ko": "과거: でした・ました",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "ませんか・ましょう: inviting": {
-   "t": "",
+   "t": "ませんか・ましょう: convidar",
    "ko": "ませんか・ましょう: 권유",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Describing and connecting": {
-   "t": "",
+   "t": "Descrever e conectar",
    "ko": "묘사와 연결",
    "kind": "stage",
    "roadmap": "ja"
   },
   "い and な adjectives": {
-   "t": "",
+   "t": "Adjetivos em い e な",
    "ko": "い형용사와 な형용사",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "好き / きらい: likes": {
-   "t": "",
+   "t": "好き / きらい: gostos",
    "ko": "好き / きらい: 좋아함과 싫어함",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Counting and counters": {
-   "t": "",
+   "t": "Contar e contadores",
    "ko": "숫자 세기와 조수사",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "The て-form": {
-   "t": "",
+   "t": "A forma て",
    "ko": "て형",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "てください・てもいい・てはいけません": {
-   "t": "",
+   "t": "てください・てもいい・てはいけません",
    "ko": "てください・てもいい・てはいけません",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "ている: doing right now": {
-   "t": "",
+   "t": "ている: fazendo agora",
    "ko": "ている: 진행과 상태",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Short forms and casual speech": {
-   "t": "",
+   "t": "Formas curtas e fala informal",
    "ko": "보통형과 반말",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "と思います・と言っていました": {
-   "t": "",
+   "t": "と思います・と言っていました",
    "ko": "と思います・と言っていました",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Toward N5": {
-   "t": "",
+   "t": "Rumo ao N5",
    "ko": "N5까지",
    "kind": "stage",
    "roadmap": "ja"
   },
   "Describing nouns with verbs": {
-   "t": "",
+   "t": "Descrever substantivos com verbos",
    "ko": "동사로 명사 꾸미기",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Comparing: より・いちばん": {
-   "t": "",
+   "t": "Comparar: より・いちばん",
    "ko": "비교: より・いちばん",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "つもり・なる: plans and changes": {
-   "t": "",
+   "t": "つもり・なる: planos e mudanças",
    "ko": "つもり・なる: 계획과 변화",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "たい: want to": {
-   "t": "",
+   "t": "たい: querer",
    "ko": "たい: 하고 싶어요",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "たことがある: experiences": {
-   "t": "",
+   "t": "たことがある: experiências",
    "ko": "たことがある: 경험",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "んです・ので: explaining": {
-   "t": "",
+   "t": "んです・ので: explicar",
    "ko": "んです・ので: 이유 설명",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "なければいけません・ほうがいい": {
-   "t": "",
+   "t": "なければいけません・ほうがいい",
    "ko": "なければいけません・ほうがいい: 의무와 조언",
    "kind": "lesson title",
    "roadmap": "ja"
   },
   "Mandarin, simplified characters": {
-   "t": "",
+   "t": "Mandarim, caracteres simplificados",
    "ko": "표준 중국어 (간체자)",
    "kind": "variant",
    "roadmap": "zh"
   },
   "HSK level 1-2 grammar": {
-   "t": "",
+   "t": "Gramática do HSK níveis 1–2",
    "ko": "HSK 1-2급 문법",
    "kind": "basis",
    "roadmap": "zh"
   },
   "Sounds and script": {
-   "t": "",
+   "t": "Sons e escrita",
    "ko": "소리와 글자",
    "kind": "stage",
    "roadmap": "zh"
   },
   "Pinyin: initials and finals": {
-   "t": "",
+   "t": "Pinyin: iniciais e finais",
    "ko": "병음: 성모와 운모",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Four tones and the neutral tone": {
-   "t": "",
+   "t": "Os quatro tons e o tom neutro",
    "ko": "4성과 경성",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Tone changes: 不, 一, third tone": {
-   "t": "",
+   "t": "Mudanças de tom: 不, 一, terceiro tom",
    "ko": "성조 변화: 不, 一, 3성",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "How characters work: strokes and radicals": {
-   "t": "",
+   "t": "Como funcionam os caracteres: traços e radicais",
    "ko": "한자의 원리: 획과 부수",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Pronouns and 们": {
-   "t": "",
+   "t": "Pronomes e 们",
    "ko": "대명사와 们",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "是: A is B": {
-   "t": "",
+   "t": "是: A é B",
    "ko": "是: A는 B예요",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Adjective sentences with 很": {
-   "t": "",
+   "t": "Frases com adjetivo e 很",
    "ko": "很을 쓰는 형용사 문장",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Questions with 吗 and 呢": {
-   "t": "",
+   "t": "Perguntas com 吗 e 呢",
    "ko": "吗와 呢 의문문",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Question words: 什么・谁・哪儿・几": {
-   "t": "",
+   "t": "Palavras interrogativas: 什么・谁・哪儿・几",
    "ko": "의문사: 什么・谁・哪儿・几",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Negation: 不 and 没": {
-   "t": "",
+   "t": "Negação: 不 e 没",
    "ko": "부정: 不와 没",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "的: possession and describing": {
-   "t": "",
+   "t": "的: posse e descrição",
    "ko": "的: 소유와 수식",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "有: have and there is": {
-   "t": "",
+   "t": "有: ter e haver",
    "ko": "有: 있어요",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Numbers, time and place": {
-   "t": "",
+   "t": "Números, tempo e lugar",
    "ko": "숫자, 시간, 장소",
    "kind": "stage",
    "roadmap": "zh"
   },
   "Numbers and money": {
-   "t": "",
+   "t": "Números e dinheiro",
    "ko": "숫자와 돈",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Measure words: 个・本・杯": {
-   "t": "",
+   "t": "Classificadores: 个・本・杯",
    "ko": "양사: 个・本・杯",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Time and dates": {
-   "t": "",
+   "t": "Hora e datas",
    "ko": "시간과 날짜",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "在: at, in, and location words": {
-   "t": "",
+   "t": "在: em e palavras de lugar",
    "ko": "在: 위치와 방위사",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Word order: who · when · where · verb": {
-   "t": "",
+   "t": "Ordem das palavras: quem · quando · onde · verbo",
    "ko": "어순: 누가 · 언제 · 어디서 · 동사",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Doing things": {
-   "t": "",
+   "t": "Fazer coisas",
    "ko": "행동 말하기",
    "kind": "stage",
    "roadmap": "zh"
   },
   "想・要・会・能: want and can": {
-   "t": "",
+   "t": "想・要・会・能: querer e poder",
    "ko": "想・要・会・能: 원함과 가능",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "了: completed and changed": {
-   "t": "",
+   "t": "了: ação concluída e mudança",
    "ko": "了: 완료와 변화",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "正在: doing right now": {
-   "t": "",
+   "t": "正在: fazendo agora",
    "ko": "正在: 진행",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Two verbs in a row: 去 + verb": {
-   "t": "",
+   "t": "Dois verbos seguidos: 去 + verbo",
    "ko": "연동문: 去 + 동사",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Verb-not-verb questions": {
-   "t": "",
+   "t": "Perguntas verbo-não-verbo",
    "ko": "정반 의문문",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "也・都・还: also, all, still": {
-   "t": "",
+   "t": "也・都・还: também, todos, ainda",
    "ko": "也・都・还",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "吧・别: suggestions and don't": {
-   "t": "",
+   "t": "吧・别: sugestões e proibições",
    "ko": "吧・别: 제안과 금지",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "和・还是: and, or": {
-   "t": "",
+   "t": "和・还是: e, ou",
    "ko": "和・还是",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Spanish of Spain": {
-   "t": "",
+   "t": "Espanhol da Espanha",
    "ko": "스페인 스페인어",
    "kind": "variant",
    "roadmap": "es"
   },
   "CEFR A1, Plan Curricular del Instituto Cervantes": {
-   "t": "",
+   "t": "QECR A1, Plan Curricular do Instituto Cervantes",
    "ko": "CEFR A1, 세르반테스 문화원 교육과정",
    "kind": "basis",
    "roadmap": "es"
   },
   "Sounds and first words": {
-   "t": "",
+   "t": "Sons e primeiras palavras",
    "ko": "소리와 첫 표현",
    "kind": "stage",
    "roadmap": "es"
   },
   "Alphabet, sounds and stress": {
-   "t": "",
+   "t": "Alfabeto, sons e sílaba tônica",
    "ko": "알파벳, 발음, 강세",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Greetings and introductions": {
-   "t": "",
+   "t": "Cumprimentos e apresentações",
    "ko": "인사와 자기소개",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Gender and number of nouns": {
-   "t": "",
+   "t": "Gênero e número dos substantivos",
    "ko": "명사의 성과 수",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "el / la, un / una": {
-   "t": "",
+   "t": "el / la, un / una",
    "ko": "관사 el / la, un / una",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Subject pronouns and ser": {
-   "t": "",
+   "t": "Pronomes sujeito e ser",
    "ko": "주어 대명사와 ser",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "estar: where and how": {
-   "t": "",
+   "t": "estar: onde e como",
    "ko": "estar: 위치와 상태",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "ser vs estar": {
-   "t": "",
+   "t": "ser vs estar",
    "ko": "ser vs estar",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "hay: there is": {
-   "t": "",
+   "t": "hay: haver",
    "ko": "hay: 있어요",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Present tense: -ar, -er, -ir": {
-   "t": "",
+   "t": "Presente: -ar, -er, -ir",
    "ko": "현재 시제: -ar, -er, -ir",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Question words": {
-   "t": "",
+   "t": "Palavras interrogativas",
    "ko": "의문사",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Numbers, time and prices": {
-   "t": "",
+   "t": "Números, hora e preços",
    "ko": "숫자, 시간, 가격",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Adjectives and agreement": {
-   "t": "",
+   "t": "Adjetivos e concordância",
    "ko": "형용사와 일치",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Possessives and demonstratives": {
-   "t": "",
+   "t": "Possessivos e demonstrativos",
    "ko": "소유사와 지시사",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Everyday life": {
-   "t": "",
+   "t": "Dia a dia",
    "ko": "일상",
    "kind": "stage",
    "roadmap": "es"
   },
   "Irregular present: tener, ir, hacer, querer": {
-   "t": "",
+   "t": "Presente irregular: tener, ir, hacer, querer",
    "ko": "불규칙 현재: tener, ir, hacer, querer",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "gustar and preferir": {
-   "t": "",
+   "t": "gustar e preferir",
    "ko": "gustar와 preferir",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Reflexive verbs and daily routine": {
-   "t": "",
+   "t": "Verbos reflexivos e rotina diária",
    "ko": "재귀동사와 하루 일과",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "a, de, en, con, por, para": {
-   "t": "",
+   "t": "a, de, en, con, por, para",
    "ko": "전치사 a, de, en, con, por, para",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "muy and mucho": {
-   "t": "",
+   "t": "muy e mucho",
    "ko": "muy와 mucho",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "y, o, pero, porque": {
-   "t": "",
+   "t": "y, o, pero, porque",
    "ko": "y, o, pero, porque",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Directions and places in town": {
-   "t": "",
+   "t": "Direções e lugares na cidade",
    "ko": "길 묻기와 장소",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "ir a + infinitive: plans": {
-   "t": "",
+   "t": "ir a + infinitivo: planos",
    "ko": "ir a + 동사원형: 계획",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Pretérito perfecto: what you've done": {
-   "t": "",
+   "t": "Pretérito perfecto: o que você já fez",
    "ko": "현재완료: 한 일 말하기",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "Impersonal se": {
-   "t": "",
+   "t": "O se impessoal",
    "ko": "무인칭 se",
    "kind": "lesson title",
    "roadmap": "es"
   },
   "French of France": {
-   "t": "",
+   "t": "Francês da França",
    "ko": "프랑스 프랑스어",
    "kind": "variant",
    "roadmap": "fr"
   },
   "CEFR A1-A2 key contents (France Éducation international)": {
-   "t": "",
+   "t": "Conteúdos-chave do QECR A1–A2 (France Éducation international)",
    "ko": "CEFR A1-A2 핵심 내용 (France Éducation international)",
    "kind": "basis",
    "roadmap": "fr"
   },
   "Sounds, silent letters and liaison": {
-   "t": "",
+   "t": "Sons, letras mudas e liaison",
    "ko": "발음, 묵음, 연음",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Greetings: tu and vous": {
-   "t": "",
+   "t": "Cumprimentos: tu e vous",
    "ko": "인사: tu와 vous",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Gender and articles: le / la, un / une": {
-   "t": "",
+   "t": "Gênero e artigos: le / la, un / une",
    "ko": "성과 관사: le / la, un / une",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "être and avoir": {
-   "t": "",
+   "t": "être e avoir",
    "ko": "être와 avoir",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Subject and stress pronouns: je, moi": {
-   "t": "",
+   "t": "Pronomes sujeito e tônicos: je, moi",
    "ko": "주어·강세 대명사: je, moi",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Present tense: -er verbs": {
-   "t": "",
+   "t": "Presente: verbos em -er",
    "ko": "현재 시제: -er 동사",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "ne … pas": {
-   "t": "",
+   "t": "ne … pas",
    "ko": "부정 ne … pas",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Questions: est-ce que, qui, où": {
-   "t": "",
+   "t": "Perguntas: est-ce que, qui, où",
    "ko": "의문문: est-ce que, qui, où",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "c'est and il y a": {
-   "t": "",
+   "t": "c'est e il y a",
    "ko": "c'est와 il y a",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Adjectives: agreement and place": {
-   "t": "",
+   "t": "Adjetivos: concordância e posição",
    "ko": "형용사: 일치와 위치",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "mon / ma, ce / cette": {
-   "t": "",
+   "t": "mon / ma, ce / cette",
    "ko": "소유·지시 형용사",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Numbers, time and dates": {
-   "t": "",
+   "t": "Números, hora e datas",
    "ko": "숫자, 시간, 날짜",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "du, de la, des: some": {
-   "t": "",
+   "t": "du, de la, des: algum, alguns",
    "ko": "부분관사 du, de la, des",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Prepositions of place and time": {
-   "t": "",
+   "t": "Preposições de lugar e de tempo",
    "ko": "장소·시간 전치사",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "aller, faire, venir, prendre": {
-   "t": "",
+   "t": "aller, faire, venir, prendre",
    "ko": "aller, faire, venir, prendre",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "vouloir, pouvoir, devoir + infinitive": {
-   "t": "",
+   "t": "vouloir, pouvoir, devoir + infinitivo",
    "ko": "vouloir, pouvoir, devoir + 동사원형",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Futur proche: je vais + verb": {
-   "t": "",
+   "t": "Futur proche: je vais + verbo",
    "ko": "근접미래: je vais + 동사",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Reflexive verbs": {
-   "t": "",
+   "t": "Verbos reflexivos",
    "ko": "대명동사",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Imperative and il faut": {
-   "t": "",
+   "t": "Imperativo e il faut",
    "ko": "명령법과 il faut",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Passé composé with avoir and être": {
-   "t": "",
+   "t": "Passé composé com avoir e être",
    "ko": "복합과거: avoir와 être",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "et, ou, mais, alors": {
-   "t": "",
+   "t": "et, ou, mais, alors",
    "ko": "et, ou, mais, alors",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "je voudrais: polite requests": {
-   "t": "",
+   "t": "je voudrais: pedidos educados",
    "ko": "je voudrais: 공손한 부탁",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "A2 · Next steps": {
-   "t": "",
+   "t": "A2 · Próximos passos",
    "ko": "A2 · 다음 단계",
    "kind": "stage",
    "roadmap": "fr"
   },
   "Imparfait vs passé composé": {
-   "t": "",
+   "t": "Imparfait vs passé composé",
    "ko": "반과거 vs 복합과거",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Futur simple": {
-   "t": "",
+   "t": "Futur simple",
    "ko": "단순미래",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Pronouns le, lui, en, y": {
-   "t": "",
+   "t": "Pronomes le, lui, en, y",
    "ko": "대명사 le, lui, en, y",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "Comparing: plus, moins, le plus": {
-   "t": "",
+   "t": "Comparar: plus, moins, le plus",
    "ko": "비교: plus, moins, le plus",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "qui, que, où": {
-   "t": "",
+   "t": "qui, que, où",
    "ko": "관계대명사 qui, que, où",
    "kind": "lesson title",
    "roadmap": "fr"
   },
   "German of Germany": {
-   "t": "",
+   "t": "Alemão da Alemanha",
    "ko": "독일 독일어",
    "kind": "variant",
    "roadmap": "de"
   },
   "Goethe-Zertifikat A1 grammar inventory": {
-   "t": "",
+   "t": "Inventário gramatical do Goethe-Zertifikat A1",
    "ko": "괴테 자격증 A1 문법 목록",
    "kind": "basis",
    "roadmap": "de"
   },
   "Alphabet, umlauts and ß": {
-   "t": "",
+   "t": "Alfabeto, trema e ß",
    "ko": "알파벳, 움라우트, ß",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Greetings: du and Sie": {
-   "t": "",
+   "t": "Cumprimentos: du e Sie",
    "ko": "인사: du와 Sie",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "sein and haben": {
-   "t": "",
+   "t": "sein e haben",
    "ko": "sein과 haben",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "der, die, das and plurals": {
-   "t": "",
+   "t": "der, die, das e plurais",
    "ko": "der, die, das와 복수",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Present tense": {
-   "t": "",
+   "t": "Presente",
    "ko": "현재 시제",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Verb in second place": {
-   "t": "",
+   "t": "O verbo em segunda posição",
    "ko": "동사는 두 번째 자리",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "W-questions and yes/no questions": {
-   "t": "",
+   "t": "Perguntas com palavra W e perguntas de sim ou não",
    "ko": "W-의문문과 예/아니오 의문문",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "nicht and kein": {
-   "t": "",
+   "t": "nicht e kein",
    "ko": "nicht와 kein",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Accusative: den, einen": {
-   "t": "",
+   "t": "Acusativo: den, einen",
    "ko": "4격: den, einen",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Pronouns: ich, mich, mir": {
-   "t": "",
+   "t": "Pronomes: ich, mich, mir",
    "ko": "대명사: ich, mich, mir",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "mein, dein, sein": {
-   "t": "",
+   "t": "mein, dein, sein",
    "ko": "소유관사 mein, dein, sein",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Modal verbs: können, müssen, wollen, möchten": {
-   "t": "",
+   "t": "Verbos modais: können, müssen, wollen, möchten",
    "ko": "화법조동사: können, müssen, wollen, möchten",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Separable verbs: aufstehen": {
-   "t": "",
+   "t": "Verbos separáveis: aufstehen",
    "ko": "분리동사: aufstehen",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "The sentence bracket": {
-   "t": "",
+   "t": "A moldura da frase",
    "ko": "문장 괄호 구조",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Dative: dem, der, mit, bei": {
-   "t": "",
+   "t": "Dativo: dem, der, mit, bei",
    "ko": "3격: dem, der, mit, bei",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Imperative: du, ihr, Sie": {
-   "t": "",
+   "t": "Imperativo: du, ihr, Sie",
    "ko": "명령법: du, ihr, Sie",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Perfekt: what happened": {
-   "t": "",
+   "t": "Perfekt: o que aconteceu",
    "ko": "현재완료: 과거 말하기",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "war and hatte": {
-   "t": "",
+   "t": "war e hatte",
    "ko": "war와 hatte",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Adjectives and comparing": {
-   "t": "",
+   "t": "Adjetivos e comparação",
    "ko": "형용사와 비교",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "und, oder, aber, denn, wenn": {
-   "t": "",
+   "t": "und, oder, aber, denn, wenn",
    "ko": "und, oder, aber, denn, wenn",
    "kind": "lesson title",
    "roadmap": "de"
   },
   "Brazilian Portuguese": {
-   "t": "",
+   "t": "Português do Brasil",
    "ko": "브라질 포르투갈어",
    "kind": "variant",
    "roadmap": "pt"
   },
   "University of São Paulo A1 programme for foreigners": {
-   "t": "",
+   "t": "Programa A1 da Universidade de São Paulo para estrangeiros",
    "ko": "상파울루 대학교 외국인 A1 과정",
    "kind": "basis",
    "roadmap": "pt"
   },
   "Alphabet and sounds: nasal vowels, ão, lh, nh": {
-   "t": "",
+   "t": "Alfabeto e sons: vogais nasais, ão, lh, nh",
    "ko": "알파벳과 발음: 비모음, ão, lh, nh",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Greetings and introductions: você": {
-   "t": "",
+   "t": "Cumprimentos e apresentações: você",
    "ko": "인사와 자기소개: você",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "ser: who you are": {
-   "t": "",
+   "t": "ser: quem você é",
    "ko": "ser: 나는 누구",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Gender and o / a, um / uma": {
-   "t": "",
+   "t": "Gênero e o / a, um / uma",
    "ko": "성과 관사 o / a, um / uma",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Everyday sentences": {
-   "t": "",
+   "t": "Frases do dia a dia",
    "ko": "일상 문장",
    "kind": "stage",
    "roadmap": "pt"
   },
   "estar, and ser vs estar": {
-   "t": "",
+   "t": "estar, e ser vs estar",
    "ko": "estar, ser vs estar",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "ter and tem: have, there is": {
-   "t": "",
+   "t": "ter e tem: ter, haver",
    "ko": "ter와 tem: 있어요",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Numbers, time and daily routine": {
-   "t": "",
+   "t": "Números, hora e rotina diária",
    "ko": "숫자, 시간, 하루 일과",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "no, na, do, da: contractions": {
-   "t": "",
+   "t": "no, na, do, da: contrações",
    "ko": "축약형 no, na, do, da",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Places and location words": {
-   "t": "",
+   "t": "Lugares e palavras de localização",
    "ko": "장소와 위치 표현",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "meu / minha, este / esse": {
-   "t": "",
+   "t": "meu / minha, este / esse",
    "ko": "소유사와 지시사",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "ir, fazer, querer, poder": {
-   "t": "",
+   "t": "ir, fazer, querer, poder",
    "ko": "ir, fazer, querer, poder",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "ir + infinitive: future": {
-   "t": "",
+   "t": "ir + infinitivo: futuro",
    "ko": "ir + 동사원형: 미래",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "gostar de: likes": {
-   "t": "",
+   "t": "gostar de: gostos",
    "ko": "gostar de: 좋아해요",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "estar + -ndo: right now": {
-   "t": "",
+   "t": "estar + -ndo: agora mesmo",
    "ko": "estar + -ndo: 진행",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Pretérito perfeito: past": {
-   "t": "",
+   "t": "Pretérito perfeito: passado",
    "ko": "완전과거",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Polite requests and commands": {
-   "t": "",
+   "t": "Pedidos educados e ordens",
    "ko": "공손한 부탁과 명령",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "e, mas, ou, porque": {
-   "t": "",
+   "t": "e, mas, ou, porque",
    "ko": "e, mas, ou, porque",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Getting around the city": {
-   "t": "",
+   "t": "Circular pela cidade",
    "ko": "도시에서 길 찾기",
    "kind": "lesson title",
    "roadmap": "pt"
   },
   "Standard Italian": {
-   "t": "",
+   "t": "Italiano padrão",
    "ko": "표준 이탈리아어",
    "kind": "variant",
    "roadmap": "it"
   },
   "CILS A1 syllabus (Università per Stranieri di Siena)": {
-   "t": "",
+   "t": "Programa CILS A1 (Università per Stranieri di Siena)",
    "ko": "CILS A1 실러버스 (시에나 외국인 대학교)",
    "kind": "basis",
    "roadmap": "it"
   },
   "Sounds: c / g, gli, gn, double consonants": {
-   "t": "",
+   "t": "Sons: c / g, gli, gn, consoantes duplas",
    "ko": "발음: c / g, gli, gn, 겹자음",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Greetings: tu and Lei": {
-   "t": "",
+   "t": "Cumprimentos: tu e Lei",
    "ko": "인사: tu와 Lei",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Articles: il, lo, la, un, una": {
-   "t": "",
+   "t": "Artigos: il, lo, la, un, una",
    "ko": "관사: il, lo, la, un, una",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "essere and avere": {
-   "t": "",
+   "t": "essere e avere",
    "ko": "essere와 avere",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Subject and object pronouns": {
-   "t": "",
+   "t": "Pronomes sujeito e objeto",
    "ko": "주어·목적어 대명사",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Present tense: -are, -ere, -ire": {
-   "t": "",
+   "t": "Presente: -are, -ere, -ire",
    "ko": "현재 시제: -are, -ere, -ire",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "c'è and ci sono": {
-   "t": "",
+   "t": "c'è e ci sono",
    "ko": "c'è와 ci sono",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Prepositions: a, di, da, in + article": {
-   "t": "",
+   "t": "Preposições: a, di, da, in + artigo",
    "ko": "전치사: a, di, da, in + 관사",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "andare, fare, venire, stare": {
-   "t": "",
+   "t": "andare, fare, venire, stare",
    "ko": "andare, fare, venire, stare",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "potere, dovere, volere": {
-   "t": "",
+   "t": "potere, dovere, volere",
    "ko": "potere, dovere, volere",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "piacere: likes": {
-   "t": "",
+   "t": "piacere: gostos",
    "ko": "piacere: 좋아해요",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Imperative and vorrei": {
-   "t": "",
+   "t": "Imperativo e vorrei",
    "ko": "명령법과 vorrei",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Passato prossimo": {
-   "t": "",
+   "t": "Passato prossimo",
    "ko": "근과거",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Adverbs of time, place and quantity": {
-   "t": "",
+   "t": "Advérbios de tempo, lugar e quantidade",
    "ko": "시간·장소·양의 부사",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "e, ma, perché, quando, se": {
-   "t": "",
+   "t": "e, ma, perché, quando, se",
    "ko": "e, ma, perché, quando, se",
    "kind": "lesson title",
    "roadmap": "it"
   },
   "Northern (Hanoi) Vietnamese": {
-   "t": "",
+   "t": "Vietnamita do norte (de Hanói)",
    "ko": "북부 (하노이) 베트남어",
    "kind": "variant",
    "roadmap": "vi"
   },
   "VNU-ULIS Vietnamese programme, levels A1-A2": {
-   "t": "",
+   "t": "Programa de vietnamita da VNU-ULIS, níveis A1–A2",
    "ko": "하노이 국립대 외국어대 베트남어 과정 A1-A2",
    "kind": "basis",
    "roadmap": "vi"
   },
   "Sounds and tones": {
-   "t": "",
+   "t": "Sons e tons",
    "ko": "소리와 성조",
    "kind": "stage",
    "roadmap": "vi"
   },
   "Alphabet and letter sounds": {
-   "t": "",
+   "t": "Alfabeto e sons das letras",
    "ko": "알파벳과 글자 소리",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "The six tones": {
-   "t": "",
+   "t": "Os seis tons",
    "ko": "6성조",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Syllables: initials, vowels, finals": {
-   "t": "",
+   "t": "Sílabas: iniciais, vogais e finais",
    "ko": "음절: 초성, 모음, 종성",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Long, short and double vowels": {
-   "t": "",
+   "t": "Vogais longas, curtas e duplas",
    "ko": "장모음, 단모음, 이중모음",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Greetings and kinship pronouns: anh, chị, em": {
-   "t": "",
+   "t": "Cumprimentos e pronomes de parentesco: anh, chị, em",
    "ko": "인사와 호칭 대명사: anh, chị, em",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "là: A is B": {
-   "t": "",
+   "t": "là: A é B",
    "ko": "là: A는 B예요",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Yes/no questions: … phải không?": {
-   "t": "",
+   "t": "Perguntas de sim ou não: … phải không?",
    "ko": "예/아니오 의문문: … phải không?",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Jobs and nationality": {
-   "t": "",
+   "t": "Profissões e nacionalidade",
    "ko": "직업과 국적",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "này, kia, đây, đó: this and that": {
-   "t": "",
+   "t": "này, kia, đây, đó: este e aquele",
    "ko": "này, kia, đây, đó",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Adjective sentences: rất, quá": {
-   "t": "",
+   "t": "Frases com adjetivo: rất, quá",
    "ko": "형용사 문장: rất, quá",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "ai, gì: who and what": {
-   "t": "",
+   "t": "ai, gì: quem e o quê",
    "ko": "ai, gì: 누구, 무엇",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "A1 · Numbers and actions": {
-   "t": "",
+   "t": "A1 · Números e ações",
    "ko": "A1 · 숫자와 행동",
    "kind": "stage",
    "roadmap": "vi"
   },
   "Numbers 1-100: mấy, bao nhiêu": {
-   "t": "",
+   "t": "Números de 1 a 100: mấy, bao nhiêu",
    "ko": "숫자 1-100: mấy, bao nhiêu",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "có: have and there is": {
-   "t": "",
+   "t": "có: ter e haver",
    "ko": "có: 있어요",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "của: possession": {
-   "t": "",
+   "t": "của: posse",
    "ko": "của: 소유",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "hơn: comparing": {
-   "t": "",
+   "t": "hơn: comparar",
    "ko": "hơn: 비교",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Verb sentences and time words: đã, đang, sẽ": {
-   "t": "",
+   "t": "Frases com verbo e palavras de tempo: đã, đang, sẽ",
    "ko": "동사 문장과 시제어: đã, đang, sẽ",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "ở, trên, dưới: location": {
-   "t": "",
+   "t": "ở, trên, dưới: localização",
    "ko": "ở, trên, dưới: 위치",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "A2 · Getting things done": {
-   "t": "",
+   "t": "A2 · Resolver as coisas",
    "ko": "A2 · 생활 표현",
    "kind": "stage",
    "roadmap": "vi"
   },
   "biết: know how to": {
-   "t": "",
+   "t": "biết: saber fazer",
    "ko": "biết: 할 줄 알아요",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "đã … chưa: yet?": {
-   "t": "",
+   "t": "đã … chưa: já?",
    "ko": "đã … chưa: 벌써?",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "đi, đến, về: going": {
-   "t": "",
+   "t": "đi, đến, về: ir e vir",
    "ko": "đi, đến, về: 이동",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Prices and shopping": {
-   "t": "",
+   "t": "Preços e compras",
    "ko": "가격과 쇼핑",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Directions and transport": {
-   "t": "",
+   "t": "Direções e transporte",
    "ko": "길 찾기와 교통",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Time, days and dates": {
-   "t": "",
+   "t": "Hora, dias e datas",
    "ko": "시간, 요일, 날짜",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "vì … nên: because, so": {
-   "t": "",
+   "t": "vì … nên: porque, então",
    "ko": "vì … nên: 이유와 결과",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Polite requests: xin, mời, nhé": {
-   "t": "",
+   "t": "Pedidos educados: xin, mời, nhé",
    "ko": "공손한 부탁: xin, mời, nhé",
    "kind": "lesson title",
    "roadmap": "vi"
   },
   "Central (Bangkok) Thai": {
-   "t": "",
+   "t": "Tailandês central (de Bangkok)",
    "ko": "중부 (방콕) 태국어",
    "kind": "variant",
    "roadmap": "th"
   },
   "University beginner Thai syllabus: speaking first, then reading": {
-   "t": "",
+   "t": "Programa universitário de tailandês para iniciantes: primeiro a fala, depois a leitura",
    "ko": "대학 초급 태국어 과정: 말하기 먼저, 그다음 읽기",
    "kind": "basis",
    "roadmap": "th"
   },
   "Sounds and survival": {
-   "t": "",
+   "t": "Sons e sobrevivência",
    "ko": "소리와 생존 표현",
    "kind": "stage",
    "roadmap": "th"
   },
   "The five tones": {
-   "t": "",
+   "t": "Os cinco tons",
    "ko": "5성조",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Sounds: aspiration, long and short vowels": {
-   "t": "",
+   "t": "Sons: aspiração, vogais longas e curtas",
    "ko": "발음: 기음, 장단 모음",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Greetings and ครับ / ค่ะ": {
-   "t": "",
+   "t": "Cumprimentos e ครับ / ค่ะ",
    "ko": "인사와 ครับ / ค่ะ",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Reading Thai": {
-   "t": "",
+   "t": "Ler tailandês",
    "ko": "태국 글자 읽기",
    "kind": "stage",
    "roadmap": "th"
   },
   "Consonants and the three classes": {
-   "t": "",
+   "t": "Consoantes e as três classes",
    "ko": "자음과 세 가지 자음군",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Vowels and where they sit": {
-   "t": "",
+   "t": "Vogais e onde ficam",
    "ko": "모음과 위치",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Final consonants: live and dead syllables": {
-   "t": "",
+   "t": "Consoantes finais: sílabas vivas e mortas",
    "ko": "받침: 생음절과 사음절",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Tone marks and tone rules": {
-   "t": "",
+   "t": "Marcas de tom e regras de tom",
    "ko": "성조 부호와 성조 규칙",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Clusters and leading consonants": {
-   "t": "",
+   "t": "Encontros consonantais e consoantes iniciais",
    "ko": "자음군과 선도 자음",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Special vowel rules and reading sentences": {
-   "t": "",
+   "t": "Regras especiais de vogais e leitura de frases",
    "ko": "특수 모음 규칙과 문장 읽기",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Pronouns and polite particles": {
-   "t": "",
+   "t": "Pronomes e partículas de cortesia",
    "ko": "대명사와 공손 어미",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "เป็น / คือ / อยู่: is, is at": {
-   "t": "",
+   "t": "เป็น / คือ / อยู่: ser, estar em",
    "ko": "เป็น / คือ / อยู่: 이다, 있다",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "ไม่ and ไหม: not, and yes/no questions": {
-   "t": "",
+   "t": "ไม่ e ไหม: negação e perguntas de sim ou não",
    "ko": "ไม่와 ไหม: 부정과 의문",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Classifiers: counting things": {
-   "t": "",
+   "t": "Classificadores: contar coisas",
    "ko": "분류사: 물건 세기",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Food, drink and taste": {
-   "t": "",
+   "t": "Comida, bebida e sabor",
    "ko": "음식, 음료, 맛",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Family and jobs": {
-   "t": "",
+   "t": "Família e profissões",
    "ko": "가족과 직업",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Describing and comparing: กว่า": {
-   "t": "",
+   "t": "Descrever e comparar: กว่า",
    "ko": "묘사와 비교: กว่า",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Telling time and daily routine": {
-   "t": "",
+   "t": "Dizer as horas e rotina diária",
    "ko": "시간과 하루 일과",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Time words: แล้ว, กำลัง, จะ": {
-   "t": "",
+   "t": "Palavras de tempo: แล้ว, กำลัง, จะ",
    "ko": "시제어: แล้ว, กำลัง, จะ",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "ได้ / อยาก: can and want": {
-   "t": "",
+   "t": "ได้ / อยาก: poder e querer",
    "ko": "ได้ / อยาก: 가능과 희망",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Directions, places and transport": {
-   "t": "",
+   "t": "Direções, lugares e transporte",
    "ko": "길 찾기, 장소, 교통",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Shopping: clothes and colours": {
-   "t": "",
+   "t": "Compras: roupas e cores",
    "ko": "쇼핑: 옷과 색",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Feelings and health": {
-   "t": "",
+   "t": "Sentimentos e saúde",
    "ko": "기분과 건강",
    "kind": "lesson title",
    "roadmap": "th"
   },
   "Standard Indonesian": {
-   "t": "",
+   "t": "Indonésio padrão",
    "ko": "표준 인도네시아어",
    "kind": "variant",
    "roadmap": "id"
   },
   "BIPA 1-2 (Indonesian for foreign speakers, seven levels)": {
-   "t": "",
+   "t": "BIPA 1–2 (indonésio para falantes estrangeiros, sete níveis)",
    "ko": "BIPA 1-2 (외국인을 위한 인도네시아어, 7단계)",
    "kind": "basis",
    "roadmap": "id"
   },
   "Alphabet and sounds": {
-   "t": "",
+   "t": "Alfabeto e sons",
    "ko": "알파벳과 발음",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Greetings by time of day": {
-   "t": "",
+   "t": "Cumprimentos conforme a hora do dia",
    "ko": "시간대별 인사",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Pronouns: saya, Anda, kamu, kami / kita": {
-   "t": "",
+   "t": "Pronomes: saya, Anda, kamu, kami / kita",
    "ko": "대명사: saya, Anda, kamu, kami / kita",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Introducing yourself": {
-   "t": "",
+   "t": "Apresentar-se",
    "ko": "자기소개",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "A is B, with no 'to be'": {
-   "t": "",
+   "t": "A é B, sem verbo ser",
    "ko": "be동사 없이 A는 B",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "ini, itu: this and that": {
-   "t": "",
+   "t": "ini, itu: este e aquele",
    "ko": "ini, itu: 이것, 저것",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "apa, siapa, di mana, kapan, berapa": {
-   "t": "",
+   "t": "apa, siapa, di mana, kapan, berapa",
    "ko": "의문사 apa, siapa, di mana, kapan, berapa",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "tidak and bukan": {
-   "t": "",
+   "t": "tidak e bukan",
    "ko": "tidak과 bukan",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Numbers, prices and time": {
-   "t": "",
+   "t": "Números, preços e hora",
    "ko": "숫자, 가격, 시간",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Noun + adjective order": {
-   "t": "",
+   "t": "Ordem substantivo + adjetivo",
    "ko": "명사 + 형용사 어순",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Possession: -ku, -mu, -nya": {
-   "t": "",
+   "t": "Posse: -ku, -mu, -nya",
    "ko": "소유: -ku, -mu, -nya",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "ada: there is, have": {
-   "t": "",
+   "t": "ada: haver, ter",
    "ko": "ada: 있어요",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "di, ke, dari": {
-   "t": "",
+   "t": "di, ke, dari",
    "ko": "전치사 di, ke, dari",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Family and personal details": {
-   "t": "",
+   "t": "Família e dados pessoais",
    "ko": "가족과 신상 정보",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "sudah, sedang, akan, belum": {
-   "t": "",
+   "t": "sudah, sedang, akan, belum",
    "ko": "시제어 sudah, sedang, akan, belum",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "The ber- prefix": {
-   "t": "",
+   "t": "O prefixo ber-",
    "ko": "접두사 ber-",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "The me- prefix": {
-   "t": "",
+   "t": "O prefixo me-",
    "ko": "접두사 me-",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "mau, bisa, harus, boleh": {
-   "t": "",
+   "t": "mau, bisa, harus, boleh",
    "ko": "mau, bisa, harus, boleh",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "yang: which, who": {
-   "t": "",
+   "t": "yang: que, quem",
    "ko": "yang: 관계사",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "The di- passive": {
-   "t": "",
+   "t": "A voz passiva com di-",
    "ko": "수동 di-",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "lebih, paling: comparing": {
-   "t": "",
+   "t": "lebih, paling: comparar",
    "ko": "lebih, paling: 비교",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Directions: junctions and places": {
-   "t": "",
+   "t": "Direções: cruzamentos e lugares",
    "ko": "길 찾기: 교차로와 장소",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Daily activities and shopping": {
-   "t": "",
+   "t": "Atividades diárias e compras",
    "ko": "일상과 쇼핑",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Plurals by repeating: buku-buku": {
-   "t": "",
+   "t": "Plurais por repetição: buku-buku",
    "ko": "반복 복수: buku-buku",
    "kind": "lesson title",
    "roadmap": "id"
   },
   "Modern Standard Hindi (Devanagari)": {
-   "t": "",
+   "t": "Hindi padrão moderno (devanágari)",
    "ko": "현대 표준 힌디어 (데바나가리)",
    "kind": "variant",
    "roadmap": "hi"
   },
   "University beginner Hindi, steps 1-2": {
-   "t": "",
+   "t": "Hindi universitário para iniciantes, etapas 1–2",
    "ko": "대학 초급 힌디어 1-2단계",
    "kind": "basis",
    "roadmap": "hi"
   },
   "Devanagari vowels and vowel signs": {
-   "t": "",
+   "t": "Vogais e sinais vocálicos do devanágari",
    "ko": "데바나가리 모음과 모음 부호",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Devanagari consonants": {
-   "t": "",
+   "t": "Consoantes do devanágari",
    "ko": "데바나가리 자음",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Conjuncts, nasal dots and reading words": {
-   "t": "",
+   "t": "Conjuntos consonantais, pontos nasais e leitura de palavras",
    "ko": "결합 자음, 비음 점, 단어 읽기",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Greetings and आप / तुम / तू": {
-   "t": "",
+   "t": "Cumprimentos e आप / तुम / तू",
    "ko": "인사와 आप / तुम / तू",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Step 1 · First sentences": {
-   "t": "",
+   "t": "Etapa 1 · Primeiras frases",
    "ko": "1단계 · 첫 문장",
    "kind": "stage",
    "roadmap": "hi"
   },
   "Pronouns and होना: is / am / are": {
-   "t": "",
+   "t": "Pronomes e होना: ser / estar",
    "ko": "대명사와 होना",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Gender and plurals": {
-   "t": "",
+   "t": "Gênero e plurais",
    "ko": "명사의 성과 복수",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Adjectives that agree": {
-   "t": "",
+   "t": "Adjetivos que concordam",
    "ko": "일치하는 형용사",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Question words: क्या, कौन, कहाँ": {
-   "t": "",
+   "t": "Palavras interrogativas: क्या, कौन, कहाँ",
    "ko": "의문사: क्या, कौन, कहाँ",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "नहीं: negation": {
-   "t": "",
+   "t": "नहीं: negação",
    "ko": "नहीं: 부정",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Postpositions: में, पर, से, को": {
-   "t": "",
+   "t": "Posposições: में, पर, से, को",
    "ko": "후치사: में, पर, से, को",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "The oblique case": {
-   "t": "",
+   "t": "O caso oblíquo",
    "ko": "사격",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "का / की / के and my, your": {
-   "t": "",
+   "t": "का / की / के e meu, seu",
    "ko": "का / की / के와 소유",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Requests and commands": {
-   "t": "",
+   "t": "Pedidos e ordens",
    "ko": "부탁과 명령",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "पसंद, चाहिए: like and need": {
-   "t": "",
+   "t": "पसंद, चाहिए: gostar e precisar",
    "ko": "पसंद, चाहिए: 좋아함과 필요",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Ordering food and shopping": {
-   "t": "",
+   "t": "Pedir comida e fazer compras",
    "ko": "음식 주문과 쇼핑",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Step 2 · Tenses": {
-   "t": "",
+   "t": "Etapa 2 · Tempos verbais",
    "ko": "2단계 · 시제",
    "kind": "stage",
    "roadmap": "hi"
   },
   "Present habitual: -ता है": {
-   "t": "",
+   "t": "Presente habitual: -ता है",
    "ko": "현재 습관: -ता है",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Continuous: रहा है": {
-   "t": "",
+   "t": "Contínuo: रहा है",
    "ko": "진행: रहा है",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "था / थी: was, used to": {
-   "t": "",
+   "t": "था / थी: era, costumava",
    "ko": "था / थी: 과거",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Having: के पास": {
-   "t": "",
+   "t": "Posse: के पास",
    "ko": "소유 표현: के पास",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Uses of the infinitive": {
-   "t": "",
+   "t": "Usos do infinitivo",
    "ko": "동사원형의 쓰임",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Past: completed actions and ने": {
-   "t": "",
+   "t": "Passado: ações concluídas e ने",
    "ko": "완료 과거와 ने",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Future tense": {
-   "t": "",
+   "t": "Futuro",
    "ko": "미래 시제",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "और, लेकिन, क्योंकि": {
-   "t": "",
+   "t": "और, लेकिन, क्योंकि",
    "ko": "और, लेकिन, क्योंकि",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Directions and travel": {
-   "t": "",
+   "t": "Direções e viagens",
    "ko": "길 찾기와 여행",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Daily routine and time phrases": {
-   "t": "",
+   "t": "Rotina diária e expressões de tempo",
    "ko": "하루 일과와 시간 표현",
    "kind": "lesson title",
    "roadmap": "hi"
   },
   "Modern Standard Arabic": {
-   "t": "",
+   "t": "Árabe padrão moderno",
    "ko": "현대 표준 아랍어",
    "kind": "variant",
    "roadmap": "ar"
   },
   "Alif Baa, then Al-Kitaab Part One chapters 1-5": {
-   "t": "",
+   "t": "Alif Baa e depois os capítulos 1–5 do Al-Kitaab, parte um",
    "ko": "Alif Baa 후 Al-Kitaab 1권 1-5과",
    "kind": "basis",
    "roadmap": "ar"
   },
   "Letters and sounds": {
-   "t": "",
+   "t": "Letras e sons",
    "ko": "글자와 소리",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Short and long vowels": {
-   "t": "",
+   "t": "Vogais curtas e longas",
    "ko": "단모음과 장모음",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Letter shapes: start, middle, end": {
-   "t": "",
+   "t": "Formas das letras: início, meio e fim",
    "ko": "글자 모양: 처음, 중간, 끝",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Sukūn and shadda": {
-   "t": "",
+   "t": "Sukūn e shadda",
    "ko": "수쿤과 샷다",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Hamza, alif maqṣūra and tanwīn": {
-   "t": "",
+   "t": "Hamza, alif maqṣūra e tanwīn",
    "ko": "함자, 알리프 막수라, 탄윈",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "ال and sun / moon letters": {
-   "t": "",
+   "t": "ال e letras solares e lunares",
    "ko": "ال과 태양 / 달 문자",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Greetings and leave-taking": {
-   "t": "",
+   "t": "Cumprimentos e despedidas",
    "ko": "만남과 헤어짐 인사",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Masculine and feminine: ة": {
-   "t": "",
+   "t": "Masculino e feminino: ة",
    "ko": "남성과 여성: ة",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Pronouns: أنا, أنتَ, هو, هي": {
-   "t": "",
+   "t": "Pronomes: أنا, أنتَ, هو, هي",
    "ko": "대명사: أنا, أنتَ, هو, هي",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Sentences with no 'is'": {
-   "t": "",
+   "t": "Frases sem verbo ser",
    "ko": "be동사 없는 명사문",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Definite and indefinite": {
-   "t": "",
+   "t": "Definido e indefinido",
    "ko": "한정과 비한정",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Nisba adjectives: where you're from": {
-   "t": "",
+   "t": "Adjetivos de nisba: de onde você é",
    "ko": "니스바 형용사: 출신 말하기",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Question words: ما, من, أين, هل": {
-   "t": "",
+   "t": "Palavras interrogativas: ما, من, أين, هل",
    "ko": "의문사: ما, من, أين, هل",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Numbers": {
-   "t": "",
+   "t": "Números",
    "ko": "숫자",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Building sentences": {
-   "t": "",
+   "t": "Construir frases",
    "ko": "문장 만들기",
    "kind": "stage",
    "roadmap": "ar"
   },
   "Iḍāfa: the X of Y": {
-   "t": "",
+   "t": "Iḍāfa: o X de Y",
    "ko": "이다파: Y의 X",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Possessive endings: ـي, ـكَ, ـه": {
-   "t": "",
+   "t": "Terminações possessivas: ـي, ـكَ, ـه",
    "ko": "소유 접미사: ـي, ـكَ, ـه",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Noun + adjective agreement": {
-   "t": "",
+   "t": "Concordância de substantivo + adjetivo",
    "ko": "명사 + 형용사 일치",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Plurals: sound and broken": {
-   "t": "",
+   "t": "Plurais: regulares e irregulares",
    "ko": "복수: 규칙과 불규칙",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Present-tense verbs": {
-   "t": "",
+   "t": "Verbos no presente",
    "ko": "현재 동사",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Verb sentences and word order": {
-   "t": "",
+   "t": "Frases com verbo e ordem das palavras",
    "ko": "동사문과 어순",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Negating the present: لا": {
-   "t": "",
+   "t": "Negar o presente: لا",
    "ko": "현재 부정: لا",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Adverbs and time words": {
-   "t": "",
+   "t": "Advérbios e palavras de tempo",
    "ko": "부사와 시간 표현",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "عند: to have": {
-   "t": "",
+   "t": "عند: ter",
    "ko": "عند: 가지고 있어요",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Past-tense verbs": {
-   "t": "",
+   "t": "Verbos no passado",
    "ko": "과거 동사",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Roots and patterns": {
-   "t": "",
+   "t": "Raízes e padrões",
    "ko": "어근과 패턴",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Asking for help and directions": {
-   "t": "",
+   "t": "Pedir ajuda e direções",
    "ko": "도움 청하기와 길 묻기",
    "kind": "lesson title",
    "roadmap": "ar"
   },
   "Standard Russian": {
-   "t": "",
+   "t": "Russo padrão",
    "ko": "표준 러시아어",
    "kind": "variant",
    "roadmap": "ru"
   },
   "TORFL Elementary (A1) state standard": {
-   "t": "",
+   "t": "Padrão estatal TORFL Elementar (A1)",
    "ko": "토르플 기초 (A1) 국가 표준",
    "kind": "basis",
    "roadmap": "ru"
   },
   "The Cyrillic alphabet": {
-   "t": "",
+   "t": "O alfabeto cirílico",
    "ko": "키릴 문자",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Hard and soft, voiced and voiceless": {
-   "t": "",
+   "t": "Consoantes duras e brandas, sonoras e surdas",
    "ko": "경음과 연음, 유성과 무성",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Stress and vowel reduction": {
-   "t": "",
+   "t": "Sílaba tônica e redução vocálica",
    "ko": "강세와 모음 약화",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Intonation: statements and questions": {
-   "t": "",
+   "t": "Entonação: afirmações e perguntas",
    "ko": "억양: 평서문과 의문문",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Greetings: ты and вы": {
-   "t": "",
+   "t": "Cumprimentos: ты e вы",
    "ko": "인사: ты와 вы",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Это: this is, with no 'is'": {
-   "t": "",
+   "t": "Это: isto é, sem verbo ser",
    "ko": "Это: be동사 없이 '이것은'",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Gender of nouns": {
-   "t": "",
+   "t": "Gênero dos substantivos",
    "ko": "명사의 성",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Personal and possessive pronouns": {
-   "t": "",
+   "t": "Pronomes pessoais e possessivos",
    "ko": "인칭·소유 대명사",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Plurals": {
-   "t": "",
+   "t": "Plurais",
    "ko": "복수",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Present tense: two conjugations": {
-   "t": "",
+   "t": "Presente: duas conjugações",
    "ko": "현재 시제: 1식과 2식 변화",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Question words: кто, что, где": {
-   "t": "",
+   "t": "Palavras interrogativas: кто, что, где",
    "ko": "의문사: кто, что, где",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "не and нет": {
-   "t": "",
+   "t": "не e нет",
    "ko": "не와 нет",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "The six cases": {
-   "t": "",
+   "t": "Os seis casos",
    "ko": "6격",
    "kind": "stage",
    "roadmap": "ru"
   },
   "Prepositional: where, about": {
-   "t": "",
+   "t": "Preposicional: onde, sobre",
    "ko": "전치격: 장소, ~에 대해",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Accusative: objects and direction": {
-   "t": "",
+   "t": "Acusativo: objetos e direção",
    "ko": "대격: 목적어와 방향",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Genitive: possession, absence, quantity": {
-   "t": "",
+   "t": "Genitivo: posse, ausência, quantidade",
    "ko": "생격: 소유, 부재, 수량",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "У меня есть: to have": {
-   "t": "",
+   "t": "У меня есть: ter",
    "ko": "У меня есть: 가지고 있어요",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Dative: to whom, age, need": {
-   "t": "",
+   "t": "Dativo: a quem, idade, necessidade",
    "ko": "여격: 받는 사람, 나이, 필요",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Instrumental: with, profession": {
-   "t": "",
+   "t": "Instrumental: com, profissão",
    "ko": "조격: 함께, 직업",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Adjectives agree": {
-   "t": "",
+   "t": "Concordância dos adjetivos",
    "ko": "형용사 일치",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Verbs in time": {
-   "t": "",
+   "t": "Verbos no tempo",
    "ko": "동사와 시간",
    "kind": "stage",
    "roadmap": "ru"
   },
   "Aspect: imperfective and perfective": {
-   "t": "",
+   "t": "Aspecto: imperfectivo e perfectivo",
    "ko": "상: 불완료와 완료",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Verbs of motion: идти / ехать": {
-   "t": "",
+   "t": "Verbos de movimento: идти / ехать",
    "ko": "운동 동사: идти / ехать",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "Imperative": {
-   "t": "",
+   "t": "Imperativo",
    "ko": "명령법",
    "kind": "lesson title",
    "roadmap": "ru"
   },
   "и, а, но, потому что": {
-   "t": "",
+   "t": "и, а, но, потому что",
    "ko": "и, а, но, потому что",
    "kind": "lesson title",
    "roadmap": "ru"

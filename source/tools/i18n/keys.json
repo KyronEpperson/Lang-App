@@ -1018,8 +1018,8 @@
    "key": "Type",
    "kind": "label",
    "section": "feedback tab",
-   "where": "html <button> text",
-   "context": "feedback form: category radio-group label (\"kind of feedback\"), not the verb"
+   "where": "quiz mode chip (verb: type the answer), e.g. \"⌨️ Type EN\"",
+   "context": "a verb meaning \"type on the keyboard\", not \"kind\""
   },
   {
    "key": "💡 Idea",

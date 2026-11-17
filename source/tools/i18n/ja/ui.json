@@ -1016,8 +1016,7 @@
    "t": "入力",
    "ko": "입력",
    "kind": "label",
-   "context": "feedback form: category radio-group label (\"kind of feedback\"), not the verb",
-   "where": "html <button> text"
+   "where": "quiz mode chip (verb: type the answer)"
   },
   "💡 Idea": {
    "t": "💡 アイデア",
