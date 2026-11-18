@@ -3,9 +3,9 @@
    Checks BOTH edges with element rects (in RTL, overflow goes left and scrollWidth can miss it), skipping anything inside a horizontal scroller.
    Writes screenshots rtl-<lang>-<name>.png into the directory given by RTL_OUT (default: cwd). Exit 1 on any overflow or page error. */
 const {chromium}=require('playwright');const path=require('path');
-(async()=>{const L=process.argv[2]||'hi',force=process.argv[3]==='force',OUT=process.env.RTL_OUT||process.cwd();
+(async()=>{const L=process.argv[2]||'hi',force=process.argv[3]==='force',OUT=process.env.RTL_OUT||process.cwd(),CRS=process.env.RTL_COURSE||(L+'-en'); /* RTL_COURSE=hi-en lays another course out under this interface language */
 const b=await chromium.launch();const c=await b.newContext({viewport:{width:390,height:800},deviceScaleFactor:1,colorScheme:'light',reducedMotion:'reduce'});const p=await c.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));await p.route(/supabase|fonts\.g/,r=>r.abort());
-await p.addInitScript(([l,f])=>{if(f)localStorage.setItem('la-rtl','1');localStorage.setItem('la-meta',JSON.stringify({v:1,native:l,course:l+'-en',picked:1,seenHome:1,prefs:{welcomed:1,nick:'K'}}));localStorage.setItem('la-s-'+l+'-en',JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false,free:1,xp:120,lessons:{pron:1,be:1}}));},[L,force]);
+await p.addInitScript(([l,f,cr])=>{if(f)localStorage.setItem('la-rtl','1');localStorage.setItem('la-meta',JSON.stringify({v:1,native:l,course:cr,picked:1,seenHome:1,prefs:{welcomed:1,nick:'K'}}));localStorage.setItem('la-s-'+cr,JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false,free:1,xp:120,lessons:{pron:1,be:1}}));},[L,force,CRS]);
 await p.goto('file:///home/claude/korean-flashcards.html');await p.waitForFunction(()=>{try{return typeof COURSE!=='undefined'&&!!COURSE&&LESSONS.length>0;}catch(e){return false;}},null,{timeout:30000});await p.waitForTimeout(700);
 await p.evaluate(()=>{['fxIntro','welcome','langHome'].forEach(i=>{const e=document.getElementById(i);if(e)e.remove();});});
 const dir=await p.evaluate(()=>document.documentElement.dir+' lang='+document.documentElement.lang+' course='+COURSE.id);console.log('dir='+dir);

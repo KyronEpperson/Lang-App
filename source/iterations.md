@@ -893,3 +893,10 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - New `tools/site/rtl.js <lang> [force]`: 19 surfaces at 390px (today, review front/back, lesson list, lesson body, table, example rows, check, the four practice item types, practice, drills, progress ×3, feedback, privacy), checking both edges by element rect. Forced on the Hindi course: 19 PASS.
 - No change for left-to-right languages: before/after screenshots of ja, de, hi, th are pixel-identical except the time-of-day greeting and the randomly drawn review card. Harness 66 guards, site test 24 PASS.
 - Also: `e2e_en.js` now waits for the course to load instead of a fixed delay (the cause of the intermittent "COURSE is not defined"); Thai uses `overflow-wrap:break-word` instead of `anywhere`.
+
+## Right-to-left proof with the Arabic interface (2.21.2)
+- Arabic profile `docs/profiles/ar.md` (Modern Standard Arabic, no gendered address, IPA aid, label-colon-number counts, Western digits and Gregorian dates; two Arabic-only lessons `be-2` and `arabic-traps`). Arabic interface text written (769 + 272 + 425), not shipped: Arabic stays locked until the course is reviewed.
+- Proof: the Arabic interface over stand-in course content passes `tools/site/rtl.js ar` on all 19 surfaces, and the first screens mirror for an Arabic browser. Screenshots checked by eye.
+- Engine fixes found by the proof: filled pattern slots are wrapped in first-strong isolates for right-to-left languages; the review-interval line drops its Latin unit letter and uses a leftward arrow; Arabic numbers use the body font (the monospace fallback breaks Arabic shaping); `uiDir()` follows the browser language before a language is picked.
+- Site description updated to "English for speakers of 13 languages".
+- Known: with Arabic packs present the harness guard `lockedDisabled` fails because no language is left locked; the guard must be rewritten when Arabic ships.

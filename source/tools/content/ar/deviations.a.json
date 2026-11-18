@@ -1,0 +1,16 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "التعريف بالنفس": "localisation per profile ar.md §9 (Minji→Sara, Korea→Egypt, Seoul→Dubai): cards 0 'My name is Sara.', 4 'I'm from Egypt.', 5 'I live in Dubai.'",
+    "عبارات أساسية 1": "localisation per profile ar.md §9: card 12 'Do you speak Korean?' → 'Do you speak Arabic?' (learner's own language)",
+    "دردشة يومية": "localisation per profile ar.md §9 (countries rotate): card 6 'Have you been to Korea?' → 'Have you been to Morocco?'",
+    "المجاملات والإعجاب": "localisation per profile ar.md §9: card 8 'Your Korean is really good!' → 'Your Arabic is really good!'",
+    "الهاتف واختصارات الرسائل": "localisation per profile ar.md §9 (Minji→Sara, Mr. Kim→Mr. Haddad): cards 0 'Hello, this is Sara.', 1 'Can I speak to Mr. Haddad?'",
+    "السفر (المطار والفندق)": "localisation per profile ar.md §9: card 8 reservation name 'under Kim' → 'under Haddad' (surname)",
+    "المستشفى والطوارئ": "localisation per profile ar.md §9 (countries rotate): card 15 'the Korean embassy' → 'the Saudi embassy' (learner's own embassy)",
+    "فخاخ النطق": "ar-only cards appended per profile ar.md §4.13 / §9 (cards 26–45): p/b park, bark, pull, bull, pen, Ben, pie, buy; v/f ferry, van (very and fan already exist); hard vowels bit, bet, cat, cut; clusters street, spring, asked; ŋ singing; silent letters Wednesday, listen. Original 26 cards unchanged",
+    "فخاخ الترجمة الحرفية": "ar-only deck (profile ar.md §4.12 / §8 arabic-traps / §9): 24 cards of word-for-word translations and false friends from Arabic, each note naming the Arabic source; linked to the ar-only lesson arabic-traps; no ko-en counterpart. Profile's list adjusted to avoid duplicate targets: 'I'm thirty years old.' (deck 2 already has 'I'm 25 years old.'), 'This class is boring.' only ('I'm bored.' is in deck 11), 'Take care.' and 'Excuse me.' dropped (decks 1 and 3); added 'She's very sensitive.', 'I attended the meeting.', 'I have a cold.'",
+    "count": "deck count 21 vs ko-en 20: ar-only deck فخاخ الترجمة الحرفية (profile ar.md §9) appended last"
+  }
+}
