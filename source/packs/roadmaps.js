@@ -30,7 +30,7 @@ LANGAPP_PACKS.roadmaps = {
         ["ko-noun-modifiers", "Adjectives before nouns: -(으)ㄴ", "관형형: -(으)ㄴ", "noun-modifiers"], ["ko-compare", "Comparing: 보다 더, 제일", "비교: 보다 더, 제일", "compare"],
         ["ko-office", "Office Korean: -(스)ㅂ니다", "직장 한국어: -(스)ㅂ니다", "office"], ["ko-texting", "Texting and casual speech", "문자와 반말", "texting"] ] } ] },
 
-  en: { variant: {en: "General (American) English", ko: "미국식 영어"}, basis: {en: "CEFR A1-B1 order, adjusted for Korean speakers", ko: "CEFR A1-B1 순서 (한국어 화자에 맞게 조정)"},
+  en: { variant: {en: "General (American) English", ko: "미국식 영어"}, basis: {en: "CEFR A1-B1 order, adjusted for Korean speakers", ko: "CEFR A1-B1 순서 (한국어 화자에 맞게 조정)"}, basisAny: "CEFR A1–B1", /* shown to learners who are not Korean speakers, for whom "adjusted for Korean speakers" is wrong */
     src: ["British Council / EAQUALS Core Inventory (subset)", "English Result Elementary syllabus", "reports/Grammar learning order research.md"], note: "Synthesis from the research report; the English Grammar Profile itself was not retrieved.",
     stages: [
       { en: "A1 · First sentences", ko: "A1 · 첫 문장", items: [

@@ -915,3 +915,9 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Also: the course-row chevron flips; the English row in the picker is no longer forced left-to-right; canvases (share cards, charts) keep left-to-right coordinates so text cannot start off-canvas in a right-to-left page.
 - Read by eye in Arabic: a daily session (new card, quiz), the share card canvas, the picker, the first screen. Not opened: settings sheet, search results, role-play dialog.
 - `ship.sh` now runs `rtl.js ar` and `rtl_site.js` and refuses to ship on a failure. Evidence: rtl 19 PASS, rtl_site 19 PASS, harness 67 guards, site test 24 PASS, ja/de screenshots unchanged.
+
+## Drawn flags (2.22.2)
+- Flag emoji show as two letters on Windows, so the app now draws its own flags: 15 inline SVG flags (`FLAG_ART`, `FLG(code)`) in the header button, the course row and the language picker (rows, course rows, locked tiles), with a hairline edge so white flags read in dark mode. Emoji stay in plain-text spots (share text, titles).
+- The roadmap note no longer says "adjusted for Korean speakers" to learners who are not Korean speakers (`basisAny`).
+- Korean-target roadmap checked: 33 items, 0 unbuilt, so "build out the planned Korean lessons" was already complete.
+- Evidence: harness 67 guards, site test, both right-to-left checks; picker screenshot read in light and dark.
