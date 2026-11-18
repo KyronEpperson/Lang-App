@@ -28,9 +28,12 @@ farmacìa pizzerìa gelaterìa trattorìa osterìa polizìa librerìa gallerìa 
 lavanderìa cartolerìa profumerìa birrerìa segreterìa compagnìa bugìa energìa allergìa fotografìa geografìa filosofìa economìa
 malattìa gelosìa nostalgìa magìa aèreo aèrei rïunione rïunioni fattorìa suì accòmodi accòmodati vìe düecento lombardìa scrivanìa turchìa normandìa albanìa romanìa còmodo còmoda còmodi còmode scòmodo scòmoda mètodo perìodo càvolo càvoli uòmini cìnema frigorìfero
 scïare scïatore paùra ʣàïno
+àngolo àngoli còmpiti còmpito figùrati orìgine orìgini sìngola sìngolo sìngole sìngoli sòlito sòlita bàncomat prènderlo prènderla prènderli prènderle lèggerlo lèggerla conòscerlo conòscerla conòscerti guàrdalo guàrdala prèndilo prèndila ascòltami ascòltalo nàscono nàscere psicòlogo psicòloga dìmmi dàmmi scrìvimi telèfonami
 ʣero ʣona ʣebra ʣùcchero ʣucchina ʣucchine ʣucchini meʣʣo meʣʣogiorno meʣʣanotte pranʣo romanʣo aʣʣurro aʣʣurra aʣʣurri
 aʣʣurre doʣʣina benʣina meʣʣa meʣʣe meʣʣi
 `;
+/* loanwords keep their English sound: whole-word respellings */
+const LOAN = { weekend: 'wee-KEHND', email: 'ee-MAYL', computer: 'kohm-PYOO-tehr', hotel: 'oh-TEHL', smartphone: 'SMAHRT-fohn', online: 'ohn-LINE', shopping: 'SHOHP-peeng', wifi: 'WY-fy' };
 const plainOf = s => s.replace(/[àá]/g, 'a').replace(/[èé]/g, 'e').replace(/[ìíï]/g, 'i').replace(/[òó]/g, 'o').replace(/[ùúü]/g, 'u').replace(/ʣ/g, 'z');
 const LEX = {};
 LEX_SRC.trim().split(/\s+/).forEach(a => { LEX[plainOf(a)] = a; });
@@ -43,7 +46,7 @@ const IDO_EXC = new Set('decido decidi decide uccido uccidi uccide divido dividi
 const ERE_PEN = new Set(('avere vedere rivedere prevedere sapere potere dovere volere tenere ottenere mantenere sostenere contenere appartenere trattenere ' +
   'piacere dispiacere rimanere sedere possedere cadere accadere valere parere godere temere tacere giacere persuadere dolere ingegnere severe intere sincere austere').split(' '));
 /* default-penultimate words that end like risky words: no warning */
-const SAFE = new Set(('italiano italiana italiani italiane americano americana americani americane toscano toscana siciliano siciliana romano romana romani ' +
+const SAFE = new Set(('vegetariano vegetariana vegetariani vegetariane italiano italiana italiani italiane americano americana americani americane toscano toscana siciliano siciliana romano romana romani ' +
   'romane milano lontano lontana lontani lontane quotidiano luciano adriano bolzano parola parole spagnolo spagnola spagnoli spagnole fagiolo fagioli ' +
   'nicola figliolo aprile gentile gentili cortile civile maschile femminile sottile campanile sedile brasile primavera atmosfera intero intera interi ' +
   'sincero sincera severo severa bandiera buonasera stasera divano capitano capitani').split(' '));
@@ -183,7 +186,7 @@ function stressFromEnd(base, syl) {        /* 1 = last syllable, 2 = next to las
 const IA_STRESS = /(eria|erie|logia|logie|grafia|grafie|sofia|nomia|patia|fonia|crazia|crazie)$/;
 const IA_EXC = new Set('materia materie miseria miserie arteria arterie valeria siberia liberia nigeria iberia seria serie'.split(' '));
 const RISKY_IA = /[^aeioucgl]i[ae]$/;    /* consonant + ia / ie: stressed or not? (storia vs farmacia) */
-const SAFE_IA = new Set('italia sicilia storia storie germania memoria vittoria gloria valeria materia materie serie camicia'.split(' '));
+const SAFE_IA = new Set('italia sicilia storia storie germania memoria vittoria gloria valeria materia materie serie camicia venezia'.split(' '));
 function annotate(base) {
   if (LEX[base]) return LEX[base];
   if (base.length >= 4) {                      /* inflected sibling of a LEX word: piccole <- pìccolo, mezza <- meʣʣo, farmacie <- farmacìa */
@@ -200,6 +203,7 @@ function word(raw) {
   let prefix = '', base = w;
   const ap = w.lastIndexOf("'");
   if (ap > 0) { prefix = w.slice(0, ap).replace(/'/g, ''); base = w.slice(ap + 1); }                  /* l'acqua, dov'è, un'amica */
+  if (LOAN[base]) return LOAN[base];
   const ann = annotate(base);
   const bsyl = syllables(ann);
   const st = stressFromEnd(base, bsyl);

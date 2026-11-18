@@ -1,0 +1,289 @@
+{
+  "target": "de",
+  "nameEn": "German",
+  "self": "Deutsch",
+  "ttsLang": "de-DE",
+  "brand": "Deutsch",
+  "accents": true,
+  "keys": "ä ö ü ß",
+  "greet": [
+    [
+      "Gute Nacht",
+      "Good night (you're up late)"
+    ],
+    [
+      "Guten Morgen",
+      "Good morning"
+    ],
+    [
+      "Guten Tag",
+      "Good afternoon"
+    ],
+    [
+      "Guten Abend",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?!.*[cC](?![hH]))(?!.*[aA](?![hHiIyYwW]))(?!.*(?<![eE])[eE](?![hHeEwW]))(?!.*(?<![oO])[oO](?![hHoOyYwW]))(?!.*[uU](?![hHrR]))(?:[abcdefghijklmnoprstuvwyz]+|(?:[abcdefghijklmnoprstuvwyz]+-)+[ABCDEFGHIJKLMNOPRSTUVWYZ]+(?:-[abcdefghijklmnoprstuvwyz]+)*|[ABCDEFGHIJKLMNOPRSTUVWYZ]+(?:-[abcdefghijklmnoprstuvwyz]+)+)(?: (?:[abcdefghijklmnoprstuvwyz]+|(?:[abcdefghijklmnoprstuvwyz]+-)+[ABCDEFGHIJKLMNOPRSTUVWYZ]+(?:-[abcdefghijklmnoprstuvwyz]+)*|[ABCDEFGHIJKLMNOPRSTUVWYZ]+(?:-[abcdefghijklmnoprstuvwyz]+)+))*$",
+  "targetScript": "[A-Za-zÄÖÜäöüß]",
+  "standingRule": {
+    "keywords": "\\bmasculine\\b|\\bfeminine\\b|\\bneuter\\b|\\bgender\\b|\\bnominative\\b|\\baccusative\\b|\\bdative\\b|\\bplural (?:article|form|noun|ending|verb|subject)|\\b(?:in)?direct object\\b|\\bverb second\\b|\\bsecond element\\b|\\bsecond place\\b|\\bverb (?:comes )?first\\b|\\bverb last\\b|\\bto the end\\b|\\bsentence bracket\\b|\\bverb ending|\\bmatch(?:es)? the subject|\\b(?:ich|du|er\\/sie\\/es|er|sie|wir|ihr)[ -]form\\b",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "sounds",
+      "title": "Sounds, spelling and the alphabet",
+      "roadmap": "de-sounds",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings: Sie and du",
+      "roadmap": "de-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "gender",
+      "title": "der, die, das and plurals",
+      "roadmap": "de-gender",
+      "deck": "People and family"
+    },
+    {
+      "id": "sein-haben",
+      "title": "sein and haben: I am, I have",
+      "roadmap": "de-sein-haben",
+      "deck": "About me"
+    },
+    {
+      "id": "present",
+      "title": "Present tense: regular verbs",
+      "roadmap": "de-present",
+      "deck": "Work and study"
+    },
+    {
+      "id": "word-order",
+      "title": "Verb second: Heute arbeite ich",
+      "roadmap": "de-word-order",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "questions",
+      "title": "W-questions and yes/no questions",
+      "roadmap": "de-questions",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers, time and prices",
+      "roadmap": "de-numbers",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "stem-change",
+      "title": "Stem-changing verbs: fahren, essen, nehmen",
+      "roadmap": "",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "accusative",
+      "title": "Accusative: den, einen",
+      "roadmap": "de-accusative",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "negation",
+      "title": "nicht and kein",
+      "roadmap": "de-negation",
+      "deck": "Life in Germany"
+    },
+    {
+      "id": "possessives",
+      "title": "mein, dein, sein, ihr",
+      "roadmap": "de-possessives",
+      "deck": "People and family"
+    },
+    {
+      "id": "gern",
+      "title": "Likes: gern, mögen, lieber",
+      "roadmap": "",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "modals",
+      "title": "Modal verbs: können, müssen, wollen, möchten",
+      "roadmap": "de-modals",
+      "deck": "Work and study"
+    },
+    {
+      "id": "separable",
+      "title": "Separable verbs: aufstehen, anrufen",
+      "roadmap": "de-separable",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "bracket",
+      "title": "The sentence bracket",
+      "roadmap": "de-bracket",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "dative",
+      "title": "Dative: dem, der, mit, bei",
+      "roadmap": "de-dative",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "pronouns",
+      "title": "Pronouns: ich, mich, mir",
+      "roadmap": "de-pronouns",
+      "deck": "Feelings and states"
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions of place and time",
+      "roadmap": "de-prepositions",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "imperative",
+      "title": "Imperative: du, ihr, Sie",
+      "roadmap": "de-imperative",
+      "deck": "Health and emergencies"
+    },
+    {
+      "id": "perfekt",
+      "title": "Perfekt: what happened",
+      "roadmap": "de-perfekt",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "war-hatte",
+      "title": "war and hatte",
+      "roadmap": "de-war-hatte",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives and comparing",
+      "roadmap": "de-adjectives",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "connectors",
+      "title": "und, oder, aber, denn, wenn",
+      "roadmap": "de-connectors",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "traps",
+      "title": "False friends: Gift, Chef, will",
+      "roadmap": "",
+      "deck": "Traps for English speakers"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "Words that show each sound rule: ch, r, z, w / v, ei / ie, umlauts, ß and final b d g"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Hello, goodbye, please, thanks, and Sie or du with the people you meet"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Name, where you are from, where you live, your job, age and languages"
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "Family members, friends and the articles that go with them"
+    },
+    {
+      "name": "Numbers, time and prices",
+      "group": "Everyday words",
+      "desc": "Numbers to 1,000, telling the time, and prices in euros"
+    },
+    {
+      "name": "Days, dates and weather",
+      "group": "Everyday words",
+      "desc": "Days, months, seasons, dates, yesterday and tomorrow, and the weather"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Bakery, café and restaurant: ordering, everyday food and drinks, paying"
+    },
+    {
+      "name": "Shopping and clothes",
+      "group": "Everyday words",
+      "desc": "Clothes, colors, sizes, prices and paying"
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms and things at home, and a daily routine with separable verbs"
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places in town, asking the way, and getting around with mit and zu"
+    },
+    {
+      "name": "Travel and transport",
+      "group": "Out and about",
+      "desc": "Trains, tickets, stations, airports and hotel basics"
+    },
+    {
+      "name": "Health and emergencies",
+      "group": "Out and about",
+      "desc": "Saying what hurts, the doctor and the pharmacy, and asking for help"
+    },
+    {
+      "name": "Work and study",
+      "group": "Out and about",
+      "desc": "Jobs, the office, classes, and everyday work verbs"
+    },
+    {
+      "name": "Feelings and states",
+      "group": "Conversation",
+      "desc": "How you feel and how you are, with sein, haben and mir"
+    },
+    {
+      "name": "Likes and free time",
+      "group": "Conversation",
+      "desc": "Hobbies, sports, likes and dislikes, and what you did at the weekend"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "Question words and the small words that join sentences"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends and word-for-word copies from English"
+    },
+    {
+      "name": "Life in Germany",
+      "group": "Watch out",
+      "desc": "Appointments, registration, cash, deposits and Sundays: words for living in Germany"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

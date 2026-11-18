@@ -75,7 +75,7 @@ module.exports = [
 {{ex:Chiami Marco? Sì, lo chiamo domani.|KYAH-mee MAHR-koh see loh KYAH-moh doh-MAH-nee|Are you calling Marco? Yes, I'll call him tomorrow.}}
 <h3>Before a vowel: l'</h3>
 <p>Before a verb that starts with a vowel or h, <b>lo</b> and <b>la</b> often lose their vowel: <b>l'aspetto</b>. <b>Lo aspetto</b> is also correct. <b>Li</b> and <b>le</b> never do this.</p>
-{{ex:Giulia? L'aspetto al bar.|JOO-lyah lahs-PEHT-toh ahl bahr|Giulia? I'll wait for her at the bar.}}
+{{ex:Giulia? L'aspetto al bar.|JOO-lyah lahs-PEHT-toh ahl bahr|Giulia? I'll wait for her at the café.}}
 <h3>With an infinitive: two places</h3>
 <p>After <b>posso</b>, <b>devo</b> or <b>voglio</b>, the pronoun can join the end of the infinitive, like <b>mi</b> in <b>alzarmi</b>. It can also go before the conjugated verb. Both are right.</p>
 {{ex:Posso provarla?|POHS-soh proh-VAHR-lah|Can I try it on?}}
@@ -144,7 +144,7 @@ module.exports = [
       ["mc", "\"Don't eat my ice cream!\" (to a friend) =", "Non mangiare il mio gelato!", "Non mangia il mio gelato!", "Mangiare non il mio gelato!", "Non mangio il mio gelato!", "To one friend, a negative command is non + infinitive."],
       ["mc", "\"Let's go!\" =", "Andiamo!", "Andate!", "Vado!", "Andare!", "Let's uses the noi form: andiamo."],
       ["mc", "A man giving you directions says \"Giri a destra.\" He means…", "Turn right.", "Turn left.", "Go straight ahead.", "Turn around.", "giri is the Lei imperative of girare, and a destra means to the right."],
-      ["or", "Excuse me, where is the station? (to a stranger)", "Mi scusi dov'è la stazione", "scusa il", "Mi scusi is for a stranger, and stazione is feminine: la stazione."],
+      ["or", "Excuse me, where is the station? (to a stranger, start with Mi scusi)","Mi scusi dov'è la stazione", "scusa il", "Mi scusi is for a stranger, and stazione is feminine: la stazione."],
       ["or", "Let's have a pizza", "Prendiamo una pizza", "prendo un", "Let's is the noi form: prendiamo. pizza is feminine, so una."],
       ["or", "I'd like a beer", "Vorrei una birra", "un", "birra is feminine, so una. vorrei is the polite way to order."],
       ["fi", "__ un momento, arrivo!", "Wait a moment, I'm coming! (to a friend)", "Aspetta", "Aspetti|Aspettare|Aspetto", "aspettare is an -are verb: the tu imperative ends in -a."],
@@ -233,7 +233,7 @@ module.exports = [
 <p>Every reflexive verb uses essere in the passato prossimo. The pronoun goes first, then <b>essere</b>, and the participle agrees.</p>
 {{ex:Ieri mi sono alzata alle sei.|YEH-ree mee SOH-noh ahl-TSAH-tah AHL-leh say|Yesterday I got up at six. (a woman speaking)}}
 <h3>avere or essere?</h3>
-<p>A quick test: if the verb has a direct object (something you eat, see, buy or take), it uses <b>avere</b>. The ten verbs above never have one. So one story can mix both auxiliaries.</p>
+<p>A quick test: if the verb has a direct object (something you eat, see, buy or take), it uses <b>avere</b>. The ten verbs above never have one. The test only works one way: many verbs with no object still take avere, such as <b>ho dormito</b>. So one story can mix both auxiliaries.</p>
 {{ex:Ho comprato il biglietto e sono partito.|oh kohm-PRAH-toh eel bee-LYEHT-toh eh SOH-noh pahr-TEE-toh|I bought the ticket and left. (a man speaking)}}
 <div class="tip"><b>Most common mistakes:</b> using avere with a movement verb: <b>Ho andato</b> → <b>Sono andato</b>. And forgetting the agreement: <b>Giulia è andato</b> → <b>Giulia è andata</b>.</div>
 `,
@@ -272,7 +272,7 @@ module.exports = [
 <p><b>Già</b> means "already" or "yet" in a question, and <b>non… ancora</b> means "not yet". In the passato prossimo they sit between the auxiliary and the participle.</p>
 {{ex:Hai già mangiato? No, non ancora.|ai jah mahn-JAH-toh noh nohn ahn-KOH-rah|Have you eaten yet? No, not yet.}}
 <p><b>Ora</b> and <b>adesso</b> both mean "now". <b>Presto</b> means "early" or "soon", and <b>tardi</b> means "late".</p>
-<p>In a question, <b>mai</b> without <b>non</b> means "ever": it asks whether something has happened at any time. Most of these time words come after the verb, much as in English.</p>
+<p>In a question, <b>mai</b> without <b>non</b> means "ever": it asks whether something has happened at any time. Word order differs from English here: "I always drink" puts "always" before the verb, but Italian puts <b>sempre</b> and <b>mai</b> right after it (<b>bevo sempre</b>). <b>Ora</b> and <b>adesso</b> can also start the sentence.</p>
 {{ex:Adesso sono a casa.|ah-DEHS-soh SOH-noh ah KAH-sah|I'm at home now.}}
 <h3>Where: qui, lì, vicino, lontano</h3>
 <p><b>Qui</b> (or <b>qua</b>) means "here". <b>Lì</b> (or <b>là</b>) means "there". The accent mark matters: <b>la</b> is "the" and <b>li</b> is "them", but <b>là</b> and <b>lì</b> mean "there". <b>Qui vicino</b> is "near here", and <b>È lontano?</b> asks "Is it far?".</p>

@@ -51,7 +51,7 @@ module.exports = [
       ["fi","__ chiave","the key","la","il|le|i","chiave is feminine and singular: la chiave."],
       ["ty","the keys","le chiavi","chiave · for more than one, -e becomes -i","la","chiavi is a feminine plural noun, so the article is le: le chiavi."],
       ["ty","the nights","le notti","notte · for more than one, -e becomes -i","la","notti is a feminine plural noun, so the article is le, and the double t stays."],
-      ["ty","the city","la città","città · accent on the last a","citta","The written accent shows that the last syllable is stressed: città."]
+      ["ty","the city","la città","città · accent on the last a","citta","The written accent shows that the last syllable is stressed: città.","!strict"]
     ]
   },
 {
@@ -148,7 +148,7 @@ module.exports = [
       ["or","the photos","le foto","fotos","foto is a short form, so it does not change for more than one: le foto."],
       ["fi","__ problema","the problem","il","la|i|le","problema ends in -a but is masculine: il problema."],
       ["fi","le sorell__","the sisters","e","a|i|o","Feminine -a becomes -e in the plural: le sorelle."],
-      ["fi","i padr__","the fathers","i","e|a|o","Nouns in -e add -i in the plural, whatever their gender: i padri."],
+      ["fi","i padr__","the fathers","i","e|a|o","For nouns in -e, the -e becomes -i in the plural, whatever their gender: i padri."],
       ["ty","the sisters","le sorelle","sorella","i","sorelle is a feminine plural noun, so the article is le."],
       ["ty","the hand","la mano","mano · watch the gender","il","mano ends in -o but is feminine: la mano."],
       ["ty","the grandparents","i nonni","nonno · a mixed group","le","A mixed group takes the masculine plural: i nonni."]

@@ -1,6 +1,6 @@
 /* German spelling -> en-de pron respelling (profile docs/profiles/en-de.md §6). Deterministic: every writer gets the same string.
    Usage: node respell.js "Wie heißen Sie?"   ->   Wie heißen Sie? -> vee HAI-suhn zee
-   Key (§6.1): vowels ah ay eh uh ee i ih oh aw oo ew ur ai oy ow; kh = both ch sounds (throaty after ah aw oh oo ow, soft elsewhere); CAPITALS = stressed syllable.
+   Key (§6.1): vowels ah ay eh uh ee i ih oh aw oo ew ur ai oy ow; kh = throaty ch (right after a, o, u, au: Buch, Nacht); hh = soft ch (everywhere else: ich, Milch, -chen, -ig; after eh it is written ehh: sprechen SHPREHH-uhn); CAPITALS = stressed syllable.
    How it works: LEX (whole-word respellings) -> number words -> known compound heads -> separable and inseparable prefixes -> letter rules.
    Words whose stress came from the default rule and look like loanwords are reported on stderr ("check stress"); stdout keeps the
    `<text> -> <pron>` shape. When the output is wrong, add the word to LEX (never hand-edit a pron in a deck or lesson). */
@@ -19,24 +19,33 @@ januar=YAH-noo-ahr februar=FAY-broo-ahr april=ah-PRIL august=ow-GOOST september=
 dezember=day-TSEHM-buh
 zusammen=tsoo-ZAHM-uhn zurück=tsoo-REWK zuerst=tsoo-AYRST zuhause=tsoo-HOW-zuh zufrieden=tsoo-FREE-duhn
 vorbei=fohr-BAI herein=heh-RAIN heraus=heh-ROWS geradeaus=guh-rah-duh-OWS vielleicht=fee-LAIHHT warum=vah-ROOM
-woher=voh-HAYR wohin=voh-HIN willkommen=vil-KAWM-uhn hallo=HAHL-oh benzin=behn-TSEEN dresden=DRAYS-duhn lebt=laypt lebst=laypst lebte=LAYP-tuh wagner=VAHG-nuh informatik=in-fawr-MAH-tik natürlich=nah-TEWR-likh kollege=koh-LAY-guh kollegin=koh-LAY-gin
+woher=voh-HAYR wohin=voh-HIN willkommen=vil-KAWM-uhn hallo=HAHL-oh benzin=behn-TSEEN dresden=DRAYS-duhn lebt=laypt lebst=laypst lebte=LAYP-tuh wagner=VAHG-nuh informatik=in-fawr-MAH-tik natürlich=nah-TEWR-lihh kollege=koh-LAY-guh kollegin=koh-LAY-gin
 erst=ayrst erste=AYRS-tuh ersten=AYRS-tuhn erster=AYRS-tuh erstes=AYRS-tuhs erde=AYR-duh pferd=pfayrt werden=VAYR-duhn
 werde=VAYR-duh wert=vayrt gibt=geept gibst=geepst hoch=hohkh mond=mohnt obst=ohpst ostern=OHS-tuhn viertel=FIR-tuhl
-mittwoch=MIT-vawkh appetit=ahp-ay-TEET interessant=in-tuh-reh-SAHNT
+mittwoch=MIT-vawkh chor=kohr dankeschön=DAHN-kuh-shurn bitteschön=BIT-uh-shurn julia=YOO-lee-ah
+ingenieur=in-zheh-NYUR ingenieurin=in-zheh-NYUR-in servus=ZEHR-voos
+unterschreiben=oon-tuh-SHRAI-buhn unterschreibe=oon-tuh-SHRAI-buh unterschrieben=oon-tuh-SHREE-buhn wiederholen=vee-duh-HOH-luhn
+wiederhole=vee-duh-HOH-luh wiederholt=vee-duh-HOHLT erdgeschoss=AYRT-guh-shaws unterricht=OON-tuh-rihht
+andreas=ahn-DRAY-ahs abitur=ah-bee-TOOR europa=oy-ROH-pah französisch=frahn-TSUR-zish italienisch=ee-tah-lee-AY-nish
+italien=ee-TAH-lee-uhn australien=ows-TRAH-lee-uhn spanien=SHPAH-nee-uhn amerikaner=ah-may-ree-KAH-nuh amerikanerin=ah-may-ree-KAH-nuh-rin
+adresse=ah-DREHS-uh konzert=kawn-TSEHRT gitarre=gee-TAHR-uh friseur=free-ZUR friseurin=free-ZUR-in cousin=koo-ZAHNG
+garage=gah-RAH-zhuh jeans=jeens steak=stayk t-shirt=TEE-shurt mitternacht=MIT-uh-nahkht hochzeit=HAWKH-tsait
+leon=LAY-awn rhein=rain ostsee=AWST-zay häuschen=HOYS-hhuhn radieschen=rah-DEES-hhuhn übersetzen=ew-buh-ZEHTS-uhn übersetze=ew-buh-ZEHTS-uh übersetzt=ew-buh-ZEHTST
+übernachten=ew-buh-NAHKH-tuhn übernachte=ew-buh-NAHKH-tuh übernachtet=ew-buh-NAHKH-tuht übermorgen=EW-buh-mawr-guhn appetit=ahp-ay-TEET interessant=in-tuh-reh-SAHNT
 chicago=shih-KAH-goh berlin=behr-LEEN amerika=ah-MAY-ree-kah emily=EH-mih-lee ryan=RAI-uhn megan=MAY-guhn
 new=nyoo york=yawrk boston=BAWS-tuhn
 `;
 /* words that only look prefixed or separable (be-, ge-, er-, an-, ab-, ein- ...): no prefix boundary */
 const NOPREFIX = new Set(`gehen gehe gehst geht ging gingen geben gebe gibst gab gaben gegen gegend gestern gelten gerne
 beste besten bester bestes becher besen beten beere beeren abend abende abenden abends einig einige einigen einiger einiges
-ander andere anderen anderer anderes anders erste ersten erster erstes ernte`.split(/\s+/));
+ander andere anderen anderer anderes anders erste ersten erster erstes ernte mittel mitte mitten`.split(/\s+/));
 /* one-syllable words with e, i or o before a single final consonant that are short (the default for such words is long) */
-const SHORT = new Set('in im mit bin hin bis ob von vom es des weg top'.split(' '));
+const SHORT = new Set('in im mit bin hin bis ob von vom es des weg top tim ben'.split(' '));
 /* compound heads: a word ending in one of these, with at least three letters before it, is split there (stress on the first part) */
 const HEADS = `heit keit strudel rad haus hof tag stadt straße bahn zimmer karte platz markt stück schuh zeug hafen saft wurst brot kuchen wasser
 arbeit reise zeit wagen mann frau land schule amt stunde woche jahr ende essen geld tür stift spiel fahrt teller berg burg dorf
 furt reich stelle laden zug bus fahrrad buch heft tisch stuhl bett geschäft tee milch flasche glas tasse kind vater mutter
-garten park weg uhr licht schrank hose jacke schein ausweis nummer`.split(/\s+/).sort((a, b) => b.length - a.length);
+garten park weg uhr licht schrank hose jacke schein ausweis nummer arzt ärztin plan aufgabe salat steig schmerz zahl name schwester eltern`.split(/\s+/).sort((a, b) => b.length - a.length);
 const SEP = ['zurück', 'fern', 'nach', 'weg', 'mit', 'vor', 'auf', 'aus', 'ein', 'bei', 'los', 'ab', 'an', 'zu', 'um'];
 const INSEP = ['ver', 'zer', 'ent', 'emp', 'be', 'ge', 'er'];
 const INSEP_OUT = { ver: 'fehr', zer: 'tsehr', ent: 'ehnt', emp: 'ehmp', be: 'buh', ge: 'guh', er: 'ehr' };
@@ -67,6 +76,7 @@ function lexInflect(w) {
 
 /* ---- letters to units ---- */
 const VOW = 'aeiouäöüy';
+const BACK = ['a', 'o', 'u', 'ow'];   /* vowels after which ch is throaty (kh) */
 const isV = c => !!c && VOW.includes(c);
 function units(w) {
   const u = []; const V = (q, long) => u.push({ k: 'V', q, long: !!long }); const C = (s, o) => u.push(Object.assign({ k: 'C', s }, o || {}));
@@ -229,7 +239,10 @@ function render(w, st, pre, sylIn) {
     let on = '';
     s.on.forEach((c, j) => {
       let x = c.s;
-      if (x === 'X') x = 'kh';
+      if (x === 'X') {
+        if (i === 0 && j === 0) x = /^ch[eiäy]/.test(w) ? 'hh' : 'k';             /* China, Chemie: soft; Chor, Christ: k */
+        else { const p = syl[i - 1]; x = (j === 0 && p && !p.co.length && BACK.includes(p.v.q)) ? 'kh' : 'hh'; }   /* Sprache: kh; Küche, Mädchen: hh */
+      }
       if (x === 's' && j === s.on.length - 1 && s.on.length === 1 && !c.close && !c.longMark) {
         const p = i > 0 ? syl[i - 1] : null; const pc = p && p.co.length ? p.co[p.co.length - 1].s : '';
         if (!p || !pc || 'lmnr'.includes(pc)) x = 'z';
@@ -241,16 +254,17 @@ function render(w, st, pre, sylIn) {
     const cos = s.co.map(c => c.s);
     cos.forEach((x, j) => {
       const c = s.co[j];
-      if (x === 'X') x = 'kh';
+      if (x === 'X') x = (j === 0 && BACK.includes(v.q)) ? 'kh' : 'hh';    /* Buch, Nacht: kh; ich, Milch, durch: hh */
       const nextOn = j === cos.length - 1 && i + 1 < n && syl[i + 1].on.length ? syl[i + 1].on[0].s : '';
       const keepVoiced = /^[nr]$/.test(nextOn) && 'bdg'.includes(x) && !(x === 'g' && v.q === 'i');   /* regnet, Wagner, Ordnung: voiced before n, r */
-      if (!c.dbl && !keepVoiced) { if (x === 'b') x = 'p'; else if (x === 'd') x = 't'; else if (x === 'g') x = (v.q === 'i' && j === 0) ? 'kh' : 'k';   /* -ig: zwanzig, König */ }
+      if (!c.dbl && !keepVoiced) { if (x === 'b') x = 'p'; else if (x === 'd') x = 't'; else if (x === 'g') x = (v.q === 'i' && j === 0) ? 'hh' : 'k';   /* -ig: zwanzig, König */ }
       co += x;
     });
     if (vt === 'uh' && /^r/.test(co)) co = co.slice(1);    /* unstressed -er: Lehrer, Eltern */
+    if (vt === 'ur' && /^r/.test(co)) co = co.slice(1);    /* ö before r: Wörter VUR-tuh, not VURR-tuh */
     if (vt === 'ih' || vt === 'ee') { /* nothing */ }
     if (v.q === 'i' && s.co.length && s.co[0].s === 'g' && !s.co[0].dbl) vt = 'i';   /* -ig is short: tsikh */
-    return on + vt + co;
+    return (on + vt + co).replace(/ehhh/, 'ehh');   /* eh + soft ch: sprechen SHPREHH-uhn, not SHPREHHH-uhn */
   });
   return { syl: out };
 }

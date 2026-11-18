@@ -149,14 +149,14 @@ LANGAPP_PACKS.roadmaps = {
     src: ["Istituto Italiano di Cultura Buenos Aires: Contenuti Livello A1 (CILS)"], note: "The sounds stage is standard practice.",
     stages: [
       { en: "Sounds and first words", ko: "소리와 첫 표현", items: [
-        ["it-sounds", "Sounds: c / g, gli, gn, double consonants", "발음: c / g, gli, gn, 겹자음"], ["it-greetings", "Greetings: tu and Lei", "인사: tu와 Lei"], ["it-articles", "Articles: il, lo, la, un, una", "관사: il, lo, la, un, una"],
-        ["it-gender", "Gender and number of nouns", "명사의 성과 수"], ["it-essere-avere", "essere and avere", "essere와 avere"] ] },
+        ["it-sounds", "Sounds: c / g, gli, gn, double consonants", "발음: c / g, gli, gn, 겹자음", "sounds"], ["it-greetings", "Greetings: tu and Lei", "인사: tu와 Lei", "greetings"], ["it-articles", "Articles: il, lo, la, un, una", "관사: il, lo, la, un, una", "articles"],
+        ["it-gender", "Gender and number of nouns", "명사의 성과 수", "gender"], ["it-essere-avere", "essere and avere", "essere와 avere", "essere-avere"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["it-pronouns", "Subject and object pronouns", "주어·목적어 대명사"], ["it-present", "Present tense: -are, -ere, -ire", "현재 시제: -are, -ere, -ire"], ["it-questions", "Question words", "의문사"], ["it-ce", "c'è and ci sono", "c'è와 ci sono"],
-        ["it-adjectives", "Adjectives and agreement", "형용사와 일치"], ["it-possessives", "Possessives and demonstratives", "소유사와 지시사"], ["it-numbers", "Numbers, time and dates", "숫자, 시간, 날짜"], ["it-prepositions", "Prepositions: a, di, da, in + article", "전치사: a, di, da, in + 관사"] ] },
+        ["it-pronouns", "Subject and object pronouns", "주어·목적어 대명사", "pronouns"], ["it-present", "Present tense: -are, -ere, -ire", "현재 시제: -are, -ere, -ire", "present"], ["it-questions", "Question words", "의문사", "questions"], ["it-ce", "c'è and ci sono", "c'è와 ci sono", "ce"],
+        ["it-adjectives", "Adjectives and agreement", "형용사와 일치", "adjectives"], ["it-possessives", "Possessives and demonstratives", "소유사와 지시사", "possessives"], ["it-numbers", "Numbers, time and dates", "숫자, 시간, 날짜", "numbers"], ["it-prepositions", "Prepositions: a, di, da, in + article", "전치사: a, di, da, in + 관사", "prepositions"] ] },
       { en: "Doing things", ko: "행동 말하기", items: [
-        ["it-irregular", "andare, fare, venire, stare", "andare, fare, venire, stare"], ["it-modals", "potere, dovere, volere", "potere, dovere, volere"], ["it-piacere", "piacere: likes", "piacere: 좋아해요"], ["it-reflexive", "Reflexive verbs", "재귀동사"],
-        ["it-imperative", "Imperative and vorrei", "명령법과 vorrei"], ["it-passato", "Passato prossimo", "근과거"], ["it-adverbs", "Adverbs of time, place and quantity", "시간·장소·양의 부사"], ["it-connectors", "e, ma, perché, quando, se", "e, ma, perché, quando, se"] ] } ] },
+        ["it-irregular", "andare, fare, venire, stare", "andare, fare, venire, stare", "irregular"], ["it-modals", "potere, dovere, volere", "potere, dovere, volere", "modals"], ["it-piacere", "piacere: likes", "piacere: 좋아해요", "piacere"], ["it-reflexive", "Reflexive verbs", "재귀동사", "reflexive"],
+        ["it-imperative", "Imperative and vorrei", "명령법과 vorrei", "imperative"], ["it-passato", "Passato prossimo", "근과거", "passato"], ["it-adverbs", "Adverbs of time, place and quantity", "시간·장소·양의 부사", "adverbs"], ["it-connectors", "e, ma, perché, quando, se", "e, ma, perché, quando, se", "connectors"] ] } ] },
 
   vi: { variant: {en: "Northern (Hanoi) Vietnamese", ko: "북부 (하노이) 베트남어"}, basis: {en: "VNU-ULIS Vietnamese programme, levels A1-A2", ko: "하노이 국립대 외국어대 베트남어 과정 A1-A2"},
     src: ["ULIS (Vietnam National University, Hanoi): Vietnamese Program A1-C2"], note: "",

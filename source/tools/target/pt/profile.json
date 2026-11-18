@@ -102,7 +102,7 @@
     },
     {
       "id": "numbers",
-      "title": "Numbers, time and daily routine",
+      "title": "Numbers, time and prices",
       "roadmap": "pt-numbers",
       "deck": "Numbers, time and prices"
     },
@@ -259,7 +259,7 @@
     {
       "name": "Likes and free time",
       "group": "Conversation",
-      "desc": "Hobbies, sports, likes and dislikes, and what you did at the weekend"
+      "desc": "Hobbies, sports, likes and dislikes, and what you did on the weekend"
     },
     {
       "name": "Questions and connectors",

@@ -15,7 +15,7 @@ la chiesa | lah KYEH-sah | the church | ch is a hard k sound. Plural: le chiese.
 il centro storico | eel CHEHN-troh STOH-ree-koh | the old town | storico agrees with centro (masculine).
 la banca | lah BAHN-kah | the bank | Going there: Vado in banca, not alla banca.
 Prenda la seconda a destra. | PREHN-dah lah seh-KOHN-dah ah DEHS-trah | Take the second right. | Lei form. seconda is feminine because it means la seconda strada (street).
-all'angolo | ahl-lahn-GOH-loh | at the corner | all' = a + l' before a vowel.
+all'angolo | ahl-LAHN-goh-loh | at the corner | all' = a + l' before a vowel.
 È a dieci minuti a piedi. | eh ah DYEH-chee mee-NOO-tee ah PYEH-dee | It's a ten-minute walk. | a piedi = on foot.
 Mi sono perso. | mee SOH-noh PEHR-soh | I'm lost. | Said by a man; a woman says Mi sono persa.
 Come arrivo in centro? | KOH-meh ahr-REE-voh een CHEHN-troh | How do I get downtown? | in centro = downtown, with no article.
@@ -62,7 +62,7 @@ Mi hanno rubato il portafoglio. | mee AHN-noh roo-BAH-toh eel pohr-tah-FOH-lyoh 
 `,
   "Work and study": `
 Lavoro in un ufficio. | lah-VOH-roh een oon oof-FEE-choh | I work in an office. |
-Studio l'italiano. | STOO-dyoh lee-tah-LYAH-noh | I'm studying Italian. | The simple present also means I am studying. With studiare the language takes l'.
+Studio l'italiano. | STOO-dyoh lee-tah-LYAH-noh | I'm studying Italian. | The simple present also means I am studying. A language usually takes the article: l'italiano.
 la riunione | lah ree-oo-NYOH-neh | the meeting |
 Faccio l'insegnante. | FAHT-choh leen-seh-NYAHN-teh | I'm a teacher. | fare + article + job is very common. Also: Sono insegnante.
 il collega | eel kohl-LEH-gah | colleague (male) | A woman: la collega. Plural: i colleghi, le colleghe.
@@ -71,7 +71,7 @@ Faccio una pausa. | FAHT-choh OO-nah POW-sah | I'm taking a break. | fare una pa
 Studio all'università. | STOO-dyoh ahl-loo-nee-vehr-see-TAH | I'm in college. | all' = a + l'. università covers any college.
 La lezione comincia alle nove. | lah leh-TSYOH-neh koh-MEEN-chah AHL-leh NOH-veh | Class starts at nine. | la lezione = the class or lesson. alle = a + le.
 il mio capo | eel MEE-oh KAH-poh | my boss | Keep the article: only singular family words drop it (mia madre).
-Devo fare i compiti. | DEH-voh FAH-reh ee kohm-PEE-tee | I have to do my homework. | i compiti is plural: the homework assignments.
+Devo fare i compiti. | DEH-voh FAH-reh ee KOHM-pee-tee | I have to do my homework. | i compiti is plural: the homework assignments.
 Domani ho un esame. | doh-MAH-nee oh oon eh-SAH-meh | I have an exam tomorrow. | The present tense works for planned future events.
 Finisco alle sei. | fee-NEES-koh AHL-leh say | I finish at six. | finire is an -isc- verb: finisco, finisci, finisce.
 lo stipendio | loh stee-PEHN-dyoh | the salary | lo comes before s + consonant.

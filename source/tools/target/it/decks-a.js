@@ -54,7 +54,7 @@ Dove abiti? | DOH-veh AH-bee-tee | Where do you live? | tu form. Stress on the f
 Sono sposato. | SOH-noh spoh-SAH-toh | I'm married. | A woman says sposata.
 Parli inglese? | PAHR-lee een-GLEH-seh | Do you speak English? | tu form. To a stranger: Parla inglese?
 Sto imparando l'italiano. | stoh eem-pah-RAHN-doh lee-tah-LYAH-noh | I'm learning Italian. | For something going on right now or these days.
-La mia famiglia è di origine italiana. | lah MEE-ah fah-MEE-lyah eh dee oh-ree-JEE-neh ee-tah-LYAH-nah | My family is of Italian descent. | italiana agrees with origine, a feminine noun.
+La mia famiglia è di origine italiana. | lah MEE-ah fah-MEE-lyah eh dee oh-REE-jee-neh ee-tah-LYAH-nah | My family is of Italian descent. | italiana agrees with origine, a feminine noun.
 Sono qui in vacanza. | SOH-noh kwee een vah-KAHN-tsah | I'm here on vacation. |
 Sono qui per lavoro. | SOH-noh kwee pehr lah-VOH-roh | I'm here for work. |
 `,

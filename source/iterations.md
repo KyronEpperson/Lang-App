@@ -963,3 +963,9 @@ New cards get a real front and back: the front shows only the word and audio, th
 
 ### 2.25.2 — results
 Front: word, audio, flip button. Back (after flip or tapping the word): meaning and note, button becomes Next. flip.js: front meanVisible false, back true, no errors.
+
+## 2.26.0 — prompt
+Ship Italian for English speakers (en-it) after merge, stress fixes and cold review. Verify: validate, e2e on all 24 lessons, harness, site test.
+
+### 2.26.0 — results
+en-it: 24 lessons, 18 decks / 321 cards, 336 practice items. Cold review: 12 edits, no wrong Italian found; 517 prons match the generator. validate PASS, e2e OK on 24 lessons. Not checked by a native speaker (tools/target/it/REVIEW.md lists ten things to check first).

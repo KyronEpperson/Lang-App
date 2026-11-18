@@ -65,12 +65,12 @@ module.exports = [
 <div class="tbl"><table><tr><th>One thing</th><th>More than one</th></tr><tr><td class="k">C'è un bar.</td><td class="k">Ci sono due bar.</td></tr><tr><td class="k">C'è una farmacia.</td><td class="k">Ci sono due farmacie.</td></tr></table></div>
 {{ex:C'è un bar.|cheh oon bahr|There's a bar.}}
 {{ex:Ci sono due bar.|chee SOH-noh DOO-eh bahr|There are two bars.}}
-<p><b>Due</b> means "two". Words like <b>bar</b> and <b>hotel</b>, borrowed from other languages, do not change in the plural.</p>
+<p><b>Due</b> means "two". An Italian <b>bar</b> is a café, where people stop for an espresso. Words like <b>bar</b> and <b>hotel</b>, borrowed from other languages, do not change in the plural.</p>
 <h3>Asking and saying no</h3>
 <p>To ask, keep the same words and raise your voice. <b>Qui vicino</b> means "near here". To say there isn't one, put <b>non</b> in front.</p>
 {{ex:C'è una farmacia qui vicino?|cheh OO-nah fahr-mah-CHEE-ah kwee vee-CHEE-noh|Is there a pharmacy near here?}}
 {{ex:C'è un bagno?|cheh oon BAH-nyoh|Is there a bathroom?}}
-{{ex:Non c'è un bancomat qui vicino.|nohn cheh oon bahn-KOH-maht kwee vee-CHEE-noh|There's no ATM near here.}}
+{{ex:Non c'è un bancomat qui vicino.|nohn cheh oon BAHN-koh-maht kwee vee-CHEE-noh|There's no ATM near here.}}
 <h3>c'è or è?</h3>
 <p>The two do different jobs. <b>C'è</b> introduces something new: there is one somewhere. That is why it usually comes with <b>un</b>, <b>una</b> or a number. <b>È</b> says where a particular thing is, one you have already named with <b>il</b> or <b>la</b>.</p>
 <div class="tbl"><table><tr><th>Something new: c'è</th><th>A particular one: è</th></tr><tr><td class="k">C'è una farmacia in centro.</td><td class="k">La farmacia è in centro.</td></tr><tr><td>There's a pharmacy downtown.</td><td>The pharmacy is downtown.</td></tr></table></div>
@@ -307,7 +307,7 @@ module.exports = [
       ["fi","Oggi __ caldo.","It's hot today.","fa","è|ha|sta","Weather uses fare: fa caldo."],
       ["ty","We have breakfast.","Facciamo colazione.|Noi facciamo colazione.","fare · colazione","fanno","The noi form of fare: facciamo."],
       ["ty","They're going home.","Vanno a casa.|Loro vanno a casa.","andare · a casa","va","The loro form of andare: vanno."],
-      ["ty","It's going to be cold tomorrow.","Domani fa freddo.|Fa freddo domani.","domani · fare · freddo","È","Weather uses fare, not essere: fa freddo."]
+      ["ty","It's going to be cold tomorrow. (use the present)","Domani fa freddo.|Fa freddo domani.","domani · fare · freddo","È","Weather uses fare, not essere: fa freddo."]
     ]
   },
   {

@@ -18,9 +18,10 @@
 
 const EXC = {
   'muito': 'MOOYN-too', 'muita': 'MOOYN-tuh', 'muitos': 'MOOYN-toos', 'muitas': 'MOOYN-tuhs',
-  'joão': 'zhoo-OWNG', 'porque': 'pohr-KAY', 'reunião': 'heh-oo-nee-OWNG', 'reuniões': 'heh-oo-nee-OYNGS',
+  'ao': 'ow', 'aos': 'ows', 'joão': 'zhoo-OWNG', 'porque': 'pohr-KAY', 'reunião': 'heh-oo-nee-OWNG', 'reuniões': 'heh-oo-nee-OYNGS',
   'shopping': 'SHAW-peeng', 'internet': 'een-tehr-NEH-chee', 'ok': 'oh-KAY', 'show': 'shoh', 'site': 'SAI-chee', 'wifi': 'wai-FAI', 'wi-fi': 'wai-FAI',
   'miami': 'mee-AH-mee', 'york': 'YAWR-kee', 'boston': 'BAWS-tohng', 'orlando': 'ohr-LAHN-doo', 'texas': 'TEHK-sahs',
+  'massachusetts': 'mah-sah-SHOO-sehts', 'jersey': 'ZHEHR-zee', 'emma': 'EH-muh', 'jack': 'JEH-kee', 'ryan': 'HAI-ahn', 'megan': 'MEH-gahn',
   'email': 'ee-MAY-oo', 'e-mail': 'ee-MAY-oo', 'online': 'ohn-LAIN', 'delivery': 'deh-LEE-veh-ree', 'uber': 'OO-behr',
 };
 
@@ -31,9 +32,9 @@ fésta pérto cérto cérta séte janéla quéro quér vélho vélha bélo béla
 térra guérra férro pérna pédra fébre léve néto néta régra sêco sêca pêdro idéia éra éram coléga zéro cégo céga
 têrça sêxta cervêja igrêja invéja cêdo mêdo dêdo vêrde parêde rêde sêde prêto prêta prêtos prêtas cabêlo cabêlos pêlo pêla pêlos pêlas
 vermêlho vermêlha vermêlhos vermêlhas espêlho consêlho joêlho orêlha abêlha ovêlha coêlho mêsmo mêsma mêsmos mêsmas
-chêgo chêga chêgam fêcha fêcho fêcham déve dêvo dévem bébe bêbo bébem escrévo escréve escrévem péde pédem sérve sérvem
+chêgo chêga chêgam fêcha fêcho fêcham déve dêvo dévem bébe bêbo bébem escrêvo escréve escrévem péde pédem sérve sérvem
 preféro prefére preférem repéte espéra espéro espéram coméça coméço coméçam péga pégo pégam léva lévo lévam sêja vêja sêjam vêjam
-gêlo sêlo téla véla estrêla molêque chiclête sorvête bilhête tapête canêta camisêta bicicléta planêta tésta résto pêso
+gêlo sêlo téla véla estrêla moléque chicléte sorvête bilhête tapête canêta camisêta bicicléta planêta tésta résto pêso
 póde pósso pódem pórta pórtas hóra hóras agóra embóra fóra senhóra senhóras nóssa nósso nóssos nóssas lója lójas nóva nôvo nóvos nóvas nóve déz mulhér colhér espôsa espôso móro móra móram
 ôvo óvos ôlho ólhos côrpo córpos pôrto fórte mórte sórte nórte móle móda bóta bótas bôca fóto fótos móto bôlo bôlos róda
 lógo jóvem jóvens hôje dôze dôce dôces póbre óbra nóta nótas cópo cópos farófa mandióca tapióca pipóca bôa bôas vôo pessôa pessôas lagôa lisbôa
@@ -43,11 +44,12 @@ rósa bôlsa sôpa gôrdo górda gôrdos pôvo póvos fôgo fógos ósso óssos
 tácsi tócsico próssimo mássimo aussílio tróusse sécso fícso complécso licho lichos
 moquéca néve primavéra passapórte cóstas chéfe próva respósta alégre acórdo invérno abacachi cochinha rôcho rôcha puchar púcha púcho socôrro adóro adóra adóram
 professôra cachôrro arrôz prêço aeropôrto esquêrda cabêça trôco agôsto emprêgo vêjo têxto enxaquêca
+bibliotéca trêze catôrze dezenóve dêsde dezesséte fizéram tivéram estivéram pudéram quiséram disséram soubéram trousséram viéram déram têve estêve fêz comêram bebêram vendêram escrevêram
 cinqüenta tranqüilo tranqüila freqüente lingüiça agüentar futibol
 `;
 const plainOf = s => s.replace(/[éê]/g, 'e').replace(/[óô]/g, 'o').replace(/ü/g, 'u');
 const LEX = {};
-const XREAL = { 'tácsi': 'táxi', 'tócsico': 'tóxico', 'próssimo': 'próximo', 'mássimo': 'máximo', 'aussílio': 'auxílio', 'tróusse': 'trouxe',
+const XREAL = { 'tácsi': 'táxi', 'tócsico': 'tóxico', 'próssimo': 'próximo', 'mássimo': 'máximo', 'aussílio': 'auxílio', 'tróusse': 'trouxe', 'trousséram': 'trouxeram',
   'sécso': 'sexo', 'fícso': 'fixo', 'complécso': 'complexo', 'licho': 'lixo', 'lichos': 'lixos', 'futibol': 'futebol',
   'abacachi': 'abacaxi', 'cochinha': 'coxinha', 'puchar': 'puxar', 'púcha': 'puxa', 'púcho': 'puxo', 'rôcho': 'roxo', 'rôcha': 'roxa' };   /* annotated form -> real spelling */
 const xPlain = a => XREAL[a] || plainOf(a);
