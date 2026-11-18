@@ -5,18 +5,18 @@ exports.LESSONS = [
 <p>हर शब्द के साथ उसका उच्चारण देवनागरी में लिखा है। <b>नुक़्ता वाला अक्षर</b> (व़, थ़, द़, फ़, ज़) = वह आवाज़ जो हिंदी में नहीं है, इसलिए सादा अक्षर न बोलें। <b>ˈ</b> = ज़ोर: ˈ के बाद वाले हिस्से पर ज़ोर दें, बाकी हिस्से हल्के और छोटे। <b>ऐ</b> = bad, cat वाली आवाज़, और hot, job, stop में <b>ा</b> अमेरिकी "आ" है (हाट, हॉट नहीं)।</p>
 <h3>व़ और व: V और W</h3>
 <p>हिंदी में एक ही व है, जिसकी आवाज़ V और W के बीच की है। अंग्रेज़ी में ये दो अलग आवाज़ें हैं। <b>V (व़)</b>: ऊपर के दाँत निचले होंठ पर, और साथ में भनभनाहट जिसे आप देर तक खींच सकें। <b>W (व)</b>: होंठ गोल करके आगे, दाँत होंठ को नहीं छूते। शीशे में देखें: V में ऊपर के दाँत दिखते हैं, W में नहीं।</p>
-{{ex:vine|व़ाइन|अंगूर की बेल}}{{ex:wine|वाइन|वाइन (अंगूर की शराब)}}{{ex:very|ˈव़ेरि|बहुत}}{{ex:wary|ˈवेरि|सतर्क / चौकन्ना}}{{ex:vest|व़ेस्ट|बनियान}}{{ex:west|वेस्ट|पश्चिम}}
+{{ex:vine|व़ाइन|अंगूर की बेल}}{{ex:wine|वाइन|वाइन (अंगूर की शराब)}}{{ex:very|ˈव़ेरि|बहुत}}{{ex:wary|ˈवेरि|सतर्क / चौकन्ना}}{{ex:vest|व़ेस्ट|बिना बाँह की जैकेट (वेस्टकोट)}}{{ex:west|वेस्ट|पश्चिम}}
 <h3>थ़ और द़: TH</h3>
 <p>जीभ की नोक को ऊपर और नीचे के दाँतों के बीच <b>हल्का-सा बाहर</b> निकालें और हवा बहने दें। सिर्फ़ हवा निकले तो <i>think</i> वाला th (थ़), गला भी काँपे तो <i>this</i> वाला th (द़)। हिंदी का थ या द बोलेंगे, तो सुनने वाले को <i>tree</i> या <i>dis</i> सुनाई दे सकता है।</p>
 {{ex:think|थ़िंक|सोचना}}{{ex:three|थ़्री|तीन}}{{ex:tree|ट्री|पेड़}}{{ex:this|द़िस|यह}}
 <h3>फ़ और ज़: F और Z</h3>
 <p><b>F (फ़)</b> में ऊपर के दाँत निचले होंठ पर रखकर हवा निकालें; होंठ बंद नहीं होते। होंठ बंद करके बोला गया फ अंग्रेज़ी कान को P जैसा लगता है: <i>fan</i> की जगह <i>pan</i>। <b>Z (ज़)</b> भनभनाता हुआ "स" है, ज नहीं: zoo को "जू" कहें तो वह <i>Jew</i> सुनाई देता है। V और B का फ़र्क़ भी यहीं है: very (व़) / berry (ब)।</p>
-{{ex:fan|फ़ैन|पंखा}}{{ex:pan|पैन|कड़ाही, फ़्राइंग पैन}}{{ex:coffee|ˈकॉफ़ि|कॉफ़ी}}{{ex:zoo|ज़ू|चिड़ियाघर}}{{ex:berry|ˈबेरि|बेर जैसा छोटा फल}}
+{{ex:fan|फ़ैन|पंखा}}{{ex:pan|पैन|कड़ाही / पैन}}{{ex:coffee|ˈकॉफ़ि|कॉफ़ी}}{{ex:zoo|ज़ू|चिड़ियाघर}}{{ex:berry|ˈबेरि|बेर जैसा छोटा फल}}
 <h3>s से पहले "इ" न लगाएँ</h3>
 <p>school, station, special, street — इन शब्दों की शुरुआत में s के साथ दूसरा व्यंजन है। हिंदी की आदत से इनके आगे "इ" लग जाता है: इस्कूल, इस्टेशन। अंग्रेज़ी में सीधे s से शुरू करें: <b>स्कूल</b>, इस्कूल नहीं। शब्द के आख़िर की आवाज़ भी साफ़ बोलें, क्योंकि उससे मतलब बदल जाता है: bag (बैग) / back (बैक), cab (कैब) / cap (कैप)।</p>
-{{ex:school|स्कूल|विद्यालय, स्कूल}}
+{{ex:school|स्कूल|स्कूल}}
 <h3>ज़ोर सबसे ज़रूरी है</h3>
-<p>हिंदी में शब्द के सभी हिस्से लगभग बराबर ज़ोर से बोले जाते हैं। अंग्रेज़ी में हर शब्द का <b>एक हिस्सा ज़ोर से, लंबा और ऊँचा</b> बोला जाता है, और बाकी हिस्से छोटे और हल्के, अक्सर हल्के "अ" (schwa) के साथ। आवाज़ें सही हों पर ज़ोर ग़लत हो, तो भी शब्द पहचाना नहीं जाता।</p>
+<p>हिंदी में शब्द के सभी हिस्से लगभग बराबर ज़ोर से बोले जाते हैं। अंग्रेज़ी में दो या ज़्यादा हिस्सों वाले हर शब्द का <b>एक हिस्सा ज़ोर से, लंबा और ऊँचा</b> बोला जाता है, और बाकी हिस्से छोटे और हल्के, अक्सर हल्के "अ" (schwa) के साथ। आवाज़ें सही हों पर ज़ोर ग़लत हो, तो भी शब्द पहचाना नहीं जाता।</p>
 <div class="tbl"><table><tr><th>शब्द</th><th>ज़ोर</th><th>देवनागरी में</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>बˈनैना</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>होˈटेल</td></tr><tr><td class="k">about</td><td>a-<b>BOUT</b></td><td>अˈबाउट</td></tr><tr><td class="k">photography</td><td>pho-<b>TO</b>-gra-phy</td><td>फ़ˈटाग्रफ़ि</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>थ़र्ˈटीन / ˈथ़र्टि</td></tr></table></div>
 {{ex:about|अˈबाउट|के बारे में}}{{ex:photography|फ़ˈटाग्रफ़ि|फ़ोटोग्राफ़ी}}
 <h3>p, t, k में हल्की हवा</h3>
@@ -42,7 +42,7 @@ exports.LESSONS = [
 <h3>आर्टिकल नहीं — आम बात</h3>
 <p>किसी चीज़ के बारे में आम तौर पर बात करें ("कुत्ते वफ़ादार होते हैं"), तो बहुवचन या अगणनीय संज्ञा बिना आर्टिकल के आती है। खाने के नाम (lunch, dinner), भाषाएँ और खेल भी बिना आर्टिकल के। उल्टी ग़लती भी आम है: <b>The life is hard. ✗</b> → <b>Life is hard. ✓</b>, <b>She has a business experience. ✗</b> → <b>She has business experience. ✓</b>।</p>
 {{ex:I love dogs.|आइ लव़ डॉग्ज़|मुझे कुत्ते बहुत पसंद हैं (कुत्ते आम तौर पर)}}{{ex:I don't drink coffee.|आइ डोन्ट ड्रिंक ˈकॉफ़ि|मैं कॉफ़ी नहीं पीती}}{{ex:Let's have lunch.|लेट्स हैव़ लन्च|चलो, लंच करते हैं}}
-<div class="tip">सबसे आम ग़लती: <b>I'm teacher. ✗</b> → <b>I'm a teacher. ✓</b> प्रोफ़ेशन से पहले a कभी न भूलें। इंटरव्यू में "Tell me about yourself" के जवाब में यही सबसे पहले सुनाई देता है।</div>`},
+<div class="tip">सबसे आम ग़लती: <b>I'm teacher. ✗</b> → <b>I'm a teacher. ✓</b> प्रोफ़ेशन से पहले a कभी न भूलें। इंटरव्यू में <b>Tell me about yourself</b> के जवाब में यही सबसे पहले सुनाई देता है।</div>`},
 
 { id:"be", title:"3 · be (am, is, are) और बाकी क्रियाएँ", blurb:"am / is / are और do / does — दोनों को एक ही वाक्य में न मिलाएँ।", deck:"अपना परिचय", body:`
 <p>हिंदी के लगभग हर वाक्य के आख़िर में है / हैं / था आता है: "मैं थका हूँ", "मैं चाय पीता हूँ", "मैंने काम किया था"। इसलिए लगता है कि अंग्रेज़ी में भी हर वाक्य में am / is / was चाहिए। ऐसा नहीं है। अंग्रेज़ी वाक्य की क्रिया या तो <b>be (am, is, are)</b> होती है या <b>कोई दूसरी क्रिया</b> (like, live, work, agree…), और इसी से तय होता है कि नकारात्मक वाक्य और सवाल कैसे बनेंगे।</p>
@@ -55,14 +55,14 @@ exports.LESSONS = [
 {{ex:I agree.|आइ अˈग्री|मैं सहमत हूँ (I am agree ✗)}}{{ex:I like cricket.|आइ लाइक ˈक्रिकिट|मुझे क्रिकेट पसंद है (I am like ✗)}}{{ex:I live in Mumbai.|आइ लिव़ इन मुम्ˈबाइ|मैं मुंबई में रहता हूँ (I am live ✗)}}
 <h3>he, she, it के साथ -s</h3>
 <p>कर्ता एक व्यक्ति या चीज़ हो (he, she, it — I और you नहीं), तो Simple Present (जिसे Present Indefinite भी कहते हैं) की क्रिया में <b>-s</b> लगता है। नकारात्मक वाक्य और सवाल में <b>does</b> आता है, और तब क्रिया का -s हट जाता है। हिंदी में यह मेल "करता है / करती है" में दिखता है, अंग्रेज़ी में सिर्फ़ एक छोटे-से -s में, इसलिए बोलते समय इसे न छोड़ें।</p>
-{{ex:My brother works in Delhi.|माइ ˈब्रद़र वर्क्स इन ˈडेलि|मेरे भाई दिल्ली में काम करते हैं}}{{ex:Does he speak English?|डज़ हि स्पीक ˈइंग्लिश|क्या वह अंग्रेज़ी बोलता है?}}{{ex:She doesn't eat meat.|शि ˈडज़न्ट ईट मीट|वह मांस नहीं खाती}}
+{{ex:My brother works in Delhi.|माइ ˈब्रद़र वर्क्स इन ˈडेलि|मेरा भाई दिल्ली में काम करता है}}{{ex:Does he speak English?|डज़ हि स्पीक ˈइंग्लिश|क्या वह अंग्रेज़ी बोलता है?}}{{ex:She doesn't eat meat.|शि ˈडज़न्ट ईट मीट|वह मांस नहीं खाती}}
 <div class="tip">उलझन हो तो ख़ुद से पूछें: "इस वाक्य में be के अलावा <b>कोई दूसरी क्रिया</b> (like, live, want, go, agree…) है?" है, तो do / does; नहीं है (सिर्फ़ पहचान, जगह या हालत), तो be। छोटे जवाब भी इसी से बनते हैं: Are you tired? — Yes, I am. / Do you like tea? — Yes, I do.</div>`},
 
 { id:"polite", title:"4 · विनम्रता से अनुरोध करना", blurb:"Can you → Could you → Would you mind। \"Give me\" अब नहीं!", deck:"सबसे ज़रूरी 1", body:`
 <p>हिंदी में विनम्रता <b>आप</b> और क्रिया के रूप में होती है: "पानी दो" से "पानी दीजिए" तक। अंग्रेज़ी में you एक ही है और "दीजिए" जैसा कोई रूप नहीं, इसलिए विनम्रता <b>वाक्य के ढाँचे</b> से आती है: could, would, please। "मुझे एक कॉफ़ी दीजिए" को शब्दशः Give me one coffee कहें, तो सुनने वाले को यह हुक्म जैसा लगता है।</p>
 <h3>विनम्रता की सीढ़ी</h3>
 <div class="tbl"><table><tr><th>वाक्य</th><th>कैसा लगता है</th><th>कहाँ</th></tr><tr><td class="k">Give me ~.</td><td>हुक्म, रूखा</td><td>न कहें</td></tr><tr><td class="k">Can you ~?</td><td>सहज अनुरोध</td><td>दोस्त, दुकान</td></tr><tr><td class="k">Could you ~?</td><td>विनम्र अनुरोध</td><td>अजनबी, ऑफ़िस</td></tr><tr><td class="k">Would you mind ~ing?</td><td>बहुत विनम्र</td><td>बड़ा काम, सीनियर</td></tr></table></div>
-{{ex:Could you help me?|कड यु हेल्प मि|क्या आप मेरी मदद कर सकते हैं?}}{{ex:Could you say that again?|कड यु से द़ैट अˈगेन|क्या आप एक बार फिर से कह सकते हैं?}}{{ex:Would you mind taking a picture of us?|वड यु माइन्ड ˈटेकिङ अ ˈपिक्चर अव़ अस|क्या आप हमारी एक फ़ोटो खींच देंगे?}}
+{{ex:Could you help me?|कड यु हेल्प मि|क्या आप मेरी मदद कर सकते हैं?}}{{ex:Could you say that again?|कड यु से द़ैट अˈगेन|क्या आप फिर से कहेंगे?}}{{ex:Would you mind taking a picture of us?|वड यु माइन्ड ˈटेकिङ अ ˈपिक्चर अव़ अस|क्या आप हमारी एक फ़ोटो खींच देंगे?}}
 <h3>ऑर्डर करते समय: Can I get ~? / I'd like ~</h3>
 <p>I want ~ बच्चे की ज़िद जैसा लग सकता है, और one coffee में गिनती पर ज़ोर है। दुकान या कैफ़े में ऐसे कहें:</p>
 {{ex:Can I get a latte, please?|कन आइ गेट अ ˈलाटे प्लीज़|एक लाटे दे दीजिए}}{{ex:I'd like a window seat.|आइड लाइक अ ˈविन्डो सीट|मुझे खिड़की वाली सीट चाहिए}}
@@ -90,7 +90,7 @@ exports.LESSONS = [
 <div class="tip">How was your weekend? का जवाब past में दें, Any plans for the weekend? का going to में। सवाल का टेंस दोहराना सबसे आसान तरीक़ा है। और याद रखें: "से + रहा है" (2020 से काम कर रहा हूँ) अंग्रेज़ी में Present Perfect है; इस पर आगे पूरा पाठ है।</div>`},
 
 { id:"prep", title:"6 · प्रीपोज़िशन in / on / at", blurb:"बड़ा दायरा हो तो in, एक दिन हो तो on, एक बिंदु हो तो at।", deck:"संख्या, समय और तारीख़", body:`
-<p>हिंदी में परसर्ग (में, पर, को, से) संज्ञा के <b>बाद</b> आते हैं: घर में, मेज़ पर। अंग्रेज़ी में preposition <b>पहले</b> आता है: in the house, on the table। मुश्किल यह है कि एक परसर्ग कई prepositions के बराबर है: "में" = in और कभी on, "को" = on या in, "से" = from, since, by, with। इसलिए हिंदी शब्द से नहीं, <b>दायरे</b> से सोचें: बड़ा दायरा in, छोटा at।</p>
+<p>हिंदी में परसर्ग (में, पर, को, से) संज्ञा के <b>बाद</b> आते हैं: घर में, मेज़ पर। अंग्रेज़ी में प्रीपोज़िशन <b>पहले</b> आता है: in the house, on the table। मुश्किल यह है कि एक परसर्ग कई प्रीपोज़िशन के बराबर है: "में" = in और कभी on, "को" = on या in, "से" = from, since, by, with। इसलिए हिंदी शब्द से नहीं, <b>दायरे</b> से सोचें: बड़ा दायरा in, छोटा at।</p>
 <h3>समय</h3>
 <div class="tbl"><table><tr><th>प्रीपोज़िशन</th><th>दायरा</th><th>उदाहरण</th></tr><tr><td class="k">in</td><td>महीना, साल, मौसम, दिन का हिस्सा</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>दिन, तारीख़, कोई ख़ास दिन</td><td>on Monday, on May 3rd, on my birthday, on Diwali</td></tr><tr><td class="k">at</td><td>घड़ी का समय, एक पल</td><td>at 7, at noon, at night</td></tr></table></div>
 <p>"सोमवार को" → <b>on</b> Monday; "शाम को" → <b>in the</b> evening (at evening ✗); "5 बजे" → <b>at</b> five।</p>
@@ -99,8 +99,8 @@ exports.LESSONS = [
 <div class="tbl"><table><tr><th>प्रीपोज़िशन</th><th>मतलब</th><th>उदाहरण</th></tr><tr><td class="k">in</td><td>किसी चीज़ के अंदर, शहर, देश</td><td>in the car, in Delhi, in India</td></tr><tr><td class="k">on</td><td>सतह पर, सड़क, बस-ट्रेन, स्क्रीन</td><td>on the table, on Main Street, on the bus, on Netflix</td></tr><tr><td class="k">at</td><td>एक बिंदु, किसी काम की जगह</td><td>at the station, at work, at home</td></tr></table></div>
 <p>"Netflix पर" हो या "Netflix में", अंग्रेज़ी में <b>on</b> Netflix (in Netflix ✗)। बस और ट्रेन के लिए भी on, भले हिंदी में "बस में" कहते हैं।</p>
 {{ex:I'm on the bus.|आइम आन द़ बस|मैं बस में हूँ}}{{ex:Let's meet at the station.|लेट्स मीट अट द़ ˈस्टेशन|स्टेशन पर मिलते हैं}}
-<h3>जहाँ preposition नहीं लगता</h3>
-<p><b>next, last, this, every, tomorrow, yesterday</b> से पहले कोई preposition नहीं लगता। कुछ क्रियाओं के साथ हिंदी का परसर्ग अंग्रेज़ी में आता ही नहीं, या बदल जाता है: "प्रपोज़ल के बारे में चर्चा" → <b>discuss the proposal</b> (discuss about ✗); "डॉक्टर से शादी" → married <b>to</b> a doctor (married with ✗)।</p>
+<h3>जहाँ प्रीपोज़िशन नहीं लगता</h3>
+<p><b>next, last, this, every, tomorrow, yesterday</b> से पहले कोई प्रीपोज़िशन नहीं लगता। कुछ क्रियाओं के साथ हिंदी का परसर्ग अंग्रेज़ी में आता ही नहीं, या बदल जाता है: "प्रपोज़ल के बारे में चर्चा" → <b>discuss the proposal</b> (discuss about ✗); "डॉक्टर से शादी" → married <b>to</b> a doctor (married with ✗)।</p>
 {{ex:See you next week.|सी यु नेक्स्ट वीक|अगले हफ़्ते मिलते हैं (on next week ✗)}}
 <div class="tip">अपवाद भी याद रखें: <b>at night</b> (रात को), पर <b>in the morning / afternoon / evening</b>। वीकेंड के लिए अमेरिका में <b>on the weekend</b>, ब्रिटेन में <b>at the weekend</b>।</div>`},
 
@@ -118,7 +118,7 @@ exports.LESSONS = [
 <p>हामी भरना भी ज़रूरी है: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
 <h3>बातचीत ख़त्म कैसे करें</h3>
 {{ex:Well, I should get going.|वेल आइ शड गेट ˈगोइङ|अच्छा, अब मुझे चलना चाहिए}}{{ex:It was nice talking to you.|इट वज़ नाइस ˈटॉकिङ ट यु|आपसे बात करके अच्छा लगा}}
-<div class="tip">नकारात्मक वाक्य पर हामी भरनी हो, तो <b>Me neither</b>: "I don't like horror movies." → "Me neither." (Me too ✗)। अमेरिकी बोलचाल में Me either भी सुनाई देता है, पर Me neither मानक रूप है।</div>`},
+<div class="tip">नकारात्मक वाक्य पर हामी भरनी हो, तो <b>Me neither</b>: <b>I don't like horror movies.</b> → <b>Me neither.</b> (Me too ✗)। अमेरिकी बोलचाल में Me either भी सुनाई देता है, पर Me neither मानक रूप है।</div>`},
 
 { id:"phrasal", title:"8 · फ़्रेज़ल वर्ब की शुरुआत", blurb:"क्रिया + छोटा शब्द = बिल्कुल नया मतलब। रोज़ की अंग्रेज़ी इन्हीं से चलती है।", deck:"फ़्रेज़ल वर्ब", body:`
 <p>फ़्रेज़ल वर्ब (phrasal verb) यानी <b>क्रिया + up, out, off, on जैसा छोटा शब्द</b>, जो मिलकर नया मतलब बनाते हैं। हिंदी में भी ऐसी जोड़ियाँ हैं ("निकल जाना", "बैठ जाना", "उठा लेना"), पर अंग्रेज़ी में यह छोटा शब्द अक्सर पूरा मतलब ही बदल देता है। किताबी शब्दों (postpone, discover) से कहीं ज़्यादा ये बोलचाल में सुनाई देते हैं।</p>
@@ -130,7 +130,7 @@ exports.LESSONS = [
 <p>कर्म (object) लेने वाले कई फ़्रेज़ल वर्ब दो हिस्सों में बँट सकते हैं। संज्ञा आगे या पीछे, कहीं भी आ सकती है, पर <b>it, them, me जैसे सर्वनाम हमेशा बीच में</b> आते हैं।</p>
 {{ex:Turn on the light. / Turn the light on.|टर्न आन द़ लाइट / टर्न द़ लाइट आन|लाइट जला दो (दोनों ✓)}}{{ex:Turn it on.|टर्न इट आन|इसे चालू कर दो (turn on it ✗)}}{{ex:I'll pick you up at seven.|आइल पिक यु अप अट ˈसेव़न|मैं सात बजे तुम्हें लेने आऊँगा}}
 <h3>जो फ़्रेज़ल वर्ब नहीं बँटते</h3>
-<p>look after, look for, get along with जैसे फ़्रेज़ल वर्ब, जिनमें preposition जुड़ा है, नहीं बँटते: <i>look after my cat</i>, <i>look after her</i>।</p>
+<p>look after, look for, get along with जैसे फ़्रेज़ल वर्ब, जिनमें प्रीपोज़िशन जुड़ा है, नहीं बँटते: <i>look after my cat</i>, <i>look after her</i>।</p>
 <div class="tip">फ़्रेज़ल वर्ब को एक शब्द की तरह <b>पूरा</b> याद करें, उदाहरण के साथ; तब सर्वनाम की जगह भी अपने आप याद रहेगी। रोज़ सिर्फ़ तीन फ़्रेज़ल वर्ब बातचीत में इस्तेमाल करके देखें!</div>`},
 
 { id:"numbers", title:"9 · संख्या, समय और क़ीमत बोलना", blurb:"लाख और करोड़ अंग्रेज़ी में कैसे बनते हैं, 13 और 30 में फ़र्क़, और क़ीमत पढ़ने का तरीक़ा।", deck:"संख्या, समय और तारीख़", body:`
@@ -154,24 +154,24 @@ exports.LESSONS = [
 <h3>बुनियादी ढाँचा</h3>
 <div class="tbl"><table><tr><th>हिस्सा</th><th>उदाहरण</th></tr><tr><td>अभिवादन</td><td class="k">Hi Sarah, / Dear Mr. Sharma,</td></tr><tr><td>पहली लाइन (हालचाल, मक़सद)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>मुख्य बात (अनुरोध)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>समापन</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>आख़िरी शब्द</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
 <h3>अभिवादन: Hi + नाम काफ़ी है</h3>
-<p>अमेरिकी कंपनियों में पहली बार लिखते समय भी <b>Hi + पहला नाम</b> ठीक है; बहुत औपचारिक मौक़े पर <b>Dear Mr. / Ms. + सरनेम</b>। Respected Sir, Dear Manager या "Rahul Sir" विदेश में नहीं चलते; नाम लिखें।</p>
+<p>अमेरिकी कंपनियों में पहली बार लिखते समय भी <b>Hi + पहला नाम</b> ठीक है; बहुत औपचारिक मौक़े पर <b>Dear Mr. / Ms. + सरनेम</b>। Respected Sir, Dear Manager या Rahul Sir विदेश में नहीं चलते; नाम लिखें।</p>
 {{ex:I hope this email finds you well.|आइ होप द़िस ˈईमेल फ़ाइन्ड्ज़ यु वेल|उम्मीद है आप ठीक होंगे}}{{ex:I'm writing to follow up on our meeting.|आइम ˈराइटिङ ट ˈफ़ालो अप आन आउअर ˈमीटिङ|पिछली मीटिंग के सिलसिले में लिख रहा हूँ}}
 <h3>अनुरोध नरमी से, डेडलाइन साफ़</h3>
 {{ex:Could you send me the report by Thursday?|कड यु सेन्ड मि द़ रिˈपॉर्ट बाइ ˈथ़र्ज़्डे|क्या आप गुरुवार तक रिपोर्ट भेज सकते हैं?}}{{ex:Thanks for your patience.|थ़ैंक्स फ़र युर ˈपेशन्स|इंतज़ार के लिए धन्यवाद}}
-<p>ASAP से जल्दबाज़ी झलकती है; हो सके तो <b>by + दिन / तारीख़</b> से समय दें। Kindly do the needful की जगह साफ़ लिखें कि क्या चाहिए: <b>Could you please approve the invoice?</b> PFA की जगह <b>I've attached the report</b>, और Please revert की जगह <b>Please let me know</b> या <b>I'll get back to you</b>।</p>
-{{ex:I've attached the report.|आइव़ अˈटैच्ट द़ रिˈपॉर्ट|मैंने रिपोर्ट अटैच कर दी है}}{{ex:I'll get back to you.|आइल गेट बैक ट यु|मैं आपको बाद में जवाब दूँगा}}
+<p>ASAP से जल्दबाज़ी झलकती है; हो सके तो <b>by + दिन / तारीख़</b> से समय दें। Kindly do the needful की जगह साफ़ लिखें कि क्या चाहिए: <b>Could you please approve the invoice?</b> PFA की जगह <b>I've attached the report</b>। Please revert की जगह <b>Please let me know</b> लिखें, और जब जवाब आपको बाद में देना हो, तो <b>I'll get back to you</b>।</p>
+{{ex:I've attached the report.|आइव़ अˈटैच्ट द़ रिˈपॉर्ट|मैंने रिपोर्ट अटैच कर दी है}}{{ex:I'll get back to you.|आइल गेट बैक ट यु|मैं आपको बाद में जवाब दूँगा / दूँगी}}
 <h3>शुक्रिया और शाबाशी</h3>
 <p>मेहनत की तारीफ़ के लिए हिंदी वाक्यों का शब्दशः अनुवाद न करें; अंग्रेज़ी के अपने तय वाक्य हैं:</p>
 <ul><li>प्रोजेक्ट पूरा होने पर: <b>Thanks for all your hard work!</b></li><li>शुक्रवार के ईमेल के आख़िर में: <b>Have a great weekend!</b></li><li>मदद मिलने पर: <b>I really appreciate your help.</b></li></ul>
-<div class="tip">हर बार "Sorry for the late reply" लिखना ज़रूरी नहीं। <b>Thanks for your patience</b> लिखें: बिना माफ़ी के भी यह विनम्र और सकारात्मक लगता है। आख़िर में Thanks and regards भी बिल्कुल ठीक है।</div>`},
+<div class="tip">हर बार <b>Sorry for the late reply</b> लिखना ज़रूरी नहीं। <b>Thanks for your patience</b> लिखें: बिना माफ़ी के भी यह विनम्र और सकारात्मक लगता है। आख़िर में Thanks and regards भी बिल्कुल ठीक है।</div>`},
 
 { id:"idioms", title:"11 · मुहावरे और स्लैंग कैसे इस्तेमाल करें", blurb:"शब्दशः अनुवाद करें तो अजीब लगने वाले वाक्य। इन्हें कब और किसके सामने बोलें?", deck:"अंग्रेज़ी मुहावरे", body:`
-<p>मुहावरा (idiom) वह वाक्य है जिसका मतलब शब्दों को जोड़कर नहीं निकलता। "a piece of cake" केक की बात नहीं है, इसका मतलब है "बहुत आसान" — ठीक वैसे ही जैसे "बाएँ हाथ का खेल" में कोई हाथ नहीं होता। फ़िल्में और वेब सीरीज़ बिना सबटाइटल के समझनी हों, तो ये जानने ज़रूरी हैं।</p>
+<p>मुहावरा (idiom) वह वाक्य है जिसका मतलब शब्दों को जोड़कर नहीं निकलता। <b>a piece of cake</b> केक की बात नहीं है, इसका मतलब है "बहुत आसान" — ठीक वैसे ही जैसे "बाएँ हाथ का खेल" में कोई हाथ नहीं होता। फ़िल्में और वेब सीरीज़ बिना सबटाइटल के समझनी हों, तो ये जानने ज़रूरी हैं।</p>
 <h3>तस्वीर बनाकर याद करें</h3>
 <p>ज़्यादातर मुहावरे मन में एक तस्वीर बना लेने से आसानी से याद हो जाते हैं।</p>
 {{ex:It's a piece of cake.|इट्स अ पीस अव़ केक|बाएँ हाथ का खेल है (केक का एक टुकड़ा खाने जितना आसान)}}{{ex:It costs an arm and a leg.|इट कॉस्ट्स अन आर्म अन्ड अ लेग|बहुत महँगा है (जैसे हाथ-पैर देने पड़ें)}}{{ex:I'm all ears.|आइम ऑल इर्ज़|मैं पूरे ध्यान से सुन रहा हूँ (पूरा शरीर कान)}}
 <h3>हिंदी से मिलते-जुलते मुहावरे</h3>
-<div class="tbl"><table><tr><th>अंग्रेज़ी</th><th>हिंदी</th></tr><tr><td class="k">Speak of the devil!</td><td>शैतान का नाम लिया और शैतान हाज़िर</td></tr><tr><td class="k">Kill two birds with one stone</td><td>एक पंथ दो काज</td></tr><tr><td class="k">When pigs fly</td><td>जब सूरज पश्चिम से निकलेगा</td></tr><tr><td class="k">A blessing in disguise</td><td>जो होता है, अच्छे के लिए होता है</td></tr></table></div>
+<div class="tbl"><table><tr><th>अंग्रेज़ी</th><th>हिंदी</th></tr><tr><td class="k">Speak of the devil!</td><td>शैतान का नाम लिया और शैतान हाज़िर</td></tr><tr><td class="k">Kill two birds with one stone</td><td>एक पंथ दो काज</td></tr><tr><td class="k">When pigs fly</td><td>जब सूरज पश्चिम से उगेगा</td></tr><tr><td class="k">A blessing in disguise</td><td>छिपा हुआ वरदान</td></tr></table></div>
 <h3>हिंदी मुहावरों का शब्दशः अनुवाद न करें</h3>
 <p>"दिमाग़ खाना" को <b>He's eating my head ✗</b> कहें, तो अंग्रेज़ी बोलने वाला नहीं समझेगा; कहें <b>He's bugging me</b> या <b>He's driving me crazy</b>। "नाक कटना" → <b>lose face</b>। और <b>It's like that only</b> इंडियन इंग्लिश है: भारत में चलता है, विदेश में <b>That's just how it is</b> कहें।</p>
 <h3>मुहावरा या स्लैंग?</h3>
@@ -182,7 +182,7 @@ exports.LESSONS = [
 
 exports.CHECKS = {
   pron: [
-    ["अंग्रेज़ी R बोलते समय जीभ की नोक कहाँ होती है?", ["ऊपर के दाँतों के पीछे मसूड़े को छूती है","दाँतों के बीच से बाहर निकलती है","कहीं नहीं छूती","निचले होंठ पर लगती है"], 2, "अंग्रेज़ी R में जीभ की नोक कहीं नहीं छूती; छुए तो L बन जाता है। हिंदी का र नोक को हल्का-सा छूकर बनता है, यही फ़र्क़ है।"],
+    ["अंग्रेज़ी R बोलते समय जीभ की नोक कहाँ होती है?", ["ऊपर के दाँतों के पीछे मसूड़े को छूती है","दाँतों के बीच से बाहर निकलती है","कहीं नहीं छूती","निचले होंठ पर लगती है"], 2, "अंग्रेज़ी R में जीभ की नोक कहीं नहीं छूती, जबकि L में वह मसूड़े को छूती है। हिंदी का र नोक को हल्का-सा छूकर बनता है; अंग्रेज़ी R ऐसा नहीं है।"],
     ["think का th सही कैसे बोलें?", ["जीभ की नोक दाँतों के बीच हल्की-सी बाहर निकालकर हवा छोड़ें","दोनों होंठ मिलाकर खोलें","ऊपर के दाँत निचले होंठ पर रखें","जीभ को पीछे मोड़ें"], 0, "TH में जीभ की नोक दाँतों के बीच दिखनी चाहिए। हिंदी का थ बोलें तो शब्द tink जैसा लगता है, और s बोलें तो sink।"],
     ["hotel में ज़ोर कहाँ है?", ["ho (पहले हिस्से पर)","कहीं ज़ोर नहीं","दोनों पर बराबर","tel (दूसरे हिस्से पर)"], 3, "ho-TEL: दूसरा हिस्सा ज़ोर से और लंबा बोलें — होˈटेल।"]
   ],
@@ -209,7 +209,7 @@ exports.CHECKS = {
   prep: [
     ["\"7 बजे मिलते हैं\" = Let's meet ___ 7.", ["in","at","on","to"], 1, "घड़ी के समय से पहले at।"],
     ["\"सोमवार को\" = ___ Monday", ["on","in","at","by"], 0, "दिन और तारीख़ से पहले on; हिंदी का \"को\" यहाँ on बनता है।"],
-    ["सही वाक्य कौन-सा है?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every से पहले कोई preposition नहीं लगता।"]
+    ["सही वाक्य कौन-सा है?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every से पहले कोई प्रीपोज़िशन नहीं लगता।"]
   ],
   smalltalk: [
     ["कैफ़े का स्टाफ़ How are you today? पूछे, तो सबसे स्वाभाविक जवाब कौन-सा है?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "How are you? एक अभिवादन है। छोटा जवाब दें और पलटकर पूछें।"],
@@ -228,7 +228,7 @@ exports.CHECKS = {
   ],
   email: [
     ["जिस क्लाइंट को आप पहली बार लिख रहे हैं, उनका नाम Jenny Park है। सबसे सुरक्षित अभिवादन कौन-सा है?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "अमेरिकी ऑफ़िस ईमेल में Hi + नाम सबसे सुरक्षित है; बहुत औपचारिक मौक़े पर Dear Ms. Park लिखें।"],
-    ["प्रोजेक्ट पूरा करने वाली टीम को उनकी मेहनत के लिए शुक्रिया कैसे कहेंगे?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "मेहनत के लिए आभार: Thanks for all your hard work! \"बहुत तकलीफ़ उठाई\" जैसा शब्दशः अनुवाद (You suffered a lot) अंग्रेज़ी में अजीब लगता है।"],
+    ["प्रोजेक्ट पूरा करने वाली टीम को उनकी मेहनत के लिए शुक्रिया कैसे कहेंगे?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "मेहनत के लिए आभार: Thanks for all your hard work! You suffered a lot और Good suffering अंग्रेज़ी में शुक्रिया नहीं लगते, और Please work harder उल्टा ताना है।"],
     ["डेडलाइन के लिए विनम्र अनुरोध वाला वाक्य कौन-सा है?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you ~? + by + दिन: नरम, पर साफ़।"]
   ],
   idioms: [

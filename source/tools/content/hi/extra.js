@@ -29,7 +29,7 @@ Does this bus go to the airport? | Does this bus go to the airport? | No, you ne
 Which stop should I get off at? | Which stop should I get off at for the museum? | Get off at Park Street. It's three stops from here. | म्यूज़ियम के लिए मुझे किस स्टॉप पर उतरना चाहिए? / पार्क स्ट्रीट पर उतरिए। यहाँ से तीसरा स्टॉप है।
 Can you take me to this address? | Can you take me to this address? | Sure. It'll take about twenty minutes. | मुझे इस पते पर ले चलेंगे? / ज़रूर। लगभग बीस मिनट लगेंगे।
 How long does it take? | How long does it take to get downtown? | About fifteen minutes by subway. | डाउनटाउन पहुँचने में कितना समय लगता है? / मेट्रो से लगभग पंद्रह मिनट।
-Is this seat taken? | Excuse me, is this seat taken? | No, go ahead. | माफ़ कीजिए, क्या यह सीट ख़ाली है? / हाँ, बैठ जाइए।
+Is this seat taken? | Excuse me, is this seat taken? | No, go ahead. | माफ़ कीजिए, क्या यहाँ कोई बैठा है? / नहीं, बैठ जाइए।
 A table for two, please. | Hi! How many? | A table for two, please. | नमस्ते! कितने लोग हैं? / दो लोगों के लिए टेबल, प्लीज़।
 What do you recommend? | What do you recommend? | The salmon is really popular. | आप क्या सुझाएँगे? / सैल्मन यहाँ बहुत पसंद की जाती है।
 I'll have the steak. | Are you ready to order? | Yes, I'll have the steak, please. | ऑर्डर देने के लिए तैयार हैं? / जी, मैं स्टेक लूँगा।
@@ -63,7 +63,7 @@ Do you want to grab coffee sometime? | Do you want to grab coffee sometime? | Su
 You're a lifesaver! | I brought you an extra charger. | You're a lifesaver! Thank you! | मैं तुम्हारे लिए एक एक्स्ट्रा चार्जर लाया हूँ। / तुमने तो मुझे बचा लिया! शुक्रिया!
 I'll get back to you. | Can you join the meeting on Thursday? | Let me check my schedule, and I'll get back to you. | क्या आप गुरुवार की मीटिंग में आ पाएँगे? / मैं अपना शेड्यूल देखकर आपको बताती हूँ।
 I'm running late. | Where are you? The meeting starts in five minutes. | Sorry, I'm running late. I'll be there in ten. | आप कहाँ हैं? मीटिंग पाँच मिनट में शुरू होने वाली है। / सॉरी, मुझे थोड़ी देर हो रही है। दस मिनट में पहुँच जाऊँगा।
-Can we push the meeting to 3? | Can we push the meeting to 3? Something came up. | Sure, 3 works for me. | क्या मीटिंग 3 बजे तक टाल सकते हैं? एक काम आ गया है। / ज़रूर, 3 बजे मेरे लिए ठीक है।
+Can we push the meeting to 3? | Can we push the meeting to 3? Something came up. | Sure, 3 works for me. | क्या मीटिंग आगे खिसकाकर 3 बजे कर सकते हैं? एक काम आ गया है। / ज़रूर, 3 बजे मेरे लिए ठीक है।
 What's the deadline? | What's the deadline for the proposal? | End of the day Friday. | प्रपोज़ल की डेडलाइन कब है? / शुक्रवार को दिन ख़त्म होने तक।
 Who's calling, please? | Hi, can I speak to Ms. Gupta? | Sure. Who's calling, please? | नमस्ते, क्या मेरी गुप्ता जी से बात हो सकती है? / ज़रूर। आप कौन बोल रहे हैं?
 Sorry, you're breaking up. | Can you hear me now? | Sorry, you're breaking up. I'll call you back. | अब मेरी आवाज़ आ रही है? / माफ़ कीजिए, आवाज़ कट रही है। मैं आपको दोबारा कॉल करता हूँ।
@@ -230,7 +230,7 @@ I appreciate it | मैं इसकी बहुत क़द्र करत�
 Bless you | (छींकने पर) भगवान भला करे
 Have a nice day | आपका दिन शुभ हो
 Nice to see you | आपसे मिलकर अच्छा लगा (जान-पहचान वालों से)
-If you don't mind | अगर आपको ऐतराज़ न हो
+If you don't mind | अगर आपको एतराज़ न हो
 Would you like some? | थोड़ा लेंगे?
 Help yourself | बेझिझक लीजिए
 It's my pleasure | यह तो मेरी ख़ुशी है
@@ -275,15 +275,15 @@ Let the cat out of the bag | राज़ खोल देना | लेट द
 Kill two birds with one stone | एक पंथ दो काज | किल टू बर्ड्ज़ विद़ वन स्टोन | एक ही काम से दो काम निकल जाएँ तब। हिंदी में "एक तीर से दो निशाने" भी।
 Burn the midnight oil | देर रात तक काम करना / पढ़ना | बर्न द़ ˈमिड्नाइट ऑइल | परीक्षा या डेडलाइन से पहले।
 The best of both worlds | दोनों हाथों में लड्डू | द़ बेस्ट अव़ बोथ़ वर्ल्ड्ज़ | जब दो चीज़ों का फ़ायदा एक साथ मिले।
-A blessing in disguise | जो होता है, अच्छे के लिए होता है | अ ˈब्लेसिङ इन डिस्ˈगाइज़ | पहले बुरा लगा, पर बाद में फ़ायदेमंद निकला।
+A blessing in disguise | छिपा हुआ वरदान | अ ˈब्लेसिङ इन डिस्ˈगाइज़ | पहले बुरा लगा, पर बाद में फ़ायदेमंद निकला।
 Every cloud has a silver lining | हर मुश्किल में उम्मीद की किरण होती है | ˈएव़्रि क्लाउड हैज़ अ ˈसिल्व़र ˈलाइनिङ | मुश्किल में फँसे व्यक्ति को तसल्ली देने के लिए।
 Get cold feet | ऐन वक़्त पर घबरा जाना | गेट कोल्ड फ़ीट | शादी या किसी बड़े फ़ैसले से ठीक पहले हिचकिचाना।
 Hit the nail on the head | बिल्कुल सही बात कहना | हिट द़ नेल आन द़ हेड | जब किसी ने एकदम सटीक बात कही हो।
 In the same boat | एक ही नाव में सवार | इन द़ सेम बोट | एक जैसी मुश्किल में फँसे लोगों के लिए: "Don't worry, we're all in the same boat." हिंदी मुहावरा भी यही है।
 Miss the boat | मौक़ा हाथ से निकल जाना | मिस द़ बोट | अच्छा मौक़ा चूक जाने पर।
 No pain, no gain | मेहनत के बिना कुछ नहीं मिलता | नो पेन नो गेन | कसरत या पढ़ाई के समय अक्सर कहा जाता है।
-On the fence | दुविधा में | आन द़ फ़ेन्स | दीवार पर बैठा व्यक्ति, जो किसी तरफ़ नहीं उतर पा रहा: "I'm still on the fence about the job offer."
-Pull someone's leg | किसी की टाँग खींचना | पुल ˈसम्वन्ज़ लेग | मज़ाक़ में झूठ बोलना: "Relax, I'm just pulling your leg!" हिंदी में भी यही मुहावरा है।
+On the fence | दुविधा में | आन द़ फ़ेन्स | बाड़ पर बैठा व्यक्ति, जो किसी तरफ़ नहीं उतर पा रहा: "I'm still on the fence about the job offer."
+Pull someone's leg | किसी की टाँग खींचना | पुल ˈसम्वन्ज़ लेग | मज़ाक़ में झूठ बोलकर छेड़ना: "Relax, I'm just pulling your leg!" हिंदी का "टाँग खींचना" किसी को नीचा दिखाने के लिए भी होता है; अंग्रेज़ी में सिर्फ़ हल्का मज़ाक़।
 Sit tight | धैर्य से इंतज़ार करना | सिट टाइट | नतीजा आने तक कुछ न करना, बस रुकना।
 The last straw | बर्दाश्त की हद | द़ लैस्ट स्ट्रॉ | वह आख़िरी बात जिसके बाद सब्र का बाँध टूट जाए।
 Throw in the towel | हार मान लेना | थ़्रो इन द़ ˈटाउअल | बॉक्सिंग में तौलिया फेंककर हार मानने से आया है।

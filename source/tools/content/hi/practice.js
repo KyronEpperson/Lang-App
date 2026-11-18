@@ -54,11 +54,11 @@ module.exports = {
     { t: "mc", q: "Do you like coffee? का जवाब \"हाँ\" में कैसे देंगे?", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "सवाल do से है, तो जवाब भी do से: Yes, I do।" },
     { t: "mc", q: "\"वह मांस नहीं खाती\" अंग्रेज़ी में?", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "she का नकारात्मक: doesn't + बिना -s वाली क्रिया।" },
 
-    { t: "order", p: "मेरे भाई सोल में काम करते हैं", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "कर्ता एक व्यक्ति (he) है, इसलिए works में -s; यहाँ be नहीं लगता।" },
+    { t: "order", p: "मेरा भाई सोल में काम करता है", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "कर्ता एक व्यक्ति (he) है, इसलिए works में -s; यहाँ be नहीं लगता।" },
     { t: "order", p: "मैं स्टूडेंट नहीं हूँ", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "be का नकारात्मक not से बनता है, और पहचान से पहले आर्टिकल a लगता है।" },
     { t: "order", p: "उसके (लड़की के) पास दो कुत्ते हैं", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "she के साथ has; दो कुत्ते हैं, इसलिए बहुवचन: dogs।" },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "मेरे भाई सोल में रहते हैं", a: ["lives"], o: ["live", "is live", "living"], why: "कर्ता he है, इसलिए क्रिया में -s: lives।" },
+    { t: "fill", q: "My brother __ in Seoul.", p: "मेरा भाई सोल में रहता है", a: ["lives"], o: ["live", "is live", "living"], why: "कर्ता he है, इसलिए क्रिया में -s: lives।" },
     { t: "fill", q: "__ you tired?", p: "क्या आप थके हुए हैं?", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired हालत है, इसलिए सवाल be से; you के साथ are।" },
     { t: "fill", q: "We __ hungry.", p: "हमें भूख लगी है", a: ["are"], o: ["is", "am", "do"], why: "hungry हालत है, इसलिए be; we के साथ are।" },
 
@@ -83,8 +83,8 @@ module.exports = {
     { t: "fill", q: "No, not at __.", p: "(Would you mind ~? का जवाब) हाँ, ज़रूर", a: ["all"], o: ["any", "one", "ever"], why: "No, not at all = \"बिल्कुल एतराज़ नहीं\", यानी \"हाँ, कर देता हूँ\"।" },
 
     { t: "type", p: "क्या आप मेरी मदद कर सकते हैं? (विनम्रता से)", a: ["Could you help me", "Could you help me please", "Could you please help me", "Would you help me", "Would you help me please", "Would you mind helping me"], hint: "could · help — विनम्र अनुरोध", x: ["can"], why: "अजनबी से अनुरोध Could you ~? से करें।" },
-    { t: "type", p: "मुझे खिड़की वाली सीट चाहिए", a: pl(["I'd like a window seat", "I would like a window seat", "Can I get a window seat", "Could I get a window seat", "Can I have a window seat", "Could I have a window seat"]), hint: "I'd like · window seat — एक सीट से पहले आर्टिकल", x: ["the"], why: "एक सीट, पहली बार ज़िक्र, इसलिए आर्टिकल a: a window seat।" },
-    { t: "type", p: "दो कॉफ़ी दीजिए", a: pl(["Can I get two coffees", "Could I get two coffees", "Can I have two coffees", "Could I have two coffees", "I'd like two coffees", "I would like two coffees", "Two coffees"]), hint: "two · coffee — दो हैं तो बहुवचन", x: ["coffee"], why: "ऑर्डर में कॉफ़ी कप के हिसाब से गिनी जाती है, इसलिए बहुवचन: two coffees। हिंदी में \"दो कॉफ़ी\" में शब्द नहीं बदलता।" }
+    { t: "type", p: "मुझे खिड़की वाली सीट चाहिए (विनम्रता से)", a: pl(["I'd like a window seat", "I would like a window seat", "Can I get a window seat", "Could I get a window seat", "Can I have a window seat", "Could I have a window seat"]), hint: "I'd like · window seat — एक सीट से पहले आर्टिकल", x: ["the"], why: "एक सीट, पहली बार ज़िक्र, इसलिए आर्टिकल a: a window seat।" },
+    { t: "type", p: "दो कॉफ़ी दीजिए (विनम्रता से)", a: pl(["Can I get two coffees", "Could I get two coffees", "Can I have two coffees", "Could I have two coffees", "I'd like two coffees", "I would like two coffees", "Two coffees"]), hint: "two · coffee — दो हैं तो बहुवचन", x: ["coffee"], why: "ऑर्डर में कॉफ़ी कप के हिसाब से गिनी जाती है, इसलिए बहुवचन: two coffees। हिंदी में \"दो कॉफ़ी\" में शब्द नहीं बदलता।" }
   ],
 
   tense: [
@@ -104,7 +104,7 @@ module.exports = {
 
     { t: "type", p: "आज मैं घर से काम कर रही हूँ", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — अभी चल रहा काम", x: ["work"], why: "आज चल रहा काम: be + -ing।" },
     { t: "type", p: "पिछले वीकेंड मैं बीच पर गया था", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — V2 और आर्टिकल", x: ["a"], why: "go का V2 went (was नहीं); बीच के साथ आर्टिकल the: the beach।" },
-    { t: "type", p: "मैं एक कुकिंग क्लास करने वाली हूँ (प्लान)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — एक क्लास से पहले आर्टिकल", x: ["the"], why: "पहले से बना प्लान: going to; एक क्लास, पहली बार ज़िक्र, इसलिए आर्टिकल a।" }
+    { t: "type", p: "मैं एक कुकिंग क्लास लेने वाली हूँ (प्लान, take से)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — एक क्लास से पहले आर्टिकल", x: ["the"], why: "पहले से बना प्लान: going to; एक क्लास, पहली बार ज़िक्र, इसलिए आर्टिकल a।" }
   ],
 
   prep: [
@@ -116,15 +116,15 @@ module.exports = {
 
     { t: "order", p: "(जिसे हम दोनों जानते हैं, उस) स्टेशन पर मिलते हैं", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "एक बिंदु के लिए at; वही स्टेशन जिसे दोनों जानते हैं, इसलिए आर्टिकल the।" },
     { t: "order", p: "मेरा फ़ोन (उस) मेज़ पर है", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "सतह पर: on; सामने वाली मेज़ है, इसलिए आर्टिकल the।" },
-    { t: "order", p: "अगले हफ़्ते मिलते हैं", a: ["See", "you", "next", "week"], x: ["on"], why: "next से पहले कोई preposition नहीं लगता।" },
+    { t: "order", p: "अगले हफ़्ते मिलते हैं", a: ["See", "you", "next", "week"], x: ["on"], why: "next से पहले कोई प्रीपोज़िशन नहीं लगता।" },
 
     { t: "fill", q: "The meeting is __ three.", p: "मीटिंग तीन बजे है", a: ["at"], o: ["on", "to", "of"], why: "घड़ी के समय से पहले at।" },
     { t: "fill", q: "I was born __ 1998.", p: "मेरा जन्म 1998 में हुआ था", a: ["in"], o: ["on", "at", "to"], why: "साल से पहले in।" },
     { t: "fill", q: "See you __ Friday.", p: "शुक्रवार को मिलते हैं", a: ["on"], o: ["in", "at", "to"], why: "दिन से पहले on।" },
 
     { t: "type", p: "मैं सुबह कॉफ़ी पीता हूँ", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "coffee · morning — in + आर्टिकल", x: ["at"], why: "दिन के हिस्से के लिए in, और in the morning में आर्टिकल the ज़रूर लगता है।" },
-    { t: "type", p: "मैं अभी घर पर हूँ", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home — बिना आर्टिकल", x: ["the"], why: "at home में आर्टिकल the नहीं लगता।" },
-    { t: "type", p: "अगले वीकेंड मिलते हैं", a: ["See you next weekend"], hint: "see · next weekend — next से पहले preposition?", x: ["on"], why: "next से पहले कोई preposition नहीं लगता।" }
+    { t: "type", p: "मैं घर पर हूँ", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home — बिना आर्टिकल", x: ["the"], why: "at home में आर्टिकल the नहीं लगता।" },
+    { t: "type", p: "अगले वीकेंड मिलते हैं (See you से शुरू करें)", a: ["See you next weekend"], hint: "see · next weekend — next से पहले प्रीपोज़िशन?", x: ["on"], why: "next से पहले कोई प्रीपोज़िशन नहीं लगता।" }
   ],
 
   smalltalk: [
@@ -140,10 +140,10 @@ module.exports = {
 
     { t: "fill", q: "Pretty good! How __ you?", p: "बढ़िया! तुम बताओ?", a: ["about"], o: ["for", "with", "of"], why: "छोटा जवाब, फिर How about you? से पलटकर पूछना — यही तरीक़ा है।" },
     { t: "fill", q: "I know, __?", p: "बिल्कुल, सही कहा!", a: ["right"], o: ["light", "yes", "true"], why: "I know, right? ज़ोरदार सहमति है। right में R है; light (L) का मतलब रोशनी है।" },
-    { t: "fill", q: "Have you seen any good __ lately?", p: "आजकल कुछ अच्छा देखा?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "इस सवाल में any के बाद गणनीय संज्ञा बहुवचन में आती है: shows या movies।" },
+    { t: "fill", q: "Have you seen any good __ lately?", p: "आजकल कोई अच्छे शो या फ़िल्में देखीं?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "इस सवाल में any के बाद गणनीय संज्ञा बहुवचन में आती है: shows या movies।" },
 
-    { t: "type", p: "वीकेंड कैसा रहा?", a: ["How was your weekend"], hint: "how · weekend — past में", x: ["is"], why: "वीकेंड बीत चुका है, इसलिए past: was।" },
-    { t: "type", p: "आज मौसम अच्छा है", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today — आर्टिकल लगेगा?", x: ["a"], why: "weather अगणनीय है, इसलिए आर्टिकल a नहीं लगता (a nice weather ✗)।" },
+    { t: "type", p: "आपका वीकेंड कैसा रहा?", a: ["How was your weekend"], hint: "how · weekend — past में", x: ["is"], why: "वीकेंड बीत चुका है, इसलिए past: was।" },
+    { t: "type", p: "आज मौसम अच्छा (nice) है", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today — आर्टिकल लगेगा?", x: ["a"], why: "weather अगणनीय है, इसलिए आर्टिकल a नहीं लगता (a nice weather ✗)।" },
     { t: "type", p: "मुझे फ़िल्में देखना पसंद है", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "like · watch · movie — आम बात में बहुवचन", x: ["movie"], why: "फ़िल्मों की आम बात है, इसलिए बहुवचन: movies।" }
   ],
 
@@ -162,9 +162,9 @@ module.exports = {
     { t: "fill", q: "I work __ every morning.", p: "मैं रोज़ सुबह कसरत करता हूँ", a: ["out"], o: ["up", "off", "on"], why: "work out = कसरत करना।" },
     { t: "fill", q: "We ran out of __.", p: "अंडे ख़त्म हो गए", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "अंडे गिने जा सकते हैं; सब ख़त्म हो गए, तो बहुवचन: eggs।" },
 
-    { t: "type", p: "प्लीज़ इसे बंद कर दीजिए", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — सर्वनाम बीच में", x: ["on"], why: "सर्वनाम it, turn और off के बीच में आता है।" },
+    { t: "type", p: "प्लीज़ इसे बंद कर दीजिए (turn से)", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — सर्वनाम बीच में", x: ["on"], why: "सर्वनाम it, turn और off के बीच में आता है।" },
     { t: "type", p: "मैं दो बिल्लियों का ध्यान रखती हूँ", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — दो हैं तो बहुवचन", x: ["cat"], why: "look after = ध्यान रखना; दो बिल्लियाँ हैं, इसलिए बहुवचन: cats।" },
-    { t: "type", p: "दूध ख़त्म हो गया", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — आर्टिकल लगेगा?", x: ["a"], why: "milk अगणनीय है, इसलिए आर्टिकल a नहीं लगता।" }
+    { t: "type", p: "दूध ख़त्म हो गया (run out of से)", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — आर्टिकल लगेगा?", x: ["a"], why: "milk अगणनीय है, इसलिए आर्टिकल a नहीं लगता।" }
   ],
 
   numbers: [
@@ -183,8 +183,8 @@ module.exports = {
     { t: "fill", q: "I'll be there in ten __.", p: "मैं दस मिनट में पहुँच जाऊँगा", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "दस मिनट हैं, इसलिए बहुवचन: minutes।" },
 
     { t: "type", p: "साढ़े तीन बजे हैं", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — घंटा और मिनट सीधे", x: ["thirteen"], why: "घंटा और मिनट सीधे पढ़ें: three thirty। thirteen (13) से न मिलाएँ।" },
-    { t: "type", p: "यह 20 डॉलर का है", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "twenty · dollar — एक से ज़्यादा तो बहुवचन", x: ["dollar"], why: "20 डॉलर हैं, इसलिए बहुवचन: dollars।" },
-    { t: "type", p: "मैं हफ़्ते में दो बार कसरत करता हूँ", a: ["I work out twice a week", "I exercise twice a week"], hint: "work out · twice · week — \"में\" के लिए कौन-सा आर्टिकल?", x: ["the"], why: "\"हफ़्ते में\" = a week, यानी आर्टिकल a (the week ✗)।" }
+    { t: "type", p: "20 डॉलर हुए", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "twenty · dollar — एक से ज़्यादा तो बहुवचन", x: ["dollar"], why: "20 डॉलर हैं, इसलिए बहुवचन: dollars।" },
+    { t: "type", p: "मैं हफ़्ते में दो बार (twice) कसरत करता हूँ", a: ["I work out twice a week", "I exercise twice a week"], hint: "work out · twice · week — \"में\" के लिए कौन-सा आर्टिकल?", x: ["the"], why: "\"हफ़्ते में\" = a week, यानी आर्टिकल a (the week ✗)।" }
   ],
 
   email: [
@@ -202,7 +202,7 @@ module.exports = {
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "शेड्यूल के बारे में पूछने के लिए लिख रहा हूँ", a: ["to"], o: ["for", "about", "at"], why: "मक़सद बताने के लिए I'm writing to + V1।" },
     { t: "fill", q: "Thanks for all your hard __!", p: "आप सबकी मेहनत के लिए बहुत शुक्रिया!", a: ["work"], o: ["works", "working", "job"], why: "work (काम, मेहनत) अगणनीय है, इसलिए बहुवचन -s नहीं लगता।" },
 
-    { t: "type", p: "मेरी कल छुट्टी है", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be के साथ off", x: ["do"], why: "छुट्टी वाले दिन के लिए be off।" },
+    { t: "type", p: "कल मेरी छुट्टी है (off से)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be के साथ off", x: ["do"], why: "छुट्टी वाले दिन के लिए be off।" },
     { t: "type", p: "मैंने फ़ाइल अटैच कर दी है", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — वही फ़ाइल", x: ["a"], why: "जो फ़ाइल सामने वाले को मिलेगी, वही; इसलिए आर्टिकल the।" },
     { t: "type", p: "आपका वीकेंड अच्छा हो!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — एक वीकेंड से पहले आर्टिकल", x: ["the"], why: "एक वीकेंड है, इसलिए आर्टिकल a: a great weekend।" }
   ],
@@ -222,8 +222,8 @@ module.exports = {
     { t: "fill", q: "Speak of the __!", p: "शैतान का नाम लिया और शैतान हाज़िर!", a: ["devil"], o: ["tiger", "angel", "bird"], why: "हिंदी की तरह अंग्रेज़ी में भी शैतान ही आता है: devil।" },
     { t: "fill", q: "I'm feeling under __ weather.", p: "मेरी तबीयत थोड़ी ठीक नहीं है", a: ["the"], o: ["a", "an", "my"], why: "under the weather — यह आर्टिकल the के साथ ही बोला जाता है।" },
 
-    { t: "type", p: "बाएँ हाथ का खेल है", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — आर्टिकल न भूलें", x: ["the"], why: "a piece of cake — आर्टिकल a ज़रूर लगता है।" },
-    { t: "type", p: "मैं दुआ करूँगी कि सब अच्छा हो", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — उँगलियाँ कितनी?", x: ["finger"], why: "दो उँगलियाँ क्रॉस होती हैं, इसलिए बहुवचन: fingers।" },
-    { t: "type", p: "आज के लिए इतना ही", a: ["Let's call it a day"], hint: "call it · day — the नहीं", x: ["the"], why: "call it a day — आर्टिकल the नहीं, a।" }
+    { t: "type", p: "बाएँ हाथ का खेल है (मुहावरे में)", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — आर्टिकल न भूलें", x: ["the"], why: "a piece of cake — आर्टिकल a ज़रूर लगता है।" },
+    { t: "type", p: "मैं दुआ करूँगी कि सब अच्छा हो (मुहावरे में)", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — उँगलियाँ कितनी?", x: ["finger"], why: "दो उँगलियाँ क्रॉस होती हैं, इसलिए बहुवचन: fingers।" },
+    { t: "type", p: "आज के लिए इतना ही (मुहावरे में)", a: ["Let's call it a day"], hint: "call it · day — the नहीं", x: ["the"], why: "call it a day — आर्टिकल the नहीं, a।" }
   ]
 };

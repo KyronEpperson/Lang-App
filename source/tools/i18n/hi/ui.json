@@ -616,7 +616,7 @@
    "where": "html <h3> text"
   },
   "80% mastery of every deck in a group + all checks": {
-   "t": "ग्रुप के हर डेक में 80% पकड़ + सभी मिनी-टेस्ट",
+   "t": "ग्रुप के हर डेक में 80% कार्ड पक्के + सभी मिनी-टेस्ट",
    "ko": "그룹의 모든 덱 80% 마스터 + 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "html <span> text"
@@ -770,7 +770,7 @@
    "where": "html <span> text"
   },
   "Text size": {
-   "t": "फ़ॉन्ट",
+   "t": "टेक्स्ट साइज़",
    "ko": "글자 크기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3167,7 +3167,7 @@
    "where": "js PLAN_PRESETS()"
   },
   "Conversational in 90 days": {
-   "t": "90 दिन में बातचीत लायक",
+   "t": "90 दिन में बातचीत लायक़",
    "ko": "90일 만에 회화하기",
    "kind": "label",
    "where": "js ids()"
@@ -3392,7 +3392,7 @@
    "where": "js STR()"
   },
   "Verb conjugator": {
-   "t": "वर्ब के रूप",
+   "t": "क्रिया के रूप",
    "ko": "동사 활용",
    "kind": "label",
    "where": "js STR()"
@@ -3530,20 +3530,20 @@
    "where": "js step() <a>"
   },
   "Enter a dictionary form ending in 다.": {
-   "t": "वर्ब का बेस रूप लिखें (जैसे go)।",
+   "t": "क्रिया का मूल रूप (V1) लिखें, जैसे go।",
    "ko": "다로 끝나는 기본형을 입력하세요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js r() <p>"
   },
   "polite present": {
-   "t": "विनम्र वर्तमान",
+   "t": "विनम्र Present",
    "ko": "존댓말 현재",
    "kind": "label",
    "where": "js PATTERNS()"
   },
   "polite past": {
-   "t": "विनम्र भूतकाल",
+   "t": "विनम्र Past",
    "ko": "존댓말 과거",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3575,7 +3575,7 @@
    "where": "js l() <p>"
   },
   "dictionary form, e.g. 먹다": {
-   "t": "बेस रूप, जैसे eat",
+   "t": "मूल रूप (V1), जैसे eat",
    "ko": "기본형, 예: 먹다",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3656,7 +3656,7 @@
    "where": "html <button> text"
   },
   "verb stem + 지": {
-   "t": "वर्ब स्टेम + प्रत्यय",
+   "t": "क्रिया + प्रत्यय",
    "ko": "동사 어간 + 지",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3677,7 +3677,7 @@
    "where": "js stem()"
   },
   "verb · past (았/었어요)": {
-   "t": "क्रिया · भूतकाल",
+   "t": "क्रिया · Past",
    "ko": "동사 · 과거 (았/었어요)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4013,7 +4013,7 @@
    "where": "js cards()"
   },
   "cards mastered to 80%+ · all lesson checks passed": {
-   "t": "80%+ पकड़ वाले कार्ड · सभी मिनी-टेस्ट पास",
+   "t": "80%+ तक पक्के कार्ड · सभी मिनी-टेस्ट पास",
    "ko": "카드 80% 이상 마스터 · 레슨 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "js cards()"
@@ -4047,14 +4047,14 @@
    "where": "js (top level)"
   },
   "Pro": {
-   "t": "प्रो",
+   "t": "माहिर",
    "ko": "고수",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <a> text"
   },
   "Master": {
-   "t": "मास्टर",
+   "t": "उस्ताद",
    "ko": "달인",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4068,7 +4068,7 @@
    "where": "js TITLES()"
   },
   "Beginner": {
-   "t": "शुरुआती",
+   "t": "नौसिखिया",
    "ko": "입문",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4082,7 +4082,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Traveler": {
-   "t": "यात्री",
+   "t": "मुसाफ़िर",
    "ko": "여행자",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4194,13 +4194,13 @@
    "where": "js x()"
   },
   "good afternoon": {
-   "t": "शुभ दोपहर",
+   "t": "नमस्ते (दोपहर में)",
    "ko": "좋은 오후예요",
    "kind": "label",
    "where": "js x()"
   },
   "good evening": {
-   "t": "शुभ संध्या",
+   "t": "नमस्ते (शाम को)",
    "ko": "좋은 저녁이에요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4471,7 +4471,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#skills": {
-   "t": "#ख़ास-बातें",
+   "t": "#स्किल",
    "ko": "#실력",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -5132,7 +5132,7 @@
    ]
   },
   "Good afternoon": {
-   "t": "शुभ दोपहर",
+   "t": "नमस्ते (दोपहर में)",
    "ko": null,
    "kind": "label",
    "context": "i18nGet (optional gloss) — Today greeting gloss",
@@ -5142,7 +5142,7 @@
    ]
   },
   "Good evening": {
-   "t": "शुभ संध्या",
+   "t": "नमस्ते (शाम को)",
    "ko": null,
    "kind": "label",
    "context": "i18nGet (optional gloss) — Today greeting gloss",
@@ -6863,7 +6863,7 @@
    "example": "Listen: Hello there"
   },
   "{n} decks · {n} cards mastered to 80%+ · all lesson checks passed": {
-   "t": "{1} डेक · 80%+ पकड़ वाले कार्ड: {2} · सभी मिनी-टेस्ट पास",
+   "t": "{1} डेक · 80%+ तक पक्के कार्ड: {2} · सभी मिनी-टेस्ट पास",
    "ko": "덱 {1}개 · 카드 {2}장 80% 이상 마스터 · 확인 문제 모두 통과",
    "slots": "{1}=n, {2}=n",
    "example": "5 decks · 2 cards mastered to 80%+ · all lesson checks passed",

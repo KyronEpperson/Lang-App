@@ -6,7 +6,7 @@ module.exports = [
 <h3>एक "से", दो शब्द: for और since</h3>
 <p>हिंदी का "से" दोनों जगह चलता है। अंग्रेज़ी में देखें कि "से" से पहले क्या है: समय की लंबाई या शुरुआत का पल।</p>
 <div class="tbl"><table><tr><th>for + समय की लंबाई</th><th>since + शुरुआत का पल</th></tr><tr><td class="k">for three years ("तीन साल से")</td><td class="k">since 2020 ("2020 से")</td></tr><tr><td class="k">for two hours ("दो घंटे से")</td><td class="k">since Monday ("सोमवार से")</td></tr></table></div>
-<p><b>from two years</b> ✗ और <b>since two years</b> ✗ — लंबाई के साथ हमेशा <b>for</b>। from तभी आता है जब अंत भी बताया जाए: from 2018 to 2022।</p>
+<p><b>from two years</b> ✗ और <b>since two years</b> ✗ — लंबाई के साथ हमेशा <b>for</b>। from तभी आता है जब अंत भी बताया जाए: <b>from 2018 to 2022</b>।</p>
 <h3>How long…? = "कब से?", "कितने समय से?"</h3>
 {{ex:How long have you been here?|हाउ लॉङ हव़ यु बिन हिर|आप यहाँ कब से हैं?}}{{ex:How long have you studied English?|हाउ लॉङ हव़ यु ˈस्टडिड ˈइंग्लिश|आप कितने समय से अंग्रेज़ी पढ़ रहे हैं?}}
 <h3>just, already, yet</h3>
@@ -22,20 +22,20 @@ practice:[
 ["mc","\"क्या तुमने खाना खा लिया?\" अंग्रेज़ी में?","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","सवाल के आख़िर में yet; have के बाद V3 eaten।"],
 ["or","मैं पाँच साल से यहाँ रह रहा हूँ","I've lived here for five years","year since","पाँच साल — बहुवचन years; लंबाई के साथ for।"],
 ["or","मैं वह फ़िल्म पहले ही देख चुकी हूँ","I've already seen the movie","a saw","वही फ़िल्म जिसे दोनों जानते हैं — आर्टिकल the।"],
-["or","आप कितनी देर से इंतज़ार कर रहे हैं?","How long have you waited","did","\"कितनी देर से\" = How long have you + V3।"],
+["or","आप कितनी देर से इंतज़ार कर रहे हैं?","How long have you waited","did","\"कितनी देर से\" = How long have you + V3। चलते हुए काम के लिए बोलचाल में How long have you been waiting? ज़्यादा आम है (अगला पाठ)।"],
 ["fi","I've worked here __ two years.","मैं दो साल से यहाँ काम कर रहा हूँ","for","since|from|during","\"दो साल से\" — लंबाई, इसलिए for।"],
 ["fi","I've been here __ Monday.","मैं सोमवार से यहाँ हूँ","since","for|at|during","\"सोमवार से\" — शुरुआत का दिन, इसलिए since।"],
 ["fi","Have you finished __?","क्या आपने ख़त्म कर लिया?","yet|already","ever|never|since","सवाल के आख़िर में yet।"],
 ["ty","मैं तीन साल से यहाँ रह रहा हूँ","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — बहुवचन","year","तीन साल — बहुवचन years; \"से\" + लंबाई = for।"],
 ["ty","आप यहाँ कब से हैं?","How long have you been here","how long · have you · been here","are","\"कब से\" = How long have you + V3; are नहीं।"],
-["ty","मैं वह किताब पहले ही पढ़ चुकी हूँ","I've already read the book|I've read the book already|I already read the book","already · read · book — आर्टिकल the","a","वही किताब जिसे दोनों जानते हैं — आर्टिकल the।"]]},
+["ty","किताब तो मैं पहले ही पढ़ चुकी हूँ","I've already read the book|I've read the book already|I already read the book","already · read · book — आर्टिकल the","a","वही किताब जिसे दोनों जानते हैं — आर्टिकल the।"]]},
 { id:"stative-since", title:"से = since? स्थिति वाली क्रियाएँ और \"कब से\"", blurb:"\"मैं 2015 से यहाँ रह रहा हूँ\" = I've lived here since 2015 — I am living नहीं।", deck:"अपना परिचय", body:`
 <p>"मैं दो साल से दिल्ली में रह रहा हूँ", "मैं उसे दस साल से जानता हूँ" — हिंदी में ये वाक्य बिल्कुल सीधे हैं। अंग्रेज़ी में इनमें तीन जाल हैं, और तीनों भारत में बहुत आम हैं: ग़लत क्रिया पर -ing, ग़लत टेंस और ग़लत "से"।</p>
 <h3>1. स्थिति बताने वाली क्रियाओं (stative verbs) पर -ing नहीं</h3>
 <p>कुछ क्रियाएँ काम नहीं, <b>स्थिति</b> बताती हैं: know, understand, believe, want, need, like, love, have (मालिकाना), belong, mean, seem, remember। ये "अभी" के लिए भी Simple Present में रहती हैं, भले ही हिंदी में "रहा हूँ" आए ("अब मैं समझ रहा हूँ")।</p>
 <div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>I am knowing him.</td><td class="k">I know him.</td></tr><tr><td>She is having a car.</td><td class="k">She has a car.</td></tr><tr><td>I am understanding now.</td><td class="k">I understand now.</td></tr><tr><td>He is wanting tea.</td><td class="k">He wants tea.</td></tr></table></div>
 {{ex:I know him.|आइ नो हिम|मैं उसे जानती हूँ}}{{ex:She has a car.|शि हैज़ अ कार|उसके पास एक कार है}}
-<p>अपवाद: जब have का मतलब "पास होना" नहीं, बल्कि खाना, मीटिंग या कोई अनुभव हो, तब -ing ठीक है: He is having three meetings today. ✓</p>
+<p>अपवाद: जब have का मतलब "पास होना" नहीं, बल्कि खाना, मीटिंग या कोई अनुभव हो, तब -ing ठीक है: <b>He is having three meetings today.</b> ✓</p>
 {{ex:I'm having lunch.|आइम ˈहैव़िङ लन्च|मैं खाना खा रहा हूँ}}
 <h3>2. "से" के तीन अंग्रेज़ी रूप</h3>
 <div class="tbl"><table><tr><th>हिंदी</th><th>अंग्रेज़ी</th></tr><tr><td>"2015 से" (शुरुआत का पल)</td><td class="k">since 2015</td></tr><tr><td>"दो साल से" (समय की लंबाई)</td><td class="k">for two years</td></tr><tr><td>"2015 से 2020 तक" (शुरुआत और अंत)</td><td class="k">from 2015 to 2020</td></tr></table></div>
@@ -43,7 +43,7 @@ practice:[
 <h3>3. "से" + "रहा है" = Present Perfect (Continuous)</h3>
 <p>जो बात अतीत में शुरू होकर अब तक चल रही है, वह Present Continuous में नहीं जाती। स्थिति हो तो <b>Present Perfect</b> (have / has + V3), चलता हुआ काम हो तो <b>Present Perfect Continuous</b> (have / has been + -ing)।</p>
 {{ex:I've known him for ten years.|आइव़ नोन हिम फ़र टेन यिर्ज़|मैं उसे दस साल से जानता हूँ}}{{ex:I've lived here since 2015.|आइव़ लिव़्ड हिर सिन्स टू ˈथ़ाउज़न्ड फ़िफ़्ˈटीन|मैं 2015 से यहाँ रह रही हूँ}}{{ex:I've been waiting for an hour.|आइव़ बिन ˈवेटिङ फ़र अन ˈआउअर|मैं एक घंटे से इंतज़ार कर रहा हूँ}}{{ex:It's been raining for two days.|इट्स बिन ˈरेनिङ फ़र टू डेज़|दो दिन से बारिश हो रही है}}
-<p>live और work के साथ दोनों रूप चलते हैं: I've lived here since 2015. = I've been living here since 2015. पर know, have जैसी स्थिति वाली क्रियाओं के साथ been + -ing नहीं: <b>I've been knowing him.</b> ✗</p>
+<p>live और work के साथ दोनों रूप चलते हैं: <b>I've lived here since 2015.</b> = <b>I've been living here since 2015.</b> पर know, have जैसी स्थिति वाली क्रियाओं के साथ been + -ing नहीं: <b>I've been knowing him.</b> ✗</p>
 <h3>4. "कब से?" = How long…?</h3>
 {{ex:How long have you been waiting?|हाउ लॉङ हव़ यु बिन ˈवेटिङ|आप कब से इंतज़ार कर रहे हैं?}}{{ex:How long have you known her?|हाउ लॉङ हव़ यु नोन हर|आप उसे कब से जानते हैं?}}
 <p><b>Since when you are waiting?</b> ✗ — अंग्रेज़ी में Since when…? हैरानी या ताने जैसा सुनाई देता है। आम सवाल How long से बनता है।</p>
@@ -63,7 +63,7 @@ practice:[
 ["fi","I've worked here __ ten years.","मैं दस साल से यहाँ काम कर रहा हूँ","for","since|from|during","\"दस साल से\" — समय की लंबाई, इसलिए for।"],
 ["fi","We've been __ for an hour.","हम एक घंटे से इंतज़ार कर रहे हैं","waiting","wait|waited|waits","have been के बाद -ing रूप आता है।"],
 ["ty","मेरे पास यह फ़ोन तीन साल से है","I've had this phone for three years","had · phone · for · three · year — बहुवचन","year","तीन साल — बहुवचन years; मालिकाना have स्थिति है: I've had, -ing नहीं।"],
-["ty","मैं उन लोगों को दस साल से जानता हूँ","I've known them for ten years","known · them · ten · year — बहुवचन","year","दस साल — बहुवचन years; know स्थिति है: I've known, -ing नहीं।"],
+["ty","हम दस साल से दोस्त हैं","We've been friends for ten years","been · friends · for · ten · year — बहुवचन","year","दस साल — बहुवचन years; \"से\" + अब तक = Present Perfect: We've been, We are नहीं।"],
 ["ty","मैं 2015 से यहाँ रह रहा हूँ","I've lived here since 2015|I've been living here since 2015","lived · here · since · 2015","am","\"2015 से\" = since 2015; \"रह रहा हूँ\" होते हुए भी Present Perfect: I've lived / I've been living।"],
 ["ty","आप कब से इंतज़ार कर रहे हैं?","How long have you been waiting","how long · have you · been · waiting","since","\"कब से\" = How long…? यहाँ Since when नहीं।"]]},
 { id:"narrative", title:"कहानी के टेंस: Simple Past, Past Continuous, Past Perfect", blurb:"माहौल Past Continuous में, घटना Simple Past में, उससे भी पहले की बात had + V3 में।", deck:"फ़िल्में, वेब सीरीज़ और स्लैंग", body:`
@@ -92,9 +92,9 @@ practice:[
 ["fi","I was sleeping __ you called.","जब तुमने फ़ोन किया, मैं सो रहा था","when","than|so|had","\"जब\" = when।"],
 ["fi","The bus had already __.","बस जा चुकी थी","left|gone","leave|leaving|leaves","had के बाद V3 आता है।"],
 ["fi","First we ate. __ we watched a movie.","पहले हमने खाया। फिर हमने फ़िल्म देखी","Then|After that|Next","Than|Because|When","\"फिर\" = then।"],
-["ty","फ़िल्म शुरू हो चुकी थी","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — आर्टिकल the","a","वही फ़िल्म जो देखनी थी — आर्टिकल the।"],
+["ty","फ़िल्म पहले ही शुरू हो चुकी थी","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — आर्टिकल the","a","वही फ़िल्म जो देखनी थी — आर्टिकल the।"],
 ["ty","मुझे एक पुराना दोस्त मिला","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — आर्टिकल an","a","old स्वर की आवाज़ से शुरू होता है, इसलिए आर्टिकल an।"],
-["ty","मैं पैदल घर जा रहा था","I was walking home","was · walking · home","had","माहौल Past Continuous में बताते हैं।"]]},
+["ty","मैं पैदल घर जा रहा था (walk से)","I was walking home","was · walking · home","had","माहौल Past Continuous में बताते हैं।"]]},
 { id:"conditionals", title:"If वाले वाक्य 2 और 3: कल्पना और पछतावा", blurb:"आज से उलटी बात हो तो would, बीते कल का पछतावा हो तो would have — हिंदी का \"होता\" दोनों में चलता है।", deck:"भावनाएँ और प्रतिक्रियाएँ", body:`
 <p>जो सच नहीं है, उसकी कल्पना के लिए। हिंदी में एक ही ढाँचा दोनों काम करता है: "अगर मेरे पास समय <b>होता</b> तो मैं घूमने <b>जाता</b>" आज की बात भी हो सकती है और बीते कल की भी। अंग्रेज़ी में समय के हिसाब से दो अलग ढाँचे हैं।</p>
 <h3>टाइप 2: आज की सच्चाई से उलटा</h3>
@@ -150,7 +150,7 @@ practice:[
 ["fi","The room __ cleaned every day.","कमरा रोज़ साफ़ किया जाता है","is|gets","does|has|did","हमेशा होने वाली बात: is + V3।"],
 ["fi","It was written __ Han Kang.","इसे हान कांग ने लिखा है","by","from|of|with","किसने किया, यह by से बताते हैं।"],
 ["ty","मेरा फ़ोन चोरी हो गया","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be + V3 stolen; be छोड़ें नहीं।"],
-["ty","वह मीटिंग कैंसल हो गई","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — आर्टिकल the","a","वही मीटिंग जिसे दोनों जानते हैं — आर्टिकल the।"],
+["ty","मीटिंग कैंसल हो गई","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — आर्टिकल the","a","वही मीटिंग जिसे दोनों जानते हैं — आर्टिकल the।"],
 ["ty","दरवाज़े पर ताला लगा था","The door was locked","the door · was · locked — आर्टिकल the","a","यही दरवाज़ा — आर्टिकल the।"]]},
 { id:"reported", title:"Indirect Speech: किसी की बात आगे बताना", blurb:"She said she was tired. सर्वनाम बदलें, टेंस एक क़दम पीछे करें, tell के बाद सुनने वाला।", deck:"कॉल और चैट की शॉर्ट फ़ॉर्म", body:`
 <p>किसी और की कही बात आगे बताने के लिए Indirect Speech (अप्रत्यक्ष कथन; भारतीय किताबों में Narration)। हिंदी में "कि" के बाद अक्सर बोलने वाले के अपने शब्द ज्यों-के-त्यों रहते हैं: "उसने कहा कि <b>मैं</b> थका <b>हूँ</b>"। अंग्रेज़ी में दो चीज़ें बदलती हैं: <b>सर्वनाम</b> (I → he / she) और <b>टेंस, एक क़दम पीछे</b>।</p>
@@ -179,5 +179,5 @@ practice:[
 ["fi","She asked __ I was okay.","उसने पूछा कि मैं ठीक हूँ या नहीं","if|whether","that|what|did","हाँ-ना वाला सवाल if से।"],
 ["ty","वह बोला कि वह बिज़ी है","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","आगे बताते समय टेंस एक क़दम पीछे: is → was।"],
 ["ty","वह बोली कि उसके पास एक कार है","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — आर्टिकल a","the","पहली बार ज़िक्र, एक कार — आर्टिकल a।"],
-["ty","वह बोला कि उसने वह फ़िल्म देखी है","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — आर्टिकल the","a","वही फ़िल्म जिसे दोनों जानते हैं — आर्टिकल the।"]]},
+["ty","वह बोला कि उसने फ़िल्म देख ली है","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — आर्टिकल the","a","वही फ़िल्म जिसे दोनों जानते हैं — आर्टिकल the।"]]},
 ];

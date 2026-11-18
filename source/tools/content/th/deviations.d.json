@@ -1,0 +1,9 @@
+{
+  "lessons": {
+    "time-markers": "th-only lesson (profile th.md §8 additions, §4.2–4.3): maps the Thai aspect words แล้ว / กำลัง / จะ / เคย / ยัง / เพิ่ง onto English verb forms (be + -ing, will, V2, have + V3, haven't … yet), with the two rules Thai lacks (a time word does not replace the verb form; English must choose a tense even with no time word). Placed after perfect via profile.json lessonOrder.after; same id and shape as id-en time-markers; new body, check and 16-item practice set that satisfies the standing rule article-plural (§7)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["time-markers"],
+  "droppedLessons": []
+}

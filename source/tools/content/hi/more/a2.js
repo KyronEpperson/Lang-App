@@ -55,7 +55,7 @@ practice:[
 ["fi","I __ forget.","मैं नहीं भूलूँगी","won't|will not","don't|not|willn't","will का नकारात्मक won't है।"],
 ["fi","__ you help me?","क्या आप मेरी मदद करेंगे?","Will|Can|Could|Would","Do|Are|Is","मदद माँगने के लिए Will you…? (या Can / Could you…?)।"],
 ["ty","मैं तुम्हारी मदद करूँगा","I'll help you|I'll help","I'll · help · you","helping","will के बाद V1 आता है।"],
-["ty","मैं एक सलाद लूँगी","I'll have a salad|I'll have the salad","I'll have · salad — आर्टिकल पर ध्यान दें","salads","एक सलाद ऑर्डर कर रहे हैं — आर्टिकल a (मेन्यू वाला वही सलाद हो तो the), बहुवचन नहीं।"],
+["ty","मैं एक सलाद लूँगी (have से)","I'll have a salad|I'll have the salad","I'll have · salad — आर्टिकल पर ध्यान दें","salads","एक सलाद ऑर्डर कर रहे हैं — आर्टिकल a (मेन्यू वाला वही सलाद हो तो the), बहुवचन नहीं।"],
 ["ty","मैं दरवाज़ा बंद कर देता हूँ","I'll close the door|I'll shut the door","I'll · close · door — आर्टिकल the","a","यही दरवाज़ा — आर्टिकल the। \"कर देता हूँ\" वाली पेशकश अंग्रेज़ी में will से।"]]},
 { id:"perfect", title:"Present Perfect: \"कभी किया है?\" (have + V3)", blurb:"have + V3 से अनुभव बताएँ। कब हुआ, यह बताया तो Simple Past।", deck:"यात्रा (एयरपोर्ट और होटल)", body:`
 <p><b>have / has + V3</b> बताता है कि <b>अब तक की ज़िंदगी में</b> कोई काम कभी हुआ है या नहीं। <b>कब</b> हुआ, यह नहीं बताया जाता।</p>
@@ -64,7 +64,7 @@ practice:[
 {{ex:Have you ever eaten sushi?|हव़ यु ˈएव़र ˈईटन ˈसूशि|क्या आपने कभी सुशी खाई है?}}{{ex:I've never seen it.|आइव़ ˈनेव़र सीन इट|मैंने वह कभी नहीं देखा}}
 <p>जवाब: <b>Yes, I have.</b> / <b>No, I haven't.</b></p>
 <h3>"किया है" का जाल: समय बताया तो Simple Past</h3>
-<p>हिंदी में "मैंने कल ही रिपोर्ट भेजी है" बिल्कुल सामान्य वाक्य है, इसलिए अंग्रेज़ी में भी <b>I have sent the report yesterday.</b> निकल आता है। अंग्रेज़ी का नियम सख़्त है: yesterday, last year, in 2020 जैसा ख़त्म हो चुका समय हो तो Present Perfect नहीं, <b>Simple Past</b>।</p>
+<p>हिंदी बोलचाल में "मैंने कल ही रिपोर्ट भेज दी है" जैसा वाक्य आम है, इसलिए अंग्रेज़ी में भी <b>I have sent the report yesterday.</b> निकल आता है। अंग्रेज़ी का नियम सख़्त है: yesterday, last year, in 2020 जैसा ख़त्म हो चुका समय हो तो Present Perfect नहीं, <b>Simple Past</b>।</p>
 {{ex:I went to Japan last year.|आइ वेन्ट ट जˈपैन लैस्ट यिर|मैं पिछले साल जापान गया था}}{{ex:I visited Bangalore yesterday.|आइ ˈव़िज़िटिड ˈबैंगलॉर ˈयेस्टर्डे|मैं कल बैंगलोर गई थी}}
 <h3>been to या gone to?</h3>
 <p>"वह जयपुर गई है" के दो मतलब हो सकते हैं। घूमकर लौट आई: <b>has been to</b>। अभी वहीं है, यहाँ नहीं: <b>has gone to</b>।</p>
@@ -87,7 +87,7 @@ practice:[
 ["fi","She __ visited Korea twice.","वह दो बार कोरिया आ चुकी है","has","have|is|did","she के साथ has।"],
 ["ty","क्या आप कभी जापान गए हैं?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","अनुभव पूछने के लिए Have you ever been to…?"],
 ["ty","मैंने वह किताब पढ़ी है","I've read the book|I've read that book","I've · read · book — आर्टिकल the","a","वही किताब जिसे दोनों जानते हैं — आर्टिकल the।"],
-["ty","मैंने कभी बिल्ली नहीं पाली","I've never had a cat","never · had · cat — आर्टिकल a","the","कोई भी एक बिल्ली — आर्टिकल a।"]]},
+["ty","मैंने कभी बिल्ली नहीं पाली (have से)","I've never had a cat","never · had · cat — आर्टिकल a","the","कोई भी एक बिल्ली — आर्टिकल a।"]]},
 { id:"modals", title:"have to, must, should, might: ज़िम्मेदारी, सलाह, संभावना", blurb:"करना पड़ेगा, करना चाहिए, शायद हो जाए — हिंदी के \"चाहिए\" और \"सकता है\" को अलग-अलग करें।", deck:"डॉक्टर और इमरजेंसी", body:`
 <p>ज़िम्मेदारी, सलाह और संभावना के लिए चार रूप हैं। सबके बाद <b>V1</b> आता है। should, must, might के बाद to नहीं लगता; have to में to उसी का हिस्सा है।</p>
 <h3>हिंदी का "चाहिए" अंग्रेज़ी में तीन तरह से</h3>
@@ -113,13 +113,13 @@ practice:[
 ["mc","\"यहाँ सिगरेट पीना मना है\" अंग्रेज़ी में?","You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here.","मनाही के लिए must not।"],
 ["or","आपको डॉक्टर को दिखाना चाहिए","You should see a doctor","the doctors","कोई भी एक डॉक्टर — आर्टिकल a, बहुवचन नहीं।"],
 ["or","मुझे अभी जाना है","I have to go now","going","have to के बाद V1।"],
-["or","आपको टिकट ख़रीदना पड़ेगा","You have to buy a ticket","the tickets","एक टिकट — आर्टिकल a और एकवचन ticket।"],
+["or","आपको टिकट ख़रीदना है","You have to buy a ticket","the tickets","एक टिकट — आर्टिकल a और एकवचन ticket।"],
 ["fi","She __ to study tonight.","उसे आज रात पढ़ाई करनी है","has","have|must|should","she के साथ has to।"],
 ["fi","You __ have to pay.","आपको पैसे देने की ज़रूरत नहीं","don't|do not","must not|not|aren't","\"ज़रूरत नहीं\" = don't have to।"],
 ["fi","It __ rain tomorrow.","कल शायद बारिश हो","might|may|could","must to|has to|should to","संभावना के लिए might।"],
 ["ty","मुझे काम करना है","I have to work|I must work|I need to work","have to · work","should","ज़िम्मेदारी के लिए have to।"],
-["ty","आपको डॉक्टर को दिखाना चाहिए","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — आर्टिकल a","the","कोई भी एक डॉक्टर — आर्टिकल a।"],
-["ty","आपको टिकट ख़रीदना पड़ेगा","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — आर्टिकल a","the","एक टिकट — आर्टिकल a।"]]},
+["ty","आपको डॉक्टर को दिखाना चाहिए (see से)","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — आर्टिकल a","the","कोई भी एक डॉक्टर — आर्टिकल a।"],
+["ty","आपको टिकट ख़रीदना है (have to से)","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — आर्टिकल a","the","एक टिकट — आर्टिकल a।"]]},
 { id:"to-ing", title:"क्रिया के बाद to या -ing: want to, enjoy -ing", blurb:"want के बाद to, enjoy के बाद -ing। हर क्रिया की अपनी जोड़ी है।", deck:"हल्की-फुल्की बातचीत", body:`
 <p>दो क्रियाएँ साथ आएँ तो पहली क्रिया तय करती है कि दूसरी <b>to + V1</b> होगी या <b>-ing</b>। हिंदी में दोनों जगह एक ही रूप चलता है — "घर जाना चाहता हूँ", "खाना बनाने में मज़ा आता है" — इसलिए अंग्रेज़ी में ये जोड़ियाँ याद करनी पड़ती हैं। आम क्रियाओं से शुरू करें।</p>
 <div class="tbl"><table><tr><th>बाद में to</th><th>बाद में -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop, avoid</td></tr></table></div>
@@ -129,7 +129,7 @@ practice:[
 <p>इनका कोई आसान नियम नहीं है; इन्हें जोड़ी की तरह याद करें: enjoy cooking, finish working, don't mind waiting।</p>
 {{ex:I enjoy cooking.|आइ इन्ˈजॉइ ˈकुकिङ|मुझे खाना बनाने में मज़ा आता है}}{{ex:I finished working.|आइ ˈफ़िनिश्ट ˈवर्किङ|मैंने काम ख़त्म कर लिया}}{{ex:I don't mind waiting.|आइ डोन्ट माइन्ड ˈवेटिङ|मुझे इंतज़ार करने में कोई दिक़्क़त नहीं}}
 <h3>दोनों चलते हैं</h3>
-<p>like, love, start के बाद to और -ing दोनों ठीक हैं: I like to cook / I like cooking।</p>
+<p>like, love, start के बाद to और -ing दोनों ठीक हैं: <b>I like to cook.</b> / <b>I like cooking.</b></p>
 <h3>ऑफ़िस ईमेल की तीन आम ग़लतियाँ</h3>
 <p><b>I am looking forward to meet you.</b> ✗ — यहाँ to प्रीपोज़िशन है, इसलिए उसके बाद -ing आता है:</p>
 {{ex:I'm looking forward to meeting you.|आइम ˈलुकिङ ˈफ़ॉर्वर्ड ट ˈमीटिङ यु|आपसे मिलने का इंतज़ार रहेगा}}
@@ -149,7 +149,7 @@ practice:[
 ["fi","She enjoys __.","उसे तैरने में मज़ा आता है","swimming","to swim|swim|swims","enjoy के बाद -ing।"],
 ["fi","I decided __ English.","मैंने अंग्रेज़ी पढ़ने का फ़ैसला किया","to study|to learn","study|studying|studied","decide के बाद to + V1।"],
 ["ty","मैं घर जाना चाहता हूँ","I want to go home","want to · go · home — आर्टिकल नहीं","the","want के बाद to; home से पहले कोई आर्टिकल नहीं लगता।"],
-["ty","मुझे किताबें पढ़ने में मज़ा आता है","I enjoy reading books|I enjoy reading","enjoy · read · book — बहुवचन","book","enjoy के बाद -ing; किताबें आम तौर पर — बहुवचन books।"],
+["ty","मुझे किताबें पढ़ने में मज़ा आता है (enjoy से)","I enjoy reading books|I enjoy reading","enjoy · read · book — बहुवचन","book","enjoy के बाद -ing; किताबें आम तौर पर — बहुवचन books।"],
 ["ty","मैं ऑर्डर करना चाहूँगी","I'd like to order|I want to order","I'd like · to · order","ordering","would like के बाद to + V1।"]]},
 { id:"articles-2", title:"the कहाँ लगे, कहाँ नहीं: अकेली चीज़ें और आम बातें", blurb:"piano के साथ the, cricket के साथ कुछ नहीं। देशों के नाम और \"सभी\" वाली आम बात भी।", deck:"यात्रा (एयरपोर्ट और होटल)", body:`
 <p>आर्टिकल का तीसरा पाठ। यहाँ वे जगहें हैं जहाँ नियम तय है: कहीं the लगता ही है, कहीं कभी नहीं। हिंदी में आर्टिकल नहीं होते, इसलिए ग़लती दोनों तरफ़ होती है — ज़रूरी the छूट जाता है और फ़ालतू the लग जाता है (<b>The life is hard.</b> ✗)।</p>
@@ -206,7 +206,7 @@ practice:[
 ["fi","__ you need help, call me.","मदद चाहिए तो मुझे फ़ोन कर देना","If|When","So|But|Because","\"अगर\" = if।"],
 ["ty","समय हुआ तो मैं मदद कर दूँगा","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","if के बाद will नहीं लगता।"],
 ["ty","बारिश हुई तो मैं टैक्सी ले लूँगी","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi — आर्टिकल a","the","कोई भी एक टैक्सी — आर्टिकल a।"],
-["ty","तुम्हारी बस छूट जाएगी","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — आर्टिकल the","a","वही बस जो पकड़नी है — आर्टिकल the।"]]},
+["ty","बस छूट जाएगी (miss से)","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — आर्टिकल the","a","वही बस जो पकड़नी है — आर्टिकल the।"]]},
 { id:"relative", title:"who / that: संज्ञा के बाद उसकी जानकारी", blurb:"हिंदी \"जो… वह…\" से बात दो बार कहती है, अंग्रेज़ी एक बार: the man who came is…", deck:"ख़रीदारी और भुगतान", body:`
 <p>हिंदी में किसी संज्ञा के बारे में बताने के दो तरीक़े हैं: पहले से ("मेरी ख़रीदी हुई किताब") या जो… वह… से ("जो किताब मैंने ख़रीदी, वह…")। अंग्रेज़ी में संज्ञा पहले आती है और उसकी जानकारी <b>बाद में</b>, who / that से: the book <b>that I bought</b>।</p>
 <h3>इंसान के लिए who</h3>
@@ -230,13 +230,13 @@ practice:[
 ["mc","\"बगल वाले घर में रहने वाला आदमी\" अंग्रेज़ी में?","the man who lives next door","the lives next door man","the man lives who next door","the man what lives next door","इंसान के लिए who।"],
 ["mc","This is the phone ___ I want.","that","who","what","it","चीज़ के लिए that।"],
 ["mc","\"वह फ़िल्म जो हमने देखी\" अंग्रेज़ी में?","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","कर्ता + क्रिया से पहले that छोड़ सकते हैं।"],
-["or","यह वही किताब है जो मैंने ख़रीदी","This is the book I bought","a what","मेरी ख़रीदी हुई वही किताब — आर्टिकल the।"],
+["or","यह वह किताब है जो मैंने ख़रीदी","This is the book I bought","a what","मेरी ख़रीदी हुई वही किताब — आर्टिकल the।"],
 ["or","मेरा एक दोस्त है जो खाना बनाता है","I have a friend who cooks","the which","पहली बार ज़िक्र, एक दोस्त — आर्टिकल a।"],
-["or","हमने जो फ़िल्म देखी, वह बहुत अच्छी थी","The movie we saw was great","A movies","हमारी देखी हुई वही फ़िल्म — आर्टिकल the; \"वह\" दोबारा नहीं आता।"],
+["or","हमने जो फ़िल्म देखी, वह शानदार थी","The movie we saw was great","A movies","हमारी देखी हुई वही फ़िल्म — आर्टिकल the; \"वह\" दोबारा नहीं आता।"],
 ["fi","the man __ lives here","यहाँ रहने वाला आदमी","who|that","what|he|which","इंसान के लिए who।"],
 ["fi","the book __ I read","मेरी पढ़ी हुई किताब","that|which","who|what|it","चीज़ के लिए that।"],
 ["fi","the cafe __ we met","वह कैफ़े जहाँ हम मिले थे","where","who|what|it","जगह के लिए where।"],
-["ty","यह वही किताब है जो मैंने ख़रीदी","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — आर्टिकल the","a","मेरी ख़रीदी हुई वही किताब — आर्टिकल the।"],
+["ty","यह वह किताब है जो मैंने ख़रीदी","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — आर्टिकल the","a","मेरी ख़रीदी हुई वही किताब — आर्टिकल the।"],
 ["ty","मेरा एक दोस्त है जो कोरियन बोलता है","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — आर्टिकल a","the","पहली बार ज़िक्र, एक दोस्त — आर्टिकल a।"],
-["ty","हमने जो फ़िल्म देखी, वह बहुत अच्छी थी","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","पहले संज्ञा, फिर जानकारी; \"वह\" दोबारा नहीं आता।"]]},
+["ty","हमने जो फ़िल्म देखी, वह शानदार थी","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","पहले संज्ञा, फिर जानकारी; \"वह\" दोबारा नहीं आता।"]]},
 ];

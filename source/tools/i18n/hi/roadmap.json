@@ -260,7 +260,7 @@
    "roadmap": "en"
   },
   "Pronunciation traps: R/L, F/P, TH": {
-   "t": "उच्चारण की मुश्किलें: R/L, F/P, TH",
+   "t": "उच्चारण के जाल: R/L, F/P, TH",
    "ko": "발음 함정: R/L, F/P, TH",
    "kind": "lesson title",
    "roadmap": "en"
@@ -320,7 +320,7 @@
    "roadmap": "en"
   },
   "A1 · Doing things": {
-   "t": "A1 · काम करना",
+   "t": "A1 · रोज़ के काम",
    "ko": "A1 · 행동 말하기",
    "kind": "stage",
    "roadmap": "en"
@@ -344,13 +344,13 @@
    "roadmap": "en"
   },
   "was / were and regular past -ed": {
-   "t": "was / were और नियमित भूतकाल -ed",
+   "t": "Simple Past: was / were और -ed",
    "ko": "was / were, 규칙 과거 -ed",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Irregular past, past questions": {
-   "t": "अनियमित भूतकाल, भूतकाल के सवाल",
+   "t": "अनियमित Past (V2), Simple Past के सवाल",
    "ko": "불규칙 과거, 과거 의문문",
    "kind": "lesson title",
    "roadmap": "en"
@@ -362,7 +362,7 @@
    "roadmap": "en"
   },
   "Adjectives, comparatives, superlatives": {
-   "t": "विशेषण, comparatives, superlatives",
+   "t": "विशेषण और तुलना: comparative, superlative",
    "ko": "형용사, 비교급, 최상급",
    "kind": "lesson title",
    "roadmap": "en"
@@ -410,7 +410,7 @@
    "roadmap": "en"
   },
   "Verb + to or -ing": {
-   "t": "Verb + to या -ing",
+   "t": "क्रिया + to या -ing",
    "ko": "동사 + to / -ing",
    "kind": "lesson title",
    "roadmap": "en"
@@ -422,7 +422,7 @@
    "roadmap": "en"
   },
   "First conditional: if": {
-   "t": "First conditional: if वाले वाक्य",
+   "t": "If वाले वाक्य 1 (first conditional)",
    "ko": "조건문 1: if",
    "kind": "lesson title",
    "roadmap": "en"
@@ -434,7 +434,7 @@
    "roadmap": "en"
   },
   "B1 · Telling more": {
-   "t": "B1 · और बताना",
+   "t": "B1 · विस्तार से बताना",
    "ko": "B1 · 더 길게 말하기",
    "kind": "stage",
    "roadmap": "en"
@@ -446,13 +446,13 @@
    "roadmap": "en"
   },
   "Narrative tenses": {
-   "t": "Narrative tenses (कहानी वाले काल)",
+   "t": "कहानी के टेंस",
    "ko": "이야기 시제",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Second and third conditional": {
-   "t": "Second और third conditional",
+   "t": "If वाले वाक्य 2 और 3",
    "ko": "조건문 2, 3",
    "kind": "lesson title",
    "roadmap": "en"
@@ -464,7 +464,7 @@
    "roadmap": "en"
   },
   "Reported speech": {
-   "t": "Reported speech (अप्रत्यक्ष कथन)",
+   "t": "Indirect Speech (अप्रत्यक्ष कथन)",
    "ko": "간접화법",
    "kind": "lesson title",
    "roadmap": "en"
