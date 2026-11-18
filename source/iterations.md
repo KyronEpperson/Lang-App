@@ -969,3 +969,9 @@ Ship Italian for English speakers (en-it) after merge, stress fixes and cold rev
 
 ### 2.26.0 — results
 en-it: 24 lessons, 18 decks / 321 cards, 336 practice items. Cold review: 12 edits, no wrong Italian found; 517 prons match the generator. validate PASS, e2e OK on 24 lessons. Not checked by a native speaker (tools/target/it/REVIEW.md lists ten things to check first).
+
+## 2.27.0 — prompt
+Ship Portuguese (Brazilian) for English speakers (en-pt) after merge, vowel fixes and cold review. Verify: validate, e2e on all 25 lessons, harness, site test.
+
+### 2.27.0 — results
+en-pt: 25 lessons, 18 decks / 323 cards, 350 practice items. Cold review: 21 edits plus 5 lexicon entries (arroz com feijão, precisar de, à uma / ao meio-dia, softened absolutes). validate PASS, e2e OK on 25 lessons. New tool tools/target/repron.js rewrites stored prons from the generator. Not checked by a native speaker (tools/target/pt/REVIEW.md).

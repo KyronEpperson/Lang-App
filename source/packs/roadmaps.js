@@ -136,14 +136,14 @@ LANGAPP_PACKS.roadmaps = {
     src: ["USP Centro de Línguas: Língua Portuguesa para Estrangeiros, nível A1"], note: "The programme lists five blocks (alphabet, present, routine and numbers, location and future, past); finer items are common course practice.",
     stages: [
       { en: "Sounds and first words", ko: "소리와 첫 표현", items: [
-        ["pt-sounds", "Alphabet and sounds: nasal vowels, ão, lh, nh", "알파벳과 발음: 비모음, ão, lh, nh"], ["pt-greetings", "Greetings and introductions: você", "인사와 자기소개: você"], ["pt-ser", "ser: who you are", "ser: 나는 누구"],
-        ["pt-articles", "Gender and o / a, um / uma", "성과 관사 o / a, um / uma"], ["pt-present", "Present tense: -ar, -er, -ir", "현재 시제: -ar, -er, -ir"] ] },
+        ["pt-sounds", "Alphabet and sounds: nasal vowels, ão, lh, nh", "알파벳과 발음: 비모음, ão, lh, nh", "sounds"], ["pt-greetings", "Greetings and introductions: você", "인사와 자기소개: você", "greetings"], ["pt-ser", "ser: who you are", "ser: 나는 누구", "ser"],
+        ["pt-articles", "Gender and o / a, um / uma", "성과 관사 o / a, um / uma", "articles"], ["pt-present", "Present tense: -ar, -er, -ir", "현재 시제: -ar, -er, -ir", "present"] ] },
       { en: "Everyday sentences", ko: "일상 문장", items: [
-        ["pt-estar", "estar, and ser vs estar", "estar, ser vs estar"], ["pt-ter", "ter and tem: have, there is", "ter와 tem: 있어요"], ["pt-questions", "Question words", "의문사"], ["pt-numbers", "Numbers, time and daily routine", "숫자, 시간, 하루 일과"],
-        ["pt-contractions", "no, na, do, da: contractions", "축약형 no, na, do, da"], ["pt-location", "Places and location words", "장소와 위치 표현"], ["pt-possessives", "meu / minha, este / esse", "소유사와 지시사"], ["pt-adjectives", "Adjectives and agreement", "형용사와 일치"] ] },
+        ["pt-estar", "estar, and ser vs estar", "estar, ser vs estar", "estar"], ["pt-ter", "ter and tem: have, there is", "ter와 tem: 있어요", "ter"], ["pt-questions", "Question words", "의문사", "questions"], ["pt-numbers", "Numbers, time and daily routine", "숫자, 시간, 하루 일과", "numbers"],
+        ["pt-contractions", "no, na, do, da: contractions", "축약형 no, na, do, da", "contractions"], ["pt-location", "Places and location words", "장소와 위치 표현", "location"], ["pt-possessives", "meu / minha, este / esse", "소유사와 지시사", "possessives"], ["pt-adjectives", "Adjectives and agreement", "형용사와 일치", "adjectives"] ] },
       { en: "Doing things", ko: "행동 말하기", items: [
-        ["pt-irregular", "ir, fazer, querer, poder", "ir, fazer, querer, poder"], ["pt-future", "ir + infinitive: future", "ir + 동사원형: 미래"], ["pt-gostar", "gostar de: likes", "gostar de: 좋아해요"], ["pt-progressive", "estar + -ndo: right now", "estar + -ndo: 진행"],
-        ["pt-reflexive", "Reflexive verbs", "재귀동사"], ["pt-past", "Pretérito perfeito: past", "완전과거"], ["pt-requests", "Polite requests and commands", "공손한 부탁과 명령"], ["pt-connectors", "e, mas, ou, porque", "e, mas, ou, porque"], ["pt-city", "Getting around the city", "도시에서 길 찾기"] ] } ] },
+        ["pt-irregular", "ir, fazer, querer, poder", "ir, fazer, querer, poder", "irregular"], ["pt-future", "ir + infinitive: future", "ir + 동사원형: 미래", "future"], ["pt-gostar", "gostar de: likes", "gostar de: 좋아해요", "gostar"], ["pt-progressive", "estar + -ndo: right now", "estar + -ndo: 진행", "progressive"],
+        ["pt-reflexive", "Reflexive verbs", "재귀동사", "reflexive"], ["pt-past", "Pretérito perfeito: past", "완전과거", "past"], ["pt-requests", "Polite requests and commands", "공손한 부탁과 명령", "requests"], ["pt-connectors", "e, mas, ou, porque", "e, mas, ou, porque", "connectors"], ["pt-city", "Getting around the city", "도시에서 길 찾기", "city"] ] } ] },
 
   it: { variant: {en: "Standard Italian", ko: "표준 이탈리아어"}, basis: {en: "CILS A1 syllabus (Università per Stranieri di Siena)", ko: "CILS A1 실러버스 (시에나 외국인 대학교)"},
     src: ["Istituto Italiano di Cultura Buenos Aires: Contenuti Livello A1 (CILS)"], note: "The sounds stage is standard practice.",

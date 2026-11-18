@@ -22,10 +22,12 @@ const EXC = {
   'shopping': 'SHAW-peeng', 'internet': 'een-tehr-NEH-chee', 'ok': 'oh-KAY', 'show': 'shoh', 'site': 'SAI-chee', 'wifi': 'wai-FAI', 'wi-fi': 'wai-FAI',
   'miami': 'mee-AH-mee', 'york': 'YAWR-kee', 'boston': 'BAWS-tohng', 'orlando': 'ohr-LAHN-doo', 'texas': 'TEHK-sahs',
   'massachusetts': 'mah-sah-SHOO-sehts', 'jersey': 'ZHEHR-zee', 'emma': 'EH-muh', 'jack': 'JEH-kee', 'ryan': 'HAI-ahn', 'megan': 'MEH-gahn',
+  'pizza': 'PEET-suh', 'pizzas': 'PEET-suhs', 'pizzaria': 'peet-sah-REE-uh',
   'email': 'ee-MAY-oo', 'e-mail': 'ee-MAY-oo', 'online': 'ohn-LAIN', 'delivery': 'deh-LEE-veh-ree', 'uber': 'OO-behr',
 };
 
 const LEX_WORDS = `
+escóvo escóva escóvam cebôla cebôlas atravésse atravéssa atravésso resérva resérvo resérvas préssa tóco tóca tócam chóve conhéce conhécem
 éla élas êle êles déla délas dêle dêles néla nélas nêle nêles aquéla aquélas aquêle aquêles ésta éstas êste êstes éssa éssas êsse êsses
 naquéla naquêle nésta nêste néssa nêsse désta dêste déssa dêsse
 fésta pérto cérto cérta séte janéla quéro quér vélho vélha bélo béla amarélo amaréla chinélo panéla novéla
@@ -40,11 +42,12 @@ póde pósso pódem pórta pórtas hóra hóras agóra embóra fóra senhóra se
 lógo jóvem jóvens hôje dôze dôce dôces póbre óbra nóta nótas cópo cópos farófa mandióca tapióca pipóca bôa bôas vôo pessôa pessôas lagôa lisbôa
 pôsto póstos tôdo tôda tôdos tôdas almôço almóça môço môça melhór piór maiór menór jôgo jógos jóga jógam
 gósto gósta góstam gósto cômo cóme cómem dórme dórmem córre córrem
-rósa bôlsa sôpa gôrdo górda gôrdos pôvo póvos fôgo fógos ósso óssos
+rósa bôlsa sôpa gôrdo gôrda gôrdos pôvo póvos fôgo fógos ôsso óssos
 tácsi tócsico próssimo mássimo aussílio tróusse sécso fícso complécso licho lichos
 moquéca néve primavéra passapórte cóstas chéfe próva respósta alégre acórdo invérno abacachi cochinha rôcho rôcha puchar púcha púcho socôrro adóro adóra adóram
 professôra cachôrro arrôz prêço aeropôrto esquêrda cabêça trôco agôsto emprêgo vêjo têxto enxaquêca
 bibliotéca trêze catôrze dezenóve dêsde dezesséte fizéram tivéram estivéram pudéram quiséram disséram soubéram trousséram viéram déram têve estêve fêz comêram bebêram vendêram escrevêram
+conhêço enderêço vêzes
 cinqüenta tranqüilo tranqüila freqüente lingüiça agüentar futibol
 `;
 const plainOf = s => s.replace(/[éê]/g, 'e').replace(/[óô]/g, 'o').replace(/ü/g, 'u');

@@ -7,6 +7,9 @@
 
 /* ---- LEX: word=respelling. Inflected forms ending in -e, -en, -n, -s, -er, -es are derived automatically (Termin -> Termine). ---- */
 const LEX_SRC = `
+auto=OW-toh autos=OW-tohs langsam=LAHNG-zahm langsamer=LAHNG-zah-muh unsere=OON-zuh-ruh
+prost=prohst vierzig=FIR-tsihh vierzehn=FIR-tsayn vegetarier=vay-guh-TAH-ree-uh vegetarierin=vay-guh-TAH-ree-uh-rin vegetarisch=vay-guh-TAH-rish
+allergisch=ah-LEHR-gish gegenüber=gay-guhn-EW-buh reserviert=ray-zehr-VEERT reservieren=ray-zehr-VEE-ruhn gymnasium=gewm-NAH-zee-oom inklusive=in-kloo-ZEE-vuh feierabend=FAI-uh-ah-buhnt höre=HUR-uh hören=HUR-uhn hörst=hurst hört=hurt mülltrennung=MEWL-trehn-oong reservierung=ray-zehr-VEE-roong
 apotheke=ah-poh-TAY-kuh banane=bah-NAH-nuh tomate=toh-MAH-tuh kartoffel=kahr-TAWF-uhl salat=zah-LAHT spinat=shpee-NAHT
 minute=mee-NOO-tuh sekunde=zay-KOON-duh familie=fah-MEE-lee-uh ferien=FAY-ree-uhn linie=LEE-nee-uh
 toilette=twah-LEHT-uh museum=moo-ZAY-oom theater=tay-AH-tuh termin=tehr-MEEN problem=proh-BLAYM system=zews-TAYM
@@ -30,6 +33,8 @@ andreas=ahn-DRAY-ahs abitur=ah-bee-TOOR europa=oy-ROH-pah französisch=frahn-TSU
 italien=ee-TAH-lee-uhn australien=ows-TRAH-lee-uhn spanien=SHPAH-nee-uhn amerikaner=ah-may-ree-KAH-nuh amerikanerin=ah-may-ree-KAH-nuh-rin
 adresse=ah-DREHS-uh konzert=kawn-TSEHRT gitarre=gee-TAHR-uh friseur=free-ZUR friseurin=free-ZUR-in cousin=koo-ZAHNG
 garage=gah-RAH-zhuh jeans=jeens steak=stayk t-shirt=TEE-shurt mitternacht=MIT-uh-nahkht hochzeit=HAWKH-tsait
+eventuell=ay-vehn-too-EHL sensibel=zehn-ZEE-buhl rezept=ray-TSEHPT vegetarisch=vay-guh-TAH-rish
+nervös=nehr-VURS visum=VEE-zoom vanille=vah-NIL-uh tatsächlich=TAHT-zehh-lihh kanada=KAH-nah-dah mexiko=MEHK-sih-koh
 leon=LAY-awn rhein=rain ostsee=AWST-zay häuschen=HOYS-hhuhn radieschen=rah-DEES-hhuhn übersetzen=ew-buh-ZEHTS-uhn übersetze=ew-buh-ZEHTS-uh übersetzt=ew-buh-ZEHTST
 übernachten=ew-buh-NAHKH-tuhn übernachte=ew-buh-NAHKH-tuh übernachtet=ew-buh-NAHKH-tuht übermorgen=EW-buh-mawr-guhn appetit=ahp-ay-TEET interessant=in-tuh-reh-SAHNT
 chicago=shih-KAH-goh berlin=behr-LEEN amerika=ah-MAY-ree-kah emily=EH-mih-lee ryan=RAI-uhn megan=MAY-guhn
@@ -42,14 +47,14 @@ ander andere anderen anderer anderes anders erste ersten erster erstes ernte mit
 /* one-syllable words with e, i or o before a single final consonant that are short (the default for such words is long) */
 const SHORT = new Set('in im mit bin hin bis ob von vom es des weg top tim ben'.split(' '));
 /* compound heads: a word ending in one of these, with at least three letters before it, is split there (stress on the first part) */
-const HEADS = `heit keit strudel rad haus hof tag stadt straße bahn zimmer karte platz markt stück schuh zeug hafen saft wurst brot kuchen wasser
+const HEADS = `trennung heit keit strudel rad haus hof tag stadt straße bahn zimmer karte platz markt stück schuh zeug hafen saft wurst brot kuchen wasser
 arbeit reise zeit wagen mann frau land schule amt stunde woche jahr ende essen geld tür stift spiel fahrt teller berg burg dorf
 furt reich stelle laden zug bus fahrrad buch heft tisch stuhl bett geschäft tee milch flasche glas tasse kind vater mutter
 garten park weg uhr licht schrank hose jacke schein ausweis nummer arzt ärztin plan aufgabe salat steig schmerz zahl name schwester eltern`.split(/\s+/).sort((a, b) => b.length - a.length);
 const SEP = ['zurück', 'fern', 'nach', 'weg', 'mit', 'vor', 'auf', 'aus', 'ein', 'bei', 'los', 'ab', 'an', 'zu', 'um'];
 const INSEP = ['ver', 'zer', 'ent', 'emp', 'be', 'ge', 'er'];
 const INSEP_OUT = { ver: 'fehr', zer: 'tsehr', ent: 'ehnt', emp: 'ehmp', be: 'buh', ge: 'guh', er: 'ehr' };
-const NUM = ['zwanzig', 'dreißig', 'hundert', 'tausend', 'sieben', 'zwölf', 'sechs', 'zehn', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'acht', 'neun',
+const NUM = ['vierzig', 'vierzehn', 'zwanzig', 'dreißig', 'hundert', 'tausend', 'sieben', 'zwölf', 'sechs', 'zehn', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'acht', 'neun',
   'elf', 'sech', 'sieb', 'ein', 'und', 'zig'];
 const LETTER = { a: 'ah', b: 'bay', c: 'tsay', d: 'day', e: 'ay', f: 'ehf', g: 'gay', h: 'hah', i: 'ee', j: 'yawt', k: 'kah', l: 'ehl', m: 'ehm',
   n: 'ehn', o: 'oh', p: 'pay', q: 'koo', r: 'ehr', s: 'ehs', t: 'tay', u: 'oo', v: 'fow', w: 'vay', x: 'iks', y: 'EWP-sih-lawn', z: 'tseht' };
