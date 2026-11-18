@@ -975,3 +975,9 @@ Ship Portuguese (Brazilian) for English speakers (en-pt) after merge, vowel fixe
 
 ### 2.27.0 — results
 en-pt: 25 lessons, 18 decks / 323 cards, 350 practice items. Cold review: 21 edits plus 5 lexicon entries (arroz com feijão, precisar de, à uma / ao meio-dia, softened absolutes). validate PASS, e2e OK on 25 lessons. New tool tools/target/repron.js rewrites stored prons from the generator. Not checked by a native speaker (tools/target/pt/REVIEW.md).
+
+## 2.28.0 — prompt
+Ship German for English speakers (en-de) after merge, pronunciation fixes and cold review. Verify: validate, e2e on all 25 lessons, harness, site test.
+
+### 2.28.0 — results
+en-de: 25 lessons, 18 decks / 323 cards, 350 practice items. Cold review: 14 edits (ß rule, kein vs nicht, imperative politeness, one ambiguous order item); no wrong German found. validate PASS, e2e OK on 25 lessons. Not checked by a native speaker (tools/target/de/REVIEW.md).

@@ -17,7 +17,7 @@ der Vogel | dayr FOH-guhl | bird | v usually sounds like f in German words: FOH-
 die Zeit | dee tsait | time | z always sounds like ts, as in cats.
 ja | yah | yes | j sounds like English y: yah.
 die Sonne | dee ZAWN-uh | sun | s before a vowel sounds like English z.
-die Straße | dee SHTRAH-suh | street | st at the start of a word sounds like sht. ß sounds like s and follows a long vowel.
+die Straße | dee SHTRAH-suh | street | st at the start of a word sounds like sht. ß sounds like s and follows a long vowel or ei, au, eu.
 der Sport | dayr shpawrt | sports | sp at the start of a word sounds like shp.
 `,
   "Greetings and courtesy": `

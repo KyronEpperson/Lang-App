@@ -55,7 +55,7 @@ module.exports = [
     blurb: "Say what you don't have and don't do, choosing kein before a noun and putting nicht in the right place.",
     deck: "Life in Germany",
     body: `
-<p>English says "not" for almost everything: <i>not a car</i>, <i>not expensive</i>, <i>not today</i>. German has two words. <b>kein</b> goes before nouns, and <b>nicht</b> does everything else.</p>
+<p>English says "not" for almost everything: <i>not a car</i>, <i>not expensive</i>, <i>not today</i>. German has two words. <b>kein</b> goes before a noun that would have <b>ein</b> or no article, and <b>nicht</b> does everything else.</p>
 <h3>kein: "no", "not a", "not any"</h3>
 <p>Use <b>kein</b> where a noun would otherwise have <b>ein</b> or no article at all. It is the negative article, and it works exactly like <b>ein</b>: <b>keine</b> before a feminine noun, and <b>keinen</b> for a masculine direct object. Unlike <b>ein</b>, it also has a plural form: <b>keine</b>.</p>
 <div class="tbl"><table><tr><th></th><th>Subject</th><th>Direct object</th></tr><tr><td>masculine</td><td class="k">kein Termin</td><td class="k">keinen Termin</td></tr><tr><td>feminine</td><td class="k">keine Zeit</td><td class="k">keine Zeit</td></tr><tr><td>neuter</td><td class="k">kein Auto</td><td class="k">kein Auto</td></tr><tr><td>plural</td><td class="k">keine Kinder</td><td class="k">keine Kinder</td></tr></table></div>
@@ -86,7 +86,7 @@ module.exports = [
     ],
     practice: [
       ["mc", "'I don't understand.' =", "Ich verstehe nicht.", "Ich nicht verstehe.", "Ich verstehe kein.", "Nicht ich verstehe.", "The verb stays second, and nicht comes after it."],
-      ["mc", "'We don't have time.' =", "Wir haben keine Zeit.", "Wir haben nicht Zeit.", "Wir haben keinen Zeit.", "Wir nicht haben Zeit.", "Zeit is a feminine noun with no article, so keine."],
+      ["mc", "'We don't have time.' =", "Wir haben keine Zeit.", "Wir haben kein Zeit.", "Wir haben keinen Zeit.", "Wir nicht haben Zeit.", "Zeit is a feminine noun with no article, so keine."],
       ["mc", "'It's not far.' =", "Das ist nicht weit.", "Das ist kein weit.", "Das ist weit nicht.", "Das nicht ist weit.", "nicht goes right before an adjective."],
       ["mc", "'No problem.' =", "Kein Problem.", "Keinen Problem.", "Nicht Problem.", "Keine Problem.", "Problem is neuter: kein, like ein."],
       ["mc", "'I'm not coming today.' =", "Ich komme heute nicht.", "Ich nicht komme heute.", "Ich komme heute kein.", "Heute ich komme nicht.", "nicht comes after the verb and after a time word like heute."],
@@ -192,7 +192,7 @@ module.exports = [
       ["mc", "'I'd like a tea.' (ordering) =", "Ich möchte einen Tee.", "Ich möchte ein Tee.", "Ich gern einen Tee.", "Ich möchtest einen Tee.", "To order, use möchte; Tee is masculine, so einen."],
       ["mc", "'I'd rather drink tea.' =", "Ich trinke lieber Tee.", "Ich lieber trinke Tee.", "Ich trinke gerner Tee.", "Ich mag lieber trinken Tee.", "lieber works like gern: right after the verb."],
       ["mc", "'Do you like dogs?' (to a friend) =", "Magst du Hunde?", "Mögst du Hunde?", "Magt du Hunde?", "Möchtest du Hunde?", "The du form of mögen is magst. Möchtest du Hunde? would ask if they want some dogs."],
-      ["or", "I like playing tennis (start with ich)", "Ich spiele gern Tennis", "spielt", "Verb second, and gern right after the verb."],
+      ["or", "I like to swim (start with ich)", "Ich schwimme gern", "schwimmt", "Verb second: schwimme comes right after ich, and gern follows the verb."],
       ["or", "On the weekend I like to cook (start with am Wochenende)", "Am Wochenende koche ich gern", "kochst", "Verb second: am Wochenende first, then koche, then ich and gern."],
       ["or", "Most of all, I like to read (start with am liebsten)", "Am liebsten lese ich", "liest", "Verb second: am liebsten first, then lese, then ich."],
       ["fi", "Ich __ Hunde.", "I like dogs.", "mag", "mögt|magst|möchte", "For animals, use mögen; the ich form is mag."],

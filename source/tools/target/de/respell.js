@@ -39,6 +39,7 @@ leon=LAY-awn rhein=rain ostsee=AWST-zay häuschen=HOYS-hhuhn radieschen=rah-DEES
 übernachten=ew-buh-NAHKH-tuhn übernachte=ew-buh-NAHKH-tuh übernachtet=ew-buh-NAHKH-tuht übermorgen=EW-buh-mawr-guhn appetit=ahp-ay-TEET interessant=in-tuh-reh-SAHNT
 chicago=shih-KAH-goh berlin=behr-LEEN amerika=ah-MAY-ree-kah emily=EH-mih-lee ryan=RAI-uhn megan=MAY-guhn
 new=nyoo york=yawrk boston=BAWS-tuhn
+wandere=VAHN-duh-ruh wandern=VAHN-duhn wanderst=VAHN-duhst wandert=VAHN-duht
 `;
 /* words that only look prefixed or separable (be-, ge-, er-, an-, ab-, ein- ...): no prefix boundary */
 const NOPREFIX = new Set(`gehen gehe gehst geht ging gingen geben gebe gibst gab gaben gegen gegend gestern gelten gerne

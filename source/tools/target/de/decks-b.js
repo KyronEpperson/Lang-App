@@ -103,7 +103,7 @@ Ich bin gestresst. | ihh bin guh-SHTREHST | I'm stressed. |
   "Likes and free time": `
 Ich spiele gern Fußball. | ihh SHPEE-luh gehrn FOOS-bahl | I like playing soccer. | Verb + gern = like doing. Fußball is soccer; American football is Football.
 Ich mag Hunde. | ihh mahk HOON-duh | I like dogs. | mögen + noun. For an activity use gern.
-Was machst du am Wochenende? | vahs mahkhst doo ahm VAWKH-uhn-ehn-duh | What are you doing this weekend? (to a friend) | am Wochenende = at the weekend.
+Was machst du am Wochenende? | vahs mahkhst doo ahm VAWKH-uhn-ehn-duh | What are you doing this weekend? (to a friend) | am Wochenende = on the weekend.
 Ich bin ins Kino gegangen. | ihh bin ins KEE-noh guh-GAHNG-uhn | I went to the movies. | gehen takes sein in the Perfekt. ins = in das.
 Ich habe ein Buch gelesen. | ihh HAH-buh ain bookh guh-LAY-zuhn | I read a book. | haben second, the participle gelesen at the end.
 Was machst du gern? | vahs mahkhst doo gehrn | What do you like to do? (to a friend) | gern right after the verb and its subject.
@@ -165,14 +165,14 @@ der Termin | dayr tehr-MEEN | appointment | Doctors, offices and even hair salon
 die Anmeldung | dee AHN-mehl-doong | address registration | Everyone who moves into a home in Germany registers the address at the local office.
 Nur Bargeld. | noor BAHR-gehlt | Cash only. | Many small shops, bakeries and cafés still prefer cash.
 das Pfand | dahs pfahnt | bottle deposit | Take bottles and cans back to the store to get the deposit back.
-Kein Problem. | kain proh-BLAYM | No problem. | kein before a noun, nicht before almost everything else.
-das Bürgeramt | dahs BEWR-guh-ahmt | citizens' office | The city office for the Anmeldung, ID cards and similar paperwork. Book a Termin first.
+Kein Problem. | kain proh-BLAYM | No problem. | kein negates a noun that would have ein or no article: kein Problem.
+das Bürgeramt | dahs BEWR-guh-ahmt | citizens' office | The city office for the Anmeldung, ID cards and similar paperwork. In many cities you need a Termin first.
 der Ausweis | dayr OWS-vais | ID card | Also der Personalausweis. You may be asked for it at an office or a bank.
 die Kasse | dee KAHS-uh | checkout, register | At the supermarket. At the bakery you just pay at the counter.
 der Feierabend | dayr FAI-uh-ah-buhnt | the end of the workday | Schönen Feierabend! = Enjoy your evening! (to someone leaving work)
 Das geht nicht. | dahs gayt nihht | That won't work. / That's not possible. | nicht, because there is no noun to negate.
 geschlossen | guh-SHLAWS-uhn | closed | On doors and signs. Open: geöffnet.
-Am Sonntag haben die Geschäfte zu. | ahm ZAWN-tahk HAH-buhn dee guh-SHEHF-tuh tsoo | Stores are closed on Sundays. | Most shops close on Sundays. Bakeries and station shops often open.
+Am Sonntag haben die Geschäfte zu. | ahm ZAWN-tahk HAH-buhn dee guh-SHEHF-tuh tsoo | Stores are closed on Sundays. | Most shops close on Sundays. Some bakeries open in the morning, and shops in big train stations are often open.
 der Mülleimer | dayr MEWL-ai-muh | trash can | Plural: die Mülleimer.
 die Mülltrennung | dee MEWL-trehn-oong | waste sorting | Paper, glass, packaging and other trash go in separate bins.
 der Hausmeister | dayr HOWS-mais-tuh | building manager, janitor | The person to call when something in the building is broken.

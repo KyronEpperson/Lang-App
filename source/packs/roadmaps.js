@@ -122,15 +122,15 @@ LANGAPP_PACKS.roadmaps = {
     src: ["Goethe-Institut: Prüfungsziele, Testbeschreibung A1 Start Deutsch 1"], note: "The inventory is grouped by category, not ordered; the lesson order here is common course practice.",
     stages: [
       { en: "Sounds and first words", ko: "소리와 첫 표현", items: [
-        ["de-sounds", "Alphabet, umlauts and ß", "알파벳, 움라우트, ß"], ["de-greetings", "Greetings: du and Sie", "인사: du와 Sie"], ["de-sein-haben", "sein and haben", "sein과 haben"],
-        ["de-gender", "der, die, das and plurals", "der, die, das와 복수"], ["de-present", "Present tense", "현재 시제"] ] },
+        ["de-sounds", "Alphabet, umlauts and ß", "알파벳, 움라우트, ß", "sounds"], ["de-greetings", "Greetings: du and Sie", "인사: du와 Sie", "greetings"], ["de-sein-haben", "sein and haben", "sein과 haben", "sein-haben"],
+        ["de-gender", "der, die, das and plurals", "der, die, das와 복수", "gender"], ["de-present", "Present tense", "현재 시제", "present"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["de-word-order", "Verb in second place", "동사는 두 번째 자리"], ["de-questions", "W-questions and yes/no questions", "W-의문문과 예/아니오 의문문"], ["de-negation", "nicht and kein", "nicht와 kein"],
-        ["de-numbers", "Numbers, time and prices", "숫자, 시간, 가격"], ["de-accusative", "Accusative: den, einen", "4격: den, einen"], ["de-pronouns", "Pronouns: ich, mich, mir", "대명사: ich, mich, mir"], ["de-possessives", "mein, dein, sein", "소유관사 mein, dein, sein"] ] },
+        ["de-word-order", "Verb in second place", "동사는 두 번째 자리", "word-order"], ["de-questions", "W-questions and yes/no questions", "W-의문문과 예/아니오 의문문", "questions"], ["de-negation", "nicht and kein", "nicht와 kein", "negation"],
+        ["de-numbers", "Numbers, time and prices", "숫자, 시간, 가격", "numbers"], ["de-accusative", "Accusative: den, einen", "4격: den, einen", "accusative"], ["de-pronouns", "Pronouns: ich, mich, mir", "대명사: ich, mich, mir", "pronouns"], ["de-possessives", "mein, dein, sein", "소유관사 mein, dein, sein", "possessives"] ] },
       { en: "Doing things", ko: "행동 말하기", items: [
-        ["de-modals", "Modal verbs: können, müssen, wollen, möchten", "화법조동사: können, müssen, wollen, möchten"], ["de-separable", "Separable verbs: aufstehen", "분리동사: aufstehen"], ["de-bracket", "The sentence bracket", "문장 괄호 구조"],
-        ["de-dative", "Dative: dem, der, mit, bei", "3격: dem, der, mit, bei"], ["de-prepositions", "Prepositions of place and time", "장소·시간 전치사"], ["de-imperative", "Imperative: du, ihr, Sie", "명령법: du, ihr, Sie"],
-        ["de-perfekt", "Perfekt: what happened", "현재완료: 과거 말하기"], ["de-war-hatte", "war and hatte", "war와 hatte"], ["de-adjectives", "Adjectives and comparing", "형용사와 비교"], ["de-connectors", "und, oder, aber, denn, wenn", "und, oder, aber, denn, wenn"] ] } ] },
+        ["de-modals", "Modal verbs: können, müssen, wollen, möchten", "화법조동사: können, müssen, wollen, möchten", "modals"], ["de-separable", "Separable verbs: aufstehen", "분리동사: aufstehen", "separable"], ["de-bracket", "The sentence bracket", "문장 괄호 구조", "bracket"],
+        ["de-dative", "Dative: dem, der, mit, bei", "3격: dem, der, mit, bei", "dative"], ["de-prepositions", "Prepositions of place and time", "장소·시간 전치사", "prepositions"], ["de-imperative", "Imperative: du, ihr, Sie", "명령법: du, ihr, Sie", "imperative"],
+        ["de-perfekt", "Perfekt: what happened", "현재완료: 과거 말하기", "perfekt"], ["de-war-hatte", "war and hatte", "war와 hatte", "war-hatte"], ["de-adjectives", "Adjectives and comparing", "형용사와 비교", "adjectives"], ["de-connectors", "und, oder, aber, denn, wenn", "und, oder, aber, denn, wenn", "connectors"] ] } ] },
 
   pt: { variant: {en: "Brazilian Portuguese", ko: "브라질 포르투갈어"}, basis: {en: "University of São Paulo A1 programme for foreigners", ko: "상파울루 대학교 외국인 A1 과정"},
     src: ["USP Centro de Línguas: Língua Portuguesa para Estrangeiros, nível A1"], note: "The programme lists five blocks (alphabet, present, routine and numbers, location and future, past); finer items are common course practice.",

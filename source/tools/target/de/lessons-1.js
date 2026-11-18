@@ -12,7 +12,7 @@ module.exports = [
 <div class="tbl"><table><tr><th>Letter</th><th>Sounds like</th><th>Example</th></tr><tr><td class="k">w</td><td>English v</td><td class="k">das Wasser</td></tr><tr><td class="k">v</td><td>English f</td><td class="k">der Vater</td></tr><tr><td class="k">z</td><td>ts, as in <i>cats</i></td><td class="k">die Zeit</td></tr><tr><td class="k">j</td><td>y, as in <i>yes</i></td><td class="k">ja</td></tr><tr><td>s before a vowel</td><td>z</td><td class="k">die Sonne</td></tr><tr><td>sp, st at the start</td><td>shp, sht</td><td class="k">die Straße</td></tr><tr><td class="k">ß</td><td>s</td><td class="k">die Straße</td></tr></table></div>
 {{ex:das Wasser|dahs VAHS-uh|the water}}
 {{ex:die Straße|dee SHTRAH-suh|the street}}
-<p><b>ß</b> is used after a long vowel, as in <b>Straße</b>. Swiss German writes <b>ss</b> instead.</p>
+<p><b>ß</b> is used after a long vowel or after <b>ei, au, eu</b>, as in <b>Straße</b> and <b>heißen</b>. Swiss German writes <b>ss</b> instead.</p>
 <h3>ei and ie</h3>
 <p><b>ei</b> sounds like English <i>eye</i> (the line writes <i>ai</i>), and <b>ie</b> sounds like <i>ee</i>. Read the second letter and say its English name: <b>Wein</b> (wine), <b>Wien</b> (Vienna). <b>eu</b> and <b>äu</b> sound like <i>oy</i>, and <b>au</b> like <i>ow</i>. A long e, as in <b>Tee</b> (tea), is written <i>ay</i>: say <i>day</i> without the glide at the end.</p>
 {{ex:der Wein|dayr vain|the wine}}
@@ -302,7 +302,7 @@ module.exports = [
       ["fi", "Heute __ es kalt.", "It's cold today.", "ist", "sind|bin|bist", "es takes ist, and it stays in second place after heute."],
       ["fi", "Am Freitag __ ich nach Berlin.", "On Friday I'm going to Berlin.", "fahre", "fährt|fahren|fahrst", "The ich form ends in -e: fahre."],
       ["fi", "Morgen __ wir Tennis.", "Tomorrow we're playing tennis.", "spielen", "spielt|spiele|spielst", "The wir form ends in -en: spielen."],
-      ["ty", "On Sunday we sleep late. (start with am Sonntag)", "Am Sonntag schlafen wir lange.", "am Sonntag · schlafen · lange", "schlaft", "The verb is the second element: am Sonntag first, then schlafen, then wir."],
+      ["ty", "On Sunday we sleep late. (start with am Sonntag)", "Am Sonntag schlafen wir lange.|Am Sonntag schlafen wir aus.", "am Sonntag · schlafen · lange", "schlaft", "The verb is the second element: am Sonntag first, then schlafen, then wir."],
       ["ty", "Today I work at home. (start with heute)", "Heute arbeite ich zu Hause.|Heute arbeite ich zuhause.", "heute · arbeiten · zu Hause", "arbeitet", "Verb second: heute first, then arbeite, then ich."],
       ["ty", "It's raining today.", "Es regnet heute.|Heute regnet es.", "regnen · heute · es", "regnen", "The verb is the second element either way: Es regnet heute, or Heute regnet es."]
     ]

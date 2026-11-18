@@ -136,7 +136,7 @@ module.exports = [
 <h3>bitte and separable verbs</h3>
 <p><b>bitte</b> makes any request softer; put it after the verb or at the end. A separable prefix goes to the end, as in a statement.</p>
 {{ex:Ruf mich morgen an!|roof mihh MAWR-guhn ahn|Call me tomorrow! (to a friend)}}
-<p>With staff, a doctor or a stranger, the Sie form plus <b>bitte</b> is the normal polite way to ask for something. Between friends, a du imperative without <b>bitte</b> is not rude; it simply sounds direct and friendly.</p>
+<p>With staff, a doctor or a stranger, the Sie form plus <b>bitte</b> is the normal polite way to ask for something. Between friends, a du imperative without <b>bitte</b> is common; add <b>bitte</b> when you are asking a favor.</p>
 <div class="tip"><b>Most common mistake:</b> putting du in front of the verb. <b>Du komm!</b> → <b>Komm!</b>, but to a stranger: <b>Kommen Sie!</b></div>
 `,
     check: [
@@ -148,7 +148,7 @@ module.exports = [
       ["mc", "Take a pill. (formal) =", "Nehmen Sie eine Tablette.", "Nehmen eine Tablette.", "Nimm Sie eine Tablette.", "Nehmt Sie eine Tablette.", "To a stranger: the infinitive first, then Sie."],
       ["mc", "Come! (to a friend) =", "Komm!", "Kommst!", "Du komm!", "Kommen du!", "du kommst without -st and without du: Komm!"],
       ["mc", "Sleep well! (to a friend) =", "Schlaf gut!", "Schläf gut!", "Schläfst gut!", "Schlafst gut!", "du schläfst drops the umlaut in the imperative: Schlaf gut!", "!strict"],
-      ["mc", "Wait here! (to friends) =", "Wartet hier!", "Wart hier!", "Wartest hier!", "Warten hier!", "To several friends: the ihr form without ihr, wartet."],
+      ["mc", "Wait here! (to friends) =", "Wartet hier!", "Warte hier!", "Wartest hier!", "Warten hier!", "To several friends: the ihr form without ihr, wartet. Warte! is for one friend."],
       ["mc", "Call me! (to a friend) =", "Ruf mich an!", "Anruf mich!", "Ruf an mich!", "Rufst mich an!", "anrufen is separable, so an goes at the end: Ruf mich an!"],
       ["or", "Call an ambulance! (formal)", "Rufen Sie einen Krankenwagen", "Ruf einem", "Sie imperative: the verb comes first, then Sie. der Krankenwagen is the direct object: einen Krankenwagen."],
       ["or", "Call me tomorrow! (to a friend)", "Ruf mich morgen an", "mir rufst", "anrufen is separable: an goes to the end, and the direct object is mich."],
@@ -263,7 +263,7 @@ module.exports = [
       ["fi", "Am Montag __ es sehr kalt.", "It was very cold on Monday.", "war", "waren|warst|wahr", "es takes war; wahr means true."],
       ["ty", "I was in Berlin. (use war)", "Ich war in Berlin.", "sein → war · in Berlin", "warst", "The ich form of war has no ending: ich war."],
       ["ty", "We had no time. (use hatten)", "Wir hatten keine Zeit.", "haben → hatten · die Zeit", "hatte", "The wir form of hatte ends in -en: wir hatten.", "!strict"],
-      ["ty", "Yesterday I went to the movies. (start with gestern)", "Gestern bin ich ins Kino gegangen.", "gestern · gehen → gegangen · ins Kino", "habe", "Verb second: gestern first, then bin; gehen takes sein in the Perfekt."]
+      ["ty", "Yesterday I went to the movies. (start with gestern)", "Gestern bin ich ins Kino gegangen.|Gestern war ich im Kino.", "gestern · gehen → gegangen · ins Kino", "habe", "Verb second: gestern first, then bin; gehen takes sein in the Perfekt."]
     ]
   },
   {
