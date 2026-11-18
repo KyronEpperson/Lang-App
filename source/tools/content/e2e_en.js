@@ -1,7 +1,8 @@
 /* usage: node e2e_en.js <lang> <id> [<id>...]  — <lang>-en (default ko when the first arg is not a scaffolded language): completes each lesson
    as a non-free user (correct check answers from CHECKS), then sweeps practice items. Needs a build (korean-flashcards.html) containing the pack. */
 const fs=require('fs'),path=require('path');let args=process.argv.slice(2);
-const LANG=(args[0]&&/^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/.test(args[0])&&fs.existsSync(path.join(__dirname,args[0],'profile.json')))?args.shift():'ko';const CID=LANG+'-en';
+const REV=args[0]&&/^en-[a-z]{2}$/.test(args[0])?args.shift():null; /* en-<t>: a course that teaches <t> to English speakers (tools/target) */
+const LANG=REV?'en':(args[0]&&/^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/.test(args[0])&&fs.existsSync(path.join(__dirname,args[0],'profile.json')))?args.shift():'ko';const CID=REV||LANG+'-en';
 const {chromium}=require('playwright');(async()=>{const ids=args;const b=await chromium.launch();let fail=0;
 for(const id of ids){const c=await b.newContext({viewport:{width:390,height:800},reducedMotion:'reduce'});const p=await c.newPage();const errs=[],warn=[];p.on('pageerror',e=>errs.push(e.message));p.on('console',m=>{if(/prac/i.test(m.text()))warn.push(m.text().slice(0,100));});
 await p.addInitScript(([lang,cid])=>{const st=JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false});localStorage.setItem('la-s-'+cid,st);if(lang==='ko')localStorage.setItem('ko-app2',st);localStorage.setItem('la-meta',JSON.stringify({v:1,native:lang,course:cid,picked:1,seenHome:1,prefs:{}}));},[LANG,CID]);
@@ -13,8 +14,8 @@ await p.click('#miniStart');
 for(let k=0;k<80;k++){const done=await p.evaluate(id=>!!(S.drills&&S.drills[id]),id);if(done)break;await p.evaluate(()=>{const bs=[...document.querySelectorAll('#miniDrill .mdCard button:not([disabled])')];const g=bs[bs.length-1];if(g)g.click();});await p.waitForTimeout(150);}
 const r1=await p.evaluate(id=>{const i=LESSONS.findIndex(l=>l.id===id);let bad=0,n=0;Object.keys(PRACTICE).forEach(k=>PRACTICE[k].forEach(it=>{n++;
  if(it.t==='order'){const m=it.a.join(' ');if(!pracMatch(m,[m]))bad++;(it.x||[]).forEach(x=>it.a.forEach((_,j)=>{const alt=it.a.slice();alt[j]=x;if(pracMatch(alt.join(' '),[m]))bad++;}));}
- if(it.t==='fill'){it.a.forEach(a=>{if(!pracMatch(a,it.a))bad++;});(it.o||[]).forEach(o=>{if(pracMatch(o,it.a))bad++;});}
- if(it.t==='type'){it.a.forEach(a=>{if(!pracMatch(a,it.a))bad++;});const tl=it.a[0].split(' ');(it.x||[]).forEach(x=>tl.forEach((_,j)=>{const alt=tl.slice();alt[j]=x;if(pracMatch(alt.join(' '),it.a))bad++;}));}}));
+ if(it.t==='fill'){it.a.forEach(a=>{if(!pracMatch(a,it.a))bad++;});(it.o||[]).forEach(o=>{if(pracMatch(o,it.a,!!it.strict))bad++;});}
+ if(it.t==='type'){it.a.forEach(a=>{if(!pracMatch(a,it.a))bad++;});const tl=it.a[0].split(' ');(it.x||[]).forEach(x=>tl.forEach((_,j)=>{const alt=tl.slice();alt[j]=x;if(pracMatch(alt.join(' '),it.a,true))bad++;}));}}));
  return {done:!!S.lessons[id],next:i+1<LESSONS.length?lessonUnlocked(i+1):true,prac:(PRACTICE[id]||[]).length,items:n,bad};},id);
 const ok=r1.done&&r1.next&&r1.prac>=12&&!r1.bad&&!errs.length&&!warn.length;if(!ok)fail++;
 console.log(CID,id,ok?'OK':'FAIL',r0.title,'| lessons',r0.n,'planned',r0.planned,'items',r1.items,errs.concat(warn).join('|'));
