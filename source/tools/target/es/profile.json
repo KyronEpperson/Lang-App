@@ -1,0 +1,295 @@
+{
+  "target": "es",
+  "nameEn": "Spanish",
+  "self": "español",
+  "ttsLang": "es-MX",
+  "brand": "Español",
+  "accents": true,
+  "keys": "á é í ó ú ñ ü ¿ ¡",
+  "greet": [
+    [
+      "Buenas noches",
+      "Good night (you're up late)"
+    ],
+    [
+      "Buenos días",
+      "Good morning"
+    ],
+    [
+      "Buenas tardes",
+      "Good afternoon"
+    ],
+    [
+      "Buenas noches",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?!.*[cC](?![hH]))(?!.*(?<![aA])[iI])(?!.*[aA](?![hHiIyY]))(?!.*(?<![eE])[eE](?![hHeE]))(?!.*(?<![oO])[oO](?![hHoOyYwW]))(?:[abcdefghiklmnoprstwy]+|(?:[abcdefghiklmnoprstwy]+-)+[ABCDEFGHIKLMNOPRSTWY]+(?:-[abcdefghiklmnoprstwy]+)*|[ABCDEFGHIKLMNOPRSTWY]+(?:-[abcdefghiklmnoprstwy]+)+)(?: (?:[abcdefghiklmnoprstwy]+|(?:[abcdefghiklmnoprstwy]+-)+[ABCDEFGHIKLMNOPRSTWY]+(?:-[abcdefghiklmnoprstwy]+)*|[ABCDEFGHIKLMNOPRSTWY]+(?:-[abcdefghiklmnoprstwy]+)+))*$",
+  "targetScript": "[A-Za-zÁÉÍÓÚÜÑáéíóúüñ¿¡]",
+  "standingRule": {
+    "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bgender\\b|\\bsingular\\b|\\bplural (?:noun|adjective|article|ending|form|verb)|\\bverb ending|\\bmatch(?:es)? the subject|(?:\\byo|tú|él|\\bella|\\busted|\\bnosotros|\\bellos|\\bustedes)[ -]form",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "sounds",
+      "title": "Sounds, spelling and stress",
+      "roadmap": "es-sounds",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings: tú and usted",
+      "roadmap": "es-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "gender",
+      "title": "Gender and number of nouns",
+      "roadmap": "es-gender",
+      "deck": "People and family"
+    },
+    {
+      "id": "articles",
+      "title": "el / la, un / una",
+      "roadmap": "es-articles",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "ser",
+      "title": "Subject pronouns and ser",
+      "roadmap": "es-ser",
+      "deck": "About me"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives: agreement and position",
+      "roadmap": "es-adjectives",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "estar",
+      "title": "estar: where and how",
+      "roadmap": "es-estar",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "ser-estar",
+      "title": "ser vs estar",
+      "roadmap": "es-ser-estar",
+      "deck": "Feelings and states"
+    },
+    {
+      "id": "hay",
+      "title": "hay: there is, there are",
+      "roadmap": "es-hay",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "present",
+      "title": "Present tense: -ar, -er, -ir",
+      "roadmap": "es-present",
+      "deck": "Work and school"
+    },
+    {
+      "id": "questions",
+      "title": "Questions and question words",
+      "roadmap": "es-questions",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers, time and prices",
+      "roadmap": "es-numbers",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "possessives",
+      "title": "Possessives and demonstratives",
+      "roadmap": "es-possessives",
+      "deck": "People and family"
+    },
+    {
+      "id": "irregular",
+      "title": "Irregular present: tener, ir, hacer",
+      "roadmap": "es-irregular",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "stem-change",
+      "title": "Stem-changing verbs: quiero, puedo, pido",
+      "roadmap": "",
+      "deck": "Health and emergencies"
+    },
+    {
+      "id": "gustar",
+      "title": "gustar: me gusta, me gustan",
+      "roadmap": "es-gustar",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "reflexive",
+      "title": "Reflexive verbs and daily routine",
+      "roadmap": "es-reflexive",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "prepositions",
+      "title": "a, de, en, con, por, para",
+      "roadmap": "es-prepositions",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "muy-mucho",
+      "title": "muy and mucho: very cold is mucho frío",
+      "roadmap": "es-muy-mucho",
+      "deck": "Traps for English speakers"
+    },
+    {
+      "id": "connectors",
+      "title": "y, o, pero, porque",
+      "roadmap": "es-connectors",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "directions",
+      "title": "Directions and places in town",
+      "roadmap": "es-directions",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "ir-a",
+      "title": "ir a + infinitive: plans",
+      "roadmap": "es-ir-a",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "lo-la",
+      "title": "Object pronouns: lo, la, los, las",
+      "roadmap": "",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "preterite",
+      "title": "The preterite: what you did",
+      "roadmap": "es-perfecto",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "se",
+      "title": "Impersonal se: se habla español",
+      "roadmap": "es-se",
+      "deck": "Work and school"
+    },
+    {
+      "id": "caribbean",
+      "title": "Hearing Caribbean Spanish",
+      "roadmap": "",
+      "deck": "Caribbean and Dominican Spanish"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "Words that show each spelling rule: silent h, j, ll, ñ, r and rr, c and z"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Hello, goodbye, please, thanks and polite openers for strangers"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Name, where you are from, where you live, your job and your languages"
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "Family members, friends and words to describe people"
+    },
+    {
+      "name": "Numbers, time and prices",
+      "group": "Everyday words",
+      "desc": "Numbers to 1,000, telling the time, asking prices in pesos and dollars"
+    },
+    {
+      "name": "Days, dates and weather",
+      "group": "Everyday words",
+      "desc": "Days, months, dates, yesterday and tomorrow, and the weather"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Ordering in a restaurant or taquería, everyday food and drinks"
+    },
+    {
+      "name": "Shopping and clothes",
+      "group": "Everyday words",
+      "desc": "Clothes, colors, sizes and paying"
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms and things at home, and a daily routine with reflexive verbs"
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places in town, asking where things are, and following directions"
+    },
+    {
+      "name": "Travel and transport",
+      "group": "Out and about",
+      "desc": "Tickets, stations, airports, getting around and hotel basics"
+    },
+    {
+      "name": "Health and emergencies",
+      "group": "Out and about",
+      "desc": "Saying what hurts, the pharmacy, and asking for help"
+    },
+    {
+      "name": "Work and school",
+      "group": "Out and about",
+      "desc": "Jobs, the workplace, classes and everyday work verbs"
+    },
+    {
+      "name": "Feelings and states",
+      "group": "Conversation",
+      "desc": "How you feel, with estar and tener"
+    },
+    {
+      "name": "Likes and free time",
+      "group": "Conversation",
+      "desc": "Hobbies, sports, likes and dislikes, and what you did at the weekend"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "Question words and the small words that join sentences"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends, calques and very / a lot"
+    },
+    {
+      "name": "Caribbean and Dominican Spanish",
+      "group": "Watch out",
+      "desc": "Regional: words and sounds you will hear in the Dominican Republic and the Caribbean"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

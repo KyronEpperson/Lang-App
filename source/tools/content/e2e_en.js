@@ -13,7 +13,7 @@ for(let q=0;q<3;q++){const k=r0.ans[q];await p.waitForSelector('#checkBody .opt[
 await p.click('#miniStart');
 for(let k=0;k<80;k++){const done=await p.evaluate(id=>!!(S.drills&&S.drills[id]),id);if(done)break;await p.evaluate(()=>{const bs=[...document.querySelectorAll('#miniDrill .mdCard button:not([disabled])')];const g=bs[bs.length-1];if(g)g.click();});await p.waitForTimeout(150);}
 const r1=await p.evaluate(id=>{const i=LESSONS.findIndex(l=>l.id===id);let bad=0,n=0;Object.keys(PRACTICE).forEach(k=>PRACTICE[k].forEach(it=>{n++;
- if(it.t==='order'){const m=it.a.join(' ');if(!pracMatch(m,[m]))bad++;(it.x||[]).forEach(x=>it.a.forEach((_,j)=>{const alt=it.a.slice();alt[j]=x;if(pracMatch(alt.join(' '),[m]))bad++;}));}
+ if(it.t==='order'){const m=it.a.join(' ');if(!pracMatch(m,[m]))bad++;(it.x||[]).forEach(x=>it.a.forEach((_,j)=>{const alt=it.a.slice();alt[j]=x;if(pracMatch(alt.join(' '),[m],true))bad++;}));}
  if(it.t==='fill'){it.a.forEach(a=>{if(!pracMatch(a,it.a))bad++;});(it.o||[]).forEach(o=>{if(pracMatch(o,it.a,!!it.strict))bad++;});}
  if(it.t==='type'){it.a.forEach(a=>{if(!pracMatch(a,it.a))bad++;});const tl=it.a[0].split(' ');(it.x||[]).forEach(x=>tl.forEach((_,j)=>{const alt=tl.slice();alt[j]=x;if(pracMatch(alt.join(' '),it.a,true))bad++;}));}}));
  return {done:!!S.lessons[id],next:i+1<LESSONS.length?lessonUnlocked(i+1):true,prac:(PRACTICE[id]||[]).length,items:n,bad};},id);

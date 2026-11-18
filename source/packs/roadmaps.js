@@ -86,19 +86,19 @@ LANGAPP_PACKS.roadmaps = {
         ["zh-want-can", "想・要・会・能: want and can", "想・要・会・能: 원함과 가능"], ["zh-le", "了: completed and changed", "了: 완료와 변화"], ["zh-progress", "正在: doing right now", "正在: 진행"], ["zh-serial", "Two verbs in a row: 去 + verb", "연동문: 去 + 동사"],
         ["zh-a-not-a", "Verb-not-verb questions", "정반 의문문"], ["zh-ye-dou", "也・都・还: also, all, still", "也・都・还"], ["zh-ba-bie", "吧・别: suggestions and don't", "吧・别: 제안과 금지"], ["zh-and-or", "和・还是: and, or", "和・还是"] ] } ] },
 
-  es: { variant: {en: "Spanish of Spain", ko: "스페인 스페인어"}, basis: {en: "CEFR A1, Plan Curricular del Instituto Cervantes", ko: "CEFR A1, 세르반테스 문화원 교육과정"},
+  es: { variant: {en: "Latin American Spanish", ko: "중남미 스페인어"}, basis: {en: "CEFR A1, Plan Curricular del Instituto Cervantes", ko: "CEFR A1, 세르반테스 문화원 교육과정"},
     src: ["Universidad de Zaragoza A1 programme (MCER + PCIC)"], note: "",
     stages: [
       { en: "Sounds and first words", ko: "소리와 첫 표현", items: [
-        ["es-sounds", "Alphabet, sounds and stress", "알파벳, 발음, 강세"], ["es-greetings", "Greetings and introductions", "인사와 자기소개"], ["es-gender", "Gender and number of nouns", "명사의 성과 수"], ["es-articles", "el / la, un / una", "관사 el / la, un / una"] ] },
+        ["es-sounds", "Alphabet, sounds and stress", "알파벳, 발음, 강세", "sounds"], ["es-greetings", "Greetings and introductions", "인사와 자기소개", "greetings"], ["es-gender", "Gender and number of nouns", "명사의 성과 수", "gender"], ["es-articles", "el / la, un / una", "관사 el / la, un / una", "articles"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["es-ser", "Subject pronouns and ser", "주어 대명사와 ser"], ["es-estar", "estar: where and how", "estar: 위치와 상태"], ["es-ser-estar", "ser vs estar", "ser vs estar"], ["es-hay", "hay: there is", "hay: 있어요"],
-        ["es-present", "Present tense: -ar, -er, -ir", "현재 시제: -ar, -er, -ir"], ["es-questions", "Question words", "의문사"], ["es-numbers", "Numbers, time and prices", "숫자, 시간, 가격"],
-        ["es-adjectives", "Adjectives and agreement", "형용사와 일치"], ["es-possessives", "Possessives and demonstratives", "소유사와 지시사"] ] },
+        ["es-ser", "Subject pronouns and ser", "주어 대명사와 ser", "ser"], ["es-estar", "estar: where and how", "estar: 위치와 상태", "estar"], ["es-ser-estar", "ser vs estar", "ser vs estar", "ser-estar"], ["es-hay", "hay: there is", "hay: 있어요", "hay"],
+        ["es-present", "Present tense: -ar, -er, -ir", "현재 시제: -ar, -er, -ir", "present"], ["es-questions", "Question words", "의문사", "questions"], ["es-numbers", "Numbers, time and prices", "숫자, 시간, 가격", "numbers"],
+        ["es-adjectives", "Adjectives and agreement", "형용사와 일치", "adjectives"], ["es-possessives", "Possessives and demonstratives", "소유사와 지시사", "possessives"] ] },
       { en: "Everyday life", ko: "일상", items: [
-        ["es-irregular", "Irregular present: tener, ir, hacer, querer", "불규칙 현재: tener, ir, hacer, querer"], ["es-gustar", "gustar and preferir", "gustar와 preferir"], ["es-reflexive", "Reflexive verbs and daily routine", "재귀동사와 하루 일과"],
-        ["es-prepositions", "a, de, en, con, por, para", "전치사 a, de, en, con, por, para"], ["es-muy-mucho", "muy and mucho", "muy와 mucho"], ["es-connectors", "y, o, pero, porque", "y, o, pero, porque"],
-        ["es-directions", "Directions and places in town", "길 묻기와 장소"], ["es-ir-a", "ir a + infinitive: plans", "ir a + 동사원형: 계획"], ["es-perfecto", "Pretérito perfecto: what you've done", "현재완료: 한 일 말하기"], ["es-se", "Impersonal se", "무인칭 se"] ] } ] },
+        ["es-irregular", "Irregular present: tener, ir, hacer, querer", "불규칙 현재: tener, ir, hacer, querer", "irregular"], ["es-gustar", "gustar and preferir", "gustar와 preferir", "gustar"], ["es-reflexive", "Reflexive verbs and daily routine", "재귀동사와 하루 일과", "reflexive"],
+        ["es-prepositions", "a, de, en, con, por, para", "전치사 a, de, en, con, por, para", "prepositions"], ["es-muy-mucho", "muy and mucho", "muy와 mucho", "muy-mucho"], ["es-connectors", "y, o, pero, porque", "y, o, pero, porque", "connectors"],
+        ["es-directions", "Directions and places in town", "길 묻기와 장소", "directions"], ["es-ir-a", "ir a + infinitive: plans", "ir a + 동사원형: 계획", "ir-a"], ["es-perfecto", "Pretérito perfecto: what you've done", "현재완료: 한 일 말하기", "preterite"], ["es-se", "Impersonal se", "무인칭 se", "se"] ] } ] },
 
   fr: { variant: {en: "French of France", ko: "프랑스 프랑스어"}, basis: {en: "CEFR A1-A2 key contents (France Éducation international)", ko: "CEFR A1-A2 핵심 내용 (France Éducation international)"},
     src: ["Digischool summary of the Inventaire linguistique des contenus clés des niveaux du CECRL"], note: "The sounds stage is standard practice; the inventory itself was read through a summary.",

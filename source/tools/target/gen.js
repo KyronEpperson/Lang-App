@@ -18,7 +18,8 @@ out += '  id: ' + J('en-' + T) + ', native: "en", target: ' + J(T) + ', ttsLang:
 out += '  GREET: ' + J(P.greet) + ',\n';
 out += '  features: {script: false, pron: false, conj: false, register: false, numbers: false, sound: false, strokes: false},\n';
 out += '  DECKS: {\n' + Object.entries(DK).map(([k, cards]) => '    ' + J(k) + ': [\n' + cards.map(c => '      ' + J(c)).join(',\n') + '\n    ]').join(',\n') + '\n  },\n';
-out += '  GROUPS: ' + J(groups) + ',\n  TAGS: {},\n  DESC: ' + obj(DESC, J) + ',\n  DIALOG: ' + obj(DIALOG, J) + ',\n  EXAMPLES: ' + obj(EXAMPLES, J) + ',\n';
+const TAGS = {}; groups.forEach(g => { TAGS[g[0].toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')] = g[1]; }); /* one tag per deck group */
+out += '  GROUPS: ' + J(groups) + ',\n  TAGS: ' + obj(TAGS, J) + ',\n  DESC: ' + obj(DESC, J) + ',\n  DIALOG: ' + obj(DIALOG, J) + ',\n  EXAMPLES: ' + obj(EXAMPLES, J) + ',\n';
 out += '  LESSONS: [\n' + LESSONS.map(l => '    ' + J(l)).join(',\n') + '\n  ],\n  CHECKS: ' + obj(CHECKS, arr) + ',\n  PRACTICE: ' + obj(PRACTICE, arr) + ',\n';
 out += '  PATTERNS: [\n' + PATTERNS.map(p => '    ' + J(p)).join(',\n') + '\n  ],\n  PAIRS: [],\n  GOALS: {},\n  PLAN_PRESETS: {},\n  TITLES: ' + J(TITLES) + ',\n  PAUSE: {sets: {}, idioms: []}\n};\n';
 fs.writeFileSync(OUT, out); console.log('wrote', OUT, out.length, 'bytes ·', LESSONS.length, 'of', order.length, 'lessons ·', Object.keys(DK).length, 'decks ·', Object.values(DK).reduce((a, d) => a + d.length, 0), 'cards');

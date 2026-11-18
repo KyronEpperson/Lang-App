@@ -1,0 +1,307 @@
+{
+  "target": "fr",
+  "nameEn": "French",
+  "self": "français",
+  "ttsLang": "fr-FR",
+  "brand": "Français",
+  "accents": true,
+  "keys": "é è à ç ê ô â î û ù œ ë ï ü",
+  "greet": [
+    [
+      "Bonsoir",
+      "Good evening (you're up late)"
+    ],
+    [
+      "Bonjour",
+      "Good morning"
+    ],
+    [
+      "Bonjour",
+      "Good afternoon (French says bonjour until evening)"
+    ],
+    [
+      "Bonsoir",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?:sh|zh|ny|gh|[bdfgklmnprstvwyz])*(?:ahN?|ohN?|uhN?|aN|ay|eh|ee|oo|ew)(?:sh|zh|ny|gh|[bdfgklmnprstvwyz])*(?:-(?:sh|zh|ny|gh|[bdfgklmnprstvwyz])*(?:ahN?|ohN?|uhN?|aN|ay|eh|ee|oo|ew)(?:sh|zh|ny|gh|[bdfgklmnprstvwyz])*)*(?: (?:sh|zh|ny|gh|[bdfgklmnprstvwyz])*(?:ahN?|ohN?|uhN?|aN|ay|eh|ee|oo|ew)(?:sh|zh|ny|gh|[bdfgklmnprstvwyz])*(?:-(?:sh|zh|ny|gh|[bdfgklmnprstvwyz])*(?:ahN?|ohN?|uhN?|aN|ay|eh|ee|oo|ew)(?:sh|zh|ny|gh|[bdfgklmnprstvwyz])*)*)*$",
+  "targetScript": "[A-Za-zÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸŒÆàâäçéèêëîïôöùûüÿœæ]",
+  "standingRule": {
+    "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bgender\\b|\\bsingular\\b|\\bplural (?:noun|adjective|article|ending|form|verb|subject)|\\bverb ending|\\bmatch(?:es)? the subject|\\bcontract(?:s|ion)\\b|\\b(?:je|tu|il|elle|on|nous|vous|ils|elles)[ -]form",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "sounds",
+      "title": "Sounds, silent letters and liaison",
+      "roadmap": "fr-sounds",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings: tu and vous",
+      "roadmap": "fr-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "articles",
+      "title": "Gender and articles: le, la, l', les, un, une, des",
+      "roadmap": "fr-articles",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "etre-avoir",
+      "title": "être and avoir: I am, I have",
+      "roadmap": "fr-etre-avoir",
+      "deck": "Traps for English speakers"
+    },
+    {
+      "id": "pronouns",
+      "title": "Subject and stress pronouns: je, moi, on",
+      "roadmap": "fr-pronouns",
+      "deck": "About me"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives: agreement and place",
+      "roadmap": "fr-adjectives",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "present",
+      "title": "Present tense: -er verbs",
+      "roadmap": "fr-present",
+      "deck": "Work and school"
+    },
+    {
+      "id": "negation",
+      "title": "ne … pas",
+      "roadmap": "fr-negation",
+      "deck": "Feelings and states"
+    },
+    {
+      "id": "questions",
+      "title": "Questions: est-ce que, qui, où",
+      "roadmap": "fr-questions",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "cest",
+      "title": "c'est and il y a",
+      "roadmap": "fr-cest",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "possessives",
+      "title": "mon / ma / mes, ce / cette / ces",
+      "roadmap": "fr-possessives",
+      "deck": "People and family"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers, time and dates",
+      "roadmap": "fr-numbers",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "partitive",
+      "title": "du, de la, des: some",
+      "roadmap": "fr-partitive",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "polite",
+      "title": "je voudrais: polite requests",
+      "roadmap": "fr-polite",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions of place and time",
+      "roadmap": "fr-prepositions",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "irregular",
+      "title": "aller, faire, venir, prendre",
+      "roadmap": "fr-irregular",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "modals",
+      "title": "vouloir, pouvoir, devoir + infinitive",
+      "roadmap": "fr-modals",
+      "deck": "Health and emergencies"
+    },
+    {
+      "id": "futur-proche",
+      "title": "Futur proche: je vais + verb",
+      "roadmap": "fr-futur-proche",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "pronominal",
+      "title": "Reflexive verbs",
+      "roadmap": "fr-pronominal",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "imperative",
+      "title": "Imperative and il faut",
+      "roadmap": "fr-imperative",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "passe-compose",
+      "title": "Passé composé with avoir and être",
+      "roadmap": "fr-passe-compose",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "connectors",
+      "title": "et, ou, mais, alors",
+      "roadmap": "fr-connectors",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "spoken",
+      "title": "Spoken French: what you'll hear",
+      "roadmap": "",
+      "deck": "Spoken French"
+    },
+    {
+      "id": "imparfait",
+      "title": "Imparfait vs passé composé",
+      "roadmap": "fr-imparfait",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "futur",
+      "title": "Futur simple",
+      "roadmap": "fr-futur",
+      "deck": "Work and school"
+    },
+    {
+      "id": "object-pronouns",
+      "title": "Pronouns le, lui, en, y",
+      "roadmap": "fr-object-pronouns",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "compare",
+      "title": "Comparing: plus, moins, le plus",
+      "roadmap": "fr-compare",
+      "deck": "People and family"
+    },
+    {
+      "id": "relatives",
+      "title": "qui, que, où",
+      "roadmap": "fr-relatives",
+      "deck": "Likes and free time"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "Words that show silent letters, u and ou, nasal vowels and liaison"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Hello, goodbye, please, thank you, and polite openers for strangers"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Your name, where you are from and where you live, and the languages you speak"
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "Family members, friends, and words to describe and compare people"
+    },
+    {
+      "name": "Numbers, time and prices",
+      "group": "Everyday words",
+      "desc": "Numbers to 1,000, telling the time, and prices in euros"
+    },
+    {
+      "name": "Days, dates and weather",
+      "group": "Everyday words",
+      "desc": "Days, months, dates, seasons and the weather"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Ordering at a café, a bakery or a restaurant, and everyday food"
+    },
+    {
+      "name": "Shopping and clothes",
+      "group": "Everyday words",
+      "desc": "Clothes, colors, sizes and paying"
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms and things at home, and a daily routine with reflexive verbs"
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places in town, asking where things are, and following directions"
+    },
+    {
+      "name": "Travel and transport",
+      "group": "Out and about",
+      "desc": "Tickets, stations, airports, countries and getting around"
+    },
+    {
+      "name": "Health and emergencies",
+      "group": "Out and about",
+      "desc": "Saying what hurts, the pharmacy, and asking for help"
+    },
+    {
+      "name": "Work and school",
+      "group": "Out and about",
+      "desc": "Jobs, the workplace, studies and plans"
+    },
+    {
+      "name": "Feelings and states",
+      "group": "Conversation",
+      "desc": "How you feel, with être and avoir, and saying what you are not"
+    },
+    {
+      "name": "Likes and free time",
+      "group": "Conversation",
+      "desc": "Hobbies, sports, likes and dislikes, and what you did"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "Question words and the small words that join sentences"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends, calques and avoir where English says \"be\""
+    },
+    {
+      "name": "Spoken French",
+      "group": "Watch out",
+      "desc": "What you will hear: ne dropped, on for \"we\", and everyday informal words"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

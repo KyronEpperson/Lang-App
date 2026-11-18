@@ -1,0 +1,283 @@
+{
+  "target": "it",
+  "nameEn": "Italian",
+  "self": "italiano",
+  "ttsLang": "it-IT",
+  "brand": "Italiano",
+  "accents": true,
+  "keys": "à è é ì ò ù",
+  "greet": [
+    [
+      "Buonanotte",
+      "Good night (you're up late)"
+    ],
+    [
+      "Buongiorno",
+      "Good morning"
+    ],
+    [
+      "Buon pomeriggio",
+      "Good afternoon"
+    ],
+    [
+      "Buonasera",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?!.*[cC](?![hH]))(?!.*(?<![aA])[iI])(?!.*[aA](?![hHiIyY]))(?!.*(?<![eE])[eE](?![hHeE]))(?!.*(?<![oO])[oO](?![hHoOyYwW]))(?:[abcdefghijklmnoprstvwyz]+|(?:[abcdefghijklmnoprstvwyz]+-)+[ABCDEFGHIJKLMNOPRSTVWYZ]+(?:-[abcdefghijklmnoprstvwyz]+)*|[ABCDEFGHIJKLMNOPRSTVWYZ]+(?:-[abcdefghijklmnoprstvwyz]+)+)(?: (?:[abcdefghijklmnoprstvwyz]+|(?:[abcdefghijklmnoprstvwyz]+-)+[ABCDEFGHIJKLMNOPRSTVWYZ]+(?:-[abcdefghijklmnoprstvwyz]+)*|[ABCDEFGHIJKLMNOPRSTVWYZ]+(?:-[abcdefghijklmnoprstvwyz]+)+))*$",
+  "targetScript": "[A-Za-zÀÈÉÌÍÒÓÙÚàèéìíòóùú]",
+  "standingRule": {
+    "keywords": "KW",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "sounds",
+      "title": "Sounds, spelling and stress",
+      "roadmap": "it-sounds",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings: tu and Lei",
+      "roadmap": "it-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "gender",
+      "title": "Gender and number of nouns",
+      "roadmap": "it-gender",
+      "deck": "People and family"
+    },
+    {
+      "id": "articles",
+      "title": "Articles: il, lo, la, l', i, gli, le",
+      "roadmap": "it-articles",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "pronouns",
+      "title": "Subject pronouns: io, tu, Lei, voi",
+      "roadmap": "it-pronouns",
+      "deck": "About me"
+    },
+    {
+      "id": "essere-avere",
+      "title": "essere and avere: I am, I have",
+      "roadmap": "it-essere-avere",
+      "deck": "Feelings and states"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives: agreement and position",
+      "roadmap": "it-adjectives",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "present",
+      "title": "Present tense: -are, -ere, -ire",
+      "roadmap": "it-present",
+      "deck": "Work and study"
+    },
+    {
+      "id": "questions",
+      "title": "Questions and question words",
+      "roadmap": "it-questions",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "ce",
+      "title": "c'è and ci sono: there is, there are",
+      "roadmap": "it-ce",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers, time and dates",
+      "roadmap": "it-numbers",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "possessives",
+      "title": "Possessives and demonstratives",
+      "roadmap": "it-possessives",
+      "deck": "People and family"
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions: a, di, da, in, and al, del, nel",
+      "roadmap": "it-prepositions",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "irregular",
+      "title": "andare, fare, venire, stare",
+      "roadmap": "it-irregular",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "modals",
+      "title": "potere, dovere, volere",
+      "roadmap": "it-modals",
+      "deck": "Health and emergencies"
+    },
+    {
+      "id": "piacere",
+      "title": "piacere: mi piace, mi piacciono",
+      "roadmap": "it-piacere",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "reflexive",
+      "title": "Reflexive verbs and daily routine",
+      "roadmap": "it-reflexive",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "lo-la",
+      "title": "Object pronouns: lo, la, li, le",
+      "roadmap": "",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "imperative",
+      "title": "Imperative and vorrei: ordering and asking",
+      "roadmap": "it-imperative",
+      "deck": "Café and menu Italian"
+    },
+    {
+      "id": "passato",
+      "title": "Passato prossimo with avere",
+      "roadmap": "it-passato",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "passato-essere",
+      "title": "Passato prossimo with essere: sono andato, sono andata",
+      "roadmap": "",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "adverbs",
+      "title": "Adverbs: time, place and quantity",
+      "roadmap": "it-adverbs",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "connectors",
+      "title": "e, ma, perché, quando, se",
+      "roadmap": "it-connectors",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "sapere-conoscere",
+      "title": "sapere and conoscere: two ways to know",
+      "roadmap": "",
+      "deck": "Traps for English speakers"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "Words that show each spelling rule: c and g before e and i, ch, gn, gli, sc, z and double consonants"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Hello, goodbye, please, thanks and polite openers for strangers"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Name, where you are from, age, languages and what you do"
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "Family members, friends and words to describe people"
+    },
+    {
+      "name": "Numbers, time and prices",
+      "group": "Everyday words",
+      "desc": "Numbers to 1,000, telling the time, prices in euros"
+    },
+    {
+      "name": "Days, dates and weather",
+      "group": "Everyday words",
+      "desc": "Days, months, dates, yesterday and tomorrow, and the weather"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Ordering at a bar, trattoria or restaurant, and everyday food"
+    },
+    {
+      "name": "Shopping and clothes",
+      "group": "Everyday words",
+      "desc": "Clothes, colors, sizes and paying"
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms and things at home, and a daily routine with reflexive verbs"
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places in town, asking where things are, and following directions"
+    },
+    {
+      "name": "Travel and transport",
+      "group": "Out and about",
+      "desc": "Tickets, stations, airports, getting around and hotel basics"
+    },
+    {
+      "name": "Health and emergencies",
+      "group": "Out and about",
+      "desc": "Saying what hurts, the pharmacy, and asking for help"
+    },
+    {
+      "name": "Work and study",
+      "group": "Out and about",
+      "desc": "Jobs, the workplace, classes and everyday work verbs"
+    },
+    {
+      "name": "Feelings and states",
+      "group": "Conversation",
+      "desc": "How you feel, with essere, avere and stare"
+    },
+    {
+      "name": "Likes and free time",
+      "group": "Conversation",
+      "desc": "Hobbies, sports, likes and dislikes, and what you did at the weekend"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "Question words and the small words that join sentences"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends, calques and know vs know"
+    },
+    {
+      "name": "Café and menu Italian",
+      "group": "Watch out",
+      "desc": "Menu words Americans already say differently, and ordering politely"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

@@ -551,7 +551,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.23.1 · 2026-11-18';
+const APP_VERSION='2.24.0 · 2026-11-18';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -2000,7 +2000,7 @@ function pracItems(id){ return pracCleanList(PRACTICE[id],true); }
 /* answer matching: NFC · lower-case · ’‘`´ → ' · strip . , ! ? ~ … and quotes · collapse spaces · trim; Hangul answers also match with all spaces removed */
 function pracNorm(s){ return fwFold(s==null?'':s).normalize('NFC').toLowerCase().replace(/[’‘`´ʼ]/g,"'").replace(/[.,!?~…。、！？，．～¿¡]/g,'').replace(/["“”«»「」『』]/g,'').replace(/(^|[^\p{L}\p{N}])'+/gu,'$1').replace(/'+(?=[^\p{L}\p{N}]|$)/gu,'').replace(/\s+/g,' ').trim(); }
 /* accent folding for Latin-script target languages: a typed answer that differs only in accent marks is accepted as "almost" (PRAC_ALMOST), unless the item is strict (the accent is the point: tú / tu) */
-let PRAC_ALMOST=false; function foldAcc(s){ return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ß/g,'ss').replace(/[œŒ]/g,'oe').replace(/[æÆ]/g,'ae').replace(/[đĐ]/g,'d').normalize('NFC'); }
+let PRAC_ALMOST=false; function foldAcc(s){ return String(s).normalize('NFC').replace(/ñ/g,'\u0001').replace(/Ñ/g,'\u0002').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\u0001/g,'ñ').replace(/\u0002/g,'Ñ') /* ñ is a letter of its own, not an accented n: año / ano */.replace(/ß/g,'ss').replace(/[œŒ]/g,'oe').replace(/[æÆ]/g,'ae').replace(/[đĐ]/g,'d').normalize('NFC'); }
 function accLoose(){ return !!(COURSE&&COURSE.accents)&&COURSE.target!=='ko'&&COURSE.target!=='en'; }
 function pracMatch(input,answers,strict){ PRAC_ALMOST=false; const n=pracNorm(input); if(!n) return false; const ns=n.replace(/\s+/g,''); if((answers||[]).some(a=>{ const w=pracNorm(a); if(w===n) return true; return /[ㄱ-ㆎ가-힣]/.test(w+n)&&w.replace(/\s+/g,'')===ns; })) return true; if(strict||!accLoose()) return false; const f=foldAcc(n); if((answers||[]).some(a=>foldAcc(pracNorm(a))===f)){ PRAC_ALMOST=true; return true; } return false; }
 function pesc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
@@ -2066,7 +2066,7 @@ function pracClick(e){ if(!PR) return; const t=e.target.closest('button'); if(!t
   if(t.dataset.po!=null){ const k=+t.dataset.po, o=st.opts[k]; if(!o||st.wrong.indexOf(k)>=0) return; const r=pracAnswer(o.ok); if(!o.ok) st.wrong.push(k); else { st.ok=true; st.val=o.v; } pracItem(); return; }
   if(t.dataset.pt!=null){ st.chosen.push(+t.dataset.pt); pracItem(); return; }
   if(t.dataset.pu!=null){ st.chosen.splice(+t.dataset.pu,1); pracItem(); return; }
-  if(t.classList.contains('prac-chk')){ if(!st.chosen.length) return; const txt=st.chosen.map(k=>st.tiles[k].v).join(' '); const ok=pracMatch(txt,it.t==='order'?[it.a.join(' ')]:it.a); pracAnswer(ok); pracItem(); } }
+  if(t.classList.contains('prac-chk')){ if(!st.chosen.length) return; const txt=st.chosen.map(k=>st.tiles[k].v).join(' '); const ok=pracMatch(txt,it.t==='order'?[it.a.join(' ')]:it.a,true); /* tiles are exact: no accent leniency */ pracAnswer(ok); pracItem(); } }
 function pracRule(){ const l=PR&&LESSONS.find(x=>x.id===PR.id); if(!l) return; closeSheet(); const sh=document.createElement('div'); sh.className='sheet prac-sheet'; sh.setAttribute('data-noi18n','');
   sh.innerHTML=`<div class="sheet-in prac-rulein" role="dialog" aria-modal="true" aria-label="${LL('The rule','규칙')}"><div class="prac-rulehd"><b class="pc">${escT(l.title)}</b><button class="ghost prac-x" type="button">${BK()} ${LL('Back to practice','연습으로 돌아가기')}</button></div><div class="prac-rulebody pc">${lessonBody(l)}</div></div>`;
   document.body.appendChild(sh); sh.addEventListener('click',e=>{ if(e.target===sh||e.target.closest('.prac-x')) closeSheet(); }); const x=sh.querySelector('.prac-x'); if(x) setTimeout(()=>{ try{ x.focus({preventScroll:true}); }catch(e){} },30); }
