@@ -24,14 +24,14 @@ html[lang=ja]{--display:'DM Sans','Hiragino Sans','Hiragino Kaku Gothic ProN','Y
 html[lang=vi],html[lang=ru]{--body:system-ui,-apple-system,'Segoe UI',Roboto,'Noto Sans','Helvetica Neue',Arial,sans-serif;--display:var(--body);--mono:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Roboto Mono',monospace}
 /* Hindi: Devanagari system fonts (the web fonts have none), taller lines so matras and conjuncts are not clipped */
 html[lang=hi]{--body:'DM Sans','Nirmala UI','Kohinoor Devanagari','Devanagari Sangam MN','Noto Sans Devanagari',system-ui,sans-serif;--display:var(--body);--mono:'Nirmala UI','Kohinoor Devanagari','Noto Sans Devanagari',ui-monospace,'SF Mono',Menlo,Consolas,monospace}
-html[lang=ar]{--body:'DM Sans','Geeza Pro','SF Arabic','Segoe UI','Noto Naskh Arabic','Noto Sans Arabic','Tahoma',system-ui,sans-serif;--display:var(--body);--mono:var(--body)}html[lang=ar] .stat,html[lang=ar] .n{font-variant-numeric:tabular-nums}html[lang=ar] body{line-height:1.75}html[lang=ar] p{line-height:1.8}html[lang=ar] nav a{overflow:visible;line-height:1.5}html[lang=ar] *{letter-spacing:0!important}
+[lang=ar]{--body:'DM Sans','Geeza Pro','SF Arabic','Segoe UI','Noto Naskh Arabic','Noto Sans Arabic','Tahoma',system-ui,sans-serif;--display:var(--body);--mono:var(--body)}[lang=ar] .stat,[lang=ar] .n{font-variant-numeric:tabular-nums}[lang=ar] body{line-height:1.75}[lang=ar] p{line-height:1.8}[lang=ar] nav a{overflow:visible;line-height:1.5}[lang=ar],[lang=ar] *{letter-spacing:0!important}
 /* right-to-left interface: the layout mirrors through logical properties; target-language text, pronunciation and answer tiles stay left-to-right, and cells or options that may hold either language take their direction from their first strong letter */
-html[dir=rtl] .face .ko,html[dir=rtl] .face .rom,html[dir=rtl] .ex .k,html[dir=rtl] .ex .r,html[dir=rtl] .ex2 .k,html[dir=rtl] .ex2 .r,html[dir=rtl] .qrom,html[dir=rtl] .rom,html[dir=rtl] .pron,html[dir=rtl] [lang=en],html[dir=rtl] .prac-built,html[dir=rtl] .prac-pool,html[dir=rtl] .built,html[dir=rtl] .pool,html[dir=rtl] .tiles,html[dir=rtl] #hdrStat,html[dir=rtl] .prac-top .stat,html[dir=rtl] kbd{direction:ltr;unicode-bidi:isolate}
-html[dir=rtl] .ex .k,html[dir=rtl] .ex .r,html[dir=rtl] .ex2 .k,html[dir=rtl] .ex2 .r{text-align:right}
-html[dir=rtl] .tbl td,html[dir=rtl] .tbl th,html[dir=rtl] .opt,html[dir=rtl] .prac-q,html[dir=rtl] .q,html[dir=rtl] .qbody,html[dir=rtl] .chip,html[dir=rtl] .rvq,html[dir=rtl] .rvans,html[dir=rtl] .lh-name{unicode-bidi:plaintext}
-html[dir=rtl] .tbl td,html[dir=rtl] .tbl th,html[dir=rtl] .opt{text-align:right}
-html[dir=rtl] .lbody b,html[dir=rtl] .lbody strong,html[dir=rtl] .tip b,html[dir=rtl] .note b,html[dir=rtl] .why b,html[dir=rtl] .fb b,html[dir=rtl] .panel p b,html[dir=rtl] code{unicode-bidi:plaintext}
-html[dir=rtl] input.ans{direction:ltr;text-align:left}html[dir=rtl] input.ans::placeholder{direction:rtl;text-align:right}html[dir=rtl] input.ans:placeholder-shown{direction:rtl;text-align:right}
+[dir=rtl] .face .ko,[dir=rtl] .face .rom,[dir=rtl] .ex .k,[dir=rtl] .ex .r,[dir=rtl] .ex2 .k,[dir=rtl] .ex2 .r,[dir=rtl] .qrom,[dir=rtl] .rom,[dir=rtl] .pron,[dir=rtl] [lang=en]:not(.lh-row):not(.wbox),[dir=rtl] .prac-built,[dir=rtl] .prac-pool,[dir=rtl] .built,[dir=rtl] .pool,[dir=rtl] .tiles,[dir=rtl] #hdrStat,[dir=rtl] .prac-top .stat,[dir=rtl] kbd{direction:ltr;unicode-bidi:isolate}
+[dir=rtl] .ex .k,[dir=rtl] .ex .r,[dir=rtl] .ex2 .k,[dir=rtl] .ex2 .r{text-align:right}
+[dir=rtl] .tbl td,[dir=rtl] .tbl th,[dir=rtl] .opt,[dir=rtl] .prac-q,[dir=rtl] .q,[dir=rtl] .qbody,[dir=rtl] .chip,[dir=rtl] .rvq,[dir=rtl] .rvans,[dir=rtl] .lh-name{unicode-bidi:plaintext}
+[dir=rtl] .tbl td,[dir=rtl] .tbl th,[dir=rtl] .opt{text-align:right}
+[dir=rtl] .lbody b,[dir=rtl] .lbody strong,[dir=rtl] .tip b,[dir=rtl] .note b,[dir=rtl] .why b,[dir=rtl] .fb b,[dir=rtl] .panel p b,[dir=rtl] code{unicode-bidi:plaintext}
+[dir=rtl] .lh-go{display:inline-block;transform:scaleX(-1)}[dir=rtl] input.ans{direction:ltr;text-align:left}[dir=rtl] input.ans::placeholder{direction:rtl;text-align:right}[dir=rtl] input.ans:placeholder-shown{direction:rtl;text-align:right}
 html[lang=th]{--body:'DM Sans','Leelawadee UI','Thonburi','Sukhumvit Set','Noto Sans Thai',system-ui,sans-serif;--display:var(--body)}html[lang=th] body{line-height:1.7;word-break:normal;overflow-wrap:break-word}html[lang=th] p{line-height:1.75}html[lang=th] nav a{overflow:visible;line-height:1.5}
 html[lang=hi] body{line-height:1.65}html[lang=hi] p{line-height:1.7}html[lang=hi] nav a{overflow:visible;line-height:1.5}
 /* courses whose pronunciation aid is IPA: a monospace stack that has the IPA letters */
@@ -550,7 +550,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.22.0 · 2026-11-18';
+const APP_VERSION='2.22.1 · 2026-11-18';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1119,6 +1119,7 @@ function overlayPrefs(){ const p=META.prefs||{}; GLOBAL_KEYS.forEach(k=>{ if(p[k
 function validCourse(id,c){ return !!(c&&typeof c==='object'&&c.id===id&&/^[a-z]{2}-[a-z]{2}$/.test(id)&&LANGS[c.native]&&LANGS[c.target]&&c.DECKS&&typeof c.DECKS==='object'&&Object.keys(c.DECKS).length&&Array.isArray(c.GROUPS)); }
 let TOUR_READ=null, QUICK_READ_ALL=null;
 /* ---- on-demand packs (site build). LANGAPP_MANIFEST={courses:{id:{id,native,target,name,file}},i18n:{lang:file}} is set by the site's loader script; the single-file build has no manifest and every pack inline, so these all resolve at once. ---- */
+function ctx2d(c){ const g=c.getContext('2d'); try{ g.direction='ltr'; }catch(e){} return g; } /* canvases keep left-to-right coordinates: in a right-to-left page the default text start would otherwise flip and draw off-canvas (Arabic text is still shaped correctly) */
 function BK(){ return uiDir()==='rtl'?'→':'←'; } /* back arrow, pointing against the reading direction */ function dLoc(){ const l=uiLang(); return l==='en'?undefined:l==='ko'?'ko-KR':l==='ar'?'ar-u-nu-latn-ca-gregory':l; } /* date locale: Arabic keeps Western digits and the Gregorian calendar */
 function uiDir(){ try{ if(localStorage.getItem('la-rtl')==='1') return 'rtl'; }catch(e){} const l=uiLang(); let pl=l; try{ if(l==='en'&&typeof META!=='undefined'&&META&&!META.picked) pl=preLang(); }catch(e){} return RTL_LANGS[pl]?'rtl':'ltr'; } /* before a language is picked, the first screens follow the browser language */ /* text direction of the interface; la-rtl=1 forces right-to-left for layout tests */
 function hLang(l){ return l==='zh'?'zh-Hans':l; } /* HTML language tag for an app language code */
@@ -1244,16 +1245,17 @@ function showLangHome(opts){ opts=opts||{}; closeSheet(); const old=$('langHome'
   let native=null; const close=()=>{ w.remove(); document.removeEventListener('keydown',onKey); if(!META.seenHome){ META.seenHome=1; saveMeta(); } armIdle(); };
   const xBtn=n=>opts.closable?'<button class="ghost lh-x" type="button" aria-label="'+escT(n&&n!=='en'&&n!=='ko'?LLin(n,'Close'):preBi('Close','닫기'))+'">✕</button>':'';
   const lock=(flag,label,sub,code)=>code&&roadmapOf(code)?`<div role="listitem"><button type="button" class="lh-lock" data-road="${code}" title="${escT(sub)}" data-ln="${escT(label)}"><span aria-hidden="true">${flag}</span><span class="lh-ln">${escT(label)}</span></button></div>`:`<div class="lh-lock" role="listitem" aria-disabled="true" title="${escT(sub)}" data-ln="${escT(label)}"><span aria-hidden="true">${flag}</span><span class="lh-ln">${escT(label)}</span></div>`;
-  const step3=(code,n)=>{ const tr=(en,k)=>escT(LLin(n,en,k)); const cnt=roadmapItems(code).length;
+  const lhDir=n=>{ if(n&&n!=='en'){ w.dir=RTL_LANGS[n]?'rtl':'ltr'; w.lang=hLang(n); } else { w.removeAttribute('dir'); w.removeAttribute('lang'); } }; /* the sheet follows the language being previewed, before any course is picked */
+  const step3=(code,n)=>{ lhDir(n); const tr=(en,k)=>escT(LLin(n,en,k)); const cnt=roadmapItems(code).length;
     w.innerHTML=`<div class="wbox" lang="${hLang(n)}"><div class="lh-top"><button class="ghost lh-back2" type="button">${tr('← Back','← 뒤로')}</button>${xBtn(n)}</div><div class="rm-head"><span class="lh-flag" aria-hidden="true">${LANGS[code].flag}</span><div><h1 class="lh-q">${escT(langName(code,n))}</h1><p class="lh-sub">🔒 ${tr('Coming soon · '+cnt+' lessons planned','출시 예정 · 레슨 '+cnt+'개 계획')}</p></div></div><div id="rmBody">${roadmapHTML(code,n)}</div></div>`; w.scrollTop=0; const b=w.querySelector('.lh-back2'); if(b) b.focus({preventScroll:true}); };
   const focus=()=>setTimeout(()=>{ const b=w.querySelector('.lh-row'); if(b&&!document.getElementById('fxIntro')) b.focus({preventScroll:true}); },60);
   const soonT2=ln=>{ const s2=pre2('Coming soon','출시 예정'); return ln+' · coming soon'+(s2?' · '+s2:''); };
   const soonT=k=>soonT2(LANGS[k].name);
-  const step1=()=>{ native=null; const live=liveNatives(); const soon=Object.keys(LANGS).filter(k=>!live.includes(k));
+  const step1=()=>{ native=null; lhDir(null); const live=liveNatives(); const soon=Object.keys(LANGS).filter(k=>!live.includes(k));
     w.innerHTML=`<div class="wbox"><div class="lh-top"><span class="lh-brand">${LOGO_SVG}Lang App</span>${xBtn()}</div><div><h1 class="lh-q">${escT(preT('What language do you speak?','어떤 언어를 사용하세요?'))}</h1></div>
       <div class="lh-list" role="list">${live.map(k=>`<div role="listitem"><button class="lh-row" type="button" data-native="${k}" lang="${hLang(k)}"><span class="lh-flag" aria-hidden="true">${LANGS[k].flag}</span><span class="lh-name"><b>${LANGS[k].self}</b></span><span class="lh-go" aria-hidden="true">›</span></button></div>`).join('')}</div>
       ${soon.length?`<p class="lh-soon">🔒 ${escT(preBi('Coming soon','출시 예정'))}</p><div class="lh-locked" role="list" aria-label="${escT(preBi('Coming soon','출시 예정'))}">${soon.map(k=>lock(LANGS[k].flag,LANGS[k].self,soonT(k))).join('')}</div>`:''}</div>`; focus(); };
-  const step2=n=>{ native=n; const tr=(en,k)=>escT(LLin(n,en,k)); const live=Object.values(courseStubs()).filter(c=>c.native===n); const lt=live.map(c=>c.target); const soon=Object.keys(LANGS).filter(k=>k!==n&&!lt.includes(k));
+  const step2=n=>{ native=n; lhDir(n); const tr=(en,k)=>escT(LLin(n,en,k)); const live=Object.values(courseStubs()).filter(c=>c.native===n); const lt=live.map(c=>c.target); const soon=Object.keys(LANGS).filter(k=>k!==n&&!lt.includes(k));
     w.innerHTML=`<div class="wbox" lang="${hLang(n)}"><div class="lh-top"><button class="ghost lh-back" type="button">${tr('← Back','← 뒤로')}</button>${xBtn(n)}</div><div><h1 class="lh-q">${tr('What do you want to learn?','무엇을 배우고 싶으세요?')}</h1></div>
       <div class="lh-list" role="list">${live.map(c=>{ const cur=META.picked&&c.id===COURSE.id;
         return `<div role="listitem"><button class="lh-row${cur?' on':''}" type="button" data-course="${c.id}"><span class="lh-flag" aria-hidden="true">${LANGS[c.target].flag}</span><span class="lh-name"><b>${escT((c.name&&c.name[n])||langName(c.target,n))}</b>${cur?`<span>${tr('Current course','현재 코스')}</span>`:''}</span><span class="lh-go" aria-hidden="true">›</span></button></div>`; }).join('')}</div>
@@ -1352,7 +1354,7 @@ function levelInfo(){ const l=levelOf(S.xp), lo=xpForLevel(l), hi=xpForLevel(l+1
 function buzz(p){ try{ if(S.haptics&&navigator.vibrate) navigator.vibrate(p); }catch(e){} }
 let actx=null; function tone(f,ms,type){ if(!S.sfx) return; try{ actx=actx||new (window.AudioContext||window.webkitAudioContext)(); const o=actx.createOscillator(), g=actx.createGain(); o.type=type||'sine'; o.frequency.value=f; g.gain.value=0.0001; o.connect(g); g.connect(actx.destination); const t=actx.currentTime; g.gain.exponentialRampToValueAtTime(0.08,t+0.01); g.gain.exponentialRampToValueAtTime(0.0001,t+ms/1000); o.start(t); o.stop(t+ms/1000+0.02); }catch(e){} }
 function fxGood(){ buzz(15); tone(880,120); fx3('good'); } function fxBad(){ buzz([30,40,30]); tone(220,180,'triangle'); } function fxFlip(el){ tone(520,50); if(el) fx3('flip',el); }
-function confetti(){ if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return; const cv=document.createElement('canvas'); cv.className='confetti'; cv.width=innerWidth; cv.height=innerHeight; document.body.appendChild(cv); const x=cv.getContext('2d'); const cols=['#c2402f','#2e7d5b','#b7791f','#2f5fa8','#7a3b8f']; const ps=Array.from({length:90},()=>({x:innerWidth/2,y:innerHeight*0.35,vx:(Math.random()-.5)*14,vy:-Math.random()*12-4,r:3+Math.random()*4,c:pick(cols),a:Math.random()*6}));
+function confetti(){ if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return; const cv=document.createElement('canvas'); cv.className='confetti'; cv.width=innerWidth; cv.height=innerHeight; document.body.appendChild(cv); const x=ctx2d(cv); const cols=['#c2402f','#2e7d5b','#b7791f','#2f5fa8','#7a3b8f']; const ps=Array.from({length:90},()=>({x:innerWidth/2,y:innerHeight*0.35,vx:(Math.random()-.5)*14,vy:-Math.random()*12-4,r:3+Math.random()*4,c:pick(cols),a:Math.random()*6}));
   let t=0; const step=()=>{ x.clearRect(0,0,cv.width,cv.height); ps.forEach(q=>{ q.vy+=0.35; q.x+=q.vx; q.y+=q.vy; q.a+=0.2; x.save(); x.translate(q.x,q.y); x.rotate(q.a); x.fillStyle=q.c; x.fillRect(-q.r,-q.r/2,q.r*2,q.r); x.restore(); }); if(++t<90) requestAnimationFrame(step); else cv.remove(); }; requestAnimationFrame(step); }
 function award(n){ if(!n){ save(); return; } const before=S.days[dkey()]||0, l0=levelOf(S.xp); S.xp+=n; S.days[dkey()]=before+n; save(); hdr(); if(!before) setTimeout(shieldCheck,0);
   const l1=levelOf(S.xp); if(l1>l0){ const t=titleOf(l1); fx3('levelUp',l1,t[1]+' '+t[2]); toast((koSide()?'레벨 업!':'Level up!')+' Level '+l1+' · '+t[1]+' '+t[2]+' 🎉'); return; }
@@ -2292,7 +2294,7 @@ function hangulNext(){ if(cleanup){cleanup();cleanup=null;} document.querySelect
 const t2=t=>t[1]+' '+t[2];
 function groupDone(g){ const decks=g[1].filter(d=>DECKS[d].length&&d!==MYDECK); if(!decks.length) return false; if(!decks.every(d=>masteryPct(d)>=0.8)) return false; const ls=LESSONS.filter(l=>decks.includes(l.deck)); return ls.every(l=>(S.checks||{})[l.id]); }
 function checkCerts(){ S.certs=S.certs||{}; GROUPS.forEach(g=>{ if(!S.certs[g[0]]&&groupDone(g)){ S.certs[g[0]]=dkey(); award(100); fx3('celebrate','trophy'); toast('🎓 Certificate earned: '+g[0]+' · +100 XP'); } }); }
-function drawCert(g){ const cv=document.createElement('canvas'); cv.width=1080; cv.height=700; const x=cv.getContext('2d'); x.fillStyle='#fffdf8'; x.fillRect(0,0,1080,700); x.strokeStyle='#c2402f'; x.lineWidth=10; x.strokeRect(30,30,1020,640); x.strokeStyle='#1d1f2a'; x.lineWidth=2; x.strokeRect(50,50,980,600);
+function drawCert(g){ const cv=document.createElement('canvas'); cv.width=1080; cv.height=700; const x=ctx2d(cv); x.fillStyle='#fffdf8'; x.fillRect(0,0,1080,700); x.strokeStyle='#c2402f'; x.lineWidth=10; x.strokeRect(30,30,1020,640); x.strokeStyle='#1d1f2a'; x.lineWidth=2; x.strokeRect(50,50,980,600);
   x.fillStyle='#1d1f2a'; x.textAlign='center'; x.font='900 54px "Noto Sans KR",sans-serif'; x.fillText('수료증',540,150); x.font='500 24px "DM Mono",monospace'; x.fillStyle='#5d6070'; x.fillText('CERTIFICATE OF COMPLETION',540,190);
   x.fillStyle='#1d1f2a'; x.font='700 64px "DM Sans",sans-serif'; x.fillText(g,540,300); const decks=(GROUPS.find(G=>G[0]===g)||[g,[]])[1].filter(d=>DECKS[d].length); const cards=decks.reduce((n,d)=>n+DECKS[d].length,0);
   x.font='400 26px "DM Sans",sans-serif'; x.fillStyle='#5d6070'; x.fillText(i18nT(decks.length+' decks · '+cards+' cards mastered to 80%+ · all lesson checks passed'),540,360);
@@ -2362,7 +2364,7 @@ $('fx3dT').addEventListener('change',e=>{ S.fx3d=e.target.checked; save(); if(S.
 $('wipe').onclick = () => { const b=$('wipe'); const L0="Erase this course's progress"; if(b.dataset.arm){ const g=globalsOf(S); S=Object.assign(fresh(),g); save(); flushSaveNow(); if(COURSE.id==='en-ko'){ try{localStorage.removeItem('ko-known');localStorage.removeItem('ko-app');}catch(e){} } memoClear(); hydrateCustom(); applyIntervals(); hdr(); renderProgress(); b.textContent=L0; delete b.dataset.arm; toast("This course's progress was erased. Other courses are untouched."); } else { b.dataset.arm='1'; b.textContent='Tap again to erase this course'; setTimeout(()=>{ b.textContent=L0; delete b.dataset.arm; },3000); } };
 // share card
 function drawShare(opts){ if(opts) return drawRecap(opts);
-  const cv=document.createElement('canvas'); cv.width=1080; cv.height=600; const g=cv.getContext('2d');
+  const cv=document.createElement('canvas'); cv.width=1080; cv.height=600; const g=ctx2d(cv);
   g.fillStyle='#1d1f2a'; g.fillRect(0,0,1080,600); g.fillStyle='#c2402f'; g.fillRect(0,0,1080,14);
   g.fillStyle='#f3efe6'; g.font='900 150px "Noto Sans KR",sans-serif'; g.fillText(COURSE.builtin?'한글':String(COURSE.brand||'Lang App'),60,230);
   g.font='500 34px "DM Mono",monospace'; g.fillStyle='#9a9dab'; g.fillText(COURSE.builtin?'KOREAN STARTER':'LANG APP · '+langName(COURSE.target,'en').toUpperCase(),60,290);
@@ -2372,7 +2374,7 @@ function drawShare(opts){ if(opts) return drawRecap(opts);
   g.font='120px sans-serif'; g.textAlign='right'; g.fillText('🔥',1020,215); g.textAlign='left';
   return cv;
 }
-function drawRecap(o){ const cv=document.createElement('canvas'); cv.width=1080; cv.height=600; const g=cv.getContext('2d');
+function drawRecap(o){ const cv=document.createElement('canvas'); cv.width=1080; cv.height=600; const g=ctx2d(cv);
   g.fillStyle='#1d1f2a'; g.fillRect(0,0,1080,600); g.fillStyle='#2e7d5b'; g.fillRect(0,0,1080,14);
   g.fillStyle='#f3efe6'; g.font='900 110px "Noto Sans KR",sans-serif'; if(!COURSE.builtin) g.font='900 110px '+FL('font'); g.fillText(FL('recap'),60,190); g.font='500 30px "DM Mono",monospace'; g.fillStyle='#9a9dab'; g.fillText(i18nT('SESSION DONE')+' · +'+o.xp+' XP · '+new Date().toLocaleDateString(dLoc()),60,240);
   const stats=[[o.cards,i18nT('CARDS')],[o.quiz,i18nT('QUIZ')],[o.read,i18nT(CF('script')?'READING':'DRILLS')],[o.streak+'🔥',i18nT('STREAK')]];
@@ -2458,7 +2460,7 @@ function accountSheet(){ const sh=document.createElement('div'); sh.className='s
 
 // ---- Welcome / sign-in screen (website only): email sync vs. nickname-on-this-device ----
 function welcomeNeeded(){ return sbOn() && !sbSess && !S.nick && !S.welcomed; }
-function showWelcome(){ FX3D.preload(); const w=document.createElement('div'); w.className='welcome'; w.id='welcome'; w.setAttribute('data-noi18n',''); w.setAttribute('role','dialog'); w.setAttribute('aria-modal','true'); w.setAttribute('aria-label','Welcome to Lang App');
+function showWelcome(){ FX3D.preload(); const w=document.createElement('div'); w.className='welcome'; w.id='welcome'; { const pl=preLang(); if(pl!=='en'&&pl!=='ko'){ w.lang=hLang(pl); w.dir=RTL_LANGS[pl]?'rtl':'ltr'; } } w.setAttribute('data-noi18n',''); w.setAttribute('role','dialog'); w.setAttribute('aria-modal','true'); w.setAttribute('aria-label','Welcome to Lang App');
   /* bilingual until the native language is known: English + preLang() (browser language when it is a live native, else Korean); a line the pack lacks is shown in English only */
   const B=(en,ko)=>escT(preBi(en,ko));
   const step1=()=>{ w.innerHTML=`<div class="wbox"><div><h1>${LOGO_SVG}Lang App</h1><p class="stat" style="margin:6px 0 0">${escT(preT('How should we save your progress?','진도를 어떻게 저장할까요?'))}</p></div>
@@ -2570,7 +2572,7 @@ const FX3D=(()=>{
   function init(){ cv=document.createElement('canvas'); cv.id='fx3d'; cv.setAttribute('aria-hidden','true'); document.body.appendChild(cv);
     renderer=new T.WebGLRenderer({canvas:cv,alpha:true,antialias:!low,powerPreference:'high-performance'}); renderer.setClearColor(0x000000,0);
     scene=new T.Scene(); camera=new T.PerspectiveCamera(50,1,0.1,200); camera.position.set(0,0,12); size(); addEventListener('resize',size);
-    const c=document.createElement('canvas'); c.width=c.height=64; const g=c.getContext('2d'); const gr=g.createRadialGradient(32,32,0,32,32,32); gr.addColorStop(0,'rgba(255,255,255,1)'); gr.addColorStop(.35,'rgba(255,255,255,.85)'); gr.addColorStop(1,'rgba(255,255,255,0)'); g.fillStyle=gr; g.fillRect(0,0,64,64); dotTex=new T.CanvasTexture(c);
+    const c=document.createElement('canvas'); c.width=c.height=64; const g=ctx2d(c); const gr=g.createRadialGradient(32,32,0,32,32,32); gr.addColorStop(0,'rgba(255,255,255,1)'); gr.addColorStop(.35,'rgba(255,255,255,.85)'); gr.addColorStop(1,'rgba(255,255,255,0)'); g.fillStyle=gr; g.fillRect(0,0,64,64); dotTex=new T.CanvasTexture(c);
     document.addEventListener('visibilitychange',()=>{ if(document.hidden){ cancelAnimationFrame(raf); raf=0; } else if(items.length&&!raf){ last=performance.now(); raf=requestAnimationFrame(tick); } });
     cv.addEventListener('webglcontextlost',e=>{ e.preventDefault(); failed=true; hardReset(); });
     cv.addEventListener('pointerdown',()=>{ if(items.length&&performance.now()-lastFrame>800) hardReset(); }); // a stalled animation must never trap the user
@@ -2579,7 +2581,7 @@ const FX3D=(()=>{
   function size(){ if(!renderer) return; const r=cv.getBoundingClientRect(); const w=Math.round(r.width)||innerWidth, h=Math.round(r.height)||innerHeight; if(w===VW&&h===VH&&size.done) return; size.done=true; VW=w; VH=h; renderer.setPixelRatio(Math.min(devicePixelRatio||1,low?1.5:2)); renderer.setSize(w,h,false); camera.aspect=w/h; camera.updateProjectionMatrix(); }
   const vh=()=>2*Math.tan(camera.fov*Math.PI/360)*camera.position.z, vw=()=>vh()*camera.aspect;
   const toWorld=(px,py)=>[(px/VW-.5)*vw(),(.5-py/VH)*vh()];
-  function glyph(i){ const ch=GL()[i%GL().length]; if(glyphTex[ch]) return glyphTex[ch]; const c=document.createElement('canvas'); c.width=c.height=128; const g=c.getContext('2d'); g.font='700 96px "Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic","DM Sans",sans-serif'; g.textAlign='center'; g.textBaseline='middle'; g.fillStyle='#fff'; g.fillText(ch,64,70); return glyphTex[ch]=new T.CanvasTexture(c); }
+  function glyph(i){ const ch=GL()[i%GL().length]; if(glyphTex[ch]) return glyphTex[ch]; const c=document.createElement('canvas'); c.width=c.height=128; const g=ctx2d(c); g.font='700 96px "Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic","DM Sans",sans-serif'; g.textAlign='center'; g.textBaseline='middle'; g.fillStyle='#fff'; g.fillText(ch,64,70); return glyphTex[ch]=new T.CanvasTexture(c); }
   function add(it){ items.push(it); cv.style.display='block'; size(); if(!raf){ last=performance.now(); raf=requestAnimationFrame(tick); } return it; }
   let lastFrame=0;
   function hardReset(){ cancelAnimationFrame(raf); raf=0; items.splice(0).forEach(it=>{ try{ it.dispose&&it.dispose(); }catch(e){} }); try{ renderer&&renderer.clear(); }catch(e){} if(cv){ cv.style.display='none'; cv.style.background=''; cv.style.opacity=''; cv.style.pointerEvents='none'; } if(introEl){ introEl.remove(); introEl=null; } idleItem=null; idleClose(); try{ wakeOff(); }catch(e){} }
@@ -2610,7 +2612,7 @@ const FX3D=(()=>{
     for(let i=0;i<n;i++){ st.push({x:rnd(-W/2,W/2),y:H/2+rnd(.2,H*.7),z:rnd(-3,3),vx:rnd(-.8,.8),vy:-rnd(H*.28,H*.55),rx:rnd(0,6),ry:rnd(0,6),rz:rnd(0,6),wx:rnd(-7,7),wy:rnd(-7,7),ph:rnd(0,6)}); mesh.setColorAt(i,new T.Color(pick(C))); }
     mesh.instanceColor.needsUpdate=true; scene.add(mesh); const life=o.life||3.2; return add({update(dt,t){ st.forEach((s,i)=>{ s.y+=s.vy*dt; s.x+=(s.vx+Math.sin(t*3+s.ph)*.9)*dt; s.rx+=s.wx*dt; s.ry+=s.wy*dt; dum.position.set(s.x,s.y,s.z); dum.rotation.set(s.rx,s.ry,s.rz); dum.updateMatrix(); mesh.setMatrixAt(i,dum.matrix); }); mesh.instanceMatrix.needsUpdate=true; m.opacity=Math.min(1,(life-t)*2); return t<life; }, dispose(){ kill(mesh); }}); }
   function fireworks(count,o){ o=o||{}; const W=vw(), H=vh(), d=dark(), C=pal(d); for(let i=0;i<count;i++){ const x=rnd(-W*.38,W*.38), y=rnd(H*.05,H*.38), c1=pick(C), c2=pick(C); burst(x,y,{n:o.n||110,speed:rnd(4.5,7),life:1.5,colors:[c1,c2,d?'#ffffff':c1],delay:(o.delay||0)+i*.28,size:.2}); ringWave(x,y,{color:c1,to:2.6,life:.7,delay:(o.delay||0)+i*.28}); } }
-  function label(lines){ const c=document.createElement('canvas'); c.width=1024; c.height=512; const g=c.getContext('2d'); g.textAlign='center'; g.textBaseline='middle'; lines.forEach(l=>{ g.font=l.font; g.fillStyle=l.color; g.shadowColor='rgba(0,0,0,.55)'; g.shadowBlur=18; g.fillText(l.text,512,l.y,980); }); const t=new T.CanvasTexture(c); const m=new T.MeshBasicMaterial({map:t,transparent:true,depthWrite:false}); m.userData={ownMap:true}; return new T.Mesh(new T.PlaneGeometry(2,1),m); }
+  function label(lines){ const c=document.createElement('canvas'); c.width=1024; c.height=512; const g=ctx2d(c); g.textAlign='center'; g.textBaseline='middle'; lines.forEach(l=>{ g.font=l.font; g.fillStyle=l.color; g.shadowColor='rgba(0,0,0,.55)'; g.shadowBlur=18; g.fillText(l.text,512,l.y,980); }); const t=new T.CanvasTexture(c); const m=new T.MeshBasicMaterial({map:t,transparent:true,depthWrite:false}); m.userData={ownMap:true}; return new T.Mesh(new T.PlaneGeometry(2,1),m); }
 
   // ---- effects ----
   function flip(el){ const r=el&&el.getBoundingClientRect?el.getBoundingClientRect():null; const [x,y]=r?toWorld(r.left+r.width/2,r.top+r.height/2):[0,0]; const d=dark(), C=pal(d); const w=r?(r.width/VW)*vw():3;
@@ -2632,7 +2634,7 @@ const FX3D=(()=>{
       const sp=30*(1-eOut(t/2.2))+3; for(let i=0;i<NS;i++){ St.pos[i*3+2]+=sp*dt; if(St.pos[i*3+2]>11) St.pos[i*3+2]=-60; } St.g.attributes.position.needsUpdate=true;
       const ts=eBack((t-.45)/.5); const tw=Math.min(W*.86,6.4); tx.scale.set(Math.max(.001,ts)*tw/2,Math.max(.001,ts)*tw/2,1); tx.material.opacity=t<.45?0:1;
       if(t>life-.5&&!faded){ faded=true; cv.style.opacity='0'; } return t<life; }, dispose(){ kill(grp); kill(St.p); }}); }
-  function sample(text,font,N){ const c=document.createElement('canvas'); c.width=900; c.height=260; const g=c.getContext('2d'); g.font=font; g.textAlign='center'; g.textBaseline='middle'; g.fillStyle='#fff'; g.fillText(text,450,138,880); const d=g.getImageData(0,0,900,260).data, pts=[]; for(let y=0;y<260;y+=3) for(let x=0;x<900;x+=3) if(d[(y*900+x)*4+3]>120) pts.push([x,y]);
+  function sample(text,font,N){ const c=document.createElement('canvas'); c.width=900; c.height=260; const g=ctx2d(c); g.font=font; g.textAlign='center'; g.textBaseline='middle'; g.fillStyle='#fff'; g.fillText(text,450,138,880); const d=g.getImageData(0,0,900,260).data, pts=[]; for(let y=0;y<260;y+=3) for(let x=0;x<900;x+=3) if(d[(y*900+x)*4+3]>120) pts.push([x,y]);
     if(!pts.length) pts.push([450,130]); let x0=900,x1=0,y0=260,y1=0; pts.forEach(p=>{ x0=Math.min(x0,p[0]); x1=Math.max(x1,p[0]); y0=Math.min(y0,p[1]); y1=Math.max(y1,p[1]); }); const cx=(x0+x1)/2, cy=(y0+y1)/2, w=Math.max(1,x1-x0); const out=new Float32Array(N*3);
     for(let i=0;i<N;i++){ const p=pts[Math.floor(Math.random()*pts.length)]; out[i*3]=(p[0]-cx+rnd(-1.2,1.2))/w; out[i*3+1]=-(p[1]-cy+rnd(-1.2,1.2))/w; out[i*3+2]=rnd(-.012,.012); } return out; }
   function intro(o){ o=o||{}; const short=!!o.short, W=vw(), H=vh(), N=Math.round(3800*K); cv.style.transition='opacity .6s'; cv.style.opacity='1'; cv.style.background='radial-gradient(circle at 50% 40%, #1b1420, #07080d 75%)'; cv.style.pointerEvents='auto';
@@ -2666,13 +2668,13 @@ const FX3D=(()=>{
     const g=new T.Group(), mat=new T.MeshBasicMaterial({color:new T.Color(d?'#ff5a45':'#c2402f'),transparent:true,depthWrite:false}); [1,-1].forEach(sg=>{ const b=new T.Mesh(new T.PlaneGeometry(1.5,.2),mat); b.rotation.z=sg*Math.PI/4; g.add(b); }); const gy=Math.min(vh()*.4,y+1.4); g.position.set(Math.max(-vw()*.25,Math.min(vw()*.25,x)),gy,1); scene.add(g);
     add({update(dt,t){ const s=eBack(t/.22); g.scale.setScalar(Math.max(.001,s)); g.rotation.z=Math.sin(t*38)*.16*Math.max(0,1-t*2.2); g.position.y=gy-Math.max(0,t-.45)*5*(t-.45); mat.opacity=Math.min(1,(.8-t)*5); return t<.8; }, dispose(){ kill(g); }}); }
   // ---- idle screensaver: particles morph between a pause sign, encouragements and words to learn ----
-  function sampleCanvas(c,N){ const g=c.getContext('2d'), CW=c.width, CH=c.height, d=g.getImageData(0,0,CW,CH).data, pts=[]; for(let y=0;y<CH;y+=3) for(let x=0;x<CW;x+=3) if(d[(y*CW+x)*4+3]>120) pts.push([x,y]); if(!pts.length) pts.push([CW/2,CH/2]);
+  function sampleCanvas(c,N){ const g=ctx2d(c), CW=c.width, CH=c.height, d=g.getImageData(0,0,CW,CH).data, pts=[]; for(let y=0;y<CH;y+=3) for(let x=0;x<CW;x+=3) if(d[(y*CW+x)*4+3]>120) pts.push([x,y]); if(!pts.length) pts.push([CW/2,CH/2]);
     let x0=CW,x1=0,y0=CH,y1=0; pts.forEach(q=>{ x0=Math.min(x0,q[0]); x1=Math.max(x1,q[0]); y0=Math.min(y0,q[1]); y1=Math.max(y1,q[1]); }); const cx=(x0+x1)/2, cy=(y0+y1)/2, w=Math.max(1,x1-x0), out=new Float32Array(N*3);
     for(let i=0;i<N;i++){ const q=pts[Math.floor(Math.random()*pts.length)]; out[i*3]=(q[0]-cx+rnd(-1.2,1.2))/w; out[i*3+1]=-(q[1]-cy+rnd(-1.2,1.2))/w; out[i*3+2]=rnd(-.012,.012); } return {p:out,asp:Math.max(.05,(y1-y0)/w)}; }
   function sampleText(text,N){ let lines=[text]; if(text.length>7&&text.indexOf(' ')>0){ const ws=text.split(' '); let best=1, bd=1e9; for(let i=1;i<ws.length;i++){ const d=Math.abs(ws.slice(0,i).join(' ').length-ws.slice(i).join(' ').length); if(d<bd){ bd=d; best=i; } } lines=[ws.slice(0,best).join(' '),ws.slice(best).join(' ')]; }
-    const c=document.createElement('canvas'); c.width=1000; c.height=lines.length>1?540:300; const g=c.getContext('2d'), fam='"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif'; let fs=210; g.font='700 '+fs+'px '+fam; const m=Math.max.apply(null,lines.map(l=>g.measureText(l).width)); if(m>940){ fs=Math.max(40,Math.floor(fs*940/m)); g.font='700 '+fs+'px '+fam; }
+    const c=document.createElement('canvas'); c.width=1000; c.height=lines.length>1?540:300; const g=ctx2d(c), fam='"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif'; let fs=210; g.font='700 '+fs+'px '+fam; const m=Math.max.apply(null,lines.map(l=>g.measureText(l).width)); if(m>940){ fs=Math.max(40,Math.floor(fs*940/m)); g.font='700 '+fs+'px '+fam; }
     g.textAlign='center'; g.textBaseline='middle'; g.fillStyle='#fff'; const lh=fs*1.22, y0=c.height/2-(lines.length-1)*lh/2+8; lines.forEach((l,i)=>g.fillText(l,500,y0+i*lh)); return sampleCanvas(c,N); }
-  function sampleShape(kind,N){ const c=document.createElement('canvas'); c.width=c.height=600; const g=c.getContext('2d'); g.fillStyle=g.strokeStyle='#fff'; g.lineJoin='round';
+  function sampleShape(kind,N){ const c=document.createElement('canvas'); c.width=c.height=600; const g=ctx2d(c); g.fillStyle=g.strokeStyle='#fff'; g.lineJoin='round';
     if(kind==='pause'){ g.lineWidth=30; g.beginPath(); g.arc(300,300,250,0,6.2832); g.stroke(); g.fillRect(205,170,70,260); g.fillRect(325,170,70,260); }
     else if(kind==='heart'){ g.beginPath(); g.moveTo(300,520); g.bezierCurveTo(60,360,40,170,180,110); g.bezierCurveTo(250,80,300,130,300,180); g.bezierCurveTo(300,130,350,80,420,110); g.bezierCurveTo(560,170,540,360,300,520); g.fill(); }
     else { g.beginPath(); for(let i=0;i<10;i++){ const r=i%2?115:270, a=-Math.PI/2+i*Math.PI/5; g[i?'lineTo':'moveTo'](300+Math.cos(a)*r,310+Math.sin(a)*r); } g.closePath(); g.fill(); }

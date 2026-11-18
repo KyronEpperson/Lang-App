@@ -1,0 +1,29 @@
+/* usage: node tools/site/rtl_site.js  — Arabic on the SITE build (korean-site, packs loaded on demand), three paths:
+   A1 Arabic browser, fresh profile: first screen in Arabic and right-to-left;  A2 English browser, Arabic tapped in the picker: step 2 right-to-left;
+   A3 returning Arabic learner: page right-to-left, lessons present, no overflow on today / lessons / a lesson. Prints PASS/FAIL lines; exit 1 on FAIL. */
+const {chromium}=require('playwright');const srv=require(__dirname+'/srv.js');
+(async()=>{const s=await srv(8793);const b=await chromium.launch();const U='http://localhost:8793/';const R=[];const ok=(n,c,x)=>{R.push((c?'PASS ':'FAIL ')+n+(x?' · '+x:''));};const SHOT=process.env.RTL_OUT;
+const mk=async o=>{const c=await b.newContext(Object.assign({viewport:{width:390,height:780},serviceWorkers:'block',reducedMotion:'reduce'},o||{}));const p=await c.newPage();p._errs=[];p.on('pageerror',e=>p._errs.push(e.message));await p.route(/fonts\.g|supabase|_vercel/,r=>r.abort());return [c,p];};
+const skipIntro=async p=>{await p.waitForTimeout(900);await p.evaluate(()=>{const i=document.getElementById('fxIntro');if(i)i.click();});await p.waitForTimeout(2000);};
+const edges=()=>{const W=document.documentElement.clientWidth,out=[];const sc=e=>{for(let x=e.parentElement;x&&x!==document.body;x=x.parentElement){const o=getComputedStyle(x).overflowX;if(o==='auto'||o==='scroll'||o==='hidden')return true;}return false;};document.querySelectorAll('body *').forEach(e=>{const cs=getComputedStyle(e);if(cs.display==='none'||cs.visibility==='hidden')return;const r=e.getBoundingClientRect();if(!r.width||!r.height)return;if((r.right>W+1||r.left<-1)&&!sc(e)&&cs.position!=='fixed')out.push(e.tagName+'.'+String(e.className).slice(0,20));});return out.slice(0,4);};
+const AR=/[ء-ي]/;
+{const [c,p]=await mk({locale:'ar-SA'});await p.goto(U);await skipIntro(p);
+ const st=await p.evaluate(()=>{const w=document.getElementById('welcome')||document.getElementById('langHome');return {dir:document.documentElement.dir,lang:document.documentElement.lang,txt:w?w.innerText.slice(0,160):'',id:w?w.id:''};});
+ ok('A1 Arabic browser: first screen is Arabic',AR.test(st.txt),st.id+' '+st.txt.replace(/\n/g,' ').slice(0,60));ok('A1 Arabic browser: right-to-left',st.dir==='rtl','dir='+st.dir+' lang='+st.lang);
+ ok('A1 no overflow',(await p.evaluate(edges)).length===0);ok('A1 no page errors',!p._errs.length,p._errs.join('|').slice(0,120));if(SHOT)await p.screenshot({path:SHOT+'/site-a1.png'});await c.close();}
+{const [c,p]=await mk({locale:'en-US'});await p.addInitScript(()=>{localStorage.setItem('la-meta',JSON.stringify({v:1,prefs:{welcomed:1,nick:'K'}}));});await p.goto(U);await skipIntro(p);
+ await p.evaluate(()=>{if(!document.getElementById('langHome')&&typeof showLangHome==='function')showLangHome();});await p.waitForTimeout(500);
+ const has=await p.evaluate(()=>{const r=document.querySelector('#langHome [data-native="ar"]');if(!r)return false;r.click();return true;});await p.waitForTimeout(2500);
+ const st=await p.evaluate(()=>{const w=document.getElementById('langHome');return {dir:document.documentElement.dir,wdir:w?getComputedStyle(w).direction:'',txt:w?w.innerText.slice(0,200):'',course:!!document.querySelector('#langHome [data-course="ar-en"]')};});
+ ok('A2 picker lists Arabic',has);ok('A2 step 2 is Arabic',AR.test(st.txt),st.txt.replace(/\n/g,' ').slice(0,60));ok('A2 step 2 is right-to-left',st.wdir==='rtl','page dir='+st.dir+' sheet='+st.wdir);ok('A2 offers the ar-en course',st.course);
+ ok('A2 no overflow',(await p.evaluate(edges)).length===0,JSON.stringify(await p.evaluate(edges)));if(SHOT)await p.screenshot({path:SHOT+'/site-a2.png'});
+ await p.evaluate(()=>{const b=document.querySelector('#langHome [data-course="ar-en"]');if(b)b.click();});await p.waitForTimeout(3500);
+ const s2=await p.evaluate(()=>({dir:document.documentElement.dir,lang:document.documentElement.lang,c:typeof COURSE!=='undefined'&&COURSE.id,n:LESSONS.length}));
+ ok('A2 after picking: ar-en, right-to-left',s2.c==='ar-en'&&s2.dir==='rtl'&&s2.lang==='ar'&&s2.n>=41,JSON.stringify(s2));ok('A2 no page errors',!p._errs.length,p._errs.join('|').slice(0,120));await c.close();}
+{const [c,p]=await mk({locale:'en-US'});await p.addInitScript(()=>{localStorage.setItem('la-meta',JSON.stringify({v:1,native:'ar',course:'ar-en',picked:1,seenHome:1,prefs:{welcomed:1,nick:'K'}}));localStorage.setItem('la-s-ar-en',JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false,free:1}));});await p.goto(U);await skipIntro(p);
+ await p.waitForFunction(()=>{try{return COURSE.id==='ar-en'&&LESSONS.length>0;}catch(e){return false;}},null,{timeout:20000}).catch(()=>{});
+ const st=await p.evaluate(()=>({dir:document.documentElement.dir,lang:document.documentElement.lang,c:COURSE.id,n:LESSONS.length,nav:[...document.querySelectorAll('#nav a')].map(a=>a.textContent.trim()).join('|')}));
+ ok('A3 returning learner: ar-en loads right-to-left',st.c==='ar-en'&&st.dir==='rtl'&&st.lang==='ar'&&st.n>=41,JSON.stringify(st).slice(0,160));ok('A3 tab bar is Arabic',AR.test(st.nav),st.nav);
+ for(const h of ['#today','#lessons','#review','#progress']){await p.evaluate(h=>{location.hash=h;},h);await p.waitForTimeout(500);const o=await p.evaluate(edges);ok('A3 no overflow '+h,o.length===0,o.join(','));}
+ await p.evaluate(()=>showLesson('articles'));await p.waitForTimeout(500);const o=await p.evaluate(edges);ok('A3 no overflow in a lesson',o.length===0,o.join(','));if(SHOT)await p.screenshot({path:SHOT+'/site-a3.png'});ok('A3 no page errors',!p._errs.length,p._errs.join('|').slice(0,120));await c.close();}
+console.log(R.join('\n'));await b.close();s.close();if(R.some(x=>x.startsWith('FAIL')))process.exitCode=1;})().catch(e=>{console.error('CRASH',e);process.exit(1);});
