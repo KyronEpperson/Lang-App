@@ -1,8 +1,5 @@
-/* TRANSLATE/ADAPT (th): scaffolded from tools/content/ko/more/a1.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for th speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the th point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage A1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* th-en stage A1: new lessons (source of truth), written for Thai speakers per docs/profiles/th.md. Shorthand is expanded by _dsl.js.
+   The last lesson (tinglish) is th-only (profile §8 add; deviations.c.json). */
 module.exports = [
 { id:"it-there", title:"it และ there: ประธานที่ขาดไม่ได้", blurb:"อากาศและเวลาใช้ it ส่วน “มี…อยู่ที่ไหนสักแห่ง” ใช้ there is / there are", deck:"คุยเล่น", body:`
 <p>ภาษาไทยพูดว่า “ร้อน” “ฝนตก” หรือ “มีร้านกาแฟแถวนี้” ได้เลยโดยไม่ต้องมีประธาน แต่ประโยคภาษาอังกฤษต้องมีประธานเสมอ เมื่อไม่มีใครเป็นผู้กระทำ ภาษาอังกฤษจึงใช้คำว่า <b>it</b> และ <b>there</b> มาเติมตำแหน่งประธานไว้ โดยตัวมันเองไม่มีความหมาย</p>
@@ -33,7 +30,7 @@ practice:[
 ["fi","There __ a bank near here.","แถวนี้มีธนาคาร","is","are|have|be","ธนาคารแห่งเดียวจึงใช้ is"],
 ["fi","__ there any seats?","มีที่นั่งว่างไหม","Are","Is|Do|Have","seats เป็นคำนามพหูพจน์จึงใช้ Are"],
 ["ty","วันนี้อากาศร้อน","It's hot today","it · hot · today — อากาศใช้ it","There's","เรื่องอากาศขึ้นต้นด้วย it"],
-["ty","ที่นี่มีห้องน้ำไหม","Is there a bathroom here|Is there a restroom here","is there · bathroom — ระวังคำนำหน้านาม","the","ถามถึงห้องน้ำเป็นครั้งแรกและมีห้องเดียว จึงใช้คำนำหน้านาม a"],
+["ty","ที่นี่มีห้องน้ำไหม (ใช้ bathroom)","Is there a bathroom here|Is there a restroom here","is there · bathroom — ระวังคำนำหน้านาม","the","ถามว่ามีห้องน้ำไหม ผู้ฟังยังไม่รู้ว่าห้องไหน จึงใช้คำนำหน้านาม a"],
 ["ty","มีห้องสองห้อง","There are two rooms","there are · two · room — หลายห้อง","room","สองห้องต้องใช้รูปพหูพจน์ rooms"]]},
 { id:"plurals", title:"รูปพหูพจน์ -s กับ this / these และ my / your", blurb:"สองขึ้นไปต้องเติม -s เสมอ this ใช้กับสิ่งเดียว these ใช้กับหลายสิ่ง", deck:"ช้อปปิ้งและจ่ายเงิน", body:`
 <p>ภาษาไทยนับของด้วย ตัวเลข + ลักษณนาม และคำนามไม่เปลี่ยนรูปเลย เช่น “หนังสือ 3 เล่ม” ภาษาอังกฤษไม่มีลักษณนาม แต่เมื่อมีตั้งแต่สองขึ้นไป คำนามต้องเปลี่ยนเป็นรูปพหูพจน์ (plural) โดยเติม <b>-s</b> ทุกครั้ง คำซ้ำอย่าง “เด็ก ๆ” ในภาษาไทยจะใส่หรือไม่ใส่ก็ได้ แต่ -s ในภาษาอังกฤษขาดไม่ได้ และต้องออกเสียงท้ายคำให้ได้ยินด้วย</p>
@@ -62,7 +59,7 @@ practice:[
 ["fi","__ is my friend.","คนนี้เป็นเพื่อนของฉัน","This","These|Those|They","คนเดียวจึงใช้ this"],
 ["fi","Two __, please.","ขอกาแฟสองแก้ว","coffees","coffee|a coffee|coffee's","สั่งเป็นแก้วแล้วนับจำนวน พูดเป็นรูปพหูพจน์ coffees ได้"],
 ["ty","นี่คือหนังสือของฉัน (หลายเล่ม)","These are my books","these · my · book — หลายเล่ม","book","หลายเล่มจึงใช้ these และ books เป็นรูปพหูพจน์"],
-["ty","ฉันมีพี่สาวสองคน","I have two sisters","have · two · sister — สองคน","sister","สองคนต้องใช้รูปพหูพจน์ sisters"],
+["ty","ฉันมีพี่สาวสองคน (ใช้ sister)","I have two sisters","have · two · sister — สองคน","sister","สองคนต้องใช้รูปพหูพจน์ sisters"],
 ["ty","นี่คือกระเป๋าของฉัน","This is my bag","this · my · bag — ไม่ต้องมี a","a","มี my แล้วจึงไม่ใช้คำนำหน้านาม a"]]},
 { id:"present", title:"Present Simple Tense และลำดับคำ: ประธาน + กริยา + กรรม", blurb:"ลำดับคำเหมือนภาษาไทย จุดที่ต้องระวังคือไม่ใส่ am / is / are หน้ากริยา", deck:"แนะนำตัว", body:`
 <p>ข่าวดีสำหรับคนไทย: ลำดับคำพื้นฐานของภาษาอังกฤษเหมือนภาษาไทย คือ <b>ประธาน → กริยา → กรรม</b> “ฉัน ดื่ม กาแฟ” ก็คือ <b>I drink coffee.</b> แปลตรงตัวได้เลย จุดที่คนไทยพลาดบ่อยจึงไม่ใช่ลำดับคำ แต่เป็นคำที่เติมเข้ามาเกิน</p>
@@ -107,7 +104,7 @@ practice:[
 {{ex:Do you like coffee?|/də ju ˈlaɪk ˈkɔːfi/|ชอบกาแฟไหม}}{{ex:Do you speak English?|/də ju ˈspiːk ˈɪŋglɪʃ/|พูดภาษาอังกฤษได้ไหม}}
 <p>ตอบสั้น ๆ ด้วย do: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
 <h3>คำแสดงคำถามไว้หน้าสุด</h3>
-<p>ภาษาไทยวางคำถามไว้ตรงตำแหน่งของคำตอบ เช่น “คุณอยู่ <b>ที่ไหน</b>” แต่ภาษาอังกฤษต้องย้าย what (อะไร) where (ที่ไหน) when (เมื่อไร) who (ใคร) why (ทำไม) how (อย่างไร) ไปไว้หน้าสุด แล้วตามด้วยลำดับแบบคำถาม</p>
+<p>ภาษาไทยวางคำแสดงคำถามไว้ตรงตำแหน่งของคำตอบ เช่น “คุณอยู่ <b>ที่ไหน</b>” แต่ภาษาอังกฤษต้องย้าย what (อะไร) where (ที่ไหน) when (เมื่อไร) who (ใคร) why (ทำไม) how (อย่างไร) ไปไว้หน้าสุด แล้วตามด้วยลำดับแบบคำถาม</p>
 {{ex:Where do you live?|/ˈwer də ju ˈlɪv/|คุณอยู่ที่ไหน}}{{ex:What do you do?|/ˈwʌt də ju ˈduː/|คุณทำงานอะไร}}{{ex:Where is the bathroom?|/ˈwer ɪz ðə ˈbæθruːm/|ห้องน้ำอยู่ที่ไหน}}{{ex:How much is this?|/ˈhaʊ ˈmʌtʃ ɪz ˈðɪs/|อันนี้ราคาเท่าไร}}
 <div class="tip">ข้อผิดพลาดที่พบบ่อยของคนไทย: <b>You live where?</b> ✗ → <b>Where do you live?</b> ✓ / <b>Are you like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓</div>`,
 check:[["“ชอบกาแฟไหม” ภาษาอังกฤษพูดว่าอย่างไร",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"มีกริยา like จึงขึ้นต้นด้วย Do"],["“คุณอยู่ที่ไหน” ภาษาอังกฤษพูดว่าอย่างไร",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"คำแสดงคำถาม + do + ประธาน + กริยา"],["คำตอบที่ถูกของ Do you speak English? คือข้อใด",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"ถามด้วย Do ก็ตอบด้วย do"]],
@@ -124,10 +121,10 @@ practice:[
 ["fi","__ do you live?","คุณอยู่ที่ไหน","Where","What|Who|When","ถามสถานที่ใช้ where"],
 ["fi","What time __ it?","ตอนนี้กี่โมง","is","do|does|are","ไม่มีกริยาอื่น จึงถามด้วย Verb to be"],
 ["ty","พูดภาษาอังกฤษได้ไหม","Do you speak English|Can you speak English","do · speak · English","Are","มีกริยา speak จึงขึ้นต้นด้วย Do"],
-["ty","ห้องน้ำอยู่ที่ไหน","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — ใช้ the","a","ห้องน้ำที่ทั้งสองฝ่ายรู้ว่าห้องไหน ใช้คำนำหน้านาม the"],
+["ty","ห้องน้ำอยู่ที่ไหน (ใช้ bathroom)","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — ใช้ the","a","ห้องน้ำที่ทั้งสองฝ่ายรู้ว่าห้องไหน ใช้คำนำหน้านาม the"],
 ["ty","ชอบหมาไหม","Do you like dogs","do · like · dog — หมาทั่วไป","dog","พูดถึงหมาทั้งหมดโดยทั่วไปใช้รูปพหูพจน์ dogs"]]},
 { id:"third-s", title:"ประธานเอกพจน์บุรุษที่ 3: he she it เติม -s และ does / doesn't", blurb:"ประธานเป็นคนเดียวหรือสิ่งเดียว กริยาต้องเติม -s ส่วนคำถามและปฏิเสธใช้ does", deck:"แนะนำตัว", body:`
-<p>กริยาภาษาไทยไม่เคยเปลี่ยนรูปตามประธาน “ฉันทำงาน” “เธอทำงาน” ใช้คำเดียวกัน แต่ใน Present Simple Tense ถ้าประธานเป็น <b>ประธานเอกพจน์บุรุษที่ 3</b> คือ he she it หรือคนเดียว สิ่งเดียว เช่น my mom กริยาต้องเติม <b>-s</b> นี่คือข้อผิดพลาดที่พบมากที่สุดเวลาคนไทยพูดภาษาอังกฤษ</p>
+<p>กริยาภาษาไทยไม่เคยเปลี่ยนรูปตามประธาน “ฉันทำงาน” “เธอทำงาน” ใช้คำเดียวกัน แต่ใน Present Simple Tense ถ้าประธานเป็น <b>ประธานเอกพจน์บุรุษที่ 3</b> คือ he she it หรือคนเดียว สิ่งเดียว เช่น my mom กริยาต้องเติม <b>-s</b> นี่คือข้อผิดพลาดที่พบบ่อยที่สุดอย่างหนึ่งเวลาคนไทยพูดภาษาอังกฤษ</p>
 <div class="tbl"><table><tr><th>ประธาน</th><th>กริยา</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
 <p>รู้กฎแล้วยังไม่พอ ต้องออกเสียง -s ให้ได้ยินด้วย ภาษาไทยไม่มีเสียง /s/ หรือ /z/ ท้ายพยางค์ จึงหายไปง่ายเวลาพูดเร็ว ดูคำอ่าน works แล้วออกเสียง /ks/ ท้ายคำให้ครบ</p>
 {{ex:She works at a bank.|/ʃi ˈwɜːrks ət ə ˈbæŋk/|เธอทำงานที่ธนาคาร}}{{ex:He likes soccer.|/hi ˈlaɪks ˈsɑːkər/|เขาชอบฟุตบอล}}{{ex:My mom cooks well.|/maɪ ˈmɑːm ˈkʊks ˈwel/|แม่ของฉันทำอาหารเก่ง}}
@@ -150,9 +147,9 @@ practice:[
 ["fi","He __ soccer.","เขาชอบฟุตบอล","likes","like|liking|is like","ประธานเอกพจน์บุรุษที่ 3 (he) จึงใช้ likes"],
 ["fi","__ she speak English?","เธอพูดภาษาอังกฤษได้ไหม","Does","Do|Is|Are","คำถามเมื่อประธานเป็น she ใช้ Does"],
 ["fi","She __ to work at eight.","เธอไปทำงานตอนแปดโมง","goes","go|going|gos","go เปลี่ยนเป็น goes"],
-["ty","เขามีรถ","He has a car","has · car — ใช้ a","have","he ใช้ has และรถคันเดียวต้องมีคำนำหน้านาม a"],
+["ty","เขา (ผู้ชาย) มีรถ","He has a car","has · car — ใช้ a","have","he ใช้ has และรถคันเดียวต้องมีคำนำหน้านาม a"],
 ["ty","เธอชอบแมว","She likes cats","likes · cat — แมวทั่วไป","cat","she ใช้ likes และแมวทั่วไปใช้รูปพหูพจน์ cats"],
-["ty","เขาไม่ได้อยู่ที่นี่","He doesn't live here","doesn't · live · here","lives","หลัง doesn't ใช้กริยาช่อง 1"]]},
+["ty","เขา (ผู้ชาย) ไม่ได้อาศัยอยู่ที่นี่","He doesn't live here","doesn't · live · here","lives","หลัง doesn't ใช้กริยาช่อง 1"]]},
 { id:"countable", title:"คำนามนับได้และนับไม่ได้: some any much many", blurb:"water ใช้ a ไม่ได้และเติม -s ไม่ได้ นับได้ใช้ many นับไม่ได้ใช้ much", deck:"สั่งอาหารในร้าน", body:`
 <p>ภาษาไทยนับได้ทุกอย่างด้วยลักษณนาม เช่น “น้ำ 2 แก้ว” “ข้อมูล 2 อย่าง” จึงไม่มีอะไรบอกว่าคำไหนนับไม่ได้ แต่ภาษาอังกฤษแบ่งคำนามเป็น <b>คำนามนับได้</b> และ <b>คำนามนับไม่ได้</b> คำนามนับไม่ได้ใช้ a / an ไม่ได้ ใส่ตัวเลขข้างหน้าไม่ได้ และเติม -s ไม่ได้</p>
 <div class="tbl"><table><tr><th>คำนามนับได้</th><th>คำนามนับไม่ได้</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>ใช้ a / an ตัวเลข และ -s ได้</td><td>ใช้ a / an ตัวเลข และ -s ไม่ได้</td></tr></table></div>
@@ -197,7 +194,7 @@ practice:[
 <h3>have: กิน ดื่ม</h3>
 <p>have ใช้แทน “กิน” หรือ “ดื่ม” ได้ และชื่อมื้ออาหารอย่าง breakfast lunch dinner ไม่ใช้คำนำหน้านาม</p>
 {{ex:Let's have lunch.|/ˈlets ˈhæv ˈlʌntʃ/|ไปกินข้าวกลางวันกัน}}{{ex:I have coffee every morning.|/aɪ ˈhæv ˈkɔːfi ˈevri ˈmɔːrnɪŋ/|ฉันดื่มกาแฟทุกเช้า}}
-<div class="tip">ข้อผิดพลาดที่พบบ่อย: <b>She knows I.</b> ✗ → <b>She knows me.</b> ✓ / <b>I am two brothers.</b> ✗ → <b>I have two brothers.</b> ✓</div>`,
+<div class="tip">ข้อผิดพลาดที่พบบ่อย: <b>She knows I.</b> ✗ → <b>She knows me.</b> ✓ / <b>Have two brothers.</b> ✗ → <b>I have two brothers.</b> ✓ (ภาษาอังกฤษละประธานไม่ได้)</div>`,
 check:[["I like ___. (เขา ผู้ชาย) ช่องว่างควรเติมคำใด",["he","his","him","he's"],2,"หลังกริยาใช้รูปกรรม him"],["Can you help ___? (พวกเรา) ช่องว่างควรเติมคำใด",["us","we","our","ours"],0,"หลังกริยาใช้รูปกรรม us"],["“มีปากกาไหม” ภาษาอังกฤษพูดว่าอย่างไร",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have เป็นกริยาทั่วไปจึงถามด้วย Do"]],
 practice:[
 ["mc","She knows ___. (ฉัน) ช่องว่างควรเติมคำใด","me","I","my","mine","หลังกริยาใช้รูปกรรม me"],
@@ -271,165 +268,208 @@ practice:[
 ["ty","ตอนนี้ฉันกำลังทำอาหาร","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — ใช้ -ing · now","cook","สิ่งที่กำลังทำใช้ be + -ing"],
 ["ty","ฉันกำลังดูหนัง","I'm watching a movie","I'm · watching · movie — ใช้ a","the","หนังเรื่องไหนก็ได้หนึ่งเรื่อง จึงใช้คำนำหน้านาม a"],
 ["ty","เด็ก ๆ กำลังนอนหลับ","The kids are sleeping|The children are sleeping","kids · are · sleeping — หลายคน","kid","เด็กหลายคนจึงใช้รูปพหูพจน์ kids คู่กับ are"]]},
-{ id:"past", title:"과거형: was / were와 -ed", blurb:"be동사는 was·were, 일반동사는 -ed. 질문과 부정은 did.", deck:"스몰토크", body:`
-<p>한국어의 '-았/었어요'에 해당해요. be동사와 일반동사의 과거가 따로 있어요.</p>
-<h3>be동사의 과거: was / were</h3>
-<p>I, he, she, it에는 <b>was</b>, you, we, they에는 <b>were</b>예요.</p>
-{{ex:I was tired.|아이 워즈 타이어드|피곤했어요}}{{ex:It was fun.|잇 워즈 펀|재미있었어요}}{{ex:We were at home.|위 워 앳 홈|우리는 집에 있었어요}}{{ex:Were you busy?|워 유 비지?|바빴어요?}}
-<h3>일반동사의 과거: -ed</h3>
-<p>동사 끝에 <b>-ed</b>를 붙여요. 주어가 누구든 모양이 같아요.</p>
-{{ex:I worked yesterday.|아이 웍트 예스터데이|어제 일했어요}}{{ex:We watched a movie.|위 왓치트 어 무비|우리는 영화를 봤어요}}{{ex:She called me.|쉬 콜드 미|그녀가 저한테 전화했어요}}
-<h3>부정과 질문은 did</h3>
-<p><b>didn't</b>나 <b>Did</b>를 쓰면 동사는 원래 모양으로 돌아가요.</p>
-{{ex:I didn't work yesterday.|아이 디든 워크 예스터데이|어제 일 안 했어요}}{{ex:Did you call me?|디쥬 콜 미?|저한테 전화했어요?}}
-<div class="tip">가장 흔한 실수: <b>I didn't worked.</b> (X) → <b>I didn't work.</b> (O), <b>I was work.</b> (X) → <b>I worked.</b> (O)</div>`,
-check:[["They ___ at home yesterday. 빈칸에 알맞은 것은?",["was","were","did","are"],1,"they에는 were예요."],["'어제 일 안 했어요'를 영어로 하면?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"didn't 뒤에는 동사원형이 와요."],["Did you ___ the movie? 빈칸에 알맞은 것은?",["watch","watched","watching","watches"],0,"Did 뒤에는 동사원형이 와요."]],
+{ id:"past", title:"Past Simple Tense: was / were และ -ed", blurb:"Verb to be ใช้ was / were กริยาอื่นเติม -ed ส่วนคำถามและปฏิเสธใช้ did", deck:"คุยเล่น", body:`
+<p>ภาษาไทยบอกอดีตด้วยคำบอกเวลา เช่น “เมื่อวาน” หรือ “แล้ว” โดยกริยาไม่เปลี่ยนรูป แต่ภาษาอังกฤษต้องเปลี่ยนรูปกริยาเป็น <b>กริยาช่อง 2</b> ทุกครั้ง แม้จะมี yesterday อยู่แล้วก็ตาม คำบอกเวลาไม่ได้แทน Tense: <b>Yesterday I eat rice.</b> ✗ → <b>Yesterday I ate rice.</b> ✓</p>
+<h3>Verb to be ในอดีต: was / were</h3>
+<p>I he she it ใช้ <b>was</b> ส่วน you we they ใช้ <b>were</b></p>
+{{ex:I was tired.|/aɪ wəz ˈtaɪərd/|ตอนนั้นฉันเหนื่อย}}{{ex:It was fun.|/ɪt wəz ˈfʌn/|สนุกมาก}}{{ex:We were at home.|/wi wər ət ˈhoʊm/|ตอนนั้นเราอยู่บ้าน}}{{ex:Were you busy?|/wər ju ˈbɪzi/|ตอนนั้นยุ่งไหม}}
+<h3>กริยาอื่นในอดีต: เติม -ed</h3>
+<p>เติม <b>-ed</b> ท้ายกริยา ใช้รูปเดียวกันกับทุกประธาน และต้องออกเสียงท้ายคำให้ได้ยิน -ed มีสามเสียง คือ /t/ /d/ หรือ /ɪd/ เช่น worked ลงท้ายด้วย /kt/ และ called ลงท้ายด้วย /ld/</p>
+{{ex:I worked yesterday.|/aɪ ˈwɜːrkt ˈjestərdeɪ/|เมื่อวานฉันทำงาน}}{{ex:We watched a movie.|/wi ˈwɑːtʃt ə ˈmuːvi/|เราดูหนังกัน}}{{ex:She called me.|/ʃi ˈkɔːld mi/|เธอโทรหาฉัน}}
+<h3>ปฏิเสธและคำถามใช้ did</h3>
+<p>เมื่อใช้ <b>didn't</b> หรือ <b>Did</b> ความเป็นอดีตอยู่ที่ did แล้ว กริยาที่ตามมาจึงกลับเป็นกริยาช่อง 1 ห้ามบอกอดีตซ้ำสองที่</p>
+{{ex:I didn't work yesterday.|/aɪ ˈdɪdnt ˈwɜːrk ˈjestərdeɪ/|เมื่อวานฉันไม่ได้ทำงาน}}{{ex:Did you call me?|/dɪd ju ˈkɔːl mi/|คุณโทรหาฉันหรือเปล่า}}
+<div class="tip">ข้อผิดพลาดที่พบบ่อยของคนไทย: <b>He didn't went.</b> ✗ → <b>He didn't go.</b> ✓ / <b>I was work.</b> ✗ → <b>I worked.</b> ✓</div>`,
+check:[["They ___ at home yesterday. ช่องว่างควรเติมคำใด",["was","were","did","are"],1,"they ใช้ were"],["“เมื่อวานฉันไม่ได้ทำงาน” ภาษาอังกฤษพูดว่าอย่างไร",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"หลัง didn't ใช้กริยาช่อง 1"],["Did you ___ the movie? ช่องว่างควรเติมคำใด",["watch","watched","watching","watches"],0,"หลัง Did ใช้กริยาช่อง 1"]],
 practice:[
-["mc","I ___ tired yesterday.","was","were","did","am","I에는 was예요."],
-["mc","'우리는 영화를 봤어요' =","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","일반동사 과거는 -ed예요."],
-["mc","'어제 전화했어요?' =","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Did 뒤에는 동사원형이 와요."],
-["mc","'재미있었어요' =","It was fun.","It were fun.","It did fun.","It funned.","it에는 was예요."],
-["mc","'바빴어요?' =","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy는 상태라서 be동사로 물어요."],
-["or","우리는 영화를 봤어요","We watched a movie","watch movies","영화 한 편이라 관사 a와 단수 movie예요."],
-["or","저는 친구들과 놀았어요","I played with my friends","friend play","여러 명이라 복수 friends예요."],
-["or","어제 일 안 했어요","I didn't work yesterday","worked","didn't 뒤에는 동사원형이 와요."],
-["fi","We __ at home last night.","우리는 어젯밤에 집에 있었어요","were","was|did|are","we에는 were예요."],
-["fi","I __ soccer yesterday.","어제 축구했어요","played","play|playing|was play","과거는 -ed예요."],
-["fi","__ you work yesterday?","어제 일했어요?","Did","Were|Do|Was","일반동사 과거 질문은 Did예요."],
-["ty","피곤했어요","I was tired","was · tired","were","I에는 was예요."],
-["ty","저는 영화를 봤어요","I watched a movie","watched · movie — 관사 a","the","영화 한 편이라 관사 a를 붙여요."],
-["ty","저는 친구들한테 전화했어요","I called my friends","called · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"irregular-past", title:"불규칙 과거: went, ate, saw", blurb:"가장 자주 쓰는 동사일수록 -ed가 아니에요. 12개만 먼저 외워요.", deck:"스몰토크", body:`
-<p>매일 쓰는 동사들은 과거형이 <b>불규칙</b>이에요. 규칙이 없으니 짝으로 외워요.</p>
-<div class="tbl"><table><tr><th>현재</th><th>과거</th><th>현재</th><th>과거</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
-{{ex:I went to Busan.|아이 웬 투 부산|부산에 갔어요}}{{ex:We ate pizza.|위 에잇 피짜|우리는 피자를 먹었어요}}{{ex:I saw a movie.|아이 쏘 어 무비|영화를 봤어요}}{{ex:I met my friends.|아이 멧 마이 프렌즈|친구들을 만났어요}}{{ex:I bought a book.|아이 봇 어 북|책을 한 권 샀어요}}
-<h3>질문과 부정에서는 원래 모양으로</h3>
-<p><b>did</b>가 과거를 표시하니까 동사는 원형으로 돌아가요.</p>
-{{ex:What did you do?|왓 디쥬 두?|뭐 했어요?}}{{ex:Where did you go?|웨어 디쥬 고?|어디 갔어요?}}{{ex:I didn't go.|아이 디든 고|안 갔어요}}
-<div class="tip">가장 흔한 실수: <b>I goed.</b> (X) → <b>I went.</b> (O), <b>Did you went?</b> (X) → <b>Did you go?</b> (O)</div>`,
-check:[["go의 과거형은?",["goed","gone","went","going"],2,"go의 과거는 went예요."],["'뭐 했어요?'를 영어로 하면?",["What did you do?","What did you did?","What you did?","What were you do?"],0,"did 뒤에는 동사원형 do가 와요."],["I didn't ___ breakfast. 빈칸에 알맞은 것은?",["ate","eaten","eats","eat"],3,"didn't 뒤에는 동사원형이 와요."]],
+["mc","I ___ tired yesterday. ช่องว่างควรเติมคำใด","was","were","did","am","I ใช้ was"],
+["mc","“เราดูหนังกัน” (เรื่องที่ผ่านไปแล้ว) ภาษาอังกฤษพูดว่าอย่างไร","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","เรื่องที่ผ่านไปแล้วใช้กริยาช่อง 2: watched"],
+["mc","“เมื่อวานโทรมาหรือเปล่า” ภาษาอังกฤษพูดว่าอย่างไร","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","หลัง Did ใช้กริยาช่อง 1"],
+["mc","“สนุกมาก” (เมื่อวาน) ภาษาอังกฤษพูดว่าอย่างไร","It was fun.","It were fun.","It did fun.","It funned.","it ใช้ was"],
+["mc","“ตอนนั้นยุ่งไหม” ภาษาอังกฤษพูดว่าอย่างไร","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy เป็นคำคุณศัพท์จึงถามด้วย Verb to be"],
+["or","เราดูหนังกัน (หนึ่งเรื่อง)","We watched a movie","watch movies","หนังหนึ่งเรื่องใช้คำนำหน้านาม a และ movie ไม่เติม -s"],
+["or","ฉันเล่นกับเพื่อน ๆ ของฉัน","I played with my friends","friend play","เพื่อนหลายคนจึงใช้รูปพหูพจน์ friends"],
+["or","เมื่อวานฉันไม่ได้ทำงาน","I didn't work yesterday","worked","หลัง didn't ใช้กริยาช่อง 1"],
+["fi","We __ at home last night.","เมื่อคืนเราอยู่บ้าน","were","was|did|are","we ใช้ were"],
+["fi","I __ soccer yesterday.","เมื่อวานฉันเล่นฟุตบอล","played","play|playing|was play","มี yesterday ก็ต้องใช้กริยาช่อง 2: played"],
+["fi","__ you work yesterday?","เมื่อวานทำงานหรือเปล่า","Did","Were|Do|Was","คำถามอดีตของกริยาทั่วไปใช้ Did"],
+["ty","ฉันเหนื่อย (เรื่องที่ผ่านไปแล้ว)","I was tired","was · tired","were","I ใช้ was"],
+["ty","ฉันดูหนังมา (หนึ่งเรื่อง)","I watched a movie","watched · movie — ใช้ a","the","หนังหนึ่งเรื่องใช้คำนำหน้านาม a"],
+["ty","ฉันโทรหาเพื่อน ๆ ของฉัน (เรื่องที่ผ่านไปแล้ว)","I called my friends","called · my · friend — หลายคน","friend","เพื่อนหลายคนจึงใช้รูปพหูพจน์ friends"]]},
+{ id:"irregular-past", title:"กริยาไม่ปกติในอดีต: went ate saw", blurb:"กริยาที่ใช้บ่อยที่สุดมักไม่เติม -ed จำ 12 คำนี้ก่อน", deck:"คุยเล่น", body:`
+<p>กริยาที่ใช้ทุกวันส่วนใหญ่เป็น <b>กริยาไม่ปกติ</b> คือกริยาช่อง 2 ไม่ได้เติม -ed แต่เปลี่ยนเป็นคำใหม่ ไม่มีกฎให้เดา จึงต้องจำเป็นคู่ ช่อง 1 กับช่อง 2 และฝึกพิมพ์จนคล่อง</p>
+<div class="tbl"><table><tr><th>ช่อง 1</th><th>ช่อง 2</th><th>ช่อง 1</th><th>ช่อง 2</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
+{{ex:I went to Chiang Mai.|/aɪ ˈwent tə ˌtʃɑːŋ ˈmaɪ/|ฉันไปเชียงใหม่มา}}{{ex:We ate pizza.|/wi ˈeɪt ˈpiːtsə/|เรากินพิซซ่ากัน}}{{ex:I saw a movie.|/aɪ ˈsɔː ə ˈmuːvi/|ฉันดูหนังมา}}{{ex:I met my friends.|/aɪ ˈmet maɪ ˈfrendz/|ฉันไปเจอเพื่อน ๆ มา}}{{ex:I bought a book.|/aɪ ˈbɔːt ə ˈbʊk/|ฉันซื้อหนังสือมาหนึ่งเล่ม}}
+<h3>คำถามและปฏิเสธกลับไปใช้ช่อง 1</h3>
+<p><b>did</b> บอกอดีตไว้แล้ว กริยาที่ตามมาจึงเป็นกริยาช่อง 1 เหมือนบทที่แล้ว</p>
+{{ex:What did you do?|/ˈwʌt dɪd ju ˈduː/|ทำอะไรมา}}{{ex:Where did you go?|/ˈwer dɪd ju ˈgoʊ/|ไปไหนมา}}{{ex:I didn't go.|/aɪ ˈdɪdnt ˈgoʊ/|ฉันไม่ได้ไป}}
+<div class="tip">ข้อผิดพลาดที่พบบ่อยของคนไทย: <b>She goed to the store.</b> ✗ → <b>She went to the store.</b> ✓ / <b>Did you went?</b> ✗ → <b>Did you go?</b> ✓</div>`,
+check:[["กริยาช่อง 2 ของ go",["goed","gone","went","going"],2,"go เป็นกริยาไม่ปกติ ช่อง 2 คือ went"],["“ทำอะไรมา” ภาษาอังกฤษพูดว่าอย่างไร",["What did you do?","What did you did?","What you did?","What were you do?"],0,"หลัง did ใช้กริยาช่อง 1 do"],["I didn't ___ breakfast. ช่องว่างควรเติมคำใด",["ate","eaten","eats","eat"],3,"หลัง didn't ใช้กริยาช่อง 1"]],
 practice:[
-["mc","eat의 과거형은?","ate","eated","eat","eaten","eat의 과거는 ate예요."],
-["mc","'어디 갔어요?' =","Where did you go?","Where did you went?","Where you went?","Where were you go?","did 뒤에는 동사원형이 와요."],
-["mc","'저는 책을 한 권 샀어요' =","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","buy의 과거는 bought, 한 권이라 관사 a예요."],
-["mc","see의 과거형은?","saw","seed","seen","sawed","see의 과거는 saw예요."],
-["mc","'저는 안 갔어요' =","I didn't go.","I didn't went.","I wasn't go.","I not went.","didn't 뒤에는 동사원형이 와요."],
-["or","저는 영화를 봤어요","I saw a movie","see movies","한 편이라 관사 a와 단수 movie예요. see의 과거는 saw예요."],
-["or","우리는 피자를 먹었어요","We ate pizza","eated","eat의 과거는 ate예요."],
-["or","저는 친구들을 만났어요","I met my friends","friend meet","여러 명이라 복수 friends예요."],
-["fi","I __ to Jeju last year.","작년에 제주에 갔어요","went","go|goed|gone","go의 과거는 went예요."],
-["fi","What did you __?","뭐 먹었어요?","eat","ate|eaten|eating","did 뒤에는 동사원형이 와요."],
-["fi","She __ a new phone.","그녀는 새 휴대폰을 샀어요","bought","buyed|buy|buys","buy의 과거는 bought예요."],
-["ty","저는 부산에 갔어요","I went to Busan","went · to · Busan","go","go의 과거는 went예요."],
-["ty","저는 책을 한 권 샀어요","I bought a book","bought · book — 관사 a","the","한 권이라 관사 a를 붙여요."],
-["ty","저는 친구들을 만났어요","I met my friends|I saw my friends","met · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"the", title:"the 다시 보기: 처음엔 a, 다음엔 the", blurb:"처음 꺼낼 땐 a, 서로 아는 것이 되면 the.", deck:"길 묻기·교통", body:`
-<p>관사는 한 번에 익혀지지 않아요. 여기서는 <b>the</b>를 쓰는 때와 <b>아무것도 안 쓰는 때</b>를 다시 연습해요.</p>
-<h3>처음엔 a, 다시 말할 땐 the</h3>
-<p>듣는 사람이 처음 듣는 것이면 a, 방금 말해서 이제 아는 것이면 the예요.</p>
-{{ex:I bought a shirt. The shirt is blue.|아이 봇 어 셔트. 더 셔트 이즈 블루|셔츠를 하나 샀어요. 그 셔츠는 파란색이에요}}
-<h3>상황상 하나뿐이면 the</h3>
-<p>이 방의 창문, 이 근처의 역처럼 무엇인지 뻔하면 처음부터 the예요.</p>
-{{ex:Can you open the window?|캔 유 오픈 더 윈도우?|창문 좀 열어 줄래요?}}{{ex:Where's the subway station?|웨어즈 더 서브웨이 스테이션?|지하철역이 어디예요?}}{{ex:The sun is hot today.|더 썬 이즈 핫 투데이|오늘 햇볕이 뜨거워요}}
-<h3>관사를 안 쓰는 표현</h3>
-<p>자주 쓰는 장소·교통·식사 표현은 통째로 외워요.</p>
-{{ex:I go to work by bus.|아이 고우 투 워크 바이 버스|저는 버스로 출근해요}}{{ex:I'm at home.|아임 앳 홈|저 집에 있어요}}{{ex:I go to bed at eleven.|아이 고우 투 베드 앳 일레븐|저는 11시에 자요}}
-<div class="tip">스스로 물어보세요: "듣는 사람이 <b>어느 것인지</b> 알까?" 알면 the, 모르면 a예요.</div>`,
-check:[["I have a cat. ___ cat is white. 빈칸에 알맞은 것은?",["A","An","The","(없음)"],2,"방금 말한 그 고양이라서 the예요."],["I go to ___ work by bus. 빈칸에 알맞은 것은?",["a","the","an","(없음)"],3,"go to work에는 관사를 쓰지 않아요."],["이 방의 창문을 열어 달라고 할 때 알맞은 말은?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"둘 다 아는 그 창문이라서 the예요."]],
+["mc","กริยาช่อง 2 ของ eat","ate","eated","eat","eaten","eat เป็นกริยาไม่ปกติ ช่อง 2 คือ ate"],
+["mc","“ไปไหนมา” ภาษาอังกฤษพูดว่าอย่างไร","Where did you go?","Where did you went?","Where you went?","Where were you go?","หลัง did ใช้กริยาช่อง 1"],
+["mc","“ฉันซื้อหนังสือมาหนึ่งเล่ม” ภาษาอังกฤษพูดว่าอย่างไร","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","ช่อง 2 ของ buy คือ bought และหนึ่งเล่มต้องมีคำนำหน้านาม a"],
+["mc","กริยาช่อง 2 ของ see","saw","seed","seen","sawed","see เป็นกริยาไม่ปกติ ช่อง 2 คือ saw"],
+["mc","“ฉันไม่ได้ไป” ภาษาอังกฤษพูดว่าอย่างไร","I didn't go.","I didn't went.","I wasn't go.","I not went.","หลัง didn't ใช้กริยาช่อง 1"],
+["or","ฉันดูหนังมา (หนึ่งเรื่อง)","I saw a movie","see movies","หนังหนึ่งเรื่องใช้คำนำหน้านาม a และ movie ไม่เติม -s ส่วนช่อง 2 ของ see คือ saw"],
+["or","เรากินพิซซ่ากัน","We ate pizza","eated","ช่อง 2 ของ eat คือ ate"],
+["or","ฉันไปเจอเพื่อน ๆ ของฉันมา","I met my friends","friend meet","เพื่อนหลายคนจึงใช้รูปพหูพจน์ friends"],
+["fi","I __ to Jeju last year.","ปีที่แล้วฉันไปเกาะเชจู","went","go|goed|gone","ช่อง 2 ของ go คือ went"],
+["fi","What did you __?","กินอะไรมา","eat","ate|eaten|eating","หลัง did ใช้กริยาช่อง 1"],
+["fi","She __ a new phone.","เธอซื้อโทรศัพท์เครื่องใหม่","bought","buyed|buy|buys","ช่อง 2 ของ buy คือ bought"],
+["ty","ฉันไปปูซานมา","I went to Busan","went · to · Busan","go","ช่อง 2 ของ go คือ went"],
+["ty","ฉันซื้อหนังสือมาหนึ่งเล่ม","I bought a book","bought · book — ใช้ a","the","หนึ่งเล่มจึงใช้คำนำหน้านาม a"],
+["ty","ฉันไปเจอเพื่อน ๆ ของฉันมา","I met my friends|I saw my friends","met · my · friend — หลายคน","friend","เพื่อนหลายคนจึงใช้รูปพหูพจน์ friends"]]},
+{ id:"the", title:"ทบทวน the: ครั้งแรกใช้ a ครั้งต่อไปใช้ the", blurb:"พูดถึงครั้งแรกใช้ a เมื่อทั้งสองฝ่ายรู้แล้วว่าสิ่งไหน ใช้ the", deck:"ถามทางและการเดินทาง", body:`
+<p>คำนำหน้านาม (article) ไม่มีในภาษาไทย จึงต้องฝึกหลายรอบกว่าจะใช้ได้เอง บทนี้ทบทวนว่าเมื่อไรใช้ <b>the</b> และเมื่อไร <b>ไม่ต้องใส่อะไรเลย</b></p>
+<p>คนไทยมักคิดว่า the คือ “นี้” หรือ “นั้น” แต่ไม่ใช่ “นี้ / นั้น” คือ this / that ซึ่งชี้ของ ส่วน the แค่บอกว่า <b>ผู้ฟังรู้แล้วว่าหมายถึงสิ่งไหน</b></p>
+<h3>ครั้งแรกใช้ a พูดถึงซ้ำใช้ the</h3>
+<p>ถ้าผู้ฟังเพิ่งได้ยินเป็นครั้งแรกใช้ a ถ้าเพิ่งพูดถึงไปแล้วและผู้ฟังรู้ว่าชิ้นไหน ใช้ the</p>
+{{ex:I bought a shirt. The shirt is blue.|/aɪ ˈbɔːt ə ˈʃɜːrt ‖ ðə ˈʃɜːrt ɪz ˈbluː/|ฉันซื้อเสื้อมาตัวหนึ่ง เสื้อตัวนั้นสีฟ้า}}
+<h3>สถานการณ์บอกอยู่แล้วว่าสิ่งไหน ใช้ the</h3>
+<p>หน้าต่างในห้องนี้ สถานีแถวนี้ หรือสิ่งที่มีหนึ่งเดียวอย่างดวงอาทิตย์ ทุกคนรู้ว่าหมายถึงอะไร จึงใช้ the ได้ตั้งแต่ครั้งแรก</p>
+{{ex:Can you open the window?|/kən ju ˈoʊpən ðə ˈwɪndoʊ/|ช่วยเปิดหน้าต่างหน่อยได้ไหม}}{{ex:Where's the subway station?|/ˈwerz ðə ˈsʌbweɪ ˈsteɪʃn/|สถานีรถไฟใต้ดินอยู่ที่ไหน}}{{ex:The sun is hot today.|/ðə ˈsʌn ɪz ˈhɑːt təˈdeɪ/|วันนี้แดดร้อน}}
+<h3>สำนวนที่ไม่ใช้คำนำหน้านาม</h3>
+<p>สำนวนเกี่ยวกับสถานที่ การเดินทาง และมื้ออาหารที่ใช้บ่อย ให้จำเป็นชุด</p>
+{{ex:I go to work by bus.|/aɪ ˈgoʊ tə ˈwɜːrk baɪ ˈbʌs/|ฉันนั่งรถเมล์ไปทำงาน}}{{ex:I'm at home.|/aɪm ət ˈhoʊm/|ฉันอยู่บ้าน}}{{ex:I go to bed at eleven.|/aɪ ˈgoʊ tə ˈbed ət ɪˈlevn/|ฉันเข้านอนตอนห้าทุ่ม}}
+<div class="tip">ถามตัวเองว่า “ผู้ฟังรู้ไหมว่า <b>สิ่งไหน</b>” ถ้ารู้ใช้ the ถ้าไม่รู้ใช้ a และอย่าลืมใส่ เพราะคนไทยพลาดจากการไม่ใส่มากกว่าใส่ผิด</div>`,
+check:[["I have a cat. ___ cat is white. ช่องว่างควรเติมคำใด",["A","An","The","(ไม่ใส่)"],2,"แมวตัวที่เพิ่งพูดถึงไป จึงใช้ the"],["I go to ___ work by bus. ช่องว่างควรเติมคำใด",["a","the","an","(ไม่ใส่)"],3,"go to work ไม่ใช้คำนำหน้านาม"],["ขอให้ช่วยเปิดหน้าต่างในห้องนี้ พูดว่าอย่างไร",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"หน้าต่างที่ทั้งสองฝ่ายรู้ว่าบานไหน จึงใช้ the"]],
 practice:[
-["mc","I bought a shirt. ___ shirt is blue.","The","A","An","Some","방금 말한 그 셔츠라서 the예요."],
-["mc","'역이 어디예요?' =","Where's the station?","Where's a station?","Where's station?","Where the station?","이 근처의 그 역이라서 the예요."],
-["mc","다음 중 알맞은 문장은?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","go to work, by bus에는 관사가 없어요."],
-["mc","'해가 뜨거워요' =","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","하나뿐인 것에는 the를 붙여요."],
-["mc","'저 집에 있어요' =","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","at home에는 관사가 없어요."],
-["or","창문 좀 열어 줄래요?","Can you open the window","a windows","둘 다 아는 그 창문이라 관사 the예요."],
-["or","저는 버스로 출근해요","I go to work by bus","the a","go to work, by bus에는 관사를 쓰지 않아요."],
-["or","그 개는 커요","The dog is big","A dogs","이미 말한 그 개라서 관사 the예요."],
-["fi","I saw a movie. __ movie was great.","영화를 봤어요. 그 영화 정말 좋았어요","The","A|An|Some","방금 말한 그 영화라서 the예요."],
-["fi","Where's __ bathroom?","화장실이 어디예요?","the","a|an|some","이 건물의 그 화장실이라서 the예요."],
-["fi","I have __ idea.","좋은 생각이 있어요","an","a|the|some","처음 꺼내는 하나이고 모음 소리로 시작해서 an이에요."],
-["ty","문 좀 닫아 줄래요?","Can you close the door|Could you close the door","can you · close · door — 관사 the","a","둘 다 아는 그 문이라 관사 the예요."],
-["ty","역이 어디예요?","Where is the station|Where's the station","where · station — 관사 the","a","이 근처의 그 역이라 관사 the예요."],
-["ty","저는 집에 있어요","I'm at home|I'm home","I'm · at · home — 관사 없이","the","home 앞에는 관사를 쓰지 않아요."]]},
-{ id:"adjectives", title:"형용사와 비교: bigger, more expensive, the best", blurb:"형용사는 명사 앞에. 비교는 -er / more, 최고는 the -est / the most.", deck:"쇼핑·계산", body:`
-<p>형용사는 명사 <b>앞</b>이나 be동사 <b>뒤</b>에 와요. 쇼핑할 때 꼭 필요한 비교 표현까지 같이 익혀요.</p>
-{{ex:a big bag|어 빅 백|큰 가방}}{{ex:This bag is big.|디스 백 이즈 빅|이 가방은 커요}}{{ex:It's too small.|이츠 투 스몰|너무 작아요}}
-<h3>비교: -er 또는 more</h3>
-<p>짧은 단어는 <b>-er</b>, 긴 단어는 앞에 <b>more</b>를 붙여요. '~보다'는 <b>than</b>이에요.</p>
-<div class="tbl"><table><tr><th>원래</th><th>더 ~한</th><th>가장 ~한</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
-{{ex:This one is cheaper.|디스 원 이즈 치퍼|이게 더 싸요}}{{ex:It's more expensive than that one.|이츠 모어 익스펜시브 댄 댓 원|저것보다 더 비싸요}}{{ex:Do you have a bigger size?|두 유 해버 비거 사이즈?|더 큰 사이즈 있어요?}}
-<h3>최상급에는 the</h3>
-{{ex:This is the best restaurant here.|디스 이즈 더 베스트 레스토란트 히어|여기서 제일 좋은 식당이에요}}{{ex:Which is the cheapest?|위치 이즈 더 치피스트?|어느 게 제일 싸요?}}
-<div class="tip">가장 흔한 실수: <b>more cheaper</b>, <b>more good</b> (X) → <b>cheaper</b>, <b>better</b> (O). -er와 more는 같이 쓰지 않아요.</div>`,
-check:[["big의 비교급은?",["more big","biger","bigger","most big"],2,"짧은 단어는 -er, 끝 자음을 한 번 더 써요."],["This is ___ expensive than that. 빈칸에 알맞은 것은?",["more","most","much","very"],0,"긴 단어의 비교급은 more를 붙여요."],["good의 최상급은?",["the goodest","the most good","the better","the best"],3,"good – better – the best예요."]],
+["mc","I bought a shirt. ___ shirt is blue. ช่องว่างควรเติมคำใด","The","A","An","Some","เสื้อตัวที่เพิ่งพูดถึง จึงใช้คำนำหน้านาม the"],
+["mc","“สถานีอยู่ที่ไหน” ภาษาอังกฤษพูดว่าอย่างไร","Where's the station?","Where's a station?","Where's station?","Where the station?","สถานีแถวนี้ที่ทั้งสองฝ่ายรู้ จึงใช้ the"],
+["mc","ประโยคใดถูกต้อง","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","go to work และ by bus ไม่ใช้คำนำหน้านาม"],
+["mc","“แดดร้อน” ภาษาอังกฤษพูดว่าอย่างไร","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","สิ่งที่มีหนึ่งเดียวใช้ the"],
+["mc","“ฉันอยู่บ้าน” ภาษาอังกฤษพูดว่าอย่างไร","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","at home ไม่ใช้คำนำหน้านาม"],
+["or","ช่วยเปิดหน้าต่างหน่อยได้ไหม","Can you open the window","a windows","หน้าต่างที่ทั้งสองฝ่ายรู้ว่าบานไหน ใช้คำนำหน้านาม the"],
+["or","ฉันนั่งรถเมล์ไปทำงาน","I go to work by bus","the a","go to work และ by bus ไม่ใช้คำนำหน้านาม"],
+["or","หมาตัวนั้นตัวใหญ่ (ที่พูดถึงไปแล้ว)","The dog is big","A dogs","หมาตัวที่พูดถึงไปแล้ว จึงใช้คำนำหน้านาม the"],
+["fi","I saw a movie. __ movie was great.","ฉันดูหนังมาเรื่องหนึ่ง หนังเรื่องนั้นดีมาก","The","A|An|Some","หนังเรื่องที่เพิ่งพูดถึง จึงใช้ the"],
+["fi","Where's __ bathroom?","ห้องน้ำอยู่ที่ไหน","the","a|an|some","ห้องน้ำของที่นี่ที่ทั้งสองฝ่ายรู้ จึงใช้ the"],
+["fi","I have __ idea.","ฉันมีไอเดียอย่างหนึ่ง","an","a|the|some","พูดถึงครั้งแรกและขึ้นต้นด้วยเสียงสระ จึงใช้ an"],
+["ty","ช่วยปิดประตูหน่อยได้ไหม","Can you close the door|Could you close the door","can you · close · door — ใช้ the","a","ประตูที่ทั้งสองฝ่ายรู้ว่าบานไหน ใช้คำนำหน้านาม the"],
+["ty","สถานีอยู่ที่ไหน","Where is the station|Where's the station","where · station — ใช้ the","a","สถานีแถวนี้ที่ทั้งสองฝ่ายรู้ ใช้คำนำหน้านาม the"],
+["ty","ฉันอยู่บ้าน","I'm at home|I'm home","I'm · at · home — ไม่ใช้ the","the","home ไม่ใช้คำนำหน้านาม"]]},
+{ id:"adjectives", title:"คำคุณศัพท์และการเปรียบเทียบ: bigger, more expensive, the best", blurb:"คำคุณศัพท์วางหน้าคำนาม ขั้นกว่าใช้ -er / more ขั้นสูงสุดใช้ the -est / the most", deck:"ช้อปปิ้งและจ่ายเงิน", body:`
+<p>ภาษาไทยวางคำขยายไว้หลังคำนาม “กระเป๋าใบใหญ่” แต่ภาษาอังกฤษวาง <b>คำคุณศัพท์ไว้หน้าคำนาม</b>: <b>a big bag</b> และถ้าคำคุณศัพท์อยู่ท้ายประโยค ต้องมี Verb to be นำหน้าเสมอ: <b>This bag is big.</b> (ไม่ใช่ This bag big.) บทนี้เรียนการเปรียบเทียบที่ใช้บ่อยตอนช้อปปิ้งด้วย</p>
+{{ex:a big bag|/ə ˈbɪg ˈbæg/|กระเป๋าใบใหญ่}}{{ex:This bag is big.|/ˈðɪs ˈbæg ɪz ˈbɪg/|กระเป๋าใบนี้ใหญ่}}{{ex:It's too small.|/ɪts ˈtuː ˈsmɔːl/|เล็กเกินไป}}
+<h3>ขั้นกว่า: -er หรือ more</h3>
+<p>คำว่า “กว่า” ภาษาอังกฤษทำได้สองแบบ คำสั้นเติม <b>-er</b> คำยาวใส่ <b>more</b> ข้างหน้า และ “กว่า…” ที่ตามด้วยสิ่งที่เทียบใช้ <b>than</b></p>
+<div class="tbl"><table><tr><th>รูปปกติ</th><th>ขั้นกว่า</th><th>ขั้นสูงสุด</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
+{{ex:This one is cheaper.|/ˈðɪs ˈwʌn ɪz ˈtʃiːpər/|อันนี้ถูกกว่า}}{{ex:It's more expensive than that one.|/ɪts ˈmɔːr ɪkˈspensɪv ðən ˈðæt ˈwʌn/|อันนี้แพงกว่าอันนั้น}}{{ex:Do you have a bigger size?|/də ju ˈhæv ə ˈbɪgər ˈsaɪz/|มีไซซ์ใหญ่กว่านี้ไหม}}
+<h3>ขั้นสูงสุดใช้ the</h3>
+<p>“ที่สุด” ใช้ <b>the</b> + -est หรือ <b>the most</b> เพราะของที่ดีที่สุดมีอยู่หนึ่งเดียว</p>
+{{ex:This is the best restaurant here.|/ˈðɪs ɪz ðə ˈbest ˈrestərɑːnt ˈhɪr/|นี่คือร้านอาหารที่ดีที่สุดแถวนี้}}{{ex:Which is the cheapest?|/ˈwɪtʃ ɪz ðə ˈtʃiːpɪst/|อันไหนถูกที่สุด}}
+<div class="tip">ข้อผิดพลาดที่พบบ่อย: <b>more cheaper</b> / <b>more good</b> ✗ → <b>cheaper</b> / <b>better</b> ✓ ใช้ -er หรือ more อย่างใดอย่างหนึ่งเท่านั้น</div>`,
+check:[["ขั้นกว่าของ big",["more big","biger","bigger","most big"],2,"big ลงท้ายด้วยสระเดี่ยว + พยัญชนะตัวเดียว จึงเพิ่ม g อีกตัวก่อนเติม -er: bigger"],["This is ___ expensive than that. ช่องว่างควรเติมคำใด",["more","most","much","very"],0,"คำยาวทำขั้นกว่าด้วย more"],["ขั้นสูงสุดของ good",["the goodest","the most good","the better","the best"],3,"good เปลี่ยนรูปพิเศษ: good – better – the best"]],
 practice:[
-["mc","cheap의 비교급은?","cheaper","more cheap","cheapper","most cheap","짧은 단어는 -er를 붙여요."],
-["mc","'이게 더 비싸요' =","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","긴 단어는 more를 붙여요."],
-["mc","'더 큰 사이즈 있어요?' =","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","관사 + 형용사 + 명사 순서예요."],
-["mc","good의 비교급은?","better","gooder","more good","best","good – better – best예요."],
-["mc","'여기가 제일 좋은 식당이에요' =","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","최상급 앞에는 the를 붙여요."],
-["or","더 큰 사이즈 있어요?","Do you have a bigger size","the sizes","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["or","이게 제일 싸요","This is the cheapest","a cheaper","최상급 앞에는 관사 the를 붙여요."],
-["or","이게 저것보다 싸요","This is cheaper than that","more","-er 형용사에는 more를 붙이지 않아요."],
-["fi","It's __ small.","너무 작아요","too","much|more|most","'너무'는 too예요."],
-["fi","This is cheaper __ that one.","이게 저것보다 싸요","than","then|that|more","'~보다'는 than이에요."],
-["fi","It's the __ expensive one.","제일 비싼 거예요","most","more|much|very","긴 단어의 최상급은 the most예요."],
-["ty","더 작은 사이즈 있어요?","Do you have a smaller size","smaller · size — 관사 a","the","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["ty","이게 제일 좋아요","This is the best|This one is the best","the · best — 관사 the","a","최상급 앞에는 관사 the를 붙여요."],
-["ty","이게 더 싸요","This is cheaper|This one is cheaper","cheap — 비교급","more","짧은 단어는 -er를 붙여요."]]},
-{ id:"going-to", title:"계획 말하기: be going to", blurb:"이미 마음먹은 일은 be going to + 동사.", deck:"스몰토크", body:`
-<p>'~할 거예요'처럼 <b>미리 정한 계획</b>을 말할 때 써요. 틀은 <b>be + going to + 동사원형</b>이에요.</p>
-{{ex:I'm going to visit Busan.|아임 고잉 투 비짓 부산|저는 부산에 갈 거예요}}{{ex:She's going to buy a car.|쉬즈 고잉 투 바이 어 카|그녀는 차를 살 거예요}}{{ex:We're going to have dinner.|위어 고잉 투 해브 디너|우리는 저녁을 먹을 거예요}}
-<h3>부정과 질문</h3>
-{{ex:I'm not going to go.|아임 낫 고잉 투 고|저는 안 갈 거예요}}{{ex:Are you going to come?|아 유 고잉 투 컴?|올 거예요?}}{{ex:What are you going to do this weekend?|왓 아 유 고잉 투 두 디스 위켄드?|이번 주말에 뭐 할 거예요?}}
-<h3>보이는 대로 예상할 때도</h3>
-{{ex:It's going to rain.|이츠 고잉 투 레인|비가 올 거예요}}
-<h3>함께 쓰는 시간 표현</h3>
-<p>tomorrow(내일), tonight(오늘 밤), this weekend(이번 주말), next week(다음 주)를 문장 끝에 붙여요.</p>
-<div class="tip">말할 때는 going to가 <b>gonna(거나)</b>처럼 들려요. 그리고 be동사를 빼먹지 마세요: <b>I going to go.</b> (X) → <b>I'm going to go.</b> (O)</div>`,
-check:[["'내일 친구를 만날 거예요'를 영어로 하면?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + 동사원형이에요."],["She ___ going to study. 빈칸에 알맞은 것은?",["am","are","is","be"],2,"she에는 is예요."],["'주말에 뭐 할 거예요?'를 영어로 하면?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"의문사 + be + 주어 + going to예요."]],
+["mc","ขั้นกว่าของ cheap","cheaper","more cheap","cheapper","most cheap","คำสั้นเติม -er"],
+["mc","“อันนี้แพงกว่า” ภาษาอังกฤษพูดว่าอย่างไร","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","คำยาวใช้ more"],
+["mc","“มีไซซ์ใหญ่กว่านี้ไหม” ภาษาอังกฤษพูดว่าอย่างไร","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","เรียงเป็น คำนำหน้านาม + คำคุณศัพท์ + คำนาม"],
+["mc","ขั้นกว่าของ good","better","gooder","more good","best","good เปลี่ยนรูปพิเศษ: good – better – best"],
+["mc","“ที่นี่คือร้านอาหารที่ดีที่สุด” ภาษาอังกฤษพูดว่าอย่างไร","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","ขั้นสูงสุดต้องมี the นำหน้า"],
+["or","มีไซซ์ใหญ่กว่านี้ไหม","Do you have a bigger size","the sizes","ถามหาไซซ์ไหนก็ได้หนึ่งไซซ์ จึงใช้คำนำหน้านาม a"],
+["or","อันนี้ถูกที่สุด","This is the cheapest","a cheaper","ขั้นสูงสุดต้องมีคำนำหน้านาม the"],
+["or","อันนี้ถูกกว่าอันนั้น","This is cheaper than that","more","คำที่เติม -er แล้วไม่ต้องใส่ more"],
+["fi","It's __ small.","เล็กเกินไป","too","much|more|most","“เกินไป” ใช้ too"],
+["fi","This is cheaper __ that one.","อันนี้ถูกกว่าอันนั้น","than","then|that|more","“กว่า…” ใช้ than"],
+["fi","It's the __ expensive one.","อันนี้แพงที่สุด","most","more|much|very","ขั้นสูงสุดของคำยาวใช้ the most"],
+["ty","มีไซซ์เล็กกว่านี้ไหม","Do you have a smaller size","smaller · size — ใช้ a","the","ถามหาไซซ์ไหนก็ได้หนึ่งไซซ์ จึงใช้คำนำหน้านาม a"],
+["ty","อันนี้ดีที่สุด","This is the best|This one is the best","the · best — ใช้ the","a","ขั้นสูงสุดต้องมีคำนำหน้านาม the"],
+["ty","อันนี้ถูกกว่า","This is cheaper|This one is cheaper","cheap — ขั้นกว่า","more","คำสั้นเติม -er"]]},
+{ id:"going-to", title:"พูดถึงแผน: be going to", blurb:"สิ่งที่ตัดสินใจไว้แล้วใช้ be going to + กริยาช่อง 1", deck:"คุยเล่น", body:`
+<p>ภาษาไทยใช้ “จะ” กับอนาคตทุกแบบ แต่ภาษาอังกฤษมีหลายรูป เมื่อพูดถึง <b>แผนที่ตัดสินใจไว้แล้ว</b> ใช้ <b>be + going to + กริยาช่อง 1</b> (ส่วน will จะได้เรียนภายหลัง)</p>
+{{ex:I'm going to visit Chiang Mai.|/aɪm ˈgoʊɪŋ tə ˈvɪzɪt ˌtʃɑːŋ ˈmaɪ/|ฉันจะไปเที่ยวเชียงใหม่}}{{ex:She's going to buy a car.|/ʃiz ˈgoʊɪŋ tə ˈbaɪ ə ˈkɑːr/|เธอจะซื้อรถ}}{{ex:We're going to have dinner.|/wɪr ˈgoʊɪŋ tə ˈhæv ˈdɪnər/|เราจะไปกินข้าวเย็นกัน}}
+<h3>ปฏิเสธและคำถาม</h3>
+<p>เติม not หลัง am / is / are และย้าย am / is / are ไปไว้หน้าประธานเมื่อเป็นคำถาม เหมือนประโยคที่มี Verb to be ทั่วไป</p>
+{{ex:I'm not going to go.|/aɪm ˈnɑːt ˈgoʊɪŋ tə ˈgoʊ/|ฉันจะไม่ไป}}{{ex:Are you going to come?|/ər ju ˈgoʊɪŋ tə ˈkʌm/|จะมาไหม}}{{ex:What are you going to do this weekend?|/ˈwʌt ər ju ˈgoʊɪŋ tə ˈduː ˈðɪs ˈwiːkend/|สุดสัปดาห์นี้จะทำอะไร}}
+<h3>คาดการณ์จากสิ่งที่เห็นอยู่ตรงหน้า</h3>
+<p>เห็นเมฆดำแล้วรู้ว่าฝนจะตก ก็ใช้ going to ได้เช่นกัน</p>
+{{ex:It's going to rain.|/ɪts ˈgoʊɪŋ tə ˈreɪn/|ฝนจะตกแล้ว}}
+<h3>คำบอกเวลาที่ใช้คู่กัน</h3>
+<p>tomorrow (พรุ่งนี้) tonight (คืนนี้) this weekend (สุดสัปดาห์นี้) next week (สัปดาห์หน้า) มักวางไว้ท้ายประโยค แต่คำบอกเวลาไม่ได้แทน Tense ต้องมี going to หรือ will ด้วยเสมอ: <b>Tomorrow I go to Phuket.</b> ✗ → <b>Tomorrow I'm going to go to Phuket.</b> ✓</p>
+<div class="tip">เวลาพูดเร็ว going to มักออกเสียงเป็น <b>gonna</b> และอย่าลืม Verb to be: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
+check:[["“พรุ่งนี้ฉันจะไปเจอเพื่อน” ภาษาอังกฤษพูดว่าอย่างไร",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + กริยาช่อง 1"],["She ___ going to study. ช่องว่างควรเติมคำใด",["am","are","is","be"],2,"she ใช้ is"],["“สุดสัปดาห์นี้จะทำอะไร” ภาษาอังกฤษพูดว่าอย่างไร",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"คำแสดงคำถาม + be + ประธาน + going to"]],
 practice:[
-["mc","'저는 부산에 갈 거예요' =","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + 동사원형이에요."],
-["mc","They ___ going to come.","are","is","am","be","they에는 are예요."],
-["mc","'비가 올 거예요' =","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to 뒤에는 동사원형이 와요."],
-["mc","'저는 안 갈 거예요' =","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be동사 뒤에 not을 넣어요."],
-["mc","'올 거예요?' =","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","be동사를 앞으로 보내요."],
-["or","그녀는 차를 살 거예요","She's going to buy a car","the cars","차 한 대라서 관사 a와 단수 car예요."],
-["or","저는 친구들을 만날 거예요","I'm going to meet my friends","friend","여러 명이라 복수 friends예요."],
-["or","우리는 저녁을 먹을 거예요","We're going to have dinner","a","식사 이름 dinner에는 관사를 쓰지 않아요."],
-["fi","I'm going __ study tonight.","오늘 밤에 공부할 거예요","to","for|at|will","going to + 동사원형이에요."],
-["fi","__ you going to come?","올 거예요?","Are","Do|Is|Will","you에는 Are예요."],
-["fi","It's going to __ tomorrow.","내일 비가 올 거예요","rain","rains|raining|rained","going to 뒤에는 동사원형이 와요."],
-["ty","저는 영화를 볼 거예요","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","뭐 할 거예요?","What are you going to do","what · going to · do","will","계획을 물을 때는 be going to예요."],
-["ty","저는 친구들을 만날 거예요","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"joining", title:"문장 잇기: and, but, or, so, because", blurb:"짧은 문장 두 개를 하나로. so와 because는 순서가 반대예요.", deck:"감정·반응", body:`
-<p>짧은 문장만 말하면 뚝뚝 끊겨요. 이 다섯 단어로 문장을 이으면 훨씬 자연스러워요.</p>
+["mc","“ฉันจะไปปูซาน” ภาษาอังกฤษพูดว่าอย่างไร","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + กริยาช่อง 1"],
+["mc","They ___ going to come. ช่องว่างควรเติมคำใด","are","is","am","be","they ใช้ are"],
+["mc","“ฝนจะตกแล้ว” ภาษาอังกฤษพูดว่าอย่างไร","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","หลัง going to ใช้กริยาช่อง 1"],
+["mc","“ฉันจะไม่ไป” ภาษาอังกฤษพูดว่าอย่างไร","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","เติม not หลัง Verb to be"],
+["mc","“จะมาไหม” ภาษาอังกฤษพูดว่าอย่างไร","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","ย้าย Verb to be ไปไว้หน้าประธาน"],
+["or","เธอจะซื้อรถ","She's going to buy a car","the cars","รถหนึ่งคันใช้คำนำหน้านาม a และ car ไม่เติม -s"],
+["or","ฉันจะไปเจอเพื่อน ๆ ของฉัน","I'm going to meet my friends","friend","เพื่อนหลายคนจึงใช้รูปพหูพจน์ friends"],
+["or","เราจะไปกินข้าวเย็นกัน","We're going to have dinner","a","ชื่อมื้ออาหารอย่าง dinner ไม่ใช้คำนำหน้านาม"],
+["fi","I'm going __ study tonight.","คืนนี้ฉันจะอ่านหนังสือ","to","for|at|will","going to + กริยาช่อง 1"],
+["fi","__ you going to come?","จะมาไหม","Are","Do|Is|Will","you ใช้ Are"],
+["fi","It's going to __ tomorrow.","พรุ่งนี้ฝนจะตก","rain","rains|raining|rained","หลัง going to ใช้กริยาช่อง 1"],
+["ty","ฉันตั้งใจจะดูหนังหนึ่งเรื่อง (ใช้ going to)","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — ใช้ a","the","หนังเรื่องไหนก็ได้หนึ่งเรื่อง จึงใช้คำนำหน้านาม a"],
+["ty","ตั้งใจจะทำอะไร (ใช้ going to)","What are you going to do","what · going to · do","will","ถามถึงแผนใช้ be going to"],
+["ty","ฉันตั้งใจจะไปเจอเพื่อน ๆ ของฉัน (ใช้ going to)","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — หลายคน","friend","เพื่อนหลายคนจึงใช้รูปพหูพจน์ friends"]]},
+{ id:"joining", title:"เชื่อมประโยค: and, but, or, so, because", blurb:"รวมประโยคสั้นสองประโยคเป็นหนึ่งเดียว และใช้คำเชื่อมทีละคำ ไม่ใช้เป็นคู่แบบภาษาไทย", deck:"ความรู้สึกและปฏิกิริยา", body:`
+<p>พูดแต่ประโยคสั้น ๆ จะฟังขาดเป็นช่วง ๆ ใช้คำสันธาน (คำเชื่อม) ห้าคำนี้ต่อประโยคเข้าด้วยกันจะฟังเป็นธรรมชาติขึ้นมาก</p>
 <h3>and, but, or</h3>
-{{ex:I like coffee and tea.|아이 라익 커피 앤 티|저는 커피와 차를 좋아해요}}{{ex:I'm tired but happy.|아임 타이어드 벗 해피|피곤하지만 행복해요}}{{ex:Coffee or tea?|커피 오어 티?|커피 아니면 차?}}
-<h3>so: 그래서</h3>
-<p><b>이유 + so + 결과</b> 순서예요. 한국어 '~해서'와 순서가 같아요.</p>
-{{ex:I was tired, so I went home.|아이 워즈 타이어드 쏘 아이 웬 홈|피곤해서 집에 갔어요}}
-<h3>because: 왜냐하면</h3>
-<p><b>결과 + because + 이유</b> 순서예요. 한국어와 반대라서 주의해요.</p>
-{{ex:I went home because I was tired.|아이 웬 홈 비코즈 아이 워즈 타이어드|피곤해서 집에 갔어요}}{{ex:I stayed home because it was raining.|아이 스테이드 홈 비코즈 잇 워즈 레이닝|비가 와서 집에 있었어요}}
-<h3>too: ~도</h3>
-{{ex:I like it too.|아이 라이킷 투|저도 좋아해요}}
-<div class="tip">so와 because를 한 문장에 같이 쓰지 않아요: <b>Because I was tired, so I went home.</b> (X). 둘 중 하나만 고르세요.</div>`,
-check:[["I was sick, ___ I stayed home. 빈칸에 알맞은 것은?",["because","but","so","or"],2,"이유 다음에 결과가 오면 so예요."],["I stayed home ___ I was sick. 빈칸에 알맞은 것은?",["because","so","but","and"],0,"결과 다음에 이유가 오면 because예요."],["'커피 드실래요, 차 드실래요?'에 알맞은 말은?",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"둘 중 하나를 고를 때는 or예요."]],
+{{ex:I like coffee and tea.|/aɪ ˈlaɪk ˈkɔːfi ənd ˈtiː/|ฉันชอบกาแฟและชา}}{{ex:I'm tired but happy.|/aɪm ˈtaɪərd bət ˈhæpi/|เหนื่อยแต่มีความสุข}}{{ex:Coffee or tea?|/ˈkɔːfi ər ˈtiː/|กาแฟหรือชา}}
+<h3>so: ก็เลย / จึง</h3>
+<p>เรียงเป็น <b>เหตุ + so + ผล</b> เหมือน “…ก็เลย…” ในภาษาไทย</p>
+{{ex:I was tired, so I went home.|/aɪ wəz ˈtaɪərd soʊ aɪ ˈwent ˈhoʊm/|ฉันเหนื่อยก็เลยกลับบ้าน}}
+<h3>because: เพราะ</h3>
+<p>เรียงเป็น <b>ผล + because + เหตุ</b> เหมือน “…เพราะ…” ในภาษาไทย</p>
+{{ex:I went home because I was tired.|/aɪ ˈwent ˈhoʊm bɪkəz aɪ wəz ˈtaɪərd/|ฉันกลับบ้านเพราะเหนื่อย}}{{ex:I stayed home because it was raining.|/aɪ ˈsteɪd ˈhoʊm bɪkəz ɪt wəz ˈreɪnɪŋ/|ฉันอยู่บ้านเพราะฝนตก}}
+<h3>คำเชื่อมเป็นคู่ของภาษาไทย ภาษาอังกฤษใช้แค่คำเดียว</h3>
+<p>ภาษาไทยชอบใช้คำเชื่อมเป็นคู่ เช่น “<b>เพราะ</b>เหนื่อย <b>จึง</b>กลับบ้าน” หรือ “<b>ถึงแม้</b>ฝนตก <b>แต่</b>ฉันก็ไป” ภาษาอังกฤษเลือกได้แค่คำเดียว: because <b>หรือ</b> so และ although <b>หรือ</b> but</p>
+<h3>too: ด้วย</h3>
+{{ex:I like it too.|/aɪ ˈlaɪk ɪt ˈtuː/|ฉันก็ชอบเหมือนกัน}}
+<div class="tip">ห้ามใช้ because กับ so ในประโยคเดียวกัน: <b>Because I was tired, so I went home.</b> ✗ → <b>I was tired, so I went home.</b> ✓ ในทำนองเดียวกัน <b>Although it rained, but I went.</b> ✗</div>`,
+check:[["I was sick, ___ I stayed home. ช่องว่างควรเติมคำใด",["because","but","so","or"],2,"เหตุมาก่อนแล้วตามด้วยผล ใช้ so"],["I stayed home ___ I was sick. ช่องว่างควรเติมคำใด",["because","so","but","and"],0,"ผลมาก่อนแล้วตามด้วยเหตุ ใช้ because"],["“รับกาแฟหรือชา” พูดว่าอย่างไร",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"ให้เลือกอย่างใดอย่างหนึ่งใช้ or"]],
 practice:[
-["mc","I like dogs ___ I don't like cats.","but","so","or","because","반대되는 내용은 but으로 이어요."],
-["mc","I was hungry, ___ I ate a sandwich.","so","because","but","or","이유 다음에 결과가 오면 so예요."],
-["mc","I ate a sandwich ___ I was hungry.","because","so","but","or","결과 다음에 이유가 오면 because예요."],
-["mc","'커피 아니면 차?' =","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","둘 중 하나는 or예요."],
-["mc","'피곤하지만 행복해요' =","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","'~지만'은 but이에요."],
-["or","저는 고양이와 개를 좋아해요","I like cats and dogs","cat dog","동물 전체는 복수 cats, dogs로 말해요."],
-["or","커피 한 잔이랑 샌드위치 하나 주세요","A coffee and a sandwich please","the or","하나씩 주문하니까 각각 관사 a를 붙여요."],
-["or","배고파서 먹었어요","I was hungry so I ate","because","이유 다음에 결과가 오면 so예요."],
-["fi","I'm tired __ happy.","피곤하지만 행복해요","but","so|because|or","'~지만'은 but이에요."],
-["fi","I stayed home __ it was raining.","비가 와서 집에 있었어요","because","so|but|or","결과 다음에 이유가 오면 because예요."],
-["fi","Coffee __ tea?","커피 아니면 차?","or","so|but|because","둘 중 하나는 or예요."],
-["ty","저는 커피와 차를 좋아해요","I like coffee and tea","like · coffee · and · tea — 관사 없이","a","일반적인 coffee, tea에는 관사를 붙이지 않아요."],
-["ty","피곤하지만 행복해요","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","'~지만'은 but이에요."],
-["ty","저는 개와 고양이를 좋아해요","I like dogs and cats|I like cats and dogs","dog · and · cat — 복수","dog","동물 전체는 복수 dogs, cats로 말해요."]]},
+["mc","I like dogs ___ I don't like cats. ช่องว่างควรเติมคำใด","but","so","or","because","เนื้อหาที่ขัดกันเชื่อมด้วย but"],
+["mc","I was hungry, ___ I ate a sandwich. ช่องว่างควรเติมคำใด","so","because","but","or","เหตุมาก่อนแล้วตามด้วยผล ใช้ so"],
+["mc","I ate a sandwich ___ I was hungry. ช่องว่างควรเติมคำใด","because","so","but","or","ผลมาก่อนแล้วตามด้วยเหตุ ใช้ because"],
+["mc","“กาแฟหรือชา” ภาษาอังกฤษพูดว่าอย่างไร","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","ให้เลือกอย่างใดอย่างหนึ่งใช้ or"],
+["mc","“เหนื่อยแต่มีความสุข” ภาษาอังกฤษพูดว่าอย่างไร","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","“แต่” ใช้ but"],
+["or","ฉันชอบแมวและหมา","I like cats and dogs","cat dog","พูดถึงสัตว์ทั่วไปใช้รูปพหูพจน์ cats และ dogs"],
+["or","ขอกาแฟหนึ่งแก้วกับแซนด์วิชหนึ่งชิ้น","A coffee and a sandwich please","the or","สั่งอย่างละหนึ่งจึงใช้คำนำหน้านาม a กับทั้งสองคำ"],
+["or","ฉันหิวก็เลยกิน","I was hungry so I ate","because","เหตุมาก่อนแล้วตามด้วยผล ใช้ so"],
+["fi","I'm tired __ happy.","เหนื่อยแต่มีความสุข","but","so|because|or","“แต่” ใช้ but"],
+["fi","I stayed home __ it was raining.","ฉันอยู่บ้านเพราะฝนตก","because","so|but|or","ผลมาก่อนแล้วตามด้วยเหตุ ใช้ because"],
+["fi","Coffee __ tea?","กาแฟหรือชา","or","so|but|because","ให้เลือกอย่างใดอย่างหนึ่งใช้ or"],
+["ty","ฉันชอบกาแฟและชา","I like coffee and tea","like · coffee · and · tea — ไม่ใช้ a","a","coffee และ tea ที่พูดถึงทั่วไปไม่ใช้คำนำหน้านาม"],
+["ty","เหนื่อยแต่มีความสุข","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","“แต่” ใช้ but"],
+["ty","ฉันชอบหมาและแมว","I like dogs and cats|I like cats and dogs","dog · and · cat — สัตว์ทั่วไป","dog","พูดถึงสัตว์ทั่วไปใช้รูปพหูพจน์ dogs และ cats"]]},
+{ id:"tinglish", title:"ภาษาอังกฤษแบบไทย: คำที่คนไทยพลาดบ่อย", blurb:"close the light หรือ check bill คนไทยฟังเข้าใจ แต่เวลาคุยกับชาวต่างชาติให้พูดแบบเจ้าของภาษา", deck:"กับดักภาษาอังกฤษแบบไทย", body:`
+<p>ภาษาอังกฤษแบบไทย (Tinglish) หลายคำไม่ได้ผิดไวยากรณ์ แต่เกิดจากการแปลคำไทยทีละคำ ในประเทศไทยทุกคนฟังเข้าใจ เพราะคิดจากภาษาไทยเหมือนกัน แต่เจ้าของภาษาหรือคนในต่างประเทศอาจงง บทนี้รวมคำที่เจอบ่อยที่สุด พร้อมคำที่ควรพูดแทน</p>
+<h3>กริยาที่แปลตรงตัวจากภาษาไทย</h3>
+<div class="tbl"><table><tr><th>ภาษาไทย</th><th>แบบไทย ✗</th><th>เจ้าของภาษาพูด ✓</th></tr><tr><td>เปิดไฟ / ปิดไฟ</td><td>open / close the light</td><td class="k">turn on / turn off the light</td></tr><tr><td>ไปช้อปปิ้ง</td><td>go to shopping</td><td class="k">go shopping</td></tr><tr><td>เล่นมือถือ เล่นเฟซบุ๊ก</td><td>play phone / play Facebook</td><td class="k">be on my phone / be on Facebook</td></tr><tr><td>เช็กบิล</td><td>Check bill!</td><td class="k">Check, please. / Can I get the check?</td></tr></table></div>
+<p>เปิด / ปิด ประตูและหน้าต่างใช้ open / close แต่ไฟและเครื่องใช้ไฟฟ้าใช้ turn on / turn off และอย่าลืมคำนำหน้านาม the หน้า light เพราะทุกคนรู้ว่าหมายถึงไฟดวงไหน</p>
+{{ex:Turn on the light.|/ˈtɜːrn ˈɑːn ðə ˈlaɪt/|เปิดไฟ}}{{ex:Turn off the light.|/ˈtɜːrn ˈɔːf ðə ˈlaɪt/|ปิดไฟ}}{{ex:I go shopping on weekends.|/aɪ ˈgoʊ ˈʃɑːpɪŋ ɑːn ˈwiːkendz/|ฉันไปช้อปปิ้งทุกสุดสัปดาห์}}{{ex:I'm on my phone.|/aɪm ɑːn maɪ ˈfoʊn/|ฉันกำลังเล่นมือถือ}}{{ex:Check, please.|/ˈtʃek ˈpliːz/|เช็กบิลด้วย}}
+<h3>คำที่คนไทยใช้ แต่เจ้าของภาษาไม่ใช้</h3>
+<div class="tbl"><table><tr><th>แบบไทย ✗</th><th>เจ้าของภาษาพูด ✓</th></tr><tr><td>same same</td><td class="k">It's the same. / They're similar. / Same here.</td></tr><tr><td>go to fitness</td><td class="k">go to the gym</td></tr><tr><td>American share</td><td class="k">split the bill</td></tr><tr><td>hi-so</td><td class="k">fancy / upscale (สถานที่) · posh (คน)</td></tr></table></div>
+{{ex:It's the same.|/ɪts ðə ˈseɪm/|เหมือนกันเลย}}{{ex:Same here.|/ˈseɪm ˈhɪr/|ฉันก็เหมือนกัน}}{{ex:I'm going to the gym.|/aɪm ˈgoʊɪŋ tə ðə ˈdʒɪm/|ฉันจะไปยิม}}{{ex:Let's split the bill.|/ˈlets ˈsplɪt ðə ˈbɪl/|หารกันเถอะ}}
+<h3>bored กับ boring</h3>
+<p>“ฉันเบื่อ” แปลว่า <b>I'm bored.</b> ไม่ใช่ I'm boring. ซึ่งแปลว่า “ฉันเป็นคนน่าเบื่อ” กฎง่าย ๆ คือ ความรู้สึกของเราใช้ <b>-ed</b> (bored interested tired) ส่วนสิ่งที่ทำให้เรารู้สึกแบบนั้นใช้ <b>-ing</b> (boring interesting)</p>
+{{ex:I'm bored.|/aɪm ˈbɔːrd/|ฉันเบื่อ}}{{ex:This movie is boring.|/ˈðɪs ˈmuːvi ɪz ˈbɔːrɪŋ/|หนังเรื่องนี้น่าเบื่อ}}{{ex:I'm interested in music.|/aɪm ˈɪntrəstɪd ɪn ˈmjuːzɪk/|ฉันสนใจดนตรี}}
+<h3>ตอบคำถามปฏิเสธ</h3>
+<p>ภาษาไทยตอบ “ใช่” เมื่อเห็นด้วยกับคำพูดของอีกฝ่าย เช่น “ไม่ได้ไปเหรอ” — “ใช่ ไม่ได้ไป” แต่ภาษาอังกฤษตอบตามข้อเท็จจริง ถ้าไม่ได้ไปต้องตอบ <b>No</b> เสมอ: You didn't go? — <b>No, I didn't.</b></p>
+{{ex:No, I didn't.|/ˈnoʊ aɪ ˈdɪdnt/|เปล่า ไม่ได้ไป}}
+<h3>“นะ” “ครับ” “ค่ะ” ไม่มีในภาษาอังกฤษ</h3>
+<p>คำลงท้ายเหล่านี้ใส่ในประโยคภาษาอังกฤษไม่ได้ ความสุภาพหรือความนุ่มนวลแบบ “นะ” ให้ใช้ please หรือ OK? แทน: <b>Call to me na.</b> ✗ → <b>Call me, OK?</b> ✓</p>
+{{ex:Call me, OK?|/ˈkɔːl mi oʊˈkeɪ/|โทรหาฉันนะ}}
+<div class="tip">ใช้ภาษาอังกฤษแบบไทยกับเพื่อนคนไทยได้ไม่ผิดอะไร แต่เวลาคุยกับลูกค้าหรือเพื่อนชาวต่างชาติ ให้เลือกแบบเจ้าของภาษา: <b>close the light</b> ✗ → <b>turn off the light</b> ✓ / <b>I'm boring.</b> ✗ → <b>I'm bored.</b> ✓</div>`,
+check:[["“เปิดไฟหน่อยได้ไหม” ภาษาอังกฤษพูดว่าอย่างไร",["Can you open the light?","Can you turn on the light?","Can you open light?","Can you turn open the light?"],1,"ไฟใช้ turn on ส่วน open ใช้กับประตูและหน้าต่าง และไฟดวงที่ทั้งสองคนรู้ต้องมีคำนำหน้านาม the"],["“ฉันเบื่อมาก” ภาษาอังกฤษพูดว่าอย่างไร",["I'm very boring.","I very bored.","I'm boring very.","I'm very bored."],3,"ความรู้สึกของเราใช้ bored ส่วน boring แปลว่าน่าเบื่อ"],["เพื่อนถามว่า You didn't eat? ถ้ายังไม่ได้กินจริง ๆ ตอบว่าอย่างไร",["No, I didn't.","Yes, I didn't.","Yes, I did.","No, I did."],0,"ภาษาอังกฤษตอบตามข้อเท็จจริง ไม่ได้กินจึงตอบ No, I didn't."]],
+practice:[
+["mc","“เหมือนกันเลย” ภาษาอังกฤษพูดว่าอย่างไร","It's the same.","Same same.","It's same same.","It's a same.","เจ้าของภาษาพูด same คำเดียว และมี the นำหน้า"],
+["mc","“ฉันเบื่อ” ภาษาอังกฤษพูดว่าอย่างไร","I'm bored.","I'm boring.","I bored.","I'm bore.","ความรู้สึกของเราใช้ bored ส่วน I'm boring แปลว่าฉันเป็นคนน่าเบื่อ"],
+["mc","อยากเช็กบิลที่ร้านอาหาร พูดว่าอย่างไร","Check, please.","Check bill!","Bill check, please.","Check the bill me.","check bill เป็นภาษาอังกฤษแบบไทย เจ้าของภาษาพูดว่า Check, please."],
+["mc","“ฉันไปช้อปปิ้ง” ภาษาอังกฤษพูดว่าอย่างไร","I go shopping.","I go to shopping.","I go to shop shopping.","I going shopping.","กิจกรรมที่ลงท้ายด้วย -ing ใช้ go ตรง ๆ ไม่มี to"],
+["mc","เพื่อนถามว่า You didn't go? ถ้าไม่ได้ไปจริง ๆ ตอบว่าอย่างไร","No, I didn't.","Yes, I didn't.","Yes, I did not go.","No, I did.","ภาษาอังกฤษตอบตามข้อเท็จจริง ไม่ได้ไปจึงตอบ No"],
+["or","ปิดไฟหน่อย","Turn off the light","a","ไฟดวงที่ทั้งสองคนรู้ ใช้คำนำหน้านาม the และใช้ turn off ไม่ใช่ close"],
+["or","เราหารค่าอาหารกัน","We split the bill","a","บิลของมื้อนี้ที่รู้กันอยู่ ใช้คำนำหน้านาม the"],
+["or","หนังเรื่องนี้น่าเบื่อ","This movie is boring","bored","สิ่งที่ทำให้เบื่อใช้ boring ส่วน bored ใช้กับความรู้สึกของคน"],
+["or","ฉันไปยิม (เป็นประจำ)","I go to the gym","fitness gyms","ยิมที่ไปประจำใช้คำนำหน้านาม the และ gym ไม่เติม -s ส่วน fitness ไม่ได้แปลว่ายิม"],
+["fi","Can you turn __ the TV?","เปิดทีวีหน่อยได้ไหม","on","open|at|to","เครื่องใช้ไฟฟ้าใช้ turn on ไม่ใช่ open"],
+["fi","I'm __ in Thai food.","ฉันสนใจอาหารไทย","interested","interesting|interest|interests","ความรู้สึกของเราใช้ interested ส่วน interesting แปลว่าน่าสนใจ"],
+["fi","I go __ every Saturday.","ฉันไปช้อปปิ้งทุกวันเสาร์","shopping","to shopping|to shop|shoppings","go shopping ไม่มี to"],
+["ty","ฉันไปช้อปปิ้งทุกสุดสัปดาห์ (ใช้ on)","I go shopping on weekends|I go shopping on the weekends","go shopping · on · weekend — ทุกสุดสัปดาห์","weekend","on weekends ต้องเป็นรูปพหูพจน์ และไม่มี to หน้า shopping"],
+["ty","ขอเช็กบิลหน่อย","Can I get the check|Can we get the check|Could I get the check|Could we get the check|Can I have the check|Can we have the check|Check, please|The check, please|Can I get the check, please|Can we get the check, please|Could we get the check, please|Could I get the check, please|Can I have the check, please|Can we have the check, please|Could I have the check|Could we have the check","can I get · check — ใช้ the","a","the check คือบิลของโต๊ะนี้ ใช้คำนำหน้านาม the"],
+["ty","ฉันเบื่อ","I'm bored","bored / boring — ความรู้สึกของเรา","boring","ความรู้สึกของเราใช้ bored"],
+["ty","เปิดไฟหน่อยได้ไหม","Can you turn on the light|Could you turn on the light|Can you turn the light on|Could you turn the light on|Can you turn on the lights|Could you turn on the lights|Can you turn the lights on|Could you turn the lights on|Turn on the light, please|Please turn on the light|Can you turn on the light, please|Could you turn on the light, please|Can you turn the light on, please|Could you turn the light on, please","can you · turn on · light — ใช้ the","open","ไฟดวงที่ทั้งสองคนรู้ใช้คำนำหน้านาม the และไฟใช้ turn on ไม่ใช่ open"]]},
 ];

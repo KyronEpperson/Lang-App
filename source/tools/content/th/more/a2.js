@@ -1,8 +1,4 @@
-/* TRANSLATE/ADAPT (th): scaffolded from tools/content/ko/more/a2.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for th speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the th point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage A2: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* th-en stage A2: new lessons, plus the th-only time-markers. English side shared with ko-en (parity.js); shorthand is expanded by _dsl.js. */
 module.exports = [
 { id:"past-continuous", title:"กำลังทำอยู่ในอดีต: was / were + -ing", blurb:"สิ่งที่กำลังทำอยู่ในตอนนั้น ใช้ปูฉากหลังของเรื่องเล่า", deck:"ความรู้สึกและปฏิกิริยา", body:`
 <p>ใช้พูดถึงสิ่งที่<b>กำลังทำอยู่ ณ ช่วงเวลาหนึ่งในอดีต</b> ภาษาไทยพูดว่า “ตอนนั้นฉันกำลังนอน” โดยใช้คำว่า ตอนนั้น และ กำลัง บอกเวลา แต่ภาษาอังกฤษต้องเปลี่ยนรูปกริยา: นำ Present Continuous Tense มาเปลี่ยน Verb to be เป็นรูปอดีต (<b>was / were</b>) ก็ได้แล้ว</p>
@@ -35,7 +31,7 @@ practice:[
 <p>รูปคือ <b>will + กริยาช่อง 1</b> เวลาพูดเกือบทุกครั้งจะย่อเป็น <b>I'll you'll it'll</b> และรูปปฏิเสธคือ <b>won't</b></p>
 <p>คำว่า จะ ในภาษาไทยใช้ได้ทั้ง will และ be going to แต่ภาษาอังกฤษแยกกันชัดเจน: ตัดสินใจตอนที่พูดหรือให้สัญญาใช้ will ส่วนแผนที่วางไว้ก่อนแล้วใช้ be going to</p>
 <h3>ตัดสินใจตอนที่พูด</h3>
-<p>ประโยคไทยแบบ “เดี๋ยวฉัน…เอง” ที่ใช้เสนอตัว ตรงกับ <b>I'll</b> พอดี</p>
+<p>ประโยคไทยแบบ “เดี๋ยวฉัน…เอง” ที่ใช้เสนอตัวหรือตัดสินใจทันที มักตรงกับ <b>I'll</b></p>
 {{ex:I'll have the pasta.|/aɪl ˈhæv ðə ˈpɑːstə/|ฉันเอาพาสต้า}}{{ex:I'll get it.|/aɪl ˈget ɪt/|เดี๋ยวฉันรับเอง (โทรศัพท์) / เดี๋ยวฉันไปเปิดเอง (ประตู)}}
 <h3>สัญญาและเสนอตัว</h3>
 {{ex:I'll help you.|/aɪl ˈhelp ju/|เดี๋ยวฉันช่วยเอง}}{{ex:I'll call you later.|/aɪl ˈkɔːl ju ˈleɪtər/|เดี๋ยวฉันจะโทรหาคุณทีหลัง}}{{ex:I won't be late.|/aɪ ˈwoʊnt bi ˈleɪt/|ฉันจะไม่มาสาย}}
@@ -77,7 +73,7 @@ practice:[
 check:[["“คุณเคยไปญี่ปุ่นไหม” ภาษาอังกฤษพูดว่าอย่างไร",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"ถามประสบการณ์ใช้ Have you ever + กริยาช่อง 3"],["I ___ never seen that movie. ช่องว่างควรเติมคำใด",["am","did","have","was"],2,"ใช้ have + never + กริยาช่อง 3"],["เลือกประโยคที่ถูกต้อง",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"มีคำบอกเวลา last year จึงใช้ Past Simple Tense"]],
 practice:[
 ["mc","“ฉันเคยไปญี่ปุ่น” ภาษาอังกฤษพูดว่าอย่างไร","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","have + กริยาช่อง 3 คือ been"],
-["mc","กริยาช่อง 3 ของ see","seen","saw","seed","seeing","see – saw – seen"],
+["mc","กริยาช่อง 3 ของ see","seen","saw","seed","seeing","กริยาสามช่องของ see คือ see – saw – seen"],
 ["mc","“คุณเคยกินกิมจิไหม” ภาษาอังกฤษพูดว่าอย่างไร","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","ถามประสบการณ์ใช้ Have you ever + กริยาช่อง 3"],
 ["mc","“ฉันไม่เคยเห็นมันเลย” ภาษาอังกฤษพูดว่าอย่างไร","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","ใช้ have + never + กริยาช่อง 3"],
 ["mc","ถ้ามีคำว่า “เมื่อปีที่แล้ว” ประโยคไหนถูกต้อง","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","มีคำบอกเวลาที่จบไปแล้ว จึงใช้ Past Simple Tense"],
@@ -121,7 +117,7 @@ practice:[
 ["fi","I've __ finished my homework.","ฉันทำการบ้านเสร็จแล้ว","already","yet|ever|never","แล้ว ในประโยคบอกเล่าแบบ Present Perfect Tense ใช้ already"],
 ["fi","She __ cooking dinner now.","ตอนนี้เธอกำลังทำอาหารเย็น","is","was|does|has","กำลัง และ ตอนนี้ ใช้ is + -ing"],
 ["fi","I haven't seen it __.","ฉันยังไม่ได้ดูเลย","yet","already|ever|never","ยังไม่ได้ ใช้ประโยคปฏิเสธและมี yet ท้ายประโยค"],
-["ty","คุณเคยไปตลาดกลางคืนไหม","Have you ever been to a night market|Have you been to a night market","have you ever · been · night market — คำนำหน้านาม a","the","ตลาดกลางคืนแห่งไหนก็ได้ ใช้คำนำหน้านาม a"],
+["ty","คุณเคยเห็นช้างสักตัวไหม","Have you ever seen an elephant|Have you seen an elephant","have you ever · seen · elephant — คำนำหน้านาม an","a","elephant ขึ้นต้นด้วยเสียงสระ จึงใช้คำนำหน้านาม an"],
 ["ty","ฉันซื้อรถมาคันหนึ่งแล้ว","I've already bought a car|I've bought a car|I already bought a car","already · bought · car — คำนำหน้านาม a","the","แล้ว ที่ผลยังอยู่ถึงตอนนี้ใช้ have + กริยาช่อง 3 และรถหนึ่งคันใช้คำนำหน้านาม a"],
 ["ty","เขา (ผู้ชาย) กำลังอ่านหนังสือพิมพ์","He's reading a newspaper|He's reading the newspaper","reading · newspaper — ระวังคำนำหน้านาม","newspapers","กำลัง ใช้ Verb to be + -ing และหนังสือพิมพ์หนึ่งฉบับต้องมีคำนำหน้านาม a หรือ the"],
 ["ty","ฉันยังไม่ได้กินเลย","I haven't eaten yet|I haven't eaten","haven't · eaten · yet","already","ยังไม่ได้ ใช้ haven't + กริยาช่อง 3 + yet"]]},
@@ -132,7 +128,7 @@ practice:[
 <p>ใช้บ่อยที่สุดในชีวิตประจำวัน ประธาน he she it ใช้ <b>has to</b></p>
 {{ex:I have to work tomorrow.|/aɪ ˈhæf tə ˈwɜːrk təˈmɑːroʊ/|พรุ่งนี้ฉันต้องทำงาน}}{{ex:She has to go now.|/ʃi ˈhæs tə ˈgoʊ ˈnaʊ/|ตอนนี้เธอต้องไปแล้ว}}
 <h3>ไม่ต้อง ไม่ใช่ ห้าม</h3>
-<p>คนไทยมักแปล “ไม่ต้อง” เป็น must not แต่ความหมายต่างกันมาก</p>
+<p>คำว่า “ไม่ต้อง” มีคำว่า ต้อง อยู่ด้วย จึงอาจแปลผิดเป็น must not แต่ความหมายต่างกันมาก</p>
 <div class="tbl"><table><tr><th>ประโยค</th><th>ความหมาย</th></tr><tr><td class="k">You don't have to come.</td><td>ไม่ต้องมาก็ได้ (ไม่จำเป็น)</td></tr><tr><td class="k">You must not smoke here.</td><td>ห้ามสูบบุหรี่ที่นี่ (ห้ามเด็ดขาด)</td></tr></table></div>
 <h3>should: ควร</h3>
 {{ex:You should see a doctor.|/ju ʃəd ˈsiː ə ˈdɑːktər/|คุณควรไปหาหมอ}}{{ex:You shouldn't worry.|/ju ˈʃʊdnt ˈwɜːri/|คุณไม่ควรกังวล}}
@@ -213,7 +209,7 @@ practice:[
 ["ty","แมวน่ารัก (แมวทั้งประเภท)","Cats are cute","cat — รูปพหูพจน์ ไม่มีคำนำหน้านาม","The cat","พูดถึงทั้งประเภท ใช้รูปพหูพจน์ cats และไม่ใช้คำนำหน้านาม"]]},
 { id:"first-conditional", title:"ประโยคเงื่อนไข (If) แบบที่ 1: If + Present Simple, will", blurb:"“ถ้า… ก็จะ…” หลัง if ไม่ใส่ will", deck:"ที่ทำงานและอีเมล", body:`
 <p>ใช้พูดถึงเรื่องที่เกิดขึ้นได้จริง รูปคือ <b>If + Present Simple Tense, will + กริยาช่อง 1</b> แม้ความหมายจะเป็นอนาคต แต่ฝั่ง if ยังใช้ <b>Present Simple Tense</b></p>
-<p>ภาษาไทยมักพูดว่า “ถ้า… ก็จะ…” แต่ภาษาอังกฤษไม่ใส่ will หลัง if และไม่มีคำที่ตรงกับ ก็ ใช้จุลภาค (,) คั่นสองส่วนแทน</p>
+<p>ภาษาไทยมักพูดว่า “ถ้า… ก็จะ…” แต่ภาษาอังกฤษไม่ใส่ will หลัง if และไม่มีคำที่ตรงกับ ก็ เวลาเขียนให้ใช้จุลภาค (,) คั่นระหว่างสองส่วนเมื่อ if อยู่ข้างหน้า</p>
 {{ex:If it rains, I'll stay home.|/ɪf ɪt ˈreɪnz aɪl ˈsteɪ ˈhoʊm/|ถ้าฝนตก ฉันจะอยู่บ้าน}}{{ex:If you don't hurry, you'll miss the bus.|/ɪf ju ˈdoʊnt ˈhɜːri jul ˈmɪs ðə ˈbʌs/|ถ้าไม่รีบ คุณจะตกรถเมล์}}
 <h3>สลับลำดับได้</h3>
 <p>ถ้าย้าย if ไปไว้ข้างหลัง ไม่ต้องมีจุลภาค</p>
@@ -240,32 +236,33 @@ practice:[
 ["ty","ถ้ามีเวลา ฉันจะช่วย","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","หลัง if ไม่ใส่ will"],
 ["ty","ถ้าฝนตก ฉันจะนั่งแท็กซี่","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi — คำนำหน้านาม a","the","แท็กซี่คันไหนก็ได้หนึ่งคัน ใช้คำนำหน้านาม a"],
 ["ty","คุณจะตกรถเมล์","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — คำนำหน้านาม the","a","รถเมล์คันที่ตั้งใจจะขึ้น ใช้คำนำหน้านาม the"]]},
-{ id:"relative", title:"who / that: 사람과 물건 꾸미기", blurb:"한국어는 앞에서 꾸미고, 영어는 뒤에서 꾸며요.", deck:"쇼핑·계산", body:`
-<p>한국어는 "<b>제가 산</b> 책"처럼 꾸미는 말이 앞에 와요. 영어는 명사를 먼저 말하고 <b>뒤에서</b> 설명해요: the book <b>that I bought</b>.</p>
-<h3>사람은 who</h3>
-{{ex:I have a friend who speaks Korean.|아이 해버 프렌드 후 스픽스 코리언|한국어 하는 친구가 있어요}}{{ex:the man who lives next door|더 맨 후 리브즈 넥스트 도어|옆집에 사는 남자}}
-<h3>물건은 that</h3>
-{{ex:the book that I bought|더 북 댓 아이 봇|제가 산 책}}{{ex:This is the phone that I want.|디스 이즈 더 폰 댓 아이 원트|이게 제가 원하는 휴대폰이에요}}
-<h3>that은 자주 생략해요</h3>
-<p>뒤에 '주어 + 동사'가 바로 오면 that을 빼도 돼요. 말할 때는 거의 빼요.</p>
-{{ex:The movie we saw was great.|더 무비 위 쏘 워즈 그레이트|우리가 본 영화 정말 좋았어요}}
-<h3>장소는 where</h3>
-{{ex:the cafe where we met|더 캐페이 웨어 위 멧|우리가 만난 카페}}
-<div class="tip">순서만 기억하세요: <b>명사 먼저, 설명은 뒤에.</b> "제가 산 책" → the book (that) I bought. what은 쓰지 않아요: <b>the book what I bought</b> (X)</div>`,
-check:[["I have a friend ___ lives in Busan. 빈칸에 알맞은 것은?",["which","who","what","he"],1,"사람을 꾸밀 때는 who예요."],["'제가 산 책'을 영어로 하면?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"명사를 먼저 말하고 that으로 설명해요."],["다음 중 알맞은 문장은?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"꾸미는 말은 명사 뒤에 와요."]],
+{ id:"relative", title:"who / that: ขยายคนและสิ่งของ", blurb:"ภาษาไทยขยายคำนามจากข้างหลังด้วย ที่ ภาษาอังกฤษก็เช่นกัน", deck:"ช้อปปิ้งและจ่ายเงิน", body:`
+<p>ข่าวดี: ภาษาไทยขยายคำนามจากข้างหลังเหมือนภาษาอังกฤษ “หนังสือ<b>ที่ฉันซื้อ</b>” → the book <b>that I bought</b> คำว่า ที่ หรือ ซึ่ง ตรงกับ who / that ลำดับคำจึงเหมือนกันเกือบทั้งหมด สิ่งที่ต้องจำคือเลือกคำให้ถูก</p>
+<h3>คนใช้ who</h3>
+{{ex:I have a friend who speaks English.|/aɪ ˈhæv ə ˈfrend hu ˈspiːks ˈɪŋglɪʃ/|ฉันมีเพื่อนคนหนึ่งที่พูดภาษาอังกฤษได้}}{{ex:the man who lives next door|/ðə ˈmæn hu ˈlɪvz ˈnekst ˈdɔːr/|ผู้ชายที่อยู่บ้านข้าง ๆ}}
+<h3>สิ่งของใช้ that</h3>
+{{ex:the book that I bought|/ðə ˈbʊk ðət aɪ ˈbɔːt/|หนังสือที่ฉันซื้อ}}{{ex:This is the phone that I want.|/ˈðɪs ɪz ðə ˈfoʊn ðət aɪ ˈwɑːnt/|นี่คือโทรศัพท์ที่ฉันอยากได้}}
+<h3>that มักละได้</h3>
+<p>ถ้าหลัง that เป็นประธาน + กริยาเลย จะละ that ก็ได้ และเวลาพูดมักละ ต่างจากภาษาไทยที่ละ ที่ ไม่ได้</p>
+{{ex:The movie we saw was great.|/ðə ˈmuːvi wi ˈsɔː wəz ˈgreɪt/|หนังที่เราดูสนุกมาก}}
+<h3>สถานที่ใช้ where</h3>
+<p>ระวัง: ที่ ในภาษาไทยแปลว่า at ได้ด้วย คนไทยจึงอาจพูดว่า <b>the place at I live</b> ✗ ถ้าขยายสถานที่ให้ใช้ <b>where</b>: <b>the place where I live</b> ✓</p>
+{{ex:the cafe where we met|/ðə kæˈfeɪ wer wi ˈmet/|ร้านกาแฟที่เราเจอกัน}}
+<div class="tip">จำแค่ลำดับ: <b>คำนามมาก่อน ส่วนขยายตามหลัง</b> เหมือนภาษาไทย “หนังสือที่ฉันซื้อ” → the book (that) I bought และห้ามใช้ what: <b>the book what I bought</b> ✗</div>`,
+check:[["I have a friend ___ lives in Busan. ช่องว่างควรเติมคำใด",["which","who","what","he"],1,"ขยายคนใช้ who"],["“หนังสือที่ฉันซื้อ” ภาษาอังกฤษพูดว่าอย่างไร",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"พูดคำนามก่อน แล้วขยายด้วย that"],["เลือกประโยคที่ถูกต้อง",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"ส่วนขยายอยู่หลังคำนาม เหมือน ที่ ในภาษาไทย"]],
 practice:[
-["mc","I have a friend ___ speaks English.","who","which","what","she","사람을 꾸밀 때는 who예요."],
-["mc","'제가 산 책' =","the book that I bought","the I bought book","the book what I bought","the bought I book","명사 먼저, 설명은 뒤에 와요."],
-["mc","'옆집에 사는 남자' =","the man who lives next door","the lives next door man","the man lives who next door","the man what lives next door","사람은 who로 꾸며요."],
-["mc","This is the phone ___ I want.","that","who","what","it","물건은 that으로 꾸며요."],
-["mc","'우리가 본 영화' =","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","that은 생략할 수 있어요."],
-["or","제가 산 책이에요","This is the book I bought","a what","내가 산 바로 그 책이라서 관사 the예요."],
-["or","요리하는 친구가 있어요","I have a friend who cooks","the which","처음 말하는 친구 한 명이라 관사 a예요."],
-["or","우리가 본 영화 좋았어요","The movie we saw was great","A movies","우리가 본 바로 그 영화라서 관사 the예요."],
-["fi","the man __ lives here","여기 사는 남자","who|that","what|he|which","사람은 who로 꾸며요."],
-["fi","the book __ I read","제가 읽은 책","that|which","who|what|it","물건은 that으로 꾸며요."],
-["fi","the cafe __ we met","우리가 만난 카페","where","who|what|it","장소는 where로 꾸며요."],
-["ty","제가 산 책이에요","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — 관사 the","a","내가 산 바로 그 책이라서 관사 the예요."],
-["ty","한국어 하는 친구가 있어요","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — 관사 a","the","처음 말하는 친구 한 명이라 관사 a예요."],
-["ty","우리가 본 영화 좋았어요","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","명사 먼저, 설명은 뒤에 와요."]]},
+["mc","I have a friend ___ speaks English.","who","which","what","she","ขยายคนใช้ who"],
+["mc","“หนังสือที่ฉันซื้อ” ภาษาอังกฤษพูดว่าอย่างไร","the book that I bought","the I bought book","the book what I bought","the bought I book","คำนามมาก่อน ส่วนขยายตามหลัง"],
+["mc","“ผู้ชายที่อยู่บ้านข้าง ๆ” ภาษาอังกฤษพูดว่าอย่างไร","the man who lives next door","the lives next door man","the man lives who next door","the man what lives next door","ขยายคนใช้ who"],
+["mc","This is the phone ___ I want.","that","who","what","it","ขยายสิ่งของใช้ that"],
+["mc","“หนังที่เราดู” ภาษาอังกฤษพูดว่าอย่างไร","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","ละ that ได้"],
+["or","นี่คือหนังสือที่ฉันซื้อ","This is the book I bought","a what","หนังสือเล่มที่ฉันซื้อเจาะจงแล้ว ใช้คำนำหน้านาม the"],
+["or","ฉันมีเพื่อนคนหนึ่งที่ทำอาหาร","I have a friend who cooks","the which","เพื่อนที่พูดถึงครั้งแรกหนึ่งคน ใช้คำนำหน้านาม a"],
+["or","หนังที่เราดูสนุกมาก","The movie we saw was great","A movies","หนังเรื่องที่เราดูเจาะจงแล้ว ใช้คำนำหน้านาม the"],
+["fi","the man __ lives here","ผู้ชายที่อาศัยอยู่ที่นี่","who|that","what|he|which","ขยายคนใช้ who"],
+["fi","the book __ I read","หนังสือที่ฉันอ่าน","that|which","who|what|it","ขยายสิ่งของใช้ that"],
+["fi","the cafe __ we met","ร้านกาแฟที่เราเจอกัน","where","who|what|it","ขยายสถานที่ใช้ where"],
+["ty","นี่คือหนังสือที่ฉันซื้อ","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — คำนำหน้านาม the","a","หนังสือเล่มที่ฉันซื้อเจาะจงแล้ว ใช้คำนำหน้านาม the"],
+["ty","ฉันมีเพื่อนคนหนึ่งที่พูดภาษาเกาหลีได้","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — คำนำหน้านาม a","the","เพื่อนที่พูดถึงครั้งแรกหนึ่งคน ใช้คำนำหน้านาม a"],
+["ty","หนังที่เราดูสนุกมาก","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","คำนามมาก่อน ส่วนขยายตามหลัง และไม่ใช้ what"]]},
 ];

@@ -1,11 +1,7 @@
-/* TRANSLATE/ADAPT (th): scaffolded from tools/content/ko/practice.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for th speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the th point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* Practice sets for the ko-en course (docs/PRACTICE-SPEC.md v1).
-   Prompts, why and hint are Korean; answers are English.
+/* Practice sets for the th-en course (docs/PRACTICE-SPEC.md v1).
+   Prompts, why and hint are Thai; answers are English.
    Per lesson: 5 mc -> 3 order -> 3 fill -> 3 type.
-   Standing article/plural check: at least 2 of 3 order items and 2 of 3 type items hinge on a/an/the or plural -s. */
+   Standing article/plural check (profile th.md §7): at least 2 of 3 order items and 2 of 3 type items hinge on a/an/the or plural -s. */
 
 /* adds the same sentence with "please" at the end, after each base variant */
 const pl = list => list.flatMap(s => [s, s + ' please']);
@@ -13,7 +9,7 @@ const pl = list => list.flatMap(s => [s, s + ' please']);
 module.exports = {
   pron: [
     { t: "mc", q: "คำไหนแปลว่า “ข้าว”", o: ["rice", "lice", "rise", "nice"], why: "rice ขึ้นต้นด้วย R ที่ปลายลิ้นไม่แตะตรงไหน ถ้าพูดเป็นเสียง ล จะกลายเป็น lice (เหา)" },
-    { t: "mc", q: "คำไหนแปลว่า “พัดลม”", o: ["fan", "pan", "van", "ban"], why: "F คือฟันบนแตะริมฝีปากล่างแล้วปล่อยลม ถ้าปิดริมฝีปากทั้งสองข้างจะกลายเป็น pan (กระทะ)" },
+    { t: "mc", q: "คำไหนแปลว่า “พัดลม”", o: ["fan", "pan", "van", "ban"], why: "F คือฟันบนแตะริมฝีปากล่างแล้วปล่อยลม ถ้าริมฝีปากบนและล่างประกบกันจะกลายเป็น pan (กระทะ) คู่นี้คนไทยไม่ค่อยสับสน แต่ท่าปากเดียวกันนี้ใช้กับ V ด้วย" },
     { t: "mc", q: "คำไหนแปลว่า “คิด”", o: ["think", "sink", "thing", "pink"], why: "TH ยื่นปลายลิ้นออกมาระหว่างฟัน ถ้าใช้เสียง ซ จะกลายเป็น sink (อ่างล้างจาน)" },
     { t: "mc", q: "คำไหนแปลว่า “ลงคะแนนเสียง”", o: ["vote", "boat", "goat", "bought"], why: "V คือท่าเดียวกับ F แต่สั่นเส้นเสียง ถ้าปิดริมฝีปากจะกลายเป็น boat (เรือ) และถ้าห่อปากเป็นเสียง ว ก็ผิดเหมือนกัน" },
     { t: "mc", q: "คำไหนแปลว่า “ด้านขวา”", o: ["right", "light", "fight", "bright"], why: "right ขึ้นต้นด้วย R ส่วน light ที่ขึ้นต้นด้วย L แปลว่าแสง" },
@@ -48,7 +44,7 @@ module.exports = {
 
     { t: "type", p: "ฉันมีไอเดียอย่างหนึ่ง", a: ["I have an idea", "I've got an idea", "I have got an idea"], hint: "have · idea — คำนำหน้านามก่อนเสียงสระ", x: ["a"], why: "idea ขึ้นต้นด้วยเสียงสระ จึงใช้คำนำหน้านาม an" },
     { t: "type", p: "ฉันชอบหมา (หมายถึงหมาทั้งประเภท)", a: ["I like dogs", "I love dogs"], hint: "like · dog — พูดถึงทั้งประเภทใช้รูปพหูพจน์", x: ["dog", "a"], why: "พูดถึงทั้งประเภทใช้รูปพหูพจน์ dogs และไม่ใช้คำนำหน้านาม" },
-    { t: "type", p: "ไปกินข้าวกลางวันกัน", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "let's · have · lunch — ชื่อมื้ออาหาร", x: ["a", "the"], why: "หน้าชื่อมื้ออาหารไม่ใช้คำนำหน้านาม" }
+    { t: "type", p: "กินข้าวกลางวันกันเถอะ", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "let's · have · lunch — ชื่อมื้ออาหาร", x: ["a", "the"], why: "หน้าชื่อมื้ออาหารไม่ใช้คำนำหน้านาม" }
   ],
 
   be: [
@@ -58,7 +54,7 @@ module.exports = {
     { t: "mc", q: "ถ้าจะตอบ Do you like coffee? ว่า “ชอบ” ตอบอย่างไร", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "ถามด้วย do ก็ตอบด้วย do" },
     { t: "mc", q: "“เธอไม่กินเนื้อสัตว์” ภาษาอังกฤษพูดว่าอย่างไร", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "ประธาน she ปฏิเสธด้วย doesn't แล้วตามด้วยกริยาช่อง 1 ที่ไม่เติม -s" },
 
-    { t: "order", p: "พี่ชายฉันทำงานที่โซล", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "ประธานเอกพจน์บุรุษที่ 3 (he) กริยาต้องเติม -s: works และไม่ใช้ Verb to be หน้ากริยาแท้" },
+    { t: "order", p: "พี่ชายฉันทำงานที่โซล", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "ประธานเอกพจน์บุรุษที่ 3 (he) กริยาต้องเติม -s: works และไม่ใช้ Verb to be หน้ากริยาทั่วไป" },
     { t: "order", p: "ฉันไม่ได้เป็นนักเรียน", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "ปฏิเสธ Verb to be ด้วย not และหน้าสถานะต้องมีคำนำหน้านาม a" },
     { t: "order", p: "เธอเลี้ยงหมาสองตัว", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "ประธาน she ใช้ has และมีสองตัวจึงต้องเป็นรูปพหูพจน์ dogs" },
 
@@ -66,9 +62,9 @@ module.exports = {
     { t: "fill", q: "__ you tired?", p: "เหนื่อยไหม", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired เป็นคำคุณศัพท์ จึงถามด้วย Verb to be และประธาน you ใช้ are" },
     { t: "fill", q: "We __ hungry.", p: "พวกเราหิว", a: ["are"], o: ["is", "am", "do"], why: "hungry เป็นคำคุณศัพท์ จึงต้องมี Verb to be และประธาน we ใช้ are" },
 
-    { t: "type", p: "เขาเป็นครู", a: ["He's a teacher", "He is a teacher"], hint: "teacher — Verb to be และคำนำหน้านามหน้าอาชีพ", x: ["the"], why: "บอกว่าเป็นใครใช้ Verb to be และหน้าอาชีพต้องมีคำนำหน้านาม a" },
-    { t: "type", p: "ฉันไม่ชอบกาแฟ", a: ["I don't like coffee", "I do not like coffee"], hint: "don't · like · coffee — ปฏิเสธกริยาแท้", x: ["am"], why: "like เป็นกริยาแท้ จึงปฏิเสธด้วย don't (I'm not like ✗)" },
-    { t: "type", p: "เธอเลี้ยงแมวหนึ่งตัวไหม", a: ["Does she have a cat"], hint: "does · have · cat — แมวหนึ่งตัวต้องมีคำนำหน้านาม", x: ["has"], why: "หลัง does ใช้กริยาช่อง 1 have และแมวหนึ่งตัวเป็นคำนามนับได้เอกพจน์ ต้องมีคำนำหน้านาม a" }
+    { t: "type", p: "เขา (ผู้ชาย) เป็นครู", a: ["He's a teacher", "He is a teacher"], hint: "teacher — Verb to be และคำนำหน้านามหน้าอาชีพ", x: ["the"], why: "บอกว่าเป็นใครใช้ Verb to be และหน้าอาชีพต้องมีคำนำหน้านาม a" },
+    { t: "type", p: "ฉันไม่ชอบกาแฟ", a: ["I don't like coffee", "I do not like coffee"], hint: "don't · like · coffee — ปฏิเสธกริยาทั่วไป", x: ["am"], why: "like เป็นกริยาทั่วไป จึงปฏิเสธด้วย don't (I'm not like ✗)" },
+    { t: "type", p: "เธอ (ผู้หญิง) เลี้ยงแมวหนึ่งตัวไหม", a: ["Does she have a cat"], hint: "does · have · cat — แมวหนึ่งตัวต้องมีคำนำหน้านาม", x: ["has"], why: "หลัง does ใช้กริยาช่อง 1 have และแมวหนึ่งตัวเป็นคำนามนับได้เอกพจน์ ต้องมีคำนำหน้านาม a" }
   ],
 
   polite: [
@@ -88,7 +84,7 @@ module.exports = {
 
     { t: "type", p: "ช่วยฉันหน่อยได้ไหม (อย่างสุภาพ)", a: ["Could you help me", "Could you help me please", "Could you please help me", "Would you help me", "Would you help me please", "Would you mind helping me"], hint: "could · help — ขอร้องอย่างสุภาพ", x: ["can"], why: "กับคนแปลกหน้าให้ขอร้องด้วย Could you ~?" },
     { t: "type", p: "ขอที่นั่งริมหน้าต่าง", a: pl(["I'd like a window seat", "I would like a window seat", "Can I get a window seat", "Could I get a window seat", "Can I have a window seat", "Could I have a window seat"]), hint: "I'd like · window seat — ที่นั่งหนึ่งที่ต้องมีคำนำหน้านาม", x: ["the"], why: "พูดถึงที่นั่งหนึ่งที่เป็นครั้งแรก จึงใช้คำนำหน้านาม a: a window seat" },
-    { t: "type", p: "ขอกาแฟสองแก้ว", a: pl(["Can I get two coffees", "Could I get two coffees", "Can I have two coffees", "Could I have two coffees", "I'd like two coffees", "I would like two coffees", "Two coffees"]), hint: "two · coffee — สองแก้วต้องเป็นรูปพหูพจน์", x: ["coffee"], why: "เวลาสั่งเป็นแก้ว coffee นับได้ สองแก้วจึงเป็นรูปพหูพจน์ two coffees โดยไม่ต้องมีลักษณนาม" }
+    { t: "type", p: "ขอกาแฟสองแก้ว (ใช้ coffee ไม่ใช้ cup)", a: pl(["Can I get two coffees", "Could I get two coffees", "Can I have two coffees", "Could I have two coffees", "I'd like two coffees", "I would like two coffees", "Two coffees"]), hint: "two · coffee — สองแก้วต้องเป็นรูปพหูพจน์", x: ["coffee"], why: "เวลาสั่งเป็นแก้ว coffee นับได้ สองแก้วจึงเป็นรูปพหูพจน์ two coffees โดยไม่ต้องมีลักษณนาม" }
   ],
 
   tense: [
@@ -107,7 +103,7 @@ module.exports = {
     { t: "fill", q: "I'm going __ visit my parents.", p: "ฉันจะไปเยี่ยมพ่อแม่", a: ["to"], o: ["for", "at", "on"], why: "แผนใช้ be going to + กริยาช่อง 1" },
 
     { t: "type", p: "วันนี้ฉันทำงานที่บ้าน (กำลังทำอยู่)", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — กำลังทำอยู่", x: ["work"], why: "สิ่งที่กำลังทำอยู่ในวันนี้ใช้ be + -ing" },
-    { t: "type", p: "สุดสัปดาห์ที่แล้วฉันไปทะเล", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — กริยาช่อง 2 และคำนำหน้านาม", x: ["a"], why: "กริยาช่อง 2 ของ go คือ went และทะเลในความหมายนี้ใช้คำนำหน้านาม the: the beach" },
+    { t: "type", p: "สุดสัปดาห์ที่แล้วฉันไปทะเล (ใช้ beach)", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — กริยาช่อง 2 และคำนำหน้านาม", x: ["a"], why: "กริยาช่อง 2 ของ go คือ went และทะเลในความหมายนี้ใช้คำนำหน้านาม the: the beach" },
     { t: "type", p: "ฉันจะไปเรียนคอร์สทำอาหาร (แผนที่วางไว้)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — คอร์สหนึ่งคอร์ส", x: ["the"], why: "แผนที่วางไว้ใช้ going to และพูดถึงคอร์สหนึ่งคอร์สเป็นครั้งแรก จึงใช้คำนำหน้านาม a" }
   ],
 
@@ -152,82 +148,82 @@ module.exports = {
   ],
 
   phrasal: [
-    { t: "mc", q: "'그거 켜 줘' =", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "대명사 it은 구동사 가운데에 와요: turn it on." },
-    { t: "mc", q: "'우유가 다 떨어졌어요' =", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "run out of = ~이 다 떨어지다. of를 빼먹지 마세요." },
-    { t: "mc", q: "'대구에서 자랐어요' =", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "grow up = 자라다, 과거형은 grew up이에요." },
-    { t: "mc", q: "'제 고양이 좀 돌봐 줄 수 있어요?' =", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "look after = 돌보다. 나눌 수 없는 구동사예요 (look for는 '찾다')." },
-    { t: "mc", q: "'7시에 데리러 갈게' =", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "대명사 you는 pick과 up 사이에 와요." },
+    { t: "mc", q: "“เปิดมันหน่อย” ภาษาอังกฤษพูดว่าอย่างไร", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "คำสรรพนาม it ต้องอยู่ตรงกลางกริยาวลี: turn it on" },
+    { t: "mc", q: "“นมหมดแล้ว” ภาษาอังกฤษพูดว่าอย่างไร", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "run out of = (ของ) หมด อย่าลืม of" },
+    { t: "mc", q: "“ฉันโตที่แทกู” ภาษาอังกฤษพูดว่าอย่างไร", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "grow up = เติบโต กริยาช่อง 2 คือ grew up" },
+    { t: "mc", q: "“ช่วยดูแลแมวของฉันหน่อยได้ไหม” ภาษาอังกฤษพูดว่าอย่างไร", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "look after = ดูแล เป็นกริยาวลีที่แยกไม่ได้ (look for แปลว่าหา)" },
+    { t: "mc", q: "“เดี๋ยวฉันไปรับตอนหนึ่งทุ่ม” ภาษาอังกฤษพูดว่าอย่างไร", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "คำสรรพนาม you ต้องอยู่ระหว่าง pick กับ up" },
 
-    { t: "order", p: "제 안경을 찾고 있어요", a: ["I'm", "looking", "for", "my", "glasses"], x: ["glass", "after"], why: "안경은 항상 복수형 glasses예요 (glass는 유리잔). '찾다'는 look for예요." },
-    { t: "order", p: "계획을 하나 생각해 내 봐요", a: ["Let's", "come", "up", "with", "a", "plan"], x: ["the", "an"], why: "come up with = 생각해 내다. 아직 없는 계획 하나라 관사 a예요." },
-    { t: "order", p: "내가 데리러 갈게", a: ["I'll", "pick", "you", "up"], x: ["on"], why: "대명사 you는 pick과 up 사이에 와요." },
+    { t: "order", p: "ฉันกำลังหาแว่นตาของฉันอยู่", a: ["I'm", "looking", "for", "my", "glasses"], x: ["glass", "after"], why: "แว่นตาใช้รูปพหูพจน์ glasses เสมอ (glass แปลว่าแก้ว) และ หา คือ look for" },
+    { t: "order", p: "มาคิดแผนกันสักแผนเถอะ", a: ["Let's", "come", "up", "with", "a", "plan"], x: ["the", "an"], why: "come up with = คิดออก และเป็นแผนหนึ่งที่ยังไม่มี จึงใช้คำนำหน้านาม a" },
+    { t: "order", p: "เดี๋ยวฉันไปรับ", a: ["I'll", "pick", "you", "up"], x: ["on"], why: "คำสรรพนาม you ต้องอยู่ระหว่าง pick กับ up" },
 
-    { t: "fill", q: "Can you turn it __?", p: "그거 꺼 줄래요?", a: ["off"], o: ["of", "on", "out"], why: "끄다는 turn off예요. of와 철자를 헷갈리지 마세요." },
-    { t: "fill", q: "I work __ every morning.", p: "저는 매일 아침 운동해요", a: ["out"], o: ["up", "off", "on"], why: "work out = 운동하다." },
-    { t: "fill", q: "We ran out of __.", p: "달걀이 다 떨어졌어요", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "달걀처럼 셀 수 있는 것이 다 떨어졌을 땐 복수형 eggs예요." },
+    { t: "fill", q: "Can you turn it __?", p: "ช่วยปิดมันหน่อยได้ไหม", a: ["off"], o: ["of", "on", "out"], why: "ปิด (เครื่องใช้ไฟฟ้า) คือ turn off อย่าสับสนกับ of" },
+    { t: "fill", q: "I work __ every morning.", p: "ฉันออกกำลังกายทุกเช้า", a: ["out"], o: ["up", "off", "on"], why: "work out = ออกกำลังกาย" },
+    { t: "fill", q: "We ran out of __.", p: "ไข่หมดแล้ว", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "ไข่เป็นคำนามนับได้ เมื่อพูดว่าหมดจึงใช้รูปพหูพจน์ eggs" },
 
-    { t: "type", p: "그거 좀 꺼 주세요", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — 대명사는 가운데", x: ["on"], why: "대명사 it은 turn과 off 사이에 와요." },
-    { t: "type", p: "저는 고양이 두 마리를 돌봐요", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — 둘이면 복수형", x: ["cat"], why: "look after = 돌보다. 두 마리니까 복수 -s를 붙여 cats예요." },
-    { t: "type", p: "우유가 다 떨어졌어요", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — 관사를 붙일까요?", x: ["a"], why: "milk는 셀 수 없는 명사라 관사 a를 붙이지 않아요." }
+    { t: "type", p: "ช่วยปิดมันหน่อย (ใช้ turn off)", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — คำสรรพนามอยู่ตรงกลาง", x: ["on"], why: "คำสรรพนาม it ต้องอยู่ระหว่าง turn กับ off" },
+    { t: "type", p: "ฉันดูแลแมวสองตัว", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — สองตัวต้องเป็นรูปพหูพจน์", x: ["cat"], why: "look after = ดูแล และแมวสองตัวต้องเป็นรูปพหูพจน์ cats" },
+    { t: "type", p: "นมหมดแล้ว (ใช้ run out of)", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — ใส่คำนำหน้านามไหม", x: ["a"], why: "milk เป็นคำนามนับไม่ได้ จึงไม่ใช้คำนำหน้านาม a" }
   ],
 
   numbers: [
-    { t: "mc", q: "10,000(만)을 영어로 하면?", o: ["ten thousand", "one thousand", "ten thousands", "a hundred thousand"], why: "세 자리씩 끊어요: 10 + thousand. 숫자 뒤 thousand에는 복수 -s를 붙이지 않아요." },
-    { t: "mc", q: "1,000,000(백만)을 영어로 하면?", o: ["one million", "one hundred thousand", "ten million", "one millions"], why: "쉼표 두 개 = million이에요. 숫자 뒤 million에는 복수 -s를 붙이지 않아요." },
-    { t: "mc", q: "9:05를 읽는 법은?", o: ["nine oh five", "nine five", "nine and five", "five nine"], why: "1~9분 앞에는 oh를 붙여요." },
-    { t: "mc", q: "$4.99를 자연스럽게 읽으면?", o: ["four ninety-nine", "four point nine nine", "four dollar ninety-nine", "forty-nine nine"], why: "가격은 숫자 두 덩어리로 읽어요: four ninety-nine." },
-    { t: "mc", q: "2026년을 영어로 읽으면?", o: ["twenty twenty-six", "two zero two six", "twenty two six", "two twenty-six"], why: "연도는 두 자리씩 끊어 읽어요." },
+    { t: "mc", q: "10,000 (หนึ่งหมื่น) ภาษาอังกฤษคือ", o: ["ten thousand", "one thousand", "ten thousands", "a hundred thousand"], why: "แบ่งทีละสามหลัก: 10 + thousand และ thousand หลังตัวเลขไม่เป็นรูปพหูพจน์" },
+    { t: "mc", q: "1,000,000 (หนึ่งล้าน) ภาษาอังกฤษคือ", o: ["one million", "one hundred thousand", "ten million", "one millions"], why: "จุลภาคสองตัวคือ million และ million หลังตัวเลขไม่เป็นรูปพหูพจน์" },
+    { t: "mc", q: "9:05 อ่านว่าอย่างไร", o: ["nine oh five", "nine five", "nine and five", "five nine"], why: "นาทีที่เป็น 1 ถึง 9 ให้ใส่ oh ข้างหน้า" },
+    { t: "mc", q: "$4.99 อ่านแบบไหนเป็นธรรมชาติ", o: ["four ninety-nine", "four point nine nine", "four dollar ninety-nine", "forty-nine nine"], why: "ราคาอ่านเป็นตัวเลขสองก้อน: four ninety-nine" },
+    { t: "mc", q: "ปี 2026 (พ.ศ. 2569) อ่านเป็นภาษาอังกฤษว่าอย่างไร", o: ["twenty twenty-six", "two zero two six", "twenty two six", "two twenty-six"], why: "ปีอ่านทีละสองหลัก และภาษาอังกฤษใช้ ค.ศ. เสมอ" },
 
-    { t: "order", p: "7시 15분이에요", a: ["It's", "seven", "fifteen"], x: ["fifty"], why: "15는 fifteen(뒤에 강세), 50은 fifty(앞에 강세)예요." },
-    { t: "order", p: "15달러예요", a: ["It's", "fifteen", "dollars"], x: ["dollar", "fifty"], why: "1달러보다 많으면 dollars처럼 복수 -s를 붙여요." },
-    { t: "order", p: "일주일에 두 번", a: ["twice", "a", "week"], x: ["the", "one"], why: "'~에 몇 번'은 관사 a로 말해요: twice a week." },
+    { t: "order", p: "ตอนนี้เจ็ดโมงสิบห้านาที", a: ["It's", "seven", "fifteen"], x: ["fifty"], why: "15 คือ fifteen (เน้นพยางค์หลัง) ส่วน 50 คือ fifty (เน้นพยางค์หน้า)" },
+    { t: "order", p: "ราคา 15 ดอลลาร์", a: ["It's", "fifteen", "dollars"], x: ["dollar", "fifty"], why: "มากกว่า 1 ดอลลาร์ต้องเป็นรูปพหูพจน์ dollars" },
+    { t: "order", p: "สัปดาห์ละสองครั้ง", a: ["twice", "a", "week"], x: ["the", "one"], why: "“ละ” ในความหมายนี้ใช้คำนำหน้านาม a: twice a week" },
 
-    { t: "fill", q: "It's __ quarter past ten.", p: "10시 15분이에요", a: ["a"], o: ["the", "one", "an"], why: "quarter(15분) 앞에는 관사 a를 붙여요." },
-    { t: "fill", q: "That's fifty __ won.", p: "5만 원이에요", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000은 fifty thousand예요. 숫자 뒤 thousand에는 복수 -s를 붙이지 않아요." },
-    { t: "fill", q: "I'll be there in ten __.", p: "10분 후에 도착할게요", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "10분이니 복수형 minutes예요." },
+    { t: "fill", q: "It's __ quarter past ten.", p: "ตอนนี้สิบโมงสิบห้านาที", a: ["a"], o: ["the", "one", "an"], why: "หน้า quarter (สิบห้านาที) ต้องมีคำนำหน้านาม a" },
+    { t: "fill", q: "That's fifty __ won.", p: "ห้าหมื่นวอน", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 คือ fifty thousand และ thousand หลังตัวเลขไม่เป็นรูปพหูพจน์" },
+    { t: "fill", q: "I'll be there in ten __.", p: "อีก 10 นาทีฉันจะไปถึง", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "สิบนาทีต้องเป็นรูปพหูพจน์ minutes ภาษาอังกฤษไม่มีลักษณนาม แต่เติม -s แทน" },
 
-    { t: "type", p: "3시 반이에요", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — 시와 분을 그대로", x: ["thirteen"], why: "시와 분을 그대로 읽어요: three thirty. 13(thirteen)과 헷갈리지 마세요." },
-    { t: "type", p: "20달러예요", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "twenty · dollar — 2 이상이면 복수형", x: ["dollar"], why: "2달러 이상이니 dollars처럼 복수 -s를 붙여요." },
-    { t: "type", p: "저는 일주일에 두 번 운동해요", a: ["I work out twice a week", "I exercise twice a week"], hint: "work out · twice · week — '~에'는 어떤 관사?", x: ["the"], why: "'일주일에'는 관사 a를 써서 a week예요 (the week X)." }
+    { t: "type", p: "ตอนนี้สามโมงครึ่ง", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — อ่านชั่วโมงแล้วตามด้วยนาที", x: ["thirteen"], why: "อ่านชั่วโมงแล้วตามด้วยนาที: three thirty อย่าสับสนกับ 13 (thirteen)" },
+    { t: "type", p: "ราคา 20 ดอลลาร์", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "twenty · dollar — ตั้งแต่ 2 ขึ้นไปใช้รูปพหูพจน์", x: ["dollar"], why: "ตั้งแต่ 2 ดอลลาร์ขึ้นไปต้องเป็นรูปพหูพจน์ dollars" },
+    { t: "type", p: "ฉันออกกำลังกายสัปดาห์ละสองครั้ง", a: ["I work out twice a week", "I exercise twice a week"], hint: "work out · twice · week — “ละ” ใช้คำนำหน้านามตัวไหน", x: ["the"], why: "“สัปดาห์ละ” ใช้คำนำหน้านาม a: a week (the week ✗)" }
   ],
 
   email: [
-    { t: "mc", q: "Dear로 시작할 때 가장 자연스러운 인사는?", o: ["Dear Mr. Smith,", "Dear Manager,", "Dear Smith Mr.,", "Dear Sir Smith,"], why: "Dear 뒤에는 직함만 쓰지 말고 이름을 써요." },
-    { t: "mc", q: "보고서를 첨부했다고 알릴 때", o: ["I've attached the report.", "I've attached report.", "I attaching the report.", "I've attach the report."], why: "상대가 받을 바로 그 보고서이니 관사 the를 붙여요." },
-    { t: "mc", q: "'마감이 언제예요?' =", o: ["What's the deadline?", "What's deadline?", "When is a deadline?", "What deadline is?"], why: "이 일의 바로 그 마감이니 관사 the예요." },
-    { t: "mc", q: "답장이 늦었을 때 사과 대신 쓸 수 있는 긍정적인 표현은?", o: ["Thanks for your patience.", "Sorry, sorry, sorry.", "You waited too long.", "Thanks for your patients."], why: "Thanks for your patience는 사과 없이도 예의 바르게 들려요. patients(환자들)와 철자를 구분하세요." },
-    { t: "mc", q: "금요일 이메일 끝에 쓰기 좋은 인사는?", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "주말 하나를 말하니 관사 a를 붙이고 weekend는 단수예요." },
+    { t: "mc", q: "ถ้าขึ้นต้นด้วย Dear แบบไหนเป็นธรรมชาติที่สุด", o: ["Dear Mr. Smith,", "Dear Manager,", "Dear Smith Mr.,", "Dear Sir Smith,"], why: "หลัง Dear ให้ใส่ชื่อ อย่าใส่แค่ตำแหน่ง" },
+    { t: "mc", q: "จะบอกว่าแนบรายงานมาแล้ว เขียนว่าอย่างไร", o: ["I've attached the report.", "I've attached report.", "I attaching the report.", "I've attach the report."], why: "เป็นรายงานฉบับที่อีกฝ่ายจะได้รับ จึงใช้คำนำหน้านาม the" },
+    { t: "mc", q: "“กำหนดส่งคือเมื่อไร” ภาษาอังกฤษพูดว่าอย่างไร", o: ["What's the deadline?", "What's deadline?", "When is a deadline?", "What deadline is?"], why: "เป็นกำหนดส่งของงานนี้ที่ทั้งสองฝ่ายรู้ จึงใช้คำนำหน้านาม the" },
+    { t: "mc", q: "ตอบอีเมลช้า ประโยคไหนใช้แทนคำขอโทษได้และฟังเป็นบวก", o: ["Thanks for your patience.", "Sorry, sorry, sorry.", "You waited too long.", "Thanks for your patients."], why: "Thanks for your patience ฟังสุภาพโดยไม่ต้องขอโทษ ระวังสะกดผิดเป็น patients (คนไข้)" },
+    { t: "mc", q: "ประโยคไหนเหมาะใช้ปิดท้ายอีเมลวันศุกร์", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "สุดสัปดาห์หนึ่งครั้งใช้คำนำหน้านาม a และ weekend เป็นเอกพจน์" },
 
-    { t: "order", p: "보고서를 첨부했습니다", a: ["I've", "attached", "the", "report"], x: ["a"], why: "상대가 받을 바로 그 보고서이니 관사 the예요." },
-    { t: "order", p: "회의 일정을 잡읍시다", a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: "아직 정하지 않은 회의 하나라서 관사 a예요." },
-    { t: "order", p: "확인하고 다시 연락드릴게요", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "get back to you = 다시 연락드리다. to를 써요." },
+    { t: "order", p: "แนบรายงานมาแล้ว", a: ["I've", "attached", "the", "report"], x: ["a"], why: "เป็นรายงานฉบับที่อีกฝ่ายจะได้รับ จึงใช้คำนำหน้านาม the" },
+    { t: "order", p: "มานัดประชุมกันเถอะ", a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: "เป็นการประชุมครั้งหนึ่งที่ยังไม่ได้นัด จึงใช้คำนำหน้านาม a" },
+    { t: "order", p: "เดี๋ยวตรวจสอบแล้วจะติดต่อกลับ", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "get back to you = ติดต่อกลับ ใช้ to" },
 
-    { t: "fill", q: "Could you send me the file __ Friday?", p: "금요일까지 파일 보내 주실 수 있나요?", a: ["by"], o: ["until", "in", "at"], why: "기한(~까지)은 by + 날짜예요." },
-    { t: "fill", q: "I'm writing __ ask about the schedule.", p: "일정에 대해 여쭤보려고 연락드립니다", a: ["to"], o: ["for", "about", "at"], why: "목적은 I'm writing to + 동사원형이에요." },
-    { t: "fill", q: "Thanks for all your hard __!", p: "그동안 정말 고생 많으셨어요", a: ["work"], o: ["works", "working", "job"], why: "work(일)는 셀 수 없는 명사라 복수 -s를 붙이지 않아요." },
+    { t: "fill", q: "Could you send me the file __ Friday?", p: "ช่วยส่งไฟล์ให้ภายในวันศุกร์ได้ไหม", a: ["by"], o: ["until", "in", "at"], why: "กำหนดส่ง (ภายใน) ใช้ by + วันที่" },
+    { t: "fill", q: "I'm writing __ ask about the schedule.", p: "เขียนมาเพื่อสอบถามเรื่องกำหนดการ", a: ["to"], o: ["for", "about", "at"], why: "บอกจุดประสงค์ใช้ I'm writing to + กริยาช่อง 1" },
+    { t: "fill", q: "Thanks for all your hard __!", p: "ขอบคุณสำหรับความทุ่มเททั้งหมด", a: ["work"], o: ["works", "working", "job"], why: "work ในความหมายว่างานเป็นคำนามนับไม่ได้ จึงไม่เติม -s" },
 
-    { t: "type", p: "저 내일 쉬어요 (휴무예요)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be동사 + off", x: ["do"], why: "쉬는 날은 be off로 말해요." },
-    { t: "type", p: "파일을 첨부했습니다", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — 바로 그 파일", x: ["a"], why: "상대가 받을 바로 그 파일이니 관사 the예요." },
-    { t: "type", p: "좋은 주말 보내세요!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — 주말 하나 앞 관사", x: ["the"], why: "주말 하나를 말하니 관사 a를 붙여요: a great weekend." }
+    { t: "type", p: "พรุ่งนี้ฉันหยุดงาน", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — ใช้ Verb to be + off", x: ["do"], why: "วันหยุดงานพูดว่า be off" },
+    { t: "type", p: "แนบไฟล์มาแล้ว", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — ไฟล์ฉบับนั้น", x: ["a"], why: "เป็นไฟล์ที่อีกฝ่ายจะได้รับ จึงใช้คำนำหน้านาม the" },
+    { t: "type", p: "ขอให้มีความสุขในวันหยุดสุดสัปดาห์", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — สุดสัปดาห์หนึ่งครั้ง", x: ["the"], why: "พูดถึงสุดสัปดาห์หนึ่งครั้ง จึงใช้คำนำหน้านาม a: a great weekend" }
   ],
 
   idioms: [
-    { t: "mc", q: "'식은 죽 먹기예요' =", o: ["It's a piece of cake.", "It's piece of cake.", "It's a piece of cakes.", "It's the piece of cake."], why: "관용구는 통째로 외워요: 관사 a를 넣고 cake는 단수예요." },
-    { t: "mc", q: "'엄청 비싸요' =", o: ["It costs an arm and a leg.", "It costs a arm and a leg.", "It costs arm and leg.", "It costs an arm and an leg."], why: "arm은 모음 소리라 관사 an, leg는 자음 소리라 a예요." },
-    { t: "mc", q: "'오늘은 여기까지 해요' (회의에서도 OK)", o: ["Let's call it a day.", "Let's call it the day.", "Let's call a day.", "Let's call it day."], why: "call it a day는 관사 a까지 통째로 외우는 관용구예요." },
-    { t: "mc", q: "'날아갈 듯 기뻐요' =", o: ["I'm on cloud nine.", "I'm on cloud nines.", "I'm in cloud nine.", "I'm on the cloud nine."], why: "on cloud nine은 관사도 복수 -s도 없이 써요." },
-    { t: "mc", q: "친구끼리만 쓰는 슬랭은?", o: ["No cap", "Let's call it a day", "It's a piece of cake", "I'm all ears"], why: "No cap은 '진짜로'라는 뜻의 젊은 층 슬랭이에요. 나머지는 직장에서도 쓰는 관용구예요." },
+    { t: "mc", q: "“ง่ายเหมือนปอกกล้วยเข้าปาก” ภาษาอังกฤษพูดว่าอย่างไร", o: ["It's a piece of cake.", "It's piece of cake.", "It's a piece of cakes.", "It's the piece of cake."], why: "จำสำนวนทั้งก้อน: มีคำนำหน้านาม a และ cake ไม่เป็นรูปพหูพจน์" },
+    { t: "mc", q: "“แพงหูฉี่” ภาษาอังกฤษพูดว่าอย่างไร", o: ["It costs an arm and a leg.", "It costs a arm and a leg.", "It costs arm and leg.", "It costs an arm and an leg."], why: "arm ขึ้นต้นด้วยเสียงสระจึงใช้คำนำหน้านาม an ส่วน leg ขึ้นต้นด้วยเสียงพยัญชนะจึงใช้ a" },
+    { t: "mc", q: "“วันนี้พอแค่นี้ก่อน” (ใช้ในที่ประชุมได้)", o: ["Let's call it a day.", "Let's call it the day.", "Let's call a day.", "Let's call it day."], why: "call it a day เป็นสำนวนที่ต้องจำทั้งก้อนรวมคำนำหน้านาม a ด้วย" },
+    { t: "mc", q: "“ดีใจจนตัวลอย” ภาษาอังกฤษพูดว่าอย่างไร", o: ["I'm on cloud nine.", "I'm on cloud nines.", "I'm in cloud nine.", "I'm on the cloud nine."], why: "on cloud nine ไม่มีทั้งคำนำหน้านามและรูปพหูพจน์" },
+    { t: "mc", q: "ข้อไหนเป็นสแลงที่ใช้กับเพื่อนเท่านั้น", o: ["No cap", "Let's call it a day", "It's a piece of cake", "I'm all ears"], why: "No cap เป็นสแลงของคนรุ่นใหม่ แปลว่า ไม่โม้ พูดจริง ส่วนข้ออื่นเป็นสำนวนที่ใช้ในที่ทำงานได้" },
 
-    { t: "order", p: "잘 듣고 있어요", a: ["I'm", "all", "ears"], x: ["ear"], why: "'온몸이 귀'라는 표현이라 복수형 ears예요." },
-    { t: "order", p: "공부 좀 열심히 해야 해", a: ["I", "need", "to", "hit", "the", "books"], x: ["book", "a"], why: "hit the books — 관사 the와 복수형 books를 그대로 써요." },
-    { t: "order", p: "제 취향은 아니에요", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "not my cup of tea를 통째로 외워요. my 자리에 관사를 넣지 않아요." },
+    { t: "order", p: "ตั้งใจฟังอยู่", a: ["I'm", "all", "ears"], x: ["ear"], why: "สำนวนนี้แปลว่าทั้งตัวเป็นหู จึงใช้รูปพหูพจน์ ears" },
+    { t: "order", p: "ฉันต้องตั้งใจอ่านหนังสือหน่อยแล้ว", a: ["I", "need", "to", "hit", "the", "books"], x: ["book", "a"], why: "hit the books ใช้คำนำหน้านาม the และรูปพหูพจน์ books ตามสำนวน" },
+    { t: "order", p: "ไม่ใช่แนวของฉัน", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "จำ not my cup of tea ทั้งก้อน ตรง my ไม่ต้องใส่คำนำหน้านามเพิ่ม" },
 
-    { t: "fill", q: "Kill two __ with one stone.", p: "일석이조", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "새 두 마리니까 복수형 birds예요." },
-    { t: "fill", q: "Speak of the __!", p: "호랑이도 제 말 하면 온다더니!", a: ["devil"], o: ["tiger", "angel", "bird"], why: "영어에선 호랑이 대신 devil(악마)이 와요." },
-    { t: "fill", q: "I'm feeling under __ weather.", p: "몸이 좀 안 좋아요", a: ["the"], o: ["a", "an", "my"], why: "under the weather — 관사 the를 그대로 써요." },
+    { t: "fill", q: "Kill two __ with one stone.", p: "ยิงปืนนัดเดียวได้นกสองตัว", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "นกสองตัวต้องเป็นรูปพหูพจน์ birds" },
+    { t: "fill", q: "Speak of the __!", p: "ตายยาก พูดถึงปุ๊บมาปั๊บเลย", a: ["devil"], o: ["tiger", "angel", "bird"], why: "ภาษาไทยพูดว่า ตายยาก ส่วนสำนวนอังกฤษใช้ devil (ปีศาจ)" },
+    { t: "fill", q: "I'm feeling under __ weather.", p: "ฉันรู้สึกไม่ค่อยสบาย", a: ["the"], o: ["a", "an", "my"], why: "under the weather ใช้คำนำหน้านาม the ตามสำนวน" },
 
-    { t: "type", p: "식은 죽 먹기예요", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — 관사를 잊지 마세요", x: ["the"], why: "a piece of cake — 관사 a를 꼭 붙여요." },
-    { t: "type", p: "잘되길 빌게요", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — 손가락은 몇 개?", x: ["finger"], why: "손가락 두 개를 꼬니까 복수형 fingers예요." },
-    { t: "type", p: "오늘은 여기까지 해요", a: ["Let's call it a day"], hint: "call it · day — the가 아니에요", x: ["the"], why: "call it a day — 관사 the가 아니라 a예요." }
+    { t: "type", p: "ง่ายเหมือนปอกกล้วยเข้าปาก (ใช้ cake)", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — อย่าลืมคำนำหน้านาม", x: ["the"], why: "a piece of cake ต้องมีคำนำหน้านาม a" },
+    { t: "type", p: "ขอให้โชคดีนะ ฉันจะเอาใจช่วย (ใช้ fingers crossed)", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — นิ้วกี่นิ้ว", x: ["finger"], why: "ไขว้นิ้วสองนิ้ว จึงใช้รูปพหูพจน์ fingers" },
+    { t: "type", p: "วันนี้พอแค่นี้ก่อน", a: ["Let's call it a day"], hint: "call it · day — ไม่ใช่ the", x: ["the"], why: "call it a day ใช้คำนำหน้านาม a ไม่ใช่ the" }
   ]
 };

@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "tinglish": "th-only lesson (profile th.md §8 'add' / §4.7 / §9): Tinglish traps — word-for-word verbs (open/close the light → turn on/off, go to shopping → go shopping, play phone → be on my phone, check bill → Check, please), Thai-English words (same same, fitness, American share), bored vs boring, answering negative questions, no Thai particles in English; framed as 'understood in Thailand, say this abroad'; placed after smalltalk via profile.json lessonOrder.after; deck กับดักภาษาอังกฤษแบบไทย; no ko-en counterpart (mirrors zh chinglish)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["tinglish"]
+}

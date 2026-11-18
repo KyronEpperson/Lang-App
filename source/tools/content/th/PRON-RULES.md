@@ -4,7 +4,7 @@ These rules are binding for every `pron` field: card `pron` in decks.js, IDIOMS 
 
 The base is docs/profiles/zh.md §6: OALD North American values in the school symbol set, slashes, ˈ on every content word, and weak forms. The rules below settle cases §6 leaves open. Where the five writers disagreed, the majority form or the OALD form won.
 
-**Checker:** `node tools/content/th/pron_check.js [summary|phrases|words|rules|all]`. It currently reports 0 phrase conflicts, 0 word conflicts (outside the allowed weak/strong pairs) and 0 rule hits. Every `pron` must also match profile.json `pronPattern`, which `validate.js` checks.
+**Checker:** `node tools/content/th/pron_check.js [summary|phrases|words|rules|all]`. After the th review (2026-11-18) it reports 791 pairs, 0 phrase conflicts, 0 word conflicts (outside the allowed weak/strong pairs) and 0 rule hits. Every `pron` must also match profile.json `pronPattern`, which `validate.js` checks. The checker does not see IPA inside lesson tables (`<td>/…/</td>`) or card notes; those were checked by hand (see §E).
 
 ## A. Symbols
 1. School symbols, American values: oʊ (not əʊ), ɑː for LOT (hot /ˈhɑːt/), ɔː for THOUGHT (talk, dog, coffee), ɜːr, ər, ɪr / er / ʊr, ɑːr / ɔːr.
@@ -16,7 +16,7 @@ The base is docs/profiles/zh.md §6: OALD North American values in the school sy
    - **/n/ keeps ə after other consonants and after tʃ / dʒ:** open /ˈoʊpən/, taken /ˈteɪkən/, spoken /ˈspoʊkən/, stolen /ˈstoʊlən/, children /ˈtʃɪldrən/, question /ˈkwestʃən/, moment /ˈmoʊmənt/, million /ˈmɪljən/. After a vowel, ə stays too: towel /ˈtaʊəl/.
    - **Inside a word, before another vowel, ə stays**, as in the citation form of the longer word: listening /ˈlɪsənɪŋ/, air conditioner /kənˈdɪʃənər/. One lexical exception: distance /ˈdɪstəns/.
    - **Names keep ə:** Boston /ˈbɔːstən/, Hilton /ˈhɪltən/.
-   - Changed in this review (11 rows): ˈsevən, ɪˈlevən, ˈsteɪʃən, ˈpiːpəl, ˈmedɪsən, ˈɪzənt, ˈdʌzənt, ˈdɪdənt.
+   - (zh history: 11 rows were normalised to these forms in the zh review; th copied the settled forms.)
 
 ## B. Weak and strong forms
 | word | unstressed (default) | strong (alone, contrast, stranded) |
@@ -24,7 +24,7 @@ The base is docs/profiles/zh.md §6: OALD North American values in the school sy
 | a / an / the | ə / ən / ðə (ði before a vowel sound) | — |
 | to | tə; **tu before a vowel** (like to order /tu ˈɔːrdər/, like to ask, writing to ask) | tuː (look forward to) |
 | for / from / at / of | fər / frəm / ət / əv | fɔːr / frʌm / æt |
-| and / or / but | ənd / ər / bət | not used in any row. In *And you?* only *you* is stressed: /ənd ˈjuː/ (profile §6) |
+| and / or / but | ənd / ər / bət | *but* as a citation word (pron deck *bus / but*, pron lesson) is /ˈbʌt/; inside a sentence it is weak /bət/ (*I'm tired but happy*). This pair is in the checker's ALLOWED list. In *And you?* only *you* is stressed: /ənd ˈjuː/ (profile §6) |
 | can / could / should / would | kən / **kəd / ʃəd / wəd** | — (not stressed in any row) |
 | do / does / did / have / has / had (auxiliary) | də / dəz / dɪd / həv / həz / həd | duː, dʌz… as main verbs (ˈduː, ˈhæv, ˈdɪd) |
 | have to / has to | ˈhæf tə / ˈhæs tə | |
@@ -35,8 +35,7 @@ The base is docs/profiles/zh.md §6: OALD North American values in the school sy
 | there (existential) / there (adverb) | ðer | ˈðer (Hang in there.) |
 | so (conjunction) / so (adverb) | soʊ | ˈsoʊ (so happy) |
 
-- Could, should and would were split between strong /kʊd ʃʊd wʊd/ (11 deck rows) and weak /kəd ʃəd wəd/ (lesson rows), sometimes on the same sentence. All unstressed modals now take the OALD weak form.
-- Your and you're were split between /jʊr/ and /jər/. They are now /jʊr/ everywhere, which is the OALD citation form and was the majority.
+- Unstressed modals take the OALD weak form (/kəd ʃəd wəd/); *might* stays /maɪt/ unstressed. Your and you're are /jʊr/ everywhere. *they're* is /ðer/ like existential *there*.
 
 ## C. Stress (ˈ)
 1. §6 rule 3 applies as written: the closed function-word list stays unmarked, and every other word gets ˈ, monosyllables included.
@@ -49,5 +48,13 @@ The base is docs/profiles/zh.md §6: OALD North American values in the school sy
 - One pair of slashes, words separated by single spaces, and no punctuation, capitals or digits.
 - ` ‖ ` separates sentences inside one row.
 - Alternatives are written as two slashed groups: `/ˌfɪfˈtiːn/ /ˈfɪfti/`.
-- Numbers are written as words, abbreviations letter by letter, and Chinese names as the en-US voice says them (Li Wei /ˈliː ˈweɪ/, Shanghai /ˌʃæŋˈhaɪ/, Beijing /ˌbeɪˈdʒɪŋ/, Chengdu /ˌtʃeŋˈduː/).
-- Codas are always written in full (-s /s z ɪz/, -ed /t d ɪd/, clusters). Write no inserted vowels. The one deliberate exception is the error illustration /ˈbedə/ in the pron lesson prose.
+- Numbers are written as words, abbreviations letter by letter, and Thai names and places as the en-US voice says them (profile th.md §6 rule 6; approximations, not verified against the voice).
+- Codas are always written in full (-s /s z ɪz/, -ed /t d ɪd/, clusters). Write no inserted vowels. This matters most for Thai learners (profile §6 rule 5): *works* /ˈwɜːrks/, *asked* /ˈæskt/, *months* /ˈmʌnθs/, *McDonald's* /məkˈdɑːnldz/.
+
+## E. th-only transcriptions (no zh counterpart; settled in the th review)
+These 38 word forms occur only in th-en. Each has exactly one transcription across decks, idioms, `{{ex}}` rows, lesson tables and notes.
+- **Names and places:** Ploy /ˈplɔɪ/, Somchai /ˈsɑːmtʃaɪ/, Suda /ˈsuːdə/, Thailand /ˈtaɪlænd/, Thai /ˈtaɪ/, Bangkok /ˈbæŋkɑːk/, Chiang Mai /ˌtʃɑːŋ ˈmaɪ/, Phuket /ˌpuːˈket/, baht /ˈbɑːt/, tom yum /ˌtɑːm ˈjʌm/. ˌ inside a two-word name marks the weaker first part, as in the profile key.
+- **Thai minimal pairs (pron deck and lesson):** fin /ˈfɪn/, dock /ˈdɑːk/, shoe /ˈʃuː/, chew /ˈtʃuː/, zoo /ˈzuː/, Sue /ˈsuː/; *but* /ˈbʌt/ as a citation form (§B).
+- **Tinglish deck and lesson:** they're /ðer/, similar /ˈsɪmələr/, shopping /ˈʃɑːpɪŋ/, gym /ˈdʒɪm/, boring /ˈbɔːrɪŋ/, interested /ˈɪntrəstɪd/ (three syllables, OALD first form), fancy /ˈfænsi/, full /ˈfʊl/, sweet /ˈswiːt/, OK /oʊˈkeɪ/ (same as *okay*).
+- **Other:** haven't /ˈhævnt/ (syllabic n after v, §A4), tickets /ˈtɪkɪts/, market /ˈmɑːrkɪt/, writer /ˈraɪtər/.
+- **Lesson tables are checked by hand.** The pron lesson's stress table had *McDonald's* as /məkˈdɑːnəldz/ against the deck's /məkˈdɑːnldz/ (§A4 syllabic l); it now matches the deck.

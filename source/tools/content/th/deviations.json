@@ -1,7 +1,25 @@
 {
-  "lessons": {},
+  "lessons": {
+    "tinglish": "th-only lesson (profile th.md §8 'add' / §4.7 / §9): Tinglish traps — word-for-word verbs (open/close the light → turn on/off, go to shopping → go shopping, play phone → be on my phone, check bill → Check, please), Thai-English words (same same, fitness, American share), bored vs boring, answering negative questions, no Thai particles in English; framed as 'understood in Thailand, say this abroad'; placed after smalltalk via profile.json lessonOrder.after; deck กับดักภาษาอังกฤษแบบไทย; no ko-en counterpart (mirrors zh chinglish)",
+    "time-markers": "th-only lesson (profile th.md §8 additions, §4.2–4.3): maps the Thai aspect words แล้ว / กำลัง / จะ / เคย / ยัง / เพิ่ง onto English verb forms (be + -ing, will, V2, have + V3, haven't … yet), with the two rules Thai lacks (a time word does not replace the verb form; English must choose a tense even with no time word). Placed after perfect via profile.json lessonOrder.after; same id and shape as id-en time-markers; new body, check and 16-item practice set that satisfies the standing rule article-plural (§7)."
+  },
   "items": {},
-  "decks": {},
-  "extraLessons": [],
+  "decks": {
+    "แนะนำตัว": "localisation per profile th.md §9 (Minji→Ploy, Korea→Thailand, Seoul→Bangkok): cards 0 'My name is Ploy.', 4 'I'm from Thailand.', 5 'I live in Bangkok.'",
+    "ภาษาอังกฤษเอาตัวรอด 1": "localisation per profile th.md §9: card 12 'Do you speak Korean?' → 'Do you speak Thai?' (learner's own language)",
+    "สั่งอาหารในร้าน": "th-only cards appended per profile th.md §9 / DECKNAMES row 6 (cards 17–18): 'Not spicy, please.', 'Can I get the check?' (the natural form of Tinglish 'check bill'). Original 17 cards unchanged",
+    "คุยเล่น": "localisation per profile th.md §9: card 6 'Have you been to Korea?' → 'Have you been to Thailand?'",
+    "คำชมและความประทับใจ": "localisation per profile th.md §9: card 8 'Your Korean is really good!' → 'Your Thai is really good!'",
+    "โทรศัพท์และคำย่อในแชต": "localisation per profile th.md §9 (Minji→Ploy; Thai first-name address, Mr. Kim→Mr. Somchai): cards 0 'Hello, this is Ploy.', 1 'Can I speak to Mr. Somchai?'",
+    "ท่องเที่ยว (สนามบินและโรงแรม)": "localisation per profile th.md §9: card 8 reservation name 'under Kim' → 'under Suda' (formal Thai first name)",
+    "โรงพยาบาลและเหตุฉุกเฉิน": "localisation per profile th.md §9: card 15 'the Korean embassy' → 'the Thai embassy' (learner's own embassy)",
+    "ระวังการออกเสียง": "th-only cards appended per profile th.md §4.14 / §9 (cards 26–43): final s vs t bus/but, nice/night; final l vs n and [w] fill/fin, ball; final voicing bag/back, dog/dock; v/w wary; sh/ch shoe/chew; z/s zoo/Sue; clusters months, asked. Pairs whose other half already exists reuse the shared cards (rice/lice, right/light, three/tree, very). Original 26 cards unchanged",
+    "กับดักภาษาอังกฤษแบบไทย": "th-only deck (profile th.md §4.7 / §8 tinglish / §9 deck 21): 22 cards, each the form used abroad with a note naming the Thai-English form it replaces (open/close the light, same same, check bill, go to shopping, fitness, I'm boring, American share, play phone, hi-so, used to go, na…); linked to the th-only lesson tinglish; no ko-en counterpart. Cards already in other decks (Same here., I'm bored., Take care., See you later., Can I get this to go?) are not repeated",
+    "count": "deck count 21 vs ko-en 20: th-only deck กับดักภาษาอังกฤษแบบไทย (profile th.md §9 row 21) appended last"
+  },
+  "extraLessons": [
+    "tinglish",
+    "time-markers"
+  ],
   "droppedLessons": []
 }
