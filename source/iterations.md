@@ -900,3 +900,12 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Engine fixes found by the proof: filled pattern slots are wrapped in first-strong isolates for right-to-left languages; the review-interval line drops its Latin unit letter and uses a leftward arrow; Arabic numbers use the body font (the monospace fallback breaks Arabic shaping); `uiDir()` follows the browser language before a language is picked.
 - Site description updated to "English for speakers of 13 languages".
 - Known: with Arabic packs present the harness guard `lockedDisabled` fails because no language is left locked; the guard must be rewritten when Arabic ships.
+
+## Arabic speakers → English (2.22.0), the first right-to-left course
+- Built from the Korean course. Profile `docs/profiles/ar.md`. 41 lessons including two Arabic-only ones (`be-2`: when *be* is needed and when it is not — *He tall*, *She is study*; `arabic-traps`: word-for-word translations from Arabic), 21 decks / 410 cards (deck 21 «فخاخ الترجمة الحرفية»), interface 769 + 272 + 425.
+- Writers were staggered to stay under the usage limit: interface (Sonnet) and decks first, then the three lesson files (Opus), then the cold review. No interruption this time.
+- Reviewer's edits per file: decks.js 12, extra.js 4, meta.js 0 · lessons.js 6, practice.js 4, a1 57, a2 31, b1 20 (82 of these unify the hint format) · ui.json 14, roadmap.json 11 (159 total, 16 wrong or misleading). A script checked the first strong letter of every Arabic-side string (two table rows fixed); no direction marks, no Arabic-Indic digits, no arrows in Arabic prose. Pronunciation: 0 edits, 807 pairs with 0 conflicts.
+- Reviewer read all course content; skimmed parts of the profile; read interface `t` values against their English keys only.
+- Lead: right-to-left engine work (2.21.1, 2.21.2), measured facts, read REVIEW.md and the `be-2` lesson, read the 19 right-to-left screenshots of the real course. Harness guard `lockedDisabled` now accepts "every listed language is live". Site description says 14 languages.
+- Open: no native Arabic speaker has read it; real-phone rendering and Arabic system fonts unchecked; the en-US voice on Arabic names unchecked; `polite` check option «~ing (opening)» is bound by parity (it renders left-to-right, which is correct for English); share-card canvas text in Arabic not inspected.
+- Evidence: validate PASS, parity PASS (vs ko-en), lint 0 blocking, e2e OK on all 41 lessons, `rtl.js ar` 19 PASS, harness guards pass, site test PASS.

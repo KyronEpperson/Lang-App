@@ -1,7 +1,24 @@
 {
-  "lessons": {},
+  "lessons": {
+    "arabic-traps": "ar-only lesson (profile ar.md §8 'add' / §4.12 / §9): word-for-word translation traps from Arabic — light and party verbs (افتح النور، أعمل حفلة، أعمل واجبي، ارتكب خطأ), age and states (عمري…، أنا موافق، bored / boring), verb + preposition calques (explain it to me, listen to, discuss, married to, depend on), false friends (actually, library, sensitive / sensible, attend / assist) and uncountables that are plural in Arabic (information, advice); placed after smalltalk via profile.json lessonOrder.after; deck 21 فخاخ الترجمة الحرفية; no ko-en counterpart (mirrors zh chinglish)",
+    "be-2": "ar-only lesson (profile ar.md §8 add, §4.2, §7): «فعل الكينونة: متى يلزم ومتى لا يلزم», placed after tense (profile.json lessonOrder.after), deck التعريف بالنفس. be is the Arabic gap the standing rule cannot test: the Arabic nominal sentence has no verb, so learners leave be out (He tall, She athletic — Alolaywi 2023, Hussain 2019, Alshayban 2012) and, in the mirror error, put it before main verbs (She is study, I am agree, It is cost). ko-en never returns to be after lesson 3; by tense every contrast be-2 needs (is / was, is + -ing, does vs is) has been taught. Practice set is the profile §8 16-item set (5 mc, 4 order, 3 fill, 4 type; standing rule met 3/4 order and 3/4 type); checks and body rows are new. No ko-en counterpart."
+  },
   "items": {},
-  "decks": {},
-  "extraLessons": [],
+  "decks": {
+    "التعريف بالنفس": "localisation per profile ar.md §9 (Minji→Sara, Korea→Egypt, Seoul→Dubai): cards 0 'My name is Sara.', 4 'I'm from Egypt.', 5 'I live in Dubai.'",
+    "عبارات أساسية 1": "localisation per profile ar.md §9: card 12 'Do you speak Korean?' → 'Do you speak Arabic?' (learner's own language)",
+    "دردشة يومية": "localisation per profile ar.md §9 (countries rotate): card 6 'Have you been to Korea?' → 'Have you been to Morocco?'",
+    "المجاملات والإعجاب": "localisation per profile ar.md §9: card 8 'Your Korean is really good!' → 'Your Arabic is really good!'",
+    "الهاتف واختصارات الرسائل": "localisation per profile ar.md §9 (Minji→Sara, Mr. Kim→Mr. Haddad): cards 0 'Hello, this is Sara.', 1 'Can I speak to Mr. Haddad?'",
+    "السفر (المطار والفندق)": "localisation per profile ar.md §9: card 8 reservation name 'under Kim' → 'under Haddad' (surname)",
+    "المستشفى والطوارئ": "localisation per profile ar.md §9 (countries rotate): card 15 'the Korean embassy' → 'the Saudi embassy' (learner's own embassy)",
+    "فخاخ النطق": "ar-only cards appended per profile ar.md §4.13 / §9 (cards 26–45): p/b park, bark, pull, bull, pen, Ben, pie, buy; v/f ferry, van (very and fan already exist); hard vowels bit, bet, cat, cut; clusters street, spring, asked; ŋ singing; silent letters Wednesday, listen. Original 26 cards unchanged",
+    "فخاخ الترجمة الحرفية": "ar-only deck (profile ar.md §4.12 / §8 arabic-traps / §9): 24 cards of word-for-word translations and false friends from Arabic, each note naming the Arabic source; linked to the ar-only lesson arabic-traps; no ko-en counterpart. Profile's list adjusted to avoid duplicate targets: 'I'm thirty years old.' (deck 2 already has 'I'm 25 years old.'), 'This class is boring.' only ('I'm bored.' is in deck 11), 'Take care.' and 'Excuse me.' dropped (decks 1 and 3); added 'She's very sensitive.', 'I attended the meeting.', 'I have a cold.'",
+    "count": "deck count 21 vs ko-en 20: ar-only deck فخاخ الترجمة الحرفية (profile ar.md §9) appended last"
+  },
+  "extraLessons": [
+    "arabic-traps",
+    "be-2"
+  ],
   "droppedLessons": []
 }

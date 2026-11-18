@@ -694,7 +694,7 @@
    "where": "html <textarea> @placeholder"
   },
   "Merges with what is here; nothing is lost.": {
-   "t": "يدمج مع المحفوظ هنا ولا يضيع شيء",
+   "t": "يدمج مع المحفوظ هنا ولا يضيع شيء.",
    "ko": "지금 기록과 합쳐져요. 사라지는 건 없어요.",
    "kind": "sentence",
    "where": "html <span> text"
@@ -1235,7 +1235,7 @@
    "where": "js pl() <button>"
   },
   "No feedback yet — be the first.": {
-   "t": "لا توجد ملاحظات بعد. أول رسالة ستكون البداية.",
+   "t": "لا توجد ملاحظات بعد. يسعدنا أن تكون رسالتك الأولى.",
    "ko": "아직 피드백이 없어요 — 첫 글을 남겨 보세요.",
    "kind": "sentence",
    "where": "js roots() <div>"
@@ -1382,7 +1382,7 @@
    "where": "js sbSendLink()"
   },
   "Email just sent — check your inbox (and spam) before trying again.": {
-   "t": "تم إرسال البريد للتو — يرجى مراجعة الوارد (والرسائل غير المرغوبة) قبل المحاولة مرة أخرى.",
+   "t": "تم إرسال البريد للتو — يرجى مراجعة صندوق الوارد (والرسائل غير المرغوبة) قبل المحاولة مرة أخرى.",
    "ko": "방금 이메일을 보냈어요 — 다시 시도하기 전에 받은편지함(스팸함 포함)을 확인하세요.",
    "kind": "sentence",
    "where": "js sbSendLink()"
@@ -1863,7 +1863,7 @@
    "where": "js DECKS()"
   },
   "Not sure": {
-   "t": "غير مؤكد",
+   "t": "ليس تماما",
    "ko": "잘 모르겠어요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2175,7 +2175,7 @@
    "where": "js csv()"
   },
   "CSV copied.": {
-   "t": "تم نسخ CSV",
+   "t": "تم نسخ النص (CSV).",
    "ko": "CSV를 복사했어요.",
    "kind": "sentence",
    "where": "js csv()"
@@ -2230,7 +2230,7 @@
    "where": "js teach() <button>"
   },
   "Daily new-card cap reached. Learning anyway since you asked.": {
-   "t": "تم بلوغ حد البطاقات الجديدة اليومي. يستمر التعلم لأنه مطلوب.",
+   "t": "تم بلوغ حد البطاقات الجديدة اليومي. نتابع التعلم بناء على طلبك.",
    "ko": "오늘 새 카드 한도에 도달했어요. 원하셨으니 그래도 배울게요.",
    "kind": "sentence",
    "where": "js i()"
@@ -2399,7 +2399,7 @@
    "where": "js o() <button>"
   },
   "Which one did you hear?": {
-   "t": "ما الذي تم سماعه؟",
+   "t": "ما الذي سمعته؟",
    "ko": "어떤 걸 들었나요?",
    "kind": "sentence",
    "where": "js o() <div>"
@@ -2960,7 +2960,7 @@
    "where": "js names2()"
   },
   "Clean sweep. Tomorrow brings new cards.": {
-   "t": "أداء نظيف. غدا بطاقات جديدة.",
+   "t": "أداء مثالي. غدا بطاقات جديدة.",
    "ko": "전부 맞혔어요. 내일 새 카드가 기다려요.",
    "kind": "sentence",
    "where": "js names2()"
@@ -4040,7 +4040,7 @@
    "where": "js TITLES()"
   },
   "Senior": {
-   "t": "التقدم",
+   "t": "الخبرة",
    "ko": "선배",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4464,7 +4464,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#media": {
-   "t": "#الإعلام",
+   "t": "#الترفيه",
    "ko": "#미디어",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4478,14 +4478,14 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "· lesson counts as done when both are passed (+25 XP).": {
-   "t": "· يحتسب الدرس مكتملا عند اجتياز الاثنين (المكافأة: 25 XP)",
+   "t": "· يحتسب الدرس مكتملا عند اجتياز الاثنين (المكافأة: 25 XP).",
    "ko": "· 둘 다 통과하면 레슨 완료 (+25 XP).",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "(lesson already done).": {
-   "t": "(الدرس مكتمل بالفعل)",
+   "t": "(الدرس مكتمل بالفعل).",
    "ko": "(이미 완료한 레슨).",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -6495,7 +6495,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "irregular: {x}": {
-   "t": "غير منتظم: {1}",
+   "t": "شاذ: {1}",
    "ko": "불규칙: {1}",
    "slots": "{1}=x",
    "example": "irregular: Hello there"
@@ -6568,7 +6568,7 @@
    "example": "Hello there · 6 = mastered"
   },
   "{n} predictions · when you said \"yes\" you were right {n}% of the time ({n}/{n}) · when \"not sure\", you still got {n}% ({n}/{n}) · {n} overconfident cards go first in Weak spots": {
-   "t": "التوقعات: {1} · عند اختيار «نعم» كانت الإجابة صحيحة بنسبة {2}% ({3}/{4}) · وعند «غير مؤكد» كانت صحيحة بنسبة {5}% ({6}/{7}) · البطاقات المبالغ في الثقة بها: {8}، وتأتي أولا في «نقاط الضعف»",
+   "t": "التوقعات: {1} · عند اختيار «نعم» كانت الإجابة صحيحة بنسبة {2}% ({3}/{4}) · وعند «ليس تماما» كانت صحيحة بنسبة {5}% ({6}/{7}) · البطاقات المبالغ في الثقة بها: {8}، وتأتي أولا في «نقاط الضعف»",
    "ko": "예측 {1}번 · \"네\"라고 했을 때 {2}% 맞혔어요 ({3}/{4}) · \"잘 모르겠어요\"라고 했을 때도 {5}% 맞혔어요 ({6}/{7}) · 과신한 카드 {8}장은 약점 공략에 먼저 나와요",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n, {6}=n, {7}=n, {8}=n",
    "example": "5 predictions · when you said \"yes\" you were right 2% of the time (3/4) · when \"not sure\", you still got 6% (7/8) · 9 overconfident cards go first in Weak spots",

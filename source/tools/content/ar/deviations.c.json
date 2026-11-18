@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "arabic-traps": "ar-only lesson (profile ar.md §8 'add' / §4.12 / §9): word-for-word translation traps from Arabic — light and party verbs (افتح النور، أعمل حفلة، أعمل واجبي، ارتكب خطأ), age and states (عمري…، أنا موافق، bored / boring), verb + preposition calques (explain it to me, listen to, discuss, married to, depend on), false friends (actually, library, sensitive / sensible, attend / assist) and uncountables that are plural in Arabic (information, advice); placed after smalltalk via profile.json lessonOrder.after; deck 21 فخاخ الترجمة الحرفية; no ko-en counterpart (mirrors zh chinglish)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["arabic-traps"]
+}

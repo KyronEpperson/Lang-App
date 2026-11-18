@@ -1,6 +1,6 @@
 # Build plan: the remaining eight languages → English
 
-Status on 2026-11-17: live courses are en-ko, ko-en, ja-en, es-en, zh-en, vi-en, id-en. Remaining: Portuguese, French, Italian, German, Russian, Hindi, Thai, Arabic.
+Status on 2026-11-18: all planned courses are live: en-ko, ko-en, ja-en, es-en, zh-en, vi-en, id-en, pt-en, fr-en, it-en, de-en, ru-en, hi-en, th-en, ar-en. Remaining work is review by native speakers and real-device checks (see iterations.md and each tools/content/<lang>/REVIEW.md).
 
 ## Who does what (model split)
 

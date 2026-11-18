@@ -89,7 +89,7 @@ Go straight. | /ˈgoʊ ˈstreɪt/ | امش إلى الأمام مباشرة | ف
 Turn left at the corner. | /ˈtɜːrn ˈleft ət ðə ˈkɔːrnər/ | انعطف يسارا عند الزاوية | وعند الإشارة الضوئية: at the light
 It's on your right. | /ɪts ɑːn jʊr ˈraɪt/ | إنه على يمينك | الراء الأمريكية r لا تضرب كالراء العربية، بل يلتف اللسان إلى الخلف دون أن يلمس شيئا
 It's across the street. | /ɪts əkrɔːs ðə ˈstriːt/ | إنه في الجهة المقابلة من الشارع | عبارة across from تعني "مقابل"، مثل across from the bank
-It's next to the bank. | /ɪts ˈnekst tə ðə ˈbæŋk/ | إنه بجانب البنك | الحرف t في آخر next وأول to تلتقيان، فننطق واحدة فقط
+It's next to the bank. | /ɪts ˈnekst tə ðə ˈbæŋk/ | إنه بجانب البنك | الصوت t في آخر next وفي أول to يلتقيان، فننطقه مرة واحدة
 Which line goes downtown? | /ˈwɪtʃ ˈlaɪn ˈgoʊz ˌdaʊnˈtaʊn/ | أي خط يذهب إلى وسط المدينة؟ | لا نضع to قبل downtown
 Where do I transfer? | /ˈwer də aɪ trænsˈfɜːr/ | أين أبدل القطار؟ | في بريطانيا نقول change بدلا منها
 Does this bus go to the airport? | /dəz ˈðɪs ˈbʌs ˈgoʊ tə ði ˈerpɔːrt/ | هل تذهب هذه الحافلة إلى المطار؟ | أداة التعريف the قبل صوت متحرك تنطق /ði/، كما في the airport
@@ -173,7 +173,7 @@ Two hundred and fifty | /ˈtuː ˈhʌndrəd ənd ˈfɪfti/ | مئتان وخمس
 Ten thousand | /ˈten ˈθaʊznd/ | عشرة آلاف (10,000) | تقرأ كما في العربية: ten ثم thousand، لكن بلا s بعد العدد رغم أن العربية تقول "آلاف": ten thousands ✗
 One million | /ˈwʌn ˈmɪljən/ | مليون (1,000,000) | وعشرة ملايين ten million، بلا s أيضا رغم "ملايين" في العربية
 Twice a week | /ˈtwaɪs ə ˈwiːk/ | مرتين في الأسبوع | نقول once للمرة الواحدة، و twice للمرتين، ثم three times. ونقول a week بمعنى "في الأسبوع"
-In ten minutes | /ɪn ˈten ˈmɪnɪts/ | بعد عشر دقائق | حرف الجر in قبل مدة في المستقبل تعني "بعد"، لا "في غضون"
+In ten minutes | /ɪn ˈten ˈmɪnɪts/ | بعد عشر دقائق | حرف الجر in قبل مدة في المستقبل يعني "بعد"، لا "في غضون"
 `,
 "دردشة يومية": `
 How was your weekend? | /ˈhaʊ wəz jʊr ˈwiːkend/ | كيف كانت عطلة نهاية الأسبوع؟ | سؤال معتاد في أول يوم عمل. و weekend تعني العطلة الأسبوعية أيا كانت أيامها، والجواب جملة أو جملتان ثم نسأل بدورنا
@@ -223,7 +223,7 @@ You're so funny. | /jʊr ˈsoʊ ˈfʌni/ | أنت مضحك جدا | كلمة fun
 Great job! | /ˈgreɪt ˈdʒɑːb/ | عمل رائع! | في العمل والدراسة، ومثلها Nice work
 I'm proud of you. | /aɪm ˈpraʊd əv ju/ | أنا فخور بك | للأهل والأصدقاء، وقد يقولها المدير لموظفيه. حرف الجر of، لا with كما توحي "فخور بك"
 You did it! | /ju ˈdɪd ɪt/ | لقد نجحت! | لمن حقق هدفه
-Your Arabic is really good! | /jʊr ˈærəbɪk ɪz ˈriːəli ˈgʊd/ | عربيتك ممتازة! | جملة تسعد أي أجنبي يتعلم العربية. وأسماء اللغات تبدأ بحرف كبير دائما: Arabic
+Your Arabic is really good! | /jʊr ˈærəbɪk ɪz ˈriːəli ˈgʊd/ | لغتك العربية ممتازة! | جملة تسعد أي أجنبي يتعلم العربية. وأسماء اللغات تبدأ بحرف كبير دائما: Arabic
 You have good taste. | /ju ˈhæv ˈgʊd ˈteɪst/ | ذوقك رفيع | لمدح الذوق في الملابس أو الموسيقى أو الديكور
 I really enjoyed spending time with you. | /aɪ ˈriːəli ɪnˈdʒɔɪd ˈspendɪŋ ˈtaɪm wɪð ju/ | استمتعت كثيرا بقضاء الوقت معك | في نهاية لقاء أو سهرة، وبعد spend يأتي الفعل بصيغة -ing
 Do you want to grab coffee sometime? | /də ju ˈwɑːnt tə ˈgræb ˈkɔːfi ˈsʌmtaɪm/ | هل تريد أن نشرب قهوة في وقت ما؟ | الفعل grab يعني أكل شيء أو شربه بسرعة، و want to تنطق في الكلام السريع wanna
@@ -251,7 +251,7 @@ Can you walk me through it? | /kən ju ˈwɔːk mi θruː ɪt/ | هل يمكنك
 Let's touch base next week. | /ˈlets ˈtʌtʃ ˈbeɪs ˈnekst ˈwiːk/ | لنتواصل الأسبوع القادم | للاتفاق على حديث قصير لمتابعة سير العمل
 What's the deadline? | /ˈwʌts ðə ˈdedlaɪn/ | ما الموعد النهائي؟ | ومثلها When is this due
 I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | أعمل من البيت اليوم | اختصارها WFH
-I'm off tomorrow. | /aɪm ˈɔːf təˈmɑːroʊ/ | غدا يوم إجازتي | وللإجازة السنوية ليوم واحد: I'm taking a day off tomorrow
+I'm off tomorrow. | /aɪm ˈɔːf təˈmɑːroʊ/ | غدا يوم إجازتي | ومثلها: I'm taking a day off tomorrow، أي سآخذ يوم إجازة غدا
 Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | شكرا على كل جهودك | للشكر على جهد طويل، عند نهاية مشروع أو وداع زميل
 `,
 "الهاتف واختصارات الرسائل": `
@@ -286,7 +286,7 @@ My luggage is missing. | /maɪ ˈlʌgɪdʒ ɪz ˈmɪsɪŋ/ | أمتعتي مفق
 I have a reservation under Haddad. | /aɪ ˈhæv ə ˌrezərˈveɪʃn ʌndər həˈdæd/ | عندي حجز باسم حداد | كلمة under ثم اسم صاحب الحجز تعني "باسم"
 What time is check-out? | /ˈwʌt ˈtaɪm ɪz ˈtʃekaʊt/ | متى موعد المغادرة؟ | ولطلب التأخير: Can I get a late check-out
 Can I check in early? | /kən aɪ ˈtʃek ˈɪn ˈɜːrli/ | هل يمكنني تسجيل الدخول مبكرا؟ | عبارة check in تنطق متصلة كأنها كلمة واحدة
-Is breakfast included? | /ɪz ˈbrekfəst ɪnˈkluːdɪd/ | هل الفطور مشمول؟ | الحرفان ea في breakfast تنطق حركة قصيرة /e/، لا كما في break
+Is breakfast included? | /ɪz ˈbrekfəst ɪnˈkluːdɪd/ | هل الفطور مشمول؟ | الحرفان ea في breakfast ينطقان حركة قصيرة /e/، لا كما في break
 The air conditioner isn't working. | /ði ˈer kənˈdɪʃənər ˈɪznt ˈwɜːrkɪŋ/ | المكيف لا يعمل | ونختصرها كثيرا: AC
 Could I get some extra towels? | /kəd aɪ ˈget ˈsʌm ˈekstrə ˈtaʊəlz/ | أحتاج إلى مناشف إضافية من فضلك | كلمة towels بصيغة الجمع بعد some
 Can you hold my bags until 3? | /kən ju ˈhoʊld maɪ ˈbægz əntɪl ˈθriː/ | هل يمكنكم حفظ حقائبي حتى الثالثة؟ | لطلب حفظ الحقائب بعد المغادرة، و hold هنا بمعنى "يحفظ"
@@ -320,7 +320,7 @@ figure out | /ˈfɪgjər ˈaʊt/ | يفهم / يجد الحل | نقول I can't
 find out | /ˈfaɪnd ˈaʊt/ | يعرف / يكتشف معلومة | لمعرفة معلومة أو حقيقة، أما figure out فبالتفكير وحل المشكلة
 look for | /ˈlʊk fɔːr/ | يبحث عن | للبحث المستمر: I'm looking for my keys، وعند العثور: find
 look after | /ˈlʊk ˈæftər/ | يعتني / يرعى | وفي أمريكا يشيع أيضا take care of، مثل: Can you look after my cat
-look forward to | /ˈlʊk ˈfɔːrwərd tuː/ | يتطلع إلى | بعد to اسم أو -ing، لا الفعل المجرد: I'm looking forward to seeing you
+look forward to | /ˈlʊk ˈfɔːrwərd tuː/ | يتطلع إلى | بعد to اسم أو -ing، لا التصريف الأول: I'm looking forward to seeing you
 run out of | /ˈrʌn ˈaʊt əv/ | ينفد | العربية تقول "نفد الحليب" فتجعل الحليب فاعلا، والإنجليزية تجعل الفاعل نحن: We ran out of milk
 turn on | /ˈtɜːrn ˈɑːn/ | يشغل / يضيء | لتشغيل الكهرباء والأجهزة: Turn on the light، ولا نقول open the light كما في "افتح النور"
 turn off | /ˈtɜːrn ˈɔːf/ | يطفئ | والضمير في الوسط: Turn it off، لا turn off it، ولا close the light
@@ -383,7 +383,7 @@ cut | /ˈkʌt/ | يقطع | فتحة قصيرة في وسط الفم /ʌ/. وا�
 street | /ˈstriːt/ | شارع | ثلاثة أصوات ساكنة متتالية str في أول الكلمة، بلا همزة قبلها وبلا حركة بينها
 spring | /ˈsprɪŋ/ | الربيع / نابض | الأصوات spr في أولها بلا همزة قبلها، و ng في آخرها صوت واحد بلا g بعده
 asked | /ˈæskt/ | سأل (الماضي) | ثلاثة أصوات ساكنة في آخرها skt، فالكلمة مقطع واحد، و ed هنا تنطق /t/
-singing | /ˈsɪŋɪŋ/ | الغناء | الحرفان ng صوت واحد ينطق من آخر الحلق مثل النون، بلا g بعده
+singing | /ˈsɪŋɪŋ/ | الغناء | الحرفان ng صوت واحد ينطق من أقصى الفم مثل النون، بلا g بعده
 Wednesday | /ˈwenzdeɪ/ | الأربعاء | حرف d الأول لا ينطق، ولا حرف e الثاني، فالكلمة مقطعان فقط
 listen | /ˈlɪsn/ | يستمع | حرف t لا ينطق، ونقول listen to قبل الشيء المسموع: listen to music
 `,
@@ -395,7 +395,7 @@ Let's call it a day. | /ˈlets ˈkɔːl ɪt ə ˈdeɪ/ | لنكتف بهذا ا�
 I'm feeling under the weather. | /aɪm ˈfiːlɪŋ ʌndər ðə ˈweðər/ | أشعر بتوعك بسيط | لمرض خفيف كالزكام، ولا علاقة لها بالطقس
 I need to hit the books. | /aɪ ˈniːd tə ˈhɪt ðə ˈbʊks/ | يجب أن أدرس بجد | قبل الامتحان، ولا علاقة لها بضرب الكتب
 Once in a blue moon | /ˈwʌns ɪn ə ˈbluː ˈmuːn/ | نادرا جدا | للشيء النادر: I only eat fast food once in a blue moon
-Better late than never. | /ˈbetər ˈleɪt ðən ˈnevər/ | أن تأتي متأخرا خير من ألا تأتي | لتشجيع من بدأ متأخرا
+Better late than never. | /ˈbetər ˈleɪt ðən ˈnevər/ | أن تصل متأخرا خير من ألا تصل | لتشجيع من بدأ متأخرا
 Don't beat around the bush. | /ˈdoʊnt ˈbiːt əraʊnd ðə ˈbʊʃ/ | ادخل في الموضوع مباشرة | لطلب الدخول في صلب الموضوع بلا مراوغة
 It's not my cup of tea. | /ɪts ˈnɑːt maɪ ˈkʌp əv ˈtiː/ | ليس من ذوقي | للرفض بلطف
 Let's get the ball rolling. | /ˈlets ˈget ðə ˈbɔːl ˈroʊlɪŋ/ | لنبدأ العمل | لبدء اجتماع أو مشروع
@@ -437,12 +437,12 @@ I agree with you. | /aɪ əˈgriː wɪð ju/ | أتفق معك | ترجمة حر
 I'm having a party. | /aɪm ˈhævɪŋ ə ˈpɑːrti/ | سأقيم حفلة | ترجمة حرفية: "أعمل حفلة" تصبح make a party، والإنجليزية تقول have a party أو throw a party
 I need to do my homework. | /aɪ ˈniːd tə ˈduː maɪ ˈhoʊmwɜːrk/ | يجب أن أحل واجبي | ترجمة حرفية: "أعمل واجبي" تقود إلى make my homework، والإنجليزية تقول do my homework
 I made a mistake. | /aɪ ˈmeɪd ə mɪˈsteɪk/ | ارتكبت خطأ | ترجمة حرفية: "فعلت خطأ" تقود إلى did a mistake، والإنجليزية تقول make a mistake
-This class is boring. | /ˈðɪs ˈklæs ɪz ˈbɔːrɪŋ/ | هذا الدرس ممل | ترجمة حرفية: من "أشعر بالملل في الدرس" يقول بعضنا I'm boring، وهي تعني "أنا ممل". الشيء الذي يسبب الملل boring، والشعور نفسه bored
+This class is boring. | /ˈðɪs ˈklæs ɪz ˈbɔːrɪŋ/ | هذا الدرس ممل | ترجمة حرفية: كلمة "ممل" تقود بعضنا إلى boring في كل موضع، فيقول I'm boring وهو يقصد "أشعر بالملل"، وهي تعني "أنا شخص ممل". الشيء الذي يسبب الملل boring، والشعور نفسه bored
 Can you explain it to me? | /kən ju ɪkˈspleɪn ɪt tə mi/ | هل يمكنك أن تشرحه لي؟ | ترجمة حرفية: "اشرح لي" تقود إلى explain me، لكن explain يتبعها الشيء ثم to me
 I'm listening to music. | /aɪm ˈlɪsənɪŋ tə ˈmjuːzɪk/ | أستمع إلى الموسيقى | ترجمة حرفية: "أسمع الموسيقى" بلا حرف جر تقود إلى listen music، والإنجليزية تحتاج to بعد listen
-Let's discuss the plan. | /ˈlets dɪˈskʌs ðə ˈplæn/ | لنناقش الخطة | ترجمة حرفية: "نتحدث عن الخطة" تقود إلى discuss about، لكن discuss لا تحتاج حرف جر
+Let's discuss the plan. | /ˈlets dɪˈskʌs ðə ˈplæn/ | لنناقش الخطة | ترجمة حرفية: "نتناقش في الخطة" أو "نتناقش حول الخطة" تقود إلى discuss about، لكن discuss لا تحتاج حرف جر
 She's married to a doctor. | /ʃiz ˈmærid tu ə ˈdɑːktər/ | هي متزوجة من طبيب | ترجمة حرفية: "متزوجة من" تقود إلى married with أو married from، والإنجليزية تقول married to
-It depends on you. | /ɪt dɪˈpendz ɑːn ju/ | الأمر يعتمد عليك | ترجمة حرفية: "يعتمد على" تنجح هذه المرة، فهي depends on، أما depends of و depends from فخطأ
+It depends on you. | /ɪt dɪˈpendz ɑːn ju/ | الأمر يعتمد عليك | ترجمة حرفية: "يعتمد على" تقابلها depends on تماما، والخطأ الشائع عندنا أن نضيف is قبل الفعل: It's depend on you ✗، فالصواب It depends on you مع s وبلا is
 I need some information. | /aɪ ˈniːd ˈsʌm ˌɪnfərˈmeɪʃn/ | أحتاج إلى بعض المعلومات | ترجمة حرفية: "معلومات" جمع في العربية فيقول بعضنا informations، لكن information اسم غير معدود بلا s
 Can I give you some advice? | /kən aɪ ˈgɪv ju ˈsʌm ədˈvaɪs/ | هل تسمح لي بنصيحة؟ | ترجمة حرفية: "نصائح" تقود إلى advices، لكن advice اسم غير معدود، وللنصيحة الواحدة: a piece of advice
 Actually, I'm busy. | /ˈæktʃuəli aɪm ˈbɪzi/ | في الحقيقة، أنا مشغول | كلمة مخادعة: actually تعني "في الحقيقة" لا "حاليا"، و"حاليا" بالإنجليزية currently أو right now
@@ -450,7 +450,7 @@ I study at the library. | /aɪ ˈstʌdi ət ðə ˈlaɪbreri/ | أدرس في ا
 My friend and I went shopping. | /maɪ ˈfrend ənd aɪ ˈwent ˈʃɑːpɪŋ/ | ذهبت أنا وصديقي للتسوق | ترجمة حرفية: "أنا وصديقي" تقود إلى I and my friend، والإنجليزية تضع I في الآخر تأدبا: my friend and I
 What's your name? | /ˈwʌts jʊr ˈneɪm/ | ما اسمك؟ | ترجمة حرفية: "ما اسمك" بلا فعل تقود إلى What your name، والإنجليزية تحتاج is، ومختصرها 's
 I hope so. | /aɪ ˈhoʊp ˈsoʊ/ | أتمنى ذلك / إن شاء الله | ترجمة حرفية: نقول "إن شاء الله" للتمني، وتقابلها في الإنجليزية I hope so أو Hopefully
-Hopefully. | /ˈhoʊpfəli/ | على أمل ذلك | ترجمة حرفية: "عسى أن" عن أمر في المستقبل تقابلها Hopefully في أول الجملة: Hopefully, it won't rain
+Hopefully. | /ˈhoʊpfəli/ | نأمل ذلك / إن شاء الله | ترجمة حرفية: "عسى أن" عن أمر في المستقبل تقابلها Hopefully في أول الجملة: Hopefully, it won't rain
 She's very sensitive. | /ʃiz ˈveri ˈsensətɪv/ | هي حساسة جدا | كلمة مخادعة: "حساس" تقابلها sensitive، أما sensible فتعني "عاقل" أو "معقول"
 I attended the meeting. | /aɪ əˈtendɪd ðə ˈmiːtɪŋ/ | حضرت الاجتماع | كلمة مخادعة: "حضر" تقابلها attend، أما assist فتعني "يساعد"، و attend لا تحتاج حرف جر
 I have a cold. | /aɪ ˈhæv ə ˈkoʊld/ | عندي زكام | ترجمة حرفية: "عندي برد" تقود إلى I have cold بلا أداة، والإنجليزية تقول a cold، أما I'm cold فتعني "أشعر بالبرد"

@@ -152,7 +152,7 @@
    "roadmap": "ko"
   },
   "Want and like: -고 싶어요, 좋아해요": {
-   "t": "الرغبة والحب: -고 싶어요، 좋아해요",
+   "t": "الرغبة والإعجاب: -고 싶어요، 좋아해요",
    "ko": "-고 싶어요, 좋아해요",
    "kind": "lesson title",
    "roadmap": "ko"
@@ -578,7 +578,7 @@
    "roadmap": "ja"
   },
   "好き / きらい: likes": {
-   "t": "好き / きらい: الحب والكره",
+   "t": "好き / きらい: الإعجاب والنفور",
    "ko": "好き / きらい: 좋아함과 싫어함",
    "kind": "lesson title",
    "roadmap": "ja"
@@ -842,13 +842,13 @@
    "roadmap": "zh"
   },
   "和・还是: and, or": {
-   "t": "和・还是: و وأو",
+   "t": "和・还是: \"و\" و\"أو\"",
    "ko": "和・还是",
    "kind": "lesson title",
    "roadmap": "zh"
   },
   "Spanish of Spain": {
-   "t": "إسبانية إسبانيا",
+   "t": "الإسبانية (إسبانيا)",
    "ko": "스페인 스페인어",
    "kind": "variant",
    "roadmap": "es"
@@ -1010,7 +1010,7 @@
    "roadmap": "es"
   },
   "French of France": {
-   "t": "فرنسية فرنسا",
+   "t": "الفرنسية (فرنسا)",
    "ko": "프랑스 프랑스어",
    "kind": "variant",
    "roadmap": "fr"
@@ -1412,7 +1412,7 @@
    "roadmap": "pt"
   },
   "gostar de: likes": {
-   "t": "gostar de: الحب",
+   "t": "gostar de: الإعجاب",
    "ko": "gostar de: 좋아해요",
    "kind": "lesson title",
    "roadmap": "pt"
@@ -1520,7 +1520,7 @@
    "roadmap": "it"
   },
   "piacere: likes": {
-   "t": "piacere: الحب",
+   "t": "piacere: الإعجاب",
    "ko": "piacere: 좋아해요",
    "kind": "lesson title",
    "roadmap": "it"
@@ -1604,7 +1604,7 @@
    "roadmap": "vi"
   },
   "Yes/no questions: … phải không?": {
-   "t": "أسئلة نعم أو لا: … phải không?",
+   "t": "أسئلة نعم أو لا مع phải không",
    "ko": "예/아니오 의문문: … phải không?",
    "kind": "lesson title",
    "roadmap": "vi"
@@ -1964,7 +1964,7 @@
    "roadmap": "id"
   },
   "ada: there is, have": {
-   "t": "ada: يوجد وامتلاك",
+   "t": "ada: الوجود والامتلاك",
    "ko": "ada: 있어요",
    "kind": "lesson title",
    "roadmap": "id"
@@ -2138,7 +2138,7 @@
    "roadmap": "hi"
   },
   "पसंद, चाहिए: like and need": {
-   "t": "पसंद و चाहिए: الحب والحاجة",
+   "t": "पसंद و चाहिए: الإعجاب والحاجة",
    "ko": "पसंद, चाहिए: 좋아함과 필요",
    "kind": "lesson title",
    "roadmap": "hi"
@@ -2324,7 +2324,7 @@
    "roadmap": "ar"
   },
   "Possessive endings: ـي, ـكَ, ـه": {
-   "t": "ضمائر الملكية المتصلة: ـي, ـكَ, ـه",
+   "t": "ضمائر الملكية المتصلة: ـي، ـكَ، ـه",
    "ko": "소유 접미사: ـي, ـكَ, ـه",
    "kind": "lesson title",
    "roadmap": "ar"

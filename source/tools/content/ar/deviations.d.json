@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "be-2": "ar-only lesson (profile ar.md §8 add, §4.2, §7): «فعل الكينونة: متى يلزم ومتى لا يلزم», placed after tense (profile.json lessonOrder.after), deck التعريف بالنفس. be is the Arabic gap the standing rule cannot test: the Arabic nominal sentence has no verb, so learners leave be out (He tall, She athletic — Alolaywi 2023, Hussain 2019, Alshayban 2012) and, in the mirror error, put it before main verbs (She is study, I am agree, It is cost). ko-en never returns to be after lesson 3; by tense every contrast be-2 needs (is / was, is + -ing, does vs is) has been taught. Practice set is the profile §8 16-item set (5 mc, 4 order, 3 fill, 4 type; standing rule met 3/4 order and 3/4 type); checks and body rows are new. No ko-en counterpart."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["be-2"]
+}

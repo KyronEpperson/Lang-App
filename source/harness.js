@@ -88,7 +88,7 @@ const ovr=async(p,label)=>{ const sw=await p.evaluate(()=>document.documentEleme
   await p.evaluate(()=>{ document.querySelector('#wNick').click(); }); await p.fill('#wNickIn','Tester'); await p.evaluate(()=>document.querySelector('#wForm').requestSubmit()); await p.waitForTimeout(200);
   mc.langHomeNew=mc.langHomeNew&&await p.evaluate(()=>!!document.getElementById('langHome')&&!document.getElementById('welcome'));
   await ovr(p,'langhome-1');
-  mc.lockedDisabled=await p.evaluate(()=>{ const l=[...document.querySelectorAll('#langHome .lh-lock')]; const before=JSON.stringify(META); l.forEach(x=>x.click()); return l.length>0&&l.every(x=>x.getAttribute('aria-disabled')==='true'&&!x.matches('button,a,input')&&x.tabIndex<0&&!x.querySelector('button,a'))&&JSON.stringify(META)===before&&!!document.getElementById('langHome'); });
+  mc.lockedDisabled=await p.evaluate(()=>{ const l=[...document.querySelectorAll('#langHome .lh-lock')]; const before=JSON.stringify(META); l.forEach(x=>x.click()); const allLive=!Object.keys(LANGS).some(k=>k!=='en'&&!liveNatives().includes(k)); /* once every listed native language has a course, there is nothing left to lock */ return (l.length>0||allLive)&&l.every(x=>x.getAttribute('aria-disabled')==='true'&&!x.matches('button,a,input')&&x.tabIndex<0&&!x.querySelector('button,a'))&&JSON.stringify(META)===before&&!!document.getElementById('langHome'); });
   koSkip=!(await p.evaluate(()=>!!COURSES['ko-en']));
   if(koSkip){ mc.koSoon=await p.evaluate(()=>[...document.querySelectorAll('#langHome .lh-lock')].some(x=>/한국어/.test(x.textContent))&&!document.querySelector('#langHome [data-native="ko"]')); }
   else {

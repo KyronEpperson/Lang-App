@@ -101,7 +101,7 @@ What does this mean? | What does this word on the sign mean? | ماذا تعني
 How much is this? | How much is this T-shirt? | بكم هذا القميص؟
 Can I pay by card? | Can I pay by card, or is it cash only? | هل يمكنني الدفع بالبطاقة، أم الدفع نقدا فقط؟
 Just a second. | Just a second, I'm almost done. | ثانية واحدة، أوشكت على الانتهاء.
-I'm not sure. | I'm not sure, but I think it's on the second floor. | لست متأكدا، لكن أظنه في الطابق الأول.
+I'm not sure. | I'm not sure, but I think it's on the second floor. | لست متأكدا، لكن أظنه في الطابق الأول (في أمريكا يسمى second floor).
 It's next to the bank. | The café is next to the bank on Main Street. | المقهى بجانب البنك في الشارع الرئيسي.
 Turn left at the corner. | Turn left at the corner, and you'll see the station. | انعطف يسارا عند الزاوية وسترى المحطة.
 Where do I transfer? | Where do I transfer to get downtown? | أين أبدل القطار للوصول إلى وسط المدينة؟
@@ -209,7 +209,7 @@ Sounds good | فكرة جيدة
 Fair enough | معك حق / هذا منطقي
 Makes sense | مفهوم / هذا معقول
 Got it | فهمت
-I see | أرى ذلك / فهمت قصدك
+I see | آه، فهمت / فهمت قصدك
 No kidding | حقا؟ / فعلا كذلك
 Good point | ملاحظة في محلها
 Exactly | بالضبط
@@ -245,7 +245,7 @@ Sorry I'm late | آسف على التأخير
 Thank you for your time | شكرا على وقتك
 I beg your pardon? | عفوا، ماذا قلت؟ (بأسلوب رسمي)
 Don't mention it | لا شكر على واجب
-Cheers | شكرا (في بريطانيا) / في صحتك
+Cheers | شكرا (في بريطانيا) / عند رفع الأكواب للتهنئة
 Excuse me, coming through | عفوا، اسمحوا لي بالمرور
 `,
 saying: `
@@ -267,7 +267,7 @@ Live and learn | الحياة مدرسة
 A friend in need is a friend indeed | الصديق وقت الضيق
 It's never too late to learn | لا يفوت أوان التعلم أبدا
 Every expert was once a beginner | كل خبير كان يوما مبتدئا
-Stay hungry, stay foolish | ابق جائعا، ابق أحمق
+Stay hungry, stay foolish | ابق متعطشا للمعرفة، ولا تخش أن تبدو ساذجا
 Small steps every day | خطوات صغيرة كل يوم
 `
 };
