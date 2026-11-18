@@ -951,3 +951,9 @@ Contract: `docs/PILOT-SPEC.md`. Pipeline: `docs/PIPELINE.md`. Profiles: `docs/pr
 - Cold review (Opus): first fixed the 15 pronunciation-tool errors the writers reported (silent s in *sens*, *-tions* verb endings, future *-rai*, *cet* + liaison, numbers 70–99, spoken *y a*), then regenerated all 561 prons (14 changed) and read every one; content edits: 2 wrong French, 4 wrong teaching (the claim that *ne* is dropped in "almost every" spoken negative; "plural -s is always silent"; *commencer à* + time), 2 practice distractors that were correct French, wording. The reviewer extended liaison after *êtes / sommes* beyond the profile's list: flagged for a native check.
 - Lead: the validator now fails when two cards in one deck share an English meaning (found by the app's own guard in French; fixed with formal / informal). Evidence: validate PASS, e2e OK on all 28 French lessons, harness 69 guards, site test.
 - Not verified: no native speaker has read it; liaison in the pronunciation line is the likeliest place for remaining errors (top ten in `tools/target/fr/REVIEW.md`); fr-FR voice and the 14-key accent bar on a phone.
+
+## 2.25.1 — prompt
+Hide the meaning on new-card teach views until tapped, and make the Today session start from the learner's place in the lessons (a "Next lesson" first step; drills gated until the script lesson is done). Verify: harness, sess.js plans, lazy.js.
+
+### 2.25.1 — results
+Teach card meaning blurred until tap (first press of the button reveals). Session plan now opens with the next unlocked lesson once per day; quiz pool is seen cards plus this session's new cards; script drills wait for lesson 1. Harness 69 guards pass; plans for en-es, en-ko, ja-en start L, 5 teach, then quiz.
