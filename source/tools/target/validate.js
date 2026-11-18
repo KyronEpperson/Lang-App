@@ -14,7 +14,7 @@ const invisible = /[​-‏‪-‮⁦-⁩﻿]/;
 const deckNames = Object.keys(C.DECKS); const want = P.decks.map(d => d.name);
 if (!PARTIAL) want.forEach(n => ok(C.DECKS[n], 'deck missing: ' + n));
 const targets = new Map(); let cards = 0;
-deckNames.forEach(n => { const d = C.DECKS[n]; ok(d.length >= 12 && d.length <= 30, 'deck «' + n + '» has ' + d.length + ' cards (12–30)'); const seen = new Set();
+deckNames.forEach(n => { const d = C.DECKS[n]; const ms = d.map(c => c[2]); ms.forEach((m, i) => { if (ms.indexOf(m) !== i) bad.push('deck «' + n + '»: two cards share the meaning «' + m + '» (' + d[ms.indexOf(m)][0] + ' / ' + d[i][0] + ') — quizzes show the meaning, so make them differ'); }); ok(d.length >= 12 && d.length <= 30, 'deck «' + n + '» has ' + d.length + ' cards (12–30)'); const seen = new Set();
   d.forEach((c, i) => { cards++; const w = 'deck «' + n + '» card ' + (i + 1) + ' (' + c[0] + ')';
     ok(c.length === 4 && c[0] && c[2], w + ': target and meaning are required'); ok(TS.test(c[0]), w + ': target has no ' + P.nameEn + ' text'); ok(!invisible.test(c.join('')), w + ': invisible character');
     if (P.pron === 'required') ok(c[1], w + ': pron missing'); if (c[1] && PRON) ok(PRON.test(c[1]), w + ': pron «' + c[1] + '» does not match pronPattern'); if (P.pron === 'none') ok(!c[1], w + ': pron must be empty');

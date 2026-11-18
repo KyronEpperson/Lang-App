@@ -1,0 +1,289 @@
+{
+  "target": "pt",
+  "nameEn": "Brazilian Portuguese",
+  "self": "português",
+  "ttsLang": "pt-BR",
+  "brand": "Português",
+  "accents": true,
+  "keys": "á â ã à é ê í ó ô õ ú ç",
+  "greet": [
+    [
+      "Boa noite",
+      "Good night (you're up late)"
+    ],
+    [
+      "Bom dia",
+      "Good morning"
+    ],
+    [
+      "Boa tarde",
+      "Good afternoon"
+    ],
+    [
+      "Boa noite",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?:(?:ch|sh|zh|[bdfghjklmnprstvwyz])*(?:ah|ai|aw|ay|eh|ee|oh|oo|ow|oy|uh)(?:ch|sh|zh|[bdfghjklmnprstvwyz])*|(?:(?:ch|sh|zh|[bdfghjklmnprstvwyz])*(?:ah|ai|aw|ay|eh|ee|oh|oo|ow|oy|uh)(?:ch|sh|zh|[bdfghjklmnprstvwyz])*-)+(?:CH|SH|ZH|[BDFGHJKLMNPRSTVWYZ])*(?:AH|AI|AW|AY|EH|EE|OH|OO|OW|OY|UH)(?:CH|SH|ZH|[BDFGHJKLMNPRSTVWYZ])*(?:-(?:ch|sh|zh|[bdfghjklmnprstvwyz])*(?:ah|ai|aw|ay|eh|ee|oh|oo|ow|oy|uh)(?:ch|sh|zh|[bdfghjklmnprstvwyz])*)*|(?:CH|SH|ZH|[BDFGHJKLMNPRSTVWYZ])*(?:AH|AI|AW|AY|EH|EE|OH|OO|OW|OY|UH)(?:CH|SH|ZH|[BDFGHJKLMNPRSTVWYZ])*(?:-(?:ch|sh|zh|[bdfghjklmnprstvwyz])*(?:ah|ai|aw|ay|eh|ee|oh|oo|ow|oy|uh)(?:ch|sh|zh|[bdfghjklmnprstvwyz])*)+)(?: (?:(?:ch|sh|zh|[bdfghjklmnprstvwyz])*(?:ah|ai|aw|ay|eh|ee|oh|oo|ow|oy|uh)(?:ch|sh|zh|[bdfghjklmnprstvwyz])*|(?:(?:ch|sh|zh|[bdfghjklmnprstvwyz])*(?:ah|ai|aw|ay|eh|ee|oh|oo|ow|oy|uh)(?:ch|sh|zh|[bdfghjklmnprstvwyz])*-)+(?:CH|SH|ZH|[BDFGHJKLMNPRSTVWYZ])*(?:AH|AI|AW|AY|EH|EE|OH|OO|OW|OY|UH)(?:CH|SH|ZH|[BDFGHJKLMNPRSTVWYZ])*(?:-(?:ch|sh|zh|[bdfghjklmnprstvwyz])*(?:ah|ai|aw|ay|eh|ee|oh|oo|ow|oy|uh)(?:ch|sh|zh|[bdfghjklmnprstvwyz])*)*|(?:CH|SH|ZH|[BDFGHJKLMNPRSTVWYZ])*(?:AH|AI|AW|AY|EH|EE|OH|OO|OW|OY|UH)(?:CH|SH|ZH|[BDFGHJKLMNPRSTVWYZ])*(?:-(?:ch|sh|zh|[bdfghjklmnprstvwyz])*(?:ah|ai|aw|ay|eh|ee|oh|oo|ow|oy|uh)(?:ch|sh|zh|[bdfghjklmnprstvwyz])*)+))*$",
+  "targetScript": "[A-Za-zÁÂÃÀÉÊÍÓÔÕÚÇáâãàéêíóôõúç]",
+  "standingRule": {
+    "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bgender\\b|\\bsingular\\b|\\bplural (?:noun|adjective|article|ending|form|verb)|\\bcontractions?\\b|\\bverb ending|\\bmatch(?:es)? the subject|(?:\\beu|\\bvocês?|\\bele|\\bela|\\bnós|\\bgente|\\beles|\\belas)[ -]form",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "sounds",
+      "title": "Sounds, spelling and stress",
+      "roadmap": "pt-sounds",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings: você and o senhor",
+      "roadmap": "pt-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "articles",
+      "title": "Gender and o / a, um / uma",
+      "roadmap": "pt-articles",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "ser",
+      "title": "Subject pronouns and ser",
+      "roadmap": "pt-ser",
+      "deck": "About me"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives: agreement and position",
+      "roadmap": "pt-adjectives",
+      "deck": "People and family"
+    },
+    {
+      "id": "present",
+      "title": "Present tense: -ar, -er, -ir",
+      "roadmap": "pt-present",
+      "deck": "Work and study"
+    },
+    {
+      "id": "estar",
+      "title": "estar: where and how",
+      "roadmap": "pt-estar",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "contractions",
+      "title": "no, na, do, da: contractions",
+      "roadmap": "pt-contractions",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "ser-estar",
+      "title": "ser vs estar (and ficar)",
+      "roadmap": "",
+      "deck": "Feelings and states"
+    },
+    {
+      "id": "ter",
+      "title": "ter: have, there is, and estar com",
+      "roadmap": "pt-ter",
+      "deck": "Traps for English speakers"
+    },
+    {
+      "id": "questions",
+      "title": "Question words",
+      "roadmap": "pt-questions",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers, time and daily routine",
+      "roadmap": "pt-numbers",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "location",
+      "title": "Places and location words",
+      "roadmap": "pt-location",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "possessives",
+      "title": "meu / minha, este / esse",
+      "roadmap": "pt-possessives",
+      "deck": "People and family"
+    },
+    {
+      "id": "irregular",
+      "title": "ir, fazer, querer, poder",
+      "roadmap": "pt-irregular",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "future",
+      "title": "ir + infinitive: plans",
+      "roadmap": "pt-future",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "gostar",
+      "title": "gostar de: likes",
+      "roadmap": "pt-gostar",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions: de, em, para, por, com",
+      "roadmap": "",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "progressive",
+      "title": "estar + -ndo: right now",
+      "roadmap": "pt-progressive",
+      "deck": "Work and study"
+    },
+    {
+      "id": "reflexive",
+      "title": "Reflexive verbs and daily routine",
+      "roadmap": "pt-reflexive",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "object-pronouns",
+      "title": "Object pronouns: me, te, ele, a gente",
+      "roadmap": "",
+      "deck": "Spoken Brazilian Portuguese"
+    },
+    {
+      "id": "past",
+      "title": "Pretérito perfeito: what you did",
+      "roadmap": "pt-past",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "requests",
+      "title": "Polite requests and commands",
+      "roadmap": "pt-requests",
+      "deck": "Health and emergencies"
+    },
+    {
+      "id": "connectors",
+      "title": "e, mas, ou, porque",
+      "roadmap": "pt-connectors",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "city",
+      "title": "Getting around the city",
+      "roadmap": "pt-city",
+      "deck": "Around town and directions"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "Words that show each sound rule: nasal vowels, lh and nh, final l, t and d before i, r and rr"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Hello, goodbye, please, thank you and polite openers"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Name, where you are from, where you live, your job and your languages"
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "Family members, friends and words to describe people"
+    },
+    {
+      "name": "Numbers, time and prices",
+      "group": "Everyday words",
+      "desc": "Numbers to 1,000, telling the time, prices in reais and dollars"
+    },
+    {
+      "name": "Days, dates and weather",
+      "group": "Everyday words",
+      "desc": "Days, months, dates, yesterday and tomorrow, and the weather"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Ordering at a café, a restaurant or a por-quilo buffet; everyday food and drinks"
+    },
+    {
+      "name": "Shopping and clothes",
+      "group": "Everyday words",
+      "desc": "Clothes, colors, sizes and paying"
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms and things at home, and a daily routine"
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places in town, asking where things are, and following directions"
+    },
+    {
+      "name": "Travel and transport",
+      "group": "Out and about",
+      "desc": "Tickets, buses, flights, getting around and hotel basics"
+    },
+    {
+      "name": "Health and emergencies",
+      "group": "Out and about",
+      "desc": "Saying what hurts, the pharmacy, and asking for help"
+    },
+    {
+      "name": "Work and study",
+      "group": "Out and about",
+      "desc": "Jobs, the workplace, classes and everyday work verbs"
+    },
+    {
+      "name": "Feelings and states",
+      "group": "Conversation",
+      "desc": "How you feel, with estar and estar com"
+    },
+    {
+      "name": "Likes and free time",
+      "group": "Conversation",
+      "desc": "Hobbies, sports, likes and dislikes, and what you did at the weekend"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "Question words and the small words that join sentences"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends and word-for-word copies from English"
+    },
+    {
+      "name": "Spoken Brazilian Portuguese",
+      "group": "Watch out",
+      "desc": "Everyday spoken forms you will hear: tô, tá, pra, a gente, né, and pronouns before the verb"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

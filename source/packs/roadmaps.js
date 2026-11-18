@@ -104,19 +104,19 @@ LANGAPP_PACKS.roadmaps = {
     src: ["Digischool summary of the Inventaire linguistique des contenus clés des niveaux du CECRL"], note: "The sounds stage is standard practice; the inventory itself was read through a summary.",
     stages: [
       { en: "Sounds and first words", ko: "소리와 첫 표현", items: [
-        ["fr-sounds", "Sounds, silent letters and liaison", "발음, 묵음, 연음"], ["fr-greetings", "Greetings: tu and vous", "인사: tu와 vous"], ["fr-articles", "Gender and articles: le / la, un / une", "성과 관사: le / la, un / une"],
-        ["fr-etre-avoir", "être and avoir", "être와 avoir"], ["fr-pronouns", "Subject and stress pronouns: je, moi", "주어·강세 대명사: je, moi"] ] },
+        ["fr-sounds", "Sounds, silent letters and liaison", "발음, 묵음, 연음", "sounds"], ["fr-greetings", "Greetings: tu and vous", "인사: tu와 vous", "greetings"], ["fr-articles", "Gender and articles: le / la, un / une", "성과 관사: le / la, un / une", "articles"],
+        ["fr-etre-avoir", "être and avoir", "être와 avoir", "etre-avoir"], ["fr-pronouns", "Subject and stress pronouns: je, moi", "주어·강세 대명사: je, moi", "pronouns"] ] },
       { en: "A1 · First sentences", ko: "A1 · 첫 문장", items: [
-        ["fr-present", "Present tense: -er verbs", "현재 시제: -er 동사"], ["fr-negation", "ne … pas", "부정 ne … pas"], ["fr-questions", "Questions: est-ce que, qui, où", "의문문: est-ce que, qui, où"], ["fr-cest", "c'est and il y a", "c'est와 il y a"],
-        ["fr-adjectives", "Adjectives: agreement and place", "형용사: 일치와 위치"], ["fr-possessives", "mon / ma, ce / cette", "소유·지시 형용사"], ["fr-numbers", "Numbers, time and dates", "숫자, 시간, 날짜"],
-        ["fr-partitive", "du, de la, des: some", "부분관사 du, de la, des"], ["fr-prepositions", "Prepositions of place and time", "장소·시간 전치사"] ] },
+        ["fr-present", "Present tense: -er verbs", "현재 시제: -er 동사", "present"], ["fr-negation", "ne … pas", "부정 ne … pas", "negation"], ["fr-questions", "Questions: est-ce que, qui, où", "의문문: est-ce que, qui, où", "questions"], ["fr-cest", "c'est and il y a", "c'est와 il y a", "cest"],
+        ["fr-adjectives", "Adjectives: agreement and place", "형용사: 일치와 위치", "adjectives"], ["fr-possessives", "mon / ma, ce / cette", "소유·지시 형용사", "possessives"], ["fr-numbers", "Numbers, time and dates", "숫자, 시간, 날짜", "numbers"],
+        ["fr-partitive", "du, de la, des: some", "부분관사 du, de la, des", "partitive"], ["fr-prepositions", "Prepositions of place and time", "장소·시간 전치사", "prepositions"] ] },
       { en: "A1 · Doing things", ko: "A1 · 행동 말하기", items: [
-        ["fr-irregular", "aller, faire, venir, prendre", "aller, faire, venir, prendre"], ["fr-modals", "vouloir, pouvoir, devoir + infinitive", "vouloir, pouvoir, devoir + 동사원형"], ["fr-futur-proche", "Futur proche: je vais + verb", "근접미래: je vais + 동사"],
-        ["fr-pronominal", "Reflexive verbs", "대명동사"], ["fr-imperative", "Imperative and il faut", "명령법과 il faut"], ["fr-passe-compose", "Passé composé with avoir and être", "복합과거: avoir와 être"],
-        ["fr-connectors", "et, ou, mais, alors", "et, ou, mais, alors"], ["fr-polite", "je voudrais: polite requests", "je voudrais: 공손한 부탁"] ] },
+        ["fr-irregular", "aller, faire, venir, prendre", "aller, faire, venir, prendre", "irregular"], ["fr-modals", "vouloir, pouvoir, devoir + infinitive", "vouloir, pouvoir, devoir + 동사원형", "modals"], ["fr-futur-proche", "Futur proche: je vais + verb", "근접미래: je vais + 동사", "futur-proche"],
+        ["fr-pronominal", "Reflexive verbs", "대명동사", "pronominal"], ["fr-imperative", "Imperative and il faut", "명령법과 il faut", "imperative"], ["fr-passe-compose", "Passé composé with avoir and être", "복합과거: avoir와 être", "passe-compose"],
+        ["fr-connectors", "et, ou, mais, alors", "et, ou, mais, alors", "connectors"], ["fr-polite", "je voudrais: polite requests", "je voudrais: 공손한 부탁", "polite"] ] },
       { en: "A2 · Next steps", ko: "A2 · 다음 단계", items: [
-        ["fr-imparfait", "Imparfait vs passé composé", "반과거 vs 복합과거"], ["fr-futur", "Futur simple", "단순미래"], ["fr-object-pronouns", "Pronouns le, lui, en, y", "대명사 le, lui, en, y"],
-        ["fr-compare", "Comparing: plus, moins, le plus", "비교: plus, moins, le plus"], ["fr-relatives", "qui, que, où", "관계대명사 qui, que, où"] ] } ] },
+        ["fr-imparfait", "Imparfait vs passé composé", "반과거 vs 복합과거", "imparfait"], ["fr-futur", "Futur simple", "단순미래", "futur"], ["fr-object-pronouns", "Pronouns le, lui, en, y", "대명사 le, lui, en, y", "object-pronouns"],
+        ["fr-compare", "Comparing: plus, moins, le plus", "비교: plus, moins, le plus", "compare"], ["fr-relatives", "qui, que, où", "관계대명사 qui, que, où", "relatives"] ] } ] },
 
   de: { variant: {en: "German of Germany", ko: "독일 독일어"}, basis: {en: "Goethe-Zertifikat A1 grammar inventory", ko: "괴테 자격증 A1 문법 목록"},
     src: ["Goethe-Institut: Prüfungsziele, Testbeschreibung A1 Start Deutsch 1"], note: "The inventory is grouped by category, not ordered; the lesson order here is common course practice.",

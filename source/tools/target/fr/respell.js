@@ -25,7 +25,7 @@ const LEX = {
   'million': 'mee-lyohN', 'millions': 'mee-lyohN', 'milliard': 'mee-lyahr',
   /* people and titles */
   'monsieur': 'muh-syuh', 'messieurs': 'may-syuh', 'madame': 'mah-dahm', 'mesdames': 'may-dahm', 'mademoiselle': 'mahd-mwah-zehl',
-  'femme': 'fahm', 'femmes': 'fahm', 'fils': 'fees', 'monsieur.': 'muh-syuh',
+  'femme': 'fahm', 'femmes': 'fahm', 'fils': 'fees', 
   /* final consonant exceptions */
   'août': 'oot', 'mars': 'mahrs', 'ours': 'oors', 'os': 'ohs', 'bus': 'bews', 'autobus': 'oh-toh-bews', 'tennis': 'tay-nees',
   'virus': 'vee-rews', 'sens': 'sahNs', 'hélas': 'ay-lahs', 'as': 'ah', 'film': 'feelm', 'films': 'feelm', 'ouest': 'wehst', 'net': 'neht', 'but': 'bewt',
@@ -40,16 +40,16 @@ const LEX = {
   'ville': 'veel', 'villes': 'veel', 'village': 'vee-lahzh', 'villages': 'vee-lahzh', 'tranquille': 'trahN-keel', 'lille': 'leel',
   /* ch = k, other spellings */
   'christophe': 'krees-tohf', 'chorale': 'koh-rahl', 'technique': 'tehk-neek', 'orchestre': 'ohr-kehstr', 'psychologue': 'psee-koh-lohg',
-  'oignon': 'oh-nyohN', 'oignons': 'oh-nyohN', 'second.': 'suh-gohN', 'examen': 'ehg-zah-maN', 'examens': 'ehg-zah-maN',
+  'oignon': 'oh-nyohN', 'oignons': 'oh-nyohN', 'examen': 'ehg-zah-maN', 'examens': 'ehg-zah-maN',
   'ennemi': 'ehn-mee', 'ennuyer': 'ahN-nwee-yay', 'emmener': 'ahNm-nay', 'évidemment': 'ay-vee-dah-mahN', 'récemment': 'ray-sah-mahN',
   'patient': 'pah-syahN', 'patiente': 'pah-syahNt', 'client': 'klee-yahN', 'cliente': 'klee-yahNt', 'clients': 'klee-yahN',
-  'science': 'syahNs', 'sciences': 'syahNs', 'pays': 'pay-ee', 'paysage': 'pay-ee-zahzh', 'week-end': 'wee-kehnd', 'weekend': 'wee-kehnd',
+  'science': 'syahNs', 'sciences': 'syahNs', 'pays': 'pay-ee', 'paysage': 'pay-ee-zahzh', 'week-end': 'wee-kehnd', 'week-ends': 'wee-kehnd', 'weekend': 'wee-kehnd',
   'yaourt': 'yah-oort', 'wagon': 'vah-gohN', 'sandwich': 'sahNd-weetsh', 'parking': 'pahr-keeng', 'shopping': 'shoh-peeng',
   'football': 'foot-bohl', 'foot': 'foot', 'soixante': 'swah-sahNt', 'soixantaine': 'swah-sahN-tehn', 'bruxelles': 'brew-sehl', 'baseball': 'behz-bohl', 'basket': 'bahs-keht', 'email': 'ee-mehl', 'internet': 'aN-tehr-neht',
   'dessert': 'day-sehr', 'desserts': 'day-sehr', 'dessus': 'duh-sew', 'dessous': 'duh-soo', 'faisons': 'fuh-zohN', 'faisait': 'fuh-zeh',
-  'monsieur,': 'muh-syuh', 'vrai': 'vreh', 'vraie': 'vreh', 'mai': 'meh', 'quai': 'kay', 'gai': 'gay',
+  'vrai': 'vreh', 'vraie': 'vreh', 'mai': 'meh', 'quai': 'kay', 'gai': 'gay',
   'eu': 'ew', 'eue': 'ew', 'eus': 'ew', 'eut': 'ew', 'nœud': 'nuh', 'sœur': 'suhr', 'cœur': 'kuhr', 'chœur': 'kuhr',
-  'noël': 'noh-ehl', 'maïs': 'mah-ees', 'naïf': 'nah-eef', 'thé': 'tay', 'sept.': 'seht',
+  'noël': 'noh-ehl', 'maïs': 'mah-ees', 'naïf': 'nah-eef', 'thé': 'tay', 
   'aujourd\'hui': 'oh-zhoor-dwee', 'aiguille': 'ay-gweey', 'linguistique': 'laN-gwees-teek', 'ail': 'ahy', 'travail': 'trah-vahy',
   'paris': 'pah-ree', 'londres': 'lohNdr', 'montréal': 'mohN-ray-ahl', 'new': 'nyoo', 'york': 'yohrk', 'chicago': 'shee-kah-goh',
   'boston': 'bohs-tohn', 'emma': 'ay-mah', 'jack': 'zhahk', 'ryan': 'ree-yahn', 'megan': 'may-gahn',
@@ -58,9 +58,13 @@ const LEX = {
   'argent': 'ahr-zhahN', 'parent': 'pah-rahN', 'parents': 'pah-rahN', 'content': 'kohN-tahN', 'présent': 'pray-zahN', 'absent': 'ahp-sahN',
   'différent': 'dee-fay-rahN', 'différents': 'dee-fay-rahN', 'urgent': 'ewr-zhahN', 'intelligent': 'aN-tay-lee-zhahN', 'talent': 'tah-lahN',
   'président': 'pray-zee-dahN', 'accident': 'ahk-see-dahN', 'évident': 'ay-vee-dahN', 'excellent': 'ehk-say-lahN', 'agent': 'ah-zhahN',
-  'accent': 'ahk-sahN', 'cent.': 'sahN', 'serpent': 'sehr-pahN', 'adolescent': 'ah-doh-lay-sahN', 'adolescents': 'ah-doh-lay-sahN',
+  'accent': 'ahk-sahN', 'serpent': 'sehr-pahN', 'adolescent': 'ah-doh-lay-sahN', 'adolescents': 'ah-doh-lay-sahN',
   'pendant': 'pahN-dahN', 'zéro': 'zay-roh', 'gens': 'zhahN', 'temps': 'tahN', 'printemps': 'praN-tahN', 'automne': 'oh-tohn',
-  'sommes': 'sohm', 'êtes': 'eht', 'faites': 'feht', 'dites': 'deet', 'jeune': 'zhuhn', 'jeunes': 'zhuhn', 'oignon.': 'oh-nyohN',
+  /* added by the reviewer 2026-11-18 */
+  'pénicilline': 'pay-nee-see-leen', 'baskets': 'bahs-keht', 'chloé': 'kloh-ay', 'cet': 'seh',
+  'ennui': 'ahN-nwee', 'ennuie': 'ahN-nwee', 'ennuies': 'ahN-nwee', 'ennuient': 'ahN-nwee', 'ennuyeux': 'ahN-nwee-yuh', 'ennuyeuse': 'ahN-nwee-yuhz',
+  'ennuyé': 'ahN-nwee-yay', 'ennuyée': 'ahN-nwee-yay', 'ennuyés': 'ahN-nwee-yay', 'ennuyées': 'ahN-nwee-yay', 'ennuyant': 'ahN-nwee-yahN',
+  'sommes': 'sohm', 'êtes': 'eht', 'faites': 'feht', 'dites': 'deet', 'jeune': 'zhuhn', 'jeunes': 'zhuhn', 
 };
 /* -ent words that are verbs even without ils/elles before them (default for -ment is a pronounced noun or adverb) */
 const VERB_MENT = new Set(['aiment', 'dorment', 'ferment', 'forment', 'fument', 'allument', 'priment', 'impriment', 'expriment',
@@ -70,7 +74,7 @@ const NOUN_ENT = new Set(Object.keys(LEX).filter(w => /ents?$/.test(w) && /ahN$/
 /* h aspiré: no liaison before these (elision is already shown by the spelling: le haricot) */
 const HASP = new Set(['haricot', 'haricots', 'héros', 'haut', 'haute', 'hauts', 'hautes', 'huit', 'onze', 'hors', 'honte', 'hall',
   'hamburger', 'hamburgers', 'handicap', 'hasard', 'hockey', 'hâte', 'halloween', 'homard', 'hache', 'haine', 'hibou', 'hiboux',
-  'oui', 'yaourt', 'yaourts', 'huitième', 'onzième', 'hérisson', 'hollande', 'hongrie', 'hamster', 'hamac', 'harpe', 'hausse']);
+  'oui', 'yaourt', 'yaourts', 'yoga', 'yacht', 'week-end', 'week-ends', 'whisky', 'wifi', 'huitième', 'onzième', 'hérisson', 'hollande', 'hongrie', 'hamster', 'hamac', 'harpe', 'hausse']);
 /* phrases (lowercase, spaces between words); checked first */
 const PHRASES = {
   'est-ce que': 'ehs kuh', 'qu\'est-ce que': 'kehs kuh', 'qu\'est-ce qu\'il': 'kehs keel', 'qu\'est-ce qui': 'kehs kee',
@@ -84,17 +88,19 @@ const PHRASES = {
   'comment allez-vous': 'koh-mahN tah-lay voo', 'bon appétit': 'boh nah-pay-tee', 'bonne nuit': 'bohn nwee',
   's\'il vous plaît': 'seel voo pleh', 's\'il te plaît': 'seel tuh pleh', 'c\'est-à-dire': 'seh tah deer', 'peut-être': 'puh tehtr',
 'six heures': 'see zuhr', 'dix heures': 'dee zuhr', 'deux heures': 'duh zuhr', 'trois heures': 'trwah zuhr',
-  'six ans': 'see zahN', 'dix ans': 'dee zahN', 
+  'six ans': 'see zahN', 'dix ans': 'dee zahN',
+  /* reviewer 2026-11-18 (sens as a verb and clause-initial spoken y a are rules in respell() below) */
+  'à plus': 'ah plews', 'de plus en plus': 'duh plew zahN plew', 
   'vingt ans': 'vaN tahN', 'vingt heures': 'vaN tuhr', 'cent ans': 'sahN tahN', 'mon ami': 'mohN nah-mee', 'bon anniversaire': 'boh nah-nee-vehr-sehr',
 };
 /* liaison: the words after which a following vowel sound is linked (obligatory or near-obligatory liaison only) */
 const LIAISON = {
   /* determiners */ 'les': 'z', 'des': 'z', 'mes': 'z', 'tes': 'z', 'ses': 'z', 'ces': 'z', 'nos': 'z', 'vos': 'z', 'leurs': 'z', 'aux': 'z',
   'un': 'n', 'aucun': 'n', 'deux': 'z', 'trois': 'z', 'six': 'z', 'dix': 'z', 'quels': 'z', 'quelles': 'z', 'plusieurs': 'z', 'quelques': 'z',
-  'certains': 'z', 'certaines': 'z', 'mon': 'n', 'ton': 'n', 'son': 'n', 'vingt': 't', 'cent': 't',
+  'certains': 'z', 'certaines': 'z', 'mon': 'n', 'ton': 'n', 'son': 'n', 'cet': 't', 'vingt': 't', 'cent': 't', 'vingts': 'z', 'cents': 'z',
   /* pronouns */ 'nous': 'z', 'vous': 'z', 'ils': 'z', 'elles': 'z', 'on': 'n', 'en': 'n',
   /* short prepositions and adverbs */ 'dans': 'z', 'chez': 'z', 'sans': 'z', 'très': 'z', 'quand': 't', 'tout': 't', 'bien': 'n', 'rien': 'n',
-  /* être */ 'est': 't', 'c\'est': 't', 'sont': 't', 'suis': 'z',
+  /* être */ 'est': 't', 'c\'est': 't', 'sont': 't', 'suis': 'z', 'êtes': 'z', 'sommes': 'z',
   /* adjectives before a noun */ 'petit': 't', 'petits': 'z', 'petites': 'z', 'grand': 't', 'grands': 'z', 'grandes': 'z', 'gros': 'z',
   'mauvais': 'z', 'bon': 'n', 'bons': 'z', 'bonnes': 'z', 'beaux': 'z', 'nouveaux': 'z', 'vieux': 'z', 'autres': 'z', 'premiers': 'z',
 };
@@ -107,7 +113,7 @@ const CLITIC = /^(ne|n'|me|m'|te|t'|se|s'|nous|vous|les|leur|lui|y|en|l'|le|la)$
 const VOW = new Set(['a', 'e', 'E', 'i', 'o', 'u', 'y', '2', '@', 'A~', 'O~', 'E~', '9~']);
 const isVL = c => !!c && 'aeiouyàâäéèêëîïôöùûüœæ'.includes(c);
 const FRONT = c => !!c && 'eiyéèêëîï'.includes(c);
-function phon(w, plural) {
+function phon(w, plural, nousVerb) {
   const out = []; const P = x => out.push(x);
   const n = w.length;
   /* split off the silent ending first: final -e, -es, verb -ent, -s/-x/-z/-t/-d/-p... handled per letter below */
@@ -152,10 +158,11 @@ function phon(w, plural) {
     if (c === 'o' && c1 === 'i' && c2 === 'n' && nasalAt(i + 2)) { P('w'); P('E~'); i += 3; continue; }
     if (c === 'o' && (c1 === 'i' || c1 === 'î')) { P('w'); P('a'); i += 2; continue; }
     if (c === 'o' && c1 === 'y') { P('w'); P('a'); if (isVL(c2)) P('j'); i += 2; continue; }
+    if (c === 'e' && c1 === 'y' && isVL(c2)) { P('E'); P('j'); i += 2; continue; } /* asseyez -> ah-seh-yay */
     if (c === 'a' && c1 === 'y') { P('E'); if (isVL(c2)) P('j'); else P('i'); i += 2; continue; }
     if (c === 'u' && c1 === 'y') { P('H'); P('i'); if (isVL(c2)) P('j'); i += 2; continue; }
     if ((c === 'a' || c === 'e') && (c1 === 'i' || c1 === 'î') && (c2 === 'n' || c2 === 'm') && nasalAt(i + 2)) { P('E~'); i += 3; continue; }
-    if (c === 'a' && c1 === 'i' && i + 2 === L && silentFinal && i > 0 && s[i - 1] === 'r' && L > 4) { P('e'); i += 2; continue; } /* future je finirai -> ray */
+    if (c === 'a' && c1 === 'i' && i + 2 === L && silentFinal && i > 0 && s[i - 1] === 'r' && L >= 4) { P('e'); i += 2; continue; } /* future je finirai, j'irai -> ray */
     if (c === 'a' && (c1 === 'i' || c1 === 'î')) { P('E'); i += 2; continue; }
     if (c === 'e' && (c1 === 'i' || c1 === 'î')) { P('E'); i += 2; continue; }
     if (c === 'e' && c1 === 'u') { if (fc <= i + 2 && i + 2 < L && 'r'.includes(s[i + 2]) || (i + 2 < L && !isVL(s[i + 2]) && i + 3 < L && !isVL(s[i + 3]))) P('2'); else P('2'); i += 2; continue; }
@@ -227,7 +234,7 @@ function phon(w, plural) {
     if (c === 'j') { P('Z'); i++; continue; }
     if (c === 'p' && c1 === 'h') { P('f'); i += 2; continue; }
     if (c === 't' && c1 === 'h') { P('t'); i += 2; continue; }
-    if (c === 't' && c1 === 'i' && (c2 === 'o' || (c2 === 'e' && (c3 === 'l' || c3 === 'n') && false)) && i > 0 && s[i - 1] !== 's' && s[i - 1] !== 'x') { P('s'); i++; continue; } /* nation, but question */
+    if (c === 't' && c1 === 'i' && (c2 === 'o' || (c2 === 'e' && (c3 === 'l' || c3 === 'n') && false)) && i > 0 && s[i - 1] !== 's' && s[i - 1] !== 'x' && !(nousVerb && s.slice(i) === 'tions')) { P('s'); i++; continue; } /* nation, but question; nous habitions (verb ending) keeps t */
     if (c === 'q' && c1 === 'u') { P('k'); i += 2; continue; }
     if (c === 'q') { P('k'); i++; continue; }
     if (c === 's' && c1 === 's') { P('s'); i += 2; continue; }
@@ -254,7 +261,7 @@ function dropSchwa(ph) {
     const prevC = r[k - 1], prevV = r[k - 2];
     if (!VOW.has(prevC) && VOW.has(prevV) && !VOW.has(r[k + 1]) && r[k + 1] !== undefined) {
       /* keep the first schwa of the word (petit, demain): prevV exists so this is not the first syllable */
-      r.splice(k, 1); k--;
+      r[k] = '.'; /* boundary: the consonant before a dropped schwa closes the syllable (appeler -> ahp-lay) */
     }
   }
   return r;
@@ -271,7 +278,8 @@ function validOnset(cs) {
   if (cs.length === 3) return OBS.has(cs[0]) && LIQ.has(cs[1]) && GLIDE.has(cs[2]);
   return false;
 }
-function syllabify(ph) {
+function syllabify(ph0) {
+  const brk = new Set(); const ph = []; ph0.forEach(p => { if (p === '.') brk.add(ph.length); else ph.push(p); });
   const vi = ph.map((p, k) => VOW.has(p) ? k : -1).filter(k => k >= 0);
   if (!vi.length) return [ph];
   const syl = []; let start = 0;
@@ -280,6 +288,7 @@ function syllabify(ph) {
     const a = vi[k], b = vi[k + 1]; const cs = ph.slice(a + 1, b);
     let on = cs.length; while (on > 0 && !validOnset(cs.slice(cs.length - on))) on--;
     if (cs.length === 1) on = 1;
+    for (let q = a + 1; q < b; q++) if (brk.has(q) && b - q < on) on = b - q; /* never start the onset before a dropped schwa */
     const cut = b - on; syl.push(ph.slice(start, cut)); start = cut;
   }
   return syl;
@@ -297,7 +306,7 @@ function render(syls) {
 function norm(t) {
   return String(t).normalize('NFC').replace(/[’‘ʼ`´]/g, '\'').replace(/[  ]/g, ' ').toLowerCase();
 }
-function wordRespell(w, plural) {
+function wordRespell(w, plural, nousVerb) {
   if (LEX[w] !== undefined) return LEX[w];
   if (/[0-9]/.test(w)) throw new Error('digit in "' + w + '": write numbers as words');
   const bare = w.replace(/'/g, '');
@@ -306,17 +315,23 @@ function wordRespell(w, plural) {
   const m = w.match(/^(l|j|d|m|t|s|n|c|qu|jusqu|lorsqu|puisqu)'(.+)$/);
   if (m) {
     const head = { l: 'l', j: 'zh', d: 'd', m: 'm', t: 't', s: 's', n: 'n', c: 's', qu: 'k', jusqu: 'zhews-k', lorsqu: 'lohrs-k', puisqu: 'pwees-k' }[m[1]];
-    const tail = wordRespell(m[2], plural);
+    const tail = wordRespell(m[2], plural, nousVerb);
     return head.includes('-') ? head.split('-')[0] + '-' + head.split('-')[1] + tail : head + tail;
   }
-  const ph = dropSchwa(phon(bare, plural));
-  if (!ph.some(p => VOW.has(p))) { /* a word with no vowel sound left */ return render([ph]); }
+  const ph = dropSchwa(phon(bare, plural, nousVerb));
+  if (!ph.some(p => VOW.has(p))) throw new Error('no vowel sound in "' + w + '": write abbreviations and symbols out as words');
   return render(syllabify(ph));
 }
 /* does the respelled word start with a vowel sound? */
 const startsVowel = r => /^(ah|ay|eh|ee|oh|oo|ew|uh|aN)/.test(r);
+/* does the spelled word start with a vowel letter or a mute h? (yeux, oiseau, huître link; week-end, haricot do not) */
+const startsVowelSp = w => /^[aeiouyàâäéèêëîïôöùûüœæh]/.test(w) && !HASP.has(w);
+const ELIDED = /^(l|j|d|m|t|s|n|c|qu|jusqu|lorsqu|puisqu)'/;
+const DET = new Set(['cet', 'les', 'des', 'mes', 'tes', 'ses', 'ces', 'nos', 'vos', 'leurs', 'aux', 'un', 'mon', 'ton', 'son', 'deux', 'trois']);
 
 function respell(text) {
+  /* words capitalised inside a sentence are names: no liaison before them except after a determiner (Je suis Emma) */
+  const caps = new Set(); String(text).normalize('NFC').split(/\s+/).forEach((x, k, arr) => { if (k > 0 && /^[A-ZÀ-ÖØ-Þ]/.test(x) && !/[.!?]$/.test(arr[k - 1])) caps.add(norm(x).replace(/[«»"“”()…;:,.!?¿¡]/g, '')); });
   let t = ' ' + norm(text) + ' ';
   if (/[0-9]/.test(t)) throw new Error('digit in "' + text + '": write numbers as words');
   /* punctuation = pause (no liaison across it) */
@@ -335,7 +350,7 @@ function respell(text) {
     const raw = seg.trim().split(/\s+/);
     const group = [];
     for (const r of raw) {
-      if (r.startsWith('\u0001')) { const k = r.slice(1, -1).replace(/\u0002/g, ' '); group.push({ fixed: PHRASES[k], w: k.split(' ').pop(), first: k.split(' ')[0] }); continue; }
+      if (r.startsWith('\u0001')) { const k = r.slice(1, -1).replace(/\u0002/g, ' '); group.push({ fixed: PHRASES[k], w: k.split(/[ -]/).pop(), first: k.split(/[ -]/)[0] }); continue; }
       /* hyphens split words; keep the hyphen info for inversion (est-il) and the euphonic -t- */
       const hs = LEX[r] !== undefined ? [r] : r.split('-').filter(Boolean);
       hs.forEach((h, j) => group.push({ w: h, hyph: j > 0 }));
@@ -344,39 +359,58 @@ function respell(text) {
   }
   const out = [];
   for (const group of toks) {
-    let plural = false;
+    let plural = false, nous = false;
     const words = [];
     for (let k = 0; k < group.length; k++) {
       const g = group[k];
       if (g.fixed) { words.push({ r: g.fixed, w: g.w, first: g.first, fixed: true }); plural = false; continue; }
       if (g.w === 't' && g.hyph) { words.push({ r: '', w: 't', euph: true }); continue; } /* a-t-il */
       const isSubj = /^(ils|elles|qu'ils|qu'elles)$/.test(g.w);
-      const r = wordRespell(g.w, plural && !CLITIC.test(g.w));
+      const r = wordRespell(g.w, plural && !CLITIC.test(g.w), nous && !CLITIC.test(g.w));
+      if (g.w === 'nous') nous = !(k > 0 && /^(chez|avec|pour|sans|de|à|entre|après|avant|par|sur|sous|vers|comme|que|et|ou)$/.test(group[k - 1].w)); /* subject nous, not chez nous */
+      else if (!CLITIC.test(g.w) || /^(le|la|les|l')$/.test(g.w)) nous = false;
       words.push({ r, w: g.w, hyph: g.hyph });
       if (isSubj) plural = true; else if (!CLITIC.test(g.w) && !/^(n|m|t|s|l)'/.test(g.w)) plural = false;
       else if (/^(n|m|t|s|l)'/.test(g.w)) plural = false;
+    }
+    /* sens is a verb (silent s) when a je / tu stands before it, past any object pronouns: je le sens, tu te sens, je ne sens rien; le bon sens keeps sahNs */
+    for (let k = 0; k < words.length; k++) {
+      if (words[k].w !== 'sens' || words[k].fixed) continue;
+      for (let j = k - 1; j >= 0; j--) { const x = words[j].w; if (x === 'je' || x === 'tu') { words[k].r = 'sahN'; break; } if (!CLITIC.test(x)) break; }
+    }
+    /* spoken y a (for il y a) only at the start of a clause: Y a pas de quoi; elle y a pensé and qu'il y a keep ee ah */
+    if (words.length > 1 && words[0].w === 'y' && words[1].w === 'a' && !words[1].hyph && !(words[2] && words[2].euph)) { words[0].r = 'yah'; words[1].r = ''; }
+    /* plus = "more" is said plews before que, and in plus de … que (reviewer 2026-11-18) */
+    for (let k = 0; k < words.length; k++) {
+      if (words[k].w !== 'plus' || words[k].fixed) continue;
+      const nx = words[k + 1] && words[k + 1].w;
+      const queLater = words.slice(k + 1).some(x => x.w === 'que' || /^qu'/.test(x.w));
+      if (nx === 'que' || /^qu'/.test(nx || '') || ((nx === 'de' || /^d'/.test(nx || '')) && queLater)) words[k].r = 'plews';
     }
     /* liaison */
     for (let k = 0; k < words.length - 1; k++) {
       const a = words[k], b = words[k + 1];
       if (a.euph) continue;
       if (b.euph) { const c = words[k + 2]; if (c) { c.r = 't' + c.r; } continue; }
-      if (!b.r || !startsVowel(b.r)) continue;
       const bw = b.fixed ? b.first : b.w;
+      if (!b.r || !(startsVowel(b.r) || startsVowelSp(bw))) continue;
       if (HASP.has(bw)) continue;
+      const aw = a.w.replace(ELIDED, ''); /* j'en, d'un, qu'ils, qu'on -> en, un, ils, on */
+      if (caps.has(bw) && !DET.has(aw)) continue;
       let lc = null;
       if (b.hyph && (bw === 'en' || bw === 'y')) { /* allons-y, prends-en */
         const last = a.w.slice(-1); lc = { s: 'z', x: 'z', z: 'z', t: 't' }[last] || null;
       } else if (b.hyph && INVERT.has(bw)) { /* inversion: est-il, sont-ils, vont-elles, peut-on */
         const last = a.w.slice(-1); lc = { t: 't', d: 't', s: 'z', x: 'z', z: 'z' }[last] || null;
-      } else if (!a.fixed && LIAISON[a.w]) lc = LIAISON[a.w];
+      } else if (LIAISON[aw] && (!a.fixed || /^(deux|trois|six|dix|vingts|cents|un)$/.test(aw))) lc = LIAISON[aw]; /* after a fixed phrase only number endings link: vingt-deux ans */
       if (!lc) continue;
-      if ((a.w === 'est' || a.w === 'c\'est') && !/^(un|une|à|en|au|aux|ici|important|impossible|il|elle|on|aussi|encore|à)$/.test(bw)) continue; /* est: only the common fixed links */
-      if (a.w === 'sont' && !/^(en|à|au|aux|ici|il|ils|elles)$/.test(bw)) continue;
-      if ((a.w === 'bien' || a.w === 'rien') && !/^(à|aimable|entendu)$/.test(bw)) continue;
-      if ((a.w === 'en' || a.w === 'on') && b.hyph) continue;
-      if (DENASAL[a.w]) a.r = DENASAL[a.w];
-      if (lc === 'z' && /s$/.test(a.r) && /^(six|dix)$/.test(a.w)) a.r = a.r.slice(0, -1); /* dix euros -> dee zuh-roh */
+      if (aw === 'est' && !/^(un|une|à|en|au|aux|ici|important|impossible|il|elle|on|aussi|encore|à)$/.test(bw)) continue; /* est: only the common fixed links */
+      if (aw === 'sont' && !/^(en|à|au|aux|ici|il|ils|elles)$/.test(bw)) continue;
+      if ((aw === 'êtes' || aw === 'sommes') && !/^(en|à|au|aux|ici)$/.test(bw)) continue; /* same fixed set as sont (profile §6: obligatory or near-universal only) */
+      if ((aw === 'bien' || aw === 'rien') && !/^(à|aimable|entendu)$/.test(bw)) continue;
+      if ((aw === 'en' || aw === 'on') && b.hyph) continue;
+      if (DENASAL[a.w] && !a.fixed) a.r = DENASAL[a.w];
+      if (lc === 'z' && /s$/.test(a.r) && /^(six|dix)$/.test(aw)) a.r = a.r.slice(0, -1); /* dix euros -> dee zuh-roh */
       b.r = lc + b.r;
     }
     words.filter(x => x.r).forEach(x => out.push(x.r));
@@ -384,5 +418,14 @@ function respell(text) {
   return out.join(' ').replace(/\s+/g, ' ').trim();
 }
 
+/* number compounds 70-99 (reviewer 2026-11-18): quatre-vingt-dix-neuf -> kah-truh vaN deez nuhf; soixante-dix-sept -> swah-sahNt dee seht */
+(function addNumbers() {
+  const tail = { 'dix': 'dees', 'onze': 'ohNz', 'douze': 'dooz', 'treize': 'trehz', 'quatorze': 'kah-tohrz', 'quinze': 'kaNz', 'seize': 'sehz',
+    'dix-sept': 'dee seht', 'dix-huit': 'dee zweet', 'dix-neuf': 'deez nuhf' };
+  const units = { 'un': 'uhN', 'deux': 'duh', 'trois': 'trwah', 'quatre': 'kahtr', 'cinq': 'saNk', 'six': 'sees', 'sept': 'seht', 'huit': 'weet', 'neuf': 'nuhf' };
+  for (const [k, v] of Object.entries(tail)) { if (k !== 'onze') PHRASES['soixante-' + k] = 'swah-sahNt ' + v; PHRASES['quatre-vingt-' + k] = 'kah-truh vaN ' + v; }
+  PHRASES['soixante et onze'] = 'swah-sahN tay ohNz';
+  for (const [k, v] of Object.entries(units)) PHRASES['quatre-vingt-' + k] = 'kah-truh vaN ' + v;
+})();
 module.exports = { respell, syllabify, phon };
 if (require.main === module) for (const a of process.argv.slice(2)) console.log(a, '->', respell(a));

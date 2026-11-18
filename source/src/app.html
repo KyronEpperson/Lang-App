@@ -551,7 +551,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.24.0 · 2026-11-18';
+const APP_VERSION='2.25.0 · 2026-11-18';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1870,7 +1870,9 @@ function renderToday(){
   const pa=$('potdAdd'); if(pa) pa.onclick=()=>{ const c=DECKS[pa.dataset.d].find(x=>x[0]===pa.dataset.k); if(c){ S.cards[ck(pa.dataset.d,c)]={box:1,due:dayNum(),seen:0,lapses:0,last:Date.now()}; save(); toast('Added. It will show up in Review today.'); renderToday(); } };
   document.querySelectorAll('#sessLen .chip').forEach(b=>{ b.setAttribute('aria-pressed',(S.sessLen||'standard')===b.dataset.len); b.onclick=()=>{ S.sessLen=b.dataset.len; save(); renderToday(); }; });
 }
-function startSession(){ userTouched=true; sess={items:planSession(),i:0,stats:{cards:0,got:0,quiz:0,qok:0,h:0,hok:0},xp0:S.xp,log:[]}; $('todayHome').hidden=true; $('session').hidden=false; sessStep(); }
+/* new cards are taught in small batches: show up to 5 new cards one after another, then quiz that batch (it used to be one card, then its quiz at once) */
+function batchNew(items){ const fresh=items.filter(x=>x.t==='card'&&x.isNew&&isNew(x.d,x.c)); if(fresh.length<2) return items; const lead=new Map(); for(let i=0;i<fresh.length;i+=5){ const b=fresh.slice(i,i+5); if(b.length>1){ lead.set(b[0],b); b.forEach(x=>{ x.noTeach=true; }); } } const out=[]; items.forEach(x=>{ const b=lead.get(x); if(b) b.forEach((y,k)=>out.push({t:'teach',d:y.d,c:y.c,k,n:b.length})); out.push(x); }); return out; } /* the session's own order of quizzes and drills is kept; only the first look at each new card moves to the front of its batch */
+function startSession(){ userTouched=true; sess={items:batchNew(planSession()),i:0,stats:{cards:0,got:0,quiz:0,qok:0,h:0,hok:0},xp0:S.xp,log:[]}; $('todayHome').hidden=true; $('session').hidden=false; sessStep(); }
 function sessStep(){
   if(cleanup){ cleanup(); cleanup=null; }
   const box=$('session'); const it=sess.items[sess.i];
@@ -1879,8 +1881,9 @@ function sessStep(){
   $('sessQuit').onclick=sessDone;
   const body=$('sessBody');
   const logIt=(ok)=>{ if(sess&&sess.log) sess.log.push({t:it.t,d:it.d,c:it.c,ok}); };
-  if(it.t==='card') cleanup=renderReviewQ(body,it.d,it.c,ok=>{ if(ok===null){ sess.i++; sessStep(); return; } logIt(ok); grade(it.d,it.c,ok,it.isNew); sess.stats.cards++; if(ok) sess.stats.got++; if(!ok){ sess.items.push({t:'card',d:it.d,c:it.c,isNew:false}); (sess.missed=sess.missed||[]).push({d:it.d,c:it.c}); } sess.i++; sessStep();
-    const bar=document.querySelector('#session .sessbar'); if(bar&&sess) offerUndo(bar, ()=>{ if(sess&&undoGrade()){ sess.stats.cards--; if(ok) sess.stats.got--; if(!ok) sess.items.pop(); sess.i--; sessStep(); toast('Undone.'); } }); });
+  if(it.t==='teach') cleanup=renderReviewQ(body,it.d,it.c,()=>{ sess.i++; sessStep(); },{teachOnly:true,k:it.k,n:it.n,last:it.k===it.n-1});
+  else if(it.t==='card') cleanup=renderReviewQ(body,it.d,it.c,ok=>{ if(ok===null){ sess.i++; sessStep(); return; } logIt(ok); grade(it.d,it.c,ok,it.isNew); sess.stats.cards++; if(ok) sess.stats.got++; if(!ok){ sess.items.push({t:'card',d:it.d,c:it.c,isNew:false}); (sess.missed=sess.missed||[]).push({d:it.d,c:it.c}); } sess.i++; sessStep();
+    const bar=document.querySelector('#session .sessbar'); if(bar&&sess) offerUndo(bar, ()=>{ if(sess&&undoGrade()){ sess.stats.cards--; if(ok) sess.stats.got--; if(!ok) sess.items.pop(); sess.i--; sessStep(); toast('Undone.'); } }); },{noTeach:!!it.noTeach});
   else if(it.t==='quiz') cleanup=renderQuizQ(body,it.d,it.c,it.mode,ok=>{ logIt(ok); sess.stats.quiz++; if(ok) sess.stats.qok++; sess.i++; sessStep(); });
   else if(it.t==='role') cleanup=renderRoleQ(body,0,ok=>{ logIt(ok); sess.stats.h++; if(ok) sess.stats.hok++; sess.i++; sessStep(); });
   else if(it.t==='numbers') cleanup=renderNumberQ(body,0,ok=>{ logIt(ok); sess.stats.h++; if(ok) sess.stats.hok++; sess.i++; sessStep(); });
@@ -2123,13 +2126,13 @@ function buildCards(){ const isTag=/^\*tag\*:/.test(deck); if(isTag){ const t=de
 // Review = multiple choice: see the meaning, pick the right Hangul. New cards are taught first, then quizzed.
 let rvTouched=false; // only auto-scroll once the user has started answering (never on page open)
 function rvView(el,toEnd){ try{ if(!el) return; const r=el.getBoundingClientRect(), navH=innerWidth<700?64:8; if(toEnd){ if(r.bottom>innerHeight-navH) window.scrollBy({top:r.bottom-(innerHeight-navH)+8,behavior:'smooth'}); } else if(r.bottom>innerHeight-navH||r.top<60){ window.scrollBy({top:r.top-72,behavior:'smooth'}); } }catch(e){} }
-function renderReviewQ(container, d, c, onAnswer){ const isH=isScriptDeck(d); const say=c[0].replace(/"/g,'&quot;'); let stage='q', locked=false, ok=false;
+function renderReviewQ(container, d, c, onAnswer, opt){ opt=opt||{}; /* opt.teachOnly: show the new card and move on (the quiz comes after the whole batch); opt.noTeach: the card was already shown in a batch, so ask at once */ const isH=isScriptDeck(d); const say=c[0].replace(/"/g,'&quot;'); let stage='q', locked=false, ok=false;
   const pool=[]; const seen=new Set([c[0]]); const take=x=>{ if(seen.has(x[0])||x[2]===c[2]) return false; seen.add(x[0]); return true; };
   shuffle(DECKS[d].filter(x=>x!==c)).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); });
   if(pool.length<3){ const extra=[]; names.forEach(n=>{ if(n!==d&&n!==MYDECK&&/^Hangul/.test(n)===/^Hangul/.test(d)) DECKS[n].forEach(x=>extra.push(x)); }); shuffle(extra).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); }); }
   const opts=shuffle([c,...pool]);
-  const teach=()=>{ stage='teach'; container.innerHTML=`<div class="rvq"><div class="stat" style="text-align:center">✨ New card · ${d}</div><div class="q">${c[0]}</div>${isH?'':`<div class="qrom" style="display:block">${c[1]}</div>`}<div style="text-align:center;margin:6px 0"><button class="speak" data-say="${say}" type="button">🔊</button></div><div class="rvmean" data-noi18n>${isH?'<span style="font-family:var(--mono);color:var(--accent)">'+c[1]+'</span> · ':''}${c[2]}</div><div class="note" style="margin:6px auto 0" data-noi18n>${c[3]||''}</div>${isH?'':pronNote(c[0])}<button class="big primary rvgo" style="width:100%;margin-top:14px">Got it — quiz me</button></div>`;
-    const sp=container.querySelector('.speak'); if(S.auto) setTimeout(()=>speak(c[0],sp),200); container.querySelector('.rvgo').onclick=()=>{ rvTouched=true; ask(); }; setTimeout(()=>{ const b=container.querySelector('.rvgo'); b&&b.focus({preventScroll:true}); },50); };
+  const teach=()=>{ stage='teach'; container.innerHTML=`<div class="rvq"><div class="stat" style="text-align:center">✨ New card · ${d}</div>${opt.teachOnly&&opt.n>1?`<div class="stat teach-count" style="text-align:center" data-noi18n>${opt.k+1} / ${opt.n}</div>`:''}<div class="q">${c[0]}</div>${isH?'':`<div class="qrom" style="display:block">${c[1]}</div>`}<div style="text-align:center;margin:6px 0"><button class="speak" data-say="${say}" type="button">🔊</button></div><div class="rvmean" data-noi18n>${isH?'<span style="font-family:var(--mono);color:var(--accent)">'+c[1]+'</span> · ':''}${c[2]}</div><div class="note" style="margin:6px auto 0" data-noi18n>${c[3]||''}</div>${isH?'':pronNote(c[0])}<button class="big primary rvgo" style="width:100%;margin-top:14px">${opt.teachOnly&&!opt.last?'Next':'Got it — quiz me'}</button></div>`;
+    const sp=container.querySelector('.speak'); if(S.auto) setTimeout(()=>speak(c[0],sp),200); container.querySelector('.rvgo').onclick=()=>{ rvTouched=true; if(opt.teachOnly) onAnswer(null); else ask(); }; setTimeout(()=>{ const b=container.querySelector('.rvgo'); b&&b.focus({preventScroll:true}); },50); };
   const ask=()=>{ stage='q'; const romT=isH?'':`<div style="text-align:right"><button class="ghost qromT" type="button" style="font-size:.72rem;padding:4px 10px;min-height:32px"></button></div>`;
     container.innerHTML=`<div class="rvq">${romT}<div class="stat" style="text-align:center">${d} · which one is it?</div><div class="q small">${isH?'<span style="font-family:var(--mono);color:var(--accent)">'+c[1]+'</span><div class="stat" style="margin-top:4px">'+c[2]+'</div>':c[2]}</div><div class="opts">${opts.map((o,i)=>`<button class="opt ko" data-a="${o[0].replace(/"/g,'&quot;')}" aria-label="${(o[0]+(isH?'':', '+o[1])).replace(/"/g,'&quot;')}"><kbd>${i+1}</kbd>${o[0]}${isH?'':`<span class="qrom">${o[1]}</span>`}</button>`).join('')}</div><div class="fb"></div><button class="big primary next" style="width:100%;margin-top:12px" hidden>Next</button></div>`;
     const tb=container.querySelector('.qromT'); if(tb){ tb.onclick=()=>setQuizRom(S.quizRom===false); applyQuizRom(); } if(rvTouched) setTimeout(()=>rvView(container.querySelector('.rvq')),30);
@@ -2140,11 +2143,11 @@ function renderReviewQ(container, d, c, onAnswer){ const isH=isScriptDeck(d); co
       container.querySelector('.fb').innerHTML=`<div class="rvans"><b style="color:${ok?'var(--ok)':'var(--accent)'}">${ok?okW(1):noW()}</b> <span class="ko" style="font-size:1.25rem">${c[0]}</span> <button class="speak" data-say="${say}" type="button" style="padding:4px 9px">🔊</button><div class="stat">${c[1]} · ${c[2]}</div>${c[3]?`<div class="note" style="margin:4px 0 0;text-align:left">${c[3]}</div>`:''}${isH?'':pronNote(c[0])}</div>`;
       if(S.auto!==false) setTimeout(()=>speak(c[0],container.querySelector('.fb .speak')),ok?250:500);
       const n=container.querySelector('.next'); n.hidden=false; n.onclick=()=>onAnswer(ok); setTimeout(()=>{ n.focus({preventScroll:true}); rvView(n,true); },60); })); };
-  const key=e=>{ if(e.target.closest('input,textarea,select')) return; if(stage==='teach'&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); ask(); return; }
+  const key=e=>{ if(e.target.closest('input,textarea,select')) return; if(stage==='teach'&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); if(opt.teachOnly) onAnswer(null); else ask(); return; }
     if(/^[1-4]$/.test(e.key)&&stage==='q'&&!locked){ const o=container.querySelectorAll('.opt')[+e.key-1]; if(o) o.click(); }
     if((e.key==='Enter'||e.key===' ')&&locked){ const n=container.querySelector('.next'); if(n&&!n.hidden){ e.preventDefault(); n.click(); } }
     if(e.key==='p'||e.key==='P'){ const s=container.querySelector('[data-say]'); if(s) speak(s.dataset.say,s); } };
-  document.addEventListener('keydown',key); if(isNew(d,c)) teach(); else ask(); return ()=>document.removeEventListener('keydown',key); }
+  document.addEventListener('keydown',key); if(opt.teachOnly||(isNew(d,c)&&!opt.noTeach)) teach(); else ask(); return ()=>document.removeEventListener('keydown',key); }
 function renderCardsStage(){
   if(cleanup){cleanup();cleanup=null;}
   const all=deck===ALLDUE||/^\*tag\*:/.test(deck); const total=all?Math.max(1,queue.length):DECKS[deck].length, ln=all?qi:learned(deck);

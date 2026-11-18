@@ -20,6 +20,7 @@ Read this whole file, then your role file. The course teaches `<LANG>` to ENGLIS
 - Difficulty climbs inside a set: recognise (mc) → build (order) → complete (fill) → produce (type). Use only words the course has taught by that lesson or that the item's prompt or hint supplies.
 - STANDING RULE: at least 2 of the order items and 2 of the type items in EVERY set must hinge on the profile's standing rule, and their `why` must use one of its keywords.
 - ACCEPTED ANSWERS: list every natural correct answer a learner could type for the prompt (with and without the subject pronoun where both are normal, synonyms taught earlier); if you cannot list them all, add a cue to the English prompt ("(informal)", "(use tener)") so that only the listed ones are natural. Punctuation and capitals are ignored by the matcher; ¿ ¡ are ignored too.
+- Within one deck, no two cards may have the same English `meaning` (quizzes show the meaning): add "(formal)", "(informal)", "(to a woman)" or a different gloss.
 - A distractor must be WRONG, not merely less common. A fallback word for a type item must not be able to rebuild an accepted answer.
 
 ## Quality bar

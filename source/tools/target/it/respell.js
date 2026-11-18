@@ -15,7 +15,7 @@ pòveri lìbero lìbera lìberi lìbere tèssera àutobus spìrito ànima
 nàpoli gènova bèrgamo mòdena pàdova ùdine rìmini tàranto brìndisi trïèste svìzzera stèfano àngelo àngela èlena dàvide pàolo pàola
 sofìa marìa lucìa
 àbito àbiti àbita àbitano òrdino òrdini òrdina òrdinano desìdero desìderi desìdera desìderano vìsito vìsiti vìsita vìsitano
-càpito càpiti càpita càpitano dimèntichi dimènticano
+dimèntichi dimènticano
 pàrlano lavòrano màngiano stùdiano arrìvano èntrano tòrnano chiàmano cèrcano pàgano còmprano guàrdano ascòltano aspèttano comìnciano
 cucìnano giòcano impàrano làsciano pènsano pòrtano rèstano suònano tròvano ùsano viàggiano àmano bàllano càntano còstano nuòtano
 prenòtano pàssano àlzano làvano svègliano incòntrano invìtano ricòrdano spiègano
@@ -26,10 +26,10 @@ scùsami scusàtemi aspèttami chiàmami guàrdami
 ìo mìo mìa mìe tùo tùa tùe sùo sùa sùe dùe düemìla bùe zìo zìa zìi zìe vìa dìo addìo spìa
 farmacìa pizzerìa gelaterìa trattorìa osterìa polizìa librerìa gallerìa panetterìa macellerìa pasticcerìa salumerìa tabaccherìa
 lavanderìa cartolerìa profumerìa birrerìa segreterìa compagnìa bugìa energìa allergìa fotografìa geografìa filosofìa economìa
-malattìa gelosìa nostalgìa magìa aèreo aèrei rïunione rïunioni còmodo còmoda còmodi còmode scòmodo scòmoda mètodo perìodo càvolo càvoli uòmini cìnema frigorìfero
+malattìa gelosìa nostalgìa magìa aèreo aèrei rïunione rïunioni fattorìa suì accòmodi accòmodati vìe düecento lombardìa scrivanìa turchìa normandìa albanìa romanìa còmodo còmoda còmodi còmode scòmodo scòmoda mètodo perìodo càvolo càvoli uòmini cìnema frigorìfero
 scïare scïatore paùra ʣàïno
 ʣero ʣona ʣebra ʣùcchero ʣucchina ʣucchine ʣucchini meʣʣo meʣʣogiorno meʣʣanotte pranʣo romanʣo aʣʣurro aʣʣurra aʣʣurri
-aʣʣurre doʣʣina benʣina
+aʣʣurre doʣʣina benʣina meʣʣa meʣʣe meʣʣi
 `;
 const plainOf = s => s.replace(/[àá]/g, 'a').replace(/[èé]/g, 'e').replace(/[ìíï]/g, 'i').replace(/[òó]/g, 'o').replace(/[ùúü]/g, 'u').replace(/ʣ/g, 'z');
 const LEX = {};
@@ -38,15 +38,15 @@ LEX_SRC.trim().split(/\s+/).forEach(a => { LEX[plainOf(a)] = a; });
 /* stress rules for words not in LEX and without a written accent */
 const ANTE = ['iscono', 'iscano', 'avano', 'evano', 'ivano', 'arono', 'erono', 'irono', 'ebbero', 'issimo', 'issima', 'issimi', 'issime',
   'abile', 'abili', 'ibile', 'ibili', 'esimo', 'esima', 'esimi', 'esime', 'evole', 'evoli'];
-const IC_EXC = new Set('amico amica amici amiche nemico nemica nemici nemiche antico antica antichi antiche fatica fatiche formica formiche ombelico lombrico federico federica enrico rubrica ortica mollica vescica pudico'.split(' '));
-const IDO_EXC = new Set('decido decidi uccido uccidi divido dividi condivido condividi sorrido sorridi affido affidi confido confidi cupido infido infida infidi'.split(' '));
+const IC_EXC = new Set('felici infelici radici cornici narici pernici vernici amico amica amici amiche nemico nemica nemici nemiche antico antica antichi antiche fatica fatiche formica formiche ombelico lombrico federico federica enrico rubrica ortica mollica vescica pudico'.split(' '));
+const IDO_EXC = new Set('decido decidi decide uccido uccidi uccide divido dividi divide condivido condividi condivide sorrido sorridi sorride affido affidi affide confido confidi confide cupido infido infida infidi infide'.split(' '));
 const ERE_PEN = new Set(('avere vedere rivedere prevedere sapere potere dovere volere tenere ottenere mantenere sostenere contenere appartenere trattenere ' +
   'piacere dispiacere rimanere sedere possedere cadere accadere valere parere godere temere tacere giacere persuadere dolere ingegnere severe intere sincere austere').split(' '));
 /* default-penultimate words that end like risky words: no warning */
 const SAFE = new Set(('italiano italiana italiani italiane americano americana americani americane toscano toscana siciliano siciliana romano romana romani ' +
   'romane milano lontano lontana lontani lontane quotidiano luciano adriano bolzano parola parole spagnolo spagnola spagnoli spagnole fagiolo fagioli ' +
   'nicola figliolo aprile gentile gentili cortile civile maschile femminile sottile campanile sedile brasile primavera atmosfera intero intera interi ' +
-  'sincero sincera severo severa bandiera buonasera stasera divano').split(' '));
+  'sincero sincera severo severa bandiera buonasera stasera divano capitano capitani').split(' '));
 const RISKY = /(ano|ono|olo|ola|oli|ole|ile|ili|[^i]ero|[^i]era|[^i]eri)$/;
 const warned = new Set();
 
@@ -112,7 +112,7 @@ function tokens(w) {
     } else {
       if (nV && nx.v === 'i' && !nx.acc && !(t[i + 2] && t[i + 2].k === 'V')) { x.full = true; nx.full = true; }  /* lui, cui, fui: two syllables (buio is boo-yoh) */
       else if (nV && (!p || p.k === 'C')) { if (!p) t[i] = { k: 'C', s: 'w' }; else x.role = 'on'; }  /* uomo, buono */
-      else if (pV && !nV && !p.role && 'aeo'.includes(p.v)) x.role = 'off';         /* auto, euro */
+      else if (pV && !nV && !p.role && 'ae'.includes(p.v)) x.role = 'off';          /* auto, euro (not centouno) */
     }
   }
   return t;
@@ -171,23 +171,39 @@ function stressFromEnd(base, syl) {        /* 1 = last syllable, 2 = next to las
   if (syl[n - 1].n.off === 'i') return { pos: 1, how: 'rule' };                  /* final falling diphthong: vorrei, farai, ormai, eroi */
   if (n >= 3) {
     if (ANTE.some(x => base.endsWith(x)) && base !== 'divano') return { pos: 3, how: 'rule' };
-    if (/(ico|ica|ici|iche)$/.test(base) && !IC_EXC.has(base)) return { pos: 3, how: 'rule' };
-    if (/(ido|ida|idi)$/.test(base) && !IDO_EXC.has(base)) return { pos: 3, how: 'rule' };   /* rapido, timido, morbido */
+    if (/(ico|ica|iche)$/.test(base) && !IC_EXC.has(base)) return { pos: 3, how: 'rule' };
+    if (/ici$/.test(base) && !/trici$/.test(base) && !IC_EXC.has(base)) return { pos: 3, how: 'rule' };   /* medici, pratici; not felici, attrici */
+    if (/(ido|ida|idi|ide)$/.test(base) && !IDO_EXC.has(base)) return { pos: 3, how: 'rule' };   /* rapido, timido, morbido */
     if (/ere$/.test(base) && !/iere$/.test(base) && !ERE_PEN.has(base)) return { pos: 3, how: 'rule' };
   }
   return { pos: 2, how: 'default' };
 }
 
+/* -eria shops and learned suffixes have a stressed i (pizzeria, geografia); exceptions keep a glide (materia, serie) */
+const IA_STRESS = /(eria|erie|logia|logie|grafia|grafie|sofia|nomia|patia|fonia|crazia|crazie)$/;
+const IA_EXC = new Set('materia materie miseria miserie arteria arterie valeria siberia liberia nigeria iberia seria serie'.split(' '));
+const RISKY_IA = /[^aeioucgl]i[ae]$/;    /* consonant + ia / ie: stressed or not? (storia vs farmacia) */
+const SAFE_IA = new Set('italia sicilia storia storie germania memoria vittoria gloria valeria materia materie serie camicia'.split(' '));
+function annotate(base) {
+  if (LEX[base]) return LEX[base];
+  if (base.length >= 4) {                      /* inflected sibling of a LEX word: piccole <- pìccolo, mezza <- meʣʣo, farmacie <- farmacìa */
+    for (const v of 'oaie') { const sib = base.slice(0, -1) + v; if (sib !== base && LEX[sib] && /[aeiou]$/.test(base)) return LEX[sib].slice(0, -1) + base.slice(-1); }
+  }
+  if (/due$/.test(base) && base.length > 3) return base.slice(0, -3) + 'dùe';          /* ventidue, trentadue */
+  if (/^due./.test(base) && /^due(cento|mila)/.test(base)) return 'dü' + base.slice(2);  /* duecento */
+  if (IA_STRESS.test(base) && !IA_EXC.has(base)) { const k = base.lastIndexOf('i'); return base.slice(0, k) + 'ì' + base.slice(k + 1); }
+  return base;
+}
 function word(raw) {
   let w = raw.normalize('NFC').toLowerCase().replace(/[’‘ʼ`´]/g, "'").replace(/^'+|'+$/g, '');   /* po' -> po */
   if (!w) return '';
   let prefix = '', base = w;
   const ap = w.lastIndexOf("'");
   if (ap > 0) { prefix = w.slice(0, ap).replace(/'/g, ''); base = w.slice(ap + 1); }                  /* l'acqua, dov'è, un'amica */
-  const ann = LEX[base] || base;
+  const ann = annotate(base);
   const bsyl = syllables(ann);
   const st = stressFromEnd(base, bsyl);
-  if (st.how === 'default' && bsyl.length >= 3 && RISKY.test(base) && !SAFE.has(base) && !warned.has(base)) {
+  if (st.how === 'default' && bsyl.length >= 3 && ((RISKY.test(base) && !SAFE.has(base)) || (RISKY_IA.test(base) && !SAFE_IA.has(base) && ann === base)) && !warned.has(base)) {
     warned.add(base);
     process.stderr.write('respell: check stress of «' + base + '» (default rule: next to last syllable). If wrong, add it to LEX in respell.js.\n');
   }

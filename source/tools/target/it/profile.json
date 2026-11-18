@@ -28,7 +28,7 @@
   "pronPattern": "^(?!.*[cC](?![hH]))(?!.*(?<![aA])[iI])(?!.*[aA](?![hHiIyY]))(?!.*(?<![eE])[eE](?![hHeE]))(?!.*(?<![oO])[oO](?![hHoOyYwW]))(?:[abcdefghijklmnoprstvwyz]+|(?:[abcdefghijklmnoprstvwyz]+-)+[ABCDEFGHIJKLMNOPRSTVWYZ]+(?:-[abcdefghijklmnoprstvwyz]+)*|[ABCDEFGHIJKLMNOPRSTVWYZ]+(?:-[abcdefghijklmnoprstvwyz]+)+)(?: (?:[abcdefghijklmnoprstvwyz]+|(?:[abcdefghijklmnoprstvwyz]+-)+[ABCDEFGHIJKLMNOPRSTVWYZ]+(?:-[abcdefghijklmnoprstvwyz]+)*|[ABCDEFGHIJKLMNOPRSTVWYZ]+(?:-[abcdefghijklmnoprstvwyz]+)+))*$",
   "targetScript": "[A-Za-zÀÈÉÌÍÒÓÙÚàèéìíòóùú]",
   "standingRule": {
-    "keywords": "KW",
+    "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bgender\\b|\\bsingular\\b|\\bplural (?:noun|adjective|article|ending|form|verb|subject)|\\bverb ending|\\bmatch(?:es)? the subject|\\b(?:io|tu|lui|lei|noi|voi|loro)(?: ?\\/ ?lei)?[ -]form",
     "flags": "i",
     "minOrder": 2,
     "minType": 2
