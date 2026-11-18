@@ -2,7 +2,7 @@
    Deck names here must match the deck names in decks.js (see DECKNAMES.md). Lesson ids are the shared English ids.
    PLAN_PRESETS: decks "@path" = every deck in GROUPS order; lessons "@all" = every lesson in course order. */
 exports.GROUPS = [
-  ["Primi passi", ["Saluti", "Presentarsi", "Sopravvivenza 1", "Sopravvivenza 2"]],
+  ["Primi passi", ["Saluti", "Presentarsi", "Sopravvivenza 1", "Sopravvivenza 2", "L'alfabeto"]],
   ["Viaggi e vita quotidiana", ["Indicazioni e trasporti", "Al ristorante", "Bar e negozio", "Acquisti e pagamenti", "Numeri, ore e date", "Viaggi (aeroporto e hotel)", "Salute ed emergenze"]],
   ["Conversazione e relazioni", ["Due chiacchiere", "Emozioni e reazioni", "Complimenti e affetto", "Telefono e abbreviazioni"]],
   ["Lavoro", ["Lavoro ed e-mail"]],
@@ -11,7 +11,7 @@ exports.GROUPS = [
 ];
 
 exports.TAGS = {
-  basics: ["Saluti", "Presentarsi", "Sopravvivenza 1", "Sopravvivenza 2", "Numeri, ore e date"],
+  basics: ["Saluti", "Presentarsi", "Sopravvivenza 1", "Sopravvivenza 2", "Numeri, ore e date", "L'alfabeto"],
   travel: ["Sopravvivenza 1", "Sopravvivenza 2", "Indicazioni e trasporti", "Al ristorante", "Bar e negozio", "Acquisti e pagamenti", "Numeri, ore e date", "Viaggi (aeroporto e hotel)", "Salute ed emergenze"],
   social: ["Saluti", "Presentarsi", "Due chiacchiere", "Emozioni e reazioni", "Complimenti e affetto", "Telefono e abbreviazioni"],
   work: ["Lavoro ed e-mail", "Telefono e abbreviazioni", "Numeri, ore e date", "Due chiacchiere"],
@@ -44,6 +44,7 @@ exports.DESC = {
   "Falsi amici": "Actually, factory, educated, library, college: parole che assomigliano all'italiano ma significano un'altra cosa",
   "Make e do": "I due modi di dire «fare»: make a mistake, make a decision, do homework, do the dishes",
   "Non numerabili": "Advice, information, news, furniture, homework: in italiano si contano, in inglese non vogliono né -s né a/an",
+  "L'alfabeto": "I nomi inglesi delle 26 lettere, per fare lo spelling di nomi, e-mail e codici ad alta voce",
   "Parole trasparenti e accento": "-tion = -zione, -ty = -tà, -ous = -oso, -ly = -mente: parole che conosci già, con l'accento tonico dove lo mette l'inglese"
 };
 

@@ -426,6 +426,35 @@ I've got your back. | aiv GAAT iur BAK | Cuenta conmigo | Significa que vas a ap
 Gotcha. | GAA-che | Entendido / ¡Te atrapé! | Viene de "got you". Lo más común es usarlo para decir que entendiste
 Let's do this! | lets DUU DHIS! | ¡Vamos con todo! | Para darse ánimo antes de empezar algo
 `,
+/* deck 21, shared by every course (docs/briefs/alphabet-spec.md): letter names for spelling aloud. Linked from the lesson "alphabet". */
+"El alfabeto": `
+A | EI | letra A / a | Ojo: no se dice «a» sino «EI», como "day" sin la d. Ejemplo: "apple"
+B | BII | letra B / b | Rima con "see". Al deletrear, aclara: "B as in boy". Ejemplo: "book"
+C | SII (s sorda) | letra C / c | Suena igual que "see" («ver»). Ejemplo: "coffee"
+D | DII | letra D / d | No es «de»: rima con B y C. Ejemplo: "dog"
+E | II | letra E / e | La gran trampa: su nombre suena como la «i» española, larga. Ejemplo: "email"
+F | EF | letra F / f | Como «efe», pero sin la vocal final. Ejemplo: "family"
+G | DYII | letra G / g | Ojo: rima con E. No la confundas con la J («DYEI»). Ejemplo: "good"
+H | EICH | letra H / h | Se dice «EICH», no «hache». Y en inglés la h casi siempre suena. Ejemplo: "house"
+I | AI | letra I / i | Suena como «ay» y como la palabra "I" («yo»). Si dices «i», te van a entender E. Ejemplo: "idea"
+J | DYEI | letra J / j | Ojo: rima con A y K. No la confundas con la G («DYII»). Ejemplo: "job"
+K | KEI | letra K / k | No es «ka»: rima con A y J. Ejemplo: "key"
+L | EL | letra L / l | Suena como el artículo español «el». Ejemplo: "lunch"
+M | EM | letra M / m | Por teléfono se confunde con la N; aclara: "M as in Mary". Ejemplo: "money"
+N | EN | letra N / n | Suena como la preposición «en». Ejemplo: "name"
+O | OU | letra O / o | No es una «o» pura: la boca se cierra hacia la «u», como en "oh". Ejemplo: "open"
+P | PII | letra P / p | Rima con B y T; por teléfono se confunden, así que aclara: "P as in Peter". Ejemplo: "pizza"
+Q | KIUU | letra Q / q | No es «cu»: suena como "queue" («fila»). Casi siempre va seguida de u. Ejemplo: "question"
+R | AAR | letra R / r | No es «erre»: suena como "are", con la r inglesa. Ejemplo: "room"
+S | ES | letra S / s | Suena como «es». Dos S seguidas se dicen "double S", como en "class". Ejemplo: "school"
+T | TII | letra T / t | Suena igual que "tea" («té»). Una T mayúscula es "a capital T". Ejemplo: "ticket"
+U | IUU | letra U / u | Suena como "you", no «u». Por eso se dice "a U", no "an U". Ejemplo: "university"
+V | VII | letra V / v | Ojo: no es «BII». Dientes de arriba sobre el labio de abajo; aclara: "V as in Victor". Ejemplo: "very"
+W | DA-bel-iu | letra W / w | Literalmente «doble u»: no digas «doble ve» ni «uve doble». Ejemplo: "water"
+X | EKS | letra X / x | No se dice «equis» sino «EKS»; por eso lleva "an": "an X". Ejemplo: "X-ray" (radiografía)
+Y | WAI | letra Y / y | No es «ye» ni «i griega»: suena como "why" («por qué»). Ejemplo: "yes"
+Z | SII (s sonora) | letra Z / z | No es «zeta»: suena como la C, pero con una s sonora que zumba como una abeja. En inglés británico, "zed". Ejemplo: "zero"
+`,
 /* es-only decks (profile §9 "Decks to reweight"): no counterpart in ko-en; parity reasons in deviations.json "decks". Added 2026-11-16. */
 "Palabras esenciales": `
 Did you get my message? | did iu GUET mai ME-sidy? | ¿Te llegó mi mensaje? | "get" = recibir. Es uno de los verbos más usados del inglés hablado: recibir, conseguir, llegar, ponerse… Después de "did", va sin cambios

@@ -259,6 +259,12 @@
    "kind": "stage",
    "roadmap": "en"
   },
+  "The alphabet and spelling aloud": {
+   "t": "L'alphabet et comment épeler à voix haute",
+   "ko": "알파벳과 철자 말하기",
+   "kind": "lesson title",
+   "roadmap": "en"
+  },
   "Pronunciation traps: R/L, F/P, TH": {
    "t": "Pièges de prononciation : R/L, F/P, TH",
    "ko": "발음 함정: R/L, F/P, TH",

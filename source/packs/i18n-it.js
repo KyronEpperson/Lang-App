@@ -1089,6 +1089,7 @@ LANGAPP_PACKS.i18n.it = {
     "General (American) English": "Inglese generale (americano)",
     "CEFR A1-B1 order, adjusted for Korean speakers": "Ordine del QCER A1-B1, adattato ai parlanti di coreano",
     "A1 · First sentences": "A1 · Prime frasi",
+    "The alphabet and spelling aloud": "L'alfabeto e lo spelling ad alta voce",
     "Pronunciation traps: R/L, F/P, TH": "Trappole di pronuncia: R/L, F/P, TH",
     "be, subject pronouns, every sentence needs a subject": "be, pronomi personali soggetto, ogni frase ha bisogno di un soggetto",
     "It's cold · there is / there are": "It's cold · there is / there are",

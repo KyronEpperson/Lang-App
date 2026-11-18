@@ -420,6 +420,35 @@ I've got your back. | aiv gaat yer bèk | Aku selalu mendukungmu | Artinya siap 
 Gotcha. | GAA-ce | Oke, paham / Kena kau! | Singkatan dari "got you". Paling sering berarti "paham"
 Let's do this! | léts duu dhis! | Ayo, kita lakukan! | Untuk membakar semangat sebelum mulai
 `,
+/* deck 21, shared by every course (docs/briefs/alphabet-spec.md): letter names for spelling aloud. Linked from the lesson "alphabet". */
+"Alfabet": `
+A | ei | huruf A / a | Namanya ei, bukan ‘a’ seperti dalam abjad kita. Contoh: "apple"
+B | bii | huruf B / b | Bukan ‘bé’: namanya bii, berima dengan C dan D. Contoh: "book"
+C | sii | huruf C / c | Bukan ‘cé’: namanya sii, sama dengan kata "see" (melihat). Contoh: "coffee"
+D | dii | huruf D / d | Bukan ‘dé’: namanya dii. Di telepon mudah tertukar dengan B dan T, jadi pastikan: "D as in dog". Contoh: "dog"
+E | ii | huruf E / e | Jebakan terbesar: nama E terdengar seperti ‘i’ panjang kita. Contoh: "email" (II-meil)
+F | éf | huruf F / f | Akhiri dengan f yang jelas, gigi atas di bibir bawah, bukan p. ff pada "coffee" dieja "double F". Contoh: "fan"
+G | jii | huruf G / g | Bukan ‘gé’: namanya jii, diawali j seperti pada ‘jalan’. Jangan tertukar dengan J (jei). Contoh: "good"
+H | eic | huruf H / h | Bukan ‘ha’: namanya eic (ei + c seperti pada ‘cari’). Diawali bunyi vokal, jadi "an H". Contoh: "hotel"
+I | ai | huruf I / i | Namanya ai, sama dengan kata "I" (saya). Kalau kamu bilang ‘i’, yang terdengar E. Contoh: "idea"
+J | jei | huruf J / j | Bukan ‘jé’: namanya jei, berima dengan A dan K. Bedakan dengan G (jii). Contoh: "job"
+K | kei | huruf K / k | Bukan ‘ka’: namanya kei, berima dengan A dan J. Contoh: "kind"
+L | él | huruf L / l | Di akhir nama, ujung lidah tetap menempel di gusi atas. ll pada "hello" dieja "double L". Contoh: "lunch"
+M | ém | huruf M / m | Di telepon mudah tertukar dengan N, jadi pastikan: "M as in Mary". Contoh: "money"
+N | én | huruf N / n | Akhiri dengan ujung lidah di gusi atas. Pastikan dengan "N as in name". Contoh: "name"
+O | ou | huruf O / o | Bukan o murni: bibir bergerak dari o ke u, seperti "oh". Contoh: "open"
+P | pii | huruf P / p | Bukan ‘pé’: namanya pii, berima dengan B dan T. Pastikan dengan "P as in pizza". Contoh: "pizza"
+Q | kyuu | huruf Q / q | Bukan ‘ki’: namanya kyuu, sama dengan kata "queue" (antrean). Hampir selalu diikuti u. Contoh: "question"
+R | aar | huruf R / r | Bukan ‘èr’: namanya aar, seperti kata "are", dengan r Amerika yang tidak bergetar. Contoh: "rice"
+S | és | huruf S / s | ss pada "class" dieja "double S". Bedakan dengan C (sii) saat mengeja. Contoh: "student"
+T | tii | huruf T / t | Bukan ‘té’: namanya tii, sama dengan kata "tea" (teh). T kapital = "a capital T". Contoh: "ticket"
+U | yuu | huruf U / u | Namanya yuu, sama dengan "you", diawali bunyi y. Karena itu "a U", bukan "an U". Contoh: "university"
+V | vii | huruf V / v | Bukan ‘fé’: namanya vii, gigi atas di bibir bawah dan pita suara bergetar. Bedakan dengan B (bii) dan F. Contoh: "very"
+W | DA-bel-yuu | huruf W / w | Bukan ‘wé’: namanya "double u" (u ganda), tiga suku kata. Contoh: "water"
+X | éks | huruf X / x | Mirip nama huruf ini dalam abjad kita; ucapkan k dan s sampai jelas. Diawali bunyi vokal, jadi "an X". Contoh: "X-ray" (rontgen)
+Y | wai | huruf Y / y | Bukan ‘yé’: namanya wai, sama dengan kata "why" (kenapa). Contoh: "yes"
+Z | zii | huruf Z / z | Bukan ‘zèt’: di Amerika namanya zii, dengan z yang berdengung seperti lebah, bukan s. Di Inggris disebut "zed". Contoh: "zero"
+`,
 "Jebakan Inggris ala Indonesia": `
 This movie is boring. | dhis MUU-vi iz BOO-ring | Film ini membosankan | Inggris ala Indonesia: "boring" = membuat bosan. Untuk perasaanmu: "I'm bored". "I'm boring" = saya orang yang membosankan
 I'm interested in art. | aim IN-tre-stid in aart | Saya tertarik pada seni | Perasaanmu pakai -ed ("interested"); yang menimbulkan perasaan pakai -ing: "Art is interesting."

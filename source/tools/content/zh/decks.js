@@ -426,6 +426,34 @@ I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | 我挺你 / 有我在 | 意�
 Gotcha. | /ˈgɑːtʃə/ | 明白了 / 抓到你了！ | got you 的缩略，最常用来表示“懂了”。
 Let's do this! | /ˈlets ˈduː ˈðɪs/ | 开干吧！ | 开始前给大家鼓劲。
 `,
+"字母表": `
+A | /ˈeɪ/ | 字母 A（小写 a） | apple 的 A。名称读 /ˈeɪ/，不是拼音 a 的读法。
+B | /ˈbiː/ | 字母 B（小写 b） | bag 的 B。双唇闭合再放开，和 V 区分。
+C | /ˈsiː/ | 字母 C（小写 c） | coffee 的 C。名称和 see 同音。拼音里 c 是“次”的声母，别混。
+D | /ˈdiː/ | 字母 D（小写 d） | dog 的 D。和 T 只差声带振动，电话里容易听错。
+E | /ˈiː/ | 字母 E（小写 e） | email 的 E。名称是 /ˈiː/，不是拼音 e（鹅）；/ˈaɪ/ 是 I 的名称。
+F | /ˈef/ | 字母 F（小写 f） | fan 的 F。结尾上齿轻触下唇。coffee 里的 ff 说 double F。
+G | /ˈdʒiː/ | 字母 G（小写 g） | go 的 G。拼音 g 是“哥”的声母，字母名称却是 /ˈdʒiː/，别和 J 说反。
+H | /ˈeɪtʃ/ | 字母 H（小写 h） | hotel 的 H。名称以元音开头，所以说 an H。结尾的 /tʃ/ 后面不加元音。
+I | /ˈaɪ/ | 字母 I（小写 i） | idea 的 I。和表示“我”的 I 同音，不是拼音 i（衣）；/ˈiː/ 是 E 的名称。
+J | /ˈdʒeɪ/ | 字母 J（小写 j） | job 的 J。拼音 j 是“鸡”的声母，字母名称是 /ˈdʒeɪ/，和 G 容易说反。
+K | /ˈkeɪ/ | 字母 K（小写 k） | key 的 K。和 OK 结尾的音相同。
+L | /ˈel/ | 字母 L（小写 l） | light 的 L。舌尖抵住上齿龈就收住，后面不加元音。
+M | /ˈem/ | 字母 M（小写 m） | milk 的 M。双唇闭上收住。电话里容易和 N 听混，可以说 M as in Mary。
+N | /ˈen/ | 字母 N（小写 n） | name 的 N。电话里容易和 M 混，可以说 N as in name。部分地区的同学还要注意别读成 L。
+O | /ˈoʊ/ | 字母 O（小写 o） | OK 的 O。美音是 /oʊ/，结尾嘴唇收圆。在英语里报电话号码时，数字 0 也常读作 O。
+P | /ˈpiː/ | 字母 P（小写 p） | pan 的 P。双唇爆破送气，和 B 区分。
+Q | /ˈkjuː/ | 字母 Q（小写 q） | question 的 Q。拼音 q 是“七”的声母，字母名称却是 /ˈkjuː/。单词里 Q 后面几乎总跟着 U。
+R | /ˈɑːr/ | 字母 R（小写 r） | rice 的 R。先张大嘴读 /ɑː/，再把舌尖向后卷，不碰任何地方。和 L 区分。
+S | /ˈes/ | 字母 S（小写 s） | sorry 的 S。/ˈsiː/ 是 C 的名称。class 里的 ss 说 double S。
+T | /ˈtiː/ | 字母 T（小写 t） | taxi 的 T。大写说 capital T，两个 T 连在一起说 double T。
+U | /ˈjuː/ | 字母 U（小写 u） | university 的 U。名称和 you 同音，以 /j/ 开头，所以是 a U。拼音 u 读“乌”。
+V | /ˈviː/ | 字母 V（小写 v） | very 的 V。上齿轻触下唇、声带振动，不要读成拼音的 wei。
+W | /ˈdʌbəljuː/ | 字母 W（小写 w） | water 的 W。名称是 double u（两个 U），三个音节都要读出来。
+X | /ˈeks/ | 字母 X（小写 x） | X-ray（X 光）的 X，不过 X 更常出现在词尾，比如 box。拼音 x 是“西”的声母，字母名称却是 /ˈeks/，所以说 an X。
+Y | /ˈwaɪ/ | 字母 Y（小写 y） | yes 的 Y。名称和 why 同音。
+Z | /ˈziː/ | 字母 Z（小写 z） | zero 的 Z。美国人说 zee；课本里的英式 zed 在美国很少用。拼音 z 是“资”的声母。
+`,
 "中式英语陷阱": `
 Turn on the light. | /ˈtɜːrn ˈɑːn ðə ˈlaɪt/ | 开灯 | 中式英语：“开灯”不是 open the light ✗。灯、电视、空调等电器的“开”用 turn on。
 Turn off the TV. | /ˈtɜːrn ˈɔːf ðə ˌtiː ˈviː/ | 关电视 | 中式英语：“关电视”不是 close the TV ✗。电器的“关”用 turn off，门窗才用 close。

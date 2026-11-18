@@ -2,7 +2,7 @@
    Deck names here must match the deck names in decks.js (see DECKNAMES.md). Lesson ids are the shared English ids.
    PLAN_PRESETS: decks "@path" = every deck in GROUPS order; lessons "@all" = every lesson in course order. */
 exports.GROUPS = [
-  ["Langkah pertama", ["Salam", "Perkenalan diri", "Ungkapan penting 1", "Ungkapan penting 2"]],
+  ["Langkah pertama", ["Salam", "Perkenalan diri", "Ungkapan penting 1", "Ungkapan penting 2", "Alfabet"]],
   ["Perjalanan & sehari-hari", ["Arah & transportasi", "Pesan di restoran", "Kafe & minimarket", "Belanja & bayar", "Angka, jam & tanggal", "Perjalanan (bandara & hotel)", "Rumah sakit & darurat"]],
   ["Obrolan & pertemanan", ["Obrolan ringan", "Perasaan & reaksi", "Pujian & rasa suka", "Telepon & singkatan chat"]],
   ["Kerja", ["Kerja & email"]],
@@ -11,7 +11,7 @@ exports.GROUPS = [
 ];
 
 exports.TAGS = {
-  basics: ["Salam", "Perkenalan diri", "Ungkapan penting 1", "Ungkapan penting 2", "Angka, jam & tanggal"],
+  basics: ["Salam", "Perkenalan diri", "Ungkapan penting 1", "Ungkapan penting 2", "Angka, jam & tanggal", "Alfabet"],
   travel: ["Ungkapan penting 1", "Ungkapan penting 2", "Arah & transportasi", "Pesan di restoran", "Kafe & minimarket", "Belanja & bayar", "Angka, jam & tanggal", "Perjalanan (bandara & hotel)", "Rumah sakit & darurat"],
   social: ["Salam", "Perkenalan diri", "Obrolan ringan", "Perasaan & reaksi", "Pujian & rasa suka", "Telepon & singkatan chat"],
   work: ["Kerja & email", "Telepon & singkatan chat", "Angka, jam & tanggal", "Obrolan ringan"],
@@ -40,6 +40,7 @@ exports.DESC = {
   "Awas pelafalan": "TH/T, V/F, SH/S, i/ii, é/è, konsonan akhir bersuara (bag/back, dogs/docks), dan tekanan kata: pasangan bunyi yang paling sering tertukar",
   "Idiom bahasa Inggris": "Ungkapan yang aneh kalau diterjemahkan kata per kata, dengan padanannya dalam bahasa Indonesia",
   "Film, serial & slang": "Ungkapan masa kini dari film, serial, dan media sosial",
+  "Alfabet": "Nama 26 huruf dalam bahasa Inggris untuk mengeja nama, email, dan kode pemesanan dengan lantang",
   "Jebakan Inggris ala Indonesia": "Boring/bored, refreshing, borrow/lend, map, resep, titel, ons: kata yang sering salah dipakai penutur bahasa Indonesia"
 };
 

@@ -1089,6 +1089,7 @@ LANGAPP_PACKS.i18n.th = {
     "General (American) English": "ภาษาอังกฤษแบบอเมริกันทั่วไป",
     "CEFR A1-B1 order, adjusted for Korean speakers": "ลำดับ CEFR A1-B1 ปรับให้เหมาะกับผู้พูดภาษาเกาหลี",
     "A1 · First sentences": "A1 · ประโยคแรก",
+    "The alphabet and spelling aloud": "ตัวอักษรภาษาอังกฤษและการพูดสะกดคำ",
     "Pronunciation traps: R/L, F/P, TH": "กับดักการออกเสียง: R/L F/P และ TH",
     "be, subject pronouns, every sentence needs a subject": "Verb to be คำสรรพนามประธาน และทุกประโยคต้องมีประธาน",
     "It's cold · there is / there are": "It's cold และ there is / there are",

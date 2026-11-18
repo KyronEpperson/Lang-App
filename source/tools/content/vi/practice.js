@@ -8,6 +8,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "Tên chữ cái nào nghe giống hệt từ \"see\" (nhìn thấy)?", o: ["C", "S", "Z", "K"], why: "C đọc là /siː/, giống hệt \"see\", không phải “xê”. S là /es/, Z là /ziː/ (âm /z/ rung), K là /keɪ/." },
+    { t: "mc", q: "Chữ cái nào đứng ngay sau Q?", o: ["R", "P", "S", "O"], why: "Thứ tự giống bảng chữ cái tiếng Việt: P, Q, R, S. Sau Q (/kjuː/) là R (/ɑːr/)." },
+    { t: "mc", q: "Cách nào đúng?", o: ["an M", "a M", "an B", "an U"], why: "Tên của M là /em/, bắt đầu bằng nguyên âm, nên dùng mạo từ \"an\": \"an M\". B (/biː/) là \"a B\"; U (/juː/) bắt đầu bằng âm /j/ nên là \"a U\"." },
+    { t: "mc", q: "Chữ nào là nguyên âm?", o: ["U", "R", "S", "W"], why: "Tiếng Anh có năm chữ nguyên âm: A, E, I, O, U. R, S, W là phụ âm." },
+    { t: "mc", q: "Chữ W trong tiếng Anh tên là gì?", o: ["double u", "double v", "u u", "v v"], why: "Tiếng Việt gọi W là “vê kép” (V đôi), nhưng tiếng Anh gọi là \"double u\" (U đôi), đọc /ˈdʌbəljuː/." },
+
+    { t: "order", p: "Từ đó đánh vần thế nào?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "Câu hỏi với động từ thường \"spell\" cần trợ động từ \"do\" (chủ ngữ \"you\" nên không dùng \"does\"), và \"spell\" giữ dạng nguyên mẫu." },
+    { t: "order", p: "Tên tôi bắt đầu bằng chữ S", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "Tên của S là /es/, bắt đầu bằng nguyên âm, nên dùng mạo từ \"an\": \"an S\". Chủ ngữ \"my name\" là ngôi thứ ba số ít nên động từ là \"starts\"." },
+    { t: "order", p: "Từ \"hello\" có hai chữ L", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "Có \"two\" nên chữ L phải ở dạng số nhiều: \"Ls\". Chủ ngữ số nhiều thì dùng \"are\", không dùng \"is\"." },
+
+    { t: "fill", q: "How do you __ your name?", p: "Tên của bạn đánh vần thế nào?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "Sau \"do you\" là động từ nguyên mẫu: \"spell\", không thêm -s, -ing hay -ed." },
+    { t: "fill", q: "It starts __ a B.", p: "Bắt đầu bằng chữ B", a: ["with"], o: ["by", "for", "in"], why: "“Bắt đầu bằng” là \"start with\". Đừng dịch “bằng” thành \"by\"." },
+    { t: "fill", q: "That's M __ in Mary.", p: "Là M trong tên \"Mary\"", a: ["as"], o: ["so", "than", "of"], why: "Để xác nhận một chữ cái, dùng \"as in\" + một từ quen thuộc: \"M as in Mary\"." },
+
+    { t: "type", p: "(Chủ ngữ \"it\", nhớ mạo từ) Bắt đầu bằng chữ A", a: ["It starts with an A", "It begins with an A"], hint: "start · A — tên của A bắt đầu bằng nguyên âm", x: ["the", "start"], why: "Tên của A là /eɪ/, bắt đầu bằng nguyên âm, nên dùng mạo từ \"an\": \"an A\". Tiếng Anh cần chủ ngữ \"it\", và \"it\" là ngôi thứ ba số ít nên dùng \"starts\"." },
+    { t: "type", p: "Bạn đánh vần tên của bạn thế nào?", a: ["How do you spell your name"], hint: "spell · your name — hỏi bằng trợ động từ \"do\"", x: ["spelling", "does"], why: "Câu hỏi với động từ thường cần trợ động từ \"do\"; chủ ngữ \"you\" nên không dùng \"does\", và \"spell\" giữ dạng nguyên mẫu." },
+    { t: "type", p: "(Mở đầu câu bằng \"It\") Từ đó có hai chữ T", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "have · two · T — có hai thì dùng số nhiều", x: ["T", "have"], why: "Có \"two\" nên chữ T ở dạng số nhiều: \"Ts\" (hoặc \"T's\"). Chủ ngữ \"it\" là ngôi thứ ba số ít nên \"have\" thành \"has\"." }
+  ],
+
   pron: [
     { t: "mc", q: "Từ nào nghĩa là “gạo / cơm”?", o: ["rice", "lice", "rise", "nice"], why: "\"Rice\" bắt đầu bằng R: đầu lưỡi không chạm vào đâu. Đọc bằng L (đầu lưỡi chạm lợi) thì thành \"lice\" (con chấy)." },
     { t: "mc", q: "Từ nào nghĩa là “cái quạt”?", o: ["fan", "pan", "van", "ban"], why: "F đọc như “ph” tiếng Việt: răng trên chạm môi dưới. Mím hai môi rồi bật ra (P) thì thành \"pan\" (cái chảo)." },

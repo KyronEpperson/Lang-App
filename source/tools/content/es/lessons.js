@@ -1,6 +1,25 @@
 /* es-en: the original 11 lessons and their checks, written for Spanish speakers (docs/profiles/es.md §8).
    English examples, check options and answer positions follow ko-en except in the lessons listed in deviations.b.json. */
 exports.LESSONS = [
+{ id:"alphabet", title:"1 · El alfabeto: el nombre de las letras y cómo deletrear", blurb:"Ya conoces las letras, pero en inglés se llaman de otra manera. Aprende sus nombres para deletrear tu nombre, tu correo o un código de reserva sin malentendidos.", deck:"El alfabeto", body:`
+<p>El inglés usa las mismas letras que el español, menos la ñ: son 26. Lo que cambia son sus <b>nombres</b>, y los necesitas cada vez que deletreas algo en voz alta: tu apellido en la recepción de un hotel, tu correo electrónico por teléfono o el código de una reserva en el aeropuerto. Si dices «i» pensando en la I, quien te escucha va a escribir una E.</p>
+<h3>Las 26 letras y sus nombres</h3>
+<p>Al lado de cada letra va su nombre con la ayuda de pronunciación: las MAYÚSCULAS marcan la sílaba tónica, <i>ii</i> y <i>uu</i> son vocales largas y <i>dy</i> es la <i>j</i> inglesa de <i>job</i> (la clave completa está en la lección siguiente). Las cinco vocales (A, E, I, O, U) están resaltadas.</p>
+<div class="tbl"><table><tr><th>Letra · nombre</th><th>Letra · nombre</th><th>Letra · nombre</th><th>Letra · nombre</th><th>Letra · nombre</th></tr><tr><td class="k">A · EI</td><td>B · BII</td><td>C · SII (s sorda)</td><td>D · DII</td><td class="k">E · II</td></tr><tr><td>F · EF</td><td>G · DYII</td><td>H · EICH</td><td class="k">I · AI</td><td>J · DYEI</td></tr><tr><td>K · KEI</td><td>L · EL</td><td>M · EM</td><td>N · EN</td><td class="k">O · OU</td></tr><tr><td>P · PII</td><td>Q · KIUU</td><td>R · AAR</td><td>S · ES</td><td>T · TII</td></tr><tr><td class="k">U · IUU</td><td>V · VII</td><td>W · DA-bel-iu</td><td>X · EKS</td><td>Y · WAI</td></tr><tr><td>Z · SII (s sonora)</td><td></td><td></td><td></td><td></td></tr></table></div>
+<p>Truco: muchos nombres riman entre sí. Riman con la E: B, C, D, G, P, T, V, Z. Riman con la A: J y K.</p>
+<h3>Los nombres que más confunden los hispanohablantes</h3>
+<p>La trampa más grande está en las vocales: el nombre inglés de la E suena como nuestra «i», y el de la I suena como «ai». Cuando oigas «i», escribe E; cuando oigas «ei», escribe A.</p>
+<div class="tbl"><table><tr><th>Letra</th><th>En inglés</th><th>Ojo</th></tr><tr><td class="k">A</td><td>EI</td><td>no «a»; suena como <i>day</i> sin la d</td></tr><tr><td class="k">E</td><td>II</td><td>suena como la <i>i</i> española, larga</td></tr><tr><td class="k">I</td><td>AI</td><td>como «ay»; igual que la palabra <i>I</i> («yo»)</td></tr><tr><td class="k">G / J</td><td>DYII / DYEI</td><td>la G rima con E y la J rima con A: no las cambies</td></tr><tr><td class="k">H</td><td>EICH</td><td>no «hache»</td></tr><tr><td class="k">R</td><td>AAR</td><td>no «erre»; suena como <i>are</i></td></tr><tr><td class="k">V / B</td><td>VII / BII</td><td>la V con los dientes de arriba sobre el labio de abajo</td></tr><tr><td class="k">W</td><td>DA-bel-iu</td><td>«doble u», nunca «doble ve» ni «uve doble»</td></tr><tr><td class="k">Y</td><td>WAI</td><td>no «ye» ni «i griega»; suena como <i>why</i></td></tr><tr><td class="k">Z</td><td>SII (s sonora)</td><td>no «zeta»; como la C, pero con una <i>s</i> sonora que zumba como una abeja</td></tr></table></div>
+<p>Tampoco digas «ka», «cu» ni «equis»: la K es «KEI», la Q es «KIUU» y la X es «EKS».</p>
+<h3>Deletrear en voz alta</h3>
+<p>Para pedir que te deletreen algo, o para deletrear tú, usa estas frases. Para aclarar una letra, en español dices «B de Barcelona»; en inglés se dice <b>as in</b> + una palabra.</p>
+{{ex:How do you spell that?|JAU du iu SPEL dhat?|¿Cómo se escribe eso?}}{{ex:How do you spell your last name?|JAU du iu SPEL iur LAST NEIM?|¿Cómo se escribe tu apellido?}}{{ex:Can you spell that, please?|ken iu SPEL dhat, PLIIS?|¿Me lo puedes deletrear, por favor?}}{{ex:It starts with a capital T.|it STAARTS widh e KA-pi-rel TII|Empieza con T mayúscula.}}{{ex:B as in boy.|BII es in BOI|B de "boy".}}{{ex:Is that M as in Mary?|is dhat EM es in ME-ri?|¿Es M de "Mary"?}}{{ex:There are two Ls in hello.|dher er TUU ELS in je-LOU|"Hello" se escribe con dos L.}}
+<p>Fíjate en que para preguntar se usa el auxiliar <i>do</i> (<i>How do you spell…?</i>), y en que el plural de una letra lleva -s: <i>two Ls</i>.</p>
+<h3>¿a o an delante de una letra?</h3>
+<p>No lo decide la letra, sino el <b>sonido</b> con que empieza su nombre. Muchas consonantes tienen un nombre que empieza con sonido de vocal («EF», «EICH», «EL», «EM», «EN», «AAR», «ES», «EKS»), así que llevan <i>an</i>: <i>an F, an H, an L, an M, an N, an R, an S, an X</i>.</p>
+<p>Al revés, la U es vocal, pero su nombre suena como <i>you</i>, que empieza con sonido de consonante: <i>a U</i>.</p>
+<div class="tip">Para dictar un correo: una mayúscula es <i>capital</i> (<i>capital T</i>), una letra repetida es <i>double</i> (<i>double L</i>), la @ se dice <i>at</i> y el punto se dice <i>dot</i>. No digas «arroba» ni «punto»: <i>ana.garcia@example.com</i> se dicta <i>ana dot garcia at example dot com</i>.</div>`},
+
 { id:"pron", title:"1 · Trampas de pronunciación: vocales, S inicial, B/V, SH/CH, H, TH", blurb:"El inglés tiene unas once vocales y varios sonidos que el español no distingue. Conoce las trampas típicas y aprende a leer la ayuda de pronunciación.", deck:"Trampas de pronunciación", body:`
 <p>El español tiene cinco vocales; el inglés americano tiene unas once. Por eso, muchas palabras que a ti te suenan iguales son palabras distintas para un hablante nativo. Aquí tienes las trampas más comunes para hispanohablantes y la clave para leer la <b>ayuda de pronunciación</b> que verás en tarjetas y ejemplos.</p>
 <h3>Cómo leer la ayuda de pronunciación</h3>
@@ -188,6 +207,11 @@ exports.LESSONS = [
 ];
 
 exports.CHECKS = {
+  alphabet: [
+    ["¿Qué letra se llama «DYII»?", ["J","G","Z","C"], 1, "La G se llama «DYII» y rima con E. La J se llama «DYEI» y rima con A y K."],
+    ["¿Cuál es correcta?", ["a F","an U","a M","an F"], 3, "El nombre de la F empieza con sonido de vocal («EF»), así que va \"an F\". La M también lleva \"an\", y la U, que suena como \"you\", lleva \"a\"."],
+    ["¿Cómo le pides a alguien que deletree una palabra?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "La pregunta lleva el auxiliar \"do\" antes de \"you\" y luego el verbo en forma base: \"How do you spell that?\"."]
+  ],
   pron: [
     ["¿Qué palabra significa «oveja»?", ["ship","sheep","shape","cheap"], 1, "\"Sheep\" lleva la i larga (SHIIP). Con la i corta, \"ship\" significa «barco»."],
     ["¿Cómo se pronuncia bien \"school\"?", ["Con una «e» delante: eskuul","Como «chul»","En dos sílabas: sku-ul","Sin «e» delante: SKUUL"], 3, "En inglés, s + consonante va al principio de la palabra, sin ninguna vocal antes: SKUUL."],

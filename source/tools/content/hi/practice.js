@@ -7,6 +7,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "किस अक्षर का नाम see (देखना) जैसा सुनाई देता है?", o: ["C", "S", "Z", "K"], why: "C का नाम सी है, ठीक see जैसा। S का नाम एस, Z का ज़ी और K का के है।" },
+    { t: "mc", q: "Q के ठीक बाद कौन-सा अक्षर आता है?", o: ["R", "P", "S", "O"], why: "क्रम है …O, P, Q, R, S…। Q (क्यू) के बाद R (आर) आता है।" },
+    { t: "mc", q: "कौन-सा सही है?", o: ["an M", "a M", "an B", "an U"], why: "M का नाम एम स्वर की आवाज़ से शुरू होता है, इसलिए आर्टिकल an: an M। B (बी) के साथ a B, और U (यू) य की आवाज़ से शुरू होता है, इसलिए a U।" },
+    { t: "mc", q: "इनमें से स्वर (vowel) कौन-सा है?", o: ["U", "R", "S", "W"], why: "अंग्रेज़ी में पाँच स्वर अक्षर हैं: A, E, I, O, U। R, S और W व्यंजन हैं।" },
+    { t: "mc", q: "अक्षर W का नाम क्या है?", o: ["double u", "double v", "u u", "v v"], why: "दिखने में दो V जैसा है, पर नाम double u (ˈडबल्यू) है, यानी \"दो U\"।" },
+
+    { t: "order", p: "इसकी स्पेलिंग क्या है?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "सवाल में सहायक क्रिया do चाहिए; you के साथ do, does नहीं। do के बाद V1 spell आता है, spelling नहीं।" },
+    { t: "order", p: "मेरा नाम S से शुरू होता है", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "S का नाम एस स्वर की आवाज़ से शुरू होता है, इसलिए आर्टिकल an: an S। my name एक है, इसलिए he / she / it वाला -s: starts।" },
+    { t: "order", p: "hello में दो L हैं", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "दो L हैं, इसलिए बहुवचन: Ls। बहुवचन के साथ are आता है, is नहीं।" },
+
+    { t: "fill", q: "How do you __ your name?", p: "आप अपना नाम कैसे स्पेल करते हैं?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "सहायक क्रिया do के बाद V1 आता है: How do you spell…?" },
+    { t: "fill", q: "It starts __ a B.", p: "यह B से शुरू होता है", a: ["with"], o: ["by", "for", "in"], why: "\"से शुरू होना\" = start with। यहाँ हिंदी का \"से\" from या by नहीं बनता।" },
+    { t: "fill", q: "That's M __ in Mary.", p: "यह Mary वाला M है", a: ["as"], o: ["so", "than", "of"], why: "अक्षर को किसी शब्द से पक्का करते समय as in कहते हैं: M as in Mary।" },
+
+    { t: "type", p: "यह A से शुरू होता है (आर्टिकल के साथ)", a: ["It starts with an A", "It begins with an A"], hint: "start · A — A का नाम स्वर की आवाज़ से शुरू होता है", x: ["the", "start"], why: "A का नाम ए स्वर की आवाज़ से शुरू होता है, इसलिए आर्टिकल an: an A। it के साथ he / she / it वाला -s: starts।" },
+    { t: "type", p: "आपके नाम की स्पेलिंग क्या है? (How से पूछें)", a: ["How do you spell your name"], hint: "spell · your name — सहायक क्रिया do से पूछें", x: ["spelling", "does"], why: "सवाल में सहायक क्रिया do; you के साथ do, does नहीं। do के बाद V1 spell।" },
+    { t: "type", p: "उस शब्द में दो T हैं (It से शुरू करें)", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "it · two · T — दो हैं तो बहुवचन", x: ["T", "have"], why: "दो T हैं, इसलिए बहुवचन: Ts (या T's)। it के साथ has आता है, have नहीं; there के साथ are।" }
+  ],
+
   pron: [
     { t: "mc", q: "\"चावल\" अंग्रेज़ी में?", o: ["rice", "lice", "rise", "nice"], why: "चावल = rice (R)। L से lice बनता है, यानी जूँ। र और ल हिंदी में भी अलग हैं, इसलिए यह आसान है।" },
     { t: "mc", q: "\"पंखा\" अंग्रेज़ी में?", o: ["fan", "pan", "van", "ban"], why: "F में ऊपर के दाँत निचले होंठ पर, होंठ बंद नहीं: फ़। होंठ मिलाकर बोलें तो pan (कड़ाही) सुनाई देता है।" },

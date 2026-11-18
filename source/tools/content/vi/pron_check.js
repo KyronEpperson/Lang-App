@@ -19,7 +19,7 @@ const norm = s => s.toLowerCase().replace(/’/g, "'");
 const words = s => norm(s).replace(/\s\/\s/g, ' ').replace(/[.,!?;:"“”()…]/g, ' ').replace(/(^|\s)-(?=\s|$)/g, ' ').split(/\s+/).filter(Boolean);
 const itoks = ipa => ipa.replace(/\/ \/ \//g, ' ').replace(/\/ \//g, ' ').replace(/^\/|\/$/g, '').split(/[\s‿]+/).filter(Boolean);
 /* weak / strong pairs that PRON-RULES §B allows (a word may have both forms) */
-const ALLOWED = new Set(['a', 'an', 'the', 'to', 'for', 'from', 'at', 'of', 'and', 'or', 'but', 'can', 'do', 'does', 'did', 'have', 'has', 'had', 'you', 'me', 'he', 'she', 'we', 'him', 'her', 'them', 'us', 'was', 'were', 'are', 'that', 'there', 'some', 'than', 'as', 'just']);
+const ALLOWED = new Set(['i', 'a', 'an', 'the', 'to', 'for', 'from', 'at', 'of', 'and', 'or', 'but', 'can', 'do', 'does', 'did', 'have', 'has', 'had', 'you', 'me', 'he', 'she', 'we', 'him', 'her', 'them', 'us', 'was', 'were', 'are', 'that', 'there', 'some', 'than', 'as', 'just']);
 /* PRON-RULES C2: no link across a comma. ws = the IPA words of one slash group, i = index of the word before the gap. */
 const commaBefore = (en, ws, i) => { const raw = en.replace(/[.!?]/g, '').split(/\s+/), sub = ws.map(w => w.split('‿').length), n = sub.reduce((x, y) => x + y, 0); if (raw.length !== n) return false; const k = sub.slice(0, i + 1).reduce((x, y) => x + y, 0) - 1; return /,$/.test(raw[k]); };
 const VOW = /^[ˈˌ]?[aeiouæɑɔəɚɝɪʊʌ]/;

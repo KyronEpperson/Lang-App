@@ -259,6 +259,12 @@
    "kind": "stage",
    "roadmap": "en"
   },
+  "The alphabet and spelling aloud": {
+   "t": "ตัวอักษรภาษาอังกฤษและการพูดสะกดคำ",
+   "ko": "알파벳과 철자 말하기",
+   "kind": "lesson title",
+   "roadmap": "en"
+  },
   "Pronunciation traps: R/L, F/P, TH": {
    "t": "กับดักการออกเสียง: R/L F/P และ TH",
    "ko": "발음 함정: R/L, F/P, TH",

@@ -20,7 +20,7 @@ const norm = s => s.toLowerCase().replace(/’/g, "'");
 const words = s => norm(s).replace(/\s\/\s/g, ' ').replace(/[.,!?;:"“”()…]/g, ' ').split(/\s+/).filter(Boolean);
 const ptoks = p => p.replace(/ \((i pendek|u pendek|dengar audio)\)$/, '').replace(/\s\/\s/g, ' ').replace(/[.,!?]/g, ' ').split(/\s+/).filter(Boolean);
 /* weak / strong pairs that PRON-RULES §B allows */
-const ALLOWED = new Set(['a', 'an', 'the', 'to', 'for', 'from', 'of', 'at', 'and', 'or', 'but', 'can', 'do', 'does', 'have', 'has', 'had', 'are', 'was', 'you', 'your', 'me', 'that', 'some', 'than']);
+const ALLOWED = new Set(['i', 'a', 'an', 'the', 'to', 'for', 'from', 'of', 'at', 'and', 'or', 'but', 'can', 'do', 'does', 'have', 'has', 'had', 'are', 'was', 'you', 'your', 'me', 'that', 'some', 'than']);
 const W = {}, P = {}, rules = [];
 const pat = /^[abcdefghijklmnoprstuvwyzéèABCDEFGHIJKLMNOPRSTUVWYZÉÈ ?!.,/-]+( \((i pendek|u pendek|dengar audio)\))?$/u;
 for (const p of pairs) {

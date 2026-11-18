@@ -9,6 +9,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "Qual letra tem o nome igual à palavra \"see\" («ver»)?", o: ["C", "S", "Z", "K"], why: "O C se chama exatamente como \"see\": /ˈsiː/. O Z (/ˈziː/) é parecido, mas começa com um z que vibra; os nomes do S e do K não se parecem." },
+    { t: "mc", q: "Qual letra vem logo depois do Q?", o: ["R", "P", "S", "O"], why: "A ordem é a mesma do português: P, Q, R, S." },
+    { t: "mc", q: "Qual está correta?", o: ["an M", "a M", "an B", "an U"], why: "O M é consoante, mas o nome dele começa com som de vogal (/ˈem/, como o nosso «eme»): por isso \"an M\". O B e o U começam com som de consoante: \"a B\", \"a U\"." },
+    { t: "mc", q: "Qual destas letras é vogal?", o: ["U", "R", "S", "W"], why: "As vogais do inglês são as mesmas do português: A, E, I, O, U. O W não é vogal." },
+    { t: "mc", q: "Como se chama a letra W em inglês?", o: ["double u", "double v", "u u", "v v"], why: "É \"double u\", ao pé da letra «u duplo». O nosso «dáblio» vem justamente daí." },
+
+    { t: "order", p: "Como se escreve isso?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "A pergunta no presente precisa do auxiliar \"do\" antes do sujeito (com \"you\", nunca \"does\") e depois do verbo na forma básica: \"spell\"." },
+    { t: "order", p: "Meu nome começa com S", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "Com \"my name\" (terceira pessoa), o verbo ganha -s: \"starts\". E é \"an S\", porque o nome do S começa com som de vogal." },
+    { t: "order", p: "Tem dois L em \"hello\"", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "«Tem» aqui vira \"there\" + be, e com um plural (\"two Ls\") é \"are\", não \"is\": concordância. O plural de uma letra se forma com -s: \"Ls\"." },
+
+    { t: "fill", q: "How do you __ your name?", p: "Como se escreve o seu nome?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "Depois de \"do you\" vem o verbo na forma básica: \"spell\", sem -s, -ing nem -ed." },
+    { t: "fill", q: "It starts __ a B.", p: "Começa com B", a: ["with"], o: ["by", "for", "in"], why: "«Começar com» se diz \"start with\", com a mesma preposição do português." },
+    { t: "fill", q: "That's M __ in Mary.", p: "É M de \"Mary\"", a: ["as"], o: ["so", "than", "of"], why: "Para confirmar uma letra, diga \"as in\" + uma palavra, como o nosso «M de...». Não use \"of\"." },
+
+    { t: "type", p: "Começa com um A", a: ["It starts with an A", "It begins with an A"], hint: "start · A — o sujeito é \"it\"; a ou an?", x: ["the", "start"], why: "Em inglês o sujeito \"it\" é obrigatório, e com \"it\" o verbo ganha -s: terceira pessoa. Antes do A vai \"an\"." },
+    { t: "type", p: "Como você soletra o seu nome?", a: ["How do you spell your name"], hint: "spell · name — pergunta com auxiliar", x: ["spelling", "does"], why: "A pergunta precisa do auxiliar \"do\": \"How do you spell...?\". Com \"you\" não vai \"does\"." },
+    { t: "type", p: "Tem dois T (falando de uma palavra, como \"Matt\"; comece com \"It\")", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "have · two · T — o sujeito é \"it\"; plural com -s", x: ["T", "have"], why: "«Tem» não vira \"Has two Ts\" sem sujeito: com \"it\" (terceira pessoa), \"have\" vira \"has\". O plural de uma letra leva -s: \"Ts\" (ou \"T's\")." }
+  ],
+
   pron: [
     { t: "mc", q: "Qual palavra significa «ovelha»?", o: ["sheep", "ship", "cheap", "chip"], why: "\"Sheep\" tem o i longo e tenso /iː/. Com o i curto /ɪ/, \"ship\" significa «navio»." },
     { t: "mc", q: "Qual palavra significa «cabeça»?", o: ["head", "red", "had", "hate"], why: "\"Head\" começa com h: só um sopro leve. Com o r de «rato», que sai da garganta, vira \"red\" («vermelho»)." },

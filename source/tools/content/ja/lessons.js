@@ -1,5 +1,20 @@
 exports.LESSONS = [
-{ id:"pron", title:"1 · 発音の落とし穴：R/L・TH・F/H・V/B", blurb:"日本語にない音とカタカナ英語のくせ。ここを直すだけで、ぐっと通じやすくなります。", deck:"発音注意", body:`
+{ id:"alphabet", title:"1 · アルファベット：文字の名前とスペルの伝え方", blurb:"形は知っていても、英語の名前は意外とあいまいです。名前やメールアドレスのスペルを英語で伝えられるようにしましょう。", deck:"アルファベット", body:`
+<p>ホテルの予約、電話での問い合わせ、カフェで名前を聞かれたときなど、英語では <b>How do you spell that?</b>（スペルは？）とよく聞かれます。自分の名前やメールアドレス、予約番号を伝えるには、文字ごとの<b>英語の名前</b>が必要です。学校で習った読み方（エヌ、ゼット、ブイなど）の中には、アメリカではそのままでは通じにくいものがあります。ここで一度整理しておきましょう。</p>
+<h3>26文字の名前</h3>
+<p>太字の5文字 <b>A E I O U</b> が母音字で、ほかは子音字です。エイ、オウのような二重母音は、最後まではっきり言いましょう。</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> エイ</td><td class="k">B ビー</td><td class="k">C スィー</td><td class="k">D ディー</td><td class="k"><b>E</b> イー</td></tr><tr><td class="k">F エフ</td><td class="k">G ジー</td><td class="k">H エイチ</td><td class="k"><b>I</b> アイ</td><td class="k">J ジェイ</td></tr><tr><td class="k">K ケイ</td><td class="k">L エル</td><td class="k">M エム</td><td class="k">N エン</td><td class="k"><b>O</b> オウ</td></tr><tr><td class="k">P ピー</td><td class="k">Q キュー</td><td class="k">R アー</td><td class="k">S エス</td><td class="k">T ティー</td></tr><tr><td class="k"><b>U</b> ユー</td><td class="k">V ヴィー</td><td class="k">W ダブリュー</td><td class="k">X エックス</td><td class="k">Y ワイ</td></tr><tr><td class="k">Z ズィー</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>日本人が間違えやすい名前</h3>
+<div class="tbl"><table><tr><th>文字</th><th>英語の名前</th><th>注意点</th></tr><tr><td class="k">N</td><td>エン</td><td>「エヌ」は英語の名前ではありません。最後は舌先を歯ぐきにつけて止めます</td></tr><tr><td class="k">Z</td><td>ズィー</td><td>「ゼット」は英語の名前ではありません。アメリカでは zee、イギリスでは zed と言います</td></tr><tr><td class="k">G / J</td><td>ジー / ジェイ</td><td>G は「ジー」、J は「ジェイ」です。Z（ズィー）とも区別しましょう</td></tr><tr><td class="k">C</td><td>スィー</td><td>「シー」と言うと she に聞こえます。see と同じ音です</td></tr><tr><td class="k">E / I</td><td>イー / アイ</td><td>メールアドレスでいちばん取り違えやすい組み合わせです</td></tr><tr><td class="k">H</td><td>エイチ</td><td>「エッチ」ではなく「エイチ」です</td></tr><tr><td class="k">R / L</td><td>アー / エル</td><td>R は「アール」ではなく、舌先をどこにもつけない「アー」です。L は最後に舌先を歯ぐきにつけます</td></tr><tr><td class="k">V / B</td><td>ヴィー / ビー</td><td>V は「ブイ」ではありません。上の歯を下唇に当てて「ヴィー」と言います</td></tr><tr><td class="k">A / K / O</td><td>エイ / ケイ / オウ</td><td>「エー」「ケー」「オー」と伸ばさず、二重母音で言いましょう</td></tr><tr><td class="k">W</td><td>ダブリュー</td><td>double u、つまり「U が二つ」という意味の名前です</td></tr></table></div>
+<h3>スペルを聞く・伝える</h3>
+<p>聞き取りにくい文字は、<b>B as in boy</b>（boy の B）のように、その文字で始まる簡単な単語を添えて確認します。M と N、B と V のように聞き間違えやすい文字で特に便利です。</p>
+{{ex:How do you spell that?|ハウ ドゥ ユー スペル ザット?|スペルはどう書きますか？}}{{ex:How do you spell your last name?|ハウ ドゥ ユー スペル ユア ラスト ネイム?|名字はどうつづりますか？}}{{ex:Can you spell that, please?|キャニュー スペル ザット, プリーズ?|スペルを言っていただけますか？}}{{ex:It starts with a capital T.|イット スターツ ウィザ キャピルル ティー|大文字の T で始まります}}{{ex:B as in boy.|ビー アズ イン ボイ|boy の B です}}{{ex:Is that M as in Mary?|イズ ザット エム アズ イン メリー?|Mary の M ですか？}}{{ex:There are two Ls in hello.|ゼアラー トゥー エルズ イン ヘロウ|hello には L が二つあります}}
+<h3>文字の名前の前の a と an</h3>
+<p>冠詞はつづりではなく、<b>名前の最初の音</b>で決まります。F（エフ）、H（エイチ）、L（エル）、M（エム）、N（エン）、R（アー）、S（エス）、X（エックス）は名前が母音の音で始まるので、<b>an F, an H, an L, an M, an N, an R, an S, an X</b> です。</p>
+<p>反対に U は母音字ですが、名前が「ユー」と y の音で始まるので <b>a U</b> です。a university と同じ考え方です。</p>
+<div class="tip">メールアドレスの伝え方：大文字は <b>capital T</b>、同じ文字が二つ続くときは <b>double L</b>、@ は <b>at</b>、ドット（.）は <b>dot</b> と言います。例：yuki.sato@mail.com → yuki dot sato at mail dot com。</div>`},
+
+{ id:"pron",title:"1 · 発音の落とし穴：R/L・TH・F/H・V/B", blurb:"日本語にない音とカタカナ英語のくせ。ここを直すだけで、ぐっと通じやすくなります。", deck:"発音注意", body:`
 <p>英語には日本語にない音がいくつかあります。ネイティブはこれらの音で単語を区別するので、少し意識するだけで通じやすさが大きく変わります。ポイントは<b>口の形</b>です。鏡を見ながら練習してみましょう。</p>
 <h3>R と L</h3>
 <p>日本語のラ行は、R とも L とも違う音です。<b>L</b> は舌先を上の歯の裏の歯ぐきに<b>しっかりつけてから離します</b>。<b>R</b> は舌先を<b>どこにもつけません</b>。唇を少し丸めて突き出し、舌を奥に引いたまま「ゥ」と言うつもりで始めましょう。このアプリの読み方で「ゥ」がついていたら、この R の音です。</p>
@@ -175,6 +190,11 @@ exports.LESSONS = [
 ];
 
 exports.CHECKS = {
+  alphabet: [
+    ["英語の名前が「ジー」（job の最初の音 +「イー」）の文字は？", ["J","G","Z","C"], 1, "G の名前は「ジー」です。J は「ジェイ」、Z は zee（ズィー）、C は「スィー」です。"],
+    ["正しいのは？", ["a F","an U","a M","an F"], 3, "F の名前「エフ」は母音の音で始まるので an F です。M（エム）も an M、U（ユー）は y の音で始まるので a U です。"],
+    ["単語のスペルを聞くときの言い方は？", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "do のあとは動詞の原形 spell です：How do you spell that?"]
+  ],
   pron: [
     ["R の音を出すとき、舌先はどこにありますか？", ["上の歯の裏の歯ぐきにつける","歯の間から出す","どこにもつけない","下唇に当てる"], 2, "R は舌先がどこにもつきません。つけると L になります。"],
     ["think の th の正しい出し方は？", ["舌先を歯の間から少し出して息を出す","両唇を閉じてから開く","上の歯を下唇に当てる","舌を後ろに巻く"], 0, "TH は舌先が歯の間に見えます。サ行の s で言うと sink になります。"],

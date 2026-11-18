@@ -1089,6 +1089,7 @@ LANGAPP_PACKS.i18n.ar = {
     "General (American) English": "الإنجليزية العامة (الأمريكية)",
     "CEFR A1-B1 order, adjusted for Korean speakers": "ترتيب CEFR من A1 إلى B1، معدل لمتحدثي الكورية",
     "A1 · First sentences": "A1 · الجمل الأولى",
+    "The alphabet and spelling aloud": "الأبجدية والتهجئة الشفهية",
     "Pronunciation traps: R/L, F/P, TH": "فخاخ النطق: R/L و F/P و TH",
     "be, subject pronouns, every sentence needs a subject": "فعل الكينونة be وضمائر الفاعل: لكل جملة فاعل",
     "It's cold · there is / there are": "الطقس: It's cold · there is / there are",

@@ -7,6 +7,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "名前が see（見る）と同じ音に聞こえる文字は？", o: ["C", "S", "Z", "K"], why: "C の名前「スィー」は see と同じ音です。「シー」と言うと she に聞こえます。S は「エス」、Z は zee、K は「ケイ」です。" },
+    { t: "mc", q: "Q のすぐ次の文字は？", o: ["R", "P", "S", "O"], why: "順番は …O, P, Q, R, S… です。Q（キュー）の次は R（アー）です。" },
+    { t: "mc", q: "正しいのは？", o: ["an M", "a M", "an B", "an U"], why: "M の名前「エム」は母音の音で始まるので冠詞 an を使います。B（ビー）は a B、U（ユー）は y の音で始まるので a U です。" },
+    { t: "mc", q: "母音字はどれ？", o: ["U", "R", "S", "W"], why: "英語の母音字は A, E, I, O, U の5つです。R, S, W は子音字です。" },
+    { t: "mc", q: "W の英語の名前は？", o: ["double u", "double v", "u u", "v v"], why: "形は V が二つに見えますが、名前は double u（ダブリュー）、「U が二つ」です。" },
+
+    { t: "order", p: "それはどうつづりますか？", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "一般動詞 spell の疑問文なので do を前に置きます。主語が you なので does ではなく、spell は原形のままです。" },
+    { t: "order", p: "私の名前は S で始まります", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "S の名前「エス」は母音の音で始まるので冠詞 an です。主語 my name は三単現なので starts になります。" },
+    { t: "order", p: "hello には L が二つあります", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "L が二つなので複数の Ls にし、複数なので is ではなく are を使います。" },
+
+    { t: "fill", q: "How do you __ your name?", p: "お名前はどうつづりますか？", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "do のあとは動詞の原形です：How do you spell…?" },
+    { t: "fill", q: "It starts __ a B.", p: "B で始まります", a: ["with"], o: ["by", "for", "in"], why: "「〜で始まる」は start with です。" },
+    { t: "fill", q: "That's M __ in Mary.", p: "Mary の M です", a: ["as"], o: ["so", "than", "of"], why: "文字を単語で確認するときは M as in Mary のように as in を使います。" },
+
+    { t: "type", p: "（冠詞をつけて）A で始まります", a: ["It starts with an A", "It begins with an A"], hint: "start · A — A の名前は母音の音で始まります", x: ["the", "start"], why: "A の名前「エイ」は母音の音で始まるので冠詞 an です。主語 it は三単現なので starts です。" },
+    { t: "type", p: "（you と spell で）お名前はどうつづりますか？", a: ["How do you spell your name"], hint: "spell · your name — do を使って聞きます", x: ["spelling", "does"], why: "一般動詞 spell の疑問文なので do を使います。主語が you なので does ではありません。" },
+    { t: "type", p: "（It で始めて）T が二つあります", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "two · T — 二つなら複数形", x: ["T", "have"], why: "T が二つなので複数の Ts にします。主語 it には have ではなく has を使います。" }
+  ],
+
   pron: [
     { t: "mc", q: "「米、ご飯」という意味の単語は？", o: ["rice", "lice", "rise", "nice"], why: "米は R で始まる rice です。舌先を歯ぐきにつける L で言うと lice（シラミ）になってしまいます。" },
     { t: "mc", q: "「扇風機」という意味の単語は？", o: ["fan", "pan", "van", "ban"], why: "F は上の歯を下唇に当てて息を出します。両唇を閉じて破裂させると P になり、pan（フライパン）に聞こえます。" },

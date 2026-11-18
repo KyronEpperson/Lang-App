@@ -9,7 +9,7 @@ const DIR = __dirname;
 const LANG_RE = /^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/;
 
 /* Shared English side of every <lang>-en course. */
-const ORDER = ['pron', 'be', 'it-there', 'articles', 'plurals', 'present', 'questions', 'third-s', 'prep', 'countable', 'object-have', 'can-like', 'polite', 'continuous', 'past', 'irregular-past', 'the', 'adjectives', 'going-to', 'tense', 'joining', 'numbers', 'smalltalk',
+const ORDER = ['alphabet', 'pron', 'be', 'it-there', 'articles', 'plurals', 'present', 'questions', 'third-s', 'prep', 'countable', 'object-have', 'can-like', 'polite', 'continuous', 'past', 'irregular-past', 'the', 'adjectives', 'going-to', 'tense', 'joining', 'numbers', 'smalltalk',
   'past-continuous', 'will', 'perfect', 'modals', 'to-ing', 'articles-2', 'first-conditional', 'relative', 'phrasal',
   'perfect-2', 'narrative', 'conditionals', 'passive', 'reported', 'email', 'idioms'];
 const TITLE_LEVELS = [[1, 'Beginner'], [3, 'Student'], [5, 'Talker'], [8, 'Traveler'], [12, 'Local'], [16, 'Pro'], [20, 'Master']];

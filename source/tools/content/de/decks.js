@@ -426,6 +426,35 @@ I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Ich halte dir den Rücken fr
 Gotcha. | /ˈgɑːtʃə/ | Verstanden / Hab dich! | Von "got you". Meist heißt es einfach „alles klar, verstanden“
 Let's do this! | /ˈlets ˈduː ˈðɪs/ | Auf geht's! | Zum gegenseitigen Anfeuern, bevor man etwas anfängt
 `,
+/* deck 21, shared by every course (docs/briefs/alphabet-spec.md): letter names for spelling aloud. Linked from the lesson "alphabet". */
+"Das Alphabet": `
+A | /ˈeɪ/ | der Buchstabe A / a | Nicht „a“: klingt wie "hey" ohne h. Klingt ein Buchstabenname für dich nach „e“, ist es meist A. Beispiel: "apple"
+B | /ˈbiː/ | der Buchstabe B / b | Nicht „be“: reimt sich auf "see". Am Telefon klarstellen: "B as in boy". Beispiel: "bag"
+C | /ˈsiː/ | der Buchstabe C / c | Klingt genau wie "see" („sehen“), mit scharfem „s“ wie in „Fuß“ – nicht „tse“. Beispiel: "coffee"
+D | /ˈdiː/ | der Buchstabe D / d | Nicht „de“: reimt sich auf B und C. Beispiel: "doctor"
+E | /ˈiː/ | der Buchstabe E / e | Die größte Falle: klingt wie das deutsche „i“, lang wie in „Miete“. Hörst du „i“, schreib E. Beispiel: "email"
+F | /ˈef/ | der Buchstabe F / f | Fast wie im Deutschen. Zwei F hintereinander: "double F", wie in "coffee". Beispiel: "food"
+G | /ˈdʒiː/ | der Buchstabe G / g | „dsch“ wie in „Dschungel“ plus langes „i“: reimt sich auf E. Nicht mit J (/ˈdʒeɪ/) verwechseln. Beispiel: "good"
+H | /ˈeɪtʃ/ | der Buchstabe H / h | Nicht „ha“: am Ende „tsch“ wie in „Deutsch“. In "hour" ist das h stumm: "an hour". Beispiel: "hotel"
+I | /ˈaɪ/ | der Buchstabe I / i | Klingt wie „ei“ in „Eis“ und wie das Wort "I" („ich“). Das deutsche „i“ wäre E. Beispiel: "idea"
+J | /ˈdʒeɪ/ | der Buchstabe J / j | Nicht „jot“: beginnt mit „dsch“ und reimt sich auf A und K. Nicht mit G (/ˈdʒiː/) verwechseln. Beispiel: "job"
+K | /ˈkeɪ/ | der Buchstabe K / k | Nicht „ka“: klingt wie das Ende von "OK". Beispiel: "key"
+L | /ˈel/ | der Buchstabe L / l | Wie im Deutschen, aber mit dunklem "l". Zwei L hintereinander: "double L". Beispiel: "live"
+M | /ˈem/ | der Buchstabe M / m | Wie im Deutschen. Am Telefon klingt es wie N, darum: "M as in Mary". Beispiel: "money"
+N | /ˈen/ | der Buchstabe N / n | Wie im Deutschen. Am Telefon klarstellen: "N as in name", sonst hört man M. Beispiel: "name"
+O | /ˈoʊ/ | der Buchstabe O / o | Kein reines „o“: Es gleitet zum „u“ wie in "go". Im Englischen steht bei Telefonnummern "O" oft für die Null. Beispiel: "OK"
+P | /ˈpiː/ | der Buchstabe P / p | Nicht „pe“: reimt sich auf B und T. Am Telefon leicht mit B verwechselt: "P as in Peter". Beispiel: "please"
+Q | /ˈkjuː/ | der Buchstabe Q / q | Nicht „ku“: mit /j/ dazwischen, wie "queue" (die Warteschlange). Danach folgt fast immer ein u. Beispiel: "question"
+R | /ˈɑːr/ | der Buchstabe R / r | Nicht „er“: wie das Wort "are" – „a“ wie in „Vater“, dann das englische "r". Beispiel: "room"
+S | /ˈes/ | der Buchstabe S / s | Wie im Deutschen, mit scharfem „s“. Zwei S hintereinander: "double S", wie in "class". /ˈsiː/ ist der Name von C. Beispiel: "school"
+T | /ˈtiː/ | der Buchstabe T / t | Nicht „te“: klingt wie "tea" („Tee“). Ein großes T ist "a capital T". Beispiel: "ticket"
+U | /ˈjuː/ | der Buchstabe U / u | Nicht „u“: klingt wie "you". Weil es mit /j/ beginnt: "a U", nicht "an U". Beispiel: "university"
+V | /ˈviː/ | der Buchstabe V / v | Nicht „fau“: deutsches „w“ plus langes „i“, klingt also wie „wie“. Beispiel: "very"
+W | /ˈdʌbəljuː/ | der Buchstabe W / w | Nicht „we“: heißt "double u" („doppeltes U“), mit drei Silben. Beispiel: "water"
+X | /ˈeks/ | der Buchstabe X / x | Nicht „iks“, sondern mit „e“ – deshalb "an X". Beispiel: "X-ray" (das Röntgenbild)
+Y | /ˈwaɪ/ | der Buchstabe Y / y | Nicht „Ypsilon“: klingt wie "why" („warum“), mit englischem /w/. Beispiel: "yes"
+Z | /ˈziː/ | der Buchstabe Z / z | Nicht „zett“: amerikanisch "zee", weiches, summendes „s“ wie in „Sonne“, klingt also wie „sie“. Britisch: "zed". Beispiel: "zero"
+`,
 "Wichtige Wörter": `
 Did you get my message? | /dɪd ju ˈget maɪ ˈmesɪdʒ/ | Hast du meine Nachricht bekommen? | „bekommen“ heißt "get", nie "become" ("become" = werden). Nach "did" steht die Grundform
 I don't get it. | /aɪ ˈdoʊnt ˈget ɪt/ | Ich kapier's nicht | "get" heißt im Gespräch auch „verstehen“. Lockerer als "I don't understand"

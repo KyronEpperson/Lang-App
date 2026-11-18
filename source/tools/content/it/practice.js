@@ -9,6 +9,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "Quale lettera si chiama come la parola \"see\" («vedere»)?", o: ["C", "S", "Z", "K"], why: "In inglese la C non si chiama «ci» ma /ˈsiː/, proprio come \"see\". La Z le somiglia, ma comincia con la s sonora di «sbaglio»; la S è /ˈes/ e la K /ˈkeɪ/." },
+    { t: "mc", q: "Quale lettera viene subito dopo la Q?", o: ["R", "P", "S", "O"], why: "L'ordine è lo stesso dell'alfabeto italiano: P, Q, R, S." },
+    { t: "mc", q: "Qual è la forma giusta?", o: ["an M", "a M", "an B", "an U"], why: "La M è una consonante, ma il suo nome (/ˈem/) comincia con un suono vocalico, come «emme»: perciò \"an M\". La B e la U cominciano con un suono consonantico: \"a B\", \"a U\"." },
+    { t: "mc", q: "Quale di queste lettere è una vocale?", o: ["U", "R", "S", "W"], why: "Le vocali sono le stesse dell'italiano: A, E, I, O, U. R, S e W sono consonanti." },
+    { t: "mc", q: "Come si chiama in inglese la lettera W?", o: ["double u", "double v", "u u", "v v"], why: "In inglese è \"double u\", cioè «doppia u»: non tradurre il nostro «doppia vu»." },
+
+    { t: "order", p: "Come si scrive?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "La domanda al presente vuole l'ausiliare \"do\" prima di \"you\" (con \"you\" mai \"does\"), e poi il verbo alla forma base: \"spell\"." },
+    { t: "order", p: "Il mio nome comincia con la S", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "Con \"my name\" (terza persona) il verbo prende la -s: \"starts\". E si dice \"an S\", perché il nome della S (/ˈes/) comincia con un suono vocalico." },
+    { t: "order", p: "Ci sono due L in \"hello\"", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "Con un plurale (\"two Ls\") ci vuole \"are\", non \"is\": accordo, come in «ci sono». Il plurale di una lettera prende la -s: \"Ls\", anche se in italiano diciamo «due L»." },
+
+    { t: "fill", q: "How do you __ your name?", p: "Come si scrive il tuo nome?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "Dopo \"do you\" il verbo va alla forma base: \"spell\", senza -s, -ing o -ed." },
+    { t: "fill", q: "It starts __ a B.", p: "Comincia con la B", a: ["with"], o: ["by", "for", "in"], why: "«Cominciare con» si dice \"start with\"." },
+    { t: "fill", q: "That's M __ in Mary.", p: "È M come \"Mary\"", a: ["as"], o: ["so", "than", "of"], why: "Per chiarire una lettera si dice \"as in\" + una parola: è il nostro «M come Milano»." },
+
+    { t: "type", p: "Comincia con la A (parlando di una parola; in inglese serve l'articolo)", a: ["It starts with an A", "It begins with an A"], hint: "start · A — il soggetto è \"it\"; attenzione ad a/an", x: ["the", "start"], why: "In inglese il soggetto \"it\" è obbligatorio, e con \"it\" il verbo prende la -s: terza persona. Davanti alla A ci vuole \"an\", perché il suo nome comincia con un suono vocalico." },
+    { t: "type", p: "Come fai lo spelling del tuo nome?", a: ["How do you spell your name"], hint: "spell · name — domanda con l'ausiliare", x: ["spelling", "does"], why: "La domanda vuole l'ausiliare \"do\" prima di \"you\": \"How do you spell...?\". Con \"you\" non si usa \"does\", e \"spell\" resta alla forma base." },
+    { t: "type", p: "Ha due T (parlando di una parola, come \"Matt\"; comincia con \"It\")", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "have · two · T — il soggetto è \"it\"; plurale con -s", x: ["T", "have"], why: "Con \"it\" (terza persona) \"have\" diventa \"has\". Il plurale di una lettera prende la -s: \"Ts\" (anche \"T's\"), mentre in italiano si dice «due T»." }
+  ],
+
   pron: [
     { t: "mc", q: "Quale parola significa «pecora»?", o: ["sheep", "ship", "cheap", "chip"], why: "\"Sheep\" ha la i lunga e tesa /iː/. Con la /ɪ/ rilassata, \"ship\" significa «nave»: cambia la qualità della vocale, non solo la lunghezza." },
     { t: "mc", q: "Quale parola significa «capelli»?", o: ["hair", "air", "ear", "here"], why: "\"Hair\" comincia con la h: un soffio che si sente. Senza h diventa \"air\", «aria»." },

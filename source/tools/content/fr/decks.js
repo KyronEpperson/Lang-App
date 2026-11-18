@@ -426,6 +426,35 @@ I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Je te soutiens | Veut dire q
 Gotcha. | /ˈgɑːtʃə/ | Compris / Je t'ai eu ! | Vient de "got you". Le plus courant : dire qu'on a compris
 Let's do this! | /ˈlets ˈduː ˈðɪs/ | C'est parti ! | Pour se donner du courage avant de commencer quelque chose
 `,
+/* deck 21, shared by every course (docs/briefs/alphabet-spec.md): letter names for spelling aloud. Linked from the lesson "alphabet". */
+"L'alphabet": `
+A | /ˈeɪ/ | lettre A / a | Pas « a » : /ˈeɪ/, comme "day" sans le d. Exemple : "apple"
+B | /ˈbiː/ | lettre B / b | Pas « bé » : rime avec "see". Pour préciser : "B as in boy". Exemple : "book"
+C | /ˈsiː/ | lettre C / c | Se dit exactement comme "see" (« voir »). Exemple : "coffee"
+D | /ˈdiː/ | lettre D / d | Pas « dé » : rime avec B et C. Au téléphone, on le confond facilement avec le T. Exemple : "dog"
+E | /ˈiː/ | lettre E / e | Le grand piège : son nom ressemble à notre « i », en plus long. Jamais « eu ». Exemple : "email"
+F | /ˈef/ | lettre F / f | Se dit presque comme « effe ». Deux F à la suite se disent "double F", comme dans "coffee". Exemple : "family"
+G | /ˈdʒiː/ | lettre G / g | Attention : se dit presque comme notre lettre J (« ji »). Ne le confonds pas avec le J anglais, /ˈdʒeɪ/. Exemple : "good"
+H | /ˈeɪtʃ/ | lettre H / h | Pas « ache » : /ˈeɪtʃ/, avec « tch » à la fin. Et dans la plupart des mots, le h se prononce. Exemple : "house"
+I | /ˈaɪ/ | lettre I / i | Se dit comme « aïe » et comme le mot "I" (« je »). Si tu dis « i », on comprend E. Exemple : "idea"
+J | /ˈdʒeɪ/ | lettre J / j | Attention : se dit presque comme notre lettre G (« gé »). Rime avec A et K. Exemple : "job"
+K | /ˈkeɪ/ | lettre K / k | Pas « ka » : comme la fin de "OK". Exemple : "key"
+L | /ˈel/ | lettre L / l | Comme « elle ». Deux L à la suite se disent "double L". Exemple : "lunch"
+M | /ˈem/ | lettre M / m | Au téléphone, on le confond avec le N ; précise : "M as in Mary". Exemple : "money"
+N | /ˈen/ | lettre N / n | Comme « ène » : ne lis pas /ˈen/ comme le mot « en », qui est nasal. Au téléphone, précise : "N as in name". Exemple : "name"
+O | /ˈoʊ/ | lettre O / o | Pas un « o » pur : la voyelle glisse vers « ou », comme dans "go". En anglais, dans un numéro de téléphone, le 0 se dit souvent aussi "O". Exemple : "open"
+P | /ˈpiː/ | lettre P / p | Pas « pé » : rime avec B et T. Au téléphone, précise : "P as in Peter". Exemple : "pizza"
+Q | /ˈkjuː/ | lettre Q / q | Pas « ku » : comme le début de "cute". Presque toujours suivi d'un u. Exemple : "question"
+R | /ˈɑːr/ | lettre R / r | Pas « erre » : comme le mot "are", avec le r anglais, pas celui de la gorge. Exemple : "room"
+S | /ˈes/ | lettre S / s | Comme « esse ». Deux S à la suite : "double S", comme dans "class". Ne le confonds pas avec le C, /ˈsiː/. Exemple : "school"
+T | /ˈtiː/ | lettre T / t | Se dit comme "tea" (« thé »). Un T majuscule : "a capital T". Exemple : "ticket"
+U | /ˈjuː/ | lettre U / u | Pas notre « u » : se dit comme "you". D'où "a U", et non "an U". Exemple : "university"
+V | /ˈviː/ | lettre V / v | Pas « vé » : rime avec "see". Au téléphone, précise : "V as in Victor". Exemple : "very"
+W | /ˈdʌbəljuː/ | lettre W / w | "Double u", en trois syllabes : jamais « double vé ». Exemple : "water"
+X | /ˈeks/ | lettre X / x | Pas « ixe » : /ˈeks/, avec un son de voyelle au début, d'où "an X". Exemple : "X-ray" (« radio »)
+Y | /ˈwaɪ/ | lettre Y / y | Pas « i grec » : se dit comme "why" (« pourquoi »). Exemple : "yes"
+Z | /ˈziː/ | lettre Z / z | Pas « zède » : "zee" en anglais américain ("zed" en britannique). Exemple : "zero"
+`,
 "Mots essentiels": `
 Did you get my message? | /dɪd ju ˈget maɪ ˈmesɪdʒ/ | As-tu reçu mon message ? | "get" = recevoir. C'est l'un des verbes les plus employés de l'anglais parlé : recevoir, obtenir, arriver, devenir… Après "did", on garde la base verbale : "get"
 I don't get it. | /aɪ ˈdoʊnt ˈget ɪt/ | Je ne pige pas | "get" veut aussi dire « comprendre » à l'oral. Plus familier que "I don't understand"

@@ -426,6 +426,35 @@ I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Pode contar comigo | Signifi
 Gotcha. | /ˈgɑːtʃə/ | Entendi / Peguei você! | Vem de "got you". O uso mais comum é dizer que você entendeu
 Let's do this! | /ˈlets ˈduː ˈðɪs/ | Vamos nessa! | Para se animar antes de começar algo
 `,
+/* deck 21, shared by every course (docs/briefs/alphabet-spec.md): letter names for spelling aloud. Linked from the lesson "alphabet". IPA copied from zh-en. */
+"O alfabeto": `
+A | /ˈeɪ/ | letra A / a | Não é «a»: o nome soa «ei», como "day" sem o d. Se ouvir «ei» quando alguém soletra, escreva A, não E. Exemplo: "apple"
+B | /ˈbiː/ | letra B / b | Não é «bê»: rima com "see". Ao telefone, confirme: "B as in boy". Exemplo: "book"
+C | /ˈsiː/ | letra C / c | Não é «cê»: soa exatamente como "see" («ver»). Exemplo: "coffee"
+D | /ˈdiː/ | letra D / d | O d fica puro antes do /iː/: nada de «dji». Rima com B e C. Exemplo: "dog"
+E | /ˈiː/ | letra E / e | A grande armadilha: o nome soa como o nosso «i», longo. Quem diz «ê» está dizendo quase o nome do A. Exemplo: "email"
+F | /ˈef/ | letra F / f | Como «efe», mas termina seco no f, sem vogal no fim. Duas F seguidas: "double F", como em "coffee". Exemplo: "family"
+G | /ˈdʒiː/ | letra G / g | Começa com o «dj» de «dia» e rima com E. Não troque pelo J (/ˈdʒeɪ/), que soa quase como o nosso «gê». Exemplo: "good"
+H | /ˈeɪtʃ/ | letra H / h | Não é «agá»: começa com «ei» e termina seco em /tʃ/, o «tch» de «tchau», sem «i» no fim. Em "hour" o h é mudo: "an hour". Exemplo: "house"
+I | /ˈaɪ/ | letra I / i | Soa «ai», igual à palavra "I" («eu»). Se você disser «i», a pessoa vai anotar E. Exemplo: "idea"
+J | /ˈdʒeɪ/ | letra J / j | Não é «jota»: rima com A e K. Como soa quase igual ao nosso «gê», é fácil trocá-lo pelo G (/ˈdʒiː/). Exemplo: "job"
+K | /ˈkeɪ/ | letra K / k | Não é «cá»: rima com A e J, como o fim de "OK". Exemplo: "key"
+L | /ˈel/ | letra L / l | Termine com a ponta da língua atrás dos dentes de cima: nada de «éu» nem «ele». Exemplo: "lunch"
+M | /ˈem/ | letra M / m | Feche os lábios no fim, sem nasalizar o «e». Ao telefone se confunde com o N: "M as in Mary". Exemplo: "money"
+N | /ˈen/ | letra N / n | No fim, a ponta da língua encosta atrás dos dentes, e a vogal não fica nasal. Para confirmar: "N as in no". Exemplo: "name"
+O | /ˈoʊ/ | letra O / o | Não é «ó»: a boca fecha em direção ao «u», como em "oh". Em inglês, ao ditar telefones, o zero também costuma ser dito assim. Exemplo: "open"
+P | /ˈpiː/ | letra P / p | Rima com B e T, que ao telefone se confundem; confirme: "P as in Peter". Exemplo: "pizza"
+Q | /ˈkjuː/ | letra Q / q | Não é «quê»: soa como "queue" («fila»). Quase sempre vem seguido de u. Exemplo: "question"
+R | /ˈɑːr/ | letra R / r | Não é «erre»: soa como "are", com o r inglês (língua curvada para trás, sem o «r» de «rato»). Exemplo: "room"
+S | /ˈes/ | letra S / s | Como «esse», mas termina seco no s. Duas S seguidas: "double S", como em "class". Exemplo: "school"
+T | /ˈtiː/ | letra T / t | Soa como "tea" («chá»), com t puro: nunca «tchi». T maiúsculo é "a capital T". Exemplo: "ticket"
+U | /ˈjuː/ | letra U / u | Soa como "you" («você»), não «u». Por isso se diz "a U", e não "an U". Exemplo: "university"
+V | /ˈviː/ | letra V / v | Não é «vê»: rima com "see". Ao telefone, confirme: "V as in Victor". Exemplo: "very"
+W | /ˈdʌbəljuː/ | letra W / w | O nosso «dáblio» vem de "double u" («u duplo»). Em inglês são três sílabas, e a última soa como "you". Exemplo: "water"
+X | /ˈeks/ | letra X / x | Não é «xis»: o nome começa com som de vogal, por isso leva "an": "an X". Exemplo: "X-ray" («raio X»)
+Y | /ˈwaɪ/ | letra Y / y | Não é «ípsilon»: soa igual a "why" («por quê»). Exemplo: "yes"
+Z | /ˈziː/ | letra Z / z | Não é «zê»: soa «zi» e rima com E. No inglês britânico se diz "zed". Exemplo: "zero"
+`,
 "Palavras essenciais": `
 Did you get my message? | /dɪd ju ˈget maɪ ˈmesɪdʒ/ | Você recebeu minha mensagem? | "get" = receber. É um dos verbos mais usados do inglês falado: receber, conseguir, chegar, ficar... Depois de "did", o verbo não muda
 I don't get it. | /aɪ ˈdoʊnt ˈget ɪt/ | Não entendi | Na conversa, "get" também significa «entender». Mais informal que "I don't understand"

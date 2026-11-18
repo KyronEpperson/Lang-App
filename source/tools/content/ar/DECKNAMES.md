@@ -25,3 +25,6 @@ Rows 1–20 replace the Korean course's 20 decks in the same order. Later rows a
 | 19 | التعابير الاصطلاحية | English idioms; linked from `idioms` |
 | 20 | الأفلام والمسلسلات والعامية | Movies, series and slang; linked from `narrative` |
 | 21 | فخاخ الترجمة الحرفية | ar-only, linked from `arabic-traps`; ≥ 20 cards; needs a `decks["count"]` deviation |
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

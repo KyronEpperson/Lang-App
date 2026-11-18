@@ -2,7 +2,7 @@
    Deck names here must match the deck names in decks.js (see DECKNAMES.md). Lesson ids are the shared English ids.
    PLAN_PRESETS: decks "@path" = every deck in GROUPS order; lessons "@all" = every lesson in course order. */
 exports.GROUPS = [
-  ["Primeros pasos", ["Saludos", "Presentarse", "Supervivencia 1", "Supervivencia 2"]],
+  ["Primeros pasos", ["Saludos", "Presentarse", "Supervivencia 1", "Supervivencia 2", "El alfabeto"]],
   ["Viajes y vida diaria", ["Direcciones y transporte", "En el restaurante", "Cafetería y tienda", "Compras y pagos", "Números, horas y fechas", "Viajes (aeropuerto y hotel)", "Salud y emergencias"]],
   ["Conversación y relaciones", ["Charla casual", "Emociones y reacciones", "Cumplidos y afecto", "Teléfono y abreviaturas"]],
   ["Trabajo", ["Trabajo y correo"]],
@@ -11,7 +11,7 @@ exports.GROUPS = [
 ];
 
 exports.TAGS = {
-  basics: ["Saludos", "Presentarse", "Supervivencia 1", "Supervivencia 2", "Números, horas y fechas"],
+  basics: ["Saludos", "Presentarse", "Supervivencia 1", "Supervivencia 2", "Números, horas y fechas", "El alfabeto"],
   travel: ["Supervivencia 1", "Supervivencia 2", "Direcciones y transporte", "En el restaurante", "Cafetería y tienda", "Compras y pagos", "Números, horas y fechas", "Viajes (aeropuerto y hotel)", "Salud y emergencias"],
   social: ["Saludos", "Presentarse", "Charla casual", "Emociones y reacciones", "Cumplidos y afecto", "Teléfono y abreviaturas"],
   work: ["Trabajo y correo", "Teléfono y abreviaturas", "Números, horas y fechas", "Charla casual"],
@@ -44,7 +44,8 @@ exports.DESC = {
   "Falsos amigos": "Actually, embarrassed, library, college: palabras que se parecen al español pero significan otra cosa",
   "Make y do": "Las dos formas de «hacer»: make a mistake, make a decision, do homework, do the dishes",
   "Incontables": "Advice, information, news, furniture, homework: se cuentan en español, pero en inglés no llevan -s ni a/an",
-  "Cognados y acento": "-tion = -ción, -ty = -dad, -ous = -oso, -ly = -mente: palabras que ya conoces, con el acento donde lo pone el inglés"
+  "Cognados y acento": "-tion = -ción, -ty = -dad, -ous = -oso, -ly = -mente: palabras que ya conoces, con el acento donde lo pone el inglés",
+  "El alfabeto": "El nombre inglés de las 26 letras, para deletrear en voz alta tu nombre, tu correo o un código de reserva"
 };
 
 /* goal keys (travel/work/social/media) are fixed by the engine */

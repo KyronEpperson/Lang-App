@@ -129,7 +129,8 @@ for (const [k, v] of Object.entries(C.EXAMPLES)) {
 /* LESSONS / CHECKS */
 ok(C.LESSONS.length >= 9, 'lessons < 9');
 const ids = new Set();
-const allowedTag = /^<\/?(p|h3|ul|li|b|i|table|tr|th)>$|^<td( class="k")?>$|^<\/td>$|^<div class="(tip|tbl)">$|^<\/div>$/;
+/* <table dir="ltr">: a table of English items that must keep left-to-right column order in a right-to-left course */
+const allowedTag = /^<\/?(p|h3|ul|li|b|i|table|tr|th)>$|^<table dir="ltr">$|^<td( class="k")?>$|^<\/td>$|^<div class="(tip|tbl)">$|^<\/div>$/;
 const correctIdx = [];
 C.LESSONS.forEach(l => {
   ok(/^[a-z0-9-]+$/.test(l.id) && !ids.has(l.id), 'lesson id ' + l.id); ids.add(l.id);

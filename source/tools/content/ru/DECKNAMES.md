@@ -25,3 +25,6 @@ Rows 1–20 replace the Korean course's 20 decks in the same order. Later rows a
 | 19 | Английские идиомы | idioms |
 | 20 | Кино, сериалы и сленг | narrative |
 | 21 | Ложные друзья и кальки | runglish (ru-only, ≥ 20 cards; needs a `decks["count"]` deviation) |
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

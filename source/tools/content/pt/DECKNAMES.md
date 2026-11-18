@@ -29,3 +29,6 @@ Rows are in pack order (0-based index as in profile §9). Each replaces the Span
 | 22 | Make y do | Make e do | keep |
 | 23 | Incontables | Incontáveis | keep |
 | 24 | Cognados y acento | Cognatos e sílaba tônica | keep (all 14 targets work) |
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

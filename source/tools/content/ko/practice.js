@@ -7,6 +7,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "이름이 see(보다)와 똑같이 들리는 글자는?", o: ["C", "S", "Z", "K"], why: "C의 이름 '씨'는 see와 같은 소리예요. S는 '에스', Z는 zee, K는 '케이'예요." },
+    { t: "mc", q: "Q 바로 다음에 오는 글자는?", o: ["R", "P", "S", "O"], why: "순서는 …O, P, Q, R, S…예요. Q(큐) 다음은 R(아r)이에요." },
+    { t: "mc", q: "올바른 것은?", o: ["an M", "a M", "an B", "an U"], why: "M의 이름 '엠'은 모음 소리로 시작해서 관사 an을 써요. B(비)는 a B, U(유)는 y 소리로 시작해서 a U예요." },
+    { t: "mc", q: "다음 중 모음 글자는?", o: ["U", "R", "S", "W"], why: "영어의 모음 글자는 A, E, I, O, U 다섯 개예요. R, S, W는 자음이에요." },
+    { t: "mc", q: "W의 영어 이름은?", o: ["double u", "double v", "u u", "v v"], why: "모양은 V 두 개 같지만 이름은 double u(더블유), 'U 두 개'예요." },
+
+    { t: "order", p: "그거 철자가 어떻게 돼요?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "일반동사 spell로 묻는 질문이라 do를 앞에 써요. 주어가 you라서 does가 아니고, spell은 원형 그대로예요." },
+    { t: "order", p: "제 이름은 S로 시작해요", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "S의 이름 '에스'는 모음 소리로 시작해서 관사 an이에요. 주어 my name은 하나라서 starts예요." },
+    { t: "order", p: "hello에는 L이 두 개 있어요", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "L이 두 개니까 복수 Ls로 쓰고, 복수라서 is가 아니라 are예요." },
+
+    { t: "fill", q: "How do you __ your name?", p: "이름 철자를 어떻게 써요?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "do 뒤에는 동사원형이 와요: How do you spell…?" },
+    { t: "fill", q: "It starts __ a B.", p: "B로 시작해요", a: ["with"], o: ["by", "for", "in"], why: "'~로 시작하다'는 start with예요." },
+    { t: "fill", q: "That's M __ in Mary.", p: "Mary의 M이에요", a: ["as"], o: ["so", "than", "of"], why: "글자를 단어로 확인할 때는 'M as in Mary'처럼 as in을 써요." },
+
+    { t: "type", p: "(관사를 넣어서) A로 시작해요", a: ["It starts with an A", "It begins with an A"], hint: "start · A — A의 이름은 모음 소리로 시작해요", x: ["the", "start"], why: "A의 이름 '에이'는 모음 소리로 시작해서 관사 an이에요. 주어 it에는 starts예요." },
+    { t: "type", p: "(you와 spell로) 이름 철자가 어떻게 돼요?", a: ["How do you spell your name"], hint: "spell · your name — do로 물어요", x: ["spelling", "does"], why: "일반동사 spell로 묻는 질문이라 do를 써요. 주어 you에는 does가 아니에요." },
+    { t: "type", p: "(It으로 시작해서) T가 두 개 있어요", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "two · T — 둘이면 복수형", x: ["T", "have"], why: "T가 둘이니까 복수 Ts로 써요. 주어 it에는 have가 아니라 has예요." }
+  ],
+
   pron: [
     { t: "mc", q: "'쌀, 밥'을 뜻하는 단어는?", o: ["rice", "lice", "rise", "nice"], why: "R로 시작하는 rice가 쌀이에요. 혀끝을 잇몸에 붙이는 L로 말하면 lice(이)가 돼요." },
     { t: "mc", q: "'선풍기'를 뜻하는 단어는?", o: ["fan", "pan", "van", "ban"], why: "F는 윗니를 아랫입술에 대고 바람만 내요. 두 입술을 터뜨리는 P로 말하면 pan(프라이팬)이에요." },

@@ -34,7 +34,7 @@ LANGAPP_PACKS.roadmaps = {
     src: ["British Council / EAQUALS Core Inventory (subset)", "English Result Elementary syllabus", "reports/Grammar learning order research.md"], note: "Synthesis from the research report; the English Grammar Profile itself was not retrieved.",
     stages: [
       { en: "A1 · First sentences", ko: "A1 · 첫 문장", items: [
-        ["en-pron", "Pronunciation traps: R/L, F/P, TH", "발음 함정: R/L, F/P, TH", "pron"], ["en-be", "be, subject pronouns, every sentence needs a subject", "be동사, 주어 대명사, 주어는 꼭 필요", "be"],
+        ["en-alphabet", "The alphabet and spelling aloud", "알파벳과 철자 말하기", "alphabet"], ["en-pron", "Pronunciation traps: R/L, F/P, TH", "발음 함정: R/L, F/P, TH", "pron"], ["en-be", "be, subject pronouns, every sentence needs a subject", "be동사, 주어 대명사, 주어는 꼭 필요", "be"],
         ["en-it-there", "It's cold · there is / there are", "It's cold · there is / there are", "it-there"], ["en-nouns", "a / an and the: the basics", "a / an과 the 기초", "articles"], ["en-plurals", "Plurals, this / these, my / your", "복수 -s, this / these, my / your", "plurals"],
         ["en-present", "Present simple and subject-verb-object", "현재 시제와 주어-동사-목적어", "present"], ["en-questions", "Questions: do, then question words", "의문문: do, 의문사", "questions"],
         ["en-third-s", "He/she/it: -s, does / doesn't", "3인칭 단수 -s, does / doesn't", "third-s"], ["en-prep", "at / in / on", "전치사 at / in / on", "prep"],

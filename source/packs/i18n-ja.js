@@ -1089,6 +1089,7 @@ LANGAPP_PACKS.i18n.ja = {
     "General (American) English": "アメリカ英語",
     "CEFR A1-B1 order, adjusted for Korean speakers": "CEFR A1〜B1の順序（韓国語話者向けに調整）",
     "A1 · First sentences": "A1 · 最初の文",
+    "The alphabet and spelling aloud": "アルファベットとスペルの伝え方",
     "Pronunciation traps: R/L, F/P, TH": "発音の落とし穴：R/L、F/P、TH",
     "be, subject pronouns, every sentence needs a subject": "be動詞と主格の代名詞：英語の文には必ず主語",
     "It's cold · there is / there are": "It's cold と there is / there are",

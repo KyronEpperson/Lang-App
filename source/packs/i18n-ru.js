@@ -1089,6 +1089,7 @@ LANGAPP_PACKS.i18n.ru = {
     "General (American) English": "Общий (американский) английский",
     "CEFR A1-B1 order, adjusted for Korean speakers": "Порядок CEFR A1–B1, адаптированный для носителей корейского",
     "A1 · First sentences": "A1 · Первые предложения",
+    "The alphabet and spelling aloud": "Алфавит и диктовка по буквам",
     "Pronunciation traps: R/L, F/P, TH": "Ловушки произношения: R/L, F/P, TH",
     "be, subject pronouns, every sentence needs a subject": "Глагол to be, личные местоимения: подлежащее нужно всегда",
     "It's cold · there is / there are": "It's cold · there is / there are",

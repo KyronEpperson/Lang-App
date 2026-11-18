@@ -1089,6 +1089,7 @@ LANGAPP_PACKS.i18n.vi = {
     "General (American) English": "Tiếng Anh phổ thông (Mỹ)",
     "CEFR A1-B1 order, adjusted for Korean speakers": "Trình tự CEFR A1-B1, điều chỉnh cho người nói tiếng Hàn",
     "A1 · First sentences": "A1 · Những câu đầu tiên",
+    "The alphabet and spelling aloud": "Bảng chữ cái và cách đánh vần",
     "Pronunciation traps: R/L, F/P, TH": "Bẫy phát âm: R/L, F/P, TH",
     "be, subject pronouns, every sentence needs a subject": "be, đại từ chủ ngữ: câu nào cũng cần chủ ngữ",
     "It's cold · there is / there are": "It's cold · cấu trúc there is / there are",

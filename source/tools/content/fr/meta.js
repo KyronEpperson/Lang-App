@@ -2,7 +2,7 @@
    Les noms de paquets doivent correspondre à ceux de decks.js (voir DECKNAMES.md). Les identifiants de leçon sont les identifiants anglais communs.
    PLAN_PRESETS : decks "@path" = tous les paquets dans l'ordre de GROUPS ; lessons "@all" = toutes les leçons dans l'ordre du cours. */
 exports.GROUPS = [
-  ["Premiers pas", ["Salutations", "Se présenter", "Survie 1", "Survie 2"]],
+  ["Premiers pas", ["Salutations", "Se présenter", "Survie 1", "Survie 2", "L'alphabet"]],
   ["Voyage et quotidien", ["Itinéraires et transports", "Au restaurant", "Café et supérette", "Achats et paiements", "Nombres, heures et dates", "Voyages (aéroport et hôtel)", "Santé et urgences"]],
   ["Conversation et relations", ["Conversation informelle", "Émotions et réactions", "Compliments et affection", "Téléphone et abréviations"]],
   ["Travail", ["Travail et e-mails"]],
@@ -11,7 +11,7 @@ exports.GROUPS = [
 ];
 
 exports.TAGS = {
-  basics: ["Salutations", "Se présenter", "Survie 1", "Survie 2", "Nombres, heures et dates"],
+  basics: ["Salutations", "Se présenter", "Survie 1", "Survie 2", "Nombres, heures et dates", "L'alphabet"],
   travel: ["Survie 1", "Survie 2", "Itinéraires et transports", "Au restaurant", "Café et supérette", "Achats et paiements", "Nombres, heures et dates", "Voyages (aéroport et hôtel)", "Santé et urgences"],
   social: ["Salutations", "Se présenter", "Conversation informelle", "Émotions et réactions", "Compliments et affection", "Téléphone et abréviations"],
   work: ["Travail et e-mails", "Téléphone et abréviations", "Nombres, heures et dates", "Conversation informelle"],
@@ -44,7 +44,8 @@ exports.DESC = {
   "Faux amis": "Actually, disappointed, library, college : des mots qui ressemblent au français mais veulent dire autre chose",
   "Make et do": "Les deux façons de dire « faire » : make a mistake, make a decision, do homework, do the dishes",
   "Indénombrables": "Advice, information, news, furniture, homework : en français on les compte, mais en anglais ils n'ont ni -s ni a/an",
-  "Mots transparents et accent": "-tion = -tion, -ty = -té, -ous = -eux, -ly = -ment : des mots que tu connais déjà, avec l'accent tonique là où l'anglais le place"
+  "Mots transparents et accent": "-tion = -tion, -ty = -té, -ous = -eux, -ly = -ment : des mots que tu connais déjà, avec l'accent tonique là où l'anglais le place",
+  "L'alphabet": "Le nom anglais des 26 lettres, pour épeler à voix haute ton nom, ton e-mail ou un code de réservation"
 };
 
 /* goal keys (travel/work/social/media) are fixed by the engine */

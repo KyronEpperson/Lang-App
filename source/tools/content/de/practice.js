@@ -10,6 +10,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "Welcher Buchstabe heißt genau wie das Wort \"see\" („sehen“)?", o: ["C", "S", "Z", "K"], why: "C heißt /ˈsiː/, genau wie \"see\", mit scharfem „s“. Z (/ˈziː/) beginnt mit einem weichen, summenden „s“ wie in „Sonne“; S und K klingen ganz anders." },
+    { t: "mc", q: "Welcher Buchstabe kommt direkt nach Q?", o: ["R", "P", "S", "O"], why: "Die Reihenfolge ist dieselbe wie im Deutschen: P, Q, R, S. Nur die Namen sind anders." },
+    { t: "mc", q: "Welche Form ist richtig?", o: ["an M", "a M", "an B", "an U"], why: "M ist ein Konsonant, aber sein Name /ˈem/ beginnt mit einem Vokal, wie im Deutschen. Darum \"an M\". B und U beginnen mit einem Konsonantenlaut: \"a B\", \"a U\"." },
+    { t: "mc", q: "Welcher dieser Buchstaben ist ein Vokal?", o: ["U", "R", "S", "W"], why: "Die Vokale sind dieselben wie im Deutschen: A, E, I, O, U. W ist kein Vokal." },
+    { t: "mc", q: "Wie heißt der Buchstabe W auf Englisch?", o: ["double u", "double v", "u u", "v v"], why: "W heißt \"double u\", also „doppeltes U“, mit drei Silben: /ˈdʌbəljuː/. Nie „we“ wie im Deutschen." },
+
+    { t: "order", p: "Wie schreibt man das?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "Die Frage im simple present braucht das Hilfsverb \"do\" vor dem Subjekt (bei \"you\" nie \"does\"), danach die Grundform \"spell\"." },
+    { t: "order", p: "Mein Name fängt mit S an", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "\"My name\" ist dritte Person Singular, also bekommt das Verb ein -s: \"starts\". Und \"an S\", weil der Name von S mit einem Vokal beginnt (/ˈes/)." },
+    { t: "order", p: "In \"hello\" gibt es zwei L", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "„Es gibt“ + Plural: \"There are\", nicht \"is\" – Übereinstimmung von Subjekt und Verb. Der Plural eines Buchstabens bekommt ein -s: \"Ls\"." },
+
+    { t: "fill", q: "How do you __ your name?", p: "Wie schreibt man deinen Namen?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "Nach \"do you\" steht die Grundform: \"spell\", ohne -s, -ing oder -ed." },
+    { t: "fill", q: "It starts __ a B.", p: "Es fängt mit B an", a: ["with"], o: ["by", "for", "in"], why: "„Anfangen mit“ heißt \"start with\"." },
+    { t: "fill", q: "That's M __ in Mary.", p: "Das ist M wie \"Mary\"", a: ["as"], o: ["so", "than", "of"], why: "Um einen Buchstaben klarzumachen, sagt man \"as in\" + ein Wort, wie im Deutschen „M wie Martha“." },
+
+    { t: "type", p: "Es fängt mit einem A an", a: ["It starts with an A", "It begins with an A"], hint: "start · A – mit \"it\"; achte auf a/an", x: ["the", "start"], why: "Das Subjekt ist \"it\", und in der dritten Person bekommt das Verb ein -s: \"starts\". Vor A steht \"an\", weil sein Name mit einem Vokal beginnt." },
+    { t: "type", p: "Wie buchstabierst du deinen Namen?", a: ["How do you spell your name"], hint: "spell · name – Frage mit Hilfsverb", x: ["spelling", "does"], why: "Die Frage braucht das Hilfsverb \"do\": \"How do you spell...?\". Bei \"you\" steht nie \"does\"." },
+    { t: "type", p: "Es hat zwei T (ein Wort wie \"Matt\"; beginne mit \"It\")", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "have · two · T – das Subjekt ist \"it\"; Plural mit -s", x: ["T", "have"], why: "Mit \"it\" (dritte Person Singular) wird \"have\" zu \"has\". Der Plural eines Buchstabens bekommt ein -s: \"Ts\" (auch \"T's\")." }
+  ],
+
   pron: [
     { t: "mc", q: "Welches Wort bedeutet „Schaf“?", o: ["sheep", "ship", "cheap", "chip"], why: "Beide Vokale kennst du aus dem Deutschen („Miete“ und „Mitte“). Die Falle ist die Schreibung: \"ee\" ist ein langes i, also \"sheep\". \"Ship\" mit kurzem i heißt „Schiff“." },
     { t: "mc", q: "Welches Wort bedeutet „Tasche“?", o: ["bag", "back", "beg", "pack"], why: "\"Bag\" endet mit einem stimmhaften g, und der Vokal davor ist länger. Sprichst du das g wie k, sagst du \"back\" („Rücken“). Und /æ/ ist offener als das e in \"beg\"." },

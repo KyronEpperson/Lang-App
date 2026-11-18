@@ -8,6 +8,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "哪个字母的名称和单词 see 读音相同？", o: ["C", "S", "Z", "K"], why: "C 的名称和 see 读音完全一样，和拼音 c 的读法无关。S 的名称以元音开头，Z 在美国叫 zee，K 和 OK 结尾的音相同。" },
+    { t: "mc", q: "紧跟在 Q 后面的字母是？", o: ["R", "P", "S", "O"], why: "字母顺序是 …O、P、Q、R、S…，Q 后面是 R。" },
+    { t: "mc", q: "哪个是正确的？", o: ["an M", "a M", "an B", "an U"], why: "M 的名称以元音开头，前面用冠词 an：an M。B 的名称以辅音开头，用 a B；U 的名称和 you 同音，以 y 的音开头，用 a U。" },
+    { t: "mc", q: "下面哪个是元音字母？", o: ["U", "R", "S", "W"], why: "英语的元音字母是 A、E、I、O、U 这五个。R、S、W 都是辅音字母。" },
+    { t: "mc", q: "字母 W 的名称是？", o: ["double u", "double v", "u u", "v v"], why: "W 看起来像两个 V，名称却是 double u，意思是“两个 U”。" },
+
+    { t: "order", p: "那个怎么拼？", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "spell 是实义动词，疑问句要借助助动词 do。主语是 you，用 do 不用 does；do 后面接动词原形 spell，不用 spelling。" },
+    { t: "order", p: "我的名字以 S 开头", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "S 的名称以元音开头，前面用冠词 an，不用 a。主语 my name 是第三人称单数，动词用 starts。" },
+    { t: "order", p: "hello 里有两个 L", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "两个 L 要用复数 Ls。there be 句型里主语是复数，用 are，不用 is。" },
+
+    { t: "fill", q: "How do you __ your name?", p: "你的名字怎么拼写？", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "助动词 do 后面用动词原形：How do you spell…?" },
+    { t: "fill", q: "It starts __ a B.", p: "以 B 开头", a: ["with"], o: ["by", "for", "in"], why: "“以……开头”是固定搭配 start with。" },
+    { t: "fill", q: "That's M __ in Mary.", p: "是 Mary 里的那个 M", a: ["as"], o: ["so", "than", "of"], why: "用单词确认字母时说 M as in Mary，意思是“Mary 里的 M”。" },
+
+    { t: "type", p: "它以 A 开头（别忘了冠词）", a: ["It starts with an A", "It begins with an A"], hint: "start · A — A 的名称以元音开头", x: ["the", "start"], why: "A 的名称以元音开头，前面用冠词 an：an A。主语 it 是第三人称单数，动词用 starts。" },
+    { t: "type", p: "你的名字怎么拼？（用 you 和 spell 提问）", a: ["How do you spell your name"], hint: "spell · your name — 用助动词 do 提问", x: ["spelling", "does"], why: "spell 是实义动词，疑问句要借助助动词 do。主语是 you，用 do 不用 does，后面接动词原形 spell。" },
+    { t: "type", p: "它有两个 T（说的是一个单词，用 it 开头）", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "two · T — 两个要用复数", x: ["T", "have"], why: "两个 T 要用复数 Ts（也可以写成 T's）。主语 it 是第三人称单数，用 has，不用 have。" }
+  ],
+
   pron: [
     { t: "mc", q: "意思是“米 / 米饭”的单词是？", o: ["rice", "lice", "rise", "nice"], why: "米饭是 R 开头的 rice。舌尖抵住上齿龈发成 L，就成了 lice（虱子）。" },
     { t: "mc", q: "意思是“风扇”的单词是？", o: ["fan", "pan", "van", "ban"], why: "F 是上齿轻触下唇送气。发成双唇爆破的 P，就成了 pan（平底锅）。" },

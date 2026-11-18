@@ -25,3 +25,6 @@ Rows 1–20 replace the Korean course's 20 decks in the same order. Later rows a
 | 19 | अंग्रेज़ी मुहावरे | idioms |
 | 20 | फ़िल्में, वेब सीरीज़ और स्लैंग | narrative |
 | 21 | इंडियन इंग्लिश: भारत बनाम विदेश | indian-english (hi-only, at least 20 cards; needs a `decks["count"]` deviation) |
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

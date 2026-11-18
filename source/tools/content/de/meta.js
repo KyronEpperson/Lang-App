@@ -2,7 +2,7 @@
    Deck names here must match the deck names in decks.js (see DECKNAMES.md). Lesson ids are the shared English ids.
    PLAN_PRESETS: decks "@path" = every deck in GROUPS order; lessons "@all" = every lesson in course order. */
 exports.GROUPS = [
-  ["Erste Schritte", ["Begrüßung", "Sich vorstellen", "Das Nötigste 1", "Das Nötigste 2"]],
+  ["Erste Schritte", ["Begrüßung", "Sich vorstellen", "Das Nötigste 1", "Das Nötigste 2", "Das Alphabet"]],
   ["Reisen und Alltag", ["Wege und Verkehrsmittel", "Im Restaurant", "Café und Laden", "Einkaufen und Bezahlen", "Zahlen, Uhrzeit und Datum", "Reisen (Flughafen und Hotel)", "Gesundheit und Notfälle"]],
   ["Gespräche und Beziehungen", ["Smalltalk", "Gefühle und Reaktionen", "Komplimente und Zuneigung", "Telefon und Abkürzungen"]],
   ["Arbeit", ["Arbeit und E-Mails"]],
@@ -11,7 +11,7 @@ exports.GROUPS = [
 ];
 
 exports.TAGS = {
-  basics: ["Begrüßung", "Sich vorstellen", "Das Nötigste 1", "Das Nötigste 2", "Zahlen, Uhrzeit und Datum"],
+  basics: ["Begrüßung", "Sich vorstellen", "Das Nötigste 1", "Das Nötigste 2", "Zahlen, Uhrzeit und Datum", "Das Alphabet"],
   travel: ["Das Nötigste 1", "Das Nötigste 2", "Wege und Verkehrsmittel", "Im Restaurant", "Café und Laden", "Einkaufen und Bezahlen", "Zahlen, Uhrzeit und Datum", "Reisen (Flughafen und Hotel)", "Gesundheit und Notfälle"],
   social: ["Begrüßung", "Sich vorstellen", "Smalltalk", "Gefühle und Reaktionen", "Komplimente und Zuneigung", "Telefon und Abkürzungen"],
   work: ["Arbeit und E-Mails", "Telefon und Abkürzungen", "Zahlen, Uhrzeit und Datum", "Smalltalk"],
@@ -44,7 +44,8 @@ exports.DESC = {
   "Falsche Freunde": "Become, chef, handy, also, will: Wörter, die wie deutsche aussehen, aber etwas anderes bedeuten",
   "Make und do": "Die zwei Arten von „machen“: make a mistake, make a decision, do homework, do the dishes",
   "Unzählbare Nomen": "Advice, information, news, furniture, homework: im Deutschen oft Plural, im Englischen ohne -s und ohne a/an",
-  "Fremdwörter und Betonung": "Information, university, chemistry, comfortable: Wörter, die du schon kennst, mit der englischen Betonung"
+  "Fremdwörter und Betonung": "Information, university, chemistry, comfortable: Wörter, die du schon kennst, mit der englischen Betonung",
+  "Das Alphabet": "Die englischen Namen der Buchstaben: deinen Namen, deine E-Mail-Adresse oder einen Code laut buchstabieren"
 };
 
 /* goal keys (travel/work/social/media) are fixed by the engine */

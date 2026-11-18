@@ -1,4 +1,19 @@
 exports.LESSONS = [
+{ id:"alphabet", title:"1 · 알파벳: 글자 이름과 철자 불러 주기", blurb:"글자는 읽을 줄 알아도 영어 이름은 헷갈리죠? 이름·이메일 철자를 영어로 또박또박 불러 봐요.", deck:"알파벳", body:`
+<p>호텔 예약, 전화 상담, 카페 주문에서 꼭 듣는 말이 있어요. "철자가 어떻게 돼요?" 내 이름, 이메일 주소, 예약 번호를 불러 주려면 글자마다 <b>영어 이름</b>을 알아야 해요. 한국에서 배운 읽는 법(제트, 알 등)과 다른 이름도 있어서, 한 번 정리해 두면 훨씬 편해요.</p>
+<h3>글자 26개의 이름</h3>
+<p>굵은 글자 다섯 개 <b>A E I O U</b>가 모음이에요. 나머지는 자음이에요.</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> 에이</td><td class="k">B 비 (b)</td><td class="k">C 씨</td><td class="k">D 디</td><td class="k"><b>E</b> 이</td></tr><tr><td class="k">F 에프</td><td class="k">G 지 (g)</td><td class="k">H 에이치</td><td class="k"><b>I</b> 아이</td><td class="k">J 제이</td></tr><tr><td class="k">K 케이</td><td class="k">L 엘</td><td class="k">M 엠</td><td class="k">N 엔</td><td class="k"><b>O</b> 오우</td></tr><tr><td class="k">P 피</td><td class="k">Q 큐</td><td class="k">R 아r</td><td class="k">S 에스</td><td class="k">T 티</td></tr><tr><td class="k"><b>U</b> 유</td><td class="k">V 비 (v)</td><td class="k">W 더블유</td><td class="k">X 엑스</td><td class="k">Y 와이</td></tr><tr><td class="k">Z 지 (z)</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>한국 사람이 자주 헷갈리는 이름</h3>
+<div class="tbl"><table><tr><th>글자</th><th>영어 이름</th><th>주의할 점</th></tr><tr><td class="k">G / J / Z</td><td>지 (g) / 제이 / 지 (z)</td><td>G는 '쥐'에 가까운 '지', Z는 성대를 울리는 z 소리의 zee예요. 미국에서 '제트'는 안 통해요</td></tr><tr><td class="k">E / I</td><td>이 / 아이</td><td>E가 '이', I가 '아이'예요. 이메일 주소에서 특히 많이 틀려요</td></tr><tr><td class="k">B / V</td><td>비 (b) / 비 (v)</td><td>B는 두 입술, V는 윗니를 아랫입술에 대요</td></tr><tr><td class="k">P / F</td><td>피 / 에프</td><td>F는 '에프' 끝에서 윗니를 아랫입술에 대요</td></tr><tr><td class="k">L / R</td><td>엘 / 아r</td><td>R은 '알'이 아니에요. 혀를 뒤로 말고 어디에도 닿지 않게 해요</td></tr><tr><td class="k">W</td><td>더블유</td><td>double u, 'U 두 개'라는 뜻이에요. 세 음절을 다 말해요</td></tr></table></div>
+<h3>철자 묻고 불러 주기</h3>
+<p>잘 안 들리는 글자는 <b>"B as in boy"</b>처럼 그 글자로 시작하는 쉬운 단어를 붙여서 확인해요.</p>
+{{ex:How do you spell that?|하우 두 유 스펠 댓?|철자가 어떻게 돼요?}}{{ex:How do you spell your last name?|하우 두 유 스펠 유어 래스트 네임?|성은 철자가 어떻게 돼요?}}{{ex:Can you spell that, please?|캔 유 스펠 댓, 플리즈?|철자 좀 불러 주시겠어요?}}{{ex:It starts with a capital T.|잇 스타츠 위드 어 캐피털 티|대문자 T로 시작해요}}{{ex:B as in boy.|비 애즈 인 보이|boy의 B요}}{{ex:Is that M as in Mary?|이즈 댓 엠 애즈 인 메리?|Mary의 M 맞아요?}}{{ex:There are two Ls in hello.|데어 아 투 엘즈 인 헬로우|hello에는 L이 두 개 있어요}}
+<h3>글자 이름 앞의 a와 an</h3>
+<p>관사는 철자가 아니라 <b>이름의 첫소리</b>로 정해요. F(에프), H(에이치), L(엘), M(엠), N(엔), R(아r), S(에스), X(엑스)는 이름이 모음 소리로 시작해서 <b>an F, an H, an L, an M, an N, an R, an S, an X</b>예요.</p>
+<p>반대로 U는 모음 글자지만 이름이 y 소리 '유'로 시작해서 <b>a U</b>예요. a university와 같은 원리예요.</p>
+<div class="tip">이메일 불러 주기 공식: 대문자는 <b>capital T</b>, 같은 글자 두 개는 <b>double L</b>, @는 <b>at</b>, 점(.)은 <b>dot</b>이에요. 예: jay.park@mail.com → "jay dot park at mail dot com".</div>`},
+
 { id:"pron", title:"1 · 발음 함정: R/L·F/P·TH·V/B", blurb:"한국어에 없는 소리 다섯 가지와 강세 — 이것만 잡아도 알아듣는 사람이 확 늘어요.", deck:"발음 주의", body:`
 <p>영어에는 한국어에 없는 소리가 몇 개 있어요. 원어민은 이 소리로 단어를 구분하기 때문에, 조금만 신경 써도 훨씬 잘 통해요. 핵심은 <b>입 모양</b>이에요. 거울을 보면서 연습해 보세요.</p>
 <h3>R과 L</h3>
@@ -160,6 +175,11 @@ exports.LESSONS = [
 ];
 
 exports.CHECKS = {
+  alphabet: [
+    ["영어 이름이 '지'인 글자는? (z 소리가 아니라 입술을 내민 '쥐'에 가까운 소리예요)", ["J","G","Z","C"], 1, "G의 이름은 '지'예요. J는 '제이', Z는 z 소리의 zee(지 (z)), C는 '씨'예요."],
+    ["올바른 것은?", ["a F","an U","a M","an F"], 3, "F의 이름 '에프'는 모음 소리로 시작해서 an F예요. M(엠)도 an M, U(유)는 y 소리라서 a U예요."],
+    ["단어의 철자를 물어볼 때 쓰는 말은?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "do 뒤에는 동사원형 spell이 와요: How do you spell that?"]
+  ],
   pron: [
     ["R 소리를 낼 때 혀끝은 어디에 있나요?", ["윗니 뒤 잇몸에 붙인다","이 사이로 내민다","어디에도 닿지 않는다","아랫입술에 댄다"], 2, "R은 혀끝이 아무 데도 닿지 않아요. 붙이면 L이 돼요."],
     ["think의 th를 바르게 내는 방법은?", ["혀끝을 이 사이로 살짝 내밀고 바람을 낸다","두 입술을 붙였다 뗀다","윗니를 아랫입술에 댄다","혀를 뒤로 만다"], 0, "TH는 혀끝이 이 사이에 보여야 해요. s로 말하면 sink가 돼요."],

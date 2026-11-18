@@ -8,6 +8,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "Huruf apa yang namanya berbunyi sama dengan kata \"see\"?", o: ["C", "S", "Z", "K"], why: "Nama C adalah sii, sama dengan \"see\". S namanya és, Z namanya zii, dan K namanya kei." },
+    { t: "mc", q: "Huruf apa yang datang tepat setelah Q?", o: ["R", "P", "S", "O"], why: "Urutannya …O, P, Q, R, S…. Setelah Q (kyuu) datang R (aar)." },
+    { t: "mc", q: "Mana yang benar?", o: ["an M", "a M", "an B", "an U"], why: "Nama M (ém) diawali bunyi vokal, jadi artikelnya \"an\". B (bii) memakai \"a B\", dan U (yuu) diawali bunyi y, jadi \"a U\"." },
+    { t: "mc", q: "Mana yang huruf vokal?", o: ["U", "R", "S", "W"], why: "Huruf vokal bahasa Inggris ada lima: A, E, I, O, U. R, S, dan W adalah konsonan." },
+    { t: "mc", q: "Apa nama huruf W dalam bahasa Inggris?", o: ["double u", "double v", "u u", "v v"], why: "Bentuknya seperti dua V, tetapi namanya \"double u\" (DA-bel-yuu), artinya u ganda." },
+
+    { t: "order", p: "Bagaimana ejaannya?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "\"spell\" adalah kata kerja biasa, jadi kalimat tanyanya pakai kata kerja bantu \"do\". Subjeknya \"you\", jadi bukan \"does\", dan \"spell\" tetap V1." },
+    { t: "order", p: "Nama saya diawali huruf S.", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "Nama S (és) diawali bunyi vokal, jadi artikelnya \"an\". Subjek \"my name\" tunggal, jadi kata kerjanya pakai -s orang ketiga: \"starts\"." },
+    { t: "order", p: "Kata hello punya dua huruf L.", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "Hurufnya dua, jadi bentuk jamak \"Ls\". Karena jamak, pakai \"are\", bukan \"is\"." },
+
+    { t: "fill", q: "How do you __ your name?", p: "Bagaimana kamu mengeja namamu?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "Setelah kata kerja bantu \"do\", kata kerjanya V1: \"How do you spell…?\"" },
+    { t: "fill", q: "It starts __ a B.", p: "Diawali huruf B.", a: ["with"], o: ["by", "for", "in"], why: "‘Diawali’ atau ‘dimulai dengan’ = \"start with\"." },
+    { t: "fill", q: "That's M __ in Mary.", p: "M, seperti pada Mary.", a: ["as"], o: ["so", "than", "of"], why: "Untuk memastikan huruf dengan sebuah kata, pakai \"as in\": \"M as in Mary\"." },
+
+    { t: "type", p: "(Subjek \"it\", jangan lupa artikel) Diawali A.", a: ["It starts with an A", "It begins with an A"], hint: "start · A — nama A diawali bunyi vokal, jadi artikelnya?", x: ["the", "start"], why: "Nama A (ei) diawali bunyi vokal, jadi artikelnya \"an\". Subjek \"it\" memakai -s orang ketiga: \"starts\"." },
+    { t: "type", p: "Bagaimana ejaan namamu? (pakai \"you\" dan \"spell\")", a: ["How do you spell your name"], hint: "spell · your name — kalimat tanya dengan do", x: ["spelling", "does"], why: "\"spell\" adalah kata kerja biasa, jadi kalimat tanyanya pakai kata kerja bantu \"do\". Subjek \"you\" tidak memakai \"does\"." },
+    { t: "type", p: "(Mulai dengan \"It\") Kata itu punya dua T.", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "two · T — dua huruf, jadi jamak", x: ["T", "have"], why: "Hurufnya dua, jadi bentuk jamak \"Ts\". Subjek \"it\" memakai \"has\", bukan \"have\"." }
+  ],
+
   pron: [
     { t: "mc", q: "Kata untuk 'nasi'?", o: ["rice", "lice", "rise", "nice"], why: "\"rice\" (nasi) diawali R. Kalau ujung lidah menempel di gusi seperti L, jadinya \"lice\" (kutu)." },
     { t: "mc", q: "Kata untuk 'kipas angin'?", o: ["fan", "pan", "van", "ban"], why: "F: gigi atas menyentuh bibir bawah dan hanya udara yang keluar. Kalau kedua bibir dirapatkan seperti P, jadinya \"pan\" (wajan)." },

@@ -1,6 +1,22 @@
 /* id-en: the original 11 lessons and their checks, written for Indonesian speakers (docs/profiles/id.md §8).
    English check options and answer positions follow ko-en; lesson-body example rows are localised (profile §9). */
 exports.LESSONS = [
+{ id:"alphabet", title:"1 · Alfabet: nama huruf dan cara mengeja", blurb:"Hurufnya sama dengan abjad kita, tetapi namanya berbeda. Pelajari nama huruf dalam bahasa Inggris supaya bisa mengeja nama, email, dan kode pemesanan dengan lancar.", deck:"Alfabet", body:`
+<p>Saat memesan hotel, menelepon layanan pelanggan, atau memesan kopi, kamu sering ditanya: "Bagaimana ejaannya?" Untuk mengeja nama, alamat email, atau kode pemesanan, kamu perlu tahu <b>nama setiap huruf dalam bahasa Inggris</b>. Hurufnya sama dengan abjad kita, tetapi banyak namanya berbeda: E dibaca ii, I dibaca ai, dan G bukan <i>gé</i>, melainkan jii.</p>
+<h3>Nama 26 huruf</h3>
+<p>Lima huruf tebal, <b>A E I O U</b>, adalah huruf vokal. Sisanya konsonan. Nama huruf ditulis dengan panduan cara baca yang sama seperti di kartu.</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> ei</td><td class="k">B bii</td><td class="k">C sii</td><td class="k">D dii</td><td class="k"><b>E</b> ii</td></tr><tr><td class="k">F éf</td><td class="k">G jii</td><td class="k">H eic</td><td class="k"><b>I</b> ai</td><td class="k">J jei</td></tr><tr><td class="k">K kei</td><td class="k">L él</td><td class="k">M ém</td><td class="k">N én</td><td class="k"><b>O</b> ou</td></tr><tr><td class="k">P pii</td><td class="k">Q kyuu</td><td class="k">R aar</td><td class="k">S és</td><td class="k">T tii</td></tr><tr><td class="k"><b>U</b> yuu</td><td class="k">V vii</td><td class="k">W DA-bel-yuu</td><td class="k">X éks</td><td class="k">Y wai</td></tr><tr><td class="k">Z zii</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>Nama yang sering tertukar</h3>
+<p>Kita sudah hafal nama huruf ala Indonesia (a, bé, cé, dé, é…), jadi kebiasaan itu mudah terbawa saat mengeja dalam bahasa Inggris. Perhatikan huruf-huruf ini.</p>
+<div class="tbl"><table><tr><th>Huruf</th><th>Nama Inggris</th><th>Perhatikan</th></tr><tr><td class="k">A / E / I</td><td>ei / ii / ai</td><td>Ketiganya bergeser: A Inggris = ei, E Inggris = <i>i</i> panjang kita, I Inggris = ai. Paling sering salah saat mengeja email</td></tr><tr><td class="k">G / J</td><td>jii / jei</td><td>Keduanya diawali j seperti pada <i>jalan</i>. G berima dengan E (jii), J berima dengan A dan K (jei)</td></tr><tr><td class="k">C / S / Z</td><td>sii / és / zii</td><td>C bukan <i>cé</i>, melainkan sii, sama dengan <b>see</b>. Z bukan <i>zèt</i>, melainkan zii dengan z yang berdengung. Kalau z dibaca s, Z terdengar seperti C</td></tr><tr><td class="k">V / F / B</td><td>vii / éf / bii</td><td>V bukan <i>fé</i>. Gigi atas di bibir bawah dan pita suara bergetar. Tanpa getaran terdengar seperti F; dengan bibir dirapatkan jadi B</td></tr><tr><td class="k">H</td><td>eic</td><td>Bukan <i>ha</i>. Namanya eic (ei + c seperti pada <i>cari</i>)</td></tr><tr><td class="k">Q / K</td><td>kyuu / kei</td><td>Q bukan <i>ki</i>, melainkan kyuu, sama dengan <b>queue</b>. K bukan <i>ka</i>, melainkan kei</td></tr><tr><td class="k">R</td><td>aar</td><td>Bukan <i>èr</i>. Sama dengan kata <b>are</b>, dan r Amerika tidak bergetar</td></tr><tr><td class="k">W / Y</td><td>DA-bel-yuu / wai</td><td>W bukan <i>wé</i>: <b>double u</b>, tiga suku kata. Y bukan <i>yé</i>: sama dengan <b>why</b></td></tr></table></div>
+<h3>Menanyakan dan mengeja</h3>
+<p>Di telepon, huruf seperti B, D, P, T atau M dan N mudah tertukar. Pastikan dengan kata yang diawali huruf itu: <b>B as in boy</b> artinya "B, seperti pada <b>boy</b>".</p>
+{{ex:How do you spell that?|hau de yu spél dhèt?|Bagaimana ejaannya?}}{{ex:How do you spell your last name?|hau de yu spél yer lèst neim?|Bagaimana ejaan nama belakang Anda?}}{{ex:Can you spell that, please?|ken yu spél dhèt, pliiz?|Bisa tolong dieja?}}{{ex:It starts with a capital T.|it staarts widh e KÈ-pi-del tii|Diawali huruf T kapital.}}{{ex:B as in boy.|bii èz in boi|B, seperti pada boy.}}{{ex:Is that M as in Mary?|iz dhèt ém èz in MÉ-ri?|M, seperti pada Mary, ya?}}{{ex:There are two Ls in hello.|dhér er tuu élz in hé-LOU|Kata hello punya dua huruf L.}}
+<h3>a atau an sebelum nama huruf</h3>
+<p>Artikel ditentukan oleh <b>bunyi awal nama huruf</b>, bukan oleh hurufnya. Nama F (éf), H (eic), L (él), M (ém), N (én), R (aar), S (és), dan X (éks) diawali bunyi vokal, jadi: <b>an F, an H, an L, an M, an N, an R, an S, an X</b>.</p>
+<p>Sebaliknya, U memang huruf vokal, tetapi namanya (yuu) diawali bunyi y. Jadi <b>a U</b>, sama seperti <b>a university</b>.</p>
+<div class="tip">Rumus mengeja email: huruf kapital = <b>capital T</b>, dua huruf sama berurutan = <b>double L</b>, @ = <b>at</b>, titik (.) = <b>dot</b>. Contoh: sari.dewi@mail.com → "sari dot dewi at mail dot com".</div>`},
+
 { id:"pron", title:"1 · Jebakan pelafalan: TH, V/F, bunyi akhir, tekanan", blurb:"Bunyi bahasa Inggris yang paling sering kita baca ala Indonesia, plus cara memakai panduan cara baca di kartu.", deck:"Awas pelafalan", body:`
 <p>Bahasa Indonesia ditulis hampir persis seperti diucapkan, jadi wajar kalau kita membaca kata Inggris dengan bunyi huruf Indonesia. Masalahnya, bahasa Inggris membedakan beberapa bunyi yang bagi telinga kita terdengar sama. Kuncinya ada di <b>posisi lidah, gigi, dan bibir</b>. Berlatihlah di depan cermin.</p>
 <h3>Cara memakai panduan cara baca</h3>
@@ -180,6 +196,11 @@ exports.LESSONS = [
 ];
 
 exports.CHECKS = {
+  alphabet: [
+    ["Huruf apa yang namanya jii? (diawali j seperti pada ‘jalan’, lalu ii panjang)", ["J","G","Z","C"], 1, "G namanya jii. J namanya jei, Z namanya zii (dengan z yang berdengung), dan C namanya sii."],
+    ["Mana yang benar?", ["a F","an U","a M","an F"], 3, "Nama F (éf) diawali bunyi vokal, jadi artikelnya \"an\": an F. Begitu juga an M (ém). U (yuu) diawali bunyi y, jadi a U."],
+    ["Bagaimana cara meminta seseorang mengeja sebuah kata?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "Setelah kata kerja bantu \"do\", kata kerjanya V1 \"spell\": How do you spell that?"]
+  ],
   pron: [
     ["Saat mengucapkan R, di mana ujung lidah berada?", ["menempel di gusi belakang gigi atas","dijulurkan di antara gigi","tidak menyentuh apa pun","menyentuh bibir bawah"], 2, "Untuk R Amerika, ujung lidah tidak menyentuh apa pun dan tidak bergetar. Kalau menempel, bunyinya jadi L."],
     ["Bagaimana cara mengucapkan th pada \"think\" dengan benar?", ["julurkan ujung lidah sedikit di antara gigi dan embuskan udara","rapatkan kedua bibir lalu lepaskan","tempelkan gigi atas di bibir bawah","gulung lidah ke belakang"], 0, "Untuk TH, ujung lidah harus terlihat di antara gigi. Kalau diganti s, yang terdengar \"sink\"."],

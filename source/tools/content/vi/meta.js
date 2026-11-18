@@ -2,7 +2,7 @@
    Deck names here must match the deck names in decks.js (FINAL names: DECKNAMES.md). Lesson ids are the shared English ids.
    PLAN_PRESETS: decks "@path" = every deck in GROUPS order; lessons "@all" = every lesson in course order. */
 exports.GROUPS = [
-  ["Bước đầu", ["Chào hỏi", "Giới thiệu bản thân", "Tiếng Anh cấp tốc 1", "Tiếng Anh cấp tốc 2"]],
+  ["Bước đầu", ["Chào hỏi", "Giới thiệu bản thân", "Tiếng Anh cấp tốc 1", "Tiếng Anh cấp tốc 2", "Bảng chữ cái"]],
   ["Du lịch · đời sống", ["Hỏi đường · giao thông", "Gọi món ở nhà hàng", "Quán cà phê · cửa hàng tiện lợi", "Mua sắm · thanh toán", "Số · giờ · ngày tháng", "Du lịch (sân bay · khách sạn)", "Bệnh viện · khẩn cấp"]],
   ["Giao tiếp · quan hệ", ["Trò chuyện xã giao", "Cảm xúc · phản ứng", "Lời khen · thiện cảm", "Điện thoại · viết tắt khi nhắn tin"]],
   ["Công việc", ["Công sở · email"]],
@@ -10,7 +10,7 @@ exports.GROUPS = [
 ];
 
 exports.TAGS = {
-  basics: ["Chào hỏi", "Giới thiệu bản thân", "Tiếng Anh cấp tốc 1", "Tiếng Anh cấp tốc 2", "Số · giờ · ngày tháng"],
+  basics: ["Chào hỏi", "Giới thiệu bản thân", "Tiếng Anh cấp tốc 1", "Tiếng Anh cấp tốc 2", "Số · giờ · ngày tháng", "Bảng chữ cái"],
   travel: ["Tiếng Anh cấp tốc 1", "Tiếng Anh cấp tốc 2", "Hỏi đường · giao thông", "Gọi món ở nhà hàng", "Quán cà phê · cửa hàng tiện lợi", "Mua sắm · thanh toán", "Số · giờ · ngày tháng", "Du lịch (sân bay · khách sạn)", "Bệnh viện · khẩn cấp"],
   social: ["Chào hỏi", "Giới thiệu bản thân", "Trò chuyện xã giao", "Cảm xúc · phản ứng", "Lời khen · thiện cảm", "Điện thoại · viết tắt khi nhắn tin", "Lỗi dịch từ tiếng Việt"],
   work: ["Công sở · email", "Điện thoại · viết tắt khi nhắn tin", "Số · giờ · ngày tháng", "Trò chuyện xã giao"],
@@ -40,7 +40,8 @@ exports.DESC = {
   "Thành ngữ tiếng Anh": "Thành ngữ dịch từng chữ thì vô nghĩa nhưng người bản xứ dùng rất nhiều",
   "Phim ảnh · tiếng lóng": "Cách nói thời thượng trong phim, nhạc và mạng xã hội",
   "Âm cuối": "Cặp từ chỉ khác âm cuối, đuôi -s và -ed, cụm phụ âm cuối — đọc rõ phần cuối từ",
-  "Lỗi dịch từ tiếng Việt": "Mở đèn, có nhiều người, rất thích, uống thuốc… những câu dịch từng chữ từ tiếng Việt dễ sai"
+  "Lỗi dịch từ tiếng Việt": "Mở đèn, có nhiều người, rất thích, uống thuốc… những câu dịch từng chữ từ tiếng Việt dễ sai",
+  "Bảng chữ cái": "Tên tiếng Anh của 26 chữ cái để đánh vần tên, email và mã đặt chỗ"
 };
 
 /* goal keys (travel/work/social/media) are fixed by the engine */

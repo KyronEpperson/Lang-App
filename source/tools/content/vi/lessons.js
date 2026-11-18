@@ -1,4 +1,20 @@
 exports.LESSONS = [
+{ id:"alphabet", title:"1 · Bảng chữ cái: tên chữ cái và cách đánh vần", blurb:"Biết mặt chữ nhưng chưa biết tên tiếng Anh của chúng? Học tên 26 chữ cái để đánh vần tên, email hay mã đặt chỗ mà không bị nghe nhầm.", deck:"Bảng chữ cái", body:`
+<p>Đặt phòng khách sạn, gọi tổng đài, làm thủ tục ở sân bay, bạn sẽ thường xuyên nghe câu <b>How do you spell that?</b> (đánh vần thế nào?). Muốn đọc tên, địa chỉ email hay mã đặt chỗ cho người khác ghi lại, bạn phải biết <b>tên tiếng Anh</b> của từng chữ cái. Chữ thì giống tiếng Việt, nhưng tên gọi khác hẳn: chữ E tiếng Anh đọc gần như “i”, nên đọc “i” cho chữ I thì người nghe sẽ ghi E.</p>
+<h3>Tên 26 chữ cái</h3>
+<p>Năm chữ in đậm <b>A E I O U</b> là nguyên âm, các chữ còn lại là phụ âm. Bảng chữ cái tiếng Việt không có <b>F, J, W, Z</b>, nên bốn chữ này cần học riêng.</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> /eɪ/</td><td class="k">B /biː/</td><td class="k">C /siː/</td><td class="k">D /diː/</td><td class="k"><b>E</b> /iː/</td></tr><tr><td class="k">F /ef/</td><td class="k">G /dʒiː/</td><td class="k">H /eɪtʃ/</td><td class="k"><b>I</b> /aɪ/</td><td class="k">J /dʒeɪ/</td></tr><tr><td class="k">K /keɪ/</td><td class="k">L /el/</td><td class="k">M /em/</td><td class="k">N /en/</td><td class="k"><b>O</b> /oʊ/</td></tr><tr><td class="k">P /piː/</td><td class="k">Q /kjuː/</td><td class="k">R /ɑːr/</td><td class="k">S /es/</td><td class="k">T /tiː/</td></tr><tr><td class="k"><b>U</b> /juː/</td><td class="k">V /viː/</td><td class="k">W /ˈdʌbəljuː/</td><td class="k">X /eks/</td><td class="k">Y /waɪ/</td></tr><tr><td class="k">Z /ziː/</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>Những tên người Việt hay nhầm</h3>
+<p>Thói quen gọi chữ theo kiểu tiếng Việt (“bê, xê, dê”, “ét-xì”, “vê kép”) là nguồn gốc của hầu hết lỗi đánh vần. Hãy chú ý nhất những chữ sau.</p>
+<div class="tbl"><table><tr><th>Chữ</th><th>Tên tiếng Anh</th><th>Lưu ý</th></tr><tr><td class="k">E / I</td><td>/iː/ và /aɪ/</td><td>E đọc như “i” kéo dài, I đọc như “ai”. Đây là cặp hay sai nhất khi đánh vần email</td></tr><tr><td class="k">G / J</td><td>/dʒiː/ và /dʒeɪ/</td><td>G vần với E, J vần với A. Người Việt quen gọi G là “giê” và J là “gi” nên rất dễ đảo ngược</td></tr><tr><td class="k">D</td><td>/diː/</td><td>Âm đầu là /d/ như “đ” tiếng Việt, không phải “dê” (giọng Bắc đọc gần như “zê”, giọng Nam gần như “yê”)</td></tr><tr><td class="k">A</td><td>/eɪ/</td><td>Đọc như “ây”, không phải “a”</td></tr><tr><td class="k">S / X</td><td>/es/ và /eks/</td><td>Không phải “ét-xì” và “ích-xì”: mỗi tên chỉ một âm tiết, đọc rõ âm cuối /s/ và /ks/</td></tr><tr><td class="k">R</td><td>/ɑːr/</td><td>Không phải “e-rờ”: giống từ <b>are</b>, cong lưỡi ở cuối</td></tr><tr><td class="k">H</td><td>/eɪtʃ/</td><td>Không phải “hát”: nhớ âm cuối /tʃ/</td></tr><tr><td class="k">W / Y / Z</td><td>/ˈdʌbəljuː/, /waɪ/, /ziː/</td><td>W là <b>double u</b> (U đôi), không phải “vê kép”; Y giống <b>why</b>; Z ở Mỹ là <b>zee</b>, không phải “dét”</td></tr></table></div>
+<h3>Hỏi và đánh vần</h3>
+<p>Với những chữ dễ nghe nhầm qua điện thoại (B và P, M và N), hãy thêm một từ quen thuộc bắt đầu bằng chữ đó: <b>B as in boy</b>. Khi đánh vần tên tiếng Việt, bỏ hết dấu và đọc Đ là D: “Đức” → <b>D-U-C</b>.</p>
+{{ex:How do you spell that?|/haʊ duː ju spel ðæt/|Từ đó đánh vần thế nào?}}{{ex:How do you spell your last name?|/haʊ duː ju spel jʊr læst neɪm/|Họ của bạn đánh vần thế nào?}}{{ex:Can you spell that, please?|/kən ju spel ðæt pliːz/|Bạn đánh vần giúp tôi được không?}}{{ex:It starts with a capital T.|/ɪt stɑːrts wɪð‿ə ˈkæpətəl tiː/|Bắt đầu bằng chữ T viết hoa}}{{ex:B as in boy.|/biː æz‿ɪn bɔɪ/|B trong từ "boy"}}{{ex:Is that M as in Mary?|/ɪz ðæt‿em‿æz‿ɪn ˈmeri/|M trong tên "Mary" phải không?}}{{ex:There are two Ls in hello.|/ðer ɑːr tuː elz‿ɪn həˈloʊ/|Từ "hello" có hai chữ L}}
+<h3>a hay an trước tên chữ cái?</h3>
+<p>Mạo từ đi theo <b>âm đầu của tên chữ cái</b>, không theo mặt chữ. F, H, L, M, N, R, S, X là phụ âm nhưng tên của chúng bắt đầu bằng nguyên âm (/ef/, /eɪtʃ/, /el/…), nên nói <b>an F, an H, an L, an M, an N, an R, an S, an X</b>.</p>
+<p>Ngược lại, U là nguyên âm nhưng tên của nó bắt đầu bằng âm /j/ (/juː/), nên nói <b>a U</b>, giống <b>a university</b>.</p>
+<div class="tip">Công thức đọc email: chữ hoa là <b>capital T</b>, hai chữ giống nhau liền nhau là <b>double L</b>, @ là <b>at</b>, dấu chấm là <b>dot</b>. Ví dụ: <b>lan.tran@mail.com</b> → <b>lan dot tran at mail dot com</b>.</div>`},
+
 { id:"pron", title:"1 · Bẫy phát âm: phiên âm, TH, âm cuối, R/L", blurb:"Đọc được phiên âm IPA của khóa học, rồi sửa những âm người Việt hay nhầm nhất: TH, SH, TR, âm cuối và trọng âm.", deck:"Phát âm dễ sai", body:`
 <p>Mọi thẻ và ví dụ trong khóa học đều có <b>phiên âm IPA</b> theo giọng Mỹ, đặt giữa hai dấu gạch chéo. Ký hiệu gần giống bảng phiên âm trong sách giáo khoa, chỉ khác vài chỗ. Mất hai phút làm quen, sau đó bạn có thể nhìn phiên âm mà đọc theo. Muốn ẩn phiên âm thì chạm nút “Aa phiên âm”, hoặc tắt “Hiện phiên âm khi luyện tập” trong phần cài đặt ở Tiến độ.</p>
 <h3>Đọc phiên âm của khóa học</h3>
@@ -180,6 +196,11 @@ exports.LESSONS = [
 ];
 
 exports.CHECKS = {
+  alphabet: [
+    ["Chữ cái nào có tên tiếng Anh là /dʒiː/ (âm đầu như trong \"job\", rồi kéo dài “i”)?", ["J","G","Z","C"], 1, "G đọc là /dʒiː/, vần với E. J là /dʒeɪ/, Z là /ziː/, C là /siː/. Người Việt quen gọi J là “gi” nên hay đảo G và J."],
+    ["Cách nào đúng?", ["a F","an U","a M","an F"], 3, "Mạo từ đi theo âm đầu của tên chữ cái: F đọc là /ef/, bắt đầu bằng nguyên âm, nên dùng \"an F\". M (/em/) cũng là \"an M\", còn U (/juː/) bắt đầu bằng âm /j/ nên là \"a U\"."],
+    ["Muốn hỏi người khác đánh vần một từ, bạn nói thế nào?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "Câu hỏi với động từ thường cần trợ động từ \"do\" đứng trước chủ ngữ, sau đó là động từ nguyên mẫu \"spell\": \"How do you spell that?\""]
+  ],
   pron: [
     ["Khi phát âm R, đầu lưỡi đặt ở đâu?", ["Chạm vào lợi sau răng trên","Đưa ra giữa hai hàm răng","Không chạm vào đâu cả","Đặt lên môi dưới"], 2, "Âm R: đầu lưỡi không chạm vào đâu cả. Chạm vào lợi thì thành âm L."],
     ["Phát âm \"th\" trong \"think\" thế nào cho đúng?", ["Đưa đầu lưỡi ra giữa hai hàm răng rồi thổi hơi","Mím hai môi rồi bật ra","Đặt răng trên lên môi dưới","Cong lưỡi về phía sau"], 0, "Đầu lưỡi phải lộ ra giữa hai hàm răng. Đọc như “th” tiếng Việt thì thành \"tink\", đọc bằng /s/ thì thành \"sink\"."],

@@ -135,4 +135,40 @@ practice:[
 ["ty","그는 바쁘다고 했어요","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","전하는 말은 시제를 과거로 옮겨요."],
 ["ty","그녀는 차가 있다고 했어요","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — 관사 a","the","처음 말하는 차 한 대라서 관사 a예요."],
 ["ty","그는 그 영화를 봤다고 했어요","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — 관사 the","a","서로 아는 그 영화라서 관사 the예요."]]},
+{ id:"articles-3", title:"관사 총정리: 관사 없음, the, 굳어진 표현", blurb:"'~라는 것 전체'는 관사 없이, 어느 것인지 정해지면 the. 굳어진 표현은 통째로 외워요.", deck:"자기소개", body:`
+<p>관사를 마무리하는 시간이에요. 한국어에는 관사가 없어서 실수가 두 방향으로 나와요. 꼭 필요한 a나 the를 빼먹기도 하고, 불안한 마음에 필요 없는 the를 붙이기도 해요. 긴 문장에서도 쓸 수 있게 스스로 던질 질문 세 개로 정리해요.</p>
+<h3>1. '~라는 것 전체'인가요? 관사 없이</h3>
+<p>어떤 종류 전체를 말할 때 셀 수 있는 명사는 <b>관사 없는 복수</b>로, money, coffee 같은 셀 수 없는 명사와 life, education 같은 추상명사는 <b>관사 없이 그대로</b> 써요. 한국어로 "인생은 짧아요", "교육은 중요해요"라고 할 때 아무것도 붙이지 않는 것과 같아요.</p>
+{{ex:Cats sleep a lot.|캣츠 슬립 어 랏|고양이는 잠을 많이 자요 (고양이 전체)}}{{ex:Life is short.|라이프 이즈 쇼트|인생은 짧아요}}{{ex:Education is important.|에주케이션 이즈 임포턴트|교육은 중요해요}}{{ex:Money isn't everything.|머니 이즌트 에브리띵|돈이 전부는 아니에요}}
+<p><b>The life is short.</b> (X) → <b>Life is short.</b> (O). <b>The cats sleep a lot.</b>은 틀린 문장은 아니지만 '그 고양이들'이라는 뜻이 돼요.</p>
+<h3>2. 어느 것인지 정해졌나요? the</h3>
+<p>같은 단어라도 뒤에 붙은 말이 <b>어느 것인지</b> 정해 주면 the를 붙여요. 한국어는 "네가 만든 커피"처럼 꾸미는 말을 앞에 둘 뿐 따로 표시가 없어서, 이 the를 특히 자주 빼먹어요.</p>
+{{ex:I like movies.|아이 라익 무비즈|저는 영화를 좋아해요 (영화 전체)}}{{ex:The movie we saw was great.|더 무비 위 쏘 워즈 그레이트|우리가 본 영화 정말 좋았어요}}{{ex:The coffee you made was great.|더 커피 유 메이드 워즈 그레잇|네가 만든 커피 정말 맛있었어}}
+<h3>'그'와 the는 같지 않아요</h3>
+<p>'그'를 볼 때마다 the로 옮기고, '그'가 없으면 관사도 빼는 습관이 있어요. 하지만 the는 '그'라는 뜻이 아니라 "서로 어느 것인지 안다"는 표시예요. 그래서 한국어에 '그'가 없어도 the가 필요할 때가 많아요. 반대로 둘 다 아는 것을 콕 집어 말하는 '그'는 that이 자연스러울 때도 있어요.</p>
+<div class="tbl"><table><tr><th>한국어</th><th>영어</th></tr><tr><td>화장실 어디예요? ('그' 없음)</td><td class="k">Where's the restroom?</td></tr><tr><td>오늘 하늘 정말 파래요 ('그' 없음)</td><td class="k">The sky is so blue today.</td></tr><tr><td>그 영화 정말 좋았어! (둘 다 본 영화를 콕 집어)</td><td class="k">I loved that movie!</td></tr></table></div>
+{{ex:Where's the restroom?|웨어즈 더 레스트룸?|화장실이 어디예요?}}{{ex:The sky is so blue today.|더 스카이 이즈 쏘 블루 투데이|오늘 하늘 정말 파래요}}{{ex:I loved that movie!|아이 러브드 댓 무비!|그 영화 정말 좋았어!}}
+<h3>3. 굳어진 표현인가요? 통째로 외워요</h3>
+<p>이유를 따지기보다 덩어리로 외우는 게 빨라요. bed, school, work는 원래 목적(자기, 공부하기, 일하기)으로 갈 때 관사 없이 써요.</p>
+<div class="tbl"><table><tr><th>관사 없음</th><th>관사 있음</th></tr><tr><td class="k">go to bed</td><td class="k">in the morning / in the evening</td></tr><tr><td class="k">by bus / by subway</td><td class="k">play the piano / play the guitar</td></tr><tr><td class="k">at home / at work</td><td class="k">go to the gym</td></tr><tr><td class="k">have lunch / have dinner</td><td class="k">go to the movies</td></tr></table></div>
+{{ex:I go to bed at eleven.|아이 고우 투 베드 앳 일레븐|저는 11시에 자요}}{{ex:I have lunch at noon.|아이 해브 런치 앳 눈|저는 12시에 점심을 먹어요}}{{ex:I go to the gym in the morning.|아이 고우 투 더 짐 인 더 모닝|저는 아침에 헬스장에 가요}}{{ex:My sister plays the guitar.|마이 시스터 플레이즈 더 기타|제 여동생은 기타를 쳐요}}
+<div class="tip">긴 문장에서 막히면 순서대로 물어보세요. ① 종류 전체인가? → 관사 없이 (셀 수 있으면 복수) ② 어느 것인지 서로 아나? → the ③ 여럿 중 아무 하나인가? → a / an. 굳어진 표현은 이 질문과 상관없이 통째로 외워요.</div>`,
+check:[["'음악은 사람을 행복하게 해요'(음악 전체)를 영어로 하면?",["The music makes people happy.","Music makes people happy.","A music makes people happy.","Music makes the peoples happy."],1,"음악 전체는 관사 없이 music, 사람들 전체도 관사 없이 people이에요."],["___ food we ordered was cold. 빈칸에 알맞은 것은?",["A","(없음)","The","An"],2,"we ordered가 어느 음식인지 정해 주니까 the예요."],["다음 중 관사가 바르게 쓰인 문장은?",["I go to the bed at eleven.","I go to gym in morning.","I have the lunch at noon.","I go to the gym in the morning."],3,"go to bed, have lunch는 관사 없이, go to the gym, in the morning은 the와 함께 써요."]],
+practice:[
+["mc","'토끼는 당근을 좋아해요' (토끼 전체) =","Rabbits love carrots.","The rabbits love the carrots.","A rabbit love carrot.","Rabbit loves carrots.","종류 전체는 관사 없는 복수예요."],
+["mc","'건강은 중요해요' =","Health is important.","The health is important.","Healths are important.","A health is important.","추상명사를 일반적으로 말할 때는 관사 없이 써요."],
+["mc","'네가 사 온 빵 맛있었어' =","The bread you bought was good.","Bread you bought was good.","A bread you bought was good.","The breads you bought was good.","you bought가 어느 빵인지 정해 주니까 관사 the예요."],
+["mc","'저는 아침에 운동해요' =","I work out in the morning.","I work out in morning.","I work out in a morning.","I work out at the morning.","in the morning은 관사 the와 함께 굳어진 표현이에요."],
+["mc","'저는 지하철로 출근해요' =","I go to work by subway.","I go to the work by subway.","I go to a work by subway.","I go to work by a subway.","go to work, by subway는 관사 없이 쓰는 굳어진 표현이에요."],
+["or","사랑은 어려워요","Love is hard","The","사랑 같은 추상명사를 일반적으로 말할 때는 관사 the를 붙이지 않아요."],
+["or","아이들은 사탕을 좋아해요","Kids like candy","The kid","아이들 전체는 관사 없이 복수 kids예요."],
+["or","네가 만든 케이크 정말 맛있었어","The cake you made was delicious","A cakes","you made가 어느 케이크인지 정해 주니까 관사 the예요."],
+["or","저는 헬스장에 다녀요","I go to the gym","health at","go to the gym은 관사 the와 함께 외워요."],
+["fi","I usually go to __ at midnight.","저는 보통 자정에 자요","bed|sleep","the bed|a bed|beds","잠자리에 드는 건 관사 없이 go to bed예요."],
+["fi","I loved __ book you gave me.","네가 준 책 정말 좋았어","the|that","a|an|some","you gave me가 어느 책인지 정해 주니까 the예요."],
+["fi","I'm at __ right now.","저 지금 회사에 있어요","work|the office|my office","the work|a work|works","at work는 관사 없이 쓰는 굳어진 표현이에요."],
+["ty","저는 아침에 커피를 마셔요","I drink coffee in the morning|I have coffee in the morning|In the morning I drink coffee|In the morning I have coffee|I drink coffee in the mornings|I have coffee in the mornings|I drink a cup of coffee in the morning|I have a cup of coffee in the morning","drink · coffee · in · morning — 관사 주의","a","일반적인 coffee에는 관사가 없고, in the morning은 관사 the와 함께 써요."],
+["ty","네가 만든 파스타 정말 맛있었어 (delicious로)","The pasta you made was delicious|The pasta you made was really delicious|The pasta you made was so delicious|The pasta you made was very delicious|The pasta that you made was delicious|The pasta that you made was really delicious|The pasta that you made was so delicious|The pasta that you made was very delicious","the pasta · you made · delicious — 관사 the","a","you made가 어느 파스타인지 정해 주니까 관사 the예요."],
+["ty","돈이 전부는 아니에요","Money isn't everything","money · everything — 관사 없이","The","money처럼 셀 수 없는 명사를 일반적으로 말할 때는 관사 없이 써요."],
+["ty","저는 보통 11시에 자요","I usually go to bed at eleven|I usually go to bed at 11|I usually go to bed at 11 pm|I usually go to bed at eleven pm|I usually go to sleep at eleven|I usually go to sleep at 11|I usually go to sleep at 11 pm|I usually go to sleep at eleven pm|I usually go to bed at eleven o'clock","usually · go to bed · eleven — 관사 없이","the","go to bed는 관사 없이 쓰는 굳어진 표현이에요."]]},
 ];

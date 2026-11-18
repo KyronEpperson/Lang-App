@@ -10,6 +10,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "Quelle lettre se dit exactement comme le mot \"see\" (« voir ») ?", o: ["C", "S", "Z", "K"], why: "Le C se dit /ˈsiː/, exactement comme \"see\". Le Z s'en rapproche (/ˈziː/), mais il commence par un /z/ ; le S se dit /ˈes/ et le K /ˈkeɪ/." },
+    { t: "mc", q: "Quelle lettre vient juste après le Q ?", o: ["R", "P", "S", "O"], why: "L'ordre est le même qu'en français : P, Q, R, S." },
+    { t: "mc", q: "Quelle forme est correcte ?", o: ["an M", "a M", "an B", "an U"], why: "Le M est une consonne, mais son nom commence par un son de voyelle (/ˈem/, comme « ème » en français) : donc \"an M\". Le B et le U commencent par un son de consonne : \"a B\", \"a U\"." },
+    { t: "mc", q: "Laquelle de ces lettres est une voyelle ?", o: ["U", "R", "S", "W"], why: "En anglais, les voyelles sont A, E, I, O, U. Le W n'en fait pas partie, et le Y non plus, contrairement à ce qu'on apprend à l'école." },
+    { t: "mc", q: "Comment s'appelle la lettre W en anglais ?", o: ["double u", "double v", "u u", "v v"], why: "En anglais, c'est \"double u\", littéralement « double u ». Ne dis pas « double vé »." },
+
+    { t: "order", p: "Ça s'écrit comment ?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "La question au présent a besoin de l'auxiliaire \"do\" devant le sujet (avec \"you\", jamais \"does\"), puis du verbe à la base verbale : \"spell\"." },
+    { t: "order", p: "Mon nom commence par un S", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "Avec \"my name\" (troisième personne du singulier), le verbe prend un -s : \"starts\". Et c'est \"an S\", parce que le nom du S commence par un son de voyelle (/ˈes/)." },
+    { t: "order", p: "Il y a deux L dans \"hello\"", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "Avec un pluriel (\"two Ls\"), c'est \"are\" et non \"is\" : accord du verbe. Le pluriel d'une lettre se forme avec -s : \"Ls\"." },
+
+    { t: "fill", q: "How do you __ your name?", p: "Comment s'écrit ton nom ?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "Après \"do you\", le verbe reste à la base verbale : \"spell\", sans -s, -ing ni -ed." },
+    { t: "fill", q: "It starts __ a B.", p: "Ça commence par un B", a: ["with"], o: ["by", "for", "in"], why: "« Commencer par » une lettre ou une chose se dit \"start with\". \"Start by\" ne s'emploie que devant un verbe en -ing (\"start by reading\")." },
+    { t: "fill", q: "That's M __ in Mary.", p: "C'est M comme \"Mary\"", a: ["as"], o: ["so", "than", "of"], why: "Pour préciser une lettre, on dit \"as in\" + un mot, comme notre « M comme… »." },
+
+    { t: "type", p: "Ça commence par un A", a: ["It starts with an A", "It begins with an A"], hint: "start · A — le sujet est \"it\" ; attention à a/an", x: ["the", "start"], why: "L'anglais a besoin du sujet \"it\", et avec \"it\" le verbe prend un -s : troisième personne. Devant le A (/ˈeɪ/), c'est \"an\"." },
+    { t: "type", p: "Comment épelles-tu ton nom ?", a: ["How do you spell your name"], hint: "spell · name — question avec auxiliaire", x: ["spelling", "does"], why: "La question a besoin de l'auxiliaire \"do\" : \"How do you spell...?\". Avec le sujet \"you\", jamais \"does\"." },
+    { t: "type", p: "Il a deux T (on parle d'un mot, comme \"Matt\" ; commence par \"It\")", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "have · two · T — le sujet est \"it\" ; pluriel en -s", x: ["T", "have"], why: "Avec \"it\" (troisième personne), \"have\" devient \"has\". Le pluriel d'une lettre prend un -s : \"Ts\" (ou \"T's\")." }
+  ],
+
   pron: [
     { t: "mc", q: "Quel mot veut dire « mouton » ?", o: ["sheep", "ship", "cheap", "chip"], why: "\"Sheep\" a le i long et tendu /iː/. Avec le i bref /ɪ/, \"ship\" veut dire « bateau »." },
     { t: "mc", q: "Quel mot veut dire « cheveux » ?", o: ["hair", "air", "ear", "here"], why: "\"Hair\" commence par un h qu'on entend : un souffle. Sans le h, \"air\" veut dire « air »." },

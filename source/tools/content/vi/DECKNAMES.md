@@ -26,3 +26,6 @@ Rows 1–20 replace the Korean course's 20 decks in the same order. Later rows a
 | 20 | Phim ảnh · tiếng lóng |  |
 | 21 | Âm cuối | final-sounds |
 | 22 | Lỗi dịch từ tiếng Việt | (optional; link from noun-phrase or leave unlinked) |
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

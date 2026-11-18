@@ -1089,6 +1089,7 @@ LANGAPP_PACKS.i18n.id = {
     "General (American) English": "Bahasa Inggris umum (Amerika)",
     "CEFR A1-B1 order, adjusted for Korean speakers": "Urutan CEFR A1–B1, disesuaikan untuk penutur bahasa Korea",
     "A1 · First sentences": "A1 · Kalimat pertama",
+    "The alphabet and spelling aloud": "Alfabet dan cara mengeja",
     "Pronunciation traps: R/L, F/P, TH": "Jebakan pelafalan: R/L, F/P, TH",
     "be, subject pronouns, every sentence needs a subject": "to be, kata ganti subjek, setiap kalimat perlu subjek",
     "It's cold · there is / there are": "It's cold · there is / there are",

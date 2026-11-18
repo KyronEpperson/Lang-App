@@ -25,3 +25,6 @@ Rows 1–20 replace the Korean course's 20 decks in the same order. Later rows a
 | 19 | Idiom bahasa Inggris |  |
 | 20 | Film, serial & slang |  |
 | 21 | Jebakan Inggris ala Indonesia | indo-english |
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

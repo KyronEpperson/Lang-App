@@ -1089,6 +1089,7 @@ LANGAPP_PACKS.i18n.zh = {
     "General (American) English": "通用美式英语",
     "CEFR A1-B1 order, adjusted for Korean speakers": "CEFR A1–B1 顺序，针对韩语母语者调整",
     "A1 · First sentences": "A1 · 最基础的句子",
+    "The alphabet and spelling aloud": "字母表和口头拼写",
     "Pronunciation traps: R/L, F/P, TH": "发音陷阱：R/L、F/P、TH",
     "be, subject pronouns, every sentence needs a subject": "be 动词、主格代词：英语句子都要有主语",
     "It's cold · there is / there are": "It's cold · there be 句型",

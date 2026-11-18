@@ -25,3 +25,6 @@ Rows 1–20 replace the Korean course's 20 decks in the same order. Later rows a
 | 19 | สำนวนภาษาอังกฤษ | English idioms; linked from `idioms` |
 | 20 | ภาพยนตร์ ซีรีส์ และสแลง | Movies, series and slang; linked from `narrative` |
 | 21 | กับดักภาษาอังกฤษแบบไทย | th-only, linked from `tinglish`; ≥ 20 cards; needs a `decks["count"]` deviation |
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

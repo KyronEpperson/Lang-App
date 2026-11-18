@@ -272,7 +272,7 @@ practice:[
 ["mc","'재미있었어요' =","It was fun.","It were fun.","It did fun.","It funned.","it에는 was예요."],
 ["mc","'바빴어요?' =","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy는 상태라서 be동사로 물어요."],
 ["or","우리는 영화를 봤어요","We watched a movie","watch movies","영화 한 편이라 관사 a와 단수 movie예요."],
-["or","저는 친구들과 놀았어요","I played with my friends","friend play","여러 명이라 복수 friends예요."],
+["or","(어린아이가) 저는 친구들과 놀았어요","I played with my friends","friend play","여러 명이라 복수 friends예요."],
 ["or","어제 일 안 했어요","I didn't work yesterday","worked","didn't 뒤에는 동사원형이 와요."],
 ["fi","We __ at home last night.","우리는 어젯밤에 집에 있었어요","were","was|did|are","we에는 were예요."],
 ["fi","I __ soccer yesterday.","어제 축구했어요","played","play|playing|was play","과거는 -ed예요."],
@@ -413,4 +413,37 @@ practice:[
 ["ty","저는 커피와 차를 좋아해요","I like coffee and tea","like · coffee · and · tea — 관사 없이","a","일반적인 coffee, tea에는 관사를 붙이지 않아요."],
 ["ty","피곤하지만 행복해요","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","'~지만'은 but이에요."],
 ["ty","저는 개와 고양이를 좋아해요","I like dogs and cats|I like cats and dogs","dog · and · cat — 복수","dog","동물 전체는 복수 dogs, cats로 말해요."]]},
+{ id:"konglish", title:"콩글리시: 한국에서만 통하는 영어", blurb:"핸드폰, 노트북, 파이팅! 한국에서는 다 통하지만 외국에서는 못 알아듣는 말을 바른 영어로 바꿔요.", deck:"영화·드라마·슬랭", body:`
+<p>콩글리시는 틀린 영어라기보다 영어에서 온 <b>한국어 단어</b>예요. 한국에서는 누구나 알아듣지만, 영어권 사람에게 그대로 말하면 못 알아듣거나 전혀 다른 뜻으로 들어요. 한국어로 말할 때는 그대로 쓰고, 영어로 말할 때만 바꾸면 돼요.</p>
+<h3>물건 이름</h3>
+<div class="tbl"><table><tr><th>한국에서</th><th>영어로</th><th>그대로 말하면</th></tr><tr><td>핸드폰</td><td class="k">cell phone, phone</td><td>hand phone은 영어권에서 거의 안 써요. 보통 그냥 phone</td></tr><tr><td>노트북</td><td class="k">laptop</td><td>notebook은 공책이에요</td></tr><tr><td>아파트</td><td class="k">apartment</td><td>apart는 '떨어져서'라는 뜻이에요</td></tr><tr><td>에어컨</td><td class="k">air conditioner, AC</td><td>aircon은 영국·호주·동남아에서는 쓰지만 미국에서는 거의 안 써요. 미국에서는 AC('에이씨')</td></tr><tr><td>리모컨</td><td class="k">remote</td><td>remote control을 줄여서 remote예요</td></tr><tr><td>콘센트</td><td class="k">outlet</td><td>consent는 '동의'예요. 영국에서는 socket</td></tr><tr><td>핸들 (자동차)</td><td class="k">steering wheel</td><td>handle은 문이나 컵의 손잡이예요</td></tr></table></div>
+{{ex:I need a new laptop.|아이 니더 뉴 랩탑|새 노트북이 필요해요}}{{ex:I live in an apartment.|아이 리브 인 언 어파트먼트|저는 아파트에 살아요}}{{ex:The air conditioner isn't working.|디 에어 컨디셔너 이즌트 워킹|에어컨이 안 돼요}}{{ex:Can you pass me the remote?|캔 유 패스 미 더 리모트?|리모컨 좀 건네줄래요?}}{{ex:Where's the outlet?|웨어즈 디 아웃렛?|콘센트 어디 있어요?}}
+<p>단어를 바꿨으면 관사도 챙겨요. laptop, apartment는 셀 수 있는 명사라서 <b>a laptop</b>, <b>an apartment</b>예요. 방에 하나뿐인 리모컨은 <b>the remote</b>예요.</p>
+<h3>생활 속 표현</h3>
+<div class="tbl"><table><tr><th>한국에서</th><th>영어로</th><th>그대로 말하면</th></tr><tr><td>파이팅!</td><td class="k">You can do it! / Good luck!</td><td>fighting은 '싸우는 중'이라서 응원으로 들리지 않아요</td></tr><tr><td>서비스 (공짜)</td><td class="k">It's on the house. / It's free.</td><td>service는 가게의 응대예요: The service was great.</td></tr><tr><td>원샷!</td><td class="k">Bottoms up!</td><td>건배하면서 잔을 비우자고 하는 말이에요. 술자리에서 one shot은 '(술) 샷 한 잔'으로 들려요</td></tr><tr><td>셀카</td><td class="k">selfie</td><td>selca라는 영어 단어는 없어요</td></tr><tr><td>아이쇼핑</td><td class="k">window shopping</td><td>eye shopping이라는 말은 없어요</td></tr><tr><td>컨닝</td><td class="k">cheating</td><td>cunning은 '교활한'이라는 뜻이에요</td></tr><tr><td>사인</td><td class="k">signature / autograph</td><td>서류에 하는 서명은 signature, 연예인에게 받는 사인은 autograph예요. sign은 '서명하다'라는 동사나 표지판이에요</td></tr><tr><td>헬스 (헬스장)</td><td class="k">the gym</td><td>health는 '건강'이에요. 운동한다는 말은 work out</td></tr></table></div>
+{{ex:You can do it!|유 캔 두 잇!|할 수 있어! (파이팅!)}}{{ex:Good luck!|굿 럭!|행운을 빌어! (시험·면접 앞에서 파이팅!)}}{{ex:It's on the house.|잇츠 온 더 하우스|서비스예요 (가게에서 공짜로 줄 때)}}{{ex:Bottoms up!|바럼즈 업!|원샷!}}{{ex:Let's take a selfie.|렛츠 테이커 셀피|셀카 찍자}}{{ex:I'm just window shopping.|아임 저스트 윈도우 샤핑|그냥 아이쇼핑하는 중이에요}}{{ex:Can I get your autograph?|캔 아이 겟 유어 오토그래프?|사인 좀 해 주실래요? (연예인에게)}}{{ex:I go to the gym every day.|아이 고우 투 더 짐 에브리 데이|저는 매일 헬스장에 가요}}
+<h3>한국어 문장을 그대로 옮기면</h3>
+<p>단어는 다 영어인데 문장이 어색한 경우예요. 문법은 맞아도 영어권 사람은 이렇게 말하지 않거나, 뜻이 다르게 들려요.</p>
+<div class="tbl"><table><tr><th>한국어</th><th>그대로 옮기면</th><th>자연스러운 영어</th></tr><tr><td>약속이 있어요</td><td>I have a promise.</td><td class="k">I have plans.</td></tr><tr><td>(권할 때 거절) 괜찮아요</td><td>I'm okay. (이것만 말하면 애매해요)</td><td class="k">No, thanks. / I'm good, thanks.</td></tr><tr><td>김치 알아요? / 김치 먹어 봤어요?</td><td>Do you know kimchi?</td><td class="k">Have you heard of kimchi? / Have you tried kimchi?</td></tr><tr><td>친구들이랑 놀았어요</td><td>I played with my friends.</td><td class="k">I hung out with my friends.</td></tr><tr><td>컨디션이 안 좋아요</td><td>My condition is bad.</td><td class="k">I'm not feeling well.</td></tr><tr><td>부러워요!</td><td>I envy you. (틀리진 않지만 무거워요)</td><td class="k">Lucky you! / I'm so jealous.</td></tr></table></div>
+<p>promise는 '꼭 하겠다는 다짐'이라서 만날 약속은 <b>plans</b>예요. I'm okay, thanks.나 I'm good.도 거절로 쓰지만, I'm okay만 말하면 한국어 '괜찮아요'처럼 '좋다'인지 '됐다'인지 헷갈릴 수 있어요. 분명하게 거절하려면 <b>No, thanks.</b>가 가장 안전해요. Do you know kimchi?는 김치를 '잘 아느냐'고 묻는 것처럼 어색하게 들려요. 들어 봤는지는 <b>Have you heard of ~?</b>, 먹어 봤는지는 <b>Have you tried ~?</b>로 물어요. 어른이 친구와 노는 건 play가 아니라 <b>hang out</b>이고, 과거형은 hung out이에요. condition은 주로 병이나 물건의 상태를 말할 때 써요. I envy you는 틀린 말은 아니지만 조금 진지하게 들려요. 가볍게 '부럽다!'라고 할 때는 <b>Lucky you!</b>나 <b>I'm so jealous!</b>예요. 여기서 jealous는 질투가 아니라 장난스러운 부러움이에요.</p>
+{{ex:I have plans.|아이 해브 플랜즈|약속이 있어요}}{{ex:No, thanks.|노, 땡스|아니요, 괜찮아요 (거절)}}{{ex:Have you heard of kimchi?|해뷰 허드 오브 김치?|김치 알아요? (들어 봤어요?)}}{{ex:Have you tried kimchi?|해뷰 트라이드 김치?|김치 먹어 봤어요?}}{{ex:I hung out with my friends.|아이 헝아웃 위드 마이 프렌즈|친구들이랑 놀았어요}}{{ex:I'm not feeling well.|아임 낫 필링 웰|몸이 좀 안 좋아요}}{{ex:Lucky you!|럭키 유!|좋겠다! 부럽다!}}
+<div class="tip">콩글리시를 부끄러워할 필요는 없어요. 한국에서는 잘 통하는 말이니까요. 영어로 말할 때만 한 번 더 확인하세요: "이 단어, 영어권에서도 같은 뜻일까?" 영어로 말할 때는 이렇게 바꿔요: <b>Fighting!</b> → <b>You can do it!</b> / <b>I have a promise.</b> → <b>I have plans.</b></div>`,
+check:[["'노트북 가져왔어요?' (컴퓨터)를 영어로 하면?",["Did you bring your notebook?","Did you bring your laptop?","Did you bring laptop?","Did you bring your labtop?"],1,"컴퓨터는 laptop이에요. notebook은 공책으로 들려요."],["'컨디션이 안 좋아요'(몸이 안 좋아요)를 가장 자연스럽게 말하면?",["I'm not feeling well.","My condition is bad.","I'm bad condition.","My condition is not good feeling."],0,"몸이 안 좋을 때는 I'm not feeling well.이라고 해요. condition은 병이나 물건의 상태를 말할 때 주로 써요."],["식당 직원이 공짜 음식을 주면서 하는 말로 가장 자연스러운 것은?",["It's service.","It's a service.","It's for service.","It's on the house."],3,"가게에서 공짜로 주는 것은 on the house예요. service는 응대라는 뜻이에요."]],
+practice:[
+["mc","'노트북 있어요?' (컴퓨터) =","Do you have a laptop?","Do you have a notebook?","Do you have laptop?","Do you have an laptop?","컴퓨터는 laptop이고, 한 대라서 관사 a를 붙여요."],
+["mc","시험 보러 가는 친구에게 '파이팅!'을 가장 자연스럽게 말하면?","Good luck!","Fighting!","Fight!","You fighting!","fighting은 '싸우는 중'이라 응원으로 들리지 않아요."],
+["mc","'저 지금 헬스장 가요' =","I'm going to the gym.","I'm going to the health.","I'm going to health.","I'm going to gym.","헬스장은 the gym이에요. health는 '건강'이에요."],
+["mc","친구와 만날 약속이 있을 때 '약속이 있어요'를 가장 자연스럽게 말하면?","I have plans.","I have a promise.","I have promises.","I'm promise.","만날 약속은 plans예요. promise는 '꼭 하겠다는 다짐'이에요."],
+["mc","술자리에서 '원샷!'을 영어로 하면?","Bottoms up!","One shot!","One shot, please!","Shot one!","잔을 비우자는 원샷은 Bottoms up!이에요. One shot은 '샷 한 잔'으로 들려요."],
+["or","저는 아파트에 살아요","I live in an apartment","apart a","아파트는 apartment, 모음 소리로 시작해서 관사 an이에요."],
+["or","에어컨이 안 돼요","The air conditioner isn't working","A aircon","방에 있는 그 에어컨이라 관사 the예요. 에어컨은 air conditioner예요."],
+["or","리모컨 좀 건네줄래요?","Can you pass me the remote","a","방에 있는 그 리모컨이라 관사 the예요."],
+["or","친구들이랑 놀았어요","I hung out with my friends","played friend","어른이 노는 건 hang out이고, 여러 명이라 복수 friends예요."],
+["fi","Where's the __?","콘센트가 어디 있어요?","outlet|socket|plug|power outlet","consent|handle|remote","콘센트는 outlet이에요. consent는 '동의'예요."],
+["fi","I'm just __ shopping.","그냥 아이쇼핑하는 중이에요","window","eye|eyes|look","아이쇼핑은 window shopping이에요."],
+["fi","No, __.","(음료를 권할 때) 아니요, 괜찮아요","thanks|thank you|I'm good|I'm okay|I'm fine","okay|fine|good","거절은 No, thanks로 분명하게 해요."],
+["ty","새 노트북이 필요해요","I need a new laptop|I need a new laptop computer","need · new · laptop — 관사 a","notebook","컴퓨터는 laptop이고, 한 대라서 관사 a예요."],
+["ty","저는 매일 헬스장에 가요","I go to the gym every day|I work out at the gym every day|I go to the gym daily|Every day I go to the gym","go to · gym · every day — 관사 the","health a","헬스장은 gym이고, go to the gym은 관사 the와 같이 써요."],
+["ty","셀카 찍자","Let's take a selfie|Let's take a selfie together","let's take · selfie — 관사 a","selca","셀카는 selfie, 한 장이라서 관사 a예요."],
+["ty","김치 먹어 봤어요?","Have you tried kimchi|Have you ever tried kimchi|Have you had kimchi|Have you ever had kimchi|Have you eaten kimchi|Have you ever eaten kimchi|Have you tried kimchi before|Have you had kimchi before|Did you ever try kimchi","have you · tried · kimchi","know","음식 경험은 Have you tried ~?로 물어요."]]},
 ];

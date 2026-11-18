@@ -28,3 +28,6 @@ Separator is the katakana middle dot ・ (U+30FB); parentheses are full-width �
 
 Note: profile §9 also proposes a 21st deck 「カタカナ英語の落とし穴」; it is NOT in this set of 20 (not assigned to JA-CONTENT-A). If the lead adds it, that exact name is reserved.
 Added 2026-11-16: deck 21 「カタカナ英語の落とし穴」 (profile §9, ja-only; appended last in decks.js and in the 「ネイティブらしく」 group). Rows 1–20 are unchanged.
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

@@ -24,7 +24,7 @@ const norm = s => s.toLowerCase().replace(/’/g, "'");
 const words = s => norm(s).replace(/[.,!?;:"“”()…]/g, ' ').split(/\s+/).filter(Boolean);
 const itoks = ipa => ipa.split(/ ‖ |\/ \//).map(s => s.replace(/^\/|\/$/g, '')).join(' ').split(/\s+/).filter(Boolean);
 /* weak / strong (or stressed / unstressed) pairs that PRON-RULES §B allows (zh list + pt additions: into, which, before) */
-const ALLOWED = new Set(['a', 'an', 'the', 'to', 'for', 'from', 'at', 'of', 'in', 'on', 'after', 'about', 'and', 'or', 'can', 'do', 'did', 'does', 'have', 'has', 'had', 'you', 'me', 'it', 'that', 'there', 'where', 'so', 'he', 'she', 'we', 'was', 'were', 'are', 'into', 'which', 'before']);
+const ALLOWED = new Set(['i', 'a', 'an', 'the', 'to', 'for', 'from', 'at', 'of', 'in', 'on', 'after', 'about', 'and', 'or', 'can', 'do', 'did', 'does', 'have', 'has', 'had', 'you', 'me', 'it', 'that', 'there', 'where', 'so', 'he', 'she', 'we', 'was', 'were', 'are', 'into', 'which', 'before']);
 const FUNC = new Set("a an the i me my you your he him his she her it its we us our they them their am is are was were be been being do does did have has had can could will would shall should may might must in on at to for of from with near by about into over under after before around across through within until past and but or so if because although when than that as there who where which i'm you're he's she's it's we're they're i'll you'll i'd i've you've it'll there's that's what's".split(' '));
 const VOW = /^[ˈˌ]?[aeiouæɑɔəɜɪʊʌ]/;
 function analyse(pairs, withRules) {

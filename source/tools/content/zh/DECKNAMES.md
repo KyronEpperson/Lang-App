@@ -26,3 +26,6 @@ Punctuation is full-width （）、 ; digits attach with no space. Rows 1–20 r
 | 20 | 影视与俚语 |  |
 | 21 | 中式英语陷阱 | chinglish |
 | 22 | 数量表达 | countable (optional link) |
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

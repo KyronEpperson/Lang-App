@@ -1,4 +1,22 @@
 exports.LESSONS = [
+{ id:"alphabet", title:"1 · 字母表：字母名称和口头拼写", blurb:"字母都认识，英语名称却常被拼音带偏。学会 26 个字母的名称，用英语拼出名字、邮箱和预订号。", deck:"字母表", body:`
+<p>在酒店前台登记、打客服电话、报预订号时，常会听到一句：How do you spell that? 这时要把名字、邮箱地址或订单号<b>一个字母一个字母</b>地说出来，说的是每个字母的<b>英语名称</b>。我们从小学拼音，字母个个认识，可拼音里的读法和英语的字母名称不是一回事。报自己的拼音名字时尤其容易按拼音念：Zhang 要报成 Z-H-A-N-G 五个字母的名称。花几分钟把 26 个名称过一遍，以后拼写就不卡壳。</p>
+<h3>26 个字母的名称</h3>
+<p>加粗的 <b>A E I O U</b> 是五个元音字母，其余是辅音字母。音标标的是字母的<b>名称</b>，也就是拼写时说出来的音。</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> /ˈeɪ/</td><td class="k">B /ˈbiː/</td><td class="k">C /ˈsiː/</td><td class="k">D /ˈdiː/</td><td class="k"><b>E</b> /ˈiː/</td></tr><tr><td class="k">F /ˈef/</td><td class="k">G /ˈdʒiː/</td><td class="k">H /ˈeɪtʃ/</td><td class="k"><b>I</b> /ˈaɪ/</td><td class="k">J /ˈdʒeɪ/</td></tr><tr><td class="k">K /ˈkeɪ/</td><td class="k">L /ˈel/</td><td class="k">M /ˈem/</td><td class="k">N /ˈen/</td><td class="k"><b>O</b> /ˈoʊ/</td></tr><tr><td class="k">P /ˈpiː/</td><td class="k">Q /ˈkjuː/</td><td class="k">R /ˈɑːr/</td><td class="k">S /ˈes/</td><td class="k">T /ˈtiː/</td></tr><tr><td class="k"><b>U</b> /ˈjuː/</td><td class="k">V /ˈviː/</td><td class="k">W /ˈdʌbəljuː/</td><td class="k">X /ˈeks/</td><td class="k">Y /ˈwaɪ/</td></tr><tr><td class="k">Z /ˈziː/</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>拼音读法不等于字母名称</h3>
+<p>拼音借用了拉丁字母，但给它们配的是汉语的音。拼英语单词、报名字时，要说字母的英语名称，不能按拼音念。下面七个字母最容易被拼音带偏：</p>
+<div class="tbl"><table><tr><th>字母</th><th>拼音里的读法</th><th>英语名称</th><th>注意</th></tr><tr><td class="k">C</td><td>“次”的声母</td><td>/ˈsiː/</td><td>和 see 同音</td></tr><tr><td class="k">Q</td><td>“七”的声母</td><td>/ˈkjuː/</td><td>和 cute 的开头一样，不是“七”</td></tr><tr><td class="k">X</td><td>“西”的声母</td><td>/ˈeks/</td><td>名称以元音开头，所以说 an X</td></tr><tr><td class="k">Z</td><td>“资”的声母</td><td>/ˈziː/</td><td>美国人说 zee。课本里可能学过英式的 zed，在美国很少用</td></tr><tr><td class="k">E</td><td>“鹅”</td><td>/ˈiː/</td><td>英语 E 的名称是长音 /iː/</td></tr><tr><td class="k">I</td><td>“衣”</td><td>/ˈaɪ/</td><td>和表示“我”的 I 同音。报邮箱时 E 和 I 最容易说反</td></tr><tr><td class="k">U</td><td>“乌”</td><td>/ˈjuː/</td><td>和 you 同音</td></tr></table></div>
+<p>还有几组名称也常出错：</p>
+<div class="tbl"><table><tr><th>字母</th><th>英语名称</th><th>注意</th></tr><tr><td class="k">G、J</td><td>/ˈdʒiː/、/ˈdʒeɪ/</td><td>拼音 g、j 分别是“哥”“鸡”的声母，所以很多人把 G 和 J 说反。记住：G 结尾是 /iː/，J 结尾是 /eɪ/</td></tr><tr><td class="k">L、N、R</td><td>/ˈel/、/ˈen/、/ˈɑːr/</td><td>L 和 N 读到舌尖抵住上齿龈就收住，后面不加元音。部分地区的同学 n、l 不分，要特别注意。R 是 /ɑː/ 加上舌尖后卷的 r，舌尖不碰任何地方</td></tr><tr><td class="k">V、W</td><td>/ˈviː/、/ˈdʌbəljuː/</td><td>V 要上齿轻触下唇、声带振动，不要读成拼音的 wei。W 的名称是 double u（两个 U），三个音节都要读出来</td></tr></table></div>
+<h3>问拼写、报拼写</h3>
+<p>对方没听清某个字母时，可以在字母后面加一个以它开头的简单单词，比如 <b>B as in boy</b>。last name 是“姓”：中文名字姓在前，Li Wei 的 last name 是 Li。</p>
+{{ex:How do you spell that?|/ˈhaʊ də ju ˈspel ˈðæt/|那个怎么拼？}}{{ex:How do you spell your last name?|/ˈhaʊ də ju ˈspel jʊr ˈlæst ˈneɪm/|你的姓怎么拼？}}{{ex:Can you spell that, please?|/kən ju ˈspel ˈðæt ˈpliːz/|能拼一下吗？}}{{ex:It starts with a capital T.|/ɪt ˈstɑːrts wɪð ə ˈkæpɪtl ˈtiː/|以大写字母 T 开头}}{{ex:B as in boy.|/ˈbiː əz ɪn ˈbɔɪ/|boy 的 B}}{{ex:Is that M as in Mary?|/ɪz ˈðæt ˈem əz ɪn ˈmeri/|是 Mary 的 M 吗？}}{{ex:There are two Ls in hello.|/ðer ər ˈtuː ˈelz ɪn həˈloʊ/|hello 里有两个 L}}
+<h3>字母名称前用 a 还是 an</h3>
+<p>冠词看字母名称的<b>第一个音</b>，不看字母本身。F、H、L、M、N、R、S、X 的名称都以元音开头，所以说 <b>an F</b>、<b>an H</b>、<b>an L</b>、<b>an M</b>、<b>an N</b>、<b>an R</b>、<b>an S</b>、<b>an X</b>。</p>
+<p>U 虽然是元音字母，名称却和 you 一样以 /j/ 开头，所以是 <b>a U</b>，道理和 a university 相同。</p>
+<div class="tip">报邮箱的说法：大写字母说 <b>capital T</b>，两个相同字母连在一起说 <b>double L</b>，@ 读 <b>at</b>，点（.）读 <b>dot</b>。例如 li.wei@mail.com 读作 <b>L-I dot W-E-I at mail dot com</b>。</div>`},
+
 { id:"pron", title:"1 · 发音陷阱：词尾辅音、TH、V/W、R/L", blurb:"先看懂美式音标，再攻克最常见的发音问题：词尾辅音、TH、V/W 和重音。", deck:"发音易错", body:`
 <p>这门课的卡片和例句都标了<b>国际音标</b>。符号是课本里学过的那一套，但标的是<b>美式发音</b>。先花两分钟认识几处不同，后面就能直接看音标跟读。不想看音标时，可以用“Aa 音标”开关或设置里的“练习时显示音标”把它关掉。</p>
 <h3>美式音标和课本音标的区别</h3>
@@ -176,6 +194,11 @@ exports.LESSONS = [
 ];
 
 exports.CHECKS = {
+  alphabet: [
+    ["名称读 /ˈdʒiː/ 的字母是哪个？", ["J","G","Z","C"], 1, "G 的名称是 /ˈdʒiː/。J 是 /ˈdʒeɪ/，Z 是 /ˈziː/，C 是 /ˈsiː/。拼音 g 读“哥”的声母，别被它带偏。"],
+    ["哪个是正确的？", ["a F","an U","a M","an F"], 3, "F 的名称 /ˈef/ 以元音开头，所以用 an F。M 的名称 /ˈem/ 也以元音开头，是 an M；U 的名称 /ˈjuː/ 以 /j/ 开头，用 a U。"],
+    ["请别人拼一个单词，怎么问？", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "spell 是实义动词，疑问句要借助助动词 do，do 后面用动词原形：How do you spell that?"]
+  ],
   pron: [
     ["发 R 时，舌尖在哪里？", ["抵住上齿龈","伸到上下齿之间","不碰任何地方","贴着下唇"], 2, "发 R 时舌尖不碰任何地方。抵住上齿龈就成了 L。"],
     ["think 里的 th 怎么发才对？", ["舌尖轻轻伸到上下齿之间，送气","双唇闭合再张开","上齿轻触下唇","舌头向后卷"], 0, "发 TH 时舌尖要露在齿间。读成 s 就成了 sink。"],

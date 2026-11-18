@@ -424,6 +424,35 @@ I've got your back. | /aɪv gɑːt jʊr bæk/ | Có tôi đây rồi | Sẽ luô
 Gotcha. | /ˈgɑːtʃə/ | Hiểu rồi / Bắt được rồi nhé! | Rút gọn của "got you". Hay dùng nhất với nghĩa “hiểu rồi”.
 Let's do this! | /lets duː ðɪs/ | Làm thôi! | Cổ vũ tinh thần trước khi bắt đầu.
 `,
+/* deck 21, shared by every course (docs/briefs/alphabet-spec.md): letter names for spelling aloud. Linked from the lesson "alphabet". */
+"Bảng chữ cái": `
+A | /eɪ/ | chữ A / a | Tên là /eɪ/ (như "day" bỏ âm d), không đọc “a”. Ví dụ: "apple"
+B | /biː/ | chữ B / b | Không phải “bê”: vần với C và D. Qua điện thoại nên nói rõ "B as in boy". Ví dụ: "book"
+C | /siː/ | chữ C / c | Không phải “xê”: đọc giống hệt "see". Ví dụ: "coffee"
+D | /diː/ | chữ D / d | Âm đầu là /d/ như “đ” tiếng Việt, không phải “dê” (giọng Bắc đọc gần như “zê”, giọng Nam gần như “yê”). Ví dụ: "dog"
+E | /iː/ | chữ E / e | Bẫy lớn nhất: tên của E nghe như “i” kéo dài. Đánh vần email mà đọc “e” thì người nghe khó nhận ra, có khi ghi thành A. Ví dụ: "email"
+F | /ef/ | chữ F / f | Tiếng Việt không dùng chữ F. Tên là /ef/, không phải “ép”: kết thúc bằng răng trên chạm môi dưới. Ví dụ: "family"
+G | /dʒiː/ | chữ G / g | Không phải “gờ” hay “giê”: /dʒiː/ vần với E. Đừng nhầm với J (/dʒeɪ/). Ví dụ: "good"
+H | /eɪtʃ/ | chữ H / h | Không phải “hát”: /eɪtʃ/, nhớ âm cuối /tʃ/. Tên bắt đầu bằng nguyên âm nên nói "an H". Ví dụ: "house"
+I | /aɪ/ | chữ I / i | Đọc như “ai”, giống từ "I" (tôi). Đọc “i” thì người nghe sẽ ghi E. Ví dụ: "idea"
+J | /dʒeɪ/ | chữ J / j | Một trong bốn chữ (F, J, W, Z) mà tiếng Việt không có. Tên là /dʒeɪ/, vần với A và K; đừng nhầm với G (/dʒiː/). Ví dụ: "job"
+K | /keɪ/ | chữ K / k | Không phải “ca”: /keɪ/, vần với A và J. Ví dụ: "key"
+L | /el/ | chữ L / l | Không phải “e-lờ”: chỉ một âm tiết, cuối tên đầu lưỡi chạm lợi. Ví dụ: "lunch"
+M | /em/ | chữ M / m | Qua điện thoại M và N rất dễ lẫn, nên nói "M as in Mary". Ví dụ: "money"
+N | /en/ | chữ N / n | Một âm tiết /en/, không thêm “nờ”. Ví dụ: "name"
+O | /oʊ/ | chữ O / o | Nguyên âm đôi /oʊ/ như "oh", không phải “o” hay “ô” đơn của tiếng Việt: cuối tên môi tròn lại thành “u”. Ví dụ: "open"
+P | /piː/ | chữ P / p | Không phải “pê”: /piː/, vần với B và T, bật hơi ở hai môi. Ví dụ: "pizza"
+Q | /kjuː/ | chữ Q / q | Không phải “quy” hay “cu”: /kjuː/, đọc như "queue". Ví dụ: "question"
+R | /ɑːr/ | chữ R / r | Không phải “e-rờ”: /ɑːr/ giống từ "are", cong lưỡi ở cuối. Ví dụ: "room"
+S | /es/ | chữ S / s | Không phải “ét-xì”: /es/, một âm tiết. Đừng nhầm với X (/eks/). Ví dụ: "school"
+T | /tiː/ | chữ T / t | Đọc giống "tea". T viết hoa là "capital T". Ví dụ: "ticket"
+U | /juː/ | chữ U / u | Đọc như "you", không phải “u”. Vì vậy nói "a U", không nói "an U". Ví dụ: "university"
+V | /viː/ | chữ V / v | Không phải “vê”: /viː/, răng trên chạm môi dưới; khác B (/biː/) bằng hai môi. Ví dụ: "very"
+W | /ˈdʌbəljuː/ | chữ W / w | Tiếng Anh gọi là "double u" (U đôi), ba âm tiết, không phải “vê kép”. Ví dụ: "water"
+X | /eks/ | chữ X / x | Không phải “ích-xì”: /eks/, đọc rõ cụm /ks/ ở cuối. Nói "an X". Ví dụ: "X-ray" (chụp X-quang)
+Y | /waɪ/ | chữ Y / y | Không phải “i dài” hay “i-cờ-rét”: /waɪ/, đọc như "why". Ví dụ: "yes"
+Z | /ziː/ | chữ Z / z | Chữ Quốc ngữ không có Z. Tiếng Anh-Mỹ gọi là /ziː/ ("zee"), không phải “dét”. Tiếng Anh-Anh: "zed". Ví dụ: "zero"
+`,
 "Âm cuối": `
 six | /sɪks/ | số 6 | Cụm phụ âm cuối /ks/. Chỉ đọc /k/ sẽ thành "sick".
 sick | /sɪk/ | ốm / bệnh | Âm cuối /k/, giống “c” cuối tiếng Việt nhưng được bật nhẹ ra.

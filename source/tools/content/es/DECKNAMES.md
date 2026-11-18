@@ -54,3 +54,6 @@ Appended after deck 20, so the 20 shared positions above are unchanged. Parity r
 | 25 | Cognados y acento | Cognate endings & stress | §9 cognate strategy |
 
 Deck 18 «Phrasal verbs» also gained 18 es-only cards at its end (deviations.json `decks` "16"); its first 24 cards are the shared ones.
+
+
+Note (2026-11-18): the shared alphabet deck is now deck 21 (after row 20). Rows numbered 21 and above in this table are one position later in the course.

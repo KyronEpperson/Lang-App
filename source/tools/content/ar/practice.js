@@ -7,6 +7,26 @@
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
+  alphabet: [
+    { t: "mc", q: "أي حرف ينطق اسمه مثل كلمة see؟", o: ["C", "S", "Z", "K"], why: "اسم C هو /ˈsiː/ مثل see تماما. أما S فاسمه /ˈes/، و Z اسمه /ˈziː/، و K اسمه /ˈkeɪ/" },
+    { t: "mc", q: "أي حرف يأتي بعد Q مباشرة؟", o: ["R", "P", "S", "O"], why: "ترتيب الحروف: O ثم P ثم Q ثم R ثم S، فالحرف الذي بعد Q هو R" },
+    { t: "mc", q: "الصيغة الصحيحة:", o: ["an M", "a M", "an B", "an U"], why: "اسم M هو /ˈem/ ويبدأ بصوت متحرك، فيأخذ أداة التنكير an، أما اسم B فيبدأ بصوت ساكن فنقول a B، واسم U يبدأ بالصوت /j/ مثل you فنقول a U" },
+    { t: "mc", q: "أي هذه الحروف حرف متحرك؟", o: ["U", "R", "S", "W"], why: "الحروف المتحركة في الإنجليزية خمسة: A و E و I و O و U، وما سواها حروف ساكنة، ومنها R و S و W" },
+    { t: "mc", q: "ما اسم الحرف W؟", o: ["double u", "double v", "u u", "v v"], why: "شكل W يشبه حرفي V متلاصقين، لكن اسمه double u، أي \"U مضاعفة\"، وننطقه في ثلاثة مقاطع" },
+
+    { t: "order", p: "كيف تتهجى ذلك؟", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "الفعل spell فعل أساسي، فنسأل بالفعل المساعد do، ومع you نقول do لا does، وبعده التصريف الأول spell لا spelling" },
+    { t: "order", p: "اسمي يبدأ بحرف S", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "اسم S هو /ˈes/ ويبدأ بصوت متحرك، فنستخدم أداة التنكير an بدل a، والفاعل my name مفرد غائب (it)، فنضيف s إلى الفعل: starts" },
+    { t: "order", p: "كلمة hello فيها حرفا L", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "الإنجليزية ليس فيها مثنى: بعد two نستخدم صيغة الجمع Ls، والفاعل two Ls جمع، فالفعل are لا is" },
+
+    { t: "fill", q: "How do you __ your name?", p: "كيف تتهجى اسمك؟", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "بعد الفعل المساعد do يأتي التصريف الأول spell، لا spelling ولا spells ولا spelled" },
+    { t: "fill", q: "It starts __ a B.", p: "يبدأ بحرف B", a: ["with"], o: ["by", "for", "in"], why: "مع الفعل start نستخدم with للحرف الذي تبدأ به الكلمة، لا by ولا for ولا in" },
+    { t: "fill", q: "That's M __ in Mary.", p: "إنه حرف M كما في Mary", a: ["as"], o: ["so", "than", "of"], why: "لتأكيد حرف نذكر بعده كلمة تبدأ به، وبينهما as in: M as in Mary" },
+
+    { t: "type", p: "يبدأ بحرف A (مع أداة التنكير)", a: ["It starts with an A", "It begins with an A"], hint: "الكلمات: start · A — اسم A يبدأ بصوت متحرك", x: ["the", "start"], why: "اسم A هو /ˈeɪ/ ويبدأ بصوت متحرك، فنستخدم قبله أداة التنكير an، والفاعل it مفرد غائب، فنضيف s إلى الفعل: It starts with an A" },
+    { t: "type", p: "كيف تتهجى اسمك؟", a: ["How do you spell your name"], hint: "الكلمات: spell · your name — السؤال بالفعل المساعد do", x: ["spelling", "does"], why: "الفعل spell فعل أساسي، فنسأل بالفعل المساعد do، ومع you نقول do لا does، وبعده التصريف الأول spell" },
+    { t: "type", p: "فيها حرفا T (والكلام عن كلمة، البداية: It)", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "الكلمات: it · two · T — الإنجليزية ليس فيها مثنى", x: ["T", "have"], why: "الإنجليزية ليس فيها مثنى: بعد two نستخدم صيغة الجمع Ts أو T's، ومع الفاعل it نقول has لا have" }
+  ],
+
   pron: [
     { t: "mc", q: "الكلمة التي معناها \"أرز\":", o: ["rice", "lice", "rise", "nice"], why: "كلمة rice تبدأ بالصوت r. وإذا لمس طرف اللسان اللثة صارت lice (قمل)." },
     { t: "mc", q: "الكلمة التي معناها \"مروحة\":", o: ["fan", "pan", "van", "ban"], why: "في fan تلمس الأسنان العليا الشفة السفلى. وإذا التقت الشفتان صارت pan (مقلاة)، وهذا من أهم الفروق للمتحدثين بالعربية." },

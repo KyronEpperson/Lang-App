@@ -426,6 +426,35 @@ I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Ti copro le spalle | Vuol di
 Gotcha. | /ˈgɑːtʃə/ | Capito! | Viene da "got you". L'uso più comune è dire che hai capito. La "tch" è /tʃ/, come la «c» di «ciao»
 Let's do this! | /ˈlets ˈduː ˈðɪs/ | Facciamolo! | Per darsi la carica prima di cominciare qualcosa. Dopo "let's" la forma base, senza "to"
 `,
+/* deck 21, shared by every course (docs/briefs/alphabet-spec.md): letter names for spelling aloud. Linked from the lesson "alphabet". */
+"L'alfabeto": `
+A | /ˈeɪ/ | lettera A / a | Non «a» ma «ei», come "day" senza la d: se senti «ei», scrivi A. Esempio: "apple"
+B | /ˈbiː/ | lettera B / b | Quasi come la «bi» italiana, con la «i» più lunga. Fa rima con C, D, P, T e V. Esempio: "book"
+C | /ˈsiː/ | lettera C / c | Non «ci» ma «si»: si pronuncia come "see" («vedere»). Esempio: "coffee"
+D | /ˈdiː/ | lettera D / d | Come la «di» italiana, con la «i» lunga. Al telefono si confonde con la T: "D as in dog". Esempio: "dog"
+E | /ˈiː/ | lettera E / e | La trappola più grande: si chiama come la nostra «i». Se senti «i», scrivi E. Esempio: "email"
+F | /ˈef/ | lettera F / f | «effe» senza la vocale finale: /ˈef/. Due F di seguito si dicono "double F", come in "coffee". Esempio: "family"
+G | /ˈdʒiː/ | lettera G / g | Come la «gi» italiana e fa rima con la E. Non scambiarla con la J (/ˈdʒeɪ/), che fa rima con la A. Esempio: "good"
+H | /ˈeɪtʃ/ | lettera H / h | Non «acca»: comincia con «ei» e finisce con la «c» di «ciao». Nelle parole inglesi la h di solito si sente. Esempio: "house"
+I | /ˈaɪ/ | lettera I / i | Si dice «ai», come la parola "I" («io»). Se dici «i», chi ascolta scrive E. Esempio: "idea"
+J | /ˈdʒeɪ/ | lettera J / j | In italiano è la «i lunga», una lettera straniera; in inglese fa rima con la A e la K. Non scambiarla con la G. Esempio: "job"
+K | /ˈkeɪ/ | lettera K / k | Non «cappa»: suona come la fine di "OK". Esempio: "key"
+L | /ˈel/ | lettera L / l | «elle» accorciato: finisce sulla l, senza vocale dopo. Esempio: "lunch"
+M | /ˈem/ | lettera M / m | «emme» senza la vocale finale. Al telefono si confonde con la N: "M as in Mary". Esempio: "money"
+N | /ˈen/ | lettera N / n | «enne» accorciato: /ˈen/. Per non confonderla con la M: "N as in name". Esempio: "name"
+O | /ˈoʊ/ | lettera O / o | Non è una «o» sola: la bocca scivola verso la «u», come in "go". In inglese, nei numeri di telefono lo zero si legge spesso "O". Esempio: "open"
+P | /ˈpiː/ | lettera P / p | Come la «pi» italiana, con un piccolo soffio sulla p. Fa rima con B e T: chiarisci con "P as in Peter". Esempio: "pizza"
+Q | /ˈkjuː/ | lettera Q / q | Non «cu»: suona come "queue" (la fila). Nelle parole è quasi sempre seguita dalla u. Esempio: "question"
+R | /ˈɑːr/ | lettera R / r | Non «erre»: si pronuncia come "are", con la r inglese non vibrata. Esempio: "room"
+S | /ˈes/ | lettera S / s | «esse» senza la vocale finale. Due S di seguito: "double S", come in "class". Attenzione: /ˈsiː/ è la C, non la S. Esempio: "school"
+T | /ˈtiː/ | lettera T / t | Si pronuncia come "tea" («tè»). Una T maiuscola è "a capital T". Esempio: "ticket"
+U | /ˈjuː/ | lettera U / u | Non «u»: si pronuncia come "you". Comincia con il suono /j/, quindi "a U", non "an U". Esempio: "university"
+V | /ˈviː/ | lettera V / v | In italiano «vu» o «vi»; in inglese solo /ˈviː/, con le labbra come per la «v» italiana. Esempio: "very"
+W | /ˈdʌbəljuː/ | lettera W / w | Letteralmente «doppia u», non «doppia vu»: tre sillabe. Esempio: "water"
+X | /ˈeks/ | lettera X / x | Non «ics»: comincia con una «e», quindi "an X". Esempio: "X-ray" (radiografia)
+Y | /ˈwaɪ/ | lettera Y / y | Non «ipsilon» né «i greca»: si pronuncia come "why" («perché»). Esempio: "yes"
+Z | /ˈziː/ | lettera Z / z | Non «zeta»: la s sonora di «sbaglio» più una «i» lunga, senza la z di «pizza». Gli americani dicono "zee", i britannici "zed". Esempio: "zero"
+`,
 "Parole essenziali": `
 Did you get my message? | /dɪd ju ˈget maɪ ˈmesɪdʒ/ | Ti è arrivato il mio messaggio? | "get" = ricevere. È uno dei verbi più usati dell'inglese parlato: ricevere, ottenere, arrivare, diventare... Dopo "did" il verbo resta alla forma base ("get", non "got")
 I don't get it. | /aɪ ˈdoʊnt ˈget ɪt/ | Non ci arrivo | "get" vuol dire anche «capire» nella conversazione. Più informale di "I don't understand"

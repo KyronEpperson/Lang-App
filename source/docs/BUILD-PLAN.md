@@ -1,6 +1,6 @@
 # Build plan: the remaining eight languages → English
 
-Status on 2026-11-18: all planned courses are live: en-ko, ko-en, ja-en, es-en, zh-en, vi-en, id-en, pt-en, fr-en, it-en, de-en, ru-en, hi-en, th-en, ar-en. Remaining work is review by native speakers and real-device checks (see iterations.md and each tools/content/<lang>/REVIEW.md).
+Status on 2026-11-18: all planned courses are built and pushed: en-ko (33 lessons), and 14 English courses of 42 lessons each (pt 43) that all start with the shared `alphabet` lesson. Remaining work is review by native speakers and real-device checks (see iterations.md and each tools/content/<lang>/REVIEW.md).
 
 ## Who does what (model split)
 

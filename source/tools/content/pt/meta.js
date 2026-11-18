@@ -2,7 +2,7 @@
    Deck names here must match the deck names in decks.js (see DECKNAMES.md). Lesson ids are the shared English ids.
    PLAN_PRESETS: decks "@path" = every deck in GROUPS order; lessons "@all" = every lesson in course order. */
 exports.GROUPS = [
-  ["Primeiros passos", ["Cumprimentos", "Apresentações", "Sobrevivência 1", "Sobrevivência 2"]],
+  ["Primeiros passos", ["Cumprimentos", "Apresentações", "Sobrevivência 1", "Sobrevivência 2", "O alfabeto"]],
   ["Viagem e dia a dia", ["Direções e transporte", "No restaurante", "Cafeteria e mercado", "Compras e pagamentos", "Números, horas e datas", "Viagens (aeroporto e hotel)", "Saúde e emergências"]],
   ["Conversa e relacionamentos", ["Bate-papo", "Emoções e reações", "Elogios e carinho", "Telefone e abreviações"]],
   ["Trabalho", ["Trabalho e e-mail"]],
@@ -11,7 +11,7 @@ exports.GROUPS = [
 ];
 
 exports.TAGS = {
-  basics: ["Cumprimentos", "Apresentações", "Sobrevivência 1", "Sobrevivência 2", "Números, horas e datas"],
+  basics: ["Cumprimentos", "Apresentações", "Sobrevivência 1", "Sobrevivência 2", "Números, horas e datas", "O alfabeto"],
   travel: ["Sobrevivência 1", "Sobrevivência 2", "Direções e transporte", "No restaurante", "Cafeteria e mercado", "Compras e pagamentos", "Números, horas e datas", "Viagens (aeroporto e hotel)", "Saúde e emergências"],
   social: ["Cumprimentos", "Apresentações", "Bate-papo", "Emoções e reações", "Elogios e carinho", "Telefone e abreviações"],
   work: ["Trabalho e e-mail", "Telefone e abreviações", "Números, horas e datas", "Bate-papo"],
@@ -44,7 +44,8 @@ exports.DESC = {
   "Falsos cognatos": "Actually, push, lunch, college, parents: palavras que se parecem com o português, mas significam outra coisa",
   "Make e do": "As duas formas de «fazer»: make a mistake, make a decision, do homework, do the dishes",
   "Incontáveis": "Advice, information, news, furniture, bread: em português se contam, mas em inglês não levam -s nem a/an",
-  "Cognatos e sílaba tônica": "-tion = -ção, -ty = -dade, -ous = -oso, -ly = -mente: palavras que você já conhece, com a sílaba tônica onde o inglês a põe"
+  "Cognatos e sílaba tônica": "-tion = -ção, -ty = -dade, -ous = -oso, -ly = -mente: palavras que você já conhece, com a sílaba tônica onde o inglês a põe",
+  "O alfabeto": "O nome das 26 letras em inglês para soletrar nome, sobrenome, e-mail e códigos em voz alta"
 };
 
 /* goal keys (travel/work/social/media) are fixed by the engine */

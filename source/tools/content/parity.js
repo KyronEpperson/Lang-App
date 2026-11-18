@@ -33,7 +33,9 @@ const dev = (kind, key) => { const r = DEV[kind][key]; if (r !== undefined) used
 const diff = (msg, ...keys) => { for (const [kind, key] of keys) if (dev(kind, key)) return; diffs.push(msg); };
 
 /* lessons */
-const koIds = KO.LESSONS.map(l => l.id), xxIds = XX.LESSONS.map(l => l.id);
+/* lessons the reference course added for its own learners (its profile.ownLessons) are not part of the shared side */
+const REFOWN = LANG === REFLANG ? [] : (_rp.ownLessons || []);
+const koIds = KO.LESSONS.map(l => l.id).filter(id => !REFOWN.includes(id)), xxIds = XX.LESSONS.map(l => l.id);
 DEV.extraLessons.forEach(id => { used.add('extraLessons:' + id); if (!xxIds.includes(id)) diffs.push('extraLessons lists ' + id + ' but the ' + LANG + ' pack has no such lesson'); if (koIds.includes(id)) diffs.push('extraLessons lists ' + id + ' but ko-en has it too'); });
 DEV.droppedLessons.forEach(id => { used.add('droppedLessons:' + id); if (!koIds.includes(id)) diffs.push('droppedLessons lists ' + id + ' but ko-en has no such lesson'); if (xxIds.includes(id)) diffs.push('droppedLessons lists ' + id + ' but the ' + LANG + ' pack still has it'); });
 const koSeq = koIds.filter(id => !DEV.droppedLessons.includes(id)), xxSeq = xxIds.filter(id => !DEV.extraLessons.includes(id));
