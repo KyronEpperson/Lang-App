@@ -957,3 +957,9 @@ Hide the meaning on new-card teach views until tapped, and make the Today sessio
 
 ### 2.25.1 — results
 Teach card meaning blurred until tap (first press of the button reveals). Session plan now opens with the next unlocked lesson once per day; quiz pool is seen cards plus this session's new cards; script drills wait for lesson 1. Harness 69 guards pass; plans for en-es, en-ko, ja-en start L, 5 teach, then quiz.
+
+## 2.25.2 — prompt
+New cards get a real front and back: the front shows only the word and audio, the meaning is on the back after a flip. Verify: flip test (meaning not rendered on the front), harness.
+
+### 2.25.2 — results
+Front: word, audio, flip button. Back (after flip or tapping the word): meaning and note, button becomes Next. flip.js: front meanVisible false, back true, no errors.
