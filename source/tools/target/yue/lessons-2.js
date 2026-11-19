@@ -30,7 +30,7 @@ module.exports = [
 <div class="tip"><b>Most common mistake:</b> leaving the classifier out because English has none. <b>三書</b> → <b>三本書</b>, and <b>呢書</b> → <b>呢本書</b>.</div>
 `,
     check: [
-      ["How do you say \"three books\"?",["三本書","三書","三個書","書三本"],0,"Number + classifier + noun, and books take 本: 三本書."],
+      ["How do you say \"three books\"?",["三本書","三書","三杯書","書三本"],0,"Number + classifier + noun, and books take 本: 三本書."],
       ["What does 本書 mean, with nothing in front of the classifier?",["any book at all","the book (the one we both know)","books in general","a lot of books"],1,"A bare classifier + noun points at one particular thing, like \"the\" in English."],
       ["Which classifier goes with 手機 (phone)?",["本","杯","部","條"],2,"Machines such as phones take 部: 一部手機, 我部手機."]
     ],
@@ -38,7 +38,7 @@ module.exports = [
       ["mc","Which is the Jyutping of 本 (the classifier for books)?","bun2","bun1","bun3","bun6","本 is bun2, with tone 2, rising from the middle.","!strict"],
       ["mc","'two cups of tea' =","兩杯茶","二杯茶","兩茶","杯兩茶","Two is 兩 before a classifier, and a drink in a cup takes 杯."],
       ["mc","Which classifier goes with 貓 (cat)?","隻","本","張","杯","Most animals take 隻: 一隻貓."],
-      ["mc","'this book' =","呢本書","呢書","書呢本","呢個書","呢 needs the book's own classifier between it and the noun: 呢本書."],
+      ["mc","'this book' =","呢本書","呢書","書呢本","呢杯書","呢 needs the book's own classifier between it and the noun: 呢本書."],
       ["mc","What does 我部手機 mean?","my phone","I have a phone","I'm on the phone","a phone for me","Owner + classifier + noun means \"my\": 我部手機."],
       ["or","three books","三 本 書","個","Books take the classifier 本: 三本書."],
       ["or","this cat","呢 隻 貓","本","呢 + classifier + noun, and cats take the classifier 隻: 呢隻貓."],

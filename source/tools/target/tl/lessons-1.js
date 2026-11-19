@@ -212,5 +212,248 @@ module.exports = [
       ["ty","How old are you? (to a friend)","Ilang taon ka na|Ilang taon ka","ilan (how many) · taon (year) · ka · na (already)","ilan","ilan ends in n, so the linker -g joins it to taon: Ilang taon ka na?"],
       ["ty","I'm from Manila","Taga-Maynila ako|Ako ay taga-Maynila","taga- (from) · Maynila · ako","sa","taga- + place, then ako: Taga-Maynila ako."]
     ]
+  },
+  {
+    id: "this-that",
+    title: "ito, iyan, iyon: this and that",
+    blurb: "Point at things near you, near the listener or far away, and ask what they are and how much they cost.",
+    deck: "Shopping and the market",
+    body: `
+<p>At a market stall you will point and ask all day: what is this, how much is that. Tagalog has three words where English has two.</p>
+<h3>Three distances</h3>
+<p>English has "this" and "that". Tagalog splits "that" in two, by who is closer.</p>
+<div class="tbl"><table><tr><th>Word</th><th>Means</th><th>Where the thing is</th></tr><tr><td class="k">ito</td><td>this</td><td>near me, the speaker</td></tr><tr><td class="k">iyan</td><td>that</td><td>near you, the listener</td></tr><tr><td class="k">iyon</td><td>that (over there)</td><td>far from both of us</td></tr></table></div>
+<p>So if the vendor is holding the mango, it is <b>iyan</b>; if it is on the shelf behind her, it is <b>iyon</b>. <b>Ano</b> asks "what", and <b>Magkano</b> asks "how much"; with a vendor, add <b>po</b> right after it. Pointing with your lips, a Filipino habit, works too, but the right word helps.</p>
+{{ex:Ano ito?|ah-NOH ee-TOH|What's this?}}
+{{ex:Magkano po iyan?|mahg-KAH-noh poh ee-YAHN|How much is that? (polite)}}
+{{ex:Ano iyon?|ah-NOH ee-YOHN|What's that over there?}}
+<h3>This is…</h3>
+<p>To name a thing, say <b>Ito ang…</b> (this is the…). For a person, use <b>si</b> before the name, as with the pronouns: <b>Ito si Ana</b> (this is Ana). You can also turn it around and put the pointing word last: <b>Bahay ni Ana iyon</b>.</p>
+{{ex:Ito ang bahay ni Ana.|ee-TOH ahng BAH-hai nee AH-nah|This is Ana's house.}}
+{{ex:Iyan ang aso ni Juan.|ee-YAHN ahng AH-soh nee hwahn|That's Juan's dog.}}
+{{ex:Ito si Ana.|ee-TOH see AH-nah|This is Ana.}}
+{{ex:Bahay ni Ana iyon.|BAH-hai nee AH-nah ee-YOHN|That's Ana's house over there.}}
+<h3>For things, not siya</h3>
+<p>English says "it". Tagalog does not use <b>siya</b> for things; it uses the pointing words. <b>Mahal ito</b> means "It's expensive" (word for word "expensive this").</p>
+{{ex:Mahal ito.|mah-HAHL ee-TOH|This is expensive.}}
+<h3>Short forms you will hear</h3>
+<p>In fast speech the words shrink: <b>'to</b>, <b>'yan</b>, <b>'yon</b>. You will hear <b>Ano 'yan?</b> everywhere. Understand them, but write the full forms in this course. There are also other forms, <b>nito</b>, <b>niyan</b> and <b>niyon</b> (of this, of that), which you will meet later; for now just recognize them.</p>
+<div class="tip"><b>Most common mistake:</b> using <b>siya</b> for a thing. <b>Mahal siya.</b> (about a bag) → <b>Mahal ito.</b> And pick "that" by distance: something far away is <b>iyon</b>, not <b>iyan</b>.</div>
+`,
+    check: [
+      ["The vendor is holding a bag in her hand. You ask how much it is. Which word?",["ito","iyan","iyon","siya"],1,"iyan is that, near the listener."],
+      ["How do you say This is Ana?",["Ito ang Ana.","Ito ni Ana.","Ito si Ana.","Siya ito Ana."],2,"si goes before a person's name: Ito si Ana."],
+      ["Your friend points at a bag. How do you say It's expensive? (mahal = expensive)",["Mahal ito.","Mahal siya.","Siya mahal.","Mahal ka."],0,"siya is for people; for things Tagalog uses ito, iyan or iyon."]
+    ],
+    practice: [
+      ["mc","You hold up a mango and ask the vendor: How much is this?","Magkano po ito?","Magkano po iyan?","Magkano po iyon?","Magkano po siya?","The mango is near you, the speaker, so ito."],
+      ["mc","You point at a building far away: What's that?","Ano iyon?","Ano iyan?","Ano ito?","Sino iyon?","Far from both of you is iyon; sino means who."],
+      ["mc","Which word for that is for something near the person you are talking to?","iyan","iyon","ito","siya","iyan is near the listener; iyon is far from both."],
+      ["mc","In casual speech, 'yan is short for:","iyan","iyon","ito","ikaw","'yan is iyan; 'yon is iyon; 'to is ito."],
+      ["mc","This is expensive (mahal = expensive) =","Mahal ito.","Mahal siya.","Ito mahal siya.","Siya ito mahal.","For things, use ito, not siya."],
+      ["or","This is Ana (start with ito)","Ito si Ana","ang","si goes before a person's name: Ito si Ana."],
+      ["or","That's Juan's house (near you; start with iyan)","Iyan ang bahay ni Juan","si","ni marks the owner when the owner is a name: bahay ni Juan."],
+      ["or","How much is this? (polite)","Magkano po ito","iyon","The thing is near you, so ito, with po after the first word."],
+      ["fi","Ano __?","What's this?","ito","iyan|iyon|siya","this, near the speaker, is ito."],
+      ["fi","Magkano po __?","How much is that? (near you)","iyan","ito|iyon|siya","That near the listener is iyan."],
+      ["fi","Ito __ Ana.","This is Ana.","si","ang|ni|ng","si goes before a person's name."],
+      ["ty","This is Mark","Ito si Mark|Si Mark ito","ito · Mark","ang","si goes before a person's name, never ang: Ito si Mark."],
+      ["ty","That's Ana's dog (near you)","Iyan ang aso ni Ana|Aso ni Ana iyan","iyan · aso (dog) · Ana","si","ni marks the owner when the owner is a name: aso ni Ana."],
+      ["ty","What's that? (over there)","Ano iyon","ano · that over there","iyan","Far from both of you is iyon: Ano iyon?"]
+    ]
+  },
+  {
+    id: "markers",
+    title: "Markers: ang / si, ng / ni, sa / kay",
+    blurb: "Use the markers ang, ng and sa, and si, ni and kay for names, to show what each noun does in a sentence.",
+    deck: "Home and daily routine",
+    body: `
+<p>English shows who does what mostly by word order. Tagalog puts a small word, a marker, in front of almost every noun. The marker tells you the noun's job, so learn each noun together with its marker.</p>
+<h3>Three jobs, two sets</h3>
+<p>Ordinary nouns (house, teacher) take <b>ang</b>, <b>ng</b> or <b>sa</b>. A person's name takes <b>si</b>, <b>ni</b> or <b>kay</b> instead.</p>
+<div class="tbl"><table><tr><th>Job</th><th>Ordinary noun</th><th>Name</th></tr><tr><td>the topic: what the sentence is about</td><td class="k">ang</td><td class="k">si</td></tr><tr><td>the owner (later also the doer or the thing)</td><td class="k">ng</td><td class="k">ni</td></tr><tr><td>the place, or the person something goes to</td><td class="k">sa</td><td class="k">kay</td></tr></table></div>
+<p>For two or more names there are plural forms: <b>sina</b>, <b>nina</b>, <b>kina</b> (<i>sina Ana at Juan</i>, Ana and Juan).</p>
+<h3>ang and si: the topic</h3>
+<p>English says "The house is big". Tagalog puts the description first and marks the topic with <b>ang</b>: "Big the house". A simple sentence has only one topic, so only one <b>ang</b> or <b>si</b>.</p>
+{{ex:Malaki ang bahay.|mah-lah-KEE ahng BAH-hai|The house is big.}}
+{{ex:Guro si Ana.|GOO-roh see AH-nah|Ana is a teacher.}}
+<h3>ng and ni: the owner</h3>
+<p>English puts the owner first with 's: "the teacher's house". Tagalog puts the thing first and the owner after it, with <b>ng</b> (said <i>nang</i>) or, for a name, <b>ni</b>.</p>
+{{ex:Ito ang bahay ng guro.|ee-TOH ahng BAH-hai nahng GOO-rohq|This is the teacher's house.}}
+{{ex:Malinis ang kusina ni Lola.|mah-LEE-nees ahng koo-SEE-nah nee LOH-lah|Lola's kitchen is clean.}}
+<h3>sa and kay: place and person</h3>
+<p><b>sa</b> marks a place: to Makati, in the kitchen. When the goal is a person, use <b>kay</b> with the name. <b>para</b> means "for".</p>
+{{ex:Kuya, sa Makati po.|KOO-yah sah mah-KAH-tee pohq|To Makati, please. (to a driver)}}
+{{ex:Para kay Juan ito.|PAH-rah kai hwahn ee-TOH|This is for Juan.}}
+<h3>Names are different</h3>
+<p>English never marks names, so learners put <b>ang</b> or <b>sa</b> before them. Swap to the name set: <b>si Ana</b>, <b>ni Ana</b>, <b>kay Ana</b>. Titles count as part of the name: <b>si Lola</b>, <b>ni Kuya Jun</b>.</p>
+<div class="tip"><b>Most common mistake:</b> using the ordinary set with a name, or the name set with a place. <b>Ang Ana ay guro.</b> → <b>Guro si Ana.</b> <b>bahay si Ana</b> → <b>bahay ni Ana</b>. <b>kay Maynila</b> → <b>sa Maynila</b>.</div>
+`,
+    check: [
+      ["Which marker goes before a name when the person is the topic?",["ang","ni","si","kay"],2,"si marks a name as the topic; ang is for ordinary nouns."],
+      ["How do you say the teacher's house?",["bahay ng guro","bahay ni guro","guro ang bahay","bahay sa guro"],0,"guro is an ordinary noun, so the owner takes ng: bahay ng guro."],
+      ["Why is kay Maynila wrong?",["Maynila needs ang","kay is for people; a place takes sa","kay is only for the topic","kay must come after the place"],1,"kay is for people; places take sa: sa Maynila."]
+    ],
+    practice: [
+      ["mc","Ana is a teacher =","Guro si Ana.","Guro ang Ana.","Guro ni Ana.","Guro kay Ana.","A name as the topic takes si."],
+      ["mc","the teacher's house =","bahay ng guro","bahay ang guro","bahay ni guro","bahay sa guro","An ordinary noun as owner takes ng; ni is only for names."],
+      ["mc","To Makati, please (to a driver):","Kuya, sa Makati po.","Kuya, kay Makati po.","Kuya, ang Makati po.","Kuya, ni Makati po.","Makati is a place, so sa."],
+      ["mc","This is for Juan =","Para kay Juan ito.","Para sa Juan ito.","Para si Juan ito.","Para ni Juan ito.","A person as the goal takes kay."],
+      ["mc","The house is big =","Malaki ang bahay.","Malaki ng bahay.","Malaki sa bahay.","Malaki si bahay.","The house is the topic, so ang."],
+      ["or","Lola's kitchen is clean (start with malinis)","Malinis ang kusina ni Lola","si","ni marks the owner when the owner is a name: kusina ni Lola."],
+      ["or","This is the teacher's house (start with ito)","Ito ang bahay ng guro","ni","The ng marker shows the owner when it is an ordinary noun: bahay ng guro."],
+      ["or","This is for Ana (start with para)","Para kay Ana ito","sa","kay is for people, sa for places: para kay Ana."],
+      ["fi","Guro __ Juan.","Juan is a teacher.","si","ang|ni|kay","si goes before a name that is the topic."],
+      ["fi","bahay __ Ana","Ana's house","ni","si|ng|kay","ni marks the owner when the owner is a name."],
+      ["fi","Kuya, __ Makati po.","To Makati, please.","sa","kay|si|ang","The sa marker shows the place."],
+      ["ty","Ana is a teacher","Guro si Ana|Si Ana ay guro","guro (teacher) · Ana","ang","si goes before a name that is the topic: Guro si Ana."],
+      ["ty","the teacher's house","bahay ng guro|ang bahay ng guro","bahay (house) · guro (teacher)","ni","The ng marker shows the owner when it is an ordinary noun: bahay ng guro."],
+      ["ty","This is for Juan","Para kay Juan ito|Ito ay para kay Juan","para (for) · Juan · ito","sa","kay is for people, sa for places: para kay Juan."]
+    ]
+  },
+  {
+    id: "linker",
+    title: "The linker na / -ng and ma- describing words",
+    blurb: "Describe people and things: join a describing word to its noun with the linker na or -ng, in either order.",
+    deck: "Describing people and things",
+    body: `
+<p>You have met it in every greeting: <b>magandang umaga</b>. Now for the rule behind it. It is the glue of Tagalog, and you will use it in almost every sentence.</p>
+<h3>English joins nothing; Tagalog joins with a linker</h3>
+<p>English puts "big" straight before "house". Tagalog never puts a describing word right next to its noun. It joins them with a linker, and the linker's shape depends on how the first word ends.</p>
+<div class="tbl"><table><tr><th>First word ends in</th><th>Linker</th><th>Example</th></tr><tr><td>a vowel</td><td><b>-ng</b>, added to the word</td><td class="k">malaking aso</td></tr><tr><td><b>n</b></td><td><b>-g</b>, added to the word</td><td class="k">pagkaing masarap</td></tr><tr><td>any other consonant</td><td><b>na</b>, a separate word</td><td class="k">mabait na bata</td></tr></table></div>
+{{ex:malaking aso|mah-lah-KEENG AH-soh|a big dog}}
+{{ex:mabait na bata|mah-bah-EET nah BAH-tahq|a kind child}}
+<h3>Either order</h3>
+<p>English allows only "big house". Tagalog allows both orders, with the linker always between the two words. The linker's shape follows the word in front: <b>magandang bahay</b> and <b>bahay na maganda</b> mean the same thing. The first order is a little more common in speech, but both are correct.</p>
+{{ex:magandang bahay|mah-gahn-DAHNG BAH-hai|a beautiful house}}
+{{ex:bahay na maganda|BAH-hai nah mah-gahn-DAH|a beautiful house}}
+{{ex:pagkaing masarap|pahg-KAH-eeng mah-sah-RAHP|delicious food}}
+<h3>ma- describing words</h3>
+<p>Many describing words start with <b>ma-</b>: <b>maganda</b> (beautiful), <b>malaki</b> (big), <b>mabait</b> (kind), <b>masarap</b> (delicious), <b>matangkad</b> (tall). <b>maliit</b> (small) looks like one too. Learn each with its ending, because the ending decides the linker.</p>
+<h3>In a sentence</h3>
+<p>The linked phrase works like one noun. It can be the description at the front of the sentence, and the topic still takes <b>si</b> or <b>ang</b>. With no noun after it, a describing word needs no linker: <b>Masarap ang pagkain</b> (the food is delicious).</p>
+{{ex:Mabait na guro si Ana.|mah-bah-EET nah GOO-roh see AH-nah|Ana is a kind teacher.}}
+{{ex:Masarap ang pagkain.|mah-sah-RAHP ahng pahg-KAH-een|The food is delicious.}}
+<h3>Numbers too</h3>
+<p>Numbers are joined to their noun the same way. You will learn them later; for now, notice the pattern.</p>
+{{ex:tatlong bahay|taht-LOHNG BAH-hai|three houses}}
+{{ex:apat na aso|AH-paht nah AH-soh|four dogs}}
+<div class="tip"><b>Most common mistake:</b> leaving the linker out, or adding <b>-ng</b> after a consonant. <b>maganda bahay</b> → <b>magandang bahay</b>. <b>mabaitng bata</b> → <b>mabait na bata</b>.</div>
+`,
+    check: [
+      ["Which linker joins mabait (kind) to bata (child)?",["-ng: mabaiting bata","-g: mabaitg bata","none: mabait bata","na: mabait na bata"],3,"mabait ends in a consonant, so the linker is na."],
+      ["Which phrase means the same as magandang bahay?",["bahay na maganda","bahay maganda","maganda bahay","bahayng maganda"],0,"Both orders are correct; the linker sits between the words: bahay na maganda."],
+      ["Why is it pagkaing masarap, with a g?",["pagkaing is the plural","pagkain ends in n, so the linker is just -g","masarap starts with m","It is a spelling mistake"],1,"After n, the linker is -g: pagkaing masarap."]
+    ],
+    practice: [
+      ["mc","a beautiful house =","magandang bahay","maganda bahay","magandang na bahay","maganda ng bahay","maganda ends in a vowel, so it takes -ng."],
+      ["mc","a kind child =","mabait na bata","mabaitng bata","mabait bata","mabaiting bata","mabait ends in t, a consonant, so the linker is na."],
+      ["mc","Which phrase also means a big dog?","asong malaki","aso malaki","asong na malaki","aso ng malaki","In the other order the linker goes on aso: asong malaki."],
+      ["mc","delicious food (describing word first) =","masarap na pagkain","masarap pagkain","masarapng pagkain","masarap ng pagkain","masarap ends in p, so the linker is na."],
+      ["mc","Ana is a kind teacher =","Mabait na guro si Ana.","Mabait guro si Ana.","Mabaitng guro si Ana.","Mabait na guro ang Ana.","Join mabait to guro with na, and put si before the name."],
+      ["or","a big dog (describing word first)","malaking aso","malaki","malaki ends in a vowel, so add the linker -ng: malaking aso."],
+      ["or","a kind teacher (describing word first)","mabait na guro","ng","After a consonant the linker is na: mabait na guro."],
+      ["or","Ana is a kind teacher (start with mabait)","Mabait na guro si Ana","ang","si goes before a person's name, and na links mabait to guro."],
+      ["fi","malaki__ aso","a big dog","ng","na|g|y","After a vowel the linker is -ng."],
+      ["fi","mabait __ bata","a kind child","na","ng|g|ang","After a consonant the linker is the word na."],
+      ["fi","pagkain__ masarap","delicious food","g","ng|na|y","After n the linker is just -g: pagkaing."],
+      ["ty","delicious food","masarap na pagkain|pagkaing masarap","masarap (delicious) · pagkain (food)","ng","masarap ends in a consonant, so the linker is na: masarap na pagkain."],
+      ["ty","a beautiful house","magandang bahay|bahay na maganda","maganda (beautiful) · bahay (house)","maganda","maganda ends in a vowel, so the linker -ng joins it to bahay: magandang bahay."],
+      ["ty","a small dog","maliit na aso|asong maliit","maliit (small) · aso (dog)","ng","maliit ends in a consonant, so the linker is na: maliit na aso."]
+    ]
+  },
+  {
+    id: "ng-pronouns",
+    title: "ng pronouns and possession: ko, mo, niya",
+    blurb: "Say my, your, his and her, and use ko and mo after gusto and alam: Gusto ko, Hindi ko alam.",
+    deck: "About me",
+    body: `
+<p>English has separate words for "I" and "my", "he" and "his". Tagalog also has a second set of pronouns, the ng pronouns. They do the job of "my, your, his, her, our, their", and a few more jobs you will use every day.</p>
+<div class="tbl"><table><tr><th>ang form</th><th>ng form</th><th>English</th></tr><tr><td class="k">ako</td><td class="k">ko</td><td>my</td></tr><tr><td class="k">ikaw / ka</td><td class="k">mo</td><td>your (one friend)</td></tr><tr><td class="k">siya</td><td class="k">niya</td><td>his, her</td></tr><tr><td class="k">kami</td><td class="k">namin</td><td>our (not yours)</td></tr><tr><td class="k">tayo</td><td class="k">natin</td><td>our (yours too)</td></tr><tr><td class="k">kayo</td><td class="k">ninyo / niyo</td><td>your (several, or polite)</td></tr><tr><td class="k">sila</td><td class="k">nila</td><td>their</td></tr></table></div>
+<h3>After the noun</h3>
+<p>English puts "my" before the noun. Tagalog puts <b>ko</b> after it, just as <b>ni Ana</b> comes after the thing: <b>bahay ko</b> (my house), <b>pangalan mo</b> (your name).</p>
+{{ex:Bahay namin ito.|BAH-hai NAH-meen ee-TOH|This is our house. (not yours)}}
+{{ex:Aso niya iyan.|AH-soh nyah ee-YAHN|That's his dog.}}
+{{ex:Kumusta ang nanay mo?|koo-moos-TAH ahng NAH-nai moh|How's your mom?}}
+<h3>Polite your</h3>
+<p>To an older person, use the polite plural: <b>ninyo</b>, often said <b>niyo</b>, with <b>po</b>. It matches the polite <b>kayo</b>.</p>
+{{ex:Ano po ang pangalan ninyo?|ah-NOH poh ahng pah-NGAH-lahn nee-NYOH|What's your name? (polite)}}
+<h3>After gusto, ayaw and alam</h3>
+<p>Here English speakers slip. English says "I want", "I know", with the same "I" as everywhere. Tagalog uses the ng form after <b>gusto</b> (want, like), <b>ayaw</b> (not want) and <b>alam</b> (know): word for word "wanted by me". So it is <b>Gusto ko</b>, never <b>Gusto ako</b>. The thing you want takes the ng marker: <b>Gusto ko ng kape</b>.</p>
+{{ex:Gusto ko ng kape.|goos-TOH koh nahng kah-PEH|I want coffee.}}
+{{ex:Gusto ko ito.|goos-TOH koh ee-TOH|I like this.}}
+<h3>hindi pulls it forward</h3>
+<p><b>hindi</b> means "not". When it starts the sentence, the short pronoun moves up to sit right after it: <b>Hindi ko alam</b> (I don't know), not <b>Hindi alam ko</b>. Little words like <b>ko</b> and <b>mo</b> always want to be near the front.</p>
+{{ex:Hindi ko alam.|heen-DEE koh ah-LAHM|I don't know.}}
+<div class="tip"><b>Most common mistake:</b> using the ang form after <b>gusto</b> or <b>alam</b>. <b>Gusto ako ng kape.</b> → <b>Gusto ko ng kape.</b> <b>Hindi ako alam.</b> → <b>Hindi ko alam.</b></div>
+`,
+    check: [
+      ["How do you say my name?",["ako pangalan","pangalan ako","pangalan ko","ko pangalan"],2,"The ng form ko goes after the noun: pangalan ko."],
+      ["Why is Gusto ako ng kape wrong?",["gusto takes the ng form: Gusto ko","kape needs ang","ako must come first","gusto is only for things you like, not want"],0,"After gusto, use the ng form ko: Gusto ko ng kape."],
+      ["Which means our house, talking about your own family to a friend?",["bahay natin","bahay nila","bahay ninyo","bahay namin"],3,"namin is our without the listener; natin includes them."]
+    ],
+    practice: [
+      ["mc","I want coffee =","Gusto ko ng kape.","Gusto ako ng kape.","Ako gusto ng kape.","Gusto akin ng kape.","gusto takes the ng form ko."],
+      ["mc","I don't know =","Hindi ko alam.","Hindi ako alam.","Hindi alam ko.","Ako hindi alam.","alam takes ko, and ko moves up right after hindi."],
+      ["mc","your name (to a friend) =","pangalan mo","pangalan ka","pangalan ikaw","mo pangalan","mo is your, and it comes after the noun."],
+      ["mc","our house (my family's, not my listener's) =","bahay namin","bahay natin","bahay kami","bahay nila","namin leaves the listener out."],
+      ["mc","What's your name? (polite)","Ano po ang pangalan ninyo?","Ano po ang pangalan mo?","Ano po ang pangalan kayo?","Ano ang pangalan ka po?","To an elder, use po and the polite ninyo."],
+      ["or","I like this (start with gusto)","Gusto ko ito","ako","gusto takes the ng form ko: Gusto ko ito."],
+      ["or","I don't know (start with hindi)","Hindi ko alam","ako","alam takes the ng form ko, right after hindi: Hindi ko alam."],
+      ["or","This is my house (start with ito)","Ito ang bahay ko","ako","my is the ng form ko, after the noun: bahay ko."],
+      ["fi","Gusto __ ng kape.","I want coffee.","ko","ako|akin|ka","gusto takes the ng form ko."],
+      ["fi","Ano ang pangalan __?","What's your name? (to a friend)","mo","ka|ikaw|kayo","your for one friend is mo."],
+      ["fi","Aso __ iyan.","That's his dog.","niya","siya|nila|ko","his is niya, the ng form of siya."],
+      ["ty","I want coffee","Gusto ko ng kape","gusto (want) · kape (coffee)","ako","gusto takes the ng form ko: Gusto ko ng kape."],
+      ["ty","my house","bahay ko|ang bahay ko","bahay (house) · my","ako","my is the ng form ko, after the noun: bahay ko."],
+      ["ty","I don't know","Hindi ko alam","hindi (not) · alam (know)","ako","alam takes the ng form ko: Hindi ko alam."]
+    ]
+  },
+  {
+    id: "questions",
+    title: "Questions: ba, sino, ano, saan, kailan",
+    blurb: "Ask yes-or-no questions with ba, and ask who, what, where, when, why, how, which and how much.",
+    deck: "Questions and little words",
+    body: `
+<p>English turns a sentence into a question by moving words around: "You are tired" becomes "Are you tired?" Tagalog keeps the order and adds a little word, <b>ba</b>, or starts with a question word.</p>
+<h3>Yes-or-no questions: ba</h3>
+<p><b>ba</b> is a question mark you can say. It never starts the sentence. It goes right after the first word, and after <b>ka</b> if <b>ka</b> is there too. Longer pronouns like <b>siya</b> and names with <b>si</b> come after <b>ba</b>. In relaxed speech people often drop <b>ba</b> and just raise their voice, but keep it while you learn.</p>
+{{ex:Pagod ka ba?|pah-GOHD kah bah|Are you tired? (to a friend)}}
+{{ex:Pagod ba siya?|pah-GOHD bah shah|Is she tired?}}
+{{ex:Guro ba si Ana?|GOO-roh bah see AH-nah|Is Ana a teacher?}}
+<h3>Question words</h3>
+<p>A question word comes first, and needs no <b>ba</b>. The rest of the sentence keeps its normal order, and the thing you ask about usually takes <b>ang</b>, as in <b>Alin ang bahay mo?</b> To an older person, add <b>po</b> right after the question word: <b>Kailan po?</b></p>
+<div class="tbl"><table><tr><th>English</th><th>Tagalog</th></tr><tr><td>who</td><td class="k">sino</td></tr><tr><td>what</td><td class="k">ano</td></tr><tr><td>where (something happens)</td><td class="k">saan</td></tr><tr><td>where is (a thing or person)</td><td class="k">nasaan</td></tr><tr><td>when</td><td class="k">kailan</td></tr><tr><td>why</td><td class="k">bakit</td></tr><tr><td>how</td><td class="k">paano</td></tr><tr><td>which</td><td class="k">alin</td></tr><tr><td>how many</td><td class="k">ilan</td></tr><tr><td>how much (price)</td><td class="k">magkano</td></tr></table></div>
+{{ex:Sino siya?|SEE-noh shah|Who is he?}}
+{{ex:Alin ang bahay mo?|ah-LEEN ahng BAH-hai moh|Which one is your house?}}
+<h3>Where: saan or nasaan</h3>
+<p>English has one "where". To ask where a thing or a person is right now, Tagalog uses <b>nasaan</b>, and the thing takes <b>ang</b>. <b>saan</b> asks where something happens or where someone is going, as in the everyday greeting <b>Saan ka pupunta?</b></p>
+{{ex:Nasaan ang bahay ni Juan?|nah-sah-AHN ahng BAH-hai nee hwahn|Where's Juan's house?}}
+{{ex:Saan ka pupunta?|sah-AHN kah poo-poon-TAH|Where are you going?}}
+<h3>What + noun: anong</h3>
+<p>"What name", "what time": join <b>ano</b> to the noun with the linker, <b>anong</b>, as in <b>Anong pangalan mo?</b> In the same way, <b>ilan</b> becomes <b>ilang</b> before a noun: <b>Ilang taon ka na?</b></p>
+<div class="tip"><b>Most common mistake:</b> starting with <b>ba</b>, or with the pronoun, as English does. <b>Ba pagod ka?</b> → <b>Pagod ka ba?</b> <b>Ikaw pagod ba?</b> → <b>Pagod ka ba?</b></div>
+`,
+    check: [
+      ["Where does ba go in a yes-or-no question?",["At the very start","At the very end, always","After the first word, and after ka if ka is there","Before the verb"],2,"ba goes right after the first word and after ka: Pagod ka ba?"],
+      ["Which word asks where something is right now, as in Where's the restroom?",["nasaan","saan","sino","kailan"],0,"nasaan asks where a thing or person is: Nasaan ang CR?"],
+      ["How do you ask Is she tired?",["Pagod siya ba?","Pagod ba siya?","Ba pagod siya?","Siya pagod ba?"],1,"siya comes after ba: Pagod ba siya?"]
+    ],
+    practice: [
+      ["mc","Are you tired? (to a friend)","Pagod ka ba?","Ba pagod ka?","Ikaw pagod ba?","Pagod ba ka?","ba comes after the first word and after ka."],
+      ["mc","Where's the restroom?","Nasaan ang CR?","Sino ang CR?","Ano ang CR?","Kailan ang CR?","nasaan asks where a thing is."],
+      ["mc","Is she tired?","Pagod ba siya?","Pagod siya ba?","Ba pagod siya?","Siya pagod ba?","Two-syllable pronouns like siya come after ba."],
+      ["mc","Who is that? (over there)","Sino iyon?","Ano iyon?","Saan iyon?","Ilan iyon?","sino asks who."],
+      ["mc","Why?","Bakit?","Paano?","Kailan?","Ilan?","bakit is why; paano is how; kailan is when."],
+      ["or","Is Ana a teacher? (start with guro)","Guro ba si Ana","ang","si goes before a person's name, after ba: Guro ba si Ana?"],
+      ["or","Where's Juan's house?","Nasaan ang bahay ni Juan","si","ni marks the owner when the owner is a name: bahay ni Juan."],
+      ["or","Are you tired? (to a friend)","Pagod ka ba","ikaw","ka goes after the first word, and ba right after ka."],
+      ["fi","Pagod ka __?","Are you tired?","ba","ang|si|ko","ba turns the sentence into a yes-or-no question."],
+      ["fi","__ ang CR?","Where's the restroom?","Nasaan","Sino|Ano|Kailan","nasaan asks where a thing is."],
+      ["fi","__ siya?","Who is she?","Sino","Ano|Saan|Ilan","sino asks who."],
+      ["ty","Is Ana a teacher? (start with guro)","Guro ba si Ana","guro (teacher) · ba · Ana","ang","si goes before a person's name, after ba: Guro ba si Ana?"],
+      ["ty","Where's Ana's dog?","Nasaan ang aso ni Ana","nasaan · aso (dog) · Ana","si","ni marks the owner when the owner is a name: aso ni Ana."],
+      ["ty","Which one is your house? (to a friend)","Alin ang bahay mo","alin (which) · bahay (house) · your","ka","your is the ng form mo, after the noun: bahay mo."]
+    ]
   }
 ];

@@ -429,7 +429,7 @@ module.exports = [
 {{ex:一百五|jat1 baak3 ng5|a hundred and fifty}}
 {{ex:十萬|sap6 maan6|a hundred thousand}}
 <h3>兩 or 二</h3>
-<p>English has one "two"; Cantonese has two. In counting, inside numbers like 二十 and 十二, and in phone numbers, it is <b>二</b>. Right before a classifier, the small word between a number and a noun (lesson 10), it is <b>兩</b> <i>loeng5</i>. <b>個</b> is the everyday classifier for people, so "two people" is 兩個人. Only a lone 2 right before the classifier becomes 兩: twenty-two people is <b>二十二個人</b> <i>ji6 sap6 ji6 go3 jan4</i>. Before 百 and 千, 兩 is the usual form too (兩百, 兩千), although 二百 and 二千 are also heard.</p>
+<p>English has one "two"; Cantonese has two. In counting, inside numbers like 二十 and 十二, and in phone numbers, it is <b>二</b>. Right before a classifier, the small word between a number and a noun (lesson 10), it is <b>兩</b> <i>loeng5</i>. <b>個</b> is the everyday classifier for people, so "two people" is 兩個人. Only a lone 2 right before the classifier becomes 兩: twenty-two people is <b>二十二個人</b> <i>ji6 sap6 ji6 go3 jan4</i>. Before 百 and 千 both are said: 兩百 or 二百, 兩千 or 二千.</p>
 {{ex:兩個人|loeng5 go3 jan4|two people}}
 {{ex:二十個人|ji6 sap6 go3 jan4|twenty people}}
 <h3>Phone numbers</h3>

@@ -128,8 +128,8 @@ module.exports = {
 九十九 | gau2 sap6 gau2 | ninety-nine | Nine tens + nine: 九十九.
 一百五 | jat1 baak3 ng5 | a hundred and fifty | Short for 一百五十. 105 is 一百零五.
 一百零五 | jat1 baak3 ling4 ng5 | a hundred and five | 零 (zero) marks the empty tens place.
-一千 | jat1 cin1 | one thousand | One thousand: 一千. Two thousand is usually 兩千.
-兩千 | loeng5 cin1 | two thousand | 兩千 is the usual way to say 2,000; 二 stays in 二十 and 十二.
+一千 | jat1 cin1 | one thousand | One thousand: 一千. Two thousand is 兩千 or 二千.
+兩千 | loeng5 cin1 | two thousand | 2,000 is 兩千 or 二千, both common; 二 always stays in 二十 and 十二.
 一萬 | jat1 maan6 | ten thousand | Cantonese counts in 萬 (10,000): 100,000 is 十萬.
 一百萬 | jat1 baak3 maan6 | one million | A hundred 萬: 100 × 10,000.
 零 | ling4 | zero | In phone numbers, say 零 for each 0.

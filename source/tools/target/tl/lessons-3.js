@@ -201,7 +201,7 @@ module.exports = [
     blurb: "Ask the way, follow left and right, and ride a jeepney, tricycle, taxi or Grab.",
     deck: "Getting around",
     body: `
-<p>Getting around Manila means jeepneys, tricycles, taxis and Grab, and asking people the way. Here is what you need to say and to understand.</p>
+<p>Getting around Manila means jeepneys, tricycles, taxis and Grab, and asking people the way. Here is what you need to say and to understand. Drivers, guards and vendors are usually happy to help, and a polite <b>po</b> at the right moment makes every answer friendlier.</p>
 <h3>Left, right, straight</h3>
 <p><b>kaliwa</b> is left, <b>kanan</b> is right, <b>diretso</b> is straight ahead, and <b>kanto</b> is the corner. To tell someone to turn, Tagalog makes a verb from the word with -um-: <b>kumaliwa</b> (turn left), <b>kumanan</b> (turn right). As in any command, the person takes the ang form: <b>ka</b> to a friend, <b>po kayo</b> to anyone who gets po.</p>
 {{ex:Kumanan ka sa kanto.|koo-MAH-nahn kah sah KAHN-toh|Turn right at the corner.}}
@@ -250,9 +250,9 @@ module.exports = [
     blurb: "Ask politely with paki- and Puwede po bang…, give simple commands, and say \"don't\" with huwag.",
     deck: "Health and help",
     body: `
-<p>English softens a request with "please" and "could you". Tagalog has a "please" that goes inside the verb, and the polite <b>po</b> does the rest.</p>
+<p>English softens a request with "please" and "could you". Tagalog has a "please" that goes inside the verb, and the polite <b>po</b> does the rest. These are the words you need when you ask for help, at home, in a shop or at the pharmacy.</p>
 <h3>Commands: verb + ka or kayo</h3>
-<p>An English command has no "you": "Eat!" A Tagalog command keeps the doer, in the ang form: <b>ka</b> to a friend, <b>kayo</b> to a group, and <b>po kayo</b> to anyone who gets po. A bare verb to an older person sounds rude.</p>
+<p>An English command has no "you": "Eat!" A Tagalog command keeps the doer, in the ang form: <b>ka</b> to a friend, <b>kayo</b> to a group, and <b>po kayo</b> to anyone who gets po. A bare verb to an older person sounds rude. To offer a seat to Lola, say <b>Umupo po kayo</b> (Please sit down).</p>
 {{ex:Kumain ka na.|koo-MAH-een kah nah|Eat now. (to a friend)}}
 {{ex:Kumain kayo.|koo-MAH-een kah-YOH|Eat, everyone.}}
 {{ex:Kumain po kayo.|koo-MAH-een poh kah-YOH|Please eat. (polite)}}
@@ -290,6 +290,158 @@ module.exports = [
       ["ty","Don't leave (to a friend)","Huwag kang umalis","huwag · ka · umalis","ka","huwag is linked to ka with -ng: Huwag kang umalis."],
       ["ty","Eat now (to a friend)","Kumain ka na","kumain · ka · na","mo","In a command the doer takes the ang form ka: Kumain ka na."],
       ["ty","Don't leave (polite)","Huwag po kayong umalis","huwag · po · kayo · umalis","kayo","kayo takes the linker after huwag po: Huwag po kayong umalis."]
+    ]
+  },
+  {
+    id: "particles",
+    title: "Little words: na, pa, rin / din, lang, naman",
+    blurb: "Use the little words for already, still, also, just and \"how about\", in the right place after the first word.",
+    deck: "Questions and little words",
+    body: `
+<p>English puts "already", "still", "too" and "just" almost anywhere in a sentence. Tagalog has short words (some books call them particles) for these ideas, and they always sit right after the first word of the sentence, never at the end.</p>
+<h3>na and pa: already and still</h3>
+<p><b>na</b> means "already" or "now". <b>pa</b> means "still", "yet" or "more". With <b>hindi</b> they make a pair that English speakers often swap: <b>Hindi na</b> is "not anymore", <b>Hindi pa</b> is "not yet".</p>
+{{ex:Kumain na ako.|koo-MAH-een nah ah-KOH|I've already eaten.}}
+{{ex:Hindi pa ako kumakain.|heen-DEE pah ah-KOH koo-mah-KAH-een|I haven't eaten yet.}}
+{{ex:Isa pa po.|ee-SAH pah pohq|One more, please.}}
+<h3>rin / din: also, too</h3>
+<p>"Too" is <b>rin</b> after a vowel and <b>din</b> after a consonant. You will hear speakers mix them, but that is the rule to aim for.</p>
+{{ex:Ako rin.|ah-KOH reen|Me too.}}
+{{ex:Pagod din ako.|pah-GOHD deen ah-KOH|I'm tired too.}}
+<h3>lang: just, only</h3>
+{{ex:Tubig lang po.|TOO-beeg lahng pohq|Just water, please.}}
+<h3>naman, muna, nga, daw</h3>
+<p><b>naman</b> softens an answer or turns the question around: <b>Ikaw naman?</b> (And you?). <b>muna</b> means "first, for now". <b>nga</b> adds emphasis or softens a request. <b>daw</b> (<b>raw</b> after a vowel) means "they say, I heard".</p>
+{{ex:Mabuti naman.|mah-BOO-tee nah-MAHN|I'm fine.}}
+{{ex:Kain muna tayo.|KAH-een MOO-nah TAH-yoh|Let's eat first.}}
+<h3>Their order</h3>
+<p>When several come together, the order is fixed: a one-syllable pronoun (<b>ka</b>, <b>ko</b>, <b>mo</b>) right after the first word, then <b>na</b> or <b>pa</b>, then <b>po</b>, then <b>ba</b>, and a two-syllable pronoun (<b>ako</b>, <b>siya</b>, <b>kayo</b>) last.</p>
+<div class="tbl"><table><tr><th>first word</th><th>ka / ko / mo</th><th>na / pa</th><th>po</th><th>ba</th><th>ako / kayo</th></tr><tr><td class="k">Kumain</td><td class="k">ka</td><td class="k">na</td><td></td><td class="k">ba</td><td></td></tr><tr><td class="k">Kumain</td><td></td><td class="k">na</td><td class="k">po</td><td class="k">ba</td><td class="k">kayo</td></tr><tr><td class="k">Hindi</td><td class="k">ko</td><td class="k">pa</td><td></td><td></td><td></td></tr></table></div>
+{{ex:Kumain ka na ba?|koo-MAH-een kah nah bah|Have you eaten yet? (to a friend)}}
+{{ex:Kumain na po ba kayo?|koo-MAH-een nah poh bah kah-YOH|Have you eaten yet? (polite)}}
+{{ex:Hindi ko pa alam.|heen-DEE koh pah ah-LAHM|I don't know yet.}}
+<p>If a verb follows the little words, the linker goes on the last one: <b>Gusto ko pang kumain</b> (I still want to eat).</p>
+<div class="tip"><b>Most common mistake:</b> swapping na and pa. <i>Hindi na ako kumakain</i> for "I haven't eaten yet" → <b>Hindi pa ako kumakain</b>. (Hindi na means you don't eat anymore.)</div>
+`,
+    check: [
+      ["\"not yet\" is…",["Hindi na","Hindi pa","Wala na","Huwag pa"],1,"pa is still or yet: Hindi pa is not yet."],
+      ["Where do the little words go?",["Right after the first word","At the end of the sentence","Before the first word","Anywhere at all"],0,"Little words sit right after the first word."],
+      ["Which order is right?",["Kumain na ba ka?","Kumain ba ka na?","Kumain na ka ba?","Kumain ka na ba?"],3,"One-syllable ka first, then na, then ba."]
+    ],
+    practice: [
+      ["mc","\"not yet\" =","Hindi pa","Hindi na","Wala na","Huwag pa","Hindi pa is not yet; Hindi na is not anymore."],
+      ["mc","\"Me too\" =","Ako rin","Ako lang","Ako na","Ako naman","rin means too: Ako rin."],
+      ["mc","\"Just water, please\" (polite) =","Tubig lang po","Tubig na po","Tubig pa po","Tubig rin po","lang means just or only."],
+      ["mc","\"Have you eaten yet?\" (to a friend) =","Kumain ka na ba?","Kumain na ba ka?","Kumain ba ka na?","Ba kumain ka na?","ka comes first, then na, then ba."],
+      ["mc","\"Let's eat first\" =","Kain muna tayo","Kain na tayo","Kain pa tayo","Kain lang tayo","muna means first, for now."],
+      ["or","Have you eaten yet? (to a friend)","Kumain ka na ba","mo","The doer of kumain takes the ang form ka, then na, then ba."],
+      ["or","I don't know yet","Hindi ko pa alam","ako","alam takes the ng form ko, and pa comes right after it."],
+      ["or","Have you eaten yet? (polite)","Kumain na po ba kayo","ka","na, then po, then ba, and the two-syllable kayo comes last."],
+      ["fi","Hindi __ ako kumakain.","I haven't eaten yet.","pa","na|lang|rin","Not yet is hindi pa; hindi na is not anymore."],
+      ["fi","Pagod __ ako.","I'm tired too.","din","na|pa|lang","pagod ends in a consonant, so \"too\" is din."],
+      ["fi","Tubig __ po.","Just water, please.","lang","na|pa|rin","lang means just or only."],
+      ["ty","I don't know yet","Hindi ko pa alam","hindi · ko · pa · alam","ako","alam takes the ng form ko, and pa follows it: Hindi ko pa alam."],
+      ["ty","I still want to eat","Gusto ko pang kumain","gusto · ko · pa · kumain","pa","pa is the last little word before the verb, so it takes the linker: pang kumain."],
+      ["ty","Me too","Ako rin","ako · too","lang","After a vowel, \"too\" is rin: Ako rin."]
+    ]
+  },
+  {
+    id: "compare",
+    title: "Comparing: mas … kaysa, pinaka-",
+    blurb: "Say that something is more, most or as … as something else: mas mura, pinakamura, kaysa.",
+    deck: "Describing people and things",
+    body: `
+<p>English adds -er and -est ("cheaper, cheapest") or uses "more" and "most". Tagalog never changes the describing word itself: it puts <b>mas</b> or <b>pinaka-</b> in front. There are no irregular forms like "better" or "best" to learn: <b>mas mabuti</b> is "better", and every other describing word works the same way.</p>
+<h3>More: mas + describing word</h3>
+<p><b>mas</b> means "more". The thing you are talking about is the topic, with <b>ang</b>, <b>si</b> or an ang pronoun such as <b>ito</b>.</p>
+{{ex:Mas mura ito.|mahs MOO-rah ee-TOH|This one is cheaper.}}
+<h3>Than: kaysa</h3>
+<p>"Than" is <b>kaysa</b>. After it, a thing takes <b>sa</b> and a person's name takes <b>kay</b>, the same split you know from places and people. Before a word like <b>diyan</b>, no marker is needed.</p>
+{{ex:Mas mura ang isda kaysa sa manok.|mahs MOO-rah ahng ees-DAH KAI-sah sah mah-NOHK|Fish is cheaper than chicken.}}
+{{ex:Mas matangkad si Juan kaysa kay Ana.|mahs mah-tahng-KAHD see hwahn KAI-sah kai AH-nah|Juan is taller than Ana.}}
+{{ex:Mas malaki ito kaysa diyan.|mahs mah-lah-KEE ee-TOH KAI-sah jahn|This one is bigger than that one.}}
+<p>The order is the usual Tagalog one: the describing word first, then the topic, then <b>kaysa</b> and the other thing.</p>
+<h3>Most: pinaka-</h3>
+<p><b>pinaka-</b> is joined to the describing word as one word: <b>pinakamura</b> (cheapest), <b>pinakamalapit</b> (nearest), <b>pinakamalaki</b> (biggest). To say "X is the cheapest", use <b>ang</b>: <b>Ito ang pinakamura</b>, "this is the cheapest one".</p>
+{{ex:Ito ang pinakamura.|ee-TOH ahng pee-nah-kah-MOO-rah|This is the cheapest one.}}
+<p>Before a noun, the pinaka- word takes the linker like any describing word: <b>pinakamalaking bahay</b>, <b>pinakamalapit na botika</b>.</p>
+{{ex:Ito ang pinakamalapit na botika.|ee-TOH ahng pee-nah-kah-mah-LAH-peet nah boh-TEE-kah|This is the nearest pharmacy.}}
+<h3>As … as: kasing-</h3>
+<p>For "as big as", Tagalog uses <b>kasing-</b> with the root: <b>kasinglaki</b> (as big as). For now, just recognize it when you hear it.</p>
+<div class="tbl"><table><tr><th>English</th><th>Tagalog</th></tr><tr><td>cheap</td><td class="k">mura</td></tr><tr><td>cheaper</td><td class="k">mas mura</td></tr><tr><td>cheapest</td><td class="k">pinakamura</td></tr><tr><td>than Ana</td><td class="k">kaysa kay Ana</td></tr><tr><td>than chicken</td><td class="k">kaysa sa manok</td></tr></table></div>
+<div class="tip"><b>Most common mistake:</b> putting si after kaysa. <i>Mas matangkad si Juan kaysa si Ana</i> → <b>Mas matangkad si Juan kaysa kay Ana</b>.</div>
+`,
+    check: [
+      ["\"cheaper\" is…",["pinakamura","mas mura","murang","mura na"],1,"mas means more: mas mura."],
+      ["After kaysa, a person's name takes…",["si","ni","kay","ang"],2,"kay is for people after kaysa: kaysa kay Ana."],
+      ["\"the cheapest\" is…",["pinakamura","mas mura","kasingmura","mura pa"],0,"pinaka- means most: pinakamura."]
+    ],
+    practice: [
+      ["mc","\"bigger\" =","mas malaki","pinakamalaki","malaking","malaki na","mas + describing word means more."],
+      ["mc","\"the biggest\" =","pinakamalaki","mas malaki","malaki pa","malaking","pinaka- + describing word means most."],
+      ["mc","\"than\" in a comparison =","kaysa","kasi","mas","pa","kaysa means than."],
+      ["mc","\"Ana is taller than Juan\" =","Mas matangkad si Ana kaysa kay Juan","Mas matangkad si Ana kaysa si Juan","Mas matangkad ang Ana kaysa kay Juan","Pinakamatangkad si Ana kaysa kay Juan","si for the topic, kay after kaysa, and mas for \"taller\"."],
+      ["mc","\"the most delicious\" =","pinakamasarap","mas masarap","masarap na","masarap pa","pinaka- joins the describing word: pinakamasarap."],
+      ["or","Juan is taller than Ana","Mas matangkad si Juan kaysa kay Ana","sa","kay is for people, so kaysa kay Ana; sa is for things."],
+      ["or","the biggest house","pinakamalaking bahay","pinakamalaki","The pinaka- word ends in a vowel, so the linker -ng joins it to bahay."],
+      ["or","This one is cheaper than that one (near you)","Mas mura ito kaysa diyan","kay","Describing word first, then the topic ito, then kaysa diyan."],
+      ["fi","Mas malaki ito __ diyan.","This one is bigger than that one.","kaysa","pinaka|mas|kasi","\"than\" is kaysa."],
+      ["fi","Si Ana ang __matangkad.","Ana is the tallest.","pinaka","mas|kasi|na","pinaka- joins the describing word for \"most\"."],
+      ["fi","Mas matangkad si Juan kaysa __ Ana.","Juan is taller than Ana.","kay","sa|si|ni","After kaysa, a name takes kay."],
+      ["ty","Ana is taller than Juan (use kaysa)","Mas matangkad si Ana kaysa kay Juan","matangkad · Ana · Juan","sa","si goes before the topic Ana; after kaysa, kay is for people: kaysa kay Juan."],
+      ["ty","the most delicious adobo","pinakamasarap na adobo|ang pinakamasarap na adobo|adobong pinakamasarap","pinakamasarap · adobo","ng","After a consonant the linker is na: pinakamasarap na adobo."],
+      ["ty","Juan is the tallest (use pinaka-)","Si Juan ang pinakamatangkad|Pinakamatangkad si Juan","Juan · pinakamatangkad","ni","si goes before the name, and ang before pinakamatangkad: Si Juan ang pinakamatangkad."]
+    ]
+  },
+  {
+    id: "taglish",
+    title: "Everyday Manila Tagalog and Taglish",
+    blurb: "Understand the English words and casual forms you hear every day in Manila, and know when to use them.",
+    deck: "Everyday Manila Taglish",
+    body: `
+<p>Walk through a Manila mall and you will hear sentences that are half Tagalog, half English. This is <b>Taglish</b>, and it is how many educated Filipinos talk every day. It is not broken Tagalog: the grammar is still Tagalog, with English words placed inside it.</p>
+<h3>English nouns, Tagalog grammar</h3>
+<p>Words for modern things are often simply English: <b>cellphone</b>, <b>aircon</b>, <b>mall</b>, <b>jeep</b>, and <b>CR</b> (comfort room, the everyday word for a restroom). They take the usual markers and pronouns.</p>
+{{ex:Nasaan ang CR?|nah-sah-AHN ahng see-AHR|Where's the restroom?}}
+<h3>English verbs with Tagalog affixes</h3>
+<p>Speakers also put Tagalog affixes on English verbs. You only need to recognize these; this course always asks you for the Tagalog verb.</p>
+<div class="tbl"><table><tr><th>Taglish</th><th>English</th></tr><tr><td class="k">Nag-shopping kami.</td><td>We went shopping.</td></tr><tr><td class="k">Magda-drive ako.</td><td>I'll drive.</td></tr><tr><td class="k">Paki-on ang aircon.</td><td>Please turn on the aircon.</td></tr></table></div>
+<h3>Casual short forms</h3>
+<p>In relaxed talk, words get shorter. <b>'yung</b> replaces <b>ang</b> before a noun, <b>'yan</b> is <b>iyan</b>, <b>'di</b> is <b>hindi</b>, and <b>ayoko</b> is <b>ayaw ko</b>.</p>
+{{ex:Nasaan 'yung CR?|nah-sah-AHN yoong see-AHR|Where's the restroom? (casual)}}
+{{ex:Ayokong umalis.|ah-YOH-kohng oo-mah-LEES|I don't want to leave.}}
+{{ex:Masarap, 'di ba?|mah-sah-RAHP dee bah|It's delicious, isn't it?}}
+<h3>Words you hear all day</h3>
+<p><b>Sige</b> (okay, go ahead), <b>Tara!</b> (let's go), <b>Ewan ko</b> (I don't know, casual), <b>Grabe!</b> (wow, that's a lot), <b>talaga</b> (really), and <b>'no</b> or <b>'di ba</b> at the end for "right?". Between adult friends, <b>Pare</b> (to a man) and <b>Mare</b> (to a woman) mean "buddy".</p>
+{{ex:Sige.|SEE-gheh|Okay.}}
+{{ex:Tara na!|tah-RAH nah|Let's go!}}
+{{ex:Ewan ko.|EH-wahn koh|I don't know. (casual)}}
+{{ex:Masarap talaga.|mah-sah-RAHP tah-lah-GAH|It's really delicious.}}
+<h3>When to switch</h3>
+<p>With friends and people your age, Taglish and the short forms sound natural. With Lola, a tita, your boss or a stranger, use the careful form with <b>po</b>: <b>Hindi ko po alam</b>, not <b>Ewan ko</b>.</p>
+{{ex:Hindi ko po alam.|heen-DEE koh poh ah-LAHM|I don't know. (polite)}}
+<div class="tip"><b>Most common mistake:</b> using casual forms with elders. <i>Ewan ko</i> to Lola → <b>Hindi ko po alam</b>.</div>
+`,
+    check: [
+      ["Is \"Nag-shopping kami\" bad Tagalog?",["Yes, it is a mistake","No, it is normal everyday Taglish","Only children say it","It is formal written Tagalog"],1,"Mixing English words into Tagalog grammar is normal in Manila."],
+      ["What would you say to your grandmother?",["Ewan ko.","'Di ko alam, Pare.","Hindi ko po alam.","Ayoko."],2,"With elders, use the careful form with po."],
+      ["\"Tara!\" means…",["Let's go!","Okay.","Wow!","I don't know."],0,"Tara! is a casual \"Let's go!\""]
+    ],
+    practice: [
+      ["mc","In Manila, \"Nag-shopping kami\" is…","normal everyday Taglish","a mistake","only said by children","formal Tagalog","Tagalog nag- on an English verb is normal everyday speech."],
+      ["mc","\"Tara!\" means…","Let's go!","Okay.","Wow!","I don't know.","Tara! is a casual \"Let's go!\""],
+      ["mc","Which would you say to your grandmother?","Hindi ko po alam.","Ewan ko.","'Di ko alam, Pare.","Ayoko.","With elders, use the careful form with po."],
+      ["mc","In \"Nasaan 'yung CR?\", 'yung takes the place of…","ang","ng","sa","si","'yung is the casual word for ang before a noun."],
+      ["mc","\"Paki-on ang aircon\" means…","Please turn on the aircon.","Please turn off the aircon.","Is the aircon on?","The aircon is broken.","paki- + the English word on: please turn it on."],
+      ["or","Where's the restroom? (casual)","Nasaan 'yung CR","ng","'yung replaces the ang marker in casual talk: Nasaan 'yung CR?"],
+      ["or","I don't want to leave (casual)","Ayokong umalis","ayoko","ayoko takes the linker -ng before the verb: Ayokong umalis."],
+      ["or","I don't know (casual)","Ewan ko","ako","Ewan ko is the casual \"I don't know\"; never Ewan ako."],
+      ["fi","__ ko alam.","I don't know. (casual)","'Di|Hindi","Wala|Huwag|Ayaw","'di is the casual hindi: 'Di ko alam."],
+      ["fi","__, tara na!","Okay, let's go!","Sige","Ewan|Grabe|Ayoko","Sige means okay, go ahead."],
+      ["fi","Masarap, __?","It's delicious, isn't it?","'di ba|'no|hindi ba","talaga|ewan|sige","'di ba or 'no at the end asks \"right?\"."],
+      ["ty","Where's the jeep? (casual)","Nasaan 'yung jeep|Nasaan ang jeep|Nasaan 'yung dyip|Nasaan ang dyip","nasaan · jeep","ng","'yung replaces the ang marker in casual talk: Nasaan 'yung jeep?"],
+      ["ty","I don't want to eat (casual)","Ayokong kumain|Ayaw kong kumain","ayoko · kumain","ayoko","ayoko takes the linker -ng before the verb: Ayokong kumain."],
+      ["ty","I don't know (casual)","'Di ko alam|Hindi ko alam|Ewan ko","hindi · ko · alam","ako","alam takes the ng form ko: 'Di ko alam."]
     ]
   }
 ];

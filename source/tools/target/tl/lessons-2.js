@@ -43,7 +43,7 @@ module.exports = [
       ["mc", "Which word means \"yes\" to an older person?", "opo", "oo", "po", "hindi po", "opo is the polite yes; oo is for friends, siblings and children."],
       ["mc", "Ate asks May tubig ba? (Is there water?). There is none. Best answer?", "Wala po.", "Hindi po.", "Huwag po.", "Hindi pa po.", "wala answers \"Is there any…?\" when there is none."],
       ["mc", "\"Don't eat!\" (to a friend) =", "Huwag kang kumain!", "Hindi ka kumain!", "Wala kang kumain!", "Hindi kumain!", "huwag means \"don't\"; hindi only means \"not\"."],
-      ["mc", "\"I'm not tired.\" =", "Hindi ako pagod.", "Wala akong pagod.", "Huwag akong pagod.", "Hindi ko pagod.", "hindi means not; it goes first and ako comes right after it."],
+      ["mc", "\"I'm not tired.\" =", "Hindi ako pagod.", "Hindi pagod ko.", "Huwag akong pagod.", "Hindi ko pagod.", "hindi means not; it goes first and ako comes right after it."],
       ["mc", "Kumain ka na ba? (Have you eaten?) You haven't eaten yet. Answer (to a friend):", "Hindi pa.", "Hindi na.", "Huwag pa.", "Oo pa.", "pa means yet, so Hindi pa is \"not yet\"; Hindi na means \"not anymore\"."],
       ["or", "I don't have any money", "Wala akong pera", "ako", "wala is linked to the pronoun with -ng: Wala akong pera."],
       ["or", "I don't know", "Hindi ko alam", "ako", "alam takes the ng form ko, even after hindi: Hindi ko alam."],
@@ -51,7 +51,7 @@ module.exports = [
       ["fi", "May kape ba? — __ po.", "Is there any coffee? — There's none. (polite)", "Wala", "Hindi|Huwag|Opo", "wala answers \"Is there any…?\" when there is none."],
       ["fi", "__ kang umalis.", "Don't leave. (to a friend)", "Huwag", "Hindi|Wala|Oo", "huwag is the word for \"don't\" in an instruction."],
       ["fi", "Kumain ka na ba? — Hindi __.", "Have you eaten? — Not yet.", "pa", "na|po|ba", "pa means yet: Hindi pa = not yet; Hindi na means not anymore."],
-      ["ty", "We don't have any coffee (we, not you)", "Wala kaming kape|Wala po kaming kape", "wala · kami · kape · kami = we, not you", "kami", "wala is linked to kami with -ng: Wala kaming kape."],
+      ["ty", "We don't have any coffee (we, not you)", "Wala kaming kape|Wala po kaming kape|Kami ay walang kape", "wala · kami · kape · kami = we, not you", "kami", "wala is linked to kami with -ng: Wala kaming kape."],
       ["ty", "I don't know (polite)", "Hindi ko po alam", "hindi · alam · po comes after ko", "ako", "alam takes the ng form ko, and po comes right after ko: Hindi ko po alam."],
       ["ty", "No, not yet (polite)", "Hindi pa po", "hindi · pa = yet", "na", "pa means yet: Hindi pa po is a polite \"not yet\"; Hindi na means not anymore."]
     ]
@@ -99,7 +99,7 @@ module.exports = [
       ["mc", "Which is the native Tagalog word for 20?", "dalawampu", "labindalawa", "dalawang sampu", "sampung dalawa", "The tens end in -pu: dalawampu; labindalawa is 12."],
       ["or", "three houses", "tatlong bahay", "tatlo", "tatlo ends in a vowel, so the linker is -ng: tatlong bahay."],
       ["or", "four dogs", "apat na aso", "ng", "After a consonant the linker is na: apat na aso."],
-      ["or", "How much is this? (polite)", "Magkano po ito", "ba", "po goes right after the first word: Magkano po ito?"],
+      ["or", "How much is this? (polite)", "Magkano po ito", "ka", "po goes right after the first word: Magkano po ito?"],
       ["fi", "__ bahay", "two houses", "dalawang", "dalawa|dalawampung|ikalawa", "dalawa ends in a vowel, so it becomes dalawang before the noun."],
       ["fi", "anim __ mangga", "six mangoes", "na", "ng|ang|sa", "anim ends in a consonant, so na goes between the number and the noun."],
       ["fi", "Magkano po ito? — __ pesos po.", "How much is this? — Fifty pesos.", "Singkwenta", "Lima|Limang|Tres", "singkwenta is the Spanish 50, the usual word for this price."],
@@ -154,8 +154,301 @@ module.exports = [
       ["fi", "Mayroon __ pera.", "We have money. (we, not you)", "kaming", "kami|namin|tayong", "kami (we, not you) takes -ng after mayroon: kaming."],
       ["fi", "May adobo ba? — __ po.", "Is there any adobo? — Yes, there is. (polite)", "Mayroon|Meron", "May|Hindi|Huwag", "Mayroon alone answers \"Yes, there is\"; may always needs a noun after it."],
       ["ty", "I have a brother or sister (use mayroon)", "Mayroon akong kapatid|Meron akong kapatid", "mayroon · ako · kapatid", "ako", "mayroon is linked to the pronoun with -ng: Mayroon akong kapatid."],
-      ["ty", "There's no coffee.", "Walang kape|Walang kape po", "wala · kape", "wala", "wala is linked to the noun with -ng: Walang kape."],
+      ["ty", "There's no coffee.", "Walang kape|Wala pong kape", "wala · kape", "wala", "wala is linked to the noun with -ng: Walang kape."],
       ["ty", "Is there any water? (polite)", "May tubig po ba|Mayroon po bang tubig|Meron po bang tubig", "may · tubig · po comes before ba", "ang", "po comes before ba: May tubig po ba?"]
+    ]
+  },
+  {
+    id: "family",
+    title: "Family and jobs",
+    blurb: "Talk about your family, use kuya, ate, tito and tita the Filipino way, and say what people do for work.",
+    deck: "Family and people",
+    body: `
+<p>Family is at the center of Filipino life, and family words are used far beyond the family. Learn the words first, then how Filipinos use them for everyone else.</p>
+<h3>The family</h3>
+<div class="tbl"><table><tr><th>Tagalog</th><th>English</th></tr><tr><td class="k">nanay, tatay</td><td>mom, dad (also inay, itay)</td></tr><tr><td class="k">magulang</td><td>parent</td></tr><tr><td class="k">kuya, ate</td><td>older brother, older sister</td></tr><tr><td class="k">kapatid</td><td>brother or sister</td></tr><tr><td class="k">bunso</td><td>the youngest child</td></tr><tr><td class="k">anak, asawa</td><td>son or daughter, husband or wife</td></tr><tr><td class="k">lolo, lola</td><td>grandfather, grandmother</td></tr><tr><td class="k">tito, tita, pinsan</td><td>uncle, aunt, cousin</td></tr></table></div>
+<p>"My" is the ng pronoun <b>ko</b>, after the noun: <b>nanay ko</b>, "my mom".</p>
+{{ex:Ito ang nanay ko.|ee-TOH ahng NAH-nai koh|This is my mom.}}
+{{ex:Ako ang bunso.|ah-KOH ahng boon-SOHQ|I'm the youngest.}}
+<h3>kapatid: brother or sister</h3>
+<p>English has two words; Tagalog has one, <b>kapatid</b>, with no sex. To be clear, add <b>lalaki</b> (male) or <b>babae</b> (female) with the linker <b>na</b>. Older siblings are often just <b>kuya</b> and <b>ate</b>.</p>
+{{ex:May dalawang kapatid ako.|mai dah-lah-WAHNG kah-pah-TEED ah-KOH|I have two brothers and sisters.}}
+{{ex:kapatid na lalaki|kah-pah-TEED nah lah-LAH-kee|brother}}
+{{ex:kapatid na babae|kah-pah-TEED nah bah-BAH-eh|sister}}
+<h3>Family words for everyone</h3>
+<p><b>kuya</b> and <b>ate</b> are about age, not only family. Call a young man a bit older than you <b>Kuya</b> (a driver, a guard) and a young woman <b>Ate</b> (a shop assistant). Your parents' friends are <b>Tito</b> and <b>Tita</b>, and an elderly stranger can be <b>Lolo</b> or <b>Lola</b>. Before a name: <b>Kuya Jun</b>, <b>Ate Liza</b>. These titles sound warm and respectful; calling an older person by a bare first name can sound rude, so when in doubt, add a title.</p>
+{{ex:Ate, magkano po ito?|AH-teh mahg-KAH-noh poh ee-TOH|Miss, how much is this?}}
+{{ex:Kumusta po kayo, Lola?|koo-moos-TAH poh kah-YOH LOH-lah|How are you, Lola?}}
+<h3>Jobs</h3>
+<p>To say what someone does, put the job first and the person after it: <b>Guro ako</b>, "I'm a teacher". There is no word for "a", and the job word stays the same for a man or a woman. Common jobs: <b>guro</b> (teacher), <b>nars</b> (nurse), <b>doktor</b>, <b>inhinyero</b> (engineer), <b>estudyante</b> (student). To ask an older person, say <b>Ano po ang trabaho ninyo?</b></p>
+{{ex:Guro ang nanay ko.|GOO-roh ahng NAH-nai koh|My mom is a teacher.}}
+{{ex:Estudyante ako.|ehs-too-JAHN-teh ah-KOH|I'm a student.}}
+{{ex:Ano ang trabaho mo?|ah-NOH ahng trah-BAH-hoh moh|What do you do for work? (to a friend)}}
+<div class="tip"><b>Most common mistake:</b> using "my" the English way, in front of the noun or with the ang form. <i>ako nanay</i> → <b>nanay ko</b>; <i>Guro ang nanay ako</i> → <b>Guro ang nanay ko</b>.</div>
+`,
+    check: [
+      ["How do you make clear that your kapatid is a brother?", ["kapatid na lalaki", "kapatid lalaki", "lalaki kapatid", "kuya kapatid"], 0, "kapatid has no sex; add lalaki with the linker na."],
+      ["Who can you call Tita?", ["Only your mother's sisters", "Your aunts, and also your parents' friends", "Any woman younger than you", "Only your grandmother"], 1, "tito and tita are used for parents' friends too, not only for real uncles and aunts."],
+      ["\"My dad is a doctor\" =", ["Doktor ako tatay.", "Doktor ang tatay ko.", "Doktor ang tatay ako.", "Ang doktor tatay ko."], 1, "The job comes first, then ang tatay ko, with the ng pronoun ko for \"my\"."]
+    ],
+    practice: [
+      ["mc", "Your kapatid is…", "a brother or a sister", "a cousin", "a parent", "a grandchild", "kapatid is a brother or a sister, with no word for the sex."],
+      ["mc", "The shop assistant is a young woman a bit older than you. You call her:", "Ate", "Kuya", "Lolo", "Anak", "ate is used for any young woman a bit older than you."],
+      ["mc", "\"my mom\" =", "nanay ko", "ko nanay", "nanay ako", "ako nanay", "The ng pronoun ko comes after the noun: nanay ko."],
+      ["mc", "\"What do you do for work?\" (to a friend) =", "Ano ang trabaho mo?", "Ano ang trabaho ka?", "Ano ka trabaho?", "Paano ang trabaho mo?", "ano asks \"what\", and \"your\" is mo after the noun."],
+      ["mc", "Ako ang bunso. means:", "I'm the youngest.", "I'm the oldest.", "I'm an only child.", "I'm the parent.", "bunso is the youngest child in the family."],
+      ["or", "a sister (use kapatid)", "kapatid na babae", "ng", "kapatid ends in a consonant, so the linker is na: kapatid na babae."],
+      ["or", "Juan's mom", "nanay ni Juan", "si", "ni marks the owner when the owner is a name: nanay ni Juan."],
+      ["or", "My mom is a teacher", "Guro ang nanay ko", "ako", "ko is the ng pronoun for \"my\" after the noun: ang nanay ko."],
+      ["fi", "Ito ang nanay __.", "This is my mom.", "ko", "ako|akin|mo", "\"my\" is ko, after the noun."],
+      ["fi", "kapatid __ lalaki", "a brother", "na", "ng|ang|si", "After a consonant the linker is na: kapatid na lalaki."],
+      ["fi", "__, magkano po ito?", "Miss, how much is this? (to a young woman a bit older than you)", "Ate", "Kuya|Lolo|Anak", "Call a young woman a bit older than you Ate, even if she is not family."],
+      ["ty", "my older brother", "kuya ko|ang kuya ko", "kuya · \"my\" comes after the noun", "ako", "ko is the ng pronoun for \"my\", after the noun: kuya ko."],
+      ["ty", "Ana's grandmother", "lola ni Ana|ang lola ni Ana", "lola · Ana", "si", "ni marks the owner when the owner is a name: lola ni Ana."],
+      ["ty", "What do you do for work? (polite)", "Ano po ang trabaho ninyo|Ano po ang trabaho niyo", "ano · trabaho · ninyo = your (polite)", "mo", "To an older person use po and the polite ninyo instead of mo."]
+    ]
+  },
+  {
+    id: "sa-pronouns",
+    title: "sa pronouns and place: sa akin, dito, nasaan",
+    blurb: "Say \"for me\" and \"to you\", say where people and things are, and ask where something is.",
+    deck: "Around town and directions",
+    body: `
+<p>You know two forms of every pronoun: the ang form (<b>ako</b>) and the ng form (<b>ko</b>). There is a third, the sa form, used after <b>sa</b> and <b>para sa</b> ("for"). English uses "me" for all of these jobs; Tagalog picks a different word.</p>
+<h3>The sa pronouns</h3>
+<div class="tbl"><table><tr><th>ang form</th><th>ng form</th><th>sa form</th><th>English</th></tr><tr><td class="k">ako</td><td class="k">ko</td><td class="k">sa akin</td><td>to me, for me</td></tr><tr><td class="k">ikaw, ka</td><td class="k">mo</td><td class="k">sa iyo</td><td>to you</td></tr><tr><td class="k">siya</td><td class="k">niya</td><td class="k">sa kaniya</td><td>to him, to her</td></tr><tr><td class="k">kami, tayo</td><td class="k">namin, natin</td><td class="k">sa amin, sa atin</td><td>to us</td></tr><tr><td class="k">kayo</td><td class="k">ninyo</td><td class="k">sa inyo</td><td>to you (polite or plural)</td></tr><tr><td class="k">sila</td><td class="k">nila</td><td class="k">sa kanila</td><td>to them</td></tr></table></div>
+<p><b>kaniya</b> is very often written <b>kanya</b>; both are fine. Without <b>sa</b>, the same words mean "mine", "yours" and so on: <b>Akin ito</b> is "This is mine".</p>
+{{ex:Para sa akin ito.|PAH-rah sah AH-keen ee-TOH|This is for me.}}
+{{ex:Para sa inyo po ito.|PAH-rah sah ee-NYOH poh ee-TOH|This is for you. (polite)}}
+<h3>People: kay and kina</h3>
+<p>With a person's name, <b>sa</b> becomes <b>kay</b>, and <b>kina</b> for two or more names. A title used as a name, such as <b>Lola</b> or <b>Kuya Jun</b>, counts as a name. <b>sa</b> stays for places and ordinary nouns.</p>
+{{ex:Para kay Lola ito.|PAH-rah kai LOH-lah ee-TOH|This is for Lola.}}
+<h3>Here and there</h3>
+<p>English has two words, "here" and "there". Tagalog has three, by distance, just like <b>ito</b>, <b>iyan</b> and <b>iyon</b>: <b>dito</b> (here, near me), <b>diyan</b> (there, near you), <b>doon</b> (over there, far from both of us). Filipinos often point with their lips while saying these words: a quick pout toward the place.</p>
+{{ex:Doon po.|doh-OHN pohq|Over there. (polite)}}
+<h3>Where something is: nasa and nasaan</h3>
+<p>To say where someone or something is right now, use <b>nasa</b> + the place. It already contains "is at", so nothing else is needed. With a name, the place comes first and <b>si</b> + the name after it. The question is <b>nasaan</b>, "where is…?". Use <b>saan</b> for where something happens, and <b>nasaan</b> for where something is.</p>
+{{ex:Nasaan ang CR?|nah-sah-AHN ahng see-AHR|Where's the restroom?}}
+{{ex:Nasa bahay si Ana.|NAH-sah BAH-hai see AH-nah|Ana is at home.}}
+{{ex:Nasaan po si Lola?|nah-sah-AHN poh see LOH-lah|Where's Lola? (polite)}}
+{{ex:Nasa palengke ako.|NAH-sah pah-LEHNG-keh ah-KOH|I'm at the market.}}
+<div class="tip"><b>Most common mistake:</b> using the ang form or plain sa where Tagalog needs the sa form or kay. <i>para ako</i> → <b>para sa akin</b>; <i>para sa Juan</i> → <b>para kay Juan</b>.</div>
+`,
+    check: [
+      ["Which means \"for her\"?", ["para siya", "para sa kaniya", "para niya", "para sa siya"], 1, "After para sa, use the sa form: kaniya (often written kanya)."],
+      ["How do you ask where Ana is right now?", ["Nasaan si Ana?", "Nasa si Ana?", "Kanino si Ana?", "Sino si Ana?"], 0, "nasaan asks where someone or something is; nasa is the answer word."],
+      ["\"This is for Juan.\" Which word goes before Juan?", ["sa", "si", "kay", "ni"], 2, "With a person's name, use kay: para kay Juan."]
+    ],
+    practice: [
+      ["mc", "\"for me\" =", "para sa akin", "para ako", "para sa ako", "para ko", "After para sa, use the sa form akin."],
+      ["mc", "\"Where's the restroom?\" =", "Nasaan ang CR?", "Nasa ang CR?", "Nasaan kay CR?", "Sino ang CR?", "nasaan asks where something is; CR is the everyday word for the restroom."],
+      ["mc", "\"This is for Lola.\" =", "Para kay Lola ito.", "Para si Lola ito.", "Para ni Lola ito.", "Para Lola ito.", "With a person's name, para sa becomes para kay."],
+      ["mc", "The thing is near the person you're talking to. \"There\" is:", "diyan", "dito", "doon", "nasaan", "diyan is \"there, near you\"; doon is far from both of you."],
+      ["mc", "\"Ana is at home.\" =", "Nasa bahay si Ana.", "Nasaan bahay si Ana.", "Nasa bahay ang Ana.", "Bahay si Ana nasa.", "nasa + place says where someone is, and a name takes si."],
+      ["or", "This is for you (to a friend; start with para)", "Para sa iyo ito", "ikaw", "After para sa use the sa form iyo, not the ang form ikaw."],
+      ["or", "for Juan", "para kay Juan", "sa", "kay is for people: para kay Juan; sa is for places and things."],
+      ["or", "Ana is at the market", "Nasa palengke si Ana", "ang", "si goes before a person's name: Nasa palengke si Ana."],
+      ["fi", "Para sa __ ito.", "This is for me.", "akin", "ako|ko|ikaw", "After para sa, \"me\" is akin."],
+      ["fi", "__ ang CR?", "Where's the restroom?", "Nasaan", "Nasa|Sino|Kanino", "nasaan asks where something is; nasa is used in the answer."],
+      ["fi", "Para __ Juan ito.", "This is for Juan.", "kay", "sa|si|ni", "With a person's name, use kay: para kay Juan."],
+      ["ty", "for us (including you)", "para sa atin", "para sa · tayo = we, including you", "tayo", "After para sa use the sa form: tayo becomes atin."],
+      ["ty", "Where's Lola? (polite)", "Nasaan po si Lola", "nasaan · Lola", "ang", "si goes before Lola, used as a name; po comes right after nasaan."],
+      ["ty", "This is for you (polite)", "Para sa inyo po ito|Para po sa inyo ito|Ito po ay para sa inyo", "para sa · inyo = you (polite)", "iyo", "To someone who gets po, use the polite inyo instead of iyo."]
+    ]
+  },
+  {
+    id: "word-order",
+    title: "Word order: predicate first, ay, and the little words",
+    blurb: "Build sentences in everyday Tagalog order: the new information first, then the little words in their fixed places.",
+    deck: "Questions and little words",
+    body: `
+<p>English almost always starts with the person or thing the sentence is about: "I am a teacher", "Ana is tired". Everyday Tagalog starts with the new information, the part that says something (the predicate), and puts the topic after it.</p>
+<h3>Predicate first</h3>
+<p>"I am a teacher" becomes "Teacher I": <b>Guro ako</b>. "Ana is tired" becomes <b>Pagod si Ana</b>. Notice there is no word for "am" or "is": Tagalog does not need one.</p>
+{{ex:Guro ako.|GOO-roh ah-KOH|I'm a teacher.}}
+{{ex:Guro si Ana.|GOO-roh see AH-nah|Ana is a teacher.}}
+{{ex:Maganda ang bahay mo.|mah-gahn-DAH ahng BAH-hai moh|Your house is beautiful.}}
+<h3>ay: topic first, more formal</h3>
+<p>You will also see the topic first, followed by <b>ay</b>: <b>Ako ay guro</b>. It means exactly the same. This order is common in writing, speeches and when you contrast two people, but in conversation it sounds stiff if you use it all the time. <b>ay</b> is not "is": it only marks that the topic came first. After a vowel it is often shortened: <b>Ako'y guro</b>.</p>
+{{ex:Ako ay guro.|ah-KOH ai GOO-rohq|I am a teacher. (more formal)}}
+<h3>The little words go second</h3>
+<p>Tagalog has short words that cannot stand at the start or at the end of a sentence where English would put them. They go right after the first word, in a fixed order:</p>
+<ul><li>first the one-syllable pronouns <b>ka</b>, <b>ko</b>, <b>mo</b></li><li>then <b>na</b> (already) or <b>pa</b> (still, yet)</li><li>then <b>po</b></li><li>then <b>ba</b></li><li>then the longer pronouns <b>ako</b>, <b>siya</b>, <b>kayo</b>, <b>sila</b></li></ul>
+{{ex:Pagod ka na ba?|pah-GOHD kah nah bah|Are you tired now? (to a friend)}}
+{{ex:Kumain na po kayo?|koo-MAH-een nah poh kah-YOH|Have you eaten? (polite)}}
+{{ex:Busog na po ako.|boo-SOHG nah poh ah-KOH|I'm full now. (polite)}}
+<h3>hindi pulls the pronoun forward</h3>
+<p>When a sentence starts with <b>hindi</b>, the pronoun moves up right after it: <b>Hindi ko alam</b>, <b>Hindi siya pagod</b>.</p>
+{{ex:Hindi siya pagod.|heen-DEE shah pah-GOHD|She's not tired.}}
+<div class="tip"><b>Most common mistake:</b> keeping the English order and putting the pronoun or <b>ba</b> where English puts it. <i>Kumain na ba ikaw?</i> → <b>Kumain ka na ba?</b>; <i>Hindi gusto ko</i> → <b>Hindi ko gusto</b>.</div>
+`,
+    check: [
+      ["\"Are you tired?\" (to a friend) =", ["Ikaw pagod ba?", "Pagod ka ba?", "Ba pagod ka?", "Pagod ba ka?"], 1, "The predicate pagod comes first, then ka, then ba."],
+      ["What does Ako ay guro. mean?", ["I am a teacher. (topic first, a bit formal)", "Me and a teacher.", "Is he a teacher?", "I want a teacher."], 0, "ay puts the topic first; it means the same as Guro ako."],
+      ["Kumain __ __ kayo? (Have you eaten? polite) Which words fill the gaps, in order?", ["po na", "na po", "ba po", "kayo po"], 1, "na comes before po, and the longer pronoun kayo comes last."]
+    ],
+    practice: [
+      ["mc", "\"I'm a teacher.\" in everyday Tagalog:", "Guro ako.", "Ako guro.", "Guro ay ako.", "Ay guro ako.", "The predicate comes first in everyday Tagalog: Guro ako."],
+      ["mc", "\"Are you tired?\" (to a friend) =", "Pagod ka ba?", "Ba pagod ka?", "Pagod ba ka?", "Ikaw pagod ba?", "ka comes right after the first word, and ba after ka."],
+      ["mc", "\"Have you eaten?\" (polite) =", "Kumain na po kayo?", "Kumain kayo na po?", "Kumain na kayo po?", "Po kumain na kayo?", "na, then po, then the longer pronoun kayo, all after the first word."],
+      ["mc", "Which is true about ay?", "It puts the topic first and sounds more formal.", "It means \"is\".", "It is needed in every sentence.", "It turns a sentence into a question.", "ay is not \"is\"; it shows that the topic came first."],
+      ["mc", "\"I don't know.\" =", "Hindi ko alam.", "Hindi alam ko.", "Alam hindi ko.", "Ko hindi alam.", "hindi comes first and pulls ko right after it."],
+      ["or", "Ana is a teacher", "Guro si Ana", "ang", "si goes before a person's name: Guro si Ana."],
+      ["or", "Your house is beautiful", "Maganda ang bahay mo", "ikaw", "mo is the ng pronoun for \"your\", after the noun: ang bahay mo."],
+      ["or", "Have you eaten yet? (to a friend)", "Kumain ka na ba", "ikaw", "ka comes right after the first word, then na, then ba."],
+      ["fi", "Pagod __ ba?", "Are you tired? (to a friend)", "ka", "ikaw|ko|mo", "ka is the short \"you\" that goes right after the first word."],
+      ["fi", "Kumain na __ kayo?", "Have you eaten? (polite)", "po", "ka|ko|mo", "po comes after na and before the longer pronoun kayo."],
+      ["fi", "Ako __ guro.", "I am a teacher. (more formal)", "ay", "ang|si|ng", "With the topic first, ay comes between the topic and the rest."],
+      ["ty", "She doesn't know", "Hindi niya alam", "hindi · alam · siya", "siya", "alam takes the ng form niya, pulled forward by hindi: Hindi niya alam."],
+      ["ty", "Juan is tired", "Pagod si Juan|Si Juan ay pagod", "pagod · Juan", "ang", "si goes before a person's name: Pagod si Juan."],
+      ["ty", "Are you full already? (polite)", "Busog na po ba kayo|Busog na po kayo", "busog · na = already · po · ba", "ka", "The little words keep their order: na, po, ba, then kayo."]
+    ]
+  },
+  {
+    id: "um",
+    title: "-um- verbs (actor focus): kumain, uminom, pumunta",
+    blurb: "Say what someone did with -um- verbs: who did it, what they did it to, and where they went.",
+    deck: "Feelings and free time",
+    body: `
+<p>English verbs mostly change at the end: "eat, ate". Tagalog verbs are built from a root word plus a piece added to it. The first kind you learn adds <b>-um-</b>, an infix: a piece put inside the word.</p>
+<h3>Making an -um- verb</h3>
+<p>Put <b>-um-</b> right before the first vowel of the root. If the root starts with a vowel, <b>um-</b> simply goes in front.</p>
+<div class="tbl"><table><tr><th>Root</th><th>-um- verb</th><th>English</th></tr><tr><td class="k">kain</td><td class="k">kumain</td><td>ate</td></tr><tr><td class="k">bili</td><td class="k">bumili</td><td>bought</td></tr><tr><td class="k">punta</td><td class="k">pumunta</td><td>went</td></tr><tr><td class="k">sayaw</td><td class="k">sumayaw</td><td>danced</td></tr><tr><td class="k">inom</td><td class="k">uminom</td><td>drank</td></tr></table></div>
+<p>In this lesson the verb means it already happened: <b>kumain</b> is "ate". The next lessons add "is eating" and "will eat".</p>
+<h3>The verb comes first</h3>
+<p>As with describing words, the verb opens the sentence, and the doer follows it.</p>
+{{ex:Sumayaw si Ana.|soo-mah-YOW see AH-nah|Ana danced.}}
+{{ex:Kumain na ako.|koo-MAH-een nah ah-KOH|I've already eaten.}}
+<h3>Who did it: actor focus</h3>
+<p>An <b>-um-</b> verb puts the spotlight on the doer. That is called actor focus: the doer is the topic, so it takes <b>ang</b>. A pronoun comes in the ang form (<b>ako</b>, <b>siya</b>, <b>kami</b>), and a name takes <b>si</b>. English speakers often reach for <b>ko</b> here, because it looks like "I" after a verb; with an <b>-um-</b> verb it is always <b>ako</b>.</p>
+{{ex:Uminom siya ng kape.|oo-mee-NOHM shah nahng kah-PEH|He drank coffee.}}
+<h3>What they ate or bought: ng</h3>
+<p>The thing (what was eaten, drunk or bought) is not the topic, so it takes <b>ng</b>. Only one noun per sentence gets <b>ang</b>, and here it is the doer.</p>
+{{ex:Kumain ako ng mangga.|koo-MAH-een ah-KOH nahng mahng-GAH|I ate a mango.}}
+{{ex:Bumili si Ana ng isda.|boo-mee-LEE see AH-nah nahng ees-DAHQ|Ana bought fish.}}
+<h3>Where they went: sa</h3>
+<p>A place takes <b>sa</b>, as always.</p>
+{{ex:Pumunta kami sa Makati.|poo-moon-TAH kah-MEE sah mah-KAH-tee|We went to Makati.}}
+<p>To say it did not happen, put <b>hindi</b> first; the pronoun moves up after it.</p>
+{{ex:Hindi ako kumain.|heen-DEE ah-KOH koo-MAH-een|I didn't eat.}}
+<div class="tip"><b>Most common mistake:</b> giving the doer the ng form, or giving the thing ang as well. <i>Kumain ko ng mangga</i> → <b>Kumain ako ng mangga</b>; <i>Kumain ako ang mangga</i> → <b>Kumain ako ng mangga</b>.</div>
+`,
+    check: [
+      ["Where does -um- go in kain?", ["Before the first vowel: kumain", "At the end: kainum", "At the start: umkain", "After the last vowel: kaium"], 0, "-um- goes right before the first vowel of the root."],
+      ["Why is it Kumain ako and not Kumain ko?", ["ko is only used in questions", "Both are correct", "With an -um- verb the doer takes the ang form", "ako shows that it happened in the past"], 2, "Actor focus: the doer is the topic, so it takes the ang form ako."],
+      ["In \"Juan drank water\", which word goes before tubig (water)?", ["ang", "ng", "sa", "si"], 1, "The doer already has the ang form; the thing takes ng."]
+    ],
+    practice: [
+      ["mc", "The -um- verb from the root bili (buy) is:", "bumili", "umbili", "bilium", "bilumi", "-um- goes right before the first vowel: b-um-ili."],
+      ["mc", "The -um- verb from the root inom (drink) is:", "uminom", "inumom", "inomum", "numinom", "When the root starts with a vowel, um- goes in front: uminom."],
+      ["mc", "\"I ate rice.\" =", "Kumain ako ng kanin.", "Kumain ko ng kanin.", "Kumain ako ang kanin.", "Kumain ko ang kanin.", "The doer of an -um- verb is ako, and the rice takes ng."],
+      ["mc", "\"Ana danced.\" =", "Sumayaw si Ana.", "Sumayaw ni Ana.", "Sumayaw ang Ana.", "Sumayaw kay Ana.", "The dancer is the topic, and a name takes si."],
+      ["mc", "\"We went to Makati.\" (we, not you) =", "Pumunta kami sa Makati.", "Pumunta kami kay Makati.", "Pumunta namin sa Makati.", "Pumunta tayo sa Makati.", "kami excludes the listener, and a place takes sa."],
+      ["or", "I drank water", "Uminom ako ng tubig", "ko", "Actor focus: the doer takes ang, so ako, not ko."],
+      ["or", "She bought fish", "Bumili siya ng isda", "ang", "The ng marker shows the thing: ng isda; siya already takes ang."],
+      ["or", "We went to the market (we, not you)", "Pumunta kami sa palengke", "kay", "The sa marker shows the place; kay is only for people."],
+      ["fi", "Kumain __ ng mangga.", "I ate a mango.", "ako", "ko|akin|ang", "With an -um- verb the doer is ako."],
+      ["fi", "Uminom siya __ kape.", "He drank coffee.", "ng", "ang|si|kay", "The thing drunk takes ng; siya is already the topic."],
+      ["fi", "__ si Juan.", "Juan danced.", "Sumayaw", "Umsayaw|Sayawum|Sayumaw", "-um- goes before the first vowel of sayaw: sumayaw."],
+      ["ty", "Ana bought fish", "Bumili si Ana ng isda|Bumili ng isda si Ana|Si Ana ay bumili ng isda", "bili · Ana · isda", "ni", "Actor focus: the doer takes ang, so si Ana, and the fish takes ng."],
+      ["ty", "I ate rice", "Kumain ako ng kanin|Ako ay kumain ng kanin", "kain · kanin = cooked rice", "ko", "Actor focus: the doer takes ang, so ako, and the rice takes ng."],
+      ["ty", "He didn't drink coffee", "Hindi siya uminom ng kape|Siya ay hindi uminom ng kape", "hindi · inom · kape", "niya", "hindi comes first and pulls siya up right after it."]
+    ]
+  },
+  {
+    id: "mag",
+    title: "mag- verbs (actor focus): magluto, maglaro, magtrabaho",
+    blurb: "Say what someone did with mag- verbs, spell the hyphen in nag-aral, and keep the doer in the ang form.",
+    deck: "Home and daily routine",
+    body: `
+<p>The second big family of Tagalog verbs adds <b>mag-</b> to the front of the root instead of putting <b>-um-</b> inside. Many everyday actions at home, at work and at school are <b>mag-</b> verbs: cooking, playing, working, studying and cleaning.</p>
+<h3>mag- for the action, nag- for "did it"</h3>
+<p>English adds -ed to show the action is finished: "cook, cooked". Tagalog changes the <b>m</b> of <b>mag-</b> to <b>n</b>: <b>magluto</b>, <b>nagluto</b>. Learn new verbs of this kind in pairs, the mag- form and the nag- form together.</p>
+<div class="tbl"><table><tr><th>Root</th><th>mag- verb</th><th>Completed</th><th>English</th></tr><tr><td class="k">luto</td><td class="k">magluto</td><td class="k">nagluto</td><td>cooked</td></tr><tr><td class="k">laro</td><td class="k">maglaro</td><td class="k">naglaro</td><td>played</td></tr><tr><td class="k">trabaho</td><td class="k">magtrabaho</td><td class="k">nagtrabaho</td><td>worked</td></tr><tr><td class="k">aral</td><td class="k">mag-aral</td><td class="k">nag-aral</td><td>studied</td></tr><tr><td class="k">linis</td><td class="k">maglinis</td><td class="k">naglinis</td><td>cleaned</td></tr></table></div>
+<h3>The hyphen before a vowel</h3>
+<p>When the root starts with a vowel, write a hyphen: <b>mag-aral</b>, <b>nag-aral</b>. The hyphen stands for the catch, the small break before <b>aral</b>. Without it, the letters would be read "ma-ga-ral". The hyphen is part of the spelling, so type it in your answers too: you will meet it every time <b>mag-</b> or <b>nag-</b> comes before a vowel.</p>
+{{ex:Nag-aral ako ng Tagalog.|nahg-AH-rahl ah-KOH nahng tah-GAH-lohg|I studied Tagalog.}}
+{{ex:Nag-aral siya.|nahg-AH-rahl shah|She studied.}}
+<h3>Actor focus again</h3>
+<p><b>mag-</b> verbs work exactly like <b>-um-</b> verbs: actor focus. The doer is the topic, so it takes <b>ang</b> (<b>ako</b>, <b>si Lola</b>, <b>ang mga bata</b>); the thing takes <b>ng</b>; a place takes <b>sa</b>.</p>
+{{ex:Nagluto ako ng adobo.|nahg-LOO-toh ah-KOH nahng ah-DOH-boh|I cooked adobo.}}
+{{ex:Nagluto si Lola ng adobo.|nahg-LOO-toh see LOH-lah nahng ah-DOH-boh|Lola cooked adobo.}}
+{{ex:Naglaro ang mga bata.|nahg-lah-ROH ahng mah-NGAH BAH-tahq|The children played.}}
+{{ex:Naglaro kami.|nahg-lah-ROH kah-MEE|We played.}}
+<p>Put <b>hindi</b> first to say it did not happen.</p>
+{{ex:Hindi ako nagluto.|heen-DEE ah-KOH nahg-LOO-tohq|I didn't cook.}}
+<h3>Learn each verb with its own piece</h3>
+<p>Each root has its usual piece: <b>kumain</b> (not <i>nagkain</i>), <b>nagluto</b> (not <i>lumuto</i>). A few roots take both pieces, sometimes with a small difference in meaning, so learn every verb whole, as this course teaches it.</p>
+<div class="tip"><b>Most common mistake:</b> dropping the hyphen or giving the doer the ng form. <i>nagaral</i> → <b>nag-aral</b>; <i>Nagluto ko ng adobo</i> → <b>Nagluto ako ng adobo</b>.</div>
+`,
+    check: [
+      ["How do you turn magluto into \"cooked\"?", ["Add -um-: lumuto", "Repeat a syllable: maglulu", "Add na after it: magluto na", "Change the m to n: nagluto"], 3, "nag- instead of mag- shows the action is finished."],
+      ["Why does nag-aral have a hyphen?", ["It marks the catch before aral", "It shows the action is finished", "Every mag- verb has one", "It is optional decoration"], 0, "The hyphen stands for the catch before a root that starts with a vowel."],
+      ["In Nagluto si Ana ng pancit (Ana cooked pancit), which noun is the topic?", ["pancit", "Ana", "neither", "both"], 1, "A mag- verb is actor focus: the doer, si Ana, is the topic."]
+    ],
+    practice: [
+      ["mc", "\"cooked\" (finished) from magluto:", "nagluto", "magluto", "mangluto", "nagluton", "Change the m of mag- to n to show it is finished: nagluto."],
+      ["mc", "How is \"studied\" spelled?", "nag-aral", "nagaral", "na-garal", "nagar-al", "Before a vowel the prefix takes a hyphen, which marks the catch: nag-aral."],
+      ["mc", "\"The children played.\" =", "Naglaro ang mga bata.", "Naglaro ng mga bata.", "Naglaro sa mga bata.", "Naglaro ni mga bata.", "The players are the topic of a mag- verb, so ang mga bata."],
+      ["mc", "\"Lola cooked adobo.\" =", "Nagluto si Lola ng adobo.", "Nagluto ni Lola ng adobo.", "Nagluto si Lola ang adobo.", "Nagluto ni Lola ang adobo.", "Lola is the doer and takes si; the adobo takes ng."],
+      ["mc", "In nagluto, which part shows that the cooking is finished?", "nag- (instead of mag-)", "the root luto", "the ng after the verb", "the letter o", "mag- becomes nag- when the action is finished."],
+      ["or", "I cooked adobo", "Nagluto ako ng adobo", "ko", "Actor focus: the doer takes ang, so ako, not ko."],
+      ["or", "We studied Tagalog (we, not you)", "Nag-aral kami ng Tagalog", "namin", "Actor focus: the doer takes ang, so kami, not the ng form namin."],
+      ["or", "She worked in Makati", "Nagtrabaho siya sa Makati", "kay", "The sa marker shows the place; kay is only for people."],
+      ["fi", "__ ako ng adobo.", "I cooked adobo.", "Nagluto", "Lumuto|Luto|Nagluton", "luto is a mag- verb; finished, it is nagluto."],
+      ["fi", "Nag-aral siya __ Tagalog.", "She studied Tagalog.", "ng", "ang|si|kay", "The thing studied takes ng; siya is already the topic."],
+      ["fi", "Naglaro __ mga bata.", "The children played.", "ang", "ng|sa|si", "The children are the doers, the topic of naglaro, so ang."],
+      ["ty", "Lola cooked sinigang", "Nagluto si Lola ng sinigang|Nagluto ng sinigang si Lola|Si Lola ay nagluto ng sinigang", "luto · Lola · sinigang", "ni", "Actor focus: the doer takes ang, so si Lola, and the sinigang takes ng."],
+      ["ty", "I studied Tagalog", "Nag-aral ako ng Tagalog|Ako ay nag-aral ng Tagalog", "aral · Tagalog · keep the hyphen", "ko", "Actor focus: the doer takes ang, so ako, not ko."],
+      ["ty", "We didn't play (we, not you)", "Hindi kami naglaro|Kami ay hindi naglaro", "hindi · laro · kami", "namin", "hindi comes first and pulls kami up right after it."]
+    ]
+  },
+  {
+    id: "aspect",
+    title: "Aspect: completed, ongoing, future",
+    blurb: "Say what you did, what you are doing and what you will do with -um- and mag- verbs.",
+    deck: "Work and school",
+    body: `
+<p>English verbs show time: past, present, future. Tagalog verbs show something slightly different, called aspect: has the action started, and is it finished? There are three forms, and every -um- and mag- verb has all three.</p>
+<ul><li><b>Completed</b>: started and finished (<i>ate</i>).</li><li><b>Ongoing</b>: started, not finished, or done regularly (<i>is eating</i>, <i>eats</i>).</li><li><b>Future</b>: not started yet (<i>will eat</i>). Grammar books call it "contemplated".</li></ul>
+<h3>Repeat the first syllable</h3>
+<p>The key move is repeating the first syllable of the root: <b>kain</b> gives <b>ka-kain</b>, <b>luto</b> gives <b>lu-luto</b>. If the root starts with a vowel, repeat just that vowel: <b>inom</b> gives <b>i-inom</b>, <b>aral</b> gives <b>a-aral</b>.</p>
+<div class="tbl"><table><tr><th>Root</th><th>Completed</th><th>Ongoing</th><th>Future</th></tr><tr><td class="k">kain</td><td class="k">kumain</td><td class="k">kumakain</td><td class="k">kakain</td></tr><tr><td class="k">bili</td><td class="k">bumili</td><td class="k">bumibili</td><td class="k">bibili</td></tr><tr><td class="k">inom</td><td class="k">uminom</td><td class="k">umiinom</td><td class="k">iinom</td></tr><tr><td class="k">luto</td><td class="k">nagluto</td><td class="k">nagluluto</td><td class="k">magluluto</td></tr><tr><td class="k">aral</td><td class="k">nag-aral</td><td class="k">nag-aaral</td><td class="k">mag-aaral</td></tr></table></div>
+<p>For <b>-um-</b> verbs: ongoing keeps <b>-um-</b> and repeats the syllable; future repeats the syllable and drops <b>-um-</b>. For <b>mag-</b> verbs: ongoing is <b>nag-</b> plus the repeat; future is <b>mag-</b> plus the repeat.</p>
+<h3>Time words must agree</h3>
+<p><b>kahapon</b> (yesterday) goes with the completed form, <b>ngayon</b> (now) with the ongoing form, <b>bukas</b> (tomorrow) with the future. If you mix up a form at first, the time word usually still makes your meaning clear, but listen for the repeated syllable.</p>
+{{ex:Kumain ako kahapon.|koo-MAH-een ah-KOH kah-HAH-pohn|I ate yesterday.}}
+{{ex:Kumakain ako ngayon.|koo-mah-KAH-een ah-KOH ngah-YOHN|I'm eating now.}}
+{{ex:Kakain ako bukas.|kah-KAH-een ah-KOH BOO-kahs|I'll eat tomorrow.}}
+{{ex:Magluluto ako bukas.|mahg-loo-LOO-toh ah-KOH BOO-kahs|I'll cook tomorrow.}}
+{{ex:Bibili ako ng isda.|bee-bee-LEE ah-KOH nahng ees-DAHQ|I'll buy fish.}}
+<h3>Ongoing for habits and jobs</h3>
+<p>English uses the simple present for habits: "I work at a hospital". Tagalog uses the ongoing form, because the action keeps going.</p>
+{{ex:Nagtatrabaho ako sa ospital.|nahg-tah-trah-BAH-hoh ah-KOH sah ohs-pee-TAHL|I work at a hospital.}}
+{{ex:Nag-aaral ako ng Tagalog.|nahg-ah-AH-rahl ah-KOH nahng tah-GAH-lohg|I'm studying Tagalog.}}
+<p>Aspect changes only the verb. The markers stay the same: the doer still takes <b>ang</b>, the thing <b>ng</b>, the place <b>sa</b>.</p>
+<div class="tip"><b>Most common mistake:</b> using the completed form for a future plan, as if it were a plain "base" form. <i>Kumain ako bukas</i> → <b>Kakain ako bukas</b>. And repeat only one syllable: <i>kumaain</i> → <b>kumakain</b>.</div>
+`,
+    check: [
+      ["How do you make the future of kain?", ["Repeat the first syllable: kakain", "Add -um-: kumain", "Add -um- and repeat: kumakain", "Repeat the whole root: kainkain"], 0, "The future repeats the first syllable and has no -um-: kakain."],
+      ["Which sentence is wrong?", ["Kumain ako kahapon.", "Kakain ako bukas.", "Kumain ako bukas.", "Kumakain ako ngayon."], 2, "bukas (tomorrow) needs the future form: Kakain ako bukas."],
+      ["What does Nagtatrabaho ako sa ospital. mean?", ["I worked at a hospital once.", "I work at a hospital.", "I will work at a hospital.", "I want to work at a hospital."], 1, "The ongoing form is used for a regular job or habit."]
+    ],
+    practice: [
+      ["mc", "Which form means \"will eat\"?", "kakain", "kumain", "kumakain", "kumaain", "The future repeats the first syllable and drops -um-: kakain."],
+      ["mc", "\"I'm cooking now.\" =", "Nagluluto ako ngayon.", "Nagluto ako ngayon.", "Nagluluto ko ngayon.", "Naglulu ako ngayon.", "Ongoing: nag- plus the repeated syllable, nagluluto, with ako as the doer."],
+      ["mc", "\"I ate yesterday.\" =", "Kumain ako kahapon.", "Kakain ako kahapon.", "Kumain ko kahapon.", "Kumaain ako kahapon.", "kahapon goes with the completed form kumain."],
+      ["mc", "The future form of bili (buy) is:", "bibili", "bumibili", "bumili", "bilibili", "Repeat the first syllable for the future: bibili; bumibili is ongoing."],
+      ["mc", "Which time word fits Magluluto ako ___?", "bukas", "kahapon", "kahapon ng umaga", "kahapon ng gabi", "magluluto is the future form, so it goes with bukas (tomorrow)."],
+      ["or", "I'm drinking coffee", "Umiinom ako ng kape", "ko", "Actor focus: the doer takes ang, so ako, in every aspect."],
+      ["or", "We'll buy fish (we, not you)", "Bibili kami ng isda", "namin", "Actor focus: the doer takes ang, so kami, not namin."],
+      ["or", "I work at a hospital", "Nagtatrabaho ako sa ospital", "kay", "The sa marker shows the place; kay is only for people."],
+      ["fi", "__ ako bukas.", "I'll eat tomorrow.", "Kakain", "Kumain|Kumakain|Kumaain", "bukas is in the future, so repeat the first syllable: kakain."],
+      ["fi", "Nagtatrabaho siya __ ospital.", "She works at a hospital.", "sa", "kay|ng|si", "A place takes sa, whatever the aspect of the verb."],
+      ["fi", "Kumain ako __.", "I ate yesterday.", "kahapon", "bukas|mamaya|bukas ng umaga", "kumain is completed, so it goes with kahapon (yesterday)."],
+      ["ty", "I'm cooking adobo", "Nagluluto ako ng adobo|Ako ay nagluluto ng adobo", "luto · adobo · repeat lu", "ko", "Actor focus: the doer takes ang, so ako, and the adobo takes ng."],
+      ["ty", "We'll eat rice (we, not you)", "Kakain kami ng kanin|Kami ay kakain ng kanin", "kain · kanin · kami", "namin", "Actor focus: the doer takes ang, so kami, not namin."],
+      ["ty", "I'll go to the market tomorrow", "Pupunta ako sa palengke bukas|Bukas pupunta ako sa palengke|Bukas ay pupunta ako sa palengke|Pupunta ako bukas sa palengke|Ako ay pupunta sa palengke bukas", "punta · palengke · bukas", "pumunta", "bukas is in the future, so repeat the first syllable: pupunta."]
     ]
   }
 ];

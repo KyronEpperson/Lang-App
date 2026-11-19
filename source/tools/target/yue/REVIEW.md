@@ -38,3 +38,39 @@ Scratch: scratchpad/yueR (words.js = distinct-word list, inline.js = quoted-Jyut
 - wrong teaching (1): 我嘅媽媽 "sounds heavy, as if you were making a point of it" → "not wrong, just less usual in everyday speech".
 - wording (1): hai2 heading "The one exception: 住喺" → "An exception" (坐喺, 放喺 also put the place after).
 - Checked fine: 兩蚊 / 二十蚊 / 廿五蚊, 五毫, 兩點, 三點兩個字 = 3:10, food classifiers (籠 lung4, 碟 dip6 after a number), 堂食定外賣, 唔該埋單.
+
+## Batch 4: lessons-3.js (routine … suggest, read in full)
+- modals (1): 應該 restored as recognition only (h3 + {{ex:你應該休息。|nei5 jing1 goi1 jau1 sik1.|You should rest.}}), pron from the tool.
+- wrong teaching (1): zo "adjectives take no 咗" → added that 攰咗 is a change ("have gotten tired"), matching the 咗-for-a-change section.
+- wrong teaching (1): suggest "a flat 唔去 sounds rude" → "on its own can sound blunt".
+- Checked fine: 未…過 vs 冇…過 (both accepted in ty), 搭 / 坐 both accepted, 前面有落, 不如 gloss, bare adjective implying comparison (佢高), 點 / 點解 positions, 去到, 喺對面.
+
+## Order items (all 81 read)
+Only m#6 had a second valid order (fixed above). Every other item either has one order or a "start with …" cue.
+
+## Final state
+- Per-file edits: decks-a.js 3 (1 wording, 2 teaching: 兩千 / 二千 notes) · decks-b.js 4 (1 language, 2 teaching, 1 wording) · extra-a.js 1 (language) · extra-b.js 1 (language) · lessons-1.js 5 (2 practice, 2 teaching, 1 wording) · lessons-2.js 7 (4 practice, 2 teaching, 1 wording) · lessons-3.js 3 (1 content restored, 2 teaching) · lexicon.txt 0 · respell.js 0.
+- No wrong Jyutping found: no lexicon change, repron 563 read / 0 rewritten.
+- repron, gen (27/27 lessons, 18 decks, 323 cards; also run with no path argument, HOLD route to the temp pack) and validate: PASS; HOLD kept; node --check passes on every JS file.
+
+## Ten things a native speaker should check first
+1. Readings with two dictionary forms: 中文 zung1 man4 / man2, 考試 haau2 si5 / si3, 爺爺 je4 je2 / je4 je4, 英文 jing1 man2: which should the course show?
+1b. 有冇第二隻色呀？ (replaced 第二隻顏色): is 隻 the natural classifier for colors in shops?
+2. 唔該 一 杯 奶茶 走冰 (food order item): natural on a milk tea not marked 凍, and is 走冰 before 奶茶 a second order?
+3. 阿明 aa3 ming4 in 叫我阿明得啦: is a changed tone (ming2) more usual when the name is used?
+4. 你係幾多歲呀 / 我係三十歲: the course teaches "no 係 with ages"; how wrong does 我係三十歲 really sound?
+5. 我幾好 / 我好好 as "I'm fine", and the claim that a bare 我好 is less usual.
+6. 有間銀行喺附近 vs 附近有間銀行: now "also heard, but place-first is usual".
+7. 未…過 ("so far") vs 冇…過 ("plain never"): is the nuance stated right?
+8. 你好 being stiff with friends, and 你好嗎 sounding translated (greetings lesson, Greetings deck).
+9. 呢架小巴去唔去旺角㗎？ and 前面有落！ as minibus phrases.
+10. 一百八十蚊 vs 百八蚊 and 兩千 vs 二千 in prices: neither form is used as a wrong option; should the shorter spoken forms also be taught?
+
+## Addendum (after a second pass)
+- Dictionary checks done (WebSearch → WebFetch): 中文 (jyutdictionary: man4 and man2), 腸粉 (Wiktionary coeng4-2 fan2), 嫲嫲 (gocantonese maa4 maa4), 考試 (jyutdictionary: si3 and si5; course keeps si5), 爺爺 (jyutdictionary: je4 je2, one source je4 je4), 麻麻 (gocantonese maa4 maa2), 拜拜 bye (Wiktionary baai3-1 baai3 = baai1 baai3), 兩 / 二 before 百 千 (CantoneseClass101: either). Own knowledge only: 拎 ning1, 位 wai2, 籠 lung4, 蛋撻 daan6 taat1, 時間 si4 gaan3, and the rest of the list.
+- pairs.js: every pair of adjacent single-character segments in the course listed with readings, to catch changed-tone words missing from the tool (錢 in 冇錢 / 有錢, 袋 doi2, 舖 pou3, 碟 after a number, 個女): none wrong.
+- 兩千 / 二千: decks-a 一千 and 兩千 notes and the numbers body now say both are said (was "usually 兩千").
+- Classifier distractors 三個書 (check) and 呢個書 (mc) → 三杯書, 呢杯書, so no wrong option is arguably acceptable.
+- 唔該快啲啦 appears only as a model sentence (fine). 我朋友 / 你老師 without 嘅: natural, kept. Phone numbers digit by digit with 二 and 零: fine.
+- Departure: m order item uses 係唔係 as one tile (profile §10.4 splits verb-not-verb) to remove the second order 佢係你老師唔係; the ty "Is he your friend?" keeps split tiles.
+- Not read: profile.json and profile §9 per-deck sample cards (lines 625–817); everything in tools/target/yue/ except respell.js's word list beyond what the course uses was read.

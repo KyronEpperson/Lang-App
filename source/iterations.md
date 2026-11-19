@@ -1053,3 +1053,9 @@ Start page: the "Set me up" button says "Start". Register Punjabi, Telugu and Ka
 
 ### 2.37.2 — results
 Both onboarding buttons use the existing translated key "Start". pa / te / kn added to LANGS (t:1) with the India flag; they appear as coming soon once their roadmaps are merged. Harness 80 guards. (I first overwrote the existing "Start" entries in tools/i18n/*/ui.json with a wrong shape and restored them from the last release.)
+
+## 2.38.0 — prompt
+Ship Cantonese for English speakers (en-yue) after the cold review: unhold, regenerate, validate, link roadmap, e2e.
+
+### 2.38.0 — results
+27 lessons, 18 decks, 323 cards, 378 practice items; validate PASS; roadmap 25 items linked; e2e OK on six lessons; matching test (characters, Jyutping with or without spaces, toneless = almost, wrong tone = wrong) passes. Reviewer made 24 edits, found no wrong Jyutping; REVIEW.md lists ten points for a native speaker. Not native-checked.
