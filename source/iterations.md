@@ -1095,3 +1095,9 @@ Letter cards show the sound on the front (lesson mini drill), and the new-card �
 
 ### 2.40.3 — results
 soundCard(d,c): for script-deck cards and one- or two-character non-Latin cards the romanisation and Listen button are on the back only (flashcards and Today's new cards), and auto-play waits for the flip. The 🔄 button now turns the whole card (rvturn animation) when it reveals the back. Could not reproduce a dead button: phone-emulated taps flipped 5 of 5 cards before and after. Taiwanese Hokkien registered as a planned language (hidden until its plan is merged). Harness 83 guards.
+
+## 2.41.0 — prompt
+A positive sound when an answer is right and a gentle, still pleasant sound when it is wrong. Merge the Taiwanese Hokkien lesson plan.
+
+### 2.41.0 — results
+chime(): right = rising E5 → B5 with a soft octave; wrong = soft falling G4 → E♭4 (sine, quiet). Hooked to every scored answer (13 award sites + lesson quick check + practice), debounced 250 ms. Sounds default on, turned on once for existing users (S.sfxV); Settings → Sound effects turns them off. Browser check: answering a Today quiz question starts oscillators 659 / 988 / 1319 Hz. Taiwanese Hokkien (nan): 27 planned lessons merged, shown as coming soon. Harness 83 guards.
