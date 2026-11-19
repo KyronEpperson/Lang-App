@@ -987,3 +987,9 @@ Ship Indonesian for English speakers (en-id) after merge and cold review, plus e
 
 ### 2.29.0 — results
 en-id: 27 lessons, 18 decks / 321 cards, 378 practice items. Cold review: 35 edits ("no word for a" claim, unsafe distractor panas sangat, two dialogue replies, repeated practice sentences, five order items with a second valid order). Engine: viSetTone / viCanon / accMissingOnly (unit tested), hyphen-as-space almost, NFC in deck typing. tools/target/repron.js now uses each course's pronPattern. validate PASS, e2e OK. Not checked by a native speaker (tools/target/id/REVIEW.md).
+
+## 2.30.0 — prompt
+Ship Vietnamese for English speakers (en-vi) after merge and cold review. Verify: validate, e2e on all 28 lessons, tone keys on screen, harness, site test.
+
+### 2.30.0 — results
+en-vi: 28 lessons, 18 decks / 319 cards, 392 practice items. Cold review: 34 edits; no mis-toned word found, but only seven words could be checked against a dictionary (the fetch allowlist blocked the rest), so the tone marks rest mostly on the models' knowledge. validate PASS, e2e OK on 28 lessons, tone key test OK. Not checked by a native speaker (tools/target/vi/REVIEW.md).

@@ -162,16 +162,16 @@ LANGAPP_PACKS.roadmaps = {
     src: ["ULIS (Vietnam National University, Hanoi): Vietnamese Program A1-C2"], note: "",
     stages: [
       { en: "Sounds and tones", ko: "소리와 성조", items: [
-        ["vi-alphabet", "Alphabet and letter sounds", "알파벳과 글자 소리"], ["vi-tones", "The six tones", "6성조"], ["vi-syllables", "Syllables: initials, vowels, finals", "음절: 초성, 모음, 종성"], ["vi-vowels", "Long, short and double vowels", "장모음, 단모음, 이중모음"] ] },
+        ["vi-alphabet", "Alphabet and letter sounds", "알파벳과 글자 소리", "alphabet"], ["vi-tones", "The six tones", "6성조", "tones"], ["vi-syllables", "Syllables: initials, vowels, finals", "음절: 초성, 모음, 종성", "syllables"], ["vi-vowels", "Long, short and double vowels", "장모음, 단모음, 이중모음", "vowels"] ] },
       { en: "A1 · First sentences", ko: "A1 · 첫 문장", items: [
-        ["vi-pronouns", "Greetings and kinship pronouns: anh, chị, em", "인사와 호칭 대명사: anh, chị, em"], ["vi-la", "là: A is B", "là: A는 B예요"], ["vi-yes-no", "Yes/no questions: … phải không?", "예/아니오 의문문: … phải không?"],
-        ["vi-jobs", "Jobs and nationality", "직업과 국적"], ["vi-this-that", "này, kia, đây, đó: this and that", "này, kia, đây, đó"], ["vi-adjectives", "Adjective sentences: rất, quá", "형용사 문장: rất, quá"], ["vi-who-what", "ai, gì: who and what", "ai, gì: 누구, 무엇"] ] },
+        ["vi-pronouns", "Greetings and kinship pronouns: anh, chị, em", "인사와 호칭 대명사: anh, chị, em", "pronouns"], ["vi-la", "là: A is B", "là: A는 B예요", "la"], ["vi-yes-no", "Yes/no questions: … phải không?", "예/아니오 의문문: … phải không?", "yes-no"],
+        ["vi-jobs", "Jobs and nationality", "직업과 국적", "jobs"], ["vi-this-that", "này, kia, đây, đó: this and that", "này, kia, đây, đó", "this-that"], ["vi-adjectives", "Adjective sentences: rất, quá", "형용사 문장: rất, quá", "adjectives"], ["vi-who-what", "ai, gì: who and what", "ai, gì: 누구, 무엇", "who-what"] ] },
       { en: "A1 · Numbers and actions", ko: "A1 · 숫자와 행동", items: [
-        ["vi-numbers", "Numbers 1-100: mấy, bao nhiêu", "숫자 1-100: mấy, bao nhiêu"], ["vi-co", "có: have and there is", "có: 있어요"], ["vi-cua", "của: possession", "của: 소유"], ["vi-compare", "hơn: comparing", "hơn: 비교"],
-        ["vi-verbs", "Verb sentences and time words: đã, đang, sẽ", "동사 문장과 시제어: đã, đang, sẽ"], ["vi-location", "ở, trên, dưới: location", "ở, trên, dưới: 위치"] ] },
+        ["vi-numbers", "Numbers 1-100: mấy, bao nhiêu", "숫자 1-100: mấy, bao nhiêu", "numbers"], ["vi-co", "có: have and there is", "có: 있어요", "co"], ["vi-cua", "của: possession", "của: 소유", "cua"], ["vi-compare", "hơn: comparing", "hơn: 비교", "compare"],
+        ["vi-verbs", "Verb sentences and time words: đã, đang, sẽ", "동사 문장과 시제어: đã, đang, sẽ", "verbs"], ["vi-location", "ở, trên, dưới: location", "ở, trên, dưới: 위치", "location"] ] },
       { en: "A2 · Getting things done", ko: "A2 · 생활 표현", items: [
-        ["vi-biet", "biết: know how to", "biết: 할 줄 알아요"], ["vi-chua", "đã … chưa: yet?", "đã … chưa: 벌써?"], ["vi-motion", "đi, đến, về: going", "đi, đến, về: 이동"], ["vi-prices", "Prices and shopping", "가격과 쇼핑"],
-        ["vi-directions", "Directions and transport", "길 찾기와 교통"], ["vi-time", "Time, days and dates", "시간, 요일, 날짜"], ["vi-because", "vì … nên: because, so", "vì … nên: 이유와 결과"], ["vi-requests", "Polite requests: xin, mời, nhé", "공손한 부탁: xin, mời, nhé"] ] } ] },
+        ["vi-biet", "biết: know how to", "biết: 할 줄 알아요", "biet"], ["vi-chua", "đã … chưa: yet?", "đã … chưa: 벌써?", "chua"], ["vi-motion", "đi, đến, về: going", "đi, đến, về: 이동", "motion"], ["vi-prices", "Prices and shopping", "가격과 쇼핑", "prices"],
+        ["vi-directions", "Directions and transport", "길 찾기와 교통", "directions"], ["vi-time", "Time, days and dates", "시간, 요일, 날짜", "time"], ["vi-because", "vì … nên: because, so", "vì … nên: 이유와 결과", "because"], ["vi-requests", "Polite requests: xin, mời, nhé", "공손한 부탁: xin, mời, nhé", "requests"] ] } ] },
 
   th: { variant: {en: "Central (Bangkok) Thai", ko: "중부 (방콕) 태국어"}, basis: {en: "University beginner Thai syllabus: speaking first, then reading", ko: "대학 초급 태국어 과정: 말하기 먼저, 그다음 읽기"},
     src: ["University of Minnesota / ISDSI: Beginning Thai 1 syllabus"], note: "The syllabus gives the literacy order and the topics; the grammar items are common beginner practice, not from the syllabus.",
