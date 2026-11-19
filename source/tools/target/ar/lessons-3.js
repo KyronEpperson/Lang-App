@@ -65,7 +65,7 @@ module.exports = [
 <p>For a group of women, drop the taa marbuta and add <i>-āt</i>: مُدَرِّسَة becomes مُدَرِّسَات <i>mudarrisāt</i>. Many things that end in ة do the same: سَيَّارَة <i>sayyāra</i> "car" becomes سَيَّارَات <i>sayyārāt</i> "cars".</p>
 {{ex:الْمُدَرِّسَات فِي الْمَكْتَب|al-mudarrisāt fī al-maktab|The teachers (women) are in the office.}}
 <h3>Broken plurals: the inside changes</h3>
-<p>Most everyday nouns change shape inside, the way English says man and men, or mouse and mice. This is the broken plural. The consonants stay in place and the vowels around them move. English has only a handful of these; Arabic has hundreds, and they include many of the most common words. You can't predict the new shape yet, so learn it with the word.</p>
+<p>Many everyday nouns change shape inside, the way English says man and men, or mouse and mice. This is the broken plural. The root consonants keep their order, and the vowels around them change. English has only a handful of these; Arabic has hundreds, and they include many of the most common words. You can't predict the new shape yet, so learn it with the word.</p>
 <div class="tbl"><table><tr><th>One</th><th>More than one</th><th>English</th></tr><tr><td class="k">كِتَاب</td><td class="k">كُتُب</td><td>book</td></tr><tr><td class="k">بَيْت</td><td class="k">بُيُوت</td><td>house</td></tr><tr><td class="k">وَلَد</td><td class="k">أَوْلَاد</td><td>boy</td></tr><tr><td class="k">طَالِب</td><td class="k">طُلَّاب</td><td>student</td></tr><tr><td class="k">مَطْعَم</td><td class="k">مَطَاعِم</td><td>restaurant</td></tr><tr><td class="k">فِنْجَان</td><td class="k">فَنَاجِين</td><td>cup</td></tr></table></div>
 {{ex:الطُّلَّاب فِي الْمَطْعَم|aṭ-ṭullāb fī al-maṭʿam|The students are in the restaurant.}}
 <h3>A plural of things is "she"</h3>
@@ -264,7 +264,7 @@ module.exports = [
 {{ex:لَيْسَ عِنْدِي وَقْت|laysa ʿindī waqt|I don't have time.}}
 <h3>What لَيْسَ does to the word after it</h3>
 <p>After لَيْسَ, a masculine noun or adjective takes the extra -an ending, written with the doubled mark and an extra ا: أَنَا لَسْتُ طَالِبًا <i>anā lastu ṭāliban</i> "I'm not a student" (a man speaking). لَسْتُ is the "I" form of لَيْسَ. Just recognize this for now, as in the example below. With places, with عِنْدَ, and with feminine words ending in ة, nothing changes, so those are the ones to use yourself.</p>
-{{ex:لَا أَتَكَلَّم الْعَرَبِيَّة جَيِّدًا|lā atakallam al-ʿarabiyya jayyidan|I don't speak Arabic well.}}
+{{ex:أَنَا لَسْتُ طَالِبًا|anā lastu ṭāliban|I'm not a student. (a man speaking)}}
 <h3>A word you'll hear but not write</h3>
 <p>In Egypt and the Levant people often say مِش <i>mish</i> for "not" in everyday speech. In the Arabic of this course, use لَا with verbs and لَيْسَ without them.</p>
 <div class="tip"><b>Most common mistake:</b> putting لَا in front of a noun or adjective, as if it were English "not". <b>أَنَا لَا طَالِب</b> → <b>أَنَا لَسْتُ طَالِبًا</b>.</div>
@@ -306,7 +306,7 @@ module.exports = [
 <h3>Today is "the day"</h3>
 <p>الْيَوْم <i>al-yawm</i> is literally "the day", and it means "today". Without the article, يَوْم <i>yawm</i> is just "day", as in كُلّ يَوْم <i>kull yawm</i> "every day". Careful: كُلّ الْيَوْم with the article means "all day".</p>
 <h3>Words with -an</h3>
-<p>Many time words end in -an, the doubled mark with its extra ا: غَدًا <i>ghadan</i>, دَائِمًا <i>dāʾiman</i>, صَبَاحًا <i>ṣabāḥan</i>. "In the evening" is different: say فِي الْمَسَاء <i>fī al-masāʾ</i>, with "in" and the article, because مَسَاء ends in a hamza and has no extra ا for the ending.</p>
+<p>Many time words end in -an, the doubled mark with its extra ا: غَدًا <i>ghadan</i>, دَائِمًا <i>dāʾiman</i>, صَبَاحًا <i>ṣabāḥan</i>. "In the evening" is usually said another way: فِي الْمَسَاء <i>fī al-masāʾ</i>, with "in" and the article.</p>
 {{ex:أَشْرَب الْقَهْوَة صَبَاحًا|ashrab al-qahwa ṣabāḥan|I drink coffee in the morning.}}
 {{ex:نَدْرُس فِي الْمَسَاء|nadrus fī al-masāʾ|We study in the evening.}}
 <h3>The days of the week</h3>
@@ -422,7 +422,7 @@ module.exports = [
 `,
     check: [
       ["How do you say \"excuse me\" to a woman?", ["لَوْ سَمَحْتَ", "لَوْ سَمَحْتِ", "مَعَ السَّلَامَة", "لَا أَفْهَم"], 1, "To a woman the last vowel is i: لَوْ سَمَحْتِ."],
-      ["Which means \"the train station\"?", ["الْمَحَطَّة الْقِطَار", "الْقِطَار مَحَطَّة", "مَحَطَّةْ الْقِطَار", "مَحَطَّة قِطَار"], 2, "Iḍāfa: no article on the first word, the article on the second."],
+      ["Which means \"the train station\"?", ["الْمَحَطَّة الْقِطَار", "الْقِطَار مَحَطَّة", "مَحَطَّةْ الْقِطَار", "مَحَطَّةْ قِطَار"], 2, "Iḍāfa: no article on the first word, the article on the second."],
       ["Which means \"on the right\"?", ["عَلَى الْيَمِين", "عَلَى الْيَسَار", "عَلَى طُول", "هُنَاكَ"], 0, "الْيَمِين is the right; الْيَسَار is the left."]
     ],
     practice: [

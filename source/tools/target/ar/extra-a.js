@@ -20,7 +20,7 @@ exports.DIALOG = `
 مَعَ السَّلَامَة | مَعَ السَّلَامَة يَا خَالِد. | مَعَ السَّلَامَة، إِلَى اللِّقَاء. | Bye, Khalid. / Bye, see you later.
 مَا اِسْمُكَ؟ | مَا اِسْمُكَ؟ | اِسْمِي يُوسُف. وَأَنْتِ؟ | What's your name? / My name is Yusuf. And you?
 مِن أَيْنَ أَنْتِ؟ | مِن أَيْنَ أَنْتِ يَا إِمِيلِي؟ | أَنَا مِن شِيكَاغُو، وَلٰكِن أَسْكُن فِي تِكْسَاس. | Where are you from, Emily? / I'm from Chicago, but I live in Texas.
-أَيْنَ تَسْكُن؟ | أَيْنَ تَسْكُن يَا كَرِيم؟ | أَسْكُن فِي نْيُويُورْك. | Where do you live, Karim? / I live in New York.
+أَيْنَ تَسْكُن؟ | أَيْنَ تَسْكُن يَا كَرِيم؟ | أَسْكُن فِي نِيُويُورْك. | Where do you live, Karim? / I live in New York.
 مَاذَا تَعْمَل؟ | مَاذَا تَعْمَل؟ | أَنَا مُهَنْدِس، أَعْمَل فِي شَرِكَة. | What do you do? / I'm an engineer; I work for a company.
 كَم عُمْرُكَ؟ | كَم عُمْرُكَ؟ | عُمْرِي خَمْسَة وَعِشْرُون. | How old are you? / I'm twenty-five.
 أُمِّي | مَن هٰذِهِ؟ | هٰذِهِ أُمِّي. | Who's this? / This is my mom.

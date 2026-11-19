@@ -35,7 +35,7 @@ module.exports = {
 почта | POHCH-tah | post office | Feminine. "At the post office" is на почте.
 на почте | nah POHCH-tih | at the post office | на, not в: на почте, на работе, на улице.
 парк | pahrk | park | в парке: "in the park".
-гостиница | gahs-TEE-nee-tsah | hotel | Also отель, a newer word.
+гостиница | gahs-TEE-nee-tsah | hotel | Also отель, common in hotel names.
 на улице | nah OO-lee-tsih | outside; on the street | Also "outdoors": На улице холодно, "It's cold out".
 в центре | f TSEHN-trih | downtown; in the center | центр → в центре: the prepositional case ending -е.
 Где ты живёшь? | gdyeh tih zhih-VYOHSH | Where do you live? (informal) | To a stranger: Где вы живёте?
@@ -112,7 +112,7 @@ module.exports = {
 автобус | ahf-TOH-boos | bus | Masculine: ends in a consonant.
 на автобусе | nah ahf-TOH-boo-sih | by bus | на + prepositional for transport: на автобусе, на метро.
 вокзал | vahg-ZAHL | train station | Said vahg-ZAHL: к before з sounds like g.
-аэропорт | ah-eh-rah-POHRT | airport | Said ah-eh-rah-POHRT: every letter is said.
+аэропорт | ah-eh-rah-POHRT | airport | Said ah-eh-rah-POHRT: а and э are two separate syllables.
 Куда вы идёте? | koo-DAH vih ee-DYOH-tih | Where are you going? (formal) | куда for "where to", где for "where".
 Где здесь туалет? | gdyeh zdyehs' too-ah-LYEHT | Where's the restroom here? | здесь makes it "around here".
 Я ездил в Казань. | yah YEHZ-deel f kah-ZAHN' | I went to Kazan. (a man) | ездил: went there and came back. Not "путешествовал в Казань". A woman: Я ездила.
@@ -121,7 +121,7 @@ module.exports = {
 Помогите! | pah-mah-GEE-tih | Help! | Imperative of помочь, to more than one person or formal.
 Мне плохо. | mnyeh PLOH-khah | I feel sick. | Dative мне: "to me it is bad".
 У меня болит голова. | oo mih-NYAH bah-LEET gah-lah-VAH | I have a headache. | Word for word: "By me hurts head."
-аптека | ahp-TYEH-kah | pharmacy | Not a bar: a drugstore.
+аптека | ahp-TYEH-kah | pharmacy | A drugstore. "At the pharmacy" is в аптеке.
 Повторите, пожалуйста. | pahf-tah-REE-tih pah-ZHAHL-stah | Please say that again. (formal) |
 Мне нужен врач. | mnyeh NOO-zhihn vrahch | I need a doctor. | нужен agrees with врач (masculine).
 Вызовите скорую! | VIH-zah-vee-tih SKOH-roo-yoo | Call an ambulance! | скорая: short for скорая помощь, "fast help".
@@ -142,7 +142,7 @@ module.exports = {
 Мне холодно. | mnyeh KHOH-lahd-nah | I'm cold. | Dative мне, not я.
 Я люблю музыку. | yah lyoo-BLYOO MOO-zih-koo | I love music. | любить + accusative: музыку.
 Мне двадцать лет. | mnyeh DVAH-tsaht' lyeht | I'm twenty years old. | Age uses the dative: мне, тебе, ему.
-потому что | pah-tah-MOO shtoh | because | Said pah-tah-MOO shtah.
+потому что | pah-tah-MOO shtah | because | Said pah-tah-MOO shtah.
 Мне жарко. | mnyeh ZHAHR-kah | I'm hot. | Like Мне холодно: dative мне, not я.
 Мне скучно. | mnyeh SKOOSH-nah | I'm bored. | Said SKOOSH-nah: чн sounds like шн here.
 Мне грустно. | mnyeh GROOS-nah | I'm sad. | The т is silent: GROOS-nah.
@@ -165,10 +165,10 @@ module.exports = {
 аккуратный | ah-koo-RAHT-nihy | neat; careful | Not "accurate" (that is точный).
 кабинет | kah-bee-NYEHT | office (a room); doctor's office | Not a cabinet (that is шкаф).
 артист | ahr-TEEST | performer; actor | Someone on stage. A painter is художник.
-шеф | shehf | boss (casual) | Not a cook: a cook is повар.
+шеф | shehf | boss (casual) | Usually the boss, said casually. A cook is повар; a head chef is шеф-повар.
 фабрика | FAH-bree-kah | factory | Not "fabric" (that is ткань).
 Нет, я не знаю. | nyeht yah nih ZNAH-yoo | No, I don't know. | Russian repeats the не: not "Нет, я знаю".
-Девушка! | DYEH-voosh-kah | Excuse me, miss! | Calls a waitress or a shop assistant of any age: normal in Russia, not flirtatious. To a man: Молодой человек!
+Девушка! | DYEH-voosh-kah | Excuse me, miss! | Calls a young woman, for example a waitress or a shop assistant: normal and polite, not flirtatious. To a man: Молодой человек!
 Я никогда не был в Сочи. | yah nee-kahg-DAH nyeh bihl f SOH-chee | I've never been to Sochi. (a man) | никогда + не. A woman: не была.
 Здесь нет банка. | zdyehs' nyeht BAHN-kah | There's no bank here. | нет + genitive: not "нет банк".
 Я был в Казани. | yah bihl f kah-ZAH-nee | I was in Kazan. (a man) | был + в + prepositional: not "был в Казань".

@@ -116,7 +116,7 @@ module.exports = [
 <p>Some countries carry the article: الْمَغْرِب <i>al-maghrib</i> (Morocco), الْأُرْدُنّ (Jordan). The nisba drops it. "She's Moroccan" is هِيَ مَغْرِبِيَّة <i>hiya maghribiyya</i>, with no ال, because it is a predicate.</p>
 {{ex:هِيَ مَغْرِبِيَّة|hiya maghribiyya|She's Moroccan.}}
 <h3>From a city: مِن</h3>
-<p>For a city or a state, say "I'm from…" with مِن <i>min</i>. The place keeps its own name, with no ending and no ال. Arabic writes foreign names the way they sound, so New York is نْيُويُورْك <i>nyūyūrk</i> and Texas is تِكْسَاس <i>tiksās</i>. To ask someone where they are from, use the question from your About me deck.</p>
+<p>For a city or a state, say "I'm from…" with مِن <i>min</i>. The place keeps its own name, with no ending and no ال. Arabic writes foreign names the way they sound, so New York is نِيُويُورْك <i>niyūyūrk</i> and Texas is تِكْسَاس <i>tiksās</i>. To ask someone where they are from, use the question from your About me deck.</p>
 {{ex:أَنَا مِن شِيكَاغُو|anā min shīkāghū|I'm from Chicago.}}
 {{ex:مِن أَيْنَ أَنْتِ؟|min ayna anti?|Where are you from? (to a woman)}}
 <h3>Languages</h3>
@@ -143,7 +143,7 @@ module.exports = [
       ["fi", "أَدْرُس __", "I'm studying French.", "الْفَرَنْسِيَّة", "فَرَنْسِيَّة|فَرَنْسِيّ|الْفَرَنْسِيّ", "A language is the feminine nisba with the article: الْفَرَنْسِيَّة."],
       ["ty", "He's Lebanese. (use the nisba)", "هُوَ لُبْنَانِيّ", "هُوَ · لُبْنَان (Lebanon)", "لُبْنَانِيَّة", "هُوَ is masculine, so the nisba agrees: -ī with no ة."],
       ["ty", "She's Moroccan. (use the nisba)", "هِيَ مَغْرِبِيَّة", "هِيَ · الْمَغْرِب (Morocco)", "الْمَغْرِبِيَّة", "The nisba drops the article of الْمَغْرِب, and it is feminine to agree with هِيَ."],
-      ["ty", "I'm from New York.", "أَنَا مِن نْيُويُورْك", "مِن (from) · نْيُويُورْك", "هُوَ", "No 'am' in Arabic: أَنَا مِن نْيُويُورْك."]
+      ["ty", "I'm from New York.", "أَنَا مِن نِيُويُورْك", "مِن (from) · نِيُويُورْك", "هُوَ", "No 'am' in Arabic: أَنَا مِن نِيُويُورْك."]
     ]
   },
   {
@@ -216,7 +216,7 @@ module.exports = [
 {{ex:خَمْسَة وَعِشْرُون|khamsa waʿishrūn|twenty-five}}
 {{ex:عُمْرِي خَمْسَة وَعِشْرُون|ʿumrī khamsa waʿishrūn|I'm twenty-five.}}
 <h3>The digits</h3>
-<p>Egypt, Saudi Arabia and the Gulf write the digits in the table above; Morocco, Algeria and Tunisia use the same digits as English. Inside Arabic text, numbers still run left to right: ٢٥ is 25, not 52. Watch ٧ (7) and ٨ (8), which are mirror images, and ٥, which is 5, not 0. Prices, phone numbers and bus numbers are often written this way, so it pays to learn the digits early.</p>
+<p>Egypt, the Levant, Iraq and the Gulf often write the digits in the table above, though the digits English uses are common there too; Morocco, Algeria and Tunisia use the same digits as English. Inside Arabic text, numbers still run left to right: ٢٥ is 25, not 52. Watch ٧ (7) and ٨ (8), which are the same shape upside down, and ٥, which is 5, not 0. Prices, phone numbers and bus numbers are often written this way, so it pays to learn the digits early.</p>
 <h3>"One" agrees and comes after</h3>
 <p>"One" follows the noun and agrees with it: feminine وَاحِدَة <i>wāḥida</i> after a feminine noun. You only need it to stress "one"; the bare noun already means "a".</p>
 {{ex:سَيَّارَة وَاحِدَة|sayyāra wāḥida|one car}}
@@ -321,7 +321,7 @@ module.exports = [
 {{ex:الْبَيْت الْكَبِير جَمِيل|al-bayt al-kabīr jamīl|The big house is beautiful.}}
 {{ex:مَرْيَم طَالِبَة جَدِيدَة|maryam ṭāliba jadīda|Maryam is a new student.}}
 <h3>Two adjectives</h3>
-<p>The adjectives you know so far (big, small, new, old, beautiful, cheap, tall, short, easy, difficult, hot, cold) all follow these two rules, with no exceptions in the singular. Line them up after the noun, each one agreeing, usually joined by وَ ("and"). To say "very", add جِدًّا <i>jiddan</i> after the adjective: جَمِيل جِدًّا <i>jamīl jiddan</i>, "very beautiful". English puts "very" first; Arabic, as with its adjectives, puts it after.</p>
+<p>The adjectives you know so far (big, small, new, old, beautiful, cheap, tall, short, easy, difficult, hot, cold) all follow these two rules, with no exceptions in the singular. Line them up after the noun, each one agreeing, often joined by وَ ("and"). To say "very", add جِدًّا <i>jiddan</i> after the adjective: جَمِيل جِدًّا <i>jamīl jiddan</i>, "very beautiful". English puts "very" first; Arabic, as with its adjectives, puts it after.</p>
 {{ex:سَيَّارَة صَغِيرَة وَجَمِيلَة|sayyāra ṣaghīra wajamīla|a small, beautiful car}}
 <div class="tip"><b>Most common mistake:</b> marking only one word. For "the new car", give the adjective both the ة and the article: السَّيَّارَة جَدِيد → السَّيَّارَة الْجَدِيدَة.</div>
 `,
@@ -363,7 +363,7 @@ module.exports = [
 {{ex:جَوَاز السَّفَر|jawāz as-safar|passport}}
 {{ex:مِفْتَاح الْغُرْفَة|miftāḥ al-ghurfa|the room key}}
 <h3>ة at the front is said -at</h3>
-<p>When the first word ends in ة, say a t there: مَحَطَّةْ الْقِطَار <i>maḥaṭṭat al-qiṭār</i>, the train station. Arabic usually writes a plain ة; this course puts a small sukun on it (ةْ) to remind you to say the t. Place names work the same way, and since a name is already definite, it needs no ال: جَامِعَةْ تُولْسَا <i>jāmiʿat tūlsā</i>, مَدِينَةْ نْيُويُورْك <i>madīnat nyūyūrk</i>.</p>
+<p>When the first word ends in ة, say a t there: مَحَطَّةْ الْقِطَار <i>maḥaṭṭat al-qiṭār</i>, the train station. Arabic usually writes a plain ة; this course puts a small sukun on it (ةْ) to remind you to say the t. Place names work the same way, and since a name is already definite, it needs no ال: جَامِعَةْ تُولْسَا <i>jāmiʿat tūlsā</i>, مَدِينَةْ نِيُويُورْك <i>madīnat niyūyūrk</i>.</p>
 {{ex:مَحَطَّةْ الْقِطَار|maḥaṭṭat al-qiṭār|the train station}}
 {{ex:جَامِعَةْ تُولْسَا|jāmiʿat tūlsā|the University of Tulsa}}
 {{ex:أَيْنَ مَحَطَّةْ الْقِطَار؟|ayna maḥaṭṭat al-qiṭār?|Where's the train station?}}

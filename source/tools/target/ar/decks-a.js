@@ -139,9 +139,9 @@ module.exports = {
 أَحَد عَشَر | aḥad ʿashar | eleven | Literally "one ten".
 عِشْرُون | ʿishrūn | twenty | In speech often ʿishrīn.
 وَاحِد وَعِشْرُون | wāḥid waʿishrūn | twenty-one | "One and twenty": the ones come first.
-خَمْسُون | khamsūn | fifty | خَمْسَة (five) + -ūn.
+خَمْسُون | khamsūn | fifty | From خَمْسَة (five): the tens end in -ūn.
 مِئَة | miʾa | a hundred | Also spelled مِائَة; said the same, miʾa.
-٣ | thalātha | 3 (Eastern Arabic digit) | Used in Saudi Arabia, Egypt and the Gulf; Morocco uses 3.
+٣ | thalātha | 3 (Eastern Arabic digit) | Common in Egypt, the Levant and the Gulf, next to 3; Morocco, Algeria and Tunisia write 3.
 ٧ | sabʿa | 7 (Eastern Arabic digit) | Looks like a V. ٨ (8) is the same shape upside down.
 ٨ | thamāniya | 8 (Eastern Arabic digit) | Looks like an upside-down V. Digits read left to right: ٨٧ is 87.
 بِكَم هٰذَا؟ | bikam hādhā? | How much is this? | For a feminine thing: بِكَم هٰذِهِ؟
@@ -160,7 +160,7 @@ module.exports = {
 أُرِيد فِنْجَان قَهْوَة | urīd finjān qahwa | I'd like a cup of coffee | فِنْجَان is a small coffee cup.
 مَاذَا تُرِيد؟ | mādhā turīd? | What would you like? (to a man) | What a waiter says. To a woman: مَاذَا تُرِيدِين؟
 خُبْز | khubz | bread | Arab bread is usually flat and round.
-حُمُّص | ḥummuṣ | hummus | Also the word for chickpeas.
+حُمُّص | ḥummuṣ | hummus | The chickpea dip. In the Levant the same word also means the chickpeas themselves.
 فَلَافِل | falāfil | falafel | In Egypt it is often called ṭaʿmiyya.
 شَاوَرْمَا | shāwarmā | shawarma | Meat or chicken sliced from a turning spit.
 تَمْر | tamr | dates | Served with Arabic coffee.

@@ -17,7 +17,7 @@ exports.DIALOG = `
 Извините! | Извините, где метро? | Метро там. | Excuse me, where's the subway? / The subway is over there.
 Ничего страшного. | Ой, простите! | Ничего страшного. | Oops, I'm sorry! / That's OK.
 Доброе утро! | Доброе утро, мама! | Доброе утро! Чай? | Good morning, Mom! / Good morning! Tea?
-Я не понимаю. | Можно медленнее? Я не понимаю. | Да, конечно. | More slowly, please? I don't understand. / Yes, of course.
+Я не понимаю. | Можно помедленнее? Я не понимаю. | Да, конечно. | More slowly, please? I don't understand. / Yes, of course.
 Как вас зовут? | Как вас зовут? | Меня зовут Анна Сергеевна. | What's your name? / My name is Anna Sergeyevna.
 Как тебя зовут? | Привет! Как тебя зовут? | Дима. А тебя? | Hi! What's your name? / Dima. And yours?
 Как дела? | Привет, Маша! Как дела? | Хорошо, а у тебя? | Hi, Masha! How are you? / Good, and you?

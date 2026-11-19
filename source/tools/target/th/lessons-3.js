@@ -269,7 +269,7 @@ module.exports = [
 {{ex:ห้องน้ำอยู่ที่ไหน|hâwng-náam yùu thîi-nǎi|Where is the bathroom?}}
 {{ex:ตลาดอยู่ไกลไหม|dtà-làat yùu glai mǎi|Is the market far?}}
 <h3>Near and far: listen to the tone</h3>
-<p><b>ใกล้</b> <i>glâi</i> with a falling tone is near; <b>ไกล</b> <i>glai</i> with a mid tone is far. They sound almost the same to English ears, so say the falling tone clearly. <b>ใกล้ๆ</b> means "quite close".</p>
+<p><b>ใกล้</b> <i>glâi</i> with a falling tone is near; <b>ไกล</b> <i>glai</i> with a mid tone is far. They sound almost the same to English ears, so say the falling tone clearly. <b>ใกล้ๆ</b> means "close by, nearby".</p>
 {{ex:ธนาคารอยู่ใกล้ๆ|thá-naa-khaan yùu glâi-glâi|The bank is close by.}}
 <h3>Left, right, straight</h3>
 <p><b>ซ้าย</b> <i>sáai</i> is left and <b>ขวา</b> <i>khwǎa</i> is right. <b>เลี้ยว</b> <i>líiao</i> means turn, and <b>ตรงไป</b> <i>dtrong bpai</i> means go straight. To say where to turn, add <b>ที่</b> and the place. If you are lost, <b>ไปทางไหน</b> asks "which way?", and pointing helps too.</p>
@@ -280,7 +280,7 @@ module.exports = [
 <h3>In a taxi or a tuk-tuk</h3>
 <p>English says "go to the airport". Thai needs no word for "to": just <b>ไป</b> <i>bpai</i> + the place. In a taxi, ask for the meter; in a tuk-tuk, agree on the price before you get in. When you arrive, <b>จอดตรงนี้</b> means "stop here".</p>
 {{ex:ไปสนามบิน|bpai sà-nǎam-bin|to the airport}}
-{{ex:เปิดมิเตอร์ได้ไหม|bpòoet mí-dtooe dâai mǎi|Can you use the meter?}}
+{{ex:เปิดมิเตอร์ได้ไหม|bpòoet mí-dtôoe dâai mǎi|Can you use the meter?}}
 {{ex:จอดตรงนี้|jàawt dtrong-níi|stop here}}
 <p>Add ครับ or ค่ะ to each of these, and the driver will hear a polite passenger.</p>
 <div class="tip"><b>Most common mistake:</b> asking in English order. <b>ที่ไหนห้องน้ำ</b> → <b>ห้องน้ำอยู่ที่ไหน</b>. The place comes first, and ที่ไหน stays at the end.</div>
@@ -297,7 +297,7 @@ module.exports = [
       ["mc","\"It's across from the hotel.\" =","อยู่ตรงข้ามโรงแรม","อยู่โรงแรมตรงข้าม","ตรงข้ามอยู่โรงแรม","เป็นตรงข้ามโรงแรม","ตรงข้าม goes before the place, and location takes อยู่, not เป็น."],
       ["mc","Which word is glâi (near)?","ใกล้","ไกล","ไก่","ไข่","ใกล้ (glâi) has a falling tone; ไกล (glai), with a mid tone, means far."],
       ["or","Is it far?","ไกล ไหม","ใกล้","ไกล (glai) has a mid tone; ใกล้ (glâi), with a falling tone, means near."],
-      ["or","The bank is near.","ธนาคาร อยู่ ใกล้","ไกล","ใกล้ (glâi) has a falling tone and means near; ไกล (glai), with a mid tone, means far."],
+      ["or","The bank is near the market. (start with ธนาคาร)","ธนาคาร อยู่ ใกล้ ตลาด","ไกล","ใกล้ (glâi) has a falling tone and means near; ไกล (glai), with a mid tone, means far."],
       ["or","Where is this hotel?","โรงแรม นี้ อยู่ ที่ไหน","นี่","นี้ comes after the noun: โรงแรมนี้; นี่ stands alone, as in นี่คืออะไร."],
       ["fi","ห้องน้ำอยู่__","Where is the bathroom?","ที่ไหน","อะไร|ใคร|เท่าไร","ที่ไหน (where) goes at the end, where the answer goes."],
       ["fi","เลี้ยว__ที่ไฟแดง","Turn right at the traffic light.","ขวา","ซ้าย|ตรง|ไกล","ขวา is right; ซ้าย is left."],
@@ -341,7 +341,7 @@ module.exports = [
     check: [
       ["How do you say \"a red shirt\"?",["สีแดงเสื้อ","เสื้อสีแดง","แดงเสื้อ","เสื้อเป็นสีแดง"],1,"The color comes after the noun, with สี: เสื้อสีแดง."],
       ["Which classifier do pants (กางเกง) take?",["ตัว","คู่","ใบ","คัน"],0,"Pants are counted like shirts, with ตัว, even though English says \"a pair\"."],
-      ["In Thai, ฟิต means:",["healthy, in shape","fits well","tight","cheap"],2,"ฟิต is a false friend: กางเกงตัวนี้ฟิต means the pants are tight."]
+      ["Said of clothes, ฟิต means:",["loose","fits well","tight","cheap"],2,"ฟิต is a false friend: กางเกงตัวนี้ฟิต means the pants are tight."]
     ],
     practice: [
       ["mc","\"a red shirt\" =","เสื้อสีแดง","สีแดงเสื้อ","แดงสีเสื้อ","เสื้อแดงสี","The color comes after the noun, with สี in front of it."],
@@ -349,7 +349,7 @@ module.exports = [
       ["mc","\"too expensive\" =","แพงไป","ไปแพง","มากแพง","แพงกว่า","ไป after a describing word means \"too\": แพงไป."],
       ["mc","A shop assistant says กางเกงตัวนี้ฟิต. She means:","These pants are tight.","These pants fit perfectly.","These pants are for sports.","These pants are cheap.","ฟิต means tight, not \"fits well\"."],
       ["mc","Which word is khǎao (white), as in สีขาว?","ขาว","ข้าว","เขา","ข่าว","ขาว (khǎao) has a rising tone and a long vowel; ข้าว is rice, เขา is he or she."],
-      ["or","How much is this bag?","กระเป๋า ใบ นี้ ราคา เท่าไร","ตัว","Bags take the classifier ใบ, after the noun: กระเป๋าใบนี้."],
+      ["or","How much is this bag? (start with กระเป๋า)","กระเป๋า ใบ นี้ ราคา เท่าไร","ตัว","Bags take the classifier ใบ, after the noun: กระเป๋าใบนี้."],
       ["or","these black pants","กางเกง สี ดำ ตัว นี้","คู่","Pants take the classifier ตัว, not คู่; color and classifier come after the noun."],
       ["or","a white shirt","เสื้อ สี ขาว","ข้าว","ขาว (khǎao) has a rising tone; ข้าว (khâao), with a falling tone, is rice."],
       ["fi","เสื้อตัวนี้ราคา__","How much is this shirt?","เท่าไร|เท่าไหร่","อะไร|ไหน|กี่","เท่าไร asks \"how much\"; it goes at the end."],
@@ -378,7 +378,7 @@ module.exports = [
 {{ex:ปวดท้อง|bpùuat-tháawng|stomachache}}
 {{ex:เจ็บคอ|jèp khaaw|sore throat}}
 <h3>Illnesses: เป็น + illness</h3>
-<p>Here, and only here, Thai uses <b>เป็น</b>: you "are" a cold, you "are" a fever. A fever is <b>ไข้</b> <i>khâi</i>, with a falling tone; with a low tone, <b>ไข่</b> is an egg. You will also hear <b>มีไข้</b>. Do not use <b>ร้อน</b> (hot) for a fever: it means hot weather or a hot stove.</p>
+<p>Of feelings, pains and illnesses, only illnesses take <b>เป็น</b>: you "are" a cold, you "are" a fever. A fever is <b>ไข้</b> <i>khâi</i>, with a falling tone; with a low tone, <b>ไข่</b> is an egg. You will also hear <b>มีไข้</b>. <b>ร้อน</b> (hot) alone means hot weather or a hot stove, so for a fever say เป็นไข้ or มีไข้.</p>
 {{ex:ผมเป็นหวัด|phǒm bpen wàt|I have a cold. (male speaker)}}
 {{ex:ฉันเป็นไข้|chǎn bpen khâi|I have a fever. (female speaker)}}
 <h3>Allergies: แพ้</h3>

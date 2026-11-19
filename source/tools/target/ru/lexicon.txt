@@ -7,3 +7,21 @@
 не_был=нЕ_~был
 не_было=нЕ_~было
 не_были=нЕ_~были
+# reviewer (EN-RU-R, 2026-11-19): built-in phrase had бИлет; the noun is билЕт
+билЕт_стОит
+# reviewer: doubled consonant before the stress said once, as the lead did for суббота / коллега / аккуратный (the built-in forms kept бб / сс)
+суббОту=субОту
+суббОты=субОты
+в_суббОту=в_субОту
+россИя=росИя
+россИи=росИи
+россИю=росИю
+россИей=росИей
+помЕдленнее
+потому_что=потомУ_~што
+# reviewer: dictionary-checked corrections of built-in entries (openrussian.org / en.wiktionary, 2026-11-19)
+быстрЕе
+свобОдна
+# reviewer: the conjunction но keeps its о (and must not read like на); the conjunction что after думаю is unstressed, as in потому что
+нО
+думаю_что=дУмаю_~што

@@ -47,8 +47,8 @@ exports.EXAMPLES = `
 ไม่เป็นไร | ไม่เป็นไรครับ ผมรอได้ | It's OK, I can wait. (male speaker)
 ไปก่อนนะ | ฉันไปก่อนนะ พรุ่งนี้เจอกัน | I'm off now. See you tomorrow. (female speaker)
 ครอบครัว | ครอบครัวผมอยู่ที่อเมริกา | My family lives in America. (male speaker)
-สามี | สามีฉันเป็นคนไทย | My husband is Thai.
-ผมทำงานที่กรุงเทพฯ | ผมทำงานที่กรุงเทพฯ แต่ครอบครัวอยู่ที่ภูเก็ต | I work in Bangkok, but my family lives in Phuket.
+สามี | สามีฉันเป็นคนไทย | My husband is Thai. (female speaker)
+ผมทำงานที่กรุงเทพฯ | ผมทำงานที่กรุงเทพฯ แต่ครอบครัวอยู่ที่ภูเก็ต | I work in Bangkok, but my family lives in Phuket. (male speaker)
 ฉันเป็นครู | ฉันเป็นครูสอนภาษาอังกฤษ | I'm an English teacher. (female speaker)
 สองร้อยห้าสิบบาท | เสื้อตัวนี้ราคาสองร้อยห้าสิบบาท | This shirt is 250 baht.
 หนึ่งล้าน | รถคันนี้ราคาหนึ่งล้านบาท | This car costs one million baht.

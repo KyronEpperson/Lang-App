@@ -107,7 +107,7 @@ module.exports = [
     blurb: "Read the last ten letters, hear hard and soft consonants apart, and know when б sounds like p.",
     deck: "Letters 3: soft vowels and hushing sounds",
     body: `
-<p>With this lesson you have all 33 letters. The new ones are four vowels with a y in them, five hushing sounds, and two signs with no sound of their own.</p>
+<p>With this lesson you have all 33 letters. The new ones are three vowels with a y in them, five hushing sounds, and two signs with no sound of their own.</p>
 <h3>Я Ё Ю, and Е again</h3>
 <p><b>Я</b> is "ya", <b>Ё</b> is "yo", <b>Ю</b> is "yu", and <b>Е</b>, as you know, is "ye". At the start of a word you hear the y. <b>Ё</b> is always stressed.</p>
 {{ex:я|yah|I}}
@@ -177,7 +177,7 @@ module.exports = [
 {{ex:неделя|nih-DYEH-lyah|week}}
 <p><b>У</b>, <b>ы</b> and <b>ю</b> keep their sound with or without stress. <b>Ё</b> is always stressed, so a word with ё needs nothing else: <b>ещё</b>.</p>
 <h3>Words that look English</h3>
-<p>Many words look like English ones, but the stress rarely sits where English puts it. <b>Ресторан</b> and <b>университет</b> are stressed on the last syllable.</p>
+<p>Many words look like English ones, but the stress often does not sit where English puts it. <b>Ресторан</b> and <b>университет</b> are stressed on the last syllable.</p>
 {{ex:университет|oo-nee-vihr-see-TYEHT|university}}
 <h3>First polite words</h3>
 <p><b>Спасибо</b> is "thank you". <b>Пожалуйста</b> is "please" and also the answer to thanks, "you're welcome". It is said shorter than it is written: pah-ZHAHL-stah. <b>Извините</b> is "excuse me" or "sorry" to a stranger. <b>Можно?</b> means "May I?": point at a free seat or a menu and ask.</p>
@@ -253,7 +253,7 @@ module.exports = [
       ["mc", "Who usually offers to switch from вы to ты?", "The older or more senior person", "The younger person", "Whoever speaks first", "Nobody: people just switch", "The usual offer is Давай на ты?, from the older or more senior person."],
       ["or", "Glad to meet you. (a woman speaking)", "рада познакомиться", "рад", "A woman speaks, so 'glad' takes the feminine form рада."],
       ["or", "This is my friend. (a woman)", "это моя подруга", "мой", "Подруга is feminine: the feminine form моя."],
-      ["or", "And you? (formal, after Как дела?)", "а у вас", "вы", "After Как дела?, ask back with а у вас, never а вы."],
+      ["or", "And you? (formal, after Как у вас дела?)", "а у вас", "вы", "After Как у вас дела?, ask back with а у вас, never а вы."],
       ["fi", "Как __ зовут?", "What's your name? (informal)", "тебя", "вас|ты|вы", "To a friend: Как тебя зовут? To a stranger: Как вас зовут?"],
       ["fi", "Хорошо, спасибо. А у __?", "Fine, thanks. And you? (formal)", "вас", "вы|тебя|ты", "The formal ask-back is А у вас?"],
       ["fi", "__ зовут Анна.", "My name is Anna.", "меня", "я|мой|моя", "Меня зовут: 'they call me'. Not я, not мой."],
@@ -383,7 +383,7 @@ module.exports = [
 <p>A soft sign at the end tells you nothing. <b>Мать</b> (mother) and <b>кровать</b> (bed) are feminine; <b>день</b> (day) is masculine. Learn each one with its "my": <b>моя кровать</b>, <b>мой день</b>.</p>
 {{ex:Где моя кровать?|gdyeh mah-YAH krah-VAHT'|Where is my bed?}}
 <h3>Borrowed words that never change</h3>
-<p>Some loanwords end in -о or -е and never change their ending: <b>кафе</b>, <b>метро</b>, <b>такси</b>. Most of them are neuter, so they are <b>оно</b>. One exception to learn now: <b>кофе</b> is masculine, so it is <b>мой кофе</b>.</p>
+<p>Some loanwords end in a vowel and never change their ending: <b>кафе</b>, <b>метро</b>, <b>такси</b>. Most of them are neuter, so they are <b>оно</b>. One exception to learn now: <b>кофе</b> is masculine, so it is <b>мой кофе</b>.</p>
 {{ex:Где кафе? Вот оно.|gdyeh kah-FEH voht ah-NOH|Where is the café? There it is.}}
 {{ex:Где мой кофе?|gdyeh moy KOH-fih|Where is my coffee?}}
 <div class="tip"><b>Most common mistake:</b> going by the ending alone with words for men. Wrong: <b>моя папа</b> → right: <b>мой папа</b>. Read the Cyrillic first; use the respelling only to check the stress.</div>
@@ -483,7 +483,7 @@ module.exports = [
 {{ex:Мой дом старый.|moy dohm STAH-rihy|My house is old.}}
 {{ex:Она умная.|ah-NAH OOM-nah-yah|She's smart.}}
 <h3>Какой? What kind?</h3>
-<p>Adjectives for colour work the same way: <b>красный дом</b>, <b>красная сумка</b>. <b>Какой</b> asks "which?" or "what kind?" and changes like an adjective: <b>какой дом</b>, <b>какая машина</b>, <b>какое окно</b>.</p>
+<p>Adjectives for color work the same way: <b>красный дом</b>, <b>красная сумка</b>. <b>Какой</b> asks "which?" or "what kind?" and changes like an adjective: <b>какой дом</b>, <b>какая машина</b>, <b>какое окно</b>.</p>
 {{ex:Какая машина?|kah-KAH-yah mah-SHIH-nah|What kind of car?}}
 <div class="tip"><b>Most common mistake:</b> one ending for every noun, as in English. Wrong: <b>новый машина</b> → right: <b>новая машина</b>. Read the Cyrillic first; use the respelling only to check the stress.</div>
 `,

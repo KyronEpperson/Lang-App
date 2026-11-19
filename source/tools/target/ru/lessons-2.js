@@ -88,7 +88,7 @@ module.exports = [
       ["mc", "\"I love\" =", "я люблю", "я любю", "я любит", "я лублю", "любить adds л in the я form only: я люблю."],
       ["mc", "\"What are you doing?\" (formal) =", "Что вы делаете?", "Что ты делаешь?", "Что вы делаешь?", "Что вы есть делаете?", "A stranger gets вы, and вы takes the -ете ending: вы делаете."],
       ["or", "My sister works.", "моя сестра работает", "мой", "Сестра is feminine: the feminine form моя."],
-      ["or", "My friends speak Russian.", "мои друзья говорят по-русски", "мой", "Друзья is plural: the plural form мои, and the verb ends in -ят."],
+      ["or", "My friends speak Russian. (end with по-русски)", "мои друзья говорят по-русски", "мой", "Друзья is plural: the plural form мои, and the verb ends in -ят."],
       ["or", "Where do you live? (formal; start with Где)", "где вы живёте", "живёшь", "вы takes the -ете ending: вы живёте."],
       ["fi", "Я __ по-русски.", "I speak Russian.", "говорю", "говорит|говоришь|говорят", "The я form of говорить ends in -ю: говорю."],
       ["fi", "Мы __ кофе.", "We want coffee.", "хотим", "хочем|хочу|хотят", "хотеть is mixed: мы хотим, not хочем."],
@@ -151,7 +151,7 @@ module.exports = [
     blurb: "Say no, don't, nobody, nothing and never the Russian way: Нет, я не знаю. Я ничего не понимаю.",
     deck: "Traps for English speakers",
     body: `
-<p>English builds a negative with a helper: "I <i>don't</i> know", "She <i>isn't</i> here". Russian has no helper. It puts <b>не</b> right in front of the word it negates. There is no "do" to add and nothing else to change: the verb keeps the same ending it has in the statement. Short as it is, <b>не</b> is never stressed; it leans on the word after it.</p>
+<p>English builds a negative with a helper: "I <i>don't</i> know", "She <i>isn't</i> here". Russian has no helper. It puts <b>не</b> right in front of the word it negates. There is no "do" to add and nothing else to change: the verb keeps the same ending it has in the statement. Short as it is, <b>не</b> is almost never stressed; it leans on the word after it. (A few set phrases put the stress on it: <b>не был</b>, <b>не за что</b>.)</p>
 <h3>не goes right before the verb</h3>
 {{ex:Я не знаю.|yah nih ZNAH-yoo|I don't know.}}
 {{ex:Мой брат не работает.|moy braht nih rah-BOH-tah-yiht|My brother doesn't work.}}
@@ -219,7 +219,7 @@ module.exports = [
 <p><b>Сколько стоит?</b> asks about one thing; <b>Сколько стоят?</b> asks about several. The answer usually leaves out the verb: <b>Сто рублей</b>, "A hundred rubles". Prices in this course are round, made-up numbers, so do not use them to plan a budget.</p>
 {{ex:Сколько стоят билеты?|SKOHL'-kah STOH-yaht bee-LYEH-tih|How much are the tickets?}}
 <h3>Age and phone numbers</h3>
-<p>Age is a fixed phrase: <b>Мне двадцать лет</b> (I'm twenty). Phone numbers are read in pairs: 45 12 is <b>сорок пять, двенадцать</b>.</p>
+<p>Age is a fixed phrase: <b>Мне двадцать лет</b> (I'm twenty). Phone numbers are read in groups, usually ending in pairs: 45 12 is <b>сорок пять, двенадцать</b>.</p>
 <div class="tip"><b>Most common mistake:</b> one plural for every number. <b>два рубли</b> → <b>два рубля</b>; <b>пять рубля</b> → <b>пять рублей</b>. Read the Cyrillic first, and use the respelling only to check where the stress falls.</div>
 `,
     check: [
@@ -281,7 +281,7 @@ module.exports = [
       ["mc", "\"in Kazan\" =", "в Казани", "в Казане", "в Казань", "на Казани", "Казань is feminine and ends in ь, so it takes -и: в Казани."],
       ["mc", "\"I'm thinking about Mom.\" =", "Я думаю о маме.", "Я думаю о мама.", "Я думаю маме.", "Я думаю на маме.", "о (\"about\") takes the prepositional case: маме."],
       ["mc", "\"in a new house\" =", "в новом доме", "в новый доме", "в новом дом", "в новая доме", "The adjective takes -ом and the noun -е."],
-      ["or", "I live in Moscow.", "я живу в Москве", "Москва", "After в for \"where\", the prepositional case: Москве."],
+      ["or", "I live in Moscow. (end with the city)", "я живу в Москве", "Москва", "After в for \"where\", the prepositional case: Москве."],
       ["or", "We're in the park.", "мы в парке", "парк", "After в for \"where\", the prepositional case: парке."],
       ["or", "Anna is at the post office.", "Анна на почте", "почта", "на + prepositional case: почта → почте."],
       ["fi", "Я работаю в __.", "I work at a bank.", "банке", "банк|банка|банку", "в for \"where\": the prepositional case ending -е."],
@@ -298,7 +298,7 @@ module.exports = [
     blurb: "Mark the thing you read, want or love (Я читаю книгу) and the place you are going to (на работу).",
     deck: "Food and drink",
     body: `
-<p>In "I'm reading a book", the book is the thing the action is done to: the object. English keeps "book" the same wherever it stands. Russian changes the end of a feminine noun. That ending is the accusative case. It is the case you will use most after the prepositional, because almost every sentence with "want", "love", "read", "see" or "buy" has an object.</p>
+<p>In "I'm reading a book", the book is the thing the action is done to: the object. English keeps "book" the same wherever it stands. Russian changes the end of a feminine noun. That ending is the accusative case. It is one of the cases you will use most, because almost every sentence with "want", "love", "read", "see" or "buy" has an object.</p>
 <h3>Feminine nouns: -а → -у, -я → -ю</h3>
 <div class="tbl"><table><tr><th>Basic form</th><th>As the object</th></tr><tr><td class="k">книга</td><td class="k">Я читаю книгу.</td></tr><tr><td class="k">Москва</td><td class="k">Я люблю Москву.</td></tr><tr><td class="k">каша</td><td class="k">Я хочу кашу.</td></tr></table></div>
 {{ex:Я читаю книгу.|yah chee-TAH-yoo KNEE-goo|I'm reading a book.}}
@@ -329,9 +329,9 @@ module.exports = [
       ["mc", "\"I love music.\" =", "Я люблю музыку.", "Я люблю музыка.", "Я люблю музыке.", "Я люблю музыкой.", "Музыка is feminine, so it takes -у as the object."],
       ["mc", "\"Do you understand me?\" (formal) =", "Вы меня понимаете?", "Вы я понимаете?", "Вы мне понимаете?", "Ты меня понимаешь?", "\"Me\" as the object is меня, and a stranger gets вы."],
       ["mc", "\"I'm going to work.\" (by transport) =", "Я еду на работу.", "Я еду на работе.", "Я еду в работу.", "Я еду на работа.", "Where to: на + the accusative case, работу."],
-      ["or", "I'm reading a book.", "я читаю книгу", "книга", "The object takes the accusative case: книга → книгу."],
-      ["or", "I want fish.", "я хочу рыбу", "рыба", "хотеть + accusative case: рыба → рыбу."],
-      ["or", "I see my brother.", "я вижу брата", "брат", "A masculine person as the object takes the accusative case ending -а: брата."],
+      ["or", "I'm reading a book. (end with the book)", "я читаю книгу", "книга", "The object takes the accusative case: книга → книгу."],
+      ["or", "I want fish. (end with the fish)", "я хочу рыбу", "рыба", "хотеть + accusative case: рыба → рыбу."],
+      ["or", "I see my brother. (end with the brother)", "я вижу брата", "брат", "A masculine person as the object takes the accusative case ending -а: брата."],
       ["fi", "Я люблю __.", "I love Moscow.", "Москву", "Москва|Москве|Москвой", "любить + accusative case: Москву."],
       ["fi", "Мы идём в __.", "We're walking to the park.", "парк", "парке|парка|парку", "Where to: в + accusative case, and a masculine thing does not change."],
       ["fi", "Ты знаешь __?", "Do you know Ivan? (informal)", "Ивана", "Иван|Ивану|Иваном", "A masculine person as the object adds -а: Ивана."],
@@ -348,7 +348,7 @@ module.exports = [
     body: `
 <p>English uses "of": a bottle of water, the center of town. Russian has no word for "of". It puts the second noun after the first and changes its ending. That ending is the genitive case. The order is the reverse of an English possessive: "Moscow's center" is <b>центр Москвы</b>, the center first and then the owner. Think "center of Moscow" and the Russian order follows.</p>
 <h3>The endings</h3>
-<div class="tbl"><table><tr><th>Noun</th><th>Ending</th><th>Example</th></tr><tr><td>masculine, neuter</td><td>add -а (-я after й or ь)</td><td class="k">хлеб → хлеба, чай → чая, молоко → молока</td></tr><tr><td>feminine in -а</td><td>-а → -ы (-и after the spelling-rule letters)</td><td class="k">вода → воды, сумка → сумки</td></tr><tr><td>feminine in -я</td><td>-я → -и</td><td class="k">кухня → кухни</td></tr></table></div>
+<div class="tbl"><table><tr><th>Noun</th><th>Ending</th><th>Example</th></tr><tr><td>masculine</td><td>add -а (-я after й or ь)</td><td class="k">хлеб → хлеба, чай → чая</td></tr><tr><td>neuter in -о</td><td>-о → -а</td><td class="k">молоко → молока</td></tr><tr><td>feminine in -а</td><td>-а → -ы (-и after the spelling-rule letters)</td><td class="k">вода → воды, сумка → сумки</td></tr><tr><td>feminine in -я</td><td>-я → -и</td><td class="k">кухня → кухни</td></tr></table></div>
 {{ex:бутылка воды|boo-TIHL-kah vah-DIH|a bottle of water}}
 {{ex:чашка чая|CHAHSH-kah CHAH-yah|a cup of tea}}
 {{ex:центр города|tsehntr GOH-rah-dah|downtown (the center of town)}}
@@ -414,13 +414,13 @@ module.exports = [
 <div class="tip"><b>Most common mistake:</b> a verb for "have", English style, or the basic form after нет. <b>Я имею брата</b> → <b>У меня есть брат</b>; <b>У меня нет брат</b> → <b>У меня нет брата</b>. Read the Cyrillic first, and use the respelling only to check where the stress falls.</div>
 `,
     check: [
-      ["\"I have a sister\" =", ["Я имею сестру", "У меня есть сестра", "У я есть сестра", "У меня есть сестру"], 1, "Russian says \"by me there is\": у меня есть + the thing in its basic form."],
+      ["\"I have a sister\" =", ["Я имею сестра", "У меня есть сестра", "У я есть сестра", "У меня есть сестру"], 1, "Russian says \"by me there is\": у меня есть + the thing in its basic form."],
       ["\"I don't have a car\" =", ["У меня нет машина", "У меня не машина", "У меня нет машины", "Я не имею машина"], 2, "нет + genitive case: машины."],
       ["\"Do you have bread?\" (in a shop) =", ["У вас есть хлеб?", "У вы есть хлеб?", "Вы имеете хлеб?", "У вас нет хлеб?"], 0, "У вас есть…? is the usual way to ask in a shop."]
     ],
     practice: [
       ["mc", "\"I have a brother.\" =", "У меня есть брат.", "Я имею брат.", "У я есть брат.", "У меня есть брата.", "Russian says \"by me there is\": у меня есть + the thing."],
-      ["mc", "\"He has a car.\" =", "У него есть машина.", "У его есть машина.", "У он есть машина.", "Он имеет машину.", "After у, он becomes него, with an extra н."],
+      ["mc", "\"He has a car.\" =", "У него есть машина.", "У его есть машина.", "У он есть машина.", "Он имеет машина.", "After у, он becomes него, with an extra н."],
       ["mc", "\"We have a cat.\" =", "У нас есть кот.", "У мы есть кот.", "У нас есть кота.", "Мы имеем кот.", "After у, мы becomes нас."],
       ["mc", "\"She doesn't have a brother.\" =", "У неё нет брата.", "У неё нет брат.", "У она нет брата.", "Она не имеет брат.", "нет + genitive case: брата; она becomes неё after у."],
       ["mc", "\"I have a headache.\" =", "У меня болит голова.", "У меня есть болит голова.", "Я болит голова.", "Меня болит голова.", "Here есть drops out: У меня болит голова."],

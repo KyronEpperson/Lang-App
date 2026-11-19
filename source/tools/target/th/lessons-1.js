@@ -85,7 +85,7 @@ module.exports = [
 {{ex:นก|nók|bird}}
 {{ex:บาท|bàat|baht}}
 <div class="tip">In fast, casual speech you will hear r said as l (<b>รัก</b> <i>rák</i> sounds like <i>lák</i>) and the r dropped after another consonant (<b>ครับ</b> <i>khráp</i> sounds like <i>kháp</i>). This course writes and romanizes the careful form, which everyone understands.</div>
-<div class="tip"><b>Most common mistake:</b> an English puff on the plain sounds. <b>ไป</b> <i>bpai</i> (go) said with a puff, like <i>phaai</i> → <i>bpai</i>, with tense lips and no air.</div>
+<div class="tip"><b>Most common mistake:</b> an English puff on the plain sounds. <b>ไป</b> <i>bpai</i> (go) said with a puff, like <i>phai</i> → <i>bpai</i>, with tense lips and no air.</div>
 `,
     check: [
       ["How is the romanization bp pronounced?",["Like an English p, with a puff of air","Like f","Like a b with tense lips and no puff of air","As two sounds, b and then p"],2,"bp is a plain p with no puff, which English ears hear as close to b."],
@@ -106,7 +106,7 @@ module.exports = [
       ["fi","__ maa","The chicken is coming.","gài","khài|gâi|khâi","Chicken is gài: no puff of air and a low tone.","!strict"],
       ["ty","Type the romanization of ข้าว (rice)","khâao","falling tone · long aa + o","khǎao","ข้าว (khâao) has a falling tone and a long vowel; ขาว (khǎao) is white.","!strict"],
       ["ty","Type the romanization of ดุ (to scold)","dù","short vowel · low tone","duu","ดู (duu) has a long vowel; ดุ (dù) is short.","!strict"],
-      ["ty","Type the romanization of ไข่ (egg)","khài","kh: a k with a puff of air · ai","gài","ไข่ starts with kh, a k with a puff of air; gài, with no puff, is a chicken."]
+      ["ty","Type the romanization of ไข่ (egg)","khài","kh: a k with a puff of air · ai","gài","ไข่ starts with kh, a k with a puff of air; gài, with no puff, is a chicken.","!strict"]
     ]
   },
   {
@@ -122,7 +122,7 @@ module.exports = [
 <p><b>สวัสดี</b> <i>sà-wàt-dii</i> is hello and goodbye, at any time of day.</p>
 {{ex:สวัสดีครับ|sà-wàt-dii khráp|Hello. (male speaker)}}
 {{ex:สวัสดีค่ะ คุณสมชาย|sà-wàt-dii khâ khun sǒm-chaai|Hello, Somchai. (female speaker)}}
-<p><b>คุณ</b> <i>khun</i> before a first name is the polite title, for men and women: คุณสมชาย. Thais use first names, never the family name. When an adult greets you with a <b>wai</b>, palms together, answer with one; staff in shops and hotels don't expect you to start one. To leave, people say สวัสดี or <b>ไปก่อนนะ</b> <i>bpai gàawn ná</i>. <b>ลาก่อน</b> <i>laa-gàawn</i> means "farewell" and sounds like a book or a final goodbye.</p>
+<p><b>คุณ</b> <i>khun</i> before a first name is the polite title, for men and women: คุณสมชาย. Thais use first names, never the family name. When a host or anyone older greets you with a <b>wai</b>, palms together, return it. When staff in shops and hotels wai you, a smile and a nod is enough, and nobody expects you to start one. To leave, people say สวัสดี or <b>ไปก่อนนะ</b> <i>bpai gàawn ná</i>. <b>ลาก่อน</b> <i>laa-gàawn</i> means "farewell" and sounds like a book or a final goodbye.</p>
 {{ex:ไปก่อนนะครับ|bpai gàawn ná khráp|I'm off now. (male speaker)}}
 <h3>Thank you, sorry, it's OK</h3>
 <p><b>ขอบคุณ</b> <i>khàawp-khun</i> is thank you; <b>มาก</b> <i>mâak</i> after it makes it "very much". <b>ขอโทษ</b> <i>khǎaw-thôot</i> is sorry, and also "excuse me" to get someone's attention. <b>ไม่เป็นไร</b> <i>mâi-bpen-rai</i> means it's OK, never mind, no problem.</p>
@@ -146,7 +146,7 @@ module.exports = [
       ["mc","Which is the romanization of ค่ะ (female speaker, in a statement)?","khâ","khá","khà","kháa","ค่ะ has a falling tone: khâ. khá, with a high tone, is the question form."],
       ["mc","A woman asks How are you? Which ending is right?","สบายดีไหมคะ","สบายดีไหมค่ะ","สบายดีไหมครับ","สบายดีค่ะ","A woman's question ends in คะ; a man's ends in ครับ."],
       ["mc","You bump into someone. What do you say?","ขอโทษ","ขอบคุณ","ไม่เป็นไร","ยินดีที่ได้รู้จัก","ขอโทษ is sorry, and also excuse me."],
-      ["mc","Which is the polite way to say goodbye when you leave?","ไปก่อนนะ","ลาก่อน","ยินดีที่ได้รู้จัก","ขอบคุณ","People say ไปก่อนนะ or สวัสดี when leaving; ลาก่อน sounds like a final farewell."],
+      ["mc","Which is the everyday way to say goodbye when you leave?","ไปก่อนนะ","ลาก่อน","ยินดีที่ได้รู้จัก","ขอบคุณ","People say ไปก่อนนะ or สวัสดี when leaving; ลาก่อน sounds like a final farewell."],
       ["mc","Which word goes before a first name as a polite title?","คุณ","ครับ","ค่ะ","ไหม","คุณ + first name, as in คุณมาลี, for men and women."],
       ["or","Sorry. (female speaker)","ขอโทษ ค่ะ","คะ","In a statement ค่ะ has a falling tone; คะ with a high tone is for questions."],
       ["or","How are you? (female speaker)","สบาย ดี ไหม คะ","ค่ะ","A question ends in คะ, with a high tone; ค่ะ, with a falling tone, ends statements."],
@@ -165,7 +165,7 @@ module.exports = [
     blurb: "Count to a million, read a price tag aloud in Thai, and ask how much something costs.",
     deck: "Numbers and money",
     body: `
-<p>Thai numbers are very regular: learn ten words and a few rules, and you can say any price. Watch the tones, because two of the numbers have a twin word.</p>
+<p>Thai numbers are very regular: learn ten words and a few rules, and you can say any price. Watch the tones, because three of the numbers have a twin word.</p>
 <h3>Zero to ten</h3>
 <div class="tbl"><table><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr><tr><td class="k">ศูนย์</td><td class="k">หนึ่ง</td><td class="k">สอง</td><td class="k">สาม</td><td class="k">สี่</td><td class="k">ห้า</td></tr><tr><td><i>sǔun</i></td><td><i>nùeng</i></td><td><i>sǎawng</i></td><td><i>sǎam</i></td><td><i>sìi</i></td><td><i>hâa</i></td></tr><tr><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th></th></tr><tr><td class="k">หก</td><td class="k">เจ็ด</td><td class="k">แปด</td><td class="k">เก้า</td><td class="k">สิบ</td><td></td></tr><tr><td><i>hòk</i></td><td><i>jèt</i></td><td><i>bpàaet</i></td><td><i>gâao</i></td><td><i>sìp</i></td><td></td></tr></table></div>
 <p>Tone twins to watch: <b>ห้า</b> <i>hâa</i> (five) has a falling tone, but <b>หา</b> <i>hǎa</i> with a rising tone means "to look for". <b>เก้า</b> <i>gâao</i> (nine) is falling and long, but <b>เก่า</b> <i>gào</i> means "old". <b>สี่</b> <i>sìi</i> (four) is low; <b>สี</b> <i>sǐi</i> with a rising tone is "color".</p>
@@ -173,7 +173,7 @@ module.exports = [
 {{ex:เก้าบาท|gâao bàat|nine baht}}
 {{ex:เก้าสิบบาท|gâao-sìp bàat|ninety baht}}
 <h3>Eleven to ninety-nine</h3>
-<p>Tens are a number plus สิบ: สามสิบ is thirty. Two exceptions. Twenty is <b>ยี่สิบ</b> <i>yîi-sìp</i>, never สองสิบ. And a 1 at the end of any bigger number is <b>เอ็ด</b> <i>èt</i>, not หนึ่ง.</p>
+<p>Tens are a number plus สิบ: สามสิบ is thirty. Two exceptions. Twenty is <b>ยี่สิบ</b> <i>yîi-sìp</i>, never สองสิบ. And a 1 at the end of any bigger number is <b>เอ็ด</b> <i>èt</i>, not หนึ่ง (you may hear ยี่สิบหนึ่ง in casual speech, but ยี่สิบเอ็ด is the standard form).</p>
 {{ex:สิบเอ็ด|sìp-èt|eleven}}
 {{ex:ยี่สิบ|yîi-sìp|twenty}}
 {{ex:ยี่สิบเอ็ด|yîi-sìp-èt|twenty-one}}
@@ -199,14 +199,14 @@ module.exports = [
     practice: [
       ["mc","Which is the romanization of สอง (two)?","sǎawng","sàawng","sâawng","saawng","สอง has a rising tone: sǎawng."],
       ["mc","How do you say 20?","ยี่สิบ","สองสิบ","สิบสอง","ยี่สิบเอ็ด","20 is ยี่สิบ, not สองสิบ."],
-      ["mc","How do you say 21?","ยี่สิบเอ็ด","ยี่สิบหนึ่ง","สองสิบเอ็ด","สิบยี่สิบ","The 1 at the end of a bigger number is เอ็ด."],
+      ["mc","How do you say 21?","ยี่สิบเอ็ด","สองสิบหนึ่ง","สองสิบเอ็ด","สิบยี่สิบ","The 1 at the end of a bigger number is เอ็ด."],
       ["mc","A price tag says 50 บาท. How do you read it?","ห้าสิบบาท","ห้าศูนย์บาท","สิบห้าบาท","ห้าร้อยบาท","Read the digits as one Thai number: 50 is ห้าสิบ."],
       ["mc","What is หมื่น?","ten thousand","one thousand","a hundred thousand","a million","Thai has its own word for 10,000: หมื่น. แสน is 100,000."],
       ["or","five baht","ห้า บาท","หา","ห้า (hâa, five) has a falling tone; หา (hǎa) with a rising tone means to look for."],
       ["or","nine baht","เก้า บาท","เก่า","เก้า (gâao, nine) has a falling tone and a long vowel; เก่า (gào) means old."],
       ["or","twenty-five baht","ยี่สิบห้า บาท","สองสิบห้า","Twenty is ยี่สิบ, never สองสิบ, and บาท comes after the number."],
       ["fi","__บาท","nine baht","เก้า","เก่า|เก้าสิบ|แปด","Nine is เก้า, falling and long; เก่า means old."],
-      ["fi","ยี่สิบ__","twenty-one","เอ็ด","หนึ่ง|สอง|สิบ","A 1 at the end of a bigger number is เอ็ด."],
+      ["fi","ยี่สิบ__","twenty-one","เอ็ด","สาม|สอง|สิบ","A 1 at the end of a bigger number is เอ็ด."],
       ["fi","ทั้งหมด__","How much altogether?","เท่าไร|เท่าไหร่","ไหม|บาท|มาก","เท่าไร (how much) goes at the end; it needs no ไหม."],
       ["ty","ninety baht","เก้าสิบ บาท","เก้าสิบ (gâao-sìp) · บาท (bàat)","เก่า","เก้า (gâao) has a falling tone and a long vowel; เก่า (gào) means old."],
       ["ty","500 baht","ห้าร้อย บาท","ห้าร้อย (hâa-ráawi) · บาท (bàat)","หา","ห้า (hâa) has a falling tone; หา (hǎa), with a rising tone, means to look for."],
@@ -221,7 +221,7 @@ module.exports = [
     body: `
 <p>Thai script looks dense at first, but it is built simply. Each syllable is built on a consonant. The vowel is written around that consonant: before it, after it, above it or below it (the next lesson). Words run together with no spaces; a space marks the end of a phrase, where English would put a comma or a period.</p>
 <h3>Letters have names</h3>
-<p>The Thai alphabet has 44 consonants, but many share a sound, and about 30 cover almost everything you will read. Each letter has a name: its sound plus <i>aw</i>, then a word that starts with it, the way English children say "A for apple".</p>
+<p>The Thai alphabet has 44 consonants, but many share a sound, and about 30 cover almost everything you will read. Each letter has a name: its sound plus <i>aaw</i>, then a word that starts with it, the way English children say "A for apple".</p>
 {{ex:ก ไก่|gaaw gài|the letter g, as in chicken}}
 {{ex:ข ไข่|khǎaw khài|the letter kh, as in egg}}
 <h3>The three classes</h3>
@@ -270,13 +270,13 @@ module.exports = [
       ["mc","What does อ do at the start of a syllable?","It is silent and holds the vowel","It sounds like o","It sounds like a","It makes the tone high","อ at the start is silent: อาหาร starts straight on the vowel."],
       ["or","long legs (romanization)","khǎa yaao","khaa","ข is a high-class consonant, so ขา has a rising tone."],
       ["or","a pretty dog (romanization)","mǎa sǔuai","suuai","ส is a high-class consonant, so สวย has a rising tone; with a mid tone it means unlucky."],
-      ["or","the letter name of ก (romanization)","gaaw gài","khǎaw","A letter's name is its sound plus aw, then a word: ก ไก่, g as in chicken."],
+      ["or","the letter name of ก (romanization)","gaaw gài","khǎaw","A letter's name is its sound plus aaw, then a word: ก ไก่, g as in chicken."],
       ["fi","__ yaao","long legs","khǎa","khaa|khâa|kháa","ข is high class: ขา has a rising tone.","!strict"],
       ["fi","__ ไก่","the letter g, as in chicken","ก","ข|ค|จ","ไก่ starts with ก, so its letter name is ก ไก่."],
       ["fi","__ ควาย","the letter kh, as in buffalo","ค","ข|ก|ง","ควาย starts with the low-class ค, the kh letter used in ค ควาย."],
       ["ty","Type the romanization of ขา (leg)","khǎa","kh · long aa · high class","khaa","ข is a high-class consonant: with a long vowel and no tone mark it gives a rising tone.","!strict"],
       ["ty","Type the romanization of สวย (pretty)","sǔuai","s · uuai · high class","suuai","ส is a high-class consonant, so สวย has a rising tone; said with a mid tone it is ซวย, unlucky.","!strict"],
-      ["ty","Type the romanization of the letter ข and its name word","khǎaw khài","kh + aw · then the word egg","gài","Its name is ข ไข่: kh plus aw, then the word for egg."]
+      ["ty","Type the romanization of the letter ข and its name word","khǎaw khài","kh + aaw · then the word egg","gài","Its name is ข ไข่: kh plus aaw, then the word for egg.","!strict"]
     ]
   },
   {
@@ -312,7 +312,8 @@ module.exports = [
 {{ex:ทำ|tham|to do; to make}}
 <h3>Long and short</h3>
 <p>Most vowels come in pairs, and vowel length changes the word. Thai script shows length, so you can see it before you hear it.</p>
-<div class="tbl"><table><tr><th>Short</th><th>Long</th></tr><tr><td class="k">ดุ</td><td class="k">ดู</td></tr><tr><td class="k">จะ</td><td class="k">มา</td></tr><tr><td class="k">เด็ก</td><td class="k">เธอ</td></tr><tr><td class="k">เข้า</td><td class="k">ข้าว</td></tr></table></div>
+<div class="tbl"><table><tr><th>Short</th><th>Long</th></tr><tr><td class="k">ดุ</td><td class="k">ดู</td></tr><tr><td class="k">จะ</td><td class="k">มา</td></tr><tr><td class="k">เยอะ</td><td class="k">เธอ</td></tr><tr><td class="k">เข้า</td><td class="k">ข้าว</td></tr></table></div>
+{{ex:เยอะมาก|yóe mâak|a lot; very many}}
 {{ex:เข้าบ้าน|khâo bâan|to go into the house}}
 {{ex:กินข้าว|gin khâao|to eat; to have a meal}}
 <p>Here is the next tone rule, for mid-class letters: a long vowel at the end gives a mid tone (ตา), and a short vowel at the end gives a low tone (<b>จะ</b> <i>jà</i>, <b>ดุ</b> <i>dù</i>).</p>
@@ -325,7 +326,7 @@ module.exports = [
 `,
     check: [
       ["In เด็ก (child), what do you say first?",["The vowel เ","The consonant ด","The final ก","It depends on the tone"],1,"เ is written before the consonant but said after it: d, then e, then k."],
-      ["Which pair differs only in vowel length?",["ไก่ / ไข่","ตา / มา","ดุ / ดู","ใจ / ไป"],2,"ดุ has a short u and ดู a long one; nothing else changes."],
+      ["Which pair differs in vowel length?",["ไก่ / ไข่","ตา / มา","ดุ / ดู","ใจ / ไป"],2,"ดุ has a short u and ดู a long one; the short vowel also gives ดุ its low tone."],
       ["Why is there an อ in อา (aunt) or อาหาร (food)?",["It is a vowel sound o","It makes the word polite","It shows a high tone","It is silent and carries the vowel"],3,"A syllable that starts with a vowel sound uses the silent อ as its consonant."]
     ],
     practice: [
@@ -354,7 +355,7 @@ module.exports = [
 <p>English needs a pronoun in every sentence: "I'm going." Thai has more pronouns to choose from, and then leaves them out most of the time.</p>
 <h3>I and you</h3>
 <p>"I" depends on who is speaking. A man says <b>ผม</b> <i>phǒm</i>. A woman says <b>ฉัน</b> <i>chǎn</i> in everyday speech and <b>ดิฉัน</b> <i>dì-chǎn</i> in formal situations. The polite "you" for adults is <b>คุณ</b> <i>khun</i>.</p>
-{{ex:ผมชื่อไมค์|phǒm chûue mai|My name is Mike. (male speaker)}}
+{{ex:ผมชื่อไมค์|phǒm chûue mái|My name is Mike. (male speaker)}}
 {{ex:คุณชื่ออะไร|khun chûue à-rai|What's your name?}}
 <p><b>เขา</b> <i>khǎo</i> means he or she, and <b>เรา</b> <i>rao</i> means we. <b>พวก</b> <i>phûuak</i> in front makes a group: <b>พวกเขา</b> <i>phûuak-khǎo</i>, they.</p>
 {{ex:เขามา|khǎo maa|He's coming. She's coming.}}
@@ -451,7 +452,7 @@ module.exports = [
       ["fi","มา__บ้าน","come from home","จาก","ราก|จะ|ขาด","From is จาก: mid class, dead syllable, low tone."],
       ["ty","Type the romanization of จาก (from)","jàak","j · long aa · final k","jaak","A dead syllable on a mid-class letter takes a low tone: จาก (jàak).","!strict"],
       ["ty","Type the romanization of ราก (root)","râak","r · long aa · final k","rák","Low class, dead syllable, long vowel: a falling tone. รัก, short, means to love.","!strict"],
-      ["ty","Type the romanization of อาหาร (food)","aa-hǎan","two syllables, joined by a hyphen · final ร is n","aa-hǎar","Final ร is read n, so อาหาร ends in n."]
+      ["ty","Type the romanization of อาหาร (food)","aa-hǎan","two syllables, joined by a hyphen · final ร is n","aa-hǎar","Final ร is read n, so อาหาร ends in n.","!strict"]
     ]
   },
   {
@@ -474,7 +475,7 @@ module.exports = [
 <p>For place, Thai uses <b>อยู่</b> <i>yùu</i>, "to be at, to stay, to live". เป็น never means "is at".</p>
 {{ex:ห้องน้ำอยู่ที่ไหน|hâwng-náam yùu thîi-nǎi|Where is the bathroom?}}
 {{ex:ผมอยู่ที่บ้าน|phǒm yùu thîi bâan|I'm at home. (male speaker)}}
-{{ex:ตลาดอยู่ใกล้|dtà-làat yùu glâi|The market is near.}}
+{{ex:ตลาดอยู่ใกล้บ้าน|dtà-làat yùu glâi bâan|The market is near the house.}}
 {{ex:บ้านผมอยู่ไกล|bâan phǒm yùu glai|My house is far. (male speaker)}}
 {{ex:ธนาคารอยู่ไกล|thá-naa-khaan yùu glai|The bank is far.}}
 <p>Listen for ใกล้ and ไกล here: near has a falling tone, far a mid tone. In a sentence about place the two sound very close, so say the tone clearly and, if a driver looks unsure, point.</p>
@@ -507,7 +508,7 @@ module.exports = [
       ["or","I'm hungry. (female speaker)","ฉัน หิว ค่ะ","เป็น","Describing words need no เป็น: ฉันหิว."],
       ["fi","ผม__ครู","I'm a teacher. (male speaker)","เป็น","อยู่|ใช่|ไม่","เป็น goes before a job or role."],
       ["fi","ห้องน้ำ__ที่ไหน","Where is the bathroom?","อยู่","เป็น|คือ|ใช่","Where something is takes อยู่."],
-      ["fi","ตลาดอยู่__","The market is near.","ใกล้","ไกล|ไก่|ไข่","Near is ใกล้, with a falling tone; ไกล means far."],
+      ["fi","ตลาดอยู่__บ้าน","The market is near the house.","ใกล้","ไกล|ไก่|ไข่","Near is ใกล้, with a falling tone; ไกล means far."],
       ["ty","My house is far. (male speaker)","บ้าน ผม อยู่ ไกล ครับ|บ้าน ผม อยู่ ไกล|บ้าน ผม ไกล ครับ|บ้าน ผม ไกล|บ้าน ของ ผม อยู่ ไกล ครับ|บ้าน ของ ผม อยู่ ไกล|บ้าน ของ ผม ไกล ครับ|บ้าน ของ ผม ไกล","บ้าน (bâan) · ผม (phǒm) · อยู่ (yùu) · ไกล (glai) · ครับ (khráp)","ใกล้","ไกล (glai) has a mid tone; ใกล้, with a falling tone, means near. The owner comes after the noun: บ้านผม."],
       ["ty","My older sister is a nurse. (female speaker)","พี่สาว ฉัน เป็น พยาบาล ค่ะ|พี่สาว ฉัน เป็น พยาบาล|พี่สาว ของ ฉัน เป็น พยาบาล ค่ะ|พี่สาว ของ ฉัน เป็น พยาบาล","พี่สาว (phîi-sǎao) · ฉัน (chǎn) · เป็น (bpen) · พยาบาล (phá-yaa-baan) · ค่ะ (khâ)","ผม","The owner comes after the noun: พี่สาวฉัน, then เป็น before the job."],
       ["ty","I'm not a teacher. (male speaker)","ผม ไม่ ใช่ ครู ครับ|ผม ไม่ ใช่ ครู|ไม่ ใช่ ครู ครับ|ไม่ ใช่ ครู|ผม ไม่ ได้ เป็น ครู ครับ|ผม ไม่ ได้ เป็น ครู|ไม่ ได้ เป็น ครู ครับ|ไม่ ได้ เป็น ครู","ผม (phǒm) · ไม่ใช่ (mâi châi) · ครู (khruu) · ครับ (khráp)","เป็น","Before a noun, not is ไม่ใช่ (or ไม่ได้เป็น), never ไม่เป็น."]

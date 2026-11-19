@@ -228,7 +228,7 @@ module.exports = [
 <p>Like English <i>cl</i>, <i>pr</i> or <i>tr</i>, Thai can start a syllable with a consonant plus ร, ล or ว: <b>ครับ</b> <i>khráp</i>, <b>ปลา</b> <i>bplaa</i> (fish), <b>ขวา</b> <i>khwǎa</i> (right). The tone follows the class of the <b>first</b> letter, and a tone mark sits over the second one, as in <b>ใกล้</b> <i>glâi</i> (near).</p>
 {{ex:เลี้ยวขวา|líiao khwǎa|Turn right.}}
 {{ex:ตรงไป|dtrong bpai|Go straight.}}
-{{ex:ตลาดอยู่ใกล้|dtà-làat yùu glâi|The market is near.}}
+{{ex:ตลาดอยู่ใกล้ๆ|dtà-làat yùu glâi-glâi|The market is close by.}}
 {{ex:ไม่ไกล|mâi glai|It's not far.}}
 <p>In casual speech many people drop the ร or ล of a cluster, so you will hear ครับ said without the r. The course writes and romanizes the full form.</p>
 <h3>Leading ห: silent, but it changes the tone</h3>
@@ -258,7 +258,7 @@ module.exports = [
       ["or", "It's near the market.", "อยู่ ใกล้ ตลาด", "ไกล", "ใกล้ (glâi) has a falling tone; ไกล (glai), with a mid tone, means far."],
       ["or", "a big dog", "หมา ตัว ใหญ่", "ม้า", "หมา (mǎa, rising tone) is a dog; ม้า, with a high tone, is a horse. The describer comes after the noun."],
       ["or", "Where is the bathroom?", "ห้องน้ำ อยู่ ที่ไหน", "ไหม", "ที่ไหน goes at the end, where the answer would be; no ไหม with it."],
-      ["fi", "ตลาดอยู่__", "The market is near.", "ใกล้", "ไกล|ไก่|ใคร", "Near is ใกล้, with ้ and a falling tone."],
+      ["fi", "บ้านอยู่__ตลาด", "The house is near the market.", "ใกล้", "ไกล|ไก่|ใคร", "Near is ใกล้, with ้ and a falling tone."],
       ["fi", "เลี้ยว__", "Turn right.", "ขวา", "ซ้าย|ขาว|ข้าว", "Right is ขวา, a cluster: ข and ว said together."],
       ["fi", "__ไป", "Go straight.", "ตรง", "ตลาด|ใกล้|ไกล", "Straight is ตรง, a cluster: ต and ร together."],
       ["ty", "It's not far.", "ไม่ ไกล|ไม่ ไกล ครับ|ไม่ ไกล ค่ะ", "ไม่ (mâi) · ไกล (glai)", "ใกล้", "ไกล (glai) has a mid tone; ใกล้, with a falling tone, means near."],
@@ -316,7 +316,7 @@ module.exports = [
       ["mc", "How much is it?", "ราคาเท่าไร", "เท่าไรราคา", "ราคาเท่าไรไหม", "ราคาไหม", "เท่าไร goes where the price would be; no ไหม."],
       ["mc", "How many people are there?", "มีกี่คน", "กี่มีคน", "มีคนกี่", "มีกี่ไหม", "กี่ comes before the classifier คน."],
       ["or", "What's your name?", "คุณ ชื่อ อะไร", "ไหม", "อะไร goes where the name would be; no ไหม with a question word."],
-      ["or", "How many cats are there?", "มี แมว กี่ ตัว", "คน", "กี่ and the classifier come after the noun: แมวกี่ตัว; animals take ตัว."],
+      ["or", "How many cats are there? (start with มี)", "มี แมว กี่ ตัว", "คน", "กี่ and the classifier come after the noun: แมวกี่ตัว; animals take ตัว."],
       ["or", "Which shirt?", "เสื้อ ตัว ไหน", "คน", "ไหน works like นี้: noun, classifier, then ไหน, after the noun."],
       ["fi", "คุณกิน__", "What are you eating?", "อะไร", "ใคร|ที่ไหน|ไหม", "What is อะไร, in the place of the thing."],
       ["fi", "ห้องน้ำอยู่__", "Where is the bathroom?", "ที่ไหน|ไหน", "อะไร|ใคร|ไหม", "Where is ที่ไหน (or just ไหน), after อยู่."],
@@ -334,9 +334,9 @@ module.exports = [
     body: `
 <p>You can now read most Thai syllables with the rules. A handful of spellings break them, and they are common, so this lesson collects them. Then it puts everything together: reading a line with no spaces between words.</p>
 <h3>Silent letters under ์</h3>
-<p>The small mark ์ over a letter means "don't say this letter". It is frequent in words borrowed from English and from old Indian languages: <b>เบียร์</b> <i>biia</i> (beer) ends on the vowel, and <b>ไมค์</b> <i>mai</i> (the name Mike) has no k.</p>
+<p>The small mark ์ over a letter means "don't say this letter". It is frequent in words borrowed from English and from old Indian languages: <b>เบียร์</b> <i>biia</i> (beer) ends on the vowel, and <b>ไมค์</b> <i>mái</i> (the name Mike) has no k. Words borrowed from English also often take a high tone that the spelling does not show, as ไมค์ does; the romanization tells you.</p>
 {{ex:เบียร์สองขวด|biia sǎawng khùuat|two bottles of beer}}
-{{ex:ผมชื่อไมค์|phǒm chûue mai|My name is Mike. (male speaker)}}
+{{ex:ผมชื่อไมค์|phǒm chûue mái|My name is Mike. (male speaker)}}
 <h3>ทร said s, and a silent ร</h3>
 <p>In a few words ทร is said <i>s</i>: <b>ทราบ</b> <i>sâap</i>, a formal "to know". In <b>จริง</b> <i>jing</i> (true, real) the ร is simply not said.</p>
 {{ex:ผมไม่ทราบครับ|phǒm mâi sâap khráp|I don't know. (formal, male speaker)}}
@@ -400,7 +400,7 @@ module.exports = [
 {{ex:เผ็ดนิดหน่อย|phèt nít-nàwi|a little spicy}}
 {{ex:อร่อยมาก|à-ràwi mâak|It's delicious.}}
 <h3>Calling the server</h3>
-<p>Thai restaurants often call a younger server <b>น้อง</b> <i>náawng</i>, "younger sibling", with the particle: <b>น้องครับ</b> or <b>น้องคะ</b> (a question tone, as when calling someone). <b>ขอโทษครับ</b> or <b>ขอโทษค่ะ</b> ("excuse me") works with anyone.</p>
+<p>In Thai restaurants people often call a younger server <b>น้อง</b> <i>náawng</i>, "younger sibling", with the particle: <b>น้องครับ</b> or <b>น้องคะ</b> (คะ, the high tone of questions, is also used when calling someone). <b>ขอโทษครับ</b> or <b>ขอโทษค่ะ</b> ("excuse me") works with anyone.</p>
 {{ex:น้องคะ|náawng khá|Excuse me! (to a younger server, female speaker)}}
 <h3>Paying and taking it away</h3>
 <p>To ask for the bill, say <b>เช็คบิลด้วย</b>; ด้วย makes it softer. For takeaway, <b>ห่อกลับบ้าน</b> means "wrap it to take home".</p>
@@ -446,7 +446,7 @@ module.exports = [
 <p>English says "brother" and "sister". Thai first says whether the sibling is older (<b>พี่</b> <i>phîi</i>) or younger (<b>น้อง</b> <i>náawng</i>), then adds ชาย or สาว. There is no everyday word for just "brother" or "sister".</p>
 <div class="tbl"><table><tr><th></th><th>Older</th><th>Younger</th></tr><tr><td>brother</td><td class="k">พี่ชาย</td><td class="k">น้องชาย</td></tr><tr><td>sister</td><td class="k">พี่สาว</td><td class="k">น้องสาว</td></tr></table></div>
 {{ex:ฉันมีน้องชายสองคน|chǎn mii náawng-chaai sǎawng khon|I have two younger brothers. (female speaker)}}
-{{ex:มีพี่น้องกี่คน|mii phîi náawng gìi khon|How many brothers and sisters do you have?}}
+{{ex:มีพี่น้องกี่คน|mii phîi-náawng gìi khon|How many brothers and sisters do you have?}}
 <p><b>พี่น้อง</b> together means "brothers and sisters".</p>
 <p>These words reach far beyond the family. As you saw in the lesson on pronouns, Thais call a slightly older friend or colleague พี่ and a younger one น้อง, and use the same words for "I" when talking to them. So when someone says พี่ไปไหน, they may be talking to a coworker, not a real older brother. Older vendors are often called ลุง (uncle) or ป้า (aunt) in the same friendly way. Age decides who is who, which is one reason Thais may ask your age soon after meeting you; it is not rude.</p>
 <h3>Jobs: เป็น and ทำงานที่</h3>

@@ -69,11 +69,11 @@ module.exports = {
 Спасибо большое! | spah-SEE-bah bahl'-SHOH-yih | Thank you very much! | Another answer: Не за что ("Don't mention it").
 Пожалуйста. | pah-ZHAHL-stah | Please. / You're welcome. | One word, two jobs. Said pah-ZHAHL-stah.
 Извините! | eez-vee-NEE-tih | Excuse me! / Sorry! (formal) | To get attention or to apologize. To a friend: Извини!
-Простите. | prahs-TEE-tih | I'm sorry. (formal) | For a real apology. To a friend: Прости.
+Простите. | prahs-TEE-tih | I'm sorry. (formal) | Like Извините: an apology, or to get attention. To a friend: Прости.
 Ничего страшного. | nee-chih-VOH STRAHSH-nah-vah | No problem. / That's OK. | The kind reply to an apology. Word for word: "nothing terrible".
 Можно? | MOHZH-nah | May I? | Point at the seat, the menu or the door: Можно? covers it.
 Я не понимаю. | yah nih pah-nee-MAH-yoo | I don't understand. | не goes right before the verb.
-Можно медленнее? | MOHZH-nah MYEH-dlihn-nih-yih | More slowly, please? | Word for word: "Is slower possible?"
+Можно помедленнее? | MOHZH-nah pah-MYEH-dlihn-nih-yih | More slowly, please? | Word for word: "Is a little slower possible?"
 Да, конечно. | dah kah-NYEHSH-nah | Yes, of course. | 
 Добро пожаловать! | dah-BROH pah-ZHAH-lah-vaht' | Welcome! | On signs, in shops, and at the door of a home.
 `,

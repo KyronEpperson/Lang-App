@@ -3,7 +3,7 @@ module.exports = {
   "Food and drink": `
 ข้าวผัดกุ้ง | khâao-phàt gûng | shrimp fried rice | The main word comes first: rice, fried, shrimp.
 ไม่เผ็ด | mâi phèt | not spicy | When ordering: ไม่เผ็ดนะครับ / ไม่เผ็ดนะคะ.
-น้ำเปล่า | náam-bplàao | plain water | น้ำ alone is water or any drink.
+น้ำเปล่า | nám-bplàao | plain water | น้ำ alone is water or any drink. Alone it is long (náam); at the start of a compound like this one it is usually short.
 อร่อยมาก | à-ràwi mâak | very tasty | มาก comes after the word it makes stronger.
 เช็คบิลด้วย | chék-bin dûuai | check, please | ด้วย makes the request softer.
 ขอเมนูหน่อย | khǎaw mee-nuu nàwi | Could I see the menu? | ขอ + thing + หน่อย. Add ครับ or ค่ะ.
@@ -11,9 +11,9 @@ module.exports = {
 เอาผัดไทยหนึ่งจาน | ao phàt-thai nùeng jaan | One pad thai, please. | เอา = I'll take. Plates are counted with จาน, after the number.
 ส้มตำไม่ใส่พริก | sôm-dtam mâi sài phrík | papaya salad with no chili | ไม่ใส่ = don't put in. Works for any ingredient.
 ต้มยำกุ้ง | dtôm-yam gûng | tom yum soup with shrimp | ต้ม = boil, ยำ = mix with a sour, spicy dressing.
-ข้าวเหนียวมะม่วง | khâao-nǐiao má-mûuang | mango sticky rice | A favorite dessert in mango season (spring).
+ข้าวเหนียวมะม่วง | khâao-nǐiao má-mûuang | mango sticky rice | A favorite dessert in mango season (March to May).
 ชาเย็น | chaa-yen | Thai iced tea | Sweet, with milk. Literally "cold tea".
-ไม่ใส่น้ำแข็ง | mâi sài náam-khǎeng | no ice | Drinks come with ice unless you ask.
+ไม่ใส่น้ำแข็ง | mâi sài nám-khǎeng | no ice | Drinks come with ice unless you ask.
 ห่อกลับบ้าน | hàaw glàp bâan | to go; for takeout | Literally "wrap, go back home".
 หิวน้ำ | hǐu-náam | thirsty | Literally "hungry for water". No เป็น: ผมหิวน้ำ.
 ผมกินมังสวิรัติ | phǒm gin mang-sà-wí-rát | I'm vegetarian. (male speaker) | A woman says ฉันกินมังสวิรัติ. Literally "I eat vegetarian".
@@ -45,7 +45,7 @@ module.exports = {
 บ่ายสองโมง | bàai sǎawng moong | 2 p.m. | Afternoon hours count from บ่ายโมง (1 p.m.).
 วันเสาร์ | wan-sǎo | Saturday | |
 ตอนนี้กี่โมง | dtaawn-níi gìi moong | What time is it now? | กี่โมง = what time (how many hours).
-หกโมงเช้า | hòk moong cháao | 6 a.m. | Morning hours from 6 to 11 end with เช้า.
+หกโมงเช้า | hòk moong cháao | 6 a.m. | Morning hours from 6 to 11 are … โมง, usually with เช้า after: แปดโมงเช้า.
 เที่ยง | thîiang | noon | Lunch time. บ่ายโมง (1 p.m.) comes right after it.
 หนึ่งทุ่ม | nùeng thûm | 7 p.m. | Evening hours restart: หนึ่งทุ่ม (7 p.m.) to ห้าทุ่ม (11 p.m.).
 เที่ยงคืน | thîiang-khuuen | midnight | Literally "noon of the night".
@@ -74,13 +74,13 @@ module.exports = {
 โรงแรม | roong-raaem | hotel | |
 สถานีรถไฟฟ้า | sà-thǎa-nii rót-fai-fáa | Skytrain station | สถานี (station) comes first, then what kind.
 ซอย | saawi | side street (soi) | Small streets off a main road are numbered: สุขุมวิทซอย 11.
-ธนาคารอยู่ใกล้ๆ | thá-naa-khaan yùu glâi-glâi | The bank is close by. | ใกล้ๆ = quite near; ๆ repeats the word.
+ธนาคารอยู่ใกล้ๆ | thá-naa-khaan yùu glâi-glâi | The bank is close by. | ใกล้ๆ = nearby, close by; ๆ repeats the word.
 ไปทางไหน | bpai thaang nǎi | Which way? | ทาง = way, direction.
 วัด | wát | temple | Dress modestly: shoulders and knees covered.
 `,
   "Getting around": `
 ไปสนามบิน | bpai sà-nǎam-bin | to the airport | To a driver: ไป + place (+ ครับ / ค่ะ). No word for "to".
-เปิดมิเตอร์ได้ไหม | bpòoet mí-dtooe dâai mǎi | Can you use the meter? | |
+เปิดมิเตอร์ได้ไหม | bpòoet mí-dtôoe dâai mǎi | Can you use the meter? | |
 จอดตรงนี้ | jàawt dtrong-níi | stop here | Add ครับ / ค่ะ, or นะครับ / นะคะ.
 รถไฟฟ้า | rót-fai-fáa | Skytrain (BTS) | บีทีเอส is also common.
 ตั๋วหนึ่งใบ | dtǔua nùeng bai | one ticket | ใบ counts tickets.
@@ -88,7 +88,7 @@ module.exports = {
 แท็กซี่ | tháek-sîi | taxi | |
 ตุ๊กตุ๊ก | dtúk-dtúk | tuk-tuk | Agree on the price first.
 รถเมล์ | rót-mee | city bus | |
-มอเตอร์ไซค์ | maaw-dtooe-sai | motorcycle; motorbike taxi | Riders in orange vests wait at the mouth of a soi.
+มอเตอร์ไซค์ | maaw-dtôoe-sai | motorcycle; motorbike taxi | Riders in orange vests wait at the mouth of a soi.
 ขึ้นรถไฟฟ้าที่สยาม | khûen rót-fai-fáa thîi sà-yǎam | Take the Skytrain at Siam. | ขึ้น = get on (a bus, a train).
 ลงที่นี่ | long thîi-nîi | I'll get off here. | ลง = get off. Add ครับ or ค่ะ.
 อยากไปเชียงใหม่ | yàak bpai chiiang-mài | I want to go to Chiang Mai. | อยาก + verb: want to.
@@ -105,9 +105,9 @@ module.exports = {
 สีดำ | sǐi dam | black | Colors take สี: เสื้อสีดำ, a black shirt.
 สีขาว | sǐi khǎao | white | ขาว (khǎao) has a rising tone; ข้าว (khâao) is rice.
 สีแดง | sǐi daaeng | red | |
-สีน้ำเงิน | sǐi náam-ngoen | dark blue | Literally "silver-water color".
+สีน้ำเงิน | sǐi nám-ngoen | dark blue | Literally "silver-water color".
 สีฟ้า | sǐi fáa | light blue | Literally "sky color".
-มีไซส์ใหญ่กว่านี้ไหม | mii sai yài gwàa níi mǎi | Do you have a bigger size? | ใหญ่กว่านี้ = bigger than this.
+มีไซส์ใหญ่กว่านี้ไหม | mii sái yài gwàa níi mǎi | Do you have a bigger size? | ใหญ่กว่านี้ = bigger than this.
 ใหญ่ไป | yài bpai | too big | |
 รองเท้าคู่นี้ | raawng-tháao khûu níi | this pair of shoes | Shoes are counted in pairs: คู่, after the noun.
 มีสีเขียวไหม | mii sǐi khǐiao mǎi | Do you have it in green? | มี … ไหม = do you have …?
@@ -125,7 +125,7 @@ module.exports = {
 ดีใจ | dii-jai | glad, happy | |
 ปวดท้อง | bpùuat-tháawng | stomachache | ท้อง = belly.
 เป็นหวัด | bpen wàt | to have a cold | Illnesses take เป็น: ผมเป็นหวัด.
-เป็นไข้ | bpen khâi | to have a fever | Not ร้อน, which is hot weather or a hot stove.
+เป็นไข้ | bpen khâi | to have a fever | For a fever say เป็นไข้; ร้อน alone is hot weather or a hot stove.
 เจ็บคอ | jèp khaaw | sore throat | เจ็บ = sore, hurt (sharp); ปวด = ache (dull).
 ง่วงนอน | ngûuang-naawn | sleepy | Literally "drowsy for sleep".
 เครียด | khrîiat | stressed | |
@@ -158,7 +158,7 @@ module.exports = {
   "Traps for English speakers": `
 ผมหิว | phǒm hǐu | I'm hungry. (male speaker) | No เป็น before a describing word: not ผมเป็นหิว.
 ฝรั่ง | fà-ràng | Westerner; guava | A neutral word for white Westerners; also the fruit.
-ฟิต | fít | tight (clothes) | Not "healthy": กางเกงฟิต means the pants are too tight.
+ฟิต | fít | tight (clothes) | Of clothes it means tight, often too tight: กางเกงฟิต. Not "it fits well".
 อิ่มแล้ว | ìm láaeo | I'm full | Not เต็ม, which is a full glass or bus.
 เผ็ด | phèt | spicy | ร้อน is hot to the touch; spicy food is เผ็ด.
 อาหารอร่อย | aa-hǎan à-ràwi | The food is delicious. | Not อาหารเป็นอร่อย: describing words need no เป็น.

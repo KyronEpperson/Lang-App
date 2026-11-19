@@ -44,7 +44,7 @@ module.exports = {
 أَتَكَلَّم الْعَرَبِيَّة قَلِيلًا | atakallam al-ʿarabiyya qalīlan | I speak a little Arabic | قَلِيلًا: -an with its extra ا.
 أَسْتَيْقِظ مُبَكِّرًا | astayqiẓ mubakkiran | I get up early | مُبَكِّرًا = early.
 تَدْرُسِين | tadrusīn | you study (to a woman) | To a man: تَدْرُس.
-آكُل الْفُطُور فِي الْبَيْت | ākul al-fuṭūr fī al-bayt | I eat breakfast at home | Past: أَكَلَ (he ate).
+آكُل الْفَطُور فِي الْبَيْت | ākul al-faṭūr fī al-bayt | I eat breakfast at home | Past: أَكَلَ (he ate).
 أَذْهَب إِلَى الْعَمَل بِالسَّيَّارَة | adhhab ilā al-ʿamal bis-sayyāra | I go to work by car | Past: ذَهَبَ. بِـ + the article = by.
 أَرْجِع إِلَى الْبَيْت | arjiʿ ilā al-bayt | I go back home | Past: رَجَعَ.
 أَطْبُخ الْعَشَاء | aṭbukh al-ʿashāʾ | I cook dinner | Past: طَبَخَ. Same root as مَطْبَخ, kitchen.
@@ -69,7 +69,7 @@ module.exports = {
 دَائِمًا | dāʾiman | always | -an with its extra ا.
 أَحْيَانًا | aḥyānan | sometimes | Often at the start: أَحْيَانًا أَشْرَب الشَّاي.
 صَبَاحًا | ṣabāḥan | in the morning | -an with its extra ا.
-فِي الْمَسَاء | fī al-masāʾ | in the evening | Morning can be صَبَاحًا; the evening is said with فِي: فِي الْمَسَاء.
+فِي الْمَسَاء | fī al-masāʾ | in the evening | The everyday way: "in" plus the article. In the morning: صَبَاحًا.
 الْأُسْبُوع الْمَاضِي | al-usbūʿ al-māḍī | last week | Both words take the article.
 الشَّهْر الْقَادِم | ash-shahr al-qādim | next month | Both words take the article.
 مَاذَا فَعَلْتَ أَمْس؟ | mādhā faʿalta ams? | What did you do yesterday? (to a man) | To a woman: مَاذَا فَعَلْتِ أَمْس؟
@@ -81,7 +81,7 @@ module.exports = {
 عَلَى الْيَمِين | ʿalā al-yamīn | on the right | Left: عَلَى الْيَسَار.
 قَرِيب مِن هُنَا | qarīb min hunā | near here | Far: بَعِيد.
 لَوْ سَمَحْتِ | law samaḥti | excuse me (to a woman) | To a man: لَوْ سَمَحْتَ. Also "please".
-عَلَى طُول | ʿalā ṭūl | straight ahead | Heard everywhere in this sense.
+عَلَى طُول | ʿalā ṭūl | straight ahead | The everyday spoken phrase, understood across the region.
 لَوْ سَمَحْتَ | law samaḥta | excuse me (to a man) | To a woman: لَوْ سَمَحْتِ. Use it to stop someone and ask.
 عَلَى الْيَسَار | ʿalā al-yasār | on the left | Right: عَلَى الْيَمِين.
 بَعِيد عَن هُنَا | baʿīd ʿan hunā | far from here | For a feminine place: بَعِيدَة.
@@ -136,7 +136,7 @@ module.exports = {
 حَسَنًا | ḥasanan | OK | Egypt and the Levant: māshī.
 `,
   "Traps for English speakers": `
-بِخَيْر | bikhayr | I'm fine | Not أَنَا جَيِّد ("I'm a good person").
+بِخَيْر | bikhayr | I'm fine | The usual answer. أَنَا جَيِّد is a word-for-word copy of "I'm good"; people say بِخَيْر.
 عَفْوًا | ʿafwan | you're welcome | Also "excuse me?" when you didn't hear.
 إِن شَاءَ اللّٰه | in shāʾa llāh | hopefully (God willing) | About any future plan; can be a polite "maybe".
 أَنَا آسِفَة | anā āsifa | I'm sorry (a woman speaking) | A man says أَنَا آسِف.

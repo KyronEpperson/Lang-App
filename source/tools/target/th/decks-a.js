@@ -80,7 +80,7 @@ module.exports = {
 จ๋า | jǎa | dear (a sweet reply or call) | ไม้จัตวา ๋, only on mid-class letters: rising tone. แม่จ๋า: Mom, dear.
 `,
   "Greetings and politeness": `
-สวัสดีครับ | sà-wàt-dii khráp | hello (male speaker) | Also goodbye. Add a wai when an adult greets you with one.
+สวัสดีครับ | sà-wàt-dii khráp | hello (male speaker) | Also goodbye. Return a wai from a host, a friend's parent or anyone older.
 สวัสดีค่ะ | sà-wàt-dii khâ | hello (female speaker) | ค่ะ has a falling tone in statements.
 ขอบคุณครับ | khàawp-khun khráp | thank you (male speaker) | A woman says ขอบคุณค่ะ.
 ขอบคุณค่ะ | khàawp-khun khâ | thank you (female speaker) | A man says ขอบคุณครับ. Thai has no neutral polite word; leaving it off sounds casual.
@@ -97,7 +97,7 @@ module.exports = {
 ไปก่อนนะ | bpai gàawn ná | I'm off now; bye | What people say when leaving. ลาก่อน (farewell) sounds like a book or a final goodbye.
 โชคดีนะ | chôok-dii ná | good luck; take care | A friendly goodbye before a trip or an exam.
 ยินดีต้อนรับ | yin-dii-dtâawn-ráp | welcome | On signs and from hotel staff: welcome.
-ไหว้ | wâai | to wai (greet with palms together) | Answer an adult's wai with one. Staff don't expect you to start one.
+ไหว้ | wâai | to wai (greet with palms together) | Return a wai from a host or anyone older. When hotel or shop staff wai you, a smile and a nod is enough.
 `,
   "People and family": `
 ผม | phǒm | I; me (male speaker) | A man's polite "I". Often dropped once it is clear who is talking.
@@ -117,10 +117,10 @@ module.exports = {
 แฟน | faaen | boyfriend or girlfriend; partner | From English "fan". Often used for a spouse in casual speech.
 เพื่อน | phûuean | friend | เพื่อนผม / เพื่อนฉัน: my friend (the owner comes after).
 ครอบครัว | khrâawp-khruua | family | 
-ลุง | lung | uncle; an older man | Also polite for an older man you don't know, like a driver or a vendor.
+ลุง | lung | uncle; an older man | Also a friendly way to address an older man you don't know, about your parents' age, like a driver or a vendor.
 `,
   "About me": `
-ผมชื่อไมค์ | phǒm chûue mai | My name is Mike. (male speaker) | ชื่อ works as a verb here: no เป็น.
+ผมชื่อไมค์ | phǒm chûue mái | My name is Mike. (male speaker) | ชื่อ works as a verb here: no เป็น.
 ฉันชื่อแอนนา | chǎn chûue aaen-naa | My name is Anna. (female speaker) | Thai uses first names: Anna, not Ms. Smith.
 คุณชื่ออะไร | khun chûue à-rai | What's your name? | อะไร (what) stays at the end, where the answer goes.
 คุณมาจากไหน | khun maa jàak nǎi | Where are you from? | ไหน (where) goes at the end.

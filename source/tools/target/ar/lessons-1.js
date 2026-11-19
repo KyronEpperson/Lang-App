@@ -205,7 +205,7 @@ module.exports = [
     blurb: "Read sukun (no vowel), shadda (a doubled letter) and the gliding vowels aw and ay.",
     deck: "Vowels and marks",
     body: `
-<p>Two more vowel marks complete the set you need for reading. Both sit above the letter, and both are short words in English grammar books too: sukun and shadda.</p>
+<p>Two more vowel marks complete the set you need for reading. Both sit above the letter, and English-language textbooks call them by their Arabic names too: sukun and shadda.</p>
 <h3>Sukun: no vowel here</h3>
 <p>Sukun is a small circle above a letter. It means the letter has no vowel after it: the next consonant follows straight on. English speakers like to slip a little vowel between two consonants; sukun says don't. In مَكْتَب <i>maktab</i> "office", ك carries sukun, so the word has two beats, not three: no vowel between k and t.</p>
 {{ex:مَكْتَب|maktab|office; desk}}
@@ -372,7 +372,7 @@ module.exports = [
 {{ex:مَعَ السَّلَامَة|maʿa as-salāma|Goodbye.}}
 <h3>What people really say</h3>
 <p>You are learning the Arabic everyone reads and everyone understands. People chat in their own dialect; you'll hear different words in Cairo and in Amman. The Spoken Arabic deck shows you the most common ones. As always, read the Arabic first and check the romanisation after.</p>
-<div class="tip"><b>Most common mistake:</b> translating "I'm good". أَنَا جَيِّد for "I'm fine" → بِخَيْر: أَنَا جَيِّد sounds like "I'm a good person".</div>
+<div class="tip"><b>Most common mistake:</b> translating "I'm good" word for word. أَنَا جَيِّد for "I'm fine" → بِخَيْر: that is what people answer.</div>
 `,
     check: [
       ["Someone says السَّلَامُ عَلَيْكُم. What's the reply?", ["مَعَ السَّلَامَة", "وَعَلَيْكُم السَّلَام", "عَفْوًا", "صَبَاح النُّور"], 1, "The reply turns the greeting around: وَعَلَيْكُم السَّلَام, 'and upon you peace'."],
@@ -382,7 +382,7 @@ module.exports = [
     practice: [
       ["mc", "Someone says شُكْرًا. You answer:", "عَفْوًا", "صَبَاح النُّور", "مَسَاء الْخَيْر", "وَعَلَيْكُم السَّلَام", "عَفْوًا is 'you're welcome', the answer to شُكْرًا."],
       ["mc", "How are you? (to a woman)", "كَيْفَ حَالُكِ؟", "كَيْفَ حَالُكَ؟", "بِخَيْر", "مَعَ السَّلَامَة", "To a woman: حَالُكِ, with kasra under the ك."],
-      ["mc", "Someone asks how you are. Say you're fine:", "بِخَيْر، الْحَمْدُ لِلّٰه", "أَنَا جَيِّد", "أَهْلًا وَسَهْلًا", "عَفْوًا", "بِخَيْر is 'fine'; أَنَا جَيِّد sounds like 'I'm a good person'."],
+      ["mc", "Someone asks how you are. Say you're fine:", "بِخَيْر، الْحَمْدُ لِلّٰه", "صَبَاح النُّور", "أَهْلًا وَسَهْلًا", "عَفْوًا", "بِخَيْر is 'fine', often with الْحَمْدُ لِلّٰه; the others answer 'good morning', welcome someone or answer 'thanks'."],
       ["mc", "Which phrase answers صَبَاح الْخَيْر?", "صَبَاح النُّور", "مَسَاء النُّور", "وَعَلَيْكُم السَّلَام", "مَعَ السَّلَامَة", "Morning answers morning: صَبَاح النُّور, 'morning of light'."],
       ["mc", "How are you? (to a man)", "كَيْفَ حَالُكَ؟", "كَيْفَ حَالُكِ؟", "صَبَاح الْخَيْر", "شُكْرًا", "To a man: حَالُكَ, with fatha on the ك."],
       ["or", "Good morning", "صَبَاح الْخَيْر", "الصَّبَاح", "The first word of an iḍāfa takes no article: صَبَاح الْخَيْر."],

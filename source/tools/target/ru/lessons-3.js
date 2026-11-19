@@ -39,9 +39,9 @@ module.exports = [
       ["mc", "'Anna and Ivan were in Kazan.' =", "Анна и Иван были в Казани.", "Анна и Иван был в Казани.", "Анна и Иван были в Казань.", "Анна и Иван была в Казани.", "Two people take были, and being somewhere keeps в Казани."],
       ["mc", "Which sentence can only be said by a woman?", "Я работала дома.", "Я работал дома.", "Мы работали дома.", "Они работали дома.", "-ла after я means the speaker is a woman."],
       ["mc", "'Were you at home? (formal)' =", "Вы были дома?", "Вы был дома?", "Вы была дома?", "Вы есть дома?", "вы always takes the -ли form, even for one person."],
-      ["or", "She was at home.", "она была дома", "был", "Она is a woman: the feminine form была."],
-      ["or", "They were in Moscow.", "они были в Москве", "Москву", "Being somewhere takes the prepositional case: в Москве, not в Москву."],
-      ["or", "We watched a movie.", "мы смотрели фильм", "смотрел", "Мы is plural, so the verb takes the plural form смотрели."],
+      ["or", "She was at home. (end with 'at home')", "она была дома", "был", "Она is a woman: the feminine form была."],
+      ["or", "They were in Moscow. (end with the city)", "они были в Москве", "Москву", "Being somewhere takes the prepositional case: в Москве, not в Москву."],
+      ["or", "We watched a movie. (end with the movie)", "мы смотрели фильм", "смотрел", "Мы is plural, so the verb takes the plural form смотрели."],
       ["fi", "Мама __ дома.", "Mom was at home.", "была", "был|было|были", "Мама is a woman, so быть takes -а: была."],
       ["fi", "Вчера __ холодно.", "It was cold yesterday.", "было", "был|была|были", "There is no subject, so Russian uses было."],
       ["fi", "Где ты __ вчера?", "Where were you yesterday? (informal, to a woman)", "была", "был|было|были", "Talking to a woman, ты takes была."],
@@ -92,8 +92,8 @@ module.exports = [
       ["mc", "What is the dative of она?", "ей", "её", "она", "ему", "она → ей: Ей надо работать."],
       ["mc", "'I'm writing to my sister.' =", "Я пишу сестре.", "Я пишу сестру.", "Я пишу сестра.", "Я пишу сестрой.", "Writing to someone takes the dative: сестра → сестре."],
       ["mc", "'How old are you? (informal)' =", "Сколько тебе лет?", "Сколько ты лет?", "Сколько тебя лет?", "Сколько вам лет?", "Age uses the dative, and ты → тебе. Вам is the formal form."],
-      ["or", "I'm going to the doctor.", "я иду к врачу", "врач", "к takes the dative case: врач → врачу."],
-      ["or", "I'm calling Mom.", "я звоню маме", "маму", "звонить takes the dative case: маме, not маму."],
+      ["or", "I'm going to the doctor. (end with the doctor)", "я иду к врачу", "врач", "к takes the dative case: врач → врачу."],
+      ["or", "I'm calling Mom. (end with Mom)", "я звоню маме", "маму", "звонить takes the dative case: маме, not маму."],
       ["or", "He is twenty years old.", "ему двадцать лет", "он", "Age puts the person in the dative case: ему."],
       ["fi", "Я помогаю __.", "I help my brother.", "брату", "брат|брата|братом", "помогать takes the dative: брат → брату."],
       ["fi", "Мне __ эта книга.", "I like this book.", "нравится", "нравятся|нравлюсь|нравлю", "One thing is liked, so the verb is нравится."],
@@ -142,12 +142,12 @@ module.exports = [
       ["mc", "'Are you coming with me? (informal)' =", "Ты идёшь со мной?", "Ты идёшь с я?", "Ты идёшь с мне?", "Ты идёшь с меня?", "\"With me\" is со мной."],
       ["mc", "'I'm a doctor.' (present, no verb) =", "Я врач.", "Я врачом.", "Я есть врач.", "Я работаю врач.", "With no verb in the present, the job stays in its dictionary form."],
       ["or", "tea with milk", "чай с молоком", "молоко", "с (\"with\") takes the instrumental case: молоком."],
-      ["or", "He works as a doctor.", "он работает врачом", "врач", "работать + instrumental case: врачом."],
-      ["or", "I want to be a teacher.", "я хочу быть учителем", "учитель", "After быть, the job takes the instrumental case: учителем."],
+      ["or", "He works as a doctor. (end with the job)", "он работает врачом", "врач", "работать + instrumental case: врачом."],
+      ["or", "I want to be a teacher. (end with the job)", "я хочу быть учителем", "учитель", "After быть, the job takes the instrumental case: учителем."],
       ["fi", "Я живу с __.", "I live with a friend. (a male friend)", "другом", "друг|друга|другу", "с meaning \"with\": друг → с другом."],
       ["fi", "Кофе с __, пожалуйста.", "Coffee with sugar, please.", "сахаром", "сахар|сахара|сахару", "с meaning \"with\": сахар → с сахаром."],
       ["fi", "Она занимается __.", "She does sports.", "спортом", "спорт|спорта|спорту", "заниматься takes the instrumental: спортом."],
-      ["ty", "He works as a doctor.", "Он работает врачом", "он · работать · врач", "врач", "работать + instrumental case: врачом."],
+      ["ty", "He works as a doctor.", "Он работает врачом|Он врачом работает", "он · работать · врач", "врач", "работать + instrumental case: врачом."],
       ["ty", "I live with Mom.", "Я живу с мамой", "я · жить · с · мама", "мама", "с (\"with\") takes the instrumental case: с мамой."],
       ["ty", "I want to be a doctor.", "Я хочу быть врачом", "я · хотеть · быть · врач", "врач", "After быть, the job takes the instrumental case: врачом."]
     ]
@@ -188,9 +188,9 @@ module.exports = [
       ["mc", "'Will you be at home? (formal)' =", "Вы будете дома?", "Вы будешь дома?", "Вы есть дома?", "Вы будете быть дома?", "вы → будете; alone it means \"will be\"."],
       ["mc", "'On Saturday we'll be in Moscow.' =", "В субботу мы будем в Москве.", "В субботу мы будем в Москву.", "В субботу мы будем в Москва.", "В субботу мы будут в Москве.", "мы → будем, and being somewhere keeps в Москве."],
       ["mc", "'I'll call tomorrow.' =", "Я позвоню завтра.", "Я буду позвонить завтра.", "Я позвонить завтра.", "Я буду позвоню завтра.", "позвоню already means \"I'll call\": no буду."],
-      ["or", "We will watch a movie.", "мы будем смотреть фильм", "смотрим", "After будем, the verb stays in the infinitive: смотреть."],
-      ["or", "She will be at work.", "она будет на работе", "работу", "Being somewhere takes the prepositional case: на работе."],
-      ["or", "My sister will be at home.", "моя сестра будет дома", "мой", "Сестра is feminine: the feminine form моя."],
+      ["or", "We will watch a movie. (end with the movie)", "мы будем смотреть фильм", "смотрим", "After будем, the verb stays in the infinitive: смотреть."],
+      ["or", "She will be at work. (end with 'at work')", "она будет на работе", "работу", "Being somewhere takes the prepositional case: на работе."],
+      ["or", "My sister will be at home. (end with 'at home')", "моя сестра будет дома", "мой", "Сестра is feminine: the feminine form моя."],
       ["fi", "Ты __ работать завтра?", "Will you work tomorrow? (informal)", "будешь", "будет|буду|будете", "ты → будешь."],
       ["fi", "Мы будем __ по-русски.", "We will speak Russian.", "говорить", "говорим|говорили|говорят", "After будем, use the infinitive: говорить."],
       ["fi", "Завтра они будут в __.", "Tomorrow they'll be in Moscow.", "Москве", "Москва|Москву|Москвой", "Being somewhere: в Москве."],
@@ -235,9 +235,9 @@ module.exports = [
       ["mc", "'Every day I buy bread.' =", "Каждый день я покупаю хлеб.", "Каждый день я куплю хлеб.", "Каждый день я купил хлеб.", "Каждый день я буду купить хлеб.", "A habit takes the imperfective: покупаю."],
       ["mc", "'Tomorrow I'll buy bread.' =", "Завтра я куплю хлеб.", "Завтра я буду купить хлеб.", "Завтра я купил хлеб.", "Завтра я покупал хлеб.", "куплю is perfective, so it already means the future."],
       ["mc", "Which sentence is about a process, not a result?", "Вчера я читал весь вечер.", "Вчера я прочитал книгу.", "Я сделал домашнее задание.", "Она написала письмо.", "весь вечер (all evening) is about how long: the imperfective читал."],
-      ["or", "She finished reading the book.", "она прочитала книгу", "прочитал", "Она is a woman: the feminine form прочитала."],
-      ["or", "I'll read the book to the end.", "я прочитаю книгу", "книга", "The object takes the accusative case: книгу."],
-      ["or", "I was doing my homework. (a woman)", "я делала домашнее задание", "сделала", "делала is the process; сделала would mean it got done."],
+      ["or", "She finished reading the book. (end with the book)", "она прочитала книгу", "прочитал", "Она is a woman: the feminine form прочитала."],
+      ["or", "I'll read the book to the end. (end with the book)", "я прочитаю книгу", "книга", "The object takes the accusative case: книгу."],
+      ["or", "I was doing my homework. (a woman; end with the homework)", "я делала домашнее задание", "сделала", "делала is the process; сделала would mean it got done."],
       ["fi", "Я __ письмо. Вот оно!", "I've written the letter. Here it is! (a man)", "написал", "писал|напишу|написала", "The letter is finished: the perfective написал, and a man says -л."],
       ["fi", "Каждый день он __ кофе.", "He buys coffee every day.", "покупает", "купит|купил|куплю", "Every day is a habit: the imperfective покупает."],
       ["fi", "Завтра я __ домашнее задание.", "Tomorrow I'll get my homework done.", "сделаю", "сделал|делал|делаю", "A finished result in the future: the perfective сделаю."],
@@ -282,9 +282,9 @@ module.exports = [
       ["mc", "'Where are you going? (formal)' =", "Куда вы идёте?", "Где вы идёте?", "Куда вы идёшь?", "Куда вы идти?", "куда for \"where to\", and вы → идёте."],
       ["mc", "'She's going by bus.' =", "Она едет на автобусе.", "Она идёт на автобусе.", "Она едет в автобус.", "Она едут на автобусе.", "By bus: едет на автобусе."],
       ["mc", "Which means \"I went (and came back)\"? (a woman)", "Я ездила в Москву.", "Я еду в Москву.", "Я ехала в Москву.", "Я ездила в Москве.", "A round trip: ездила, with direction в Москву."],
-      ["or", "I'm going to Moscow (by train).", "я еду в Москву", "Москве", "Direction takes the accusative case: в Москву."],
-      ["or", "She's walking to school.", "она идёт в школу", "школе", "Direction takes the accusative case: в школу."],
-      ["or", "I'm going by bus.", "я еду на автобусе", "иду", "On a bus you ride, so ехать: еду."],
+      ["or", "I'm going to Moscow (by train). (end with the city)", "я еду в Москву", "Москве", "Direction takes the accusative case: в Москву."],
+      ["or", "She's walking to school. (end with the school)", "она идёт в школу", "школе", "Direction takes the accusative case: в школу."],
+      ["or", "I'm going by bus. (end with the bus)", "я еду на автобусе", "иду", "On a bus you ride, so ехать: еду."],
       ["fi", "Мы __ в парк.", "We're walking to the park.", "идём", "едем|ходим|ездим", "On foot, one trip, now: идём."],
       ["fi", "Он едет в __.", "He's going to Moscow.", "Москву", "Москве|Москва|Москвой", "Direction: в Москву."],
       ["fi", "Вчера я __ в банк.", "Yesterday I went to the bank and came back (on foot). (a man)", "ходил", "ездил|ходила|иду", "A round trip on foot: ходил; a man says -л."],
@@ -325,18 +325,18 @@ module.exports = [
       ["Which is a normal, polite way to ask for water in a café?", ["Я имею воду.", "Дайте, пожалуйста, воду.", "Дать воду.", "Дай вода, пожалуйста."], 1, "Imperative + пожалуйста is polite in Russian, and вода becomes воду."]
     ],
     practice: [
-      ["mc", "'Please wait. (formal)' =", "Подождите, пожалуйста.", "Подожди, пожалуйста.", "Подождать, пожалуйста.", "Подождёте, пожалуйста.", "To a stranger: the -те form подождите."],
+      ["mc", "'Please wait. (formal)' =", "Подождите, пожалуйста.", "Подожди, пожалуйста.", "Подождать, пожалуйста.", "Подожду, пожалуйста.", "To a stranger: the -те form подождите."],
       ["mc", "'Help me! (informal)' =", "Помоги мне!", "Помогите мне!", "Помоги меня!", "Помочь мне!", "To a friend: помоги, and the person helped is мне."],
       ["mc", "'Some water, please.' =", "Дайте, пожалуйста, воду.", "Дайте, пожалуйста, вода.", "Дать, пожалуйста, воду.", "Дайте, пожалуйста, водой.", "дайте + the thing as an object: воду."],
       ["mc", "'Don't worry. (formal)' =", "Не волнуйтесь.", "Не волнуйся.", "Нет волнуйтесь.", "Не волнуетесь.", "не + the -те form for a stranger."],
       ["mc", "'Tell me! (informal)' =", "Скажи!", "Скажите!", "Сказать!", "Скажет!", "To a friend: скажи, with no -те."],
-      ["or", "Help me! (formal)", "помогите мне", "меня", "помогать takes the dative case: мне."],
-      ["or", "Call Mom! (informal)", "позвони маме", "маму", "звонить takes the dative case: маме."],
-      ["or", "Don't speak English. (formal)", "не говорите по-английски", "говорить", "не + the вы imperative: не говорите."],
+      ["or", "Help me! (formal; start with the verb)", "помогите мне", "меня", "помогать takes the dative case: мне."],
+      ["or", "Call Mom! (informal; start with the verb)", "позвони маме", "маму", "звонить takes the dative case: маме."],
+      ["or", "Don't speak English. (formal; start with не)", "не говорите по-английски", "говорить", "не + the вы imperative: не говорите."],
       ["fi", "__, пожалуйста, где метро?", "Excuse me, where's the subway? (formal)", "Скажите", "Скажи|Сказать|Скажу", "To a stranger: скажите."],
       ["fi", "__ мне, пожалуйста!", "Help me, please! (informal)", "Помоги", "Помогите|Помочь|Помогу", "To a friend: помоги, with no -те."],
       ["fi", "Дайте, пожалуйста, __.", "Pass me the bag, please. (formal)", "сумку", "сумка|сумкой|сумке", "The thing you ask for is the object: сумка → сумку."],
-      ["ty", "Call me! (informal)", "Позвони мне!", "позвонить · я", "меня", "звонить takes the dative case: мне."],
+      ["ty", "Call me! (informal)", "Позвони мне!|Мне позвони!", "позвонить · я", "меня", "звонить takes the dative case: мне."],
       ["ty", "Some water, please. (formal)", "Дайте, пожалуйста, воду.|Дайте воду, пожалуйста.|Пожалуйста, дайте воду.|Дайте, пожалуйста, воды.|Дайте воды, пожалуйста.", "дать · пожалуйста · вода", "вода", "The thing you ask for takes the accusative case: воду (or воды, \"some water\")."],
       ["ty", "Don't worry. (to a friend)", "Не волнуйся.", "не · волноваться", "волнуйтесь", "To a friend: the ты imperative, with no -те."]
     ]
@@ -356,14 +356,14 @@ module.exports = [
 {{ex:Я студент, а она врач.|yah stoo-DYEHNT ah ah-NAH vrahch|I'm a student, and she's a doctor.}}
 <h3>но: but</h3>
 <p><b>Но</b> is "but": the second part is unexpected after the first. If the second half only contrasts, use <b>а</b>; if it goes against what you would expect, use <b>но</b>.</p>
-{{ex:Он русский, но живёт в Бостоне.|ohn ROOS-keey nah zhih-VYOHT v BOHS-tah-nih|He's Russian, but he lives in Boston.}}
+{{ex:Он русский, но живёт в Бостоне.|ohn ROOS-keey noh zhih-VYOHT v BOHS-tah-nih|He's Russian, but he lives in Boston.}}
 <h3>потому что and поэтому</h3>
 <p><b>Потому что</b> (because) gives the reason. <b>Поэтому</b> (so, that's why) gives the result. Do not mix them up with <b>почему</b> (why?), which asks the question that <b>потому что</b> answers. The two halves keep their own grammar: <b>мне холодно</b> still needs the dative.</p>
-{{ex:Я дома, потому что мне холодно.|yah DOH-mah pah-tah-MOO shtoh mnyeh KHOH-lahd-nah|I'm at home because I'm cold.}}
+{{ex:Я дома, потому что мне холодно.|yah DOH-mah pah-tah-MOO shtah mnyeh KHOH-lahd-nah|I'm at home because I'm cold.}}
 {{ex:Мне холодно, поэтому я дома.|mnyeh KHOH-lahd-nah pah-eh-TOH-moo yah DOH-mah|I'm cold, so I'm at home.}}
 <h3>что and где: "that" and "where"</h3>
-<p>To say what you know or think, add a second sentence with <b>что</b> (that). The second sentence keeps its normal word order, exactly as if it stood alone. Questions words join sentences the same way: <b>где</b> (where), <b>когда</b> (when).</p>
-{{ex:Я думаю, что она дома.|yah DOO-mah-yoo shtoh ah-NAH DOH-mah|I think she's at home.}}
+<p>To say what you know or think, add a second sentence with <b>что</b> (that). The second sentence keeps its normal word order, exactly as if it stood alone. Question words join sentences the same way: <b>где</b> (where), <b>когда</b> (when).</p>
+{{ex:Я думаю, что она дома.|yah DOO-mah-yoo shtah ah-NAH DOH-mah|I think she's at home.}}
 {{ex:Я знаю, где он живёт.|yah ZNAH-yoo gdyeh ohn zhih-VYOHT|I know where he lives.}}
 <h3>Commas</h3>
 <p>Russian always puts a comma before <b>а</b>, <b>но</b>, <b>потому что</b>, and before <b>что</b> or <b>где</b> starting a second sentence. The answer checker ignores commas, but real Russian texts never leave them out.</p>
@@ -382,7 +382,7 @@ module.exports = [
       ["mc", "'I know that she's a doctor.' =", "Я знаю, что она врач.", "Я знаю, что она есть врач.", "Я знаю, потому что она врач.", "Я знаю, что её врач.", "что is \"that\", and there is still no \"is\"."],
       ["or", "I'm at home because I'm cold.", "я дома потому что мне холодно", "меня", "Feeling cold takes the dative case: мне."],
       ["or", "My brother is a student, and my sister is a doctor.", "мой брат студент а моя сестра врач", "моё", "Сестра is feminine: the feminine form моя."],
-      ["or", "I know where he lives.", "я знаю где он живёт", "куда", "где for where someone lives; куда means \"where to\"."],
+      ["or", "I know where he lives. (end with the verb)", "я знаю где он живёт", "куда", "где for where someone lives; куда means \"where to\"."],
       ["fi", "Я студент, __ она врач.", "I'm a student, and she's a doctor.", "а", "и|но|что", "Two different people, two different things: а."],
       ["fi", "Я дома, __ мне холодно.", "I'm at home because I'm cold.", "потому что", "поэтому|но|а", "The reason comes after потому что."],
       ["fi", "Мне холодно, __ я дома.", "I'm cold, so I'm at home.", "поэтому", "потому что|почему|а", "The result comes after поэтому."],
@@ -407,7 +407,7 @@ module.exports = [
 {{ex:Урок в пять часов.|oo-ROHK f pyaht' chih-SOHF|The class is at five o'clock.}}
 <h3>On which day: в + accusative</h3>
 <p>Days take <b>в</b> and the accusative case. Feminine days change <b>-а</b> to <b>-у</b>: <b>в среду</b>, <b>в пятницу</b>, <b>в субботу</b>. Masculine days look the same as always: <b>в понедельник</b>. Before <b>вторник</b>, в becomes <b>во</b>: <b>во вторник</b>. Days and months are not capitalized.</p>
-{{ex:В субботу я буду дома.|f soob-BOH-too yah BOO-doo DOH-mah|On Saturday I'll be at home.}}
+{{ex:В субботу я буду дома.|f soo-BOH-too yah BOO-doo DOH-mah|On Saturday I'll be at home.}}
 <h3>Parts of the day: one word</h3>
 <p><b>Утром</b>, <b>днём</b>, <b>вечером</b>, <b>ночью</b> mean "in the morning", "in the afternoon", "in the evening", "at night". They are single words, with no <b>в</b>.</p>
 {{ex:Вечером я читаю.|VYEH-chih-rahm yah chee-TAH-yoo|In the evening I read.}}

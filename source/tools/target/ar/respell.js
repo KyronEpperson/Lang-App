@@ -52,6 +52,7 @@ function word(w) {
   if (/[A-Za-z0-9]/.test(w)) err(w, 'Latin letters or digits');
   if (w.includes('ٱ')) err(w, 'use plain ا, not ٱ');
   const u = units(w);
+  if (!u.length) err(w, 'no letters (a lone tatweel or mark)');
   u.forEach(x => { if (!C[x.c] && !HAMZA.has(x.c) && !'اىةآ'.includes(x.c)) err(w, 'unknown character ' + x.c); });
   u.forEach((x, k) => { if (x.c === 'ا' && x.v === TAN_F) err(w, 'put tanwin fath on the letter before ا, not on ا (شُكْرًا)'); if (x.c === 'ة' && k > 0 && u[k - 1].c === 'ا') err(w, 'ة after ا (حَيَاة) is not in the A1 word list: choose another word or ask the lead'); });
   { const e = u[u.length - 1]; if ((e.v === DAMMA || e.v === KASRA) && !'تكهن'.includes(e.c) && !FORMULA.has(w)) warnings.push(w); }

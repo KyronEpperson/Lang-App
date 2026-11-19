@@ -1023,3 +1023,9 @@ After finishing a lesson, always offer the next one: in the lesson, after its pr
 
 ### 2.34.1 — results
 nextCta / goLesson / nextOpenLesson; #lsNext slot in the lesson view, filled when the lesson becomes done and on reopen; button on the practice-set end screen and the session end screen. next.js: en-es, en-ko, ja-en all show the button, open lesson 2 at the top of the page, no errors. FLOURISH now has every taught language; PRAISE() replaces six hardcoded Korean end-screen headings. Harness 77 guards.
+
+## 2.35.0 — prompt
+Ship Arabic for English speakers (en-ar) after merge, on-screen right-to-left check and cold review. Verify: validate, e2e on all 28 lessons, harness, site and RTL tests.
+
+### 2.35.0 — results
+en-ar: 28 lessons, 17 decks / 291 cards, 392 practice items; Modern Standard Arabic, fully vowelled, generated romanisation. Cold review: 25 edits (all 772 distinct words read; New York and breakfast respelled after a dictionary check; "I'm good" no longer marked wrong; digits-by-country claim corrected; a false reason removed). Right-to-left checked on screen for inline text, tables, options, tiles and fill-in. Not checked by a native speaker (tools/target/ar/REVIEW.md); the course's ةْ spelling convention is the first thing to check.
