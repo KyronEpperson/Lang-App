@@ -58,7 +58,7 @@ Estudyante ko. | ehs-too-jahn-teh koh | I'm a student. | No word for "a": the jo
 Unsay imong trabaho? | oon-sai ee-mohng trah-BAH-hoh | What's your job? | trabaho = work, job.
 Nagtrabaho ko sa ospital. | nahg-trah-bah-hoh koh sah ohs-pee-tahl | I work at a hospital. | nag- here means it is going on these days.
 Minyo na ko. | meen-yoh nah koh | I'm married. | na = already.
-Nagtuon ko og Bisaya. | nahg-too-ohn koh ohg bee-sah-yah | I'm learning Cebuano. | og before the thing you learn. Many people call the language Bisaya.
+Nagtuon ko og Bisaya. | nahg-too-ohn koh ohg bee-sah-yah | I'm studying Cebuano. | og before the thing you study. Many people call the language Bisaya.
 `,
   "People and family": `
 igsoon | eeg-SOH-ohn | brother or sister | Says nothing about sex: igsoon nga lalaki = brother.

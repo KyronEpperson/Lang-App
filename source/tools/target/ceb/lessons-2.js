@@ -461,7 +461,7 @@ module.exports = [
       ["fi", "Moadto ko __.", "I'll go tomorrow.", "ugma", "gahapon|ganina|unya", "ugma is tomorrow; unya is later today."],
       ["ty", "three o'clock (3:00)", "alas tres", "alas · tres (3)", "tulo", "On the clock, alas + a Spanish number: alas tres."],
       ["ty", "I woke up at 6:00. (start with the verb)", "Nimata ko alas sais|Mimata ko alas sais|Nimata ko sa alas sais|Mimata ko sa alas sais|Nimata ako alas sais|Mimata ako alas sais|Nimata ako sa alas sais|Mimata ako sa alas sais", "mata (wake up) · alas · sais (6)", "nako", "The short pronoun ko goes in second place, after the verb: Nimata ko alas sais."],
-      ["ty", "I'll go home later today. (start with the verb)", "Mouli ko unya|Mouli ako unya", "uli (go home) · unya", "nako ugma", "The short pronoun ko goes in second place, after the verb; unya is later today."]
+      ["ty", "I'll go home later today. (start with the verb; use uli)", "Mouli ko unya|Mouli ako unya", "uli (go home) · unya", "nako ugma", "The short pronoun ko goes in second place, after the verb; unya is later today."]
     ]
   }
 ];

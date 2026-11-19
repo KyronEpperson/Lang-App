@@ -44,3 +44,31 @@ Tool changes (respell.js): LEX gains `anák isdà ságing` (new block with its s
 - `feelings` mc "It's really hot": distractor *Kaayo init.* → *Init lang.* (the kaayo decision above). Check 2 now asks where kaayo "usually" goes.
 - `time` mc "one o'clock": distractor *alas uno* (flagged as possibly heard) → *alas dos* (wrong by value).
 - Settled open points: no item anywhere uses *ni-* after *wala* as a distractor. The `negation` body teaches *Wala ko moadto* and says the *ni-* form is heard in quick speech. *matag buntag* (every morning) is standard and kept.
+
+## Batch 7: lessons-3.js (wrong teaching 2, practice 5)
+- `requests` body said a command is "just the root", while the deck (*Palihug tabangi ko*) and lesson `an` (-i) teach an ending. Added one sentence: some verbs that act on a person or thing take an ending instead (*Palihug tabangi ko*). Body is now 293 words.
+- `directions`: the mc that scored "spelled the same but said differently" as correct (an unconfirmed claim) → a meaning item, "In *Liko sa wala*, wala means… left". The body now says the two wala are different words that dictionaries mark differently (Wiktionary lists *walâ* and *walà*), so they "may not sound alike". It no longer flatly states how Cebuanos say them.
+- `requests` ty "May I ask something?": fallback tile *nako* (the same doubt as *nako* after *gusto*) → *akong*.
+- Dropping *ang* before an owner, now accepted (same policy as batch 5): *Mas dako akong balay*, *Mas lami imong mangga* (`compare`); *Lami kaayo akong sabaw*, *Lami gyud akong sabaw* (`food`); *Didto akong balay*, *Naa didto akong balay* (`places`).
+- Settled open points: *nako* after *gusto* / *kinahanglan* is accepted in every typed item (`gusto`, `food`) and used in no wrong option. *ayaw* + verb (*Ayaw kabalaka*) is fine. Requests teach *lang*, *sa* and *unta*; *ba* appears only in *Pwede ba?*. *kaysa sa* + noun is the standard form and is taught that way. *Nakakaon na ka* / *Nakakaon ka na* are both accepted (`maka`). Order items accept a single sequence; *Busog na ko* and *Naa ba moy isda* each combine two short words and are listed for the native check.
+
+## Batch 8: consistency across files (wording 7, practice 1)
+- The same phrase is now glossed the same way on its card and in its lesson row: *Nagtuon ko og Bisaya* "I'm studying Cebuano" (decks-a and its extra-a example); *Masakit akong ulo* "My head hurts" (decks-b); *Unsay imong gusto?* "What would you like?" (decks-b and extra-b); *Asa ni moagi?* "What route does this take?" and *Lugar lang* "I'm getting off here" (lessons-3 rows).
+- `time` ty "I'll go home later today": the prompt now says "(use uli)". Without it, *Mopauli…* from the Home deck would be a natural answer that is not accepted.
+- Verdicts on the remaining open points: *Maestra ni Ana* is a different meaning ("Ana's teacher"), so it stays as a wrong option. *Asa nagtrabaho ka?* and *Dili moadto ko ugma* stay as the profile's own error type and go on the native list. *nakaila* is matched to *ila* but prints lowercase either way, so it has no pron effect. *sais* and *litson* go on the native list.
+
+## Final state
+`node tools/target/repron.js ceb` → 560 prons read, 0 rewritten. `node tools/target/gen.js ceb` wrote /tmp/course-en-ceb.hold.js (28 lessons, 18 decks, 319 cards). `node tools/target/validate.js ceb` → PASS: all checks OK. `node --check` passes on every JS file. HOLD is kept; packs/ and src/ are untouched.
+
+## Ten things a native speaker should check first
+1. *Unsa inyong naa?* (What do you have?, carinderia): natural, or *Unsay naa ninyo?*
+2. Short-word order: *Busog na ko* / *Nikaon na ko* / *Nakaadto na ka* against *ko na* / *ka na*. Order items accept one sequence only.
+3. *Gusto ka og kape?* against *Gusto mo og kape?*, and *Gusto nako* / *Kinahanglan nako* (both accepted).
+4. *wala* "left" against *wala* "none": how each is said. The aid shows walâ for both.
+5. *usa* in *Lingkod usa* ("first, for a moment"): same stress as *usá* "one"?
+6. *Palihug ko og tubig* as an everyday request, and *Nang, pangutana lang* against *mangutana lang ko*.
+7. Dropping *ang* before an owner (*Masakit akong ulo*, *Bag-o akong balay*, *Unsa imong ngalan*), now accepted in typed answers. And *Kini akong libro* (still not accepted).
+8. *kaayo* before a describing word (*kaayo maayo*): wrong, or regional? It is no longer a wrong mc option. The `feelings` check still says kaayo "usually" goes after, and the order items accept only *X kaayo*.
+9. *ala una* (and the note "not alas una"), *sais* (sah-ees?), *litson* (lee-chohn or leet-sohn?).
+Also on the list: *Naay saging? / Wala na.* (new card and dialogue written by this review), and the distractors *Asa nagtrabaho ka?* and *Dili moadto ko ugma* (kept as the profile's §4.2 error type, short pronoun not in second place; confirm they are really wrong).
+10. *Nalipay ko nga nakaila nimo*, *Duha akong anak*, *Pila mo kabuok?*, *Asa ni moagi?*, *Lugar lang*: the profile's "as a phrase" items.

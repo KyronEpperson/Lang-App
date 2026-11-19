@@ -21,7 +21,7 @@ Lisod kaayo. | Lisod ba ang Binisaya? | Oo, lisod kaayo! | Is Cebuano hard? / Ye
 Hugaw kaayo. | Limpyo ba ang kasilyas? | Dili, hugaw kaayo. | Is the restroom clean? / No, it's really dirty.
 Gigutom ko. | Gigutom ko, Ma. | Kaon na ta! | I'm hungry, Mom. / Let's eat, then!
 Gimingaw ko nimo. | Gimingaw ko nimo. | Ako sab! | I miss you. / Me too!
-Unsay imong gusto? | Unsay imong gusto? | Gusto ko og kape. | What do you want? / I want coffee.
+Unsay imong gusto? | Unsay imong gusto? | Gusto ko og kape. | What would you like? / I want coffee.
 Dili ko ganahan. | Ganahan ka og durian? | Dili ko ganahan. | Do you like durian? / I don't like it.
 Kapoy kaayo ko. | Kumusta ang trabaho? | Kapoy kaayo ko. | How was work? / I'm really tired.
 Kinsa siya? | Kinsa siya? | Si Maria, akong igsoon. | Who is she? / That's Maria, my sister.

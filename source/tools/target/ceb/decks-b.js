@@ -45,7 +45,7 @@ Tabang! | tah-bahng | Help! | Shout it in an emergency.
 Palihug. | pah-LEE-hoog | Please. |
 Palihug tabangi ko. | pah-LEE-hoog tah-bah-ngee koh | Please help me. | tabangi is the command form of tabang (help).
 Masakit akong tiyan. | mah-sah-keet ah-kohng tee-yahn | My stomach hurts. | akong before the noun.
-Masakit akong ulo. | mah-sah-keet ah-kohng oo-loh | I have a headache. | Literally "painful my head".
+Masakit akong ulo. | mah-sah-keet ah-kohng oo-loh | My head hurts. | Literally "painful my head".
 Masakit. | mah-sah-keet | It hurts. | Point to the spot as you say it.
 Asa ang masakit? | ah-sah ahng mah-sah-keet | Where does it hurt? | A doctor or a nurse will ask you this.
 Naa koy hilanat. | nah-ah koy hee-lah-naht | I have a fever. | koy = ko + y: "there is, mine, some".
@@ -95,7 +95,7 @@ Dili ko ganahan. | dee-lee koh gah-NAH-hahn | I don't like it. | The short prono
 Gusto ko og kape. | goos-toh koh ohg kah-peh | I want coffee. | og before an indefinite thing.
 Gusto ko moadto. | goos-toh koh moh-ahd-toh | I want to go. | No word for "to": gusto + the mo- verb.
 Dili ko gusto. | dee-lee koh goos-toh | I don't want it. | ko moves up, right after dili.
-Unsay imong gusto? | oon-sai ee-mohng goos-toh | What do you want? | unsay = unsa ang.
+Unsay imong gusto? | oon-sai ee-mohng goos-toh | What would you like? | unsay = unsa ang.
 Kinahanglan ko og tabang. | kee-nah-HAHNG-lahn koh ohg tah-bahng | I need help. | og before what you need.
 Ayaw! | ah-YOW | Don't! | ayaw + a verb = don't do it.
 Ayaw na lang. | ah-YOW nah lahng | Never mind. | Also: forget it, don't bother.

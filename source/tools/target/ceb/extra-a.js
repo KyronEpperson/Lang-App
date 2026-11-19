@@ -50,7 +50,7 @@ Maayong gabii. | Maayong gabii sa inyong tanan. | Good evening, everyone.
 Amping ka. | Amping ka sa imong biyahe. | Take care on your trip.
 Maayong pag-abot. | Maayong pag-abot sa Cebu! | Welcome to Cebu!
 Traynta anyos ko. | Traynta anyos ko, ug minyo na ko. | I'm thirty, and I'm married.
-Nagtuon ko og Bisaya. | Nagtuon ko og Bisaya kay taga-Cebu akong asawa. | I'm learning Cebuano because my wife is from Cebu.
+Nagtuon ko og Bisaya. | Nagtuon ko og Bisaya kay taga-Cebu akong asawa. | I'm studying Cebuano because my wife is from Cebu.
 Mga higala nako sila. | Mga higala nako sila gikan sa trabaho. | They're my friends from work.
 manghod | Nagpuyo sa Bohol ang akong manghod. | My younger brother lives in Bohol.
 ginikanan | Taga-Amerika ang akong ginikanan. | My parents are from the US.

@@ -1071,3 +1071,9 @@ Ship Tagalog for English speakers (en-tl) after the cold review.
 
 ### 2.39.0 — results
 27 lessons, 18 decks, 311 cards, 378 practice items; validate PASS; roadmap 25 items linked; e2e OK on twelve lessons. Stress: 43 lexicon entries checked against Wiktionary / tagalog.com by the reviewer (one fix: tricycle), about 30 unverified (listed in REVIEW.md). Device voice fil / tl only. Not native-checked.
+
+## 2.40.0 — prompt
+Ship Cebuano for English speakers (en-ceb) after the cold review.
+
+### 2.40.0 — results
+28 lessons, 18 decks, 319 cards, 392 practice items; validate PASS; roadmap 26 items linked; e2e OK on thirteen lessons. No audio (no device or cloud voice). Pron line: stress capitals only on the 160 of 364 core words confirmed in a source; the rest lowercase. Not native-checked (REVIEW.md, STRESS-AUDIT.md).

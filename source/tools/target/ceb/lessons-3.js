@@ -227,13 +227,13 @@ module.exports = [
 <p>Yes, "left" is spelled <b>wala</b>, like the <b>wala</b> that means "none". They are two different words, and dictionaries mark them differently, so they may not sound alike. The pronunciation line under every <b>wala</b> in this course shows the "none" word, so it may not fit "left": ask a Cebuano friend to say both for you.</p>
 <h3>On the jeepney</h3>
 <p>Jeepneys follow a fixed route, painted on the side, but they have no fixed stops. Before you climb in, check the route.</p>
-{{ex:Asa ni moagi?|ah-sah nee moh-ah-ghee|Which way does this one go?}}
+{{ex:Asa ni moagi?|ah-sah nee moh-ah-ghee|What route does this take?}}
 <p>Learn that question as a whole. To pay, pass your coins forward along the bench and say <b>Bayad</b>. The other passengers hand it on to the driver, and your change comes back the same way.</p>
 {{ex:Bayad, Nong.|bah-yahd nohng|Here's my fare, sir.}}
 <h3>Getting off: speak up</h3>
 <p>The driver stops only when someone asks. Say <b>Para!</b> clearly, or <b>Lugar lang</b>, "just here". English speakers often wait quietly for a stop that never comes.</p>
 {{ex:Para, Nong!|pah-rah nohng|Stop here, sir!}}
-{{ex:Lugar lang.|loo-gahr lahng|Right here, please.}}
+{{ex:Lugar lang.|loo-gahr lahng|I'm getting off here.}}
 <h3>Taxis and habal-habal</h3>
 <p>For a taxi or a habal-habal, name the place with <b>sa</b> and add a title. The short pronoun goes in second place, as always, when you say where you are going.</p>
 {{ex:Sa merkado, Nong.|sah mehr-kah-doh nohng|To the market, sir.}}

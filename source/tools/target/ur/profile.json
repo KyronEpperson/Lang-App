@@ -1,0 +1,313 @@
+{
+ "target": "ur",
+ "nameEn": "Urdu",
+ "self": "اردو",
+ "ttsLang": "ur-PK",
+ "brand": "اردو",
+ "accents": true,
+ "keys": "ٹ ڈ ڑ ں ھ ہ ے ء",
+ "greet": [
+  [
+   "شب بخیر",
+   "Good night"
+  ],
+  [
+   "صبح بخیر",
+   "Good morning"
+  ],
+  [
+   "السلام علیکم",
+   "Hello (peace be upon you)"
+  ],
+  [
+   "السلام علیکم",
+   "Hello (peace be upon you)"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*(?:aa|ii|uu|ee|c(?!c?h)|[^āīū]\\u0303|^\\u0303))[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+(?:-[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+)*[.,?!:;]?(?: [abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+(?:-[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+)*[.,?!:;]?)*$",
+ "targetScript": "[\\u0621-\\u063A\\u0641-\\u065F\\u0670-\\u06D3]",
+ "standingRule": {
+  "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bplural\\b|\\bpostpositions?\\b|\\boblique\\b|\\bafter the noun\\b|\\bretroflex\\b|\\bdental\\b|\\b(?:un)?aspirated\\b|\\b(?:long|short) vowels?\\b|\\bnasal\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "letters-1",
+   "title": "Letters 1: ا, the ب family, and و ی ے",
+   "roadmap": "ur-letters-1",
+   "deck": "Letters 1: alif, the be family, vāo and ye"
+  },
+  {
+   "id": "letters-2",
+   "title": "Letters 2: letters that never join to the left",
+   "roadmap": "ur-letters-2",
+   "deck": "Letters 2: letters that never join"
+  },
+  {
+   "id": "letters-3",
+   "title": "Letters 3: ج to غ",
+   "roadmap": "ur-letters-3",
+   "deck": "Letters 3: jīm to ġain"
+  },
+  {
+   "id": "letters-4",
+   "title": "Letters 4: ف to ہ, and the two he letters",
+   "roadmap": "ur-letters-4",
+   "deck": "Letters 4: fe to choṭī he"
+  },
+  {
+   "id": "aspirates",
+   "title": "Aspirates with ھ, the nasal ں, and vowel marks",
+   "roadmap": "ur-aspirates",
+   "deck": "Aspirates, nasals and vowel marks"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings: السلام علیکم, شکریہ, and آپ",
+   "roadmap": "ur-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "hona",
+   "title": "Pronouns and ہونا: am, is, are",
+   "roadmap": "ur-hona",
+   "deck": "About me"
+  },
+  {
+   "id": "intro",
+   "title": "Introducing yourself, and yes-no questions with کیا",
+   "roadmap": "ur-intro",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "gender",
+   "title": "Gender and plurals: لڑکا, لڑکے, لڑکی, لڑکیاں",
+   "roadmap": "ur-gender",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "adjectives",
+   "title": "Adjectives that agree: اچھا, اچھے, اچھی",
+   "roadmap": "ur-adjectives",
+   "deck": "Describing things"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers 1 to 100",
+   "roadmap": "ur-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "questions",
+   "title": "Question words, and saying no with نہیں",
+   "roadmap": "ur-questions",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "imperative",
+   "title": "Requests and commands: کیجیے, کریں, کرو",
+   "roadmap": "ur-imperative",
+   "deck": "Health and help"
+  },
+  {
+   "id": "postpositions",
+   "title": "Postpositions and the oblique: گھر میں, کمرے میں",
+   "roadmap": "ur-postpositions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "possessive",
+   "title": "کا, کی, کے: my, your, and family",
+   "roadmap": "ur-possessive",
+   "deck": "Family and people"
+  },
+  {
+   "id": "have",
+   "title": "Having: میرے پاس, and میرا ایک بھائی ہے",
+   "roadmap": "ur-have",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "compare",
+   "title": "Comparing: سے زیادہ, سب سے",
+   "roadmap": "ur-compare",
+   "deck": "Describing things"
+  },
+  {
+   "id": "habitual",
+   "title": "Present habitual: کرتا ہوں, کرتی ہوں",
+   "roadmap": "ur-habitual",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "time",
+   "title": "Clock time: کتنے بجے ہیں؟",
+   "roadmap": "ur-time",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "continuous",
+   "title": "Present continuous: کر رہا ہوں, کر رہی ہوں",
+   "roadmap": "ur-continuous",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "like-need",
+   "title": "Likes and needs: مجھے پسند ہے, مجھے چاہیے",
+   "roadmap": "ur-like-need",
+   "deck": "Shopping"
+  },
+  {
+   "id": "food-prices",
+   "title": "Ordering food and prices: کتنے کا ہے؟",
+   "roadmap": "ur-food-prices",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "directions",
+   "title": "Directions and transport: سیدھے, دائیں, بائیں",
+   "roadmap": "ur-directions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "tha",
+   "title": "تھا, تھی, تھے: was, and used to",
+   "roadmap": "ur-tha",
+   "deck": "About me"
+  },
+  {
+   "id": "past",
+   "title": "The simple past and نے",
+   "roadmap": "ur-past",
+   "deck": "Getting around"
+  },
+  {
+   "id": "future",
+   "title": "The future: کروں گا, کروں گی",
+   "roadmap": "ur-future",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "can-must",
+   "title": "Can and must: سکنا, مجھے جانا ہے",
+   "roadmap": "ur-can-must",
+   "deck": "Health and help"
+  },
+  {
+   "id": "connectors",
+   "title": "اور, لیکن, کیونکہ: joining ideas",
+   "roadmap": "",
+   "deck": "Questions and connectors"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Letters 1: alif, the be family, vāo and ye",
+   "group": "Script and sounds",
+   "desc": "ا, the ب family (ب پ ت ٹ ث) and the vowel letters و ی ے, with first words."
+  },
+  {
+   "name": "Letters 2: letters that never join",
+   "group": "Script and sounds",
+   "desc": "The seven letters that never join to the left: د ڈ ذ ر ڑ ز ژ."
+  },
+  {
+   "name": "Letters 3: jīm to ġain",
+   "group": "Script and sounds",
+   "desc": "ج چ ح خ, س ش, ص ض, ط ظ, ع غ: shapes, sounds, and the letters that sound the same."
+  },
+  {
+   "name": "Letters 4: fe to choṭī he",
+   "group": "Script and sounds",
+   "desc": "ف ق ک گ ل م ن, the two he letters ہ and ھ, and ء."
+  },
+  {
+   "name": "Aspirates, nasals and vowel marks",
+   "group": "Script and sounds",
+   "desc": "Aspirated pairs with ھ, the nasal ں, and the vowel marks zabar, zer and pesh."
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "Hello, goodbye, thank you, please, sorry, and آپ."
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Your name, where you are from, where you live, what you do, and what you used to do."
+  },
+  {
+   "name": "Family and people",
+   "group": "First steps",
+   "desc": "Family members on both sides, with میرا / میری / میرے and the respect plural."
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Numbers 1–100, Urdu digits, rupees and prices."
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Tea, food, ordering at a dhaba or restaurant, and paying."
+  },
+  {
+   "name": "Shopping",
+   "group": "Everyday life",
+   "desc": "I like, I need, how much, too expensive: shopping in a bazaar."
+  },
+  {
+   "name": "Time, days and routine",
+   "group": "Everyday life",
+   "desc": "Clock time, days of the week, and a daily routine."
+  },
+  {
+   "name": "Home and daily things",
+   "group": "Everyday life",
+   "desc": "Rooms and everyday things, with their gender, and having."
+  },
+  {
+   "name": "Describing things",
+   "group": "Everyday life",
+   "desc": "Adjectives that agree, colours, and comparing."
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Where things are, directions, rickshaws, trains and travel."
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Feeling ill, asking for help, polite requests, can and must."
+  },
+  {
+   "name": "Questions and connectors",
+   "group": "Conversation",
+   "desc": "Question words and the words that join ideas."
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "Calques, false friends, and courtesy traps for English speakers."
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersKeepSpaces": true,
+ "pronAnswersScript": "[\\u0600-\\u06ff]",
+ "romaAlmost": true,
+ "voiceMatch": "^ur(?:[-_]|$)"
+}
