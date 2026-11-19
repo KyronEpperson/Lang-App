@@ -16,7 +16,7 @@ module.exports = [
 <h3>Parts of the day</h3>
 <p><b>朝早</b> <i>ziu1 zou2</i> is morning, <b>晏晝</b> <i>aan3 zau3</i> is the middle of the day, and <b>夜晚</b> <i>je6 maan5</i> is evening and night. Add a clock time from the last lesson after it: big to small, as with dates.</p>
 {{ex:我朝早七點起身。|ngo5 ziu1 zou2 cat1 dim2 hei2 san1.|I get up at seven in the morning.}}
-<p>English says "at seven". Cantonese needs no word for "at" before a time: never put <b>喺</b> <i>hai2</i> there. 喺 is only for places.</p>
+<p>English says "at seven". Cantonese needs no word for "at" before a clock time: the time simply sits before the verb. Keep <b>喺</b> <i>hai2</i> for places, as in 喺屋企 (at home).</p>
 <h3>Words for a working day</h3>
 <p><b>返工</b> <i>faan1 gung1</i> is "go to work" (literally "go back to work", but it is the everyday word), and <b>放工</b> <i>fong3 gung1</i> is "get off work". <b>食晏</b> <i>sik6 aan3</i> is to have lunch, <b>沖涼</b> <i>cung1 loeng4</i> is to take a shower, and <b>瞓覺</b> <i>fan3 gaau3</i> is to go to bed or sleep.</p>
 {{ex:我十二點半食晏。|ngo5 sap6 ji6 dim2 bun3 sik6 aan3.|I have lunch at twelve thirty.}}
@@ -34,13 +34,13 @@ module.exports = [
     check: [
       ["Where does a time word like 夜晚 (evening) go?",["Before the verb","At the end of the sentence","Right after the verb","After the thing you do"],0,"Time words go before the verb, either after the person or at the very start."],
       ["Which sentence says \"I take the MTR to work\"?",["我返工搭地鐵。","我搭地鐵返工。","返工我搭地鐵。","我返工地鐵搭。"],1,"How you travel comes before the verb: 搭地鐵 + 返工."],
-      ["How do you say \"at seven\" in \"I get up at seven\"?",["喺七點","七點喺","七點, with no word for \"at\"","係七點"],2,"A clock time needs no \"at\": 我七點起身. 喺 is only for places."]
+      ["In \"I get up at seven\", where does 七點 go?",["After 起身","At the very end, after a particle","Before 起身","Between 起 and 身"],2,"A clock time goes before the verb, with no word for \"at\": 我七點起身."]
     ],
     practice: [
       ["mc","Which is the Jyutping of 瞓 (to sleep)?","fan3","fan2","fan6","fan1","瞓 is fan3, tone 3: mid and level.","!strict"],
       ["mc","'I eat at home in the evening' =","我夜晚喺屋企食飯。","我食飯喺屋企夜晚。","我喺屋企食飯夜晚。","我食飯夜晚喺屋企。","When and where both come before the verb 食飯."],
       ["mc","Which word means 'to have lunch'?","食晏","沖涼","瞓覺","放工","食晏 is lunch: 晏晝 is the middle of the day."],
-      ["mc","'I get off work at six' =","我六點放工。","我放工六點。","我喺六點放工。","我放工喺六點。","A clock time goes before the verb, with no 喺."],
+      ["mc","'I get off work at six' =","我六點放工。","我放工六點。","放工我六點。","我放工喺六點。","A clock time goes before the verb."],
       ["mc","Which question asks 'What time do you go to work?'","你幾點返工呀？","你返工幾點呀？","你幾點放工呀？","你喺邊度返工呀？","幾點 sits where the answer would go, in front of 返工."],
       ["or","I take the MTR to work in the morning (start with 我)","我 朝早 搭 地鐵 返工","喺","When and how both go before the verb: 朝早 + 搭地鐵 + 返工."],
       ["or","I eat at home in the evening (start with 我)","我 夜晚 喺 屋企 食飯","係","Time and place go before the verb: 夜晚 + 喺屋企 + 食飯. The place word is 喺, not 係."],
@@ -50,7 +50,7 @@ module.exports = [
       ["fi","你幾點__呀？","What time do you get off work?","放工","返工|食晏|瞓覺","放工 is to get off work; 返工 is to go to work."],
       ["ty","I take the MTR to work (use 搭)","我 搭 地鐵 返工|搭 地鐵 返工","搭 · 地鐵 · 返工 · how you travel comes first","喺","How you travel goes before the verb: 搭地鐵 + 返工."],
       ["ty","I eat at home in the evening","我 夜晚 喺 屋企 食飯|夜晚 我 喺 屋企 食飯|夜晚 喺 屋企 食飯","夜晚 · 喺 · 屋企 · 食飯","係","When and where both go before the verb: 夜晚 + 喺屋企 + 食飯."],
-      ["ty","I get up at seven in the morning","我 朝早 七點 起身|朝早 七點 我 起身|朝早 七點 起身","朝早 · 七點 · 起身 · no word for \"at\"","喺","The time goes before the verb with no 喺: 朝早七點 + 起身."]
+      ["ty","I get up at seven in the morning","我 朝早 七點 起身|朝早 七點 我 起身|朝早 七點 起身","朝早 · 七點 · 起身 · no word for \"at\"","嘅","The time goes before the verb: 朝早七點 + 起身."]
     ]
   },
   {
@@ -64,9 +64,10 @@ module.exports = [
 <p><b>想</b> <i>soeng2</i> is the soft one: "would like to", "feel like". <b>要</b> <i>jiu3</i> is firmer: "want", and with a verb "need to" or "have to". You already order food with 要.</p>
 {{ex:我想飲杯咖啡。|ngo5 soeng2 jam2 bui1 gaa3 fe1.|I'd like a coffee.}}
 {{ex:我聽日九點要返工。|ngo5 ting1 jat6 gau2 dim2 jiu3 faan1 gung1.|I have to go to work at nine tomorrow.}}
+<p>Which one? 想 is softer and sounds polite when you talk about wishes and plans. 要 is direct: fine for ordering and for things you must do. When in doubt about a wish, choose 想.</p>
 <p>Notice the order: time first, then 要, then the verb. Words like 想 and 要 never move the time or place to the end.</p>
 <h3>識: know how to</h3>
-<p>English says "I can swim" for a skill you learned. Cantonese uses <b>識</b> <i>sik1</i> for that: know how to. Its negative is <b>唔識</b> <i>m4 sik1</i>.</p>
+<p>English says "I can swim" for a skill you learned. Cantonese uses <b>識</b> <i>sik1</i> for that: know how to. Its negative is <b>唔識</b> <i>m4 sik1</i>. With a person or a place instead of a verb, 識 means "know": 我識佢 (I know him).</p>
 {{ex:我識講少少廣東話。|ngo5 sik1 gong2 siu2 siu2 gwong2 dung1 waa2.|I can speak a little Cantonese.}}
 {{ex:我唔識游水。|ngo5 m4 sik1 jau4 seoi2.|I can't swim.}}
 <h3>可以: may, allowed to, possible</h3>
@@ -82,6 +83,9 @@ module.exports = [
 <h3>Saying no, and "no need"</h3>
 <p>Put 唔 in front: <b>唔想</b> <i>m4 soeng2</i>, 唔識, <b>唔可以</b> <i>m4 ho2 ji5</i>, 唔鍾意. One trap: "don't need to" is not 唔要 (that means "don't want" a thing). It is <b>唔使</b> <i>m4 sai2</i>, the same 唔使 as in 唔使客氣.</p>
 {{ex:你唔使畀錢。|nei5 m4 sai2 bei2 cin2.|You don't need to pay.}}
+<h3>應該: should (just recognize it)</h3>
+<p>You will also hear <b>應該</b> <i>jing1 goi1</i>, "should", in the same slot before the verb. Recognize it for now.</p>
+{{ex:你應該休息。|nei5 jing1 goi1 jau1 sik1.|You should rest.}}
 <div class="tip"><b>Most common mistake:</b> using 可以 for a skill you have learned. 我可以講廣東話 → 我識講廣東話.</div>
 `,
     check: [
@@ -102,7 +106,7 @@ module.exports = [
       ["fi","我好__食點心。","I really like dim sum.","鍾意","識|可以|會","鍾意 means like; 好鍾意 is really like."],
       ["fi","你__畀錢。","You don't need to pay.","唔使","唔要|唔可以|唔識","唔使 means no need; 唔要 means you do not want something."],
       ["ty","I'd like to buy two books","我 想 買 兩 本 書|想 買 兩 本 書","想 · 買 · 兩 · 本 · 書","個","Books take the classifier 本: 兩本書, after 想買."],
-      ["ty","I have to go to work at nine tomorrow","我 聽日 九點 要 返工|聽日 九點 我 要 返工|聽日 九點 要 返工|我 聽日 要 九點 返工","聽日 · 九點 · 要 · 返工 · no word for \"at\"","喺","The time goes before the verb with no 喺: 聽日九點 + 要返工."],
+      ["ty","I have to go to work at nine tomorrow","我 聽日 九點 要 返工|聽日 九點 我 要 返工|聽日 九點 要 返工|我 聽日 要 九點 返工","聽日 · 九點 · 要 · 返工 · no word for \"at\"","嘅","The time goes before the verb: 聽日九點 + 要返工."],
       ["ty","I can speak Cantonese (use 識)","我 識 講 廣東話|識 講 廣東話","識 · 講 · 廣東話","可以","識 is for a skill you learned; 可以 is for permission."]
     ]
   },
@@ -120,7 +124,7 @@ module.exports = [
 <p>To answer, just say the one you want, with 唔該 if you are ordering: <b>凍，唔該。</b> <i>dung3, m4 goi1.</i> No yes or no: you simply name your choice. You met another 定 question in the food lesson: 堂食定外賣呀？ (here or to go?).</p>
 <p>It also makes "or not" questions, a little stronger than the plain verb-not-verb question.</p>
 {{ex:你去定唔去呀？|nei5 heoi3 ding6 m4 heoi3 aa3?|Are you going or not?}}
-<p>In a statement, "or" is <b>或者</b> <i>waak6 ze2</i>: either one is possible.</p>
+<p>In a statement, "or" is <b>或者</b> <i>waak6 ze2</i>: either one is possible. At the start of a sentence, 或者 also means "maybe".</p>
 {{ex:我聽日或者後日去。|ngo5 ting1 jat6 waak6 ze2 hau6 jat6 heoi3.|I'll go tomorrow or the day after.}}
 <h3>"And" between things: 同</h3>
 <p>To join two nouns, use <b>同</b> <i>tung4</i>. <b>同埋</b> <i>tung4 maai4</i> means the same and is common in longer lists. Keep the classifiers: each thing you count still takes its own. 同 joins things, not whole sentences, so do not use it for "I eat and I drink".</p>
@@ -129,6 +133,7 @@ module.exports = [
 <p>English puts "too" at the end: "I'm American too." Cantonese puts <b>都</b> <i>dou1</i> after the person and before the verb, never at the end.</p>
 {{ex:我都係。|ngo5 dou1 hai6.|Me too.}}
 {{ex:我都鍾意飲奶茶。|ngo5 dou1 zung1 ji3 jam2 naai5 caa4.|I like milk tea too.}}
+<p>Because 都 goes before the verb, it also comes before 係 and before 好 with an adjective: 我都係美國人 (I'm American too), 佢都好高 (she's tall too).</p>
 <p>With a plural subject, 都 often means "all" or "both": everyone in the group does it.</p>
 {{ex:我哋都去。|ngo5 dei6 dou1 heoi3.|We're all going.}}
 <h3>Not either</h3>
@@ -166,13 +171,13 @@ module.exports = [
     body: `
 <p>English describes with "is": "He is tall", "It is hot". Cantonese has no "is" here. Adjectives work like verbs: they follow the person or thing directly, with no <b>係</b> <i>hai6</i>.</p>
 <h3>No 係, and 好 as glue</h3>
-<p>A plain description usually takes <b>好</b> <i>hou2</i> in front of the adjective. Often it is just glue, not a strong "very".</p>
+<p>A plain description usually takes <b>好</b> <i>hou2</i> in front of the adjective. Often it is just glue, not a strong "very". Without it, a bare adjective tends to sound like a comparison: 佢高 suggests "he's the taller one", so the everyday description is 佢好高.</p>
 {{ex:佢好高。|keoi5 hou2 gou1.|He's tall.}}
 {{ex:今日好熱。|gam1 jat6 hou2 jit6.|It's hot today.}}
 <p>So 好 is not only "good": <b>好平</b> <i>hou2 peng4</i> means "really cheap", not "good and cheap".</p>
 {{ex:呢件衫好平。|ni1 gin6 saam1 hou2 peng4.|This top is really cheap.}}
 <h3>Not, and asking</h3>
-<p>For "not", put 唔 straight before the adjective and drop the 好: <b>唔貴</b> <i>m4 gwai3</i> is "not expensive". To ask, use the adjective-not-adjective question from lesson 7.</p>
+<p>For "not", put 唔 straight before the adjective and drop the 好: <b>唔貴</b> <i>m4 gwai3</i> is "not expensive". To ask, use the verb-not-verb question from lesson 7: adjectives work like verbs, so 貴唔貴.</p>
 {{ex:呢度啲嘢貴唔貴呀？|ni1 dou6 di1 je5 gwai3 m4 gwai3 aa3?|Are things expensive here?}}
 <h3>Too, quite, so, so-so</h3>
 <div class="tbl"><table><tr><th>Cantonese</th><th>Meaning</th></tr><tr><td class="k">太貴</td><td>too expensive</td></tr><tr><td class="k">幾好</td><td>quite good, pretty good</td></tr><tr><td class="k">唔係幾好</td><td>not very good</td></tr><tr><td class="k">咁貴</td><td>so expensive</td></tr><tr><td class="k">麻麻哋</td><td>so-so</td></tr></table></div>
@@ -180,11 +185,11 @@ module.exports = [
 {{ex:呢杯咖啡太甜。|ni1 bui1 gaa3 fe1 taai3 tim4.|This coffee is too sweet.}}
 {{ex:今日幾凍。|gam1 jat6 gei2 dung3.|It's quite cold today.}}
 <h3>Comparing with 過</h3>
-<p>English says "taller than me". Cantonese says the adjective, then <b>過</b> <i>gwo3</i>, then the other person or thing: literally "tall-pass me".</p>
+<p>English says "taller than me". Cantonese says the adjective, then <b>過</b> <i>gwo3</i>, then the other person or thing: literally "tall-pass me". The order never changes: adjective, 過, the other one. There is no word for "more": 過 already does that job.</p>
 {{ex:佢高過我。|keoi5 gou1 gwo3 ngo5.|She's taller than me.}}
 {{ex:今日熱過琴日。|gam1 jat6 jit6 gwo3 kam4 jat6.|It's hotter today than yesterday.}}
 <h3>A bit more: 啲</h3>
-<p>Adjective + <b>啲</b> <i>di1</i> is "a bit more": 平啲 (a bit cheaper), 大啲 (a bit bigger), 細啲 (a bit smaller). It is handy when shopping.</p>
+<p>Adjective + <b>啲</b> <i>di1</i> is "a bit more": 平啲 (a bit cheaper), 大啲 (a bit bigger), 細啲 (a bit smaller). It is handy when shopping, as in 平啲得唔得呀？ (could you make it a bit cheaper?) from the shopping lesson.</p>
 {{ex:有冇細啲呀？|jau5 mou5 sai3 di1 aa3?|Do you have a smaller one?}}
 <h3>A describer before the noun</h3>
 <p>To put a description in front of a noun ("a really nice top"), add <b>嘅</b> <i>ge3</i> and keep the order of English: describer, 嘅, noun. A counted thing still takes its classifier at the front.</p>
@@ -212,6 +217,271 @@ module.exports = [
       ["ty","This top is really cheap","呢 件 衫 好 平","呢 · 件 · 衫 · 好平","係","呢 + classifier + noun: 呢件衫, then 好平 with no 係."],
       ["ty","a really nice top","一 件 好 靚 嘅 衫","一 · 件 · 好靚 · 嘅 · 衫","本","The describer with 嘅 goes before the noun: 好靚嘅衫, after the classifier 件."],
       ["ty","She's taller than me","佢 高 過 我","佢 · 高 · 過 · 我","係","Adjective + 過 + the other person: 佢高過我."]
+    ]
+  },
+  {
+    id: "zo",
+    title: "咗: done; 冇 (didn't) and 未 (not yet)",
+    blurb: "Say what you have done, what you didn't do, and what you haven't done yet, and ask 'have you … yet?'.",
+    deck: "Health and help",
+    body: `
+<p>English changes the verb for the past: eat, ate, have eaten. Cantonese verbs never change. Instead, a small word after the verb shows that the action is done. This lesson also covers the two ways to say "not" about the past: didn't, and not yet.</p>
+<h3>咗: it's done</h3>
+<p>Put <b>咗</b> <i>zo2</i> right after the verb (it is an "aspect marker", if you like grammar words). It covers both "I ate" and "I've eaten". It sits between the verb and the thing: 買咗兩本書, never 買兩本書咗. Time and place still go before the verb.</p>
+{{ex:我食咗飯。|ngo5 sik6 zo2 faan6.|I've eaten.}}
+{{ex:我琴日買咗兩本書。|ngo5 kam4 jat6 maai5 zo2 loeng5 bun2 syu1.|I bought two books yesterday.}}
+<h3>咗 for a change</h3>
+<p>咗 also says that something has changed and is now true, which is why you hear it so often at the doctor's. Many health phrases work this way: 發燒咗 (got a fever), 好返咗 (got better).</p>
+{{ex:我感冒咗。|ngo5 gam2 mou6 zo2.|I've caught a cold.}}
+{{ex:佢病咗。|keoi5 beng6 zo2.|He's sick.}}
+<h3>Didn't: 冇 + verb</h3>
+<p>For something that did not happen, use <b>冇</b> <i>mou5</i> before the verb, the same 冇 as in "not have". Drop the 咗: the two never go together. Compare 唔, which is for habits and plans: 我唔去 means "I'm not going" or "I don't go", while 我冇去 means "I didn't go".</p>
+{{ex:我琴日冇去。|ngo5 kam4 jat6 mou5 heoi3.|I didn't go yesterday.}}
+<h3>Not yet: 未</h3>
+<p>English "not yet" is <b>未</b> <i>mei6</i> before the verb. To ask "have you … yet?", put 咗 after the verb and 未 at the end, then 呀. You already know one: the greeting 食咗飯未呀？</p>
+{{ex:你食咗藥未呀？|nei5 sik6 zo2 joek6 mei6 aa3?|Have you taken your medicine yet?}}
+{{ex:我未食。|ngo5 mei6 sik6.|I haven't eaten yet.}}
+<p>Answer with the verb and 咗 for yes (食咗), or with 未 for not yet. 未 suggests it may still happen. When the chance is over, use 冇 instead: 我琴日冇食早餐 (I didn't have breakfast yesterday).</p>
+<h3>No 咗 for habits and states</h3>
+<p>咗 is not a past tense. A past habit or a past state takes no 咗; the time word alone places it in the past. Adjectives describe states, so they take no 咗 for the past either: "I was tired yesterday" is simply 琴日 + 好攰. (攰咗 is a change: "have gotten tired".)</p>
+{{ex:我以前成日食點心。|ngo5 ji5 cin4 seng4 jat6 sik6 dim2 sam1.|I used to eat dim sum a lot.}}
+{{ex:我琴日好攰。|ngo5 kam4 jat6 hou2 gui6.|I was tired yesterday.}}
+<div class="tip"><b>Most common mistake:</b> mixing 唔 and 咗 for "didn't". For "I didn't go": 我唔去咗 → 我冇去.</div>
+`,
+    check: [
+      ["What does 咗 after a verb show?",["The action is done","The action is happening now","The action will happen","The action happens every day"],0,"咗 marks a finished action or a change: 我食咗飯."],
+      ["'I didn't go' =",["我唔去咗。","我冇去。","我冇去咗。","我未去咗。"],1,"冇 + verb, with no 咗, says it did not happen."],
+      ["Someone asks 你食咗飯未呀？ and you haven't eaten. You say:",["食咗。","冇。","未呀。","唔食。"],2,"未 answers \"not yet\"."]
+    ],
+    practice: [
+      ["mc","Which is the Jyutping of 未 (not yet)?","mei6","mei5","mei4","mei2","未 is mei6, tone 6: low and level; 美國 (mei5 gwok3) starts with tone 5.","!strict"],
+      ["mc","'I didn't go yesterday' =","我琴日冇去。","我琴日唔去。","我琴日冇去咗。","我去咗琴日。","冇 + verb says it did not happen, and 冇 never takes 咗."],
+      ["mc","'I haven't eaten yet' =","我未食。","我冇食咗。","我唔食咗。","我食咗未。","未 before the verb means not yet."],
+      ["mc","'Have you taken your medicine yet?' =","你食咗藥未呀？","你食藥咗未呀？","你未食藥咗呀？","你咗食藥未呀？","咗 goes right after the verb, and 未 at the end asks \"yet?\"."],
+      ["mc","'I used to eat dim sum a lot' (a habit) =","我以前成日食點心。","我以前成日食咗點心。","我成日食咗點心以前。","我食咗點心以前成日。","A past habit takes no 咗: the time word 以前 is enough."],
+      ["or","I bought two books","我 買 咗 兩 本 書","個","Books take the classifier 本: 買咗兩本書."],
+      ["or","I went to the doctor yesterday (start with 我)","我 琴日 睇 咗 醫生","係","Time goes before the verb: 琴日 + 睇咗醫生."],
+      ["or","I haven't taken my medicine yet","我 未 食 藥","咗","未 means not yet, and it never takes 咗."],
+      ["fi","我感冒__。","I've caught a cold.","咗","未|冇|唔","咗 shows the change has happened: 我感冒咗."],
+      ["fi","我琴日__去。","I didn't go yesterday.","冇","唔|未|咗","冇 + verb is for what did not happen."],
+      ["fi","你食咗飯__呀？","Have you eaten yet?","未","唔|咗|嘅","…咗…未呀？ asks \"have you … yet?\"."],
+      ["ty","I bought two books yesterday","我 琴日 買 咗 兩 本 書|琴日 我 買 咗 兩 本 書|琴日 買 咗 兩 本 書","琴日 · 買 · 咗 · 兩 · 本 · 書","個","Time goes before the verb, and books take the classifier 本."],
+      ["ty","I didn't go yesterday","我 琴日 冇 去|琴日 我 冇 去|琴日 冇 去","琴日 · 冇 · 去","唔","冇 + verb for what did not happen, with the time before the verb: 琴日冇去."],
+      ["ty","I haven't eaten yet","我 未 食|我 未 食飯|未 食|未 食飯","未 · 食","冇","未 means not yet; 冇 means didn't."]
+    ]
+  },
+  {
+    id: "gan-gwo",
+    title: "緊 and 過: doing it now, and ever done it",
+    blurb: "Say what you are doing right now, ask 'have you ever…?', and tell 過 apart from 咗.",
+    deck: "Getting around",
+    body: `
+<p>English builds "I am eating" with "am" and "-ing", and "I have been" with "have". Cantonese does both with one small word after the verb, and the verb itself never changes.</p>
+<h3>緊: in the middle of it</h3>
+<p>Put <b>緊</b> <i>gan2</i> right after the verb for something happening right now. There is no "am": never put 係 in front. 緊 is for actions only; a state such as "I'm tired" stays 我好攰.</p>
+{{ex:我食緊飯。|ngo5 sik6 gan2 faan6.|I'm eating.}}
+{{ex:我等緊巴士。|ngo5 dang2 gan2 baa1 si2.|I'm waiting for the bus.}}
+{{ex:你做緊乜嘢呀？|nei5 zou6 gan2 mat1 je5 aa3?|What are you doing?}}
+<p>Like 咗, 緊 sits between the verb and the thing, never at the end of the sentence: 食緊飯, 搭緊地鐵. On the phone, this is how you say where you are.</p>
+{{ex:我搭緊地鐵。|ngo5 daap3 gan2 dei6 tit3.|I'm on the MTR.}}
+<p>A time word such as <b>而家</b> <i>ji4 gaa1</i> (now) goes before the verb as usual: 我而家食緊飯.</p>
+<h3>過: ever done it</h3>
+<p>Put <b>過</b> <i>gwo3</i> right after the verb for something you have done at some point in your life: "I've been", "I've tried".</p>
+{{ex:我搭過天星小輪。|ngo5 daap3 gwo3 tin1 sing1 siu2 leon4.|I've taken the Star Ferry.}}
+<p>過 here is the same character as in 高過我 (taller than me), but after a verb it means "have done it before".</p>
+<p>To ask "Have you ever…?", add 未 at the end, as you did with 咗. Answer with the verb and 過 for yes; for no, say 未去過 (not yet) or 冇去過 (never).</p>
+{{ex:你去過香港未呀？|nei5 heoi3 gwo3 hoeng1 gong2 mei6 aa3?|Have you ever been to Hong Kong?}}
+{{ex:我去過。|ngo5 heoi3 gwo3.|Yes, I have.}}
+<h3>Never: 未…過 and 冇…過</h3>
+<p>Put <b>未</b> <i>mei6</i> or <b>冇</b> <i>mou5</i> before the verb and keep 過 after it. 未 adds "so far", as if it might still happen; 冇 is a plain "never".</p>
+{{ex:我未搭過小巴。|ngo5 mei6 daap3 gwo3 siu2 baa1.|I've never taken a minibus.}}
+{{ex:佢冇去過澳門。|keoi5 mou5 heoi3 gwo3 ou3 mun2.|He's never been to Macau.}}
+<h3>過 or 咗?</h3>
+<p>English "went" can be either, so choose by meaning. 咗 tells what happened on one occasion, or that someone went and is there now. 過 tells that it is part of your experience. So ask "Have you been to Hong Kong?" with 過, and "Did you go yesterday?" with 咗 or 冇.</p>
+<div class="tbl"><table><tr><th>Cantonese</th><th>Meaning</th></tr><tr><td class="k">佢去咗中環。</td><td>She's gone to Central (she is there now).</td></tr><tr><td class="k">佢去過中環。</td><td>She's been to Central (at some point).</td></tr></table></div>
+{{ex:佢去咗中環。|keoi5 heoi3 zo2 zung1 waan4.|She's gone to Central.}}
+<div class="tip"><b>Most common mistake:</b> copying English "am" with 係. 我係食飯 → 我食緊飯.</div>
+`,
+    check: [
+      ["How do you say 'I'm eating'?",["我係食飯。","我食緊飯。","我食咗飯。","我食過飯。"],1,"緊 after the verb means right now, with no 係."],
+      ["What does 我去過香港 mean?",["I've been to Hong Kong","I'm going to Hong Kong","I'm in Hong Kong now","I'm on my way to Hong Kong"],0,"過 after the verb is about experience: you have been there."],
+      ["Which word after the verb means 'right now, in the middle of it'?",["咗","過","緊","未"],2,"緊 marks an action in progress: 我等緊巴士."]
+    ],
+    practice: [
+      ["mc","Which is the Jyutping of 緊 (in the middle of)?","gan2","gan6","gan3","gan1","緊 is gan2, tone 2: it rises from the middle.","!strict"],
+      ["mc","'I'm eating' =","我食緊飯。","我係食飯。","我緊食飯。","我食飯緊。","緊 goes right after the verb, and there is no 係."],
+      ["mc","'Have you ever been to Hong Kong?' =","你去過香港未呀？","你去緊香港未呀？","你過去香港未呀？","你去香港過未呀？","過 right after the verb means you have done it at some point."],
+      ["mc","'She's gone to Central' (and is there now) =","佢去咗中環。","佢去過中環。","佢去緊中環。","佢中環去咗。","咗 says she went and is there; 過 would only mean she has been there before."],
+      ["mc","'I've never taken a minibus' =","我未搭過小巴。","我未搭咗小巴。","我唔搭過小巴。","我搭過未小巴。","未 before the verb and 過 after it mean never, so far."],
+      ["or","I'm eating now (start with 我)","我 而家 食 緊 飯","係","Time goes before the verb: 而家 + 食緊飯, with no 係."],
+      ["or","I went to Macau last week (start with 我)","我 上個禮拜 去 咗 澳門","緊","Time goes before the verb: 上個禮拜 + 去咗澳門."],
+      ["or","Have you ever been to Macau?","你 去 過 澳門 未 呀","咗","過 after the verb asks about experience; 未 at the end makes it a question."],
+      ["fi","我而家食__飯。","I'm eating now.","緊","過|咗|係","緊 after the verb means you are in the middle of it."],
+      ["fi","你去__香港未呀？","Have you ever been to Hong Kong?","過","緊|咗|係","過 asks about experience: 去過 = have been."],
+      ["fi","佢冇去__澳門。","He's never been to Macau.","過","緊|咗|未","冇 + verb + 過 means never."],
+      ["ty","I'm eating now","我 而家 食 緊 飯|而家 我 食 緊 飯|而家 食 緊 飯","而家 · 食 · 緊 · 飯","係","Time goes before the verb: 而家 + 食緊飯, with no 係."],
+      ["ty","I went to Macau last week","我 上個禮拜 去 咗 澳門|上個禮拜 我 去 咗 澳門|上個禮拜 去 咗 澳門|我 上個星期 去 咗 澳門|上個星期 我 去 咗 澳門|上個星期 去 咗 澳門","上個禮拜 · 去 · 咗 · 澳門","緊","Time goes before the verb: 上個禮拜 + 去咗澳門."],
+      ["ty","I've never been to Hong Kong","我 未 去 過 香港|我 冇 去 過 香港|未 去 過 香港|冇 去 過 香港","未 · 去 · 過 · 香港","咗","未 or 冇 before the verb and 過 after it mean never."]
+    ]
+  },
+  {
+    id: "go-come",
+    title: "去 and 嚟: going and coming; 搭車, 坐地鐵",
+    blurb: "Say where you are going and how: by MTR, bus, taxi or on foot, and get on and off.",
+    deck: "Getting around",
+    body: `
+<p>English says "go to Central" and "come to my place", with "to" before the place and "by bus" at the end. Cantonese needs no "to", and the "by bus" part moves to the front. The verb itself also depends on where the speaker stands.</p>
+<h3>去 and 嚟</h3>
+<p><b>去</b> <i>heoi3</i> is "go", away from where you are. <b>嚟</b> <i>lei4</i> is "come", toward the speaker. The place follows directly, with no word for "to".</p>
+{{ex:我聽日去中環。|ngo5 ting1 jat6 heoi3 zung1 waan4.|I'm going to Central tomorrow.}}
+{{ex:你幾時嚟香港呀？|nei5 gei2 si4 lei4 hoeng1 gong2 aa3?|When are you coming to Hong Kong?}}
+<p>Where the speaker is decides it: someone in Hong Kong asks 你幾時嚟香港呀？, while a friend in New York asks <b>你幾時去香港呀？</b> <i>nei5 gei2 si4 heoi3 hoeng1 gong2 aa3?</i></p>
+<p>An invitation to come over uses 嚟 and the particle 吖.</p>
+{{ex:嚟我屋企食飯吖！|lei4 ngo5 uk1 kei2 sik6 faan6 aa1!|Come over to my place for dinner!}}
+<h3>返: going back where you belong</h3>
+<p><b>返</b> <i>faan1</i> is for going to a place that is yours: home, work, school. That is why 返工 and 返學 simply mean "go to work" and "go to school".</p>
+{{ex:我六點返屋企。|ngo5 luk6 dim2 faan1 uk1 kei2.|I go home at six.}}
+<h3>How you travel goes first</h3>
+<p>English puts "by MTR" at the end. Cantonese puts how you travel before the verb of going: <b>搭</b> <i>daap3</i> or <b>坐</b> <i>co5</i> + the vehicle, then 去, 嚟 or 返 + the place. Both 搭 and 坐 work for the MTR, buses and taxis. On foot is <b>行路</b> <i>haang4 lou6</i>.</p>
+{{ex:我搭地鐵去中環。|ngo5 daap3 dei6 tit3 heoi3 zung1 waan4.|I take the MTR to Central.}}
+{{ex:我坐巴士返工。|ngo5 co5 baa1 si2 faan1 gung1.|I go to work by bus.}}
+{{ex:我行路去。|ngo5 haang4 lou6 heoi3.|I'll walk there.}}
+<p>The vehicles you need most are 地鐵 (MTR), 巴士 (bus), 小巴 (minibus) and 的士 (taxi). 搭 is literally "ride" or "catch", and 坐 is "sit".</p>
+<p>The order matters: 我去中環搭地鐵 means "I'm going to Central to take the MTR". To ask how, put <b>點</b> <i>dim2</i> (how) in the same slot.</p>
+{{ex:你點去機場呀？|nei5 dim2 heoi3 gei1 coeng4 aa3?|How do you get to the airport?}}
+<p>To ask where someone is going, the question word takes the place slot after 去, as you learned in lesson 8.</p>
+{{ex:你去邊度呀？|nei5 heoi3 bin1 dou6 aa3?|Where are you going?}}
+<h3>Getting on and off</h3>
+<p><b>上車</b> <i>soeng5 ce1</i> is to get on and <b>落車</b> <i>lok6 ce1</i> is to get off, for buses, trains and taxis alike. On a minibus, call out <b>前面有落！</b> <i>cin4 min6 jau5 lok6!</i> and the driver stops.</p>
+{{ex:我喺中環落車。|ngo5 hai2 zung1 waan4 lok6 ce1.|I get off at Central.}}
+{{ex:前面有落！|cin4 min6 jau5 lok6!|Getting off ahead, please!}}
+<div class="tip"><b>Most common mistake:</b> putting how you travel at the end, as English does. 我去中環搭地鐵 → 我搭地鐵去中環.</div>
+`,
+    check: [
+      ["Which word means 'come' (toward the speaker)?",["去","嚟","返","落"],1,"嚟 is come; 去 is go."],
+      ["In 'I go to Central by MTR', where does 搭地鐵 (by MTR) go?",["Before 去中環","After 中環","At the very end, after a particle","Between 去 and 中環"],0,"How you travel comes before the verb of going: 我搭地鐵去中環."],
+      ["What does 返工 literally say?",["go back to work","come to work","get off work","take a bus to work"],0,"返 is go back; 返工 is the everyday \"go to work\"."]
+    ],
+    practice: [
+      ["mc","Which is the Jyutping of 嚟 (to come)?","lei4","lei5","lei6","lei2","嚟 is lei4, tone 4: low and falling.","!strict"],
+      ["mc","'I take the MTR to Central' =","我搭地鐵去中環。","我去中環搭地鐵。","我去搭地鐵中環。","我中環去搭地鐵。","How you travel goes first: 搭地鐵 + 去中環."],
+      ["mc","'Come over to my place!' (an invitation) =","嚟我屋企吖！","我屋企嚟吖！","嚟吖我屋企！","我屋企吖嚟！","嚟 + place, and 吖 at the end makes it an invitation."],
+      ["mc","'I'm going home' =","我返屋企。","我屋企返。","我嚟屋企。","我返去屋企返。","返 is for going back to a place that is yours, like home."],
+      ["mc","On a minibus, how do you tell the driver you want to get off ahead?","前面有落！","唔該，上車！","前面去！","我嚟前面！","前面有落 is the set phrase: \"getting off ahead\"."],
+      ["or","I take the MTR to Central (start with 我)","我 搭 地鐵 去 中環","係","How you travel goes before the verb: 搭地鐵 + 去中環."],
+      ["or","I go to work by bus (start with 我)","我 坐 巴士 返工","喺","How you travel goes before the verb: 坐巴士 + 返工."],
+      ["or","Come over to my place for dinner!","嚟 我 屋企 食飯 吖","係","嚟 is come, toward the speaker, and 吖 makes it an invitation."],
+      ["fi","我搭地鐵__中環。","I take the MTR to Central.","去","喺|係|嘅","去 + place, with no word for \"to\"."],
+      ["fi","我六點__屋企。","I go home at six.","返","嚟|係|過","返 is for going back to your own place: 返屋企."],
+      ["fi","我喺中環__車。","I get off at Central.","落","上|去|嚟","落車 is to get off; 上車 is to get on."],
+      ["ty","I take the MTR to Central","我 搭 地鐵 去 中環|我 坐 地鐵 去 中環|搭 地鐵 去 中環|坐 地鐵 去 中環","搭 · 地鐵 · 去 · 中環","喺","How you travel goes before the verb: 搭地鐵 + 去中環."],
+      ["ty","I walk to work","我 行路 返工|行路 返工","行路 · 返工","喺","How you travel goes before the verb: 行路 + 返工."],
+      ["ty","I'm going home by taxi","我 搭 的士 返屋企|我 坐 的士 返屋企|搭 的士 返屋企|坐 的士 返屋企","搭 · 的士 · 返屋企","喺","How you travel goes before the verb: 搭的士 + 返屋企."]
+    ]
+  },
+  {
+    id: "directions",
+    title: "Directions: 左邊, 右邊, 直行, 對面",
+    blurb: "Ask the way, follow simple directions, and say where a place is: across from, next to, in front of, behind.",
+    deck: "Around town and directions",
+    body: `
+<p>Asking the way in Hong Kong takes a few fixed phrases. The one real trap for English speakers is the order of "across from the bank": Cantonese says it the other way round.</p>
+<h3>Asking</h3>
+<p>Start with <b>請問</b> <i>cing2 man6</i> (excuse me, may I ask), then the place, 喺 (at) and 邊度 (where), and end with 呀. The question word stays where the answer will go. 請問 is the polite opener for any question to a stranger, and 唔該 thanks them afterwards.</p>
+{{ex:請問，地鐵站喺邊度呀？|cing2 man6, dei6 tit3 zaam6 hai2 bin1 dou6 aa3?|Excuse me, where is the MTR station?}}
+<p>Or name where you want to go and ask how: <b>請問，中環點去呀？</b> <i>cing2 man6, zung1 waan4 dim2 heoi3 aa3?</i> (excuse me, how do I get to Central?).</p>
+<h3>Following directions</h3>
+<div class="tbl"><table><tr><th>Cantonese</th><th>Meaning</th></tr><tr><td class="k">直行</td><td>go straight</td></tr><tr><td class="k">轉左</td><td>turn left</td></tr><tr><td class="k">轉右</td><td>turn right</td></tr><tr><td class="k">過馬路</td><td>cross the road</td></tr></table></div>
+<p><b>直行</b> <i>zik6 haang4</i> is "go straight", <b>轉左</b> <i>zyun3 zo2</i> and <b>轉右</b> <i>zyun3 jau6</i> are "turn left" and "turn right", and <b>過馬路</b> <i>gwo3 maa5 lou6</i> is "cross the road". <b>去到</b> <i>heoi3 dou3</i> means "when you get to". Directions are just the steps in order, joined by commas, with no word for "then" needed.</p>
+{{ex:直行，去到紅綠燈轉右。|zik6 haang4, heoi3 dou3 hung4 luk6 dang1 zyun3 jau6.|Go straight, and turn right at the traffic lights.}}
+{{ex:過馬路，轉左。|gwo3 maa5 lou6, zyun3 zo2.|Cross the road and turn left.}}
+<p>In 直行, 行 is <i>haang4</i> (walk). It is the same character as in 銀行 (bank), where it is read <i>hong4</i>.</p>
+<h3>Where it is: the landmark first</h3>
+<p>English says "across from the bank", "next to the supermarket". Cantonese says the landmark first and the place word after it: <b>銀行對面</b> <i>ngan4 hong4 deoi3 min6</i>, literally "bank across". The same goes for <b>隔籬</b> <i>gaak3 lei4</i> (next to), <b>前面</b> <i>cin4 min6</i> (in front of), <b>後面</b> <i>hau6 min6</i> (behind), <b>左邊</b> <i>zo2 bin1</i> and <b>右邊</b> <i>jau6 bin1</i>. Put 喺 in front. Used alone, a place word points from where you stand: 喺對面 is "across the road".</p>
+{{ex:地鐵站喺銀行對面。|dei6 tit3 zaam6 hai2 ngan4 hong4 deoi3 min6.|The MTR station is across from the bank.}}
+{{ex:酒店喺超市後面。|zau2 dim3 hai2 ciu1 si5 hau6 min6.|The hotel is behind the supermarket.}}
+{{ex:洗手間喺左邊。|sai2 sau2 gaan1 hai2 zo2 bin1.|The restroom is on the left.}}
+<p>When you do something there, the whole 喺 phrase goes before the verb: 我喺銀行對面等你 (I'll wait for you across from the bank).</p>
+<h3>How far?</h3>
+<p>Ask <b>遠唔遠呀？</b> <i>jyun5 m4 jyun5 aa3?</i> (is it far?). The answer is often 好近 (very close) or 好遠 (very far), or it counts minutes on foot with 行 and 分鐘.</p>
+{{ex:遠唔遠呀？|jyun5 m4 jyun5 aa3?|Is it far?}}
+{{ex:行五分鐘就到。|haang4 ng5 fan1 zung1 zau6 dou3.|It's a five-minute walk.}}
+<div class="tip"><b>Most common mistake:</b> keeping the English order for "across from the bank". 對面銀行 → 銀行對面.</div>
+`,
+    check: [
+      ["'across from the bank' =",["對面銀行","銀行對面","對銀行面","面對銀行"],1,"The landmark comes first, then the place word: 銀行對面."],
+      ["Which phrase means 'go straight'?",["轉左","直行","過馬路","轉右"],1,"直行 is go straight; 轉左 and 轉右 are turn left and right."],
+      ["In 地鐵站喺銀行對面, what does 對面 mean?",["across from","next to","behind","in front of"],0,"對面 is across from; 隔籬 is next to."]
+    ],
+    practice: [
+      ["mc","Which word is hai2 (at, in)?","喺","係","嚟","去","喺 is hai2, tone 2; 係 is hai6, tone 6 (to be).","!strict"],
+      ["mc","'across from the bank' =","喺銀行對面","喺對面銀行","對面喺銀行","銀行喺對面","The place word comes after its landmark: 銀行對面."],
+      ["mc","Which means 'turn left'?","轉左","轉右","直行","過馬路","轉左 is turn left; 轉右 is turn right."],
+      ["mc","'Excuse me, where's the MTR station?' =","請問，地鐵站喺邊度呀？","請問，邊度喺地鐵站呀？","請問，喺邊度地鐵站呀？","請問，地鐵站邊度喺呀？","Thing + 喺 + 邊度: the question word stays where the answer goes."],
+      ["mc","In 直行 (go straight), how is 行 read?","haang4","hong4","hang4","hong2","行 is haang4 (walk) here; hong4 is its reading in 銀行."],
+      ["or","I'll wait for you across from the bank (start with 我)","我 喺 銀行 對面 等 你","係","The place goes before the verb: 喺銀行對面 + 等你."],
+      ["or","That bank is across the road","嗰 間 銀行 喺 對面","本","嗰 + classifier + noun: banks take the classifier 間."],
+      ["or","Is it far?","遠 唔 遠 呀","係","A verb-not-verb question asks if it is far: 遠唔遠呀？"],
+      ["fi","地鐵站喺銀行__。","The MTR station is across from the bank.","對面","隔籬|後面|左邊","對面 is across from; it comes after the landmark 銀行."],
+      ["fi","請問，洗手間__邊度呀？","Excuse me, where's the restroom?","喺","係|嚟|去","喺 (hai2) means at or in; 係 (hai6) means to be."],
+      ["fi","直行，去到紅綠燈__右。","Go straight, and turn right at the traffic lights.","轉","過|落|嚟","轉右 is turn right."],
+      ["ty","I'll wait for you across from the bank","我 喺 銀行 對面 等 你|喺 銀行 對面 等 你","喺 · 銀行 · 對面 · 等 · 你","係","The place goes before the verb: 喺銀行對面 + 等你."],
+      ["ty","That restaurant is next to the bank","嗰 間 餐廳 喺 銀行 隔籬","嗰 · 間 · 餐廳 · 喺 · 銀行 · 隔籬","本","嗰 + classifier + noun: restaurants take the classifier 間."],
+      ["ty","Excuse me, where's the MTR station?","請問 地鐵站 喺 邊度 呀|請問 地鐵站 喺 邊度","請問 · 地鐵站 · 喺 · 邊度","係","Thing + 喺 + 邊度, with 喺 (at), not 係."]
+    ]
+  },
+  {
+    id: "suggest",
+    title: "Suggestions and invitations: 不如…？, 一齊…吖",
+    blurb: "Suggest plans, invite friends, say yes or 'next time', and tell someone not to worry.",
+    deck: "Food and drink",
+    body: `
+<p>In English, "Let's get dim sum!" sounds friendly. In Cantonese, a bare 去飲茶！ sounds like an order. Suggestions and invitations need a soft opening, a particle at the end, or both. This last lesson gives you the language of making plans together.</p>
+<h3>How about…? 不如…吖</h3>
+<p><b>不如</b> <i>bat1 jyu4</i> at the start is "how about…?" or "why don't we…?". Literally it means "not as good as", as if to say nothing beats the plan that follows. Finish with <b>吖</b> <i>aa1</i>, the particle for offers and invitations, which you met in lesson 15.</p>
+{{ex:不如去飲茶吖？|bat1 jyu4 heoi3 jam2 caa4 aa1?|How about going for dim sum?}}
+<p>Time and place go where they always go, before the verb, so a whole plan fits in one line: when, where, then what.</p>
+{{ex:不如聽日去行山吖？|bat1 jyu4 ting1 jat6 heoi3 haang4 saan1 aa1?|How about going hiking tomorrow?}}
+{{ex:不如七點喺中環見吖？|bat1 jyu4 cat1 dim2 hai2 zung1 waan4 gin3 aa1?|How about meeting in Central at seven?}}
+<p>Listen for the pitch of the particle: 吖 is high and level, while the 呀 of ordinary questions is lower. Say it without an English rise at the end; the particle already does the asking.</p>
+<h3>Together: 一齊</h3>
+<p><b>一齊</b> <i>jat1 cai4</i> (together) also goes before the verb. With 吖 at the end it is a warm "let's". It combines with 不如 too: 不如一齊去吖？ (how about we all go?).</p>
+{{ex:一齊食飯吖！|jat1 cai4 sik6 faan6 aa1!|Let's eat together!}}
+<h3>Let's: 我哋…啦</h3>
+<p>To get a group moving, use <b>我哋</b> <i>ngo5 dei6</i> + verb + <b>啦</b> <i>laa1</i>.</p>
+{{ex:我哋走啦。|ngo5 dei6 zau2 laa1.|Let's go.}}
+<h3>Saying yes, or not this time</h3>
+<p><b>好吖！</b> <i>hou2 aa1!</i> is a happy "sure!", and <b>好啦</b> <i>hou2 laa1</i> is "OK then". To say no politely, give a reason and offer <b>下次啦</b> <i>haa6 ci3 laa1</i> (next time). A flat 唔去 on its own can sound blunt.</p>
+{{ex:好吖！|hou2 aa1!|Sure!}}
+{{ex:今日唔得，下次啦。|gam1 jat6 m4 dak1, haa6 ci3 laa1.|I can't today. Next time!}}
+<h3>Is that OK? 得唔得呀？</h3>
+<p><b>得</b> <i>dak1</i> means "OK, can do". Ask with 得唔得呀？ to check a time or a plan. The answer is 得 (fine) or 唔得 (no good), often with a new suggestion.</p>
+{{ex:七點得唔得呀？|cat1 dim2 dak1 m4 dak1 aa3?|Is seven OK?}}
+<h3>Don't: 唔好 + verb</h3>
+<p><b>唔好</b> <i>m4 hou2</i> before a verb means "don't". It is the friendly way to reassure someone too, and 啦 at the end makes it warmer still: 唔好擔心啦.</p>
+{{ex:唔好擔心。|m4 hou2 daam1 sam1.|Don't worry.}}
+<div class="tip"><b>Most common mistake:</b> inviting with a bare command and no particle, as English "Let's…" allows. 去飲茶！ → 不如去飲茶吖？</div>
+`,
+    check: [
+      ["Which particle turns 一齊去 into a friendly invitation?",["嗎","吖","咗","過"],1,"吖 marks offers and invitations: 一齊去吖！"],
+      ["Your friend says 不如去飲茶吖？ and you would love to. You say:",["好吖！","下次啦。","唔好。","唔使。"],0,"好吖 is a happy yes."],
+      ["What does 唔好 + verb mean?",["not good at it","no need to","don't (do it)","not yet"],2,"唔好 before a verb means don't: 唔好擔心."]
+    ],
+    practice: [
+      ["mc","Which is the Jyutping of 吖 (the invitation particle)?","aa1","aa3","aa4","aa2","吖 is aa1, tone 1: high; 呀 is aa3, tone 3.","!strict"],
+      ["mc","'How about dim sum?' (an invitation) =","不如去飲茶吖？","去飲茶！","飲茶不如去吖？","不如吖去飲茶？","不如 opens the suggestion and 吖 at the end makes it an invitation."],
+      ["mc","A friend invites you, but you can't go. The polite answer is:","下次啦。","唔去。","好吖！","去吖！","下次啦 (next time) is the soft way to say no."],
+      ["mc","'Don't worry' =","唔好擔心。","冇擔心。","擔心唔好。","未擔心。","唔好 + verb means don't."],
+      ["mc","'Is seven OK?' =","七點得唔得呀？","得唔得七點呀？","七點得呀唔得？","七點唔得得呀？","得唔得 asks if a plan is OK, after the time."],
+      ["or","How about going for dim sum tomorrow? (start with 不如)","不如 聽日 去 飲茶 吖","喺","Time goes before the verb: 聽日 + 去飲茶."],
+      ["or","Let's eat together! (start with 我哋)","我哋 一齊 食飯 吖","同","一齊 (together) goes before the verb: 一齊食飯."],
+      ["or","Don't worry","唔好 擔心","冇","唔好 + verb means don't; 冇 is for what did not happen."],
+      ["fi","不如去飲茶__？","How about going for dim sum?","吖|啦","咗|過|嘅","吖 (or 啦) at the end makes it a friendly suggestion."],
+      ["fi","我哋__食飯吖！","Let's eat together!","一齊","都|同|定","一齊 means together and sits before the verb."],
+      ["fi","__擔心。","Don't worry.","唔好|唔使","冇|未|唔要","唔好 + verb means don't; 唔使擔心 (no need to worry) also works."],
+      ["ty","How about going for dim sum tomorrow?","不如 聽日 去 飲茶 吖|聽日 不如 去 飲茶 吖|不如 聽日 去 飲茶 啦|聽日 不如 去 飲茶 啦|不如 聽日 飲茶 吖|不如 聽日 飲茶 啦","不如 · 聽日 · 去 · 飲茶 · 吖","喺","Time goes before the verb: 不如 + 聽日 + 去飲茶."],
+      ["ty","How about taking a taxi there? (use 不如)","不如 搭 的士 去 吖|不如 坐 的士 去 吖|不如 搭 的士 去 啦|不如 坐 的士 去 啦","不如 · 搭 · 的士 · 去 · 吖","喺","How you travel goes before the verb: 搭的士 + 去."],
+      ["ty","Let's go together! (an invitation)","一齊 去 吖|我哋 一齊 去 吖|一齊 去 啦|我哋 一齊 去 啦","一齊 · 去 · 吖","咗","一齊 goes before the verb, and 吖 makes it an invitation."]
     ]
   }
 ];

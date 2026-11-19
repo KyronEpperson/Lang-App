@@ -11,7 +11,7 @@
                  a catch at the END of a word is q (bata, "child" -> BAH-tahq). Neither is written in Cebuano spelling.
      CAPITALS    the stressed syllable, ONLY where the stress is checked (a LEX entry or a checked EXC word). One-syllable words
                  are lowercase. A word whose stress is not checked is written all lowercase with hyphens between syllables and no
-                 final q (salamat -> sah-lah-maht): the aid then makes no claim about stress or a final catch.
+                 final q (dili -> dee-lee): the aid then makes no claim about stress or a final catch.
                  mga is said "manga" -> mah-ngah (stress unchecked).
      a hyphen    before a vowel is the catch inside one word (kanus-a, mag-ampo, Taga-Amerika); between two copies of a word
                  (hinay-hinay) it makes two words in the aid.
@@ -39,13 +39,28 @@ const EXC = {
 };
 const EXC_UNCHECKED = new Set(['mga']);
 /* one spelling, two words: the aid shows the first reading named here, and always warns */
-const HOMO = { wala: 'none, not (walâ); "left" may differ', bata: 'child (batà); "nightgown" has no catch', kita: 'we (kita); the root "see" may differ' };
+const HOMO = { wala: 'none, not (walâ); "left" may differ', bata: 'child (batà); "nightgown" has no catch', kita: 'we (kitá); the root "see" may differ',
+  busog: 'full (busóg); busog "bow" (a different word) is stressed búsog',
+  luto: 'cook, cooked rice (lutò); luto "blister" is lutó',
+  uyab: 'boyfriend, girlfriend (uyáb); uyab "wash fish" is úyab' };
 
 /* checked forms; the source of each is in docs/profiles/en-ceb.md §6.4 */
 const LEX_WORDS = `
 baláy maayo batà dakô gabii akó túbig ugmâ walâ sugbò
 usá duhá tuló upát limá unóm pitó waló siyám napulò
-bugás karón palít itlóg ulán pulá likód ubó kilát ikóg hagdán putî tungâ pilì yawà lungsód dinhî irô lumà matandâ sip-ón kolór lagós siyudád kamí buhì dagsà gamót
+bugás karón palít itlóg ulán pulá likód ubó kilát ikóg hagdán putî tungâ pilì yawà lungsód irô lumà matandâ sip-ón kolór lagós siyudád kamí buhì dagsà gamót
+`
+/* added by the stress audit of 2026-11-19 (pages opened that day); STRESS-AUDIT.md and profile §6.4 give the source of each word */
++ /* Wiktionary IPA or marked headword (kaikki.org extracts of Wiktionary, en.wiktionary.com, Kiwix mirrors of Wiktionary) */ `
+kaayo hapon palihog palihug salamat nakò imo niya kusóg udto dirí amping ikáw ila kinse tiya butáng kumusta kinsâ siyá iyá ngano
+sige adto ayáw kawháan amahán inahan tawo káon inóm gamáy asawa babaye lalaki igsoon higala manók baboy busóg dalan daan túlog
+hatag kuhà ganahan kinahanglan trabaho hulát hugas lutò hugaw tán-aw bugnáw mahál kapoy taás daghán diyutay tanán lisód dagat layô
+gawás maó bulan unyâ ngalan tiíl iríng kuwatro baynte gatós libo ninyó nilá anhi naog dungog tuón tindog língkod búhat kahibaló
+ablí sugod tigulang dalî init kusina basin bitaw tungód buhók ngipon magulang manghód uyáb sabáw utan pamahaw panihapon gatas asín
+tám-is uháw apó limpyo gwapa gwapo hímò
+`
++ /* Wikipedia, "Cebuano grammar": marked forms in the pronoun and demonstrative tables */ `
+kanakò namò amò kanamò kitá natò kanatò kamó silá kiní kanâ kadtó kató dihâ
 `;
 const MARK = { 'á': ['a', 's'], 'é': ['e', 's'], 'í': ['i', 's'], 'ó': ['o', 's'], 'ú': ['u', 's'],
   'à': ['a', 'g'], 'è': ['e', 'g'], 'ì': ['i', 'g'], 'ò': ['o', 'g'], 'ù': ['u', 'g'],

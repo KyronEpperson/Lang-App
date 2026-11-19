@@ -34,47 +34,61 @@ ng=nang yung kitá talagá grábe gabí waláng anumán edád hapon tanghalì ma
 huwebes=hwébes linggó limá siyam=syám anim waló sampû líbo kuwatro=kwátro ótso dóse béynte bénte nuwebe=nwébe
 apat piso suklî kuya tito tita lola lolo anák uminóm kináin alám áyaw babáe lalaki áte tíyo kapatíd kakáin tatay
 singkuwenta=singkwénta singkwénta dalawá pinsan pumuntá maglutò lutúin
-paalam mamayâ biyernes=byérnes dos síngko saís taón minuto ónse diyes=dyés uno baryá anóng síge tará éwan íngat pangalan
-kahapon oras`;
+paalam mamayâ biyernes=byérnes dós síngko saís taón minuto ónse diyes=dyés uno baryá anóng síge tará éwan íngat pangalan
+kahapon oras
+daán trénta asawa magulang tíya ayóko puwede=pwéde pwéde marunong inglés kaibígan kailangan kumákáin pagkáin kaínin maglarô
+larô trabáho magtrabáho matulog tulóg
+gumísing lumpia=lumpyâ uháw tsaa=tsa-á masakít mahál túbig tinapay adóbo pansít pancit=pansít gutóm busóg paléngke tindáhan
+mura halò
+sinigáng sakít ulo tulong botíka bayad sakáyan kaliwâ kanan kánto simbáhan malápit maláyò paáno tulúngan doktór ospitál
+opisína paaralán eskuwelahan=eskwélahan matangkád malakí
+pangit galít takót sumayáw bágo lumà gurò kutsára estudyánte sayáw
+dirétso alín tiyán kusína dyip=jip jeep=jip siyete=syéte pamílya maynílà makáti tagálog
+pilipíno amerikáno cebu=sebú nanay dî wag yán
+médya yun to tagá nang
+iinóm pára amérika
+amá iná apó bunsô pamangkín enéro pebréro húnyo
+labíng labindalawá dalawampû buwán labintatló labinlimá labinsiyam=labinsyám
+márso abríl máyo húlyo agósto setyémbre oktúbre disyémbre
+alá una itlóg pandesál isdâ baboy malamíg mainit mabilís
+marami matandâ bányo at
+manók saging gulay gatas mabagal mahirap madalî malinis bibilí bumíbili binilí umalís umuwî
+dumatíng magsalitâ gaáno mayroón dahil eskuwela=eskwéla
+lahát bigás prútas kálye kuwarto=kwárto pasensiya=pasénsya pasénsya mabúhay maiklî mahabà kapág
+papuntá iniinóm makakáin magpuntá kabáyan maskí
+péra tren táo o ókey sana man tulóy
+labingwaló`;
 /* NOTE: one entry per spelling; a spelling listed twice with different forms is an error (the generator throws). */
 
 const SRC = `
-nila ninyo iyo nang=nang po=pô
+nila ninyo iyo po=pô
 kasi naman
 umaga
 kumusta
 kanina
-isa tatló pitó daan=dáan
-siyete=syéte
-trenta=trénta medya=médya
+isa tatló pitó
 pesos=pésos magkano
-nanay asawa pamilya=pamílya magulang
-bata kaibigan=kaibígan tiya=tíya
-ayoko=ayóko kailangan puwede=pwéde pwede=pwéde marunong
-kumakain=kumákáin kainin=kaínin pagkain=pagkáin inom iinom=iinóm
+bata
+inom
 pupunta=pupuntá punta=puntá
 nagluto=naglutò nagluluto=naglulutò magluluto=maglulutò niluto=nilutò
-maglaro=maglarô naglaro=naglarô laro=larô magtrabaho=magtrabáho nagtatrabaho=nagtatrabáho trabaho=trabáho
+naglaro=naglarô nagtatrabaho=nagtatrabáho
 nag-aaral=nag-aáral
-matulog natulog tulog=tulóg maligo=maligò naligo=naligò gumising=gumísing
-tubig=túbig tinapay adobo=adóbo sinigang=sinígang lumpia=lumpyá pansit=pansít pancit=pansít
-busog=busóg gutom=gutóm uhaw=uháw tsaa=tsa-á halo=hálo
-palengke=paléngke kusina=kusína tindahan=tindáhan bili=bilí pabili=pabilí mura=mura ito iyan iyon
-pambili mahal=mahál
-masakit=masakít sakit=sakít ulo tiyan=tiyán botika=botíka tulong pakitulungan=pakitulúngan tulungan=tulúngan doktor=doktór ospital=ospitál
-saan sino kailan bakit paano=paáno alin=alín nasaan
-jeep=jip dyip=jip para=pára bayad sakayan=sakáyan kanan kaliwa=kaliwâ diretso=dirétso kanto=kánto simbahan=simbáhan malapit=malápit malayo=maláyò
-dito diyan doon yan=yán di=dî wag=wag yun=yun to=to
-opisina=opisína guro estudyante=estudyánte paaralan=paaralán eskuwelahan=eskwelahán
-maganda malaki=malakí maliit matangkad=matangkád pangit=pangit bago=bágo luma=lumà
-masaya malungkot galit=galít takot=takót
-kumanta=kumantá sumayaw=sumayáw sayaw=sayáw
+natulog maligo=maligò naligo=naligò
+bili=bilí pabili=pabilí ito iyan iyon
+pambili
+pakitulungan=pakitulúngan
+saan sino kailan bakit nasaan
+dito diyan doon
+maganda maliit
+masaya malungkot
+kumanta=kumantá
 oo opo hindi wala huwag=huwág
 ikaw ako siya kami kayo sila
-kutsara=kutsára
 Ana=ána Juan=hwán Jun=jun Maria=marí-ya Jose=hosé Liza=lísa Mark=mark Joy=joy Rey=rey Carlo=kárlo Bea=béya Ben=ben
-Maynila=maynílà Makati=makáti Cebu=sebú Pilipinas=pilipínas Amerika=amérika Tagalog=tagálog Ingles=inglés Pilipino=pilipíno Amerikano=amerikáno
-taga=tagá`;
+Pilipinas=pilipínas
+Nobyembre=nobyémbre
+labimpito=labimpitó bumili=bumilí`;
 /* NOTE: entries are a single space-separated list; a multi-word phrase is never a LEX entry. */
 
 function parseList(src) {
@@ -107,7 +121,7 @@ const STRING_CTX = {
 const normRow = t => String(t).normalize('NFC').toLowerCase().replace(/[.,!?;:"“”«»()…–—\/¿¡]/g, ' ').replace(/\s+/g, ' ').trim();
 
 /* whole words whose pron is fixed as is */
-const EXC = { 'ng': 'nahng', 'nang': 'nahng', 'mga': 'mah-NGAH', 'cr': 'see-AHR' };
+const EXC = { 'y': 'ee', 'ng': 'nahng', 'nang': 'nahng', 'mga': 'mah-NGAH', 'cr': 'see-AHR' };
 
 /* prefixes that are written with a hyphen before a vowel-initial root or a name, and form ONE word with it */
 const PREFIX = new Set(['mag', 'nag', 'pag', 'mang', 'nang', 'pang', 'taga', 'alas', 'ika', 'ma', 'na', 'maka', 'naka', 'pinaka', 'ka', 'tag', 'pa']);

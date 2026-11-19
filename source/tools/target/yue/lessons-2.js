@@ -20,6 +20,8 @@ module.exports = [
 <p>English says "this book". Cantonese says "this + classifier + book": <b>呢本書</b> <i>ni1 bun2 syu1</i> is "this book", <b>嗰本書</b> <i>go2 bun2 syu1</i> is "that book" and <b>邊本書</b> <i>bin1 bun2 syu1</i> is "which book". 呢 (this), 嗰 (that) and 邊 (which) all sit in front of the classifier, never straight in front of the noun.</p>
 {{ex:呢本書幾多錢呀？|ni1 bun2 syu1 gei2 do1 cin2 aa3?|How much is this book?}}
 {{ex:嗰個人係邊個呀？|go2 go3 jan4 hai6 bin1 go3 aa3?|Who is that person?}}
+<p><b>幾</b> <i>gei2</i> (how many) works the same way in a question: 幾 + classifier + noun. The answer keeps the classifier too: 三本.</p>
+{{ex:你有幾本書呀？|nei5 jau5 gei2 bun2 syu1 aa3?|How many books do you have?}}
 <h3>The classifier as "the" and "my"</h3>
 <p>Cantonese has no word for "the". A classifier + noun with nothing in front of it points at one thing you both know about: <b>本書</b> means "the book".</p>
 {{ex:本書喺邊度呀？|bun2 syu1 hai2 bin1 dou6 aa3?|Where's the book?}}
@@ -43,8 +45,8 @@ module.exports = [
       ["or","Where's my phone?","我 部 手機 喺 邊度 呀","本","Owner + classifier + noun means my: 我部手機, with the classifier 部 for machines."],
       ["fi","嗰__人係邊個呀？","Who is that person?","個","本|杯|隻","People take 個: 嗰個人."],
       ["fi","唔該，一__奶茶。","A milk tea, please.","杯","本|張|條","A drink in a cup takes 杯: 一杯奶茶."],
-      ["fi","我__書喺邊度呀？","Where's my book?","本","杯|張|隻","Owner + 本 + 書 means \"my book\"."],
-      ["ty","two cups of coffee","兩 杯 咖啡","兩 · 杯 · 咖啡 · two before a classifier is 兩","二 個","A number needs a classifier before the noun: 兩杯咖啡, with 兩 for two."],
+      ["fi","我__書喺邊度呀？","Where's my book? (use a classifier)","本","杯|張|隻","Owner + 本 + 書 means \"my book\"."],
+      ["ty","two cups of coffee","兩 杯 咖啡","兩 · 杯 · 咖啡 · two before a classifier is 兩","二 本","A number needs a classifier before the noun: 兩杯咖啡, with 兩 for two."],
       ["ty","that cat","嗰 隻 貓","嗰 · 隻 · 貓","本 張","嗰 + classifier + noun: 嗰隻貓, with the classifier 隻 for animals."],
       ["ty","Where's my book? (no 嘅)","我 本 書 喺 邊度 呀|我 本 書 喺 邊度","我 · 本 · 書 · 喺邊度","張 杯","Owner + classifier + noun means my: 我本書."]
     ]
@@ -68,7 +70,7 @@ module.exports = [
 {{ex:呢本書係我嘅。|ni1 bun2 syu1 hai6 ngo5 ge3.|This book is mine.}}
 {{ex:嗰部手機係邊個嘅呀？|go2 bou6 sau2 gei1 hai6 bin1 go3 ge3 aa3?|Whose phone is that?}}
 <h3>Family and home: usually no 嘅</h3>
-<p>With people close to you and with your home, Cantonese usually drops 嘅: <b>我媽媽</b> (my mom), <b>我朋友</b> (my friend), <b>我屋企</b> <i>ngo5 uk1 kei2</i> (my home, my family). 我嘅媽媽 is not wrong, but it sounds heavy, as if you were making a point of it.</p>
+<p>With people close to you and with your home, Cantonese usually drops 嘅: <b>我媽媽</b> (my mom), <b>我朋友</b> (my friend), <b>我屋企</b> <i>ngo5 uk1 kei2</i> (my home, my family). 我嘅媽媽 is not wrong, just less usual in everyday speech.</p>
 {{ex:我媽媽係老師。|ngo5 maa4 maa1 hai6 lou5 si1.|My mom is a teacher.}}
 {{ex:我朋友係香港人。|ngo5 pang4 jau5 hai6 hoeng1 gong2 jan4.|My friend is from Hong Kong.}}
 <h3>Two ways to say "my phone"</h3>
@@ -109,12 +111,14 @@ module.exports = [
 <p>Counting them works like any other noun: number + <b>個</b> + family word, and two is <b>兩</b>.</p>
 {{ex:我有兩個哥哥。|ngo5 jau5 loeng5 go3 go4 go1.|I have two older brothers.}}
 {{ex:我有一個細妹。|ngo5 jau5 jat1 go3 sai3 mui2.|I have a younger sister.}}
+<p>To say whose they are, use owner + family word from the last lesson, with no 嘅: 我哥哥 (my older brother), 我家姐 (my older sister).</p>
 <h3>Mom and dad: changed tones</h3>
 <p><b>媽媽</b> <i>maa4 maa1</i> (mom) and <b>爸爸</b> <i>baa4 baa1</i> (dad) repeat a syllable, and the second one rises to tone 1. This is a changed tone: the Jyutping line always shows it as people say it.</p>
 {{ex:我媽媽係老師。|ngo5 maa4 maa1 hai6 lou5 si1.|My mom is a teacher.}}
 <h3>Grandparents on both sides</h3>
 <div class="tbl"><table><tr><th>Father's side</th><th>Mother's side</th></tr><tr><td class="k">爺爺 (grandpa)</td><td class="k">公公 (grandpa)</td></tr><tr><td class="k">嫲嫲 (grandma)</td><td class="k">婆婆 (grandma)</td></tr></table></div>
 <p>So "my grandma" depends on whose mother she is: <b>嫲嫲</b> <i>maa4 maa4</i> is your father's mother, <b>婆婆</b> <i>po4 po2</i> your mother's mother.</p>
+<p>Older people outside the family, such as a friend's parents or a neighbor, are often called 阿姨 (auntie) and 叔叔 (uncle).</p>
 {{ex:我婆婆係香港人。|ngo5 po4 po2 hai6 hoeng1 gong2 jan4.|My grandma (my mom's mom) is from Hong Kong.}}
 <h3>Husband and wife</h3>
 <p>The everyday words are <b>老公</b> <i>lou5 gung1</i> (husband) and <b>老婆</b> <i>lou5 po4</i> (wife). They literally contain "old", but they are warm, normal words, not rude ones.</p>
@@ -129,14 +133,14 @@ module.exports = [
 `,
     check: [
       ["Your mother's mother is your…",["嫲嫲","婆婆","家姐","媽媽"],1,"On your mother's side, grandma is 婆婆; 嫲嫲 is your father's mother."],
-      ["How do you say \"I'm thirty\"?",["我係三十歲","我有三十歲","三十歲係我","我今年三十歲"],3,"Age takes no 係: 我今年三十歲 or just 我三十歲."],
+      ["How do you say \"I'm thirty\"?",["我有三十歲","三十歲我今年","三十歲係我","我今年三十歲"],3,"Age takes no 係: 我今年三十歲 or just 我三十歲."],
       ["Which means \"I have two older brothers\"?",["我有兩個哥哥","我有二個哥哥","我有兩哥哥","我有兩個細佬"],0,"兩 + 個 before 哥哥; 細佬 is a younger brother."]
     ],
     practice: [
-      ["mc","Which is the Jyutping of 媽媽 (mom)?","maa4 maa1","maa1 maa1","maa4 maa4","maa1 maa4","Changed tone: the second syllable of 媽媽 rises to tone 1.","!strict"],
+      ["mc","Which is the Jyutping of 媽媽 (mom)?","maa4 maa1","maa5 maa1","maa4 maa4","maa1 maa4","Changed tone: the second syllable of 媽媽 rises to tone 1.","!strict"],
       ["mc","'younger sister' =","細妹","家姐","細佬","哥哥","細妹 is a younger sister; 家姐 is an older one."],
       ["mc","Your father's father is your…","爺爺","公公","婆婆","叔叔","On your father's side, grandpa is 爺爺; 公公 is your mother's father."],
-      ["mc","'How old are you?' =","你幾多歲呀？","你係幾多歲呀？","幾多歲你呀？","你有幾多歲係？","Age takes no 係, and the question word sits where the answer goes: 你幾多歲呀？"],
+      ["mc","'How old are you?' =","你幾多歲呀？","你幾多歲係呀？","幾多歲你呀？","你有幾多歲係？","Age takes no 係, and the question word sits where the answer goes: 你幾多歲呀？"],
       ["mc","'my husband' (the everyday word) =","我老公","我老婆","我哥哥","我公公","老公 is husband and 老婆 is wife; 公公 is a grandpa."],
       ["or","I have two older sisters.","我 有 兩 個 家姐","二","兩 + the classifier 個 before the noun: 兩個家姐."],
       ["or","There are five people in my family.","我 屋企 有 五 個 人","本","A number needs a classifier before the noun: 五個人."],
@@ -161,14 +165,14 @@ module.exports = [
 {{ex:我喺香港。|ngo5 hai2 hoeng1 gong2.|I'm in Hong Kong.}}
 {{ex:洗手間喺邊度呀？|sai2 sau2 gaan1 hai2 bin1 dou6 aa3?|Where's the restroom?}}
 <h3>Where you do something: before the verb</h3>
-<p>English puts the place at the end: "I work at a bank", "I eat at home". Cantonese puts 喺 + place before the verb, in the middle of the sentence. Who, then where, then what you do.</p>
+<p>English puts the place at the end: "I work at a bank", "I eat at home". Cantonese puts 喺 + place before the verb, in the middle of the sentence. Who, then where, then what you do. Think of it as setting the scene first, then saying what happens. Questions keep the same order: 你喺邊度做嘢呀？ asks where someone works.</p>
 {{ex:我喺銀行做嘢。|ngo5 hai2 ngan4 hong4 zou6 je5.|I work at a bank.}}
 {{ex:我喺屋企食飯。|ngo5 hai2 uk1 kei2 sik6 faan6.|I eat at home.}}
-<h3>The one exception: 住喺</h3>
+<h3>An exception: 住喺</h3>
 <p>With <b>住</b> <i>zyu6</i> (to live) the place comes after the verb, as in English: <b>住喺</b> + place. You met it when introducing yourself.</p>
 {{ex:我住喺九龍。|ngo5 zyu6 hai2 gau2 lung4.|I live in Kowloon.}}
 <h3>Place words come after the noun</h3>
-<p>English says "inside the house", "next to the bank": the position word comes first. Cantonese says the noun first, then the position word: "the bank's next-to".</p>
+<p>English says "inside the house", "next to the bank": the place word comes first. Cantonese says the noun first, then the place word: "the bank's next-to".</p>
 <div class="tbl"><table><tr><th>Cantonese</th><th>Meaning</th></tr><tr><td class="k">屋企入面</td><td>inside the home</td></tr><tr><td class="k">枱上面</td><td>on the table</td></tr><tr><td class="k">銀行隔籬</td><td>next to the bank</td></tr><tr><td class="k">超市對面</td><td>across from the supermarket</td></tr></table></div>
 {{ex:本書喺枱上面。|bun2 syu1 hai2 toi2 soeng6 min6.|The book is on the table.}}
 {{ex:銀行喺超市隔籬。|ngan4 hong4 hai2 ciu1 si5 gaak3 lei4.|The bank is next to the supermarket.}}
@@ -212,13 +216,13 @@ module.exports = [
 <p>You learned that 唔 makes a verb negative: 唔食, 唔去. 有 is the one verb where that does not work. "Not have" is a single word, 冇. Saying 唔有 is a typical learner slip, and it sounds plainly wrong.</p>
 {{ex:我冇錢。|ngo5 mou5 cin2.|I don't have any money.}}
 {{ex:我冇哥哥。|ngo5 mou5 go4 go1.|I don't have any older brothers.}}
-<p>Notice that "any" disappears: 冇 + noun already means "no money", "no brothers".</p>
+<p>Notice that "any" disappears: 冇 + noun already means "no money", "no brothers". It also works for "there isn't": 附近冇銀行 means there is no bank nearby. Like every Cantonese verb, 有 never changes: 佢有 is "she has", with no extra ending.</p>
 <h3>"There is": the place first</h3>
-<p>English says "there is a bank nearby", with the place at the end. Cantonese starts with the place and then uses 有: literally "nearby has a bank". The classifier can stand without 一 here. Copying the English order word for word, as in 有間銀行喺附近, is understood but sounds clumsy; start with the place instead.</p>
+<p>English says "there is a bank nearby", with the place at the end. Cantonese starts with the place and then uses 有: literally "nearby has a bank". The classifier can stand without 一 here. You will also hear 有間銀行喺附近, but starting with the place is the usual way, so learn that one.</p>
 {{ex:附近有間銀行。|fu6 gan6 jau5 gaan1 ngan4 hong4.|There's a bank nearby.}}
 {{ex:樓下有間超市。|lau4 haa6 jau5 gaan1 ciu1 si5.|There's a supermarket downstairs.}}
 <h3>Asking: 有冇…？</h3>
-<p>The verb-not-verb question for 有 is <b>有冇</b> <i>jau5 mou5</i>, "have or not have". Add 呀 to keep it friendly.</p>
+<p>The verb-not-verb question for 有 is <b>有冇</b> <i>jau5 mou5</i>, "have or not have". Add 呀 at the end to keep it friendly and soft.</p>
 {{ex:你有冇手機呀？|nei5 jau5 mou5 sau2 gei1 aa3?|Do you have a phone?}}
 {{ex:附近有冇地鐵站呀？|fu6 gan6 jau5 mou5 dei6 tit3 zaam6 aa3?|Is there an MTR station nearby?}}
 <h3>Answering: 有 or 冇</h3>
@@ -235,7 +239,7 @@ module.exports = [
       ["mc","'I don't have a car.' =","我冇車。","我唔有車。","我係冇車。","我有唔車。","冇 is the only negative of 有: never 唔有."],
       ["mc","'There's a bank nearby.' =","附近有間銀行。","附近係間銀行。","銀行有附近。","附近唔有間銀行。","The place comes first, then 有 + the thing: 附近有間銀行."],
       ["mc","How do you answer 你有冇細妹呀？ (Do you have a younger sister?) with 'No'?","冇。","唔係。","唔有。","唔好。","Answer with the verb: 有 or 冇, not 係 or 唔係."],
-      ["mc","'Do you have a phone?' =","你有冇手機呀？","你係唔係手機呀？","你唔有手機呀？","你冇有手機呀？","The question form of 有 is 有冇: 你有冇手機呀？"],
+      ["mc","'Do you have a phone?' =","你有冇手機呀？","你係唔係手機呀？","你唔有手機呀？","你冇手機有呀？","The question form of 有 is 有冇: 你有冇手機呀？"],
       ["or","There's a supermarket nearby.","附近 有 間 超市","係","The place goes first, before the verb 有: 附近有間超市."],
       ["or","I have two phones.","我 有 兩 部 手機","本","兩 + the classifier 部 before the noun: 兩部手機."],
       ["or","Is there an MTR station nearby?","附近 有冇 地鐵站 呀","唔有","The place goes before the verb: 附近有冇地鐵站呀？"],
@@ -255,22 +259,22 @@ module.exports = [
     body: `
 <p>English changes its melody to sound friendly, unsure or pushy: "Coming?" with a rise, "Come on!" with a fall. Cantonese cannot do that, because the melody of each syllable is its tone. Instead it adds a small word at the end of the sentence, a particle (a "sentence-final particle"). Without one, many sentences sound curt, like an order or an interrogation.</p>
 <h3>呀: the friendly default</h3>
-<p><b>呀</b> <i>?</i> softens questions and statements. When in doubt, end a question with it.</p>
-{{ex:你叫咩名呀？|?|What's your name?}}
-{{ex:你喺邊度做嘢呀？|?|Where do you work?}}
+<p><b>呀</b> <i>aa3</i> softens questions and statements. When in doubt, end a question with it. On a statement, it makes your answer sound warmer and less clipped.</p>
+{{ex:你叫咩名呀？|nei5 giu3 me1 meng2 aa3?|What's your name?}}
+{{ex:你喺邊度做嘢呀？|nei5 hai2 bin1 dou6 zou6 je5 aa3?|Where do you work?}}
 <h3>啦: requests and agreeing</h3>
-<p><b>啦</b> <i>?</i> goes on requests and urging, and on saying yes to a suggestion. It turns a bare command into something friendlier.</p>
-{{ex:好啦！|?|OK, sure!}}
-{{ex:唔該快啲啦。|?|Hurry up, please.}}
+<p><b>啦</b> <i>laa1</i> goes on requests and urging, and on saying yes to a suggestion. It turns a bare command into something friendlier.</p>
+{{ex:好啦！|hou2 laa1!|OK, sure!}}
+{{ex:唔該快啲啦。|m4 goi1 faai3 di1 laa1.|Hurry up, please.}}
 <h3>吖: offers and invitations</h3>
-<p><b>吖</b> <i>?</i> makes an offer or an invitation: "come on, let's", "have some".</p>
-{{ex:一齊去吖！|?|Let's go together!}}
-{{ex:飲杯茶吖！|?|Have a cup of tea!}}
+<p><b>吖</b> <i>aa1</i> makes an offer or an invitation: "come on, let's", "have some".</p>
+{{ex:一齊去吖！|jat1 cai4 heoi3 aa1!|Let's go together!}}
+{{ex:飲杯茶吖！|jam2 bui1 caa4 aa1!|Have a cup of tea!}}
 <h3>呢: "and you?"</h3>
-<p><b>呢</b> <i>?</i> after a person asks the same question back. It can also soften a question that has a question word.</p>
-{{ex:我係美國人，你呢？|?|I'm American. And you?}}
+<p><b>呢</b> <i>ne1</i> after a person asks the same question back. It can also soften a question that has a question word. For example, 你去邊度呢？ is a gentle "so, where are you going?"</p>
+{{ex:我係美國人，你呢？|ngo5 hai6 mei5 gwok3 jan4, nei5 ne1?|I'm American. And you?}}
 <h3>Listen for these</h3>
-<p>You will hear more particles. Recognise them for now; you do not need to use them yet.</p>
+<p>You will hear more particles. Recognize them for now; you do not need to use them yet.</p>
 <div class="tbl"><table><tr><th>Particle</th><th>What it adds</th><th>Example</th></tr><tr><td class="k">㗎</td><td>"really, that's how it is"</td><td class="k">係㗎。</td></tr><tr><td class="k">咩</td><td>surprise: "what, really?"</td><td class="k">你唔知咩？</td></tr><tr><td class="k">喎</td><td>something new or reported</td><td></td></tr><tr><td class="k">囉</td><td>"obviously, so"</td><td></td></tr><tr><td class="k">嘛</td><td>"you know"</td><td></td></tr></table></div>
 <h3>No English rise</h3>
 <p>Each particle has its own fixed tone: 呀 is tone 3, mid and level, and 啦 and 吖 are tone 1, high. Do not add an English question rise on top; the particle already does the asking.</p>
@@ -290,12 +294,170 @@ module.exports = [
       ["or","Where do you work?","你 喺 邊度 做嘢 呀","係","Place with 喺 goes before the verb, even in a question: 你喺邊度做嘢呀？"],
       ["or","Have a cup of tea!","飲 杯 茶 吖","本","杯 is the classifier for a cup: 飲杯茶吖, with 吖 for an offer."],
       ["or","Let's go together!","一齊 去 吖","咩","吖 turns it into an invitation: 一齊去吖！"],
-      ["fi","一齊去__！","Let's go together!","吖","咩|呢|嗎","吖 makes an invitation."],
+      ["fi","一齊去__！","Let's go together!","吖|啦","咩|呢|嗎","吖 makes an invitation."],
       ["fi","我係美國人，你__？","I'm American. And you?","呢","吖|啦|咩","呢 asks the same question back."],
       ["fi","唔該快啲__。","Hurry up, please.","啦","呢|咩|嗎","啦 goes on requests and urging: 快啲啦."],
-      ["ty","Where do you study? (end softly)","你 喺 邊度 讀書 呀","喺 · 邊度 · 讀書 (study) · end with 呀","係","Place with 喺 goes before the verb, even in a question: 你喺邊度讀書呀？"],
+      ["ty","Where do you study? (end with 呀)","你 喺 邊度 讀書 呀","喺 · 邊度 · 讀書 (study) · end with 呀","係","Place with 喺 goes before the verb, even in a question: 你喺邊度讀書呀？"],
       ["ty","Have a cup of milk tea! (an offer)","飲 杯 奶茶 吖|飲 一 杯 奶茶 吖","飲 · 杯 · 奶茶 · 吖","本 呀","杯 is the classifier for a cup, and 吖 makes it an offer."],
       ["ty","And you?","你 呢","你 · 呢","吖","呢 asks the same question back: 你呢？"]
+    ]
+  },
+  {
+    id: "prices",
+    title: "Money and prices: 幾多錢？, 蚊, 平啲",
+    blurb: "Ask what things cost, understand prices in 蚊 and 毫, haggle a little and pay.",
+    deck: "Shopping",
+    body: `
+<p>To ask a price, Cantonese asks "how much money?": <b>幾多錢呀？</b> <i>gei2 do1 cin2 aa3?</i>. Notice the tone on 錢: in this question it is cin2, a changed tone, rising at the end.</p>
+<h3>Asking the price</h3>
+<p>Say the thing first, with 呢 + classifier if you are pointing at it, then 幾多錢.</p>
+<p>You can also simply point at something and ask 幾多錢呀？; the seller will know what you mean.</p>
+{{ex:幾多錢呀？|gei2 do1 cin2 aa3?|How much is it?}}
+{{ex:呢件衫幾多錢呀？|ni1 gin6 saam1 gei2 do1 cin2 aa3?|How much is this top?}}
+<h3>Dollars: 蚊, not 元</h3>
+<p>Hong Kong money is <b>港幣</b> <i>gong2 bai6</i> (Hong Kong dollars). Price tags write 元 or $, but nobody says 元 at the counter. Out loud, a dollar is <b>蚊</b> <i>man1</i>: number + 蚊.</p>
+{{ex:三十五蚊。|saam1 sap6 ng5 man1.|Thirty-five dollars.}}
+{{ex:一百蚊。|jat1 baak3 man1.|A hundred dollars.}}
+<h3>Two dollars, twenty dollars</h3>
+<p>蚊 behaves like a classifier, so two dollars is <b>兩蚊</b> <i>loeng5 man1</i>, never 二蚊. Inside a bigger number, 二 stays: 二十蚊, 十二蚊. In fast speech you will often hear 廿 for twenty: 廿五蚊 is the same as 二十五蚊.</p>
+{{ex:呢個兩蚊。|ni1 go3 loeng5 man1.|This one is two dollars.}}
+{{ex:廿五蚊|jaa6 ng5 man1|twenty-five dollars (said fast)}}
+<h3>Cents: 毫</h3>
+<p>A <b>毫</b> <i>hou4</i> (also 毫子) is ten cents. So 五毫 is fifty cents and 兩毫 is twenty cents, again with 兩. Prices with cents are rare in everyday shopping, so 蚊 is the word you will use most.</p>
+<h3>Too expensive, a bit cheaper</h3>
+<p>平 means cheap and 貴 means expensive. 太 means "too": 太貴 is too expensive. Adding 啲 means "a bit more": 平啲 is "a bit cheaper". Ask with 得唔得 (OK or not OK?). This is fine at street markets, but not in malls or chain stores, where prices are fixed.</p>
+{{ex:太貴喇！|taai3 gwai3 laa3!|That's too expensive!}}
+{{ex:平啲得唔得呀？|peng4 di1 dak1 m4 dak1 aa3?|Could you make it a bit cheaper?}}
+<h3>Paying</h3>
+<p>To pay is <b>畀錢</b> <i>bei2 cin2</i>, literally "give money". Most people tap an <b>八達通</b> <i>baat3 daat6 tung1</i>, the Octopus card that works on buses, trains, ferries and in most shops.</p>
+{{ex:我用八達通畀錢。|ngo5 jung6 baat3 daat6 tung1 bei2 cin2.|I'll pay with my Octopus card.}}
+<div class="tip"><b>Most common mistake:</b> reading the price tag aloud as written, or using 二 for two dollars. <b>三十五元</b> at a market stall → <b>三十五蚊</b>, and <b>二蚊</b> → <b>兩蚊</b>.</div>
+`,
+    check: [
+      ["How do you say \"35 dollars\" at a market stall?",["三十五元","三十五蚊","五十三蚊","三五蚊"],1,"In speech a dollar is 蚊: 三十五蚊. 元 is the written word on tags."],
+      ["\"two dollars\" =",["兩蚊","二蚊","兩個蚊","蚊兩"],0,"蚊 works like a classifier, so two is 兩: 兩蚊."],
+      ["Where is 平啲得唔得呀？ a normal thing to say?",["In a chain store","At a street market","At the bank","Never: it is rude"],1,"Asking for a lower price is fine at markets, not where prices are fixed."]
+    ],
+    practice: [
+      ["mc","Which is the Jyutping of 錢 (money) in the question 幾多錢呀？","cin2","cin4","cin1","cin6","In 幾多錢 the word for money has a changed tone: cin2.","!strict"],
+      ["mc","'How much is it?' =","幾多錢呀？","錢幾多呀？","幾錢多呀？","幾多呀錢？","幾多錢 stays together: 幾多錢呀？"],
+      ["mc","'That's too expensive!' =","太貴喇！","太平喇！","好平呀！","唔貴喇！","貴 is expensive and 平 is cheap: 太貴喇！"],
+      ["mc","What is 五毫?","fifty cents","five dollars","five cents","fifty dollars","毫 is ten cents, so 五毫 is fifty cents."],
+      ["mc","'twenty dollars' =","二十蚊","兩十蚊","二十元蚊","蚊二十","Inside a number, twenty is 二十; 兩 only goes straight before 蚊."],
+      ["or","How much is this top?","呢 件 衫 幾多錢 呀","本","呢 + the classifier 件 before the noun: 呢件衫."],
+      ["or","I have a hundred dollars.","我 有 一百 蚊","個","蚊 works like a classifier straight after the number: 一百蚊."],
+      ["or","Could you make it a bit cheaper?","平啲 得 唔 得 呀","貴啲","平啲 is a bit cheaper, and 得唔得 asks if that's OK."],
+      ["fi","呢件衫幾多__呀？","How much is this top?","錢","蚊|毫|個","幾多錢 asks the price."],
+      ["fi","三十五__。","Thirty-five dollars.","蚊","毫|個|錢","In speech, dollars are 蚊: 三十五蚊."],
+      ["fi","呢個__蚊。","This one is two dollars.","兩","二|一|個","Two straight before 蚊 is 兩, not 二."],
+      ["ty","How much is this book?","呢 本 書 幾多錢 呀|呢 本 書 幾多錢","呢 · 本 · 書 · 幾多錢","個 張","呢 + the classifier 本 before the noun: 呢本書幾多錢呀？"],
+      ["ty","two dollars","兩 蚊","兩 · 蚊","二","蚊 works like a classifier, so two is 兩: 兩蚊."],
+      ["ty","That's too expensive!","太 貴 喇|太 貴 啦|太 貴","太 · 貴 · 喇","平","貴 is expensive: 太貴喇！"]
+    ]
+  },
+  {
+    id: "food",
+    title: "Ordering food and drink: 唔該, 要, 埋單",
+    blurb: "Order drinks and dishes at a cha chaan teng or a dim sum place, with the right classifier, and ask for the check.",
+    deck: "Food and drink",
+    body: `
+<p>Ordering in Hong Kong is short and direct. Call the server with 唔該, say what you want with a number and a classifier, and you are done. Long polite English phrases ("Could I please have…") only slow things down.</p>
+<h3>唔該: to call, to order, to thank</h3>
+<p><b>唔該</b> <i>m4 goi1</i> gets the server's attention, starts the order, and thanks them when the food arrives. Save <b>多謝</b> for gifts and compliments; saying it for every dish sounds odd.</p>
+{{ex:唔該！|m4 goi1!|Excuse me! (to call the server)}}
+<h3>要: I'll have</h3>
+<p><b>要</b> <i>jiu3</i> means "want" or "I'll have". The food keeps its number and classifier: 我要 + number + classifier + food. You can also just say 唔該 and the order. For two or more, change the number and keep the classifier: 兩杯凍奶茶.</p>
+{{ex:唔該，我要一杯凍奶茶。|m4 goi1, ngo5 jiu3 jat1 bui1 dung3 naai5 caa4.|An iced milk tea, please.}}
+{{ex:唔該，一杯茶。|m4 goi1, jat1 bui1 caa4.|A tea, please.}}
+<h3>Classifiers for food</h3>
+<p>Food is counted by what it comes in.</p>
+<div class="tbl"><table><tr><th>Classifier</th><th>Comes in</th><th>Example</th></tr><tr><td class="k">杯</td><td>a cup or glass</td><td class="k">一杯奶茶</td></tr><tr><td class="k">籠</td><td>a steamer basket (dim sum)</td><td class="k">一籠蝦餃</td></tr><tr><td class="k">碟</td><td>a plate</td><td class="k">一碟炒飯</td></tr><tr><td class="k">碗</td><td>a bowl</td><td class="k">一碗雲吞麵</td></tr></table></div>
+{{ex:一籠蝦餃|jat1 lung4 haa1 gaau2|a basket of shrimp dumplings}}
+{{ex:兩碟炒飯|loeng5 dip6 caau2 faan6|two plates of fried rice}}
+<h3>No ice, less sweet</h3>
+<p><b>走</b> means "leave out": <b>走冰</b> <i>zau2 bing1</i> is "no ice". <b>少甜</b> <i>siu2 tim4</i> is "less sweet". Add them after the drink, or say them on their own.</p>
+{{ex:唔該，走冰。|m4 goi1, zau2 bing1.|No ice, please.}}
+<h3>Dim sum and the cha chaan teng</h3>
+<p><b>飲茶</b> <i>jam2 caa4</i>, literally "drink tea", means going out for a dim sum meal with tea. A <b>茶餐廳</b> <i>caa4 caan1 teng1</i> is a Hong Kong café serving milk tea, noodles and toast. At the counter you may hear <b>堂食定外賣？</b>, "for here or to go?" Answer 堂食 (here) or 外賣 (to go).</p>
+<h3>The check</h3>
+<p>When you are done, say <b>唔該埋單！</b> <i>m4 goi1 maai4 daan1!</i> to any server.</p>
+<h3>Not 請</h3>
+<p>English "please" is not 請. 請 is for inviting (請坐, please sit). For a request, use 唔該.</p>
+<div class="tip"><b>Most common mistake:</b> dropping the classifier, or starting with 請. <b>我要兩奶茶</b> → <b>我要兩杯奶茶</b>, and <b>請畀我一杯茶</b> → <b>唔該，一杯茶</b>.</div>
+`,
+    check: [
+      ["How do you order \"two milk teas\"?",["我要兩奶茶","我要二杯奶茶","我要兩杯奶茶","我要奶茶兩"],2,"兩 + the classifier 杯 + 奶茶: 我要兩杯奶茶."],
+      ["The server brings your dish. What do you say?",["請！","唔該！","對唔住！","早晨！"],1,"唔該 thanks someone for a service."],
+      ["What does 飲茶 usually mean?",["going out for a dim sum meal","drinking a cup of tea alone at home","ordering tea instead of coffee","a tea ceremony"],0,"飲茶, \"drink tea\", is a dim sum meal with tea."]
+    ],
+    practice: [
+      ["mc","Which is the Jyutping of 碗 (bowl)?","wun2","wun5","wun3","wun1","碗 is wun2, with tone 2, rising from the middle.","!strict"],
+      ["mc","Which classifier goes with 蝦餃 (shrimp dumplings) at dim sum?","籠","本","張","條","Dim sum comes in a steamer basket: 一籠蝦餃."],
+      ["mc","'An iced milk tea, please.' =","唔該，一杯凍奶茶。","請一杯凍奶茶。","多謝，一杯凍奶茶。","唔該，一凍奶茶。","唔該 + number + classifier + drink."],
+      ["mc","How do you ask for the check?","唔該埋單！","唔該飲茶！","唔該走冰！","唔該少甜！","埋單 is the check: 唔該埋單！"],
+      ["mc","'no ice' =","走冰","少甜","凍冰","冇凍","走 means leave out: 走冰 is no ice."],
+      ["or","I'll have a bowl of wonton noodles.","我 要 一 碗 雲吞麵","杯","Noodles in a bowl take the classifier 碗 before the noun."],
+      ["or","two plates of fried rice","兩 碟 炒飯","二","兩 + the classifier 碟 before the noun: 兩碟炒飯."],
+      ["or","A milk tea, no ice, please. (start with 唔該)","唔該 一 杯 奶茶 走冰","請","Order with 唔該, not 請: 唔該，一杯奶茶走冰."],
+      ["fi","唔該，我要一__雲吞麵。","A bowl of wonton noodles, please.","碗","杯|本|張","Noodles in a bowl take 碗."],
+      ["fi","唔該__！","Check, please!","埋單","走冰|飲茶|多謝","埋單 is the check."],
+      ["fi","我要一__蝦餃。","I'll have a basket of shrimp dumplings.","籠","杯|本|張","Dim sum in a steamer basket takes 籠."],
+      ["ty","An iced milk tea, please. (start with 唔該)","唔該 一 杯 凍奶茶|唔該 我 要 一 杯 凍奶茶|唔該 要 一 杯 凍奶茶","唔該 · 一 · 杯 · 凍奶茶","本 請","A drink in a cup takes the classifier 杯 before the noun: 一杯凍奶茶."],
+      ["ty","two baskets of shrimp dumplings","兩 籠 蝦餃","兩 · 籠 · 蝦餃","二 杯","兩 + the classifier 籠 before the noun: 兩籠蝦餃."],
+      ["ty","Check, please!","唔該 埋單|埋單 唔該","唔該 · 埋單","多謝","唔該 is the thanks for a service: 唔該埋單！"]
+    ]
+  },
+  {
+    id: "time",
+    title: "Clock time and dates: 幾點？, 三點半, 星期一",
+    blurb: "Ask and tell the time, name the days and dates, and put the time word before the verb.",
+    deck: "Time, days and dates",
+    body: `
+<p>Clock time, days and dates in Cantonese are built from numbers you already know. The big difference from English is where the time goes in a sentence.</p>
+<h3>What time is it?</h3>
+<p><b>而家</b> <i>ji4 gaa1</i> is "now", and <b>點</b> <i>dim2</i> is "o'clock": 三點 is three o'clock. To ask, put 幾 (how many) in front: 幾點. The other hours just change the number: 一點, 十二點. Two o'clock is 兩點, because 點 behaves like a classifier here.</p>
+{{ex:而家幾點呀？|ji4 gaa1 gei2 dim2 aa3?|What time is it now?}}
+{{ex:而家三點。|ji4 gaa1 saam1 dim2.|It's three o'clock.}}
+<h3>Half past and minutes</h3>
+<p><b>半</b> is half: 三點半 is half past three. Minutes are number + <b>分</b>: 三點十分 is 3:10. You will also hear the clock face counted in steps of five minutes, each step a 字: 三點兩個字 is 3:10 too.</p>
+{{ex:三點半|saam1 dim2 bun3|half past three}}
+{{ex:三點十分|saam1 dim2 sap6 fan1|ten past three}}
+<h3>Today, tomorrow, yesterday</h3>
+<p><b>今日</b> <i>gam1 jat6</i> is today, <b>聽日</b> <i>ting1 jat6</i> tomorrow and <b>琴日</b> <i>kam4 jat6</i> yesterday. In 聽日 the first character is ting1, not teng1 as in the verb "listen".</p>
+<h3>Days of the week</h3>
+<p>Monday to Saturday are <b>星期</b> + one to six: 星期一 is Monday, 星期六 Saturday. Sunday is 星期日. 禮拜 means the same as 星期, so 禮拜一 is also Monday.</p>
+{{ex:星期一|sing1 kei4 jat1|Monday}}
+{{ex:禮拜日|lai5 baai3 jat6|Sunday}}
+<h3>Dates: month first</h3>
+<p>English often says the day first or mixes it ("the third of December", "December 3"). Cantonese always goes from big to small, the same way every time: month first, then day. <b>月</b> is month and <b>號</b> is the day of the month.</p>
+{{ex:十二月三號|sap6 ji6 jyut6 saam1 hou6|December 3}}
+{{ex:今日係十二月三號。|gam1 jat6 hai6 sap6 ji6 jyut6 saam1 hou6.|Today is December 3.}}
+<h3>Time words go before the verb</h3>
+<p>English puts "tomorrow" or "on Saturday" at the end: "I'm going to Hong Kong tomorrow". In Cantonese the time word goes before the verb, never after it. It can come right after the person, or at the very start of the sentence.</p>
+{{ex:我聽日去香港。|ngo5 ting1 jat6 heoi3 hoeng1 gong2.|I'm going to Hong Kong tomorrow.}}
+{{ex:我哋星期六飲茶。|ngo5 dei6 sing1 kei4 luk6 jam2 caa4.|We're having dim sum on Saturday.}}
+<div class="tip"><b>Most common mistake:</b> putting the time at the end, as in English. <b>我去香港聽日</b> → <b>我聽日去香港</b>. And for dates, <b>三號十二月</b> → <b>十二月三號</b>.</div>
+`,
+    check: [
+      ["How do you say \"I'm going to Hong Kong tomorrow\"?",["我去香港聽日","我聽日去香港","聽日去我香港","我去聽日香港"],1,"Time goes before the verb: 我聽日去香港."],
+      ["How do you say \"December 3\"?",["十二月三號","三號十二月","三月十二號","十二號三月"],0,"Month first, then day: 十二月三號."],
+      ["What does 三點半 mean?",["3:03","3:15","3:30","three and a half hours"],2,"半 is half: 三點半 is half past three."]
+    ],
+    practice: [
+      ["mc","Which is the Jyutping of 聽日 (tomorrow)?","ting1 jat6","teng1 jat6","ting1 jat1","ting4 jat6","聽日 is ting1 jat6: tone 1, then tone 6.","!strict"],
+      ["mc","'What time is it now?' =","而家幾點呀？","幾點而家呀？","而家點幾呀？","幾而家點呀？","而家 (now) + 幾點 (what time): 而家幾點呀？"],
+      ["mc","'Saturday' =","星期六","六星期","星期日","六月","星期 + six: 星期六. 六月 is June."],
+      ["mc","'yesterday' =","琴日","聽日","今日","星期日","琴日 is yesterday, 聽日 tomorrow, 今日 today."],
+      ["mc","'3:10' =","三點十分","十點三分","三點半","十分三點","The hour first, then the minutes: 三點十分."],
+      ["or","I'm going to Hong Kong tomorrow. (start with 我)","我 聽日 去 香港","係","Time goes before the verb: 我聽日去香港."],
+      ["or","We're having dim sum on Saturday. (start with 我哋)","我哋 星期六 飲茶","係","The time word goes before the verb: 我哋星期六飲茶."],
+      ["or","December 3","十二 月 三 號","星期","Month first, then day: 十二月三號."],
+      ["fi","而家三__半。","It's half past three.","點","號|月|分","點 is o'clock: 三點半."],
+      ["fi","我__去香港。","I'm going to Hong Kong tomorrow.","聽日","琴日|星期|號","聽日 is tomorrow, and it goes before the verb."],
+      ["fi","今日係十二月三__。","Today is December 3.","號","點|分|歲","號 is the day of the month: 十二月三號."],
+      ["ty","I'm going to Hong Kong tomorrow.","我 聽日 去 香港|聽日 我 去 香港","聽日 · 去 · 香港","係","Time goes before the verb: 我聽日去香港."],
+      ["ty","I'm having dim sum on Sunday.","我 星期日 飲茶|我 禮拜日 飲茶|星期日 我 飲茶|禮拜日 我 飲茶","星期日 · 飲茶","號","The time word goes before the verb: 我星期日飲茶."],
+      ["ty","What time is it now?","而家 幾點 呀|而家 幾點|而家 幾點鐘 呀|而家 幾點鐘","而家 · 幾點","號","而家 (now) comes first, then 幾點."]
     ]
   }
 ];

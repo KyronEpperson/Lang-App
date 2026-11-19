@@ -1047,3 +1047,9 @@ Fix three reports from the phone: several rows look selected in the language pic
 
 ### 2.37.1 — results
 Picker: hover highlight only under (hover:hover) (touch screens kept :hover on the last row touched); full-screen sheets pad their top and bottom by the safe-area insets. Lesson flow: passing the quick check shows "Mini drill: 5 cards"; finishing the drill shows "Open lesson · next" in the result box (or "Quick check" if that is the step left). flow.js on iPhone 13 profile, German course: check → drill → lesson done → next lesson opens; 0 highlighted rows after a tap. Also in this build: three-letter language codes, Cantonese-only voice matching, whole-tag voice matching (fil no longer matches fi), dropped hyphen / apostrophe as almost, Cantonese and Cebuano matching. The safe-area change cannot be emulated here: it needs a look on the phone.
+
+## 2.37.2 — prompt
+Start page: the "Set me up" button says "Start". Register Punjabi, Telugu and Kannada as planned languages.
+
+### 2.37.2 — results
+Both onboarding buttons use the existing translated key "Start". pa / te / kn added to LANGS (t:1) with the India flag; they appear as coming soon once their roadmaps are merged. Harness 80 guards. (I first overwrote the existing "Start" entries in tools/i18n/*/ui.json with a wrong shape and restored them from the last release.)

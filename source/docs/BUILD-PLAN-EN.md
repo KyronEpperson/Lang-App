@@ -75,3 +75,18 @@ What this does not prove: nobody on this project is a native speaker of the targ
 3. Waves 2 to 7, one or two courses at a time.
 
 Each course is about the size of one of the English courses (roughly five writers plus a review). At the usage limits seen so far that is about one course per five-hour window, so thirteen courses is several days of windows, not an afternoon. Each course ships as soon as it passes, so progress is visible language by language.
+
+## Queue after the original 13 (updated 2026-11-19)
+
+All 13 courses in section 1 are shipped (plus Korean): English speakers can learn 14 languages.
+
+Next, in the owner's order:
+1. Cantonese (en-yue): written and merged; cold review in progress.
+2. Tagalog (en-tl): stress list audited; five writers in progress.
+3. Cebuano (en-ceb): profile done; stress audit in progress. No device or Azure voice exists, so it ships text-only; the pron line marks stress only where a source confirms it.
+4. Urdu (en-ur): roadmap done (docs/roadmaps/ur.json). Needs a Nastaliq font and right-to-left target text (the Arabic engine work applies).
+5. Punjabi (en-pa), 6. Telugu (en-te), 7. Kannada (en-kn): registered as planned languages; roadmaps being researched.
+
+Then the other planned languages already listed in the app as coming soon (Dutch, Swedish, Norwegian, Danish, Finnish, Afrikaans, Hungarian, Polish, Czech, Bulgarian, Romanian, Greek, Turkish, Persian, Swahili), in an order the owner has not set yet.
+
+Per language the steps are the same as in section 3 to 5: roadmap → profile (with pron tool and its audit where stress or tone is unwritten) → engine work → five writers → merge and end-to-end tests → cold review → ship.

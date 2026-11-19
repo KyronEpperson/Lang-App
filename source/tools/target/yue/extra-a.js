@@ -57,7 +57,7 @@ exports.EXAMPLES = `
 佢哋 | 佢哋係我同學。 | They're my classmates.
 老公 | 我老公係香港人。 | My husband is from Hong Kong.
 我屋企有四個人。 | 我屋企有四個人：爸爸、媽媽、細妹同我。 | There are four people in my family: my dad, my mom, my younger sister and me.
-我識講少少廣東話。 | 我識講少少廣東話，但係講得唔好。 | I can speak a little Cantonese, but not well.
+我識講少少廣東話。 | 我識講少少廣東話，但係講得唔係幾好。 | I can speak a little Cantonese, but not well.
 我鍾意睇戲。 | 我鍾意睇戲，成日同朋友去戲院。 | I like watching movies; I often go to the movie theater with friends.
 我住喺三藩市。 | 我住喺三藩市，屋企附近有好多餐廳。 | I live in San Francisco, and there are lots of restaurants near my home.
 一萬 | 呢部手機要一萬蚊。 | This phone costs ten thousand dollars.

@@ -12,10 +12,10 @@ module.exports = {
 六 | luk6 | six | Final k: stop at the back of the mouth, with no puff: luk6.
 波 | bo1 | ball | b has no puff of air, closer to the p in 'spin' than to English b.
 婆 | po4 | old woman | p has a strong puff of air, like the p in 'pin'. 婆婆 is grandma (mother's mother).
-打 | daa2 | to hit; to play (a sport) | d has no puff, like the t in 'stop'. t (他 taa1) has the puff.
-貴 | gwai3 | expensive | gw is one sound, a g with rounded lips: gwai3. Many speakers say gai3, but learn gwai3.
+打 | daa2 | to hit; to play (a sport) | d has no puff, like the t in 'stop'. t (睇 tai2, to look) has the puff.
+貴 | gwai3 | expensive | gw is one sound, a g with rounded lips: gwai3.
 去 | heoi3 | to go | eo is one rounded vowel, a little like the u in 'fur' with rounded lips: heoi3.
-靴 | hoe1 | boot | oe is like the e in 'her' said with rounded lips, as in French 'peu': hoe1.
+靴 | hoe1 | boot | oe is like the e in 'her' said with rounded lips: hoe1.
 書 | syu1 | book | yu is 'ee' said with rounded lips, like German ü: syu1. Not 'syoo'.
 唔 | m4 | not | Syllabic m: hum with closed lips on a low falling tone, m4. Not 'um'.
 五 | ng5 | five | Syllabic ng: hum through the nose with the back of the tongue raised, ng5. Many people say m5.
@@ -115,7 +115,7 @@ module.exports = {
 我學緊廣東話。 | ngo5 hok6 gan2 gwong2 dung1 waa2. | I'm learning Cantonese. | 緊 after the verb: in the middle of doing it.
 我識講英文同廣東話。 | ngo5 sik1 gong2 jing1 man2 tung4 gwong2 dung1 waa2. | I speak English and Cantonese. | 同 joins two nouns: 英文同廣東話.
 我唔識講普通話。 | ngo5 m4 sik1 gong2 pou2 tung1 waa2. | I don't speak Mandarin. | 普通話 is Mandarin. Cantonese is 廣東話.
-我屋企講廣東話。 | ngo5 uk1 kei2 gong2 gwong2 dung1 waa2. | We speak Cantonese at home. | Where comes before the verb: 我屋企 + 講.
+我喺屋企講廣東話。 | ngo5 hai2 uk1 kei2 gong2 gwong2 dung1 waa2. | I speak Cantonese at home. | Where comes before the verb: 喺屋企 + 講.
 我鍾意睇戲。 | ngo5 zung1 ji3 tai2 hei3. | I like watching movies. | 鍾意 + verb = like doing. 睇戲 = to see a movie.
 我嘅電話號碼係九八七六五四三二。 | ngo5 ge3 din6 waa2 hou6 maa5 hai6 gau2 baat3 cat1 luk6 ng5 sei3 saam1 ji6. | My phone number is 9876 5432. | Read phone numbers digit by digit. Hong Kong numbers have eight digits.
 `,
@@ -128,8 +128,8 @@ module.exports = {
 九十九 | gau2 sap6 gau2 | ninety-nine | Nine tens + nine: 九十九.
 一百五 | jat1 baak3 ng5 | a hundred and fifty | Short for 一百五十. 105 is 一百零五.
 一百零五 | jat1 baak3 ling4 ng5 | a hundred and five | 零 (zero) marks the empty tens place.
-一千 | jat1 cin1 | one thousand | 2,000 is 兩千: 兩 again before 千 and 萬.
-兩千 | loeng5 cin1 | two thousand | 兩 before 千, 萬 and classifiers; 二 in 二十 and 十二.
+一千 | jat1 cin1 | one thousand | One thousand: 一千. Two thousand is usually 兩千.
+兩千 | loeng5 cin1 | two thousand | 兩千 is the usual way to say 2,000; 二 stays in 二十 and 十二.
 一萬 | jat1 maan6 | ten thousand | Cantonese counts in 萬 (10,000): 100,000 is 十萬.
 一百萬 | jat1 baak3 maan6 | one million | A hundred 萬: 100 × 10,000.
 零 | ling4 | zero | In phone numbers, say 零 for each 0.

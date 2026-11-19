@@ -18,7 +18,7 @@ module.exports = [
 {{ex:草|cou2|grass}}
 {{ex:我|ngo5|I; me}}
 <h3>Finals: the rest of the syllable</h3>
-<ul><li><b>aa</b> is long, as in <i>father</i>; <b>a</b> is short, like the u in <i>but</i>.</li><li><b>eo</b> and <b>oe</b> are vowels English lacks: say the u of <i>fur</i> with rounded lips. <b>oe</b> is the longer one.</li><li><b>yu</b> is "ee" with rounded lips, never the word <i>you</i>.</li><li>Final <b>p</b>, <b>t</b> and <b>k</b> are stopped, not released: close the mouth and stop, with no puff and no extra vowel.</li></ul>
+<ul><li><b>aa</b> is long, as in <i>father</i>; <b>a</b> is short, like the u in <i>but</i>.</li><li><b>eo</b> and <b>oe</b> are vowels English lacks: say the u of <i>fur</i> with rounded lips. <b>oe</b> is the longer one.</li><li><b>yu</b> is "ee" with rounded lips, never the word <i>you</i>.</li><li><b>eu</b> is a rare final that slides from "eh" to "oo"; <b>oi</b> is the oy of <i>boy</i>, and <b>ui</b> runs "oo" into "ee".</li><li>Final <b>p</b>, <b>t</b> and <b>k</b> are stopped, not released: close the mouth and stop, with no puff and no extra vowel.</li></ul>
 {{ex:三|saam1|three}}
 {{ex:心|sam1|heart}}
 {{ex:去|heoi3|to go}}
@@ -79,7 +79,7 @@ module.exports = [
 <p>A syllable that ends in <b>p</b>, <b>t</b> or <b>k</b> is short and clipped, and it only comes in tone 1, 3 or 6: <b>七</b> <i>cat1</i> (seven), <b>八</b> <i>baat3</i> (eight), <b>六</b> <i>luk6</i> (six).</p>
 {{ex:八|baat3|eight}}
 <h3>Changed tones</h3>
-<p>In some words the last syllable rises. <b>話</b> <i>waa6</i> on its own has tone 6, but in <b>電話</b> <i>din6 waa2</i> (phone) it rises to tone 2. In <b>媽媽</b> <i>maa4 maa1</i> (mom) the second syllable goes up to tone 1. The Jyutping line always writes the tone people actually say.</p>
+<p>In some words the last syllable rises. <b>話</b> <i>waa6</i> on its own has tone 6, but in <b>電話</b> <i>din6 waa2</i> (phone) it rises to tone 2. In <b>媽媽</b> <i>maa4 maa1</i> (mom) the second syllable goes up to tone 1. The Jyutping line always writes the tone people actually say. It also keeps the dictionary forms of the lazy sounds from lesson 1: <i>nei5</i> for 你, even if you hear <i>lei5</i>.</p>
 {{ex:電話|din6 waa2|phone}}
 {{ex:媽媽|maa4 maa1|mom}}
 <h3>No English question rise</h3>
@@ -116,7 +116,7 @@ module.exports = [
     body: `
 <p>Cantonese greetings are short, and there are two different thank-yous. Get those two right and you sound polite at once.</p>
 <h3>Hello and good morning</h3>
-<p><b>你好</b> <i>nei5 hou2</i> is "hello" when you meet someone new. With friends it sounds stiff: people just say the name, or <b>早晨</b> <i>zou2 san4</i> (good morning) until about noon. There is no everyday "good afternoon". "How are you?" copied word for word, <b>你好嗎</b>, is understood but sounds translated; friends ask <b>最近點呀？</b> <i>zeoi3 kan5 dim2 aa3?</i> (how have you been?).</p>
+<p><b>你好</b> <i>nei5 hou2</i> is "hello" when you meet someone new. With friends it sounds stiff: people just say the name, or <b>早晨</b> <i>zou2 san4</i> (good morning) until about noon. There is no everyday "good afternoon". "How are you?" copied word for word, <b>你好嗎</b>, is understood but sounds translated; friends ask <b>最近點呀？</b> <i>zeoi3 gan6 dim2 aa3?</i> (how have you been?).</p>
 {{ex:你好！|nei5 hou2!|Hello!}}
 {{ex:早晨！|zou2 san4!|Good morning!}}
 <h3>Two ways to say thank you</h3>
@@ -149,14 +149,314 @@ module.exports = [
       ["mc","Which is the Jyutping of 多謝 (thank you)?","do1 ze6","do1 ze2","do2 ze6","do1 ze3","多謝 is do1 ze6: tone 1, then tone 6."],
       ["or","多謝 (thank you) in Jyutping","do1 ze6","ze2","Check the tone number: 謝 is ze6, tone 6, low and level.","!strict"],
       ["or","早晨 (good morning) in Jyutping","zou2 san4","san1","晨 has tone 4, low and falling: zou2 san4.","!strict"],
-      ["or","One milk tea, please.","唔該 一 杯 奶茶","個","Milk tea in a cup takes the classifier 杯: 一杯奶茶."],
+      ["or","One milk tea, please. (start with 唔該)","唔該 一 杯 奶茶","個","Milk tea in a cup takes the classifier 杯: 一杯奶茶."],
       ["fi","__，一杯奶茶。","One milk tea, please.","唔該","多謝|對唔住|早晨","To ask for something, start with 唔該."],
       ["fi","__晒！","Thanks so much! (for a gift)","多謝","唔該|對唔住|早抖","For a gift, thank with 多謝; 晒 makes it stronger."],
-      ["fi","唔使__。","You're welcome.","客氣","好意思|多謝|唔該","唔使客氣 answers thanks: literally, no need to be polite."],
+      ["fi","唔使__。","You're welcome.","客氣|多謝|唔該","好意思|早晨|拜拜","唔使客氣 answers thanks: literally, no need to be polite. 唔使多謝 and 唔使唔該 (no need to thank me) work too."],
       ["ty","Thank you! (for a gift)","多謝|多謝 晒","多謝 · for gifts and kind words","唔該","Gifts and kind words take 多謝; 唔該 is for a service."],
       ["ty","Type the Jyutping of 唔該 (thanks for a service)","m4 goi1","two syllables · 唔 is a hum · tone 4, then tone 1","goi3","唔該 is m4 goi1: tone 4, then tone 1.","!strict"],
       ["ty","One coffee, please. (start with 唔該)","唔該 一 杯 咖啡","唔該 · 一 · 杯 · 咖啡 (coffee)","個","Coffee in a cup takes the classifier 杯, between 一 and 咖啡."]
     ]
   },
-//NEXT
+  {
+    id: "characters",
+    title: "First characters: strokes and radicals",
+    blurb: "Recognize your first characters, see how they are built from parts, and spot the 口 that marks spoken-Cantonese words.",
+    deck: "First characters",
+    body: `
+<p>Cantonese is written in characters, not with an alphabet. This course does not ask you to write them by hand: the goal is to recognize about 250 by the end, enough to read menus, signs and family messages.</p>
+<h3>Pictures</h3>
+<p>Some characters began as drawings. <b>人</b> is a person walking, <b>口</b> an open mouth, <b>日</b> the sun, <b>月</b> the moon, <b>山</b> three peaks, <b>水</b> flowing water and <b>木</b> a tree.</p>
+{{ex:人|jan4|person}}
+{{ex:口|hau2|mouth}}
+{{ex:日|jat6|sun; day}}
+{{ex:山|saan1|mountain}}
+{{ex:水|seoi2|water}}
+<h3>Parts that combine</h3>
+<p>Many characters are built from two parts. Two trees make <b>林</b> <i>lam4</i> (woods). A person leaning on a tree makes <b>休</b> <i>jau1</i> (to rest). The sun and the moon make <b>明</b> <i>ming4</i> (bright). A woman, <b>女</b>, next to a child, <b>子</b>, makes <b>好</b> <i>hou2</i> (good).</p>
+{{ex:明|ming4|bright}}
+{{ex:好|hou2|good}}
+<h3>Strokes and radicals</h3>
+<p>Each character is written with strokes, the lines, dots and hooks of the pen. A part that turns up in many characters is a radical, and it often hints at the meaning: 亻 is a squeezed 人 (person), as in 休 and 你; 氵 is water; 女 is woman.</p>
+<h3>The 口 of spoken Cantonese</h3>
+<p>Cantonese has everyday words that Mandarin does not, and many of their characters carry 口 (mouth) on the left, as if to say "this is a spoken word": <b>嘅</b>, <b>咗</b>, <b>啲</b>, <b>嘢</b>, <b>呢</b>, <b>嚟</b>, <b>喺</b>. When you see 口 on the left, think "Cantonese word".</p>
+{{ex:嘢|je5|thing; stuff}}
+{{ex:喺|hai2|at; in}}
+<h3>Signs, and simplified characters</h3>
+<p>Hong Kong uses traditional characters; mainland China uses simplified ones, with fewer strokes. Signs, menus and the news are often in standard written Chinese, a formal style that differs from speech: <b>出口</b> <i>ceot1 hau2</i> on a door means "exit". This course teaches what people say, so "he is" is <b>佢係</b> <i>keoi5 hai6</i>, even though a newspaper writes 他是.</p>
+{{ex:出口|ceot1 hau2|exit}}
+<div class="tip"><b>Most common mistake:</b> copying the written style into speech. 他是美國人 → <b>佢係美國人</b> <i>keoi5 hai6 mei5 gwok3 jan4</i>, "He is American", the way people say it.</div>
+`,
+    check: [
+      ["What do 日 (sun) and 月 (moon) make together?",["林","明","休","好"],1,"The sun and the moon together make 明, bright."],
+      ["What does 口 on the left of 嘅, 咗 and 啲 often tell you?",["The word is about eating","The word is a question","It is an everyday spoken-Cantonese word","The word has tone 1"],2,"Many spoken-Cantonese characters carry 口 on the left."],
+      ["Which characters does Hong Kong use?",["Traditional characters","Simplified characters","Only Jyutping","The Latin alphabet"],0,"Hong Kong writes traditional characters; simplified ones are used in mainland China."]
+    ],
+    practice: [
+      ["mc","日 (sun) + 月 (moon) make…","明","林","休","好","The sun and the moon together make 明, bright."],
+      ["mc","What does 口 on the left of 嘅, 咗 and 啲 often tell you?","It is an everyday spoken-Cantonese word","It is about eating","It is a question","It has tone 1","Many characters for spoken-Cantonese words carry 口 on the left."],
+      ["mc","A sign over a door says 出口. It means…","exit","entrance","mouth","restroom","出口 is exit: 出 is out, and 口 here is an opening."],
+      ["mc","Which is the Jyutping of 水 (water)?","seoi2","seoi3","seoi4","seoi6","水 is seoi2, tone 2: it rises from the middle."],
+      ["mc","Which part is a squeezed 人 (person)?","亻","氵","口","女","亻 is the person radical, as in 休 and 你."],
+      ["or","a good person (in characters)","好 人","係","The describer goes before the noun: 好人, a good person."],
+      ["or","好人 (a good person) in Jyutping","hou2 jan4","hou3","好 is hou2, tone 2; 人 is jan4, tone 4.","!strict"],
+      ["or","a big mountain (in characters; 大 = big)","大 山","係","The describer goes before the noun: 大山, a big mountain."],
+      ["fi","人 + 木 = __","person + tree = to rest","休","林|明|本","A person leaning on a tree makes 休, to rest."],
+      ["fi","木 + 木 = __","tree + tree = woods","林","休|明|山","Two trees make 林, woods."],
+      ["fi","女 + 子 = __","woman + child = good","好","明|林|休","A woman and a child make 好, good."],
+      ["ty","Type the Jyutping of 好 (good)","hou2","tone 2 · it rises from the middle","hou3","好 (good) has tone 2: hou2.","!strict"],
+      ["ty","a good person (in characters)","好 人","好 · 人 · the describer comes first","係","The describer goes before the noun: 好人."],
+      ["ty","Type the Jyutping of 人 (person)","jan4","j sounds like y · tone 4","jan6","人 has tone 4, low and falling: jan4.","!strict"]
+    ]
+  },
+  {
+    id: "hai",
+    title: "係 (to be) and the pronouns 我, 你, 佢",
+    blurb: "Say who people are with 係 and 唔係, use I, you, he, she, we and they, and add 'too' with 都.",
+    deck: "People and family",
+    body: `
+<p>English says "I am a student". Cantonese uses the same order: <b>我係學生</b> <i>ngo5 hai6 hok6 saang1</i>. The verb <b>係</b> joins two nouns: who someone is, and what they are.</p>
+{{ex:我係學生。|ngo5 hai6 hok6 saang1.|I'm a student.}}
+{{ex:佢係老師。|keoi5 hai6 lou5 si1.|She's a teacher.}}
+<h3>No "a", and no changes</h3>
+<p>There is no word for "a" here, and 係 never changes: I am, you are, she is and they are are all just 係, and it does not change for time either: the same 係 covers "was" and "were". Nouns do not change either: English adds -s for "students", but <b>學生</b> is one student or many.</p>
+<h3>I, you, he, she, they</h3>
+<div class="tbl"><table><tr><th>One</th><th>Jyutping</th><th>More than one</th><th>Jyutping</th></tr><tr><td class="k">我</td><td>ngo5 (I, me)</td><td class="k">我哋</td><td>ngo5 dei6 (we, us)</td></tr><tr><td class="k">你</td><td>nei5 (you)</td><td class="k">你哋</td><td>nei5 dei6 (you all)</td></tr><tr><td class="k">佢</td><td>keoi5 (he, she, it)</td><td class="k">佢哋</td><td>keoi5 dei6 (they, them)</td></tr></table></div>
+<p><b>哋</b> makes a pronoun plural. <b>佢</b> covers he, she and it, so only the context tells you which. There is only one "you": 你 works for your boss and your grandma alike, and politeness comes from other words. Newspapers write 他 and 她 for he and she; in speech it is always 佢.</p>
+{{ex:佢哋係學生。|keoi5 dei6 hai6 hok6 saang1.|They're students.}}
+{{ex:我哋係朋友。|ngo5 dei6 hai6 pang4 jau5.|We're friends.}}
+<h3>Not: 唔係</h3>
+<p>Put <b>唔</b> right before 係: <b>唔係</b> <i>m4 hai6</i> means "am not, is not, are not". 唔 is the everyday "not", and lesson 7 does much more with it.</p>
+{{ex:我唔係老師。|ngo5 m4 hai6 lou5 si1.|I'm not a teacher.}}
+<h3>My friend, and "too"</h3>
+<p>The owner goes before the noun, and for people close to you nothing goes in between: <b>我朋友</b> <i>ngo5 pang4 jau5</i> is "my friend". For "too" or "also", put <b>都</b> <i>dou1</i> right after the subject, before 係. English puts "too" at the end; Cantonese never does.</p>
+{{ex:佢係我朋友。|keoi5 hai6 ngo5 pang4 jau5.|He's my friend.}}
+{{ex:我都係學生。|ngo5 dou1 hai6 hok6 saang1.|I'm a student too.}}
+<h3>No 係 with adjectives</h3>
+<p>English uses "is" with adjectives too: "she is tired". Cantonese does not. Use <b>好</b> (literally "very") instead: <b>佢好攰</b> <i>keoi5 hou2 gui6</i>. Lesson 22 comes back to this.</p>
+{{ex:佢好攰。|keoi5 hou2 gui6.|She's tired.}}
+<div class="tip"><b>Most common mistake:</b> putting 係 before an adjective, as English does with "is". <b>佢係攰</b> → <b>佢好攰</b>.</div>
+`,
+    check: [
+      ["How do you say I'm a student?",["我學生係。","我係學生。","我係一學生。","係我學生。"],1,"係 joins the two nouns, and there is no word for a: 我係學生。"],
+      ["What can 佢 mean?",["Only he","Only she","They","He, she or it"],3,"佢 covers he, she and it; 佢哋 is they."],
+      ["How do you say She's tired?",["佢係攰。","佢攰係。","佢好攰。","係佢攰。"],2,"Adjectives take no 係: use 好, as in 佢好攰。"]
+    ],
+    practice: [
+      ["mc","I'm a student. =","我係學生。","我學生係。","我係一學生。","係我學生。","係 joins two nouns, and Cantonese has no word for a here."],
+      ["mc","佢 can mean…","he, she or it","only he","only she","they","佢 covers he, she and it; context tells you which."],
+      ["mc","She's tired. =","佢好攰。","佢係攰。","佢攰係。","係佢攰。","Adjectives take 好, not 係: 佢好攰。"],
+      ["mc","Which word is hai6 (to be)?","係","喺","去","死","係 is hai6; 喺 (hai2) means at, in."],
+      ["mc","they =","佢哋","佢","我哋","你哋","哋 makes a pronoun plural: 佢哋 is they."],
+      ["or","He is my friend. (start with 佢)","佢 係 我 朋友","喺","The owner goes before the noun: 我朋友, my friend."],
+      ["or","We are students too. (都 = also)","我哋 都 係 學生","喺","都 goes before the verb, not at the end like English too."],
+      ["or","They are not teachers.","佢哋 唔 係 老師","喺","唔 goes right before 係: 唔係 means are not."],
+      ["fi","我__學生。","I'm a student.","係","好|喺|唔","係 (hai6) joins two nouns; 喺 (hai2) means at.","!strict"],
+      ["fi","佢__老師。","She isn't a teacher.","唔係","係|好|唔好","唔係 means is not: 唔 comes right before 係."],
+      ["fi","佢__攰。","He's tired.","好","係|唔係|哋","Adjectives take 好, not 係: 佢好攰。"],
+      ["ty","She is my friend.","佢 係 我 朋友|佢 係 我 嘅 朋友","佢 · 係 · 我 · 朋友 · the owner comes first","喺","The owner goes before the noun: 我朋友, my friend."],
+      ["ty","I am a student too. (都 = also)","我 都 係 學生","我 · 都 · 係 · 學生","喺","都 goes before the verb: 我都係學生."],
+      ["ty","They are teachers.","佢哋 係 老師","佢哋 · 係 · 老師","喺","係 joins two nouns: 佢哋係老師, with no word for a."]
+    ]
+  },
+  {
+    id: "intro",
+    title: "Introducing yourself: 我叫…, 我係美國人",
+    blurb: "Give your name and family name, ask someone theirs, and say where you are from, where you live and what you speak.",
+    deck: "About me",
+    body: `
+<p>Introducing yourself takes a few short sentences. They keep the English order, with one twist: a question does not move anything to the front.</p>
+<h3>My name is…</h3>
+<p>Cantonese says "I am called": <b>我叫</b> <i>ngo5 giu3</i> + your name. Do not copy "my name is" word for word; 我叫 already says it.</p>
+{{ex:我叫安娜。|ngo5 giu3 on1 naa4.|My name is Anna.}}
+{{ex:我叫馬克。|ngo5 giu3 maa5 hak1.|My name is Mark.}}
+<p>Many Hong Kong people also use an English given name and write it in English letters. In this course the two learners write their names in characters: <b>安娜</b> (Anna) and <b>馬克</b> (Mark).</p>
+<p>For your family name, use <b>姓</b> <i>sing3</i>. You may hear the polite question <b>你貴姓呀？</b> <i>nei5 gwai3 sing3 aa3?</i>, "what's your family name?". Answer with 我姓…, never with 貴: that is only for the other person's name.</p>
+{{ex:我姓陳。|ngo5 sing3 can4.|My last name is Chan.}}
+<h3>Asking someone's name</h3>
+<p>English moves "what" to the front. Cantonese leaves the question word where the answer goes: <b>我叫安娜</b> becomes <b>你叫咩名呀？</b> <i>nei5 giu3 me1 meng2 aa3?</i>, literally "you are called what name?". The <b>呀</b> at the end makes the question soft and friendly; without it, it can sound curt. To ask the same question back, say <b>你呢？</b> <i>nei5 ne1?</i>, "and you?".</p>
+{{ex:你叫咩名呀？|nei5 giu3 me1 meng2 aa3?|What's your name?}}
+{{ex:你呢？|nei5 ne1?|And you?}}
+<h3>Where you are from</h3>
+<p>A country + <b>人</b> (person) gives the nationality: <b>美國人</b> (American), <b>香港人</b> (from Hong Kong), <b>加拿大人</b> (Canadian). Join it with 係, as in lesson 5. To ask, say <b>你係邊度人呀？</b> <i>nei5 hai6 bin1 dou6 jan4 aa3?</i>, "where are you from?": again, the question word sits where the answer goes.</p>
+{{ex:我係美國人。|ngo5 hai6 mei5 gwok3 jan4.|I'm American.}}
+<h3>Where you live</h3>
+<p><b>住喺</b> <i>zyu6 hai2</i> means "live in". Here the place comes after the verb, as in English; with most other verbs, 喺 + place goes before the verb (lesson 13). <b>三藩市</b> is San Francisco. To ask, keep the same order and swap in the question word: 你住喺邊度呀？ (where do you live?).</p>
+{{ex:我住喺三藩市。|ngo5 zyu6 hai2 saam1 faan4 si5.|I live in San Francisco.}}
+<h3>The languages you speak</h3>
+<p><b>識講</b> <i>sik1 gong2</i> means "can speak": you know how to. The describer goes before the noun: <b>少少廣東話</b>, "a little Cantonese".</p>
+{{ex:我識講少少廣東話。|ngo5 sik1 gong2 siu2 siu2 gwong2 dung1 waa2.|I can speak a little Cantonese.}}
+<div class="tip"><b>Most common mistake:</b> copying "my name is" word for word. <b>我名係安娜</b> → <b>我叫安娜</b>.</div>
+`,
+    check: [
+      ["How do you ask someone's name?",["咩你叫名呀？","你叫咩名呀？","你叫名咩呀？","咩名你叫呀？"],1,"The question word stays where the answer goes: 我叫安娜, 你叫咩名呀？"],
+      ["How do you say My name is Mark?",["我叫馬克。","我名係馬克。","我馬克叫。","叫馬克我。"],0,"叫 means to be called, so 我叫馬克 already says my name is."],
+      ["Someone asks 你貴姓呀？ What do you answer?",["我貴姓陳。","我叫貴陳。","我姓陳。","我係貴姓。"],2,"Answer with 姓; 貴 is only for the other person's name."]
+    ],
+    practice: [
+      ["mc","What's your name? =","你叫咩名呀？","咩你叫名呀？","你叫名咩呀？","咩名你叫呀？","The question word stays where the answer goes: 你叫咩名呀？"],
+      ["mc","My name is Mark. =","我叫馬克。","我名係馬克。","我馬克叫。","馬克我叫。","叫 means to be called; 我名係 is a word-for-word copy of English."],
+      ["mc","I live in New York. =","我住喺紐約。","我住紐約喺。","住喺我紐約。","我紐約住喺。","住喺 + place: 我住喺紐約。"],
+      ["mc","Which is the Jyutping of 叫 (to be called)?","giu3","giu2","giu6","giu1","叫 is giu3, tone 3: middle and level."],
+      ["mc","Someone asks 你貴姓呀？ They want to know…","your family name","your age","where you live","what you do","貴姓 is the polite way to ask a family name."],
+      ["or","She is my Cantonese teacher. (start with 佢)","佢 係 我 廣東話 老師","喺","The describers go before the noun: 我廣東話老師, my Cantonese teacher."],
+      ["or","I am American too.","我 都 係 美國人","喺","都 goes before the verb: 我都係美國人."],
+      ["or","What is your name? (with 呀)","你 叫 咩 名 呀","係","The question word 咩 stays where the answer goes."],
+      ["fi","我__安娜。","My name is Anna.","叫","名|住|講","叫 means to be called: 我叫 + your name."],
+      ["fi","我__陳。","My family name is Chan.","姓","叫|名|住","Use 姓 for your family name: 我姓陳."],
+      ["fi","我住__三藩市。","I live in San Francisco.","喺","係|嚟|去","住喺 + place: 喺 (hai2) means at, in; 係 (hai6) is to be.","!strict"],
+      ["ty","She is my Cantonese teacher.","佢 係 我 廣東話 老師|佢 係 我 嘅 廣東話 老師","佢 · 係 · 我 · 廣東話 · 老師 · the describers come first","喺","The describers go before the noun: 我廣東話老師, my Cantonese teacher."],
+      ["ty","We are from Hong Kong too. (都 = also)","我哋 都 係 香港人","我哋 · 都 · 係 · 香港人","喺","都 goes before the verb: 我哋都係香港人."],
+      ["ty","What's your name? (friendly)","你 叫 咩 名 呀|你 叫 咩 名","叫 · 咩 · 名 · 呀 makes it friendly","係","The question word 咩 stays where the answer goes: 你叫咩名呀？"]
+    ]
+  },
+  {
+    id: "m",
+    title: "唔 (not) and yes/no questions: 係唔係, 好唔好",
+    blurb: "Say 'not' with 唔, ask yes/no questions like 去唔去？, and answer them without a word for yes or no.",
+    deck: "Questions and particles",
+    body: `
+<p>Lesson 5 used <b>唔</b> <i>m4</i> in 唔係. It is the everyday "not", and it goes straight before a verb or an adjective, never after it the way English puts "not" after "is". Cantonese verbs never change, so English "don't", "doesn't" and "isn't" are all just 唔.</p>
+{{ex:我唔去。|ngo5 m4 heoi3.|I'm not going.}}
+{{ex:我唔攰。|ngo5 m4 gui6.|I'm not tired.}}
+<p>With an adjective there is no 係 and no 好: just 唔 + adjective, as in <b>唔貴</b> <i>m4 gwai3</i>, "not expensive".</p>
+<h3>Yes/no questions: verb, 唔, verb</h3>
+<p>English asks "Are you going?" by moving words around. Cantonese keeps the order and says the verb, then 唔, then the verb again: "you go not go?". This is a verb-not-verb question. It already holds the "yes or no", so nothing else is needed: no "do", and no rising voice at the end.</p>
+{{ex:你去唔去呀？|nei5 heoi3 m4 heoi3 aa3?|Are you going?}}
+{{ex:你係唔係學生呀？|nei5 hai6 m4 hai6 hok6 saang1 aa3?|Are you a student?}}
+{{ex:貴唔貴呀？|gwai3 m4 gwai3 aa3?|Is it expensive?}}
+<p>It works with adjectives too (貴唔貴, 好唔好), and <b>呀</b> at the end keeps it friendly. In fast speech 係唔係 often shrinks to <b>係咪</b> <i>hai6 mai6</i>, with the same meaning.</p>
+{{ex:你係咪美國人呀？|nei5 hai6 mai6 mei5 gwok3 jan4 aa3?|Are you American?}}
+<h3>No word for yes or no</h3>
+<p>Cantonese answers by repeating the verb: "go" or "not go". To 你去唔去呀？ say <b>去</b> for yes or <b>唔去</b> for no. To 貴唔貴呀？ the answer is 貴 or 唔貴. The short answer is complete on its own. Only a 係 question takes 係 or 唔係 as the answer.</p>
+{{ex:唔去。|m4 heoi3.|No, I'm not going.}}
+<h3>Not … either</h3>
+<p>都 (also) from lesson 5 comes before 唔: <b>我都唔去</b> <i>ngo5 dou1 m4 heoi3</i> is "I'm not going either". English puts "either" at the end; Cantonese puts 都 right after the subject, then 唔, then the verb.</p>
+{{ex:我都唔去。|ngo5 dou1 m4 heoi3.|I'm not going either.}}
+<h3>嗎, and a first look at 冇</h3>
+<p>You may see questions ending in <b>嗎</b>, such as 你係學生嗎？ They are understood but sound formal or written; in speech, use verb-not-verb. And one verb never takes 唔: <b>有</b> (to have). Its "not" is <b>冇</b> <i>mou5</i>, never 唔有 (lesson 14).</p>
+{{ex:我冇錢。|ngo5 mou5 cin2.|I don't have any money.}}
+<div class="tip"><b>Most common mistake:</b> answering every question with 係, like English "yes". 你去唔去呀？ <b>係</b> → <b>去</b>.</div>
+`,
+    check: [
+      ["How do you ask Are you going?",["你唔去去呀？","你去唔去呀？","去你唔去呀？","唔去你去呀？"],1,"Say the verb, then 唔, then the verb again: 去唔去."],
+      ["Someone asks 你去唔去呀？ How do you say yes?",["係。","唔。","去。","有。"],2,"Cantonese has no word for yes: repeat the verb, 去."],
+      ["How do you say I don't have any money?",["我冇錢。","我唔有錢。","我唔係錢。","我有唔錢。"],0,"有 never takes 唔: its not is 冇."]
+    ],
+    practice: [
+      ["mc","Are you going? =","你去唔去呀？","你唔去去呀？","去你唔去呀？","唔去你去呀？","Verb, 唔, verb: 去唔去."],
+      ["mc","Someone asks 你食唔食呀？ (食 = eat) To say yes, you answer…","食。","係。","唔。","有。","Cantonese has no single word for yes: repeat the verb, 食."],
+      ["mc","I'm not tired. =","我唔攰。","我攰唔。","唔我攰。","我攰唔係。","唔 goes right before the adjective: 我唔攰."],
+      ["mc","Which is the Jyutping of 唔 (not)?","m4","m1","m6","m2","唔 is m4, tone 4: low and falling."],
+      ["mc","你係咪學生呀？ means the same as…","你係唔係學生呀？","你唔係學生。","你係學生。","我係學生呀。","係咪 is the short form of 係唔係."],
+      ["or","I am not going either. (都 = also)","我 都 唔 去","你","都 goes before the verb, and 唔 comes right before 去."],
+      ["or","Is she your teacher? (start with 佢)","佢 係唔係 你 老師","喺","The owner goes before the noun: 你老師, your teacher."],
+      ["or","Is it expensive?","貴 唔 貴 呀","係","Say the adjective, then 唔, then the adjective again: 貴唔貴."],
+      ["fi","你去__去呀？","Are you going?","唔","係|好|有","Verb + 唔 + verb makes a yes/no question: 去唔去."],
+      ["fi","你係唔係學生呀？__，我係學生。","Are you a student? Yes, I'm a student.","係","好|有|去","To a 係 question, answer 係 (yes) or 唔係 (no)."],
+      ["fi","佢__食。","He doesn't eat it. (食 = eat)","唔","係|喺|你","唔 goes right before the verb: 佢唔食."],
+      ["ty","I am not a student either. (都 = also)","我 都 唔 係 學生","我 · 都 · 唔 · 係 · 學生","喺","都 goes before the verb: 我都唔係學生."],
+      ["ty","Is he your friend?","佢 係 唔 係 你 朋友 呀|佢 係 唔 係 你 朋友|佢 係咪 你 朋友 呀|佢 係咪 你 朋友|佢 係 唔 係 你 嘅 朋友 呀|佢 係 唔 係 你 嘅 朋友","佢 · 係唔係 · 你 · 朋友","喺","The owner goes before the noun: 你朋友, your friend."],
+      ["ty","Are you going? (use 去)","你 去 唔 去 呀|你 去 唔 去|去 唔 去 呀|去 唔 去","去 · 唔 · 去 · 呀","係","Say the verb, then 唔, then the verb again: 去唔去."]
+    ]
+  },
+  {
+    id: "questions",
+    title: "Question words: 咩, 邊個, 邊度, 幾時, 點解",
+    blurb: "Ask what, who, where, when, why and how, with the question word right where the answer goes.",
+    deck: "Questions and particles",
+    body: `
+<p>In English, question words jump to the front: "Where do you live?". In Cantonese they stay exactly where the answer would go. Say the answer sentence, then swap the answer for the question word. This one habit fixes most question mistakes.</p>
+{{ex:你住喺邊度呀？|nei5 zyu6 hai2 bin1 dou6 aa3?|Where do you live?}}
+{{ex:我住喺紐約。|ngo5 zyu6 hai2 nau2 joek3.|I live in New York.}}
+<h3>The question words</h3>
+<div class="tbl"><table><tr><th>Word</th><th>Jyutping</th><th>Meaning</th></tr><tr><td class="k">咩</td><td>me1</td><td>what</td></tr><tr><td class="k">邊個</td><td>bin1 go3</td><td>who</td></tr><tr><td class="k">邊度</td><td>bin1 dou6</td><td>where</td></tr><tr><td class="k">幾時</td><td>gei2 si4</td><td>when</td></tr><tr><td class="k">點解</td><td>dim2 gaai2</td><td>why</td></tr><tr><td class="k">點</td><td>dim2</td><td>how</td></tr><tr><td class="k">幾多</td><td>gei2 do1</td><td>how many, how much</td></tr></table></div>
+<h3>What and who</h3>
+<p>Because nothing moves, a question is built from a statement in one step. There is no "do" to add and no change in word order. <b>咩</b> goes where the thing would go: 你食咩呀？ is "you eat what?". <b>邊個</b> goes where the person would go: compare 佢係我老師 (she is my teacher) with 佢係邊個呀？ (who is she?). Only one word changes, and 呀 joins the end.</p>
+{{ex:你食咩呀？|nei5 sik6 me1 aa3?|What are you having?}}
+{{ex:佢係邊個呀？|keoi5 hai6 bin1 go3 aa3?|Who is she?}}
+<h3>When: before the verb</h3>
+<p>Time words go before the verb in Cantonese, and <b>幾時</b> is a time word, so it sits there too. English says "I'm going to Hong Kong tomorrow"; Cantonese says "I tomorrow go Hong Kong", with <b>聽日</b> <i>ting1 jat6</i> (tomorrow) before 去, and asks "you when go Hong Kong?".</p>
+{{ex:我聽日去香港。|ngo5 ting1 jat6 heoi3 hoeng1 gong2.|I'm going to Hong Kong tomorrow.}}
+{{ex:你幾時去香港呀？|nei5 gei2 si4 heoi3 hoeng1 gong2 aa3?|When are you going to Hong Kong?}}
+<h3>Why and how</h3>
+<p><b>點解</b> (why) comes first, or right after the subject, and the answer usually starts with <b>因為</b> <i>jan1 wai6</i> (because). <b>點</b> (how) goes before the verb: 你點去呀？ is "how are you getting there?".</p>
+{{ex:點解你唔去呀？|dim2 gaai2 nei5 m4 heoi3 aa3?|Why aren't you going?}}
+<h3>The ending: 呀 or 呢</h3>
+<p>End a question-word question with <b>呀</b> to keep it friendly, or with <b>呢</b> <i>ne1</i> to make it softer, a little wondering. Both are fine; a bare question can sound abrupt. On its own, 你呢？ asks the same question back. 邊度 also works after 喺 (at, in): <b>洗手間喺邊度呀？</b> <i>sai2 sau2 gaan1 hai2 bin1 dou6 aa3?</i> is "where is the restroom?".</p>
+{{ex:你叫咩名呢？|nei5 giu3 me1 meng2 ne1?|And what's your name?}}
+<div class="tip"><b>Most common mistake:</b> putting the question word first, as in English. <b>邊度你住？</b> → <b>你住喺邊度呀？</b></div>
+`,
+    check: [
+      ["How do you ask Where do you live?",["邊度你住呀？","你住喺邊度呀？","你邊度住喺呀？","喺邊度你住呀？"],1,"The question word stays where the answer goes: 我住喺紐約, 你住喺邊度呀？"],
+      ["Where does 幾時 (when) go?",["At the very end","Before the subject, always","Before the verb, like other time words","After the verb"],2,"幾時 is a time word, and time words go before the verb."],
+      ["What does 點解 ask?",["why","how","when","where"],0,"點解 is why; 點 on its own is how."]
+    ],
+    practice: [
+      ["mc","Where do you live? =","你住喺邊度呀？","邊度你住喺呀？","你邊度住喺呀？","喺邊度你住呀？","The question word stays where the answer goes."],
+      ["mc","Who is she? =","佢係邊個呀？","邊個佢係呀？","佢邊個係呀？","係邊個佢呀？","邊個 goes where the person would go: 佢係邊個呀？"],
+      ["mc","點解 means…","why","how","when","where","點解 is why; 點 alone is how."],
+      ["mc","Which is the Jyutping of 幾時 (when)?","gei2 si4","gei2 si2","gei1 si4","gei2 si6","幾時 is gei2 si4: 時 has tone 4, low and falling."],
+      ["mc","When are you going? =","你幾時去呀？","你去幾時呀？","你去呀幾時？","去你幾時呀？","幾時 is a time word, so it comes before 去."],
+      ["or","Where are you going tomorrow? (start with 你; 聽日 = tomorrow)","你 聽日 去 邊度 呀","咩","Time goes before the verb: 你聽日去邊度呀？"],
+      ["or","When are you going to Hong Kong? (start with 你)","你 幾時 去 香港 呀","邊度","幾時 is a time word, so it goes before the verb."],
+      ["or","Who is he? (start with 佢)","佢 係 邊個 呀","咩","The question word stays where the answer goes: 佢係邊個呀？"],
+      ["fi","你食__呀？","What are you having?","咩","邊個|邊度|幾時","咩 asks what: it sits where the food would go."],
+      ["fi","你住喺__呀？","Where do you live?","邊度","咩|邊個|幾時","邊度 asks where: it sits where the place would go."],
+      ["fi","__你唔去呀？","Why aren't you going?","點解","咩|邊度|幾多","點解 asks why and comes first, or right after 你."],
+      ["ty","Where do you work? (做嘢 = to work)","你 喺 邊度 做嘢 呀|你 喺 邊度 做嘢|你 喺 邊度 做嘢 呢","喺 · 邊度 · 做嘢 · the place comes first","係","The place goes before the verb: 你喺邊度做嘢呀？"],
+      ["ty","When is he going to New York?","佢 幾時 去 紐約 呀|佢 幾時 去 紐約|佢 幾時 去 紐約 呢","佢 · 幾時 · 去 · 紐約","邊度","幾時 is a time word, so it goes before the verb: 佢幾時去紐約呀？"],
+      ["ty","What are you having? (食 = to eat)","你 食 咩 呀|你 食 咩|你 食 咩 呢|食 咩 呀|食 咩","食 · 咩","邊個","The question word stays where the answer goes: 你食咩呀？"]
+    ]
+  },
+  {
+    id: "numbers",
+    title: "Numbers: 一 to 十, 百, 千, 萬",
+    blurb: "Count from one to a hundred thousand, choose between 兩 and 二, and read phone numbers.",
+    deck: "Numbers and money",
+    body: `
+<p>Cantonese numbers are very regular: learn one to ten and you can build every number up to 99 with no new words. The same numbers later give you the months too: <b>一月</b> <i>jat1 jyut6</i> is January, "month one".</p>
+<h3>One to ten</h3>
+<div class="tbl"><table><tr><th>Number</th><th>Character</th><th>Jyutping</th></tr><tr><td>1</td><td class="k">一</td><td>jat1</td></tr><tr><td>2</td><td class="k">二</td><td>ji6</td></tr><tr><td>3</td><td class="k">三</td><td>saam1</td></tr><tr><td>4</td><td class="k">四</td><td>sei3</td></tr><tr><td>5</td><td class="k">五</td><td>ng5</td></tr><tr><td>6</td><td class="k">六</td><td>luk6</td></tr><tr><td>7</td><td class="k">七</td><td>cat1</td></tr><tr><td>8</td><td class="k">八</td><td>baat3</td></tr><tr><td>9</td><td class="k">九</td><td>gau2</td></tr><tr><td>10</td><td class="k">十</td><td>sap6</td></tr></table></div>
+<h3>Eleven to 99</h3>
+<p>Build the rest like a sum: <b>十二</b> <i>sap6 ji6</i> is "ten two", 12; <b>二十</b> <i>ji6 sap6</i> is "two ten", 20; <b>二十五</b> is 25. In everyday speech the twenties are often shortened with <b>廿</b> <i>jaa6</i>: 廿五 for 25. Both are correct.</p>
+{{ex:十二|sap6 ji6|twelve}}
+{{ex:二十五|ji6 sap6 ng5|twenty-five}}
+{{ex:九十九|gau2 sap6 gau2|ninety-nine}}
+<h3>Hundreds, thousands and 萬</h3>
+<p><b>百</b> is a hundred and <b>千</b> a thousand. An empty tens place takes <b>零</b> (zero): 一百零五 is 105. Without 零, 一百五 is short for 一百五十, 150. Then comes a word English lacks: <b>萬</b> <i>maan6</i>, ten thousand. Big numbers are counted in 萬, so 100,000 is <b>十萬</b> <i>sap6 maan6</i>, "ten ten-thousands". English groups digits by thousands; Cantonese groups them by ten thousands, so a million is <b>一百萬</b> <i>jat1 baak3 maan6</i>, "a hundred ten-thousands".</p>
+{{ex:一百零五|jat1 baak3 ling4 ng5|a hundred and five}}
+{{ex:一百五|jat1 baak3 ng5|a hundred and fifty}}
+{{ex:十萬|sap6 maan6|a hundred thousand}}
+<h3>兩 or 二</h3>
+<p>English has one "two"; Cantonese has two. In counting, inside numbers like 二十 and 十二, and in phone numbers, it is <b>二</b>. Right before a classifier, the small word between a number and a noun (lesson 10), it is <b>兩</b> <i>loeng5</i>. <b>個</b> is the everyday classifier for people, so "two people" is 兩個人. Only a lone 2 right before the classifier becomes 兩: twenty-two people is <b>二十二個人</b> <i>ji6 sap6 ji6 go3 jan4</i>. Before 百 and 千, 兩 is the usual form too (兩百, 兩千), although 二百 and 二千 are also heard.</p>
+{{ex:兩個人|loeng5 go3 jan4|two people}}
+{{ex:二十個人|ji6 sap6 go3 jan4|twenty people}}
+<h3>Phone numbers</h3>
+<p>Phone numbers are read one digit at a time, with 二 for 2 and 零 for 0. Hong Kong numbers have eight digits, usually said in two groups of four. Prices use the same numbers, with 蚊 for "dollars" in speech (lesson 16).</p>
+{{ex:九二三四五六七八|gau2 ji6 saam1 sei3 ng5 luk6 cat1 baat3|9234 5678 (a phone number)}}
+<div class="tip"><b>Most common mistake:</b> 二 right before a classifier. <b>二個人</b> → <b>兩個人</b>.</div>
+`,
+    check: [
+      ["How do you say two people?",["二個人","兩個人","兩人個","個兩人"],1,"Before a classifier, two is 兩: 兩個人."],
+      ["How do you say 100,000?",["十萬","一百千","一萬","一千萬"],0,"Cantonese counts in 萬 (10,000): 100,000 is 十萬."],
+      ["What does 一百五 mean?",["105","15","150","1,500"],2,"一百五 is short for 一百五十, 150; 105 is 一百零五."]
+    ],
+    practice: [
+      ["mc","two people =","兩個人","二個人","兩人個","個兩人","Before a classifier, two is 兩: 兩個人."],
+      ["mc","100,000 =","十萬","一百千","一萬","一千萬","Cantonese counts in 萬 (10,000): 100,000 is 十萬."],
+      ["mc","一百五 means…","150","105","15","1,500","一百五 is short for 一百五十; 105 is 一百零五."],
+      ["mc","Which is the Jyutping of 四 (four)?","sei3","sei2","sei4","sei1","四 is sei3, tone 3; sei2 is 死, to die."],
+      ["mc","How do you read the phone number 2345, digit by digit?","二三四五","兩三四五","二千三百四十五","兩千三百四十五","Phone numbers are read digit by digit, and 2 there is 二."],
+      ["or","two people","兩 個 人","二","兩, not 二, goes before a classifier: 兩個人."],
+      ["or","twenty people","二十 個 人","兩","二十 is twenty, and the classifier 個 goes before the noun: 二十個人."],
+      ["or","105 (one hundred and five)","一百 零 五","十","An empty tens place takes 零: 一百零五."],
+      ["fi","__個人","two people","兩","二|二十|十二","兩, not 二, goes right before 個."],
+      ["fi","一百__五","105","零","十|百|千","零 fills the empty tens place: 一百零五."],
+      ["fi","十__","100,000","萬","千|百|零","Cantonese counts in 萬 (10,000): 100,000 is 十萬."],
+      ["ty","two cups of milk tea","兩 杯 奶茶","兩 · 杯 · 奶茶","二","兩, not 二, before a classifier: 兩杯奶茶."],
+      ["ty","twelve people","十二 個 人","十二 · 個 · 人","兩","A number needs a classifier before the noun: 十二個人."],
+      ["ty","150 (a hundred and fifty)","一百 五|一百 五十","一百 · 五 · the last 十 can be dropped","零","一百五 is short for 一百五十; 一百零五 would be 105."]
+    ]
+  }
 ];

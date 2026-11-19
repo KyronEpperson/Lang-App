@@ -11,7 +11,7 @@ module.exports = {
 我要呢件。 | ngo5 jiu3 ni1 gin6. | I'll take this one. | Talking about clothes, so the classifier 件 stands in for the noun.
 我想睇吓嗰件。 | ngo5 soeng2 tai2 haa5 go2 gin6. | Could I see that one? | 嗰 = that, 呢 = this. 睇吓 = have a look.
 可唔可以試吓呀？ | ho2 m4 ho2 ji5 si3 haa5 aa3? | Can I try it on? | 試吓 = give it a try. Works for clothes, shoes and food samples.
-有冇第二隻顏色呀？ | jau5 mou5 dai6 ji6 zek3 ngaan4 sik1 aa3? | Do you have it in another color? | 第二 here means 'another', not 'second'.
+有冇第二隻色呀？ | jau5 mou5 dai6 ji6 zek3 sik1 aa3? | Do you have it in another color? | 第二 here means 'another', not 'second'. 隻 is the classifier for colors: 呢隻色.
 啱啱好。 | ngaam1 ngaam1 hou2. | It fits just right. | 啱 = right, fitting. Too big: 太大喇. Too small: 太細喇.
 太細喇。 | taai3 sai3 laa3. | It's too small. | 細 = small. The opposite is 大.
 收唔收信用卡呀？ | sau1 m4 sau1 seon3 jung6 kaat1 aa3? | Do you take credit cards? | 收 = accept. Small shops and market stalls often take only cash or Octopus.
@@ -27,7 +27,7 @@ module.exports = {
 三點半 | saam1 dim2 bun3 | half past three | 半 = half.
 十二月三號 | sap6 ji6 jyut6 saam1 hou6 | December 3 | Month first, then day: big to small.
 今日星期幾呀？ | gam1 jat6 sing1 kei4 gei2 aa3? | What day is it today? | 幾 asks 'which number': the answer is 星期五, 星期六 and so on.
-琴日 | kam4 jat6 | yesterday | Also written 尋日. Today is 今日.
+琴日 | kam4 jat6 | yesterday | Some people say 尋日 instead. Today is 今日.
 三點十分 | saam1 dim2 sap6 fan1 | ten past three | Hour + 點, then minutes + 分. Many people count in fives: 三點兩個字 is also 3:10.
 下晝三點 | haa6 zau3 saam1 dim2 | three in the afternoon | Hong Kong speech uses the 12-hour clock: 朝早 (morning), 下晝 (afternoon), 夜晚 (evening) go first.
 我朝早七點起身。 | ngo5 ziu1 zou2 cat1 dim2 hei2 san1. | I get up at seven in the morning. | Who, then when, then the verb: the time goes before 起身.
@@ -113,7 +113,7 @@ module.exports = {
 我未食藥。 | ngo5 mei6 sik6 joek6. | I haven't taken my medicine yet. | 未 = not yet. 冇 would mean 'I didn't'.
 我冇事。 | ngo5 mou5 si6. | I'm OK. | Literally 'I have no matter'. Also 'It's nothing'.
 可唔可以幫吓我呀？ | ho2 m4 ho2 ji5 bong1 haa5 ngo5 aa3? | Could you help me? | 吓 after the verb makes the request lighter.
-醫院喺邊度呀？ | ji1 jyun2 hai2 bin1 dou6 aa3? | Where's the hospital? | For emergencies: 急症 is the emergency room.
+醫院喺邊度呀？ | ji1 jyun2 hai2 bin1 dou6 aa3? | Where's the hospital? | For emergencies: 急症室 is the emergency room.
 小心呀！ | siu2 sam1 aa3! | Be careful! | Also 'Watch out!'
 好好休息。 | hou2 hou2 jau1 sik1. | Get some good rest. | Said to someone who is sick.
 我咳咗幾日。 | ngo5 kat1 zo2 gei2 jat6. | I've been coughing for a few days. | 咳 = cough. 幾日 = a few days.
@@ -132,7 +132,7 @@ module.exports = {
 麻麻哋。 | maa4 maa2 dei2. | So-so. | Neither good nor bad.
 好靚嘅衫 | hou2 leng3 ge3 saam1 | really nice clothes | The describer with 嘅 goes before the noun.
 呢度好嘈。 | ni1 dou6 hou2 cou4. | It's really noisy here. | 嘈 = noisy. Quiet: 靜.
-香港好多人。 | hoeng1 gong2 hou2 do1 jan4. | Hong Kong is really crowded. | Literally 'Hong Kong has very many people'.
+香港好多人。 | hoeng1 gong2 hou2 do1 jan4. | Hong Kong is really crowded. | Literally 'Hong Kong, very many people': no verb needed.
 佢好叻。 | keoi5 hou2 lek1. | She's really smart. | 叻 = clever, good at things. A common compliment.
 呢個平啲。 | ni1 go3 peng4 di1. | This one is cheaper. | Adjective + 啲 = a bit more: 平啲, 大啲, 快啲.
 地鐵快過巴士。 | dei6 tit3 faai3 gwo3 baa1 si2. | The MTR is faster than the bus. | Adjective + 過 + what you compare with. No word for 'more' is needed.
@@ -171,8 +171,8 @@ module.exports = {
 我未食。 | ngo5 mei6 sik6. | I haven't eaten yet. | 未 = not yet. 我冇食 means 'I didn't eat'.
 我去過香港。 | ngo5 heoi3 gwo3 hoeng1 gong2. | I've been to Hong Kong. | 過 = have been, not 'went'. For 'I went last week', use 咗.
 我冇時間。 | ngo5 mou5 si4 gaan3. | I don't have time. | 冇 is the only negative of 有.
-我幾好。 | ngo5 gei2 hou2. | I'm fine. | Not just 我好, which sounds unfinished. 好好 also works.
-我琴日好攰。 | ngo5 kam4 jat6 hou2 gui6. | I was tired yesterday. | No 咗 with a state like tired: the time word 琴日 already says when.
+我幾好。 | ngo5 gei2 hou2. | I'm fine. | People say 我幾好 or 我好好; a bare 我好 is less usual, since 好 also means 'very'.
+我琴日好攰。 | ngo5 kam4 jat6 hou2 gui6. | I was tired yesterday. | No 咗 for how you felt then: 琴日 already says when. (我攰咗 means 'I've gotten tired'.)
 好貴 | hou2 gwai3 | really expensive | 好 before an adjective means 'very', not 'good'.
 鬼佬 | gwai2 lou2 | Western guy (slang) | Literally 'ghost guy'. Common among friends but can offend: learn it, don't use it.
 多謝你嘅禮物。 | do1 ze6 nei5 ge3 lai5 mat6. | Thanks for your present. | 多謝 for gifts and kindness; 唔該 for a service.

@@ -23,7 +23,7 @@ exports.DIALOG = `
 我搭緊地鐵。 | 你到咗未呀？ | 未呀，我搭緊地鐵。 | Are you there yet? / Not yet, I'm on the MTR.
 搭地鐵去尖沙咀要幾耐呀？ | 搭地鐵去尖沙咀要幾耐呀？ | 十分鐘左右。 | How long does it take to get to Tsim Sha Tsui by MTR? / About ten minutes.
 你做邊行㗎？ | 你做邊行㗎？ | 我係老師，喺中學教英文。 | What line of work are you in? / I'm a teacher. I teach English at a high school.
-你識唔識講英文呀？ | 你識唔識講英文呀？ | 識，不過講得唔好。 | Do you speak English? / Yes, but not very well.
+你識唔識講英文呀？ | 你識唔識講英文呀？ | 識，不過講得唔係幾好。 | Do you speak English? / Yes, but not very well.
 我想學廣東話。 | 你想學咩呀？ | 我想學廣東話，同婆婆傾偈。 | What do you want to learn? / I want to learn Cantonese so I can chat with my grandma.
 今日唔使返工。 | 你今日返唔返工呀？ | 今日唔使返工，我喺屋企休息。 | Are you working today? / I don't have to work today. I'm resting at home.
 你喺邊度讀書呀？ | 你喺邊度讀書呀？ | 我喺香港大學讀書。 | Where do you study? / I study at the University of Hong Kong.
