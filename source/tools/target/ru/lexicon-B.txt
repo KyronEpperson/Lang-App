@@ -1,0 +1,10 @@
+# EN-RU-B stress additions (decks-b.js / extra-b.js). Format as in respell.js header: stressed vowel in CAPITALS; spelling=sound for exceptions.
+нУжен рЫнок прОсто кАсса сдАчи зАвтракаю принимАю обЕдаем гулЯем Офисе домАшнее
+вЫзовите скОрую волнУйтесь чУвствуете осторОжно бУдьте здорОвы равнО
+кабинЕт артИст фАбрика скучАю нетрУдно
+аккурАтный
+# words in notes, dialogues and examples (no pron needed there today; added so respell.js --check runs clean)
+рЫнке крАсные сИнее Офис сдавАть повернИте волнУйся здорОв
+углУ принимАйте рАза апчхИ кого-нибудь=ковО-нибудь собАкой недорогИе доЕхать осОбенно музЕю
+сИние имЕю тОчный худОжник пОвар пропускАю
+путешЕствовал

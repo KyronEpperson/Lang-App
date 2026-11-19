@@ -1011,3 +1011,9 @@ Audio pilot groundwork: the app plays a recorded clip when one exists and falls 
 
 ### 2.33.0 — results
 speak() → playClip() with clipKey (cyrb53 of the cleaned text), loadClips() reads audio/<lang>/index.json on the site build only. tools/audio/export.js (en-ko: 1,485 sentences, 13,378 characters; en-es: 688, 15,137), gen_azure.js (key from the environment, resumable, --limit, --dry), test_clips.js PASS (listed clip plays with no device voice; broken and unlisted fall back). The Azure request itself is untested here: no network and no key.
+
+## 2.34.0 — prompt
+Ship Hindi for English speakers (en-hi) after merge and cold review; list 19 planned languages as coming soon with drawn flags and a researched lesson plan each; engine support for the courses in production (Russian, Thai, Arabic incl. right-to-left target text). Verify: validate, e2e on all 28 Hindi lessons, unit tests per language, harness, picker check, site and RTL tests.
+
+### 2.34.0 — results
+en-hi: 28 lessons, 18 decks / 322 cards, 392 practice items; cold review 50 edits (no wrong gender or romanisation found; 25 order items given a cue; seven overstated rules fixed); greetings set to नमस्ते. Planned languages: nl sv no da fi af hu pl cs bg ro el tr fa ur sw tl ceb yue registered (LANGS t:1, FLAG_ART) and their roadmaps merged from docs/roadmaps/*.json (tools/roadmap_merge.py); English speakers see 22 coming-soon rows; Korean titles for the new roadmaps are not written yet (English shown). Engine: ru / th / ar / hi matching, bidiPass for RTL target text, romaLoose. Harness 77 guards. Hindi not checked by a native speaker (tools/target/hi/REVIEW.md).

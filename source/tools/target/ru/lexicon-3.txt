@@ -1,0 +1,3 @@
+# EN-RU-3 stress additions (lessons-3.js example rows). Format as in respell.js header: stressed vowel in CAPITALS.
+# All three keep the stem stress of a form already in the built-in list (смотрЕл, помогАть, спорт); not looked up on Wiktionary.
+смотрЕли помогАет спОртом

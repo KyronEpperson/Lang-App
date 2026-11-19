@@ -1,0 +1,300 @@
+{
+ "target": "hi",
+ "nameEn": "Hindi",
+ "self": "हिंदी",
+ "ttsLang": "hi-IN",
+ "brand": "हिंदी",
+ "accents": true,
+ "keys": "ँ ं ़ ्",
+ "greet": [
+  "नमस्ते",
+  "नमस्ते",
+  "नमस्ते",
+  "नमस्ते"
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*(?:aa|ii|uu|ee|c(?!c?h)|[^āīū]\\u0303|^\\u0303))[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+(?:-[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+)*[.,?!:;]?(?: [abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+(?:-[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+)*[.,?!:;]?)*$",
+ "targetScript": "[\\u0900-\\u0963\\u0971-\\u097F]",
+ "standingRule": {
+  "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bplural\\b|\\bpostpositions?\\b|\\boblique\\b|\\bafter the noun\\b|\\bretroflex\\b|\\bdental\\b|\\b(?:un)?aspirated\\b|\\b(?:long|short) vowels?\\b|\\bvowel signs?\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "vowels",
+   "title": "Vowels and vowel signs",
+   "roadmap": "hi-vowels",
+   "deck": "Vowels and vowel signs"
+  },
+  {
+   "id": "consonants",
+   "title": "Consonants 1: k, ch and ṭ rows",
+   "roadmap": "hi-consonants",
+   "deck": "Consonants 1: k, ch and ṭ rows"
+  },
+  {
+   "id": "consonants-2",
+   "title": "Consonants 2: t and p rows, and the rest",
+   "roadmap": "",
+   "deck": "Consonants 2: t and p rows, and the rest"
+  },
+  {
+   "id": "conjuncts",
+   "title": "Conjuncts, nasal dots and reading words",
+   "roadmap": "hi-conjuncts",
+   "deck": "Conjuncts and nasals"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings, आप and तुम",
+   "roadmap": "hi-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "hona",
+   "title": "Pronouns and होना: am, is, are",
+   "roadmap": "hi-hona",
+   "deck": "About me"
+  },
+  {
+   "id": "gender",
+   "title": "Gender and plurals",
+   "roadmap": "hi-gender",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "adjectives",
+   "title": "Adjectives that agree: अच्छा, अच्छे, अच्छी",
+   "roadmap": "hi-adjectives",
+   "deck": "Describing things"
+  },
+  {
+   "id": "questions",
+   "title": "Question words: क्या, कौन, कहाँ, कैसा",
+   "roadmap": "hi-questions",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "negation",
+   "title": "नहीं, न and मत: saying no",
+   "roadmap": "hi-negation",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers 1 to 100, and money",
+   "roadmap": "",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "postpositions",
+   "title": "Postpositions: में, पर, से, को",
+   "roadmap": "hi-postpositions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "oblique",
+   "title": "The oblique form: लड़के को, कमरे में",
+   "roadmap": "hi-oblique",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "possessive",
+   "title": "का / की / के: my, your, whose",
+   "roadmap": "hi-possessive",
+   "deck": "Family and people"
+  },
+  {
+   "id": "family",
+   "title": "Family and respect: मेरे पिताजी",
+   "roadmap": "",
+   "deck": "Family and people"
+  },
+  {
+   "id": "imperative",
+   "title": "Requests and commands: बैठिए, बैठो",
+   "roadmap": "hi-imperative",
+   "deck": "Health and help"
+  },
+  {
+   "id": "like-need",
+   "title": "पसंद, चाहिए: like and need",
+   "roadmap": "hi-like-need",
+   "deck": "Shopping"
+  },
+  {
+   "id": "food",
+   "title": "Ordering food and shopping",
+   "roadmap": "hi-food",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "habitual",
+   "title": "Present habitual: -ता है",
+   "roadmap": "hi-habitual",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "continuous",
+   "title": "Continuous: रहा है",
+   "roadmap": "hi-continuous",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "was",
+   "title": "था, थी, थे: was, and used to",
+   "roadmap": "hi-was",
+   "deck": "About me"
+  },
+  {
+   "id": "have",
+   "title": "Having: मेरे पास, मेरा एक भाई",
+   "roadmap": "hi-have",
+   "deck": "Travel and hotels"
+  },
+  {
+   "id": "infinitive",
+   "title": "The -ना form: want to, have to, should",
+   "roadmap": "hi-infinitive",
+   "deck": "Health and help"
+  },
+  {
+   "id": "past",
+   "title": "Past: completed actions and ने",
+   "roadmap": "hi-past",
+   "deck": "Travel and hotels"
+  },
+  {
+   "id": "future",
+   "title": "Future: -एगा, -एगी",
+   "roadmap": "hi-future",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "conjunctions",
+   "title": "और, लेकिन, क्योंकि: joining ideas",
+   "roadmap": "hi-conjunctions",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "directions",
+   "title": "Directions and travel",
+   "roadmap": "hi-directions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "routine",
+   "title": "Daily routine and time phrases",
+   "roadmap": "hi-routine",
+   "deck": "Time, days and routine"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Vowels and vowel signs",
+   "group": "Script and sounds",
+   "desc": "The 11 vowel letters (अ to औ, with ऋ) and the vowel signs on क: का कि की कु कू के कै (को कौ कॉ in the lesson)"
+  },
+  {
+   "name": "Consonants 1: k, ch and ṭ rows",
+   "group": "Script and sounds",
+   "desc": "क ख ग घ, च छ ज झ, ट ठ ड ढ ण, one letter per card, with aspiration and the retroflex row"
+  },
+  {
+   "name": "Consonants 2: t and p rows, and the rest",
+   "group": "Script and sounds",
+   "desc": "त थ द ध न, प फ ब भ म, य र ल व, श ष स ह, the flaps ड़ ढ़ and the nuqta letters ज़ फ़"
+  },
+  {
+   "name": "Conjuncts and nasals",
+   "group": "Script and sounds",
+   "desc": "Words that show conjuncts (स्त, प्र, क्ष, ज्ञ), the nasal dot, the moon dot and the silent a"
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "नमस्ते, जी, thank you, sorry, goodbye, and आप and तुम"
+  },
+  {
+   "name": "Family and people",
+   "group": "First steps",
+   "desc": "Family members, the respect plural, friends and words for people"
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, where you are from, where you live, work, languages, and your past"
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Numbers to 100, सौ and हज़ार, rupees, and asking the price"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Chai, samosas, dal and roti, ordering, spice levels and paying"
+  },
+  {
+   "name": "Shopping",
+   "group": "Everyday life",
+   "desc": "I like, I need, prices, bargaining a little, sizes and colours"
+  },
+  {
+   "name": "Time, days and routine",
+   "group": "Everyday life",
+   "desc": "Clock time with साढ़े, सवा, पौने, days of the week, and a day in the habitual"
+  },
+  {
+   "name": "Home and daily things",
+   "group": "Everyday life",
+   "desc": "Rooms and objects with their gender, plurals, and what you are doing right now"
+  },
+  {
+   "name": "Describing things",
+   "group": "Everyday life",
+   "desc": "Adjectives that change and ones that do not: big, small, hot, cold, colours"
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Postpositions for places, left and right, auto-rickshaws, the metro and asking the way"
+  },
+  {
+   "name": "Travel and hotels",
+   "group": "Out and about",
+   "desc": "Trains, tickets, hotels, having things, and what you did on a trip"
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Feeling sick, the pharmacy and doctor, polite requests and asking for help"
+  },
+  {
+   "name": "Questions and connectors",
+   "group": "Conversation",
+   "desc": "Question words, क्या questions, and और, लेकिन, क्योंकि, इसलिए"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "False friends, calques, तू, नहीं / मत, कल, and polite-sounding mistakes"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersKeepSpaces": true,
+ "pronAnswersScript": "[\\u0900-\\u097f]",
+ "romaAlmost": true
+}

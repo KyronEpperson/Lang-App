@@ -1,0 +1,300 @@
+{
+ "target": "th",
+ "nameEn": "Thai",
+ "self": "ภาษาไทย",
+ "ttsLang": "th-TH",
+ "brand": "ไทย",
+ "accents": true,
+ "keys": "à â á ǎ è ê é ě ì î í ǐ ò ô ó ǒ ù û ú ǔ",
+ "greet": [
+  [
+   "ฝันดีนะ",
+   "Sweet dreams (you're up late)"
+  ],
+  [
+   "อรุณสวัสดิ์",
+   "Good morning"
+  ],
+  [
+   "สวัสดีตอนบ่าย",
+   "Good afternoon"
+  ],
+  [
+   "สวัสดีตอนเย็น",
+   "Good evening"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?:khr|dtr|bpr|phr|khl|bpl|phl|khw|gr|br|dr|fr|gl|bl|fl|gw|kh|ch|th|ph|ng|bp|dt|g|j|s|y|d|n|b|f|m|r|l|w|h)?(?:(?:[uùûúǔ]uea|[uùûúǔ]ue|[aàâáǎ]ae|[aàâáǎ]aw|[oòôóǒ]oe|[iìîíǐ]ia|[uùûúǔ]ea|[uùûúǔ]ua|[aàâáǎ]a|[iìîíǐ]i|[uùûúǔ]e|[uùûúǔ]u|[eèêéě]e|[aàâáǎ]e|[oòôóǒ]o|[aàâáǎ]w|[oòôóǒ]e|[iìîíǐ]a|[uùûúǔ]a|[aàâáǎ]|[iìîíǐ]|[uùûúǔ]|[eèêéě]|[oòôóǒ])(?:ng|m|n|k|t|p)?|(?:[uùûúǔ]ueai|[aàâáǎ]awi|[uùûúǔ]uai|[oòôóǒ]oei|[aàâáǎ]aeo|[iìîíǐ]iao|[aàâáǎ]ai|[aàâáǎ]ao|[oòôóǒ]oi|[aàâáǎ]wi|[eèêéě]eo|[aàâáǎ]eo|[aàâáǎ]m|[aàâáǎ]i|[aàâáǎ]o|[iìîíǐ]u|[uùûúǔ]i|[eèêéě]o))(?:-(?:khr|dtr|bpr|phr|khl|bpl|phl|khw|gr|br|dr|fr|gl|bl|fl|gw|kh|ch|th|ph|ng|bp|dt|g|j|s|y|d|n|b|f|m|r|l|w|h)?(?:(?:[uùûúǔ]uea|[uùûúǔ]ue|[aàâáǎ]ae|[aàâáǎ]aw|[oòôóǒ]oe|[iìîíǐ]ia|[uùûúǔ]ea|[uùûúǔ]ua|[aàâáǎ]a|[iìîíǐ]i|[uùûúǔ]e|[uùûúǔ]u|[eèêéě]e|[aàâáǎ]e|[oòôóǒ]o|[aàâáǎ]w|[oòôóǒ]e|[iìîíǐ]a|[uùûúǔ]a|[aàâáǎ]|[iìîíǐ]|[uùûúǔ]|[eèêéě]|[oòôóǒ])(?:ng|m|n|k|t|p)?|(?:[uùûúǔ]ueai|[aàâáǎ]awi|[uùûúǔ]uai|[oòôóǒ]oei|[aàâáǎ]aeo|[iìîíǐ]iao|[aàâáǎ]ai|[aàâáǎ]ao|[oòôóǒ]oi|[aàâáǎ]wi|[eèêéě]eo|[aàâáǎ]eo|[aàâáǎ]m|[aàâáǎ]i|[aàâáǎ]o|[iìîíǐ]u|[uùûúǔ]i|[eèêéě]o)))*(?: (?:khr|dtr|bpr|phr|khl|bpl|phl|khw|gr|br|dr|fr|gl|bl|fl|gw|kh|ch|th|ph|ng|bp|dt|g|j|s|y|d|n|b|f|m|r|l|w|h)?(?:(?:[uùûúǔ]uea|[uùûúǔ]ue|[aàâáǎ]ae|[aàâáǎ]aw|[oòôóǒ]oe|[iìîíǐ]ia|[uùûúǔ]ea|[uùûúǔ]ua|[aàâáǎ]a|[iìîíǐ]i|[uùûúǔ]e|[uùûúǔ]u|[eèêéě]e|[aàâáǎ]e|[oòôóǒ]o|[aàâáǎ]w|[oòôóǒ]e|[iìîíǐ]a|[uùûúǔ]a|[aàâáǎ]|[iìîíǐ]|[uùûúǔ]|[eèêéě]|[oòôóǒ])(?:ng|m|n|k|t|p)?|(?:[uùûúǔ]ueai|[aàâáǎ]awi|[uùûúǔ]uai|[oòôóǒ]oei|[aàâáǎ]aeo|[iìîíǐ]iao|[aàâáǎ]ai|[aàâáǎ]ao|[oòôóǒ]oi|[aàâáǎ]wi|[eèêéě]eo|[aàâáǎ]eo|[aàâáǎ]m|[aàâáǎ]i|[aàâáǎ]o|[iìîíǐ]u|[uùûúǔ]i|[eèêéě]o))(?:-(?:khr|dtr|bpr|phr|khl|bpl|phl|khw|gr|br|dr|fr|gl|bl|fl|gw|kh|ch|th|ph|ng|bp|dt|g|j|s|y|d|n|b|f|m|r|l|w|h)?(?:(?:[uùûúǔ]uea|[uùûúǔ]ue|[aàâáǎ]ae|[aàâáǎ]aw|[oòôóǒ]oe|[iìîíǐ]ia|[uùûúǔ]ea|[uùûúǔ]ua|[aàâáǎ]a|[iìîíǐ]i|[uùûúǔ]e|[uùûúǔ]u|[eèêéě]e|[aàâáǎ]e|[oòôóǒ]o|[aàâáǎ]w|[oòôóǒ]e|[iìîíǐ]a|[uùûúǔ]a|[aàâáǎ]|[iìîíǐ]|[uùûúǔ]|[eèêéě]|[oòôóǒ])(?:ng|m|n|k|t|p)?|(?:[uùûúǔ]ueai|[aàâáǎ]awi|[uùûúǔ]uai|[oòôóǒ]oei|[aàâáǎ]aeo|[iìîíǐ]iao|[aàâáǎ]ai|[aàâáǎ]ao|[oòôóǒ]oi|[aàâáǎ]wi|[eèêéě]eo|[aàâáǎ]eo|[aàâáǎ]m|[aàâáǎ]i|[aàâáǎ]o|[iìîíǐ]u|[uùûúǔ]i|[eèêéě]o)))*)*$",
+ "targetScript": "[\\u0E01-\\u0E3A\\u0E40-\\u0E4Eàáâǎèéêěìíîǐòóôǒùúûǔ]",
+ "standingRule": {
+  "keywords": "\\b(?:mid|low|falling|high|rising) tones?\\b|\\btone (?:marks?|rules?)\\b|\\b(?:long|short) vowels?\\b|\\bvowel length\\b|\\bclassifiers?\\b|\\bafter the noun\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "tones",
+   "title": "The five tones",
+   "roadmap": "th-tones",
+   "deck": "Tones and vowel length"
+  },
+  {
+   "id": "sounds",
+   "title": "Sounds: aspiration, long and short vowels",
+   "roadmap": "th-sounds",
+   "deck": "Tones and vowel length"
+  },
+  {
+   "id": "greetings",
+   "title": "Hello, thank you, sorry: ครับ and ค่ะ",
+   "roadmap": "th-greetings",
+   "deck": "Greetings and politeness"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers and money",
+   "roadmap": "th-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "consonants",
+   "title": "Consonants and the three classes",
+   "roadmap": "th-consonants",
+   "deck": "Consonants: mid and high class"
+  },
+  {
+   "id": "vowels",
+   "title": "Vowels and where they sit",
+   "roadmap": "th-vowels",
+   "deck": "Vowels and tone marks"
+  },
+  {
+   "id": "pronouns",
+   "title": "Pronouns and polite particles",
+   "roadmap": "th-pronouns",
+   "deck": "People and family"
+  },
+  {
+   "id": "finals",
+   "title": "Final consonants: live and dead syllables",
+   "roadmap": "th-finals",
+   "deck": "Consonants: low class"
+  },
+  {
+   "id": "pen",
+   "title": "เป็น, คือ, อยู่: is, and is at",
+   "roadmap": "th-pen",
+   "deck": "About me"
+  },
+  {
+   "id": "classifiers",
+   "title": "Classifiers: counting things",
+   "roadmap": "th-classifiers",
+   "deck": "Counting with classifiers"
+  },
+  {
+   "id": "tone-marks",
+   "title": "Tone marks and the tone rules",
+   "roadmap": "th-tone-marks",
+   "deck": "Vowels and tone marks"
+  },
+  {
+   "id": "this-that",
+   "title": "นี้, นั้น, ของ: this, that and whose",
+   "roadmap": "",
+   "deck": "Describing things"
+  },
+  {
+   "id": "mai",
+   "title": "ไม่ and ไหม: not, and yes/no questions",
+   "roadmap": "th-mai",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "clusters",
+   "title": "Clusters and leading consonants",
+   "roadmap": "th-clusters",
+   "deck": "Directions and places"
+  },
+  {
+   "id": "question-words",
+   "title": "Question words stay in place",
+   "roadmap": "th-question-words",
+   "deck": "Questions and requests"
+  },
+  {
+   "id": "special",
+   "title": "Special spellings and reading sentences",
+   "roadmap": "th-special",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "food",
+   "title": "Ordering food and drink",
+   "roadmap": "th-food",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "family",
+   "title": "Family and jobs",
+   "roadmap": "th-family",
+   "deck": "People and family"
+  },
+  {
+   "id": "compare",
+   "title": "Describing and comparing: กว่า, ที่สุด",
+   "roadmap": "th-compare",
+   "deck": "Describing things"
+  },
+  {
+   "id": "time",
+   "title": "Telling time and daily routine",
+   "roadmap": "th-time",
+   "deck": "Time and days"
+  },
+  {
+   "id": "time-words",
+   "title": "Time words: แล้ว, กำลัง, จะ",
+   "roadmap": "th-time-words",
+   "deck": "Time and days"
+  },
+  {
+   "id": "can-want",
+   "title": "ได้ and อยาก: can and want",
+   "roadmap": "th-can-want",
+   "deck": "Getting around"
+  },
+  {
+   "id": "requests",
+   "title": "Asking politely: ขอ, ช่วย, หน่อย",
+   "roadmap": "",
+   "deck": "Questions and requests"
+  },
+  {
+   "id": "directions",
+   "title": "Directions, places and transport",
+   "roadmap": "th-directions",
+   "deck": "Directions and places"
+  },
+  {
+   "id": "shopping",
+   "title": "Shopping: clothes and colors",
+   "roadmap": "th-shopping",
+   "deck": "Shopping and colors"
+  },
+  {
+   "id": "feelings",
+   "title": "Feelings and health",
+   "roadmap": "th-feelings",
+   "deck": "Health and feelings"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Tones and vowel length",
+   "group": "Sounds and script",
+   "desc": "Sets of words that differ only in tone or vowel length: มา / ม้า / หมา, ใกล้ / ไกล, ข้าว / ขาว / เขา."
+  },
+  {
+   "name": "Consonants: mid and high class",
+   "group": "Sounds and script",
+   "desc": "The mid-class and high-class letters, each with its traditional name word (ก ไก่, ข ไข่)."
+  },
+  {
+   "name": "Consonants: low class",
+   "group": "Sounds and script",
+   "desc": "The common low-class letters with their name words, and the sounds they share with high-class letters."
+  },
+  {
+   "name": "Vowels and tone marks",
+   "group": "Sounds and script",
+   "desc": "One short word for each vowel shape and each tone mark."
+  },
+  {
+   "name": "Greetings and politeness",
+   "group": "First steps",
+   "desc": "Hello, thank you, sorry and the polite particles, for male and female speakers."
+  },
+  {
+   "name": "People and family",
+   "group": "First steps",
+   "desc": "Pronouns, kinship terms as \"you\" and \"I\", and family words."
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, country, job, languages: introducing yourself with ชื่อ, เป็น and มาจาก."
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Numbers to a million and prices in baht."
+  },
+  {
+   "name": "Counting with classifiers",
+   "group": "Everyday words",
+   "desc": "Noun + number + classifier for people, animals, books, cups, bottles and more."
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday words",
+   "desc": "Dishes, tastes and the phrases for ordering and paying."
+  },
+  {
+   "name": "Describing things",
+   "group": "Everyday words",
+   "desc": "Describing words after the noun, colors, this and that, and comparisons."
+  },
+  {
+   "name": "Time and days",
+   "group": "Everyday words",
+   "desc": "Days, parts of the day, the Thai clock and time words."
+  },
+  {
+   "name": "Directions and places",
+   "group": "Out and about",
+   "desc": "Places in town and the words for left, right, near and far."
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Taxis, tuk-tuks, the BTS and tickets."
+  },
+  {
+   "name": "Shopping and colors",
+   "group": "Out and about",
+   "desc": "Prices, bargaining politely, clothes and colors."
+  },
+  {
+   "name": "Health and feelings",
+   "group": "Out and about",
+   "desc": "How you feel, what hurts, and the pharmacy."
+  },
+  {
+   "name": "Questions and requests",
+   "group": "Conversation",
+   "desc": "Question words, yes/no questions and polite requests with ขอ and ช่วย."
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "False friends and word-for-word copies: เป็น with describing words, ฝรั่ง, ฟิต, อิ่ม, เผ็ด."
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersKeepSpaces": true,
+ "pronAnswersScript": "[\\u0E01-\\u0E4E]",
+ "romaAlmost": true
+}

@@ -1,0 +1,4 @@
+# EN-RU-2 additions (lessons-2.js: plural … have). Stressed vowel in CAPITALS; phrases settle homographs. Checked against Wiktionary where noted in the writer's report.
+большИе_Окна
+цЕнтр_гОрода
+бОстона

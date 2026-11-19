@@ -1,0 +1,307 @@
+{
+ "target": "ar",
+ "nameEn": "Arabic",
+ "self": "العربية",
+ "ttsLang": "ar-SA",
+ "brand": "عربي",
+ "accents": true,
+ "keys": "ʿ ʾ ā ī ū ḥ ṣ ḍ ṭ ẓ",
+ "greet": [
+  [
+   "لَيْلَة سَعِيدَة",
+   "Good night"
+  ],
+  [
+   "صَبَاح الْخَيْر",
+   "Good morning"
+  ],
+  [
+   "مَرْحَبًا",
+   "Hello"
+  ],
+  [
+   "مَسَاء الْخَيْر",
+   "Good evening"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*(?:^|[ \\-])ʾ)(?!.*(?:aa|ii|uu|āā|īī|ūū|ʾʾ|ʿʿʿ))(?!.*·(?!h))(?!.*(?<![kgstd])·)(?!.*(?:^| )[^aiuāīū ]+(?= |$))(?!.*-(?= |$))(?!.*-[^ ]*-)(?:(?:a|wa|fa|bi|ka|li)(?:l|t|th|d|dh|r|z|s|sh|ṣ|ḍ|ṭ|ẓ|n)-)?(?:[aiuāīūbdfhjklmnqrstwyzḥṣḍṭẓʿʾ]|gh|·)+[?.!,;:]?(?: (?:(?:a|wa|fa|bi|ka|li)(?:l|t|th|d|dh|r|z|s|sh|ṣ|ḍ|ṭ|ẓ|n)-)?(?:[aiuāīūbdfhjklmnqrstwyzḥṣḍṭẓʿʾ]|gh|·)+[?.!,;:]?)*$",
+ "targetScript": "[\\u0600-\\u06FFāīūḥṣḍṭẓʿʾ]",
+ "standingRule": {
+  "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bgender\\b|\\btaa marbuta\\b|\\bthe article\\b|\\b(?:in)?definite\\b|\\bi(?:d|ḍ)(?:a|ā)fa\\b|\\bno ['‘’“”\"]?(?:is|am|are)['‘’“”\"]?(?=[\\s.,:;!)]|$)|\\bsun letters?\\b|\\bmoon letters?\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "letters",
+   "title": "The 28 letters, family by family",
+   "roadmap": "ar-letters",
+   "deck": "Letters 1: alif to sad"
+  },
+  {
+   "id": "sounds",
+   "title": "Throat and heavy sounds",
+   "roadmap": "",
+   "deck": "Sound pairs"
+  },
+  {
+   "id": "vowels",
+   "title": "Short and long vowels",
+   "roadmap": "ar-vowels",
+   "deck": "Vowels and marks"
+  },
+  {
+   "id": "shapes",
+   "title": "Joining letters: start, middle, end",
+   "roadmap": "ar-shapes",
+   "deck": "Letters 2: dad to ya"
+  },
+  {
+   "id": "sukun-shadda",
+   "title": "Sukun and shadda",
+   "roadmap": "ar-sukun-shadda",
+   "deck": "Vowels and marks"
+  },
+  {
+   "id": "hamza",
+   "title": "Hamza, alif maqsura and tanwin",
+   "roadmap": "ar-hamza",
+   "deck": "Vowels and marks"
+  },
+  {
+   "id": "al",
+   "title": "ال: the article, sun and moon letters",
+   "roadmap": "ar-al",
+   "deck": "Vowels and marks"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings and goodbyes",
+   "roadmap": "ar-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "gender",
+   "title": "Masculine and feminine: ة",
+   "roadmap": "ar-gender",
+   "deck": "Family and people"
+  },
+  {
+   "id": "pronouns",
+   "title": "I, you, he, she",
+   "roadmap": "ar-pronouns",
+   "deck": "About me"
+  },
+  {
+   "id": "nominal",
+   "title": "Sentences with no \"is\"",
+   "roadmap": "ar-nominal",
+   "deck": "Describing things"
+  },
+  {
+   "id": "definite",
+   "title": "\"The\" and \"a\": ال and no ال",
+   "roadmap": "ar-definite",
+   "deck": "Home and things"
+  },
+  {
+   "id": "nisba",
+   "title": "Where you're from: -ī and -iyya",
+   "roadmap": "ar-nisba",
+   "deck": "About me"
+  },
+  {
+   "id": "questions",
+   "title": "Question words: ما, من, أين, هل",
+   "roadmap": "ar-questions",
+   "deck": "Spoken Arabic"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers 0 to 100",
+   "roadmap": "ar-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "ordering",
+   "title": "Ordering and paying",
+   "roadmap": "",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "adjectives",
+   "title": "Noun + adjective: agreement",
+   "roadmap": "ar-adjectives",
+   "deck": "Describing things"
+  },
+  {
+   "id": "idafa",
+   "title": "Iḍāfa: the X of Y",
+   "roadmap": "ar-idafa",
+   "deck": "Travel and help"
+  },
+  {
+   "id": "possessive",
+   "title": "My, your, his, her: possessive endings",
+   "roadmap": "ar-possessive",
+   "deck": "Family and people"
+  },
+  {
+   "id": "have",
+   "title": "عند: to have",
+   "roadmap": "ar-have",
+   "deck": "Home and things"
+  },
+  {
+   "id": "plurals",
+   "title": "Plurals: sound and broken",
+   "roadmap": "ar-plurals",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "roots",
+   "title": "Roots and patterns",
+   "roadmap": "ar-roots",
+   "deck": "Daily routine"
+  },
+  {
+   "id": "present",
+   "title": "Present-tense verbs",
+   "roadmap": "ar-present",
+   "deck": "Daily routine"
+  },
+  {
+   "id": "verb-sentences",
+   "title": "Verb sentences and word order",
+   "roadmap": "ar-verb-sentences",
+   "deck": "Daily routine"
+  },
+  {
+   "id": "negation",
+   "title": "Saying no: لا and ليس",
+   "roadmap": "ar-negation",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "adverbs",
+   "title": "Time words and adverbs",
+   "roadmap": "ar-adverbs",
+   "deck": "Time and days"
+  },
+  {
+   "id": "past",
+   "title": "Past-tense verbs",
+   "roadmap": "ar-past",
+   "deck": "Time and days"
+  },
+  {
+   "id": "directions",
+   "title": "Asking for help and directions",
+   "roadmap": "ar-directions",
+   "deck": "Around town and directions"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Letters 1: alif to sad",
+   "group": "Script and sounds",
+   "desc": "The first 14 letters, alif to ṣād, with their sounds and families."
+  },
+  {
+   "name": "Letters 2: dad to ya",
+   "group": "Script and sounds",
+   "desc": "The last 14 letters, ḍād to yāʾ."
+  },
+  {
+   "name": "Vowels and marks",
+   "group": "Script and sounds",
+   "desc": "Short and long vowels, sukun, shadda, tanwin, hamza, ة, ى, and ال with sun and moon letters."
+  },
+  {
+   "name": "Sound pairs",
+   "group": "Script and sounds",
+   "desc": "Words that differ only in a sound English speakers merge: q / k, ṣ / s, ṭ / t, ʿ / ʾ, ḥ / h, kh / ḥ, short / long, single / doubled."
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "Hello, thank you, please, sorry, goodbye: the phrases MSA shares with everyday speech."
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Your name, where you're from, where you live, what you do."
+  },
+  {
+   "name": "Family and people",
+   "group": "First steps",
+   "desc": "Family members and people, with my / your."
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Numbers 0–100, the Eastern Arabic digits, prices and currencies."
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Coffee, tea, food, ordering and paying."
+  },
+  {
+   "name": "Home and things",
+   "group": "Everyday life",
+   "desc": "Rooms and everyday objects; \"I have\"; the and a."
+  },
+  {
+   "name": "Describing things",
+   "group": "Everyday life",
+   "desc": "Adjectives in pairs, with agreement."
+  },
+  {
+   "name": "Daily routine",
+   "group": "Everyday life",
+   "desc": "Everyday verbs in the present, and word families."
+  },
+  {
+   "name": "Time and days",
+   "group": "Everyday life",
+   "desc": "Today, tomorrow, yesterday, days of the week, and the past."
+  },
+  {
+   "name": "Around town and directions",
+   "group": "Out and about",
+   "desc": "Asking the way: where, right, left, near, far."
+  },
+  {
+   "name": "Travel and help",
+   "group": "Out and about",
+   "desc": "Airport, hotel, transport, and asking for help."
+  },
+  {
+   "name": "Spoken Arabic",
+   "group": "Watch out",
+   "desc": "The MSA word, and what you'll hear instead in Egypt and the Levant (recognition only)."
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Watch out",
+   "desc": "Calques, false friends and courtesy traps."
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersKeepSpaces": true,
+ "pronAnswersScript": "[\\u0600-\\u06ff]",
+ "romaAlmost": true
+}

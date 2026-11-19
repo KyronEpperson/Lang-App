@@ -1,0 +1,308 @@
+{
+ "target": "ru",
+ "nameEn": "Russian",
+ "self": "Русский",
+ "ttsLang": "ru-RU",
+ "brand": "Русский",
+ "accents": true,
+ "keys": "",
+ "greet": [
+  [
+   "Доброй ночи",
+   "Good night (late at night)"
+  ],
+  [
+   "Доброе утро",
+   "Good morning"
+  ],
+  [
+   "Добрый день",
+   "Good afternoon"
+  ],
+  [
+   "Добрый вечер",
+   "Good evening"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?:(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*(?:ai|oy|ey|ah|eh|ee|oh|oo|ih)(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*|(?:(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*(?:ai|oy|ey|ah|eh|ee|oh|oo|ih)(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*-)*(?:B'|V'|G'|D'|Z'|K'|L'|M'|N'|P'|R'|S'|T'|F'|SH'|ZH|KH|TS|CH|SH|B|V|G|D|Z|K|L|M|N|P|R|S|T|F|Y)*(?:AI|OY|EY|AH|EH|EE|OH|OO|IH)(?:B'|V'|G'|D'|Z'|K'|L'|M'|N'|P'|R'|S'|T'|F'|SH'|ZH|KH|TS|CH|SH|B|V|G|D|Z|K|L|M|N|P|R|S|T|F|Y)*(?:-(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*(?:ai|oy|ey|ah|eh|ee|oh|oo|ih)(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*)+|(?:(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*(?:ai|oy|ey|ah|eh|ee|oh|oo|ih)(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*-)+(?:B'|V'|G'|D'|Z'|K'|L'|M'|N'|P'|R'|S'|T'|F'|SH'|ZH|KH|TS|CH|SH|B|V|G|D|Z|K|L|M|N|P|R|S|T|F|Y)*(?:AI|OY|EY|AH|EH|EE|OH|OO|IH)(?:B'|V'|G'|D'|Z'|K'|L'|M'|N'|P'|R'|S'|T'|F'|SH'|ZH|KH|TS|CH|SH|B|V|G|D|Z|K|L|M|N|P|R|S|T|F|Y)*|(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)+)(?: (?:(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*(?:ai|oy|ey|ah|eh|ee|oh|oo|ih)(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*|(?:(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*(?:ai|oy|ey|ah|eh|ee|oh|oo|ih)(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*-)*(?:B'|V'|G'|D'|Z'|K'|L'|M'|N'|P'|R'|S'|T'|F'|SH'|ZH|KH|TS|CH|SH|B|V|G|D|Z|K|L|M|N|P|R|S|T|F|Y)*(?:AI|OY|EY|AH|EH|EE|OH|OO|IH)(?:B'|V'|G'|D'|Z'|K'|L'|M'|N'|P'|R'|S'|T'|F'|SH'|ZH|KH|TS|CH|SH|B|V|G|D|Z|K|L|M|N|P|R|S|T|F|Y)*(?:-(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*(?:ai|oy|ey|ah|eh|ee|oh|oo|ih)(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*)+|(?:(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*(?:ai|oy|ey|ah|eh|ee|oh|oo|ih)(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)*-)+(?:B'|V'|G'|D'|Z'|K'|L'|M'|N'|P'|R'|S'|T'|F'|SH'|ZH|KH|TS|CH|SH|B|V|G|D|Z|K|L|M|N|P|R|S|T|F|Y)*(?:AI|OY|EY|AH|EH|EE|OH|OO|IH)(?:B'|V'|G'|D'|Z'|K'|L'|M'|N'|P'|R'|S'|T'|F'|SH'|ZH|KH|TS|CH|SH|B|V|G|D|Z|K|L|M|N|P|R|S|T|F|Y)*|(?:b'|v'|g'|d'|z'|k'|l'|m'|n'|p'|r'|s'|t'|f'|sh'|zh|kh|ts|ch|sh|b|v|g|d|z|k|l|m|n|p|r|s|t|f|y)+))*$",
+ "targetScript": "[А-Яа-яЁё]",
+ "standingRule": {
+  "keywords": "\\b(?:nominative|accusative|genitive|prepositional|dative|instrumental) (?:case|ending|singular|plural)s?\\b|\\bcase endings?\\b|\\b(?:masculine|feminine|neuter|plural) (?:form|ending|agreement)s?\\b|\\bagrees? with\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "alphabet",
+   "title": "Letters 1: familiar shapes and false friends",
+   "roadmap": "ru-alphabet",
+   "deck": "Letters 1: friends and false friends"
+  },
+  {
+   "id": "letters",
+   "title": "Letters 2: new shapes",
+   "roadmap": "",
+   "deck": "Letters 2: new shapes"
+  },
+  {
+   "id": "sounds",
+   "title": "Soft and hard, voiced and voiceless",
+   "roadmap": "ru-sounds",
+   "deck": "Letters 3: soft vowels and hushing sounds"
+  },
+  {
+   "id": "stress",
+   "title": "Stress and vowel reduction",
+   "roadmap": "ru-stress",
+   "deck": "Greetings and politeness"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings: ты and вы",
+   "roadmap": "ru-greetings",
+   "deck": "Formal and informal"
+  },
+  {
+   "id": "eto",
+   "title": "Это: this is, with no 'is'",
+   "roadmap": "ru-eto",
+   "deck": "People and family"
+  },
+  {
+   "id": "intonation",
+   "title": "Intonation: statements and questions",
+   "roadmap": "ru-intonation",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "gender",
+   "title": "Gender of nouns",
+   "roadmap": "ru-gender",
+   "deck": "Home and city"
+  },
+  {
+   "id": "pronouns",
+   "title": "Personal and possessive pronouns",
+   "roadmap": "ru-pronouns",
+   "deck": "People and family"
+  },
+  {
+   "id": "adjectives",
+   "title": "Adjectives agree: новый, новая, новое",
+   "roadmap": "ru-adjectives",
+   "deck": "Describing people and things"
+  },
+  {
+   "id": "plural",
+   "title": "Plurals",
+   "roadmap": "ru-plural",
+   "deck": "Shopping and things"
+  },
+  {
+   "id": "present",
+   "title": "Present tense: two conjugations",
+   "roadmap": "ru-present",
+   "deck": "Daily routine"
+  },
+  {
+   "id": "questions",
+   "title": "Question words: кто, что, где",
+   "roadmap": "ru-questions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "negation",
+   "title": "не and нет",
+   "roadmap": "ru-negation",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers and prices",
+   "roadmap": "ru-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "prepositional",
+   "title": "Prepositional: where, about",
+   "roadmap": "ru-prepositional",
+   "deck": "Home and city"
+  },
+  {
+   "id": "accusative",
+   "title": "Accusative: objects and direction",
+   "roadmap": "ru-accusative",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "genitive",
+   "title": "Genitive: of, without, how many",
+   "roadmap": "ru-genitive",
+   "deck": "Shopping and things"
+  },
+  {
+   "id": "have",
+   "title": "У меня есть: to have",
+   "roadmap": "ru-have",
+   "deck": "People and family"
+  },
+  {
+   "id": "past",
+   "title": "Past tense: был, была, было",
+   "roadmap": "ru-past",
+   "deck": "Daily routine"
+  },
+  {
+   "id": "dative",
+   "title": "Dative: to whom, age, likes",
+   "roadmap": "ru-dative",
+   "deck": "Likes and feelings"
+  },
+  {
+   "id": "instrumental",
+   "title": "Instrumental: with, and jobs",
+   "roadmap": "ru-instrumental",
+   "deck": "Work and study"
+  },
+  {
+   "id": "future",
+   "title": "Future tense",
+   "roadmap": "ru-future",
+   "deck": "Time and days"
+  },
+  {
+   "id": "aspect",
+   "title": "Aspect: imperfective and perfective",
+   "roadmap": "ru-aspect",
+   "deck": "Work and study"
+  },
+  {
+   "id": "motion",
+   "title": "Going on foot and by transport: идти, ехать",
+   "roadmap": "ru-motion",
+   "deck": "Getting around"
+  },
+  {
+   "id": "imperative",
+   "title": "Imperative: please do",
+   "roadmap": "ru-imperative",
+   "deck": "Health and help"
+  },
+  {
+   "id": "connectors",
+   "title": "и, а, но, потому что",
+   "roadmap": "ru-connectors",
+   "deck": "Likes and feelings"
+  },
+  {
+   "id": "time",
+   "title": "Time, days and dates",
+   "roadmap": "ru-time",
+   "deck": "Time and days"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Letters 1: friends and false friends",
+   "group": "Letters and sounds",
+   "desc": "One key word per letter for А К М О Т (look and sound as in English) and В Е Н Р С У Х (look English, sound different), plus first words made only from them"
+  },
+  {
+   "name": "Letters 2: new shapes",
+   "group": "Letters and sounds",
+   "desc": "One key word per letter for Б Г Д З И Й Л П Ф Э Ы, plus words that use them"
+  },
+  {
+   "name": "Letters 3: soft vowels and hushing sounds",
+   "group": "Letters and sounds",
+   "desc": "Я Ё Ю, Ж Ш Щ Ч Ц, the soft sign ь and the hard sign ъ, each in a key word, plus hard and soft pairs"
+  },
+  {
+   "name": "Greetings and politeness",
+   "group": "First steps",
+   "desc": "Hello, goodbye, please, thank you, sorry, and the phrases that keep a conversation polite"
+  },
+  {
+   "name": "Formal and informal",
+   "group": "First steps",
+   "desc": "The same idea said to a stranger (вы) and to a friend (ты): greetings, questions, requests"
+  },
+  {
+   "name": "People and family",
+   "group": "First steps",
+   "desc": "Family members, friends, and the words for introducing them"
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Numbers to a thousand, rubles, prices and paying"
+  },
+  {
+   "name": "Time and days",
+   "group": "First steps",
+   "desc": "Days of the week, today and tomorrow, clock times and months"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Ordering, Russian dishes, drinks, and what to say at the table"
+  },
+  {
+   "name": "Shopping and things",
+   "group": "Everyday life",
+   "desc": "Things you buy and carry, shops, and asking for them"
+  },
+  {
+   "name": "Home and city",
+   "group": "Everyday life",
+   "desc": "Rooms, buildings and places in town, with where things are"
+  },
+  {
+   "name": "Daily routine",
+   "group": "Everyday life",
+   "desc": "Everyday verbs in the present and past: get up, work, eat, read, sleep"
+  },
+  {
+   "name": "Describing people and things",
+   "group": "Everyday life",
+   "desc": "Adjectives for size, age, colour and quality, in all three genders"
+  },
+  {
+   "name": "Work and study",
+   "group": "Everyday life",
+   "desc": "Jobs, studying, and saying what you do and where"
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Directions, transport, and asking the way"
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Asking for help, at the pharmacy and the doctor, and polite commands"
+  },
+  {
+   "name": "Likes and feelings",
+   "group": "Out and about",
+   "desc": "Likes, wants, feelings and reasons: мне нравится, мне холодно, потому что"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Watch out",
+   "desc": "False friends, calques of English, and replies that sound wrong in Russian"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true
+}
