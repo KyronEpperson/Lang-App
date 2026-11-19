@@ -7,10 +7,22 @@
  "accents": true,
  "keys": "ँ ं ़ ्",
  "greet": [
-  "नमस्ते",
-  "नमस्ते",
-  "नमस्ते",
-  "नमस्ते"
+  [
+   "नमस्ते",
+   "Hello"
+  ],
+  [
+   "नमस्ते",
+   "Hello"
+  ],
+  [
+   "नमस्ते",
+   "Hello"
+  ],
+  [
+   "नमस्ते",
+   "Hello"
+  ]
  ],
  "pron": "required",
  "pronPattern": "^(?!.*(?:aa|ii|uu|ee|c(?!c?h)|[^āīū]\\u0303|^\\u0303))[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+(?:-[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+)*[.,?!:;]?(?: [abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+(?:-[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵŏãĩũẽõ\\u0303]+)*[.,?!:;]?)*$",

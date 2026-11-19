@@ -14,5 +14,13 @@
  "yue": {
   "voice": "zh-HK-HiuMaanNeural",
   "locale": "zh-HK"
+ },
+ "ur": {
+  "voice": "ur-PK-UzmaNeural",
+  "locale": "ur-PK"
+ },
+ "pa": {
+  "voice": "pa-IN-VaaniNeural",
+  "locale": "pa-IN"
  }
 }

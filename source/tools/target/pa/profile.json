@@ -35,6 +35,12 @@
  },
  "lessons": [
   {
+   "id": "vowels",
+   "title": "Vowel letters and vowel signs",
+   "roadmap": "pa-vowels",
+   "deck": "Vowel signs"
+  },
+  {
    "id": "letters-1",
    "title": "Letters 1: the k and ch rows",
    "roadmap": "pa-letters-1",
@@ -45,12 +51,6 @@
    "title": "Letters 2: retroflex and dental, the p row and the rest",
    "roadmap": "pa-letters-2",
    "deck": "Letters 2: ṭ, t and p rows, and the rest"
-  },
-  {
-   "id": "vowels",
-   "title": "Vowel signs",
-   "roadmap": "pa-vowels",
-   "deck": "Vowel signs"
   },
   {
    "id": "nasal",
@@ -199,19 +199,19 @@
  ],
  "decks": [
   {
+   "name": "Vowel signs",
+   "group": "Script and sounds",
+   "desc": "The ten vowel letters (ਅ ਆ ਇ ਈ ਉ ਊ ਏ ਐ ਓ ਔ) and eight vowel signs on ਕ (ਕਾ ਕਿ ਕੀ ਕੁ ਕੂ ਕੇ ਕੈ ਕੌ); ੳ ੲ and ਕੋ in the lesson"
+  },
+  {
    "name": "Letters 1: k and ch rows",
    "group": "Script and sounds",
-   "desc": "ੳ ਅ ੲ, ਸ ਹ, ਕ ਖ ਗ ਘ, ਚ ਛ ਜ ਝ, one letter per card, with aspiration and the tonal letters ਘ ਝ"
+   "desc": "ਸ ਹ, ਕ ਖ ਗ ਘ, ਚ ਛ ਜ ਝ, one letter per card, with aspiration and the tonal letters ਘ ਝ; ਙ ਞ in the lesson only"
   },
   {
    "name": "Letters 2: ṭ, t and p rows, and the rest",
    "group": "Script and sounds",
    "desc": "ਟ ਠ ਡ ਢ ਣ against ਤ ਥ ਦ ਧ ਨ, ਪ ਫ ਬ ਭ ਮ, ਯ ਰ ਲ ਵ ੜ"
-  },
-  {
-   "name": "Vowel signs",
-   "group": "Script and sounds",
-   "desc": "The vowel letters and the vowel signs on ਕ: ਕਾ ਕਿ ਕੀ ਕੁ ਕੂ ਕੇ ਕੈ ਕੋ ਕੌ"
   },
   {
    "name": "Tippi, bindi and addak",

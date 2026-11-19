@@ -1107,3 +1107,9 @@ Ship Urdu for English speakers (en-ur) after the cold review.
 
 ### 2.42.0 — results
 28 lessons, 18 decks, 320 cards, 392 practice items; validate PASS; roadmap 27 items linked; e2e OK on thirteen lessons; matching test (script, Arabic-keyboard letters, vowel marks, Roman Urdu folds) passes. Lexicon-based pron tool: 19 of 615 word forms checked against Rekhta. No Urdu voice on iPhone until clips are recorded. Not native-checked (REVIEW.md).
+
+## 2.42.1 — prompt
+Fix the Hindi home greeting (found by the Punjabi profile agent) and add the Punjabi engine groundwork.
+
+### 2.42.1 — results
+en-hi stored its greetings as plain strings while the app reads pairs, so the home screen greeted with the first two characters of नमस्ते; now pairs (नमस्ते / Hello), browser-checked. Engine: Gurmukhi matcher (paNorm / paSlip: carrier + vowel sign exact; bindi / tippi, missing addak or dot = almost), font stack for lang=pa, danda stripped in the validator; Punjabi and Urdu matching tests pass. Harness 84 guards.

@@ -25,7 +25,7 @@
    and a final stop (ਦੋਸਤ dost; but ਵਕਤ vakat). ੍ਹ belongs to its consonant (ਪੜ੍ਹਨਾ is paṛh-nā).
    EXC overrides whole words; VER lists words whose output agrees with a named source or was checked by hand; DEC lists frequent words
    whose output is this profile's decision, pending the native check (§11). Words outside all three get a warning «…» at the weak spots
-   (classes A and S, a medial tonal letter after a closed syllable, two tonal letters, a ਹ after a consonant, two deletable a
+   (classes A and S, two tonal letters (only the first is marked), a ਹ after a consonant, two deletable a
    in a row, a final a after a cluster, bindi on a long vowel before a stop). It throws «…» on anything that is not Gurmukhi text
    (Latin letters, digits, ੴ, visarga, a vowel sign with no consonant, ੱ with nothing after it, a bare ੳ or ੲ).
    respell(text, {notone: true}) gives the same romanisation without accents (for checks; the matcher already ignores accents).
@@ -38,6 +38,8 @@ let warned = [];
 const EXC = {
   'ਸਤਿ': 'sat',            /* the religious spelling of ਸਤ in ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ: the ਿ is not said */
   'ਆਂਟੀ': 'āṇṭī', 'ਥੈਂਕ': 'thaink', 'ਥੈਂਕਸ': 'thainks',   /* English loans: bindi before a stop is a real n */
+  'ਹਰਪ੍ਰੀਤ': 'harprīt', 'ਗੁਰਪ੍ਰੀਤ': 'gurprīt', 'ਜਸਪ੍ਰੀਤ': 'jasprīt', 'ਮਨਪ੍ਰੀਤ': 'manprīt',   /* names: compound + ਪ੍ਰੀਤ, the a before the cluster goes */
+  'ਸਾਹਮਣੇ': 'sā́hmṇe',      /* the a after a silent ਹ goes too */
 };
 /* output agrees with a named source (profile §6.1, test set 3), or was checked by hand (schwa and nasal cases) */
 const VER = new Set(`
@@ -46,7 +48,7 @@ const VER = new Set(`
 `.split(/\s+/).filter(Boolean));
 /* frequent words whose tone is this profile's decision (no source either way, or sources that disagree): no warning, native check first */
 const DEC = new Set(`
-ਨਹੀਂ ਰਹੀ ਰਹੇ ਰਿਹਾ ਕਿਹਾ ਰਹੀਆਂ ਸਿੱਧਾ ਸਿੱਧੇ ਅੱਧਾ ਠੰਢਾ ਠੰਢੀ ਠੰਢੇ ਬੁੱਢਾ ਸਮਝਦਾ ਸਮਝਦੀ
+ਨਹੀਂ ਰਹੀ ਰਹੇ ਰਿਹਾ ਕਿਹਾ ਰਹੀਆਂ
 `.split(/\s+/).filter(Boolean));
 (function lexfile() { const f = path.join(__dirname, 'lexicon.txt'); if (!fs.existsSync(f)) return;
   fs.readFileSync(f, 'utf8').split(/[;\n]/).map(s => s.trim()).filter(Boolean).forEach(e => { const i = e.indexOf(' '); if (i < 1) throw new Error('bad lexicon entry «' + e + '»'); EXC[e.slice(0, i).normalize('NFC')] = e.slice(i + 1).trim().normalize('NFC'); }); })();
@@ -152,7 +154,8 @@ const tonal = s => s.t === 'C' && (VA[s.r] || s.r === 'h' || s.subH);
    S short open vowel before a vowel that is not ā. */
 function tone(seg) {
   const notes = [];
-  const setT = (vi, t) => { const v = seg[vi]; if (v.tone && v.tone !== t) notes.push('two tones on one vowel'); if (!v.tone) v.tone = t; };
+  /* one accent per word (pronPattern bans two): the first tonal event wins, later ones only warn (ਘੰਟਾਘਰ, ਘਬਰਾਹਟ) */
+  const setT = (vi, t) => { if (seg.some(x => x.tone)) { notes.push('second tonal letter left unmarked'); return; } seg[vi].tone = t; };
   let events = 0;
   for (let e = 0; e < seg.length; e++) {
     const C = seg[e]; if (!tonal(C) || C.dup) continue;
@@ -177,7 +180,7 @@ function tone(seg) {
     const heavyBefore = LONG.includes(V1.r) || !adj || (seg[e - 1] && seg[e - 1].dup) || nasalCons(seg, v1);
     if (coda || heavyBefore) {                              /* C: the letter closes the syllable, or the vowel before is long or closed */
       setT(v1, 'H');
-      if (!coda && !LONG.includes(V1.r)) notes.push('medial tonal letter after a closed syllable (high here; one source says level)');
+      /* a medial letter after a closed syllable (ਅੱਧਾ, ਸੰਘਣਾ): MSU calls it level, Wikibooks high; class decision: high, no warning (§6.1, §11) */
       if (plainH && !adj && !coda) notes.push('ਹ after a consonant');
       continue;
     }

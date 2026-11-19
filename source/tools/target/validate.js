@@ -7,7 +7,7 @@ const ctx = { LANGAPP_PACKS: { course: {}, i18n: {} } }; ctx.window = ctx; vm.cr
 const bad = [], warn = []; const ok = (c, m) => { if (!c) bad.push(m); };
 if (!C) { console.log('FAIL: no en-' + T + ' course in ' + FILE); process.exit(1); }
 const TS = new RegExp(P.targetScript, 'u'); const PRON = P.pronPattern ? new RegExp(P.pronPattern, 'u') : null; const KW = new RegExp(P.standingRule.keywords, P.standingRule.flags || 'i');
-const pn = s => String(s).normalize('NFC').toLowerCase().replace(/[’‘`´ʼ]/g, "'").replace(/[.,!?~…。、！？，．～¿¡۔]/g, '').replace(/["“”«»「」『』]/g, '').replace(/\s+/g, ' ').trim();
+const pn = s => String(s).normalize('NFC').toLowerCase().replace(/[’‘`´ʼ]/g, "'").replace(/[.,!?~…。、！？，．～¿¡۔।]/g, '').replace(/["“”«»「」『』]/g, '').replace(/\s+/g, ' ').trim();
 const fold = s => String(s).normalize('NFC').replace(/ñ/g, '\u0001').replace(/й/g, '\u0002').replace(/ё/g, '\u0003').replace(/Й/g, '\u0004').replace(/Ё/g, '\u0005').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\u0001/g, 'ñ').replace(/\u0002/g, 'й').replace(/\u0003/g, 'ё').replace(/\u0004/g, 'Й').replace(/\u0005/g, 'Ё').replace(/[đĐ]/g, 'd').normalize('NFC'); /* ñ is its own letter */
 const invisible = /[​-‏‪-‮⁦-⁩﻿]/;
 /* decks */
