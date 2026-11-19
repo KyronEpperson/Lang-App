@@ -56,5 +56,160 @@ module.exports = [
       ["ty", "I want to go to Bohol", "Gusto ko moadto sa Bohol.|Gusto kong moadto sa Bohol.|Gusto nako moadto sa Bohol.|Gusto nakong moadto sa Bohol.", "gusto · adto · Bohol", "niadto", "ko goes in second place after gusto, and the verb takes mo- with no word for 'to'."],
       ["ty", "Do you like lechon? (lechon = litson)", "Ganahan ka og litson?|Ganahan ikaw og litson?|Ganahan ba ka og litson?|Ganahan ka ba og litson?", "ganahan · litson", "mo", "ganahan takes the ako-set: ka goes in second place, right after ganahan."]
     ]
+  },
+  {
+    id: "requests",
+    title: "Asking politely: palihug and the command form",
+    blurb: "Ask people to do things and to give you things, politely, the way Cebuanos soften a request.",
+    deck: "Health and help",
+    body: `
+<p>English softens a request with "please", "could you" and "just a second". Cebuano has its own tools: <b>palihug</b> (please), a short command form, and small softening words. A bare command with none of these sounds rough, even to a friend.</p>
+<h3>The command form: just the root</h3>
+<p>To ask someone to do something, use the bare root of the verb, with no <b>mo-</b> and no "you". Put <b>palihug</b> in front.</p>
+{{ex:Palihug lingkod.|pah-LEE-hoog LEENG-kohd|Please sit down.}}
+{{ex:Palihug hulat.|pah-LEE-hoog hoo-LAHT|Please wait.}}
+<h3>Softeners: lang and sa</h3>
+<p><b>lang</b> means "just". After a command it makes it gentle, like English "just a moment". <b>sa</b> here is short for <b>usa</b>, "first, for a bit". This is not the <b>sa</b> that means "at" or "to": it comes right after the first word.</p>
+{{ex:Hulat lang, Nong.|hoo-LAHT lahng nohng|Just a moment, sir.}}
+{{ex:Lingkod sa.|LEENG-kohd sah|Sit down for a bit.}}
+<p>Like the other small words, these go in second place: <b>Hulat lang</b>, never <b>Lang hulat</b>. You will also hear <b>unta</b>, "hopefully", softening a wish.</p>
+<h3>Asking for things</h3>
+<p>For "Can I have…?", the simplest way is <b>Palihug ko og…</b>, literally "please me some…". Another is <b>Tagai ko og…</b>, "give me some…". Here <b>ko</b> means "me".</p>
+{{ex:Palihug ko og tubig.|pah-LEE-hoog koh ohg TOO-beeg|Some water, please.}}
+{{ex:Tagai ko og tubig.|tah-gah-ee koh ohg TOO-beeg|Give me some water.}}
+<h3>May I…?</h3>
+<p><b>Pwede</b> (from Spanish) means "possible, allowed". <b>Pwede ko…?</b> is "May I…?", and <b>Pwede ba?</b> on its own is "Is that OK?"</p>
+{{ex:Pwede ko mangutana?|pweh-deh koh mah-ngoo-tah-nah|May I ask something?}}
+{{ex:Pwede ba?|pweh-deh bah|Is that OK?}}
+<h3>Don't: ayaw</h3>
+<p>You met <b>ayaw</b> in the last lesson. The most useful phrase with it is a kind one.</p>
+{{ex:Ayaw kabalaka.|ah-YOW kah-bah-lah-kah|Don't worry.}}
+<h3>No po</h3>
+<p>Tagalog puts <b>po</b> in polite sentences. Cebuano does not use it at all. Respect comes from <b>palihug</b>, <b>salamat</b> and a title such as <b>Nong</b> or <b>Nang</b>.</p>
+<div class="tip"><b>Most common mistake:</b> a bare command, or Tagalog politeness. <b>Hulat po.</b> → <b>Hulat lang, Nong.</b> or <b>Palihug hulat.</b></div>
+`,
+    check: [
+      ["You want a jeepney driver (an older man) to wait a moment. Which is most polite?", ["Hulat!", "Hulat lang, Nong.", "Hulat po.", "Lang hulat, Nong."], 1, "lang softens the command and Nong shows respect; Cebuano has no po."],
+      ["What does 'Palihug ko og tubig' mean?", ["Some water, please.", "I am water, please.", "My water, please.", "I'll get some water."], 0, "Palihug ko og… is the everyday way to ask for something: 'please me some…'."],
+      ["Which word begins 'Don't worry': '__ kabalaka'?", ["Dili", "Wala", "Ayaw", "Palihug"], 2, "ayaw tells someone not to do something: Ayaw kabalaka."]
+    ],
+    practice: [
+      ["mc", "The polite way to ask someone to sit down:", "Palihug lingkod.", "Lingkod po.", "Ka lingkod palihug.", "Lingkod!", "palihug plus the bare root is a polite command; a bare root alone sounds rough."],
+      ["mc", "At a friend's house, you want some water. You say:", "Palihug ko og tubig.", "Tubig po.", "Palihug tubig ko.", "Ko palihug og tubig.", "Palihug ko og… asks for something; tubig ko would mean 'my water'."],
+      ["mc", "What does lang add in 'Hulat lang'?", "It softens it: 'just a moment'", "It turns it into a question", "It means 'not'", "It means 'later'", "lang means 'just' and makes a command gentle."],
+      ["mc", "Tagalog adds po to be polite. In Cebuano you…", "leave po out and use palihug, salamat or a title", "add po at the end", "add po after the first word", "say opo instead", "Cebuano has no po; politeness comes from palihug, salamat and titles."],
+      ["mc", "'Don't worry' =", "Ayaw kabalaka.", "Dili kabalaka.", "Wala kabalaka.", "Palihug kabalaka.", "ayaw tells someone not to do something; dili and wala describe."],
+      ["or", "Just a moment (wait)", "Hulat lang", "po", "lang is a small word that goes in second place, after the root: Hulat lang."],
+      ["or", "May I ask something? (use pwede)", "Pwede ko mangutana", "sa", "The short pronoun ko goes in second place, right after pwede."],
+      ["or", "Give me some water (use tagai)", "Tagai ko og tubig", "si", "ko goes in second place, right after tagai; og comes before the water."],
+      ["fi", "Hulat __, Nong.", "Just a moment, sir.", "lang", "po|dili|wala", "lang softens a command: Hulat lang. Cebuano has no po."],
+      ["fi", "__ kabalaka.", "Don't worry.", "Ayaw", "Dili|Wala|Palihug", "ayaw is the 'don't' you say to someone else."],
+      ["fi", "Palihug ko __ tubig.", "Some water, please.", "og", "si|ni|nga", "og comes before a thing you ask for when it is not one particular thing."],
+      ["ty", "Please sit down", "Palihug lingkod.|Lingkod palihug.|Palihug lingkod lang.", "palihug · lingkod (sit)", "po", "palihug plus the bare root makes a polite command."],
+      ["ty", "May I ask something? (use pwede)", "Pwede ko mangutana?|Pwede ako mangutana?|Pwede kong mangutana?|Pwede ba ko mangutana?", "pwede · mangutana (ask)", "nako", "The short pronoun ko goes in second place, right after pwede."],
+      ["ty", "Give me some water (use tagai)", "Tagai ko og tubig.|Tagai ako og tubig.|Tagai ko og tubig palihug.|Palihug tagai ko og tubig.", "tagai · tubig", "akong", "ko goes in second place, right after tagai, and og comes before the water."]
+    ]
+  },
+  {
+    id: "food",
+    title: "Ordering food",
+    blurb: "Order at a carinderia, ask what they have, say the food is good, and ask for the total.",
+    deck: "Food and drink",
+    body: `
+<p>A carinderia (<b>karinderya</b>) is a small eatery where the day's dishes sit in pots on the counter. You look, point and order. Everything in this lesson uses words you already know: numbers with <b>ka</b>, <b>naa</b>, <b>palihug</b> and the short pronouns.</p>
+<h3>Ordering: usa ka…</h3>
+<p>English says "one soup". Cebuano joins the number to the food with <b>ka</b>, just as in <b>duha ka saging</b>. Use the Cebuano numbers here, not the Spanish ones you use for prices.</p>
+{{ex:Palihug, usa ka sabaw.|pah-LEE-hoog oo-SAH kah sah-BOW|One soup, please.}}
+{{ex:Duha ka kan-on, palihug.|doo-HAH kah kahn-ohn pah-LEE-hoog|Two rice, please.}}
+<p>Rice is the center of every meal. <b>kan-on</b> is cooked rice; the hyphen marks a catch. Uncooked rice in the market is <b>bugas</b>. Whatever you eat with your rice (meat, fish, vegetables) is the <b>sud-an</b>. If you don't know a dish's name, point at the pot and say <b>Kini, palihug</b>: "This one, please".</p>
+<h3>Asking what they have</h3>
+<p>Two useful questions. <b>Unsa inyong naa?</b> is "What do you have?"; learn it as a whole. For one dish, use <b>naa</b> with <b>ba</b> and <b>moy</b> (you all + <b>og</b>), as you did with water.</p>
+{{ex:Unsa inyong naa?|oon-sah een-yohng nah-ah|What do you have?}}
+{{ex:Naa ba moy isda?|nah-ah bah moy ees-dah|Do you have fish?}}
+<div class="tbl"><table><tr><th>Cebuano</th><th>English</th></tr><tr><td class="k">manok</td><td>chicken</td></tr><tr><td class="k">baboy</td><td>pork</td></tr><tr><td class="k">isda</td><td>fish</td></tr><tr><td class="k">litson</td><td>lechon (roast pig)</td></tr><tr><td class="k">sabaw</td><td>soup, broth</td></tr></table></div>
+<h3>It's good!</h3>
+<p><b>Lami</b> means "tasty". Like every describing word, it comes first. Add <b>kaayo</b> after it for "really".</p>
+{{ex:Lami kaayo!|lah-mee kah-AH-yoh|It's really good!}}
+{{ex:Lami kaayo ang litson.|lah-mee kah-AH-yoh ahng lee-chohn|The lechon is really good.}}
+<p>When your host offers more and you cannot eat another bite, say you are full. <b>na</b> means "already".</p>
+{{ex:Busog na ko.|boo-SOHG nah koh|I'm full.}}
+<h3>Paying</h3>
+<p>Ask for the total with <b>Pila tanan?</b> The answer comes in Spanish numbers, as all prices do: <b>singkuwenta pesos</b>, <b>siyen</b>. Then say <b>Salamat</b> on your way out.</p>
+{{ex:Pila tanan?|pee-lah tah-NAHN|How much altogether?}}
+<div class="tip"><b>Most common mistake:</b> ordering without <b>ka</b>. <b>Usa sabaw</b> → <b>Usa ka sabaw</b>.</div>
+`,
+    check: [
+      ["How do you order one soup?", ["Usa sabaw.", "Palihug, usa ka sabaw.", "Uno ka sabaw.", "Sabaw usa ka."], 1, "A Cebuano number joins the food with ka: usa ka sabaw."],
+      ["What is kan-on?", ["cooked rice", "uncooked rice", "soup", "bread"], 0, "kan-on is cooked rice; uncooked rice is bugas."],
+      ["Your host offers more food and you've had enough. You say:", ["Gigutom ko.", "Lami ko.", "Busog na ko.", "Ayaw ko."], 2, "Busog na ko: 'I'm full (already)'."]
+    ],
+    practice: [
+      ["mc", "'One soup, please' =", "Palihug, usa ka sabaw.", "Palihug, usa sabaw.", "Palihug, sabaw usa.", "Palihug, uno ka sabaw.", "Count dishes with a Cebuano number and ka: usa ka sabaw."],
+      ["mc", "kan-on is…", "cooked rice", "uncooked rice", "soup", "fish", "kan-on is cooked rice; uncooked rice is bugas."],
+      ["mc", "sud-an is…", "the dish you eat with rice", "dessert", "a drink", "the bill", "sud-an is whatever you eat with your rice: meat, fish or vegetables."],
+      ["mc", "You've had enough to eat. You say:", "Busog na ko.", "Gigutom ko.", "Lami ko.", "Ako busog na.", "Busog na ko: busog first, then na and ko."],
+      ["mc", "To ask the price of everything you ate:", "Pila tanan?", "Unsa tanan?", "Kinsa tanan?", "Asa tanan?", "pila asks 'how much'; tanan means 'all'."],
+      ["or", "I'm full", "Busog na ko", "akong", "The main word comes first and the short pronoun ko follows na: Busog na ko."],
+      ["or", "Do you have fish? (to the cook, use naa)", "Naa ba moy isda", "nimo", "naa comes first; ba and the short pronoun mo follow it, and mo joins og as moy."],
+      ["or", "one coffee", "usa ka kape", "uno", "Count with a Cebuano number and ka: usa ka kape."],
+      ["fi", "Palihug, usa __ sabaw.", "One soup, please.", "ka", "nga|sa|og", "ka joins a Cebuano number to the food: usa ka sabaw."],
+      ["fi", "Lami __!", "It's really good!", "kaayo", "ayaw|wala|ka", "kaayo after a describing word means 'really, very'."],
+      ["fi", "Busog __ ko.", "I'm full (already).", "na", "pa|ba|og", "na means 'already': Busog na ko."],
+      ["ty", "Two rice, please", "Duha ka kan-on, palihug.|Palihug, duha ka kan-on.|Duha ka kan-on.", "duha · kan-on (cooked rice)", "dos", "Count with a Cebuano number and ka: duha ka kan-on."],
+      ["ty", "I want soup (use gusto)", "Gusto ko og sabaw.|Gusto nako og sabaw.", "gusto · sabaw", "ako", "The short pronoun ko goes in second place after gusto, and og comes before the soup."],
+      ["ty", "The lechon is really good", "Lami kaayo ang litson.|Lami gyud ang litson.", "lami · kaayo · litson", "si", "The main word comes first, then ang and the food: Lami kaayo ang litson."]
+    ]
+  },
+  {
+    id: "places",
+    title: "Where things are: asa, diri, diha, didto",
+    blurb: "Ask where a place is, say where things and people are, and use the right word for here and there.",
+    deck: "Places and directions",
+    body: `
+<p>English gets by with "here" and "there". Cebuano splits "there" in two, exactly as it splits "that" into <b>kana</b> and <b>kadto</b>.</p>
+<h3>Asking where: Asa ang…?</h3>
+<p>The question word comes first, then <b>ang</b> and the place.</p>
+{{ex:Asa ang kasilyas?|ah-sah ahng kah-seel-yahs|Where's the restroom?}}
+{{ex:Asa ang merkado?|ah-sah ahng mehr-kah-doh|Where's the market?}}
+<p>In Cebu people also say "CR" (comfort room) for the restroom. Some places you will ask about:</p>
+<div class="tbl"><table><tr><th>Cebuano</th><th>English</th></tr><tr><td class="k">simbahan</td><td>church</td></tr><tr><td class="k">merkado</td><td>market</td></tr><tr><td class="k">botika</td><td>pharmacy</td></tr><tr><td class="k">eskuwelahan</td><td>school</td></tr><tr><td class="k">karinderya</td><td>small eatery</td></tr></table></div>
+<h3>Saying where: naa sa…</h3>
+<p><b>naa</b>, which you know as "there is", also means "is at". Put <b>sa</b> before the place. One small word, <b>sa</b>, covers English "at", "in" and "to", so you never have to choose between them. When everyone knows what you are talking about, <b>naa</b> and the place are enough.</p>
+{{ex:Naa sa merkado.|nah-ah sah mehr-kah-doh|It's at the market.}}
+{{ex:Naa si Pedro sa simbahan.|nah-ah see peh-droh sah seem-bah-hahn|Pedro is at the church.}}
+{{ex:Moadto ko sa botika.|moh-ahd-toh koh sah boh-tee-kah|I'm going to the pharmacy.}}
+<h3>Here, there, over there</h3>
+<div class="tbl"><table><tr><th>Cebuano</th><th>Means</th><th>Like</th></tr><tr><td class="k">diri, dinhi</td><td>here, near me</td><td class="k">kini</td></tr><tr><td class="k">diha</td><td>there, near you</td><td class="k">kana</td></tr><tr><td class="k">didto</td><td>over there, far from us both</td><td class="k">kadto</td></tr></table></div>
+<p><b>diri</b> and <b>dinhi</b> mean the same; you will hear both. Choose between <b>diha</b> and <b>didto</b> the way you choose between <b>kana</b> and <b>kadto</b>: is the place near the person you are talking to, or away from you both?</p>
+{{ex:Naa ko diri.|nah-ah koh dee-REE|I'm here.}}
+{{ex:Naa diha ang tubig.|nah-ah dee-HAHQ ahng TOO-beeg|The water is there, by you.}}
+{{ex:Didto ang simbahan.|deed-toh ahng seem-bah-hahn|The church is over there.}}
+<p>The short pronoun still takes second place: <b>Naa ko diri</b>, "there-is I here".</p>
+<h3>Which one? Hain</h3>
+<p><b>Hain</b> asks "which one?" or "where?" when you expect someone to point. Both <b>asa</b> and <b>hain</b> can ask "where"; only <b>hain</b> also means "which one".</p>
+{{ex:Hain ang imong balay?|hah-een ahng ee-mohng bah-LAI|Which one is your house?}}
+<div class="tip"><b>Most common mistake:</b> leaving out <b>sa</b>, because English sometimes has no word there ("I'm going home"). <b>Moadto ko simbahan</b> → <b>Moadto ko sa simbahan</b>.</div>
+`,
+    check: [
+      ["Which word means 'there', near the person you're talking to?", ["didto", "diha", "diri", "dinhi"], 1, "diha is near you, like kana; didto is far from you both."],
+      ["Which sentence means 'I'm going to the market'?", ["Moadto ko sa merkado.", "Moadto ko merkado.", "Moadto ko ang merkado.", "Moadto sa merkado ko."], 0, "sa covers 'to', and ko stays right after the verb."],
+      ["diri and dinhi both mean…", ["over there", "near you", "here", "where"], 2, "diri and dinhi are two words for 'here'."]
+    ],
+    practice: [
+      ["mc", "'over there' (far from both of you) =", "didto", "diha", "diri", "dinhi", "didto is far from both of you, like kadto."],
+      ["mc", "'there' (near the person you're talking to) =", "diha", "didto", "diri", "kini", "diha is near the listener, like kana."],
+      ["mc", "'Where's the market?' =", "Asa ang merkado?", "Asa merkado ang?", "Ang merkado asa?", "Asa si merkado?", "Question word, then ang and the place."],
+      ["mc", "'I'm going to the church' =", "Moadto ko sa simbahan.", "Moadto ko simbahan.", "Moadto sa simbahan ko.", "Moadto ko ang simbahan.", "sa means 'to' before a place, and ko stays right after the verb."],
+      ["mc", "Which question word means 'which one?'", "Hain", "Kinsa", "Unsa", "Kanus-a", "Hain asks which one; kinsa is who, unsa is what, kanus-a is when."],
+      ["or", "I'm here", "Naa ko diri", "akong", "The short pronoun ko goes in second place, right after naa."],
+      ["or", "Where's the church?", "Asa ang simbahan", "si", "ang marks a place; names take si."],
+      ["or", "It's at the market", "Naa sa merkado", "ang", "sa marks the place: 'at the market' is sa merkado."],
+      ["fi", "Moadto ko __ merkado.", "I'm going to the market.", "sa", "si|ni|ang", "sa means 'to, at, in' before a place."],
+      ["fi", "Naa ang tubig __.", "The water is there (near you).", "diha", "diri|didto|kini", "diha is 'there' near the listener."],
+      ["fi", "__ ang kasilyas?", "Where's the restroom?", "Asa|Hain", "Kinsa|Unsa|Pila", "asa (or hain) asks where."],
+      ["ty", "I'm at home (use naa)", "Naa ko sa balay.|Naa ako sa balay.", "naa · balay", "akong", "The short pronoun ko goes in second place after naa, and sa comes before the place."],
+      ["ty", "Pedro is at the church", "Naa si Pedro sa simbahan.|Naa sa simbahan si Pedro.", "naa · Pedro · simbahan", "ang", "Names take si: Naa si Pedro sa simbahan."],
+      ["ty", "My house is over there", "Didto ang akong balay.|Naa didto ang akong balay.|Didto ang balay nako.|Naa didto ang balay nako.", "didto · balay", "ako", "akong goes before the noun, and the place word comes first: Didto ang akong balay."]
+    ]
   }
 ];

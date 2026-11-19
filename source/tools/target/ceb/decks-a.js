@@ -6,14 +6,14 @@ bata | BAH-tahq | child | Ends in a catch (q in the aid). Without it, bata is a 
 maayo | mah-AH-yoh | good; well | Three syllables, ma-a-yo, with a catch before the second a.
 ngalan | NGAH-lahn | name | ng as in "singer", even at the start of a word.
 mga bata | mah-ngah BAH-tahq | children | mga is said "manga".
-tawo | TAH-woh | person | u is always oo and o is oh: no English "toe" glide.
+tawo | TAH-woh | person | o is a pure oh, without the glide of English "toe".
 babaye | bah-BAH-yeh | woman | One of the few native words written with e.
 lalaki | lah-LAH-kee | man | Keep every a a full "ah", even where English would blur it.
 itlog | eet-LOHG | egg | Stress on the last syllable: eet-LOHG.
 iro | ee-ROHQ | dog | Ends in a catch: stop the breath after the o, with no k.
 iring | ee-REENG | cat | ng at the end, as in "sing". Stress on the last syllable.
 gabii | gah-BEE-ee | night; evening | Two i's are two syllables, with a catch between them.
-bugas | boo-GAHS | uncooked rice | Cooked rice has its own word: kan-on.
+buhok | boo-HOHK | hair | h is always said, even in the middle of a word.
 akong iro | ah-kohng ee-ROHQ | my dog | akong (my) goes before the noun and ends in -ng.
 luy-a | looy-ah | ginger | The hyphen marks a catch: luy, a short stop, then a.
 otso | oh-choh | eight | ts sounds like English ch. A Spanish number.
@@ -47,7 +47,7 @@ Unsay imong ngalan? | oon-sai ee-mohng NGAH-lahn | What's your name? | Unsay is 
 Siya si Ana. | see-YAH see ah-nah | This is Ana. | siya means he or she; si comes before the name.
 Taga-Amerika ko. | tah-gah-ah-meh-ree-kah koh | I'm from the US. | taga- means "from". The short pronoun ko comes second.
 Taga-asa ka? | tah-gah-ah-sah kah | Where are you from? | Not Asa ka gikan?, which means "Where have you just been?"
-Taga-Cebu ka? | tah-gah-seh-boo kah | Are you from Cebu? | A statement and a yes-or-no question look the same; the voice rises.
+Taga-Cebu ka? | tah-gah-seh-boo kah | Are you from Cebu? | A yes-or-no question can use the same words as a statement.
 Nagpuyo ko sa Cebu. | nahg-poo-yoh koh sah seh-BOO | I live in Cebu. | sa = in, at.
 Asa ka nagpuyo? | ah-sah kah nahg-poo-yoh | Where do you live? | The question word comes first, then ka.
 Nalipay ko nga nakaila nimo. | nah-lee-pai koh ngah nah-kah-ee-lah nee-moh | Nice to meet you. | Literally "I'm happy that I got to know you".
@@ -135,7 +135,7 @@ mangga | mahng-gah | mango |
 sikwate | see-kwah-teh | hot chocolate | One of the few native words written with e.
 Unsa inyong naa? | oon-sah een-yohng nah-ah | What do you have? | Asked at a carinderia to see what dishes are ready.
 Tubig lang. | TOO-beeg lahng | Just water. | lang = just, only.
-Kaon ta. | KAH-ohn tah | Let's eat. | ta (kita) includes the person you are talking to.
+sinugbang isda | see-noog-bahng ees-dah | grilled fish | sinugba (grilled) + -ng links it to isda.
 Lami kaayo! | lah-mee kah-AH-yoh | It's really good! | kaayo after the describing word means "very".
 Busog na ko. | boo-SOHG nah koh | I'm full. | na = already, now.
 Dili ko mokaon og baboy. | dee-lee koh moh-kah-ohn ohg BAH-boy | I don't eat pork. | The short pronoun ko comes right after dili.
@@ -162,7 +162,7 @@ sukli | soo-klee | change (money back) | Ask for it: Ang akong sukli, Nang.
   "Home and daily life": `
 akong balay | ah-kohng bah-LAI | my house | akong goes before the noun and ends in -ng.
 balay nako | bah-LAI NAH-kohq | my house (owner after) | nako goes after the noun. Same meaning as akong balay.
-Asa imong balay? | ah-sah ee-mohng bah-LAI | Where's your house? | imong = your, before the noun.
+Nindot ang inyong balay. | neen-doht ahng een-yohng bah-LAI | You have a nice house. | A friendly thing to say as a guest. inyong = your (family's).
 ang balay ni Pedro | ahng bah-LAI nee peh-droh | Pedro's house | Names take ni for the owner.
 kuwarto | koo-wahr-toh | room; bedroom | Not "quarter".
 kusina | koo-SEE-nah | kitchen |
@@ -175,7 +175,7 @@ Walay kuryente. | wah-lai koor-yehn-teh | There's no electricity. | A power cut 
 Naa sa kusina si Mama. | nah-ah sah koo-SEE-nah see mah-mah | Mom is in the kitchen. | naa sa = is at, is in.
 Naa ka sa balay? | nah-ah kah sah bah-LAI | Are you at home? | ka comes right after naa.
 Mopauli na ko. | moh-pah-oo-lee nah koh | I'm going home now. | pauli = go home.
-Matulog na ko. | mah-too-lohg nah koh | I'm going to bed now. | na = now, already.
+Gabii na. | gah-BEE-ee nah | It's late. | Literally "It's night already." Also a polite reason to leave.
 Hugasan nako ang plato. | hoo-gah-sahn NAH-kohq ahng plah-toh | I'll wash the plate. | Learn it as a whole phrase for now.
 `
 };

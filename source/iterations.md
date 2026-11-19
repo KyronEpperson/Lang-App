@@ -1059,3 +1059,9 @@ Ship Cantonese for English speakers (en-yue) after the cold review: unhold, rege
 
 ### 2.38.0 — results
 27 lessons, 18 decks, 323 cards, 378 practice items; validate PASS; roadmap 25 items linked; e2e OK on six lessons; matching test (characters, Jyutping with or without spaces, toneless = almost, wrong tone = wrong) passes. Reviewer made 24 edits, found no wrong Jyutping; REVIEW.md lists ten points for a native speaker. Not native-checked.
+
+## 2.38.1 — prompt
+Merge the Punjabi, Telugu and Kannada lesson plans so they show as coming soon.
+
+### 2.38.1 — results
+pa 27, te 26, kn 27 planned lessons merged (roadmap_merge.py now takes codes as arguments so shipped courses' linked blocks are untouched). Build verify OK, harness 81 guards. Titles' native-script words are unverified.

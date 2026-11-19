@@ -6,7 +6,7 @@ ROOT=os.path.join(os.path.dirname(__file__),'..'); P=os.path.join(ROOT,'packs','
 s=open(P,encoding='utf8').read()
 J=lambda x: json.dumps(x,ensure_ascii=False)
 out=[];n=0
-for f in sorted(glob.glob(os.path.join(ROOT,'docs','roadmaps','*.json'))):
+for f in sorted([os.path.join(ROOT,'docs','roadmaps',c+'.json') for c in sys.argv[1:]] if len(sys.argv)>1 else glob.glob(os.path.join(ROOT,'docs','roadmaps','*.json'))):
     d=json.load(open(f,encoding='utf8')); c=d['code']
     ids=[i[0] for st in d['stages'] for i in st['items']]
     assert len(ids)==len(set(ids)) and all(i.startswith(c+'-') for i in ids), c

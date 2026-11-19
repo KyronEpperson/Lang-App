@@ -9,7 +9,7 @@ dinhi sa Cebu | deen-hee sah seh-BOO | here in Cebu | dinhi is another word for 
 sa merkado | sah mehr-kah-doh | at the market | sa = at, in, to.
 Naa sa simbahan. | nah-ah sah seem-bah-hahn | It's at the church. |
 Naa ra diha. | nah-ah rah dee-HAHQ | It's right there. | ra = just; diha points to a spot near the person you are talking to.
-Asa ang tindahan? | ah-sah ahng teen-dah-hahn | Where's the store? | A small neighborhood shop is a sari-sari store.
+Asa ang tindahan? | ah-sah ahng teen-dah-hahn | Where's the store? | To an older man, add a title: Asa ang tindahan, Nong?
 Hain ang imong balay? | hah-een ahng ee-mohng bah-LAI | Which one is your house? | hain asks "which one" when you can point.
 Layo ba? | lah-YOHQ bah | Is it far? | ba turns it into a yes / no question and goes in second place.
 Duol ra. | doo-ohl rah | It's close. | ra = only, just: "only near".
@@ -41,18 +41,18 @@ Paingon ko sa Talisay. | pah-ee-ngohn koh sah tah-lee-sai | I'm on my way to Tal
 Hinay-hinay lang, Nong. | hee-nai hee-nai lahng nohng | Slow down a bit, sir. | To an older male driver: Nong.
 `,
   "Health and help": `
-Tabang! | tah-bahng | Help! |
+Tabang! | tah-bahng | Help! | Shout it in an emergency.
 Palihug. | pah-LEE-hoog | Please. |
 Palihug tabangi ko. | pah-LEE-hoog tah-bah-nghee koh | Please help me. | tabangi is the command form of tabang (help).
 Masakit akong tiyan. | mah-sah-keet ah-kohng tee-yahn | My stomach hurts. | akong before the noun.
 Masakit akong ulo. | mah-sah-keet ah-kohng oo-loh | I have a headache. | Literally "painful my head".
-Masakit. | mah-sah-keet | It hurts. |
+Masakit. | mah-sah-keet | It hurts. | Point to the spot as you say it.
 Asa ang masakit? | ah-sah ahng mah-sah-keet | Where does it hurt? | A doctor or a nurse will ask you this.
 Naa koy hilanat. | nah-ah koy hee-lah-naht | I have a fever. | koy = ko + y: "there is, mine, some".
 Naa koy sip-on. | nah-ah koy seep-OHN | I have a cold. | The hyphen marks a catch: sip-on.
 Kinahanglan ko og doktor. | kee-nah-HAHNG-lahn koh ohg dohk-tohr | I need a doctor. | og before an indefinite thing: "a doctor".
-Asa ang ospital? | ah-sah ahng ohs-pee-tahl | Where's the hospital? |
-botika | boh-tee-kah | pharmacy |
+Asa ang ospital? | ah-sah ahng ohs-pee-tahl | Where's the hospital? | To an older man: Asa ang ospital, Nong?
+botika | boh-tee-kah | pharmacy | To an older woman at the counter, add Nang.
 tambal | tahm-bahl | medicine |
 Naa moy tambal sa ubo? | nah-ah moy tahm-bahl sah oo-BOH | Do you have cough medicine? | At the pharmacy. moy = mo + y; mo here is "you all", the staff.
 Dili ko makaadto. | dee-lee koh mah-kah-ahd-toh | I can't go. | The short pronoun ko comes right after dili.
@@ -72,7 +72,7 @@ ang pinakadako | ahng pee-nah-kah-dah-koh | the biggest one | pinaka- = most.
 Parehas ra. | pah-reh-hahs rah | They're the same. |
 gwapa | GWAH-pah | pretty (of a woman) | For a man: gwapo.
 Taas siya. | tah-AHS see-YAH | He's tall. / She's tall. | The describing word comes first, then siya.
-bugnaw nga tubig | boog-NOW ngah TOO-beeg | cold water | Not for the weather: a cold day is tugnaw.
+bugnaw nga tubig | boog-NOW ngah TOO-beeg | cold water | For cold drinks and food. For the cold you feel, you will also hear tugnaw.
 pulang sinina | poo-lahng see-nee-nah | a red shirt | pula + -ng. sinina = shirt, dress, clothes.
 itom nga iro | ee-tohm ngah ee-ROHQ | a black dog |
 Limpyo ang kusina. | LEEM-pyoh ahng koo-SEE-nah | The kitchen is clean. | The describing word comes first: "clean the kitchen".
@@ -82,36 +82,36 @@ Sayon ra. | sah-yohn rah | It's easy. | ra = just: "just easy".
 `,
   "Feelings and wants": `
 Gigutom ko. | ghee-goo-tohm koh | I'm hungry. | Not Ako gigutom: the main word comes first.
-Giuhaw ko. | ghee-oo-how koh | I'm thirsty. |
-Kapoy kaayo ko. | KAH-poy kah-AH-yoh koh | I'm really tired. |
+Giuhaw ko. | ghee-oo-how koh | I'm thirsty. | The main word first, then ko, as in Gigutom ko.
+Kapoy kaayo ko. | KAH-poy kah-AH-yoh koh | I'm really tired. | kaayo = very. Just tired: Kapoy ko.
 Nalipay ko. | nah-lee-pai koh | I'm happy. | Often: Nalipay ko nga… (I'm glad that…).
 Nasuko siya. | nah-soo-koh see-YAH | She's angry. / He's angry. |
-Nahadlok ko. | nah-hahd-lohk koh | I'm scared. |
+Nahadlok ko. | nah-hahd-lohk koh | I'm scared. | Scared of something: add sa, as in Nahadlok ko sa iro.
 Gimingaw ko nimo. | ghee-mee-ngow koh nee-moh | I miss you. | nimo = you, after the verb.
-Tugnaw kaayo. | toog-now kah-AH-yoh | It's really cold. | For the weather. Cold water is bugnaw.
+Tugnaw kaayo. | toog-now kah-AH-yoh | It's really cold. | For the cold you feel. Cold water: bugnaw nga tubig.
 Init kaayo. | EE-neet kah-AH-yoh | It's really hot. | For the weather, and for food or drinks.
-Ganahan ko. | gah-NAH-hahn koh | I like it. |
+Ganahan ko. | gah-NAH-hahn koh | I like it. | ganahan = like; gusto = want.
 Dili ko ganahan. | dee-lee koh gah-NAH-hahn | I don't like it. | The short pronoun ko moves up, right after dili.
 Gusto ko og kape. | goos-toh koh ohg kah-peh | I want coffee. | og before an indefinite thing.
 Gusto ko moadto. | goos-toh koh moh-ahd-toh | I want to go. | No word for "to": gusto + the mo- verb.
-Dili ko gusto. | dee-lee koh goos-toh | I don't want it. |
+Dili ko gusto. | dee-lee koh goos-toh | I don't want it. | ko moves up, right after dili.
 Unsay imong gusto? | oon-sai ee-mohng goos-toh | What do you want? | unsay = unsa ang.
-Kinahanglan ko og tabang. | kee-nah-HAHNG-lahn koh ohg tah-bahng | I need help. |
-Ayaw! | ah-YOW | Don't! |
+Kinahanglan ko og tabang. | kee-nah-HAHNG-lahn koh ohg tah-bahng | I need help. | og before what you need.
+Ayaw! | ah-YOW | Don't! | ayaw + a verb = don't do it.
 Ayaw na lang. | ah-YOW nah lahng | Never mind. | Also: forget it, don't bother.
 `,
   "Questions and little words": `
-Unsa kini? | oon-sah kee-NEE | What's this? |
+Unsa kini? | oon-sah kee-NEE | What's this? | kini = this, near me.
 Kinsa siya? | keen-SAHQ see-YAH | Who is he? / Who is she? | siya is he and she.
 Asa ka? | ah-sah kah | Where are you going? | Literally "Where you?". A common greeting in passing.
-Ngano? | NGAH-noh | Why? |
+Ngano? | NGAH-noh | Why? | The answer often starts with kay (because).
 Kanus-a? | kah-noos-ah | When? | The hyphen marks a catch: kanus-a.
 Kanus-a ka mobalik? | kah-noos-ah kah moh-bah-leek | When are you coming back? | ka goes right after the question word.
 Pila? | pee-lah | How many? | Also "how much" for a price; Tagpila? asks "how much each".
-Hain? | hah-een | Which one? |
+Hain? | hah-een | Which one? | Use it when you can point.
 Unsaon pag-adto sa merkado? | oon-sah-ohn pahg-ahd-toh sah mehr-kah-doh | How do I get to the market? | unsaon = how (to do something).
 Amerikano ka ba? | ah-meh-ree-kah-noh kah bah | Are you American? | ba makes a yes / no question. A woman: Amerikana.
-Oo. | oh-oh | Yes. |
+Oo. | oh-oh | Yes. | Two syllables: o-o.
 Dili. | dee-lee | No. | Also "not". For "didn't" and "there isn't", wala.
 kay | kai | because |
 ikaw ug ako | ee-KOW oog ah-KOH | you and me | ug = and. og (with an o) is a different word.
@@ -145,7 +145,7 @@ sala | sah-lah | living room; fault | Two everyday meanings.
 pan | pahn | bread | Not a cooking pan.
 bugas | boo-GAHS | uncooked rice | English has one word for rice; cooked rice is kan-on.
 kusog | koo-SOHG | strong; loud; fast | One word for all three: kusog nga ulan = heavy rain.
-Brownout na sab. | brow-noh-oot nah sahb | The power's out again. | brownout = a power cut, not dim lights.
+Unya na lang. | oon-YAHQ nah lahng | Later, then. | unya = later today. Tomorrow is ugma.
 Sige lang. | SEE-gheh lahng | It's okay. / Never mind. | sige also means "OK, go ahead" and "bye".
 Dili, salamat. | dee-lee sah-LAH-maht | No, thanks. | Not hindi: that is Tagalog.
 Asa ka gikan? | ah-sah kah ghee-kahn | Where have you just been? | Not "Where are you from?": that is Taga-asa ka?
