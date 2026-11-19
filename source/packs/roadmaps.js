@@ -177,16 +177,16 @@ LANGAPP_PACKS.roadmaps = {
     src: ["University of Minnesota / ISDSI: Beginning Thai 1 syllabus"], note: "The syllabus gives the literacy order and the topics; the grammar items are common beginner practice, not from the syllabus.",
     stages: [
       { en: "Sounds and survival", ko: "소리와 생존 표현", items: [
-        ["th-tones", "The five tones", "5성조"], ["th-sounds", "Sounds: aspiration, long and short vowels", "발음: 기음, 장단 모음"], ["th-greetings", "Greetings and ครับ / ค่ะ", "인사와 ครับ / ค่ะ"], ["th-numbers", "Numbers and money", "숫자와 돈"] ] },
+        ["th-tones", "The five tones", "5성조", "tones"], ["th-sounds", "Sounds: aspiration, long and short vowels", "발음: 기음, 장단 모음", "sounds"], ["th-greetings", "Greetings and ครับ / ค่ะ", "인사와 ครับ / ค่ะ", "greetings"], ["th-numbers", "Numbers and money", "숫자와 돈", "numbers"] ] },
       { en: "Reading Thai", ko: "태국 글자 읽기", items: [
-        ["th-consonants", "Consonants and the three classes", "자음과 세 가지 자음군"], ["th-vowels", "Vowels and where they sit", "모음과 위치"], ["th-finals", "Final consonants: live and dead syllables", "받침: 생음절과 사음절"],
-        ["th-tone-marks", "Tone marks and tone rules", "성조 부호와 성조 규칙"], ["th-clusters", "Clusters and leading consonants", "자음군과 선도 자음"], ["th-special", "Special vowel rules and reading sentences", "특수 모음 규칙과 문장 읽기"] ] },
+        ["th-consonants", "Consonants and the three classes", "자음과 세 가지 자음군", "consonants"], ["th-vowels", "Vowels and where they sit", "모음과 위치", "vowels"], ["th-finals", "Final consonants: live and dead syllables", "받침: 생음절과 사음절", "finals"],
+        ["th-tone-marks", "Tone marks and tone rules", "성조 부호와 성조 규칙", "tone-marks"], ["th-clusters", "Clusters and leading consonants", "자음군과 선도 자음", "clusters"], ["th-special", "Special vowel rules and reading sentences", "특수 모음 규칙과 문장 읽기", "special"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["th-pronouns", "Pronouns and polite particles", "대명사와 공손 어미"], ["th-pen", "เป็น / คือ / อยู่: is, is at", "เป็น / คือ / อยู่: 이다, 있다"], ["th-mai", "ไม่ and ไหม: not, and yes/no questions", "ไม่와 ไหม: 부정과 의문"], ["th-question-words", "Question words", "의문사"],
-        ["th-classifiers", "Classifiers: counting things", "분류사: 물건 세기"], ["th-food", "Food, drink and taste", "음식, 음료, 맛"], ["th-family", "Family and jobs", "가족과 직업"] ] },
+        ["th-pronouns", "Pronouns and polite particles", "대명사와 공손 어미", "pronouns"], ["th-pen", "เป็น / คือ / อยู่: is, is at", "เป็น / คือ / อยู่: 이다, 있다", "pen"], ["th-mai", "ไม่ and ไหม: not, and yes/no questions", "ไม่와 ไหม: 부정과 의문", "mai"], ["th-question-words", "Question words", "의문사", "question-words"],
+        ["th-classifiers", "Classifiers: counting things", "분류사: 물건 세기", "classifiers"], ["th-food", "Food, drink and taste", "음식, 음료, 맛", "food"], ["th-family", "Family and jobs", "가족과 직업", "family"] ] },
       { en: "Everyday life", ko: "일상", items: [
-        ["th-compare", "Describing and comparing: กว่า", "묘사와 비교: กว่า"], ["th-time", "Telling time and daily routine", "시간과 하루 일과"], ["th-time-words", "Time words: แล้ว, กำลัง, จะ", "시제어: แล้ว, กำลัง, จะ"], ["th-can-want", "ได้ / อยาก: can and want", "ได้ / อยาก: 가능과 희망"],
-        ["th-directions", "Directions, places and transport", "길 찾기, 장소, 교통"], ["th-shopping", "Shopping: clothes and colours", "쇼핑: 옷과 색"], ["th-feelings", "Feelings and health", "기분과 건강"] ] } ] },
+        ["th-compare", "Describing and comparing: กว่า", "묘사와 비교: กว่า", "compare"], ["th-time", "Telling time and daily routine", "시간과 하루 일과", "time"], ["th-time-words", "Time words: แล้ว, กำลัง, จะ", "시제어: แล้ว, กำลัง, จะ", "time-words"], ["th-can-want", "ได้ / อยาก: can and want", "ได้ / อยาก: 가능과 희망", "can-want"],
+        ["th-directions", "Directions, places and transport", "길 찾기, 장소, 교통", "directions"], ["th-shopping", "Shopping: clothes and colours", "쇼핑: 옷과 색", "shopping"], ["th-feelings", "Feelings and health", "기분과 건강", "feelings"] ] } ] },
 
   id: { variant: {en: "Standard Indonesian", ko: "표준 인도네시아어"}, basis: {en: "BIPA 1-2 (Indonesian for foreign speakers, seven levels)", ko: "BIPA 1-2 (외국인을 위한 인도네시아어, 7단계)"},
     src: ["Study of the Sahabatku Indonesia A1 syllabus (UPI journal)", "Paper citing Permendikbud No. 27/2017 (seven BIPA levels)"], note: "The sources confirm the level system, self-introduction and pronouns first, and ber- at level 1; the remaining order is common course practice.",
@@ -221,31 +221,31 @@ LANGAPP_PACKS.roadmaps = {
     src: ["Montgomery College ARAB 101 course outline (Alif Baa units 1-10, Al-Kitaab chapters 1-5)"], note: "The last four items go beyond the outline that was read and are common next steps. No spoken dialect is chosen yet.",
     stages: [
       { en: "Script and sounds", ko: "글자와 소리", items: [
-        ["ar-letters", "Letters and sounds", "글자와 소리"], ["ar-vowels", "Short and long vowels", "단모음과 장모음"], ["ar-shapes", "Letter shapes: start, middle, end", "글자 모양: 처음, 중간, 끝"],
-        ["ar-sukun-shadda", "Sukūn and shadda", "수쿤과 샷다"], ["ar-hamza", "Hamza, alif maqṣūra and tanwīn", "함자, 알리프 막수라, 탄윈"], ["ar-al", "ال and sun / moon letters", "ال과 태양 / 달 문자"] ] },
+        ["ar-letters", "Letters and sounds", "글자와 소리", "letters"], ["ar-vowels", "Short and long vowels", "단모음과 장모음", "vowels"], ["ar-shapes", "Letter shapes: start, middle, end", "글자 모양: 처음, 중간, 끝", "shapes"],
+        ["ar-sukun-shadda", "Sukūn and shadda", "수쿤과 샷다", "sukun-shadda"], ["ar-hamza", "Hamza, alif maqṣūra and tanwīn", "함자, 알리프 막수라, 탄윈", "hamza"], ["ar-al", "ال and sun / moon letters", "ال과 태양 / 달 문자", "al"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["ar-greetings", "Greetings and leave-taking", "만남과 헤어짐 인사"], ["ar-gender", "Masculine and feminine: ة", "남성과 여성: ة"], ["ar-pronouns", "Pronouns: أنا, أنتَ, هو, هي", "대명사: أنا, أنتَ, هو, هي"],
-        ["ar-nominal", "Sentences with no 'is'", "be동사 없는 명사문"], ["ar-definite", "Definite and indefinite", "한정과 비한정"], ["ar-nisba", "Nisba adjectives: where you're from", "니스바 형용사: 출신 말하기"],
-        ["ar-questions", "Question words: ما, من, أين, هل", "의문사: ما, من, أين, هل"], ["ar-numbers", "Numbers", "숫자"] ] },
+        ["ar-greetings", "Greetings and leave-taking", "만남과 헤어짐 인사", "greetings"], ["ar-gender", "Masculine and feminine: ة", "남성과 여성: ة", "gender"], ["ar-pronouns", "Pronouns: أنا, أنتَ, هو, هي", "대명사: أنا, أنتَ, هو, هي", "pronouns"],
+        ["ar-nominal", "Sentences with no 'is'", "be동사 없는 명사문", "nominal"], ["ar-definite", "Definite and indefinite", "한정과 비한정", "definite"], ["ar-nisba", "Nisba adjectives: where you're from", "니스바 형용사: 출신 말하기", "nisba"],
+        ["ar-questions", "Question words: ما, من, أين, هل", "의문사: ما, من, أين, هل", "questions"], ["ar-numbers", "Numbers", "숫자", "numbers"] ] },
       { en: "Building sentences", ko: "문장 만들기", items: [
-        ["ar-idafa", "Iḍāfa: the X of Y", "이다파: Y의 X"], ["ar-possessive", "Possessive endings: ـي, ـكَ, ـه", "소유 접미사: ـي, ـكَ, ـه"], ["ar-adjectives", "Noun + adjective agreement", "명사 + 형용사 일치"], ["ar-plurals", "Plurals: sound and broken", "복수: 규칙과 불규칙"],
-        ["ar-present", "Present-tense verbs", "현재 동사"], ["ar-verb-sentences", "Verb sentences and word order", "동사문과 어순"], ["ar-negation", "Negating the present: لا", "현재 부정: لا"], ["ar-adverbs", "Adverbs and time words", "부사와 시간 표현"],
-        ["ar-have", "عند: to have", "عند: 가지고 있어요"], ["ar-past", "Past-tense verbs", "과거 동사"], ["ar-roots", "Roots and patterns", "어근과 패턴"], ["ar-directions", "Asking for help and directions", "도움 청하기와 길 묻기"] ] } ] },
+        ["ar-idafa", "Iḍāfa: the X of Y", "이다파: Y의 X", "idafa"], ["ar-possessive", "Possessive endings: ـي, ـكَ, ـه", "소유 접미사: ـي, ـكَ, ـه", "possessive"], ["ar-adjectives", "Noun + adjective agreement", "명사 + 형용사 일치", "adjectives"], ["ar-plurals", "Plurals: sound and broken", "복수: 규칙과 불규칙", "plurals"],
+        ["ar-present", "Present-tense verbs", "현재 동사", "present"], ["ar-verb-sentences", "Verb sentences and word order", "동사문과 어순", "verb-sentences"], ["ar-negation", "Negating the present: لا", "현재 부정: لا", "negation"], ["ar-adverbs", "Adverbs and time words", "부사와 시간 표현", "adverbs"],
+        ["ar-have", "عند: to have", "عند: 가지고 있어요", "have"], ["ar-past", "Past-tense verbs", "과거 동사", "past"], ["ar-roots", "Roots and patterns", "어근과 패턴", "roots"], ["ar-directions", "Asking for help and directions", "도움 청하기와 길 묻기", "directions"] ] } ] },
 
   ru: { variant: {en: "Standard Russian", ko: "표준 러시아어"}, basis: {en: "TORFL Elementary (A1) state standard", ko: "토르플 기초 (A1) 국가 표준"},
     src: ["Russian state standard for the Elementary level (TORFL A1), copy hosted by Università di Bergamo"], note: "The standard lists requirements by category; the case order here is common course practice.",
     stages: [
       { en: "Script and sounds", ko: "글자와 소리", items: [
-        ["ru-alphabet", "The Cyrillic alphabet", "키릴 문자"], ["ru-sounds", "Hard and soft, voiced and voiceless", "경음과 연음, 유성과 무성"], ["ru-stress", "Stress and vowel reduction", "강세와 모음 약화"], ["ru-intonation", "Intonation: statements and questions", "억양: 평서문과 의문문"] ] },
+        ["ru-alphabet", "The Cyrillic alphabet", "키릴 문자", "alphabet"], ["ru-sounds", "Hard and soft, voiced and voiceless", "경음과 연음, 유성과 무성", "sounds"], ["ru-stress", "Stress and vowel reduction", "강세와 모음 약화", "stress"], ["ru-intonation", "Intonation: statements and questions", "억양: 평서문과 의문문", "intonation"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["ru-greetings", "Greetings: ты and вы", "인사: ты와 вы"], ["ru-eto", "Это: this is, with no 'is'", "Это: be동사 없이 '이것은'"], ["ru-gender", "Gender of nouns", "명사의 성"], ["ru-pronouns", "Personal and possessive pronouns", "인칭·소유 대명사"],
-        ["ru-plural", "Plurals", "복수"], ["ru-present", "Present tense: two conjugations", "현재 시제: 1식과 2식 변화"], ["ru-questions", "Question words: кто, что, где", "의문사: кто, что, где"], ["ru-negation", "не and нет", "не와 нет"], ["ru-numbers", "Numbers", "숫자"] ] },
+        ["ru-greetings", "Greetings: ты and вы", "인사: ты와 вы", "greetings"], ["ru-eto", "Это: this is, with no 'is'", "Это: be동사 없이 '이것은'", "eto"], ["ru-gender", "Gender of nouns", "명사의 성", "gender"], ["ru-pronouns", "Personal and possessive pronouns", "인칭·소유 대명사", "pronouns"],
+        ["ru-plural", "Plurals", "복수", "plural"], ["ru-present", "Present tense: two conjugations", "현재 시제: 1식과 2식 변화", "present"], ["ru-questions", "Question words: кто, что, где", "의문사: кто, что, где", "questions"], ["ru-negation", "не and нет", "не와 нет", "negation"], ["ru-numbers", "Numbers", "숫자", "numbers"] ] },
       { en: "The six cases", ko: "6격", items: [
-        ["ru-prepositional", "Prepositional: where, about", "전치격: 장소, ~에 대해"], ["ru-accusative", "Accusative: objects and direction", "대격: 목적어와 방향"], ["ru-genitive", "Genitive: possession, absence, quantity", "생격: 소유, 부재, 수량"],
-        ["ru-have", "У меня есть: to have", "У меня есть: 가지고 있어요"], ["ru-dative", "Dative: to whom, age, need", "여격: 받는 사람, 나이, 필요"], ["ru-instrumental", "Instrumental: with, profession", "조격: 함께, 직업"], ["ru-adjectives", "Adjectives agree", "형용사 일치"] ] },
+        ["ru-prepositional", "Prepositional: where, about", "전치격: 장소, ~에 대해", "prepositional"], ["ru-accusative", "Accusative: objects and direction", "대격: 목적어와 방향", "accusative"], ["ru-genitive", "Genitive: possession, absence, quantity", "생격: 소유, 부재, 수량", "genitive"],
+        ["ru-have", "У меня есть: to have", "У меня есть: 가지고 있어요", "have"], ["ru-dative", "Dative: to whom, age, need", "여격: 받는 사람, 나이, 필요", "dative"], ["ru-instrumental", "Instrumental: with, profession", "조격: 함께, 직업", "instrumental"], ["ru-adjectives", "Adjectives agree", "형용사 일치", "adjectives"] ] },
       { en: "Verbs in time", ko: "동사와 시간", items: [
-        ["ru-past", "Past tense", "과거 시제"], ["ru-future", "Future tense", "미래 시제"], ["ru-aspect", "Aspect: imperfective and perfective", "상: 불완료와 완료"], ["ru-motion", "Verbs of motion: идти / ехать", "운동 동사: идти / ехать"],
-        ["ru-imperative", "Imperative", "명령법"], ["ru-connectors", "и, а, но, потому что", "и, а, но, потому что"], ["ru-time", "Time, days and dates", "시간, 요일, 날짜"] ] } ] },
+        ["ru-past", "Past tense", "과거 시제", "past"], ["ru-future", "Future tense", "미래 시제", "future"], ["ru-aspect", "Aspect: imperfective and perfective", "상: 불완료와 완료", "aspect"], ["ru-motion", "Verbs of motion: идти / ехать", "운동 동사: идти / ехать", "motion"],
+        ["ru-imperative", "Imperative", "명령법", "imperative"], ["ru-connectors", "и, а, но, потому что", "и, а, но, потому что", "connectors"], ["ru-time", "Time, days and dates", "시간, 요일, 날짜", "time"] ] } ] },
   /*PLAN:af*/ af: { variant: {en: "Standard Afrikaans (South Africa)", ko: "Standard Afrikaans (South Africa)"}, basis: {en: "Stellenbosch University Survival / Campus Afrikaans outcomes for the themes; common beginner practice for the grammar order", ko: "Stellenbosch University Survival / Campus Afrikaans outcomes for the themes; common beginner practice for the grammar order"}, voice: "af-ZA", script: "Latin with extra letters: ê, ô, û, ë, ï and the article 'n; left to right",
     src: ["Stellenbosch University Language Centre: Survival Afrikaans 2021 outcomes (six learning outcomes, no grammar listed)", "Stellenbosch University Language Centre: Campus Afrikaans 2026 course information (five themes, no grammar listed)", "elon.io: Afrikaans grammar A1 learner path (a grammar website's path, not a course syllabus)"], note: "No syllabus with a grammar order was opened. The Stellenbosch pages give only themes in order (greetings, personal information, questions, social talk, in and around town); the elon.io path suggested the early grammar (die / 'n, plurals, pronouns, one present form, is / het, questions, nie … nie, numbers, diminutives). The full lesson order, the past tense, modal verbs, possession with se, adjectives and all titles are common course practice and my own judgment.", hardest: ["The throaty g, and v said as f and w said as v", "Double negation: nie … nie, with the second nie at the end", "Word order: verb second, and the main verb sent to the end after modals and het ge-", "Vowel spellings and marks: ee, oo, ie, oe, ê, ô, ë"],
     stages: [

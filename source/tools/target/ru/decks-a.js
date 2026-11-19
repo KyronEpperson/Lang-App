@@ -150,7 +150,7 @@ module.exports = {
 в пятницу | f PYAHT-nee-tsoo | on Friday | пятница changes its ending after в: в пятницу.
 в воскресенье | v vahs-krih-SYEHN'-yih | on Sunday | Days of the week are not capitalized in Russian.
 Какой сегодня день? | kah-KOY sih-VOHD-nyah dyehn' | What day is it today? | 
-Сегодня суббота. | sih-VOHD-nyah soob-BOH-tah | Today is Saturday. | No word for "is": Сегодня + the day.
+Сегодня суббота. | sih-VOHD-nyah soo-BOH-tah | Today is Saturday. | No word for "is": Сегодня + the day.
 Который час? | kah-TOH-rihy chahs | What time is it? | Also: Сколько времени?
 в два часа | v dvah chih-SAH | at two o'clock | 1 час, 2–4 часа, 5–12 часов.
 в пять часов | f pyaht' chih-SOHF | at five o'clock | 5 to 12: часов.
@@ -170,7 +170,7 @@ module.exports = {
 молоко | mah-lah-KOH | milk | Three о's, but only the last one is stressed.
 Чай или кофе? | chai EE-lee KOH-fih | Tea or coffee? | кофе is masculine and never changes its ending.
 Я буду салат. | yah BOO-doo sah-LAHT | I'll have the salad. | The usual way to order: Я буду + the dish.
-Без сахара, пожалуйста. | byehs SAH-khah-rah pah-ZHAHL-stah | No sugar, please. | без means "without".
+Без сахара, пожалуйста. | bihs SAH-khah-rah pah-ZHAHL-stah | No sugar, please. | без means "without".
 Я не ем мясо. | yah nih yehm MYAH-sah | I don't eat meat. | не goes right before the verb.
 Очень вкусно! | OH-chihn' FKOOS-nah | It's delicious! | Word for word: "Very tasty!"
 Приятного аппетита! | pree-YAHT-nah-vah ah-pih-TEE-tah | Enjoy your meal! | Said before eating, like "bon appétit".

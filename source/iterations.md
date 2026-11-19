@@ -1017,3 +1017,9 @@ Ship Hindi for English speakers (en-hi) after merge and cold review; list 19 pla
 
 ### 2.34.0 — results
 en-hi: 28 lessons, 18 decks / 322 cards, 392 practice items; cold review 50 edits (no wrong gender or romanisation found; 25 order items given a cue; seven overstated rules fixed); greetings set to नमस्ते. Planned languages: nl sv no da fi af hu pl cs bg ro el tr fa ur sw tl ceb yue registered (LANGS t:1, FLAG_ART) and their roadmaps merged from docs/roadmaps/*.json (tools/roadmap_merge.py); English speakers see 22 coming-soon rows; Korean titles for the new roadmaps are not written yet (English shown). Engine: ru / th / ar / hi matching, bidiPass for RTL target text, romaLoose. Harness 77 guards. Hindi not checked by a native speaker (tools/target/hi/REVIEW.md).
+
+## 2.34.1 — prompt
+After finishing a lesson, always offer the next one: in the lesson, after its practice set, and at the end of a Today session. Verify with a test in three courses (complete lesson 1 through the real quick check, press the button, land on lesson 2). Also fix end-screen praise that was Korean in every course.
+
+### 2.34.1 — results
+nextCta / goLesson / nextOpenLesson; #lsNext slot in the lesson view, filled when the lesson becomes done and on reopen; button on the practice-set end screen and the session end screen. next.js: en-es, en-ko, ja-en all show the button, open lesson 2 at the top of the page, no errors. FLOURISH now has every taught language; PRAISE() replaces six hardcoded Korean end-screen headings. Harness 77 guards.

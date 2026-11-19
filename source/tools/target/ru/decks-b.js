@@ -54,7 +54,7 @@ module.exports = {
 Он смотрит телевизор. | ohn SMOH-treet tih-lih-VEE-zahr | He's watching TV. | смотреть is second conjugation: я смотрю, он смотрит.
 Я готовлю ужин. | yah gah-TOH-vlyoo OO-zhihn | I'm cooking dinner. | ужин: the evening meal.
 Мы гуляем в парке. | mih goo-LYAH-yihm f PAHR-kih | We're walking in the park. | гулять: to walk for pleasure, to go for a stroll.
-Я ложусь спать в одиннадцать. | yah lah-ZHOOS' spaht' v ah-DEEN-nah-tsaht' | I go to bed at eleven. | Word for word: "I lie down to sleep at eleven."
+Я ложусь спать в одиннадцать. | yah lah-ZHOOS' spaht' v ah-DEE-nah-tsaht' | I go to bed at eleven. | Word for word: "I lie down to sleep at eleven."
 каждый день | KAHZH-dihy dyehn' | every day | Habits take the imperfective: Каждый день я читаю.
 Вчера я работала. | fchih-RAH yah rah-BOH-tah-lah | Yesterday I worked. (a woman) | A man says: Вчера я работал.
 Что ты делал вчера? | shtoh tih DYEH-lahl fchih-RAH | What did you do yesterday? (informal, to a man) | To a woman: Что ты делала вчера?
@@ -92,7 +92,7 @@ module.exports = {
 урок | oo-ROHK | lesson; class | на уроке: "in class".
 домашнее задание | dah-MAHSH-nih-yih zah-DAH-nee-yih | homework | Two words: "home assignment".
 Я хочу быть учителем. | yah khah-CHOO biht' oo-CHEE-tih-lihm | I want to be a teacher. | быть + instrumental: учитель → учителем.
-коллега | kahl-LYEH-gah | colleague; coworker | The same word for a man or a woman.
+коллега | kah-LYEH-gah | colleague; coworker | The same word for a man or a woman.
 начальник | nah-CHAHL'-neek | boss | The everyday word for your manager.
 экзамен | ehg-ZAH-mihn | exam | сдавать экзамен: to take an exam.
 Я написал письмо. | yah nah-pee-SAHL pees'-MOH | I wrote the letter. (a man) | написал: perfective, the letter is finished. A woman: Я написала.
@@ -162,14 +162,14 @@ module.exports = {
 симпатичный | seem-pah-TEECH-nihy | nice-looking; likeable | Not "sympathetic".
 Я никого не знаю. | yah nee-kah-VOH nih ZNAH-yoo | I don't know anybody. | Russian needs both никого and не: not "Я знаю никого".
 А у тебя? | ah oo tih-BYAH | And you? (after Как дела?) | Как дела? is answered with А у тебя?, not А ты?
-аккуратный | ahk-koo-RAHT-nihy | neat; careful | Not "accurate" (that is точный).
+аккуратный | ah-koo-RAHT-nihy | neat; careful | Not "accurate" (that is точный).
 кабинет | kah-bee-NYEHT | office (a room); doctor's office | Not a cabinet (that is шкаф).
 артист | ahr-TEEST | performer; actor | Someone on stage. A painter is художник.
 шеф | shehf | boss (casual) | Not a cook: a cook is повар.
 фабрика | FAH-bree-kah | factory | Not "fabric" (that is ткань).
 Нет, я не знаю. | nyeht yah nih ZNAH-yoo | No, I don't know. | Russian repeats the не: not "Нет, я знаю".
 Девушка! | DYEH-voosh-kah | Excuse me, miss! | Calls a waitress or a shop assistant of any age: normal in Russia, not flirtatious. To a man: Молодой человек!
-Я никогда не был в Сочи. | yah nee-kahg-DAH nih bihl f SOH-chee | I've never been to Sochi. (a man) | никогда + не. A woman: не была.
+Я никогда не был в Сочи. | yah nee-kahg-DAH nyeh bihl f SOH-chee | I've never been to Sochi. (a man) | никогда + не. A woman: не была.
 Здесь нет банка. | zdyehs' nyeht BAHN-kah | There's no bank here. | нет + genitive: not "нет банк".
 Я был в Казани. | yah bihl f kah-ZAH-nee | I was in Kazan. (a man) | был + в + prepositional: not "был в Казань".
 Я скучаю по тебе. | yah skoo-CHAH-yoo pah tih-BYEH | I miss you. (informal) | Not пропускаю: that is "miss" as in missing a class.
