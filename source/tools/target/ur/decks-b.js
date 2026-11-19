@@ -88,7 +88,7 @@ module.exports = {
 چھوٹی گاڑی | chhoṭī gāṛī | a small car | گاڑی is feminine, so چھوٹی.
 نیا موبائل | nayā mobāil | a new phone | موبائل is the everyday word for a cell phone. Masculine.
 نئی کتاب | naī kitāb | a new book | نیا has the forms نیا, نئے, نئی.
-پرانا شہر | purānā shahar | the old city | Lahore's walled old city is often called this.
+پرانا شہر | purānā shahar | the old city | پرانا is old for things and places. For people: بوڑھا.
 خوبصورت جگہ | ḵhūbsūrat jagah | a beautiful place | خوبصورت never changes. جگہ is feminine.
 ٹھنڈا پانی | ṭhaṇḍā pānī | cold water | پانی is masculine, so ٹھنڈا.
 گرم چائے | garam chāy | hot tea | گرم never changes. چائے is feminine.
@@ -132,7 +132,7 @@ module.exports = {
 مجھے دوا چاہیے۔ | mujhe davā chāhie. | I need medicine. | دوا is feminine.
 فارمیسی کہاں ہے؟ | fārmesī kahā̃ hai? | Where's the pharmacy? | Many people say میڈیکل سٹور.
 یہاں قریب کوئی ہسپتال ہے؟ | yahā̃ qarīb koī haspatāl hai? | Is there a hospital near here? | کوئی = any, some.
-پولیس کو بلائیے! | pulīs ko bulāie! | Call the police! | The emergency number in Pakistan is 15.
+پولیس کو بلائیے! | pulīs ko bulāie! | Call the police! | Same pattern as ڈاکٹر کو بلائیے: the person you call takes کو.
 کیا میں اندر آ سکتا ہوں؟ | kyā maĩ andar ā saktā hū̃? | May I come in? (a man speaking) | A woman says آ سکتی ہوں.
 کیا آپ آہستہ بول سکتے ہیں؟ | kyā āp āhistā bol sakte haĩ? | Could you speak slowly? (to a man) | To a woman: بول سکتی ہیں؟
 میں نہیں سمجھی۔ | maĩ nahī̃ samjhī. | I didn't understand. (a woman speaking) | A man says نہیں سمجھا.
@@ -165,7 +165,7 @@ module.exports = {
 میں نے کھانا کھایا۔ | maĩ ne khānā khāyā. | I ate. | With نے: not میں کھانا کھایا.
 تُو | tū | you (intimate, or rude) | For close friends, small children and God. Don't use it with anyone else.
 آم | ām | mango | Sounds just like عام (common, ordinary), which is spelled with ع: same sound, two words.
-مجھے گرمی لگ رہی ہے۔ | mujhe garmī lag rahī hai. | I'm hot. | Not میں گرم ہوں. Literally "heat is striking me".
+خوش آمدید۔ | ḵhush āmadīd. | Welcome! (to a guest) | For greeting a guest or a visitor. Never the answer to شکریہ: "you're welcome" is کوئی بات نہیں.
 مجھے بھوک لگی ہے۔ | mujhe bhūk lagī hai. | I'm hungry. | Literally "hunger has struck me". Not میرے پاس بھوک ہے.
 مجھے پانی چاہیے۔ | mujhe pānī chāhie. | I need water. | مجھے, not میں: "to me water is needed".
 میری عمر پچیس سال ہے۔ | merī umr pacchīs sāl hai. | I'm twenty-five. | Literally "my age is 25 years". Not میں پچیس سال ہوں.

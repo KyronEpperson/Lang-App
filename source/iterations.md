@@ -1089,3 +1089,9 @@ Specify the type of Spanish (and Chinese) in the course names. Also carries the 
 
 ### 2.40.2 — results
 en-es is "Latin American Spanish", en-zh is "Mandarin Chinese" (packs regenerated, validate PASS). Picker order checked. Engine: Urdu matcher (urSame / urSlip), Roman folds in romaLoose (ee, oo, w, iye, ch, final h, mein), Nastaliq-first font stack for lang=ur; Hindi, Arabic and Urdu matching tests pass. Harness 83 guards.
+
+## 2.40.3 — prompt
+Letter cards show the sound on the front (lesson mini drill), and the new-card 🔄 button "doesn't flip the card".
+
+### 2.40.3 — results
+soundCard(d,c): for script-deck cards and one- or two-character non-Latin cards the romanisation and Listen button are on the back only (flashcards and Today's new cards), and auto-play waits for the flip. The 🔄 button now turns the whole card (rvturn animation) when it reveals the back. Could not reproduce a dead button: phone-emulated taps flipped 5 of 5 cards before and after. Taiwanese Hokkien registered as a planned language (hidden until its plan is merged). Harness 83 guards.

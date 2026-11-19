@@ -39,7 +39,7 @@ module.exports = [
     practice: [
       ["mc", "'I'm working right now' (a man speaking) =", "میں ابھی کام کر رہا ہوں", "میں ابھی کام کرتا ہوں", "میں ابھی کام کر رہی ہوں", "میں ابھی کام رہا کر ہوں", "Right now: stem کر + رہا, and a man speaking uses رہا."],
       ["mc", "Sarah is cooking: سارہ کھانا بنا ___ ہے", "رہی", "رہا", "رہے", "رہتی", "سارہ is a woman, so رہا takes its feminine ending: رہی."],
-      ["mc", "'What are you doing?' (to a woman) =", "آپ کیا کر رہی ہیں؟", "آپ کیا کر رہے ہیں؟", "آپ کیا کر رہی ہے؟", "آپ کیا کرتی ہیں؟", "To a woman: رہی, and آپ always takes ہیں. کرتی ہیں asks what she does in general."],
+      ["mc", "'What are you doing?' (to a woman) =", "آپ کیا کر رہی ہیں؟", "آپ کیا کر رہے ہیں؟", "آپ کیا کر رہا ہیں؟", "آپ کیا کرتی ہیں؟", "To a woman: رہی, and آپ always takes ہیں. کرتی ہیں asks what she does in general."],
       ["mc", "Which sentence is about a habit, not right now?", "میں روز چائے پیتا ہوں", "میں چائے پی رہا ہوں", "وہ ابھی سو رہی ہے", "ہم کھانا کھا رہے ہیں", "پیتا ہوں is the habitual; the others use رہا / رہی / رہے for right now."],
       ["mc", "'I know' (a man speaking) =", "میں جانتا ہوں", "میں جان رہا ہوں", "میں جانتا ہے", "مجھے جانتا ہوں", "Knowing is a state, so it stays habitual: جانتا ہوں."],
       ["or", "The children are playing", "بچے کھیل رہے ہیں", "رہا", "بچے is plural, so رہا must agree in the plural: رہے ہیں."],
@@ -47,7 +47,7 @@ module.exports = [
       ["or", "Mom is sleeping (respectfully)", "امی سو رہی ہیں", "ہے", "A respected person takes the plural ہیں, and رہی stays feminine."],
       ["fi", "علی ٹی وی دیکھ __ ہے۔", "Ali is watching TV.", "رہا", "رہی|رہے|دیکھتا", "علی is one man, so رہا keeps its masculine -ā ending."],
       ["fi", "ہم کھانا کھا رہے __۔", "We are eating.", "ہیں", "ہے|ہوں|ہو", "ہم takes ہیں: ہم کھا رہے ہیں."],
-      ["fi", "آپ کیا کر رہی __؟", "What are you doing? (to a woman)", "ہیں", "ہے|ہو|ہوں", "آپ takes ہیں even for one person."],
+      ["fi", "آپ کیا کر رہی __؟", "What are you doing? (to a woman)", "ہیں", "ہے|ہوں|تھا", "آپ takes ہیں even for one person."],
       ["ty", "I'm reading a book right now (a man speaking)", "میں ابھی کتاب پڑھ رہا ہوں|ابھی میں کتاب پڑھ رہا ہوں|ابھی کتاب پڑھ رہا ہوں|میں کتاب پڑھ رہا ہوں", "میں · ابھی · کتاب · پڑھنا · رہا", "رہی", "A man speaking: رہا agrees with him, so رہا ہوں, not رہی ہوں."],
       ["ty", "The girls are playing", "لڑکیاں کھیل رہی ہیں", "لڑکیاں · کھیلنا · رہا", "رہے ہے", "لڑکیاں is feminine plural: رہی with ہیں."],
       ["ty", "What are you doing? (to a man)", "آپ کیا کر رہے ہیں", "آپ · کیا · کرنا · رہا", "رہا ہے", "آپ takes the plural: رہے ہیں, even for one man."]
@@ -78,7 +78,7 @@ module.exports = [
 {{ex:مجھے تھوڑی اردو آتی ہے۔|mujhe thoṛī urdū ātī hai.|I know a little Urdu.}}
 {{ex:کیا آپ کو انگریزی آتی ہے؟|kyā āp ko angrezī ātī hai?|Do you speak English?}}
 <h3>Hungry, thirsty, cold</h3>
-<p>Hunger, thirst and cold "strike" you, with <b>لگنا</b>. <b>بھوک</b> (hunger), <b>پیاس</b> (thirst) and <b>سردی</b> (cold) are all feminine, so the verb ends in <b>-ی</b>.</p>
+<p>Hunger, thirst and cold "strike" you, with <b>لگنا</b>. <b>بھوک</b> <i>bhūk</i> (hunger), <b>پیاس</b> <i>pyās</i> (thirst) and <b>سردی</b> <i>sardī</i> (cold) are all feminine, so the verb ends in <b>-ی</b>.</p>
 {{ex:مجھے بھوک لگی ہے۔|mujhe bhūk lagī hai.|I'm hungry.}}
 {{ex:مجھے سردی لگ رہی ہے۔|mujhe sardī lag rahī hai.|I'm cold.}}
 <p>Never translate "I am cold" word for word: <b>میں ٹھنڈا ہوں</b> describes you as a cold object, like a drink from the fridge. The same goes for food and weather: things are <b>ٹھنڈا</b>, people feel <b>سردی</b>.</p>
@@ -174,7 +174,7 @@ module.exports = [
 {{ex:سیدھے جائیے، پھر بائیں مڑیے۔|sīdhe jāie, phir bāẽ muṛie.|Go straight, then turn left.}}
 {{ex:اِس راستے سے جائیے۔|is rāste se jāie.|Go this way.}}
 <h3>Near, opposite, behind: after the noun</h3>
-<p>English puts "near" before the place: "near the station". Urdu puts it after, as a two-word postposition: <b>اسٹیشن کے پاس</b>. The same goes for <b>کے سامنے</b> (opposite, in front of) and <b>کے پیچھے</b> (behind). A masculine noun in <b>-ā</b> takes its oblique form before them: <b>دروازہ</b> → <b>دروازے کے سامنے</b>.</p>
+<p>English puts "near" before the place: "near the station". Urdu puts it after, as a two-word postposition: <b>اسٹیشن کے پاس</b>. The same goes for <b>کے سامنے</b> <i>ke sāmne</i> (opposite, in front of) and <b>کے پیچھے</b> <i>ke pīchhe</i> (behind). A masculine noun in <b>-ā</b> takes its oblique form before them: <b>دروازہ</b> → <b>دروازے کے سامنے</b>.</p>
 {{ex:ہوٹل بازار کے پاس ہے۔|hoṭal bāzār ke pās hai.|The hotel is near the bazaar.}}
 {{ex:ہسپتال مسجد کے سامنے ہے۔|haspatāl masjid ke sāmne hai.|The hospital is across from the mosque.}}
 {{ex:پارک سکول کے پیچھے ہے۔|pārk skūl ke pīchhe hai.|The park is behind the school.}}
@@ -193,19 +193,19 @@ module.exports = [
     ],
     practice: [
       ["mc", "'Turn right' (politely) =", "دائیں مڑیے", "بائیں مڑیے", "دائیں مڑو", "سیدھے جائیے", "دائیں is right, and مڑیے is the polite form; مڑو is for friends."],
-      ["mc", "'The hotel is near the bazaar' =", "ہوٹل بازار کے پاس ہے", "ہوٹل کے پاس بازار ہے", "ہوٹل پاس بازار کے ہے", "ہوٹل بازار کی پاس ہے", "The place comes first, then کے پاس: بازار کے پاس."],
+      ["mc", "'The hotel is near the bazaar' =", "ہوٹل بازار کے پاس ہے", "ہوٹل بازار کے پاس ہیں", "ہوٹل پاس بازار کے ہے", "ہوٹل بازار کی پاس ہے", "The place comes first, then کے پاس: بازار کے پاس."],
       ["mc", "How do you ask 'How far is the station?'", "اسٹیشن کتنی دور ہے؟", "کتنی دور اسٹیشن ہے؟", "اسٹیشن کہاں دور ہے؟", "اسٹیشن کتنی دور ہیں؟", "Place + کتنی دور ہے؟, with the question words where the answer would go."],
       ["mc", "'behind the school' =", "سکول کے پیچھے", "سکول کی پیچھے", "پیچھے سکول کے", "سکول پیچھے کے", "کے پیچھے comes after the noun, and it is always کے."],
       ["mc", "What do you say to stop a rickshaw here?", "بھائی، یہاں رکیے", "بھائی، یہاں رکتا ہے", "بھائی، یہاں رک رہا ہوں", "بھائی، وہاں جائیے", "رکیے is the polite command 'stop', and یہاں is here."],
       ["or", "The hospital is across from the mosque (start with ہسپتال)", "ہسپتال مسجد کے سامنے ہے", "کی", "The postposition کے سامنے comes after the noun: مسجد کے سامنے."],
       ["or", "in front of the door", "دروازے کے سامنے", "دروازہ", "Before the postposition کے سامنے, دروازہ takes its oblique form دروازے."],
       ["or", "We go by rickshaw (start with ہم)", "ہم رکشے میں جاتے ہیں", "رکشہ", "Before the postposition میں, رکشہ takes its oblique form رکشے."],
-      ["fi", "اسٹیشن کے __ ہے۔", "It's near the station.", "پاس", "پیچھے|سامنے|کو", "Near is کے پاس; کے پیچھے is behind and کے سامنے is opposite."],
+      ["fi", "اسٹیشن کے __ ہے۔", "It's near the station.", "پاس|قریب", "پیچھے|سامنے|کو", "Near is کے پاس (or کے قریب); کے پیچھے is behind and کے سامنے is opposite."],
       ["fi", "سیدھے جائیے، پھر __ مڑیے۔", "Go straight, then turn left.", "بائیں", "دائیں|سیدھا|پیچھے", "Left is بائیں; right is دائیں."],
-      ["fi", "اِس __ سے جائیے۔", "Go this way.", "راستے", "راستہ|راستوں|راستی", "Before سے, راستہ takes its oblique form راستے."],
+      ["fi", "اسٹیشن __ دور ہے؟", "How far is the station?", "کتنی", "کہاں|کون|کیا", "How far is کتنی دور, a fixed phrase."],
       ["ty", "The hotel is near the station (start with ہوٹل)", "ہوٹل اسٹیشن کے پاس ہے", "ہوٹل · اسٹیشن · کے پاس", "کی", "The postposition کے پاس comes after the noun: اسٹیشن کے پاس."],
       ["ty", "Stop in front of the door, please (to a driver)", "دروازے کے سامنے رکیے|دروازے کے سامنے رکیں|بھائی، دروازے کے سامنے رکیے|بھائی، دروازے کے سامنے رکیں", "دروازہ · کے سامنے · رکنا (polite)", "دروازہ", "Before کے سامنے, دروازہ takes its oblique form دروازے."],
-      ["ty", "Turn left, please", "بائیں مڑیے|بائیں مڑیں", "بائیں · مڑنا (polite)", "دائیں", "Left is بائیں, and مڑیے or مڑیں is the polite turn."]
+      ["ty", "Go this way, please", "اِس راستے سے جائیے|اِس راستے سے جائیں", "اِس · راستہ · سے · جانا (polite)", "راستہ", "Before the postposition سے, راستہ takes its oblique form راستے."]
     ]
   },
   {
@@ -245,9 +245,9 @@ module.exports = [
     ],
     practice: [
       ["mc", "'I was sick' (a woman speaking) =", "میں بیمار تھی", "میں بیمار تھا", "میں بیمار تھیں", "میں بیمار ہوں", "A woman speaking about herself: تھی."],
-      ["mc", "Mom was at home (respectfully): امی گھر پر ___", "تھیں", "تھا", "ہوں", "ہو", "A respected woman takes the plural feminine form تھیں."],
+      ["mc", "Mom was at home (respectfully): امی گھر پر ___", "تھیں", "تھا", "ہوں", "ہے", "A respected woman takes the plural feminine form تھیں."],
       ["mc", "Which sentence means 'He used to play cricket'?", "وہ کرکٹ کھیلتا تھا", "وہ کرکٹ کھیلتا ہے", "وہ کرکٹ کھیل رہا ہے", "وہ کرکٹ کھیلتی تھی", "Habitual کھیلتا + تھا = used to play; کھیلتی تھی would be 'she'."],
-      ["mc", "'What were you doing?' (to a woman) =", "آپ کیا کر رہی تھیں؟", "آپ کیا کر رہی تھی؟", "آپ کیا کر رہے تھے؟", "آپ کیا کرتی ہیں؟", "To a woman with آپ: رہی تھیں."],
+      ["mc", "'What were you doing?' (to a woman) =", "آپ کیا کر رہی تھیں؟", "آپ کیا کر رہی تھا؟", "آپ کیا کر رہے تھے؟", "آپ کیا کرتی ہیں؟", "To a woman with آپ: رہی تھیں."],
       ["mc", "'The boys were in the room' =", "لڑکے کمرے میں تھے", "لڑکے کمرے میں تھا", "لڑکے کمرہ میں تھے", "لڑکا کمرے میں تھے", "Plural لڑکے takes تھے, and کمرہ becomes کمرے before میں."],
       ["or", "Sarah was in Lahore (start with سارہ)", "سارہ لاہور میں تھی", "تھا", "سارہ is a woman, so the verb is feminine: تھی."],
       ["or", "My grandfather was a doctor", "میرے دادا ڈاکٹر تھے", "تھا میرا", "A respected grandfather takes the plural: میرے and تھے."],
@@ -321,9 +321,9 @@ module.exports = [
     body: `
 <p>English puts "will" in front of the verb: "I will go". Urdu changes the end of the verb and adds a small agreeing word after it: <b>جاؤں گا</b> <i>jāū̃ gā</i>.</p>
 <h3>Two parts</h3>
-<p>The first part changes with the person; the second part, <b>گا</b>, <b>گی</b> or <b>گے</b>, agrees in gender and number like <b>اچھا</b>. Urdu writes them as two separate words.</p>
+<p>The first part changes with the person; the second part, <b>گا</b>, <b>گی</b> or <b>گے</b>, agrees in gender and number like <b>اچھا</b>. Urdu writes them as two separate words, and the word tiles in practice keep them apart too.</p>
 <div class="tbl"><table><tr><th>Who</th><th>go (جانا)</th><th>do (کرنا)</th></tr><tr><td>میں (a man / a woman)</td><td class="k">جاؤں گا / جاؤں گی</td><td class="k">کروں گا / کروں گی</td></tr><tr><td>تم (a friend)</td><td class="k">جاؤ گے / جاؤ گی</td><td class="k">کرو گے / کرو گی</td></tr><tr><td>آپ, ہم</td><td class="k">جائیں گے / جائیں گی</td><td class="k">کریں گے / کریں گی</td></tr><tr><td>وہ (he / she)</td><td class="k">جائے گا / جائے گی</td><td class="k">کرے گا / کرے گی</td></tr><tr><td>وہ (they)</td><td class="k">جائیں گے / جائیں گی</td><td class="k">کریں گے / کریں گی</td></tr></table></div>
-<p>The first part looks like the polite request forms you know: <b>جائیں</b>, <b>کریں</b>. Adding <b>گے</b> turns "please go" into "will go".</p>
+<p>The first part looks like the polite request forms you know: <b>جائیں</b>, <b>کریں</b>. Adding <b>گے</b> turns "please go" into "will go". In short, the first part ends in <b>-وں</b> with <b>میں</b>, <b>-و</b> with <b>تم</b>, <b>-ے</b> with "he" or "she", and <b>-یں</b> with <b>آپ</b>, <b>ہم</b> and "they".</p>
 {{ex:میں کل لاہور جاؤں گا۔|maĩ kal lāhaur jāū̃ gā.|I'll go to Lahore tomorrow. (a man speaking)}}
 {{ex:میں کل لاہور جاؤں گی۔|maĩ kal lāhaur jāū̃ gī.|I'll go to Lahore tomorrow. (a woman speaking)}}
 {{ex:سارہ شام کو آئے گی۔|sārā shām ko āe gī.|Sarah will come in the evening.}}
@@ -333,7 +333,7 @@ module.exports = [
 <p>Questions work as before: the question word goes where the answer would go, just before the verb. To a friend, use <b>تم</b> with the <b>-و</b> form. For "won't", put <b>نہیں</b> before the verb: <b>میں کل نہیں آؤں گا</b> (I won't come tomorrow). Unlike <b>ہے</b>, the <b>گا</b> part is never dropped.</p>
 {{ex:تم کب آؤ گے؟|tum kab āo ge?|When will you come? (to a male friend)}}
 <h3>کل: yesterday or tomorrow</h3>
-<p><b>کل</b> <i>kal</i> means both "yesterday" and "tomorrow". The verb tells you which: a past verb makes it yesterday, a future verb tomorrow. <b>پرسوں</b> works the same way for "the day before yesterday" and "the day after tomorrow".</p>
+<p><b>کل</b> <i>kal</i> means both "yesterday" and "tomorrow". The verb tells you which: a past verb makes it yesterday, a future verb tomorrow. <b>پرسوں</b> <i>parsõ</i> works the same way for "the day before yesterday" and "the day after tomorrow".</p>
 {{ex:کل میں لاہور گیا۔|kal maĩ lāhaur gayā.|I went to Lahore yesterday. (a man speaking)}}
 {{ex:وہ کل آئے گا۔|voh kal āe gā.|He'll come tomorrow.}}
 <h3>Plans and ان شاء اللہ</h3>
@@ -350,7 +350,7 @@ module.exports = [
     practice: [
       ["mc", "'I will come tomorrow' (a man speaking) =", "میں کل آؤں گا", "میں کل آؤں گی", "میں کل آیا", "میں کل آئے گا", "A man speaking: آؤں + گا. آیا is the past."],
       ["mc", "'Sarah will cook' =", "سارہ کھانا بنائے گی", "سارہ کھانا بنائے گا", "سارہ کھانا بناؤں گی", "سارہ نے کھانا بنایا", "Sarah is one woman: بنائے + گی. بنایا is the past."],
-      ["mc", "'What will you do?' (to a man) =", "آپ کیا کریں گے؟", "آپ کیا کریں گا؟", "آپ کیا کرو گے؟", "آپ کیا کرے گے؟", "آپ takes کریں گے; کرو گے goes with تم."],
+      ["mc", "'What will you do?' (to a man) =", "آپ کیا کریں گے؟", "آپ کیا کریں گا؟", "آپ کیا کروں گے؟", "آپ کیا کرے گے؟", "آپ takes the -یں form and the plural گے: کریں گے."],
       ["mc", "'See you later' =", "پھر ملیں گے", "پھر ملیں گا", "پھر ملا", "پھر مل رہا ہے", "پھر ملیں گے, literally 'we'll meet again', is the usual friendly goodbye."],
       ["mc", "Which sentence is about tomorrow?", "کل وہ لاہور جائے گا", "کل وہ لاہور گیا", "کل وہ لاہور میں تھا", "وہ روز لاہور جاتا ہے", "Only جائے گا is future, so only there does کل mean tomorrow."],
       ["or", "I will go tomorrow (a woman speaking; start with میں)", "میں کل جاؤں گی", "گا", "A woman speaking: the future word agrees with her, so گی is feminine."],
@@ -362,6 +362,110 @@ module.exports = [
       ["ty", "I will go to Lahore tomorrow (a man speaking)", "میں کل لاہور جاؤں گا|کل میں لاہور جاؤں گا|کل لاہور جاؤں گا", "میں · کل · لاہور · جانا", "گی", "A man speaking: the future word is masculine, گا."],
       ["ty", "The girls will come tomorrow", "لڑکیاں کل آئیں گی|کل لڑکیاں آئیں گی", "لڑکیاں · کل · آنا", "گے", "لڑکیاں is feminine plural, so the future word is گی."],
       ["ty", "What will you do tomorrow? (to a man)", "آپ کل کیا کریں گے|کل آپ کیا کریں گے", "آپ · کل · کیا · کرنا", "گا", "آپ takes the plural: کریں گے, even for one man."]
+    ]
+  },
+  {
+    id: "can-must",
+    title: "Can and must: سکنا, مجھے جانا ہے",
+    blurb: "Say what you can and can't do, ask permission, and say what you have to do or should do.",
+    deck: "Health and help",
+    body: `
+<p>English has a set of little helper words: can, may, have to, should. Urdu builds the same ideas from patterns you already know.</p>
+<h3>can: stem + سکنا</h3>
+<p>English says "can speak", with the plain verb. Urdu uses the <b>stem</b> of the verb, then <b>سکنا</b> <i>saknā</i> in the habitual form: <b>سکتا</b>, <b>سکتی</b>, <b>سکتے</b>, then <b>ہوں</b>, <b>ہے</b> or <b>ہیں</b>. The stem never changes; <b>سکتا</b> agrees with the subject, exactly like <b>کرتا</b>.</p>
+{{ex:میں اردو بول سکتا ہوں۔|maĩ urdū bol saktā hū̃.|I can speak Urdu. (a man speaking)}}
+{{ex:وہ گاڑی چلا سکتی ہے۔|voh gāṛī chalā saktī hai.|She can drive.}}
+<p>For "can't", put <b>نہیں</b> before the verb. As usual, the final <b>ہوں</b> or <b>ہے</b> is often dropped.</p>
+{{ex:میں کل نہیں آ سکتا۔|maĩ kal nahī̃ ā saktā.|I can't come tomorrow. (a man speaking)}}
+<h3>Asking permission and asking for help</h3>
+<p>"May I…?" is a yes-no question with <b>کیا</b> at the start and <b>سکتا ہوں</b> or <b>سکتی ہوں</b> at the end. "Can you…?" uses <b>سکتے ہیں</b> with <b>آپ</b>, a polite way to ask a favor.</p>
+{{ex:کیا میں اندر آ سکتا ہوں؟|kyā maĩ andar ā saktā hū̃?|May I come in? (a man speaking)}}
+{{ex:کیا آپ میری مدد کر سکتے ہیں؟|kyā āp merī madad kar sakte haĩ?|Can you help me? (to a man)}}
+<h3>have to: مجھے + infinitive + ہے</h3>
+<p>"I have to go" is built like <b>مجھے چاہیے</b>: the person takes <b>کو</b> (<b>مجھے</b>, <b>آپ کو</b>, <b>ہمیں</b>), then the full verb with <b>نا</b>, then <b>ہے</b>. Literally, "to me, going is".</p>
+{{ex:مجھے جانا ہے۔|mujhe jānā hai.|I have to go.}}
+{{ex:ہمیں کل جلدی اٹھنا ہے۔|hamẽ kal jaldī uṭhnā hai.|We have to get up early tomorrow.}}
+<p>It is also the polite way to leave: <b>مجھے جانا ہے</b>, then <b>اللہ حافظ</b>. For a friend the person is <b>تمہیں</b>; for anyone else, the name plus <b>کو</b>: <b>علی کو کام کرنا ہے</b> (Ali has to work). The verb never changes for the person, because the person is not the subject.</p>
+<h3>should: مجھے + infinitive + چاہیے</h3>
+<p>Swap <b>ہے</b> for <b>چاہیے</b> and "have to" becomes "should". This is the pattern for advice, from friends and from doctors alike. It is softer than <b>ہے</b>: a suggestion, not an obligation.</p>
+{{ex:آپ کو آرام کرنا چاہیے۔|āp ko ārām karnā chāhie.|You should rest.}}
+{{ex:آپ کو ڈاکٹر کے پاس جانا چاہیے۔|āp ko ḍākṭar ke pās jānā chāhie.|You should see a doctor.}}
+<div class="tbl"><table><tr><th>English</th><th>Urdu pattern</th></tr><tr><td>I can go</td><td class="k">میں جا سکتا ہوں</td></tr><tr><td>I have to go</td><td class="k">مجھے جانا ہے</td></tr><tr><td>I should go</td><td class="k">مجھے جانا چاہیے</td></tr></table></div>
+<p>Notice the split: "can" starts with <b>میں</b> and uses the stem; "have to" and "should" start with <b>مجھے</b> and use the full verb.</p>
+<div class="tip"><b>Most common mistake:</b> keeping the English "I" in "I have to". <b>میں جانا ہے</b> → <b>مجھے جانا ہے</b> (I have to go). And with "can", drop the <b>نا</b>: <b>میں بولنا سکتا ہوں</b> → <b>میں بول سکتا ہوں</b>.</div>
+`,
+    check: [
+      ["'I can speak Urdu' (a man speaking) =", ["میں اردو بولنا سکتا ہوں", "میں اردو بول سکتا ہوں", "مجھے اردو بول سکتا ہوں", "میں اردو بول سکتی ہوں"], 1, "Stem بول + سکتا ہوں, and a man uses سکتا."],
+      ["'I have to go' =", ["مجھے جانا ہے", "میں جانا ہے", "میں جانا ہوں", "مجھے جا سکتا ہوں"], 0, "Have to: the person takes مجھے, then the infinitive جانا and ہے."],
+      ["Which word turns مجھے جانا ہے (I have to go) into 'I should go'?", ["سکتا", "تھا", "چاہیے", "گا"], 2, "مجھے جانا چاہیے = I should go."]
+    ],
+    practice: [
+      ["mc", "'I can speak Urdu' (a man speaking) =", "میں اردو بول سکتا ہوں", "میں اردو بولنا سکتا ہوں", "میں اردو بول سکتی ہوں", "مجھے اردو بول سکتا ہوں", "Stem بول, then سکتا, which agrees with a man speaking."],
+      ["mc", "'I have to go' =", "مجھے جانا ہے", "میں جانا ہے", "میں جانا ہوں", "مجھے جاتا ہے", "Have to: مجھے + infinitive + ہے."],
+      ["mc", "'You should rest' (politely) =", "آپ کو آرام کرنا چاہیے", "آپ آرام کرنا چاہیے", "آپ کو آرام کرتا چاہیے", "آپ کا آرام کرنا چاہیے", "Should: آپ کو + infinitive + چاہیے."],
+      ["mc", "'May I sit here?' (a woman speaking) =", "کیا میں یہاں بیٹھ سکتی ہوں؟", "کیا میں یہاں بیٹھ سکتا ہوں؟", "کیا مجھے یہاں بیٹھ سکتی ہوں؟", "کیا میں یہاں بیٹھنا سکتی ہوں؟", "A woman speaking: stem بیٹھ + سکتی ہوں."],
+      ["mc", "'I can't come tomorrow' (a man speaking) =", "میں کل نہیں آ سکتا", "میں کل نہیں آ سکتی", "مجھے کل نہیں آنا", "میں کل نہیں آؤں گا", "نہیں goes before آ سکتا, and a man speaking uses سکتا."],
+      ["or", "We have to get up early tomorrow (start with ہمیں)", "ہمیں کل جلدی اٹھنا ہے", "ہم", "Have to takes the oblique form with کو: ہمیں, not ہم."],
+      ["or", "She can drive (use گاڑی)", "وہ گاڑی چلا سکتی ہے", "سکتا", "She is feminine, so سکتی."],
+      ["or", "May I come in? (a man speaking)", "کیا میں اندر آ سکتا ہوں", "سکتی", "A man speaking: سکتا is masculine."],
+      ["fi", "مجھے کل کام کرنا __۔", "I have to work tomorrow.", "ہے", "ہوں|ہیں|ہوا", "With مجھے the verb does not follow 'I': infinitive + ہے."],
+      ["fi", "آپ کو ڈاکٹر کے پاس جانا __۔", "You should see a doctor.", "چاہیے", "ہیں|چاہتا|سکتے", "Should = infinitive + چاہیے."],
+      ["fi", "میں اردو بول __ ہوں۔", "I can speak Urdu. (a woman speaking)", "سکتی", "سکتا|سکنا|سکے", "A woman speaking: سکتی."],
+      ["ty", "I have to go", "مجھے جانا ہے|مجھ کو جانا ہے", "میں → ? · جانا · ہے", "میں", "Have to takes the oblique form with کو: مجھے, not میں."],
+      ["ty", "Can you help me? (to a man, politely)", "کیا آپ میری مدد کر سکتے ہیں|آپ میری مدد کر سکتے ہیں", "کیا · آپ · میرا · مدد · کرنا · سکنا", "سکتا میرا", "آپ takes the plural سکتے ہیں, and مدد is feminine, so my is میری."],
+      ["ty", "You should rest (politely)", "آپ کو آرام کرنا چاہیے", "آپ · آرام · کرنا · چاہیے", "کا", "With چاہیے the person takes the postposition کو: آپ کو."]
+    ]
+  },
+  {
+    id: "connectors",
+    title: "اور, لیکن, کیونکہ: joining ideas",
+    blurb: "Join short sentences into longer ones: and, or, but, because, so, that, if and when.",
+    deck: "Questions and connectors",
+    body: `
+<p>You can already say a lot in short sentences. This lesson gives you the small words that join them, so you can explain, give reasons and talk about plans with conditions. Each half keeps its own word order, with its verb at the end.</p>
+<h3>and, or, but</h3>
+<p>These work as in English, between the two things they join: <b>اور</b> <i>aur</i> (and), <b>یا</b> <i>yā</i> (or), <b>لیکن</b> <i>lekin</i> (but). <b>مگر</b> <i>magar</i> also means "but" and is a little more formal. Two people joined by <b>اور</b> are plural, so the verb agrees: <b>ہیں</b>. A question with <b>یا</b> offers a choice, as at a dhaba.</p>
+{{ex:علی اور سارہ دوست ہیں۔|alī aur sārā dost haĩ.|Ali and Sarah are friends.}}
+{{ex:چائے یا کافی؟|chāy yā kāfī?|Tea or coffee?}}
+{{ex:مجھے اردو پسند ہے، لیکن یہ مشکل ہے۔|mujhe urdū pasand hai, lekin yeh mushkil hai.|I like Urdu, but it's hard.}}
+<h3>because, and so</h3>
+<p>English learners often swap these two. <b>کیونکہ</b> <i>kyõki</i> (because) comes before the reason. <b>اس لیے</b> <i>is lie</i> (so, that's why) comes before the result. Same facts, two orders:</p>
+{{ex:میں نہیں آیا، کیونکہ میں بیمار تھا۔|maĩ nahī̃ āyā, kyõki maĩ bīmār thā.|I didn't come because I was sick. (a man speaking)}}
+{{ex:میں بیمار تھا، اس لیے نہیں آیا۔|maĩ bīmār thā, is lie nahī̃ āyā.|I was sick, so I didn't come. (a man speaking)}}
+<h3>that: کہ</h3>
+<p>After "say", "think" and "know", English can drop "that". Urdu keeps it: <b>کہ</b> <i>ki</i> joins the two halves. Do not confuse it with <b>کہہ</b>, the stem of "say". A very common way to say "I think" uses it too: <b>مجھے لگتا ہے کہ</b>, literally "it seems to me that".</p>
+{{ex:سارہ کہتی ہے کہ وہ کل آئے گی۔|sārā kahtī hai ki voh kal āe gī.|Sarah says (that) she'll come tomorrow.}}
+<h3>if … then: اگر … تو</h3>
+<p>English often says "if" alone. Urdu likes a pair: <b>اگر</b> <i>agar</i> starts the condition and <b>تو</b> <i>to</i> starts the result, like "if … then".</p>
+{{ex:اگر بارش ہوئی تو ہم گھر پر رہیں گے۔|agar bārish huī to ham ghar par rahẽ ge.|If it rains, we'll stay at home.}}
+<h3>when: جب</h3>
+<p><b>جب</b> <i>jab</i> starts a time clause, which usually comes first. As with <b>اگر</b>, the second half may start with <b>تو</b>, but here it is optional.</p>
+{{ex:جب میں چھوٹا تھا، میں لاہور میں رہتا تھا۔|jab maĩ chhoṭā thā, maĩ lāhaur mẽ rahtā thā.|When I was little, I lived in Lahore. (a man speaking)}}
+<h3>and then: پھر</h3>
+<p>To tell events in order, Urdu likes <b>پھر</b> <i>phir</i> (then, next) between the steps, where English might just say "and".</p>
+{{ex:ہم نے کھانا کھایا، پھر بازار گئے۔|ham ne khānā khāyā, phir bāzār gae.|We ate, and then we went to the bazaar.}}
+<div class="tip"><b>Most common mistake:</b> using <b>کیونکہ</b> before the result, as if it meant "so". <b>میں بیمار تھا، کیونکہ نہیں آیا</b> → <b>میں بیمار تھا، اس لیے نہیں آیا</b> (I was sick, so I didn't come).</div>
+`,
+    check: [
+      ["'Tea or coffee?' =", ["چائے اور کافی؟", "چائے یا کافی؟", "چائے لیکن کافی؟", "چائے کہ کافی؟"], 1, "یا means 'or'; اور is 'and'."],
+      ["'I was sick, so I didn't come' (a man speaking) =", ["میں بیمار تھا، کیونکہ نہیں آیا", "میں بیمار تھا، لیکن نہیں آیا", "میں بیمار تھا، اس لیے نہیں آیا", "میں بیمار تھا، یا نہیں آیا"], 2, "اس لیے (so) comes before the result; کیونکہ (because) comes before the reason."],
+      ["Which word starts the second half of an اگر sentence?", ["تو", "کہ", "یا", "جب"], 0, "اگر … تو is the 'if … then' pair."]
+    ],
+    practice: [
+      ["mc", "'Tea or coffee?' =", "چائے یا کافی؟", "چائے اور کافی؟", "چائے لیکن کافی؟", "چائے کہ کافی؟", "یا means 'or'."],
+      ["mc", "'I was sick, so I didn't come' (a man speaking) =", "میں بیمار تھا، اس لیے نہیں آیا", "میں بیمار تھا، کیونکہ نہیں آیا", "میں بیمار تھا، لیکن نہیں آیا", "میں بیمار تھا، یا نہیں آیا", "اس لیے comes before the result; کیونکہ would need the reason after it."],
+      ["mc", "Which word means 'because'?", "کیونکہ", "اس لیے", "لیکن", "اگر", "کیونکہ = because; اس لیے = so; لیکن = but; اگر = if."],
+      ["mc", "If it rains, we'll stay home: اگر بارش ہوئی ___ ہم گھر پر رہیں گے", "تو", "کہ", "اور", "یا", "اگر pairs with تو: if … then."],
+      ["mc", "'We ate, then went to the bazaar' =", "ہم نے کھانا کھایا، پھر بازار گئے", "ہم کھانا کھایا، پھر بازار گئے", "ہم نے کھانا کھایا، پھر بازار گیا", "ہم نے کھانا کھایا، کہ بازار گئے", "پھر joins the steps; کھایا needs نے, and گئے agrees with ہم."],
+      ["or", "Ali and Sarah are friends (start with علی)", "علی اور سارہ دوست ہیں", "ہے", "Two people joined by اور are plural, so the verb agrees: ہیں."],
+      ["or", "I was sick, so I didn't come (a man speaking)", "میں بیمار تھا اس لیے نہیں آیا", "تھی", "A man speaking: تھا and آیا are masculine; اس لیے comes before the result."],
+      ["or", "Sarah says that she will come (start with سارہ)", "سارہ کہتی ہے کہ وہ آئے گی", "کہتا گا", "سارہ is a woman, so کہتی and گی are feminine; کہ joins the halves."],
+      ["fi", "مجھے اردو پسند ہے، __ یہ مشکل ہے۔", "I like Urdu, but it's hard.", "لیکن|مگر", "کیونکہ|اس لیے|یا", "لیکن or مگر means 'but'."],
+      ["fi", "میں نہیں آیا، __ میں بیمار تھا۔", "I didn't come because I was sick.", "کیونکہ", "اس لیے|لیکن|اگر", "کیونکہ comes before the reason."],
+      ["fi", "اگر بارش ہوئی __ ہم گھر پر رہیں گے۔", "If it rains, we'll stay at home.", "تو", "کہ|اور|یا", "اگر … تو: تو starts the result."],
+      ["ty", "Ali and Sarah are friends", "علی اور سارہ دوست ہیں|سارہ اور علی دوست ہیں", "علی · اور · سارہ · دوست", "ہے", "Two people make a plural subject, so the verb agrees: ہیں."],
+      ["ty", "I was sick, so I stayed at home (a woman speaking)", "میں بیمار تھی اس لیے گھر پر رہی|میں بیمار تھی اس لیے مَیں گھر پر رہی|میں بیمار تھی اس لیے گھر میں رہی|میں بیمار تھی اس لیے مَیں گھر میں رہی", "میں · بیمار · تھا · اس لیے · گھر · رہنا", "تھا", "A woman speaking: تھی and رہی are feminine."],
+      ["ty", "I like Urdu, but it's difficult", "مجھے اردو پسند ہے لیکن یہ مشکل ہے|مجھے اردو پسند ہے مگر یہ مشکل ہے|مجھ کو اردو پسند ہے لیکن یہ مشکل ہے|مجھ کو اردو پسند ہے مگر یہ مشکل ہے|مجھے اردو پسند ہے لیکن مشکل ہے|مجھے اردو پسند ہے مگر مشکل ہے|مجھے اردو پسند ہے لیکن اردو مشکل ہے|مجھے اردو پسند ہے مگر اردو مشکل ہے", "مجھے · اردو · پسند · لیکن · مشکل", "میں", "Liking takes the oblique form with کو: مجھے, not میں."]
     ]
   },
 ];

@@ -17,7 +17,7 @@ module.exports = [
 {{ex:یہ ٹوپی ہے۔|yeh ṭopī hai.|This is a cap.}}
 {{ex:ٹیپ|ṭep|tape}}
 <h3>Vowel letters and long vowels</h3>
-<p><b>ا</b> <i>alif</i> at the start of a word carries a vowel; elsewhere it is a long ā, as in "father". <b>آ</b> <i>alif madd</i>, alif madd, is ā at the start of a word. <b>و</b> <i>vāo</i> can be v, o, ū or au; <b>ی</b> <i>choṭī ye</i> can be y, ī or e; <b>ے</b> <i>baṛī ye</i> comes only at the end, for e or ai. The macron in ā ī ū marks a long vowel.</p>
+<p><b>ا</b> <i>alif</i> at the start of a word carries a vowel; elsewhere it is a long ā, as in "father". <b>آ</b> <i>alif madd</i> is ā at the start of a word. <b>و</b> <i>vāo</i> can be v, o, ū or au; <b>ی</b> <i>choṭī ye</i> can be y, ī or e; <b>ے</b> <i>baṛī ye</i> comes only at the end, for e or ai. The macron in ā ī ū marks a long vowel.</p>
 {{ex:آپ|āp|you (polite)}}
 {{ex:باپ|bāp|father}}
 {{ex:بیٹی|beṭī|daughter}}
@@ -108,6 +108,7 @@ module.exports = [
 <p>English spells one sound many ways: "c", "k" and "ck" can all be k. Urdu has the same habit, because it took words from Arabic and Persian with their spelling. This lesson adds twelve letters in pairs of shapes; as before, the dots decide.</p>
 <h3>Four letters, one shape</h3>
 <div class="tbl"><table><tr><th>Letter</th><th>Name</th><th>Sound</th></tr><tr><td class="k">ج</td><td>jīm</td><td>j, as in "jam"</td></tr><tr><td class="k">چ</td><td>che</td><td>ch, as in "church"</td></tr><tr><td class="k">ح</td><td>baṛī he</td><td>h</td></tr><tr><td class="k">خ</td><td>ḵhe</td><td>ḵh, like the ch in Scottish "loch"</td></tr></table></div>
+<p>Later, ھ will turn چ into چھ, chh: the same ch with a puff of air.</p>
 {{ex:جوتا|jūtā|shoe}}
 {{ex:سچ|sach|truth}}
 <h3>Two sounds English lacks</h3>
@@ -124,7 +125,7 @@ module.exports = [
 {{ex:صبح|subah|morning}}
 {{ex:ضرور|zarūr|of course}}
 <p>The sound differences you must hear are still the ones from Letters 1 and 2: dental against retroflex, and a long vowel against a short one.</p>
-<div class="tip"><b>Most common mistake:</b> reading خ as k + h. <b>خط</b> is a letter you mail, said with a rough ḵh; there is no k in it: <b>kat</b> → <b>ḵhat</b>.</div>
+<div class="tip"><b>Most common mistake:</b> reading خ as k + h. <b>خط</b> is a letter you mail, said with a rough ḵh; there is no k in it: "kat" → <i>ḵhat</i>.</div>
 `,
     check: [
       ["How many letters can spell the sound z?",["One","Two","Four","None: Urdu has no z"],2,"ذ ز ض ظ all sound like z."],
@@ -167,7 +168,7 @@ module.exports = [
 <h3>Final ہ is usually -ā</h3>
 <p>This is the big surprise. At the end of a word, <b>ہ</b> <i>choṭī he</i> usually stands for the vowel ā, not for h. <b>کمرہ</b> <i>kamrā</i> ends in ā, just like a word ending in ا. A few words do end in a real h, such as the number <b>بارہ</b> <i>bārah</i>, twelve; the romanisation always tells you which.</p>
 {{ex:کمرہ|kamrā|room}}
-<p>One more mark: <b>ء</b> <i>hamza</i>, hamza, shows where one vowel meets another, as in <b>آئیے</b> <i>āie</i>, "come in". The romanisation does not write it.</p>
+<p>One more mark: <b>ء</b> <i>hamza</i> shows where one vowel meets another, as in <b>آئیے</b> <i>āie</i>, "come in". The romanisation does not write it.</p>
 <h3>A note for readers of Arabic script</h3>
 <p>If you read Arabic, note that Urdu has its own ک and ی. They look a little different from the Arabic letters and are separate letters on the keyboard. Type the Urdu ones when you can.</p>
 {{ex:یہ ٹماٹر ہے۔|yeh ṭamāṭar hai.|This is a tomato.}}
@@ -213,10 +214,10 @@ module.exports = [
 {{ex:دودھ|dūdh|milk}}
 <p>Compare <b>کہاں</b> <i>kahā̃</i>, "where": the round ہ is a real h after the vowel, not a puff on the k.</p>
 <h3>The nasal ں</h3>
-<p><b>ں</b> <i>nūn ġunna</i>, nūn ġunna, looks like ن without its dot. It has no n sound of its own: it sends the vowel before it through the nose, as in French "non". The romanisation marks this nasal vowel with a tilde (~).</p>
+<p><b>ں</b> <i>nūn ġunna</i> looks like ن without its dot. It has no n sound of its own: it sends the vowel before it through the nose, as in French "non". The romanisation marks this nasal vowel with a tilde (~).</p>
 {{ex:ہاں|hā̃|yes}}
 {{ex:میں ٹھیک ہوں۔|maĩ ṭhīk hū̃.|I'm fine.}}
-<p>In the middle of a word, the same nasal sound is written with an ordinary ن, as in <b>نہیں</b> <i>nahī̃</i>, "no".</p>
+<p>In the middle of a word, the same nasal sound is written with an ordinary ن, as in <b>پانچ</b> <i>pā̃ch</i>, "five".</p>
 <h3>Vowel marks, and why you will rarely see them</h3>
 <p>Urdu can show short vowels with small marks: zabar above for a, zer below for i, pesh above for u. Shadda doubles a letter, and jazm shows that no vowel follows. Children's books and dictionaries use them; real Urdu leaves them out, and so does this course after today. The romanisation fills in what they would show.</p>
 <div class="tbl"><table><tr><th>Mark</th><th>Example</th><th>Sound</th></tr><tr><td>zabar</td><td class="k">بَ</td><td>ba</td></tr><tr><td>zer</td><td class="k">بِ</td><td>bi</td></tr><tr><td>pesh</td><td class="k">بُ</td><td>bu</td></tr><tr><td>shadda</td><td class="k">بچّہ</td><td>a doubled ch</td></tr></table></div>
@@ -252,7 +253,7 @@ module.exports = [
     blurb: "Say hello, goodbye, thank you and excuse me, ask how someone is, and choose the polite آپ.",
     deck: "Greetings and courtesy",
     body: `
-<p>From this lesson on, Urdu appears as it really is written, without vowel marks. Read the Urdu first; glance at the romanisation only to check.</p>
+<p>From this lesson on, Urdu appears as it really is written, without vowel marks. The one exception is a handful of words that share their spelling with another word: they keep one small mark so you can tell them apart, like تُو below. Read the Urdu first; glance at the romanisation only to check.</p>
 <h3>Hello and goodbye</h3>
 <p>English changes its greeting with the time of day. In Pakistan one greeting works morning, noon and night, with anyone: <b>السلام علیکم</b> <i>assalāmu alaikum</i>, "peace be upon you". The reply is <b>وعلیکم السلام</b> <i>va-alaikum assalām</i>, "and upon you peace".</p>
 {{ex:السلام علیکم۔|assalāmu alaikum.|Hello.}}
@@ -292,8 +293,8 @@ module.exports = [
       ["fi","آپ کیسے __؟","How are you? (to a man)","ہیں","ہے|ہو|ہوں","آپ always takes the plural verb ہیں."],
       ["fi","__ حافظ۔","Goodbye.","اللہ|خدا","سلام|شکریہ|جی","Goodbye is اللہ حافظ or خدا حافظ; both are correct."],
       ["fi","کوئی بات __۔","No problem.","نہیں","ہیں|ہاں|ہے","کوئی بات نہیں: literally, it's nothing."],
-      ["ty","How are you? (to a woman)","آپ کیسی ہیں","آپ · کیسی · ہیں · to a woman","کیسے ہے","To a woman, کیسی agrees with her, and آپ takes the plural ہیں."],
-      ["ty","How are you? (to a man)","آپ کیسے ہیں","آپ · کیسے · ہیں · to a man","کیسی ہے","To a man, کیسے agrees with him, and آپ takes the plural ہیں."],
+      ["ty","How are you? (to a woman)","آپ کیسی ہیں","آپ · کیسے / کیسی · ہیں","کیسے ہے","To a woman, کیسی agrees with her, and آپ takes the plural ہیں."],
+      ["ty","How are you? (to a man)","آپ کیسے ہیں","آپ · کیسے / کیسی · ہیں","کیسی ہے","To a man, کیسے agrees with him, and آپ takes the plural ہیں."],
       ["ty","Goodbye.","اللہ حافظ|خدا حافظ","اللہ · حافظ","سلام شکریہ","اللہ حافظ is the usual goodbye; خدا حافظ is also correct."]
     ]
   },
@@ -347,6 +348,159 @@ module.exports = [
       ["ty","I'm American.","میں امریکی ہوں|امریکی ہوں","میں · امریکی · ہونا","ہے ہیں","The verb agrees with میں: ہوں."],
       ["ty","You're a doctor. (polite)","آپ ڈاکٹر ہیں","آپ · ڈاکٹر · ہونا","ہے ہو","آپ takes the plural ہیں, even for one person."],
       ["ty","He's sick. (your friend's little brother)","وہ بیمار ہے|یہ بیمار ہے","یہ · بیمار · ہونا","ہوں ہو","One person, no respect plural needed: وہ or یہ with ہے."]
+    ]
+  },
+  {
+    id: "intro",
+    title: "Introducing yourself, and yes-no questions with کیا",
+    blurb: "Give your name, where you are from, where you live and your age, and ask simple yes-no questions with کیا.",
+    deck: "Traps for English speakers",
+    body: `
+<h3>Your name</h3>
+<p>English says "my name is". Urdu says the same, with the verb last: <b>میرا نام</b> <i>merā nām</i> … <b>ہے</b> <i>hai</i>. "Name" is a masculine word in Urdu, so "my" is میرا whoever is speaking, man or woman. Never add جی after your own name; جی is respect you give to others.</p>
+{{ex:میرا نام ڈیوڈ ہے۔|merā nām ḍeviḍ hai.|My name is David.}}
+<h3>Where you are from, and where you live</h3>
+<p>English puts "from" and "in" before the place. Urdu puts them after it: <b>امریکہ سے</b> <i>amrīkā se</i>, "America from". These little words are called postpositions, and a whole lesson on them comes later.</p>
+{{ex:میں امریکہ سے ہوں۔|maĩ amrīkā se hū̃.|I'm from America.}}
+<p>To say where you live, use میں after the city. It is spelled just like میں, "I", but after a place it means "in" and is said <b>مِیں</b> <i>mẽ</i>; the small mark is only here to show the reading. The word for "live" changes with the speaker: a man says <b>رہتا ہوں</b> <i>rahtā hū̃</i>, a woman says <b>رہتی ہوں</b> <i>rahtī hū̃</i>.</p>
+{{ex:میں ہیوسٹن میں رہتا ہوں۔|maĩ hyūsṭan mẽ rahtā hū̃.|I live in Houston. (a man speaking)}}
+{{ex:میں شکاگو میں رہتی ہوں۔|maĩ shikāgo mẽ rahtī hū̃.|I live in Chicago. (a woman speaking)}}
+<p>And when someone asks آپ کیسے ہیں؟, the everyday answer is <b>میں ٹھیک ہوں</b> <i>maĩ ṭhīk hū̃</i>, "I am fine", with the same ہوں.</p>
+<h3>Your age</h3>
+<p>English says "I am 25". In Urdu that sounds like "I am 25 years", a strange thing to be. Say "my age is 25 years" instead. Age, <b>عمر</b> <i>umr</i>, is a feminine word, so "my" becomes میری.</p>
+{{ex:میری عمر پچیس سال ہے۔|merī umr pacchīs sāl hai.|I'm twenty-five.}}
+<p>You will also hear میں پچیس سال کا ہوں from a man and میں پچیس سال کی ہوں from a woman. Both are correct.</p>
+<h3>Yes-no questions with کیا</h3>
+<p>English turns "you are" around: "are you?". Urdu keeps the order of the sentence and puts <b>کیا</b> <i>kyā</i> at the start. In speech, a rising voice alone can also make the question.</p>
+{{ex:کیا آپ پاکستانی ہیں؟|kyā āp pākistānī haĩ?|Are you Pakistani?}}
+{{ex:جی ہاں، میں پاکستانی ہوں۔|jī hā̃, maĩ pākistānī hū̃.|Yes, I'm Pakistani.}}
+{{ex:جی نہیں، میں امریکی ہوں۔|jī nahī̃, maĩ amrīkī hū̃.|No, I'm American.}}
+<p>Here کیا has no meaning of its own: it just tells the listener a question is coming. To answer, start with جی ہاں or جی نہیں from the greetings lesson, then say the sentence again with میں if you like.</p>
+<div class="tip"><b>Most common mistake:</b> giving your age the English way. <b>میں پچیس سال ہوں</b> → <b>میری عمر پچیس سال ہے</b>.</div>
+`,
+    check: [
+      ["A woman says her name. Which is right?",["میری نام سارہ ہے","میرا نام سارہ ہے","میرا نام سارہ جی ہے","میں نام سارہ ہوں"],1,"نام is masculine, so it is میرا for everyone, and no جی after your own name."],
+      ["How do you make آپ ڈاکٹر ہیں into a yes-no question?",["Put کیا at the start","Move ہیں to the front","Put کیا at the end","Change ہیں to ہے"],0,"Keep the order and put کیا at the start: کیا آپ ڈاکٹر ہیں؟"],
+      ["How do you say I'm thirty?",["میں تیس سال ہوں","میرا عمر تیس سال ہے","میری عمر تیس سال ہے","میری عمر تیس سال ہوں"],2,"Say my age is thirty years; عمر is feminine, so میری, and the verb is ہے."]
+    ],
+    practice: [
+      ["mc","My name is Ali. =","میرا نام علی ہے","میرا نام علی جی ہے","میری نام علی ہے","میں نام علی ہوں","نام is masculine, so میرا; and no جی after your own name."],
+      ["mc","Which word makes آپ پاکستانی ہیں a yes-no question?","کیا, at the start","کیا, at the end","ہے, at the start","جی, at the end","کیا at the start turns a statement into a yes-no question."],
+      ["mc","I'm thirty. =","میری عمر تیس سال ہے","میں تیس سال ہوں","میرا عمر تیس سال ہے","میری عمر تیس سال ہوں","Say my age is thirty years: میری عمر … ہے."],
+      ["mc","I live in Karachi. (a woman speaking)","میں کراچی میں رہتی ہوں","میں کراچی میں رہتا ہوں","میں کراچی میں رہتی ہے","میں کراچی سے رہتی ہوں","A woman says رہتی ہوں; in is میں after the city."],
+      ["mc","Someone asks آپ کیسے ہیں؟ You answer…","میں ٹھیک ہوں","میں ٹھیک ہے","آپ ٹھیک ہیں","خوش آمدید","میں takes ہوں: میں ٹھیک ہوں."],
+      ["or","My name is David.","میرا نام ڈیوڈ ہے","میری","نام is masculine, so my is میرا."],
+      ["or","I'm twenty-five. (my age is 25 years)","میری عمر پچیس سال ہے","میرا","عمر is feminine, so my agrees as میری."],
+      ["or","Are you from America? (start with کیا)","کیا آپ امریکہ سے ہیں","ہے","آپ takes the plural ہیں, and the postposition سے comes after امریکہ."],
+      ["fi","__ نام سارہ ہے۔","My name is Sarah.","میرا","میری|میرے|میں","نام is masculine, so my is میرا, even for a woman."],
+      ["fi","میں شکاگو میں __ ہوں۔","I live in Chicago. (a woman speaking)","رہتی","رہتا|رہتے|رہنا","A woman speaking says رہتی ہوں."],
+      ["fi","میں امریکہ __ ہوں۔","I'm from America.","سے","میں|ہے|کیا","From is سے, after the place."],
+      ["ty","I live in Lahore. (a man speaking)","میں لاہور میں رہتا ہوں|لاہور مِیں رہتا ہوں","لاہور · میں (in) · رہتا / رہتی ہوں","رہتی ہے","The verb agrees with a man speaking: رہتا ہوں."],
+      ["ty","My name is Sarah.","میرا نام سارہ ہے","نام · سارہ · ہونا","میری ہوں","نام is masculine, so my is میرا, even for a woman."],
+      ["ty","Are you from Pakistan? (start with کیا)","کیا آپ پاکستان سے ہیں","کیا · آپ · پاکستان · سے (from) · ہونا","ہے میں","آپ takes the plural ہیں, and سے is a postposition after the noun."]
+    ]
+  },
+  {
+    id: "gender",
+    title: "Gender and plurals: لڑکا, لڑکے, لڑکی, لڑکیاں",
+    blurb: "Tell masculine from feminine nouns, spot the exceptions, and make nouns plural.",
+    deck: "Home and daily things",
+    body: `
+<p>English calls every thing "it". In Urdu every noun is either masculine or feminine, things as well as people: a room is masculine, a book is feminine. You cannot hear it in the noun itself, but you see it in the words around it. You have already met one: <b>میرا</b> <i>merā</i> for a masculine noun, <b>میری</b> <i>merī</i> for a feminine one.</p>
+{{ex:یہ میرا گھر ہے۔|yeh merā ghar hai.|This is my house.}}
+{{ex:یہ میری کتاب ہے۔|yeh merī kitāb hai.|This is my book.}}
+<p>For people, gender simply follows the person: a boy or a man is masculine, a girl or a woman, <b>عورت</b> <i>aurat</i>, is feminine. For things there is no logic to find; a table is not more "feminine" than a room.</p>
+<h3>Endings that help</h3>
+<p>Most nouns ending in -ā, written ا or ہ, are masculine: <b>لڑکا</b> <i>laṛkā</i> boy, <b>کمرہ</b> <i>kamrā</i> room, <b>کپڑا</b> <i>kapṛā</i> cloth. Most nouns ending in -ī, written ی, are feminine: <b>لڑکی</b> <i>laṛkī</i> girl, <b>گاڑی</b> <i>gāṛī</i> car, <b>کرسی</b> <i>kursī</i> chair.</p>
+<h3>Exceptions worth learning now</h3>
+<p>Some very common words break the pattern. <b>پانی</b> <i>pānī</i> water and <b>آدمی</b> <i>ādmī</i> man end in ی but are masculine. <b>کتاب</b> <i>kitāb</i> book, <b>بات</b> <i>bāt</i> matter and <b>میز</b> <i>mez</i> table are feminine with no ی at all. For words with other endings, learn the gender with the word, the way the cards in this course give it.</p>
+{{ex:یہ میرا پانی ہے۔|yeh merā pānī hai.|This is my water.}}
+<h3>Making plurals</h3>
+<p>English adds -s. Urdu has four patterns, decided by gender and ending.</p>
+<div class="tbl"><table><tr><th>Kind of noun</th><th>One</th><th>More than one</th></tr><tr><td>masculine in -ā</td><td class="k">لڑکا، کمرہ</td><td class="k">لڑکے، کمرے</td></tr><tr><td>other masculine (no change)</td><td class="k">گھر، آدمی</td><td class="k">گھر، آدمی</td></tr><tr><td>feminine in -ī</td><td class="k">لڑکی، کرسی</td><td class="k">لڑکیاں، کرسیاں</td></tr><tr><td>other feminine</td><td class="k">کتاب، میز</td><td class="k">کتابیں، میزیں</td></tr></table></div>
+{{ex:یہ لڑکے ہیں۔|yeh laṛke haĩ.|These are boys.}}
+{{ex:یہ لڑکیاں ہیں۔|yeh laṛkiyā̃ haĩ.|These are girls.}}
+{{ex:یہ دو کتابیں ہیں۔|yeh do kitābẽ haĩ.|These are two books.}}
+<p>When the noun does not change, as with گھر, the verb <b>ہیں</b> <i>haĩ</i> still shows that there is more than one.</p>
+{{ex:یہ دو گھر ہیں۔|yeh do ghar haĩ.|These are two houses.}}
+<h3>Learn it with a partner word</h3>
+<p>The quickest way to remember a gender is to learn each new noun with میرا or میری: میرا کمرہ, میری گاڑی. The pair sticks better than a rule.</p>
+<div class="tip"><b>Most common mistake:</b> using میرا for every noun, as English uses "my" for everything. <b>میرا کتاب</b> → <b>میری کتاب</b>.</div>
+`,
+    check: [
+      ["Which of these nouns is feminine?",["پانی","کمرہ","کتاب","گھر"],2,"کتاب is feminine even without ی; پانی is masculine even with it."],
+      ["What is the plural of لڑکی, girl?",["لڑکیاں","لڑکے","لڑکیں","لڑکی (no change)"],0,"A feminine noun in -ī adds اں: لڑکیاں."],
+      ["How do you show that گھر means houses, not house?",["Add ے: گھرے","Add یں: گھریں","The noun stays the same; ہیں shows the plural","You can't"],2,"گھر does not change; یہ دو گھر ہیں."]
+    ],
+    practice: [
+      ["mc","Which noun is feminine?","کتاب","پانی","کمرہ","گھر","کتاب is feminine, though it does not end in ی."],
+      ["mc","my water =","میرا پانی","میری پانی","میرے پانی","میں پانی","پانی is masculine, though it ends in ی: میرا پانی."],
+      ["mc","The plural of لڑکی, girl, is…","لڑکیاں","لڑکیں","لڑکے","لڑکیوں","A feminine noun in -ī takes اں in the plural: لڑکیاں."],
+      ["mc","These are rooms. =","یہ کمرے ہیں","یہ کمرہ ہیں","یہ کمرے ہے","یہ کمریں ہیں","کمرہ is masculine in -ā, so its plural is کمرے, with ہیں."],
+      ["mc","Which noun is masculine?","آدمی","لڑکی","بات","کرسی","آدمی, man, is masculine, though it ends in ی."],
+      ["or","These are boys.","یہ لڑکے ہیں","لڑکا ہے","The plural of the masculine لڑکا is لڑکے, and the verb is ہیں."],
+      ["or","my book","میری کتاب","میرا","کتاب is feminine, so my is میری."],
+      ["or","These are girls.","یہ لڑکیاں ہیں","لڑکی","The feminine لڑکی takes اں in the plural: لڑکیاں."],
+      ["fi","یہ دو __ ہیں۔","These are two rooms.","کمرے","کمرہ|کمریں|کمروں","The plural of the masculine کمرہ is کمرے."],
+      ["fi","یہ دو __ ہیں۔","These are two books.","کتابیں","کتاب|کتابے|کتابوں","The plural of the feminine کتاب is کتابیں."],
+      ["fi","یہ __ گاڑی ہے۔","This is my car.","میری","میرا|میرے|میں","گاڑی is feminine, so my is میری."],
+      ["ty","These are girls.","یہ لڑکیاں ہیں","یہ · لڑکی · ہونا","لڑکی ہے","لڑکی is feminine in -ī, so the plural is لڑکیاں, with ہیں."],
+      ["ty","my room","میرا کمرہ","میرا · کمرہ","میری","کمرہ is masculine, so my is میرا."],
+      ["ty","These are houses.","یہ گھر ہیں","یہ · گھر · ہونا","گھرے ہے","گھر is masculine but not in -ā, so it stays گھر; ہیں shows the plural."]
+    ]
+  },
+  {
+    id: "adjectives",
+    title: "Adjectives that agree: اچھا, اچھے, اچھی",
+    blurb: "Describe people and things with adjectives that agree with the noun, and use بہت, کوئی and کچھ.",
+    deck: "Describing things",
+    body: `
+<p>English adjectives never change: a good boy, good boys, a good girl. Many Urdu adjectives change their ending to agree with the noun, exactly the way میرا and میری do. So every time you describe something, ask two questions: is the noun masculine or feminine, and is there one or more than one?</p>
+<h3>Changing adjectives: -ā, -e, -ī</h3>
+<p>An adjective that ends in -ā, such as <b>اچھا</b> <i>acchhā</i> good or <b>بڑا</b> <i>baṛā</i> big, has three forms.</p>
+<div class="tbl"><table><tr><th>Noun</th><th>Ending</th><th>Example</th></tr><tr><td>masculine, one</td><td>-ā</td><td class="k">اچھا لڑکا</td></tr><tr><td>masculine, more than one</td><td>-e</td><td class="k">اچھے لڑکے</td></tr><tr><td>feminine, one or more</td><td>-ī</td><td class="k">اچھی لڑکی، اچھی لڑکیاں</td></tr></table></div>
+{{ex:اچھا لڑکا|acchhā laṛkā|a good boy}}
+{{ex:اچھی لڑکی|acchhī laṛkī|a good girl}}
+{{ex:بڑے کمرے|baṛe kamre|big rooms}}
+<p>The ending follows the gender of the noun, not its last letter: <b>پانی</b> <i>pānī</i> is masculine, so cold water is <b>ٹھنڈا پانی</b> <i>ṭhaṇḍā pānī</i>.</p>
+<h3>Before the noun, or after it with ہے</h3>
+<p>As in English, the adjective goes before the noun: اچھی لڑکی. It can also come before ہے or ہیں, at the end, and it still agrees.</p>
+{{ex:یہ کتاب بہت اچھی ہے۔|yeh kitāb bahut acchhī hai.|This book is very good.}}
+{{ex:یہ پانی ٹھنڈا ہے۔|yeh pānī ṭhaṇḍā hai.|This water is cold.}}
+<p>With more than one feminine thing, the adjective keeps -ī; only the verb shows the plural.</p>
+{{ex:یہ لڑکیاں بہت اچھی ہیں۔|yeh laṛkiyā̃ bahut acchhī haĩ.|These girls are very nice.}}
+<p>One common adjective is spelled a little differently but follows the same pattern: <b>نیا</b> <i>nayā</i> new, with <b>نئے</b> <i>nae</i> for masculine plural and <b>نئی</b> <i>naī</i> for feminine. So a new car is نئی گاڑی.</p>
+<h3>Adjectives that never change</h3>
+<p>Adjectives that do not end in -ā stay the same with every noun: <b>لال</b> <i>lāl</i> red, <b>خوبصورت</b> <i>ḵhūbsūrat</i> beautiful, <b>آسان</b> <i>āsān</i> easy, <b>مشکل</b> <i>mushkil</i> difficult. You already know some: ٹھیک, خوش, بیمار.</p>
+{{ex:لال گاڑی|lāl gāṛī|a red car}}
+{{ex:یہ گھر بہت خوبصورت ہے۔|yeh ghar bahut ḵhūbsūrat hai.|This house is very beautiful.}}
+<h3>Very, some and any</h3>
+<p><b>بہت</b> <i>bahut</i> means "very" and goes right before the adjective: بہت چھوٹا گھر, a very small house. <b>کچھ</b> <i>kuchh</i> means "some" for an amount, and <b>کوئی</b> <i>koī</i> means "some" or "any" for one person or thing.</p>
+{{ex:کچھ پانی|kuchh pānī|some water}}
+{{ex:کیا یہاں کوئی کتاب ہے؟|kyā yahā̃ koī kitāb hai?|Is there a book here?}}
+<p>You met کوئی in <b>کوئی بات نہیں</b> <i>koī bāt nahī̃</i>: literally "not any matter". Both words stay the same with every noun, so they never need to agree.</p>
+<div class="tip"><b>Most common mistake:</b> keeping the -ā form for everything, because English adjectives never change. <b>یہ لڑکی بہت اچھا ہے</b> → <b>یہ لڑکی بہت اچھی ہے</b>.</div>
+`,
+    check: [
+      ["Which is right for a good girl?",["اچھا لڑکی","اچھی لڑکی","اچھے لڑکی","لڑکی اچھا"],1,"لڑکی is feminine, so the adjective takes -ī: اچھی."],
+      ["Why is it ٹھنڈا پانی and not ٹھنڈی پانی?",["پانی is masculine, though it ends in ی","ٹھنڈا never changes","Water is always plural","Both are correct"],0,"The adjective follows the gender of the noun, and پانی is masculine."],
+      ["Which adjective stays the same with every noun?",["اچھا","بڑا","لال","چھوٹا"],2,"لال does not end in -ā, so it never changes."]
+    ],
+    practice: [
+      ["mc","a good girl =","اچھی لڑکی","اچھا لڑکی","اچھے لڑکی","لڑکی اچھی","لڑکی is feminine, so the adjective is اچھی, before the noun."],
+      ["mc","big rooms =","بڑے کمرے","بڑا کمرے","بڑی کمرے","بڑے کمرہ","کمرے is masculine plural, so the adjective is بڑے."],
+      ["mc","Which adjective never changes?","لال","اچھا","بڑا","چھوٹا","لال does not end in -ā, so it stays the same with every noun."],
+      ["mc","This water is cold. =","یہ پانی ٹھنڈا ہے","یہ پانی ٹھنڈی ہے","یہ پانی ٹھنڈے ہے","یہ ٹھنڈا ہے پانی","پانی is masculine, so ٹھنڈا, and the verb comes last."],
+      ["mc","a very small house =","بہت چھوٹا گھر","چھوٹا بہت گھر","بہت چھوٹی گھر","بہت چھوٹے گھر","بہت goes before the adjective, and گھر is masculine singular: چھوٹا."],
+      ["or","big rooms","بڑے کمرے","بڑا","Masculine plural nouns take the -e form: بڑے کمرے."],
+      ["or","a good girl","اچھی لڑکی","اچھا","لڑکی is feminine, so the adjective agrees: اچھی."],
+      ["or","a red car","لال گاڑی","لالی","لال never changes, even with a feminine noun like گاڑی."],
+      ["fi","یہ کتاب بہت __ ہے۔","This book is very good.","اچھی","اچھا|اچھے|اچھیں","کتاب is feminine, so the adjective is اچھی, even after بہت."],
+      ["fi","وہ __ لڑکے ہیں۔","They are good boys.","اچھے","اچھا|اچھی|اچھیں","لڑکے is masculine plural, so the adjective takes -e: اچھے."],
+      ["fi","یہ __ پانی ہے۔","This is cold water.","ٹھنڈا","ٹھنڈی|ٹھنڈے|ٹھنڈ","پانی is masculine and singular, so ٹھنڈا."],
+      ["ty","Sarah is very nice.","سارہ بہت اچھی ہے","سارہ · بہت · اچھا","اچھا اچھے","Sarah is a woman, so the adjective agrees as feminine: اچھی."],
+      ["ty","very big rooms","بہت بڑے کمرے","بہت · بڑا · کمرہ","بڑا کمرہ","کمرے is masculine plural, so the adjective agrees as بڑے."],
+      ["ty","my red car","میری لال گاڑی","میرا · لال · گاڑی","میرا لالی","گاڑی is feminine, so my agrees as میری, but لال never changes."]
     ]
   }
 ];
