@@ -7,11 +7,13 @@ Written by the stress-audit pass of 2026-11-19 for `tools/target/ceb/respell.js`
 ## Counts
 
 - Core list: **400 words** (groups below).
-- Two or more syllables: **364**. Verified (in `LEX`, so printed with CAPITALS): **157**. Not verified (printed all lowercase, warns): **207**: 14 with sources that disagree, 63 whose entry was opened but shows no IPA or mark, 130 not attempted in this pass (the lookups stopped there; they are not "could not verify").
+- Two or more syllables: **364**. Verified (in `LEX`, so printed with CAPITALS): **160** (157 from the audit, 3 added by the review of 2026-11-19). Not verified (printed all lowercase, warns): **204**: 15 with sources that disagree (tuo added by the review), 63 whose entry was opened but shows no IPA or mark (one of them, saging, now verified; kaila added), 126 not attempted or no page found.
 - One syllable: **36** (no stress to check; only a possible final catch). Catch checked in a source: 3. One-syllable words are always printed lowercase, so they are not counted as "verified" above.
-- `LEX` now holds **172** forms (it held 48; *dinhî* was removed, see Conflicts).
+- `LEX` now holds **175** forms (it held 48; *dinhî* was removed, see Conflicts; *anák*, *isdà*, *ságing* added by the review).
 
 ## Sources, and which words each backed
+
+- **Added by the review of 2026-11-19** (3), kaikki.org extracts of Wiktionary found through web search: *anak* (phrase entry anák sa gawás, /ʔaˌnak sa ɡaˈwas/), *isda* (phrase entry bulád isdà, /buˌlad ˈʔisdaʔ/), *saging* (All-languages page, Cebuano entry ságing, /ˈsaɡiŋ/). Also looked up without result: *tuo* (conflict), *kaila* (no IPA), *gusto* (no Cebuano entry on the page reached), *kape* (no page found). Direct downloads from kaikki.org and Wolff's Gutenberg text were refused by the session's network policy.
 
 - **Original 48 (Wiktionary IPA / marked headwords, Wikipedia "Cebuano numerals", Wiktionary appendices; profile §6.4)** (33): *maayo*, *gabii*, *wala*, *ako*, *kami*, *usa*, *duha*, *tulo*, *upat*, *lima*, *unom*, *pito*, *walo*, *siyam*, *napulo*, *karon*, *ugma*, *bata*, *tubig*, *bugas*, *itlog*, *balay*, *lungsod*, *siyudad*, *likod*, *dako*, *puti*, *pula*, *matanda*, *palit*, *pili*, *ulan*, *iro*
 - **Wiktionary through kaikki.org extracts** (66): *udto*, *hapon*, *kumusta*, *salamat*, *palihug*, *amping*, *nako*, *niya*, *imo*, *ila*, *diri*, *adto*, *libo*, *kuwatro*, *kinse*, *bulan*, *igsoon*, *magulang*, *apo*, *asawa*, *tiya*, *lalaki*, *babaye*, *manok*, *baboy*, *gatas*, *asin*, *sabaw*, *pamahaw*, *busog*, *tam-is*, *dalan*, *dagat*, *layo*, *taas*, *init*, *mahal*, *kusog*, *hugaw*, *tigulang*, *diyutay*, *inom*, *anhi*, *naog*, *kuha*, *tan-aw*, *dungog*, *tuon*, *trabaho*, *tulog*, *hugas*, *luto*, *tindog*, *abli*, *buhat*, *sugod*, *kaayo*, *tungod*, *mao*, *basin*, *butang*, *tiil*, *ngipon*, *buhok*, *iring*, *ngalan*
@@ -31,8 +33,8 @@ For each word: say which syllable is stressed and whether it ends in a catch. A 
 - **question words** (9): unsa, asa, kanus-a, pila, giunsa, tagpila, hain, diin, unsaon
 - **numbers (Spanish clock / price)** (21): uno, singko, sais, siyete, otso, nuwebe, diyes, onse, dose, trese, katorse, traynta, kuwarenta, singkuwenta, siyen, alas, medya, pesos, sentimos, kuwarta, presyo
 - **time and days** (15): lunes, martes, miyerkoles, huwebes, biyernes, sabado, domingo, adlaw, semana, tuig, gahapon, sunod, sayo, ulahi, oras
-- **family and people** (11): papa, mama, anak, kuya, ate, lolo, lola, bana, pamilya, tiyo, silingan
-- **food and drink** (16): kan-on, isda, karne, prutas, saging, mangga, tinapay, kape, asukar, sud-an, paniudto, lami, gutom, aslom, parat, pait
+- **family and people** (10): papa, mama, kuya, ate, lolo, lola, bana, pamilya, tiyo, silingan
+- **food and drink** (14): kan-on, karne, prutas, mangga, tinapay, kape, asukar, sud-an, paniudto, lami, gutom, aslom, parat, pait
 - **places, travel, directions** (24): eskwelahan, simbahan, merkado, tindahan, ospital, botika, kasilyas, kuwarto, sala, baryo, opisina, sakyanan, barko, eroplano, bukid, tuo, atubangan, ibabaw, ilalom, tupad, sulod, duol, diretso, liko
 - **adjectives** (13): mubo, bag-o, nindot, dautan, barato, lipay, hinay, sayon, itom, batan-on, sakit, masakit, tugnaw
 - **verb roots** (37): uli, lakaw, dagan, sakay, baligya, bayad, dala, paminaw, sulti, istorya, ingon, pangutana, tubag, basa, sulat, tudlo, mata, bangon, ligo, sira, gamit, tawag, kaila, hinumdom, kalimot, gusto, puyo, biya, abot, human, dula, kanta, hilak, katawa, hunahuna, ampo, pahulay
@@ -63,7 +65,9 @@ For each word: say which syllable is stressed and whether it ends in a catch. A 
 - *lami*: no IPA, unmarked headword (en.wiktionary.com:lami)
 - *gutom*: stress pair on live Wiktionary: gútom (noun, hunger) vs gutóm (adjective, hungry); one spelling, two stresses: left out
 - *bana*: no IPA, unmarked headword (en.wiktionary.com:bana)
-- *saging*: no IPA, unmarked headword (wiktionary.com:saging)
+- *saging*: no IPA, unmarked headword (wiktionary.com:saging); resolved by the review (kaikki All-languages page /ˈsaɡiŋ/), now in LEX
+- *tuo* (right): conflict: /tuˈʔo/ and /ˈtuʔo/ both given for the noun "right (direction)" (Wiktionary mirror wiki.neonvagabond.xyz, 2024-05 dump; review of 2026-11-19)
+- *kaila*: no IPA, unmarked headword (kaikki:kaila; review of 2026-11-19)
 - *dagan*: no IPA, unmarked headword (en.wiktionary.com:dagan)
 - *pangutana*: no IPA, unmarked headword (kiwix 2023-04:pangutana)
 - *lakaw*: no IPA, unmarked headword (wiktionary.com:lakaw)
@@ -335,7 +339,7 @@ No stress to check; the aid prints them lowercase whatever happens. A final catc
 | inahan | verified | `ee-NAH-hahn` | wiktionary(neonvagabond 2024-05):inahan — /ʔiˈnahan/ |
 | papa | not verified (no page found) | `pah-pah` |  |
 | mama | not verified (no page found) | `mah-mah` |  |
-| anak | not verified (no page found) | `ah-nahk` |  |
+| anak | verified | `ah-NAHK` | kaikki:anak sa gawas — /ʔaˌnak sa ɡaˈwas/, canonical anák sa gawás (review 2026-11-19) |
 | igsoon | verified | `eeg-SOH-ohn` | kaikki:igsuon — /ʔiɡˈsuʔon/ (entry igsuon; igsoon listed as alternative form) |
 | kuya | not verified (no page found) | `koo-yah` |  |
 | ate | not verified (no page found) | `ah-teh` |  |
@@ -364,13 +368,13 @@ No stress to check; the aid prints them lowercase whatever happens. A final catc
 | tubig | verified | `TOO-beeg` | original LEX (profile §6.4) |
 | kan-on | not verified (no page found) | `kahn-ohn` |  |
 | bugas | verified | `boo-GAHS` | original LEX (profile §6.4) |
-| isda | not verified (no page found) | `ees-dah` |  |
+| isda | verified | `EES-dahq` | kaikki:bulad isda — /buˌlad ˈʔisdaʔ/, canonical bulád isdà (review 2026-11-19) |
 | manok | verified | `mah-NOHK` | kaikki:manok — /maˈnok/; headword manók |
 | baboy | verified | `BAH-boy` | kaikki:baboy — /ˈbaboj/ |
 | karne | not verified (no page found) | `kahr-neh` |  |
 | utan | verified | `OO-tahn` | wiktionary.com:utan — headword útan (no IPA) |
 | prutas | not verified (no page found) | `proo-tahs` |  |
-| saging | not verified (source has no IPA or mark) | `sah-gheeng` | no IPA, unmarked headword (wiktionary.com:saging) |
+| saging | verified | `SAH-gheeng` | kaikki All languages combined:saging, Cebuano entry — /ˈsaɡiŋ/, canonical ságing (review 2026-11-19) |
 | mangga | not verified (source has no IPA or mark) | `mahng-gah` | no IPA, unmarked headword (en.wiktionary.com:mangga) |
 | tinapay | not verified (no page found) | `tee-nah-pai` |  |
 | pan | one syllable | `pahn` |  |
@@ -419,7 +423,7 @@ No stress to check; the aid prints them lowercase whatever happens. A final catc
 | eroplano | not verified (no page found) | `eh-roh-plah-noh` |  |
 | dagat | verified | `DAH-gaht` | kaikki:dagat — /ˈdaɡat/ |
 | bukid | not verified (source has no IPA or mark) | `boo-keed` | no IPA, unmarked headword (en.wiktionary.com:bukid) |
-| tuo | not verified (no page found) | `too-oh` |  |
+| tuo | not verified (sources disagree) | `too-oh` | Wiktionary mirror (neonvagabond 2024-05): noun "right" /tuˈʔo/ and /ˈtuʔo/ |
 | atubangan | not verified (source has no IPA or mark) | `ah-too-bah-ngahn` | no Cebuano entry on en.wiktionary.com:atubangan |
 | likod | verified | `lee-KOHD` | original LEX (profile §6.4) |
 | ibabaw | not verified (source has no IPA or mark) | `ee-bah-bow` | no IPA, unmarked headword (en.wiktionary.com:ibabaw) |
@@ -519,7 +523,7 @@ No stress to check; the aid prints them lowercase whatever happens. A final catc
 | himo | verified | `HEE-mohq` | wiktionary(kiwix 2024-01):himo — headword hímò (no IPA) |
 | tawag | not verified (source has no IPA or mark) | `tah-wahg` | no IPA, unmarked headword (en.wiktionary.com:tawag) |
 | kahibalo | verified | `kah-hee-bah-LOH` | wiktionary(neonvagabond 2024-05):kahibalo — /kahibaˈlo/; headword kahibaló |
-| kaila | not verified (no page found) | `kah-ee-lah` |  |
+| kaila | not verified (source has no IPA or mark) | `kah-ee-lah` | kaikki:kaila — no IPA, unmarked |
 | hinumdom | not verified (no page found) | `hee-noom-dohm` |  |
 | kalimot | not verified (no page found) | `kah-lee-moht` |  |
 | gusto | not verified (no page found) | `goos-toh` |  |

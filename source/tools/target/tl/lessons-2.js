@@ -51,7 +51,7 @@ module.exports = [
       ["fi", "May kape ba? — __ po.", "Is there any coffee? — There's none. (polite)", "Wala", "Hindi|Huwag|Opo", "wala answers \"Is there any…?\" when there is none."],
       ["fi", "__ kang umalis.", "Don't leave. (to a friend)", "Huwag", "Hindi|Wala|Oo", "huwag is the word for \"don't\" in an instruction."],
       ["fi", "Kumain ka na ba? — Hindi __.", "Have you eaten? — Not yet.", "pa", "na|po|ba", "pa means yet: Hindi pa = not yet; Hindi na means not anymore."],
-      ["ty", "We don't have any coffee (we, not you)", "Wala kaming kape|Wala po kaming kape|Kami ay walang kape", "wala · kami · kape · kami = we, not you", "kami", "wala is linked to kami with -ng: Wala kaming kape."],
+      ["ty", "We don't have any coffee (we, not you)", "Wala kaming kape|Kami ay walang kape", "wala · kami · kape · kami = we, not you", "kami", "wala is linked to kami with -ng: Wala kaming kape."],
       ["ty", "I don't know (polite)", "Hindi ko po alam", "hindi · alam · po comes after ko", "ako", "alam takes the ng form ko, and po comes right after ko: Hindi ko po alam."],
       ["ty", "No, not yet (polite)", "Hindi pa po", "hindi · pa = yet", "na", "pa means yet: Hindi pa po is a polite \"not yet\"; Hindi na means not anymore."]
     ]
@@ -154,7 +154,7 @@ module.exports = [
       ["fi", "Mayroon __ pera.", "We have money. (we, not you)", "kaming", "kami|namin|tayong", "kami (we, not you) takes -ng after mayroon: kaming."],
       ["fi", "May adobo ba? — __ po.", "Is there any adobo? — Yes, there is. (polite)", "Mayroon|Meron", "May|Hindi|Huwag", "Mayroon alone answers \"Yes, there is\"; may always needs a noun after it."],
       ["ty", "I have a brother or sister (use mayroon)", "Mayroon akong kapatid|Meron akong kapatid", "mayroon · ako · kapatid", "ako", "mayroon is linked to the pronoun with -ng: Mayroon akong kapatid."],
-      ["ty", "There's no coffee.", "Walang kape|Wala pong kape", "wala · kape", "wala", "wala is linked to the noun with -ng: Walang kape."],
+      ["ty", "There's no coffee.", "Walang kape", "wala · kape", "wala", "wala is linked to the noun with -ng: Walang kape."],
       ["ty", "Is there any water? (polite)", "May tubig po ba|Mayroon po bang tubig|Meron po bang tubig", "may · tubig · po comes before ba", "ang", "po comes before ba: May tubig po ba?"]
     ]
   },
@@ -172,7 +172,7 @@ module.exports = [
 {{ex:Ako ang bunso.|ah-KOH ahng boon-SOHQ|I'm the youngest.}}
 <h3>kapatid: brother or sister</h3>
 <p>English has two words; Tagalog has one, <b>kapatid</b>, with no sex. To be clear, add <b>lalaki</b> (male) or <b>babae</b> (female) with the linker <b>na</b>. Older siblings are often just <b>kuya</b> and <b>ate</b>.</p>
-{{ex:May dalawang kapatid ako.|mai dah-lah-WAHNG kah-pah-TEED ah-KOH|I have two brothers and sisters.}}
+{{ex:May dalawang kapatid ako.|mai dah-lah-WAHNG kah-pah-TEED ah-KOH|I have two siblings.}}
 {{ex:kapatid na lalaki|kah-pah-TEED nah lah-LAH-kee|brother}}
 {{ex:kapatid na babae|kah-pah-TEED nah bah-BAH-eh|sister}}
 <h3>Family words for everyone</h3>
@@ -199,7 +199,7 @@ module.exports = [
       ["mc", "Ako ang bunso. means:", "I'm the youngest.", "I'm the oldest.", "I'm an only child.", "I'm the parent.", "bunso is the youngest child in the family."],
       ["or", "a sister (use kapatid)", "kapatid na babae", "ng", "kapatid ends in a consonant, so the linker is na: kapatid na babae."],
       ["or", "Juan's mom", "nanay ni Juan", "si", "ni marks the owner when the owner is a name: nanay ni Juan."],
-      ["or", "My mom is a teacher", "Guro ang nanay ko", "ako", "ko is the ng pronoun for \"my\" after the noun: ang nanay ko."],
+      ["or", "My mom is a teacher (start with guro)", "Guro ang nanay ko", "ako", "ko is the ng pronoun for \"my\" after the noun: ang nanay ko."],
       ["fi", "Ito ang nanay __.", "This is my mom.", "ko", "ako|akin|mo", "\"my\" is ko, after the noun."],
       ["fi", "kapatid __ lalaki", "a brother", "na", "ng|ang|si", "After a consonant the linker is na: kapatid na lalaki."],
       ["fi", "__, magkano po ito?", "Miss, how much is this? (to a young woman a bit older than you)", "Ate", "Kuya|Lolo|Anak", "Call a young woman a bit older than you Ate, even if she is not family."],
@@ -448,7 +448,7 @@ module.exports = [
       ["fi", "Kumain ako __.", "I ate yesterday.", "kahapon", "bukas|mamaya|bukas ng umaga", "kumain is completed, so it goes with kahapon (yesterday)."],
       ["ty", "I'm cooking adobo", "Nagluluto ako ng adobo|Ako ay nagluluto ng adobo", "luto · adobo · repeat lu", "ko", "Actor focus: the doer takes ang, so ako, and the adobo takes ng."],
       ["ty", "We'll eat rice (we, not you)", "Kakain kami ng kanin|Kami ay kakain ng kanin", "kain · kanin · kami", "namin", "Actor focus: the doer takes ang, so kami, not namin."],
-      ["ty", "I'll go to the market tomorrow", "Pupunta ako sa palengke bukas|Bukas pupunta ako sa palengke|Bukas ay pupunta ako sa palengke|Pupunta ako bukas sa palengke|Ako ay pupunta sa palengke bukas", "punta · palengke · bukas", "pumunta", "bukas is in the future, so repeat the first syllable: pupunta."]
+      ["ty", "I'll go to the market tomorrow", "Pupunta ako sa palengke bukas|Bukas ako pupunta sa palengke|Bukas pupunta ako sa palengke|Bukas ay pupunta ako sa palengke|Pupunta ako bukas sa palengke|Ako ay pupunta sa palengke bukas", "punta · palengke · bukas", "pumunta", "bukas is in the future, so repeat the first syllable: pupunta."]
     ]
   }
 ];

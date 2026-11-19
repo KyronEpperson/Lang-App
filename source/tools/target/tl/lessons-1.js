@@ -20,7 +20,7 @@ module.exports = [
 {{ex:Hindi po.|heen-DEE pohq|No. (polite)}}
 <p>A hyphen after <b>mag-</b> also stands for a catch: <b>mag-aral</b> (to study) has a small break before <b>aral</b>.</p>
 <h3>ng and mga</h3>
-<p><b>ng</b> is one sound, the <i>ng</i> in <i>singer</i>, and it can start a word. The little word <b>ng</b> on its own is said <i>nang</i>, and <b>mga</b>, which makes a noun plural, is said <i>ma-NGA</i>. Inside a word, <b>ngg</b> is that sound plus a hard g: <b>mangga</b>.</p>
+<p><b>ng</b> is one sound, the <i>ng</i> in <i>singer</i>, and it can start a word. The little word <b>ng</b> on its own is said <i>nang</i>, and <b>mga</b>, which makes a noun plural, is said <i>mah-NGAH</i>. Inside a word, <b>ngg</b> is that sound plus a hard g: <b>mangga</b>.</p>
 {{ex:ngayon|ngah-YOHN|now}}
 {{ex:mga bata|mah-NGAH BAH-tahq|children}}
 {{ex:Kumain ako ng mangga.|koo-MAH-een ah-KOH nahng mahng-GAH|I ate a mango.}}
@@ -33,7 +33,7 @@ module.exports = [
 {{ex:maliit na bahay|mah-lee-EET nah BAH-hai|a small house}}
 {{ex:aso ni Ana|AH-soh nee AH-nah|Ana's dog}}
 <p>The line is a map; the voice is the real sound. Listen first, then read along.</p>
-<div class="tip"><b>Most common mistake:</b> reading <b>mga</b> letter by letter. "em-ga bata" → <b>mga bata</b>, said <i>ma-NGA BA-ta</i>, with the ng of <i>singer</i>.</div>
+<div class="tip"><b>Most common mistake:</b> reading <b>mga</b> letter by letter. "em-ga bata" → <b>mga bata</b>, said <i>mah-NGAH BAH-tahq</i>, with the ng of <i>singer</i>.</div>
 `,
     check: [
       ["What does the CAPITAL syllable in the pronunciation line show?",["The first syllable of the word","The stressed syllable, said louder and longer","A letter you do not say","A word borrowed from English"],1,"Stress is not written in Tagalog spelling, so the line shows it in CAPITALS."],
@@ -43,7 +43,7 @@ module.exports = [
     practice: [
       ["mc","Which word starts with the ng sound of singer?","ngayon","gabi","bata","aso","ngayon starts with ng, one sound, as in the middle of singer."],
       ["mc","In which word is the spelling ts said like the ch in church?","tsinelas","salamat","siya","bahay","ts is the Tagalog spelling of the ch sound: tsinelas."],
-      ["mc","How is mga said?","Two syllables: ma, then nga with the ng of singer","Letter by letter: em-ga","One syllable, like mug","Like mag with a hard g at the end","mga is short for a two-syllable word said ma-NGA; it makes the noun plural."],
+      ["mc","How is mga said?","Two syllables: ma, then nga with the ng of singer","Letter by letter: em-ga","One syllable, like mug","Like mag with a hard g at the end","mga is short for a two-syllable word said mah-NGAH; it makes the noun plural."],
       ["mc","In the pronunciation line, what does a q at the end of a word mean?","A catch in the throat, like the break in uh-oh","A k sound","A long vowel","The word is a question","q marks the catch, which you hear before a pause."],
       ["mc","aso (dog) is stressed on the first syllable. What happens if you stress the last one?","It becomes another word, smoke","Nothing: stress is free in Tagalog","It becomes plural","It becomes a question","Stress changes meaning in Tagalog, so learn it with each word."],
       ["or","a big house","malaking bahay","malaki","malaki ends in a vowel, so add the linker -ng: malaking bahay."],
@@ -169,7 +169,7 @@ module.exports = [
     body: `
 <p>When you meet Filipinos, the first questions are almost always the same: your name, where you are from, and often your age. Here are the questions and the answers.</p>
 <h3>Your name</h3>
-<p>You already know <b>Ako si…</b> with <b>si</b> before the name. To ask a friend's name, say <b>Ano ang pangalan mo?</b> (word for word "What the name your?"). In speech <b>ano ang</b> often shrinks to <b>anong</b>, with the linker <b>-ng</b>. To an older person: <b>Ano po ang pangalan ninyo?</b></p>
+<p>You already know <b>Ako si…</b> with <b>si</b> before the name. To ask a friend's name, say <b>Ano ang pangalan mo?</b> (word for word "What the name your?"). In speech you will usually hear <b>Anong pangalan mo?</b>, with <b>ano</b> joined to the noun by the linker <b>-ng</b> (some people write <b>ano'ng</b>, short for <b>ano ang</b>). To an older person: <b>Ano po ang pangalan ninyo?</b></p>
 {{ex:Ano ang pangalan mo?|ah-NOH ahng pah-NGAH-lahn moh|What's your name? (to a friend)}}
 {{ex:Anong pangalan mo?|ah-NOHNG pah-NGAH-lahn moh|What's your name? (to a friend)}}
 {{ex:Ako si Carlo.|ah-KOH see KAHR-loh|I'm Carlo.}}

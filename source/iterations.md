@@ -1065,3 +1065,9 @@ Merge the Punjabi, Telugu and Kannada lesson plans so they show as coming soon.
 
 ### 2.38.1 — results
 pa 27, te 26, kn 27 planned lessons merged (roadmap_merge.py now takes codes as arguments so shipped courses' linked blocks are untouched). Build verify OK, harness 81 guards. Titles' native-script words are unverified.
+
+## 2.39.0 — prompt
+Ship Tagalog for English speakers (en-tl) after the cold review.
+
+### 2.39.0 — results
+27 lessons, 18 decks, 311 cards, 378 practice items; validate PASS; roadmap 25 items linked; e2e OK on twelve lessons. Stress: 43 lexicon entries checked against Wiktionary / tagalog.com by the reviewer (one fix: tricycle), about 30 unverified (listed in REVIEW.md). Device voice fil / tl only. Not native-checked.

@@ -21,7 +21,7 @@ module.exports = [
 {{ex:Ayaw ko ng gatas.|AH-yow koh nahng GAH-tahs|I don't want milk.}}
 {{ex:Kailangan mong umuwi.|kah-ee-LAH-ngahn mohng oo-moo-WEEQ|You need to go home.}}
 <h3>puwede and marunong take the ang form</h3>
-<p>Two "can" words are different. <b>puwede</b> (also written <b>pwede</b>) means "may, it's allowed, it's possible". <b>marunong</b> means "know how to". Both take the ang form: <b>ako</b>, <b>ka</b>, <b>siya</b>. So "I can speak Tagalog" is about skill: <b>Marunong akong mag-Tagalog</b>. <i>Puwede akong mag-Tagalog</i> would mean "I'm allowed to speak Tagalog".</p>
+<p>Two "can" words are different. <b>puwede</b> (also written <b>pwede</b>) means "may, it's allowed, it's possible". <b>marunong</b> means "know how to". With the -um- and mag- verbs you know, both take the ang form: <b>ako</b>, <b>ka</b>, <b>siya</b>, joined to the verb with the linker. So "I can speak Tagalog" is about skill: <b>Marunong akong mag-Tagalog</b>. <i>Puwede akong mag-Tagalog</i> would mean "I'm allowed to speak Tagalog".</p>
 {{ex:Puwede ba akong kumain?|PWEH-deh bah ah-KOHNG koo-MAH-een|May I eat?}}
 {{ex:Marunong akong mag-Tagalog.|mah-ROO-nohng ah-KOHNG mahg-tah-GAH-lohg|I can speak Tagalog.}}
 <div class="tip"><b>Most common mistake:</b> using the ang form after gusto, and leaving out the linker. <i>Gusto ako ng kape</i> → <b>Gusto ko ng kape</b>; <i>Gusto ko kumain</i> → <b>Gusto kong kumain</b>.</div>
@@ -91,9 +91,9 @@ module.exports = [
       ["fi","__ ko ang mangga.","I ate the mango.","Kinain","Kumain|Kakain|Kumakain","\"the mango\" with ko needs the -in verb: kinain."],
       ["fi","Binili __ Ana ang isda.","Ana bought the fish.","ni","si|ang|kay","The doer of an -in verb, if a name, takes ni."],
       ["fi","Kinain ko __ tinapay.","I ate the bread.","ang","ng|sa|si","With kinain, the thing is the topic and takes ang."],
-      ["ty","I ate the mango","Kinain ko ang mangga","kain · ko · mangga · \"the mango\" asks for an -in verb","ako","Object focus: the mango takes ang, and the doer is the ng form ko."],
-      ["ty","He bought the bread","Binili niya ang tinapay","bili · niya · tinapay","siya","Object focus: the bread takes ang, and the doer is the ng form niya."],
-      ["ty","I ate a mango","Kumain ako ng mangga","kain · ako · mangga · \"a mango\" asks for an -um- verb","ko","Actor focus for \"a mango\": the doer takes ang, so ako, and the mango takes ng."]
+      ["ty","I ate the mango","Kinain ko ang mangga|Ang mangga ay kinain ko","kain · ko · mangga · \"the mango\" asks for an -in verb","ako","Object focus: the mango takes ang, and the doer is the ng form ko."],
+      ["ty","He bought the bread","Binili niya ang tinapay|Ang tinapay ay binili niya","bili · niya · tinapay","siya","Object focus: the bread takes ang, and the doer is the ng form niya."],
+      ["ty","I ate a mango","Kumain ako ng mangga|Ako ay kumain ng mangga","kain · ako · mangga · \"a mango\" asks for an -um- verb","ko","Actor focus for \"a mango\": the doer takes ang, so ako, and the mango takes ng."]
     ]
   },
   {
@@ -142,7 +142,7 @@ module.exports = [
       ["fi","__ adobo nga po.","One adobo, please.","Isang","Isa|Uno|Isa na","The number needs the linker before the dish: isang adobo."],
       ["fi","Magkano po __?","How much is it all?","lahat","ito|isa|dito","lahat means all: Magkano po lahat?"],
       ["fi","Pabili po __ tubig.","Some water, please.","ng","ang|sa|si","The thing you want to buy takes ng."],
-      ["ty","Two adobo, please (polite)","Dalawang adobo po","dalawa · adobo · po","dalawa","The number is linked to the dish with -ng: dalawang adobo."],
+      ["ty","Two adobo, please (polite)","Dalawang adobo po|Dalawang adobo nga po","dalawa · adobo · po","dalawa","The number is linked to the dish with -ng: dalawang adobo."],
       ["ty","Some water, please (at a sari-sari store, polite)","Pabili po ng tubig","pabili · po · tubig","ang","The ng marker shows the thing you buy: Pabili po ng tubig."],
       ["ty","How much is this? (polite)","Magkano po ito","magkano · po · ito","kayo","po goes right after the first word: Magkano po ito?"]
     ]
@@ -192,7 +192,7 @@ module.exports = [
       ["fi","Kumain ako __.","I ate yesterday.","kahapon","bukas|mamaya|ngayon","kahapon is yesterday; bukas is tomorrow."],
       ["ty","five minutes","limang minuto","lima · minuto","lima","Numbers are linked to the noun with -ng: limang minuto."],
       ["ty","two days","dalawang araw","dalawa · araw","dalawa","dalawa ends in a vowel, so the linker -ng joins it to araw: dalawang araw."],
-      ["ty","I'll eat tomorrow","Kakain ako bukas|Bukas ako kakain","kain · ako · bukas","kumain","bukas needs the future: repeat the first syllable, kakain."]
+      ["ty","I'll eat tomorrow","Kakain ako bukas|Bukas ako kakain|Ako ay kakain bukas","kain · ako · bukas","kumain","bukas needs the future: repeat the first syllable, kakain."]
     ]
   },
   {
@@ -205,7 +205,7 @@ module.exports = [
 <h3>Left, right, straight</h3>
 <p><b>kaliwa</b> is left, <b>kanan</b> is right, <b>diretso</b> is straight ahead, and <b>kanto</b> is the corner. To tell someone to turn, Tagalog makes a verb from the word with -um-: <b>kumaliwa</b> (turn left), <b>kumanan</b> (turn right). As in any command, the person takes the ang form: <b>ka</b> to a friend, <b>po kayo</b> to anyone who gets po.</p>
 {{ex:Kumanan ka sa kanto.|koo-MAH-nahn kah sah KAHN-toh|Turn right at the corner.}}
-{{ex:Kumaliwa po kayo sa simbahan.|koo-mah-LEE-wah poh kah-YOH sah seem-BAH-hahn|Turn left at the church.}}
+{{ex:Kumaliwa po kayo sa simbahan.|koo-mah-lee-WAH poh kah-YOH sah seem-BAH-hahn|Turn left at the church.}}
 {{ex:Diretso lang po.|dee-REH-choh lahng pohq|Just go straight.}}
 <h3>Places take sa, people take kay</h3>
 <p>English uses "to" and "at" for places and people alike. Tagalog uses the sa marker for a place and <b>kay</b> for a person. "Juan's house" is <b>bahay ni Juan</b>, so "to Juan's house" is <b>sa bahay ni Juan</b>.</p>
@@ -213,7 +213,7 @@ module.exports = [
 <h3>Riding</h3>
 <p>The jeep (jeepney) runs fixed routes; a tricycle is a motorcycle with a sidecar for short trips; taxis and Grab cars take you to the door. Ask where to get a ride and how much it costs, with po.</p>
 {{ex:Saan po ang sakayan papuntang Makati?|sah-AHN poh ahng sah-KAH-yahn pah-poon-TAHNG mah-KAH-tee|Where do I get a ride to Makati?}}
-{{ex:Magkano po hanggang Makati?|mahg-KAH-noh poh HAHNG-gahng mah-KAH-tee|How much to Makati?}}
+{{ex:Magkano po hanggang Makati?|mahg-KAH-noh poh hahng-GAHNG mah-KAH-tee|How much to Makati?}}
 <p>To a driver, start with <b>Kuya</b> (for a man) and the place.</p>
 {{ex:Kuya, sa Makati po.|KOO-yah sah mah-KAH-tee pohq|To Makati, please.}}
 <h3>Inside the jeepney</h3>
@@ -238,7 +238,7 @@ module.exports = [
       ["or","How much to Makati? (polite)","Magkano po hanggang Makati","kayo","po goes right after the first word: Magkano po."],
       ["fi","Kumanan ka __ kanto.","Turn right at the corner.","sa","kay|ang|ni","The corner is a place, so it takes sa."],
       ["fi","__ po!","Stop here, please!","Para","Bayad|Pabili|Diretso","Para po! asks the driver to stop."],
-      ["fi","Pupunta ako __ Juan.","I'm going to Juan.","kay","sa|si|ni","kay is for a person you go to."],
+      ["fi","Pupunta ako __ Juan.","I'm going to see Juan.","kay","sa|si|ni","kay is for a person you go to."],
       ["ty","Turn right at the church (to a friend)","Kumanan ka sa simbahan","kumanan · ka · simbahan","kay","The sa marker shows the place: sa simbahan; kay is for people."],
       ["ty","to Juan's house","sa bahay ni Juan","bahay · Juan","si","ni marks the owner, so bahay ni Juan, after the sa marker for the place."],
       ["ty","Turn left at the corner (polite)","Kumaliwa po kayo sa kanto","kumaliwa · po · kayo · kanto","ka","To someone who gets po, say po kayo, in that order, after the verb."]
@@ -258,7 +258,7 @@ module.exports = [
 {{ex:Kumain po kayo.|koo-MAH-een poh kah-YOH|Please eat. (polite)}}
 <h3>paki-: "please do this"</h3>
 <p>Put <b>paki-</b> in front of the root of a verb and you have a polite request: <b>abot</b> (reach, pass) → <b>pakiabot</b>, <b>sara</b> (close) → <b>pakisara</b>, <b>tulungan</b> (help) → <b>pakitulungan</b>. The thing or person you want something done to takes <b>ang</b>. Add <b>po</b> for elders and strangers.</p>
-{{ex:Pakiabot po ang tubig.|pah-kee-AH-boht poh ahng TOO-beeg|Please pass the water.}}
+{{ex:Pakiabot po ang tubig.|pah-kee-ah-BOHT poh ahng TOO-beeg|Please pass the water.}}
 {{ex:Pakitulungan po ako.|pah-kee-too-LOO-ngahn poh ah-KOH|Please help me.}}
 <p>The little word <b>nga</b> makes a request sound friendlier, a bit like "would you": <b>Pakiabot nga.</b></p>
 <h3>Asking permission: Puwede po bang…?</h3>
@@ -357,9 +357,9 @@ module.exports = [
 {{ex:Mas mura ito.|mahs MOO-rah ee-TOH|This one is cheaper.}}
 <h3>Than: kaysa</h3>
 <p>"Than" is <b>kaysa</b>. After it, a thing takes <b>sa</b> and a person's name takes <b>kay</b>, the same split you know from places and people. Before a word like <b>diyan</b>, no marker is needed.</p>
-{{ex:Mas mura ang isda kaysa sa manok.|mahs MOO-rah ahng ees-DAH KAI-sah sah mah-NOHK|Fish is cheaper than chicken.}}
-{{ex:Mas matangkad si Juan kaysa kay Ana.|mahs mah-tahng-KAHD see hwahn KAI-sah kai AH-nah|Juan is taller than Ana.}}
-{{ex:Mas malaki ito kaysa diyan.|mahs mah-lah-KEE ee-TOH KAI-sah jahn|This one is bigger than that one.}}
+{{ex:Mas mura ang isda kaysa sa manok.|mahs MOO-rah ahng ees-DAH kai-SAH sah mah-NOHK|Fish is cheaper than chicken.}}
+{{ex:Mas matangkad si Juan kaysa kay Ana.|mahs mah-tahng-KAHD see hwahn kai-SAH kai AH-nah|Juan is taller than Ana.}}
+{{ex:Mas malaki ito kaysa diyan.|mahs mah-lah-KEE ee-TOH kai-SAH jahn|This one is bigger than that one.}}
 <p>The order is the usual Tagalog one: the describing word first, then the topic, then <b>kaysa</b> and the other thing.</p>
 <h3>Most: pinaka-</h3>
 <p><b>pinaka-</b> is joined to the describing word as one word: <b>pinakamura</b> (cheapest), <b>pinakamalapit</b> (nearest), <b>pinakamalaki</b> (biggest). To say "X is the cheapest", use <b>ang</b>: <b>Ito ang pinakamura</b>, "this is the cheapest one".</p>
@@ -388,7 +388,7 @@ module.exports = [
       ["fi","Mas malaki ito __ diyan.","This one is bigger than that one.","kaysa","pinaka|mas|kasi","\"than\" is kaysa."],
       ["fi","Si Ana ang __matangkad.","Ana is the tallest.","pinaka","mas|kasi|na","pinaka- joins the describing word for \"most\"."],
       ["fi","Mas matangkad si Juan kaysa __ Ana.","Juan is taller than Ana.","kay","sa|si|ni","After kaysa, a name takes kay."],
-      ["ty","Ana is taller than Juan (use kaysa)","Mas matangkad si Ana kaysa kay Juan","matangkad · Ana · Juan","sa","si goes before the topic Ana; after kaysa, kay is for people: kaysa kay Juan."],
+      ["ty","Ana is taller than Juan (use kaysa)","Mas matangkad si Ana kaysa kay Juan|Si Ana ay mas matangkad kaysa kay Juan","matangkad · Ana · Juan","sa","si goes before the topic Ana; after kaysa, kay is for people: kaysa kay Juan."],
       ["ty","the most delicious adobo","pinakamasarap na adobo|ang pinakamasarap na adobo|adobong pinakamasarap","pinakamasarap · adobo","ng","After a consonant the linker is na: pinakamasarap na adobo."],
       ["ty","Juan is the tallest (use pinaka-)","Si Juan ang pinakamatangkad|Pinakamatangkad si Juan","Juan · pinakamatangkad","ni","si goes before the name, and ang before pinakamatangkad: Si Juan ang pinakamatangkad."]
     ]

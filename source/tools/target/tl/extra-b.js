@@ -3,7 +3,7 @@ exports.DIALOG = `
 Nasaan ang CR? | Bea, nasaan ang CR? | Doon, sa tabi ng kusina. | Bea, where's the restroom? / Over there, next to the kitchen.
 malapit | Malapit ba ang botika? | Oo, malapit lang. Nasa kanto. | Is the pharmacy near? / Yes, it's close. It's at the corner.
 Saan ka pupunta? | Saan ka pupunta, Jun? | Sa simbahan. Sama ka? | Where are you going, Jun? / To church. Want to come?
-Diretso lang po. | Kuya, saan po ang ospital? | Diretso lang po, tapos kumanan po kayo sa kanto. | Excuse me, where's the hospital? / Just go straight, then turn right at the corner.
+Diretso lang po. | Kuya, nasaan po ang ospital? | Diretso lang po, tapos kumanan po kayo sa kanto. | Excuse me, where's the hospital? / Just go straight, then turn right at the corner.
 Malayo pa ba? | Malayo pa ba? | Hindi na. Malapit na tayo. | Is it still far? / Not anymore. We're almost there.
 Para po! | Para po, sa tabi lang! | Sige. | Stop here, please, right at the side! / Okay.
 Magkano po ang pamasahe? | Magkano po ang pamasahe papuntang Makati? | Labinlimang piso po. | How much is the fare to Makati? / Fifteen pesos.

@@ -3,7 +3,7 @@ exports.DIALOG = `
 aso | May aso ka ba? | Oo, Max ang pangalan niya. | Do you have a dog? / Yes, his name is Max.
 Kumain ako ng mangga. | Kumain ka na ba? | Oo, kumain ako ng mangga kanina. | Have you eaten? / Yes, I ate a mango earlier.
 tsinelas | Nasaan ang tsinelas ko? | Nasa labas, sa tabi ng pinto. | Where are my slippers? / Outside, next to the door.
-mga bata | Nasaan ang mga bata? | Nasa bahay ni Lola sila. | Where are the kids? / They're at Lola's house.
+mga bata | Nasaan ang mga bata? | Nandoon sila sa bahay ni Lola. | Where are the kids? / They're at Lola's house.
 Magandang umaga po. | Magandang umaga po, Lola! | Magandang umaga rin, anak. Kumain ka na? | Good morning, Lola! / Good morning to you too, dear. Have you eaten?
 Kumusta po kayo? | Kumusta po kayo, Tita? | Mabuti naman. Ikaw, kumusta ka? | How are you, Tita? / I'm fine. And you, how are you?
 Kumusta ka? | Uy, Joy! Kumusta ka? | Okay lang. Ikaw? | Hey, Joy! How are you? / I'm okay. You?
@@ -69,7 +69,7 @@ exports.PATTERNS = `
 Magandang ___ po. | Good ___. (polite) | Magandang hapon po. | Good afternoon. (polite)
 Ako si ___. | I'm ___. | Ako si Carlo. | I'm Carlo.
 Taga-___ ako. | I'm from ___. | Taga-Cebu ako. | I'm from Cebu.
-Ito ang ___ ko. | This is my ___. | Ito ang kapatid ko. | This is my brother.
+Ito ang ___ ko. | This is my ___. | Ito ang kapatid ko. | This is my brother (or sister).
 Magkano po ang ___? | How much is the ___? (polite) | Magkano po ang mangga? | How much are the mangoes? (polite)
 alas-___ ng umaga | ___ o'clock in the morning | alas-siyete ng umaga | seven in the morning
 Isang ___ nga po. | One ___, please. (polite) | Isang adobo nga po. | One adobo, please. (polite)

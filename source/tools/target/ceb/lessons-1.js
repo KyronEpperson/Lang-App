@@ -24,7 +24,9 @@ module.exports = [
 {{ex:ngalan|NGAH-lahn|name}}
 {{ex:mga bata|mah-ngah BAH-tahq|children}}
 <h3>Other letters</h3>
-<p><b>ay</b> sounds like "Thai" and <b>aw</b> like "how". <b>g</b> is always hard, as in "go". <b>r</b> is a quick tap, like the tt in American "butter". <b>p, t, k</b> have no puff of air: say them as in "spin", not "pin".</p>
+<p><b>ay</b> sounds like "Thai" and <b>aw</b> like "how"; <b>uy</b>, <b>oy</b> and <b>iw</b> glide the same way (ooy, oy, eew in the line). <b>g</b> is always hard, as in "go"; before ee or eh the line writes gh, so you do not read it as in "gem". <b>ts</b> is said ch and <b>dy</b> is said j. <b>r</b> is a quick tap, like the tt in American "butter". <b>p, t, k</b> have no puff of air: say them as in "spin", not "pin".</p>
+{{ex:otso|oh-choh|eight}}
+{{ex:dyip|jeep|jeepney}}
 <h3>My: akong</h3>
 <p>The deck for this lesson pairs words with <b>akong</b>, "my". Like English "my", it goes before the noun, but it always ends in <b>-ng</b>, which joins it to the noun.</p>
 {{ex:akong balay|ah-kohng bah-LAI|my house}}
@@ -101,7 +103,7 @@ module.exports = [
       ['fi', 'Salamat, __.', "Thank you, ma'am. (to an older woman)", 'Nang|Manang', 'Nong|po|Manong', "An older woman is Nang (short for Manang); po is Tagalog."],
       ['ty', "I'm fine. (reply to Kumusta ka?; use man)", 'Maayo man ko|Maayo man ako|Maayo man', 'maayo · man · ko', 'nako', "The short pronoun ko follows the main word maayo and man: Maayo man ko."],
       ['ty', "How are you, sir? (to an older man)", 'Kumusta ka, Nong?|Nong, kumusta ka?|Kumusta, Nong?|Kumusta ka, Manong?|Manong, kumusta ka?', 'kumusta · ka · Nong', 'nimo', "The short pronoun ka goes in second place, right after kumusta; then the title."],
-      ['ty', "Good afternoon, ma'am. (to an older woman)", 'Maayong hapon, Nang.|Maayong hapon, Manang.', 'maayo · hapon · Nang', 'buntag', "Maayong hapon is the afternoon greeting, and Nang is for an older woman."]
+      ['ty', "Good afternoon, ma'am. (to an older woman)", 'Maayong hapon, Nang.|Maayong hapon, Manang.|Nang, maayong hapon.', 'maayo · hapon · Nang', 'buntag', "Maayong hapon is the afternoon greeting, and Nang is for an older woman."]
     ]
   },
 {
@@ -151,8 +153,8 @@ module.exports = [
       ['fi', 'Usa __.', "Just one.", 'lang|ra', 'sab|ba|diay', "lang or ra means just, only."],
       ['fi', 'Lami __?', "Is it tasty?", 'ba', 'diay|lang|sab', "ba makes a yes-or-no question."],
       ['ty', "Just one", 'Usa lang|Usa ra', 'usa · lang', 'sab', "lang goes in second place, after the main word: Usa lang."],
-      ['ty', "Just a little", 'Gamay lang|Gamay ra', 'gamay · lang', 'sab', "The small word lang takes second place, after gamay: Gamay lang."],
-      ['ty', "Is it good?", 'Maayo ba', 'maayo · ba', 'diay', "ba goes in second place, after the main word: Maayo ba?"]
+      ['ty', "I'm fine too. (use sab)", 'Maayo sab ko|Maayo ko sab|Maayo sab ako|Maayo sad ko|Maayo pod ko|Maayo ko sad|Maayo ko pod', 'maayo · sab · ko', 'nako', "The short pronoun ko and the small word sab follow the main word maayo; neither ever comes first."],
+      ['ty', "Are you American? (use ba)", 'Amerikano ka ba|Amerikano ba ka', 'Amerikano · ka · ba', 'diay', "The short pronoun ka and the small word ba follow the main word; neither ever comes first."]
     ]
   },
 {
@@ -180,6 +182,9 @@ module.exports = [
 <h3>Just this one</h3>
 <p>Add <b>lang</b> from the last lesson: <b>Kini lang</b>, "Just this one". It is what you say once you have chosen at a stall.</p>
 {{ex:Kini lang.|kee-NEE lahng|Just this one.}}
+<h3>This is my…</h3>
+<p>To show something of yours, put <b>kini</b> first and <b>ang</b> before the thing: <b>Kini ang akong balay</b>, "This is my house". Here <b>kini</b> is the main word, and <b>ang akong balay</b> is what the sentence is about. <b>akong</b> stays before the noun.</p>
+{{ex:Kini ang akong balay.|kee-NEE ahng ah-kohng bah-LAI|This is my house.}}
 <h3>this house</h3>
 <p>Right before a noun, the pointing word takes <b>-ng</b>, just like <b>akong</b>: <b>kining balay</b>, "this house". For now you mostly need the words on their own.</p>
 {{ex:kining balay|kee-neeng bah-LAI|this house}}
@@ -203,8 +208,8 @@ module.exports = [
       ['fi', '__ lang.', "Just this one.", 'Kini', 'Kana|Kadto|Unsa', "kini is the thing near you, the speaker."],
       ['fi', '__ balay', "this house", 'kining', 'kini|kana|ang', "Right before a noun, kini takes -ng: kining balay."],
       ['ty', "What's that? (near the listener)", 'Unsa kana|Unsa na|Unsa man kana', 'unsa · kana', 'kini', "The question word comes first, then kana: Unsa kana?"],
-      ['ty', "This is water.", 'Tubig kini|Tubig ni', 'tubig · kini', 'ang', "The main word comes first: Tubig kini, literally water this."],
-      ['ty', "Just this one", 'Kini lang|Kini ra', 'kini · lang', 'kana', "lang means just, and kini is the one near you."]
+      ['ty', "This is my coffee.", 'Kini ang akong kape|Kini ang kape nako|Akong kape kini|Kape nako kini', 'kini · ang · akong · kape', 'ako', "akong-set words go before the noun: Kini ang akong kape."],
+      ['ty', "This is my house.", 'Kini ang akong balay|Kini ang balay nako|Akong balay kini|Balay nako kini', 'kini · ang · akong · balay', 'ako', "akong-set words go before the noun: Kini ang akong balay."]
     ]
   },
 {
@@ -302,7 +307,7 @@ module.exports = [
       ['fi', '__ ka?', "Where are you from?", 'Taga-asa', 'Asa|Gikan|Unsa', "taga- + asa asks where someone is from; Asa ka? asks where they are going."],
       ['ty', "I'm from the US.", 'Taga-Amerika ko|Taga-Amerika ako', 'taga- · Amerika · ko', 'nako', "The short pronoun ko goes in second place, after the main word: Taga-Amerika ko."],
       ['ty', "Where are you from?", 'Taga-asa ka|Taga-asa ikaw', 'taga- · asa · ka', 'gikan', "The short pronoun ka goes in second place: Taga-asa ka?"],
-      ['ty', "What's your name?", 'Unsay imong ngalan|Unsa ang imong ngalan', 'unsa · imong · ngalan', 'ako', "imong is the akong-set word for your: it goes before the noun."]
+      ['ty', "What's your name?", 'Unsay imong ngalan|Unsa ang imong ngalan|Unsa imong ngalan', 'unsa · imong · ngalan', 'ako', "imong is the akong-set word for your: it goes before the noun."]
     ]
   },
 {
@@ -311,7 +316,7 @@ module.exports = [
     blurb: "Ask what, who, where, why, when and how much, and ask yes-or-no questions with ba.",
     deck: "Questions and little words",
     body: `
-<p>English moves words around to make a question: "You are…" becomes "Are you…?", and "do" appears from nowhere. Cebuano keeps it simple. Put the question word first and any short word, like <b>ka</b>, right after it.</p>
+<p>English moves words around to make a question: "You are…" becomes "Are you…?", and "do" appears from nowhere. Cebuano keeps it simple. Put the question word first and any short word, like <b>ka</b>, right after it. You will meet all eight words below again and again; learn <b>unsa</b>, <b>kinsa</b> and <b>asa</b> first.</p>
 <div class="tbl"><table><tr><th>Cebuano</th><th>English</th></tr><tr><td class="k">unsa</td><td>what</td></tr><tr><td class="k">kinsa</td><td>who</td></tr><tr><td class="k">asa</td><td>where</td></tr><tr><td class="k">ngano</td><td>why</td></tr><tr><td class="k">kanus-a</td><td>when</td></tr><tr><td class="k">pila</td><td>how many, how much</td></tr><tr><td class="k">kumusta</td><td>how is…</td></tr><tr><td class="k">hain</td><td>which one; where (show me)</td></tr></table></div>
 <h3>The question word comes first</h3>
 <p><b>Asa ka?</b> is literally "Where you?". People say it in passing as a greeting, the way English says "Where are you off to?", and a vague answer is fine.</p>
@@ -320,6 +325,9 @@ module.exports = [
 <p>Names keep their marker <b>si</b> in a question too.</p>
 {{ex:Kinsa si Pedro?|keen-SAHQ see peh-droh|Who is Pedro?}}
 {{ex:Ngano?|NGAH-noh|Why?}}
+<h3>Short answers</h3>
+<p>You do not need a full sentence to answer. Asked <b>Kinsa siya?</b>, you can say just the name with its marker: <b>Si Pedro.</b> English does the same with "Pedro", but Cebuano keeps the <b>si</b>.</p>
+{{ex:Si Pedro.|see peh-droh|Pedro.}}
 <h3>unsa ang and unsay</h3>
 <p>Before <b>ang</b>, <b>unsa</b> often joins it as <b>unsay</b>. Both are correct; the joined form is more casual.</p>
 {{ex:Unsa ang imong ngalan?|oon-sah ahng ee-mohng NGAH-lahn|What's your name?}}
@@ -328,7 +336,7 @@ module.exports = [
 {{ex:Amerikano ka ba?|ah-meh-ree-kah-noh kah bah|Are you American?}}
 {{ex:Oo, Amerikano ko.|oh-oh ah-meh-ree-kah-noh koh|Yes, I'm American.}}
 <h3>When, and how much</h3>
-<p><b>Kanus-a</b> asks "when"; the hyphen marks a catch. <b>Pila</b> asks "how many" or "how much", and you will use it constantly when shopping.</p>
+<p><b>Kanus-a</b> asks "when"; the hyphen marks a catch. <b>Pila</b> asks "how many" or "how much", and you will use it constantly when shopping. On its own, <b>Kanus-a?</b> is a natural reply when someone mentions a party, a trip or a visit and you want to know the day.</p>
 {{ex:Kanus-a?|kah-noos-ah|When?}}
 <div class="tip"><b>Most common mistake:</b> English order, with the short pronoun first. <b>Ka asa?</b> → <b>Asa ka?</b></div>
 `,
@@ -363,14 +371,14 @@ module.exports = [
 <p>English "we" hides a question: does it include the person you are talking to? Cebuano always answers it, with two different words.</p>
 <div class="tbl"><table><tr><th>English</th><th>Full form</th><th>Short form</th></tr><tr><td>we (not you)</td><td class="k">kami</td><td class="k">mi</td></tr><tr><td>we (you and me)</td><td class="k">kita</td><td class="k">ta</td></tr><tr><td>you all</td><td class="k">kamo</td><td class="k">mo</td></tr><tr><td>they</td><td class="k">sila</td><td>none</td></tr></table></div>
 <h3>kami or kita</h3>
-<p>Telling a Cebuano "We're from the US" about you and your family? That is <b>kami</b>: the listener is left out. <b>kita</b> includes the listener: you and me, or all of us here.</p>
+<p>Telling a Cebuano "We're from the US" about you and your family? That is <b>kami</b>: the listener is left out. <b>kita</b> includes the listener: you and me, or all of us here. The choice matters most when you make plans. Talking to friends about a trip you will all take, say <b>kita</b>; telling them about a trip your family took without them, say <b>kami</b>.</p>
 {{ex:Taga-Amerika mi.|tah-gah-ah-meh-ree-kah mee|We're from the US.}}
 {{ex:Estudyante kita.|ehs-too-jahn-teh kee-TAH|We're students, you and I.}}
 <h3>Short forms in second place</h3>
 <p><b>mi</b>, <b>ta</b> and <b>mo</b> are the short forms of <b>kami</b>, <b>kita</b> and <b>kamo</b>. Like <b>ko</b> and <b>ka</b>, they never start a sentence; they go right after the main word or question word.</p>
 {{ex:Taga-asa mo?|tah-gah-ah-sah moh|Where are you all from?}}
 <h3>You all, and they</h3>
-<p>English uses "you" for one person or for many. Cebuano uses <b>ikaw / ka</b> for one person and <b>kamo / mo</b> for two or more. <b>sila</b> is "they", for people.</p>
+<p>English uses "you" for one person or for many. Cebuano uses <b>ikaw / ka</b> for one person and <b>kamo / mo</b> for two or more. <b>sila</b> is "they", for people. Asking a whole family at the table with <b>ka</b> sounds as if you are talking to one person only, so switch to <b>kamo</b> or <b>mo</b>.</p>
 {{ex:Amerikano sila.|ah-meh-ree-kah-noh see-LAH|They're American.}}
 <h3>More than one: mga</h3>
 <p>Cebuano nouns never add -s. To show more than one, put <b>mga</b> (said "manga") in front: <b>ang mga bata</b>, "the children".</p>
@@ -399,6 +407,104 @@ module.exports = [
       ['ty', "They're American.", 'Amerikano sila|Mga Amerikano sila', 'Amerikano · sila', 'nila', "The main word comes first, then sila: Amerikano sila."],
       ['ty', "We're from the US. (not including the listener)", 'Taga-Amerika mi|Taga-Amerika kami', 'taga- · Amerika · mi', 'kita', "The short pronoun mi goes in second place: Taga-Amerika mi."],
       ['ty', "Where are you all from?", 'Taga-asa mo|Taga-asa kamo', 'taga- · asa · mo', 'ka', "The short pronoun mo (you all) goes in second place, after taga-asa."]
+    ]
+  },
+{
+    id: "nako",
+    title: "My, your, his: nako, akong and ni / sa",
+    blurb: "Say whose something is in two ways (akong balay, balay nako), and use ni with names and sa with other nouns.",
+    deck: "Home and daily life",
+    body: `
+<p>English has one way to say "my house". Cebuano has two, and both are everyday: an owner word before the noun, or a different owner word after it. You will hear both in the same conversation, often from the same person, so it pays to know both sets from the start. Each owner word matches one of the pronouns you already know.</p>
+<h3>Before the noun: akong, imong…</h3>
+<p>You already know <b>akong</b> (my) and <b>imong</b> (your). The whole set ends in <b>-ng</b> and goes before the noun.</p>
+<h3>After the noun: nako, nimo…</h3>
+<p>The second set goes after the noun, with no <b>-ng</b>.</p>
+<div class="tbl"><table><tr><th>English</th><th>Before the noun</th><th>After the noun</th></tr><tr><td>my</td><td class="k">akong</td><td class="k">nako</td></tr><tr><td>your</td><td class="k">imong</td><td class="k">nimo</td></tr><tr><td>his, her</td><td class="k">iyang</td><td class="k">niya</td></tr><tr><td>our (not yours)</td><td class="k">among</td><td class="k">namo</td></tr><tr><td>our (yours and mine)</td><td class="k">atong</td><td class="k">nato</td></tr><tr><td>your (you all)</td><td class="k">inyong</td><td class="k">ninyo</td></tr><tr><td>their</td><td class="k">ilang</td><td class="k">nila</td></tr></table></div>
+{{ex:akong balay|ah-kohng bah-LAI|my house}}
+{{ex:balay nako|bah-LAI NAH-kohq|my house}}
+{{ex:iyang kuwarto|ee-yahng koo-wahr-toh|his room; her room}}
+{{ex:kusina nato|koo-SEE-nah NAH-tohq|our kitchen (yours and mine)}}
+<p>The meaning is the same; only the position changes. What you cannot do is mix the two sets: <b>ako balay</b> and <b>nako balay</b> are both wrong. The <b>our</b> words split like <b>kami</b> and <b>kita</b>: <b>among</b> leaves the listener out, <b>atong</b> includes them. Which set should you use? Both are heard all day, so learn to recognize both; when you speak, use whichever comes to you first. Nobody will mind.</p>
+<h3>Owners with names: ni</h3>
+<p>English adds 's: "Pedro's house". Cebuano turns it round: the thing first, then <b>ni</b> and the name, a little like "the house of Pedro". The thing usually keeps its <b>ang</b>.</p>
+{{ex:ang balay ni Pedro|ahng bah-LAI nee peh-droh|Pedro's house}}
+<h3>Owners that are not names: sa</h3>
+<p>For an owner that is a thing, a place or a common noun, use <b>sa</b> instead, like English "of the".</p>
+{{ex:ang pultahan sa balay|ahng pool-tah-hahn sah bah-LAI|the door of the house}}
+<p>So owners split the same way as <b>si</b> and <b>ang</b>: names take <b>ni</b>, other nouns take <b>sa</b>.</p>
+{{ex:Dako ang kuwarto ni Ana.|dah-KOHQ ahng koo-wahr-toh nee ah-nah|Ana's room is big.}}
+<div class="tip"><b>Most common mistake:</b> <b>sa</b> before a name. <b>ang balay sa Pedro</b> → <b>ang balay ni Pedro</b>.</div>
+`,
+    check: [
+      ["Pedro's house =", ["ang balay sa Pedro", "ang balay ni Pedro", "ang Pedro balay", "ang balay si Pedro"], 1, "Names take ni when they own something."],
+      ["our house (yours and mine) =", ["atong balay", "among balay", "balay namo", "kitang balay"], 0, "atong includes the listener; among and namo leave them out."],
+      ["the door of the house =", ["ang pultahan ni balay", "ang balay pultahan", "sa pultahan ang balay", "ang pultahan sa balay"], 3, "An owner that is not a name takes sa."]
+    ],
+    practice: [
+      ['mc', "my house (owner after the noun) =", "balay nako", "balay akong", "nako balay", "balay ako", "nako goes after the noun, with no -ng."],
+      ['mc', "his room =", "iyang kuwarto", "niya kuwarto", "siyang kuwarto", "kuwarto iyang", "iyang goes before the noun; niya would go after it."],
+      ['mc', "Ana's kitchen =", "ang kusina ni Ana", "ang kusina sa Ana", "ang kusina si Ana", "ang Ana kusina", "A name that owns something takes ni."],
+      ['mc', "our house (not yours) =", "among balay", "atong balay", "balay nato", "kaming balay", "among leaves the listener out; atong and nato include them."],
+      ['mc', "their room =", "ilang kuwarto", "ila kuwarto", "silang kuwarto", "kuwarto ilang", "ilang goes before the noun and ends in -ng."],
+      ['or', "Pedro's house", 'ang balay ni Pedro', 'sa', "Names take ni when they own something: ang balay ni Pedro."],
+      ['or', "my room (owner after the noun)", 'kuwarto nako', 'ako', "The nako-set goes after the noun: kuwarto nako."],
+      ['or', "the door of the house", 'ang pultahan sa balay', 'ni', "sa marks an owner that is not a name: ang pultahan sa balay."],
+      ['fi', 'ang balay __ Ana', "Ana's house", 'ni', 'sa|si|ang', "Names take ni when they own something."],
+      ['fi', '__ kuwarto', "your room (one person)", 'imong', 'nimo|ikaw|imo', "Before the noun, your is imong, with -ng."],
+      ['fi', 'ang balay __', "their house", 'nila', 'ilang|sila|niya', "After the noun, their is nila."],
+      ['ty', "my room", 'akong kuwarto|kuwarto nako', 'akong · kuwarto', 'ako', "akong goes before the noun and nako after it: akong kuwarto or kuwarto nako."],
+      ['ty', "Ana's kitchen", 'ang kusina ni Ana|kusina ni Ana', 'kusina · Ana', 'sa', "Names take ni when they own something: ang kusina ni Ana."],
+      ['ty', "our house (yours and mine)", 'atong balay|balay nato', 'atong · balay', 'among', "atong includes the listener, and akong-set words go before the noun: atong balay."]
+    ]
+  },
+{
+    id: "nga",
+    title: "Describing words and the linker nga",
+    blurb: "Describe things (big, small, new, old, hot, cold) with the linker nga, and tell a phrase from a full sentence.",
+    deck: "Describing things",
+    body: `
+<p>English puts a describing word straight in front of the noun: "a big house". Cebuano needs a small joining word between them, the linker <b>nga</b>. You have already used it without knowing: it is the <b>-ng</b> at the end of <b>maayong</b> and <b>akong</b>. In this lesson you learn to use it with any describing word.</p>
+<h3>The linker: nga and -ng</h3>
+<p>Put <b>nga</b> between the describing word and the noun. When the first word ends in a vowel, <b>nga</b> shrinks to <b>-ng</b> and joins it, just as in <b>maayong buntag</b> and <b>akong balay</b>.</p>
+{{ex:dakong balay|dah-kohng bah-LAI|a big house}}
+{{ex:bag-ong libro|bahg-ohng lee-broh|a new book}}
+<h3>Either order</h3>
+<p>The describing word can also come after the noun, still with <b>nga</b>: <b>balay nga dako</b>. Both orders mean "a big house". When the first word ends in <b>-n</b>, keep <b>nga</b> as a separate word.</p>
+{{ex:balay nga dako|bah-LAI ngah dah-KOHQ|a big house}}
+{{ex:daan nga balay|DAH-ahn ngah bah-LAI|an old house}}
+<h3>A phrase or a sentence?</h3>
+<p>This is the key difference. With the linker you have a phrase, a name for a thing: <b>ang dakong balay</b>, "the big house". Without the linker, with the describing word first and <b>ang</b> before the noun, you have a full sentence: <b>Dako ang balay</b>, "The house is big". The main word comes first, as in <b>Maestro si Pedro</b>. A quick test: if you want to say something about the thing, you need the sentence pattern; if you only want to name it, use the linker.</p>
+{{ex:Dako ang balay.|dah-KOHQ ahng bah-LAI|The house is big.}}
+{{ex:Gamay ang kuwarto ni Ana.|gah-MAI ahng koo-wahr-toh nee ah-nah|Ana's room is small.}}
+<h3>Very: kaayo</h3>
+<p>English puts "very" before the describing word. Cebuano puts <b>kaayo</b> after it: <b>lami kaayo</b>, "very tasty".</p>
+{{ex:Init kaayo ang kape.|EE-neet kah-AH-yoh ahng kah-peh|The coffee is very hot.}}
+<h3>Words to start with</h3>
+<p>Learn describing words in pairs of opposites; it halves the work, and each word reminds you of the other.</p>
+<div class="tbl"><table><tr><th>Cebuano</th><th>English</th><th>Cebuano</th><th>English</th></tr><tr><td class="k">dako</td><td>big</td><td class="k">gamay</td><td>small</td></tr><tr><td class="k">maayo</td><td>good</td><td class="k">daotan</td><td>bad</td></tr><tr><td class="k">bag-o</td><td>new</td><td class="k">daan</td><td>old (things)</td></tr><tr><td class="k">init</td><td>hot</td><td class="k">bugnaw</td><td>cold (things, drinks)</td></tr></table></div>
+<div class="tip"><b>Most common mistake:</b> leaving out the linker, as in English. <b>dako balay</b> → <b>dakong balay</b>.</div>
+`,
+    check: [
+      ["a big house =", ["dako balay", "dakong balay", "balay dako", "Dako ang balay."], 1, "The linker joins the two words: dako + -ng, dakong balay."],
+      ["What does Dako ang balay mean?", ["The house is big.", "the big house", "a big house", "my big house"], 0, "With the describing word first and ang before the noun, it is a full sentence."],
+      ["very good =", ["maayo lang", "maayo ba", "maayo kaayo", "maayo diay"], 2, "kaayo after the describing word means very; lang, ba and diay mean other things."]
+    ],
+    practice: [
+      ['mc', "a new book =", "bag-ong libro", "bag-o libro", "libro bag-o", "bag-o ang libro", "bag-o ends in a vowel, so the linker joins it as -ng: bag-ong libro."],
+      ['mc', "The coffee is hot. =", "Init ang kape.", "Init nga kape.", "Init si kape.", "Init kape ang.", "A full sentence has the describing word first and ang before the noun; Init nga kape is just a phrase."],
+      ['mc', "Which word is the linker?", "nga", "ang", "kaayo", "mga", "nga links a describing word and a noun."],
+      ['mc', "small =", "gamay", "dako", "daan", "bugnaw", "gamay is small; dako is big."],
+      ['mc', "very tasty =", "lami kaayo", "lami lang", "lami ba", "lami sab", "kaayo comes straight after the describing word and means very; lang is just, ba asks, sab is too."],
+      ['or', "The house is big", 'Dako ang balay', 'si', "The main word comes first, and ang marks the focus: Dako ang balay."],
+      ['or', "my big house", 'akong dakong balay', 'ako', "akong goes before the noun phrase, and dako takes -ng to join balay."],
+      ['or', "Ana's room is small", 'Gamay ang kuwarto ni Ana', 'sa', "The main word comes first, and names take ni when they own something."],
+      ['fi', 'balay __ dako', "a big house", 'nga', 'ang|ka|og', "nga links the noun and the describing word: balay nga dako."],
+      ['fi', 'Lami __.', "It's very tasty.", 'kaayo', 'lang|ba|sab', "kaayo after the describing word means very."],
+      ['fi', '__ ang kape.', "The coffee is cold.", 'Bugnaw', 'Init|Dako|Daan', "bugnaw means cold, for things and drinks."],
+      ['ty', "a big house", 'dakong balay|balay nga dako|dako nga balay', 'dako · balay', 'dako', "dako takes -ng to join balay: dakong balay."],
+      ['ty', "My house is new.", 'Bag-o ang akong balay|Bag-o ang balay nako|Bag-o akong balay', 'bag-o · akong · balay', 'ako', "The main word comes first, and akong goes before the noun: Bag-o ang akong balay."],
+      ['ty', "Ana's house is big.", 'Dako ang balay ni Ana', 'dako · balay · Ana', 'sa', "The main word comes first, and names take ni as owners: Dako ang balay ni Ana."]
     ]
   }
 ];

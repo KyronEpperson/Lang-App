@@ -86,13 +86,13 @@ module.exports = [
 `,
     check: [
       ["How do you say \"I'm thirsty\"?", ["Ako giuhaw.", "Giuhaw ko.", "Giuhaw nako.", "Ko giuhaw."], 1, "The feeling comes first, then the short pronoun ko."],
-      ["Where does kaayo (very) go?", ["After the feeling word: Kapoy kaayo.", "Before the feeling word: Kaayo kapoy.", "At the very start, before everything else", "It is never used with feelings"], 0, "kaayo follows the word it makes stronger."],
+      ["Where does kaayo (very) usually go?", ["After the feeling word: Kapoy kaayo.", "Before the feeling word: Kaayo kapoy.", "At the very start, before everything else", "It is never used with feelings"], 0, "kaayo follows the word it makes stronger."],
       ["What does Masakit akong ulo mean?", ["I'm sick.", "I'm tired.", "My head hurts.", "My head is hot."], 2, "masakit = hurts; akong ulo = my head."]
     ],
     practice: [
       ["mc", "'I'm hungry.' =", "Gigutom ko.", "Ako gigutom.", "Gigutom nako.", "Ko gigutom.", "Feeling first, then ko: Gigutom ko."],
       ["mc", "Which one means 'I'm full'?", "Busog na ko.", "Gigutom ko.", "Giuhaw ko.", "Kapoy ko.", "busog = full; na = already."],
-      ["mc", "'It's really hot.' (the weather) =", "Init kaayo.", "Kaayo init.", "Tugnaw kaayo.", "Ako init kaayo.", "kaayo follows the word it makes stronger; tugnaw means cold."],
+      ["mc", "'It's really hot.' (the weather) =", "Init kaayo.", "Init lang.", "Tugnaw kaayo.", "Ako init kaayo.", "kaayo follows the word it makes stronger; lang means just, and tugnaw means cold."],
       ["mc", "Your friend says Kapoy kaayo ko. She is…", "really tired", "very hungry", "a little cold", "happy", "kapoy = tired; kaayo = very."],
       ["mc", "'Is Ana tired?' =", "Kapoy ba si Ana?", "Kapoy ba ang Ana?", "Ba kapoy si Ana?", "Kapoy ba ni Ana?", "A name needs si here, and ba follows the first word."],
       ["or", "I'm hungry.", "Gigutom ko", "nako", "The short pronoun ko goes in second place, after the feeling word: Gigutom ko."],
@@ -117,18 +117,18 @@ module.exports = [
 <div class="tbl"><table><tr><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr><tr><td class="k">usa</td><td class="k">duha</td><td class="k">tulo</td><td class="k">upat</td><td class="k">lima</td></tr><tr><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr><tr><td class="k">unom</td><td class="k">pito</td><td class="k">walo</td><td class="k">siyam</td><td class="k">napulo</td></tr></table></div>
 <h3>ka between the number and the thing</h3>
 <p>English says "two bananas". Cebuano puts <b>ka</b> between the number and the noun, and the noun does not change: there is no plural ending.</p>
-{{ex:usa ka saging|oo-SAH kah sah-gheeng|one banana}}
+{{ex:usa ka saging|oo-SAH kah SAH-gheeng|one banana}}
 {{ex:duha ka adlaw|doo-HAH kah ahd-low|two days}}
 {{ex:tulo ka bata|too-LOH kah BAH-tahq|three children}}
 <p>To ask "how many", use <b>pila</b> with the same <b>ka</b>.</p>
 {{ex:Pila ka adlaw?|pee-lah kah ahd-low|How many days?}}
 <h3>Numbers with an owner</h3>
 <p>There is no verb for "have" here either. "I have two children" is <b>Duha akong anak</b>, literally "two my children": the number comes first, and <b>akong</b> goes before the noun.</p>
-{{ex:Duha akong anak.|doo-HAH ah-kohng ah-nahk|I have two children.}}
+{{ex:Duha akong anak.|doo-HAH ah-kohng ah-NAHK|I have two children.}}
 {{ex:akong tulo ka igsoon|ah-kohng too-LOH kah eeg-SOH-ohn|my three brothers and sisters}}
 <h3>Spanish numbers: money and age</h3>
 <div class="tbl"><table><tr><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr><tr><td class="k">uno</td><td class="k">dos</td><td class="k">tres</td><td class="k">kuwatro</td><td class="k">singko</td><td class="k">sais</td></tr><tr><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th></tr><tr><td class="k">siyete</td><td class="k">otso</td><td class="k">nuwebe</td><td class="k">diyes</td><td class="k">onse</td><td class="k">dose</td></tr></table></div>
-<p>The tens are <b>baynte</b> (20), <b>traynta</b> (30), <b>kuwarenta</b> (40), <b>singkuwenta</b> (50), <b>sesenta</b> (60), <b>setenta</b> (70), <b>otsenta</b> (80), <b>nobenta</b> (90) and <b>siyen</b> (100). For 25, say the ten, then the one: <b>baynte singko</b>. Spanish numbers never take <b>ka</b>.</p>
+<p>The tens are <b>baynte</b> (20), <b>traynta</b> (30), <b>kuwarenta</b> (40), <b>singkuwenta</b> (50), <b>sesenta</b> (60), <b>setenta</b> (70), <b>otsenta</b> (80), <b>nobenta</b> (90) and <b>siyen</b> (100). For 25, say the ten, then the one: <b>baynte singko</b>.</p>
 {{ex:baynte pesos|BAIN-teh peh-sohs|twenty pesos}}
 {{ex:baynte singko pesos|BAIN-teh seeng-koh peh-sohs|twenty-five pesos}}
 <p>Age uses Spanish numbers and <b>anyos</b> (years), then the short pronoun.</p>
@@ -147,15 +147,321 @@ module.exports = [
       ["mc", "What is siyam?", "nine", "seven", "six", "ten", "siyam is the Cebuano 9; the Spanish one is nuwebe."],
       ["mc", "A vendor says singkuwenta. How much is it?", "₱50", "₱40", "₱5", "₱60", "singkuwenta = 50; kuwarenta = 40, singko = 5, sesenta = 60."],
       ["mc", "'I'm thirty.' =", "Traynta anyos ko.", "Ako traynta anyos.", "Naa koy traynta anyos.", "Traynta anyos nako.", "The age first, then ko; Cebuano does not 'have' years."],
-      ["or", "three bananas", "tulo ka saging", "tres", "Count things with a Cebuano number and ka: tulo ka saging."],
+      ["or", "three bananas", "tulo ka saging", "upat", "Count things with a Cebuano number and ka: tulo ka saging."],
       ["or", "I have two children.", "Duha akong anak", "ako", "akong goes before the noun, and the number comes first: Duha akong anak."],
       ["or", "I'm twenty-five. (years old)", "Baynte singko anyos ko", "nako", "The age comes first, and the short pronoun ko follows it: Baynte singko anyos ko."],
       ["fi", "Tulo __ saging.", "three bananas", "ka", "ang|sa|og", "ka joins a Cebuano number to the thing it counts."],
       ["fi", "Duha __ anak.", "I have two children.", "akong", "ako|nako|ko", "akong goes before the noun: Duha akong anak."],
       ["fi", "__ pesos", "twenty pesos (₱20)", "baynte", "dos|dose|singko", "Prices use Spanish numbers: baynte = 20."],
-      ["ty", "two days", "duha ka adlaw", "duha (2) · adlaw (day)", "dos", "A Cebuano number, then ka, then the noun: duha ka adlaw."],
+      ["ty", "two days", "duha ka adlaw", "duha (2) · adlaw (day)", "upat", "A Cebuano number, then ka, then the noun: duha ka adlaw."],
       ["ty", "my three brothers and sisters", "akong tulo ka igsoon|ang akong tulo ka igsoon|tulo ka igsoon nako|ang tulo ka igsoon nako", "akong · tulo · igsoon", "ako", "akong goes before the noun, then the number and ka: akong tulo ka igsoon."],
       ["ty", "Ana is thirty. (years old)", "Traynta anyos si Ana|Traynta anyos na si Ana", "traynta · anyos · Ana", "ang", "Names take si, and the age comes first: Traynta anyos si Ana."]
+    ]
+  },
+  {
+    id: "prices",
+    title: "Prices and buying: Tagpila?",
+    blurb: "Ask what things cost, understand the answer in Spanish numbers, and ask for a small discount at a market.",
+    deck: "Shopping and prices",
+    body: `
+<p>At a market or a sari-sari store, many things have no price tag, so you ask. English asks "How much is it?"; Cebuano has two question words for it.</p>
+<h3>Pila and tagpila</h3>
+<p><b>Pila?</b> is "how much?" or "how many?". <b>Tagpila?</b> adds <b>tag-</b>, "each, per": it asks the price of one piece or one kilo. <b>ni</b> is the short <b>kini</b> (this) from the lesson on this and that.</p>
+{{ex:Pila ni?|pee-lah nee|How much is this?}}
+{{ex:Tagpila?|tahg-pee-lah|How much is each?}}
+{{ex:Tagpila ang usa ka kilo?|tahg-pee-lah ahng oo-SAH kah kee-loh|How much for a kilo?}}
+{{ex:Pila tanan?|pee-lah tah-NAHN|How much altogether?}}
+<h3>The answer: the price first</h3>
+<p>English says "a kilo is forty pesos". Cebuano puts the price first, in Spanish numbers, and then the thing with <b>ang</b>: "forty pesos the kilo".</p>
+{{ex:Kuwarenta pesos ang usa ka kilo.|koo-wah-rehn-tah peh-sohs ahng oo-SAH kah kee-loh|One kilo is forty pesos.}}
+<p>To ask about the vendor's goods, put <b>imong</b> (your) before the noun, and add a title: <b>Nang</b> for an older woman, <b>Nong</b> for an older man.</p>
+{{ex:Tagpila imong saging, Nang?|tahg-pee-lah ee-mohng SAH-gheeng nahng|How much are your bananas, ma'am?}}
+<h3>Expensive, cheap, a discount</h3>
+<p><b>mahal</b> is expensive and <b>barato</b> is cheap. At a market, not in a mall or a supermarket, you can ask for a small discount: <b>Pwede pahangyo?</b> Ask with a smile; a "no" is normal too.</p>
+{{ex:Mahal kaayo.|mah-HAHL kah-AH-yoh|That's really expensive.}}
+<p>When the price is good, say <b>Barato ra ni</b>, "this is only cheap". <b>ra</b> is the small word for "only, just" from the lesson on small words.</p>
+{{ex:Barato ra ni.|bah-rah-toh rah nee|This one is cheap.}}
+{{ex:Pwede pahangyo?|pweh-deh pah-hahng-yoh|Can you give me a discount?}}
+<h3>Paying</h3>
+<p>The money you get back is your <b>sukli</b> (change). In a jeepney, the word you say as you pass your fare forward is <b>Bayad</b>. Small prices may also come in centavos, <b>sentimos</b>, again with Spanish numbers.</p>
+{{ex:Bayad.|bah-yahd|Here's my fare.}}
+{{ex:baynte singko pesos|BAIN-teh seeng-koh peh-sohs|twenty-five pesos}}
+<div class="tip"><b>Most common mistake:</b> Cebuano numbers for prices. <b>tulo pesos</b> → <b>tres pesos</b>. People will understand you, but prices are said in Spanish numbers.</div>
+`,
+    check: [
+      ["What does Tagpila? ask?", ["The price of each piece or kilo", "How many there are", "Where the shop is", "Whether there is a discount"], 0, "tag- means each, per: Tagpila? = how much each?"],
+      ["A kilo costs ₱40. The vendor says:", ["Kuwarenta pesos si usa ka kilo.", "Upat pesos ang usa ka kilo.", "Kuwarenta pesos ang usa ka kilo.", "Ang usa ka kilo kuwarenta ka."], 2, "The price first, in Spanish numbers, then ang and the thing."],
+      ["Where do you ask Pwede pahangyo?", ["In a mall", "At a market", "In a bank", "On a jeepney"], 1, "Asking for a small discount is normal at a market, not where prices are fixed."]
+    ],
+    practice: [
+      ["mc", "'How much is this?' =", "Pila ni?", "Unsa ni?", "Asa ni?", "Kinsa ni?", "pila asks how much; unsa asks what."],
+      ["mc", "What does Mahal kaayo mean?", "That's really expensive.", "That's really cheap.", "That's very big.", "That's very small.", "mahal = expensive; barato = cheap."],
+      ["mc", "'How much altogether?' =", "Pila tanan?", "Tagpila?", "Pila ni?", "Tanan ni?", "tanan = all; Tagpila? asks the price of each."],
+      ["mc", "'₱25' =", "baynte singko pesos", "singko baynte pesos", "duha lima pesos", "baynte ka singko pesos", "The ten first, then the one: baynte singko."],
+      ["mc", "At a market you want a small discount. You say:", "Pwede pahangyo?", "Pila tanan?", "Tagpila?", "Bayad.", "pahangyo is the small discount you ask for at a market."],
+      ["or", "How much for one kilo?", "Tagpila ang usa ka kilo", "si", "The question word comes first, and ang marks the thing you ask about: Tagpila ang usa ka kilo?"],
+      ["or", "How much are your bananas? (to a vendor)", "Tagpila imong saging", "ikaw", "imong is the akong-set word for your, and it goes before the noun: Tagpila imong saging?"],
+      ["or", "That's really expensive.", "Mahal kaayo", "barato", "kaayo follows mahal; barato means cheap."],
+      ["fi", "__ ni?", "How much is this?", "Pila|Tagpila", "Unsa|Asa|Kinsa", "pila asks how much; unsa asks what."],
+      ["fi", "Kuwarenta pesos __ usa ka kilo.", "One kilo is forty pesos.", "ang", "si|ni|og", "ang marks the thing whose price you give."],
+      ["fi", "Baynte __ pesos.", "twenty-five pesos (₱25)", "singko", "lima|ka|sais", "Prices use Spanish numbers: baynte singko = 25."],
+      ["ty", "How much altogether?", "Pila tanan", "pila · tanan", "Unsa", "tanan means all: Pila tanan?"],
+      ["ty", "How much is your fish? (to a vendor; use tagpila)", "Tagpila imong isda|Tagpila ang imong isda|Tagpila ang isda nimo", "tagpila · imong · isda (fish)", "ikaw", "imong goes before the noun: Tagpila imong isda?"],
+      ["ty", "One kilo is ₱40. (start with the price)", "Kuwarenta pesos ang kilo|Kuwarenta pesos ang usa ka kilo", "kuwarenta · pesos · kilo", "si", "The price comes first, and ang marks the thing: Kuwarenta pesos ang kilo."]
+    ]
+  },
+  {
+    id: "family",
+    title: "Family",
+    blurb: "Name the people in your family, say whose relative someone is, and use family titles politely.",
+    deck: "People and family",
+    body: `
+<p>Cebuano family words often say less than English ones: one word covers brother and sister, another covers son and daughter. You add a word only when it matters.</p>
+<h3>Parents and children</h3>
+<p><b>amahan</b> and <b>inahan</b> are father and mother; at home most people say <b>papa</b> and <b>mama</b>. <b>anak</b> is your own child, son or daughter, of any age. <b>bata</b> is any child, any young person.</p>
+{{ex:Akong inahan si Rosa.|ah-kohng ee-NAH-hahn see roh-sah|Rosa is my mother.}}
+{{ex:Anak ni Pedro si Ben.|ah-NAHK nee peh-droh see behn|Ben is Pedro's son.}}
+<h3>Brothers and sisters</h3>
+<p><b>igsoon</b> is a brother or a sister. To say which, add <b>nga lalaki</b> (male) or <b>nga babaye</b> (female) with the linker. Age often matters more than sex: <b>magulang</b> is an older brother or sister, <b>manghod</b> a younger one.</p>
+{{ex:igsoon nga lalaki|eeg-SOH-ohn ngah lah-LAH-kee|brother}}
+{{ex:akong manghod|ah-kohng mahng-HOHD|my younger brother or sister}}
+{{ex:akong magulang nga babaye|ah-kohng mah-GOO-lahng ngah bah-BAH-yeh|my older sister}}
+<h3>Husband, wife and the wider family</h3>
+<div class="tbl"><table><tr><th>Cebuano</th><th>English</th><th>Cebuano</th><th>English</th></tr><tr><td class="k">bana</td><td>husband</td><td class="k">asawa</td><td>wife</td></tr><tr><td class="k">lolo</td><td>grandfather</td><td class="k">lola</td><td>grandmother</td></tr><tr><td class="k">tiyo</td><td>uncle</td><td class="k">tiya</td><td>aunt</td></tr><tr><td class="k">apo</td><td>grandchild</td><td class="k">ig-agaw</td><td>cousin</td></tr></table></div>
+{{ex:Bana ni Ana si Pedro.|bah-nah nee ah-nah see peh-droh|Pedro is Ana's husband.}}
+<h3>Owners: akong, nako, ni</h3>
+<p>Everything from the lesson on owners works here: <b>akong igsoon</b> or <b>igsoon nako</b>, and <b>ni</b> before a name, as in <b>asawa ni Pedro</b>. When you tell a guest about "our family", use <b>among</b> (ours, not yours), never <b>atong</b>, which would include the guest.</p>
+{{ex:among pamilya|ah-mohng pah-meel-yah|our family (not yours)}}
+<h3>Family titles as "you"</h3>
+<p>Cebuanos rarely call older relatives by their first names. They use the title instead, even where English says "you": <b>Kumusta, Lola?</b> The same titles are used for older family friends.</p>
+{{ex:Salamat, Tiya.|sah-LAH-maht TEE-yah|Thank you, Auntie.}}
+<p>To ask how many brothers and sisters someone has, learn this whole phrase: <b>Pila mo kabuok?</b> Here <b>mo</b> is short for <b>kamo</b> (you all): "how many of you are there?"</p>
+{{ex:Pila mo kabuok?|pee-lah moh kah-boo-ohk|How many siblings are there in your family?}}
+<div class="tip"><b>Most common mistake:</b> the wrong "our". Talking to a guest, <b>atong pamilya</b> → <b>among pamilya</b>. The guest is not part of your family, so use the "we, not you" word.</div>
+`,
+    check: [
+      ["What does igsoon mean?", ["brother or sister", "brother only", "cousin", "son or daughter"], 0, "igsoon says nothing about sex: add nga lalaki or nga babaye."],
+      ["Pedro is Ana's husband. Which is right?", ["Bana sa Ana si Pedro.", "Bana ni Ana ang Pedro.", "Bana ni Ana si Pedro.", "Ana bana si Pedro."], 2, "ni before the owner's name, si before the name of the person you talk about."],
+      ["Talking to a guest, how do you say \"our family\"?", ["atong pamilya", "among pamilya", "akong pamilya", "ilang pamilya"], 1, "among leaves the listener out; atong would include the guest."]
+    ],
+    practice: [
+      ["mc", "'my younger brother or sister' =", "akong manghod", "akong magulang", "ako manghod", "manghod ako", "manghod = younger; magulang = older."],
+      ["mc", "Who is your ig-agaw?", "your cousin", "your aunt", "your grandchild", "your husband", "ig-agaw = cousin; tiya = aunt, apo = grandchild, bana = husband."],
+      ["mc", "Your grandmother hands you food. You say:", "Salamat, Lola.", "Salamat po, Lola.", "Salamat, Nong.", "Salamat, Lolo.", "Use her title, Lola; po is Tagalog, not Cebuano."],
+      ["mc", "What is your anak?", "your son or daughter", "any young person", "your brother or sister", "your grandchild", "anak is your own child; bata is any child."],
+      ["mc", "'our family' (to a guest) =", "among pamilya", "atong pamilya", "kitang pamilya", "kami pamilya", "among leaves the listener out; atong includes them."],
+      ["or", "two children (sons or daughters)", "duha ka anak", "upat", "Count with a Cebuano number and ka: duha ka anak."],
+      ["or", "Ana's husband", "bana ni Ana", "sa", "Names take ni when they own something: bana ni Ana."],
+      ["or", "my younger sister", "akong manghod nga babaye", "ako", "akong goes before the noun and ends in -ng: akong manghod nga babaye."],
+      ["fi", "akong __ nga lalaki", "my brother", "igsoon", "anak|bana|apo", "igsoon nga lalaki is a brother; anak nga lalaki would be a son."],
+      ["fi", "bana __ Ana", "Ana's husband", "ni", "sa|si|ang", "ni goes before a name that owns something."],
+      ["fi", "__ inahan si Rosa.", "Rosa is my mother.", "Akong", "Ako|Nako|Ko", "akong goes before the noun: akong inahan."],
+      ["ty", "a brother (a male sibling)", "igsoon nga lalaki|lalaki nga igsoon", "igsoon · lalaki", "bata", "There is no single word for brother: igsoon nga lalaki."],
+      ["ty", "Rosa is my mother. (use inahan)", "Akong inahan si Rosa|Inahan nako si Rosa", "akong · inahan · Rosa", "ang", "Names take si, and the main word comes first: Akong inahan si Rosa."],
+      ["ty", "my grandchildren", "akong mga apo|mga apo nako|ang akong mga apo|ang mga apo nako", "akong · mga · apo", "ako", "akong goes before the noun, with mga between: akong mga apo."]
+    ]
+  },
+  {
+    id: "mo",
+    title: "Doer-focus verbs 1: mo- (will) and ni- (did)",
+    blurb: "Say what you will do and what you did with mo- and ni- verbs, and what you buy, eat or drink with og.",
+    deck: "Everyday verbs",
+    body: `
+<p>English verbs change with the person and the time: "I eat", "she eats", "I ate", "I will eat". A Cebuano verb never changes for the person. Instead, a prefix on the root (the bare verb, such as <b>kaon</b>, eat) tells you whether the action has happened yet.</p>
+<h3>mo-: not done yet (the future form)</h3>
+<p>Put <b>mo-</b> on the root for something that has not happened yet, where English says "will". The same form is used for habits, things you usually do.</p>
+{{ex:Mokaon ko.|moh-kah-ohn koh|I'll eat.}}
+{{ex:Moadto ko sa merkado.|moh-ahd-toh koh sah mehr-kah-doh|I'll go to the market.}}
+{{ex:Moinom ko og kape matag buntag.|moh-ee-nohm koh ohg kah-peh mah-tahg boon-tahg|I drink coffee every morning.}}
+<h3>ni- or mi-: done (the past form)</h3>
+<p>For something that has happened, change <b>mo-</b> to <b>ni-</b>. You will also see <b>mi-</b>: both are right, and this course writes <b>ni-</b>.</p>
+{{ex:Nikaon ko.|nee-kah-ohn koh|I ate.}}
+<p>Time words help you choose: <b>ugma</b> (tomorrow) goes with <b>mo-</b>, and <b>gahapon</b> (yesterday) with <b>ni-</b>.</p>
+{{ex:Moadto ko ugma.|moh-ahd-toh koh oog-MAHQ|I'll go tomorrow.}}
+{{ex:Niadto ko gahapon.|nee-ahd-toh koh gah-hah-pohn|I went yesterday.}}
+<h3>The doer is the focus</h3>
+<p>With these verbs, the person who does the action is the focus of the sentence, the <b>ang</b> word. So it takes the forms you already know: <b>ko, ka, siya</b>; <b>si</b> before a name; <b>ang</b> before other nouns. The verb comes first, and a short pronoun follows it. With a question word, the question word comes first and the short pronoun moves up behind it.</p>
+{{ex:Asa ka moadto?|ah-sah kah moh-ahd-toh|Where are you going?}}
+<h3>The thing: og</h3>
+<p>English says "I'll buy water". After a <b>mo-</b> or <b>ni-</b> verb, a thing that is not a specific one ("water", "some bananas", "a coffee") takes <b>og</b>. Do not use <b>ang</b> for it: a later lesson shows the kind of verb Cebuano prefers for "the water".</p>
+{{ex:Mopalit ko og tubig.|moh-pah-leet koh ohg TOO-beeg|I'll buy water.}}
+{{ex:Nipalit ko og saging.|nee-pah-leet koh ohg SAH-gheeng|I bought some bananas.}}
+<div class="tip"><b>Most common mistake:</b> the future form for the past. <b>Mokaon ko gahapon.</b> → <b>Nikaon ko gahapon.</b> If it already happened, use <b>ni-</b>.</div>
+`,
+    check: [
+      ["How do you say \"I ate yesterday\"?", ["Mokaon ko gahapon.", "Nikaon ko gahapon.", "Nikaon nako gahapon.", "Ko nikaon gahapon."], 1, "It already happened, so ni-; ko follows the verb."],
+      ["What does mo- show?", ["The action has not happened yet, or is a habit", "The action is finished", "The action is a command", "The action was done to you"], 0, "mo- is the future form, also used for habits."],
+      ["How do you say \"I'll buy water\"?", ["Mopalit ko ang tubig.", "Mopalit og tubig ko.", "Nipalit ko og tubig.", "Mopalit ko og tubig."], 3, "mo- for the future, ko right after the verb, og before the water."]
+    ],
+    practice: [
+      ["mc", "'I'll eat.' =", "Mokaon ko.", "Nikaon ko.", "Ko mokaon.", "Mokaon nako.", "mo- means not done yet; ko follows the verb."],
+      ["mc", "Which one is about the past?", "Niinom ko.", "Moinom ko.", "Moinom ko ugma.", "Moinom ko matag buntag.", "ni- means the action is already done."],
+      ["mc", "What does Nipalit si Ana og saging mean?", "Ana bought bananas.", "Ana will buy bananas.", "Ana likes bananas.", "Ana has bananas.", "ni- = done; palit = buy."],
+      ["mc", "'I'll go tomorrow.' =", "Moadto ko ugma.", "Niadto ko ugma.", "Moadto ko gahapon.", "Niadto ko gahapon.", "ugma (tomorrow) needs the mo- form."],
+      ["mc", "After Mopalit ko, which small word goes before 'water' (not a specific one)?", "og", "ang", "si", "ni", "After a mo- verb, 'some, a' is og: Mopalit ko og tubig."],
+      ["or", "I'll buy water.", "Mopalit ko og tubig", "ang", "With a mo- verb the doer is the focus, and og marks a thing that is not specific: Mopalit ko og tubig."],
+      ["or", "Where will you go?", "Asa ka moadto", "nimo", "The question word comes first, and the short pronoun ka goes in second place: Asa ka moadto?"],
+      ["or", "I ate yesterday. (start with the verb)", "Nikaon ko gahapon", "Mokaon", "For something already done, use the past form ni-: Nikaon ko gahapon."],
+      ["fi", "__ ko og kape ugma.", "I'll buy coffee tomorrow.", "Mopalit", "Nipalit|Gipalit|Palit", "ugma means tomorrow, so the verb takes the future form mo-."],
+      ["fi", "Nikaon ko __ saging.", "I ate a banana.", "og", "ang|si|ni", "og marks a thing that is not specific after a doer-focus verb."],
+      ["fi", "Moadto __ sa Bohol.", "She will go to Bohol.", "siya", "niya|iyang|ni", "With a mo- verb the doer is the focus, so use siya."],
+      ["ty", "I'll go tomorrow. (start with the verb)", "Moadto ko ugma|Moadto ako ugma", "adto (go) · ugma (tomorrow)", "Niadto", "Not done yet, so the future form: Moadto ko ugma."],
+      ["ty", "I bought bananas. (start with the verb)", "Nipalit ko og saging|Mipalit ko og saging|Nipalit ako og saging|Mipalit ako og saging", "palit (buy) · saging", "ang", "The doer is the focus, and og marks bananas that are not specific: Nipalit ko og saging."],
+      ["ty", "Pedro will drink water.", "Moinom si Pedro og tubig|Moinom og tubig si Pedro", "inom (drink) · Pedro · tubig", "ang", "Names take si, and with mo- the doer is the focus: Moinom si Pedro og tubig."]
+    ]
+  },
+  {
+    id: "mag",
+    title: "Doer-focus verbs 2: mag- and nag-",
+    blurb: "Use mag- and nag- verbs to say what you will do, what you did and what you are doing, and to say \"let's\".",
+    deck: "Everyday verbs",
+    body: `
+<p>Some verbs take <b>mag-</b> instead of <b>mo-</b>. They work the same way: the prefix shows whether the action has happened, and the person doing it is the <b>ang</b> word. Which prefix a root takes is something you learn with each verb, the way English learners learn "went" with "go". Common <b>mag-</b> verbs: <b>magtrabaho</b> (work), <b>magluto</b> (cook), <b>magtuon</b> (study), <b>magdula</b> (play).</p>
+<h3>mag-: not done yet</h3>
+<p><b>mag-</b> is the future form, like <b>mo-</b>.</p>
+{{ex:Magluto ko.|mahg-loo-toh koh|I'll cook.}}
+{{ex:Magtuon ko.|mahg-too-ohn koh|I'll study.}}
+<h3>nag-: done, or going on</h3>
+<p>Here is the surprise for English speakers: <b>nag-</b> covers both something already done and something going on now. <b>Nagluto siya</b> is "she cooked" or "she is cooking", and the situation tells you which. It also covers ongoing situations, such as a job or where you live: you met <b>Nagpuyo ko sa Cebu</b> (I live in Cebu) as a phrase.</p>
+{{ex:Nagluto siya.|nahg-loo-toh see-YAH|She's cooking. / She cooked.}}
+{{ex:Nagtrabaho siya sa Cebu.|nahg-trah-bah-hoh see-YAH sah seh-BOO|He works in Cebu.}}
+{{ex:Nagtuon ko og Bisaya.|nahg-too-ohn koh ohg bee-sah-yah|I'm studying Cebuano.}}
+<h3>Let's: mag- with ta</h3>
+<p>With <b>ta</b> (we, including you), the <b>mag-</b> form makes a suggestion, like English "let's".</p>
+{{ex:Magdula ta!|mahg-doo-lah tah|Let's play!}}
+<h3>A hyphen before a vowel</h3>
+<p>When the root starts with a vowel, a hyphen separates the prefix from it and marks the catch: <b>mag-ampo</b> (pray), <b>nag-ampo</b> (prayed, is praying).</p>
+{{ex:Mag-ampo ta.|mahg-ahm-poh tah|Let's pray.}}
+<h3>Same rules as mo-</h3>
+<p>Everything from the last lesson still holds, and the prefix never changes for the person: <b>magluto ko</b>, <b>magluto siya</b>, <b>magluto si Ana</b>. The verb comes first and a short pronoun follows it; a question word goes before both; names take <b>si</b>; a thing that is not a specific one takes <b>og</b>.</p>
+{{ex:Asa ka nagtrabaho?|ah-sah kah nahg-trah-bah-hoh|Where do you work?}}
+<div class="tip"><b>Most common mistake:</b> using <b>nag-</b> for something still to come. <b>Nagtrabaho ko ugma.</b> → <b>Magtrabaho ko ugma.</b> <b>nag-</b> is for what is done or going on; tomorrow needs <b>mag-</b>.</div>
+`,
+    check: [
+      ["What can Nagluto siya mean?", ["She cooked, or she is cooking.", "She will cook.", "Cook it!", "She can cook."], 0, "nag- covers something done and something going on now."],
+      ["How do you say \"I'll study\"?", ["Nagtuon ko.", "Magtuon ko.", "Magtuon nako.", "Ko magtuon."], 1, "mag- is the future form, and ko follows the verb."],
+      ["What does Magdula ta! mean?", ["We played.", "Play!", "Let's play!", "They are playing."], 2, "mag- with ta (we, including you) is a suggestion: let's."]
+    ],
+    practice: [
+      ["mc", "'She is cooking.' =", "Nagluto siya.", "Magluto siya.", "Nagluto niya.", "Magluto niya.", "nag- covers what is going on now; siya is the right word for she here."],
+      ["mc", "'I'll work tomorrow.' =", "Magtrabaho ko ugma.", "Nagtrabaho ko ugma.", "Magtrabaho nako ugma.", "Ko magtrabaho ugma.", "ugma needs the future form mag-, with ko right after the verb."],
+      ["mc", "What does Nagtuon ko og Bisaya mean?", "I'm studying Cebuano.", "I'll teach Cebuano.", "I speak Cebuano.", "I like Cebuano.", "tuon = study; nag- = going on now (or done)."],
+      ["mc", "'Let's pray.' =", "Mag-ampo ta.", "Nag-ampo ta.", "Mag-ampo nato.", "Ta mag-ampo.", "mag- with ta makes a suggestion; nag- would mean we prayed."],
+      ["mc", "'Where do you work?' =", "Asa ka nagtrabaho?", "Asa nagtrabaho ka?", "Ka asa nagtrabaho?", "Asa nimo nagtrabaho?", "Question word first, then ka, then the verb."],
+      ["or", "I'm studying Cebuano.", "Nagtuon ko og Bisaya", "nako", "The short pronoun ko goes in second place, right after the verb: Nagtuon ko og Bisaya."],
+      ["or", "Where do you work?", "Asa ka nagtrabaho", "nimo", "The question word comes first, and the short pronoun ka goes in second place: Asa ka nagtrabaho?"],
+      ["or", "Let's play!", "Magdula ta", "Nagdula", "mag- with ta makes a suggestion: Magdula ta!"],
+      ["fi", "__ ko sa Cebu karon.", "I'm working in Cebu now. (karon = now)", "Nagtrabaho", "Magtrabaho|Trabaho|Gitrabaho", "Something going on now takes nag-: Nagtrabaho ko."],
+      ["fi", "Magluto __ ugma.", "I'll cook tomorrow.", "ko|ako", "nako|akong|kanako", "With a mag- verb the doer is the focus: use the ako-set, ko."],
+      ["fi", "Nagtuon ko __ Bisaya.", "I'm studying Cebuano.", "og", "ang|si|ni", "og marks a thing that is not specific after a doer-focus verb."],
+      ["ty", "She is cooking.", "Nagluto siya", "luto (cook) · siya", "Magluto", "nag- covers something going on now, not only something done."],
+      ["ty", "I work in Cebu. (start with the verb)", "Nagtrabaho ko sa Cebu|Nagtrabaho ako sa Cebu", "trabaho (work) · Cebu", "nako", "The short pronoun ko goes in second place, right after the verb: Nagtrabaho ko sa Cebu."],
+      ["ty", "Ana will cook adobo. (start with the verb)", "Magluto si Ana og adobo|Magluto og adobo si Ana", "luto (cook) · Ana · adobo", "ang", "Names take si; with mag- the doer is the focus, and og comes before the dish."]
+    ]
+  },
+  {
+    id: "negation",
+    title: "dili and wala: two words for not",
+    blurb: "Choose between dili and wala to say you won't, you didn't, it isn't, or there is none.",
+    deck: "Traps for English speakers",
+    body: `
+<p>English has one "not". Cebuano has two, and choosing between them is one of the hardest habits for English speakers. The question to ask is: has it happened, or is there any?</p>
+<div class="tbl"><table><tr><th>Use</th><th>For</th><th>Example</th></tr><tr><td class="k">dili</td><td>won't, don't (habits), is not</td><td class="k">Dili ko moadto.</td></tr><tr><td class="k">wala</td><td>didn't; there is none, don't have</td><td class="k">Wala ko moadto.</td></tr></table></div>
+<h3>dili: not yet happened, or "is not"</h3>
+<p>Use <b>dili</b> for something that will not happen and for habits. The verb keeps its <b>mo-</b> or <b>mag-</b> form.</p>
+{{ex:Dili ko moadto ugma.|dee-lee koh moh-ahd-toh oog-MAHQ|I won't go tomorrow.}}
+{{ex:Dili ko mokaon og baboy.|dee-lee koh moh-kah-ohn ohg BAH-boy|I don't eat pork.}}
+<p><b>dili</b> is also the "not" of sentences with no verb: what someone is, or what something is like.</p>
+{{ex:Dili ko Amerikano.|dee-lee koh ah-meh-ree-kah-noh|I'm not American.}}
+{{ex:Dili mahal.|dee-lee mah-HAHL|It's not expensive.}}
+<h3>wala: did not happen, or none</h3>
+<p>Use <b>wala</b> for something that did not happen. Surprise: after <b>wala</b>, this course puts the verb back in the <b>mo-</b> form, because <b>wala</b> already says "past". You may also hear the <b>ni-</b> form after <b>wala</b> in quick speech; the <b>mo-</b> form is the one to learn.</p>
+{{ex:Wala ko moadto.|wah-LAHQ koh moh-ahd-toh|I didn't go.}}
+<p>And, as you learned with <b>naa</b>, <b>wala</b> means "there is no" and "don't have".</p>
+{{ex:Walay tubig.|wah-lai TOO-beeg|There's no water.}}
+<h3>The short pronoun moves up</h3>
+<p>Both words pull the short pronoun forward. It goes in second place, right after <b>dili</b> or <b>wala</b>, before the verb or describing word. <b>ganahan</b> means "like".</p>
+{{ex:Dili ko ganahan.|dee-lee koh gah-NAH-hahn|I don't like it.}}
+<h3>Saying no</h3>
+<p>The same choice works as a one-word answer. To "Will you go?" or "Is it…?", answer <b>Dili</b>. To "Did you go?" or "Is there…?", answer <b>Wala</b>.</p>
+<p>In fast speech you will hear <b>di</b> for <b>dili</b> and <b>wa</b> for <b>wala</b>, often joined to the pronoun: <b>Di ko</b>, <b>Wa ko</b>. They are fine to say, but this course writes the full forms in answers, so type <b>dili</b> and <b>wala</b>.</p>
+<div class="tip"><b>Most common mistake:</b> <b>dili</b> for the past. <b>Dili ko moadto gahapon.</b> → <b>Wala ko moadto gahapon.</b> If it did not happen, the word is <b>wala</b>.</div>
+`,
+    check: [
+      ["How do you say \"I didn't go\"?", ["Dili ko moadto.", "Wala ko moadto.", "Wala moadto ko.", "Wala nako moadto."], 1, "wala for the past, ko right after it, and the verb in the mo- form."],
+      ["Which word is right in ___ ko Amerikano (I'm not American)?", ["Dili", "Wala", "Walay", "Ayaw"], 0, "No verb and no 'there is': the 'not' is dili."],
+      ["After wala, which form does the verb take?", ["A form with gi-: giadto", "No verb at all", "The root alone: adto", "The mo- form: moadto"], 3, "wala already says it did not happen, so this course keeps the verb in the mo- form."]
+    ],
+    practice: [
+      ["mc", "'There's no water.' =", "Walay tubig.", "Dili tubig.", "Dili ko tubig.", "Wala ko tubig.", "For 'there is no', use walay."],
+      ["mc", "'I didn't eat.' =", "Wala ko mokaon.", "Dili ko mokaon.", "Wala mokaon ko.", "Wala nako mokaon.", "wala for the past, then ko, then the mo- form."],
+      ["mc", "'I won't go tomorrow.' =", "Dili ko moadto ugma.", "Wala ko moadto ugma.", "Dili moadto ko ugma.", "Dili nako moadto ugma.", "dili for what will not happen, then ko, then the verb."],
+      ["mc", "'He isn't a teacher.' =", "Dili siya maestro.", "Wala siya maestro.", "Dili niya maestro.", "Wala siyay maestro.", "dili is the 'not' of a sentence with no verb; wala siyay maestro means he has no teacher."],
+      ["mc", "Someone asks Niadto ka? (Did you go?). You didn't. You answer:", "Wala.", "Dili.", "Walay.", "Wala koy.", "It did not happen, so the short answer is Wala."],
+      ["or", "I don't like it.", "Dili ko ganahan", "nako", "The short pronoun ko moves up to second place, right after dili: Dili ko ganahan."],
+      ["or", "We didn't go. (not including you)", "Wala mi moadto", "namo", "The short pronoun mi moves up to second place, right after wala: Wala mi moadto."],
+      ["or", "There's no rice. (uncooked)", "Walay bugas", "Dili", "For 'there is no', use walay, never dili."],
+      ["fi", "__ ko moadto gahapon.", "I didn't go yesterday.", "Wala", "Dili|Walay|Naa", "It did not happen, so wala; dili is for what will not happen."],
+      ["fi", "Dili __ ganahan.", "I don't like it.", "ko|ako", "nako|akong|kanako", "Use the ako-set: the short pronoun ko goes in second place, after dili."],
+      ["fi", "Dili ko __ ugma.", "I won't go tomorrow.", "moadto", "niadto|gikan|didto", "After dili, the verb keeps the mo- form."],
+      ["ty", "I'm not American.", "Dili ko Amerikano|Dili ako Amerikano|Dili ko Amerikana|Dili ako Amerikana", "dili · Amerikano (a woman: Amerikana)", "Wala", "For 'is not' with no verb, use dili, never wala."],
+      ["ty", "I didn't go.", "Wala ko moadto|Wala ako moadto", "wala · adto (go)", "nako", "The short pronoun ko moves up to second place, right after wala, and the verb stays in the mo- form."],
+      ["ty", "I won't go tomorrow. (start with dili)", "Dili ko moadto ugma|Dili ako moadto ugma", "dili · adto (go) · ugma", "Wala", "dili for what will not happen; the short pronoun ko moves up to second place."]
+    ]
+  },
+  {
+    id: "time",
+    title: "Days and the clock: alas tres, Lunes, ugma",
+    blurb: "Tell the time with Spanish numbers, name the days, and use today, tomorrow and yesterday with the right verb form.",
+    deck: "Time and days",
+    body: `
+<p>English tells the time with its own numbers. Cebuano uses Spanish numbers on the clock, with <b>alas</b> in front of the hour.</p>
+<h3>The hours: alas + a Spanish number</h3>
+<p>From two to twelve, say <b>alas</b> and the Spanish number. One o'clock is different: <b>ala una</b>. For half past, add <b>y medya</b> (and a half).</p>
+{{ex:alas tres|ah-lahs trehs|three o'clock}}
+{{ex:ala una|ah-lah oo-nah|one o'clock}}
+{{ex:alas otso y medya|ah-lahs oh-choh ee meh-jah|half past eight}}
+<p>In Cebu City you will also hear English times, such as "at three", in offices and malls. This course uses the Spanish hours, so that one answer is right.</p>
+<p>To ask the time, learn the whole phrase <b>Unsa nang orasa?</b> The answer often adds <b>na</b> (already, now).</p>
+{{ex:Unsa nang orasa?|oon-sah nahng oh-rah-sah|What time is it?}}
+{{ex:Alas dos na.|ah-lahs dohs nah|It's already two o'clock.}}
+<h3>Morning, afternoon, evening</h3>
+<p>Cebuano has no a.m. and p.m. Add <b>sa buntag</b> (in the morning), <b>sa hapon</b> (in the afternoon) or <b>sa gabii</b> (in the evening): the same words as in the greetings.</p>
+{{ex:alas siyete sa gabii|ah-lahs see-yeh-teh sah gah-BEE-ee|seven p.m.}}
+<h3>At what time</h3>
+<p>Put the time after the verb and its short pronoun. You will also hear <b>sa</b> before the time: <b>sa alas tres</b>.</p>
+{{ex:Mobiya ko alas tres.|moh-bee-yah koh ah-lahs trehs|I'll leave at three.}}
+{{ex:Nimata ko alas sais.|nee-mah-tah koh ah-lahs sah-ees|I woke up at six.}}
+<h3>The days</h3>
+<p>The days are Spanish too, written with a capital: <b>Lunes, Martes, Miyerkoles, Huwebes, Biyernes, Sabado, Domingo</b>. "On Monday" is <b>sa Lunes</b>. Sunday, <b>Domingo</b>, is the day for church and a long family lunch.</p>
+{{ex:Moadto ko sa Lunes.|moh-ahd-toh koh sah loo-nehs|I'll go on Monday.}}
+<h3>Now, today, tomorrow</h3>
+<div class="tbl"><table><tr><th>Cebuano</th><th>English</th><th>Verb form</th></tr><tr><td class="k">karon</td><td>now</td><td>depends</td></tr><tr><td class="k">ganina</td><td>earlier today</td><td>ni-, nag-</td></tr><tr><td class="k">unya</td><td>later today</td><td>mo-, mag-</td></tr><tr><td class="k">ugma</td><td>tomorrow</td><td>mo-, mag-</td></tr><tr><td class="k">gahapon</td><td>yesterday</td><td>ni-, nag-</td></tr></table></div>
+<p>Watch <b>unya</b>: it means later today, not tomorrow. Each time word also tells you the verb form, so the two always agree.</p>
+{{ex:Mouli ko unya.|moh-oo-lee koh oon-YAHQ|I'll go home later.}}
+{{ex:Nikaon ko ganina.|nee-kah-ohn koh gah-nee-nah|I ate earlier.}}
+<div class="tip"><b>Most common mistake:</b> Cebuano numbers on the clock. <b>alas tulo</b> → <b>alas tres</b>. Hours are always Spanish numbers.</div>
+`,
+    check: [
+      ["How do you say \"three o'clock\"?", ["alas tulo", "alas tres", "tulo ka oras", "ala tres"], 1, "On the clock: alas + a Spanish number."],
+      ["What does unya mean?", ["later today", "tomorrow", "yesterday", "earlier today"], 0, "unya is later today; tomorrow is ugma."],
+      ["Which one is \"seven p.m.\"?", ["alas siyete sa buntag", "alas pito sa gabii", "pito ka oras sa gabii", "alas siyete sa gabii"], 3, "alas + Spanish siyete, and sa gabii for the evening."]
+    ],
+    practice: [
+      ["mc", "'three o'clock' =", "alas tres", "alas tulo", "ala tres", "tres alas", "On the clock: alas + a Spanish number."],
+      ["mc", "'one o'clock' =", "ala una", "alas dos", "alas usa", "ala usa", "One o'clock is the odd one: ala una."],
+      ["mc", "Which day is Monday?", "Lunes", "Martes", "Domingo", "Sabado", "Lunes is Monday; Domingo is Sunday."],
+      ["mc", "'I ate earlier today.' =", "Nikaon ko ganina.", "Mokaon ko ganina.", "Nikaon ko unya.", "Nikaon nako ganina.", "ganina is earlier today, so the past form ni-."],
+      ["mc", "'I'll go home later today.' =", "Mouli ko unya.", "Mouli ko ganina.", "Niuli ko unya.", "Mouli ko gahapon.", "unya is later today and goes with mo-."],
+      ["or", "I'll leave at 3:00. (start with the verb)", "Mobiya ko alas tres", "nako", "The short pronoun ko goes in second place, after the verb; the time comes after it."],
+      ["or", "When will you go?", "Kanus-a ka moadto", "nimo", "The question word comes first, and the short pronoun ka goes in second place: Kanus-a ka moadto?"],
+      ["or", "half past eight", "alas otso y medya", "walo", "alas + Spanish otso, then y medya for half past."],
+      ["fi", "Alas otso __ medya.", "half past eight", "y", "ka|nga|sa", "y medya means 'and a half'."],
+      ["fi", "Mobiya ko __ Lunes.", "I'll leave on Monday.", "sa", "si|ang|ni", "Days take sa: sa Lunes."],
+      ["fi", "Moadto ko __.", "I'll go tomorrow.", "ugma", "gahapon|ganina|unya", "ugma is tomorrow; unya is later today."],
+      ["ty", "three o'clock (3:00)", "alas tres", "alas · tres (3)", "tulo", "On the clock, alas + a Spanish number: alas tres."],
+      ["ty", "I woke up at 6:00. (start with the verb)", "Nimata ko alas sais|Mimata ko alas sais|Nimata ko sa alas sais|Mimata ko sa alas sais|Nimata ako alas sais|Mimata ako alas sais|Nimata ako sa alas sais|Mimata ako sa alas sais", "mata (wake up) · alas · sais (6)", "nako", "The short pronoun ko goes in second place, after the verb: Nimata ko alas sais."],
+      ["ty", "I'll go home later today. (start with the verb)", "Mouli ko unya|Mouli ako unya", "uli (go home) · unya", "nako ugma", "The short pronoun ko goes in second place, after the verb; unya is later today."]
     ]
   }
 ];

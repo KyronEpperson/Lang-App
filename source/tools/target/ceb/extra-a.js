@@ -8,7 +8,7 @@ Maayong buntag. | Maayong buntag, Nang! | Maayong buntag sab. | Good morning, ma
 Kumusta ka? | Kumusta ka, Ana? | Maayo man. Ikaw? | How are you, Ana? / I'm fine. And you?
 Daghang salamat. | Daghang salamat sa tabang. | Walay sapayan. | Thank you very much for the help. / You're welcome.
 Dayon lang. | Pwede mosulod? | Oo, dayon lang! | May I come in? / Yes, come on in!
-Pasensya na. | Pasensya na, ulahi ko. | Okay ra. | Sorry, I'm late. / That's OK.
+Pasensya na. | Pasensya na, ulahi ko. | Sige lang. | Sorry, I'm late. / It's okay.
 Una na ko. | Una na ko, ha? | Sige, amping! | I'll go ahead now, OK? / OK, take care!
 Unsay imong ngalan? | Unsay imong ngalan? | Ako si Emma. Ikaw? | What's your name? / I'm Emma. And you?
 Taga-asa ka? | Taga-asa ka? | Taga-Amerika ko, pero nagpuyo ko sa Cebu karon. | Where are you from? / I'm from the US, but I live in Cebu now.
@@ -59,7 +59,7 @@ duha ka adlaw | Duha ka adlaw lang mi sa Bohol. | We're only in Bohol for two da
 siyen pesos | Siyen pesos ra ang usa ka kilo. | A kilo is only a hundred pesos.
 alas tres | Moabot ang barko alas tres sa hapon. | The boat arrives at three in the afternoon.
 gahapon | Nikaon mi og litson gahapon. | We ate lechon yesterday.
-Domingo | Moadto mi sa simbahan matag Domingo. | We go to church every Sunday.
+Sabado | Moadto mi sa Bohol sa Sabado. | We're going to Bohol on Saturday.
 kan-on | Duha ka kan-on ug usa ka sabaw, palihug. | Two rice and one soup, please.
 puso | Ganahan ko og puso ug manok. | I like hanging rice and chicken.
 Dili ko mokaon og baboy. | Pasensya, dili ko mokaon og baboy. | Sorry, I don't eat pork.

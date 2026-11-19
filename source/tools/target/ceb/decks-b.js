@@ -5,7 +5,7 @@ Asa ang kasilyas? | ah-sah ahng kah-seel-yahs | Where's the restroom? | In Cebu 
 diri | dee-REE | here | Also dinhi.
 diha | dee-HAHQ | there (near you) | Near the person you are talking to.
 didto | deed-toh | over there | Far from both of you.
-dinhi sa Cebu | deen-hee sah seh-BOO | here in Cebu | dinhi is another word for "here"; it often means the wider area you are in.
+dinhi sa Cebu | deen-hee sah seh-BOO | here in Cebu | Another word for "here".
 sa merkado | sah mehr-kah-doh | at the market | sa = at, in, to.
 Naa sa simbahan. | nah-ah sah seem-bah-hahn | It's at the church. |
 Naa ra diha. | nah-ah rah dee-HAHQ | It's right there. | ra = just; diha points to a spot near the person you are talking to.
@@ -24,8 +24,8 @@ Naa siya sa gawas. | nah-ah see-YAH sah gah-WAHS | She's outside. / He's outside
 Para! | pah-rah | Stop! (to the driver) | Said in a jeepney when you want to get off.
 Bayad. | bah-yahd | Here's my fare. | Pass your coins forward with this word.
 dyip | jeep | jeepney |
-Liko sa tuo. | lee-koh sah too-oh | Turn right. | Left: wala. Same spelling as wala (none); the stress differs (native check pending).
-Liko sa wala. | lee-koh sah wah-LAHQ | Turn left. | Here wala means "left". The pron line shows wala "none"; "left" may be stressed differently (native check pending).
+Liko sa tuo. | lee-koh sah too-oh | Turn right. | Left: wala, spelled like wala (none) but a different word.
+Liko sa wala. | lee-koh sah wah-LAHQ | Turn left. | Here wala means "left". The pronunciation line shows wala "none"; wala "left" may be said differently.
 diretso | dee-reh-choh | straight ahead | Diretso lang = just keep going straight.
 Lugar lang. | loo-gahr lahng | I'm getting off here. | Said to the driver; literally "just the place".
 Asa ni moagi? | ah-sah nee moh-ah-ghee | What route does this take? | Ask before you get on: moagi = will pass through.
@@ -43,7 +43,7 @@ Hinay-hinay lang, Nong. | hee-nai hee-nai lahng nohng | Slow down a bit, sir. | 
   "Health and help": `
 Tabang! | tah-bahng | Help! | Shout it in an emergency.
 Palihug. | pah-LEE-hoog | Please. |
-Palihug tabangi ko. | pah-LEE-hoog tah-bah-nghee koh | Please help me. | tabangi is the command form of tabang (help).
+Palihug tabangi ko. | pah-LEE-hoog tah-bah-ngee koh | Please help me. | tabangi is the command form of tabang (help).
 Masakit akong tiyan. | mah-sah-keet ah-kohng tee-yahn | My stomach hurts. | akong before the noun.
 Masakit akong ulo. | mah-sah-keet ah-kohng oo-loh | I have a headache. | Literally "painful my head".
 Masakit. | mah-sah-keet | It hurts. | Point to the spot as you say it.
@@ -122,11 +122,11 @@ kung gusto nimo | koong goos-toh nee-moh | if you want | kung = if.
   "Everyday verbs": `
 Mokaon ko. | moh-kah-ohn koh | I'll eat. | mo- = future form.
 Nikaon na ko. | nee-kah-ohn nah koh | I've already eaten. | ni- = past form; na = already.
-Nagluto siya. | nah-gloo-toh see-YAH | She's cooking. / She cooked. | nag- covers both.
+Nagluto siya. | nahg-loo-toh see-YAH | She's cooking. / She cooked. | nag- covers both.
 Gipalit nako. | ghee-pah-leet NAH-kohq | I bought it. | Thing-focus: the doer takes nako.
 Makaadto ka? | mah-kah-ahd-toh kah | Can you go? | maka- = can.
 Moinom ko og tubig. | moh-ee-nohm koh ohg TOO-beeg | I'll drink some water. | og before an indefinite thing.
-Nipalit ko og saging. | nee-pah-leet koh ohg sah-gheeng | I bought some bananas. | Also written mipalit.
+Nipalit ko og saging. | nee-pah-leet koh ohg SAH-gheeng | I bought some bananas. | Also written mipalit.
 Moadto ko sa merkado. | moh-ahd-toh koh sah mehr-kah-doh | I'll go to the market. | sa = to.
 Mobalik ko. | moh-bah-leek koh | I'll be back. |
 Nagtrabaho siya sa Cebu. | nahg-trah-bah-hoh see-YAH sah seh-BOO | He works in Cebu. | nag- = doing now, or done. Also "she".
@@ -135,7 +135,7 @@ Matulog na ko. | mah-too-lohg nah koh | I'm going to sleep now. | na = now, alre
 Paliton nako. | pah-lee-tohn NAH-kohq | I'll buy it. | -on = future, with the thing as the focus.
 Kaonon nako ang mangga. | kah-oh-nohn NAH-kohq ahng mahng-gah | I'll eat the mango. | With -on the thing gets ang.
 Gihimo nako. | ghee-hee-moh NAH-kohq | I made it. | gi- = past, with the thing as the focus.
-Nakaadto ka na sa Bohol? | nah-kah-ahd-toh kah nah sah boh-hohl | Have you ever been to Bohol? | naka- = have ever, managed to.
+Nakaadto na ka sa Bohol? | nah-kah-ahd-toh nah kah sah boh-hohl | Have you ever been to Bohol? | naka- = have ever, managed to.
 Kaon na ta. | KAH-ohn nah tah | Let's eat. | ta = we, including you.
 `,
   "Traps for English speakers": `
@@ -170,11 +170,11 @@ Ako sab. | ah-KOH sahb | Me too. | sab is short for usab; you will also hear sad
 Unsa ni? | oon-sah nee | What's this? (short) | ni = kini, after another word.
 Kinsa to? | keen-SAHQ toh | Who was that? | to = kadto, after another word.
 Unsay balita? | oon-sai bah-lee-tah | What's new? | unsay = unsa ang.
-Naay tawo? | nah-ai TAH-woh | Anybody home? | naay = naa + y. Said at a gate or door.
+Naay saging? | nah-ai SAH-gheeng | Any bananas? | naay = naa + y: "is there any". A quick question at a stall.
 Walay problema. | wah-lai proh-bleh-mah | No problem. | walay = wala + y.
 Day | dai | miss (to a girl or young woman) | Short for Inday.
 Sige. | SEE-gheh | OK. / Go ahead. | Also used for "bye".
 Bitaw. | BEE-tow | That's true. | Agreeing with someone.
-Hala! | hah-lah | Oh no! | Surprise or worry; also a warning: "Watch out!"
+Hala! | hah-lah | Oh no! | Surprise or worry.
 `,
 };

@@ -42,7 +42,8 @@ const EXC_UNCHECKED = new Set(['mga']);
 const HOMO = { wala: 'none, not (walâ); "left" may differ', bata: 'child (batà); "nightgown" has no catch', kita: 'we (kitá); the root "see" may differ',
   busog: 'full (busóg); busog "bow" (a different word) is stressed búsog',
   luto: 'cook, cooked rice (lutò); luto "blister" is lutó',
-  uyab: 'boyfriend, girlfriend (uyáb); uyab "wash fish" is úyab' };
+  uyab: 'boyfriend, girlfriend (uyáb); uyab "wash fish" is úyab',
+  usa: 'one (usá); the particle usa "first, for a moment" (Lingkod usa) is not checked and may differ' };
 
 /* checked forms; the source of each is in docs/profiles/en-ceb.md §6.4 */
 const LEX_WORDS = `
@@ -61,6 +62,9 @@ tám-is uháw apó limpyo gwapa gwapo hímò
 `
 + /* Wikipedia, "Cebuano grammar": marked forms in the pronoun and demonstrative tables */ `
 kanakò namò amò kanamò kitá natò kanatò kamó silá kiní kanâ kadtó kató dihâ
+`
++ /* added by the review of 2026-11-19 (kaikki.org extracts of Wiktionary; evidence in STRESS-AUDIT.md "Added by the review") */ `
+anák isdà ságing
 `;
 const MARK = { 'á': ['a', 's'], 'é': ['e', 's'], 'í': ['i', 's'], 'ó': ['o', 's'], 'ú': ['u', 's'],
   'à': ['a', 'g'], 'è': ['e', 'g'], 'ì': ['i', 'g'], 'ò': ['o', 'g'], 'ù': ['u', 'g'],
@@ -103,10 +107,13 @@ function units(w) {
   }
   return u;
 }
-const INSEP = new Set(['pr', 'br', 'tr', 'dr', 'kr', 'gr', 'pl', 'bl', 'kl', 'gl', 'ky', 'gw', 'kw', 'sw', 'by', 'py', 'dw', 'tw']);
+/* no g- clusters inside a word: mag- / nag- / pag- + l, r, w is a prefix boundary (nag-lu-to). Clusters at the start of a word always stay. */
+const INSEP = new Set(['pr', 'br', 'tr', 'dr', 'kr', 'pl', 'bl', 'kl', 'ky', 'kw', 'sw', 'by', 'py', 'dw', 'tw']);
+/* spellings whose sound or syllable break the letters do not show (Spanish n+g, a break inside a cluster, a glide written as a vowel) */
+const SOUND = { domingo: 'dominggo', sukli: 'suk-li', pasensya: 'pasen-sya' };
 /* 2. syllables: every vowel letter is its own nucleus (Cebuano writes glides as y / w); a final y / w joins the vowel before it */
 function syllables(w) {
-  const u = units(w);
+  const u = units(Object.prototype.hasOwnProperty.call(SOUND, w) ? SOUND[w] : w);
   const nuc = [];
   u.forEach((x, i) => { if (x.k === 'V') nuc.push(i); });
   if (!nuc.length) throw new Error('no vowel in "' + w + '": write numbers and symbols as words');
@@ -136,7 +143,7 @@ function text(s, catchHere) {
   let coda = s.coda.slice();
   let nucleus = VOW[s.v];
   if (coda.length && (coda[0] === 'y' || coda[0] === 'w')) { nucleus = GLIDE[s.v + '+' + coda[0]]; coda = coda.slice(1); }
-  if (/g$/.test(onset) && (nucleus === 'ee' || nucleus === 'eh' || nucleus === 'eew')) onset += 'h';
+  if (s.onset[s.onset.length - 1] === 'g' && (nucleus === 'ee' || nucleus === 'eh' || nucleus === 'eew')) onset += 'h';
   return onset + nucleus + coda.join('') + (catchHere ? 'q' : '');
 }
 function lookup0(w) {

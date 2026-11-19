@@ -29,9 +29,9 @@ Kanus-a ka mobalik? | Kanus-a ka mobalik? | Mobalik ko ugma. | When are you comi
 Amerikano ka ba? | Amerikano ka ba? | Oo, Taga-Amerika ko. | Are you American? / Yes, I'm from the US.
 Ngano? | Dili ko moadto. | Ngano? | I'm not going. / Why?
 Unsaon pag-adto sa merkado? | Nong, unsaon pag-adto sa merkado? | Diretso lang, dayon liko sa wala. | Sir, how do I get to the market? / Just go straight, then turn left.
-Nikaon na ko. | Nikaon ka na? | Oo, nikaon na ko. | Have you eaten? / Yes, I've already eaten.
+Nikaon na ko. | Nikaon na ka? | Oo, nikaon na ko. | Have you eaten? / Yes, I've already eaten.
 Makaadto ka? | Makaadto ka ugma? | Oo, makaadto ko. | Can you go tomorrow? / Yes, I can.
-Nakaadto ka na sa Bohol? | Nakaadto ka na sa Bohol? | Wala pa. | Have you ever been to Bohol? / Not yet.
+Nakaadto na ka sa Bohol? | Nakaadto na ka sa Bohol? | Wala pa. | Have you ever been to Bohol? / Not yet.
 Gihimo nako. | Lami kaayo! Kinsay naghimo niini? | Gihimo nako. | This is so good! Who made it? / I made it.
 Kaon na ta. | Kaon na ta! | Sige, gigutom na ko. | Let's eat! / OK, I'm getting hungry.
 Asa ka gikan? | Asa ka gikan? | Gikan ko sa merkado. | Where have you just been? / I've just come from the market.
@@ -43,7 +43,7 @@ Baynte singko anyos na ko. | Pila na ang imong edad? | Baynte singko anyos na ko
 Unya na lang. | Mokaon na ta? | Unya na lang. Busog pa ko. | Shall we eat now? / Later. I'm still full.
 Diay? | Taga-Bohol si Ana. | Diay? Wa ko kahibalo. | Ana is from Bohol. / Really? I had no idea.
 Ambot. | Asa si Pedro? | Ambot. | Where's Pedro? / I don't know.
-Naay tawo? | Naay tawo? | Oo, dayon! | Anybody home? / Yes, come in!
+Naay saging? | Naay saging, Nang? | Wala na. | Any bananas, ma'am? / There's none left.
 Unsay balita? | Unsay balita, Lito? | Maayo man. | What's new, Lito? / All good.
 Kinsa to? | Kinsa to? | Akong higala. | Who was that? / My friend.
 Walay problema. | Salamat kaayo, Ben! | Walay problema. | Thanks so much, Ben! / No problem.

@@ -10,7 +10,7 @@ module.exports = [
 <h3>Want: gusto</h3>
 <p>Put <b>gusto</b> first and <b>ko</b> in second place. A thing you want, when it is not one particular thing, takes <b>og</b>, just as it does after a <b>mo-</b> verb.</p>
 {{ex:Gusto ko og kape.|goos-toh koh ohg kah-peh|I want coffee.}}
-{{ex:Gusto ko og saging.|goos-toh koh ohg sah-gheeng|I want a banana.}}
+{{ex:Gusto ko og saging.|goos-toh koh ohg SAH-gheeng|I want a banana.}}
 <h3>Want to do something</h3>
 <p>English adds "to": "I want to go". Cebuano adds nothing. After <b>gusto ko</b> comes the verb in its future form, with <b>mo-</b>, even if you mean right now.</p>
 {{ex:Gusto ko mokaon.|goos-toh koh moh-kah-ohn|I want to eat.}}
@@ -19,11 +19,11 @@ module.exports = [
 <h3>Need: kinahanglan</h3>
 <p><b>kinahanglan</b> works exactly like <b>gusto</b>: first the word, then <b>ko</b>, then <b>og</b> and the thing, or a <b>mo-</b> verb.</p>
 {{ex:Kinahanglan ko og tabang.|kee-nah-HAHNG-lahn koh ohg tah-bahng|I need help.}}
-<h3>"Do you want…?": mo, not ka</h3>
-<p>Here is a surprise. With <b>gusto</b> and <b>kinahanglan</b>, the person who wants comes from the <b>nako</b>-set. "I" is still <b>ko</b> (short for <b>nako</b>), but "you" is <b>mo</b> (short for <b>nimo</b>), not <b>ka</b>.</p>
-{{ex:Gusto mo og kape?|goos-toh moh ohg kah-peh|Do you want some coffee?}}
+<h3>Asking what someone wants</h3>
+<p>A host or a vendor will often ask <b>Unsay imong gusto?</b>, "What would you like?" Learn it as a whole for now. Answer with <b>Gusto ko og…</b>, or simply name the thing.</p>
+{{ex:Unsay imong gusto?|oon-sai ee-mohng goos-toh|What would you like?}}
 <h3>Like: ganahan</h3>
-<p>For "like", use <b>ganahan</b>. It is a describing word, so it takes the <b>ako</b>-set, as <b>Gigutom ko</b> does: "you" is <b>ka</b>.</p>
+<p>For "like", use <b>ganahan</b>. It is a describing word, so it works like <b>Gigutom ko</b>: <b>ganahan</b> first, then <b>ko</b> for "I" or <b>ka</b> for "you".</p>
 {{ex:Ganahan ko og mangga.|gah-NAH-hahn koh ohg mahng-gah|I like mangoes.}}
 {{ex:Ganahan ka og litson?|gah-NAH-hahn kah ohg lee-chohn|Do you like lechon?}}
 <h3>Not wanting: dili</h3>
@@ -37,24 +37,24 @@ module.exports = [
 `,
     check: [
       ["How do you say 'I want to eat'?", ["Gusto ko sa mokaon.", "Gusto ko mokaon.", "Gusto ko nikaon.", "Mokaon gusto ko."], 1, "No word for 'to': gusto ko, then the verb with mo-."],
-      ["Why is it 'Gusto mo og kape?' and not 'Gusto ka og kape?'", ["mo is the polite 'you' for strangers", "og turns ka into mo", "With gusto, 'you' comes from the nako-set: mo", "ka is never used in questions"], 2, "gusto takes the nako-set, so 'you' is mo (nimo); ganahan takes ka."],
-      ["A child reaches for a hot pan. Which word means 'Don't!'?", ["Ayaw!", "Dili!", "Wala!", "Gusto!"], 0, "ayaw tells someone not to do something; dili and wala describe."]
+      ["Which sentence means 'I need help'?", ["Ko kinahanglan og tabang.", "Kinahanglan og tabang ko.", "Kinahanglan ko og tabang.", "Ako kinahanglan og tabang."], 2, "kinahanglan comes first, ko right after it, then og and the thing."],
+      ["A child reaches for a hot pan. Which word means 'Don't!'?", ["Ayaw!", "Dili ko!", "Wala!", "Gusto!"], 0, "ayaw tells someone not to do something; dili and wala describe."]
     ],
     practice: [
       ["mc", "'I want coffee' =", "Gusto ko og kape.", "Ako gusto og kape.", "Ko gusto og kape.", "Gusto og kape ko.", "gusto comes first, the short pronoun ko in second place, then og and the thing."],
       ["mc", "'I want to go' =", "Gusto ko moadto.", "Gusto ko sa moadto.", "Gusto ko niadto.", "Gusto moadto ko.", "No word for 'to', and the verb after gusto takes mo-, the future form."],
-      ["mc", "'Do you want water?' =", "Gusto mo og tubig?", "Gusto ka og tubig?", "Ikaw gusto og tubig?", "Gusto og tubig mo?", "gusto takes the nako-set, so 'you' is mo, in second place."],
+      ["mc", "'I need water' =", "Kinahanglan ko og tubig.", "Ako kinahanglan og tubig.", "Kinahanglan og tubig ko.", "Kinahanglan ko si tubig.", "kinahanglan comes first, the short pronoun ko in second place, then og and the thing."],
       ["mc", "'I like mangoes' =", "Ganahan ko og mangga.", "Ako ganahan og mangga.", "Ganahan mo og mangga.", "Ganahan og mangga ko.", "ganahan takes the ako-set: ko, in second place."],
       ["mc", "'Don't!' (telling someone to stop) =", "Ayaw!", "Wala!", "Dili ko.", "Ambot!", "ayaw is 'don't' for telling someone not to do something."],
       ["or", "I want coffee", "Gusto ko og kape", "sa", "The short pronoun ko goes in second place, right after gusto: Gusto ko og kape."],
       ["or", "I want to eat", "Gusto ko mokaon", "sa", "ko goes in second place after gusto, and no word for 'to' comes before mokaon."],
-      ["or", "I don't like it", "Dili ko ganahan", "mo", "Short pronouns move up behind dili, and ganahan takes the ako-set ko: Dili ko ganahan."],
+      ["or", "I don't like it", "Dili ko ganahan", "akong", "Short pronouns move up behind dili: Dili ko ganahan."],
       ["fi", "Gusto ko __ kape.", "I want some coffee.", "og", "si|ni|nga", "og comes before a thing you want when it is not one particular thing."],
-      ["fi", "Gusto __ og tubig?", "Do you want some water?", "mo|nimo", "ka|ikaw|ko", "With gusto, 'you' is mo (nimo); ka belongs with ganahan."],
+      ["fi", "Gusto ko __.", "I want to eat.", "mokaon", "nikaon|gikaon|sa kaon", "After gusto ko, the verb takes the future form mo-, with no word for 'to'."],
       ["fi", "__ ko gusto.", "I don't want it.", "Dili", "Ayaw|Naa|Kay", "dili is 'not' for your own wants; ayaw tells someone else not to do something."],
-      ["ty", "I need help", "Kinahanglan ko og tabang.|Kinahanglan nako og tabang.", "kinahanglan · tabang (help)", "ako", "The short pronoun ko goes in second place, after kinahanglan, then og and the thing."],
+      ["ty", "I need help", "Kinahanglan ko og tabang.|Kinahanglan nako og tabang.", "kinahanglan · tabang (help)", "si", "The short pronoun ko goes in second place, after kinahanglan, then og and the thing."],
       ["ty", "I want to go to Bohol", "Gusto ko moadto sa Bohol.|Gusto kong moadto sa Bohol.|Gusto nako moadto sa Bohol.|Gusto nakong moadto sa Bohol.", "gusto · adto · Bohol", "niadto", "ko goes in second place after gusto, and the verb takes mo- with no word for 'to'."],
-      ["ty", "Do you like lechon? (lechon = litson)", "Ganahan ka og litson?|Ganahan ikaw og litson?|Ganahan ba ka og litson?|Ganahan ka ba og litson?", "ganahan · litson", "mo", "ganahan takes the ako-set: ka goes in second place, right after ganahan."]
+      ["ty", "Do you like lechon? (to one person; lechon = litson)", "Ganahan ka og litson?|Ganahan ikaw og litson?|Ganahan ba ka og litson?|Ganahan ka ba og litson?", "ganahan · litson", "akong", "ganahan takes the ako-set: ka goes in second place, right after ganahan."]
     ]
   },
   {
@@ -65,7 +65,7 @@ module.exports = [
     body: `
 <p>English softens a request with "please", "could you" and "just a second". Cebuano has its own tools: <b>palihug</b> (please), a short command form, and small softening words. A bare command with none of these sounds rough, even to a friend.</p>
 <h3>The command form: just the root</h3>
-<p>To ask someone to do something, use the bare root of the verb, with no <b>mo-</b> and no "you". Put <b>palihug</b> in front.</p>
+<p>To ask someone to do something, use the bare root of the verb, with no <b>mo-</b> and no "you". Put <b>palihug</b> in front. Some verbs that act on a person or a thing take an ending instead, as in <b>Palihug tabangi ko</b>, "Please help me"; a later lesson explains it.</p>
 {{ex:Palihug lingkod.|pah-LEE-hoog LEENG-kohd|Please sit down.}}
 {{ex:Palihug hulat.|pah-LEE-hoog hoo-LAHT|Please wait.}}
 <h3>Softeners: lang and sa</h3>
@@ -106,7 +106,7 @@ module.exports = [
       ["fi", "__ kabalaka.", "Don't worry.", "Ayaw", "Dili|Wala|Palihug", "ayaw is the 'don't' you say to someone else."],
       ["fi", "Palihug ko __ tubig.", "Some water, please.", "og", "si|ni|nga", "og comes before a thing you ask for when it is not one particular thing."],
       ["ty", "Please sit down", "Palihug lingkod.|Lingkod palihug.|Palihug lingkod lang.", "palihug · lingkod (sit)", "po", "palihug plus the bare root makes a polite command."],
-      ["ty", "May I ask something? (use pwede)", "Pwede ko mangutana?|Pwede ako mangutana?|Pwede kong mangutana?|Pwede ba ko mangutana?", "pwede · mangutana (ask)", "nako", "The short pronoun ko goes in second place, right after pwede."],
+      ["ty", "May I ask something? (use pwede)", "Pwede ko mangutana?|Pwede ako mangutana?|Pwede kong mangutana?|Pwede ba ko mangutana?", "pwede · mangutana (ask)", "akong", "The short pronoun ko goes in second place, right after pwede."],
       ["ty", "Give me some water (use tagai)", "Tagai ko og tubig.|Tagai ako og tubig.|Tagai ko og tubig palihug.|Palihug tagai ko og tubig.", "tagai · tubig", "akong", "ko goes in second place, right after tagai, and og comes before the water."]
     ]
   },
@@ -125,7 +125,7 @@ module.exports = [
 <h3>Asking what they have</h3>
 <p>Two useful questions. <b>Unsa inyong naa?</b> is "What do you have?"; learn it as a whole. For one dish, use <b>naa</b> with <b>ba</b> and <b>moy</b> (you all + <b>og</b>), as you did with water.</p>
 {{ex:Unsa inyong naa?|oon-sah een-yohng nah-ah|What do you have?}}
-{{ex:Naa ba moy isda?|nah-ah bah moy ees-dah|Do you have fish?}}
+{{ex:Naa ba moy isda?|nah-ah bah moy EES-dahq|Do you have fish?}}
 <div class="tbl"><table><tr><th>Cebuano</th><th>English</th></tr><tr><td class="k">manok</td><td>chicken</td></tr><tr><td class="k">baboy</td><td>pork</td></tr><tr><td class="k">isda</td><td>fish</td></tr><tr><td class="k">litson</td><td>lechon (roast pig)</td></tr><tr><td class="k">sabaw</td><td>soup, broth</td></tr></table></div>
 <h3>It's good!</h3>
 <p><b>Lami</b> means "tasty". Like every describing word, it comes first. Add <b>kaayo</b> after it for "really".</p>
@@ -156,8 +156,8 @@ module.exports = [
       ["fi", "Lami __!", "It's really good!", "kaayo", "ayaw|wala|ka", "kaayo after a describing word means 'really, very'."],
       ["fi", "Busog __ ko.", "I'm full (already).", "na", "pa|ba|og", "na means 'already': Busog na ko."],
       ["ty", "Two rice, please", "Duha ka kan-on, palihug.|Palihug, duha ka kan-on.|Duha ka kan-on.", "duha · kan-on (cooked rice)", "dos", "Count with a Cebuano number and ka: duha ka kan-on."],
-      ["ty", "I want soup (use gusto)", "Gusto ko og sabaw.|Gusto nako og sabaw.", "gusto · sabaw", "ako", "The short pronoun ko goes in second place after gusto, and og comes before the soup."],
-      ["ty", "The lechon is really good", "Lami kaayo ang litson.|Lami gyud ang litson.", "lami · kaayo · litson", "si", "The main word comes first, then ang and the food: Lami kaayo ang litson."]
+      ["ty", "I want soup (use gusto)", "Gusto ko og sabaw.|Gusto nako og sabaw.", "gusto · sabaw", "si", "The short pronoun ko goes in second place after gusto, and og comes before the soup."],
+      ["ty", "My soup is really good", "Lami kaayo ang akong sabaw.|Lami kaayo ang sabaw nako.|Lami gyud ang akong sabaw.|Lami gyud ang sabaw nako.|Lami kaayo akong sabaw.|Lami gyud akong sabaw.", "lami · kaayo · sabaw", "ako", "akong goes before the noun, and the main word comes first: Lami kaayo ang akong sabaw."]
     ]
   },
   {
@@ -209,7 +209,257 @@ module.exports = [
       ["fi", "__ ang kasilyas?", "Where's the restroom?", "Asa|Hain", "Kinsa|Unsa|Pila", "asa (or hain) asks where."],
       ["ty", "I'm at home (use naa)", "Naa ko sa balay.|Naa ako sa balay.", "naa · balay", "akong", "The short pronoun ko goes in second place after naa, and sa comes before the place."],
       ["ty", "Pedro is at the church", "Naa si Pedro sa simbahan.|Naa sa simbahan si Pedro.", "naa · Pedro · simbahan", "ang", "Names take si: Naa si Pedro sa simbahan."],
-      ["ty", "My house is over there", "Didto ang akong balay.|Naa didto ang akong balay.|Didto ang balay nako.|Naa didto ang balay nako.", "didto · balay", "ako", "akong goes before the noun, and the place word comes first: Didto ang akong balay."]
+      ["ty", "My house is over there", "Didto ang akong balay.|Naa didto ang akong balay.|Didto ang balay nako.|Naa didto ang balay nako.|Didto akong balay.|Naa didto akong balay.", "didto · balay", "ako", "akong goes before the noun, and the place word comes first: Didto ang akong balay."]
+    ]
+  },
+  {
+    id: "directions",
+    title: "Directions and jeepneys",
+    blurb: "Follow and give simple directions, ride a jeepney, pay your fare and get off where you want.",
+    deck: "Jeepneys and travel",
+    body: `
+<p>Getting around Cebu means jeepneys (<b>dyip</b>), taxis, and for short or rough roads the <b>habal-habal</b>, a motorbike taxi. A handful of words covers almost every ride.</p>
+<h3>Left, right, straight</h3>
+<p><b>liko</b> is "turn". Add <b>sa</b> and the side, just as you add <b>sa</b> before a place.</p>
+{{ex:Liko sa tuo.|lee-koh sah too-oh|Turn right.}}
+{{ex:Liko sa wala.|lee-koh sah wah-LAHQ|Turn left.}}
+{{ex:Diretso lang.|dee-reh-choh lahng|Just go straight.}}
+<p>Yes, "left" is spelled <b>wala</b>, like the <b>wala</b> that means "none". They are two different words, and dictionaries mark them differently, so they may not sound alike. The pronunciation line under every <b>wala</b> in this course shows the "none" word, so it may not fit "left": ask a Cebuano friend to say both for you.</p>
+<h3>On the jeepney</h3>
+<p>Jeepneys follow a fixed route, painted on the side, but they have no fixed stops. Before you climb in, check the route.</p>
+{{ex:Asa ni moagi?|ah-sah nee moh-ah-ghee|Which way does this one go?}}
+<p>Learn that question as a whole. To pay, pass your coins forward along the bench and say <b>Bayad</b>. The other passengers hand it on to the driver, and your change comes back the same way.</p>
+{{ex:Bayad, Nong.|bah-yahd nohng|Here's my fare, sir.}}
+<h3>Getting off: speak up</h3>
+<p>The driver stops only when someone asks. Say <b>Para!</b> clearly, or <b>Lugar lang</b>, "just here". English speakers often wait quietly for a stop that never comes.</p>
+{{ex:Para, Nong!|pah-rah nohng|Stop here, sir!}}
+{{ex:Lugar lang.|loo-gahr lahng|Right here, please.}}
+<h3>Taxis and habal-habal</h3>
+<p>For a taxi or a habal-habal, name the place with <b>sa</b> and add a title. The short pronoun goes in second place, as always, when you say where you are going.</p>
+{{ex:Sa merkado, Nong.|sah mehr-kah-doh nohng|To the market, sir.}}
+{{ex:Monaog ko diri.|moh-nah-ohg koh dee-REE|I'll get off here.}}
+<p><b>Nong</b> suits most drivers; for a young driver you will hear <b>Kuya</b> and <b>Dong</b> too.</p>
+<div class="tip"><b>Most common mistake:</b> staying silent and hoping the jeepney stops. Waiting with no word → <b>Para, Nong!</b> And for directions, <b>Liko tuo</b> → <b>Liko sa tuo</b>.</div>
+`,
+    check: [
+      ["What does 'Lugar lang' tell the driver?", ["Drop me off right here", "Go faster", "Keep the change", "Turn left"], 0, "Lugar lang means 'just here': you want to get off."],
+      ["Which means 'Turn left'?", ["Liko sa tuo.", "Liko sa wala.", "Diretso lang.", "Para sa wala."], 1, "Left is wala, right is tuo."],
+      ["Why must you say Para! out loud on a jeepney?", ["It is how you pay the fare", "It means 'go faster'", "Jeepneys have no fixed stops, so the driver stops only when asked", "It is the greeting for the driver"], 2, "No fixed stops: the driver waits for Para! or Lugar lang."]
+    ],
+    practice: [
+      ["mc", "On a jeepney, you want to get off now. You say:", "Para!", "Bayad!", "Diretso!", "Dayon!", "Para! tells the driver to stop."],
+      ["mc", "You pass your coins forward and say:", "Bayad.", "Para.", "Sukli.", "Libre.", "Bayad means 'here's my fare'."],
+      ["mc", "'Turn right' =", "Liko sa tuo.", "Liko sa wala.", "Tuo liko.", "Liko tuo sa.", "liko, then sa and the side; right is tuo."],
+      ["mc", "In Liko sa wala, wala means…", "left", "none", "not", "right", "After liko sa, wala is the left side; right is tuo."],
+      ["mc", "A habal-habal is…", "a motorbike taxi", "a jeepney stop", "a ferry", "a bus ticket", "A habal-habal is a motorbike that carries passengers."],
+      ["or", "Turn right", "Liko sa tuo", "wala", "liko, then sa and the side: right is tuo, left is wala."],
+      ["or", "I'll get off (use naog)", "Monaog ko", "akong", "The short pronoun ko goes in second place, after the verb: Monaog ko."],
+      ["or", "Where are you going? (to a friend, use moadto)", "Asa ka moadto", "nimo", "The question word comes first and ka goes in second place: Asa ka moadto?"],
+      ["fi", "Liko sa __.", "Turn right.", "tuo", "wala|diretso|para", "Right is tuo; left is wala."],
+      ["fi", "__, Nong!", "Stop here, sir! (on a jeepney)", "Para", "Bayad|Sukli|Amping", "Para! stops the jeepney; Bayad is for paying."],
+      ["fi", "__, Nong.", "Here's my fare, sir.", "Bayad", "Para|Sukli|Salamat", "Bayad goes with the coins you pass forward."],
+      ["ty", "Turn left", "Liko sa wala.", "liko · wala (left)", "tuo", "Left is wala, spelled like wala 'none'."],
+      ["ty", "I'm going to the market (use adto)", "Moadto ko sa merkado.|Moadto ako sa merkado.", "adto · merkado", "akong", "The short pronoun ko goes in second place, after moadto; sa comes before the place."],
+      ["ty", "Where are you going, sir? (to an older man, use moadto)", "Asa ka moadto, Nong?|Asa man ka moadto, Nong?|Asa ikaw moadto, Nong?", "asa · adto · Nong", "nimo", "The question word comes first and ka goes in second place: Asa ka moadto, Nong?"]
+    ]
+  },
+  {
+    id: "on",
+    title: "Thing-focus verbs: -on and gi-",
+    blurb: "Talk about doing something to a particular thing: the bananas, this mango, my water.",
+    deck: "Everyday verbs",
+    body: `
+<p>So far your verbs have been doer-focus: <b>Mopalit ko og saging</b>, "I'll buy some bananas". The sentence is about you, so you get the <b>ako</b>-set. Cebuano has a second kind of verb for when the sentence is about the <i>thing</i>: a thing-focus verb.</p>
+<h3>Two new forms</h3>
+<p>The root takes <b>-on</b> for the future form and <b>gi-</b> for the past form.</p>
+<div class="tbl"><table><tr><th>Root</th><th>Doer-focus</th><th>Thing-focus</th></tr><tr><td class="k">palit (buy)</td><td class="k">mopalit, nipalit</td><td class="k">paliton, gipalit</td></tr><tr><td class="k">kaon (eat)</td><td class="k">mokaon, nikaon</td><td class="k">kaonon, gikaon</td></tr><tr><td class="k">kuha (take)</td><td class="k">mokuha, nikuha</td><td class="k">kuhaon, gikuha</td></tr></table></div>
+<h3>Who gets ang</h3>
+<p>With a thing-focus verb, the thing is the focus and gets <b>ang</b>. The doer switches to the <b>nako</b>-set: <b>nako</b> (or short <b>ko</b>), <b>nimo</b> (or <b>mo</b>), <b>niya</b> and the rest.</p>
+{{ex:Gipalit nako ang saging.|ghee-pah-leet NAH-kohq ahng SAH-gheeng|I bought the bananas.}}
+{{ex:Paliton nako ang saging.|pah-lee-tohn NAH-kohq ahng SAH-gheeng|I'll buy the bananas.}}
+{{ex:Gikuha nimo ang akong tubig.|ghee-koo-hah nee-moh ahng ah-kohng TOO-beeg|You took my water.}}
+<p>A doer with a name takes <b>ni</b>, and a doer that is a plain noun takes <b>sa</b>, the same words you use for owners.</p>
+{{ex:Gikaon ni Pedro ang mangga.|ghee-kah-ohn nee peh-droh ahng mahng-gah|Pedro ate the mango.}}
+{{ex:Kaonon ni Pedro ang mangga.|kah-oh-nohn nee peh-droh ahng mahng-gah|Pedro will eat the mango.}}
+<p>Put the doer right after the verb, and the <b>ang</b> thing after it.</p>
+<h3>Which verb do I choose?</h3>
+<p>Ask yourself whether English says "a / some" or "the / this / my". Any old thing, with <b>og</b>, goes with a doer-focus verb. A particular thing, with <b>ang</b>, usually goes with a thing-focus verb.</p>
+{{ex:Mopalit ko og saging.|moh-pah-leet koh ohg SAH-gheeng|I'll buy some bananas.}}
+{{ex:Kaonon nako kini.|kah-oh-nohn NAH-kohq kee-NEE|I'll eat this.}}
+<h3>Not "was bought"</h3>
+<p>Textbooks sometimes call these verbs "passive". Don't translate them that way. <b>Gipalit nako ang saging</b> is the normal, everyday way to say "I bought the bananas", not a stiff "the bananas were bought by me". Keep your English active.</p>
+<div class="tip"><b>Most common mistake:</b> keeping the doer in the <b>ako</b>-set. <b>Gipalit ako ang saging</b> → <b>Gipalit nako ang saging</b>.</div>
+`,
+    check: [
+      ["What does 'Paliton nako ang saging' mean?", ["I'll buy the bananas.", "I bought the bananas.", "My bananas, please.", "I'm not buying bananas."], 0, "-on is the future form of a thing-focus verb."],
+      ["Why is 'Gipalit ako ang saging' wrong?", ["gi- verbs need po", "The doer of a gi- verb takes the nako-set: nako", "saging needs og", "ako must come last"], 1, "With a thing-focus verb the doer takes the nako-set."],
+      ["Which sentence means 'I'll buy some bananas' (any bananas)?", ["Gipalit nako ang saging.", "Paliton nako ang saging.", "Mopalit ko og saging.", "Kaonon nako ang saging."], 2, "'Some' bananas, with og, go with a doer-focus mo- verb."]
+    ],
+    practice: [
+      ["mc", "'I bought the bananas' =", "Gipalit nako ang saging.", "Gipalit ako ang saging.", "Nipalit ko ang saging.", "Paliton nako ang saging.", "Past thing-focus: gi-, the doer in the nako-set, and ang on the thing."],
+      ["mc", "'I'll eat the mango' =", "Kaonon nako ang mangga.", "Gikaon nako ang mangga.", "Mokaon ko ang mangga.", "Kaonon ako ang mangga.", "Future thing-focus: -on, with the doer in the nako-set."],
+      ["mc", "In 'Gipalit nako ang saging', which word is the focus?", "saging", "nako", "gipalit", "ang", "Thing-focus verb: the thing, saging, gets ang."],
+      ["mc", "The best English for 'Gikaon ni Pedro ang mangga':", "Pedro ate the mango.", "Pedro will eat the mango.", "The mango ate Pedro.", "Pedro is eating a mango.", "gi- is the past form; ni marks Pedro as the doer."],
+      ["mc", "'I'll buy some bananas' (any bananas) =", "Mopalit ko og saging.", "Paliton nako og saging.", "Gipalit nako og saging.", "Mopalit ko ang saging.", "A thing with og goes with a doer-focus mo- verb."],
+      ["or", "I bought the bananas", "Gipalit nako ang saging", "ako", "With a thing-focus verb the doer takes the nako-set and the thing gets ang."],
+      ["or", "I'll eat the mango", "Kaonon nako ang mangga", "ako", "Who gets ang? The mango. The doer of -on takes the nako-set: nako."],
+      ["or", "You took my water", "Gikuha nimo ang akong tubig", "ikaw", "The doer of a gi- verb is from the nako-set: nimo, not ikaw."],
+      ["fi", "Gipalit __ ang saging.", "I bought the bananas.", "nako|ko", "ako|akong|kanako", "The doer of a gi- verb takes the nako-set: nako."],
+      ["fi", "__ nako ang mangga ugma.", "I'll eat the mango tomorrow.", "Kaonon", "Gikaon|Mokaon|Nikaon", "Future thing-focus is -on; gi- is the past form."],
+      ["fi", "Gikaon __ Pedro ang mangga.", "Pedro ate the mango.", "ni", "si|sa|ang", "Names take ni when they are the doer of a thing-focus verb."],
+      ["ty", "I bought the bananas (use palit)", "Gipalit nako ang saging.|Gipalit ko ang saging.", "palit · saging", "ako", "With a thing-focus verb the doer takes the nako-set and the bananas get ang."],
+      ["ty", "Pedro will eat the mango", "Kaonon ni Pedro ang mangga.|Kaonon ang mangga ni Pedro.", "kaon · Pedro · mangga", "si", "With a thing-focus verb, names take ni for the doer and the thing gets ang."],
+      ["ty", "Did you buy the fish? (use palit)", "Gipalit nimo ang isda?|Gipalit mo ang isda?|Gipalit ba nimo ang isda?", "palit · isda", "ikaw", "The doer of a gi- verb is from the nako-set: nimo or mo, and the fish gets ang."]
+    ]
+  },
+  {
+    id: "an",
+    title: "Place-focus verbs: -an and gi-…-an",
+    blurb: "Talk about doing something to a person or a surface: helping someone, writing to someone, washing the dishes.",
+    deck: "Home and daily life",
+    body: `
+<p>You now know two kinds of verbs: doer-focus (<b>mopalit</b>) and thing-focus (<b>paliton</b>). The third kind puts the focus on the person or place the action is done <i>to</i> or <i>for</i>: the plate you wash, the room you clean, the friend you help. This is a place-focus verb.</p>
+<h3>The forms</h3>
+<p>The root takes <b>-an</b> for the future form, <b>gi-</b> and <b>-an</b> together for the past form, and <b>-i</b> for a command.</p>
+<div class="tbl"><table><tr><th>Root</th><th>Future</th><th>Past</th><th>Command</th></tr><tr><td class="k">hugas (wash)</td><td class="k">hugasan</td><td class="k">gihugasan</td><td class="k">hugasi</td></tr><tr><td class="k">tabang (help)</td><td class="k">tabangan</td><td class="k">gitabangan</td><td class="k">tabangi</td></tr><tr><td class="k">sulat (write)</td><td class="k">sulatan</td><td class="k">gisulatan</td><td class="k">sulati</td></tr></table></div>
+<h3>Who gets ang</h3>
+<p>The person or place is the focus: <b>ang</b> before a noun, <b>si</b> before a name. The doer, as with thing-focus verbs, takes the <b>nako</b>-set.</p>
+{{ex:Hugasan nako ang plato.|hoo-gah-sahn NAH-kohq ahng plah-toh|I'll wash the plate.}}
+{{ex:Gihugasan nako ang plato.|ghee-hoo-gah-sahn NAH-kohq ahng plah-toh|I washed the plate.}}
+{{ex:Gisulatan nako si Ana.|ghee-soo-lah-tahn NAH-kohq see ah-nah|I wrote to Ana.}}
+{{ex:Gitabangan nako si Pedro.|ghee-tah-bah-ngahn NAH-kohq see peh-droh|I helped Pedro.}}
+<p>If the sentence also mentions a thing, like something you give, it takes <b>og</b>.</p>
+{{ex:Gihatagan nako si Ana og saging.|ghee-hah-tah-gahn NAH-kohq see ah-nah ohg SAH-gheeng|I gave Ana a banana.}}
+<h3>Asking with -i</h3>
+<p>The <b>-i</b> form, with <b>palihug</b>, is how you ask someone to do something to a person or place. You already know one: <b>Tagai ko og tubig</b> is this form of <b>hatag</b> (give), shortened. In <b>Tabangi ko</b>, <b>ko</b> means "me": I am the one being helped.</p>
+{{ex:Palihug hugasi ang plato.|pah-LEE-hoog hoo-gah-see ahng plah-toh|Please wash the plate.}}
+{{ex:Palihug tabangi ko.|pah-LEE-hoog tah-bah-ngee koh|Please help me.}}
+<h3>-on or -an?</h3>
+<p>Very roughly: if the thing itself is taken, eaten or bought, use <b>-on</b>. If something is done to a surface, a place or a person (washing, cleaning, helping, writing to), use <b>-an</b>. Each root has its usual ending, so learn the ending together with the root, as Cebuanos do.</p>
+<div class="tip"><b>Most common mistake:</b> using the thing-focus ending for a person. <b>Tabangon nako si Ana</b> → <b>Tabangan nako si Ana</b> (I'll help Ana).</div>
+`,
+    check: [
+      ["Which sentence means 'I washed the plate'?", ["Gihugasan nako ang plato.", "Hugasi nako ang plato.", "Mohugas nako ang plato.", "Hugasan ako ang plato."], 0, "Past place-focus: gi-…-an, with the doer in the nako-set."],
+      ["In 'Gitabangan nako si Pedro', why does Pedro have si?", ["He is the one who helps", "He is the focus of a place-focus verb, and names take si", "si means 'for'", "He owns something"], 1, "The person helped is the focus; a name that is the focus takes si."],
+      ["How do you ask someone to wash the plate?", ["Hugasan po ang plato.", "Gihugasan ang plato.", "Palihug hugasi ang plato.", "Palihug mohugas ang plato."], 2, "palihug plus the -i form asks someone to do something to a thing or person."]
+    ],
+    practice: [
+      ["mc", "'I helped Pedro' =", "Gitabangan nako si Pedro.", "Gitabangan ako si Pedro.", "Gitabangan nako ang Pedro.", "Nitabang ko si Pedro.", "Place-focus past is gi-…-an; Pedro is the focus with si, and the doer is nako-set."],
+      ["mc", "'Please wash the plate' =", "Palihug hugasi ang plato.", "Palihug gihugasan ang plato.", "Palihug hugasi si plato.", "Palihug plato hugasi.", "palihug plus the -i form, then ang and the thing washed."],
+      ["mc", "In 'Gisulatan nako si Ana', who is the focus?", "Ana", "the writer", "the letter", "nobody", "With a place-focus verb the person written to is the focus: si Ana."],
+      ["mc", "The command form of a place-focus verb ends in…", "-i (hugasi)", "-on (hugason)", "-an (hugasan)", "-a (hugasa)", "-i is the command; -an is the future form."],
+      ["mc", "'Please help me!' =", "Palihug tabangi ko!", "Palihug gitabangan ko!", "Palihug tabangi akong!", "Palihug ko gitabang!", "The -i form asks for help; ko here means 'me'."],
+      ["or", "I helped Pedro", "Gitabangan nako si Pedro", "ang", "Names take si: Pedro is the focus, and the doer is from the nako-set."],
+      ["or", "I'll wash the plate", "Hugasan nako ang plato", "ako", "With a place-focus verb the doer takes the nako-set and the plate gets ang."],
+      ["or", "I wrote to Ana", "Gisulatan nako si Ana", "sa", "Names take si: the person written to is the focus, si Ana."],
+      ["fi", "Gitabangan nako __ Pedro.", "I helped Pedro.", "si", "ang|sa|ni", "Names take si when they are the focus."],
+      ["fi", "Palihug __ ang plato.", "Please wash the plate.", "hugasi", "gihugasan|mohugas|nihugas", "-i is the command form of a place-focus verb."],
+      ["fi", "__ nako ang plato ugma.", "I'll wash the plate tomorrow.", "Hugasan", "Gihugasan|Hugasi|Nihugas", "-an is the future form; gi-…-an is the past form."],
+      ["ty", "I'll wash the plate (use hugas)", "Hugasan nako ang plato.|Hugasan ko ang plato.", "hugas · plato", "ako", "With a place-focus verb the doer takes the nako-set and the plate gets ang."],
+      ["ty", "I wrote to Ana (use sulat)", "Gisulatan nako si Ana.|Gisulatan ko si Ana.", "sulat · Ana", "ang", "Names take si: Ana is the focus, and the doer is from the nako-set."],
+      ["ty", "Please help me (use tabang)", "Palihug tabangi ko.|Tabangi ko palihug.|Palihug tabangi ako.|Tabangi ko.", "palihug · tabang", "akong", "The -i form makes the request; here ko means 'me'."]
+    ]
+  },
+  {
+    id: "compare",
+    title: "Comparing: mas, kaysa, pinaka-",
+    blurb: "Say that something is bigger, cheaper or tastier than something else, the best of all, or the same.",
+    deck: "Describing things",
+    body: `
+<p>English changes the describing word itself: big, bigger, biggest. Cebuano never does. It adds a small word in front, and the describing word stays exactly as it is.</p>
+<h3>More: mas</h3>
+<p><b>mas</b> (from Spanish) means "more". Put it right before the describing word. The sentence order does not change: the describing word still comes first, and the thing you are describing comes after it.</p>
+{{ex:Mas dako kini.|mahs dah-KOHQ kee-NEE|This one is bigger.}}
+{{ex:Mas gwapa si Ana.|mahs GWAH-pah see ah-nah|Ana is prettier.}}
+{{ex:Mas mahal ang manok.|mahs mah-HAHL ahng mah-NOHK|The chicken is more expensive.}}
+<h3>Than: kaysa</h3>
+<p>For "than", add <b>kaysa</b>. Before a noun it is <b>kaysa sa</b>. For "than this one" and "than that one", learn the special forms <b>kaysa niini</b> and <b>kaysa niana</b>.</p>
+{{ex:Mas lami ang manok kaysa sa baboy.|mahs lah-mee ahng mah-NOHK kai-sah sah BAH-boy|The chicken is tastier than the pork.}}
+{{ex:Mas dako ni kaysa niana.|mahs dah-KOHQ nee kai-sah nee-ah-nah|This one is bigger than that one.}}
+<p>At the market this is how you compare two piles of mangoes: point, and say <b>Mas barato ni?</b>, "Is this one cheaper?" The seller may answer with the same pattern, or simply point to the better pile and say which one is <b>mas lami</b>, "tastier".</p>
+<h3>Most: pinaka-</h3>
+<p>For "the most" or "-est", join <b>pinaka-</b> to the front of the describing word, as one word.</p>
+{{ex:Pinakamahal ang litson.|pee-nah-kah-mah-hahl ahng lee-chohn|The lechon is the most expensive.}}
+{{ex:Kini ang pinakadako.|kee-NEE ahng pee-nah-kah-dah-koh|This is the biggest one.}}
+<p>In careful speech and writing you will also see <b>labing</b>: <b>labing maayo</b> means "the best". In everyday Cebu talk, <b>pinaka-</b> is what you will hear most.</p>
+<h3>The same: parehas</h3>
+<p>When there is no difference, say <b>parehas</b>, often with <b>ra</b>, "just".</p>
+{{ex:Parehas ra ang presyo.|pah-reh-hahs rah ahng prehs-yoh|The price is the same.}}
+<h3>Owners still follow their rules</h3>
+<p>Comparing does not change anything else: <b>akong</b> still goes before the noun, names still take <b>si</b>.</p>
+{{ex:Mas dako ang akong balay.|mahs dah-KOHQ ahng ah-kohng bah-LAI|My house is bigger.}}
+<div class="tip"><b>Most common mistake:</b> leaving out <b>mas</b>, or trying to add an ending as English does with "-er". <b>Dako kini kaysa niana</b> → <b>Mas dako kini kaysa niana</b>.</div>
+`,
+    check: [
+      ["How do you say 'bigger'?", ["dakoer", "mas dako", "dako mas", "pinaka dako kaysa"], 1, "Cebuano puts mas before the describing word and never adds an ending."],
+      ["Which word means 'than'?", ["kaysa", "mas", "labing", "parehas"], 0, "kaysa means 'than': mas dako kaysa niana."],
+      ["What does 'Pinakamahal ang litson' mean?", ["The lechon is cheap.", "The lechon is more expensive.", "The lechon is the most expensive.", "The lechon is the same price."], 2, "pinaka- means 'the most'."]
+    ],
+    practice: [
+      ["mc", "'This one is bigger' =", "Mas dako kini.", "Kini mas dako.", "Dakoer kini.", "Dako mas kini.", "mas goes right before the describing word, and the describing word comes first."],
+      ["mc", "Which word means 'than' in 'bigger than that one'?", "kaysa", "mas", "pinaka-", "parehas", "kaysa means 'than'."],
+      ["mc", "'the most expensive' =", "pinakamahal", "mas mahal", "mahal kaayo", "mahaler", "pinaka- joined to the front means 'the most'."],
+      ["mc", "'It's the same' =", "Parehas ra.", "Mas ra.", "Pinaka ra.", "Kaysa ra.", "parehas means 'the same'; ra adds 'just'."],
+      ["mc", "labing maayo is…", "a careful way to say 'the best'", "'not good'", "'better than'", "'very bad'", "labing is the careful-speech word for 'most'."],
+      ["or", "This one is more expensive", "Mas mahal kini", "ang", "The main word comes first: Mas mahal kini."],
+      ["or", "Ana is prettier (use gwapa)", "Mas gwapa si Ana", "ang", "Names take si, and mas gwapa comes first: Mas gwapa si Ana."],
+      ["or", "bigger than that one", "mas dako kaysa niana", "pinaka", "mas before the describing word, then kaysa for 'than'."],
+      ["fi", "__ dako kini.", "This one is bigger.", "Mas", "Pinaka|Kaysa|Parehas", "mas before the describing word means 'more'."],
+      ["fi", "Mas lami ang manok __ sa baboy.", "The chicken is tastier than the pork.", "kaysa", "mas|og|nga", "kaysa means 'than'; before a noun, kaysa sa."],
+      ["fi", "Kini ang __.", "This is the biggest one.", "pinakadako", "mas dako|dako kaayo|dakong", "pinaka- means 'the most': pinakadako."],
+      ["ty", "My house is bigger", "Mas dako ang akong balay.|Mas dako ang balay nako.|Mas dako akong balay.", "mas · dako · balay", "ako", "akong goes before the noun (or nako after it), and mas dako comes first."],
+      ["ty", "Your mango is tastier", "Mas lami ang imong mangga.|Mas lami ang mangga nimo.|Mas lami imong mangga.", "mas · lami · mangga", "ikaw", "imong goes before the noun (or nimo after it), and mas lami comes first."],
+      ["ty", "The price is the same", "Parehas ra ang presyo.|Parehas ang presyo.", "parehas · presyo (price)", "mas", "parehas means 'the same'; ra adds 'just'."]
+    ]
+  },
+  {
+    id: "maka",
+    title: "Can and managed to: maka- and naka-",
+    blurb: "Say what you can and can't do, ask if someone can come, and ask whether they have ever been somewhere.",
+    deck: "Health and help",
+    body: `
+<p>English uses "can" and "could" as separate little words. Cebuano builds them into the verb with a prefix: <b>maka-</b> for "can" and <b>naka-</b> for "managed to" or "have ever".</p>
+<h3>Can: maka-</h3>
+<p>Join <b>maka-</b> to the root. It works like <b>mo-</b>: the doer is the focus, so it takes the <b>ako</b>-set, and the short pronoun goes in second place.</p>
+{{ex:Makaadto ko ugma.|mah-kah-ahd-toh koh oog-MAHQ|I can go tomorrow.}}
+{{ex:Makaadto ka ugma?|mah-kah-ahd-toh kah oog-MAHQ|Can you go tomorrow?}}
+{{ex:Makatabang ko?|mah-kah-tah-bahng koh|Can I help?}}
+<h3>Can't: dili + maka-</h3>
+<p>Put <b>dili</b> first. As always, the short pronoun moves up right behind it. This is the polite way to turn down an invitation.</p>
+{{ex:Dili ko makaadto.|dee-lee koh mah-kah-ahd-toh|I can't go.}}
+<h3>Managed to, have ever: naka-</h3>
+<p><b>naka-</b> is the past form of <b>maka-</b>. It means you did manage to do something. With <b>na</b> (already) in a question, it asks whether something has ever happened, or has happened yet.</p>
+{{ex:Nakaadto na ka sa Bohol?|nah-kah-ahd-toh nah kah sah boh-hohl|Have you ever been to Bohol?}}
+{{ex:Nakakaon na ka?|nah-kah-kah-ohn nah kah|Have you eaten yet?}}
+<p>That last one is a very common friendly greeting, especially around mealtimes. It is a kind question, not an invitation you must accept.</p>
+<h3>Couldn't: wala + maka-</h3>
+<p>For "couldn't" or "didn't get to", use <b>wala</b>. Just as with <b>mo-</b>, the verb after <b>wala</b> keeps the future form: <b>maka-</b>, not <b>naka-</b>.</p>
+{{ex:Wala ko makaadto.|wah-LAHQ koh mah-kah-ahd-toh|I couldn't go.}}
+<h3>Know how to: kahibalo</h3>
+<p>English "can" also means a skill: "I can cook". Cebuano usually says that with <b>kahibalo</b>, "know how", followed by the verb. Keep <b>maka-</b> for whether something is possible right now.</p>
+{{ex:Kahibalo ko magluto.|kah-hee-bah-LOH koh mahg-loo-toh|I know how to cook.}}
+<div class="tip"><b>Most common mistake:</b> reading <b>naka-</b> as only "could". <b>Nakaadto na ka sa Bohol?</b> is not "Could you go to Bohol?" → it is "Have you ever been to Bohol?" And keep <b>ko</b> up front: <b>Dili makaadto ko</b> → <b>Dili ko makaadto</b>.</div>
+`,
+    check: [
+      ["What does 'Dili ko makaadto' mean?", ["I can't go.", "I couldn't go.", "I don't want to go.", "I didn't go."], 0, "dili + maka- is 'can't'; wala + maka- is 'couldn't'."],
+      ["Which asks 'Have you ever been to Bohol?'", ["Makaadto ka sa Bohol?", "Nakaadto na ka sa Bohol?", "Moadto ka sa Bohol?", "Gusto mo sa Bohol?"], 1, "naka- with na asks whether something has ever happened."],
+      ["You learned to cook as a child. Which says 'I know how to cook'?", ["Nakaluto ko.", "Gusto ko magluto.", "Kahibalo ko magluto.", "Dili ko magluto."], 2, "kahibalo is 'know how' for a skill."]
+    ],
+    practice: [
+      ["mc", "'I can't go' =", "Dili ko makaadto.", "Dili makaadto ko.", "Wala ko makaadto.", "Dili ko nakaadto.", "dili for 'can't', and ko moves up right behind it."],
+      ["mc", "'Have you ever been to Bohol?' =", "Nakaadto na ka sa Bohol?", "Makaadto na ka sa Bohol?", "Nakaadto na nimo sa Bohol?", "Ka nakaadto na sa Bohol?", "naka- with na asks 'have you ever'; ka, from the ako-set, comes after the verb."],
+      ["mc", "'I couldn't go (yesterday)' =", "Wala ko makaadto.", "Dili ko makaadto.", "Wala makaadto ko.", "Dili ko nakaadto.", "wala for the past, with maka- after it."],
+      ["mc", "'I know how to cook' (a skill) =", "Kahibalo ko magluto.", "Kahibalo magluto ko.", "Nakaluto ko.", "Ko kahibalo magluto.", "kahibalo for a skill, with ko in second place."],
+      ["mc", "'Nakakaon na ka?' means…", "Have you eaten yet?", "Can you eat?", "Don't eat!", "You will eat.", "naka- with na asks if something has happened yet."],
+      ["or", "I can't go", "Dili ko makaadto", "akong", "Short pronouns move up behind dili: Dili ko makaadto."],
+      ["or", "Can you help? (use tabang)", "Makatabang ka", "nimo", "maka- is doer-focus, so ka from the ako-set goes in second place."],
+      ["or", "I couldn't go (yesterday)", "Wala ko makaadto", "dili", "wala for the past; the short pronoun ko moves up right behind it."],
+      ["fi", "__ ko makaadto ugma.", "I can't go tomorrow.", "Dili", "Wala|Ayaw|Naa", "dili for now and later; wala for the past."],
+      ["fi", "__ na ka sa Bohol?", "Have you ever been to Bohol?", "Nakaadto", "Makaadto|Moadto|Gusto", "naka- asks whether something has ever happened."],
+      ["fi", "__ ko magluto.", "I know how to cook.", "Kahibalo", "Makaluto|Gusto|Nakaluto", "kahibalo means 'know how' and is used for skills."],
+      ["ty", "I can't go (use adto)", "Dili ko makaadto.|Dili ako makaadto.", "dili · adto", "akong", "Short pronouns move up behind dili: Dili ko makaadto."],
+      ["ty", "Can you go tomorrow? (use adto)", "Makaadto ka ugma?|Makaadto ikaw ugma?|Makaadto ba ka ugma?|Makaadto ka ba ugma?", "adto · ugma", "nimo", "maka- is doer-focus, so the short pronoun ka goes in second place."],
+      ["ty", "Have you eaten yet? (use naka-)", "Nakakaon na ka?|Nakakaon na ikaw?|Nakakaon ka na?", "kaon · na (already, yet)", "nimo", "naka- asks whether something has happened; na means 'yet'."]
     ]
   }
 ];

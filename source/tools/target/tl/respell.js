@@ -57,7 +57,11 @@ dumatíng magsalitâ gaáno mayroón dahil eskuwela=eskwéla
 lahát bigás prútas kálye kuwarto=kwárto pasensiya=pasénsya pasénsya mabúhay maiklî mahabà kapág
 papuntá iniinóm makakáin magpuntá kabáyan maskí
 péra tren táo o ókey sana man tulóy
-labingwaló`;
+labingwaló
+kaysá tapós tabí kilalá masamâ sandalî umupô lutò hanggáng mahilig kumanan mano ulam kiná niná meron nasa
+sumama manoód siguro magtanóng alalá lagnát pakiramdám pamasáhe inaantók gandá klase kurso pasok pare mare
+taxi=táksi cellphone=sélfon basketball=básketbol traffic=tráfik aircon=érkon tricycle=traysikél kumantá pabilí
+kumaliwa=kumaliwâ nakatira=nakatirá magpahinga=magpahingá`;
 /* NOTE: one entry per spelling; a spelling listed twice with different forms is an error (the generator throws). */
 
 const SRC = `
@@ -75,14 +79,21 @@ nagluto=naglutò nagluluto=naglulutò magluluto=maglulutò niluto=nilutò
 naglaro=naglarô nagtatrabaho=nagtatrabáho
 nag-aaral=nag-aáral
 natulog maligo=maligò naligo=naligò
-bili=bilí pabili=pabilí ito iyan iyon
+bili=bilí ito iyan iyon
 pambili
 pakitulungan=pakitulúngan
+may sina=siná kanya=kanyá
+dadaan=dadaán pakiabot=pakiabót sasakay=sasakáy
+pakitawag
+magtatrabaho=magtatrabáho aaral=aáral mas
+pinakamaganda=pinakamagandá mall=mol sine
+shopping=syáping on=ón
+wait=weyt ay paki pinakamura pinakamalapit magluto=maglutò
 saan sino kailan bakit nasaan
 dito diyan doon
 maganda maliit
 masaya malungkot
-kumanta=kumantá
+
 oo opo hindi wala huwag=huwág
 ikaw ako siya kami kayo sila
 Ana=ána Juan=hwán Jun=jun Maria=marí-ya Jose=hosé Liza=lísa Mark=mark Joy=joy Rey=rey Carlo=kárlo Bea=béya Ben=ben
@@ -124,7 +135,7 @@ const normRow = t => String(t).normalize('NFC').toLowerCase().replace(/[.,!?;:"�
 const EXC = { 'y': 'ee', 'ng': 'nahng', 'nang': 'nahng', 'mga': 'mah-NGAH', 'cr': 'see-AHR' };
 
 /* prefixes that are written with a hyphen before a vowel-initial root or a name, and form ONE word with it */
-const PREFIX = new Set(['mag', 'nag', 'pag', 'mang', 'nang', 'pang', 'taga', 'alas', 'ika', 'ma', 'na', 'maka', 'naka', 'pinaka', 'ka', 'tag', 'pa']);
+const PREFIX = new Set(['mag', 'nag', 'pag', 'mang', 'nang', 'pang', 'taga', 'alas', 'ika', 'ma', 'na', 'maka', 'naka', 'pinaka', 'ka', 'tag', 'pa', 'ala', 'paki']);
 
 const warned = new Set();
 const warn = (w, msg) => { const k = w + '|' + msg; if (warned.has(k)) return; warned.add(k); process.stderr.write('respell: check ' + msg + ' in «' + w + '». If wrong, add it to LEX in respell.js.\n'); };

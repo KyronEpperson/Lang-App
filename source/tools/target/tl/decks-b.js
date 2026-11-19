@@ -12,13 +12,13 @@ dito | DEE-toh | here (near me) | Three words by distance: dito, diyan, doon.
 diyan | jahn | there (near you) | Said like "jahn".
 doon | doh-OHN | over there | Far from both of you.
 Nasa kanto lang. | NAH-sah KAHN-toh lahng | It's right at the corner. | nasa + place = at or in that place.
-Nasa tabi ng simbahan. | NAH-sah TAH-bee nahng seem-BAH-hahn | It's next to the church. | tabi = side; ng joins it to the place.
+Nasa tabi ng simbahan. | NAH-sah tah-BEE nahng seem-BAH-hahn | It's next to the church. | tabi = side; ng joins it to the place.
 kanan | KAH-nahn | right | |
 kaliwa | kah-lee-WAHQ | left | |
 Kumanan po kayo sa kanto. | koo-MAH-nahn poh kah-YOH sah KAHN-toh | Turn right at the corner. (polite) | Turn left: kumaliwa.
 Diretso lang po. | dee-REH-choh lahng pohq | Just go straight. (polite) | From Spanish derecho.
 Saan ka pupunta? | sah-AHN kah poo-poon-TAH | Where are you going? (to a friend) | Polite: Saan po kayo pupunta? Also a friendly hello in passing.
-Pupunta ako kina Lola. | poo-poon-TAH ah-KOH KEE-nah LOH-lah | I'm going to Lola's place. | kina + name = to that person's home and family.
+Pupunta ako kina Lola. | poo-poon-TAH ah-KOH kee-NAH LOH-lah | I'm going to Lola's place. | kina + name = to that person's home and family.
 `,
   "Getting around": `
 Para po! | PAH-rah pohq | Stop here, please! | Said to a jeepney driver to get off.
@@ -26,36 +26,36 @@ Bayad po. | BAH-yahd pohq | Here's my fare. | Passengers pass the fare forward.
 jeep | jeep | jeepney | Also written dyip.
 sakayan | sah-KAH-yahn | pickup point | |
 Kuya, sa Makati po. | KOO-yah sah mah-KAH-tee pohq | To Makati, please, sir. | To a driver: Kuya + place.
-tricycle | TREEKY-kleh | tricycle | A motorbike with a sidecar, for short trips; also written traysikel.
+tricycle | trai-see-KEHL | tricycle | A motorbike with a sidecar, for short trips; also written traysikel.
 taxi | TAHK-see | taxi | Also written taksi. Many people book a Grab instead.
 Saan po ang sakayan papuntang Makati? | sah-AHN poh ahng sah-KAH-yahn pah-poon-TAHNG mah-KAH-tee | Where do I get a ride to Makati? (polite) | papunta + -ng = going to.
-Magkano po hanggang Maynila? | mahg-KAH-noh poh HAHNG-gahng mai-NEE-lahq | How much is it to Manila? (polite) | hanggang = as far as.
+Magkano po hanggang Maynila? | mahg-KAH-noh poh hahng-GAHNG mai-NEE-lahq | How much is it to Manila? (polite) | hanggang = as far as.
 Magkano po ang pamasahe? | mahg-KAH-noh poh ahng pah-mah-SAH-heh | How much is the fare? (polite) | pamasahe = the fare for a ride.
-Sa tabi lang po. | sah TAH-bee lahng pohq | Please pull over here. | Another way to ask a driver to stop: "just at the side".
-Dadaan po ba ito sa Maynila? | dah-DAH-ahn poh bah ee-TOH sah mai-NEE-lahq | Does this go through Manila? (polite) | Ask before you get on.
-Pakiabot po ang bayad. | pah-kee-AH-boht poh ahng BAH-yahd | Please pass my fare forward. (polite) | paki- = please do; abot = reach, pass.
+Sa tabi lang po. | sah tah-BEE lahng pohq | Please pull over here. | Another way to ask a driver to stop: "just at the side".
+Dadaan po ba ito sa Maynila? | dah-dah-AHN poh bah ee-TOH sah mai-NEE-lahq | Does this go through Manila? (polite) | Ask before you get on.
+Pakiabot po ang bayad. | pah-kee-ah-BOHT poh ahng BAH-yahd | Please pass my fare forward. (polite) | paki- = please do; abot = reach, pass.
 Bayad po, dalawa. | BAH-yahd pohq dah-lah-WAH | Fare for two, please. | Say how many people you are paying for.
 Dito na lang po. | DEE-toh nah lahng pohq | Right here is fine. (polite) | To a taxi or Grab driver when you want to get out.
 Malapit na tayo. | mah-LAH-peet nah TAH-yoh | We're almost there. | tayo = we, including you.
-Sasakay ako ng jeep. | sah-SAH-kai ah-KOH nahng jeep | I'll take a jeepney. | sasakay = will ride; the vehicle takes ng.
+Sasakay ako ng jeep. | sah-sah-KAI ah-KOH nahng jeep | I'll take a jeepney. | sasakay = will ride; the vehicle takes ng.
 `,
   "Health and help": `
 Masakit ang ulo ko. | mah-sah-KEET ahng OO-loh koh | I have a headache. | Literally "My head is painful."
 Masakit ang tiyan ko. | mah-sah-KEET ahng tee-YAHN koh | I have a stomachache. | Swap in any body part: Masakit ang ___ ko.
 Saan masakit? | sah-AHN mah-sah-KEET | Where does it hurt? | What a doctor or nurse asks.
 May sakit ako. | mai sah-KEET ah-KOH | I'm sick. | sakit = illness; pain.
-May lagnat ako. | mai LAHG-naht ah-KOH | I have a fever. | |
-Masama ang pakiramdam ko. | mah-SAH-mah ahng pah-kee-RAHM-dahm koh | I don't feel well. | Literally "My feeling is bad."
+May lagnat ako. | mai lahg-NAHT ah-KOH | I have a fever. | |
+Masama ang pakiramdam ko. | mah-sah-MAH ahng pah-kee-rahm-DAHM koh | I don't feel well. | Literally "My feeling is bad."
 Tulong! | TOO-lohng | Help! | |
 botika | boh-TEE-kah | pharmacy | |
 gamot | gah-MOHT | medicine | |
 Kailangan ko ng doktor. | kah-ee-LAH-ngahn koh nahng dohk-TOHR | I need a doctor. | kailangan takes the ng form ko.
 Pakitulungan po ako. | pah-kee-too-LOO-ngahn poh ah-KOH | Please help me. (polite) | paki- = please do.
 Pakitawag po ng doktor. | pah-kee-TAH-wahg poh nahng dohk-TOHR | Please call a doctor. (polite) | paki- + tawag (call).
-Puwede po bang magtanong? | PWEH-deh poh bahng mahg-TAH-nohng | May I ask something? (polite) | A polite way to start a question to a stranger. Also spelled pwede.
+Puwede po bang magtanong? | PWEH-deh poh bahng mahg-tah-NOHNG | May I ask something? (polite) | A polite way to start a question to a stranger. Also spelled pwede.
 Uminom ka ng gamot. | oo-mee-NOHM kah nahng gah-MOHT | Take some medicine. (to a friend) | Tagalog "drinks" medicine, even pills.
-Magpahinga ka muna. | mahg-pah-HEE-ngah kah MOO-nah | Get some rest. (to a friend) | muna = first, for now.
-Huwag kang mag-alala. | hoo-WAHG kahng mahg-ah-LAH-lah | Don't worry. (to a friend) | huwag + the linker: huwag kang. Polite: Huwag po kayong mag-alala.
+Magpahinga ka muna. | mahg-pah-hee-NGAH kah MOO-nah | Get some rest. (to a friend) | muna = first, for now.
+Huwag kang mag-alala. | hoo-WAHG kahng mahg-ah-lah-LAH | Don't worry. (to a friend) | huwag + the linker: huwag kang. Polite: Huwag po kayong mag-alala.
 Okey ka lang ba? | OH-kay kah lahng bah | Are you okay? (to a friend) | Also written okay.
 `,
   "Work and school": `
@@ -74,7 +74,7 @@ May pasok ka bukas? | mai PAH-sohk kah BOO-kahs | Do you have work or school tom
 Walang pasok ngayon. | wah-LAHNG PAH-sohk ngah-YOHN | There's no work or school today. | What everyone hopes to hear on a typhoon day.
 Anong oras ang pasok mo? | ah-NOHNG OH-rahs ahng PAH-sohk moh | What time do you start work or school? | |
 Ano ang kurso mo? | ah-NOH ahng KOOR-soh moh | What's your major? | kurso = your college degree course.
-Tapos na ang klase. | TAH-pohs nah ahng KLAH-seh | Class is over. | tapos na = finished already.
+Tapos na ang klase. | tah-POHS nah ahng KLAH-seh | Class is over. | tapos na = finished already.
 Pagod ako sa trabaho. | pah-GOHD ah-KOH sah trah-BAH-hoh | I'm tired from work. | sa trabaho = from work here.
 `,
   "Describing people and things": `
@@ -91,10 +91,10 @@ mabilis | mah-bee-LEES | fast | |
 mabagal | mah-BAH-gahl | slow | |
 magandang babae | mah-gahn-DAHNG bah-BAH-eh | beautiful woman | maganda + -ng, in front of the noun.
 mabait na bata | mah-bah-EET nah BAH-tahq | kind child | mabait ends in a consonant, so the linker is na.
-Ang ganda! | ahng GAHN-dah | How beautiful! | ang + root = "What a…!": Ang laki! = How big!
-Mas malaki ito kaysa diyan. | mahs mah-lah-KEE ee-TOH KAI-sah jahn | This is bigger than that one. | mas = more; kaysa = than.
+Ang ganda! | ahng gahn-DAH | How beautiful! | ang + root = "What a…!": Ang laki! = How big!
+Mas malaki ito kaysa diyan. | mahs mah-lah-KEE ee-TOH kai-SAH jahn | This is bigger than that one. | mas = more; kaysa = than.
 Mas matangkad si Juan kay Mark. | mahs mah-tahng-KAHD see hwahn kai mahrk | Juan is taller than Mark. | Before a name, "than" is kay (or kaysa kay).
-pinakamaganda | pee-nah-kah-mah-GAHN-dah | the most beautiful | pinaka- = most.
+pinakamaganda | pee-nah-kah-mah-gahn-DAH | the most beautiful | pinaka- = most.
 `,
   "Feelings and free time": `
 Masaya ako. | mah-sah-YAH ah-KOH | I'm happy. | |
@@ -102,7 +102,7 @@ Malungkot ako. | mah-loong-KOHT ah-KOH | I'm sad. | |
 Pagod na ako. | pah-GOHD nah ah-KOH | I'm tired. | na here means "now, already".
 Galit siya. | gah-LEET shah | He's angry. / She's angry. | siya is both he and she.
 Takot ako sa aso. | tah-KOHT ah-KOH sah AH-soh | I'm scared of dogs. | sa marks what you are afraid of.
-Inaantok na ako. | ee-nah-AHN-tohk nah ah-KOH | I'm sleepy. | |
+Inaantok na ako. | ee-nah-ahn-TOHK nah ah-KOH | I'm sleepy. | |
 Masaya ako para sa iyo. | mah-sah-YAH ah-KOH PAH-rah sah ee-YOH | I'm happy for you. | para sa + iyo, the sa form of "you".
 Gusto ko ng kape. | goos-TOH koh nahng kah-PEH | I want coffee. | gusto takes the ng form ko.
 Gusto kong sumayaw. | goos-TOH kohng soo-mah-YOW | I want to dance. | ko + -ng links gusto to the verb.
@@ -110,9 +110,9 @@ Ayoko. | ah-YOH-koh | I don't want to. | Short for ayaw ko.
 sumayaw | soo-mah-YOW | to dance | -um- verb: the dancer takes ang.
 kumanta | koo-mahn-TAH | to sing | -um- verb from kanta, song.
 Mahilig akong kumanta. | mah-HEE-leeg ah-KOHNG koo-mahn-TAH | I love singing. | mahilig = fond of; joined to the verb with -ng.
-Naglaro kami ng basketball. | nahg-lah-ROH kah-MEE nahng bahs-KEHT-bahll | We played basketball. | Basketball is the national passion.
-Pumunta kami sa mall. | poo-moon-TAH kah-MEE sah mahll | We went to the mall. | Malls are where people hang out, partly for the aircon.
-Manood tayo ng sine. | mah-NOH-ohd TAH-yoh nahng SEE-neh | Let's watch a movie. | sine = movie theater; movie.
+Naglaro kami ng basketball. | nahg-lah-ROH kah-MEE nahng BAHS-keht-bohl | We played basketball. | Basketball is the national passion.
+Pumunta kami sa mall. | poo-moon-TAH kah-MEE sah mohl | We went to the mall. | Malls are where people hang out, partly for the aircon.
+Manood tayo ng sine. | mah-noh-OHD TAH-yoh nahng SEE-neh | Let's watch a movie. | sine = movie theater; movie.
 Gusto mo bang sumama? | goos-TOH moh bahng soo-MAH-mah | Do you want to come along? (to a friend) | ba + -ng joins the verb: bang.
 `,
   "Questions and little words": `
@@ -133,7 +133,7 @@ lang | lahng | just; only | Short for lamang.
 Ikaw naman? | ee-KOW nah-MAHN | And you? | naman: "your turn".
 Ako rin. | ah-KOH reen | Me too. | rin after a vowel; din after a consonant.
 Pagod din ako. | pah-GOHD deen ah-KOH | I'm tired too. | din after a consonant (pagod).
-Sandali lang po. | sahn-DAH-lee lahng pohq | Just a moment, please. (polite) | |
+Sandali lang po. | sahn-dah-LEE lahng pohq | Just a moment, please. (polite) | |
 `,
   "Traps for English speakers": `
 Hindi po. | heen-DEE pohq | No. (polite) | hindi = not; for "there isn't any", say wala.
@@ -147,7 +147,7 @@ Huwag kang umalis. | hoo-WAHG kahng oo-mah-LEES | Don't leave. (to a friend) | N
 siya | shah | he; she | One word for both.
 Taga-Amerika kami. | tah-gah-ah-MEH-ree-kah kah-MEE | We're from the US. (not you) | kami leaves out the listener; tayo includes them.
 Pupunta tayo sa Cebu. | poo-poon-TAH TAH-yoh sah seh-BOO | We're going to Cebu. (you too) | tayo = we, including you.
-Kilala ko si Ana. | kee-LAH-lah koh see AH-nah | I know Ana. | Know a person = kilala; know a fact = alam.
+Kilala ko si Ana. | kee-lah-LAH koh see AH-nah | I know Ana. | Know a person = kilala; know a fact = alam.
 Marunong akong magsalita ng Tagalog. | mah-ROO-nohng ah-KOHNG mahg-sah-lee-TAH nahng tah-GAH-lohg | I can speak Tagalog. | marunong = know how; puwede = may, it's allowed.
 Puwede po ba? | PWEH-deh poh bah | May I? (polite) | Asking permission, not ability. Also spelled pwede.
 mamaya | mah-mah-YAHQ | later today | Not "maybe" (that is baka or siguro).
@@ -165,12 +165,12 @@ Talaga? | tah-lah-GAH | Really? | Also "really" before a word: talagang masarap.
 Ayoko na. | ah-YOH-koh nah | I'm done; I don't want to anymore. | na = anymore here.
 Ano ba 'yan! | ah-NOH bah yahn | Oh, come on! | For annoyance; 'yan = iyan.
 'Yan ang gusto ko. | yahn ahng goos-TOH koh | That's what I like! (casual) | 'yan is short for iyan.
-Nasaan 'yung cellphone ko? | nah-sah-AHN yoong sehllp-HOH-neh koh | Where's my phone? (casual) | 'yung stands for ang in casual speech. Careful: Nasaan ang cellphone ko?
+Nasaan 'yung cellphone ko? | nah-sah-AHN yoong SEHL-fohn koh | Where's my phone? (casual) | 'yung stands for ang in casual speech. Careful: Nasaan ang cellphone ko?
 pare | PAH-reh | buddy (between men) | From compadre; casual, between male friends.
 mare | MAH-reh | buddy (between women) | From comadre; casual, between women friends.
-Nag-shopping kami. | nahg-SHOHP-peeng kah-MEE | We went shopping. | nag- + an English verb is everyday Taglish. Careful: Namili kami.
-Paki-on ang aircon. | PAH-kee ohn ahng ah-EER-kohn | Please turn on the AC. | paki- + English "on". Careful: Pakibuksan ang aircon.
-Ang traffic! | ahng TRAHF-feek | The traffic is terrible! | traffic is the everyday word; also written trapik.
-Wait lang. | WAH-eet lahng | Wait a sec. | Tagalog: Sandali lang or Teka lang.
+Nag-shopping kami. | nahg-SHAH-peeng kah-MEE | We went shopping. | nag- + an English verb is everyday Taglish. Careful: Namili kami.
+Paki-on ang aircon. | pah-kee-OHN ahng EHR-kohn | Please turn on the AC. | paki- + English "on". Careful: Pakibuksan ang aircon.
+Ang traffic! | ahng TRAH-feek | The traffic is terrible! | traffic is the everyday word; also written trapik.
+Wait lang. | wayt lahng | Wait a sec. | Tagalog: Sandali lang or Teka lang.
 `
 };

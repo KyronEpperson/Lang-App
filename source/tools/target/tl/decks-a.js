@@ -5,7 +5,7 @@ bata | BAH-tahq | child | Ends in a catch. Said BAH-tah with no catch, it means 
 aso | AH-soh | dog | Stress the first syllable. Stressed at the end, it means "smoke".
 suka | SOO-kahq | vinegar | Ends in a catch. With no catch it means "vomit".
 ngayon | ngah-YOHN | now | ng starts the word, as in "singer" without the "si".
-mga bata | mah-NGAH BAH-tahq | children | mga is always read "ma-NGA"; it makes the noun plural.
+mga bata | mah-NGAH BAH-tahq | children | mga is always read mah-NGAH; it makes the noun plural.
 aso ni Ana | AH-soh nee AH-nah | Ana's dog | ni marks the owner when the owner is a name.
 Kumain ako ng mangga. | koo-MAH-een ah-KOH nahng mahng-GAH | I ate a mango. | The word ng is said "nahng"; in mangga both sounds are heard: mahng-GAH.
 oo | OH-oh | yes | Two vowels side by side are two syllables, with a tiny catch between them. To elders, say opo.
@@ -49,7 +49,7 @@ Taga-saan ka? | tah-gah-sah-AHN kah | Where are you from? (to a friend) | Litera
 Taga-saan po kayo? | tah-gah-sah-AHN poh kah-YOH | Where are you from? (polite) | po and kayo come right after the first word.
 Amerikano ako. | ah-meh-ree-KAH-noh ah-KOH | I'm American. | A woman can also say Amerikana ako.
 Pilipino-Amerikano ako. | pee-lee-PEE-noh ah-meh-ree-KAH-noh ah-KOH | I'm Filipino American. | You will also hear the English Fil-Am.
-Nakatira ako sa Maynila. | nah-kah-TEE-rah ah-KOH sah mai-NEE-lahq | I live in Manila. | sa marks the place.
+Nakatira ako sa Maynila. | nah-kah-tee-RAH ah-KOH sah mai-NEE-lahq | I live in Manila. | sa marks the place.
 Ilang taon ka na? | ee-LAHNG tah-OHN kah nah | How old are you? (to a friend) | Literally "How many years are you already?"
 Ilang taon na po kayo? | ee-LAHNG tah-OHN nah poh kah-YOH | How old are you? (polite) | The little words go in order: na, then po, then kayo.
 Dalawampu't limang taon na ako. | dah-lah-wahm-POOT lee-MAHNG tah-OHN nah ah-KOH | I'm twenty-five. | Native numbers count years; lima + -ng is linked to taon.
@@ -100,7 +100,7 @@ Wala po akong barya. | wah-LAH poh ah-KOHNG bahr-YAH | I don't have small change
   "Time, days and dates": `
 Anong oras na? | ah-NOHNG OH-rahs nah | What time is it? | Literally "What hour already?"
 alas-tres | ah-lahs-TREHS | three o'clock | Spanish numbers for the clock; tatlong oras = three hours.
-alas-una ng hapon | ah-lahs-OO-nah nahng HAH-pohn | one in the afternoon | ng umaga, ng hapon, ng gabi = in the morning, afternoon, evening.
+ala-una ng hapon | ah-lah-OO-nah nahng HAH-pohn | one in the afternoon | One o'clock is ala-una, with no s. ng umaga, ng hapon, ng gabi = in the morning, afternoon, evening.
 Alas-singko y medya. | ah-lahs-SEENG-koh ee MEH-jah | It's five thirty. | y medya = "and a half", from Spanish.
 tatlong oras | taht-LOHNG OH-rahs | three hours | For how long, use native numbers: tatlong oras, not tres oras.
 limang minuto | lee-MAHNG mee-NOO-toh | five minutes | lima + -ng: the linker joins the number to the noun.
@@ -172,6 +172,6 @@ Alas-sais ako gumising. | ah-lahs-sah-EES ah-KOH goo-MEE-seeng | I woke up at si
 Nagluto si Lola ng adobo. | nahg-LOO-toh see LOH-lah nahng ah-DOH-boh | Lola cooked adobo. | Actor focus: the cook takes si, the dish takes ng.
 matulog | mah-TOO-lohg | to sleep |
 Tulog na si Ana. | too-LOHG nah see AH-nah | Ana is asleep now. | tulog = asleep; matulog = to sleep.
-Umuwi na si Tatay. | oo-moo-WEE nah see TAH-tai | Dad has come home. | umuwi = to go or come home.
+Umuwi na si Tatay. | oo-moo-WEE nah see TAH-tai | Dad has come home. | umuwi = went or came home (uwi = home).
 `
 };

@@ -4,7 +4,7 @@
  "self": "Sinugbuanong Binisaya",
  "ttsLang": "ceb-PH",
  "brand": "Bisaya",
- "accents": true,
+ "accents": false,
  "keys": "",
  "greet": [
   [

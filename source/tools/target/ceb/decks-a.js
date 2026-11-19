@@ -24,7 +24,7 @@ Sugbo | SOOG-bohq | Cebu (the old Cebuano name) | Ends in a catch, like bata.
 Maayong buntag. | mah-ah-yohng boon-tahg | Good morning. | Until about 11 a.m.
 Maayong udto. | mah-ah-yohng OOD-toh | Good day. (around noon) | Used from about 11 a.m. to 1 p.m.
 Maayong hapon. | mah-ah-yohng HAH-pohn | Good afternoon. | From about 1 p.m. until dark. Around noon: Maayong udto.
-Maayong gabii. | mah-ah-yohng gah-BEE-ee | Good evening. | After dark, both to say hello and to say goodbye.
+Maayong gabii. | mah-ah-yohng gah-BEE-ee | Good evening. | After dark.
 Kumusta ka? | koo-MOOS-tah kah | How are you? | The answer: Maayo man. Salamat.
 Maayo man. | mah-AH-yoh mahn | I'm fine. | man softens the answer; a bare Maayo sounds curt.
 Salamat. | sah-LAH-maht | Thank you. | Add a title for an older person: Salamat, Nong.
@@ -33,9 +33,9 @@ Salamat, Nang. | sah-LAH-maht nahng | Thank you, ma'am. | Nang (from Manang) to 
 Walay sapayan. | wah-lai sah-pah-yahn | You're welcome. | Literally "no bother".
 Maayong pag-abot. | mah-ah-yohng pahg-ah-boht | Welcome. | To a guest or someone just arrived.
 Dayon lang. | dah-yohn lahng | Come on in. | What the host says at the door. lang makes it friendly.
-Lingkod usa. | LEENG-kohd oo-SAH | Have a seat first. | usa here means "first, for a moment".
+Lingkod usa. | LEENG-kohd oo-SAH | Have a seat first. | usa here means "first, for a moment". The pronunciation line shows usa "one"; this usa may sound different.
 Pasayloa ko. | pah-sai-loh-ah koh | I'm sorry. (please forgive me) | For a real apology.
-Pasensya na. | pah-sehns-yah nah | Sorry about that. | For a small slip or a delay.
+Pasensya na. | pah-sehn-syah nah | Sorry about that. | For a small slip or a delay.
 Nang, pangutana lang. | nahng pah-ngoo-tah-nah lahng | Excuse me, ma'am, just a question. | A polite way to stop someone and ask. To a man: Nong.
 Una na ko. | oo-nah nah koh | I'll go ahead now. | A friendly way to leave. ko is the short pronoun.
 Amping ka. | AHM-peeng kah | Take care. | Said when someone leaves.
@@ -65,10 +65,10 @@ igsoon | eeg-SOH-ohn | brother or sister | Says nothing about sex: igsoon nga la
 inahan | ee-NAH-hahn | mother | Everyday: mama.
 amahan | ah-mah-HAHN | father | Everyday: papa.
 ginikanan | ghee-nee-kah-nahn | parents | The whole pair, mother and father.
-anak | ah-nahk | son or daughter | Your own child, of any age.
+anak | ah-NAHK | son or daughter | Your own child, of any age.
 bana | bah-nah | husband |
 asawa | ah-SAH-wah | wife |
-apo | ah-POH | grandchild | Also a respectful word for a very old person.
+apo | ah-POH | grandchild |
 lola | loh-lah | grandmother | Also used for any old woman you respect.
 lolo | loh-loh | grandfather | Also used for any old man you respect.
 magulang | mah-GOO-lahng | older brother or sister | Younger: manghod.
@@ -81,7 +81,7 @@ Taga-asa mo? | tah-gah-ah-sah moh | Where are you all from? | mo (kamo) is "you"
 Mga higala nako sila. | mah-ngah hee-GAH-lah NAH-kohq see-LAH | They're my friends. | sila = they. nako comes after the noun.
 `,
   "Numbers and money": `
-usa ka saging | oo-SAH kah sah-gheeng | one banana | ka joins a Cebuano number to the noun.
+usa ka saging | oo-SAH kah SAH-gheeng | one banana | ka joins a Cebuano number to the noun.
 duha ka adlaw | doo-HAH kah ahd-low | two days | Cebuano numbers for counting things and days.
 tulo ka bata | too-LOH kah BAH-tahq | three children | Not tulo bata: ka is needed.
 upat ka tawo | oo-PAHT kah TAH-woh | four people | Counting people uses Cebuano numbers too.
@@ -95,7 +95,7 @@ kuwarenta pesos | koo-wah-rehn-tah peh-sohs | forty pesos | Written ₱40.
 singkuwenta | seeng-koo-wehn-tah | fifty | Spanish. In Cebu City you will also hear "fifty".
 siyen pesos | see-yehn peh-sohs | a hundred pesos | Written ₱100.
 kuwarta | koo-wahr-tah | money |
-Duha akong anak. | doo-HAH ah-kohng ah-nahk | I have two children. | No word for "have": literally "two my children".
+Duha akong anak. | doo-HAH ah-kohng ah-NAHK | I have two children. | No word for "have": literally "two my children".
 akong tulo ka igsoon | ah-kohng too-LOH kah eeg-SOH-ohn | my three brothers and sisters | akong goes before the number.
 Pila ka buok? | pee-lah kah boo-ohk | How many pieces? | buok = piece, item. Asked in shops and markets.
 Wala koy kuwarta. | wah-LAHQ koy koo-wahr-tah | I have no money. | wala, not dili, for "have none".
@@ -115,7 +115,7 @@ gahapon | gah-hah-pohn | yesterday |
 unya | oon-YAHQ | later today | Not tomorrow: that is ugma.
 ganina | gah-nee-nah | earlier today | The opposite of unya.
 Lunes | loo-nehs | Monday | The days are Spanish: Lunes, Martes, Miyerkoles…
-Domingo | doh-mee-ngoh | Sunday | Also the day for church and family lunch.
+Sabado | sah-bah-doh | Saturday | The weekend is Sabado and Domingo.
 sa sunod nga semana | sah soo-nohd ngah seh-mah-nah | next week | nga links sunod (next) to semana (week).
 Mobiya ko alas tres. | moh-bee-yah koh ah-lahs trehs | I'll leave at three. | The short pronoun ko comes right after the verb.
 Nimata ko alas sais. | nee-mah-tah koh ah-lahs sah-ees | I woke up at six. | ni- = past form.
@@ -125,7 +125,7 @@ kan-on | kahn-ohn | cooked rice | Uncooked rice is bugas.
 tubig | TOO-beeg | water |
 usa ka kape | oo-SAH kah kah-peh | one coffee | Ordering: Palihug, usa ka kape.
 manok | mah-NOHK | chicken | Stress on the last syllable: mah-NOHK.
-isda | ees-dah | fish |
+isda | EES-dahq | fish |
 baboy | BAH-boy | pork; pig | The same word for the animal and the meat.
 sabaw | sah-BOW | soup; broth | Comes with most carinderia meals.
 sud-an | sood-ahn | dish eaten with rice | Meat, fish or vegetables: whatever goes with the rice.
@@ -135,7 +135,7 @@ mangga | mahng-gah | mango |
 sikwate | see-kwah-teh | hot chocolate | One of the few native words written with e.
 Unsa inyong naa? | oon-sah een-yohng nah-ah | What do you have? | Asked at a carinderia to see what dishes are ready.
 Tubig lang. | TOO-beeg lahng | Just water. | lang = just, only.
-sinugbang isda | see-noog-bahng ees-dah | grilled fish | sinugba (grilled) + -ng links it to isda.
+sinugbang isda | see-noog-bahng EES-dahq | grilled fish | sinugba (grilled) + -ng links it to isda.
 Lami kaayo! | lah-mee kah-AH-yoh | It's really good! | kaayo after the describing word means "very".
 Busog na ko. | boo-SOHG nah koh | I'm full. | na = already, now.
 Dili ko mokaon og baboy. | dee-lee koh moh-kah-ohn ohg BAH-boy | I don't eat pork. | The short pronoun ko comes right after dili.
@@ -154,10 +154,10 @@ Unsa kana? | oon-sah kah-NAHQ | What's that? (near you) | For something far from
 Kanang pula. | kah-nahng poo-LAH | That red one. (near you) | kana + -ng links it to the describing word.
 Kadtong dako. | kahd-tohng dah-KOHQ | That big one over there. | kadto = that one, far from both of you.
 Akong libro kini. | ah-kohng lee-broh kee-NEE | This is my book. | The main word comes first, then kini.
-Naa ba moy bugas? | nah-ah bah moy boo-GAHS | Do you have rice? (in a shop) | naa = there is, have; og becomes -y after mo.
+Naa ba moy bugas? | nah-ah bah moy boo-GAHS | Do you have rice? (in a shop) | naa + ba + mo + y: "is there, you all, some".
 Kuhaon nako ni. | koo-hah-ohn NAH-kohq nee | I'll take this one. | Said when you have chosen.
 Wala na. | wah-LAHQ nah | There's none left. | Sold out, all gone.
-sukli | soo-klee | change (money back) | Ask for it: Ang akong sukli, Nang.
+sukli | sook-lee | change (money back) | Ask for it: Ang akong sukli, Nang.
 `,
   "Home and daily life": `
 akong balay | ah-kohng bah-LAI | my house | akong goes before the noun and ends in -ng.
