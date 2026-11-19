@@ -1005,3 +1005,9 @@ Ship Japanese for English speakers (en-ja) after merge and cold review. Verify: 
 
 ### 2.32.0 — results
 en-ja: 28 lessons, 18 decks / 370 cards (five kana decks, 30-word kanji deck), 392 practice items; kana with phrase spacing, hand-typed romaji. Cold review: 25 edits (no wrong Japanese or romaji found; 591 romaji rows pass the romaji-to-kana check; nine wrong or overstated teaching claims fixed; seven order items given a cue). validate PASS, e2e OK. Not checked by a native speaker (tools/target/ja/REVIEW.md).
+
+## 2.33.0 — prompt
+Audio pilot groundwork: the app plays a recorded clip when one exists and falls back to the device voice; tools to list every spoken sentence and to make the clips with Azure. Verify: clip test on the site build with the real headers, harness.
+
+### 2.33.0 — results
+speak() → playClip() with clipKey (cyrb53 of the cleaned text), loadClips() reads audio/<lang>/index.json on the site build only. tools/audio/export.js (en-ko: 1,485 sentences, 13,378 characters; en-es: 688, 15,137), gen_azure.js (key from the environment, resumable, --limit, --dry), test_clips.js PASS (listed clip plays with no device voice; broken and unlisted fall back). The Azure request itself is untested here: no network and no key.

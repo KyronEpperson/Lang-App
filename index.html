@@ -578,7 +578,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.32.0 · 2026-11-19';
+const APP_VERSION='2.33.0 · 2026-11-19';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1694,14 +1694,21 @@ let warmed=false;
 function warmAudio(){ // iOS/Safari: voices load lazily and the engine needs a gesture-triggered utterance before it will play
   if(warmed||!('speechSynthesis' in window)) return; warmed=true; pickVoice();
   try{ const u=new SpeechSynthesisUtterance(' '); u.volume=0; u.lang=ttsLang(); speechSynthesis.speak(u); speechSynthesis.cancel(); }catch(e){} }
+/* Recorded clips. audio/<target>/index.json lists the clips that exist for the language being learned; a clip plays instead of the device voice, which stays as the fallback. Clip names are a hash of the spoken text. */
+let CLIPS=null, CLIPS_FOR='', clipEl=null;
+function sayText(text){ return (COURSE.target==='ko'&&SAY[text]) || String(text).replace(/\([^)]*\)/g,'').replace(/_+/g,COURSE.target==='ko'?' 아무개 ':' something ').replace(/\s*\/\s*/g,', ').replace(/[?!]/g,'').replace(/\s+/g,' ').trim(); }
+function clipKey(t){ /* cyrb53, 14 hex digits; the same function is in tools/audio/lib.js */ let h1=0xdeadbeef, h2=0x41c6ce57; for(let i=0;i<t.length;i++){ const ch=t.charCodeAt(i); h1=Math.imul(h1^ch,2654435761); h2=Math.imul(h2^ch,1597334677); } h1=Math.imul(h1^(h1>>>16),2246822507)^Math.imul(h2^(h2>>>13),3266489909); h2=Math.imul(h2^(h2>>>16),2246822507)^Math.imul(h1^(h1>>>13),3266489909); return (4294967296*(2097151&h2)+(h1>>>0)).toString(16).padStart(14,'0'); }
+function loadClips(){ const t=COURSE&&COURSE.target; if(!t||CLIPS_FOR===t||!/^https?:$/.test(location.protocol)||!window.LANGAPP_MANIFEST) return; CLIPS_FOR=t; CLIPS=null; try{ fetch('audio/'+t+'/index.json').then(r=>r.ok?r.json():null).then(j=>{ if(j&&Array.isArray(j.clips)&&CLIPS_FOR===t) CLIPS=new Set(j.clips); }).catch(()=>{}); }catch(e){} }
+function playClip(t, btn, fallback){ const k=clipKey(t.normalize('NFC')); if(!CLIPS||!CLIPS.has(k)) return false; try{ if(clipEl){ clipEl.pause(); clipEl=null; } if('speechSynthesis' in window) speechSynthesis.cancel(); const a=new Audio('audio/'+CLIPS_FOR+'/'+k+'.mp3'); clipEl=a; a.playbackRate=Math.max(0.5,Math.min(1,(S.rate||0.85)/0.85)); try{ a.preservesPitch=true; }catch(e){} const off=()=>btn&&btn.classList.remove('playing'); let failed=false; const fail=()=>{ if(failed) return; failed=true; off(); CLIPS.delete(k); fallback(); }; a.onended=off; a.onerror=fail; if(btn) btn.classList.add('playing'); const pr=a.play(); if(pr&&pr.catch) pr.catch(fail); return true; }catch(e){ return false; } }
 function speak(text, btn, retry){
-  if(!('speechSynthesis' in window)) return; if(!koVoice) pickVoice(); speechSynthesis.cancel();
-  const t = (COURSE.target==='ko'&&SAY[text]) || text.replace(/\([^)]*\)/g,'').replace(/_+/g,COURSE.target==='ko'?' 아무개 ':' something ').replace(/\s*\/\s*/g,', ').replace(/[?!]/g,'').replace(/\s+/g,' ').trim();
+  const t = sayText(text); loadClips();
+  if(!retry&&playClip(t,btn,()=>speak(text,btn,true))) return;
+  if(!('speechSynthesis' in window)) return; if(!koVoice) pickVoice(); speechSynthesis.cancel(); if(clipEl){ try{ clipEl.pause(); }catch(e){} clipEl=null; }
   const u = new SpeechSynthesisUtterance(t); u.lang=ttsLang(); if(koVoice) u.voice=koVoice; u.rate=S.rate||0.85;
   const on=()=>btn&&btn.classList.add('playing'), off=()=>btn&&btn.classList.remove('playing');
   let started=false; u.onstart=()=>{ started=true; on(); }; u.onend=off; u.onerror=off; on(); setTimeout(off,4000);
   speechSynthesis.speak(u);
-  if(!retry) setTimeout(()=>{ if(!started&&!speechSynthesis.speaking){ pickVoice(); speak(text,btn,true); } },700); // retry once if nothing played (voice list arrived late)
+  if(!retry) setTimeout(()=>{ if(!started&&!speechSynthesis.speaking){ pickVoice(); speak(text,btn,true); } },700); /* retry once if nothing played (voice list arrived late) */
 }
 document.addEventListener('pointerdown', warmAudio, {once:true, capture:true}); document.addEventListener('touchstart', warmAudio, {once:true, capture:true, passive:true});
 document.addEventListener('click', e => { userTouched=true; const b=e.target.closest('[data-say]'); if(b){ e.stopPropagation(); speak(b.dataset.say,b); } }, true);
