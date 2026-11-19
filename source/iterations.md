@@ -1029,3 +1029,15 @@ Ship Arabic for English speakers (en-ar) after merge, on-screen right-to-left ch
 
 ### 2.35.0 — results
 en-ar: 28 lessons, 17 decks / 291 cards, 392 practice items; Modern Standard Arabic, fully vowelled, generated romanisation. Cold review: 25 edits (all 772 distinct words read; New York and breakfast respelled after a dictionary check; "I'm good" no longer marked wrong; digits-by-country claim corrected; a false reason removed). Right-to-left checked on screen for inline text, tables, options, tiles and fill-in. Not checked by a native speaker (tools/target/ar/REVIEW.md); the course's ةْ spelling convention is the first thing to check.
+
+## 2.36.0 — prompt
+Ship Russian for English speakers (en-ru) after merge and cold review. Verify: validate, e2e on all 28 lessons, harness, site test.
+
+### 2.36.0 — results
+en-ru: 28 lessons, 18 decks / 316 cards, 392 practice items; plain Cyrillic with a generated respelling that marks stress. Cold review: 48 edits plus 14 lexicon entries (3 more wrong stresses fixed; 25 order items given a cue; three "wrong" options that were acceptable Russian replaced; several false rules corrected). The reviewer read all 393 multi-syllable forms but could check only 5 against a dictionary. Late-night greeting changed to Добрый вечер. Not checked by a native speaker (tools/target/ru/REVIEW.md).
+
+## 2.37.0 — prompt
+Ship Thai for English speakers (en-th) after merge and cold review. Verify: validate, e2e on all 26 lessons, harness, site test.
+
+### 2.37.0 — results
+en-th: 26 lessons, 18 decks / 318 cards, 364 practice items; Thai script with a generated romanisation showing tone and length. Cold review: 60 edits (11 word-list fixes: -เตอร์ falling, น้ำ short in compounds, loanword tones; wai notes, ฟิต, letter names, a mismatched vowel-length pair). Dictionary sites mostly unreachable, so most tone and length checks rest on the reviewer's knowledge. Not checked by a native speaker (tools/target/th/REVIEW.md).
