@@ -981,3 +981,9 @@ Ship German for English speakers (en-de) after merge, pronunciation fixes and co
 
 ### 2.28.0 — results
 en-de: 25 lessons, 18 decks / 323 cards, 350 practice items. Cold review: 14 edits (ß rule, kein vs nicht, imperative politeness, one ambiguous order item); no wrong German found. validate PASS, e2e OK on 25 lessons. Not checked by a native speaker (tools/target/de/REVIEW.md).
+
+## 2.29.0 — prompt
+Ship Indonesian for English speakers (en-id) after merge and cold review, plus engine work for the next course: Vietnamese tone keys and matching, a hyphen typed as a space counts as almost. Verify: validate, e2e on all 27 lessons, harness, site test.
+
+### 2.29.0 — results
+en-id: 27 lessons, 18 decks / 321 cards, 378 practice items. Cold review: 35 edits ("no word for a" claim, unsafe distractor panas sangat, two dialogue replies, repeated practice sentences, five order items with a second valid order). Engine: viSetTone / viCanon / accMissingOnly (unit tested), hyphen-as-space almost, NFC in deck typing. tools/target/repron.js now uses each course's pronPattern. validate PASS, e2e OK. Not checked by a native speaker (tools/target/id/REVIEW.md).

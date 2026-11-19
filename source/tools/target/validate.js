@@ -8,7 +8,7 @@ const bad = [], warn = []; const ok = (c, m) => { if (!c) bad.push(m); };
 if (!C) { console.log('FAIL: no en-' + T + ' course in ' + FILE); process.exit(1); }
 const TS = new RegExp(P.targetScript, 'u'); const PRON = P.pronPattern ? new RegExp(P.pronPattern, 'u') : null; const KW = new RegExp(P.standingRule.keywords, P.standingRule.flags || 'i');
 const pn = s => String(s).normalize('NFC').toLowerCase().replace(/[’‘`´ʼ]/g, "'").replace(/[.,!?~…。、！？，．～¿¡]/g, '').replace(/["“”«»「」『』]/g, '').replace(/\s+/g, ' ').trim();
-const fold = s => String(s).normalize('NFC').replace(/ñ/g, '\u0001').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\u0001/g, 'ñ').normalize('NFC'); /* ñ is its own letter */
+const fold = s => String(s).normalize('NFC').replace(/ñ/g, '\u0001').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\u0001/g, 'ñ').replace(/[đĐ]/g, 'd').normalize('NFC'); /* ñ is its own letter */
 const invisible = /[​-‏‪-‮⁦-⁩﻿]/;
 /* decks */
 const deckNames = Object.keys(C.DECKS); const want = P.decks.map(d => d.name);

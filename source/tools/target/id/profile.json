@@ -1,0 +1,301 @@
+{
+  "target": "id",
+  "nameEn": "Indonesian",
+  "self": "bahasa Indonesia",
+  "ttsLang": "id-ID",
+  "brand": "Bahasa Indonesia",
+  "accents": false,
+  "keys": "",
+  "greet": [
+    [
+      "Selamat malam",
+      "Good night (you're up late)"
+    ],
+    [
+      "Selamat pagi",
+      "Good morning"
+    ],
+    [
+      "Selamat siang",
+      "Good afternoon"
+    ],
+    [
+      "Selamat malam",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?!.*[cC](?![hH]))(?!.*(?<![aA])[iI])(?!.*[aA](?![hHiIyY]))(?!.*(?<![eE])[eE](?![hHeE]))(?!.*(?<![oO])[oO](?![hHoOyYwW]))(?!.*[uU](?![hH]))(?!.*[qQ](?=[a-zA-Z]))(?:[abcdefghijklmnopqrstuwyz]+|(?:[abcdefghijklmnopqrstuwyz]+-)+[ABCDEFGHIJKLMNOPQRSTUWYZ]+(?:-[abcdefghijklmnopqrstuwyz]+)*|[ABCDEFGHIJKLMNOPQRSTUWYZ]+(?:-[abcdefghijklmnopqrstuwyz]+)+)(?: (?:[abcdefghijklmnopqrstuwyz]+|(?:[abcdefghijklmnopqrstuwyz]+-)+[ABCDEFGHIJKLMNOPQRSTUWYZ]+(?:-[abcdefghijklmnopqrstuwyz]+)*|[ABCDEFGHIJKLMNOPQRSTUWYZ]+(?:-[abcdefghijklmnopqrstuwyz]+)+))*$",
+  "targetScript": "[A-Za-zÉé]",
+  "standingRule": {
+    "keywords": "\\bafter (?:the|its) (?:noun|thing|person|place|word)\\b|\\bbefore the noun\\b|\\bnoun (?:comes )?first\\b|\\bnoun phrase\\b|\\bthe owner\\b|\\bowner (?:comes|goes)\\b|\\bno (?:verb|word) for ['‘\"]?(?:is|am|are|to be)\\b|\\bno ['‘\"]?to be\\b|\\bwithout adalah\\b|\\bno adalah\\b|\\badalah only\\b|\\btime word|\\bverb (?:never|doesn't|does not) change",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "sounds",
+      "title": "Sounds and spelling",
+      "roadmap": "id-sounds",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings by time of day",
+      "roadmap": "id-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "pronouns",
+      "title": "Pronouns and titles: saya, kamu, Anda, Bapak, Ibu",
+      "roadmap": "id-pronouns",
+      "deck": "People and family"
+    },
+    {
+      "id": "intro",
+      "title": "Introducing yourself",
+      "roadmap": "id-intro",
+      "deck": "About me"
+    },
+    {
+      "id": "no-be",
+      "title": "A is B, with no 'to be'",
+      "roadmap": "id-no-be",
+      "deck": "Feelings and free time"
+    },
+    {
+      "id": "ini-itu",
+      "title": "ini, itu: this and that",
+      "roadmap": "id-ini-itu",
+      "deck": "Shopping and bargaining"
+    },
+    {
+      "id": "noun-adj",
+      "title": "Noun + adjective: rumah besar",
+      "roadmap": "id-noun-adj",
+      "deck": "Describing people and things"
+    },
+    {
+      "id": "possession",
+      "title": "Possession: buku saya, bukuku, bukunya",
+      "roadmap": "id-possession",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "questions",
+      "title": "apa, siapa, di mana, kapan, berapa",
+      "roadmap": "id-questions",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "negation",
+      "title": "tidak and bukan",
+      "roadmap": "id-negation",
+      "deck": "Traps for English speakers"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers and prices",
+      "roadmap": "id-numbers",
+      "deck": "Numbers and money"
+    },
+    {
+      "id": "time",
+      "title": "Telling the time: jam, pukul, setengah",
+      "roadmap": "",
+      "deck": "Time, days and dates"
+    },
+    {
+      "id": "ada",
+      "title": "ada: there is, have",
+      "roadmap": "id-ada",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "prepositions",
+      "title": "di, ke, dari",
+      "roadmap": "id-prepositions",
+      "deck": "Transport and travel"
+    },
+    {
+      "id": "family",
+      "title": "Family and personal details",
+      "roadmap": "id-family",
+      "deck": "People and family"
+    },
+    {
+      "id": "time-words",
+      "title": "sudah, sedang, akan, belum",
+      "roadmap": "id-time-words",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "ber",
+      "title": "The ber- prefix",
+      "roadmap": "id-ber",
+      "deck": "Feelings and free time"
+    },
+    {
+      "id": "me",
+      "title": "The me- prefix",
+      "roadmap": "id-me",
+      "deck": "Work and study"
+    },
+    {
+      "id": "modals",
+      "title": "mau, bisa, harus, boleh",
+      "roadmap": "id-modals",
+      "deck": "Health and help"
+    },
+    {
+      "id": "requests",
+      "title": "Asking and telling: tolong, minta, silakan, jangan",
+      "roadmap": "",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "yang",
+      "title": "yang: which, who",
+      "roadmap": "id-yang",
+      "deck": "Describing people and things"
+    },
+    {
+      "id": "passive",
+      "title": "The di- passive",
+      "roadmap": "id-passive",
+      "deck": "Transport and travel"
+    },
+    {
+      "id": "compare",
+      "title": "lebih, paling: comparing",
+      "roadmap": "id-compare",
+      "deck": "Shopping and bargaining"
+    },
+    {
+      "id": "directions",
+      "title": "Directions: junctions and places",
+      "roadmap": "id-directions",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "daily",
+      "title": "Daily activities and shopping",
+      "roadmap": "id-daily",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "plural",
+      "title": "Plurals by repeating: buku-buku",
+      "roadmap": "id-plural",
+      "deck": "People and family"
+    },
+    {
+      "id": "casual",
+      "title": "Everyday spoken Indonesian",
+      "roadmap": "",
+      "deck": "Everyday spoken Indonesian"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "Words that show each spelling rule: c, the two e sounds, final k and h, ng, ny, sy and the rolled r"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Greetings by time of day, thanks, sorry, excuse me, and goodbyes"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Name, where you are from, age, languages and where you live"
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "Family words and the titles Indonesians use for \"you\": Bapak, Ibu, Mas, Mbak"
+    },
+    {
+      "name": "Numbers and money",
+      "group": "Everyday words",
+      "desc": "Numbers to a million and prices in rupiah"
+    },
+    {
+      "name": "Time, days and dates",
+      "group": "Everyday words",
+      "desc": "Telling the time, days, months and dates, yesterday and tomorrow"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Ordering at a warung or restaurant, and everyday dishes and drinks"
+    },
+    {
+      "name": "Shopping and bargaining",
+      "group": "Everyday words",
+      "desc": "Asking prices, choosing this one or that one, and bargaining politely"
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms and things at home, and a daily routine with time words"
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places in town, asking where things are, and following directions"
+    },
+    {
+      "name": "Transport and travel",
+      "group": "Out and about",
+      "desc": "Ojek, taxis, trains and planes, tickets and hotel basics"
+    },
+    {
+      "name": "Health and help",
+      "group": "Out and about",
+      "desc": "Saying what hurts, the pharmacy, the doctor and asking for help"
+    },
+    {
+      "name": "Work and study",
+      "group": "Out and about",
+      "desc": "Jobs, the office, classes and everyday me- verbs"
+    },
+    {
+      "name": "Describing people and things",
+      "group": "Conversation",
+      "desc": "Size, color, looks and character, always after the noun"
+    },
+    {
+      "name": "Feelings and free time",
+      "group": "Conversation",
+      "desc": "How you feel, with no word for \"to be\", and hobbies with ber- verbs"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "Question words and the small words that join sentences"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends, calques, and the four words for \"not\""
+    },
+    {
+      "name": "Everyday spoken Indonesian",
+      "group": "Watch out",
+      "desc": "Casual forms you will hear every day, with the standard form beside each"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

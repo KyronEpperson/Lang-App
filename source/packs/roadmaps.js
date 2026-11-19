@@ -192,16 +192,16 @@ LANGAPP_PACKS.roadmaps = {
     src: ["Study of the Sahabatku Indonesia A1 syllabus (UPI journal)", "Paper citing Permendikbud No. 27/2017 (seven BIPA levels)"], note: "The sources confirm the level system, self-introduction and pronouns first, and ber- at level 1; the remaining order is common course practice.",
     stages: [
       { en: "Sounds and first words", ko: "소리와 첫 표현", items: [
-        ["id-sounds", "Alphabet and sounds", "알파벳과 발음"], ["id-greetings", "Greetings by time of day", "시간대별 인사"], ["id-pronouns", "Pronouns: saya, Anda, kamu, kami / kita", "대명사: saya, Anda, kamu, kami / kita"],
-        ["id-intro", "Introducing yourself", "자기소개"], ["id-no-be", "A is B, with no 'to be'", "be동사 없이 A는 B"] ] },
+        ["id-sounds", "Alphabet and sounds", "알파벳과 발음", "sounds"], ["id-greetings", "Greetings by time of day", "시간대별 인사", "greetings"], ["id-pronouns", "Pronouns: saya, Anda, kamu, kami / kita", "대명사: saya, Anda, kamu, kami / kita", "pronouns"],
+        ["id-intro", "Introducing yourself", "자기소개", "intro"], ["id-no-be", "A is B, with no 'to be'", "be동사 없이 A는 B", "no-be"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["id-ini-itu", "ini, itu: this and that", "ini, itu: 이것, 저것"], ["id-questions", "apa, siapa, di mana, kapan, berapa", "의문사 apa, siapa, di mana, kapan, berapa"], ["id-negation", "tidak and bukan", "tidak과 bukan"],
-        ["id-numbers", "Numbers, prices and time", "숫자, 가격, 시간"], ["id-noun-adj", "Noun + adjective order", "명사 + 형용사 어순"], ["id-possession", "Possession: -ku, -mu, -nya", "소유: -ku, -mu, -nya"],
-        ["id-ada", "ada: there is, have", "ada: 있어요"], ["id-prepositions", "di, ke, dari", "전치사 di, ke, dari"] ] },
+        ["id-ini-itu", "ini, itu: this and that", "ini, itu: 이것, 저것", "ini-itu"], ["id-questions", "apa, siapa, di mana, kapan, berapa", "의문사 apa, siapa, di mana, kapan, berapa", "questions"], ["id-negation", "tidak and bukan", "tidak과 bukan", "negation"],
+        ["id-numbers", "Numbers, prices and time", "숫자, 가격, 시간", "numbers"], ["id-noun-adj", "Noun + adjective order", "명사 + 형용사 어순", "noun-adj"], ["id-possession", "Possession: -ku, -mu, -nya", "소유: -ku, -mu, -nya", "possession"],
+        ["id-ada", "ada: there is, have", "ada: 있어요", "ada"], ["id-prepositions", "di, ke, dari", "전치사 di, ke, dari", "prepositions"] ] },
       { en: "Doing things", ko: "행동 말하기", items: [
-        ["id-family", "Family and personal details", "가족과 신상 정보"], ["id-time-words", "sudah, sedang, akan, belum", "시제어 sudah, sedang, akan, belum"], ["id-ber", "The ber- prefix", "접두사 ber-"], ["id-me", "The me- prefix", "접두사 me-"],
-        ["id-modals", "mau, bisa, harus, boleh", "mau, bisa, harus, boleh"], ["id-yang", "yang: which, who", "yang: 관계사"], ["id-passive", "The di- passive", "수동 di-"], ["id-compare", "lebih, paling: comparing", "lebih, paling: 비교"],
-        ["id-directions", "Directions: junctions and places", "길 찾기: 교차로와 장소"], ["id-daily", "Daily activities and shopping", "일상과 쇼핑"], ["id-plural", "Plurals by repeating: buku-buku", "반복 복수: buku-buku"] ] } ] },
+        ["id-family", "Family and personal details", "가족과 신상 정보", "family"], ["id-time-words", "sudah, sedang, akan, belum", "시제어 sudah, sedang, akan, belum", "time-words"], ["id-ber", "The ber- prefix", "접두사 ber-", "ber"], ["id-me", "The me- prefix", "접두사 me-", "me"],
+        ["id-modals", "mau, bisa, harus, boleh", "mau, bisa, harus, boleh", "modals"], ["id-yang", "yang: which, who", "yang: 관계사", "yang"], ["id-passive", "The di- passive", "수동 di-", "passive"], ["id-compare", "lebih, paling: comparing", "lebih, paling: 비교", "compare"],
+        ["id-directions", "Directions: junctions and places", "길 찾기: 교차로와 장소", "directions"], ["id-daily", "Daily activities and shopping", "일상과 쇼핑", "daily"], ["id-plural", "Plurals by repeating: buku-buku", "반복 복수: buku-buku", "plural"] ] } ] },
 
   hi: { variant: {en: "Modern Standard Hindi (Devanagari)", ko: "현대 표준 힌디어 (데바나가리)"}, basis: {en: "University beginner Hindi, steps 1-2", ko: "대학 초급 힌디어 1-2단계"},
     src: ["Durham University: Hindi language courses content summary"], note: "The summary lists grammar and topics per step without script lessons; the script stage is standard practice.",
