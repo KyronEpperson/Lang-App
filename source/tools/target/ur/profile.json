@@ -309,5 +309,6 @@
  "pronAnswersKeepSpaces": true,
  "pronAnswersScript": "[\\u0600-\\u06ff]",
  "romaAlmost": true,
- "voiceMatch": "^ur(?:[-_]|$)"
+ "voiceMatch": "^ur(?:[-_]|$)",
+ "pronAnswersWarn": true
 }

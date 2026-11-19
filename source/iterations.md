@@ -1083,3 +1083,9 @@ Language picker ("What do you want to learn?") should be in alphabetical order.
 
 ### 2.40.1 — results
 Live courses and the coming-soon list are both sorted by the name shown, in the learner's language (localeCompare). Browser check for English: Arabic … Vietnamese (17), Afrikaans … Urdu (19). Harness 83 guards.
+
+## 2.40.2 — prompt
+Specify the type of Spanish (and Chinese) in the course names. Also carries the Urdu engine groundwork (no Urdu course yet).
+
+### 2.40.2 — results
+en-es is "Latin American Spanish", en-zh is "Mandarin Chinese" (packs regenerated, validate PASS). Picker order checked. Engine: Urdu matcher (urSame / urSlip), Roman folds in romaLoose (ee, oo, w, iye, ch, final h, mein), Nastaliq-first font stack for lang=ur; Hindi, Arabic and Urdu matching tests pass. Harness 83 guards.
