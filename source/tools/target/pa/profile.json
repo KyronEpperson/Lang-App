@@ -1,0 +1,308 @@
+{
+ "target": "pa",
+ "nameEn": "Punjabi",
+ "self": "ਪੰਜਾਬੀ",
+ "ttsLang": "pa-IN",
+ "brand": "ਪੰਜਾਬੀ",
+ "accents": true,
+ "keys": "ੰ ਂ ੱ ਼ ੍",
+ "greet": [
+  [
+   "ਸ਼ੁਭ ਰਾਤ",
+   "Good night"
+  ],
+  [
+   "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+   "Hello"
+  ],
+  [
+   "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+   "Hello"
+  ],
+  [
+   "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+   "Hello"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*(?:aa|ii|uu|ee|c(?!c?h)|[^āīū]\\u0303|[^āīūãĩũẽõ\\u0303][\\u0300\\u0301]|^[\\u0300\\u0301\\u0303]|[àáèéìíòóùú\\u0300\\u0301][^ .,?!:;-]*[àáèéìíòóùú\\u0300\\u0301]))[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵḷãĩũẽõàáèéìíòóùú\\u0300\\u0301\\u0303]+(?:-[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵḷãĩũẽõàáèéìíòóùú\\u0300\\u0301\\u0303]+)*[.,?!:;]?(?: [abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵḷãĩũẽõàáèéìíòóùú\\u0300\\u0301\\u0303]+(?:-[abcdefghijklmnopqrstuvyzāīūṭḍṇṛṅñġḵḷãĩũẽõàáèéìíòóùú\\u0300\\u0301\\u0303]+)*[.,?!:;]?)*$",
+ "targetScript": "[\\u0A01-\\u0A65\\u0A70-\\u0A75]",
+ "standingRule": {
+  "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bplural\\b|\\bpostpositions?\\b|\\boblique\\b|\\bafter the noun\\b|\\bretroflex\\b|\\bdental\\b|\\b(?:un)?aspirated\\b|\\b(?:long|short) vowels?\\b|\\bvowel signs?\\b|\\b(?:low|high) tone\\b|\\btippi\\b|\\bbindi\\b|\\baddak\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "letters-1",
+   "title": "Letters 1: the k and ch rows",
+   "roadmap": "pa-letters-1",
+   "deck": "Letters 1: k and ch rows"
+  },
+  {
+   "id": "letters-2",
+   "title": "Letters 2: retroflex and dental, the p row and the rest",
+   "roadmap": "pa-letters-2",
+   "deck": "Letters 2: ṭ, t and p rows, and the rest"
+  },
+  {
+   "id": "vowels",
+   "title": "Vowel signs",
+   "roadmap": "pa-vowels",
+   "deck": "Vowel signs"
+  },
+  {
+   "id": "nasal",
+   "title": "Tippi, bindi, addak and dotted letters",
+   "roadmap": "pa-nasal",
+   "deck": "Tippi, bindi and addak"
+  },
+  {
+   "id": "tones",
+   "title": "Tones: low, level and high",
+   "roadmap": "pa-tones",
+   "deck": "Tones"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings: ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਜੀ and ਤੁਸੀਂ",
+   "roadmap": "pa-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "hona",
+   "title": "Pronouns and ਹੋਣਾ: am, is, are",
+   "roadmap": "pa-hona",
+   "deck": "About me"
+  },
+  {
+   "id": "intro",
+   "title": "Introducing yourself: ਮੇਰਾ ਨਾਂ … ਹੈ",
+   "roadmap": "pa-intro",
+   "deck": "About me"
+  },
+  {
+   "id": "questions",
+   "title": "ਨਹੀਂ and question words",
+   "roadmap": "pa-questions",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "gender",
+   "title": "Gender and plurals",
+   "roadmap": "pa-gender",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "adjectives",
+   "title": "Adjectives that agree: ਚੰਗਾ, ਚੰਗੇ, ਚੰਗੀ",
+   "roadmap": "pa-adjectives",
+   "deck": "Describing things"
+  },
+  {
+   "id": "possessive",
+   "title": "ਦਾ / ਦੇ / ਦੀ: my, your, and family",
+   "roadmap": "pa-possessive",
+   "deck": "Family and people"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers 1 to 100, and prices",
+   "roadmap": "pa-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "postpositions",
+   "title": "Postpositions and the oblique: ਘਰ ਵਿੱਚ, ਮੁੰਡੇ ਨੂੰ",
+   "roadmap": "pa-postpositions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "habitual",
+   "title": "Present habitual: ਕਰਦਾ ਹਾਂ",
+   "roadmap": "pa-habitual",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "imperative",
+   "title": "Requests and commands: ਬੈਠੋ, ਦੱਸੋ ਜੀ",
+   "roadmap": "pa-imperative",
+   "deck": "Health and help"
+  },
+  {
+   "id": "like-need",
+   "title": "ਪਸੰਦ, ਚਾਹੀਦਾ: like and need",
+   "roadmap": "pa-like-need",
+   "deck": "Shopping and the market"
+  },
+  {
+   "id": "food",
+   "title": "Ordering food and the market",
+   "roadmap": "pa-food",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "continuous",
+   "title": "Continuous: ਕਰ ਰਿਹਾ ਹਾਂ",
+   "roadmap": "pa-continuous",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "time",
+   "title": "Clock time and days",
+   "roadmap": "pa-time",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "have",
+   "title": "Having: ਮੇਰੇ ਕੋਲ … ਹੈ",
+   "roadmap": "pa-have",
+   "deck": "Shopping and the market"
+  },
+  {
+   "id": "directions",
+   "title": "Directions and transport",
+   "roadmap": "pa-directions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "si",
+   "title": "ਸੀ, ਸਨ: was, were, and used to",
+   "roadmap": "pa-si",
+   "deck": "About me"
+  },
+  {
+   "id": "past",
+   "title": "Past: completed actions and ਨੇ",
+   "roadmap": "pa-past",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "future",
+   "title": "Future: ਕਰਾਂਗਾ, ਕਰਾਂਗੀ",
+   "roadmap": "pa-future",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "compare",
+   "title": "Comparing: ਨਾਲੋਂ, ਸਭ ਤੋਂ",
+   "roadmap": "pa-compare",
+   "deck": "Describing things"
+  },
+  {
+   "id": "must-can",
+   "title": "Must and can: ਪੈਂਦਾ, ਸਕਦਾ",
+   "roadmap": "pa-must-can",
+   "deck": "Health and help"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Letters 1: k and ch rows",
+   "group": "Script and sounds",
+   "desc": "ੳ ਅ ੲ, ਸ ਹ, ਕ ਖ ਗ ਘ, ਚ ਛ ਜ ਝ, one letter per card, with aspiration and the tonal letters ਘ ਝ"
+  },
+  {
+   "name": "Letters 2: ṭ, t and p rows, and the rest",
+   "group": "Script and sounds",
+   "desc": "ਟ ਠ ਡ ਢ ਣ against ਤ ਥ ਦ ਧ ਨ, ਪ ਫ ਬ ਭ ਮ, ਯ ਰ ਲ ਵ ੜ"
+  },
+  {
+   "name": "Vowel signs",
+   "group": "Script and sounds",
+   "desc": "The vowel letters and the vowel signs on ਕ: ਕਾ ਕਿ ਕੀ ਕੁ ਕੂ ਕੇ ਕੈ ਕੋ ਕੌ"
+  },
+  {
+   "name": "Tippi, bindi and addak",
+   "group": "Script and sounds",
+   "desc": "Words with tippi, bindi and addak, the subscript letters, and the dotted letters ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼"
+  },
+  {
+   "name": "Tones",
+   "group": "Script and sounds",
+   "desc": "Words that show low and high tone, with their level-tone neighbours: ਘੋੜਾ, ਕੋੜਾ, ਘਰ, ਚਾਹ"
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਨਮਸਤੇ, ਜੀ, thank you, sorry, goodbye, and ਤੁਸੀਂ and ਤੂੰ"
+  },
+  {
+   "name": "Family and people",
+   "group": "First steps",
+   "desc": "Family members on both sides, respect with ਜੀ and the plural, friends and words for people"
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, where you are from and live, work, languages, and what you were"
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Numbers to 100, ਸੌ and ਹਜ਼ਾਰ, rupees and dollars, and asking the price"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Chai, lassi, roti, sarson da saag, ordering at a dhaba and at home, spice and paying"
+  },
+  {
+   "name": "Time, days and routine",
+   "group": "Everyday life",
+   "desc": "Clock time with ਸਵਾ, ਸਾਢੇ, ਪੌਣੇ, days of the week, a day in the habitual, and plans"
+  },
+  {
+   "name": "Home and daily things",
+   "group": "Everyday life",
+   "desc": "Rooms and objects with their gender, plurals, and what you are doing right now"
+  },
+  {
+   "name": "Describing things",
+   "group": "Everyday life",
+   "desc": "Adjectives that change and ones that do not, colours, and comparing"
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Postpositions for places, left and right, buses, autos and trains, asking the way"
+  },
+  {
+   "name": "Shopping and the market",
+   "group": "Out and about",
+   "desc": "I like, I need, I have, prices, a little bargaining, clothes and sizes"
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Feeling sick, the doctor and the chemist, polite requests, must and can"
+  },
+  {
+   "name": "Questions and connectors",
+   "group": "Conversation",
+   "desc": "Question words, ਕੀ questions, and ਅਤੇ / ਤੇ, ਪਰ, ਕਿਉਂਕਿ, ਇਸ ਲਈ"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "False friends and calques, ਨੇ in the past, ਤੂੰ, ਕੱਲ੍ਹ, and the tone and doubling slips"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersKeepSpaces": true,
+ "pronAnswersScript": "[\\u0A00-\\u0A7F]",
+ "romaAlmost": true,
+ "voiceMatch": "^pa(?:[-_]|$)",
+ "pronAnswersWarn": true
+}

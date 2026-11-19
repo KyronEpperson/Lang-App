@@ -24,7 +24,7 @@ module.exports = {
 ڈ | ḍāl | the letter ḍāl (retroflex ḍ) | ط on top: tongue curled back.
 ذ | zāl | the letter zāl (z) | Never joins the next letter. It sounds like z and is found in Arabic words.
 ر | re | the letter re (tapped r) | A quick tap of the tongue, like the tt in American "butter": روز roz.
-ڑ | ṛe | the letter ṛe (flap) | Flick the tongue forward. Never at the start of a word.
+ڑ | ṛe | the letter ṛe (flap) | A retroflex flap: curl the tongue back, then flick it forward. Never at the start of a word.
 ز | ze | the letter ze (z) | The everyday z, as in روز roz (every day).
 ژ | zhe | the letter zhe (zh) | Like the s in "measure". Rare: mostly in Persian and English words.
 بڑا | baṛā | big | ڑ never joins the next letter. -ā ending: masculine. برا (with ر) means bad.
@@ -68,7 +68,7 @@ module.exports = {
 ہ | choṭī he | the letter choṭī he (h) | The round h. At the end of a word it often stands for -ā: کمرہ kamrā.
 ھ | do-chashmī he | the letter do-chashmī he | Only after another letter, to add a puff of air: کھ kh, پھ ph.
 ء | hamza | the letter hamza | Marks a break between two vowels. It often sits on ی, as ئ.
-کمرہ | kamrā | room | Final ہ here is the vowel ā. Masculine; plural کمرے.
+ہفتہ | haftā | week | Final ہ here is the vowel ā, as in کمرہ kamrā (room). Masculine.
 لال | lāl | red | It never changes: لال ٹوپی, لال قلم.
 نام | nām | name | Masculine: میرا نام (my name).
 قلم | qalam | pen | ق is q, said far back in the throat. Masculine.
@@ -135,7 +135,7 @@ module.exports = {
 میں یہاں نیا ہوں۔ | maĩ yahā̃ nayā hū̃. | I'm new here. (a man speaking) | A woman says نئی ہوں.
 میں پہلے ہیوسٹن میں رہتا تھا۔ | maĩ pahle hyūsṭan mẽ rahtā thā. | I used to live in Houston. (a man speaking) | -تا تھا = used to. A woman: رہتی تھی.
 میں پہلے استانی تھی۔ | maĩ pahle ustānī thī. | I used to be a teacher. (a woman speaking) | استانی is a woman teacher. A man: میں پہلے استاد تھا۔
-ہم لاہور میں رہتے تھے۔ | ham lāhaur mẽ rahte the. | We used to live in Lahore. | ہم takes the plural: رہتے تھے. A group of women says رہتی تھیں.
+ہم لاہور میں رہتے تھے۔ | ham lāhaur mẽ rahte the. | We used to live in Lahore. | ہم takes the plural: رہتے تھے. Many women also use رہتے تھے with ہم; رہتی تھیں is heard too.
 `,
   "Family and people": `
 میری امی | merī ammī | my mother | امی is feminine, so میری.
@@ -149,7 +149,7 @@ module.exports = {
 چچا | chachā | uncle (father's brother) | Masculine. His wife is چچی.
 ماموں | māmū̃ | uncle (mother's brother) | Masculine. His wife is ممانی.
 خالہ | ḵhālā | aunt (mother's sister) | Father's sister: پھوپھو. Uncles too: چچا, ماموں.
-پھوپھو | phuphpho | aunt (father's sister) | Feminine. Her husband is پھوپھا.
+پھوپھو | phūphū | aunt (father's sister) | Feminine; in Pakistan often said phuppo. Her husband is پھوپھا.
 بیوی | bīvī | wife | Feminine; plural بیویاں. A husband is شوہر.
 یہ میرے شوہر ہیں۔ | yeh mere shauhar haĩ. | This is my husband. | میرے and ہیں are plural for respect, though he is one person.
 یہ میری بہن ہے۔ | yeh merī bahan hai. | This is my sister. | میری agrees with بہن, which is feminine.

@@ -10,13 +10,19 @@
    a: adjective in -ā (اچھے, اچھی), v: verb stem (کرنا کرتا کرو کریں کروں کرے رہا ...; regular perfectives بیٹھا بیٹھی).
    "x/y" in an entry gives the form before a consonant / before a vowel (سمجھ = samajh/samjh -> samajhnā, samjhā).
    Homographs (one spelling, two words) are decided like this:
-     میں   maĩ "I" at the start of a clause (after only connectors / time words: کل آج لیکن کیونکہ جب اگر کیا یہاں ...) or before نے;
+     میں   maĩ "I" at the start of a clause (after only connectors / time words: کل آج لیکن کیونکہ جب اگر کیا یہاں ...), right after a
+           connector anywhere (… کیونکہ میں بیمار ہوں, … لیکن میں), or before نے;
            mẽ "in" after a noun or pronoun. It THROWS when the word before is a connector, adverb or postposition (رات کو میں),
            or when the clause has a first-person verb (ہوں, -وں گا) and no clause-initial میں: the writer marks مَیں (I) or مِیں (in).
      کیا   after نے: kiyā "did" only at the end of the clause or before ہے / تھا / گا ..., else kyā "what" (آپ نے کیا کھایا؟);
            kiyā before گیا / جاتا (passive); کیا کیا = kyā kiyā; clause-final کیا with no نے THROWS; کِیا forces kiyā.
      اس ان اسے انہیں انہوں ادھر: THROW unless marked: اِس is / اُس us, اِن in / اُن un ... (اس لیے is lie is a fixed entry).
      اسی   assī (eighty) unmarked, with a warning; اِسی isī / اُسی usī when marked.
+     -یں / -ئیں verb forms (بیٹھیں, آئیں): polite command or subjunctive -ẽ (آپ بیٹھیں baiṭhẽ, آئیں گے āẽ ge, لے آئیں le āẽ)
+           unless the clause shows the feminine plural completed past -ī̃: نے earlier in the clause (since the last کہ):
+           میں نے کتابیں خریدیں ḵharīdī̃; or an intransitive verb whose clause starts with وہ / یہ / a feminine plural noun
+           (وہ آئیں āī̃, لڑکیاں بیٹھیں baiṭhī̃). A zer before یں (آئِیں, بیٹھِیں) forces the past; nothing forces -ẽ (it is the default).
+     a verb stem before رہا / سکتا / چکا / لیا / دیا ... reads as the stem even when a word has the same spelling (پکا رہی pakā rahī).
      تو    to "then, so"; تُو tū "you (intimate)". سو: sau "hundred", so "sleep" before رہا / جا... . ہوا: huā; ہَوا havā "air".
      بہتر  behtar "better" with a warning; بہتّر (shadda) bahattar "72". پیر: pīr "Monday"; پَیر pair "foot".
    It THROWS «…» on: a word not in the list (the writer reports it; the lead adds it here or to lexicon.txt), Latin letters,
@@ -45,7 +51,7 @@ v: ہو = ho
 السلام علیکم = assalāmu alaikum; وعلیکم السلام = va-alaikum assalām; اللہ حافظ = allāh hāfiz; خدا حافظ = ḵhudā hāfiz
 اللہ = allāh; خدا = ḵhudā; حافظ = hāfiz; ان شاء اللہ = in shā allāh; ماشاء اللہ = māshā allāh; الحمد للہ = alhamdu lillāh
 شکریہ = shukriyā; بہت = bahut; مہربانی = mehrbānī; جی = jī; ہاں = hā̃; نہیں = nahī̃; نہ = na; مت = mat; ٹھیک = ṭhīk
-معاف = māf; بات = bāt; خوش = ḵhush; آمدید = āmadīd; پھر = phir; آداب = ādāb; ذرا = zarā; پلیز = plīz; سوری = sorī
+معاف = māf; f: بات = bāt; خوش = ḵhush; آمدید = āmadīd; پھر = phir; آداب = ādāb; ذرا = zarā; پلیز = plīz; سوری = sorī
 بالکل = bilkul; ضرور = zarūr; واقعی = vāqaī; مبارک = mubārak; عید = īd; رمضان = ramzān; جناب = janāb; صاحب = sāhab
 تشریف = tashrīf; شب = shab; بخیر = baḵhair; اچھا جی = acchhā jī; خیر = ḵhair; سلام = salām
 # question words, postpositions, connectors, adverbs
@@ -73,7 +79,7 @@ f: چھٹیاں = chhuṭṭiyā̃; ہر = har; ہر روز = har roz; روزا�
 چھپن = chhappan; ستاون = sattāvan; اٹھاون = aṭṭhāvan; انسٹھ = unsaṭh; ساٹھ = sāṭh; اکسٹھ = iksaṭh; باسٹھ = bāsaṭh
 تریسٹھ = tirsaṭh; چونسٹھ = chaũsaṭh; پینسٹھ = paĩsaṭh; چھیاسٹھ = chhiyāsaṭh; سڑسٹھ = saṛsaṭh; اڑسٹھ = aṛsaṭh; انہتر = unhattar
 ستر = sattar; اکہتر = ikhattar; بہتر = bahattar; f: پیر = pair; تہتر = tihattar; چوہتر = chauhattar; پچھتر = pachhattar; چھہتر = chhihattar
-ستتر = sathattar; اٹھہتر = aṭhhattar; اناسی = unāsī; اکیاسی = ikyāsī; بیاسی = bayāsī; تراسی = tirāsī; چوراسی = chaurāsī
+ستتر = satattar; اٹھہتر = aṭhhattar; اناسی = unāsī; اکیاسی = ikyāsī; بیاسی = bayāsī; تراسی = tirāsī; چوراسی = chaurāsī
 پچاسی = pachāsī; چھیاسی = chhiyāsī; ستاسی = sattāsī; اٹھاسی = aṭṭhāsī; نواسی = navāsī; نوے = navve; اکیانوے = ikyānve
 بانوے = bānve; ترانوے = tirānve; چورانوے = chaurānve; پچانوے = pachānve; چھیانوے = chhiyānve; ستانوے = sattānve
 اٹھانوے = aṭṭhānve; ننانوے = ninnānve; ہزار = hazār; لاکھ = lākh; کروڑ = karoṛ; صفر = sifr; وزیر = vazīr; اعظم = āzam
@@ -82,7 +88,7 @@ a: پہلا = pahlā; a: دوسرا = dūsrā; a: تیسرا = tīsrā; a: چو�
 # family and people
 امی = ammī; ابو = abbū; ماں = mā̃; M: باپ = bāp; والد = vālid; والدہ = vālidā; والدین = vālidain; بھائی = bhāī; بھائیوں = bhāiyõ
 f: بہن = bahan/bahn; m: بیٹا = beṭā; f: بیٹی = beṭī; شوہر = shauhar; f: بیوی = bīvī; دادا = dādā; دادی = dādī; نانا = nānā
-نانی = nānī; چچا = chachā; چچی = chachī; خالہ = ḵhālā; ماموں = māmū̃; پھوپھو = phuphpho; m: بچہ = bacchā; f: بچی = bacchī
+نانی = nānī; چچا = chachā; چچی = chachī; خالہ = ḵhālā; ماموں = māmū̃; پھوپھو = phūphū; پھپو = phuppo; پھوپھا = phūphā; ممانی = mumānī; m: بچہ = bacchā; f: بچی = bacchī
 M: دوست = dost; m: لڑکا = laṛkā; f: لڑکی = laṛkī; آدمی = ādmī; آدمیوں = ādmiyõ; f: عورت = aurat; باجی = bājī; آپی = āpī
 بھائی جان = bhāī jān; انکل = ankal; آنٹی = ānṭī; M: استاد = ustād; استانی = ustānī; طالب علم = tālib-e-ilm; M: ڈاکٹر = ḍākṭar
 M: مہمان = mehmān; M: پڑوسی = paṛosī; f: فیملی = faimilī; f: شادی = shādī; خاندان = ḵhāndān; M: میاں = miyā̃
@@ -102,7 +108,7 @@ f: کتاب = kitāb; M: قلم = qalam; M: فون = fon; M: موبائل = mob�
 M: بیگ = baig; M: کام = kām; f: نوکری = naukrī; M: نام = nām; f: عمر = umr; f: زبان = zabān; M: سوال = savāl; M: جواب = javāb
 M: خیال = ḵhayāl; m: مسئلہ = masalā; M: شوق = shauq; M: موسم = mausam; f: گرمی = garmī; f: سردی = sardī; f: بارش = bārish
 f: دھوپ = dhūp; M: پیار = pyār; M: سفر = safar; f: چیز = chīz; f: تصویر = tasvīr; f: فلم = film; f: کرکٹ = kirkaṭ
-M: اخبار = aḵhbār; f: چائے = chāy; M: پانی = pānī; m: کھانا = khānā; m: کپڑا = kapṛā; m: جوتا = jūtā; f: قمیض = qamīz
+M: اخبار = aḵhbār; f: چائے = chāe; M: پانی = pānī; m: کھانا = khānā; m: کپڑا = kapṛā; m: جوتا = jūtā; f: قمیض = qamīz
 f: شلوار = shalvār; m: دوپٹہ = dupaṭṭā; M: رنگ = rang; f: گھڑی = ghaṛī; M: ٹی وی = ṭī vī; f: بجلی = bijlī; M: درخت = daraḵht
 m: باغیچہ = bāġīchā; f: کھیل = khel; m: گانا = gānā; m: کیمرہ = kaimrā; f: ٹوپی = ṭopī
 # food and drink
@@ -144,6 +150,9 @@ v: رو = ro; v: گا = gā; v: بھول = bhūl; v: رکھ = rakh; v: چھوڑ 
 v: کھو = kho; v: دوڑ = dauṛ; v: جاگ = jāg; v: نکل = nikal/nikl; v: پکڑ = pakaṛ/pakṛ; v: سنا = sunā; v: مار = mār; v: ہنس = hãs
 v: تھک = thak; v: پسند کر = pasand kar; v: کھل = khul; v: بج = baj; v: بدل = badal/badl; v: گن = gin; v: پڑ = paṛ; v: چڑھ = chaṛh; v: ڈال = ḍāl; v: اٹھا = uṭhā; v: بھر = bhar; v: کاٹ = kāṭ; v: دھو = dho; v: چلا = chalā; v: کما = kamā
 v: جل = jal; v: کہ = kah; کہہ = kah; v: تیر = tair; M: خط = ḵhat; براہ کرم = barāh-e-karam; ریلوے = relve; M: پل = pal; پتا = patā; تب = tab; ٹیپ = ṭep; f: ڈاک = ḍāk; M: سچ = sach; M: جھوٹ = jhūṭ; f: بھوک = bhūk; f: پیاس = pyās; M: ٹائم = ṭāim; علیکم = alaikum; متفق = muttafiq; M: مذہب = mazhab; ٹیلی ویژن = ṭelī vizhan; کانا = kānā; m: ڈبا = ḍabbā; M: ٹماٹر = ṭamāṭar; v: گر = gir; v: مان = mān; v: پلا = pilā; v: بٹھا = biṭhā
+# added by the reviewer (2026-11-19), checked against the Rekhta dictionary's transliterations
+f: خوشی = ḵhushī; M: یار = yār; کرایہ = kirāyā; کرائے = kirāe; M: چوک = chauk; a: اگلا = aglā; پیدل = paidal; عام = ām; M: پھول = phūl
+کیں = kī̃
 # English loans used in everyday Pakistani speech
 f: بس = bas; f: ٹرین = ṭren; m: رکشہ = rikshā; f: ٹیکسی = ṭaiksī; M: ٹکٹ = ṭikaṭ; M: پاسپورٹ = pāsporṭ; اوکے = oke
 M: کارڈ = kārḍ; M: ای میل = ī mel; M: میسج = mesij; f: میٹنگ = mīṭing; M: پروگرام = progrām; f: کلاس = klās
@@ -160,12 +169,15 @@ const skel = w => w.replace(MARKS, '');
 
 /* ---------------- lexicon ---------------- */
 const DICT = new Map(); const CONFLICT = new Set(); const EXPLICIT = new Set();
+const STEM = new Map();  /* verb stem -> roman before a consonant: the stem before رہا / سکتا / لیا ... (پکا رہی pakā, not the adjective pakkā) */
+const FPL = new Map(); const FPL_STEM = new Map();   /* -یں / -ئیں form -> [polite / subjunctive roman, feminine plural completed-past roman] (بیٹھیں baiṭhẽ / baiṭhī̃) */
 function put(k, r, gen) {
   k = normalise(k); r = r.normalize('NFC');
   if (!gen) { DICT.set(k, r); EXPLICIT.add(k); return; }     /* a written entry always wins */
   if (!DICT.has(k)) { DICT.set(k, r); return; }
   if (DICT.get(k) !== r && !EXPLICIT.has(k)) CONFLICT.add(k);  /* two generated forms, one spelling */
 }
+const FPL_NOUNS = [];
 function strip1(w) { return [...w].slice(0, -1).join(''); }
 function addEntry(tag, ur, ro, gen) {
   const [rc, rv0] = ro.split('/'); const rv = rv0 || rc;
@@ -176,8 +188,8 @@ function addEntry(tag, ur, ro, gen) {
     const st = strip1(ur), rs = rv.replace(/ā$/, '');
     put(st + 'ے', rs + 'e', true); put(st + 'وں', rs + 'õ', true);
   } else if (tag === 'f') {
-    if (last === 'ی') { const rs = rc.replace(/ī$/, ''); put(ur + 'اں', rs + 'iyā̃', true); put(ur + 'وں', rs + 'iyõ', true); }
-    else { put(ur + 'یں', rv + 'ẽ', true); put(ur + 'وں', rv + 'õ', true); }
+    if (last === 'ی') { const rs = rc.replace(/ī$/, ''); put(ur + 'اں', rs + 'iyā̃', true); put(ur + 'وں', rs + 'iyõ', true); FPL_NOUNS.push(normalise(ur + 'اں')); }
+    else { put(ur + 'یں', rv + 'ẽ', true); put(ur + 'وں', rv + 'õ', true); FPL_NOUNS.push(normalise(ur + 'یں')); }
   } else if (tag === 'M') {
     if (last === 'ی') put(ur + 'وں', rc.replace(/ī$/, 'iyõ'), true);
     else if (last === 'ا' || last === 'ہ') put(strip1(ur) + 'وں', rc.replace(/ā$/, 'õ'), true);
@@ -187,18 +199,23 @@ function addEntry(tag, ur, ro, gen) {
     put(st + 'ے', rs + 'e', true); put(st + 'ی', rs + 'ī', true);
   } else if (tag === 'v') verb(ur, rc, rv);
 }
+const INTRANS = new Set(['آ', 'بیٹھ', 'رہ', 'سو', 'اٹھ', 'چل', 'پہنچ', 'رک', 'نکل', 'اتر', 'سک', 'مل', 'مڑ', 'ٹھہر', 'جاگ', 'رو', 'ہنس', 'تھک', 'دوڑ', 'گر', 'نہا', 'لگ', 'کھل', 'بج', 'پڑ', 'چڑھ', 'جل']); /* verbs with no object: their feminine plural past needs no نے */
+const NO_FPL = new Set(['کر', 'جا', 'ہو', 'دے', 'لے']); /* irregular completed past (کیں, گئیں, ہوئیں) */
 function verb(st, rc, rv) {
   const parts = st.split(' '); /* compound (پسند کر): only the last word inflects */
   const pre = parts.slice(0, -1).join(' '), preR = pre ? rc.split(' ').slice(0, -1).join(' ') + ' ' : '';
   const s = parts[parts.length - 1]; const c = pre ? rc.split(' ').pop() : rc; const v = pre ? rv.split(' ').pop() : rv;
   const P = (u, r) => put((pre ? pre + ' ' : '') + u, preR + r, true);
   const lastCh = [...s].pop(); const vow = 'آاوی'.includes(lastCh); /* vowel-final stem: آ جا کھا سو ... */
+  STEM.set(normalise(st), preR + c);
   P(s, c); P(s + 'نا', c + 'nā'); P(s + 'نے', c + 'ne'); P(s + 'نی', c + 'nī');
   P(s + 'تا', c + 'tā'); P(s + 'تے', c + 'te'); P(s + 'تی', c + 'tī'); P(s + 'تیں', c + 'tī̃');
   if (vow) {
+    if (!NO_FPL.has(s)) { FPL.set(normalise((pre ? pre + ' ' : '') + s + 'ئیں'), [preR + c + 'ẽ', preR + c + 'ī̃']); FPL_STEM.set(normalise((pre ? pre + ' ' : '') + s + 'ئیں'), s); }
     P(s + 'ؤ', c + 'o'); P(s + 'ئیے', c + 'ie'); P(s + 'ؤں', c + 'ū̃'); P(s + 'ئے', c + 'e'); P(s + 'ئیں', c + 'ẽ');
     P(s + 'یا', c + 'yā'); P(s + 'ئی', c + 'ī');
   } else {
+    if (!NO_FPL.has(s)) { FPL.set(normalise((pre ? pre + ' ' : '') + s + 'یں'), [preR + v + 'ẽ', preR + v + 'ī̃']); FPL_STEM.set(normalise((pre ? pre + ' ' : '') + s + 'یں'), s); }
     P(s + 'و', v + 'o'); P(s + 'یے', v + 'ie'); P(s + 'وں', v + 'ū̃'); P(s + 'ے', v + 'e'); P(s + 'یں', v + 'ẽ');
     P(s + 'ا', v + 'ā'); P(s + 'ی', v + 'ī');
   }
@@ -242,6 +259,11 @@ const SLEEP_NEXT = new Set(['رہا', 'رہی', 'رہے', 'جاؤ', 'جائیے'
 const LEAD = new Set(['کل', 'آج', 'اب', 'ابھی', 'پھر', 'لیکن', 'مگر', 'اور', 'کیونکہ', 'جب', 'اگر', 'تو', 'ہاں', 'جی', 'نہیں', 'پہلے', 'شاید', 'بھی', 'کہ', 'یا', 'صبح', 'شام', 'رات', 'روز', 'کبھی', 'ہمیشہ', 'اکثر', 'کیا', 'بس', 'اچھا', 'ویسے', 'پرسوں', 'جیسے', 'لیے', 'یہاں', 'وہاں']);
 const NOT_NOUN = new Set(['بھی', 'ہی', 'نہیں', 'تو', 'کہ', 'اور', 'لیکن', 'مگر', 'یا', 'کیونکہ', 'جب', 'اگر', 'پھر', 'اب', 'ابھی', 'شاید', 'کو', 'سے', 'پر', 'کا', 'کی', 'کے', 'تک', 'نے']);
 const LEADI = c => c.findIndex(x => x.sk === 'میں') >= 0 && c.slice(0, c.findIndex(x => x.sk === 'میں')).every(x => LEAD.has(x.sk));
+const AFTER_STEM = /^(رہا|رہی|رہے|رہیں|سکتا|سکتی|سکتے|سکتیں|سکا|سکی|سکے|سکیں|سکو|سکوں|چکا|چکی|چکے|چکیں|لیا|لی|لیے|لیں|لو|لوں|لیجیے|لیتا|لیتی|لیتے|دیا|دی|دیے|دو|دوں|دیجیے|دیتا|دیتی|دیتے|ڈالا|ڈالو|ڈالیے)$/;
+const EXPLICIT_STEM_OK = new Set(['کہ', 'دو', 'سو']); /* کہ before رہا throws below; دو and سو are decided elsewhere */
+const FEM_PL = new Set(); /* filled after loading: generated feminine plurals (لڑکیاں, کتابیں) */
+FPL_NOUNS.forEach(k => FEM_PL.add(k)); ['امی', 'خواتین', 'عورتیں', 'دادی', 'نانی', 'خالہ', 'باجی', 'بہنیں', 'بیٹیاں'].forEach(k => FEM_PL.add(k));
+const CONJ = new Set(['کیونکہ', 'لیکن', 'مگر', 'اور', 'کہ', 'جب', 'اگر', 'تو', 'یا', 'پھر', 'بلکہ', 'تاکہ', 'لیے']); /* لیے: اس لیے میں */
 const AUX = new Set(['ہے', 'ہیں', 'تھا', 'تھی', 'تھے', 'تھیں', 'ہوں', 'ہو', 'گا', 'گی', 'گے']);
 const FIRST_PERSON = (c, k) => c[k].sk === 'ہوں' || (/(وں|ؤں)$/.test(c[k].sk) && c[k + 1] && /^(گا|گی)$/.test(c[k + 1].sk));
 
@@ -267,6 +289,7 @@ function decide(t, clause, j) { /* t = token, clause = tokens of its clause, j =
     const lead = clause.slice(0, j).every(c => LEAD.has(c.sk));      /* only connectors / time words before it: still clause-initial */
     if (lead) return 'maĩ';
     if (clause[j + 1] && clause[j + 1].sk === 'نے') return 'maĩ';
+    if (j > 0 && CONJ.has(clause[j - 1].sk)) return 'maĩ';            /* "in" needs a noun before it: کیونکہ میں, لیکن میں, اور میں are always "I" */
     const amb = () => { throw new Error('«میں» in «' + clause.map(c => c.raw).join(' ') + '»: is it "I" or "in"? Write مَیں (I) or مِیں (in)'); };
     if (LEAD.has(clause[j - 1].sk) || NOT_NOUN.has(clause[j - 1].sk)) amb();   /* "in" needs a noun or pronoun before it */
     const initialI = clause.findIndex(c => c.sk === 'میں') < j && LEADI(clause);
@@ -281,6 +304,24 @@ function decide(t, clause, j) { /* t = token, clause = tokens of its clause, j =
     if (clause.slice(0, j).some(c => c.sk === 'نے')) return !nx || AUX.has(nx.sk) ? 'kiyā' : 'kyā'; /* میں نے کام کیا / آپ نے کیا کھایا */
     if (!nx && j > 0) throw new Error('«کیا» at the end of «' + clause.map(c => c.raw).join(' ') + '»: "did" or "what"? Write کِیا for "did"');
     return 'kyā';
+  }
+  const nx1 = clause[j + 1];
+  /* a verb stem before رہا / سکتا / چکا / a compound's second verb reads as the stem, even where an adjective has the same spelling (پکا رہی pakā rahī) */
+  if (STEM.has(sk) && nx1 && AFTER_STEM.test(nx1.sk) && !EXPLICIT_STEM_OK.has(sk)) return STEM.get(sk);
+  /* -یں / -ئیں: polite command or subjunctive (بیٹھیں baiṭhẽ, آئیں گے āẽ ge) or feminine plural completed past (بیٹھیں baiṭhī̃) */
+  if (FPL.has(sk) || sk === 'دیں' || sk === 'لیں') {
+    const [subj, perf] = FPL.get(sk) || (sk === 'دیں' ? ['dẽ', 'dī̃'] : ['lẽ', 'lī̃']);
+    if (nx1 && /^(گا|گی|گے)$/.test(nx1.sk)) return subj;
+    const k0 = clause.slice(0, j).map(c => c.sk).lastIndexOf('کہ'); const before = clause.slice(k0 + 1, j).map(c => c.sk);
+    if (before.includes('نے')) return perf;                                  /* میں نے کتابیں خریدیں */
+    if (before.some(x => /^(آپ|شاید|اگر|ذرا|چلو|تاکہ)$/.test(x))) return subj; /* آپ بیٹھیں; شاید وہ آئیں */
+    if (/ِیں$/.test(w)) return perf;
+    const pv = clause[j - 1]; /* after a verb stem or لے / دے it is a compound request: لے آئیں, بیٹھ جائیں (but آ سکیں stays open) */
+    if (pv && (STEM.has(pv.sk) || /^(لے|دے)$/.test(pv.sk)) && !/^(سک|چک)$/.test(FPL_STEM.get(sk) || '')) return subj;                                        /* a zer before یں forces the past: آئِیں āī̃ */
+    /* an intransitive verb whose clause starts with وہ / یہ or a feminine plural noun as its subject: وہ آئیں, لڑکیاں بیٹھیں */
+    const subj0 = clause.findIndex(c => !LEAD.has(c.sk) && !/^(میری|ہماری|تمہاری|اپنی|تیری|دو|تین|چار|سب)$/.test(c.sk)); const sw = clause[subj0], sn = clause[subj0 + 1];
+    if (FPL.has(sk) && INTRANS.has(FPL_STEM.get(sk)) && subj0 < j && sw && (/^(وہ|یہ)$/.test(sw.sk) || FEM_PL.has(sw.sk)) && !(sn && /^(کو|کے|کا|کی|سے|پر|میں|نے|تک)$/.test(sn.sk))) return perf;
+    return subj;
   }
   if (sk === 'کہ' && clause[j + 1] && /^(رہا|رہی|رہے|دیا|دی|دیں|دو|دیجیے|سکتا|سکتی|سکتے|سکا|چکا|چکی|چکے)$/.test(clause[j + 1].sk)) throw new Error('«کہ» before ' + clause[j + 1].raw + ': the stem of کہنا is written کہہ (kah); کہ alone is ki "that"');
   if (sk === 'بہتر') { if (w.includes('\u0651')) return 'bahattar'; warned.push(w + ': read as behtar (better); write بہتّر (with shadda) for seventy-two'); return 'behtar'; }

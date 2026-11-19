@@ -1101,3 +1101,9 @@ A positive sound when an answer is right and a gentle, still pleasant sound when
 
 ### 2.41.0 — results
 chime(): right = rising E5 → B5 with a soft octave; wrong = soft falling G4 → E♭4 (sine, quiet). Hooked to every scored answer (13 award sites + lesson quick check + practice), debounced 250 ms. Sounds default on, turned on once for existing users (S.sfxV); Settings → Sound effects turns them off. Browser check: answering a Today quiz question starts oscillators 659 / 988 / 1319 Hz. Taiwanese Hokkien (nan): 27 planned lessons merged, shown as coming soon. Harness 83 guards.
+
+## 2.42.0 — prompt
+Ship Urdu for English speakers (en-ur) after the cold review.
+
+### 2.42.0 — results
+28 lessons, 18 decks, 320 cards, 392 practice items; validate PASS; roadmap 27 items linked; e2e OK on thirteen lessons; matching test (script, Arabic-keyboard letters, vowel marks, Roman Urdu folds) passes. Lexicon-based pron tool: 19 of 615 word forms checked against Rekhta. No Urdu voice on iPhone until clips are recorded. Not native-checked (REVIEW.md).

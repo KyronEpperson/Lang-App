@@ -168,6 +168,7 @@ module.exports = [
 <h3>Final ہ is usually -ā</h3>
 <p>This is the big surprise. At the end of a word, <b>ہ</b> <i>choṭī he</i> usually stands for the vowel ā, not for h. <b>کمرہ</b> <i>kamrā</i> ends in ā, just like a word ending in ا. A few words do end in a real h, such as the number <b>بارہ</b> <i>bārah</i>, twelve; the romanisation always tells you which.</p>
 {{ex:کمرہ|kamrā|room}}
+{{ex:ہفتہ|haftā|week}}
 <p>One more mark: <b>ء</b> <i>hamza</i> shows where one vowel meets another, as in <b>آئیے</b> <i>āie</i>, "come in". The romanisation does not write it.</p>
 <h3>A note for readers of Arabic script</h3>
 <p>If you read Arabic, note that Urdu has its own ک and ی. They look a little different from the Arabic letters and are separate letters on the keyboard. Type the Urdu ones when you can.</p>
@@ -334,11 +335,11 @@ module.exports = [
       ["Where does ہے go in a sentence?",["Right after the subject, as in English","At the start","At the end","Anywhere"],2,"The verb goes at the end in Urdu: یہ کتاب ہے."]
     ],
     practice: [
-      ["mc","I'm fine =","میں ٹھیک ہوں","میں ٹھیک ہے","میں ٹھیک ہیں","میں ہوں ٹھیک","میں takes ہوں, and the verb comes last."],
+      ["mc","I'm fine =","میں ٹھیک ہوں","میں ٹھیک ہے","میں ٹھیک ہیں","میں ٹھیک ہو","میں takes ہوں; ہو goes with تم."],
       ["mc","Which form goes with آپ?","ہیں","ہے","ہوں","ہو","آپ is plural in grammar, so it takes ہیں."],
       ["mc","You're busy. (to a friend)","تم مصروف ہو","تم مصروف ہیں","تم مصروف ہے","آپ مصروف ہو","تم takes ہو; آپ takes ہیں."],
       ["mc","What can وہ mean?","he, she, it or that","only he","I","you","وہ is anyone or anything farther away: he, she, it or that."],
-      ["mc","We are here =","ہم یہاں ہیں","ہم یہاں ہے","ہم یہاں ہوں","ہم ہیں یہاں","ہم takes ہیں, at the end of the sentence."],
+      ["mc","We are here =","ہم یہاں ہیں","ہم یہاں ہے","ہم یہاں ہوں","ہم یہاں ہو","ہم takes ہیں, at the end of the sentence."],
       ["or","I'm a doctor.","میں ڈاکٹر ہوں","ہے","The verb agrees with میں: ہوں, not ہے."],
       ["or","You're busy. (polite)","آپ مصروف ہیں","ہے","آپ takes the plural verb ہیں, even for one person."],
       ["or","We're Pakistani.","ہم پاکستانی ہیں","ہوں","ہم is plural, so the verb is ہیں."],
@@ -362,7 +363,7 @@ module.exports = [
 <h3>Where you are from, and where you live</h3>
 <p>English puts "from" and "in" before the place. Urdu puts them after it: <b>امریکہ سے</b> <i>amrīkā se</i>, "America from". These little words are called postpositions, and a whole lesson on them comes later.</p>
 {{ex:میں امریکہ سے ہوں۔|maĩ amrīkā se hū̃.|I'm from America.}}
-<p>To say where you live, use میں after the city. It is spelled just like میں, "I", but after a place it means "in" and is said <b>مِیں</b> <i>mẽ</i>; the small mark is only here to show the reading. The word for "live" changes with the speaker: a man says <b>رہتا ہوں</b> <i>rahtā hū̃</i>, a woman says <b>رہتی ہوں</b> <i>rahtī hū̃</i>.</p>
+<p>To say where you live, use میں after the city. It is spelled just like میں, "I", but after a place it means "in" and is said <b>مِیں</b> <i>mẽ</i>; the small mark is only here to show the reading. The word for "live" changes with the speaker: a man says <b>رہتا ہوں</b> <i>rahtā hū̃</i>, a woman says <b>رہتی ہوں</b> <i>rahtī hū̃</i>. Learn these two as set phrases for now; the lesson on daily habits explains how they are built.</p>
 {{ex:میں ہیوسٹن میں رہتا ہوں۔|maĩ hyūsṭan mẽ rahtā hū̃.|I live in Houston. (a man speaking)}}
 {{ex:میں شکاگو میں رہتی ہوں۔|maĩ shikāgo mẽ rahtī hū̃.|I live in Chicago. (a woman speaking)}}
 <p>And when someone asks آپ کیسے ہیں؟, the everyday answer is <b>میں ٹھیک ہوں</b> <i>maĩ ṭhīk hū̃</i>, "I am fine", with the same ہوں.</p>
@@ -471,7 +472,7 @@ module.exports = [
 {{ex:یہ لڑکیاں بہت اچھی ہیں۔|yeh laṛkiyā̃ bahut acchhī haĩ.|These girls are very nice.}}
 <p>One common adjective is spelled a little differently but follows the same pattern: <b>نیا</b> <i>nayā</i> new, with <b>نئے</b> <i>nae</i> for masculine plural and <b>نئی</b> <i>naī</i> for feminine. So a new car is نئی گاڑی.</p>
 <h3>Adjectives that never change</h3>
-<p>Adjectives that do not end in -ā stay the same with every noun: <b>لال</b> <i>lāl</i> red, <b>خوبصورت</b> <i>ḵhūbsūrat</i> beautiful, <b>آسان</b> <i>āsān</i> easy, <b>مشکل</b> <i>mushkil</i> difficult. You already know some: ٹھیک, خوش, بیمار.</p>
+<p>Adjectives that do not end in -ā stay the same with every noun: <b>لال</b> <i>lāl</i> red, <b>خوبصورت</b> <i>ḵhūbsūrat</i> beautiful, <b>آسان</b> <i>āsān</i> easy, <b>مشکل</b> <i>mushkil</i> difficult. You already know some: ٹھیک, خوش, بیمار. A few that end in ہ, such as <b>تازہ</b> <i>tāzā</i> fresh, do not change either.</p>
 {{ex:لال گاڑی|lāl gāṛī|a red car}}
 {{ex:یہ گھر بہت خوبصورت ہے۔|yeh ghar bahut ḵhūbsūrat hai.|This house is very beautiful.}}
 <h3>Very, some and any</h3>

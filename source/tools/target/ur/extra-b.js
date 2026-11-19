@@ -7,7 +7,7 @@ exports.DIALOG = `
 بھائی، یہ کتنے کا ہے؟ | بھائی، یہ کتنے کا ہے؟ | پانچ سو روپے کا۔ | How much is this, brother? / Five hundred rupees.
 بہت مہنگا ہے۔ | یہ بیگ دو ہزار کا ہے۔ | بہت مہنگا ہے۔ تھوڑا کم کریں۔ | This bag is two thousand. / That's very expensive. Bring it down a little.
 میں صرف دیکھ رہی ہوں۔ | باجی، کیا چاہیے؟ | شکریہ، میں صرف دیکھ رہی ہوں۔ | What would you like, ma'am? / Thanks, I'm just looking.
-کوئی اور رنگ ہے؟ | یہ قمیض اچھی ہے۔ کوئی اور رنگ ہے؟ | جی، نیلی اور کالی بھی ہے۔ | This shirt is nice. Do you have another color? / Yes, there's blue and black too.
+کوئی اور رنگ ہے؟ | یہ قمیض اچھی ہے۔ کوئی اور رنگ ہے؟ | جی، نیلی اور کالی بھی ہیں۔ | This shirt is nice. Do you have another color? / Yes, there are blue and black ones too.
 کتنے بجے ہیں؟ | کتنے بجے ہیں؟ | ساڑھے چار بجے ہیں۔ | What time is it? / It's half past four.
 جمعہ کو | ہم کب ملیں گے؟ | جمعہ کو، شام سات بجے۔ | When shall we meet? / On Friday, at seven in the evening.
 آج کیا دن ہے؟ | آج کیا دن ہے؟ | آج منگل ہے۔ | What day is it today? / Today is Tuesday.
@@ -61,7 +61,7 @@ exports.EXAMPLES = `
 exports.PATTERNS = `
 ___ دیجیے۔ | ___, please. (asking for something) | دو سموسے دیجیے۔ | Two samosas, please.
 مجھے ___ چاہیے۔ | I need ___. | مجھے ایک ٹکٹ چاہیے۔ | I need a ticket.
-یہ ___ کتنے کا ہے؟ | How much is this ___? (a masculine thing) | یہ بیگ کتنے کا ہے؟ | How much is this bag?
+یہ ___ کتنے کی ہے؟ | How much is this ___? (a feminine thing) | یہ قمیض کتنے کی ہے؟ | How much is this shirt?
 ___ کہاں ہے؟ | Where is ___? | ہسپتال کہاں ہے؟ | Where is the hospital?
 ہوٹل ___ کے پاس ہے۔ | The hotel is near ___. | ہوٹل اسٹیشن کے پاس ہے۔ | The hotel is near the station.
 میرے ___ میں درد ہے۔ | My ___ hurts. | میرے پاؤں میں درد ہے۔ | My foot hurts.

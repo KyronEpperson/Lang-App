@@ -48,23 +48,23 @@ module.exports = [
   check: [
     ["How do you say 25 in Urdu?",["بیس پانچ","پچیس","پانچ بیس","بیس اور پانچ"],1,"Every number up to 100 is its own word: 25 is پچیس."],
     ["Which is right for \"two books\"?",["دو کتابیں","دو کتاب","دو کتابا","کتابیں دو"],0,"After a number above one the noun is plural, and the number comes first: دو کتابیں."],
-    ["A shop sign says Rs 500. How do you say the price?",["پچاس روپے","پانچ ہزار روپے","پانچ سو روپے","پانچ سو روپیہ"],2,"پانچ سو is 500, and more than one rupee is روپے."]
+    ["A shop sign says Rs 500. How do you say the price?",["پچاس روپے","پانچ ہزار روپے","پانچ سو روپے","پچپن روپے"],2,"پانچ سو is 500, and more than one rupee is روپے."]
   ],
   practice: [
     ["mc","25 =","پچیس","بیس پانچ","پچاس","پندرہ","Every number up to 100 is its own word: 25 is پچیس, not twenty plus five."],
     ["mc","12 =","بارہ","دو دس","بیس","دس دو","The numbers 11 to 20 are single words too: 12 is بارہ."],
-    ["mc","Rs 100 =","سو روپے","سو روپیہ","دس روپے","ہزار روپے","سو is a hundred, and more than one rupee is the plural روپے."],
+    ["mc","Rs 100 =","سو روپے","سو پیسے","دس روپے","ہزار روپے","سو is a hundred, and more than one rupee is the plural روپے; پیسے are the small coins."],
     ["mc","three girls =","تین لڑکیاں","تین لڑکی","تین لڑکا","لڑکیاں تین","After تین the noun is plural, and the number comes before it: تین لڑکیاں."],
     ["mc","Rs 100,000 is usually said as…","ایک لاکھ روپے","سو ہزار روپے","ایک کروڑ روپے","دس ہزار روپے","Pakistan counts a hundred thousand as one لاکھ; a کروڑ is ten million."],
     ["or","These are two books","یہ دو کتابیں ہیں","کتاب ہے","After دو the feminine noun goes plural, کتابیں, and the verb agrees: ہیں."],
     ["or","four big rooms","چار بڑے کمرے","بڑا کمرہ","In the plural the adjective agrees with the noun: بڑے کمرے."],
-    ["or","fifty rupees","پچاس روپے","روپیہ","More than one rupee takes the plural روپے."],
+    ["or","fifty rupees","پچاس روپے","روپوں","More than one rupee takes the plural روپے."],
     ["fi","یہ __ روپے ہیں۔","This is twenty-five rupees.","پچیس","بیس پانچ|پچاس|پندرہ","25 is its own word: پچیس."],
     ["fi","یہ تین __ ہیں۔","These are three boys.","لڑکے","لڑکا|لڑکی|لڑکیاں","More than one boy: لڑکا becomes the plural لڑکے."],
     ["fi","یہ دو کرسیاں __۔","These are two chairs.","ہیں","ہے|ہوں|ہو","Two chairs are plural, so the verb is ہیں."],
     ["ty","three boys","تین لڑکے","تین · لڑکا · more than one","لڑکا","After تین the masculine noun takes its plural: لڑکے."],
     ["ty","These are five books","یہ پانچ کتابیں ہیں","یہ · پانچ · کتاب · ہونا","کتاب ہے","کتاب goes plural after پانچ, and the verb agrees: کتابیں ہیں."],
-    ["ty","a hundred rupees","سو روپے|ایک سو روپے","سو · روپیہ","روپیہ","More than one rupee takes the plural روپے."]
+    ["ty","a hundred rupees","سو روپے|ایک سو روپے","سو · روپیہ","روپوں","More than one rupee takes the plural روپے."]
   ]
 },
 {
@@ -119,7 +119,7 @@ module.exports = [
     ["or","How many books are there?","کتنی کتابیں ہیں","کتنے ہے","کتاب is feminine, so کتنی agrees, and the plural takes ہیں."],
     ["or","What is this? (neutral order)","یہ کیا ہے","کون","The question word goes where the answer would go, before the verb: یہ کیا ہے."],
     ["fi","اسٹیشن __ ہے؟","Where is the station?","کہاں","کیا|کون|کب","کہاں is where; it goes right before the verb."],
-    ["fi","یہ کتاب __ ہے؟","How is this book?","کیسی","کیسا|کیسے|کتنی","کتاب is feminine, so the question word is کیسی."],
+    ["fi","یہ کتاب __ ہے؟","What is this book like?","کیسی","کیسا|کیسے|کتنی","کتاب is feminine, so the question word is کیسی."],
     ["fi","میں امریکی __ ہوں۔","I'm not American.","نہیں","نہ|مت|کیا","نہیں goes right before the verb to say not."],
     ["ty","How are you? (to a man)","آپ کیسے ہیں","آپ · کیسا · ہونا","کیسا ہے","آپ is plural: کیسے agrees with it, and the verb is ہیں."],
     ["ty","How many boys are there?","کتنے لڑکے ہیں","کتنا · لڑکا · ہونا","کتنا ہے","Plural boys: کتنے agrees, and the verb is ہیں."],
@@ -180,7 +180,7 @@ module.exports = [
     ["fi","یہ __ کرو۔","Don't do this. (to a friend)","مت|نہ","نہیں|کیا|بھی","A command takes مت or نہ before the verb."],
     ["ty","Cold lassi, please (politely)","ٹھنڈی لسی دیجیے|ٹھنڈی لسی دیں|ذرا ٹھنڈی لسی دیجیے|ذرا ٹھنڈی لسی دیں","ٹھنڈا · لسی · دینا","ٹھنڈا","لسی is feminine, so the adjective agrees: ٹھنڈی."],
     ["ty","Please bring two samosas","دو سموسے لائیے|دو سموسے لائیں|دو سموسے لے آئیے|دو سموسے لے آئیں","دو · سموسہ · لانا","سموسہ","More than one samosa: the plural is سموسے."],
-    ["ty","Come in (to a friend)","اندر آؤ","اندر · آنا","آئیے","With a friend (تم) the command ends in و: آؤ."]
+    ["ty","Come in (to a friend)","اندر آؤ|اندر آ جاؤ","اندر · آنا","آئیے","With a friend (تم) the command ends in و: آؤ."]
   ]
 },
 {
@@ -193,7 +193,7 @@ module.exports = [
 {{ex:میں گھر میں ہوں۔|maĩ ghar mẽ hū̃.|I'm at home.}}
 <h3>The five basic postpositions</h3>
 <div class="tbl"><table><tr><th>Urdu</th><th></th><th>English</th></tr>
-<tr><td class="k">میں</td><td>ghar mẽ</td><td>in</td></tr>
+<tr><td class="k">میں</td><td>mẽ</td><td>in</td></tr>
 <tr><td class="k">پر</td><td>par</td><td>on; at</td></tr>
 <tr><td class="k">سے</td><td>se</td><td>from; with</td></tr>
 <tr><td class="k">کو</td><td>ko</td><td>to; for (a person)</td></tr>
@@ -345,7 +345,7 @@ module.exports = [
     ["mc","I have a brother.","میرا ایک بھائی ہے","میرے پاس ایک بھائی ہے","میں ایک بھائی ہے","میری ایک بھائی ہے","Relatives take the possessive, not کے پاس."],
     ["mc","I have a fever.","مجھے بخار ہے","میرے پاس بخار ہے","میں بخار ہوں","میرا بخار ہے","Illnesses take مجھے … ہے."],
     ["mc","They have two daughters.","اُن کی دو بیٹیاں ہیں","اُن کا دو بیٹیاں ہیں","اُن کی دو بیٹیاں ہے","وہ دو بیٹیاں ہیں","کی agrees with بیٹیاں, and the plural takes ہیں."],
-    ["mc","I don't have any money.","میرے پاس پیسے نہیں ہیں","میرے پاس پیسے ہیں نہیں","میرا پاس پیسے نہیں","میں پیسے نہیں ہوں","نہیں goes before the verb, and پیسے is plural: نہیں ہیں."],
+    ["mc","I don't have any money.","میرے پاس پیسے نہیں ہیں","میرے پاس پیسے نہیں ہے","میرا پاس پیسے نہیں","میں پیسے نہیں ہوں","نہیں goes before the verb, and پیسے is plural: نہیں ہیں."],
     ["or","I have a car (I own one)","میرے پاس گاڑی ہے","میرا","پاس works like a postposition, so میرا takes the oblique میرے."],
     ["or","I have two sisters","میری دو بہنیں ہیں","میرا ہے","بہنیں is feminine plural: میری agrees, and the verb is ہیں."],
     ["or","I have a fever","مجھے بخار ہے","میں","With an illness the person takes the oblique form with کو: مجھے."],
@@ -424,13 +424,13 @@ module.exports = [
 <tr><td>you (polite)</td><td class="k">آپ کرتے ہیں</td><td class="k">آپ کرتی ہیں</td></tr>
 <tr><td>he / she</td><td class="k">وہ کرتا ہے</td><td class="k">وہ کرتی ہے</td></tr>
 <tr><td>we; they</td><td class="k">ہم کرتے ہیں</td><td class="k">ہم کرتی ہیں</td></tr></table></div>
-<p>When you speak about yourself, the verb shows whether you are a man or a woman. So learn your own form first.</p>
-{{ex:میں روز چائے پیتا ہوں۔|maĩ roz chāy pītā hū̃.|I drink tea every day. (a man speaking)}}
+<p>With <b>ہم</b>, many women use the masculine plural too: <b>ہم کرتے ہیں</b>. When you speak about yourself, the verb shows whether you are a man or a woman. So learn your own form first.</p>
+{{ex:میں روز چائے پیتا ہوں۔|maĩ roz chāe pītā hū̃.|I drink tea every day. (a man speaking)}}
 {{ex:میں اردو سیکھتی ہوں۔|maĩ urdū sīkhtī hū̃.|I study Urdu. (a woman speaking)}}
 {{ex:آپ کہاں کام کرتے ہیں؟|āp kahā̃ kām karte haĩ?|Where do you work? (to a man)}}
 {{ex:وہ لاہور میں رہتی ہے۔|voh lāhaur mẽ rahtī hai.|She lives in Lahore.}}
 <p>The same form states general facts, things that are simply true, not only your own routine:</p>
-{{ex:پاکستان میں لوگ بہت چائے پیتے ہیں۔|pākistān mẽ log bahut chāy pīte haĩ.|People in Pakistan drink a lot of tea.}}
+{{ex:پاکستان میں لوگ بہت چائے پیتے ہیں۔|pākistān mẽ log bahut chāe pīte haĩ.|People in Pakistan drink a lot of tea.}}
 <p>People you respect take the plural, as always: <b>میرے ابو</b> with <b>پڑھتے ہیں</b>.</p>
 {{ex:میرے ابو ہمیشہ اخبار پڑھتے ہیں۔|mere abbū hameshā aḵhbār paṛhte haĩ.|My father always reads the newspaper.}}
 <p>Questions work as you would expect: <b>کیا</b> at the start for yes or no, or a question word before the verb. The verb ending still has to match the person you are asking about, so a question to a woman ends in <b>تی ہیں</b>: <b>کیا آپ چائے پیتی ہیں؟</b></p>
@@ -443,7 +443,7 @@ module.exports = [
 <p>These words usually come right after the subject, but they can move, much as in English.</p>
 {{ex:ہم اکثر بریانی کھاتے ہیں۔|ham aksar biryānī khāte haĩ.|We often eat biryani.}}
 <h3>Saying no</h3>
-<p><b>نہیں</b> goes before the verb, and the little <b>ہوں</b> or <b>ہے</b> at the end is usually dropped.</p>
+<p><b>نہیں</b> goes before the verb, and the little <b>ہوں</b> or <b>ہے</b> at the end is often dropped.</p>
 {{ex:میں گوشت نہیں کھاتا۔|maĩ gosht nahī̃ khātā.|I don't eat meat. (a man speaking)}}
 <h3>Habit or right now?</h3>
 <p>This form is for things that are generally true or that you do regularly. For something happening at this very moment ("I'm drinking tea right now"), Urdu uses a different form, which comes in a later lesson.</p>
@@ -509,7 +509,7 @@ module.exports = [
 <tr><td class="k">منگل</td><td>Tuesday</td><td class="k">ہفتہ</td><td>Saturday</td></tr>
 <tr><td class="k">بدھ</td><td>Wednesday</td><td class="k">اتوار</td><td>Sunday</td></tr>
 <tr><td class="k">جمعرات</td><td>Thursday</td><td></td><td></td></tr></table></div>
-<p>English says "on Friday". Urdu puts the postposition <b>کو</b> after the day: <b>جمعہ کو</b>, <b>اتوار کو</b>. <b>ہفتہ</b> also means "week", so context tells you whether someone means Saturday or a whole week.</p>
+<p>English says "on Friday". Urdu puts the postposition <b>کو</b> after the day: <b>جمعہ کو</b>, <b>اتوار کو</b>. In speech you will also hear <b>جمعے کو</b> and <b>ہفتے کو</b>, with the -e form a postposition brings. <b>ہفتہ</b> also means "week", so context tells you whether someone means Saturday or a whole week.</p>
 {{ex:جمعہ کو|jumā ko|on Friday}}
 {{ex:اتوار کو ہم لاہور جاتے ہیں۔|itvār ko ham lāhaur jāte haĩ.|On Sundays we go to Lahore.}}
 <div class="tip"><b>Most common mistake:</b> building half past from parts. <b>تین اور آدھا</b> → <b>ساڑھے تین</b>, and 2:30 is <b>ڈھائی</b>, not <b>ساڑھے دو</b>.</div>
@@ -532,7 +532,7 @@ module.exports = [
     ["fi","دو __ ہیں۔","It's two o'clock.","بجے","بجا|بج|بجی","From two on the hour is plural: بجے ہیں."],
     ["fi","کلاس __ بجے ہے؟","What time is the class?","کتنے","کتنا|کتنی|کیا","کتنے agrees with the plural بجے."],
     ["ty","It's seven o'clock","سات بجے ہیں","سات · بجنا","بجا","More than one o'clock is plural: بجے with ہیں."],
-    ["ty","What time is it?","کتنے بجے ہیں","کتنا · بجنا · ہونا","کتنا","کتنے agrees with the plural بجے, and the verb is ہیں."],
+    ["ty","What time is it?","کتنے بجے ہیں|کیا بجا ہے|ٹائم کیا ہوا ہے","کتنا · بجنا · ہونا","کتنا","کتنے agrees with the plural بجے, and the verb is ہیں."],
     ["ty","I get up at six in the morning (a man speaking)","میں صبح چھ بجے اٹھتا ہوں|صبح چھ بجے اٹھتا ہوں|میں صبح کے چھ بجے اٹھتا ہوں|صبح کے چھ بجے اٹھتا ہوں","میں · صبح · چھ · بجے · اٹھنا","اٹھتی","The verb agrees with a man speaking: اٹھتا ہوں."]
   ]
 }
