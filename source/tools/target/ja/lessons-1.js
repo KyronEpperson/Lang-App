@@ -43,7 +43,7 @@ module.exports = [
       ["mc", "In これは (this is), the は sounds the same as which letter?", "わ", "ほ", "ば", "へ", "As a particle, は is said wa, like わ."],
       ["mc", "Which letter is \"ga\"?", "が", "か", "ぎ", "ざ", "Two dots on か make が."],
       ["mc", "Which letter is \"sa\"?", "さ", "ち", "き", "そ", "さ and ち are mirror images: さ is sa, ち is chi."],
-      ["or", "This is sushi.", "これ | は | すし | です", "わ", "The topic particle は is written は but said wa."],
+      ["or", "This is sushi. (start with これ)", "これ | は | すし | です", "わ", "The topic particle は is written は but said wa."],
       ["or", "Sushi, please.", "すし | を | ください", "お", "The object particle を is said o but written を."],
       ["or", "I'm going to the station.", "えき | へ | いきます", "え", "The direction particle へ is said e but written へ."],
       ["fi", "す__", "sushi", "し", "ち|さ|ひ", "Sushi is す + し (shi)."],
@@ -100,7 +100,7 @@ module.exports = [
       ["mc", "Which word is \"teacher\"?", "せんせい", "せんせ", "せんぜい", "せいせん", "Teacher ends in えい, said as a long e: せんせい."],
       ["or", "I'm going to Tokyo.", "とうきょう | へ | いきます", "え", "The direction particle へ is said e but written へ."],
       ["or", "Tea, please.", "おちゃ | を | ください", "お", "The object particle を is said o but written を."],
-      ["or", "This is a photo.", "これ | は | しゃしん | です", "しやしん", "Small ゃ joins し into one beat: しゃしん, not shi-ya-shin."],
+      ["or", "This is a photo. (start with これ)", "これ | は | しゃしん | です", "しやしん", "Small ゃ joins し into one beat: しゃしん, not shi-ya-shin."],
       ["fi", "き__て", "postage stamp", "っ", "つ|や|ょ", "A small っ makes the pause in kitte."],
       ["fi", "おば__さん", "grandmother", "あ", "お|い|う", "The long a of grandmother is written with an extra あ."],
       ["fi", "しゃし__", "photo", "ん", "む|う|ぬ", "Photo ends in ん: しゃしん (shashin)."],
@@ -151,7 +151,7 @@ module.exports = [
       ["mc", "Emily writes her name in Japanese. Which is right?", "エミリー", "えみりい", "エミリ", "エミソー", "Foreign names go in katakana, with ー for the long i."],
       ["or", "Coffee, please.", "コーヒー | を | ください", "が", "ください takes the object particle を."],
       ["or", "I'm Emily.", "わたし | は | エミリー | です", "わ", "The topic particle は is written は, even next to katakana."],
-      ["or", "This is ramen.", "これ | は | ラーメン | です", "ラメン", "ー makes the vowel long: ラーメン has four beats."],
+      ["or", "This is ramen. (start with これ)", "これ | は | ラーメン | です", "ラメン", "ー makes the vowel long: ラーメン has four beats."],
       ["fi", "コー__ー", "coffee", "ヒ", "ビ|ピ|キ", "Coffee is kōhī: the katakana ヒ (hi).", "!strict"],
       ["fi", "ラー__ン", "ramen", "メ", "ナ|ヌ|ノ", "Ramen is rāmen: the katakana メ (me).", "!strict"],
       ["fi", "パー__ィー", "party", "テ", "デ|チ|ツ", "テ with a small ィ writes the English ti sound: パーティー.", "!strict"],
@@ -272,7 +272,7 @@ module.exports = [
 <p>Japanese numbers are very regular up to 99. After that they group digits differently from English. Prices and clock times use the same numbers with a small word attached.</p>
 <h3>One to ten, then building up</h3>
 <div class="tbl"><table><tr><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr><tr><td class="k">いち</td><td class="k">に</td><td class="k">さん</td><td class="k">よん</td><td class="k">ご</td><td class="k">ろく</td><td class="k">なな</td><td class="k">はち</td><td class="k">きゅう</td><td class="k">じゅう</td></tr></table></div>
-<p>Four and seven also have the older words し and しち, which survive in a few fixed words; use よん and なな when you count. Above ten, numbers are built like sums: じゅういち is 10 + 1, にじゅう is 2 × 10, and にじゅうご is 25. Zero is ゼロ, borrowed from English.</p>
+<p>Four and seven also have a second word each, し and しち. You hear them when people count off one to ten and in a few fixed words such as しちじ (7:00); in bigger numbers use よん and なな (よんじゅう, 40). Above ten, numbers are built like sums: じゅういち is 10 + 1, にじゅう is 2 × 10, and にじゅうご is 25. Zero is ゼロ, borrowed from English.</p>
 {{ex:にじゅうご|nijūgo|twenty-five}}
 <h3>Hundreds and thousands</h3>
 <p>ひゃく is 100 and せん is 1,000. A few combinations change their sound, and they are worth learning as words: さんびゃく (300), ろっぴゃく (600), はっぴゃく (800), さんぜん (3,000), はっせん (8,000).</p>
@@ -305,7 +305,7 @@ module.exports = [
       ["mc", "\"What time is it?\" =", "なんじですか", "いくらですか", "なんですか", "どこですか", "じ is \"o'clock\", so なんじ asks the hour; いくら asks a price."],
       ["mc", "\"800 yen\" =", "はっぴゃくえん", "はちひゃくえん", "はちびゃくえん", "はっひゃくえん", "はち + ひゃく becomes はっぴゃく, with small っ."],
       ["or", "I get up at seven.", "しちじ | に | おきます", "で", "A clock time takes the time particle に."],
-      ["or", "This is 600 yen.", "これ | は | ろっぴゃくえん | です", "を", "The topic particle は marks the thing whose price you give."],
+      ["or", "This is 600 yen. (start with これ)", "これ | は | ろっぴゃくえん | です", "を", "The topic particle は marks the thing whose price you give."],
       ["or", "How much is this umbrella?", "この | かさ | は | いくら | ですか", "なんじ", "いくら asks a price; なんじ asks the time."],
       ["fi", "さん__えんです。", "It's 300 yen.", "びゃく", "ひゃく|ぴゃく|せん", "After さん, ひゃく becomes びゃく: さんびゃく."],
       ["fi", "くじ__ おきます。", "I get up at nine.", "に", "で|を|が", "A clock time takes に: くじに."],
@@ -323,7 +323,7 @@ module.exports = [
     body: `
 <p>English shows ownership with "my", "your" and "'s", and it adds "too" at the end of a sentence. Japanese does both with particles: <b>の</b> and <b>も</b>.</p>
 <h3>の joins two nouns</h3>
-<p>The linking particle の goes between two nouns, and the main noun always comes last. <b>わたしの ほん</b> is "my book", word for word "I-の book". The first noun can be an owner, a subject or a place: にほんごの せんせい is a teacher of Japanese, and とうきょうの だいがく is a university in Tokyo.</p>
+<p>The linking particle の goes between two nouns, and the main noun always comes last. <b>わたしの ほん</b> is "my book", word for word "I-の book". The first noun can be an owner, a subject of study or a place: にほんごの せんせい is a teacher of Japanese, and とうきょうの だいがく is a university in Tokyo.</p>
 {{ex:これは わたしの かさです。|kore wa watashi no kasa desu|This is my umbrella.}}
 {{ex:やまだせんせいは にほんごの せんせいです。|yamada sensei wa nihongo no sensei desu|Yamada sensei teaches Japanese.}}
 {{ex:とうきょうの だいがくです。|tōkyō no daigaku desu|It's a university in Tokyo.}}
@@ -352,9 +352,9 @@ module.exports = [
       ["mc", "You talk about your own mother to a coworker. Which word?", "はは", "おかあさん", "ははさん", "おはは", "To other people, your own mother is はは."],
       ["mc", "\"a Japanese teacher\" (a teacher of Japanese) =", "にほんごの せんせい", "せんせいの にほんご", "にほんご せんせいの", "にほんごが せんせい", "The main noun, せんせい, comes last, after の."],
       ["mc", "You ask Mr. Tanaka: \"Is your mother a teacher?\"", "おかあさんは せんせいですか", "ははは せんせいですか", "おかあさんの せんせいですか", "ははさんは せんせいですか", "Someone else's mother is おかあさん."],
-      ["or", "This is my umbrella.", "これ | は | わたし | の | かさ | です", "が", "The linking particle の joins わたし and かさ: my umbrella."],
+      ["or", "This is my umbrella. (start with これ)", "これ | は | わたし | の | かさ | です", "が", "The linking particle の joins わたし and かさ: my umbrella."],
       ["or", "I'm American too.", "わたし | も | アメリカじん | です", "は", "The also particle も replaces は: わたしも."],
-      ["or", "My mother is a teacher.", "はは | は | せんせい | です", "おかあさん", "To other people, your own mother is はは."],
+      ["or", "My mother is a teacher. (to a coworker)", "はは | は | せんせい | です", "おかあさん", "To other people, your own mother is はは."],
       ["fi", "これは わたし__ ほんです。", "This is my book.", "の", "が|は|を", "の joins the owner and the thing: わたしの ほん."],
       ["fi", "エミリーさん__ がくせいです。", "Emily is a student too.", "も", "は|の|を", "\"Too\" is も, in place of は."],
       ["fi", "たなかさんの __は せんせいです。", "Mr. Tanaka's mother is a teacher.", "おかあさん", "はは|ちち|あね", "Someone else's mother is おかあさん."],

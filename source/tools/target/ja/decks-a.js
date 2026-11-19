@@ -120,7 +120,7 @@ module.exports = {
 モ | mo | mo, as in メモ (memo) | Like the hiragana も, but with straight lines.
 ヤ | ya | ya, as in タイヤ (tire) | Like the hiragana や.
 ユ | yu | yu, as in ユーロ (euro) |
-ヨ | yo | yo, as in ヨーグルト (yogurt) | Three short lines and a stroke down the right.
+ヨ | yo | yo, as in ヨーグルト (yogurt) | Three flat strokes joined by one stroke down the right side.
 ラ | ra | ra, as in ラーメン (ramen) | Japanese r is a light tap, between r, l and d.
 リ | ri | ri, as in リモコン (remote control) | Like the hiragana り.
 ル | ru | ru, as in ルール (rule) |
@@ -181,9 +181,9 @@ module.exports = {
 おげんきですか | ogenki desu ka | How have you been? | To someone you have not seen for a while, not as a daily "How are you?"
 すみません | sumimasen | Excuse me. / Sorry. | Also a polite "thank you" when someone goes to trouble for you.
 ありがとうございます | arigatō gozaimasu | Thank you. | To friends: ありがとう.
-どういたしまして | dō itashimashite | You're welcome. | A little formal; people often just say いいえ.
+どういたしまして | dō itashimashite | You're welcome. | Correct but a little stiff; in daily life people often answer thanks with いいえ.
 しつれいします | shitsurei shimasu | Excuse me. (entering or leaving) | Said when you go into or leave an office, a classroom or a meeting.
-じゃあ また | jā mata | See you later. | The natural goodbye to someone you will see again.
+じゃあ また | jā mata | See you later. | Casual goodbye to friends and coworkers you will see again; to a boss, しつれいします.
 さようなら | sayōnara | Goodbye. | Sounds final; to someone you will see again, じゃあ また is more natural.
 `,
   "Family and people": `

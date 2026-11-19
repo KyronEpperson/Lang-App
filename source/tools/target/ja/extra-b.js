@@ -34,7 +34,7 @@ exports.DIALOG = `
 ごめん | ごめん、おそく なった。 | だいじょうぶ。 | Sorry I'm late. / It's fine.
 はい たべません | にくは たべませんか。 | はい、たべません。やさいだけです。 | You don't eat meat? / That's right, I don't. Only vegetables.
 けっこうです | コーヒーは いかがですか。 | いいえ、けっこうです。 | Would you like some coffee? / No, thank you.
-すみません ちょっと | あした のみに いきませんか。 | すみません ちょっと…。 | Would you like to go for a drink tomorrow? / Sorry, I can't really...
+すみません ちょっと | あした のみに いきませんか。 | すみません、ちょっと…。 | Would you like to go for a drink tomorrow? / Sorry, I can't really...
 おかあさんは おげんきですか | おかあさんは おげんきですか。 | はい、ははは げんきです。 | How is your mother? / She's doing well, thank you.
 `;
 

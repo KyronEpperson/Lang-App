@@ -161,7 +161,7 @@ module.exports = [
 {{ex:でんしゃは バスより はやいです。|densha wa basu yori hayai desu|The train is faster than the bus.}}
 <p>You do not need a word for "more". You may hear <b>もっと</b>, but it means "even more" or "more" with no "than" (<b>もっと ゆっくり</b>, "more slowly"), so leave it out of A <b>は</b> B <b>より</b> sentences for now.</p>
 <h3>Which one? どちらが</h3>
-<p>To ask "which is ~, A or B?", list the two with <b>と</b>…<b>と</b> and ask with <b>どちらが</b>. A question word always takes <b>が</b>, never <b>は</b>. To answer, use <b>の ほうが</b>, "the side of…".</p>
+<p>To ask "which is ~, A or B?", list the two with <b>と</b>…<b>と</b> and ask with <b>どちらが</b>. When a question word is the subject, as <b>どちら</b> is here, it takes <b>が</b>, never <b>は</b>. To answer, use <b>の ほうが</b>, "the side of…".</p>
 {{ex:すしと ラーメンと どちらが すきですか。|sushi to rāmen to dochira ga suki desu ka|Which do you like better, sushi or ramen?}}
 {{ex:ラーメンの ほうが すきです。|rāmen no hō ga suki desu|I like ramen better.}}
 <p><b>どちら</b> is only for two things. For three or more, use <b>どれ</b>, <b>なに</b>, <b>どこ</b> or <b>だれ</b> with <b>いちばん</b>. In the answer, the winner takes <b>が</b>, because it answers a question word.</p>
@@ -182,14 +182,14 @@ module.exports = [
     practice: [
       ["mc", "\"than\" in a comparison =", "より", "から", "まで", "ほう", "より is the word for \"than\"."],
       ["mc", "\"Osaka is smaller than Tokyo.\" =", "おおさかは とうきょうより ちいさいです。", "とうきょうは おおさかより ちいさいです。", "おおさかより とうきょうは ちいさいです。", "おおさかは とうきょうから ちいさいです。", "より goes after the bigger one here, Tokyo: おおさかは とうきょうより ちいさいです."],
-      ["mc", "\"Which is cheaper, the bus or the train?\" =", "バスと でんしゃと どちらが やすいですか。", "バスと でんしゃと どちらは やすいですか。", "バスと でんしゃと なにが やすいですか。", "バスと でんしゃと どちらを やすいですか。", "For two things, ask with どちら, and a question word takes が."],
+      ["mc", "\"Which is cheaper, the bus or the train?\" =", "バスと でんしゃと どちらが やすいですか。", "バスと でんしゃと どちらは やすいですか。", "バスと でんしゃと なにが やすいですか。", "バスと でんしゃと どちらを やすいですか。", "For two things, ask with どちら; as the subject, a question word takes が, never は."],
       ["mc", "\"Of all foods, I like sushi best.\" =", "たべものの なかで すしが いちばん すきです。", "たべものの なかで すしを いちばん すきです。", "たべものより すしが いちばん すきです。", "たべものの なかに すしが いちばん すきです。", "The group takes の なかで, and すき takes が."],
       ["mc", "\"Kyoto was quieter than Tokyo.\" =", "きょうとは とうきょうより しずかでした。", "きょうとは とうきょうより しずかかったです。", "きょうとは とうきょうより しずかいでした。", "とうきょうは きょうとより しずかでした。", "しずか is a な-adjective, so its past is でした."],
       ["or", "Tokyo is bigger than Osaka. (start with Tokyo)", "とうきょう | は | おおさか | より | おおきいです", "から", "より is the comparison particle: \"than\"."],
       ["or", "I like ramen better.", "ラーメン | の | ほう | が | すきです", "を", "すき takes the subject particle が: ラーメンの ほうが すきです."],
-      ["or", "Which is better?", "どちら | が | いいですか", "は", "A question word takes the subject particle が: どちらが."],
+      ["or", "Which is better?", "どちら | が | いいですか", "は", "As the subject, a question word takes the subject particle が: どちらが."],
       ["fi", "とうきょうは おおさか__ おおきいです。", "Tokyo is bigger than Osaka.", "より", "から|まで|ほう", "より means \"than\" and goes right after the thing you compare against."],
-      ["fi", "コーヒーと おちゃと どちら__ すきですか。", "Which do you like better, coffee or tea?", "が", "は|を|に", "A question word takes が: どちらが."],
+      ["fi", "コーヒーと おちゃと どちら__ すきですか。", "Which do you like better, coffee or tea?", "が", "は|を|に", "As the subject, a question word takes が: どちらが."],
       ["fi", "きのうは きょうより __。", "Yesterday was colder than today.", "さむかったです", "さむいでした|さむくでした|さむいかったです", "Past of an い-adjective: さむかったです."],
       ["ty", "Tokyo is bigger than Osaka.", "とうきょうは おおさかより おおきいです|おおさかより とうきょうの ほうが おおきいです|とうきょうの ほうが おおさかより おおきいです|おおさかより とうきょうは おおきいです", "とうきょう · おおさか · おおきい", "おおさかから", "より is the comparison particle: \"than\"."],
       ["ty", "I like tea better.", "おちゃの ほうが すきです|わたしは おちゃの ほうが すきです", "おちゃ · ほう · すき", "ほうを", "すき takes the subject particle が: ほうが すきです."],
@@ -420,7 +420,7 @@ module.exports = [
 {{ex:よる ひとりで あるかない ほうが いいです。|yoru hitori de arukanai hō ga ii desu|You'd better not walk alone at night.}}
 <h3>Careful with people above you</h3>
 <p><b>ほうが いいです</b> is direct advice, fine for friends and for someone who asked you. With a teacher or a boss it can sound pushy, so ask a question or soften it instead. <b>なければ いけません</b> is for rules and your own duties; said to someone senior, it sounds like an order. For yourself, it is always fine: <b>くすりを のまなければ いけません</b> explains your own duty.</p>
-<div class="tip"><b>Most common mistake:</b> the dictionary form for advice to one person. "You'd better rest": <b>やすむ ほうが いいです</b> → <b>やすんだ ほうが いいです</b>. And don't build <b>なければ</b> from the ます form: <b>いきなければ</b> → <b>いかなければ</b>. Read the kana first, then check the romaji.</div>
+<div class="tip"><b>Most common mistake:</b> building <b>なければ</b> from the ます form. <b>いきなければ いけません</b> → <b>いかなければ いけません</b>: start from the short negative いかない. For advice, the past form (<b>やすんだ ほうが いいです</b>) is the usual choice; you will also hear the dictionary form. Read the kana first, then check the romaji.</div>
 `,
     check: [
       ["\"I have to study.\" =", ["べんきょうしなければ いけません", "べんきょうしますなければ いけません", "べんきょうするなければ いけません", "べんきょうしなくても いいです"], 0, "する → しない → しなければ いけません."],
@@ -440,7 +440,7 @@ module.exports = [
       ["fi", "くすりを のんだ ほう__ いいです。", "You'd better take medicine.", "が", "を|に|で", "The pattern is ほうが いいです."],
       ["fi", "ここで くつを ぬがなくても __。", "You don't have to take off your shoes here.", "いいです", "いけません|いいでした|ください", "\"Don't have to\" is なくても いいです."],
       ["ty", "I have to take medicine. (use なければ いけません)", "くすりを のまなければ いけません|わたしは くすりを のまなければ いけません", "くすり · のむ · must", "くすりが", "のむ takes the object particle を: くすりを."],
-      ["ty", "You'd better go to the hospital.", "びょういんに いった ほうが いいです|びょういんへ いった ほうが いいです|びょういんに いった ほうが いいですよ|びょういんへ いった ほうが いいですよ", "びょういん · いく · ほう · いい", "びょういんで", "Going to a place takes the destination particle に or へ."],
+      ["ty", "You'd better go to the hospital.", "びょういんに いった ほうが いいです|びょういんへ いった ほうが いいです|びょういんに いった ほうが いいですよ|びょういんへ いった ほうが いいですよ|びょういんに いく ほうが いいです|びょういんへ いく ほうが いいです|びょういんに いく ほうが いいですよ|びょういんへ いく ほうが いいですよ", "びょういん · いく · ほう · いい", "びょういんで", "Going to a place takes the destination particle に or へ."],
       ["ty", "You don't have to come tomorrow.", "あしたは こなくても いいです|あした こなくても いいです", "あした · くる · don't have to", "きなくても", "くる → こない, so \"don't have to come\" is こなくても いいです."]
     ]
   }

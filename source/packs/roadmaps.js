@@ -58,19 +58,19 @@ LANGAPP_PACKS.roadmaps = {
     src: ["Genki I 3rd edition syllabus (The Japan Times)", "JLPT N5 grammar list (Wikibooks)"], note: "The script stage is standard practice; the fetched syllabus starts at lesson 1.",
     stages: [
       { en: "Script and sounds", ko: "글자와 소리", items: [
-        ["ja-hiragana", "Hiragana", "히라가나"], ["ja-katakana", "Katakana", "가타카나"], ["ja-sounds", "Long vowels, small っ and pitch", "장음, 촉음 っ, 억양"], ["ja-kanji-first", "First kanji: numbers, days, people", "첫 한자: 숫자, 요일, 사람"] ] },
+        ["ja-hiragana", "Hiragana", "히라가나", "hiragana"], ["ja-katakana", "Katakana", "가타카나", "katakana"], ["ja-sounds", "Long vowels, small っ and pitch", "장음, 촉음 っ, 억양", "sounds"], ["ja-kanji-first", "First kanji: numbers, days, people", "첫 한자: 숫자, 요일, 사람", "kanji-first"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["ja-desu", "X は Y です: A is B", "X は Y です: A는 B예요"], ["ja-kosoado", "これ・それ・あれ: this and that", "これ・それ・あれ: 이것, 그것, 저것"], ["ja-no-mo", "の and も: possession and also", "の와 も: 소유와 '도'"],
-        ["ja-masu", "Verbs in ます form", "동사 ます형"], ["ja-particles", "Particles を・に・で・へ", "조사 を・に・で・へ"], ["ja-arimasu", "あります / います: there is", "あります / います: 있어요"],
-        ["ja-past", "Past: でした・ました", "과거: でした・ました"], ["ja-invite", "ませんか・ましょう: inviting", "ませんか・ましょう: 권유"] ] },
+        ["ja-desu", "X は Y です: A is B", "X は Y です: A는 B예요", "desu"], ["ja-kosoado", "これ・それ・あれ: this and that", "これ・それ・あれ: 이것, 그것, 저것", "kosoado"], ["ja-no-mo", "の and も: possession and also", "の와 も: 소유와 '도'", "no-mo"],
+        ["ja-masu", "Verbs in ます form", "동사 ます형", "masu"], ["ja-particles", "Particles を・に・で・へ", "조사 を・に・で・へ", "particles"], ["ja-arimasu", "あります / います: there is", "あります / います: 있어요", "arimasu"],
+        ["ja-past", "Past: でした・ました", "과거: でした・ました", "past"], ["ja-invite", "ませんか・ましょう: inviting", "ませんか・ましょう: 권유", "invite"] ] },
       { en: "Describing and connecting", ko: "묘사와 연결", items: [
-        ["ja-adjectives", "い and な adjectives", "い형용사와 な형용사"], ["ja-suki", "好き / きらい: likes", "好き / きらい: 좋아함과 싫어함"], ["ja-counters", "Counting and counters", "숫자 세기와 조수사"],
-        ["ja-te", "The て-form", "て형"], ["ja-te-requests", "てください・てもいい・てはいけません", "てください・てもいい・てはいけません"], ["ja-teiru", "ている: doing right now", "ている: 진행과 상태"],
-        ["ja-short", "Short forms and casual speech", "보통형과 반말"], ["ja-to-omou", "と思います・と言っていました", "と思います・と言っていました"] ] },
+        ["ja-adjectives", "い and な adjectives", "い형용사와 な형용사", "adjectives"], ["ja-suki", "好き / きらい: likes", "好き / きらい: 좋아함과 싫어함", "suki"], ["ja-counters", "Counting and counters", "숫자 세기와 조수사", "counters"],
+        ["ja-te", "The て-form", "て형", "te"], ["ja-te-requests", "てください・てもいい・てはいけません", "てください・てもいい・てはいけません", "te-requests"], ["ja-teiru", "ている: doing right now", "ている: 진행과 상태", "teiru"],
+        ["ja-short", "Short forms and casual speech", "보통형과 반말", "short"], ["ja-to-omou", "と思います・と言っていました", "と思います・と言っていました", "to-omou"] ] },
       { en: "Toward N5", ko: "N5까지", items: [
-        ["ja-noun-mod", "Describing nouns with verbs", "동사로 명사 꾸미기"], ["ja-compare", "Comparing: より・いちばん", "비교: より・いちばん"], ["ja-tsumori", "つもり・なる: plans and changes", "つもり・なる: 계획과 변화"],
-        ["ja-tai", "たい: want to", "たい: 하고 싶어요"], ["ja-koto-aru", "たことがある: experiences", "たことがある: 경험"], ["ja-n-desu", "んです・ので: explaining", "んです・ので: 이유 설명"],
-        ["ja-must", "なければいけません・ほうがいい", "なければいけません・ほうがいい: 의무와 조언"] ] } ] },
+        ["ja-noun-mod", "Describing nouns with verbs", "동사로 명사 꾸미기", "noun-mod"], ["ja-compare", "Comparing: より・いちばん", "비교: より・いちばん", "compare"], ["ja-tsumori", "つもり・なる: plans and changes", "つもり・なる: 계획과 변화", "tsumori"],
+        ["ja-tai", "たい: want to", "たい: 하고 싶어요", "tai"], ["ja-koto-aru", "たことがある: experiences", "たことがある: 경험", "koto-aru"], ["ja-n-desu", "んです・ので: explaining", "んです・ので: 이유 설명", "n-desu"],
+        ["ja-must", "なければいけません・ほうがいい", "なければいけません・ほうがいい: 의무와 조언", "must"] ] } ] },
 
   zh: { variant: {en: "Mandarin, simplified characters", ko: "표준 중국어 (간체자)"}, basis: {en: "HSK level 1-2 grammar", ko: "HSK 1-2급 문법"},
     src: ["HSK 1 grammar list (Mandarin Temple)", "That's Mandarin: HSK 3.0 2026 update"], note: "HSK keeps nine levels; revised word counts were reported as expected from July 2026 and not confirmed. The sounds stage is standard practice.",

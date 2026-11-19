@@ -158,7 +158,7 @@ module.exports = [
     body: `
 <p>English adjectives never change: <i>expensive</i>, <i>was expensive</i>, <i>isn't expensive</i>. Japanese adjectives come in two kinds, and one kind carries its own polite endings, just like a verb.</p>
 <h3>Two kinds</h3>
-<p><b>い-adjectives</b> end in い: <b>たかい</b> (expensive), <b>おおきい</b> (big), <b>おいしい</b> (tasty). <b>な-adjectives</b> take <b>な</b> before a noun: <b>きれい</b> (pretty, clean), <b>しずか</b> (quiet), <b>ゆうめい</b> (famous). Careful: きれい and ゆうめい end in い but are な-adjectives, so learn each word with its kind. Cards and dictionaries usually show a な-adjective with its な: <b>しずかな</b>, <b>ゆうめいな</b>. The cards in this course do the same.</p>
+<p><b>い-adjectives</b> end in い: <b>たかい</b> (expensive), <b>おおきい</b> (big), <b>おいしい</b> (tasty). <b>な-adjectives</b> take <b>な</b> before a noun: <b>きれい</b> (pretty, clean), <b>しずか</b> (quiet), <b>ゆうめい</b> (famous). Careful: きれい and ゆうめい end in い but are な-adjectives, so learn each word with its kind. Many word lists for learners show a な-adjective with its な: <b>しずかな</b>, <b>ゆうめいな</b>. The cards in this course do the same.</p>
 <h3>Before a noun</h3>
 <p>Both kinds go in front of the noun, as in English. An い-adjective goes straight in; a な-adjective adds な. Nothing else changes: a big park is <b>おおきい こうえん</b>, a famous park is <b>ゆうめいな こうえん</b>.</p>
 {{ex:これは たかい ほんです。|kore wa takai hon desu|This is an expensive book.}}
@@ -241,7 +241,7 @@ module.exports = [
       ["mc", "Ken is good at tennis. =", "けんさんは テニスが じょうずです", "けんさんは テニスを じょうずです", "けんさんは テニスが じょうずします", "けんさんは テニスで じょうずです", "じょうず takes が for the skill, and です at the end."],
       ["mc", "I don't like coffee very much. =", "コーヒーは あまり すきじゃないです", "コーヒーは あまり すきです", "コーヒーは とても すきじゃないです", "コーヒーが あまり すきくないです", "すき is a な-adjective: すきじゃないです, and あまり needs a negative."],
       ["or", "I like cats.", "ねこ | が | すきです", "を", "すき takes the subject particle が, not を."],
-      ["or", "Sakura is bad at singing.", "さくらさん | は | うた | が | へたです", "を", "へた, like すき, takes the subject particle が for the skill."],
+      ["or", "Sakura is bad at singing. (start with Sakura)", "さくらさん | は | うた | が | へたです", "を", "へた, like すき, takes the subject particle が for the skill."],
       ["or", "I didn't like that movie.", "その | えいが | は | すきじゃなかったです", "すきくなかったです", "すき is a な-adjective, so the polite ending is じゃなかったです."],
       ["fi", "ねこ__ だいすきです。", "I love cats.", "が|は", "を|に|で", "だいすき, like すき, takes が."],
       ["fi", "わたしは やさいが __。", "I don't like vegetables.", "きらいです|すきじゃないです|すきじゃありません", "すきです|きらいます|すきくないです", "きらいです, or the softer すきじゃないです."],
@@ -276,10 +276,10 @@ module.exports = [
 <p>One and two people have their own words, <b>ひとり</b> and <b>ふたり</b>. From three on, add にん: <b>さんにん</b>, <b>よにん</b> (4). In a restaurant, when the staff ask how many you are, answer with the number and です. Note that four people is よにん, not よんにん. The same order as with things: "I have two friends" is <b>ともだちが ふたり います</b>.</p>
 {{ex:ふたりです。|futari desu|There are two of us.}}
 {{ex:あねが ふたり います。|ane ga futari imasu|I have two older sisters.}}
-<div class="tip"><b>Most common mistake:</b> putting the number in front of the noun, as in English. <b>ふたつの りんごを ください</b> → <b>りんごを ふたつ ください</b>. And mind the sound change: <b>さんほん</b> → <b>さんぼん</b>. Read the kana first, then the romaji.</div>
+<div class="tip"><b>Most common mistake:</b> putting the number in front of the noun, as in English. <b>ふたつの りんごを ください</b> sounds like "the two apples" → to order, say <b>りんごを ふたつ ください</b>. And mind the sound change: <b>さんほん</b> → <b>さんぼん</b>. Read the kana first, then the romaji.</div>
 `,
     check: [
-      ["Two apples, please. =", ["ふたつの りんごを ください", "りんごを ふたつ ください", "りんご ふたつを ください", "りんごを にまい ください"], 1, "Thing を, then the number, then ください; ふたつ is the all-purpose counter."],
+      ["Two apples, please. =", ["りんごが ふたつ ください", "りんごを ふたつ ください", "りんごを ふたつを ください", "りんごを にまい ください"], 1, "Thing を, then the number, then ください; ふたつ is the all-purpose counter."],
       ["Which counter is for pens and bottles?", ["まい", "さつ", "ほん", "にん"], 2, "ほん counts long, thin things."],
       ["How do you say one person?", ["ひとり", "いちにん", "ひとつ", "いっにん"], 0, "One and two people are ひとり and ふたり."]
     ],
@@ -322,7 +322,7 @@ module.exports = [
 {{ex:きのうは しぶやに いって、かいものを しました。|kinō wa shibuya ni itte kaimono o shimashita|Yesterday I went to Shibuya and did some shopping.}}
 {{ex:うちに かえって、ばんごはんを つくりました。|uchi ni kaette bangohan o tsukurimashita|I went home and made dinner.}}
 <h3>Joining adjectives</h3>
-<p>Adjectives join the same way. An い-adjective drops い and adds <b>くて</b>; a な-adjective adds <b>で</b>. いい becomes <b>よくて</b>. Japanese has one "and" for nouns, と (<b>すしと てんぷら</b>), and the て form for actions and descriptions.</p>
+<p>Adjectives join the same way. An い-adjective drops い and adds <b>くて</b>; a な-adjective adds <b>で</b>. いい becomes <b>よくて</b>. Japanese uses と for "and" between nouns (<b>すしと てんぷら</b>), and the て form for actions and descriptions.</p>
 {{ex:この みせは やすくて、おいしいです。|kono mise wa yasukute oishii desu|This place is cheap and good.}}
 {{ex:こうえんは しずかで、きれいでした。|kōen wa shizuka de kirei deshita|The park was quiet and pretty.}}
 <div class="tip"><b>Most common mistake:</b> using と for "and" between verbs, as you do between nouns. <b>たべます と のみます</b> → <b>たべて、のみます</b>. And remember the exception: <b>いきて</b> → <b>いって</b>. Read the kana first, then the romaji.</div>
@@ -428,7 +428,7 @@ module.exports = [
 `,
     check: [
       ["I'm married. =", ["けっこんします", "けっこんして います", "けっこんでした", "けっこんして あります"], 1, "A state that is still true: て form + います."],
-      ["Do you know Ms. Sato? — No, I don't. =", ["いいえ、しって いません", "いいえ、しりませんでした", "いいえ、しって ないです", "いいえ、しりません"], 3, "The negative of しって います is しりません."],
+      ["Do you know Ms. Sato? — No, I don't. =", ["いいえ、しって いません", "いいえ、しりませんでした", "いいえ、しりないです", "いいえ、しりません"], 3, "The negative of しって います is しりません."],
       ["My mother is cooking now. =", ["ははは いま りょうりを して います", "ははは いま りょうりを します", "ははは いま りょうりを しました", "ははは いま りょうりを して あります"], 0, "An action going on now: て form + います."]
     ],
     practice: [

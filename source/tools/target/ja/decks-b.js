@@ -115,7 +115,7 @@ module.exports = {
 きっぷ | kippu | ticket (for a train) | Small っ: kip-pu. Most people now tap a transit card.
 しんじゅくまで いくらですか | shinjuku made ikura desu ka | How much is it to Shinjuku? | まで = "as far as".
 この でんしゃは しぶやに いきますか | kono densha wa shibuya ni ikimasu ka | Does this train go to Shibuya? | Ask station staff or another passenger before you board.
-こうえん | kōen | park | Long ō: ko-o-en, three beats plus ん.
+こうえん | kōen | park | Long ō: ko-o-e-n, four beats (ん is a beat too).
 みちに まよいました | michi ni mayoimashita | I'm lost. | Word for word: "I lost my way."
 きょうとに いきたいです | kyōto ni ikitai desu | I want to go to Kyoto. | たい is for your own wishes, not other people's.
 おきなわに いった ことが あります | okinawa ni itta koto ga arimasu | I've been to Okinawa. | Past short form いった + ことが あります = "have done".

@@ -999,3 +999,9 @@ Ship Mandarin Chinese for English speakers (en-zh) after merge and cold review, 
 
 ### 2.31.0 — results
 en-zh: 28 lessons, 18 decks / 321 cards, 392 practice items; simplified characters, generated pinyin. Cold review: 46 edits (no wrong Chinese found; 19 practice items in lessons-3 fixed where a "wrong" option was acceptable or tiles had two orders); pinyin read in full by the reviewer but no dictionary site was reachable. Engine: zhNorm / zhSetTone / zhMissingOnly, jaRoma / jaLoose / jaSame, kbT() tiles default per course, gen adds pinyin to accepted answers, HOLD file keeps an unfinished course out of packs/. validate PASS, e2e OK, harness 75 guards. Not checked by a native speaker (tools/target/zh/REVIEW.md).
+
+## 2.32.0 — prompt
+Ship Japanese for English speakers (en-ja) after merge and cold review. Verify: validate, e2e on all 28 lessons, romaji matching unit tests, harness, site test.
+
+### 2.32.0 — results
+en-ja: 28 lessons, 18 decks / 370 cards (five kana decks, 30-word kanji deck), 392 practice items; kana with phrase spacing, hand-typed romaji. Cold review: 25 edits (no wrong Japanese or romaji found; 591 romaji rows pass the romaji-to-kana check; nine wrong or overstated teaching claims fixed; seven order items given a cue). validate PASS, e2e OK. Not checked by a native speaker (tools/target/ja/REVIEW.md).
