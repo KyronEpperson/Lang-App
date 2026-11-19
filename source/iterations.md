@@ -1077,3 +1077,9 @@ Ship Cebuano for English speakers (en-ceb) after the cold review.
 
 ### 2.40.0 — results
 28 lessons, 18 decks, 319 cards, 392 practice items; validate PASS; roadmap 26 items linked; e2e OK on thirteen lessons. No audio (no device or cloud voice). Pron line: stress capitals only on the 160 of 364 core words confirmed in a source; the rest lowercase. Not native-checked (REVIEW.md, STRESS-AUDIT.md).
+
+## 2.40.1 — prompt
+Language picker ("What do you want to learn?") should be in alphabetical order.
+
+### 2.40.1 — results
+Live courses and the coming-soon list are both sorted by the name shown, in the learner's language (localeCompare). Browser check for English: Arabic … Vietnamese (17), Afrikaans … Urdu (19). Harness 83 guards.

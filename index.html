@@ -583,7 +583,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.40.0 · 2026-11-19';
+const APP_VERSION='2.40.1 · 2026-11-19';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1719,6 +1719,7 @@ function showLangHome(opts){ opts=opts||{}; closeSheet(); const old=$('langHome'
       <div class="lh-list" role="list">${live.map(k=>`<div role="listitem"><button class="lh-row" type="button" data-native="${k}" lang="${hLang(k)}"><span class="lh-flag" aria-hidden="true">${FLG(k)}</span><span class="lh-name"><b>${LANGS[k].self}</b></span><span class="lh-go" aria-hidden="true">›</span></button></div>`).join('')}</div>
       ${soon.length?`<p class="lh-soon">🔒 ${escT(preBi('Coming soon','출시 예정'))}</p><div class="lh-locked" role="list" aria-label="${escT(preBi('Coming soon','출시 예정'))}">${soon.map(k=>lock(FLG(k),LANGS[k].self,soonT(k))).join('')}</div>`:''}</div>`; focus(); };
   const step2=n=>{ native=n; lhDir(n); const tr=(en,k)=>escT(LLin(n,en,k)); const live=Object.values(courseStubs()).filter(c=>c.native===n); const lt=live.map(c=>c.target); const soon=Object.keys(LANGS).filter(k=>k!==n&&!lt.includes(k)&&(!LANGS[k].t||roadmapOf(k))); /* a planned language is listed once its lesson plan exists */
+    const nm=c=>(c.name&&c.name[n])||langName(c.target,n), cmp=(a,b)=>String(a).localeCompare(String(b),n); live.sort((a,b)=>cmp(nm(a),nm(b))); soon.sort((a,b)=>cmp(langName(a,n),langName(b,n))); /* both lists alphabetical in the learner's language */
     w.innerHTML=`<div class="wbox" lang="${hLang(n)}"><div class="lh-top"><button class="ghost lh-back" type="button">${tr('← Back','← 뒤로')}</button>${xBtn(n)}</div><div><h1 class="lh-q">${tr('What do you want to learn?','무엇을 배우고 싶으세요?')}</h1></div>
       <div class="lh-list" role="list">${live.map(c=>{ const cur=META.picked&&c.id===COURSE.id;
         return `<div role="listitem"><button class="lh-row${cur?' on':''}" type="button" data-course="${c.id}"><span class="lh-flag" aria-hidden="true">${FLG(c.target)}</span><span class="lh-name"><b>${escT((c.name&&c.name[n])||langName(c.target,n))}</b>${cur?`<span>${tr('Current course','현재 코스')}</span>`:''}</span><span class="lh-go" aria-hidden="true">›</span></button></div>`; }).join('')}</div>
