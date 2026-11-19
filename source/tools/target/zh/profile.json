@@ -1,0 +1,309 @@
+{
+ "target": "zh",
+ "nameEn": "Chinese",
+ "self": "中文",
+ "ttsLang": "zh-CN",
+ "brand": "中文",
+ "accents": true,
+ "keys": "ü ̄ ́ ̌ ̀",
+ "greet": [
+  [
+   "晚安",
+   "Good night (you're up late)"
+  ],
+  [
+   "早上好",
+   "Good morning"
+  ],
+  [
+   "下午好",
+   "Good afternoon"
+  ],
+  [
+   "晚上好",
+   "Good evening"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?=[^\\n]*[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈŌÓǑÒ]|(?:ma|ne|ba|le|de|a|zhe|guo|men|ge)[.?!]?$)(?:(?:zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])(?:i[aāáǎà]ng|i[oōóǒò]ng|u[aāáǎà]ng|[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|i[aāáǎà]o|i[aāáǎà]n|[iīíǐì]ng|u[aāáǎà]i|u[aāáǎà]n|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|i[aāáǎà]|i[eēéěè]|i[uūúǔù]|[iīíǐì]n|u[aāáǎà]|u[oōóǒò]|u[iīíǐì]|[uūúǔù]n|ü[eēéěè]|u[eēéěè]|[aāáǎà]|[oōóǒò]|[eēéěè]|[iīíǐì]|[uūúǔù]|[üǖǘǚǜ])r?|(?:Zh|Ch|Sh|[BPMFDTNLGKHJQXRZCSYW])(?:i[aāáǎà]ng|i[oōóǒò]ng|u[aāáǎà]ng|[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|i[aāáǎà]o|i[aāáǎà]n|[iīíǐì]ng|u[aāáǎà]i|u[aāáǎà]n|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|i[aāáǎà]|i[eēéěè]|i[uūúǔù]|[iīíǐì]n|u[aāáǎà]|u[oōóǒò]|u[iīíǐì]|[uūúǔù]n|ü[eēéěè]|u[eēéěè]|[aāáǎà]|[oōóǒò]|[eēéěè]|[iīíǐì]|[uūúǔù]|[üǖǘǚǜ])r?|(?:[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|[aāáǎà]|[oōóǒò]|[eēéěè])r?|(?:[AĀÁǍÀ]ng|[EĒÉĚÈ]ng|[OŌÓǑÒ]ng|[AĀÁǍÀ]i|[EĒÉĚÈ]i|[AĀÁǍÀ]o|[OŌÓǑÒ]u|[AĀÁǍÀ]n|[EĒÉĚÈ]n|[EĒÉĚÈ]r|[AĀÁǍÀ]|[OŌÓǑÒ]|[EĒÉĚÈ])r?)(?:(?:zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])(?:i[aāáǎà]ng|i[oōóǒò]ng|u[aāáǎà]ng|[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|i[aāáǎà]o|i[aāáǎà]n|[iīíǐì]ng|u[aāáǎà]i|u[aāáǎà]n|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|i[aāáǎà]|i[eēéěè]|i[uūúǔù]|[iīíǐì]n|u[aāáǎà]|u[oōóǒò]|u[iīíǐì]|[uūúǔù]n|ü[eēéěè]|u[eēéěè]|[aāáǎà]|[oōóǒò]|[eēéěè]|[iīíǐì]|[uūúǔù]|[üǖǘǚǜ])r?|'(?:[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|[aāáǎà]|[oōóǒò]|[eēéěè])r?)*[,.?!:;]?(?: (?:(?:zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])(?:i[aāáǎà]ng|i[oōóǒò]ng|u[aāáǎà]ng|[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|i[aāáǎà]o|i[aāáǎà]n|[iīíǐì]ng|u[aāáǎà]i|u[aāáǎà]n|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|i[aāáǎà]|i[eēéěè]|i[uūúǔù]|[iīíǐì]n|u[aāáǎà]|u[oōóǒò]|u[iīíǐì]|[uūúǔù]n|ü[eēéěè]|u[eēéěè]|[aāáǎà]|[oōóǒò]|[eēéěè]|[iīíǐì]|[uūúǔù]|[üǖǘǚǜ])r?|(?:Zh|Ch|Sh|[BPMFDTNLGKHJQXRZCSYW])(?:i[aāáǎà]ng|i[oōóǒò]ng|u[aāáǎà]ng|[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|i[aāáǎà]o|i[aāáǎà]n|[iīíǐì]ng|u[aāáǎà]i|u[aāáǎà]n|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|i[aāáǎà]|i[eēéěè]|i[uūúǔù]|[iīíǐì]n|u[aāáǎà]|u[oōóǒò]|u[iīíǐì]|[uūúǔù]n|ü[eēéěè]|u[eēéěè]|[aāáǎà]|[oōóǒò]|[eēéěè]|[iīíǐì]|[uūúǔù]|[üǖǘǚǜ])r?|(?:[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|[aāáǎà]|[oōóǒò]|[eēéěè])r?|(?:[AĀÁǍÀ]ng|[EĒÉĚÈ]ng|[OŌÓǑÒ]ng|[AĀÁǍÀ]i|[EĒÉĚÈ]i|[AĀÁǍÀ]o|[OŌÓǑÒ]u|[AĀÁǍÀ]n|[EĒÉĚÈ]n|[EĒÉĚÈ]r|[AĀÁǍÀ]|[OŌÓǑÒ]|[EĒÉĚÈ])r?)(?:(?:zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])(?:i[aāáǎà]ng|i[oōóǒò]ng|u[aāáǎà]ng|[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|i[aāáǎà]o|i[aāáǎà]n|[iīíǐì]ng|u[aāáǎà]i|u[aāáǎà]n|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|i[aāáǎà]|i[eēéěè]|i[uūúǔù]|[iīíǐì]n|u[aāáǎà]|u[oōóǒò]|u[iīíǐì]|[uūúǔù]n|ü[eēéěè]|u[eēéěè]|[aāáǎà]|[oōóǒò]|[eēéěè]|[iīíǐì]|[uūúǔù]|[üǖǘǚǜ])r?|'(?:[aāáǎà]ng|[eēéěè]ng|[oōóǒò]ng|[aāáǎà]i|[eēéěè]i|[aāáǎà]o|[oōóǒò]u|[aāáǎà]n|[eēéěè]n|[eēéěè]r|[aāáǎà]|[oōóǒò]|[eēéěè])r?)*[,.?!:;]?)*$",
+ "targetScript": "[㐀-鿿豈-﫿āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]",
+ "standingRule": {
+  "keywords": "\\b(?:first|second|third|fourth|neutral) tones?\\b|\\btone (?:marks?|pairs?|changes?)\\b|\\bmeasure words?\\b|\\bbefore the (?:verb|noun)\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "pinyin",
+   "title": "Pinyin: initials and finals",
+   "roadmap": "zh-pinyin",
+   "deck": "Pinyin sounds"
+  },
+  {
+   "id": "tones",
+   "title": "Four tones and the neutral tone",
+   "roadmap": "zh-tones",
+   "deck": "Tone pairs"
+  },
+  {
+   "id": "tone-change",
+   "title": "Tone changes: 不, 一, third tone",
+   "roadmap": "zh-tone-change",
+   "deck": "Tone pairs"
+  },
+  {
+   "id": "characters",
+   "title": "How characters work: strokes and radicals",
+   "roadmap": "zh-characters",
+   "deck": "First characters"
+  },
+  {
+   "id": "greetings",
+   "title": "Hello, thank you, sorry: Chinese courtesy",
+   "roadmap": "",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "pronouns",
+   "title": "Pronouns and 们",
+   "roadmap": "zh-pronouns",
+   "deck": "People and family"
+  },
+  {
+   "id": "shi",
+   "title": "是: A is B",
+   "roadmap": "zh-shi",
+   "deck": "About me"
+  },
+  {
+   "id": "adj",
+   "title": "Adjectives with 很 (no 是)",
+   "roadmap": "zh-adj",
+   "deck": "Describing things"
+  },
+  {
+   "id": "ma",
+   "title": "Questions with 吗 and 呢",
+   "roadmap": "zh-ma",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "question-words",
+   "title": "Question words: 什么, 谁, 哪儿, 几",
+   "roadmap": "zh-question-words",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "bu-mei",
+   "title": "Negation: 不 and 没 (not, didn't)",
+   "roadmap": "zh-bu-mei",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "de",
+   "title": "的: possession and describing",
+   "roadmap": "zh-de",
+   "deck": "Describing things"
+  },
+  {
+   "id": "you",
+   "title": "有: have and there is",
+   "roadmap": "zh-you",
+   "deck": "Shopping"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers and money",
+   "roadmap": "zh-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "measure",
+   "title": "Measure words: 个, 本, 杯",
+   "roadmap": "zh-measure",
+   "deck": "Measure words"
+  },
+  {
+   "id": "food",
+   "title": "Ordering food and drinks",
+   "roadmap": "",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "family",
+   "title": "Family and age",
+   "roadmap": "",
+   "deck": "People and family"
+  },
+  {
+   "id": "time",
+   "title": "Time and dates",
+   "roadmap": "zh-time",
+   "deck": "Time, days and dates"
+  },
+  {
+   "id": "zai",
+   "title": "在: at, in, and location words",
+   "roadmap": "zh-zai",
+   "deck": "Around town and directions"
+  },
+  {
+   "id": "word-order",
+   "title": "Word order: who · when · where · verb",
+   "roadmap": "zh-word-order",
+   "deck": "Time, days and dates"
+  },
+  {
+   "id": "want-can",
+   "title": "想, 要, 会, 能: want and can",
+   "roadmap": "zh-want-can",
+   "deck": "Work and study"
+  },
+  {
+   "id": "le",
+   "title": "了: done, and changed (not a past tense)",
+   "roadmap": "zh-le",
+   "deck": "Travel and transport"
+  },
+  {
+   "id": "progress",
+   "title": "在 and 正在: doing it right now",
+   "roadmap": "zh-progress",
+   "deck": "Work and study"
+  },
+  {
+   "id": "serial",
+   "title": "Two verbs in a row: 去 + verb",
+   "roadmap": "zh-serial",
+   "deck": "Around town and directions"
+  },
+  {
+   "id": "a-not-a",
+   "title": "Verb-not-verb questions: 去不去",
+   "roadmap": "zh-a-not-a",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "ye-dou",
+   "title": "也, 都, 还: also, all, still",
+   "roadmap": "zh-ye-dou",
+   "deck": "About me"
+  },
+  {
+   "id": "ba-bie",
+   "title": "吧 and 别: let's, and don't",
+   "roadmap": "zh-ba-bie",
+   "deck": "Health and help"
+  },
+  {
+   "id": "and-or",
+   "title": "和 and 还是: and, or",
+   "roadmap": "zh-and-or",
+   "deck": "Food and drink"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Pinyin sounds",
+   "group": "Sounds and script",
+   "desc": "One character per sound point: the initials and finals that English readers misread (b / p, j q x, zh ch sh r, z c s, e, ü, -i)"
+  },
+  {
+   "name": "Tone pairs",
+   "group": "Sounds and script",
+   "desc": "Same syllable, different tone, different word: 妈 麻 马 骂, 买 / 卖, 汤 / 糖, 问 / 吻"
+  },
+  {
+   "name": "First characters",
+   "group": "Sounds and script",
+   "desc": "Pictures and compounds to recognise: 人 口 木 山 日 月 女 子 好 明 休 林"
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "Hello, thank you, sorry, goodbye, and the polite 您"
+  },
+  {
+   "name": "People and family",
+   "group": "First steps",
+   "desc": "Pronouns, family members and friends, and how to count a family"
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, nationality, age, where you live and what you study"
+  },
+  {
+   "name": "Numbers and money",
+   "group": "Everyday words",
+   "desc": "Numbers to 100 and beyond, 二 and 两, prices in 块"
+  },
+  {
+   "name": "Measure words",
+   "group": "Everyday words",
+   "desc": "Number or this / that + measure word + noun: 个, 本, 杯, 张, 件, 只, 双"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday words",
+   "desc": "Dumplings, noodles, tea and coffee, and ordering and paying in a restaurant"
+  },
+  {
+   "name": "Shopping",
+   "group": "Everyday words",
+   "desc": "Prices, sizes, haggling a little, and paying by phone"
+  },
+  {
+   "name": "Time, days and dates",
+   "group": "Everyday words",
+   "desc": "Clock time, days of the week, dates, today and tomorrow"
+  },
+  {
+   "name": "Around town and directions",
+   "group": "Out and about",
+   "desc": "Where things are, left and right, and asking the way"
+  },
+  {
+   "name": "Travel and transport",
+   "group": "Out and about",
+   "desc": "Taxis, the subway, high-speed trains, tickets and hotels"
+  },
+  {
+   "name": "Work and study",
+   "group": "Out and about",
+   "desc": "Jobs, school, learning Chinese, and what you can do"
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Feeling sick, the pharmacy, the doctor, and asking for help"
+  },
+  {
+   "name": "Describing things",
+   "group": "Conversation",
+   "desc": "Adjectives for people, food, weather and things, with 很 and 太"
+  },
+  {
+   "name": "Questions and connectors",
+   "group": "Conversation",
+   "desc": "Question words, 吗 and 呢, verb-not-verb, and the words that join ideas"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "False friends, calques, 是 with adjectives, 不 and 没, 二 and 两, and polite-sounding mistakes"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true
+}

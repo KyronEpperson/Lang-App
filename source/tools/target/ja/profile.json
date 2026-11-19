@@ -1,0 +1,308 @@
+{
+ "target": "ja",
+ "nameEn": "Japanese",
+ "self": "日本語",
+ "ttsLang": "ja-JP",
+ "brand": "にほんご",
+ "accents": true,
+ "keys": "",
+ "greet": [
+  [
+   "おやすみなさい",
+   "Good night (time for bed)"
+  ],
+  [
+   "おはようございます",
+   "Good morning"
+  ],
+  [
+   "こんにちは",
+   "Hello"
+  ],
+  [
+   "こんばんは",
+   "Good evening"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*(?:aa|ee|oo|[ou]u(?!n(?: |$))[a-zāīūēō']))(?:kkya|kkyā|kkyo|kkyō|kkyu|kkyū|ppya|ppyā|ppyo|ppyō|ppyu|ppyū|ssha|sshā|sshe|sshē|sshi|sshī|ssho|sshō|sshu|sshū|tcha|tchā|tche|tchē|tchi|tchī|tcho|tchō|tchu|tchū|ttsu|ttsū|bba|bbā|bbe|bbē|bbi|bbī|bbo|bbō|bbu|bbū|bya|byā|byo|byō|byu|byū|cha|chā|che|chē|chi|chī|cho|chō|chu|chū|dda|ddā|dde|ddē|ddi|ddī|ddo|ddō|gga|ggā|gge|ggē|ggi|ggī|ggo|ggō|ggu|ggū|gya|gyā|gyo|gyō|gyu|gyū|hya|hyā|hyo|hyō|hyu|hyū|jja|jjā|jje|jjē|jji|jjī|jjo|jjō|jju|jjū|kka|kkā|kke|kkē|kki|kkī|kko|kkō|kku|kkū|kya|kyā|kyo|kyō|kyu|kyū|mya|myā|myo|myō|myu|myū|nya|nyā|nyo|nyō|nyu|nyū|ppa|ppā|ppe|ppē|ppi|ppī|ppo|ppō|ppu|ppū|pya|pyā|pyo|pyō|pyu|pyū|rya|ryā|ryo|ryō|ryu|ryū|sha|shā|she|shē|shi|shī|sho|shō|shu|shū|ssa|ssā|sse|ssē|sso|ssō|ssu|ssū|tsu|tsū|tta|ttā|tte|ttē|tti|ttī|tto|ttō|zza|zzā|zze|zzē|zzo|zzō|zzu|zzū|ba|bā|be|bē|bi|bī|bo|bō|bu|bū|da|dā|de|dē|di|dī|do|dō|fa|fā|fe|fē|fi|fī|fo|fō|fu|fū|ga|gā|ge|gē|gi|gī|go|gō|gu|gū|ha|hā|he|hē|hi|hī|ho|hō|ja|jā|je|jē|ji|jī|jo|jō|ju|jū|ka|kā|ke|kē|ki|kī|ko|kō|ku|kū|ma|mā|me|mē|mi|mī|mo|mō|mu|mū|na|nā|ne|nē|ni|nī|no|nō|nu|nū|pa|pā|pe|pē|pi|pī|po|pō|pu|pū|ra|rā|re|rē|ri|rī|ro|rō|ru|rū|sa|sā|se|sē|so|sō|su|sū|ta|tā|te|tē|ti|tī|to|tō|wa|wā|we|wē|wi|wī|ya|yā|yo|yō|yu|yū|za|zā|ze|zē|zo|zō|zu|zū|a|ā|e|ē|i|ī|o|ō|u|ū|n(?![aiueoāīūēōy'])|n'(?=[aiueoāīūēōy]))+(?:-(?:san|sama|kun|chan))?(?: (?:kkya|kkyā|kkyo|kkyō|kkyu|kkyū|ppya|ppyā|ppyo|ppyō|ppyu|ppyū|ssha|sshā|sshe|sshē|sshi|sshī|ssho|sshō|sshu|sshū|tcha|tchā|tche|tchē|tchi|tchī|tcho|tchō|tchu|tchū|ttsu|ttsū|bba|bbā|bbe|bbē|bbi|bbī|bbo|bbō|bbu|bbū|bya|byā|byo|byō|byu|byū|cha|chā|che|chē|chi|chī|cho|chō|chu|chū|dda|ddā|dde|ddē|ddi|ddī|ddo|ddō|gga|ggā|gge|ggē|ggi|ggī|ggo|ggō|ggu|ggū|gya|gyā|gyo|gyō|gyu|gyū|hya|hyā|hyo|hyō|hyu|hyū|jja|jjā|jje|jjē|jji|jjī|jjo|jjō|jju|jjū|kka|kkā|kke|kkē|kki|kkī|kko|kkō|kku|kkū|kya|kyā|kyo|kyō|kyu|kyū|mya|myā|myo|myō|myu|myū|nya|nyā|nyo|nyō|nyu|nyū|ppa|ppā|ppe|ppē|ppi|ppī|ppo|ppō|ppu|ppū|pya|pyā|pyo|pyō|pyu|pyū|rya|ryā|ryo|ryō|ryu|ryū|sha|shā|she|shē|shi|shī|sho|shō|shu|shū|ssa|ssā|sse|ssē|sso|ssō|ssu|ssū|tsu|tsū|tta|ttā|tte|ttē|tti|ttī|tto|ttō|zza|zzā|zze|zzē|zzo|zzō|zzu|zzū|ba|bā|be|bē|bi|bī|bo|bō|bu|bū|da|dā|de|dē|di|dī|do|dō|fa|fā|fe|fē|fi|fī|fo|fō|fu|fū|ga|gā|ge|gē|gi|gī|go|gō|gu|gū|ha|hā|he|hē|hi|hī|ho|hō|ja|jā|je|jē|ji|jī|jo|jō|ju|jū|ka|kā|ke|kē|ki|kī|ko|kō|ku|kū|ma|mā|me|mē|mi|mī|mo|mō|mu|mū|na|nā|ne|nē|ni|nī|no|nō|nu|nū|pa|pā|pe|pē|pi|pī|po|pō|pu|pū|ra|rā|re|rē|ri|rī|ro|rō|ru|rū|sa|sā|se|sē|so|sō|su|sū|ta|tā|te|tē|ti|tī|to|tō|wa|wā|we|wē|wi|wī|ya|yā|yo|yō|yu|yū|za|zā|ze|zē|zo|zō|zu|zū|a|ā|e|ē|i|ī|o|ō|u|ū|n(?![aiueoāīūēōy'])|n'(?=[aiueoāīūēōy]))+(?:-(?:san|sama|kun|chan))?)*$",
+ "targetScript": "[ぁ-ゖァ-ヺー々一-鿿]",
+ "standingRule": {
+  "keywords": "\\b(?:topic|subject|object|destination|direction|time|location|place-of-action|means|linking|also|comparison) particles?\\b|\\bparticles? (?:は|が|を|に|で|へ|の|も|と|や|から|まで|より)|\\bpolite endings?\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "hiragana",
+   "title": "Hiragana: reading Japanese sounds",
+   "roadmap": "ja-hiragana",
+   "deck": "Hiragana 1: a, ka, sa, ta rows"
+  },
+  {
+   "id": "sounds",
+   "title": "Small letters, long vowels and pitch",
+   "roadmap": "ja-sounds",
+   "deck": "Hiragana 3: marks and small letters"
+  },
+  {
+   "id": "katakana",
+   "title": "Katakana: loanwords and names",
+   "roadmap": "ja-katakana",
+   "deck": "Katakana 1: a, ka, sa, ta rows"
+  },
+  {
+   "id": "desu",
+   "title": "X は Y です: introducing yourself",
+   "roadmap": "ja-desu",
+   "deck": "Greetings and introductions"
+  },
+  {
+   "id": "kosoado",
+   "title": "これ・それ・あれ: this and that",
+   "roadmap": "ja-kosoado",
+   "deck": "Shopping and things"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers, prices and the time",
+   "roadmap": "",
+   "deck": "Numbers, money and time"
+  },
+  {
+   "id": "no-mo",
+   "title": "の and も: my, your, and \"too\"",
+   "roadmap": "ja-no-mo",
+   "deck": "Family and people"
+  },
+  {
+   "id": "masu",
+   "title": "Verbs in the ます form",
+   "roadmap": "ja-masu",
+   "deck": "Daily routine"
+  },
+  {
+   "id": "particles",
+   "title": "Particles を・に・で・へ",
+   "roadmap": "ja-particles",
+   "deck": "Places and getting around"
+  },
+  {
+   "id": "arimasu",
+   "title": "あります / います: there is",
+   "roadmap": "ja-arimasu",
+   "deck": "Shopping and things"
+  },
+  {
+   "id": "past",
+   "title": "Past: でした・ました",
+   "roadmap": "ja-past",
+   "deck": "Daily routine"
+  },
+  {
+   "id": "invite",
+   "title": "ませんか・ましょう: inviting",
+   "roadmap": "ja-invite",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "kanji-first",
+   "title": "First kanji: numbers, days, people",
+   "roadmap": "ja-kanji-first",
+   "deck": "First kanji"
+  },
+  {
+   "id": "adjectives",
+   "title": "い and な adjectives",
+   "roadmap": "ja-adjectives",
+   "deck": "Describing things"
+  },
+  {
+   "id": "suki",
+   "title": "すき・きらい: likes and dislikes",
+   "roadmap": "ja-suki",
+   "deck": "Likes, plans and free time"
+  },
+  {
+   "id": "counters",
+   "title": "Counting things: ひとつ, にまい, さんぼん",
+   "roadmap": "ja-counters",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "te",
+   "title": "The て form: and then",
+   "roadmap": "ja-te",
+   "deck": "Daily routine"
+  },
+  {
+   "id": "te-requests",
+   "title": "てください・てもいいですか・てはいけません",
+   "roadmap": "ja-te-requests",
+   "deck": "Polite requests and help"
+  },
+  {
+   "id": "teiru",
+   "title": "ている: doing now, and states",
+   "roadmap": "ja-teiru",
+   "deck": "Family and people"
+  },
+  {
+   "id": "short",
+   "title": "Short forms and casual speech",
+   "roadmap": "ja-short",
+   "deck": "Casual and polite"
+  },
+  {
+   "id": "to-omou",
+   "title": "とおもいます・といっていました: opinions and reports",
+   "roadmap": "ja-to-omou",
+   "deck": "Describing things"
+  },
+  {
+   "id": "noun-mod",
+   "title": "Describing people and things with verbs",
+   "roadmap": "ja-noun-mod",
+   "deck": "Family and people"
+  },
+  {
+   "id": "compare",
+   "title": "Comparing: より・いちばん",
+   "roadmap": "ja-compare",
+   "deck": "Describing things"
+  },
+  {
+   "id": "tsumori",
+   "title": "つもり・なる: plans and changes",
+   "roadmap": "ja-tsumori",
+   "deck": "Likes, plans and free time"
+  },
+  {
+   "id": "tai",
+   "title": "たい: want to",
+   "roadmap": "ja-tai",
+   "deck": "Places and getting around"
+  },
+  {
+   "id": "koto-aru",
+   "title": "たことがあります: experiences",
+   "roadmap": "ja-koto-aru",
+   "deck": "Places and getting around"
+  },
+  {
+   "id": "n-desu",
+   "title": "んです・ので: explaining",
+   "roadmap": "ja-n-desu",
+   "deck": "Polite requests and help"
+  },
+  {
+   "id": "must",
+   "title": "なければいけません・ほうがいい",
+   "roadmap": "ja-must",
+   "deck": "Polite requests and help"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Hiragana 1: a, ka, sa, ta rows",
+   "group": "Kana and first kanji",
+   "desc": "The first 20 hiragana, one letter per card: あ い う え お, か…こ, さ…そ, た…と"
+  },
+  {
+   "name": "Hiragana 2: na to n",
+   "group": "Kana and first kanji",
+   "desc": "The other 26 basic hiragana, one letter per card: な…の, は…ほ, ま…も, や ゆ よ, ら…ろ, わ を ん"
+  },
+  {
+   "name": "Hiragana 3: marks and small letters",
+   "group": "Kana and first kanji",
+   "desc": "Sound marks (が, ざ, だ, ば, ぱ rows), small ゃ ゅ ょ, and words with small っ and long vowels"
+  },
+  {
+   "name": "Katakana 1: a, ka, sa, ta rows",
+   "group": "Kana and first kanji",
+   "desc": "The first 20 katakana, each with a loanword you know: ア (アメリカ), カ (カメラ)…"
+  },
+  {
+   "name": "Katakana 2: na to n, plus long vowels",
+   "group": "Kana and first kanji",
+   "desc": "The other 26 katakana, plus loanwords with ー and the extra sounds ティ, ファ"
+  },
+  {
+   "name": "First kanji",
+   "group": "Kana and first kanji",
+   "desc": "The 30 kanji words of the course (numbers, yen, days of the week, time, people, Japan), one reading each"
+  },
+  {
+   "name": "Greetings and introductions",
+   "group": "First steps",
+   "desc": "Hello, thank you, excuse me, and introducing yourself politely"
+  },
+  {
+   "name": "Family and people",
+   "group": "First steps",
+   "desc": "Your family and someone else's family, friends, and words for people"
+  },
+  {
+   "name": "Numbers, money and time",
+   "group": "First steps",
+   "desc": "Numbers up to 99,999, prices in yen, and telling the time"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Japanese food, ordering, counting what you order, and mealtime phrases"
+  },
+  {
+   "name": "Shopping and things",
+   "group": "Everyday life",
+   "desc": "This and that, everyday things, where things are, and paying"
+  },
+  {
+   "name": "Daily routine",
+   "group": "Everyday life",
+   "desc": "Everyday verbs in the ます form, time words and days of the week"
+  },
+  {
+   "name": "Describing things",
+   "group": "Everyday life",
+   "desc": "い and な adjectives, opinions and comparisons"
+  },
+  {
+   "name": "Likes, plans and free time",
+   "group": "Everyday life",
+   "desc": "Hobbies, likes and dislikes, and plans for the weekend"
+  },
+  {
+   "name": "Places and getting around",
+   "group": "Out and about",
+   "desc": "Stations, directions, trains and travel in Japan"
+  },
+  {
+   "name": "Polite requests and help",
+   "group": "Out and about",
+   "desc": "Please, may I, must not, feeling sick, and asking for help"
+  },
+  {
+   "name": "Casual and polite",
+   "group": "Watch out",
+   "desc": "The same thing said to a friend and to a stranger: short forms and polite forms"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Watch out",
+   "desc": "Katakana false friends, あなた, yes and no, and polite ways to say no"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true
+}

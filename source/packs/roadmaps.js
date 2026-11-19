@@ -76,15 +76,15 @@ LANGAPP_PACKS.roadmaps = {
     src: ["HSK 1 grammar list (Mandarin Temple)", "That's Mandarin: HSK 3.0 2026 update"], note: "HSK keeps nine levels; revised word counts were reported as expected from July 2026 and not confirmed. The sounds stage is standard practice.",
     stages: [
       { en: "Sounds and script", ko: "소리와 글자", items: [
-        ["zh-pinyin", "Pinyin: initials and finals", "병음: 성모와 운모"], ["zh-tones", "Four tones and the neutral tone", "4성과 경성"], ["zh-tone-change", "Tone changes: 不, 一, third tone", "성조 변화: 不, 一, 3성"], ["zh-characters", "How characters work: strokes and radicals", "한자의 원리: 획과 부수"] ] },
+        ["zh-pinyin", "Pinyin: initials and finals", "병음: 성모와 운모", "pinyin"], ["zh-tones", "Four tones and the neutral tone", "4성과 경성", "tones"], ["zh-tone-change", "Tone changes: 不, 一, third tone", "성조 변화: 不, 一, 3성", "tone-change"], ["zh-characters", "How characters work: strokes and radicals", "한자의 원리: 획과 부수", "characters"] ] },
       { en: "First sentences", ko: "첫 문장", items: [
-        ["zh-pronouns", "Pronouns and 们", "대명사와 们"], ["zh-shi", "是: A is B", "是: A는 B예요"], ["zh-adj", "Adjective sentences with 很", "很을 쓰는 형용사 문장"], ["zh-ma", "Questions with 吗 and 呢", "吗와 呢 의문문"],
-        ["zh-question-words", "Question words: 什么・谁・哪儿・几", "의문사: 什么・谁・哪儿・几"], ["zh-bu-mei", "Negation: 不 and 没", "부정: 不와 没"], ["zh-de", "的: possession and describing", "的: 소유와 수식"], ["zh-you", "有: have and there is", "有: 있어요"] ] },
+        ["zh-pronouns", "Pronouns and 们", "대명사와 们", "pronouns"], ["zh-shi", "是: A is B", "是: A는 B예요", "shi"], ["zh-adj", "Adjective sentences with 很", "很을 쓰는 형용사 문장", "adj"], ["zh-ma", "Questions with 吗 and 呢", "吗와 呢 의문문", "ma"],
+        ["zh-question-words", "Question words: 什么・谁・哪儿・几", "의문사: 什么・谁・哪儿・几", "question-words"], ["zh-bu-mei", "Negation: 不 and 没", "부정: 不와 没", "bu-mei"], ["zh-de", "的: possession and describing", "的: 소유와 수식", "de"], ["zh-you", "有: have and there is", "有: 있어요", "you"] ] },
       { en: "Numbers, time and place", ko: "숫자, 시간, 장소", items: [
-        ["zh-numbers", "Numbers and money", "숫자와 돈"], ["zh-measure", "Measure words: 个・本・杯", "양사: 个・本・杯"], ["zh-time", "Time and dates", "시간과 날짜"], ["zh-zai", "在: at, in, and location words", "在: 위치와 방위사"], ["zh-word-order", "Word order: who · when · where · verb", "어순: 누가 · 언제 · 어디서 · 동사"] ] },
+        ["zh-numbers", "Numbers and money", "숫자와 돈", "numbers"], ["zh-measure", "Measure words: 个・本・杯", "양사: 个・本・杯", "measure"], ["zh-time", "Time and dates", "시간과 날짜", "time"], ["zh-zai", "在: at, in, and location words", "在: 위치와 방위사", "zai"], ["zh-word-order", "Word order: who · when · where · verb", "어순: 누가 · 언제 · 어디서 · 동사", "word-order"] ] },
       { en: "Doing things", ko: "행동 말하기", items: [
-        ["zh-want-can", "想・要・会・能: want and can", "想・要・会・能: 원함과 가능"], ["zh-le", "了: completed and changed", "了: 완료와 변화"], ["zh-progress", "正在: doing right now", "正在: 진행"], ["zh-serial", "Two verbs in a row: 去 + verb", "연동문: 去 + 동사"],
-        ["zh-a-not-a", "Verb-not-verb questions", "정반 의문문"], ["zh-ye-dou", "也・都・还: also, all, still", "也・都・还"], ["zh-ba-bie", "吧・别: suggestions and don't", "吧・别: 제안과 금지"], ["zh-and-or", "和・还是: and, or", "和・还是"] ] } ] },
+        ["zh-want-can", "想・要・会・能: want and can", "想・要・会・能: 원함과 가능", "want-can"], ["zh-le", "了: completed and changed", "了: 완료와 변화", "le"], ["zh-progress", "正在: doing right now", "正在: 진행", "progress"], ["zh-serial", "Two verbs in a row: 去 + verb", "연동문: 去 + 동사", "serial"],
+        ["zh-a-not-a", "Verb-not-verb questions", "정반 의문문", "a-not-a"], ["zh-ye-dou", "也・都・还: also, all, still", "也・都・还", "ye-dou"], ["zh-ba-bie", "吧・别: suggestions and don't", "吧・别: 제안과 금지", "ba-bie"], ["zh-and-or", "和・还是: and, or", "和・还是", "and-or"] ] } ] },
 
   es: { variant: {en: "Latin American Spanish", ko: "중남미 스페인어"}, basis: {en: "CEFR A1, Plan Curricular del Instituto Cervantes", ko: "CEFR A1, 세르반테스 문화원 교육과정"},
     src: ["Universidad de Zaragoza A1 programme (MCER + PCIC)"], note: "",

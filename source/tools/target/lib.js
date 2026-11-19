@@ -4,7 +4,8 @@ const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..', '..');
 const check = t => { if (!/^[a-z]{2}$/.test(t || '') || t === 'en') throw new Error('usage: <target language code>, e.g. es'); if (!fs.existsSync(path.join(__dirname, t, 'profile.json'))) throw new Error('no tools/target/' + t + '/profile.json'); return t; };
 const dir = t => path.join(__dirname, t);
-const packPath = t => path.join(ROOT, 'packs', 'course-en-' + t + '.js');
+/* a course still being written or reviewed has a HOLD file in its folder: its pack is built outside packs/ so a release of another course cannot pick it up */
+const packPath = t => fs.existsSync(path.join(__dirname, t, 'HOLD')) ? path.join(require('os').tmpdir(), 'course-en-' + t + '.hold.js') : path.join(ROOT, 'packs', 'course-en-' + t + '.js');
 const profile = t => JSON.parse(fs.readFileSync(path.join(dir(t), 'profile.json'), 'utf8'));
 /* rows of " | "-separated fields; empty fields allowed ("a |  | c", trailing " |") */
 function rows(text, n, label) {

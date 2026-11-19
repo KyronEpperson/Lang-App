@@ -993,3 +993,9 @@ Ship Vietnamese for English speakers (en-vi) after merge and cold review. Verify
 
 ### 2.30.0 — results
 en-vi: 28 lessons, 18 decks / 319 cards, 392 practice items. Cold review: 34 edits; no mis-toned word found, but only seven words could be checked against a dictionary (the fetch allowlist blocked the rest), so the tone marks rest mostly on the models' knowledge. validate PASS, e2e OK on 28 lessons, tone key test OK. Not checked by a native speaker (tools/target/vi/REVIEW.md).
+
+## 2.31.0 — prompt
+Ship Mandarin Chinese for English speakers (en-zh) after merge and cold review, with the engine work for it and for Japanese. Verify: validate, e2e on all 28 lessons, unit tests for pinyin and romaji matching, harness, site test.
+
+### 2.31.0 — results
+en-zh: 28 lessons, 18 decks / 321 cards, 392 practice items; simplified characters, generated pinyin. Cold review: 46 edits (no wrong Chinese found; 19 practice items in lessons-3 fixed where a "wrong" option was acceptable or tiles had two orders); pinyin read in full by the reviewer but no dictionary site was reachable. Engine: zhNorm / zhSetTone / zhMissingOnly, jaRoma / jaLoose / jaSame, kbT() tiles default per course, gen adds pinyin to accepted answers, HOLD file keeps an unfinished course out of packs/. validate PASS, e2e OK, harness 75 guards. Not checked by a native speaker (tools/target/zh/REVIEW.md).

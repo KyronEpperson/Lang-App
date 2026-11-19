@@ -1,0 +1,6 @@
+# added by the lead at merge (2026-11-19), from the writers' reports
+进来 jin4lai5; 别的 bie2de5; 家里 jia1li5; 学生们 xue2sheng5men5; 老师们 lao3shi1men5; 它们 ta1men5; 大人 da4ren5; 森林 sen1lin2
+钟 zhong1; 点钟 dian3zhong1; 久 jiu3; 好久不见 hao3jiu3 bu2 jian4; 父亲 fu4qin5; 母亲 mu3qin5; 角 jiao3; 年纪 nian2ji4; 素 su4; 吃素 chi1su4
+差 cha4; 关系 guan1xi5; 江 jiang1; 河 he2; 扫 sao3; 镜子 jing4zi5; 点儿 dianr3; 付 fu4; 迷路 mi2lu4; 光临 guang1lin2; 丢 diu1; 袋子 dai4zi5; 订 ding4; 哪国人 na3guo2ren2
+# added by EN-ZH-REVIEWER (2026-11-19): compounds the tool split wrongly (出 + 差 gave chū chà; 位 + 子 gave wèi zǐ)
+出差 chu1chai1; 位子 wei4zi5
