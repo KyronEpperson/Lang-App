@@ -12,7 +12,7 @@
    Key (summary; the full key is in the profile):
      vowels      ah (a)  eh (e)  ee (i)  oh (o)  oo (u)      ai (ay)  ow (aw)  oy (oy)  ooy (uy)  eew (iw)  ay (ey)
      consonants  as written, plus: ng (also at the start of a word)  ny (ny, ñ)  ch (ts, and ty / ch in loans)  sh (sy)  j (dy, j)
-                 g is always hard, written gh before ee / eh (gising -> GHEE-seeng)
+                 g is always hard, written gh before ee / eh (gising -> ghee-SEENG)
      q           the final catch (glottal stop), shown only before a pause: at the end of the text or before , . ? ! ; :
                  (batà -> BAH-tahq; "Bata pa siya." -> BAH-tah pah SHAH). Mid-phrase the catch is usually dropped in Manila speech.
      CAPITALS    the stressed (and lengthened) syllable. One-syllable words are lowercase.
@@ -24,45 +24,54 @@
      LEX_CHECKED holds forms checked against a named source (profile §6.5); LEX holds the author's forms (to be checked, §11). */
 
 const SRC_CHECKED = `
-batà áso sukà mangá kain umaga bahay araw opò pô oo hindî ikáw akó siyá=syá kamí kayó silá itó iyán iyón dito diyán=dyán doón
+batà áso sukà kain umaga bahay araw opò pô oo hindî ikáw akó siyá=syá kamí kayó silá itó iyán iyón dito diyán=dyán doón
 anó síno saán kailán bákit ilán magkáno nasaán kumustá magandá isá tatló maliít masayá malungkót malakás damít walâ huwág namán
 ngâ ba muna kasí palá inóm bilí sulát alís basa lupà sagót kauntî matabâ pinggán mabangó maligò niyá=nyá nilá iyó ninyó inyó
-kanilá kaniyá=kanyá puntá tutubí pakpák baít pitó sala`;
+kanilá kaniyá=kanyá puntá tutubí pakpák baít pitó sala
+salamat tsinélas masaráp gamót ngayón manggá kumáin bukas pagód gisíng kanin gustó kapé aral mag-áral trés
+mabuti mabaít atin namin natin tayo ko mo ka akin amin niyo=nyo hô din rin daw raw yatà lamang lang na pa ang sa si ni kay
+ng=nang yung kitá talagá grábe gabí waláng anumán edád hapon tanghalì martés lúnes alás sábado miyerkoles=myérkoles
+huwebes=hwébes linggó limá siyam=syám anim waló sampû líbo kuwatro=kwátro ótso dóse béynte bénte nuwebe=nwébe
+apat piso suklî kuya tito tita lola lolo anák uminóm kináin alám áyaw babáe lalaki áte tíyo kapatíd kakáin tatay
+singkuwenta=singkwénta singkwénta dalawá pinsan pumuntá maglutò lutúin
+paalam mamayâ biyernes=byérnes dos síngko saís taón minuto ónse diyes=dyés uno baryá anóng síge tará éwan íngat pangalan
+kahapon oras`;
+/* NOTE: one entry per spelling; a spelling listed twice with different forms is an error (the generator throws). */
 
 const SRC = `
-salamat mabuti tayo ka ko mo natin namin nila ninyo niyo=nyo akin iyo atin amin sa ang si ni kay ng=nang nang=nang mga=mangá na pa po=pô
-ho=hô rin din lang lamang yata=yatà daw raw kasi naman talaga talagá sige=síge tara ewan=éwan grabe=grábe ano'ng=anong
-umaga hapon gabí tanghalì ingat=íngat paalam walang=waláng anuman=anumán pangalan taon=taón edad
-kumusta kita
-ngayon=ngayón bukas kahapon mamaya=mamayâ kanina oras alas=alás minuto lunes=lúnes martes miyerkoles=myérkoles huwebes=hwébes biyernes=byérnes sabado linggo
-isa dalawá tatló apat limá anim pitó waló siyám=syám sampû daan=dáan libo=líbo
-uno dos tres=trés kuwatro=kwátro singko=síngko sais=saís siyete=syéte otso=ótso nuwebe=nwébe diyes=dyés onse=ónse dose=dóse
-bente=bénte beynte=béynte trenta=trénta singkuwenta=singkwénta singkwenta=singkwénta medya=médya
-piso pesos=pésos sukli=suklî magkano barya=baryá
-nanay tatay kuya ate=áte lola lolo tito tita anak kapatid asawa pamilya=pamílya magulang lalaki=lalaki babae=babáe
-bata kaibigan=kaibígan pinsan tiyo=tíyo tiya=tíya
-gusto ayaw=áyaw ayoko=ayóko kailangan puwede=pwéde pwede=pwéde alam=alám marunong
-kain kumain=kumáin kumakain=kumákáin kakain=kakáin kinain=kináin kainin=kaínin pagkain=pagkáin inom uminom=uminóm iinom=iinóm
-pumunta=pumuntá pupunta=pupuntá punta=puntá
-magluto=maglutò nagluto=naglutò nagluluto=naglulutò magluluto=maglulutò lutuin=lutuìn niluto=nilutò
+nila ninyo iyo nang=nang po=pô
+kasi naman
+umaga
+kumusta
+kanina
+isa tatló pitó daan=dáan
+siyete=syéte
+trenta=trénta medya=médya
+pesos=pésos magkano
+nanay asawa pamilya=pamílya magulang
+bata kaibigan=kaibígan tiya=tíya
+ayoko=ayóko kailangan puwede=pwéde pwede=pwéde marunong
+kumakain=kumákáin kainin=kaínin pagkain=pagkáin inom iinom=iinóm
+pupunta=pupuntá punta=puntá
+nagluto=naglutò nagluluto=naglulutò magluluto=maglulutò niluto=nilutò
 maglaro=maglarô naglaro=naglarô laro=larô magtrabaho=magtrabáho nagtatrabaho=nagtatrabáho trabaho=trabáho
-mag-aral=mag-áral nag-aaral=nag-aáral mag-aaral=mag-aáral aral=áral
-matulog=matulog natulog tulog=tulog maligo=maligò naligo=naligò gumising=gumísing gising=gísing
-kanin=kanín tubig=túbig kape=kápe tinapay mangga=manggá adobo=adóbo sinigang=sinígang lumpia=lumpyá pansit=pansít pancit=pansít
-masarap=masaráp busog=busóg gutom=gutom uhaw=uhaw tsaa=tsa-á halo=hálo
+nag-aaral=nag-aáral
+matulog natulog tulog=tulóg maligo=maligò naligo=naligò gumising=gumísing
+tubig=túbig tinapay adobo=adóbo sinigang=sinígang lumpia=lumpyá pansit=pansít pancit=pansít
+busog=busóg gutom=gutóm uhaw=uháw tsaa=tsa-á halo=hálo
 palengke=paléngke kusina=kusína tindahan=tindáhan bili=bilí pabili=pabilí mura=mura ito iyan iyon
 pambili mahal=mahál
-masakit=masakít sakit=sakít ulo tiyan=tiyán gamot=gamót botika=botíka tulong pakitulungan=pakitulúngan tulungan=tulúngan doktor=doktór ospital=ospitál
+masakit=masakít sakit=sakít ulo tiyan=tiyán botika=botíka tulong pakitulungan=pakitulúngan tulungan=tulúngan doktor=doktór ospital=ospitál
 saan sino kailan bakit paano=paáno alin=alín nasaan
 jeep=jip dyip=jip para=pára bayad sakayan=sakáyan kanan kaliwa=kaliwâ diretso=dirétso kanto=kánto simbahan=simbáhan malapit=malápit malayo=maláyò
-lang dito diyan doon yan=yán di=dî wag=wag yung=yung yun=yun to=to
+dito diyan doon yan=yán di=dî wag=wag yun=yun to=to
 opisina=opisína guro estudyante=estudyánte paaralan=paaralán eskuwelahan=eskwelahán
-maganda malaki=malakí maliit mabait=mabaít matangkad=matangkád pangit=pangit bago=bágo luma=lumà
-masaya pagod=págod malungkot galit=galit takot=tákot
+maganda malaki=malakí maliit matangkad=matangkád pangit=pangit bago=bágo luma=lumà
+masaya malungkot galit=galít takot=takót
 kumanta=kumantá sumayaw=sumayáw sayaw=sayáw
 oo opo hindi wala huwag=huwág
 ikaw ako siya kami kayo sila
-tsinelas=tsinélas kutsara=kutsára
+kutsara=kutsára
 Ana=ána Juan=hwán Jun=jun Maria=marí-ya Jose=hosé Liza=lísa Mark=mark Joy=joy Rey=rey Carlo=kárlo Bea=béya Ben=ben
 Maynila=maynílà Makati=makáti Cebu=sebú Pilipinas=pilipínas Amerika=amérika Tagalog=tagálog Ingles=inglés Pilipino=pilipíno Amerikano=amerikáno
 taga=tagá`;
@@ -76,6 +85,7 @@ function parseList(src) {
     const spell = (i < 0 ? e : e.slice(0, i));
     const form = (i < 0 ? e : e.slice(i + 1));
     const key = plain(spell);
+    if (Object.prototype.hasOwnProperty.call(out, key) && out[key] !== form) throw new Error('LEX lists «' + key + '» twice: ' + out[key] + ' / ' + form);
     out[key] = form;
   });
   return out;
@@ -87,6 +97,14 @@ const LEX_AUTHOR = parseList(SRC);
 /* the author's list wins only where the checked list has no entry */
 const LEX = Object.assign({}, LEX_AUTHOR, LEX_CHECKED);
 LEX['anong'] = 'anóng';                                             /* ano + linker, written as one word */
+
+/* Homographs: a spelling has ONE reading in LEX (the one the course uses). If a Tagalog row really needs the other reading, add the
+   whole row here, normalised (lowercase, punctuation removed, single spaces), with the word and its marked form. The rule matches the
+   exact string only, so it survives repron.js (which respells the bare target) and keeps one pron per string for the validator. */
+const STRING_CTX = {
+  'bukas na ang tindahan': { bukas: 'bukás' },                       /* "The shop is open now" (bukas = tomorrow elsewhere) */
+};
+const normRow = t => String(t).normalize('NFC').toLowerCase().replace(/[.,!?;:"“”«»()…–—\/¿¡]/g, ' ').replace(/\s+/g, ' ').trim();
 
 /* whole words whose pron is fixed as is */
 const EXC = { 'ng': 'nahng', 'nang': 'nahng', 'mga': 'mah-NGAH', 'cr': 'see-AHR' };
@@ -245,21 +263,34 @@ function respell(text) {
   const t = String(text).normalize('NFC').replace(/[“”«»()"…–—\/]/g, ' ').replace(/\s+/g, ' ').trim();
   if (!t) return '';
   const toks = t.split(' ');
+  const ctx = STRING_CTX[normRow(t)] || {};
   const out = [];
   toks.forEach((tok, i) => {
     const pause = /[.,!?;:]$/.test(tok) || i === toks.length - 1;
     const core = tok.replace(/[.,!?;:¿¡]+/g, '').replace(/^'+|'+$/g, m => m);
     if (!core.replace(/['’]/g, '')) return;
-    const r = word(core, pause);
+    const k = plain(core);
+    const r = has(ctx, k) ? wordFromForm(ctx[k], pause, null, k) : word(core, pause);
     if (r) out.push(r);
   });
   return out.join(' ');
 }
 function annotated(form) { return wordFromForm(form, true, null, form); }
 
-module.exports = { respell, annotated, LEX, LEX_CHECKED, LEX_AUTHOR, EXC };
+/* pronPattern (profile.json) is built here, so the lead can rebuild it: syllable = consonants, one vowel spelling of the key,
+   consonants, optional final q; a word = one lowercase syllable, or hyphenated syllables with exactly one CAPITAL syllable. */
+function pronPattern() {
+  const C = '(?:ch|[bdfghjklmnprstvwyz])', CU = '(?:CH|[BDFGHJKLMNPRSTVWYZ])';
+  const V = '(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)', VU = V.replace(/[a-z]+/g, m => m.toUpperCase());
+  const sl = C + '*' + V + C + '*q?', su = CU + '*' + VU + CU + '*Q?';
+  const w = '(?:' + sl + '|(?:' + sl + '-)*' + su + '(?:-' + sl + ')+|(?:' + sl + '-)+' + su + ')';
+  return '^(?!.*[qQ]-)' + w + '(?: ' + w + ')*$';
+}
+
+module.exports = { respell, annotated, pronPattern, LEX, LEX_CHECKED, LEX_AUTHOR, EXC, STRING_CTX };
 if (require.main === module) {
   const a = process.argv.slice(2);
   if (a[0] === '--lex') a.slice(1).forEach(x => console.log(x, '->', annotated(x)));
+  else if (a[0] === '--pattern') console.log(pronPattern());
   else a.forEach(x => console.log(x, '->', respell(x)));
 }

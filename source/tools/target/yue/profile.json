@@ -4,7 +4,7 @@
  "self": "廣東話",
  "ttsLang": "zh-HK",
  "brand": "廣東話",
- "accents": false,
+ "accents": true,
  "keys": "",
  "greet": [
   [
@@ -301,5 +301,7 @@
  "tilesDefault": true,
  "pronAnswers": true,
  "pronAnswersScript": "[㐀-鿿豈-﫿]",
- "romaAlmost": true
+ "romaAlmost": true,
+ "voiceMatch": "^(zh-(hant-)?hk|yue)",
+ "pronAnswersKeepSpaces": true
 }

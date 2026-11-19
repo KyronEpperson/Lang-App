@@ -4,7 +4,7 @@ import json, re, sys
 t = sys.argv[1]; R = '/home/claude/packs/roadmaps.js'
 P = json.load(open('/home/claude/tools/target/%s/profile.json' % t, encoding='utf8'))
 link = {l['roadmap']: l['id'] for l in P['lessons'] if l.get('roadmap')}
-s = open(R, encoding='utf8').read(); i = s.index('\n  %s: {' % t); m = re.search(r'\n  [a-z]{2}: \{', s[i + 5:]); j = i + 5 + m.start() if m else len(s); blk = s[i:j]; n = [0]; miss = []
+s = open(R, encoding='utf8').read(); mm = re.search(r'\n  (?:/\*PLAN:\w+\*/ )?%s: \{' % re.escape(t), s); i = mm.start(); m = re.search(r'\n  (?:/\*PLAN:\w+\*/ )?[a-z]{2,3}: \{', s[i + 5:]); j = i + 5 + m.start() if m else len(s); blk = s[i:j]; n = [0]; miss = []
 def rep(mo):
     rid = mo.group(1)
     if rid in link: n[0] += 1; return '["%s", %s, %s, "%s"]' % (rid, mo.group(2), mo.group(3), link[rid])

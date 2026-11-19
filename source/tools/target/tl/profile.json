@@ -1,1 +1,302 @@
-{"target":"tl","nameEn":"Tagalog","_status":"skeleton, being written"}
+{
+ "target": "tl",
+ "nameEn": "Tagalog",
+ "self": "Tagalog",
+ "ttsLang": "fil-PH",
+ "brand": "Tagalog",
+ "accents": false,
+ "keys": "",
+ "greet": [
+  [
+   "Magandang gabi",
+   "Good evening (you're up late)"
+  ],
+  [
+   "Magandang umaga",
+   "Good morning"
+  ],
+  [
+   "Magandang hapon",
+   "Good afternoon"
+  ],
+  [
+   "Magandang gabi",
+   "Good evening"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*[qQ]-)(?:(?:ch|[bdfghjklmnprstvwyz])*(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)(?:ch|[bdfghjklmnprstvwyz])*q?|(?:(?:ch|[bdfghjklmnprstvwyz])*(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)(?:ch|[bdfghjklmnprstvwyz])*q?-)*(?:CH|[BDFGHJKLMNPRSTVWYZ])*(?:OOY|EEW|EHW|OHW|OOW|AH|EH|EE|OH|OO|AI|OW|OY|AY)(?:CH|[BDFGHJKLMNPRSTVWYZ])*Q?(?:-(?:ch|[bdfghjklmnprstvwyz])*(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)(?:ch|[bdfghjklmnprstvwyz])*q?)+|(?:(?:ch|[bdfghjklmnprstvwyz])*(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)(?:ch|[bdfghjklmnprstvwyz])*q?-)+(?:CH|[BDFGHJKLMNPRSTVWYZ])*(?:OOY|EEW|EHW|OHW|OOW|AH|EH|EE|OH|OO|AI|OW|OY|AY)(?:CH|[BDFGHJKLMNPRSTVWYZ])*Q?)(?: (?:(?:ch|[bdfghjklmnprstvwyz])*(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)(?:ch|[bdfghjklmnprstvwyz])*q?|(?:(?:ch|[bdfghjklmnprstvwyz])*(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)(?:ch|[bdfghjklmnprstvwyz])*q?-)*(?:CH|[BDFGHJKLMNPRSTVWYZ])*(?:OOY|EEW|EHW|OHW|OOW|AH|EH|EE|OH|OO|AI|OW|OY|AY)(?:CH|[BDFGHJKLMNPRSTVWYZ])*Q?(?:-(?:ch|[bdfghjklmnprstvwyz])*(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)(?:ch|[bdfghjklmnprstvwyz])*q?)+|(?:(?:ch|[bdfghjklmnprstvwyz])*(?:ooy|eew|ehw|ohw|oow|ah|eh|ee|oh|oo|ai|ow|oy|ay)(?:ch|[bdfghjklmnprstvwyz])*q?-)+(?:CH|[BDFGHJKLMNPRSTVWYZ])*(?:OOY|EEW|EHW|OHW|OOW|AH|EH|EE|OH|OO|AI|OW|OY|AY)(?:CH|[BDFGHJKLMNPRSTVWYZ])*Q?))*$",
+ "targetScript": "[A-Za-zÑñ]",
+ "standingRule": {
+  "keywords": "\\b(?:ang|ng|sa) (?:form|marker|pronoun)s?\\b|\\bsi\\s*/\\s*ni\\s*/\\s*kay\\b|\\b(?:si|ni|kay|sina|nina|kina) (?:marks|is for|goes before|comes before)\\b|\\bmarks? the (?:topic|doer|owner|place|person|thing|object)\\b|\\btakes? (?:the )?ang\\b|\\bgets ang\\b|\\b(?:actor|object) focus\\b|\\blinker\\b|\\blinked\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "sounds",
+   "title": "Sounds and spelling",
+   "roadmap": "tl-sounds",
+   "deck": "Sounds and spelling"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings and respect: po and opo",
+   "roadmap": "tl-greetings",
+   "deck": "Greetings and respect"
+  },
+  {
+   "id": "pronouns",
+   "title": "ang pronouns: ako, ikaw / ka, siya, kami, tayo, kayo, sila",
+   "roadmap": "tl-pronouns",
+   "deck": "Family and people"
+  },
+  {
+   "id": "intro",
+   "title": "Introducing yourself: Ako si…, Taga-… ako",
+   "roadmap": "tl-intro",
+   "deck": "About me"
+  },
+  {
+   "id": "this-that",
+   "title": "ito, iyan, iyon: this and that",
+   "roadmap": "tl-this-that",
+   "deck": "Shopping and the market"
+  },
+  {
+   "id": "markers",
+   "title": "Markers: ang / si, ng / ni, sa / kay",
+   "roadmap": "tl-markers",
+   "deck": "Home and daily routine"
+  },
+  {
+   "id": "linker",
+   "title": "The linker na / -ng and ma- describing words",
+   "roadmap": "tl-linker",
+   "deck": "Describing people and things"
+  },
+  {
+   "id": "ng-pronouns",
+   "title": "ng pronouns and possession: ko, mo, niya",
+   "roadmap": "tl-ng-pronouns",
+   "deck": "About me"
+  },
+  {
+   "id": "questions",
+   "title": "Questions: ba, sino, ano, saan, kailan",
+   "roadmap": "tl-questions",
+   "deck": "Questions and little words"
+  },
+  {
+   "id": "yes-no",
+   "title": "Yes and no: oo / opo, hindi, wala, huwag",
+   "roadmap": "tl-yes-no",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers: native and Spanish",
+   "roadmap": "tl-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "may",
+   "title": "may, mayroon, wala: there is, have",
+   "roadmap": "tl-may",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "family",
+   "title": "Family and jobs",
+   "roadmap": "tl-family",
+   "deck": "Family and people"
+  },
+  {
+   "id": "sa-pronouns",
+   "title": "sa pronouns and place: sa akin, dito, nasaan",
+   "roadmap": "tl-sa-pronouns",
+   "deck": "Around town and directions"
+  },
+  {
+   "id": "word-order",
+   "title": "Word order: predicate first, ay, and the little words",
+   "roadmap": "",
+   "deck": "Questions and little words"
+  },
+  {
+   "id": "um",
+   "title": "-um- verbs (actor focus): kumain, uminom, pumunta",
+   "roadmap": "tl-um",
+   "deck": "Feelings and free time"
+  },
+  {
+   "id": "mag",
+   "title": "mag- verbs (actor focus): magluto, maglaro, magtrabaho",
+   "roadmap": "tl-mag",
+   "deck": "Home and daily routine"
+  },
+  {
+   "id": "aspect",
+   "title": "Aspect: completed, ongoing, future",
+   "roadmap": "tl-aspect",
+   "deck": "Work and school"
+  },
+  {
+   "id": "gusto",
+   "title": "gusto, ayaw, kailangan, puwede",
+   "roadmap": "tl-gusto",
+   "deck": "Feelings and free time"
+  },
+  {
+   "id": "in",
+   "title": "-in verbs (object focus): Kinain ko ang mangga",
+   "roadmap": "tl-in",
+   "deck": "Shopping and the market"
+  },
+  {
+   "id": "food",
+   "title": "Ordering food and prices",
+   "roadmap": "tl-food",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "time",
+   "title": "Time and days: alas-tres, Lunes, kahapon, bukas",
+   "roadmap": "tl-time",
+   "deck": "Time, days and dates"
+  },
+  {
+   "id": "directions",
+   "title": "Directions and transport: kaliwa, kanan, Para po!",
+   "roadmap": "tl-directions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "requests",
+   "title": "Requests and commands: paki-, huwag",
+   "roadmap": "tl-requests",
+   "deck": "Health and help"
+  },
+  {
+   "id": "particles",
+   "title": "Little words: na, pa, rin / din, lang, naman",
+   "roadmap": "tl-particles",
+   "deck": "Questions and little words"
+  },
+  {
+   "id": "compare",
+   "title": "Comparing: mas … kaysa, pinaka-",
+   "roadmap": "tl-compare",
+   "deck": "Describing people and things"
+  },
+  {
+   "id": "taglish",
+   "title": "Everyday Manila Tagalog and Taglish",
+   "roadmap": "",
+   "deck": "Everyday Manila Taglish"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Sounds and spelling",
+   "group": "First steps",
+   "desc": "Words that show each sound rule: ng and mga, the catch, stress that changes meaning, the tapped r and the vowel pairs"
+  },
+  {
+   "name": "Greetings and respect",
+   "group": "First steps",
+   "desc": "Greetings by time of day, thanks, sorry and goodbyes, with po, opo and the polite kayo"
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Your name, where you are from, your age, languages and job"
+  },
+  {
+   "name": "Family and people",
+   "group": "First steps",
+   "desc": "Family words, the pronouns, and the titles Filipinos use for people: kuya, ate, tito, tita"
+  },
+  {
+   "name": "Numbers and money",
+   "group": "Everyday words",
+   "desc": "Native numbers for counting, Spanish numbers for prices and the clock, and pesos"
+  },
+  {
+   "name": "Time, days and dates",
+   "group": "Everyday words",
+   "desc": "Telling the time with alas-, days of the week, yesterday and tomorrow"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday words",
+   "desc": "Rice, everyday dishes and drinks, eating together and ordering"
+  },
+  {
+   "name": "Shopping and the market",
+   "group": "Everyday words",
+   "desc": "The palengke and the sari-sari store: asking prices, this one and that one"
+  },
+  {
+   "name": "Home and daily routine",
+   "group": "Everyday words",
+   "desc": "Rooms and things at home, and a day from waking to sleeping"
+  },
+  {
+   "name": "Around town and directions",
+   "group": "Out and about",
+   "desc": "Places in town, asking where things are, near and far"
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Jeepneys, tricycles, taxis and Grab: fares, stops and saying where to"
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Saying what hurts, the pharmacy, the doctor and asking for help"
+  },
+  {
+   "name": "Work and school",
+   "group": "Out and about",
+   "desc": "Jobs, the office, classes and daily mag- verbs"
+  },
+  {
+   "name": "Describing people and things",
+   "group": "Conversation",
+   "desc": "Size, looks and character, joined with the linker"
+  },
+  {
+   "name": "Feelings and free time",
+   "group": "Conversation",
+   "desc": "How you feel, what you like, and -um- verbs for free time"
+  },
+  {
+   "name": "Questions and little words",
+   "group": "Conversation",
+   "desc": "Question words, and the little words that go after the first word"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Watch out",
+   "desc": "False friends, calques, and the three words for \"no\": hindi, wala, huwag"
+  },
+  {
+   "name": "Everyday Manila Taglish",
+   "group": "Watch out",
+   "desc": "What you hear every day in Manila: casual words, fillers and English mixed into Tagalog"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "voiceMatch": "^(fil|tl)(-|$)"
+}

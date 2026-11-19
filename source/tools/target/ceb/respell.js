@@ -1,41 +1,51 @@
 /* Cebuano spelling -> en-ceb pron respelling (profile docs/profiles/en-ceb.md §6). Deterministic and context-free per word,
    so every writer gets the same string for the same text.
-   Usage: node respell.js "Maayong buntag!"   ->   Maayong buntag! -> mah-AH-yohng BOON-tahg
+   Usage: node respell.js "Maayong buntag!"   ->   Maayong buntag! -> mah-ah-yohng boon-tahg   (both unchecked: lowercase)
           require('./respell.js').respell(text) returns the string.
    Key (summary; the full key is in the profile):
      vowels      ah (a)  ee (i, and native e)  eh (e in loans: kape)  oo (u)  oh (o)
                  ai (ay)  ow (aw)  ooy (uy)  eew (iw)  oy (oy)  ay (ey, loans only)
      consonants  ng (also at the start of a word: ngano)  g always hard (gh before ee / eh)  ch (ts: otso)  j (dy: dyip)
                  r = a tap. Everything else as written.
-     the catch   a syllable that starts with a vowel inside a word starts with a catch (maayo -> mah-AH-yoh, kan-on -> kahn-OHN);
+     the catch   a syllable that starts with a vowel inside a word starts with a catch (maayo -> mah-AH-yoh, sip-on -> seep-OHN);
                  a catch at the END of a word is q (bata, "child" -> BAH-tahq). Neither is written in Cebuano spelling.
-     CAPITALS    the stressed syllable. One-syllable words are lowercase. mga is said "manga" -> mah-NGAH.
+     CAPITALS    the stressed syllable, ONLY where the stress is checked (a LEX entry or a checked EXC word). One-syllable words
+                 are lowercase. A word whose stress is not checked is written all lowercase with hyphens between syllables and no
+                 final q (salamat -> sah-lah-maht): the aid then makes no claim about stress or a final catch.
+                 mga is said "manga" -> mah-ngah (stress unchecked).
      a hyphen    before a vowel is the catch inside one word (kanus-a, mag-ampo, Taga-Amerika); between two copies of a word
                  (hinay-hinay) it makes two words in the aid.
-   What the spelling does NOT show, and so comes from LEX (with a warning on stderr when it is a guess):
-     - which syllable is stressed: next-to-last unless LEX says otherwise (balay -> bah-LAI);
+   What the spelling does NOT show, and so comes from LEX (a word without a LEX entry shows neither, and warns on stderr):
+     - which syllable is stressed (balay -> bah-LAI; LEX entries with no mark: next-to-last, maayo -> mah-AH-yoh);
      - a final catch (bata -> BAH-tahq; dako -> dah-KOHQ).
-   A word not in LEX gets next-to-last stress and no final catch, and the generator writes
+   A word not in LEX is written all lowercase (no stress, no final catch shown), and the generator writes
    "respell: check stress / final catch in «word»" on stderr. A word with a known prefix (mo- mi- ni- mag- nag- gi- maka- naka-
-   ma- na- ka- pa- pag- taga- i- ig-) whose root is in LEX takes the root's stress and catch, silently (§6: prefixes do not move stress
-   [inference]). Suffixed forms (-on -an -a -i -ay) are never derived: list them.
+   ma- na- ka- pa- pag- taga- i- ig-) whose root is in LEX, or a listed word + the joined -ng / -y / -g, is matched to the root
+   (prefixes do not move stress; the joined forms drop a final catch: both [inference], so NOT reliable): it too is written all
+   lowercase and WARNS "derived from <root>", because a look-alike can fool it (tulog is not tulo + g; nakita may not be naka + kita).
+   To show capitals on such a form, list the form itself in LEX once a source marks it (waláy). Suffixed forms (-on -an -a -i -ay) are never
+   derived: list them. Homographs (HOMO) always warn: the aid shows one reading per spelling.
    LEX notation (Wiktionary / KWF 2022 marks): no mark = stress on the next-to-last syllable; acute (á é í ó ú) = stress on that vowel;
    grave on the last vowel (à) = final catch, next-to-last stress; circumflex on the last vowel (â) = final catch AND final stress.
-   Every LEX entry was checked in a source named in the profile (§6.4). Add a word ONLY after checking it (Wolff's dictionary,
-   bohol.ph/wced.php, or a Wiktionary entry with IPA or a marked headword), never from memory.
+   Every LEX entry has IPA, a marked headword or a marked list form in a source named in the profile (§6.4). Add a word ONLY after
+   checking it there (Wolff's dictionary, bohol.ph/wced.php, or a Wiktionary entry with IPA or a marked headword), never from memory.
+   Words seen only UNMARKED in a list (salamat, buntag…) are not evidence of anything and are not in LEX: they warn like any other.
    When the output is wrong, fix LEX (never hand-edit a pron) and run node tools/target/repron.js ceb. */
 
 const EXC = {
-  'mga': 'mah-NGAH',                                               /* written mga, said manga; KWF §13 */
+  'mga': 'mah-NGAH',                                               /* written mga, said manga (KWF §13); stress unchecked: warns */
+  'y': 'ee',                                                       /* Spanish 'and' in clock times: alas otso y medya */
+  'cebu': 'seh-BOO',                                               /* Wiktionary headword Cebú; c = s */
 };
+const EXC_UNCHECKED = new Set(['mga']);
+/* one spelling, two words: the aid shows the first reading named here, and always warns */
+const HOMO = { wala: 'none, not (walâ); "left" may differ', bata: 'child (batà); "nightgown" has no catch', kita: 'we (kita); the root "see" may differ' };
 
-/* checked forms; the source of each is in docs/profiles/en-ceb.md §6.4. (u) = shown unmarked in a Wiktionary list, which by
-   Wiktionary's Cebuano convention means next-to-last stress and no final catch: weaker evidence than IPA or a marked headword. */
+/* checked forms; the source of each is in docs/profiles/en-ceb.md §6.4 */
 const LEX_WORDS = `
-baláy maayo batà dakô gabii akó túbig ugmâ walâ
+baláy maayo batà dakô gabii akó túbig ugmâ walâ sugbò
 usá duhá tuló upát limá unóm pitó waló siyám napulò
 bugás karón palít itlóg ulán pulá likód ubó kilát ikóg hagdán putî tungâ pilì yawà lungsód dinhî irô lumà matandâ sip-ón kolór lagós siyudád kamí buhì dagsà gamót
-salamat buntag hapon udto kumusta dili ikaw kita kamo sila lami init kaon inom amahan inahan tawo dugo bulan payong asawa tuig gamit dagan bukid gikan diha didto usab sunod babaye imo inyo
 `;
 const MARK = { 'á': ['a', 's'], 'é': ['e', 's'], 'í': ['i', 's'], 'ó': ['o', 's'], 'ú': ['u', 's'],
   'à': ['a', 'g'], 'è': ['e', 'g'], 'ì': ['i', 'g'], 'ò': ['o', 'g'], 'ù': ['u', 'g'],
@@ -119,7 +129,7 @@ function lookup0(w) {
   for (const p of PREFIXES) {
     if (w.length > p.length + 2 && w.startsWith(p)) {
       const rest = w.slice(p.length).replace(/^-/, '');
-      if (LEX[rest]) return { e: LEX[rest], rootStart: (p.match(/[aeiou]/g) || []).length };
+      if (LEX[rest]) return { e: LEX[rest], rootStart: (p.match(/[aeiou]/g) || []).length, root: rest };
     }
   }
   return null;
@@ -129,15 +139,21 @@ function lookup0(w) {
 function lookup(w) {
   const r = lookup0(w); if (r) return r;
   const m = w.match(/^(.*[aeiou])(ng|y|g)$/);
-  if (m) { const b = lookup0(m[1]); if (b) return { e: Object.assign({}, b.e, { catchEnd: false, finalStress: b.e.finalStress }), rootStart: b.rootStart }; }
+  if (m) { const b = lookup0(m[1]); if (b) return { e: Object.assign({}, b.e, { catchEnd: false, finalStress: b.e.finalStress }), rootStart: b.rootStart, root: b.root || m[1] }; }
   return null;
 }
 function word(w0) {
   const w = w0.toLowerCase().replace(/[’']/g, '');
   if (!w) return '';
-  if (EXC[w]) return EXC[w];
-  /* reduplication and compounds: a hyphen not followed by a vowel and not after a prefix -> separate words */
+  if (EXC[w]) { if (EXC_UNCHECKED.has(w)) { warn(w, 'stress (whole-word exception, unchecked)'); return EXC[w].toLowerCase(); } return EXC[w]; }
+  /* reduplication (two equal halves: adlaw-adlaw, hinay-hinay) -> two words; then compounds: a hyphen not followed by a vowel
+     and not after a prefix -> separate words */
   const parts = w.split('-');
+  if (parts.length === 2 && parts[0] === parts[1]) return word(parts[0]) + ' ' + word(parts[1]);
+  if (parts.length === 2 && PREFIXES.includes(parts[0]) && EXC[parts[1]]) {                     /* Taga-Cebu: prefix rule = [inference] */
+    warn(w, 'stress (derived from ' + parts[1] + ')');
+    return syllables(parts[0]).map(x => text(x, false)).join('-') + '-' + EXC[parts[1]].toLowerCase();
+  }
   if (parts.length > 1) {
     const joined = [];
     parts.forEach((p, i) => {
@@ -149,15 +165,19 @@ function word(w0) {
   const syl = syllables(w);
   const n = syl.length;
   const L = lookup(w.replace(/-/g, '') === w ? w : w) || lookup(w.replace(/-/g, ''));
-  let si = n >= 2 ? n - 2 : 0, catchEnd = false;
+  let si = n >= 2 ? n - 2 : 0, catchEnd = false, checked = false;
   if (L) {
+    checked = !L.root;                                             /* only a direct LEX entry is checked; derived forms are not */
     const e = L.e;
     if (e.finalStress) si = n - 1;
     else if (e.stressAt >= 0) si = L.rootStart + e.stressAt;
     else si = n >= 2 ? n - 2 : 0;
     catchEnd = e.catchEnd;
     if (si >= n) si = n - 1;
+    if (L.root) warn(w, 'stress / final catch (derived from ' + L.root + ')');
   } else if (n >= 2) warn(w, 'stress / final catch');
+  if (HOMO[w]) warn(w, 'which word is meant (homograph: the aid shows ' + HOMO[w] + ')');
+  if (!checked) return syl.map(s => text(s, false)).join('-');   /* unchecked: all lowercase, no stress or catch claim */
   const out = syl.map((s, k) => text(s, catchEnd && k === n - 1));
   if (n === 1) return out[0];
   return out.map((t, k) => k === si ? t.toUpperCase() : t).join('-');

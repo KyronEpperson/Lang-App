@@ -1041,3 +1041,9 @@ Ship Thai for English speakers (en-th) after merge and cold review. Verify: vali
 
 ### 2.37.0 — results
 en-th: 26 lessons, 18 decks / 318 cards, 364 practice items; Thai script with a generated romanisation showing tone and length. Cold review: 60 edits (11 word-list fixes: -เตอร์ falling, น้ำ short in compounds, loanword tones; wai notes, ฟิต, letter names, a mismatched vowel-length pair). Dictionary sites mostly unreachable, so most tone and length checks rest on the reviewer's knowledge. Not checked by a native speaker (tools/target/th/REVIEW.md).
+
+## 2.37.1 — prompt
+Fix three reports from the phone: several rows look selected in the language picker; the picker's Back and close buttons sit under the status bar and miss taps; after each lesson step the app should lead on to the next thing. Verify on an iPhone profile: walk quick check → drill → next lesson; tap a picker row and count highlighted rows.
+
+### 2.37.1 — results
+Picker: hover highlight only under (hover:hover) (touch screens kept :hover on the last row touched); full-screen sheets pad their top and bottom by the safe-area insets. Lesson flow: passing the quick check shows "Mini drill: 5 cards"; finishing the drill shows "Open lesson · next" in the result box (or "Quick check" if that is the step left). flow.js on iPhone 13 profile, German course: check → drill → lesson done → next lesson opens; 0 highlighted rows after a tap. Also in this build: three-letter language codes, Cantonese-only voice matching, whole-tag voice matching (fil no longer matches fi), dropped hyphen / apostrophe as almost, Cantonese and Cebuano matching. The safe-area change cannot be emulated here: it needs a look on the phone.

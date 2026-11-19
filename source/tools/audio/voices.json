@@ -1,4 +1,18 @@
 {
- "ko": {"voice": "ko-KR-SunHiNeural", "locale": "ko-KR"},
- "es": {"voice": "es-MX-DaliaNeural", "locale": "es-MX"}
+ "ko": {
+  "voice": "ko-KR-SunHiNeural",
+  "locale": "ko-KR"
+ },
+ "es": {
+  "voice": "es-MX-DaliaNeural",
+  "locale": "es-MX"
+ },
+ "tl": {
+  "voice": "fil-PH-BlessicaNeural",
+  "locale": "fil-PH"
+ },
+ "yue": {
+  "voice": "zh-HK-HiuMaanNeural",
+  "locale": "zh-HK"
+ }
 }
