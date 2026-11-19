@@ -32,13 +32,13 @@ kanilá kaniyá=kanyá puntá tutubí pakpák baít pitó sala`;
 const SRC = `
 salamat mabuti tayo ka ko mo natin namin nila ninyo niyo=nyo akin iyo atin amin sa ang si ni kay ng=nang nang=nang mga=mangá na pa po=pô
 ho=hô rin din lang lamang yata=yatà daw raw kasi naman talaga talagá sige=síge tara ewan=éwan grabe=grábe ano'ng=anong
-umaga hapon gabí tanghalì ingat=íngat paalam walang=waláng anuman=anumán pangalan taon edad
+umaga hapon gabí tanghalì ingat=íngat paalam walang=waláng anuman=anumán pangalan taon=taón edad
 kumusta kita
-ngayon bukas kahapon mamaya=mamayâ kanina oras alas=alás minuto lunes=lúnes martes miyerkoles=myérkoles huwebes=hwébes biyernes=byérnes sabado linggo
-isa dalawá tatló apat limá anim pitó waló siyám=syám sampû daan=daán libo=líbo
+ngayon=ngayón bukas kahapon mamaya=mamayâ kanina oras alas=alás minuto lunes=lúnes martes miyerkoles=myérkoles huwebes=hwébes biyernes=byérnes sabado linggo
+isa dalawá tatló apat limá anim pitó waló siyám=syám sampû daan=dáan libo=líbo
 uno dos tres=trés kuwatro=kwátro singko=síngko sais=saís siyete=syéte otso=ótso nuwebe=nwébe diyes=dyés onse=ónse dose=dóse
 bente=bénte beynte=béynte trenta=trénta singkuwenta=singkwénta singkwenta=singkwénta medya=médya
-piso pesos=pésos sukli=suklî magkano bayad=bayád barya=baryá
+piso pesos=pésos sukli=suklî magkano barya=baryá
 nanay tatay kuya ate=áte lola lolo tito tita anak kapatid asawa pamilya=pamílya magulang lalaki=lalaki babae=babáe
 bata kaibigan=kaibígan pinsan tiyo=tíyo tiya=tíya
 gusto ayaw=áyaw ayoko=ayóko kailangan puwede=pwéde pwede=pwéde alam=alám marunong
@@ -48,12 +48,12 @@ magluto=maglutò nagluto=naglutò nagluluto=naglulutò magluluto=maglulutò lutu
 maglaro=maglarô naglaro=naglarô laro=larô magtrabaho=magtrabáho nagtatrabaho=nagtatrabáho trabaho=trabáho
 mag-aral=mag-áral nag-aaral=nag-aáral mag-aaral=mag-aáral aral=áral
 matulog=matulog natulog tulog=tulog maligo=maligò naligo=naligò gumising=gumísing gising=gísing
-kanin tubig=túbig kape=kápe tinapay mangga=manggá adobo=adóbo sinigang=sinígang lumpia=lumpyá pansit=pansít pancit=pansít
-masarap busog=busóg gutom=gutom uhaw=uhaw tsaa=tsa-á halo=hálo
-palengke=paléngke tindahan=tindáhan bili=bilí pabili=pabilí mura=mura ito iyan iyon
+kanin=kanín tubig=túbig kape=kápe tinapay mangga=manggá adobo=adóbo sinigang=sinígang lumpia=lumpyá pansit=pansít pancit=pansít
+masarap=masaráp busog=busóg gutom=gutom uhaw=uhaw tsaa=tsa-á halo=hálo
+palengke=paléngke kusina=kusína tindahan=tindáhan bili=bilí pabili=pabilí mura=mura ito iyan iyon
 pambili mahal=mahál
-masakit=masakít sakit=sakít ulo tiyan=tiyán gamot botika=botíka tulong pakitulungan=pakitulúngan tulungan=tulúngan doktor=doktór ospital=ospitál
-saan sino kailan ilang bakit paano=paáno alin=alín nasaan
+masakit=masakít sakit=sakít ulo tiyan=tiyán gamot=gamót botika=botíka tulong pakitulungan=pakitulúngan tulungan=tulúngan doktor=doktór ospital=ospitál
+saan sino kailan bakit paano=paáno alin=alín nasaan
 jeep=jip dyip=jip para=pára bayad sakayan=sakáyan kanan kaliwa=kaliwâ diretso=dirétso kanto=kánto simbahan=simbáhan malapit=malápit malayo=maláyò
 lang dito diyan doon yan=yán di=dî wag=wag yung=yung yun=yun to=to
 opisina=opisína guro estudyante=estudyánte paaralan=paaralán eskuwelahan=eskwelahán
@@ -64,7 +64,7 @@ oo opo hindi wala huwag=huwág
 ikaw ako siya kami kayo sila
 tsinelas=tsinélas kutsara=kutsára
 Ana=ána Juan=hwán Jun=jun Maria=marí-ya Jose=hosé Liza=lísa Mark=mark Joy=joy Rey=rey Carlo=kárlo Bea=béya Ben=ben
-Maynila=maynílà Makati=makátì Cebu=sebú Pilipinas=pilipínas Amerika=amérika Tagalog=tagálog Ingles=inglés Pilipino=pilipíno Amerikano=amerikáno
+Maynila=maynílà Makati=makáti Cebu=sebú Pilipinas=pilipínas Amerika=amérika Tagalog=tagálog Ingles=inglés Pilipino=pilipíno Amerikano=amerikáno
 taga=tagá`;
 /* NOTE: entries are a single space-separated list; a multi-word phrase is never a LEX entry. */
 
@@ -140,7 +140,9 @@ function units(letters, word) {
   return u;
 }
 
-const ONSET2 = new Set(['pr', 'br', 'tr', 'dr', 'kr', 'gr', 'fr', 'pl', 'bl', 'kl', 'gl', 'fl', 'kw', 'gw', 'bw', 'pw', 'sw', 'tw', 'dw', 'ky', 'by', 'py', 'my', 'ly', 'ry', 'hw', 'hy']);
+/* two consonants inside a word split (mag-lu-to, as-wang), except these loan clusters, which start the next syllable (li-bro, tra-ba-ho).
+   No g- clusters: mag-, nag-, pag- + l / r / w / y is a prefix boundary (magluto, magrenta). Clusters at the start of a word always stay. */
+const ONSET2 = new Set(['pr', 'br', 'tr', 'dr', 'kr', 'fr', 'pl', 'bl', 'kl', 'fl', 'kw', 'py', 'by', 'ky', 'my']);
 function syllabify(u, word) {
   const nuc = []; u.forEach((x, i) => { if (x.k === 'V') nuc.push(i); });
   if (!nuc.length) throw new Error('no vowel in "' + word + '": write numbers and symbols as words');

@@ -25,7 +25,7 @@
     ]
   ],
   "pron": "required",
-  "pronPattern": "",
+  "pronPattern": "^(?!.*[cC](?![hH]))(?!.*(?<![aA])[iI])(?!.*[aA](?![hHiIyY]))(?!.*(?<![eE])[eE](?![hHeE]))(?!.*(?<![oO])[oO](?![hHoOyYwW]))(?!.*[qQ](?=[a-zA-Z]))(?!.*[jJ](?![aeoAEO]))(?:[abcdeghijklmnopqrstwy]+|(?:[abcdeghijklmnopqrstwy]+-)+[ABCDEGHIJKLMNOPQRSTWY]+(?:-[abcdeghijklmnopqrstwy]+)*|[ABCDEGHIJKLMNOPQRSTWY]+(?:-[abcdeghijklmnopqrstwy]+)+)(?: (?:[abcdeghijklmnopqrstwy]+|(?:[abcdeghijklmnopqrstwy]+-)+[ABCDEGHIJKLMNOPQRSTWY]+(?:-[abcdeghijklmnopqrstwy]+)*|[ABCDEGHIJKLMNOPQRSTWY]+(?:-[abcdeghijklmnopqrstwy]+)+))*$",
   "targetScript": "[A-Za-z]",
   "standingRule": {
     "keywords": "",
@@ -48,7 +48,7 @@
     },
     {
       "id": "particles",
-      "title": "Small words: man, lang, sad, diay",
+      "title": "Small words: man, lang, sab, diay",
       "roadmap": "ceb-particles",
       "deck": "Short forms and Cebu talk"
     },

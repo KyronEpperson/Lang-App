@@ -1,0 +1,305 @@
+{
+ "target": "yue",
+ "nameEn": "Cantonese",
+ "self": "廣東話",
+ "ttsLang": "zh-HK",
+ "brand": "廣東話",
+ "accents": false,
+ "keys": "",
+ "greet": [
+  [
+   "晚安",
+   "Good night (you're up late)"
+  ],
+  [
+   "早晨",
+   "Good morning"
+  ],
+  [
+   "你好",
+   "Hello"
+  ],
+  [
+   "食咗飯未呀？",
+   "Have you eaten yet? (a friendly hello)"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?:(?:ng|gw|kw|b|p|m|f|d|t|n|l|g|k|h|w|z|c|s|j)?(?:aang|oeng|aai|aau|aam|aan|aap|aat|aak|ang|eng|ing|ong|ung|oet|oek|eoi|eon|eot|yun|yut|aa|ai|au|am|an|ap|at|ak|ei|eu|em|en|ep|et|ek|iu|im|in|ip|it|ik|oi|ou|on|ot|ok|ui|um|un|up|ut|uk|oe|yu|a|e|i|o|u)|m|ng)[1-6][,.?!:;]?(?: (?:(?:ng|gw|kw|b|p|m|f|d|t|n|l|g|k|h|w|z|c|s|j)?(?:aang|oeng|aai|aau|aam|aan|aap|aat|aak|ang|eng|ing|ong|ung|oet|oek|eoi|eon|eot|yun|yut|aa|ai|au|am|an|ap|at|ak|ei|eu|em|en|ep|et|ek|iu|im|in|ip|it|ik|oi|ou|on|ot|ok|ui|um|un|up|ut|uk|oe|yu|a|e|i|o|u)|m|ng)[1-6][,.?!:;]?)*$",
+ "targetScript": "[㐀-鿿豈-﫿1-6]",
+ "standingRule": {
+  "keywords": "\\btones? [1-6]\\b|\\btone (?:twins?|pairs?|numbers?)\\b|\\bchanged tones?\\b|\\bclassifiers?\\b|\\bbefore the (?:verb|noun)\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "jyutping",
+   "title": "Jyutping: initials and finals",
+   "roadmap": "yue-jyutping",
+   "deck": "Jyutping sounds"
+  },
+  {
+   "id": "tones",
+   "title": "The six tones, numbered 1 to 6",
+   "roadmap": "yue-tones",
+   "deck": "Tone twins"
+  },
+  {
+   "id": "greetings",
+   "title": "Hello, thanks and sorry: 唔該 and 多謝",
+   "roadmap": "yue-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "characters",
+   "title": "First characters: strokes and radicals",
+   "roadmap": "yue-characters",
+   "deck": "First characters"
+  },
+  {
+   "id": "hai",
+   "title": "係 (to be) and the pronouns 我, 你, 佢",
+   "roadmap": "yue-hai",
+   "deck": "People and family"
+  },
+  {
+   "id": "intro",
+   "title": "Introducing yourself: 我叫…, 我係美國人",
+   "roadmap": "yue-intro",
+   "deck": "About me"
+  },
+  {
+   "id": "m",
+   "title": "唔 (not) and yes/no questions: 係唔係, 好唔好",
+   "roadmap": "yue-m",
+   "deck": "Questions and particles"
+  },
+  {
+   "id": "questions",
+   "title": "Question words: 咩, 邊個, 邊度, 幾時, 點解",
+   "roadmap": "yue-questions",
+   "deck": "Questions and particles"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers: 一 to 十, 百, 千, 萬",
+   "roadmap": "yue-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "classifiers",
+   "title": "Classifiers: 個, 本, 杯, 張, and 'my' with 我本書",
+   "roadmap": "yue-classifiers",
+   "deck": "Classifiers"
+  },
+  {
+   "id": "ge",
+   "title": "嘅: my, your, his (我嘅, 佢嘅)",
+   "roadmap": "yue-ge",
+   "deck": "About me"
+  },
+  {
+   "id": "family",
+   "title": "Family and age",
+   "roadmap": "",
+   "deck": "People and family"
+  },
+  {
+   "id": "hai2",
+   "title": "喺 (at, in), not 係: 我喺香港",
+   "roadmap": "yue-hai2",
+   "deck": "Around town and directions"
+  },
+  {
+   "id": "jau-mou",
+   "title": "有 and 冇: have, and there is (never 唔有)",
+   "roadmap": "yue-jau-mou",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "particles",
+   "title": "Sentence-final particles: 呀, 啦, 吖, 呢",
+   "roadmap": "yue-particles",
+   "deck": "Questions and particles"
+  },
+  {
+   "id": "prices",
+   "title": "Money and prices: 幾多錢？, 蚊, 平啲",
+   "roadmap": "yue-prices",
+   "deck": "Shopping"
+  },
+  {
+   "id": "food",
+   "title": "Ordering food and drink: 唔該, 要, 埋單",
+   "roadmap": "yue-food",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "time",
+   "title": "Clock time and dates: 幾點？, 三點半, 星期一",
+   "roadmap": "yue-time",
+   "deck": "Time, days and dates"
+  },
+  {
+   "id": "routine",
+   "title": "My day: time and place before the verb",
+   "roadmap": "",
+   "deck": "Time, days and dates"
+  },
+  {
+   "id": "modals",
+   "title": "Want, can, like: 想, 可以, 識, 會, 鍾意, 要",
+   "roadmap": "yue-modals",
+   "deck": "Work and study"
+  },
+  {
+   "id": "ding-dou",
+   "title": "Choices and 'also': A 定 B？ and 都",
+   "roadmap": "yue-ding-dou",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "describing",
+   "title": "Describing and comparing: 好, 太, 幾, 過 (no 係)",
+   "roadmap": "yue-describing",
+   "deck": "Describing things"
+  },
+  {
+   "id": "zo",
+   "title": "咗: done; 冇 (didn't) and 未 (not yet)",
+   "roadmap": "yue-zo",
+   "deck": "Health and help"
+  },
+  {
+   "id": "gan-gwo",
+   "title": "緊 and 過: doing it now, and ever done it",
+   "roadmap": "yue-gan-gwo",
+   "deck": "Getting around"
+  },
+  {
+   "id": "go-come",
+   "title": "去 and 嚟: going and coming; 搭車, 坐地鐵",
+   "roadmap": "yue-go-come",
+   "deck": "Getting around"
+  },
+  {
+   "id": "directions",
+   "title": "Directions: 左邊, 右邊, 直行, 對面",
+   "roadmap": "yue-directions",
+   "deck": "Around town and directions"
+  },
+  {
+   "id": "suggest",
+   "title": "Suggestions and invitations: 不如…？, 一齊…吖",
+   "roadmap": "yue-suggest",
+   "deck": "Food and drink"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Jyutping sounds",
+   "group": "Sounds and script",
+   "desc": "One character per sound point: the Jyutping letters English readers misread (j, z, c, ng-, gw, aa / a, eo, oe, yu, final -p -t -k, syllabic m and ng)"
+  },
+  {
+   "name": "Tone twins",
+   "group": "Sounds and script",
+   "desc": "Same letters, different tone, different word: 詩 史 試 時 市 事, 買 / 賣, 四 / 死, 係 / 喺"
+  },
+  {
+   "name": "First characters",
+   "group": "Sounds and script",
+   "desc": "Pictures and compounds to recognise: 人 口 日 月 山 水 木 林 明 好 休, and the 口 that marks spoken-Cantonese characters"
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "Hello, the two thank-yous 唔該 and 多謝, sorry, goodbye and good night"
+  },
+  {
+   "name": "People and family",
+   "group": "First steps",
+   "desc": "Pronouns with 哋, family members on both sides, and friends"
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, nationality, where you live, languages, and small talk about yourself"
+  },
+  {
+   "name": "Numbers and money",
+   "group": "Everyday words",
+   "desc": "Numbers to ten thousand and beyond, 兩 and 二, and prices in 蚊"
+  },
+  {
+   "name": "Classifiers",
+   "group": "Everyday words",
+   "desc": "Number, this / that or owner + classifier + noun: 個, 本, 杯, 張, 隻, 部, 架"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday words",
+   "desc": "Dim sum, the cha chaan teng (Hong Kong café), drinks, and ordering and paying"
+  },
+  {
+   "name": "Shopping",
+   "group": "Everyday words",
+   "desc": "Prices, sizes, a little bargaining, and paying by Octopus card"
+  },
+  {
+   "name": "Time, days and dates",
+   "group": "Everyday words",
+   "desc": "Clock time, days of the week, dates, today and tomorrow, and parts of the day"
+  },
+  {
+   "name": "Around town and directions",
+   "group": "Out and about",
+   "desc": "Where things are, left and right, across and next to, and asking the way"
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "The MTR, buses and minibuses, taxis, ferries, the Octopus card and tickets"
+  },
+  {
+   "name": "Work and study",
+   "group": "Out and about",
+   "desc": "Jobs, school, learning Cantonese, and what you can and know how to do"
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Feeling sick, the pharmacy, the doctor, and asking for help"
+  },
+  {
+   "name": "Describing things",
+   "group": "Conversation",
+   "desc": "Adjectives for people, food, weather and prices, with 好, 太, 幾 and comparisons with 過"
+  },
+  {
+   "name": "Questions and particles",
+   "group": "Conversation",
+   "desc": "Question words, A-not-A questions, and the sentence-final particles 呀, 啦, 吖, 呢, 㗎"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "False friends and calques: 係 with adjectives, 唔有, 二個, 咗 and 過, 唔該 or 多謝, and greetings that are not what they seem"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersScript": "[㐀-鿿豈-﫿]",
+ "romaAlmost": true
+}

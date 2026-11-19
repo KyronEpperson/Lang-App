@@ -19,7 +19,7 @@
    "headers": [
     {
      "key": "Content-Security-Policy",
-     "value": "default-src 'self'; script-src 'self' 'sha256-rD9TAbRxqgVhLgSg8cQkmvl3RedBVmpMLVTseunVR4Q=' 'sha256-QezPpabzNoKt0tIuc1P7vMAtxJp3Eo1HR4qpPYYLhC0='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://ddhxqolevqbaabssupvb.supabase.co https://fonts.googleapis.com https://fonts.gstatic.com; media-src 'self' blob: data:; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+     "value": "default-src 'self'; script-src 'self' 'sha256-O834Qy7If3fpYhChHUYWExwNJql0FZXAIbpiqW1mU2c=' 'sha256-h3EB/gPd3NmZfxfLlFMVirmQ8ewIf6oGTVpIvbAPnps='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://ddhxqolevqbaabssupvb.supabase.co https://fonts.googleapis.com https://fonts.gstatic.com; media-src 'self' blob: data:; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
     },
     {
      "key": "Strict-Transport-Security",
