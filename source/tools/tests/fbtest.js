@@ -29,8 +29,8 @@ R.fb4_goto=await p.evaluate(async()=>{const id=LESSONS[1].id;fbGoto('lessons/'+i
 R.fb5_list=await p.evaluate(()=>[...document.querySelectorAll('#fbPagesList [data-pg]')].map(b=>b.textContent.replace(/\s+/g,' ').trim()));R.fb5_hidden=await p.evaluate(()=>document.getElementById('fbPages').hidden);
 await p.evaluate(()=>{document.getElementById('fbPages').open=true;});await p.click('#fbPagesList [data-pg="today"]');R.fb5_filter=await n();await p.click('#fbPagesList [data-pg="today"]');R.fb5_off=(await n()).length;
 /* FB-6 composer placeholder + draft */
-await p.click('[data-fbk=bug]');R.fb6_ph=await p.evaluate(()=>document.getElementById('fbMsg').placeholder);await p.fill('#fbMsg','half written report');await p.waitForTimeout(80);
-await p.reload();await p.waitForTimeout(1200);R.fb6_restored=await p.evaluate(()=>[document.getElementById('fbMsg').value,fbKind,document.querySelector('[data-fbk=bug]').getAttribute('aria-pressed')]);
+await p.click('[data-fbk=bug]');R.fb6_ph=await p.evaluate(()=>document.getElementById('fbMsg').placeholder);await p.fill('#fbMsg','half written report');await p.waitForTimeout(80);R.dbg6=await p.evaluate(()=>[localStorage.getItem('la-fbdraft'),location.hash,fbKind]);
+await p.reload();await p.waitForTimeout(1800);R.dbg6b=await p.evaluate(()=>[localStorage.getItem('la-fbdraft'),location.hash]);R.fb6_restored=await p.evaluate(()=>[document.getElementById('fbMsg').value,fbKind,document.querySelector('[data-fbk=bug]').getAttribute('aria-pressed')]);
 await p.evaluate(()=>{const day=864e5,now=Date.now(),d=n=>new Date(now-n*day).toISOString();window.__mock=()=>[
  {id:1,kind:'bug',created_at:d(0.02),message:fbTag({key:'today',course:'en-vi',v:'2.48.0'})+'Button does nothing on Today',name:'Ana'},{id:2,kind:'idea',created_at:d(3),message:'Add dark mode please'},
  {id:3,kind:'content',created_at:d(1),message:fbTag({key:'lessons/tones',course:'en-vi',v:'2.47.0',at:'item 3/14'})+'Typo in lesson 2',done:true},{id:4,kind:'bug',created_at:d(10),message:fbTag({key:'review/Letters and sounds',course:'en-vi',v:'2.48.0',at:'card đi'})+'Crash on review when I tap fast'},
