@@ -1409,3 +1409,135 @@ Search matches highlighted. Test: "crash" marks 2 matches; HTML in a post stays 
 
 ### FB-30 — results
 Filters remembered for the visit; "🗓 Last 7 days". Test: last 7 days shows [1,2,3,7] (10- and 40-day posts hidden); status/sort/week restored after re-running page setup.
+
+# Loop 3 — 20 more Feedback page enhancements (FB-31 … FB-50)
+
+(Side fix requested mid-loop: coming-soon flags now show the language name on hover, e.g. "Cherokee · Coming soon". Checked in the picker: titles read "Afrikaans · Coming soon", "Bulgarian · Coming soon", …)
+
+## FB-31 — prompt
+The filter row has grown to 10 chips over 4 lines on a phone. Keep the status chips and Sort visible and fold the rest behind a "⚙ Filters" button that shows how many are on; it opens by itself when any folded filter is active. Check: closed by default with 4 chips visible; opening shows the rest; with one folded filter on, the button reads "Filters · 1" and stays open after a redraw.
+
+## FB-32 — prompt
+Each post's buttons wrap onto two lines on a phone. Make Copy and Link icon-only (with labels for screen readers) so the row fits one line at 390 px. Check: all action buttons of a post share one line; both still have aria-labels.
+
+## FB-33 — prompt
+The place line breaks "Go to page" across lines. Put the page button and a no-wrap "↗ Open" link on the first line and the details (item, course, version) on a second line. Check: the open link is one line high and still goes to the page.
+
+## FB-34 — prompt
+The thank-you note after posting says 감사합니다 in every course. Show the Korean only in the Korean course, and clear the note after 8 seconds. Check: in the Vietnamese course the note has no Hangul.
+
+### FB-31 — results
+First try: the folded row stayed visible (the row's flex style beat the hidden attribute). Re-prompt: hide it with display:none. Pass: 5 chips visible when closed (4 status + Filters), 12 when open, "Filters · 1" with one folded filter on and it stays open, 5 again after clearing.
+
+### FB-32 — results
+Copy and Link are icon buttons with aria-labels. All 4 action buttons sit on one line at 390 px.
+
+### FB-33 — results
+Place line: page button + "↗ Open" on line one (15 px high, no wrap), details on line two.
+
+### FB-34 — results
+Thank-you note in the Vietnamese course: "Posted — thank you! 🙏", no Hangul; clears after 8 s.
+
+(Side requests mid-loop: courses renamed "Chinese (Mandarin)", "Portuguese (Brazilian)", "Spanish (Latin American)"; "Portuguese (Portugal)" added as a planned language, lesson plan being researched by an Opus agent.)
+
+## FB-35 — prompt
+One-tap "✕ Clear filters" whenever a search or filter narrows the board, also inside the "No posts match" message. Check: with search + status + a folded filter on, the button appears; pressing it shows every post again and empties the search box.
+
+## FB-36 — prompt
+Keyboard: "/" on the Feedback page jumps to the search box (not while typing elsewhere); Esc in the search box clears it. Check both.
+
+## FB-37 — prompt
+Pressing a filter chip redraws the row and drops keyboard focus. Keep focus on the same chip or tab after a redraw. Check: after clicking Open, Filters and a feed tab, document.activeElement is that same control.
+
+## FB-38 — prompt
+Bug reports carry the last script error seen in this visit (message and line, up to 120 characters) so a crash report explains itself; shown on the post as a "⚠" line. Check: after a simulated error the tag holds err=…, the card shows it, and with no error nothing is added.
+
+## FB-39 — prompt
+Reports carry a short device note (screen size, theme, installed app or browser tab, offline) shown on the post as "📱 …". Check: tag holds dev=390x800…, card shows it, and old posts without it still render.
+
+## FB-40 — prompt
+Mark posts that were sent from an older app version with an "older version" badge, since the problem may already be fixed. Check: a v2.47.0 post has the badge, a current-version post does not.
+
+### FB-35 — results
+"✕ Clear filters" appears only when something narrows the board; with search "zzzz" + Open + Last 7 days: 0 posts and the button; after pressing: 6 posts, search empty, filters off.
+
+### FB-36 — results
+First try failed: "/" already opens the app-wide search, so focus never reached the board search. Re-prompt: on the Feedback page "/" goes to the board search (Ctrl/⌘+K still opens the app-wide search). Result below.
+
+### FB-37 — results
+Focus stays on the pressed control after a redraw: Open chip, Filters button and Bugs tab all kept focus.
+
+### FB-38 — results
+After a simulated error the tag holds "err=x is not defined @42" and the card shows "⚠ x is not defined @42"; with no error nothing is added. Tag limit raised from 640 to 800 characters.
+
+### FB-39 — results
+Tag holds "dev=390x800"; card shows "📱 390x800"; older posts without it render as before.
+
+### FB-40 — results
+"older version" badge on the open v2.48.0 post; none on a current-version post, a fixed post, or a post with no version.
+
+### FB-36 — results (after re-prompt)
+"/" focuses the board search on the Feedback page; typing "a/b" inside it works; Esc clears it and stays on the page.
+
+## FB-41 — prompt
+Admin quick replies: when an admin opens a reply box, show three one-tap starters ("Thanks — looking into it.", "Could you tell me more? What did you tap, and what did you expect?", "I can't reproduce this yet — which device and browser?") that fill the box. Check: hidden for normal users; as admin a tap fills the textarea.
+
+## FB-42 — prompt
+"☑ Copy as checklist": copies the shown posts as a to-do list grouped by page (- [ ] #id · text), fixed posts ticked. Check: output has a heading per page and one line per shown post, with [x] for fixed posts.
+
+## FB-43 — prompt
+Refresh the board quietly every 90 s while the Feedback page is open and visible, but never while a reply box is open or the reader is typing. Check: the guard returns true on an idle Feedback page and false when on another page, when a reply box is open, or when the composer has focus.
+
+## FB-44 — prompt
+Keep a copy of the last loaded board on the device; if loading fails, show that copy with a "Saved copy from <time> — Try again" note instead of an empty error. Check: after one good load, a failing load still shows the posts and the note.
+
+## FB-45 — prompt
+"🔥 Most wanted" strip at the top of the All feed: up to 3 open posts with the most 👍 (at least one), each a link that jumps to the post. Check: hidden with no votes; with votes it lists them in order and a tap highlights the post.
+
+### FB-41 — results
+Quick replies: 0 chips for a normal user, 3 for admin; tapping "Tell me more" filled the reply box.
+
+### FB-42 — results
+"☑ Copy as checklist" output has one heading per page with counts and one line per shown post; fixed posts are ticked ([x] for #3 and #7). Follow-up applied: "(no page)" group moved to the end.
+
+### FB-43 — results
+Quiet refresh every 90 s. Guard: idle Feedback page true; reply box open false; typing false; other page false.
+
+### FB-44 — results
+After one good load (8 rows cached), a failing load still showed 6 posts with "Offline or the board is unreachable — showing a saved copy from …" and Try again; the note cleared on the next good load.
+
+### FB-45 — results
+"🔥 Most wanted" hidden with no votes; with votes lists post 2 (3) then post 4 (1), skipping the fixed post; a tap highlights the post; hidden while filters are on.
+
+## FB-46 — prompt
+In the report sheet, add "See all on the board →" beside "Reports on this page", opening the Feedback page already filtered to that page. Check: the link closes the sheet, lands on #feedback and fbPage equals the page key.
+
+## FB-47 — prompt
+"✅ Recently fixed" foldout on the board: the 5 most recently posted fixed items with the developer's last reply, so readers see what was done. Check: lists the fixed posts with the reply text where one exists; hidden when nothing is fixed.
+
+## FB-48 — prompt
+Ctrl/⌘+Enter sends from the composer, a reply box and the report sheet. Check each sends exactly once.
+
+## FB-49 — prompt
+Tell screen-reader users the result of a filter change: the live region says "N posts shown" (or "No posts match") after search or filter changes, not on plain refreshes. Check the live text after a filter and that an unchanged redraw does not repeat it.
+
+## FB-50 — prompt
+"Me too" votes and replies are rows too, so the 300-row load can cut off old posts. Load up to 1000 rows and say "Showing the latest posts" when the limit is hit. Check: the request asks for 1000; the note shows only when 1000 rows come back.
+
+### FB-46 — results
+"See all on the board →" in the report sheet: closes the sheet, lands on #feedback with the page filter "today" and shows posts 1 and 7.
+
+### FB-47 — results
+"✅ Recently fixed (2)" lists "Typo in lesson 2 ↳ Fixed in v2.50.0." and "Streak did not count"; hidden when nothing is fixed. (First check read the text of a closed foldout and came back empty; the test now reads the content directly.)
+
+### FB-48 — results
+Ctrl/⌘+Enter sent exactly once from the composer (1), a reply box (2, parent 2) and the report sheet (3).
+
+### FB-49 — results
+Live region: nothing on first draw, "2 posts shown" after the Fixed filter, nothing on an unchanged redraw, "No posts match" for an empty search.
+
+### FB-50 — results
+The load asks for limit=1000; the "Showing the latest posts" note is hidden for a small board and shown when 1000 rows come back; paging still draws 15.
+
+### Loop 3 close
+All fbtest and bugtest steps pass with no errors or overflow; harness 88 guards pass.
