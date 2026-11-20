@@ -1113,3 +1113,14 @@ Fix the Hindi home greeting (found by the Punjabi profile agent) and add the Pun
 
 ### 2.42.1 — results
 en-hi stored its greetings as plain strings while the app reads pairs, so the home screen greeted with the first two characters of नमस्ते; now pairs (नमस्ते / Hello), browser-checked. Engine: Gurmukhi matcher (paNorm / paSlip: carrier + vowel sign exact; bindi / tippi, missing addak or dot = almost), font stack for lang=pa, danda stripped in the validator; Punjabi and Urdu matching tests pass. Harness 84 guards.
+
+## FLOW-1 — prompt (the user's request, restated)
+"No Next button: go to the next question automatically. The Review page should always keep going with a consistent flow of flashcards. Decide how the flashcard system introduces and teaches new words by level, shows a card less often the more it is answered right, and more often when it is missed too much. Reprompt, follow the prompt, analyze, test, record results, re-prompt where needed."
+
+Three iterations, each shipped only when its check passes:
+- FLOW-1: in the multiple-choice review question (Today + Review) remove Next; after an answer play the chime at the tap, show the feedback, then advance by itself (right ≈1.1 s, wrong ≈2.6 s, after the spoken word; tap or Enter advances at once; one guarded finish; timer cleared on cleanup). Check: a browser test taps an option and the next question appears with no click, exactly one grade per card, and the oscillator log shows the new chime only.
+- FLOW-2: Review never dead-ends. When the queue runs out it refills: due cards in other decks → new cards from the guided path within the pacing rule → extra practice (lowest box, soonest due; never suspended, buried or leech). A correct answer on a card that is not due leaves its box and due date unchanged (1 XP); a wrong one demotes as usual. A missed card comes back 3 cards later, never back to back, and must be answered right twice in the sitting before it leaves. Check: a simulation of 300 answers at 60% and 95% accuracy as a harness guard.
+- FLOW-3: pacing of new cards by level and load: a new card is introduced only while fewer than LOAD cards sit in box 1 (LOAD = 4 at level 1–2, 6 at 3–5, 8 above) and recent accuracy (last 20 answers) is at least 70%; at 90%+ a new card may come every 3rd card, otherwise every 5th. Same simulation asserts it.
+
+### FLOW-1 — results (shipped as 2.42.2)
+Browser test on Review (phone size): right answer → chime 659/988/1319 Hz at the tap, next question after 1.3 s with no click; wrong → 392/311 Hz, still on the card at 1.5 s, next question by 4.1 s; tap on the feedback advances at once; one grade per card (3 answers, 3 grades, no double advance after waiting). The old tone() calls on this path are gone. Settings has "Go to the next card automatically" (off brings the Next button back). Harness 84 guards. Still with a Next/Check button: typed answers, lesson practice, drills.
