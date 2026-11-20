@@ -720,12 +720,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Build āo (come!)","a":["ਆ","ਓ"],"x":["ਅ"],"why":"ਆਓ starts with the long vowel ਆ (ā), not the short ਅ (a)."},
       {"t":"order","p":"Build kaī (several)","a":["ਕ","ਈ"],"x":["ਇ"],"why":"ਕਈ ends in the long vowel ਈ (ī), not the short ਇ (i)."},
       {"t":"order","p":"Build koī (someone)","a":["ਕੋ","ਈ"],"x":["ਕੌ"],"why":"The vowel sign ੋ gives o; ੌ would give au."},
-      {"t":"fill","q":"ਕ__","p":"kaī, several","a":["ਈ","ī"],"o":["ਇ","ਉ","ਊ"],"why":"ਕਈ ends in the long vowel ਈ, written as a full vowel letter after another vowel."},
-      {"t":"fill","q":"ਕੋ__","p":"koī, someone; anyone","a":["ਈ","ī"],"o":["ਇ","ਏ","ਐ"],"why":"ਕੋਈ ends in the long ਈ (ī); after a vowel it is written as a vowel letter."},
-      {"t":"fill","q":"ਆ__","p":"āo, come!","a":["ਓ","o"],"o":["ਏ","ਐ","ਔ"],"why":"ਆਓ ends in ਓ (o), as in oh."},
-      {"t":"type","p":"Type āī (came, said of a woman)","a":["ਆ ਈ","ਆਈ","ā ī","āī"],"hint":"ā is ਆ, ī is ਈ · both long","x":["ਅ","ਇ"],"why":"ਆਈ has two long vowels: ਆ and ਈ, not ਅ and ਇ."},
-      {"t":"type","p":"Type kākā (little boy)","a":["ਕਾ ਕਾ","ਕਾਕਾ","kā kā","kākā"],"hint":"ka + the vowel sign for ā, twice","x":["ਕ","ਕੀ"],"why":"Each ਕ in ਕਾਕਾ takes the vowel sign ਾ for ā."},
-      {"t":"type","p":"Type kī (what?)","a":["ਕੀ","kī"],"hint":"ka + the sign for long ī","x":["ਕਿ","ਕੇ"],"why":"ਕੀ takes the long vowel sign ੀ; ਕਿ with the short sign is a different word."}
+      {"t":"fill","q":"ਕ__","p":"kaī, several","a":["ਈ","ī"],"o":["ਇ","ਉ","ਊ"],"why":"ਕਈ ends in the long vowel ਈ, written as a full vowel letter after another vowel.","xr":["i","u","ū"]},
+      {"t":"fill","q":"ਕੋ__","p":"koī, someone; anyone","a":["ਈ","ī"],"o":["ਇ","ਏ","ਐ"],"why":"ਕੋਈ ends in the long ਈ (ī); after a vowel it is written as a vowel letter.","xr":["i","e","ai"]},
+      {"t":"fill","q":"ਆ__","p":"āo, come!","a":["ਓ","o"],"o":["ਏ","ਐ","ਔ"],"why":"ਆਓ ends in ਓ (o), as in oh.","xr":["e","ai","au"]},
+      {"t":"type","p":"Type āī (came, said of a woman)","a":["ਆ ਈ","ਆਈ","ā ī","āī"],"hint":"ā is ਆ, ī is ਈ · both long","x":["ਅ","ਇ"],"why":"ਆਈ has two long vowels: ਆ and ਈ, not ਅ and ਇ.","xr":["a","i"]},
+      {"t":"type","p":"Type kākā (little boy)","a":["ਕਾ ਕਾ","ਕਾਕਾ","kā kā","kākā"],"hint":"ka + the vowel sign for ā, twice","x":["ਕ","ਕੀ"],"why":"Each ਕ in ਕਾਕਾ takes the vowel sign ਾ for ā.","xr":["ka","kī"]},
+      {"t":"type","p":"Type kī (what?)","a":["ਕੀ","kī"],"hint":"ka + the sign for long ī","x":["ਕਿ","ਕੇ"],"why":"ਕੀ takes the long vowel sign ੀ; ਕਿ with the short sign is a different word.","xr":["ki","ke"]}
     ],
     "letters-1": [
       {"t":"mc","q":"Which letter is k with a puff of air?","o":["ਖ","ਕ","ਗ","ਙ"],"why":"ਖ is the aspirated k; ਕ has no puff."},
@@ -736,12 +736,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Build sāg (greens)","a":["ਸਾ","ਗ"],"x":["ਘ"],"why":"ਸਾਗ ends in the plain, unaspirated ਗ; ਘ is a tonal letter."},
       {"t":"order","p":"Build kākā (little boy)","a":["ਕਾ","ਕਾ"],"x":["ਖਾ"],"why":"ਕਾਕਾ has the unaspirated ਕ twice; ਖਾ has a puff of air."},
       {"t":"order","p":"Build jāo (go!)","a":["ਜਾ","ਓ"],"x":["ਝਾ"],"why":"ਜਾਓ starts with the plain ਜ; ਝ is a tonal letter."},
-      {"t":"fill","q":"ਚਾ__","p":"chāchā, uncle","a":["ਚਾ","chā"],"o":["ਛਾ","ਜਾ","ਝਾ"],"why":"ਚਾਚਾ has the unaspirated ਚ twice, with no puff of air."},
-      {"t":"fill","q":"__ਗ","p":"sāg, greens","a":["ਸਾ","sā"],"o":["ਹਾ","ਛਾ","ਸ"],"why":"ਸਾਗ starts with ਸ and the long vowel ਾ."},
-      {"t":"fill","q":"__ਓ","p":"khāo, eat!","a":["ਖਾ","khā"],"o":["ਕਾ","ਗਾ","ਘਾ"],"why":"ਖਾਓ starts with the aspirated ਖ, k with a puff of air."},
-      {"t":"type","p":"Type chāchā (uncle)","a":["ਚਾ ਚਾ","ਚਾਚਾ","chā chā","chāchā"],"hint":"ch with no puff · ā twice","x":["ਛਾ","ਜਾ"],"why":"ਚਾਚਾ has the unaspirated ਚ twice; ਛ would add a puff of air."},
-      {"t":"type","p":"Type chhe (six)","a":["ਛੇ","chhe"],"hint":"ch with a puff · the sign for e","x":["ਚੇ","ਜੇ"],"why":"ਛੇ starts with the aspirated ਛ, ch with a puff of air."},
-      {"t":"type","p":"Type khāo (eat!)","a":["ਖਾ ਓ","ਖਾਓ","khā o","khāo"],"hint":"k with a puff · ā · then the vowel letter o","x":["ਕਾ","ਗਾ"],"why":"ਖਾਓ starts with the aspirated ਖ, k with a puff of air."}
+      {"t":"fill","q":"ਚਾ__","p":"chāchā, uncle","a":["ਚਾ","chā"],"o":["ਛਾ","ਜਾ","ਝਾ"],"why":"ਚਾਚਾ has the unaspirated ਚ twice, with no puff of air.","xr":["chhā","jā","jhā̀"]},
+      {"t":"fill","q":"__ਗ","p":"sāg, greens","a":["ਸਾ","sā"],"o":["ਹਾ","ਛਾ","ਸ"],"why":"ਸਾਗ starts with ਸ and the long vowel ਾ.","xr":["hā","chhā","sa"]},
+      {"t":"fill","q":"__ਓ","p":"khāo, eat!","a":["ਖਾ","khā"],"o":["ਕਾ","ਗਾ","ਘਾ"],"why":"ਖਾਓ starts with the aspirated ਖ, k with a puff of air.","xr":["kā","gā","ghā̀"]},
+      {"t":"type","p":"Type chāchā (uncle)","a":["ਚਾ ਚਾ","ਚਾਚਾ","chā chā","chāchā"],"hint":"ch with no puff · ā twice","x":["ਛਾ","ਜਾ"],"why":"ਚਾਚਾ has the unaspirated ਚ twice; ਛ would add a puff of air.","xr":["chhā","jā"]},
+      {"t":"type","p":"Type chhe (six)","a":["ਛੇ","chhe"],"hint":"ch with a puff · the sign for e","x":["ਚੇ","ਜੇ"],"why":"ਛੇ starts with the aspirated ਛ, ch with a puff of air.","xr":["che","je"]},
+      {"t":"type","p":"Type khāo (eat!)","a":["ਖਾ ਓ","ਖਾਓ","khā o","khāo"],"hint":"k with a puff · ā · then the vowel letter o","x":["ਕਾ","ਗਾ"],"why":"ਖਾਓ starts with the aspirated ਖ, k with a puff of air.","xr":["kā","gā"]}
     ],
     "letters-2": [
       {"t":"mc","q":"Which letter is the retroflex ṭ, tongue curled back?","o":["ਟ","ਤ","ਥ","ਦ"],"why":"ਟ is retroflex; ਤ ਥ ਦ are dental."},
@@ -752,12 +752,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Build ṭamāṭar (tomato)","a":["ਟ","ਮਾ","ਟ","ਰ"],"x":["ਤ"],"why":"ਟਮਾਟਰ has the retroflex ਟ twice, tongue curled back."},
       {"t":"order","p":"Build tārā (star)","a":["ਤਾ","ਰਾ"],"x":["ਟਾ"],"why":"ਤਾਰਾ starts with the dental ਤ, tongue on the teeth."},
       {"t":"order","p":"Build pāṇī (water)","a":["ਪਾ","ਣੀ"],"x":["ਨੀ"],"why":"ਪਾਣੀ has the retroflex ਣ, not the dental ਨ."},
-      {"t":"fill","q":"ਕੁ__","p":"kuṛī, girl","a":["ੜੀ","ṛī"],"o":["ਡੀ","ਰੀ","ਦੀ"],"why":"ਕੁੜੀ has the flap ੜ, not ਡ or ਰ."},
-      {"t":"fill","q":"__ਕ","p":"ṭhīk, fine","a":["ਠੀ","ṭhī"],"o":["ਥੀ","ਟੀ","ਤੀ"],"why":"ਠੀਕ starts with the retroflex ਠ, with a puff of air."},
-      {"t":"fill","q":"__ਈ","p":"bhā̀ī, brother","a":["ਭਾ","bhā̀"],"o":["ਬਾ","ਪਾ","ਫਾ"],"why":"ਭਾਈ starts with the tonal letter ਭ."},
-      {"t":"type","p":"Type phal (fruit)","a":["ਫ ਲ","ਫਲ","pha la","phal"],"hint":"p with a puff · l","x":["ਪ","ਬ"],"why":"ਫਲ starts with the aspirated ਫ; ਪਲ, without the puff, means moment."},
-      {"t":"type","p":"Type kuṛī (girl)","a":["ਕੁ ੜੀ","ਕੁੜੀ","ku ṛī","kuṛī"],"hint":"ku · the flap with ī","x":["ਡੀ","ਰੀ"],"why":"ਕੁੜੀ has the retroflex flap ੜ."},
-      {"t":"type","p":"Type roṭī (roti)","a":["ਰੋ ਟੀ","ਰੋਟੀ","ro ṭī","roṭī"],"hint":"ro · ṭ with ī","x":["ਤੀ","ਥੀ"],"why":"ਰੋਟੀ has the retroflex ਟ, not the dental ਤ."}
+      {"t":"fill","q":"ਕੁ__","p":"kuṛī, girl","a":["ੜੀ","ṛī"],"o":["ਡੀ","ਰੀ","ਦੀ"],"why":"ਕੁੜੀ has the flap ੜ, not ਡ or ਰ.","xr":["ḍī","rī","dī"]},
+      {"t":"fill","q":"__ਕ","p":"ṭhīk, fine","a":["ਠੀ","ṭhī"],"o":["ਥੀ","ਟੀ","ਤੀ"],"why":"ਠੀਕ starts with the retroflex ਠ, with a puff of air.","xr":["thī","ṭī","tī"]},
+      {"t":"fill","q":"__ਈ","p":"bhā̀ī, brother","a":["ਭਾ","bhā̀"],"o":["ਬਾ","ਪਾ","ਫਾ"],"why":"ਭਾਈ starts with the tonal letter ਭ.","xr":["bā","pā","phā"]},
+      {"t":"type","p":"Type phal (fruit)","a":["ਫ ਲ","ਫਲ","pha la","phal"],"hint":"p with a puff · l","x":["ਪ","ਬ"],"why":"ਫਲ starts with the aspirated ਫ; ਪਲ, without the puff, means moment.","xr":["pa","ba"]},
+      {"t":"type","p":"Type kuṛī (girl)","a":["ਕੁ ੜੀ","ਕੁੜੀ","ku ṛī","kuṛī"],"hint":"ku · the flap with ī","x":["ਡੀ","ਰੀ"],"why":"ਕੁੜੀ has the retroflex flap ੜ.","xr":["ḍī","rī"]},
+      {"t":"type","p":"Type roṭī (roti)","a":["ਰੋ ਟੀ","ਰੋਟੀ","ro ṭī","roṭī"],"hint":"ro · ṭ with ī","x":["ਤੀ","ਥੀ"],"why":"ਰੋਟੀ has the retroflex ਟ, not the dental ਤ.","xr":["tī","thī"]}
     ],
     "nasal": [
       {"t":"mc","q":"Which word has an addak?","o":["ਪੱਕਾ","ਪਤਾ","ਪੰਜ","ਮੁੰਡਾ"],"why":"ਪੱਕਾ has the addak ੱ, which doubles the k."},
@@ -768,12 +768,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Build pakkā (sure)","a":["ਪੱ","ਕਾ"],"x":["ਪ"],"why":"The addak on ਪੱ doubles the k: ਪੱਕਾ, not ਪਕਾ."},
       {"t":"order","p":"Build muṇḍā (boy)","a":["ਮੁੰ","ਡਾ"],"x":["ਮੂੰ"],"why":"ਮੁੰਡਾ has the short vowel ੁ, so the mark is tippi."},
       {"t":"order","p":"Build fon (phone)","a":["ਫ਼ੋ","ਨ"],"x":["ਫੋ"],"why":"The f of phone is ਫ਼, with the dot; ਫ without it is p with a puff."},
-      {"t":"fill","q":"__ਜ","p":"panj, five","a":["ਪੰ","pã"],"o":["ਪ","ਪਾ","ਪਾਂ"],"why":"ਪੰਜ has a tippi on the inherent a, said n before ਜ."},
-      {"t":"fill","q":"ਖ਼ੁ__","p":"ḵhush, happy","a":["ਸ਼","sha"],"o":["ਸ","ਛ","ਜ਼"],"why":"ਖ਼ੁਸ਼ ends in the dotted ਸ਼, sh.","strict":true},
-      {"t":"fill","q":"__ ਜੀ।","p":"OK. (politely)","a":["ਅੱਛਾ","acchhā"],"o":["ਅਛਾ","ਆਛਾ","ਅੱਚਾ"],"why":"ਅੱਛਾ has an addak, which doubles the aspirated ਛ.","strict":true},
-      {"t":"type","p":"Type kamm (work)","a":["ਕੰ ਮ","ਕੰਮ","kã ma","kamm"],"hint":"ka with tippi · m","x":["ਕ","ਕਾ"],"why":"ਕੰਮ has a tippi before ਮ, which doubles it.","strict":true},
-      {"t":"type","p":"Type pattā (leaf)","a":["ਪੱ ਤਾ","ਪੱਤਾ","pattā"],"hint":"pa with addak · tā","x":["ਪ","ਟਾ"],"why":"The addak doubles the dental ਤ: ਪੱਤਾ is leaf; ਪਤਾ is address.","strict":true},
-      {"t":"type","p":"Type hā̃ (yes)","a":["ਹਾਂ","hā̃"],"hint":"hā with bindi","x":["ਹਾ","ਹੈਂ"],"why":"ਹਾਂ takes a bindi on ਾ, said as a nasal vowel."}
+      {"t":"fill","q":"__ਜ","p":"panj, five","a":["ਪੰ","pã"],"o":["ਪ","ਪਾ","ਪਾਂ"],"why":"ਪੰਜ has a tippi on the inherent a, said n before ਜ.","xr":["pa","pā","pā̃"]},
+      {"t":"fill","q":"ਖ਼ੁ__","p":"ḵhush, happy","a":["ਸ਼","sha"],"o":["ਸ","ਛ","ਜ਼"],"why":"ਖ਼ੁਸ਼ ends in the dotted ਸ਼, sh.","strict":true,"xr":["sa","chha","za"]},
+      {"t":"fill","q":"__ ਜੀ।","p":"OK. (politely)","a":["ਅੱਛਾ","acchhā"],"o":["ਅਛਾ","ਆਛਾ","ਅੱਚਾ"],"why":"ਅੱਛਾ has an addak, which doubles the aspirated ਛ.","strict":true,"xr":["achhā","āchhā","acchā"]},
+      {"t":"type","p":"Type kamm (work)","a":["ਕੰ ਮ","ਕੰਮ","kã ma","kamm"],"hint":"ka with tippi · m","x":["ਕ","ਕਾ"],"why":"ਕੰਮ has a tippi before ਮ, which doubles it.","strict":true,"xr":["ka","kā"]},
+      {"t":"type","p":"Type pattā (leaf)","a":["ਪੱ ਤਾ","ਪੱਤਾ","pattā"],"hint":"pa with addak · tā","x":["ਪ","ਟਾ"],"why":"The addak doubles the dental ਤ: ਪੱਤਾ is leaf; ਪਤਾ is address.","strict":true,"xr":["pa","ṭā"]},
+      {"t":"type","p":"Type hā̃ (yes)","a":["ਹਾਂ","hā̃"],"hint":"hā with bindi","x":["ਹਾ","ਹੈਂ"],"why":"ਹਾਂ takes a bindi on ਾ, said as a nasal vowel.","xr":["hā","haĩ"]}
     ],
     "tones": [
       {"t":"mc","q":"Which word has a low tone?","o":["ਘਰ","ਕਰ","ਚਾਹ","ਸਿੰਘ"],"why":"ਘ at the start of ਘਰ gives a low tone."},
@@ -784,12 +784,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Build ghòṛā (horse)","a":["ਘੋ","ੜਾ"],"x":["ਕੋ"],"why":"ਘੋੜਾ starts with ਘ, which gives a low tone; ਕੋੜਾ is whip."},
       {"t":"order","p":"Build síngh (Singh)","a":["ਸਿੰ","ਘ"],"x":["ਗ"],"why":"The final ਘ gives the i a high tone; it is said like ਗ but written ਘ."},
       {"t":"order","p":"Build chā́h (tea)","a":["ਚਾ","ਹ"],"x":["ਛਾ"],"why":"The silent ਹ after ā gives a high tone; ਚ has no puff."},
-      {"t":"fill","q":"__ੜਾ","p":"ghòṛā, horse","a":["ਘੋ","ghò"],"o":["ਕੋ","ਗੋ","ਖੋ"],"why":"Horse starts with ਘ: ਘੋੜਾ, with a low tone."},
-      {"t":"fill","q":"ਚਾ__","p":"chā́h, tea","a":["ਹ","ha"],"o":["ਖ","ਘ","ਗ"],"why":"ਚਾਹ ends in a silent ਹ that gives the ā a high tone."},
-      {"t":"fill","q":"__ੜੀ","p":"ghàṛī, watch; clock","a":["ਘ","ghà"],"o":["ਕ","ਗ","ਖ"],"why":"Watch is ਘੜੀ, with a low tone; ਕੜੀ is a different word."},
-      {"t":"type","p":"Type ghàr (house)","a":["ਘ ਰ","ਘਰ","ghà ra","ghàr"],"hint":"the tonal letter gh · r","x":["ਕ","ਗ"],"why":"ਘਰ is written with ਘ, which gives a low tone; ਕਰ means do!"},
-      {"t":"type","p":"Type bhā̀ī (brother)","a":["ਭਾ ਈ","ਭਾਈ","bhā̀ ī","bhā̀ī"],"hint":"the tonal letter bh with ā · ī","x":["ਪਾ","ਬਾ"],"why":"ਭਾਈ is written with ਭ, which gives a low tone on the ā."},
-      {"t":"type","p":"Type dhī̀ (daughter)","a":["ਧੀ","dhī̀"],"hint":"the tonal letter dh with ī","x":["ਦੀ","ਤੀ"],"why":"ਧੀ is written with ਧ, which gives a low tone; ਦੀ is a different word."}
+      {"t":"fill","q":"__ੜਾ","p":"ghòṛā, horse","a":["ਘੋ","ghò"],"o":["ਕੋ","ਗੋ","ਖੋ"],"why":"Horse starts with ਘ: ਘੋੜਾ, with a low tone.","xr":["ko","go","kho"]},
+      {"t":"fill","q":"ਚਾ__","p":"chā́h, tea","a":["ਹ","ha"],"o":["ਖ","ਘ","ਗ"],"why":"ਚਾਹ ends in a silent ਹ that gives the ā a high tone.","xr":["kha","ghà","ga"]},
+      {"t":"fill","q":"__ੜੀ","p":"ghàṛī, watch; clock","a":["ਘ","ghà"],"o":["ਕ","ਗ","ਖ"],"why":"Watch is ਘੜੀ, with a low tone; ਕੜੀ is a different word.","xr":["ka","ga","kha"]},
+      {"t":"type","p":"Type ghàr (house)","a":["ਘ ਰ","ਘਰ","ghà ra","ghàr"],"hint":"the tonal letter gh · r","x":["ਕ","ਗ"],"why":"ਘਰ is written with ਘ, which gives a low tone; ਕਰ means do!","xr":["ka","ga"]},
+      {"t":"type","p":"Type bhā̀ī (brother)","a":["ਭਾ ਈ","ਭਾਈ","bhā̀ ī","bhā̀ī"],"hint":"the tonal letter bh with ā · ī","x":["ਪਾ","ਬਾ"],"why":"ਭਾਈ is written with ਭ, which gives a low tone on the ā.","xr":["pā","bā"]},
+      {"t":"type","p":"Type dhī̀ (daughter)","a":["ਧੀ","dhī̀"],"hint":"the tonal letter dh with ī","x":["ਦੀ","ਤੀ"],"why":"ਧੀ is written with ਧ, which gives a low tone; ਦੀ is a different word.","xr":["dī","tī"]}
     ],
     "greetings": [
       {"t":"mc","q":"Your friend's grandfather, a Sikh, walks in. What do you say?","o":["ਸਤ ਸ੍ਰੀ ਅਕਾਲ ਜੀ","ਤੂੰ ਕਿਵੇਂ ਹੈਂ?","ਕੋਈ ਗੱਲ ਨਹੀਂ","ਮਾਫ਼ ਕਰਨਾ"],"why":"ਸਤ ਸ੍ਰੀ ਅਕਾਲ with ਜੀ is the respectful greeting; ਤੂੰ would be rude to an elder."},
@@ -800,12 +800,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"How are you? (politely, start with ਤੁਸੀਂ)","a":["ਤੁਸੀਂ","ਕਿਵੇਂ","ਹੋ"],"x":["ਹੈ"],"why":"ਤੁਸੀਂ is plural, even for one person, so it takes the plural ਹੋ."},
       {"t":"order","p":"I'm fine.","a":["ਮੈਂ","ਠੀਕ","ਹਾਂ"],"x":["ਹੈ","ਹੂੰ"],"why":"ਹਾਂ agrees with ਮੈਂ; ਹੂੰ is Hindi."},
       {"t":"order","p":"No problem.","a":["ਕੋਈ","ਗੱਲ","ਨਹੀਂ"],"x":["ਸਵਾਗਤ"],"why":"ਕੋਈ ਗੱਲ ਨਹੀਂ, it's nothing, answers thanks and sorry."},
-      {"t":"fill","q":"ਤੁਸੀਂ ਕਿਵੇਂ __?","p":"How are you? (polite)","a":["ਹੋ","ho"],"o":["ਹੈ","ਹਾਂ","ਹੈਂ"],"why":"ਤੁਸੀਂ takes the plural ਹੋ."},
-      {"t":"fill","q":"ਮੈਂ ਠੀਕ __।","p":"I'm fine.","a":["ਹਾਂ","hā̃"],"o":["ਹੈ","ਹੋ","ਹੂੰ"],"why":"With ਮੈਂ the verb is ਹਾਂ; ਹੂੰ is the Hindi form."},
-      {"t":"fill","q":"ਕੋਈ ਗੱਲ __।","p":"No problem.","a":["ਨਹੀਂ","náhī̃"],"o":["ਹੈ","ਹਾਂ","ਜੀ"],"why":"ਕੋਈ ਗੱਲ ਨਹੀਂ: literally, (it's) no matter."},
-      {"t":"type","p":"How are you? (politely, using ਤੁਸੀਂ)","a":["ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ","ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ ਜੀ","tusī̃ kivẽ ho","tusī̃ kivẽ ho jī"],"hint":"ਤੁਸੀਂ · ਕਿਵੇਂ · ਹੋਣਾ","x":["ਹੈ"],"why":"ਤੁਸੀਂ is plural, so the verb is ਹੋ, not ਹੈ."},
-      {"t":"type","p":"I'm fine. (answering)","a":["ਮੈਂ ਠੀਕ ਹਾਂ","ਮੈਂ ਠੀਕ ਹਾਂ ਜੀ","ਠੀਕ ਹਾਂ","ਠੀਕ ਹਾਂ ਜੀ","maĩ ṭhīk hā̃","maĩ ṭhīk hā̃ jī","ṭhīk hā̃","ṭhīk hā̃ jī"],"hint":"ਮੈਂ · ਠੀਕ · ਹੋਣਾ","x":["ਹੈ","ਹੂੰ"],"why":"ਹਾਂ agrees with ਮੈਂ; ਹੈ is for he, she or it."},
-      {"t":"type","p":"How are you? (to a close friend, using ਤੂੰ)","a":["ਤੂੰ ਕਿਵੇਂ ਹੈਂ","tū̃ kivẽ haĩ"],"hint":"ਤੂੰ · ਕਿਵੇਂ · ਹੋਣਾ","x":["ਹੋ"],"why":"ਤੂੰ is singular, so it takes ਹੈਂ, not the plural ਹੋ."}
+      {"t":"fill","q":"ਤੁਸੀਂ ਕਿਵੇਂ __?","p":"How are you? (polite)","a":["ਹੋ","ho"],"o":["ਹੈ","ਹਾਂ","ਹੈਂ"],"why":"ਤੁਸੀਂ takes the plural ਹੋ.","xr":["hai","hā̃","haĩ"]},
+      {"t":"fill","q":"ਮੈਂ ਠੀਕ __।","p":"I'm fine.","a":["ਹਾਂ","hā̃"],"o":["ਹੈ","ਹੋ","ਹੂੰ"],"why":"With ਮੈਂ the verb is ਹਾਂ; ਹੂੰ is the Hindi form.","xr":["hai","ho","hū̃"]},
+      {"t":"fill","q":"ਕੋਈ ਗੱਲ __।","p":"No problem.","a":["ਨਹੀਂ","náhī̃"],"o":["ਹੈ","ਹਾਂ","ਜੀ"],"why":"ਕੋਈ ਗੱਲ ਨਹੀਂ: literally, (it's) no matter.","xr":["hai","hā̃","jī"]},
+      {"t":"type","p":"How are you? (politely, using ਤੁਸੀਂ)","a":["ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ","ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ ਜੀ","tusī̃ kivẽ ho","tusī̃ kivẽ ho jī"],"hint":"ਤੁਸੀਂ · ਕਿਵੇਂ · ਹੋਣਾ","x":["ਹੈ"],"why":"ਤੁਸੀਂ is plural, so the verb is ਹੋ, not ਹੈ.","xr":["hai"]},
+      {"t":"type","p":"I'm fine. (answering)","a":["ਮੈਂ ਠੀਕ ਹਾਂ","ਮੈਂ ਠੀਕ ਹਾਂ ਜੀ","ਠੀਕ ਹਾਂ","ਠੀਕ ਹਾਂ ਜੀ","maĩ ṭhīk hā̃","maĩ ṭhīk hā̃ jī","ṭhīk hā̃","ṭhīk hā̃ jī"],"hint":"ਮੈਂ · ਠੀਕ · ਹੋਣਾ","x":["ਹੈ","ਹੂੰ"],"why":"ਹਾਂ agrees with ਮੈਂ; ਹੈ is for he, she or it.","xr":["hai","hū̃"]},
+      {"t":"type","p":"How are you? (to a close friend, using ਤੂੰ)","a":["ਤੂੰ ਕਿਵੇਂ ਹੈਂ","tū̃ kivẽ haĩ"],"hint":"ਤੂੰ · ਕਿਵੇਂ · ਹੋਣਾ","x":["ਹੋ"],"why":"ਤੂੰ is singular, so it takes ਹੈਂ, not the plural ਹੋ.","xr":["ho"]}
     ],
     "hona": [
       {"t":"mc","q":"I am happy =","o":["ਮੈਂ ਖ਼ੁਸ਼ ਹਾਂ","ਮੈਂ ਖ਼ੁਸ਼ ਹੈ","ਮੈਂ ਖ਼ੁਸ਼ ਹੂੰ","ਮੈਂ ਖ਼ੁਸ਼ ਹੋ"],"why":"ਮੈਂ takes ਹਾਂ; ਹੂੰ is Hindi."},
@@ -816,12 +816,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"They are ready. (use ਉਹ)","a":["ਉਹ","ਤਿਆਰ","ਹਨ"],"x":["ਹੈ"],"why":"Several people take the plural ਹਨ; ਹੈ is for one."},
       {"t":"order","p":"We are friends.","a":["ਅਸੀਂ","ਦੋਸਤ","ਹਾਂ"],"x":["ਹਨ"],"why":"ਹਾਂ agrees with ਅਸੀਂ; ਹਨ is for they."},
       {"t":"order","p":"You are happy. (to a close friend)","a":["ਤੂੰ","ਖ਼ੁਸ਼","ਹੈਂ"],"x":["ਹੋ"],"why":"ਤੂੰ is singular: it takes ਹੈਂ, not the plural ਹੋ."},
-      {"t":"fill","q":"ਉਹ ਡਾਕਟਰ __।","p":"They are doctors.","a":["ਹਨ","han"],"o":["ਹੈ","ਹਾਂ","ਹੋ"],"why":"They are takes the plural ਹਨ."},
-      {"t":"fill","q":"ਅਸੀਂ ਪੰਜਾਬੀ __।","p":"We are Punjabi.","a":["ਹਾਂ","hā̃"],"o":["ਹੈ","ਹਨ","ਹੂੰ"],"why":"ਅਸੀਂ takes ਹਾਂ."},
-      {"t":"fill","q":"ਤੁਸੀਂ ਤਿਆਰ __?","p":"Are you ready? (polite)","a":["ਹੋ","ho"],"o":["ਹੈ","ਹੈਂ","ਹਾਂ"],"why":"ਤੁਸੀਂ takes ਹੋ, even for one person."},
-      {"t":"type","p":"They are happy. (use ਉਹ)","a":["ਉਹ ਖ਼ੁਸ਼ ਹਨ","úh ḵhush han"],"hint":"ਉਹ · ਖ਼ੁਸ਼ · ਹੋਣਾ","x":["ਹੈ"],"why":"ਹਨ agrees with a plural subject; ਹੈ is for one person."},
-      {"t":"type","p":"I am a doctor.","a":["ਮੈਂ ਡਾਕਟਰ ਹਾਂ","maĩ ḍākṭar hā̃"],"hint":"ਮੈਂ · ਡਾਕਟਰ · ਹੋਣਾ","x":["ਹੈ","ਹੂੰ"],"why":"ਹਾਂ agrees with ਮੈਂ; ਹੂੰ is Hindi."},
-      {"t":"type","p":"How are you? (politely, using ਤੁਸੀਂ)","a":["ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ","ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ ਜੀ","tusī̃ kivẽ ho","tusī̃ kivẽ ho jī"],"hint":"ਤੁਸੀਂ · ਕਿਵੇਂ · ਹੋਣਾ","x":["ਹੈ"],"why":"ਤੁਸੀਂ is plural, so it takes ਹੋ."}
+      {"t":"fill","q":"ਉਹ ਡਾਕਟਰ __।","p":"They are doctors.","a":["ਹਨ","han"],"o":["ਹੈ","ਹਾਂ","ਹੋ"],"why":"They are takes the plural ਹਨ.","xr":["hai","hā̃","ho"]},
+      {"t":"fill","q":"ਅਸੀਂ ਪੰਜਾਬੀ __।","p":"We are Punjabi.","a":["ਹਾਂ","hā̃"],"o":["ਹੈ","ਹਨ","ਹੂੰ"],"why":"ਅਸੀਂ takes ਹਾਂ.","xr":["hai","han","hū̃"]},
+      {"t":"fill","q":"ਤੁਸੀਂ ਤਿਆਰ __?","p":"Are you ready? (polite)","a":["ਹੋ","ho"],"o":["ਹੈ","ਹੈਂ","ਹਾਂ"],"why":"ਤੁਸੀਂ takes ਹੋ, even for one person.","xr":["hai","haĩ","hā̃"]},
+      {"t":"type","p":"They are happy. (use ਉਹ)","a":["ਉਹ ਖ਼ੁਸ਼ ਹਨ","úh ḵhush han"],"hint":"ਉਹ · ਖ਼ੁਸ਼ · ਹੋਣਾ","x":["ਹੈ"],"why":"ਹਨ agrees with a plural subject; ਹੈ is for one person.","xr":["hai"]},
+      {"t":"type","p":"I am a doctor.","a":["ਮੈਂ ਡਾਕਟਰ ਹਾਂ","maĩ ḍākṭar hā̃"],"hint":"ਮੈਂ · ਡਾਕਟਰ · ਹੋਣਾ","x":["ਹੈ","ਹੂੰ"],"why":"ਹਾਂ agrees with ਮੈਂ; ਹੂੰ is Hindi.","xr":["hai","hū̃"]},
+      {"t":"type","p":"How are you? (politely, using ਤੁਸੀਂ)","a":["ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ","ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ ਜੀ","tusī̃ kivẽ ho","tusī̃ kivẽ ho jī"],"hint":"ਤੁਸੀਂ · ਕਿਵੇਂ · ਹੋਣਾ","x":["ਹੈ"],"why":"ਤੁਸੀਂ is plural, so it takes ਹੋ.","xr":["hai"]}
     ],
     "intro": [
       {"t":"mc","q":"My name is David =","o":["ਮੇਰਾ ਨਾਂ ਡੇਵਿਡ ਹੈ","ਮੇਰੀ ਨਾਂ ਡੇਵਿਡ ਹੈ","ਮੇਰਾ ਨਾਂ ਡੇਵਿਡ ਜੀ ਹੈ","ਮੇਰਾ ਨਾਂ ਡੇਵਿਡ ਹਾਂ"],"why":"ਨਾਂ is masculine, so ਮੇਰਾ; the verb agrees with ਨਾਂ: ਹੈ."},
@@ -832,12 +832,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I'm from America.","a":["ਮੈਂ","ਅਮਰੀਕਾ","ਤੋਂ","ਹਾਂ"],"x":["ਸੇ"],"why":"ਤੋਂ is a postposition: it comes after the noun. ਸੇ is Hindi."},
       {"t":"order","p":"My name is Sarah.","a":["ਮੇਰਾ","ਨਾਂ","ਸਾਰਾ","ਹੈ"],"x":["ਮੇਰੀ"],"why":"ਨਾਂ is masculine, so it takes ਮੇਰਾ, whoever is speaking."},
       {"t":"order","p":"I speak a little Punjabi. (a man speaking)","a":["ਮੈਂ","ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ","ਬੋਲਦਾ","ਹਾਂ"],"x":["ਬੋਲਦੀ"],"why":"The verb agrees with the speaker: a man says ਬੋਲਦਾ."},
-      {"t":"fill","q":"ਮੈਂ ਅਮਰੀਕਾ __ ਹਾਂ।","p":"I'm from America.","a":["ਤੋਂ","tõ"],"o":["ਸੇ","ਕੋ","ਦਾ"],"why":"From is ਤੋਂ, after the place; ਸੇ is Hindi."},
-      {"t":"fill","q":"ਤੁਹਾਡਾ ਨਾਂ __ ਹੈ?","p":"What's your name?","a":["ਕੀ","kī"],"o":["ਕੌਣ","ਕਿੱਥੋਂ","ਕਿੱਥੇ"],"why":"ਕੀ asks what: ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ?"},
-      {"t":"fill","q":"ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ __ ਹਾਂ।","p":"I speak a little Punjabi. (a man speaking)","a":["ਬੋਲਦਾ","boldā"],"o":["ਬੋਲਦੀ","ਬੋਲਦੇ","ਬੋਲਦੀਆਂ"],"why":"A man speaking says ਬੋਲਦਾ; a woman says ਬੋਲਦੀ."},
-      {"t":"type","p":"I'm from London.","a":["ਮੈਂ ਲੰਡਨ ਤੋਂ ਹਾਂ","maĩ laṇḍan tõ hā̃"],"hint":"ਮੈਂ · ਲੰਡਨ · ਤੋਂ · ਹੋਣਾ","x":["ਸੇ"],"why":"ਤੋਂ is a postposition, so it comes after the noun: ਲੰਡਨ ਤੋਂ."},
-      {"t":"type","p":"I speak a little Punjabi. (a woman speaking)","a":["ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦੀ ਹਾਂ","ਮੈਂ ਪੰਜਾਬੀ ਥੋੜ੍ਹੀ ਬੋਲਦੀ ਹਾਂ","maĩ thóṛhī panjābī boldī hā̃","maĩ panjābī thóṛhī boldī hā̃"],"hint":"ਮੈਂ · ਥੋੜ੍ਹੀ · ਪੰਜਾਬੀ · ਬੋਲਦੀ · ਹੋਣਾ","x":["ਬੋਲਦਾ"],"why":"The verb agrees with the speaker: a woman says ਬੋਲਦੀ, with the feminine -ī."},
-      {"t":"type","p":"What's your name? (polite)","a":["ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ","ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ","ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ ਜੀ","ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ ਜੀ","ਤੁਹਾਡਾ ਕੀ ਨਾਂ ਹੈ","ਤੁਹਾਡਾ ਕੀ ਨਾਮ ਹੈ","tuhā̀ḍā nā̃ kī hai","tuhā̀ḍā nām kī hai","tuhā̀ḍā nā̃ kī hai jī","tuhā̀ḍā nām kī hai jī","tuhā̀ḍā kī nā̃ hai","tuhā̀ḍā kī nām hai"],"hint":"ਤੁਹਾਡਾ · ਨਾਂ · ਕੀ · ਹੋਣਾ","x":["ਤੁਹਾਡੀ"],"why":"ਨਾਂ is masculine, so ਤੁਹਾਡਾ, not ਤੁਹਾਡੀ."}
+      {"t":"fill","q":"ਮੈਂ ਅਮਰੀਕਾ __ ਹਾਂ।","p":"I'm from America.","a":["ਤੋਂ","tõ"],"o":["ਸੇ","ਕੋ","ਦਾ"],"why":"From is ਤੋਂ, after the place; ਸੇ is Hindi.","xr":["se","ko","dā"]},
+      {"t":"fill","q":"ਤੁਹਾਡਾ ਨਾਂ __ ਹੈ?","p":"What's your name?","a":["ਕੀ","kī"],"o":["ਕੌਣ","ਕਿੱਥੋਂ","ਕਿੱਥੇ"],"why":"ਕੀ asks what: ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ?","xr":["kauṇ","kitthõ","kitthe"]},
+      {"t":"fill","q":"ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ __ ਹਾਂ।","p":"I speak a little Punjabi. (a man speaking)","a":["ਬੋਲਦਾ","boldā"],"o":["ਬੋਲਦੀ","ਬੋਲਦੇ","ਬੋਲਦੀਆਂ"],"why":"A man speaking says ਬੋਲਦਾ; a woman says ਬੋਲਦੀ.","xr":["boldī","bolde","boldīā̃"]},
+      {"t":"type","p":"I'm from London.","a":["ਮੈਂ ਲੰਡਨ ਤੋਂ ਹਾਂ","maĩ laṇḍan tõ hā̃"],"hint":"ਮੈਂ · ਲੰਡਨ · ਤੋਂ · ਹੋਣਾ","x":["ਸੇ"],"why":"ਤੋਂ is a postposition, so it comes after the noun: ਲੰਡਨ ਤੋਂ.","xr":["se"]},
+      {"t":"type","p":"I speak a little Punjabi. (a woman speaking)","a":["ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦੀ ਹਾਂ","ਮੈਂ ਪੰਜਾਬੀ ਥੋੜ੍ਹੀ ਬੋਲਦੀ ਹਾਂ","maĩ thóṛhī panjābī boldī hā̃","maĩ panjābī thóṛhī boldī hā̃"],"hint":"ਮੈਂ · ਥੋੜ੍ਹੀ · ਪੰਜਾਬੀ · ਬੋਲਦੀ · ਹੋਣਾ","x":["ਬੋਲਦਾ"],"why":"The verb agrees with the speaker: a woman says ਬੋਲਦੀ, with the feminine -ī.","xr":["boldā"]},
+      {"t":"type","p":"What's your name? (polite)","a":["ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ","ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ","ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ ਜੀ","ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ ਜੀ","ਤੁਹਾਡਾ ਕੀ ਨਾਂ ਹੈ","ਤੁਹਾਡਾ ਕੀ ਨਾਮ ਹੈ","tuhā̀ḍā nā̃ kī hai","tuhā̀ḍā nām kī hai","tuhā̀ḍā nā̃ kī hai jī","tuhā̀ḍā nām kī hai jī","tuhā̀ḍā kī nā̃ hai","tuhā̀ḍā kī nām hai"],"hint":"ਤੁਹਾਡਾ · ਨਾਂ · ਕੀ · ਹੋਣਾ","x":["ਤੁਹਾਡੀ"],"why":"ਨਾਂ is masculine, so ਤੁਹਾਡਾ, not ਤੁਹਾਡੀ.","xr":["tuhā̀ḍī"]}
     ],
     "questions": [
       {"t":"mc","q":"Are you a doctor? (polite) =","o":["ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ?","ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੈ?","ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹਾਂ?","ਕੌਣ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ?"],"why":"ਕੀ starts a yes-no question, and ਤੁਸੀਂ takes ਹੋ."},
@@ -848,12 +848,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Which one is your house? (ਘਰ is masculine; start with ਤੁਹਾਡਾ)","a":["ਤੁਹਾਡਾ","ਘਰ","ਕਿਹੜਾ","ਹੈ"],"x":["ਕਿਹੜੀ"],"why":"ਕਿਹੜਾ agrees with ਘਰ, which is masculine."},
       {"t":"order","p":"Which one is your car? (ਕਾਰ is feminine; start with ਤੁਹਾਡੀ)","a":["ਤੁਹਾਡੀ","ਕਾਰ","ਕਿਹੜੀ","ਹੈ"],"x":["ਕਿਹੜਾ"],"why":"ਕਿਹੜੀ agrees with ਕਾਰ, which is feminine."},
       {"t":"order","p":"Are you ready? (polite)","a":["ਕੀ","ਤੁਸੀਂ","ਤਿਆਰ","ਹੋ"],"x":["ਹੈ"],"why":"ਕੀ starts the question, and ਤੁਸੀਂ takes the plural ਹੋ."},
-      {"t":"fill","q":"__ ਤੁਸੀਂ ਪੰਜਾਬੀ ਹੋ?","p":"Are you Punjabi?","a":["ਕੀ","kī"],"o":["ਕੌਣ","ਕਿੱਥੇ","ਕਿਉਂ"],"why":"A yes-no question starts with ਕੀ."},
-      {"t":"fill","q":"ਬੱਸ __ ਹੈ?","p":"When is the bus?","a":["ਕਦੋਂ","kadõ"],"o":["ਕਿੱਥੇ","ਕੌਣ","ਕਿਹੜੀ"],"why":"When is ਕਦੋਂ, placed just before the verb."},
-      {"t":"fill","q":"ਮੈਂ ਤਿਆਰ __ ਹਾਂ।","p":"I'm not ready.","a":["ਨਹੀਂ","náhī̃"],"o":["ਨਾ","ਕੀ","ਹੈ"],"why":"Not is ਨਹੀਂ, right before the verb."},
-      {"t":"type","p":"Which one is your house? (ਘਰ is masculine)","a":["ਤੁਹਾਡਾ ਘਰ ਕਿਹੜਾ ਹੈ","ਕਿਹੜਾ ਤੁਹਾਡਾ ਘਰ ਹੈ","ਤੁਹਾਡਾ ਘਰ ਕਿਹੜਾ ਹੈ ਜੀ","tuhā̀ḍā ghàr kíhṛā hai","kíhṛā tuhā̀ḍā ghàr hai","tuhā̀ḍā ghàr kíhṛā hai jī"],"hint":"ਤੁਹਾਡਾ · ਘਰ · ਕਿਹੜਾ · ਹੋਣਾ","x":["ਕਿਹੜੀ"],"why":"ਕਿਹੜਾ agrees with ਘਰ, which is masculine."},
-      {"t":"type","p":"Which book? (ਕਿਤਾਬ is feminine)","a":["ਕਿਹੜੀ ਕਿਤਾਬ","kíhṛī kitāb"],"hint":"ਕਿਹੜਾ / ਕਿਹੜੀ · ਕਿਤਾਬ","x":["ਕਿਹੜਾ"],"why":"ਕਿਤਾਬ is feminine, so which is ਕਿਹੜੀ."},
-      {"t":"type","p":"Are you a doctor? (polite)","a":["ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ","ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ","ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ ਜੀ","kī tusī̃ ḍākṭar ho","tusī̃ ḍākṭar ho","kī tusī̃ ḍākṭar ho jī"],"hint":"ਕੀ · ਤੁਸੀਂ · ਡਾਕਟਰ · ਹੋਣਾ","x":["ਹੈ"],"why":"ਤੁਸੀਂ takes the plural ਹੋ, also in questions."}
+      {"t":"fill","q":"__ ਤੁਸੀਂ ਪੰਜਾਬੀ ਹੋ?","p":"Are you Punjabi?","a":["ਕੀ","kī"],"o":["ਕੌਣ","ਕਿੱਥੇ","ਕਿਉਂ"],"why":"A yes-no question starts with ਕੀ.","xr":["kauṇ","kitthe","kiũ"]},
+      {"t":"fill","q":"ਬੱਸ __ ਹੈ?","p":"When is the bus?","a":["ਕਦੋਂ","kadõ"],"o":["ਕਿੱਥੇ","ਕੌਣ","ਕਿਹੜੀ"],"why":"When is ਕਦੋਂ, placed just before the verb.","xr":["kitthe","kauṇ","kíhṛī"]},
+      {"t":"fill","q":"ਮੈਂ ਤਿਆਰ __ ਹਾਂ।","p":"I'm not ready.","a":["ਨਹੀਂ","náhī̃"],"o":["ਨਾ","ਕੀ","ਹੈ"],"why":"Not is ਨਹੀਂ, right before the verb.","xr":["nā","kī","hai"]},
+      {"t":"type","p":"Which one is your house? (ਘਰ is masculine)","a":["ਤੁਹਾਡਾ ਘਰ ਕਿਹੜਾ ਹੈ","ਕਿਹੜਾ ਤੁਹਾਡਾ ਘਰ ਹੈ","ਤੁਹਾਡਾ ਘਰ ਕਿਹੜਾ ਹੈ ਜੀ","tuhā̀ḍā ghàr kíhṛā hai","kíhṛā tuhā̀ḍā ghàr hai","tuhā̀ḍā ghàr kíhṛā hai jī"],"hint":"ਤੁਹਾਡਾ · ਘਰ · ਕਿਹੜਾ · ਹੋਣਾ","x":["ਕਿਹੜੀ"],"why":"ਕਿਹੜਾ agrees with ਘਰ, which is masculine.","xr":["kíhṛī"]},
+      {"t":"type","p":"Which book? (ਕਿਤਾਬ is feminine)","a":["ਕਿਹੜੀ ਕਿਤਾਬ","kíhṛī kitāb"],"hint":"ਕਿਹੜਾ / ਕਿਹੜੀ · ਕਿਤਾਬ","x":["ਕਿਹੜਾ"],"why":"ਕਿਤਾਬ is feminine, so which is ਕਿਹੜੀ.","xr":["kíhṛā"]},
+      {"t":"type","p":"Are you a doctor? (polite)","a":["ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ","ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ","ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ ਜੀ","kī tusī̃ ḍākṭar ho","tusī̃ ḍākṭar ho","kī tusī̃ ḍākṭar ho jī"],"hint":"ਕੀ · ਤੁਸੀਂ · ਡਾਕਟਰ · ਹੋਣਾ","x":["ਹੈ"],"why":"ਤੁਸੀਂ takes the plural ਹੋ, also in questions.","xr":["hai"]}
     ],
     "gender": [
       {"t":"mc","q":"Which noun is feminine?","o":["ਕੁਰਸੀ","ਕਮਰਾ","ਪਾਣੀ","ਮੇਜ਼"],"why":"ਕੁਰਸੀ (chair) is feminine; ਪਾਣੀ and ਮੇਜ਼ are masculine, whatever they look like."},
@@ -864,12 +864,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"These are rooms.","a":["ਇਹ","ਕਮਰੇ","ਹਨ"],"x":["ਕਮਰਾ","ਹੈ"],"why":"In the plural ਕਮਰਾ becomes ਕਮਰੇ, and a plural subject takes ਹਨ."},
       {"t":"order","p":"Where are the girls?","a":["ਕੁੜੀਆਂ","ਕਿੱਥੇ","ਹਨ"],"x":["ਕੁੜੀ","ਹੈ"],"why":"The plural of ਕੁੜੀ is ਕੁੜੀਆਂ, and the verb is plural too: ਹਨ."},
       {"t":"order","p":"Which book is this?","a":["ਇਹ","ਕਿਹੜੀ","ਕਿਤਾਬ","ਹੈ"],"x":["ਕਿਹੜਾ"],"why":"ਕਿਤਾਬ is feminine, so the question word agrees with it: ਕਿਹੜੀ."},
-      {"t":"fill","q":"ਇਹ __ ਕਮਰਾ ਹੈ।","p":"This is my room.","a":["ਮੇਰਾ","merā"],"o":["ਮੇਰੀ","ਮੇਰੇ","ਮੈਂ"],"why":"ਕਮਰਾ is masculine, so 'my' is ਮੇਰਾ."},
-      {"t":"fill","q":"__ ਮੇਜ਼?","p":"Which table?","a":["ਕਿਹੜਾ","kíhṛā"],"o":["ਕਿਹੜੀ","ਕਿਹੜੇ","ਕੌਣ"],"why":"ਮੇਜ਼ is masculine in Punjabi (feminine in Hindi), so it takes ਕਿਹੜਾ."},
-      {"t":"fill","q":"ਮੁੰਡੇ ਕਿੱਥੇ __?","p":"Where are the boys?","a":["ਹਨ","han"],"o":["ਹੈ","ਹਾਂ","ਹੋ"],"why":"ਮੁੰਡੇ is plural (one boy is ਮੁੰਡਾ), so the verb is ਹਨ."},
-      {"t":"type","p":"Where is my book?","a":["ਮੇਰੀ ਕਿਤਾਬ ਕਿੱਥੇ ਹੈ","merī kitāb kitthe hai"],"hint":"ਮੇਰਾ · ਕਿਤਾਬ · ਕਿੱਥੇ · ਹੈ · ਕਿਤਾਬ is feminine","x":["ਮੇਰਾ"],"why":"ਕਿਤਾਬ is feminine, so it's ਮੇਰੀ ਕਿਤਾਬ, not ਮੇਰਾ ਕਿਤਾਬ."},
-      {"t":"type","p":"Where are the chairs?","a":["ਕੁਰਸੀਆਂ ਕਿੱਥੇ ਹਨ","kursīā̃ kitthe han"],"hint":"ਕੁਰਸੀ · ਕਿੱਥੇ · ਹੋਣਾ · more than one chair","x":["ਕੁਰਸੀ","ਹੈ"],"why":"ਕੁਰਸੀ becomes ਕੁਰਸੀਆਂ in the plural, and a plural noun takes ਹਨ."},
-      {"t":"type","p":"Which room is this?","a":["ਇਹ ਕਿਹੜਾ ਕਮਰਾ ਹੈ","íh kíhṛā kamrā hai"],"hint":"ਇਹ · ਕਿਹੜਾ · ਕਮਰਾ · ਹੈ","x":["ਕਿਹੜੀ"],"why":"ਕਮਰਾ is masculine, so ਕਿਹੜਾ agrees with it."}
+      {"t":"fill","q":"ਇਹ __ ਕਮਰਾ ਹੈ।","p":"This is my room.","a":["ਮੇਰਾ","merā"],"o":["ਮੇਰੀ","ਮੇਰੇ","ਮੈਂ"],"why":"ਕਮਰਾ is masculine, so 'my' is ਮੇਰਾ.","xr":["merī","mere","maĩ"]},
+      {"t":"fill","q":"__ ਮੇਜ਼?","p":"Which table?","a":["ਕਿਹੜਾ","kíhṛā"],"o":["ਕਿਹੜੀ","ਕਿਹੜੇ","ਕੌਣ"],"why":"ਮੇਜ਼ is masculine in Punjabi (feminine in Hindi), so it takes ਕਿਹੜਾ.","xr":["kíhṛī","kíhṛe","kauṇ"]},
+      {"t":"fill","q":"ਮੁੰਡੇ ਕਿੱਥੇ __?","p":"Where are the boys?","a":["ਹਨ","han"],"o":["ਹੈ","ਹਾਂ","ਹੋ"],"why":"ਮੁੰਡੇ is plural (one boy is ਮੁੰਡਾ), so the verb is ਹਨ.","xr":["hai","hā̃","ho"]},
+      {"t":"type","p":"Where is my book?","a":["ਮੇਰੀ ਕਿਤਾਬ ਕਿੱਥੇ ਹੈ","merī kitāb kitthe hai"],"hint":"ਮੇਰਾ · ਕਿਤਾਬ · ਕਿੱਥੇ · ਹੈ · ਕਿਤਾਬ is feminine","x":["ਮੇਰਾ"],"why":"ਕਿਤਾਬ is feminine, so it's ਮੇਰੀ ਕਿਤਾਬ, not ਮੇਰਾ ਕਿਤਾਬ.","xr":["merā"]},
+      {"t":"type","p":"Where are the chairs?","a":["ਕੁਰਸੀਆਂ ਕਿੱਥੇ ਹਨ","kursīā̃ kitthe han"],"hint":"ਕੁਰਸੀ · ਕਿੱਥੇ · ਹੋਣਾ · more than one chair","x":["ਕੁਰਸੀ","ਹੈ"],"why":"ਕੁਰਸੀ becomes ਕੁਰਸੀਆਂ in the plural, and a plural noun takes ਹਨ.","xr":["kursī","hai"]},
+      {"t":"type","p":"Which room is this?","a":["ਇਹ ਕਿਹੜਾ ਕਮਰਾ ਹੈ","íh kíhṛā kamrā hai"],"hint":"ਇਹ · ਕਿਹੜਾ · ਕਮਰਾ · ਹੈ","x":["ਕਿਹੜੀ"],"why":"ਕਮਰਾ is masculine, so ਕਿਹੜਾ agrees with it.","xr":["kíhṛī"]}
     ],
     "adjectives": [
       {"t":"mc","q":"'good girls' =","o":["ਚੰਗੀਆਂ ਕੁੜੀਆਂ","ਚੰਗੇ ਕੁੜੀਆਂ","ਚੰਗਾ ਕੁੜੀਆਂ","ਚੰਗੀਆਂ ਕੁੜੀ"],"why":"Feminine and more than one: the adjective takes ਚੰਗੀਆਂ, the noun ਕੁੜੀਆਂ."},
@@ -880,12 +880,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"The chairs are small.","a":["ਕੁਰਸੀਆਂ","ਛੋਟੀਆਂ","ਹਨ"],"x":["ਛੋਟੇ"],"why":"ਕੁਰਸੀਆਂ is feminine plural, so the adjective agrees: ਛੋਟੀਆਂ."},
       {"t":"order","p":"The water is cold.","a":["ਪਾਣੀ","ਠੰਢਾ","ਹੈ"],"x":["ਠੰਢੀ"],"why":"ਪਾਣੀ is masculine, so the adjective is ਠੰਢਾ."},
       {"t":"order","p":"My tea is hot.","a":["ਮੇਰੀ","ਚਾਹ","ਗਰਮ","ਹੈ"],"x":["ਮੇਰਾ"],"why":"ਚਾਹ is feminine, so 'my' agrees: ਮੇਰੀ; ਗਰਮ never changes."},
-      {"t":"fill","q":"ਇਹ ਕਮਰਾ ਬਹੁਤ __ ਹੈ।","p":"This room is very big.","a":["ਵੱਡਾ","vaḍḍā"],"o":["ਵੱਡੀ","ਵੱਡੇ","ਵੱਡੀਆਂ"],"why":"ਕਮਰਾ is one masculine noun, so the adjective is ਵੱਡਾ."},
-      {"t":"fill","q":"ਕੁੜੀਆਂ ਬਹੁਤ __ ਹਨ।","p":"The girls are very happy.","a":["ਖ਼ੁਸ਼","ḵhush"],"o":["ਖ਼ੁਸ਼ੀਆਂ","ਖ਼ੁਸ਼ਾ","ਖ਼ੁਸ਼ੇ"],"why":"ਖ਼ੁਸ਼ is an unchanging adjective: the same for one boy or many girls."},
-      {"t":"fill","q":"ਤੁਸੀਂ ਬਹੁਤ __ ਹੋ।","p":"You are very tall. (to a man, politely)","a":["ਲੰਮੇ","lamme"],"o":["ਲੰਮਾ","ਲੰਮੀ","ਲੰਮੀਆਂ"],"why":"Polite ਤੁਸੀਂ takes the -e ending: ਲੰਮੇ ਹੋ."},
-      {"t":"type","p":"The rooms are big.","a":["ਕਮਰੇ ਵੱਡੇ ਹਨ","kamre vaḍḍe han"],"hint":"ਕਮਰਾ · ਵੱਡਾ · ਹੋਣਾ · more than one room","x":["ਵੱਡਾ","ਹੈ"],"why":"In the plural the noun, the adjective and the verb all agree: ਕਮਰੇ ਵੱਡੇ ਹਨ."},
-      {"t":"type","p":"I'm tall. (a woman speaking)","a":["ਮੈਂ ਲੰਮੀ ਹਾਂ","maĩ lammī hā̃"],"hint":"ਮੈਂ · ਲੰਮਾ · ਹਾਂ · change the adjective for a woman","x":["ਲੰਮਾ","ਹੈ"],"why":"A changing adjective agrees with the speaker: a woman says ਲੰਮੀ."},
-      {"t":"type","p":"This house is very beautiful.","a":["ਇਹ ਘਰ ਬਹੁਤ ਸੋਹਣਾ ਹੈ","íh ghàr báhut sóhṇā hai"],"hint":"ਇਹ · ਘਰ · ਬਹੁਤ · ਸੋਹਣਾ · ਹੈ","x":["ਸੋਹਣੀ"],"why":"ਘਰ is masculine, so ਸੋਹਣਾ stays in its masculine form."}
+      {"t":"fill","q":"ਇਹ ਕਮਰਾ ਬਹੁਤ __ ਹੈ।","p":"This room is very big.","a":["ਵੱਡਾ","vaḍḍā"],"o":["ਵੱਡੀ","ਵੱਡੇ","ਵੱਡੀਆਂ"],"why":"ਕਮਰਾ is one masculine noun, so the adjective is ਵੱਡਾ.","xr":["vaḍḍī","vaḍḍe","vaḍḍīā̃"]},
+      {"t":"fill","q":"ਕੁੜੀਆਂ ਬਹੁਤ __ ਹਨ।","p":"The girls are very happy.","a":["ਖ਼ੁਸ਼","ḵhush"],"o":["ਖ਼ੁਸ਼ੀਆਂ","ਖ਼ੁਸ਼ਾ","ਖ਼ੁਸ਼ੇ"],"why":"ਖ਼ੁਸ਼ is an unchanging adjective: the same for one boy or many girls.","xr":["ḵhushīā̃","ḵhushā","ḵhushe"]},
+      {"t":"fill","q":"ਤੁਸੀਂ ਬਹੁਤ __ ਹੋ।","p":"You are very tall. (to a man, politely)","a":["ਲੰਮੇ","lamme"],"o":["ਲੰਮਾ","ਲੰਮੀ","ਲੰਮੀਆਂ"],"why":"Polite ਤੁਸੀਂ takes the -e ending: ਲੰਮੇ ਹੋ.","xr":["lammā","lammī","lammīā̃"]},
+      {"t":"type","p":"The rooms are big.","a":["ਕਮਰੇ ਵੱਡੇ ਹਨ","kamre vaḍḍe han"],"hint":"ਕਮਰਾ · ਵੱਡਾ · ਹੋਣਾ · more than one room","x":["ਵੱਡਾ","ਹੈ"],"why":"In the plural the noun, the adjective and the verb all agree: ਕਮਰੇ ਵੱਡੇ ਹਨ.","xr":["vaḍḍā","hai"]},
+      {"t":"type","p":"I'm tall. (a woman speaking)","a":["ਮੈਂ ਲੰਮੀ ਹਾਂ","maĩ lammī hā̃"],"hint":"ਮੈਂ · ਲੰਮਾ · ਹਾਂ · change the adjective for a woman","x":["ਲੰਮਾ","ਹੈ"],"why":"A changing adjective agrees with the speaker: a woman says ਲੰਮੀ.","xr":["lammā","hai"]},
+      {"t":"type","p":"This house is very beautiful.","a":["ਇਹ ਘਰ ਬਹੁਤ ਸੋਹਣਾ ਹੈ","íh ghàr báhut sóhṇā hai"],"hint":"ਇਹ · ਘਰ · ਬਹੁਤ · ਸੋਹਣਾ · ਹੈ","x":["ਸੋਹਣੀ"],"why":"ਘਰ is masculine, so ਸੋਹਣਾ stays in its masculine form.","xr":["sóhṇī"]}
     ],
     "possessive": [
       {"t":"mc","q":"'Arjun's sister' =","o":["ਅਰਜੁਨ ਦੀ ਭੈਣ","ਅਰਜੁਨ ਦਾ ਭੈਣ","ਭੈਣ ਦੀ ਅਰਜੁਨ","ਅਰਜੁਨ ਕੀ ਭੈਣ"],"why":"ਦੀ agrees with ਭੈਣ, which is feminine; ਕੀ is Hindi."},
@@ -896,12 +896,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"This is Arjun's sister.","a":["ਇਹ","ਅਰਜੁਨ","ਦੀ","ਭੈਣ","ਹੈ"],"x":["ਦਾ"],"why":"ਦੀ agrees with ਭੈਣ (feminine), not with Arjun."},
       {"t":"order","p":"My father is a doctor. (respectfully, with ਪਿਤਾ ਜੀ)","a":["ਮੇਰੇ","ਪਿਤਾ","ਜੀ","ਡਾਕਟਰ","ਹਨ"],"x":["ਮੇਰਾ","ਹੈ"],"why":"A respected father takes the plural: ਮੇਰੇ and ਹਨ."},
       {"t":"order","p":"Where is your car? (politely)","a":["ਤੁਹਾਡੀ","ਕਾਰ","ਕਿੱਥੇ","ਹੈ"],"x":["ਤੁਹਾਡਾ"],"why":"ਕਾਰ is feminine, so 'your' agrees: ਤੁਹਾਡੀ."},
-      {"t":"fill","q":"ਇਹ ਸਿਮਰਨ __ ਘਰ ਹੈ।","p":"This is Simran's house.","a":["ਦਾ","dā"],"o":["ਦੀ","ਦੇ","ਕਾ"],"why":"ਦਾ agrees with ਘਰ (masculine), not with Simran."},
-      {"t":"fill","q":"__ ਭੈਣ ਡਾਕਟਰ ਹੈ।","p":"My sister is a doctor.","a":["ਮੇਰੀ","merī"],"o":["ਮੇਰਾ","ਮੇਰੇ","ਮੈਂ"],"why":"ਭੈਣ is feminine, so 'my' is ਮੇਰੀ."},
-      {"t":"fill","q":"__ ਨਾਂ ਕੀ ਹੈ?","p":"What's your name? (to a friend)","a":["ਤੇਰਾ","terā"],"o":["ਤੇਰੀ","ਤੂੰ","ਤੁਸੀਂ"],"why":"To a friend 'your' is ਤੇਰਾ, masculine because ਨਾਂ is masculine."},
-      {"t":"type","p":"Her brother is tall.","a":["ਉਸ ਦਾ ਭਰਾ ਲੰਮਾ ਹੈ","ਉਸ ਦਾ ਵੀਰ ਲੰਮਾ ਹੈ","us dā bhàrā lammā hai","us dā vīr lammā hai"],"hint":"ਉਹ · ਦਾ · ਭਰਾ · ਲੰਮਾ · ਹੈ","x":["ਦੀ","ਲੰਮੀ"],"why":"ਦਾ and ਲੰਮਾ agree with ਭਰਾ, which is masculine, even though 'her' is a woman."},
-      {"t":"type","p":"Your car is very big. (politely)","a":["ਤੁਹਾਡੀ ਕਾਰ ਬਹੁਤ ਵੱਡੀ ਹੈ","tuhā̀ḍī kār báhut vaḍḍī hai"],"hint":"ਤੁਹਾਡਾ · ਕਾਰ · ਬਹੁਤ · ਵੱਡਾ · ਹੈ","x":["ਤੁਹਾਡਾ","ਵੱਡਾ"],"why":"ਕਾਰ is feminine, so both ਤੁਹਾਡੀ and ਵੱਡੀ agree with it."},
-      {"t":"type","p":"My father is a doctor. (respectfully, with ਪਿਤਾ ਜੀ)","a":["ਮੇਰੇ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹਨ","mere pitā jī ḍākṭar han"],"hint":"ਮੇਰਾ · ਪਿਤਾ ਜੀ · ਡਾਕਟਰ · ਹੋਣਾ","x":["ਮੇਰਾ","ਹੈ"],"why":"The honorific plural: a respected father takes ਮੇਰੇ and ਹਨ."}
+      {"t":"fill","q":"ਇਹ ਸਿਮਰਨ __ ਘਰ ਹੈ।","p":"This is Simran's house.","a":["ਦਾ","dā"],"o":["ਦੀ","ਦੇ","ਕਾ"],"why":"ਦਾ agrees with ਘਰ (masculine), not with Simran.","xr":["dī","de","kā"]},
+      {"t":"fill","q":"__ ਭੈਣ ਡਾਕਟਰ ਹੈ।","p":"My sister is a doctor.","a":["ਮੇਰੀ","merī"],"o":["ਮੇਰਾ","ਮੇਰੇ","ਮੈਂ"],"why":"ਭੈਣ is feminine, so 'my' is ਮੇਰੀ.","xr":["merā","mere","maĩ"]},
+      {"t":"fill","q":"__ ਨਾਂ ਕੀ ਹੈ?","p":"What's your name? (to a friend)","a":["ਤੇਰਾ","terā"],"o":["ਤੇਰੀ","ਤੂੰ","ਤੁਸੀਂ"],"why":"To a friend 'your' is ਤੇਰਾ, masculine because ਨਾਂ is masculine.","xr":["terī","tū̃","tusī̃"]},
+      {"t":"type","p":"Her brother is tall.","a":["ਉਸ ਦਾ ਭਰਾ ਲੰਮਾ ਹੈ","ਉਸ ਦਾ ਵੀਰ ਲੰਮਾ ਹੈ","us dā bhàrā lammā hai","us dā vīr lammā hai"],"hint":"ਉਹ · ਦਾ · ਭਰਾ · ਲੰਮਾ · ਹੈ","x":["ਦੀ","ਲੰਮੀ"],"why":"ਦਾ and ਲੰਮਾ agree with ਭਰਾ, which is masculine, even though 'her' is a woman.","xr":["dī","lammī"]},
+      {"t":"type","p":"Your car is very big. (politely)","a":["ਤੁਹਾਡੀ ਕਾਰ ਬਹੁਤ ਵੱਡੀ ਹੈ","tuhā̀ḍī kār báhut vaḍḍī hai"],"hint":"ਤੁਹਾਡਾ · ਕਾਰ · ਬਹੁਤ · ਵੱਡਾ · ਹੈ","x":["ਤੁਹਾਡਾ","ਵੱਡਾ"],"why":"ਕਾਰ is feminine, so both ਤੁਹਾਡੀ and ਵੱਡੀ agree with it.","xr":["tuhā̀ḍā","vaḍḍā"]},
+      {"t":"type","p":"My father is a doctor. (respectfully, with ਪਿਤਾ ਜੀ)","a":["ਮੇਰੇ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹਨ","mere pitā jī ḍākṭar han"],"hint":"ਮੇਰਾ · ਪਿਤਾ ਜੀ · ਡਾਕਟਰ · ਹੋਣਾ","x":["ਮੇਰਾ","ਹੈ"],"why":"The honorific plural: a respected father takes ਮੇਰੇ and ਹਨ.","xr":["merā","hai"]}
     ],
     "numbers": [
       {"t":"mc","q":"Which number is 20?","o":["ਵੀਹ","ਤੀਹ","ਦਸ","ਬਾਰਾਂ"],"why":"ਵੀਹ is 20; ਤੀਹ is 30, ਦਸ is 10, ਬਾਰਾਂ is 12."},
@@ -912,12 +912,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"three girls","a":["ਤਿੰਨ","ਕੁੜੀਆਂ"],"x":["ਕੁੜੀ"],"why":"After ਤਿੰਨ the noun is plural: ਕੁੜੀਆਂ."},
       {"t":"order","p":"This book is a hundred rupees. (start with 'this')","a":["ਇਹ","ਕਿਤਾਬ","ਸੌ","ਰੁਪਏ","ਦੀ","ਹੈ"],"x":["ਦਾ"],"why":"ਦੀ agrees with ਕਿਤਾਬ, which is feminine."},
       {"t":"order","p":"Where are the two boys?","a":["ਦੋ","ਮੁੰਡੇ","ਕਿੱਥੇ","ਹਨ"],"x":["ਮੁੰਡਾ","ਹੈ"],"why":"After ਦੋ the noun is plural, ਮੁੰਡੇ, and so is the verb: ਹਨ."},
-      {"t":"fill","q":"ਚਾਹ ਵੀਹ ਰੁਪਏ __ ਹੈ।","p":"The tea is twenty rupees.","a":["ਦੀ","dī"],"o":["ਦਾ","ਦੇ","ਕੀ"],"why":"ਚਾਹ is feminine, so the price takes ਦੀ."},
-      {"t":"fill","q":"ਇਹ ਤਿੰਨ __ ਕੌਣ ਹਨ?","p":"Who are these three girls?","a":["ਕੁੜੀਆਂ","kuṛīā̃"],"o":["ਕੁੜੀ","ਕੁੜੇ","ਕੁੜੀਏ"],"why":"After ਤਿੰਨ the noun is plural: ਕੁੜੀਆਂ."},
-      {"t":"fill","q":"ਇਹ __ ਡਾਲਰ ਦਾ ਹੈ।","p":"This is twenty-five dollars.","a":["ਪੱਚੀ","pacchī"],"o":["ਵੀਹ ਪੰਜ","ਪੰਜਾਹ","ਪੰਦਰਾਂ"],"why":"25 is its own word, ਪੱਚੀ; ਪੰਜਾਹ is 50 and ਪੰਦਰਾਂ is 15."},
-      {"t":"type","p":"How much is this book?","a":["ਇਹ ਕਿਤਾਬ ਕਿੰਨੇ ਦੀ ਹੈ","íh kitāb kinne dī hai"],"hint":"ਇਹ · ਕਿਤਾਬ · ਕਿੰਨੇ · ਦਾ · ਹੈ · ਕਿਤਾਬ is feminine","x":["ਦਾ"],"why":"ਦੀ agrees with ਕਿਤਾਬ, which is feminine."},
-      {"t":"type","p":"five boys","a":["ਪੰਜ ਮੁੰਡੇ","panj muṇḍe"],"hint":"ਪੰਜ · ਮੁੰਡਾ · more than one boy","x":["ਮੁੰਡਾ"],"why":"After ਪੰਜ the noun is plural: ਮੁੰਡਾ becomes ਮੁੰਡੇ."},
-      {"t":"type","p":"The tea is twenty rupees.","a":["ਚਾਹ ਵੀਹ ਰੁਪਏ ਦੀ ਹੈ","chā́h vī́h rupae dī hai"],"hint":"ਚਾਹ · ਵੀਹ · ਰੁਪਏ · ਦਾ · ਹੈ","x":["ਦਾ"],"why":"ਚਾਹ is feminine, so the price takes ਦੀ, which agrees with it."}
+      {"t":"fill","q":"ਚਾਹ ਵੀਹ ਰੁਪਏ __ ਹੈ।","p":"The tea is twenty rupees.","a":["ਦੀ","dī"],"o":["ਦਾ","ਦੇ","ਕੀ"],"why":"ਚਾਹ is feminine, so the price takes ਦੀ.","xr":["dā","de","kī"]},
+      {"t":"fill","q":"ਇਹ ਤਿੰਨ __ ਕੌਣ ਹਨ?","p":"Who are these three girls?","a":["ਕੁੜੀਆਂ","kuṛīā̃"],"o":["ਕੁੜੀ","ਕੁੜੇ","ਕੁੜੀਏ"],"why":"After ਤਿੰਨ the noun is plural: ਕੁੜੀਆਂ.","xr":["kuṛī","kuṛe","kuṛīe"]},
+      {"t":"fill","q":"ਇਹ __ ਡਾਲਰ ਦਾ ਹੈ।","p":"This is twenty-five dollars.","a":["ਪੱਚੀ","pacchī"],"o":["ਵੀਹ ਪੰਜ","ਪੰਜਾਹ","ਪੰਦਰਾਂ"],"why":"25 is its own word, ਪੱਚੀ; ਪੰਜਾਹ is 50 and ਪੰਦਰਾਂ is 15.","xr":["vī́h panj","panjā́h","pandrā̃"]},
+      {"t":"type","p":"How much is this book?","a":["ਇਹ ਕਿਤਾਬ ਕਿੰਨੇ ਦੀ ਹੈ","íh kitāb kinne dī hai"],"hint":"ਇਹ · ਕਿਤਾਬ · ਕਿੰਨੇ · ਦਾ · ਹੈ · ਕਿਤਾਬ is feminine","x":["ਦਾ"],"why":"ਦੀ agrees with ਕਿਤਾਬ, which is feminine.","xr":["dā"]},
+      {"t":"type","p":"five boys","a":["ਪੰਜ ਮੁੰਡੇ","panj muṇḍe"],"hint":"ਪੰਜ · ਮੁੰਡਾ · more than one boy","x":["ਮੁੰਡਾ"],"why":"After ਪੰਜ the noun is plural: ਮੁੰਡਾ becomes ਮੁੰਡੇ.","xr":["muṇḍā"]},
+      {"t":"type","p":"The tea is twenty rupees.","a":["ਚਾਹ ਵੀਹ ਰੁਪਏ ਦੀ ਹੈ","chā́h vī́h rupae dī hai"],"hint":"ਚਾਹ · ਵੀਹ · ਰੁਪਏ · ਦਾ · ਹੈ","x":["ਦਾ"],"why":"ਚਾਹ is feminine, so the price takes ਦੀ, which agrees with it.","xr":["dā"]}
     ],
     "postpositions": [
       {"t":"mc","q":"'in the room' =","o":["ਕਮਰੇ ਵਿੱਚ","ਕਮਰਾ ਵਿੱਚ","ਵਿੱਚ ਕਮਰਾ","ਕਮਰੇ ਮੇਂ"],"why":"The postposition goes after the noun, and ਕਮਰਾ takes the oblique ਕਮਰੇ; ਮੇਂ is Hindi."},
@@ -928,12 +928,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Simran is in the gurdwara. (start with Simran)","a":["ਸਿਮਰਨ","ਗੁਰਦੁਆਰੇ","ਵਿੱਚ","ਹੈ"],"x":["ਗੁਰਦੁਆਰਾ"],"why":"Before the postposition ਵਿੱਚ, ਗੁਰਦੁਆਰਾ takes the oblique form ਗੁਰਦੁਆਰੇ."},
       {"t":"order","p":"The boy is with my brother. (start with the boy)","a":["ਮੁੰਡਾ","ਮੇਰੇ","ਭਰਾ","ਨਾਲ","ਹੈ"],"x":["ਮੇਰਾ"],"why":"Before the postposition ਨਾਲ, ਮੇਰਾ takes its oblique form ਮੇਰੇ."},
       {"t":"order","p":"The book is in the big room. (start with the book)","a":["ਕਿਤਾਬ","ਵੱਡੇ","ਕਮਰੇ","ਵਿੱਚ","ਹੈ"],"x":["ਵੱਡਾ","ਕਮਰਾ"],"why":"Before a postposition both the noun and its adjective take the oblique: ਵੱਡੇ ਕਮਰੇ ਵਿੱਚ."},
-      {"t":"fill","q":"ਅਰਜੁਨ __ ਵਿੱਚ ਹੈ।","p":"Arjun is in the room.","a":["ਕਮਰੇ","kamre"],"o":["ਕਮਰਾ","ਕਮਰੀ","ਕਮਰਿਆਂ"],"why":"Before ਵਿੱਚ, ਕਮਰਾ takes the oblique ਕਮਰੇ; ਕਮਰਿਆਂ would be several rooms."},
-      {"t":"fill","q":"__ ਪਤਾ ਨਹੀਂ।","p":"I don't know.","a":["ਮੈਨੂੰ","mainū̃"],"o":["ਮੈਂ","ਮੇਰਾ","ਮੁਝੇ"],"why":"With ਪਤਾ the knower takes ਨੂੰ: ਮੈਨੂੰ. ਮੁਝੇ is Hindi."},
-      {"t":"fill","q":"ਕਿਤਾਬ ਮੇਜ਼ __ ਹੈ।","p":"The book is on the table.","a":["ਉੱਤੇ","ਤੇ","ਉੱਪਰ","utte","te","uppar"],"o":["ਵਿੱਚ","ਪਰ","ਨੂੰ"],"why":"'on' is ਉੱਤੇ (often just ਤੇ), placed after the noun."},
-      {"t":"type","p":"The boy knows. (use ਪਤਾ)","a":["ਮੁੰਡੇ ਨੂੰ ਪਤਾ ਹੈ","muṇḍe nū̃ patā hai"],"hint":"ਮੁੰਡਾ · ਨੂੰ · ਪਤਾ · ਹੈ","x":["ਮੁੰਡਾ"],"why":"Before the postposition ਨੂੰ, ਮੁੰਡਾ takes the oblique form ਮੁੰਡੇ."},
-      {"t":"type","p":"Simran is in my house. (start with Simran)","a":["ਸਿਮਰਨ ਮੇਰੇ ਘਰ ਵਿੱਚ ਹੈ","ਸਿਮਰਨ ਮੇਰੇ ਘਰ ਹੈ","simran mere ghàr vicch hai","simran mere ghàr hai"],"hint":"ਸਿਮਰਨ · ਮੇਰਾ · ਘਰ · ਵਿੱਚ · ਹੈ","x":["ਮੇਰਾ"],"why":"Before a postposition ਮੇਰਾ takes the oblique ਮੇਰੇ: ਮੇਰੇ ਘਰ ਵਿੱਚ."},
-      {"t":"type","p":"The tea is in the small room. (start with the tea)","a":["ਚਾਹ ਛੋਟੇ ਕਮਰੇ ਵਿੱਚ ਹੈ","chā́h chhoṭe kamre vicch hai"],"hint":"ਚਾਹ · ਛੋਟਾ · ਕਮਰਾ · ਵਿੱਚ · ਹੈ","x":["ਛੋਟਾ","ਕਮਰਾ"],"why":"Before ਵਿੱਚ both words take the oblique: ਛੋਟੇ ਕਮਰੇ, even though ਚਾਹ is feminine."}
+      {"t":"fill","q":"ਅਰਜੁਨ __ ਵਿੱਚ ਹੈ।","p":"Arjun is in the room.","a":["ਕਮਰੇ","kamre"],"o":["ਕਮਰਾ","ਕਮਰੀ","ਕਮਰਿਆਂ"],"why":"Before ਵਿੱਚ, ਕਮਰਾ takes the oblique ਕਮਰੇ; ਕਮਰਿਆਂ would be several rooms.","xr":["kamrā","kamrī","kamriā̃"]},
+      {"t":"fill","q":"__ ਪਤਾ ਨਹੀਂ।","p":"I don't know.","a":["ਮੈਨੂੰ","mainū̃"],"o":["ਮੈਂ","ਮੇਰਾ","ਮੁਝੇ"],"why":"With ਪਤਾ the knower takes ਨੂੰ: ਮੈਨੂੰ. ਮੁਝੇ is Hindi.","xr":["maĩ","merā","mújhe"]},
+      {"t":"fill","q":"ਕਿਤਾਬ ਮੇਜ਼ __ ਹੈ।","p":"The book is on the table.","a":["ਉੱਤੇ","ਤੇ","ਉੱਪਰ","utte","te","uppar"],"o":["ਵਿੱਚ","ਪਰ","ਨੂੰ"],"why":"'on' is ਉੱਤੇ (often just ਤੇ), placed after the noun.","xr":["vicch","par","nū̃"]},
+      {"t":"type","p":"The boy knows. (use ਪਤਾ)","a":["ਮੁੰਡੇ ਨੂੰ ਪਤਾ ਹੈ","muṇḍe nū̃ patā hai"],"hint":"ਮੁੰਡਾ · ਨੂੰ · ਪਤਾ · ਹੈ","x":["ਮੁੰਡਾ"],"why":"Before the postposition ਨੂੰ, ਮੁੰਡਾ takes the oblique form ਮੁੰਡੇ.","xr":["muṇḍā"]},
+      {"t":"type","p":"Simran is in my house. (start with Simran)","a":["ਸਿਮਰਨ ਮੇਰੇ ਘਰ ਵਿੱਚ ਹੈ","ਸਿਮਰਨ ਮੇਰੇ ਘਰ ਹੈ","simran mere ghàr vicch hai","simran mere ghàr hai"],"hint":"ਸਿਮਰਨ · ਮੇਰਾ · ਘਰ · ਵਿੱਚ · ਹੈ","x":["ਮੇਰਾ"],"why":"Before a postposition ਮੇਰਾ takes the oblique ਮੇਰੇ: ਮੇਰੇ ਘਰ ਵਿੱਚ.","xr":["merā"]},
+      {"t":"type","p":"The tea is in the small room. (start with the tea)","a":["ਚਾਹ ਛੋਟੇ ਕਮਰੇ ਵਿੱਚ ਹੈ","chā́h chhoṭe kamre vicch hai"],"hint":"ਚਾਹ · ਛੋਟਾ · ਕਮਰਾ · ਵਿੱਚ · ਹੈ","x":["ਛੋਟਾ","ਕਮਰਾ"],"why":"Before ਵਿੱਚ both words take the oblique: ਛੋਟੇ ਕਮਰੇ, even though ਚਾਹ is feminine.","xr":["chhoṭā","kamrā"]}
     ],
     "habitual": [
       {"t":"mc","q":"A man says 'I work.'","o":["ਮੈਂ ਕੰਮ ਕਰਦਾ ਹਾਂ।","ਮੈਂ ਕੰਮ ਕਰਦੀ ਹਾਂ।","ਮੈਂ ਕੰਮ ਕਰਦਾ ਹੈ।","ਮੈਂ ਕੰਮ ਕਰਤਾ ਹਾਂ।"],"why":"A man uses ਕਰਦਾ, ਮੈਂ takes ਹਾਂ, and ਕਰਤਾ is Hindi."},
@@ -944,12 +944,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I live in Delhi. (a woman speaking; start with I)","a":["ਮੈਂ","ਦਿੱਲੀ","ਵਿੱਚ","ਰਹਿੰਦੀ","ਹਾਂ"],"x":["ਰਹਿੰਦਾ"],"why":"The verb agrees with the speaker: a woman says ਰਹਿੰਦੀ."},
       {"t":"order","p":"Do you speak Punjabi? (politely)","a":["ਕੀ","ਤੁਸੀਂ","ਪੰਜਾਬੀ","ਬੋਲਦੇ","ਹੋ"],"x":["ਬੋਲਦਾ","ਹੈ"],"why":"ਤੁਸੀਂ takes the plural forms ਬੋਲਦੇ ਹੋ, and ਕੀ starts the yes-no question."},
       {"t":"order","p":"My sister drinks tea.","a":["ਮੇਰੀ","ਭੈਣ","ਚਾਹ","ਪੀਂਦੀ","ਹੈ"],"x":["ਪੀਂਦਾ"],"why":"ਭੈਣ is feminine, so both ਮੇਰੀ and ਪੀਂਦੀ agree with her."},
-      {"t":"fill","q":"ਮੈਂ ਰੋਜ਼ ਕੰਮ __ ਹਾਂ।","p":"I work every day. (a man speaking)","a":["ਕਰਦਾ","kardā"],"o":["ਕਰਦੀ","ਕਰਦੇ","ਕਰਤਾ"],"why":"A man speaking: ਕਰਦਾ. ਕਰਤਾ is Hindi."},
-      {"t":"fill","q":"ਮੇਰੇ ਪਿਤਾ ਜੀ ਦਫ਼ਤਰ ਜਾਂਦੇ __।","p":"My father goes to the office.","a":["ਹਨ","han"],"o":["ਹੈ","ਹਾਂ","ਹੋ"],"why":"A respected father takes the honorific plural: ਜਾਂਦੇ ਹਨ."},
-      {"t":"fill","q":"ਉਹ ਪੰਜਾਬੀ __ ਹੈ।","p":"She speaks Punjabi.","a":["ਬੋਲਦੀ","boldī"],"o":["ਬੋਲਦਾ","ਬੋਲਤੀ","ਬੋਲਦੀਆਂ"],"why":"One woman: ਬੋਲਦੀ ਹੈ. ਬੋਲਤੀ is Hindi-style, and ਬੋਲਦੀਆਂ is for several women."},
-      {"t":"type","p":"I learn Punjabi. (a woman speaking)","a":["ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖਦੀ ਹਾਂ","maĩ panjābī sikkhdī hā̃"],"hint":"ਮੈਂ · ਪੰਜਾਬੀ · ਸਿੱਖਣਾ · ਹਾਂ","x":["ਸਿੱਖਦਾ"],"why":"The verb agrees with the speaker: a woman says ਸਿੱਖਦੀ."},
-      {"t":"type","p":"Where do you live? (politely)","a":["ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ","tusī̃ kitthe ráhinde ho"],"hint":"ਤੁਸੀਂ · ਕਿੱਥੇ · ਰਹਿਣਾ · ਹੋ","x":["ਰਹਿੰਦਾ","ਹੈ"],"why":"ਤੁਸੀਂ takes the plural forms: ਰਹਿੰਦੇ ਹੋ."},
-      {"t":"type","p":"The boys eat roti. (ਰੋਟੀ)","a":["ਮੁੰਡੇ ਰੋਟੀ ਖਾਂਦੇ ਹਨ","muṇḍe roṭī khā̃de han"],"hint":"ਮੁੰਡਾ · ਰੋਟੀ · ਖਾਣਾ · ਹੋਣਾ","x":["ਖਾਂਦਾ","ਹੈ"],"why":"Several boys: the verb is plural, ਖਾਂਦੇ ਹਨ."}
+      {"t":"fill","q":"ਮੈਂ ਰੋਜ਼ ਕੰਮ __ ਹਾਂ।","p":"I work every day. (a man speaking)","a":["ਕਰਦਾ","kardā"],"o":["ਕਰਦੀ","ਕਰਦੇ","ਕਰਤਾ"],"why":"A man speaking: ਕਰਦਾ. ਕਰਤਾ is Hindi.","xr":["kardī","karde","kartā"]},
+      {"t":"fill","q":"ਮੇਰੇ ਪਿਤਾ ਜੀ ਦਫ਼ਤਰ ਜਾਂਦੇ __।","p":"My father goes to the office.","a":["ਹਨ","han"],"o":["ਹੈ","ਹਾਂ","ਹੋ"],"why":"A respected father takes the honorific plural: ਜਾਂਦੇ ਹਨ.","xr":["hai","hā̃","ho"]},
+      {"t":"fill","q":"ਉਹ ਪੰਜਾਬੀ __ ਹੈ।","p":"She speaks Punjabi.","a":["ਬੋਲਦੀ","boldī"],"o":["ਬੋਲਦਾ","ਬੋਲਤੀ","ਬੋਲਦੀਆਂ"],"why":"One woman: ਬੋਲਦੀ ਹੈ. ਬੋਲਤੀ is Hindi-style, and ਬੋਲਦੀਆਂ is for several women.","xr":["boldā","boltī","boldīā̃"]},
+      {"t":"type","p":"I learn Punjabi. (a woman speaking)","a":["ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖਦੀ ਹਾਂ","maĩ panjābī sikkhdī hā̃"],"hint":"ਮੈਂ · ਪੰਜਾਬੀ · ਸਿੱਖਣਾ · ਹਾਂ","x":["ਸਿੱਖਦਾ"],"why":"The verb agrees with the speaker: a woman says ਸਿੱਖਦੀ.","xr":["sikkhdā"]},
+      {"t":"type","p":"Where do you live? (politely)","a":["ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ","tusī̃ kitthe ráhinde ho"],"hint":"ਤੁਸੀਂ · ਕਿੱਥੇ · ਰਹਿਣਾ · ਹੋ","x":["ਰਹਿੰਦਾ","ਹੈ"],"why":"ਤੁਸੀਂ takes the plural forms: ਰਹਿੰਦੇ ਹੋ.","xr":["ráhindā","hai"]},
+      {"t":"type","p":"The boys eat roti. (ਰੋਟੀ)","a":["ਮੁੰਡੇ ਰੋਟੀ ਖਾਂਦੇ ਹਨ","muṇḍe roṭī khā̃de han"],"hint":"ਮੁੰਡਾ · ਰੋਟੀ · ਖਾਣਾ · ਹੋਣਾ","x":["ਖਾਂਦਾ","ਹੈ"],"why":"Several boys: the verb is plural, ਖਾਂਦੇ ਹਨ.","xr":["khā̃dā","hai"]}
     ],
     "imperative": [
       {"t":"mc","q":"'Please sit down.' (to a guest) =","o":["ਬੈਠੋ ਜੀ।","ਬੈਠ।","ਬੈਠਦੇ ਹੋ।","ਬੈਠਿਏ।"],"why":"To a guest use the polite -ਓ form with ਜੀ; ਬੈਠ is only for ਤੂੰ."},
@@ -960,12 +960,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Please help me.","a":["ਮੇਰੀ","ਮਦਦ","ਕਰੋ","ਜੀ"],"x":["ਮੇਰਾ"],"why":"ਮਦਦ is feminine, so 'my' agrees with it: ਮੇਰੀ."},
       {"t":"order","p":"Please tell me.","a":["ਮੈਨੂੰ","ਦੱਸੋ","ਜੀ"],"x":["ਮੈਂ"],"why":"With ਨੂੰ, ਮੈਂ takes its oblique form, written as one word: ਮੈਨੂੰ."},
       {"t":"order","p":"Sit in the room. (politely)","a":["ਕਮਰੇ","ਵਿੱਚ","ਬੈਠੋ"],"x":["ਕਮਰਾ"],"why":"Before the postposition ਵਿੱਚ, ਕਮਰਾ takes the oblique form ਕਮਰੇ."},
-      {"t":"fill","q":"ਚਿੰਤਾ __ ਕਰੋ।","p":"Don't worry.","a":["ਨਾ","nā"],"o":["ਨਹੀਂ","ਮਤ","ਨੂੰ"],"why":"In a command 'don't' is ਨਾ."},
-      {"t":"fill","q":"ਪਾਣੀ __ ਜੀ।","p":"Please drink some water. (politely)","a":["ਪੀਓ","pīo"],"o":["ਪੀ","ਪੀਂਦਾ","ਪੀਤਾ"],"why":"The polite command adds -ਓ to the stem: ਪੀਓ. ਪੀ alone is for ਤੂੰ."},
-      {"t":"fill","q":"__ ਨੂੰ ਪਾਣੀ ਦਿਓ।","p":"Give the boy some water.","a":["ਮੁੰਡੇ","muṇḍe"],"o":["ਮੁੰਡਾ","ਮੁੰਡੀ","ਮੁੰਡਿਆਂ"],"why":"Before ਨੂੰ, ਮੁੰਡਾ takes the oblique ਮੁੰਡੇ; ਮੁੰਡਿਆਂ would be several boys."},
-      {"t":"type","p":"Call the boy. (politely)","a":["ਮੁੰਡੇ ਨੂੰ ਬੁਲਾਓ","ਮੁੰਡੇ ਨੂੰ ਬੁਲਾਓ ਜੀ","muṇḍe nū̃ bulāo","muṇḍe nū̃ bulāo jī"],"hint":"ਮੁੰਡਾ · ਨੂੰ · ਬੁਲਾਉਣਾ","x":["ਮੁੰਡਾ"],"why":"Before the postposition ਨੂੰ, ਮੁੰਡਾ takes the oblique form ਮੁੰਡੇ."},
-      {"t":"type","p":"Help me! (politely)","a":["ਮੇਰੀ ਮਦਦ ਕਰੋ","ਮੇਰੀ ਮਦਦ ਕਰੋ ਜੀ","merī madad karo","merī madad karo jī"],"hint":"ਮੇਰਾ · ਮਦਦ · ਕਰਨਾ · ਮਦਦ is feminine","x":["ਮੇਰਾ"],"why":"ਮਦਦ is feminine, so 'my' agrees: ਮੇਰੀ ਮਦਦ."},
-      {"t":"type","p":"Don't drink the water. (politely)","a":["ਪਾਣੀ ਨਾ ਪੀਓ","ਪਾਣੀ ਨਾ ਪੀਓ ਜੀ","pāṇī nā pīo","pāṇī nā pīo jī"],"hint":"ਪਾਣੀ · ਨਾ · ਪੀਣਾ","x":["ਨਹੀਂ"],"why":"A command takes ਨਾ before the verb, not ਨਹੀਂ."}
+      {"t":"fill","q":"ਚਿੰਤਾ __ ਕਰੋ।","p":"Don't worry.","a":["ਨਾ","nā"],"o":["ਨਹੀਂ","ਮਤ","ਨੂੰ"],"why":"In a command 'don't' is ਨਾ.","xr":["náhī̃","mat","nū̃"]},
+      {"t":"fill","q":"ਪਾਣੀ __ ਜੀ।","p":"Please drink some water. (politely)","a":["ਪੀਓ","pīo"],"o":["ਪੀ","ਪੀਂਦਾ","ਪੀਤਾ"],"why":"The polite command adds -ਓ to the stem: ਪੀਓ. ਪੀ alone is for ਤੂੰ.","xr":["pī","pī̃dā","pītā"]},
+      {"t":"fill","q":"__ ਨੂੰ ਪਾਣੀ ਦਿਓ।","p":"Give the boy some water.","a":["ਮੁੰਡੇ","muṇḍe"],"o":["ਮੁੰਡਾ","ਮੁੰਡੀ","ਮੁੰਡਿਆਂ"],"why":"Before ਨੂੰ, ਮੁੰਡਾ takes the oblique ਮੁੰਡੇ; ਮੁੰਡਿਆਂ would be several boys.","xr":["muṇḍā","muṇḍī","muṇḍiā̃"]},
+      {"t":"type","p":"Call the boy. (politely)","a":["ਮੁੰਡੇ ਨੂੰ ਬੁਲਾਓ","ਮੁੰਡੇ ਨੂੰ ਬੁਲਾਓ ਜੀ","muṇḍe nū̃ bulāo","muṇḍe nū̃ bulāo jī"],"hint":"ਮੁੰਡਾ · ਨੂੰ · ਬੁਲਾਉਣਾ","x":["ਮੁੰਡਾ"],"why":"Before the postposition ਨੂੰ, ਮੁੰਡਾ takes the oblique form ਮੁੰਡੇ.","xr":["muṇḍā"]},
+      {"t":"type","p":"Help me! (politely)","a":["ਮੇਰੀ ਮਦਦ ਕਰੋ","ਮੇਰੀ ਮਦਦ ਕਰੋ ਜੀ","merī madad karo","merī madad karo jī"],"hint":"ਮੇਰਾ · ਮਦਦ · ਕਰਨਾ · ਮਦਦ is feminine","x":["ਮੇਰਾ"],"why":"ਮਦਦ is feminine, so 'my' agrees: ਮੇਰੀ ਮਦਦ.","xr":["merā"]},
+      {"t":"type","p":"Don't drink the water. (politely)","a":["ਪਾਣੀ ਨਾ ਪੀਓ","ਪਾਣੀ ਨਾ ਪੀਓ ਜੀ","pāṇī nā pīo","pāṇī nā pīo jī"],"hint":"ਪਾਣੀ · ਨਾ · ਪੀਣਾ","x":["ਨਹੀਂ"],"why":"A command takes ਨਾ before the verb, not ਨਹੀਂ.","xr":["náhī̃"]}
     ],
     "like-need": [
       {"t":"mc","q":"'I like tea.' =","o":["ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ।","ਮੈਂ ਚਾਹ ਪਸੰਦ ਹਾਂ।","ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹਾਂ।","ਮੁਝੇ ਚਾਹ ਪਸੰਦ ਹੈ।"],"why":"The one who likes takes ਨੂੰ: ਮੈਨੂੰ. ਮੁਝੇ is Hindi."},
@@ -976,12 +976,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I need water. (start with 'to me')","a":["ਮੈਨੂੰ","ਪਾਣੀ","ਚਾਹੀਦਾ","ਹੈ"],"x":["ਮੈਂ","ਚਾਹੀਦੀ"],"why":"The person takes the oblique ਮੈਨੂੰ, and ਚਾਹੀਦਾ agrees with ਪਾਣੀ, which is masculine."},
       {"t":"order","p":"The boy likes lassi. (start with the boy)","a":["ਮੁੰਡੇ","ਨੂੰ","ਲੱਸੀ","ਪਸੰਦ","ਹੈ"],"x":["ਮੁੰਡਾ"],"why":"Before the postposition ਨੂੰ, ਮੁੰਡਾ takes the oblique form ਮੁੰਡੇ."},
       {"t":"order","p":"We need two shirts. (start with 'to us')","a":["ਸਾਨੂੰ","ਦੋ","ਕਮੀਜ਼ਾਂ","ਚਾਹੀਦੀਆਂ","ਹਨ"],"x":["ਚਾਹੀਦੇ"],"why":"ਚਾਹੀਦਾ agrees with the shirts: feminine plural, ਚਾਹੀਦੀਆਂ ਹਨ."},
-      {"t":"fill","q":"ਮੈਨੂੰ ਇੱਕ ਕਮੀਜ਼ __ ਹੈ।","p":"I need a shirt.","a":["ਚਾਹੀਦੀ","chā́hīdī"],"o":["ਚਾਹੀਦਾ","ਚਾਹੀਦੇ","ਚਾਹੀਦੀਆਂ"],"why":"ਕਮੀਜ਼ is one feminine thing, so ਚਾਹੀਦੀ."},
-      {"t":"fill","q":"__ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ।","p":"I know Punjabi.","a":["ਮੈਨੂੰ","mainū̃"],"o":["ਮੈਂ","ਮੇਰੀ","ਮੁਝੇ"],"why":"Knowing a language is a ਮੈਨੂੰ-construction: ਮੈਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ."},
-      {"t":"fill","q":"ਮੈਨੂੰ ਪਿਆਸ __ ਹੈ।","p":"I'm thirsty.","a":["ਲੱਗੀ","laggī"],"o":["ਲੱਗਾ","ਲੱਗੇ","ਲੱਗੀਆਂ"],"why":"ਪਿਆਸ is feminine and singular, so the verb is ਲੱਗੀ."},
-      {"t":"type","p":"I like tea.","a":["ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ","ਚਾਹ ਮੈਨੂੰ ਪਸੰਦ ਹੈ","mainū̃ chā́h pasand hai","chā́h mainū̃ pasand hai"],"hint":"ਮੈਂ · ਚਾਹ · ਪਸੰਦ · ਹੈ · the person takes ਨੂੰ","x":["ਮੈਂ"],"why":"The one who likes takes ਨੂੰ, so ਮੈਂ becomes the oblique ਮੈਨੂੰ."},
-      {"t":"type","p":"I need money. (ਪੈਸੇ)","a":["ਮੈਨੂੰ ਪੈਸੇ ਚਾਹੀਦੇ ਹਨ","ਪੈਸੇ ਮੈਨੂੰ ਚਾਹੀਦੇ ਹਨ","mainū̃ paise chā́hīde han","paise mainū̃ chā́hīde han"],"hint":"ਮੈਂ · ਪੈਸੇ · ਚਾਹੀਦਾ · ਹੋਣਾ","x":["ਚਾਹੀਦਾ","ਹੈ"],"why":"ਪੈਸੇ is plural, so ਚਾਹੀਦੇ ਹਨ agrees with it."},
-      {"t":"type","p":"She needs a book.","a":["ਉਸ ਨੂੰ ਇੱਕ ਕਿਤਾਬ ਚਾਹੀਦੀ ਹੈ","ਉਸ ਨੂੰ ਕਿਤਾਬ ਚਾਹੀਦੀ ਹੈ","ਇੱਕ ਕਿਤਾਬ ਉਸ ਨੂੰ ਚਾਹੀਦੀ ਹੈ","ਕਿਤਾਬ ਉਸ ਨੂੰ ਚਾਹੀਦੀ ਹੈ","us nū̃ ikk kitāb chā́hīdī hai","us nū̃ kitāb chā́hīdī hai","ikk kitāb us nū̃ chā́hīdī hai","kitāb us nū̃ chā́hīdī hai"],"hint":"ਉਹ · ਨੂੰ · ਕਿਤਾਬ · ਚਾਹੀਦਾ · ਹੈ","x":["ਉਹ","ਚਾਹੀਦਾ"],"why":"Before ਨੂੰ, ਉਹ takes the oblique ਉਸ, and ਚਾਹੀਦੀ agrees with ਕਿਤਾਬ, which is feminine."}
+      {"t":"fill","q":"ਮੈਨੂੰ ਇੱਕ ਕਮੀਜ਼ __ ਹੈ।","p":"I need a shirt.","a":["ਚਾਹੀਦੀ","chā́hīdī"],"o":["ਚਾਹੀਦਾ","ਚਾਹੀਦੇ","ਚਾਹੀਦੀਆਂ"],"why":"ਕਮੀਜ਼ is one feminine thing, so ਚਾਹੀਦੀ.","xr":["chā́hīdā","chā́hīde","chā́hīdīā̃"]},
+      {"t":"fill","q":"__ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ।","p":"I know Punjabi.","a":["ਮੈਨੂੰ","mainū̃"],"o":["ਮੈਂ","ਮੇਰੀ","ਮੁਝੇ"],"why":"Knowing a language is a ਮੈਨੂੰ-construction: ਮੈਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ.","xr":["maĩ","merī","mújhe"]},
+      {"t":"fill","q":"ਮੈਨੂੰ ਪਿਆਸ __ ਹੈ।","p":"I'm thirsty.","a":["ਲੱਗੀ","laggī"],"o":["ਲੱਗਾ","ਲੱਗੇ","ਲੱਗੀਆਂ"],"why":"ਪਿਆਸ is feminine and singular, so the verb is ਲੱਗੀ.","xr":["laggā","lagge","laggīā̃"]},
+      {"t":"type","p":"I like tea.","a":["ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ","ਚਾਹ ਮੈਨੂੰ ਪਸੰਦ ਹੈ","mainū̃ chā́h pasand hai","chā́h mainū̃ pasand hai"],"hint":"ਮੈਂ · ਚਾਹ · ਪਸੰਦ · ਹੈ · the person takes ਨੂੰ","x":["ਮੈਂ"],"why":"The one who likes takes ਨੂੰ, so ਮੈਂ becomes the oblique ਮੈਨੂੰ.","xr":["maĩ"]},
+      {"t":"type","p":"I need money. (ਪੈਸੇ)","a":["ਮੈਨੂੰ ਪੈਸੇ ਚਾਹੀਦੇ ਹਨ","ਪੈਸੇ ਮੈਨੂੰ ਚਾਹੀਦੇ ਹਨ","mainū̃ paise chā́hīde han","paise mainū̃ chā́hīde han"],"hint":"ਮੈਂ · ਪੈਸੇ · ਚਾਹੀਦਾ · ਹੋਣਾ","x":["ਚਾਹੀਦਾ","ਹੈ"],"why":"ਪੈਸੇ is plural, so ਚਾਹੀਦੇ ਹਨ agrees with it.","xr":["chā́hīdā","hai"]},
+      {"t":"type","p":"She needs a book.","a":["ਉਸ ਨੂੰ ਇੱਕ ਕਿਤਾਬ ਚਾਹੀਦੀ ਹੈ","ਉਸ ਨੂੰ ਕਿਤਾਬ ਚਾਹੀਦੀ ਹੈ","ਇੱਕ ਕਿਤਾਬ ਉਸ ਨੂੰ ਚਾਹੀਦੀ ਹੈ","ਕਿਤਾਬ ਉਸ ਨੂੰ ਚਾਹੀਦੀ ਹੈ","us nū̃ ikk kitāb chā́hīdī hai","us nū̃ kitāb chā́hīdī hai","ikk kitāb us nū̃ chā́hīdī hai","kitāb us nū̃ chā́hīdī hai"],"hint":"ਉਹ · ਨੂੰ · ਕਿਤਾਬ · ਚਾਹੀਦਾ · ਹੈ","x":["ਉਹ","ਚਾਹੀਦਾ"],"why":"Before ਨੂੰ, ਉਹ takes the oblique ਉਸ, and ਚਾਹੀਦੀ agrees with ਕਿਤਾਬ, which is feminine.","xr":["úh","chā́hīdā"]}
     ],
     "food": [
       {"t":"mc","q":"'One tea, please.' =","o":["ਇੱਕ ਚਾਹ ਦਿਓ ਜੀ।","ਇੱਕ ਚਾਹ ਦੋ ਜੀ।","ਇੱਕ ਚਾਹ ਦਿੰਦਾ ਜੀ।","ਇੱਕ ਚਾਹ ਨੂੰ ਦਿਓ ਜੀ।"],"why":"Order with the polite command ਦਿਓ and ਜੀ; ਦੋ means 'two'."},
@@ -992,12 +992,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"Bring the bill, please.","a":["ਬਿੱਲ","ਲਿਆਓ","ਜੀ"],"x":["ਲਿਆ"],"why":"Polite command ਲਿਆਓ, softened with ਜੀ at the end; ਲਿਆ alone is for ਤੂੰ."},
       {"t":"order","p":"Two parathas, please.","a":["ਦੋ","ਪਰੌਂਠੇ","ਦਿਓ","ਜੀ"],"x":["ਪਰੌਂਠਾ"],"why":"After ਦੋ the noun is plural: ਪਰੌਂਠਾ becomes ਪਰੌਂਠੇ."},
       {"t":"order","p":"I need a glass of water. (start with 'to me')","a":["ਮੈਨੂੰ","ਇੱਕ","ਗਿਲਾਸ","ਪਾਣੀ","ਚਾਹੀਦਾ","ਹੈ"],"x":["ਮੈਂ"],"why":"The person who needs takes ਨੂੰ, so ਮੈਂ becomes the oblique ਮੈਨੂੰ."},
-      {"t":"fill","q":"ਇਹ ਲੱਸੀ ਬਹੁਤ __ ਹੈ।","p":"This lassi is very sweet.","a":["ਮਿੱਠੀ","miṭṭhī"],"o":["ਮਿੱਠਾ","ਮਿੱਠੇ","ਮਿੱਠੀਆਂ"],"why":"ਲੱਸੀ is feminine and singular, so ਮਿੱਠੀ."},
-      {"t":"fill","q":"ਮਿਰਚ __ ਕਰੋ ਜੀ।","p":"Less chili, please.","a":["ਘੱਟ","ghàṭṭ"],"o":["ਜ਼ਿਆਦਾ","ਨਾ","ਬਹੁਤ"],"why":"ਘੱਟ means 'less'; ਜ਼ਿਆਦਾ means 'more'."},
-      {"t":"fill","q":"ਮੈਨੂੰ ਦੋ ਰੋਟੀਆਂ __ ਹਨ।","p":"I need two rotis.","a":["ਚਾਹੀਦੀਆਂ","chā́hīdīā̃"],"o":["ਚਾਹੀਦੀ","ਚਾਹੀਦੇ","ਚਾਹੀਦਾ"],"why":"ਚਾਹੀਦਾ agrees with ਰੋਟੀਆਂ: feminine plural, ਚਾਹੀਦੀਆਂ."},
-      {"t":"type","p":"Two parathas, please. (politely)","a":["ਦੋ ਪਰੌਂਠੇ ਦਿਓ ਜੀ","ਦੋ ਪਰੌਂਠੇ ਦਿਓ","do paraũṭhe dio jī","do paraũṭhe dio"],"hint":"ਦੋ · ਪਰੌਂਠਾ · ਦੇਣਾ · ਜੀ","x":["ਪਰੌਂਠਾ"],"why":"After ਦੋ the noun is plural: ਪਰੌਂਠੇ."},
-      {"t":"type","p":"The dal is very spicy.","a":["ਦਾਲ ਬਹੁਤ ਤਿੱਖੀ ਹੈ","dāl báhut tikkhī hai"],"hint":"ਦਾਲ · ਬਹੁਤ · ਤਿੱਖਾ · ਹੈ · ਦਾਲ is feminine","x":["ਤਿੱਖਾ"],"why":"ਦਾਲ is feminine, so the adjective agrees: ਤਿੱਖੀ."},
-      {"t":"type","p":"I like saag. (ਸਾਗ)","a":["ਮੈਨੂੰ ਸਾਗ ਪਸੰਦ ਹੈ","ਸਾਗ ਮੈਨੂੰ ਪਸੰਦ ਹੈ","mainū̃ sāg pasand hai","sāg mainū̃ pasand hai"],"hint":"ਮੈਂ · ਸਾਗ · ਪਸੰਦ · ਹੈ","x":["ਮੈਂ"],"why":"The one who likes takes ਨੂੰ, so ਮੈਂ becomes the oblique ਮੈਨੂੰ."}
+      {"t":"fill","q":"ਇਹ ਲੱਸੀ ਬਹੁਤ __ ਹੈ।","p":"This lassi is very sweet.","a":["ਮਿੱਠੀ","miṭṭhī"],"o":["ਮਿੱਠਾ","ਮਿੱਠੇ","ਮਿੱਠੀਆਂ"],"why":"ਲੱਸੀ is feminine and singular, so ਮਿੱਠੀ.","xr":["miṭṭhā","miṭṭhe","miṭṭhīā̃"]},
+      {"t":"fill","q":"ਮਿਰਚ __ ਕਰੋ ਜੀ।","p":"Less chili, please.","a":["ਘੱਟ","ghàṭṭ"],"o":["ਜ਼ਿਆਦਾ","ਨਾ","ਬਹੁਤ"],"why":"ਘੱਟ means 'less'; ਜ਼ਿਆਦਾ means 'more'.","xr":["ziādā","nā","báhut"]},
+      {"t":"fill","q":"ਮੈਨੂੰ ਦੋ ਰੋਟੀਆਂ __ ਹਨ।","p":"I need two rotis.","a":["ਚਾਹੀਦੀਆਂ","chā́hīdīā̃"],"o":["ਚਾਹੀਦੀ","ਚਾਹੀਦੇ","ਚਾਹੀਦਾ"],"why":"ਚਾਹੀਦਾ agrees with ਰੋਟੀਆਂ: feminine plural, ਚਾਹੀਦੀਆਂ.","xr":["chā́hīdī","chā́hīde","chā́hīdā"]},
+      {"t":"type","p":"Two parathas, please. (politely)","a":["ਦੋ ਪਰੌਂਠੇ ਦਿਓ ਜੀ","ਦੋ ਪਰੌਂਠੇ ਦਿਓ","do paraũṭhe dio jī","do paraũṭhe dio"],"hint":"ਦੋ · ਪਰੌਂਠਾ · ਦੇਣਾ · ਜੀ","x":["ਪਰੌਂਠਾ"],"why":"After ਦੋ the noun is plural: ਪਰੌਂਠੇ.","xr":["paraũṭhā"]},
+      {"t":"type","p":"The dal is very spicy.","a":["ਦਾਲ ਬਹੁਤ ਤਿੱਖੀ ਹੈ","dāl báhut tikkhī hai"],"hint":"ਦਾਲ · ਬਹੁਤ · ਤਿੱਖਾ · ਹੈ · ਦਾਲ is feminine","x":["ਤਿੱਖਾ"],"why":"ਦਾਲ is feminine, so the adjective agrees: ਤਿੱਖੀ.","xr":["tikkhā"]},
+      {"t":"type","p":"I like saag. (ਸਾਗ)","a":["ਮੈਨੂੰ ਸਾਗ ਪਸੰਦ ਹੈ","ਸਾਗ ਮੈਨੂੰ ਪਸੰਦ ਹੈ","mainū̃ sāg pasand hai","sāg mainū̃ pasand hai"],"hint":"ਮੈਂ · ਸਾਗ · ਪਸੰਦ · ਹੈ","x":["ਮੈਂ"],"why":"The one who likes takes ਨੂੰ, so ਮੈਂ becomes the oblique ਮੈਨੂੰ.","xr":["maĩ"]}
     ],
     "continuous": [
       {"t":"mc","q":"She is reading. =","o":["ਉਹ ਪੜ੍ਹ ਰਹੀ ਹੈ।","ਉਹ ਪੜ੍ਹ ਰਿਹਾ ਹੈ।","ਉਹ ਪੜ੍ਹ ਰਹੀ ਹਾਂ।","ਉਹ ਪੜ੍ਹ ਰਹੀਆਂ ਹੈ।"],"why":"One woman: ਰਹੀ, and ਉਹ takes ਹੈ."},
@@ -1008,12 +1008,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I'm reading a book. (a woman speaking)","a":["ਮੈਂ","ਕਿਤਾਬ","ਪੜ੍ਹ","ਰਹੀ","ਹਾਂ"],"x":["ਰਿਹਾ"],"why":"A woman is speaking, so ਰਹੀ agrees with her (feminine)."},
       {"t":"order","p":"The boys are eating.","a":["ਮੁੰਡੇ","ਰੋਟੀ","ਖਾ","ਰਹੇ","ਹਨ"],"x":["ਰਿਹਾ"],"why":"ਮੁੰਡੇ is masculine plural, so ਰਹੇ agrees with it."},
       {"t":"order","p":"What are you doing? (politely)","a":["ਤੁਸੀਂ","ਕੀ","ਕਰ","ਰਹੇ","ਹੋ"],"x":["ਹੈ"],"why":"ਤੁਸੀਂ is plural, so the verb agrees: ਰਹੇ ਹੋ, never ਹੈ."},
-      {"t":"fill","q":"ਉਹ ਚਾਹ ਪੀ __ ਹੈ।","p":"She is drinking tea.","a":["ਰਹੀ","ráhī"],"o":["ਰਿਹਾ","ਰਹੇ","ਰਹੀਆਂ"],"why":"One woman: ਰਹੀ."},
-      {"t":"fill","q":"ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ __?","p":"Where are you going?","a":["ਹੋ","ho"],"o":["ਹੈ","ਹਾਂ","ਹਨ"],"why":"ਤੁਸੀਂ always ends with ਹੋ."},
-      {"t":"fill","q":"ਬੱਚੇ ਸੌਂ ਰਹੇ __।","p":"The children are sleeping.","a":["ਹਨ","han"],"o":["ਹੈ","ਹੋ","ਹਾਂ"],"why":"Several children: ਰਹੇ ਹਨ."},
-      {"t":"type","p":"I'm working. (a man speaking)","a":["ਮੈਂ ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ","ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ","maĩ kamm kar ríhā hā̃","kamm kar ríhā hā̃"],"hint":"ਕੰਮ ਕਰਨਾ · ਰਿਹਾ / ਰਹੀ","x":["ਰਹੀ"],"why":"A man is speaking, so ਰਿਹਾ agrees with him (masculine)."},
-      {"t":"type","p":"The girls are coming.","a":["ਕੁੜੀਆਂ ਆ ਰਹੀਆਂ ਹਨ","kuṛīā̃ ā ráhīā̃ han"],"hint":"ਕੁੜੀ (plural ਕੁੜੀਆਂ) · ਆਉਣਾ, stem ਆ","x":["ਰਹੇ","ਰਹੀ"],"why":"ਕੁੜੀਆਂ is feminine plural, so ਰਹੀਆਂ agrees with it."},
-      {"t":"type","p":"Where are you going? (politely)","a":["ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ ਹੋ","tusī̃ kitthe jā ráhe ho"],"hint":"ਕਿੱਥੇ · ਜਾਣਾ, stem ਜਾ","x":["ਰਿਹਾ","ਹੈ"],"why":"ਤੁਸੀਂ is plural, so ਰਹੇ ਹੋ agrees with it."}
+      {"t":"fill","q":"ਉਹ ਚਾਹ ਪੀ __ ਹੈ।","p":"She is drinking tea.","a":["ਰਹੀ","ráhī"],"o":["ਰਿਹਾ","ਰਹੇ","ਰਹੀਆਂ"],"why":"One woman: ਰਹੀ.","xr":["ríhā","ráhe","ráhīā̃"]},
+      {"t":"fill","q":"ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ __?","p":"Where are you going?","a":["ਹੋ","ho"],"o":["ਹੈ","ਹਾਂ","ਹਨ"],"why":"ਤੁਸੀਂ always ends with ਹੋ.","xr":["hai","hā̃","han"]},
+      {"t":"fill","q":"ਬੱਚੇ ਸੌਂ ਰਹੇ __।","p":"The children are sleeping.","a":["ਹਨ","han"],"o":["ਹੈ","ਹੋ","ਹਾਂ"],"why":"Several children: ਰਹੇ ਹਨ.","xr":["hai","ho","hā̃"]},
+      {"t":"type","p":"I'm working. (a man speaking)","a":["ਮੈਂ ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ","ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ","maĩ kamm kar ríhā hā̃","kamm kar ríhā hā̃"],"hint":"ਕੰਮ ਕਰਨਾ · ਰਿਹਾ / ਰਹੀ","x":["ਰਹੀ"],"why":"A man is speaking, so ਰਿਹਾ agrees with him (masculine).","xr":["ráhī"]},
+      {"t":"type","p":"The girls are coming.","a":["ਕੁੜੀਆਂ ਆ ਰਹੀਆਂ ਹਨ","kuṛīā̃ ā ráhīā̃ han"],"hint":"ਕੁੜੀ (plural ਕੁੜੀਆਂ) · ਆਉਣਾ, stem ਆ","x":["ਰਹੇ","ਰਹੀ"],"why":"ਕੁੜੀਆਂ is feminine plural, so ਰਹੀਆਂ agrees with it.","xr":["ráhe","ráhī"]},
+      {"t":"type","p":"Where are you going? (politely)","a":["ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ ਹੋ","tusī̃ kitthe jā ráhe ho"],"hint":"ਕਿੱਥੇ · ਜਾਣਾ, stem ਜਾ","x":["ਰਿਹਾ","ਹੈ"],"why":"ਤੁਸੀਂ is plural, so ਰਹੇ ਹੋ agrees with it.","xr":["ríhā","hai"]}
     ],
     "time": [
       {"t":"mc","q":"It's half past four. =","o":["ਸਾਢੇ ਚਾਰ ਵਜੇ ਹਨ।","ਸਵਾ ਚਾਰ ਵਜੇ ਹਨ।","ਪੌਣੇ ਚਾਰ ਵਜੇ ਹਨ।","ਚਾਰ ਅਤੇ ਅੱਧਾ ਵਜੇ ਹਨ।"],"why":"ਸਾਢੇ = half past: ਸਾਢੇ ਚਾਰ is 4:30."},
@@ -1024,12 +1024,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"It's three o'clock.","a":["ਤਿੰਨ","ਵਜੇ","ਹਨ"],"x":["ਹੈ"],"why":"ਵਜੇ is plural, so the verb agrees: ਹਨ."},
       {"t":"order","p":"I get up at seven. (a woman speaking; start with ਮੈਂ)","a":["ਮੈਂ","ਸੱਤ","ਵਜੇ","ਉੱਠਦੀ","ਹਾਂ"],"x":["ਉੱਠਦਾ"],"why":"A woman is speaking, so ਉੱਠਦੀ agrees with her (feminine)."},
       {"t":"order","p":"What time do you get up? (politely; start with ਤੁਸੀਂ)","a":["ਤੁਸੀਂ","ਕਿੰਨੇ","ਵਜੇ","ਉੱਠਦੇ","ਹੋ"],"x":["ਉੱਠਦਾ"],"why":"ਤੁਸੀਂ is plural, so ਉੱਠਦੇ agrees with it."},
-      {"t":"fill","q":"__ ਤਿੰਨ ਵਜੇ ਹਨ।","p":"It's half past three.","a":["ਸਾਢੇ","sā́ḍhe"],"o":["ਸਵਾ","ਪੌਣੇ","ਡੇਢ"],"why":"Half past, from three on, is ਸਾਢੇ."},
-      {"t":"fill","q":"ਮੈਂ ਸੋਮਵਾਰ __ ਦਿੱਲੀ ਜਾਂਦਾ ਹਾਂ।","p":"I go to Delhi on Monday. (a man speaking)","a":["ਨੂੰ","nū̃"],"o":["ਵਿੱਚ","ਤੋਂ","ਕੋ"],"why":"On a day = the day + ਨੂੰ. ਕੋ is Hindi."},
-      {"t":"fill","q":"ਪੌਣੇ __ ਵਜੇ ਹਨ।","p":"It's quarter to eight. (7:45)","a":["ਅੱਠ","aṭṭh"],"o":["ਸੱਤ","ਛੇ","ਦਸ"],"why":"ਪੌਣੇ names the coming hour: 7:45 is ਪੌਣੇ ਅੱਠ."},
-      {"t":"type","p":"It's five o'clock.","a":["ਪੰਜ ਵਜੇ ਹਨ","panj vaje han"],"hint":"ਪੰਜ · ਵਜੇ","x":["ਹੈ"],"why":"ਵਜੇ is plural, so ਹਨ agrees with it."},
-      {"t":"type","p":"I get up at six. (a man speaking)","a":["ਮੈਂ ਛੇ ਵਜੇ ਉੱਠਦਾ ਹਾਂ","ਛੇ ਵਜੇ ਮੈਂ ਉੱਠਦਾ ਹਾਂ","ਛੇ ਵਜੇ ਉੱਠਦਾ ਹਾਂ","maĩ chhe vaje uṭṭhdā hā̃","chhe vaje maĩ uṭṭhdā hā̃","chhe vaje uṭṭhdā hā̃"],"hint":"ਛੇ · ਉੱਠਣਾ (to get up)","x":["ਉੱਠਦੀ"],"why":"A man is speaking, so ਉੱਠਦਾ agrees with him (masculine)."},
-      {"t":"type","p":"I work on Sunday. (a woman speaking)","a":["ਮੈਂ ਐਤਵਾਰ ਨੂੰ ਕੰਮ ਕਰਦੀ ਹਾਂ","ਐਤਵਾਰ ਨੂੰ ਮੈਂ ਕੰਮ ਕਰਦੀ ਹਾਂ","maĩ aitvār nū̃ kamm kardī hā̃","aitvār nū̃ maĩ kamm kardī hā̃"],"hint":"ਐਤਵਾਰ · ਕੰਮ ਕਰਨਾ","x":["ਵਿੱਚ","ਕਰਦਾ"],"why":"ਨੂੰ is the postposition after the day, and ਕਰਦੀ agrees with the woman speaking."}
+      {"t":"fill","q":"__ ਤਿੰਨ ਵਜੇ ਹਨ।","p":"It's half past three.","a":["ਸਾਢੇ","sā́ḍhe"],"o":["ਸਵਾ","ਪੌਣੇ","ਡੇਢ"],"why":"Half past, from three on, is ਸਾਢੇ.","xr":["savā","pauṇe","ḍéḍh"]},
+      {"t":"fill","q":"ਮੈਂ ਸੋਮਵਾਰ __ ਦਿੱਲੀ ਜਾਂਦਾ ਹਾਂ।","p":"I go to Delhi on Monday. (a man speaking)","a":["ਨੂੰ","nū̃"],"o":["ਵਿੱਚ","ਤੋਂ","ਕੋ"],"why":"On a day = the day + ਨੂੰ. ਕੋ is Hindi.","xr":["vicch","tõ","ko"]},
+      {"t":"fill","q":"ਪੌਣੇ __ ਵਜੇ ਹਨ।","p":"It's quarter to eight. (7:45)","a":["ਅੱਠ","aṭṭh"],"o":["ਸੱਤ","ਛੇ","ਦਸ"],"why":"ਪੌਣੇ names the coming hour: 7:45 is ਪੌਣੇ ਅੱਠ.","xr":["satt","chhe","das"]},
+      {"t":"type","p":"It's five o'clock.","a":["ਪੰਜ ਵਜੇ ਹਨ","panj vaje han"],"hint":"ਪੰਜ · ਵਜੇ","x":["ਹੈ"],"why":"ਵਜੇ is plural, so ਹਨ agrees with it.","xr":["hai"]},
+      {"t":"type","p":"I get up at six. (a man speaking)","a":["ਮੈਂ ਛੇ ਵਜੇ ਉੱਠਦਾ ਹਾਂ","ਛੇ ਵਜੇ ਮੈਂ ਉੱਠਦਾ ਹਾਂ","ਛੇ ਵਜੇ ਉੱਠਦਾ ਹਾਂ","maĩ chhe vaje uṭṭhdā hā̃","chhe vaje maĩ uṭṭhdā hā̃","chhe vaje uṭṭhdā hā̃"],"hint":"ਛੇ · ਉੱਠਣਾ (to get up)","x":["ਉੱਠਦੀ"],"why":"A man is speaking, so ਉੱਠਦਾ agrees with him (masculine).","xr":["uṭṭhdī"]},
+      {"t":"type","p":"I work on Sunday. (a woman speaking)","a":["ਮੈਂ ਐਤਵਾਰ ਨੂੰ ਕੰਮ ਕਰਦੀ ਹਾਂ","ਐਤਵਾਰ ਨੂੰ ਮੈਂ ਕੰਮ ਕਰਦੀ ਹਾਂ","maĩ aitvār nū̃ kamm kardī hā̃","aitvār nū̃ maĩ kamm kardī hā̃"],"hint":"ਐਤਵਾਰ · ਕੰਮ ਕਰਨਾ","x":["ਵਿੱਚ","ਕਰਦਾ"],"why":"ਨੂੰ is the postposition after the day, and ਕਰਦੀ agrees with the woman speaking.","xr":["vicch","kardā"]}
     ],
     "have": [
       {"t":"mc","q":"I have a car. =","o":["ਮੇਰੇ ਕੋਲ ਕਾਰ ਹੈ।","ਮੈਂ ਕਾਰ ਹੈ।","ਮੇਰਾ ਕੋਲ ਕਾਰ ਹੈ।","ਮੈਨੂੰ ਕਾਰ ਹੈ।"],"why":"Things take ਮੇਰੇ ਕੋਲ: near me there is a car."},
@@ -1040,12 +1040,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I have a phone.","a":["ਮੇਰੇ","ਕੋਲ","ਫ਼ੋਨ","ਹੈ"],"x":["ਮੇਰਾ"],"why":"ਕੋਲ is a postposition, so ਮੇਰਾ takes the oblique form ਮੇਰੇ."},
       {"t":"order","p":"I have two sisters.","a":["ਮੇਰੀਆਂ","ਦੋ","ਭੈਣਾਂ","ਹਨ"],"x":["ਮੇਰਾ","ਹੈ"],"why":"ਭੈਣਾਂ is feminine plural, so ਮੇਰੀਆਂ and ਹਨ agree with it."},
       {"t":"order","p":"Do you have time? (politely)","a":["ਕੀ","ਤੁਹਾਡੇ","ਕੋਲ","ਟਾਈਮ","ਹੈ"],"x":["ਤੁਸੀਂ"],"why":"Before the postposition ਕੋਲ you need ਤੁਹਾਡੇ, not ਤੁਸੀਂ."},
-      {"t":"fill","q":"ਮੇਰੇ __ ਤਿੰਨ ਕਿਤਾਬਾਂ ਹਨ।","p":"I have three books.","a":["ਕੋਲ","kol"],"o":["ਨੂੰ","ਵਿੱਚ","ਨਾਲ"],"why":"Things you have: ਮੇਰੇ ਕੋਲ."},
-      {"t":"fill","q":"__ ਬੁਖ਼ਾਰ ਹੈ।","p":"I have a fever.","a":["ਮੈਨੂੰ","mainū̃"],"o":["ਮੈਂ","ਮੇਰਾ","ਮੇਰੇ"],"why":"Illnesses take ਮੈਨੂੰ."},
-      {"t":"fill","q":"__ ਇੱਕ ਧੀ ਹੈ।","p":"We have a daughter.","a":["ਸਾਡੀ","sāḍī"],"o":["ਸਾਡਾ","ਸਾਡੇ","ਅਸੀਂ"],"why":"Relatives take the possessive, and ਸਾਡੀ agrees with ਧੀ."},
-      {"t":"type","p":"I have a car.","a":["ਮੇਰੇ ਕੋਲ ਕਾਰ ਹੈ","ਮੇਰੇ ਕੋਲ ਇੱਕ ਕਾਰ ਹੈ","mere kol kār hai","mere kol ikk kār hai"],"hint":"ਕਾਰ · ਕੋਲ","x":["ਮੇਰਾ","ਮੈਂ"],"why":"ਕੋਲ is a postposition, so ਮੇਰਾ becomes the oblique ਮੇਰੇ."},
-      {"t":"type","p":"I have a fever.","a":["ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ","mainū̃ buḵhār hai"],"hint":"ਬੁਖ਼ਾਰ · an illness happens to you","x":["ਮੈਂ"],"why":"Illnesses take ਮੈਨੂੰ, the form of ਮੈਂ used with the postposition ਨੂੰ."},
-      {"t":"type","p":"She has two daughters.","a":["ਉਸ ਦੀਆਂ ਦੋ ਧੀਆਂ ਹਨ","us dīā̃ do dhī̀ā̃ han"],"hint":"ਧੀ (plural ਧੀਆਂ) · ਉਸ ਦਾ","x":["ਦਾ","ਹੈ"],"why":"ਧੀਆਂ is feminine plural, so ਦੀਆਂ and ਹਨ agree with it."}
+      {"t":"fill","q":"ਮੇਰੇ __ ਤਿੰਨ ਕਿਤਾਬਾਂ ਹਨ।","p":"I have three books.","a":["ਕੋਲ","kol"],"o":["ਨੂੰ","ਵਿੱਚ","ਨਾਲ"],"why":"Things you have: ਮੇਰੇ ਕੋਲ.","xr":["nū̃","vicch","nāl"]},
+      {"t":"fill","q":"__ ਬੁਖ਼ਾਰ ਹੈ।","p":"I have a fever.","a":["ਮੈਨੂੰ","mainū̃"],"o":["ਮੈਂ","ਮੇਰਾ","ਮੇਰੇ"],"why":"Illnesses take ਮੈਨੂੰ.","xr":["maĩ","merā","mere"]},
+      {"t":"fill","q":"__ ਇੱਕ ਧੀ ਹੈ।","p":"We have a daughter.","a":["ਸਾਡੀ","sāḍī"],"o":["ਸਾਡਾ","ਸਾਡੇ","ਅਸੀਂ"],"why":"Relatives take the possessive, and ਸਾਡੀ agrees with ਧੀ.","xr":["sāḍā","sāḍe","asī̃"]},
+      {"t":"type","p":"I have a car.","a":["ਮੇਰੇ ਕੋਲ ਕਾਰ ਹੈ","ਮੇਰੇ ਕੋਲ ਇੱਕ ਕਾਰ ਹੈ","mere kol kār hai","mere kol ikk kār hai"],"hint":"ਕਾਰ · ਕੋਲ","x":["ਮੇਰਾ","ਮੈਂ"],"why":"ਕੋਲ is a postposition, so ਮੇਰਾ becomes the oblique ਮੇਰੇ.","xr":["merā","maĩ"]},
+      {"t":"type","p":"I have a fever.","a":["ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ","mainū̃ buḵhār hai"],"hint":"ਬੁਖ਼ਾਰ · an illness happens to you","x":["ਮੈਂ"],"why":"Illnesses take ਮੈਨੂੰ, the form of ਮੈਂ used with the postposition ਨੂੰ.","xr":["maĩ"]},
+      {"t":"type","p":"She has two daughters.","a":["ਉਸ ਦੀਆਂ ਦੋ ਧੀਆਂ ਹਨ","us dīā̃ do dhī̀ā̃ han"],"hint":"ਧੀ (plural ਧੀਆਂ) · ਉਸ ਦਾ","x":["ਦਾ","ਹੈ"],"why":"ਧੀਆਂ is feminine plural, so ਦੀਆਂ and ਹਨ agree with it.","xr":["dā","hai"]}
     ],
     "directions": [
       {"t":"mc","q":"Turn left. =","o":["ਖੱਬੇ ਮੁੜੋ।","ਸੱਜੇ ਮੁੜੋ।","ਸਿੱਧੇ ਜਾਓ।","ਖੱਬੇ ਮੁੜਦੇ ਹੋ।"],"why":"ਖੱਬੇ is left, ਸੱਜੇ is right; ਮੁੜੋ is the polite command."},
@@ -1056,12 +1056,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"The hotel is near the gurdwara. (start with ਹੋਟਲ)","a":["ਹੋਟਲ","ਗੁਰਦੁਆਰੇ","ਦੇ","ਨੇੜੇ","ਹੈ"],"x":["ਗੁਰਦੁਆਰਾ"],"why":"Before the postposition ਦੇ ਨੇੜੇ, ਗੁਰਦੁਆਰਾ takes the oblique: ਗੁਰਦੁਆਰੇ."},
       {"t":"order","p":"Does this bus go to Amritsar?","a":["ਕੀ","ਇਹ","ਬੱਸ","ਅੰਮ੍ਰਿਤਸਰ","ਜਾਂਦੀ","ਹੈ"],"x":["ਜਾਂਦਾ"],"why":"ਬੱਸ is feminine, so ਜਾਂਦੀ agrees with it."},
       {"t":"order","p":"The shop is behind the bus stand. (start with ਦੁਕਾਨ)","a":["ਦੁਕਾਨ","ਬੱਸ","ਅੱਡੇ","ਦੇ","ਪਿੱਛੇ","ਹੈ"],"x":["ਅੱਡਾ"],"why":"Before the postposition ਦੇ ਪਿੱਛੇ, ਅੱਡਾ takes the oblique: ਅੱਡੇ."},
-      {"t":"fill","q":"ਸਟੇਸ਼ਨ ਕਿੰਨੀ __ ਹੈ?","p":"How far is the station?","a":["ਦੂਰ","dūr"],"o":["ਨੇੜੇ","ਕੋਲ","ਪਿੱਛੇ"],"why":"How far = ਕਿੰਨੀ ਦੂਰ."},
-      {"t":"fill","q":"ਹੋਟਲ ਸਟੇਸ਼ਨ __ ਸਾਹਮਣੇ ਹੈ।","p":"The hotel is opposite the station.","a":["ਦੇ","de"],"o":["ਦਾ","ਦੀ","ਨੂੰ"],"why":"The compound postposition is ਦੇ ਸਾਹਮਣੇ."},
-      {"t":"fill","q":"ਖੱਬੇ __ ਜੀ।","p":"Turn left, please.","a":["ਮੁੜੋ","muṛo"],"o":["ਮੁੜ","ਮੁੜਦੇ","ਮੁੜਦਾ"],"why":"A polite request uses the -ਓ command: ਮੁੜੋ ਜੀ."},
-      {"t":"type","p":"near the gurdwara","a":["ਗੁਰਦੁਆਰੇ ਦੇ ਨੇੜੇ","ਗੁਰਦੁਆਰੇ ਦੇ ਕੋਲ","gurduāre de neṛe","gurduāre de kol"],"hint":"ਗੁਰਦੁਆਰਾ · ਦੇ ਨੇੜੇ","x":["ਗੁਰਦੁਆਰਾ"],"why":"Before the postposition ਦੇ ਨੇੜੇ, ਗੁਰਦੁਆਰਾ takes the oblique: ਗੁਰਦੁਆਰੇ."},
-      {"t":"type","p":"The bus is coming.","a":["ਬੱਸ ਆ ਰਹੀ ਹੈ","bass ā ráhī hai"],"hint":"ਬੱਸ · ਆਉਣਾ, stem ਆ","x":["ਰਿਹਾ"],"why":"ਬੱਸ is feminine, so ਰਹੀ agrees with it."},
-      {"t":"type","p":"Turn right, please.","a":["ਸੱਜੇ ਮੁੜੋ ਜੀ","ਸੱਜੇ ਮੁੜੋ","sajje muṛo jī","sajje muṛo"],"hint":"ਸੱਜੇ (right) · ਮੁੜਨਾ (to turn)","x":["ਖੱਬੇ"],"why":"ਸੱਜੇ is right and ਖੱਬੇ is left; ਮੁੜੋ ਜੀ is the polite command."}
+      {"t":"fill","q":"ਸਟੇਸ਼ਨ ਕਿੰਨੀ __ ਹੈ?","p":"How far is the station?","a":["ਦੂਰ","dūr"],"o":["ਨੇੜੇ","ਕੋਲ","ਪਿੱਛੇ"],"why":"How far = ਕਿੰਨੀ ਦੂਰ.","xr":["neṛe","kol","picchhe"]},
+      {"t":"fill","q":"ਹੋਟਲ ਸਟੇਸ਼ਨ __ ਸਾਹਮਣੇ ਹੈ।","p":"The hotel is opposite the station.","a":["ਦੇ","de"],"o":["ਦਾ","ਦੀ","ਨੂੰ"],"why":"The compound postposition is ਦੇ ਸਾਹਮਣੇ.","xr":["dā","dī","nū̃"]},
+      {"t":"fill","q":"ਖੱਬੇ __ ਜੀ।","p":"Turn left, please.","a":["ਮੁੜੋ","muṛo"],"o":["ਮੁੜ","ਮੁੜਦੇ","ਮੁੜਦਾ"],"why":"A polite request uses the -ਓ command: ਮੁੜੋ ਜੀ.","xr":["muṛ","muṛde","muṛdā"]},
+      {"t":"type","p":"near the gurdwara","a":["ਗੁਰਦੁਆਰੇ ਦੇ ਨੇੜੇ","ਗੁਰਦੁਆਰੇ ਦੇ ਕੋਲ","gurduāre de neṛe","gurduāre de kol"],"hint":"ਗੁਰਦੁਆਰਾ · ਦੇ ਨੇੜੇ","x":["ਗੁਰਦੁਆਰਾ"],"why":"Before the postposition ਦੇ ਨੇੜੇ, ਗੁਰਦੁਆਰਾ takes the oblique: ਗੁਰਦੁਆਰੇ.","xr":["gurduārā"]},
+      {"t":"type","p":"The bus is coming.","a":["ਬੱਸ ਆ ਰਹੀ ਹੈ","bass ā ráhī hai"],"hint":"ਬੱਸ · ਆਉਣਾ, stem ਆ","x":["ਰਿਹਾ"],"why":"ਬੱਸ is feminine, so ਰਹੀ agrees with it.","xr":["ríhā"]},
+      {"t":"type","p":"Turn right, please.","a":["ਸੱਜੇ ਮੁੜੋ ਜੀ","ਸੱਜੇ ਮੁੜੋ","sajje muṛo jī","sajje muṛo"],"hint":"ਸੱਜੇ (right) · ਮੁੜਨਾ (to turn)","x":["ਖੱਬੇ"],"why":"ਸੱਜੇ is right and ਖੱਬੇ is left; ਮੁੜੋ ਜੀ is the polite command.","xr":["khabbe"]}
     ],
     "si": [
       {"t":"mc","q":"I was at home. =","o":["ਮੈਂ ਘਰ ਸੀ।","ਮੈਂ ਘਰ ਥਾ।","ਮੈਂ ਘਰ ਹਾਂ।","ਮੈਂ ਘਰ ਹੈ।"],"why":"Punjabi 'was' is ਸੀ; ਥਾ is Hindi."},
@@ -1072,12 +1072,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I used to live in Amritsar. (a woman speaking)","a":["ਮੈਂ","ਅੰਮ੍ਰਿਤਸਰ","ਰਹਿੰਦੀ","ਸੀ"],"x":["ਰਹਿੰਦਾ"],"why":"A woman is speaking, so ਰਹਿੰਦੀ agrees with her (feminine)."},
       {"t":"order","p":"I was reading a book. (a man speaking)","a":["ਮੈਂ","ਕਿਤਾਬ","ਪੜ੍ਹ","ਰਿਹਾ","ਸੀ"],"x":["ਰਹੀ"],"why":"A man is speaking, so ਰਿਹਾ agrees with him (masculine)."},
       {"t":"order","p":"My father was a doctor.","a":["ਮੇਰੇ","ਪਿਤਾ","ਜੀ","ਡਾਕਟਰ","ਸਨ"],"x":["ਮੇਰਾ"],"why":"ਪਿਤਾ ਜੀ takes the respect plural, so ਮੇਰੇ agrees with it."},
-      {"t":"fill","q":"ਮੈਂ ਕੱਲ੍ਹ ਬਿਮਾਰ __।","p":"I was sick yesterday.","a":["ਸੀ","sī"],"o":["ਥਾ","ਹਾਂ","ਹੈ"],"why":"Was = ਸੀ; with ਕੱਲ੍ਹ in the past it means yesterday."},
-      {"t":"fill","q":"ਉਹ ਪਹਿਲਾਂ ਲੰਡਨ ਰਹਿੰਦੀ __।","p":"She used to live in London.","a":["ਸੀ","sī"],"o":["ਥੀ","ਹਾਂ","ਹੋ"],"why":"Used to = habitual + ਸੀ. ਥੀ is Hindi."},
-      {"t":"fill","q":"ਮੇਰੇ ਨਾਨਾ ਜੀ ਕਿਸਾਨ __।","p":"My grandfather (mother's father) was a farmer.","a":["ਸਨ","san"],"o":["ਥੇ","ਹਾਂ","ਹੋ"],"why":"With ਜੀ, ਨਾਨਾ ਜੀ takes the respect plural ਸਨ; ਥੇ is Hindi."},
-      {"t":"type","p":"I used to live in Delhi. (a man speaking)","a":["ਮੈਂ ਦਿੱਲੀ ਰਹਿੰਦਾ ਸੀ","ਮੈਂ ਦਿੱਲੀ ਵਿੱਚ ਰਹਿੰਦਾ ਸੀ","maĩ dillī ráhindā sī","maĩ dillī vicch ráhindā sī"],"hint":"ਦਿੱਲੀ · ਰਹਿਣਾ (to live) · ਸੀ","x":["ਰਹਿੰਦੀ","ਥਾ"],"why":"A man is speaking, so ਰਹਿੰਦਾ agrees with him (masculine)."},
-      {"t":"type","p":"I was working. (a woman speaking)","a":["ਮੈਂ ਕੰਮ ਕਰ ਰਹੀ ਸੀ","ਕੰਮ ਕਰ ਰਹੀ ਸੀ","maĩ kamm kar ráhī sī","kamm kar ráhī sī"],"hint":"ਕੰਮ ਕਰਨਾ · ਰਿਹਾ / ਰਹੀ · ਸੀ","x":["ਰਿਹਾ","ਥੀ"],"why":"A woman is speaking, so ਰਹੀ agrees with her (feminine)."},
-      {"t":"type","p":"She was happy.","a":["ਉਹ ਖ਼ੁਸ਼ ਸੀ","úh ḵhush sī"],"hint":"ਖ਼ੁਸ਼ (happy) · ਸੀ","x":["ਥੀ","ਹੈ"],"why":"ਸੀ is 'was' for one person, and ਖ਼ੁਸ਼ never changes."}
+      {"t":"fill","q":"ਮੈਂ ਕੱਲ੍ਹ ਬਿਮਾਰ __।","p":"I was sick yesterday.","a":["ਸੀ","sī"],"o":["ਥਾ","ਹਾਂ","ਹੈ"],"why":"Was = ਸੀ; with ਕੱਲ੍ਹ in the past it means yesterday.","xr":["thā","hā̃","hai"]},
+      {"t":"fill","q":"ਉਹ ਪਹਿਲਾਂ ਲੰਡਨ ਰਹਿੰਦੀ __।","p":"She used to live in London.","a":["ਸੀ","sī"],"o":["ਥੀ","ਹਾਂ","ਹੋ"],"why":"Used to = habitual + ਸੀ. ਥੀ is Hindi.","xr":["thī","hā̃","ho"]},
+      {"t":"fill","q":"ਮੇਰੇ ਨਾਨਾ ਜੀ ਕਿਸਾਨ __।","p":"My grandfather (mother's father) was a farmer.","a":["ਸਨ","san"],"o":["ਥੇ","ਹਾਂ","ਹੋ"],"why":"With ਜੀ, ਨਾਨਾ ਜੀ takes the respect plural ਸਨ; ਥੇ is Hindi.","xr":["the","hā̃","ho"]},
+      {"t":"type","p":"I used to live in Delhi. (a man speaking)","a":["ਮੈਂ ਦਿੱਲੀ ਰਹਿੰਦਾ ਸੀ","ਮੈਂ ਦਿੱਲੀ ਵਿੱਚ ਰਹਿੰਦਾ ਸੀ","maĩ dillī ráhindā sī","maĩ dillī vicch ráhindā sī"],"hint":"ਦਿੱਲੀ · ਰਹਿਣਾ (to live) · ਸੀ","x":["ਰਹਿੰਦੀ","ਥਾ"],"why":"A man is speaking, so ਰਹਿੰਦਾ agrees with him (masculine).","xr":["ráhindī","thā"]},
+      {"t":"type","p":"I was working. (a woman speaking)","a":["ਮੈਂ ਕੰਮ ਕਰ ਰਹੀ ਸੀ","ਕੰਮ ਕਰ ਰਹੀ ਸੀ","maĩ kamm kar ráhī sī","kamm kar ráhī sī"],"hint":"ਕੰਮ ਕਰਨਾ · ਰਿਹਾ / ਰਹੀ · ਸੀ","x":["ਰਿਹਾ","ਥੀ"],"why":"A woman is speaking, so ਰਹੀ agrees with her (feminine).","xr":["ríhā","thī"]},
+      {"t":"type","p":"She was happy.","a":["ਉਹ ਖ਼ੁਸ਼ ਸੀ","úh ḵhush sī"],"hint":"ਖ਼ੁਸ਼ (happy) · ਸੀ","x":["ਥੀ","ਹੈ"],"why":"ਸੀ is 'was' for one person, and ਖ਼ੁਸ਼ never changes.","xr":["thī","hai"]}
     ],
     "past": [
       {"t":"mc","q":"I drank tea. (a man speaking) =","o":["ਮੈਂ ਚਾਹ ਪੀਤੀ।","ਮੈਂ ਚਾਹ ਪੀਤਾ।","ਮੈਂ ਨੇ ਚਾਹ ਪੀਤੀ।","ਮੈਂ ਚਾਹ ਪੀਂਦਾ ਹਾਂ।"],"why":"ਪੀਤੀ agrees with ਚਾਹ, not with the man, and ਮੈਂ takes no ਨੇ."},
@@ -1088,12 +1088,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I ate. (a meal; a man speaking)","a":["ਮੈਂ","ਰੋਟੀ","ਖਾਧੀ"],"x":["ਖਾਧਾ"],"why":"The verb agrees with ਰੋਟੀ (feminine), not with the man: ਖਾਧੀ."},
       {"t":"order","p":"She drank tea.","a":["ਉਸ","ਨੇ","ਚਾਹ","ਪੀਤੀ"],"x":["ਉਹ"],"why":"Before the postposition ਨੇ, ਉਹ takes the oblique form ਉਸ."},
       {"t":"order","p":"The girls went home.","a":["ਕੁੜੀਆਂ","ਘਰ","ਗਈਆਂ"],"x":["ਗਏ"],"why":"ਜਾਣਾ has no object, so the verb agrees with ਕੁੜੀਆਂ (feminine plural): ਗਈਆਂ."},
-      {"t":"fill","q":"ਉਸ ਨੇ ਫ਼ਿਲਮ __।","p":"He watched the film.","a":["ਦੇਖੀ","dekhī"],"o":["ਦੇਖਿਆ","ਦੇਖਦਾ","ਦੇਖੇ"],"why":"With ਨੇ the verb agrees with ਫ਼ਿਲਮ, which is feminine."},
-      {"t":"fill","q":"__ ਨੇ ਦੁੱਧ ਪੀਤਾ।","p":"He drank milk.","a":["ਉਸ","us"],"o":["ਉਹ","ਮੈਂ","ਤੁਸੀਂ"],"why":"Before ਨੇ, he is ਉਸ."},
-      {"t":"fill","q":"ਮੈਂ ਕੱਲ੍ਹ ਦਿੱਲੀ __।","p":"I went to Delhi yesterday. (a woman speaking)","a":["ਗਈ","gaī"],"o":["ਗਿਆ","ਗਏ","ਜਾਂਦੀ"],"why":"No object, so the verb agrees with the woman: ਗਈ."},
-      {"t":"type","p":"I drank tea. (a woman speaking)","a":["ਮੈਂ ਚਾਹ ਪੀਤੀ","maĩ chā́h pītī"],"hint":"ਚਾਹ · ਪੀਣਾ, past ਪੀਤਾ","x":["ਪੀਤਾ","ਨੇ"],"why":"ਪੀਤੀ agrees with ਚਾਹ (feminine), whoever drinks it."},
-      {"t":"type","p":"He ate. (a meal)","a":["ਉਸ ਨੇ ਰੋਟੀ ਖਾਧੀ","us ne roṭī khā́dhī"],"hint":"ਰੋਟੀ · ਖਾਣਾ, past ਖਾਧਾ · ਨੇ","x":["ਉਹ","ਖਾਧਾ"],"why":"Before the postposition ਨੇ, ਉਹ becomes the oblique ਉਸ, and ਖਾਧੀ agrees with ਰੋਟੀ."},
-      {"t":"type","p":"Where did you go? (politely)","a":["ਤੁਸੀਂ ਕਿੱਥੇ ਗਏ","tusī̃ kitthe gae"],"hint":"ਕਿੱਥੇ · ਜਾਣਾ, past ਗਿਆ","x":["ਗਿਆ","ਨੇ"],"why":"ਜਾਣਾ takes no object, so no ਨੇ, and ਗਏ agrees with ਤੁਸੀਂ (plural)."}
+      {"t":"fill","q":"ਉਸ ਨੇ ਫ਼ਿਲਮ __।","p":"He watched the film.","a":["ਦੇਖੀ","dekhī"],"o":["ਦੇਖਿਆ","ਦੇਖਦਾ","ਦੇਖੇ"],"why":"With ਨੇ the verb agrees with ਫ਼ਿਲਮ, which is feminine.","xr":["dekhiā","dekhdā","dekhe"]},
+      {"t":"fill","q":"__ ਨੇ ਦੁੱਧ ਪੀਤਾ।","p":"He drank milk.","a":["ਉਸ","us"],"o":["ਉਹ","ਮੈਂ","ਤੁਸੀਂ"],"why":"Before ਨੇ, he is ਉਸ.","xr":["úh","maĩ","tusī̃"]},
+      {"t":"fill","q":"ਮੈਂ ਕੱਲ੍ਹ ਦਿੱਲੀ __।","p":"I went to Delhi yesterday. (a woman speaking)","a":["ਗਈ","gaī"],"o":["ਗਿਆ","ਗਏ","ਜਾਂਦੀ"],"why":"No object, so the verb agrees with the woman: ਗਈ.","xr":["giā","gae","jā̃dī"]},
+      {"t":"type","p":"I drank tea. (a woman speaking)","a":["ਮੈਂ ਚਾਹ ਪੀਤੀ","maĩ chā́h pītī"],"hint":"ਚਾਹ · ਪੀਣਾ, past ਪੀਤਾ","x":["ਪੀਤਾ","ਨੇ"],"why":"ਪੀਤੀ agrees with ਚਾਹ (feminine), whoever drinks it.","xr":["pītā","ne"]},
+      {"t":"type","p":"He ate. (a meal)","a":["ਉਸ ਨੇ ਰੋਟੀ ਖਾਧੀ","us ne roṭī khā́dhī"],"hint":"ਰੋਟੀ · ਖਾਣਾ, past ਖਾਧਾ · ਨੇ","x":["ਉਹ","ਖਾਧਾ"],"why":"Before the postposition ਨੇ, ਉਹ becomes the oblique ਉਸ, and ਖਾਧੀ agrees with ਰੋਟੀ.","xr":["úh","khā́dhā"]},
+      {"t":"type","p":"Where did you go? (politely)","a":["ਤੁਸੀਂ ਕਿੱਥੇ ਗਏ","tusī̃ kitthe gae"],"hint":"ਕਿੱਥੇ · ਜਾਣਾ, past ਗਿਆ","x":["ਗਿਆ","ਨੇ"],"why":"ਜਾਣਾ takes no object, so no ਨੇ, and ਗਏ agrees with ਤੁਸੀਂ (plural).","xr":["giā","ne"]}
     ],
     "future": [
       {"t":"mc","q":"I will go tomorrow. (a man speaking) =","o":["ਮੈਂ ਕੱਲ੍ਹ ਜਾਵਾਂਗਾ।","ਮੈਂ ਕੱਲ੍ਹ ਜਾਵਾਂਗੀ।","ਮੈਂ ਕੱਲ੍ਹ ਗਿਆ।","ਮੈਂ ਕੱਲ੍ਹ ਜਾਵੇਗਾ।"],"why":"ਮੈਂ takes ਜਾਵਾਂ-, and a man ends in -ਗਾ. ਗਿਆ is the past: yesterday."},
@@ -1104,12 +1104,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I will work tomorrow. (a woman speaking; start with ਮੈਂ)","a":["ਮੈਂ","ਕੱਲ੍ਹ","ਕੰਮ","ਕਰਾਂਗੀ"],"x":["ਕਰਾਂਗਾ"],"why":"A woman is speaking, so -ਗੀ agrees with her (feminine): ਕਰਾਂਗੀ."},
       {"t":"order","p":"Will you come? (politely)","a":["ਕੀ","ਤੁਸੀਂ","ਆਓਗੇ"],"x":["ਆਵੇਗਾ"],"why":"ਤੁਸੀਂ is plural, so the ending agrees: ਆਓਗੇ."},
       {"t":"order","p":"He will go to Amritsar.","a":["ਉਹ","ਅੰਮ੍ਰਿਤਸਰ","ਜਾਵੇਗਾ"],"x":["ਜਾਵੇਗੀ"],"why":"One man, so -ਗਾ agrees with him (masculine): ਜਾਵੇਗਾ."},
-      {"t":"fill","q":"ਮੈਂ ਕੱਲ੍ਹ ਫ਼ੋਨ __।","p":"I'll call tomorrow. (a man speaking)","a":["ਕਰਾਂਗਾ","karā̃gā"],"o":["ਕਰਾਂਗੀ","ਕਰੇਗਾ","ਕੀਤਾ"],"why":"ਮੈਂ + a man: ਕਰਾਂਗਾ."},
-      {"t":"fill","q":"ਅਸੀਂ ਐਤਵਾਰ ਨੂੰ __।","p":"We will meet on Sunday. (a mixed group)","a":["ਮਿਲਾਂਗੇ","milā̃ge"],"o":["ਮਿਲਾਂਗਾ","ਮਿਲੋਗੇ","ਮਿਲੇਗਾ"],"why":"ਅਸੀਂ takes ਮਿਲਾਂਗੇ, as in ਫਿਰ ਮਿਲਾਂਗੇ."},
-      {"t":"fill","q":"ਤੁਸੀਂ ਕਦੋਂ __?","p":"When will you go? (politely)","a":["ਜਾਓਗੇ","jāoge"],"o":["ਜਾਵੇਗਾ","ਜਾਵਾਂਗੇ","ਗਏ"],"why":"ਤੁਸੀਂ takes ਜਾਓਗੇ."},
-      {"t":"type","p":"I will go tomorrow. (a woman speaking)","a":["ਮੈਂ ਕੱਲ੍ਹ ਜਾਵਾਂਗੀ","ਕੱਲ੍ਹ ਮੈਂ ਜਾਵਾਂਗੀ","maĩ kállh jāvā̃gī","kállh maĩ jāvā̃gī"],"hint":"ਕੱਲ੍ਹ · ਜਾਣਾ, future ਜਾਵਾਂਗਾ","x":["ਜਾਵਾਂਗਾ"],"why":"A woman is speaking, so ਜਾਵਾਂਗੀ agrees with her (feminine)."},
-      {"t":"type","p":"He will come on Monday.","a":["ਉਹ ਸੋਮਵਾਰ ਨੂੰ ਆਵੇਗਾ","ਸੋਮਵਾਰ ਨੂੰ ਉਹ ਆਵੇਗਾ","úh somvār nū̃ āvegā","somvār nū̃ úh āvegā"],"hint":"ਸੋਮਵਾਰ ਨੂੰ · ਆਉਣਾ, future ਆਵੇਗਾ","x":["ਆਵੇਗੀ"],"why":"One man, so ਆਵੇਗਾ agrees with him (masculine)."},
-      {"t":"type","p":"What will you do? (politely)","a":["ਤੁਸੀਂ ਕੀ ਕਰੋਗੇ","tusī̃ kī karoge"],"hint":"ਕੀ · ਕਰਨਾ","x":["ਕਰੇਗਾ"],"why":"ਤੁਸੀਂ is plural, so ਕਰੋਗੇ agrees with it."}
+      {"t":"fill","q":"ਮੈਂ ਕੱਲ੍ਹ ਫ਼ੋਨ __।","p":"I'll call tomorrow. (a man speaking)","a":["ਕਰਾਂਗਾ","karā̃gā"],"o":["ਕਰਾਂਗੀ","ਕਰੇਗਾ","ਕੀਤਾ"],"why":"ਮੈਂ + a man: ਕਰਾਂਗਾ.","xr":["karā̃gī","karegā","kītā"]},
+      {"t":"fill","q":"ਅਸੀਂ ਐਤਵਾਰ ਨੂੰ __।","p":"We will meet on Sunday. (a mixed group)","a":["ਮਿਲਾਂਗੇ","milā̃ge"],"o":["ਮਿਲਾਂਗਾ","ਮਿਲੋਗੇ","ਮਿਲੇਗਾ"],"why":"ਅਸੀਂ takes ਮਿਲਾਂਗੇ, as in ਫਿਰ ਮਿਲਾਂਗੇ.","xr":["milā̃gā","miloge","milegā"]},
+      {"t":"fill","q":"ਤੁਸੀਂ ਕਦੋਂ __?","p":"When will you go? (politely)","a":["ਜਾਓਗੇ","jāoge"],"o":["ਜਾਵੇਗਾ","ਜਾਵਾਂਗੇ","ਗਏ"],"why":"ਤੁਸੀਂ takes ਜਾਓਗੇ.","xr":["jāvegā","jāvā̃ge","gae"]},
+      {"t":"type","p":"I will go tomorrow. (a woman speaking)","a":["ਮੈਂ ਕੱਲ੍ਹ ਜਾਵਾਂਗੀ","ਕੱਲ੍ਹ ਮੈਂ ਜਾਵਾਂਗੀ","maĩ kállh jāvā̃gī","kállh maĩ jāvā̃gī"],"hint":"ਕੱਲ੍ਹ · ਜਾਣਾ, future ਜਾਵਾਂਗਾ","x":["ਜਾਵਾਂਗਾ"],"why":"A woman is speaking, so ਜਾਵਾਂਗੀ agrees with her (feminine).","xr":["jāvā̃gā"]},
+      {"t":"type","p":"He will come on Monday.","a":["ਉਹ ਸੋਮਵਾਰ ਨੂੰ ਆਵੇਗਾ","ਸੋਮਵਾਰ ਨੂੰ ਉਹ ਆਵੇਗਾ","úh somvār nū̃ āvegā","somvār nū̃ úh āvegā"],"hint":"ਸੋਮਵਾਰ ਨੂੰ · ਆਉਣਾ, future ਆਵੇਗਾ","x":["ਆਵੇਗੀ"],"why":"One man, so ਆਵੇਗਾ agrees with him (masculine).","xr":["āvegī"]},
+      {"t":"type","p":"What will you do? (politely)","a":["ਤੁਸੀਂ ਕੀ ਕਰੋਗੇ","tusī̃ kī karoge"],"hint":"ਕੀ · ਕਰਨਾ","x":["ਕਰੇਗਾ"],"why":"ਤੁਸੀਂ is plural, so ਕਰੋਗੇ agrees with it.","xr":["karegā"]}
     ],
     "compare": [
       {"t":"mc","q":"My brother is taller than me. =","o":["ਮੇਰਾ ਭਰਾ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮਾ ਹੈ।","ਮੇਰਾ ਭਰਾ ਮੇਰਾ ਨਾਲੋਂ ਲੰਮਾ ਹੈ।","ਮੇਰਾ ਭਰਾ ਨਾਲੋਂ ਮੇਰੇ ਲੰਮਾ ਹੈ।","ਮੇਰਾ ਭਰਾ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮੀ ਹੈ।"],"why":"ਮੇਰੇ ਨਾਲੋਂ: the oblique, then the postposition; ਲੰਮਾ agrees with ਭਰਾ."},
@@ -1120,12 +1120,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"He is taller than me. (start with ਉਹ)","a":["ਉਹ","ਮੇਰੇ","ਨਾਲੋਂ","ਲੰਮਾ","ਹੈ"],"x":["ਮੈਂ"],"why":"ਨਾਲੋਂ is a postposition, so ਮੈਂ takes the oblique form ਮੇਰੇ."},
       {"t":"order","p":"This room is bigger than that one. (start with ਇਹ)","a":["ਇਹ","ਕਮਰਾ","ਉਸ","ਨਾਲੋਂ","ਵੱਡਾ","ਹੈ"],"x":["ਵੱਡੀ"],"why":"ਕਮਰਾ is masculine, so ਵੱਡਾ agrees with it."},
       {"t":"order","p":"Simran is the tallest. (Simran is a woman)","a":["ਸਿਮਰਨ","ਸਭ","ਤੋਂ","ਲੰਮੀ","ਹੈ"],"x":["ਲੰਮਾ"],"why":"Simran is a woman, so ਲੰਮੀ agrees with her (feminine)."},
-      {"t":"fill","q":"ਚਾਹ ਲੱਸੀ __ ਸਸਤੀ ਹੈ।","p":"Tea is cheaper than lassi.","a":["ਨਾਲੋਂ","ਤੋਂ","nālõ","tõ"],"o":["ਨਾਲ","ਵਿੱਚ","ਸੇ"],"why":"Than = ਨਾਲੋਂ or ਤੋਂ; ਨਾਲ means with, and ਸੇ is Hindi."},
-      {"t":"fill","q":"ਮੇਰੀ ਭੈਣ ਮੇਰੇ ਨਾਲੋਂ __ ਹੈ।","p":"My sister is older than me.","a":["ਵੱਡੀ","vaḍḍī"],"o":["ਵੱਡਾ","ਵੱਡੇ","ਛੋਟੀ"],"why":"Older = big, and it agrees with ਭੈਣ: ਵੱਡੀ."},
-      {"t":"fill","q":"ਇਹ __ ਤੋਂ ਵੱਡਾ ਸ਼ਹਿਰ ਹੈ।","p":"This is the biggest city.","a":["ਸਭ","sábh"],"o":["ਜ਼ਿਆਦਾ","ਬਹੁਤ","ਮੇਰੇ"],"why":"The most = ਸਭ ਤੋਂ, 'than all'."},
-      {"t":"type","p":"She is taller than me.","a":["ਉਹ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮੀ ਹੈ","ਉਹ ਮੇਰੇ ਤੋਂ ਲੰਮੀ ਹੈ","úh mere nālõ lammī hai","úh mere tõ lammī hai"],"hint":"ਲੰਮਾ (tall) · ਨਾਲੋਂ (than)","x":["ਮੈਂ","ਲੰਮਾ"],"why":"ਨਾਲੋਂ is a postposition, so ਮੈਂ becomes ਮੇਰੇ; ਲੰਮੀ agrees with her."},
-      {"t":"type","p":"My brother is older than me.","a":["ਮੇਰਾ ਭਰਾ ਮੇਰੇ ਨਾਲੋਂ ਵੱਡਾ ਹੈ","ਮੇਰਾ ਭਰਾ ਮੇਰੇ ਤੋਂ ਵੱਡਾ ਹੈ","merā bhàrā mere nālõ vaḍḍā hai","merā bhàrā mere tõ vaḍḍā hai"],"hint":"ਭਰਾ · older = ਵੱਡਾ (big) · ਨਾਲੋਂ","x":["ਵੱਡੀ","ਮੈਂ"],"why":"ਭਰਾ is masculine, so ਵੱਡਾ agrees with it."},
-      {"t":"type","p":"This is the biggest room.","a":["ਇਹ ਸਭ ਤੋਂ ਵੱਡਾ ਕਮਰਾ ਹੈ","íh sábh tõ vaḍḍā kamrā hai"],"hint":"ਸਭ ਤੋਂ · ਵੱਡਾ · ਕਮਰਾ","x":["ਵੱਡੀ"],"why":"ਕਮਰਾ is masculine, so ਵੱਡਾ agrees with it."}
+      {"t":"fill","q":"ਚਾਹ ਲੱਸੀ __ ਸਸਤੀ ਹੈ।","p":"Tea is cheaper than lassi.","a":["ਨਾਲੋਂ","ਤੋਂ","nālõ","tõ"],"o":["ਨਾਲ","ਵਿੱਚ","ਸੇ"],"why":"Than = ਨਾਲੋਂ or ਤੋਂ; ਨਾਲ means with, and ਸੇ is Hindi.","xr":["nāl","vicch","se"]},
+      {"t":"fill","q":"ਮੇਰੀ ਭੈਣ ਮੇਰੇ ਨਾਲੋਂ __ ਹੈ।","p":"My sister is older than me.","a":["ਵੱਡੀ","vaḍḍī"],"o":["ਵੱਡਾ","ਵੱਡੇ","ਛੋਟੀ"],"why":"Older = big, and it agrees with ਭੈਣ: ਵੱਡੀ.","xr":["vaḍḍā","vaḍḍe","chhoṭī"]},
+      {"t":"fill","q":"ਇਹ __ ਤੋਂ ਵੱਡਾ ਸ਼ਹਿਰ ਹੈ।","p":"This is the biggest city.","a":["ਸਭ","sábh"],"o":["ਜ਼ਿਆਦਾ","ਬਹੁਤ","ਮੇਰੇ"],"why":"The most = ਸਭ ਤੋਂ, 'than all'.","xr":["ziādā","báhut","mere"]},
+      {"t":"type","p":"She is taller than me.","a":["ਉਹ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮੀ ਹੈ","ਉਹ ਮੇਰੇ ਤੋਂ ਲੰਮੀ ਹੈ","úh mere nālõ lammī hai","úh mere tõ lammī hai"],"hint":"ਲੰਮਾ (tall) · ਨਾਲੋਂ (than)","x":["ਮੈਂ","ਲੰਮਾ"],"why":"ਨਾਲੋਂ is a postposition, so ਮੈਂ becomes ਮੇਰੇ; ਲੰਮੀ agrees with her.","xr":["maĩ","lammā"]},
+      {"t":"type","p":"My brother is older than me.","a":["ਮੇਰਾ ਭਰਾ ਮੇਰੇ ਨਾਲੋਂ ਵੱਡਾ ਹੈ","ਮੇਰਾ ਭਰਾ ਮੇਰੇ ਤੋਂ ਵੱਡਾ ਹੈ","merā bhàrā mere nālõ vaḍḍā hai","merā bhàrā mere tõ vaḍḍā hai"],"hint":"ਭਰਾ · older = ਵੱਡਾ (big) · ਨਾਲੋਂ","x":["ਵੱਡੀ","ਮੈਂ"],"why":"ਭਰਾ is masculine, so ਵੱਡਾ agrees with it.","xr":["vaḍḍī","maĩ"]},
+      {"t":"type","p":"This is the biggest room.","a":["ਇਹ ਸਭ ਤੋਂ ਵੱਡਾ ਕਮਰਾ ਹੈ","íh sábh tõ vaḍḍā kamrā hai"],"hint":"ਸਭ ਤੋਂ · ਵੱਡਾ · ਕਮਰਾ","x":["ਵੱਡੀ"],"why":"ਕਮਰਾ is masculine, so ਵੱਡਾ agrees with it.","xr":["vaḍḍī"]}
     ],
     "must-can": [
       {"t":"mc","q":"I have to work every day. =","o":["ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹੈ।","ਮੈਂ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹੈ।","ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰ ਪੈਂਦਾ ਹੈ।","ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹਾਂ।"],"why":"Have to: ਮੈਨੂੰ + infinitive + ਪੈਂਦਾ ਹੈ."},
@@ -1136,12 +1136,12 @@ LANGAPP_PACKS.course['en-pa'] = {
       {"t":"order","p":"I have to work every day. (start with ਮੈਨੂੰ)","a":["ਮੈਨੂੰ","ਰੋਜ਼","ਕੰਮ","ਕਰਨਾ","ਪੈਂਦਾ","ਹੈ"],"x":["ਮੈਂ"],"why":"The person who must takes the postposition form ਮੈਨੂੰ, not ਮੈਂ."},
       {"t":"order","p":"Can you help me? (politely)","a":["ਕੀ","ਤੁਸੀਂ","ਮੇਰੀ","ਮਦਦ","ਕਰ","ਸਕਦੇ","ਹੋ"],"x":["ਸਕਦਾ"],"why":"ਤੁਸੀਂ is plural, so ਸਕਦੇ agrees with it."},
       {"t":"order","p":"I can come tomorrow. (a woman speaking; start with ਮੈਂ)","a":["ਮੈਂ","ਕੱਲ੍ਹ","ਆ","ਸਕਦੀ","ਹਾਂ"],"x":["ਸਕਦਾ"],"why":"A woman is speaking, so ਸਕਦੀ agrees with her (feminine)."},
-      {"t":"fill","q":"__ ਘਰ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।","p":"You should go home. (politely)","a":["ਤੁਹਾਨੂੰ","tuhā̀nū̃"],"o":["ਤੁਸੀਂ","ਤੁਹਾਡਾ","ਤੁਹਾਡੇ"],"why":"Should takes the ਨੂੰ form: ਤੁਹਾਨੂੰ."},
-      {"t":"fill","q":"ਕੀ ਮੈਂ ਇੱਥੇ ਬੈਠ __ ਹਾਂ?","p":"May I sit here? (a man speaking)","a":["ਸਕਦਾ","sakdā"],"o":["ਸਕਦੀ","ਸਕਦੇ","ਸਕਣਾ"],"why":"A man asking: ਸਕਦਾ ਹਾਂ."},
-      {"t":"fill","q":"ਮੈਨੂੰ ਰੋਜ਼ ਸਵੇਰੇ ਛੇ ਵਜੇ ਉੱਠਣਾ __ ਹੈ।","p":"I have to get up at six every morning.","a":["ਪੈਂਦਾ","paĩdā"],"o":["ਪਵੇਗਾ","ਸਕਦਾ","ਪੈਂਦੀ"],"why":"As a rule, every day: ਪੈਂਦਾ ਹੈ."},
-      {"t":"type","p":"I'll have to go.","a":["ਮੈਨੂੰ ਜਾਣਾ ਪਵੇਗਾ","mainū̃ jāṇā pavegā"],"hint":"ਜਾਣਾ · ਪਵੇਗਾ","x":["ਮੈਂ"],"why":"The person who must takes the postposition form ਮੈਨੂੰ, not ਮੈਂ."},
-      {"t":"type","p":"I can speak Punjabi. (a man speaking)","a":["ਮੈਂ ਪੰਜਾਬੀ ਬੋਲ ਸਕਦਾ ਹਾਂ","maĩ panjābī bol sakdā hā̃"],"hint":"ਪੰਜਾਬੀ · ਬੋਲਣਾ, stem ਬੋਲ · ਸਕਦਾ","x":["ਸਕਦੀ","ਬੋਲਣਾ"],"why":"A man is speaking, so ਸਕਦਾ agrees with him (masculine)."},
-      {"t":"type","p":"You should rest. (politely)","a":["ਤੁਹਾਨੂੰ ਆਰਾਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ","tuhā̀nū̃ ārām karnā chā́hīdā hai"],"hint":"ਆਰਾਮ ਕਰਨਾ (to rest) · ਚਾਹੀਦਾ","x":["ਤੁਸੀਂ"],"why":"Should takes the postposition form ਤੁਹਾਨੂੰ, not ਤੁਸੀਂ."}
+      {"t":"fill","q":"__ ਘਰ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।","p":"You should go home. (politely)","a":["ਤੁਹਾਨੂੰ","tuhā̀nū̃"],"o":["ਤੁਸੀਂ","ਤੁਹਾਡਾ","ਤੁਹਾਡੇ"],"why":"Should takes the ਨੂੰ form: ਤੁਹਾਨੂੰ.","xr":["tusī̃","tuhā̀ḍā","tuhā̀ḍe"]},
+      {"t":"fill","q":"ਕੀ ਮੈਂ ਇੱਥੇ ਬੈਠ __ ਹਾਂ?","p":"May I sit here? (a man speaking)","a":["ਸਕਦਾ","sakdā"],"o":["ਸਕਦੀ","ਸਕਦੇ","ਸਕਣਾ"],"why":"A man asking: ਸਕਦਾ ਹਾਂ.","xr":["sakdī","sakde","sakṇā"]},
+      {"t":"fill","q":"ਮੈਨੂੰ ਰੋਜ਼ ਸਵੇਰੇ ਛੇ ਵਜੇ ਉੱਠਣਾ __ ਹੈ।","p":"I have to get up at six every morning.","a":["ਪੈਂਦਾ","paĩdā"],"o":["ਪਵੇਗਾ","ਸਕਦਾ","ਪੈਂਦੀ"],"why":"As a rule, every day: ਪੈਂਦਾ ਹੈ.","xr":["pavegā","sakdā","paĩdī"]},
+      {"t":"type","p":"I'll have to go.","a":["ਮੈਨੂੰ ਜਾਣਾ ਪਵੇਗਾ","mainū̃ jāṇā pavegā"],"hint":"ਜਾਣਾ · ਪਵੇਗਾ","x":["ਮੈਂ"],"why":"The person who must takes the postposition form ਮੈਨੂੰ, not ਮੈਂ.","xr":["maĩ"]},
+      {"t":"type","p":"I can speak Punjabi. (a man speaking)","a":["ਮੈਂ ਪੰਜਾਬੀ ਬੋਲ ਸਕਦਾ ਹਾਂ","maĩ panjābī bol sakdā hā̃"],"hint":"ਪੰਜਾਬੀ · ਬੋਲਣਾ, stem ਬੋਲ · ਸਕਦਾ","x":["ਸਕਦੀ","ਬੋਲਣਾ"],"why":"A man is speaking, so ਸਕਦਾ agrees with him (masculine).","xr":["sakdī","bolṇā"]},
+      {"t":"type","p":"You should rest. (politely)","a":["ਤੁਹਾਨੂੰ ਆਰਾਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ","tuhā̀nū̃ ārām karnā chā́hīdā hai"],"hint":"ਆਰਾਮ ਕਰਨਾ (to rest) · ਚਾਹੀਦਾ","x":["ਤੁਸੀਂ"],"why":"Should takes the postposition form ਤੁਹਾਨੂੰ, not ਤੁਸੀਂ.","xr":["tusī̃"]}
     ]
   },
   PATTERNS: [

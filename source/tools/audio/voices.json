@@ -26,5 +26,9 @@
  "te": {
   "voice": "te-IN-ShrutiNeural",
   "locale": "te-IN"
+ },
+ "kn": {
+  "voice": "kn-IN-SapnaNeural",
+  "locale": "kn-IN"
  }
 }

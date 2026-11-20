@@ -693,10 +693,10 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Build yeh peṭ hai (this is a stomach)","a":["یہ","پیٹ","ہے"],"x":["پیت"],"why":"The t at the end of پیٹ is retroflex: ٹ, not ت."},
       {"t":"order","p":"Build yeh beṭī hai (this is a daughter)","a":["یہ","بیٹی","ہے"],"x":["بیتی"],"why":"بیٹی has a retroflex ٹ, tongue curled back."},
       {"t":"fill","q":"یہ __ ہے۔","p":"This is a cap.","a":["ٹوپی","ṭopī"],"o":["توپی","تپی","ٹپی"],"why":"ٹوپی: retroflex ٹ, and و and ی for the long vowels."},
-      {"t":"fill","q":"یہ __ ہے۔","p":"This is a stomach.","a":["پیٹ","peṭ"],"o":["پیت","پت","ٹیپ"],"why":"پیٹ, stomach, ends in the retroflex ٹ."},
-      {"t":"fill","q":"یہ __ ہے۔","p":"This is a father.","a":["باپ","bāp"],"o":["بپ","پاب","بات"],"why":"باپ: ب, then ا for the long ā, then پ."},
+      {"t":"fill","q":"یہ __ ہے۔","p":"This is a stomach.","a":["پیٹ","peṭ"],"o":["پیت","پت","ٹیپ"],"why":"پیٹ, stomach, ends in the retroflex ٹ.","xr":["ṭep"]},
+      {"t":"fill","q":"یہ __ ہے۔","p":"This is a father.","a":["باپ","bāp"],"o":["بپ","پاب","بات"],"why":"باپ: ب, then ا for the long ā, then پ.","xr":["bāt"]},
       {"t":"type","p":"Type yeh ṭopī hai (this is a cap)","a":["یہ ٹوپی ہے","yeh ṭopī hai"],"hint":"یہ · ٹوپی · ہے","x":["توپی","تپی"],"why":"ٹ is retroflex, so cap is ٹوپی."},
-      {"t":"type","p":"Type yeh bāp hai (this is a father)","a":["یہ باپ ہے","yeh bāp hai"],"hint":"یہ · باپ · ہے","x":["بپ","بات"],"why":"باپ has a long vowel, so it needs ا: باپ, not بپ."},
+      {"t":"type","p":"Type yeh bāp hai (this is a father)","a":["یہ باپ ہے","yeh bāp hai"],"hint":"یہ · باپ · ہے","x":["بپ","بات"],"why":"باپ has a long vowel, so it needs ا: باپ, not بپ.","xr":["bāt"]},
       {"t":"type","p":"Type yeh ṭep hai (this is tape)","a":["یہ ٹیپ ہے","yeh ṭep hai"],"hint":"یہ · ٹیپ · ہے","x":["تیپ","ٹپ"],"why":"ٹیپ starts with the retroflex ٹ, as in English tape."}
     ],
     "letters-2": [
@@ -708,12 +708,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Build yeh baṛā hai (it is big)","a":["یہ","بڑا","ہے"],"x":["برا"],"why":"Big has the retroflex flap ڑ: بڑا. برا means bad."},
       {"t":"order","p":"Build yeh ḍabbā hai (this is a box)","a":["یہ","ڈبا","ہے"],"x":["دبا"],"why":"Box starts with the retroflex ڈ, not the dental د."},
       {"t":"order","p":"Build yeh ḍabbā baṛā hai (this box is big)","a":["یہ","ڈبا","بڑا","ہے"],"x":["دبا"],"why":"ڈبا starts with retroflex ڈ, and بڑا has the retroflex flap ڑ."},
-      {"t":"fill","q":"یہ __ ہے۔","p":"It is big.","a":["بڑا","baṛā"],"o":["برا","بدا","بڈا"],"why":"بڑا has the flap ڑ; برا means bad."},
+      {"t":"fill","q":"یہ __ ہے۔","p":"It is big.","a":["بڑا","baṛā"],"o":["برا","بدا","بڈا"],"why":"بڑا has the flap ڑ; برا means bad.","xr":["burā"]},
       {"t":"fill","q":"یہ __ ہے۔","p":"This is a box.","a":["ڈبا","ḍabbā"],"o":["دبا","ڈب","ربا"],"why":"ڈبا: retroflex ڈ, then ب, then ا for the long ā."},
-      {"t":"fill","q":"یہ __ ہے۔","p":"It is far.","a":["دور","dūr"],"o":["ڈور","در","دیر"],"why":"Far is دور: dental د and و for the long ū."},
+      {"t":"fill","q":"یہ __ ہے۔","p":"It is far.","a":["دور","dūr"],"o":["ڈور","در","دیر"],"why":"Far is دور: dental د and و for the long ū.","xr":["der"]},
       {"t":"type","p":"Type yeh dūr hai (it is far)","a":["یہ دور ہے","yeh dūr hai"],"hint":"یہ · دور · ہے","x":["ڈور","در"],"why":"دور starts with the dental د, tongue on the back of the teeth."},
-      {"t":"type","p":"Type yeh baṛī hai (it is big, said of a feminine thing)","a":["یہ بڑی ہے","yeh baṛī hai"],"hint":"یہ · بڑی · ہے","x":["بری","بڑ"],"why":"بڑی has the retroflex flap ڑ, and ی for the long ī."},
-      {"t":"type","p":"Type yeh do haĩ (these are two)","a":["یہ دو ہیں","yeh do haĩ"],"hint":"یہ · دو · ہیں","x":["ڈو","ہے"],"why":"Two is دو with the dental د; for more than one, use ہیں."}
+      {"t":"type","p":"Type yeh baṛī hai (it is big, said of a feminine thing)","a":["یہ بڑی ہے","yeh baṛī hai"],"hint":"یہ · بڑی · ہے","x":["بری","بڑ"],"why":"بڑی has the retroflex flap ڑ, and ی for the long ī.","xr":["burī"]},
+      {"t":"type","p":"Type yeh do haĩ (these are two)","a":["یہ دو ہیں","yeh do haĩ"],"hint":"یہ · دو · ہیں","x":["ڈو","ہے"],"why":"Two is دو with the dental د; for more than one, use ہیں.","xr":["hai"]}
     ],
     "letters-3": [
       {"t":"mc","q":"Which letter is ḵhe, the rough ḵh?","o":["خ","ح","ج","چ"],"why":"خ has one dot on top; ح has none."},
@@ -742,7 +742,7 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Build merā nām alī hai (my name is Ali)","a":["میرا","نام","علی","ہے"],"x":["نم"],"why":"نام has a long vowel ā, so it needs ا: نام, not نم."},
       {"t":"fill","q":"یہ __ ہے۔","p":"This is a book.","a":["کتاب","kitāb"],"o":["کتب","کتاپ","کٹاب"],"why":"کتاب: the long ā is written with ا, and the t is dental."},
       {"t":"fill","q":"یہ __ ہے۔","p":"This is a car.","a":["گاڑی","gāṛī"],"o":["گاری","گڑی","گاڈی"],"why":"گاڑی has the flap ڑ and a long ā."},
-      {"t":"fill","q":"میرا __ سارہ ہے۔","p":"My name is Sarah.","a":["نام","nām"],"o":["نم","نامہ","مان"],"why":"نام is name: ن, ا for the long ā, then م."},
+      {"t":"fill","q":"میرا __ سارہ ہے۔","p":"My name is Sarah.","a":["نام","nām"],"o":["نم","نامہ","مان"],"why":"نام is name: ن, ا for the long ā, then م.","xr":["mān"]},
       {"t":"type","p":"Type merā nām sārā hai (my name is Sarah)","a":["میرا نام سارہ ہے","merā nām sārā hai"],"hint":"میرا · نام · سارہ · ہے","x":["نم","سرہ"],"why":"نام and سارہ both have a long vowel ā written with ا."},
       {"t":"type","p":"Type yeh gāṛī hai (this is a car)","a":["یہ گاڑی ہے","yeh gāṛī hai"],"hint":"یہ · گاڑی · ہے","x":["گاری","گڑی"],"why":"گاڑی has the retroflex flap ڑ, not ر."},
       {"t":"type","p":"Type yeh fon hai (this is a phone)","a":["یہ فون ہے","yeh fon hai"],"hint":"یہ · فون · ہے","x":["فن","پون"],"why":"فون has a long vowel o, written with و."}
@@ -756,11 +756,11 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Build yeh phal hai (this is fruit)","a":["یہ","پھل","ہے"],"x":["پل"],"why":"پھ is aspirated: پھل is fruit, پل is a moment."},
       {"t":"order","p":"Build hā̃ jī (yes)","a":["ہاں","جی"],"x":["ہان"],"why":"ں makes the vowel nasal: ہاں has no real n."},
       {"t":"order","p":"Build yeh dūdh hai (this is milk)","a":["یہ","دودھ","ہے"],"x":["دود"],"why":"Milk ends in an aspirated دھ: دودھ."},
-      {"t":"fill","q":"یہ __ ہے۔","p":"This is fruit.","a":["پھل","phal"],"o":["پل","پہل","فل"],"why":"Fruit is پھل, with the aspirated پھ."},
+      {"t":"fill","q":"یہ __ ہے۔","p":"This is fruit.","a":["پھل","phal"],"o":["پل","پہل","فل"],"why":"Fruit is پھل, with the aspirated پھ.","xr":["pal"]},
       {"t":"fill","q":"__ جی۔","p":"Yes.","a":["ہاں","hā̃"],"o":["ہان","ہا","ہن"],"why":"ہاں ends in ں, the nasal sign."},
       {"t":"fill","q":"یہ __ ہے۔","p":"This is milk.","a":["دودھ","dūdh"],"o":["دود","دوڈھ","ڈودھ"],"why":"دودھ: dental د, long ū, and aspirated دھ at the end."},
       {"t":"type","p":"Type ṭhīk hai (OK)","a":["ٹھیک ہے","ṭhīk hai"],"hint":"ٹھیک · ہے","x":["تھیک","ٹیک"],"why":"ٹھ is the retroflex ṭ, aspirated: ٹھیک."},
-      {"t":"type","p":"Type yeh khānā hai (this is food)","a":["یہ کھانا ہے","yeh khānā hai"],"hint":"یہ · کھانا · ہے","x":["کانا","کہانا"],"why":"کھ is aspirated k, so food is کھانا."},
+      {"t":"type","p":"Type yeh khānā hai (this is food)","a":["یہ کھانا ہے","yeh khānā hai"],"hint":"یہ · کھانا · ہے","x":["کانا","کہانا"],"why":"کھ is aspirated k, so food is کھانا.","xr":["kānā"]},
       {"t":"type","p":"Type maĩ ṭhīk hū̃ (I'm fine)","a":["میں ٹھیک ہوں","maĩ ṭhīk hū̃"],"hint":"میں · ٹھیک · ہوں","x":["ہون","تیک"],"why":"ہوں ends in ں: the vowel is nasal, with no real n."}
     ],
     "greetings": [
@@ -772,12 +772,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"How are you? (to a man)","a":["آپ","کیسے","ہیں"],"x":["کیسی"],"why":"To a man, how agrees as کیسے, and آپ takes the plural ہیں."},
       {"t":"order","p":"How are you? (to a woman)","a":["آپ","کیسی","ہیں"],"x":["ہے"],"why":"آپ takes the plural verb ہیں, even for one woman."},
       {"t":"order","p":"Thank you very much.","a":["بہت","شکریہ"],"x":["خوش"],"why":"بہت, very, goes before شکریہ."},
-      {"t":"fill","q":"آپ کیسے __؟","p":"How are you? (to a man)","a":["ہیں","haĩ"],"o":["ہے","ہو","ہوں"],"why":"آپ always takes the plural verb ہیں."},
-      {"t":"fill","q":"__ حافظ۔","p":"Goodbye.","a":["اللہ","خدا","allāh","ḵhudā"],"o":["سلام","شکریہ","جی"],"why":"Goodbye is اللہ حافظ or خدا حافظ; both are correct."},
-      {"t":"fill","q":"کوئی بات __۔","p":"No problem.","a":["نہیں","nahī̃"],"o":["ہیں","ہاں","ہے"],"why":"کوئی بات نہیں: literally, it's nothing."},
-      {"t":"type","p":"How are you? (to a woman)","a":["آپ کیسی ہیں","āp kaisī haĩ"],"hint":"آپ · کیسے / کیسی · ہیں","x":["کیسے","ہے"],"why":"To a woman, کیسی agrees with her, and آپ takes the plural ہیں."},
-      {"t":"type","p":"How are you? (to a man)","a":["آپ کیسے ہیں","āp kaise haĩ"],"hint":"آپ · کیسے / کیسی · ہیں","x":["کیسی","ہے"],"why":"To a man, کیسے agrees with him, and آپ takes the plural ہیں."},
-      {"t":"type","p":"Goodbye.","a":["اللہ حافظ","خدا حافظ","allāh hāfiz","ḵhudā hāfiz"],"hint":"اللہ · حافظ","x":["سلام","شکریہ"],"why":"اللہ حافظ is the usual goodbye; خدا حافظ is also correct."}
+      {"t":"fill","q":"آپ کیسے __؟","p":"How are you? (to a man)","a":["ہیں","haĩ"],"o":["ہے","ہو","ہوں"],"why":"آپ always takes the plural verb ہیں.","xr":["hai","ho","hū̃"]},
+      {"t":"fill","q":"__ حافظ۔","p":"Goodbye.","a":["اللہ","خدا","allāh","ḵhudā"],"o":["سلام","شکریہ","جی"],"why":"Goodbye is اللہ حافظ or خدا حافظ; both are correct.","xr":["salām","shukriyā","jī"]},
+      {"t":"fill","q":"کوئی بات __۔","p":"No problem.","a":["نہیں","nahī̃"],"o":["ہیں","ہاں","ہے"],"why":"کوئی بات نہیں: literally, it's nothing.","xr":["haĩ","hā̃","hai"]},
+      {"t":"type","p":"How are you? (to a woman)","a":["آپ کیسی ہیں","āp kaisī haĩ"],"hint":"آپ · کیسے / کیسی · ہیں","x":["کیسے","ہے"],"why":"To a woman, کیسی agrees with her, and آپ takes the plural ہیں.","xr":["kaise","hai"]},
+      {"t":"type","p":"How are you? (to a man)","a":["آپ کیسے ہیں","āp kaise haĩ"],"hint":"آپ · کیسے / کیسی · ہیں","x":["کیسی","ہے"],"why":"To a man, کیسے agrees with him, and آپ takes the plural ہیں.","xr":["kaisī","hai"]},
+      {"t":"type","p":"Goodbye.","a":["اللہ حافظ","خدا حافظ","allāh hāfiz","ḵhudā hāfiz"],"hint":"اللہ · حافظ","x":["سلام","شکریہ"],"why":"اللہ حافظ is the usual goodbye; خدا حافظ is also correct.","xr":["salām","shukriyā"]}
     ],
     "hona": [
       {"t":"mc","q":"I'm fine =","o":["میں ٹھیک ہوں","میں ٹھیک ہے","میں ٹھیک ہیں","میں ٹھیک ہو"],"why":"میں takes ہوں; ہو goes with تم."},
@@ -788,12 +788,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"I'm a doctor.","a":["میں","ڈاکٹر","ہوں"],"x":["ہے"],"why":"The verb agrees with میں: ہوں, not ہے."},
       {"t":"order","p":"You're busy. (polite)","a":["آپ","مصروف","ہیں"],"x":["ہے"],"why":"آپ takes the plural verb ہیں, even for one person."},
       {"t":"order","p":"We're Pakistani.","a":["ہم","پاکستانی","ہیں"],"x":["ہوں"],"why":"ہم is plural, so the verb is ہیں."},
-      {"t":"fill","q":"میں ٹھیک __۔","p":"I'm fine.","a":["ہوں","hū̃"],"o":["ہے","ہیں","ہو"],"why":"میں always takes ہوں."},
-      {"t":"fill","q":"تم خوش __۔","p":"You're happy. (to a friend)","a":["ہو","ho"],"o":["ہے","ہیں","ہوں"],"why":"تم takes ہو."},
-      {"t":"fill","q":"ہم یہاں __۔","p":"We're here.","a":["ہیں","haĩ"],"o":["ہے","ہوں","ہو"],"why":"ہم is plural and takes ہیں."},
-      {"t":"type","p":"I'm American.","a":["میں امریکی ہوں","امریکی ہوں","maĩ amrīkī hū̃","amrīkī hū̃"],"hint":"میں · امریکی · ہونا","x":["ہے","ہیں"],"why":"The verb agrees with میں: ہوں."},
-      {"t":"type","p":"You're a doctor. (polite)","a":["آپ ڈاکٹر ہیں","āp ḍākṭar haĩ"],"hint":"آپ · ڈاکٹر · ہونا","x":["ہے","ہو"],"why":"آپ takes the plural ہیں, even for one person."},
-      {"t":"type","p":"He's sick. (your friend's little brother)","a":["وہ بیمار ہے","یہ بیمار ہے","voh bīmār hai","yeh bīmār hai"],"hint":"یہ · بیمار · ہونا","x":["ہوں","ہو"],"why":"One person, no respect plural needed: وہ or یہ with ہے."}
+      {"t":"fill","q":"میں ٹھیک __۔","p":"I'm fine.","a":["ہوں","hū̃"],"o":["ہے","ہیں","ہو"],"why":"میں always takes ہوں.","xr":["hai","haĩ","ho"]},
+      {"t":"fill","q":"تم خوش __۔","p":"You're happy. (to a friend)","a":["ہو","ho"],"o":["ہے","ہیں","ہوں"],"why":"تم takes ہو.","xr":["hai","haĩ","hū̃"]},
+      {"t":"fill","q":"ہم یہاں __۔","p":"We're here.","a":["ہیں","haĩ"],"o":["ہے","ہوں","ہو"],"why":"ہم is plural and takes ہیں.","xr":["hai","hū̃","ho"]},
+      {"t":"type","p":"I'm American.","a":["میں امریکی ہوں","امریکی ہوں","maĩ amrīkī hū̃","amrīkī hū̃"],"hint":"میں · امریکی · ہونا","x":["ہے","ہیں"],"why":"The verb agrees with میں: ہوں.","xr":["hai","haĩ"]},
+      {"t":"type","p":"You're a doctor. (polite)","a":["آپ ڈاکٹر ہیں","āp ḍākṭar haĩ"],"hint":"آپ · ڈاکٹر · ہونا","x":["ہے","ہو"],"why":"آپ takes the plural ہیں, even for one person.","xr":["hai","ho"]},
+      {"t":"type","p":"He's sick. (your friend's little brother)","a":["وہ بیمار ہے","یہ بیمار ہے","voh bīmār hai","yeh bīmār hai"],"hint":"یہ · بیمار · ہونا","x":["ہوں","ہو"],"why":"One person, no respect plural needed: وہ or یہ with ہے.","xr":["hū̃","ho"]}
     ],
     "intro": [
       {"t":"mc","q":"My name is Ali. =","o":["میرا نام علی ہے","میرا نام علی جی ہے","میری نام علی ہے","میں نام علی ہوں"],"why":"نام is masculine, so میرا; and no جی after your own name."},
@@ -804,12 +804,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"My name is David.","a":["میرا","نام","ڈیوڈ","ہے"],"x":["میری"],"why":"نام is masculine, so my is میرا."},
       {"t":"order","p":"I'm twenty-five. (my age is 25 years)","a":["میری","عمر","پچیس","سال","ہے"],"x":["میرا"],"why":"عمر is feminine, so my agrees as میری."},
       {"t":"order","p":"Are you from America? (start with کیا)","a":["کیا","آپ","امریکہ","سے","ہیں"],"x":["ہے"],"why":"آپ takes the plural ہیں, and the postposition سے comes after امریکہ."},
-      {"t":"fill","q":"__ نام سارہ ہے۔","p":"My name is Sarah.","a":["میرا","merā"],"o":["میری","میرے","میں"],"why":"نام is masculine, so my is میرا, even for a woman."},
-      {"t":"fill","q":"میں شکاگو میں __ ہوں۔","p":"I live in Chicago. (a woman speaking)","a":["رہتی","rahtī"],"o":["رہتا","رہتے","رہنا"],"why":"A woman speaking says رہتی ہوں."},
-      {"t":"fill","q":"میں امریکہ __ ہوں۔","p":"I'm from America.","a":["سے","se"],"o":["میں","ہے","کیا"],"why":"From is سے, after the place."},
-      {"t":"type","p":"I live in Lahore. (a man speaking)","a":["میں لاہور میں رہتا ہوں","لاہور مِیں رہتا ہوں","maĩ lāhaur mẽ rahtā hū̃","lāhaur mẽ rahtā hū̃"],"hint":"لاہور · میں (in) · رہتا / رہتی ہوں","x":["رہتی","ہے"],"why":"The verb agrees with a man speaking: رہتا ہوں."},
-      {"t":"type","p":"My name is Sarah.","a":["میرا نام سارہ ہے","merā nām sārā hai"],"hint":"نام · سارہ · ہونا","x":["میری","ہوں"],"why":"نام is masculine, so my is میرا, even for a woman."},
-      {"t":"type","p":"Are you from Pakistan? (start with کیا)","a":["کیا آپ پاکستان سے ہیں","kyā āp pākistān se haĩ"],"hint":"کیا · آپ · پاکستان · سے (from) · ہونا","x":["ہے","میں"],"why":"آپ takes the plural ہیں, and سے is a postposition after the noun."}
+      {"t":"fill","q":"__ نام سارہ ہے۔","p":"My name is Sarah.","a":["میرا","merā"],"o":["میری","میرے","میں"],"why":"نام is masculine, so my is میرا, even for a woman.","xr":["merī","mere","maĩ"]},
+      {"t":"fill","q":"میں شکاگو میں __ ہوں۔","p":"I live in Chicago. (a woman speaking)","a":["رہتی","rahtī"],"o":["رہتا","رہتے","رہنا"],"why":"A woman speaking says رہتی ہوں.","xr":["rahtā","rahte","rahnā"]},
+      {"t":"fill","q":"میں امریکہ __ ہوں۔","p":"I'm from America.","a":["سے","se"],"o":["میں","ہے","کیا"],"why":"From is سے, after the place.","xr":["maĩ","hai","kyā"]},
+      {"t":"type","p":"I live in Lahore. (a man speaking)","a":["میں لاہور میں رہتا ہوں","لاہور مِیں رہتا ہوں","maĩ lāhaur mẽ rahtā hū̃","lāhaur mẽ rahtā hū̃"],"hint":"لاہور · میں (in) · رہتا / رہتی ہوں","x":["رہتی","ہے"],"why":"The verb agrees with a man speaking: رہتا ہوں.","xr":["rahtī","hai"]},
+      {"t":"type","p":"My name is Sarah.","a":["میرا نام سارہ ہے","merā nām sārā hai"],"hint":"نام · سارہ · ہونا","x":["میری","ہوں"],"why":"نام is masculine, so my is میرا, even for a woman.","xr":["merī","hū̃"]},
+      {"t":"type","p":"Are you from Pakistan? (start with کیا)","a":["کیا آپ پاکستان سے ہیں","kyā āp pākistān se haĩ"],"hint":"کیا · آپ · پاکستان · سے (from) · ہونا","x":["ہے","میں"],"why":"آپ takes the plural ہیں, and سے is a postposition after the noun.","xr":["hai","maĩ"]}
     ],
     "gender": [
       {"t":"mc","q":"Which noun is feminine?","o":["کتاب","پانی","کمرہ","گھر"],"why":"کتاب is feminine, though it does not end in ی."},
@@ -820,12 +820,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"These are boys.","a":["یہ","لڑکے","ہیں"],"x":["لڑکا","ہے"],"why":"The plural of the masculine لڑکا is لڑکے, and the verb is ہیں."},
       {"t":"order","p":"my book","a":["میری","کتاب"],"x":["میرا"],"why":"کتاب is feminine, so my is میری."},
       {"t":"order","p":"These are girls.","a":["یہ","لڑکیاں","ہیں"],"x":["لڑکی"],"why":"The feminine لڑکی takes اں in the plural: لڑکیاں."},
-      {"t":"fill","q":"یہ دو __ ہیں۔","p":"These are two rooms.","a":["کمرے","kamre"],"o":["کمرہ","کمریں","کمروں"],"why":"The plural of the masculine کمرہ is کمرے."},
-      {"t":"fill","q":"یہ دو __ ہیں۔","p":"These are two books.","a":["کتابیں","kitābẽ"],"o":["کتاب","کتابے","کتابوں"],"why":"The plural of the feminine کتاب is کتابیں."},
-      {"t":"fill","q":"یہ __ گاڑی ہے۔","p":"This is my car.","a":["میری","merī"],"o":["میرا","میرے","میں"],"why":"گاڑی is feminine, so my is میری."},
-      {"t":"type","p":"These are girls.","a":["یہ لڑکیاں ہیں","yeh laṛkiyā̃ haĩ"],"hint":"یہ · لڑکی · ہونا","x":["لڑکی","ہے"],"why":"لڑکی is feminine in -ī, so the plural is لڑکیاں, with ہیں."},
-      {"t":"type","p":"my room","a":["میرا کمرہ","merā kamrā"],"hint":"میرا · کمرہ","x":["میری"],"why":"کمرہ is masculine, so my is میرا."},
-      {"t":"type","p":"These are houses.","a":["یہ گھر ہیں","yeh ghar haĩ"],"hint":"یہ · گھر · ہونا","x":["گھرے","ہے"],"why":"گھر is masculine but not in -ā, so it stays گھر; ہیں shows the plural."}
+      {"t":"fill","q":"یہ دو __ ہیں۔","p":"These are two rooms.","a":["کمرے","kamre"],"o":["کمرہ","کمریں","کمروں"],"why":"The plural of the masculine کمرہ is کمرے.","xr":["kamrā","kamrõ"]},
+      {"t":"fill","q":"یہ دو __ ہیں۔","p":"These are two books.","a":["کتابیں","kitābẽ"],"o":["کتاب","کتابے","کتابوں"],"why":"The plural of the feminine کتاب is کتابیں.","xr":["kitāb","kitābõ"]},
+      {"t":"fill","q":"یہ __ گاڑی ہے۔","p":"This is my car.","a":["میری","merī"],"o":["میرا","میرے","میں"],"why":"گاڑی is feminine, so my is میری.","xr":["merā","mere","maĩ"]},
+      {"t":"type","p":"These are girls.","a":["یہ لڑکیاں ہیں","yeh laṛkiyā̃ haĩ"],"hint":"یہ · لڑکی · ہونا","x":["لڑکی","ہے"],"why":"لڑکی is feminine in -ī, so the plural is لڑکیاں, with ہیں.","xr":["laṛkī","hai"]},
+      {"t":"type","p":"my room","a":["میرا کمرہ","merā kamrā"],"hint":"میرا · کمرہ","x":["میری"],"why":"کمرہ is masculine, so my is میرا.","xr":["merī"]},
+      {"t":"type","p":"These are houses.","a":["یہ گھر ہیں","yeh ghar haĩ"],"hint":"یہ · گھر · ہونا","x":["گھرے","ہے"],"why":"گھر is masculine but not in -ā, so it stays گھر; ہیں shows the plural.","xr":["hai"]}
     ],
     "adjectives": [
       {"t":"mc","q":"a good girl =","o":["اچھی لڑکی","اچھا لڑکی","اچھے لڑکی","لڑکی اچھی"],"why":"لڑکی is feminine, so the adjective is اچھی, before the noun."},
@@ -836,12 +836,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"big rooms","a":["بڑے","کمرے"],"x":["بڑا"],"why":"Masculine plural nouns take the -e form: بڑے کمرے."},
       {"t":"order","p":"a good girl","a":["اچھی","لڑکی"],"x":["اچھا"],"why":"لڑکی is feminine, so the adjective agrees: اچھی."},
       {"t":"order","p":"a red car","a":["لال","گاڑی"],"x":["لالی"],"why":"لال never changes, even with a feminine noun like گاڑی."},
-      {"t":"fill","q":"یہ کتاب بہت __ ہے۔","p":"This book is very good.","a":["اچھی","acchhī"],"o":["اچھا","اچھے","اچھیں"],"why":"کتاب is feminine, so the adjective is اچھی, even after بہت."},
-      {"t":"fill","q":"وہ __ لڑکے ہیں۔","p":"They are good boys.","a":["اچھے","acchhe"],"o":["اچھا","اچھی","اچھیں"],"why":"لڑکے is masculine plural, so the adjective takes -e: اچھے."},
-      {"t":"fill","q":"یہ __ پانی ہے۔","p":"This is cold water.","a":["ٹھنڈا","ṭhaṇḍā"],"o":["ٹھنڈی","ٹھنڈے","ٹھنڈ"],"why":"پانی is masculine and singular, so ٹھنڈا."},
-      {"t":"type","p":"Sarah is very nice.","a":["سارہ بہت اچھی ہے","sārā bahut acchhī hai"],"hint":"سارہ · بہت · اچھا","x":["اچھا","اچھے"],"why":"Sarah is a woman, so the adjective agrees as feminine: اچھی."},
-      {"t":"type","p":"very big rooms","a":["بہت بڑے کمرے","bahut baṛe kamre"],"hint":"بہت · بڑا · کمرہ","x":["بڑا","کمرہ"],"why":"کمرے is masculine plural, so the adjective agrees as بڑے."},
-      {"t":"type","p":"my red car","a":["میری لال گاڑی","merī lāl gāṛī"],"hint":"میرا · لال · گاڑی","x":["میرا","لالی"],"why":"گاڑی is feminine, so my agrees as میری, but لال never changes."}
+      {"t":"fill","q":"یہ کتاب بہت __ ہے۔","p":"This book is very good.","a":["اچھی","acchhī"],"o":["اچھا","اچھے","اچھیں"],"why":"کتاب is feminine, so the adjective is اچھی, even after بہت.","xr":["acchhā","acchhe"]},
+      {"t":"fill","q":"وہ __ لڑکے ہیں۔","p":"They are good boys.","a":["اچھے","acchhe"],"o":["اچھا","اچھی","اچھیں"],"why":"لڑکے is masculine plural, so the adjective takes -e: اچھے.","xr":["acchhā","acchhī"]},
+      {"t":"fill","q":"یہ __ پانی ہے۔","p":"This is cold water.","a":["ٹھنڈا","ṭhaṇḍā"],"o":["ٹھنڈی","ٹھنڈے","ٹھنڈ"],"why":"پانی is masculine and singular, so ٹھنڈا.","xr":["ṭhaṇḍī","ṭhaṇḍe"]},
+      {"t":"type","p":"Sarah is very nice.","a":["سارہ بہت اچھی ہے","sārā bahut acchhī hai"],"hint":"سارہ · بہت · اچھا","x":["اچھا","اچھے"],"why":"Sarah is a woman, so the adjective agrees as feminine: اچھی.","xr":["acchhā","acchhe"]},
+      {"t":"type","p":"very big rooms","a":["بہت بڑے کمرے","bahut baṛe kamre"],"hint":"بہت · بڑا · کمرہ","x":["بڑا","کمرہ"],"why":"کمرے is masculine plural, so the adjective agrees as بڑے.","xr":["baṛā","kamrā"]},
+      {"t":"type","p":"my red car","a":["میری لال گاڑی","merī lāl gāṛī"],"hint":"میرا · لال · گاڑی","x":["میرا","لالی"],"why":"گاڑی is feminine, so my agrees as میری, but لال never changes.","xr":["merā"]}
     ],
     "numbers": [
       {"t":"mc","q":"25 =","o":["پچیس","بیس پانچ","پچاس","پندرہ"],"why":"Every number up to 100 is its own word: 25 is پچیس, not twenty plus five."},
@@ -852,12 +852,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"These are two books","a":["یہ","دو","کتابیں","ہیں"],"x":["کتاب","ہے"],"why":"After دو the feminine noun goes plural, کتابیں, and the verb agrees: ہیں."},
       {"t":"order","p":"four big rooms","a":["چار","بڑے","کمرے"],"x":["بڑا","کمرہ"],"why":"In the plural the adjective agrees with the noun: بڑے کمرے."},
       {"t":"order","p":"fifty rupees","a":["پچاس","روپے"],"x":["روپوں"],"why":"More than one rupee takes the plural روپے."},
-      {"t":"fill","q":"یہ __ روپے ہیں۔","p":"This is twenty-five rupees.","a":["پچیس","pacchīs"],"o":["بیس پانچ","پچاس","پندرہ"],"why":"25 is its own word: پچیس."},
-      {"t":"fill","q":"یہ تین __ ہیں۔","p":"These are three boys.","a":["لڑکے","laṛke"],"o":["لڑکا","لڑکی","لڑکیاں"],"why":"More than one boy: لڑکا becomes the plural لڑکے."},
-      {"t":"fill","q":"یہ دو کرسیاں __۔","p":"These are two chairs.","a":["ہیں","haĩ"],"o":["ہے","ہوں","ہو"],"why":"Two chairs are plural, so the verb is ہیں."},
-      {"t":"type","p":"three boys","a":["تین لڑکے","tīn laṛke"],"hint":"تین · لڑکا · more than one","x":["لڑکا"],"why":"After تین the masculine noun takes its plural: لڑکے."},
-      {"t":"type","p":"These are five books","a":["یہ پانچ کتابیں ہیں","yeh pā̃ch kitābẽ haĩ"],"hint":"یہ · پانچ · کتاب · ہونا","x":["کتاب","ہے"],"why":"کتاب goes plural after پانچ, and the verb agrees: کتابیں ہیں."},
-      {"t":"type","p":"a hundred rupees","a":["سو روپے","ایک سو روپے","sau rupaye","ek sau rupaye"],"hint":"سو · روپیہ","x":["روپوں"],"why":"More than one rupee takes the plural روپے."}
+      {"t":"fill","q":"یہ __ روپے ہیں۔","p":"This is twenty-five rupees.","a":["پچیس","pacchīs"],"o":["بیس پانچ","پچاس","پندرہ"],"why":"25 is its own word: پچیس.","xr":["bīs pā̃ch","pachās","pandrah"]},
+      {"t":"fill","q":"یہ تین __ ہیں۔","p":"These are three boys.","a":["لڑکے","laṛke"],"o":["لڑکا","لڑکی","لڑکیاں"],"why":"More than one boy: لڑکا becomes the plural لڑکے.","xr":["laṛkā","laṛkī","laṛkiyā̃"]},
+      {"t":"fill","q":"یہ دو کرسیاں __۔","p":"These are two chairs.","a":["ہیں","haĩ"],"o":["ہے","ہوں","ہو"],"why":"Two chairs are plural, so the verb is ہیں.","xr":["hai","hū̃","ho"]},
+      {"t":"type","p":"three boys","a":["تین لڑکے","tīn laṛke"],"hint":"تین · لڑکا · more than one","x":["لڑکا"],"why":"After تین the masculine noun takes its plural: لڑکے.","xr":["laṛkā"]},
+      {"t":"type","p":"These are five books","a":["یہ پانچ کتابیں ہیں","yeh pā̃ch kitābẽ haĩ"],"hint":"یہ · پانچ · کتاب · ہونا","x":["کتاب","ہے"],"why":"کتاب goes plural after پانچ, and the verb agrees: کتابیں ہیں.","xr":["kitāb","hai"]},
+      {"t":"type","p":"a hundred rupees","a":["سو روپے","ایک سو روپے","sau rupaye","ek sau rupaye"],"hint":"سو · روپیہ","x":["روپوں"],"why":"More than one rupee takes the plural روپے.","xr":["rupayõ"]}
     ],
     "questions": [
       {"t":"mc","q":"Where do you live? (to a man)","o":["آپ کہاں رہتے ہیں؟","آپ کہاں رہتا ہے؟","آپ کون رہتے ہیں؟","آپ کہاں رہتی ہو؟"],"why":"کہاں goes before the verb, and آپ takes رہتے ہیں."},
@@ -868,12 +868,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"How are you? (to a woman, neutral order)","a":["آپ","کیسی","ہیں"],"x":["کیسا","ہے"],"why":"To a woman کیسی is feminine, and آپ takes the plural ہیں."},
       {"t":"order","p":"How many books are there?","a":["کتنی","کتابیں","ہیں"],"x":["کتنے","ہے"],"why":"کتاب is feminine, so کتنی agrees, and the plural takes ہیں."},
       {"t":"order","p":"What is this? (neutral order)","a":["یہ","کیا","ہے"],"x":["کون"],"why":"The question word goes where the answer would go, before the verb: یہ کیا ہے."},
-      {"t":"fill","q":"اسٹیشن __ ہے؟","p":"Where is the station?","a":["کہاں","kahā̃"],"o":["کیا","کون","کب"],"why":"کہاں is where; it goes right before the verb."},
-      {"t":"fill","q":"یہ کتاب __ ہے؟","p":"What is this book like?","a":["کیسی","kaisī"],"o":["کیسا","کیسے","کتنی"],"why":"کتاب is feminine, so the question word is کیسی."},
-      {"t":"fill","q":"میں امریکی __ ہوں۔","p":"I'm not American.","a":["نہیں","nahī̃"],"o":["نہ","مت","کیا"],"why":"نہیں goes right before the verb to say not."},
-      {"t":"type","p":"How are you? (to a man)","a":["آپ کیسے ہیں","āp kaise haĩ"],"hint":"آپ · کیسا · ہونا","x":["کیسا","ہے"],"why":"آپ is plural: کیسے agrees with it, and the verb is ہیں."},
-      {"t":"type","p":"How many boys are there?","a":["کتنے لڑکے ہیں","kitne laṛke haĩ"],"hint":"کتنا · لڑکا · ہونا","x":["کتنا","ہے"],"why":"Plural boys: کتنے agrees, and the verb is ہیں."},
-      {"t":"type","p":"I don't know (a man speaking; use جاننا)","a":["میں نہیں جانتا","نہیں جانتا","میں نہیں جانتا ہوں","maĩ nahī̃ jāntā","nahī̃ jāntā","maĩ nahī̃ jāntā hū̃"],"hint":"میں · نہیں · جاننا","x":["جانتی"],"why":"The verb agrees with a man speaking: جانتا."}
+      {"t":"fill","q":"اسٹیشن __ ہے؟","p":"Where is the station?","a":["کہاں","kahā̃"],"o":["کیا","کون","کب"],"why":"کہاں is where; it goes right before the verb.","xr":["kyā","kaun","kab"]},
+      {"t":"fill","q":"یہ کتاب __ ہے؟","p":"What is this book like?","a":["کیسی","kaisī"],"o":["کیسا","کیسے","کتنی"],"why":"کتاب is feminine, so the question word is کیسی.","xr":["kaisā","kaise","kitnī"]},
+      {"t":"fill","q":"میں امریکی __ ہوں۔","p":"I'm not American.","a":["نہیں","nahī̃"],"o":["نہ","مت","کیا"],"why":"نہیں goes right before the verb to say not.","xr":["na","mat","kyā"]},
+      {"t":"type","p":"How are you? (to a man)","a":["آپ کیسے ہیں","āp kaise haĩ"],"hint":"آپ · کیسا · ہونا","x":["کیسا","ہے"],"why":"آپ is plural: کیسے agrees with it, and the verb is ہیں.","xr":["kaisā","hai"]},
+      {"t":"type","p":"How many boys are there?","a":["کتنے لڑکے ہیں","kitne laṛke haĩ"],"hint":"کتنا · لڑکا · ہونا","x":["کتنا","ہے"],"why":"Plural boys: کتنے agrees, and the verb is ہیں.","xr":["kitnā","hai"]},
+      {"t":"type","p":"I don't know (a man speaking; use جاننا)","a":["میں نہیں جانتا","نہیں جانتا","میں نہیں جانتا ہوں","maĩ nahī̃ jāntā","nahī̃ jāntā","maĩ nahī̃ jāntā hū̃"],"hint":"میں · نہیں · جاننا","x":["جانتی"],"why":"The verb agrees with a man speaking: جانتا.","xr":["jāntī"]}
     ],
     "imperative": [
       {"t":"mc","q":"Please sit down. (to a stranger)","o":["بیٹھیے","بیٹھو","بیٹھ","بیٹھنا"],"why":"With a stranger use the polite آپ form: stem + یے."},
@@ -884,12 +884,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Cold water, please","a":["ٹھنڈا","پانی","دیجیے"],"x":["ٹھنڈی"],"why":"پانی is masculine, so the adjective agrees: ٹھنڈا."},
       {"t":"order","p":"Please give (me) two samosas","a":["دو","سموسے","دیجیے"],"x":["سموسہ"],"why":"After دو the noun goes plural: سموسہ becomes سموسے."},
       {"t":"order","p":"Don't do this (to a friend)","a":["یہ","مت","کرو"],"x":["نہیں"],"why":"Commands use مت before the verb, never نہیں."},
-      {"t":"fill","q":"ذرا پانی __۔","p":"Could I have some water, please? (politely)","a":["دیجیے","دیں","dījie","dẽ"],"o":["دو","دینا","دیا"],"why":"The polite form of دینا is دیجیے (or دیں)."},
-      {"t":"fill","q":"یہاں __۔","p":"Sit here. (to a friend)","a":["بیٹھو","baiṭho"],"o":["بیٹھیے","بیٹھیں","بیٹھنا"],"why":"With a friend (تم) the command ends in و: بیٹھو."},
-      {"t":"fill","q":"یہ __ کرو۔","p":"Don't do this. (to a friend)","a":["مت","نہ","mat","na"],"o":["نہیں","کیا","بھی"],"why":"A command takes مت or نہ before the verb."},
-      {"t":"type","p":"Cold lassi, please (politely)","a":["ٹھنڈی لسی دیجیے","ٹھنڈی لسی دیں","ذرا ٹھنڈی لسی دیجیے","ذرا ٹھنڈی لسی دیں","ṭhaṇḍī lassī dījie","ṭhaṇḍī lassī dẽ","zarā ṭhaṇḍī lassī dījie","zarā ṭhaṇḍī lassī dẽ"],"hint":"ٹھنڈا · لسی · دینا","x":["ٹھنڈا"],"why":"لسی is feminine, so the adjective agrees: ٹھنڈی."},
-      {"t":"type","p":"Please bring two samosas","a":["دو سموسے لائیے","دو سموسے لائیں","دو سموسے لے آئیے","دو سموسے لے آئیں","do samose lāie","do samose lāẽ","do samose le āie","do samose le āẽ"],"hint":"دو · سموسہ · لانا","x":["سموسہ"],"why":"More than one samosa: the plural is سموسے."},
-      {"t":"type","p":"Come in (to a friend)","a":["اندر آؤ","اندر آ جاؤ","andar āo","andar ā jāo"],"hint":"اندر · آنا","x":["آئیے"],"why":"With a friend (تم) the command ends in و: آؤ."}
+      {"t":"fill","q":"ذرا پانی __۔","p":"Could I have some water, please? (politely)","a":["دیجیے","دیں","dījie","dẽ"],"o":["دو","دینا","دیا"],"why":"The polite form of دینا is دیجیے (or دیں).","xr":["do","denā","diyā"]},
+      {"t":"fill","q":"یہاں __۔","p":"Sit here. (to a friend)","a":["بیٹھو","baiṭho"],"o":["بیٹھیے","بیٹھیں","بیٹھنا"],"why":"With a friend (تم) the command ends in و: بیٹھو.","xr":["baiṭhie","baiṭhẽ","baiṭhnā"]},
+      {"t":"fill","q":"یہ __ کرو۔","p":"Don't do this. (to a friend)","a":["مت","نہ","mat","na"],"o":["نہیں","کیا","بھی"],"why":"A command takes مت or نہ before the verb.","xr":["nahī̃","kyā","bhī"]},
+      {"t":"type","p":"Cold lassi, please (politely)","a":["ٹھنڈی لسی دیجیے","ٹھنڈی لسی دیں","ذرا ٹھنڈی لسی دیجیے","ذرا ٹھنڈی لسی دیں","ṭhaṇḍī lassī dījie","ṭhaṇḍī lassī dẽ","zarā ṭhaṇḍī lassī dījie","zarā ṭhaṇḍī lassī dẽ"],"hint":"ٹھنڈا · لسی · دینا","x":["ٹھنڈا"],"why":"لسی is feminine, so the adjective agrees: ٹھنڈی.","xr":["ṭhaṇḍā"]},
+      {"t":"type","p":"Please bring two samosas","a":["دو سموسے لائیے","دو سموسے لائیں","دو سموسے لے آئیے","دو سموسے لے آئیں","do samose lāie","do samose lāẽ","do samose le āie","do samose le āẽ"],"hint":"دو · سموسہ · لانا","x":["سموسہ"],"why":"More than one samosa: the plural is سموسے.","xr":["samosā"]},
+      {"t":"type","p":"Come in (to a friend)","a":["اندر آؤ","اندر آ جاؤ","andar āo","andar ā jāo"],"hint":"اندر · آنا","x":["آئیے"],"why":"With a friend (تم) the command ends in و: آؤ.","xr":["āie"]}
     ],
     "postpositions": [
       {"t":"mc","q":"in the room","o":["کمرے میں","کمرہ میں","میں کمرہ","میں کمرے"],"why":"The postposition comes after the noun, and کمرہ takes the oblique: کمرے میں."},
@@ -900,12 +900,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"in this room","a":["اِس","کمرے","میں"],"x":["کمرہ"],"why":"Before the postposition میں, کمرہ takes the oblique کمرے, and یہ becomes اِس."},
       {"t":"order","p":"The boys are in the big room","a":["لڑکے","بڑے","کمرے","میں","ہیں"],"x":["بڑا","کمرہ"],"why":"Before a postposition the adjective and the noun both take the oblique: بڑے کمرے میں."},
       {"t":"order","p":"from the station to the hotel","a":["اسٹیشن","سے","ہوٹل","تک"],"x":["پر"],"why":"Each postposition comes after its noun: اسٹیشن سے, ہوٹل تک."},
-      {"t":"fill","q":"وہ __ میں ہے۔","p":"He is in the room.","a":["کمرے","kamre"],"o":["کمرہ","کمروں","کمرا"],"why":"Before the postposition میں, کمرہ takes the oblique: کمرے."},
-      {"t":"fill","q":"__ پانی دیجیے۔","p":"Please give me water.","a":["مجھے","مجھ کو","mujhe","mujh ko"],"o":["میں","میرا","میرے"],"why":"With کو, میں has its own form: مجھے."},
-      {"t":"fill","q":"کتاب میز __ ہے۔","p":"The book is on the table.","a":["پر","par"],"o":["سے","کو","تک"],"why":"پر (on) comes after the noun."},
-      {"t":"type","p":"in the big room","a":["بڑے کمرے میں","baṛe kamre mẽ"],"hint":"بڑا · کمرہ · میں","x":["کمرہ"],"why":"Before the postposition میں, both words take the oblique: بڑے کمرے."},
-      {"t":"type","p":"Please give the children water","a":["بچوں کو پانی دیجیے","بچوں کو پانی دیں","پانی بچوں کو دیجیے","پانی بچوں کو دیں","bacchõ ko pānī dījie","bacchõ ko pānī dẽ","pānī bacchõ ko dījie","pānī bacchõ ko dẽ"],"hint":"بچہ · کو · پانی · دینا","x":["بچے"],"why":"A plural noun before the postposition کو takes وں: بچوں کو."},
-      {"t":"type","p":"Please give me the book","a":["مجھے کتاب دیجیے","مجھے کتاب دیں","مجھ کو کتاب دیجیے","مجھ کو کتاب دیں","کتاب مجھے دیجیے","کتاب مجھے دیں","mujhe kitāb dījie","mujhe kitāb dẽ","mujh ko kitāb dījie","mujh ko kitāb dẽ","kitāb mujhe dījie","kitāb mujhe dẽ"],"hint":"میں + کو · کتاب · دینا","x":["میں"],"why":"With کو, میں has its own oblique form: مجھے."}
+      {"t":"fill","q":"وہ __ میں ہے۔","p":"He is in the room.","a":["کمرے","kamre"],"o":["کمرہ","کمروں","کمرا"],"why":"Before the postposition میں, کمرہ takes the oblique: کمرے.","xr":["kamrā","kamrõ"]},
+      {"t":"fill","q":"__ پانی دیجیے۔","p":"Please give me water.","a":["مجھے","مجھ کو","mujhe","mujh ko"],"o":["میں","میرا","میرے"],"why":"With کو, میں has its own form: مجھے.","xr":["maĩ","merā","mere"]},
+      {"t":"fill","q":"کتاب میز __ ہے۔","p":"The book is on the table.","a":["پر","par"],"o":["سے","کو","تک"],"why":"پر (on) comes after the noun.","xr":["se","ko","tak"]},
+      {"t":"type","p":"in the big room","a":["بڑے کمرے میں","baṛe kamre mẽ"],"hint":"بڑا · کمرہ · میں","x":["کمرہ"],"why":"Before the postposition میں, both words take the oblique: بڑے کمرے.","xr":["kamrā"]},
+      {"t":"type","p":"Please give the children water","a":["بچوں کو پانی دیجیے","بچوں کو پانی دیں","پانی بچوں کو دیجیے","پانی بچوں کو دیں","bacchõ ko pānī dījie","bacchõ ko pānī dẽ","pānī bacchõ ko dījie","pānī bacchõ ko dẽ"],"hint":"بچہ · کو · پانی · دینا","x":["بچے"],"why":"A plural noun before the postposition کو takes وں: بچوں کو.","xr":["bacche"]},
+      {"t":"type","p":"Please give me the book","a":["مجھے کتاب دیجیے","مجھے کتاب دیں","مجھ کو کتاب دیجیے","مجھ کو کتاب دیں","کتاب مجھے دیجیے","کتاب مجھے دیں","mujhe kitāb dījie","mujhe kitāb dẽ","mujh ko kitāb dījie","mujh ko kitāb dẽ","kitāb mujhe dījie","kitāb mujhe dẽ"],"hint":"میں + کو · کتاب · دینا","x":["میں"],"why":"With کو, میں has its own oblique form: مجھے.","xr":["maĩ"]}
     ],
     "possessive": [
       {"t":"mc","q":"my sister","o":["میری بہن","میرا بہن","میرے بہن","میں بہن"],"why":"بہن is feminine, so my is میری."},
@@ -916,12 +916,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"in my house","a":["میرے","گھر","میں"],"x":["میرا"],"why":"Before the postposition میں, میرا takes its oblique form میرے."},
       {"t":"order","p":"Ali's sister","a":["علی","کی","بہن"],"x":["کا"],"why":"کی agrees with بہن, which is feminine, not with Ali."},
       {"t":"order","p":"My grandfather (father's father) is in Lahore","a":["میرے","دادا","لاہور","میں","ہیں"],"x":["ہے"],"why":"A grandfather takes the respect plural: میرے دادا … ہیں."},
-      {"t":"fill","q":"یہ سارہ __ کتاب ہے۔","p":"This is Sarah's book.","a":["کی","kī"],"o":["کا","کے","کو"],"why":"کتاب is feminine, so the possessive is کی."},
-      {"t":"fill","q":"__ نام ڈیوڈ ہے۔","p":"My name is David.","a":["میرا","merā"],"o":["میری","میرے","مجھے"],"why":"نام is masculine, so my is میرا."},
-      {"t":"fill","q":"آپ __ بھائی کہاں ہیں؟","p":"Where is your brother? (with respect)","a":["کے","ke"],"o":["کا","کی","کو"],"why":"With the respect plural ہیں, the possessive is کے."},
-      {"t":"type","p":"my mother","a":["میری امی","merī ammī"],"hint":"میرا · امی","x":["میرا"],"why":"امی is feminine, so my is میری."},
-      {"t":"type","p":"my father's car","a":["میرے ابو کی گاڑی","mere abbū kī gāṛī"],"hint":"میرا · ابو · کا · گاڑی","x":["کا"],"why":"کی agrees with گاڑی, which is feminine; ابو takes the respect plural میرے."},
-      {"t":"type","p":"Whose book is this?","a":["یہ کس کی کتاب ہے","یہ کتاب کس کی ہے","yeh kis kī kitāb hai","yeh kitāb kis kī hai"],"hint":"یہ · کس · کا · کتاب","x":["کا"],"why":"کی agrees with کتاب, which is feminine."}
+      {"t":"fill","q":"یہ سارہ __ کتاب ہے۔","p":"This is Sarah's book.","a":["کی","kī"],"o":["کا","کے","کو"],"why":"کتاب is feminine, so the possessive is کی.","xr":["kā","ke","ko"]},
+      {"t":"fill","q":"__ نام ڈیوڈ ہے۔","p":"My name is David.","a":["میرا","merā"],"o":["میری","میرے","مجھے"],"why":"نام is masculine, so my is میرا.","xr":["merī","mere","mujhe"]},
+      {"t":"fill","q":"آپ __ بھائی کہاں ہیں؟","p":"Where is your brother? (with respect)","a":["کے","ke"],"o":["کا","کی","کو"],"why":"With the respect plural ہیں, the possessive is کے.","xr":["kā","kī","ko"]},
+      {"t":"type","p":"my mother","a":["میری امی","merī ammī"],"hint":"میرا · امی","x":["میرا"],"why":"امی is feminine, so my is میری.","xr":["merā"]},
+      {"t":"type","p":"my father's car","a":["میرے ابو کی گاڑی","mere abbū kī gāṛī"],"hint":"میرا · ابو · کا · گاڑی","x":["کا"],"why":"کی agrees with گاڑی, which is feminine; ابو takes the respect plural میرے.","xr":["kā"]},
+      {"t":"type","p":"Whose book is this?","a":["یہ کس کی کتاب ہے","یہ کتاب کس کی ہے","yeh kis kī kitāb hai","yeh kitāb kis kī hai"],"hint":"یہ · کس · کا · کتاب","x":["کا"],"why":"کی agrees with کتاب, which is feminine.","xr":["kā"]}
     ],
     "have": [
       {"t":"mc","q":"I have a car.","o":["میرے پاس گاڑی ہے","میں گاڑی ہے","میرا پاس گاڑی ہے","میرے گاڑی ہے"],"why":"Things you have take میرے پاس, with the oblique میرے."},
@@ -932,12 +932,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"I have a car (I own one)","a":["میرے","پاس","گاڑی","ہے"],"x":["میرا"],"why":"پاس works like a postposition, so میرا takes the oblique میرے."},
       {"t":"order","p":"I have two sisters","a":["میری","دو","بہنیں","ہیں"],"x":["میرا","ہے"],"why":"بہنیں is feminine plural: میری agrees, and the verb is ہیں."},
       {"t":"order","p":"I have a fever","a":["مجھے","بخار","ہے"],"x":["میں"],"why":"With an illness the person takes the oblique form with کو: مجھے."},
-      {"t":"fill","q":"کیا آپ کے __ ٹکٹ ہے؟","p":"Do you have a ticket?","a":["پاس","pās"],"o":["پر","میں","سے"],"why":"Things you have take کے پاس."},
-      {"t":"fill","q":"میرا ایک __ ہے۔","p":"I have a brother.","a":["بھائی","bhāī"],"o":["بہن","بھائیوں","بہنیں"],"why":"میرا and ہے go with one brother: بھائی."},
-      {"t":"fill","q":"میرے پاس دو کتابیں __۔","p":"I have two books.","a":["ہیں","haĩ"],"o":["ہے","ہوں","ہو"],"why":"The verb agrees with the things you have: two books, ہیں."},
-      {"t":"type","p":"I have a sister","a":["میری ایک بہن ہے","میری بہن ہے","merī ek bahan hai","merī bahan hai"],"hint":"میرا · ایک · بہن · ہونا","x":["میرا"],"why":"بہن is feminine, so the possessive agrees: میری."},
-      {"t":"type","p":"Do you have a car?","a":["کیا آپ کے پاس گاڑی ہے","آپ کے پاس گاڑی ہے","kyā āp ke pās gāṛī hai","āp ke pās gāṛī hai"],"hint":"کیا · آپ · کے پاس · گاڑی","x":["کا"],"why":"پاس needs the oblique کے before it: آپ کے پاس."},
-      {"t":"type","p":"I have a headache","a":["میرے سر میں درد ہے","مجھے سر میں درد ہے","مجھے سر درد ہے","mere sar mẽ dard hai","mujhe sar mẽ dard hai","mujhe sar dard hai"],"hint":"میرا · سر · میں · درد","x":["میرا"],"why":"Before the postposition میں, میرا becomes میرے: میرے سر میں."}
+      {"t":"fill","q":"کیا آپ کے __ ٹکٹ ہے؟","p":"Do you have a ticket?","a":["پاس","pās"],"o":["پر","میں","سے"],"why":"Things you have take کے پاس.","xr":["par","maĩ","se"]},
+      {"t":"fill","q":"میرا ایک __ ہے۔","p":"I have a brother.","a":["بھائی","bhāī"],"o":["بہن","بھائیوں","بہنیں"],"why":"میرا and ہے go with one brother: بھائی.","xr":["bahan","bhāiyõ","bahnẽ"]},
+      {"t":"fill","q":"میرے پاس دو کتابیں __۔","p":"I have two books.","a":["ہیں","haĩ"],"o":["ہے","ہوں","ہو"],"why":"The verb agrees with the things you have: two books, ہیں.","xr":["hai","hū̃","ho"]},
+      {"t":"type","p":"I have a sister","a":["میری ایک بہن ہے","میری بہن ہے","merī ek bahan hai","merī bahan hai"],"hint":"میرا · ایک · بہن · ہونا","x":["میرا"],"why":"بہن is feminine, so the possessive agrees: میری.","xr":["merā"]},
+      {"t":"type","p":"Do you have a car?","a":["کیا آپ کے پاس گاڑی ہے","آپ کے پاس گاڑی ہے","kyā āp ke pās gāṛī hai","āp ke pās gāṛī hai"],"hint":"کیا · آپ · کے پاس · گاڑی","x":["کا"],"why":"پاس needs the oblique کے before it: آپ کے پاس.","xr":["kā"]},
+      {"t":"type","p":"I have a headache","a":["میرے سر میں درد ہے","مجھے سر میں درد ہے","مجھے سر درد ہے","mere sar mẽ dard hai","mujhe sar mẽ dard hai","mujhe sar dard hai"],"hint":"میرا · سر · میں · درد","x":["میرا"],"why":"Before the postposition میں, میرا becomes میرے: میرے سر میں.","xr":["merā"]}
     ],
     "compare": [
       {"t":"mc","q":"bigger than that","o":["اُس سے بڑا","اُس بڑا","سے اُس بڑا","اُس کا بڑا"],"why":"سے comes right after the thing compared: اُس سے بڑا."},
@@ -948,12 +948,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"the biggest room","a":["سب","سے","بڑا","کمرہ"],"x":["بڑی"],"why":"کمرہ is masculine, so the adjective agrees: بڑا."},
       {"t":"order","p":"the cheapest car","a":["سب","سے","سستی","گاڑی"],"x":["سستا"],"why":"گاڑی is feminine, so the adjective agrees: سستی."},
       {"t":"order","p":"taller than me (said of a woman)","a":["مجھ","سے","لمبی"],"x":["میں"],"why":"Before the postposition سے, میں takes the oblique مجھ: مجھ سے."},
-      {"t":"fill","q":"یہ اُس __ بڑا ہے۔","p":"This is bigger than that.","a":["سے","se"],"o":["کا","کو","میں"],"why":"سے after the thing compared means \"than\"."},
-      {"t":"fill","q":"یہ __ سے اچھا کمرہ ہے۔","p":"This is the best room.","a":["سب","sab"],"o":["بہت","زیادہ","کم"],"why":"سب سے (\"than all\") makes \"the best\"."},
-      {"t":"fill","q":"میرا بھائی مجھ سے __ ہے۔","p":"My brother is older than me.","a":["بڑا","baṛā"],"o":["بڑی","بڑے","زیادہ"],"why":"For siblings بڑا means older; it agrees with بھائی."},
-      {"t":"type","p":"This book is better than that one","a":["یہ کتاب اُس سے اچھی ہے","یہ کتاب اُس کتاب سے اچھی ہے","یہ کتاب اُس سے بہتر ہے","یہ کتاب اُس کتاب سے بہتر ہے","yeh kitāb us se acchhī hai","yeh kitāb us kitāb se acchhī hai","yeh kitāb us se behtar hai","yeh kitāb us kitāb se behtar hai"],"hint":"یہ · کتاب · اُس · سے · اچھا","x":["اچھا"],"why":"اچھی agrees with کتاب, which is feminine."},
-      {"t":"type","p":"Karachi is the biggest city","a":["کراچی سب سے بڑا شہر ہے","karāchī sab se baṛā shahar hai"],"hint":"کراچی · سب سے · بڑا · شہر","x":["بڑی"],"why":"بڑا agrees with شہر, which is masculine."},
-      {"t":"type","p":"My sister is taller than me","a":["میری بہن مجھ سے لمبی ہے","مجھ سے میری بہن لمبی ہے","merī bahan mujh se lambī hai","mujh se merī bahan lambī hai"],"hint":"میرا · بہن · میں · سے · لمبا","x":["لمبا"],"why":"لمبی agrees with بہن, which is feminine."}
+      {"t":"fill","q":"یہ اُس __ بڑا ہے۔","p":"This is bigger than that.","a":["سے","se"],"o":["کا","کو","میں"],"why":"سے after the thing compared means \"than\".","xr":["kā","ko","maĩ"]},
+      {"t":"fill","q":"یہ __ سے اچھا کمرہ ہے۔","p":"This is the best room.","a":["سب","sab"],"o":["بہت","زیادہ","کم"],"why":"سب سے (\"than all\") makes \"the best\".","xr":["bahut","zyādā","kam"]},
+      {"t":"fill","q":"میرا بھائی مجھ سے __ ہے۔","p":"My brother is older than me.","a":["بڑا","baṛā"],"o":["بڑی","بڑے","زیادہ"],"why":"For siblings بڑا means older; it agrees with بھائی.","xr":["baṛī","baṛe","zyādā"]},
+      {"t":"type","p":"This book is better than that one","a":["یہ کتاب اُس سے اچھی ہے","یہ کتاب اُس کتاب سے اچھی ہے","یہ کتاب اُس سے بہتر ہے","یہ کتاب اُس کتاب سے بہتر ہے","yeh kitāb us se acchhī hai","yeh kitāb us kitāb se acchhī hai","yeh kitāb us se behtar hai","yeh kitāb us kitāb se behtar hai"],"hint":"یہ · کتاب · اُس · سے · اچھا","x":["اچھا"],"why":"اچھی agrees with کتاب, which is feminine.","xr":["acchhā"]},
+      {"t":"type","p":"Karachi is the biggest city","a":["کراچی سب سے بڑا شہر ہے","karāchī sab se baṛā shahar hai"],"hint":"کراچی · سب سے · بڑا · شہر","x":["بڑی"],"why":"بڑا agrees with شہر, which is masculine.","xr":["baṛī"]},
+      {"t":"type","p":"My sister is taller than me","a":["میری بہن مجھ سے لمبی ہے","مجھ سے میری بہن لمبی ہے","merī bahan mujh se lambī hai","mujh se merī bahan lambī hai"],"hint":"میرا · بہن · میں · سے · لمبا","x":["لمبا"],"why":"لمبی agrees with بہن, which is feminine.","xr":["lambā"]}
     ],
     "habitual": [
       {"t":"mc","q":"I drink tea. (a woman speaking)","o":["میں چائے پیتی ہوں","میں چائے پیتا ہوں","میں چائے پیتی ہے","میں چائے پینا ہوں"],"why":"A woman speaking uses تی, and میں takes ہوں."},
@@ -964,12 +964,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"She speaks Urdu","a":["وہ","اردو","بولتی","ہے"],"x":["بولتا"],"why":"The verb agrees with a woman: بولتی ہے."},
       {"t":"order","p":"They live in Karachi (a family)","a":["وہ","کراچی","میں","رہتے","ہیں"],"x":["ہے"],"why":"A plural subject takes the plural: رہتے ہیں."},
       {"t":"order","p":"My father reads the newspaper","a":["میرے","ابو","اخبار","پڑھتے","ہیں"],"x":["پڑھتا"],"why":"A father takes the respect plural: پڑھتے ہیں."},
-      {"t":"fill","q":"میں روز چائے __ ہوں۔","p":"I drink tea every day. (a man speaking)","a":["پیتا","pītā"],"o":["پیتی","پیتے","پینا"],"why":"A man speaking uses تا: پیتا ہوں."},
-      {"t":"fill","q":"تم کہاں رہتے __؟","p":"Where do you live? (to a male friend)","a":["ہو","ho"],"o":["ہیں","ہے","ہوں"],"why":"تم always takes ہو."},
-      {"t":"fill","q":"کیا آپ اردو __ ہیں؟","p":"Do you speak Urdu? (to a woman)","a":["بولتی","boltī"],"o":["بولتا","بولتے","بولنا"],"why":"To a woman the verb takes تی: بولتی ہیں."},
-      {"t":"type","p":"I live in Chicago (a woman speaking)","a":["میں شکاگو میں رہتی ہوں","شکاگو مِیں رہتی ہوں","maĩ shikāgo mẽ rahtī hū̃","shikāgo mẽ rahtī hū̃"],"hint":"میں · شکاگو · میں · رہنا","x":["رہتا"],"why":"The verb agrees with a woman speaking: رہتی ہوں."},
-      {"t":"type","p":"We often eat biryani (a family)","a":["ہم اکثر بریانی کھاتے ہیں","ہم بریانی اکثر کھاتے ہیں","اکثر ہم بریانی کھاتے ہیں","ham aksar biryānī khāte haĩ","ham biryānī aksar khāte haĩ","aksar ham biryānī khāte haĩ"],"hint":"ہم · اکثر · بریانی · کھانا","x":["کھاتا"],"why":"ہم is plural, so the verb agrees: کھاتے ہیں."},
-      {"t":"type","p":"Do you drink tea? (to a man)","a":["کیا آپ چائے پیتے ہیں","آپ چائے پیتے ہیں","kyā āp chāe pīte haĩ","āp chāe pīte haĩ"],"hint":"کیا · آپ · چائے · پینا","x":["پیتا"],"why":"آپ takes the plural: پیتے ہیں."}
+      {"t":"fill","q":"میں روز چائے __ ہوں۔","p":"I drink tea every day. (a man speaking)","a":["پیتا","pītā"],"o":["پیتی","پیتے","پینا"],"why":"A man speaking uses تا: پیتا ہوں.","xr":["pītī","pīte","pīnā"]},
+      {"t":"fill","q":"تم کہاں رہتے __؟","p":"Where do you live? (to a male friend)","a":["ہو","ho"],"o":["ہیں","ہے","ہوں"],"why":"تم always takes ہو.","xr":["haĩ","hai","hū̃"]},
+      {"t":"fill","q":"کیا آپ اردو __ ہیں؟","p":"Do you speak Urdu? (to a woman)","a":["بولتی","boltī"],"o":["بولتا","بولتے","بولنا"],"why":"To a woman the verb takes تی: بولتی ہیں.","xr":["boltā","bolte","bolnā"]},
+      {"t":"type","p":"I live in Chicago (a woman speaking)","a":["میں شکاگو میں رہتی ہوں","شکاگو مِیں رہتی ہوں","maĩ shikāgo mẽ rahtī hū̃","shikāgo mẽ rahtī hū̃"],"hint":"میں · شکاگو · میں · رہنا","x":["رہتا"],"why":"The verb agrees with a woman speaking: رہتی ہوں.","xr":["rahtā"]},
+      {"t":"type","p":"We often eat biryani (a family)","a":["ہم اکثر بریانی کھاتے ہیں","ہم بریانی اکثر کھاتے ہیں","اکثر ہم بریانی کھاتے ہیں","ham aksar biryānī khāte haĩ","ham biryānī aksar khāte haĩ","aksar ham biryānī khāte haĩ"],"hint":"ہم · اکثر · بریانی · کھانا","x":["کھاتا"],"why":"ہم is plural, so the verb agrees: کھاتے ہیں.","xr":["khātā"]},
+      {"t":"type","p":"Do you drink tea? (to a man)","a":["کیا آپ چائے پیتے ہیں","آپ چائے پیتے ہیں","kyā āp chāe pīte haĩ","āp chāe pīte haĩ"],"hint":"کیا · آپ · چائے · پینا","x":["پیتا"],"why":"آپ takes the plural: پیتے ہیں.","xr":["pītā"]}
     ],
     "time": [
       {"t":"mc","q":"3:30","o":["ساڑھے تین","تین اور آدھا","ڈھائی","سوا تین"],"why":"ساڑھے before the hour means half past."},
@@ -980,12 +980,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"It's five o'clock","a":["پانچ","بجے","ہیں"],"x":["بجا","ہے"],"why":"From two on the hour is plural, and the verb agrees: بجے ہیں."},
       {"t":"order","p":"It's one o'clock","a":["ایک","بجا","ہے"],"x":["بجے","ہیں"],"why":"One o'clock is singular, and the verb agrees: بجا ہے."},
       {"t":"order","p":"at a quarter past six","a":["سوا","چھ","بجے"],"x":["ساڑھے"],"why":"سوا adds a quarter: سوا چھ بجے is 6:15."},
-      {"t":"fill","q":"__ تین بجے","p":"at half past three","a":["ساڑھے","sāṛhe"],"o":["سوا","پونے","ڈھائی"],"why":"ساڑھے before the hour means half past."},
-      {"t":"fill","q":"دو __ ہیں۔","p":"It's two o'clock.","a":["بجے","baje"],"o":["بجا","بج","بجی"],"why":"From two on the hour is plural: بجے ہیں."},
-      {"t":"fill","q":"کلاس __ بجے ہے؟","p":"What time is the class?","a":["کتنے","kitne"],"o":["کتنا","کتنی","کیا"],"why":"کتنے agrees with the plural بجے."},
-      {"t":"type","p":"It's seven o'clock","a":["سات بجے ہیں","sāt baje haĩ"],"hint":"سات · بجنا","x":["بجا"],"why":"More than one o'clock is plural: بجے with ہیں."},
-      {"t":"type","p":"What time is it?","a":["کتنے بجے ہیں","کیا بجا ہے","ٹائم کیا ہوا ہے","kitne baje haĩ","kyā bajā hai","ṭāim kyā huā hai"],"hint":"کتنا · بجنا · ہونا","x":["کتنا"],"why":"کتنے agrees with the plural بجے, and the verb is ہیں."},
-      {"t":"type","p":"I get up at six in the morning (a man speaking)","a":["میں صبح چھ بجے اٹھتا ہوں","صبح چھ بجے اٹھتا ہوں","میں صبح کے چھ بجے اٹھتا ہوں","صبح کے چھ بجے اٹھتا ہوں","maĩ subah chhe baje uṭhtā hū̃","subah chhe baje uṭhtā hū̃","maĩ subah ke chhe baje uṭhtā hū̃","subah ke chhe baje uṭhtā hū̃"],"hint":"میں · صبح · چھ · بجے · اٹھنا","x":["اٹھتی"],"why":"The verb agrees with a man speaking: اٹھتا ہوں."}
+      {"t":"fill","q":"__ تین بجے","p":"at half past three","a":["ساڑھے","sāṛhe"],"o":["سوا","پونے","ڈھائی"],"why":"ساڑھے before the hour means half past.","xr":["savā","paune","ḍhāī"]},
+      {"t":"fill","q":"دو __ ہیں۔","p":"It's two o'clock.","a":["بجے","baje"],"o":["بجا","بج","بجی"],"why":"From two on the hour is plural: بجے ہیں.","xr":["bajā","baj","bajī"]},
+      {"t":"fill","q":"کلاس __ بجے ہے؟","p":"What time is the class?","a":["کتنے","kitne"],"o":["کتنا","کتنی","کیا"],"why":"کتنے agrees with the plural بجے.","xr":["kitnā","kitnī","kyā"]},
+      {"t":"type","p":"It's seven o'clock","a":["سات بجے ہیں","sāt baje haĩ"],"hint":"سات · بجنا","x":["بجا"],"why":"More than one o'clock is plural: بجے with ہیں.","xr":["bajā"]},
+      {"t":"type","p":"What time is it?","a":["کتنے بجے ہیں","کیا بجا ہے","ٹائم کیا ہوا ہے","kitne baje haĩ","kyā bajā hai","ṭāim kyā huā hai"],"hint":"کتنا · بجنا · ہونا","x":["کتنا"],"why":"کتنے agrees with the plural بجے, and the verb is ہیں.","xr":["kitnā"]},
+      {"t":"type","p":"I get up at six in the morning (a man speaking)","a":["میں صبح چھ بجے اٹھتا ہوں","صبح چھ بجے اٹھتا ہوں","میں صبح کے چھ بجے اٹھتا ہوں","صبح کے چھ بجے اٹھتا ہوں","maĩ subah chhe baje uṭhtā hū̃","subah chhe baje uṭhtā hū̃","maĩ subah ke chhe baje uṭhtā hū̃","subah ke chhe baje uṭhtā hū̃"],"hint":"میں · صبح · چھ · بجے · اٹھنا","x":["اٹھتی"],"why":"The verb agrees with a man speaking: اٹھتا ہوں.","xr":["uṭhtī"]}
     ],
     "continuous": [
       {"t":"mc","q":"'I'm working right now' (a man speaking) =","o":["میں ابھی کام کر رہا ہوں","میں ابھی کام کرتا ہوں","میں ابھی کام کر رہی ہوں","میں ابھی کام رہا کر ہوں"],"why":"Right now: stem کر + رہا, and a man speaking uses رہا."},
@@ -996,12 +996,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"The children are playing","a":["بچے","کھیل","رہے","ہیں"],"x":["رہا"],"why":"بچے is plural, so رہا must agree in the plural: رہے ہیں."},
       {"t":"order","p":"I'm drinking tea (a woman speaking)","a":["میں","چائے","پی","رہی","ہوں"],"x":["رہا"],"why":"A woman speaking: رہا takes the feminine ending رہی."},
       {"t":"order","p":"Mom is sleeping (respectfully)","a":["امی","سو","رہی","ہیں"],"x":["ہے"],"why":"A respected person takes the plural ہیں, and رہی stays feminine."},
-      {"t":"fill","q":"علی ٹی وی دیکھ __ ہے۔","p":"Ali is watching TV.","a":["رہا","rahā"],"o":["رہی","رہے","دیکھتا"],"why":"علی is one man, so رہا keeps its masculine -ā ending."},
-      {"t":"fill","q":"ہم کھانا کھا رہے __۔","p":"We are eating.","a":["ہیں","haĩ"],"o":["ہے","ہوں","ہو"],"why":"ہم takes ہیں: ہم کھا رہے ہیں."},
-      {"t":"fill","q":"آپ کیا کر رہی __؟","p":"What are you doing? (to a woman)","a":["ہیں","haĩ"],"o":["ہے","ہوں","تھا"],"why":"آپ takes ہیں even for one person."},
-      {"t":"type","p":"I'm reading a book right now (a man speaking)","a":["میں ابھی کتاب پڑھ رہا ہوں","ابھی میں کتاب پڑھ رہا ہوں","ابھی کتاب پڑھ رہا ہوں","میں کتاب پڑھ رہا ہوں","maĩ abhī kitāb paṛh rahā hū̃","abhī maĩ kitāb paṛh rahā hū̃","abhī kitāb paṛh rahā hū̃","maĩ kitāb paṛh rahā hū̃"],"hint":"میں · ابھی · کتاب · پڑھنا · رہا","x":["رہی"],"why":"A man speaking: رہا agrees with him, so رہا ہوں, not رہی ہوں."},
-      {"t":"type","p":"The girls are playing","a":["لڑکیاں کھیل رہی ہیں","laṛkiyā̃ khel rahī haĩ"],"hint":"لڑکیاں · کھیلنا · رہا","x":["رہے","ہے"],"why":"لڑکیاں is feminine plural: رہی with ہیں."},
-      {"t":"type","p":"What are you doing? (to a man)","a":["آپ کیا کر رہے ہیں","āp kyā kar rahe haĩ"],"hint":"آپ · کیا · کرنا · رہا","x":["رہا","ہے"],"why":"آپ takes the plural: رہے ہیں, even for one man."}
+      {"t":"fill","q":"علی ٹی وی دیکھ __ ہے۔","p":"Ali is watching TV.","a":["رہا","rahā"],"o":["رہی","رہے","دیکھتا"],"why":"علی is one man, so رہا keeps its masculine -ā ending.","xr":["rahī","rahe","dekhtā"]},
+      {"t":"fill","q":"ہم کھانا کھا رہے __۔","p":"We are eating.","a":["ہیں","haĩ"],"o":["ہے","ہوں","ہو"],"why":"ہم takes ہیں: ہم کھا رہے ہیں.","xr":["hai","hū̃","ho"]},
+      {"t":"fill","q":"آپ کیا کر رہی __؟","p":"What are you doing? (to a woman)","a":["ہیں","haĩ"],"o":["ہے","ہوں","تھا"],"why":"آپ takes ہیں even for one person.","xr":["hai","hū̃","thā"]},
+      {"t":"type","p":"I'm reading a book right now (a man speaking)","a":["میں ابھی کتاب پڑھ رہا ہوں","ابھی میں کتاب پڑھ رہا ہوں","ابھی کتاب پڑھ رہا ہوں","میں کتاب پڑھ رہا ہوں","maĩ abhī kitāb paṛh rahā hū̃","abhī maĩ kitāb paṛh rahā hū̃","abhī kitāb paṛh rahā hū̃","maĩ kitāb paṛh rahā hū̃"],"hint":"میں · ابھی · کتاب · پڑھنا · رہا","x":["رہی"],"why":"A man speaking: رہا agrees with him, so رہا ہوں, not رہی ہوں.","xr":["rahī"]},
+      {"t":"type","p":"The girls are playing","a":["لڑکیاں کھیل رہی ہیں","laṛkiyā̃ khel rahī haĩ"],"hint":"لڑکیاں · کھیلنا · رہا","x":["رہے","ہے"],"why":"لڑکیاں is feminine plural: رہی with ہیں.","xr":["rahe","hai"]},
+      {"t":"type","p":"What are you doing? (to a man)","a":["آپ کیا کر رہے ہیں","āp kyā kar rahe haĩ"],"hint":"آپ · کیا · کرنا · رہا","x":["رہا","ہے"],"why":"آپ takes the plural: رہے ہیں, even for one man.","xr":["rahā","hai"]}
     ],
     "like-need": [
       {"t":"mc","q":"'I need water' =","o":["مجھے پانی چاہیے","میں پانی چاہیے","میرا پانی چاہیے","میں کو پانی چاہیے"],"why":"With چاہیے the person takes the کو form: مجھے."},
@@ -1012,12 +1012,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"I like samosas","a":["مجھے","سموسے","پسند","ہیں"],"x":["ہے","میں"],"why":"سموسے is plural, so the verb agrees with it: ہیں; the person takes مجھے, not میں."},
       {"t":"order","p":"Ali needs a new phone","a":["علی","کو","نیا","فون","چاہیے"],"x":["نئی"],"why":"فون is masculine, so new is نیا."},
       {"t":"order","p":"Do you know English? (politely)","a":["کیا","آپ","کو","انگریزی","آتی","ہے"],"x":["آتا"],"why":"انگریزی is feminine, so the verb agrees with it: آتی."},
-      {"t":"fill","q":"مجھے یہ قمیض پسند __۔","p":"I like this shirt.","a":["ہے","hai"],"o":["ہیں","ہوں","ہو"],"why":"One shirt, so ہے: the verb agrees with the shirt, not with me."},
-      {"t":"fill","q":"__ پیاس لگی ہے۔","p":"I'm thirsty.","a":["مجھے","مجھ کو","mujhe","mujh ko"],"o":["میں","میرا","میری"],"why":"The person who feels thirst takes the کو form: مجھے."},
-      {"t":"fill","q":"مجھے بھوک __ ہے۔","p":"I'm hungry.","a":["لگی","lagī"],"o":["لگا","لگے","لگ"],"why":"بھوک is feminine, so the verb ends in -ی: لگی."},
-      {"t":"type","p":"I like tea","a":["مجھے چائے پسند ہے","مجھ کو چائے پسند ہے","mujhe chāe pasand hai","mujh ko chāe pasand hai"],"hint":"میں → ? · چائے · پسند","x":["میں"],"why":"The person who likes takes the oblique form with کو: مجھے, not میں."},
-      {"t":"type","p":"Sarah needs a ticket","a":["سارہ کو ٹکٹ چاہیے","سارہ کو ایک ٹکٹ چاہیے","sārā ko ṭikaṭ chāhie","sārā ko ek ṭikaṭ chāhie"],"hint":"سارہ · ٹکٹ · چاہیے","x":["کا"],"why":"With چاہیے the person takes the postposition کو: سارہ کو."},
-      {"t":"type","p":"I'm cold","a":["مجھے سردی لگ رہی ہے","مجھ کو سردی لگ رہی ہے","mujhe sardī lag rahī hai","mujh ko sardī lag rahī hai"],"hint":"مجھے · سردی · لگنا","x":["ٹھنڈا","رہا"],"why":"سردی is feminine, so لگ رہی agrees with it."}
+      {"t":"fill","q":"مجھے یہ قمیض پسند __۔","p":"I like this shirt.","a":["ہے","hai"],"o":["ہیں","ہوں","ہو"],"why":"One shirt, so ہے: the verb agrees with the shirt, not with me.","xr":["haĩ","hū̃","ho"]},
+      {"t":"fill","q":"__ پیاس لگی ہے۔","p":"I'm thirsty.","a":["مجھے","مجھ کو","mujhe","mujh ko"],"o":["میں","میرا","میری"],"why":"The person who feels thirst takes the کو form: مجھے.","xr":["maĩ","merā","merī"]},
+      {"t":"fill","q":"مجھے بھوک __ ہے۔","p":"I'm hungry.","a":["لگی","lagī"],"o":["لگا","لگے","لگ"],"why":"بھوک is feminine, so the verb ends in -ی: لگی.","xr":["lagā","lage","lag"]},
+      {"t":"type","p":"I like tea","a":["مجھے چائے پسند ہے","مجھ کو چائے پسند ہے","mujhe chāe pasand hai","mujh ko chāe pasand hai"],"hint":"میں → ? · چائے · پسند","x":["میں"],"why":"The person who likes takes the oblique form with کو: مجھے, not میں.","xr":["maĩ"]},
+      {"t":"type","p":"Sarah needs a ticket","a":["سارہ کو ٹکٹ چاہیے","سارہ کو ایک ٹکٹ چاہیے","sārā ko ṭikaṭ chāhie","sārā ko ek ṭikaṭ chāhie"],"hint":"سارہ · ٹکٹ · چاہیے","x":["کا"],"why":"With چاہیے the person takes the postposition کو: سارہ کو.","xr":["kā"]},
+      {"t":"type","p":"I'm cold","a":["مجھے سردی لگ رہی ہے","مجھ کو سردی لگ رہی ہے","mujhe sardī lag rahī hai","mujh ko sardī lag rahī hai"],"hint":"مجھے · سردی · لگنا","x":["ٹھنڈا","رہا"],"why":"سردی is feminine, so لگ رہی agrees with it.","xr":["ṭhaṇḍā","rahā"]}
     ],
     "food-prices": [
       {"t":"mc","q":"'Three samosas' =","o":["تین سموسے","تین سموسہ","تین سموسوں","تین سموسیں"],"why":"سموسہ is masculine in -ā: more than one is سموسے."},
@@ -1028,12 +1028,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Three samosas, please","a":["تین","سموسے","دیجیے"],"x":["سموسہ"],"why":"سموسہ is masculine in -ā, so its plural is سموسے."},
       {"t":"order","p":"How much is the biryani?","a":["بریانی","کتنے","کی","ہے"],"x":["کا"],"why":"بریانی is feminine, so کا agrees with it: کتنے کی."},
       {"t":"order","p":"Bring the bill, please (politely)","a":["بل","لے","آئیے"],"x":["لاؤ"],"why":"لے آئیے is the polite request; لاؤ is for friends."},
-      {"t":"fill","q":"یہ چائے کتنے __ ہے؟","p":"How much is this tea?","a":["کی","kī"],"o":["کا","کے","کو"],"why":"چائے is feminine, so کتنے کی."},
-      {"t":"fill","q":"دو __ دیجیے۔","p":"Two parathas, please.","a":["پراٹھے","parāṭhe"],"o":["پراٹھا","پراٹھوں","پراٹھی"],"why":"پراٹھا is masculine in -ā: more than one is پراٹھے."},
-      {"t":"fill","q":"یہ کباب بہت __ ہے۔","p":"This kebab is very expensive.","a":["مہنگا","mahãgā"],"o":["مہنگی","مہنگے","مہنگیں"],"why":"One masculine کباب: مہنگا."},
-      {"t":"type","p":"Two samosas, please","a":["دو سموسے دیجیے","دو سموسے دیں","دو سموسے دے دیں","دو سموسے دے دیجیے","do samose dījie","do samose dẽ","do samose de dẽ","do samose de dījie"],"hint":"دو · سموسہ · دینا (polite)","x":["سموسہ"],"why":"سموسہ is masculine in -ā, so after دو the plural is سموسے."},
-      {"t":"type","p":"How much is this lassi?","a":["یہ لسی کتنے کی ہے","yeh lassī kitne kī hai"],"hint":"یہ · لسی · کتنا · کا","x":["کا"],"why":"لسی is feminine, so کا agrees with it: کتنے کی."},
-      {"t":"type","p":"Not too spicy, please (politely)","a":["مرچ کم ڈالیے","مرچ کم ڈالیں","ذرا مرچ کم ڈالیے","ذرا مرچ کم ڈالیں","mirch kam ḍālie","mirch kam ḍālẽ","zarā mirch kam ḍālie","zarā mirch kam ḍālẽ"],"hint":"مرچ · کم · ڈالنا (polite)","x":["ڈالو"],"why":"A polite request: ڈالیے or ڈالیں; ڈالو is for friends."}
+      {"t":"fill","q":"یہ چائے کتنے __ ہے؟","p":"How much is this tea?","a":["کی","kī"],"o":["کا","کے","کو"],"why":"چائے is feminine, so کتنے کی.","xr":["kā","ke","ko"]},
+      {"t":"fill","q":"دو __ دیجیے۔","p":"Two parathas, please.","a":["پراٹھے","parāṭhe"],"o":["پراٹھا","پراٹھوں","پراٹھی"],"why":"پراٹھا is masculine in -ā: more than one is پراٹھے.","xr":["parāṭhā","parāṭhõ"]},
+      {"t":"fill","q":"یہ کباب بہت __ ہے۔","p":"This kebab is very expensive.","a":["مہنگا","mahãgā"],"o":["مہنگی","مہنگے","مہنگیں"],"why":"One masculine کباب: مہنگا.","xr":["mahãgī","mahãge"]},
+      {"t":"type","p":"Two samosas, please","a":["دو سموسے دیجیے","دو سموسے دیں","دو سموسے دے دیں","دو سموسے دے دیجیے","do samose dījie","do samose dẽ","do samose de dẽ","do samose de dījie"],"hint":"دو · سموسہ · دینا (polite)","x":["سموسہ"],"why":"سموسہ is masculine in -ā, so after دو the plural is سموسے.","xr":["samosā"]},
+      {"t":"type","p":"How much is this lassi?","a":["یہ لسی کتنے کی ہے","yeh lassī kitne kī hai"],"hint":"یہ · لسی · کتنا · کا","x":["کا"],"why":"لسی is feminine, so کا agrees with it: کتنے کی.","xr":["kā"]},
+      {"t":"type","p":"Not too spicy, please (politely)","a":["مرچ کم ڈالیے","مرچ کم ڈالیں","ذرا مرچ کم ڈالیے","ذرا مرچ کم ڈالیں","mirch kam ḍālie","mirch kam ḍālẽ","zarā mirch kam ḍālie","zarā mirch kam ḍālẽ"],"hint":"مرچ · کم · ڈالنا (polite)","x":["ڈالو"],"why":"A polite request: ڈالیے or ڈالیں; ڈالو is for friends.","xr":["ḍālo"]}
     ],
     "directions": [
       {"t":"mc","q":"'Turn right' (politely) =","o":["دائیں مڑیے","بائیں مڑیے","دائیں مڑو","سیدھے جائیے"],"why":"دائیں is right, and مڑیے is the polite form; مڑو is for friends."},
@@ -1044,12 +1044,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"The hospital is across from the mosque (start with ہسپتال)","a":["ہسپتال","مسجد","کے","سامنے","ہے"],"x":["کی"],"why":"The postposition کے سامنے comes after the noun: مسجد کے سامنے."},
       {"t":"order","p":"in front of the door","a":["دروازے","کے","سامنے"],"x":["دروازہ"],"why":"Before the postposition کے سامنے, دروازہ takes its oblique form دروازے."},
       {"t":"order","p":"We go by rickshaw (start with ہم)","a":["ہم","رکشے","میں","جاتے","ہیں"],"x":["رکشہ"],"why":"Before the postposition میں, رکشہ takes its oblique form رکشے."},
-      {"t":"fill","q":"اسٹیشن کے __ ہے۔","p":"It's near the station.","a":["پاس","قریب","pās","qarīb"],"o":["پیچھے","سامنے","کو"],"why":"Near is کے پاس (or کے قریب); کے پیچھے is behind and کے سامنے is opposite."},
-      {"t":"fill","q":"سیدھے جائیے، پھر __ مڑیے۔","p":"Go straight, then turn left.","a":["بائیں","bāẽ"],"o":["دائیں","سیدھا","پیچھے"],"why":"Left is بائیں; right is دائیں."},
-      {"t":"fill","q":"اسٹیشن __ دور ہے؟","p":"How far is the station?","a":["کتنی","kitnī"],"o":["کہاں","کون","کیا"],"why":"How far is کتنی دور, a fixed phrase."},
-      {"t":"type","p":"The hotel is near the station (start with ہوٹل)","a":["ہوٹل اسٹیشن کے پاس ہے","hoṭal isṭeshan ke pās hai"],"hint":"ہوٹل · اسٹیشن · کے پاس","x":["کی"],"why":"The postposition کے پاس comes after the noun: اسٹیشن کے پاس."},
-      {"t":"type","p":"Stop in front of the door, please (to a driver)","a":["دروازے کے سامنے رکیے","دروازے کے سامنے رکیں","بھائی، دروازے کے سامنے رکیے","بھائی، دروازے کے سامنے رکیں","darvāze ke sāmne rukie","darvāze ke sāmne rukẽ","bhāī, darvāze ke sāmne rukie","bhāī, darvāze ke sāmne rukẽ"],"hint":"دروازہ · کے سامنے · رکنا (polite)","x":["دروازہ"],"why":"Before کے سامنے, دروازہ takes its oblique form دروازے."},
-      {"t":"type","p":"Go this way, please","a":["اِس راستے سے جائیے","اِس راستے سے جائیں","is rāste se jāie","is rāste se jāẽ"],"hint":"اِس · راستہ · سے · جانا (polite)","x":["راستہ"],"why":"Before the postposition سے, راستہ takes its oblique form راستے."}
+      {"t":"fill","q":"اسٹیشن کے __ ہے۔","p":"It's near the station.","a":["پاس","قریب","pās","qarīb"],"o":["پیچھے","سامنے","کو"],"why":"Near is کے پاس (or کے قریب); کے پیچھے is behind and کے سامنے is opposite.","xr":["pīchhe","sāmne","ko"]},
+      {"t":"fill","q":"سیدھے جائیے، پھر __ مڑیے۔","p":"Go straight, then turn left.","a":["بائیں","bāẽ"],"o":["دائیں","سیدھا","پیچھے"],"why":"Left is بائیں; right is دائیں.","xr":["dāẽ","sīdhā","pīchhe"]},
+      {"t":"fill","q":"اسٹیشن __ دور ہے؟","p":"How far is the station?","a":["کتنی","kitnī"],"o":["کہاں","کون","کیا"],"why":"How far is کتنی دور, a fixed phrase.","xr":["kahā̃","kaun","kyā"]},
+      {"t":"type","p":"The hotel is near the station (start with ہوٹل)","a":["ہوٹل اسٹیشن کے پاس ہے","hoṭal isṭeshan ke pās hai"],"hint":"ہوٹل · اسٹیشن · کے پاس","x":["کی"],"why":"The postposition کے پاس comes after the noun: اسٹیشن کے پاس.","xr":["kī"]},
+      {"t":"type","p":"Stop in front of the door, please (to a driver)","a":["دروازے کے سامنے رکیے","دروازے کے سامنے رکیں","بھائی، دروازے کے سامنے رکیے","بھائی، دروازے کے سامنے رکیں","darvāze ke sāmne rukie","darvāze ke sāmne rukẽ","bhāī, darvāze ke sāmne rukie","bhāī, darvāze ke sāmne rukẽ"],"hint":"دروازہ · کے سامنے · رکنا (polite)","x":["دروازہ"],"why":"Before کے سامنے, دروازہ takes its oblique form دروازے.","xr":["darvāzā"]},
+      {"t":"type","p":"Go this way, please","a":["اِس راستے سے جائیے","اِس راستے سے جائیں","is rāste se jāie","is rāste se jāẽ"],"hint":"اِس · راستہ · سے · جانا (polite)","x":["راستہ"],"why":"Before the postposition سے, راستہ takes its oblique form راستے.","xr":["rāstā"]}
     ],
     "tha": [
       {"t":"mc","q":"'I was sick' (a woman speaking) =","o":["میں بیمار تھی","میں بیمار تھا","میں بیمار تھیں","میں بیمار ہوں"],"why":"A woman speaking about herself: تھی."},
@@ -1060,12 +1060,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Sarah was in Lahore (start with سارہ)","a":["سارہ","لاہور","میں","تھی"],"x":["تھا"],"why":"سارہ is a woman, so the verb is feminine: تھی."},
       {"t":"order","p":"My grandfather was a doctor","a":["میرے","دادا","ڈاکٹر","تھے"],"x":["تھا","میرا"],"why":"A respected grandfather takes the plural: میرے and تھے."},
       {"t":"order","p":"I used to drink tea (a woman speaking)","a":["میں","چائے","پیتی","تھی"],"x":["پیتا"],"why":"A woman speaking: both words take the feminine ending, پیتی تھی."},
-      {"t":"fill","q":"علی کل گھر پر __۔","p":"Ali was at home yesterday.","a":["تھا","thā"],"o":["تھی","تھے","تھیں"],"why":"علی is one man: تھا."},
-      {"t":"fill","q":"لڑکیاں باہر کھیل رہی __۔","p":"The girls were playing outside.","a":["تھیں","thī̃"],"o":["تھی","تھے","تھا"],"why":"Several girls: the feminine plural تھیں."},
-      {"t":"fill","q":"میں پہلے کراچی میں رہتا __۔","p":"I used to live in Karachi. (a man speaking)","a":["تھا","thā"],"o":["تھی","ہوں","تھے"],"why":"Used to = habitual + تھا, masculine for a man."},
-      {"t":"type","p":"I was sick yesterday (a man speaking)","a":["کل میں بیمار تھا","میں کل بیمار تھا","کل بیمار تھا","kal maĩ bīmār thā","maĩ kal bīmār thā","kal bīmār thā"],"hint":"کل · میں · بیمار · تھا","x":["تھی"],"why":"A man speaking: تھا agrees with him."},
-      {"t":"type","p":"Mom was sick (respectfully)","a":["امی بیمار تھیں","ammī bīmār thī̃"],"hint":"امی · بیمار · تھا","x":["تھی","تھا"],"why":"A respected woman takes the feminine plural: تھیں."},
-      {"t":"type","p":"What were you doing? (to a man)","a":["آپ کیا کر رہے تھے","āp kyā kar rahe the"],"hint":"آپ · کیا · کرنا · رہا · تھا","x":["رہا","تھا"],"why":"آپ takes the plural: رہے تھے."}
+      {"t":"fill","q":"علی کل گھر پر __۔","p":"Ali was at home yesterday.","a":["تھا","thā"],"o":["تھی","تھے","تھیں"],"why":"علی is one man: تھا.","xr":["thī","the","thī̃"]},
+      {"t":"fill","q":"لڑکیاں باہر کھیل رہی __۔","p":"The girls were playing outside.","a":["تھیں","thī̃"],"o":["تھی","تھے","تھا"],"why":"Several girls: the feminine plural تھیں.","xr":["thī","the","thā"]},
+      {"t":"fill","q":"میں پہلے کراچی میں رہتا __۔","p":"I used to live in Karachi. (a man speaking)","a":["تھا","thā"],"o":["تھی","ہوں","تھے"],"why":"Used to = habitual + تھا, masculine for a man.","xr":["thī","hū̃","the"]},
+      {"t":"type","p":"I was sick yesterday (a man speaking)","a":["کل میں بیمار تھا","میں کل بیمار تھا","کل بیمار تھا","kal maĩ bīmār thā","maĩ kal bīmār thā","kal bīmār thā"],"hint":"کل · میں · بیمار · تھا","x":["تھی"],"why":"A man speaking: تھا agrees with him.","xr":["thī"]},
+      {"t":"type","p":"Mom was sick (respectfully)","a":["امی بیمار تھیں","ammī bīmār thī̃"],"hint":"امی · بیمار · تھا","x":["تھی","تھا"],"why":"A respected woman takes the feminine plural: تھیں.","xr":["thī","thā"]},
+      {"t":"type","p":"What were you doing? (to a man)","a":["آپ کیا کر رہے تھے","āp kyā kar rahe the"],"hint":"آپ · کیا · کرنا · رہا · تھا","x":["رہا","تھا"],"why":"آپ takes the plural: رہے تھے.","xr":["rahā","thā"]}
     ],
     "past": [
       {"t":"mc","q":"'She came' =","o":["وہ آئی","وہ آیا","وہ آئے","اُس نے آئی"],"why":"آنا takes no نے, and the -ی ending agrees with a woman."},
@@ -1076,12 +1076,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Sarah ate (use کھانا)","a":["سارہ","نے","کھانا","کھایا"],"x":["کھائی"],"why":"After نے the verb agrees with the object کھانا, which is masculine, not with Sarah."},
       {"t":"order","p":"He read the book (use اُس)","a":["اُس","نے","کتاب","پڑھی"],"x":["وہ","پڑھا"],"why":"Before نے, وہ becomes اُس, and پڑھی agrees with کتاب, which is feminine."},
       {"t":"order","p":"We took a rickshaw","a":["ہم","نے","رکشہ","لیا"],"x":["لی"],"why":"With نے the verb agrees with the object رکشہ, which is masculine: لیا."},
-      {"t":"fill","q":"سارہ کل __۔","p":"Sarah came yesterday.","a":["آئی","āī"],"o":["آیا","آئے","آ"],"why":"آنا takes no نے, so the verb agrees with Sarah: آئی."},
-      {"t":"fill","q":"میں نے دو سموسے __۔","p":"I ate two samosas.","a":["کھائے","khāe"],"o":["کھایا","کھائی","کھاتا"],"why":"With نے the verb agrees with the plural سموسے: کھائے."},
-      {"t":"fill","q":"__ نے چائے پی۔","p":"He drank tea.","a":["اُس","us"],"o":["وہ","اُسے","مجھے"],"why":"Before نے, وہ changes to اُس."},
-      {"t":"type","p":"I ate (use کھانا)","a":["میں نے کھانا کھایا","maĩ ne khānā khāyā"],"hint":"میں · نے · کھانا (food) · کھانا (eat)","x":["کھائی"],"why":"With نے the verb agrees with the object کھانا, which is masculine: کھایا."},
-      {"t":"type","p":"Sarah drank tea","a":["سارہ نے چائے پی","sārā ne chāe pī"],"hint":"سارہ · نے · چائے · پینا","x":["پیا"],"why":"With نے the verb agrees with چائے, which is feminine: پی."},
-      {"t":"type","p":"We went to Lahore yesterday","a":["ہم کل لاہور گئے","کل ہم لاہور گئے","ham kal lāhaur gae","kal ham lāhaur gae"],"hint":"ہم · کل · لاہور · جانا","x":["نے"],"why":"جانا has no object, so no نے, and گئے agrees with the plural ہم."}
+      {"t":"fill","q":"سارہ کل __۔","p":"Sarah came yesterday.","a":["آئی","āī"],"o":["آیا","آئے","آ"],"why":"آنا takes no نے, so the verb agrees with Sarah: آئی.","xr":["āyā","āe","alif madd"]},
+      {"t":"fill","q":"میں نے دو سموسے __۔","p":"I ate two samosas.","a":["کھائے","khāe"],"o":["کھایا","کھائی","کھاتا"],"why":"With نے the verb agrees with the plural سموسے: کھائے.","xr":["khāyā","khāī","khātā"]},
+      {"t":"fill","q":"__ نے چائے پی۔","p":"He drank tea.","a":["اُس","us"],"o":["وہ","اُسے","مجھے"],"why":"Before نے, وہ changes to اُس.","xr":["voh","use","mujhe"]},
+      {"t":"type","p":"I ate (use کھانا)","a":["میں نے کھانا کھایا","maĩ ne khānā khāyā"],"hint":"میں · نے · کھانا (food) · کھانا (eat)","x":["کھائی"],"why":"With نے the verb agrees with the object کھانا, which is masculine: کھایا.","xr":["khāī"]},
+      {"t":"type","p":"Sarah drank tea","a":["سارہ نے چائے پی","sārā ne chāe pī"],"hint":"سارہ · نے · چائے · پینا","x":["پیا"],"why":"With نے the verb agrees with چائے, which is feminine: پی.","xr":["piyā"]},
+      {"t":"type","p":"We went to Lahore yesterday","a":["ہم کل لاہور گئے","کل ہم لاہور گئے","ham kal lāhaur gae","kal ham lāhaur gae"],"hint":"ہم · کل · لاہور · جانا","x":["نے"],"why":"جانا has no object, so no نے, and گئے agrees with the plural ہم.","xr":["ne"]}
     ],
     "future": [
       {"t":"mc","q":"'I will come tomorrow' (a man speaking) =","o":["میں کل آؤں گا","میں کل آؤں گی","میں کل آیا","میں کل آئے گا"],"why":"A man speaking: آؤں + گا. آیا is the past."},
@@ -1092,12 +1092,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"I will go tomorrow (a woman speaking; start with میں)","a":["میں","کل","جاؤں","گی"],"x":["گا"],"why":"A woman speaking: the future word agrees with her, so گی is feminine."},
       {"t":"order","p":"We will eat (use کھانا)","a":["ہم","کھانا","کھائیں","گے"],"x":["گا"],"why":"ہم is plural, so the future word agrees: گے."},
       {"t":"order","p":"Sarah will come in the evening (start with سارہ)","a":["سارہ","شام","کو","آئے","گی"],"x":["گا"],"why":"سارہ is a woman, so the future word is feminine: گی."},
-      {"t":"fill","q":"علی کل آئے __۔","p":"Ali will come tomorrow.","a":["گا","gā"],"o":["گی","گے","گیا"],"why":"One man: گا."},
-      {"t":"fill","q":"آپ کب __ گے؟","p":"When will you come? (to a man)","a":["آئیں","āẽ"],"o":["آؤں","آئے","آیا"],"why":"آپ takes the -یں form before گے: آئیں گے."},
-      {"t":"fill","q":"میں آپ کو فون __ گا۔","p":"I'll call you. (a man speaking)","a":["کروں","karū̃"],"o":["کرے","کریں","کرتا"],"why":"With میں the verb ends in -وں before گا: کروں گا."},
-      {"t":"type","p":"I will go to Lahore tomorrow (a man speaking)","a":["میں کل لاہور جاؤں گا","کل میں لاہور جاؤں گا","کل لاہور جاؤں گا","maĩ kal lāhaur jāū̃ gā","kal maĩ lāhaur jāū̃ gā","kal lāhaur jāū̃ gā"],"hint":"میں · کل · لاہور · جانا","x":["گی"],"why":"A man speaking: the future word is masculine, گا."},
-      {"t":"type","p":"The girls will come tomorrow","a":["لڑکیاں کل آئیں گی","کل لڑکیاں آئیں گی","laṛkiyā̃ kal āẽ gī","kal laṛkiyā̃ āẽ gī"],"hint":"لڑکیاں · کل · آنا","x":["گے"],"why":"لڑکیاں is feminine plural, so the future word is گی."},
-      {"t":"type","p":"What will you do tomorrow? (to a man)","a":["آپ کل کیا کریں گے","کل آپ کیا کریں گے","āp kal kyā karẽ ge","kal āp kyā karẽ ge"],"hint":"آپ · کل · کیا · کرنا","x":["گا"],"why":"آپ takes the plural: کریں گے, even for one man."}
+      {"t":"fill","q":"علی کل آئے __۔","p":"Ali will come tomorrow.","a":["گا","gā"],"o":["گی","گے","گیا"],"why":"One man: گا.","xr":["gī","ge","gayā"]},
+      {"t":"fill","q":"آپ کب __ گے؟","p":"When will you come? (to a man)","a":["آئیں","āẽ"],"o":["آؤں","آئے","آیا"],"why":"آپ takes the -یں form before گے: آئیں گے.","xr":["āū̃","āe","āyā"]},
+      {"t":"fill","q":"میں آپ کو فون __ گا۔","p":"I'll call you. (a man speaking)","a":["کروں","karū̃"],"o":["کرے","کریں","کرتا"],"why":"With میں the verb ends in -وں before گا: کروں گا.","xr":["kare","karẽ","kartā"]},
+      {"t":"type","p":"I will go to Lahore tomorrow (a man speaking)","a":["میں کل لاہور جاؤں گا","کل میں لاہور جاؤں گا","کل لاہور جاؤں گا","maĩ kal lāhaur jāū̃ gā","kal maĩ lāhaur jāū̃ gā","kal lāhaur jāū̃ gā"],"hint":"میں · کل · لاہور · جانا","x":["گی"],"why":"A man speaking: the future word is masculine, گا.","xr":["gī"]},
+      {"t":"type","p":"The girls will come tomorrow","a":["لڑکیاں کل آئیں گی","کل لڑکیاں آئیں گی","laṛkiyā̃ kal āẽ gī","kal laṛkiyā̃ āẽ gī"],"hint":"لڑکیاں · کل · آنا","x":["گے"],"why":"لڑکیاں is feminine plural, so the future word is گی.","xr":["ge"]},
+      {"t":"type","p":"What will you do tomorrow? (to a man)","a":["آپ کل کیا کریں گے","کل آپ کیا کریں گے","āp kal kyā karẽ ge","kal āp kyā karẽ ge"],"hint":"آپ · کل · کیا · کرنا","x":["گا"],"why":"آپ takes the plural: کریں گے, even for one man.","xr":["gā"]}
     ],
     "can-must": [
       {"t":"mc","q":"'I can speak Urdu' (a man speaking) =","o":["میں اردو بول سکتا ہوں","میں اردو بولنا سکتا ہوں","میں اردو بول سکتی ہوں","مجھے اردو بول سکتا ہوں"],"why":"Stem بول, then سکتا, which agrees with a man speaking."},
@@ -1108,12 +1108,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"We have to get up early tomorrow (start with ہمیں)","a":["ہمیں","کل","جلدی","اٹھنا","ہے"],"x":["ہم"],"why":"Have to takes the oblique form with کو: ہمیں, not ہم."},
       {"t":"order","p":"She can drive (use گاڑی)","a":["وہ","گاڑی","چلا","سکتی","ہے"],"x":["سکتا"],"why":"She is feminine, so سکتی."},
       {"t":"order","p":"May I come in? (a man speaking)","a":["کیا","میں","اندر","آ","سکتا","ہوں"],"x":["سکتی"],"why":"A man speaking: سکتا is masculine."},
-      {"t":"fill","q":"مجھے کل کام کرنا __۔","p":"I have to work tomorrow.","a":["ہے","hai"],"o":["ہوں","ہیں","ہوا"],"why":"With مجھے the verb does not follow 'I': infinitive + ہے."},
-      {"t":"fill","q":"آپ کو ڈاکٹر کے پاس جانا __۔","p":"You should see a doctor.","a":["چاہیے","chāhie"],"o":["ہیں","چاہتا","سکتے"],"why":"Should = infinitive + چاہیے."},
-      {"t":"fill","q":"میں اردو بول __ ہوں۔","p":"I can speak Urdu. (a woman speaking)","a":["سکتی","saktī"],"o":["سکتا","سکنا","سکے"],"why":"A woman speaking: سکتی."},
-      {"t":"type","p":"I have to go","a":["مجھے جانا ہے","مجھ کو جانا ہے","mujhe jānā hai","mujh ko jānā hai"],"hint":"میں → ? · جانا · ہے","x":["میں"],"why":"Have to takes the oblique form with کو: مجھے, not میں."},
-      {"t":"type","p":"Can you help me? (to a man, politely)","a":["کیا آپ میری مدد کر سکتے ہیں","آپ میری مدد کر سکتے ہیں","kyā āp merī madad kar sakte haĩ","āp merī madad kar sakte haĩ"],"hint":"کیا · آپ · میرا · مدد · کرنا · سکنا","x":["سکتا","میرا"],"why":"آپ takes the plural سکتے ہیں, and مدد is feminine, so my is میری."},
-      {"t":"type","p":"You should rest (politely)","a":["آپ کو آرام کرنا چاہیے","āp ko ārām karnā chāhie"],"hint":"آپ · آرام · کرنا · چاہیے","x":["کا"],"why":"With چاہیے the person takes the postposition کو: آپ کو."}
+      {"t":"fill","q":"مجھے کل کام کرنا __۔","p":"I have to work tomorrow.","a":["ہے","hai"],"o":["ہوں","ہیں","ہوا"],"why":"With مجھے the verb does not follow 'I': infinitive + ہے.","xr":["hū̃","haĩ","huā"]},
+      {"t":"fill","q":"آپ کو ڈاکٹر کے پاس جانا __۔","p":"You should see a doctor.","a":["چاہیے","chāhie"],"o":["ہیں","چاہتا","سکتے"],"why":"Should = infinitive + چاہیے.","xr":["haĩ","chāhtā","sakte"]},
+      {"t":"fill","q":"میں اردو بول __ ہوں۔","p":"I can speak Urdu. (a woman speaking)","a":["سکتی","saktī"],"o":["سکتا","سکنا","سکے"],"why":"A woman speaking: سکتی.","xr":["saktā","saknā","sake"]},
+      {"t":"type","p":"I have to go","a":["مجھے جانا ہے","مجھ کو جانا ہے","mujhe jānā hai","mujh ko jānā hai"],"hint":"میں → ? · جانا · ہے","x":["میں"],"why":"Have to takes the oblique form with کو: مجھے, not میں.","xr":["maĩ"]},
+      {"t":"type","p":"Can you help me? (to a man, politely)","a":["کیا آپ میری مدد کر سکتے ہیں","آپ میری مدد کر سکتے ہیں","kyā āp merī madad kar sakte haĩ","āp merī madad kar sakte haĩ"],"hint":"کیا · آپ · میرا · مدد · کرنا · سکنا","x":["سکتا","میرا"],"why":"آپ takes the plural سکتے ہیں, and مدد is feminine, so my is میری.","xr":["saktā","merā"]},
+      {"t":"type","p":"You should rest (politely)","a":["آپ کو آرام کرنا چاہیے","āp ko ārām karnā chāhie"],"hint":"آپ · آرام · کرنا · چاہیے","x":["کا"],"why":"With چاہیے the person takes the postposition کو: آپ کو.","xr":["kā"]}
     ],
     "connectors": [
       {"t":"mc","q":"'Tea or coffee?' =","o":["چائے یا کافی؟","چائے اور کافی؟","چائے لیکن کافی؟","چائے کہ کافی؟"],"why":"یا means 'or'."},
@@ -1124,12 +1124,12 @@ LANGAPP_PACKS.course['en-ur'] = {
       {"t":"order","p":"Ali and Sarah are friends (start with علی)","a":["علی","اور","سارہ","دوست","ہیں"],"x":["ہے"],"why":"Two people joined by اور are plural, so the verb agrees: ہیں."},
       {"t":"order","p":"I was sick, so I didn't come (a man speaking)","a":["میں","بیمار","تھا","اس","لیے","نہیں","آیا"],"x":["تھی"],"why":"A man speaking: تھا and آیا are masculine; اس لیے comes before the result."},
       {"t":"order","p":"Sarah says that she will come (start with سارہ)","a":["سارہ","کہتی","ہے","کہ","وہ","آئے","گی"],"x":["کہتا","گا"],"why":"سارہ is a woman, so کہتی and گی are feminine; کہ joins the halves."},
-      {"t":"fill","q":"مجھے اردو پسند ہے، __ یہ مشکل ہے۔","p":"I like Urdu, but it's hard.","a":["لیکن","مگر","lekin","magar"],"o":["کیونکہ","اس لیے","یا"],"why":"لیکن or مگر means 'but'."},
-      {"t":"fill","q":"میں نہیں آیا، __ میں بیمار تھا۔","p":"I didn't come because I was sick.","a":["کیونکہ","kyõki"],"o":["اس لیے","لیکن","اگر"],"why":"کیونکہ comes before the reason."},
-      {"t":"fill","q":"اگر بارش ہوئی __ ہم گھر پر رہیں گے۔","p":"If it rains, we'll stay at home.","a":["تو","to"],"o":["کہ","اور","یا"],"why":"اگر … تو: تو starts the result."},
-      {"t":"type","p":"Ali and Sarah are friends","a":["علی اور سارہ دوست ہیں","سارہ اور علی دوست ہیں","alī aur sārā dost haĩ","sārā aur alī dost haĩ"],"hint":"علی · اور · سارہ · دوست","x":["ہے"],"why":"Two people make a plural subject, so the verb agrees: ہیں."},
-      {"t":"type","p":"I was sick, so I stayed at home (a woman speaking)","a":["میں بیمار تھی اس لیے گھر پر رہی","میں بیمار تھی اس لیے میں گھر پر رہی","میں بیمار تھی اس لیے گھر میں رہی","میں بیمار تھی اس لیے میں گھر میں رہی","maĩ bīmār thī is lie ghar par rahī","maĩ bīmār thī is lie maĩ ghar par rahī","maĩ bīmār thī is lie ghar mẽ rahī","maĩ bīmār thī is lie maĩ ghar mẽ rahī"],"hint":"میں · بیمار · تھا · اس لیے · گھر · رہنا","x":["تھا"],"why":"A woman speaking: تھی and رہی are feminine."},
-      {"t":"type","p":"I like Urdu, but it's difficult","a":["مجھے اردو پسند ہے لیکن یہ مشکل ہے","مجھے اردو پسند ہے مگر یہ مشکل ہے","مجھ کو اردو پسند ہے لیکن یہ مشکل ہے","مجھ کو اردو پسند ہے مگر یہ مشکل ہے","مجھے اردو پسند ہے لیکن مشکل ہے","مجھے اردو پسند ہے مگر مشکل ہے","مجھے اردو پسند ہے لیکن اردو مشکل ہے","مجھے اردو پسند ہے مگر اردو مشکل ہے","mujhe urdū pasand hai lekin yeh mushkil hai","mujhe urdū pasand hai magar yeh mushkil hai","mujh ko urdū pasand hai lekin yeh mushkil hai","mujh ko urdū pasand hai magar yeh mushkil hai","mujhe urdū pasand hai lekin mushkil hai","mujhe urdū pasand hai magar mushkil hai","mujhe urdū pasand hai lekin urdū mushkil hai","mujhe urdū pasand hai magar urdū mushkil hai"],"hint":"مجھے · اردو · پسند · لیکن · مشکل","x":["میں"],"why":"Liking takes the oblique form with کو: مجھے, not میں."}
+      {"t":"fill","q":"مجھے اردو پسند ہے، __ یہ مشکل ہے۔","p":"I like Urdu, but it's hard.","a":["لیکن","مگر","lekin","magar"],"o":["کیونکہ","اس لیے","یا"],"why":"لیکن or مگر means 'but'.","xr":["kyõki","is lie","yā"]},
+      {"t":"fill","q":"میں نہیں آیا، __ میں بیمار تھا۔","p":"I didn't come because I was sick.","a":["کیونکہ","kyõki"],"o":["اس لیے","لیکن","اگر"],"why":"کیونکہ comes before the reason.","xr":["is lie","lekin","agar"]},
+      {"t":"fill","q":"اگر بارش ہوئی __ ہم گھر پر رہیں گے۔","p":"If it rains, we'll stay at home.","a":["تو","to"],"o":["کہ","اور","یا"],"why":"اگر … تو: تو starts the result.","xr":["ki","aur","yā"]},
+      {"t":"type","p":"Ali and Sarah are friends","a":["علی اور سارہ دوست ہیں","سارہ اور علی دوست ہیں","alī aur sārā dost haĩ","sārā aur alī dost haĩ"],"hint":"علی · اور · سارہ · دوست","x":["ہے"],"why":"Two people make a plural subject, so the verb agrees: ہیں.","xr":["hai"]},
+      {"t":"type","p":"I was sick, so I stayed at home (a woman speaking)","a":["میں بیمار تھی اس لیے گھر پر رہی","میں بیمار تھی اس لیے میں گھر پر رہی","میں بیمار تھی اس لیے گھر میں رہی","میں بیمار تھی اس لیے میں گھر میں رہی","maĩ bīmār thī is lie ghar par rahī","maĩ bīmār thī is lie maĩ ghar par rahī","maĩ bīmār thī is lie ghar mẽ rahī","maĩ bīmār thī is lie maĩ ghar mẽ rahī"],"hint":"میں · بیمار · تھا · اس لیے · گھر · رہنا","x":["تھا"],"why":"A woman speaking: تھی and رہی are feminine.","xr":["thā"]},
+      {"t":"type","p":"I like Urdu, but it's difficult","a":["مجھے اردو پسند ہے لیکن یہ مشکل ہے","مجھے اردو پسند ہے مگر یہ مشکل ہے","مجھ کو اردو پسند ہے لیکن یہ مشکل ہے","مجھ کو اردو پسند ہے مگر یہ مشکل ہے","مجھے اردو پسند ہے لیکن مشکل ہے","مجھے اردو پسند ہے مگر مشکل ہے","مجھے اردو پسند ہے لیکن اردو مشکل ہے","مجھے اردو پسند ہے مگر اردو مشکل ہے","mujhe urdū pasand hai lekin yeh mushkil hai","mujhe urdū pasand hai magar yeh mushkil hai","mujh ko urdū pasand hai lekin yeh mushkil hai","mujh ko urdū pasand hai magar yeh mushkil hai","mujhe urdū pasand hai lekin mushkil hai","mujhe urdū pasand hai magar mushkil hai","mujhe urdū pasand hai lekin urdū mushkil hai","mujhe urdū pasand hai magar urdū mushkil hai"],"hint":"مجھے · اردو · پسند · لیکن · مشکل","x":["میں"],"why":"Liking takes the oblique form with کو: مجھے, not میں.","xr":["maĩ"]}
     ]
   },
   PATTERNS: [

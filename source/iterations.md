@@ -1153,3 +1153,9 @@ Ship Telugu for English speakers (en-te) after the cold review, with its engine 
 
 ### 2.45.0 — results
 26 lessons, 18 decks, 322 cards, 364 practice items; validate PASS; roadmap 26 items linked; e2e OK on seventeen lessons. Engine: teNorm / teSlip (script), Roman folds for Telugu (th, s for sh, single for doubled consonant) and teTwin, the length guard on verbs with a doubled-consonant stem (vellanu is wrong for veḷḷānu; vellaanu is accepted); matching test passes. Present taught before past. Review fixed two wrong-teaching points (నాకు వెళ్ళాలి is no longer taught as wrong; the adjective form for a woman added). Typed romanisation without dots still cannot tell రాడు from రాదు. Not native-checked (REVIEW.md).
+
+## 2.45.1 — prompt
+Typed romanisation must not earn 'almost' for a wrong option of the same item (found by the Kannada profile: aṇṇa / anna, kāru / karu, hōgtīya / hōgtīyā). Add the Kannada engine groundwork.
+
+### 2.45.1 — results
+gen.js stores the romanised wrong options (xr) on type / fill items (Hindi, Urdu, Punjabi, Telugu packs regenerated; validate PASS). romaDistract(): a typed word that reads like a wrong option once marks are dropped is accepted only when it is closer to the answer than to the wrong option in vowel length and doubled consonants (aa = ā); pairs that differ only in dots are left alone. Tests: karu for kāru wrong, kaaru almost; hogtiya for the question form wrong, hogtiyaa almost, hogtiya for the statement almost. Kannada: knNorm / knSlip, Roman folds without the doubled-consonant fold, font stack. Harness 86 guards.

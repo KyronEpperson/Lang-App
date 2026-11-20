@@ -720,12 +720,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"Build kaī (several)","a":["क","ई"],"x":["इ"],"why":"ई is the long vowel ī; इ is the short vowel i: कई."},
       {"t":"order","p":"Build kauā (crow)","a":["कौ","आ"],"x":["को"],"why":"कौ has the vowel sign ौ (au); को would be ko: कौआ."},
       {"t":"order","p":"Build koī (someone)","a":["को","ई"],"x":["कौ"],"why":"को has the vowel sign ो (o), not ौ (au): कोई."},
-      {"t":"fill","q":"कौ__","p":"kauā (crow)","a":["आ","ā"],"o":["अ","ओ","इ"],"why":"The word ends in the long ā, so the letter is आ: कौआ.","strict":true},
-      {"t":"fill","q":"__ई","p":"kaī (several)","a":["क","ka"],"o":["का","की","कि"],"why":"क alone already carries its a: क + ई gives कई.","strict":true},
-      {"t":"fill","q":"__क","p":"ek (one)","a":["ए","e"],"o":["ऐ","इ","ई"],"why":"ए is e as in say, one steady sound: एक."},
-      {"t":"type","p":"Type āie (please come)","a":["आ इ ए","आइए","ā i e","āie"],"hint":"आ · इ · ए","x":["अ","ई"],"why":"आ is the long vowel ā and इ is the short vowel i: आइए.","strict":true},
-      {"t":"type","p":"Type āo (come!, to a friend)","a":["आ ओ","आओ","ā o","āo"],"hint":"the letter for ā, then the letter for o","x":["अ","औ"],"why":"आओ starts with the long vowel आ; अ would be the short a.","strict":true},
-      {"t":"type","p":"Type ek (one)","a":["ए क","एक","e ka","ek"],"hint":"ए · क","x":["ऐ","इ"],"why":"ए is e, said without a glide; ऐ would be ai: एक."}
+      {"t":"fill","q":"कौ__","p":"kauā (crow)","a":["आ","ā"],"o":["अ","ओ","इ"],"why":"The word ends in the long ā, so the letter is आ: कौआ.","strict":true,"xr":["a","o","i"]},
+      {"t":"fill","q":"__ई","p":"kaī (several)","a":["क","ka"],"o":["का","की","कि"],"why":"क alone already carries its a: क + ई gives कई.","strict":true,"xr":["kā","kī","ki"]},
+      {"t":"fill","q":"__क","p":"ek (one)","a":["ए","e"],"o":["ऐ","इ","ई"],"why":"ए is e as in say, one steady sound: एक.","xr":["ai","i","ī"]},
+      {"t":"type","p":"Type āie (please come)","a":["आ इ ए","आइए","ā i e","āie"],"hint":"आ · इ · ए","x":["अ","ई"],"why":"आ is the long vowel ā and इ is the short vowel i: आइए.","strict":true,"xr":["a","ī"]},
+      {"t":"type","p":"Type āo (come!, to a friend)","a":["आ ओ","आओ","ā o","āo"],"hint":"the letter for ā, then the letter for o","x":["अ","औ"],"why":"आओ starts with the long vowel आ; अ would be the short a.","strict":true,"xr":["a","au"]},
+      {"t":"type","p":"Type ek (one)","a":["ए क","एक","e ka","ek"],"hint":"ए · क","x":["ऐ","इ"],"why":"ए is e, said without a glide; ऐ would be ai: एक.","xr":["ai","i"]}
     ],
     "consonants": [
       {"t":"mc","q":"Which letter is kha (k with a puff of air)?","o":["ख","क","ग","घ"],"why":"ख is the k with a puff of air; क has none."},
@@ -736,12 +736,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"Build ṭhīk (fine, OK)","a":["ठी","क"],"x":["टी"],"why":"ठ is aspirated: ṭ with a puff of air, as in ठीक."},
       {"t":"order","p":"Build chāchā (uncle)","a":["चा","चा"],"x":["छा"],"why":"च is unaspirated: no puff of air in चाचा."},
       {"t":"order","p":"Build khāo (eat!, to a friend)","a":["खा","ओ"],"x":["का"],"why":"ख is aspirated: k with a puff of air, as in खाओ."},
-      {"t":"fill","q":"छा__","p":"chhāchh (buttermilk)","a":["छ","chha"],"o":["च","ज","झ"],"why":"Both halves of छाछ have the same chh with a puff."},
-      {"t":"fill","q":"__क","p":"ṭhīk (fine, OK)","a":["ठी","ṭhī"],"o":["टी","ठि","डी"],"why":"ठीक: ṭh with a puff, then a long ī.","strict":true},
-      {"t":"fill","q":"आ__","p":"āj (today)","a":["ज","ja"],"o":["झ","च","छ"],"why":"आज ends in a plain j with no puff."},
-      {"t":"type","p":"Type ḍāk (mail)","a":["डा क","डाक","ḍā ka","ḍāk"],"hint":"डा · क","x":["ढा","ख"],"why":"ड and क are unaspirated: no puff of air in डाक."},
-      {"t":"type","p":"Type jhūṭh (a lie)","a":["झू ठ","झूठ","jhū ṭha","jhūṭh"],"hint":"झू · ठ","x":["जू","ट"],"why":"झ and ठ are both aspirated: झूठ."},
-      {"t":"type","p":"Type ṭīkā (a vaccine)","a":["टी का","टीका","ṭī kā","ṭīkā"],"hint":"टी · का","x":["ठी","की"],"why":"ट is unaspirated, with no puff of air, and the word ends in ā: टीका."}
+      {"t":"fill","q":"छा__","p":"chhāchh (buttermilk)","a":["छ","chha"],"o":["च","ज","झ"],"why":"Both halves of छाछ have the same chh with a puff.","xr":["cha","ja","jha"]},
+      {"t":"fill","q":"__क","p":"ṭhīk (fine, OK)","a":["ठी","ṭhī"],"o":["टी","ठि","डी"],"why":"ठीक: ṭh with a puff, then a long ī.","strict":true,"xr":["ṭī","ṭhi","ḍī"]},
+      {"t":"fill","q":"आ__","p":"āj (today)","a":["ज","ja"],"o":["झ","च","छ"],"why":"आज ends in a plain j with no puff.","xr":["jha","cha","chha"]},
+      {"t":"type","p":"Type ḍāk (mail)","a":["डा क","डाक","ḍā ka","ḍāk"],"hint":"डा · क","x":["ढा","ख"],"why":"ड and क are unaspirated: no puff of air in डाक.","xr":["ḍhā","kha"]},
+      {"t":"type","p":"Type jhūṭh (a lie)","a":["झू ठ","झूठ","jhū ṭha","jhūṭh"],"hint":"झू · ठ","x":["जू","ट"],"why":"झ and ठ are both aspirated: झूठ.","xr":["jū","ṭa"]},
+      {"t":"type","p":"Type ṭīkā (a vaccine)","a":["टी का","टीका","ṭī kā","ṭīkā"],"hint":"टी · का","x":["ठी","की"],"why":"ट is unaspirated, with no puff of air, and the word ends in ā: टीका.","xr":["ṭhī","kī"]}
     ],
     "consonants-2": [
       {"t":"mc","q":"Which letter is ta (tongue on the teeth)?","o":["त","ट","थ","द"],"why":"त is the dental t; ट is made with the tongue curled back."},
@@ -752,12 +752,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"Build totā (parrot)","a":["तो","ता"],"x":["टो"],"why":"त is dental: the tongue touches the teeth in तोता."},
       {"t":"order","p":"Build phal (fruit)","a":["फ","ल"],"x":["प"],"why":"फ is aspirated, p with a puff: फल is fruit, पल is a moment."},
       {"t":"order","p":"Build laṛkā (boy)","a":["ल","ड़","का"],"x":["ड"],"why":"लड़का has the flap ड़, with a dot below, not ड."},
-      {"t":"fill","q":"__ल","p":"phal (fruit)","a":["फ","pha"],"o":["प","ब","भ"],"why":"Fruit is फल, with a puff of air; पल means a moment."},
-      {"t":"fill","q":"तो__","p":"totā (parrot)","a":["ता","tā"],"o":["टा","था","दा"],"why":"तोता has two dental t sounds, with no puff.","strict":true},
-      {"t":"fill","q":"__ई","p":"bhāī (brother)","a":["भा","bhā"],"o":["बा","भ","पा"],"why":"भाई starts with bh and a long ā.","strict":true},
-      {"t":"type","p":"Type ṭamāṭar (tomato)","a":["ट मा ट र","टमाटर","ṭa mā ṭa ra","ṭamāṭar"],"hint":"ट · मा · ट · र","x":["त","ता"],"why":"ट is retroflex: the tongue curls back twice in टमाटर.","strict":true},
-      {"t":"type","p":"Type bhāī (brother)","a":["भा ई","भाई","bhā ī","bhāī"],"hint":"भा · ई","x":["बा","इ"],"why":"भ is aspirated, b with a breathy puff, and ई is long: भाई.","strict":true},
-      {"t":"type","p":"Type dāl (lentils)","a":["दा ल","दाल","dā la","dāl"],"hint":"दा · ल","x":["डा","ड़ा"],"why":"द is dental: the tongue touches the teeth in दाल.","strict":true}
+      {"t":"fill","q":"__ल","p":"phal (fruit)","a":["फ","pha"],"o":["प","ब","भ"],"why":"Fruit is फल, with a puff of air; पल means a moment.","xr":["pa","ba","bha"]},
+      {"t":"fill","q":"तो__","p":"totā (parrot)","a":["ता","tā"],"o":["टा","था","दा"],"why":"तोता has two dental t sounds, with no puff.","strict":true,"xr":["ṭā","thā","dā"]},
+      {"t":"fill","q":"__ई","p":"bhāī (brother)","a":["भा","bhā"],"o":["बा","भ","पा"],"why":"भाई starts with bh and a long ā.","strict":true,"xr":["bā","bha","pā"]},
+      {"t":"type","p":"Type ṭamāṭar (tomato)","a":["ट मा ट र","टमाटर","ṭa mā ṭa ra","ṭamāṭar"],"hint":"ट · मा · ट · र","x":["त","ता"],"why":"ट is retroflex: the tongue curls back twice in टमाटर.","strict":true,"xr":["ta","tā"]},
+      {"t":"type","p":"Type bhāī (brother)","a":["भा ई","भाई","bhā ī","bhāī"],"hint":"भा · ई","x":["बा","इ"],"why":"भ is aspirated, b with a breathy puff, and ई is long: भाई.","strict":true,"xr":["bā","i"]},
+      {"t":"type","p":"Type dāl (lentils)","a":["दा ल","दाल","dā la","dāl"],"hint":"दा · ल","x":["डा","ड़ा"],"why":"द is dental: the tongue touches the teeth in दाल.","strict":true,"xr":["ḍā","ṛā"]}
     ],
     "conjuncts": [
       {"t":"mc","q":"Which word is namaste (hello)?","o":["नमस्ते","नमसते","नम्सते","नमस्त"],"why":"स्ते is a conjunct: s joins te with no a between."},
@@ -768,12 +768,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"Build mumbaī (Mumbai)","a":["मुं","ब","ई"],"x":["मूं"],"why":"मुं has the short vowel u, not the long ū: मुंबई."},
       {"t":"order","p":"Build ṭhaṇḍā (cold)","a":["ठं","डा"],"x":["दा"],"why":"ड is retroflex, and the nasal dot before it is said ṇ: ठंडा."},
       {"t":"order","p":"Build namaste (hello)","a":["न","म","स्ते"],"x":["स","ते"],"why":"स्ते is a conjunct, one tile with no a inside: नमस्ते."},
-      {"t":"fill","q":"दो__","p":"dost (friend)","a":["स्त","sta"],"o":["सत","स","स्ता"],"why":"दोस्त ends in the conjunct स्त, with no a between s and t."},
-      {"t":"fill","q":"__च","p":"pā̃ch (five)","a":["पाँ","pā̃"],"o":["पा","पं","प"],"why":"पाँच has a long ā said through the nose: पाँ.","strict":true},
-      {"t":"fill","q":"__दी","p":"hindī (Hindi)","a":["हिं","hĩ"],"o":["हि","ही","हीं"],"why":"हिंदी starts with a short i and a real n: हिं.","strict":true},
-      {"t":"type","p":"Type hindī (Hindi)","a":["हिं दी","हिंदी","hĩ dī","hindī"],"hint":"हिं · दी","x":["दि","हि"],"why":"हिंदी ends in the long vowel ī: दी, not दि.","strict":true},
-      {"t":"type","p":"Type pā̃ch (five)","a":["पाँ च","पाँच","pā̃ cha","pā̃ch"],"hint":"पाँ · च","x":["पं","छ"],"why":"पाँच has the long vowel ā, said through the nose: पाँच.","strict":true},
-      {"t":"type","p":"Type dost (friend)","a":["दो स्त","दोस्त","do sta","dost"],"hint":"दो · स्त","x":["स","त"],"why":"स्त is a conjunct, so nothing comes between s and t: दोस्त."}
+      {"t":"fill","q":"दो__","p":"dost (friend)","a":["स्त","sta"],"o":["सत","स","स्ता"],"why":"दोस्त ends in the conjunct स्त, with no a between s and t.","xr":["sat","sa","stā"]},
+      {"t":"fill","q":"__च","p":"pā̃ch (five)","a":["पाँ","pā̃"],"o":["पा","पं","प"],"why":"पाँच has a long ā said through the nose: पाँ.","strict":true,"xr":["pā","pã","pa"]},
+      {"t":"fill","q":"__दी","p":"hindī (Hindi)","a":["हिं","hĩ"],"o":["हि","ही","हीं"],"why":"हिंदी starts with a short i and a real n: हिं.","strict":true,"xr":["hi","hī","hī̃"]},
+      {"t":"type","p":"Type hindī (Hindi)","a":["हिं दी","हिंदी","hĩ dī","hindī"],"hint":"हिं · दी","x":["दि","हि"],"why":"हिंदी ends in the long vowel ī: दी, not दि.","strict":true,"xr":["di","hi"]},
+      {"t":"type","p":"Type pā̃ch (five)","a":["पाँ च","पाँच","pā̃ cha","pā̃ch"],"hint":"पाँ · च","x":["पं","छ"],"why":"पाँच has the long vowel ā, said through the nose: पाँच.","strict":true,"xr":["pã","chha"]},
+      {"t":"type","p":"Type dost (friend)","a":["दो स्त","दोस्त","do sta","dost"],"hint":"दो · स्त","x":["स","त"],"why":"स्त is a conjunct, so nothing comes between s and t: दोस्त.","xr":["sa","ta"]}
     ],
     "greetings": [
       {"t":"mc","q":"Someone thanks you. You answer…","o":["कोई बात नहीं","आपका स्वागत है","फिर मिलेंगे","नमस्ते जी"],"why":"कोई बात नहीं means no problem; आपका स्वागत है means welcome to our place."},
@@ -784,12 +784,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"How are you? (to a woman; start with आप)","a":["आप","कैसी","हैं"],"x":["कैसे"],"why":"To a woman the word is feminine: कैसी, and आप takes हैं."},
       {"t":"order","p":"I'm fine. (start with मैं)","a":["मैं","ठीक","हूँ"],"x":["है"],"why":"With मैं the verb agrees as हूँ, never है."},
       {"t":"order","p":"My name is David. (verb last)","a":["मेरा","नाम","डेविड","है"],"x":["जी"],"why":"मेरा नाम … है; जी never goes after your own name."},
-      {"t":"fill","q":"आप कहाँ __ हैं?","p":"Where are you from?","a":["से","se"],"o":["में","है","हूँ"],"why":"से means from, and it comes after the word: कहाँ से."},
-      {"t":"fill","q":"मैं ठीक __।","p":"I'm fine.","a":["हूँ","hū̃"],"o":["है","हैं","हो"],"why":"मैं always takes हूँ."},
-      {"t":"fill","q":"माफ़ __।","p":"Excuse me. / Sorry.","a":["कीजिए","kījie"],"o":["बात","नहीं","है"],"why":"The polite phrase is माफ़ कीजिए."},
-      {"t":"type","p":"Where are you from?","a":["आप कहाँ से हैं","कहाँ से हैं आप","कहाँ से हैं","āp kahā̃ se haĩ","kahā̃ se haĩ āp","kahā̃ se haĩ"],"hint":"आप · कहाँ · से · होना","x":["है"],"why":"आप takes the plural verb हैं, even for one person."},
-      {"t":"type","p":"I'm from America.","a":["मैं अमरीका से हूँ","अमरीका से हूँ","मैं अमेरिका से हूँ","अमेरिका से हूँ","maĩ amrīkā se hū̃","amrīkā se hū̃","maĩ amerikā se hū̃","amerikā se hū̃"],"hint":"मैं · अमरीका · से · होना","x":["है"],"why":"With मैं the verb agrees as हूँ: मैं अमरीका से हूँ."},
-      {"t":"type","p":"How are you? (to a friend, a man)","a":["तुम कैसे हो","कैसे हो तुम","कैसे हो","tum kaise ho","kaise ho tum","kaise ho"],"hint":"तुम · कैसा · होना","x":["हैं"],"why":"With तुम the verb is हो: तुम कैसे हो?"}
+      {"t":"fill","q":"आप कहाँ __ हैं?","p":"Where are you from?","a":["से","se"],"o":["में","है","हूँ"],"why":"से means from, and it comes after the word: कहाँ से.","xr":["mẽ","hai","hū̃"]},
+      {"t":"fill","q":"मैं ठीक __।","p":"I'm fine.","a":["हूँ","hū̃"],"o":["है","हैं","हो"],"why":"मैं always takes हूँ.","xr":["hai","haĩ","ho"]},
+      {"t":"fill","q":"माफ़ __।","p":"Excuse me. / Sorry.","a":["कीजिए","kījie"],"o":["बात","नहीं","है"],"why":"The polite phrase is माफ़ कीजिए.","xr":["bāt","nahī̃","hai"]},
+      {"t":"type","p":"Where are you from?","a":["आप कहाँ से हैं","कहाँ से हैं आप","कहाँ से हैं","āp kahā̃ se haĩ","kahā̃ se haĩ āp","kahā̃ se haĩ"],"hint":"आप · कहाँ · से · होना","x":["है"],"why":"आप takes the plural verb हैं, even for one person.","xr":["hai"]},
+      {"t":"type","p":"I'm from America.","a":["मैं अमरीका से हूँ","अमरीका से हूँ","मैं अमेरिका से हूँ","अमेरिका से हूँ","maĩ amrīkā se hū̃","amrīkā se hū̃","maĩ amerikā se hū̃","amerikā se hū̃"],"hint":"मैं · अमरीका · से · होना","x":["है"],"why":"With मैं the verb agrees as हूँ: मैं अमरीका से हूँ.","xr":["hai"]},
+      {"t":"type","p":"How are you? (to a friend, a man)","a":["तुम कैसे हो","कैसे हो तुम","कैसे हो","tum kaise ho","kaise ho tum","kaise ho"],"hint":"तुम · कैसा · होना","x":["हैं"],"why":"With तुम the verb is हो: तुम कैसे हो?","xr":["haĩ"]}
     ],
     "hona": [
       {"t":"mc","q":"I'm fine =","o":["मैं ठीक हूँ","मैं ठीक है","मैं ठीक हैं","मैं ठीक हो"],"why":"मैं always takes हूँ."},
@@ -800,12 +800,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"We are friends.","a":["हम","दोस्त","हैं"],"x":["है"],"why":"हम is plural, so the verb agrees: हैं."},
       {"t":"order","p":"My father is a doctor.","a":["मेरे","पिताजी","डॉक्टर","हैं"],"x":["है"],"why":"For respect, पिताजी takes the plural हैं."},
       {"t":"order","p":"This is my house. (start with यह)","a":["यह","मेरा","घर","है"],"x":["हैं"],"why":"यह is one thing, so है, not the plural हैं."},
-      {"t":"fill","q":"हम दोस्त __।","p":"We are friends.","a":["हैं","haĩ"],"o":["है","हूँ","हो"],"why":"हम takes हैं."},
-      {"t":"fill","q":"तुम कहाँ __?","p":"Where are you? (to a friend)","a":["हो","ho"],"o":["हैं","है","हूँ"],"why":"तुम takes हो."},
-      {"t":"fill","q":"यह मेरा घर __।","p":"This is my house.","a":["है","hai"],"o":["हैं","हूँ","हो"],"why":"यह, one thing, takes है."},
-      {"t":"type","p":"I'm a doctor.","a":["मैं डॉक्टर हूँ","मैं एक डॉक्टर हूँ","maĩ ḍŏkṭar hū̃","maĩ ek ḍŏkṭar hū̃"],"hint":"मैं · डॉक्टर · होना","x":["है"],"why":"With मैं the verb agrees as हूँ."},
-      {"t":"type","p":"They're here.","a":["वे यहाँ हैं","वो यहाँ हैं","ये यहाँ हैं","ve yahā̃ haĩ","vo yahā̃ haĩ","ye yahā̃ haĩ"],"hint":"वे · यहाँ · होना","x":["है"],"why":"वे is plural, so the verb is हैं."},
-      {"t":"type","p":"He's my friend.","a":["वह मेरा दोस्त है","वो मेरा दोस्त है","यह मेरा दोस्त है","vah merā dost hai","vo merā dost hai","yah merā dost hai"],"hint":"वह · मेरा · दोस्त · होना","x":["हैं"],"why":"A friend is spoken of without the respect form: वह मेरा दोस्त है."}
+      {"t":"fill","q":"हम दोस्त __।","p":"We are friends.","a":["हैं","haĩ"],"o":["है","हूँ","हो"],"why":"हम takes हैं.","xr":["hai","hū̃","ho"]},
+      {"t":"fill","q":"तुम कहाँ __?","p":"Where are you? (to a friend)","a":["हो","ho"],"o":["हैं","है","हूँ"],"why":"तुम takes हो.","xr":["haĩ","hai","hū̃"]},
+      {"t":"fill","q":"यह मेरा घर __।","p":"This is my house.","a":["है","hai"],"o":["हैं","हूँ","हो"],"why":"यह, one thing, takes है.","xr":["haĩ","hū̃","ho"]},
+      {"t":"type","p":"I'm a doctor.","a":["मैं डॉक्टर हूँ","मैं एक डॉक्टर हूँ","maĩ ḍŏkṭar hū̃","maĩ ek ḍŏkṭar hū̃"],"hint":"मैं · डॉक्टर · होना","x":["है"],"why":"With मैं the verb agrees as हूँ.","xr":["hai"]},
+      {"t":"type","p":"They're here.","a":["वे यहाँ हैं","वो यहाँ हैं","ये यहाँ हैं","ve yahā̃ haĩ","vo yahā̃ haĩ","ye yahā̃ haĩ"],"hint":"वे · यहाँ · होना","x":["है"],"why":"वे is plural, so the verb is हैं.","xr":["hai"]},
+      {"t":"type","p":"He's my friend.","a":["वह मेरा दोस्त है","वो मेरा दोस्त है","यह मेरा दोस्त है","vah merā dost hai","vo merā dost hai","yah merā dost hai"],"hint":"वह · मेरा · दोस्त · होना","x":["हैं"],"why":"A friend is spoken of without the respect form: वह मेरा दोस्त है.","xr":["haĩ"]}
     ],
     "gender": [
       {"t":"mc","q":"Which noun is feminine?","o":["किताब","कमरा","घर","पानी"],"why":"किताब is feminine; कमरा, घर and पानी are masculine."},
@@ -816,12 +816,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"my book","a":["मेरी","किताब"],"x":["मेरा"],"why":"किताब is feminine, so my is मेरी."},
       {"t":"order","p":"my room","a":["मेरा","कमरा"],"x":["मेरी"],"why":"कमरा is masculine, so my is मेरा."},
       {"t":"order","p":"The boys are here. (start with the boys)","a":["लड़के","यहाँ","हैं"],"x":["लड़का","है"],"why":"Plural: लड़का becomes लड़के, and the verb agrees as हैं."},
-      {"t":"fill","q":"ये मेरी __ हैं।","p":"These are my books.","a":["किताबें","kitābẽ"],"o":["किताब","किताबा","किताबियाँ"],"why":"More than one book: किताबें."},
-      {"t":"fill","q":"यह मेरा __ है।","p":"This is my room.","a":["कमरा","kamrā"],"o":["कमरे","किताब","कुर्सी"],"why":"मेरा goes with a masculine noun, and here there is one room: कमरा."},
-      {"t":"fill","q":"लड़कियाँ यहाँ __।","p":"The girls are here.","a":["हैं","haĩ"],"o":["है","हूँ","हो"],"why":"लड़कियाँ is more than one, so हैं."},
-      {"t":"type","p":"The girls are here.","a":["लड़कियाँ यहाँ हैं","यहाँ लड़कियाँ हैं","laṛkiyā̃ yahā̃ haĩ","yahā̃ laṛkiyā̃ haĩ"],"hint":"लड़की · यहाँ · होना","x":["लड़की","है"],"why":"Plural: लड़की becomes लड़कियाँ, and the verb is हैं."},
-      {"t":"type","p":"my key","a":["मेरी चाबी","मेरी चाभी","merī chābī","merī chābhī"],"hint":"मेरा · चाबी (feminine)","x":["मेरा"],"why":"चाबी is feminine, so my is मेरी."},
-      {"t":"type","p":"These are my books.","a":["ये मेरी किताबें हैं","ये किताबें मेरी हैं","ye merī kitābẽ haĩ","ye kitābẽ merī haĩ"],"hint":"ये · मेरा · किताब · होना","x":["किताब","है"],"why":"Plural: किताब becomes किताबें, and the verb is हैं."}
+      {"t":"fill","q":"ये मेरी __ हैं।","p":"These are my books.","a":["किताबें","kitābẽ"],"o":["किताब","किताबा","किताबियाँ"],"why":"More than one book: किताबें.","xr":["kitāb","kitābā","kitābiyā̃"]},
+      {"t":"fill","q":"यह मेरा __ है।","p":"This is my room.","a":["कमरा","kamrā"],"o":["कमरे","किताब","कुर्सी"],"why":"मेरा goes with a masculine noun, and here there is one room: कमरा.","xr":["kamre","kitāb","kursī"]},
+      {"t":"fill","q":"लड़कियाँ यहाँ __।","p":"The girls are here.","a":["हैं","haĩ"],"o":["है","हूँ","हो"],"why":"लड़कियाँ is more than one, so हैं.","xr":["hai","hū̃","ho"]},
+      {"t":"type","p":"The girls are here.","a":["लड़कियाँ यहाँ हैं","यहाँ लड़कियाँ हैं","laṛkiyā̃ yahā̃ haĩ","yahā̃ laṛkiyā̃ haĩ"],"hint":"लड़की · यहाँ · होना","x":["लड़की","है"],"why":"Plural: लड़की becomes लड़कियाँ, and the verb is हैं.","xr":["laṛkī","hai"]},
+      {"t":"type","p":"my key","a":["मेरी चाबी","मेरी चाभी","merī chābī","merī chābhī"],"hint":"मेरा · चाबी (feminine)","x":["मेरा"],"why":"चाबी is feminine, so my is मेरी.","xr":["merā"]},
+      {"t":"type","p":"These are my books.","a":["ये मेरी किताबें हैं","ये किताबें मेरी हैं","ye merī kitābẽ haĩ","ye kitābẽ merī haĩ"],"hint":"ये · मेरा · किताब · होना","x":["किताब","है"],"why":"Plural: किताब becomes किताबें, and the verb is हैं.","xr":["kitāb","hai"]}
     ],
     "adjectives": [
       {"t":"mc","q":"a good girl =","o":["अच्छी लड़की","अच्छा लड़की","अच्छे लड़की","अच्छी लड़का"],"why":"लड़की is feminine, so अच्छी."},
@@ -832,12 +832,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"The girl is very tall.","a":["लड़की","बहुत","लंबी","है"],"x":["लंबा"],"why":"लड़की is feminine, so the adjective agrees: लंबी."},
       {"t":"order","p":"The rooms are big.","a":["कमरे","बड़े","हैं"],"x":["बड़ा"],"why":"कमरे is masculine plural, so बड़े and हैं."},
       {"t":"order","p":"My room is small.","a":["मेरा","कमरा","छोटा","है"],"x":["छोटी"],"why":"कमरा is masculine, so छोटा."},
-      {"t":"fill","q":"मेरा कमरा __ है।","p":"My room is small.","a":["छोटा","chhoṭā"],"o":["छोटी","छोटे","छोटों"],"why":"One masculine noun: छोटा."},
-      {"t":"fill","q":"यह किताब बहुत __ है।","p":"This book is very good.","a":["अच्छी","acchhī"],"o":["अच्छा","अच्छे","अच्छों"],"why":"किताब is feminine: अच्छी."},
-      {"t":"fill","q":"वे __ लड़के हैं।","p":"They're good boys.","a":["अच्छे","acchhe"],"o":["अच्छा","अच्छी","अच्छों"],"why":"More than one boy: अच्छे लड़के."},
-      {"t":"type","p":"The water is cold.","a":["पानी ठंडा है","pānī ṭhaṇḍā hai"],"hint":"पानी · ठंडा · होना","x":["ठंडी"],"why":"पानी is masculine, so the adjective agrees: ठंडा."},
-      {"t":"type","p":"The book is new.","a":["किताब नई है","kitāb naī hai"],"hint":"किताब · नया · होना","x":["नया"],"why":"किताब is feminine, so new is नई."},
-      {"t":"type","p":"The boys are happy.","a":["लड़के ख़ुश हैं","laṛke ḵhush haĩ"],"hint":"लड़का · ख़ुश · होना","x":["है"],"why":"ख़ुश never changes; the plural shows in लड़के and हैं."}
+      {"t":"fill","q":"मेरा कमरा __ है।","p":"My room is small.","a":["छोटा","chhoṭā"],"o":["छोटी","छोटे","छोटों"],"why":"One masculine noun: छोटा.","xr":["chhoṭī","chhoṭe","chhoṭõ"]},
+      {"t":"fill","q":"यह किताब बहुत __ है।","p":"This book is very good.","a":["अच्छी","acchhī"],"o":["अच्छा","अच्छे","अच्छों"],"why":"किताब is feminine: अच्छी.","xr":["acchhā","acchhe","acchhõ"]},
+      {"t":"fill","q":"वे __ लड़के हैं।","p":"They're good boys.","a":["अच्छे","acchhe"],"o":["अच्छा","अच्छी","अच्छों"],"why":"More than one boy: अच्छे लड़के.","xr":["acchhā","acchhī","acchhõ"]},
+      {"t":"type","p":"The water is cold.","a":["पानी ठंडा है","pānī ṭhaṇḍā hai"],"hint":"पानी · ठंडा · होना","x":["ठंडी"],"why":"पानी is masculine, so the adjective agrees: ठंडा.","xr":["ṭhaṇḍī"]},
+      {"t":"type","p":"The book is new.","a":["किताब नई है","kitāb naī hai"],"hint":"किताब · नया · होना","x":["नया"],"why":"किताब is feminine, so new is नई.","xr":["nayā"]},
+      {"t":"type","p":"The boys are happy.","a":["लड़के ख़ुश हैं","laṛke ḵhush haĩ"],"hint":"लड़का · ख़ुश · होना","x":["है"],"why":"ख़ुश never changes; the plural shows in लड़के and हैं.","xr":["hai"]}
     ],
     "questions": [
       {"t":"mc","q":"Are you a doctor? =","o":["क्या आप डॉक्टर हैं?","क्या आप डॉक्टर है?","कौन आप डॉक्टर हैं?","क्या आप डॉक्टर हूँ?"],"why":"क्या at the start, and आप takes हैं."},
@@ -848,12 +848,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"How's the book? (start with किताब)","a":["किताब","कैसी","है"],"x":["कैसा"],"why":"किताब is feminine, so कैसी agrees with it."},
       {"t":"order","p":"Where do you live? (to a woman; start with आप)","a":["आप","कहाँ","रहती","हैं"],"x":["रहते"],"why":"To a woman the verb is feminine: रहती, with हैं."},
       {"t":"order","p":"Is this your house? (start with क्या)","a":["क्या","यह","आपका","घर","है"],"x":["कौन"],"why":"क्या at the start makes a yes-no question; कौन means who."},
-      {"t":"fill","q":"__ यह आपका घर है?","p":"Is this your house?","a":["क्या","kyā"],"o":["कौन","कहाँ","कैसा"],"why":"A yes-no question starts with क्या."},
-      {"t":"fill","q":"आपका घर __ है?","p":"How's your house?","a":["कैसा","kaisā"],"o":["कैसी","कैसे","कौन"],"why":"घर is masculine and singular: कैसा."},
-      {"t":"fill","q":"आप कहाँ __ हैं?","p":"Where do you live? (to a woman)","a":["रहती","rahtī"],"o":["रहते","रहता","रहा"],"why":"To a woman: रहती."},
-      {"t":"type","p":"How's your room?","a":["आपका कमरा कैसा है","कैसा है आपका कमरा","āpkā kamrā kaisā hai","kaisā hai āpkā kamrā"],"hint":"आपका · कमरा · कैसा · होना","x":["कैसी"],"why":"कमरा is masculine, so कैसा agrees with it."},
-      {"t":"type","p":"Where do you live? (to a man)","a":["आप कहाँ रहते हैं","कहाँ रहते हैं आप","कहाँ रहते हैं","āp kahā̃ rahte haĩ","kahā̃ rahte haĩ āp","kahā̃ rahte haĩ"],"hint":"आप · कहाँ · रहते · होना","x":["रहती"],"why":"To a man the verb is masculine: रहते, with हैं for आप."},
-      {"t":"type","p":"What's this?","a":["यह क्या है","ये क्या है","yah kyā hai","ye kyā hai"],"hint":"यह · क्या · होना","x":["कौन"],"why":"क्या means what, and it stays just before the verb: यह क्या है?"}
+      {"t":"fill","q":"__ यह आपका घर है?","p":"Is this your house?","a":["क्या","kyā"],"o":["कौन","कहाँ","कैसा"],"why":"A yes-no question starts with क्या.","xr":["kaun","kahā̃","kaisā"]},
+      {"t":"fill","q":"आपका घर __ है?","p":"How's your house?","a":["कैसा","kaisā"],"o":["कैसी","कैसे","कौन"],"why":"घर is masculine and singular: कैसा.","xr":["kaisī","kaise","kaun"]},
+      {"t":"fill","q":"आप कहाँ __ हैं?","p":"Where do you live? (to a woman)","a":["रहती","rahtī"],"o":["रहते","रहता","रहा"],"why":"To a woman: रहती.","xr":["rahte","rahtā","rahā"]},
+      {"t":"type","p":"How's your room?","a":["आपका कमरा कैसा है","कैसा है आपका कमरा","āpkā kamrā kaisā hai","kaisā hai āpkā kamrā"],"hint":"आपका · कमरा · कैसा · होना","x":["कैसी"],"why":"कमरा is masculine, so कैसा agrees with it.","xr":["kaisī"]},
+      {"t":"type","p":"Where do you live? (to a man)","a":["आप कहाँ रहते हैं","कहाँ रहते हैं आप","कहाँ रहते हैं","āp kahā̃ rahte haĩ","kahā̃ rahte haĩ āp","kahā̃ rahte haĩ"],"hint":"आप · कहाँ · रहते · होना","x":["रहती"],"why":"To a man the verb is masculine: रहते, with हैं for आप.","xr":["rahtī"]},
+      {"t":"type","p":"What's this?","a":["यह क्या है","ये क्या है","yah kyā hai","ye kyā hai"],"hint":"यह · क्या · होना","x":["कौन"],"why":"क्या means what, and it stays just before the verb: यह क्या है?","xr":["kaun"]}
     ],
     "negation": [
       {"t":"mc","q":"This isn't my house. =","o":["यह मेरा घर नहीं है","यह मेरा घर नहीं हैं","यह मेरी घर नहीं है","यह मेरे घर नहीं है"],"why":"घर is masculine and singular: मेरा, है."},
@@ -864,12 +864,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"I'm not a doctor.","a":["मैं","डॉक्टर","नहीं","हूँ"],"x":["है"],"why":"With मैं the verb agrees as हूँ, after नहीं."},
       {"t":"order","p":"The girl isn't tall.","a":["लड़की","लंबी","नहीं","है"],"x":["लंबा"],"why":"लड़की is feminine, so the adjective agrees: लंबी."},
       {"t":"order","p":"I don't know. (a woman speaking; नहीं before the verb)","a":["मैं","नहीं","जानती"],"x":["जानता"],"why":"A woman speaking: the verb agrees with her, जानती."},
-      {"t":"fill","q":"वह यहाँ __ है।","p":"He isn't here.","a":["नहीं","nahī̃"],"o":["मत","क्या","जी"],"why":"With है, the negative is नहीं."},
-      {"t":"fill","q":"मैं डॉक्टर नहीं __।","p":"I'm not a doctor.","a":["हूँ","hū̃"],"o":["है","हैं","हो"],"why":"मैं takes हूँ, negative or not."},
-      {"t":"fill","q":"__ करो!","p":"Don't do it! (to a friend)","a":["मत","mat"],"o":["नहीं","क्या","है"],"why":"Don't to a friend is मत करो."},
-      {"t":"type","p":"They aren't here.","a":["वे यहाँ नहीं हैं","वो यहाँ नहीं हैं","ये यहाँ नहीं हैं","ve yahā̃ nahī̃ haĩ","vo yahā̃ nahī̃ haĩ","ye yahā̃ nahī̃ haĩ"],"hint":"वे · यहाँ · नहीं · होना","x":["है"],"why":"वे is plural, so the verb is हैं."},
-      {"t":"type","p":"I don't know. (a man speaking)","a":["मैं नहीं जानता","मैं नहीं जानता हूँ","नहीं जानता","मैं जानता नहीं","maĩ nahī̃ jāntā","maĩ nahī̃ jāntā hū̃","nahī̃ jāntā","maĩ jāntā nahī̃"],"hint":"मैं · नहीं · जानना","x":["जानती"],"why":"A man speaking: the verb agrees with him, जानता."},
-      {"t":"type","p":"The water isn't cold.","a":["पानी ठंडा नहीं है","pānī ṭhaṇḍā nahī̃ hai"],"hint":"पानी · ठंडा · नहीं · होना","x":["ठंडी"],"why":"पानी is masculine, so the adjective agrees: ठंडा."}
+      {"t":"fill","q":"वह यहाँ __ है।","p":"He isn't here.","a":["नहीं","nahī̃"],"o":["मत","क्या","जी"],"why":"With है, the negative is नहीं.","xr":["mat","kyā","jī"]},
+      {"t":"fill","q":"मैं डॉक्टर नहीं __।","p":"I'm not a doctor.","a":["हूँ","hū̃"],"o":["है","हैं","हो"],"why":"मैं takes हूँ, negative or not.","xr":["hai","haĩ","ho"]},
+      {"t":"fill","q":"__ करो!","p":"Don't do it! (to a friend)","a":["मत","mat"],"o":["नहीं","क्या","है"],"why":"Don't to a friend is मत करो.","xr":["nahī̃","kyā","hai"]},
+      {"t":"type","p":"They aren't here.","a":["वे यहाँ नहीं हैं","वो यहाँ नहीं हैं","ये यहाँ नहीं हैं","ve yahā̃ nahī̃ haĩ","vo yahā̃ nahī̃ haĩ","ye yahā̃ nahī̃ haĩ"],"hint":"वे · यहाँ · नहीं · होना","x":["है"],"why":"वे is plural, so the verb is हैं.","xr":["hai"]},
+      {"t":"type","p":"I don't know. (a man speaking)","a":["मैं नहीं जानता","मैं नहीं जानता हूँ","नहीं जानता","मैं जानता नहीं","maĩ nahī̃ jāntā","maĩ nahī̃ jāntā hū̃","nahī̃ jāntā","maĩ jāntā nahī̃"],"hint":"मैं · नहीं · जानना","x":["जानती"],"why":"A man speaking: the verb agrees with him, जानता.","xr":["jāntī"]},
+      {"t":"type","p":"The water isn't cold.","a":["पानी ठंडा नहीं है","pānī ṭhaṇḍā nahī̃ hai"],"hint":"पानी · ठंडा · नहीं · होना","x":["ठंडी"],"why":"पानी is masculine, so the adjective agrees: ठंडा.","xr":["ṭhaṇḍī"]}
     ],
     "numbers": [
       {"t":"mc","q":"twenty-five =","o":["पच्चीस","बीस पाँच","पाँच बीस","पचास"],"why":"Every number up to 100 is its own word: 25 is पच्चीस, never बीस पाँच."},
@@ -880,12 +880,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"two rooms","a":["दो","कमरे"],"x":["कमरा"],"why":"After a number above one, कमरा takes its plural form: दो कमरे."},
       {"t":"order","p":"five books","a":["पाँच","किताबें"],"x":["किताब"],"why":"किताब is feminine, and after पाँच it takes its plural form किताबें."},
       {"t":"order","p":"How much is this sari? (साड़ी is feminine; start with यह)","a":["यह","साड़ी","कितने","की","है"],"x":["का"],"why":"का agrees with the thing: साड़ी is feminine, so कितने की."},
-      {"t":"fill","q":"नौ, दस, __, बारह","p":"nine, ten, eleven, twelve","a":["ग्यारह","gyārah"],"o":["दस एक","बीस","उन्नीस"],"why":"Eleven is its own word, ग्यारह: never दस एक."},
-      {"t":"fill","q":"तीन __","p":"three girls","a":["लड़कियाँ","laṛkiyā̃"],"o":["लड़की","लड़कियों","लड़के"],"why":"After तीन the noun is plural: लड़की becomes लड़कियाँ."},
-      {"t":"fill","q":"यह किताब कितने __ है?","p":"How much is this book?","a":["की","kī"],"o":["का","के","को"],"why":"किताब is feminine, so the price question is कितने की है?"},
-      {"t":"type","p":"four boys","a":["चार लड़के","chār laṛke"],"hint":"चार · लड़का","x":["लड़का"],"why":"After a number above one, लड़का takes its plural form: चार लड़के."},
-      {"t":"type","p":"five girls","a":["पाँच लड़कियाँ","pā̃ch laṛkiyā̃"],"hint":"पाँच · लड़की","x":["लड़की"],"why":"लड़की is feminine; after पाँच it takes its plural form लड़कियाँ."},
-      {"t":"type","p":"How much is this? (use यह)","a":["यह कितने का है","yah kitne kā hai"],"hint":"यह · कितना · का","x":["कितना","कितनी"],"why":"The price question is a fixed phrase: यह कितने का है?"}
+      {"t":"fill","q":"नौ, दस, __, बारह","p":"nine, ten, eleven, twelve","a":["ग्यारह","gyārah"],"o":["दस एक","बीस","उन्नीस"],"why":"Eleven is its own word, ग्यारह: never दस एक.","xr":["das ek","bīs","unnīs"]},
+      {"t":"fill","q":"तीन __","p":"three girls","a":["लड़कियाँ","laṛkiyā̃"],"o":["लड़की","लड़कियों","लड़के"],"why":"After तीन the noun is plural: लड़की becomes लड़कियाँ.","xr":["laṛkī","laṛkiyõ","laṛke"]},
+      {"t":"fill","q":"यह किताब कितने __ है?","p":"How much is this book?","a":["की","kī"],"o":["का","के","को"],"why":"किताब is feminine, so the price question is कितने की है?","xr":["kā","ke","ko"]},
+      {"t":"type","p":"four boys","a":["चार लड़के","chār laṛke"],"hint":"चार · लड़का","x":["लड़का"],"why":"After a number above one, लड़का takes its plural form: चार लड़के.","xr":["laṛkā"]},
+      {"t":"type","p":"five girls","a":["पाँच लड़कियाँ","pā̃ch laṛkiyā̃"],"hint":"पाँच · लड़की","x":["लड़की"],"why":"लड़की is feminine; after पाँच it takes its plural form लड़कियाँ.","xr":["laṛkī"]},
+      {"t":"type","p":"How much is this? (use यह)","a":["यह कितने का है","yah kitne kā hai"],"hint":"यह · कितना · का","x":["कितना","कितनी"],"why":"The price question is a fixed phrase: यह कितने का है?","xr":["kitnā","kitnī"]}
     ],
     "postpositions": [
       {"t":"mc","q":"in the house =","o":["घर में","में घर","घर मैं","मैं घर"],"why":"में comes after the noun; मैं, with the extra stroke, means I."},
@@ -896,12 +896,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"We are in Delhi (start with हम)","a":["हम","दिल्ली","में","हैं"],"x":["है"],"why":"हम takes the plural हैं, and the postposition में comes after दिल्ली."},
       {"t":"order","p":"What's in this? (verb last)","a":["इसमें","क्या","है"],"x":["यह"],"why":"With a pronoun the postposition is joined on, and यह changes to इस: इसमें."},
       {"t":"order","p":"The book is on the table (start with the book)","a":["किताब","मेज़","पर","है"],"x":["में"],"why":"पर means on; में would mean in."},
-      {"t":"fill","q":"पानी बोतल __ है।","p":"The water is in the bottle.","a":["में","mẽ"],"o":["पर","से","को"],"why":"In, inside: में."},
-      {"t":"fill","q":"मैं अमरीका __ हूँ।","p":"I'm from America.","a":["से","se"],"o":["में","को","पर"],"why":"From: से, after the place."},
-      {"t":"fill","q":"दिल्ली से आगरा __ ट्रेन है।","p":"There's a train from Delhi to Agra.","a":["तक","tak"],"o":["में","पर","से"],"why":"से … तक means from … to, as far as."},
-      {"t":"type","p":"We are at the station","a":["हम स्टेशन पर हैं","ham sṭeshan par haĩ"],"hint":"हम · स्टेशन · पर (at) · होना","x":["है","से"],"why":"हम takes the plural हैं, and the postposition पर comes after the noun: स्टेशन पर."},
-      {"t":"type","p":"What's in that?","a":["उसमें क्या है","usmẽ kyā hai"],"hint":"वह + में · क्या · होना","x":["वह","यह"],"why":"With a pronoun the postposition is joined on, and वह changes to उस: उसमें."},
-      {"t":"type","p":"Rahul is at home","a":["राहुल घर पर है","राहुल घर में है","rāhul ghar par hai","rāhul ghar mẽ hai"],"hint":"राहुल · घर · पर or में · होना","x":["से","हैं"],"why":"Both घर पर and घर में mean at home."}
+      {"t":"fill","q":"पानी बोतल __ है।","p":"The water is in the bottle.","a":["में","mẽ"],"o":["पर","से","को"],"why":"In, inside: में.","xr":["par","se","ko"]},
+      {"t":"fill","q":"मैं अमरीका __ हूँ।","p":"I'm from America.","a":["से","se"],"o":["में","को","पर"],"why":"From: से, after the place.","xr":["mẽ","ko","par"]},
+      {"t":"fill","q":"दिल्ली से आगरा __ ट्रेन है।","p":"There's a train from Delhi to Agra.","a":["तक","tak"],"o":["में","पर","से"],"why":"से … तक means from … to, as far as.","xr":["mẽ","par","se"]},
+      {"t":"type","p":"We are at the station","a":["हम स्टेशन पर हैं","ham sṭeshan par haĩ"],"hint":"हम · स्टेशन · पर (at) · होना","x":["है","से"],"why":"हम takes the plural हैं, and the postposition पर comes after the noun: स्टेशन पर.","xr":["hai","se"]},
+      {"t":"type","p":"What's in that?","a":["उसमें क्या है","usmẽ kyā hai"],"hint":"वह + में · क्या · होना","x":["वह","यह"],"why":"With a pronoun the postposition is joined on, and वह changes to उस: उसमें.","xr":["vah","yah"]},
+      {"t":"type","p":"Rahul is at home","a":["राहुल घर पर है","राहुल घर में है","rāhul ghar par hai","rāhul ghar mẽ hai"],"hint":"राहुल · घर · पर or में · होना","x":["से","हैं"],"why":"Both घर पर and घर में mean at home.","xr":["se","haĩ"]}
     ],
     "oblique": [
       {"t":"mc","q":"in the room =","o":["कमरे में","कमरा में","में कमरा","कमरी में"],"why":"Before में, कमरा takes its oblique form कमरे."},
@@ -912,12 +912,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"in the big room","a":["बड़े","कमरे","में"],"x":["बड़ा"],"why":"Before the postposition में, both बड़ा and कमरा take the oblique -e: बड़े कमरे में."},
       {"t":"order","p":"in that shop","a":["उस","दुकान","में"],"x":["वह"],"why":"Before a postposition वह takes its oblique form उस; दुकान, which is feminine, stays the same."},
       {"t":"order","p":"for the boys","a":["लड़कों","के","लिए"],"x":["लड़के"],"why":"Plural oblique: लड़के becomes लड़कों before the postposition के लिए."},
-      {"t":"fill","q":"किताबें __ में हैं।","p":"The books are in the rooms.","a":["कमरों","kamrõ"],"o":["कमरे","कमरा","कमरें"],"why":"More than one room, before में: the plural oblique कमरों."},
-      {"t":"fill","q":"__ कमरे में कौन है?","p":"Who's in this room?","a":["इस","is"],"o":["यह","ये","इसे"],"why":"यह changes to इस before a noun with a postposition: इस कमरे में."},
-      {"t":"fill","q":"लड़का __ में है।","p":"The boy is in the shop.","a":["दुकान","dukān"],"o":["दुकानें","दुकानों","दुकाने"],"why":"One shop: दुकान is feminine and does not change before में."},
-      {"t":"type","p":"The girl is in the big room","a":["लड़की बड़े कमरे में है","बड़े कमरे में लड़की है","laṛkī baṛe kamre mẽ hai","baṛe kamre mẽ laṛkī hai"],"hint":"लड़की · बड़ा · कमरा · में","x":["बड़ा","कमरा"],"why":"Before the postposition में, बड़ा कमरा takes its oblique form: बड़े कमरे में."},
-      {"t":"type","p":"in these rooms","a":["इन कमरों में","in kamrõ mẽ"],"hint":"ये · कमरा · में","x":["ये","कमरे"],"why":"Plural oblique before a postposition: ये becomes इन, and कमरे becomes कमरों."},
-      {"t":"type","p":"Who's in that room?","a":["उस कमरे में कौन है","कौन उस कमरे में है","us kamre mẽ kaun hai","kaun us kamre mẽ hai"],"hint":"वह · कमरा · में · कौन","x":["वह","कमरा"],"why":"Before a postposition वह becomes उस and कमरा becomes कमरे: the oblique form."}
+      {"t":"fill","q":"किताबें __ में हैं।","p":"The books are in the rooms.","a":["कमरों","kamrõ"],"o":["कमरे","कमरा","कमरें"],"why":"More than one room, before में: the plural oblique कमरों.","xr":["kamre","kamrā","kamrẽ"]},
+      {"t":"fill","q":"__ कमरे में कौन है?","p":"Who's in this room?","a":["इस","is"],"o":["यह","ये","इसे"],"why":"यह changes to इस before a noun with a postposition: इस कमरे में.","xr":["yah","ye","ise"]},
+      {"t":"fill","q":"लड़का __ में है।","p":"The boy is in the shop.","a":["दुकान","dukān"],"o":["दुकानें","दुकानों","दुकाने"],"why":"One shop: दुकान is feminine and does not change before में.","xr":["dukānẽ","dukānõ","dukāne"]},
+      {"t":"type","p":"The girl is in the big room","a":["लड़की बड़े कमरे में है","बड़े कमरे में लड़की है","laṛkī baṛe kamre mẽ hai","baṛe kamre mẽ laṛkī hai"],"hint":"लड़की · बड़ा · कमरा · में","x":["बड़ा","कमरा"],"why":"Before the postposition में, बड़ा कमरा takes its oblique form: बड़े कमरे में.","xr":["baṛā","kamrā"]},
+      {"t":"type","p":"in these rooms","a":["इन कमरों में","in kamrõ mẽ"],"hint":"ये · कमरा · में","x":["ये","कमरे"],"why":"Plural oblique before a postposition: ये becomes इन, and कमरे becomes कमरों.","xr":["ye","kamre"]},
+      {"t":"type","p":"Who's in that room?","a":["उस कमरे में कौन है","कौन उस कमरे में है","us kamre mẽ kaun hai","kaun us kamre mẽ hai"],"hint":"वह · कमरा · में · कौन","x":["वह","कमरा"],"why":"Before a postposition वह becomes उस and कमरा becomes कमरे: the oblique form.","xr":["vah","kamrā"]}
     ],
     "possessive": [
       {"t":"mc","q":"Ram's book =","o":["राम की किताब","राम का किताब","किताब राम की","किताब का राम"],"why":"किताब is feminine, so राम की किताब; the owner comes first."},
@@ -928,12 +928,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"my book","a":["मेरी","किताब"],"x":["मेरा"],"why":"किताब is feminine, so my is मेरी."},
       {"t":"order","p":"in my house","a":["मेरे","घर","में"],"x":["मेरा"],"why":"Before the postposition में, मेरा takes its oblique form मेरे."},
       {"t":"order","p":"Amit's friends are here (start with Amit)","a":["अमित","के","दोस्त","यहाँ","हैं"],"x":["का"],"why":"दोस्त is plural here, so the possessive agrees: अमित के दोस्त."},
-      {"t":"fill","q":"यह सारा __ किताब है।","p":"This is Sarah's book.","a":["की","kī"],"o":["का","के","को"],"why":"किताब is feminine: सारा की किताब."},
-      {"t":"fill","q":"राहुल __ घर दिल्ली में है।","p":"Rahul's house is in Delhi.","a":["का","kā"],"o":["की","के","को"],"why":"घर is masculine: राहुल का घर."},
-      {"t":"fill","q":"__ नाम क्या है?","p":"What's your name? (polite)","a":["आपका","āpkā"],"o":["आपकी","आपके","आपको"],"why":"नाम is masculine: आपका नाम."},
-      {"t":"type","p":"my sister","a":["मेरी बहन","merī bahan"],"hint":"मेरा · बहन","x":["मेरा","मेरे"],"why":"बहन is feminine, so my is मेरी, whoever is speaking."},
-      {"t":"type","p":"in your room (polite)","a":["आपके कमरे में","āpke kamre mẽ"],"hint":"आपका · कमरा · में","x":["आपका","कमरा"],"why":"Before the postposition में, both words take the oblique -e: आपके कमरे में."},
-      {"t":"type","p":"Whose phone is this?","a":["यह किसका फ़ोन है","yah kiskā fon hai"],"hint":"यह · किसका (whose) · फ़ोन · होना","x":["किसकी","कौन"],"why":"फ़ोन is masculine, so whose is किसका."}
+      {"t":"fill","q":"यह सारा __ किताब है।","p":"This is Sarah's book.","a":["की","kī"],"o":["का","के","को"],"why":"किताब is feminine: सारा की किताब.","xr":["kā","ke","ko"]},
+      {"t":"fill","q":"राहुल __ घर दिल्ली में है।","p":"Rahul's house is in Delhi.","a":["का","kā"],"o":["की","के","को"],"why":"घर is masculine: राहुल का घर.","xr":["kī","ke","ko"]},
+      {"t":"fill","q":"__ नाम क्या है?","p":"What's your name? (polite)","a":["आपका","āpkā"],"o":["आपकी","आपके","आपको"],"why":"नाम is masculine: आपका नाम.","xr":["āpkī","āpke","āpko"]},
+      {"t":"type","p":"my sister","a":["मेरी बहन","merī bahan"],"hint":"मेरा · बहन","x":["मेरा","मेरे"],"why":"बहन is feminine, so my is मेरी, whoever is speaking.","xr":["merā","mere"]},
+      {"t":"type","p":"in your room (polite)","a":["आपके कमरे में","āpke kamre mẽ"],"hint":"आपका · कमरा · में","x":["आपका","कमरा"],"why":"Before the postposition में, both words take the oblique -e: आपके कमरे में.","xr":["āpkā","kamrā"]},
+      {"t":"type","p":"Whose phone is this?","a":["यह किसका फ़ोन है","yah kiskā fon hai"],"hint":"यह · किसका (whose) · फ़ोन · होना","x":["किसकी","कौन"],"why":"फ़ोन is masculine, so whose is किसका.","xr":["kiskī","kaun"]}
     ],
     "family": [
       {"t":"mc","q":"My father is a doctor =","o":["मेरे पिताजी डॉक्टर हैं।","मेरा पिताजी डॉक्टर है।","मेरे पिताजी डॉक्टर है।","मेरा पिताजी डॉक्टर हैं।"],"why":"Parents take the honorific plural: मेरे and हैं together."},
@@ -944,12 +944,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"My father is here (start with my father)","a":["मेरे","पिताजी","यहाँ","हैं"],"x":["है"],"why":"Parents take the honorific plural: मेरे पिताजी … हैं."},
       {"t":"order","p":"My sister is a teacher","a":["मेरी","बहन","टीचर","है"],"x":["मेरा"],"why":"बहन is feminine, so my is मेरी."},
       {"t":"order","p":"I have two sisters","a":["मेरी","दो","बहनें","हैं"],"x":["बहन"],"why":"Two sisters: बहन takes its plural form बहनें, and the verb is हैं."},
-      {"t":"fill","q":"मेरे दादा जी दिल्ली में __।","p":"My grandfather is in Delhi.","a":["हैं","haĩ"],"o":["है","हूँ","हो"],"why":"Grandparents take the honorific plural: हैं."},
-      {"t":"fill","q":"__ माँ डॉक्टर हैं।","p":"My mother is a doctor.","a":["मेरी","merī"],"o":["मेरा","मेरे","मैं"],"why":"माँ is feminine: मेरी stays मेरी even with the honorific हैं."},
-      {"t":"fill","q":"यह राहुल __ बेटी है।","p":"This is Rahul's daughter.","a":["की","kī"],"o":["का","के","को"],"why":"बेटी is feminine: राहुल की बेटी."},
-      {"t":"type","p":"My father is a doctor","a":["मेरे पिताजी डॉक्टर हैं","मेरे पिता जी डॉक्टर हैं","मेरे पिता डॉक्टर हैं","mere pitājī ḍŏkṭar haĩ","mere pitā jī ḍŏkṭar haĩ","mere pitā ḍŏkṭar haĩ"],"hint":"मेरा · पिताजी · डॉक्टर · होना","x":["मेरा","है"],"why":"Parents take the honorific plural: मेरे पिताजी … हैं."},
-      {"t":"type","p":"I have one brother","a":["मेरा एक भाई है","merā ek bhāī hai"],"hint":"मेरा · एक · भाई · होना","x":["मेरी"],"why":"भाई is masculine, so my is मेरा: मेरा एक भाई है."},
-      {"t":"type","p":"My grandmother (father's mother) is here (use जी)","a":["मेरी दादी जी यहाँ हैं","मेरी दादीजी यहाँ हैं","यहाँ मेरी दादी जी हैं","merī dādī jī yahā̃ haĩ","merī dādījī yahā̃ haĩ","yahā̃ merī dādī jī haĩ"],"hint":"मेरा · दादी जी · यहाँ · होना","x":["है","मेरे"],"why":"दादी is feminine, so मेरी; with respect the verb is plural: हैं."}
+      {"t":"fill","q":"मेरे दादा जी दिल्ली में __।","p":"My grandfather is in Delhi.","a":["हैं","haĩ"],"o":["है","हूँ","हो"],"why":"Grandparents take the honorific plural: हैं.","xr":["hai","hū̃","ho"]},
+      {"t":"fill","q":"__ माँ डॉक्टर हैं।","p":"My mother is a doctor.","a":["मेरी","merī"],"o":["मेरा","मेरे","मैं"],"why":"माँ is feminine: मेरी stays मेरी even with the honorific हैं.","xr":["merā","mere","maĩ"]},
+      {"t":"fill","q":"यह राहुल __ बेटी है।","p":"This is Rahul's daughter.","a":["की","kī"],"o":["का","के","को"],"why":"बेटी is feminine: राहुल की बेटी.","xr":["kā","ke","ko"]},
+      {"t":"type","p":"My father is a doctor","a":["मेरे पिताजी डॉक्टर हैं","मेरे पिता जी डॉक्टर हैं","मेरे पिता डॉक्टर हैं","mere pitājī ḍŏkṭar haĩ","mere pitā jī ḍŏkṭar haĩ","mere pitā ḍŏkṭar haĩ"],"hint":"मेरा · पिताजी · डॉक्टर · होना","x":["मेरा","है"],"why":"Parents take the honorific plural: मेरे पिताजी … हैं.","xr":["merā","hai"]},
+      {"t":"type","p":"I have one brother","a":["मेरा एक भाई है","merā ek bhāī hai"],"hint":"मेरा · एक · भाई · होना","x":["मेरी"],"why":"भाई is masculine, so my is मेरा: मेरा एक भाई है.","xr":["merī"]},
+      {"t":"type","p":"My grandmother (father's mother) is here (use जी)","a":["मेरी दादी जी यहाँ हैं","मेरी दादीजी यहाँ हैं","यहाँ मेरी दादी जी हैं","merī dādī jī yahā̃ haĩ","merī dādījī yahā̃ haĩ","yahā̃ merī dādī jī haĩ"],"hint":"मेरा · दादी जी · यहाँ · होना","x":["है","मेरे"],"why":"दादी is feminine, so मेरी; with respect the verb is plural: हैं.","xr":["hai","mere"]}
     ],
     "imperative": [
       {"t":"mc","q":"Which command form goes with आप?","o":["बैठिए","बैठो","बैठ","बैठता"],"why":"आप takes the -इए form: बैठिए."},
@@ -960,12 +960,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"Please sit in this room (verb last)","a":["इस","कमरे","में","बैठिए"],"x":["यह"],"why":"Before the postposition में, यह कमरा takes its oblique form: इस कमरे में."},
       {"t":"order","p":"Please tell me (verb last)","a":["मुझे","बताइए"],"x":["मैं"],"why":"मैं + को = मुझे: the pronoun takes its oblique form with the postposition."},
       {"t":"order","p":"Come here, please (verb last)","a":["यहाँ","आइए"],"x":["आओ"],"why":"With आप the command ends in -इए: आइए. आओ is for a friend."},
-      {"t":"fill","q":"ज़रा पानी __।","p":"Could I have some water, please? (polite)","a":["दीजिए","dījie"],"o":["दो","देइए","दिया"],"why":"The polite command of देना is दीजिए."},
-      {"t":"fill","q":"राहुल, यहाँ __!","p":"Rahul, come here! (to a friend, with तुम)","a":["आओ","āo"],"o":["आइए","आता","आया"],"why":"With तुम the command ends in -ओ: आओ."},
-      {"t":"fill","q":"चिंता __ कीजिए।","p":"Please don't worry.","a":["मत","न","mat","na"],"o":["नहीं","मैं","से"],"why":"Don't is मत (or न in a polite request), never नहीं."},
-      {"t":"type","p":"Please give me water","a":["मुझे पानी दीजिए","मुझे पानी दे दीजिए","ज़रा मुझे पानी दीजिए","मुझे ज़रा पानी दीजिए","पानी दीजिए","ज़रा पानी दीजिए","mujhe pānī dījie","mujhe pānī de dījie","zarā mujhe pānī dījie","mujhe zarā pānī dījie","pānī dījie","zarā pānī dījie"],"hint":"मैं + को · पानी · देना (polite)","x":["मैं","दो"],"why":"मैं + को = मुझे: the pronoun takes its oblique form before the postposition को."},
-      {"t":"type","p":"Please sit in that room","a":["उस कमरे में बैठिए","us kamre mẽ baiṭhie"],"hint":"वह · कमरा · में · बैठना (polite)","x":["वह","कमरा"],"why":"Before the postposition में, वह कमरा takes its oblique form: उस कमरे में."},
-      {"t":"type","p":"Don't worry (to a friend)","a":["चिंता मत करो","चिंता न करो","chintā mat karo","chintā na karo"],"hint":"चिंता (worry) · मत · करना","x":["नहीं"],"why":"For don't, use मत, never नहीं; करो goes with तुम."}
+      {"t":"fill","q":"ज़रा पानी __।","p":"Could I have some water, please? (polite)","a":["दीजिए","dījie"],"o":["दो","देइए","दिया"],"why":"The polite command of देना is दीजिए.","xr":["do","deie","diyā"]},
+      {"t":"fill","q":"राहुल, यहाँ __!","p":"Rahul, come here! (to a friend, with तुम)","a":["आओ","āo"],"o":["आइए","आता","आया"],"why":"With तुम the command ends in -ओ: आओ.","xr":["āie","ātā","āyā"]},
+      {"t":"fill","q":"चिंता __ कीजिए।","p":"Please don't worry.","a":["मत","न","mat","na"],"o":["नहीं","मैं","से"],"why":"Don't is मत (or न in a polite request), never नहीं.","xr":["nahī̃","maĩ","se"]},
+      {"t":"type","p":"Please give me water","a":["मुझे पानी दीजिए","मुझे पानी दे दीजिए","ज़रा मुझे पानी दीजिए","मुझे ज़रा पानी दीजिए","पानी दीजिए","ज़रा पानी दीजिए","mujhe pānī dījie","mujhe pānī de dījie","zarā mujhe pānī dījie","mujhe zarā pānī dījie","pānī dījie","zarā pānī dījie"],"hint":"मैं + को · पानी · देना (polite)","x":["मैं","दो"],"why":"मैं + को = मुझे: the pronoun takes its oblique form before the postposition को.","xr":["maĩ","do"]},
+      {"t":"type","p":"Please sit in that room","a":["उस कमरे में बैठिए","us kamre mẽ baiṭhie"],"hint":"वह · कमरा · में · बैठना (polite)","x":["वह","कमरा"],"why":"Before the postposition में, वह कमरा takes its oblique form: उस कमरे में.","xr":["vah","kamrā"]},
+      {"t":"type","p":"Don't worry (to a friend)","a":["चिंता मत करो","चिंता न करो","chintā mat karo","chintā na karo"],"hint":"चिंता (worry) · मत · करना","x":["नहीं"],"why":"For don't, use मत, never नहीं; करो goes with तुम.","xr":["nahī̃"]}
     ],
     "like-need": [
       {"t":"mc","q":"I need water =","o":["मुझे पानी चाहिए","मैं पानी चाहिए","मेरा पानी चाहिए","मुझे पानी चाहिए हूँ"],"why":"With चाहिए the person takes को: मुझे, not मैं."},
@@ -976,12 +976,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"I like tea (start with the person)","a":["मुझे","चाय","पसंद","है"],"x":["मैं"],"why":"With पसंद the person takes the oblique form with को: मुझे, not मैं."},
       {"t":"order","p":"The boy needs water (start with the person)","a":["लड़के","को","पानी","चाहिए"],"x":["लड़का"],"why":"Before the postposition को, लड़का takes its oblique form लड़के."},
       {"t":"order","p":"What do you like? (polite; start with the person)","a":["आपको","क्या","पसंद","है"],"x":["आप"],"why":"The person takes the postposition को: आप + को = आपको."},
-      {"t":"fill","q":"__ एक टिकट चाहिए।","p":"I need a ticket.","a":["मुझे","मुझको","mujhe","mujhko"],"o":["मैं","मेरा","मेरे"],"why":"With चाहिए the person is in the को form: मुझे."},
-      {"t":"fill","q":"सारा __ चाय पसंद है।","p":"Sarah likes tea.","a":["को","ko"],"o":["का","की","से"],"why":"The person who likes takes को: सारा को."},
-      {"t":"fill","q":"क्या आपको कुछ __?","p":"Do you need anything?","a":["चाहिए","chāhie"],"o":["चाहता","पसंद","भूख"],"why":"Need is चाहिए, with the person in the को form."},
-      {"t":"type","p":"I need water","a":["मुझे पानी चाहिए","मुझको पानी चाहिए","mujhe pānī chāhie","mujhko pānī chāhie"],"hint":"मैं + को · पानी · चाहिए","x":["मैं"],"why":"With चाहिए the person takes the oblique form with को: मुझे."},
-      {"t":"type","p":"Do you like India? (polite; use भारत)","a":["क्या आपको भारत पसंद है","आपको भारत पसंद है","kyā āpko bhārat pasand hai","āpko bhārat pasand hai"],"hint":"क्या · आप + को · भारत · पसंद · होना","x":["आप"],"why":"With पसंद the person takes the postposition को: आपको, not आप."},
-      {"t":"type","p":"Priya is hungry (use भूख)","a":["प्रिया को भूख लगी है","priyā ko bhūkh lagī hai"],"hint":"प्रिया · को · भूख · लगी है","x":["का"],"why":"Hunger is a मुझे-construction: the person takes the postposition को, प्रिया को."}
+      {"t":"fill","q":"__ एक टिकट चाहिए।","p":"I need a ticket.","a":["मुझे","मुझको","mujhe","mujhko"],"o":["मैं","मेरा","मेरे"],"why":"With चाहिए the person is in the को form: मुझे.","xr":["maĩ","merā","mere"]},
+      {"t":"fill","q":"सारा __ चाय पसंद है।","p":"Sarah likes tea.","a":["को","ko"],"o":["का","की","से"],"why":"The person who likes takes को: सारा को.","xr":["kā","kī","se"]},
+      {"t":"fill","q":"क्या आपको कुछ __?","p":"Do you need anything?","a":["चाहिए","chāhie"],"o":["चाहता","पसंद","भूख"],"why":"Need is चाहिए, with the person in the को form.","xr":["chāhtā","pasand","bhūkh"]},
+      {"t":"type","p":"I need water","a":["मुझे पानी चाहिए","मुझको पानी चाहिए","mujhe pānī chāhie","mujhko pānī chāhie"],"hint":"मैं + को · पानी · चाहिए","x":["मैं"],"why":"With चाहिए the person takes the oblique form with को: मुझे.","xr":["maĩ"]},
+      {"t":"type","p":"Do you like India? (polite; use भारत)","a":["क्या आपको भारत पसंद है","आपको भारत पसंद है","kyā āpko bhārat pasand hai","āpko bhārat pasand hai"],"hint":"क्या · आप + को · भारत · पसंद · होना","x":["आप"],"why":"With पसंद the person takes the postposition को: आपको, not आप.","xr":["āp"]},
+      {"t":"type","p":"Priya is hungry (use भूख)","a":["प्रिया को भूख लगी है","priyā ko bhūkh lagī hai"],"hint":"प्रिया · को · भूख · लगी है","x":["का"],"why":"Hunger is a मुझे-construction: the person takes the postposition को, प्रिया को.","xr":["kā"]}
     ],
     "food": [
       {"t":"mc","q":"two samosas =","o":["दो समोसे","दो समोसा","समोसे दो","दो समोसों"],"why":"After a number above one, समोसा takes its plural form समोसे."},
@@ -992,12 +992,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"cold water","a":["ठंडा","पानी"],"x":["ठंडी"],"why":"पानी is masculine, so cold is ठंडा, not ठंडी."},
       {"t":"order","p":"two samosas and one lassi (in this order)","a":["दो","समोसे","और","एक","लस्सी"],"x":["समोसा"],"why":"After दो, समोसा takes its plural form समोसे."},
       {"t":"order","p":"This sari is very expensive","a":["यह","साड़ी","बहुत","महँगी","है"],"x":["महँगा"],"why":"साड़ी is feminine, so the adjective agrees: महँगी."},
-      {"t":"fill","q":"दाल बहुत __ है।","p":"The dal is very spicy.","a":["तीखी","tīkhī"],"o":["तीखा","तीखे","तीखों"],"why":"दाल is feminine, so spicy is तीखी."},
-      {"t":"fill","q":"भैया, तीन __ दीजिए।","p":"Three samosas, please.","a":["समोसे","samose"],"o":["समोसा","समोसों","समोसी"],"why":"After तीन, समोसा takes its plural form समोसे."},
-      {"t":"fill","q":"ये केले कितने __ हैं?","p":"How much are these bananas?","a":["के","ke"],"o":["का","की","को"],"why":"Several bananas: का becomes के."},
-      {"t":"type","p":"Two samosas, please","a":["दो समोसे दीजिए","ज़रा दो समोसे दीजिए","do samose dījie","zarā do samose dījie"],"hint":"दो · समोसा · देना (polite)","x":["समोसा","दे"],"why":"After दो, समोसा takes its plural form: दो समोसे."},
-      {"t":"type","p":"I need cold water","a":["मुझे ठंडा पानी चाहिए","मुझको ठंडा पानी चाहिए","mujhe ṭhaṇḍā pānī chāhie","mujhko ṭhaṇḍā pānī chāhie"],"hint":"मैं + को · ठंडा · पानी · चाहिए","x":["ठंडी","मैं"],"why":"पानी is masculine, so ठंडा पानी; and the person takes the oblique मुझे."},
-      {"t":"type","p":"Could you lower it a little? (polite)","a":["थोड़ा कम कीजिए","ज़रा कम कीजिए","थोड़ा कम कर दीजिए","thoṛā kam kījie","zarā kam kījie","thoṛā kam kar dījie"],"hint":"थोड़ा · कम · करना (polite)","x":["करो"],"why":"Bargaining politely: कम कीजिए, with the polite command कीजिए."}
+      {"t":"fill","q":"दाल बहुत __ है।","p":"The dal is very spicy.","a":["तीखी","tīkhī"],"o":["तीखा","तीखे","तीखों"],"why":"दाल is feminine, so spicy is तीखी.","xr":["tīkhā","tīkhe","tīkhõ"]},
+      {"t":"fill","q":"भैया, तीन __ दीजिए।","p":"Three samosas, please.","a":["समोसे","samose"],"o":["समोसा","समोसों","समोसी"],"why":"After तीन, समोसा takes its plural form समोसे.","xr":["samosā","samosõ","samosī"]},
+      {"t":"fill","q":"ये केले कितने __ हैं?","p":"How much are these bananas?","a":["के","ke"],"o":["का","की","को"],"why":"Several bananas: का becomes के.","xr":["kā","kī","ko"]},
+      {"t":"type","p":"Two samosas, please","a":["दो समोसे दीजिए","ज़रा दो समोसे दीजिए","do samose dījie","zarā do samose dījie"],"hint":"दो · समोसा · देना (polite)","x":["समोसा","दे"],"why":"After दो, समोसा takes its plural form: दो समोसे.","xr":["samosā","de"]},
+      {"t":"type","p":"I need cold water","a":["मुझे ठंडा पानी चाहिए","मुझको ठंडा पानी चाहिए","mujhe ṭhaṇḍā pānī chāhie","mujhko ṭhaṇḍā pānī chāhie"],"hint":"मैं + को · ठंडा · पानी · चाहिए","x":["ठंडी","मैं"],"why":"पानी is masculine, so ठंडा पानी; and the person takes the oblique मुझे.","xr":["ṭhaṇḍī","maĩ"]},
+      {"t":"type","p":"Could you lower it a little? (polite)","a":["थोड़ा कम कीजिए","ज़रा कम कीजिए","थोड़ा कम कर दीजिए","thoṛā kam kījie","zarā kam kījie","thoṛā kam kar dījie"],"hint":"थोड़ा · कम · करना (polite)","x":["करो"],"why":"Bargaining politely: कम कीजिए, with the polite command कीजिए.","xr":["karo"]}
     ],
     "habitual": [
       {"t":"mc","q":"I work (a woman speaking) =","o":["मैं काम करती हूँ","मैं काम करता हूँ","मैं काम करती है","मैं काम करते हूँ"],"why":"A woman speaking: करती, and मैं takes हूँ."},
@@ -1008,12 +1008,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"Sarah lives in Delhi (start with Sarah)","a":["सारा","दिल्ली","में","रहती","है"],"x":["रहता"],"why":"Sarah is a woman, so the verb agrees: रहती है."},
       {"t":"order","p":"My father works here (start with my father)","a":["मेरे","पिताजी","यहाँ","काम","करते","हैं"],"x":["करता"],"why":"A father takes the honorific plural: करते हैं."},
       {"t":"order","p":"I speak Hindi (a man speaking; start with मैं)","a":["मैं","हिंदी","बोलता","हूँ"],"x":["बोलती"],"why":"The verb agrees with a man speaking: बोलता."},
-      {"t":"fill","q":"प्रिया रोज़ चाय __ है।","p":"Priya drinks tea every day.","a":["पीती","pītī"],"o":["पीता","पीते","पीना"],"why":"Priya is a woman: पीती है."},
-      {"t":"fill","q":"आप क्या __ हैं?","p":"What do you do? (to a man)","a":["करते","karte"],"o":["करता","करती","करो"],"why":"With आप, a man is asked with करते हैं."},
-      {"t":"fill","q":"वे हिंदी __ बोलते।","p":"They don't speak Hindi.","a":["नहीं","nahī̃"],"o":["मत","कोई","से"],"why":"नहीं goes before the verb; मत is only for don't in commands."},
-      {"t":"type","p":"I drink tea (a woman speaking)","a":["मैं चाय पीती हूँ","maĩ chāy pītī hū̃"],"hint":"मैं · चाय · पीना","x":["पीता"],"why":"The verb agrees with a woman speaker: पीती."},
-      {"t":"type","p":"Where do you live? (to a man, polite)","a":["आप कहाँ रहते हैं","कहाँ रहते हैं आप","कहाँ रहते हैं","āp kahā̃ rahte haĩ","kahā̃ rahte haĩ āp","kahā̃ rahte haĩ"],"hint":"आप · कहाँ · रहना","x":["रहता","है"],"why":"आप takes the plural: रहते हैं."},
-      {"t":"type","p":"My mother speaks Hindi","a":["मेरी माँ हिंदी बोलती हैं","मेरी माँ हिंदी बोलती है","merī mā̃ hindī boltī haĩ","merī mā̃ hindī boltī hai"],"hint":"मेरा · माँ · हिंदी · बोलना","x":["बोलता","बोलते"],"why":"माँ is feminine, so the verb agrees: बोलती."}
+      {"t":"fill","q":"प्रिया रोज़ चाय __ है।","p":"Priya drinks tea every day.","a":["पीती","pītī"],"o":["पीता","पीते","पीना"],"why":"Priya is a woman: पीती है.","xr":["pītā","pīte","pīnā"]},
+      {"t":"fill","q":"आप क्या __ हैं?","p":"What do you do? (to a man)","a":["करते","karte"],"o":["करता","करती","करो"],"why":"With आप, a man is asked with करते हैं.","xr":["kartā","kartī","karo"]},
+      {"t":"fill","q":"वे हिंदी __ बोलते।","p":"They don't speak Hindi.","a":["नहीं","nahī̃"],"o":["मत","कोई","से"],"why":"नहीं goes before the verb; मत is only for don't in commands.","xr":["mat","koī","se"]},
+      {"t":"type","p":"I drink tea (a woman speaking)","a":["मैं चाय पीती हूँ","maĩ chāy pītī hū̃"],"hint":"मैं · चाय · पीना","x":["पीता"],"why":"The verb agrees with a woman speaker: पीती.","xr":["pītā"]},
+      {"t":"type","p":"Where do you live? (to a man, polite)","a":["आप कहाँ रहते हैं","कहाँ रहते हैं आप","कहाँ रहते हैं","āp kahā̃ rahte haĩ","kahā̃ rahte haĩ āp","kahā̃ rahte haĩ"],"hint":"आप · कहाँ · रहना","x":["रहता","है"],"why":"आप takes the plural: रहते हैं.","xr":["rahtā","hai"]},
+      {"t":"type","p":"My mother speaks Hindi","a":["मेरी माँ हिंदी बोलती हैं","मेरी माँ हिंदी बोलती है","merī mā̃ hindī boltī haĩ","merī mā̃ hindī boltī hai"],"hint":"मेरा · माँ · हिंदी · बोलना","x":["बोलता","बोलते"],"why":"माँ is feminine, so the verb agrees: बोलती.","xr":["boltā","bolte"]}
     ],
     "continuous": [
       {"t":"mc","q":"'I'm reading a book right now' (a man speaking) =","o":["मैं अभी किताब पढ़ रहा हूँ","मैं अभी किताब पढ़ता हूँ","मैं अभी किताब पढ़ रही हूँ","मैं अभी पढ़ रहा किताब हूँ"],"why":"Right now: stem + रहा + हूँ, and a man says रहा."},
@@ -1024,12 +1024,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"The girls are coming","a":["लड़कियाँ","आ","रही","हैं"],"x":["रहे"],"why":"लड़कियाँ is feminine plural, so the verb agrees with रही, not रहे."},
       {"t":"order","p":"I'm cooking (a woman speaking; start with मैं)","a":["मैं","खाना","बना","रही","हूँ"],"x":["रहा"],"why":"The verb agrees with a woman speaker: बना रही हूँ."},
       {"t":"order","p":"What is he doing? (start with he)","a":["वह","क्या","कर","रहा","है"],"x":["करता"],"why":"Right now needs कर रहा है; करता है would mean what he does in general."},
-      {"t":"fill","q":"बारिश हो __ है।","p":"It's raining.","a":["रही","rahī"],"o":["रहा","रहे","रहो"],"why":"बारिश is a feminine word, so it takes रही."},
-      {"t":"fill","q":"आप क्या कर __ हैं?","p":"What are you doing? (to a man)","a":["रहे","rahe"],"o":["रहा","रही","रहो"],"why":"With आप the verb takes the plural form रहे, even for one man."},
-      {"t":"fill","q":"मैं अभी टीवी देख रहा __।","p":"I'm watching TV right now. (a man speaking)","a":["हूँ","hū̃"],"o":["है","हैं","हो"],"why":"मैं always goes with हूँ."},
-      {"t":"type","p":"She is talking on the phone","a":["वह फ़ोन पर बात कर रही है","vah fon par bāt kar rahī hai"],"hint":"वह · फ़ोन पर · बात करना (to talk) · रहा → ?","x":["रहा"],"why":"She is a woman, so रहा agrees and becomes the feminine रही."},
-      {"t":"type","p":"The children are playing outside","a":["बच्चे बाहर खेल रहे हैं","बाहर बच्चे खेल रहे हैं","bacche bāhar khel rahe haĩ","bāhar bacche khel rahe haĩ"],"hint":"बच्चा (child) · बाहर (outside) · खेलना (to play)","x":["रहा"],"why":"बच्चे is plural, so the verb agrees: खेल रहे हैं."},
-      {"t":"type","p":"I'm not going home (a man speaking)","a":["मैं घर नहीं जा रहा","मैं घर नहीं जा रहा हूँ","maĩ ghar nahī̃ jā rahā","maĩ ghar nahī̃ jā rahā hū̃"],"hint":"मैं · घर · नहीं · जाना","x":["जाता"],"why":"नहीं goes before the verb, and right now needs जा रहा, not the habitual जाता."}
+      {"t":"fill","q":"बारिश हो __ है।","p":"It's raining.","a":["रही","rahī"],"o":["रहा","रहे","रहो"],"why":"बारिश is a feminine word, so it takes रही.","xr":["rahā","rahe","raho"]},
+      {"t":"fill","q":"आप क्या कर __ हैं?","p":"What are you doing? (to a man)","a":["रहे","rahe"],"o":["रहा","रही","रहो"],"why":"With आप the verb takes the plural form रहे, even for one man.","xr":["rahā","rahī","raho"]},
+      {"t":"fill","q":"मैं अभी टीवी देख रहा __।","p":"I'm watching TV right now. (a man speaking)","a":["हूँ","hū̃"],"o":["है","हैं","हो"],"why":"मैं always goes with हूँ.","xr":["hai","haĩ","ho"]},
+      {"t":"type","p":"She is talking on the phone","a":["वह फ़ोन पर बात कर रही है","vah fon par bāt kar rahī hai"],"hint":"वह · फ़ोन पर · बात करना (to talk) · रहा → ?","x":["रहा"],"why":"She is a woman, so रहा agrees and becomes the feminine रही.","xr":["rahā"]},
+      {"t":"type","p":"The children are playing outside","a":["बच्चे बाहर खेल रहे हैं","बाहर बच्चे खेल रहे हैं","bacche bāhar khel rahe haĩ","bāhar bacche khel rahe haĩ"],"hint":"बच्चा (child) · बाहर (outside) · खेलना (to play)","x":["रहा"],"why":"बच्चे is plural, so the verb agrees: खेल रहे हैं.","xr":["rahā"]},
+      {"t":"type","p":"I'm not going home (a man speaking)","a":["मैं घर नहीं जा रहा","मैं घर नहीं जा रहा हूँ","maĩ ghar nahī̃ jā rahā","maĩ ghar nahī̃ jā rahā hū̃"],"hint":"मैं · घर · नहीं · जाना","x":["जाता"],"why":"नहीं goes before the verb, and right now needs जा रहा, not the habitual जाता.","xr":["jātā"]}
     ],
     "was": [
       {"t":"mc","q":"'I was at home' (a woman speaking) =","o":["मैं घर पर थी","मैं घर पर था","मैं घर पर थे","मैं घर पर हूँ"],"why":"A woman says थी; हूँ would be the present."},
@@ -1040,12 +1040,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"Sarah was sick","a":["सारा","बीमार","थी"],"x":["था"],"why":"सारा is a woman, so था agrees and becomes the feminine थी."},
       {"t":"order","p":"Where were you? (to a man; start with आप)","a":["आप","कहाँ","थे"],"x":["था"],"why":"आप takes the plural थे, even for one man."},
       {"t":"order","p":"I used to live in Boston (a woman speaking; start with मैं)","a":["मैं","बोस्टन","में","रहती","थी"],"x":["रहता"],"why":"Both parts agree with a woman speaker: रहती थी. The postposition में goes after the noun."},
-      {"t":"fill","q":"दुकानें बंद __।","p":"The shops were closed.","a":["थीं","thī̃"],"o":["था","थे","है"],"why":"दुकानें is feminine plural, so the past of है is थीं."},
-      {"t":"fill","q":"मैं बहुत थकी हुई __।","p":"I was very tired. (a woman speaking)","a":["थी","thī"],"o":["था","थे","हूँ"],"why":"थकी हुई is feminine, and so is थी."},
-      {"t":"fill","q":"मेरे दादा जी किसान __।","p":"My grandfather was a farmer.","a":["थे","the"],"o":["था","थी","है"],"why":"Respected relatives take the plural for respect: मेरे दादा जी … थे."},
-      {"t":"type","p":"My sister was sick","a":["मेरी बहन बीमार थी","merī bahan bīmār thī"],"hint":"मेरा · बहन · बीमार (sick)","x":["मेरा","था"],"why":"बहन is feminine, so मेरी and थी agree with her."},
-      {"t":"type","p":"We used to live in Delhi (a family speaking)","a":["हम दिल्ली में रहते थे","हम पहले दिल्ली में रहते थे","ham dillī mẽ rahte the","ham pahle dillī mẽ rahte the"],"hint":"हम · दिल्ली में · रहना","x":["रहता","था"],"why":"हम is plural, so both parts agree: रहते थे."},
-      {"t":"type","p":"Were you at home? (to a woman, politely)","a":["क्या आप घर पर थीं","आप घर पर थीं","क्या आप घर में थीं","आप घर में थीं","kyā āp ghar par thī̃","āp ghar par thī̃","kyā āp ghar mẽ thī̃","āp ghar mẽ thī̃"],"hint":"क्या · आप · घर पर","x":["थे"],"why":"आप is plural, so for a woman it takes the feminine plural थीं."}
+      {"t":"fill","q":"दुकानें बंद __।","p":"The shops were closed.","a":["थीं","thī̃"],"o":["था","थे","है"],"why":"दुकानें is feminine plural, so the past of है is थीं.","xr":["thā","the","hai"]},
+      {"t":"fill","q":"मैं बहुत थकी हुई __।","p":"I was very tired. (a woman speaking)","a":["थी","thī"],"o":["था","थे","हूँ"],"why":"थकी हुई is feminine, and so is थी.","xr":["thā","the","hū̃"]},
+      {"t":"fill","q":"मेरे दादा जी किसान __।","p":"My grandfather was a farmer.","a":["थे","the"],"o":["था","थी","है"],"why":"Respected relatives take the plural for respect: मेरे दादा जी … थे.","xr":["thā","thī","hai"]},
+      {"t":"type","p":"My sister was sick","a":["मेरी बहन बीमार थी","merī bahan bīmār thī"],"hint":"मेरा · बहन · बीमार (sick)","x":["मेरा","था"],"why":"बहन is feminine, so मेरी and थी agree with her.","xr":["merā","thā"]},
+      {"t":"type","p":"We used to live in Delhi (a family speaking)","a":["हम दिल्ली में रहते थे","हम पहले दिल्ली में रहते थे","ham dillī mẽ rahte the","ham pahle dillī mẽ rahte the"],"hint":"हम · दिल्ली में · रहना","x":["रहता","था"],"why":"हम is plural, so both parts agree: रहते थे.","xr":["rahtā","thā"]},
+      {"t":"type","p":"Were you at home? (to a woman, politely)","a":["क्या आप घर पर थीं","आप घर पर थीं","क्या आप घर में थीं","आप घर में थीं","kyā āp ghar par thī̃","āp ghar par thī̃","kyā āp ghar mẽ thī̃","āp ghar mẽ thī̃"],"hint":"क्या · आप · घर पर","x":["थे"],"why":"आप is plural, so for a woman it takes the feminine plural थीं.","xr":["the"]}
     ],
     "have": [
       {"t":"mc","q":"'I have a car' =","o":["मेरे पास एक गाड़ी है","मैं एक गाड़ी है","मेरा पास एक गाड़ी है","मेरे पास एक गाड़ी हूँ"],"why":"Things you have take मेरे पास, and the verb is है."},
@@ -1056,12 +1056,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"My brother has a car (start with the owner)","a":["मेरे","भाई","के","पास","गाड़ी","है"],"x":["मेरा"],"why":"Before the postposition के पास, मेरा takes its oblique form मेरे."},
       {"t":"order","p":"I have two tickets (start with the owner)","a":["मेरे","पास","दो","टिकट","हैं"],"x":["है"],"why":"The verb agrees with the tickets, which are plural: हैं."},
       {"t":"order","p":"I have a sister","a":["मेरी","एक","बहन","है"],"x":["मेरा"],"why":"बहन is feminine, so the possessive agrees: मेरी, whoever is speaking."},
-      {"t":"fill","q":"__ पास समय नहीं है।","p":"I don't have time.","a":["मेरे","mere"],"o":["मेरा","मैं","मुझे"],"why":"Before के पास, मेरा changes to मेरे."},
-      {"t":"fill","q":"क्या __ पास पैसे हैं?","p":"Do you have money?","a":["आपके","āpke"],"o":["आप","आपका","आपको"],"why":"आपका changes to आपके before पास."},
-      {"t":"fill","q":"उसका एक बेटा __।","p":"He has a son.","a":["है","hai"],"o":["हैं","हूँ","हो"],"why":"One son: है."},
-      {"t":"type","p":"My friend has a car","a":["मेरे दोस्त के पास गाड़ी है","मेरे दोस्त के पास एक गाड़ी है","मेरे दोस्त के पास कार है","मेरे दोस्त के पास एक कार है","mere dost ke pās gāṛī hai","mere dost ke pās ek gāṛī hai","mere dost ke pās kār hai","mere dost ke pās ek kār hai"],"hint":"मेरा · दोस्त · के पास · गाड़ी","x":["मेरा"],"why":"Before the postposition के पास, मेरा goes oblique: मेरे दोस्त के पास."},
-      {"t":"type","p":"I have two brothers","a":["मेरे दो भाई हैं","mere do bhāī haĩ"],"hint":"मेरा · दो · भाई","x":["है","मेरा"],"why":"Two brothers are plural, so मेरे and हैं agree with them."},
-      {"t":"type","p":"Do you have a ticket? (at the station)","a":["क्या आपके पास टिकट है","आपके पास टिकट है","क्या आपके पास एक टिकट है","kyā āpke pās ṭikaṭ hai","āpke pās ṭikaṭ hai","kyā āpke pās ek ṭikaṭ hai"],"hint":"क्या · आप · के पास · टिकट","x":["आपका","आप"],"why":"Before the postposition के पास, आपका takes its oblique form आपके."}
+      {"t":"fill","q":"__ पास समय नहीं है।","p":"I don't have time.","a":["मेरे","mere"],"o":["मेरा","मैं","मुझे"],"why":"Before के पास, मेरा changes to मेरे.","xr":["merā","maĩ","mujhe"]},
+      {"t":"fill","q":"क्या __ पास पैसे हैं?","p":"Do you have money?","a":["आपके","āpke"],"o":["आप","आपका","आपको"],"why":"आपका changes to आपके before पास.","xr":["āp","āpkā","āpko"]},
+      {"t":"fill","q":"उसका एक बेटा __।","p":"He has a son.","a":["है","hai"],"o":["हैं","हूँ","हो"],"why":"One son: है.","xr":["haĩ","hū̃","ho"]},
+      {"t":"type","p":"My friend has a car","a":["मेरे दोस्त के पास गाड़ी है","मेरे दोस्त के पास एक गाड़ी है","मेरे दोस्त के पास कार है","मेरे दोस्त के पास एक कार है","mere dost ke pās gāṛī hai","mere dost ke pās ek gāṛī hai","mere dost ke pās kār hai","mere dost ke pās ek kār hai"],"hint":"मेरा · दोस्त · के पास · गाड़ी","x":["मेरा"],"why":"Before the postposition के पास, मेरा goes oblique: मेरे दोस्त के पास.","xr":["merā"]},
+      {"t":"type","p":"I have two brothers","a":["मेरे दो भाई हैं","mere do bhāī haĩ"],"hint":"मेरा · दो · भाई","x":["है","मेरा"],"why":"Two brothers are plural, so मेरे and हैं agree with them.","xr":["hai","merā"]},
+      {"t":"type","p":"Do you have a ticket? (at the station)","a":["क्या आपके पास टिकट है","आपके पास टिकट है","क्या आपके पास एक टिकट है","kyā āpke pās ṭikaṭ hai","āpke pās ṭikaṭ hai","kyā āpke pās ek ṭikaṭ hai"],"hint":"क्या · आप · के पास · टिकट","x":["आपका","आप"],"why":"Before the postposition के पास, आपका takes its oblique form आपके.","xr":["āpkā","āp"]}
     ],
     "infinitive": [
       {"t":"mc","q":"'I want to go home' (a man speaking) =","o":["मैं घर जाना चाहता हूँ","मैं घर जाना चाहती हूँ","मुझे घर जाना चाहता हूँ","मैं घर जाता चाहता हूँ"],"why":"Want to = मैं + -ना + चाहता हूँ for a man."},
@@ -1072,12 +1072,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"I want to learn Hindi (a woman speaking; start with मैं)","a":["मैं","हिंदी","सीखना","चाहती","हूँ"],"x":["चाहता"],"why":"चाहना agrees with a woman speaker: चाहती हूँ."},
       {"t":"order","p":"I have to work (start with the person)","a":["मुझे","काम","करना","है"],"x":["मैं"],"why":"Have to puts the person in the oblique form with को: मुझे, not मैं."},
       {"t":"order","p":"You should drink water (start with the person)","a":["आपको","पानी","पीना","चाहिए"],"x":["आप"],"why":"With चाहिए the person takes the oblique form with को: आपको."},
-      {"t":"fill","q":"मैं चाय __ चाहता हूँ।","p":"I want to drink tea. (a man speaking)","a":["पीना","pīnā"],"o":["पीता","पी","पीती"],"why":"Before चाहना the verb stays in the -ना form: पीना."},
-      {"t":"fill","q":"__ कल दिल्ली जाना है।","p":"I have to go to Delhi tomorrow.","a":["मुझे","मुझको","mujhe","mujhko"],"o":["मैं","मेरा","मेरे"],"why":"Have to takes मुझे (or मुझको), not मैं."},
-      {"t":"fill","q":"आपको आराम करना __।","p":"You should rest.","a":["चाहिए","chāhie"],"o":["चाहते","चाहता","चाहती"],"why":"Should = -ना + चाहिए, which never changes."},
-      {"t":"type","p":"I want to go home (a man speaking)","a":["मैं घर जाना चाहता हूँ","maĩ ghar jānā chāhtā hū̃"],"hint":"मैं · घर · जाना · चाहना","x":["चाहती"],"why":"चाहना agrees with a man speaker: चाहता हूँ."},
-      {"t":"type","p":"I have to go","a":["मुझे जाना है","मुझको जाना है","mujhe jānā hai","mujhko jānā hai"],"hint":"मैं → ? · जाना","x":["मैं"],"why":"Have to puts the person in the oblique form with को: मुझे."},
-      {"t":"type","p":"You should go to the doctor","a":["आपको डॉक्टर के पास जाना चाहिए","āpko ḍŏkṭar ke pās jānā chāhie"],"hint":"आप → ? · डॉक्टर के पास · जाना · चाहिए","x":["आप"],"why":"With चाहिए the person takes the oblique form: आपको."}
+      {"t":"fill","q":"मैं चाय __ चाहता हूँ।","p":"I want to drink tea. (a man speaking)","a":["पीना","pīnā"],"o":["पीता","पी","पीती"],"why":"Before चाहना the verb stays in the -ना form: पीना.","xr":["pītā","pī","pītī"]},
+      {"t":"fill","q":"__ कल दिल्ली जाना है।","p":"I have to go to Delhi tomorrow.","a":["मुझे","मुझको","mujhe","mujhko"],"o":["मैं","मेरा","मेरे"],"why":"Have to takes मुझे (or मुझको), not मैं.","xr":["maĩ","merā","mere"]},
+      {"t":"fill","q":"आपको आराम करना __।","p":"You should rest.","a":["चाहिए","chāhie"],"o":["चाहते","चाहता","चाहती"],"why":"Should = -ना + चाहिए, which never changes.","xr":["chāhte","chāhtā","chāhtī"]},
+      {"t":"type","p":"I want to go home (a man speaking)","a":["मैं घर जाना चाहता हूँ","maĩ ghar jānā chāhtā hū̃"],"hint":"मैं · घर · जाना · चाहना","x":["चाहती"],"why":"चाहना agrees with a man speaker: चाहता हूँ.","xr":["chāhtī"]},
+      {"t":"type","p":"I have to go","a":["मुझे जाना है","मुझको जाना है","mujhe jānā hai","mujhko jānā hai"],"hint":"मैं → ? · जाना","x":["मैं"],"why":"Have to puts the person in the oblique form with को: मुझे.","xr":["maĩ"]},
+      {"t":"type","p":"You should go to the doctor","a":["आपको डॉक्टर के पास जाना चाहिए","āpko ḍŏkṭar ke pās jānā chāhie"],"hint":"आप → ? · डॉक्टर के पास · जाना · चाहिए","x":["आप"],"why":"With चाहिए the person takes the oblique form: आपको.","xr":["āp"]}
     ],
     "past": [
       {"t":"mc","q":"'I ate (the food)' =","o":["मैंने खाना खाया","मैं खाना खाया","मैंने खाना खाई","मुझे खाना खाया"],"why":"खाना takes an object, so मैंने, and खाया agrees with खाना."},
@@ -1088,12 +1088,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"Sarah read the book (start with Sarah)","a":["सारा","ने","किताब","पढ़ी"],"x":["पढ़ा"],"why":"With ने the verb agrees with the object: किताब is feminine, so पढ़ी."},
       {"t":"order","p":"He drank tea (start with he)","a":["उसने","चाय","पी"],"x":["वह"],"why":"With the postposition ने, वह takes its oblique form: उसने."},
       {"t":"order","p":"She went to Delhi","a":["वह","दिल्ली","गई"],"x":["उसने"],"why":"जाना has no object, so there is no ने: वह दिल्ली गई."},
-      {"t":"fill","q":"मैंने दो समोसे __।","p":"I ate two samosas.","a":["खाए","khāe"],"o":["खाया","खाई","खाता"],"why":"With ने the verb agrees with दो समोसे, plural: खाए."},
-      {"t":"fill","q":"हम कल जयपुर __।","p":"We went to Jaipur yesterday.","a":["गए","gae"],"o":["गया","जाता","जाना"],"why":"The past of जाना is irregular: गया, and with हम, गए."},
-      {"t":"fill","q":"आपने क्या __?","p":"What did you do?","a":["किया","kiyā"],"o":["की","करे","करता"],"why":"The past of करना is irregular: किया."},
-      {"t":"type","p":"I drank tea","a":["मैंने चाय पी","मैंने चाय पी ली","maĩne chāy pī","maĩne chāy pī lī"],"hint":"मैं · ने · चाय · पीना","x":["पिया"],"why":"With ने the verb agrees with चाय, which is feminine: पी."},
-      {"t":"type","p":"He ate the food","a":["उसने खाना खाया","उसने खाना खा लिया","usne khānā khāyā","usne khānā khā liyā"],"hint":"वह · ने · खाना (food) · खाना (to eat)","x":["वह","खाई"],"why":"With ने, वह takes its oblique form उसने, and खाया agrees with खाना."},
-      {"t":"type","p":"I saw the Taj Mahal","a":["मैंने ताज महल देखा","maĩne tāj mahal dekhā"],"hint":"मैं · ने · ताज महल · देखना","x":["मैं","देखी"],"why":"With ने, देखा agrees with ताज महल, which is masculine, not with you."}
+      {"t":"fill","q":"मैंने दो समोसे __।","p":"I ate two samosas.","a":["खाए","khāe"],"o":["खाया","खाई","खाता"],"why":"With ने the verb agrees with दो समोसे, plural: खाए.","xr":["khāyā","khāī","khātā"]},
+      {"t":"fill","q":"हम कल जयपुर __।","p":"We went to Jaipur yesterday.","a":["गए","gae"],"o":["गया","जाता","जाना"],"why":"The past of जाना is irregular: गया, and with हम, गए.","xr":["gayā","jātā","jānā"]},
+      {"t":"fill","q":"आपने क्या __?","p":"What did you do?","a":["किया","kiyā"],"o":["की","करे","करता"],"why":"The past of करना is irregular: किया.","xr":["kī","kare","kartā"]},
+      {"t":"type","p":"I drank tea","a":["मैंने चाय पी","मैंने चाय पी ली","maĩne chāy pī","maĩne chāy pī lī"],"hint":"मैं · ने · चाय · पीना","x":["पिया"],"why":"With ने the verb agrees with चाय, which is feminine: पी.","xr":["piyā"]},
+      {"t":"type","p":"He ate the food","a":["उसने खाना खाया","उसने खाना खा लिया","usne khānā khāyā","usne khānā khā liyā"],"hint":"वह · ने · खाना (food) · खाना (to eat)","x":["वह","खाई"],"why":"With ने, वह takes its oblique form उसने, and खाया agrees with खाना.","xr":["vah","khāī"]},
+      {"t":"type","p":"I saw the Taj Mahal","a":["मैंने ताज महल देखा","maĩne tāj mahal dekhā"],"hint":"मैं · ने · ताज महल · देखना","x":["मैं","देखी"],"why":"With ने, देखा agrees with ताज महल, which is masculine, not with you.","xr":["maĩ","dekhī"]}
     ],
     "future": [
       {"t":"mc","q":"'I'll go tomorrow' (a woman speaking) =","o":["मैं कल जाऊँगी","मैं कल जाऊँगा","मैं कल जाएगी","मैं कल गई"],"why":"मैं takes -ऊँगी when a woman speaks."},
@@ -1104,12 +1104,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"She will come home","a":["वह","घर","आएगी"],"x":["आएगा"],"why":"She is a woman, so the ending agrees: -गी, आएगी."},
       {"t":"order","p":"We will eat samosas (start with हम)","a":["हम","समोसे","खाएँगे"],"x":["खाएगा"],"why":"हम is plural, so the verb agrees: खाएँगे."},
       {"t":"order","p":"I'll call you (a man speaking; start with मैं)","a":["मैं","आपको","फ़ोन","करूँगा"],"x":["करूँगी"],"why":"The ending agrees with a man speaker: करूँगा."},
-      {"t":"fill","q":"ट्रेन कितने बजे __?","p":"What time will the train leave?","a":["जाएगी","चलेगी","छूटेगी","jāegī","chalegī","chhūṭegī"],"o":["जाएगा","जाऊँगी","जाओगी"],"why":"ट्रेन is feminine, and वह-type subjects take -एगी."},
-      {"t":"fill","q":"मैं कल आपको फ़ोन __।","p":"I'll call you tomorrow. (a woman speaking)","a":["करूँगी","karū̃gī"],"o":["करूँगा","करेगी","करेंगी"],"why":"मैं takes -ऊँगी when a woman speaks."},
-      {"t":"fill","q":"आप कब __?","p":"When will you come? (to a man)","a":["आएँगे","āẽge"],"o":["आएगा","आऊँगा","आएगी"],"why":"आप takes the plural -एँगे form."},
-      {"t":"type","p":"I'll go to Delhi tomorrow (a man speaking)","a":["मैं कल दिल्ली जाऊँगा","कल मैं दिल्ली जाऊँगा","maĩ kal dillī jāū̃gā","kal maĩ dillī jāū̃gā"],"hint":"मैं · कल · दिल्ली · जाना","x":["जाऊँगी"],"why":"The ending agrees with a man speaker: जाऊँगा."},
-      {"t":"type","p":"The children will play outside","a":["बच्चे बाहर खेलेंगे","बाहर बच्चे खेलेंगे","bacche bāhar khelẽge","bāhar bacche khelẽge"],"hint":"बच्चा · बाहर · खेलना","x":["खेलेगा"],"why":"बच्चे is plural, so the ending agrees: खेलेंगे."},
-      {"t":"type","p":"What will you eat? (to a woman, politely)","a":["आप क्या खाएँगी","āp kyā khāẽgī"],"hint":"आप · क्या · खाना","x":["खाएँगे"],"why":"आप takes the plural, and for a woman the feminine -गी: खाएँगी."}
+      {"t":"fill","q":"ट्रेन कितने बजे __?","p":"What time will the train leave?","a":["जाएगी","चलेगी","छूटेगी","jāegī","chalegī","chhūṭegī"],"o":["जाएगा","जाऊँगी","जाओगी"],"why":"ट्रेन is feminine, and वह-type subjects take -एगी.","xr":["jāegā","jāū̃gī","jāogī"]},
+      {"t":"fill","q":"मैं कल आपको फ़ोन __।","p":"I'll call you tomorrow. (a woman speaking)","a":["करूँगी","karū̃gī"],"o":["करूँगा","करेगी","करेंगी"],"why":"मैं takes -ऊँगी when a woman speaks.","xr":["karū̃gā","karegī","karẽgī"]},
+      {"t":"fill","q":"आप कब __?","p":"When will you come? (to a man)","a":["आएँगे","āẽge"],"o":["आएगा","आऊँगा","आएगी"],"why":"आप takes the plural -एँगे form.","xr":["āegā","āū̃gā","āegī"]},
+      {"t":"type","p":"I'll go to Delhi tomorrow (a man speaking)","a":["मैं कल दिल्ली जाऊँगा","कल मैं दिल्ली जाऊँगा","maĩ kal dillī jāū̃gā","kal maĩ dillī jāū̃gā"],"hint":"मैं · कल · दिल्ली · जाना","x":["जाऊँगी"],"why":"The ending agrees with a man speaker: जाऊँगा.","xr":["jāū̃gī"]},
+      {"t":"type","p":"The children will play outside","a":["बच्चे बाहर खेलेंगे","बाहर बच्चे खेलेंगे","bacche bāhar khelẽge","bāhar bacche khelẽge"],"hint":"बच्चा · बाहर · खेलना","x":["खेलेगा"],"why":"बच्चे is plural, so the ending agrees: खेलेंगे.","xr":["khelegā"]},
+      {"t":"type","p":"What will you eat? (to a woman, politely)","a":["आप क्या खाएँगी","āp kyā khāẽgī"],"hint":"आप · क्या · खाना","x":["खाएँगे"],"why":"आप takes the plural, and for a woman the feminine -गी: खाएँगी.","xr":["khāẽge"]}
     ],
     "conjunctions": [
       {"t":"mc","q":"'I'm at home because I have a fever' =","o":["मैं घर पर हूँ क्योंकि मुझे बुख़ार है","मैं घर पर हूँ इसलिए मुझे बुख़ार है","मैं घर पर हूँ लेकिन मुझे बुख़ार है","मैं घर पर हूँ या मुझे बुख़ार है"],"why":"The fever is the cause, so it goes with क्योंकि."},
@@ -1120,12 +1120,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"I'm tired but happy (a woman speaking)","a":["मैं","थकी","हुई","हूँ","लेकिन","ख़ुश","हूँ"],"x":["थका"],"why":"थकी हुई agrees with a woman speaker; लेकिन joins the two parts."},
       {"t":"order","p":"It's raining, so we're at home","a":["बारिश","हो","रही","है","इसलिए","हम","घर","पर","हैं"],"x":["रहा"],"why":"बारिश is feminine, so the verb agrees: हो रही है. इसलिए introduces the result."},
       {"t":"order","p":"Tea or coffee? (in this order)","a":["चाय","या","कॉफ़ी"],"x":["और"],"why":"या means or; और would mean and."},
-      {"t":"fill","q":"मैं घर पर हूँ __ मुझे बुख़ार है।","p":"I'm at home because I have a fever.","a":["क्योंकि","kyõki"],"o":["इसलिए","लेकिन","या"],"why":"The fever is the cause, so क्योंकि."},
-      {"t":"fill","q":"मुझे बुख़ार है, __ मैं घर पर हूँ।","p":"I have a fever, so I'm at home.","a":["इसलिए","islie"],"o":["क्योंकि","या","लेकिन"],"why":"The cause comes first, so the result takes इसलिए."},
-      {"t":"fill","q":"पहले हम आगरा गए, __ जयपुर।","p":"First we went to Agra, then to Jaipur.","a":["फिर","phir"],"o":["या","क्योंकि","लेकिन"],"why":"One event after another: फिर."},
-      {"t":"type","p":"I want to go, but I'm sick (a man speaking)","a":["मैं जाना चाहता हूँ लेकिन मैं बीमार हूँ","मैं जाना चाहता हूँ लेकिन बीमार हूँ","मैं जाना चाहता हूँ पर मैं बीमार हूँ","मैं जाना चाहता हूँ पर बीमार हूँ","maĩ jānā chāhtā hū̃ lekin maĩ bīmār hū̃","maĩ jānā chāhtā hū̃ lekin bīmār hū̃","maĩ jānā chāhtā hū̃ par maĩ bīmār hū̃","maĩ jānā chāhtā hū̃ par bīmār hū̃"],"hint":"मैं · जाना · चाहना · लेकिन · बीमार","x":["चाहती"],"why":"चाहना agrees with a man speaker: चाहता हूँ."},
-      {"t":"type","p":"She didn't come because she was sick","a":["वह नहीं आई क्योंकि वह बीमार थी","वह नहीं आई क्योंकि बीमार थी","vah nahī̃ āī kyõki vah bīmār thī","vah nahī̃ āī kyõki bīmār thī"],"hint":"वह · नहीं · आना · क्योंकि · बीमार","x":["आया","था"],"why":"She is a woman, so both verbs agree in the feminine: आई and थी."},
-      {"t":"type","p":"I have a fever, so I'm at home (use इसलिए)","a":["मुझे बुख़ार है इसलिए मैं घर पर हूँ","मुझे बुख़ार है इसलिए मैं घर में हूँ","mujhe buḵhār hai islie maĩ ghar par hū̃","mujhe buḵhār hai islie maĩ ghar mẽ hū̃"],"hint":"मुझे बुख़ार है · इसलिए · घर पर","x":["क्योंकि"],"why":"The fever is the cause, so the result takes इसलिए."}
+      {"t":"fill","q":"मैं घर पर हूँ __ मुझे बुख़ार है।","p":"I'm at home because I have a fever.","a":["क्योंकि","kyõki"],"o":["इसलिए","लेकिन","या"],"why":"The fever is the cause, so क्योंकि.","xr":["islie","lekin","yā"]},
+      {"t":"fill","q":"मुझे बुख़ार है, __ मैं घर पर हूँ।","p":"I have a fever, so I'm at home.","a":["इसलिए","islie"],"o":["क्योंकि","या","लेकिन"],"why":"The cause comes first, so the result takes इसलिए.","xr":["kyõki","yā","lekin"]},
+      {"t":"fill","q":"पहले हम आगरा गए, __ जयपुर।","p":"First we went to Agra, then to Jaipur.","a":["फिर","phir"],"o":["या","क्योंकि","लेकिन"],"why":"One event after another: फिर.","xr":["yā","kyõki","lekin"]},
+      {"t":"type","p":"I want to go, but I'm sick (a man speaking)","a":["मैं जाना चाहता हूँ लेकिन मैं बीमार हूँ","मैं जाना चाहता हूँ लेकिन बीमार हूँ","मैं जाना चाहता हूँ पर मैं बीमार हूँ","मैं जाना चाहता हूँ पर बीमार हूँ","maĩ jānā chāhtā hū̃ lekin maĩ bīmār hū̃","maĩ jānā chāhtā hū̃ lekin bīmār hū̃","maĩ jānā chāhtā hū̃ par maĩ bīmār hū̃","maĩ jānā chāhtā hū̃ par bīmār hū̃"],"hint":"मैं · जाना · चाहना · लेकिन · बीमार","x":["चाहती"],"why":"चाहना agrees with a man speaker: चाहता हूँ.","xr":["chāhtī"]},
+      {"t":"type","p":"She didn't come because she was sick","a":["वह नहीं आई क्योंकि वह बीमार थी","वह नहीं आई क्योंकि बीमार थी","vah nahī̃ āī kyõki vah bīmār thī","vah nahī̃ āī kyõki bīmār thī"],"hint":"वह · नहीं · आना · क्योंकि · बीमार","x":["आया","था"],"why":"She is a woman, so both verbs agree in the feminine: आई and थी.","xr":["āyā","thā"]},
+      {"t":"type","p":"I have a fever, so I'm at home (use इसलिए)","a":["मुझे बुख़ार है इसलिए मैं घर पर हूँ","मुझे बुख़ार है इसलिए मैं घर में हूँ","mujhe buḵhār hai islie maĩ ghar par hū̃","mujhe buḵhār hai islie maĩ ghar mẽ hū̃"],"hint":"मुझे बुख़ार है · इसलिए · घर पर","x":["क्योंकि"],"why":"The fever is the cause, so the result takes इसलिए.","xr":["kyõki"]}
     ],
     "directions": [
       {"t":"mc","q":"'near the station' =","o":["स्टेशन के पास","पास स्टेशन","के पास स्टेशन","स्टेशन पास के"],"why":"के पास follows the noun."},
@@ -1136,12 +1136,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"in front of that shop","a":["उस","दुकान","के","सामने"],"x":["वह"],"why":"Before a postposition, वह takes its oblique form उस."},
       {"t":"order","p":"near my hotel","a":["मेरे","होटल","के","पास"],"x":["मेरा"],"why":"Before the postposition के पास, मेरा takes its oblique form मेरे."},
       {"t":"order","p":"Turn right at the next intersection (verb last)","a":["अगले","चौराहे","से","दाएँ","मुड़िए"],"x":["चौराहा"],"why":"Before the postposition से, अगला चौराहा takes its oblique form: अगले चौराहे."},
-      {"t":"fill","q":"होटल मेट्रो स्टेशन के __ है।","p":"The hotel is near the metro station.","a":["पास","pās"],"o":["में","से","को"],"why":"Near = के पास."},
-      {"t":"fill","q":"__ दुकान के पीछे एक पार्क है।","p":"There's a park behind that shop.","a":["उस","us"],"o":["वह","यह","उसका"],"why":"Before a postposition, वह changes to उस."},
-      {"t":"fill","q":"भैया, यहाँ __।","p":"Stop here, please. (to a driver)","a":["रुकिए","रोकिए","rukie","rokie"],"o":["रुकता","रुका","रुकी"],"why":"The polite command form ends in -इए: रुकिए."},
-      {"t":"type","p":"The station is near the big temple","a":["स्टेशन बड़े मंदिर के पास है","sṭeshan baṛe mandir ke pās hai"],"hint":"स्टेशन · बड़ा · मंदिर (temple) · के पास","x":["बड़ा"],"why":"Before the postposition के पास, बड़ा goes oblique: बड़े मंदिर के पास."},
-      {"t":"type","p":"The hotel is in front of my office","a":["होटल मेरे ऑफ़िस के सामने है","होटल मेरे दफ़्तर के सामने है","hoṭal mere ŏfis ke sāmne hai","hoṭal mere daftar ke sāmne hai"],"hint":"होटल · मेरा · ऑफ़िस · के सामने","x":["मेरा"],"why":"Before the postposition के सामने, मेरा takes its oblique form मेरे."},
-      {"t":"type","p":"Go straight, then turn right","a":["सीधे जाइए फिर दाएँ मुड़िए","सीधे जाइए और फिर दाएँ मुड़िए","sīdhe jāie phir dāẽ muṛie","sīdhe jāie aur phir dāẽ muṛie"],"hint":"सीधे · जाना · फिर · दाएँ · मुड़ना","x":["बाएँ"],"why":"फिर means then; दाएँ is right and बाएँ is left."}
+      {"t":"fill","q":"होटल मेट्रो स्टेशन के __ है।","p":"The hotel is near the metro station.","a":["पास","pās"],"o":["में","से","को"],"why":"Near = के पास.","xr":["mẽ","se","ko"]},
+      {"t":"fill","q":"__ दुकान के पीछे एक पार्क है।","p":"There's a park behind that shop.","a":["उस","us"],"o":["वह","यह","उसका"],"why":"Before a postposition, वह changes to उस.","xr":["vah","yah","uskā"]},
+      {"t":"fill","q":"भैया, यहाँ __।","p":"Stop here, please. (to a driver)","a":["रुकिए","रोकिए","rukie","rokie"],"o":["रुकता","रुका","रुकी"],"why":"The polite command form ends in -इए: रुकिए.","xr":["ruktā","rukā","rukī"]},
+      {"t":"type","p":"The station is near the big temple","a":["स्टेशन बड़े मंदिर के पास है","sṭeshan baṛe mandir ke pās hai"],"hint":"स्टेशन · बड़ा · मंदिर (temple) · के पास","x":["बड़ा"],"why":"Before the postposition के पास, बड़ा goes oblique: बड़े मंदिर के पास.","xr":["baṛā"]},
+      {"t":"type","p":"The hotel is in front of my office","a":["होटल मेरे ऑफ़िस के सामने है","होटल मेरे दफ़्तर के सामने है","hoṭal mere ŏfis ke sāmne hai","hoṭal mere daftar ke sāmne hai"],"hint":"होटल · मेरा · ऑफ़िस · के सामने","x":["मेरा"],"why":"Before the postposition के सामने, मेरा takes its oblique form मेरे.","xr":["merā"]},
+      {"t":"type","p":"Go straight, then turn right","a":["सीधे जाइए फिर दाएँ मुड़िए","सीधे जाइए और फिर दाएँ मुड़िए","sīdhe jāie phir dāẽ muṛie","sīdhe jāie aur phir dāẽ muṛie"],"hint":"सीधे · जाना · फिर · दाएँ · मुड़ना","x":["बाएँ"],"why":"फिर means then; दाएँ is right and बाएँ is left.","xr":["bāẽ"]}
     ],
     "routine": [
       {"t":"mc","q":"'at half past three' =","o":["साढ़े तीन बजे","तीन और आधा बजे","सवा तीन बजे","पौने तीन बजे"],"why":"साढ़े means half past: साढ़े तीन बजे."},
@@ -1152,12 +1152,12 @@ LANGAPP_PACKS.course['en-hi'] = {
       {"t":"order","p":"It's one o'clock","a":["एक","बजा","है"],"x":["बजे"],"why":"One o'clock is singular, so it agrees in the singular: बजा है, not the plural बजे."},
       {"t":"order","p":"I get up at seven (a woman speaking; start with मैं)","a":["मैं","सात","बजे","उठती","हूँ"],"x":["उठता"],"why":"The verb agrees with a woman speaker: उठती हूँ."},
       {"t":"order","p":"at a quarter past four","a":["सवा","चार","बजे"],"x":["साढ़े"],"why":"सवा means a quarter past; साढ़े would be half past."},
-      {"t":"fill","q":"मैं सोमवार __ ऑफ़िस जाता हूँ।","p":"I go to the office on Mondays. (a man speaking)","a":["को","ko"],"o":["में","पर","से"],"why":"Days take को: सोमवार को."},
-      {"t":"fill","q":"हम रात को नौ __ खाना खाते हैं।","p":"We eat dinner at nine at night.","a":["बजे","baje"],"o":["बजा","घंटे","समय"],"why":"At a time = the number + बजे."},
-      {"t":"fill","q":"अभी तीन बजे __।","p":"It's three o'clock now.","a":["हैं","haĩ"],"o":["है","हूँ","हो"],"why":"Three o'clock is plural: तीन बजे हैं."},
-      {"t":"type","p":"My father gets up at six","a":["मेरे पिताजी छह बजे उठते हैं","मेरे पिता जी छह बजे उठते हैं","मेरे पिता छह बजे उठते हैं","mere pitājī chhah baje uṭhte haĩ","mere pitā jī chhah baje uṭhte haĩ","mere pitā chhah baje uṭhte haĩ"],"hint":"मेरा · पिताजी · छह बजे · उठना","x":["उठता","मेरा"],"why":"Respected relatives take the plural, so मेरे and उठते हैं agree with पिताजी."},
-      {"t":"type","p":"It's two o'clock","a":["दो बजे हैं","do baje haĩ"],"hint":"दो · बजे · होना","x":["बजा","है"],"why":"Two o'clock is plural, so it agrees: बजे हैं."},
-      {"t":"type","p":"I sleep at eleven at night (a woman speaking)","a":["मैं रात को ग्यारह बजे सोती हूँ","रात को मैं ग्यारह बजे सोती हूँ","मैं रात ग्यारह बजे सोती हूँ","रात को ग्यारह बजे मैं सोती हूँ","मैं रात में ग्यारह बजे सोती हूँ","maĩ rāt ko gyārah baje sotī hū̃","rāt ko maĩ gyārah baje sotī hū̃","maĩ rāt gyārah baje sotī hū̃","rāt ko gyārah baje maĩ sotī hū̃","maĩ rāt mẽ gyārah baje sotī hū̃"],"hint":"मैं · रात को · ग्यारह बजे · सोना","x":["सोता"],"why":"The verb agrees with a woman speaker: सोती हूँ."}
+      {"t":"fill","q":"मैं सोमवार __ ऑफ़िस जाता हूँ।","p":"I go to the office on Mondays. (a man speaking)","a":["को","ko"],"o":["में","पर","से"],"why":"Days take को: सोमवार को.","xr":["mẽ","par","se"]},
+      {"t":"fill","q":"हम रात को नौ __ खाना खाते हैं।","p":"We eat dinner at nine at night.","a":["बजे","baje"],"o":["बजा","घंटे","समय"],"why":"At a time = the number + बजे.","xr":["bajā","ghaṇṭe","samay"]},
+      {"t":"fill","q":"अभी तीन बजे __।","p":"It's three o'clock now.","a":["हैं","haĩ"],"o":["है","हूँ","हो"],"why":"Three o'clock is plural: तीन बजे हैं.","xr":["hai","hū̃","ho"]},
+      {"t":"type","p":"My father gets up at six","a":["मेरे पिताजी छह बजे उठते हैं","मेरे पिता जी छह बजे उठते हैं","मेरे पिता छह बजे उठते हैं","mere pitājī chhah baje uṭhte haĩ","mere pitā jī chhah baje uṭhte haĩ","mere pitā chhah baje uṭhte haĩ"],"hint":"मेरा · पिताजी · छह बजे · उठना","x":["उठता","मेरा"],"why":"Respected relatives take the plural, so मेरे and उठते हैं agree with पिताजी.","xr":["uṭhtā","merā"]},
+      {"t":"type","p":"It's two o'clock","a":["दो बजे हैं","do baje haĩ"],"hint":"दो · बजे · होना","x":["बजा","है"],"why":"Two o'clock is plural, so it agrees: बजे हैं.","xr":["bajā","hai"]},
+      {"t":"type","p":"I sleep at eleven at night (a woman speaking)","a":["मैं रात को ग्यारह बजे सोती हूँ","रात को मैं ग्यारह बजे सोती हूँ","मैं रात ग्यारह बजे सोती हूँ","रात को ग्यारह बजे मैं सोती हूँ","मैं रात में ग्यारह बजे सोती हूँ","maĩ rāt ko gyārah baje sotī hū̃","rāt ko maĩ gyārah baje sotī hū̃","maĩ rāt gyārah baje sotī hū̃","rāt ko gyārah baje maĩ sotī hū̃","maĩ rāt mẽ gyārah baje sotī hū̃"],"hint":"मैं · रात को · ग्यारह बजे · सोना","x":["सोता"],"why":"The verb agrees with a woman speaker: सोती हूँ.","xr":["sotā"]}
     ]
   },
   PATTERNS: [

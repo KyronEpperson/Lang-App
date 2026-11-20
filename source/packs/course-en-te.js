@@ -703,12 +703,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Build īka (feather)","a":["ఈ","క"],"x":["ఇ"],"why":"ఈక starts with the long vowel ఈ, not the short ఇ."},
       {"t":"order","p":"Build ūka (bran)","a":["ఊ","క"],"x":["ఉ"],"why":"ఊక starts with the long vowel ఊ, not the short ఉ."},
       {"t":"order","p":"Build ā īka (that feather)","a":["ఆ","ఈక"],"x":["ఏ"],"why":"ఆ (that) goes before the noun, as in English; ఏ would ask which."},
-      {"t":"fill","q":"__క","p":"feather (īka)","a":["ఈ","ī"],"o":["ఇ","ఎ","ఏ"],"why":"Feather is ఈక, with the long vowel ఈ."},
-      {"t":"fill","q":"__క","p":"bran (ūka)","a":["ఊ","ū"],"o":["ఉ","ఒ","ఓ"],"why":"Bran is ఊక, with the long vowel ఊ."},
-      {"t":"fill","q":"__ ఈక?","p":"Which feather?","a":["ఏ","ē"],"o":["ఎ","ఆ","ఈ"],"why":"ఏ (long ē) asks which; ఆ is that and ఈ is this."},
-      {"t":"type","p":"Type ē (which)","a":["ఏ","ē"],"hint":"the long partner of ఎ","x":["ఎ","ఈ"],"why":"Which is ఏ, the long vowel ē, not the short ఎ."},
-      {"t":"type","p":"Type īka (feather)","a":["ఈ క","ఈక","ī ka","īka"],"hint":"a long vowel letter, then క","x":["ఇ","ఎ"],"why":"ఈక starts with the long vowel ఈ."},
-      {"t":"type","p":"Type ī īka (this feather)","a":["ఈ ఈక","ī īka"],"hint":"ఈ = this · ఈక = feather","x":["ఆ","ఏ"],"why":"ఈ (this) goes before the noun; both words use the long vowel ఈ."}
+      {"t":"fill","q":"__క","p":"feather (īka)","a":["ఈ","ī"],"o":["ఇ","ఎ","ఏ"],"why":"Feather is ఈక, with the long vowel ఈ.","xr":["i","e","ē"]},
+      {"t":"fill","q":"__క","p":"bran (ūka)","a":["ఊ","ū"],"o":["ఉ","ఒ","ఓ"],"why":"Bran is ఊక, with the long vowel ఊ.","xr":["u","o","ō"]},
+      {"t":"fill","q":"__ ఈక?","p":"Which feather?","a":["ఏ","ē"],"o":["ఎ","ఆ","ఈ"],"why":"ఏ (long ē) asks which; ఆ is that and ఈ is this.","xr":["e","ā","ī"]},
+      {"t":"type","p":"Type ē (which)","a":["ఏ","ē"],"hint":"the long partner of ఎ","x":["ఎ","ఈ"],"why":"Which is ఏ, the long vowel ē, not the short ఎ.","xr":["e","ī"]},
+      {"t":"type","p":"Type īka (feather)","a":["ఈ క","ఈక","ī ka","īka"],"hint":"a long vowel letter, then క","x":["ఇ","ఎ"],"why":"ఈక starts with the long vowel ఈ.","xr":["i","e"]},
+      {"t":"type","p":"Type ī īka (this feather)","a":["ఈ ఈక","ī īka"],"hint":"ఈ = this · ఈక = feather","x":["ఆ","ఏ"],"why":"ఈ (this) goes before the noun; both words use the long vowel ఈ.","xr":["ā","ē"]}
     ],
     "vowel-signs": [
       {"t":"mc","q":"Which syllable is kī (long ī)?","o":["కీ","కి","కె","కే"],"why":"కీ has the long ī sign; కి has the short one."},
@@ -719,12 +719,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Build kāki (crow)","a":["కా","కి"],"x":["క"],"why":"కాకి needs the vowel sign ా on the first క: kā."},
       {"t":"order","p":"Build āku (leaf)","a":["ఆ","కు"],"x":["అ"],"why":"ఆకు starts with the long vowel ఆ, not the short అ."},
       {"t":"order","p":"Build kēka (shout)","a":["కే","క"],"x":["కె"],"why":"కేక starts with the long vowel sign ే: kē."},
-      {"t":"fill","q":"కా__","p":"crow (kāki)","a":["కి","ki"],"o":["కీ","కు","కె"],"why":"Crow ends in కి, with the short i sign."},
-      {"t":"fill","q":"__కు","p":"leaf (āku)","a":["ఆ","ā"],"o":["అ","ఈ","ఏ"],"why":"Leaf starts with the long vowel ఆ."},
-      {"t":"fill","q":"__క","p":"shout (kēka)","a":["కే","kē"],"o":["కె","కా","కీ"],"why":"Shout starts with కే, with the long ē sign."},
-      {"t":"type","p":"Type kāki (crow)","a":["కా కి","కాకి","kā ki","kāki"],"hint":"క with the ā sign, then క with the i sign","x":["క","కీ"],"why":"కాకి uses two vowel signs: ా on the first క, ి on the second."},
-      {"t":"type","p":"Type kēka (shout)","a":["కే క","కేక","kē ka","kēka"],"hint":"క with the long ē sign, then plain క","x":["కె","కా"],"why":"కేక starts with the long vowel ē: కే, not కె."},
-      {"t":"type","p":"Type āku (leaf)","a":["ఆ కు","ఆకు","ā ku","āku"],"hint":"a long vowel letter, then క with the u sign","x":["అ","కూ"],"why":"ఆకు starts with the long vowel ఆ and ends in short u: కు."}
+      {"t":"fill","q":"కా__","p":"crow (kāki)","a":["కి","ki"],"o":["కీ","కు","కె"],"why":"Crow ends in కి, with the short i sign.","xr":["kī","ku","ke"]},
+      {"t":"fill","q":"__కు","p":"leaf (āku)","a":["ఆ","ā"],"o":["అ","ఈ","ఏ"],"why":"Leaf starts with the long vowel ఆ.","xr":["a","ī","ē"]},
+      {"t":"fill","q":"__క","p":"shout (kēka)","a":["కే","kē"],"o":["కె","కా","కీ"],"why":"Shout starts with కే, with the long ē sign.","xr":["ke","kā","kī"]},
+      {"t":"type","p":"Type kāki (crow)","a":["కా కి","కాకి","kā ki","kāki"],"hint":"క with the ā sign, then క with the i sign","x":["క","కీ"],"why":"కాకి uses two vowel signs: ా on the first క, ి on the second.","xr":["ka","kī"]},
+      {"t":"type","p":"Type kēka (shout)","a":["కే క","కేక","kē ka","kēka"],"hint":"క with the long ē sign, then plain క","x":["కె","కా"],"why":"కేక starts with the long vowel ē: కే, not కె.","xr":["ke","kā"]},
+      {"t":"type","p":"Type āku (leaf)","a":["ఆ కు","ఆకు","ā ku","āku"],"hint":"a long vowel letter, then క with the u sign","x":["అ","కూ"],"why":"ఆకు starts with the long vowel ఆ and ends in short u: కు.","xr":["a","kū"]}
     ],
     "consonants-1": [
       {"t":"mc","q":"Which letter is ṭa (tongue curled back, no puff)?","o":["ట","ఠ","డ","చ"],"why":"ట is plain retroflex ṭ; ఠ has a puff and డ is ḍ."},
@@ -735,12 +735,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Build chīkaṭi (darkness)","a":["చీ","క","టి"],"x":["చి"],"why":"చీకటి starts with the long vowel sign ీ: chī."},
       {"t":"order","p":"Build gāju (glass)","a":["గా","జు"],"x":["ఘా"],"why":"గాజు starts with unaspirated గ; ఘ has a puff of air."},
       {"t":"order","p":"Build guḍi (temple)","a":["గు","డి"],"x":["ఢి"],"why":"గుడి has plain retroflex ḍ, unaspirated: డి, not ఢి."},
-      {"t":"fill","q":"జ__","p":"braid (jaḍa)","a":["డ","ḍa"],"o":["ఢ","ట","ణ"],"why":"Braid is జడ, with plain retroflex డ."},
-      {"t":"fill","q":"కో__","p":"hen (kōḍi)","a":["డి","ḍi"],"o":["ఢి","టి","డు"],"why":"Hen is కోడి: డ with the short i sign."},
-      {"t":"fill","q":"చీక__","p":"darkness (chīkaṭi)","a":["టి","ṭi"],"o":["ఠి","డి","టీ"],"why":"Darkness ends in టి: plain ట with a short i."},
-      {"t":"type","p":"Type jaḍa (braid)","a":["జ డ","జడ","ja ḍa","jaḍa"],"hint":"plain జ, then the retroflex d","x":["ఢ","జా"],"why":"జడ ends in plain retroflex డ, with no puff of air."},
-      {"t":"type","p":"Type kōḍi (hen)","a":["కో డి","కోడి","kō ḍi","kōḍi"],"hint":"క with the long ō sign, then డ with the i sign","x":["కొ","ఢి"],"why":"కోడి starts with the long vowel ō: కో, not కొ."},
-      {"t":"type","p":"Type koḍuku (son)","a":["కొ డు కు","కొడుకు","ko ḍu ku","koḍuku"],"hint":"క with the short o sign · డ · క","x":["కో","ఢు"],"why":"కొడుకు starts with the short vowel o: కొ, not కో."}
+      {"t":"fill","q":"జ__","p":"braid (jaḍa)","a":["డ","ḍa"],"o":["ఢ","ట","ణ"],"why":"Braid is జడ, with plain retroflex డ.","xr":["ḍha","ṭa","ṇa"]},
+      {"t":"fill","q":"కో__","p":"hen (kōḍi)","a":["డి","ḍi"],"o":["ఢి","టి","డు"],"why":"Hen is కోడి: డ with the short i sign.","xr":["ḍhi","ṭi","ḍu"]},
+      {"t":"fill","q":"చీక__","p":"darkness (chīkaṭi)","a":["టి","ṭi"],"o":["ఠి","డి","టీ"],"why":"Darkness ends in టి: plain ట with a short i.","xr":["ṭhi","ḍi","ṭī"]},
+      {"t":"type","p":"Type jaḍa (braid)","a":["జ డ","జడ","ja ḍa","jaḍa"],"hint":"plain జ, then the retroflex d","x":["ఢ","జా"],"why":"జడ ends in plain retroflex డ, with no puff of air.","xr":["ḍha","jā"]},
+      {"t":"type","p":"Type kōḍi (hen)","a":["కో డి","కోడి","kō ḍi","kōḍi"],"hint":"క with the long ō sign, then డ with the i sign","x":["కొ","ఢి"],"why":"కోడి starts with the long vowel ō: కో, not కొ.","xr":["ko","ḍhi"]},
+      {"t":"type","p":"Type koḍuku (son)","a":["కొ డు కు","కొడుకు","ko ḍu ku","koḍuku"],"hint":"క with the short o sign · డ · క","x":["కో","ఢు"],"why":"కొడుకు starts with the short vowel o: కొ, not కో.","xr":["kō","ḍhu"]}
     ],
     "consonants-2": [
       {"t":"mc","q":"Which word means song?","o":["పాట","పాత","పాటా","బాట"],"why":"Song is పాట, with retroflex ట; పాత means old."},
@@ -751,12 +751,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Build pāṭa (song)","a":["పా","ట"],"x":["త"],"why":"Song ends in retroflex ట; with dental త it would be పాత, old."},
       {"t":"order","p":"Build pāta (old)","a":["పా","త"],"x":["ట"],"why":"Old ends in dental త; with retroflex ట it would be పాట, song."},
       {"t":"order","p":"Build bhāsha (language)","a":["భా","ష"],"x":["బా"],"why":"భాష starts with aspirated భ, said with a puff of air."},
-      {"t":"fill","q":"త__","p":"head (tala)","a":["ల","la"],"o":["ళ","ర","లా"],"why":"Head is తల, with plain ల."},
-      {"t":"fill","q":"__లు","p":"milk (pālu)","a":["పా","pā"],"o":["ఫా","బా","ప"],"why":"Milk starts with plain ప and a long ā: పా."},
-      {"t":"fill","q":"క__","p":"art (kaḷa)","a":["ళ","ḷa"],"o":["ల","ర","డ"],"why":"Art is కళ, with retroflex ళ."},
-      {"t":"type","p":"Type pālu (milk)","a":["పా లు","పాలు","pā lu","pālu"],"hint":"ప with the ā sign, then ల with the u sign","x":["ఫా","ళు"],"why":"పాలు has unaspirated ప and plain ల."},
-      {"t":"type","p":"Type tala (head)","a":["త ల","తల","ta la","tala"],"hint":"the dental t, then plain l","x":["ట","ళ"],"why":"తల starts with dental త: tongue on the teeth."},
-      {"t":"type","p":"Type kala (dream)","a":["క ల","కల","ka la","kala"],"hint":"క, then plain l","x":["ళ","కా"],"why":"Dream is కల with plain ల; retroflex ళ makes కళ, art."}
+      {"t":"fill","q":"త__","p":"head (tala)","a":["ల","la"],"o":["ళ","ర","లా"],"why":"Head is తల, with plain ల.","xr":["ḷa","ra","lā"]},
+      {"t":"fill","q":"__లు","p":"milk (pālu)","a":["పా","pā"],"o":["ఫా","బా","ప"],"why":"Milk starts with plain ప and a long ā: పా.","xr":["phā","bā","pa"]},
+      {"t":"fill","q":"క__","p":"art (kaḷa)","a":["ళ","ḷa"],"o":["ల","ర","డ"],"why":"Art is కళ, with retroflex ళ.","xr":["la","ra","ḍa"]},
+      {"t":"type","p":"Type pālu (milk)","a":["పా లు","పాలు","pā lu","pālu"],"hint":"ప with the ā sign, then ల with the u sign","x":["ఫా","ళు"],"why":"పాలు has unaspirated ప and plain ల.","xr":["phā","ḷu"]},
+      {"t":"type","p":"Type tala (head)","a":["త ల","తల","ta la","tala"],"hint":"the dental t, then plain l","x":["ట","ళ"],"why":"తల starts with dental త: tongue on the teeth.","xr":["ṭa","ḷa"]},
+      {"t":"type","p":"Type kala (dream)","a":["క ల","కల","ka la","kala"],"hint":"క, then plain l","x":["ళ","కా"],"why":"Dream is కల with plain ల; retroflex ళ makes కళ, art.","xr":["ḷa","kā"]}
     ],
     "conjuncts": [
       {"t":"mc","q":"Which word means throne?","o":["గద్ది","గది","గడ్డి","గధి"],"why":"Throne is గద్ది, with a doubled d; గది is room."},
@@ -767,12 +767,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Build amma (mother)","a":["అ","మ్మ"],"x":["మ"],"why":"అమ్మ has a doubled consonant: the small మ under మ."},
       {"t":"order","p":"Build gaddi (throne)","a":["గ","ద్ది"],"x":["ది"],"why":"Throne needs the doubled consonant ద్ది; with one d it is గది, room."},
       {"t":"order","p":"Build pustakam (book)","a":["పు","స్త","కం"],"x":["క"],"why":"పుస్తకం ends in sunna, said m at the end of a word."},
-      {"t":"fill","q":"అ__","p":"mother (amma)","a":["మ్మ","mma"],"o":["మ","మా","న్న"],"why":"Mother is అమ్మ, with a doubled m."},
-      {"t":"fill","q":"గ__","p":"room (gadi)","a":["ది","di"],"o":["ద్ది","డి","దీ"],"why":"Room is గది, with one dental d; ద్ది would make throne."},
-      {"t":"fill","q":"పం__","p":"fruit (paṇḍu)","a":["డు","ḍu"],"o":["దు","డూ","టు"],"why":"Fruit ends in retroflex డు; the sunna before it is said ṇ."},
-      {"t":"type","p":"Type akka (older sister)","a":["అ క్క","అక్క","a kka","akka"],"hint":"అ, then క with a small క under it","x":["క","కా"],"why":"The vattu under క doubles it: అక్క."},
-      {"t":"type","p":"Type paṇḍu (fruit)","a":["పం డు","పండు","pam ḍu","paṇḍu"],"hint":"ప with a sunna, then డ with the u sign","x":["ప","దు"],"why":"పండు needs the sunna on ప; before డ it is said ṇ."},
-      {"t":"type","p":"Type bas (bus)","a":["బ స్","బస్","ba s","bas"],"hint":"బ, then స with a pollu","x":["స","సు"],"why":"బస్ ends in a pollu: no vowel after స."}
+      {"t":"fill","q":"అ__","p":"mother (amma)","a":["మ్మ","mma"],"o":["మ","మా","న్న"],"why":"Mother is అమ్మ, with a doubled m.","xr":["ma","mā","nna"]},
+      {"t":"fill","q":"గ__","p":"room (gadi)","a":["ది","di"],"o":["ద్ది","డి","దీ"],"why":"Room is గది, with one dental d; ద్ది would make throne.","xr":["ddi","ḍi","dī"]},
+      {"t":"fill","q":"పం__","p":"fruit (paṇḍu)","a":["డు","ḍu"],"o":["దు","డూ","టు"],"why":"Fruit ends in retroflex డు; the sunna before it is said ṇ.","xr":["du","ḍū","ṭu"]},
+      {"t":"type","p":"Type akka (older sister)","a":["అ క్క","అక్క","a kka","akka"],"hint":"అ, then క with a small క under it","x":["క","కా"],"why":"The vattu under క doubles it: అక్క.","xr":["ka","kā"]},
+      {"t":"type","p":"Type paṇḍu (fruit)","a":["పం డు","పండు","pam ḍu","paṇḍu"],"hint":"ప with a sunna, then డ with the u sign","x":["ప","దు"],"why":"పండు needs the sunna on ప; before డ it is said ṇ.","xr":["pa","du"]},
+      {"t":"type","p":"Type bas (bus)","a":["బ స్","బస్","ba s","bas"],"hint":"బ, then స with a pollu","x":["స","సు"],"why":"బస్ ends in a pollu: no vowel after స.","xr":["sa","su"]}
     ],
     "greetings": [
       {"t":"mc","q":"The respectful hello for anyone, at any time of day:","o":["నమస్కారం","ధన్యవాదాలు","క్షమించండి","వెళ్ళొస్తాను"],"why":"నమస్కారం is hello; the others are thank you, sorry and goodbye."},
@@ -783,12 +783,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"How are you? (to an elder; start with మీరు)","a":["మీరు","ఎలా","ఉన్నారు"],"x":["ఉన్నావు"],"why":"మీరు takes the person ending -ఆరు: ఉన్నారు."},
       {"t":"order","p":"How are you? (to a friend; start with నువ్వు)","a":["నువ్వు","ఎలా","ఉన్నావు"],"x":["ఉన్నారు"],"why":"నువ్వు takes the person ending -ఆవు: ఉన్నావు."},
       {"t":"order","p":"I'm fine, and you? (to an elder)","a":["బాగున్నాను","మీరు"],"x":["బాగున్నారు"],"why":"బాగున్నాను has the person ending for I; బాగున్నారు means you are fine."},
-      {"t":"fill","q":"మీరు ఎలా __?","p":"How are you? (to an elder)","a":["ఉన్నారు","unnāru"],"o":["ఉన్నావు","ఉన్నాను","ఉన్నాడు"],"why":"The verb agrees with మీరు: ఉన్నారు."},
-      {"t":"fill","q":"__, మీరు?","p":"I'm fine, and you?","a":["బాగున్నాను","bāgunnānu"],"o":["బాగున్నారు","బాగున్నావు","బాగున్నారా"],"why":"You are talking about yourself, so the ending is -ఆను: బాగున్నాను."},
-      {"t":"fill","q":"చాలా __.","p":"Thanks a lot.","a":["థాంక్స్","ధన్యవాదాలు","thānks","dhanyavādālu"],"o":["క్షమించండి","నమస్కారం","వెళ్ళొస్తాను"],"why":"Thanks is థాంక్స్ in speech, ధన్యవాదాలు when formal."},
-      {"t":"type","p":"How are you? (to an older neighbor; use ఎలా)","a":["మీరు ఎలా ఉన్నారు","ఎలా ఉన్నారు","mīru elā unnāru","elā unnāru"],"hint":"మీరు · ఎలా (how) · ఉన్నారు","x":["నువ్వు","ఉన్నావు"],"why":"మీరు takes the person ending -ఆరు: ఉన్నారు, not ఉన్నావు."},
-      {"t":"type","p":"I'm fine, and you? (to an elder)","a":["బాగున్నాను, మీరు?","నేను బాగున్నాను, మీరు?","bāgunnānu, mīru?","nēnu bāgunnānu, mīru?"],"hint":"బాగున్నాను · మీరు","x":["బాగున్నారు","నువ్వు"],"why":"బాగున్నాను has the person ending -ఆను for I; ask back with మీరు."},
-      {"t":"type","p":"How are you? (to a friend; use ఎలా)","a":["నువ్వు ఎలా ఉన్నావు","ఎలా ఉన్నావు","nuvvu elā unnāvu","elā unnāvu"],"hint":"నువ్వు · ఎలా · ఉన్నావు","x":["మీరు","ఉన్నారు"],"why":"With నువ్వు the verb takes the person ending -ఆవు: ఉన్నావు."}
+      {"t":"fill","q":"మీరు ఎలా __?","p":"How are you? (to an elder)","a":["ఉన్నారు","unnāru"],"o":["ఉన్నావు","ఉన్నాను","ఉన్నాడు"],"why":"The verb agrees with మీరు: ఉన్నారు.","xr":["unnāvu","unnānu","unnāḍu"]},
+      {"t":"fill","q":"__, మీరు?","p":"I'm fine, and you?","a":["బాగున్నాను","bāgunnānu"],"o":["బాగున్నారు","బాగున్నావు","బాగున్నారా"],"why":"You are talking about yourself, so the ending is -ఆను: బాగున్నాను.","xr":["bāgunnāru","bāgunnāvu","bāgunnārā"]},
+      {"t":"fill","q":"చాలా __.","p":"Thanks a lot.","a":["థాంక్స్","ధన్యవాదాలు","thānks","dhanyavādālu"],"o":["క్షమించండి","నమస్కారం","వెళ్ళొస్తాను"],"why":"Thanks is థాంక్స్ in speech, ధన్యవాదాలు when formal.","xr":["kshaminchaṇḍi","namaskāram","veḷḷostānu"]},
+      {"t":"type","p":"How are you? (to an older neighbor; use ఎలా)","a":["మీరు ఎలా ఉన్నారు","ఎలా ఉన్నారు","mīru elā unnāru","elā unnāru"],"hint":"మీరు · ఎలా (how) · ఉన్నారు","x":["నువ్వు","ఉన్నావు"],"why":"మీరు takes the person ending -ఆరు: ఉన్నారు, not ఉన్నావు.","xr":["nuvvu","unnāvu"]},
+      {"t":"type","p":"I'm fine, and you? (to an elder)","a":["బాగున్నాను, మీరు?","నేను బాగున్నాను, మీరు?","bāgunnānu, mīru?","nēnu bāgunnānu, mīru?"],"hint":"బాగున్నాను · మీరు","x":["బాగున్నారు","నువ్వు"],"why":"బాగున్నాను has the person ending -ఆను for I; ask back with మీరు.","xr":["bāgunnāru","nuvvu"]},
+      {"t":"type","p":"How are you? (to a friend; use ఎలా)","a":["నువ్వు ఎలా ఉన్నావు","ఎలా ఉన్నావు","nuvvu elā unnāvu","elā unnāvu"],"hint":"నువ్వు · ఎలా · ఉన్నావు","x":["మీరు","ఉన్నారు"],"why":"With నువ్వు the verb takes the person ending -ఆవు: ఉన్నావు.","xr":["mīru","unnāru"]}
     ],
     "no-is": [
       {"t":"mc","q":"\"This is a book.\"","o":["ఇది పుస్తకం.","ఇది పుస్తకం ఉంది.","ఇది ఉంది పుస్తకం.","ఇది పుస్తకం కాదు."],"why":"No word for is: ఇది పుస్తకం."},
@@ -799,12 +799,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"I'm a teacher. (start with నేను; with the person ending)","a":["నేను","టీచర్ని"],"x":["టీచర్"],"why":"No word for am: the person ending -ని goes on the noun: టీచర్ని."},
       {"t":"order","p":"We're Americans. (my family and I, not you; start with మేము; with the person ending)","a":["మేము","అమెరికన్లం"],"x":["అమెరికన్లు"],"why":"With మేము the noun takes the person ending -ం: అమెరికన్లం."},
       {"t":"order","p":"I'm not a doctor. (start with నేను)","a":["నేను","డాక్టర్ని","కాదు"],"x":["లేదు"],"why":"Not for who you are is కాదు, and the person ending stays: డాక్టర్ని కాదు."},
-      {"t":"fill","q":"నేను __.","p":"I'm a doctor. (with the person ending)","a":["డాక్టర్ని","ḍākṭarni"],"o":["డాక్టర్ గారు","డాక్టర్లం","డాక్టర్లు"],"why":"With నేను the noun takes the person ending -ని: డాక్టర్ని."},
-      {"t":"fill","q":"ఇది కాఫీ __.","p":"This isn't coffee.","a":["కాదు","kādu"],"o":["లేదు","వద్దు","ఉంది"],"why":"Not for what something is: కాదు."},
-      {"t":"fill","q":"__ విద్యార్థులం.","p":"We're students (you and I).","a":["మనం","manam"],"o":["మేము","మీరు","నేను"],"why":"You and I: మనం includes the listener."},
-      {"t":"type","p":"I'm a doctor. (with the person ending)","a":["నేను డాక్టర్ని","డాక్టర్ని","nēnu ḍākṭarni","ḍākṭarni"],"hint":"నేను · డాక్టర్ · the ending for I","x":["డాక్టర్"],"why":"No word for am: the person ending -ని goes on the noun: డాక్టర్ని."},
-      {"t":"type","p":"We're students. (my friends and I, not you; with the person ending)","a":["మేము విద్యార్థులం","విద్యార్థులం","mēmu vidyārthulam","vidyārthulam"],"hint":"మేము · విద్యార్థులు (students)","x":["విద్యార్థులు","మనం"],"why":"With మేము the noun takes the person ending -ం: విద్యార్థులం."},
-      {"t":"type","p":"This is a book.","a":["ఇది పుస్తకం","idi pustakam"],"hint":"ఇది · పుస్తకం","x":["ఉంది"],"why":"No word for is: put ఇది and పుస్తకం side by side."}
+      {"t":"fill","q":"నేను __.","p":"I'm a doctor. (with the person ending)","a":["డాక్టర్ని","ḍākṭarni"],"o":["డాక్టర్ గారు","డాక్టర్లం","డాక్టర్లు"],"why":"With నేను the noun takes the person ending -ని: డాక్టర్ని.","xr":["ḍākṭar gāru","ḍākṭarlam","ḍākṭarlu"]},
+      {"t":"fill","q":"ఇది కాఫీ __.","p":"This isn't coffee.","a":["కాదు","kādu"],"o":["లేదు","వద్దు","ఉంది"],"why":"Not for what something is: కాదు.","xr":["lēdu","vaddu","undi"]},
+      {"t":"fill","q":"__ విద్యార్థులం.","p":"We're students (you and I).","a":["మనం","manam"],"o":["మేము","మీరు","నేను"],"why":"You and I: మనం includes the listener.","xr":["mēmu","mīru","nēnu"]},
+      {"t":"type","p":"I'm a doctor. (with the person ending)","a":["నేను డాక్టర్ని","డాక్టర్ని","nēnu ḍākṭarni","ḍākṭarni"],"hint":"నేను · డాక్టర్ · the ending for I","x":["డాక్టర్"],"why":"No word for am: the person ending -ని goes on the noun: డాక్టర్ని.","xr":["ḍākṭar"]},
+      {"t":"type","p":"We're students. (my friends and I, not you; with the person ending)","a":["మేము విద్యార్థులం","విద్యార్థులం","mēmu vidyārthulam","vidyārthulam"],"hint":"మేము · విద్యార్థులు (students)","x":["విద్యార్థులు","మనం"],"why":"With మేము the noun takes the person ending -ం: విద్యార్థులం.","xr":["vidyārthulu","manam"]},
+      {"t":"type","p":"This is a book.","a":["ఇది పుస్తకం","idi pustakam"],"hint":"ఇది · పుస్తకం","x":["ఉంది"],"why":"No word for is: put ఇది and పుస్తకం side by side.","xr":["undi"]}
     ],
     "questions": [
       {"t":"mc","q":"\"Is this coffee?\"","o":["ఇది కాఫీనా?","ఇది కాఫీ కాదు.","ఇది ఏమిటి?","ఇది ఎంత?"],"why":"-ఆ on the last word asks yes or no: కాఫీనా?"},
@@ -815,12 +815,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Where are you? (to an elder; start with మీరు)","a":["మీరు","ఎక్కడ","ఉన్నారు"],"x":["ఉన్నావు"],"why":"The verb agrees with మీరు: the person ending -ఆరు, ఉన్నారు."},
       {"t":"order","p":"Are you well? (to a friend; start with నువ్వు)","a":["నువ్వు","బాగున్నావా"],"x":["బాగున్నారా"],"why":"With నువ్వు the verb keeps the person ending -ఆవు before -ఆ: బాగున్నావా."},
       {"t":"order","p":"What's your name? (politely; start with మీ)","a":["మీ","పేరు","ఏమిటి"],"x":["మీరు"],"why":"Before a noun మీరు takes its oblique form మీ: మీ పేరు."},
-      {"t":"fill","q":"ఇది __?","p":"What is this?","a":["ఏమిటి","ఏంటి","ēmiṭi","ēṇṭi"],"o":["ఎవరు","ఎక్కడ","ఎప్పుడు"],"why":"What is ఏమిటి, or ఏంటి in everyday speech."},
-      {"t":"fill","q":"అతను __?","p":"Who is he?","a":["ఎవరు","evaru"],"o":["ఏమిటి","ఎక్కడ","ఎంత"],"why":"Who is ఎవరు."},
-      {"t":"fill","q":"మీరు __?","p":"Are you well? (to an elder)","a":["బాగున్నారా","bāgunnārā"],"o":["బాగున్నావా","బాగున్నాను","బాగున్నారు"],"why":"The verb agrees with మీరు, then -ఆ asks: బాగున్నారా."},
-      {"t":"type","p":"Are you well? (to an elder)","a":["మీరు బాగున్నారా","బాగున్నారా","mīru bāgunnārā","bāgunnārā"],"hint":"మీరు · బాగున్నారు + the question ending","x":["బాగున్నావా"],"why":"With మీరు the verb takes the person ending -ఆరు, then -ఆ: బాగున్నారా?"},
-      {"t":"type","p":"Where are you? (to a friend)","a":["నువ్వు ఎక్కడ ఉన్నావు","ఎక్కడ ఉన్నావు","నువ్వు ఎక్కడున్నావు","ఎక్కడున్నావు","nuvvu ekkaḍa unnāvu","ekkaḍa unnāvu","nuvvu ekkaḍunnāvu","ekkaḍunnāvu"],"hint":"నువ్వు · ఎక్కడ · ఉన్నావు","x":["ఉన్నారు","మీరు"],"why":"With నువ్వు the verb takes the person ending -ఆవు: ఉన్నావు."},
-      {"t":"type","p":"What is this?","a":["ఇది ఏమిటి","ఇది ఏంటి","idi ēmiṭi","idi ēṇṭi"],"hint":"ఇది · ఏమిటి","x":["ఎవరు"],"why":"The question word goes where the answer would go: ఇది ఏమిటి?"}
+      {"t":"fill","q":"ఇది __?","p":"What is this?","a":["ఏమిటి","ఏంటి","ēmiṭi","ēṇṭi"],"o":["ఎవరు","ఎక్కడ","ఎప్పుడు"],"why":"What is ఏమిటి, or ఏంటి in everyday speech.","xr":["evaru","ekkaḍa","eppuḍu"]},
+      {"t":"fill","q":"అతను __?","p":"Who is he?","a":["ఎవరు","evaru"],"o":["ఏమిటి","ఎక్కడ","ఎంత"],"why":"Who is ఎవరు.","xr":["ēmiṭi","ekkaḍa","enta"]},
+      {"t":"fill","q":"మీరు __?","p":"Are you well? (to an elder)","a":["బాగున్నారా","bāgunnārā"],"o":["బాగున్నావా","బాగున్నాను","బాగున్నారు"],"why":"The verb agrees with మీరు, then -ఆ asks: బాగున్నారా.","xr":["bāgunnāvā","bāgunnānu","bāgunnāru"]},
+      {"t":"type","p":"Are you well? (to an elder)","a":["మీరు బాగున్నారా","బాగున్నారా","mīru bāgunnārā","bāgunnārā"],"hint":"మీరు · బాగున్నారు + the question ending","x":["బాగున్నావా"],"why":"With మీరు the verb takes the person ending -ఆరు, then -ఆ: బాగున్నారా?","xr":["bāgunnāvā"]},
+      {"t":"type","p":"Where are you? (to a friend)","a":["నువ్వు ఎక్కడ ఉన్నావు","ఎక్కడ ఉన్నావు","నువ్వు ఎక్కడున్నావు","ఎక్కడున్నావు","nuvvu ekkaḍa unnāvu","ekkaḍa unnāvu","nuvvu ekkaḍunnāvu","ekkaḍunnāvu"],"hint":"నువ్వు · ఎక్కడ · ఉన్నావు","x":["ఉన్నారు","మీరు"],"why":"With నువ్వు the verb takes the person ending -ఆవు: ఉన్నావు.","xr":["unnāru","mīru"]},
+      {"t":"type","p":"What is this?","a":["ఇది ఏమిటి","ఇది ఏంటి","idi ēmiṭi","idi ēṇṭi"],"hint":"ఇది · ఏమిటి","x":["ఎవరు"],"why":"The question word goes where the answer would go: ఇది ఏమిటి?","xr":["evaru"]}
     ],
     "requests": [
       {"t":"mc","q":"\"I want coffee.\"","o":["నాకు కాఫీ కావాలి.","నేను కాఫీ కావాలి.","నా కాఫీ కావాలి.","నాకు కాఫీ వద్దు."],"why":"The one who wants takes -కు: నాకు."},
@@ -831,12 +831,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"I want idli. (start with నాకు)","a":["నాకు","ఇడ్లీ","కావాలి"],"x":["నేను"],"why":"The one who wants takes the case ending -కు: నాకు, not నేను."},
       {"t":"order","p":"What would you like? (politely; start with మీకు)","a":["మీకు","ఏం","కావాలి"],"x":["మీరు"],"why":"The one who wants takes the case ending -కు on the oblique మీ: మీకు."},
       {"t":"order","p":"One tea, please. (ఒక = one)","a":["ఒక","టీ","ఇవ్వండి"],"x":["ఇవ్వు"],"why":"-ండి makes the polite request; ఇవ్వు is only for friends."},
-      {"t":"fill","q":"__ కాఫీ కావాలి.","p":"I want coffee.","a":["నాకు","nāku"],"o":["నేను","నా","మీరు"],"why":"The one who wants takes -కు: నాకు."},
-      {"t":"fill","q":"నీళ్ళు __.","p":"Some water, please. (politely)","a":["ఇవ్వండి","ivvaṇḍi"],"o":["ఇవ్వు","ఇవ్వను","ఇచ్చాను"],"why":"-ండి makes the polite request: ఇవ్వండి."},
-      {"t":"fill","q":"నాకు టీ __.","p":"I don't want tea.","a":["వద్దు","vaddu"],"o":["కాదు","లేదు","కావాలి"],"why":"Not wanting is వద్దు."},
-      {"t":"type","p":"I want coffee.","a":["నాకు కాఫీ కావాలి","కాఫీ కావాలి","నాకు ఒక కాఫీ కావాలి","ఒక కాఫీ కావాలి","nāku kāfī kāvāli","kāfī kāvāli","nāku oka kāfī kāvāli","oka kāfī kāvāli"],"hint":"నాకు · కాఫీ · కావాలి","x":["నేను"],"why":"The one who wants takes the case ending -కు: నాకు, not నేను."},
-      {"t":"type","p":"What would you like? (politely)","a":["మీకు ఏం కావాలి","మీకు ఏమి కావాలి","ఏం కావాలి","ఏమి కావాలి","mīku ēm kāvāli","mīku ēmi kāvāli","ēm kāvāli","ēmi kāvāli"],"hint":"మీకు · ఏం (what) · కావాలి","x":["మీరు"],"why":"The one who wants takes the case ending -కు: మీకు, not మీరు."},
-      {"t":"type","p":"I'm not a doctor. (use కాదు)","a":["నేను డాక్టర్ని కాదు","డాక్టర్ని కాదు","nēnu ḍākṭarni kādu","ḍākṭarni kādu"],"hint":"నేను · డాక్టర్ · కాదు","x":["లేదు"],"why":"Keep the person ending -ని and say not with కాదు: డాక్టర్ని కాదు."}
+      {"t":"fill","q":"__ కాఫీ కావాలి.","p":"I want coffee.","a":["నాకు","nāku"],"o":["నేను","నా","మీరు"],"why":"The one who wants takes -కు: నాకు.","xr":["nēnu","nā","mīru"]},
+      {"t":"fill","q":"నీళ్ళు __.","p":"Some water, please. (politely)","a":["ఇవ్వండి","ivvaṇḍi"],"o":["ఇవ్వు","ఇవ్వను","ఇచ్చాను"],"why":"-ండి makes the polite request: ఇవ్వండి.","xr":["ivvu","ivvanu","icchānu"]},
+      {"t":"fill","q":"నాకు టీ __.","p":"I don't want tea.","a":["వద్దు","vaddu"],"o":["కాదు","లేదు","కావాలి"],"why":"Not wanting is వద్దు.","xr":["kādu","lēdu","kāvāli"]},
+      {"t":"type","p":"I want coffee.","a":["నాకు కాఫీ కావాలి","కాఫీ కావాలి","నాకు ఒక కాఫీ కావాలి","ఒక కాఫీ కావాలి","nāku kāfī kāvāli","kāfī kāvāli","nāku oka kāfī kāvāli","oka kāfī kāvāli"],"hint":"నాకు · కాఫీ · కావాలి","x":["నేను"],"why":"The one who wants takes the case ending -కు: నాకు, not నేను.","xr":["nēnu"]},
+      {"t":"type","p":"What would you like? (politely)","a":["మీకు ఏం కావాలి","మీకు ఏమి కావాలి","ఏం కావాలి","ఏమి కావాలి","mīku ēm kāvāli","mīku ēmi kāvāli","ēm kāvāli","ēmi kāvāli"],"hint":"మీకు · ఏం (what) · కావాలి","x":["మీరు"],"why":"The one who wants takes the case ending -కు: మీకు, not మీరు.","xr":["mīru"]},
+      {"t":"type","p":"I'm not a doctor. (use కాదు)","a":["నేను డాక్టర్ని కాదు","డాక్టర్ని కాదు","nēnu ḍākṭarni kādu","ḍākṭarni kādu"],"hint":"నేను · డాక్టర్ · కాదు","x":["లేదు"],"why":"Keep the person ending -ని and say not with కాదు: డాక్టర్ని కాదు.","xr":["lēdu"]}
     ],
     "numbers": [
       {"t":"mc","q":"'thirty' =","o":["ముప్పై","మూడు","పదమూడు","ముగ్గురు"],"why":"ముప్పై is thirty; మూడు is three, పదమూడు thirteen, and ముగ్గురు three people."},
@@ -847,12 +847,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"two children","a":["ఇద్దరు","పిల్లలు"],"x":["రెండు"],"why":"Children are human, so they take the human counting form ఇద్దరు, not రెండు."},
       {"t":"order","p":"two tickets","a":["రెండు","టికెట్లు"],"x":["ఇద్దరు"],"why":"Tickets are not human, so they take రెండు; ఇద్దరు is only for people."},
       {"t":"order","p":"How much is one coffee?","a":["ఒక","కాఫీ","ఎంత?"],"x":["ఇద్దరు"],"why":"Before a noun, 'one' is ఒక; ఇద్దరు is for people, and ఎంత goes last, where the answer would go."},
-      {"t":"fill","q":"__ టీ ఇవ్వండి.","p":"One tea, please.","a":["ఒక","oka"],"o":["ఒకటి","ఇద్దరు","పది"],"why":"Right before a noun, 'one' is ఒక, not the counting word ఒకటి."},
-      {"t":"fill","q":"మాకు __ పిల్లలు.","p":"We have two children.","a":["ఇద్దరు","iddaru"],"o":["రెండు","ఇరవై","ముగ్గురు"],"why":"Children are people, so 'two' is ఇద్దరు."},
-      {"t":"fill","q":"ఇది __ రూపాయలు.","p":"This is forty rupees.","a":["నలభై","nalabhai"],"o":["నాలుగు","పద్నాలుగు","నలుగురు"],"why":"Forty is నలభై; నాలుగు is four, పద్నాలుగు fourteen."},
-      {"t":"type","p":"three children","a":["ముగ్గురు పిల్లలు","mugguru pillalu"],"hint":"పిల్లలు (children) · people take their own counting form","x":["మూడు"],"why":"Children are human, so count them with ముగ్గురు, not మూడు."},
-      {"t":"type","p":"Four tickets, please.","a":["నాలుగు టికెట్లు ఇవ్వండి.","టికెట్లు నాలుగు ఇవ్వండి.","nālugu ṭikeṭlu ivvaṇḍi.","ṭikeṭlu nālugu ivvaṇḍi."],"hint":"నాలుగు · టికెట్లు (tickets) · ఇవ్వండి","x":["నలుగురు"],"why":"Tickets are not human, so they take the plain number నాలుగు, not నలుగురు."},
-      {"t":"type","p":"twenty rupees","a":["ఇరవై రూపాయలు","iravai rūpāyalu"],"hint":"ఇరవై · రూపాయి (rupee)","x":["రూపాయి"],"why":"After a number above one the noun is plural: ఇరవై రూపాయలు."}
+      {"t":"fill","q":"__ టీ ఇవ్వండి.","p":"One tea, please.","a":["ఒక","oka"],"o":["ఒకటి","ఇద్దరు","పది"],"why":"Right before a noun, 'one' is ఒక, not the counting word ఒకటి.","xr":["okaṭi","iddaru","padi"]},
+      {"t":"fill","q":"మాకు __ పిల్లలు.","p":"We have two children.","a":["ఇద్దరు","iddaru"],"o":["రెండు","ఇరవై","ముగ్గురు"],"why":"Children are people, so 'two' is ఇద్దరు.","xr":["reṇḍu","iravai","mugguru"]},
+      {"t":"fill","q":"ఇది __ రూపాయలు.","p":"This is forty rupees.","a":["నలభై","nalabhai"],"o":["నాలుగు","పద్నాలుగు","నలుగురు"],"why":"Forty is నలభై; నాలుగు is four, పద్నాలుగు fourteen.","xr":["nālugu","padnālugu","naluguru"]},
+      {"t":"type","p":"three children","a":["ముగ్గురు పిల్లలు","mugguru pillalu"],"hint":"పిల్లలు (children) · people take their own counting form","x":["మూడు"],"why":"Children are human, so count them with ముగ్గురు, not మూడు.","xr":["mūḍu"]},
+      {"t":"type","p":"Four tickets, please.","a":["నాలుగు టికెట్లు ఇవ్వండి.","టికెట్లు నాలుగు ఇవ్వండి.","nālugu ṭikeṭlu ivvaṇḍi.","ṭikeṭlu nālugu ivvaṇḍi."],"hint":"నాలుగు · టికెట్లు (tickets) · ఇవ్వండి","x":["నలుగురు"],"why":"Tickets are not human, so they take the plain number నాలుగు, not నలుగురు.","xr":["naluguru"]},
+      {"t":"type","p":"twenty rupees","a":["ఇరవై రూపాయలు","iravai rūpāyalu"],"hint":"ఇరవై · రూపాయి (rupee)","x":["రూపాయి"],"why":"After a number above one the noun is plural: ఇరవై రూపాయలు.","xr":["rūpāyi"]}
     ],
     "intro": [
       {"t":"mc","q":"'What's your name?' (politely)","o":["మీ పేరు ఏమిటి?","మీరు పేరు ఏమిటి?","మీ పేరు ఎవరు?","నీ పేరు ఏమిటి?"],"why":"Before a noun మీరు becomes మీ, and a name is ఏమిటి (what), not ఎవరు (who)."},
@@ -863,12 +863,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"I'm an engineer. (with the person ending)","a":["నేను","ఇంజనీర్ని"],"x":["ఇంజనీర్"],"why":"There is no word for 'am': the person ending -ని goes on the noun: ఇంజనీర్ని."},
       {"t":"order","p":"We're students. (with the person ending)","a":["మేము","విద్యార్థులం"],"x":["విద్యార్థులు"],"why":"With మేము the noun takes a person ending: విద్యార్థులు becomes విద్యార్థులం."},
       {"t":"order","p":"I'm from America. (Use the phrase 'I have come from'.)","a":["అమెరికా","నుంచి","వచ్చాను"],"x":["వచ్చారు"],"why":"నుంచి goes after the noun, and the person ending -ఆను on వచ్చాను means 'I'."},
-      {"t":"fill","q":"నా __ డేవిడ్.","p":"My name is David.","a":["పేరు","pēru"],"o":["వయసు","ఊరు","పేర్లు"],"why":"My name is నా పేరు, followed straight by the name."},
-      {"t":"fill","q":"నేను __.","p":"I'm a teacher. (with the person ending)","a":["టీచర్ని","ṭīcharni"],"o":["టీచర్ గారు","టీచర్లం","టీచర్లు"],"why":"With నేను the noun takes the person ending -ని: టీచర్ని."},
-      {"t":"fill","q":"__ కొంచెం తెలుగు వచ్చు.","p":"I speak a little Telugu.","a":["నాకు","nāku"],"o":["నేను","నా","మీకు"],"why":"The one who speaks takes the case ending -కు: నాకు … వచ్చు."},
-      {"t":"type","p":"I'm a doctor. (with the person ending)","a":["నేను డాక్టర్ని.","డాక్టర్ని.","nēnu ḍākṭarni.","ḍākṭarni."],"hint":"నేను · డాక్టర్ · add the person ending for 'I am'","x":["డాక్టర్"],"why":"No word for 'am': the person ending -ని goes on the noun: డాక్టర్ని."},
-      {"t":"type","p":"What's your name? (politely)","a":["మీ పేరు ఏమిటి?","మీ పేరు ఏంటి?","mī pēru ēmiṭi?","mī pēru ēṇṭi?"],"hint":"మీరు · పేరు · ఏమిటి","x":["మీరు"],"why":"Before a noun మీరు takes its oblique form మీ: మీ పేరు."},
-      {"t":"type","p":"I speak a little Telugu.","a":["నాకు కొంచెం తెలుగు వచ్చు.","నాకు తెలుగు కొంచెం వచ్చు.","nāku konchem telugu vacchu.","nāku telugu konchem vacchu."],"hint":"నేను · కొంచెం (a little) · తెలుగు · వచ్చు","x":["నేను"],"why":"The one who speaks takes the case ending -కు: నాకు … వచ్చు."}
+      {"t":"fill","q":"నా __ డేవిడ్.","p":"My name is David.","a":["పేరు","pēru"],"o":["వయసు","ఊరు","పేర్లు"],"why":"My name is నా పేరు, followed straight by the name.","xr":["vayasu","ūru","pērlu"]},
+      {"t":"fill","q":"నేను __.","p":"I'm a teacher. (with the person ending)","a":["టీచర్ని","ṭīcharni"],"o":["టీచర్ గారు","టీచర్లం","టీచర్లు"],"why":"With నేను the noun takes the person ending -ని: టీచర్ని.","xr":["ṭīchar gāru","ṭīcharlam","ṭīcharlu"]},
+      {"t":"fill","q":"__ కొంచెం తెలుగు వచ్చు.","p":"I speak a little Telugu.","a":["నాకు","nāku"],"o":["నేను","నా","మీకు"],"why":"The one who speaks takes the case ending -కు: నాకు … వచ్చు.","xr":["nēnu","nā","mīku"]},
+      {"t":"type","p":"I'm a doctor. (with the person ending)","a":["నేను డాక్టర్ని.","డాక్టర్ని.","nēnu ḍākṭarni.","ḍākṭarni."],"hint":"నేను · డాక్టర్ · add the person ending for 'I am'","x":["డాక్టర్"],"why":"No word for 'am': the person ending -ని goes on the noun: డాక్టర్ని.","xr":["ḍākṭar"]},
+      {"t":"type","p":"What's your name? (politely)","a":["మీ పేరు ఏమిటి?","మీ పేరు ఏంటి?","mī pēru ēmiṭi?","mī pēru ēṇṭi?"],"hint":"మీరు · పేరు · ఏమిటి","x":["మీరు"],"why":"Before a noun మీరు takes its oblique form మీ: మీ పేరు.","xr":["mīru"]},
+      {"t":"type","p":"I speak a little Telugu.","a":["నాకు కొంచెం తెలుగు వచ్చు.","నాకు తెలుగు కొంచెం వచ్చు.","nāku konchem telugu vacchu.","nāku telugu konchem vacchu."],"hint":"నేను · కొంచెం (a little) · తెలుగు · వచ్చు","x":["నేను"],"why":"The one who speaks takes the case ending -కు: నాకు … వచ్చు.","xr":["nēnu"]}
     ],
     "family": [
       {"t":"mc","q":"'younger sister' =","o":["చెల్లెలు","అక్క","తమ్ముడు","అమ్మమ్మ"],"why":"చెల్లెలు is a younger sister; అక్క is an older one."},
@@ -879,12 +879,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"My father has come. (respectfully, with గారు)","a":["మా","నాన్న","గారు","వచ్చారు"],"x":["వచ్చాడు"],"why":"గారు takes the respect plural, so the verb ends in -ఆరు: వచ్చారు."},
       {"t":"order","p":"We have two children.","a":["మాకు","ఇద్దరు","పిల్లలు"],"x":["రెండు"],"why":"Children are human, so 'two' is the human counting form ఇద్దరు."},
       {"t":"order","p":"How is your mother? (politely, with గారు)","a":["మీ","అమ్మ","గారు","ఎలా","ఉన్నారు?"],"x":["ఉంది?"],"why":"With గారు the verb takes the respect plural -ఆరు: ఉన్నారు, not ఉంది."},
-      {"t":"fill","q":"ఇతను మా __.","p":"This is my younger brother.","a":["తమ్ముడు","tammuḍu"],"o":["అన్న","అక్క","చెల్లెలు"],"why":"A younger brother is తమ్ముడు; అన్న is older."},
-      {"t":"fill","q":"మా నాన్న గారు __.","p":"My father has come.","a":["వచ్చారు","vacchāru"],"o":["వచ్చాడు","వచ్చింది","వచ్చాను"],"why":"With గారు the verb takes the respect plural: వచ్చారు."},
-      {"t":"fill","q":"నాకు __ అక్కలు.","p":"I have three older sisters.","a":["ముగ్గురు","mugguru"],"o":["మూడు","ముప్పై","నలుగురు"],"why":"Sisters are people, so 'three' is ముగ్గురు."},
-      {"t":"type","p":"My mother has come. (respectfully, with మా and గారు)","a":["మా అమ్మ గారు వచ్చారు.","mā amma gāru vacchāru."],"hint":"మా · అమ్మ · గారు · 'has come': వచ్చ-","x":["వచ్చింది"],"why":"గారు takes the respect plural -ఆరు: వచ్చారు, not వచ్చింది."},
-      {"t":"type","p":"We have two children.","a":["మాకు ఇద్దరు పిల్లలు.","మాకు ఇద్దరు పిల్లలు ఉన్నారు.","māku iddaru pillalu.","māku iddaru pillalu unnāru."],"hint":"మేము · పిల్లలు (children)","x":["రెండు"],"why":"Children are human, so count them with ఇద్దరు, not రెండు."},
-      {"t":"type","p":"How is your father? (politely, with గారు)","a":["మీ నాన్న గారు ఎలా ఉన్నారు?","mī nānna gāru elā unnāru?"],"hint":"మీ · నాన్న · గారు · ఎలా · ఉన్న-","x":["ఉన్నాడు"],"why":"గారు takes the respect plural -ఆరు: ఉన్నారు, not ఉన్నాడు."}
+      {"t":"fill","q":"ఇతను మా __.","p":"This is my younger brother.","a":["తమ్ముడు","tammuḍu"],"o":["అన్న","అక్క","చెల్లెలు"],"why":"A younger brother is తమ్ముడు; అన్న is older.","xr":["anna","akka","chellelu"]},
+      {"t":"fill","q":"మా నాన్న గారు __.","p":"My father has come.","a":["వచ్చారు","vacchāru"],"o":["వచ్చాడు","వచ్చింది","వచ్చాను"],"why":"With గారు the verb takes the respect plural: వచ్చారు.","xr":["vacchāḍu","vacchindi","vacchānu"]},
+      {"t":"fill","q":"నాకు __ అక్కలు.","p":"I have three older sisters.","a":["ముగ్గురు","mugguru"],"o":["మూడు","ముప్పై","నలుగురు"],"why":"Sisters are people, so 'three' is ముగ్గురు.","xr":["mūḍu","muppai","naluguru"]},
+      {"t":"type","p":"My mother has come. (respectfully, with మా and గారు)","a":["మా అమ్మ గారు వచ్చారు.","mā amma gāru vacchāru."],"hint":"మా · అమ్మ · గారు · 'has come': వచ్చ-","x":["వచ్చింది"],"why":"గారు takes the respect plural -ఆరు: వచ్చారు, not వచ్చింది.","xr":["vacchindi"]},
+      {"t":"type","p":"We have two children.","a":["మాకు ఇద్దరు పిల్లలు.","మాకు ఇద్దరు పిల్లలు ఉన్నారు.","māku iddaru pillalu.","māku iddaru pillalu unnāru."],"hint":"మేము · పిల్లలు (children)","x":["రెండు"],"why":"Children are human, so count them with ఇద్దరు, not రెండు.","xr":["reṇḍu"]},
+      {"t":"type","p":"How is your father? (politely, with గారు)","a":["మీ నాన్న గారు ఎలా ఉన్నారు?","mī nānna gāru elā unnāru?"],"hint":"మీ · నాన్న · గారు · ఎలా · ఉన్న-","x":["ఉన్నాడు"],"why":"గారు takes the respect plural -ఆరు: ఉన్నారు, not ఉన్నాడు.","xr":["unnāḍu"]}
     ],
     "plurals": [
       {"t":"mc","q":"The plural of కుర్చీ (chair) =","o":["కుర్చీలు","కుర్చీళ్ళు","కుర్చాలు","కుర్చీ"],"why":"Most nouns just add -లు: కుర్చీలు."},
@@ -895,12 +895,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"The children have come.","a":["పిల్లలు","వచ్చారు"],"x":["వచ్చాయి"],"why":"Children are human, so the plural verb ends in -ఆరు: వచ్చారు."},
       {"t":"order","p":"The dogs have come.","a":["కుక్కలు","వచ్చాయి"],"x":["వచ్చారు"],"why":"Dogs are non-human, so the plural verb ends in -ఆయి: వచ్చాయి."},
       {"t":"order","p":"big houses","a":["పెద్ద","ఇళ్ళు"],"x":["ఇల్లు"],"why":"Adjectives never change; only the noun takes the plural: ఇళ్ళు."},
-      {"t":"fill","q":"రెండు __","p":"two books","a":["పుస్తకాలు","pustakālu"],"o":["పుస్తకం","పుస్తకంలు","పుస్తకలు"],"why":"After a number above one the noun is plural: పుస్తకాలు."},
-      {"t":"fill","q":"పువ్వులు __.","p":"The flowers are lovely.","a":["బాగున్నాయి","bāgunnāyi"],"o":["బాగున్నారు","బాగుంది","బాగున్నాను"],"why":"Flowers are not people, so they take the non-human plural: బాగున్నాయి."},
-      {"t":"fill","q":"పిల్లలు ఎక్కడ __?","p":"Where are the children?","a":["ఉన్నారు","unnāru"],"o":["ఉన్నాయి","ఉంది","ఉన్నాడు"],"why":"Children take the human plural: ఉన్నారు."},
-      {"t":"type","p":"The children are well.","a":["పిల్లలు బాగున్నారు.","pillalu bāgunnāru."],"hint":"పిల్లలు · బాగున్న- (well)","x":["బాగున్నాయి"],"why":"Children are human, so the verb takes the human plural -ఆరు: బాగున్నారు."},
-      {"t":"type","p":"The houses are nice.","a":["ఇళ్ళు బాగున్నాయి.","iḷḷu bāgunnāyi."],"hint":"ఇల్లు (house) · make it plural · బాగున్న- (nice)","x":["బాగున్నారు","ఇల్లు"],"why":"Houses are non-human, so the plural verb ends in -ఆయి: ఇళ్ళు బాగున్నాయి."},
-      {"t":"type","p":"The dogs have come.","a":["కుక్కలు వచ్చాయి.","kukkalu vacchāyi."],"hint":"కుక్క (dog) · 'have come': వచ్చ-","x":["వచ్చారు"],"why":"Dogs take the non-human plural: వచ్చాయి, not వచ్చారు."}
+      {"t":"fill","q":"రెండు __","p":"two books","a":["పుస్తకాలు","pustakālu"],"o":["పుస్తకం","పుస్తకంలు","పుస్తకలు"],"why":"After a number above one the noun is plural: పుస్తకాలు.","xr":["pustakam","pustakamlu","pustakalu"]},
+      {"t":"fill","q":"పువ్వులు __.","p":"The flowers are lovely.","a":["బాగున్నాయి","bāgunnāyi"],"o":["బాగున్నారు","బాగుంది","బాగున్నాను"],"why":"Flowers are not people, so they take the non-human plural: బాగున్నాయి.","xr":["bāgunnāru","bāgundi","bāgunnānu"]},
+      {"t":"fill","q":"పిల్లలు ఎక్కడ __?","p":"Where are the children?","a":["ఉన్నారు","unnāru"],"o":["ఉన్నాయి","ఉంది","ఉన్నాడు"],"why":"Children take the human plural: ఉన్నారు.","xr":["unnāyi","undi","unnāḍu"]},
+      {"t":"type","p":"The children are well.","a":["పిల్లలు బాగున్నారు.","pillalu bāgunnāru."],"hint":"పిల్లలు · బాగున్న- (well)","x":["బాగున్నాయి"],"why":"Children are human, so the verb takes the human plural -ఆరు: బాగున్నారు.","xr":["bāgunnāyi"]},
+      {"t":"type","p":"The houses are nice.","a":["ఇళ్ళు బాగున్నాయి.","iḷḷu bāgunnāyi."],"hint":"ఇల్లు (house) · make it plural · బాగున్న- (nice)","x":["బాగున్నారు","ఇల్లు"],"why":"Houses are non-human, so the plural verb ends in -ఆయి: ఇళ్ళు బాగున్నాయి.","xr":["bāgunnāru","illu"]},
+      {"t":"type","p":"The dogs have come.","a":["కుక్కలు వచ్చాయి.","kukkalu vacchāyi."],"hint":"కుక్క (dog) · 'have come': వచ్చ-","x":["వచ్చారు"],"why":"Dogs take the non-human plural: వచ్చాయి, not వచ్చారు.","xr":["vacchāru"]}
     ],
     "case": [
       {"t":"mc","q":"'on the bus' =","o":["బస్సులో","లో బస్సు","బస్సుకి","బస్సుతో"],"why":"'In' or 'on' a vehicle is -లో, after the noun."},
@@ -911,12 +911,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Come to our house.","a":["మా","ఇంటికి","రండి"],"x":["ఇల్లుకి"],"why":"ఇల్లు changes to its oblique form ఇంటి- before the case ending -కి: ఇంటికి."},
       {"t":"order","p":"Come with me.","a":["నాతో","రండి"],"x":["నేనుతో"],"why":"నేను takes its oblique form నా- before the case ending -తో: నాతో."},
       {"t":"order","p":"Give it to Ravi.","a":["రవికి","ఇవ్వండి"],"x":["రవిని"],"why":"The one who receives takes the case ending -కి: రవికి."},
-      {"t":"fill","q":"పుస్తకం బల్ల __ ఉంది.","p":"The book is on the table.","a":["మీద","mīda"],"o":["కోసం","నుంచి","దగ్గర"],"why":"'On' is మీద, after the noun."},
-      {"t":"fill","q":"ఇది __ కోసం.","p":"This is for you.","a":["మీ","mī"],"o":["మీరు","మీకు","మిమ్మల్ని"],"why":"కోసం follows the oblique form మీ."},
-      {"t":"fill","q":"__ పిలవండి.","p":"Call him.","a":["అతన్ని","అతనిని","atanni","atanini"],"o":["అతను","అతనికి","అతనితో"],"why":"A person who is the object takes -ని: అతన్ని."},
-      {"t":"type","p":"Tell me.","a":["నాకు చెప్పండి.","nāku cheppaṇḍi."],"hint":"నేను · చెప్పండి (tell)","x":["నేను"],"why":"The one you tell takes the case ending -కు: నాకు చెప్పండి."},
-      {"t":"type","p":"Mom is in the house.","a":["అమ్మ ఇంట్లో ఉంది.","ఇంట్లో అమ్మ ఉంది.","అమ్మ ఇంట్లో ఉన్నారు.","ఇంట్లో అమ్మ ఉన్నారు.","amma iṇṭlō undi.","iṇṭlō amma undi.","amma iṇṭlō unnāru.","iṇṭlō amma unnāru."],"hint":"అమ్మ · ఇల్లు · -లో · ఉంది","x":["ఇల్లు"],"why":"ఇల్లు takes its oblique form before -లో: ఇంట్లో."},
-      {"t":"type","p":"Come with Mom.","a":["అమ్మతో రండి.","ammatō raṇḍi."],"hint":"అమ్మ · -తో (with) · రండి","x":["అమ్మ"],"why":"The case ending -తో goes after the noun: అమ్మతో."}
+      {"t":"fill","q":"పుస్తకం బల్ల __ ఉంది.","p":"The book is on the table.","a":["మీద","mīda"],"o":["కోసం","నుంచి","దగ్గర"],"why":"'On' is మీద, after the noun.","xr":["kōsam","nunchi","daggara"]},
+      {"t":"fill","q":"ఇది __ కోసం.","p":"This is for you.","a":["మీ","mī"],"o":["మీరు","మీకు","మిమ్మల్ని"],"why":"కోసం follows the oblique form మీ.","xr":["mīru","mīku","mimmalni"]},
+      {"t":"fill","q":"__ పిలవండి.","p":"Call him.","a":["అతన్ని","అతనిని","atanni","atanini"],"o":["అతను","అతనికి","అతనితో"],"why":"A person who is the object takes -ని: అతన్ని.","xr":["atanu","ataniki","atanitō"]},
+      {"t":"type","p":"Tell me.","a":["నాకు చెప్పండి.","nāku cheppaṇḍi."],"hint":"నేను · చెప్పండి (tell)","x":["నేను"],"why":"The one you tell takes the case ending -కు: నాకు చెప్పండి.","xr":["nēnu"]},
+      {"t":"type","p":"Mom is in the house.","a":["అమ్మ ఇంట్లో ఉంది.","ఇంట్లో అమ్మ ఉంది.","అమ్మ ఇంట్లో ఉన్నారు.","ఇంట్లో అమ్మ ఉన్నారు.","amma iṇṭlō undi.","iṇṭlō amma undi.","amma iṇṭlō unnāru.","iṇṭlō amma unnāru."],"hint":"అమ్మ · ఇల్లు · -లో · ఉంది","x":["ఇల్లు"],"why":"ఇల్లు takes its oblique form before -లో: ఇంట్లో.","xr":["illu"]},
+      {"t":"type","p":"Come with Mom.","a":["అమ్మతో రండి.","ammatō raṇḍi."],"hint":"అమ్మ · -తో (with) · రండి","x":["అమ్మ"],"why":"The case ending -తో goes after the noun: అమ్మతో.","xr":["amma"]}
     ],
     "have": [
       {"t":"mc","q":"'There's no bank here.'","o":["ఇక్కడ బ్యాంకు లేదు.","ఇక్కడ బ్యాంకు కాదు.","ఇక్కడ బ్యాంకు ఉంది కాదు.","ఇక్కడ బ్యాంకు ఉంది లేదు."],"why":"లేదు says something is not there; కాదు says what something is not."},
@@ -927,12 +927,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"I have a younger brother. (Start with the one who has.)","a":["నాకు","ఒక","తమ్ముడు","ఉన్నాడు"],"x":["నేను","ఉంది"],"why":"The one who has takes the case ending -కు (నాకు), and the verb agrees with the brother: ఉన్నాడు."},
       {"t":"order","p":"Ravi isn't at home. (Ravi is a man; start with Ravi.)","a":["రవి","ఇంట్లో","లేడు"],"x":["ఇల్లు","కాదు"],"why":"ఇల్లు takes its oblique form before -లో: ఇంట్లో; 'not there' is లేడు, not కాదు."},
       {"t":"order","p":"Is there a bank here? (Start with ఇక్కడ.)","a":["ఇక్కడ","బ్యాంకు","ఉందా?"],"x":["కాదా?"],"why":"Add -ఆ to the verb to ask: ఉందా?; కాదా would ask 'isn't it?'."},
-      {"t":"fill","q":"ఇక్కడ బ్యాంకు __.","p":"There's no bank here.","a":["లేదు","lēdu"],"o":["కాదు","లేడు","లేను"],"why":"'Not there' for a thing is లేదు."},
-      {"t":"fill","q":"నాకు ఒక చెల్లెలు __.","p":"I have a younger sister.","a":["ఉంది","undi"],"o":["ఉన్నాడు","ఉన్నాను","ఉన్నాయి"],"why":"The verb agrees with the sister: the non-masculine ఉంది."},
-      {"t":"fill","q":"__ దగ్గర కారు ఉంది.","p":"I have a car.","a":["నా","nā"],"o":["నేను","నాకు","నన్ను"],"why":"దగ్గర comes after the oblique form నా."},
-      {"t":"type","p":"I have a car.","a":["నా దగ్గర కారు ఉంది.","నాకు కారు ఉంది.","నా దగ్గర ఒక కారు ఉంది.","నాకు ఒక కారు ఉంది.","nā daggara kāru undi.","nāku kāru undi.","nā daggara oka kāru undi.","nāku oka kāru undi."],"hint":"నేను · దగ్గర (near) · కారు · ఉండు","x":["నేను"],"why":"The owner is not the subject: say నా దగ్గర or నాకు, with a case ending, never నేను."},
-      {"t":"type","p":"I have an older sister.","a":["నాకు ఒక అక్క ఉంది.","నాకు అక్క ఉంది.","nāku oka akka undi.","nāku akka undi."],"hint":"నేను · అక్క · ఉండు","x":["ఉన్నాడు","నేను"],"why":"The verb agrees with the sister (non-masculine ఉంది), and the one who has takes the case ending -కు: నాకు."},
-      {"t":"type","p":"Ravi is at home. (Ravi is a man.)","a":["రవి ఇంట్లో ఉన్నాడు.","ఇంట్లో రవి ఉన్నాడు.","ravi iṇṭlō unnāḍu.","iṇṭlō ravi unnāḍu."],"hint":"రవి · ఇల్లు · -లో · ఉండు","x":["ఉంది","ఇల్లు"],"why":"Ravi is a man, so the verb takes the masculine ending: ఉన్నాడు."}
+      {"t":"fill","q":"ఇక్కడ బ్యాంకు __.","p":"There's no bank here.","a":["లేదు","lēdu"],"o":["కాదు","లేడు","లేను"],"why":"'Not there' for a thing is లేదు.","xr":["kādu","lēḍu","lēnu"]},
+      {"t":"fill","q":"నాకు ఒక చెల్లెలు __.","p":"I have a younger sister.","a":["ఉంది","undi"],"o":["ఉన్నాడు","ఉన్నాను","ఉన్నాయి"],"why":"The verb agrees with the sister: the non-masculine ఉంది.","xr":["unnāḍu","unnānu","unnāyi"]},
+      {"t":"fill","q":"__ దగ్గర కారు ఉంది.","p":"I have a car.","a":["నా","nā"],"o":["నేను","నాకు","నన్ను"],"why":"దగ్గర comes after the oblique form నా.","xr":["nēnu","nāku","nannu"]},
+      {"t":"type","p":"I have a car.","a":["నా దగ్గర కారు ఉంది.","నాకు కారు ఉంది.","నా దగ్గర ఒక కారు ఉంది.","నాకు ఒక కారు ఉంది.","nā daggara kāru undi.","nāku kāru undi.","nā daggara oka kāru undi.","nāku oka kāru undi."],"hint":"నేను · దగ్గర (near) · కారు · ఉండు","x":["నేను"],"why":"The owner is not the subject: say నా దగ్గర or నాకు, with a case ending, never నేను.","xr":["nēnu"]},
+      {"t":"type","p":"I have an older sister.","a":["నాకు ఒక అక్క ఉంది.","నాకు అక్క ఉంది.","nāku oka akka undi.","nāku akka undi."],"hint":"నేను · అక్క · ఉండు","x":["ఉన్నాడు","నేను"],"why":"The verb agrees with the sister (non-masculine ఉంది), and the one who has takes the case ending -కు: నాకు.","xr":["unnāḍu","nēnu"]},
+      {"t":"type","p":"Ravi is at home. (Ravi is a man.)","a":["రవి ఇంట్లో ఉన్నాడు.","ఇంట్లో రవి ఉన్నాడు.","ravi iṇṭlō unnāḍu.","iṇṭlō ravi unnāḍu."],"hint":"రవి · ఇల్లు · -లో · ఉండు","x":["ఉంది","ఇల్లు"],"why":"Ravi is a man, so the verb takes the masculine ending: ఉన్నాడు.","xr":["undi","illu"]}
     ],
     "like": [
       {"t":"mc","q":"'Do you like movies?' (politely)","o":["మీకు సినిమాలు ఇష్టమా?","మీరు సినిమాలు ఇష్టమా?","మీ సినిమాలు ఇష్టమా?","మీకు సినిమాలు ఇష్టమా ఉంది?"],"why":"The one who likes takes -కు: మీకు; -ఆ on ఇష్టం asks."},
@@ -943,12 +943,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"I like cricket. (Start with the one who likes.)","a":["నాకు","క్రికెట్","ఇష్టం"],"x":["నేను"],"why":"The person who likes takes the case ending -కు: నాకు, not నేను."},
       {"t":"order","p":"Do you like biryani? (politely; start with the one who likes)","a":["మీకు","బిర్యానీ","ఇష్టమా?"],"x":["మీరు"],"why":"The one who likes takes the case ending -కు: మీకు, not మీరు."},
       {"t":"order","p":"I don't know.","a":["నాకు","తెలియదు"],"x":["తెలుసు","లేదు"],"why":"'Don't know' is the single word తెలియదు, not తెలుసు with లేదు."},
-      {"t":"fill","q":"__ పాటలు ఇష్టం.","p":"I like songs.","a":["నాకు","nāku"],"o":["నేను","నా","నన్ను"],"why":"The one who likes takes -కు: నాకు."},
-      {"t":"fill","q":"మీకు క్రికెట్ __?","p":"Do you like cricket?","a":["ఇష్టమా","ishṭamā"],"o":["ఇష్టం","తెలుసా","కావాలా"],"why":"-ఆ turns ఇష్టం into the question ఇష్టమా."},
-      {"t":"fill","q":"నాకు తెలుగు __.","p":"I don't speak Telugu.","a":["రాదు","rādu"],"o":["వచ్చు","లేదు","కాదు"],"why":"The negative of వచ్చు is రాదు."},
-      {"t":"type","p":"I like biryani.","a":["నాకు బిర్యానీ ఇష్టం.","నాకు బిర్యానీ అంటే ఇష్టం.","బిర్యానీ నాకు ఇష్టం.","బిర్యానీ అంటే నాకు ఇష్టం.","nāku biryānī ishṭam.","nāku biryānī aṇṭē ishṭam.","biryānī nāku ishṭam.","biryānī aṇṭē nāku ishṭam."],"hint":"నేను · బిర్యానీ · ఇష్టం","x":["నేను"],"why":"The person who likes takes the case ending -కు: నాకు బిర్యానీ ఇష్టం."},
-      {"t":"type","p":"Do you speak Telugu? (politely)","a":["మీకు తెలుగు వచ్చా?","మీకు తెలుగు వస్తుందా?","mīku telugu vacchā?","mīku telugu vastundā?"],"hint":"మీరు · తెలుగు · వచ్చు + -ఆ","x":["మీరు"],"why":"The speaker takes the case ending -కు: మీకు, not మీరు."},
-      {"t":"type","p":"I don't know.","a":["నాకు తెలియదు.","తెలియదు.","nāku teliyadu.","teliyadu."],"hint":"నేను · తెలియదు (don't know)","x":["తెలుసు","నేను"],"why":"The one who knows takes the case ending -కు, and 'don't know' is తెలియదు."}
+      {"t":"fill","q":"__ పాటలు ఇష్టం.","p":"I like songs.","a":["నాకు","nāku"],"o":["నేను","నా","నన్ను"],"why":"The one who likes takes -కు: నాకు.","xr":["nēnu","nā","nannu"]},
+      {"t":"fill","q":"మీకు క్రికెట్ __?","p":"Do you like cricket?","a":["ఇష్టమా","ishṭamā"],"o":["ఇష్టం","తెలుసా","కావాలా"],"why":"-ఆ turns ఇష్టం into the question ఇష్టమా.","xr":["ishṭam","telusā","kāvālā"]},
+      {"t":"fill","q":"నాకు తెలుగు __.","p":"I don't speak Telugu.","a":["రాదు","rādu"],"o":["వచ్చు","లేదు","కాదు"],"why":"The negative of వచ్చు is రాదు.","xr":["vacchu","lēdu","kādu"]},
+      {"t":"type","p":"I like biryani.","a":["నాకు బిర్యానీ ఇష్టం.","నాకు బిర్యానీ అంటే ఇష్టం.","బిర్యానీ నాకు ఇష్టం.","బిర్యానీ అంటే నాకు ఇష్టం.","nāku biryānī ishṭam.","nāku biryānī aṇṭē ishṭam.","biryānī nāku ishṭam.","biryānī aṇṭē nāku ishṭam."],"hint":"నేను · బిర్యానీ · ఇష్టం","x":["నేను"],"why":"The person who likes takes the case ending -కు: నాకు బిర్యానీ ఇష్టం.","xr":["nēnu"]},
+      {"t":"type","p":"Do you speak Telugu? (politely)","a":["మీకు తెలుగు వచ్చా?","మీకు తెలుగు వస్తుందా?","mīku telugu vacchā?","mīku telugu vastundā?"],"hint":"మీరు · తెలుగు · వచ్చు + -ఆ","x":["మీరు"],"why":"The speaker takes the case ending -కు: మీకు, not మీరు.","xr":["mīru"]},
+      {"t":"type","p":"I don't know.","a":["నాకు తెలియదు.","తెలియదు.","nāku teliyadu.","teliyadu."],"hint":"నేను · తెలియదు (don't know)","x":["తెలుసు","నేను"],"why":"The one who knows takes the case ending -కు, and 'don't know' is తెలియదు.","xr":["telusu","nēnu"]}
     ],
     "future": [
       {"t":"mc","q":"'He goes to the office every day.'","o":["అతను రోజూ ఆఫీసుకి వెళ్తాడు.","అతను రోజూ ఆఫీసుకి వెళ్తుంది.","అతను రోజూ ఆఫీసుకి వెళ్తాను.","అతను రోజూ ఆఫీసుకి వెళ్ళడు."],"why":"అతను takes the masculine ending -ఆడు: వెళ్తాడు."},
@@ -959,12 +959,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"She'll come tomorrow. (Start with ఆమె.)","a":["ఆమె","రేపు","వస్తుంది"],"x":["వస్తాడు"],"why":"ఆమె takes the non-masculine ending, like అది: వస్తుంది, not వస్తాడు."},
       {"t":"order","p":"We live in Hyderabad. (my family and I; start with మేము)","a":["మేము","హైదరాబాదులో","ఉంటాం"],"x":["ఉంటారు"],"why":"With మేము the person ending is -ఆం: ఉంటాం."},
       {"t":"order","p":"I won't go.","a":["నేను","వెళ్ళను"],"x":["వెళ్తాను","లేదు"],"why":"'Won't' is its own form, వెళ్ళను; Telugu adds no లేదు."},
-      {"t":"fill","q":"నేను రోజూ కాఫీ __.","p":"I drink coffee every day.","a":["తాగుతాను","tāgutānu"],"o":["తాగుతాడు","తాగుతుంది","తాగను"],"why":"With నేను the ending is -ఆను: తాగుతాను."},
-      {"t":"fill","q":"అతను రేపు __.","p":"He won't come tomorrow.","a":["రాడు","rāḍu"],"o":["రాదు","రాను","వస్తాడు"],"why":"అతను takes the masculine negative: రాడు."},
-      {"t":"fill","q":"నేను రేపు __.","p":"I won't go tomorrow.","a":["వెళ్ళను","veḷḷanu"],"o":["వెళ్ళాను","వెళ్తాను","వెళ్ళదు"],"why":"'Won't go' is వెళ్ళను with a short a; వెళ్ళాను, with a long ā, means 'I went'."},
-      {"t":"type","p":"She lives in Hyderabad. (use ఆమె)","a":["ఆమె హైదరాబాదులో ఉంటుంది.","హైదరాబాదులో ఆమె ఉంటుంది.","āme haidarābādulō uṇṭundi.","haidarābādulō āme uṇṭundi."],"hint":"ఆమె · హైదరాబాదు · -లో · ఉండు (live)","x":["ఉంటాడు"],"why":"ఆమె takes the non-masculine ending, like అది: ఉంటుంది."},
-      {"t":"type","p":"Will you come tomorrow? (politely)","a":["మీరు రేపు వస్తారా?","రేపు వస్తారా?","రేపు మీరు వస్తారా?","mīru rēpu vastārā?","rēpu vastārā?","rēpu mīru vastārā?"],"hint":"మీరు · రేపు · రా (come)","x":["వస్తావా"],"why":"మీరు takes the person ending -ఆరు: వస్తారా?"},
-      {"t":"type","p":"I don't eat meat.","a":["నేను మాంసం తినను.","మాంసం తినను.","nēnu māmsam tinanu.","māmsam tinanu."],"hint":"మాంసం (meat) · తిను (eat)","x":["తిన్నాను","తింటాను"],"why":"The negative puts the person ending -ను straight on the base: తినను; తిన్నాను means 'I ate'."}
+      {"t":"fill","q":"నేను రోజూ కాఫీ __.","p":"I drink coffee every day.","a":["తాగుతాను","tāgutānu"],"o":["తాగుతాడు","తాగుతుంది","తాగను"],"why":"With నేను the ending is -ఆను: తాగుతాను.","xr":["tāgutāḍu","tāgutundi","tāganu"]},
+      {"t":"fill","q":"అతను రేపు __.","p":"He won't come tomorrow.","a":["రాడు","rāḍu"],"o":["రాదు","రాను","వస్తాడు"],"why":"అతను takes the masculine negative: రాడు.","xr":["rādu","rānu","vastāḍu"]},
+      {"t":"fill","q":"నేను రేపు __.","p":"I won't go tomorrow.","a":["వెళ్ళను","veḷḷanu"],"o":["వెళ్ళాను","వెళ్తాను","వెళ్ళదు"],"why":"'Won't go' is వెళ్ళను with a short a; వెళ్ళాను, with a long ā, means 'I went'.","xr":["veḷḷānu","veḷtānu","veḷḷadu"]},
+      {"t":"type","p":"She lives in Hyderabad. (use ఆమె)","a":["ఆమె హైదరాబాదులో ఉంటుంది.","హైదరాబాదులో ఆమె ఉంటుంది.","āme haidarābādulō uṇṭundi.","haidarābādulō āme uṇṭundi."],"hint":"ఆమె · హైదరాబాదు · -లో · ఉండు (live)","x":["ఉంటాడు"],"why":"ఆమె takes the non-masculine ending, like అది: ఉంటుంది.","xr":["uṇṭāḍu"]},
+      {"t":"type","p":"Will you come tomorrow? (politely)","a":["మీరు రేపు వస్తారా?","రేపు వస్తారా?","రేపు మీరు వస్తారా?","mīru rēpu vastārā?","rēpu vastārā?","rēpu mīru vastārā?"],"hint":"మీరు · రేపు · రా (come)","x":["వస్తావా"],"why":"మీరు takes the person ending -ఆరు: వస్తారా?","xr":["vastāvā"]},
+      {"t":"type","p":"I don't eat meat.","a":["నేను మాంసం తినను.","మాంసం తినను.","nēnu māmsam tinanu.","māmsam tinanu."],"hint":"మాంసం (meat) · తిను (eat)","x":["తిన్నాను","తింటాను"],"why":"The negative puts the person ending -ను straight on the base: తినను; తిన్నాను means 'I ate'.","xr":["tinnānu","tiṇṭānu"]}
     ],
     "continuous": [
       {"t":"mc","q":"'I'm reading a book.' (right now)","o":["నేను పుస్తకం చదువుతున్నాను.","నేను పుస్తకం చదువుతాను.","నేను పుస్తకం చదువుతున్నారు.","నేను పుస్తకం చదువుతోంది."],"why":"Right now needs the continuous with the నేను ending: చదువుతున్నాను."},
@@ -975,12 +975,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"What are you doing? (politely)","a":["మీరు","ఏం","చేస్తున్నారు?"],"x":["చేస్తున్నావు?"],"why":"మీరు takes the person ending -ఆరు: చేస్తున్నారు."},
       {"t":"order","p":"She's cooking. (Start with ఆమె.)","a":["ఆమె","వంట","చేస్తోంది"],"x":["చేస్తున్నాడు"],"why":"ఆమె takes the non-masculine form -తోంది, not the masculine చేస్తున్నాడు."},
       {"t":"order","p":"I'm not watching TV. (Start with నేను.)","a":["నేను","టీవీ","చూడటం","లేదు"],"x":["కాదు"],"why":"The negative is the -డం form plus లేదు, never కాదు."},
-      {"t":"fill","q":"నేను ఇప్పుడు అన్నం __.","p":"I'm eating rice now.","a":["తింటున్నాను","tiṇṭunnānu"],"o":["తింటాను","తింటున్నాడు","తినను"],"why":"Right now needs the continuous: తింటున్నాను."},
-      {"t":"fill","q":"వాళ్ళు సినిమా __.","p":"They're watching a movie.","a":["చూస్తున్నారు","chūstunnāru"],"o":["చూస్తున్నాయి","చూస్తున్నాడు","చూస్తారు"],"why":"People take the human plural in the continuous: చూస్తున్నారు."},
-      {"t":"fill","q":"ఆమె ఫోన్లో __.","p":"She's talking on the phone.","a":["మాట్లాడుతోంది","మాట్లాడుతున్నది","māṭlāḍutōndi","māṭlāḍutunnadi"],"o":["మాట్లాడుతున్నాడు","మాట్లాడుతుంది","మాట్లాడుతున్నాను"],"why":"ఆమె takes -తోంది in the continuous."},
-      {"t":"type","p":"What are you doing? (politely)","a":["మీరు ఏం చేస్తున్నారు?","ఏం చేస్తున్నారు?","మీరు ఏమి చేస్తున్నారు?","ఏమి చేస్తున్నారు?","mīru ēm chēstunnāru?","ēm chēstunnāru?","mīru ēmi chēstunnāru?","ēmi chēstunnāru?"],"hint":"మీరు · ఏం · చేయు (do)","x":["చేస్తున్నావు"],"why":"మీరు takes the person ending -ఆరు: చేస్తున్నారు."},
-      {"t":"type","p":"He's reading a book. (use అతను)","a":["అతను పుస్తకం చదువుతున్నాడు.","atanu pustakam chaduvutunnāḍu."],"hint":"అతను · పుస్తకం · చదువు (read)","x":["చదువుతోంది"],"why":"అతను takes the masculine ending -ఆడు: చదువుతున్నాడు."},
-      {"t":"type","p":"I'm not working.","a":["నేను పని చేయడం లేదు.","పని చేయడం లేదు.","నేను పని చెయ్యడం లేదు.","పని చెయ్యడం లేదు.","నేను పని చేయట్లేదు.","పని చేయట్లేదు.","nēnu pani chēyaḍam lēdu.","pani chēyaḍam lēdu.","nēnu pani cheyyaḍam lēdu.","pani cheyyaḍam lēdu.","nēnu pani chēyaṭlēdu.","pani chēyaṭlēdu."],"hint":"పని చేయు (work) · -డం form · లేదు","x":["కాదు"],"why":"The negative is the -డం form plus లేదు, one form for every person."}
+      {"t":"fill","q":"నేను ఇప్పుడు అన్నం __.","p":"I'm eating rice now.","a":["తింటున్నాను","tiṇṭunnānu"],"o":["తింటాను","తింటున్నాడు","తినను"],"why":"Right now needs the continuous: తింటున్నాను.","xr":["tiṇṭānu","tiṇṭunnāḍu","tinanu"]},
+      {"t":"fill","q":"వాళ్ళు సినిమా __.","p":"They're watching a movie.","a":["చూస్తున్నారు","chūstunnāru"],"o":["చూస్తున్నాయి","చూస్తున్నాడు","చూస్తారు"],"why":"People take the human plural in the continuous: చూస్తున్నారు.","xr":["chūstunnāyi","chūstunnāḍu","chūstāru"]},
+      {"t":"fill","q":"ఆమె ఫోన్లో __.","p":"She's talking on the phone.","a":["మాట్లాడుతోంది","మాట్లాడుతున్నది","māṭlāḍutōndi","māṭlāḍutunnadi"],"o":["మాట్లాడుతున్నాడు","మాట్లాడుతుంది","మాట్లాడుతున్నాను"],"why":"ఆమె takes -తోంది in the continuous.","xr":["māṭlāḍutunnāḍu","māṭlāḍutundi","māṭlāḍutunnānu"]},
+      {"t":"type","p":"What are you doing? (politely)","a":["మీరు ఏం చేస్తున్నారు?","ఏం చేస్తున్నారు?","మీరు ఏమి చేస్తున్నారు?","ఏమి చేస్తున్నారు?","mīru ēm chēstunnāru?","ēm chēstunnāru?","mīru ēmi chēstunnāru?","ēmi chēstunnāru?"],"hint":"మీరు · ఏం · చేయు (do)","x":["చేస్తున్నావు"],"why":"మీరు takes the person ending -ఆరు: చేస్తున్నారు.","xr":["chēstunnāvu"]},
+      {"t":"type","p":"He's reading a book. (use అతను)","a":["అతను పుస్తకం చదువుతున్నాడు.","atanu pustakam chaduvutunnāḍu."],"hint":"అతను · పుస్తకం · చదువు (read)","x":["చదువుతోంది"],"why":"అతను takes the masculine ending -ఆడు: చదువుతున్నాడు.","xr":["chaduvutōndi"]},
+      {"t":"type","p":"I'm not working.","a":["నేను పని చేయడం లేదు.","పని చేయడం లేదు.","నేను పని చెయ్యడం లేదు.","పని చెయ్యడం లేదు.","నేను పని చేయట్లేదు.","పని చేయట్లేదు.","nēnu pani chēyaḍam lēdu.","pani chēyaḍam lēdu.","nēnu pani cheyyaḍam lēdu.","pani cheyyaḍam lēdu.","nēnu pani chēyaṭlēdu.","pani chēyaṭlēdu."],"hint":"పని చేయు (work) · -డం form · లేదు","x":["కాదు"],"why":"The negative is the -డం form plus లేదు, one form for every person.","xr":["kādu"]}
     ],
     "past": [
       {"t":"mc","q":"'I ate' =","o":["తిన్నాను","తింటాను","తినను","తినాను"],"why":"The past stem of తిను is తిన్న-: తిన్నాను. తింటాను is 'I eat' or 'I will eat'."},
@@ -991,12 +991,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Lakshmi went to the office. (start with her name)","a":["లక్ష్మి","ఆఫీసుకి","వెళ్ళింది"],"x":["వెళ్ళాడు"],"why":"Lakshmi is a woman, so the verb takes the non-masculine ending: వెళ్ళింది."},
       {"t":"order","p":"We ate idli. (my family and I; start with 'we')","a":["మేము","ఇడ్లీ","తిన్నాము"],"x":["తిన్నారు"],"why":"With మేము the person ending is -ఆము: తిన్నాము."},
       {"t":"order","p":"My father came. (respectfully)","a":["మా","నాన్న","గారు","వచ్చారు"],"x":["వచ్చాడు"],"why":"గారు takes the respect plural, so the verb agrees: వచ్చారు."},
-      {"t":"fill","q":"నిన్న నేను ఒక సినిమా __.","p":"Yesterday I saw a movie.","a":["చూశాను","చూసాను","chūshānu","chūsānu"],"o":["చూస్తాను","చూశారు","చూశాడు"],"why":"With నేను in the past: చూశాను. చూస్తాను is 'I watch' or 'I will watch'."},
-      {"t":"fill","q":"ఆమె ఇంటికి __.","p":"She went home.","a":["వెళ్ళింది","veḷḷindi"],"o":["వెళ్ళాడు","వెళ్ళాయి","వెళ్ళను"],"why":"ఆమె takes -ఇంది in the past: వెళ్ళింది."},
-      {"t":"fill","q":"నేను నిన్న ఆఫీసుకి __.","p":"I went to the office yesterday.","a":["వెళ్ళాను","veḷḷānu"],"o":["వెళ్ళను","వెళ్తాను","వెళ్ళారు"],"why":"Yesterday needs the past, with the long ā: వెళ్ళాను. వెళ్ళను means 'I won't go'."},
-      {"t":"type","p":"Ravi came. (Ravi is a man)","a":["రవి వచ్చాడు","ravi vacchāḍu"],"hint":"రా (come) · past stem వచ్చ- · Ravi is a man","x":["వచ్చింది","వస్తాడు"],"why":"రవి is a man, so the verb takes the masculine ending -ఆడు: వచ్చాడు."},
-      {"t":"type","p":"She went home.","a":["ఆమె ఇంటికి వెళ్ళింది","ఇంటికి వెళ్ళింది","āme iṇṭiki veḷḷindi","iṇṭiki veḷḷindi"],"hint":"ఆమె · ఇల్లు (home) · వెళ్ళు (go)","x":["వెళ్ళాడు","ఇల్లుకి"],"why":"ఆమె takes the non-masculine ending -ఇంది, and ఇల్లు takes its oblique form before -కి: ఇంటికి."},
-      {"t":"type","p":"I went to Hyderabad.","a":["నేను హైదరాబాదుకి వెళ్ళాను","హైదరాబాదుకి వెళ్ళాను","నేను హైదరాబాదుకు వెళ్ళాను","హైదరాబాదుకు వెళ్ళాను","నేను హైదరాబాదు వెళ్ళాను","హైదరాబాదు వెళ్ళాను","నేను హైదరాబాద్ వెళ్ళాను","హైదరాబాద్ వెళ్ళాను","nēnu haidarābāduki veḷḷānu","haidarābāduki veḷḷānu","nēnu haidarābāduku veḷḷānu","haidarābāduku veḷḷānu","nēnu haidarābādu veḷḷānu","haidarābādu veḷḷānu","nēnu haidarābād veḷḷānu","haidarābād veḷḷānu"],"hint":"హైదరాబాదు · వెళ్ళు (go) · past","x":["వెళ్ళను","హైదరాబాదులో"],"why":"The long vowel ā marks the past: వెళ్ళాను is 'I went', వెళ్ళను is 'I won't go'."}
+      {"t":"fill","q":"నిన్న నేను ఒక సినిమా __.","p":"Yesterday I saw a movie.","a":["చూశాను","చూసాను","chūshānu","chūsānu"],"o":["చూస్తాను","చూశారు","చూశాడు"],"why":"With నేను in the past: చూశాను. చూస్తాను is 'I watch' or 'I will watch'.","xr":["chūstānu","chūshāru","chūshāḍu"]},
+      {"t":"fill","q":"ఆమె ఇంటికి __.","p":"She went home.","a":["వెళ్ళింది","veḷḷindi"],"o":["వెళ్ళాడు","వెళ్ళాయి","వెళ్ళను"],"why":"ఆమె takes -ఇంది in the past: వెళ్ళింది.","xr":["veḷḷāḍu","veḷḷāyi","veḷḷanu"]},
+      {"t":"fill","q":"నేను నిన్న ఆఫీసుకి __.","p":"I went to the office yesterday.","a":["వెళ్ళాను","veḷḷānu"],"o":["వెళ్ళను","వెళ్తాను","వెళ్ళారు"],"why":"Yesterday needs the past, with the long ā: వెళ్ళాను. వెళ్ళను means 'I won't go'.","xr":["veḷḷanu","veḷtānu","veḷḷāru"]},
+      {"t":"type","p":"Ravi came. (Ravi is a man)","a":["రవి వచ్చాడు","ravi vacchāḍu"],"hint":"రా (come) · past stem వచ్చ- · Ravi is a man","x":["వచ్చింది","వస్తాడు"],"why":"రవి is a man, so the verb takes the masculine ending -ఆడు: వచ్చాడు.","xr":["vacchindi","vastāḍu"]},
+      {"t":"type","p":"She went home.","a":["ఆమె ఇంటికి వెళ్ళింది","ఇంటికి వెళ్ళింది","āme iṇṭiki veḷḷindi","iṇṭiki veḷḷindi"],"hint":"ఆమె · ఇల్లు (home) · వెళ్ళు (go)","x":["వెళ్ళాడు","ఇల్లుకి"],"why":"ఆమె takes the non-masculine ending -ఇంది, and ఇల్లు takes its oblique form before -కి: ఇంటికి.","xr":["veḷḷāḍu","illuki"]},
+      {"t":"type","p":"I went to Hyderabad.","a":["నేను హైదరాబాదుకి వెళ్ళాను","హైదరాబాదుకి వెళ్ళాను","నేను హైదరాబాదుకు వెళ్ళాను","హైదరాబాదుకు వెళ్ళాను","నేను హైదరాబాదు వెళ్ళాను","హైదరాబాదు వెళ్ళాను","నేను హైదరాబాద్ వెళ్ళాను","హైదరాబాద్ వెళ్ళాను","nēnu haidarābāduki veḷḷānu","haidarābāduki veḷḷānu","nēnu haidarābāduku veḷḷānu","haidarābāduku veḷḷānu","nēnu haidarābādu veḷḷānu","haidarābādu veḷḷānu","nēnu haidarābād veḷḷānu","haidarābād veḷḷānu"],"hint":"హైదరాబాదు · వెళ్ళు (go) · past","x":["వెళ్ళను","హైదరాబాదులో"],"why":"The long vowel ā marks the past: వెళ్ళాను is 'I went', వెళ్ళను is 'I won't go'.","xr":["veḷḷanu","haidarābādulō"]}
     ],
     "past-neg": [
       {"t":"mc","q":"'I didn't go' =","o":["నేను వెళ్ళలేదు","నేను వెళ్ళాను లేదు","నేను వెళ్ళలేదాను","నేను వెళ్ళను"],"why":"లేదు joins the verb as one word, with no person ending: వెళ్ళలేదు."},
@@ -1007,12 +1007,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"I didn't go home. (start with 'I')","a":["నేను","ఇంటికి","వెళ్ళలేదు"],"x":["ఇల్లుకి","వెళ్ళలేదాను"],"why":"ఇల్లు takes its oblique form before the case ending: ఇంటికి. And వెళ్ళలేదు has no person ending."},
       {"t":"order","p":"The bus hasn't come yet. (start with 'the bus')","a":["బస్సు","ఇంకా","రాలేదు"],"x":["రాలేదింది"],"why":"రాలేదు takes no person ending, not even the non-masculine -ఇంది of బస్సు."},
       {"t":"order","p":"Lakshmi didn't eat idli. (start with her name)","a":["లక్ష్మి","ఇడ్లీ","తినలేదు"],"x":["తినలేదింది"],"why":"The లేదు form has no person ending, so Lakshmi gets తినలేదు too."},
-      {"t":"fill","q":"నేను నిన్న సినిమా __.","p":"I didn't watch a movie yesterday.","a":["చూడలేదు","chūḍalēdu"],"o":["చూడలేదాను","చూశాను","చూడను"],"why":"Didn't watch = చూడలేదు, the same for every person."},
-      {"t":"fill","q":"రవి ఇంకా __.","p":"Ravi hasn't come yet. (Ravi is a man)","a":["రాలేదు","rālēdu"],"o":["రాలేదాడు","వచ్చాడు","రాడు"],"why":"ఇంకా + రాలేదు = hasn't come yet; no -ఆడు on లేదు."},
-      {"t":"fill","q":"మేము కాఫీ __.","p":"We didn't drink coffee.","a":["తాగలేదు","tāgalēdu"],"o":["తాగలేదాము","తాగాము","తాగము"],"why":"The లేదు form does not change for మేము: తాగలేదు."},
-      {"t":"type","p":"I didn't go to the office.","a":["నేను ఆఫీసుకి వెళ్ళలేదు","ఆఫీసుకి వెళ్ళలేదు","నేను ఆఫీసుకు వెళ్ళలేదు","ఆఫీసుకు వెళ్ళలేదు","nēnu āfīsuki veḷḷalēdu","āfīsuki veḷḷalēdu","nēnu āfīsuku veḷḷalēdu","āfīsuku veḷḷalēdu"],"hint":"ఆఫీసు · వెళ్ళు (go) · లేదు","x":["వెళ్ళలేదాను","ఆఫీసులో"],"why":"The case ending -కి goes after the noun, ఆఫీసుకి, and వెళ్ళలేదు takes no person ending."},
-      {"t":"type","p":"She didn't come.","a":["ఆమె రాలేదు","రాలేదు","āme rālēdu","rālēdu"],"hint":"ఆమె · రా (come) · లేదు","x":["రాలేదింది","వచ్చింది"],"why":"ఆమె usually takes the non-masculine ending, but రాలేదు has no person ending at all."},
-      {"t":"type","p":"I haven't eaten yet.","a":["నేను ఇంకా తినలేదు","ఇంకా తినలేదు","ఇంకా నేను తినలేదు","nēnu inkā tinalēdu","inkā tinalēdu","inkā nēnu tinalēdu"],"hint":"ఇంకా (still) · తిను (eat) · లేదు","x":["తిన్నాను","తినను"],"why":"ఇంకా plus the లేదు form means 'not yet': ఇంకా తినలేదు."}
+      {"t":"fill","q":"నేను నిన్న సినిమా __.","p":"I didn't watch a movie yesterday.","a":["చూడలేదు","chūḍalēdu"],"o":["చూడలేదాను","చూశాను","చూడను"],"why":"Didn't watch = చూడలేదు, the same for every person.","xr":["chūḍalēdānu","chūshānu","chūḍanu"]},
+      {"t":"fill","q":"రవి ఇంకా __.","p":"Ravi hasn't come yet. (Ravi is a man)","a":["రాలేదు","rālēdu"],"o":["రాలేదాడు","వచ్చాడు","రాడు"],"why":"ఇంకా + రాలేదు = hasn't come yet; no -ఆడు on లేదు.","xr":["rālēdāḍu","vacchāḍu","rāḍu"]},
+      {"t":"fill","q":"మేము కాఫీ __.","p":"We didn't drink coffee.","a":["తాగలేదు","tāgalēdu"],"o":["తాగలేదాము","తాగాము","తాగము"],"why":"The లేదు form does not change for మేము: తాగలేదు.","xr":["tāgalēdāmu","tāgāmu","tāgamu"]},
+      {"t":"type","p":"I didn't go to the office.","a":["నేను ఆఫీసుకి వెళ్ళలేదు","ఆఫీసుకి వెళ్ళలేదు","నేను ఆఫీసుకు వెళ్ళలేదు","ఆఫీసుకు వెళ్ళలేదు","nēnu āfīsuki veḷḷalēdu","āfīsuki veḷḷalēdu","nēnu āfīsuku veḷḷalēdu","āfīsuku veḷḷalēdu"],"hint":"ఆఫీసు · వెళ్ళు (go) · లేదు","x":["వెళ్ళలేదాను","ఆఫీసులో"],"why":"The case ending -కి goes after the noun, ఆఫీసుకి, and వెళ్ళలేదు takes no person ending.","xr":["veḷḷalēdānu","āfīsulō"]},
+      {"t":"type","p":"She didn't come.","a":["ఆమె రాలేదు","రాలేదు","āme rālēdu","rālēdu"],"hint":"ఆమె · రా (come) · లేదు","x":["రాలేదింది","వచ్చింది"],"why":"ఆమె usually takes the non-masculine ending, but రాలేదు has no person ending at all.","xr":["rālēdindi","vacchindi"]},
+      {"t":"type","p":"I haven't eaten yet.","a":["నేను ఇంకా తినలేదు","ఇంకా తినలేదు","ఇంకా నేను తినలేదు","nēnu inkā tinalēdu","inkā tinalēdu","inkā nēnu tinalēdu"],"hint":"ఇంకా (still) · తిను (eat) · లేదు","x":["తిన్నాను","తినను"],"why":"ఇంకా plus the లేదు form means 'not yet': ఇంకా తినలేదు.","xr":["tinnānu","tinanu"]}
     ],
     "and-then": [
       {"t":"mc","q":"The -ఇ form of తిను (eat) is:","o":["తిని","తిన్ని","తినలేదు","తిన్నాను"],"why":"The -ఇ form of తిను is తిని: one న."},
@@ -1023,12 +1023,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Lakshmi ate and left. (start with her name)","a":["లక్ష్మి","తిని","వెళ్ళింది"],"x":["వెళ్ళాడు"],"why":"Only the last verb carries the person ending: the non-masculine వెళ్ళింది for Lakshmi."},
       {"t":"order","p":"I went to the shop and bought milk. (start with 'I')","a":["నేను","షాపుకి","వెళ్ళి","పాలు","కొన్నాను"],"x":["షాపు","కొన్నారు"],"why":"The case ending -కి goes after the noun, షాపుకి, and only the last verb takes the person ending -ఆను."},
       {"t":"order","p":"Come in and sit down. (to a guest)","a":["లోపలికి","వచ్చి","కూర్చోండి"],"x":["కూర్చో","వచ్చాను"],"why":"The polite -ండి goes on the last verb; the first is the -ఇ form వచ్చి."},
-      {"t":"fill","q":"నేను టిఫిన్ __ ఆఫీసుకి వెళ్ళాను.","p":"I had breakfast and went to the office.","a":["తిని","చేసి","tini","chēsi"],"o":["తిన్నాను","తినలేదు","తింటాను"],"why":"The first action takes the -ఇ form: టిఫిన్ తిని (or టిఫిన్ చేసి)."},
-      {"t":"fill","q":"కాఫీ తాగి __.","p":"I'll have coffee and go.","a":["వెళ్తాను","veḷtānu"],"o":["వెళ్ళి","వెళ్ళాను","వెళ్ళను"],"why":"The last verb says when: వెళ్తాను, 'I will go'."},
-      {"t":"fill","q":"రవి ఇంటికి వచ్చి __.","p":"Ravi came home and went to bed. (Ravi is a man)","a":["పడుకున్నాడు","paḍukunnāḍu"],"o":["పడుకుని","పడుకుంది","పడుకున్నాను"],"why":"The last verb is past and agrees with రవి: పడుకున్నాడు."},
-      {"t":"type","p":"I ate and went. (use తిను and వెళ్ళు)","a":["నేను తిని వెళ్ళాను","తిని వెళ్ళాను","nēnu tini veḷḷānu","tini veḷḷānu"],"hint":"తిను (eat) · వెళ్ళు (go) · past","x":["వెళ్ళను","తిన్నాను"],"why":"Only the last verb takes the person ending, and the long vowel ā marks the past: వెళ్ళాను."},
-      {"t":"type","p":"Lakshmi had coffee and left. (Lakshmi is a woman; use తాగు and వెళ్ళు)","a":["లక్ష్మి కాఫీ తాగి వెళ్ళింది","lakshmi kāfī tāgi veḷḷindi"],"hint":"తాగు (drink) · వెళ్ళు (go) · past","x":["వెళ్ళాడు","తాగింది"],"why":"Only the last verb agrees: the non-masculine వెళ్ళింది for Lakshmi; తాగి stays as it is."},
-      {"t":"type","p":"Please eat before you go. (to a guest; literally 'having eaten, go')","a":["భోజనం చేసి వెళ్ళండి","తిని వెళ్ళండి","bhōjanam chēsi veḷḷaṇḍi","tini veḷḷaṇḍi"],"hint":"భోజనం చేయు (have a meal) · వెళ్ళు (go) · polite -ండి","x":["చేయండి","వెళ్ళు"],"why":"The polite -ండి goes only on the last verb: చేసి వెళ్ళండి."}
+      {"t":"fill","q":"నేను టిఫిన్ __ ఆఫీసుకి వెళ్ళాను.","p":"I had breakfast and went to the office.","a":["తిని","చేసి","tini","chēsi"],"o":["తిన్నాను","తినలేదు","తింటాను"],"why":"The first action takes the -ఇ form: టిఫిన్ తిని (or టిఫిన్ చేసి).","xr":["tinnānu","tinalēdu","tiṇṭānu"]},
+      {"t":"fill","q":"కాఫీ తాగి __.","p":"I'll have coffee and go.","a":["వెళ్తాను","veḷtānu"],"o":["వెళ్ళి","వెళ్ళాను","వెళ్ళను"],"why":"The last verb says when: వెళ్తాను, 'I will go'.","xr":["veḷḷi","veḷḷānu","veḷḷanu"]},
+      {"t":"fill","q":"రవి ఇంటికి వచ్చి __.","p":"Ravi came home and went to bed. (Ravi is a man)","a":["పడుకున్నాడు","paḍukunnāḍu"],"o":["పడుకుని","పడుకుంది","పడుకున్నాను"],"why":"The last verb is past and agrees with రవి: పడుకున్నాడు.","xr":["paḍukuni","paḍukundi","paḍukunnānu"]},
+      {"t":"type","p":"I ate and went. (use తిను and వెళ్ళు)","a":["నేను తిని వెళ్ళాను","తిని వెళ్ళాను","nēnu tini veḷḷānu","tini veḷḷānu"],"hint":"తిను (eat) · వెళ్ళు (go) · past","x":["వెళ్ళను","తిన్నాను"],"why":"Only the last verb takes the person ending, and the long vowel ā marks the past: వెళ్ళాను.","xr":["veḷḷanu","tinnānu"]},
+      {"t":"type","p":"Lakshmi had coffee and left. (Lakshmi is a woman; use తాగు and వెళ్ళు)","a":["లక్ష్మి కాఫీ తాగి వెళ్ళింది","lakshmi kāfī tāgi veḷḷindi"],"hint":"తాగు (drink) · వెళ్ళు (go) · past","x":["వెళ్ళాడు","తాగింది"],"why":"Only the last verb agrees: the non-masculine వెళ్ళింది for Lakshmi; తాగి stays as it is.","xr":["veḷḷāḍu","tāgindi"]},
+      {"t":"type","p":"Please eat before you go. (to a guest; literally 'having eaten, go')","a":["భోజనం చేసి వెళ్ళండి","తిని వెళ్ళండి","bhōjanam chēsi veḷḷaṇḍi","tini veḷḷaṇḍi"],"hint":"భోజనం చేయు (have a meal) · వెళ్ళు (go) · polite -ండి","x":["చేయండి","వెళ్ళు"],"why":"The polite -ండి goes only on the last verb: చేసి వెళ్ళండి.","xr":["chēyaṇḍi","veḷḷu"]}
     ],
     "must-can": [
       {"t":"mc","q":"'You have to come tomorrow' (politely) =","o":["మీరు రేపు రావాలి","మిమ్మల్ని రేపు రావాలి","మీరు రేపు రావాలారు","మీరు రేపు రాగలరు"],"why":"-ఆలి is the same for everyone, with a plain subject: మీరు రావాలి."},
@@ -1039,12 +1039,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"I have to go to the doctor. (start with 'I')","a":["నేను","డాక్టర్","దగ్గరికి","వెళ్ళాలి"],"x":["నన్ను"],"why":"With -ఆలి the person is plain నేను, with no case ending, so not నన్ను."},
       {"t":"order","p":"Can you help? (politely; start with 'you')","a":["మీరు","సహాయం","చేయగలరా?"],"x":["చేయగలవా?"],"why":"చేయగలరా agrees with మీరు through the person ending -ఆరు; చేయగలవా is for నువ్వు."},
       {"t":"order","p":"I can't come tomorrow. (start with 'I')","a":["నేను","రేపు","రాలేను"],"x":["రాలేదు"],"why":"రాలేను has the person ending -ను for నేను: 'I can't'. రాలేదు means 'didn't come'."},
-      {"t":"fill","q":"నేను రేపు ఆఫీసుకి __.","p":"I have to go to the office tomorrow.","a":["వెళ్ళాలి","veḷḷāli"],"o":["వెళ్ళలేదు","వెళ్ళాను","వెళ్ళలి"],"why":"Must go = వెళ్ళాలి, with the long ā before లి."},
-      {"t":"fill","q":"ఇక్కడ పొగ __.","p":"You must not smoke here.","a":["తాగకూడదు","tāgakūḍadu"],"o":["తాగాలి","తాగలేదు","తాగగలరు"],"why":"Must not = the stem + కూడదు: తాగకూడదు."},
-      {"t":"fill","q":"మీరు నీళ్ళు ఎక్కువగా __.","p":"You should drink more water.","a":["తాగాలి","tāgāli"],"o":["తాగకూడదు","తాగారు","తాగలేదు"],"why":"Should, have to = -ఆలి: తాగాలి."},
-      {"t":"type","p":"I have to go home.","a":["నేను ఇంటికి వెళ్ళాలి","ఇంటికి వెళ్ళాలి","nēnu iṇṭiki veḷḷāli","iṇṭiki veḷḷāli"],"hint":"ఇల్లు (home) · వెళ్ళు (go) · must","x":["నన్ను","ఇల్లుకి"],"why":"With -ఆలి the person stays plain నేను, not నన్ను, and ఇల్లు takes its oblique form: ఇంటికి."},
-      {"t":"type","p":"Can you come tomorrow? (politely)","a":["మీరు రేపు రాగలరా?","రేపు రాగలరా?","రేపు మీరు రాగలరా?","mīru rēpu rāgalarā?","rēpu rāgalarā?","rēpu mīru rāgalarā?"],"hint":"రా (come) · can · రేపు (tomorrow)","x":["రాగలవా","రాగలను"],"why":"రాగలరా agrees with మీరు: the person ending -ఆరు, then -ఆ for the question."},
-      {"t":"type","p":"I can't eat this.","a":["నేను ఇది తినలేను","ఇది తినలేను","నేను దీన్ని తినలేను","దీన్ని తినలేను","nēnu idi tinalēnu","idi tinalēnu","nēnu dīnni tinalēnu","dīnni tinalēnu"],"hint":"ఇది (this) · తిను (eat) · can't","x":["తినలేదు","తినను"],"why":"తినలేను is 'I can't eat'; తినలేదు would mean 'I didn't eat'."}
+      {"t":"fill","q":"నేను రేపు ఆఫీసుకి __.","p":"I have to go to the office tomorrow.","a":["వెళ్ళాలి","veḷḷāli"],"o":["వెళ్ళలేదు","వెళ్ళాను","వెళ్ళలి"],"why":"Must go = వెళ్ళాలి, with the long ā before లి.","xr":["veḷḷalēdu","veḷḷānu","veḷḷali"]},
+      {"t":"fill","q":"ఇక్కడ పొగ __.","p":"You must not smoke here.","a":["తాగకూడదు","tāgakūḍadu"],"o":["తాగాలి","తాగలేదు","తాగగలరు"],"why":"Must not = the stem + కూడదు: తాగకూడదు.","xr":["tāgāli","tāgalēdu","tāgagalaru"]},
+      {"t":"fill","q":"మీరు నీళ్ళు ఎక్కువగా __.","p":"You should drink more water.","a":["తాగాలి","tāgāli"],"o":["తాగకూడదు","తాగారు","తాగలేదు"],"why":"Should, have to = -ఆలి: తాగాలి.","xr":["tāgakūḍadu","tāgāru","tāgalēdu"]},
+      {"t":"type","p":"I have to go home.","a":["నేను ఇంటికి వెళ్ళాలి","ఇంటికి వెళ్ళాలి","nēnu iṇṭiki veḷḷāli","iṇṭiki veḷḷāli"],"hint":"ఇల్లు (home) · వెళ్ళు (go) · must","x":["నన్ను","ఇల్లుకి"],"why":"With -ఆలి the person stays plain నేను, not నన్ను, and ఇల్లు takes its oblique form: ఇంటికి.","xr":["nannu","illuki"]},
+      {"t":"type","p":"Can you come tomorrow? (politely)","a":["మీరు రేపు రాగలరా?","రేపు రాగలరా?","రేపు మీరు రాగలరా?","mīru rēpu rāgalarā?","rēpu rāgalarā?","rēpu mīru rāgalarā?"],"hint":"రా (come) · can · రేపు (tomorrow)","x":["రాగలవా","రాగలను"],"why":"రాగలరా agrees with మీరు: the person ending -ఆరు, then -ఆ for the question.","xr":["rāgalavā","rāgalanu"]},
+      {"t":"type","p":"I can't eat this.","a":["నేను ఇది తినలేను","ఇది తినలేను","నేను దీన్ని తినలేను","దీన్ని తినలేను","nēnu idi tinalēnu","idi tinalēnu","nēnu dīnni tinalēnu","dīnni tinalēnu"],"hint":"ఇది (this) · తిను (eat) · can't","x":["తినలేదు","తినను"],"why":"తినలేను is 'I can't eat'; తినలేదు would mean 'I didn't eat'.","xr":["tinalēdu","tinanu"]}
     ],
     "time": [
       {"t":"mc","q":"'What time is it?' =","o":["టైం ఎంత అయింది?","టైం ఎక్కడ ఉంది?","ఎన్ని గంటలకు?","టైం ఏమిటి అయింది?"],"why":"Word for word 'how much has the time become?': టైం ఎంత అయింది?"},
@@ -1055,12 +1055,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"I get up at six.","a":["ఆరు","గంటలకు","లేస్తాను"],"x":["గంటలు"],"why":"The case ending -కు on గంటలు makes 'at': ఆరు గంటలకు."},
       {"t":"order","p":"Lakshmi goes to bed at ten. (start with her name)","a":["లక్ష్మి","పది","గంటలకు","పడుకుంటుంది"],"x":["పడుకుంటాడు"],"why":"Lakshmi takes the non-masculine ending: పడుకుంటుంది."},
       {"t":"order","p":"What time is the movie? (start with 'the movie')","a":["సినిమా","ఎన్ని","గంటలకు?"],"x":["ఎంత"],"why":"'At what time' is ఎన్ని గంటలకు: how many hours, plus -కు."},
-      {"t":"fill","q":"నేను ఎనిమిది __ ఆఫీసుకి వెళ్తాను.","p":"I go to the office at eight.","a":["గంటలకు","గంటలకి","gaṇṭalaku","gaṇṭalaki"],"o":["గంటలు","గంట","గంటలో"],"why":"'At eight' needs -కు after గంటలు: గంటలకు."},
-      {"t":"fill","q":"ఇప్పుడు __.","p":"It's seven thirty now.","a":["ఏడున్నర","ēḍunnara"],"o":["ఏడు","ఏడున్నరకు","ఎనిమిదిన్నర"],"why":"7:30 is ఏడున్నర; with -కు it would mean 'at 7:30'."},
-      {"t":"fill","q":"రవి రోజూ పొద్దున ఆరు గంటలకు __.","p":"Ravi gets up at six every morning. (Ravi is a man)","a":["లేస్తాడు","lēstāḍu"],"o":["లేస్తుంది","లేస్తాను","లేచాడు"],"why":"Every day takes the habitual-future, with -ఆడు for Ravi: లేస్తాడు."},
-      {"t":"type","p":"I go to bed at ten.","a":["నేను పది గంటలకు పడుకుంటాను","పది గంటలకు పడుకుంటాను","నేను పది గంటలకి పడుకుంటాను","పది గంటలకి పడుకుంటాను","nēnu padi gaṇṭalaku paḍukuṇṭānu","padi gaṇṭalaku paḍukuṇṭānu","nēnu padi gaṇṭalaki paḍukuṇṭānu","padi gaṇṭalaki paḍukuṇṭānu"],"hint":"పది (ten) · గంటలు · పడుకో (go to bed)","x":["గంటలు","పడుకున్నాను"],"why":"The case ending -కు on గంటలు gives 'at': పది గంటలకు."},
-      {"t":"type","p":"Lakshmi gets up at six. (Lakshmi is a woman)","a":["లక్ష్మి ఆరు గంటలకు లేస్తుంది","లక్ష్మి ఆరు గంటలకి లేస్తుంది","lakshmi āru gaṇṭalaku lēstundi","lakshmi āru gaṇṭalaki lēstundi"],"hint":"ఆరు (six) · గంటలు · లేచు (get up)","x":["లేస్తాడు","గంటలు"],"why":"Lakshmi takes the non-masculine ending of the habitual-future: లేస్తుంది."},
-      {"t":"type","p":"I'll go to Hyderabad on Monday.","a":["నేను సోమవారం హైదరాబాదుకి వెళ్తాను","సోమవారం హైదరాబాదుకి వెళ్తాను","సోమవారం నేను హైదరాబాదుకి వెళ్తాను","నేను సోమవారం హైదరాబాదుకు వెళ్తాను","సోమవారం హైదరాబాదుకు వెళ్తాను","సోమవారం నేను హైదరాబాదుకు వెళ్తాను","నేను సోమవారం హైదరాబాదు వెళ్తాను","సోమవారం హైదరాబాదు వెళ్తాను","నేను సోమవారం హైదరాబాద్ వెళ్తాను","సోమవారం హైదరాబాద్ వెళ్తాను","nēnu sōmavāram haidarābāduki veḷtānu","sōmavāram haidarābāduki veḷtānu","sōmavāram nēnu haidarābāduki veḷtānu","nēnu sōmavāram haidarābāduku veḷtānu","sōmavāram haidarābāduku veḷtānu","sōmavāram nēnu haidarābāduku veḷtānu","nēnu sōmavāram haidarābādu veḷtānu","sōmavāram haidarābādu veḷtānu","nēnu sōmavāram haidarābād veḷtānu","sōmavāram haidarābād veḷtānu"],"hint":"సోమవారం · హైదరాబాదు · వెళ్ళు (go)","x":["సోమవారంకి","హైదరాబాదులో"],"why":"A day needs no ending, సోమవారం; the place takes -కి, హైదరాబాదుకి, or in everyday speech often nothing."}
+      {"t":"fill","q":"నేను ఎనిమిది __ ఆఫీసుకి వెళ్తాను.","p":"I go to the office at eight.","a":["గంటలకు","గంటలకి","gaṇṭalaku","gaṇṭalaki"],"o":["గంటలు","గంట","గంటలో"],"why":"'At eight' needs -కు after గంటలు: గంటలకు.","xr":["gaṇṭalu","gaṇṭa","gaṇṭalō"]},
+      {"t":"fill","q":"ఇప్పుడు __.","p":"It's seven thirty now.","a":["ఏడున్నర","ēḍunnara"],"o":["ఏడు","ఏడున్నరకు","ఎనిమిదిన్నర"],"why":"7:30 is ఏడున్నర; with -కు it would mean 'at 7:30'.","xr":["ēḍu","ēḍunnaraku","enimidinnara"]},
+      {"t":"fill","q":"రవి రోజూ పొద్దున ఆరు గంటలకు __.","p":"Ravi gets up at six every morning. (Ravi is a man)","a":["లేస్తాడు","lēstāḍu"],"o":["లేస్తుంది","లేస్తాను","లేచాడు"],"why":"Every day takes the habitual-future, with -ఆడు for Ravi: లేస్తాడు.","xr":["lēstundi","lēstānu","lēchāḍu"]},
+      {"t":"type","p":"I go to bed at ten.","a":["నేను పది గంటలకు పడుకుంటాను","పది గంటలకు పడుకుంటాను","నేను పది గంటలకి పడుకుంటాను","పది గంటలకి పడుకుంటాను","nēnu padi gaṇṭalaku paḍukuṇṭānu","padi gaṇṭalaku paḍukuṇṭānu","nēnu padi gaṇṭalaki paḍukuṇṭānu","padi gaṇṭalaki paḍukuṇṭānu"],"hint":"పది (ten) · గంటలు · పడుకో (go to bed)","x":["గంటలు","పడుకున్నాను"],"why":"The case ending -కు on గంటలు gives 'at': పది గంటలకు.","xr":["gaṇṭalu","paḍukunnānu"]},
+      {"t":"type","p":"Lakshmi gets up at six. (Lakshmi is a woman)","a":["లక్ష్మి ఆరు గంటలకు లేస్తుంది","లక్ష్మి ఆరు గంటలకి లేస్తుంది","lakshmi āru gaṇṭalaku lēstundi","lakshmi āru gaṇṭalaki lēstundi"],"hint":"ఆరు (six) · గంటలు · లేచు (get up)","x":["లేస్తాడు","గంటలు"],"why":"Lakshmi takes the non-masculine ending of the habitual-future: లేస్తుంది.","xr":["lēstāḍu","gaṇṭalu"]},
+      {"t":"type","p":"I'll go to Hyderabad on Monday.","a":["నేను సోమవారం హైదరాబాదుకి వెళ్తాను","సోమవారం హైదరాబాదుకి వెళ్తాను","సోమవారం నేను హైదరాబాదుకి వెళ్తాను","నేను సోమవారం హైదరాబాదుకు వెళ్తాను","సోమవారం హైదరాబాదుకు వెళ్తాను","సోమవారం నేను హైదరాబాదుకు వెళ్తాను","నేను సోమవారం హైదరాబాదు వెళ్తాను","సోమవారం హైదరాబాదు వెళ్తాను","నేను సోమవారం హైదరాబాద్ వెళ్తాను","సోమవారం హైదరాబాద్ వెళ్తాను","nēnu sōmavāram haidarābāduki veḷtānu","sōmavāram haidarābāduki veḷtānu","sōmavāram nēnu haidarābāduki veḷtānu","nēnu sōmavāram haidarābāduku veḷtānu","sōmavāram haidarābāduku veḷtānu","sōmavāram nēnu haidarābāduku veḷtānu","nēnu sōmavāram haidarābādu veḷtānu","sōmavāram haidarābādu veḷtānu","nēnu sōmavāram haidarābād veḷtānu","sōmavāram haidarābād veḷtānu"],"hint":"సోమవారం · హైదరాబాదు · వెళ్ళు (go)","x":["సోమవారంకి","హైదరాబాదులో"],"why":"A day needs no ending, సోమవారం; the place takes -కి, హైదరాబాదుకి, or in everyday speech often nothing.","xr":["sōmavāranki","haidarābādulō"]}
     ],
     "shopping": [
       {"t":"mc","q":"'How much is this?' =","o":["ఇది ఎంత?","ఇది ఎన్ని?","ఇది ఎక్కడ?","ఎంత ఇది ఉంది?"],"why":"Price is ఎంత, and it goes where the answer goes: ఇది ఎంత?"},
@@ -1071,12 +1071,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"Will you give it for fifty? (to a seller)","a":["యాభైకి","ఇస్తారా?"],"x":["యాభై","ఇస్తావా?"],"why":"The case ending -కి on the price means 'for': యాభైకి. And ఇస్తారా agrees with polite మీరు."},
       {"t":"order","p":"OK, I'll take this one.","a":["సరే,","ఇది","తీసుకుంటాను"],"x":["తీసుకుంటారు"],"why":"The person ending -ఆను agrees with the speaker: తీసుకుంటాను. తీసుకుంటారు is 'you'll take'."},
       {"t":"order","p":"Show me another one. (politely)","a":["ఇంకొకటి","చూపించండి"],"x":["చూపించు"],"why":"To a seller a request takes -ండి: చూపించండి."},
-      {"t":"fill","q":"ఇది __. ఇంకొకటి చూపించండి.","p":"I don't want this one. Show me another one.","a":["వద్దు","vaddu"],"o":["కాదు","లేదు","ఉంది"],"why":"Not wanted = వద్దు."},
-      {"t":"fill","q":"చాలా ఎక్కువ. కొంచెం __.","p":"That's too much. Bring it down a little.","a":["తగ్గించండి","tagginchaṇḍi"],"o":["తగ్గించు","తగ్గించాను","తగ్గించను"],"why":"A polite request: తగ్గించండి."},
-      {"t":"fill","q":"కిలో టమాటాలు __?","p":"How much for a kilo of tomatoes?","a":["ఎంత","enta"],"o":["ఎన్ని","ఎక్కడ","ఏమిటి"],"why":"For a price, ask ఎంత; ఎన్ని is 'how many'."},
-      {"t":"type","p":"Will you give it for fifty? (to a seller)","a":["యాభైకి ఇస్తారా?","యాభైకు ఇస్తారా?","యాభై రూపాయలకి ఇస్తారా?","యాభై రూపాయలకు ఇస్తారా?","yābhaiki istārā?","yābhaiku istārā?","yābhai rūpāyalaki istārā?","yābhai rūpāyalaku istārā?"],"hint":"యాభై (fifty) · for · ఇవ్వు (give)","x":["ఇస్తావా","యాభై"],"why":"The price takes the case ending -కి, యాభైకి, and ఇస్తారా agrees with polite మీరు."},
-      {"t":"type","p":"Give me that one. (to a seller)","a":["అది ఇవ్వండి","అది నాకు ఇవ్వండి","నాకు అది ఇవ్వండి","adi ivvaṇḍi","adi nāku ivvaṇḍi","nāku adi ivvaṇḍi"],"hint":"అది (that) · ఇవ్వు (give) · polite","x":["ఇవ్వు","నేను"],"why":"A seller gets the polite -ండి: ఇవ్వండి. If you add 'to me', it takes the case ending: నాకు, not నేను."},
-      {"t":"type","p":"I'll take this one.","a":["ఇది తీసుకుంటాను","నేను ఇది తీసుకుంటాను","idi tīsukuṇṭānu","nēnu idi tīsukuṇṭānu"],"hint":"ఇది (this) · తీసుకో (take) · I will","x":["తీసుకుంటారు","తీసుకున్నాను"],"why":"The person ending -ఆను agrees with నేను: తీసుకుంటాను, 'I will take'."}
+      {"t":"fill","q":"ఇది __. ఇంకొకటి చూపించండి.","p":"I don't want this one. Show me another one.","a":["వద్దు","vaddu"],"o":["కాదు","లేదు","ఉంది"],"why":"Not wanted = వద్దు.","xr":["kādu","lēdu","undi"]},
+      {"t":"fill","q":"చాలా ఎక్కువ. కొంచెం __.","p":"That's too much. Bring it down a little.","a":["తగ్గించండి","tagginchaṇḍi"],"o":["తగ్గించు","తగ్గించాను","తగ్గించను"],"why":"A polite request: తగ్గించండి.","xr":["tagginchu","tagginchānu","tagginchanu"]},
+      {"t":"fill","q":"కిలో టమాటాలు __?","p":"How much for a kilo of tomatoes?","a":["ఎంత","enta"],"o":["ఎన్ని","ఎక్కడ","ఏమిటి"],"why":"For a price, ask ఎంత; ఎన్ని is 'how many'.","xr":["enni","ekkaḍa","ēmiṭi"]},
+      {"t":"type","p":"Will you give it for fifty? (to a seller)","a":["యాభైకి ఇస్తారా?","యాభైకు ఇస్తారా?","యాభై రూపాయలకి ఇస్తారా?","యాభై రూపాయలకు ఇస్తారా?","yābhaiki istārā?","yābhaiku istārā?","yābhai rūpāyalaki istārā?","yābhai rūpāyalaku istārā?"],"hint":"యాభై (fifty) · for · ఇవ్వు (give)","x":["ఇస్తావా","యాభై"],"why":"The price takes the case ending -కి, యాభైకి, and ఇస్తారా agrees with polite మీరు.","xr":["istāvā","yābhai"]},
+      {"t":"type","p":"Give me that one. (to a seller)","a":["అది ఇవ్వండి","అది నాకు ఇవ్వండి","నాకు అది ఇవ్వండి","adi ivvaṇḍi","adi nāku ivvaṇḍi","nāku adi ivvaṇḍi"],"hint":"అది (that) · ఇవ్వు (give) · polite","x":["ఇవ్వు","నేను"],"why":"A seller gets the polite -ండి: ఇవ్వండి. If you add 'to me', it takes the case ending: నాకు, not నేను.","xr":["ivvu","nēnu"]},
+      {"t":"type","p":"I'll take this one.","a":["ఇది తీసుకుంటాను","నేను ఇది తీసుకుంటాను","idi tīsukuṇṭānu","nēnu idi tīsukuṇṭānu"],"hint":"ఇది (this) · తీసుకో (take) · I will","x":["తీసుకుంటారు","తీసుకున్నాను"],"why":"The person ending -ఆను agrees with నేను: తీసుకుంటాను, 'I will take'.","xr":["tīsukuṇṭāru","tīsukunnānu"]}
     ],
     "directions": [
       {"t":"mc","q":"'to the right' =","o":["కుడి వైపు","ఎడమ వైపు","నేరుగా","వెనకాల"],"why":"కుడి is right, ఎడమ is left."},
@@ -1087,12 +1087,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"The bank is next to the hospital. (start with 'the bank')","a":["బ్యాంకు","ఆసుపత్రి","పక్కన","ఉంది"],"x":["ఆసుపత్రిలో"],"why":"పక్కన comes after the noun, with no case ending -లో: ఆసుపత్రి పక్కన."},
       {"t":"order","p":"behind our house (my family's house, not yours)","a":["మా","ఇంటి","వెనకాల"],"x":["ఇల్లు"],"why":"ఇల్లు takes its oblique form ఇంటి before వెనకాల."},
       {"t":"order","p":"Go straight and turn left.","a":["నేరుగా","వెళ్ళి","ఎడమ","వైపు","తిరగండి"],"x":["వెళ్ళాను"],"why":"The first step takes the -ఇ form వెళ్ళి; only the last verb has the polite -ండి."},
-      {"t":"fill","q":"బ్యాంకు స్టేషన్ __ ఉంది.","p":"The bank is near the station.","a":["దగ్గర","దగ్గరలో","daggara","daggaralō"],"o":["దగ్గరికి","పక్కకి","ఎక్కడ"],"why":"Near = దగ్గర, after the noun; దగ్గరికి means 'to near', with a verb of going."},
-      {"t":"fill","q":"__ ఆపండి.","p":"Stop here.","a":["ఇక్కడ","ikkaḍa"],"o":["ఇక్కడికి","ఎక్కడ","అక్కడికి"],"why":"Here = ఇక్కడ; ఇక్కడికి means 'to here'."},
-      {"t":"fill","q":"స్టేషన్కి ఎలా __?","p":"How do I get to the station?","a":["వెళ్ళాలి","veḷḷāli"],"o":["వెళ్ళలి","వెళ్ళాను","వెళ్ళను"],"why":"'How do I get there' asks what you must do: వెళ్ళాలి."},
-      {"t":"type","p":"next to our house (my family's house, not yours)","a":["మా ఇంటి పక్కన","mā iṇṭi pakkana"],"hint":"మా (our) · ఇల్లు (house) · పక్కన (next to)","x":["ఇల్లు","ఇంట్లో"],"why":"ఇల్లు takes its oblique form ఇంటి, and పక్కన comes after the noun."},
-      {"t":"type","p":"The bank is opposite the temple.","a":["బ్యాంకు గుడి ఎదురుగా ఉంది","బ్యాంకు గుడికి ఎదురుగా ఉంది","గుడి ఎదురుగా బ్యాంకు ఉంది","గుడికి ఎదురుగా బ్యాంకు ఉంది","byānku guḍi edurugā undi","byānku guḍiki edurugā undi","guḍi edurugā byānku undi","guḍiki edurugā byānku undi"],"hint":"బ్యాంకు · గుడి (temple) · ఎదురుగా (opposite)","x":["గుడిలో","ఉన్నాడు"],"why":"ఎదురుగా comes after the noun, with no case ending -లో: గుడి ఎదురుగా."},
-      {"t":"type","p":"Does this bus go to Charminar?","a":["ఈ బస్సు చార్మినార్కి వెళ్తుందా?","ఈ బస్సు చార్మినార్కు వెళ్తుందా?","ఈ బస్సు చార్మినార్ వెళ్తుందా?","ī bassu chārminārki veḷtundā?","ī bassu chārminārku veḷtundā?","ī bassu chārminār veḷtundā?"],"hint":"ఈ (this) · బస్సు · చార్మినార్ · వెళ్ళు (go)","x":["వెళ్తాడా","చార్మినార్లో"],"why":"A bus is a thing, so it takes the non-masculine ending: వెళ్తుందా."}
+      {"t":"fill","q":"బ్యాంకు స్టేషన్ __ ఉంది.","p":"The bank is near the station.","a":["దగ్గర","దగ్గరలో","daggara","daggaralō"],"o":["దగ్గరికి","పక్కకి","ఎక్కడ"],"why":"Near = దగ్గర, after the noun; దగ్గరికి means 'to near', with a verb of going.","xr":["daggariki","pakkaki","ekkaḍa"]},
+      {"t":"fill","q":"__ ఆపండి.","p":"Stop here.","a":["ఇక్కడ","ikkaḍa"],"o":["ఇక్కడికి","ఎక్కడ","అక్కడికి"],"why":"Here = ఇక్కడ; ఇక్కడికి means 'to here'.","xr":["ikkaḍiki","ekkaḍa","akkaḍiki"]},
+      {"t":"fill","q":"స్టేషన్కి ఎలా __?","p":"How do I get to the station?","a":["వెళ్ళాలి","veḷḷāli"],"o":["వెళ్ళలి","వెళ్ళాను","వెళ్ళను"],"why":"'How do I get there' asks what you must do: వెళ్ళాలి.","xr":["veḷḷali","veḷḷānu","veḷḷanu"]},
+      {"t":"type","p":"next to our house (my family's house, not yours)","a":["మా ఇంటి పక్కన","mā iṇṭi pakkana"],"hint":"మా (our) · ఇల్లు (house) · పక్కన (next to)","x":["ఇల్లు","ఇంట్లో"],"why":"ఇల్లు takes its oblique form ఇంటి, and పక్కన comes after the noun.","xr":["illu","iṇṭlō"]},
+      {"t":"type","p":"The bank is opposite the temple.","a":["బ్యాంకు గుడి ఎదురుగా ఉంది","బ్యాంకు గుడికి ఎదురుగా ఉంది","గుడి ఎదురుగా బ్యాంకు ఉంది","గుడికి ఎదురుగా బ్యాంకు ఉంది","byānku guḍi edurugā undi","byānku guḍiki edurugā undi","guḍi edurugā byānku undi","guḍiki edurugā byānku undi"],"hint":"బ్యాంకు · గుడి (temple) · ఎదురుగా (opposite)","x":["గుడిలో","ఉన్నాడు"],"why":"ఎదురుగా comes after the noun, with no case ending -లో: గుడి ఎదురుగా.","xr":["guḍilō","unnāḍu"]},
+      {"t":"type","p":"Does this bus go to Charminar?","a":["ఈ బస్సు చార్మినార్కి వెళ్తుందా?","ఈ బస్సు చార్మినార్కు వెళ్తుందా?","ఈ బస్సు చార్మినార్ వెళ్తుందా?","ī bassu chārminārki veḷtundā?","ī bassu chārminārku veḷtundā?","ī bassu chārminār veḷtundā?"],"hint":"ఈ (this) · బస్సు · చార్మినార్ · వెళ్ళు (go)","x":["వెళ్తాడా","చార్మినార్లో"],"why":"A bus is a thing, so it takes the non-masculine ending: వెళ్తుందా.","xr":["veḷtāḍā","chārminārlō"]}
     ],
     "compare": [
       {"t":"mc","q":"'cheaper than that' =","o":["దాని కంటే చౌక","అది కంటే చౌక","కంటే దాని చౌక","దానిలో చౌక"],"why":"కంటే comes after the oblique form దాని."},
@@ -1103,12 +1103,12 @@ LANGAPP_PACKS.course['en-te'] = {
       {"t":"order","p":"This is cheaper than that. (start with 'this')","a":["ఇది","దాని","కంటే","చౌక"],"x":["అది"],"why":"కంటే comes after the oblique form: దాని, not అది."},
       {"t":"order","p":"Ravi is older than me. (start with his name)","a":["రవి","నా","కంటే","పెద్దవాడు"],"x":["నేను","పెద్దది"],"why":"నేను takes its oblique form నా before కంటే, and Ravi takes the masculine పెద్దవాడు."},
       {"t":"order","p":"the cheapest of all","a":["అన్నిటి","కంటే","చౌక"],"x":["అన్ని"],"why":"'The most' is 'than all', with అన్ని in its oblique form: అన్నిటి కంటే."},
-      {"t":"fill","q":"ఇది __ కంటే పెద్దది.","p":"This is bigger than that.","a":["దాని","dāni"],"o":["అది","దానికి","అదే"],"why":"Before కంటే, అది takes its oblique form దాని."},
-      {"t":"fill","q":"ఈ షాపులో ధరలు __.","p":"Prices are lower in this shop.","a":["తక్కువ","takkuva"],"o":["ఎక్కువ","చిన్నవాడు","కంటే"],"why":"Less, lower = తక్కువ; ఎక్కువ is more."},
-      {"t":"fill","q":"మా అన్న నా కంటే __.","p":"My brother is older than me.","a":["పెద్దవాడు","peddavāḍu"],"o":["పెద్దది","పెద్దను","పెద్దవి"],"why":"A man takes -వాడు: పెద్దవాడు."},
-      {"t":"type","p":"cheaper than this","a":["దీని కంటే చౌక","dīni kaṇṭē chauka"],"hint":"ఇది (this) · కంటే (than) · చౌక (cheap)","x":["ఇది"],"why":"ఇది takes its oblique form దీని before కంటే."},
-      {"t":"type","p":"Ravi is older than Lakshmi. (Ravi is a man)","a":["రవి లక్ష్మి కంటే పెద్దవాడు","లక్ష్మి కంటే రవి పెద్దవాడు","ravi lakshmi kaṇṭē peddavāḍu","lakshmi kaṇṭē ravi peddavāḍu"],"hint":"రవి · లక్ష్మి · కంటే · పెద్ద (big, old)","x":["పెద్దది","లక్ష్మికి"],"why":"For a man, the adjective takes the masculine -వాడు: పెద్దవాడు."},
-      {"t":"type","p":"This house is bigger than that house.","a":["ఈ ఇల్లు ఆ ఇంటి కంటే పెద్దది","ఆ ఇంటి కంటే ఈ ఇల్లు పెద్దది","ī illu ā iṇṭi kaṇṭē peddadi","ā iṇṭi kaṇṭē ī illu peddadi"],"hint":"ఈ (this) · ఆ (that) · ఇల్లు · కంటే · పెద్ద (big)","x":["ఇంటిని","పెద్దవాడు"],"why":"ఇల్లు takes its oblique form ఇంటి before కంటే, and a thing takes -ది: పెద్దది."}
+      {"t":"fill","q":"ఇది __ కంటే పెద్దది.","p":"This is bigger than that.","a":["దాని","dāni"],"o":["అది","దానికి","అదే"],"why":"Before కంటే, అది takes its oblique form దాని.","xr":["adi","dāniki","adē"]},
+      {"t":"fill","q":"ఈ షాపులో ధరలు __.","p":"Prices are lower in this shop.","a":["తక్కువ","takkuva"],"o":["ఎక్కువ","చిన్నవాడు","కంటే"],"why":"Less, lower = తక్కువ; ఎక్కువ is more.","xr":["ekkuva","chinnavāḍu","kaṇṭē"]},
+      {"t":"fill","q":"మా అన్న నా కంటే __.","p":"My brother is older than me.","a":["పెద్దవాడు","peddavāḍu"],"o":["పెద్దది","పెద్దను","పెద్దవి"],"why":"A man takes -వాడు: పెద్దవాడు.","xr":["peddadi","peddanu","peddavi"]},
+      {"t":"type","p":"cheaper than this","a":["దీని కంటే చౌక","dīni kaṇṭē chauka"],"hint":"ఇది (this) · కంటే (than) · చౌక (cheap)","x":["ఇది"],"why":"ఇది takes its oblique form దీని before కంటే.","xr":["idi"]},
+      {"t":"type","p":"Ravi is older than Lakshmi. (Ravi is a man)","a":["రవి లక్ష్మి కంటే పెద్దవాడు","లక్ష్మి కంటే రవి పెద్దవాడు","ravi lakshmi kaṇṭē peddavāḍu","lakshmi kaṇṭē ravi peddavāḍu"],"hint":"రవి · లక్ష్మి · కంటే · పెద్ద (big, old)","x":["పెద్దది","లక్ష్మికి"],"why":"For a man, the adjective takes the masculine -వాడు: పెద్దవాడు.","xr":["peddadi","lakshmiki"]},
+      {"t":"type","p":"This house is bigger than that house.","a":["ఈ ఇల్లు ఆ ఇంటి కంటే పెద్దది","ఆ ఇంటి కంటే ఈ ఇల్లు పెద్దది","ī illu ā iṇṭi kaṇṭē peddadi","ā iṇṭi kaṇṭē ī illu peddadi"],"hint":"ఈ (this) · ఆ (that) · ఇల్లు · కంటే · పెద్ద (big)","x":["ఇంటిని","పెద్దవాడు"],"why":"ఇల్లు takes its oblique form ఇంటి before కంటే, and a thing takes -ది: పెద్దది.","xr":["iṇṭini","peddavāḍu"]}
     ]
   },
   PATTERNS: [

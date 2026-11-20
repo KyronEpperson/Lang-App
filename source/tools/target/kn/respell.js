@@ -34,7 +34,7 @@ const VER = new Set(`
 `.split(/\s+/).filter(Boolean));
 (function lexfile() { const f = path.join(__dirname, 'lexicon.txt'); if (!fs.existsSync(f)) return;
   fs.readFileSync(f, 'utf8').split(/[;\n]/).map(s => s.trim()).filter(Boolean).forEach(e => { const i = e.indexOf(' '); if (i < 1) throw new Error('bad lexicon entry «' + e + '»'); EXC[e.slice(0, i).normalize('NFC')] = e.slice(i + 1).trim().normalize('NFC'); }); })();
-Object.keys(EXC).forEach(k => { const n = k.normalize('NFC').replace(/[‌‍]/g, ''); if (n !== k) { EXC[n] = EXC[k]; } });
+Object.keys(EXC).forEach(k => { const n = k.normalize('NFC').replace(/[\u200c\u200d]/g, ''); if (n !== k) { EXC[n] = EXC[k]; } });
 
 const IND = { 'ಅ': 'a', 'ಆ': 'ā', 'ಇ': 'i', 'ಈ': 'ī', 'ಉ': 'u', 'ಊ': 'ū', 'ಋ': 'ru', 'ಎ': 'e', 'ಏ': 'ē', 'ಐ': 'ai', 'ಒ': 'o', 'ಓ': 'ō', 'ಔ': 'au' };
 const MAT = { 'ಾ': 'ā', 'ಿ': 'i', 'ೀ': 'ī', 'ು': 'u', 'ೂ': 'ū', 'ೃ': 'ru', 'ೆ': 'e', 'ೇ': 'ē', 'ೈ': 'ai', 'ೊ': 'o', 'ೋ': 'ō', 'ೌ': 'au' };
@@ -114,7 +114,7 @@ function word(w) {
 
 const PUNCT = { '।': '.', '॥': '.', '.': '.', '?': '?', '!': '!', ',': ',', ':': ':', ';': ';' };
 function respell(text) {
-  const src = String(text).normalize('NFC').replace(/[‌‍]/g, '');
+  const src = String(text).normalize('NFC').replace(/[\u200c\u200d]/g, '');
   let out = ''; let buf = '';
   const flush = () => { if (buf) { out += word(buf); buf = ''; } };
   for (const c of src) {
