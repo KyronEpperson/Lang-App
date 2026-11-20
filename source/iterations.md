@@ -1190,3 +1190,39 @@ Build: a 🐞 button in the header (every page). It opens a sheet that (1) names
 
 ### 2.48.1 — results
 Tabs above the board: All, Bugs, Content fixes, Ideas, Love, each with its count; a tab shows only that type's posts with their replies; the choice is kept for the visit. Browser test with six mocked posts: All 5, Bugs 2 (with the reply under its post), Content fixes 1, Ideas 1, Love 1, and "Nothing in Love yet." when empty; no overflow at 390 px. Harness 88 guards.
+
+# Loop: 10 enhancements to the Feedback page (2026-11-20)
+Constraint: no database change (readable columns: id, created_at, kind, message, name, parent_id, hearted, done, hidden, by_admin). Each iteration is checked by tools/tests/fbtest.js (browser, mocked posts); the harness runs at checkpoints.
+
+## FB-1 — prompt
+Add a search box above the board that filters posts in the current feed by words in the message, the name, the place line or a reply; the tab counts stay the totals. Check: with mocked posts, typing "review" leaves only matching posts, a word found only in a reply keeps its parent, clearing restores all, and the input keeps focus while typing.
+
+### FB-1 — results
+Search box added (fbPick / fbHay). Test: "review" → post 4 only, "1 of 7 shown", focus stays in the box; a word only in a reply ("zebra") keeps its parent post 1; name "ana" → 1; place "tones" → 3; no match → "No posts match."; cleared → all 7. No page errors, no overflow.
+
+## FB-2 — prompt
+Add status chips (All / Open / Fixed) and a sort menu (Newest, Oldest, Most replies) under the search box. Check: Open hides the two fixed posts, Fixed shows only them, Oldest reverses the order, Most replies puts the post with a reply first.
+
+### FB-2 — results
+Status chips and sort menu added. Test: Open → 5 posts (the two fixed ones gone), Fixed → posts 3 and 7 only, Oldest → order reversed (6 … 1), Most replies → post 1 first, Newest restores. No errors, no overflow.
+
+## FB-3 — prompt
+Add a "My posts" chip that shows only posts sent from this device, and never show a hidden post to anyone but an admin or its author. Check: My posts → post 4 only (the device's saved id); hidden post 8 is absent for a normal user and present when fbAdmin is true.
+
+### FB-3 — results
+"My posts" chip added; hidden posts are filtered on the client too. Test: a normal user no longer sees hidden post 8 (feed total 6), My posts → post 4 only, an admin sees post 8. No errors.
+
+## FB-4 — prompt
+Make the 📍 place line on a post a button: tapping it filters the board to every report from that same page (shown as a removable "Page: …" pill), and add a "Go to page" link that opens that page (the lesson, the Review deck, or the tab). Check: tapping the place on post 1 leaves posts 1 and 7 (both "today"), the pill shows and its ✕ clears it, and Go to page on the lesson post opens that lesson.
+
+### FB-4 — results
+Place line is a button and has a "Go to page" link. Test: tapping the place on post 1 → posts 1 and 7 (both written on "today"); pill "Page: today ✕" appears and clearing restores 6; fbGoto opened the lesson, the Review deck and (for another course's report) the Today tab: [true, true, true]. No errors, no overflow.
+
+## FB-5 — prompt
+Add a "Pages with open reports" summary above the board: each page that has unfixed tagged reports, with its count, most first; tapping one filters the board to that page. Check: with the mocked posts it lists "today 1" and "review/Letters and sounds 1" only (the fixed lesson report is not listed), and tapping "today" filters to posts 1 and 7.
+
+### FB-5 — results
+"Pages with open reports" summary added (collapsed by default). Test: lists "review/Letters and sounds 1" and "today 1" (the fixed lesson report is not listed); tapping "today" filters to posts 1 and 7, tapping again clears (6). Harness checkpoint: 88 guards, no errors, no overflow. Shipped FB-1 … FB-5 as 2.49.0.
+
+## FB-6 — prompt
+Composer: the message placeholder changes with the chosen type (a bug asks what happened and what was expected), and an unsent draft is saved on the device and restored on return, then cleared after a successful send. Check: choosing Bug changes the placeholder; typed text survives a page reload with its type; after a mocked send the box and the saved draft are empty.
