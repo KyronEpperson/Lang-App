@@ -585,7 +585,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.54.0 · 2026-11-20';
+const APP_VERSION='2.54.1 · 2026-11-20';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1771,7 +1771,7 @@ function packFail(){ if(document.getElementById('packFail')) return; const w=doc
   w.innerHTML='<div class="wbox"><div><h1>'+LOGO_SVG+'Lang App</h1><p class="stat" style="margin:8px 0 0">Your course could not be loaded. Check your connection and try again. Your progress is safe on this device.</p></div><button class="choice" id="packRetry" type="button"><b>↻ Try again</b></button></div>';
   document.body.appendChild(w); const go=()=>{ ensureCourse(META.course).then(ok=>{ if(!ok) return; window.removeEventListener('online',go); w.remove(); applyCourse(META.course,{keepGlobals:true}); }); }; w.querySelector('#packRetry').onclick=go; window.addEventListener('online',go); }
 function packMiss(n){ if(navigator.onLine===false){ toast(n&&n!=='en'&&n!=='ko'?LLin(n,'Could not load. Check your connection.'):preBi('Could not load. Check your connection.','불러오지 못했어요. 연결을 확인해 주세요.')); return; }
-  const t=$('toast'); t.textContent=(n&&n!=='en'&&n!=='ko'?LLin(n,'A new version is ready. Reload to continue.'):preBi('A new version is ready. Reload to continue.','새 버전이 있어요. 새로고침해 주세요.'))+' '; const b=document.createElement('button'); b.className='ghost'; b.style.cssText='padding:2px 8px;color:var(--bg);border-color:var(--bg)'; b.textContent='↻'; b.setAttribute('aria-label','Reload'); b.onclick=()=>location.reload(); t.appendChild(b); t.style.pointerEvents='auto'; t.classList.add('show'); clearTimeout(toastT); }
+  const t=$('toast'); t.textContent=(n&&n!=='en'&&n!=='ko'?LLin(n,'A new version is ready. Reload to continue.'):preBi('A new version is ready. Reload to continue.','새 버전이 있어요. 새로고침해 주세요.'))+' '; const b=document.createElement('button'); b.className='ghost'; b.style.cssText='padding:2px 8px;color:var(--bg);border-color:var(--bg)'; b.textContent='↻'; b.setAttribute('aria-label','Reload'); b.onclick=()=>location.reload(); t.appendChild(b); t.style.pointerEvents='auto'; t.classList.add('show'); clearTimeout(toastT);  /* a missing pack means a new version is out: reload by itself, at most once a minute */ try{ const k='la-autoreload', last=+sessionStorage.getItem(k)||0; if(Date.now()-last>60000){ sessionStorage.setItem(k,String(Date.now())); setTimeout(()=>location.reload(),1200); } }catch(e){} }
 function packBootCheck(){ if(META.picked&&META.course!==COURSE.id&&knownCourse(META.course)){ packFail(); return false; } return true; }
 function registerCourses(){
   COURSES['en-ko']=Object.assign(COURSE,{DECKS,GROUPS,TAGS,DESC,DIALOG,EXAMPLES,LESSONS,CHECKS,PATTERNS,PAIRS,GOALS,PLAN_PRESETS,TITLES,PAUSE:{sets:PAUSE_SETS,idioms:IDIOMS},introWord:'한글',builtin:true,_rt:{DECKS,GROUPS,PATH,names}});
@@ -3700,8 +3700,14 @@ function armIdle(){ clearTimeout(idleT); clearTimeout(idleW); if(!FX3D.state().i
 function hydrateCustom(){ S.custom=sanitizeState({custom:S.custom}).custom; DECKS[MYDECK].length=0; (S.custom||[]).forEach(c=>DECKS[MYDECK].push(c)); }
 registerCourses(); initMeta(); bootCourse(); if(!window.claude) sbCatchRedirect(); load(); memoClear(); hydrateCustom(); applyRom(); applyZoom(); applyAccent(); applyIntervals(); shieldCheck(); applyCourseUi(); applyLang(); setTimeout(i18nPass,0); $('auto').checked=S.auto; $('rateSel').value=String(S.rate||0.85); S.listenFirst=false; S.confMode=false; S.autoFlip=0; hdr(); route(); if(!window.claude){ sbLoad(); if(welcomeNeeded()) showWelcome(); else if(S.welcomed) askPersist(); } $('courseBtn').onclick=()=>showLangHome({step:2,closable:true}); maybeLangHome(); packBootCheck();
 if(!document.getElementById('welcome')){ playIntro(false); } /* full intro on every page load (tap to skip; off via 3D effects toggle). This used to be a // comment that silently swallowed the sync boot call below. */ if(window.requestIdleCallback) requestIdleCallback(()=>{ syncInit(); sbInit(); }); else setTimeout(()=>{ syncInit(); sbInit(); },1);
-if(!window.claude && 'serviceWorker' in navigator && /^https?:/.test(location.protocol)){ navigator.serviceWorker.register('sw.js').then(reg=>{ const offer=w=>{ const t=$('toast'); t.innerHTML='New version ready · <button class="ghost" style="padding:2px 8px;color:var(--bg);border-color:var(--bg)">Reload</button>'; t.style.pointerEvents='auto'; t.classList.add('show'); clearTimeout(toastT); t.querySelector('button').onclick=()=>{ w.postMessage('skipWaiting'); }; };
-  if(reg.waiting) offer(reg.waiting); reg.addEventListener('updatefound',()=>{ const nw=reg.installing; nw&&nw.addEventListener('statechange',()=>{ if(nw.state==='installed'&&navigator.serviceWorker.controller) offer(nw); }); }); }).catch(()=>{});
+if(!window.claude && 'serviceWorker' in navigator && /^https?:/.test(location.protocol)){ navigator.serviceWorker.register('sw.js').then(reg=>{ /* updates apply by themselves at a quiet moment: on opening, on a page change, when the tab is in the background, or after 30 s without input */
+  let pend=null, lastAct=Date.now(); const act=()=>{ lastAct=Date.now(); }; ['pointerdown','keydown','input'].forEach(ev=>document.addEventListener(ev,act,true));
+  const typing=()=>{ const a=document.activeElement; return !!(a&&/^(TEXTAREA|INPUT)$/.test(a.tagName)&&a.value); };
+  const apply=()=>{ if(!pend) return; const w=pend; pend=null; try{ toast('Updating to the new version…'); }catch(e){} w.postMessage('skipWaiting'); };
+  const tryApply=force=>{ if(!pend) return; if(force||document.hidden||(!typing()&&Date.now()-lastAct>30000)) apply(); };
+  const offer=(w,now)=>{ pend=w; if(now) apply(); else tryApply(false); };
+  window.addEventListener('hashchange',()=>{ if(pend&&!typing()) apply(); }); document.addEventListener('visibilitychange',()=>{ if(document.hidden) tryApply(true); else { try{ reg.update(); }catch(e){} } }); setInterval(()=>tryApply(false),5000); setInterval(()=>{ try{ if(!document.hidden) reg.update(); }catch(e){} },30*60*1000);
+  if(reg.waiting) offer(reg.waiting,true); reg.addEventListener('updatefound',()=>{ const nw=reg.installing; nw&&nw.addEventListener('statechange',()=>{ if(nw.state==='installed'&&navigator.serviceWorker.controller) offer(nw); }); }); }).catch(()=>{});
   let refreshing=false; const hadCtl=!!navigator.serviceWorker.controller; /* first install must not reload the page mid-welcome */ navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(hadCtl&&!refreshing){ refreshing=true; location.reload(); } }); }
 </script>
 
