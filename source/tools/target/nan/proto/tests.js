@@ -1,0 +1,12 @@
+const p = require('/home/claude/tools/target/nan/profile.json'); const R = require('/home/claude/tools/target/nan/respell.js');
+const A = new RegExp(p.pronPattern), B = new RegExp(p.pronPattern, 'u');
+const pos = [...R.W.values()].map(r => r).concat(['Lí tsia̍h-pá--buē?', 'Tse tsiah kuì, mài bé--lah!', 'Khòng-kiú-pat-sam, ngóo-ngóo-tshit-pat.', '--ah']);
+let pf = 0; pos.forEach(s => { s = s.normalize('NFC'); if (!A.test(s) || !B.test(s)) { pf++; console.log('POS FAIL', s); } });
+const neg = ['lí  hó', 'lí hó ?', '你好', 'li2 ho2', 'lí-', 'lí_hó', 'lí hó。', ' lí'];
+let nf = 0; neg.forEach(s => { if (A.test(s) || B.test(s)) { nf++; console.log('NEG PASSED (bad)', s); } });
+console.log('pattern: ' + (pos.length - pf) + '/' + pos.length + ' positives pass, ' + (neg.length - nf) + '/' + neg.length + ' negatives fail');
+const K = new RegExp(p.standingRule.keywords, 'i');
+const yes = ['獅 (sai) is tone 1: high and level.', 'Tone 5 rises: kâu.', 'Tones 2 and 3 have different marks.', 'Check the tone mark: lô, not lō.', 'Type the tone number after the syllable: lang5.', 'Tone sandhi: hué is said in tone 1 before tshia.', 'In sandhi, tone 5 becomes tone 7 in the south.', 'Neutral tone after --: say lí light and low.', 'Books take the classifier 本: 兩本冊.', 'A number needs a classifier before the noun: 一个人.', '這 + classifier + noun: 這本冊.', 'Time goes before the verb: 我明仔載去.', 'Place with 佇 goes before the verb: 我佇厝裡食飯.', 'The describer with 的 goes before the noun.', 'Tone pairs: 獅 sai and 豹 pà.', 'Tone 8 has a short vertical line above the vowel.'];
+const no = ['Use 多謝 for thanks.', 'No 是 before an adjective: 伊真媠.', '無 is the negative of 有.', '毋 is for refusing; 袂 for cannot.', '莫 means don\'t.', 'The question word stays where the answer goes.', '矣 shows the change has happened.', '咧 before a verb: in progress.', 'Say it in a polite tone.', 'Tones matter.', 'Word order: subject, verb, object.', '敢 goes after the subject to ask.', 'ts is like the ts in cats.', 'nn makes the vowel nasal.', 'We have 7 tones in all.', '兩, not 二, for two things.'];
+let ok = 0; yes.forEach(s => { if (K.test(s)) ok++; else console.log('SHOULD MATCH', s); }); no.forEach(s => { if (!K.test(s)) ok++; else console.log('SHOULD NOT MATCH', s); });
+console.log('keywords: ' + ok + '/' + (yes.length + no.length) + ' as expected');

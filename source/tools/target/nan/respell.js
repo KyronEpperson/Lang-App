@@ -6,10 +6,13 @@
    (m̄ sī, hit ê, tsia̍h-pá); `--` before a neutral-tone syllable (tsia̍h-pá--buē, To-siā--lí); nasal vowels with nn; oo; glottal -h.
    The first letter of a sentence (text ending in 。？！) is a capital, as in the MOE example sentences; proper nouns carry their capital
    in the lexicon (Tâi-uân). Chinese punctuation becomes ASCII, attached to the word before it.
-   Context rules (the homograph table, §6.1): 無 未 袂 咧 before ？ or at the end of a question become --bô --buē --bē --leh;
-   咧 before a word is teh; 這 / 彼 are tse / he before 是 敢 攏 嘛 or at the end, tsit / hit before a classifier, a number or a noun word
-   listed in DEM_NOUN, and throw otherwise; 一 二 after another number word are it, jī (廿一 jia̍p-it, 百二 pah-jī); a run of number
-   characters that contains 空 and no 十 百 千 萬 is read digit by digit in the literary readings (a phone number).
+   Context rules (the homograph table, profile §6.3): 無 未 袂 after a word and right before ？ become --bô --buē --bē; 咧 is --leh at
+   the end, leh after 坐, teh elsewhere; 的 at the end after a non-pronoun is --ê; 過 at the end or before a final 無？ is --kuè;
+   這 / 彼 are tse / he before 是 敢 攏 嘛 也 就 遮 真 足 誠 較 傷 有 無 毋 袂 會 欲 佇 or at the end, tsit / hit before a classifier, a
+   number or a noun listed in DEM_NOUN, and throw otherwise; 上 before an adjective in ADJ is siōng, else tsiūnn; 遮 / 遐 before an
+   adjective in ADJ or 𠢕… are tsiah / hiah; 一 二 after another number word are it, jī; a compound number is one hyphenated word;
+   a run of number characters that contains 空 and no 十 百 千 萬 (and, in the same text, any other such run of 3 or more) is read
+   digit by digit in the literary readings, hyphenated (a phone number). Three characters outside the BMP are allowed: 𪜶 𠢕 𨑨.
    It throws on: a character or word not in the lexicon; a Latin letter or Arabic digit; 這 / 彼 it cannot place; 二 directly before a
    classifier (write 兩); a character with no default reading standing outside a listed word (NODEF).
    It warns (stderr, not fatal) when a character with literary and colloquial readings stands alone (POLY).
@@ -58,14 +61,19 @@ function addLine(line, n, file) {
 }
 const LEXF = path.join(__dirname, 'lexicon.txt');
 fs.readFileSync(LEXF, 'utf8').split('\n').forEach((l, i) => addLine(l, i + 1, 'lexicon.txt'));
+/* writers' additions: lexicon-add-<id>.txt next to this file, same format, each line with the URL of the page it was copied from; the lead merges them into lexicon.txt */
+fs.readdirSync(__dirname).filter(f => /^lexicon-add-[\w-]+\.txt$/.test(f)).sort().forEach(f => fs.readFileSync(path.join(__dirname, f), 'utf8').split('\n').forEach((l, i) => addLine(l, i + 1, f)));
 /* characters with no default: alone (outside a listed word) they throw */
 const NODEF = { '這': 'tse (this, alone) / tsit (this + classifier)', '彼': 'he (that, alone) / hit (that + classifier)' };
 /* characters whose default is right alone but which read otherwise in other words: alone, they warn */
-const POLY = { '大': 'tuā; tāi in literary words', '下': 'ē; hā in literary words', '行': 'kiânn (walk); hâng (row, firm)', '上': 'siōng (most); other readings in words' };
+const POLY = { '大': 'tuā; tāi in literary words', '下': 'ē; hā in literary words', '行': 'kiânn (walk); hâng (row, firm)', '上': 'tsiūnn (go up, board); siōng (most) in 上尾 and other words' };
 const NUM = new Set([...'一二三四五六七八九十百千萬空兩廿']);
 const LIT = { '空': 'khòng', '一': 'it', '二': 'jī', '三': 'sam', '四': 'sù', '五': 'ngóo', '六': 'lio̍k', '七': 'tshit', '八': 'pat', '九': 'kiú' };
 const CLF = new Set([...'个本隻台杯碗張塊項間位擺款號點箍粒條件枝支罐雙斤歲次句']);
 const TSE_NEXT = new Set([...'是敢攏嘛也就遮真足誠較傷有無毋袂會欲佇']); /* 這遮貴 Tse tsiah kuì (s:9035) */
+const ADJ = new Set(['好', '貴', '俗', '大', '細', '熱', '寒', '媠', '濟', '遠', '近', '好食', '好看', '慢']);
+const LEH_PREV = new Set(['坐']); /* verbs after which 咧 is leh (MOE: 坐咧看, 徛咧講); extend only from MOE examples */
+const PRON = new Set(['我', '你', '伊', '阮', '咱', '恁', '𪜶']);
 const DEM_NOUN = new Set(['馬', '陣']); /* words listed whole (這馬, 這陣) never reach the rule; nouns allowed after tsit / hit go here */
 const PUNCT = { '。': '.', '，': ',', '？': '?', '！': '!', '、': ',', '：': ':', '；': ';', '.': '.', ',': ',', '?': '?', '!': '!', ':': ':', ';': ';' };
 const DROP = /[“”‘’"'《》（）()「」『』…\-—～~·]/;
@@ -77,7 +85,9 @@ function bwd(cs, chunk) { const out = []; for (let j = cs.length; j > 0;) { let 
     for (let L = Math.min(MAXL, j); L >= 1; L--) { const w = cs.slice(j - L, j).join(''); if (W.has(w) || (L === 1 && NODEF[w])) { hit = w; break; } }
     if (!hit) throw new Error('unknown: «' + cs[j - 1] + '» in «' + chunk + '»'); out.unshift(hit); j -= [...hit].length; } return out; }
 const rd = ws => ws.map(w => W.get(w) || w).join(' ');
-function segRun(cs, chunk) { const f = fwd(cs, chunk), b = bwd(cs, chunk); if (f.join('/') === b.join('/') || rd(f) === rd(b)) return f;
+function segRun(cs, chunk) { let f = null, b = null, err = null; try { f = fwd(cs, chunk); } catch (e) { err = e; } try { b = bwd(cs, chunk); } catch (e) { err = err || e; }
+  if (!f && !b) throw err; if (!f || !b) return f || b; /* one direction can stall on a character the other covers inside a longer word (第一擺: 第一 / 擺) */
+  if (f.join('/') === b.join('/') || rd(f) === rd(b)) return f;
   throw new Error('two possible readings in «' + chunk + '»: ' + f.join('/') + ' (' + rd(f) + ') or ' + b.join('/') + ' (' + rd(b) + '): add the longer word to lexicon.txt'); }
 function respell(text) {
   const src = String(text).normalize('NFC').trim(); if (!src) return '';
@@ -92,8 +102,10 @@ function respell(text) {
     }
     flush(); });
   /* digit strings: a run of number characters that contains 空 is read digit by digit, literary */
+  const phone = /空[一二三四五六七八九空]/.test(src.replace(/[，、\s]/g, '')); /* a text with a phone number: its other digit groups of 3+ are read the same way */
   for (let i = 0; i < toks.length;) { let j = i; while (j < toks.length && toks[j].w && [...toks[j].w].every(c => NUM.has(c))) j++;
-    if (j > i && toks.slice(i, j).some(t => t.w.includes('空')) && !toks.slice(i, j).some(t => /[十百千萬廿兩]/.test(t.w))) { const ds = toks.slice(i, j).map(t => t.w).join('');
+    const run = toks.slice(i, j), digitsOnly = run.length && !run.some(t => /[十百千萬廿兩]/.test(t.w)), len = run.map(t => t.w).join('').length;
+    if (j > i && digitsOnly && (run.some(t => t.w.includes('空')) || (phone && len >= 3))) { const ds = toks.slice(i, j).map(t => t.w).join('');
       if ([...ds].some(c => !LIT[c])) throw new Error('digit string «' + ds + '» in «' + src + '»: only 空 一 … 九 can be read digit by digit');
       toks.splice(i, j - i, ...[...ds].map(c => ({ w: c, r: LIT[c], lit: 1 }))); i += ds.length; } else i = Math.max(j, i + 1); }
   const isQEnd = i => { const n = toks[i + 1]; return n && n.p === '?'; };
@@ -102,7 +114,11 @@ function respell(text) {
     if (t.w === '無' && prev && prev.w && isQEnd(i)) t.r = '--bô';
     else if (t.w === '未' && prev && prev.w && isQEnd(i)) t.r = '--buē';
     else if (t.w === '袂' && prev && prev.w && isQEnd(i)) t.r = '--bē';
-    else if (t.w === '咧') t.r = (prev && prev.w && atEnd(i)) ? '--leh' : 'teh';
+    else if (t.w === '咧') t.r = (prev && prev.w && atEnd(i)) ? '--leh' : (prev && LEH_PREV.has(prev.w)) ? 'leh' : 'teh'; /* 坐咧看 tsē leh khuànn (s:4770); 伊咧讀冊 I teh (s:4771) */
+    else if (t.w === '的' && prev && prev.w && atEnd(i) && !PRON.has(prev.w)) t.r = '--ê'; /* 我足愛睏的 ài-khùn--ê (s:9427); but 這敢是你的？ lí ê (s:8414) */
+    else if ((t.w === '遮' || t.w === '遐') && next && next.w && (ADJ.has(next.w) || next.w.startsWith('𠢕'))) t.r = t.w === '遮' ? 'tsiah' : 'hiah'; /* 'so': 遐𠢕早 hiah gâu-tsá (s:13473), 遮貴 tsiah kuì (s:9035) */
+    else if (t.w === '上' && next && next.w && ADJ.has(next.w)) t.r = 'siōng'; /* 'most' before an adjective: 上好 siōng hó (s:306), 上尾 siōng-bué (s:5016) */
+    else if (t.w === '過' && prev && prev.w && (atEnd(i) || (next && next.w === '無' && isQEnd(i + 1)))) t.r = '--kuè'; /* 我有去過 guá ū khì--kuè (s:10149); ū thiann--kuè--bô (s:13225) */
     else if (t.w === '這' || t.w === '彼') { const n = next && next.w ? next.w : null; const tse = t.w === '這' ? 'tse' : 'he', tsit = t.w === '這' ? 'tsit' : 'hit';
       if (!n || TSE_NEXT.has([...n][0])) t.r = tse;
       else if (CLF.has([...n][0]) || NUM.has([...n][0]) || DEM_NOUN.has(n)) t.r = tsit;
@@ -115,7 +131,8 @@ function respell(text) {
   const numW = t => t && t.w && !t.lit && [...t.w].every(c => NUM.has(c));
   let out = '';
   toks.forEach((t, i) => { if (t.p) { out += t.p; return; } const r = t.r;
-    const glue = numW(t) && numW(toks[i - 1]) && t.w[0] !== '空' && toks[i - 1].w !== '兩' ? '-' : ' ';
+    const glue = (numW(t) && numW(toks[i - 1]) && t.w[0] !== '空') || (t.lit && toks[i - 1] && toks[i - 1].lit) ? '-' : ' ';
+    /* a digit string is one hyphenated word, as Bite-size Taiwanese writes phone numbers (khòng-kiú, pat-sam-ngóo-ngóo) */
     out += (!out || r.startsWith('--')) ? r : glue + r; });
   out = out.replace(/ ([,.?!:;])/g, '$1').replace(/^[,.?!:;]+/, '').trim();
   if (/[。？！]$/.test(src)) out = out.replace(/^(\p{L})/u, c => c.toUpperCase()).replace(/([.?!] )(\p{L})/gu, (m, a, c) => a + c.toUpperCase());
@@ -125,7 +142,7 @@ function respell(text) {
    after a word. Written for NFC text; a̍ m̄ n̄ have no precomposed form, so the combining marks are allowed after any letter. BMP only,
    so it works with and without the u flag. The generator's syllable rule, not the pattern, is the guarantee. */
 function pattern() {
-  const L = "[A-Za-zÀ-ÿĀ-ž](?:[\\u0300\\u0301\\u0302\\u0304\\u030d])?";
+  const L = "[A-Za-zÀ-ÿĀ-žǸǹḾḿ](?:[\\u0300\\u0301\\u0302\\u0304\\u030d])?";
   const SY = '(?:' + L + ')+';
   const WD = '(?:--)?' + SY + '(?:(?:-|--)' + SY + ')*';
   return '^' + WD + '[,.?!:;]?(?: ' + WD + '[,.?!:;]?)*$';

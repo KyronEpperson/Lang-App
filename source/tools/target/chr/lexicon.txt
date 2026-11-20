@@ -1,0 +1,330 @@
+# en-chr lexicon: Cherokee syllabary -> source pronunciation string, for tools/target/chr/respell.js (profile docs/profiles/en-chr.md §6).
+# Format: syllabary<TAB>pronunciation as printed in the source<TAB>source id<TAB>English gloss (from the source; one line).
+# The tool derives the plain line from field 2 (removes tone digits ¹²³⁴, underdots, ɂ; j -> ts; lowercase) and CHECKS it against the
+# syllabary character by character (Unicode syllabary table). Never add a line from memory: every line names the page it was copied from.
+# Where the source prints alternatives ("o²sị³yo, sị³yo") each spelling got its own line; where one spelling has several readings the FIRST printed is kept.
+# Ꮭ is printed tla (first form, lesson 4) and hla (lessons 13, 18-20): the lexicon keeps tla (also the NHA tutor's "Tla yigoliga").
+# Joyner's underdot on a syllabary sign (Ꮵ̣ᎪᏩᏘᎭ) marks a short vowel and is not kept; so ᏥᎪᏩᏘᎭ "I see him" and "I see it" are one line.
+#
+# Source ids (opened 2026-11-20):
+#   Jn   Michael Joyner, Cherokee Language Lessons Volume 1 (2nd ed. 2016, CC BY-SA 3.0), lesson n, "ᏘᎪᎵᏯ (Read them)" list:
+#        https://www.cherokeelessons.com/pdf-downloads/Cherokee-Language-Lessons-Volume-I-embedded-cover.pdf  (read through a fetch tool, offsets 0 / 100000 / 200000)
+#   DG   Patrick Del Percio, "Greetings", DAILP teaching article: https://wp.dailp.northeastern.edu/greetings
+#   SUF  a suffix whose reading is DERIVED from a Joyner word that ends in the same sign(s) (named in the gloss); used only to read Joyner's
+#        own sentences (ᎰᏩᏍ?, ᎦᏥᎪᏩᏘᎭᏍᎪ?, ᎩᏟᏊ, ᎠᏂᎨᏯᏧ); listed for native check (profile §11)
+#
+ᎠᏲ	ạ²yo	J4	Ouch!
+ᎣᏍᏓ	o⁴sda	J4	Good. Well.
+ᎣᏍᏛ	o⁴sdv	J4	Good. Well.
+ᎣᏏᏲ	o²sị³yo	J4	Hello.
+ᏏᏲ	sị³yo	J4	Hello.
+ᎤᏲᎢ	u²yo⁴ɂi	J4	Bad.
+ᎥᎥ	v²v	J4	Yes.
+ᎥᏍᎩᎩ	v¹sgị²gi	J4	Really?
+ᎥᏝ	ṿ²tla	J4	No.
+Ꮭ	tla	J4	No.
+ᎰᏩ	họ²wa	J4	Okay. Alright. Sure.
+Ꮒ	ni	J4	Look at that!
+ᏣᎳᎩ	jạ²lạ²gi	J4	Cherokee.
+ᏩᏙ	wạ²do	J4	Thanks.
+ᏲᏁᎦ	yo³ne²ga	J4	English.
+ᏴᏭᏁᎦ	yv³wụ³ne²ga	J4	English.
+ᎦᏙ ᎤᏍᏗ	gạ²do² u⁴sdi	J5	Which one?
+ᎦᏙ	gạ²do²	J5	(word in «ᎦᏙ ᎤᏍᏗ» Which one?)
+ᎤᏍᏗ	u⁴sdi	J5	(word in «ᎦᏙ ᎤᏍᏗ» Which one?)
+ᎯᎳ ᎢᎦ	hị²la⁴ i²³ga⁴	J5	How many? (inanimate)
+ᎯᎳ	hị²la⁴	J5	(word in «ᎯᎳ ᎢᎦ» How many? (inanimate))
+ᎢᎦ	i²³ga⁴	J5	(word in «ᎯᎳ ᎢᎦ» How many? (inanimate)); Is (now and ongoing)
+ᎯᎳ ᎢᏯᏂ	hị²la⁴ ị²yạ³ni	J5	How many? (animate)
+ᎢᏯᏂ	ị²yạ³ni	J5	(word in «ᎯᎳ ᎢᏯᏂ» How many? (animate)); Count of animate
+ᏌᏊ	sa¹gwu⁴	J5	One.
+ᏔᎵ	tạɂ³li	J5	Two.
+ᎠᏂᏔᎵ	a²nị²tạɂ³li	J5	Two. (animate)
+ᏦᎢ	jọ²ɂi	J5	Three.
+ᎠᏂᏦᎢ	a²nị²jọ²ɂi	J5	Three. (animate)
+ᏅᎩ	nvh²gi	J5	Four.
+ᎯᏍᎩ	hị²sgi	J5	Five.
+ᏑᏓᎵ	su²³dạ³li	J5	Six.
+ᎦᎵᏉᎩ	gahl²gwo²³gi	J5	Seven.
+ᎠᎪᏩᏘᎭ	a¹gowh²tị³ha	J6	He sees him or it.
+ᎠᏂᎪᏩᏘᎭ	a¹nị²gowh²tị³ha	J6	They see him or it.
+ᏓᎪᏩᏘᎭ	da¹gowh²tị³ha	J6	He sees them.
+ᏓᏂᎪᏩᏘᎭ	da¹nị²gowh²tị³ha	J6	They see them.
+ᎠᎴ	ạ²le	J6	And. Or.
+ᏃᎴ	nọ²le	J6	And. Or.
+ᎠᎨᏯ	ạ²ge²³hya	J6	A woman.
+ᎠᏂᎨᏯ	ạ²ni²ge²³hya	J6	Women.
+ᎠᏍᎦᏯ	ạ²sgạ²ya	J6	A man.
+ᎠᏂᏍᎦᏯ	ạ²ni²sgạ²ya	J6	Men.
+ᎦᏙ ᏧᏍᏗ	gạ²do² ju⁴sdi	J6	Which ones? (inanimate)
+ᏧᏍᏗ	ju⁴sdi	J6	(word in «ᎦᏙ ᏧᏍᏗ» Which ones? (inanimate))
+ᎦᏙ ᎤᎾᏍᏗ	gạ²do² un⁴sdi	J6	Which ones? (animate)
+ᎤᎾᏍᏗ	un⁴sdi	J6	(word in «ᎦᏙ ᎤᎾᏍᏗ» Which ones? (animate))
+ᎩᏟ	gi²hli	J6	A dog. Dogs.
+ᏄᎾ	nu²³na	J6	A potato. Potatoes.
+ᏅᏯ	nv¹ya	J6	A rock. Rocks.
+ᏪᏌ	we²³sa	J6	A cat. Cats.
+ᏥᎪᏩᏘᎭ	ji²gowh²tị³ha	J7	I see him.; I see it.
+ᎦᏥᎪᏩᏘᎭ	ga²ji²gowh²tị³ha	J7	I see them. (animate)
+ᏕᏥᎪᏩᏘᎭ	de²jị²gowh²tị³ha	J7	I see them. (inanimate)
+ᎯᎪᏩᏘᎭ	hi²gowh²tị³ha	J7	You see him.; You see it.
+ᎦᎯᎪᏩᏘᎭ	ga²hi²gowh²tị³ha	J7	You see them. (animate)
+ᏕᎯᎪᏩᏘᎭ	de²hị²gowh²tị³ha	J7	You see them. (inanimate)
+ᎠᎭᏂ	ạ³hạ²ni	J7	Here.
+ᎠᏂ	ạ³hni	J7	Here.
+ᎢᎾ	i⁴na	J7	Far.
+ᎤᎿ	u¹hna⁴	J7	There.
+ᎾᎥ	nạ²ɂv	J7	Near. Close by.
+ᎠᏴ	ạ²yv	J8	I; we
+ᎠᏯ	ạ²ya	J8	I; we (other spelling of ᎠᏴ)
+ᎥᏍᎩᎾ	v¹sgị²na	J8	he; she; they; that (out of reach)
+ᎯᎠ	hị²ɂa	J8	he; she; they; this; these (within reach)
+ᎯᎢ	hị²ɂi	J8	this; these (within reach)
+Ꮎ	na	J8	that; those (also like "the")
+ᏂᎯ	nị²hi	J8	you; you two; you all
+ᎠᎭᏫ	ạ²hạ²wi	J9	deer (ᎠᎭᏫ, ᎠᏫ: "A deer. Deer.")
+ᎠᏫ	ạ²hwi	J9	deer (short form of ᎠᎭᏫ)
+ᎪᏪᎵ	go²hwe²li	J9	a sheet of paper
+ᏗᎪᏪᎵ	dị²go²hwe²li	J9	sheets of paper
+ᎫᎴ	gu²le	J9	an acorn / acorns
+ᏙᏯ	do²ya	J9	beaver
+ᏚᏯ	tu²³ya	J9	a bean / beans
+ᏥᏍᏚ	ji²sdu	J9	a rabbit / rabbits
+ᏩᎭᏯ	wạ²hạ²ya	J9	wolf (ᏩᎭᏯ, ᏩᏯ: "A wolf. Wolves.")
+ᏩᏯ	wạ²hya	J9	wolf (short form of ᏩᎭᏯ)
+ᎠᏂᎠᏫ	a¹ni²ɂạ²hwi	J10	the deer people
+ᎠᏂᎩᏟ	a¹ni²gi²hli	J10	the dog people
+ᎠᏂᏥᏍᏚ	a¹ni²ji²sdu	J10	the rabbit people
+ᎠᏂᏩᎭᏯ	a¹ni²wạ²hạ²ya	J10	the wolf people
+ᎠᏂᏪᏌ	a¹ni²we²³sa	J10	the cat people
+ᏙᎯ	to¹hi⁴	J10	peaceful; well in health
+ᏙᎯᏧ	to¹hi⁴ju	J10	it is well, isn't it? (how are you?)
+ᏙᎯᏊ	to¹hi⁴gwu	J10	it is just well (I'm fine)
+ᏛᎬᎪᎯ	dv²gv²go²hi	J10	I will see you (one) again
+ᏛᏍᎩᎪᎯ	dv²sgi²go²hi	J10	you (one) will see me again
+ᏛᏍᏛᎪᎯ	dv²sdv²go²hi	J10	I will see you two again
+ᏛᏍᎩᏂᎪᎯ	dv²sgị²ni²go²hi	J10	you (one) will see us two again
+ᏛᎢᏨᎪᎯ	dv²ɂi¹jv²go²hi	J10	I will see you all again
+ᏛᎢᏍᎩᎪᎯ	dv²ɂi¹sgi²go²hi	J10	you (one) will see us all again
+ᏙᎾᏓᎪᎲᎢ	dọ²nạ²da²go²hv²ɂi	J10	later, let us two see each other
+ᏙᏓᏓᎪᎲᎢ	dọ²dạ²da²go²hv²ɂi	J10	later, let us all see each other
+ᎠᎨᏳᏣ	ạ²ge²hyu⁴ja	J11	a girl
+ᎠᏂᎨᏳᏣ	ạ²ni²ge²hyu⁴ja	J11	girls
+ᎠᏧᏣ	ạ²chu⁴ja	J11	a boy
+ᎠᏂᏧᏣ	ạ²ni²chu⁴ja	J11	boys
+ᎦᏙ ᎠᏛᏁᎭ	gạ²do² a¹dv³nẹ²ha	J11	what is he doing
+ᎠᏛᏁᎭ	a¹dv³nẹ²ha	J11	(word in «ᎦᏙ ᎠᏛᏁᎭ» what is he doing)
+ᎦᏙ ᎠᎾᏛᏁᎭ	gạ²do² a¹na²dv³nẹ²ha	J11	what are they doing
+ᎠᎾᏛᏁᎭ	a¹na²dv³nẹ²ha	J11	(word in «ᎦᏙ ᎠᎾᏛᏁᎭ» what are they doing)
+ᏌᎶᎵ	sạ²lo²³li	J11	a squirrel / squirrels
+ᏌᏛᏗ	sạ²dv³di	J11	a trap
+ᏗᏌᏛᏗ	di²sạ²dv³di	J11	traps
+ᏐᏈᎵ	so²³gwị³li	J11	a horse; horses
+ᏡᎬᎢ	hlgv⁴ɂi	J11	a tree
+ᏕᏡᎬᎢ	de²³hlgv⁴ɂi	J11	trees
+ᏲᎾ	yo²³na	J11	a bear; bears
+ᏃᏘ	not²	J11	naught, zero
+ᎧᏂᎩᏓ	ka²nị²³gị³²da	J11	none, nothing
+ᏣᏁᎳ	chạ²ne²³la	J11	eight
+ᏧᏁᎳ	chụ²ne²³la	J11	eight
+ᏐᏁᎳ	sọ³hne²³la	J11	nine
+ᏍᎪᎯ	sgo²³hi	J11	ten
+ᏌᏚ	sa²ɂdu	J11	eleven
+ᏔᎵᏚ	tạ²ɂldu	J11	twelve
+ᏦᎦᏚ	jọ²ɂga²ɂdu	J11	thirteen
+ᏂᎦᏚ	nị²ga²ɂdu	J11	fourteen
+ᏍᎩᎦᏚ	sgị²ga²ɂdu	J11	fifteen
+ᏓᎳᏚ	da²la²du	J11	sixteen
+ᎦᎵᏆᏚ	gahl²gwa²³du	J11	seventeen
+ᏁᎳᏚ	ne²³la²du	J11	eighteen
+ᏐᏁᎳᏚ	soh³nẹ²³la²du	J11	nineteen
+ᏔᎵᏍᎪᎯ	tạ³ɂlsgo²³hi	J11	twenty
+ᏦᏍᎪᎯ	jọ²ɂsgo²³hi	J11	thirty
+ᏅᎩᏍᎪᎯ	nvk²sgo²³hi	J11	forty
+ᎯᎩᏍᎪᎯ	hik²sgo²³hi	J11	fifty
+ᏑᏓᎵᏍᎪᎯ	su²³dal³sgo²³hi	J11	sixty
+ᎦᎵᏆᏍᎪᎯ	gahl²gwa²³sgo²³hi	J11	seventy
+ᏁᎳᏍᎪᎯ	nel³sgo²³hi	J11	eighty
+ᏐᏁᎳᏍᎪᎯ	sọ³hnel³sgo²³hi	J11	ninety
+ᏍᎪᎯᏥᏆ	sgo²³hị³tsgwa	J11	one hundred
+ᏓᏆᏙᎠ	da¹gwạ²do³a	J12	... is what I am called
+ᏕᏣᏙᎠ	de²³jạ³do³ɂa	J12	... is what you are called (one; also you all)
+ᏚᏙᎠ	du¹do³ɂa	J12	... is what he is called
+ᏚᎾᏙᎠ	du¹nạ²do³ɂa	J12	...is what they are called
+ᎢᎮᏙᎸᎢ	ị³he²³do³²lv²ɂi	J12	you come around again
+ᎠᏃᏍᏓ	a¹no⁴sda	J12	good (them)
+ᎤᏂᏲᎢ	u²nị²yo⁴ɂi	J12	bad (them)
+ᎩᎵᏏ	gị²li²si	J12	English
+ᏴᏫ	yv²wi	J12	a person; people
+ᎠᎩᎵᏏ	ạ²gị²li²si	J12	an English person
+ᎠᏂᎩᎵᏏ	ạ²ni²gị²li²si	J12	English people
+ᎠᏣᎳᎩ	ạ²jạ²lạ²gi	J12	a Cherokee person
+ᎠᏂᏣᎳᎩ	ạ²ni²jạ²lạ²gi	J12	Cherokee people
+ᎠᏲᏁᎦ	ạ²yo³ne²ga	J12	an English (white) person
+ᎠᏂᏲᏁᎦ	ạ²ni²yo³ne²ga	J12	English (white) people
+ᎠᏴᏫ	ạ²yv²wi	J12	a person
+ᎠᏂᏴᏫ	ạ²ni²yv²wi	J12	people
+ᎠᏴᏫᏯᎢ	ạ²yv²wi²ya⁴ɂi	J12	a Native American
+ᎠᏂᏴᏫᏯᎢ	ạ²ni²yv²wi²ya⁴ɂi	J12	Native Americans
+ᎠᎵᏌᏇᏘ	a²li³sa²gwe²ti	J12	Elizabeth
+ᎵᏂᏓ	li³nị²da	J12	Linda
+ᎹᎦᎵ	ma²ga³li	J12	Michael
+ᎹᎦᏰᏘ	ma³gạ²ye²tị	J12	Margaret
+ᎺᎵ	me³li	J12	Mary
+ᏆᏆᎠ	gwa²gwạ²ɂa	J12	Barbara
+ᏑᏌᏃ	su³sạ²no	J12	Susan
+ᏙᎹᏏ	to³mạ²si	J12	Thomas
+ᏕᏫᏗ	de³wị²di	J12	David
+ᏣᎵ	cha³li	J12	Charles
+ᏣᏂ	ja³ni	J12	John
+ᎡᏂᏙᏂ	en³to²ni	J12	Anthony
+Ꮟ	si	J13	wait; still; even now
+ᏝᏏ	hlạ³si	J13	not still; no longer
+ᎥᏝᏏ	vhlạ³si	J13	not still; no longer
+ᎪᎱᏍᏗ	go²hu⁴sdi	J13	something; a thing; (after Ꮭ: nothing)
+ᎪᏍᏗ	go⁴sdi	J13	something; a thing
+ᎢᏤᎢ	ị¹je⁴ɂi	J14	green (fruit/vegetable)
+ᎢᏤᎢᏳᏍᏗ	ị²je³ɂị²yu⁴sdi	J14	green colored
+ᎤᏁᎦ	u²ne⁴ga	J14	white
+ᎤᏍᎪᎸᎢ	u¹sgo²³lv⁴ɂi	J14	dim, faded
+ᎤᏬᏗᎨᎢ	ụ²wo²³dị³ge⁴ɂi	J14	brown
+ᎩᎦᎨᎢ	gi²³gạ³ge⁴ɂi	J14	red
+ᎩᎨᎢ	gi²³ge⁴ɂi	J14	red
+ᎬᎿᎨᎢ	gv²³hnạ³ge⁴ɂi	J14	black
+ᎬᏂᎨᎢ	gv²³nị³ge⁴ɂi	J14	black
+ᏌᎪᏂᎨᎢ	sạ²ko²³nị³ge⁴ɂi	J14	blue
+ᏓᎭᎵᎨᎢ	dạ²ha²lị²ge⁴ɂi	J14	purple
+ᏓᎶᏂᎨᎢ	dạ²lo²³nị³ge⁴ɂi	J14	yellow
+ᎠᎩᎦᎨᎢ	ạ²gi²³gạ³ge⁴ɂi	J14	red (single animate)
+ᎩᎦᎨ ᎤᏍᎪᎸᎢ	gi²³gạ³ge u¹sgo²³lv⁴ɂi	J14	pink
+ᎩᎦᎨ	gi²³gạ³ge	J14	(word in «ᎩᎦᎨ ᎤᏍᎪᎸᎢ» pink)
+ᏓᎶᏂᎨ ᎤᏍᎪᎸᎢ	dạ²lo²³nị³ge u¹sgo²³lv⁴ɂi	J14	orange
+ᏓᎶᏂᎨ	dạ²lo²³nị³ge	J14	(word in «ᏓᎶᏂᎨ ᎤᏍᎪᎸᎢ» orange)
+ᏧᏁᎦ	ju²ne⁴ga	J15	white (inanimate plural)
+ᏗᎩᎦᎨᎢ	dị²gi²³gạ³ge⁴ɂi	J15	red (inanimate plural)
+ᏗᏌᎪᏂᎨᎢ	dị²sạ²ko²³nị³ge⁴ɂi	J15	blue (inanimate plural)
+ᏗᎬᎿᎨᎢ	dị²gv²³hnạ³ge⁴ɂi	J15	black (inanimate plural)
+ᏗᏓᎶᏂᎨᎢ	dị²dạ²lo²³nị³ge⁴ɂi	J15	yellow (inanimate plural)
+ᎤᎭ	u²³ha	J17	He has it (solid)
+ᎤᏂᎭ	u¹ni²³ha	J17	They have it (solid)
+ᎠᎩᎭ	a¹gị²ha	J17	I have it (solid)
+ᏣᎭ	jạ²ha	J17	You have it (solid)
+ᎤᏩᎧᎭ	u¹wa²kạ³ha	J17	He has it (alive)
+ᎤᏂᎧᎭ	u¹ni²kạ³ha	J17	They have it (alive)
+ᎠᎩᎧᎭ	a¹gị²kạ³ha	J17	I have it (alive)
+ᏣᎧᎭ	jạ²kạ³ha	J17	You have it (alive)
+ᎠᎩᎪᏩᏘᎭ	ạ²gị²gowh²tị³ha	J18	He sees me
+ᏯᎩᎪᏩᏘᎭ	yạ²gị²gowh²tị³ha	J18	(after Ꮭ: He doesn't see me)
+ᏣᎪᏩᏘᎭ	jạ²gowh²tị³ha	J18	He sees you
+ᏱᏣᎪᏩᏘᎭ	yị²jạ²gowh²tị³ha	J18	(after Ꮭ: He doesn't see you)
+ᏳᎭ	yu²³ha	J18	(after Ꮭ: He doesn't have it (solid))
+ᏳᏂᎭ	yu¹ni²³ha	J18	(after Ꮭ: They don't have it (solid))
+ᏯᎩᎭ	ya¹gị²ha	J18	(after Ꮭ: I don't have it (solid))
+ᏱᏣᎭ	yị²jạ²ha	J18	(after Ꮭ: You don't have it (solid))
+ᏳᏩᎧᎭ	yu¹wa²kạ³ha	J18	(after Ꮭ: He doesn't have it (alive))
+ᏳᏂᎧᎭ	yu¹ni²kạ³ha	J18	(after Ꮭ: They don't have it (alive))
+ᏯᎩᎧᎭ	ya¹gị²kạ³ha	J18	(after Ꮭ: I don't have it (alive))
+ᏱᏣᎧᎭ	yị²jạ²kạ³ha	J18	(after Ꮭ: You don't have it (alive))
+ᎬᎩᎪᏩᏘᎭ	gv²gị²gowh²tị³ha	J19	They see me
+ᏱᎬᎩᎪᏩᏘᎭ	yị²gv²gị²gowh²tị³ha	J19	(after Ꮭ: They don't see me)
+ᎨᏣᎪᏩᏘᎭ	ge²jạ²gowh²tị³ha	J19	They see you
+ᏱᎨᏣᎪᏩᏘᎭ	yị²ge²jạ²gowh²tị³ha	J19	(after Ꮭ: They don't see you)
+ᏚᎭ	du²³ha	J19	He has them (solid)
+ᏚᏂᎭ	du¹ni²³ha	J19	They have them (solid)
+ᏓᎩᎭ	da¹gị²ha	J19	I have them (solid)
+ᏕᏣᎭ	de²jạ²ha	J19	You have them (solid)
+ᏚᏩᎧᎭ	du¹wa²kạ³ha	J19	He has them (alive)
+ᏚᏂᎧᎭ	du¹ni²kạ³ha	J19	They have them (alive)
+ᏓᎩᎧᎭ	da¹gị²kạ³ha	J19	I have them (alive)
+ᏕᏣᎧᎭ	de²jạ²kạ³ha	J19	You have them (alive)
+ᏱᏚᎭ	yị²du²³ha	J19	(after Ꮭ: He doesn't have them (solid))
+ᏱᏓᎩᎭ	yị²da²gị²ha	J19	(after Ꮭ: I don't have them (solid))
+ᏱᏗᏣᎭ	yị²di²jạ²ha	J19	(after Ꮭ: You don't have them (solid))
+ᎢᎩ	i⁴gi	J20	Is (now / just now was)
+ᎨᏐᎢ	ge¹so³ɂi	J20	Is (usually)
+ᎨᏒᎢ	ge¹sv²³ɂi	J20	Being
+ᎨᏒᎩ	ge¹sv²³gi	J20	Was being (personal knowledge)
+ᎨᏎᎢ	ge¹se³ɂi	J20	Was being (second-hand)
+ᎨᎲᎩ	ge¹hv²³gi	J20	Was (a while ago, personal knowledge)
+ᎨᏎᏍᏗ	ge¹se³sdi	J20	Will be being
+ᏱᎩ	yi⁴gi	J20	(after Ꮭ: Isn't)
+ᏱᎦ	yi⁴ga	J20	(after Ꮭ: Isn't)
+ᏱᎨᏒᎢ	yi²ge¹sv²³ɂi	J20	(after Ꮭ: Not being)
+ᏥᏯᏚᎵᎭ	ji²ya²du²lị³ha	J21	I want him
+ᎠᏆᏚᎵᎭ	a¹gwạ²du²lị³ha	J21	I want it / He wants me
+ᎦᏥᏯᏚᎵᎭ	ga²ji²ya²du²lị³ha	J21	I want them (animate)
+ᏓᏆᏚᎵᎭ	da¹gwạ²du²lị³ha	J21	I want them (inanimate)
+ᎬᏆᏚᎵᎭ	gv¹gwạ²du²lị³ha	J21	They want me
+ᎤᏚᎵᎭ	u¹du²lị³ha	J21	He wants him, it
+ᏚᏚᎵᎭ	du¹du²lị³ha	J21	He wants them
+ᎯᏯᏚᎵᎭ	hi²ya²du²lị³ha	J21	You want him
+ᏣᏚᎵᎭ	jạ²du²lị³ha	J21	You want it / He wants you
+ᏕᏣᏚᎵᎭ	de²jạ²du²lị³ha	J21	You want them (inanimate)
+ᎨᏣᏚᎵᎭ	ge²jạ²du²lị³ha	J21	They want you
+ᎤᎾᏚᎵᎭ	u¹na²du²lị³ha	J21	They want him, it
+ᏚᎾᏚᎵᎭ	du¹na²du²lị³ha	J21	They want them
+ᎠᏎᏃ	a²se³hno	J21	But
+ᎠᏎᏅ	a²se³hnv	J21	But
+ᎦᎪ	ga³go²	J21	Who?
+ᎦᏍᎩᎶ	ga²sgị²lo	J21	A table or a chair
+ᏗᎦᏍᎩᎶ	dị²ga²sgị²lo	J21	Tables; chairs
+Ꭷ	ka	J22	Hey now!
+ᏄᎳ	nu⁴la	J22	Hurry
+ᎦᏍᎩᎸᎢ	ga²sgị²lv⁴ɂi	J22	On a chair or table
+ᏂᎦᏓ	nị²ga⁴da	J22	All; everyone
+ᏂᎦᏛ	nị²ga⁴dv	J22	All; everyone
+ᎤᎵᏑᏫᏓ	ul²su²³hwị²da	J22	Color
+ᎥᏍᎩ	v¹sgị	J8	alternate of ᎥᏍᎩᎾ (he/she/they, out of reach)
+ᏍᎩᎾ	sgị²na	J8	alternate of ᎥᏍᎩᎾ (he/she/they, out of reach)
+ᎾᏍᎩ	na¹sgi	J8	alternate of ᎥᏍᎩᎾ (he/she/they, out of reach)
+ᏙᎩᎾᏙᎠ	do¹gi²nạ²do³a	J12	...is what we two are called
+ᏙᎦᏙᎠ	do¹gạ²do³a	J12	...is what we all are called
+ᏕᏍᏓᏙᎠ	de²³sdạ³do³ɂa	J12	...is what you two are called
+ᎢᏍᏕᏙᎸᎢ	ị³sde²³do³²lv²ɂi	J12	you two come around again
+ᎢᎢᏤᏙᎸᎢ	ị³ɂi¹je²³do³²lv²ɂi	J12	you all come around again
+ᎠᎬᎿᎨᎢ	ạ²gv²³hnạ³ge⁴ɂi	J14	black (single animate)
+ᎠᎬᏂᎨᎢ	ạ²gv²³nị³ge⁴ɂi	J14	black (single animate)
+ᎠᏌᎪᏂᎨᎢ	ạ²sạ²ko²³nị³ge⁴ɂi	J14	blue (single animate)
+ᎠᏓᎭᎵᎨᎢ	ạ²dạ²ha²lị²ge⁴ɂi	J14	purple (single animate)
+ᎠᏓᎶᏂᎨᎢ	ạ²dạ²lo²³nị³ge⁴ɂi	J14	yellow (single animate)
+ᎬᎿᎨ ᎤᏍᎪᎸᎢ	gv²³hnạ³ge u¹sgo²³lv⁴ɂi	J14	grey (black-faded)
+ᎬᎿᎨ	gv²³hnạ³ge	J14	(word in «ᎬᎿᎨ ᎤᏍᎪᎸᎢ» grey (black-faded))
+ᎠᏂᏤᎢ	ạ²ni²je⁴ɂi	J15	green (animate plural)
+ᎠᏂᏤᎢᏳᏍᏗ	ạ²ni²je³ɂị²yu⁴sdi	J15	green colored (animate plural)
+ᎠᏂᎩᎦᎨᎢ	ạ²ni²gi²³gạ³ge⁴ɂi	J15	red (animate plural)
+ᎠᏂᏓᎭᎵᎨᎢ	ạ²ni²dạ²ha²lị²ge⁴ɂi	J15	purple (animate plural)
+ᎠᏂᎬᎿᎨᎢ	ạ²ni²gv²³hnạ³ge⁴ɂi	J15	black (animate plural)
+ᎠᏂᏌᎪᏂᎨᎢ	ạ²ni²sạ²ko²³nị³ge⁴ɂi	J15	blue (animate plural)
+ᎠᏂᏓᎶᏂᎨᎢ	ạ²ni²dạ²lo²³nị³ge⁴ɂi	J15	yellow (animate plural)
+ᎤᏂᏁᎦ	u²ni²ne⁴ga	J15	white (animate plural)
+ᎤᏂᏍᎪᎸᎢ	u¹nị²sgo²³lv⁴ɂi	J15	dim (animate plural)
+ᏧᏃᏗᎨᎢ	ju²no²³dị³ge⁴ɂi	J15	brown (animate plural)
+ᏗᏤᎢ	dị²je⁴ɂi	J15	green (inanimate plural)
+ᏗᏤᎢᏳᏍᏗ	dị²je³ɂị²yu⁴sdi	J15	green colored (inanimate plural)
+ᏧᏍᎪᎸᎢ	ju²sgo²³lv⁴ɂi	J15	dim (inanimate plural)
+ᏧᏬᏗᎨᎢ	jụ²wo²³dị³ge⁴ɂi	J15	brown (inanimate plural)
+ᏗᏓᎭᎵᎨᎢ	dị²dạ²ha²lị²ge⁴ɂi	J15	purple (inanimate plural)
+ᏱᏚᏂᎭ	yị²du¹ni²³ha	J19	(after Ꮭ: They don't have them (solid))
+ᏱᏚᏩᎧᎭ	yị²du¹wa²kạ³ha	J19	(after Ꮭ: He doesn't have them (alive))
+ᏱᏚᏂᎧᎭ	yị²du¹ni²kạ³ha	J19	(after Ꮭ: They don't have them (alive))
+ᏱᏓᎩᎧᎭ	yị²da²gị²kạ³ha	J19	(after Ꮭ: I don't have them (alive))
+ᏱᏗᏣᎧᎭ	yị²di²jạ²kạ³ha	J19	(after Ꮭ: You don't have them (alive))
+ᎨᎲᎢ	ge¹hv²³ɂi	J20	Been (a while ago)
+ᎨᎮᎢ	ge¹he³ɂi	J20	Was (a while ago, second-hand)
+ᏱᎨᏐᎢ	yi²ge¹so³ɂi	J20	(after Ꮭ: Isn't usually)
+ᏱᎨᏎᎢ	yi²ge¹se³ɂi	J20	(after Ꮭ: Wasn't being (second-hand))
+ᏱᎨᎲᎢ	yi²ge¹hv²³ɂi	J20	(after Ꮭ: Had not been (a while ago))
+ᏱᎨᎮᎢ	yi²ge¹he³ɂi	J20	(after Ꮭ: Wasn't (a while ago, second-hand))
+ᏱᎨᏎᏍᏗ	yi²ge¹se³sdi	J20	(after Ꮭ: Will not be being)
+ᎦᎯᏯᏚᎵᎭ	ga²hi²ya²du²lị³ha	J21	You want them (animate)
+ᎤᎾᎵᏑᏫᏓ	u²nal²su²³hwị²da	J22	Color (them, animate)
+ᏧᎵᏑᏫᏓ	jul²su²³hwị²da	J22	Color (them, inanimate)
+# Left out: ᏌᎪᏂᎨ ᎤᏍᎪᎸᎢ "grey (blue-faded)" (J14): the printed string sạ²ko²³nị³ge⁴ɂi does not match the spelling ᏌᎪᏂᎨ (table check)
+# --- DAILP greetings article (romanisation as printed there)
+ᎣᏏᏧ	ositsu	DG	how are you? (is it good?)
+ᏗᏣᎳᎩ	ditsalagi	DG	the syllabary
+# --- suffixes (derived readings, see SUF)
+-Ꮝ	s	SUF	yes/no question ending (ᎰᏩᏍ? "Is it okay?", J9); reading from Ꮝ in ᏍᎪᎯ sgo²³hi (J11)
+-ᏍᎪ	sgo	SUF	yes/no question ending (ᎦᏥᎪᏩᏘᎭᏍᎪ? "Do I see them?", J8); reading from ᏍᎪ in ᏍᎪᎯ sgo²³hi (J11)
+-Ꮚ	gwu	SUF	"only, just" (ᎩᏟᏊ "only the dogs", J8); reading from ᏙᎯᏊ to¹hi⁴gwu beside ᏙᎯ to¹hi⁴ (J10)
+-Ꮷ	tsu	SUF	"..., right?" (ᎠᏂᎨᏯᏧ "the women ..., right?", J8); reading from ᏙᎯᏧ to¹hi⁴ju beside ᏙᎯ to¹hi⁴ (J10)

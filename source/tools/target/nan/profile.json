@@ -1,0 +1,310 @@
+{
+ "target": "nan",
+ "nameEn": "Taiwanese Hokkien (Taigi)",
+ "self": "台語",
+ "ttsLang": "nan-TW",
+ "brand": "台語",
+ "accents": true,
+ "keys": "",
+ "greet": [
+  [
+   "早睏",
+   "Get some sleep (good night)"
+  ],
+  [
+   "𠢕早",
+   "Good morning"
+  ],
+  [
+   "你好",
+   "Hello"
+  ],
+  [
+   "你食飽未？",
+   "Have you eaten? (a friendly hello)"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?:--)?(?:[A-Za-zÀ-ÿĀ-žǸǹḾḿ](?:[\\u0300\\u0301\\u0302\\u0304\\u030d])?)+(?:(?:-|--)(?:[A-Za-zÀ-ÿĀ-žǸǹḾḿ](?:[\\u0300\\u0301\\u0302\\u0304\\u030d])?)+)*[,.?!:;]?(?: (?:--)?(?:[A-Za-zÀ-ÿĀ-žǸǹḾḿ](?:[\\u0300\\u0301\\u0302\\u0304\\u030d])?)+(?:(?:-|--)(?:[A-Za-zÀ-ÿĀ-žǸǹḾḿ](?:[\\u0300\\u0301\\u0302\\u0304\\u030d])?)+)*[,.?!:;]?)*$",
+ "targetScript": "[㐀-鿿豈-﫿\\u{20000}-\\u{2ffff}]",
+ "standingRule": {
+  "keywords": "\\btones? [1-8]\\b|\\btone (?:marks?|numbers?|pairs?)\\b|\\b(?:tone )?sandhi\\b|\\bneutral tone\\b|\\bclassifiers?\\b|\\bbefore the (?:verb|noun)\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "initials",
+   "title": "Tâi-lô consonants: p and ph, ts and tsh, and the voiced b, g, j",
+   "roadmap": "nan-initials",
+   "deck": "Tâi-lô sounds"
+  },
+  {
+   "id": "finals",
+   "title": "Vowels and endings: o and oo, nasal nn, and the stops -p -t -k -h",
+   "roadmap": "nan-finals",
+   "deck": "Tâi-lô sounds"
+  },
+  {
+   "id": "tones",
+   "title": "The seven tones and their marks",
+   "roadmap": "nan-tones",
+   "deck": "Seven tones"
+  },
+  {
+   "id": "sandhi",
+   "title": "Tone sandhi 1: every syllable but the last changes",
+   "roadmap": "nan-sandhi",
+   "deck": "Tone sandhi in action"
+  },
+  {
+   "id": "sandhi-2",
+   "title": "Tone sandhi 2: checked syllables, 仔, and the neutral tone after --",
+   "roadmap": "nan-sandhi-2",
+   "deck": "Tone sandhi in action"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings: 𠢕早, 食飽未？, 多謝, 歹勢, 再會",
+   "roadmap": "nan-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "characters",
+   "title": "Reading Taigi characters: 毋, 佇, 遮, 欲, 予",
+   "roadmap": "nan-characters",
+   "deck": "Taigi characters"
+  },
+  {
+   "id": "classroom",
+   "title": "Classroom phrases: 請閣講一擺, 慢慢仔講",
+   "roadmap": "nan-classroom",
+   "deck": "In class"
+  },
+  {
+   "id": "si",
+   "title": "是 and 毋是; 我, 你, 伊, and two words for we: 阮 and 咱",
+   "roadmap": "nan-si",
+   "deck": "People and family"
+  },
+  {
+   "id": "intro",
+   "title": "Introducing yourself: 你號做啥物名？ 我是學生",
+   "roadmap": "nan-intro",
+   "deck": "About me"
+  },
+  {
+   "id": "questions",
+   "title": "Question words: 啥物, 啥人, 佗位, 當時, 按怎",
+   "roadmap": "nan-questions",
+   "deck": "Questions and particles"
+  },
+  {
+   "id": "numbers",
+   "title": "Two sets of numbers: counting, and reading digits",
+   "roadmap": "nan-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "family",
+   "title": "Family: 阿爸, 阿母, 阿公, 阿媽, 阿兄",
+   "roadmap": "nan-family",
+   "deck": "People and family"
+  },
+  {
+   "id": "u-bo",
+   "title": "有 and 無: have, there is, and questions with 無 and 敢",
+   "roadmap": "nan-u-bo",
+   "deck": "Questions and particles"
+  },
+  {
+   "id": "classifiers",
+   "title": "Classifiers: 一个人, 兩本冊, 三碗飯; 這 and 彼",
+   "roadmap": "nan-classifiers",
+   "deck": "Classifiers"
+  },
+  {
+   "id": "prices",
+   "title": "Money and prices: 偌濟錢？, 箍, 傷貴",
+   "roadmap": "nan-prices",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "want",
+   "title": "Want and need: 欲, 愛, 想欲",
+   "roadmap": "nan-want",
+   "deck": "Night market food"
+  },
+  {
+   "id": "place",
+   "title": "Where things are: 佇, 遮 and 遐, 頂懸, 下跤",
+   "roadmap": "nan-place",
+   "deck": "Places and directions"
+  },
+  {
+   "id": "directions",
+   "title": "Directions: 正手, 倒手, 直直行, 斡",
+   "roadmap": "nan-directions",
+   "deck": "Places and directions"
+  },
+  {
+   "id": "go-come",
+   "title": "Going and coming: 去, 來, 坐車, 捷運",
+   "roadmap": "nan-go-come",
+   "deck": "Getting around"
+  },
+  {
+   "id": "time",
+   "title": "Time and days: 幾點？, 今仔日, 禮拜日",
+   "roadmap": "nan-time",
+   "deck": "Time and days"
+  },
+  {
+   "id": "food",
+   "title": "At the night market: 頭家, 一碗麵, 好食",
+   "roadmap": "nan-food",
+   "deck": "Night market food"
+  },
+  {
+   "id": "market",
+   "title": "At the market: 菜, 肉, 卵, 魚, and asking how much",
+   "roadmap": "nan-market",
+   "deck": "At the market"
+  },
+  {
+   "id": "describing",
+   "title": "Describing and comparing: 真, 誠, 足; 比…較, 上",
+   "roadmap": "nan-describing",
+   "deck": "Describing and comparing"
+  },
+  {
+   "id": "can",
+   "title": "Can and may: 會 and 袂, 會使, 會曉",
+   "roadmap": "nan-can",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "negation",
+   "title": "Four words for not: 毋, 無, 袂, 莫",
+   "roadmap": "nan-negation",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "aspect",
+   "title": "Actions in time: 咧 (in progress), 矣 (done), 有…過 (ever)",
+   "roadmap": "nan-aspect",
+   "deck": "Describing and comparing"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Tâi-lô sounds",
+   "group": "Sounds and script",
+   "desc": "One word for each Tâi-lô letter or ending that misleads English readers: ph, th, kh, tsh, b, g, j, oo, nn, and the stops -p -t -k -h."
+  },
+  {
+   "name": "Seven tones",
+   "group": "Sounds and script",
+   "desc": "The tone mnemonic 獅虎豹鱉猴狗象鹿 (sai hóo pà pih kâu káu tshiūnn lo̍k): one animal per tone, with its mark."
+  },
+  {
+   "name": "Tone sandhi in action",
+   "group": "Sounds and script",
+   "desc": "Two-syllable words whose first syllable is said in its sandhi tone, while the last keeps the tone you see."
+  },
+  {
+   "name": "Taigi characters",
+   "group": "Sounds and script",
+   "desc": "Characters that Taiwanese writes and Mandarin does not use this way: 毋, 佇, 欲, 予, 媠, 囝, 厝, 睏, 啉."
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "Good morning, have you eaten?, thank you, sorry and goodbye."
+  },
+  {
+   "name": "People and family",
+   "group": "First steps",
+   "desc": "Pronouns (我, 你, 伊, 阮, 咱, 恁, 𪜶) and the family words a grandchild needs."
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, surname, being a student, where you live."
+  },
+  {
+   "name": "In class",
+   "group": "First steps",
+   "desc": "Asking the teacher to repeat, to slow down, and saying you don't know."
+  },
+  {
+   "name": "Numbers and money",
+   "group": "Everyday words",
+   "desc": "Counting numbers, the literary numbers for digits, and prices in 箍."
+  },
+  {
+   "name": "Classifiers",
+   "group": "Everyday words",
+   "desc": "Number or this / that + classifier + noun: 个, 本, 隻, 碗, 杯, 擺."
+  },
+  {
+   "name": "Night market food",
+   "group": "Everyday words",
+   "desc": "The night market, its stalls and its food."
+  },
+  {
+   "name": "At the market",
+   "group": "Everyday words",
+   "desc": "The traditional market: vegetables, meat, eggs, fish and fruit, and haggling over price."
+  },
+  {
+   "name": "Time and days",
+   "group": "Everyday words",
+   "desc": "Today, tomorrow, yesterday, parts of the day, the week and the clock."
+  },
+  {
+   "name": "Places and directions",
+   "group": "Out and about",
+   "desc": "In front, behind, above, below, left, right, and turning."
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "MRT, trains, taxis, walking, getting on."
+  },
+  {
+   "name": "Questions and particles",
+   "group": "Conversation",
+   "desc": "Question words and the yes/no questions with 無, 未, 敢 and 是毋是."
+  },
+  {
+   "name": "Describing and comparing",
+   "group": "Conversation",
+   "desc": "Very, too, more, most; and actions in progress or done."
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "No \"to be\" with adjectives, the four negatives, 會 and 袂, sound-alikes and false friends."
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Explorer",
+  "Traveler",
+  "Neighbor",
+  "Local",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersScript": "[㐀-鿿豈-﫿]",
+ "pronAnswersKeepSpaces": true,
+ "romaAlmost": true,
+ "voiceMatch": "^nan(-|_|$)",
+ "orderPronOK": true,
+ "pronAnswersWarn": true,
+ "noAudio": true
+}

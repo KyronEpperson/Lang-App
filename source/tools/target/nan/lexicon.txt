@@ -408,3 +408,106 @@
 早睏	tsá-khùn	t:早
 明仔早起	bîn-á-tsá-khí	t:早
 以前	í-tsîng	t:早
+# s:13473 𠢕早 'good morning' ex: 阿伯𠢕早。 A-peh gâu-tsá. / 你今仔日哪會遐𠢕早？ Lí kin-á-ji̍t ná ē hiah gâu-tsá?
+哪會	ná ē	h207
+# s:2530 早睏 'go to bed early'
+# s:13522 𨑨迌 ex: 你明仔載欲佮阮去𨑨迌無？ Lí bîn-á-tsài beh kah guán khì tshit-thô--bô?
+𨑨迌	tshit-thô	s:13522
+# s:13567 𪜶 in 'they; their' ex: 𪜶兩个感情真好。 In nn̄g ê kám-tsîng tsin hó. / 𪜶某真媠。 In bóo tsin suí.
+𪜶	in	s:13567
+感情	kám-tsîng	s:13567
+某	bóo	s:13567
+# --- places. tai5 = https://sutian.moe.edu.tw/zh-hant/siannuntiau/tiau/5/ai/tai5/臺/ (character index for 臺 tâi; words containing it)
+臺	tâi	tai5
+臺北	Tâi-pak	tai5
+臺南	Tâi-lâm	tai5
+臺灣	Tâi-uân	tai5
+臺中	Tâi-tiong	tai5
+臺鐵	Tâi-thih	tai5
+高鐵	Ko-thih	tai5
+大學	tāi-ha̍k	tai5
+臺北市	Tâi-pak-tshī	s:20879
+# --- language names. wkTG = https://www.wikiwand.com/en/dictionary/臺語 (Wiktionary: General Taiwanese Tâi-gí; Taipei Tâi-gú); 台 tâi = t:台
+臺語	Tâi-gí	wkTG
+台語	Tâi-gí	wkTG
+台	tâi	t:台
+# s美國 = /zh-hant/tshiau/?lui=tai_su&tsha=美國塗豆 (headword 美國塗豆 Bí-kok-thôo-tāu: 美國 = Bí-kok)
+美國	Bí-kok	t:美國塗豆
+# t:lâng p2 = /und-hani/tshiau/?lui=tai_su&tsha=lâng&iahbe=2&pitsoo=50
+咱人	lán-lâng	t:lâng
+別人	pa̍t-lâng	t:lâng
+老人	lāu-lâng	t:lâng
+病人	pēnn-lâng	t:lâng
+# --- describing. s:188 大 tuā (白; tāi 文) ex: 阮大兄大我三歲。 Guán tuā-hiann tuā guá sann huè. / 大人 tuā-lâng
+大	tuā	s:188
+大兄	tuā-hiann	s:188
+大人	tuā-lâng	s:188
+# s:7720 細 sè ex: 細粒柑仔 sè lia̍p kam-á / 講話較細聲咧。 Kóng-uē khah sè-siann--leh.
+細	sè	s:7720
+細聲	sè-siann	s:7720
+# s:11204 熱 jua̍h ex: 今仔日真熱。 Kin-á-ji̍t tsin jua̍h.
+熱	jua̍h	s:11204
+# s:8287 寒 kuânn ex: 寒甲欲死。 Kuânn kah beh-sí. / 氣象報告講明仔載會比今仔日較寒。 Khì-siōng pò-kò kóng bîn-á-tsài ē pí kin-á-ji̍t khah kuânn.
+寒	kuânn	s:8287
+甲	kah	s:8287
+欲死	beh-sí	s:8287
+氣象報告	khì-siōng pò-kò	s:8287
+冷	líng	s:8287
+# t:禮拜 = /zh-hant/tshiau/?lui=tai_su&tsha=禮拜
+禮拜	lé-pài	t:禮拜
+禮拜日	lé-pài-ji̍t	t:禮拜
+拜一	pài-it	t:禮拜
+拜六	pài-la̍k	t:禮拜
+# DERIVED (not headwords): 禮拜 lé-pài + the clipped headwords 拜一 pài-it / 拜六 pài-la̍k. Native check: profile §11.
+禮拜一	lé-pài-it	t:禮拜+derived
+禮拜六	lé-pài-la̍k	t:禮拜+derived
+# t:牛 = /und-hani/tshiau/?lui=tai_su&tsha=牛&iahbe=1&pitsoo=100
+牛	gû	t:牛
+牛肉	gû-bah	t:牛
+牛奶	gû-ling	t:牛
+# s:9626 會曉 ex: 這條歌你會曉唱袂？ Tsit tiâu kua lí ē-hiáu tshiùnn--bē?
+會曉	ē-hiáu	s:9626
+唱	tshiùnn	s:9626
+# s:10149 過 kuè (main). ex: 我有去過 guá ū khì--kuè / 過份 kuè-hūn / 感冒會過人。 Kám-mōo ē kuè--lâng.
+過	kuè	s:10149
+過份	kuè-hūn	s:10149
+# s:164 上 tsiūnn (白, main: climb, board). ex: 上車 tsiūnn-tshia / 上山 tsiūnn-suann
+上	tsiūnn	s:164
+上車	tsiūnn-tshia	s:164
+# s:306 上好 siōng hó ex: 這件代誌你上好是莫管。 Tsit kiānn tāi-tsì lí siōng-hó sī mài kuán. / s:501 上蓋 siōng-kài ex: 上蓋媠 siōng-kài suí
+上好	siōng hó	s:306
+上蓋	siōng-kài	s:501
+代誌	tāi-tsì	s:306
+管	kuán	s:306
+唱歌	tshiùnn-kua	s:306
+# t:飽 = /und-hani/tshiau/?lui=tai_su&tsha=飽 (exact match 飽 pá; 食飽 tsia̍h-pá)
+飽	pá	t:飽
+# s:1006 歹食 ex: 伊煮的物件真歹食。 I tsú ê mi̍h-kiānn tsin pháinn-tsia̍h. Antonym 好食 hó-tsia̍h
+好食	hó-tsia̍h	s:1006
+好看	hó-khuànn	h61
+# bst14 = https://bitesizetaiwanese.com/ep14-what-is-your-phone-number : 你的電話幾號？ Lí ê tiān-uē kuí hō? ; digits read in the literary readings, hyphenated in groups (khòng-kiú, pat-sam-ngóo-ngóo)
+電話	tiān-uē	bst14
+號	hō	bst14
+# --- surnames: s:21888 林 Lîm; s:21827 王 Ông; s:21867 李 Lí; h186 = /zh-hant/huliok/186/?iahbe=2 (百家姓 十一畫: 陳 Tân)
+林	Lîm	s:21888
+王	Ông	s:21827
+李	Lí	s:21867
+陳	Tân	h186
+# s:432 ex: 下晡我欲招阿美仔去𨑨迌。 Ē-poo guá beh tsio A-bí--á khì tshit-thô.
+阿美仔	A-bí--á	s:432
+# s:10139 ex: 伊的糖仔比我較濟。 I ê thn̂g-á pí guá khah tsē.
+糖仔	thn̂g-á	s:10139
+一斤	tsi̍t kin	s:6998
+# single characters seen in the indexes: h100 下(白) ē (下(文) hā); h102 偌 guā
+下	ē	h100
+偌	guā	h102
+# words read off MOE example sentences (source = the entry the sentence is printed in)
+過人	kuè--lâng	s:10149
+上好是	siōng-hó sī	s:306
+拄咧	tú-teh	s:4771
+教師	kàu-su	s:2117
+酸	sng	s:9565
+穿	tshīng	s:9565
+衫	sann	s:9565
+著	tio̍h	s:9565
+格	keh	s:8082

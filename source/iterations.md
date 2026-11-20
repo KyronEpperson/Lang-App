@@ -1165,3 +1165,9 @@ Ship Kannada for English speakers (en-kn) after the cold review.
 
 ### 2.46.0 — results
 27 lessons, 18 decks, 315 cards, 378 practice items; validate PASS; roadmap 27 items linked; e2e OK on nineteen lessons; Kannada matching test passes. Spoken Bengaluru / Mysuru Kannada with one spelling per spoken form (review found the course consistent; one change: "I live in" uses ಇದ್ದೀನಿ). Review fixed four wrong-teaching points. Spoken forms outside the profile table are regular derivations, none confirmed by a source. Not native-checked (REVIEW.md).
+
+## 2.46.1 — prompt
+Courses with no voice must not show speaker buttons (seen on a Taiwanese card: a Listen button that can never play). Add the Taiwanese engine groundwork.
+
+### 2.46.1 — results
+noAudio flag (Cebuano now; Taiwanese when it ships): speaker buttons hidden, speak() does nothing, no "no voice" toast. Screenshot checked. Taiwanese groundwork: nanKey / nanSlip matcher (46 of 46 prototype cases pass in the app), Tâi-lô-only tiles allowed in tone drills (validator), writers' lexicon-add files, and LATaigi, a 1.3 KB fallback font for the two characters most phone fonts lack (U+20895, U+2A736), composed from Noto Sans CJK TC components (tools/fonts/mk_taigi_font.py); without it Chrome showed a missing-glyph box for the whole word. Harness 87 guards.

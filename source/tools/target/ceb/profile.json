@@ -304,5 +304,6 @@
   "Storyteller",
   "Master"
  ],
- "voiceMatch": "^ceb(-|$)"
+ "voiceMatch": "^ceb(-|$)",
+ "noAudio": true
 }

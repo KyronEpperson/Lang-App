@@ -1,0 +1,4 @@
+# EN-NAN-B additions (characters TAB tâi-lô TAB the URL opened). Opened 2026-11-20 through a web tool that returns a summary.
+落車	lo̍h-tshia	https://sutian.moe.edu.tw/zh-hant/su/9910/
+臺北車頭	Tâi-pak Tshia-thâu	https://sutian.moe.edu.tw/zh-hant/su/9910/
+青菜	tshenn-tshài	https://www.wikiwand.com/en/dictionary/%E9%9D%92%E8%8F%9C
