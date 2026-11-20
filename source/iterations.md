@@ -1267,3 +1267,85 @@ Post links and jump added (#feedback-<id>). Test: Link copies an address ending 
 | FB-9 | Copy post; Copy shown | pass |
 | FB-10 | Post links, jump and highlight | pass |
 Not done: none of this was run against the live board data; new strings are English only.
+
+# Loop 2: 20 more enhancements to the Feedback page and the report button (2026-11-20)
+Same constraint: no database change. Checked by tools/tests/fbtest.js (mocked posts) and tools/tests/bugtest.js (the report sheet); harness at checkpoints.
+
+## FB-11 — prompt
+Report sheet keyboard and focus: Escape closes it, focus returns to the 🐞 button, and Tab stays inside the sheet. Check: open, press Escape → sheet gone and the 🐞 button focused; Tab from the last control returns to the first.
+
+### FB-11 — results
+Escape closes the report sheet and focus returns to 🐞; Tab wraps inside the sheet. Test: opened with Enter on the button; Tab from the last control lands on the first; after Escape the sheet is gone and the active element is bugBtn. No errors.
+
+## FB-12 — prompt
+Report sheet: show a character counter (n / 1500) and keep an unsent report as a draft for the page it was started on; reopening the sheet on that page restores text and kind, another page starts empty, and sending clears it. Check: type, close, reopen on the same page → restored with the count; open on another page → empty; send → draft gone.
+
+### FB-12 — results
+Counter and per-page draft added. Test: "14 / 1500" while typing; reopening on Today restores the text, the Content type and the count; on Progress the box is empty; after a send the box, the draft and the counter are cleared (1 report sent). No errors.
+
+## FB-13 — prompt
+Report sheet: one-tap reasons that fit the place (on a card or practice item: wrong translation, wrong pronunciation line, audio, typo, "my answer was marked wrong"; in a lesson: unclear explanation, mistake, typo; elsewhere: something does not work, looks broken, confusing). A tap puts the reason on the first line and sets the type. Check: in Review the card reasons show, tapping "Wrong translation" starts the message with it and selects Content; on Today the general reasons show.
+
+### FB-13 — results
+Reasons by place added. Test: Today shows the three general reasons; Review shows the five card reasons; tapping "Wrong translation" then "Typo" leaves "Typo." as the first line above the typed text (the earlier reason is replaced) and selects Content. No errors, no overflow.
+
+## FB-14 — prompt
+When a report is made right after answering, attach what the learner answered, what was expected and how it was marked (typed and tile answers in practice, the chosen option in review questions), shown in the sheet and on the board. Check: answer a review question wrongly, open the sheet → the line names the chosen and the expected answer and "marked wrong"; the sent tag carries it; a report on a page with no recent answer carries none.
+
+### FB-14 — results
+Last answer attached. Test: after choosing "trời" where "chanh" was right, the sheet shows ✍️ answered “trời” · expected “chanh” · marked wrong; the sent tag carries the same text in ans=; on Progress no answer is attached. It also shows on the board's place line and in copied text. No errors.
+
+## FB-15 — prompt
+Show on the 🐞 button how many open reports already exist for the page being viewed (a small number badge), loading the board quietly a few seconds after the app starts on the website. Check: with two open and one fixed mocked reports for Today, the badge reads 2 on Today and is absent on Progress; it updates when the page changes.
+
+### FB-15 — results
+Badge added (bugBadge), refreshed on page change, after a send and every 4 s while reports are loaded; the board loads quietly 3 s after start on the website. Test: Today shows 2 (two open reports, the fixed one and another course's are not counted) with the label "… (2 open reports here)" after a page change, Progress shows none. The first reading in the test was 1 because the page had not changed since the mock was swapped: the badge is up to 4 s stale by design.
+
+## FB-16 — prompt
+Report sheet: after sending, show a "View it on the board" link that opens the board on the new post, and make each earlier report in the sheet's list open the board on that post. Check: after a send the link points to #feedback-<new id> and following it lands on the board with the post highlighted; tapping a listed report does the same for that post.
+
+### FB-16 — results
+Links added. Test: after a send the status shows "View it on the board" pointing at #feedback-503 (the new post); following it closes the sheet and lands on the board with that post highlighted; tapping a listed report (4 listed) opens the board on post 1, highlighted. No errors.
+
+## FB-17 — prompt
+Privacy check before a public post: if a message looks like it holds an email address or a phone number, hold the send and show a warning with the choice to edit or send anyway (board composer and report sheet). Check: a message with an email is not sent on the first submit and shows the warning, a second submit sends it; a normal message, and one with a lesson number or a price, sends at once.
+
+### FB-17 — first check failed
+Email and plain phone numbers were caught and held, but "+1 (918) 555-0142" was sent from the board composer: the pattern allowed only one separator between digits.
+
+## FB-17b — prompt
+Allow up to two separator characters between digits in the phone pattern, and re-run the same check plus a date and a version number that must not trigger it.
+
+### FB-17b — results
+Privacy check now passes. Test: email and phone-shaped text are detected, "lesson 12 costs 35000 dong", a version number with a date, and plain text are not; a report with an email is held with the warning and goes out on the second submit; a normal report goes at once; "+1 (918) 555-0142" is held in the board composer. No errors.
+
+## FB-18 — prompt
+Outbox: when a report cannot be sent because the device is offline or the request fails (not when the server refuses it), keep it on the device, say so, and send it automatically when the app is next online or opened. Check with a stubbed network: a failed send is stored and the form reports it as saved; a later flush with the network back posts it once and empties the outbox; a server refusal is not queued.
+
+### FB-18 — results
+Outbox added (fbOut / fbFlush; flush on the online event and 6 s after start). Test with a stubbed network: an offline send returns "queued" and stores 1 item; a server refusal returns false and is not stored; with the network back one flush posts "offline report" once, empties the outbox, records the new id as the device's own, and a second flush sends nothing; the sheet shows "Saved on this device." No errors.
+
+## FB-19 — prompt
+Where reports cannot be sent at all (the preview build, or no backend), the report sheet's button becomes "Copy report": it copies the place, course, version, last answer and message as text so it can be pasted to the developer, and says so. Check: with the backend off the button reads "Copy report", pressing it puts the place and message on a stubbed clipboard and sends nothing.
+
+### FB-19 — results
+Copy fallback added. Test with the backend off: the button reads "Copy report"; pressing it copies "[content] Today · en-vi · v2.50.0 · 2026-11-20" plus the message, shows "Copied.", and sends nothing. No errors.
+
+## FB-20 — prompt
+Board filters for "This course" (reports written in the course now open) and "This version" (reports from the app version now running). Check: This course drops the en-ko report and untagged posts; This version keeps only posts tagged with the running version number; both can be combined and cleared.
+
+### FB-20 — results
+Course and version chips added. Test: This course → posts 1, 3, 4 and 20 (the en-ko report and untagged posts dropped); with This version too → post 20 only; version alone → 20; cleared → 7. Checkpoint: both test files clean, harness 88 guards, no errors, no overflow. Shipped FB-11 … FB-20 as 2.51.0.
+
+| # | Change | Result |
+|---|---|---|
+| FB-11 | Sheet: Escape, focus return, Tab stays inside | pass |
+| FB-12 | Sheet: counter and per-page draft | pass |
+| FB-13 | Sheet: one-tap reasons by place | pass |
+| FB-14 | Last answer attached to a report | pass |
+| FB-15 | Open-report count on the 🐞 button | pass |
+| FB-16 | Links from the sheet to the board | pass |
+| FB-17 | Privacy check (email, phone) | pass on the second prompt |
+| FB-18 | Offline outbox | pass |
+| FB-19 | "Copy report" where sending is impossible | pass |
+| FB-20 | This course / This version filters | pass |
