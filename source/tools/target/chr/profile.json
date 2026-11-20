@@ -1,0 +1,273 @@
+{
+ "target": "chr",
+ "nameEn": "Cherokee",
+ "self": "ᏣᎳᎩ",
+ "ttsLang": "chr-US",
+ "brand": "ᏣᎳᎩ",
+ "accents": true,
+ "keys": "",
+ "greet": [
+  [
+   "ᏛᎬᎪᎯ",
+   "I will see you again"
+  ],
+  [
+   "ᎣᏏᏲ",
+   "Hello"
+  ],
+  [
+   "ᏙᎯᏧ?",
+   "How are you? (Things are well, right?)"
+  ],
+  [
+   "ᏏᏲ",
+   "Hello"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^[A-Za-z]+[,.?!:;]?(?: [A-Za-z]+[,.?!:;]?)*$",
+ "targetScript": "[\\u13A0-\\u13F5\\u13F8-\\u13FD\\uAB70-\\uABBF]",
+ "standingRule": {
+  "keywords": "\\bprefix(?:es)?\\b|\\bSet [AB]\\b|\\b(?:solid|alive|animate|inanimate)\\b|\\bone sign\\b|\\bsign by sign\\b|\\bone syllable\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "sounds",
+   "title": "Sounds: six vowels with nasal v, g and k, d and t, and the h the syllabary does not write",
+   "roadmap": "chr-sounds",
+   "deck": "Syllabary: vowels, g/k and h"
+  },
+  {
+   "id": "syllabary-1",
+   "title": "Syllabary 1: one sign per syllable; the vowels Ꭰ Ꭱ Ꭲ Ꭳ Ꭴ Ꭵ and the g / k and h rows",
+   "roadmap": "chr-syllabary-1",
+   "deck": "Syllabary: vowels, g/k and h"
+  },
+  {
+   "id": "syllabary-2",
+   "title": "Syllabary 2: the l, m, n and gw rows, with Ꮏ hna and Ꮐ nah",
+   "roadmap": "chr-syllabary-2",
+   "deck": "Syllabary: l, m, n and gw"
+  },
+  {
+   "id": "syllabary-3",
+   "title": "Syllabary 3: the s row with lone Ꮝ s, and the d / t and dl / tl rows",
+   "roadmap": "chr-syllabary-3",
+   "deck": "Syllabary: s, d/t and dl/tl"
+  },
+  {
+   "id": "syllabary-4",
+   "title": "Syllabary 4: the ts, w and y rows; reading whole words and what the syllabary leaves unwritten",
+   "roadmap": "chr-syllabary-4",
+   "deck": "Syllabary: ts, w and y"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings: ᎣᏏᏲ, ᏙᎯᏧ?, ᏙᎯᏊ, ᏩᏙ, ᏛᎬᎪᎯ",
+   "roadmap": "chr-greetings",
+   "deck": "Greetings"
+  },
+  {
+   "id": "first-words",
+   "title": "First words: ᎥᎥ (yes), ᎥᏝ / Ꮭ (no), ᎰᏩ (okay), ᎣᏍᏓ (good), ᏣᎳᎩ",
+   "roadmap": "chr-first-words",
+   "deck": "First words"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers 1-10: ᏌᏊ, ᏔᎵ, ᏦᎢ, ᏅᎩ, ᎯᏍᎩ … ᏍᎪᎯ",
+   "roadmap": "chr-numbers",
+   "deck": "Numbers 1 to 10"
+  },
+  {
+   "id": "name",
+   "title": "Names: ᏓᏆᏙᎠ (… is what I am called), ᎦᏙ ᏕᏣᏙᎠ? (what are you called?)",
+   "roadmap": "chr-name",
+   "deck": "Names and introductions"
+  },
+  {
+   "id": "pronouns",
+   "title": "ᎠᏴ (I, we), ᏂᎯ (you), ᎯᎠ (this one here), ᎥᏍᎩᎾ (that one there), Ꮎ; and ᎠᏂ (here), ᎤᎿ (there)",
+   "roadmap": "chr-pronouns",
+   "deck": "Pronouns, questions and places"
+  },
+  {
+   "id": "questions",
+   "title": "Question words ᎦᏙ (what), ᎦᎪ (who), ᎯᎳ ᎢᎦ? (how many) and the question endings -Ꮝ / -ᏍᎪ",
+   "roadmap": "chr-questions",
+   "deck": "Pronouns, questions and places"
+  },
+  {
+   "id": "numbers-big",
+   "title": "Numbers to 100: ᏌᏚ (11), ᏔᎵᏍᎪᎯ (20), ᏍᎪᎯᏥᏆ (100)",
+   "roadmap": "chr-numbers-big",
+   "deck": "Numbers to 100"
+  },
+  {
+   "id": "see-he",
+   "title": "Verbs are sentences: ᎠᎪᏩᏘᎭ (he sees him / it), ᎠᏂᎪᏩᏘᎭ (they see him / it)",
+   "roadmap": "chr-see-he",
+   "deck": "Seeing (Set A)"
+  },
+  {
+   "id": "see-i-you",
+   "title": "Set A prefixes: ᏥᎪᏩᏘᎭ (I see him / it), ᎯᎪᏩᏘᎭ (you see him / it)",
+   "roadmap": "chr-see-i-you",
+   "deck": "Seeing (Set A)"
+  },
+  {
+   "id": "colours",
+   "title": "Colours: ᎤᏁᎦ (white), ᎩᎦᎨᎢ (red), ᎬᎿᎨᎢ (black), ᏌᎪᏂᎨᎢ (blue), ᏓᎶᏂᎨᎢ (yellow)",
+   "roadmap": "chr-colours",
+   "deck": "Colours"
+  },
+  {
+   "id": "plurals",
+   "title": "Plurals by prefix: ᎠᏍᎦᏯ / ᎠᏂᏍᎦᏯ (man / men), ᎦᏍᎩᎶ / ᏗᎦᏍᎩᎶ (table or chair / tables or chairs)",
+   "roadmap": "chr-plurals",
+   "deck": "People"
+  },
+  {
+   "id": "want",
+   "title": "Set B prefixes: ᎠᏆᏚᎵᎭ (I want it), ᏣᏚᎵᎭ (you want it), ᎤᏚᎵᎭ (he wants it), ᎤᎾᏚᎵᎭ (they want it)",
+   "roadmap": "chr-want",
+   "deck": "Wanting (Set B)"
+  },
+  {
+   "id": "negation",
+   "title": "Saying \"not\": Ꮭ with the Ᏹ- prefix (Ꮭ ᏱᎩ, Ꮭ ᏯᎩᎭ, Ꮭ ᏳᎭ)",
+   "roadmap": "chr-negation",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "have",
+   "title": "\"Have\" depends on the thing: ᎠᎩᎭ (I have it, solid), ᎠᎩᎧᎭ (I have it, alive)",
+   "roadmap": "chr-have",
+   "deck": "Having: solid and alive"
+  },
+  {
+   "id": "animals",
+   "title": "Animals and counting living things: ᎩᏟ, ᏪᏌ, ᎠᎭᏫ, ᏩᎭᏯ, ᏲᎾ; ᎢᏯᏂ",
+   "roadmap": "chr-animals",
+   "deck": "Animals and things"
+  },
+  {
+   "id": "copula",
+   "title": "Is and was: ᎢᎩ, ᎢᎦ, ᎨᏒᎩ (I saw it), ᎨᏎᎢ (I was told)",
+   "roadmap": "chr-copula",
+   "deck": "Not, is and was"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Syllabary: vowels, g/k and h",
+   "group": "The syllabary",
+   "desc": "The six vowel signs and the g / k and h rows, one card per sign (19 cards)."
+  },
+  {
+   "name": "Syllabary: l, m, n and gw",
+   "group": "The syllabary",
+   "desc": "The l, m, n (with Ꮏ hna, Ꮐ nah) and gw rows, one card per sign (25 cards)."
+  },
+  {
+   "name": "Syllabary: s, d/t and dl/tl",
+   "group": "The syllabary",
+   "desc": "The s row with lone Ꮝ, the d / t row and the dl / tl row, one card per sign (23 cards)."
+  },
+  {
+   "name": "Syllabary: ts, w and y",
+   "group": "The syllabary",
+   "desc": "The ts, w and y rows, one card per sign (18 cards); Ᏽ mv is archaic and left out."
+  },
+  {
+   "name": "Greetings",
+   "group": "First steps",
+   "desc": "Hello, how are you, I'm fine, thanks, and \"I will see you again\"."
+  },
+  {
+   "name": "First words",
+   "group": "First steps",
+   "desc": "Yes, no, okay, good and bad, and, but, Cherokee and English."
+  },
+  {
+   "name": "Names and introductions",
+   "group": "First steps",
+   "desc": "\"… is what I am called\", \"what are you called?\", and Cherokee forms of English names."
+  },
+  {
+   "name": "Pronouns, questions and places",
+   "group": "First steps",
+   "desc": "I, you, this one, that one; what, who, which, how many; here, there, near, far."
+  },
+  {
+   "name": "Numbers 1 to 10",
+   "group": "Numbers",
+   "desc": "Zero to ten, \"how many?\" for things and for living beings, two and three for people."
+  },
+  {
+   "name": "Numbers to 100",
+   "group": "Numbers",
+   "desc": "Eleven to nineteen, the tens and a hundred."
+  },
+  {
+   "name": "People",
+   "group": "People, animals and things",
+   "desc": "Woman, man, girl, boy, person, Cherokee and English people: one and many."
+  },
+  {
+   "name": "Animals and things",
+   "group": "People, animals and things",
+   "desc": "Dog, cat, deer, wolf, bear, horse, rabbit; rock, tree, potato, beans, paper, table."
+  },
+  {
+   "name": "Colours",
+   "group": "People, animals and things",
+   "desc": "White, red, black, blue, yellow, purple, brown, green, and the faded mixes."
+  },
+  {
+   "name": "Seeing (Set A)",
+   "group": "Verbs as whole words",
+   "desc": "One word for \"he sees it\", \"I see him\", \"you see them\": the Set A forms of the verb \"see\"."
+  },
+  {
+   "name": "Wanting (Set B)",
+   "group": "Verbs as whole words",
+   "desc": "I want it, you want it, he wants it, they want it: the Set B forms of the verb \"want\"."
+  },
+  {
+   "name": "Having: solid and alive",
+   "group": "Verbs as whole words",
+   "desc": "\"Have\" for a solid thing (ᎠᎩᎭ) and for a living one (ᎠᎩᎧᎭ), with \"have them\"."
+  },
+  {
+   "name": "Not, is and was",
+   "group": "Verbs as whole words",
+   "desc": "Is now, is usually, was (seen or told), will be, and isn't."
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Verbs as whole words",
+   "desc": "The prefix that shows how many and what kind, solid against alive, Ꮭ with Ᏹ-, and the question endings."
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Learner",
+  "Reader",
+  "Speaker",
+  "Neighbor",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersScript": "[\\u13A0-\\u13F5\\u13F8-\\u13FD\\uAB70-\\uABBF]",
+ "pronAnswersKeepSpaces": true,
+ "romaAlmost": true,
+ "voiceMatch": "^chr(-|_|$)",
+ "orderPronOK": false,
+ "pronAnswersWarn": true
+}

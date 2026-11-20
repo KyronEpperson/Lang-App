@@ -19,7 +19,7 @@ module.exports = [
 {{ex:歹勢|pháinn-sè|sorry; excuse me}}
 {{ex:厝|tshù|house; home}}
 <h3>Voiced b, g and j</h3>
-<p><b>b</b> and <b>g</b> are real voiced sounds, as in <i>bee</i> and <i>go</i>: your throat buzzes. <b>j</b> is not the j of <i>jam</i>: it is a voiced sound close to the dz of <i>adze</i>.</p>
+<p><b>b</b> and <b>g</b> are real voiced sounds, as in <i>bee</i> and <i>go</i>: your throat buzzes. <b>j</b> is voiced too. Bite-size Taiwanese, a podcast that teaches Taigi pronunciation, writes it [dʑ] in phonetic notation. Copy the Tâi-lô j and let the voice buzz.</p>
 {{ex:肉|bah|meat}}
 {{ex:牛|gû|cow; ox}}
 {{ex:熱|jua̍h|hot}}
@@ -34,7 +34,7 @@ module.exports = [
     check: [
       ["What does the h in ph, th, kh and tsh tell you?", ["A puff of air comes after the consonant", "Say it like English f or the th of think", "The syllable is whispered", "The h is silent"], 0, "In Tâi-lô the h after p, t, k or ts marks a puff of air, like the p of pin."],
       ["How many syllables does 食飯 (tsia̍h-pn̄g) have?", ["One", "Three", "Two: one for each character", "Four"], 2, "Every character is one syllable; the hyphen joins the two syllables of one word."],
-      ["How is the j in jua̍h (熱, hot) said?", ["Like the j of jam", "Like the y of yes", "It is silent", "A voiced sound close to the dz of adze"], 3, "Tâi-lô j is voiced and close to dz, not the English j."]
+      ["How is the j in jua̍h (熱, hot) said?", ["Like the h of hat", "Like the y of yes", "It is silent", "A voiced sound, written [dʑ] in phonetic notation"], 3, "Tâi-lô j is a voiced consonant; Bite-size Taiwanese writes it [dʑ]."]
     ],
     practice: [
       ["mc", "Which word starts with a puff of air?", "tshù", "tsá", "pá", "bah", "tsh has the h, so it comes with a puff of air: tshù (厝, house)."],
@@ -61,7 +61,7 @@ module.exports = [
     body: `
 <p>A Taigi syllable is an initial (lesson 1) plus a final: the vowel and whatever comes after it. Several finals look English and are not.</p>
 <h3>o and oo</h3>
-<p>Tâi-lô has two o's. <b>oo</b> is open, like the aw of <i>law</i>. Single <b>o</b> is said with tighter, rounder lips, close to the o of <i>go</i> but without the glide into w. They make different words: <b>好</b> <i>hó</i> is good, <b>虎</b> <i>hóo</i> is tiger.</p>
+<p>Tâi-lô has two o's. <b>oo</b> is open, like the aw of <i>law</i>. Single <b>o</b> is a different vowel: Bite-size Taiwanese writes 好 <i>hó</i> as [hə] and 虎 <i>hóo</i> as [hɔ]. Copy the spelling: o and oo are never interchangeable. They make different words: <b>好</b> <i>hó</i> is good, <b>虎</b> <i>hóo</i> is tiger.</p>
 {{ex:好|hó|good}}
 {{ex:虎|hóo|tiger}}
 <h3>Nasal vowels: nn</h3>
@@ -73,7 +73,7 @@ module.exports = [
 {{ex:鹹|kiâm|salty}}
 <h3>Short stops: -p, -t, -k, -h</h3>
 <p>In English, a final p is often released with a small pop. In Taigi, -p, -t and -k are never released: close the lips or tongue and stop, with no pop and no extra vowel. <b>十</b> <i>tsa̍p</i> ends with closed lips; <b>七</b> <i>tshit</i> ends with the tongue held up; <b>鹿</b> <i>lo̍k</i> ends at the back of the mouth.</p>
-<p>A final <b>-h</b> is not a breath. It is a catch in the throat that cuts the vowel short, like the break in <i>uh-oh</i>. These short syllables are called checked syllables, and they have only two tones (lesson 3).</p>
+<p>A final <b>-h</b> is not a breath. It is a glottal stop, a catch in the throat that cuts the vowel short, like the break in <i>uh-oh</i>. These short syllables are called checked syllables, and they have only two tones (lesson 3).</p>
 {{ex:十|tsa̍p|ten}}
 {{ex:鹿|lo̍k|deer}}
 {{ex:肉|bah|meat}}
@@ -90,7 +90,7 @@ module.exports = [
     ],
     practice: [
       ["mc", "Which word has a nasal vowel?", "sann", "tsa̍p", "lo̍k", "hó", "nn after the vowel makes it nasal: sann (三, three)."],
-      ["mc", "The oo in hóo (虎, tiger) sounds like…", "the aw of law", "the o of go", "the oo of food", "the u of cup", "Tâi-lô oo is open, like the aw of law; single o is the tighter one."],
+      ["mc", "The oo in hóo (虎, tiger) sounds like…", "the aw of law", "the o of go", "the oo of food", "the u of cup", "Tâi-lô oo is open, like the aw of law; single o is a different vowel."],
       ["mc", "The -h at the end of bah (肉, meat) is…", "a catch in the throat that cuts the vowel short", "a breath, as in English h", "silent, with a long vowel", "a k sound", "A final -h stops the vowel short; it is not a breath."],
       ["mc", "Which two words sound exactly the same?", "卵 and 兩", "好 and 虎", "三 and 十", "肉 and 鹿", "卵 (egg) and 兩 (two) are both nn̄g."],
       ["mc", "What is the m in m̄ (毋, not)?", "A whole syllable: a hummed m", "The start of a word with a missing vowel", "A silent letter", "An English em sound", "m can be a syllable by itself: a hum with tone 7."],
@@ -113,7 +113,7 @@ module.exports = [
     body: `
 <p>In English, pitch shows feeling: a rise for a question, a fall for a statement. In Taigi, pitch is part of the word. <b>獅</b> <i>sai</i> is a lion; <b>豹</b> <i>pà</i> is a leopard; <b>飽</b> <i>pá</i> is full. Change the tone and you change the word.</p>
 <h3>Seven tones, numbered 1 to 8</h3>
-<p>Tones are named by number. The general accent this course teaches has no tone 6, so you meet tones 1, 2, 3, 4, 5, 7 and 8. The pitch numbers run from 1 (low) to 5 (high): 51 means start high and fall low.</p>
+<p>Tones are named by number. The general accent this course teaches has no tone 6, so you meet tones 1, 2, 3, 4, 5, 7 and 8. The pitch numbers run from 1 (low) to 5 (high): 51 means start high and fall low. Sources differ slightly: the numbers below are from taioaan.org, while Bite-size Taiwanese writes tone 2 as 53, tone 3 as 21 and tone 4 as 2.</p>
 <div class="tbl"><table><tr><th>Tone</th><th>Mark</th><th>Pitch</th><th>Example</th></tr><tr><td>1</td><td>none</td><td>55: high, level</td><td class="k">獅 sai (lion)</td></tr><tr><td>2</td><td>acute á</td><td>51: high, falling</td><td class="k">虎 hóo (tiger)</td></tr><tr><td>3</td><td>grave à</td><td>31: low, falling</td><td class="k">豹 pà (leopard)</td></tr><tr><td>4</td><td>none, ends in -p -t -k -h</td><td>3: short, mid</td><td class="k">鱉 pih (soft-shelled turtle)</td></tr><tr><td>5</td><td>circumflex â</td><td>24: rising</td><td class="k">猴 kâu (monkey)</td></tr><tr><td>7</td><td>macron ā</td><td>33: middle, level</td><td class="k">象 tshiūnn (elephant)</td></tr><tr><td>8</td><td>short vertical line a̍</td><td>5: short, high</td><td class="k">鹿 lo̍k (deer)</td></tr></table></div>
 <h3>The eight animals</h3>
 <p>Learners in Taiwan remember the tones with eight animals in tone order: <b>獅虎豹鱉猴狗象鹿</b>. The sixth animal, <b>狗</b> <i>káu</i> (dog), stands in for the missing tone 6 and is tone 2 again.</p>
@@ -160,17 +160,17 @@ module.exports = [
     body: `
 <p>English words keep their sounds when you put them together. Taigi syllables do not: they change their tone depending on what follows. This is called tone sandhi, and it is the biggest surprise for new learners.</p>
 <h3>The rule</h3>
-<p>The tone mark shows each syllable's own tone, its citation tone. In speech, every syllable except the last one of a group changes to its sandhi tone. The last one keeps the tone you see. A group usually ends at the end of a word or before a pause.</p>
+<p>The tone mark shows each syllable's own tone, its citation tone. In speech, every syllable except the last one of a group changes to its sandhi tone. The last one keeps the tone you see. A group is a phrase, and where it ends depends on the structure of the sentence (Wikipedia, Tone sandhi; Bite-size Taiwanese). A word said on its own is a group by itself.</p>
 <p>So in a two-syllable word, the first syllable changes and the second keeps its mark. <b>火車</b> <i>hué-tshia</i> (train): hué has tone 2, but before tshia it is said in tone 1.</p>
 {{ex:火車|hué-tshia|train}}
 <h3>The circle</h3>
 <p>For syllables that do not end in -p, -t, -k or -h, the changes go in a circle:</p>
-<div class="tbl"><table><tr><th>Citation tone</th><th>Said before another syllable</th><th>Example</th></tr><tr><td>1</td><td>7</td><td class="k">公園 kong-hn̂g</td></tr><tr><td>7</td><td>3</td><td class="k">大人 tuā-lâng</td></tr><tr><td>3</td><td>2</td><td class="k">菜單 tshài-tuann</td></tr><tr><td>2</td><td>1</td><td class="k">火車 hué-tshia</td></tr><tr><td>5</td><td>7 (Taipei: 3)</td><td class="k">牛肉 gû-bah</td></tr></table></div>
+<div class="tbl"><table><tr><th>Citation tone</th><th>Said before another syllable</th><th>Example</th></tr><tr><td>1</td><td>7</td><td class="k">公園 kong-hn̂g</td></tr><tr><td>7</td><td>3</td><td class="k">大人 tuā-lâng</td></tr><tr><td>3</td><td>2</td><td class="k">菜單 tshài-tuann</td></tr><tr><td>2</td><td>1</td><td class="k">火車 hué-tshia</td></tr><tr><td>5</td><td>7 (some northern speakers: 3)</td><td class="k">牛肉 gû-bah</td></tr></table></div>
 {{ex:公園|kong-hn̂g|park}}
 {{ex:大人|tuā-lâng|adult}}
 {{ex:菜單|tshài-tuann|menu}}
 {{ex:牛肉|gû-bah|beef}}
-<p>Read the circle as a chain: 1 becomes 7, 7 becomes 3, 3 becomes 2, 2 becomes 1. Tone 5 becomes 7 in the south and in the general accent this course follows; in Taipei you will hear it become 3. Both are normal.</p>
+<p>Read the circle as a chain: 1 becomes 7, 7 becomes 3, 3 becomes 2, 2 becomes 1. Tone 5 becomes 7 in the general accent this course follows; some northern speakers make it 3. Both are normal (Wikipedia: "Tone 5 becomes 7 or 3, depending on dialect").</p>
 <h3>The spelling does not change</h3>
 <p>Tâi-lô always prints the citation tone, as the Ministry of Education's dictionary does. You see <i>hué</i> and say it in tone 1; you see <i>kong</i> and say it in tone 7. When you type or spell a word, write the citation tone.</p>
 {{ex:好食|hó-tsia̍h|tasty; delicious}}
@@ -189,7 +189,7 @@ module.exports = [
       ["mc", "In 公園 (kong-hn̂g), which tone is kong said in?", "tone 7", "tone 1", "tone 2", "tone 5", "Tone 1 becomes tone 7 in sandhi."],
       ["mc", "In 大人 (tuā-lâng), which tone is tuā said in?", "tone 3", "tone 7", "tone 1", "tone 5", "Tone 7 becomes tone 3 in sandhi."],
       ["mc", "Which syllable of 大人 (tuā-lâng) keeps its own tone?", "lâng, the last one", "tuā, the first one", "both", "neither", "The last syllable of the group keeps its citation tone."],
-      ["mc", "In the general accent this course follows, which tone is gû (tone 5) said in, in 牛肉 (gû-bah)?", "tone 7", "tone 5", "tone 1", "tone 2", "In the south and the general accent, tone 5 becomes tone 7 in sandhi (Taipei speakers say tone 3)."],
+      ["mc", "In the general accent this course follows, which tone is gû (tone 5) said in, in 牛肉 (gû-bah)?", "tone 7", "tone 5", "tone 1", "tone 2", "In the general accent, tone 5 becomes tone 7 in sandhi (some northern speakers say tone 3)."],
       ["or", "Build 牛肉 (beef) as it is spelled", "gû bah", "gū", "The spelling keeps the citation tone: gû with tone 5, even though sandhi changes it in speech."],
       ["or", "Build 大人 (adult) as it is spelled", "tuā lâng", "tuà", "tuā is spelled with tone 7; tone 3 is only how sandhi makes it sound."],
       ["or", "Build 好食 (tasty) as it is spelled", "hó tsia̍h", "ho", "hó is spelled with tone 2; sandhi makes it sound like tone 1, but the spelling keeps the acute."],
@@ -209,32 +209,32 @@ module.exports = [
     body: `
 <p>Lesson 4 covered syllables that end in a vowel or a nasal. This lesson adds the short checked syllables, the light syllable after <b>--</b>, and a word about <b>仔</b>.</p>
 <h3>Checked syllables in -p, -t, -k</h3>
-<p>Checked syllables have only two tones, 4 and 8. When they change in sandhi, they swap: high becomes low and low becomes high. So tone 4 becomes tone 8, and tone 8 becomes tone 4. <b>失禮</b> <i>sit-lé</i> (I apologize): sit is tone 4, said in tone 8 before lé.</p>
+<p>Checked syllables have only two tones, 4 and 8. When they change in sandhi, they swap: high becomes low and low becomes high (Wikipedia, Tone sandhi; Bite-size Taiwanese, "4 and 8 swap"). So tone 4 becomes tone 8, and tone 8 becomes tone 4. <b>失禮</b> <i>sit-lé</i> (I apologize): sit is tone 4, said in tone 8 before lé.</p>
 {{ex:失禮|sit-lé|I apologize; excuse me}}
 {{ex:讀冊|tha̍k-tsheh|study; go to school}}
 {{ex:捷運|tsia̍t-ūn|MRT; metro}}
 <h3>Checked syllables in -h</h3>
-<p>A syllable ending in -h loses its catch in sandhi: the -h disappears and the syllable takes a full tone. Tone 4 becomes tone 2, and tone 8 becomes tone 3. <b>肉圓</b> <i>bah-uân</i> (meat dumpling): bah is said without its catch.</p>
+<p>A syllable ending in -h loses its catch in sandhi: the -h disappears and the syllable takes a full tone. Tone 4 becomes tone 2 (Bite-size Taiwanese; taioaan.org: -h syllables are "usually pronounced in shouting tone", its name for tone 2). Tone 8 becomes tone 3: only Bite-size Taiwanese gives this pair; Wikipedia says such syllables "drop their final consonant to become tone 2 or 3". <b>肉圓</b> <i>bah-uân</i> (meat dumpling): bah is said without its catch.</p>
 {{ex:肉圓|bah-uân|Taiwanese meat dumpling}}
 <p>As always, the spelling keeps the citation tone: you still write <i>sit</i>, <i>tha̍k</i>, <i>bah</i>.</p>
 <h3>The neutral tone after --</h3>
-<p>Two hyphens mark a neutral tone. The syllable after <b>--</b> is said light and low, without its own tone, and the syllable before it keeps its citation tone instead of changing. Tâi-lô still prints the light syllable's own mark.</p>
+<p>Two hyphens mark a neutral tone. The syllable after <b>--</b> is said light and short, without its own tone, and the syllable before it keeps its citation tone instead of changing (the MOE romanization manual: the syllable before -- "唸本調", keeps its own tone). After tones 1, 5 and 7 the light syllable continues the pitch of the one before it. Tâi-lô still prints the light syllable's own mark.</p>
 {{ex:多謝你！|To-siā--lí!|Thank you!}}
 {{ex:你食飽未？|Lí tsia̍h-pá--buē?|Have you eaten? (a friendly hello)}}
 {{ex:厝裡|tshù--lí|at home; in the house}}
-<p>When you read a line with --, give the syllable before it its full written tone, then let your voice drop for the light one. In <b>多謝你</b>, siā keeps tone 7 and lí is said light. Particles at the end of a question, like <b>未</b> in 你食飽未？, are light too.</p>
+<p>When you read a line with --, give the syllable before it its full written tone, then say the light one short and soft. In <b>多謝你</b>, siā keeps tone 7 and lí is said light. Particles at the end of a question, like <b>未</b> in 你食飽未？, are light too.</p>
 <h3>仔</h3>
 <p>Many nouns end in <b>仔</b> <i>á</i>: <b>桌仔</b> <i>toh-á</i> (table). The syllable before 仔 changes in its own way, which this course does not cover. Copy the word and its Tâi-lô as you meet it.</p>
-<div class="tip"><b>Most common mistake:</b> giving the light syllable a full tone. <b>多謝你</b> with a full, falling lí → <i>To-siā--lí</i>, with lí light and low.</div>
+<div class="tip"><b>Most common mistake:</b> giving the light syllable a full tone. <b>多謝你</b> with a full, falling lí → <i>To-siā--lí</i>, with lí light and short.</div>
 `,
     check: [
-      ["What does -- before a syllable mean?", ["The syllable is stressed", "The two syllables are one word", "The syllable after it is said light, in the neutral tone", "Pause here"], 2, "-- marks the neutral tone: the next syllable is light and low."],
+      ["What does -- before a syllable mean?", ["The syllable is stressed", "The two syllables are one word", "The syllable after it is said light, in the neutral tone", "Pause here"], 2, "-- marks the neutral tone: the next syllable is light and short."],
       ["In 失禮 (sit-lé), sit is tone 4 and ends in -t. What happens to it in sandhi?", ["It becomes tone 8: high and low swap", "It keeps tone 4", "It loses the -t", "It becomes tone 1"], 0, "Checked syllables in -p -t -k swap in sandhi: tone 4 becomes tone 8."],
       ["In 多謝你 (To-siā--lí), what happens to siā?", ["It changes to tone 3", "It keeps its citation tone, because the light syllable follows", "It becomes neutral too", "It loses its vowel"], 1, "The syllable before -- keeps its citation tone."]
     ],
     practice: [
       ["mc", "In 失禮 (sit-lé), sit has tone 4 and ends in -t. In speech it is said in…", "tone 8", "tone 4", "tone 2", "tone 1", "In sandhi, checked syllables in -p -t -k swap: tone 4 becomes tone 8."],
-      ["mc", "In 多謝你 (To-siā--lí), how is 你 said?", "light and low, in the neutral tone", "with a full tone 2", "in tone 1, by sandhi", "it is silent", "After -- the syllable has the neutral tone: light and low."],
+      ["mc", "In 多謝你 (To-siā--lí), how is 你 said?", "light and short, in the neutral tone", "with a full tone 2", "in tone 1, by sandhi", "it is silent", "After -- the syllable has the neutral tone: light and short."],
       ["mc", "What does -- before lí show?", "lí is in the neutral tone", "lí is a new word", "take a pause before lí", "lí is stressed", "-- marks the neutral tone on the syllable after it."],
       ["mc", "In 肉圓 (bah-uân), what happens to the -h of bah in sandhi?", "it disappears, and the syllable takes a full tone", "it becomes louder", "it turns into -k", "nothing changes", "A checked syllable in -h loses its catch in sandhi."],
       ["mc", "In 多謝你, which syllable keeps its citation tone because a light syllable follows?", "siā", "to", "none of them", "lí", "The syllable right before -- keeps its own tone."],
@@ -268,10 +268,10 @@ module.exports = [
 {{ex:你食飽未？|Lí tsia̍h-pá--buē?|Have you eaten? (a friendly hello)}}
 {{ex:食飽矣。|Tsia̍h-pá--ah.|I have eaten.}}
 <h3>Thank you</h3>
-<p><b>多謝</b> <i>to-siā</i> is "thank you". To one person, add <b>你</b>, said light. <b>勞力</b> <i>lóo-la̍t</i> also thanks someone, especially for help they gave you.</p>
+<p><b>多謝</b> <i>to-siā</i> is "thank you". To one person, add <b>你</b>, said light. <b>勞力</b> <i>lóo-la̍t</i> also thanks someone: the MOE lists it, with <b>感謝</b> <i>kám-siā</i>, as a near-synonym of 多謝.</p>
 {{ex:多謝你！|To-siā--lí!|Thank you!}}
 <h3>Sorry: small or serious</h3>
-<p>English uses "sorry" for everything. Taigi splits it. <b>歹勢</b> <i>pháinn-sè</i> is for small things: bumping into someone, asking a favor, being a bit late. <b>失禮</b> <i>sit-lé</i> is a real apology, when you were at fault.</p>
+<p>Taigi has two everyday words for "sorry". <b>歹勢</b> <i>pháinn-sè</i> covers "excuse me" and "sorry": the MOE glosses it 不好意思、對不起、抱歉. <b>失禮</b> <i>sit-lé</i> is "I apologize"; the MOE gives it with a full apology, the example below.</p>
 {{ex:歹勢。|Pháinn-sè.|Sorry. / Excuse me.}}
 {{ex:真失禮，這攏是我的毋著。|Tsin sit-lé, tse lóng sī guá ê m̄-tio̍h.|I'm very sorry, this is all my fault.}}
 <h3>Meeting and leaving</h3>
@@ -282,13 +282,13 @@ module.exports = [
 `,
     check: [
       ["Your friend's grandmother asks you 你食飽未？ What is she doing?", ["Inviting you to dinner", "Saying a friendly hello", "Asking whether you are sick", "Telling you to leave"], 1, "你食飽未？ is an everyday greeting, not an invitation."],
-      ["You broke something at a friend's house. Which apology fits?", ["歹勢", "再會", "𠢕早", "失禮"], 3, "失禮 is a real apology; 歹勢 is for small things."],
+      ["You broke something at a friend's house. Which of these is an apology?", ["多謝", "再會", "𠢕早", "失禮"], 3, "失禮 is an apology (MOE synonym: 抱歉); 歹勢 would also do. 多謝 is thanks, 再會 goodbye, 𠢕早 good morning."],
       ["How do you say goodbye?", ["再會", "多謝", "歹勢", "請你多多指教"], 0, "再會 means goodbye, literally meet again."]
     ],
     practice: [
       ["mc", "Good morning! (to an older man)", "阿伯𠢕早。", "阿伯再會。", "阿伯歹勢。", "阿伯失禮。", "𠢕早 is good morning; 阿伯 is a polite word for an older man."],
       ["mc", "A neighbor asks you 你食飽未？ What is she doing?", "Saying a friendly hello", "Inviting you to dinner", "Asking you to leave", "Saying sorry", "你食飽未？ is a greeting; answer 食飽矣 or greet back."],
-      ["mc", "You bump into someone on the MRT. You say…", "歹勢。", "再會。", "𠢕早。", "請你多多指教。", "歹勢 is for small things like bumping into someone."],
+      ["mc", "You bump into someone on the MRT. You say…", "歹勢。", "再會。", "𠢕早。", "請你多多指教。", "歹勢 means excuse me, sorry (MOE: 不好意思、對不起、抱歉)."],
       ["mc", "Which is the Tâi-lô of 再會 (goodbye)?", "tsài-huē", "tsái-huē", "tsài-huè", "tsāi-huē", "tsài has tone 3 (grave) and huē has tone 7 (macron)."],
       ["mc", "You meet your friend's parents for the first time. You say…", "請你多多指教。", "再會！", "歹勢。", "多謝你！", "請你多多指教 is the set phrase for nice to meet you."],
       ["or", "Build 再會 (goodbye) in Tâi-lô", "tsài huē", "tsái", "tsài has tone 3, the grave mark; the acute would be tone 2."],
@@ -310,7 +310,7 @@ module.exports = [
     body: `
 <p>Taigi is written in traditional characters, like Taiwan Mandarin, but many everyday words have their own characters. This course uses the Ministry of Education's recommended characters. If you read Mandarin, this lesson is about unlearning a few habits. Taigi and Mandarin are different languages with different words, so a Mandarin character is not just another spelling: 不 is a Mandarin word, while 毋 is the Taigi word <i>m̄</i>, and they are not used the same way.</p>
 <h3>Taigi words, Taigi characters</h3>
-<div class="tbl"><table><tr><th>Taigi</th><th>Meaning</th><th>Not (Mandarin)</th></tr><tr><td class="k">毋 m̄</td><td>not (won't, isn't)</td><td class="k">不</td></tr><tr><td class="k">佇 tī</td><td>at, in</td><td class="k">在</td></tr><tr><td class="k">欲 beh</td><td>want to, about to</td><td class="k">要</td></tr><tr><td class="k">食 tsia̍h</td><td>eat</td><td class="k">吃</td></tr><tr><td class="k">啉 lim</td><td>drink</td><td class="k">喝</td></tr><tr><td class="k">媠 suí</td><td>beautiful</td><td class="k">漂亮</td></tr><tr><td class="k">厝 tshù</td><td>house, home</td><td class="k">家</td></tr></table></div>
+<div class="tbl"><table><tr><th>Taigi</th><th>Meaning</th><th>Not (Mandarin)</th></tr><tr><td class="k">毋 m̄</td><td>not (won't, isn't)</td><td class="k">不</td></tr><tr><td class="k">佇 tī</td><td>at, in</td><td class="k">在</td></tr><tr><td class="k">欲 beh</td><td>want to, about to</td><td class="k">要</td></tr><tr><td class="k">食 tsia̍h</td><td>eat</td><td class="k">吃</td></tr><tr><td class="k">啉 lim</td><td>drink</td><td class="k">喝</td></tr><tr><td class="k">媠 suí</td><td>beautiful</td><td class="k">漂亮</td></tr></table></div>
 <p>Others to know: <b>予</b> <i>hōo</i> (give, let), <b>囝</b> <i>kiánn</i> (child, son), <b>睏</b> <i>khùn</i> (sleep), <b>蹛</b> <i>tuà</i> (live), <b>遮</b> <i>tsia</i> (here) and <b>遐</b> <i>hia</i> (there), <b>冊</b> <i>tsheh</i> (book). Never write the Mandarin character for a Taigi word, even if a keyboard offers it first.</p>
 {{ex:我毋知。|Guá m̄ tsai.|I don't know.}}
 {{ex:伊佇厝裡。|I tī tshù--lí.|She's at home.}}
@@ -385,12 +385,12 @@ module.exports = [
     check: [
       ["How do you ask the teacher to say it again?", ["請講閣一擺。", "請閣講一擺。", "請閣講一个。", "閣講請一擺。"], 1, "請 first, then 閣 (again) + 講 (say) + 一擺 (one time)."],
       ["How do you address Teacher Lîm?", ["老師林", "林學生", "學生林", "林老師"], 3, "The surname comes before the title: 林老師."],
-      ["Where does 慢慢仔 (slowly) go?", ["Before the verb: 慢慢仔講", "After the verb: 講慢慢仔", "At the end of the sentence", "Before 請"], 0, "Manner words like 慢慢仔 go before the verb."]
+      ["The teacher is too fast. Which is the course's phrase for 'Speak slowly, please'?", ["慢慢仔講。", "慢慢說。", "慢慢仔說。", "慢講仔。"], 0, "慢慢仔 (slowly, an MOE adverb) + 講 (speak). 說 is Mandarin, and 慢慢仔 is one word that cannot be split."]
     ],
     practice: [
       ["mc", "Ask the teacher to say it again.", "請閣講一擺。", "請閣講一个。", "請講閣一擺。", "請閣講二擺。", "Times take the classifier 擺, and 閣 goes before 講: 請閣講一擺."],
       ["mc", "You don't know the answer. You say…", "我毋知。", "我不知道。", "我不知。", "我沒知。", "Taigi I don't know is 我毋知; 不 and 沒 are Mandarin."],
-      ["mc", "The teacher is speaking too fast. You say…", "慢慢仔講。", "講慢慢仔。", "再會。", "多謝你。", "慢慢仔 (slowly) goes before 講 (speak)."],
+      ["mc", "The teacher is speaking too fast. You say…", "慢慢仔講。", "慢慢說。", "再會。", "多謝你。", "慢慢仔 (slowly) goes before 講 (speak); 說 is Mandarin."],
       ["mc", "Which is the Tâi-lô of 老師 (teacher)?", "lāu-su", "láu-su", "lâu-su", "làu-su", "lāu has tone 7, the macron."],
       ["mc", "How do you address Teacher Lîm?", "林老師", "老師林", "林學生", "學生林", "The surname goes before the title: 林老師."],
       ["or", "Please say it once more.", "請 閣 講 一 擺", "个", "Times are counted with the classifier 擺: 一擺."],

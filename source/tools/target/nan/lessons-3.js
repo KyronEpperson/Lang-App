@@ -85,7 +85,7 @@ module.exports = [
       ["mc","Which word means 'come'?","來","去","到","坐","來 is come, toward you; 去 is go, away from you."],
       ["mc","'Let's go and stroll around the night market' =","咱來去踅夜市。","阮來去踅夜市。","我來去踅夜市。","恁來去踅夜市。","咱 is we with you included, so it invites the listener."],
       ["mc","In 高鐵 (Ko-thih), which tone is Ko said in?","tone 7","tone 1","tone 3","tone 2","Ko has tone 1; in sandhi, tone 1 becomes tone 7."],
-      ["mc","'I'll get off at Taipei Main Station' =","我欲佇臺北車頭落車。","我欲落車佇臺北車頭。","我欲佇臺北車頭上車。","我佇欲臺北車頭落車。","佇 + the place comes before the verb 落車 (get off)."],
+      ["mc","'I'll get off at Taipei Main Station' =","我欲佇臺北車頭落車。","我欲在臺北車頭落車。","我欲佇臺北車頭上車。","我佇欲臺北車頭落車。","佇 + the place comes before the verb 落車 (get off), as in the MOE sentence; 在 is Mandarin."],
       ["or","I go to the park by MRT.","我 坐 捷運 去 公園","行路","The means, 坐捷運, comes before the verb 去."],
       ["or","I'll get off at Taipei Main Station.","我 欲 佇 臺北 車頭 落車","上車","Place with 佇 goes before the verb: 佇臺北車頭落車."],
       ["or","Let's go and stroll around the night market.","咱 來去 踅 夜市","阮","咱 includes the listener; 阮 leaves them out."],
@@ -117,7 +117,7 @@ module.exports = [
 <p><b>早起</b> <i>tsá-khí</i> is morning (it also means breakfast), <b>中晝</b> <i>tiong-tàu</i> is noon or lunch, <b>下晡</b> <i>ē-poo</i> is afternoon and <b>暗時</b> <i>àm-sî</i> is evening or night.</p>
 {{ex:下晡我欲招阿美仔去𨑨迌。|Ē-poo guá beh tsio A-bí--á khì tshit-thô.|This afternoon I'm going to ask A-bí to go out and have fun.}}
 <h3>Time goes before the verb</h3>
-<p>English usually puts time at the end: "He exercises in the park <i>every morning</i>." Taigi puts it before the verb, either at the very start or right after the person. It never trails after the verb.</p>
+<p>English usually puts time at the end: "He exercises in the park <i>every morning</i>." Taigi puts it before the verb, either at the very start or right after the person, as in every MOE example in this lesson.</p>
 {{ex:伊逐工早起攏會去公園運動。|I ta̍k-kang tsá-khí lóng ē khì kong-hn̂g ūn-tōng.|He goes to the park to exercise every morning.}}
 <p><b>逐工</b> <i>ta̍k-kang</i> is every day, so <b>逐工早起</b> is every morning. Both <b>下晡我欲…</b> and <b>伊明仔載欲…</b> follow the rule: the time comes before the action.</p>
 <h3>The week</h3>
@@ -205,9 +205,9 @@ module.exports = [
 <p><b>菜</b> <i>tshài</i> is vegetables, <b>肉</b> <i>bah</i> is meat, <b>魚</b> <i>hî</i> is fish and <b>水果</b> <i>tsuí-kó</i> is fruit; <b>弓蕉</b> <i>king-tsio</i> is a banana. An egg is <b>卵</b> <i>nn̄g</i>, and a chicken egg <b>雞卵</b> <i>ke-nn̄g</i>.</p>
 <p>A sound trap: 卵 (egg) and 兩 (two) are both nn̄g, with the same tone. Only the context tells them apart.</p>
 {{ex:我欲買兩粒雞卵。|Guá beh bé nn̄g lia̍p ke-nn̄g.|I want to buy two eggs.}}
-<p>Eggs are counted with <b>粒</b> <i>lia̍p</i>, a classifier for small round things. Buy is <b>買</b> <i>bé</i>. Like every counted noun, eggs need the number, then the classifier, then the noun, and two is 兩, never 二. So when you hear nn̄g lia̍p ke-nn̄g, the first nn̄g is the number and the last one is the egg.</p>
+<p>Eggs are counted with <b>粒</b> <i>lia̍p</i>, a classifier for round things (Bite-size Taiwanese: "measure word for round objects"). Buy is <b>買</b> <i>bé</i>. Like every counted noun, eggs need the number, then the classifier, then the noun, and two is 兩, never 二. So when you hear nn̄g lia̍p ke-nn̄g, the first nn̄g is the number and the last one is the egg.</p>
 <h3>By the catty</h3>
-<p>Taiwanese markets weigh in <b>斤</b> <i>kin</i>, a catty (600 grams). 斤 works like a classifier: number + 斤 + food.</p>
+<p>Taiwanese markets weigh in <b>斤</b> <i>kin</i>, a catty (a Taiwan catty is 600 grams). 斤 works like a classifier: number + 斤 + food.</p>
 {{ex:我欲買一斤肉。|Guá beh bé tsi̍t kin bah.|I want to buy a catty of meat.}}
 <h3>How much?</h3>
 <p>You met <b>偌濟錢</b> <i>guā-tsē tsînn</i> (how much money) in the prices lesson. At the market the food comes first, then the amount, then the question. English asks "How much is a catty of bananas?"; Taigi says "bananas, one catty, how much money?".</p>
@@ -261,10 +261,10 @@ module.exports = [
 {{ex:氣象報告講明仔載會比今仔日較寒。|Khì-siōng pò-kò kóng bîn-á-tsài ē pí kin-á-ji̍t khah kuânn.|The weather report says tomorrow will be colder than today.}}
 <p>Notice <b>這塊桌仔</b> and <b>彼塊</b>: "this" and "that" keep their classifier, 塊, even when the noun is left out the second time. And if it is clear what you compare with, 較 alone is enough: <b>較寒</b>, colder.</p>
 <h3>The most: 上</h3>
-<p><b>上</b> before an adjective means "most": <b>上好</b> <i>siōng hó</i> is best. Careful with the reading: before an adjective 上 is read as in 上好 (siōng hó); in other words, such as 上車 (tsiūnn-tshia, get on), it has another reading. Like 較, it sits right before the adjective, with no 是 and no "the".</p>
+<p><b>上</b> before an adjective means "most": <b>上好</b> <i>siōng hó</i> is best. Careful with the reading: before an adjective 上 is read as in 上好 (siōng hó); in other words, such as 上車 (tsiūnn-tshia, get on), it has another reading. Like 較, it sits right before the adjective, with no 是 and no "the". A stronger form is <b>上蓋</b> <i>siōng-kài</i>, "the very most": the dictionary of the Ministry of Education gives 上蓋媠 (the most beautiful) and 上蓋好 (the best).</p>
 {{ex:臺北上熱。|Tâi-pak siōng jua̍h.|Taipei is the hottest.}}
 <h3>Too much: 傷</h3>
-<p><b>傷</b> <i>siunn</i> before an adjective means "too": <b>傷鹹</b> <i>siunn kiâm</i> is too salty. You met it with prices: 傷貴, too expensive. 傷 means more than you want, so it suits food that is too salty or a price that is too high; for something that is simply very good, use 真.</p>
+<p><b>傷</b> <i>siunn</i> before an adjective means "too": <b>傷鹹</b> <i>siunn kiâm</i> is too salty. You met it with prices: 傷貴, too expensive. For something that is simply very good, use 真.</p>
 {{ex:你講話傷過份。|Lí kóng-uē siunn kuè-hūn.|You're going too far with what you say.}}
 <div class="tip"><b>Most common mistake:</b> putting "is" in front of the adjective. <b>今仔日是熱</b> → <b>今仔日真熱</b>. And for "than": <b>伊的糖仔較濟比我</b> → <b>伊的糖仔比我較濟</b>.</div>
 `,
@@ -298,12 +298,12 @@ module.exports = [
     body: `
 <p>English "can" covers several ideas: possibility, a learned skill, permission, being able to. Taigi gives each its own word, and each has a matching negative that starts with 袂.</p>
 <h3>會 and 袂: will, it happens</h3>
-<p><b>會</b> <i>ē</i> before a verb says something will happen or tends to happen. Its negative is <b>袂</b> <i>bē</i>: won't, can't happen. This is not about skill or permission, just about what happens: a cold spreads, a friend turns up, the weather turns.</p>
+<p><b>會</b> <i>ē</i> before a verb says something will happen or tends to happen. Its negative is <b>袂</b> <i>bē</i>: won't, can't happen. It also covers being able to: the MOE glosses 伊會食會睏 as "he can eat and sleep" (能吃能睡). The examples: a friend turns up, a cold spreads.</p>
 {{ex:伊會來。|I ē lâi.|He'll come.}}
 {{ex:感冒會過人。|Kám-mōo ē kuè--lâng.|Colds are catching.}}
 {{ex:無穿衫會感冒。|Bô tshīng sann ē kám-mōo.|If you don't wear clothes, you'll catch a cold.}}
 <h3>會曉 and 袂曉: know how</h3>
-<p>For a skill you have learned, such as a language or a song, use <b>會曉</b> <i>ē-hiáu</i>; the negative is <b>袂曉</b> <i>bē-hiáu</i>. "I can't" is <b>我袂曉</b>, never 毋會曉. Plain 會 without 曉 says only that something will happen, so for a skill keep 曉.</p>
+<p>For a skill you have learned, such as a language or a song, use <b>會曉</b> <i>ē-hiáu</i>; the negative is <b>袂曉</b> <i>bē-hiáu</i>. "I can't (I never learned)" is <b>我袂曉</b>: the MOE gives 袂曉 as the opposite of 會曉.</p>
 {{ex:我會曉講臺語。|Guá ē-hiáu kóng Tâi-gí.|I can speak Taigi.}}
 <h3>會使 and 袂使: may</h3>
 <p>For permission, use <b>會使</b> <i>ē-sái</i> (may, it's OK) and <b>袂使</b> <i>bē-sái</i> (may not, not allowed). This is the word a parent, a teacher or a sign uses: you are able to do it, but are you allowed to?</p>
@@ -317,10 +317,10 @@ module.exports = [
 {{ex:柑仔會酸袂？|Kam-á ē sng--bē?|Are the tangerines sour?}}
 <p>The song has its classifier, <b>這條歌</b>, and stands at the front. The final 袂 is a question particle, not a "can't": the whole sentence asks "can you or can't you?"</p>
 <p>So before you say "can", ask yourself which kind you mean: will it happen, do you know how, are you allowed, or are you able. Each answer has its own pair.</p>
-<div class="tip"><b>Most common mistake:</b> building "can't" from English "not" + "can". <b>我毋會曉</b> → <b>我袂曉</b>. Every 會 word has its own negative with 袂.</div>
+<div class="tip"><b>Most common mistake:</b> reaching for the Mandarin "can't". <b>我不會</b> → <b>我袂曉</b>. Every 會 word in this lesson has its own negative with 袂.</div>
 `,
     check: [
-      ["'I don't know how (to do it)' =",["我袂曉。","我毋會曉。","我無會曉。","我莫會曉。"],0,"The negative of 會曉 is 袂曉."],
+      ["'I don't know how (to do it)' =",["我袂曉。","我不會。","我會曉。","我袂使。"],0,"The MOE gives 袂曉 as the opposite of 會曉. 不會 is Mandarin, 會曉 is the positive, and 袂使 means not allowed."],
       ["Which word is for a skill you have learned?",["會使","會曉","會當","會"],1,"會曉 is know how; 會使 is permission."],
       ["How does 這條歌你會曉唱袂？ make a question?",["With 無 at the end","With 敢 before the verb","With a rising pitch only","With 袂 at the end, in the neutral tone"],3,"會…袂 at the end asks 'can you or not?'"]
     ],
@@ -329,16 +329,16 @@ module.exports = [
       ["mc","'may not; not allowed' =","袂使","袂曉","毋知","無愛","袂使 is may not; 袂曉 is don't know how."],
       ["mc","'He'll come' =","伊會來。","伊會曉來。","伊會使來。","伊袂來。","會 before the verb says it will happen."],
       ["mc","In 會使 (ē-sái), which tone is ē said in?","tone 3","tone 7","tone 2","tone 1","ē has tone 7 (the macron); in sandhi, tone 7 becomes tone 3."],
-      ["mc","'Can you sing this song?' =","這條歌你會曉唱袂？","這歌你會曉唱袂？","這條歌你會使唱袂？","這條歌你毋會曉唱？","A song takes the classifier 條, and 會曉…袂 asks about a skill."],
+      ["mc","'Can you sing this song?' =","這條歌你會曉唱袂？","這歌你會曉唱袂？","這條歌你會使唱袂？","這條歌你會不會唱？","A song takes the classifier 條, and 會曉…袂 asks about a skill."],
       ["or","this song","這 條 歌","本","這 + classifier + noun: songs take 條."],
       ["or","I can't come tomorrow. (start with 我)","我 明仔載 袂當 來","毋","The time word 明仔載 goes before the verb."],
       ["or","I can speak Taigi.","我 會曉 講 臺語","會使","A learned skill takes 會曉."],
-      ["fi","我__講臺語。","I can't speak Taigi.","袂曉","毋會曉|無會曉|會使","The negative of 會曉 is 袂曉."],
+      ["fi","我__講臺語。","I can't speak Taigi.","袂曉","不會|會曉|會使","The negative of 會曉 is 袂曉; 不會 is Mandarin."],
       ["fi","你__去。","You may not go.","袂使|袂當","袂曉|毋知|無愛","袂使 is may not."],
       ["fi","這條歌你會曉唱__？","Can you sing this song?","袂","咧|矣|的","會曉…袂 at the end asks 'can you or not?'"],
       ["ty","this song","這 條 歌|這條歌","這 · 條 · 歌","本","Songs take the classifier 條: 這條歌."],
       ["ty","I can't come tomorrow. (start with 我; use 袂當)","我 明仔載 袂當 來|我明仔載袂當來","明仔載 · 袂當 · 來","毋","The time word 明仔載 goes before the verb 來."],
-      ["ty","I don't know how. (use 袂)","我 袂曉|我袂曉","袂曉","毋","Can't do a learned skill is 袂曉, never 毋會曉."]
+      ["ty","I don't know how. (use 袂)","我 袂曉|我袂曉","袂曉","毋","Can't do a learned skill is 袂曉, the MOE's opposite of 會曉."]
     ]
   },
   {
@@ -364,7 +364,7 @@ module.exports = [
 <p><b>莫</b> <i>mài</i> tells someone not to do something. It is the word for warnings and advice, and it often comes with 啦 at the end to soften or urge, as in <b>莫買啦</b>.</p>
 {{ex:叫你莫來你閣來。|Kiò lí mài lâi lí koh lâi.|I told you not to come, and you came anyway.}}
 <h3>免: no need</h3>
-<p><b>免</b> <i>bián</i> means it isn't necessary, and <b>毋免</b> <i>m̄-bián</i> says the same thing. On its own, <b>免啦</b> answers an offer: no need.</p>
+<p><b>免</b> <i>bián</i> means it isn't necessary, and <b>毋免</b> <i>m̄-bián</i> says the same thing. On its own, <b>免啦！</b> is the MOE's example for "no need!" (不用啦).</p>
 {{ex:你免來。|Lí bián lâi.|You don't need to come.}}
 {{ex:免啦！|Bián--lah!|No need!}}
 <h3>Where the negative goes</h3>
@@ -382,13 +382,13 @@ module.exports = [
       ["mc","'No need!' =","免啦！","莫啦！","無啦！","袂啦！","免 means no need; 莫 means don't."],
       ["mc","The negative of 有 (have) is…","無","毋","袂","莫","有 and 無 are a pair: have and don't have."],
       ["mc","In 免錢 (bián-tsînn, free of charge), which tone is bián said in?","tone 1","tone 2","tone 3","tone 7","bián has tone 2 (the acute mark); in sandhi, tone 2 becomes tone 1."],
-      ["mc","'It's so expensive, don't buy it!' =","這遮貴，莫買啦！","這遮貴，毋買啦！","這遮貴，無買啦！","這遮貴，袂買啦！","莫 tells someone not to do it."],
+      ["mc","'I told you not to come, and you came anyway.' =","叫你莫來你閣來。","叫你不要來你閣來。","叫你別來你閣來。","叫你不來你閣來。","莫 tells someone not to do it (an MOE sentence); 不要, 別 and 不 are Mandarin."],
       ["or","I don't want this book. (start with 我)","我 無 愛 這 本 冊","碗","這 + classifier + noun: books take 本, so 這本冊."],
       ["or","I didn't buy two books.","我 無 買 兩 本 冊","二","Before a classifier, two is 兩: 兩本冊."],
       ["or","You don't need to come. (use 免)","你 免 來","袂","免 is no need; 袂 would be can't."],
       ["fi","我__食早起。","I didn't eat breakfast.","無","毋|莫|免","Didn't is 無."],
       ["fi","伊__是老師。","He isn't a teacher.","毋","無|袂|莫","The negative of 是 is 毋."],
-      ["fi","這遮貴，__買啦！","It's so expensive, don't buy it!","莫","毋|無|袂","Don't! is 莫."],
+      ["fi","叫你__來你閣來。","I told you not to come, and you came anyway.","莫","不|別|沒","Don't! is 莫 (MOE: 叫你莫來你閣來); 不, 別 and 沒 are Mandarin."],
       ["ty","I didn't buy two books.","我 無 買 兩 本 冊|我無買兩本冊","無 · 買 · 兩 · 本 · 冊","二","Books take the classifier 本, with 兩 for two."],
       ["ty","You don't need to come tomorrow. (start with 你)","你 明仔載 免 來|你明仔載免來|你 明仔載 毋免 來|你明仔載毋免來","明仔載 · 免 · 來","袂","The time word 明仔載 goes before the verb; no need is 免."],
       ["ty","I don't want it.","我 無 愛|我無愛","無愛","毋","Don't want is 無愛; 毋 would be a refusal."]

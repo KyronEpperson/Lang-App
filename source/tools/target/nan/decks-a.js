@@ -9,13 +9,13 @@ module.exports = {
 歌 | kua | song | k has no puff, like the k in "skin". ua sounds like "wa".
 看 | khuànn | look; see; watch | kh is k with a puff of air, like the k in "kin". Never the ch of Scottish "loch".
 早 | tsá | early | ts has no puff, like the ts in "cats". With a puff it is tsh, as in 七.
-肉 | bah | meat | b is a voiced b. The h at the end is a catch in the throat: stop the vowel short.
+肉 | bah | meat | b is a voiced b. The h at the end is a glottal stop, a catch in the throat: stop the vowel short.
 牛 | gû | cow; ox | g is a real g, as in "go". Tone 5: a rise from low to middle.
-熱 | jua̍h | hot (weather) | j is a voiced "dz" sound, not the j of "jam".
-虎 | hóo | tiger | oo sounds like the "aw" in "law". 好 (good) has the other o, said with tighter lips.
+熱 | jua̍h | hot (weather) | j is a voiced sound. Bite-size Taiwanese writes it [dʑ] in phonetic notation.
+虎 | hóo | tiger | oo sounds like the "aw" in "law" ([ɔ]). 好 (good) has the other o, a different vowel ([ə] in Bite-size Taiwanese's notation).
 鹹 | kiâm | salty | Ends in m: close your lips at the end.
 慢 | bān | slow | Ends in n: the tongue touches behind the teeth.
-冷 | líng | cold (to the touch) | ing is a single ending, close to the ing of "sing".
+冷 | líng | cold | ing is a single ending, close to the ing of "sing".
 十 | tsa̍p | ten | Final p is not released: close your lips and stop, with no puff.
 七 | tshit | seven | tsh is ts with a puff of air. Final t is not released: the tongue stops the sound silently.
 六 | la̍k | six | Final k is not released: the back of the tongue stops the sound.
@@ -44,7 +44,7 @@ module.exports = {
 火車 | hué-tshia | train | hué has tone 2, but before tshia it is said in tone 1 (2 → 1). The Tâi-lô still shows tone 2.
 公園 | kong-hn̂g | park | kong is tone 1 and is said in tone 7 here (1 → 7): middle and level.
 菜單 | tshài-tuann | menu | tshài is tone 3 and is said in tone 2 here (3 → 2).
-牛肉 | gû-bah | beef | gû is tone 5. In southern and general Taiwanese it is said in tone 7 here (5 → 7); in Taipei, tone 3.
+牛肉 | gû-bah | beef | gû is tone 5. In the general accent it is said in tone 7 here (5 → 7); some northern speakers say tone 3.
 大人 | tuā-lâng | adult | tuā is tone 7 and is said in tone 3 here (7 → 3). The last syllable, lâng, keeps its tone.
 歡喜 | huann-hí | happy; glad | huann is tone 1 and is said in tone 7 here (1 → 7). hí, the last syllable, keeps tone 2.
 公斤 | kong-kin | kilogram | Like 公園: kong (tone 1) is said in tone 7 before kin.
@@ -58,16 +58,16 @@ module.exports = {
 電影 | tiān-iánn | movie | tiān is tone 7 and is said in tone 3 here (7 → 3).
 運動 | ūn-tōng | exercise; sports | ūn is tone 7 and is said in tone 3 here (7 → 3); tōng keeps tone 7.
 老人 | lāu-lâng | old person | lāu is tone 7 and is said in tone 3 here (7 → 3).
-厝裡 | tshù--lí | at home; in the house | Neutral tone after --: lí is said light and low, and tshù keeps its own tone 3 (no sandhi before --).
+厝裡 | tshù--lí | at home; in the house | Neutral tone after --: lí is said light and short, and tshù keeps its own tone 3 (no sandhi before --).
 `,
   "Taigi characters": `
 毋 | m̄ | not (won't, isn't) | The negative of 是 and of willing: 毋是 (isn't). The m is a whole syllable, tone 7.
 佇 | tī | at; in | Where something is or happens: 伊佇厝裡 (she's at home). Mandarin writes 在 instead.
-欲 | beh | want to; be about to | 欲 + verb: 我欲去 (I'm going to go). Mandarin 要 is not Taigi.
+欲 | beh | want to; be about to | 欲 + verb: 我欲去 (I'm going to go). Write 欲 here, not 要.
 予 | hōo | give; let | Also marks who something is done to or for.
 媠 | suí | beautiful; pretty | An MOE recommended character for a native Taigi word. No 是 before it: 伊真媠.
-囝 | kiánn | child (son or daughter) | Your own child: 我有兩个囝 (I have two children).
-厝 | tshù | house; home | 厝裡 = at home. Not the Mandarin word for home.
+囝 | kiánn | child; son | Your own child: 我有兩个囝 (I have two children).
+厝 | tshù | house; home | 厝裡 = at home. The MOE recommended character for the Taigi word.
 睏 | khùn | sleep | 伊這馬佇厝裡咧睏 (he's sleeping at home now).
 啉 | lim | drink | For any drink: 啉茶, 啉水. Mandarin 喝 is not used.
 遮 | tsia | here | 遐 is "there". Mandarin 這裡 is not Taigi.
@@ -84,17 +84,16 @@ module.exports = {
 阿伯𠢕早。 | A-peh gâu-tsá. | Good morning, sir. | 阿伯 is a polite word for an older man (literally father's older brother). Put the person first.
 你食飽未？ | Lí tsia̍h-pá--buē? | Have you eaten? (a friendly hello) | A greeting, not an invitation. Answer 食飽矣 (I have) or just smile and ask back.
 食飽矣。 | Tsia̍h-pá--ah. | I've eaten. | The usual answer to 你食飽未？ 矣 says the change has happened.
-多謝你！ | To-siā--lí! | Thank you! | 你 here has the neutral tone (--lí): say it light and low.
-感謝。 | Kám-siā. | Thanks. (more formal) | A near-synonym of 多謝, heard in speeches and on signs.
-勞力。 | Lóo-la̍t. | Thanks for your help. | The MOE lists it as a near-synonym of 多謝; use it when someone has done you a favor.
-歹勢。 | Pháinn-sè. | Sorry. / Excuse me. | For small things: bumping into someone, asking a favor. A real apology is 失禮.
-失禮。 | Sit-lé. | I apologize. | Stronger than 歹勢: for a real mistake.
+多謝你！ | To-siā--lí! | Thank you! | 你 here has the neutral tone (--lí): say it light and short.
+勞力。 | Lóo-la̍t. | Thanks. | The MOE lists it as a near-synonym of 多謝, with 感謝 kám-siā.
+歹勢。 | Pháinn-sè. | Sorry. / Excuse me. | The MOE glosses it 不好意思、對不起、抱歉: excuse me, sorry. It also means shy, embarrassed.
+失禮。 | Sit-lé. | I apologize. | The MOE gives 抱歉 (apologize) as a synonym, with the example below.
 真失禮，這攏是我的毋著。 | Tsin sit-lé, tse lóng sī guá ê m̄-tio̍h. | I'm so sorry, this is all my fault. | 毋著 = wrong, a fault. A full apology.
-無要緊。 | Bô iàu-kín. | It doesn't matter. / No problem. | The answer to 歹勢: literally "not important".
+無要緊。 | Bô iàu-kín. | It doesn't matter. / No problem. | A reply to 歹勢 in this course's dialogue. An MOE adverb (無要緊).
 免客氣。 | Bián kheh-khì. | You're welcome. | 免 = no need: literally "no need to be polite".
 再會！ | Tsài-huē! | Goodbye! | Literally "meet again".
 再見！ | Tsài-kiàn! | See you! | Also used for goodbye; the MOE lists it with 再會.
-早睏。 | Tsá-khùn. | Get some sleep. (good night) | Literally "sleep early": said when someone goes to bed.
+早睏。 | Tsá-khùn. | Go to bed early. | 早 = early, 睏 = sleep. The MOE meaning is "go to bed early" (早睡).
 恭喜！ | Kiong-hí! | Congratulations! | For good news, a wedding or a new baby.
 `,
   "People and family": `
@@ -112,7 +111,7 @@ module.exports = {
 阿兄 | a-hiann | older brother | The oldest brother is also 大兄.
 阿姊 | a-tsí | older sister |
 小弟 | sió-tī | younger brother | 恁小弟咧？ = And your little brother?
-後生 | hāu-senn | son | 囝 is any child, son or daughter.
+後生 | hāu-senn | son | 囝 is child (also son).
 翁某 | ang-bóo | husband and wife; a married couple | 翁 is husband and 某 is wife.
 阿姨 | a-î | aunt (mother's sister); ma'am | Also a polite word for an older woman, at a stall or next door.
 阿伯 | a-peh | uncle (father's older brother); sir | Also a polite word for an older man: 阿伯𠢕早.
@@ -127,10 +126,10 @@ module.exports = {
 我佇大學讀冊。 | Guá tī tāi-ha̍k tha̍k-tsheh. | I study at a university. | Place with 佇 goes before the verb: 佇大學 + 讀冊.
 我蹛佇臺北。 | Guá tuà tī Tâi-pak. | I live in Taipei. | 蹛 (live) + 佇 (at) + place.
 你蹛佇佗位？ | Lí tuà tī tó-uī? | Where do you live? | 佗位 (where) stays where the answer goes: 我蹛佇臺北.
-我是美國人。 | Guá sī Bí-kok lâng. | I'm American. | Country + 人 = a person from there.
-我是臺灣人。 | Guá sī Tâi-uân lâng. | I'm Taiwanese. | 臺 is often typed 台: both are accepted.
+我是美國人。 | Guá sī Bí-kok-lâng. | I'm American. | Country + 人 = a person from there. One word in Tâi-lô: Bí-kok-lâng.
+我是臺灣人。 | Guá sī Tâi-uân-lâng. | I'm Taiwanese. | 臺 is often typed 台: both are accepted.
 我十八歲。 | Guá tsa̍p-peh huè. | I'm eighteen. | No 是 before an age: number + 歲.
-你幾歲？ | Lí kuí huè? | How old are you? | 幾 = how many. To an older person it can sound blunt.
+你幾歲？ | Lí kuí huè? | How old are you? | 幾 = how many: it stands where the number will go.
 我咧學台語。 | Guá teh o̍h Tâi-gí. | I'm learning Taigi. | 咧 before a verb: something going on these days.
 我真愛𨑨迌。 | Guá tsin ài tshit-thô. | I love going out and having fun. | 愛 = love, like to. 𨑨迌 = play, have fun.
 伊是我的朋友。 | I sī guá ê pîng-iú. | She's my friend. | 我的 = my. 伊 is he or she.

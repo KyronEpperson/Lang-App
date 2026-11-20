@@ -1,0 +1,5 @@
+# EN-NAN-REVIEWER additions (characters TAB tâi-lô TAB the URL opened), 2026-11-20.
+# Country/place + single-syllable 人 is one hyphenated word by the MOE manual rule (Appendix 4, 名詞 (九): 專有名詞後接單音節普通名詞則連寫; example Tâi-lâm-lâng 臺南人). Bí-kok (t:美國塗豆), Tâi-uân (tai5) and lâng (h98 etc.) are lexicon readings.
+臺南人	Tâi-lâm-lâng	https://language.moe.gov.tw/files/people_files/tshiutsheh_1130826.pdf
+美國人	Bí-kok-lâng	https://language.moe.gov.tw/files/people_files/tshiutsheh_1130826.pdf
+臺灣人	Tâi-uân-lâng	https://language.moe.gov.tw/files/people_files/tshiutsheh_1130826.pdf

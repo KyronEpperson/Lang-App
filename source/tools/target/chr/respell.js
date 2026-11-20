@@ -18,8 +18,8 @@
    for those signs the romanisation does not confirm the sign (profile §11).
    One spelling with two different plain readings throws. Lowercase syllabary (U+AB70-U+ABBF, U+13F8-U+13FD) is folded to uppercase;
    U+0323 (Joyner's dot under a sign) is removed.
-   Suffixes (lexicon keys starting with -): a word not in the lexicon is read as a listed word + one listed suffix (-Ꮝ, -ᏍᎪ, -Ꮚ, -Ꮷ),
-   with a warning, since those readings are derived (lexicon source SUF).
+   Endings: the tool never adds an ending (-Ꮝ, -ᏍᎪ, -Ꮚ, -Ꮷ) to a word. The 12 words with an ending that Joyner's sentences contain are
+   listed whole in the lexicon (source DER, derived readings); any other word with an ending throws like any unknown word.
    usage: node respell.js "ᎣᏏᏲ"          ->  ᎣᏏᏲ -> osiyo
           node respell.js --pattern       prints pronPattern
           node respell.js --sign ᏆᏚ        prints each sign's value (sign cards only): Ꮖ -> gwa, Ꮪ -> du
@@ -37,11 +37,11 @@ for (const [c, n] of Object.entries(NAME)) { let on, v;
   if (n === 's') { on = 's'; v = ''; } else if (n === 'nah') { on = 'n'; v = 'a'; } else if (n === 'mv') { on = 'm'; v = 'v'; } else { v = n.slice(-1); on = n.slice(0, -1); }
   SIGN[c] = { ons: ONS[on], v }; }
 /* lowercase syllabary folds to uppercase (Unicode case mapping, as r12a notes: "Cherokee case folds to the previously encoded uppercase letters") */
-const fold = s => String(s).normalize('NFD').replace(/̣/g, '').normalize('NFC').replace(/[ꭰ-ꮿᏸ-ᏽ]/g, c => c.toUpperCase());
+const fold = s => String(s).normalize('NFD').replace(/\u0323/g, '').normalize('NFC').replace(/[\uAB70-\uABBF\u13F8-\u13FD]/g, c => c.toUpperCase());
 const isSyl = c => Object.prototype.hasOwnProperty.call(SIGN, c);
 /* source string -> plain line: tone digits, underdots and glottal stops removed; j -> ts; lowercase */
 function plain(src) {
-  return String(src).normalize('NFD').replace(/[¹²³⁴⁵̣]/g, '').replace(/[ɂʔ]/g, '').normalize('NFC')
+  return String(src).normalize('NFD').replace(/[\u00B9\u00B2\u00B3\u2074\u2075\u0323]/g, '').replace(/[ɂʔ]/g, '').normalize('NFC')
     .toLowerCase().replace(/j/g, 'ts').trim();
 }
 /* align one syllabary word with one plain word: returns the per-sign readings (and which signs lost their vowel) or null */
@@ -63,29 +63,26 @@ function align(syl, pl) {
   for (let i = 0; i < sw.length; i++) { const a = alignWord(sw[i], pw[i]); if (!a) return null; out.push(...a); } return out;
 }
 /* ---------- lexicon ---------- */
-const W = new Map(), SRC = new Map(), GLOSS = new Map(), SUF = new Map(), DROPS = [], RAW = new Map();
+const W = new Map(), SRC = new Map(), GLOSS = new Map(), DROPS = [], RAW = new Map();
 function addLine(line, n, file) {
   if (!line.trim() || line.startsWith('#')) return;
   const f = line.split('\t'); if (f.length < 3) throw new Error(file + ':' + n + ': need «syllabary<TAB>source string<TAB>source id[<TAB>gloss]»: «' + line + '»');
-  let key = fold(f[0].trim()); const suf = key.startsWith('-'); if (suf) key = key.slice(1);
+  const key = fold(f[0].trim());
   if (![...key].every(c => isSyl(c) || c === ' ')) throw new Error(file + ':' + n + ': «' + key + '» has a character that is not a Cherokee syllabary sign');
   const pl = plain(f[1]); if (!/^[a-z]+(?: [a-z]+)*$/.test(pl)) throw new Error(file + ':' + n + ': «' + f[1] + '» gives «' + pl + '», not plain letters');
   const a = align(key, pl); if (!a) throw new Error(file + ':' + n + ': «' + key + '» and «' + pl + '» (from «' + f[1] + '») do not match sign by sign (syllabary table)');
   if (a.some(x => x.drop)) DROPS.push(key + ' ' + pl + ' (' + f[2].trim() + '): no vowel for ' + a.filter(x => x.drop).map(x => x.c + '=' + x.r).join(', '));
-  const M = suf ? SUF : W;
-  if (M.has(key) && M.get(key) !== pl) throw new Error(file + ':' + n + ': «' + key + '» has two readings: ' + M.get(key) + ' / ' + pl);
-  if (!M.has(key)) { M.set(key, pl); SRC.set((suf ? '-' : '') + key, f[2].trim()); GLOSS.set((suf ? '-' : '') + key, (f[3] || '').trim()); RAW.set((suf ? '-' : '') + key, f[1].trim()); }
+  if (W.has(key) && W.get(key) !== pl) throw new Error(file + ':' + n + ': «' + key + '» has two readings: ' + W.get(key) + ' / ' + pl);
+  if (!W.has(key)) { W.set(key, pl); SRC.set(key, f[2].trim()); GLOSS.set(key, (f[3] || '').trim()); RAW.set(key, f[1].trim()); }
 }
 const LEXF = path.join(__dirname, 'lexicon.txt');
 fs.readFileSync(LEXF, 'utf8').split('\n').forEach((l, i) => addLine(l, i + 1, 'lexicon.txt'));
 /* writers' proposals: lexicon-add-<id>.txt next to this file, same format, each line with the URL it was copied from; the lead merges them */
 fs.readdirSync(__dirname).filter(f => /^lexicon-add-[\w-]+\.txt$/.test(f)).sort().forEach(f => fs.readFileSync(path.join(__dirname, f), 'utf8').split('\n').forEach((l, i) => addLine(l, i + 1, f)));
 let MAXW = 1; for (const k of W.keys()) MAXW = Math.max(MAXW, k.split(' ').length);
-const SUFS = [...SUF.keys()].sort((a, b) => b.length - a.length);
 let warned = [];
 function readWord(w, src) {
   if (W.has(w)) return W.get(w);
-  for (const s of SUFS) if (w.length > s.length && w.endsWith(s) && W.has(w.slice(0, -s.length))) { warned.push('«' + w + '» in «' + src + '» read as ' + w.slice(0, -s.length) + ' + -' + s + ' (derived suffix reading)'); return W.get(w.slice(0, -s.length)) + SUF.get(s); }
   throw new Error('unknown: «' + w + '» in «' + src + '» (not in lexicon.txt: report it; the lead adds it only from an opened source, with its URL)');
 }
 const PUNCT = { '.': '.', ',': ',', '?': '?', '!': '!', ':': ':', ';': ';' };
@@ -121,13 +118,13 @@ function signValue(c) { const k = fold(c); if (!isSyl(k) || [...k].length !== 1)
 /* pronPattern: ASCII letters, words separated by single spaces, one ASCII punctuation mark after a word. BMP-only, works with and without u. */
 function pattern() { return '^[A-Za-z]+[,.?!:;]?(?: [A-Za-z]+[,.?!:;]?)*$'; }
 function warnings() { const w = warned; warned = []; return w; }
-module.exports = { respell, signValue, plain, align, alignWord, fold, pattern, warnings, W, SUF, SRC, GLOSS, RAW, DROPS, SIGN, NAME };
+module.exports = { respell, signValue, plain, align, alignWord, fold, pattern, warnings, W, SRC, GLOSS, RAW, DROPS, SIGN, NAME };
 if (require.main === module) {
   const args = process.argv.slice(2);
   if (args[0] === '--pattern') { console.log(pattern()); process.exit(0); }
   if (args[0] === '--sign') { let bad = 0; args.slice(1).forEach(a => [...fold(a)].forEach(c => { try { console.log(c + ' -> ' + signValue(c)); } catch (e) { bad++; process.stderr.write(e.message + '\n'); } })); process.exit(bad ? 1 : 0); }
   if (args[0] === '--check') { const by = {}; SRC.forEach(s => { const k = s.replace(/\d+$/, 'n'); by[k] = (by[k] || 0) + 1; });
-    console.log(W.size + ' words and phrases, ' + SUF.size + ' suffixes'); Object.keys(by).sort().forEach(k => console.log('  ' + k + ': ' + by[k]));
+    console.log(W.size + ' words and phrases'); Object.keys(by).sort().forEach(k => console.log('  ' + k + ': ' + by[k]));
     const used = new Set(); W.forEach((v, k) => [...k].forEach(c => used.add(c))); const unused = Object.keys(NAME).filter(c => !used.has(c));
     console.log('signs never used in a lexicon word (' + unused.length + '): ' + unused.map(c => c + ' ' + NAME[c]).join(', '));
     console.log('dropped-vowel lines (' + DROPS.length + '):'); DROPS.forEach(d => console.log('  ' + d)); process.exit(0); }

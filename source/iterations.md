@@ -1171,3 +1171,9 @@ Courses with no voice must not show speaker buttons (seen on a Taiwanese card: a
 
 ### 2.46.1 — results
 noAudio flag (Cebuano now; Taiwanese when it ships): speaker buttons hidden, speak() does nothing, no "no voice" toast. Screenshot checked. Taiwanese groundwork: nanKey / nanSlip matcher (46 of 46 prototype cases pass in the app), Tâi-lô-only tiles allowed in tone drills (validator), writers' lexicon-add files, and LATaigi, a 1.3 KB fallback font for the two characters most phone fonts lack (U+20895, U+2A736), composed from Noto Sans CJK TC components (tools/fonts/mk_taigi_font.py); without it Chrome showed a missing-glyph box for the whole word. Harness 87 guards.
+
+## 2.47.0 — prompt
+Ship Taiwanese Hokkien for English speakers (en-nan) after the source review.
+
+### 2.47.0 — results
+27 lessons, 18 decks, 306 cards, 378 practice items; validate PASS; roadmap 27 items linked; e2e OK on all 27 lessons; matcher 46 / 46. Text-only (no voice; no speaker buttons). Lexicon 428 entries: 426 re-opened in the source and matching (compared through a summarising fetch tool, not raw page text), 2 derived (禮拜一, 禮拜六). 293 composed sentences: 195 with an attested pattern, 98 by analogy (listed in REVIEW.md). Sandhi rules sourced (Wikipedia, Bite-size Taiwanese, taioaan.org, MOE manual); the 8 → 3 pair for -h syllables rests on one source, is labelled so and is not tested. Fallback font for two rare characters untested on real phones. Not checked by a native speaker or teacher.

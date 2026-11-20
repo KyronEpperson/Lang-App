@@ -10,7 +10,7 @@ module.exports = {
 彼个人 | hit ê lâng | that person | 彼 + classifier + noun. Before a classifier, 彼 is read hit.
 兩隻貓 | nn̄g tsiah niau | two cats | Cats take 隻 like other animals.
 一杯茶 | tsi̍t pue tê | a cup of tea | 杯 counts cupfuls and glassfuls.
-一粒柑仔 | tsi̍t lia̍p kam-á | an orange (one) | 粒 for small round things: fruit, candy. The MOE has 細粒柑仔 (a small orange).
+一粒柑仔 | tsi̍t lia̍p kam-á | an orange (one) | 粒 is the classifier for round things. The MOE has 細粒柑仔 (a small orange).
 這塊桌仔 | tsit tè toh-á | this table | 塊 for tables. From the MOE sentence 這塊桌仔比彼塊較低.
 這條歌 | tsit tiâu kua | this song | 條 for songs (and other long things). From the MOE sentence 這條歌有聽過無？
 這件代誌 | tsit kiānn tāi-tsì | this matter; this thing (that happened) | 件 for matters and affairs. 代誌 = a matter, a thing to deal with.
@@ -50,7 +50,7 @@ module.exports = {
 弓蕉 | king-tsio | banana | Taiwan is famous for its bananas.
 柑仔 | kam-á | orange; mandarin orange | 仔 is a common ending on nouns.
 細粒柑仔 | sè lia̍p kam-á | a small orange | 細粒 = small (for round things). No 的 is needed here.
-一斤 | tsi̍t kin | one catty (600 grams) | The market still sells by the 斤. Read tsi̍t kin, with the counting 一.
+一斤 | tsi̍t kin | one catty (600 grams) | A Taiwan catty is 600 g (Wikipedia, Jin). The MOE example: 弓蕉一斤偌濟錢？ Read tsi̍t kin, with the counting 一.
 頭家，弓蕉一斤偌濟錢？ | Thâu-ke, king-tsio tsi̍t kin guā-tsē tsînn? | Excuse me, how much is a catty of bananas? | Start with 頭家 to get the seller's attention. The thing comes first, then the amount, then 偌濟錢.
 柑仔會酸袂？ | Kam-á ē sng--bē? | Are the oranges sour? | 會…袂？ asks "will it be … or not?" The 袂 at the end is said light: --bē.
 物件 | mi̍h-kiānn | things; stuff | Not Mandarin 東西. 你愛的物件 = the things you want.
@@ -158,14 +158,14 @@ module.exports = {
 我無愛。 | Guá bô ài. | I don't want it. | 無愛 = don't want. 毋 would mean "I refuse".
 我無食早起。 | Guá bô tsia̍h tsá-khí. | I didn't eat breakfast. | "Didn't" is 無, not 毋: *我毋食早起 is wrong.
 我有去過。 | Guá ū khì--kuè. | I've been there. | 有 + verb + 過 = have ever done it. English speakers drop the 有.
-我袂曉。 | Guá bē-hiáu. | I don't know how. | Can't (a skill) is 袂曉. *毋會曉 is wrong.
+我袂曉。 | Guá bē-hiáu. | I don't know how. | Can't (a skill) is 袂曉: the MOE gives it as the opposite of 會曉.
 這條歌你會曉唱袂？ | Tsit tiâu kua lí ē-hiáu tshiùnn--bē? | Can you sing this song? | 會曉 = know how to; 袂 at the end makes the question.
 伊會來。 | I ē lâi. | He'll come. | 會 = will (likely to happen). Its negative is 袂.
 伊會食會睏，你免煩惱。 | I ē tsia̍h ē khùn, lí bián huân-ló. | He's eating and sleeping fine; no need to worry. | 免 = no need to. Not 毋.
-免啦！ | Bián--lah! | No need! / Don't bother! | 免 = no need. 啦 softens it.
+免啦！ | Bián--lah! | No need! / Don't bother! | 免 = no need. The MOE example, glossed 不用啦.
 你免來。 | Lí bián lâi. | You don't have to come. | 免 + verb = no need to. 毋來 would be "won't come".
-叫你莫來你閣來。 | Kiò lí mài lâi lí koh lâi. | I told you not to come, and you came anyway. | 莫 = don't (an order). 毋 is not used for orders.
-毋通 | m̄-thang | must not; don't (warning) | A warning not to do something. Not 毋 alone.
+叫你莫來你閣來。 | Kiò lí mài lâi lí koh lâi. | I told you not to come, and you came anyway. | 莫 = don't (telling someone not to). An MOE example sentence.
+毋通 | m̄-thang | must not; don't (warning) | MOE: 驚死就毋通出來𨑨迌 (if you're afraid of dying, don't go out roaming).
 袂使 | bē-sái | may not; not allowed | 袂使 = not allowed. 會使 = may.
 濟 | tsē | many; much | Same Tâi-lô as 坐 (sit): tsē. Context tells them apart.
 感冒會過人。 | Kám-mōo ē kuè--lâng. | Colds are contagious. | 過人 = pass to people. The 人 is said light here: kuè--lâng.

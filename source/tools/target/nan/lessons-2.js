@@ -19,7 +19,7 @@ module.exports = [
 <p>As in lesson 9, 是 joins two nouns: <b>學生</b> <i>ha̍k-sing</i> student, <b>老師</b> <i>lāu-su</i> teacher. English needs "a" ("I'm a student"); Taigi needs nothing between 是 and the noun.</p>
 {{ex:我是學生。|Guá sī ha̍k-sing.|I'm a student.}}
 {{ex:伊是林老師。|I sī Lîm lāu-su.|He's Mr. Lîm, the teacher.}}
-{{ex:我是美國人。|Guá sī Bí-kok lâng.|I'm American.}}
+{{ex:我是美國人。|Guá sī Bí-kok-lâng.|I'm American.}}
 <h3>Where you live, and where you study</h3>
 <p><b>蹛</b> <i>tuà</i> means "to live (somewhere)". The place follows it, with <b>佇</b> <i>tī</i> "at, in": <b>蹛佇臺北</b>.</p>
 {{ex:我蹛佇臺北。|Guá tuà tī Tâi-pak.|I live in Taipei.}}
@@ -28,12 +28,12 @@ module.exports = [
 <h3>Nice to meet you</h3>
 <p>Finish with the set phrase <b>請你多多指教。</b> <i>Tshiánn lí to-to tsí-kàu.</i>, literally "please teach me a lot". It is what people say when they are introduced.</p>
 {{ex:請你多多指教。|Tshiánn lí to-to tsí-kàu.|Nice to meet you.}}
-<div class="tip"><b>Most common mistake:</b> putting the place at the end, as in English. <b>我讀冊佇臺北</b> → <b>我佇臺北讀冊</b>. Only verbs like 蹛 "live" take 佇 after them.</div>
+<div class="tip"><b>Most common mistake:</b> writing the Mandarin word for "at". <b>我在臺北讀冊</b> → <b>我佇臺北讀冊</b>. And put 佇 + place before an action verb, the order of the MOE's examples (我欲佇臺北車頭落車); verbs of staying such as 蹛 can take it after.</div>
 `,
     check: [
       ["How do you ask someone's name?",["啥物名你號做？","你號做啥物名？","你號做名啥物？","名你號做啥物？"],1,"The question word stays where the answer goes: 你號做啥物名？, answered 我號做…"],
       ["How do you say 'My surname is Lîm'?",["我是姓林。","我林姓。","我姓林。","我姓是林。"],2,"姓 is the verb, so no 是 is needed: 我姓林。"],
-      ["In 'I study in Taipei', where does 佇臺北 go?",["After 讀冊, at the end","Before 讀冊","Between 讀 and 冊","After 我 and again at the end"],1,"With an action verb, 佇 and the place come before the verb: 我佇臺北讀冊。"]
+      ["In 'I study in Taipei', where does the course put 佇臺北?",["Before 我","Before 讀冊","Between 讀 and 冊","Twice, before and after 讀冊"],1,"With an action verb, 佇 and the place come before the verb, as in the MOE's examples: 我佇臺北讀冊。"]
     ],
     practice: [
       ["mc","'What's your name?' =","你號做啥物名？","啥物名你號做？","你號做名啥物？","名啥物你號做？","The question word stays where the answer goes: 號做啥物名, answered 號做阿美仔."],
@@ -168,7 +168,7 @@ module.exports = [
 <h3>Uncles and aunts, and older people</h3>
 <p><b>阿伯</b> <i>a-peh</i> is your father's older brother and <b>阿姨</b> <i>a-î</i> your mother's sister. Both are also the polite way to address an older man or woman you do not know, at the market or next door.</p>
 <h3>Husband and wife</h3>
-<p><b>翁某</b> <i>ang-bóo</i> is "husband and wife", a couple. <b>牽手</b> <i>khan-tshiú</i>, literally "hold hands", is a warm word for your spouse.</p>
+<p><b>翁某</b> <i>ang-bóo</i> is "husband and wife", a couple. <b>牽手</b> <i>khan-tshiú</i>, literally "hold hands", is a Taiwanese word for "wife" (Wiktionary).</p>
 {{ex:𪜶兩个感情真好。|In nn̄g ê kám-tsîng tsin hó.|The two of them get along really well.}}
 <h3>My, your, his: 阮, 恁, 𪜶</h3>
 <p>With family words, Taigi often uses the plural pronouns where English says "my", "your" and "his": <b>阮</b> <i>guán</i> (we, not you), <b>恁</b> <i>lín</i> (you all) and <b>𪜶</b> <i>in</i> (they). So "my big brother" is <b>阮大兄</b>, and "your little brother" is <b>恁小弟</b>. You can also say <b>我的</b> (my), with 的 linking the owner to the person.</p>
@@ -244,7 +244,7 @@ module.exports = [
       ["mc","'I don't have any money.' =","我無錢。","我毋有錢。","我毋錢。","我不有錢。","The negative of 有 is 無; 毋 never goes with 有, and 不 is Mandarin."],
       ["mc","Which one is a yes/no question?","你有冊無？","你有冊。","我有冊。","你無冊。","無 at the end turns the sentence into a question: you have a book, or not?"],
       ["mc","'Is this yours?' =","這敢是你的？","這是敢你的？","這是你的敢？","這是你敢的？","敢 goes after the subject, right before 是."],
-      ["mc","In 你欲去無？, how is the last word, 無, said?","In the neutral tone: light and low","With a full tone 5 rise","With an English question rise","It is not said at all","A question particle at the end takes the neutral tone; the Tâi-lô shows it with --: Lí beh khì--bô?"],
+      ["mc","In 你欲去無？, how is the last word, 無, said?","In the neutral tone: light and short","With a full tone 5 rise","With an English question rise","It is not said at all","A question particle at the end takes the neutral tone; the Tâi-lô shows it with --: Lí beh khì--bô?"],
       ["mc","'I've been there.' =","我有去過。","我去過有。","我無去過。","有我去過。","有 + verb + 過 at the end: have ever done it. 無 would make it 'I haven't'."],
       ["or","I have a younger brother.","我 有 一 个 小弟","本","People take the classifier 个: 一个小弟. 本 is for books."],
       ["or","Is there tea here?","遮 有 茶 無","毋","The place word 遮 goes before the verb 有, and 無 at the end asks the question."],
@@ -348,13 +348,13 @@ module.exports = [
     practice: [
       ["mc","'How much is it?' =","偌濟錢？","幾號？","佗位？","當時？","偌濟錢 is literally how-much money; 幾號 asks for a number such as a phone number."],
       ["mc","'300 dollars' =","三百箍","三箍百","箍三百","三百个","箍 comes after the number, like a classifier: 三百箍."],
-      ["mc","'This is so expensive, don't buy it!' =","這遮貴，莫買啦！","這是貴，莫買啦！","這遮貴，毋買啦！","這遮貴，無買啦！","No 是 before an adjective, and 'don't!' is 莫."],
+      ["mc","'This is so expensive, don't buy it!' =","這遮貴，莫買啦！","這是貴，莫買啦！","這遮貴，不要買啦！","這遮貴，別買啦！","No 是 before an adjective, and 'don't!' is 莫 (MOE: 這遮貴，莫買啦！). 不要 and 別 are Mandarin."],
       ["mc","Which is the Tâi-lô of 箍 (dollar)?","khoo","khóo","khôo","kho","箍 has tone 1, so no tone mark, and the vowel is oo: khoo."],
       ["mc","Which word means 'cheap'?","俗","貴","傷","濟","俗 is cheap; 貴 expensive, 傷 too, 濟 many."],
       ["or","How much is a bowl of noodles? (start with 一)","一 碗 麵 偌濟 錢","个","Noodles by the bowl take the classifier 碗: 一碗麵."],
       ["or","35 dollars","三十五 箍","元","箍 is the classifier for dollars and comes after the number. 元 is Mandarin."],
       ["or","too expensive","傷 貴","是","傷 goes right before the adjective, and no 是 is needed."],
-      ["fi","這遮貴，__買啦！","This is so expensive, don't buy it!","莫","毋|無|不","'Don't!' is 莫: 莫買啦. 毋 would be refusing, and 不 is Mandarin."],
+      ["fi","這遮貴，__買啦！","This is so expensive, don't buy it!","莫","不要|別|不","'Don't!' is 莫: 莫買啦 (an MOE sentence). 不要, 別 and 不 are Mandarin."],
       ["fi","彼擔賣的水果較__。","The fruit at that stall is cheaper.","俗","貴|遮|傷","俗 is cheap; 較俗 is cheaper."],
       ["fi","一碗麵__錢？","How much is a bowl of noodles?","偌濟","幾|佗位|啥人","偌濟錢 asks the price."],
       ["ty","How much is a bowl of noodles?","一 碗 麵 偌濟 錢|一碗麵偌濟錢|麵 一 碗 偌濟 錢|麵一碗偌濟錢","一 · 碗 · 麵 · 偌濟 · 錢","个","Noodles by the bowl take the classifier 碗: 一碗麵偌濟錢？"],
@@ -440,21 +440,21 @@ module.exports = [
 <p>For actions such as eating and studying, English puts the place at the end: "He's sleeping at home now." Taigi puts 佇 + place before the verb, after the time word.</p>
 {{ex:伊這馬佇厝裡咧睏。|I tsit-má tī tshù--lí teh khùn.|He's sleeping at home now.}}
 {{ex:我佇遮食飯。|Guá tī tsia tsia̍h-pn̄g.|I eat here.}}
-<p>A few verbs of staying, such as 蹛 "live" and 睏 "sleep", can also take 佇 + place after them, as in 蹛佇臺北 and 貓睏佇椅仔下跤. For eating, studying, buying and most other actions, the place goes first.</p>
+<p>A few verbs of staying, such as 蹛 "live" and 睏 "sleep", can also take 佇 + place after them, as in 蹛佇臺北 and 貓睏佇椅仔下跤. For eating, studying, buying and most other actions, the MOE's example sentences put the place first (佇菜市仔賣物件, 佇臺北車頭落車), and so does this course.</p>
 <h3>Putting things somewhere</h3>
 <p><b>囥</b> <i>khǹg</i> means "put, keep". The place word follows it directly, as in this sentence about shelves: 下跤格 is the bottom shelf, 頂懸格 the top shelf.</p>
 {{ex:酒囥下跤格，汽水囥頂懸格。|Tsiú khǹg ē-kha keh, khì-tsuí khǹg tíng-kuân keh.|Put the alcohol on the bottom shelf and the soda on the top shelf.}}
-<div class="tip"><b>Most common mistake:</b> the place at the end, as in English. <b>我食飯佇厝裡</b> → <b>我佇厝裡食飯</b>.</div>
+<div class="tip"><b>Most common mistake:</b> the Mandarin 在 for "at". <b>我在厝裡食飯</b> → <b>我佇厝裡食飯</b>, with 佇 + place before the action, as in the MOE's 伊這馬佇厝裡咧睏.</div>
 `,
     check: [
       ["How do you say 'She's at home'?",["伊是厝裡。","伊在厝裡。","伊佇厝裡。","伊厝裡佇。"],2,"佇 alone means is at: 伊佇厝裡. 在 is Mandarin."],
       ["How do you say 'under the chair'?",["下跤椅仔","椅仔下跤","佇下跤椅仔","下跤佇椅仔"],1,"The place word comes after the noun: 椅仔下跤."],
-      ["How do you say 'I eat at home'?",["我佇厝裡食飯。","我食飯佇厝裡。","我在厝裡食飯。","佇我厝裡食飯。"],0,"Place with 佇 goes before the verb: 我佇厝裡食飯."]
+      ["How do you say 'I eat at home'?",["我佇厝裡食飯。","我佇厝裡吃飯。","我在厝裡食飯。","佇我厝裡食飯。"],0,"Place with 佇 goes before the verb: 我佇厝裡食飯."]
     ],
     practice: [
       ["mc","'She's at home.' =","伊佇厝裡。","伊在厝裡。","伊是厝裡。","伊厝裡佇。","佇 alone means is at, with no 是; 在 is Mandarin."],
       ["mc","'The cat is under the chair.' =","貓佇椅仔下跤。","貓佇下跤椅仔。","貓下跤佇椅仔。","下跤貓佇椅仔。","The place word comes after the noun: 椅仔下跤."],
-      ["mc","'I eat at home.' =","我佇厝裡食飯。","我食飯佇厝裡。","我在厝裡食飯。","佇我厝裡食飯。","Place with 佇 goes before the verb: 佇厝裡食飯."],
+      ["mc","'I eat at home.' =","我佇厝裡食飯。","我佇厝裡吃飯。","我在厝裡食飯。","佇我厝裡食飯。","Place with 佇 goes before the verb: 佇厝裡食飯. 吃 and 在 are Mandarin."],
       ["mc","In 頂懸 (on top), which tone is the first syllable said in?","tone 1","tone 2","tone 3","tone 7","Tone sandhi: in tíng-kuân the first syllable has tone 2, and tone 2 is said as tone 1 before another syllable."],
       ["mc","Which word means 'there'?","遐","遮","頂懸","內面","遐 is there; 遮 is here."],
       ["or","He studies at home. (start with he)","伊 佇 厝裡 讀冊","在","Place with 佇 goes before the verb: 佇厝裡讀冊."],

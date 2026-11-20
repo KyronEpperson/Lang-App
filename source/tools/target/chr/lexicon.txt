@@ -10,8 +10,9 @@
 #   Jn   Michael Joyner, Cherokee Language Lessons Volume 1 (2nd ed. 2016, CC BY-SA 3.0), lesson n, "ᏘᎪᎵᏯ (Read them)" list:
 #        https://www.cherokeelessons.com/pdf-downloads/Cherokee-Language-Lessons-Volume-I-embedded-cover.pdf  (read through a fetch tool, offsets 0 / 100000 / 200000)
 #   DG   Patrick Del Percio, "Greetings", DAILP teaching article: https://wp.dailp.northeastern.edu/greetings
-#   SUF  a suffix whose reading is DERIVED from a Joyner word that ends in the same sign(s) (named in the gloss); used only to read Joyner's
-#        own sentences (ᎰᏩᏍ?, ᎦᏥᎪᏩᏘᎭᏍᎪ?, ᎩᏟᏊ, ᎠᏂᎨᏯᏧ); listed for native check (profile §11)
+#   DER  a word with an ending, spelled as in one of Joyner's sentences (named in the gloss), whose READING is derived: the listed word's
+#        reading + the ending's, taken from a Joyner word that ends in the same sign(s) (ᏙᎯᏊ / ᏙᎯᏧ beside ᏙᎯ; Ꮝ, ᏍᎪ in ᏍᎪᎯ). Only these
+#        12 words: the tool never adds an ending to a word itself. For native check (profile §11)
 #
 ᎠᏲ	ạ²yo	J4	Ouch!
 ᎣᏍᏓ	o⁴sda	J4	Good. Well.
@@ -323,8 +324,16 @@
 # --- DAILP greetings article (romanisation as printed there)
 ᎣᏏᏧ	ositsu	DG	how are you? (is it good?)
 ᏗᏣᎳᎩ	ditsalagi	DG	the syllabary
-# --- suffixes (derived readings, see SUF)
--Ꮝ	s	SUF	yes/no question ending (ᎰᏩᏍ? "Is it okay?", J9); reading from Ꮝ in ᏍᎪᎯ sgo²³hi (J11)
--ᏍᎪ	sgo	SUF	yes/no question ending (ᎦᏥᎪᏩᏘᎭᏍᎪ? "Do I see them?", J8); reading from ᏍᎪ in ᏍᎪᎯ sgo²³hi (J11)
--Ꮚ	gwu	SUF	"only, just" (ᎩᏟᏊ "only the dogs", J8); reading from ᏙᎯᏊ to¹hi⁴gwu beside ᏙᎯ to¹hi⁴ (J10)
--Ꮷ	tsu	SUF	"..., right?" (ᎠᏂᎨᏯᏧ "the women ..., right?", J8); reading from ᏙᎯᏧ to¹hi⁴ju beside ᏙᎯ to¹hi⁴ (J10)
+# --- words with an ending (-Ꮝ, -ᏍᎪ, -Ꮚ, -Ꮷ) that Joyner prints in his sentences (with no pronunciation): readings DERIVED, see DER
+ᎩᏟᏊ	gihligwu	DER	derived reading: ᎩᏟ gi²hli (J6) + -Ꮚ gwu: from ᏙᎯᏊ to¹hi⁴gwu beside ᏙᎯ to¹hi⁴ (J10); spelling from ᎠᏂᎨᏯ ᎩᏟᏊ ᏓᏂᎪᏩᏘᎭ. "The women see only the dogs." J8
+ᏓᎪᏩᏘᎭᏊ	dagowhtihagwu	DER	derived reading: ᏓᎪᏩᏘᎭ da¹gowh²tị³ha (J6) + -Ꮚ gwu: from ᏙᎯᏊ to¹hi⁴gwu beside ᏙᎯ to¹hi⁴ (J10); spelling from ᎠᏍᎦᏯ ᏩᎭᏯ ᏓᎪᏩᏘᎭᏊ. "The man is only seeing the wolves." J8
+ᏩᏯᏊ	wahyagwu	DER	derived reading: ᏩᏯ wạ²hya (J9) + -Ꮚ gwu: from ᏙᎯᏊ to¹hi⁴gwu beside ᏙᎯ to¹hi⁴ (J10); spelling from ᎠᎨᏯ ᏩᏯᏊ ᏓᎪᏩᏘᎭ. "The woman sees only the wolves." J8
+ᎠᏴᏊ	ayvgwu	DER	derived reading: ᎠᏴ ạ²yv (J8) + -Ꮚ gwu: from ᏙᎯᏊ to¹hi⁴gwu beside ᏙᎯ to¹hi⁴ (J10); spelling from ᎠᏴᏊ ᎩᏟ ᏥᎪᏩᏘᎭ. "Only I am seeing the dog." J8
+ᎠᏂᏍᎦᏯᏍ	anisgayas	DER	derived reading: ᎠᏂᏍᎦᏯ ạ²ni²sgạ²ya (J6) + -Ꮝ s: Ꮝ in ᏍᎪᎯ sgo²³hi (J11); spelling from ᎠᏂᏍᎦᏯᏍ ᎠᏂᎪᏩᏘᎭ? "Do the men see it?" J8
+ᎰᏩᏍ	howas	DER	derived reading: ᎰᏩ họ²wa (J4) + -Ꮝ s: Ꮝ in ᏍᎪᎯ sgo²³hi (J11); spelling from ᎰᏩ. ᎰᏩᏍ? "Okay. Is it Okay?" J9
+ᏌᏊᏍ	sagwus	DER	derived reading: ᏌᏊ sa¹gwu⁴ (J5) + -Ꮝ s: Ꮝ in ᏍᎪᎯ sgo²³hi (J11); spelling from ᏌᏊ. ᏌᏊᏍ? "One. Is it one?" J9
+ᏙᎯᏍ	tohis	DER	derived reading: ᏙᎯ to¹hi⁴ (J10) + -Ꮝ s: Ꮝ in ᏍᎪᎯ sgo²³hi (J11); spelling from Ꮎ ᎤᏲᎢ ᏐᏈᎵ! ᏙᎯᏍ? "That bad horse! Are things well?" J13
+ᎦᏥᎪᏩᏘᎭᏍᎪ	gatsigowhtihasgo	DER	derived reading: ᎦᏥᎪᏩᏘᎭ ga²ji²gowh²tị³ha (J7) + -ᏍᎪ sgo: ᏍᎪ in ᏍᎪᎯ sgo²³hi (J11); spelling from ᎦᏥᎪᏩᏘᎭᏍᎪ? "Do I see them?" J8
+ᏛᎬᎪᎯᏍᎪ	dvgvgohisgo	DER	derived reading: ᏛᎬᎪᎯ dv²gv²go²hi (J10) + -ᏍᎪ sgo: ᏍᎪ in ᏍᎪᎯ sgo²³hi (J11); spelling from ᏙᎯᏊ. ᏛᎬᎪᎯᏍᎪ? "Will I see you again later?" J10
+ᎠᏍᎦᏯᏍᎪ	asgayasgo	DER	derived reading: ᎠᏍᎦᏯ ạ²sgạ²ya (J6) + -ᏍᎪ sgo: ᏍᎪ in ᏍᎪᎯ sgo²³hi (J11); spelling from ᎠᏍᎦᏯᏍᎪ ᏥᎪᏩᏘᎭ? "Do I see a man?" J18-20
+ᎠᏂᎨᏯᏧ	anigehyatsu	DER	derived reading: ᎠᏂᎨᏯ ạ²ni²ge²³hya (J6) + -Ꮷ tsu: from ᏙᎯᏧ to¹hi⁴ju beside ᏙᎯ to¹hi⁴ (J10); spelling from ᎠᏂᎨᏯᏧ ᏩᏯ ᎠᏂᎪᏩᏘᎭ? "The women see the wolf, right?" J8
