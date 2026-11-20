@@ -1226,3 +1226,44 @@ Add a "Pages with open reports" summary above the board: each page that has unfi
 
 ## FB-6 — prompt
 Composer: the message placeholder changes with the chosen type (a bug asks what happened and what was expected), and an unsent draft is saved on the device and restored on return, then cleared after a successful send. Check: choosing Bug changes the placeholder; typed text survives a page reload with its type; after a mocked send the box and the saved draft are empty.
+
+### FB-6 — results
+Composer placeholders per type and draft saving added. Test: Bug placeholder reads "What happened, and what did you expect? Which page or card?"; after a reload the text "half written report" and the Bug type are back; after a mocked send the box is empty and the saved draft is gone. No errors.
+
+## FB-7 — prompt
+Show each post's age in words ("28 min ago", "yesterday", "3 days ago", then the date) with the full date on hover, and mark posts that arrived since the reader's last visit with a "new" badge plus a count beside the board title. Check: a 29-minute-old post reads "… min ago", a 40-day-old one shows a date; with the last visit set to two days ago only the newer posts carry the badge and the count matches.
+
+### FB-7 — results
+Ages in words and a "new" badge added. Test: "28 min ago", "yesterday", "10 days ago", and "Oct 11" for a 40-day-old post, each with the full date as its title; with the last visit two days back the badge is on posts 1 and 3 and on the reply, not on older posts or the reader's own, and the title shows "3 new". No errors, no overflow.
+
+## FB-8 — prompt
+Long boards and long posts: show 15 posts at a time with a "Show more" button that says how many are left, and fold a message longer than about 320 characters behind "Show more / Show less". Check: with 40 extra mocked posts 15 are rendered, one tap gives 30, changing the feed resets to 15; a 900-character post starts folded and unfolds on tap.
+
+### FB-8 — results
+Paging and folding added. Test with 41 extra posts: 15 rendered, button reads "Show 15 more · 33 left", one tap → 30, switching feed → back to 15; a 900-character post shows 291 characters folded, 910 open, and folds again. No errors, no overflow.
+
+## FB-9 — prompt
+Add "Copy" on each post (type, place, course, version, date, message and replies as plain text) and "Copy shown" above the board for every post that passes the current filters, so reports can be pasted straight into a fix session. Check with a stubbed clipboard: copying post 1 gives its place, message and the reply; with the Bugs feed and Open status, Copy shown contains the open bug reports and not the fixed one.
+
+### FB-9 — results
+Per-post Copy and "Copy shown" added. Test with a stubbed clipboard: post 1 copies as "[bug] today · en-vi · v2.48.0 · 2026-11-20 · Ana · #1", its message, and "↳ Developer: Thanks, fixed…"; Bugs + Open → Copy shown holds the two open bug reports and neither the fixed bug nor an idea. No errors, no overflow.
+
+## FB-10 — prompt
+Links to a post: a "Link" button copies an address ending in #feedback-<id>; opening such an address clears the filters, makes sure the post is on screen, scrolls to it and highlights it; and after someone sends feedback the board jumps to their new post in the same way. Check: opening #feedback-4 with a search and a feed filter active shows post 4 highlighted; a post beyond the first 15 is still reached; after a mocked send the new post is highlighted; the Link button copies an address ending in #feedback-4.
+
+### FB-10 — results
+Post links and jump added (#feedback-<id>). Test: Link copies an address ending "#feedback-4"; with the Ideas feed and a search active, opening #feedback-4 resets to All with an empty search and highlights post 4; a post 45 places down is reached (limit raised to 60) and highlighted; a link to a reply highlights it under its parent; after a mocked send the new post is highlighted. Screenshot checked at 390 px. Final: fbtest.js all checks, harness 88 guards, no errors, no overflow. Shipped FB-6 … FB-10 as 2.50.0.
+
+| # | Change | Result |
+|---|---|---|
+| FB-1 | Search box | pass |
+| FB-2 | Open / Fixed chips, sort | pass |
+| FB-3 | My posts; hidden posts hidden on the client | pass |
+| FB-4 | Place line filters by page; Go to page | pass |
+| FB-5 | Pages with open reports | pass |
+| FB-6 | Placeholders per type; saved draft | pass |
+| FB-7 | Ages in words; new-since-last-visit badge and count | pass |
+| FB-8 | 15 at a time; long posts folded | pass |
+| FB-9 | Copy post; Copy shown | pass |
+| FB-10 | Post links, jump and highlight | pass |
+Not done: none of this was run against the live board data; new strings are English only.
