@@ -12,11 +12,11 @@ module.exports = {
 ਛੋਲੇ ਭਟੂਰੇ | chhole bhàṭūre | chole bhature (chickpeas with fried bread) | Both words are masculine plural, so the dish takes ਹਨ.
 ਲੰਗਰ | langar | langar (the free meal at a gurdwara) | Masculine. Everyone eats together, sitting on the floor, head covered.
 ਅੱਜ ਕੀ ਬਣਿਆ ਹੈ? | ajj kī baṇiā hai? | What's cooking today? | Literally "what has been made today?": at home or at a dhaba.
-ਮਿਰਚ ਘੱਟ ਪਾਓ ਜੀ। | mirach ghàṭṭ pāo jī. | Not too spicy, please. | Literally "put in less chili". ਮਿਰਚ is feminine.
+ਮਿਰਚ ਘੱਟ ਪਾਓ ਜੀ। | mirch ghàṭṭ pāo jī. | Not too spicy, please. | Literally "put in less chili". ਮਿਰਚ is feminine.
 ਇਹ ਬਹੁਤ ਤਿੱਖਾ ਹੈ। | íh báhut tikkhā hai. | This is very spicy. | ਤਿੱਖਾ changes: ਤਿੱਖੀ ਦਾਲ, ਤਿੱਖੇ ਛੋਲੇ.
 ਬਹੁਤ ਸੁਆਦ ਹੈ! | báhut suād hai! | It's really tasty! | The everyday compliment to the cook.
 ਬਿੱਲ ਲਿਆਓ ਜੀ। | bill liāo jī. | The check, please. | ਲਿਆਓ = bring. ਬਿੱਲ is masculine.
-ਬੱਸ, ਮੇਰਾ ਢਿੱਡ ਭਰ ਗਿਆ। | bass, merā ḍhìḍḍ bhàr giā. | That's enough, I'm full. | ਬੱਸ here means "enough"; ਢਿੱਡ (stomach) is masculine, so ਭਰ ਗਿਆ.
+ਬਸ, ਮੇਰਾ ਢਿੱਡ ਭਰ ਗਿਆ। | bas, merā ḍhìḍḍ bhàr giā. | That's enough, I'm full. | ਬਸ = enough (ਬੱਸ, with the addak, is a bus). ਢਿੱਡ (stomach) is masculine, so ਭਰ ਗਿਆ.
 ਮੈਂ ਮਾਸ ਨਹੀਂ ਖਾਂਦੀ। | maĩ mās náhī̃ khā̃dī. | I don't eat meat. (a woman speaking) | A man says ਖਾਂਦਾ. With ਨਹੀਂ the ਹਾਂ is usually dropped.
 `,
   "Time, days and routine": `
@@ -106,11 +106,11 @@ module.exports = {
 ਮੈਨੂੰ ਦੋ ਕਿੱਲੋ ਆਲੂ ਚਾਹੀਦੇ ਹਨ। | mainū̃ do killo ālū chā́hīde han. | I need two kilos of potatoes. | ਆਲੂ is masculine plural here, so ਚਾਹੀਦੇ ਹਨ.
 ਇਹ ਕਮੀਜ਼ ਕਿੰਨੇ ਦੀ ਹੈ? | íh kamīz kinne dī hai? | How much is this shirt? | ਦੀ agrees with ਕਮੀਜ਼ (feminine). For a masculine thing: ਕਿੰਨੇ ਦਾ.
 ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਵੱਡਾ ਸਾਈਜ਼ ਹੈ? | kī tuhā̀ḍe kol vaḍḍā sāīz hai? | Do you have a bigger size? | ਤੁਹਾਡਾ → ਤੁਹਾਡੇ before ਕੋਲ.
-ਮੈਂ ਬੱਸ ਦੇਖ ਰਹੀ ਹਾਂ। | maĩ bass dekh ráhī hā̃. | I'm just looking. (a woman speaking) | ਬੱਸ here means "just". A man says ਦੇਖ ਰਿਹਾ ਹਾਂ.
+ਮੈਂ ਬਸ ਦੇਖ ਰਹੀ ਹਾਂ। | maĩ bas dekh ráhī hā̃. | I'm just looking. (a woman speaking) | ਬਸ = just, only (ਬੱਸ is a bus). A man says ਦੇਖ ਰਿਹਾ ਹਾਂ.
 ਚਾਰ ਸੌ ਵਿੱਚ ਦੇ ਦਿਓ ਜੀ। | chār sau vicch de dio jī. | Let me have it for four hundred. | Making an offer: ਚਾਰ ਸੌ ਵਿੱਚ, "for four hundred".
 ਠੀਕ ਹੈ, ਮੈਂ ਲੈ ਲਵਾਂਗਾ। | ṭhīk hai, maĩ lai lavā̃gā. | OK, I'll take it. (a man speaking) | A woman says ਲੈ ਲਵਾਂਗੀ.
 ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਖੁੱਲ੍ਹੇ ਪੈਸੇ ਹਨ? | kī tuhā̀ḍe kol khúllhe paise han? | Do you have change? | ਖੁੱਲ੍ਹੇ ਪੈਸੇ = small notes and coins.
-ਮੇਰੇ ਕੋਲ ਸਿਰਫ਼ ਸੌ ਰੁਪਏ ਹਨ। | mere kol siraf sau rupae han. | I only have a hundred rupees. | ਸਿਰਫ਼ = only. ਰੁਪਏ is plural, so ਹਨ.
+ਮੇਰੇ ਕੋਲ ਸਿਰਫ਼ ਸੌ ਰੁਪਏ ਹਨ। | mere kol sirf sau rupae han. | I only have a hundred rupees. | ਸਿਰਫ਼ = only. ਰੁਪਏ is plural, so ਹਨ.
 ਦੁਕਾਨ | dukān | shop | Feminine: ਦੁਕਾਨ ਬੰਦ ਹੈ, the shop is closed.
 ਸਬਜ਼ੀ ਮੰਡੀ | sabzī maṇḍī | vegetable market | Feminine. ਸਬਜ਼ੀ alone means vegetables or a vegetable dish.
 ਸੂਟ | sūṭ | salwar suit (a woman's outfit) | Masculine. Also the English "suit".
@@ -121,12 +121,12 @@ module.exports = {
 ਮੇਰੇ ਸਿਰ ਵਿੱਚ ਦਰਦ ਹੈ। | mere sir vicch darad hai. | I have a headache. | Literally "there is pain in my head".
 ਡਾਕਟਰ | ḍākṭar | doctor | Masculine word, used for women too.
 ਮਦਦ ਕਰੋ! | madad karo! | Help! | Polite: ਮੇਰੀ ਮਦਦ ਕਰੋ ਜੀ.
-ਮੈਨੂੰ ਜਾਣਾ ਪੈਂਦਾ ਹੈ। | mainū̃ jāṇā paĩdā hai. | I have to go. | Must: ਮੈਨੂੰ + infinitive + ਪੈਂਦਾ ਹੈ.
+ਮੈਨੂੰ ਜਾਣਾ ਪੈਂਦਾ ਹੈ। | mainū̃ jāṇā paĩdā hai. | I have to go. (as a rule) | ਮੈਨੂੰ + infinitive + ਪੈਂਦਾ ਹੈ: something you regularly have to do. Right now or later: ਮੈਨੂੰ ਜਾਣਾ ਪਵੇਗਾ.
 ਮੇਰੀ ਤਬੀਅਤ ਠੀਕ ਨਹੀਂ ਹੈ। | merī tabīat ṭhīk náhī̃ hai. | I'm not feeling well. | ਤਬੀਅਤ (health, how you feel) is feminine, so ਮੇਰੀ.
 ਮੇਰੇ ਢਿੱਡ ਵਿੱਚ ਦਰਦ ਹੈ। | mere ḍhìḍḍ vicch darad hai. | I have a stomachache. | ਢਿੱਡ is masculine, so ਮੇਰੇ before ਵਿੱਚ.
 ਮੈਨੂੰ ਖੰਘ ਹੈ। | mainū̃ khángh hai. | I have a cough. | Like ਬੁਖ਼ਾਰ: ਮੈਨੂੰ + illness + ਹੈ.
 ਦਵਾਈ | davāī | medicine | Feminine. Punjabi "eats" medicine: ਦਵਾਈ ਖਾਓ.
-ਹਸਪਤਾਲ | hasaptāl | hospital | Masculine: ਹਸਪਤਾਲ ਵਿੱਚ.
+ਹਸਪਤਾਲ | haspatāl | hospital | Masculine: ਹਸਪਤਾਲ ਵਿੱਚ.
 ਦਵਾਈਆਂ ਦੀ ਦੁਕਾਨ ਕਿੱਥੇ ਹੈ? | davāīā̃ dī dukān kitthe hai? | Where is the pharmacy? | Literally "the medicines' shop". Also ਕੈਮਿਸਟ.
 ਡਾਕਟਰ ਨੂੰ ਬੁਲਾਓ! | ḍākṭar nū̃ bulāo! | Call a doctor! | ਬੁਲਾਓ = call (someone to come).
 ਪੁਲਿਸ ਨੂੰ ਫ਼ੋਨ ਕਰੋ! | pulis nū̃ fon karo! | Call the police! | ਫ਼ੋਨ ਕਰੋ = phone.
@@ -161,7 +161,7 @@ module.exports = {
 ਮੈਨੂੰ ਠੰਢ ਲੱਗ ਰਹੀ ਹੈ। | mainū̃ ṭháṇḍh lagg ráhī hai. | I'm cold. | Not ਮੈਂ ਠੰਢਾ ਹਾਂ ("I am a cold thing").
 ਕੱਲ੍ਹ | kállh | yesterday; tomorrow | The tense decides which. High tone.
 ਤੂੰ | tū̃ | you (very close, or rude) | For close friends, small children and God. With adults, ਤੁਸੀਂ.
-ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ। | tuhā̀ḍā savāgat hai. | Welcome! (to a guest) | Never an answer to thanks: for "you're welcome" say ਕੋਈ ਗੱਲ ਨਹੀਂ.
+ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ। | tuhā̀ḍā savāgat hai. | Welcome! (formal, to a guest) | Formal and bookish; at the door Punjabi says ਜੀ ਆਇਆਂ ਨੂੰ. Never an answer to thanks: for "you're welcome" say ਕੋਈ ਗੱਲ ਨਹੀਂ.
 ਮੈਂ ਪੱਚੀ ਸਾਲਾਂ ਦਾ ਹਾਂ। | maĩ pacchī sālā̃ dā hā̃. | I'm twenty-five. (a man speaking) | Literally "of twenty-five years". A woman says ਦੀ ਹਾਂ. Not ਮੈਂ ਪੱਚੀ ਸਾਲ ਹਾਂ.
 ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ। | mainū̃ bhùkkh laggī hai. | I'm hungry. | Literally "hunger has struck me". ਭੁੱਖ is feminine, so ਲੱਗੀ.
 ਮੈਨੂੰ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ। | mainū̃ pāṇī chā́hīdā hai. | I need water. | Not ਮੈਂ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ: the one who needs takes ਨੂੰ.

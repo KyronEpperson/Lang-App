@@ -7,9 +7,9 @@ module.exports = [
     deck: "Home and daily things",
     body: `
 <p>You already know the habitual, <b>ਮੈਂ ਕੰਮ ਕਰਦਾ ਹਾਂ</b>, "I work" (in general, every day). English has a second present for what is happening at this moment: "I am working". Punjabi has one too.</p>
-<h3>Stem + ਰਿਹਾ + ਹਾਂ / ਹੈ / ਹੋ / ਹਨ</h3>
-<p>Take the stem of the verb (the infinitive minus -ਣਾ / -ਨਾ: <b>ਕਰ</b> <i>kar</i>, <b>ਖਾ</b> <i>khā</i>, <b>ਪੜ੍ਹ</b> <i>páṛh</i>), add a form of <b>ਰਿਹਾ</b> <i>ríhā</i>, then the usual <b>ਹਾਂ</b>, <b>ਹੈ</b>, <b>ਹੋ</b> or <b>ਹਨ</b>. The stem never changes. The middle word changes to agree with the person doing the action, exactly like an adjective ending in -ā.</p>
-<div class="tbl"><table><tr><th>Who</th><th>Form</th><th>Example</th></tr><tr><td>one man or boy</td><td class="k">ਰਿਹਾ</td><td class="k">ਮੈਂ ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ।</td></tr><tr><td>one woman or girl</td><td class="k">ਰਹੀ</td><td class="k">ਮੈਂ ਕੰਮ ਕਰ ਰਹੀ ਹਾਂ।</td></tr><tr><td>men, a mixed group, or polite ਤੁਸੀਂ</td><td class="k">ਰਹੇ</td><td class="k">ਤੁਸੀਂ ਕੀ ਕਰ ਰਹੇ ਹੋ?</td></tr><tr><td>women or girls</td><td class="k">ਰਹੀਆਂ</td><td class="k">ਕੁੜੀਆਂ ਆ ਰਹੀਆਂ ਹਨ।</td></tr></table></div>
+<h3>Stem + <b>ਰਿਹਾ</b> + <b>ਹਾਂ</b> / <b>ਹੈ</b> / <b>ਹੋ</b> / <b>ਹਨ</b></h3>
+<p>Take the stem of the verb (the infinitive minus -<b>ਣਾ</b> / -<b>ਨਾ</b>: <b>ਕਰ</b> <i>kar</i>, <b>ਖਾ</b> <i>khā</i>, <b>ਪੜ੍ਹ</b> <i>páṛh</i>), add a form of <b>ਰਿਹਾ</b> <i>ríhā</i>, then the usual <b>ਹਾਂ</b>, <b>ਹੈ</b>, <b>ਹੋ</b> or <b>ਹਨ</b>. The stem never changes. The middle word changes to agree with the person doing the action, exactly like an adjective ending in -ā.</p>
+<div class="tbl"><table><tr><th>Who</th><th>Form</th><th>Example</th></tr><tr><td>one man or boy</td><td class="k">ਰਿਹਾ</td><td class="k">ਮੈਂ ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ।</td></tr><tr><td>one woman or girl</td><td class="k">ਰਹੀ</td><td class="k">ਮੈਂ ਕੰਮ ਕਰ ਰਹੀ ਹਾਂ।</td></tr><tr><td>men, a mixed group, or polite <b>ਤੁਸੀਂ</b></td><td class="k">ਰਹੇ</td><td class="k">ਤੁਸੀਂ ਕੀ ਕਰ ਰਹੇ ਹੋ?</td></tr><tr><td>women or girls</td><td class="k">ਰਹੀਆਂ</td><td class="k">ਕੁੜੀਆਂ ਆ ਰਹੀਆਂ ਹਨ।</td></tr></table></div>
 {{ex:ਮੈਂ ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ।|maĩ kamm kar ríhā hā̃.|I'm working. (a man speaking)}}
 {{ex:ਮੈਂ ਕੰਮ ਕਰ ਰਹੀ ਹਾਂ।|maĩ kamm kar ráhī hā̃.|I'm working. (a woman speaking)}}
 {{ex:ਉਹ ਕਿਤਾਬ ਪੜ੍ਹ ਰਹੀ ਹੈ।|úh kitāb páṛh ráhī hai.|She is reading a book.}}
@@ -22,8 +22,8 @@ module.exports = [
 <p>A group of men or a mixed group takes <b>ਰਹੇ</b>; a group of only women or girls takes <b>ਰਹੀਆਂ</b>. The last word is <b>ਹਨ</b> for both.</p>
 {{ex:ਮੁੰਡੇ ਰੋਟੀ ਖਾ ਰਹੇ ਹਨ।|muṇḍe roṭī khā ráhe han.|The boys are eating.}}
 {{ex:ਕੁੜੀਆਂ ਆ ਰਹੀਆਂ ਹਨ।|kuṛīā̃ ā ráhīā̃ han.|The girls are coming.}}
-<h3>Not for liking and having</h3>
-<p>English says "I like this" and "I have a car", never "I am liking". Punjabi agrees: <b>ਮੈਨੂੰ ਇਹ ਪਸੰਦ ਹੈ</b> stays as it is. Use the continuous for actions happening now, and the habitual for habits and facts.</p>
+<h3>Not for knowing and liking</h3>
+<p>English says "I like this" and "I know Punjabi", not "I am liking". Punjabi agrees: <b>ਮੈਨੂੰ ਇਹ ਪਸੰਦ ਹੈ</b> and <b>ਮੈਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ</b> stay as they are. Use the continuous for actions happening now, and the habitual for habits and facts.</p>
 <p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> using the habitual for "right now", or forgetting to make the middle word agree. <b>ਮੈਂ ਹੁਣ ਚਾਹ ਪੀਂਦੀ ਹਾਂ</b> for "I'm drinking tea now" → <b>ਮੈਂ ਚਾਹ ਪੀ ਰਹੀ ਹਾਂ</b>. And <b>ਕੁੜੀਆਂ ਆ ਰਹੇ ਹਨ</b> → <b>ਕੁੜੀਆਂ ਆ ਰਹੀਆਂ ਹਨ</b>.</div>
 `,
@@ -40,7 +40,7 @@ module.exports = [
       ["mc","Where are you going? (politely) =","ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ ਹੋ?","ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਿਹਾ ਹੈ?","ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ ਹਨ?","ਤੁਸੀਂ ਕਿੱਥੇ ਜਾਂਦੇ ਹੋ?","ਤੁਸੀਂ always takes the plural: ਜਾ ਰਹੇ ਹੋ."],
       ["or","I'm reading a book. (a woman speaking)","ਮੈਂ ਕਿਤਾਬ ਪੜ੍ਹ ਰਹੀ ਹਾਂ","ਰਿਹਾ","A woman is speaking, so ਰਹੀ agrees with her (feminine)."],
       ["or","The boys are eating.","ਮੁੰਡੇ ਰੋਟੀ ਖਾ ਰਹੇ ਹਨ","ਰਿਹਾ","ਮੁੰਡੇ is masculine plural, so ਰਹੇ agrees with it."],
-      ["or","What are you doing? (politely)","ਤੁਸੀਂ ਕੀ ਕਰ ਰਹੇ ਹੋ?","ਹੈ","ਤੁਸੀਂ is plural, so the verb agrees: ਰਹੇ ਹੋ, never ਹੈ."],
+      ["or","What are you doing? (politely)","ਤੁਸੀਂ ਕੀ ਕਰ ਰਹੇ ਹੋ","ਹੈ","ਤੁਸੀਂ is plural, so the verb agrees: ਰਹੇ ਹੋ, never ਹੈ."],
       ["fi","ਉਹ ਚਾਹ ਪੀ __ ਹੈ।","She is drinking tea.","ਰਹੀ","ਰਿਹਾ|ਰਹੇ|ਰਹੀਆਂ","One woman: ਰਹੀ."],
       ["fi","ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ __?","Where are you going?","ਹੋ","ਹੈ|ਹਾਂ|ਹਨ","ਤੁਸੀਂ always ends with ਹੋ."],
       ["fi","ਬੱਚੇ ਸੌਂ ਰਹੇ __।","The children are sleeping.","ਹਨ","ਹੈ|ਹੋ|ਹਾਂ","Several children: ਰਹੇ ਹਨ."],
@@ -70,7 +70,7 @@ module.exports = [
 {{ex:ਤੁਸੀਂ ਕਿੰਨੇ ਵਜੇ ਉੱਠਦੇ ਹੋ?|tusī̃ kinne vaje uṭṭhde ho?|What time do you get up?}}
 <p>So <b>ਕਿੰਨੇ ਵਜੇ</b> does two jobs: "what time is it?" and "at what time?". Punjabi has no a.m. and p.m. either. When it matters, add the part of the day in front: <b>ਸਵੇਰੇ ਸੱਤ ਵਜੇ</b> is seven in the morning. In everyday speech you will also hear the English loan <b>ਟਾਈਮ</b>, but the clock itself is always told with <b>ਵਜੇ</b>.</p>
 <h3>Days and parts of the day</h3>
-<p>The days end in -ਵਾਰ: <b>ਸੋਮਵਾਰ</b> (Monday), <b>ਮੰਗਲਵਾਰ</b>, <b>ਬੁੱਧਵਾਰ</b>, <b>ਵੀਰਵਾਰ</b>, <b>ਸ਼ੁੱਕਰਵਾਰ</b>, <b>ਸ਼ਨੀਵਾਰ</b>, <b>ਐਤਵਾਰ</b> <i>aitvār</i> (Sunday). Where English says "on Monday", Punjabi puts the postposition <b>ਨੂੰ</b> after the day: <b>ਸੋਮਵਾਰ ਨੂੰ</b>. Evening and night work the same way: <b>ਸ਼ਾਮ ਨੂੰ</b>, <b>ਰਾਤ ਨੂੰ</b>. Morning and afternoon have their own forms: <b>ਸਵੇਰੇ</b> <i>savere</i>, <b>ਦੁਪਹਿਰੇ</b> <i>dupáhire</i>.</p>
+<p>The days end in -<b>ਵਾਰ</b>: <b>ਸੋਮਵਾਰ</b> (Monday), <b>ਮੰਗਲਵਾਰ</b>, <b>ਬੁੱਧਵਾਰ</b>, <b>ਵੀਰਵਾਰ</b>, <b>ਸ਼ੁੱਕਰਵਾਰ</b>, <b>ਸ਼ਨੀਵਾਰ</b> (also <b>ਸ਼ਨਿੱਚਰਵਾਰ</b>), <b>ਐਤਵਾਰ</b> <i>aitvār</i> (Sunday). Where English says "on Monday", Punjabi puts the postposition <b>ਨੂੰ</b> after the day: <b>ਸੋਮਵਾਰ ਨੂੰ</b>. Evening and night work the same way: <b>ਸ਼ਾਮ ਨੂੰ</b>, <b>ਰਾਤ ਨੂੰ</b>. Morning and afternoon have their own forms: <b>ਸਵੇਰੇ</b> <i>savere</i>, <b>ਦੁਪਹਿਰੇ</b> <i>dupáhire</i>.</p>
 {{ex:ਮੈਂ ਐਤਵਾਰ ਨੂੰ ਕੰਮ ਨਹੀਂ ਕਰਦੀ।|maĩ aitvār nū̃ kamm náhī̃ kardī.|I don't work on Sunday. (a woman speaking)}}
 {{ex:ਅਸੀਂ ਰਾਤ ਨੂੰ ਟੀਵੀ ਦੇਖਦੇ ਹਾਂ।|asī̃ rāt nū̃ ṭīvī dekhde hā̃.|We watch TV at night.}}
 <p>Time words usually come right after the subject, but they can also open the sentence: <b>ਐਤਵਾਰ ਨੂੰ ਮੈਂ ਕੰਮ ਨਹੀਂ ਕਰਦੀ</b> is just as good.</p>
@@ -78,19 +78,19 @@ module.exports = [
 <div class="tip"><b>Most common mistake:</b> building half past word for word from English. <b>ਤਿੰਨ ਅਤੇ ਅੱਧਾ ਵਜੇ</b> → <b>ਸਾਢੇ ਤਿੰਨ ਵਜੇ</b>. And a day needs <b>ਨੂੰ</b>: <b>ਸੋਮਵਾਰ ਮੈਂ ਜਾਂਦਾ ਹਾਂ</b> → <b>ਸੋਮਵਾਰ ਨੂੰ ਮੈਂ ਜਾਂਦਾ ਹਾਂ</b>.</div>
 `,
     check: [
-      ["How do you say 2:30?",["ਸਾਢੇ ਦੋ ਵਜੇ","ਢਾਈ ਵਜੇ","ਡੇਢ ਵਜੇ","ਦੋ ਅਤੇ ਅੱਧਾ ਵਜੇ"],1,"1:30 and 2:30 have their own words: ਡੇਢ and ਢਾਈ. ਸਾਢੇ starts at 3:30."],
+      ["How do you say 2:30?",["ਸਵਾ ਦੋ ਵਜੇ","ਢਾਈ ਵਜੇ","ਡੇਢ ਵਜੇ","ਦੋ ਅਤੇ ਅੱਧਾ ਵਜੇ"],1,"1:30 and 2:30 have their own words: ਡੇਢ and ਢਾਈ. ਸਵਾ ਦੋ is 2:15, and ਸਾਢੇ starts at 3:30."],
       ["What time is ਪੌਣੇ ਛੇ ਵਜੇ?",["6:15","6:45","5:30","5:45"],3,"ਪੌਣੇ names the coming hour: a quarter less than six, 5:45."],
       ["Why is it ਤਿੰਨ ਵਜੇ ਹਨ and not ਤਿੰਨ ਵਜੇ ਹੈ?",["ਵਜੇ is plural, so the verb is ਹਨ","ਹਨ is the polite form","Numbers always take ਹਨ","Both are wrong"],0,"ਵਜੇ is plural, and a plural subject takes ਹਨ."]
     ],
     practice: [
       ["mc","It's half past four. =","ਸਾਢੇ ਚਾਰ ਵਜੇ ਹਨ।","ਸਵਾ ਚਾਰ ਵਜੇ ਹਨ।","ਪੌਣੇ ਚਾਰ ਵਜੇ ਹਨ।","ਚਾਰ ਅਤੇ ਅੱਧਾ ਵਜੇ ਹਨ।","ਸਾਢੇ = half past: ਸਾਢੇ ਚਾਰ is 4:30."],
-      ["mc","1:30 =","ਡੇਢ ਵਜੇ","ਸਾਢੇ ਇੱਕ ਵਜੇ","ਢਾਈ ਵਜੇ","ਸਵਾ ਇੱਕ ਵਜੇ","1:30 has its own word, ਡੇਢ; ਢਾਈ is 2:30 and ਸਵਾ ਇੱਕ is 1:15."],
+      ["mc","1:30 =","ਡੇਢ ਵਜੇ","ਪੌਣੇ ਦੋ ਵਜੇ","ਢਾਈ ਵਜੇ","ਸਵਾ ਇੱਕ ਵਜੇ","1:30 has its own word, ਡੇਢ; ਪੌਣੇ ਦੋ is 1:45, ਢਾਈ is 2:30 and ਸਵਾ ਇੱਕ is 1:15."],
       ["mc","quarter to six (5:45) =","ਪੌਣੇ ਛੇ ਵਜੇ","ਪੌਣੇ ਪੰਜ ਵਜੇ","ਸਵਾ ਛੇ ਵਜੇ","ਸਵਾ ਪੰਜ ਵਜੇ","ਪੌਣੇ names the coming hour: ਪੌਣੇ ਛੇ is a quarter less than six."],
       ["mc","on Sunday =","ਐਤਵਾਰ ਨੂੰ","ਐਤਵਾਰ ਵਿੱਚ","ਨੂੰ ਐਤਵਾਰ","ਐਤਵਾਰ ਤੋਂ","A day takes ਨੂੰ, after the day: ਐਤਵਾਰ ਨੂੰ."],
       ["mc","in the evening =","ਸ਼ਾਮ ਨੂੰ","ਸ਼ਾਮ ਵਿੱਚ","ਨੂੰ ਸ਼ਾਮ","ਸ਼ਾਮ ਤੋਂ","Evening and night take ਨੂੰ: ਸ਼ਾਮ ਨੂੰ, ਰਾਤ ਨੂੰ."],
       ["or","It's three o'clock.","ਤਿੰਨ ਵਜੇ ਹਨ","ਹੈ","ਵਜੇ is plural, so the verb agrees: ਹਨ."],
       ["or","I get up at seven. (a woman speaking; start with ਮੈਂ)","ਮੈਂ ਸੱਤ ਵਜੇ ਉੱਠਦੀ ਹਾਂ","ਉੱਠਦਾ","A woman is speaking, so ਉੱਠਦੀ agrees with her (feminine)."],
-      ["or","What time do you get up? (politely)","ਤੁਸੀਂ ਕਿੰਨੇ ਵਜੇ ਉੱਠਦੇ ਹੋ?","ਉੱਠਦਾ","ਤੁਸੀਂ is plural, so ਉੱਠਦੇ agrees with it."],
+      ["or","What time do you get up? (politely; start with ਤੁਸੀਂ)","ਤੁਸੀਂ ਕਿੰਨੇ ਵਜੇ ਉੱਠਦੇ ਹੋ","ਉੱਠਦਾ","ਤੁਸੀਂ is plural, so ਉੱਠਦੇ agrees with it."],
       ["fi","__ ਤਿੰਨ ਵਜੇ ਹਨ।","It's half past three.","ਸਾਢੇ","ਸਵਾ|ਪੌਣੇ|ਡੇਢ","Half past, from three on, is ਸਾਢੇ."],
       ["fi","ਮੈਂ ਸੋਮਵਾਰ __ ਦਿੱਲੀ ਜਾਂਦਾ ਹਾਂ।","I go to Delhi on Monday. (a man speaking)","ਨੂੰ","ਵਿੱਚ|ਤੋਂ|ਕੋ","On a day = the day + ਨੂੰ. ਕੋ is Hindi."],
       ["fi","ਪੌਣੇ __ ਵਜੇ ਹਨ।","It's quarter to eight. (7:45)","ਅੱਠ","ਸੱਤ|ਛੇ|ਦਸ","ਪੌਣੇ names the coming hour: 7:45 is ਪੌਣੇ ਅੱਠ."],
@@ -106,20 +106,20 @@ module.exports = [
     deck: "Shopping and the market",
     body: `
 <p>English uses one verb for everything: "I have a car", "I have a brother", "I have a fever". Punjabi has no verb "to have". It uses three different patterns, one for each kind of having, and the verb is always a form of <b>ਹੈ</b>.</p>
-<h3>Things: ਮੇਰੇ ਕੋਲ ... ਹੈ</h3>
+<h3>Things: <b>ਮੇਰੇ ਕੋਲ</b> ... <b>ਹੈ</b></h3>
 <p>For things you own or carry, Punjabi says "near me there is": <b>ਮੇਰੇ ਕੋਲ</b> <i>mere kol</i>. <b>ਕੋਲ</b> is a postposition, so <b>ਮੇਰਾ</b> takes the oblique form <b>ਮੇਰੇ</b>, just like <b>ਮੇਰੇ ਘਰ ਵਿੱਚ</b>. The same goes for <b>ਤੁਹਾਡੇ ਕੋਲ</b> and <b>ਸਾਡੇ ਕੋਲ</b>; for "he" or "she" it is <b>ਉਸ ਕੋਲ</b>.</p>
 {{ex:ਮੇਰੇ ਕੋਲ ਕਾਰ ਹੈ।|mere kol kār hai.|I have a car.}}
 {{ex:ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਟਾਈਮ ਹੈ?|kī tuhā̀ḍe kol ṭāīm hai?|Do you have time?}}
 <p>The verb agrees with the thing, not with the owner: one thing takes <b>ਹੈ</b>, several take <b>ਹਨ</b>. To say you don't have something, put <b>ਨਹੀਂ</b> before the verb.</p>
 {{ex:ਮੇਰੇ ਕੋਲ ਤਿੰਨ ਕਿਤਾਬਾਂ ਹਨ।|mere kol tinn kitābā̃ han.|I have three books.}}
 {{ex:ਮੇਰੇ ਕੋਲ ਪੈਸੇ ਨਹੀਂ ਹਨ।|mere kol paise náhī̃ han.|I don't have any money.}}
-<h3>Relatives: ਮੇਰਾ ਇੱਕ ਭਰਾ ਹੈ</h3>
+<h3>Relatives: <b>ਮੇਰਾ ਇੱਕ ਭਰਾ ਹੈ</b></h3>
 <p>People are not things you carry around, so relatives and friends use the possessive: "my one brother is". The possessive agrees with the relative, as you learned with family words: <b>ਮੇਰਾ</b> for a brother, <b>ਮੇਰੀ</b> for a sister, <b>ਮੇਰੀਆਂ</b> for sisters.</p>
 {{ex:ਮੇਰਾ ਇੱਕ ਭਰਾ ਹੈ।|merā ikk bhàrā hai.|I have a brother.}}
 {{ex:ਮੇਰੀਆਂ ਦੋ ਭੈਣਾਂ ਹਨ।|merīā̃ do bhaìṇā̃ han.|I have two sisters.}}
 {{ex:ਉਸ ਦੀਆਂ ਦੋ ਧੀਆਂ ਹਨ।|us dīā̃ do dhī̀ā̃ han.|She has two daughters.}}
-<p>If you say <b>ਮੇਰੇ ਕੋਲ ਇੱਕ ਭਰਾ ਹੈ</b>, it sounds as if your brother is standing next to you right now.</p>
-<h3>Illnesses: ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ</h3>
+<p>To most speakers <b>ਮੇਰੇ ਕੋਲ ਇੱਕ ਭਰਾ ਹੈ</b> sounds odd: <b>ਕੋਲ</b> means "near", as if your brother were standing next to you right now.</p>
+<h3>Illnesses: <b>ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ</b></h3>
 <p>Fevers and colds happen to you, so they take <b>ਮੈਨੂੰ</b> <i>mainū̃</i>, the same form as in <b>ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ</b>. For someone else, use their form with <b>ਨੂੰ</b>: <b>ਉਸ ਨੂੰ ਬੁਖ਼ਾਰ ਹੈ</b>, "he has a fever" or "she has a fever".</p>
 {{ex:ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ।|mainū̃ buḵhār hai.|I have a fever.}}
 {{ex:ਮੈਨੂੰ ਜ਼ੁਕਾਮ ਹੈ।|mainū̃ zukām hai.|I have a cold.}}
@@ -137,17 +137,17 @@ module.exports = [
       ["mc","I have a car. =","ਮੇਰੇ ਕੋਲ ਕਾਰ ਹੈ।","ਮੈਂ ਕਾਰ ਹੈ।","ਮੇਰਾ ਕੋਲ ਕਾਰ ਹੈ।","ਮੈਨੂੰ ਕਾਰ ਹੈ।","Things take ਮੇਰੇ ਕੋਲ: near me there is a car."],
       ["mc","I have a brother. =","ਮੇਰਾ ਇੱਕ ਭਰਾ ਹੈ।","ਮੇਰੇ ਕੋਲ ਇੱਕ ਭਰਾ ਹੈ।","ਮੈਂ ਇੱਕ ਭਰਾ ਹਾਂ।","ਮੇਰੀ ਇੱਕ ਭਰਾ ਹੈ।","Relatives take the possessive: ਮੇਰਾ ਇੱਕ ਭਰਾ ਹੈ. With ਕੋਲ he would be standing next to you."],
       ["mc","I have a fever. =","ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ।","ਮੇਰੇ ਕੋਲ ਬੁਖ਼ਾਰ ਹੈ।","ਮੈਂ ਬੁਖ਼ਾਰ ਹਾਂ।","ਮੇਰਾ ਬੁਖ਼ਾਰ ਹੈ।","Illnesses take ਮੈਨੂੰ: ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ."],
-      ["mc","She has two daughters. =","ਉਸ ਦੀਆਂ ਦੋ ਧੀਆਂ ਹਨ।","ਉਸ ਦੇ ਦੋ ਧੀਆਂ ਹਨ।","ਉਸ ਦੀ ਦੋ ਧੀਆਂ ਹੈ।","ਉਸ ਕੋਲ ਦੋ ਧੀਆਂ ਹਨ।","Relatives take the possessive, and ਦੀਆਂ agrees with ਧੀਆਂ."],
+      ["mc","She has two daughters. =","ਉਸ ਦੀਆਂ ਦੋ ਧੀਆਂ ਹਨ।","ਉਸ ਦਾ ਦੋ ਧੀਆਂ ਹਨ।","ਉਸ ਦੀ ਦੋ ਧੀਆਂ ਹੈ।","ਉਸ ਕੋਲ ਦੋ ਧੀਆਂ ਹਨ।","Relatives take the possessive, and ਦੀਆਂ agrees with ਧੀਆਂ."],
       ["mc","Do you have money? (politely) =","ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਪੈਸੇ ਹਨ?","ਕੀ ਤੁਹਾਡਾ ਕੋਲ ਪੈਸੇ ਹਨ?","ਕੀ ਤੁਸੀਂ ਪੈਸੇ ਹਨ?","ਕੀ ਤੁਹਾਨੂੰ ਪੈਸੇ ਹਨ?","Money is a thing: ਤੁਹਾਡੇ ਕੋਲ, with ਤੁਹਾਡਾ changed before the postposition."],
       ["or","I have a phone.","ਮੇਰੇ ਕੋਲ ਫ਼ੋਨ ਹੈ","ਮੇਰਾ","ਕੋਲ is a postposition, so ਮੇਰਾ takes the oblique form ਮੇਰੇ."],
-      ["or","I have two sisters.","ਮੇਰੀਆਂ ਦੋ ਭੈਣਾਂ ਹਨ","ਮੇਰੇ ਹੈ","ਭੈਣਾਂ is feminine plural, so ਮੇਰੀਆਂ and ਹਨ agree with it."],
-      ["or","Do you have time? (politely)","ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਟਾਈਮ ਹੈ?","ਤੁਸੀਂ","Before the postposition ਕੋਲ you need ਤੁਹਾਡੇ, not ਤੁਸੀਂ."],
+      ["or","I have two sisters.","ਮੇਰੀਆਂ ਦੋ ਭੈਣਾਂ ਹਨ","ਮੇਰਾ ਹੈ","ਭੈਣਾਂ is feminine plural, so ਮੇਰੀਆਂ and ਹਨ agree with it."],
+      ["or","Do you have time? (politely)","ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਟਾਈਮ ਹੈ","ਤੁਸੀਂ","Before the postposition ਕੋਲ you need ਤੁਹਾਡੇ, not ਤੁਸੀਂ."],
       ["fi","ਮੇਰੇ __ ਤਿੰਨ ਕਿਤਾਬਾਂ ਹਨ।","I have three books.","ਕੋਲ","ਨੂੰ|ਵਿੱਚ|ਨਾਲ","Things you have: ਮੇਰੇ ਕੋਲ."],
       ["fi","__ ਬੁਖ਼ਾਰ ਹੈ।","I have a fever.","ਮੈਨੂੰ","ਮੈਂ|ਮੇਰਾ|ਮੇਰੇ","Illnesses take ਮੈਨੂੰ."],
       ["fi","__ ਇੱਕ ਧੀ ਹੈ।","We have a daughter.","ਸਾਡੀ","ਸਾਡਾ|ਸਾਡੇ|ਅਸੀਂ","Relatives take the possessive, and ਸਾਡੀ agrees with ਧੀ."],
       ["ty","I have a car.","ਮੇਰੇ ਕੋਲ ਕਾਰ ਹੈ|ਮੇਰੇ ਕੋਲ ਇੱਕ ਕਾਰ ਹੈ","ਕਾਰ · ਕੋਲ","ਮੇਰਾ ਮੈਂ","ਕੋਲ is a postposition, so ਮੇਰਾ becomes the oblique ਮੇਰੇ."],
       ["ty","I have a fever.","ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ","ਬੁਖ਼ਾਰ · an illness happens to you","ਮੈਂ","Illnesses take ਮੈਨੂੰ, the form of ਮੈਂ used with the postposition ਨੂੰ."],
-      ["ty","She has two daughters.","ਉਸ ਦੀਆਂ ਦੋ ਧੀਆਂ ਹਨ","ਧੀ (plural ਧੀਆਂ) · ਉਸ ਦਾ","ਦੇ ਹੈ","ਧੀਆਂ is feminine plural, so ਦੀਆਂ and ਹਨ agree with it."]
+      ["ty","She has two daughters.","ਉਸ ਦੀਆਂ ਦੋ ਧੀਆਂ ਹਨ","ਧੀ (plural ਧੀਆਂ) · ਉਸ ਦਾ","ਦਾ ਹੈ","ਧੀਆਂ is feminine plural, so ਦੀਆਂ and ਹਨ agree with it."]
     ]
   },
   {
@@ -189,7 +189,7 @@ module.exports = [
       ["mc","How far is it? =","ਕਿੰਨੀ ਦੂਰ ਹੈ?","ਕਿਤਨੀ ਦੂਰ ਹੈ?","ਕਿੱਥੇ ਦੂਰ ਹੈ?","ਦੂਰ ਕਿੰਨੀ ਹਾਂ?","Punjabi says ਕਿੰਨੀ ਦੂਰ; ਕਿਤਨੀ is Hindi."],
       ["mc","Stop here, please. =","ਇੱਥੇ ਰੋਕੋ ਜੀ।","ਯਹਾਂ ਰੋਕੋ ਜੀ।","ਉੱਥੇ ਰੋਕੋ ਜੀ।","ਇੱਥੇ ਰੋਕਦੇ ਹੋ ਜੀ।","ਇੱਥੇ is here (ਯਹਾਂ is Hindi, ਉੱਥੇ is there); ਰੋਕੋ ਜੀ is the polite command."],
       ["or","The hotel is near the gurdwara. (start with ਹੋਟਲ)","ਹੋਟਲ ਗੁਰਦੁਆਰੇ ਦੇ ਨੇੜੇ ਹੈ","ਗੁਰਦੁਆਰਾ","Before the postposition ਦੇ ਨੇੜੇ, ਗੁਰਦੁਆਰਾ takes the oblique: ਗੁਰਦੁਆਰੇ."],
-      ["or","Does this bus go to Amritsar?","ਕੀ ਇਹ ਬੱਸ ਅੰਮ੍ਰਿਤਸਰ ਜਾਂਦੀ ਹੈ?","ਜਾਂਦਾ","ਬੱਸ is feminine, so ਜਾਂਦੀ agrees with it."],
+      ["or","Does this bus go to Amritsar?","ਕੀ ਇਹ ਬੱਸ ਅੰਮ੍ਰਿਤਸਰ ਜਾਂਦੀ ਹੈ","ਜਾਂਦਾ","ਬੱਸ is feminine, so ਜਾਂਦੀ agrees with it."],
       ["or","The shop is behind the bus stand. (start with ਦੁਕਾਨ)","ਦੁਕਾਨ ਬੱਸ ਅੱਡੇ ਦੇ ਪਿੱਛੇ ਹੈ","ਅੱਡਾ","Before the postposition ਦੇ ਪਿੱਛੇ, ਅੱਡਾ takes the oblique: ਅੱਡੇ."],
       ["fi","ਸਟੇਸ਼ਨ ਕਿੰਨੀ __ ਹੈ?","How far is the station?","ਦੂਰ","ਨੇੜੇ|ਕੋਲ|ਪਿੱਛੇ","How far = ਕਿੰਨੀ ਦੂਰ."],
       ["fi","ਹੋਟਲ ਸਟੇਸ਼ਨ __ ਸਾਹਮਣੇ ਹੈ।","The hotel is opposite the station.","ਦੇ","ਦਾ|ਦੀ|ਨੂੰ","The compound postposition is ਦੇ ਸਾਹਮਣੇ."],
@@ -206,21 +206,22 @@ module.exports = [
     deck: "About me",
     body: `
 <p>English has "was" and "were". Punjabi has <b>ਸੀ</b> <i>sī</i> and <b>ਸਨ</b> <i>san</i>, and they replace <b>ਹਾਂ</b>, <b>ਹੈ</b>, <b>ਹੋ</b> and <b>ਹਨ</b> when you talk about the past. If you know some Hindi, this is where <b>ਥਾ</b> sneaks in: Punjabi never uses it.</p>
-<h3>ਸੀ: one person, and most of everyday speech</h3>
-<p><b>ਸੀ</b> goes with <b>ਮੈਂ</b>, <b>ਤੂੰ</b> and <b>ਉਹ</b> (one person), and it does not change for men and women. In everyday speech it also goes with <b>ਅਸੀਂ</b> and <b>ਤੁਸੀਂ</b>. In books you will meet the written forms <b>ਸਾਂ</b> (with ਮੈਂ and ਅਸੀਂ) and <b>ਸੋ</b> (with ਤੁਸੀਂ); you only need to recognize them.</p>
+<h3><b>ਸੀ</b>: one person, and most of everyday speech</h3>
+<p><b>ਸੀ</b> goes with <b>ਮੈਂ</b>, <b>ਤੂੰ</b> and <b>ਉਹ</b> (one person), and it does not change for men and women. In everyday speech it also goes with <b>ਅਸੀਂ</b> and <b>ਤੁਸੀਂ</b>. In books you will meet the written forms <b>ਸਾਂ</b> (with <b>ਮੈਂ</b> and <b>ਅਸੀਂ</b>) and <b>ਸੋ</b> (with <b>ਤੁਸੀਂ</b>); you only need to recognize them.</p>
 {{ex:ਮੈਂ ਘਰ ਸੀ।|maĩ ghàr sī.|I was at home.}}
 {{ex:ਉਹ ਬਹੁਤ ਖ਼ੁਸ਼ ਸੀ।|úh báhut ḵhush sī.|She was very happy.}}
 {{ex:ਤੁਸੀਂ ਕਿੱਥੇ ਸੀ?|tusī̃ kitthe sī?|Where were you?}}
 <p>For "was not", put <b>ਨਹੀਂ</b> just before <b>ਸੀ</b>, as you do before <b>ਹੈ</b>: <b>ਮੈਂ ਘਰ ਨਹੀਂ ਸੀ</b>, "I wasn't at home".</p>
-<h3>ਸਨ: several people, or one respected person</h3>
-<p>The standard form for <b>ਉਹ</b> meaning "they" is <b>ਸਨ</b>, and so is the respect plural: a grandfather with <b>ਜੀ</b> takes <b>ਸਨ</b>, just as he takes <b>ਹਨ</b> in the present. In casual speech many people say <b>ਸੀ</b> here too, so you will hear both.</p>
+<h3><b>ਸਨ</b>: several people, or one respected person</h3>
+<p>The standard form for <b>ਉਹ</b> meaning "they" is <b>ਸਨ</b>, and so is the respect plural: a grandfather with <b>ਜੀ</b> takes <b>ਸਨ</b>, just as he takes <b>ਹਨ</b> in the present. A group of girls or women takes <b>ਸਨ</b> as well; <b>ਸਨ</b>, like <b>ਸੀ</b>, does not change for men and women.</p>
 {{ex:ਮੇਰੇ ਦਾਦਾ ਜੀ ਡਾਕਟਰ ਸਨ।|mere dādā jī ḍākṭar san.|My grandfather was a doctor.}}
 {{ex:ਉਹ ਦਿੱਲੀ ਵਿੱਚ ਸਨ।|úh dillī vicch san.|They were in Delhi.}}
-<h3>Used to: the habitual + ਸੀ</h3>
+{{ex:ਕੁੜੀਆਂ ਘਰ ਸਨ।|kuṛīā̃ ghàr san.|The girls were at home.}}
+<h3>Used to: the habitual + <b>ਸੀ</b></h3>
 <p>English says "I used to live in Delhi". Punjabi takes the habitual you know (<b>ਰਹਿੰਦਾ</b>, <b>ਰਹਿੰਦੀ</b>) and swaps <b>ਹਾਂ</b> for <b>ਸੀ</b>. The first word still agrees with the person, so a man and a woman say it differently, even though <b>ਸੀ</b> stays the same.</p>
 {{ex:ਮੈਂ ਦਿੱਲੀ ਰਹਿੰਦਾ ਸੀ।|maĩ dillī ráhindā sī.|I used to live in Delhi. (a man speaking)}}
 {{ex:ਮੈਂ ਦਿੱਲੀ ਰਹਿੰਦੀ ਸੀ।|maĩ dillī ráhindī sī.|I used to live in Delhi. (a woman speaking)}}
-<h3>Was doing: the continuous + ਸੀ</h3>
+<h3>Was doing: the continuous + <b>ਸੀ</b></h3>
 <p>"I was working" works the same way: the continuous with <b>ਸੀ</b> at the end. <b>ਰਿਹਾ</b>, <b>ਰਹੀ</b> and <b>ਰਹੇ</b> keep agreeing with the person.</p>
 {{ex:ਮੈਂ ਕੰਮ ਕਰ ਰਿਹਾ ਸੀ।|maĩ kamm kar ríhā sī.|I was working. (a man speaking)}}
 {{ex:ਉਹ ਕਿਤਾਬ ਪੜ੍ਹ ਰਹੀ ਸੀ।|úh kitāb páṛh ráhī sī.|She was reading a book.}}
@@ -244,7 +245,7 @@ module.exports = [
       ["or","My father was a doctor.","ਮੇਰੇ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਸਨ","ਮੇਰਾ","ਪਿਤਾ ਜੀ takes the respect plural, so ਮੇਰੇ agrees with it."],
       ["fi","ਮੈਂ ਕੱਲ੍ਹ ਬਿਮਾਰ __।","I was sick yesterday.","ਸੀ","ਥਾ|ਹਾਂ|ਹੈ","Was = ਸੀ; with ਕੱਲ੍ਹ in the past it means yesterday."],
       ["fi","ਉਹ ਪਹਿਲਾਂ ਲੰਡਨ ਰਹਿੰਦੀ __।","She used to live in London.","ਸੀ","ਥੀ|ਹਾਂ|ਹੋ","Used to = habitual + ਸੀ. ਥੀ is Hindi."],
-      ["fi","ਮੇਰੇ ਨਾਨਾ ਜੀ ਕਿਸਾਨ __।","My grandfather (mother's father) was a farmer.","ਸਨ|ਸੀ","ਥੇ|ਹਾਂ|ਹੋ","With ਜੀ the standard form is the respect plural ਸਨ; casual speech also uses ਸੀ."],
+      ["fi","ਮੇਰੇ ਨਾਨਾ ਜੀ ਕਿਸਾਨ __।","My grandfather (mother's father) was a farmer.","ਸਨ","ਥੇ|ਹਾਂ|ਹੋ","With ਜੀ, ਨਾਨਾ ਜੀ takes the respect plural ਸਨ; ਥੇ is Hindi."],
       ["ty","I used to live in Delhi. (a man speaking)","ਮੈਂ ਦਿੱਲੀ ਰਹਿੰਦਾ ਸੀ|ਮੈਂ ਦਿੱਲੀ ਵਿੱਚ ਰਹਿੰਦਾ ਸੀ","ਦਿੱਲੀ · ਰਹਿਣਾ (to live) · ਸੀ","ਰਹਿੰਦੀ ਥਾ","A man is speaking, so ਰਹਿੰਦਾ agrees with him (masculine)."],
       ["ty","I was working. (a woman speaking)","ਮੈਂ ਕੰਮ ਕਰ ਰਹੀ ਸੀ|ਕੰਮ ਕਰ ਰਹੀ ਸੀ","ਕੰਮ ਕਰਨਾ · ਰਿਹਾ / ਰਹੀ · ਸੀ","ਰਿਹਾ ਥੀ","A woman is speaking, so ਰਹੀ agrees with her (feminine)."],
       ["ty","She was happy.","ਉਹ ਖ਼ੁਸ਼ ਸੀ","ਖ਼ੁਸ਼ (happy) · ਸੀ","ਥੀ ਹੈ","ਸੀ is 'was' for one person, and ਖ਼ੁਸ਼ never changes."]
@@ -259,7 +260,7 @@ module.exports = [
 <p>English adds -ed or uses an irregular form, and "went" is the same for everyone. The Punjabi completed past has endings that agree, like adjectives: -ā, -e, -ī, -īā̃. The surprise for English speakers is <i>which</i> word it agrees with.</p>
 <h3>Verbs with no object: agree with the person</h3>
 <p>With verbs like <b>ਜਾਣਾ</b> <i>jāṇā</i> (go) and <b>ਆਉਣਾ</b> <i>āuṇā</i> (come), nothing is done <i>to</i> anything, so the verb agrees with the person who goes or comes.</p>
-<div class="tbl"><table><tr><th></th><th>one man</th><th>one woman</th><th>men, mixed, ਤੁਸੀਂ</th><th>women</th></tr><tr><td>went</td><td class="k">ਗਿਆ</td><td class="k">ਗਈ</td><td class="k">ਗਏ</td><td class="k">ਗਈਆਂ</td></tr><tr><td>came</td><td class="k">ਆਇਆ</td><td class="k">ਆਈ</td><td class="k">ਆਏ</td><td class="k">ਆਈਆਂ</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>one man</th><th>one woman</th><th>men, mixed, <b>ਤੁਸੀਂ</b></th><th>women</th></tr><tr><td>went</td><td class="k">ਗਿਆ</td><td class="k">ਗਈ</td><td class="k">ਗਏ</td><td class="k">ਗਈਆਂ</td></tr><tr><td>came</td><td class="k">ਆਇਆ</td><td class="k">ਆਈ</td><td class="k">ਆਏ</td><td class="k">ਆਈਆਂ</td></tr></table></div>
 {{ex:ਮੈਂ ਦਿੱਲੀ ਗਿਆ।|maĩ dillī giā.|I went to Delhi. (a man speaking)}}
 {{ex:ਉਹ ਘਰ ਆਈ।|úh ghàr āī.|She came home.}}
 {{ex:ਤੁਸੀਂ ਕਿੱਥੇ ਗਏ?|tusī̃ kitthe gae?|Where did you go?}}
@@ -269,10 +270,10 @@ module.exports = [
 {{ex:ਮੈਂ ਰੋਟੀ ਖਾਧੀ।|maĩ roṭī khā́dhī.|I ate. (a meal)}}
 {{ex:ਤੁਸੀਂ ਕੀ ਕੀਤਾ?|tusī̃ kī kītā?|What did you do?}}
 <p>Most of these forms are irregular, so learn them as words. When the object is a question word like <b>ਕੀ</b>, the verb takes the masculine form. And remember <b>ਕੱਲ੍ਹ</b>: with the past it means "yesterday", with the future "tomorrow".</p>
-<h3>ਨੇ after he, she and they</h3>
+<h3><b>ਨੇ</b> after he, she and they</h3>
 <p>With a verb that takes an object, "he", "she" and "they" add the postposition <b>ਨੇ</b> <i>ne</i>: <b>ਉਸ ਨੇ</b>, <b>ਉਹਨਾਂ ਨੇ</b>, and a name gets it too (<b>ਸਿਮਰਨ ਨੇ</b>). Like every postposition, <b>ਨੇ</b> needs the oblique: <b>ਉਹ</b> becomes <b>ਉਸ</b>. With <b>ਮੈਂ</b>, <b>ਅਸੀਂ</b>, <b>ਤੂੰ</b> and <b>ਤੁਸੀਂ</b>, Punjabi uses no <b>ਨੇ</b>, but the verb still agrees with the object. Verbs with no object, like <b>ਜਾਣਾ</b>, never take <b>ਨੇ</b>.</p>
 {{ex:ਉਸ ਨੇ ਚਾਹ ਪੀਤੀ।|us ne chā́h pītī.|She drank tea. / He drank tea.}}
-{{ex:ਉਹਨਾਂ ਨੇ ਫ਼ਿਲਮ ਦੇਖੀ।|úhnā̃ ne filam dekhī.|They watched a film.}}
+{{ex:ਉਹਨਾਂ ਨੇ ਫ਼ਿਲਮ ਦੇਖੀ।|úhnā̃ ne film dekhī.|They watched a film.}}
 <p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> making the verb agree with the person, as English thinking suggests. A man saying <b>ਮੈਂ ਰੋਟੀ ਖਾਧਾ</b> → <b>ਮੈਂ ਰੋਟੀ ਖਾਧੀ</b>. And no <b>ਨੇ</b> with going: <b>ਉਸ ਨੇ ਘਰ ਗਿਆ</b> → <b>ਉਹ ਘਰ ਗਿਆ</b>.</div>
 `,
@@ -305,18 +306,18 @@ module.exports = [
     deck: "Time, days and routine",
     body: `
 <p>English puts "will" in front of the verb and it never changes: I will, she will, they will. Punjabi builds the future into one word at the end of the sentence, and that word does two jobs at once: its middle shows who is acting, and its ending agrees like an adjective.</p>
-<h3>The forms of ਕਰਨਾ</h3>
-<p>Take the stem (<b>ਕਰ</b>), add a person part, then <b>-ਗਾ</b> (one man), <b>-ਗੀ</b> (one woman) or <b>-ਗੇ</b> (several, or polite ਤੁਸੀਂ). A group of only women ends in <b>-ਗੀਆਂ</b>.</p>
+<h3>The forms of <b>ਕਰਨਾ</b></h3>
+<p>Take the stem (<b>ਕਰ</b>), add a person part, then <b>-ਗਾ</b> (one man), <b>-ਗੀ</b> (one woman) or <b>-ਗੇ</b> (several, or polite <b>ਤੁਸੀਂ</b>). A group of only women ends in <b>-ਗੀਆਂ</b>.</p>
 <div class="tbl"><table><tr><th>Person</th><th>a man / men</th><th>a woman / women</th></tr><tr><td class="k">ਮੈਂ</td><td class="k">ਕਰਾਂਗਾ</td><td class="k">ਕਰਾਂਗੀ</td></tr><tr><td class="k">ਤੂੰ</td><td class="k">ਕਰੇਂਗਾ</td><td class="k">ਕਰੇਂਗੀ</td></tr><tr><td class="k">ਉਹ (one)</td><td class="k">ਕਰੇਗਾ</td><td class="k">ਕਰੇਗੀ</td></tr><tr><td class="k">ਅਸੀਂ</td><td class="k">ਕਰਾਂਗੇ</td><td class="k">ਕਰਾਂਗੀਆਂ</td></tr><tr><td class="k">ਤੁਸੀਂ</td><td class="k">ਕਰੋਗੇ</td><td class="k">ਕਰੋਗੀਆਂ</td></tr><tr><td class="k">ਉਹ (several)</td><td class="k">ਕਰਨਗੇ</td><td class="k">ਕਰਨਗੀਆਂ</td></tr></table></div>
 {{ex:ਮੈਂ ਕੱਲ੍ਹ ਫ਼ੋਨ ਕਰਾਂਗਾ।|maĩ kállh fon karā̃gā.|I'll call tomorrow. (a man speaking)}}
 {{ex:ਮੈਂ ਕੱਲ੍ਹ ਫ਼ੋਨ ਕਰਾਂਗੀ।|maĩ kállh fon karā̃gī.|I'll call tomorrow. (a woman speaking)}}
 {{ex:ਤੁਸੀਂ ਕੀ ਕਰੋਗੇ?|tusī̃ kī karoge?|What will you do?}}
 <p>You already know one future form from your first greetings: <b>ਫਿਰ ਮਿਲਾਂਗੇ</b>, "we'll meet again".</p>
 <h3>Verbs whose stem ends in a vowel</h3>
-<p><b>ਜਾਣਾ</b> <i>jāṇā</i> and <b>ਆਉਣਾ</b> <i>āuṇā</i> slip a <b>ਵ</b> in for ਮੈਂ, ਉਹ and ਅਸੀਂ: <b>ਜਾਵਾਂਗਾ</b> <i>jāvā̃gā</i>, <b>ਜਾਵੇਗਾ</b>, <b>ਜਾਵਾਂਗੇ</b>; <b>ਆਵਾਂਗਾ</b>, <b>ਆਵੇਗਾ</b>. With ਤੁਸੀਂ it is simply <b>ਜਾਓਗੇ</b>, <b>ਆਓਗੇ</b>.</p>
+<p><b>ਜਾਣਾ</b> <i>jāṇā</i> and <b>ਆਉਣਾ</b> <i>āuṇā</i> slip a <b>ਵ</b> in for <b>ਮੈਂ</b>, <b>ਉਹ</b> and <b>ਅਸੀਂ</b>: <b>ਜਾਵਾਂਗਾ</b> <i>jāvā̃gā</i>, <b>ਜਾਵੇਗਾ</b>, <b>ਜਾਵਾਂਗੇ</b>; <b>ਆਵਾਂਗਾ</b>, <b>ਆਵੇਗਾ</b>. With <b>ਤੁਸੀਂ</b> it is simply <b>ਜਾਓਗੇ</b>, <b>ਆਓਗੇ</b>.</p>
 {{ex:ਉਹ ਐਤਵਾਰ ਨੂੰ ਆਵੇਗੀ।|úh aitvār nū̃ āvegī.|She will come on Sunday.}}
 {{ex:ਕੀ ਤੁਸੀਂ ਆਓਗੇ?|kī tusī̃ āoge?|Will you come?}}
-<h3>ਕੱਲ੍ਹ: yesterday or tomorrow</h3>
+<h3><b>ਕੱਲ੍ਹ</b>: yesterday or tomorrow</h3>
 <p>Punjabi has one word, <b>ਕੱਲ੍ਹ</b>, for both "yesterday" and "tomorrow". The verb tells you which: with the future it is tomorrow, with the past it is yesterday.</p>
 {{ex:ਮੈਂ ਕੱਲ੍ਹ ਜਾਵਾਂਗੀ।|maĩ kállh jāvā̃gī.|I'll go tomorrow. (a woman speaking)}}
 <h3>Won't and will ... ?</h3>
@@ -327,21 +328,21 @@ module.exports = [
 <div class="tip"><b>Most common mistake:</b> an ending that does not match the speaker, or the person part copied from the wrong row. A woman saying <b>ਮੈਂ ਜਾਵਾਂਗਾ</b> → <b>ਮੈਂ ਜਾਵਾਂਗੀ</b>; <b>ਤੁਸੀਂ ਕੀ ਕਰੇਗਾ?</b> → <b>ਤੁਸੀਂ ਕੀ ਕਰੋਗੇ?</b></div>
 `,
     check: [
-      ["A woman says 'I will go'. Which is right?",["ਮੈਂ ਜਾਵਾਂਗਾ।","ਮੈਂ ਜਾਵਾਂਗੀ।","ਮੈਂ ਜਾਵੇਗੀ।","ਮੈਂ ਗਈ।"],1,"ਮੈਂ takes -ਾਂ-, and a woman ends in -ਗੀ: ਜਾਵਾਂਗੀ."],
+      ["A woman says 'I will go'. Which is right?",["ਮੈਂ ਜਾਵਾਂਗਾ।","ਮੈਂ ਜਾਵਾਂਗੀ।","ਮੈਂ ਜਾਵੇਗੀ।","ਮੈਂ ਗਈ।"],1,"ਮੈਂ takes ਜਾਵਾਂ..., and a woman ends in -ਗੀ: ਜਾਵਾਂਗੀ."],
       ["What does ਕੱਲ੍ਹ mean in ਮੈਂ ਕੱਲ੍ਹ ਕੰਮ ਕਰਾਂਗਾ?",["yesterday","today","every day","tomorrow"],3,"With a future verb, ਕੱਲ੍ਹ means tomorrow."],
-      ["Which ending goes with polite ਤੁਸੀਂ?",["ਕਰੋਗੇ","ਕਰੇਗਾ","ਕਰਾਂਗਾ","ਕਰੇਂਗਾ"],0,"ਤੁਸੀਂ takes -ਓਗੇ: ਕਰੋਗੇ."]
+      ["Which ending goes with polite ਤੁਸੀਂ?",["ਕਰੋਗੇ","ਕਰੇਗਾ","ਕਰਾਂਗਾ","ਕਰੇਂਗਾ"],0,"ਤੁਸੀਂ takes the ending of ਕਰੋਗੇ, as in ਜਾਓਗੇ and ਆਓਗੇ."]
     ],
     practice: [
       ["mc","I will go tomorrow. (a man speaking) =","ਮੈਂ ਕੱਲ੍ਹ ਜਾਵਾਂਗਾ।","ਮੈਂ ਕੱਲ੍ਹ ਜਾਵਾਂਗੀ।","ਮੈਂ ਕੱਲ੍ਹ ਗਿਆ।","ਮੈਂ ਕੱਲ੍ਹ ਜਾਵੇਗਾ।","ਮੈਂ takes ਜਾਵਾਂ-, and a man ends in -ਗਾ. ਗਿਆ is the past: yesterday."],
       ["mc","She will come on Sunday. =","ਉਹ ਐਤਵਾਰ ਨੂੰ ਆਵੇਗੀ।","ਉਹ ਐਤਵਾਰ ਨੂੰ ਆਵੇਗਾ।","ਉਹ ਐਤਵਾਰ ਨੂੰ ਆਈ।","ਉਹ ਐਤਵਾਰ ਨੂੰ ਆਵਾਂਗੀ।","ਉਹ takes ਆਵੇ-, and a woman ends in -ਗੀ."],
       ["mc","What will you do? (politely) =","ਤੁਸੀਂ ਕੀ ਕਰੋਗੇ?","ਤੁਸੀਂ ਕੀ ਕਰੇਗਾ?","ਤੁਸੀਂ ਕੀ ਕਰਾਂਗੇ?","ਤੁਸੀਂ ਕੀ ਕੀਤਾ?","ਤੁਸੀਂ takes ਕਰੋਗੇ; ਕਰਾਂਗੇ is for ਅਸੀਂ."],
       ["mc","ਕੱਲ੍ਹ ਮੈਂ ਪੰਜਾਬੀ ਬੋਲਾਂਗੀ। means…","Tomorrow I'll speak Punjabi. (a woman speaking)","Yesterday I spoke Punjabi. (a woman speaking)","Tomorrow I'll speak Punjabi. (a man speaking)","I speak Punjabi every day. (a woman speaking)","A future verb makes ਕੱਲ੍ਹ tomorrow, and -ਗੀ shows a woman."],
-      ["mc","They will speak Punjabi. (a group of men) =","ਉਹ ਪੰਜਾਬੀ ਬੋਲਣਗੇ।","ਉਹ ਪੰਜਾਬੀ ਬੋਲੇਗਾ।","ਉਹ ਪੰਜਾਬੀ ਬੋਲਾਂਗੇ।","ਉਹ ਪੰਜਾਬੀ ਬੋਲਦੇ ਸਨ।","ਉਹ for several people takes -ਣਗੇ / -ਨਗੇ."],
+      ["mc","They will speak Punjabi. (a group of men) =","ਉਹ ਪੰਜਾਬੀ ਬੋਲਣਗੇ।","ਉਹ ਪੰਜਾਬੀ ਬੋਲੇਗਾ।","ਉਹ ਪੰਜਾਬੀ ਬੋਲਾਂਗੇ।","ਉਹ ਪੰਜਾਬੀ ਬੋਲਦੇ ਸਨ।","ਉਹ for several men takes the ending of ਬੋਲਣਗੇ and ਕਰਨਗੇ."],
       ["or","I will work tomorrow. (a woman speaking; start with ਮੈਂ)","ਮੈਂ ਕੱਲ੍ਹ ਕੰਮ ਕਰਾਂਗੀ","ਕਰਾਂਗਾ","A woman is speaking, so -ਗੀ agrees with her (feminine): ਕਰਾਂਗੀ."],
-      ["or","Will you come? (politely)","ਕੀ ਤੁਸੀਂ ਆਓਗੇ?","ਆਵੇਗਾ","ਤੁਸੀਂ is plural, so the ending agrees: ਆਓਗੇ."],
+      ["or","Will you come? (politely)","ਕੀ ਤੁਸੀਂ ਆਓਗੇ","ਆਵੇਗਾ","ਤੁਸੀਂ is plural, so the ending agrees: ਆਓਗੇ."],
       ["or","He will go to Amritsar.","ਉਹ ਅੰਮ੍ਰਿਤਸਰ ਜਾਵੇਗਾ","ਜਾਵੇਗੀ","One man, so -ਗਾ agrees with him (masculine): ਜਾਵੇਗਾ."],
       ["fi","ਮੈਂ ਕੱਲ੍ਹ ਫ਼ੋਨ __।","I'll call tomorrow. (a man speaking)","ਕਰਾਂਗਾ","ਕਰਾਂਗੀ|ਕਰੇਗਾ|ਕੀਤਾ","ਮੈਂ + a man: ਕਰਾਂਗਾ."],
-      ["fi","ਅਸੀਂ ਐਤਵਾਰ ਨੂੰ __।","We will meet on Sunday. (a mixed group)","ਮਿਲਾਂਗੇ","ਮਿਲਾਂਗਾ|ਮਿਲੋਗੇ|ਮਿਲੇਗਾ","ਅਸੀਂ takes -ਾਂਗੇ, as in ਫਿਰ ਮਿਲਾਂਗੇ."],
+      ["fi","ਅਸੀਂ ਐਤਵਾਰ ਨੂੰ __।","We will meet on Sunday. (a mixed group)","ਮਿਲਾਂਗੇ","ਮਿਲਾਂਗਾ|ਮਿਲੋਗੇ|ਮਿਲੇਗਾ","ਅਸੀਂ takes ਮਿਲਾਂਗੇ, as in ਫਿਰ ਮਿਲਾਂਗੇ."],
       ["fi","ਤੁਸੀਂ ਕਦੋਂ __?","When will you go? (politely)","ਜਾਓਗੇ","ਜਾਵੇਗਾ|ਜਾਵਾਂਗੇ|ਗਏ","ਤੁਸੀਂ takes ਜਾਓਗੇ."],
       ["ty","I will go tomorrow. (a woman speaking)","ਮੈਂ ਕੱਲ੍ਹ ਜਾਵਾਂਗੀ|ਕੱਲ੍ਹ ਮੈਂ ਜਾਵਾਂਗੀ","ਕੱਲ੍ਹ · ਜਾਣਾ, future ਜਾਵਾਂਗਾ","ਜਾਵਾਂਗਾ","A woman is speaking, so ਜਾਵਾਂਗੀ agrees with her (feminine)."],
       ["ty","He will come on Monday.","ਉਹ ਸੋਮਵਾਰ ਨੂੰ ਆਵੇਗਾ|ਸੋਮਵਾਰ ਨੂੰ ਉਹ ਆਵੇਗਾ","ਸੋਮਵਾਰ ਨੂੰ · ਆਉਣਾ, future ਆਵੇਗਾ","ਆਵੇਗੀ","One man, so ਆਵੇਗਾ agrees with him (masculine)."],
@@ -355,7 +356,7 @@ module.exports = [
     deck: "Describing things",
     body: `
 <p>English changes the adjective: tall, taller, tallest, or adds "more" and "most". Punjabi leaves the adjective alone and adds a postposition after the thing you compare with. So there is only one new pattern to learn, and it works for every adjective you know.</p>
-<h3>Than: ਨਾਲੋਂ or ਤੋਂ</h3>
+<h3>Than: <b>ਨਾਲੋਂ</b> or <b>ਤੋਂ</b></h3>
 <p>The pattern is "X Y-than tall is": <b>ਉਹ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮਾ ਹੈ</b>. <b>ਨਾਲੋਂ</b> <i>nālõ</i> means "than", and <b>ਤੋਂ</b> <i>tõ</i> (the "from" you know) works the same way and is just as common. Both are postpositions, so they come after the noun or pronoun, which takes its oblique form: <b>ਮੈਂ</b> becomes <b>ਮੇਰੇ</b>, <b>ਉਹ</b> becomes <b>ਉਸ</b>, <b>ਮੁੰਡਾ</b> becomes <b>ਮੁੰਡੇ</b>.</p>
 {{ex:ਉਹ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮਾ ਹੈ।|úh mere nālõ lammā hai.|He is taller than me.}}
 {{ex:ਚਾਹ ਲੱਸੀ ਨਾਲੋਂ ਸਸਤੀ ਹੈ।|chā́h lassī nālõ sastī hai.|Tea is cheaper than lassi.}}
@@ -364,7 +365,7 @@ module.exports = [
 <p>Nothing about comparing switches off agreement. The adjective agrees with the person or thing being described, not with the one it is compared to. <b>ਚਾਹ</b> is feminine, so it is <b>ਸਸਤੀ</b>, whatever lassi is.</p>
 {{ex:ਮੇਰੀ ਭੈਣ ਮੇਰੇ ਨਾਲੋਂ ਵੱਡੀ ਹੈ।|merī bhaìṇ mere nālõ vaḍḍī hai.|My sister is older than me.}}
 <p>Notice <b>ਵੱਡਾ</b>: "big" also means "older" for people, and <b>ਛੋਟਾ</b>, "small", means "younger". <b>ਮੇਰਾ ਵੱਡਾ ਭਰਾ</b> is "my older brother".</p>
-<h3>The most: ਸਭ ਤੋਂ</h3>
+<h3>The most: <b>ਸਭ ਤੋਂ</b></h3>
 <p>For "biggest", "best" or "most expensive", put <b>ਸਭ ਤੋਂ</b> <i>sábh tõ</i>, "than all", before the adjective.</p>
 {{ex:ਇਹ ਸਭ ਤੋਂ ਵੱਡਾ ਕਮਰਾ ਹੈ।|íh sábh tõ vaḍḍā kamrā hai.|This is the biggest room.}}
 {{ex:ਸਿਮਰਨ ਸਭ ਤੋਂ ਲੰਮੀ ਹੈ।|simran sábh tõ lammī hai.|Simran is the tallest.}}
@@ -389,8 +390,8 @@ module.exports = [
       ["mc","My sister is older than me. =","ਮੇਰੀ ਭੈਣ ਮੇਰੇ ਨਾਲੋਂ ਵੱਡੀ ਹੈ।","ਮੇਰੀ ਭੈਣ ਮੇਰੇ ਨਾਲੋਂ ਵੱਡਾ ਹੈ।","ਮੇਰੀ ਭੈਣ ਮੈਂ ਨਾਲੋਂ ਵੱਡੀ ਹੈ।","ਮੇਰੀ ਭੈਣ ਨਾਲੋਂ ਮੇਰੇ ਵੱਡੀ ਹੈ।","Older = ਵੱਡੀ for a woman, after ਮੇਰੇ ਨਾਲੋਂ."],
       ["mc","This shirt is more expensive than that one. =","ਇਹ ਕਮੀਜ਼ ਉਸ ਨਾਲੋਂ ਮਹਿੰਗੀ ਹੈ।","ਇਹ ਕਮੀਜ਼ ਉਹ ਨਾਲੋਂ ਮਹਿੰਗੀ ਹੈ।","ਇਹ ਕਮੀਜ਼ ਉਸ ਨਾਲੋਂ ਮਹਿੰਗਾ ਹੈ।","ਇਹ ਕਮੀਜ਼ ਜ਼ਿਆਦਾ ਮਹਿੰਗੀ ਨਾਲੋਂ ਉਸ ਹੈ।","ਉਸ before ਨਾਲੋਂ, and ਮਹਿੰਗੀ agrees with ਕਮੀਜ਼ (feminine)."],
       ["mc","the youngest girl =","ਸਭ ਤੋਂ ਛੋਟੀ ਕੁੜੀ","ਸਭ ਤੋਂ ਛੋਟਾ ਕੁੜੀ","ਛੋਟੀ ਸਭ ਤੋਂ ਕੁੜੀ","ਜ਼ਿਆਦਾ ਛੋਟੀ ਕੁੜੀ","Youngest = ਸਭ ਤੋਂ ਛੋਟੀ, agreeing with ਕੁੜੀ."],
-      ["or","He is taller than me.","ਉਹ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮਾ ਹੈ","ਮੈਂ","ਨਾਲੋਂ is a postposition, so ਮੈਂ takes the oblique form ਮੇਰੇ."],
-      ["or","This room is bigger than that one.","ਇਹ ਕਮਰਾ ਉਸ ਨਾਲੋਂ ਵੱਡਾ ਹੈ","ਵੱਡੀ","ਕਮਰਾ is masculine, so ਵੱਡਾ agrees with it."],
+      ["or","He is taller than me. (start with ਉਹ)","ਉਹ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮਾ ਹੈ","ਮੈਂ","ਨਾਲੋਂ is a postposition, so ਮੈਂ takes the oblique form ਮੇਰੇ."],
+      ["or","This room is bigger than that one. (start with ਇਹ)","ਇਹ ਕਮਰਾ ਉਸ ਨਾਲੋਂ ਵੱਡਾ ਹੈ","ਵੱਡੀ","ਕਮਰਾ is masculine, so ਵੱਡਾ agrees with it."],
       ["or","Simran is the tallest. (Simran is a woman)","ਸਿਮਰਨ ਸਭ ਤੋਂ ਲੰਮੀ ਹੈ","ਲੰਮਾ","Simran is a woman, so ਲੰਮੀ agrees with her (feminine)."],
       ["fi","ਚਾਹ ਲੱਸੀ __ ਸਸਤੀ ਹੈ।","Tea is cheaper than lassi.","ਨਾਲੋਂ|ਤੋਂ","ਨਾਲ|ਵਿੱਚ|ਸੇ","Than = ਨਾਲੋਂ or ਤੋਂ; ਨਾਲ means with, and ਸੇ is Hindi."],
       ["fi","ਮੇਰੀ ਭੈਣ ਮੇਰੇ ਨਾਲੋਂ __ ਹੈ।","My sister is older than me.","ਵੱਡੀ","ਵੱਡਾ|ਵੱਡੇ|ਛੋਟੀ","Older = big, and it agrees with ਭੈਣ: ਵੱਡੀ."],
@@ -398,6 +399,56 @@ module.exports = [
       ["ty","She is taller than me.","ਉਹ ਮੇਰੇ ਨਾਲੋਂ ਲੰਮੀ ਹੈ|ਉਹ ਮੇਰੇ ਤੋਂ ਲੰਮੀ ਹੈ","ਲੰਮਾ (tall) · ਨਾਲੋਂ (than)","ਮੈਂ ਲੰਮਾ","ਨਾਲੋਂ is a postposition, so ਮੈਂ becomes ਮੇਰੇ; ਲੰਮੀ agrees with her."],
       ["ty","My brother is older than me.","ਮੇਰਾ ਭਰਾ ਮੇਰੇ ਨਾਲੋਂ ਵੱਡਾ ਹੈ|ਮੇਰਾ ਭਰਾ ਮੇਰੇ ਤੋਂ ਵੱਡਾ ਹੈ","ਭਰਾ · older = ਵੱਡਾ (big) · ਨਾਲੋਂ","ਵੱਡੀ ਮੈਂ","ਭਰਾ is masculine, so ਵੱਡਾ agrees with it."],
       ["ty","This is the biggest room.","ਇਹ ਸਭ ਤੋਂ ਵੱਡਾ ਕਮਰਾ ਹੈ","ਸਭ ਤੋਂ · ਵੱਡਾ · ਕਮਰਾ","ਵੱਡੀ","ਕਮਰਾ is masculine, so ਵੱਡਾ agrees with it."]
+    ]
+  },
+  {
+    id: "must-can",
+    title: "Must and can: ਪੈਂਦਾ, ਸਕਦਾ",
+    blurb: "Say what you have to do, what you should do and what you can do, and ask politely if you may do something.",
+    deck: "Health and help",
+    body: `
+<p>English uses small helper verbs: "I have to go", "I should go", "I can go". Punjabi has three patterns, and the first two use the same <b>ਮੈਨੂੰ</b> form you know from <b>ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ</b>.</p>
+<h3>Have to: <b>ਮੈਨੂੰ</b> + infinitive + <b>ਪੈਂਦਾ ਹੈ</b> / <b>ਪਵੇਗਾ</b></h3>
+<p>Literally "to me, going falls". The person who must do it takes the postposition form (<b>ਮੈਨੂੰ</b>, <b>ਤੁਹਾਨੂੰ</b>, <b>ਉਸ ਨੂੰ</b>), and the verb stays in the infinitive (<b>ਜਾਣਾ</b>, <b>ਕਰਨਾ</b>). <b>ਪੈਂਦਾ ਹੈ</b> <i>paĩdā hai</i> is for what you have to do as a rule; <b>ਪਵੇਗਾ</b> <i>pavegā</i> is for what you will have to do, which is also how you say "I have to go" when you are leaving.</p>
+{{ex:ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹੈ।|mainū̃ roz kamm karnā paĩdā hai.|I have to work every day.}}
+{{ex:ਮੈਨੂੰ ਜਾਣਾ ਪਵੇਗਾ।|mainū̃ jāṇā pavegā.|I'll have to go.}}
+{{ex:ਮੈਨੂੰ ਡਾਕਟਰ ਕੋਲ ਜਾਣਾ ਪਵੇਗਾ।|mainū̃ ḍākṭar kol jāṇā pavegā.|I'll have to go to the doctor.}}
+<h3>Should: <b>ਮੈਨੂੰ</b> + infinitive + <b>ਚਾਹੀਦਾ ਹੈ</b></h3>
+<p>You met <b>ਚਾਹੀਦਾ</b> <i>chā́hīdā</i> as "need" with a thing. With an infinitive it means "should": advice from a doctor, a parent or a friend.</p>
+{{ex:ਤੁਹਾਨੂੰ ਆਰਾਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।|tuhā̀nū̃ ārām karnā chā́hīdā hai.|You should rest.}}
+{{ex:ਤੁਹਾਨੂੰ ਘਰ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।|tuhā̀nū̃ ghàr jāṇā chā́hīdā hai.|You should go home.}}
+<h3>Can: stem + <b>ਸਕਦਾ ਹਾਂ</b></h3>
+<p>"Can" works differently. The person stays as he or she is (<b>ਮੈਂ</b>, <b>ਤੁਸੀਂ</b>), the main verb is only its stem (<b>ਜਾ</b>, <b>ਬੋਲ</b>), and <b>ਸਕਦਾ</b> <i>sakdā</i> agrees with the person like any habitual: <b>ਸਕਦਾ</b> for a man, <b>ਸਕਦੀ</b> for a woman, <b>ਸਕਦੇ</b> for <b>ਤੁਸੀਂ</b> and groups.</p>
+{{ex:ਮੈਂ ਪੰਜਾਬੀ ਬੋਲ ਸਕਦੀ ਹਾਂ।|maĩ panjābī bol sakdī hā̃.|I can speak Punjabi. (a woman speaking)}}
+{{ex:ਕੀ ਤੁਸੀਂ ਮੇਰੀ ਮਦਦ ਕਰ ਸਕਦੇ ਹੋ?|kī tusī̃ merī madad kar sakde ho?|Can you help me?}}
+<p>The same pattern asks for permission, with <b>ਕੀ</b> at the start:</p>
+{{ex:ਕੀ ਮੈਂ ਅੰਦਰ ਆ ਸਕਦਾ ਹਾਂ?|kī maĩ andar ā sakdā hā̃?|May I come in? (a man speaking)}}
+<p>A woman asks <b>ਕੀ ਮੈਂ ਅੰਦਰ ਆ ਸਕਦੀ ਹਾਂ?</b> At a doctor's office, the usual answer is <b>ਹਾਂ ਜੀ, ਆਓ</b>, "yes, come in", the polite command you already know, softened with <b>ਜੀ</b>.</p>
+<h3>Which person form?</h3>
+<p>A quick test: "have to" and "should" take <b>ਮੈਨੂੰ</b> and an infinitive ending in -<b>ਣਾ</b> / -<b>ਨਾ</b>; "can" takes <b>ਮੈਂ</b> and the bare stem. Mixing the two halves is the error to watch for, and it is the one English speakers make most, because English uses the same "I" for all three.</p>
+<p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
+<div class="tip"><b>Most common mistake:</b> keeping <b>ਮੈਂ</b> for "I have to", or using the infinitive with <b>ਸਕਦਾ</b>. <b>ਮੈਂ ਜਾਣਾ ਪੈਂਦਾ ਹੈ</b> → <b>ਮੈਨੂੰ ਜਾਣਾ ਪੈਂਦਾ ਹੈ</b>; <b>ਮੈਂ ਜਾਣਾ ਸਕਦਾ ਹਾਂ</b> → <b>ਮੈਂ ਜਾ ਸਕਦਾ ਹਾਂ</b>.</div>
+`,
+    check: [
+      ["How do you say 'I have to work every day'?",["ਮੈਂ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹੈ।","ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹੈ।","ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰ ਸਕਦਾ ਹੈ।","ਮੈਂ ਰੋਜ਼ ਕੰਮ ਕਰ ਪੈਂਦਾ ਹਾਂ।"],1,"Have to: ਮੈਨੂੰ + infinitive + ਪੈਂਦਾ ਹੈ."],
+      ["A woman says she can come. Which is right?",["ਮੈਂ ਆ ਸਕਦੀ ਹਾਂ।","ਮੈਂ ਆਉਣਾ ਸਕਦੀ ਹਾਂ।","ਮੈਨੂੰ ਆ ਸਕਦੀ ਹੈ।","ਮੈਂ ਆ ਸਕਦਾ ਹਾਂ।"],0,"Can: ਮੈਂ + stem + ਸਕਦੀ ਹਾਂ for a woman."],
+      ["What does ਤੁਹਾਨੂੰ ਆਰਾਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ mean?",["You can rest.","You are resting.","You should rest.","You rested."],2,"Infinitive + ਚਾਹੀਦਾ ਹੈ = should."]
+    ],
+    practice: [
+      ["mc","I have to work every day. =","ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹੈ।","ਮੈਂ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹੈ।","ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰ ਪੈਂਦਾ ਹੈ।","ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹਾਂ।","Have to: ਮੈਨੂੰ + infinitive + ਪੈਂਦਾ ਹੈ."],
+      ["mc","I can speak Punjabi. (a woman speaking) =","ਮੈਂ ਪੰਜਾਬੀ ਬੋਲ ਸਕਦੀ ਹਾਂ।","ਮੈਂ ਪੰਜਾਬੀ ਬੋਲ ਸਕਦਾ ਹਾਂ।","ਮੈਂ ਪੰਜਾਬੀ ਬੋਲਣਾ ਸਕਦੀ ਹਾਂ।","ਮੈਨੂੰ ਪੰਜਾਬੀ ਬੋਲ ਸਕਦੀ ਹੈ।","Can: ਮੈਂ + stem + ਸਕਦੀ ਹਾਂ for a woman."],
+      ["mc","You should rest. (politely) =","ਤੁਹਾਨੂੰ ਆਰਾਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।","ਤੁਸੀਂ ਆਰਾਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।","ਤੁਹਾਨੂੰ ਆਰਾਮ ਕਰ ਚਾਹੀਦਾ ਹੈ।","ਤੁਹਾਨੂੰ ਆਰਾਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੋ।","Should: ਤੁਹਾਨੂੰ + infinitive + ਚਾਹੀਦਾ ਹੈ."],
+      ["mc","May I come in? (a man speaking) =","ਕੀ ਮੈਂ ਅੰਦਰ ਆ ਸਕਦਾ ਹਾਂ?","ਕੀ ਮੈਂ ਅੰਦਰ ਆਉਣਾ ਸਕਦਾ ਹਾਂ?","ਕੀ ਮੈਨੂੰ ਅੰਦਰ ਆ ਸਕਦਾ ਹੈ?","ਕੀ ਮੈਂ ਅੰਦਰ ਆ ਸਕਦੀ ਹਾਂ?","Permission: ਕੀ ਮੈਂ + stem + ਸਕਦਾ ਹਾਂ, with ਸਕਦਾ for a man."],
+      ["mc","I'll have to go to the doctor. =","ਮੈਨੂੰ ਡਾਕਟਰ ਕੋਲ ਜਾਣਾ ਪਵੇਗਾ।","ਮੈਂ ਡਾਕਟਰ ਕੋਲ ਜਾਣਾ ਪਵੇਗਾ।","ਮੈਨੂੰ ਡਾਕਟਰ ਕੋਲ ਜਾਵਾਂਗਾ ਪਵੇਗਾ।","ਮੈਨੂੰ ਕੋਲ ਡਾਕਟਰ ਜਾਣਾ ਪਵੇਗਾ।","ਮੈਨੂੰ + infinitive + ਪਵੇਗਾ, and ਕੋਲ goes after ਡਾਕਟਰ."],
+      ["or","I have to work every day. (start with ਮੈਨੂੰ)","ਮੈਨੂੰ ਰੋਜ਼ ਕੰਮ ਕਰਨਾ ਪੈਂਦਾ ਹੈ","ਮੈਂ","The person who must takes the postposition form ਮੈਨੂੰ, not ਮੈਂ."],
+      ["or","Can you help me? (politely)","ਕੀ ਤੁਸੀਂ ਮੇਰੀ ਮਦਦ ਕਰ ਸਕਦੇ ਹੋ","ਸਕਦਾ","ਤੁਸੀਂ is plural, so ਸਕਦੇ agrees with it."],
+      ["or","I can come tomorrow. (a woman speaking; start with ਮੈਂ)","ਮੈਂ ਕੱਲ੍ਹ ਆ ਸਕਦੀ ਹਾਂ","ਸਕਦਾ","A woman is speaking, so ਸਕਦੀ agrees with her (feminine)."],
+      ["fi","__ ਘਰ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।","You should go home. (politely)","ਤੁਹਾਨੂੰ","ਤੁਸੀਂ|ਤੁਹਾਡਾ|ਤੁਹਾਡੇ","Should takes the ਨੂੰ form: ਤੁਹਾਨੂੰ."],
+      ["fi","ਕੀ ਮੈਂ ਇੱਥੇ ਬੈਠ __ ਹਾਂ?","May I sit here? (a man speaking)","ਸਕਦਾ","ਸਕਦੀ|ਸਕਦੇ|ਸਕਣਾ","A man asking: ਸਕਦਾ ਹਾਂ."],
+      ["fi","ਮੈਨੂੰ ਰੋਜ਼ ਸਵੇਰੇ ਛੇ ਵਜੇ ਉੱਠਣਾ __ ਹੈ।","I have to get up at six every morning.","ਪੈਂਦਾ","ਪਵੇਗਾ|ਸਕਦਾ|ਪੈਂਦੀ","As a rule, every day: ਪੈਂਦਾ ਹੈ."],
+      ["ty","I'll have to go.","ਮੈਨੂੰ ਜਾਣਾ ਪਵੇਗਾ","ਜਾਣਾ · ਪਵੇਗਾ","ਮੈਂ","The person who must takes the postposition form ਮੈਨੂੰ, not ਮੈਂ."],
+      ["ty","I can speak Punjabi. (a man speaking)","ਮੈਂ ਪੰਜਾਬੀ ਬੋਲ ਸਕਦਾ ਹਾਂ","ਪੰਜਾਬੀ · ਬੋਲਣਾ, stem ਬੋਲ · ਸਕਦਾ","ਸਕਦੀ ਬੋਲਣਾ","A man is speaking, so ਸਕਦਾ agrees with him (masculine)."],
+      ["ty","You should rest. (politely)","ਤੁਹਾਨੂੰ ਆਰਾਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ","ਆਰਾਮ ਕਰਨਾ (to rest) · ਚਾਹੀਦਾ","ਤੁਸੀਂ","Should takes the postposition form ਤੁਹਾਨੂੰ, not ਤੁਸੀਂ."]
     ]
   }
 ];

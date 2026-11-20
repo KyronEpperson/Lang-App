@@ -87,7 +87,7 @@ module.exports = {
 ਸਿੰਘ | síngh | Singh (a Sikh name) | High tone on i; ਘ is a plain g here.
 ਕਰ | kar | do! (to a friend) | Level tone: a plain k, no falling pitch. Compare ਘਰ, house.
 ਘੜੀ | ghàṛī | watch; clock | Feminine. ਘ at the start: say k and let the pitch fall.
-ਕੜੀ | kaṛī | link (in a chain) | Level tone; compare ਘੜੀ.
+ਕੜੀ | kaṛī | link (in a chain) | Feminine. Level tone: a plain k; compare ਘੜੀ, watch.
 ਭਾਈ | bhā̀ī | brother (also a title) | Masculine. ਭ at the start: say p and let the pitch fall. Also a respectful title: ਭਾਈ ਸਾਹਿਬ.
 ਧੀ | dhī̀ | daughter | Feminine. ਧ at the start: say t and let the pitch fall.
 ਝੰਡਾ | jhàṇḍā | flag | Masculine. ਝ at the start: say ch and let the pitch fall.

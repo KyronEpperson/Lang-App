@@ -40,6 +40,12 @@ const EXC = {
   'ਆਂਟੀ': 'āṇṭī', 'ਥੈਂਕ': 'thaink', 'ਥੈਂਕਸ': 'thainks',   /* English loans: bindi before a stop is a real n */
   'ਹਰਪ੍ਰੀਤ': 'harprīt', 'ਗੁਰਪ੍ਰੀਤ': 'gurprīt', 'ਜਸਪ੍ਰੀਤ': 'jasprīt', 'ਮਨਪ੍ਰੀਤ': 'manprīt',   /* names: compound + ਪ੍ਰੀਤ, the a before the cluster goes */
   'ਸਾਹਮਣੇ': 'sā́hmṇe',      /* the a after a silent ਹ goes too */
+  /* reviewer 2026-11-19: loans and other words where the inherent-a rule keeps or drops the wrong a */
+  'ਹਸਪਤਾਲ': 'haspatāl',    /* right-to-left deletion gives hasaptāl */
+  'ਮਿਰਚ': 'mirch', 'ਨਰਸ': 'nars', 'ਫ਼ਿਲਮ': 'film', 'ਸਿਰਫ਼': 'sirf', 'ਬਜ਼ੁਰਗ': 'bazurg',   /* final cluster said as a cluster (Punjabi keeps a in ਗਰਮ garam, ਦਰਦ darad, ਉਮਰ umar, ਫ਼ਿਕਰ fikar) */
+  'ਪਾਰਕ': 'pārk', 'ਨਿਊਯਾਰਕ': 'niūyārk',   /* English loans ending in -rk */
+  'ਟੋਰਾਂਟੋ': 'ṭorāṇṭo',     /* English loan: bindi before a stop is a real n, as in ਆਂਟੀ */
+  'ਹਾਹਾ': 'hāhā',           /* the letter name of ਹ: the second ਹ starts a syllable and is said; no tone */
 };
 /* output agrees with a named source (profile §6.1, test set 3), or was checked by hand (schwa and nasal cases) */
 const VER = new Set(`
@@ -50,6 +56,7 @@ const VER = new Set(`
 const DEC = new Set(`
 ਨਹੀਂ ਰਹੀ ਰਹੇ ਰਿਹਾ ਕਿਹਾ ਰਹੀਆਂ
 `.split(/\s+/).filter(Boolean));
+Object.keys(EXC).forEach(k => { const n = k.normalize('NFC'); if (n !== k) { EXC[n] = EXC[k]; delete EXC[k]; } });   /* keys typed with a precomposed dotted letter still match */
 (function lexfile() { const f = path.join(__dirname, 'lexicon.txt'); if (!fs.existsSync(f)) return;
   fs.readFileSync(f, 'utf8').split(/[;\n]/).map(s => s.trim()).filter(Boolean).forEach(e => { const i = e.indexOf(' '); if (i < 1) throw new Error('bad lexicon entry «' + e + '»'); EXC[e.slice(0, i).normalize('NFC')] = e.slice(i + 1).trim().normalize('NFC'); }); })();
 
@@ -66,7 +73,7 @@ const HALF = { 'kh': 'k', 'gh': 'g', 'ch': 'c', 'chh': 'c', 'jh': 'j', 'ṭh': '
 /* place of articulation, for ੰ / ਂ before a stop */
 const PLACE = {}; 'k kh g gh q ḵh ġ ch chh j jh z'.split(' ').forEach(c => PLACE[c] = 'n');
 'ṭ ṭh ḍ ḍh'.split(' ').forEach(c => PLACE[c] = 'ṇ'); 't th d dh'.split(' ').forEach(c => PLACE[c] = 'n'); 'p ph b bh f'.split(' ').forEach(c => PLACE[c] = 'm');
-const NASALC = { 'n': 'n', 'm': 'm', 'ṇ': 'ṇ' };
+const NASALC = { 'n': 'n', 'm': 'm', 'ṇ': 'ṇ', 'ṅ': 'ṅ', 'ñ': 'ñ' };   /* tippi before ਙ ਞ doubles them too: ਙੰਙਾ ṅaṅṅā, ਞੰਞਾ ñaññā (letter names) */
 const LONG = ['ā', 'ī', 'ū', 'e', 'ai', 'o', 'au'];
 const VIRAMA = '੍', NUKTA = '਼', BINDI = 'ਂ', TIPPI = 'ੰ', ADDAK = 'ੱ', GRAVE = '̀', ACUTE = '́', TILDE = '̃';
 /* independent vowels typed as a carrier + vowel sign (some keyboards do this; not canonically equal in Unicode) */

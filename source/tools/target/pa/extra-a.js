@@ -5,10 +5,10 @@ exports.DIALOG = `
 ਕਿ | ਤੁਹਾਨੂੰ ਪਤਾ ਹੈ ਕਿ ਉਹ ਕਿੱਥੇ ਹੈ? | ਨਹੀਂ, ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ। | Do you know where he is? / No, I don't know.
 ਚਾਚਾ | ਚਾਚਾ ਜੀ ਆ ਗਏ! | ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਚਾਚਾ ਜੀ! | Uncle is here! / Hello, Uncle!
 ਸਾਗ | ਅੱਜ ਕੀ ਬਣਿਆ ਹੈ? | ਸਾਗ ਅਤੇ ਮੱਕੀ ਦੀ ਰੋਟੀ। | What's for dinner today? / Greens and corn roti.
-ਖਾ | ਪੁੱਤ, ਰੋਟੀ ਖਾ ਲੈ। | ਹਾਂ ਮਾਂ, ਹੁਣੇ ਖਾਂਦਾ ਹਾਂ। | Son, eat your food. / OK, Mom, I'm eating right now.
+ਖਾ | ਪੁੱਤ, ਰੋਟੀ ਖਾ ਲੈ। | ਹਾਂ ਮਾਂ, ਹੁਣੇ ਖਾਂਦਾ ਹਾਂ। | Son, eat your food. / OK, Mom, I'll eat right now.
 ਜੀ | ਹਰਪ੍ਰੀਤ! | ਜੀ, ਮਾਤਾ ਜੀ? | Harpreet! / Yes, Mom?
 ਟਮਾਟਰ | ਟਮਾਟਰ ਕਿੰਨੇ ਦੇ ਹਨ? | ਚਾਲ੍ਹੀ ਰੁਪਏ ਕਿੱਲੋ। | How much are the tomatoes? / Forty rupees a kilo.
-ਫਲ | ਤੁਹਾਨੂੰ ਕਿਹੜਾ ਫਲ ਪਸੰਦ ਹੈ? | ਮੈਨੂੰ ਅੰਬ ਪਸੰਦ ਹੈ। | Which fruit do you like? / I like mangoes.
+ਫਲ | ਤੁਹਾਨੂੰ ਕਿਹੜਾ ਫਲ ਪਸੰਦ ਹੈ? | ਮੈਨੂੰ ਅੰਬ ਪਸੰਦ ਹੈ। | Which fruit do you like? / I like mango.
 ਢੋਲ | ਵਿਆਹ ਵਿੱਚ ਢੋਲ ਵੀ ਹੋਵੇਗਾ? | ਹਾਂ ਜੀ, ਢੋਲ ਵੀ ਅਤੇ ਭੰਗੜਾ ਵੀ! | Will there be a dhol at the wedding too? / Yes, a dhol and bhangra too!
 ਤਾਰਾ | ਉਹ ਤਾਰਾ ਦੇਖੋ! | ਵਾਹ, ਬਹੁਤ ਚਮਕਦਾ ਹੈ! | Look at that star! / Wow, it's so bright!
 ਮੁੰਡਾ | ਉਹ ਮੁੰਡਾ ਕੌਣ ਹੈ? | ਉਹ ਮੇਰਾ ਭਰਾ ਹੈ। | Who is that boy? / He's my brother.

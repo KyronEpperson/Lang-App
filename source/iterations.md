@@ -1141,3 +1141,9 @@ Not done: changing the question type by box (recognition → recall → typing) 
 
 ### 2.43.1 — results
 chr registered (drawn flag), 27 planned lessons in 4 stages merged, shown as coming soon. Western (Oklahoma) dialect, syllabary with a romanised line; no usable voice (text-only); lesson order follows Joyner's Cherokee Language Lessons Vol. 1, not an official syllabus; seven lesson titles are English-only because their Cherokee spellings were not confirmed. The plan asks for review by a first-language speaker or a Cherokee Nation programme before release.
+
+## 2.44.0 — prompt
+Ship Punjabi for English speakers (en-pa) after the cold review.
+
+### 2.44.0 — results
+27 lessons, 18 decks, 315 cards, 378 practice items; validate PASS; roadmap 27 items linked; e2e OK on fifteen lessons; Gurmukhi matching test passes. Pron tool rule-based with tone accents: tone classes checked against MSU Basic Punjabi and Wiktionary; mid-word high tone, low tone on ā and five frequent words unverified (REVIEW.md). Not native-checked.

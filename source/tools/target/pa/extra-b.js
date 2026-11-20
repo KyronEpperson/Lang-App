@@ -6,7 +6,7 @@ exports.DIALOG = `
 ਅੱਜ ਕੀ ਬਣਿਆ ਹੈ? | ਦਾਦੀ ਜੀ, ਅੱਜ ਕੀ ਬਣਿਆ ਹੈ? | ਸਰ੍ਹੋਂ ਦਾ ਸਾਗ ਤੇ ਮੱਕੀ ਦੀ ਰੋਟੀ। | Grandma, what's cooking today? / Mustard greens and cornmeal roti.
 ਮਿਰਚ ਘੱਟ ਪਾਓ ਜੀ। | ਦੋ ਪਰੌਂਠੇ, ਤੇ ਮਿਰਚ ਘੱਟ ਪਾਓ ਜੀ। | ਠੀਕ ਹੈ, ਘੱਟ ਮਿਰਚ। | Two parathas, and not too spicy, please. / OK, less chili.
 ਬਿੱਲ ਲਿਆਓ ਜੀ। | ਭਾਜੀ, ਬਿੱਲ ਲਿਆਓ ਜੀ। | ਦੋ ਸੌ ਰੁਪਏ ਹੋਏ। | The check, please. / That comes to two hundred rupees.
-ਬੱਸ, ਮੇਰਾ ਢਿੱਡ ਭਰ ਗਿਆ। | ਇੱਕ ਰੋਟੀ ਹੋਰ ਲਓ। | ਬੱਸ, ਮੇਰਾ ਢਿੱਡ ਭਰ ਗਿਆ। ਧੰਨਵਾਦ! | Have one more roti. / That's enough, I'm full. Thank you!
+ਬਸ, ਮੇਰਾ ਢਿੱਡ ਭਰ ਗਿਆ। | ਇੱਕ ਰੋਟੀ ਹੋਰ ਲਓ। | ਬਸ, ਮੇਰਾ ਢਿੱਡ ਭਰ ਗਿਆ। ਧੰਨਵਾਦ! | Have one more roti. / That's enough, I'm full. Thank you!
 ਲੰਗਰ | ਲੰਗਰ ਕਿੱਥੇ ਹੈ? | ਗੁਰਦੁਆਰੇ ਦੇ ਪਿੱਛੇ, ਵੱਡੇ ਹਾਲ ਵਿੱਚ। | Where is the langar? / Behind the gurdwara, in the big hall.
 ਕਿੰਨੇ ਵਜੇ ਹਨ? | ਕਿੰਨੇ ਵਜੇ ਹਨ? | ਸਾਢੇ ਤਿੰਨ ਵਜੇ ਹਨ। | What time is it? / It's half past three.
 ਅੱਜ ਕਿਹੜਾ ਦਿਨ ਹੈ? | ਅੱਜ ਕਿਹੜਾ ਦਿਨ ਹੈ? | ਅੱਜ ਸੋਮਵਾਰ ਹੈ। | What day is it today? / Today is Monday.
@@ -35,7 +35,7 @@ exports.DIALOG = `
 ਇਹ ਕਮੀਜ਼ ਕਿੰਨੇ ਦੀ ਹੈ? | ਭੈਣ ਜੀ, ਇਹ ਕਮੀਜ਼ ਕਿੰਨੇ ਦੀ ਹੈ? | ਪੰਜ ਸੌ ਰੁਪਏ ਦੀ। | How much is this shirt? / Five hundred rupees.
 ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ। | ਇਹ ਸੂਟ ਦੋ ਹਜ਼ਾਰ ਦਾ ਹੈ। | ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ। | This suit is two thousand. / It's very expensive.
 ਚਾਰ ਸੌ ਵਿੱਚ ਦੇ ਦਿਓ ਜੀ। | ਪੰਜ ਸੌ ਤੋਂ ਘੱਟ ਨਹੀਂ ਹੋਵੇਗਾ। | ਚਾਰ ਸੌ ਵਿੱਚ ਦੇ ਦਿਓ ਜੀ। | It can't go below five hundred. / Let me have it for four hundred.
-ਮੈਂ ਬੱਸ ਦੇਖ ਰਹੀ ਹਾਂ। | ਕੀ ਚਾਹੀਦਾ ਹੈ, ਭੈਣ ਜੀ? | ਕੁਝ ਨਹੀਂ, ਮੈਂ ਬੱਸ ਦੇਖ ਰਹੀ ਹਾਂ। | What do you need, ma'am? / Nothing, I'm just looking.
+ਮੈਂ ਬਸ ਦੇਖ ਰਹੀ ਹਾਂ। | ਕੀ ਚਾਹੀਦਾ ਹੈ, ਭੈਣ ਜੀ? | ਕੁਝ ਨਹੀਂ, ਮੈਂ ਬਸ ਦੇਖ ਰਹੀ ਹਾਂ। | What do you need, ma'am? / Nothing, I'm just looking.
 ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਖੁੱਲ੍ਹੇ ਪੈਸੇ ਹਨ? | ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਖੁੱਲ੍ਹੇ ਪੈਸੇ ਹਨ? | ਨਹੀਂ ਜੀ, ਸਿਰਫ਼ ਪੰਜ ਸੌ ਦਾ ਨੋਟ ਹੈ। | Do you have change? / No, just a five-hundred note.
 ਮੈਨੂੰ ਇਹ ਪਸੰਦ ਹੈ। | ਇਹ ਨੀਲੀ ਪੱਗ ਕਿਵੇਂ ਹੈ? | ਮੈਨੂੰ ਇਹ ਪਸੰਦ ਹੈ। | How about this blue turban? / I like this.
 ਮੇਰੀ ਤਬੀਅਤ ਠੀਕ ਨਹੀਂ ਹੈ। | ਕੀ ਹੋਇਆ? ਤੁਸੀਂ ਠੀਕ ਹੋ? | ਮੇਰੀ ਤਬੀਅਤ ਠੀਕ ਨਹੀਂ ਹੈ। | What happened? Are you OK? / I'm not feeling well.
@@ -49,7 +49,7 @@ exports.DIALOG = `
 ਕਦੋਂ | ਤੁਸੀਂ ਪੰਜਾਬ ਕਦੋਂ ਜਾ ਰਹੇ ਹੋ? | ਅਗਲੇ ਮਹੀਨੇ। | When are you going to Punjab? / Next month.
 ਕਿਉਂ | ਤੁਸੀਂ ਪੰਜਾਬੀ ਕਿਉਂ ਸਿੱਖ ਰਹੇ ਹੋ? | ਮੇਰਾ ਪਰਿਵਾਰ ਪੰਜਾਬੀ ਬੋਲਦਾ ਹੈ। | Why are you learning Punjabi? / My family speaks Punjabi.
 ਕਿਉਂਕਿ | ਤੁਸੀਂ ਅੱਜ ਦਫ਼ਤਰ ਕਿਉਂ ਨਹੀਂ ਗਏ? | ਕਿਉਂਕਿ ਮੇਰੀ ਤਬੀਅਤ ਠੀਕ ਨਹੀਂ ਸੀ। | Why didn't you go to the office today? / Because I wasn't feeling well.
-ਕੀ ਤੁਸੀਂ ਠੀਕ ਹੋ? | ਕੀ ਤੁਸੀਂ ਠੀਕ ਹੋ? | ਹਾਂ ਜੀ, ਬੱਸ ਥੋੜ੍ਹਾ ਥੱਕਿਆ ਹੋਇਆ ਹਾਂ। | Are you OK? / Yes, just a little tired.
+ਕੀ ਤੁਸੀਂ ਠੀਕ ਹੋ? | ਕੀ ਤੁਸੀਂ ਠੀਕ ਹੋ? | ਹਾਂ ਜੀ, ਬਸ ਥੋੜ੍ਹਾ ਥੱਕਿਆ ਹੋਇਆ ਹਾਂ। | Are you OK? / Yes, just a little tired.
 ਇਹ ਕੀ ਹੈ? | ਇਹ ਕੀ ਹੈ? | ਇਹ ਖੀਰ ਹੈ, ਚੌਲਾਂ ਦੀ ਮਿੱਠੀ ਚੀਜ਼। | What is this? / It's kheer, a sweet rice dish.
 ਜਾਂ | ਚਾਹ ਜਾਂ ਲੱਸੀ? | ਲੱਸੀ, ਜੀ। | Tea or lassi? / Lassi, please.
 ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ। | ਬੱਸ ਕਦੋਂ ਆਵੇਗੀ? | ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ। | When will the bus come? / I don't know.

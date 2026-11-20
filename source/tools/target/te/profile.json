@@ -1,0 +1,302 @@
+{
+ "target": "te",
+ "nameEn": "Telugu",
+ "self": "తెలుగు",
+ "ttsLang": "te-IN",
+ "brand": "తెలుగు",
+ "accents": true,
+ "keys": "ం ్",
+ "greet": [
+  [
+   "శుభ రాత్రి",
+   "Good night"
+  ],
+  [
+   "నమస్కారం",
+   "Hello"
+  ],
+  [
+   "నమస్కారం",
+   "Hello"
+  ],
+  [
+   "నమస్కారం",
+   "Hello"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*(?:aa|ii|uu|ee|oo|c(?!c?h)))[abcdefghijklmnoprstuvyzāīūēōṭḍṇḷṅñ]+(?:-[abcdefghijklmnoprstuvyzāīūēōṭḍṇḷṅñ]+)*[.,?!:;]?(?: [abcdefghijklmnoprstuvyzāīūēōṭḍṇḷṅñ]+(?:-[abcdefghijklmnoprstuvyzāīūēōṭḍṇḷṅñ]+)*[.,?!:;]?)*$",
+ "targetScript": "[\\u0C00-\\u0C65]",
+ "standingRule": {
+  "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bhuman\\b|\\bplural\\b|\\bperson endings?\\b|\\bcase endings?\\b|\\boblique\\b|\\bafter the noun\\b|\\bretroflex\\b|\\bdental\\b|\\b(?:un)?aspirated\\b|\\b(?:long|short) vowels?\\b|\\bvowel signs?\\b|\\bsunna\\b|\\bvattu\\b|\\bdoubled consonants?\\b|\\bpollu\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "vowels",
+   "title": "Vowels: short and long",
+   "roadmap": "te-vowels",
+   "deck": "Vowels"
+  },
+  {
+   "id": "vowel-signs",
+   "title": "Vowel signs (guṇintālu) on క",
+   "roadmap": "te-vowel-signs",
+   "deck": "Vowel signs"
+  },
+  {
+   "id": "consonants-1",
+   "title": "Consonants 1: the k, ch and ṭ rows",
+   "roadmap": "te-consonants-1",
+   "deck": "Consonants 1: k, ch and ṭ rows"
+  },
+  {
+   "id": "consonants-2",
+   "title": "Consonants 2: the t and p rows, and the rest",
+   "roadmap": "te-consonants-2",
+   "deck": "Consonants 2: t and p rows, and the rest"
+  },
+  {
+   "id": "conjuncts",
+   "title": "Conjuncts, doubled letters and sunna",
+   "roadmap": "te-conjuncts",
+   "deck": "Conjuncts and sunna"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings: నమస్కారం, మీరు and -గారు",
+   "roadmap": "te-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "no-is",
+   "title": "Pronouns, and no word for \"is\"",
+   "roadmap": "te-no-is",
+   "deck": "About me"
+  },
+  {
+   "id": "questions",
+   "title": "Questions: -ఆ, ఏమిటి, ఎవరు, ఎక్కడ",
+   "roadmap": "te-questions",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "requests",
+   "title": "Requests and ordering: ఇవ్వండి, నాకు … కావాలి",
+   "roadmap": "te-requests",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers and prices: ఎంత?",
+   "roadmap": "te-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "intro",
+   "title": "Introducing yourself: నా పేరు …",
+   "roadmap": "te-intro",
+   "deck": "About me"
+  },
+  {
+   "id": "family",
+   "title": "Family, my and your, and counting people",
+   "roadmap": "te-family",
+   "deck": "Family and people"
+  },
+  {
+   "id": "plurals",
+   "title": "Plurals in -లు, and adjectives",
+   "roadmap": "te-plurals",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "case",
+   "title": "Case endings: -లో, -కి, -తో, -నుంచి",
+   "roadmap": "te-case",
+   "deck": "Getting around"
+  },
+  {
+   "id": "have",
+   "title": "There is, and having: ఉంది, లేదు",
+   "roadmap": "te-have",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "like",
+   "title": "Likes: నాకు … ఇష్టం",
+   "roadmap": "te-like",
+   "deck": "Likes and free time"
+  },
+  {
+   "id": "future",
+   "title": "Habitual and future: చేస్తాను, చేయను",
+   "roadmap": "te-future",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "continuous",
+   "title": "Present continuous: చేస్తున్నాను",
+   "roadmap": "te-continuous",
+   "deck": "Likes and free time"
+  },
+  {
+   "id": "past",
+   "title": "The past: వెళ్ళాను, చేశాను",
+   "roadmap": "te-past",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "past-neg",
+   "title": "Past negative: చేయలేదు",
+   "roadmap": "te-past-neg",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "and-then",
+   "title": "Two actions in a row: తిని వెళ్ళాను",
+   "roadmap": "te-and-then",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "must-can",
+   "title": "Must, must not and can: చేయాలి, చేయగలను",
+   "roadmap": "te-must-can",
+   "deck": "Health and help"
+  },
+  {
+   "id": "time",
+   "title": "Clock time, days and routine",
+   "roadmap": "te-time",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "shopping",
+   "title": "Shopping and bargaining: ఇది ఎంత?",
+   "roadmap": "te-shopping",
+   "deck": "Shopping and the market"
+  },
+  {
+   "id": "directions",
+   "title": "Directions and travel",
+   "roadmap": "te-directions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "compare",
+   "title": "Comparing with కంటే",
+   "roadmap": "te-compare",
+   "deck": "Shopping and the market"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Vowels",
+   "group": "Script and sounds",
+   "desc": "The vowel letters అ ఆ ఇ ఈ ఉ ఊ ఎ ఏ ఐ ఒ ఓ ఔ, short against long, and first words made of vowels and క"
+  },
+  {
+   "name": "Vowel signs",
+   "group": "Script and sounds",
+   "desc": "The vowel signs (guṇintālu) on క, the talakaṭṭu, and words such as కాకి, ఆకు, ఈక"
+  },
+  {
+   "name": "Consonants 1: k, ch and ṭ rows",
+   "group": "Script and sounds",
+   "desc": "క ఖ గ ఘ, చ ఛ జ ఝ, ట ఠ డ ఢ ణ: aspirated against plain, and retroflex"
+  },
+  {
+   "name": "Consonants 2: t and p rows, and the rest",
+   "group": "Script and sounds",
+   "desc": "త థ ద ధ న against the retroflex row, ప ఫ బ భ మ, య ర ల వ శ ష స హ ళ"
+  },
+  {
+   "name": "Conjuncts and sunna",
+   "group": "Script and sounds",
+   "desc": "Doubled letters, the common vattulu, sunna before each kind of letter, and pollu in English loans"
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "నమస్కారం, మీరు and నువ్వు, -గారు, thank you, sorry, yes and no, goodbye"
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, where you are from and live, work and study, languages, with the person endings"
+  },
+  {
+   "name": "Family and people",
+   "group": "First steps",
+   "desc": "Family on both sides, older and younger siblings, respect with -గారు, counting people"
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Numbers to 100, వంద and వెయ్యి, rupees and dollars, ఎంత? and the human counting forms"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Coffee, idli, dosa, biryani, pickles and rice, ordering at a tiffin center and at home"
+  },
+  {
+   "name": "Home and daily things",
+   "group": "Everyday life",
+   "desc": "Rooms and objects, plurals in -లు, everyday adjectives, what is and is not there"
+  },
+  {
+   "name": "Time, days and routine",
+   "group": "Everyday life",
+   "desc": "Clock time, days of the week, a day in the habitual, yesterday and tomorrow"
+  },
+  {
+   "name": "Likes and free time",
+   "group": "Everyday life",
+   "desc": "Films, cricket, music, reading, likes with నాకు … ఇష్టం, and what you are doing now"
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Places with -లో and -కి, left and right, autos, buses, the metro and trains"
+  },
+  {
+   "name": "Shopping and the market",
+   "group": "Out and about",
+   "desc": "Prices, a little bargaining, clothes and vegetables, this one or that one, cheaper and bigger"
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Feeling sick, the doctor and the pharmacy, must, must not and can, asking for help"
+  },
+  {
+   "name": "Questions and connectors",
+   "group": "Conversation",
+   "desc": "Question words, -ఆ questions, and మరియు, కానీ, ఎందుకంటే, అందుకే"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "Calques, the నాకు-construction, inclusive and exclusive we, negation, and words that fool you"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersKeepSpaces": true,
+ "pronAnswersScript": "[\\u0C00-\\u0C7F]",
+ "romaAlmost": true,
+ "voiceMatch": "^te(?:[-_]|$)",
+ "pronAnswersWarn": true
+}
