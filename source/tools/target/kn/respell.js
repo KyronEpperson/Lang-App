@@ -25,7 +25,7 @@ let warned = [];
 
 /* English loans said with f: a word that STARTS with one of these stems reads every ಫ as f, with no warning,
    so endings need no entry of their own (ಕಾಫಿ, ಕಾಫಿನಾ; ಫೋನ್, ಫೋನಿನಲ್ಲಿ; ಆಫೀಸ್, ಆಫೀಸಿಗೆ). Add stems here, not whole words. */
-const FSTEM = ['ಕಾಫಿ', 'ಫೋನ', 'ಫೋಟೋ', 'ಆಫೀಸ', 'ಫ್ರೆಂಡ', 'ಫ್ಯಾನ', 'ಫ್ರಿಜ', 'ಫ್ಲೈಟ', 'ಫ್ಯಾಮಿಲಿ', 'ಫೆಬ್ರವರಿ', 'ಫುಟ್ಬಾಲ', 'ಕ್ಯಾಲಿಫೋರ್ನಿಯಾ', 'ಫೈಲ', 'ಫೀಸ', 'ಫಾರ್ಮ', 'ಫಿಲ್ಮ', 'ಫ್ರೀ', 'ಫಾಸ್ಟ'];
+const FSTEM = ['ಕಾಫಿ', 'ಫೋನ', 'ಫೋಟೋ', 'ಆಫೀಸ', 'ಫ್ರೆಂಡ', 'ಫ್ಯಾನ', 'ಫ್ರಿಜ', 'ಫ್ಲೈಟ', 'ಫ್ಯಾಮಿಲಿ', 'ಫೆಬ್ರವರಿ', 'ಫುಟ್ಬಾಲ', 'ಕ್ಯಾಲಿಫೋರ್ನಿಯಾ', 'ಫೈಲ', 'ಫೀಸ', 'ಫಾರ್ಮ', 'ಫಿಲ್ಮ', 'ಫ್ರೀ', 'ಫಾಸ್ಟ', 'ಫಿಲ್ಟರ', 'ಟ್ರಾಫಿಕ'];
 /* whole-word overrides: anything else the rule gets wrong (empty for now; tools/target/kn/lexicon.txt adds more) */
 const EXC = {};
 /* words checked by hand against the rule's output (no warning). Add here, not in EXC, when the rule is right. */
@@ -116,8 +116,15 @@ const PUNCT = { '।': '.', '॥': '.', '.': '.', '?': '?', '!': '!', ',': ',', 
 function respell(text) {
   const src = String(text).normalize('NFC').replace(/[\u200c\u200d]/g, '');
   let out = ''; let buf = '';
-  const flush = () => { if (buf) { out += word(buf); buf = ''; } };
-  for (const c of src) {
+  /* a one-syllable fragment ending in the anusvara, then one space and a consonant (a syllable-spaced answer such as ಗಂ ಟೆ):
+     the nasal is resolved by the next letter, as inside the word (gaṇ ṭe). A real word ending in ಂ (ಮೇಡಂ) keeps m. */
+  const cs = [...src]; let ci = 0;
+  const flush = () => { if (!buf) return;
+    const nx = cs[ci + 1];
+    if (/^[\u0C95-\u0CB9][\u0CBE-\u0CCC]?\u0C82$/.test(buf) && cs[ci] === ' ' && nx && CON[nx]) { const r = word(buf.slice(0, -1)); const pl = PLACE[CON[nx]]; out += r + (pl || 'm'); }
+    else out += word(buf);
+    buf = ''; };
+  for (; ci < cs.length; ci++) { const c = cs[ci];
     if (isKn(c) && !isKnDigit(c)) { buf += c; continue; }
     flush();
     if (PUNCT[c]) { out = out.replace(/ +$/, '') + PUNCT[c]; continue; }

@@ -1,0 +1,410 @@
+# en-nan lexicon: Taigi (MOE recommended characters) -> Tâi-lô, for tools/target/nan/respell.js (profile docs/profiles/en-nan.md §6).
+# Format: characters<TAB>tâi-lô<TAB>source id. One headword per line, its reading copied from the source (where the MOE dictionary lists
+# accent variants "a/b", the FIRST, main reading is kept). Spaces inside a reading are the MOE dictionary's own word breaks (m̄ sī).
+# Never add a line from memory: every line names the page it was copied from (ids below). Lines are checked on load (syllable rule,
+# tone marks, one syllable per character).
+#
+# Source ids (all pages opened 2026-11-19; base https://sutian.moe.edu.tw = 教育部臺灣台語常用詞辭典, the MOE dictionary):
+#   h29   /zh-hant/hunlui/29/?iahbe=1&pitsoo=100   category index 稱謂輩分 (kinship terms), page 1
+#   h55   /und-hani/hunlui/55/                       category index 飲食物具, page 1
+#   h61   /zh-hant/hunlui/61/?iahbe=1&pitsoo=100   category index 交際應酬, page 1
+#   h98   /zh-hant/hunlui/98/?iahbe=1&pitsoo=100   category index 代名詞 (pronouns)
+#   h99   /zh-hant/hunlui/99/                        category index 助詞、嘆詞, page 1
+#   h100  /zh-hant/hunlui/100/?iahbe=1..3&pitsoo=100 category index 數詞、量詞 (numbers, classifiers), pages 1-3
+#   h102  /zh-hant/hunlui/102/?iahbe=1|4&pitsoo=100 category index 副詞 (adverbs), pages 1 and 4
+#   h207  /zh-hant/hunlui/207/                       category index 疑問詞 (question words)
+#   t:X   /zh-hant/tshiau/?lui=tai_su&tsha=X       headword search for X (exact and partial matches)
+#   s:N   /zh-hant/su/N/                             dictionary entry N (headword, reading, example sentences)
+#   wp700 https://en.wikipedia.org/wiki/Taiwan_Taigi_Recommended_Characters (sample table of the MOE 700-character list)
+#
+# --- pronouns, demonstratives, question words
+我	guá	h98
+你	lí	h98
+伊	i	h98
+阮	guán	h98
+咱	lán	h98
+恁	lín	h98
+家己	ka-kī	h98
+遮	tsia	h98
+遐	hia	h98
+彼个	hit ê	h98
+這號	tsit-lō	h98
+逐个	ta̍k ê	h98
+別个	pa̍t-ê	h98
+佗位	tó-uī	h98
+佗一个	tó tsi̍t ê	h98
+啥	siánn	h98
+啥人	siánn-lâng	h98
+啥款	siánn-khuán	h98
+啥物	siánn-mih	h207
+當時	tang-sî	h207
+敢是	kám-sī	h207
+是按怎	sī-án-tsuánn	h207
+按怎	án-tsuánn	h102
+按呢	án-ne	h102
+# --- particles
+个	ê	h98
+的	ê	h99
+仔	á	h99
+矣	--ah	h99
+未	buē	s:1653
+猶未	iáu-buē	s:1653
+啦	--lah	s:2872
+咧	teh	s:4771
+# --- 是, 有 / 無, the negatives, modals
+是	sī	t:是
+毋	m̄	t:毋
+毋是	m̄ sī	t:是
+是毋是	sī m̄ sī	t:是
+敢毋是	kám m̄ sī	t:是
+也是	iā sī	t:是
+嘛是	mā sī	t:是
+攏是	lóng sī	t:是
+就是	tō sī	t:是
+抑是	ia̍h-sī	t:是
+猶是	iáu-sī	t:是
+但是	tān-sī	t:是
+若是	nā-sī	t:是
+有	ū	t:有
+無	bô	t:有
+敢有	kám ū	t:有
+猶有	iáu-ū	t:有
+有影	ū-iánn	t:有
+有閒	ū-îng	t:有
+有名	ū-miâ	t:有
+有時	ū-sî	t:有
+有法度	ū-huat-tōo	t:有
+無法度	bô-huat-tōo	t:無
+無愛	bô ài	t:毋
+無要緊	bô iàu-kín	h102
+毋免	m̄-bián	t:毋
+毋好	m̄ hó	t:毋
+毋敢	m̄ kánn	t:毋
+毋知	m̄ tsai	t:毋
+毋知影	m̄ tsai-iánn	t:毋
+毋捌	m̄ bat	t:毋
+毋通	m̄-thang	t:毋
+毋著	m̄-tio̍h	t:毋
+毋過	m̄-koh	t:毋
+莫	mài	t:毋
+袂	bē	s:6632
+袂曉	bē-hiáu	s:6632
+袂使	bē-sái	t:毋
+袂當	bē-tàng	t:毋
+會	ē	s:9565
+會使	ē-sái	h102
+會當	ē-tàng	h102
+欲	beh	s:7469
+想欲	siūnn-beh	s:14370
+愛	ài	s:9427
+愛睏	ài-khùn	s:9427
+免	bián	s:2872
+免錢	bián-tsînn	s:2872
+敢	kám	s:8414
+捌	bat	h102
+# --- prepositions, adverbs
+佇	tī	s:2858
+共	kā	s:2099
+比	pí	s:10139
+較	khah	s:10139
+都	to	s:10139
+真	tsin	h102
+誠	tsiânn	h102
+足	tsiok	h102
+真正	tsin-tsiànn	h102
+攏	lóng	s:1826
+再	tsài	h102
+慢慢仔	bān-bān-á	h102
+直直	ti̍t-ti̍t	h102
+透早	thàu-tsá	h102
+做陣	tsò-tīn	h102
+總共	tsóng-kiōng	h102
+親像	tshin-tshiūnn	h102
+一下	tsi̍t-ē	h102
+這馬	tsit-má	s:2858
+定定	tiānn-tiānn	s:2858
+# --- greetings and courtesy
+多謝	to-siā	s:2415
+感謝	kám-siā	s:2415
+多謝你	to-siā--lí	s:2415
+勞力	lóo-la̍t	h61
+歹勢	pháinn-sè	t:歹勢
+好勢	hó-sè	t:歹勢
+再會	tsài-huē	s:2232
+再見	tsài-kiàn	s:2232
+失禮	sit-lé	s:1826
+客氣	kheh-khì	t:有
+恭喜	kiong-hí	h61
+介紹	kài-siāu	h61
+見面	kìnn-bīn	h61
+人客	lâng-kheh	h61
+禮物	lé-bu̍t	h61
+好	hó	h102
+# --- family
+阿爸	a-pah	h29
+阿母	a-bú	h29
+阿公	a-kong	h29
+阿媽	a-má	h29
+阿兄	a-hiann	h29
+阿姊	a-tsí	h29
+阿姨	a-î	h29
+阿伯	a-peh	h29
+阿叔	a-tsik	h29
+阿姑	a-koo	h29
+阿舅	a-kū	h29
+外公	guā-kong	h29
+外媽	guā-má	h29
+後生	hāu-senn	h29
+囡仔	gín-á	h29
+兄弟	hiann-tī	h29
+父母	hū-bió	h29
+牽手	khan-tshiú	h29
+翁某	ang-bóo	h29
+囝	kiánn	wp700
+小弟	sió-tī	s:4770
+# --- numbers and classifiers
+一	tsi̍t	h100
+二	jī	h100
+兩	nn̄g	h100
+三	sann	h100
+四	sì	h100
+五	gōo	h100
+六	la̍k	h100
+七	tshit	h100
+八	peh	h100
+九	káu	h100
+十	tsa̍p	h100
+百	pah	h100
+千	tshing	h100
+萬	bān	h100
+空	khòng	h100
+三百	sann-pah	s:9565
+一半	tsi̍t-puànn	h100
+幾	kuí	h100
+箍	khoo	h100
+杯	pue	h100
+本	pún	h100
+隻	tsiah	h100
+台	tâi	h100
+張	tiunn	h100
+件	kiānn	h100
+粒	lia̍p	h100
+條	tiâu	h100
+雙	siang	h100
+斤	kin	h100
+歲	huè	h100
+點	tiám	h100
+點鐘	tiám-tsing	h100
+分鐘	hun-tsing	h100
+項	hāng	h100
+次	tshù	h100
+句	kù	h100
+塊	tè	s:10139
+冊	tsheh	h100
+公斤	kong-kin	h100
+公里	kong-lí	h100
+# --- verbs
+去	khì	s:7469
+來	lâi	s:2872
+食	tsia̍h	s:9565
+食飯	tsia̍h-pn̄g	s:1653
+食飽	tsia̍h-pá	s:1653
+啉	lim	wp700
+講	kóng	s:2099
+看	khuànn	s:4770
+坐	tsē	s:4770
+做	tsò	s:2099
+買	bé	s:9565
+學	o̍h	s:10139
+睏	khùn	s:2858
+讀冊	tha̍k-tsheh	s:2858
+行路	kiânn-lōo	s:9427
+蹛	tuà	wp700
+予	hōo	wp700
+落雨	lo̍h-hōo	s:7469
+煩惱	huân-ló	s:9565
+感冒	kám-mōo	s:9565
+起來	khí-lâi	s:2858
+# --- nouns, adjectives
+人	lâng	s:9427
+厝	tshù	s:2858
+厝裡	tshù--lí	s:2858
+天	thinn	s:7469
+房間	pâng-king	s:2099
+便所	piān-sóo	s:14370
+物件	mi̍h-kiānn	s:10139
+桌仔	toh-á	s:10139
+內面	lāi-bīn	s:10139
+炒飯	tshá-pn̄g	s:4770
+柑仔	kam-á	s:9565
+菜單	tshài-tuann	h55
+火鍋	hué-ko	h55
+甌仔	au-á	h55
+低	kē	s:10139
+濟	tsē	wp700
+媠	suí	wp700
+慢	bān	s:4770
+歡喜	huann-hí	s:4771
+小心	sió-sim	s:9427
+# --- the eight-animal tone mnemonic. wk8 = https://en.wiktionary.com/wiki/獅虎豹鱉猴狗象鹿 (Tâi-lô: sai hóo pà pih kâu káu tshiūnn lo̍k)
+獅	sai	wk8
+虎	hóo	wk8
+豹	pà	wk8
+鱉	pih	wk8
+猴	kâu	wk8
+狗	káu	wk8
+象	tshiūnn	wk8
+鹿	lo̍k	wk8
+# --- people, names (s:2117 ex: 你號做啥物名？ Lí hō-tsò siánn-mih miâ? / 三名教師 sann miâ kàu-su)
+老師	lāu-su	s:2699
+學生	ha̍k-sing	s:11618
+中學生	tiong-ha̍k-sing	s:11618
+名	miâ	s:2117
+號做	hō-tsò	s:2117
+姓	sènn	s:3766
+貴姓	kuì-sènn	s:3766
+# --- s:11380 請 ex: 請你有閒來阮遐𨑨迌。 / 請你多多指教。 Tshiánn lí to-to tsí-kàu. / 伊欲請逐家食飯。 I beh tshiánn ta̍k-ke tsia̍h-pn̄g. / 今仔日我請恁。 Kin-á-ji̍t guá tshiánn--lín. / 請朋友看電影。 Tshiánn pîng-iú khuànn tiān-iánn.
+請	tshiánn	s:11380
+多多	to-to	s:11380
+指教	tsí-kàu	s:11380
+逐家	ta̍k-ke	s:11380
+今仔日	kin-á-ji̍t	s:11380
+請恁	tshiánn--lín	s:11380
+朋友	pîng-iú	s:11380
+電影	tiān-iánn	s:11380
+# --- s:10907 閣 ex: 今仔日伊閣來矣。 Kin-á-ji̍t i koh lâi--ah. / 伊講明仔載欲閣來。 I kóng bîn-á-tsài beh koh lâi.
+閣	koh	s:10907
+明仔載	bîn-á-tsài	s:10907
+叫	kiò	s:10907
+第一	tē-it	s:10907
+煮	tsú	s:10907
+菜	tshài	s:10907
+歹食	pháinn-tsia̍h	s:10907
+下班	hā-pan	s:10907
+# --- s:13225 聽 ex: 這條歌有聽過無？ Tsit tiâu kua ū thiann--kuè--bô? / 伊真聽𪜶爸母的話。 I tsin thiann in pē-bú ê uē.
+聽	thiann	s:13225
+歌	kua	s:13225
+聽過	thiann--kuè	s:13225
+爸母	pē-bú	s:13225
+話	uē	s:13225
+# --- s:12482 擺 ex: 一擺 tsi̍t pái / 頂擺 tíng-pái
+擺	pái	s:12482
+一擺	tsi̍t pái	s:12482
+頂擺	tíng-pái	s:12482
+# --- s:4408 知影 ex: 你敢知影伊叫做啥物名？ Lí kám tsai-iánn i kiò-tsò siánn-mih miâ?
+知影	tsai-iánn	s:4408
+叫做	kiò-tsò	s:4408
+# --- food and markets. s:3773 ex: 咱來去踅夜市。 Lán lâi-khì se̍h iā-tshī. / s:12062 ex: 阿娥佮𪜶頭家攏佇菜市仔賣物件。 A-ngôo kah in thâu-ke lóng tī tshài-tshī-á bē mi̍h-kiānn.
+夜市	iā-tshī	s:3773
+來去	lâi-khì	s:3773
+踅	se̍h	s:3773
+錢	tsînn	s:11988
+金錢	kim-tsînn	s:11988
+頭家	thâu-ke	s:12062
+佮	kah	s:12062
+菜市仔	tshài-tshī-á	s:12062
+賣	bē	s:12062
+# s:6998 偌濟 ex: 頭家，弓蕉一斤偌濟錢？ Thâu-ke, king-tsio tsi̍t kin guā-tsē tsînn?
+偌濟	guā-tsē	s:6998
+弓蕉	king-tsio	s:6998
+# s:9775 碗 ex: 三碗飯 sann uánn pn̄g / 飯碗 pn̄g-uánn
+碗	uánn	s:9775
+飯	pn̄g	s:9775
+飯碗	pn̄g-uánn	s:9775
+# s:9035 貴 ex: 這遮貴，莫買啦！ Tse tsiah kuì, mài bé--lah! (遮 here is tsiah 'so', not tsia 'here')
+貴	kuì	s:9035
+遮貴	tsiah kuì	s:9035
+# s:13053 麵 mī (literary biān)
+麵	mī	s:13053
+# s:4690 俗 ex: 彼擔賣的水果較俗。 Hit tànn bē ê tsuí-kó khah sio̍k.
+俗	sio̍k	s:4690
+彼擔	hit tànn	s:4690
+水果	tsuí-kó	s:4690
+# s:2595 肉 bah. ex: 肉圓 bah-uân / 肉乾 bah-kuann
+肉	bah	s:2595
+肉圓	bah-uân	s:2595
+肉乾	bah-kuann	s:2595
+# s:2953 卵 nn̄g (Tainan, Kaohsiung, Taipei ...). ex: 雞卵 ke-nn̄g
+卵	nn̄g	s:2953
+雞卵	ke-nn̄g	s:2953
+# s:8084 魚 hî (Tainan, Kaohsiung; hû Taipei)
+魚	hî	s:8084
+# s:10581 滷肉飯 lóo-bah-pn̄g (south: 肉燥飯 bah-sò-pn̄g)
+滷肉飯	lóo-bah-pn̄g	s:10581
+肉燥飯	bah-sò-pn̄g	s:10581
+# s:9290 傷 siunn (Tainan sionn) 'too'. ex: 你講話傷過份。 Lí kóng-uē siunn kuè-hūn. / 傷鹹 siunn kiâm
+傷	siunn	s:9290
+講話	kóng-uē	s:9290
+鹹	kiâm	s:9290
+# s:6537 茶 tê. ex: 烏龍茶 oo-liông-tê
+茶	tê	s:6537
+烏龍茶	oo-liông-tê	s:6537
+# s:814 水 tsuí
+水	tsuí	s:814
+# --- place words. s:8082 ex: 酒囥下跤格，汽水囥頂懸格。 Tsiú khǹg ē-kha keh, khì-tsuí khǹg tíng-kuân keh.
+頂懸	tíng-kuân	s:8082
+酒	tsiú	s:8082
+囥	khǹg	s:8082
+汽水	khì-tsuí	s:8082
+# s:477 下跤 ex: 貓睏佇椅仔下跤。 Niau khùn tī í-á ē-kha.
+下跤	ē-kha	s:477
+貓	niau	s:477
+椅仔	í-á	s:477
+# s:5727 倒手 ex: 伊寫字、食飯攏用倒手。 I siá-jī, tsia̍h-pn̄g lóng īng tò-tshiú.
+倒手	tò-tshiú	s:5727
+寫字	siá-jī	s:5727
+用	īng	s:5727
+# s:1679 正手
+正手	tsiànn-tshiú	s:1679
+# s:12058 頭前 ex: 你行頭前，我綴你行。 Lí kiânn thâu-tsîng, guá tuè lí kiânn.
+頭前	thâu-tsîng	s:12058
+行	kiânn	s:12058
+綴	tuè	s:12058
+# s:4968 後壁 ex: 莫佇後壁講人的歹話。 Mài tī āu-piah kóng lâng ê pháinn-uē.
+後壁	āu-piah	s:4968
+歹話	pháinn-uē	s:4968
+# --- getting around. s:10532 斡 ex: 頭前路口斡正爿就到矣。 Thâu-tsîng lōo-kháu uat tsiànn-pîng tō kàu--ah.
+斡	uat	s:10532
+路口	lōo-kháu	s:10532
+正爿	tsiànn-pîng	s:10532
+就	tō	s:10532
+到	kàu	s:10532
+捷運	tsia̍t-ūn	s:7397
+車	tshia	s:3394
+火車	hué-tshia	s:1242
+計程車	kè-thîng-tshia	s:3394
+# 遠: colloquial hn̄g (s:10857 cross-reference 白 hn̄g; s:4770 ex 差遠咧 tsha hn̄g--leh); antonym 近 kīn
+遠	hn̄g	s:4770
+近	kīn	s:10857
+# --- time. s:5016 昨昏 ex: 昨昏是上尾一工，今仔日已經袂赴矣。 Tsa-hng sī siōng-bué tsi̍t kang, kin-á-ji̍t í-king bē-hù--ah.
+昨昏	tsa-hng	s:5016
+上尾	siōng-bué	s:5016
+一工	tsi̍t kang	s:5016
+已經	í-king	s:5016
+袂赴	bē-hù	s:5016
+# s:432 下晡 ex: 下晡我欲招阿美仔去𨑨迌。
+下晡	ē-poo	s:432
+招	tsio	s:432
+# s:2517 早起 ex: 伊逐工早起攏會去公園運動。 I ta̍k-kang tsá-khí lóng ē khì kong-hn̂g ūn-tōng. / 我無食早起。 Guá bô tsia̍h tsá-khí.
+早起	tsá-khí	s:2517
+逐工	ta̍k-kang	s:2517
+公園	kong-hn̂g	s:2517
+運動	ūn-tōng	s:2517
+# s:713 中晝 ex: 十二點欲食中晝矣！ Tsa̍p-jī tiám beh tsia̍h tiong-tàu--ah!
+中晝	tiong-tàu	s:713
+# s:9598 暗時 ex: 暗時你莫佇外口拋拋走。
+暗時	àm-sî	s:9598
+外口	guā-kháu	s:9598
+廿	jia̍p	h100
+廿一	jia̍p-it	h100
+一百空一	tsi̍t-pah khòng-it	h100
+百二	pah-jī	h100
+# t:早 https://sutian.moe.edu.tw/und-hani/tshiau/?lui=tai_su&tsha=早&iahbe=1&pitsoo=50
+早	tsá	t:早
+𠢕早	gâu-tsá	t:早
+較早	khah-tsá	t:早
+古早味	kóo-tsá-bī	t:早
+早頓	tsá-tǹg	t:早
+早睏	tsá-khùn	t:早
+明仔早起	bîn-á-tsá-khí	t:早
+以前	í-tsîng	t:早

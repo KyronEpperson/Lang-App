@@ -1159,3 +1159,9 @@ Typed romanisation must not earn 'almost' for a wrong option of the same item (f
 
 ### 2.45.1 — results
 gen.js stores the romanised wrong options (xr) on type / fill items (Hindi, Urdu, Punjabi, Telugu packs regenerated; validate PASS). romaDistract(): a typed word that reads like a wrong option once marks are dropped is accepted only when it is closer to the answer than to the wrong option in vowel length and doubled consonants (aa = ā); pairs that differ only in dots are left alone. Tests: karu for kāru wrong, kaaru almost; hogtiya for the question form wrong, hogtiyaa almost, hogtiya for the statement almost. Kannada: knNorm / knSlip, Roman folds without the doubled-consonant fold, font stack. Harness 86 guards.
+
+## 2.46.0 — prompt
+Ship Kannada for English speakers (en-kn) after the cold review.
+
+### 2.46.0 — results
+27 lessons, 18 decks, 315 cards, 378 practice items; validate PASS; roadmap 27 items linked; e2e OK on nineteen lessons; Kannada matching test passes. Spoken Bengaluru / Mysuru Kannada with one spelling per spoken form (review found the course consistent; one change: "I live in" uses ಇದ್ದೀನಿ). Review fixed four wrong-teaching points. Spoken forms outside the profile table are regular derivations, none confirmed by a source. Not native-checked (REVIEW.md).
