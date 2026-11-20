@@ -11,6 +11,11 @@
    Not shown (taught in the lessons instead, and listed in §11): చ / జ said ts / dz before a, ā, u, ū, o, ō in native words
    (చాలా chālā is said tsālā); e- and o- at the start of a word said ye-, wo- (ఎవరు evaru ≈ yevaru); the æ of English loans
    (బ్యాంకు byānku ≈ bænku); final -u said weakly.
+   English æ (decided 2026-11-19, reviewer): the key has no æ letter (pronPattern), so the pron keeps the spelling: an English loan
+   written with ్యా after a consonant (బ్యాంకు byānku, బ్యాగు, క్యాబ్) shows yā, and the key and the card note say that yā in an English
+   loan = the a of "bank". Not an exception per word: one reading rule. Sanskrit / native ్యా (విద్యార్థి, మధ్యాహ్నం) is a real y.
+   మధ్యాహ్నం keeps madhyāhnam (the spelling); everyday speech often says madhyānnam (noted in the time lesson, not shown).
+   సీతాఫలం is a Sanskrit compound: its ఫ is ph (checked: Wiktionary / kaikki IPA /siːt̪aːpʰalamu/), so it is in VER.
    Warns «…» where it guesses (ఫ outside an FSTEM loan: ph or f?; ః visarga; ఋ / ృ; ళ్ల written for ళ్ళ; ఙ ఞ). Throws «…» on anything that is not
    modern Telugu text: Latin letters, any digit (write numbers as words), archaic letters ఱ ఁ ౘ ౙ ౚ ఴ ఌ ౡ ౠ, ఽ, a lone sign.
    FSTEM lists English-loan stems whose ఫ is f; EXC overrides whole words; VER lists words checked by hand (no warning).
@@ -22,12 +27,12 @@ let warned = [];
 
 /* English loans said with f: a word that STARTS with one of these stems reads every ఫ as f, with no warning,
    so endings need no entry of their own (కాఫీ, కాఫీని, కాఫీనా; ఫోన్, ఫోన్లో). Add stems here, not whole words. */
-const FSTEM = ['కాఫీ', 'ఫోన', 'ఫోను', 'ఫోటో', 'ఆఫీస', 'ఫ్రెండ', 'ఫ్యాన', 'ఫ్రిజ', 'ఫ్లైట', 'ఫ్యామిలీ', 'ఫిబ్రవరి', 'ఫుట్బాల్', 'కాలిఫోర్నియా', 'ఫైల', 'ఫీజు', 'ఫారం'];
+const FSTEM = ['కాఫీ', 'ఫోన', 'ఫోను', 'ఫోటో', 'ఆఫీస', 'ఫ్రెండ', 'ఫ్యాన', 'ఫ్రిజ', 'ఫ్లైట', 'ఫ్యామిలీ', 'ఫిబ్రవరి', 'ఫుట్బాల్', 'కాలిఫోర్నియా', 'ఫైల', 'ఫీజు', 'ఫారం', 'టిఫిన'];
 /* whole-word overrides: anything else the rule gets wrong (empty for now; tools/target/te/lexicon.txt adds more) */
 const EXC = {};
 /* words checked by hand against the rule's output (no warning). Add here, not in EXC, when the rule is right. */
 const VER = new Set(`
-ఫ ఫలం ఫలాలు
+ఫ ఫలం ఫలాలు సీతాఫలం సీతాఫలాలు
 `.split(/\s+/).filter(Boolean));
 (function lexfile() { const f = path.join(__dirname, 'lexicon.txt'); if (!fs.existsSync(f)) return;
   fs.readFileSync(f, 'utf8').split(/[;\n]/).map(s => s.trim()).filter(Boolean).forEach(e => { const i = e.indexOf(' '); if (i < 1) throw new Error('bad lexicon entry «' + e + '»'); EXC[e.slice(0, i).normalize('NFC')] = e.slice(i + 1).trim().normalize('NFC'); }); })();

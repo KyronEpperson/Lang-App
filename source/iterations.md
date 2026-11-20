@@ -1147,3 +1147,9 @@ Ship Punjabi for English speakers (en-pa) after the cold review.
 
 ### 2.44.0 — results
 27 lessons, 18 decks, 315 cards, 378 practice items; validate PASS; roadmap 27 items linked; e2e OK on fifteen lessons; Gurmukhi matching test passes. Pron tool rule-based with tone accents: tone classes checked against MSU Basic Punjabi and Wiktionary; mid-word high tone, low tone on ā and five frequent words unverified (REVIEW.md). Not native-checked.
+
+## 2.45.0 — prompt
+Ship Telugu for English speakers (en-te) after the cold review, with its engine work.
+
+### 2.45.0 — results
+26 lessons, 18 decks, 322 cards, 364 practice items; validate PASS; roadmap 26 items linked; e2e OK on seventeen lessons. Engine: teNorm / teSlip (script), Roman folds for Telugu (th, s for sh, single for doubled consonant) and teTwin, the length guard on verbs with a doubled-consonant stem (vellanu is wrong for veḷḷānu; vellaanu is accepted); matching test passes. Present taught before past. Review fixed two wrong-teaching points (నాకు వెళ్ళాలి is no longer taught as wrong; the adjective form for a woman added). Typed romanisation without dots still cannot tell రాడు from రాదు. Not native-checked (REVIEW.md).

@@ -1,0 +1,308 @@
+{
+ "target": "kn",
+ "nameEn": "Kannada",
+ "self": "ಕನ್ನಡ",
+ "ttsLang": "kn-IN",
+ "brand": "ಕನ್ನಡ",
+ "accents": true,
+ "keys": "ಂ ್",
+ "greet": [
+  [
+   "ಶುಭ ರಾತ್ರಿ",
+   "Good night"
+  ],
+  [
+   "ನಮಸ್ಕಾರ",
+   "Hello"
+  ],
+  [
+   "ನಮಸ್ಕಾರ",
+   "Hello"
+  ],
+  [
+   "ನಮಸ್ಕಾರ",
+   "Hello"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*(?:aa|ii|uu|ee|oo|c(?!c?h)))[abcdefghijklmnoprstuvyzāīūēōṭḍṇḷṅñ]+(?:-[abcdefghijklmnoprstuvyzāīūēōṭḍṇḷṅñ]+)*[.,?!:;]?(?: [abcdefghijklmnoprstuvyzāīūēōṭḍṇḷṅñ]+(?:-[abcdefghijklmnoprstuvyzāīūēōṭḍṇḷṅñ]+)*[.,?!:;]?)*$",
+ "targetScript": "[\\u0C80-\\u0CE3]",
+ "standingRule": {
+  "keywords": "\\bagree(?:s|ment)?\\b|\\bperson endings?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bneuter\\b|\\bhuman\\b|\\bplural\\b|\\bcase endings?\\b|\\bdative\\b|\\blinking\\b|\\bafter the noun\\b|\\bretroflex\\b|\\bdental\\b|\\b(?:un)?aspirated\\b|\\b(?:long|short) vowels?\\b|\\bvowel signs?\\b|\\banusvara\\b|\\bottakshara\\b|\\bdoubled consonants?\\b|\\bvirama\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "vowels",
+   "title": "Vowels: short and long",
+   "roadmap": "kn-vowels",
+   "deck": "Vowels"
+  },
+  {
+   "id": "vowel-signs",
+   "title": "Vowel signs (kāgunita) on ಕ",
+   "roadmap": "kn-vowel-signs",
+   "deck": "Vowel signs"
+  },
+  {
+   "id": "consonants-1",
+   "title": "Consonants 1: the k, ch and ṭ rows",
+   "roadmap": "kn-consonants-1",
+   "deck": "Consonants 1: k, ch and ṭ rows"
+  },
+  {
+   "id": "consonants-2",
+   "title": "Consonants 2: the t and p rows, and the rest",
+   "roadmap": "kn-consonants-2",
+   "deck": "Consonants 2: t and p rows, and the rest"
+  },
+  {
+   "id": "conjuncts",
+   "title": "Conjuncts, doubled letters and anusvara",
+   "roadmap": "kn-conjuncts",
+   "deck": "Conjuncts and anusvara"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings: ನಮಸ್ಕಾರ, ನೀವು and ನೀನು",
+   "roadmap": "kn-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "no-is",
+   "title": "Pronouns, and no word for \"is\"",
+   "roadmap": "kn-no-is",
+   "deck": "About me"
+  },
+  {
+   "id": "questions",
+   "title": "Questions: -ಆ, ಏನು, ಯಾರು, ಎಲ್ಲಿ",
+   "roadmap": "kn-questions",
+   "deck": "Questions and connectors"
+  },
+  {
+   "id": "ide",
+   "title": "There is, there isn't: ಇದೆ, ಇಲ್ಲ",
+   "roadmap": "kn-ide",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "intro",
+   "title": "Introducing yourself: ನನ್ನ ಹೆಸರು …",
+   "roadmap": "kn-intro",
+   "deck": "About me"
+  },
+  {
+   "id": "family",
+   "title": "Family, my and your, and counting people",
+   "roadmap": "kn-family",
+   "deck": "Family and people"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers and prices: ಎಷ್ಟು?",
+   "roadmap": "kn-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "plurals",
+   "title": "Plurals in -ಗಳು, and adjectives",
+   "roadmap": "kn-plurals",
+   "deck": "Home and daily things"
+  },
+  {
+   "id": "dative",
+   "title": "To whom and to where: -ಗೆ / -ಕ್ಕೆ",
+   "roadmap": "kn-dative",
+   "deck": "Getting around"
+  },
+  {
+   "id": "like-want",
+   "title": "Liking, wanting, knowing: ನನಗೆ … ಇಷ್ಟ / ಬೇಕು / ಗೊತ್ತು",
+   "roadmap": "kn-like-want",
+   "deck": "Likes and free time"
+  },
+  {
+   "id": "imperative",
+   "title": "Requests and commands: ಬನ್ನಿ, ಕೊಡಿ, ಹೇಳಿ",
+   "roadmap": "kn-imperative",
+   "deck": "Health and help"
+  },
+  {
+   "id": "food",
+   "title": "Ordering food: ಒಂದು ಕಾಫಿ ಕೊಡಿ",
+   "roadmap": "kn-food",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "locative",
+   "title": "Where and from: ಮನೆಯಲ್ಲಿ, ಬೆಂಗಳೂರಿನಿಂದ, ಜೊತೆ",
+   "roadmap": "kn-locative",
+   "deck": "Getting around"
+  },
+  {
+   "id": "present",
+   "title": "Present and future: ಮಾಡ್ತೀನಿ, ಮಾಡಲ್ಲ",
+   "roadmap": "kn-present",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "continuous",
+   "title": "Right now: ಮಾಡ್ತಾ ಇದ್ದೀನಿ",
+   "roadmap": "kn-continuous",
+   "deck": "Likes and free time"
+  },
+  {
+   "id": "time",
+   "title": "Clock time, days and routine",
+   "roadmap": "kn-time",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "must-can",
+   "title": "Must, may and can: ಮಾಡಬೇಕು, ಮಾಡಬಹುದು, ಮಾಡೋಕೆ ಆಗುತ್ತೆ",
+   "roadmap": "kn-must-can",
+   "deck": "Health and help"
+  },
+  {
+   "id": "directions",
+   "title": "Directions and transport",
+   "roadmap": "kn-directions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "past",
+   "title": "The past: ಮಾಡಿದೆ, ಹೋದೆ, ಬಂದೆ",
+   "roadmap": "kn-past",
+   "deck": "Time, days and routine"
+  },
+  {
+   "id": "past-neg",
+   "title": "Past negative: ಮಾಡಲಿಲ್ಲ",
+   "roadmap": "kn-past-neg",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "and-then",
+   "title": "Two actions in a row: ಊಟ ಮಾಡಿ ಹೋದೆ",
+   "roadmap": "kn-and-then",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "compare",
+   "title": "Comparing with -ಕ್ಕಿಂತ",
+   "roadmap": "kn-compare",
+   "deck": "Shopping and the market"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Vowels",
+   "group": "Script and sounds",
+   "desc": "The vowel letters ಅ ಆ ಇ ಈ ಉ ಊ ಎ ಏ ಐ ಒ ಓ ಔ, short against long, and first words made of vowels and ಕ"
+  },
+  {
+   "name": "Vowel signs",
+   "group": "Script and sounds",
+   "desc": "The vowel signs (kāgunita) on ಕ, the length stroke, and words such as ಕಾಗೆ, ಆಕಳು, ಕೈ"
+  },
+  {
+   "name": "Consonants 1: k, ch and ṭ rows",
+   "group": "Script and sounds",
+   "desc": "ಕ ಖ ಗ ಘ, ಚ ಛ ಜ ಝ, ಟ ಠ ಡ ಢ ಣ: aspirated against plain, and retroflex"
+  },
+  {
+   "name": "Consonants 2: t and p rows, and the rest",
+   "group": "Script and sounds",
+   "desc": "ತ ಥ ದ ಧ ನ against the retroflex row, ಪ ಫ ಬ ಭ ಮ, ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ"
+  },
+  {
+   "name": "Conjuncts and anusvara",
+   "group": "Script and sounds",
+   "desc": "Doubled letters, the common ottakshara, ರ್ before a consonant, the anusvara before each kind of letter, and the virama in English loans"
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "ನಮಸ್ಕಾರ, ನೀವು and ನೀನು, thank you, sorry, yes and no, OK, goodbye"
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, where you are from and live, work and study, languages, with the verb endings for I and you"
+  },
+  {
+   "name": "Family and people",
+   "group": "First steps",
+   "desc": "Family on both sides, older and younger siblings, the respect plural, counting people with ಒಬ್ಬರು and ಇಬ್ಬರು"
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Numbers to 100, ನೂರು and ಸಾವಿರ, rupees and dollars, ಎಷ್ಟು? and the human counting forms"
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Filter coffee, idli, dosa, rice, ragi mudde and bisibele bath, ordering at a darshini and eating at home"
+  },
+  {
+   "name": "Home and daily things",
+   "group": "Everyday life",
+   "desc": "Rooms and objects, plurals in -ಗಳು, everyday adjectives, what is and is not there"
+  },
+  {
+   "name": "Time, days and routine",
+   "group": "Everyday life",
+   "desc": "Clock time, days of the week, a day in the present tense, yesterday and tomorrow"
+  },
+  {
+   "name": "Likes and free time",
+   "group": "Everyday life",
+   "desc": "Films, cricket, music, reading, likes with ನನಗೆ … ಇಷ್ಟ, and what you are doing right now"
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Places with -ಗೆ and -ಅಲ್ಲಿ, from and with, left and right, autos, buses and the metro"
+  },
+  {
+   "name": "Shopping and the market",
+   "group": "Out and about",
+   "desc": "Prices, a little bargaining, clothes and vegetables, this one or that one, cheaper and bigger"
+  },
+  {
+   "name": "Health and help",
+   "group": "Out and about",
+   "desc": "Polite requests, feeling sick, the doctor and the pharmacy, must, may and can, asking for help"
+  },
+  {
+   "name": "Questions and connectors",
+   "group": "Conversation",
+   "desc": "Question words, -ಆ questions, and ಮತ್ತು, ಆದರೆ, ಯಾಕೆಂದರೆ, ಅದಕ್ಕೆ"
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Conversation",
+   "desc": "Calques, the ನನಗೆ pattern, the three words for no, negation, and words that fool you"
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ],
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersKeepSpaces": true,
+ "pronAnswersScript": "[\\u0C80-\\u0CFF]",
+ "romaAlmost": true,
+ "voiceMatch": "^kn(?:[-_]|$)",
+ "pronAnswersWarn": true
+}
