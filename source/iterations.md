@@ -1124,3 +1124,14 @@ Three iterations, each shipped only when its check passes:
 
 ### FLOW-1 — results (shipped as 2.42.2)
 Browser test on Review (phone size): right answer → chime 659/988/1319 Hz at the tap, next question after 1.3 s with no click; wrong → 392/311 Hz, still on the card at 1.5 s, next question by 4.1 s; tap on the feedback advances at once; one grade per card (3 answers, 3 grades, no double advance after waiting). The old tone() calls on this path are gone. Settings has "Go to the next card automatically" (off brings the Next button back). Harness 84 guards. Still with a Next/Check button: typed answers, lesson practice, drills.
+
+### FLOW-2 / FLOW-3 — analysis, re-prompts and results (shipped as 2.43.0)
+First run (refill = due → new → extras): no dead ends and extras left schedules alone, but (a) a beginner got 7 new cards in a row, (b) at 60% accuracy new cards still arrived through the last-resort fallback, (c) the leech rule parked most missed cards so the pool collapsed and the same card repeated back to back 20 times.
+Re-prompt 1: when nothing else can be shown, re-ask a recent card before giving another new one; only an empty page may override the load / accuracy limits. → beginner sequence became "new, new, review, review, new …".
+Re-prompt 2: cards missed often stay in the Review flow (they are the ones to show more), and a missed card comes back as a "🔁 Once more" card (shown, flipped, then asked). → back-to-back repeats 0.
+Final simulation, 300 answers, seed fixed (also a harness guard at 95% and 60%):
+- 95% accuracy: 0 dead ends, 0 back-to-back, 15 new cards (the daily cap) spaced every 3rd–5th card, 248 extra-practice answers with box and due date unchanged (0 changed), every missed card back within 8 cards.
+- 60% accuracy: 0 dead ends, 0 back-to-back, only 7 new cards in 300 answers (pacing holds them back), 114 misses all returned within 8 cards, extras unchanged.
+Browser test of the reported screen (deck 12/12 learned, nothing due): a card is shown at once (new card from the next deck, then extra practice); the "Nothing due" screen no longer appears. Auto-advance test still passes. Harness 84 guards + reviewFlow0.95 / 0.6.
+Rules as built: load cap 4 cards in box 1 at level 1–2, 6 at 3–5, 8 above; accuracy over the last 20 answers ≥ 70% for any new card, ≥ 90% for every 3rd card instead of every 5th; daily new-card cap unchanged (15); day intervals by box unchanged (same day, 1, 3, 7, 14, 30 days).
+Not done: changing the question type by box (recognition → recall → typing) to show the word itself less; Today sessions keep their own planner.

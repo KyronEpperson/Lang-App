@@ -583,7 +583,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.42.2 · 2026-11-19';
+const APP_VERSION='2.43.0 · 2026-11-19';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -2672,7 +2672,7 @@ function dueQueue(){ const q=[]; names.forEach(d=>DECKS[d].forEach(c=>{ const s=
 function unlockAll(){ S.free=true; save(); toast('모두 열렸어요 · Everything unlocked'); }
 function unlockBtn(after){ const b=document.createElement('button'); b.className='chip'; b.type='button'; b.style.cssText='border-color:var(--accent);color:var(--accent)'; b.textContent='🔓 Unlock all'; b.onclick=()=>{ unlockAll(); after&&after(); }; return b; }
 function buildCards(){ const isTag=/^\*tag\*:/.test(deck); if(isTag){ const t=deck.slice(6); let q=[]; tagDecks(t).forEach(dd=>DECKS[dd].forEach(c=>{ if(cardsMode==='all'||isDue(dd,c)||isNew(dd,c)) q.push({d:dd,c}); })); q=S.shuffle===false?q:shuffle(q); queue=cardsMode==='due'?q.sort((a,b)=>(isDue(a.d,a.c)?0:1)-(isDue(b.d,b.c)?0:1)):q; qi=0; if(cardsMode==='browse') cardsMode='due'; renderCardsStage(); return; }
-  if(deck!==ALLDUE&&(!DECKS[deck]||!deckUnlocked(deck))) deck=names[0]; const d=deck; if(d===MYDECK&&!DECKS[d].length){ cardsMode='browse'; } if(cardsMode==='browse'&&d!==ALLDUE){ renderBrowse(d); return; } if(cardsMode==='browse') cardsMode='due'; { let nl=newLeft(); queue = d===ALLDUE ? dueQueue() : (cardsMode==='due' ? DECKS[d].filter(c=>isDue(d,c)||(isNew(d,c)&&nl-->0)) : DECKS[d].slice()).map(c=>({d,c})); if(S.shuffle!==false) queue=shuffle(queue); } qi=0; renderCardsStage(); }
+  if(deck!==ALLDUE&&(!DECKS[deck]||!deckUnlocked(deck))) deck=names[0]; const d=deck; if(d===MYDECK&&!DECKS[d].length){ cardsMode='browse'; } if(cardsMode==='browse'&&d!==ALLDUE){ renderBrowse(d); return; } if(cardsMode==='browse') cardsMode='due'; { rvReset(); /* new cards are no longer queued in bulk: the flow introduces them one at a time by the pacing rule */ queue = d===ALLDUE ? dueQueue() : (cardsMode==='due' ? DECKS[d].filter(c=>isDue(d,c)) : DECKS[d].slice()).map(c=>({d,c})); if(S.shuffle!==false) queue=shuffle(queue); } qi=0; renderCardsStage(); }
 
 // Review = multiple choice: see the meaning, pick the right Hangul. New cards are taught first, then quizzed.
 let rvTouched=false; // only auto-scroll once the user has started answering (never on page open)
@@ -2682,7 +2682,7 @@ function renderReviewQ(container, d, c, onAnswer, opt){ opt=opt||{}; /* opt.teac
   shuffle(DECKS[d].filter(x=>x!==c)).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); });
   if(pool.length<3){ const extra=[]; names.forEach(n=>{ if(n!==d&&n!==MYDECK&&/^Hangul/.test(n)===/^Hangul/.test(d)) DECKS[n].forEach(x=>extra.push(x)); }); shuffle(extra).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); }); }
   const opts=shuffle([c,...pool]);
-  const teach=()=>{ stage='teach'; const SPK=`<div style="text-align:center;margin:6px 0"><button class="speak" data-say="${say}" type="button">🔊</button></div>`; /* a letter or sound card keeps its audio on the back: hearing it is the answer */ container.innerHTML=`<div class="rvq"><div class="stat" style="text-align:center">✨ New card · ${d}</div>${opt.teachOnly&&opt.n>1?`<div class="stat teach-count" style="text-align:center" data-noi18n>${opt.k+1} / ${opt.n}</div>`:''}<div class="q">${c[0]}</div>${isH?'':`<div class="qrom" style="display:block">${c[1]}</div>`}${soundCard(d,c)?'':SPK}<div class="rvhide" role="button" tabindex="0" aria-label="${c[2].replace(/"/g,'&quot;')}"><span class="rvtap" aria-hidden="true">👆</span>${soundCard(d,c)?SPK:''}<div class="rvmean" data-noi18n>${isH?'<span style="font-family:var(--mono);color:var(--accent)">'+c[1]+'</span> · ':''}${c[2]}</div><div class="note" style="margin:6px auto 0" data-noi18n>${c[3]||''}</div></div>${isH?'':pronNote(c[0])}<button class="big primary rvgo" style="width:100%;margin-top:14px"><span data-noi18n>🔄</span></button></div>`; const goLbl=opt.teachOnly&&!opt.last?'Next':'Got it — quiz me';
+  const teach=()=>{ stage='teach'; const SPK=`<div style="text-align:center;margin:6px 0"><button class="speak" data-say="${say}" type="button">🔊</button></div>`; /* a letter or sound card keeps its audio on the back: hearing it is the answer */ container.innerHTML=`<div class="rvq"><div class="stat" style="text-align:center">${opt.reteach?'🔁 Once more':'✨ New card'} · ${d}</div>${opt.teachOnly&&opt.n>1?`<div class="stat teach-count" style="text-align:center" data-noi18n>${opt.k+1} / ${opt.n}</div>`:''}<div class="q">${c[0]}</div>${isH?'':`<div class="qrom" style="display:block">${c[1]}</div>`}${soundCard(d,c)?'':SPK}<div class="rvhide" role="button" tabindex="0" aria-label="${c[2].replace(/"/g,'&quot;')}"><span class="rvtap" aria-hidden="true">👆</span>${soundCard(d,c)?SPK:''}<div class="rvmean" data-noi18n>${isH?'<span style="font-family:var(--mono);color:var(--accent)">'+c[1]+'</span> · ':''}${c[2]}</div><div class="note" style="margin:6px auto 0" data-noi18n>${c[3]||''}</div></div>${isH?'':pronNote(c[0])}<button class="big primary rvgo" style="width:100%;margin-top:14px"><span data-noi18n>🔄</span></button></div>`; const goLbl=opt.teachOnly&&!opt.last?'Next':'Got it — quiz me';
     const sp=container.querySelector('.speak'), snd=soundCard(d,c); if(S.auto&&!snd) setTimeout(()=>speak(c[0],sp),200); const hid=container.querySelector('.rvhide'); const show=()=>{ if(hid.classList.contains('shown')) return false; hid.classList.add('shown'); const box=container.querySelector('.rvq'); box.classList.remove('rvturn'); void box.offsetWidth; box.classList.add('rvturn'); const g=container.querySelector('.rvgo'); g.textContent=goLbl; if(snd&&S.auto!==false) setTimeout(()=>speak(c[0],sp),250); return true; }; const qEl=container.querySelector('.q'); qEl.style.cursor='pointer'; qEl.onclick=show; /* front of the card is the word only; the meaning is on the back, shown after the flip */ hid.onclick=show; hid.onkeydown=e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); e.stopPropagation(); show(); } }; container.querySelector('.rvgo').onclick=()=>{ rvTouched=true; if(show()) return; if(opt.teachOnly) onAnswer(null); else ask(); }; setTimeout(()=>{ const b=container.querySelector('.rvgo'); b&&b.focus({preventScroll:true}); },50); };
   const ask=()=>{ stage='q'; const romT=isH?'':`<div style="text-align:right"><button class="ghost qromT" type="button" style="font-size:.72rem;padding:4px 10px;min-height:32px"></button></div>`;
     container.innerHTML=`<div class="rvq">${romT}<div class="stat" style="text-align:center">${d} · which one is it?</div><div class="q small">${isH?'<span style="font-family:var(--mono);color:var(--accent)">'+c[1]+'</span><div class="stat" style="margin-top:4px">'+c[2]+'</div>':c[2]}</div><div class="opts">${opts.map((o,i)=>`<button class="opt ko" data-a="${o[0].replace(/"/g,'&quot;')}" aria-label="${(o[0]+(isH?'':', '+o[1])).replace(/"/g,'&quot;')}"><kbd>${i+1}</kbd>${o[0]}${isH?'':`<span class="qrom">${o[1]}</span>`}</button>`).join('')}</div><div class="fb"></div><button class="big primary next" style="width:100%;margin-top:12px" hidden>Next</button></div>`;
@@ -2704,9 +2704,42 @@ function renderReviewQ(container, d, c, onAnswer, opt){ opt=opt||{}; /* opt.teac
     if(/^[1-4]$/.test(e.key)&&stage==='q'&&!locked){ const o=container.querySelectorAll('.opt')[+e.key-1]; if(o) o.click(); }
     if((e.key==='Enter'||e.key===' ')&&locked&&stage==='q'){ e.preventDefault(); finish(); }
     if(e.key==='p'||e.key==='P'){ const s=container.querySelector('[data-say]'); if(s) speak(s.dataset.say,s); } };
-  document.addEventListener('keydown',key); if(opt.teachOnly||(isNew(d,c)&&!opt.noTeach)) teach(); else ask(); return ()=>{ document.removeEventListener('keydown',key); clearTimeout(tm); fin=true; }; }
+  document.addEventListener('keydown',key); if(opt.teachOnly||opt.reteach||(isNew(d,c)&&!opt.noTeach)) teach(); else ask(); return ()=>{ document.removeEventListener('keydown',key); clearTimeout(tm); fin=true; }; }
+/* ---- Review flow: the page never runs dry -------------------------------------------------------------
+   Order when the queue is used up: (1) cards that are due, in any deck; (2) one new card from the guided path, if the
+   pacing rule allows it; (3) extra practice on cards that are not due yet, weakest first.
+   A right answer on a card that is not due leaves its schedule alone (so extra practice cannot inflate boxes); a wrong
+   answer always sends the card back to box 1. A missed card returns 3 cards later and must be answered right twice in
+   the sitting before it leaves; each right answer in the sitting pushes a card further back in the extra-practice order. */
+let rvMiss={}, rvSeen={}, rvRecent=[], rvLastNew=-99, rvCount=0;
+function rvReset(){ rvMiss={}; rvSeen={}; rvRecent=[]; rvLastNew=-99; rvCount=0; }
+function rvLoadCap(){ const l=levelInfo().l; return l<=2?4:l<=5?6:8; }
+function rvAcc(){ const r=(S.rlog||[]).slice(-20); if(r.length<8) return 1; return r.filter(x=>x[2]).length/r.length; }
+function rvLoad(){ let n=0; Object.values(S.cards).forEach(c=>{ if(c&&!c.susp&&(c.box||0)<=1) n++; }); return n; }
+function rvNewOK(){ if(newLeft()<=0) return false; const a=rvAcc(); if(a<0.7) return false; if(rvLoad()>=rvLoadCap()) return false; return rvCount-rvLastNew>=(a>=0.9?3:5); }
+function rvAhead(){ return new Set(queue.slice(qi).map(x=>ck(x.d,x.c))); }
+function rvNextNew(){ const ah=rvAhead(); const order=(DECKS[deck]&&deck!==MYDECK&&deckUnlocked(deck)?[deck]:[]).concat(PATH.filter(d=>d!==deck)); for(const d of order){ if(!DECKS[d]||!deckUnlocked(d)) continue; const c=DECKS[d].find(c=>isNew(d,c)&&!ah.has(ck(d,c))); if(c) return {d,c}; } return null; }
+function rvExtras(n){ const ah=rvAhead(), rec=new Set(rvRecent.slice(-4)), pool=[]; names.forEach(d=>DECKS[d].forEach(c=>{ const st=cardState(d,c); if(!st||st.susp||st.bury===dayNum()) return; /* cards missed often (leeches) stay in this flow: they are the ones that need showing more */ const k=ck(d,c); if(ah.has(k)||rec.has(k)) return; pool.push({d,c,x:1,w:(st.box||1)+1.5*(rvSeen[k]||0)+Math.max(0,st.due-dayNum())/30+Math.random()*0.3}); })); pool.sort((a,b)=>a.w-b.w); return pool.slice(0,n).map(x=>({d:x.d,c:x.c,x:1})); }
+function rvRefill(force){ const ah=rvAhead(); let add=dueQueue().filter(x=>!ah.has(ck(x.d,x.c))).slice(0,10); if(add.length) return add; add=[];
+  const takeNew=()=>{ const nw=rvNextNew(); if(nw){ add.push(nw); rvLastNew=rvCount; } return !!nw; };
+  if(rvNewOK()) takeNew(); add=add.concat(rvExtras(add.length||newLeft()>0?2:5)); if(add.length) return add;
+  /* nothing else to show. First re-ask a recent card (so a beginner sees: new, new, review, review, new…), then let the every-3rd / every-5th spacing give way, and only when the page would otherwise be empty ignore the load and accuracy limits. The daily cap on new cards always holds. */
+  const keep=rvRecent; rvRecent=rvRecent.slice(-1); add=rvExtras(2); rvRecent=keep; if(add.length) return add;
+  if(newLeft()>0&&rvAcc()>=0.7&&rvLoad()<rvLoadCap()&&takeNew()) return add;
+  if(force&&newLeft()>0) takeNew(); return add; }
+function rvFill(min,force){ let guard=0; while(queue.length-qi<min&&guard++<6){ const add=rvRefill(force); if(!add.length) break; add.forEach(x=>queue.push(x)); } return queue.length-qi; }
+function gradeEarly(d,c){ /* right answer on a card that was not due: count it, keep its box and due date */ memoClear(); const k=ck(d,c), st=S.cards[k]; lastGrade={k, prev:st?JSON.parse(JSON.stringify(st)):null, xp:S.xp, day:S.days[dkey()]||0}; if(st){ st.seen++; st.last=Date.now(); } if(fxMute>Date.now()) fxMute=0; else ansFx(true); award(1); }
+function rvStep(ok){ /* grade the card at queue[qi] and move on; returns what undo needs */ const it=queue[qi], d=it.d, c=it.c, k=ck(d,c), wasNew=isNew(d,c), early=!wasNew&&!isDue(d,c), prevMiss=rvMiss[k]||0; let ins=null;
+  const again=(gap,r)=>{ rvFill(gap+1); ins={d,c,r}; queue.splice(Math.min(queue.length,qi+1+gap),0,ins); };
+  if(!ok){ grade(d,c,false,wasNew); rvMiss[k]=2; again(3,1); /* r: when it comes back, show the card again before asking */ }
+  else if(prevMiss>0){ rvMiss[k]=prevMiss-1; if(rvMiss[k]>0){ gradeEarly(d,c); again(6); } else grade(d,c,true,false); }
+  else if(early) gradeEarly(d,c); else grade(d,c,true,wasNew);
+  if(ok) rvSeen[k]=(rvSeen[k]||0)+1; rvRecent.push(k); if(rvRecent.length>12) rvRecent.shift(); rvCount++; qi++;
+  return {k,ins,prevMiss,ok}; }
+function rvUndo(u){ if(!undoGrade()) return false; if(u.ins){ const i=queue.indexOf(u.ins); if(i>=0) queue.splice(i,1); } rvMiss[u.k]=u.prevMiss; if(u.ok) rvSeen[u.k]=Math.max(0,(rvSeen[u.k]||1)-1); rvRecent.pop(); rvCount--; qi--; return true; }
 function renderCardsStage(){
   if(cleanup){cleanup();cleanup=null;}
+  if(qi>=queue.length&&cardsMode!=='browse') rvFill(1,true);
   const all=deck===ALLDUE||/^\*tag\*:/.test(deck); const total=all?Math.max(1,queue.length):DECKS[deck].length, ln=all?qi:learned(deck);
   $('prog').style.width=(all?qi/total:ln/total)*100+'%';
   const stage=$('cardsStage'); const lp=activeLoop();
@@ -2716,11 +2749,10 @@ function renderCardsStage(){
     const next = lp ? ['Continue practice · card '+(lp.pos+1)+'/'+lp.total,'#practice'] : (currentDeck()? ['Learn new cards · '+currentDeck(),'#practice'] : ['Reading drill','#read']);
     stage.innerHTML=`<div class="done"><div class="ko" data-noi18n>${PRAISE(2,'잘했어요!')}</div><div class="note" style="margin:0 auto">${msg}</div><div class="controls"><a class="big primary" style="text-align:center;text-decoration:none;display:block;grid-column:1/3" href="${next[1]}">${next[0]}</a>${all?'':'<button class="ghost" id="cardsAll">Review this deck anyway</button>'}<a class="ghost" style="text-align:center;text-decoration:none;display:block" href="#today">Start a session</a></div></div>`;
     const ca=$('cardsAll'); if(ca) ca.onclick=()=>{ cardsMode='all'; $('cmAll').setAttribute('aria-pressed',true); $('cmDue').setAttribute('aria-pressed',false); buildCards(); }; return; }
-  $('left').textContent=(queue.length-qi)+' left'+(all?' · across '+new Set(queue.slice(qi).map(x=>x.d)).size+' decks':' · '+ln+'/'+total+' learned');
+  { const cur=queue[qi], dueN=queue.slice(qi).filter(x=>!x.x&&!isNew(x.d,x.c)).length; $('left').textContent=(cur.x?'Extra practice':isNew(cur.d,cur.c)?'New card':dueN+' due')+(all?'':' · '+ln+'/'+total+' learned'); }
   const {d,c}=queue[qi];
-  const wasNew0=isNew(d,c);
-  cleanup=renderReviewQ(stage,d,c,ok=>{ if(ok===null){ qi++; chips(); renderCardsStage(); return; } const wasNew=wasNew0; grade(d,c,ok,wasNew); if(!ok) queue.push({d,c}); qi++; chips(); renderCardsStage();
-    offerUndo($('left').parentElement, ()=>{ if(undoGrade()){ if(!ok) queue.pop(); qi--; chips(); renderCardsStage(); toast('Undone.'); } }); });
+    cleanup=renderReviewQ(stage,d,c,ok=>{ if(ok===null){ qi++; chips(); renderCardsStage(); return; } const u=rvStep(ok); chips(); renderCardsStage();
+    offerUndo($('left').parentElement, ()=>{ if(rvUndo(u)){ chips(); renderCardsStage(); toast('Undone.'); } }); },{reteach:!!queue[qi].r});
 }
 $('search').addEventListener('input', e=>{ const q=e.target.value.trim().toLowerCase(); const out=$('searchOut'); if(q.length<2){ out.hidden=true; out.innerHTML=''; return; }
   const hits=[]; names.forEach(d=>DECKS[d].forEach(c=>{ if(hits.length<12&&(c.slice(0,3).some(x=>x.toLowerCase().includes(q))||((S.notes||{})[ck(d,c)]||'').toLowerCase().includes(q))) hits.push({d,c}); }));

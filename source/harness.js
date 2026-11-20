@@ -39,8 +39,16 @@ for(const [w,scheme] of [[390,'dark'],[1024,'light']]){
     const before=await p.evaluate(()=>document.querySelector('#left').textContent);
     const rv=await p.evaluate(async()=>{ const st=document.querySelector('#cardsStage'); const go=st.querySelector('.rvgo'); const taught=!!go; if(go){ go.click(); const g9=st.querySelector('.rvgo'); if(g9) g9.click(); } const n=st.querySelectorAll('.opt').length; const {d,c}=queue[qi]; [...st.querySelectorAll('.opt')].find(o=>o.dataset.a===c[0]).click(); const right=!!st.querySelector('.opt.right'); const box0=(S.cards[ck(d,c)]||{}).box; st.querySelector('.next').click(); await new Promise(r=>setTimeout(r,150)); const s1=S.cards[ck(d,c)];
       const go2=st.querySelector('.rvgo'); if(go2){ go2.click(); const g8=st.querySelector('.rvgo'); if(g8) g8.click(); } const x=queue[qi]; [...st.querySelectorAll('.opt')].find(o=>o.dataset.a!==x.c[0]).click(); const wrong=!!st.querySelector('.opt.wrong'); const qlen=queue.length; st.querySelector('.next').click(); await new Promise(r=>setTimeout(r,150));
-      return {taught,opts:n,right,graded:!!s1&&s1.box>=2,wrong,requeued:queue.length===qlen+1,noAgainButtons:!document.querySelector('#cardsStage [data-ans]')}; });
+      return {taught,opts:n,right,graded:!!s1&&s1.box>=2,wrong,requeued:queue.length>qlen&&queue.slice(qi).some(y=>y.c===x.c),noAgainButtons:!document.querySelector('#cardsStage [data-ans]')}; });
     res.checks.reviewMC=rv; if(!(rv.opts===4&&rv.right&&rv.graded&&rv.wrong&&rv.requeued&&rv.noAgainButtons)) res.errors.push('REVIEW MC FAIL '+JSON.stringify(rv));
+    /* review flow: 300 simulated answers at 95% and 60%. No dead end, no back-to-back repeat (once 6 cards are known), a missed card returns within 8 cards, a right answer on a not-due card leaves box and due date alone, new cards respect load and accuracy */
+    for(const acc of [0.95,0.6]){ const fl=await p.evaluate(acc=>{ const snap=JSON.stringify(S), q0=queue.slice(), qi0=qi, dk=deck, cm=cardsMode, sh=S.shuffle; let seed=7; const rnd=()=>{seed=(seed*1103515245+12345)&0x7fffffff;return seed/0x7fffffff;};
+      deck=names[0]; cardsMode='due'; buildCards(); if(cleanup){cleanup();cleanup=null;} const o={dead:0,adj:0,newN:0,extraOk:0,extraChanged:0,missLate:0,newBad:0}; let prev=null; const pend={};
+      for(let i=0;i<300;i++){ if(qi>=queue.length) rvFill(1,true); if(qi>=queue.length){ o.dead++; break; } const it=queue[qi], k=ck(it.d,it.c); if(k===prev&&Object.keys(S.cards).length>=6) o.adj++; prev=k;
+        const wasNew=isNew(it.d,it.c), early=!wasNew&&!isDue(it.d,it.c), bf=S.cards[k]?JSON.stringify([S.cards[k].box,S.cards[k].due]):null; if(wasNew){ o.newN++; if(rvLoad()>=rvLoadCap()||rvAcc()<0.7) o.newBad++; }
+        if(pend[k]!=null){ if(i-pend[k]>8) o.missLate++; delete pend[k]; } const ok=rnd()<acc, had=(rvMiss[k]||0)>0; rvStep(ok); if(ok&&early&&!had){ o.extraOk++; if(JSON.stringify([S.cards[k].box,S.cards[k].due])!==bf) o.extraChanged++; } if(!ok) pend[k]=i; }
+      S=JSON.parse(snap); memoClear(); save(); deck=dk; cardsMode=cm; queue=q0; qi=qi0; rvReset(); renderCardsStage(); return o; },acc);
+      res.checks['reviewFlow'+acc]=fl; if(!(fl.dead===0&&fl.adj===0&&fl.missLate===0&&fl.extraChanged===0&&fl.extraOk>20&&(acc<0.9||fl.newN>=3)&&fl.newBad<=2)) res.errors.push('REVIEW FLOW FAIL '+acc+' '+JSON.stringify(fl)); }
     res.checks.swipe=before+' -> '+await p.evaluate(()=>document.querySelector('#left').textContent);
 
     // ---- batch 6–10 feature guards ----
