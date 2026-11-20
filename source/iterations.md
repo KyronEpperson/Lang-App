@@ -1184,3 +1184,9 @@ Build: a 🐞 button in the header (every page). It opens a sheet that (1) names
 
 ### 2.48.0 — results
 🐞 button in the header on every page. Browser test (Vietnamese course): the sheet names the place on Today ("Today"), in a session ("Today › Session · step 1/16 · lesson alphabet"), in a lesson, in practice ("… › Practice · item 4/14 · mc · <prompt>") and in Review ("Review › Letters and sounds · card đi"), each with course and version. A mocked send carried kind + the tag ⟦page=…|course=…|v=…|at=…⟧ + the text; the tag parses back and is stripped from the shown message; the sheet listed 1 of 3 mocked posts (the one for this page). The Feedback board shows the place as a 📍 line. Header: no overflow at 320 / 360 / 390 px (the level number is hidden at ≤ 410 px to make room). Harness 88 guards. Not tested: a real post to the live database (the shell cannot reach it); new strings are English only.
+
+## 2.48.1 — prompt
+"On the feedback page give each feedback type its own feed."
+
+### 2.48.1 — results
+Tabs above the board: All, Bugs, Content fixes, Ideas, Love, each with its count; a tab shows only that type's posts with their replies; the choice is kept for the visit. Browser test with six mocked posts: All 5, Bugs 2 (with the reply under its post), Content fixes 1, Ideas 1, Love 1, and "Nothing in Love yet." when empty; no overflow at 390 px. Harness 88 guards.

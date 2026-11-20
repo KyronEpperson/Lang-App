@@ -576,7 +576,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
         <div class="row"><span class="stat" id="fbCount">0 / 2000</span><button class="big primary" type="submit" id="fbSend" style="padding:10px 18px">Send feedback</button></div>
         <div class="stat" id="fbStatus" role="status"></div>
       </form></div>
-    <div class="panel"><div class="row"><h3 style="margin:0">Community feedback</h3><span style="display:flex;gap:6px;align-items:center"><span class="stat" id="fbAdminTag" hidden>admin</span><button class="ghost" id="fbRefresh" type="button" aria-label="Refresh feedback">↻</button></span></div><p class="stat" style="margin:6px 0 0">Posts are public to everyone using the app — please don't share personal info. <a href="#privacy">Board rules</a></p><div id="fbBoard" style="display:grid;gap:10px;margin-top:10px"><div class="stat">Loading…</div></div></div>
+    <div class="panel"><div class="row"><h3 style="margin:0">Community feedback</h3><span style="display:flex;gap:6px;align-items:center"><span class="stat" id="fbAdminTag" hidden>admin</span><button class="ghost" id="fbRefresh" type="button" aria-label="Refresh feedback">↻</button></span></div><p class="stat" style="margin:6px 0 0">Posts are public to everyone using the app — please don't share personal info. <a href="#privacy">Board rules</a></p><div id="fbFeeds" class="row" role="tablist" aria-label="Feedback type" style="justify-content:flex-start;gap:6px;margin-top:10px;flex-wrap:wrap"></div><div id="fbBoard" role="tabpanel" style="display:grid;gap:10px;margin-top:10px"><div class="stat">Loading…</div></div></div>
   </section>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div><div id="live" class="sr" aria-live="polite"></div>
@@ -585,7 +585,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.48.0 · 2026-11-20';
+const APP_VERSION='2.48.1 · 2026-11-20';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -3137,7 +3137,8 @@ async function sbInit(){ if(!sbOn()) return; sbLoad(); if(!sbSess) { renderAccou
 
 // ===================== FEEDBACK =====================
 // Website: public board in Supabase `feedback` (column-limited read, insert by anyone, heart/done/hide by admins only).
-let fbKind='idea', fbAdmin=false, fbItems=[], fbReplyTo=null;
+let fbKind='idea', fbAdmin=false, fbItems=[], fbReplyTo=null, fbFeed='all'; /* fbFeed: which type's feed the board shows */
+const FBN={all:'All',idea:'Ideas',bug:'Bugs',content:'Content fixes',love:'Love'};
 const FBK={idea:'💡',bug:'🐞',content:'📝',love:'❤️'};
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]);
 function fbName(){ if(typeof sbSess!=='undefined'&&sbSess&&sbSess.user&&sbSess.user.email) return S.nick||sbSess.user.email.split('@')[0]; return S.nick||''; }
@@ -3187,7 +3188,11 @@ function fbCard(f,isReply){ const mine=(S.fbMine||[]).includes(f.id); const who=
   const reply=isReply?'':`<button class="ghost" data-reply="${f.id}">↩ Reply</button>`;
   return `<div class="fbi${f.done?' fbdone':''}" id="fb-${f.id}"><div class="meta">${isReply?'':(FBK[f.kind]||'')} ${who} · ${new Date(f.created_at).toLocaleDateString(dLoc(),{month:'short',day:'numeric'})}${mine?' · <i>you</i>':''} ${badges}</div>${(()=>{ const p=fbParse(f.message); return (p.ctx?`<div class="stat" style="margin:2px 0">📍 ${esc(p.ctx.page||'')}${p.ctx.at?' · '+esc(p.ctx.at):''} · ${esc(p.ctx.course||'')} · v${esc(p.ctx.v||'')}</div>`:'')+`<div class="msg">${esc(p.body)}</div>`; })()}${(reply||admin)?`<div class="acts">${reply}${admin}</div>`:''}${fbReplyTo===f.id?fbReplyForm(f.id):''}</div>`; }
 function fbReplyForm(id){ const n=fbName(); return `<form class="fbReplyForm" data-parent="${id}" style="display:grid;gap:6px"><textarea rows="2" maxlength="2000" required placeholder="Write a reply…" aria-label="Reply" style="width:100%;font:.95rem var(--body);padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg)"></textarea>${n?`<label class="auto"><input type="checkbox" class="fbRAttach"> Show my name (${esc(n)})</label>`:''}<div class="acts"><button class="big primary" type="submit" style="padding:8px 14px">Reply</button><button class="ghost" type="button" data-cancel="1">Cancel</button></div></form>`; }
-function renderBoard(){ const box=$('fbBoard'); $('fbAdminTag').hidden=!fbAdmin; const roots=fbItems.filter(f=>!f.parent_id); if(!roots.length){ box.innerHTML='<div class="stat">No feedback yet — be the first.</div>'; return; }
+function renderBoard(){ const box=$('fbBoard'); $('fbAdminTag').hidden=!fbAdmin; const allRoots=fbItems.filter(f=>!f.parent_id);
+  /* one feed per feedback type, plus All; each tab shows its count */
+  const fd=$('fbFeeds'); if(fd){ const cnt={all:allRoots.length}; allRoots.forEach(f=>{ cnt[f.kind]=(cnt[f.kind]||0)+1; }); fd.innerHTML=['all','bug','content','idea','love'].map(k=>`<button type="button" class="chip" role="tab" data-feed="${k}" aria-selected="${fbFeed===k}" aria-pressed="${fbFeed===k}">${k==='all'?'':FBK[k]+' '}${FBN[k]} <span class="stat">${cnt[k]||0}</span></button>`).join(''); fd.querySelectorAll('[data-feed]').forEach(b=>b.onclick=()=>{ fbFeed=b.dataset.feed; fbReplyTo=null; try{ sessionStorage.setItem('la-fbfeed',fbFeed); }catch(e){} renderBoard(); }); }
+  const roots=fbFeed==='all'?allRoots:allRoots.filter(f=>f.kind===fbFeed);
+  if(!roots.length){ box.innerHTML='<div class="stat">'+(allRoots.length?'Nothing in '+FBN[fbFeed]+' yet.':'No feedback yet — be the first.')+'</div>'; return; }
   const kids={}; fbItems.filter(f=>f.parent_id).forEach(f=>(kids[f.parent_id]=kids[f.parent_id]||[]).push(f));
   box.innerHTML=roots.map(f=>{ const rs=(kids[f.id]||[]).sort((a,b)=>a.created_at<b.created_at?-1:1); return fbCard(f,false)+(rs.length?`<div class="fbr">${rs.map(x=>fbCard(x,true)).join('')}</div>`:''); }).join('');
   box.querySelectorAll('[data-reply]').forEach(b=>b.onclick=()=>{ fbReplyTo=fbReplyTo===+b.dataset.reply?null:+b.dataset.reply; renderBoard(); const ta=box.querySelector('.fbReplyForm textarea'); if(ta) ta.focus(); });
@@ -3200,7 +3205,7 @@ async function fbPost(fields,named){ const last=S.fbLast||0; if(Date.now()-last<
   const row=Object.assign({name:named?fbName():null,user_id:named&&sbSess?sbUid():null,by_admin:fbAdmin,route:(location.hash||'').slice(0,40),app_version:typeof APP_VERSION!=='undefined'?APP_VERSION:'',ua:navigator.userAgent.slice(0,200)},fields);
   try{ await sbRefresh(); const r=await fetch(SB.url+'/rest/v1/feedback?select=id',{method:'POST',headers:Object.assign(sbHdr(!!sbSess),{'Prefer':'return=representation'}),body:JSON.stringify(row)}); if(!r.ok){ let m=''; try{ const j=await r.json(); if(j.code==='P0001') m=j.message; }catch(e){} throw {friendly:m}; } const j=await r.json(); S.fbMine=(S.fbMine||[]).concat(j.map(x=>x.id)).slice(-200); S.fbLast=Date.now(); save(); award(5); return true; }
   catch(e){ toast((e&&e.friendly)||'Could not send right now — try again in a moment.'); return false; } }
-function renderFeedback(){ const n=fbName(); $('fbNameRow').hidden=!n; $('fbAttachLbl').textContent=n?'Show my name ('+n+') publicly':'Show my name'; if(!n) $('fbAttach').checked=false;
+function renderFeedback(){ try{ const sf=sessionStorage.getItem('la-fbfeed'); if(sf&&FBN[sf]) fbFeed=sf; }catch(e){} const n=fbName(); $('fbNameRow').hidden=!n; $('fbAttachLbl').textContent=n?'Show my name ('+n+') publicly':'Show my name'; if(!n) $('fbAttach').checked=false;
   document.querySelectorAll('[data-fbk]').forEach(b=>{ b.setAttribute('aria-pressed',String(b.dataset.fbk===fbKind)); b.onclick=()=>{ fbKind=b.dataset.fbk; renderFeedback(); }; });
   fbCheckAdmin().then(fbLoad); }
 $('fbForm').addEventListener('submit',async e=>{ e.preventDefault(); const msg=$('fbMsg').value.trim(); if(!msg) return; const st=$('fbStatus'), btn=$('fbSend'); btn.disabled=true; st.textContent='Sending…';
