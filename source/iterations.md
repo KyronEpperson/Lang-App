@@ -1349,3 +1349,63 @@ Course and version chips added. Test: This course → posts 1, 3, 4 and 20 (the 
 | FB-18 | Offline outbox | pass |
 | FB-19 | "Copy report" where sending is impossible | pass |
 | FB-20 | This course / This version filters | pass |
+
+## FB-21 — prompt
+A one-line summary above the feeds: open, fixed, total posts and how many arrived in the last 7 days. Check: with the mocked board (6 visible posts, 2 fixed, 4 from the last week) the line reads Open 4 · Fixed 2 · Total 6 · 4 this week.
+
+### FB-21 — results
+Summary line added. Test: "Open 4 · Fixed 2 · Total 6 · 4 this week" for the mocked board. No errors.
+
+## FB-22 — prompt
+While someone types a post or a report, show up to three existing posts that share at least two meaningful words ("Already reported?"), each opening that post, so duplicates are avoided. Check: typing "crash when I tap fast" in the board composer lists post 4; unrelated text lists nothing; the report sheet shows the same hint.
+
+### FB-22 — results
+"Already reported?" hint added in both forms. Test: "the app will crash when I tap fast on review" lists post 4; unrelated text lists nothing; in the report sheet "button does nothing when pressed" lists post 1. No errors, no overflow.
+
+## FB-23 — prompt
+"Me too": a 👍 button on each post that records agreement as a "+1" reply (no database change), shows the count, cannot be pressed twice or on your own post, keeps "+1" replies out of the visible thread, and adds a "Most wanted" sort. Check: pressing it sends a +1 reply for that post and the count becomes 1; the button is then disabled; the +1 is not shown as a reply; Most wanted puts that post first.
+
+### FB-23 — results
+👍 Me too added (sent as a "+1" reply, no database change; skips the 30 s limit; never shown as a reply). Test: one "+1" sent for post 2, label "Me too · 1", button disabled after, disabled on own post, "Most wanted" puts post 2 first. No errors.
+
+## FB-24 — prompt
+Fold long reply threads: with more than 3 replies show the latest 2 and a "Show N earlier replies" button. Check: a post with 5 replies shows 2 and the button; pressing it shows 5.
+
+## FB-25 — prompt
+Add a "💬 Needs reply" filter (open posts with no developer reply), mark developer replies with an accent edge, and badge answered posts. Check: the filter lists only open posts with no developer reply; post 1 carries the "answered" badge; the developer reply has the class.
+
+## FB-26 — prompt
+Admin one-tap "✔ Fixed in v<version>": posts a developer reply with the version and marks the post done. Shown to admins only, on open posts. Check: not rendered for normal users; as admin, pressing it sends "Fixed in v<version>." under that post and the post becomes done.
+
+### FB-24 — results
+Threads over 3 replies fold. Test: 5 replies → 2 shown plus "Show 3 earlier replies"; after pressing, 5 shown.
+
+### FB-25 — results
+"💬 Needs reply" filter, "answered" badge and accent edge on developer replies. Test: filter lists posts 2 and 4 (post 6, a "love" note, first appeared too; love notes are now excluded); post 1 badged, post 2 not; developer reply has the class.
+
+### FB-26 — results
+Admin "✔ Fixed in v…" button. Test: 0 buttons for a normal user; as admin shown on open posts only; pressing it on post 4 sent "Fixed in v<version>." under post 4 and a PATCH done=true; post marked done.
+
+## FB-27 — prompt
+Tell a reader when someone answered their post: a dot with the count on the Feedback tab for replies to their own posts since their last visit, and a "↩ Replies to me" filter. Check: with post 1 mine and a newer developer reply, the tab shows 1 and the filter lists only post 1; after opening the board the dot clears.
+
+## FB-28 — prompt
+Highlight search matches in post text. Check: searching "crash" wraps the match in <mark> in post 4, with no marks when the search is empty, and text is still escaped.
+
+## FB-29 — prompt
+"🗂 By page" view: group the shown posts under a heading per page (most reports first), posts with no page last. Check: headings appear in count order and every post sits under its own page heading.
+
+## FB-30 — prompt
+Remember the board's filters for the visit (status, sort, chips, view) and add a "🗓 Last 7 days" filter. Check: Last 7 days hides the 10- and 40-day-old posts; after setting filters and re-running the page setup, the same filters are still on.
+
+### FB-27 — results
+Feedback tab shows a count for new replies to your posts; "↩ Replies to me" filter. Test: dot "1" with a newer developer reply on my post 1, cleared once seen, filter lists [1].
+
+### FB-28 — results
+Search matches highlighted. Test: "crash" marks 2 matches; HTML in a post stays escaped; no marks with an empty search.
+
+### FB-29 — results
+"🗂 By page" view. Test: headings today·2, lessons/tones·1, review/Letters and sounds·1, No page·2; every post under its own heading; off removes headings.
+
+### FB-30 — results
+Filters remembered for the visit; "🗓 Last 7 days". Test: last 7 days shows [1,2,3,7] (10- and 40-day posts hidden); status/sort/week restored after re-running page setup.
