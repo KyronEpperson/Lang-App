@@ -1135,3 +1135,9 @@ Final simulation, 300 answers, seed fixed (also a harness guard at 95% and 60%):
 Browser test of the reported screen (deck 12/12 learned, nothing due): a card is shown at once (new card from the next deck, then extra practice); the "Nothing due" screen no longer appears. Auto-advance test still passes. Harness 84 guards + reviewFlow0.95 / 0.6.
 Rules as built: load cap 4 cards in box 1 at level 1–2, 6 at 3–5, 8 above; accuracy over the last 20 answers ≥ 70% for any new card, ≥ 90% for every 3rd card instead of every 5th; daily new-card cap unchanged (15); day intervals by box unchanged (same day, 1, 3, 7, 14, 30 days).
 Not done: changing the question type by box (recognition → recall → typing) to show the word itself less; Today sessions keep their own planner.
+
+## 2.43.1 — prompt
+"lets add cherokee to the list": register Cherokee as a planned language and merge its lesson plan.
+
+### 2.43.1 — results
+chr registered (drawn flag), 27 planned lessons in 4 stages merged, shown as coming soon. Western (Oklahoma) dialect, syllabary with a romanised line; no usable voice (text-only); lesson order follows Joyner's Cherokee Language Lessons Vol. 1, not an official syllabus; seven lesson titles are English-only because their Cherokee spellings were not confirmed. The plan asks for review by a first-language speaker or a Cherokee Nation programme before release.

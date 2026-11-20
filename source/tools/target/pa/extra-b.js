@@ -30,7 +30,7 @@ exports.DIALOG = `
 ਕਿੰਨੀ ਦੂਰ ਹੈ? | ਬੱਸ ਅੱਡਾ ਕਿੰਨੀ ਦੂਰ ਹੈ? | ਬਹੁਤ ਦੂਰ ਨਹੀਂ, ਦੋ ਕਿਲੋਮੀਟਰ। | How far is the bus stand? / Not very far, two kilometers.
 ਸਟੇਸ਼ਨ ਤੱਕ ਕਿੰਨੇ ਪੈਸੇ? | ਭਾਜੀ, ਸਟੇਸ਼ਨ ਤੱਕ ਕਿੰਨੇ ਪੈਸੇ? | ਸੌ ਰੁਪਏ। | How much to the station? / A hundred rupees.
 ਦਰਬਾਰ ਸਾਹਿਬ ਕਿਵੇਂ ਜਾਣਾ ਹੈ? | ਦਰਬਾਰ ਸਾਹਿਬ ਕਿਵੇਂ ਜਾਣਾ ਹੈ? | ਆਟੋ ਲੈ ਲਓ, ਦਸ ਮਿੰਟ ਲੱਗਣਗੇ। | How do I get to the Golden Temple? / Take an auto, it'll take ten minutes.
-ਮੈਂ ਰਾਹ ਭੁੱਲ ਗਿਆ ਹਾਂ। | ਮਾਫ਼ ਕਰਨਾ, ਮੈਂ ਰਾਹ ਭੁੱਲ ਗਿਆ ਹਾਂ। | ਕੋਈ ਗੱਲ ਨਹੀਂ, ਤੁਸੀਂ ਕਿੱਥੇ ਜਾਣਾ ਹੈ? | Excuse me, I'm lost. / No problem, where do you need to go?
+ਮੈਂ ਰਾਹ ਭੁੱਲ ਗਿਆ ਹਾਂ। | ਮਾਫ਼ ਕਰਨਾ, ਮੈਂ ਰਾਹ ਭੁੱਲ ਗਿਆ ਹਾਂ। | ਕੋਈ ਗੱਲ ਨਹੀਂ, ਤੁਹਾਨੂੰ ਕਿੱਥੇ ਜਾਣਾ ਹੈ? | Excuse me, I'm lost. / No problem, where do you need to go?
 ਇੱਥੇ ਰੋਕੋ ਜੀ। | ਗੁਰਦੁਆਰਾ ਆ ਗਿਆ। | ਹਾਂ, ਇੱਥੇ ਰੋਕੋ ਜੀ। | Here's the gurdwara. / Yes, stop here, please.
 ਇਹ ਕਮੀਜ਼ ਕਿੰਨੇ ਦੀ ਹੈ? | ਭੈਣ ਜੀ, ਇਹ ਕਮੀਜ਼ ਕਿੰਨੇ ਦੀ ਹੈ? | ਪੰਜ ਸੌ ਰੁਪਏ ਦੀ। | How much is this shirt? / Five hundred rupees.
 ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ। | ਇਹ ਸੂਟ ਦੋ ਹਜ਼ਾਰ ਦਾ ਹੈ। | ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ। | This suit is two thousand. / It's very expensive.
@@ -60,7 +60,7 @@ exports.DIALOG = `
 ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ। | ਮੰਮੀ, ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ! | ਰੋਟੀ ਤਿਆਰ ਹੈ, ਆ ਜਾ। | Mom, I'm hungry! / The food's ready, come and eat.
 ਮੇਰਾ ਇੱਕ ਭਰਾ ਹੈ। | ਤੁਹਾਡੇ ਭੈਣ-ਭਰਾ ਹਨ? | ਹਾਂ, ਮੇਰਾ ਇੱਕ ਭਰਾ ਹੈ। | Do you have brothers and sisters? / Yes, I have a brother.
 ਕੱਲ੍ਹ | ਤੁਸੀਂ ਕੱਲ੍ਹ ਕਿੱਥੇ ਸੀ? | ਮੈਂ ਕੱਲ੍ਹ ਦਿੱਲੀ ਵਿੱਚ ਸੀ। | Where were you yesterday? / I was in Delhi yesterday.
-ਤੂੰ | ਤੂੰ ਕਿੱਥੇ ਹੈਂ, ਯਾਰ? | ਮੈਂ ਘਰ ਹਾਂ, ਤੂੰ ਵੀ ਆ ਜਾ। | Where are you, buddy? / I'm home, come over.
+ਤੂੰ | ਤੂੰ ਕਿੱਥੇ ਹੈਂ, ਯਾਰ? | ਮੈਂ ਘਰ ਹਾਂ, ਤੂੰ ਵੀ ਆ ਜਾ। | Where are you, buddy? / I'm home, you come over too.
 `;
 
 exports.EXAMPLES = `
@@ -105,6 +105,6 @@ ___ ਕਿੰਨੇ ਦਾ ਹੈ? | How much is ___? (a masculine thing) | ਇ�
 ___ ਕਿੱਥੇ ਹੈ? | Where is ___? | ਬੱਸ ਅੱਡਾ ਕਿੱਥੇ ਹੈ? | Where is the bus stand?
 ਹੋਟਲ ___ ਦੇ ਨੇੜੇ ਹੈ। | The hotel is near ___. | ਹੋਟਲ ਸਟੇਸ਼ਨ ਦੇ ਨੇੜੇ ਹੈ। | The hotel is near the station.
 ਮੈਂ ___ ਵਜੇ ਉੱਠਦੀ ਹਾਂ। | I get up at ___. (a woman speaking) | ਮੈਂ ਛੇ ਵਜੇ ਉੱਠਦੀ ਹਾਂ। | I get up at six.
-ਮੇਰੇ ___ ਵਿੱਚ ਦਰਦ ਹੈ। | My ___ hurts. | ਮੇਰੇ ਗਲੇ ਵਿੱਚ ਦਰਦ ਹੈ। | My throat hurts.
+ਮੇਰੇ ___ ਵਿੱਚ ਦਰਦ ਹੈ। | My ___ hurts. (a masculine body part) | ਮੇਰੇ ਗਲੇ ਵਿੱਚ ਦਰਦ ਹੈ। | My throat hurts.
 ਕੀ ਤੁਸੀਂ ___ ਸਕਦੇ ਹੋ? | Can you ___? | ਕੀ ਤੁਸੀਂ ਹੌਲੀ ਬੋਲ ਸਕਦੇ ਹੋ? | Can you speak slowly?
 `;

@@ -99,5 +99,358 @@ module.exports = [
       ["ty","Type chhe (six)","ਛੇ","ch with a puff · the sign for e","ਚੇ ਜੇ","ਛੇ starts with the aspirated ਛ, ch with a puff of air."],
       ["ty","Type khāo (eat!)","ਖਾ ਓ|ਖਾਓ","k with a puff · ā · then the vowel letter o","ਕਾ ਗਾ","ਖਾਓ starts with the aspirated ਖ; ਕਾਓ is not a word."]
     ]
+  },
+  {
+    id: "letters-2",
+    title: "Letters 2: retroflex and dental, the p row and the rest",
+    blurb: "Read every basic Gurmukhi letter and tell a curled-back ṭ from a t with the tongue on the teeth.",
+    deck: "Letters 2: ṭ, t and p rows, and the rest",
+    body: `
+<p>This lesson finishes the basic letters: two rows that English hears as one, the p row, and five more.</p>
+<h3>Two kinds of t and d</h3>
+<p>English has one t, made with the tongue tip on the ridge behind the teeth. Punjabi has two, and they make different words. For the retroflex row, curl the tongue tip back and touch the roof of the mouth. For the dental row, put the tongue tip against the back of the upper teeth. The romanisation marks the retroflex letters with a dot below.</p>
+<div class="tbl"><table><tr><th>Retroflex (tongue curled back)</th><th>Dental (tongue on the teeth)</th></tr><tr><td class="k">ਟ ṭa · ਠ ṭha</td><td class="k">ਤ ta · ਥ tha</td></tr><tr><td class="k">ਡ ḍa · ਢ ḍhà</td><td class="k">ਦ da · ਧ dhà</td></tr><tr><td class="k">ਣ ṇa</td><td class="k">ਨ na</td></tr></table></div>
+<p>To English ears the retroflex ṭ sounds close to an American t, and the dental t sounds soft, almost like a d. ਠ and ਥ add a puff of air, as ਖ does. ਥ is never the th of "think". ਣ never starts a word.</p>
+{{ex:ਟਮਾਟਰ|ṭamāṭar|tomato}}
+{{ex:ਤਾਰਾ|tārā|star}}
+{{ex:ਠੀਕ|ṭhīk|fine; OK}}
+{{ex:ਪਾਣੀ|pāṇī|water}}
+<h3>The p row</h3>
+<p>ਪ is p with no puff, as in "spin". ਫ is p with a puff of air. It is never f: f is written with a dot, ਫ਼, in lesson 4. ਬ is b, ਮ is m. ਭ is a tonal letter like ਘ: at the start of a word it is said like ਪ, with the pitch falling on the next vowel.</p>
+{{ex:ਪਲ|pal|moment}}
+{{ex:ਫਲ|phal|fruit}}
+{{ex:ਭਾਈ|bhā̀ī|brother}}
+<p>ਢ and ਧ are tonal letters too: at the start of a word, think ṭ and t with a falling pitch.</p>
+<h3>The rest: ਯ ਰ ਲ ਵ ੜ</h3>
+<p>ਯ is y and ਲ is l. ਰ is a quick tap of the tongue, like the tt in American "butter", never the English r. ਵ sits between English v and w. ੜ is a flap: curl the tongue back, then flick it forward against the roof of the mouth. It never starts a word.</p>
+<div class="tbl"><table><tr><th>Letter</th><th>Romanisation</th></tr><tr><td class="k">ਯ</td><td>ya</td></tr><tr><td class="k">ਰ</td><td>ra</td></tr><tr><td class="k">ਲ</td><td>la</td></tr><tr><td class="k">ਵ</td><td>va</td></tr><tr><td class="k">ੜ</td><td>ṛa</td></tr></table></div>
+{{ex:ਕੁੜੀ|kuṛī|girl}}
+{{ex:ਰੋਟੀ|roṭī|roti (flatbread); a meal}}
+{{ex:ਦਾਲ|dāl|dal (lentils)}}
+<div class="tip"><b>Most common mistake:</b> reading ਫ as f. <b>ਫਲ</b> said "fal" → <b>ਫਲ</b> as p with a puff of air, then al. The f sound always has the dot: ਫ਼.</div>
+`,
+    check: [
+      ["How do you make the retroflex ṭ of ਟ?",["With the tongue tip on the back of the upper teeth","With the tongue tip curled back against the roof of the mouth","With the lips closed","With a puff of air through the nose"],1,"Retroflex letters are made with the tongue curled back; dental ones with the tongue on the teeth."],
+      ["How is ਫ in ਫਲ (fruit) said?",["f, as in fish","v","b","p with a puff of air"],3,"ਫ is the aspirated p; the f sound is written ਫ਼, with a dot."],
+      ["Which letter is dental?",["ਤ","ਟ","ਡ","ਣ"],0,"ਤ is dental, tongue on the teeth; ਟ ਡ ਣ are retroflex."]
+    ],
+    practice: [
+      ["mc","Which letter is the retroflex ṭ, tongue curled back?","ਟ","ਤ","ਥ","ਦ","ਟ is retroflex; ਤ ਥ ਦ are dental."],
+      ["mc","Which letter is a flap, never at the start of a word?","ੜ","ਰ","ਡ","ਲ","ੜ is the flap; ਰ is a tap, ਡ a retroflex d."],
+      ["mc","How is ਥ said?","t with a puff of air, tongue on the teeth","like the th in think","like the th in this","like ṭ, tongue curled back","ਥ is the aspirated dental t, never the English th."],
+      ["mc","ਭ at the start of a word sounds most like…","p, with a falling pitch","b with a breathy h after it","f","v","ਭ is a tonal letter: at the start of a word, p with a falling pitch."],
+      ["mc","Which word means girl?","ਕੁੜੀ","ਤਾਰਾ","ਭਾਈ","ਰੋਟੀ","ਕੁੜੀ is girl, with the flap ੜ."],
+      ["or","Build ṭamāṭar (tomato)","ਟ ਮਾ ਟ ਰ","ਤ","ਟਮਾਟਰ has the retroflex ਟ twice, tongue curled back."],
+      ["or","Build tārā (star)","ਤਾ ਰਾ","ਟਾ","ਤਾਰਾ starts with the dental ਤ, tongue on the teeth."],
+      ["or","Build pāṇī (water)","ਪਾ ਣੀ","ਨੀ","ਪਾਣੀ has the retroflex ਣ, not the dental ਨ."],
+      ["fi","ਕੁ__","kuṛī, girl","ੜੀ","ਡੀ|ਰੀ|ਦੀ","ਕੁੜੀ has the flap ੜ, not ਡ or ਰ."],
+      ["fi","__ਕ","ṭhīk, fine","ਠੀ","ਥੀ|ਟੀ|ਤੀ","ਠੀਕ starts with the retroflex ਠ, with a puff of air."],
+      ["fi","__ਈ","bhā̀ī, brother","ਭਾ","ਬਾ|ਪਾ|ਫਾ","ਭਾਈ starts with the tonal letter ਭ."],
+      ["ty","Type phal (fruit)","ਫ ਲ|ਫਲ","p with a puff · l","ਪ ਬ","ਫਲ starts with the aspirated ਫ; ਪਲ, without the puff, means moment."],
+      ["ty","Type kuṛī (girl)","ਕੁ ੜੀ|ਕੁੜੀ","ku · the flap with ī","ਡੀ ਰੀ","ਕੁੜੀ has the retroflex flap ੜ."],
+      ["ty","Type roṭī (roti)","ਰੋ ਟੀ|ਰੋਟੀ","ro · ṭ with ī","ਤੀ ਥੀ","ਰੋਟੀ has the retroflex ਟ, not the dental ਤ."]
+    ]
+  },
+  {
+    id: "nasal",
+    title: "Tippi, bindi, addak and dotted letters",
+    blurb: "Read whole words: nasal sounds, doubled consonants, letters written under others, and the dotted letters.",
+    deck: "Tippi, bindi and addak",
+    body: `
+<p>Four small marks turn the letters you know into real words. They sit on top of the headline or next to a letter, so they are easy to miss.</p>
+<h3>Tippi and bindi: the nasal marks</h3>
+<p>Tippi (ੰ) and bindi (ਂ) do the same job. Which one you write depends on the vowel: tippi goes with the inherent a, ਿ, ੁ and ੂ; bindi goes with the other vowel signs and with the vowel letters. What you say depends on the next letter:</p>
+<ul><li>Before a consonant like ਜ, ਡ or ਬ, the mark is a real n, ṇ or m, matching that consonant: <b>ਪੰਜ</b> <i>panj</i> five, <b>ਮੁੰਡਾ</b> <i>muṇḍā</i> boy, <b>ਅੰਬ</b> <i>amb</i> mango.</li><li>Before ਮ or ਨ, it doubles that letter: <b>ਕੰਮ</b> <i>kamm</i> work.</li><li>Anywhere else, including the end of a word, there is no n at all: the vowel is said through the nose, like the French "non". The romanisation writes a wavy line on the vowel.</li></ul>
+{{ex:ਤੂੰ|tū̃|you (to a close friend)}}
+{{ex:ਹਾਂ|hā̃|yes}}
+{{ex:ਮੈਂ|maĩ|I}}
+<h3>Addak: doubled consonants</h3>
+<p>English writes double letters but says them once: "summer" has one m. In Punjabi a doubled consonant is held, as in the middle of "book case". The addak (ੱ) on a letter doubles the next one. It can change the word completely.</p>
+{{ex:ਪਤਾ|patā|address; (I) know}}
+{{ex:ਪੱਤਾ|pattā|leaf}}
+{{ex:ਪੱਕਾ|pakkā|sure; ripe}}
+<h3>Letters written underneath</h3>
+<p>Three letters can be written small, under another letter: ੍ਰ (r), ੍ਹ (h) and, rarely, ੍ਵ (v). The small letter is said right after the big one, with no vowel between.</p>
+{{ex:ਸ੍ਰੀ|srī|Sri (a title of respect)}}
+{{ex:ਪੜ੍ਹਨਾ|páṛhnā|to read; to study}}
+<h3>Dotted letters</h3>
+<p>A dot under a letter makes a sound found in Persian, Arabic and English words: ਸ਼ sh, ਖ਼ a rough kh (like Scottish "loch"), ਗ਼ a soft gargled g, ਜ਼ z, ਫ਼ f. Many speakers say ਖ਼ and ਗ਼ like ਖ and ਗ. You may also meet ਲ਼, an l with the tongue curled back, in some printed texts; this course writes plain ਲ.</p>
+{{ex:ਸ਼ਹਿਰ|sháhir|city}}
+{{ex:ਖ਼ੁਸ਼|ḵhush|happy}}
+{{ex:ਜ਼ਰੂਰ|zarūr|of course; surely}}
+{{ex:ਫ਼ੋਨ|fon|phone}}
+<div class="tip"><b>Most common mistake:</b> skipping the addak. <b>ਪੱਕਾ</b> read like ਪਕਾ, with one k → <b>ਪੱਕਾ</b> with the k held, as in "book case". And no n in <b>ਤੂੰ</b>: just a nasal vowel.</div>
+`,
+    check: [
+      ["What does the addak (ੱ) do?",["It makes the vowel nasal","It doubles the next consonant","It makes the letter silent","It marks a question"],1,"The addak doubles the next letter: ਪੱਕਾ, ਪੱਤਾ."],
+      ["How is the tippi in ਤੂੰ (you) said?",["As a full n at the end","As m","Not at all","As a nasal vowel, with no real n"],3,"At the end of a word, tippi or bindi makes the vowel nasal; there is no n."],
+      ["Why is ਕੰਮ (work) said with a long m?",["Tippi before ਮ doubles it","ਮ is always long","The addak is hidden","It is an English word"],0,"Before ਮ or ਨ, the tippi doubles that letter."]
+    ],
+    practice: [
+      ["mc","Which word has an addak?","ਪੱਕਾ","ਪਤਾ","ਪੰਜ","ਮੁੰਡਾ","ਪੱਕਾ has the addak ੱ, which doubles the k."],
+      ["mc","In ਮੁੰਡਾ (boy), the tippi before ਡ is said as…","ṇ, the retroflex n","a nasal vowel with no n","m","nothing at all","Before a retroflex letter like ਡ, the tippi is said ṇ."],
+      ["mc","Which mark goes with the vowel signs ਾ ੀ ੇ ੈ ੋ ੌ?","bindi (ਂ)","tippi (ੰ)","addak (ੱ)","a dot under the letter (਼)","Bindi goes with these signs; tippi with the inherent a, ਿ, ੁ and ੂ."],
+      ["mc","ਫ਼, with a dot, is said…","f","p with a puff of air","p","v","The dot turns ਫ into ਫ਼, the English f."],
+      ["mc","ਪਤਾ means address. What does ਪੱਤਾ mean?","leaf","the same: address","father","bread","The addak makes a different word: ਪੱਤਾ is leaf."],
+      ["or","Build pakkā (sure)","ਪੱ ਕਾ","ਪ","The addak on ਪੱ doubles the k: ਪੱਕਾ, not ਪਕਾ."],
+      ["or","Build muṇḍā (boy)","ਮੁੰ ਡਾ","ਮੂੰ","ਮੁੰਡਾ has the short vowel ੁ, so the mark is tippi."],
+      ["or","Build fon (phone)","ਫ਼ੋ ਨ","ਫੋ","The f of phone is ਫ਼, with the dot; ਫ without it is p with a puff."],
+      ["fi","__ਜ","panj, five","ਪੰ","ਪ|ਪਾ|ਪਾਂ","ਪੰਜ has a tippi on the inherent a, said n before ਜ.","!strict"],
+      ["fi","ਖ਼ੁ__","ḵhush, happy","ਸ਼","ਸ|ਛ|ਜ਼","ਖ਼ੁਸ਼ ends in the dotted ਸ਼, sh.","!strict"],
+      ["fi","__ਛਾ","acchhā, good; OK","ਅੱ","ਅ|ਆ|ਐ","The addak on ਅੱ doubles the ਛ: ਅੱਛਾ.","!strict"],
+      ["ty","Type kamm (work)","ਕੰ ਮ|ਕੰਮ","ka with tippi · m","ਕ ਕਾ","ਕੰਮ has a tippi before ਮ, which doubles it.","!strict"],
+      ["ty","Type pattā (leaf)","ਪੱ ਤਾ|ਪੱਤਾ","pa with addak · tā","ਪ ਟਾ","The addak doubles the dental ਤ: ਪੱਤਾ is leaf; ਪਤਾ is address.","!strict"],
+      ["ty","Type hā̃ (yes)","ਹਾਂ","hā with bindi","ਹਾ ਹੈਂ","ਹਾਂ takes a bindi on ਾ, said as a nasal vowel.","!strict"]
+    ]
+  },
+  {
+    id: "tones",
+    title: "Tones: low, level and high",
+    blurb: "Read the tone marks in the romanisation and say low, level and high tones in common words.",
+    deck: "Tones",
+    body: `
+<p>English uses pitch for feeling: a question goes up at the end. Punjabi also uses pitch to tell words apart. A syllable can have a low tone (the pitch falls), a level tone (ordinary speech), or a high tone (the voice rises, then falls a little).</p>
+{{ex:ਘੋੜਾ|ghòṛā|horse}}
+{{ex:ਕੋੜਾ|koṛā|whip}}
+{{ex:ਕੋਹੜਾ|kóhṛā|leper (an old, harsh word)}}
+<p>Only the pitch tells these three apart. Gurmukhi has no tone marks, but the spelling predicts the tone: it comes from the tonal letters ਘ ਝ ਢ ਧ ਭ and from ਹ.</p>
+<h3>Low tone: a tonal letter at the start</h3>
+<p>At the start of a word, ਘ ਝ ਢ ਧ ਭ lose their voice and become k, ch, ṭ, t, p, while the pitch falls on the vowel after them. The romanisation keeps the letters as written and puts a grave mark on that vowel, as in ò.</p>
+{{ex:ਘਰ|ghàr|house; home}}
+{{ex:ਕਰ|kar|do!}}
+{{ex:ਭਾਈ|bhā̀ī|brother}}
+<h3>High tone: ਹ or a tonal letter after the vowel</h3>
+<p>When ਹ comes after a vowel, it is not said: the vowel before it rises instead. A tonal letter after the vowel works the same way: the vowel rises and the letter becomes a plain g, j, ḍ, d or b. The romanisation puts an acute mark on the rising vowel, as in ó.</p>
+{{ex:ਚਾਹ|chā́h|tea}}
+{{ex:ਸਿੰਘ|síngh|Singh (a Sikh name)}}
+<p>A ਹ after a short vowel also changes its colour: <b>ਸ਼ਹਿਰ</b> <i>sháhir</i> sounds close to "shɛ́r", and <b>ਉਹ</b> <i>úh</i> close to "ó".</p>
+<h3>The table to come back to</h3>
+<div class="tbl"><table><tr><th>You see in the romanisation</th><th>Say</th><th>Example</th></tr><tr><td>gh jh ḍh dh bh at the start, vowel with a grave mark (ò)</td><td>k ch ṭ t p, and let the pitch fall</td><td class="k">ਘਰ</td></tr><tr><td>a vowel with an acute mark (ó), then h</td><td>rise on the vowel; the h is silent</td><td class="k">ਚਾਹ</td></tr><tr><td>a vowel with an acute mark (ó), then gh jh ḍh dh bh</td><td>rise on the vowel; then plain g j ḍ d b</td><td class="k">ਸਿੰਘ</td></tr><tr><td>a grave mark (ò) on a vowel after h</td><td>the pitch falls on that vowel</td><td class="k">ਤੁਹਾਡਾ</td></tr></table></div>
+{{ex:ਤੁਹਾਡਾ|tuhā̀ḍā|your (polite)}}
+<p>From now on, tone is practised by listening and by the marks in the romanisation. When in doubt, listen to the audio: the voice is a better model than any description.</p>
+<div class="tip"><b>Most common mistake:</b> saying the letters as written. <b>ਘਰ</b> with a breathy g → <b>ਘਰ</b> as k with a falling pitch. And <b>ਚਾਹ</b> with an h at the end → <b>ਚਾਹ</b> as a rising ā, with no h.</div>
+`,
+    check: [
+      ["How is ਘ at the start of ਘਰ (house) said?",["g with a breathy h","k, with the pitch falling on the vowel","k, with the pitch rising","h"],1,"A tonal letter at the start gives a low tone: k with a falling pitch."],
+      ["What happens to the ਹ in ਚਾਹ (tea)?",["It is said as a strong h","It is said as k","It is silent, and the ā before it gets a high tone","It makes the word a question"],2,"ਹ after a vowel is not said; the vowel before it rises."],
+      ["ਘੋੜਾ and ਕੋੜਾ differ only in…",["tone: low against level","vowel length","the retroflex ੜ","nothing: they are the same word"],0,"ਘੋੜਾ (horse) has a low tone; ਕੋੜਾ (whip) a level tone."]
+    ],
+    practice: [
+      ["mc","Which word has a low tone?","ਘਰ","ਕਰ","ਚਾਹ","ਸਿੰਘ","ਘ at the start of ਘਰ gives a low tone."],
+      ["mc","In the romanisation, an acute mark on a vowel (as in ó) means…","a high tone: the voice rises","a low tone: the pitch falls","a long vowel","a nasal vowel","The acute mark (ó) is a high tone; the grave mark (ò) is a low tone."],
+      ["mc","In ਸਿੰਘ (Singh), the ਘ at the end sounds like…","a plain g, after a rising i","k, with a falling pitch","gh with a breath","nothing","After the vowel, ਘ is a plain g and the vowel before it rises."],
+      ["mc","Which word means horse?","ਘੋੜਾ","ਕੋੜਾ","ਘੜੀ","ਕੜੀ","ਘੋੜਾ, with a low tone, is horse; ਕੋੜਾ is whip."],
+      ["mc","Which letter is NOT a tonal letter?","ਗ","ਘ","ਭ","ਧ","ਘ ਝ ਢ ਧ ਭ and ਹ carry tone; ਗ is a plain g."],
+      ["or","Build ghòṛā (horse)","ਘੋ ੜਾ","ਕੋ","ਘੋੜਾ starts with ਘ, which gives a low tone; ਕੋੜਾ is whip."],
+      ["or","Build síngh (Singh)","ਸਿੰ ਘ","ਗ","The final ਘ gives the i a high tone; it is said like ਗ but written ਘ."],
+      ["or","Build chā́h (tea)","ਚਾ ਹ","ਛਾ","The silent ਹ after ā gives a high tone; ਚ has no puff."],
+      ["fi","__ੜਾ","ghòṛā, horse","ਘੋ","ਕੋ|ਗੋ|ਖੋ","Horse starts with ਘ: ਘੋੜਾ, with a low tone."],
+      ["fi","ਚਾ__","chā́h, tea","ਹ","ਖ|ਘ|ਗ","ਚਾਹ ends in a silent ਹ that gives the ā a high tone."],
+      ["fi","__ੜੀ","ghàṛī, watch; clock","ਘ","ਕ|ਗ|ਖ","Watch is ਘੜੀ, with a low tone; ਕੜੀ is a different word."],
+      ["ty","Type ghàr (house)","ਘ ਰ|ਘਰ","the tonal letter gh · r","ਕ ਗ","ਘਰ is written with ਘ, which gives a low tone; ਕਰ means do!"],
+      ["ty","Type bhā̀ī (brother)","ਭਾ ਈ|ਭਾਈ","the tonal letter bh with ā · ī","ਪਾ ਬਾ","ਭਾਈ is written with ਭ, which gives a low tone on the ā."],
+      ["ty","Type dhī̀ (daughter)","ਧੀ","the tonal letter dh with ī","ਦੀ ਤੀ","ਧੀ is written with ਧ, which gives a low tone; ਦੀ is a different word."]
+    ]
+  },
+  {
+    id: "greetings",
+    title: "Greetings: ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਜੀ and ਤੁਸੀਂ",
+    blurb: "Greet people, ask how they are, say thank you and sorry, and choose between ਤੁਸੀਂ and ਤੂੰ.",
+    deck: "Greetings and courtesy",
+    body: `
+<p>English has one "hello" for everyone. In Punjab the greeting depends a little on the community. Sikhs and most Punjabis in India say <b>ਸਤ ਸ੍ਰੀ ਅਕਾਲ</b> <i>sat srī akāl</i>; many Punjabi Hindus say <b>ਨਮਸਤੇ</b> <i>namaste</i>; Muslim Punjabis say <b>ਸਲਾਮ</b> <i>salām</i>. If someone greets you first, answer with the same words. ਸਤ ਸ੍ਰੀ ਅਕਾਲ works for hello and goodbye, at any time of day. You will often see it spelled ਸਤਿ, with a sign that is not said.</p>
+{{ex:ਸਤ ਸ੍ਰੀ ਅਕਾਲ ਜੀ।|sat srī akāl jī.|Hello. (politely)}}
+<h3>ਜੀ: the politeness word</h3>
+<p>English softens with "sir", "ma'am" or "please". Punjabi adds <b>ਜੀ</b> <i>jī</i>: after a name or title, after yes and no, at the end of a greeting or request. Never put it after your own name.</p>
+{{ex:ਹਾਂ ਜੀ।|hā̃ jī.|Yes. (politely)}}
+{{ex:ਨਹੀਂ ਜੀ।|náhī̃ jī.|No. (politely)}}
+<h3>Two ways to say "you"</h3>
+<p>English has one "you". Punjabi has <b>ਤੁਸੀਂ</b> <i>tusī̃</i> for anyone you do not know well, anyone older, and also for several people. Use it by default. <b>ਤੂੰ</b> <i>tū̃</i> is for close friends your age, children and younger family; to a stranger or an elder it sounds rude. A very formal third form, ਆਪ, appears mostly in speeches and writing.</p>
+<p>The verb changes with the word for "you". ਤੁਸੀਂ is plural, even for one person, so it takes the plural ਹੋ. ਤੂੰ is singular and takes ਹੈਂ.</p>
+{{ex:ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ?|tusī̃ kivẽ ho?|How are you? (polite)}}
+{{ex:ਤੂੰ ਕਿਵੇਂ ਹੈਂ?|tū̃ kivẽ haĩ?|How are you? (to a close friend)}}
+{{ex:ਕੀ ਹਾਲ ਹੈ?|kī hāl hai?|How are things? (everyday)}}
+<p>The usual answer is "I'm fine": the ending ਹਾਂ agrees with ਮੈਂ, "I".</p>
+{{ex:ਮੈਂ ਠੀਕ ਹਾਂ।|maĩ ṭhīk hā̃.|I'm fine.}}
+<h3>Thank you, sorry, goodbye</h3>
+<p><b>ਧੰਨਵਾਦ</b> <i>dhànnvād</i> is the standard "thank you"; <b>ਸ਼ੁਕਰੀਆ</b> <i>shukrīā</i> is just as common, and many people simply say ਥੈਂਕ ਯੂ. The answer is <b>ਕੋਈ ਗੱਲ ਨਹੀਂ</b> <i>koī gall náhī̃</i>, literally "it's nothing": it also answers "sorry". Thanking close family for small things can sound distant.</p>
+{{ex:ਕੋਈ ਗੱਲ ਨਹੀਂ।|koī gall náhī̃.|No problem. / You're welcome.}}
+{{ex:ਮਾਫ਼ ਕਰਨਾ|māf karnā|sorry; excuse me}}
+{{ex:ਫਿਰ ਮਿਲਾਂਗੇ।|phir milā̃ge.|See you again.}}
+<p>A guest at the door hears <b>ਜੀ ਆਇਆਂ ਨੂੰ</b> <i>jī āiā̃ nū̃</i>, "welcome".</p>
+<div class="tip"><b>Most common mistake:</b> translating "you're welcome" word for word. <b>ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ</b> after thanks → <b>ਕੋਈ ਗੱਲ ਨਹੀਂ</b>. ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ welcomes a guest; it does not answer thanks.</div>
+`,
+    check: [
+      ["A Muslim Punjabi greets you with ਸਲਾਮ. What is a good reply?",["ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ","ਸਲਾਮ, the same words","ਕੋਈ ਗੱਲ ਨਹੀਂ","ਮਾਫ਼ ਕਰਨਾ"],1,"Answer a greeting with the same words: ਸਲਾਮ."],
+      ["Where does ਜੀ NOT go?",["After a teacher's name","After ਹਾਂ, for a polite yes","After your own name","At the end of a greeting"],2,"ਜੀ shows respect to others, so it never follows your own name."],
+      ["Which word for you do you use with a shopkeeper you don't know?",["ਤੁਸੀਂ","ਤੂੰ, to sound friendly","Either, it makes no difference","No word for you at all"],0,"ਤੁਸੀਂ is the default with anyone you don't know; ਤੂੰ would sound rude."]
+    ],
+    practice: [
+      ["mc","Your friend's grandfather, a Sikh, walks in. What do you say?","ਸਤ ਸ੍ਰੀ ਅਕਾਲ ਜੀ","ਤੂੰ ਕਿਵੇਂ ਹੈਂ?","ਕੋਈ ਗੱਲ ਨਹੀਂ","ਮਾਫ਼ ਕਰਨਾ","ਸਤ ਸ੍ਰੀ ਅਕਾਲ with ਜੀ is the respectful greeting; ਤੂੰ would be rude to an elder."],
+      ["mc","Someone says ਧੰਨਵਾਦ. You answer…","ਕੋਈ ਗੱਲ ਨਹੀਂ","ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ","ਜੀ ਆਇਆਂ ਨੂੰ","ਫਿਰ ਮਿਲਾਂਗੇ","ਕੋਈ ਗੱਲ ਨਹੀਂ answers thanks; ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ welcomes a guest."],
+      ["mc","You bump into someone in a crowd. You say…","ਮਾਫ਼ ਕਰਨਾ","ਧੰਨਵਾਦ","ਜੀ ਆਇਆਂ ਨੂੰ","ਹਾਂ ਜੀ","ਮਾਫ਼ ਕਰਨਾ means sorry or excuse me."],
+      ["mc","A polite yes =","ਹਾਂ ਜੀ","ਨਹੀਂ ਜੀ","ਹੈ ਜੀ","ਹੂੰ ਜੀ","ਹਾਂ ਜੀ is the polite yes; ਨਹੀਂ ਜੀ is the polite no."],
+      ["mc","As you leave, how do you say see you again?","ਫਿਰ ਮਿਲਾਂਗੇ","ਜੀ ਆਇਆਂ ਨੂੰ","ਕੋਈ ਗੱਲ ਨਹੀਂ","ਮਾਫ਼ ਕਰਨਾ","ਫਿਰ ਮਿਲਾਂਗੇ means we'll meet again."],
+      ["or","How are you? (politely, start with ਤੁਸੀਂ)","ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ","ਹੈ","ਤੁਸੀਂ is plural, even for one person, so it takes the plural ਹੋ."],
+      ["or","I'm fine.","ਮੈਂ ਠੀਕ ਹਾਂ","ਹੈ ਹੂੰ","ਹਾਂ agrees with ਮੈਂ; ਹੂੰ is Hindi."],
+      ["or","No problem.","ਕੋਈ ਗੱਲ ਨਹੀਂ","ਸਵਾਗਤ","ਕੋਈ ਗੱਲ ਨਹੀਂ, it's nothing, answers thanks and sorry."],
+      ["fi","ਤੁਸੀਂ ਕਿਵੇਂ __?","How are you? (polite)","ਹੋ","ਹੈ|ਹਾਂ|ਹੈਂ","ਤੁਸੀਂ takes the plural ਹੋ."],
+      ["fi","ਮੈਂ ਠੀਕ __।","I'm fine.","ਹਾਂ","ਹੈ|ਹੋ|ਹੂੰ","With ਮੈਂ the verb is ਹਾਂ; ਹੂੰ is the Hindi form."],
+      ["fi","ਕੋਈ ਗੱਲ __।","No problem.","ਨਹੀਂ","ਹੈ|ਹਾਂ|ਜੀ","ਕੋਈ ਗੱਲ ਨਹੀਂ: literally, (it's) no matter."],
+      ["ty","How are you? (politely, using ਤੁਸੀਂ)","ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ|ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ ਜੀ","ਤੁਸੀਂ · ਕਿਵੇਂ · ਹੋਣਾ","ਹੈ","ਤੁਸੀਂ is plural, so the verb is ਹੋ, not ਹੈ."],
+      ["ty","I'm fine. (answering)","ਮੈਂ ਠੀਕ ਹਾਂ|ਮੈਂ ਠੀਕ ਹਾਂ ਜੀ|ਠੀਕ ਹਾਂ|ਠੀਕ ਹਾਂ ਜੀ","ਮੈਂ · ਠੀਕ · ਹੋਣਾ","ਹੈ ਹੂੰ","ਹਾਂ agrees with ਮੈਂ; ਹੈ is for he, she or it."],
+      ["ty","How are you? (to a close friend, using ਤੂੰ)","ਤੂੰ ਕਿਵੇਂ ਹੈਂ","ਤੂੰ · ਕਿਵੇਂ · ਹੋਣਾ","ਹੋ","ਤੂੰ is singular, so it takes ਹੈਂ, not the plural ਹੋ."]
+    ]
+  },
+  {
+    id: "hona",
+    title: "Pronouns and ਹੋਣਾ: am, is, are",
+    blurb: "Say who you are and how you are with ਮੈਂ, ਤੁਸੀਂ, ਉਹ and the forms of to be: ਹਾਂ, ਹੈ, ਹੋ, ਹਨ.",
+    deck: "About me",
+    body: `
+<p>English puts "am, is, are" right after the subject: "I am happy". Punjabi puts the verb at the end: "I happy am".</p>
+{{ex:ਮੈਂ ਖ਼ੁਸ਼ ਹਾਂ।|maĩ ḵhush hā̃.|I am happy.}}
+<h3>One verb, four forms</h3>
+<p>The verb "to be" is <b>ਹੋਣਾ</b> <i>hoṇā</i>. In the present it has four forms, and each one agrees with its subject.</p>
+<div class="tbl"><table><tr><th>Subject</th><th>Verb</th><th>English</th></tr><tr><td class="k">ਮੈਂ</td><td class="k">ਹਾਂ</td><td>I am</td></tr><tr><td class="k">ਅਸੀਂ</td><td class="k">ਹਾਂ</td><td>we are</td></tr><tr><td class="k">ਤੂੰ</td><td class="k">ਹੈਂ</td><td>you are (close friend)</td></tr><tr><td class="k">ਤੁਸੀਂ</td><td class="k">ਹੋ</td><td>you are (polite, or several people)</td></tr><tr><td class="k">ਇਹ / ਉਹ (one)</td><td class="k">ਹੈ</td><td>he, she, it, this, that is</td></tr><tr><td class="k">ਇਹ / ਉਹ (several)</td><td class="k">ਹਨ</td><td>they, these, those are</td></tr></table></div>
+<p>Notice that ਮੈਂ and ਅਸੀਂ share ਹਾਂ, and that ਤੁਸੀਂ, the polite "you", always takes the plural ਹੋ, even when you speak to one person.</p>
+{{ex:ਅਸੀਂ ਤਿਆਰ ਹਾਂ।|asī̃ tiār hā̃.|We are ready.}}
+{{ex:ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ।|tusī̃ ḍākṭar ho.|You are a doctor.}}
+<h3>ਇਹ and ਉਹ: no he or she</h3>
+<p>English chooses between he, she and it. Punjabi does not: it chooses by distance. <b>ਇਹ</b> <i>íh</i> is someone or something near (this, he, she, it), <b>ਉਹ</b> <i>úh</i> is farther away (that, he, she, it). Both also work for several people or things; then the verb is the plural ਹਨ.</p>
+{{ex:ਇਹ ਚਾਹ ਹੈ।|íh chā́h hai.|This is tea.}}
+{{ex:ਉਹ ਦੋਸਤ ਹਨ।|úh dost han.|They are friends.}}
+<p>One more use of ਹਨ: Punjabi shows respect with the plural. For a grandparent, a teacher or a guest, you say ਉਹ … ਹਨ even for one person. You will see this again with family words.</p>
+<h3>Friends and the polite you</h3>
+<p>With ਤੂੰ the verb is ਹੈਂ, with a bindi; without it, ਹੈ belongs to he, she and it. Keep ਤੂੰ for close friends and children.</p>
+{{ex:ਤੂੰ ਖ਼ੁਸ਼ ਹੈਂ?|tū̃ ḵhush haĩ?|Are you happy? (to a close friend)}}
+<h3>Not Hindi</h3>
+<p>If you know some Hindi from films, watch the small words. Hindi says ਹੂੰ for "am"; Punjabi says ਹਾਂ. The other forms look alike, so this one slips in easily. Learners who grew up with Hindi films make this swap without noticing, so the practice below keeps testing it.</p>
+{{ex:ਮੈਂ ਠੀਕ ਹਾਂ।|maĩ ṭhīk hā̃.|I'm fine.}}
+<div class="tip"><b>Most common mistake:</b> using ਹੈ for everything, the way English overuses "is". <b>ਤੁਸੀਂ ਤਿਆਰ ਹੈ?</b> → <b>ਤੁਸੀਂ ਤਿਆਰ ਹੋ?</b> Are you ready? ਤੁਸੀਂ always takes ਹੋ.</div>
+`,
+    check: [
+      ["Which verb form goes with ਤੁਸੀਂ?",["ਹੈ","ਹਾਂ","ਹੋ","ਹਨ"],2,"ਤੁਸੀਂ is plural, even for one person, so it takes ਹੋ."],
+      ["Someone who knows Hindi says ਮੈਂ ਠੀਕ ਹੂੰ. What is the Punjabi?",["ਮੈਂ ਠੀਕ ਹਾਂ","ਮੈਂ ਠੀਕ ਹੈ","ਮੈਂ ਠੀਕ ਹੋ","It is already correct Punjabi"],0,"Punjabi says ਹਾਂ with ਮੈਂ; ਹੂੰ is Hindi."],
+      ["Where does ਹਾਂ / ਹੈ / ਹੋ / ਹਨ usually go in the sentence?",["At the start","Right after the subject, as in English","At the end","Anywhere at all"],2,"The verb goes at the end: ਮੈਂ ਖ਼ੁਸ਼ ਹਾਂ."]
+    ],
+    practice: [
+      ["mc","I am happy =","ਮੈਂ ਖ਼ੁਸ਼ ਹਾਂ","ਮੈਂ ਖ਼ੁਸ਼ ਹੈ","ਮੈਂ ਖ਼ੁਸ਼ ਹੂੰ","ਮੈਂ ਖ਼ੁਸ਼ ਹੋ","ਮੈਂ takes ਹਾਂ; ਹੂੰ is Hindi."],
+      ["mc","We are ready =","ਅਸੀਂ ਤਿਆਰ ਹਾਂ","ਅਸੀਂ ਤਿਆਰ ਹੈ","ਅਸੀਂ ਤਿਆਰ ਹਨ","ਅਸੀਂ ਤਿਆਰ ਹੋ","ਅਸੀਂ takes ਹਾਂ, the same form as ਮੈਂ."],
+      ["mc","Which word can mean that, he, she, it and they?","ਉਹ","ਮੈਂ","ਤੁਸੀਂ","ਅਸੀਂ","ਉਹ is someone or something farther away; the verb shows one or several."],
+      ["mc","This is tea =","ਇਹ ਚਾਹ ਹੈ","ਇਹ ਚਾਹ ਹਨ","ਇਹ ਚਾਹ ਹਾਂ","ਇਹ ਚਾਹ ਹੋ","One thing takes ਹੈ."],
+      ["mc","You are a doctor. (polite) =","ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ","ਤੁਸੀਂ ਡਾਕਟਰ ਹੈ","ਤੁਸੀਂ ਡਾਕਟਰ ਹੈਂ","ਤੁਸੀਂ ਡਾਕਟਰ ਹਾਂ","ਤੁਸੀਂ always takes ਹੋ."],
+      ["or","They are ready. (use ਉਹ)","ਉਹ ਤਿਆਰ ਹਨ","ਹੈ","Several people take the plural ਹਨ; ਹੈ is for one."],
+      ["or","We are friends.","ਅਸੀਂ ਦੋਸਤ ਹਾਂ","ਹਨ","ਹਾਂ agrees with ਅਸੀਂ; ਹਨ is for they."],
+      ["or","You are happy. (to a close friend)","ਤੂੰ ਖ਼ੁਸ਼ ਹੈਂ","ਹੋ","ਤੂੰ is singular: it takes ਹੈਂ, not the plural ਹੋ."],
+      ["fi","ਉਹ ਡਾਕਟਰ __।","They are doctors.","ਹਨ","ਹੈ|ਹਾਂ|ਹੋ","They are takes the plural ਹਨ."],
+      ["fi","ਅਸੀਂ ਪੰਜਾਬੀ __।","We are Punjabi.","ਹਾਂ","ਹੈ|ਹਨ|ਹੂੰ","ਅਸੀਂ takes ਹਾਂ."],
+      ["fi","ਤੁਸੀਂ ਤਿਆਰ __?","Are you ready? (polite)","ਹੋ","ਹੈ|ਹੈਂ|ਹਾਂ","ਤੁਸੀਂ takes ਹੋ, even for one person."],
+      ["ty","They are happy. (use ਉਹ)","ਉਹ ਖ਼ੁਸ਼ ਹਨ","ਉਹ · ਖ਼ੁਸ਼ · ਹੋਣਾ","ਹੈ","ਹਨ agrees with a plural subject; ਹੈ is for one person."],
+      ["ty","I am a doctor.","ਮੈਂ ਡਾਕਟਰ ਹਾਂ","ਮੈਂ · ਡਾਕਟਰ · ਹੋਣਾ","ਹੈ ਹੂੰ","ਹਾਂ agrees with ਮੈਂ; ਹੂੰ is Hindi."],
+      ["ty","How are you? (politely, using ਤੁਸੀਂ)","ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ|ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ ਜੀ","ਤੁਸੀਂ · ਕਿਵੇਂ · ਹੋਣਾ","ਹੈ","ਤੁਸੀਂ is plural, so it takes ਹੋ."]
+    ]
+  },
+  {
+    id: "intro",
+    title: "Introducing yourself: ਮੇਰਾ ਨਾਂ … ਹੈ",
+    blurb: "Give your name, ask someone's name, say where you are from, and say that you speak a little Punjabi.",
+    deck: "About me",
+    body: `
+<h3>My name is…</h3>
+<p>English says "My name is Sarah". Punjabi says the same words in a different order: "My name Sarah is", with the verb at the end. The word for name is <b>ਨਾਂ</b> <i>nā̃</i>; you will also see it spelled ਨਾਮ.</p>
+{{ex:ਮੇਰਾ ਨਾਂ ਸਾਰਾ ਹੈ।|merā nā̃ sārā hai.|My name is Sarah.}}
+<p>Why ਮੇਰਾ and not ਮੇਰੀ? Words for "my" change to match the thing owned, and ਨਾਂ is a masculine word, so it takes <b>ਮੇਰਾ</b> <i>merā</i>. A woman and a man both say ਮੇਰਾ ਨਾਂ. Lesson 12 explains this fully; for now, learn ਮੇਰਾ ਨਾਂ as one block. To ask, use the polite <b>ਤੁਹਾਡਾ</b> <i>tuhā̀ḍā</i>, "your".</p>
+{{ex:ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ?|tuhā̀ḍā nā̃ kī hai?|What's your name?}}
+<p>You can also say simply "I am Simran", with ਹਾਂ from the last lesson. Do not add ਜੀ after your own name: it is a mark of respect for others.</p>
+{{ex:ਮੈਂ ਸਿਮਰਨ ਹਾਂ।|maĩ simran hā̃.|I'm Simran.}}
+{{ex:ਤੁਹਾਨੂੰ ਮਿਲ ਕੇ ਖ਼ੁਸ਼ੀ ਹੋਈ।|tuhā̀nū̃ mil ke ḵhushī hoī.|Nice to meet you.}}
+<h3>Where are you from?</h3>
+<p>English puts "from" before the place. Punjabi puts <b>ਤੋਂ</b> <i>tõ</i>, "from", after it: "America from". Words like this are postpositions; Punjabi has many, and they always follow the noun. The question word <b>ਕਿੱਥੋਂ</b> <i>kitthõ</i> means "from where".</p>
+{{ex:ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ?|tusī̃ kitthõ ho?|Where are you from?}}
+{{ex:ਮੈਂ ਅਮਰੀਕਾ ਤੋਂ ਹਾਂ।|maĩ amrīkā tõ hā̃.|I'm from America.}}
+<p>Hindi says ਸੇ for "from"; Punjabi always says ਤੋਂ.</p>
+<h3>I speak a little Punjabi</h3>
+<p>This sentence is worth learning as a block, because it opens every conversation. Its verb shows who is speaking: a man says ਬੋਲਦਾ, a woman says ਬੋਲਦੀ. English verbs never change for the speaker; Punjabi verbs do, all the time. <b>ਥੋੜ੍ਹੀ</b> <i>thóṛhī</i>, "a little", ends in -ī because the word ਪੰਜਾਬੀ is feminine.</p>
+{{ex:ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦਾ ਹਾਂ।|maĩ thóṛhī panjābī boldā hā̃.|I speak a little Punjabi. (a man speaking)}}
+{{ex:ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦੀ ਹਾਂ।|maĩ thóṛhī panjābī boldī hā̃.|I speak a little Punjabi. (a woman speaking)}}
+<h3>Putting it together</h3>
+<p>A first meeting, at a family dinner or a gurdwara, usually runs in this order: the greeting from lesson 6, names, where you are from, and then, almost always, a delighted comment that you speak Punjabi. Say your one sentence about speaking a little Punjabi, smile, and let the other person carry on. Use ਤੁਸੀਂ with everyone you meet this way.</p>
+<div class="tip"><b>Most common mistake:</b> putting "from" first, as in English, or using the Hindi word. <b>ਮੈਂ ਸੇ ਅਮਰੀਕਾ ਹਾਂ</b> → <b>ਮੈਂ ਅਮਰੀਕਾ ਤੋਂ ਹਾਂ</b>. The place comes first, then ਤੋਂ.</div>
+`,
+    check: [
+      ["How do you say I'm from Delhi?",["ਮੈਂ ਦਿੱਲੀ ਸੇ ਹਾਂ","ਮੈਂ ਤੋਂ ਦਿੱਲੀ ਹਾਂ","ਮੈਂ ਦਿੱਲੀ ਤੋਂ ਹਾਂ","ਮੈਂ ਦਿੱਲੀ ਤੋਂ ਹੈ"],2,"ਤੋਂ comes after the place, and ਮੈਂ takes ਹਾਂ."],
+      ["Why is it ਮੇਰਾ ਨਾਂ and not ਮੇਰੀ ਨਾਂ?",["ਨਾਂ is a masculine word","Because the speaker is a man","ਮੇਰੀ is only used in questions","Both are correct"],0,"ਮੇਰਾ agrees with ਨਾਂ, which is masculine, whoever is speaking."],
+      ["Sarah introduces herself. Which is right?",["ਮੇਰਾ ਨਾਂ ਸਾਰਾ ਜੀ ਹੈ","ਮੇਰਾ ਨਾਂ ਸਾਰਾ ਹੈ","ਮੇਰੀ ਨਾਂ ਸਾਰਾ ਹੈ","ਮੇਰਾ ਨਾਂ ਸਾਰਾ ਹਾਂ"],1,"No ਜੀ after your own name; ਮੇਰਾ ਨਾਂ … ਹੈ."]
+    ],
+    practice: [
+      ["mc","My name is David =","ਮੇਰਾ ਨਾਂ ਡੇਵਿਡ ਹੈ","ਮੇਰੀ ਨਾਂ ਡੇਵਿਡ ਹੈ","ਮੇਰਾ ਨਾਂ ਡੇਵਿਡ ਜੀ ਹੈ","ਮੇਰਾ ਨਾਂ ਡੇਵਿਡ ਹਾਂ","ਨਾਂ is masculine, so ਮੇਰਾ; the verb agrees with ਨਾਂ: ਹੈ."],
+      ["mc","I'm from America =","ਮੈਂ ਅਮਰੀਕਾ ਤੋਂ ਹਾਂ","ਮੈਂ ਅਮਰੀਕਾ ਸੇ ਹਾਂ","ਮੈਂ ਤੋਂ ਅਮਰੀਕਾ ਹਾਂ","ਮੈਂ ਅਮਰੀਕਾ ਤੋਂ ਹੈ","ਤੋਂ follows the place; ਸੇ is Hindi."],
+      ["mc","Where are you from? (polite) =","ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ?","ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੈ?","ਤੁਸੀਂ ਕਿੱਥੇ ਹੋ?","ਤੂੰ ਕਿੱਥੋਂ ਹੋ?","ਕਿੱਥੋਂ is from where; ਤੁਸੀਂ takes ਹੋ. ਕਿੱਥੇ is just where."],
+      ["mc","Simran, a woman, says she speaks a little Punjabi:","ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦੀ ਹਾਂ","ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦਾ ਹਾਂ","ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦੀ ਹੈ","ਮੈਂ ਥੋੜ੍ਹਾ ਪੰਜਾਬੀ ਬੋਲਦੀ ਹਾਂ","A woman says ਬੋਲਦੀ; ਥੋੜ੍ਹੀ matches ਪੰਜਾਬੀ."],
+      ["mc","What's your name? (polite) =","ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ?","ਤੁਹਾਡੀ ਨਾਂ ਕੀ ਹੈ?","ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੋ?","ਤੁਹਾਡਾ ਨਾਂ ਕੌਣ ਹੈ?","ਨਾਂ is masculine, so ਤੁਹਾਡਾ; ਕੀ asks what."],
+      ["or","I'm from America.","ਮੈਂ ਅਮਰੀਕਾ ਤੋਂ ਹਾਂ","ਸੇ","ਤੋਂ is a postposition: it comes after the noun. ਸੇ is Hindi."],
+      ["or","My name is Sarah.","ਮੇਰਾ ਨਾਂ ਸਾਰਾ ਹੈ","ਮੇਰੀ","ਨਾਂ is masculine, so it takes ਮੇਰਾ, whoever is speaking."],
+      ["or","I speak a little Punjabi. (a man speaking)","ਮੈਂ | ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ | ਬੋਲਦਾ | ਹਾਂ","ਬੋਲਦੀ","The verb agrees with the speaker: a man says ਬੋਲਦਾ."],
+      ["fi","ਮੈਂ ਅਮਰੀਕਾ __ ਹਾਂ।","I'm from America.","ਤੋਂ","ਸੇ|ਕੋ|ਦਾ","From is ਤੋਂ, after the place; ਸੇ is Hindi."],
+      ["fi","ਤੁਹਾਡਾ ਨਾਂ __ ਹੈ?","What's your name?","ਕੀ","ਕੌਣ|ਕਿੱਥੋਂ|ਕਿੱਥੇ","ਕੀ asks what: ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ?"],
+      ["fi","ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ __ ਹਾਂ।","I speak a little Punjabi. (a man speaking)","ਬੋਲਦਾ","ਬੋਲਦੀ|ਬੋਲਦੇ|ਬੋਲਦੀਆਂ","A man speaking says ਬੋਲਦਾ; a woman says ਬੋਲਦੀ."],
+      ["ty","I'm from London.","ਮੈਂ ਲੰਡਨ ਤੋਂ ਹਾਂ","ਮੈਂ · ਲੰਡਨ · ਤੋਂ · ਹੋਣਾ","ਸੇ","ਤੋਂ is a postposition, so it comes after the noun: ਲੰਡਨ ਤੋਂ."],
+      ["ty","I speak a little Punjabi. (a woman speaking)","ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦੀ ਹਾਂ|ਮੈਂ ਪੰਜਾਬੀ ਥੋੜ੍ਹੀ ਬੋਲਦੀ ਹਾਂ","ਮੈਂ · ਥੋੜ੍ਹੀ · ਪੰਜਾਬੀ · ਬੋਲਦੀ · ਹੋਣਾ","ਬੋਲਦਾ","The verb agrees with the speaker: a woman says ਬੋਲਦੀ, with the feminine -ī."],
+      ["ty","What's your name? (polite)","ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ|ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ|ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ ਜੀ|ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ ਜੀ","ਤੁਹਾਡਾ · ਨਾਂ · ਕੀ · ਹੋਣਾ","ਤੁਹਾਡੀ","ਨਾਂ is masculine, so ਤੁਹਾਡਾ, not ਤੁਹਾਡੀ."]
+    ]
+  },
+  {
+    id: "questions",
+    title: "ਨਹੀਂ and question words",
+    blurb: "Ask yes-no questions with ਕੀ, ask who, what, where, when, why and which, and say what something is not.",
+    deck: "Questions and connectors",
+    body: `
+<h3>Yes-no questions: add ਕੀ</h3>
+<p>English turns "You are ready" around to make a question: "Are you ready?" Punjabi changes nothing in the order. It puts <b>ਕੀ</b> <i>kī</i> at the start and lets the voice rise at the end. In everyday speech the ਕੀ is often dropped, and the rising voice alone makes the question.</p>
+{{ex:ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ?|kī tusī̃ ḍākṭar ho?|Are you a doctor?}}
+<h3>Question words stay where the answer goes</h3>
+<p>English moves every question word to the front: "Where is the station?" Punjabi leaves it where the answer would be, which is usually just before the verb. "The station is there" becomes "The station where is?"</p>
+<div class="tbl"><table><tr><th>Punjabi</th><th>English</th></tr><tr><td class="k">ਕੀ</td><td>what</td></tr><tr><td class="k">ਕੌਣ</td><td>who</td></tr><tr><td class="k">ਕਿੱਥੇ</td><td>where</td></tr><tr><td class="k">ਕਦੋਂ</td><td>when</td></tr><tr><td class="k">ਕਿਉਂ</td><td>why</td></tr><tr><td class="k">ਕਿਵੇਂ</td><td>how</td></tr><tr><td class="k">ਕਿਹੜਾ / ਕਿਹੜੀ</td><td>which</td></tr></table></div>
+{{ex:ਸਟੇਸ਼ਨ ਕਿੱਥੇ ਹੈ?|saṭeshan kitthe hai?|Where is the station?}}
+{{ex:ਉਹ ਕੌਣ ਹੈ?|úh kauṇ hai?|Who is that?}}
+{{ex:ਇਹ ਕੀ ਹੈ?|íh kī hai?|What is this?}}
+{{ex:ਬੱਸ ਕਦੋਂ ਹੈ?|bass kadõ hai?|When is the bus?}}
+<p>So ਕੀ does two jobs: at the start it marks a yes-no question; in the middle it means "what". Hindi says ਕਹਾਂ for "where"; Punjabi says <b>ਕਿੱਥੇ</b> <i>kitthe</i>.</p>
+<p>You already know one of these from lesson 6: ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ? puts ਕਿਵੇਂ, "how", in the middle, just before the verb. "Why" works the same way, though it can also sit a little earlier in the sentence.</p>
+{{ex:ਤੁਸੀਂ ਖ਼ੁਸ਼ ਕਿਉਂ ਹੋ?|tusī̃ ḵhush kiũ ho?|Why are you happy?}}
+<h3>Short answers</h3>
+<p>To answer a yes-no question, English repeats the verb: "Yes, I am." Punjabi usually just says <b>ਹਾਂ ਜੀ</b> <i>hā̃ jī</i> or <b>ਨਹੀਂ ਜੀ</b> <i>náhī̃ jī</i>, and may add the full sentence after it. Keep the ਜੀ with anyone you would call ਤੁਸੀਂ.</p>
+<h3>Which: ਕਿਹੜਾ and ਕਿਹੜੀ</h3>
+<p>"Which" changes its ending to agree with the noun it asks about, like ਮੇਰਾ in lesson 8. With a masculine noun it is <b>ਕਿਹੜਾ</b> <i>kíhṛā</i>; with a feminine noun, <b>ਕਿਹੜੀ</b> <i>kíhṛī</i>. Lesson 10 shows how to tell the gender of a noun; until then, the prompts tell you.</p>
+{{ex:ਤੁਹਾਡਾ ਘਰ ਕਿਹੜਾ ਹੈ?|tuhā̀ḍā ghàr kíhṛā hai?|Which one is your house?}}
+{{ex:ਤੁਹਾਡੀ ਕਾਰ ਕਿਹੜੀ ਹੈ?|tuhā̀ḍī kār kíhṛī hai?|Which one is your car?}}
+<h3>Not: ਨਹੀਂ before the verb</h3>
+<p>English puts "not" after "am, is, are". Punjabi puts <b>ਨਹੀਂ</b> <i>náhī̃</i> before the verb at the end. In speech the verb after ਨਹੀਂ is often left out.</p>
+{{ex:ਮੈਂ ਡਾਕਟਰ ਨਹੀਂ ਹਾਂ।|maĩ ḍākṭar náhī̃ hā̃.|I'm not a doctor.}}
+{{ex:ਮੈਂ ਡਾਕਟਰ ਨਹੀਂ।|maĩ ḍākṭar náhī̃.|I'm not a doctor. (everyday)}}
+<div class="tip"><b>Most common mistake:</b> moving the question word to the front, as in English. <b>ਕਿੱਥੇ ਸਟੇਸ਼ਨ ਹੈ?</b> → <b>ਸਟੇਸ਼ਨ ਕਿੱਥੇ ਹੈ?</b> Put the question word where the answer would go.</div>
+`,
+    check: [
+      ["How do you turn ਤੁਸੀਂ ਤਿਆਰ ਹੋ (you are ready) into a yes-no question?",["Put ਕੀ at the start","Put ਕੀ after the verb","Swap ਤੁਸੀਂ and ਹੋ, as in English","Put ਨਹੀਂ at the start"],0,"A yes-no question starts with ਕੀ; the word order stays the same."],
+      ["Where does a question word like ਕਿੱਥੇ go?",["Always first, as in English","Where the answer would go, usually just before the verb","After the verb, at the very end","Only at the start of a yes-no question"],1,"Punjabi leaves the question word in the answer's place: ਸਟੇਸ਼ਨ ਕਿੱਥੇ ਹੈ?"],
+      ["I'm not a doctor =",["ਮੈਂ ਨਹੀਂ ਡਾਕਟਰ ਹਾਂ","ਮੈਂ ਡਾਕਟਰ ਹਾਂ ਨਹੀਂ","ਮੈਂ ਡਾਕਟਰ ਨਹੀਂ ਹਾਂ","ਨਾ ਮੈਂ ਡਾਕਟਰ ਹਾਂ"],2,"ਨਹੀਂ goes right before the verb at the end."]
+    ],
+    practice: [
+      ["mc","Are you a doctor? (polite) =","ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ?","ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੈ?","ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹਾਂ?","ਕੌਣ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ?","ਕੀ starts a yes-no question, and ਤੁਸੀਂ takes ਹੋ."],
+      ["mc","Where is the station? =","ਸਟੇਸ਼ਨ ਕਿੱਥੇ ਹੈ?","ਸਟੇਸ਼ਨ ਕਹਾਂ ਹੈ?","ਸਟੇਸ਼ਨ ਕਿੱਥੋਂ ਹੈ?","ਸਟੇਸ਼ਨ ਕੌਣ ਹੈ?","Where is ਕਿੱਥੇ; ਕਹਾਂ is Hindi, and ਕਿੱਥੋਂ means from where."],
+      ["mc","Who is that? =","ਉਹ ਕੌਣ ਹੈ?","ਉਹ ਕੀ ਹੈ?","ਉਹ ਕਿੱਥੇ ਹੈ?","ਉਹ ਕਿਵੇਂ ਹੈ?","Who is ਕੌਣ; ਉਹ ਕੀ ਹੈ? asks what that is."],
+      ["mc","I'm not ready. =","ਮੈਂ ਤਿਆਰ ਨਹੀਂ ਹਾਂ","ਮੈਂ ਨਹੀਂ ਤਿਆਰ ਹਾਂ","ਮੈਂ ਤਿਆਰ ਹਾਂ ਨਹੀਂ","ਮੈਂ ਤਿਆਰ ਨਹੀਂ ਹੈ","ਨਹੀਂ goes right before the verb, and ਮੈਂ takes ਹਾਂ."],
+      ["mc","Which book? (ਕਿਤਾਬ is feminine) =","ਕਿਹੜੀ ਕਿਤਾਬ?","ਕਿਹੜਾ ਕਿਤਾਬ?","ਕਿਹੜੇ ਕਿਤਾਬ?","ਕੌਣ ਕਿਤਾਬ?","ਕਿਹੜੀ agrees with the feminine ਕਿਤਾਬ."],
+      ["or","Which one is your house? (ਘਰ is masculine; start with ਤੁਹਾਡਾ)","ਤੁਹਾਡਾ ਘਰ ਕਿਹੜਾ ਹੈ","ਕਿਹੜੀ","ਕਿਹੜਾ agrees with ਘਰ, which is masculine."],
+      ["or","Which one is your car? (ਕਾਰ is feminine; start with ਤੁਹਾਡੀ)","ਤੁਹਾਡੀ ਕਾਰ ਕਿਹੜੀ ਹੈ","ਕਿਹੜਾ","ਕਿਹੜੀ agrees with ਕਾਰ, which is feminine."],
+      ["or","Are you ready? (polite)","ਕੀ ਤੁਸੀਂ ਤਿਆਰ ਹੋ","ਹੈ","ਕੀ starts the question, and ਤੁਸੀਂ takes the plural ਹੋ."],
+      ["fi","__ ਤੁਸੀਂ ਪੰਜਾਬੀ ਹੋ?","Are you Punjabi?","ਕੀ","ਕੌਣ|ਕਿੱਥੇ|ਕਿਉਂ","A yes-no question starts with ਕੀ."],
+      ["fi","ਬੱਸ __ ਹੈ?","When is the bus?","ਕਦੋਂ","ਕਿੱਥੇ|ਕੌਣ|ਕਿਹੜੀ","When is ਕਦੋਂ, placed just before the verb."],
+      ["fi","ਮੈਂ ਤਿਆਰ __ ਹਾਂ।","I'm not ready.","ਨਹੀਂ","ਨਾ|ਕੀ|ਹੈ","Not is ਨਹੀਂ, right before the verb."],
+      ["ty","Which one is your house? (ਘਰ is masculine)","ਤੁਹਾਡਾ ਘਰ ਕਿਹੜਾ ਹੈ|ਕਿਹੜਾ ਤੁਹਾਡਾ ਘਰ ਹੈ|ਤੁਹਾਡਾ ਘਰ ਕਿਹੜਾ ਹੈ ਜੀ","ਤੁਹਾਡਾ · ਘਰ · ਕਿਹੜਾ · ਹੋਣਾ","ਕਿਹੜੀ","ਕਿਹੜਾ agrees with ਘਰ, which is masculine."],
+      ["ty","Which book? (ਕਿਤਾਬ is feminine)","ਕਿਹੜੀ ਕਿਤਾਬ","ਕਿਹੜਾ / ਕਿਹੜੀ · ਕਿਤਾਬ","ਕਿਹੜਾ","ਕਿਤਾਬ is feminine, so which is ਕਿਹੜੀ."],
+      ["ty","Are you a doctor? (polite)","ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ|ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ|ਕੀ ਤੁਸੀਂ ਡਾਕਟਰ ਹੋ ਜੀ","ਕੀ · ਤੁਸੀਂ · ਡਾਕਟਰ · ਹੋਣਾ","ਹੈ","ਤੁਸੀਂ takes the plural ਹੋ, also in questions."]
+    ]
   }
 ];

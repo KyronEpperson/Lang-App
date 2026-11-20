@@ -51,7 +51,7 @@ exports.EXAMPLES = `
 ਸ਼ਹਿਰ | ਅੰਮ੍ਰਿਤਸਰ ਇੱਕ ਪੁਰਾਣਾ ਸ਼ਹਿਰ ਹੈ। | Amritsar is an old city.
 ਅੰਬ | ਗਰਮੀਆਂ ਵਿੱਚ ਪੰਜਾਬ ਦੇ ਅੰਬ ਬਹੁਤ ਮਿੱਠੇ ਹੁੰਦੇ ਹਨ। | In summer, the mangoes in Punjab are very sweet.
 ਫ਼ੋਨ | ਮੇਰਾ ਫ਼ੋਨ ਕਿੱਥੇ ਹੈ? | Where's my phone?
-ਘੋੜਾ | ਪਿੰਡ ਵਿੱਚ ਸਾਡਾ ਇੱਕ ਘੋੜਾ ਹੈ। | We have a horse in the village.
+ਘੋੜਾ | ਪਿੰਡ ਵਿੱਚ ਸਾਡੇ ਕੋਲ ਇੱਕ ਘੋੜਾ ਹੈ। | We have a horse in the village.
 ਬਹੁਤ | ਇਹ ਖਾਣਾ ਬਹੁਤ ਵਧੀਆ ਹੈ। | This food is really good.
 ਤੁਹਾਡਾ | ਤੁਹਾਡਾ ਫ਼ੋਨ ਵੱਜ ਰਿਹਾ ਹੈ। | Your phone is ringing.
 ਮਾਫ਼ ਕਰਨਾ। | ਮਾਫ਼ ਕਰਨਾ, ਮੈਨੂੰ ਸਮਝ ਨਹੀਂ ਆਈ। | Sorry, I didn't understand.

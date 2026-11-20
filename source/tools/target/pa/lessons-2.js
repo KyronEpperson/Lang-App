@@ -102,5 +102,308 @@ module.exports = [
       ["ty","I'm tall. (a woman speaking)","ਮੈਂ ਲੰਮੀ ਹਾਂ","ਮੈਂ · ਲੰਮਾ · ਹਾਂ · change the adjective for a woman","ਲੰਮਾ ਹੈ","A changing adjective agrees with the speaker: a woman says ਲੰਮੀ."],
       ["ty","This house is very beautiful.","ਇਹ ਘਰ ਬਹੁਤ ਸੋਹਣਾ ਹੈ","ਇਹ · ਘਰ · ਬਹੁਤ · ਸੋਹਣਾ · ਹੈ","ਸੋਹਣੀ","ਘਰ is masculine, so ਸੋਹਣਾ stays in its masculine form."]
     ]
+  },
+  {
+    id: "possessive",
+    title: "ਦਾ / ਦੇ / ਦੀ: my, your, and family",
+    blurb: "Say whose something is with ਦਾ / ਦੇ / ਦੀ and ਮੇਰਾ, ਤੁਹਾਡਾ, ਉਸ ਦਾ, and name relatives on both sides of the family.",
+    deck: "Family and people",
+    body: `
+<p>English says "Simran's brother", with the owner first and a little 's. Punjabi also puts the owner first, then a word for "of", then the thing: <b>ਸਿਮਰਨ ਦਾ ਭਰਾ</b> <i>simran dā bhàrā</i>. That word is <b>ਦਾ</b> <i>dā</i>, <b>ਦੇ</b> <i>de</i> or <b>ਦੀ</b> <i>dī</i>.</p>
+<h3>It agrees with the thing, not the owner</h3>
+<p>This is the surprise for English speakers. <b>ਦਾ</b> changes like a changing adjective, and it agrees with the thing that is owned. Simran is a woman, but <b>ਭਰਾ</b> (brother) is masculine, so it is <b>ਸਿਮਰਨ ਦਾ ਭਰਾ</b>. Arjun is a man, but <b>ਭੈਣ</b> (sister) is feminine, so it is <b>ਅਰਜੁਨ ਦੀ ਭੈਣ</b>.</p>
+{{ex:ਇਹ ਅਰਜੁਨ ਦੀ ਭੈਣ ਹੈ।|íh arjun dī bhaìṇ hai.|This is Arjun's sister.}}
+{{ex:ਇਹ ਸਿਮਰਨ ਦਾ ਘਰ ਹੈ।|íh simran dā ghàr hai.|This is Simran's house.}}
+<p>For several masculine things the form is <b>ਦੇ</b>, and for several feminine things <b>ਦੀਆਂ</b>, just like <b>ਚੰਗੇ</b> and <b>ਚੰਗੀਆਂ</b>. So "Simran's brothers" is <b>ਸਿਮਰਨ ਦੇ ਭਰਾ</b>, and "Simran's books" is <b>ਸਿਮਰਨ ਦੀਆਂ ਕਿਤਾਬਾਂ</b>. Look at the thing, decide its gender and number, then pick the ending.</p>
+<p>If you know some Hindi: Hindi says <b>ਕਾ</b>, <b>ਕੀ</b>, <b>ਕੇ</b>; Punjabi says <b>ਦਾ</b>, <b>ਦੀ</b>, <b>ਦੇ</b>.</p>
+<h3>my, your, his, her, our</h3>
+<div class="tbl"><table><tr><th>English</th><th>Punjabi</th><th>with a feminine noun</th></tr><tr><td>my</td><td class="k">ਮੇਰਾ</td><td class="k">ਮੇਰੀ</td></tr><tr><td>your (to a friend)</td><td class="k">ਤੇਰਾ</td><td class="k">ਤੇਰੀ</td></tr><tr><td>your (polite)</td><td class="k">ਤੁਹਾਡਾ</td><td class="k">ਤੁਹਾਡੀ</td></tr><tr><td>his, her</td><td class="k">ਉਸ ਦਾ</td><td class="k">ਉਸ ਦੀ</td></tr><tr><td>our</td><td class="k">ਸਾਡਾ</td><td class="k">ਸਾਡੀ</td></tr></table></div>
+<p>All of them follow the same pattern as <b>ਚੰਗਾ</b>. Note that <b>ਉਹ</b> becomes <b>ਉਸ</b> <i>us</i> before <b>ਦਾ</b>, and that Punjabi does not say whether the owner is a man or a woman: <b>ਉਸ ਦੀ ਭੈਣ</b> is "his sister" or "her sister".</p>
+{{ex:ਤੁਹਾਡੀ ਕਾਰ ਕਿੱਥੇ ਹੈ?|tuhā̀ḍī kār kitthe hai?|Where is your car?}}
+{{ex:ਉਸ ਦਾ ਭਰਾ ਲੰਮਾ ਹੈ।|us dā bhàrā lammā hai.|Her brother is tall.}}
+<h3>Family on both sides</h3>
+<p>English has one "grandmother" and one "aunt". Punjabi names the side of the family:</p>
+<div class="tbl"><table><tr><th></th><th>father's side</th><th>mother's side</th></tr><tr><td>grandfather</td><td class="k">ਦਾਦਾ</td><td class="k">ਨਾਨਾ</td></tr><tr><td>grandmother</td><td class="k">ਦਾਦੀ</td><td class="k">ਨਾਨੀ</td></tr><tr><td>uncle (a parent's brother)</td><td class="k">ਚਾਚਾ (younger), ਤਾਇਆ (older)</td><td class="k">ਮਾਮਾ</td></tr><tr><td>aunt (a parent's sister)</td><td class="k">ਭੂਆ</td><td class="k">ਮਾਸੀ</td></tr></table></div>
+{{ex:ਮੇਰੀ ਮਾਸੀ ਡਾਕਟਰ ਹੈ।|merī māsī ḍākṭar hai.|My aunt (my mother's sister) is a doctor.}}
+<h3>Respect: ਜੀ and the honorific plural</h3>
+<p>Older relatives usually get <b>ਜੀ</b>: <b>ਪਿਤਾ ਜੀ</b> <i>pitā jī</i> (father), <b>ਦਾਦਾ ਜੀ</b>. A respected person is treated as plural, so "my" becomes <b>ਮੇਰੇ</b> and the verb becomes <b>ਹਨ</b>, even for one person.</p>
+{{ex:ਮੇਰੇ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹਨ।|mere pitā jī ḍākṭar han.|My father is a doctor.}}
+<p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
+<div class="tip"><b>Most common mistake:</b> making <b>ਦਾ</b> agree with the owner. Said about a woman's brother: <b>ਸਿਮਰਨ ਦੀ ਭਰਾ</b> → <b>ਸਿਮਰਨ ਦਾ ਭਰਾ</b>.</div>
+`,
+    check: [
+      ["'Simran's brother' =",["ਸਿਮਰਨ ਦੀ ਭਰਾ","ਭਰਾ ਦਾ ਸਿਮਰਨ","ਸਿਮਰਨ ਦਾ ਭਰਾ","ਸਿਮਰਨ ਕਾ ਭਰਾ"],2,"The owner comes first, and ਦਾ agrees with ਭਰਾ (masculine), not with Simran."],
+      ["Your mother's sister is your…",["ਮਾਸੀ","ਭੂਆ","ਦਾਦੀ","ਨਾਨੀ"],0,"ਮਾਸੀ is the mother's sister; ਭੂਆ is the father's sister."],
+      ["Why is it ਮੇਰੇ ਪਿਤਾ ਜੀ … ਹਨ for one father?",["It is a mistake","A respected person takes the honorific plural","ਪਿਤਾ is a feminine noun","ਜੀ always means 'several'"],1,"Respected people are spoken of in the plural: ਮੇਰੇ … ਹਨ."]
+    ],
+    practice: [
+      ["mc","'Arjun's sister' =","ਅਰਜੁਨ ਦੀ ਭੈਣ","ਅਰਜੁਨ ਦਾ ਭੈਣ","ਭੈਣ ਦੀ ਅਰਜੁਨ","ਅਰਜੁਨ ਕੀ ਭੈਣ","ਦੀ agrees with ਭੈਣ, which is feminine; ਕੀ is Hindi."],
+      ["mc","Your father's sister is your…","ਭੂਆ","ਮਾਸੀ","ਚਾਚੀ","ਦਾਦੀ","ਭੂਆ is the father's sister; the mother's sister is ਮਾਸੀ."],
+      ["mc","'his sister' or 'her sister' =","ਉਸ ਦੀ ਭੈਣ","ਉਹ ਦੀ ਭੈਣ","ਉਸ ਦਾ ਭੈਣ","ਉਸ ਕੀ ਭੈਣ","ਉਹ becomes ਉਸ before ਦੀ, and ਦੀ agrees with ਭੈਣ."],
+      ["mc","'My father is a doctor.' (respectfully) =","ਮੇਰੇ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹਨ।","ਮੇਰਾ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹੈ।","ਮੇਰੇ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹੈ।","ਮੇਰੀ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹਨ।","With ਜੀ the father takes the honorific plural: ਮੇਰੇ … ਹਨ."],
+      ["mc","'our house' =","ਸਾਡਾ ਘਰ","ਸਾਡੀ ਘਰ","ਹਮਾਰਾ ਘਰ","ਮੇਰਾ ਘਰ","ਘਰ is masculine, so 'our' is ਸਾਡਾ; ਹਮਾਰਾ is Hindi, ਮੇਰਾ is 'my'."],
+      ["or","This is Arjun's sister.","ਇਹ ਅਰਜੁਨ ਦੀ ਭੈਣ ਹੈ","ਦਾ","ਦੀ agrees with ਭੈਣ (feminine), not with Arjun."],
+      ["or","My father is a doctor. (respectfully, with ਪਿਤਾ ਜੀ)","ਮੇਰੇ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹਨ","ਮੇਰਾ ਹੈ","A respected father takes the plural: ਮੇਰੇ and ਹਨ."],
+      ["or","Where is your car? (politely)","ਤੁਹਾਡੀ ਕਾਰ ਕਿੱਥੇ ਹੈ","ਤੁਹਾਡਾ","ਕਾਰ is feminine, so 'your' agrees: ਤੁਹਾਡੀ."],
+      ["fi","ਇਹ ਸਿਮਰਨ __ ਘਰ ਹੈ।","This is Simran's house.","ਦਾ","ਦੀ|ਦੇ|ਕਾ","ਦਾ agrees with ਘਰ (masculine), not with Simran."],
+      ["fi","__ ਭੈਣ ਡਾਕਟਰ ਹੈ।","My sister is a doctor.","ਮੇਰੀ","ਮੇਰਾ|ਮੇਰੇ|ਮੈਂ","ਭੈਣ is feminine, so 'my' is ਮੇਰੀ."],
+      ["fi","__ ਨਾਂ ਕੀ ਹੈ?","What's your name? (to a friend)","ਤੇਰਾ","ਤੇਰੀ|ਤੂੰ|ਤੁਸੀਂ","To a friend 'your' is ਤੇਰਾ, masculine because ਨਾਂ is masculine."],
+      ["ty","Her brother is tall.","ਉਸ ਦਾ ਭਰਾ ਲੰਮਾ ਹੈ|ਉਸ ਦਾ ਵੀਰ ਲੰਮਾ ਹੈ","ਉਹ · ਦਾ · ਭਰਾ · ਲੰਮਾ · ਹੈ","ਦੀ ਲੰਮੀ","ਦਾ and ਲੰਮਾ agree with ਭਰਾ, which is masculine, even though 'her' is a woman."],
+      ["ty","Your car is very big. (politely)","ਤੁਹਾਡੀ ਕਾਰ ਬਹੁਤ ਵੱਡੀ ਹੈ","ਤੁਹਾਡਾ · ਕਾਰ · ਬਹੁਤ · ਵੱਡਾ · ਹੈ","ਤੁਹਾਡਾ ਵੱਡਾ","ਕਾਰ is feminine, so both ਤੁਹਾਡੀ and ਵੱਡੀ agree with it."],
+      ["ty","My father is a doctor. (respectfully, with ਪਿਤਾ ਜੀ)","ਮੇਰੇ ਪਿਤਾ ਜੀ ਡਾਕਟਰ ਹਨ","ਮੇਰਾ · ਪਿਤਾ ਜੀ · ਡਾਕਟਰ · ਹੋਣਾ","ਮੇਰਾ ਹੈ","The honorific plural: a respected father takes ਮੇਰੇ and ਹਨ."]
+    ]
+  },
+  {
+    id: "numbers",
+    title: "Numbers 1 to 100, and prices",
+    blurb: "Count to twenty, recognise the tens and bigger numbers, and ask and understand prices in rupees and dollars.",
+    deck: "Numbers and money",
+    body: `
+<p>English builds most numbers from parts: twenty-five is "twenty" + "five". Punjabi has its own word for every number up to a hundred, and the words for 21 to 99 blend the two parts in ways you have to learn one by one. Start with the first twenty and the tens; they cover most prices and times.</p>
+<h3>One to twenty</h3>
+<div class="tbl"><table><tr><th>1–5</th><th>6–10</th><th>11–15</th><th>16–20</th></tr><tr><td class="k">ਇੱਕ ਦੋ ਤਿੰਨ ਚਾਰ ਪੰਜ</td><td class="k">ਛੇ ਸੱਤ ਅੱਠ ਨੌਂ ਦਸ</td><td class="k">ਗਿਆਰਾਂ ਬਾਰਾਂ ਤੇਰਾਂ ਚੌਦਾਂ ਪੰਦਰਾਂ</td><td class="k">ਸੋਲਾਂ ਸਤਾਰਾਂ ਅਠਾਰਾਂ ਉੱਨੀ ਵੀਹ</td></tr></table></div>
+{{ex:ਇੱਕ, ਦੋ, ਤਿੰਨ, ਚਾਰ, ਪੰਜ|ikk, do, tinn, chār, panj|one, two, three, four, five}}
+<p>Notice that most of 11 to 18 end in the same sound, and that <b>ਵੀਹ</b> <i>vī́h</i> (20) is written with a ਹ that you do not pronounce. The tone marks in the romanisation show how it changes the vowel.</p>
+<h3>The tens, and bigger numbers</h3>
+<div class="tbl"><table><tr><th>30</th><th>40</th><th>50</th><th>60</th><th>70</th><th>80</th><th>90</th><th>100</th></tr><tr><td class="k">ਤੀਹ</td><td class="k">ਚਾਲ੍ਹੀ</td><td class="k">ਪੰਜਾਹ</td><td class="k">ਸੱਠ</td><td class="k">ਸੱਤਰ</td><td class="k">ਅੱਸੀ</td><td class="k">ਨੱਬੇ</td><td class="k">ਸੌ</td></tr></table></div>
+<p>A thousand is <b>ਹਜ਼ਾਰ</b> <i>hazār</i>. Indian prices and salaries also use <b>ਲੱਖ</b> <i>lakkh</i>, a hundred thousand, which you will hear far more than "million". For numbers between the tens, learn the ones you meet; <b>ਪੱਚੀ</b> <i>pacchī</i> (25) is a common one. Never build them from parts: "twenty five" is not <b>ਵੀਹ ਪੰਜ</b>.</p>
+{{ex:ਪੱਚੀ ਡਾਲਰ|pacchī ḍālar|twenty-five dollars}}
+<h3>Counting things</h3>
+<p>After any number above one, the noun is plural, exactly as in English, and so are the adjective and the verb: <b>ਦੋ ਕਮਰੇ</b>, <b>ਤਿੰਨ ਕੁੜੀਆਂ</b>. Words like <b>ਮੇਰਾ</b> agree as well, so "my three sisters" is <b>ਮੇਰੀਆਂ ਤਿੰਨ ਭੈਣਾਂ</b>.</p>
+{{ex:ਇਹ ਤਿੰਨ ਕੁੜੀਆਂ ਮੇਰੀਆਂ ਭੈਣਾਂ ਹਨ।|íh tinn kuṛīā̃ merīā̃ bhaìṇā̃ han.|These three girls are my sisters.}}
+{{ex:ਇਹ ਦੋ ਕਮਰੇ ਛੋਟੇ ਹਨ।|íh do kamre chhoṭe han.|These two rooms are small.}}
+<h3>Money and prices</h3>
+<p>In India the money is <b>ਰੁਪਏ</b> <i>rupae</i>; in the US, <b>ਡਾਲਰ</b> <i>ḍālar</i>. Money in general is <b>ਪੈਸੇ</b> <i>paise</i>. To ask a price, Punjabi says "of how much is this?". The word <b>ਦਾ</b> agrees with the thing, as you learned with owners: <b>ਦੀ</b> for a feminine thing.</p>
+{{ex:ਇਹ ਕਿੰਨੇ ਦਾ ਹੈ?|íh kinne dā hai?|How much is this?}}
+{{ex:ਇਹ ਕਿਤਾਬ ਕਿੰਨੇ ਦੀ ਹੈ?|íh kitāb kinne dī hai?|How much is this book?}}
+{{ex:ਚਾਹ ਵੀਹ ਰੁਪਏ ਦੀ ਹੈ।|chā́h vī́h rupae dī hai.|The tea is twenty rupees.}}
+<p>The answer uses the same pattern: the price, then <b>ਦਾ</b> or <b>ਦੀ</b>, then <b>ਹੈ</b>. The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
+<div class="tip"><b>Most common mistake:</b> building a number from parts, English style. <b>ਵੀਹ ਪੰਜ</b> → <b>ਪੱਚੀ</b> (twenty-five).</div>
+`,
+    check: [
+      ["How do you say 25 in Punjabi?",["ਵੀਹ ਪੰਜ","ਪੰਜ ਵੀਹ","ਪੱਚੀ","ਪੰਜਾਹ"],2,"Every number to 100 has its own word: 25 is ਪੱਚੀ; ਪੰਜਾਹ is 50."],
+      ["'How much is this book?' (ਕਿਤਾਬ is feminine) =",["ਇਹ ਕਿਤਾਬ ਕਿੰਨੇ ਦੀ ਹੈ?","ਇਹ ਕਿਤਾਬ ਕਿੰਨੇ ਦਾ ਹੈ?","ਇਹ ਕਿਤਾਬ ਕਿੰਨਾ ਹੈ?","ਇਹ ਕਿਤਾਬ ਕਿੰਨੇ ਕੀ ਹੈ?"],0,"ਦੀ agrees with ਕਿਤਾਬ, which is feminine."],
+      ["What does ਲੱਖ mean?",["a thousand","a million","a hundred thousand","a hundred"],2,"ਲੱਖ is a hundred thousand; a thousand is ਹਜ਼ਾਰ."]
+    ],
+    practice: [
+      ["mc","Which number is 20?","ਵੀਹ","ਤੀਹ","ਦਸ","ਬਾਰਾਂ","ਵੀਹ is 20; ਤੀਹ is 30, ਦਸ is 10, ਬਾਰਾਂ is 12."],
+      ["mc","Which number is 50?","ਪੰਜਾਹ","ਪੰਜ","ਪੱਚੀ","ਪੰਦਰਾਂ","ਪੰਜਾਹ is 50; ਪੰਜ is 5, ਪੱਚੀ is 25, ਪੰਦਰਾਂ is 15."],
+      ["mc","'two rooms' =","ਦੋ ਕਮਰੇ","ਦੋ ਕਮਰਾ","ਦੋ ਕਮਰੀਆਂ","ਦੋਨੋਂ ਕਮਰਾ","After a number above one the noun is plural: ਕਮਰਾ becomes ਕਮਰੇ."],
+      ["mc","'How much is this?' =","ਇਹ ਕਿੰਨੇ ਦਾ ਹੈ?","ਇਹ ਕਿੰਨੇ ਕਾ ਹੈ?","ਇਹ ਕਿੰਨਾ ਪੈਸੇ ਹੈ?","ਕਿੰਨੇ ਇਹ ਹੈ?","Punjabi asks 'of how much is this?' with ਦਾ; ਕਾ is Hindi."],
+      ["mc","Which is 100?","ਸੌ","ਹਜ਼ਾਰ","ਲੱਖ","ਨੱਬੇ","ਸੌ is 100; ਹਜ਼ਾਰ is 1,000, ਲੱਖ is 100,000, ਨੱਬੇ is 90."],
+      ["or","three girls","ਤਿੰਨ ਕੁੜੀਆਂ","ਕੁੜੀ","After ਤਿੰਨ the noun is plural: ਕੁੜੀਆਂ."],
+      ["or","This book is a hundred rupees. (start with 'this')","ਇਹ ਕਿਤਾਬ ਸੌ ਰੁਪਏ ਦੀ ਹੈ","ਦਾ","ਦੀ agrees with ਕਿਤਾਬ, which is feminine."],
+      ["or","These two rooms are small.","ਇਹ ਦੋ ਕਮਰੇ ਛੋਟੇ ਹਨ","ਛੋਟਾ","Two rooms are plural, so the adjective agrees: ਛੋਟੇ, with ਹਨ."],
+      ["fi","ਚਾਹ ਵੀਹ ਰੁਪਏ __ ਹੈ।","The tea is twenty rupees.","ਦੀ","ਦਾ|ਦੇ|ਕੀ","ਚਾਹ is feminine, so the price takes ਦੀ."],
+      ["fi","ਇਹ ਤਿੰਨ __ ਕੌਣ ਹਨ?","Who are these three girls?","ਕੁੜੀਆਂ","ਕੁੜੀ|ਕੁੜੇ|ਕੁੜੀਏ","After ਤਿੰਨ the noun is plural: ਕੁੜੀਆਂ."],
+      ["fi","ਇਹ __ ਡਾਲਰ ਦਾ ਹੈ।","This is twenty-five dollars.","ਪੱਚੀ","ਵੀਹ ਪੰਜ|ਪੰਜਾਹ|ਪੰਦਰਾਂ","25 is its own word, ਪੱਚੀ; ਪੰਜਾਹ is 50 and ਪੰਦਰਾਂ is 15."],
+      ["ty","How much is this book?","ਇਹ ਕਿਤਾਬ ਕਿੰਨੇ ਦੀ ਹੈ","ਇਹ · ਕਿਤਾਬ · ਕਿੰਨੇ · ਦਾ · ਹੈ · ਕਿਤਾਬ is feminine","ਦਾ","ਦੀ agrees with ਕਿਤਾਬ, which is feminine."],
+      ["ty","five boys","ਪੰਜ ਮੁੰਡੇ","ਪੰਜ · ਮੁੰਡਾ · more than one boy","ਮੁੰਡਾ","After ਪੰਜ the noun is plural: ਮੁੰਡਾ becomes ਮੁੰਡੇ."],
+      ["ty","The tea is twenty rupees.","ਚਾਹ ਵੀਹ ਰੁਪਏ ਦੀ ਹੈ","ਚਾਹ · ਵੀਹ · ਰੁਪਏ · ਦਾ · ਹੈ","ਦਾ","ਚਾਹ is feminine, so the price takes ਦੀ, which agrees with it."]
+    ]
+  },
+  {
+    id: "postpositions",
+    title: "Postpositions and the oblique: ਘਰ ਵਿੱਚ, ਮੁੰਡੇ ਨੂੰ",
+    blurb: "Say where people and things are with ਵਿੱਚ, ਉੱਤੇ, ਤੋਂ, ਨਾਲ and ਨੂੰ placed after the noun, and change the noun before them.",
+    deck: "Getting around",
+    body: `
+<p>English puts little place words in front: "in the house", "from Amritsar". Punjabi puts them after the noun, so they are called postpositions: <b>ਘਰ ਵਿੱਚ</b>, literally "house in". You already know one: <b>ਤੋਂ</b> <i>tõ</i> in <b>ਮੈਂ ਅਮਰੀਕਾ ਤੋਂ ਹਾਂ</b>.</p>
+<div class="tbl"><table><tr><th>Punjabi</th><th>English</th><th>Example</th></tr><tr><td class="k">ਵਿੱਚ</td><td>in</td><td class="k">ਘਰ ਵਿੱਚ</td></tr><tr><td class="k">ਉੱਤੇ</td><td>on</td><td class="k">ਮੇਜ਼ ਉੱਤੇ</td></tr><tr><td class="k">ਤੋਂ</td><td>from</td><td class="k">ਅੰਮ੍ਰਿਤਸਰ ਤੋਂ</td></tr><tr><td class="k">ਤੱਕ</td><td>up to, as far as</td><td class="k">ਸਟੇਸ਼ਨ ਤੱਕ</td></tr><tr><td class="k">ਨਾਲ</td><td>with</td><td class="k">ਸਿਮਰਨ ਨਾਲ</td></tr><tr><td class="k">ਨੂੰ</td><td>to (a person)</td><td class="k">ਸਿਮਰਨ ਨੂੰ</td></tr></table></div>
+{{ex:ਕਿਤਾਬ ਮੇਜ਼ ਉੱਤੇ ਹੈ।|kitāb mez utte hai.|The book is on the table.}}
+<p>In everyday speech <b>ਉੱਤੇ</b> <i>utte</i> is often shortened to <b>ਤੇ</b>: <b>ਮੇਜ਼ ਤੇ</b>. Both are fine. If you know Hindi, do not use <b>ਮੇਂ</b>, <b>ਸੇ</b> or <b>ਕੋ</b>: Punjabi says <b>ਵਿੱਚ</b>, <b>ਤੋਂ</b> and <b>ਨੂੰ</b>.</p>
+<h3>The oblique form</h3>
+<p>Here is the part with no English equivalent. A masculine noun ending in -ā changes its ending to -e when a postposition follows it. This changed shape is the oblique form.</p>
+{{ex:ਮੁੰਡਾ ਕਮਰੇ ਵਿੱਚ ਹੈ।|muṇḍā kamre vicch hai.|The boy is in the room.}}
+{{ex:ਸਿਮਰਨ ਗੁਰਦੁਆਰੇ ਵਿੱਚ ਹੈ।|simran gurduāre vicch hai.|Simran is in the gurdwara.}}
+<p><b>ਕਮਰਾ</b> becomes <b>ਕਮਰੇ</b>, <b>ਗੁਰਦੁਆਰਾ</b> becomes <b>ਗੁਰਦੁਆਰੇ</b>. Words that agree with the noun go oblique too: <b>ਮੇਰਾ</b> becomes <b>ਮੇਰੇ</b>, <b>ਵੱਡਾ</b> becomes <b>ਵੱਡੇ</b>, even when the noun itself cannot change.</p>
+{{ex:ਸਿਮਰਨ ਮੇਰੇ ਘਰ ਵਿੱਚ ਹੈ।|simran mere ghàr vicch hai.|Simran is in my house.}}
+{{ex:ਮੇਰਾ ਭਰਾ ਵੱਡੇ ਸ਼ਹਿਰ ਵਿੱਚ ਹੈ।|merā bhàrā vaḍḍe sháhir vicch hai.|My brother is in a big city.}}
+<p>Feminine nouns, and their <b>ਮੇਰੀ</b> or <b>ਵੱਡੀ</b>, do not change in the singular: <b>ਮੇਰੀ ਕਾਰ ਵਿੱਚ</b>. Remember too that <b>ਦਾ</b> is itself a postposition, so <b>ਮੁੰਡੇ ਦਾ ਫ਼ੋਨ</b> means "the boy's phone".</p>
+<h3>From here to there</h3>
+<p>For a trip, pair <b>ਤੋਂ</b> and <b>ਤੱਕ</b> <i>takk</i>: "from the station to the gurdwara" is literally "station from, gurdwara up to". Both nouns take the oblique form, because each one has its own postposition after it. You will use this pattern again when you ask the way and talk about buses and trains.</p>
+{{ex:ਸਟੇਸ਼ਨ ਤੋਂ ਗੁਰਦੁਆਰੇ ਤੱਕ|saṭeshan tõ gurduāre takk|from the station to the gurdwara}}
+<h3>Pronouns before a postposition</h3>
+<p>Pronouns have special forms. With <b>ਨੂੰ</b>, "I" and polite "you" join it in one word: <b>ਮੈਨੂੰ</b> <i>mainū̃</i>, <b>ਤੁਹਾਨੂੰ</b>. <b>ਉਹ</b> becomes <b>ਉਸ</b>: <b>ਉਸ ਨੂੰ</b>, <b>ਉਸ ਨਾਲ</b>. "With me" uses the oblique of "my": <b>ਮੇਰੇ ਨਾਲ</b>. A useful phrase with <b>ਨੂੰ</b> is <b>ਪਤਾ ਹੈ</b>, "knows", literally "the news is to me".</p>
+{{ex:ਮੈਨੂੰ ਪਤਾ ਨਹੀਂ।|mainū̃ patā náhī̃.|I don't know.}}
+{{ex:ਮੁੰਡੇ ਨੂੰ ਪਤਾ ਹੈ।|muṇḍe nū̃ patā hai.|The boy knows.}}
+<p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
+<div class="tip"><b>Most common mistake:</b> keeping the dictionary form before the postposition. <b>ਕਮਰਾ ਵਿੱਚ</b> → <b>ਕਮਰੇ ਵਿੱਚ</b>.</div>
+`,
+    check: [
+      ["'in the house' =",["ਵਿੱਚ ਘਰ","ਘਰ ਵਿੱਚ","ਘਰ ਮੇਂ","ਘਰ ਨੂੰ ਵਿੱਚ"],1,"The postposition comes after the noun: ਘਰ ਵਿੱਚ; ਮੇਂ is Hindi."],
+      ["Why is it ਕਮਰੇ ਵਿੱਚ and not ਕਮਰਾ ਵਿੱਚ?",["ਕਮਰੇ means 'rooms' here","Before a postposition a masculine -ā noun takes the oblique -e","ਵਿੱਚ always needs a plural","Both are fine"],1,"Before a postposition ਕਮਰਾ takes its oblique form, ਕਮਰੇ."],
+      ["'I know.' =",["ਮੈਂ ਪਤਾ ਹੈ।","ਮੈਂ ਨੂੰ ਪਤਾ ਹੈ।","ਮੈਨੂੰ ਪਤਾ ਹੈ।","ਮੁਝੇ ਪਤਾ ਹੈ।"],2,"ਮੈਂ + ਨੂੰ is written as one word, ਮੈਨੂੰ; ਮੁਝੇ is Hindi."]
+    ],
+    practice: [
+      ["mc","'in the room' =","ਕਮਰੇ ਵਿੱਚ","ਕਮਰਾ ਵਿੱਚ","ਵਿੱਚ ਕਮਰਾ","ਕਮਰੇ ਮੇਂ","The postposition goes after the noun, and ਕਮਰਾ takes the oblique ਕਮਰੇ; ਮੇਂ is Hindi."],
+      ["mc","'on the table' =","ਮੇਜ਼ ਉੱਤੇ","ਉੱਤੇ ਮੇਜ਼","ਮੇਜ਼ ਪਰ","ਮੇਜ਼ ਵਿੱਚ","'on' is ਉੱਤੇ, after the noun; ਪਰ means 'but' in Punjabi, and ਵਿੱਚ is 'in'."],
+      ["mc","'I know.' =","ਮੈਨੂੰ ਪਤਾ ਹੈ।","ਮੈਂ ਪਤਾ ਹੈ।","ਮੈਂ ਨੂੰ ਪਤਾ ਹੈ।","ਮੁਝੇ ਪਤਾ ਹੈ।","With ਪਤਾ the knower takes ਨੂੰ, and ਮੈਂ + ਨੂੰ is ਮੈਨੂੰ."],
+      ["mc","'from Amritsar' =","ਅੰਮ੍ਰਿਤਸਰ ਤੋਂ","ਅੰਮ੍ਰਿਤਸਰ ਸੇ","ਤੋਂ ਅੰਮ੍ਰਿਤਸਰ","ਅੰਮ੍ਰਿਤਸਰ ਨਾਲ","'from' is ਤੋਂ, after the place; ਸੇ is Hindi and ਨਾਲ means 'with'."],
+      ["mc","'in my house' =","ਮੇਰੇ ਘਰ ਵਿੱਚ","ਮੇਰਾ ਘਰ ਵਿੱਚ","ਮੇਰੀ ਘਰ ਵਿੱਚ","ਮੇਰੇ ਘਰ ਮੇਂ","Before a postposition ਮੇਰਾ takes the oblique ਮੇਰੇ, even though ਘਰ itself does not change."],
+      ["or","Simran is in the gurdwara. (start with Simran)","ਸਿਮਰਨ ਗੁਰਦੁਆਰੇ ਵਿੱਚ ਹੈ","ਗੁਰਦੁਆਰਾ","Before the postposition ਵਿੱਚ, ਗੁਰਦੁਆਰਾ takes the oblique form ਗੁਰਦੁਆਰੇ."],
+      ["or","The boy is with my brother. (start with the boy)","ਮੁੰਡਾ ਮੇਰੇ ਭਰਾ ਨਾਲ ਹੈ","ਮੇਰਾ","Before the postposition ਨਾਲ, ਮੇਰਾ takes its oblique form ਮੇਰੇ."],
+      ["or","The book is in the big room. (start with the book)","ਕਿਤਾਬ ਵੱਡੇ ਕਮਰੇ ਵਿੱਚ ਹੈ","ਵੱਡਾ ਕਮਰਾ","Before a postposition both the noun and its adjective take the oblique: ਵੱਡੇ ਕਮਰੇ ਵਿੱਚ."],
+      ["fi","ਅਰਜੁਨ __ ਵਿੱਚ ਹੈ।","Arjun is in the room.","ਕਮਰੇ","ਕਮਰਾ|ਕਮਰੀ|ਕਮਰਿਆਂ","Before ਵਿੱਚ, ਕਮਰਾ takes the oblique ਕਮਰੇ; ਕਮਰਿਆਂ would be several rooms."],
+      ["fi","__ ਪਤਾ ਨਹੀਂ।","I don't know.","ਮੈਨੂੰ","ਮੈਂ|ਮੇਰਾ|ਮੁਝੇ","With ਪਤਾ the knower takes ਨੂੰ: ਮੈਨੂੰ. ਮੁਝੇ is Hindi."],
+      ["fi","ਕਿਤਾਬ ਮੇਜ਼ __ ਹੈ।","The book is on the table.","ਉੱਤੇ|ਤੇ|ਉੱਪਰ","ਵਿੱਚ|ਪਰ|ਨੂੰ","'on' is ਉੱਤੇ (often just ਤੇ), placed after the noun."],
+      ["ty","The boy knows. (use ਪਤਾ)","ਮੁੰਡੇ ਨੂੰ ਪਤਾ ਹੈ","ਮੁੰਡਾ · ਨੂੰ · ਪਤਾ · ਹੈ","ਮੁੰਡਾ","Before the postposition ਨੂੰ, ਮੁੰਡਾ takes the oblique form ਮੁੰਡੇ."],
+      ["ty","Simran is in my house. (start with Simran)","ਸਿਮਰਨ ਮੇਰੇ ਘਰ ਵਿੱਚ ਹੈ|ਸਿਮਰਨ ਮੇਰੇ ਘਰ ਹੈ","ਸਿਮਰਨ · ਮੇਰਾ · ਘਰ · ਵਿੱਚ · ਹੈ","ਮੇਰਾ","Before a postposition ਮੇਰਾ takes the oblique ਮੇਰੇ: ਮੇਰੇ ਘਰ ਵਿੱਚ."],
+      ["ty","The tea is in the small room. (start with the tea)","ਚਾਹ ਛੋਟੇ ਕਮਰੇ ਵਿੱਚ ਹੈ","ਚਾਹ · ਛੋਟਾ · ਕਮਰਾ · ਵਿੱਚ · ਹੈ","ਛੋਟਾ ਕਮਰਾ","Before ਵਿੱਚ both words take the oblique: ਛੋਟੇ ਕਮਰੇ, even though ਚਾਹ is feminine."]
+    ]
+  },
+  {
+    id: "habitual",
+    title: "Present habitual: ਕਰਦਾ ਹਾਂ",
+    blurb: "Talk about what you and others do regularly, with verbs that agree with the person doing them.",
+    deck: "Time, days and routine",
+    body: `
+<p>English "I work", "she works" describes habits and facts. Punjabi builds this from two pieces: a verb form ending in <b>-ਦਾ</b>, and the <b>ਹਾਂ / ਹੈ / ਹੋ / ਹਨ</b> you already know. You met the pattern in <b>ਮੈਂ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਬੋਲਦਾ ਹਾਂ</b>.</p>
+<p>Use it for routines, for general facts, and for what is true of you these days: where you live, what work you do, which languages you speak. For what is happening at this very moment, a later lesson teaches the continuous.</p>
+<h3>Stem + ਦਾ + ਹੋਣਾ</h3>
+<p>Every verb has a dictionary form, the infinitive, ending in -ਣਾ or -ਨਾ: <b>ਕਰਨਾ</b> <i>karnā</i> (to do), <b>ਬੋਲਣਾ</b> <i>bolṇā</i> (to speak). Take off -ਣਾ or -ਨਾ to get the stem (<b>ਕਰ</b>, <b>ਬੋਲ</b>), add <b>ਦਾ</b>, then the right form of "to be".</p>
+{{ex:ਮੈਂ ਕੰਮ ਕਰਦਾ ਹਾਂ।|maĩ kamm kardā hā̃.|I work. (a man speaking)}}
+<h3>It agrees with the doer</h3>
+<p>The -ਦਾ part changes like <b>ਚੰਗਾ</b>, to agree with the person doing the action. So the verb shows whether a man or a woman is speaking, and polite <b>ਤੁਸੀਂ</b> takes the -e form.</p>
+<div class="tbl"><table><tr><th></th><th>man, boy</th><th>woman, girl</th></tr><tr><td>I</td><td class="k">ਮੈਂ ਕਰਦਾ ਹਾਂ</td><td class="k">ਮੈਂ ਕਰਦੀ ਹਾਂ</td></tr><tr><td>he, she</td><td class="k">ਉਹ ਕਰਦਾ ਹੈ</td><td class="k">ਉਹ ਕਰਦੀ ਹੈ</td></tr><tr><td>you (polite)</td><td class="k">ਤੁਸੀਂ ਕਰਦੇ ਹੋ</td><td class="k">ਤੁਸੀਂ ਕਰਦੇ ਹੋ</td></tr><tr><td>we</td><td class="k">ਅਸੀਂ ਕਰਦੇ ਹਾਂ</td><td class="k">ਅਸੀਂ ਕਰਦੀਆਂ ਹਾਂ</td></tr><tr><td>they</td><td class="k">ਉਹ ਕਰਦੇ ਹਨ</td><td class="k">ਉਹ ਕਰਦੀਆਂ ਹਨ</td></tr></table></div>
+{{ex:ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖਦੀ ਹਾਂ।|maĩ panjābī sikkhdī hā̃.|I study Punjabi. (a woman speaking)}}
+{{ex:ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ?|tusī̃ kitthe ráhinde ho?|Where do you live?}}
+<p>A woman can also be asked <b>ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੀਆਂ ਹੋ?</b>; usage varies, and this course uses the -e form for "you" unless told otherwise. A respected person takes the plural: <b>ਮੇਰੇ ਪਿਤਾ ਜੀ ਦਫ਼ਤਰ ਜਾਂਦੇ ਹਨ</b>.</p>
+<h3>Stems ending in a vowel</h3>
+<p>When the stem ends in a vowel, the ending is written with a bindi: <b>ਜਾਣਾ</b> gives <b>ਜਾਂਦਾ</b> <i>jā̃dā</i>, <b>ਖਾਣਾ</b> gives <b>ਖਾਂਦਾ</b>, <b>ਪੀਣਾ</b> gives <b>ਪੀਂਦਾ</b>. <b>ਰਹਿਣਾ</b> (to live) gives <b>ਰਹਿੰਦਾ</b>. If you know Hindi: never <b>ਜਾਤਾ</b>, always <b>ਜਾਂਦਾ</b>.</p>
+{{ex:ਮੇਰੀ ਭੈਣ ਚਾਹ ਪੀਂਦੀ ਹੈ।|merī bhaìṇ chā́h pī̃dī hai.|My sister drinks tea.}}
+<h3>Not, and how often</h3>
+<p>Put <b>ਨਹੀਂ</b> before the verb. In the negative, <b>ਹਾਂ / ਹੈ / ਹੋ / ਹਨ</b> is usually left out.</p>
+{{ex:ਮੈਂ ਚਾਹ ਨਹੀਂ ਪੀਂਦਾ।|maĩ chā́h náhī̃ pī̃dā.|I don't drink tea. (a man speaking)}}
+<p>Words for how often go before the verb, usually right after the subject: <b>ਰੋਜ਼</b> <i>roz</i> (every day), <b>ਕਦੇ ਕਦੇ</b> (sometimes), <b>ਹਮੇਸ਼ਾ</b> (always).</p>
+{{ex:ਅਸੀਂ ਰੋਜ਼ ਪੰਜਾਬੀ ਬੋਲਦੇ ਹਾਂ।|asī̃ roz panjābī bolde hā̃.|We speak Punjabi every day.}}
+<p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
+<div class="tip"><b>Most common mistake:</b> using the masculine form for everyone. A woman saying <b>ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖਦਾ ਹਾਂ</b> → <b>ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖਦੀ ਹਾਂ</b>.</div>
+`,
+    check: [
+      ["A woman says 'I work.' Which is right?",["ਮੈਂ ਕੰਮ ਕਰਦਾ ਹਾਂ।","ਮੈਂ ਕੰਮ ਕਰਦੀ ਹਾਂ।","ਮੈਂ ਕੰਮ ਕਰਦੀ ਹੈ।","ਮੈਂ ਕੰਮ ਕਰਤੀ ਹਾਂ।"],1,"The verb agrees with the speaker (ਕਰਦੀ), and ਮੈਂ takes ਹਾਂ."],
+      ["What is the habitual of ਜਾਣਾ (to go) for a man?",["ਜਾਤਾ","ਜਾਣਦਾ","ਜਾਂਦਾ","ਜਾਦਾ"],2,"After a vowel the ending has a bindi: ਜਾਂਦਾ. ਜਾਤਾ is Hindi; ਜਾਣਦਾ means 'knows'."],
+      ["'I don't drink tea.' (a man speaking): where does ਨਹੀਂ go?",["At the very end","At the start","Right before the verb","After ਹਾਂ"],2,"ਨਹੀਂ goes before the verb, and ਹਾਂ is usually dropped: ਮੈਂ ਚਾਹ ਨਹੀਂ ਪੀਂਦਾ."]
+    ],
+    practice: [
+      ["mc","A man says 'I work.'","ਮੈਂ ਕੰਮ ਕਰਦਾ ਹਾਂ।","ਮੈਂ ਕੰਮ ਕਰਦੀ ਹਾਂ।","ਮੈਂ ਕੰਮ ਕਰਦਾ ਹੈ।","ਮੈਂ ਕੰਮ ਕਰਤਾ ਹਾਂ।","A man uses ਕਰਦਾ, ਮੈਂ takes ਹਾਂ, and ਕਰਤਾ is Hindi."],
+      ["mc","A woman says 'I go.' Which verb form does she use?","ਜਾਂਦੀ","ਜਾਂਦਾ","ਜਾਤੀ","ਜਾਣਦੀ","A woman uses -ਦੀ, with a bindi after the vowel: ਜਾਂਦੀ. ਜਾਤੀ is Hindi; ਜਾਣਦੀ means 'knows'."],
+      ["mc","'Where do you live?' (politely) =","ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ?","ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦਾ ਹੈ?","ਤੁਸੀਂ ਰਹਿੰਦੇ ਹੋ ਕਿੱਥੇ?","ਤੁਸੀਂ ਕਹਾਂ ਰਹਿੰਦੇ ਹੋ?","ਤੁਸੀਂ takes ਰਹਿੰਦੇ ਹੋ, and ਕਿੱਥੇ stays before the verb; ਕਹਾਂ is Hindi."],
+      ["mc","'I don't drink tea.' (a man speaking) =","ਮੈਂ ਚਾਹ ਨਹੀਂ ਪੀਂਦਾ।","ਮੈਂ ਚਾਹ ਨਹੀਂ ਪੀਂਦੀ।","ਮੈਂ ਚਾਹ ਪੀਂਦਾ ਹਾਂ ਨਹੀਂ।","ਮੈਂ ਚਾਹ ਨਹੀਂ ਪੀਤਾ ਹਾਂ।","ਨਹੀਂ goes before the verb, the man says ਪੀਂਦਾ, and ਹਾਂ is dropped."],
+      ["mc","'The girls speak Punjabi.' =","ਕੁੜੀਆਂ ਪੰਜਾਬੀ ਬੋਲਦੀਆਂ ਹਨ।","ਕੁੜੀਆਂ ਪੰਜਾਬੀ ਬੋਲਦੇ ਹਨ।","ਕੁੜੀਆਂ ਪੰਜਾਬੀ ਬੋਲਦੀ ਹੈ।","ਕੁੜੀਆਂ ਪੰਜਾਬੀ ਬੋਲਦੀਆਂ ਹੈ।","Several girls: the verb takes the feminine plural ਬੋਲਦੀਆਂ, with ਹਨ."],
+      ["or","I live in Delhi. (a woman speaking; start with I)","ਮੈਂ ਦਿੱਲੀ ਵਿੱਚ ਰਹਿੰਦੀ ਹਾਂ","ਰਹਿੰਦਾ","The verb agrees with the speaker: a woman says ਰਹਿੰਦੀ."],
+      ["or","Do you speak Punjabi? (politely)","ਕੀ ਤੁਸੀਂ ਪੰਜਾਬੀ ਬੋਲਦੇ ਹੋ","ਬੋਲਦਾ ਹੈ","ਤੁਸੀਂ takes the plural forms ਬੋਲਦੇ ਹੋ, and ਕੀ starts the yes-no question."],
+      ["or","My sister drinks tea.","ਮੇਰੀ ਭੈਣ ਚਾਹ ਪੀਂਦੀ ਹੈ","ਪੀਂਦਾ","ਭੈਣ is feminine, so both ਮੇਰੀ and ਪੀਂਦੀ agree with her."],
+      ["fi","ਮੈਂ ਰੋਜ਼ ਕੰਮ __ ਹਾਂ।","I work every day. (a man speaking)","ਕਰਦਾ","ਕਰਦੀ|ਕਰਦੇ|ਕਰਤਾ","A man speaking: ਕਰਦਾ. ਕਰਤਾ is Hindi."],
+      ["fi","ਮੇਰੇ ਪਿਤਾ ਜੀ ਦਫ਼ਤਰ ਜਾਂਦੇ __।","My father goes to the office.","ਹਨ","ਹੈ|ਹਾਂ|ਹੋ","A respected father takes the honorific plural: ਜਾਂਦੇ ਹਨ."],
+      ["fi","ਉਹ ਪੰਜਾਬੀ __ ਹੈ।","She speaks Punjabi.","ਬੋਲਦੀ","ਬੋਲਦਾ|ਬੋਲਤੀ|ਬੋਲਦੀਆਂ","One woman: ਬੋਲਦੀ ਹੈ. ਬੋਲਤੀ is Hindi-style, and ਬੋਲਦੀਆਂ is for several women."],
+      ["ty","I learn Punjabi. (a woman speaking)","ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖਦੀ ਹਾਂ","ਮੈਂ · ਪੰਜਾਬੀ · ਸਿੱਖਣਾ · ਹਾਂ","ਸਿੱਖਦਾ","The verb agrees with the speaker: a woman says ਸਿੱਖਦੀ."],
+      ["ty","Where do you live? (politely)","ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ","ਤੁਸੀਂ · ਕਿੱਥੇ · ਰਹਿਣਾ · ਹੋ","ਰਹਿੰਦਾ ਹੈ","ਤੁਸੀਂ takes the plural forms: ਰਹਿੰਦੇ ਹੋ."],
+      ["ty","The boys eat roti. (ਰੋਟੀ)","ਮੁੰਡੇ ਰੋਟੀ ਖਾਂਦੇ ਹਨ","ਮੁੰਡਾ · ਰੋਟੀ · ਖਾਣਾ · ਹੋਣਾ","ਖਾਂਦਾ ਹੈ","Several boys: the verb is plural, ਖਾਂਦੇ ਹਨ."]
+    ]
+  },
+  {
+    id: "imperative",
+    title: "Requests and commands: ਬੈਠੋ, ਦੱਸੋ ਜੀ",
+    blurb: "Ask people politely to do things, tell a friend what to do, and say 'don't'.",
+    deck: "Health and help",
+    body: `
+<p>English has one command form: "sit", "tell me", said to anyone, softened with "please". Punjabi has a polite command form for <b>ਤੁਸੀਂ</b> and a plain one for <b>ਤੂੰ</b>, and softens requests with <b>ਜੀ</b>.</p>
+<h3>The polite command: -ਓ</h3>
+<p>Take the stem of the verb (the infinitive without -ਣਾ or -ਨਾ) and add -ਓ. This is the form for anyone you call <b>ਤੁਸੀਂ</b>: strangers, elders, shopkeepers, doctors.</p>
+<div class="tbl"><table><tr><th>Infinitive</th><th>Polite command</th><th>English</th></tr><tr><td class="k">ਬੈਠਣਾ</td><td class="k">ਬੈਠੋ</td><td>sit</td></tr><tr><td class="k">ਦੱਸਣਾ</td><td class="k">ਦੱਸੋ</td><td>tell</td></tr><tr><td class="k">ਕਰਨਾ</td><td class="k">ਕਰੋ</td><td>do</td></tr><tr><td class="k">ਆਉਣਾ</td><td class="k">ਆਓ</td><td>come</td></tr><tr><td class="k">ਪੀਣਾ</td><td class="k">ਪੀਓ</td><td>drink</td></tr><tr><td class="k">ਦੇਣਾ</td><td class="k">ਦਿਓ</td><td>give</td></tr><tr><td class="k">ਲੈਣਾ</td><td class="k">ਲਓ</td><td>take</td></tr></table></div>
+<p><b>ਦਿਓ</b> <i>dio</i> and <b>ਲਓ</b> <i>lao</i> are irregular: learn them as they are.</p>
+<h3>Softening with ਜੀ</h3>
+<p>English adds "please". Punjabi usually adds <b>ਜੀ</b> after the verb. <b>ਕਿਰਪਾ ਕਰਕੇ</b> <i>kirpā karke</i> also means "please", but you will mostly see it on signs and in formal requests.</p>
+{{ex:ਬੈਠੋ ਜੀ।|baiṭho jī.|Please sit down.}}
+{{ex:ਮੈਨੂੰ ਦੱਸੋ ਜੀ।|mainū̃ dasso jī.|Please tell me.}}
+<p>Notice <b>ਮੈਨੂੰ</b>: the person you tell or give to takes <b>ਨੂੰ</b>, and the noun before it takes the oblique form, as in the postpositions lesson.</p>
+{{ex:ਡਾਕਟਰ ਨੂੰ ਬੁਲਾਓ!|ḍākṭar nū̃ bulāo!|Call the doctor!}}
+{{ex:ਮੁੰਡੇ ਨੂੰ ਪਾਣੀ ਦਿਓ।|muṇḍe nū̃ pāṇī dio.|Give the boy some water.}}
+<p>"Help me" uses the word <b>ਮਦਦ</b> <i>madad</i> (help), which is feminine, so it is <b>ਮੇਰੀ ਮਦਦ ਕਰੋ</b>, literally "do my help".</p>
+{{ex:ਮੇਰੀ ਮਦਦ ਕਰੋ ਜੀ।|merī madad karo jī.|Please help me.}}
+<p>When you are unwell, you will hear these forms from the other side too. A doctor or a chemist will tell you <b>ਆਰਾਮ ਕਰੋ</b> (rest), <b>ਪਾਣੀ ਪੀਓ</b> (drink water) or <b>ਦਵਾਈ</b> <i>davāī</i> <b>ਲਓ</b> (take the medicine). Recognising the -ਓ ending tells you that someone is asking you to do something.</p>
+{{ex:ਦਵਾਈ ਲਓ ਅਤੇ ਆਰਾਮ ਕਰੋ।|davāī lao ate ārām karo.|Take the medicine and rest.}}
+<h3>The ਤੂੰ command: just the stem</h3>
+<p>With a close friend, a child or a younger sibling, the command is the bare stem: <b>ਬੈਠ</b>, <b>ਦੱਸ</b>, <b>ਆ</b>. Said to an elder or a guest, this sounds rude, so use it only where you would use <b>ਤੂੰ</b>.</p>
+{{ex:ਇੱਥੇ ਆ!|itthe ā!|Come here! (to a friend)}}
+<h3>Don't: ਨਾ</h3>
+<p>For "don't", put <b>ਨਾ</b> <i>nā</i> before the verb. Not <b>ਨਹੀਂ</b>, which is for statements, and not Hindi <b>ਮਤ</b>.</p>
+{{ex:ਚਿੰਤਾ ਨਾ ਕਰੋ।|chintā nā karo.|Don't worry.}}
+{{ex:ਪਾਣੀ ਨਾ ਪੀਓ।|pāṇī nā pīo.|Don't drink the water.}}
+<p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
+<div class="tip"><b>Most common mistake:</b> using ਨਹੀਂ in a command. <b>ਚਿੰਤਾ ਨਹੀਂ ਕਰੋ</b> → <b>ਚਿੰਤਾ ਨਾ ਕਰੋ</b>.</div>
+`,
+    check: [
+      ["How do you politely ask a guest to sit?",["ਬੈਠ।","ਬੈਠੋ ਜੀ।","ਬੈਠਦਾ ਹੈ।","ਬੈਠਣਾ ਹੈ।"],1,"The -ਓ form with ਜੀ is polite; the bare stem ਬੈਠ is only for ਤੂੰ."],
+      ["Which word means 'don't' in a command?",["ਨਹੀਂ","ਮਤ","ਨਾ","ਨੂੰ"],2,"Commands use ਨਾ before the verb; ਨਹੀਂ is for statements and ਮਤ is Hindi."],
+      ["Why is it ਮੇਰੀ ਮਦਦ ਕਰੋ and not ਮੇਰਾ ਮਦਦ ਕਰੋ?",["ਮਦਦ is feminine","ਕਰੋ is feminine","The speaker is a woman","ਮੇਰੀ is the polite form"],0,"ਮਦਦ is a feminine noun, so 'my' agrees: ਮੇਰੀ."]
+    ],
+    practice: [
+      ["mc","'Please sit down.' (to a guest) =","ਬੈਠੋ ਜੀ।","ਬੈਠ।","ਬੈਠਦੇ ਹੋ।","ਬੈਠਿਏ।","To a guest use the polite -ਓ form with ਜੀ; ਬੈਠ is only for ਤੂੰ."],
+      ["mc","'Don't worry.' =","ਚਿੰਤਾ ਨਾ ਕਰੋ।","ਚਿੰਤਾ ਨਹੀਂ ਕਰੋ।","ਨਾ ਚਿੰਤਾ ਕਰੋ।","ਚਿੰਤਾ ਮਤ ਕਰੋ।","'Don't' is ਨਾ, right before the verb; ਮਤ is Hindi."],
+      ["mc","'Give me water, please.' Which verb form?","ਦਿਓ","ਦੋ","ਦਿੰਦੇ","ਦਿੱਤਾ","The polite command of ਦੇਣਾ is irregular: ਦਿਓ. ਦੋ means 'two'."],
+      ["mc","Which is the ਤੂੰ command of 'come'?","ਆ","ਆਓ","ਆਉਂਦਾ","ਆਇਆ","The ਤੂੰ command is the bare stem: ਆ. ਆਓ is the polite form."],
+      ["mc","'Call the doctor!' =","ਡਾਕਟਰ ਨੂੰ ਬੁਲਾਓ!","ਡਾਕਟਰ ਕੋ ਬੁਲਾਓ!","ਨੂੰ ਡਾਕਟਰ ਬੁਲਾਓ!","ਡਾਕਟਰ ਨੂੰ ਬੁਲਾਉਂਦਾ!","The person called takes ਨੂੰ, after the noun; ਕੋ is Hindi."],
+      ["or","Please help me.","ਮੇਰੀ ਮਦਦ ਕਰੋ ਜੀ","ਮੇਰਾ","ਮਦਦ is feminine, so 'my' agrees with it: ਮੇਰੀ."],
+      ["or","Please tell me.","ਮੈਨੂੰ ਦੱਸੋ ਜੀ","ਮੈਂ","With ਨੂੰ, ਮੈਂ takes its oblique form, written as one word: ਮੈਨੂੰ."],
+      ["or","Sit in the room. (politely)","ਕਮਰੇ ਵਿੱਚ ਬੈਠੋ","ਕਮਰਾ","Before the postposition ਵਿੱਚ, ਕਮਰਾ takes the oblique form ਕਮਰੇ."],
+      ["fi","ਚਿੰਤਾ __ ਕਰੋ।","Don't worry.","ਨਾ","ਨਹੀਂ|ਮਤ|ਨੂੰ","In a command 'don't' is ਨਾ."],
+      ["fi","ਪਾਣੀ __ ਜੀ।","Please drink some water. (politely)","ਪੀਓ","ਪੀ|ਪੀਂਦਾ|ਪੀਤਾ","The polite command adds -ਓ to the stem: ਪੀਓ. ਪੀ alone is for ਤੂੰ."],
+      ["fi","__ ਨੂੰ ਪਾਣੀ ਦਿਓ।","Give the boy some water.","ਮੁੰਡੇ","ਮੁੰਡਾ|ਮੁੰਡੀ|ਮੁੰਡਿਆਂ","Before ਨੂੰ, ਮੁੰਡਾ takes the oblique ਮੁੰਡੇ; ਮੁੰਡਿਆਂ would be several boys."],
+      ["ty","Call the boy. (politely)","ਮੁੰਡੇ ਨੂੰ ਬੁਲਾਓ|ਮੁੰਡੇ ਨੂੰ ਬੁਲਾਓ ਜੀ","ਮੁੰਡਾ · ਨੂੰ · ਬੁਲਾਉਣਾ","ਮੁੰਡਾ","Before the postposition ਨੂੰ, ਮੁੰਡਾ takes the oblique form ਮੁੰਡੇ."],
+      ["ty","Help me! (politely)","ਮੇਰੀ ਮਦਦ ਕਰੋ|ਮੇਰੀ ਮਦਦ ਕਰੋ ਜੀ","ਮੇਰਾ · ਮਦਦ · ਕਰਨਾ · ਮਦਦ is feminine","ਮੇਰਾ","ਮਦਦ is feminine, so 'my' agrees: ਮੇਰੀ ਮਦਦ."],
+      ["ty","Don't drink the water. (politely)","ਪਾਣੀ ਨਾ ਪੀਓ|ਪਾਣੀ ਨਾ ਪੀਓ ਜੀ","ਪਾਣੀ · ਨਾ · ਪੀਣਾ","ਨਹੀਂ","A command takes ਨਾ before the verb, not ਨਹੀਂ."]
+    ]
+  },
+  {
+    id: "like-need",
+    title: "ਪਸੰਦ, ਚਾਹੀਦਾ: like and need",
+    blurb: "Say what you like, what you need, which languages you know, and that you are hungry or thirsty.",
+    deck: "Shopping and the market",
+    body: `
+<p>In English the person who likes or needs something is the subject: "I like tea", "I need water". Punjabi turns it around. The person takes <b>ਨੂੰ</b>, and the thing liked or needed is what the sentence is really about: <b>ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ</b>, literally "to me, tea is pleasing". These are called ਮੈਨੂੰ-constructions.</p>
+<h3>Liking: ਪਸੰਦ ਹੈ</h3>
+{{ex:ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ।|mainū̃ chā́h pasand hai.|I like tea.}}
+<p><b>ਪਸੰਦ</b> <i>pasand</i> never changes, but the verb agrees with the thing: several things take <b>ਹਨ</b>. The person's form stays the same: never <b>ਮੈਂ</b> here, always <b>ਮੈਨੂੰ</b>.</p>
+{{ex:ਮੈਨੂੰ ਅੰਬ ਪਸੰਦ ਹਨ।|mainū̃ amb pasand han.|I like mangoes.}}
+<div class="tbl"><table><tr><th>to me</th><th>to you (friend)</th><th>to you (polite)</th><th>to him, her</th><th>to us</th></tr><tr><td class="k">ਮੈਨੂੰ</td><td class="k">ਤੈਨੂੰ</td><td class="k">ਤੁਹਾਨੂੰ</td><td class="k">ਉਸ ਨੂੰ</td><td class="k">ਸਾਨੂੰ</td></tr></table></div>
+<p>With a noun, the oblique form comes before <b>ਨੂੰ</b>, as always: <b>ਮੁੰਡੇ ਨੂੰ ਲੱਸੀ ਪਸੰਦ ਹੈ</b>. The person usually comes first, but <b>ਚਾਹ ਮੈਨੂੰ ਪਸੰਦ ਹੈ</b> is also fine.</p>
+<h3>Needing: ਚਾਹੀਦਾ ਹੈ</h3>
+<p><b>ਚਾਹੀਦਾ</b> <i>chā́hīdā</i> means "needed", and it changes like <b>ਚੰਗਾ</b> to agree with the thing you need, not with you.</p>
+{{ex:ਮੈਨੂੰ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ।|mainū̃ pāṇī chā́hīdā hai.|I need water.}}
+{{ex:ਮੈਨੂੰ ਇੱਕ ਕਮੀਜ਼ ਚਾਹੀਦੀ ਹੈ।|mainū̃ ikk kamīz chā́hīdī hai.|I need a shirt.}}
+{{ex:ਮੈਨੂੰ ਪੈਸੇ ਚਾਹੀਦੇ ਹਨ।|mainū̃ paise chā́hīde han.|I need money.}}
+<p><b>ਪਾਣੀ</b> is masculine, <b>ਕਮੀਜ਼</b> <i>kamīz</i> is feminine, and <b>ਪੈਸੇ</b> is plural, so you get <b>ਚਾਹੀਦਾ</b>, <b>ਚਾਹੀਦੀ</b> and <b>ਚਾਹੀਦੇ</b>. This is the phrase you will use most in shops.</p>
+<p>In a shop or at a market stall, the seller will often open with the same pattern, asking what you need. Answer with <b>ਮੈਨੂੰ</b> and the thing, and make <b>ਚਾਹੀਦਾ</b> agree with whatever you name. Add <b>ਜੀ</b> at the end to sound friendly and polite.</p>
+{{ex:ਤੁਹਾਨੂੰ ਕੀ ਚਾਹੀਦਾ ਹੈ?|tuhā̀nū̃ kī chā́hīdā hai?|What do you need?}}
+<h3>Knowing a language, hunger and thirst</h3>
+<p>The same turned-around pattern is used for knowing a language ("Punjabi comes to me") and for hunger and thirst ("hunger has struck me"). <b>ਪੰਜਾਬੀ</b>, <b>ਭੁੱਖ</b> <i>bhùkkh</i> and <b>ਪਿਆਸ</b> <i>piās</i> are feminine, so the verbs end in -ī.</p>
+{{ex:ਮੈਨੂੰ ਥੋੜ੍ਹੀ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ।|mainū̃ thóṛhī panjābī āundī hai.|I know a little Punjabi.}}
+{{ex:ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ।|mainū̃ bhùkkh laggī hai.|I'm hungry.}}
+<p>For the negative, put <b>ਨਹੀਂ</b> before the verb and drop <b>ਹੈ</b>: <b>ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਨਹੀਂ</b>. The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
+<div class="tip"><b>Most common mistake:</b> starting with <b>ਮੈਂ</b>, as in English. <b>ਮੈਂ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ</b> → <b>ਮੈਨੂੰ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ</b>.</div>
+`,
+    check: [
+      ["'I like tea.' =",["ਮੈਂ ਚਾਹ ਪਸੰਦ ਹਾਂ।","ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ।","ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹਾਂ।","ਮੁਝੇ ਚਾਹ ਪਸੰਦ ਹੈ।"],1,"The person takes ਨੂੰ (ਮੈਨੂੰ), and the verb agrees with the tea: ਹੈ."],
+      ["In ਮੈਨੂੰ ਇੱਕ ਕਮੀਜ਼ ਚਾਹੀਦੀ ਹੈ, what does ਚਾਹੀਦੀ agree with?",["The speaker","ਕਮੀਜ਼, the thing needed","ਇੱਕ","Nothing: it never changes"],1,"ਚਾਹੀਦਾ agrees with the thing needed; ਕਮੀਜ਼ is feminine."],
+      ["'I'm hungry.' =",["ਮੈਂ ਭੁੱਖ ਹਾਂ।","ਮੈਨੂੰ ਭੁੱਖ ਲੱਗਾ ਹੈ।","ਮੈਂ ਭੁੱਖ ਲੱਗੀ ਹਾਂ।","ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ।"],3,"Hunger 'strikes' you: ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ, feminine because ਭੁੱਖ is."]
+    ],
+    practice: [
+      ["mc","'I like tea.' =","ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ।","ਮੈਂ ਚਾਹ ਪਸੰਦ ਹਾਂ।","ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹਾਂ।","ਮੁਝੇ ਚਾਹ ਪਸੰਦ ਹੈ।","The one who likes takes ਨੂੰ: ਮੈਨੂੰ. ਮੁਝੇ is Hindi."],
+      ["mc","'I need a shirt.' (ਕਮੀਜ਼ is feminine) =","ਮੈਨੂੰ ਇੱਕ ਕਮੀਜ਼ ਚਾਹੀਦੀ ਹੈ।","ਮੈਨੂੰ ਇੱਕ ਕਮੀਜ਼ ਚਾਹੀਦਾ ਹੈ।","ਮੈਂ ਇੱਕ ਕਮੀਜ਼ ਚਾਹੀਦੀ ਹਾਂ।","ਮੈਨੂੰ ਇੱਕ ਕਮੀਜ਼ ਚਾਹੀਦੀ ਹਾਂ।","ਮੈਨੂੰ for the person; ਚਾਹੀਦੀ ਹੈ agrees with ਕਮੀਜ਼."],
+      ["mc","'I'm hungry.' =","ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ।","ਮੈਂ ਭੁੱਖ ਹਾਂ।","ਮੈਨੂੰ ਭੁੱਖ ਲੱਗਾ ਹੈ।","ਮੈਂ ਭੁੱਖ ਲੱਗੀ ਹਾਂ।","Hunger strikes you: ਮੈਨੂੰ … ਲੱਗੀ ਹੈ, feminine because ਭੁੱਖ is."],
+      ["mc","'Do you know Punjabi?' (politely) =","ਕੀ ਤੁਹਾਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ?","ਕੀ ਤੁਸੀਂ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ?","ਕੀ ਤੁਹਾਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੇ ਹੋ?","ਕੀ ਤੁਹਾਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੋ?","The knower takes ਨੂੰ (ਤੁਹਾਨੂੰ), and the verb agrees with ਪੰਜਾਬੀ: ਆਉਂਦੀ ਹੈ."],
+      ["mc","'I like mangoes.' =","ਮੈਨੂੰ ਅੰਬ ਪਸੰਦ ਹਨ।","ਮੈਨੂੰ ਅੰਬ ਪਸੰਦ ਹਾਂ।","ਮੈਂ ਅੰਬ ਪਸੰਦ ਹਾਂ।","ਮੈਨੂੰ ਅੰਬ ਪਸੰਦ ਹੋ।","The verb agrees with the things liked, several mangoes: ਹਨ."],
+      ["or","I need water. (start with 'to me')","ਮੈਨੂੰ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ","ਮੈਂ ਚਾਹੀਦੀ","The person takes the oblique ਮੈਨੂੰ, and ਚਾਹੀਦਾ agrees with ਪਾਣੀ, which is masculine."],
+      ["or","The boy likes lassi. (start with the boy)","ਮੁੰਡੇ ਨੂੰ ਲੱਸੀ ਪਸੰਦ ਹੈ","ਮੁੰਡਾ","Before the postposition ਨੂੰ, ਮੁੰਡਾ takes the oblique form ਮੁੰਡੇ."],
+      ["or","We need two shirts. (start with 'to us')","ਸਾਨੂੰ ਦੋ ਕਮੀਜ਼ਾਂ ਚਾਹੀਦੀਆਂ ਹਨ","ਚਾਹੀਦੇ","ਚਾਹੀਦਾ agrees with the shirts: feminine plural, ਚਾਹੀਦੀਆਂ ਹਨ."],
+      ["fi","ਮੈਨੂੰ ਇੱਕ ਕਮੀਜ਼ __ ਹੈ।","I need a shirt.","ਚਾਹੀਦੀ","ਚਾਹੀਦਾ|ਚਾਹੀਦੇ|ਚਾਹੀਦੀਆਂ","ਕਮੀਜ਼ is one feminine thing, so ਚਾਹੀਦੀ."],
+      ["fi","__ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ।","I know Punjabi.","ਮੈਨੂੰ","ਮੈਂ|ਮੇਰੀ|ਮੁਝੇ","Knowing a language is a ਮੈਨੂੰ-construction: ਮੈਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ."],
+      ["fi","ਮੈਨੂੰ ਪਿਆਸ __ ਹੈ।","I'm thirsty.","ਲੱਗੀ","ਲੱਗਾ|ਲੱਗੇ|ਲੱਗੀਆਂ","ਪਿਆਸ is feminine and singular, so the verb is ਲੱਗੀ."],
+      ["ty","I like tea.","ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ|ਚਾਹ ਮੈਨੂੰ ਪਸੰਦ ਹੈ","ਮੈਂ · ਚਾਹ · ਪਸੰਦ · ਹੈ · the person takes ਨੂੰ","ਮੈਂ","The one who likes takes ਨੂੰ, so ਮੈਂ becomes the oblique ਮੈਨੂੰ."],
+      ["ty","I need money. (ਪੈਸੇ)","ਮੈਨੂੰ ਪੈਸੇ ਚਾਹੀਦੇ ਹਨ|ਪੈਸੇ ਮੈਨੂੰ ਚਾਹੀਦੇ ਹਨ","ਮੈਂ · ਪੈਸੇ · ਚਾਹੀਦਾ · ਹੋਣਾ","ਚਾਹੀਦਾ ਹੈ","ਪੈਸੇ is plural, so ਚਾਹੀਦੇ ਹਨ agrees with it."],
+      ["ty","She needs a book.","ਉਸ ਨੂੰ ਇੱਕ ਕਿਤਾਬ ਚਾਹੀਦੀ ਹੈ|ਉਸ ਨੂੰ ਕਿਤਾਬ ਚਾਹੀਦੀ ਹੈ","ਉਹ · ਨੂੰ · ਕਿਤਾਬ · ਚਾਹੀਦਾ · ਹੈ","ਉਹ ਚਾਹੀਦਾ","Before ਨੂੰ, ਉਹ takes the oblique ਉਸ, and ਚਾਹੀਦੀ agrees with ਕਿਤਾਬ, which is feminine."]
+    ]
   }
 ];
