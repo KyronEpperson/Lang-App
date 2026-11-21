@@ -1,12 +1,12 @@
-PROGRESS (updated 2026-11-21 17:47 CST)
+PROGRESS (updated 2026-11-21 17:50 CST)
 Course: en-da   Branch: cursor/en-da   PR: https://github.com/KyronEpperson/Lang-App/pull/8
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1
-Next: lesson 2, lesson 3
-Checks: lesson 1 node --check passed. 9 lessons, 126 practice items. Partial validator reported no lines about these lessons. Full course not run. Lexicon fixes wait until lesson 2 and lesson 3 finish.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 3
+Next: lesson 2
+Checks: lesson 3 node --check passed. 8 lessons, 112 practice items. Every set has 3 order hits and 3 type hits. Partial validator reported no lines about this file. Full course not run. Lexicon fixes wait until lesson 2 finishes.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 3 = grok-4.7-high
 State: WORKING
 
-Deck B, tool output kept, a native should hear: the day names (g of dag silent; onsdag's o), ligeud, stationen, toilettet, forældre, for as foh, boede and arbejdede, fabrik, eventuelt, endelig, afhænger, dejlig. Left out because the tool looked wrong: frokost, regningen, banegården, hvordan, overfor, om søndagen, kæreste, dygtig. job, formiddag, osten against ost, and "at huset" were not used. Deck A, tool output kept: fordi FOH-ree, aldrig AL-reey, hvordan VOH-ran, hvornår VOH-naw, kvart kvat, København koe-buhn-HAWN, Amerika and amerikaner and amerikansk with first-syllable stress. Questions uses hvad hedder han because hvad hedder du is already in About me. Lesson 1, tool output kept: fordi, aldrig, undskyld OON-skewl, jer yeh, selv sehlv, København, Amerika. Not used in an example: café KA-fuh, idé EE-dhuh, syv seww.
+Deck B, tool output kept, a native should hear: the day names (g of dag silent; onsdag's o), ligeud, stationen, toilettet, forældre, for as foh, boede and arbejdede, fabrik, eventuelt, endelig, afhænger, dejlig. Left out because the tool looked wrong: frokost, regningen, banegården, hvordan, overfor, om søndagen, kæreste, dygtig. job, formiddag, osten against ost, and "at huset" were not used. Deck A, tool output kept: fordi FOH-ree, aldrig AL-reey, hvordan VOH-ran, hvornår VOH-naw, kvart kvat, København koe-buhn-HAWN, Amerika and amerikaner and amerikansk with first-syllable stress. Questions uses hvad hedder han because hvad hedder du is already in About me. Lesson 1, tool output kept: fordi, aldrig, undskyld OON-skewl, jer yeh, selv sehlv, København, Amerika. Not used in an example: café KA-fuh, idé EE-dhuh, syv seww. Lesson 3, tool output kept: forældre, stationen, toilettet, ligeud, boede, arbejdede, gik geek, eventuelt, fabrik, dygtig, dejlig, endelig, rødt, for foh, koster KOHS-tuh, havde, København. bedstemor and bedstefar were not used.
 
 # Lead note: en-da stage 1
 
