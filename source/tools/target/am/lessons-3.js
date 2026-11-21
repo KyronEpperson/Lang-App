@@ -15,7 +15,7 @@ module.exports = [
 {{ex:መሄድ እፈልጋለሁ||I want to go.}}
 {{ex:ወደ ቤት መሄድ እፈልጋለሁ||I want to go home.}}
 <h3>The ending still matches the person</h3>
-<p>Want changes for the person, the same way go does. <b>እፈልጋለሁ</b> is I. <b>ትፈልጋለህ</b> is the man form. <b>ትፈልጊያለሽ</b> is the woman form. <b>ይፈልጋሉ</b> is the polite form, for <b>እርስዎ</b>, a stranger or an older person. He is <b>ይፈልጋል</b>, the same pattern as <b>ይሄዳል</b>. She is <b>ትፈልጋለች</b>.</p>
+<p>Want changes for the person. <b>እፈልጋለሁ</b> is I. <b>ትፈልጋለህ</b> is the man form. <b>ትፈልጊያለሽ</b> is the woman form. The g stays. It does not become j the way go does. <b>ይፈልጋሉ</b> is the polite form, for <b>እርስዎ</b>, a stranger or an older person. He is <b>ይፈልጋል</b>, the same pattern as <b>ይሄዳል</b>. She is <b>ትፈልጋለች</b>.</p>
 <div class="tbl"><table><tr><th>Who</th><th>Want</th></tr><tr><td>I</td><td class="k">እፈልጋለሁ</td></tr><tr><td>You, a man</td><td class="k">ትፈልጋለህ</td></tr><tr><td>You, a woman</td><td class="k">ትፈልጊያለሽ</td></tr><tr><td>You, polite</td><td class="k">ይፈልጋሉ</td></tr><tr><td>He</td><td class="k">ይፈልጋል</td></tr><tr><td>She</td><td class="k">ትፈልጋለች</td></tr></table></div>
 {{ex:ቡና ትፈልጋለህ||You want coffee. (to a man)}}
 {{ex:ቡና ትፈልጊያለሽ||You want coffee. (to a woman)}}
@@ -248,7 +248,7 @@ module.exports = [
 <p>Keep two matches apart. The ending on the noun matches the person you are speaking to. The verb at the end matches the relative, not the listener. Mother and sister are feminine, so they take <b>ናት</b>. Father and brother take <b>ነው</b>. My mother is in Addis Ababa is <b>እናቴ በአዲስ አበባ ናት</b>, even when you say it to a man.</p>
 <div class="tbl"><table><tr><th></th><th>My</th><th>To a man</th><th>To a woman</th><th>Polite</th></tr><tr><td>Father</td><td class="k">አባቴ</td><td class="k">አባትህ</td><td class="k">አባትሽ</td><td class="k">አባትዎ</td></tr><tr><td>Mother</td><td class="k">እናቴ</td><td class="k">እናትህ</td><td class="k">እናትሽ</td><td class="k">እናትዎ</td></tr><tr><td>Brother</td><td class="k">ወንድሜ</td><td class="k">ወንድምህ</td><td class="k">ወንድምሽ</td><td class="k">ወንድምዎ</td></tr><tr><td>Sister</td><td class="k">እህቴ</td><td class="k">እህትህ</td><td class="k">እህትሽ</td><td class="k">እህትዎ</td></tr></table></div>
 {{ex:አባትሽ ማን ነው||Who is your father? (to a woman)}}
-{{ex:እናትህ ማን ነው||Who is your mother? (to a man)}}
+{{ex:እናትህ ማን ናት||Who is your mother? (to a man)}}
 {{ex:አባትዎ ማን ነው||Who is your father? (polite)}}
 <h3>Have, and where they are</h3>
 <p>"I have a father" uses <b>አለኝ</b>, the having word you know. "I have no brother" is the negative. The person comes first, the verb last. A sister is feminine, so she takes <b>ናት</b>. A brother takes <b>ነው</b>. <b>አቶ</b> before a man's name is the title the manual uses.</p>
@@ -272,9 +272,9 @@ module.exports = [
       ["mc", "\"I have a father\" =", "አባት አለኝ", "አባት የለኝም", "አለኝ አባት", "አባቴ ነው", "Having uses አለኝ after the person."],
       ["mc", "\"sister\" =", "እህት", "ወንድም", "እናት", "አባት", "እህት is sister. ወንድም is brother."],
       ["or", "Who is your father? (to a woman, start with አባትሽ)", "አባትሽ ማን ነው", "አባትህ", "The woman form is አባትሽ."],
-      ["or", "Who is your mother? (to a man, start with እናትህ)", "እናትህ ማን ነው", "እናትሽ", "The man form is እናትህ."],
+      ["or", "Who is your mother? (to a man, start with እናትህ)", "እናትህ ማን ናት", "እናትሽ", "The man form is እናትህ. እናት is feminine, so the verb ending is ናት."],
       ["or", "My sister is in Addis Ababa (start with my sister)", "እህቴ በአዲስ አበባ ናት", "ነው", "እህቴ is feminine, so the verb ending is ናት."],
-      ["fi", "__ ማን ነው", "Who is your sister? (to a woman)", "እህትሽ", "እህትህ|እህቴ|እህቷ", "The woman form is እህትሽ."],
+      ["fi", "__ ማን ናት", "Who is your sister? (to a woman)", "እህትሽ", "እህትህ|እህቴ|እህቷ", "The woman form is እህትሽ. እህት is feminine, so the verb ending is ናት."],
       ["fi", "ወንድም __", "I have no brother.", "የለኝም", "አለኝ|ነው|አለው", "I don't have is የለኝም."],
       ["fi", "__ በአዲስ አበባ ናት", "My mother is in Addis Ababa.", "እናቴ", "እናትህ|እናትሽ|እናት", "እናቴ is feminine, so the verb ending is ናት."],
       ["ty", "Who is your brother? (to a woman, start with the brother word)", "ወንድምሽ ማን ነው", "ወንድምሽ · ማን · ነው", "ወንድምህ አባትሽ", "The woman form is ወንድምሽ."],
@@ -293,8 +293,8 @@ module.exports = [
 {{ex:እባክዎ እንጀራ እፈልጋለሁ||Please, I want injera. (polite)}}
 {{ex:እባክሽ ቡና እፈልጋለሁ||Please, I want coffee. (to a woman)}}
 <h3>What the manual's menu prints</h3>
-<p>These are the dishes and drinks to learn. <b>እንጀራ</b> is the flat bread the meal is built on. <b>ፍርፍር</b> is that bread torn into a sauce, which is why the manual treats <b>እንጀራ</b> as its base. <b>ክትፎ</b> is minced beef. <b>ጥብስ</b> is fried meat, and <b>እንቁላል ጥብስ</b> is the egg version. You do not need every row on the first visit. Learn injera, one stew, water, coffee, and the bill, then add the rest from the table. The book's prices are practice figures, not today's menu. You already saw coffee at four birr there.</p>
-<div class="tbl"><table><tr><th>Amharic</th><th>English</th></tr><tr><td class="k">ቀይ ወጥ</td><td>spicy stew</td></tr><tr><td class="k">አልጫ ወጥ</td><td>mild stew</td></tr><tr><td class="k">ዶሮ ወጥ</td><td>chicken stew</td></tr><tr><td class="k">ምስር ወጥ</td><td>lentil stew</td></tr><tr><td class="k">ክትፎ</td><td>minced beef</td></tr><tr><td class="k">ጥብስ</td><td>fried meat</td></tr><tr><td class="k">እንቁላል ጥብስ</td><td>fried eggs</td></tr><tr><td class="k">አምቦ ውሃ</td><td>Ambo water</td></tr><tr><td class="k">ውሃ</td><td>water</td></tr><tr><td class="k">ሻይ</td><td>tea</td></tr><tr><td class="k">ቢራ</td><td>beer</td></tr></table></div>
+<p>These are the dishes and drinks to learn. <b>እንጀራ</b> is the flat bread the meal is built on. <b>ፍርፍር</b> is that bread torn into a sauce, which is why the manual treats <b>እንጀራ</b> as its base. <b>ክትፎ</b> is finely chopped beef, often served raw. <b>ጥብስ</b> is fried meat. <b>እንቁላል ጥብስ</b> is eggs cooked with pepper and onion, not plain fried eggs. You do not need every row on the first visit. Learn injera, one stew, water, coffee, and the bill, then add the rest from the table. The book's prices are practice figures, not today's menu. You already saw coffee at four birr there.</p>
+<div class="tbl"><table><tr><th>Amharic</th><th>English</th></tr><tr><td class="k">ቀይ ወጥ</td><td>spicy stew</td></tr><tr><td class="k">አልጫ ወጥ</td><td>mild stew</td></tr><tr><td class="k">ዶሮ ወጥ</td><td>chicken stew</td></tr><tr><td class="k">ምስር ወጥ</td><td>lentil stew</td></tr><tr><td class="k">ክትፎ</td><td>finely chopped beef, often raw</td></tr><tr><td class="k">ጥብስ</td><td>fried meat</td></tr><tr><td class="k">እንቁላል ጥብስ</td><td>eggs with pepper and onion</td></tr><tr><td class="k">አምቦ ውሃ</td><td>Ambo water</td></tr><tr><td class="k">ውሃ</td><td>water</td></tr><tr><td class="k">ሻይ</td><td>tea</td></tr><tr><td class="k">ቢራ</td><td>beer</td></tr></table></div>
 {{ex:ፍርፍር እፈልጋለሁ||I want firfir.}}
 {{ex:ዶሮ ወጥ እፈልጋለሁ||I want chicken stew.}}
 {{ex:አምቦ ውሃ እፈልጋለሁ||I want Ambo water.}}

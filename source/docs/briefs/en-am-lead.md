@@ -1,10 +1,10 @@
-PROGRESS (updated 2026-11-21 11:41 CST)
+PROGRESS (updated 2026-11-21 12:08 CST)
 Course: en-am   Branch: cursor/en-am   PR: https://github.com/KyronEpperson/Lang-App/pull/5
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, merge check
-Next: review
-Checks: PASS: all checks OK. gen.js: 26 lessons, 17 decks, 301 cards. repron twice: 2 prons read, 0 rewritten. link_roadmap: 26 linked, not covered: none. packs/roadmaps.js was not kept.
-Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
-State: WORKING
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, merge check, review, hand-off
+Next: none
+Checks: after review, PASS: all checks OK. gen.js: 26 lessons, 17 decks, 301 cards. repron twice: 2 prons read, 0 rewritten (both are the word "pron" in the deck header comments). link_roadmap: 26 linked, not covered: none. packs/roadmaps.js was not kept.
+Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high; review = grok-4.7-xhigh (same family: gemini-4-neon-xhigh and claude-fable-5-2-max had no allowance)
+State: READY FOR REVIEW
 
 STOP, accepted: respell.js cannot be required on every card. The decision record sets pron: none. Writers leave every pron field empty. They do not hand-write a romanisation. The fidel lessons teach the reading in the English body.
 

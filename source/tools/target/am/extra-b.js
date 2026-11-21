@@ -8,7 +8,7 @@ exports.DIALOG = `
 አምቦ ውሃ | አምቦ ውሃ እወስዳለሁ | እሺ | I'll take an Ambo water / All right.
 ቡና እፈልጋለሁ | ምን ትፈልጋለህ? | ቡና እፈልጋለሁ | What do you want? (to a man) / I want coffee.
 አልወድም | ቢራ ትወዳለህ? | አልወድም | Do you like beer? (to a man) / I don't.
-መተኛት እፈልጋለሁ | መተኛት እፈልጋለሁ | እሺ በቃ | I want to sleep / All right, that's enough.
+መተኛት እፈልጋለሁ | መተኛት እፈልጋለሁ | እሺ | I want to sleep / All right.
 ሆቴሉ የት ነው? | ይቅርታ ሆቴሉ የት ነው? | ወደ ቀኝ ይሂዱ | Excuse me, where is the hotel? / Go to the right (polite).
 ከአሜሪካ ነኝ | ከየት ነህ? | ከአሜሪካ ነኝ | Where are you from? (to a man) / I'm from America.
 ጎንደር ሩቅ ናት | ጎንደር ሩቅ ናት? | አዎ ሩቅ ናት | Is Gondar far? / Yes, it is far.
@@ -28,7 +28,7 @@ exports.DIALOG = `
 
 exports.EXAMPLES = `
 ይህ መጽሀፍ ነው | አዳም ይህ መጽሀፍ ነው | Adam, this is a book.
-ቤቶች | አዲስ አበባ ብዙ ቤቶች አሉ | Addis Ababa has many houses.
+ቤቶች | አዲስ አበባ ብዙ ቤቶች አሉ | There are many houses in Addis Ababa.
 እንጀራ | እንጀራ ከወጥ ጋር እበላለሁ | I eat injera with stew.
 ቀይ ወጥ | ዛሬ ቀይ ወጥ እበላለሁ | Today I eat spicy red stew.
 መሄድ እፈልጋለሁ | ነገ መሄድ እፈልጋለሁ | I want to go tomorrow.

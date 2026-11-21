@@ -2,9 +2,9 @@
 module.exports = {
   "Classroom and home": `
 ይህ | | this (masculine) | Masculine this. A feminine noun takes ይህች.
-ይህች | | this (feminine) | Feminine this. Pointed at a person, it can sound small or rude.
+ይህች | | this (feminine) | Feminine this. ይህች ትግስት ናት is an ordinary introduction. Pointing and saying ይህች instead of her name can sound rude.
 ያ | | that (masculine) | Masculine that, farther away than ይህ.
-ያች | | that (feminine) | Feminine that. Same caution as ይህች if you point it at a person.
+ያች | | that (feminine) | Feminine that. Same caution as ይህች: pointing it at a person instead of using her name can sound rude.
 እነዚህ | | these | These, for any gender.
 እነዚያ | | those | Those, for any gender.
 መጽሀፍ | | a book | Masculine, so ይህ መጽሀፍ. Also spelled መጽሐፍ.

@@ -10,8 +10,8 @@ exports.DIALOG = `
 ከ | ይህ ከ ነው ወይስ ቀ? | ይህ ከ ነው | Is this ከ or ቀ? / This is ከ.
 ውሻ | ይህ ውሻ ነው? | አዎ ውሻ ነው | Is this a dog? / Yes, it is a dog.
 ጠ | ይህ ጠ ነው? | አዎ ጠ ነው | Is this ጠ? / Yes, it is ጠ.
-ድመት | ድመት ትንሽ ነው? | አዎ ትንሽ ነው | Is a cat small? / Yes, it is small.
-ገበያ | ገበያ ትልቅ ነው? | አዎ ትልቅ ነው | Is the market big? / Yes, it is big.
+ድመት | ድመት ትንሽ ናት? | አዎ ትንሽ ናት | Is a cat small? / Yes, it is small.
+ገበያ | ገበያው ትልቅ ነው? | አዎ ትልቅ ነው | Is the market big? / Yes, it is big.
 ገና | ገና ጠዋት ነው? | አዎ ገና ጠዋት ነው | Is it still morning? / Yes, it is still morning.
 አማርኛ | ይህ አማርኛ ነው? | አዎ አማርኛ ነው | Is this Amharic? / Yes, it is Amharic.
 አገር | ይህ አገር ኢትዮጵያ ነው? | አዎ ኢትዮጵያ ነው | Is this country Ethiopia? / Yes, it is Ethiopia.
@@ -33,16 +33,16 @@ exports.EXAMPLES = `
 ማ | ማ ሚ አይደለም | ማ is not ሚ.
 ሰው | ይህ ሰው አዳም ነው | This person is Adam.
 ሸሚዝ | ይህ ሸሚዝ አዲስ ነው | This shirt is new.
-አዲስ | ቤት አዲስ ነው | The house is new.
-ዛፍ | ዛፍ ትልቅ ነው | The tree is big.
-ጥሩ | ገበያ ጥሩ ነው | The market is good.
+አዲስ | ቤቱ አዲስ ነው | The house is new.
+ዛፍ | ዛፉ ትልቅ ነው | The tree is big.
+ጥሩ | ገበያው ጥሩ ነው | The market is good.
 ፍቅር | ፍቅር ጥሩ ነው | Love is good.
 ስልክ | ይህ ስልክ አዲስ ነው | This telephone is new.
 አዲስ አበባ | አዲስ አበባ ትልቅ ናት | Addis Ababa is big.
 ደህና አደርሽ? | ደህና አደርሽ እናቴ | Good morning, my mother.
 አመሰግናለሁ | ደህና ነኝ አመሰግናለሁ | I'm well, thank you.
 እሷ ናት | እሷ ትግስት ናት | She is Tigist.
-እኔ ኢትዮጵያዊ ነኝ | እኔ ኢትዮጵያዊ ነኝ እና አገሬ ኢትዮጵያ ነው | I am Ethiopian, and my country is Ethiopia.
+እኔ ኢትዮጵያዊ ነኝ | እኔ ኢትዮጵያዊ ነኝ እና አገሬ ኢትዮጵያ ነው | I am Ethiopian (a man), and my country is Ethiopia.
 ቤተሰብ | የአቶ ከበደ ቤተሰብ ትልቅ ነው | Ato Kebede's family is big.
 ወንድሜ | ወንድሜ አዳም ነው | My brother is Adam.
 አስር | ይህ አስር ብር ነው | This is ten birr.

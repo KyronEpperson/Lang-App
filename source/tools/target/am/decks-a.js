@@ -103,7 +103,7 @@ module.exports = {
 እርስዎ | | you (polite) | A stranger or an older person. Not አንተ.
 ደህና አደርክ? | | Good morning. (to a man) | Man form. Until about noon. A usual reply is ደህና እግዚአብሔር ይመስገን.
 ደህና አደርሽ? | | Good morning. (to a woman) | Woman form. Do not greet a woman with አደርክ.
-ደህና አደሩ? | | Good morning. (polite) | Polite form, for እርስዎ or for more than one person.
+ደህና አደሩ? | | Good morning. (polite) | Polite form, for እርስዎ. A group of friends is አደራችሁ.
 ደህና ዋልክ? | | Good afternoon. (to a man) | After noon, to a man. The verb ending is not the morning one.
 ደህና ዋልሽ? | | Good afternoon. (to a woman) | Woman form of the afternoon greeting.
 ደህና ዋሉ? | | Good afternoon. (polite) | Polite afternoon greeting.
@@ -159,7 +159,7 @@ module.exports = {
 አንድ | | one | The teens use አስራ in front: አስራ አንድ is eleven.
 ሁለት | | two | አስራ ሁለት is twelve. ሁለት መቶ is two hundred.
 ሶስት | | three | Peace Corps spelling. Also written ሦስት.
-አራት | | four | From 31 on, the ten and the unit stay two words.
+አራት | | four | አርባ አራት is forty-four, two words. The ten and the unit stay two words.
 አምስት | | five | Forty-five is አርባ አምስት.
 ስድስት | | six | Not the word ሰባት.
 ሰባት | | seven | A week has ሰባት days.

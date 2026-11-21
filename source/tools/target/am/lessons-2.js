@@ -9,7 +9,7 @@ module.exports = [
     body: `
 <p>English has one word, this, for a book and for a woman. Amharic looks at the noun. Near you, a masculine noun takes <b>ይህ</b> and a feminine noun takes <b>ይህች</b>. Farther away, a masculine noun takes <b>ያ</b> and a feminine noun takes <b>ያች</b>. One English word cannot cover those four.</p>
 <h3>The noun, then "to be"</h3>
-<p>English says "this is a book," with is in the middle. Amharic says the demonstrative, then the noun, then the copula at the end. Copula is the little "to be." A book, a pen and a house are masculine in this course, so the verb ending is <b>ነው</b>. You already know <b>ቤቱ</b> for the house. Do not pile that definite ending on top of <b>ይህ</b> or <b>ያ</b>.</p>
+<p>English says "this is a book," with is in the middle. Amharic says the demonstrative, then the noun, then the copula at the end. Copula is the little "to be." A book, a pen and a house are masculine in this course, so the verb ending is <b>ነው</b>. For "this is a book," the noun stays bare: <b>ይህ መጽሐፍ ነው</b>, not <b>ይህ መጽሐፉ</b>. A house you already have in mind can still be <b>ቤቱ</b>. <b>ይህ ቤቱ ነው</b> is a real sentence.</p>
 {{ex:ይህ መጽሐፍ ነው።||This is a book.}}
 {{ex:ይህ ብዕር ነው።||This is a pen.}}
 {{ex:ያ ቤት ነው።||That is a house.}}
@@ -67,7 +67,7 @@ module.exports = [
 <tr><td class="k">ስንት</td><td>how many, how much</td></tr>
 <tr><td class="k">እንዴት</td><td>how</td></tr>
 </table></div>
-<p>Put the question word in front of the copula. <b>ምንድን ነው</b> is "what is it?" Said quickly, that is one word, <b>ምንድነው</b>. <b>ምን ነው</b> is the same question. Names use <b>ማን</b>, who, which you already saw in <b>ስምሽ ማን ነው</b>. The name is the subject there, so the verb ending stays <b>ነው</b> even when you ask a woman. <b>ማን ነሽ</b> is different: it asks who you are, and you, a woman, are the subject.</p>
+<p>Put the question word in front of the copula. <b>ምንድን ነው</b> is "what is it?" Said quickly, that is one word, <b>ምንድነው</b>. <b>ምን ነው</b> is the same question. Names use <b>ማን</b>, who, which you already saw in <b>ስምሽ ማን ነው</b>. <b>ስም</b>, the word for name, is the subject there, so the verb ending stays <b>ነው</b> even when you ask a woman. <b>ማን ነሽ</b> is different: it asks who you are, and you, a woman, are the subject.</p>
 {{ex:ይህ ምንድን ነው?||What is this?}}
 {{ex:ስምሽ ማን ነው?||What is your name? (to a woman)}}
 {{ex:ማን ነሽ?||Who are you? (to a woman)}}
@@ -120,8 +120,8 @@ module.exports = [
 <tr><td>6</td><td class="k">ስድስት</td><td>100</td><td class="k">መቶ</td></tr>
 </table></div>
 <p>You will also see three written <b>ሦስት</b>, ten written <b>ዐስር</b>, and twenty written <b>ሀያ</b>. Same words. This course writes <b>ሶስት</b>, <b>አስር</b> and <b>ሃያ</b>. Eleven through nineteen set <b>አስራ</b> in front of the small number: <b>አስራ አንድ</b> is eleven. The other tens are their own words. Leave them until a price needs them. Twenty is not "two tens."</p>
-<h3>After a number, keep the noun singular</h3>
-<p>English adds an s: two houses. Amharic leaves the noun singular once a number is there: <b>ሁለት ቤት</b>, not the plural <b>ቤቶች</b>. Keep <b>ቤቶች</b> for houses you are not counting. The copula still notices how many there are. One masculine thing takes <b>ነው</b>. More than one takes <b>ናቸው</b>, the verb ending for they. When someone asks how many, answer with the number word, the singular noun, and <b>ናቸው</b>. Do not read the fidel as if it were the digit. Say the word out loud: one through ten, then twenty, then a hundred.</p>
+<h3>After a number, the line to learn is singular</h3>
+<p>English adds an s: two houses. The line to learn is the singular noun: <b>ሁለት ቤት</b>. A plural after a number also occurs, including <b>ሁለት ድመቶች</b>. Do not treat that plural as a mistake. Do not add an English s. <b>ቤትስ</b> is not a word. The copula still notices how many there are. One masculine thing takes <b>ነው</b>. More than one takes <b>ናቸው</b>, the verb ending for they. When someone asks how many, answer with the number word and <b>ናቸው</b>. Do not read the fidel as if it were the digit. Say the word out loud: one through ten, then twenty, then a hundred.</p>
 {{ex:አንድ መጽሐፍ ነው።||It is one book.}}
 {{ex:ሁለት ቤት ናቸው።||They are two houses.}}
 {{ex:አስር ብዕር ናቸው።||They are ten pens.}}
@@ -133,28 +133,28 @@ module.exports = [
 {{ex:ይህች አንድ ሴት ናት።||This is one woman.}}
 {{ex:አቶ ከበደ አንድ ወንድ ነው።||Ato Kebede is one man.}}
 {{ex:እርስዎ አንድ ነዎት።||You are one. (polite)}}
-<div class="tip">Do not answer with a digit, and do not add the plural. <b>2 ቤቶች</b> → <b>ሁለት ቤት</b>.</div>
+<div class="tip">Do not answer with a digit, and do not add an English s. <b>2 ቤትስ</b> → <b>ሁለት ቤት</b>.</div>
 `,
     check: [
       ["Five =", ["አራት", "ስድስት", "አምስት", "ሰባት"], 2, "Five is አምስት. ስድስት is six."],
-      ["'They are two houses' =", ["ሁለት ቤት ነህ።", "ሁለት ቤት ናቸው።", "ሁለት ቤት ነሽ።", "ሁለት ቤት ነኝ።"], 1, "More than one takes the verb ending ናቸው, and the noun stays singular."],
+      ["'They are two houses' =", ["ሁለት ቤት ነህ።", "ሁለት ቤት ናቸው።", "ሁለት ቤት ነሽ።", "ሁለት ቤት ነኝ።"], 1, "More than one takes the verb ending ናቸው. This line keeps ቤት singular."],
       ["Twenty =", ["አስር", "መቶ", "ሁለት አስር", "ሃያ"], 3, "Twenty is its own word, ሃያ. ሀያ is the same word."]
     ],
     practice: [
       ["mc", "'Three' =", "ሶስት", "ሁለት", "አራት", "ሃያ", "Three is ሶስት. ሦስት is the same word."],
       ["mc", "'Ten' =", "አስር", "አንድ", "መቶ", "ሁለት", "Ten is አስር. ዐስር is the same word."],
       ["mc", "'A hundred' =", "መቶ", "ሃያ", "አስር", "አምስት", "A hundred is መቶ, not twenty."],
-      ["mc", "'Two houses,' with the number said", "ሁለት ቤት", "ሁለት ቤቶች", "ቤት ሁለት", "ሁለት ቤት ነህ", "In this Addis Ababa course the noun stays singular after a number."],
+      ["mc", "'Two houses,' with the number said", "ሁለት ቤት", "ሁለት ቤትስ", "ቤት ሁለት", "ሁለት ቤት ነህ", "Say the number, then the singular noun: ሁለት ቤት. An English s, ቤትስ, is not the plural."],
       ["mc", "'They are ten houses' =", "አስር ቤት ናቸው", "አስር ቤት ነው", "አስር ቤት ነሽ", "ቤት አስር ነኝ", "More than one takes the verb ending ናቸው."],
       ["or", "This is one book.", "ይህ | አንድ | መጽሐፍ | ነው", "ናት", "መጽሐፍ is masculine, so the verb ending is ነው."],
       ["or", "This is one woman.", "ይህች | አንድ | ሴት | ናት", "ነው", "ሴት takes the feminine verb ending ናት."],
       ["or", "They are twenty houses. (keep ቤት singular)", "ሃያ | ቤት | ናቸው", "ነው ቤቶች", "The verb ending ናቸው agrees with the subject, more than one house."],
-      ["fi", "__ ቤት ናቸው", "They are three houses.", "ሶስት|ሦስት", "ሁለት|አራት|አስር", "Three is ሶስት. ሦስት is the same word, and the noun stays singular."],
+      ["fi", "__ ቤት ናቸው", "They are three houses.", "ሶስት|ሦስት", "ሁለት|አራት|አስር", "Three is ሶስት. ሦስት is the same word. This line keeps ቤት singular."],
       ["fi", "አንድ መጽሐፍ __", "It is one book.", "ነው", "ናት|ናቸው|ነህ", "One book is masculine, so the verb ending is ነው."],
       ["fi", "ይህች አንድ ሴት __", "This is one woman.", "ናት|ነች", "ነው|ነህ|ናቸው", "ሴት takes the feminine verb ending ናት."],
       ["ty", "Ato Kebede is one man.", "አቶ ከበደ አንድ ወንድ ነው|እሱ አቶ ከበደ አንድ ወንድ ነው", "አቶ ከበደ · አንድ · ወንድ · ነው", "ናት", "Ato Kebede takes the masculine verb ending ነው."],
       ["ty", "Tigist is one woman.", "ትግስት አንድ ሴት ናት|ትግስት አንድ ሴት ነች|እሷ ትግስት አንድ ሴት ናት|እሷ ትግስት አንድ ሴት ነች", "ትግስት · አንድ · ሴት · ናት", "ነው", "Tigist takes the woman form, so the verb ending is ናት."],
-      ["ty", "They are three houses. (keep ቤት singular)", "ሶስት ቤት ናቸው|ሦስት ቤት ናቸው", "ሶስት · ቤት · ናቸው", "ቤቶች ነው", "After a number the noun stays singular. Three is ሶስት, and ሦስት is the same word."]
+      ["ty", "They are three houses. (keep ቤት singular)", "ሶስት ቤት ናቸው|ሦስት ቤት ናቸው", "ሶስት · ቤት · ናቸው", "ቤቶች ነው", "This line keeps the noun singular. Three is ሶስት, and ሦስት is the same word."]
     ]
   },
   {
@@ -228,7 +228,7 @@ module.exports = [
 <tr><td>he</td><td class="k">አለው</td><td class="k">የለውም</td></tr>
 <tr><td>she</td><td class="k">አላት</td><td class="k">የላትም</td></tr>
 </table></div>
-<p>The woman form is <b>አለሽ</b>, not the man's <b>አለህ</b>. The form for she has is <b>አላት</b>, not <b>አለው</b>. A stranger or an older person gets the polite form <b>አለዎት</b>. For <b>እኛ</b>, the forms are <b>አለን</b> and <b>የለንም</b>. With no owner, "there is not" is <b>የለም</b>. The <b>ም</b> at the end means not. Other verbs get a wider pattern in the negative lesson. Do not say <b>አላለኝም</b>. If you name the owner, put that word first: <b>እኔ መጽሐፍ አለኝ</b>. You can leave it off, because <b>አለኝ</b> already says I. Do not borrow <b>ነው</b> here. Have is <b>አለ</b>, not the copula. A pen, a book and a house are enough to practice every person in the set.</p>
+<p>The woman form is <b>አለሽ</b>, not the man's <b>አለህ</b>. The form for she has is <b>አላት</b>, not <b>አለው</b>. A stranger or an older person gets the polite form <b>አለዎት</b>. For <b>እኛ</b>, the forms are <b>አለን</b> and <b>የለንም</b>. With no owner, "there is not" is <b>የለም</b>. The <b>ም</b> at the end means not. Other verbs get a wider pattern in the negative lesson. Do not say <b>አላለኝም</b>. If you name the owner, put that word first: <b>እኔ መጽሐፍ አለኝ</b>. You can leave it off, because <b>አለኝ</b> already says I. Do not borrow <b>ነው</b> here. Have is <b>አለ</b>, not the copula. A pen, a book and a house are enough to practice every person in the set. Those are one thing, so the verb is <b>አለ</b>. Two or more switch to the they-form. The Peace Corps manual says <b>ሁለት ድመቶች አሉኝ</b>, I have two cats.</p>
 {{ex:ብዕር አለሽ።||You have a pen. (to a woman)}}
 {{ex:ቤት አለህ።||You have a house. (to a man)}}
 {{ex:መጽሐፍ አለዎት።||You have a book. (polite)}}
@@ -236,6 +236,7 @@ module.exports = [
 {{ex:ብዕር የለኝም።||I do not have a pen.}}
 {{ex:መጽሐፍ የለሽም።||You do not have a book. (to a woman)}}
 {{ex:ቤት የለም።||There is no house.}}
+{{ex:ሁለት ድመቶች አሉኝ።||I have two cats.}}
 <div class="tip">Have does not sit in the middle. <b>አለኝ መጽሐፍ</b> → <b>መጽሐፍ አለኝ</b>.</div>
 `,
     check: [
@@ -361,39 +362,39 @@ module.exports = [
 <p>English makes a new verb with will: I go, I will go. Amharic uses one form for both. It is the imperfective, which covers present and future. <b>ወደ ቤት እሄዳለሁ</b> is I go home and I will go home. You do not add a second tense. A time word, later, can say which you mean. The past you just learned is a different ending: <b>ሄድኩ</b> is I went, not I go.</p>
 <div class="tbl"><table>
 <tr><th></th><th>I</th><th>you, a man</th><th>you, a woman</th><th>he</th><th>she</th><th>polite</th></tr>
-<tr><td>go</td><td class="k">እሄዳለሁ</td><td class="k">ትሄዳለህ</td><td class="k">ትሄዳለሽ</td><td class="k">ይሄዳል</td><td class="k">ትሄዳለች</td><td class="k">ይሄዳሉ</td></tr>
-<tr><td>drink</td><td class="k">እጠጣለሁ</td><td class="k">ትጠጣለህ</td><td class="k">ትጠጣለሽ</td><td class="k">ይጠጣል</td><td class="k">ትጠጣለች</td><td class="k">ይጠጣሉ</td></tr>
+<tr><td>go</td><td class="k">እሄዳለሁ</td><td class="k">ትሄዳለህ</td><td class="k">ትሄጃለሽ</td><td class="k">ይሄዳል</td><td class="k">ትሄዳለች</td><td class="k">ይሄዳሉ</td></tr>
+<tr><td>drink</td><td class="k">እጠጣለሁ</td><td class="k">ትጠጣለህ</td><td class="k">ትጠጫለሽ</td><td class="k">ይጠጣል</td><td class="k">ትጠጣለች</td><td class="k">ይጠጣሉ</td></tr>
 </table></div>
-<p>The start and the ending change together. I starts with <b>እ</b>. He starts with <b>ይ</b>. She and you start with <b>ት</b>. The polite form, and they, share <b>ይሄዳሉ</b> and <b>ይጠጣሉ</b>. Say <b>እርስዎ</b> or <b>እነሱ</b> when you need to show which. For <b>እኛ</b>, the form is <b>እንሄዳለን</b>. The place or the object still comes before the verb. A daily habit and a later plan use this same form. Both "I drink coffee every day" and "I will drink coffee later" are <b>ቡና እጠጣለሁ</b>. What you cannot skip is the person: <b>ትሄዳለሽ</b> to a woman, <b>ትሄዳለህ</b> to a man, and <b>ይሄዳሉ</b> to a stranger.</p>
+<p>The start and the ending change together. I starts with <b>እ</b>. He starts with <b>ይ</b>. She and you start with <b>ት</b>. The polite form, and they, share <b>ይሄዳሉ</b> and <b>ይጠጣሉ</b>. Say <b>እርስዎ</b> or <b>እነሱ</b> when you need to show which. For <b>እኛ</b>, the form is <b>እንሄዳለን</b>. The place or the object still comes before the verb. A daily habit and a later plan use this same form. Both "I drink coffee every day" and "I will drink coffee later" are <b>ቡና እጠጣለሁ</b>. What you cannot skip is the person: <b>ትሄጃለሽ</b> to a woman, <b>ትሄዳለህ</b> to a man, and <b>ይሄዳሉ</b> to a stranger. The woman form changes the last consonant of the root. d becomes j.</p>
 {{ex:ወደ ቤት እሄዳለሁ።||I go home, and I will go home.}}
-{{ex:ወደ አዲስ አበባ ትሄዳለሽ።||You go to Addis Ababa. (to a woman)}}
+{{ex:ወደ አዲስ አበባ ትሄጃለሽ።||You go to Addis Ababa. (to a woman)}}
 {{ex:ወደ ጎንደር ይሄዳል።||He goes to Gondar, and he will go.}}
 {{ex:ቡና እጠጣለሁ።||I drink coffee, and I will drink coffee.}}
 <h3>Do not hand a woman the man's form</h3>
-<p><b>ትሄዳለህ</b> is you go, to a man. <b>ትሄዳለሽ</b> is the woman form. <b>ትጠጣለህ</b> and <b>ትጠጣለሽ</b> are the same split for drink. She goes is <b>ትሄዳለች</b>, not <b>ይሄዳል</b>. The definite coffee still takes the object ending: <b>ቡናውን እጠጣለሁ</b>, I drink the coffee. Some coffee, with no "the," is just <b>ቡና</b>.</p>
+<p><b>ትሄዳለህ</b> is you go, to a man. <b>ትሄጃለሽ</b> is the woman form: the d has become j. Do not say <b>ትሄዳለሽ</b>. She does not palatalize in this present. She goes is <b>ትሄዳለች</b>, not <b>ይሄዳል</b>. Drink splits the same way. <b>ትጠጣለህ</b> is the man form. <b>ትጠጫለሽ</b> is the woman form: the last <b>ጠ</b> becomes <b>ጨ</b>. Do not say <b>ትጠጣለሽ</b>. The definite coffee still takes the object ending: <b>ቡናውን እጠጣለሁ</b>, I drink the coffee. Some coffee, with no "the," is just <b>ቡና</b>.</p>
 {{ex:ቡናውን ትጠጣለህ።||You drink the coffee. (to a man)}}
 {{ex:ወደ ቤት ትሄዳለች።||She goes home.}}
 {{ex:እርስዎ ወደ አዲስ አበባ ይሄዳሉ።||You go to Addis Ababa. (polite)}}
-<div class="tip">There is no second future, and a woman does not take the man's ending. <b>ትሄዳለህ</b> to a woman → <b>ትሄዳለሽ</b>.</div>
+<div class="tip">There is no second future, and a woman does not take the man's ending. <b>ትሄዳለህ</b> to a woman → <b>ትሄጃለሽ</b>, not <b>ትሄዳለሽ</b>.</div>
 `,
     check: [
       ["'I will go home' =", ["ወደ ቤት እሄዳለሁ።", "ወደ ቤት ሄድኩ።", "እሄዳለሁ ወደ ቤት።", "ወደ ቤት ትሄዳለህ።"], 0, "እሄዳለሁ is I go and I will go. ሄድኩ is the past."],
-      ["'You drink coffee,' to a woman =", ["ቡና ትጠጣለህ።", "ቡና ይጠጣል።", "ቡና እጠጣለሁ።", "ቡና ትጠጣለሽ።"], 3, "The woman form is ትጠጣለሽ."],
+      ["'You drink coffee,' to a woman =", ["ቡና ትጠጣለህ።", "ቡና ይጠጣል።", "ቡና ትጠጣለሽ።", "ቡና ትጠጫለሽ።"], 3, "The woman form is ትጠጫለሽ. ትጠጣለሽ leaves the consonant unpalatalized."],
       ["'He goes to Gondar' =", ["ትሄዳለች ወደ ጎንደር።", "ወደ ጎንደር ትሄዳለች።", "ወደ ጎንደር ይሄዳል።", "ወደ ጎንደር ትሄዳለህ።"], 2, "The masculine verb ending is ይሄዳል, after the place."]
     ],
     practice: [
       ["mc", "'I go,' and also 'I will go' =", "እሄዳለሁ", "ሄድኩ", "ትሄዳለህ", "ይሄዳል", "እሄዳለሁ covers now and later. ሄድኩ is I went."],
-      ["mc", "'You go' (to a woman) =", "ትሄዳለሽ", "ትሄዳለህ", "ትሄዳለች", "እሄዳለሁ", "The woman form is ትሄዳለሽ, not the man form ትሄዳለህ."],
+      ["mc", "'You go' (to a woman) =", "ትሄጃለሽ", "ትሄዳለህ", "ትሄዳለች", "ትሄዳለሽ", "The woman form is ትሄጃለሽ. The d becomes j. ትሄዳለሽ leaves it unpalatalized."],
       ["mc", "'He goes' =", "ይሄዳል", "ትሄዳለች", "እሄዳለሁ", "ትሄዳለህ", "He starts with ይ. The masculine verb ending is ይሄዳል."],
       ["mc", "'I drink coffee' =", "ቡና እጠጣለሁ", "እጠጣለሁ ቡና", "ቡና ትጠጣለህ", "ቡና ጠጣሁ", "The coffee comes first. እጠጣለሁ is I drink, not the past."],
       ["mc", "'You go' (polite) =", "ይሄዳሉ", "ትሄዳለህ", "እሄዳለሁ", "ይሄዳል", "The polite form is ይሄዳሉ. ይሄዳል is he."],
-      ["or", "You go home. (to a woman)", "ወደ | ቤት | ትሄዳለሽ", "ትሄዳለህ", "The woman form is ትሄዳለሽ, not the man form."],
+      ["or", "You go home. (to a woman)", "ወደ | ቤት | ትሄጃለሽ", "ትሄዳለህ", "The woman form is ትሄጃለሽ, not the man form."],
       ["or", "I drink the coffee.", "ቡናውን | እጠጣለሁ", "ትጠጣለህ", "The verb ending እጠጣለሁ agrees with the subject እኔ."],
       ["or", "He goes to Gondar.", "ወደ | ጎንደር | ይሄዳል", "ትሄዳለች", "The masculine verb ending is ይሄዳል."],
       ["fi", "ወደ ቤት __", "I go home.", "እሄዳለሁ", "ትሄዳለህ|ይሄዳል|ሄድኩ", "I go, now or later, is እሄዳለሁ."],
-      ["fi", "ቡና __", "You drink coffee. (to a woman)", "ትጠጣለሽ", "ትጠጣለህ|እጠጣለሁ|ትሄዳለሽ", "The woman form for drink is ትጠጣለሽ."],
-      ["fi", "ወደ ጎንደር __", "She goes to Gondar.", "ትሄዳለች", "ይሄዳል|ትሄዳለሽ|እሄዳለሁ", "She takes the feminine verb ending ትሄዳለች."],
-      ["ty", "You drink coffee. (to a man)", "ቡና ትጠጣለህ|አንተ ቡና ትጠጣለህ", "ጠጣ · ቡና · man", "ትጠጣለሽ", "The man form is ትጠጣለህ. This same form is present and future."],
+      ["fi", "ቡና __", "You drink coffee. (to a woman)", "ትጠጫለሽ", "ትጠጣለህ|ትጠጣለሽ|እጠጣለሁ", "The woman form for drink is ትጠጫለሽ. ትጠጣለሽ leaves the consonant unpalatalized."],
+      ["fi", "ወደ ጎንደር __", "She goes to Gondar.", "ትሄዳለች", "ይሄዳል|ትሄጃለሽ|እሄዳለሁ", "She takes the feminine verb ending ትሄዳለች."],
+      ["ty", "You drink coffee. (to a man)", "ቡና ትጠጣለህ|አንተ ቡና ትጠጣለህ", "ጠጣ · ቡና · man", "ትጠጫለሽ", "The man form is ትጠጣለህ. This same form is present and future."],
       ["ty", "She goes home.", "ወደ ቤት ትሄዳለች|እሷ ወደ ቤት ትሄዳለች", "ሄደ · ወደ ቤት · feminine", "ይሄዳል", "The feminine verb ending is ትሄዳለች."],
       ["ty", "You go to Addis Ababa. (polite)", "ወደ አዲስ አበባ ይሄዳሉ|እርስዎ ወደ አዲስ አበባ ይሄዳሉ", "ሄደ · ወደ · አዲስ አበባ · polite", "ትሄዳለህ", "The polite form is ይሄዳሉ."]
     ]
@@ -444,7 +445,7 @@ module.exports = [
       ["or", "I do not go home.", "ወደ | ቤት | አልሄድም", "አይሄድም", "The verb ending አልሄድም agrees with the subject እኔ."],
       ["or", "She did not go home.", "ወደ | ቤት | አልሄደችም", "አልሄደም", "The feminine verb ending is አልሄደችም."],
       ["fi", "ወደ ቤት __", "I did not go home.", "አልሄድኩም", "አልሄድም|አልሄድክም|ሄድኩ", "The past wrap for I is አልሄድኩም."],
-      ["fi", "አንቺ ወደ ቤት __", "You do not go home. (to a woman)", "አትሄጂም", "አትሄድም|አልሄድሽም|ትሄዳለሽ", "The woman form of the present negative is አትሄጂም."],
+      ["fi", "አንቺ ወደ ቤት __", "You do not go home. (to a woman)", "አትሄጂም", "አትሄድም|አልሄድሽም|ትሄጃለሽ", "The woman form of the present negative is አትሄጂም."],
       ["fi", "ቡናውን __", "I did not drink the coffee.", "አልጠጣሁም", "ጠጣሁ|አልሄድኩም|አልጠጣህም", "Wrap ጠጣሁ. The object ending is already on ቡናውን."],
       ["ty", "You did not go home. (to a man)", "ወደ ቤት አልሄድክም|አንተ ወደ ቤት አልሄድክም", "ሄደ · ወደ ቤት · man", "አልሄድሽም", "The man form is አልሄድክም."],
       ["ty", "I did not go to Addis Ababa.", "ወደ አዲስ አበባ አልሄድኩም|እኔ ወደ አዲስ አበባ አልሄድኩም", "ሄደ · ወደ · አዲስ አበባ", "አልሄድክም", "The verb ending inside the negative agrees with the subject እኔ."],

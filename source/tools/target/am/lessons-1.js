@@ -74,7 +74,7 @@ module.exports = [
 <tr><td class="k">ሐ</td><td>h, the same sound as ሀ</td></tr>
 <tr><td class="k">መ</td><td>m</td></tr>
 <tr><td class="k">ሠ</td><td>s, the same sound as ሰ</td></tr>
-<tr><td class="k">ረ</td><td>r, a rolled r</td></tr>
+<tr><td class="k">ረ</td><td>r, a tap when short, a trill when held</td></tr>
 <tr><td class="k">ሰ</td><td>s, the same sound as ሠ</td></tr>
 <tr><td class="k">ሸ</td><td>sh, as in ship</td></tr>
 <tr><td class="k">ቀ</td><td>an ejective. Not a plain k</td></tr>
@@ -170,17 +170,17 @@ module.exports = [
       ["mc", "Which letter is a plain k?", "ከ", "ቀ", "ኸ", "ኀ", "ከ is the plain k. ቀ is the ejective. ኸ and ኀ are h."],
       ["mc", "Which letter writes a vowel with no consonant?", "አ", "ነ", "ወ", "ዘ", "አ is a vowel carrier. ነ is n, ወ is w, ዘ is z."],
       ["mc", "Water is…", "ውሃ", "አበባ", "ሰላም", "ቤት", "ውሃ is water. አበባ is flower."],
-      ["mc", "Hello, Abebech is…", "ሰላም አበበች", "አበበች ሰላም", "ሰላም አበባ", "ሠላም አበበች", "The hello comes first, and the name uses አ, not a different carrier."],
+      ["mc", "Which line is hello to Abebech, spelled with ሰ?", "ሰላም አበበች", "ሠላም አበበች", "ሰላም አበባ", "አበባ ሰላም", "Hello is ሰላም, with ሰ, then the name. አበበች ሰላም, name first, is also ordinary."],
       ["mc", "He is fine. Which matches?", "ደህና ነው", "ደህና ነሽ", "ደህና ነህ", "ነው ደህና", "The verb ending ነው is the he form, and it comes last."],
       ["or", "You are fine (to a man)", "ደህና ነህ", "ነሽ", "The verb ending ነህ is the man form."],
       ["or", "You are fine (to a woman)", "ደህና ነሽ", "ነህ", "The woman form of the verb ending is ነሽ."],
-      ["or", "Hello, Abebech", "ሰላም አበበች", "ቤት", "Hello plus the name is ሰላም አበበች."],
+      ["or", "Hello, Abebech (hello first)", "ሰላም አበበች", "ቤት", "Hello plus the name is ሰላም አበበች. Name first is also ordinary."],
       ["fi", "ው__", "water", "ሃ", "ሀ|ለ|ነ", "Water is ውሃ, sixth-order w and then ሃ."],
       ["fi", "ደህና __", "you are fine (to a woman)", "ነሽ", "ነህ|ነው|ናት", "The woman form of the verb ending is ነሽ."],
       ["fi", "ደህና __", "he is fine", "ነው", "ነህ|ነሽ|ናት", "The verb ending ነው is the he form."],
       ["ty", "You are fine (to a man, two words)", "ደህና ነህ", "ደህና · ነህ · man form", "ነሽ", "The verb ending ነህ is the man form."],
       ["ty", "He is fine (two words)", "ደህና ነው", "ደህና · ነው · he", "ነሽ", "The verb ending ነው matches he, not the woman form ነሽ."],
-      ["ty", "Hello, Abebech", "ሰላም አበበች", "ሰላም · አበበች · hello, then the name", "ቤት", "Hello plus the name is ሰላም አበበች."]
+      ["ty", "Hello, Abebech", "ሰላም አበበች|አበበች ሰላም", "ሰላም · አበበች · hello, then the name", "ቤት", "Hello plus the name is ሰላም አበበች. Name first, አበበች ሰላም, is also ordinary."]
     ]
   },
   {
@@ -273,7 +273,7 @@ module.exports = [
 {{ex:ገና||still, or Christmas. The long n is not written}}
 {{ex:አለ||he said, or there is. The long l is not written}}
 <h3>A rolled r, and a real place</h3>
-<p><b>ረ</b> is a trill when it is rolled. English speakers often use a quick tap. In <b>ሀገር</b>, roll the r if the audio does. The book <b>መጽሐፍ</b> puts three lessons in one word: the ejective <b>ጸ</b>, the h letter <b>ሐ</b>, and a sixth-order <b>ፈ</b> at the end. The city you are learning for is two words.</p>
+<p><b>ረ</b> is a trill when it is held, and a tap when it is short. English speakers often use only the tap. In <b>ሀገር</b>, follow the audio. The book <b>መጽሐፍ</b> puts three lessons in one word: the ejective <b>ጸ</b>, the h letter <b>ሐ</b>, and a sixth-order <b>ፈ</b> at the end. You will also see <b>መጽሀፍ</b>, the Peace Corps spelling. Same word. The city you are learning for is two words.</p>
 {{ex:መጽሐፍ||book}}
 {{ex:አዲስ አበባ||Addis Ababa}}
 <p>The practice still asks for the man form and the woman form. <b>ነህ</b> and <b>ነሽ</b> did not go away when the letters got easier.</p>
@@ -287,7 +287,7 @@ module.exports = [
     practice: [
       ["mc", "Which set is one h sound?", "ሀ, ሐ, ኀ, ኸ", "ሰ, ሸ, ጸ", "ቀ, ከ, ገ", "ጠ, ተ, ደ", "The four h letters are one sound in Addis Ababa."],
       ["mc", "Ball is…", "ኳስ", "ጓደኛ", "አቧራ", "አበባ", "ኳስ is ball, with the -wa form of plain k."],
-      ["mc", "Book is…", "መጽሐፍ", "መጽሀፍ", "መስሐፍ", "ሀገር", "Book is መጽሐፍ, with ሐ and the ejective ጸ."],
+      ["mc", "Which of these is a spelling of book?", "መጽሐፍ", "መጽሰፍ", "መስሐፍ", "ሀገር", "መጽሐፍ shows ሐ and the ejective ጸ. መጽሀፍ, with ሀ, is the same word."],
       ["mc", "አለ, as written, can mean…", "he said, or there is", "only he said", "only there is", "Christmas", "The long l of there is is not written. he said is the short l."],
       ["mc", "You are fine, to a woman. Which matches?", "ደህና ነሽ", "ደህና ነህ", "ነህ ደህና", "አዲስ ነሽ", "The woman form of the verb ending is ነሽ."],
       ["or", "You are fine (to a man)", "ደህና ነህ", "ነሽ", "The verb ending ነህ is the man form."],
@@ -317,7 +317,7 @@ module.exports = [
 <div class="tbl"><table><tr><th></th><th>To a man, አንተ</th><th>To a woman, አንቺ</th><th>Polite, እርስዎ</th></tr>
 <tr><td>morning</td><td class="k">ደህና አደርክ</td><td class="k">ደህና አደርሽ</td><td class="k">ደህና አደሩ</td></tr>
 <tr><td>afternoon</td><td class="k">ደህና ዋልክ</td><td class="k">ደህና ዋልሽ</td><td class="k">ደህና ዋሉ</td></tr>
-<tr><td>evening</td><td class="k">ደህና አመሽክ</td><td class="k">ደህና አመሽሽ</td><td class="k">ደህና አመሹ</td></tr>
+<tr><td>evening</td><td class="k">ደህና አመሸህ</td><td class="k">ደህና አመሸሽ</td><td class="k">ደህና አመሹ</td></tr>
 <tr><td>night</td><td class="k">ደህና እደር</td><td class="k">ደህና እደሪ</td><td class="k">ደህና እደሩ</td></tr>
 </table></div>
 {{ex:ደህና አደርክ||good morning (to a man)}}
@@ -326,7 +326,7 @@ module.exports = [
 {{ex:ደህና ዋልሽ||good afternoon (to a woman)}}
 {{ex:ደህና አመሹ||good evening (polite)}}
 {{ex:ደህና እደሩ||good night (polite, or to more than one person)}}
-<p>At night, <b>ደህና እደሩ</b> is the polite goodbye, and it is also what you say to more than one person. A group of friends uses a different you, <b>እናንተ</b>, which the pronoun lesson will line up. Do not use one morning line for every person and every hour.</p>
+<p>Morning and afternoon put <b>ክ</b> and <b>ሽ</b> on a consonant: <b>አደርክ</b>, <b>ዋልክ</b>. Evening does not. The man form is <b>አመሸህ</b> and the woman form is <b>አመሸሽ</b>. <b>አመሽክ</b> is not the evening greeting. In the morning, <b>አደሩ</b> is the polite form, for <b>እርስዎ</b>. A group of friends uses <b>እናንተ</b>, and the morning greeting for them is <b>አደራችሁ</b>. The pronoun lesson lines <b>እናንተ</b> up. At night, <b>ደህና እደሩ</b> is the polite goodbye, and it is also what you say to more than one person. Do not use one morning line for every person and every hour.</p>
 <h3>The reply, and thank you</h3>
 <p>A simple reply is <b>ደህና ነኝ</b>, I am fine. <b>ነኝ</b> is the verb ending for I. It stays <b>ነኝ</b> whether the speaker is a man or a woman. The ending that changes is the one in the greeting you said first, and it matches the person you are talking to. Then say <b>አመሰግናለሁ</b>, thank you. That word already means I thank. Do not change its ending to match the listener.</p>
 {{ex:ደህና ነኝ||I am fine}}
@@ -341,7 +341,7 @@ module.exports = [
     practice: [
       ["mc", "Hello, any person, any hour, not the formal one =", "ሰላም", "ጤና ይስጥልኝ", "አመሰግናለሁ", "ደህና ነኝ", "ሰላም is hello. ጤና ይስጥልኝ is the formal one."],
       ["mc", "Good afternoon, to a man =", "ደህና ዋልክ", "ደህና ዋልሽ", "ደህና ዋሉ", "ደህና አደርክ", "The man form in the afternoon is ዋልክ. አደርክ is morning."],
-      ["mc", "Good evening, polite =", "ደህና አመሹ", "ደህና አመሽክ", "ደህና አመሽሽ", "ደህና እደሩ", "The polite form in the evening is አመሹ. እደሩ is the night goodbye."],
+      ["mc", "Good evening, polite =", "ደህና አመሹ", "ደህና አመሸህ", "ደህና አመሸሽ", "ደህና እደሩ", "The polite form in the evening is አመሹ. እደሩ is the night goodbye."],
       ["mc", "I am fine =", "ደህና ነኝ", "ደህና ነህ", "ደህና ነሽ", "አመሰግናለሁ", "ነኝ is the verb ending for I. ነህ is the man form."],
       ["mc", "Good night, to a woman =", "ደህና እደሪ", "ደህና እደር", "ደህና እደሩ", "ደህና አደርሽ", "The woman form at night is እደሪ. አደርሽ is good morning."],
       ["or", "Good morning (to a man)", "ደህና አደርክ", "አደርሽ", "The verb ending አደርክ is the man form."],
@@ -351,7 +351,7 @@ module.exports = [
       ["fi", "ደህና __", "good night (polite)", "እደሩ", "እደር|እደሪ|አደሩ", "The polite form at night is እደሩ."],
       ["fi", "አመሰግናለ__", "thank you", "ሁ", "ህ|ሽ|ክ", "Thank you is አመሰግናለሁ. The last letter stays ሁ for any listener."],
       ["ty", "Good afternoon (to a man)", "ደህና ዋልክ", "ደህና · ዋልክ · man form", "ዋልሽ", "The verb ending ዋልክ is the man form."],
-      ["ty", "Good evening (to a woman)", "ደህና አመሽሽ", "ደህና · አመሽሽ · woman form", "አመሽክ", "The woman form of the verb ending is አመሽሽ."],
+      ["ty", "Good evening (to a woman)", "ደህና አመሸሽ", "ደህና · አመሸሽ · woman form", "አመሸህ", "The woman form of the verb ending is አመሸሽ."],
       ["ty", "Thank you", "አመሰግናለሁ", "አመሰግናለሁ · I thank", "ሰላም", "አመሰግናለሁ is thank you, for any listener."]
     ]
   },
@@ -458,7 +458,7 @@ module.exports = [
       ["or", "You are fine (to a man, start with አንተ)", "አንተ ደህና ነህ", "ነሽ", "The man form of the verb ending is ነህ."],
       ["or", "You are fine (to a woman, start with አንቺ)", "አንቺ ደህና ነሽ", "ነህ", "The woman form of the verb ending is ነሽ."],
       ["or", "You are fine (polite, start with እርስዎ)", "እርስዎ ደህና ነዎት", "ነህ", "The polite form is ነዎት. It agrees with the subject እርስዎ."],
-      ["fi", "እሷ ደህና __", "She is fine.", "ናት", "ነው|ነሽ|ነህ", "እሷ is feminine, so the verb ending is ናት."],
+      ["fi", "እሷ ደህና __", "She is fine.", "ናት|ነች", "ነው|ነሽ|ነህ", "እሷ is feminine, so the verb ending is ናት. ነች is the same meaning."],
       ["fi", "እኛ ደህና __", "We are fine.", "ነን", "ነው|ናቸው|ነኝ", "The verb ending ነን agrees with the subject እኛ."],
       ["fi", "እርስዎ ደህና __", "You are fine. (polite)", "ነዎት", "ነህ|ነሽ|ናት", "The polite form is ነዎት."],
       ["ty", "She is fine", "እሷ ደህና ናት|እሷ ደህና ነች|ደህና ናት|ደህና ነች", "እሷ · ደህና · ናት", "ነው", "እሷ is feminine, so the verb ending is ናት."],
@@ -486,7 +486,7 @@ module.exports = [
 {{ex:ቤቶች||houses}}
 {{ex:ቤቶቹ||the houses}}
 <h3>A boy and a girl</h3>
-<p><b>ልጅ</b> is a child. The masculine definite ending gives <b>ልጁ</b>, the boy. The feminine form is not that same u. <b>ልጇ</b> is the girl. The last letter has a w in it. Learn that shape with this noun. Towns and countries are often feminine too. This lesson does not spell that ending. Learn <b>ቤቱ</b> and <b>ልጇ</b> first.</p>
+<p><b>ልጅ</b> is a child. The masculine definite ending gives <b>ልጁ</b>, the boy. The feminine form is not that same u. <b>ልጇ</b> is the girl. The last letter has a w in it. The same letters also mean her child. Context tells you which, the way <b>ቤቱ</b> is the house or his house. You will also see <b>ልጅቱ</b> for the girl when someone wants it unambiguous. Towns and countries are often feminine too. This lesson does not spell that ending. Learn <b>ቤቱ</b> and <b>ልጇ</b> first.</p>
 {{ex:ልጁ||the boy}}
 {{ex:ልጇ||the girl}}
 <p>More than one child is <b>ልጆች</b>. The specific group is <b>ልጆቹ</b>, the children. Same plural ending, same plural definite ending.</p>
@@ -514,7 +514,7 @@ module.exports = [
       ["or", "The children are big (start with ልጆቹ)", "ልጆቹ ትልቅ ናቸው", "ነው", "The children are ልጆቹ ትልቅ ናቸው. ናቸው is the they form."],
       ["fi", "ቤ__", "the house", "ቱ", "ት|ቶ|ች", "The masculine definite ending changes final t to ቱ: ቤቱ."],
       ["fi", "ል__", "the girl", "ጇ", "ጁ|ጅ|ጆ", "The feminine form of the girl is ልጇ."],
-      ["fi", "ልጇ ትንሽ __", "The girl is small.", "ናት", "ነው|ነህ|ነሽ", "ልጇ is feminine, so the verb ending is ናት."],
+      ["fi", "ልጇ ትንሽ __", "The girl is small.", "ናት|ነች", "ነው|ነህ|ነሽ", "ልጇ is feminine, so the verb ending is ናት. ነች is the same meaning."],
       ["ty", "The boy is big", "ልጁ ትልቅ ነው", "ልጁ · ትልቅ · ነው", "ናት", "The masculine definite ending is ልጁ, so the verb ending is ነው."],
       ["ty", "The girl is small", "ልጇ ትንሽ ናት|ልጇ ትንሽ ነች", "ልጇ · ትንሽ · ናት", "ነው", "ልጇ is the feminine form, so the verb ending is ናት."],
       ["ty", "The children are big", "ልጆቹ ትልቅ ናቸው", "ልጆቹ · ትልቅ · ናቸው", "ነው", "The children are ልጆቹ ትልቅ ናቸው, with ናቸው for they."]
