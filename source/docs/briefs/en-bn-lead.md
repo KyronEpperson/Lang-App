@@ -1,8 +1,14 @@
+PROGRESS (updated 2026-11-21 09:13 CST)
+Course: en-bn   Branch: cursor/en-bn   PR: https://github.com/KyronEpperson/Lang-App/pull/3
+Done: research brief
+Next: research
+Checks: not run
+Models used: research attempt = claude-opus-5-5-max (stopped before any file; Opus allowance used up)
+State: WORKING
+
 # Lead note: en-bn stage 1
 
-paused: S allowance
-
-Opus (`claude-opus-5-5`), the model assigned to the profile and the pronunciation tool, hit its usage limit before stage 1 wrote anything. The monthly cycle ends on 2026-11-24. Writing does not continue on a weaker model.
+Opus (`claude-opus-5-5-max`) hit its usage limit before stage 1 wrote a profile. The monthly cycle ends on 2026-11-24. The next research attempt uses another tier-S model.
 
 ## Where the work is
 
