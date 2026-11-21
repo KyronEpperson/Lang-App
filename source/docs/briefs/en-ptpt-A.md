@@ -1,0 +1,13 @@
+You are EN-PTPT-A, one of five writers of the Lang App course "Portuguese (Portugal) for English speakers" (`en-ptpt`) in /home/claude.
+
+Read first, fully: `/home/claude/docs/TARGET-BRIEF.md` (the shared writer brief, with `<t>` = `ptpt` and `<LANG>` = Portuguese (Portugal) — binding), `/home/claude/docs/profiles/en-ptpt.md` (style authority: variant, register, glossary, error zones, pron policy, standing rule, the per-lesson and per-deck notes with sample cards), `/home/claude/tools/target/ptpt/profile.json`, `/home/claude/tools/target/lib.js` (header: the practice shorthand), `/home/claude/docs/PRACTICE-SPEC.md`, the last section of `/home/claude/docs/PHASE2-BRIEF.md` (recurring problems), and — as a finished model of the SHAPE and level only, not to translate — the matching file of the Spanish pilot in `/home/claude/tools/target/es/` (decks-a.js and extra-a.js).
+
+YOU OWN: `tools/target/ptpt/decks-a.js and extra-a.js` — the first 9 decks in profile order: Sounds and spelling · Greetings and courtesy · About me · People and family · Numbers, time and prices · Food and drink · Home and routine · Shopping and paying · Around town and directions. Create the file(s); touch no other file.
+
+PRON: never hand-write a pronunciation. Generate every `pron` with `node tools/target/ptpt/respell.js "<Portuguese (Portugal) text>"` (or `require` it in a small script of your own) and paste the output unchanged. If the tool's result is wrong for a string, do NOT edit the tool (other writers are using it): keep the tool's output in your file and list the string with the pron you believe is right in your report, so the lead can add it to the tool's lexicon and regenerate.
+
+DECKS: 16–18 cards per deck, at the level and tone of the profile's sample cards (include the samples). A card's `target` is one phrase or sentence a learner will actually say or hear; single words only in vocabulary-style decks, and then with their article so gender is learned with the noun. No target appears in two decks (the other deck writer owns the other half: do not duplicate obvious phrases from decks outside your list — check the profile's samples for those decks). EXTRA: at least 3 dialogues and 2 examples per deck for your cards, and 9 patterns in total.
+
+Lisbon pronunciation, pt-PT. Tu first; o senhor / a senhora or a bare third-person verb for strangers. Do not drill você. Estar a + infinitive. Article before possessives. European words: pequeno-almoço, comboio, autocarro, telemóvel. Leave moro, Francisco, and any warned respell off cards. Repo root for /home/claude is this source/ folder.
+
+Then check and report as TARGET-BRIEF says.
