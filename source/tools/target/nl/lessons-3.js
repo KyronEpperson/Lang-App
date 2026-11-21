@@ -21,7 +21,7 @@ module.exports = [
 <p>Sometimes the ending really means small. Often it is just the ordinary word. <b>Een beetje</b> is a little bit, the same <b>beetje</b> you already use in <b>een beetje Nederlands</b>. At lunch, <b>een kopje koffie</b> is a cup of coffee, and <b>een broodje kaas</b> is a roll with cheese. Dutch sets the two nouns side by side. There is no word for of.</p>
 {{ex:een kopje koffie|uhn KAWP-yuh KAW-fee|a cup of coffee}}
 {{ex:een broodje kaas|uhn BROHD-yuh kaahs|a roll with cheese}}
-<p>The pronunciation line for <b>kopje</b> and <b>broodje</b> is approximate. The spelling has no t, so the line cannot show a <i>ty</i>. The spoken form is closer to the <i>ty</i> of <b>kaartje</b>.</p>
+<p>The pronunciation line for <b>broodje</b> is approximate. The d before <b>je</b> sounds like t, so the spoken form is closer to the <i>ty</i> of <b>kaartje</b>. <b>kopje</b> is simply <b>kop</b> plus <b>je</b>.</p>
 <div class="tip"><b>Most common mistake:</b> keeping the old article. <b>de kaartje</b> → <b>het kaartje</b>. The little ending makes a het-word.</div>
 `,
     check: [
@@ -65,7 +65,7 @@ module.exports = [
 {{ex:Ik wil graag water.|ihk wihl khraahkh WAAH-tuhr|I'd like some water.}}
 {{ex:een glas water|uhn khlahs WAAH-tuhr|a glass of water}}
 {{ex:Mag ik een broodje kaas?|mahkh ihk uhn BROHD-yuh kaahs|May I have a roll with cheese?}}
-<p>The line under <b>kopje</b> and <b>broodje</b> is still approximate. The spoken form is closer to the <i>ty</i> of <b>kaartje</b>. Some drinks are happy as a bare noun: <b>Ik wil graag water</b> is some water. Fries are <b>de friet</b>. One bowl of soup is <b>een soep</b>.</p>
+<p>The line under <b>broodje</b> is still approximate. The spoken form is closer to the <i>ty</i> of <b>kaartje</b>. Some drinks are happy as a bare noun: <b>Ik wil graag water</b> is some water. Fries are <b>de friet</b>. One bowl of soup is <b>een soep</b>.</p>
 <h3>The question puts the verb first</h3>
 <p><b>Mag ik een koffie?</b> starts with the verb. That is inversion: the verb comes before <b>ik</b>. <b>Ik mag een koffie</b> is a different sentence. It means I am allowed a coffee, which is not an order. A statement keeps the verb second: <b>Ik wil graag een soep</b>. For a noun you do not want, keep <b>geen</b>, which you already use with nouns. <b>Bier</b> stays a het-word even when <b>geen</b> is hiding the article.</p>
 {{ex:Ik wil geen bier.|ihk wihl khayn beer|I don't want any beer.}}
@@ -107,19 +107,19 @@ module.exports = [
 <h3>de-word or het-word, still</h3>
 <p><b>Station</b>, <b>museum</b> and <b>centrum</b> are het-words: <b>het station</b>, <b>het museum</b>, <b>het centrum</b>. <b>Straat</b> and <b>winkel</b> are de-words: <b>de straat</b>, <b>de winkel</b>. <b>Winkel</b> is a store. The train is the de-word you already use: <b>Ik neem de trein</b>, I'm taking the train.</p>
 <h3>The command: stem, or u with -t</h3>
-<p>English uses one word, go, for everybody. Dutch has a stem and an u-form. The stem is the <b>ik</b> form, with no extra <b>-t</b>. With a friend, use the stem. With a stranger, the stem is also fine, and so is the u-form. The u-form keeps <b>-t</b>. <b>U</b> never drops it. <b>Ga u rechtdoor</b> is missing that <b>-t</b>.</p>
+<p>English uses one word, go, for everybody. Dutch has a stem and a u-form. The stem is the <b>ik</b> form, with no extra <b>-t</b>. With a friend, use the stem. With a stranger, the stem is also fine, and so is the u-form. The u-form keeps <b>-t</b>. <b>U</b> never drops it. <b>Ga u rechtdoor</b> is missing that <b>-t</b>.</p>
 <div class="tbl"><table><tr><th></th><th>Stem</th><th>u-form</th></tr><tr><td>straight ahead</td><td class="k">Ga rechtdoor.</td><td class="k">Gaat u rechtdoor.</td></tr><tr><td>left</td><td class="k">Ga links.</td><td class="k">Gaat u links.</td></tr><tr><td>turn left</td><td class="k">Sla linksaf.</td><td class="k">Slaat u linksaf.</td></tr></table></div>
-{{ex:Ga rechtdoor.|khaah REHKHT-dohr|Go straight ahead.}}
-{{ex:Gaat u rechtdoor.|khaaht uu REHKHT-dohr|Go straight ahead. (u-form)}}
-{{ex:Sla linksaf.|slaah LIHNK-sahf|Turn left.}}
-{{ex:Slaat u linksaf.|slaaht uu LIHNK-sahf|Turn left. (u-form)}}
+{{ex:Ga rechtdoor.|khaah rehkht-DOHR|Go straight ahead.}}
+{{ex:Gaat u rechtdoor.|khaaht uu rehkht-DOHR|Go straight ahead. (u-form)}}
+{{ex:Sla linksaf.|slaah lihnks-AHF|Turn left.}}
+{{ex:Slaat u linksaf.|slaaht uu lihnks-AHF|Turn left. (u-form)}}
 <p><b>Sla rechtsaf</b> is turn right. <b>Linksaf</b> and <b>rechtsaf</b> are single words. <b>Sla</b> here is the command turn. <b>Neem de eerste straat links</b> is take the first street on the left. <b>Eerste</b> means first. You can also say <b>Ga linksaf</b> for turn left. <b>Naar</b> is fine before left and right: <b>Ga naar links</b>. <b>Rechtdoor</b> does not take <b>naar</b>.</p>
 {{ex:Neem de eerste straat links.|naym uh AYR-stuh straaht lihnks|Take the first street on the left.}}
 <h3>Next to, and then</h3>
 <p><b>Naast</b> means next to. The store can be the first piece of the sentence, or the place can. Either way the verb stays second.</p>
 {{ex:De winkel is naast het station.|uh WIHN-kuhl ihs naahst uht stah-SHAWN|The store is next to the station.}}
 {{ex:Naast het station is de winkel.|naahst uht stah-SHAWN ihs uh WIHN-kuhl|Next to the station is the store.}}
-{{ex:Ga rechtdoor en dan links.|khaah REHKHT-dohr ehn dahn lihnks|Go straight ahead and then left.}}
+{{ex:Ga rechtdoor en dan links.|khaah rehkht-DOHR ehn dahn lihnks|Go straight ahead and then left.}}
 <p><b>Dan</b> in that sentence means then. You will meet it again later, with a different job.</p>
 <p>A one-word answer is enough when the question is clear. <b>Links</b>. <b>Rechts</b>. <b>Rechtdoor</b>. A full sentence names the place and keeps the verb second: <b>Het museum is links</b>, <b>Het centrum is rechtdoor</b>. <b>Rechts</b> and <b>rechtdoor</b> are easy to mix, because both start with the same letters. <b>Rechts</b> is right. <b>Rechtdoor</b> is straight ahead, one word, with <b>door</b> glued on. If a stranger looks unsure, the u-form is the clearer politeness: <b>Gaat u rechtdoor</b>, <b>Slaat u linksaf</b>. The stem still works, and plenty of people use it on the street.</p>
 <div class="tip"><b>Most common mistake:</b> dropping the -t on u. <b>Ga u rechtdoor</b> → <b>Gaat u rechtdoor</b>. The stem <b>Ga rechtdoor</b> is a fine command on its own. It does not keep a loose <b>u</b> after a verb that lost its -t.</div>
@@ -143,7 +143,7 @@ module.exports = [
       ["fi", "Waar is __ station?", "Where is the station?", "het", "de|een|dat", "station is a het-word."],
       ["ty", "the station", "het station", "station · het-word", "de", "station is a het-word."],
       ["ty", "Where is the museum? (use is)", "Waar is het museum", "waar · inversion, verb before the subject", "de", "inversion: is comes before het museum. museum is a het-word."],
-      ["ty", "Go left. (to a friend, use gaan)", "Ga links|Ga naar links", "gaan · stem, no -t", "gaat", "A friend gets the stem Ga. naar is also fine before links."]
+      ["ty", "Go left. (to a friend, use gaan)", "Ga links|Ga naar links|Ga linksaf", "gaan · stem, no -t", "gaat", "A friend gets the stem Ga. naar is also fine before links."]
     ]
   },
   {
@@ -253,13 +253,13 @@ module.exports = [
 {{ex:Ik heb in Rotterdam gewoond.|ihk hehp ihn roh-tuhr-DAHM khuh-WOHNT|I lived in Rotterdam.}}
 {{ex:Ik heb een kaartje gekocht.|ihk hehp uhn KAAHR-tyuh khuh-KAWKHT|I bought a ticket.}}
 <h3>zijn for gaan, komen and zijn</h3>
-<p><b>Gaan</b>, <b>komen</b> and <b>zijn</b> take <b>zijn</b> as the helper. A movement or a change of state takes <b>zijn</b>. Most other verbs take <b>hebben</b>. If a new verb is not on this short list, do not guess. Use a verb you know. The participles are <b>gegaan</b>, <b>gekomen</b> and <b>geweest</b>.</p>
+<p><b>Gaan</b>, <b>komen</b> and <b>zijn</b> take <b>zijn</b> as the helper. So do some other verbs of going somewhere or of change, but not every movement verb does. Most verbs take <b>hebben</b>. If a new verb is not on this short list, do not guess. Use a verb you know. The participles are <b>gegaan</b>, <b>gekomen</b> and <b>geweest</b>.</p>
 {{ex:Ik ben naar Amsterdam gegaan.|ihk behn naahr ahm-stuhr-DAHM khuh-KHAAHN|I went to Amsterdam.}}
 {{ex:Ik ben gekomen.|ihk behn khuh-KOH-muh|I came.}}
 {{ex:Ik ben in Utrecht geweest.|ihk behn ihn UU-trehkht khuh-WAYST|I have been in Utrecht.}}
 <h3>Helper second, participle at the end</h3>
 <p>The helper sits where the verb always sits. In a statement that is second place. The participle goes to the end of the clause. <b>Vandaag heb ik gewerkt</b> starts with today, so <b>heb</b> comes next, before <b>ik</b>. That is the same inversion you already use after <b>morgen</b>. <b>Ik heb vandaag gewerkt</b> is the other everyday order, with <b>ik</b> first. <b>Niet</b> sits just before the participle: <b>Ik heb niet gewerkt</b>.</p>
-{{ex:Vandaag heb ik gewerkt.|VAHN-daahkh hehp ihk khuh-WEHRKT|I worked today.}}
+{{ex:Vandaag heb ik gewerkt.|vahn-DAAHKH hehp ihk khuh-WEHRKT|I worked today.}}
 {{ex:Ik heb niet gewerkt.|ihk hehp neet khuh-WEHRKT|I did not work.}}
 <p>A question with <b>je</b> after the verb uses <b>heb</b> and <b>ben</b>, the same drop you already know from <b>werk je</b>. With a stranger, <b>u</b> keeps a form with <b>-t</b>. <b>Heeft u gewerkt?</b> and <b>Hebt u gewerkt?</b> are both used. English often uses a simple past for what happened earlier. Dutch uses this perfect for that job. I worked today is <b>Ik heb vandaag gewerkt</b> or <b>Vandaag heb ik gewerkt</b>. I did not work is <b>Ik heb niet gewerkt</b>, with <b>niet</b> just before the participle. The helper is the verb that counts for second place.</p>
 {{ex:Heb je een kaartje gekocht?|hehp yuh uhn KAAHR-tyuh khuh-KAWKHT|Did you buy a ticket?}}
@@ -316,7 +316,7 @@ module.exports = [
 <h3>The spelling, and three endings that are easy</h3>
 <p><b>Groot</b> becomes <b>grote</b>. One o is enough once <b>-e</b> opens the syllable, and you still say the long o. <b>Rood</b> becomes <b>rode</b>. <b>Klein</b> just adds <b>-e</b>: <b>kleine</b>. A short vowel doubles the consonant so it stays short: <b>wit</b> becomes <b>witte</b>.</p>
 {{ex:een witte jas|uhn WIH-tuh yahs|a white coat}}
-<p>Adjectives that end in <b>-ig</b>, <b>-isch</b> or <b>-lijk</b> are a soft spot. Before <b>een</b> and a singular het-word, careful Dutch also allows the form with no <b>-e</b>. You can leave that option alone. The form with <b>-e</b> is always acceptable, so say <b>een moeilijke boek</b> and move on. This course does not practice the form without <b>-e</b>.</p>
+<p>Adjectives that end in <b>-ig</b>, <b>-isch</b> or <b>-lijk</b> have one soft spot. After <b>het</b>, <b>dit</b> or <b>dat</b>, careful Dutch sometimes leaves their <b>-e</b> off. You can leave that option alone. With <b>het</b>, the form with <b>-e</b> is always acceptable: <b>het moeilijke boek</b>, the difficult book. After <b>een</b>, the rule does not change: <b>een moeilijk boek</b>, with no <b>-e</b>. This course does not practice the form without <b>-e</b> after <b>het</b>.</p>
 <p>Before you add <b>-e</b>, ask where the adjective sits. In front of a noun, <b>een</b> and <b>geen</b> block it on a singular het-word, and <b>de</b>, <b>het</b>, <b>dit</b>, <b>dat</b>, <b>deze</b>, <b>die</b> and <b>mijn</b> bring it back. After <b>is</b> or <b>zijn</b>, the <b>-e</b> stays off, for one house and for many.</p>
 <div class="tip"><b>Most common mistake:</b> copying the -e from a de-word onto een plus a het-word. <b>een grote huis</b> → <b>een groot huis</b>.</div>
 `,
@@ -399,12 +399,12 @@ module.exports = [
     deck: "Questions and connectors",
     body: `
 <p>English says because I am tired, and the verb stays in its usual place. Dutch says <b>omdat ik moe ben</b>, and the verb goes to the end. <b>Omdat</b> means because. <b>Dat</b>, in this lesson, means that, the word that starts a thought. The same spelling <b>dat</b> is also the far word for a het-word, as in <b>dat boek</b>. The joining word does not change for de or het. The pointing word does.</p>
-{{ex:Ik ga naar huis omdat ik moe ben.|ihk khaah naahr huys AWM-daht ihk moo behn|I'm going home because I am tired.}}
+{{ex:Ik ga naar huis omdat ik moe ben.|ihk khaah naahr huys awm-DAHT ihk moo behn|I'm going home because I am tired.}}
 {{ex:Ik denk dat hij in Utrecht woont.|ihk dehnk daht high ihn UU-trehkht wohnt|I think he lives in Utrecht.}}
 <h3>The finite verb at the end</h3>
 <p>The verb that moves is the finite one, the one that shows the person: <b>ben</b>, <b>woont</b>, <b>heb</b>, <b>is</b>. It goes to the end of the omdat clause or the dat clause. <b>Denk</b> means think. <b>Ik denk</b>, <b>jij denkt</b>, <b>hij denkt</b>. When <b>je</b> follows the verb, the <b>-t</b> drops, the same way it drops in <b>werk je</b>: <b>denk je</b>. In <b>Ik denk dat hij in Utrecht woont</b>, <b>woont</b> is at the end. The main clause does not change. <b>Ik denk</b> and <b>Ik ga</b> stay in second place.</p>
 {{ex:Ik denk dat het huis groot is.|ihk dehnk daht uht huys khroht ihs|I think the house is big.}}
-{{ex:Ik neem de trein omdat ik geen fiets heb.|ihk naym uh trighn AWM-daht ihk khayn feets hehp|I'm taking the train because I don't have a bike.}}
+{{ex:Ik neem de trein omdat ik geen fiets heb.|ihk naym uh trighn awm-DAHT ihk khayn feets hehp|I'm taking the train because I don't have a bike.}}
 {{ex:Ik denk dat de trein te duur is.|ihk dehnk daht uh trighn tuh duur ihs|I think the train is too expensive.}}
 <p>One finite verb in the omdat clause is enough. <b>Heb</b> in <b>omdat ik geen fiets heb</b> is at the end. <b>Fiets</b> is a de-word, and <b>geen</b> is the word you already use for not a. After <b>is</b>, <b>groot</b> and <b>te duur</b> still take no <b>-e</b>.</p>
 <h3>want does not move the verb</h3>
@@ -412,7 +412,7 @@ module.exports = [
 {{ex:Ik ga naar huis, want ik ben moe.|ihk khaah naahr huys wahnt ihk behn moo|I'm going home, because I am tired.}}
 <h3>The omdat clause can come first</h3>
 <p>When the omdat clause leads, the whole clause is the first piece of the sentence. The main verb comes next, before <b>ik</b>. That is verb second in the main clause, the same inversion you use after <b>morgen</b>. The omdat piece still has its own verb at the end.</p>
-{{ex:Omdat ik moe ben, ga ik naar huis.|AWM-daht ihk moo behn khaah ihk naahr huys|Because I am tired, I'm going home.}}
+{{ex:Omdat ik moe ben, ga ik naar huis.|awm-DAHT ihk moo behn khaah ihk naahr huys|Because I am tired, I'm going home.}}
 <div class="tip"><b>Most common mistake:</b> leaving the verb where English leaves it. <b>omdat ik ben moe</b> → <b>omdat ik moe ben</b>.</div>
 `,
     check: [
@@ -434,7 +434,7 @@ module.exports = [
       ["fi", "Omdat ik moe ben, __ ik naar huis.", "Because I am tired, I'm going home.", "ga", "gaat|ben|woon", "The main clause stays verb second, so ga comes before ik."],
       ["ty", "I'm going home because I am tired. (start with Ik ga, use omdat)", "Ik ga naar huis omdat ik moe ben", "omdat · verb-final, ben at the end", "want", "verb-final: ben goes at the end of the clause."],
       ["ty", "I think the house is big. (start with Ik denk dat)", "Ik denk dat het huis groot is", "dat · verb-final, no -e", "grote", "verb-final: is goes at the end of the clause. After is, groot has no -e."],
-      ["ty", "because I have a ticket (use omdat)", "omdat ik een kaartje heb", "omdat · verb-final, heb at the end", "de", "verb-final: heb goes at the end of the clause. kaartje is a het-word, and een means one."]
+      ["ty", "because I have a ticket (use omdat)", "omdat ik een kaartje heb", "omdat · verb-final, heb at the end", "de", "verb-final: heb goes at the end of the clause. kaartje is a het-word, and een means a."]
     ]
   }
 ];

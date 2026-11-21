@@ -251,7 +251,7 @@ Each line is `Dutch → pron`, from the generator, and each pron matches `pronPa
 | honden | HAWN-duh | the *d* comes back before a vowel |
 | goed | khoot | *g* is `kh`; final *d* is *t* |
 | school | skhohl | *sch* is `skh`, long *oo* |
-| lachen | LAAH-khuh | *ch* is the same `kh` |
+| lachen | LAH-khuh | *ch* is the same `kh`; the *a* stays short |
 | vriendelijk | VREEN-duh-luhk | *-lijk* is a schwa, and so is the unstressed *e* |
 | vergeten | vuhr-KHAY-tuh | *ver-* unstressed; the *e* of *ge* is long, because it is stressed |
 | opbellen | AWP-beh-luh | separable prefix stressed; *bellen* is not a *be-* verb |
@@ -296,7 +296,7 @@ Whole-word fixes, so these prons are intentional:
 
 Still approximate, and not given a special fix:
 
-- *kopje* → `KAWP-yuh`, *broodje* → `BROHD-yuh`. There is no *t* in the spelling, so the aid cannot show the *ty* of *-tje*. *kaartje* and *beetje*, which are spelled with *tj*, come out `KAAHR-tyuh` and `BAY-tyuh`. Prefer those spellings when the diminutive itself is the lesson.
+- *kopje* → `KAWP-yuh`. There is no *t* in this spoken form. *broodje* → `BROHD-yuh`; the spoken form is closer to the *ty* of *kaartje* (`KAAHR-tyuh`) and *beetje* (`BAY-tyuh`). Prefer a *-tje* spelling when the diminutive sound itself is the lesson.
 - *bibliotheek* → `BIH-blih-awt-hayk`. Stress should be on the last syllable. Do not put this pron on a card until it has a whole-word fix. The traps lesson can say *bibliotheek* in the body and skip the pron, or avoid the word.
 - *hallo* → `HAH-loh`, stress on the first syllable. Many speakers stress the second. Either is understood; the card note can say so.
 - *Goedemorgen* stress, as above.
@@ -472,7 +472,7 @@ Name, city, where you are from. Group: First steps.
 | Ik heet Anna. | ihk hayt AH-nah | My name is Anna. | heet, not ben |
 | Ik kom uit Nederland. | ihk kawm uyt NAY-duhr-lahnt | I come from the Netherlands. | |
 | Ik woon in Utrecht. | ihk wohn ihn UU-trehkht | I live in Utrecht. | |
-| Ik studeer. | ihk STUU-dayr | I study. | a role takes no article: Ik ben student |
+| Ik studeer. | ihk stuu-DAYR | I study. | a role takes no article: Ik ben student |
 | Ik spreek een beetje Nederlands. | ihk sprayk uhn BAY-tyuh NAY-duhr-lahnds | I speak a little Dutch. | een is the article |
 
 ### People and family
@@ -506,7 +506,7 @@ Days, parts of the day, weather words as they get added. Group: Everyday words.
 | target | pron | meaning | note |
 |---|---|---|---|
 | maandag | MAAHN-dahkh | Monday | no capital |
-| vandaag | VAHN-daahkh | today | |
+| vandaag | vahn-DAAHKH | today | |
 | 's ochtends | SAWKH-tuhns | in the mornings | space after 's, not a hyphen |
 | Het is kwart over drie. | uht ihs kwahrt OH-vuhr dree | It is quarter past three. | |
 | morgen | MAWR-khuh | tomorrow | also the word for morning |
@@ -555,9 +555,9 @@ Left, right, straight on. Group: Out and about.
 |---|---|---|---|
 | links | lihnks | left | |
 | rechts | rehkhts | right | |
-| rechtdoor | REHKHT-dohr | straight ahead | |
+| rechtdoor | rehkht-DOHR | straight ahead | |
 | Waar is het station? | waahr ihs uht stah-SHAWN | Where is the station? | |
-| Ga rechtdoor. | khaah REHKHT-dohr | Go straight ahead. | |
+| Ga rechtdoor. | khaah rehkht-DOHR | Go straight ahead. | |
 
 ### Travel and transport
 
@@ -604,7 +604,7 @@ Work, study, the present tense. Group: Out and about.
 | Ik wil fietsen. | ihk wihl FEET-suh | I want to cycle. | |
 | Ik wil graag fietsen. | ihk wihl khraahkh FEET-suh | I'd like to cycle. | |
 | Dat is leuk. | daht ihs leuhk | That's nice. | |
-| in het weekend | ihn uht WAY-kehnt | at the weekend | |
+| in het weekend | ihn uht WEE-kehnt | at the weekend | |
 | een hobby | uhn HAW-bih | a hobby | |
 
 ### Questions and connectors
@@ -615,7 +615,7 @@ Questions, verb-second, *omdat*. Group: Conversation. Lessons: `inversion`, `que
 |---|---|---|---|
 | Wat? | waht | What? | |
 | Waar woon je? | waahr wohn yuh | Where do you live? | je after the verb, so no -t |
-| omdat | AWM-daht | because | the verb goes to the end |
+| omdat | awm-DAHT | because | the verb goes to the end |
 | maar | maahr | but | |
 | en | ehn | and | |
 

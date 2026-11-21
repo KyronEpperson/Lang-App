@@ -33,6 +33,38 @@ const EXC = {
   'ochtend': 'AWKH-tuhnt',
   'ochtends': 'AWKH-tuhns',
   'anna': 'AH-nah',
+  'alsjeblieft': 'ahl-shuh-BLEEFT',
+  'pardon': 'pahr-DAWN',
+  'studeer': 'stuu-DAYR',
+  'vandaag': 'vahn-DAAHKH',
+  'vandaan': 'vahn-DAAHN',
+  'omdat': 'awm-DAHT',
+  'waarom': 'waah-RAWM',
+  'wanneer': 'wah-NAYR',
+  'misschien': 'mih-SKHEEN',
+  'muziek': 'muu-ZEEK',
+  'perron': 'peh-RAWN',
+  'retour': 'ruh-TOOR',
+  'plattegrond': 'plah-tuh-KHRAWNT',
+  'rechtdoor': 'rehkht-DOHR',
+  'rechtsaf': 'rehkhts-AHF',
+  'linksaf': 'lihnks-AHF',
+  'agenda': 'aah-KHEHN-daah',
+  'collega': 'kaw-LAY-khaah',
+  /* -eren here is not the stressed verb ending */
+  'kinderen': 'KIHN-duh-ruh',
+  'gisteren': 'KHIHS-tuh-ruh',
+  /* the verb (it rains), not the noun regent */
+  'regent': 'RAY-khuhnt',
+  'honderd': 'HAWN-duhrt',
+  /* a single vowel before ch is short; st does not open the syllable in kosten */
+  'lachen': 'LAH-khuh',
+  'kosten': 'KAWS-tuh',
+  /* th is t; weekend keeps the English ee */
+  'thee': 'tay',
+  'thuis': 'tuys',
+  'weekend': 'WEE-kehnt',
+  'file': 'FEE-luh',
   /* A1 "dat komt voor" (to occur). To prevent is vohr-KOH-muhn; do not use this spelling for that meaning. */
   'voorkomen': 'VOOR-koh-muhn'
 };

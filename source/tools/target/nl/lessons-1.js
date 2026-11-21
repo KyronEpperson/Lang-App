@@ -58,10 +58,10 @@ module.exports = [
     body: `
 <p>A handful of Dutch spellings do not match English at all. The pronunciation line writes them with the same letters every time. Say the Dutch sound, not the English letter name.</p>
 <h3>g and ch are one sound</h3>
-<p>In this accent, <b>g</b> and <b>ch</b> are the same sound: the kh of Scottish <i>loch</i>, not the g of English <i>good</i>. <b>goed</b> starts with that kh, and so does <b>lachen</b>, to laugh. <b>acht</b>, eight, ends with it. The line writes kh for both letters.</p>
+<p>In this accent, <b>g</b> and <b>ch</b> are the same sound: the kh of Scottish <i>loch</i>, not the g of English <i>good</i>. <b>goed</b> starts with that kh. <b>lachen</b>, to laugh, has it in the middle. <b>acht</b>, eight, ends with it. The line writes kh for both letters.</p>
 {{ex:goed|khoot|good}}
 {{ex:acht|ahkht|eight}}
-{{ex:lachen|LAAH-khuh|to laugh}}
+{{ex:lachen|LAH-khuh|to laugh}}
 <p>In Flanders and the south of the Netherlands this sound is softer. This course uses the harder sound of the northern news accent. Both are standard.</p>
 <h3>ui, eu, ij, oe, ou</h3>
 <p><b>ui</b> has no English word. Start open, then round your lips. <b>huis</b> has it, and so does a lot of everyday vocabulary. <b>eu</b> is the vowel of French <i>deux</i>, with rounded lips and no y-glide. <b>deur</b> has it. The line writes ui as <i>uy</i> and eu as <i>euh</i>. Those letters are a reminder, not a picture.</p>
@@ -115,7 +115,7 @@ module.exports = [
 <p>Each time-of-day greeting is one word. <b>Goedemorgen</b> is good morning. <b>Goedemiddag</b> is good afternoon, from about noon. <b>Goedenavond</b> is good evening, after dark, as a hello. <b>Goedenacht</b> is a goodbye at night, while you are still up. When someone is going to sleep, you will also hear <b>welterusten</b>. The line often stresses these words at the start. Speech often stresses the time-of-day part. Do not treat the capitals as a measurement.</p>
 {{ex:Goedemorgen.|KHOO-duh-mawr-khuh|Good morning.}}
 <h3>How are you?</h3>
-<p>English tucks the verb after you. Dutch puts the verb second, right after <b>Hoe</b>: <b>Hoe gaat het?</b> Not <b>Hoe het gaat?</b> A friend can add <b>met je</b>. A stranger, shop staff, someone older, or the town hall gets <b>Hoe gaat het met u?</b></p>
+<p>Dutch asks how it goes, and puts the verb second, right after <b>Hoe</b>: <b>Hoe gaat het?</b> Not <b>Hoe het gaat?</b> A friend can add <b>met je</b>. A stranger, shop staff, someone older, or the town hall gets <b>Hoe gaat het met u?</b></p>
 {{ex:Hoe gaat het?|hoo khaaht uht|How are you?}}
 <p>Do not answer <b>Ik ben goed</b>. Dutch uses <b>het gaat</b>. <b>Het gaat goed</b> means I'm fine. <b>Het gaat wel</b> is softer: I'm all right. <b>Goed, dank je</b> is fine, thanks, to a friend.</p>
 {{ex:Het gaat goed.|uht khaaht khoot|I'm fine.}}
@@ -127,8 +127,8 @@ module.exports = [
 {{ex:Dank je wel.|dahnk yuh wehl|Thank you. (to a friend)}}
 {{ex:Dank u wel.|dahnk uu wehl|Thank you. (to a stranger)}}
 {{ex:Alstublieft.|ahl-stue-BLEEFT|Here you are, or please. (to a stranger)}}
-<p><b>Alsjeblieft</b> is the friend form. Read the <b>je</b> in the middle as yuh, not as sh, and stress the last syllable. The line is a poor guide for that one word. <b>Graag gedaan</b> means you're welcome. <b>Pardon</b> is excuse me. Stress it on the second syllable. <b>Tot ziens</b> is a neutral goodbye, and <b>Doei</b> is bye to a friend.</p>
-{{ex:Alsjeblieft.|AHL-shuh-bleeft|Here you are, or please. (to a friend)}}
+<p><b>Alsjeblieft</b> is the friend form. In normal speech the s and the j run together into sh, and the stress is on the last syllable, as the line shows. <b>Graag gedaan</b> means you're welcome. <b>Pardon</b> is excuse me. Stress it on the second syllable. <b>Tot ziens</b> is a neutral goodbye, and <b>Doei</b> is bye to a friend.</p>
+{{ex:Alsjeblieft.|ahl-shuh-BLEEFT|Here you are, or please. (to a friend)}}
 {{ex:Graag gedaan.|khraahkh khuh-DAAHN|You're welcome.}}
 <div class="tip"><b>Most common mistake:</b> <b>Ik ben goed</b> → <b>Het gaat goed</b>.</div>
 `,
@@ -149,7 +149,7 @@ module.exports = [
       ["fi", "Hoe __ het?", "How are you?", "gaat", "is|ben|ga", "The greeting is Hoe gaat het. The verb sits in second place."],
       ["fi", "Het gaat __.", "I'm fine. (use goed)", "goed", "wel|ben|goede", "Fine is goed. wel is the softer I'm all right. ben does not belong in this sentence."],
       ["fi", "Dank __ wel.", "Thank you. (to a stranger)", "u", "je|jij|jullie", "A stranger gets u. je is for a friend. jij is the stressed subject, not this phrase."],
-      ["ty", "How are you? (three words)", "Hoe gaat het", "hoe · gaan", "is", "verb second: Hoe gaat het puts gaat before het. Hoe het gaat is not the question."],
+      ["ty", "How are you? (three words, use gaan)", "Hoe gaat het", "hoe · gaan", "is", "verb second: Hoe gaat het puts gaat before het. Hoe het gaat is not the question."],
       ["ty", "I'm fine. (three words, start with Het, use goed)", "Het gaat goed", "het · gaan", "ben", "verb second: Het gaat goed keeps gaat in second place, not Het goed gaat."],
       ["ty", "Here you are. (to a friend)", "Alsjeblieft", "alsjeblieft", "Alstublieft", "A friend gets Alsjeblieft. Alstublieft is the form for a stranger."]
     ]
@@ -161,33 +161,33 @@ module.exports = [
     deck: "About me",
     body: `
 <h3>Your name</h3>
-<p>English says my name is. Dutch for that introduction is <b>Ik heet</b>, then your name. <b>Ik heet Anna.</b> <b>Ik ben Anna</b> means I am Anna, a different sentence. You will also hear <b>Mijn naam is Anna.</b> Ask a friend <b>Hoe heet je?</b> Ask a stranger <b>Hoe heet u?</b> The verb already ends in t, so both questions look the same at <b>heet</b>.</p>
+<p>English says my name is. Dutch for that introduction is <b>Ik heet</b>, then your name. <b>Ik heet Anna.</b> <b>Ik ben Anna</b>, I'm Anna, also works when you meet someone. You will also hear <b>Mijn naam is Anna.</b> Ask a friend <b>Hoe heet je?</b> Ask a stranger <b>Hoe heet u?</b> The verb already ends in t, so both questions look the same at <b>heet</b>.</p>
 {{ex:Ik heet Anna.|ihk hayt AH-nah|My name is Anna.}}
 {{ex:Hoe heet je?|hoo hayt yuh|What's your name? (to a friend)}}
 {{ex:Hoe heet u?|hoo hayt uu|What's your name? (to a stranger)}}
 <h3>Where you are from, where you live</h3>
 <p>Origin takes <b>uit</b>. <b>Ik kom uit Nederland.</b> English puts the before the Netherlands. Dutch does not. A city works the same way: <b>Ik kom uit Amsterdam.</b> Ask a friend <b>Waar kom je vandaan?</b> The verb is second, right after <b>Waar</b>, and <b>vandaan</b> stays at the end. A stranger keeps a t: <b>Waar komt u vandaan?</b></p>
 {{ex:Ik kom uit Nederland.|ihk kawm uyt NAY-duhr-lahnt|I come from the Netherlands.}}
-{{ex:Waar kom je vandaan?|waahr kawm yuh VAHN-daahn|Where are you from? (to a friend)}}
-{{ex:Waar komt u vandaan?|waahr kawmt uu VAHN-daahn|Where are you from? (to a stranger)}}
-<p>Where you live takes <b>woon</b> and <b>in</b>: <b>Ik woon in Utrecht.</b> Amsterdam, Rotterdam, Den Haag and Groningen use the same shape. <b>Den Haag</b> is The Hague, two words, with no article. <b>Ik ben in Utrecht</b> means you are there now, not that you live there. Start with <b>Ik</b> and the verb is next: <b>Ik woon in Utrecht</b>, not <b>Ik in Utrecht woon</b>.</p>
+{{ex:Waar kom je vandaan?|waahr kawm yuh vahn-DAAHN|Where are you from? (to a friend)}}
+{{ex:Waar komt u vandaan?|waahr kawmt uu vahn-DAAHN|Where are you from? (to a stranger)}}
+<p>Where you live takes <b>woon</b> and <b>in</b>: <b>Ik woon in Utrecht.</b> Amsterdam, Rotterdam, Den Haag and Groningen use the same shape. <b>Den Haag</b> is The Hague, two words, with no de or het in front. <b>Ik ben in Utrecht</b> means you are there now, not that you live there. Start with <b>Ik</b> and the verb is next: <b>Ik woon in Utrecht</b>, not <b>Ik in Utrecht woon</b>.</p>
 {{ex:Ik woon in Utrecht.|ihk wohn ihn UU-trehkht|I live in Utrecht.}}
 {{ex:Ik woon in Den Haag.|ihk wohn ihn dehn haahkh|I live in The Hague.}}
 <h3>Study and a little Dutch</h3>
-<p><b>Ik studeer</b> means I study. <b>Ik spreek een beetje Nederlands</b> means I speak a little Dutch. <b>een</b> here means a, said uhn. Language names take a capital: <b>Nederlands</b>, <b>Engels</b>. A friend: <b>Spreek je Engels?</b> A stranger: <b>Spreekt u Engels?</b> After <b>je</b> the verb has no t. With <b>u</b> the t stays. A role takes no article: <b>Ik ben student</b> means I'm a student.</p>
-{{ex:Ik studeer.|ihk STUU-dayr|I study.}}
+<p><b>Ik studeer</b> means I study. <b>Ik spreek een beetje Nederlands</b> means I speak a little Dutch. <b>een</b> here means a, said uhn. Language names take a capital: <b>Nederlands</b>, <b>Engels</b>. A friend: <b>Spreek je Engels?</b> A stranger: <b>Spreekt u Engels?</b> When <b>je</b> comes after the verb, the verb has no t. With <b>u</b> the t stays. A role takes no article: <b>Ik ben student</b> means I'm a student.</p>
+{{ex:Ik studeer.|ihk stuu-DAYR|I study.}}
 {{ex:Ik spreek een beetje Nederlands.|ihk sprayk uhn BAY-tyuh NAY-duhr-lahnds|I speak a little Dutch.}}
 {{ex:Spreek je Engels?|sprayk yuh EHNG-uhls|Do you speak English? (to a friend)}}
 {{ex:Ik ben student.|ihk behn stuu-DEHNT|I'm a student.}}
-<div class="tip"><b>Most common mistake:</b> <b>Ik ben Anna</b> for "my name is Anna" → <b>Ik heet Anna</b>.</div>
+<div class="tip"><b>Most common mistake:</b> <b>Ik kom van Nederland</b> → <b>Ik kom uit Nederland</b>.</div>
 `,
     check: [
-      ["My name is Anna. (the pattern this lesson uses) =", ["Ik ben Anna.", "Ik heet Anna.", "Ik heet is Anna.", "Mijn heet Anna."], 1, "My name is uses heet: Ik heet Anna. Ik ben Anna means I am Anna."],
+      ["My name is Anna. (use heten) =", ["Ik heten Anna.", "Ik heet Anna.", "Ik heet is Anna.", "Mijn heet Anna."], 1, "With ik, heten becomes heet: Ik heet Anna. heet already means is called, so no is."],
       ["I come from the Netherlands. =", ["Ik kom uit Nederland.", "Ik kom van Nederland.", "Ik kom uit de Nederland.", "Ik kom in Nederland."], 0, "Origin takes uit, and Nederland has no article in this sentence."],
       ["What's your name? (to a friend) =", ["Hoe heet u?", "Hoe heet jij bent?", "Hoe heet je?", "Hoe ben je?"], 2, "A friend gets je: Hoe heet je? Hoe heet u? is for a stranger."]
     ],
     practice: [
-      ["mc", "My name is Anna. (use heet) =", "Ik heet Anna.", "Ik ben Anna.", "Ik heet is Anna.", "Mijn heet Anna.", "My name is uses heet. Ik ben Anna means I am Anna."],
+      ["mc", "My name is Anna. (use heten) =", "Ik heet Anna.", "Ik heten Anna.", "Ik heet is Anna.", "Mijn heet Anna.", "With ik, heten becomes heet. heet already means is called, so no is."],
       ["mc", "I come from the Netherlands. =", "Ik kom uit Nederland.", "Ik kom van Nederland.", "Ik kom uit de Nederland.", "Ik kom in Nederland.", "uit marks origin. Nederland takes no article here. in would be about arriving or living."],
       ["mc", "I live in Utrecht. =", "Ik woon in Utrecht.", "Ik woon uit Utrecht.", "Ik woon op Utrecht.", "Ik ben in Utrecht.", "Living somewhere is woon in. Ik ben in Utrecht means you are there right now."],
       ["mc", "I study. =", "Ik studeer.", "Ik studeert.", "Ik studeren.", "Ik ben studeer.", "I study is Ik studeer."],
@@ -195,7 +195,7 @@ module.exports = [
       ["or", "the man", "de man", "het", "de-word: man takes de, not het."],
       ["or", "the house", "het huis", "de", "het-word: huis takes het, not de."],
       ["or", "Where are you from? (the question, to a friend, use je, start with Waar)", "Waar kom je vandaan", "komt", "verb second: Waar kom je vandaan, the verb before je, not Waar je kom vandaan."],
-      ["fi", "Ik __ Anna.", "My name is Anna. (use heten)", "heet", "ben|is|woon", "Your name uses heet: Ik heet Anna."],
+      ["fi", "Ik __ Anna.", "My name is Anna. (use heten)", "heet", "heten|is|woon", "With ik, heten becomes heet: Ik heet Anna."],
       ["fi", "Ik kom __ Nederland.", "I come from the Netherlands.", "uit", "van|in|naar", "A country you come from takes uit. Nederland has no article here."],
       ["fi", "Ik woon __ Utrecht.", "I live in Utrecht.", "in", "uit|op|van", "woon takes in for a city. uit is for the place you come from."],
       ["ty", "the man", "de man", "man · de", "het", "de-word: man takes de, not het."],
@@ -257,7 +257,7 @@ module.exports = [
     blurb: "Store de or het with the noun, and use een when you mean a.",
     deck: "People and family",
     body: `
-<p><b>de</b> and <b>het</b> both mean "the". They are not two translations of one English word. Nothing in the meaning, and nothing in the English, tells you which noun takes which. About two thirds of Dutch nouns take <b>de</b>. That still does not tell you the next noun. You memorize the small word with the noun, the way the card stores it.</p>
+<p><b>de</b> and <b>het</b> both mean "the". They do not differ in meaning. Nothing in the meaning, and nothing in the English, tells you which noun takes which. About two thirds of Dutch nouns take <b>de</b>. That still does not tell you the next noun. You memorize the small word with the noun, the way the card stores it.</p>
 <h3>People</h3>
 <p>A person you can point at is usually a de-word. That is common gender. Men and women both take <b>de</b>, so do not sort people into masculine and feminine. <b>de man</b>, <b>de vrouw</b>, <b>de jongen</b>, <b>de vader</b>, <b>de moeder</b>, <b>de broer</b>, <b>de zus</b>, <b>de zoon</b> and <b>de dochter</b> all take de. <b>zus</b> is the everyday word for sister.</p>
 {{ex:de vrouw|uh vrow|the woman}}
@@ -314,7 +314,7 @@ module.exports = [
 {{ex:We werken.|wuh WEHR-kuh|We work.}}
 {{ex:Zij werkt.|zigh wehrkt|She works.}}
 {{ex:Zij werken.|zigh WEHR-kuh|They work.}}
-<p>Start with <b>Ik</b> and the verb is the next word. <b>Ik werk in Utrecht.</b> Not <b>Ik in Utrecht werk</b>. <b>Jij werkt in Rotterdam.</b> <b>Ik studeer in Groningen.</b> The line stresses the first syllable of <b>studeer</b>. You will often hear the stress on the second. A role still takes no article: <b>Ik ben student.</b> <b>de docent</b> is the teacher, a de-word, and the c before e sounds like s. This course uses <b>docent</b>. <b>het kantoor</b> is the office, a het-word.</p>
+<p>Start with <b>Ik</b> and the verb is the next word. <b>Ik werk in Utrecht.</b> Not <b>Ik in Utrecht werk</b>. <b>Jij werkt in Rotterdam.</b> <b>Ik studeer in Groningen.</b> <b>studeer</b> is stressed on its second syllable. A role still takes no article: <b>Ik ben student.</b> <b>de docent</b> is the teacher, a de-word, and the c before e sounds like s. This course uses <b>docent</b>. <b>het kantoor</b> is the office, a het-word.</p>
 {{ex:Ik werk in Utrecht.|ihk wehrk ihn UU-trehkht|I work in Utrecht.}}
 {{ex:de docent|uh doh-SEHNT|the teacher}}
 {{ex:het kantoor|uht kahn-TOHR|the office}}
@@ -337,7 +337,7 @@ module.exports = [
       ["fi", "Ik __ in Utrecht.", "I work in Utrecht.", "werk", "werkt|werken|woon", "With ik you use the base werk. werkt is the jij form. woon means live."],
       ["fi", "__ je hier?", "Do you work here? (use je)", "Werk", "Werkt|Woon|Woont", "inversion: je after the verb, so Werk, with no t."],
       ["fi", "__ kantoor", "the office", "het", "de|een|docent", "het-word: kantoor takes het."],
-      ["ty", "Do you work? (use je)", "Werk je", "werk · je after the verb", "werkt", "inversion: Werk je puts the verb before je, and the t drops."],
+      ["ty", "Do you work? (use je)", "Werk je|Werk jij", "werk · je after the verb", "werkt", "inversion: Werk je puts the verb before je, and the t drops."],
       ["ty", "the teacher (use docent)", "de docent", "docent · de", "het", "de-word: docent is common gender, stored with de."],
       ["ty", "I work in Utrecht. (start with Ik)", "Ik werk in Utrecht", "werk · Utrecht", "werkt", "verb second: Ik werk in Utrecht, not Ik in Utrecht werk."]
     ]
@@ -378,12 +378,12 @@ module.exports = [
       ["mc", "They work. (use Zij) =", "Zij werken.", "Zij werkt.", "Zij werk.", "Jullie werkt.", "They use the dictionary form: Zij werken."],
       ["or", "the mother", "de moeder", "het", "de-word: moeder is common gender, stored with de."],
       ["or", "the girl", "het meisje", "de", "het-word: meisje is neuter, because it ends in -je."],
-      ["or", "She works. (use Zij, start with Zij)", "Zij werkt", "werk", "verb second: Zij werkt, not Zij werk."],
+      ["or", "She works. (use Zij, start with Zij)", "Zij werkt", "werk", "verb second: werkt comes right after Zij, and she adds t, so not werk."],
       ["fi", "__ moeder", "my mother", "mijn", "jouw|uw|de", "my is mijn. jouw and uw mean your."],
       ["fi", "__ moeder", "your mother (to a stranger)", "uw", "mijn|jouw|je", "A stranger gets uw. jouw and je are for a friend."],
       ["fi", "Zij __.", "She works. (use Zij)", "werkt", "werk|werken|woon", "She adds t. werken would mean they. woon means live."],
       ["ty", "the woman", "de vrouw", "vrouw · de", "het", "de-word: vrouw is common gender, stored with de."],
-      ["ty", "She works. (use Zij, start with Zij)", "Zij werkt", "zij · werken", "werk", "verb second: Zij werkt keeps the verb second, not Zij werk."],
+      ["ty", "She works. (use Zij, start with Zij)", "Zij werkt", "zij · werken", "werk", "verb second: Zij werkt keeps the verb second, and she adds t, so not werk."],
       ["ty", "our child (use ons)", "ons kind", "kind · ons", "onze", "het-word: kind takes ons, with no -e."]
     ]
   },
@@ -396,7 +396,7 @@ module.exports = [
 <p>The number one is <b>één</b>, with an accent, said ayn. Bare <b>een</b> is still the article, said uhn. Then come <b>twee</b>, <b>drie</b>, <b>vier</b>, <b>vijf</b>, <b>zes</b>, <b>zeven</b>, <b>acht</b>, <b>negen</b>, <b>tien</b>.</p>
 {{ex:vijf|vighf|five}}
 <h3>Eleven and up</h3>
-<p><b>elf</b> is eleven and <b>twaalf</b> is twelve. The teens add <b>-tien</b>, with two traps. Fourteen is <b>veertien</b>, not a word built on vier. Eighteen is <b>achttien</b>, with two t's. The tens are <b>twintig</b>, <b>dertig</b>, <b>veertig</b>, <b>vijftig</b>, <b>zestig</b>, <b>zeventig</b>, <b>tachtig</b>, <b>negentig</b>. Forty is <b>veertig</b>. Eighty is <b>tachtig</b>, not a word built on acht. Twenty-one is one word, <b>eenentwintig</b>, and it uses <b>een</b>, not <b>één</b>. Twenty-two is <b>tweeëntwintig</b>, with two dots on the e so the two e's stay apart. <b>honderd</b> is one hundred.</p>
+<p><b>elf</b> is eleven and <b>twaalf</b> is twelve. The teens add <b>-tien</b>, with two traps. Fourteen is <b>veertien</b>, not a word built on vier. Eighteen is <b>achttien</b>, with two t's. The tens are <b>twintig</b>, <b>dertig</b>, <b>veertig</b>, <b>vijftig</b>, <b>zestig</b>, <b>zeventig</b>, <b>tachtig</b>, <b>negentig</b>. Forty is <b>veertig</b>. Eighty is <b>tachtig</b>, with a t in front of acht. Twenty-one is one word, <b>eenentwintig</b>, and it uses <b>een</b>, not <b>één</b>. Twenty-two is <b>tweeëntwintig</b>, with two dots on the e so the two e's stay apart. <b>honderd</b> is one hundred.</p>
 {{ex:eenentwintig|AY-nuh-twihn-tuhkh|twenty-one}}
 {{ex:tweeëntwintig|TWAY-uh-twihn-tuhkh|twenty-two}}
 <h3>Euros</h3>
@@ -448,7 +448,7 @@ module.exports = [
 {{ex:de stoelen|uh STOO-luh|the chairs}}
 {{ex:de bedden|uh BEH-duh|the beds}}
 <h3>Nouns that add -s</h3>
-<p>Many nouns ending in an unstressed <b>-el</b>, <b>-er</b> or <b>-en</b> add <b>-s</b> instead. <b>de tafel</b> becomes <b>de tafels</b>. <b>de kamer</b> becomes <b>de kamers</b>. <b>de keuken</b> becomes <b>de keukens</b>. This is not every similar word. <b>stoel</b> takes <b>-en</b>. A final long vowel keeps an apostrophe before the s, so the vowel stays long: <b>de auto</b> becomes <b>de auto's</b>. An <b>-s</b> plural is still <b>de</b>. You say <b>de kamers</b> and <b>de tafels</b>.</p>
+<p>Many nouns ending in an unstressed <b>-el</b>, <b>-er</b> or <b>-en</b> add <b>-s</b> instead. <b>de tafel</b> becomes <b>de tafels</b>. <b>de kamer</b> becomes <b>de kamers</b>. <b>de keuken</b> becomes <b>de keukens</b>. The ending has to be unstressed: <b>stoel</b> is one stressed syllable, so it takes <b>-en</b>. A final long vowel keeps an apostrophe before the s, so the vowel stays long: <b>de auto</b> becomes <b>de auto's</b>. An <b>-s</b> plural is still <b>de</b>. You say <b>de kamers</b> and <b>de tafels</b>.</p>
 {{ex:de kamer|uh KAAH-muhr|the room}}
 {{ex:de kamers|uh KAAH-muhrs|the rooms}}
 {{ex:de auto's|uh OW-tohs|the cars}}
@@ -470,13 +470,13 @@ module.exports = [
       ["mc", "the cars =", "de auto's", "de autos", "het auto's", "de autoen", "The apostrophe keeps the o long: de auto's. The plural article is de."],
       ["mc", "The men work. =", "De mannen werken.", "De mannen werkt.", "Het mannen werken.", "De mannen werk.", "The plural verb is the dictionary form: werken."],
       ["or", "the houses", "de huizen", "het", "de/het: a plural takes de, even when huis is a het-word."],
-      ["or", "The men work. (use mannen, start with De)", "De mannen werken", "werkt", "verb second: De mannen werken, not De mannen werkt."],
+      ["or", "The men work. (use mannen, start with De)", "De mannen werken", "werkt", "verb second: werken comes right after De mannen, and a plural takes the dictionary form, not werkt."],
       ["or", "the rooms", "de kamers", "kameren", "de-word: kamer adds -s, and the plural takes de."],
       ["fi", "de __", "the houses", "huizen", "huis|huizes|huisen", "huis adds -en, and the z comes back: de huizen."],
       ["fi", "de __", "the rooms", "kamers", "kamer|kameren|stoelen", "kamer adds -s: de kamers. stoelen means chairs."],
       ["fi", "__ bedden", "the beds", "de", "het|een|den", "de/het: bed is het in the singular, and the plural takes de."],
       ["ty", "the houses", "de huizen", "huis · -en", "het", "de/het: a plural takes de, even when huis is a het-word."],
-      ["ty", "The men work. (use mannen, start with De)", "De mannen werken", "mannen · werken", "werkt", "verb second: De mannen werken, not De mannen werkt."],
+      ["ty", "The men work. (use mannen, start with De)", "De mannen werken", "mannen · werken", "werkt", "verb second: werken comes right after De mannen, and a plural takes the dictionary form, not werkt."],
       ["ty", "the chairs", "de stoelen", "stoel · -en", "stoels", "de-word: stoel adds -en, and the plural takes de."]
     ]
   }

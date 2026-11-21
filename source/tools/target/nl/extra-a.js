@@ -1,20 +1,20 @@
 /* en-nl extras, writer EN-NL-A. DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
 exports.DIALOG = `
 de man | Wie is de man? | De man heet Peter. | Who is the man? / The man is called Peter.
-de fiets | Is dat de fiets van Anna? | Ja, dat is de fiets. | Is that Anna's bike? / Yes, that is the bike.
-het paard | Is dat het paard van Mark? | Ja, dat is het paard. | Is that Mark's horse? / Yes, that is the horse.
-het huis | Is dat het huis van Linde? | Ja, dat is het huis. | Is that Linde's house? / Yes, that is the house.
+de fiets | Is de fiets van Anna? | Ja, de fiets is van Anna. | Is the bike Anna's? / Yes, the bike is Anna's.
+het paard | Is het paard van Mark? | Ja, het paard is van Mark. | Is the horse Mark's? / Yes, the horse is Mark's.
+het huis | Is het huis groot? | Nee, het huis is klein. | Is the house big? / No, the house is small.
 de school | Waar is de school? | De school is in Amsterdam. | Where is the school? / The school is in Amsterdam.
 de hond | Is de hond klein? | Ja, de hond is klein. | Is the dog small? / Yes, the dog is small.
 Hallo. | Hallo, Anna. | Hallo, Peter. | Hello, Anna. / Hello, Peter.
 Hoe gaat het? | Hallo, Bas. Hoe gaat het? | Goed, dank je. | Hi, Bas. How are you? / Fine, thanks.
 Alstublieft. | De koffie, alstublieft. | Dank u wel. | The coffee, here you are. / Thank you.
 Ik heet Anna. | Hoe heet je? | Ik heet Anna. | What's your name? / My name is Anna.
-Ik woon in Utrecht. | Ik woon in Utrecht. | Ik woon in Amsterdam. | I live in Utrecht. / I live in Amsterdam.
+Ik woon in Utrecht. | Waar woon je? | Ik woon in Utrecht. | Where do you live? / I live in Utrecht.
 Spreekt u Engels? | Spreekt u Engels? | Ja, een beetje. | Do you speak English? / Yes, a little.
 mijn moeder | Wie is dat? | Dat is mijn moeder. | Who is that? / That is my mother.
 een vriend | Wie is Ahmed? | Ahmed is een vriend van mij. | Who is Ahmed? / Ahmed is a friend of mine.
-de zus | Wie is de zus van Lotte? | De zus heet Emma. | Who is Lotte's sister? / The sister is called Emma.
+de zus | Hoe heet de zus van Lotte? | De zus van Lotte heet Emma. | What's the name of Lotte's sister? / Lotte's sister is called Emma.
 Hoe laat is het? | Hoe laat is het? | Het is half drie. | What time is it? / It is half past two.
 twee euro | Wat kost de koffie? | De koffie kost twee euro. | How much is the coffee? / The coffee costs two euros.
 Hoeveel kost het? | Hoeveel kost het? | Het kost vijftig cent. | How much does it cost? / It costs fifty cents.

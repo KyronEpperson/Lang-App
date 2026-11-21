@@ -33,7 +33,7 @@ de muis | uh muys | the mouse | ui, lips rounded; the animal
 de neus | uh neuhs | the nose | eu, lips rounded, no y-glide
 koud | kowt | cold | ou as in "cow"; feeling cold is Ik heb het koud
 blauw | blow | blue | au, the same sound as ou
-lachen | LAAH-khuh | to laugh | ch is kh
+lachen | LAH-khuh | to laugh | ch is kh
 de schoen | uh skhoon | the shoe | sch is s plus kh
 het licht | uht lihkht | the light | ch is kh; het-word
 de tuin | uh tuyn | the garden | ui; de-word
@@ -48,25 +48,25 @@ Hoe gaat het? | hoo khaaht uht | How are you? | the answer is het gaat, not ik b
 Hoe gaat het met u? | hoo khaaht uht meht uu | How are you? (formal) | u, for a stranger, staff, or someone older
 Dank je wel. | dahnk yuh wehl | Thank you. (informal) | je, to a friend
 Dank u wel. | dahnk uu wehl | Thank you. (formal) | u, to a stranger
-Alsjeblieft. | AHL-shuh-bleeft | Here you are. / Please. (informal) | je, to a friend; stress is on the last syllable
+Alsjeblieft. | ahl-shuh-BLEEFT | Here you are. / Please. (informal) | je, to a friend; stress is on the last syllable
 Alstublieft. | ahl-stue-BLEEFT | Here you are. / Please. (formal) | u, to a stranger
 Graag gedaan. | khraahkh khuh-DAAHN | You're welcome. | the answer to thank you
-Pardon. | PAHR-dawn | Excuse me. | a small bump, or to get attention; stress is on the second syllable
+Pardon. | pahr-DAWN | Excuse me. | a small bump, or to get attention; stress is on the second syllable
 Dag. | dahkh | Hello or goodbye. | any time of day
 Tot ziens. | tawt zeens | Goodbye. | a neutral goodbye
 Goed, dank je. | khoot dahnk yuh | Fine, thanks. | a fine answer; the mistake is ik ben goed
 Doei. | dooy | Bye. (informal) | to a friend
 `,
   "About me": `
-Ik heet Anna. | ihk hayt AH-nah | My name is Anna. | heet, not ben
+Ik heet Anna. | ihk hayt AH-nah | My name is Anna. | literally "I am called Anna"; Ik ben Anna also works
 Ik kom uit Nederland. | ihk kawm uyt NAY-duhr-lahnt | I come from the Netherlands. | uit for the place you come from
 Ik woon in Utrecht. | ihk wohn ihn UU-trehkht | I live in Utrecht. | in plus the city
-Ik studeer. | ihk STUU-dayr | I study. | a role takes no article: Ik ben student
+Ik studeer. | ihk stuu-DAYR | I study. | a role takes no article: Ik ben student
 Ik spreek een beetje Nederlands. | ihk sprayk uhn BAY-tyuh NAY-duhr-lahnds | I speak a little Dutch. | een is the article
 Hoe heet je? | hoo hayt yuh | What's your name? (informal) | je, to a friend
 Hoe heet u? | hoo hayt uu | What's your name? (formal) | u, to a stranger or someone older
-Waar kom je vandaan? | waahr kawm yuh VAHN-daahn | Where are you from? (informal) | je after the verb drops the -t; vandaan is stressed on daan
-Waar komt u vandaan? | waahr kawmt uu VAHN-daahn | Where are you from? (formal) | u keeps the -t
+Waar kom je vandaan? | waahr kawm yuh vahn-DAAHN | Where are you from? (informal) | je after the verb drops the -t; vandaan is stressed on daan
+Waar komt u vandaan? | waahr kawmt uu vahn-DAAHN | Where are you from? (formal) | u keeps the -t
 Ik kom uit Amsterdam. | ihk kawm uyt ahm-stuhr-DAHM | I come from Amsterdam. | uit plus the city
 Ik woon in Rotterdam. | ihk wohn ihn roh-tuhr-DAHM | I live in Rotterdam. | in plus the city
 Ik woon in Den Haag. | ihk wohn ihn dehn haahkh | I live in The Hague. | Den Haag is The Hague
@@ -74,7 +74,7 @@ Ik spreek Engels. | ihk sprayk EHNG-uhls | I speak English. | the language name 
 Spreek je Engels? | sprayk yuh EHNG-uhls | Do you speak English? (informal) | je after the verb, so no -t
 Spreekt u Engels? | spraykt uu EHNG-uhls | Do you speak English? (formal) | u never drops the -t
 Ik ben student. | ihk behn stuu-DEHNT | I'm a student. | no een before a role
-Ik studeer Nederlands. | ihk STUU-dayr NAY-duhr-lahnds | I study Dutch. | the language name takes a capital
+Ik studeer Nederlands. | ihk stuu-DAYR NAY-duhr-lahnds | I study Dutch. | the language name takes a capital
 `,
   "People and family": `
 de vrouw | uh vrow | the woman | de-word
@@ -107,7 +107,7 @@ zeven | ZAY-vuh | seven | the first e is long
 tien | teen | ten | ie is the ee of "see"
 twintig | TWIHN-tuhkh | twenty | the -ig is a light kh
 eenentwintig | AY-nuh-twihn-tuhkh | twenty-one | one word
-honderd | HAWN-dehrt | one hundred | the second e is a schwa
+honderd | HAWN-duhrt | one hundred | the e is a schwa; final d sounds like t
 Hoe laat is het? | hoo laaht ihs uht | What time is it? | not wat tijd
 Het is half drie. | uht ihs hahlf dree | It is half past two. | halfway to three, so 2:30
 Het is één uur. | uht ihs ayn uur | It is one o'clock. | één is the number one
@@ -124,15 +124,15 @@ donderdag | DAWN-duhr-dahkh | Thursday | short o
 vrijdag | VRIGH-dahkh | Friday | ij, wider than "eye"
 zaterdag | ZAAH-tuhr-dahkh | Saturday | long aa
 zondag | ZAWN-dahkh | Sunday | g at the end is kh
-vandaag | VAHN-daahkh | today | stress is on dag
+vandaag | vahn-DAAHKH | today | stress is on dag
 morgen | MAWR-khuh | tomorrow | also the word for morning
-gisteren | khih-STAY-ruh | yesterday | stress the first syllable; both e's are a schwa
+gisteren | KHIHS-tuh-ruh | yesterday | stress the first syllable; both e's are a schwa
 's ochtends | SAWKH-tuhns | in the mornings | space after 's, not a hyphen
-'s avonds | SAAH-vawnds | in the evenings | space after 's; the d sounds like t
+'s avonds | SAAH-vawnds | in the evenings | space after 's; at the start of a sentence, 's Avonds
 Het is kwart over drie. | uht ihs kwahrt OH-vuhr dree | It is quarter past three. | 3:15
 Het is kwart voor vier. | uht ihs kwahrt vohr veer | It is quarter to four. | 3:45
 de afspraak | uh AHFS-praahk | the appointment | de-word
-Het regent. | uht ruh-KHEHNT | It's raining. | stress regent on the first syllable
+Het regent. | uht RAY-khuhnt | It's raining. | stress regent on the first syllable
 Het is koud. | uht ihs kowt | It's cold. | the weather; feeling cold is Ik heb het koud
 Het is vijf mei. | uht ihs vighf migh | It is May 5. | day then month; the month has no capital
 `,
@@ -141,10 +141,10 @@ een koffie | uhn KAW-fee | a coffee | what you order in a café
 een broodje | uhn BROHD-yuh | a sandwich | the aid has no t; the spoken form is closer to ty
 Mag ik de kaart? | mahkh ihk uh kaahrt | May I have the menu? | de kaart, not de map
 Ik wil graag water. | ihk wihl khraahkh WAAH-tuhr | I'd like some water. | graag softens wil
-de friet | uh freet | the fries | also called patat in the west
+de friet | uh freet | the fries | many people in the Netherlands say patat
 de koffie | uh KAW-fee | the coffee | de-word
 het water | uht WAAH-tuhr | the water | het-word
-de thee | uh thay | the tea | de-word
+de thee | uh tay | the tea | de-word
 de melk | uh mehlk | the milk | de-word
 het brood | uht broht | the bread | het-word; final d sounds like t
 de soep | uh soop | the soup | de-word
@@ -161,7 +161,7 @@ Wat kost dat? | waht kawst daht | How much is that? | dat points at a thing
 een groot huis | uhn khroht huys | a big house | het-word, no -e after een
 het grote huis | uht KHROH-tuh huys | the big house | -e after het
 de rode jas | uh ROH-duh yahs | the red coat | de-word, so -e
-een euro | uhn EUH-roh | one euro | unstressed een; the number one is één
+een euro | uhn EUH-roh | a euro | unstressed een; to stress "one euro", say één euro
 een rode jas | uhn ROH-duh yahs | a red coat | a de-word keeps the -e after een
 een grote jas | uhn KHROH-tuh yahs | a big coat | de-word, so -e, unlike een groot huis
 de jas | uh yahs | the coat | de-word; a coat or a jacket

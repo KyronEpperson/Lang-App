@@ -4,7 +4,7 @@ Ik sta om zeven uur op. | Hoe laat sta jij op, Lotte? | Ik sta om zeven uur op. 
 Er is een bed. | Er is een bed in de slaapkamer. | Mooi, dan slaap ik daar. | There is a bed in the bedroom. / Good, then I'll sleep there.
 Ik ruim de kamer op. | Wat doe je, Bas? | Ik ruim de kamer op. | What are you doing, Bas? / I'm tidying the room.
 Waar is het station? | Waar is het station? | Ga rechtdoor. Het is dichtbij. | Where is the station? / Go straight ahead. It's nearby.
-Ik ben de weg kwijt. | Ik ben de weg kwijt. | Geen probleem. Het museum is links. | I'm lost. / No problem. The museum is on the left.
+Ik ben de weg kwijt. | Pardon, ik ben de weg kwijt. Waar is het museum? | Het museum is links. | Excuse me, I'm lost. Where is the museum? / The museum is on the left.
 Gaat u rechtdoor. | Pardon, hoe kom ik bij het museum? | Gaat u rechtdoor. | Excuse me, how do I get to the museum? / Go straight ahead.
 Van welk spoor? | Van welk spoor vertrekt de trein? | Van spoor vier. | Which platform does the train leave from? / From platform four.
 Ik neem de trein. | Ik neem de trein naar Groningen. | Goede reis! | I'm taking the train to Groningen. / Have a good trip!
@@ -28,7 +28,7 @@ Ik heb geen fiets. | Heb je een fiets? | Nee, ik heb geen fiets. | Do you have a
 
 exports.EXAMPLES = `
 de keuken | De keuken is naast de woonkamer. | The kitchen is next to the living room.
-Ik kom om zes uur thuis. | Ik kom om zes uur thuis en ik ga naar bed. | I get home at six and I go to bed.
+Ik kom om zes uur thuis. | Ik kom om zes uur thuis en dan eet ik. | I get home at six and then I eat.
 Steek de straat over. | Steek bij de brug de straat over. | Cross the street at the bridge.
 naast de kerk | Het museum is naast de kerk. | The museum is next to the church.
 Ik ben naar Amsterdam gegaan. | Gisteren ben ik naar Amsterdam gegaan. | Yesterday I went to Amsterdam.
@@ -37,7 +37,7 @@ Ik studeer in Groningen. | Ik studeer in Groningen en ik werk in het weekend. | 
 Jij werkt in Rotterdam. | Jij werkt in Rotterdam en ik werk in Utrecht. | You work in Rotterdam and I work in Utrecht.
 Ik ben jarig. | Ik ben jarig en ik ben blij. | It's my birthday and I'm glad.
 Ik voel me niet goed. | Ik voel me niet goed, want ik ben ziek. | I don't feel well, because I'm sick.
-Ik hou van muziek. | Ik hou van muziek en ik lees graag een boek. | I like music and I like to read a book.
+Ik hou van muziek. | Ik hou van muziek en ik lees graag een boek. | I love music and I like to read a book.
 in het weekend | In het weekend speel ik voetbal. | On the weekend I play soccer.
 Ik denk dat hij moe is. | Ik denk dat hij moe is, want hij werkt veel. | I think that he is tired, because he works a lot.
 Woon je in Amsterdam? | Woon je in Amsterdam of in Rotterdam? | Do you live in Amsterdam or in Rotterdam?

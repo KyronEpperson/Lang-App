@@ -14,7 +14,7 @@ module.exports = {
     het raam | uht raahm | the window | het-word
     Er zijn twee stoelen. | uhr zighn tway STOO-luh | There are two chairs. | er zijn for more than one
     Ik doe het licht uit. | ihk doo uht lihkht uyt | I turn the light off. | separable: uit at the end
-    Ik kom om zes uur thuis. | ihk kawm awm zehs uur thuys | I get home at six. | separable: thuis at the end
+    Ik kom om zes uur thuis. | ihk kawm awm zehs uur tuys | I get home at six. | separable: thuis at the end
     Ik ga naar bed. | ihk khaah naahr beht | I go to bed. | naar bed has no article
     de woonkamer | uh WOHN-kaah-muhr | the living room | de-word
     Ik ruim de kamer op. | ihk ruym uh KAAH-muhr awp | I tidy the room. | separable: op at the end
@@ -23,19 +23,19 @@ module.exports = {
   "Around town and directions": `
     links | lihnks | left | direction
     rechts | rehkhts | right | direction
-    rechtdoor | REHKHT-dohr | straight ahead | one word
+    rechtdoor | rehkht-DOHR | straight ahead | one word
     Waar is het station? | waahr ihs uht stah-SHAWN | Where is the station? | het station is a het-word
-    Ga rechtdoor. | khaah REHKHT-dohr | Go straight ahead. | informal, to a friend
-    Ga linksaf. | khaah LIHNK-sahf | Turn left. | linksaf means to the left
-    Ga rechtsaf. | khaah REHKHT-sahf | Turn right. | rechtsaf means to the right
-    Gaat u rechtdoor. | khaaht uu REHKHT-dohr | Go straight ahead. (formal) | u never drops the -t
+    Ga rechtdoor. | khaah rehkht-DOHR | Go straight ahead. | informal, to a friend
+    Ga linksaf. | khaah lihnks-AHF | Turn left. | linksaf means to the left
+    Ga rechtsaf. | khaah rehkhts-AHF | Turn right. | rechtsaf means to the right
+    Gaat u rechtdoor. | khaaht uu rehkht-DOHR | Go straight ahead. (formal) | u never drops the -t
     de straat | uh straaht | the street | de-word
     de hoek | uh hook | the corner | de-word; oe sounds like the oo of food
     Het is dichtbij. | uht ihs dihkht-BIGH | It's nearby. | one word when nothing follows
     Het is ver weg. | uht ihs vehr wehkh | It's far away. | ver weg
     Ik ben de weg kwijt. | ihk behn uh wehkh kwight | I'm lost. | the set phrase
     Steek de straat over. | stayk uh straaht OH-vuhr | Cross the street. | separable: over at the end
-    het museum | uht mue-ZAY-uhm | the museum | het-word; stress on the last syllable
+    het museum | uht mue-ZAY-uhm | the museum | het-word; stress on se, the middle syllable
     de brug | uh bruekh | the bridge | de-word
     naast de kerk | naahst uh kehrk | next to the church | de kerk is a de-word
     Hoe kom ik bij het museum? | hoo kawm ihk bigh uht mue-ZAY-uhm | How do I get to the museum? | komen bij: how you get there
@@ -48,9 +48,9 @@ module.exports = {
     Van welk spoor? | vahn wehlk spohr | Which platform? | welk, because spoor is a het-word
     de bus | uh bues | the bus | de-word
     de tram | uh trahm | the tram | de-word
-    het perron | uht PEH-rawn | the platform | het-word; announcements say spoor
+    het perron | uht peh-RAWN | the platform | het-word; announcements say spoor
     Ik stap hier uit. | ihk stahp heer uyt | I'm getting off here. | separable: uit at the end
-    Een retour naar Utrecht. | uhn RAY-towr naahr UU-trehkht | A round-trip ticket to Utrecht. | a single is een enkeltje
+    Een retour naar Utrecht. | uhn ruh-TOOR naahr UU-trehkht | A round-trip ticket to Utrecht. | a single is een enkeltje
     Ik heb een kaartje gekocht. | ihk hehp uhn KAAHR-tyuh khuh-KAWKHT | I bought a ticket. | perfect: gekocht at the end
     Ik ben naar Amsterdam gegaan. | ihk behn naahr ahm-stuhr-DAHM khuh-KHAAHN | I went to Amsterdam. | gaan takes zijn; gegaan at the end
     De trein heeft vertraging. | uh trighn hayft vuhr-TRAAH-khihng | The train is delayed. | no article in this phrase
@@ -68,14 +68,14 @@ module.exports = {
     Ik ben student. | ihk behn stuu-DEHNT | I'm a student. | a role takes no article
     de les | uh lehs | the lesson | de-word
     het huiswerk | uht HUYS-wehrk | the homework | het-word
-    Ik studeer in Groningen. | ihk STUU-dayr ihn KHROH-nihng-uh | I study in Groningen. | present: ik studeer
+    Ik studeer in Groningen. | ihk stuu-DAYR ihn KHROH-nihng-uh | I study in Groningen. | present: ik studeer
     de universiteit | uh ue-nee-vehr-see-TAYT | the university | de-word; stress on -teit
     Ik heb een vergadering. | ihk hehp uhn vuhr-KHAAH-duh-rihng | I have a meeting. | de vergadering is a de-word
-    Ik werk thuis. | ihk wehrk thuys | I work from home. | thuis means at home
+    Ik werk thuis. | ihk wehrk tuys | I work from home. | thuis means at home
     Werkt u hier? | wehrkt uu heer | Do you work here? (formal) | u never drops the -t
     Werk je hier? | wehrk yuh heer | Do you work here? | je after the verb, so no -t
-    Jij werkt in Rotterdam. | yigh wehrkt ihn roh-tuhr-DAHM | You work in Rotterdam. | stressed jij keeps the -t
-    de collega | uh KAW-luh-khaah | the coworker | de-word, for a man or a woman
+    Jij werkt in Rotterdam. | yigh wehrkt ihn roh-tuhr-DAHM | You work in Rotterdam. | jij before the verb, so werkt keeps the -t
+    de collega | uh kaw-LAY-khaah | the coworker | de-word, for a man or a woman
     de baan | uh baahn | the job | de-word
   `,
   "Feelings and states": `
@@ -92,7 +92,7 @@ module.exports = {
     Ik ben boos. | ihk behn bohs | I'm angry. | boos takes zijn
     Ik ben bang. | ihk behn bahng | I'm scared. | bang takes zijn, not hebben
     Ik heb pijn. | ihk hehp pighn | I'm in pain. | hebben
-    Ik ben druk. | ihk behn druek | I'm busy. | druk takes zijn
+    Ik heb het druk. | ihk hehp uht druek | I'm busy. | hebben het, like Ik heb het koud; Ik ben druk means I'm hyper
     Ik ben jarig. | ihk behn YAAH-ruhkh | It's my birthday. | jarig takes zijn
     Ik heb slaap. | ihk hehp slaahp | I'm sleepy. | hebben; sleepy, while moe is tired
     Ik ben wakker. | ihk behn WAH-kuhr | I'm awake. | wakker takes zijn
@@ -102,7 +102,7 @@ module.exports = {
     Ik wil fietsen. | ihk wihl FEET-suh | I want to cycle. | willen plus an infinitive
     Ik wil graag fietsen. | ihk wihl khraahkh FEET-suh | I'd like to cycle. | graag softens wil
     Dat is leuk. | daht ihs leuhk | That's nice. | leuk means nice or fun
-    in het weekend | ihn uht WAY-kehnt | at the weekend | het weekend is a het-word
+    in het weekend | ihn uht WEE-kehnt | on the weekend | het weekend is a het-word
     een hobby | uhn HAW-bih | a hobby | de hobby
     Ik kan zwemmen. | ihk kahn ZWEH-muh | I can swim. | kunnen: ik kan
     Kun je zwemmen? | kuen yuh ZWEH-muh | Can you swim? | je after the verb, so no -t
@@ -110,8 +110,8 @@ module.exports = {
     Mag ik mee? | mahkh ihk may | May I come along? | mee from meegaan, at the end
     Ik moet naar huis. | ihk moot naahr huys | I have to go home. | naar huis has no article
     Ik vind lezen leuk. | ihk vihnt LAY-zuh leuhk | I like reading. | leuk vinden
-    Ik hou van muziek. | ihk how vahn MUU-zeek | I like music. | hou van; houd is also correct
-    de muziek | uh MUU-zeek | the music | de-word
+    Ik hou van muziek. | ihk how vahn muu-ZEEK | I love music. | houden van is stronger than leuk vinden; houd is also correct
+    de muziek | uh muu-ZEEK | the music | de-word
     Ik speel voetbal. | ihk spayl VOOT-bahl | I play soccer. | no article with the sport
     het boek | uht book | the book | het-word; oe sounds like the oo of food
     Ik ga graag naar de film. | ihk khaah khraahkh naahr uh fihlm | I like going to the movies. | graag sits after the verb
@@ -121,16 +121,16 @@ module.exports = {
   "Questions and connectors": `
     Wat? | waht | What? | question word
     Waar woon je? | waahr wohn yuh | Where do you live? | je after the verb, so no -t
-    omdat | AWM-daht | because | the verb goes to the end
+    omdat | awm-DAHT | because | the verb goes to the end
     maar | maahr | but | contrasts two clauses
     en | ehn | and | joins words or clauses
     Wie? | wee | Who? | question word
-    Wanneer? | WAH-nayr | When? | question word
-    Waarom? | WAAH-rawm | Why? | question word; the answer can use omdat
+    Wanneer? | wah-NAYR | When? | question word
+    Waarom? | waah-RAWM | Why? | question word; the answer can use omdat
     Hoe? | hoo | How? | question word
     of | awf | or | or, not the English word of
     want | wahnt | because (the verb stays second) | want keeps the next verb second
-    omdat ik moe ben | AWM-daht ihk moo behn | because I'm tired | verb-final after omdat
+    omdat ik moe ben | awm-DAHT ihk moo behn | because I'm tired | verb-final after omdat
     Morgen ga ik naar school. | MAWR-khuh khaah ihk naahr skhohl | Tomorrow I'm going to school. | verb second: morgen ga ik; naar school has no article
     Woon je in Amsterdam? | wohn yuh ihn ahm-stuhr-DAHM | Do you live in Amsterdam? | inversion; je drops the -t
     Ik denk dat hij moe is. | ihk dehnk daht high moo ihs | I think that he is tired. | verb-final after dat
@@ -141,7 +141,7 @@ module.exports = {
   "Traps for English speakers": `
     eventueel | ay-vehn-tue-AYL | possibly, if needed | not eventually
     uiteindelijk | UYT-ighn-duh-luhk | in the end, eventually | the word for eventually
-    slim | slihm | clever | not thin; thin is slank
+    slim | slihm | clever | not slim in the English sense; that is slank
     Het gaat goed. | uht khaaht khoot | I'm fine. | the answer to hoe gaat het; not ik ben goed
     een groot huis | uhn khroht huys | a big house | het-word, no -e after een
     brutaal | bruu-TAAHL | cheeky | not brutal; brutal is wreed or bruut
@@ -149,13 +149,13 @@ module.exports = {
     Ik kom eventueel. | ihk kawm ay-vehn-tue-AYL | I might come. | possibly, not a promise
     slank | slahnk | slim, slender | the word for English slim
     eigenlijk | IGH-khuh-luhk | actually | the word for actually
-    de map | uh mahp | the folder | not a map; a map is de plattegrond
-    de file | uh FIH-luh | the traffic jam | not a computer file; a file is het bestand
+    de map | uh mahp | the folder | not a map; a map is de kaart, a street map de plattegrond
+    de file | uh FEE-luh | the traffic jam | not a computer file; a file is het bestand
     de chef | uh shehf | the boss | not a cook; a cook is de kok
-    de agenda | uh AAH-khuh-daah | the planner | also a diary; a private diary is het dagboek
+    de agenda | uh aah-KHEHN-daah | the planner | also a meeting agenda; a private diary is het dagboek
     Ik heb geen fiets. | ihk hehp khayn feets | I don't have a bike. | geen before a noun
     Ik werk niet. | ihk wehrk neet | I don't work. | niet with the verb
-    de plattegrond | uh PLAH-tuh-khrawnt | the map | de-word; say this, not de map
+    de plattegrond | uh plah-tuh-KHRAWNT | the street map | de-word; say this, not de map
     de kok | uh kawk | the cook | de-word; say this, not de chef
   `
 };

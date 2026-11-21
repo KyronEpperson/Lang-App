@@ -10,7 +10,7 @@ module.exports = [
 {{ex:Ik ga naar school.|ihk khaah naahr skhohl|I go to school.}}
 {{ex:Morgen ga ik naar school.|MAWR-khuh khaah ihk naahr skhohl|Tomorrow I go to school.}}
 {{ex:In Utrecht woon ik.|ihn UU-trehkht wohn ihk|I live in Utrecht.}}
-{{ex:Vandaag werk ik.|VAHN-daahkh wehrk ihk|I am working today.}}
+{{ex:Vandaag werk ik.|vahn-DAAHKH wehrk ihk|I am working today.}}
 <h3>One piece can be two words</h3>
 <p><b>In Utrecht</b> is one place, so <b>woon</b> is still second. <b>Vandaag</b> is one time. The rest of the sentence follows the verb. A useful habit for that rest is time, then how, then where: tomorrow, by train, to Utrecht. The verb is still the second piece. That habit is not a law, so you will also hear the three parts in another order.</p>
 {{ex:Ik ga morgen met de trein naar Utrecht.|ihk khaah MAWR-khuh meht uh trighn naahr UU-trehkht|Tomorrow I go to Utrecht by train.}}
@@ -22,7 +22,7 @@ module.exports = [
 {{ex:Werkt u?|wehrkt uu|Do you work?}}
 <div class="tbl"><table><tr><th>First piece</th><th>Verb</th><th>Then</th></tr><tr><td class="k">Ik</td><td class="k">ga</td><td class="k">naar school.</td></tr><tr><td class="k">Morgen</td><td class="k">ga</td><td class="k">ik naar school.</td></tr><tr><td class="k">In Utrecht</td><td class="k">woon</td><td class="k">ik.</td></tr><tr><td class="k">Vandaag</td><td class="k">werk</td><td class="k">ik.</td></tr></table></div>
 <p><b>En</b> does not count as a first piece. Each half is its own sentence, with its own verb in the second slot.</p>
-{{ex:Ik werk en ik studeer.|ihk wehrk ehn ihk STUU-dayr|I work and I study.}}
+{{ex:Ik werk en ik studeer.|ihk wehrk ehn ihk stuu-DAYR|I work and I study.}}
 <div class="tip"><b>Most common mistake:</b> leaving the subject in front of the verb. <b>Morgen ik ga naar school</b> → <b>Morgen ga ik naar school</b>.</div>
 `,
     check: [
@@ -67,7 +67,7 @@ module.exports = [
 {{ex:Wat doe je?|waht doo yuh|What do you do?}}
 {{ex:Hoe heet je?|hoo hayt yuh|What's your name?}}
 {{ex:Hoe heet u?|hoo hayt uu|What's your name?}}
-{{ex:Wanneer werk je?|WAH-nayr wehrk yuh|When do you work?}}
+{{ex:Wanneer werk je?|wah-NAYR wehrk yuh|When do you work?}}
 {{ex:Wie is Anna?|wee ihs AH-nah|Who is Anna?}}
 {{ex:Hoe laat is het?|hoo laaht ihs uht|What time is it?}}
 {{ex:Hoeveel kost de fiets?|hoo-VAYL kawst uh feets|How much is the bike?}}
@@ -114,7 +114,7 @@ module.exports = [
 {{ex:Ik heb geen huis.|ihk hehp khayn huys|I don't have a house.}}
 {{ex:Ik heb geen honger.|ihk hehp khayn HAWNG-uhr|I'm not hungry.}}
 {{ex:Ik ben geen student.|ihk behn khayn stuu-DEHNT|I'm not a student.}}
-{{ex:We hebben geen kinderen.|wuh HEH-buh khayn kihn-DAY-ruh|We don't have children.}}
+{{ex:We hebben geen kinderen.|wuh HEH-buh khayn KIHN-duh-ruh|We don't have children.}}
 <p>Hungry is <b>Ik heb honger</b>, so the negative is <b>geen honger</b>. A role such as <b>student</b> has no <b>een</b> in the positive sentence, and it still takes <b>geen</b>. The plural <b>kinderen</b> is stressed on <b>kin</b>.</p>
 <h3>Niet: the verb, a describing word, a place</h3>
 <p><b>Niet</b> does not replace <b>een</b>. For a plain action it follows the verb. Before a describing word, it sits right in front of that word. Before a place, it sits right in front of the place.</p>
@@ -162,8 +162,8 @@ module.exports = [
 {{ex:Ik heb een broer en een zus.|ihk hehp uhn broor ehn uhn zues|I have a brother and a sister.}}
 {{ex:Ik heb een zoon en een dochter.|ihk hehp uhn zohn ehn uhn DAWKH-tuhr|I have a son and a daughter.}}
 {{ex:Het kind is klein.|uht kihnt ihs klighn|The child is small.}}
-<p>One child is <b>het kind</b>. More than one is <b>de kinderen</b>. The plural adds <b>-eren</b>, and every plural takes <b>de</b>. Stress <b>kinderen</b> on <b>kin</b>. Two brothers are <b>de broers</b>. Two sisters are <b>de zussen</b>.</p>
-{{ex:Wij hebben twee kinderen.|wigh HEH-buh tway kihn-DAY-ruh|We have two children.}}
+<p>One child is <b>het kind</b>. More than one is <b>de kinderen</b>. The plural adds <b>-eren</b>, and every plural takes <b>de</b>. Stress <b>kinderen</b> on <b>kin</b>. The brothers are <b>de broers</b>. The sisters are <b>de zussen</b>.</p>
+{{ex:Wij hebben twee kinderen.|wigh HEH-buh tway KIHN-duh-ruh|We have two children.}}
 <h3>Mijn, zijn, haar, ons</h3>
 <p><b>Mijn</b> works with every noun: <b>mijn moeder</b>, <b>mijn huis</b>. <b>Zijn</b> means his and <b>haar</b> means her. They follow the person, not the thing. <b>Ons</b> is our before a het-word: <b>ons kind</b>. <b>Onze</b> is our before a de-word: <b>onze moeder</b>. After <b>is</b>, a describing word takes no extra ending: <b>lang</b>, not <b>lange</b>.</p>
 {{ex:Zijn moeder woont in Rotterdam.|zighn MOO-duhr wohnt ihn roh-tuhr-DAHM|His mother lives in Rotterdam.}}
@@ -176,7 +176,7 @@ module.exports = [
 <p>These four join two normal sentences. They do not push the verb anywhere. <b>En</b> is and, <b>maar</b> is but, <b>of</b> is or (not the English word <i>of</i>), and <b>want</b> is because. After <b>want</b>, the next part is still an ordinary sentence: subject, then verb.</p>
 <div class="tbl"><table><tr><th>Dutch</th><th>English</th></tr><tr><td class="k">en</td><td>and</td></tr><tr><td class="k">maar</td><td>but</td></tr><tr><td class="k">of</td><td>or</td></tr><tr><td class="k">want</td><td>because</td></tr></table></div>
 {{ex:Mijn moeder werkt, maar mijn vader werkt niet.|mighn MOO-duhr wehrkt maahr mighn VAAH-duhr wehrkt neet|My mother works, but my father does not.}}
-{{ex:Ik heb een broer of een zus.|ihk hehp uhn broor awf uhn zues|I have a brother or a sister.}}
+{{ex:Heb je een broer of een zus?|hehp yuh uhn broor awf uhn zues|Do you have a brother or a sister?}}
 {{ex:Ik ga naar school, want ik heb les.|ihk khaah naahr skhohl wahnt ihk hehp lehs|I go to school, because I have class.}}
 <div class="tip"><b>Most common mistake:</b> sending the verb to the end after <b>want</b>. <b>want ik les heb</b> → <b>want ik heb les</b>.</div>
 `,
@@ -210,7 +210,7 @@ module.exports = [
     body: `
 <p>A few English sentences come out wrong if you translate them word for word, and a few Dutch words do not mean what they look like. None of this is a new word-order rule. The verb still sits in the second slot: <b>Morgen ga ik naar school</b>.</p>
 <h3>How you are, and how you feel</h3>
-<p><b>Hoe gaat het?</b> is answered with <b>Het gaat goed</b>. <b>Ik ben goed</b> describes a good person, not a good day. Feeling cold is <b>Ik heb het koud</b>. Feeling hot is <b>Ik heb het warm</b>. Hungry is <b>Ik heb honger</b>, and thirsty is <b>Ik heb dorst</b>. The weather can be <b>Het is koud</b> or <b>Het is warm</b>. That is the air, not your body.</p>
+<p><b>Hoe gaat het?</b> is answered with <b>Het gaat goed</b>. <b>Ik ben goed</b> sounds like you are good at something, or a good person, not that your day is going well. Feeling cold is <b>Ik heb het koud</b>. Feeling hot is <b>Ik heb het warm</b>. Hungry is <b>Ik heb honger</b>, and thirsty is <b>Ik heb dorst</b>. The weather can be <b>Het is koud</b> or <b>Het is warm</b>. That is the air, not your body.</p>
 {{ex:Het gaat goed.|uht khaaht khoot|I'm fine.}}
 {{ex:Ik heb het koud.|ihk hehp uht kowt|I'm cold.}}
 {{ex:Ik heb het warm.|ihk hehp uht wahrm|I feel hot.}}
@@ -218,17 +218,17 @@ module.exports = [
 <p>The time question is <b>Hoe laat is het?</b> <b>Wat tijd is het?</b> is English word order with English words.</p>
 {{ex:Hoe laat is het?|hoo laaht ihs uht|What time is it?}}
 <h3>Words that do not mean what they look like</h3>
-<div class="tbl"><table><tr><th>Dutch</th><th>It looks like</th><th>It means</th><th>For the English word, say</th></tr><tr><td class="k">eventueel</td><td>eventually</td><td>possibly, if needed</td><td class="k">uiteindelijk</td></tr><tr><td class="k">actueel</td><td>actually</td><td>current</td><td class="k">eigenlijk</td></tr><tr><td class="k">brutaal</td><td>brutal</td><td>cheeky</td><td class="k">wreed, bruut</td></tr><tr><td class="k">slim</td><td>thin</td><td>clever</td><td class="k">slank</td></tr><tr><td class="k">de map</td><td>a map</td><td>a folder</td><td class="k">de plattegrond</td></tr><tr><td class="k">de file</td><td>a computer file</td><td>a traffic jam</td><td class="k">het bestand</td></tr><tr><td class="k">de chef</td><td>a cook</td><td>a boss</td><td class="k">de kok</td></tr><tr><td class="k">de agenda</td><td>a meeting list only</td><td>a planner too</td><td class="k">het dagboek</td></tr></table></div>
+<div class="tbl"><table><tr><th>Dutch</th><th>It looks like</th><th>It means</th><th>For the English word, say</th></tr><tr><td class="k">eventueel</td><td>eventually</td><td>possibly, if needed</td><td class="k">uiteindelijk</td></tr><tr><td class="k">actueel</td><td>actually</td><td>current</td><td class="k">eigenlijk</td></tr><tr><td class="k">brutaal</td><td>brutal</td><td>cheeky</td><td class="k">wreed, bruut</td></tr><tr><td class="k">slim</td><td>slim, thin</td><td>clever</td><td class="k">slank</td></tr><tr><td class="k">de map</td><td>a map</td><td>a folder</td><td class="k">de kaart, de plattegrond</td></tr><tr><td class="k">de file</td><td>a computer file</td><td>a traffic jam</td><td class="k">het bestand</td></tr><tr><td class="k">de chef</td><td>a cook</td><td>a boss</td><td class="k">de kok</td></tr><tr><td class="k">de agenda</td><td>a meeting list only</td><td>a planner too</td><td class="k">het dagboek, for a private diary</td></tr></table></div>
 <p><b>Ik kom eventueel</b> means I might come. It is not a promise. For in the end, say <b>uiteindelijk</b>. For maybe, say <b>misschien</b>, stressed on the second syllable. <b>Eigenlijk</b> is actually. <b>De plattegrond</b> is the clear word for a street map. <b>De kaart</b> is also a map, and in a café it is the menu. A private diary is <b>het dagboek</b>. On <b>agenda</b>, the stress is on <b>gen</b>.</p>
 {{ex:Ik kom eventueel.|ihk kawm ay-vehn-tue-AYL|I might come.}}
-{{ex:Ik kom uiteindelijk.|ihk kawm UYT-ighn-duh-luhk|I come eventually.}}
-{{ex:Ik kom misschien.|ihk kawm MIHS-skheen|Maybe I'll come.}}
+{{ex:Uiteindelijk ga ik naar huis.|UYT-ighn-duh-luhk khaah ihk naahr huys|In the end, I go home.}}
+{{ex:Ik kom misschien.|ihk kawm mih-SKHEEN|Maybe I'll come.}}
 {{ex:Ik woon eigenlijk in Utrecht.|ihk wohn IGH-khuh-luhk ihn UU-trehkht|I actually live in Utrecht.}}
 {{ex:Het nieuws is actueel.|uht neews ihs ahk-tuu-AYL|The news is current.}}
 {{ex:Hij is brutaal.|high ihs bruu-TAAHL|He is cheeky.}}
 {{ex:Mijn broer is slim.|mighn broor ihs slihm|My brother is clever.}}
-{{ex:Mijn zus is slank.|mighn zues ihs slahnk|My sister is thin.}}
-{{ex:Ik sta in de file.|ihk staah ihn uh FIH-luh|I'm stuck in a traffic jam.}}
+{{ex:Mijn zus is slank.|mighn zues ihs slahnk|My sister is slim.}}
+{{ex:Ik sta in de file.|ihk staah ihn uh FEE-luh|I'm stuck in a traffic jam.}}
 <h3>A big house</h3>
 <p><b>Huis</b> is a het-word. After <b>een</b>, the describing word takes no <b>-e</b>: <b>een groot huis</b>. <b>Jas</b> is a de-word, so it keeps the <b>-e</b>: <b>een grote jas</b>. After <b>is</b>, there is still no <b>-e</b>: <b>Het huis is groot</b>.</p>
 {{ex:een groot huis|uhn khroht huys|a big house}}
@@ -243,7 +243,7 @@ module.exports = [
     practice: [
       ["mc", "Someone says Hoe gaat het? You are fine.", "Het gaat goed.", "Ik ben goed.", "Ik heb goed.", "Het ben goed.", "The answer is Het gaat goed. Ik ben goed describes a good person."],
       ["mc", "the word for eventually, in the end", "uiteindelijk", "eventueel", "eigenlijk", "actueel", "Uiteindelijk means in the end. Eventueel means possibly."],
-      ["mc", "What does slim mean?", "clever", "thin", "cheeky", "brutal", "Slim means clever. Thin is slank."],
+      ["mc", "What does slim mean?", "clever", "thin", "cheeky", "brutal", "Slim means clever. For English slim, say slank."],
       ["mc", "What is de file?", "a traffic jam", "a computer file", "a folder", "a map", "De file is a traffic jam. A computer file is het bestand."],
       ["mc", "a big house", "een groot huis", "een grote huis", "een groot de huis", "het groot huis", "Het-word: huis takes no -e after een."],
       ["or", "a big house", "een groot huis", "grote", "Het-word: huis takes no -e after een."],
@@ -254,7 +254,7 @@ module.exports = [
       ["fi", "een __ jas", "a big coat", "grote", "groot|kleine|klein", "De-word: jas takes the adjective ending -e."],
       ["ty", "a big house", "een groot huis", "een · groot · huis", "grote", "No -e after een on a het-word."],
       ["ty", "Tomorrow I go to school (start with morgen)", "Morgen ga ik naar school", "gaan · morgen · school · start with morgen", "gaat", "Verb second: morgen comes first, then ga, then ik."],
-      ["ty", "My brother is clever (start with mijn; use slim)", "Mijn broer is slim", "broer · slim · clever", "slank", "Slim means clever. Slank means thin."]
+      ["ty", "My brother is clever (start with mijn; use slim)", "Mijn broer is slim", "broer · slim · clever", "slank", "Slim means clever. Slank means slim, slender."]
     ]
   },
   {
@@ -275,10 +275,10 @@ module.exports = [
 <h3>Days and parts of the day</h3>
 <p>Days and months take no capital. <b>Morgen</b> on its own means tomorrow. The same word is also a name for the morning, which is why the greeting you already know uses it. For in the morning, say <b>'s ochtends</b>. There is a space after <b>'s</b>, not a hyphen. <b>'s middags</b> is in the afternoon and <b>'s avonds</b> is in the evening. On <b>vandaag</b>, the stress is on <b>dag</b>. On <b>gisteren</b>, yesterday, the stress is on the first syllable. <b>Op</b> goes with a day. The day can be the first piece, and then the verb stays second.</p>
 <div class="tbl"><table><tr><th>Dutch</th><th>English</th></tr><tr><td class="k">maandag</td><td>Monday</td></tr><tr><td class="k">dinsdag</td><td>Tuesday</td></tr><tr><td class="k">woensdag</td><td>Wednesday</td></tr><tr><td class="k">donderdag</td><td>Thursday</td></tr><tr><td class="k">vrijdag</td><td>Friday</td></tr><tr><td class="k">zaterdag</td><td>Saturday</td></tr><tr><td class="k">zondag</td><td>Sunday</td></tr></table></div>
-{{ex:Vandaag is het maandag.|VAHN-daahkh ihs uht MAAHN-dahkh|Today is Monday.}}
-{{ex:gisteren|khih-STAY-ruh|yesterday}}
+{{ex:Vandaag is het maandag.|vahn-DAAHKH ihs uht MAAHN-dahkh|Today is Monday.}}
+{{ex:gisteren|KHIHS-tuh-ruh|yesterday}}
 {{ex:Op maandag ga ik naar school.|awp MAAHN-dahkh khaah ihk naahr skhohl|On Monday I go to school.}}
-{{ex:'s ochtends werk ik.|SAWKH-tuhns wehrk ihk|I work in the mornings.}}
+{{ex:'s Ochtends werk ik.|SAWKH-tuhns wehrk ihk|I work in the mornings.}}
 {{ex:Het is vijf mei.|uht ihs vighf migh|It is May 5.}}
 <h3>An appointment</h3>
 <p><b>De afspraak</b> is a de-word. <b>Om</b> goes with a clock time. <b>Op</b> goes with a day. You do not have the past tense yet, so <b>gisteren</b> is a word to recognize: the day before <b>vandaag</b>.</p>
@@ -289,7 +289,7 @@ module.exports = [
 <h3>A little weather</h3>
 <p><b>Het is koud</b> is the weather. <b>Ik heb het koud</b> is how you feel. <b>Het regent</b> is it's raining: stress <b>re</b>, the first syllable. <b>De zon schijnt</b> means the sun is shining. <b>Het sneeuwt</b> means it is snowing. <b>De regen</b> is the rain.</p>
 {{ex:Het is koud.|uht ihs kowt|It's cold.}}
-{{ex:Het regent.|uht ruh-KHEHNT|It's raining.}}
+{{ex:Het regent.|uht RAY-khuhnt|It's raining.}}
 {{ex:De zon schijnt.|uh zawn skhighnt|The sun is shining.}}
 {{ex:Het sneeuwt.|uht snaywt|It is snowing.}}
 <div class="tip"><b>Most common mistake:</b> reading <b>half drie</b> as 3:30. <b>half drie</b> = 3:30 → <b>half drie</b> = 2:30. 3:30 is <b>half vier</b>.</div>
@@ -329,7 +329,7 @@ module.exports = [
 {{ex:Ik bel Anna op.|ihk behl AH-nah awp|I call Anna.}}
 {{ex:De trein komt om drie uur aan.|uh trighn kawmt awm dree uur aahn|The train arrives at three.}}
 {{ex:Ik neem de fiets mee.|ihk naym uh feets may|I take the bike with me.}}
-{{ex:Ik kom om zes uur thuis.|ihk kawm awm zehs uur thuys|I get home at six.}}
+{{ex:Ik kom om zes uur thuis.|ihk kawm awm zehs uur tuys|I get home at six.}}
 <p>Say the sentence in two beats. The verb that matches <b>ik</b>, <b>je</b> or <b>hij</b> stays where a normal verb sits. The small word, the piece that was stuck on the front in the dictionary, closes the sentence. <b>Om zeven uur</b> is only the time in the middle. It does not take the last slot. If you start with the time, the verb still comes next and the small word still ends the sentence. Learn one order first: start with <b>ik</b>, and put <b>op</b>, <b>aan</b>, <b>mee</b> or <b>thuis</b> last.</p>
 {{ex:Om zeven uur sta ik op.|awm ZAY-vuh uur staah ihk awp|At seven I get up.}}
 <h3>Questions, je and u</h3>
@@ -389,30 +389,30 @@ module.exports = [
 {{ex:Kunt u zwemmen?|kuent uu ZWEH-muh|Can you swim?}}
 {{ex:Mag ik mee?|mahkh ihk may|May I come along?}}
 <h3>Don't have to, or not allowed</h3>
-<p><b>Ik moet niet werken</b> means I do not have to work. It is not a ban. A ban is <b>Ik mag niet werken</b>: I am not allowed to work. After these small verbs, a separable verb stays in one piece at the end: <b>Ik moet opstaan</b>.</p>
-{{ex:Ik moet niet werken.|ihk moot neet WEHR-kuh|I don't have to work.}}
+<p>A ban uses <b>mogen</b>: <b>Ik mag niet werken</b>, I am not allowed to work. For don't have to, Dutch does not use <b>moet niet</b>, which usually means should not. It switches to <b>hoeven</b> with <b>te</b>: <b>Ik hoef niet te werken</b>. Learn that one as a set phrase for now. After these small verbs, a separable verb stays in one piece at the end: <b>Ik moet opstaan</b>.</p>
 {{ex:Ik mag niet werken.|ihk mahkh neet WEHR-kuh|I'm not allowed to work.}}
+{{ex:Ik hoef niet te werken.|ihk hoof neet tuh WEHR-kuh|I don't have to work.}}
 {{ex:Morgen moet ik opstaan.|MAWR-khuh moot ihk AWP-staahn|Tomorrow I have to get up.}}
 <h3>What you like</h3>
-<p><b>Dat is leuk</b> means that's nice. <b>Ik vind lezen leuk</b> means I like reading. <b>Ik ga graag naar de film</b> means I like going to the movies: <b>graag</b> sits after the ordinary verb. <b>Ik hou van muziek</b> is I like music. <b>Ik houd van muziek</b> is also correct. <b>Het weekend</b> is a het-word: <b>in het weekend</b>. <b>De hobby</b> is a de-word.</p>
+<p><b>Dat is leuk</b> means that's nice. <b>Ik vind lezen leuk</b> means I like reading. <b>Ik ga graag naar de film</b> means I like going to the movies: <b>graag</b> sits after the ordinary verb. <b>Ik hou van muziek</b> is I love music, stronger than <b>leuk vinden</b>. <b>Ik houd van muziek</b> is also correct. <b>Het weekend</b> is a het-word: <b>in het weekend</b>. <b>De hobby</b> is a de-word.</p>
 {{ex:Dat is leuk.|daht ihs leuhk|That's nice.}}
 {{ex:Ik vind lezen leuk.|ihk vihnt LAY-zuh leuhk|I like reading.}}
-{{ex:in het weekend|ihn uht WAY-kehnt|at the weekend}}
+{{ex:in het weekend|ihn uht WEE-kehnt|on the weekend}}
 {{ex:Mijn hobby is fietsen.|mighn HAW-bih ihs FEET-suh|My hobby is cycling.}}
-{{ex:In het weekend wil ik fietsen.|ihn uht WAY-kehnt wihl ihk FEET-suh|At the weekend I want to cycle.}}
+{{ex:In het weekend wil ik fietsen.|ihn uht WEE-kehnt wihl ihk FEET-suh|On the weekend I want to cycle.}}
 <div class="tip"><b>Most common mistake:</b> leaving the to-form in the English place. <b>Ik kan spreken Nederlands</b> → <b>Ik kan Nederlands spreken</b>.</div>
 `,
     check: [
       ["I can cycle.", ["Ik kan fietsen.", "Ik kan fiets.", "Ik kan te fietsen.", "Ik fiets kan."], 0, "Kan is second and fietsen, the to-form, goes to the end."],
-      ["What does Ik moet niet werken mean?", ["I must not work.", "I don't want to work.", "I can't work.", "I don't have to work."], 3, "Moet niet means there is no need. A ban is mag niet."],
+      ["What does Ik mag niet werken mean?", ["I don't have to work.", "I'm not allowed to work.", "I don't want to work.", "I work a lot."], 1, "Mag niet is a ban. Don't have to is Ik hoef niet te werken."],
       ["You ask a stranger Can you swim?", ["Kun je zwemmen?", "Kun u zwemmen?", "Kunt u zwemmen?", "Kunt je zwemmen?"], 2, "With u, use kunt. The -t stays. Kun je is the form for a friend."]
     ],
     practice: [
       ["mc", "I'd like to cycle (use wil graag)", "Ik wil graag fietsen.", "Ik wil fietsen graag.", "Ik graag wil fietsen.", "Ik wil graag fiets.", "Graag sits with wil, and fietsen goes to the end."],
-      ["mc", "I don't have to work.", "Ik moet niet werken.", "Ik mag niet werken.", "Ik moet werken niet.", "Ik niet moet werken.", "Moet niet means there is no need. Mag niet means not allowed."],
+      ["mc", "I'm not allowed to work.", "Ik mag niet werken.", "Ik wil niet werken.", "Ik mag werken niet.", "Ik niet mag werken.", "Mag niet means not allowed, and niet sits just before the to-form."],
       ["mc", "Can you swim? (to a friend; use kun)", "Kun je zwemmen?", "Kunt je zwemmen?", "Kun je zwemt?", "Kunnen je zwemmen?", "Je follows the verb, so kunnen drops the -t: kun."],
       ["mc", "May I come along? (use Mag ik mee)", "Mag ik mee?", "Magt ik mee?", "Mag ik meega?", "Mogen ik mee?", "Mag has no extra -t, and mee sits at the end."],
-      ["mc", "at the weekend", "in het weekend", "in de weekend", "op het weekend", "in het de weekend", "Weekend is a het-word: in het weekend."],
+      ["mc", "on the weekend", "in het weekend", "in de weekend", "in weekend", "in het de weekend", "Weekend is a het-word: in het weekend."],
       ["or", "Tomorrow I want to cycle (start with morgen)", "Morgen wil ik fietsen", "willen", "Verb second: wil comes right after morgen, and fietsen goes at the end of the clause."],
       ["or", "the weekend", "het weekend", "de", "Het-word: weekend takes het."],
       ["or", "I can speak a little Dutch (start with ik; een beetje before Nederlands)", "Ik kan een beetje Nederlands spreken", "spreek", "Spreken goes at the end of the clause."],
@@ -435,8 +435,8 @@ module.exports = [
 {{ex:Wat kost de jas?|waht kawst uh yahs|How much is the coat?}}
 {{ex:De jas kost twintig euro.|uh yahs kawst TWIHN-tuhkh EUH-roh|The coat costs twenty euros.}}
 {{ex:Het shirt kost vijftien euro.|uht shihrt kawst VIGHF-teen EUH-roh|The shirt costs fifteen euros.}}
-{{ex:Wat kosten de schoenen?|waht KOH-stuh uh SKHOO-nuh|How much are the shoes?}}
-{{ex:De schoenen kosten dertig euro.|uh SKHOO-nuh KOH-stuh DEHR-tuhkh EUH-roh|The shoes cost thirty euros.}}
+{{ex:Wat kosten de schoenen?|waht KAWS-tuh uh SKHOO-nuh|How much are the shoes?}}
+{{ex:De schoenen kosten dertig euro.|uh SKHOO-nuh KAWS-tuh DEHR-tuhkh EUH-roh|The shoes cost thirty euros.}}
 <p>English says <i>pants</i> as a plural. Dutch says <b>de broek</b>, one word, singular. <b>De tas</b> is the bag. <b>De winkel</b> is the store. Staff get <b>u</b>, and the verb keeps its <b>-t</b>. You will hear <b>Koopt u de jas?</b> when they ask if you are buying the coat. <b>Alstublieft</b> you already know. <b>Ik zoek een jas</b> means I'm looking for a coat.</p>
 {{ex:De broek kost dertig euro.|uh brook kawst DEHR-tuhkh EUH-roh|The pants cost thirty euros.}}
 {{ex:De broek past.|uh brook pahst|The pants fit.}}

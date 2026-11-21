@@ -12,7 +12,7 @@ Status values: `queued` · `stage 1` · `waiting for decisions` · `writing` · 
 
 | # | Code | Language | Lane | Status | Closest finished course | Notes for the researcher |
 |---|---|---|---|---|---|---|
-| 1 | nl | Dutch | Ready | writing | de | Pilot. PR #1. Decisions recorded in docs/briefs/en-nl-decisions.md. |
+| 1 | nl | Dutch | Ready | in review | de | Pilot. PR #1. Hand-off: docs/briefs/en-nl-handoff.md. |
 | 2 | ptpt | Portuguese (Portugal) | Ready | queued | pt | Reuse the Brazilian course's decisions wherever Portugal does not differ; the roadmap names every European form (tu and o senhor / a senhora instead of você as default, estar a + infinitive, clitic placement chamo-me, article before possessives, pequeno-almoço / comboio / autocarro / telemóvel, reduced vowels and the sh-sound of final s). The pron tool must follow Lisbon pronunciation, not Brazil's. Brand word must differ from the Brazilian course's. |
 | 3 | sv | Swedish | Ready | queued | de | Pitch accent and the sj-sound mislead English speakers; en / ett gender and the definite suffix (-en, -et); verb-second order. |
 | 4 | no | Norwegian | Ready | queued | de | Bokmål only, East Norwegian (Oslo) pronunciation; mention once that Nynorsk and dialects exist. Pitch accent; three genders in Bokmål with the common-gender option: state one house rule. |
