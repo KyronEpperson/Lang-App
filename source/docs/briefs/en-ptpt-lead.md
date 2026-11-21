@@ -1,9 +1,9 @@
-PROGRESS (updated 2026-11-21 09:37 CST)
+PROGRESS (updated 2026-11-21 09:46 CST)
 Course: en-ptpt   Branch: cursor/en-ptpt   PR: https://github.com/KyronEpperson/Lang-App/pull/4
-Done: research, pron tool, lead note, decisions, briefs, deck B
-Next: deck A, lesson 1, lesson 2, lesson 3
-Checks: deck B partial PASS: all checks OK (partial); full course not run
-Models used: research and pron tool = not recorded; decisions = grok-4.7; briefs = mk_briefs.py; deck B = grok-4.7-high
+Done: research, pron tool, lead note, decisions, briefs, deck B, lesson 2
+Next: deck A, lesson 1, lesson 3
+Checks: lesson 2 partial PASS: all checks OK (partial); full course not run
+Models used: research and pron tool = not recorded; decisions = grok-4.7; briefs = mk_briefs.py; deck B = grok-4.7-high; lesson 2 = grok-4.7-high
 State: WORKING
 
 # Lead note: en-ptpt stage 1
