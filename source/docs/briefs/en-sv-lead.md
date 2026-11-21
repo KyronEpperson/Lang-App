@@ -1,12 +1,12 @@
-PROGRESS (updated 2026-11-21 13:43 CST)
+PROGRESS (updated 2026-11-21 13:54 CST)
 Course: en-sv   Branch: cursor/en-sv   PR: https://github.com/KyronEpperson/Lang-App/pull/6
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B
-Next: lesson 1, lesson 2, lesson 3
-Checks: deck B partial PASS: all checks OK (partial). 18 decks, 319 cards, 54 dialogues. Full course not run. Lexicon fixes wait until the lesson writers finish.
-Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 2
+Next: lesson 1, lesson 3
+Checks: lesson 2 partial PASS: all checks OK (partial). 9 lessons, 126 practice items. Full course not run. Lexicon fixes wait until the other lesson writers finish.
+Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 2 = grok-4.7-high
 State: WORKING
 
-Lexicon, after the lesson writers finish, then regenerate. Deck A: student (stress the last syllable), sover (å-vowel), trevligt (long e), kallt (short a). Deck B: kiss (hard k), student, semester, universitet, apotek, kontoret, present, termin, toaletten, hotellet, kaféet, allergisk, hen (short), ledsen (long e), långt (long å), lugn (long u), ibland, ifrån, fotboll (long o), musik, fint (long i).
+Lexicon, after the lesson writers finish, then regenerate. Deck A: student (stress the last syllable), sover (å-vowel), trevligt (long e), kallt (short a). Deck B: kiss (hard k), student, semester, universitet, apotek, kontoret, present, termin, toaletten, hotellet, kaféet, allergisk, hen (short), ledsen (long e), långt (long å), lugn (long u), ibland, ifrån, fotboll (long o), musik, fint (long i). Lesson 2: studenter, studenten, personer, familjer, telefoner, kusiner, fint, sjukt.
 
 # Lead note: en-sv stage 1
 
