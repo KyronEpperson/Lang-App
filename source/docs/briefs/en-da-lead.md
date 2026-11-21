@@ -1,10 +1,12 @@
-PROGRESS (updated 2026-11-21 17:13 CST)
+PROGRESS (updated 2026-11-21 17:42 CST)
 Course: en-da   Branch: cursor/en-da   PR: https://github.com/KyronEpperson/Lang-App/pull/8
-Done: research brief, research, pron tool, lead note, decisions, briefs
-Next: decks and lessons
-Checks: respell.js matched the lead-note table (mad, gade, huset, hun/hund, ikke, at spise, job). 26 lessons, 18 decks. profile.json parses. mk_briefs.py: lessons 9, 9, 8 and decks 9, 9.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck B
+Next: deck A, lesson 1, lesson 2, lesson 3
+Checks: deck B node --check passed. 9 decks, 153 cards, 27 dialogues, 18 examples, 9 patterns. Partial validator reported PASS with no lines about these files. Full course not run. Lexicon fixes wait until the other writers finish.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck B = grok-4.7-high
 State: WORKING
+
+Deck B, tool output kept, a native should hear: the day names (g of dag silent; onsdag's o), ligeud, stationen, toilettet, forældre, for as foh, boede and arbejdede, fabrik, eventuelt, endelig, afhænger, dejlig. Left out because the tool looked wrong: frokost, regningen, banegården, hvordan, overfor, om søndagen, kæreste, dygtig. job, formiddag, osten against ost, and "at huset" were not used.
 
 # Lead note: en-da stage 1
 
