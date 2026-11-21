@@ -1,8 +1,8 @@
 PROGRESS (updated 2026-11-21 11:41 CST)
 Course: en-am   Branch: cursor/en-am   PR: https://github.com/KyronEpperson/Lang-App/pull/5
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3
-Next: merge check
-Checks: lesson 2 partial PASS: all checks OK (partial); full course not run
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, merge check
+Next: review
+Checks: PASS: all checks OK. gen.js: 26 lessons, 17 decks, 301 cards. repron twice: 2 prons read, 0 rewritten. link_roadmap: 26 linked, not covered: none. packs/roadmaps.js was not kept.
 Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
 State: WORKING
 
