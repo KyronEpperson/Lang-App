@@ -11,7 +11,7 @@ You (Cursor) write course content. The main build (Claude, in its own workspace)
 3. Never edit `source/src/app.html`, anything in `source/packs/`, the other courses' folders, the tools themselves, or anything outside `source/` (`index.html`, root `packs/`, `sw.js`). If a job seems to need an app change, stop and write what you need under "Needs from the lead" in your report. Do not work around it.
 4. No secrets: never write a key, token or password into a file or a prompt. The Supabase publishable key already in the app is the only key that belongs in this repo.
 5. Do not invent facts about a language. If you are not sure a phrase is natural, leave it out or list it for a native check. Wrong content is worse than less content.
-6. Use the strongest model your plan offers for all writing. Do not use an "auto" or fast model for course content.
+6. Models and parallel agents: follow `docs/CURSOR-MODELS.md`. Before your first course, fill in its roster with the models and agent features you actually have. Target-language content is always written and reviewed by your strongest tier; never by an "auto" or fast model.
 7. Briefs written for the main build say `/home/claude/...`. Read that as this `source/` folder. Where a brief says "scratch directory", use a new folder under your system temp folder, never a folder in the repo.
 
 ## Setup (once)
