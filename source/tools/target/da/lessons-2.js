@@ -67,7 +67,7 @@ module.exports = [
 {{ex:Hvem er det?|vehm eh deh|Who is that?}}
 {{ex:Hvornår kommer du?|VOH-naw KAW-muh doo|When are you coming? (to one person)}}
 {{ex:Hvad koster det?|vadh KOHS-tuh deh|What does it cost?}}
-{{ex:Hvordan går det?|VOH-ran gaw deh|How's it going?}}
+{{ex:Hvordan går det?|vaw-DAN gaw deh|How's it going?}}
 <p><b>Hvordan går det?</b> does not say du or I. It asks how things are. <b>Hvor bor I?</b> is the where-question to several people. As a question you ask out loud, the verb comes right after the question word. The English shape, with the person still in front of the verb, is the trap: <b>Hvor du bor?</b> A <b>gør</b> copied from do is the other trap: <b>Gør du arbejder?</b> Inside a longer sentence the words hvor du bor can be fine. That is not the question you are asking here.</p>
 {{ex:Hvor bor I?|vaw boh ee|Where do you live? (to several people)}}
 <div class="tip"><b>Most common mistake:</b> English word order, or a do-word. <b>Hvor du bor?</b> → <b>Hvor bor du?</b></div>

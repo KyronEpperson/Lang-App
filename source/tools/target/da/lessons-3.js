@@ -265,16 +265,16 @@ module.exports = [
 {{ex:Ligeud.|LEE-yuh-oodh|Straight ahead.}}
 <h3>Where is it?</h3>
 <p>A where-question starts with <b>hvor</b>, then the verb, then the subject. That is inversion. <b>Hvor stationen er</b> is the order of a subordinate clause, and it is not the question. The place takes a definite ending. <b>station</b> is an en-word, so the station is <b>stationen</b>. <b>toilet</b> is an et-word, so the toilet is <b>toilettet</b>. The line says <b>stationen</b> with a <b>t</b> sound and stress at the start, and it splits <b>toilettet</b> into too many beats. The real station word has a <b>sh</b> sound and a later stress. Follow the voice for both.</p>
-{{ex:Hvor er stationen?|vaw eh STA-tee-oh-nuhn|Where is the station?}}
+{{ex:Hvor er stationen?|vaw eh sta-SHOH-nuhn|Where is the station?}}
 {{ex:Hvor er toilettet?|vaw eh TOH-ee-luh-duhdh|Where is the toilet?}}
-{{ex:Stationen er til venstre.|STA-tee-oh-nuhn eh tehl VEHN-struh|The station is on the left.}}
+{{ex:Stationen er til venstre.|sta-SHOH-nuhn eh tehl VEHN-struh|The station is on the left.}}
 {{ex:Toilettet er til højre.|TOH-ee-luh-duhdh eh tehl HOY-uh|The toilet is on the right.}}
 <h3>Sending one person on</h3>
 <p>To tell one person the way, use the short form of the verb and then the direction. <b>Gå ligeud</b> is go straight ahead. <b>Gå til venstre</b> is go left. <b>Drej til højre</b> is turn right. The same phrases are the ones to learn. A time can still stand first in a statement. <b>i dag</b> is the first element, and <b>er</b> is the second element.</p>
 {{ex:Gå ligeud.|gaw LEE-yuh-oodh|Go straight ahead (to one person).}}
 {{ex:Gå til venstre.|gaw tehl VEHN-struh|Go left (to one person).}}
 {{ex:Drej til højre.|drai tehl HOY-uh|Turn right (to one person).}}
-{{ex:I dag er stationen ligeud.|ee da eh STA-tee-oh-nuhn LEE-yuh-oodh|Today the station is straight ahead.}}
+{{ex:I dag er stationen ligeud.|ee da eh sta-SHOH-nuhn LEE-yuh-oodh|Today the station is straight ahead.}}
 <div class="tip"><b>Most common mistake:</b> question order copied from a subordinate clause, or an English er on venstre. <b>Hvor stationen er?</b> → <b>Hvor er stationen?</b></div>
 `,
     check: [
@@ -314,7 +314,7 @@ module.exports = [
 {{ex:Jeg var i Aarhus.|yai va ee AW-hoos|I was in Aarhus.}}
 {{ex:Jeg havde et hus.|yai HA-dhuh eht hoos|I had a house.}}
 {{ex:I går kom jeg.|ee gaw kawm yai|Yesterday I came.}}
-{{ex:Vi gik hjem.|vee geek yehm|We went home.}}
+{{ex:Vi gik hjem.|vee gehk yehm|We went home.}}
 {{ex:Jeg fik en kaffe.|yai fehk ehn KA-fuh|I got a coffee.}}
 {{ex:Jeg så Anna.|yai saw A-na|I saw Anna.}}
 {{ex:Jeg spiste rugbrød.|yai SPEES-tuh ROO-broedh|I ate rye bread.}}

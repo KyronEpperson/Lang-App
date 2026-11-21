@@ -87,7 +87,7 @@ module.exports = {
     kryds gaden | krews GA-dhuhn | cross the street (to one person) | Said to one person. gaden has the definite ending.
     hvor er | vaw eh | where is |
     hvor er toilettet | vaw eh TOH-ee-luh-duhdh | where is the bathroom | toilet is an et-word: toilettet. Stress in the aid is unchecked.
-    stationen | STA-tee-oh-nuhn | the station | stress is the default and is unchecked
+    stationen | sta-SHOH-nuhn | the station | stress is the default and is unchecked
     metroen | MEHT-roh-uhn | the metro | Common gender, definite ending -en.
     parken | PA-kuhn | the park | Common gender, definite ending -en. The r is swallowed.
     på hjørnet | paw YOE-nuhdh | on the corner | hjørne is an et-word: hjørnet.
@@ -122,7 +122,7 @@ module.exports = {
     jeg kom | yai kawm | I came |
     hun kom | hoon kawm | she came | The past is one form for every person.
     de kom | dee kawm | they came | de means they, said dee. Capital De is only the stiff you, and you recognise it.
-    jeg gik | yai geek | I went | Past of gå. One form for every person.
+    jeg gik | yai gehk | I went | Past of gå. One form for every person.
     jeg fik | yai fehk | I got | Past of få. Not fåede.
     jeg så | yai saw | I saw | Past of se. The word så also means so; the aid is the same.
     jeg drak | yai drak | I drank | Past of drikke. Not drikkede.

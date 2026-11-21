@@ -415,7 +415,7 @@ module.exports = [
 {{ex:Jeg arbejder ikke.|yai A-bai-dhuh EH-guh|I don't work.}}
 <p><b>altid</b> (always) and <b>aldrig</b> (never) sit in that same slot, after the verb. <b>Jeg arbejder altid.</b> <b>Jeg spiser aldrig.</b> The line is rough on aldrig. Trust the voice for that word. The gender of a noun in the sentence does not move ikke. <b>øl</b> is an en-word, so "a beer" is en øl, and ikke still follows drikker. <b>hus</b> is neuter: <b>Det er ikke et hus.</b></p>
 {{ex:Jeg arbejder altid.|yai A-bai-dhuh AL-teedh|I always work.}}
-{{ex:Jeg spiser aldrig.|yai SPEE-suh AL-reey|I never eat.}}
+{{ex:Jeg spiser aldrig.|yai SPEE-suh AL-dree|I never eat.}}
 {{ex:Jeg drikker ikke en øl.|yai DREH-guh EH-guh ehn oel|I don't drink a beer.}}
 {{ex:Det er ikke et hus.|deh eh EH-guh eht hoos|It is not a house.}}
 <h3>Before the verb after at, fordi, hvis, når</h3>
@@ -423,7 +423,7 @@ module.exports = [
 {{ex:Anna siger, at hun ikke kommer.|A-na SEE-yuh a hoon EH-guh KAW-muh|Anna says that she isn't coming.}}
 {{ex:Anna kommer, hvis hun ikke arbejder.|A-na KAW-muh vehs hoon EH-guh A-bai-dhuh|Anna comes if she isn't working.}}
 {{ex:Jeg spiser, når jeg ikke arbejder.|yai SPEE-suh naw yai EH-guh A-bai-dhuh|I eat when I'm not working.}}
-{{ex:Anna bor i Aarhus, fordi hun ikke bor i København.|A-na boh ee AW-hoos FOH-ree hoon EH-guh boh ee koe-buhn-HAWN|Anna lives in Aarhus, because she doesn't live in Copenhagen.}}
+{{ex:Anna bor i Aarhus, fordi hun ikke bor i København.|A-na boh ee AW-hoos foh-DEE hoon EH-guh boh ee koe-buhn-HAWN|Anna lives in Aarhus, because she doesn't live in Copenhagen.}}
 <p>This course writes the comma before at, fordi, hvis and når. You will see Danish without that comma. Leaving it out is still legal, if a text is consistent. The comma is where the order changes, which is why the course keeps it. A typed answer does not have to include it. The line is rough on fordi. Trust the voice for that word.</p>
 <div class="tip"><b>Most common mistake:</b> ikke in front of the verb, or a do-word copied from English. <b>Jeg ikke spiser</b> → <b>Jeg spiser ikke</b>, and <b>at hun kommer ikke</b> → <b>at hun ikke kommer</b>.</div>
 `,

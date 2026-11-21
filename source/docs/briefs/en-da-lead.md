@@ -1,10 +1,12 @@
 PROGRESS (updated 2026-11-21 17:55 CST)
 Course: en-da   Branch: cursor/en-da   PR: https://github.com/KyronEpperson/Lang-App/pull/8
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3
-Next: lexicon, then merge check
-Checks: lesson 2 node --check passed. 9 lessons, 126 practice items. Standing-rule hits are at least 2 order and 2 type in every lesson. Partial validator reported no lines about this file. Full course not run. Lexicon fixes are next, then regenerate.
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check
+Next: review
+Checks: PASS: all checks OK. gen.js: 26 lessons, 18 decks, 308 cards. repron twice: 618 prons read, 13 rewritten, then 0 rewritten. link_roadmap: 25 linked, not covered: none. traps has no roadmap id. packs/roadmaps.js was not kept.
 Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
 State: WORKING
+
+Lexicon added, then regenerated: fordi foh-DEE (Wiktionary [fʌˈd̥iˀ]), aldrig AL-dree ([ˈɑld̥ʁi]), hvordan vaw-DAN ([ʋʌˈd̥æn]), station sta-SHOHN and stationen sta-SHOH-nuhn ([sd̥aˈɕoˀn]), gik gehk ([ˈɡ̊iɡ̊], replacing the long geek). Still for the reviewer, unsourced: the day names, halv, hvornår, minut, toilettet, Amerika and amerikaner and amerikansk, englænder, dygtig, tager and toget, København, fjorten, ligeud, forældre, boede and arbejdede, eventuelt, fabrik, dejlig, endelig, rødt, for, koster, havde, kvart, café, idé, undskyld, jer, selv. Do not mark the stød.
 
 Deck B, tool output kept, a native should hear: the day names (g of dag silent; onsdag's o), ligeud, stationen, toilettet, forældre, for as foh, boede and arbejdede, fabrik, eventuelt, endelig, afhænger, dejlig. Left out because the tool looked wrong: frokost, regningen, banegården, hvordan, overfor, om søndagen, kæreste, dygtig. job, formiddag, osten against ost, and "at huset" were not used. Deck A, tool output kept: fordi FOH-ree, aldrig AL-reey, hvordan VOH-ran, hvornår VOH-naw, kvart kvat, København koe-buhn-HAWN, Amerika and amerikaner and amerikansk with first-syllable stress. Questions uses hvad hedder han because hvad hedder du is already in About me. Lesson 1, tool output kept: fordi, aldrig, undskyld OON-skewl, jer yeh, selv sehlv, København, Amerika. Not used in an example: café KA-fuh, idé EE-dhuh, syv seww. Lesson 3, tool output kept: forældre, stationen, toilettet, ligeud, boede, arbejdede, gik geek, eventuelt, fabrik, dygtig, dejlig, endelig, rødt, for foh, koster KOHS-tuh, havde, København. bedstemor and bedstefar were not used.
 

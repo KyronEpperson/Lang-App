@@ -11,7 +11,7 @@
    Inflected forms are NOT derived: Danish endings change the sound (soft d, swallowed -er). */
 const LEX_SRC = `
 og=aw det=deh jeg=yai mig=mai dig=dai sig=sai de=dee
-vil=vehl til=tehl gik=geek dag=da bog=baw tog=taw sprog=spraw også=AW-saw
+vil=vehl til=tehl gik=gehk dag=da bog=baw tog=taw sprog=spraw også=AW-saw
 meget=maidh havde=HA-dhuh hvor=vaw sagt=sagt
 kom=kawm som=sawm om=awm
 københavn=koe-buhn-HAWN aarhus=AW-hoos århus=AW-hoos aalborg=AWL-baw aabenraa=AW-buhn-raw
@@ -23,6 +23,8 @@ godmorgen=goh-MAW-uhn goddag=goh-DA godaften=goh-AF-uhn godnat=goh-NAT
 farvel=fa-VEHL værsgo=VEHS-gaw
 smørrebrød=SMOE-uh-broedh rugbrød=ROO-broedh kanelsnegl=ka-NUHL-snehl
 bedstemor=BEH-dhuh-moh bedstefar=BEH-dhuh-fa
+fordi=foh-DEE aldrig=AL-dree hvordan=vaw-DAN
+station=sta-SHOHN stationen=sta-SHOH-nuhn
 `;
 
 const LEX = {};

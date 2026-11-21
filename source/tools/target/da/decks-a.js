@@ -35,7 +35,7 @@ ja tak | ya tak | yes, please | tak does the work of please.
 nej tak | nai tak | no, thanks | Polite, and complete on its own.
 gerne | GEH-nuh | gladly | The answer to an offer. Vil du have kaffe? Ja, gerne.
 det var så lidt | deh va saw leht | you're welcome (to one person) | The reply to thanks. Literally, it was so little. The same words to several people.
-hvordan har du det | VOH-ran ha doo deh | how are you? (to one person) | The everyday question, with du.
+hvordan har du det | vaw-DAN ha doo deh | how are you? (to one person) | The everyday question, with du.
 det går godt | deh gaw gawt | I'm doing well | A natural answer. Literally, it goes well.
 `,
   "About me": `
@@ -122,11 +122,11 @@ jeg taler ikke dansk | yai TA-luh EH-guh dansk | I don't speak Danish | ikke goe
 i morgen kommer jeg | ee MOH-guhn KAW-muh yai | I'm coming tomorrow | i morgen means tomorrow. The verb is the second element.
 han bor ikke her | han boh EH-guh heh | he doesn't live here | ikke goes after the verb in a main clause.
 jeg cykler altid | yai SEWK-luh AL-teedh | I always bike | altid sits in the same slot as ikke, after the verb.
-jeg arbejder aldrig | yai A-bai-dhuh AL-reey | I never work | aldrig goes after the verb, with ikke. Not jeg aldrig arbejder.
+jeg arbejder aldrig | yai A-bai-dhuh AL-dree | I never work | aldrig goes after the verb, with ikke. Not jeg aldrig arbejder.
 her bor jeg | heh boh yai | I live here | her is first, so the verb is second and the subject follows. Inversion.
 i København bor jeg | ee koe-buhn-HAWN boh yai | in Copenhagen, I live | The place is the first element. Inversion: the subject follows the verb.
 han siger, at han ikke kommer | han SEE-yuh a han EH-guh KAW-muh | he says he's not coming | Comma before at. ikke comes before the verb in a subordinate clause.
-jeg bliver hjemme, fordi jeg ikke har tid | yai BLEE-wuh YEH-muh FOH-ree yai EH-guh ha teedh | I'm staying home, because I don't have time | Comma before fordi. ikke comes before the verb in the subordinate clause.
+jeg bliver hjemme, fordi jeg ikke har tid | yai BLEE-wuh YEH-muh foh-DEE yai EH-guh ha teedh | I'm staying home, because I don't have time | Comma before fordi. ikke comes before the verb in the subordinate clause.
 hvis du ikke kommer, går jeg | vehs doo EH-guh KAW-muh gaw yai | if you don't come, I'll leave (to one person) | The hvis-clause is the first element, so går is next. ikke comes before kommer.
 jeg drikker ikke kaffe | yai DREH-guh EH-guh KA-fuh | I don't drink coffee | ikke goes after the verb. Danish has no do.
 nu kommer jeg | noo KAW-muh yai | I'm coming now | nu is first. The verb is the second element, then the subject.
@@ -141,7 +141,7 @@ taler du dansk | TA-luh doo dansk | do you speak Danish? (to one person) | The v
 hvad koster det | vadh KOHS-tuh deh | what does it cost? | det is deh.
 hvad laver du | vadh LA-wuh doo | what are you doing? (to one person) | The verb comes right after hvad.
 hvornår kommer du | VOH-naw KAW-muh doo | when are you coming? (to one person) | The verb is the second element, right after hvornår.
-hvordan går det | VOH-ran gaw deh | how's it going? | It does not say du or I. It asks how things are.
+hvordan går det | vaw-DAN gaw deh | how's it going? | It does not say du or I. It asks how things are.
 hvor arbejder du | vaw A-bai-dhuh doo | where do you work? (to one person) | The verb comes right after hvor. Not hvor du arbejder.
 bor du her | boh doo heh | do you live here? (to one person) | A yes/no question starts with the verb.
 taler du engelsk | TA-luh doo EHNG-uhlsk | do you speak English? (to one person) | Verb first. engelsk has a small e.
