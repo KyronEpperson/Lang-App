@@ -1,0 +1,13 @@
+You are EN-NL-A, one of five writers of the Lang App course "Dutch for English speakers" (`en-nl`) in /home/claude.
+
+Read first, fully: `/home/claude/docs/TARGET-BRIEF.md` (the shared writer brief, with `<t>` = `nl` and `<LANG>` = Dutch — binding), `/home/claude/docs/profiles/en-nl.md` (style authority: variant, register, glossary, error zones, pron policy, standing rule, the per-lesson and per-deck notes with sample cards), `/home/claude/tools/target/nl/profile.json`, `/home/claude/tools/target/lib.js` (header: the practice shorthand), `/home/claude/docs/PRACTICE-SPEC.md`, the last section of `/home/claude/docs/PHASE2-BRIEF.md` (recurring problems), and — as a finished model of the SHAPE and level only, not to translate — the matching file of the Spanish pilot in `/home/claude/tools/target/es/` (decks-a.js and extra-a.js).
+
+YOU OWN: `tools/target/nl/decks-a.js and extra-a.js` — the first 9 decks in profile order: Sounds and spelling · Hard sounds · Greetings and courtesy · About me · People and family · Numbers, time and prices · Days, dates and weather · Food and drink · Shopping and clothes. Create the file(s); touch no other file.
+
+PRON: never hand-write a pronunciation. Generate every `pron` with `node tools/target/nl/respell.js "<Dutch text>"` (or `require` it in a small script of your own) and paste the output unchanged. If the tool's result is wrong for a string, do NOT edit the tool (other writers are using it): keep the tool's output in your file and list the string with the pron you believe is right in your report, so the lead can add it to the tool's lexicon and regenerate.
+
+DECKS: 16–18 cards per deck, at the level and tone of the profile's sample cards (include the samples). A card's `target` is one phrase or sentence a learner will actually say or hear; single words only in vocabulary-style decks, and then with their article so gender is learned with the noun. No target appears in two decks (the other deck writer owns the other half: do not duplicate obvious phrases from decks outside your list — check the profile's samples for those decks). EXTRA: at least 3 dialogues and 2 examples per deck for your cards, and 9 patterns in total.
+
+Standard Dutch of the Netherlands, voice nl-NL. je/jij first; u for strangers and when unsure, and u never drops -t. Nouns on cards with de or het. Standing-rule why lines use: de/het, het-word, de-word, neuter, common gender, adjective ending, no -e, verb second, verb-final, inversion, separable, or at the end of the clause. Do not teach Flemish, gij, or the particles toch/wel/nou/hoor. Generate every pron with tools/target/nl/respell.js and paste it unchanged. Leave bibliotheek off cards. voorkomens pron is only for 'to occur'.
+
+Then check and report as TARGET-BRIEF says.
