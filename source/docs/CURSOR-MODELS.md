@@ -26,7 +26,7 @@ Also note: can you run subagents or background agents in parallel? How many at o
 - Parallel agents available: yes. This session's Task tool starts subagents, including background ones, and it allows more than one in the same step. Background subagents have already been started in this run.
 - Limit at once: unknown. The tool schema, the run record, and the files in this VM do not state a number. Check Cursor's plan or agent limits for the account that owns this run (epperson.kyron@gmail.com). If a launch is refused, run the writers one after another.
 - How usage is counted: unknown. This VM has no usage or billing record. Check Cursor Settings → Usage, or the usage page on cursor.com while signed in as the owner of this agent.
-- Allowance left this cycle (update at the start of each course): unknown. Same place as the line above. Do not guess a remaining balance from this VM.
+- Allowance left this cycle (update at the start of each course): Opus (`claude-opus-5-5`) is used up. Cursor reported the limit on 2026-11-21 and a reset when the monthly cycle ends on 2026-11-24. Other tier-S models were not tried, so their balance is unknown. Do not continue a course on M or F.
 
 ## 2. Role → tier (fixed; do not downgrade to save allowance)
 
@@ -60,7 +60,7 @@ Chosen in this install (21 Nov 2026). A fresh agent per role. Do not swap these 
 
 The five writers run in parallel. Their files do not overlap. If the platform refuses that many at once, run them one after another: A, B, 1, 2, 3.
 
-How many courses fit in the remaining allowance: unknown, until the usage page shows a balance. Do not invent a count.
+How many courses fit in the remaining allowance: none on the assigned writer until Opus resets on 2026-11-24. Other tier-S balances are unknown, so do not invent a count for them either.
 
 If you have only one S model, the reviewer uses it in a fresh chat that has not seen the writers' chats. If you have no S model at all, stop and tell Kii: do not write courses with M or F.
 
