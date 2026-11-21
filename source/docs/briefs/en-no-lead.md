@@ -1,12 +1,12 @@
-PROGRESS (updated 2026-11-21 15:46 CST)
+PROGRESS (updated 2026-11-21 15:49 CST)
 Course: en-no   Branch: cursor/en-no   PR: https://github.com/KyronEpperson/Lang-App/pull/7
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B
-Next: lesson 1, lesson 2, lesson 3
-Checks: deck B partial PASS: all checks OK (partial). 18 decks, 318 cards, 54 dialogues. Full course not run. Lexicon fixes wait until the lesson writers finish.
-Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1
+Next: lesson 2, lesson 3
+Checks: lesson 1 partial PASS: all checks OK (partial). 9 lessons, 126 practice items. Full course not run. Lexicon fixes wait until the other lesson writers finish.
+Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high
 State: WORKING
 
-Lexicon, after the lesson writers finish, then regenerate. Deck A, kept with the tool's stress: Beklager (stress the second syllable), Velkommen (stress on komm). Deck A, not used because the tool looked wrong: forstår, osten, januar, skjorta, amerikansk. Unverified weekdays left as printed: torsdag, lørdag, søndag. Compounds a native should hear: matpakka, kjøttkaka, et rundstykke. Deck B, tool output kept: flyplassen (long ø), toalettet, apoteket, ambulanse, forkjølet, fotball (long o), snakket (the t is said), Bra jobbet, Hvorfor (oo, not oh), aktuelt, sover (å-vowel), Gratulerer, ser (short e). Also hear Det var kjempegodt and Vel bekomme.
+Lexicon, after the lesson writers finish, then regenerate. Deck A, kept with the tool's stress: Beklager (stress the second syllable), Velkommen (stress on komm). Deck A, not used because the tool looked wrong: forstår, osten, januar, skjorta, amerikansk. Unverified weekdays left as printed: torsdag, lørdag, søndag. Compounds a native should hear: matpakka, kjøttkaka, et rundstykke. Deck B, tool output kept: flyplassen (long ø), toalettet, apoteket, ambulanse, forkjølet, fotball (long o), snakket (the t is said), Bra jobbet, Hvorfor (oo, not oh), aktuelt, sover (å-vowel), Gratulerer, ser (short e). Also hear Det var kjempegodt and Vel bekomme. Lesson 1: hvorfor is VOHR-foor in the questions lesson (hvor plus short for would be VOOR-fohr). Bokmål, søstera, dattera, and læreren were not given a pronunciation line. Letter names to confirm: je rather than jodd, and dobbelt-ve. på mandag for "on Monday."
 
 # Lead note: en-no stage 1
 
