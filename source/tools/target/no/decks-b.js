@@ -16,7 +16,7 @@ et kart | eht kahrt | a map | kart is neuter: et kart, kartet.
 ei gate | ai GAH:-tuh | a street | Feminine: ei gate, gata. You will also see en gate.
 en butikk | ehn bue-TEEK | a shop | Masculine: en butikk, butikken.
 et hotell | eht hoo-TEHL | a hotel | Neuter: et hotell, hotellet.
-Hvor er toalettet? | voor ae:r TOO:-ah-luht-uh | Where is the restroom? | toalett is neuter: et toalett, toalettet.
+Hvor er toalettet? | voor ae:r too-ah-LEHT-uh | Where is the restroom? | toalett is neuter: et toalett, toalettet.
 en park | ehn pahrk | a park | Masculine: en park, parken.
 Der borte. | dae:r BOHRT-uh | Over there. | Point. der means there.
 `,
@@ -52,11 +52,11 @@ Jeg trenger hjelp. | yai TREHNG-uhr yehlp | I need help. | trenger is the one pr
 Det gjør vondt. | deh: yoe:r vohnt | That hurts. | gjøre means to do something.
 Jeg har feber. | yai hah:r FEH:-buhr | I have a fever. | No article in this phrase.
 Jeg føler meg dårlig. | yai FOE:-luhr mai DOH:-rlee | I feel unwell. | meg matches jeg.
-Hvor er apoteket? | voor ae:r AH:-poo-tuh-kuh | Where is the pharmacy? | Neuter definite: apoteket.
-en ambulanse | ehn AHM-bue-lahn-suh | an ambulance | Masculine: en ambulanse, ambulansen.
+Hvor er apoteket? | voor ae:r ah-poo-TEH:-kuh | Where is the pharmacy? | Neuter definite: apoteket.
+en ambulanse | ehn ahm-bue-LAHNG-suh | an ambulance | Masculine: en ambulanse, ambulansen.
 Jeg har vondt i magen. | yai hah:r vohnt ee: MAH:-guhn | My stomach hurts. | mage is masculine: magen.
 Kan jeg få et plaster? | kahn yai foh: eht PLAHS-tuhr | Can I have a bandage? | A small adhesive bandage. plaster is neuter: et plaster.
-Jeg er forkjølet. | yai ae:r FOHR-hyoe-luh | I have a cold. | A cold. Feeling the weather is Jeg fryser.
+Jeg er forkjølet. | yai ae:r fohr-HYOE:-luh | I have a cold. | A cold. Feeling the weather is Jeg fryser.
 `,
   "Work and study": `
 Jeg snakker norsk. | yai SNAHK-uhr nohshk | I speak Norwegian. | One present form for every person: snakker.
@@ -136,22 +136,22 @@ fordi | fohr-DEE: | because | Starts a because-clause: fordi jeg er trøtt.
 Ja, jeg snakker norsk. | yah: yai SNAHK-uhr nohshk | Yes, I speak Norwegian. | ja answers a yes/no question. The verb stays snakker.
 `,
   "Traps for English speakers": `
-en gave | ehn GAH:-vuh | a present | A present. gift means married, and it is also the word for poison.
+ei gave | ai GAH:-vuh | a present | A present. gift means married, and it is also the word for poison. You will also see en gave. Type ei.
 Jeg er mett. | yai ae:r meht | I'm full of food. | After a meal. full about a person means drunk. A full glass is et fullt glass.
 rolig | ROO:-lee | calm | Calm. Fun is gøy or morsom.
 eventuelt | eh-vehn-tue-EHLT | possibly | Possibly. For eventually, say til slutt or etter hvert.
 en time | ehn TEE:-muh | an hour, or an appointment | An hour, or Jeg har en time hos legen. Time in general is tid.
-Hun er gift. | huen ae:r yeeft | She is married. | gift means married. The same spelling is the word for poison. A present is en gave.
-Det er aktuelt. | deh: ae:r AHK-tue-uhlt | That's relevant. | Relevant, or current. Actually is faktisk. aktuelt is the neuter form.
+Hun er gift. | huen ae:r yeeft | She is married. | gift means married. The same spelling is the word for poison. A present is ei gave. You will also see en gave.
+Det er aktuelt. | deh: ae:r ahk-tue-EHLT | That's relevant. | Relevant, or current. Actually is faktisk. aktuelt is the neuter form.
 Jeg er spent. | yai ae:r spehnt | I'm excited. | Excited. Money you spent is brukte: Jeg brukte penger.
 Det er rart. | deh: ae:r rahrt | That's strange. | Strange. Rare is sjelden. rart is the neuter form, with det.
 Hun er snill. | huen ae:r sneel | She is kind. | Kind. Good at a skill is flink. Good quality is god.
 en fabrikk | ehn fahb-REEK | a factory | A factory. Fabric is et stoff.
-en sky | ehn shew: | a cloud | A cloud. The same word means shy. The sky is himmelen.
+ei sky | ai shew: | a cloud | A cloud. The same word means shy. The sky is himmelen. You will also see en sky. Type ei.
 Det er billig. | deh: ae:r BEEL-ee | That's cheap. | Cheap. A bill to pay is en regning.
 Barnet sover. | BAH:-rnuh SOH:-vuhr | The child is sleeping. | A child. Neuter: et barn, barnet. A farm building is en låve.
-et semester | eht seh-MEHS-tuhr | a school term | A school term. A holiday is ferie. Easy to mix up if you know Swedish or Danish.
-Jeg spiser frokost. | yai SPEE:-suhr FROO:-kohst | I eat breakfast. | Breakfast. Lunch is lunsj. Easy to mix up if you know Swedish or Danish.
+et semester | eht seh-MEHS-tuhr | a school term | A school term. A holiday is ferie. In Swedish, semester means a vacation.
+Jeg spiser frokost. | yai SPEE:-suhr FROO:-kohst | I eat breakfast. | Breakfast. Lunch is lunsj. In Danish, frokost means lunch.
 Jeg blir tretti. | yai blee:r TREHT-ee | I'm turning thirty. | Age uses bli. vil means want. A plan uses skal.
 Jeg synes det er bra. | yai SEW:-nuhs deh: ae:r brah: | I think it's good. | synes is your opinion. tror is a guess. tenke is the act of thinking.
 `,
@@ -166,7 +166,7 @@ Takk for i dag. | tahk fohr ee: dah:g | Thanks for today. | When you leave work,
 Takk for sist. | tahk fohr seest | Thanks for last time. | The next time you meet, after a meal or a visit.
 Så fint! | soh: feent | How nice! | About a thing or a piece of news. fint is the neuter form.
 Det var hyggelig. | deh: vah:r HEWG-uh-lee | That was lovely. | After a visit or a chat.
-Gratulerer! | GRAH:-tue-lae-ruhr | Congratulations! | A birthday, a new job, good news. The answer is Takk.
+Gratulerer! | grah-tue-LEH:-ruhr | Congratulations! | A birthday, a new job, good news. The answer is Takk.
 Lykke til! | LEWK-uh teel | Good luck! | Before a test, a trip, or a hard day. The answer is Takk.
 Bra jobbet. | brah: YOHB-uh | Well done. | About work someone finished. The answer is Takk.
 Det smaker godt. | deh: SMAH:-kuhr goht | It tastes good. | At the table. godt is neuter, with det.

@@ -28,7 +28,7 @@ module.exports = [
 {{ex:et godt hus|eht goht hue:s|a good house}}
 <h3>How someone does it, and where the verb sits</h3>
 <p>When it says how someone does something, recognize the neuter <b>-t</b>. <b>Nora synger vakkert</b> means Nora sings beautifully. You do not build that form yet.</p>
-{{ex:Nora synger vakkert.|NOO-rah SEWNG-uhr VAHK-aert|Nora sings beautifully.}}
+{{ex:Nora synger vakkert.|NOO-rah SEWNG-uhr VAHK-uhrt|Nora sings beautifully.}}
 <p>The conjugated verb is still the second element, and <b>ikke</b> still goes after it. <b>I dag</b> is one element, so the verb is next: <b>I dag er huset stort</b>. Not <b>I dag huset er stort</b>.</p>
 {{ex:I dag er huset stort.|ee: dah:g ae:r HUE:-suh stoo:rt|Today the house is big.}}
 {{ex:Huset er ikke stort.|HUE:-suh ae:r EEK-uh stoo:rt|The house is not big.}}
@@ -68,9 +68,9 @@ module.exports = [
     body: `
 <p>You can name the room, the color, and the floor. One English word, home, is two Norwegian words.</p>
 <h3>Rooms</h3>
-<p>Every room has a gender. The kitchen, the bathroom, the bedroom and a room are neuter: <b>et kjøkken</b>, <b>et bad</b>, <b>et soverom</b>, <b>et rom</b>. The living room and the door are feminine: <b>ei stue</b>, <b>ei dør</b>. A chair is masculine: <b>en stol</b>. A table and a window are neuter: <b>et bord</b>, <b>et vindu</b>. The definite ending is the one you know: <b>kjøkkenet</b>, <b>stua</b>, <b>stolen</b>, <b>bordet</b>, <b>døra</b>.</p>
+<p>Every room has a gender. The kitchen, the bathroom, the bedroom and a room are neuter: <b>et kjøkken</b>, <b>et bad</b>, <b>et soverom</b>, <b>et rom</b>. <b>et bad</b> says its d, unlike <b>med</b>. The living room and the door are feminine: <b>ei stue</b>, <b>ei dør</b>. A chair is masculine: <b>en stol</b>. A table and a window are neuter: <b>et bord</b>, <b>et vindu</b>. The definite ending is the one you know: <b>kjøkkenet</b>, <b>stua</b>, <b>stolen</b>, <b>bordet</b>, <b>døra</b>.</p>
 {{ex:et kjøkken|eht HYOEK-uhn|a kitchen}}
-{{ex:et bad|eht bah:|a bathroom}}
+{{ex:et bad|eht bah:d|a bathroom}}
 {{ex:et soverom|eht SOH:-vuh-room|a bedroom}}
 {{ex:ei stue|ai STUE:-uh|a living room}}
 <h3>Five colors</h3>
@@ -85,8 +85,8 @@ module.exports = [
 {{ex:ei gul stue|ai gue:l STUE:-uh|a yellow living room}}
 <h3>First, second, third</h3>
 <p><b>første</b> is first, <b>andre</b> is second, <b>tredje</b> is third. They already end in <b>-e</b>, and they do not add <b>-t</b>. Floors use <b>i</b>, the same chunk as <b>i Oslo</b>. For a US reader, <b>første etasje</b> is the first floor, at street level. <b>Kari bor i andre etasje</b> means Kari lives on the second floor. <b>Nora bor i tredje etasje</b> is the third floor.</p>
-{{ex:Kari bor i andre etasje.|KAH-ree boo:r ee: AHN-druh EH:-tah-shuh|Kari lives on the second floor.}}
-{{ex:Nora bor i tredje etasje.|NOO-rah boo:r ee: TREHD-yuh EH:-tah-shuh|Nora lives on the third floor.}}
+{{ex:Kari bor i andre etasje.|KAH-ree boo:r ee: AHN-druh uh-TAH:-shuh|Kari lives on the second floor.}}
+{{ex:Nora bor i tredje etasje.|NOO-rah boo:r ee: TREHD-yuh uh-TAH:-shuh|Nora lives on the third floor.}}
 <h3>At home, or going there</h3>
 <p>English uses home for two ideas. Norwegian splits them. When you are there, it is a place: <b>Jeg er hjemme</b>, I am at home. When you are going there, it is a direction: <b>Jeg går hjem</b>, I am going home. <b>Jeg kommer hjem</b> is I am coming home, also a direction. <b>Jeg er hjem</b> leaves the place word out.</p>
 {{ex:Jeg er hjemme.|yai ae:r YEHM-uh|I'm at home.}}
@@ -183,7 +183,7 @@ module.exports = [
 {{ex:dette huset|DEHT-uh HUE:-suh|this house}}
 {{ex:disse bilene|DEES-uh BEE:-luh-nuh|these cars}}
 <h3>Clothes</h3>
-<p>A sweater is masculine: <b>en genser</b>, <b>denne genseren</b>. A jacket is feminine: <b>ei jakke</b>, <b>denne jakka</b>. A shirt is feminine too: <b>ei skjorte</b>, <b>denne skjorta</b>. A dress is masculine: <b>en kjole</b>, <b>denne kjolen</b>. A hat is masculine: <b>en hatt</b>. A wool cap is feminine: <b>ei lue</b>, <b>denne lua</b>. A scarf is neuter: <b>et skjerf</b>, <b>dette skjerfet</b>. Not <b>denne skjerfet</b>.</p>
+<p>A sweater is masculine: <b>en genser</b>, <b>denne genseren</b>. A jacket is feminine: <b>ei jakke</b>, <b>denne jakka</b>. A shirt is feminine in this course: <b>ei skjorte</b>, <b>denne skjorta</b>. You will also see <b>en skjorte</b> and <b>skjorten</b>. A dress is masculine: <b>en kjole</b>, <b>denne kjolen</b>. A hat is masculine: <b>en hatt</b>. A wool cap is feminine: <b>ei lue</b>, <b>denne lua</b>. A scarf is neuter: <b>et skjerf</b>, <b>dette skjerfet</b>. Not <b>denne skjerfet</b>.</p>
 <div class="tbl"><table><tr><th>Gender</th><th>A, one</th><th>This</th></tr><tr><td>masculine</td><td class="k">en genser</td><td class="k">denne genseren</td></tr><tr><td>feminine</td><td class="k">ei jakke</td><td class="k">denne jakka</td></tr><tr><td>neuter</td><td class="k">et skjerf</td><td class="k">dette skjerfet</td></tr></table></div>
 {{ex:dette skjerfet|DEHT-uh SHAER-fuh|this scarf}}
 {{ex:denne jakka|DEHN-uh YAHK-ah|this jacket}}
@@ -412,7 +412,7 @@ module.exports = [
 <p><b>vil</b> means want, not a plan. Age uses <b>bli</b>. A plan uses <b>skal</b>: <b>Jeg skal til Bergen</b>. I'm cold is still <b>Jeg fryser</b>, not <b>Jeg er kald</b>.</p>
 {{ex:Jeg blir tretti.|yai blee:r TREHT-ee|I'm turning thirty.}}
 {{ex:I dag fryser jeg.|ee: dah:g FREW:-suhr yai|Today I'm cold.}}
-<p>If you know Swedish or Danish: <b>et semester</b> is a school term, not a holiday. A holiday is <b>ferie</b>: <b>Jeg er på ferie</b>. <b>frokost</b> is breakfast. Lunch is <b>lunsj</b>.</p>
+<p>Swedish <b>semester</b> means a vacation. Here, <b>et semester</b> is a school term. A holiday is <b>ferie</b>: <b>Jeg er på ferie</b>. Danish <b>frokost</b> means lunch. Here, frokost is breakfast, and lunch is <b>lunsj</b>.</p>
 {{ex:et semester|eht seh-MEHS-tuhr|a school term}}
 {{ex:Jeg spiser frokost.|yai SPEE:-suhr FROO:-kohst|I eat breakfast.}}
 <p><b>Til slutt</b> is one element, so the verb is next, then <b>vi</b>. Not <b>Til slutt vi dro</b>. <b>Etter hvert blir det bra</b> means over time it will be fine.</p>
@@ -429,13 +429,13 @@ module.exports = [
       ["mc", "an hour, or an appointment =", "en time", "en tid", "et time", "ei tid", "time is masculine: en time. Time in general is tid."],
       ["mc", "a factory =", "en fabrikk", "et stoff", "en stoff", "et fabrikk", "fabrikk is masculine: en fabrikk. Fabric is et stoff, and stoff is neuter."],
       ["mc", "The sky is blue.", "Himmelen er blå.", "Skya er blå.", "Himmelen er blått.", "Himmelen er blåe.", "The sky is himmelen. himmel is masculine, so blå has no ending. ei sky is a cloud."],
-      ["mc", "I eat breakfast.", "Jeg spiser frokost.", "Jeg spiser lunsj.", "Jeg spiser middag.", "Jeg spiser matpakke.", "frokost is breakfast. lunsj is lunch, including if you know Swedish or Danish."],
+      ["mc", "I eat breakfast.", "Jeg spiser frokost.", "Jeg spiser lunsj.", "Jeg spiser middag.", "Jeg spiser matpakke.", "frokost is breakfast. In Danish, frokost is lunch. Lunch here is lunsj."],
       ["or", "a present (use ei)", "ei gave", "gift en", "gave is feminine: ei gave."],
       ["or", "Today I don't have time. (start with i dag)", "I dag | har | jeg | ikke | tid", "time", "Verb second: i dag is the first element, then har. ikke goes after the verb."],
       ["or", "a bill", "en regning", "billig", "regning is masculine: en regning. billig means cheap."],
       ["fi", "Kari er __.", "Kari is married.", "gift", "gave|gava|gifte", "gift means married. A present is different: gave is feminine, ei gave."],
       ["fi", "Jeg er __.", "I'm full of food.", "mett", "full|fullt|fylt", "mett is full of food. fullt is the neuter of full, for a glass. A person who is full is drunk."],
-      ["fi", "Jeg spiser __.", "I eat breakfast.", "frokost", "lunsj|middag|ferie", "frokost is breakfast. lunsj is lunch, including if you know Swedish or Danish."],
+      ["fi", "Jeg spiser __.", "I eat breakfast.", "frokost", "lunsj|middag|ferie", "frokost is breakfast. In Danish, frokost is lunch. Lunch here is lunsj."],
       ["ty", "a present (use ei)", "ei gave", "gave · feminine", "gift en", "gave is feminine: ei gave."],
       ["ty", "Today I'm cold. (start with i dag)", "I dag fryser jeg.", "fryse · verb second", "kald er", "Verb second: i dag is the first element, then fryser."],
       ["ty", "an hour", "en time", "time · masculine", "tid gave", "time is masculine: en time. It is an hour or an appointment."]

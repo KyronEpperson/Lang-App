@@ -21,7 +21,7 @@ i går | Hva gjorde du i går? | Jeg gikk en tur. | What did you do yesterday? /
 Hva heter du? | Hei, hva heter du? | Jeg heter Anna. | Hi, what's your name? / My name is Anna.
 Snakker du norsk? | Snakker du norsk? | Ja, litt. | Do you speak Norwegian? / Yes, a little.
 men | Jeg bor i Oslo, men jeg jobber i Bergen. | Det er langt. | I live in Oslo, but I work in Bergen. / That's a long way.
-en gave | Har du en gave til meg? | Ja, her er den. | Do you have a present for me? / Yes, here it is.
+ei gave | Har du ei gave til meg? | Ja, her er den. | Do you have a present for me? / Yes, here it is.
 Jeg er mett. | Vil du ha mer? | Nei takk, jeg er mett. | Do you want more? / No thanks, I'm full of food.
 rolig | Er det rolig her? | Ja, det er rolig om kvelden. | Is it calm here? / Yes, it's calm in the evening.
 Vel bekomme. | Takk for maten. | Vel bekomme. | Thanks for the meal. / You're welcome.

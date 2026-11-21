@@ -1,10 +1,10 @@
-PROGRESS (updated 2026-11-21 15:56 CST)
+PROGRESS (updated 2026-11-21 16:27 CST)
 Course: en-no   Branch: cursor/en-no   PR: https://github.com/KyronEpperson/Lang-App/pull/7
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check
-Next: review
-Checks: PASS: all checks OK. gen.js: 26 lessons, 18 decks, 318 cards. repron twice: 664 prons read, 14 rewritten, then 0 rewritten. link_roadmap: 25 linked, not covered: none. traps has no roadmap id. packs/roadmaps.js was not kept.
-Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
-State: WORKING
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check, review, hand-off
+Next: Claude's merge read
+Checks: PASS: all checks OK. gen.js: 26 lessons, 18 decks, 318 cards. After the review, repron twice: 664 prons read, 0 rewritten, then 0 rewritten. link_roadmap: 25 linked, not covered: none. traps has no roadmap id. packs/roadmaps.js was not kept.
+Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high; review = grok-4.7-xhigh
+State: READY FOR REVIEW
 
 Lexicon added, then regenerated: beklager buh-KLAH:-guhr (Wiktionary /bəˈklɑːɡə/), sover SOH:-vuhr and soverom SOH:-vuh-room (sove /²soːvə/), osten OOS-tuhn (ost is already the oo-sound in the tool), hvorfor VOOR-fohr (hvor is already voor), ser seh:r (se /seː/, not the æ of e+r). Velkommen stays VEHL-kohm-uhn: Wiktionary /ˈvɛl.ko.mən/ stresses the first syllable, so the writer's second-syllable guess was not applied. snakket stays SNAHK-uh: the tool drops t on every -et of four letters or more, and the snakke page gave no past pronunciation. forstår was not stored, and a long stressed vowel plus r does not match pronPattern. Still for the reviewer, unsourced: flyplassen, toalettet, apoteket, ambulanse, forkjølet, fotball, aktuelt, Gratulerer, ham, aldri, etasje, skjorte, vakkert, et bad, genseren, januar, amerikansk, the weekdays torsdag lørdag søndag, Bokmål, søstera, dattera, læreren, and whether the past -et should keep its t.
 

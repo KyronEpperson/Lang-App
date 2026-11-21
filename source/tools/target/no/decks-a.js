@@ -12,7 +12,7 @@ hus | hue:s | house | u is ue, tighter than English oo. Neuter: et hus.
 ny | new: | new | y is ew, ee said with rounded lips.
 være | VAE:-ruh | to be | æ is its own letter, ae.
 norsk | nohshk | Norwegian | rs together is sh. The word is lowercase.
-med | meh: | with | A final d after a vowel is silent.
+med | meh: | with | The d in med is silent.
 kald | kahl | cold | The d in ld at the end is silent.
 bord | boo:r | a table | rd at the end: the d is silent and the o stays long. Neuter: et bord.
 hva | vah: | what | The h in hv is silent.
@@ -104,7 +104,7 @@ Klokka er tre. | KLOHK-ah ae:r treh: | It's 3:00. | The hour comes after er.
 mandag | MAHN-dahg | Monday | Days are lowercase.
 tirsdag | TEE:SH-dahg | Tuesday | rs is sh.
 onsdag | OO:NS-dahg | Wednesday | The o is the long oo sound.
-torsdag | TOHSH-dahg | Thursday | Lowercase, like the other days.
+torsdag | TOH:SH-dahg | Thursday | Lowercase, like the other days.
 fredag | FREH:-dahg | Friday | Long e.
 lørdag | LOE:-rdahg | Saturday | Long ø.
 søndag | SOEN-dahg | Sunday | Lowercase.
@@ -165,7 +165,7 @@ et hus | eht hue:s | a house | Neuter: et hus, huset.
 huset | HUE:-suh | the house | Neuter definite. The t is silent.
 et kjøkken | eht HYOEK-uhn | a kitchen | Neuter. kj is the soft h.
 kjøkkenet | HYOEK-uh-nuh | the kitchen | Neuter definite. The t is silent.
-et bad | eht bah: | a bathroom | Neuter. The d is silent. The definite is badet.
+et bad | eht bah:d | a bathroom | Neuter. The d is said, unlike med. The definite is badet.
 ei stue | ai STUE:-uh | a living room | Feminine: ei stue, stua.
 stua | STUE:-ah | the living room | Feminine definite ending -a.
 første | FOESH-tuh | first | Ordinals are lowercase.

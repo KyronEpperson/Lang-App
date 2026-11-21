@@ -26,6 +26,10 @@ minutter=mee-NUET-uhr brunost=BRUE:-noost tirsdag=TEE:SH-dahg onsdag=OO:NS-dahg
 billett=beel-EHT stasjonen=stah-SHOO:-nuhn studenten=stue-DEHNT-uhn studerer=stue-DEH:-ruhr
 beklager=buh-KLAH:-guhr sover=SOH:-vuhr soverom=SOH:-vuh-room
 osten=OOS-tuhn hvorfor=VOOR-fohr
+bad=bah:d etasje=uh-TAH:-shuh etasjen=uh-TAH:-shuhn
+apoteket=ah-poo-TEH:-kuh toalett=too-ah-LEHT toalettet=too-ah-LEHT-uh
+gratulerer=grah-tue-LEH:-ruhr vakkert=VAHK-uhrt ambulanse=ahm-bue-LAHNG-suh ambulansen=ahm-bue-LAHNG-suhn
+forkjølet=fohr-HYOE:-luh aktuelt=ahk-tue-EHLT torsdag=TOH:SH-dahg
 `;
 
 /* whole words whose single vowel is short even though only one consonant follows */

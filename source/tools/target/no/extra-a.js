@@ -42,11 +42,11 @@ en kaffe | Jeg vil ha en kaffe, takk. | I'll have a coffee, thanks.
 I dag jobber jeg. | I dag jobber jeg, men i morgen er jeg hjemme. | Today I'm working, but tomorrow I'm at home.
 Det er kaldt. | Det er kaldt i Oslo i dag. | It's cold in Oslo today.
 ost | Jeg vil ha ost på brødet. | I want cheese on the bread.
-matpakka | Matpakka mi er i kjøkkenet. | My packed lunch is in the kitchen.
+matpakka | Matpakka mi er på kjøkkenet. | My packed lunch is in the kitchen.
 ei lita bok | Nora leser ei lita bok. | Nora is reading a little book.
 disse skoene | Disse skoene er for store. | These shoes are too big.
 Jeg legger meg. | Jeg legger meg klokka elleve. | I go to bed at eleven.
-Det er blått. | Det er blått i stua. | It is blue in the living room.
+Det er blått. | Huset? Det er blått. | The house? It is blue.
 `;
 exports.PATTERNS = `
 Bokstaven ___ | The letter ___ | Bokstaven å | The letter å

@@ -118,7 +118,7 @@ module.exports = [
 {{ex:norsk|nohshk|Norwegian}}
 <p>Many younger speakers say kjøpe with sh. You will hear it. When you speak, keep hy. The line keeps kj and sh apart.</p>
 <h3>Silent h and silent d</h3>
-<p>h goes quiet in <b>hv</b> and <b>hj</b>. <b>hva</b> is what, and it starts with v. <b>hjelpe</b>, to help, starts with the y of j. A d after a vowel at the end of a word is quiet: <b>med</b>, with. In <b>ld</b>, <b>nd</b> and <b>rd</b> at the end, the d goes quiet too. <b>kald</b>, cold, ends in l. <b>vind</b>, wind, ends in n and sounds like <b>vinn</b>, the short one, not like <b>vin</b>. <b>bord</b>, a table, keeps a long vowel and drops the d: the line still shows the r.</p>
+<p>h goes quiet in <b>hv</b> and <b>hj</b>. <b>hva</b> is what, and it starts with v. <b>hjelpe</b>, to help, starts with the y of j. A d after a vowel at the end of a word is often quiet: <b>med</b>, with. In <b>ld</b>, <b>nd</b> and <b>rd</b> at the end, the d goes quiet too. <b>kald</b>, cold, ends in l. <b>vind</b>, wind, ends in n and sounds like <b>vinn</b>, the short one, not like <b>vin</b>. <b>bord</b>, a table, keeps a long vowel and drops the d: the line still shows the r.</p>
 {{ex:hva|vah:|what}}
 {{ex:hjelpe|YEHL-puh|to help}}
 {{ex:med|meh:|with}}
@@ -138,13 +138,13 @@ module.exports = [
     check: [
       ["How does kjøpe start?", ["With a k, as in English", "With hy, the h of huge", "With sh", "With a silent k"], 1, "kj is hy. kjøpe does not start with a k or with sh."],
       ["What happens to rs in norsk?", ["It is an r followed by an s", "It is sh, one sound", "Both letters are silent", "It is the kj-sound, hy"], 1, "rs is sh. norsk ends in that sh, not in r plus s."],
-      ["Which letter is silent in med?", ["m", "e", "d", "None of them"], 2, "A d after a vowel at the end of a word is silent. med ends on the vowel."]
+      ["Which letter is silent in med?", ["m", "e", "d", "None of them"], 2, "The d in med is silent. med ends on the vowel."]
     ],
     practice: [
       ["mc", "kjøpe starts with which sound?", "hy", "k", "sh", "y", "kj is hy, the h of huge, not a k and not sh."],
       ["mc", "norsk ends with which sound?", "sh", "r plus s", "a plain k", "hy", "rs is sh. norsk ends in that one sound."],
       ["mc", "The h in hva is…", "silent", "said, as in English help", "the sh-sound", "the kj-sound", "h in hv is silent. hva starts with v."],
-      ["mc", "The d in med is…", "silent", "said, as in English day", "a sign that the vowel is long", "the sh-sound", "A final d after a vowel is silent. med ends on the vowel."],
+      ["mc", "The d in med is…", "silent", "said, as in English day", "a sign that the vowel is long", "the sh-sound", "The d in med is silent. med ends on the vowel."],
       ["mc", "skjema starts with which sound?", "sh", "hy", "sk", "k", "skj is sh. hy would be the kj-sound, as in kjøpe."],
       ["or", "a table", "et bord", "en", "bord is neuter: et bord."],
       ["or", "a cinema", "en kino", "ei", "kino is masculine: en kino."],
