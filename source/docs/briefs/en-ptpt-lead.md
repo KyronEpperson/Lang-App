@@ -1,5 +1,9 @@
 # Lead note: en-ptpt stage 1
 
+paused: S allowance
+
+Stage 1 is saved. Stages 2–6 are not started. Opus (`claude-opus-5-5`) is used up until the monthly cycle ends on 2026-11-24, and the course does not continue on a weaker model.
+
 For the main build, reviewing the European Portuguese course before any writer starts. Cursor wrote this after stage 1. It is the review note. The course profile is the separate file `docs/profiles/en-ptpt.md`.
 
 Paths below are inside `source/`. In the main build's workspace that folder is `/home/claude`.
