@@ -1,0 +1,109 @@
+# Lang App master build plan (draft for Kii, 2026-11-21)
+
+Three tracks: (A) the rest of English → other languages, (B) other languages → English, (C) Asian languages → Korean, Japanese and Chinese. Plus how a Cursor subscription can take real work off the main build.
+
+Nothing here is started. Orders and effort figures are estimates to be corrected, not commitments.
+
+## 1. Where things stand
+
+| | Count | Detail |
+|---|---|---|
+| English → X, live | 22 | ko, es, fr, it, pt (Brazil), de, id, vi, zh, ja, hi, ar, ru, th, yue, tl, ceb, ur, pa, te, kn, nan |
+| English → X, lesson plan only ("coming soon") | 38 | listed in Track A |
+| X → English, live | 14 | ar, de, es, fr, hi, id, it, ja, ko, pt, ru, th, vi, zh (42 lessons each, interface translated) |
+| Any pair without English | 0 | shown as "coming soon" in the picker, no plan or content |
+
+No course has been checked by a native speaker. That stays the biggest quality risk in every track below.
+
+## 2. Track A: English → the remaining 38
+
+Each course is the same job as the 22 already built: profile → engine work (script, typing, pronunciation tool) → 5 writers → merge and test → cold review → ship. One course takes roughly one 5-hour usage window of Opus writers plus the lead's merge.
+
+| Wave | Languages | Why here |
+|---|---|---|
+| A1: ready and mainstream (15) | Portuguese (Portugal), Dutch, Swedish, Norwegian, Danish, Polish, Czech, Romanian, Turkish, Ukrainian, Greek, Bulgarian, Hungarian, Finnish, Afrikaans | Latin, Cyrillic or Greek script; device voices exist; no permission questions. Portugal Portuguese first: it reuses most of the Brazilian course. |
+| A2: large, new script or little tooling (4) | Bengali, Marathi, Persian, Swahili | Big speaker numbers. Bengali needs a new script stage; Marathi reuses the Hindi script work; Persian reuses Arabic/Urdu right-to-left work; Swahili is Latin script. |
+| A3: African and Caribbean (7) | Hausa, Yoruba, Igbo, Amharic, Oromo, Zulu, Haitian Creole | Tone marks, a new script (Amharic), thin sources, device voices uncertain. Each needs a native speaker before launch more than any earlier course. |
+| A4: community-first (12) | Cherokee, Nahuatl, K'iche', Quechua, Guaraní, Aymara, Mapudungun, Māori, Samoan, Tongan, Fijian, Tok Pisin | Contact the language body or community teachers first (same rule as Cherokee). Mostly no device voices, so text-only or recorded audio. Build only after a yes. |
+
+Decisions needed from Kii: order inside A1; whether A3 waits for native reviewers; who contacts the A4 language bodies (draft emails can be prepared).
+
+## 3. Track B: other languages → English
+
+Today 14 languages can learn English. A new one needs two things: the app's interface translated into that language (about 1,000 short strings plus about 270 sentence patterns), and the 42-lesson English course written with explanations in that language. The English side (words, audio, exercises) is reused; the explanations are new.
+
+| Wave | New native languages | Why here |
+|---|---|---|
+| B1 (6) | Bengali, Urdu, Turkish, Persian, Polish, Ukrainian | Many speakers with strong demand for English, little good free material. Urdu and Persian reuse the Arabic right-to-left interface work. |
+| B2 (5) | Telugu, Marathi, Punjabi, Kannada, Tagalog | Indian-language speakers learn English from Hindi or English-medium material today; a course in their own language is the gap. |
+| B3 (3) | Cantonese (Traditional Chinese interface), Romanian, Swahili | Cantonese is cheap: convert the existing Chinese course and interface to Traditional characters and adjust wording. |
+| Later | Dutch, Nordic languages, Greek, Czech, Hungarian, Bulgarian | Most speakers already learn English well at school; low value. |
+
+Each B course ≈ one usage window, plus the interface dictionary (a good Cursor task, see section 5).
+
+## 4. Track C: Asian languages → Korean, Japanese, Chinese
+
+Native languages already supported in the interface: Korean, Japanese, Chinese, Vietnamese, Thai, Indonesian, Hindi. Targets: Korean, Japanese, Chinese. That is 18 courses (7 × 3, minus the three same-language pairs).
+
+| Wave | Pairs | Why here |
+|---|---|---|
+| C1 (6) | Japanese → Korean, Chinese → Korean, Korean → Japanese, Chinese → Japanese, Korean → Chinese, Japanese → Chinese | The three languages learn each other in very large numbers, and the courses can be much better than a translated English course (see below). |
+| C2 (3) | Vietnamese → Korean, Thai → Korean, Indonesian → Korean | Strong interest in Korean from K-pop and K-drama, and for work in Korea. |
+| C3 (6) | Vietnamese, Thai, Indonesian → Japanese and → Chinese | Work and study migration to Japan; Chinese for trade. |
+| C4 (3) | Hindi → Korean, Japanese, Chinese | Smallest expected demand. |
+
+What changes per pair (this is why it is not a copy of the English-speaker course):
+- Chinese speakers learning Japanese already know what most kanji mean; the course teaches readings and the kana, and warns about characters that look the same but mean something else.
+- Japanese and Korean share word order, particles and politeness levels; the course can map one onto the other instead of explaining from zero.
+- Korean and Japanese both borrowed vocabulary from Chinese; hundreds of words are recognisable by sound.
+- Romanisation is the wrong pronunciation aid for these learners: Japanese speakers read Korean sounds better in kana, Chinese speakers need pinyin-like hints only for new sounds.
+
+What is reused: the target-language side of the existing course (cards, example sentences, dialogues, audio, exercise structure) and the interface dictionary. What is new: all explanations, meanings and notes in the learner's language; a "what you already know" lesson up front; the pronunciation aid; one engine change so a course can have neither side English.
+
+Estimated effort: about two-thirds of a full course each, once the first pair has proven the pipeline. C1 pair one (Japanese → Korean) is the pilot.
+
+Not in scope by Kii's wording: Cantonese as a target for Asian-language speakers. Easy to add after C1.
+
+## 5. Putting Cursor to work
+
+The whole source is in the GitHub repo under `source/` (app, course tools, briefs, plans), kept in step with every release. So Cursor can read everything. Three things limit what it should do:
+
+1. One place writes the app. The main build runs in Claude's workspace and overwrites `source/` on each release. Two writers editing the same files will lose work. Cursor must stay in its own lane (below) and work on branches.
+2. The build scripts expect the workspace folder layout. Until they are made location-independent (job 0), Cursor cannot run the checks on Kii's computer.
+3. A basic plan has a limited monthly allowance. Spend it on jobs that are large, mechanical and checkable, not on judgment-heavy course writing in languages nobody here can verify.
+
+| # | Job | Who | Output | How we know it is right |
+|---|---|---|---|---|
+| 0 | Make the tools run from any folder; add `source/CURSOR.md` with the rules and the commands; make releases refuse to overwrite unmerged Cursor work | Claude (main build) | repo ready for a second worker | Cursor can run the build and tests on Kii's machine |
+| 1 | Interface dictionaries for Track B native languages (Bengali, Urdu, Turkish, Persian, Polish, Ukrainian first) | Cursor | `tools/i18n/<lang>/ui.json` | the existing generator and validator pass; every key present; placeholders intact |
+| 2 | Course profiles for Wave A1 (variant, register, glossary, error zones, pronunciation policy), from the existing lesson plans and the profile template | Cursor | `docs/profiles/en-<t>.md` | checklist in the profile brief; lead reviews before writers start |
+| 3 | "What you already know" contrast notes for the six C1 pairs (shared vocabulary, false friends, grammar mapping) | Cursor | `docs/pairs/<native>-<target>.md` | lead and a cold reviewer check a sample against dictionaries |
+| 4 | Outreach drafts for Wave A4 language bodies (who to contact, a short email each) | Cursor | `docs/outreach/<lang>.md` | Kii reads and sends; nothing is sent automatically |
+| 5 | Second-opinion review of live courses: read a course's decks and list suspected errors with reasons | Cursor (a different model family than the writer where possible) | `tools/target/<t>/REVIEW-2.md` | findings are suggestions; lead verifies before changing content |
+
+Rules for Cursor (to go into `source/CURSOR.md`):
+- Work on a branch named `cursor/<job>`, open a pull request, never push to `main`.
+- Only add or edit files inside the folders named in the job. Never edit `index.html`, `packs/`, `src/app.html`, or anything outside `source/`.
+- Use the strongest model the plan offers for content jobs; the default "auto" model is fine only for job 0-style code chores.
+- No secrets in the repo. Supabase service keys, Azure keys and passwords never go into a prompt or a file.
+- Every job ends with the listed check passing and a short report of what was unsure.
+
+What stays with the main build: engine changes, course writing and merging, pronunciation tools, tests, releases. Those depend on each other and on the test harness, and a second writer there costs more than it saves.
+
+## 6. Order across tracks (proposal)
+
+1. Job 0, so Cursor can start (about one session).
+2. In parallel: Cursor does jobs 1 and 2; the main build does Portugal Portuguese, then the rest of A1 at two to three courses a day when usage allows.
+3. Pilot C1 with Japanese → Korean while A1 continues; decide on the rest of C1 from how the pilot goes.
+4. B1 as each interface dictionary from job 1 passes its checks.
+5. A2, then C2. A3 and A4 only as reviewers and permissions arrive.
+
+Rough size: A1 15 courses, B1 6, C1 6 = 27 courses, on the order of 27 usage windows. At two a day that is about two weeks of continuous running; in practice longer, with usage limits and fixes.
+
+## 7. Decisions for Kii
+
+1. Is the order A1 → C1 pilot → B1 right, or should Asian pairs come first?
+2. Which Cursor jobs to start with (suggested: 1 and 2)?
+3. Should A3 and A4 wait for native reviewers and community contact (recommended), or be built as drafts marked "beta"?
+4. Should new courses launch without a native check as now, or does "live" start to require one?
+5. Is Cantonese wanted as a target in Track C?
