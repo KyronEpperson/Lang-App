@@ -1,0 +1,53 @@
+{
+ "code": "cs",
+ "name": "Czech", "self": "čeština",
+ "variant": "Standard Czech (Czech Republic)",
+ "voice": "cs-CZ",
+ "script": "Latin with extra letters: á, č, ď, é, ě, í, ň, ó, ř, š, ť, ú, ů, ý, ž; left to right",
+ "basis": "University beginner Czech courses: ČVUT Czech/Foreign Language 1 lesson list and Charles University summer school Beginners I (Léto s češtinou)",
+ "src": [
+  "Czech Technical University (ČVUT), 'Czech/Foreign Language 1' syllabus on bilakniha.cvut.cz: ordered lessons (pronunciation, být / mít, gender, likes and family, adjectives, accusative and restaurant, locative and directions, shopping, Co chcete?), textbooks Communicative Czech elementary and Czech Step by Step 1",
+  "Charles University Faculty of Arts summer school, Czech for Beginners I course plan (PDF, textbook Léto s češtinou): lessons 1–6 with být, gender, accusative, mít, numbers, jít / jet, verb groups, possessives, future, chutná mi / líbí se mi, moct / muset / chtít"
+ ],
+ "note": "Both sources put být and mít first, the accusative (ordering food) before the locative (where things are, directions), and modal verbs and liking verbs in the middle; the order here follows them. The split of sounds into three lessons, the past-tense lesson (not in either source's beginner part) and the exact titles are common course practice and my own judgment.",
+ "hardest": [
+  "ř, and long versus short vowels that change meaning (byt / být)",
+  "Seven cases; the accusative and locative already at A1, with endings by gender",
+  "Verb groups (-ám, -ím, -uju / -uji) and irregular verbs like jít, jet, moct, chtít",
+  "Numbers that change the noun: 1 koruna, 2 koruny, 5 korun"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["cs-alphabet", "Alphabet and the háček letters: č, š, ž, ř, ě, ň, ď, ť"],
+   ["cs-vowels", "Long vowels (á, é, í, ó, ú / ů, ý) and stress on the first syllable"],
+   ["cs-r-ch", "Hard sounds: ř, ch, and voiceless final consonants"],
+   ["cs-greetings", "Greetings: dobrý den, ahoj, na shledanou; vy and ty"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["cs-byt", "být: jsem, jsi, je… and Co je to? Kdo je to?"],
+   ["cs-intro", "Introducing yourself: Jmenuji se…, Jsem z…"],
+   ["cs-gender", "Gender: ten, ta, to"],
+   ["cs-verbs", "Verb groups: dělat, mluvit, studovat (-ám, -ím, -uju)"],
+   ["cs-mit", "mít and mít rád: have and like"],
+   ["cs-negation", "Yes/no questions and ne-: nemám, nejsem"],
+   ["cs-numbers", "Numbers 0–100 and phone numbers"],
+   ["cs-adjectives", "Adjectives: Jaký je? dobrý, dobrá, dobré"]
+  ]},
+  {"en": "Food, family and wants", "items": [
+   ["cs-accusative", "Accusative: Dám si kávu, Mám bratra"],
+   ["cs-restaurant", "Ordering and paying: Kolik to stojí? koruna, koruny, korun"],
+   ["cs-family", "Family, jobs and possessives: můj, moje, tvůj"],
+   ["cs-likes", "Liking food and things: chutná mi, líbí se mi"],
+   ["cs-modals", "moct, muset, chtít: can, must, want"],
+   ["cs-time", "Time and days: Kolik je hodin? v pondělí"]
+  ]},
+  {"en": "Around town", "items": [
+   ["cs-motion", "Going on foot and by transport: jít and jet"],
+   ["cs-locative", "Locative: v Praze, na poště"],
+   ["cs-directions", "Directions: Jak se dostanu na…? rovně, doleva, doprava"],
+   ["cs-shopping", "Shopping and clothes: Co chcete? colours and sizes"],
+   ["cs-past", "Past tense: byl jsem, dělala jsem"],
+   ["cs-future", "Future: budu + verb, půjdu, pojedu"]
+  ]}
+ ]
+}

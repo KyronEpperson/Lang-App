@@ -1,0 +1,28 @@
+{
+  "native": "vi",
+  "nativeNameEn": "Vietnamese",
+  "name": {
+    "en": "English",
+    "vi": "Tiếng Anh"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?!.*əʊ)/[a-bd-pr-vwzæɑɔəɚɝɪʊʌθðʃʒŋˈˌː‿ ]+/(?:(?: | / )/[a-bd-pr-vwzæɑɔəɚɝɪʊʌθðʃʒŋˈˌː‿ ]+/)*$",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "mạo từ|số nhiều|đếm được",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Từ nào điền vào chỗ trống?",
+    "typeHintCue": " — dùng các từ này",
+    "cueTest": "[àáâãèéêìíòóôõùúýăđĩũơưÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝĂĐĨŨƠƯẠ-ỹ]"
+  },
+  "lessonOrder": {
+    "after": {
+      "final-sounds": "third-s",
+      "noun-phrase": "adjectives"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "native": "id",
+  "nativeNameEn": "Indonesian",
+  "name": {
+    "en": "English",
+    "id": "bahasa Inggris"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^[abcdefghijklmnoprstuvwyzéèABCDEFGHIJKLMNOPRSTUVWYZÉÈ ?!.,/-]+( \\((i pendek|u pendek|dengar audio)\\))?$",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "\\bartikel|\\bjamak",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Apa isi bagian yang kosong?",
+    "typeHintCue": " — pakai kata-kata ini",
+    "cueTest": "\\b([Yy]ang|[Uu]ntuk|[Dd]engan|[Aa]dalah|[Aa]rti|[Aa]rtinya|[Kk]alimat|[Bb]entuk|[Kk]ata|[Kk]ata-kata|[Ii]ni|[Ii]tu|[Tt]idak|[Bb]ukan|[Aa]pa|[Bb]agaimana|[Mm]ana|[Dd]alam|[Pp]ada|[Jj]amak|[Tt]unggal|[Aa]rtikel|[Bb]enar|[Ss]alah|[Tt]epat|[Pp]ilih|[Ii]si|[Kk]osong|[Ss]usun|[Tt]ulis|[Pp]akai|[Gg]unakan|[Jj]awab|[Jj]awaban|[Bb]ahasa|[Ii]nggris|[Ii]nggrisnya|[Ss]aya|[Aa]ku|[Kk]amu|[Dd]ia|[Mm]ereka|[Kk]ita|[Kk]ami|[Dd]i|[Kk]e|[Dd]ari|[Aa]tau|[Jj]uga|[Ss]udah|[Ss]edang|[Aa]kan|[Bb]elum|[Pp]ernah|[Ss]ebuah|[Ss]eorang|[Bb]erapa|[Ss]iapa|[Kk]apan|[Kk]enapa|[Mm]engapa|[Kk]arena|[Jj]adi|[Bb]isa|[Mm]au|[Hh]arus|[Tt]olong|[Ss]ebelum|[Ss]etelah|[Ss]esudah)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "indo-english": "smalltalk",
+      "time-markers": "perfect"
+    }
+  }
+}

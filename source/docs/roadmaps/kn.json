@@ -1,0 +1,58 @@
+{
+ "code": "kn",
+ "name": "Kannada",
+ "self": "ಕನ್ನಡ",
+ "variant": "Modern standard Kannada of Bengaluru and Mysuru, everyday spoken standard (spoken verb forms such as ಮಾಡ್ತೀನಿ, not the written ಮಾಡುತ್ತೇನೆ), written in Kannada script",
+ "voice": "kn-IN",
+ "script": "Kannada script, left to right; an abugida with vowel signs (ಕಾಗುಣಿತ) and conjunct consonants written below the line (ಒತ್ತಕ್ಷರ)",
+ "basis": "IGNOU Basic Course in Kannada (SWAYAM), weeks 1-8 cut down to A1: script and greetings, pronouns, kinship and possessives, questions, numbers, adjectives, plurals, dative, comparison, defective verbs ಬೇಕು / ಗೊತ್ತು, imperative, locative, present-future with negation, instrumental and ablative, ability, past, continuous; with the first spoken-Kannada steps of the Penn preliminary lessons (yes/no questions, existence and location, dative, liking and wanting, food)",
+ "src": [
+  "IGNOU, Basic Course in Kannada (SWAYAM, 12 weeks, Dr Rakesh Cherucodu): week-by-week syllabus, read through its Class Central listing, not on the SWAYAM site itself",
+  "University of Pennsylvania (ccat.sas.upenn.edu) Kannada resources page: titles of six preliminary spoken-Kannada lessons (yes/no questions; existence and location; interrogatives, dative, verbs of motion; dative-stative; liking and wanting; asking about food) and of A Grammar of Spoken Kannada",
+  "Opened (not a syllabus): a third-party voice catalogue (json2video.com) page listing the Microsoft Azure neural voice kn-IN-SapnaNeural"
+ ],
+ "note": "The grammar order follows the IGNOU weekly syllabus up to about week 8, which is where A1 ends; relative participles, conditionals, reported speech and the passive (weeks 9-10) are left out. Two changes from IGNOU: existence with ಇದೆ / ಇಲ್ಲ and liking and wanting with the dative come early, as in the Penn preliminary lessons, and comparison is moved from week 3 to the end because it is less urgent than verbs. The split of the script into five lessons, the separate lessons on food, time and directions, and every title are my own judgment and common course practice. Register: Kannada has a clear gap between written and spoken forms, and this course teaches the everyday spoken standard of Bengaluru and Mysuru: verb forms such as ಮಾಡ್ತೀನಿ, ಮಾಡಲ್ಲ, ಮಾಡ್ತಾ ಇದ್ದೀನಿ, ಇದ್ದೀನಿ, with the written forms (ಮಾಡುತ್ತೇನೆ, ಮಾಡುವುದಿಲ್ಲ) shown only for recognition on signs and in print. Where speech and writing nearly coincide, titles keep the fuller form (ಮಾಡಿದೆ, ಹೋಗಲಿಲ್ಲ, ಮನೆಯಲ್ಲಿ, ಒಳ್ಳೆಯ). Spoken spellings vary in practice, so lesson writers should fix one spelling per form and keep it. The script stage has five lessons like the hi model. Text to speech: an Azure neural voice kn-IN-SapnaNeural is listed on a third-party catalogue page; Microsoft's own voice list did not load, so it is not confirmed from Microsoft, and other Azure voice names were not verified. Device (iOS / Android) voices for kn-IN were not checked; Azure and other voices may read spoken-style spellings less well than written ones.",
+ "hardest": [
+  "The script: vowel signs and conjuncts written below the line (ಅಮ್ಮ, ಕನ್ನಡ)",
+  "Retroflex ಟ ಡ ಣ ಳ against dental ತ ದ ನ ಲ, long against short vowels, and doubled consonants",
+  "Spoken forms that differ from the written ones (ಮಾಡ್ತೀನಿ against ಮಾಡುತ್ತೇನೆ)",
+  "The dative for liking, wanting and knowing (ನನಗೆ ಬೇಕು, ನನಗೆ ಗೊತ್ತು), and verb endings for person and gender at the end of the sentence"
+ ],
+ "stages": [
+  {"en": "Script, sounds and greetings", "items": [
+   ["kn-vowels", "Vowels: ಅ ಆ ಇ ಈ ಉ ಊ ಋ ಎ ಏ ಐ ಒ ಓ ಔ, short against long"],
+   ["kn-consonants-1", "Consonants 1: ಕ ಖ ಗ ಘ ಙ, ಚ ಛ ಜ ಝ ಞ, retroflex ಟ ಠ ಡ ಢ ಣ"],
+   ["kn-consonants-2", "Consonants 2: dental ತ ಥ ದ ಧ ನ, ಪ ಫ ಬ ಭ ಮ, ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ"],
+   ["kn-vowel-signs", "Vowel signs (ಕಾಗುಣಿತ): ಕ ಕಾ ಕಿ ಕೀ ಕು ಕೂ ಕೆ ಕೇ ಕೈ ಕೊ ಕೋ ಕೌ"],
+   ["kn-conjuncts", "Conjuncts (ಒತ್ತಕ್ಷರ), doubled letters and the round anusvara: ಅಮ್ಮ, ಅಕ್ಕ, ಕನ್ನಡ, ಬೆಂಗಳೂರು"],
+   ["kn-greetings", "Greetings: ನಮಸ್ಕಾರ, ಹೇಗಿದ್ದೀರಾ?, ಚೆನ್ನಾಗಿದ್ದೀನಿ, ಧನ್ಯವಾದಗಳು; ನೀನು and ನೀವು"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["kn-no-is", "Pronouns and sentences with no 'is': ನಾನು, ನೀನು, ನೀವು, ಅವನು, ಅವಳು, ಅವರು; ಇದು ಪುಸ್ತಕ"],
+   ["kn-questions", "Questions: -ಆ, ಹೌದು / ಇಲ್ಲ, and ಏನು, ಯಾರು, ಎಲ್ಲಿ, ಯಾವಾಗ, ಹೇಗೆ"],
+   ["kn-ide", "There is, there isn't: ಇದೆ, ಇಲ್ಲ; … ಎಲ್ಲಿದೆ?"],
+   ["kn-intro", "Introducing yourself: ನಿಮ್ಮ ಹೆಸರು ಏನು?, ನನ್ನ ಹೆಸರು …, ನೀವು ಎಲ್ಲಿಯವರು?"],
+   ["kn-family", "Family and possessives: ನನ್ನ, ನಿನ್ನ, ನಿಮ್ಮ; ಅಮ್ಮ, ಅಪ್ಪ, ಅಣ್ಣ, ಅಕ್ಕ, ತಮ್ಮ, ತಂಗಿ"],
+   ["kn-numbers", "Numbers and prices: ಒಂದು, ಎರಡು, ಮೂರು; ಎಷ್ಟು?, ರೂಪಾಯಿ"],
+   ["kn-plurals", "Plurals in -ಗಳು (ಪುಸ್ತಕಗಳು) and adjectives: ದೊಡ್ಡ, ಚಿಕ್ಕ, ಒಳ್ಳೆಯ, ಹೊಸ"],
+   ["kn-dative", "The dative -ಗೆ / -ಕ್ಕೆ: to whom and to where (ನನಗೆ, ನಿಮಗೆ, ಮನೆಗೆ, ಬೆಂಗಳೂರಿಗೆ)"],
+   ["kn-like-want", "Liking, wanting, knowing: ನನಗೆ ಇಷ್ಟ, ನನಗೆ ಬೇಕು / ಬೇಡ, ನನಗೆ ಗೊತ್ತು"]
+  ]},
+  {"en": "Daily life", "items": [
+   ["kn-imperative", "Requests and commands: ಬನ್ನಿ, ಕೊಡಿ, ಹೇಳಿ; ಬಾ, ಕೊಡು"],
+   ["kn-food", "Ordering food: ಒಂದು ಕಾಫಿ ಕೊಡಿ, ಊಟ, ಎಷ್ಟು ಆಯ್ತು?"],
+   ["kn-present", "Present and future: ಮಾಡ್ತೀನಿ, ಹೋಗ್ತೀನಿ; negative ಮಾಡಲ್ಲ; daily routine"],
+   ["kn-locative", "Where and from: ಮನೆಯಲ್ಲಿ (spoken ಮನೇಲಿ), ಬೆಂಗಳೂರಿನಿಂದ, ಅವರ ಜೊತೆ"],
+   ["kn-time", "Clock time and days: ಗಂಟೆ ಎಷ್ಟು?, ಏಳು ಗಂಟೆಗೆ, ಏಳೂವರೆ, ಸೋಮವಾರ"],
+   ["kn-must-can", "Must, must not, may: ಮಾಡಬೇಕು, ಮಾಡಬಾರದು, ಮಾಡಬಹುದು"],
+   ["kn-directions", "Directions and transport: ಬಲಕ್ಕೆ, ಎಡಕ್ಕೆ, ನೇರವಾಗಿ"]
+  ]},
+  {"en": "Past and continuous", "items": [
+   ["kn-past", "The past: ಮಾಡಿದೆ, ಹೋದೆ, ಬಂದೆ"],
+   ["kn-past-neg", "Past negative: ಹೋಗಲಿಲ್ಲ, ಮಾಡಲಿಲ್ಲ"],
+   ["kn-continuous", "Present continuous: ಮಾಡ್ತಾ ಇದ್ದೀನಿ"],
+   ["kn-and-then", "Two actions in a row: ಊಟ ಮಾಡಿ ಹೋದೆ"],
+   ["kn-compare", "Comparing with -ಕ್ಕಿಂತ: ಅದಕ್ಕಿಂತ ದೊಡ್ಡದು"]
+  ]}
+ ]
+}

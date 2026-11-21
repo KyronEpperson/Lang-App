@@ -1,0 +1,28 @@
+{
+  "native": "th",
+  "nativeNameEn": "Thai",
+  "name": {
+    "en": "English",
+    "th": "ภาษาอังกฤษ"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": "[\\u0E01-\\u0E3A\\u0E40-\\u0E4E]",
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "pronScript": "ˈ",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "คำนำหน้านาม|นามพหูพจน์|รูปพหูพจน์|นับได้|นับไม่ได้"
+  },
+  "labels": {
+    "mcBlankCue": " ช่องว่างควรเติมคำใด",
+    "typeHintCue": " — ใช้คำเหล่านี้",
+    "cueTest": "[\\u0E01-\\u0E3A\\u0E40-\\u0E4E]"
+  },
+  "lessonOrder": {
+    "after": {
+      "tinglish": "smalltalk",
+      "time-markers": "perfect"
+    }
+  }
+}

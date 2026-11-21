@@ -1,0 +1,54 @@
+{
+ "code": "ig",
+ "name": "Igbo",
+ "self": "Igbo",
+ "variant": "Standard Igbo (Igbo Izugbe) in the Ọnwụ orthography; tones marked only in the sound lessons, as in everyday writing",
+ "voice": "ig-NG",
+ "script": "Latin with extra letters: ị, ọ, ụ, ṅ and the digraphs ch, gb, gh, gw, kp, kw, nw, ny, sh; tone marks (á, à) used only in teaching texts; left to right",
+ "basis": "ELIAS online Igbo course, units 1-23: sounds and tones, greetings, introducing self and others, numbers, classroom, family, time, body, days and market days, daily routine, nationality and residence, future plans, professions, home, food, buying and selling, directions, hospital, asking for help and permission",
+ "src": [
+  "ELIAS online Igbo course (elias.fas.harvard.edu/languages/igbo, copyright ELIAS 2018; the page does not name the institution or authors): list of units 1-23 and the grammar headings of unit 2 (nasals, alphabet, vowel harmony)"
+ ],
+ "note": "The topic order follows the ELIAS unit numbers (the page lists them out of order; I used the numbers). Left out: the fractions and percentages section, the classroom (unit 6), weather (13), the home (17) and the zoo (18). Moved out of unit order: numbers (unit 5) come after family and question words, and body parts (unit 10) join the hospital unit (22) in the last lesson. ELIAS names grammar only in a few units (pronouns with introductions, possessives with family, verb forms with daily routine, tenses with future plans, adjectives with shopping, imperatives with permission), so the grammar lessons, bụ and dị, negation with -ghị, the past in -rV and the ga- future are placed by common course practice and my own judgment, each beside the ELIAS theme it serves. Tone marks are left out of titles except in the tone lesson, as standard Igbo writing does. The split into 25 lessons and 4 stages is mine.",
+ "hardest": [
+  "Tone (high, low and downstep) changes meaning, but everyday spelling does not show it: ákwá, àkwà, àkwá, ákwà",
+  "Vowel harmony: prefixes and pronouns change with the verb's vowels (ị / i, ọ / o)",
+  "Dotted vowels ị, ọ, ụ and the double stops kp and gb",
+  "Pronoun position: 'I' (m) comes after the verb (A na m eri, Amaghị m) while ọ and the others come before it (Ọ na-eri), and the verb takes suffixes (-ghị, -rV)"
+ ],
+ "stages": [
+  {"en": "Sounds and greetings", "items": [
+   ["ig-alphabet", "The alphabet: ị, ọ, ụ, ṅ and the digraphs ch, gb, gh, gw, kp, kw, nw, ny, sh"],
+   ["ig-harmony", "Vowel harmony: the two vowel sets a, ị, ọ, ụ and e, i, o, u"],
+   ["ig-tones", "Tones: high, low and downstep (ákwá, àkwà, àkwá, ákwà), and why everyday spelling leaves them out"],
+   ["ig-greetings", "Greetings: Ndewo, Ụtụtụ ọma, Ọ dị mma, Daalụ, Ka ọ dị"]
+  ]},
+  {"en": "People and numbers", "items": [
+   ["ig-intro", "Introducing yourself: Aha m bụ…, Gịnị bụ aha gị?, Ebee ka ị bi?"],
+   ["ig-pronouns", "Pronouns that follow vowel harmony: m, ị / i, ọ / o, anyị, unu, ha"],
+   ["ig-bu", "bụ: 'to be' for who and what (Abụ m onye nkụzi, Ọ bụ dọkịta)"],
+   ["ig-possession", "Possession: the owner after the noun (aha m, nne m, nna gị)"],
+   ["ig-family", "Family: nna, nne, nwanne, nwa, di, nwunye"],
+   ["ig-questions", "Question words: gịnị, onye, ebee, ole"],
+   ["ig-numbers", "Numbers: otu, abụọ, atọ … iri, iri abụọ, narị"],
+   ["ig-time", "Telling the time: Elekere ole?, elekere atọ"],
+   ["ig-days", "Days, the four market days (Eke, Orie, Afọ, Nkwọ), weeks and months"]
+  ]},
+  {"en": "Verbs and daily life", "items": [
+   ["ig-progressive", "The na- progressive: A na m eri nri, Ọ na-agụ akwụkwọ"],
+   ["ig-di", "dị: how and where something is (Ọ dị mma, Ọ dị n'ụlọ)"],
+   ["ig-routine", "Daily routine and the infinitive i- / ị-: iri, ịga, ịsa ahụ"],
+   ["ig-negation", "Negation with -ghị / -ghi: Ọ dịghị mma, Amaghị m"],
+   ["ig-past", "The past with -rV: Ọ gara ahịa, O riri nri"],
+   ["ig-future", "The future with ga-: Aga m aga, Ọ ga-abịa echi"],
+   ["ig-jobs", "Jobs: onye nkụzi, dọkịta; Gịnị bụ ọrụ gị?"]
+  ]},
+  {"en": "Out and about", "items": [
+   ["ig-food", "Food: nri, mmiri, ji, ofe; Achọrọ m…"],
+   ["ig-shopping", "Buying and selling: Ego ole?, colours and size (ọcha, oji, ukwu, obere)"],
+   ["ig-directions", "Directions: aka nri, aka ekpe, gaa n'ihu"],
+   ["ig-commands", "Commands, requests and permission: Bịa!, Biko, Emela ya!, Enwere m ike…?"],
+   ["ig-health", "Body and health: isi, aka, ụkwụ; Isi na-awa m"]
+  ]}
+ ]
+}

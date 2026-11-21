@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const ROOT = '/home/claude';
+const ROOT = process.env.LANGAPP_ROOT || require('path').join(__dirname, '..', '..');
 const DIR = __dirname;
 const LANG_RE = /^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/;
 

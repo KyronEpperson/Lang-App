@@ -1,0 +1,57 @@
+{
+ "code": "quc",
+ "name": "K’iche’ (Maya)",
+ "self": "K’iche’",
+ "variant": "K’iche’ of Guatemala in the ALMG (Academia de Lenguas Mayas de Guatemala) alphabet, on the Nahualá (Sololá) dialect base used by the source course, which says standard K’iche’ is close to the Nahualá variety",
+ "voice": "quc-GT",
+ "script": "Latin with extra letters: glottalised b’, ch’, k’, q’, t’, tz’; the glottal stop ’; short vowels written with a diaeresis (ä, ë, ï, ö, ü); left to right",
+ "basis": "Lesson order of Tzij (tzij.coerll.utexas.edu, UT Austin COERLL, Nahualá K’iche’): sounds, classroom questions, greetings, possessive prefixes, k’o, 'I am / you are', hometown, yes / no questions, plurals, intransitive verbs, negation, completive aspect, transitive verbs, auxiliaries, prepositions, family, commands, vetatives, distance, numbers, positionals, adjectives; cut to 26 A1 lessons with numbers moved to stage 1.",
+ "src": [
+  "Tzij, UT Austin COERLL, Units page: titles of all 46 units (Tïjonïk) in order with grammar topics, from 1 'Jas kab’an che ub’ixik le K’iche’ ch’ab’al?' (sounds) to 46 (migration); the English glosses were given by the summarising fetch tool, not quoted from the page; a Creative Commons logo appears in the footer but no licence is named; no authors named on that page",
+  "Tzij, 'The language' page: the course is based on the variety of Nahualá, Sololá, and standard K’iche’ is 'quite similar' to it; the page does not name ALMG or any orthography; the lessons are not meant to replace contact with speakers; no authors or licence stated in the text",
+  "Tzij unit 1 (the sounds of K’iche’): vowels a e i o u and the diaeresis forms ä ë ï ö ü, which mark SHORT vowels (chäj 'pine' vs chaj 'ashes'); plain consonants p t ch tz k q s j x m n l r w y; glottalised b’ t’ ch’ tz’ k’ q’; glottal stop ’ (q’e’l); b f d g only in Spanish loans; stress usually on the last syllable"
+ ],
+ "note": "From the sources: the dialect base, the sound system and its spelling, the topic order, and every K’iche’ phrase in the titles (copied from the unit titles as returned by a summarising fetch tool; writers must recheck each against Tzij and with a speaker). ALMG: the lead asked for an ALMG-based course and the letters Tzij uses (glottalised consonants with ’, q vs k, diaeresis for short vowels) look like the ALMG alphabet, but no page I opened names ALMG, so that match is my own knowledge, not confirmed; the lead should confirm with an ALMG-trained teacher whether to write the short-vowel diaeresis (ALMG documents vary on this, own knowledge). Not from the sources, my own judgment: cutting 46 units to 26; moving numbers (unit 23) to lesson 5; putting family after possession and plurals; adding time, market prices and directions as lessons; leaving out passive, antipassive, directionals, incorporated movement, perfect, nominalisation and conditionals (beyond A1), and the Cholq’ij (Maya calendar) unit, which is sacred knowledge that should only be taught with Maya community review. Titles for time, market and family use English where I saw no verified K’iche’ word. The subject / object prefix explanations will be the writers' job: Tzij calls them 'nominal possessive markers' and absolutive markers on verbs; the hardest-list wording is my own summary. Voice: no K’iche’ device voice was checked; assume none, and use recordings by first-language speakers (ideally from Nahualá or a variety the reviewer accepts). Permission and community: Tzij's licence is not stated in the text I read (only a CC logo), so the lead must check the exact licence on the site (its Team / Grant pages were not opened) before adapting any content; K’iche’ is a living language of over a million people with many dialects (own knowledge), so the app must say it teaches a Nahualá-based standard; the finished course should be reviewed by a K’iche’ teacher, ideally through the ALMG K’iche’ linguistic community, including every spelling, recording and cultural note.",
+ "hardest": [
+  "Glottalised consonants (k’, q’, t’, tz’, ch’, b’) and k vs q, which change meaning",
+  "Short vs long vowels (chäj 'pine' vs chaj 'ashes'), shown only by the diaeresis",
+  "Person markers on verbs that differ for intransitive and transitive verbs (kinwarik 'I sleep', kinusik’ij 'she calls me'), and aspect (k- now / habitual, x- completed) instead of tense",
+  "Possessive prefixes that change before vowels (nuwuj 'my book', but w- before a vowel)"
+ ],
+ "stages": [
+  {"en": "Sounds, greetings and first words", "items": [
+   ["quc-sounds", "Sounds: five vowels and the short vowels ä, ë, ï, ö, ü (chäj pine, chaj ashes); k vs q; x and j"],
+   ["quc-glottal", "Glottalised b’, ch’, k’, q’, t’, tz’ and the glottal stop ’ (q’e’l, old)"],
+   ["quc-greetings", "Greetings: Rutzil wachaj; Saqirik iwonojel! (good morning, everyone)"],
+   ["quc-class", "Classroom questions: Jas uwach la’? (what is it?)"],
+   ["quc-numbers", "Numbers: jun, keb’, oxib’ … (Jun tz’i’, keb’ tz’i’, oxib’ tz’i’: one, two, three dogs)"]
+  ]},
+  {"en": "People and things", "items": [
+   ["quc-possession", "Possessive prefixes: Are wa’ nuwuj! (this is my book)"],
+   ["quc-ko", "k’o: there is, have (K’o jun qat’u’y pa ja: we have a pot at home)"],
+   ["quc-i-am", "'I am a teacher, you are a student': In ajtij; at tijoxel"],
+   ["quc-town", "Describing my town: Ub’antajik le nutinamit"],
+   ["quc-yes-no", "Yes / no questions with la: La k’o le anan? (is your mother home?)"],
+   ["quc-plurals", "Plurals: E k’i le aj k’ayib’ pa le k’ayb’al! (there are many merchants at the market); ri achijab’ (the men)"],
+   ["quc-family", "Family words with nu-, a-, u- (nunan, my mother; le anan, your mother)"]
+  ]},
+  {"en": "Verbs and aspect", "items": [
+   ["quc-intransitive", "Intransitive verbs: Kinwar pa le nuch’at. Kinwarik (I sleep on my bed. I sleep)"],
+   ["quc-negation", "Negation na … taj: Na kinwar taj (I am not sleeping); Na weta’m taj (I don't know)"],
+   ["quc-completive", "Completed actions with x-: Xatch’aw ruk’ le awajtij (you spoke with your teacher)"],
+   ["quc-transitive", "Transitive verbs: Kinusik’ij le nunan (my mother calls me)"],
+   ["quc-tajin", "Actions in progress with tajin: tajin kinweta’maj (I am learning)"],
+   ["quc-place", "Where people and things are: pa, ruk’; In k’o pa uk’u’x tinamit (I am in the town centre)"],
+   ["quc-commands", "Commands and 'don't': Chaq’aluj le ne’! (hold the baby!); Mattzaqik! (don't fall!)"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["quc-near-far", "Near and far: La naj le atinamit? (is your town far away?)"],
+   ["quc-clothing", "Clothing and adjectives: Are wa’ le qatz’yaq (this is our clothing); K’ak’ le nupo’t! (my huipil is new)"],
+   ["quc-sitting", "Sitting and standing: Kint’uyi’ (I sit); Chatt’uyuloq! (sit down!)"],
+   ["quc-body", "The body with possessives: nujolom (my head), nuq’ab’ (my hand)"],
+   ["quc-food", "Food: Jas ub’anik le lej (how tortillas are made)"],
+   ["quc-market", "At the market (le k’ayb’al): buying and asking prices"],
+   ["quc-time", "Days and telling the time"]
+  ]}
+ ]
+}

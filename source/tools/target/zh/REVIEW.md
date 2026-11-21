@@ -101,3 +101,18 @@ Saved batch by batch. Categories: WL = wrong language, WT = wrong teaching, PR =
 
 - Wrong Chinese in cards, examples, dialogues and patterns: 0 found. Wrong pinyin from the tool: 2 (出差, 位子), neither in a stored pron; fixed in lexicon.txt. Stored prons rewritten: 0.
 - Read in full: all decks, extras, lesson bodies, checks and practice items; the brief, TARGET-REVIEW.md, PRACTICE-SPEC.md, PHASE2-BRIEF.md (last section), profile §2, §3, §4.12–13, §6.2, §7, §8, §10.3–10.5, §11. Scanned only: the built-in word list entries the course does not use. Not read: profile §1, §4.1–4.11, §5, §6.1, §6.3–6.6, §9, §10.1–10.2, §10.6–10.7.
+
+## Compliments deck (added later)
+
+Files: decks-c.js (deck "Compliments", 15 cards), extra-c.js (11 dialogues, 4 examples, 2 patterns), lexicon-add-C.txt. Load check passes. Every pron is the tool's output, made with lexicon-add-C.txt applied; every pron passes pronPattern.
+
+- **Lexicon merge needed before repron:** respell.js reads only lexicon.txt. Merge lexicon-add-C.txt first: 主意 zhu3yi5, 幽默 you1mo4, 发音 fa1yin1, 标准 biao1zhun3, 过奖 guo4jiang3, 努力 nu3li4. Without it, five cards throw "unknown word".
+- **Native check first:**
+  1. 哪里哪里 is written Nǎlǐ nǎlǐ (the tool's 哪里 = na3li3). In speech it is usually nǎli nǎli; decide whether to add a lexicon line.
+  2. 好主意 is given as zhǔyi. Northern speech often says zhúyi.
+  3. 真香！ as a food compliment: it is also a meme for eating your words. Is the card still the natural "it smells amazing"?
+  4. The reply notes say 哪里哪里 / 过奖了 / 还差得远呢 are the traditional modest replies and that young people often just say 谢谢. Is that balance right?
+  5. 做得很好！ is noted as teacher or boss to a junior. Check that this is how it reads.
+  6. 你真幽默 vs 你真好笑: the note says 好笑 can mean "ridiculous". Confirm that.
+  7. 你穿这件真好看！ as the everyday "that looks great on you".
+- **Politeness:** cards use 你. The cooking card note gives 您做的菜真好吃！ for an older host, and the 过奖了 dialogue uses 您 to a teacher. No gender forms in Chinese.

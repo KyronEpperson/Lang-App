@@ -100,3 +100,15 @@ decks-a 1 · decks-b 6 · extra-a 0 · extra-b 2 · lessons-1 11 · lessons-2 8 
 
 ## Final
 `node tools/target/gen.js id` → 27/27 lessons, 18 decks, 321 cards. `node tools/target/validate.js id` → PASS: all checks OK. `node --check` passes on every file.
+
+## Compliments deck (added later)
+Files: decks-c.js (14 cards), extra-c.js (9 dialogues, 5 examples, 2 patterns). Pron from respell.js, no warnings. Address: Ibu/Bapak for hosts and older people, kamu for friends; each note gives the other form.
+Native check first:
+1. *Wah, kamu jago!*: is *jago* fine in polite everyday speech, or too casual for this deck?
+2. *Terima kasih atas pujiannya.*: natural in speech, or too stiff? (Kept as the polite option; *Ah, biasa saja.* is taught as the usual modest reply.)
+3. *Ah, biasa saja.* and *Belum lancar, masih belajar.* as the culturally expected replies (modest deflection).
+4. *Kamu cocok pakai batik.* as "Batik looks great on you".
+5. *Kamu lucu sekali!* as "You're so funny" to an adult (lucu also means cute).
+6. *Bahasa Indonesianya lancar sekali!*: -nya as the polite "your"; stress capital `een-doh-neh-see-AH-nyah` follows the count-from-the-end rule.
+7. *Rumah Ibu nyaman sekali.* as the guest's "I love your home".
+8. *Ide bagus!* vs *Ide yang bagus!*: is the short form the more natural one?

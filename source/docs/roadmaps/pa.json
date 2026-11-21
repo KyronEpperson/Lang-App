@@ -1,0 +1,58 @@
+{
+ "code": "pa",
+ "name": "Punjabi",
+ "self": "ਪੰਜਾਬੀ",
+ "variant": "Standard Eastern Punjabi of Indian Punjab (Majhi-based standard), written in Gurmukhi; Shahmukhi (Pakistan) is not taught",
+ "voice": "pa-IN",
+ "script": "Gurmukhi (ਗੁਰਮੁਖੀ), left to right, with vowel signs (laga matra), tippi, bindi and addhak; Shahmukhi (Perso-Arabic, right to left, used in Pakistani Punjab) is not taught",
+ "basis": "University of Wisconsin SASLI 2025 Elementary Punjabi syllabus (Gurmukhi first, then to be, questions, agreement, postpositions and oblique, negation, want and need, past, future, comparison, time and routine, compulsion, can, the city), reordered in places, with tone and nasals placed as in MSU's Basic Punjabi chapter 1",
+ "src": [
+  "University of Wisconsin-Madison, SASLI 2025 Elementary Punjabi syllabus (PDF): weekly grammar and topic list and a day-by-day plan for the Gurmukhi week; no required textbook; tone is not mentioned",
+  "Michigan State University open textbook Basic Punjabi (Rinku Kathuria and Rajiv Ranjan): goals of chapters 1 (Gurmukhi script), 2 (Meetings and greetings) and 3 (Family and friends), and section 1.4 Tonal letters in Punjabi; the full table of contents was not visible",
+  "Opened (not a syllabus): a third-party voice catalogue (json2video.com) page listing the Microsoft Azure neural voice pa-IN-OjasNeural"
+ ],
+ "note": "Script: Gurmukhi was chosen because it is the script of Indian Punjab and of most heritage and adult classes in North America and the UK; both sources teach only Gurmukhi. Shahmukhi is not taught. Tone: the SASLI syllabus never mentions tone; MSU's Basic Punjabi teaches it in the script chapter as a property of ਘ ਝ ਢ ਧ ਭ and ਹ (low tone at the start of a word, high tone at the end or after the vowel, level otherwise). At A1 tone is handled the same way: one script lesson that ties tone to those letters, with a few minimal pairs (ਘੋੜਾ / ਕੋੜਾ) and the rule written into spelling, and after that tone is only practised by listening, never marked or drilled as separate tone numbers. Stages 2-4 take their grammar from the SASLI list and mostly its order, with these changes of my own: clock time, having and directions come before the past and future (SASLI has time and the city later) because they are survival topics; the present continuous is not in the SASLI list and is added from common practice; ਸੀ (was) comes in stage 4, later than MSU chapter 2 puts it. The week-to-module mapping in the SASLI PDF was not clear, so even where the order follows it, it is approximate. The split into five script lessons, numbers in stage 2 (MSU puts counting to 100 in chapter 1), the separate lessons on having (ਕੋਲ), directions and food, and all titles are my own judgment and common course practice. Spelling in titles is my own; the standard spelling ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ is used. Text to speech: an Azure neural voice pa-IN-OjasNeural is listed on a third-party catalogue page; Microsoft's own voice list did not load, so it is not confirmed from Microsoft, and other Azure voice names were not verified. Device (iOS / Android) voices for pa-IN were not checked.",
+ "hardest": [
+  "Tone: ਘ ਝ ਢ ਧ ਭ and ਹ are written as letters but heard as low or high pitch (ਘੋੜਾ against ਕੋੜਾ)",
+  "Retroflex ਟ ਠ ਡ ਢ ਣ ੜ against dental ਤ ਥ ਦ ਧ ਨ, and aspirated ਖ ਛ ਠ ਥ ਫ against plain ਕ ਚ ਟ ਤ ਪ",
+  "Gender on every noun, with adjectives and verbs that agree (ਚੰਗਾ ਮੁੰਡਾ, ਚੰਗੀ ਕੁੜੀ)",
+  "Postpositions and the oblique (ਮੁੰਡਾ → ਮੁੰਡੇ ਨੂੰ), then ਨੇ and agreement with the object in the past"
+ ],
+ "stages": [
+  {"en": "Gurmukhi, sounds and greetings", "items": [
+   ["pa-letters-1", "Gurmukhi letters 1: ੳ ਅ ੲ ਸ ਹ, ਕ ਖ ਗ ਘ ਙ, ਚ ਛ ਜ ਝ ਞ"],
+   ["pa-letters-2", "Gurmukhi letters 2: retroflex ਟ ਠ ਡ ਢ ਣ against dental ਤ ਥ ਦ ਧ ਨ; ਪ ਫ ਬ ਭ ਮ; ਯ ਰ ਲ ਵ ੜ"],
+   ["pa-vowels", "Vowel signs: ਕ ਕਾ ਕਿ ਕੀ ਕੁ ਕੂ ਕੇ ਕੈ ਕੋ ਕੌ, and vowels on their own (ਆ ਇ ਈ ਉ ਊ ਏ ਐ ਓ ਔ)"],
+   ["pa-nasal", "Tippi, bindi and addhak (ਮੁੰਡਾ, ਮਾਂ, ਪੱਕਾ), and dotted letters ਸ਼ ਜ਼ ਖ਼ ਗ਼ ਫ਼ ਲ਼"],
+   ["pa-tones", "Tones: low, level, high with ਘ ਝ ਢ ਧ ਭ and ਹ (ਘੋੜਾ, ਕੋੜਾ, ਚਾਹ)"],
+   ["pa-greetings", "Greetings: ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ, ਨਮਸਤੇ, ਜੀ, ਧੰਨਵਾਦ; ਤੂੰ and ਤੁਸੀਂ"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["pa-hona", "Pronouns and ਹੋਣਾ: ਮੈਂ ਹਾਂ, ਤੁਸੀਂ ਹੋ, ਉਹ ਹੈ, ਅਸੀਂ ਹਾਂ"],
+   ["pa-intro", "Introducing yourself: ਮੇਰਾ ਨਾਂ … ਹੈ, ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ?"],
+   ["pa-questions", "ਨਹੀਂ and questions: ਕੀ, ਕੌਣ, ਕਿੱਥੇ, ਕਿਹੜਾ, ਕਿਵੇਂ"],
+   ["pa-gender", "Gender and plurals: ਮੁੰਡਾ / ਮੁੰਡੇ, ਕੁੜੀ / ਕੁੜੀਆਂ"],
+   ["pa-adjectives", "Adjectives that agree: ਚੰਗਾ, ਚੰਗੀ, ਚੰਗੇ; colours"],
+   ["pa-possessive", "ਦਾ / ਦੀ / ਦੇ and ਮੇਰਾ, ਤੁਹਾਡਾ: family"],
+   ["pa-numbers", "Numbers 1–100 and prices: ਕਿੰਨੇ ਦਾ ਹੈ?, ਰੁਪਏ"],
+   ["pa-postpositions", "Postpositions and the oblique: ਵਿੱਚ, ਉੱਤੇ, ਤੋਂ, ਨੂੰ (ਘਰ ਵਿੱਚ, ਮੁੰਡੇ ਨੂੰ)"]
+  ]},
+  {"en": "Daily life", "items": [
+   ["pa-habitual", "Present habitual: ਕਰਦਾ ਹਾਂ, ਕਰਦੀ ਹਾਂ; daily routine"],
+   ["pa-imperative", "Requests and commands: ਆ / ਆਓ, ਬੈਠੋ, ਦੱਸੋ ਜੀ"],
+   ["pa-like-need", "Likes and needs: ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਮੈਨੂੰ ਚਾਹੀਦਾ ਹੈ"],
+   ["pa-food", "Ordering food and the market: ਚਾਹ ਦਿਓ, ਕਿੰਨੇ ਪੈਸੇ?"],
+   ["pa-continuous", "Present continuous: ਕਰ ਰਿਹਾ ਹਾਂ, ਕਰ ਰਹੀ ਹਾਂ"],
+   ["pa-time", "Clock time and days: ਕਿੰਨੇ ਵਜੇ ਹਨ?, ਸਾਢੇ, ਸੋਮਵਾਰ"],
+   ["pa-have", "Having: ਮੇਰੇ ਕੋਲ … ਹੈ"],
+   ["pa-directions", "Directions and transport: ਸਿੱਧਾ, ਸੱਜੇ, ਖੱਬੇ"]
+  ]},
+  {"en": "Past and future", "items": [
+   ["pa-si", "ਸੀ / ਸਨ: was, were, and the past habitual ਕਰਦਾ ਸੀ"],
+   ["pa-past", "The simple past: ਮੈਂ ਗਿਆ, ਮੈਂ ਰੋਟੀ ਖਾਧੀ, and ਨੇ in ਉਸ ਨੇ"],
+   ["pa-future", "The future: ਕਰਾਂਗਾ, ਕਰਾਂਗੀ, ਜਾਵਾਂਗਾ"],
+   ["pa-compare", "Comparing: ਨਾਲੋਂ, ਤੋਂ ਵੱਧ, ਸਭ ਤੋਂ"],
+   ["pa-must-can", "Must and can: ਮੈਨੂੰ ਜਾਣਾ ਪੈਂਦਾ ਹੈ, ਕਰ ਸਕਦਾ ਹਾਂ"]
+  ]}
+ ]
+}

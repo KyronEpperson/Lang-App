@@ -1,0 +1,154 @@
+{
+ "code": "uk",
+ "name": "Ukrainian",
+ "self": "Українська",
+ "variant": "Standard (literary) Ukrainian of Ukraine, in Cyrillic; ви as the polite 'you'; prices in hryvnias",
+ "voice": "uk-UA",
+ "script": "Cyrillic (Ukrainian alphabet, 33 letters, including ґ, є, і, ї and the apostrophe); left to right",
+ "basis": "No syllabus with a grammar order was opened; the order is common course practice, checked against the UCL Ukrainian Level 1 topic and grammar lists and the opening lessons of Shevchuk's Beginner's Ukrainian as scheduled in Columbia's Elementary Ukrainian syllabus",
+ "src": [
+  "UCL SSEES, Ukrainian Level 1 (Beginners) evening course page: ordered topic list (alphabet, greetings, family, professions, food, shopping, restaurant, directions, travel, days, seasons) and grammar list (nouns, gender and cases; present, future and past; adjectives; numerals; pronouns; adverbs; prepositions); textbook Elementary Ukrainian (Yabluko, Ukrainian Catholic University), not opened",
+  "Columbia University, UN 1101 Elementary Ukrainian syllabus 2020-21 (Yuri Shevchuk, textbook Beginner's Ukrainian, 2nd ed.): sample assignments for the first five weeks only, covering lessons 1-4 (letters in groups, family, adjectives and gender, possessives, negation, numerals 0-10, formal and informal talk, nominative, greetings, professions)",
+  "Trinity College Dublin, Complete Beginners Ukrainian Intensive Course (A1, 2026) page: unordered grammar list (gender and number, adjective agreement, pronouns, present and past, introduction to cases, questions, numbers 0-100)",
+  "National University of Kyiv-Mohyla Academy, I. Renchka, Ukrainian for foreign students: grammar tables for levels A1-B2 (2024, PDF): order of the A1-A2 grammar sections (only the first 100,000 of 221,000 characters were summarised); it is in reference-table order with the genitive first, and is not a teaching sequence",
+  "learn-ukrainian.github.io A1 course outline (44 modules; no author or source syllabus named): an unattributed website, not a syllabus, used only as a check on where the cases and tenses fall",
+  "Cambridge Language Centre catalogue entries for Colloquial Ukrainian (Press) and Beginner's Ukrainian (Shevchuk): descriptions only, no contents"
+ ],
+ "note": "No syllabus with a grammar order and no full textbook table of contents was opened for Ukrainian; all sources were read through fetch summaries. The topics come from the UCL lists and stages 1-2 follow the Columbia schedule for Shevchuk's lessons 1-4 (letters in groups, then gender, adjectives, possessives, negation, numbers); everything after that, including the case order (locative, accusative, genitive, dative, instrumental), the placing of the tenses and aspect, and all titles, is common course practice and my own judgment. Dependency choices: prices (гривня, гривні, гривень), Я з Америки and Мене звати are taught as fixed phrases before the cases they use; У мене є comes after the genitive; directions with в / на come after both the locative and the accusative; Мені подобається is in the dative lesson; the vocative is met only in greetings (пане Іване); clock time and days come after both the locative (о котрій) and the accusative (у середу). Spelling in titles is my own.",
+ "hardest": [
+  "и against і, soft consonants with ь, and the apostrophe (м'ясо)",
+  "Seven cases, with endings on nouns, adjectives and pronouns",
+  "Numbers that change the noun's case: одна гривня, дві гривні, п'ять гривень",
+  "Aspect pairs (робити / зробити) and free, moving stress"
+ ],
+ "stages": [
+  {
+   "en": "Script, sounds and greetings",
+   "items": [
+    [
+     "uk-letters-1",
+     "Cyrillic I: familiar letters (а, е, к, м, о, т) and false friends (в, н, р, с, у, х); stress"
+    ],
+    [
+     "uk-letters-2",
+     "Cyrillic II: б, г, ґ, д, ж, з, л, п, ф, ц, ч, ш, щ"
+    ],
+    [
+     "uk-letters-3",
+     "Cyrillic III: и against і, є, ї, й, ю, я, ь and the apostrophe (м'ясо)"
+    ],
+    [
+     "uk-greetings",
+     "Greetings: Привіт, Добрий день, Дякую, До побачення; ти and ви; пане Іване"
+    ]
+   ]
+  },
+  {
+   "en": "First sentences",
+   "items": [
+    [
+     "uk-tse",
+     "Це …: 'this is', with no 'is' (Це книжка, Я студент)"
+    ],
+    [
+     "uk-intro",
+     "Introducing yourself: Мене звати …, Як вас звати?, Я з Америки"
+    ],
+    [
+     "uk-gender",
+     "Gender of nouns: він, вона, воно (стіл, книжка, вікно)"
+    ],
+    [
+     "uk-plural",
+     "Plurals: столи, книжки, вікна"
+    ],
+    [
+     "uk-possessive",
+     "Possessive pronouns and family: мій брат, моя сестра, моє місто, мої батьки; твій, ваш"
+    ],
+    [
+     "uk-adjectives",
+     "Adjectives that agree: новий, нова, нове, нові"
+    ],
+    [
+     "uk-questions",
+     "Questions and negation: хто, що, де, як, чи; не"
+    ],
+    [
+     "uk-present",
+     "Present tense, two conjugations: читати (читаю), говорити (говорю)"
+    ],
+    [
+     "uk-numbers",
+     "Numbers 0–100 and prices: Скільки коштує? одна гривня, дві гривні, п'ять гривень"
+    ]
+   ]
+  },
+  {
+   "en": "The cases",
+   "items": [
+    [
+     "uk-locative",
+     "Locative: where, with у / в and на (у місті, на роботі)"
+    ],
+    [
+     "uk-accusative",
+     "Accusative: objects and 'to' (Я читаю книжку, Я йду в школу)"
+    ],
+    [
+     "uk-time",
+     "Time and days: Котра година?, О котрій?, у понеділок, у середу"
+    ],
+    [
+     "uk-food",
+     "Ordering food: Можна каву, будь ласка? Рахунок, будь ласка"
+    ],
+    [
+     "uk-genitive",
+     "Genitive: of, from and 'no' (чашка кави, з Києва, немає часу)"
+    ],
+    [
+     "uk-have",
+     "Having: У мене є …, У мене немає …"
+    ],
+    [
+     "uk-dative",
+     "Dative: to whom, liking and age (Мені подобається, Мені двадцять років)"
+    ],
+    [
+     "uk-instrumental",
+     "Instrumental: with, and jobs (кава з молоком, Я працюю лікарем)"
+    ],
+    [
+     "uk-directions",
+     "Directions and transport: прямо, ліворуч, праворуч; автобусом, на метро"
+    ]
+   ]
+  },
+  {
+   "en": "Verbs in time",
+   "items": [
+    [
+     "uk-past",
+     "Past tense: читав, читала, читало, читали"
+    ],
+    [
+     "uk-future",
+     "Future tense: буду читати and читатиму"
+    ],
+    [
+     "uk-aspect",
+     "Aspect pairs: робити / зробити, писати / написати"
+    ],
+    [
+     "uk-motion",
+     "Going on foot and by transport: йти / ходити, їхати / їздити"
+    ],
+    [
+     "uk-modals",
+     "Can, want, must: можу, хочу, мені треба"
+    ]
+   ]
+  }
+ ]
+}

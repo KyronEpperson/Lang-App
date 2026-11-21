@@ -1,0 +1,58 @@
+{
+ "code": "to",
+ "name": "Tongan", "self": "Lea faka-Tonga",
+ "variant": "Standard Tongan with macrons (toloi) and fakauʻa written; everyday (commoners') speech level, with the chiefly and royal levels introduced for recognition",
+ "voice": "to-TO",
+ "script": "Latin with extra letters: long vowels ā, ē, ī, ō, ū (toloi) and the fakauʻa ʻ (glottal stop, written here as U+02BB, not an apostrophe); ng is one letter; 16 letters in all; left to right",
+ "basis": "Stage 1 follows the Peace Corps Tonga 2009 'Introduction to the Tongan Language' lessons 1–7; the grammar order follows a commercial Basic Tongan course's lecture list (Udemy, Joshua Tanner); topics are checked against the NZ Tongan curriculum guidelines",
+ "src": [
+  "Peace Corps Tonga Training Unit, Introduction to the Tongan Language (lesson packet with audio CD, 2009), files.peacecorps.gov: lessons 1–11 (introduction, alphabet, pronunciation, greetings, useful phrases, numbers, days and months, dialogues); it says it does not teach grammar; no copyright statement found",
+  "NZ Ministry of Education Tongan language curriculum material, PDF on nzcurriculum.tki.org.nz (published 2000 by Learning Media; organised as topic units such as Ko ʻAna Koe?; exact title not confirmed in the part read): level 1–3 topics and objectives, the alphabet and fakauʻa notes, and the four speech levels (first 100,000 of about 177,000 characters read). Text and drawings copyright © Crown 2000, all rights reserved",
+  "Udemy, Basic Tongan Language (instructor Joshua Tanner): the 16 lecture titles (alphabet and greetings, vocabulary, tense markers, preposed pronouns, postposed pronouns, prepositions, ʻikai, questions, pluralizers, ko e, intransitive and transitive sentences, preposed possessive pronouns); a commercial video course, not a syllabus, and only its lecture list was read",
+  "University of Auckland TONGAN 101/101G Tongan Language 1: 2025 course outline (learning outcomes, incl. speech levels and possessive pronouns) and 2019 Canvas syllabus (weekly themes; suggested books Churchward, Shumway, Tuʻinukuafe)",
+  "NZ Ministry of Education page for Faufaua! An introduction to Tongan (unit titles only)",
+  "Not opened: Shumway's Intensive Course in Tongan and Churchward's Tongan Grammar"
+ ],
+ "note": "No university or textbook grammar order was opened. Stage 1 is the Peace Corps packet's order; stages 2–3 follow the Udemy lecture order (tense markers, pronouns before and after the verb, prepositions, ʻikai, questions, plurals, ko e, intransitive then transitive sentences, possessives), which I judged reasonable but which is one teacher's sequence, not an institution's. The family, food, shopping, time, directions and likes lessons and the respect-language lesson come from the NZ guidelines and the Auckland outcomes, placed by my own judgment. The guidelines PDF shows long vowels with grave accents; I wrote macrons as the lead asked. Every Tongan word in the titles was spelled by me or converted from the sources, and should be checked by a speaker. Device voices for to are not checked.",
+ "hardest": [
+  "The fakauʻa and long vowels change meaning (kākā 'cheat', kaka 'climb'), and the stress moves before e / he",
+  "Two sets of pronouns: short ones before the verb (ʻoku ou) and full ones after it (au)",
+  "Marking who does what: ʻe for the doer and ʻa for the thing in verb sentences",
+  "Speech levels: different words for the king, chiefs and everyone else"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["to-sounds", "Alphabet and sounds: 16 letters, ng, the fakauʻa ʻ, and long vowels (kākā / kaka)"],
+   ["to-stress", "Stress: on the second-to-last vowel, and the shift before e / he (ʻi he fale)"],
+   ["to-greetings", "Greetings and farewells: Mālō e lelei, Fēfē hake? Sai pē, mālō; ʻAlu ā / Nofo ā"],
+   ["to-phrases", "Useful phrases: Mālō ʻaupito, Kātaki, Ko e hā e lea faka-Tonga ki he…?"],
+   ["to-intro", "Introducing yourself: Ko hai ho hingoa? Ko hoku hingoa ko…"],
+   ["to-numbers", "Numbers 0–100 and money: taha, ua, tolu … hongofulu; paʻanga"],
+   ["to-days", "Days and dates: Mōnite, Tūsite … Sāpate; Ko e ʻaho hā eni?"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["to-tense", "Tense markers: ʻoku (present), naʻe (past), ʻe (future)"],
+   ["to-preposed", "Pronouns before the verb: ʻoku ou, ʻoku ke, ʻoku ne"],
+   ["to-postposed", "Pronouns after the verb: au, koe, ia; kitautolu and kimautolu"],
+   ["to-prepositions", "Prepositions: ʻi (in, at), ki (to), mei (from)"],
+   ["to-ikai", "Negation: ʻIkai (no), and ʻoku ʻikai before the verb"],
+   ["to-plural", "Plurals: ngaahi, ʻū, kau (ngaahi fale, kau faiako)"],
+   ["to-ko-e", "Naming things with ko e: Ko e fale eni, Ko e hā eni?"],
+   ["to-questions", "Questions: ko e hā, ko hai, ʻi fē, ʻe fiha"]
+  ]},
+  {"en": "Building sentences", "items": [
+   ["to-intransitive", "Verb sentences with no object: ʻOku ʻalu ʻa Sione ki kolo"],
+   ["to-transitive", "Verb sentences with an object: ʻOku kai ʻe Sione ʻa e ika"],
+   ["to-possessive", "Possessives: hoku / heʻeku (my), ho / hoʻo (your), hono / heʻene (his, her)"],
+   ["to-family", "Family: tamai, faʻē, tokoua, tuongaʻane, tuofefine"],
+   ["to-likes", "Wants and likes: ʻOku ou saiʻia ʻi he…, ʻOku ou fiemaʻu…"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["to-food", "Food and meals: ʻOku ou fiekaia, Haʻu ʻo kai"],
+   ["to-shopping", "Shopping and prices: totongi, paʻanga and seniti"],
+   ["to-time", "Telling the time and the day's routine: taimi, pongipongi, hoʻatā, efiafi"],
+   ["to-directions", "Asking the way: ʻI fē ʻa e…?, ofi, mamaʻo"],
+   ["to-respect", "Speech levels: everyday words and the chiefly and royal ones (haʻu, meʻa)"]
+  ]}
+ ]
+}

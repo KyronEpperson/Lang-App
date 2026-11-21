@@ -1,0 +1,54 @@
+{
+ "code": "ro",
+ "name": "Romanian", "self": "română",
+ "variant": "Standard Romanian (Romania)",
+ "voice": "ro-RO",
+ "script": "Latin with extra letters: ă, â, î, ș, ț (comma below); left to right",
+ "basis": "Durham University Romanian Beginners Steps 1–2 content summary, trimmed to A1",
+ "src": [
+  "Durham University Centre for Foreign Language Study, 'Romanian language courses content summary' (PDF): topics and grammar for Beginners Step 1 (diacritics, first conjugation, a fi / a avea, pronouns, gender, articles, agreement) and Step 2 (accusative, dative, genitive, vocative, past tenses)"
+ ],
+ "note": "Stage 1 and 2 follow Durham Step 1, and stage 3 and 4 take the A1 parts of Step 2. Durham's Step 2 teaches four past tenses and the full genitive and dative; this roadmap keeps only perfectul compus and the fixed dative of îmi place, which is my judgment of A1 scope. The split into lessons, the să + verb and o să future lessons (from Durham's later steps) and all titles are common course practice and my own judgment.",
+ "hardest": [
+  "The definite article stuck to the end of the noun: casa, studentul",
+  "Neuter nouns that are masculine in the singular and feminine in the plural",
+  "Irregular plurals (-i, -e, -uri) and sound changes in them",
+  "The vowels ă and â / î, which English does not have"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["ro-sounds", "Alphabet and sounds: ă, â / î, ș, ț"],
+   ["ro-spelling", "Spelling rules: ce / ci, ge / gi, che / chi, ghe / ghi"],
+   ["ro-greetings", "Greetings: bună ziua, salut, la revedere, mulțumesc"],
+   ["ro-polite", "Polite 'you': tu, dumneavoastră, and domnul / doamna"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["ro-fi", "a fi: sunt, ești, este… and Ce este asta?"],
+   ["ro-intro", "Introducing yourself: Mă numesc…, Sunt din…"],
+   ["ro-numbers", "Numbers 0–100: unu / una, doi / două"],
+   ["ro-gender", "Three genders: un / o, and neuter nouns"],
+   ["ro-articles", "The article on the end: un student / studentul, o casă / casa"],
+   ["ro-plurals", "Plurals: -i, -e, -uri"],
+   ["ro-adjectives", "Adjectives after the noun: un băiat bun, o fată bună"],
+   ["ro-questions", "Question words: ce, cine, unde, când, cât"]
+  ]},
+  {"en": "Everyday verbs", "items": [
+   ["ro-present-a", "Present tense of -a verbs: a lucra, a cânta"],
+   ["ro-avea", "a avea: have, and age (Am 25 de ani)"],
+   ["ro-present-other", "Present tense of -ea, -e, -i, -î verbs: a vedea, a merge, a dormi, a coborî"],
+   ["ro-this-that", "This and that: acesta / aceasta, acela / aceea"],
+   ["ro-family", "Family, jobs and possessives: fratele meu, sora mea"],
+   ["ro-prices", "Numbers to 1000 and prices: Cât costă? lei, bani"],
+   ["ro-ordering", "Ordering food: Aș dori…, Vreau…, Nota, vă rog"],
+   ["ro-objects", "Object pronouns: îl, o, îi, le; and pe for people"]
+  ]},
+  {"en": "Time, place and the past", "items": [
+   ["ro-likes", "Liking: îmi place, îmi plac"],
+   ["ro-time", "Time and days: Cât e ceasul? luni, marți"],
+   ["ro-directions", "Directions: la dreapta, la stânga, drept înainte"],
+   ["ro-sa", "să + verb: vreau să, pot să, trebuie să"],
+   ["ro-past", "Past: perfectul compus (am mâncat, am fost)"],
+   ["ro-future", "Future: o să + verb"]
+  ]}
+ ]
+}

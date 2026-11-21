@@ -82,3 +82,13 @@ Cross-file: Spain notes only in greetings, present, preterite; no "tilde"; ser /
 8. «la yipeta» and «el motoconcho» (Dominican)
 9. «Se vende carros» described as common on signs but not standard
 10. Cibao «poique» and Santo Domingo «polque» in the caribbean body
+
+## Compliments deck (added later)
+Files: decks-c.js (deck "Compliments", 14 cards), extra-c.js (8 dialogues, 5 examples, 2 patterns). Every pron is the unchanged output of respell.js; the tool printed no warnings and no output looked wrong. Cards use tú; every note gives the usted form where the verb changes, and the -a form where the adjective changes for a woman.
+Native speaker, check first:
+1. «¡Qué bien lo haces!» glossed "You're really good at this!" (chosen over «Eres muy bueno para esto»).
+2. «Eres muy chistoso / chistosa» as the everyday Mexican "You're really funny" (note says gracioso is understood everywhere).
+3. «Eres muy trabajador / trabajadora» described as a warm, common compliment in Mexico.
+4. «Gracias, pero todavía me falta mucho» as the usual modest reply to praise of your Spanish.
+5. «Gracias, qué amable» described as the normal reply to a compliment in Latin America (accept and thank).
+6. «Me da mucho gusto» in the «Todo estuvo delicioso» dialogue, and «la chamarra» (Mexican "jacket") in the «Te queda muy bien» dialogue.

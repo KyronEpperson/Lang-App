@@ -1,0 +1,28 @@
+{
+  "native": "ru",
+  "nativeNameEn": "Russian",
+  "name": {
+    "en": "English",
+    "ru": "Английский"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": "[\\u0400-\\u04ff]",
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "pronScript": "ˈ",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "артикл|множественн|исчисляем",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Что стоит на месте пропуска?",
+    "typeHintCue": " — из этих слов"
+  },
+  "lessonOrder": {
+    "after": {
+      "runglish": "smalltalk",
+      "articles-3": "passive"
+    }
+  }
+}

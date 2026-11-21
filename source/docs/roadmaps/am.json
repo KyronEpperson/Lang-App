@@ -1,0 +1,57 @@
+{
+ "code": "am",
+ "name": "Amharic",
+ "self": "አማርኛ",
+ "variant": "Standard Amharic (Ethiopia, Addis Ababa usage) in Ge'ez (fidel) script",
+ "voice": "am-ET",
+ "script": "Ge'ez (Ethiopic) script, the fidel: an abugida of about 33 base letters, each in seven vowel orders, plus -wa forms; left to right",
+ "basis": "Grammar order of FSI Amharic Basic Course units 1-12 (sounds; the definite -u; pronouns, ነው and plurals; possessive endings, 'have' አለኝ, prepositions; perfective; infinitive and imperfective; negatives; time; imperative), with the topics of University of Florida AHM1130 Beginning Amharic (greetings, introductions, classroom, numbers, time and prices, likes, directions, restaurant)",
+ "src": [
+  "FSI Amharic Basic Course (Foreign Service Institute), contents page hosted by multilingualbooks.com: the grammar note headings of units 1-20",
+  "University of Florida, AHM1130 Beginning Amharic syllabus (Fall 2020 and the Hagos section): weekly themes; textbooks Kebede Gessesse, Basic Amharic: A Teaching Manual (2012), Bezza Ayalew, Let's Speak Amharic (2005), Appleyard, Colloquial Amharic (optional)",
+  "ELIAS online Amharic course page (Let's Learn Amharic): lesson list, starting with a lesson on the Ge'ez alphabet; themes only"
+ ],
+ "note": "The FSI course is taught in transcription and has no script lessons, so the fidel stage (its order, the rows in the traditional ሀ ለ ሐ መ order, the letters that sound the same and the -wa forms) is common course practice, backed only by ELIAS starting with the alphabet. The grammar order follows FSI units 1-12 and stops there (relative clauses and causatives are beyond A1); demonstratives (FSI unit 14) are moved earlier. The topics and their order (greetings, introductions, classroom, numbers, time, prices, likes, directions, restaurant) follow UF AHM1130. Questions, family and the -ን object are placed by my own judgment. All Amharic forms in the titles are from my own knowledge. The fsi-language-courses.org Amharic page was opened but not used: its unit list does not match the FSI contents.",
+ "hardest": [
+  "The fidel: about 33 letters in seven vowel orders (over 200 shapes), with several letters that sound the same",
+  "The ejective consonants ቀ, ጠ, ጨ, ጰ, ጸ, and doubled consonants that the script does not show",
+  "Verbs built with prefixes and suffixes that mark person and gender (እሄዳለሁ, ትሄዳለህ, ትሄጃለሽ)",
+  "Verb-final word order and 'you' that changes for man or woman (አንተ / አንቺ)"
+ ],
+ "stages": [
+  {"en": "Fidel and greetings", "items": [
+   ["am-orders", "How the fidel works: a consonant in seven vowel orders (በ ቡ ቢ ባ ቤ ብ ቦ)"],
+   ["am-fidel-1", "Fidel rows ሀ to ቸ: ሀ ለ ሐ መ ሠ ረ ሰ ሸ ቀ በ ቨ ተ ቸ"],
+   ["am-fidel-2", "Fidel rows ኀ to ዠ: ኀ ነ ኘ አ ከ ኸ ወ ዐ ዘ ዠ"],
+   ["am-fidel-3", "Fidel rows የ to ፐ, with the ejectives ጠ ጨ ጰ ጸ: የ ደ ጀ ገ ጠ ጨ ጰ ጸ ፀ ፈ ፐ"],
+   ["am-reading", "Letters that sound the same (ሀ ሐ ኀ ኸ, ሰ ሠ, አ ዐ, ጸ ፀ), -wa forms (ቧ ሏ ኳ ጓ) and reading words"],
+   ["am-greetings", "Greetings: ሰላም, ጤና ይስጥልኝ, እንደምን አደርክ? / አደርሽ?, አመሰግናለሁ"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["am-intro", "Introducing yourself: ስሜ … ነው, ስምህ ማን ነው? / ስምሽ ማን ነው?"],
+   ["am-be", "Pronouns and 'to be': እኔ, አንተ, አንቺ, እሱ, እሷ with ነኝ, ነህ, ነሽ, ነው, ናት"],
+   ["am-definite", "'The' and plurals: ቤቱ, ቤቶች"],
+   ["am-this-that", "This and that, and the classroom: ይህ, ይህች, ያ; መጽሐፍ, ብዕር"],
+   ["am-questions", "Question words: ምን, ማን, የት, መቼ, ስንት, እንዴት"],
+   ["am-numbers", "Numbers: አንድ, ሁለት … አስር, ሃያ, መቶ"],
+   ["am-possessive", "Possessive endings: ቤቴ, ቤትህ, ቤትሽ, ቤቱ, ቤቷ"],
+   ["am-have", "Having: አለኝ, የለኝም"],
+   ["am-prepositions", "Prepositions: በ-, ከ-, ለ-, ወደ (ከአሜሪካ ነኝ)"]
+  ]},
+  {"en": "Verbs", "items": [
+   ["am-past", "Past tense (perfective): ሄድኩ, ሄድክ, ሄደ, ሄደች; the object ending -ን (ቡናውን ጠጣሁ)"],
+   ["am-present", "Present and future (imperfective): እሄዳለሁ, ትሄዳለህ, ይሄዳል"],
+   ["am-negative", "Negatives: አልሄድኩም, አልሄድም"],
+   ["am-want", "The infinitive and wanting: መሄድ, ቡና እፈልጋለሁ"],
+   ["am-commands", "Commands and please: ና, ነይ, ኑ, ተቀመጥ; እባክህ / እባክሽ"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["am-time", "Ethiopian time and days: ስንት ሰዓት ነው?, the day counted from 6 a.m., ሰኞ, ማክሰኞ"],
+   ["am-prices", "Prices at the market: ዋጋው ስንት ነው?, ብር"],
+   ["am-likes", "Likes and dislikes: እወዳለሁ, አልወድም"],
+   ["am-family", "Family: አባት, እናት, ወንድም, እህት"],
+   ["am-restaurant", "At a restaurant: እንጀራ, ቡና, ውሃ, ሂሳብ"],
+   ["am-directions", "Directions: ወደ ቀኝ, ወደ ግራ, ቀጥታ; ሆቴሉ የት ነው?"]
+  ]}
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "code": "om",
+ "name": "Oromo",
+ "self": "Afaan Oromoo",
+ "variant": "Western-Central Oromo (Wollega and Shewa usage, the standard of media and schools in Oromia) in Qubee Latin script",
+ "voice": "om-ET",
+ "script": "Latin (Qubee) with c, q, x and ph for ejectives, ch, dh, ny, sh as digraphs, ' (hudhaa) for the glottal stop, and doubled letters for long vowels and long consonants; left to right",
+ "basis": "Peace Corps Ethiopia, Oromo for Beginners (Dejenie Leta, 1975, Western Oromo of Wollega, Illubabor and Kaffa): greetings, pronouns, possessive endings, numbers, food and drink, imperatives, days, months and time, family, transport, adjectives and colours, prepositions, directions, the market, states of being, with 'to be' and verb conjugation in the appendix",
+ "src": [
+  "Peace Corps, Oromo for Beginners by Dejenie Leta (Awassa, 1975; ERIC ED226615), table of contents and grammatical appendix headings, opened as a scanned PDF through a web reader"
+ ],
+ "note": "The source is from 1975, before Qubee was adopted, and the scan is damaged, so no Oromo spelling was taken from it: every Oromo form in the titles is in modern Qubee from my own knowledge. The variety follows the source (Western, Wollega), which is close to the Central standard used in schools and media. The topic order (greetings, pronouns, possessives, numbers, food, commands, days and time, family, transport, adjectives and colours, postpositions, directions, the market) follows the source loosely. The source teaches grammar mostly in an appendix, so the grammar lessons (dha and miti, the subject ending -n / -ni, present, negative and past verb forms, jira, question words) and their order are common course practice and my own judgment. I moved food, time and commands after the first verb lessons so they can use verbs. The split into 23 lessons is mine.",
+ "hardest": [
+  "Ejective sounds written c, q, x and ph, and the glottal stop written '",
+  "Long vowels and long consonants that change meaning, written doubled (lafa / laafaa)",
+  "Verb-final word order, with verb endings for person and gender (ni deema, ni deemti)",
+  "The subject form of nouns: maqaa becomes maqaan, nama becomes namni"
+ ],
+ "stages": [
+  {"en": "Sounds, Qubee and greetings", "items": [
+   ["om-qubee", "Qubee: the alphabet, with c, q, x and ph for ejectives and ch, dh, ny, sh"],
+   ["om-length", "Long vowels, double consonants and the glottal stop: lafa / laafaa, taa'i"],
+   ["om-greetings", "Greetings: Akkam?, Nagaa, Akkam bulte?, Galatoomi, Nagaatti"],
+   ["om-pronouns", "Pronouns: ani, ati, inni, isheen, nuti, isin, isaan"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["om-intro", "Introducing yourself: Maqaan koo … dha, Maqaan kee eenyu?, Eessaa dhufte?"],
+   ["om-dha", "'To be' with dha, and miti: Ani barsiisaa dha, Ani barsiisaa miti"],
+   ["om-subject", "The subject ending -n / -ni: maqaa → maqaan, nama → namni"],
+   ["om-possessive", "Possessives: koo, kee, isaa, ishee (maqaa koo, mana kee)"],
+   ["om-questions", "Question words: maal, eenyu, eessa, yoom, meeqa, akkam"],
+   ["om-numbers", "Numbers: tokko, lama, sadii … kudhan, digdama, dhibba"],
+   ["om-family", "Family: abbaa, haadha, obboleessa, obboleettii"]
+  ]},
+  {"en": "Verbs", "items": [
+   ["om-present", "Present tense: nan deema, ni deemta, ni deema, ni deemti"],
+   ["om-negative", "Negative present: hin deemu"],
+   ["om-past", "Past tense: deeme, deemte, and the negative hin deemne"],
+   ["om-commands", "Commands: kottu, taa'i, deemi, and the plural kottaa"],
+   ["om-place", "Where things are: keessa, irra, jala, -tti, and jira (there is)"],
+   ["om-want", "Wanting: Buna nan barbaada"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["om-food", "Food and drink: buddeena, bishaan, aannan, buna"],
+   ["om-time", "Days and time: Wiixata, Kibxata, Roobii; Sa'aatii meeqa?"],
+   ["om-describing", "Adjectives after the noun: mana guddaa, xiqqaa, gaarii; colours diimaa, adii, gurraacha"],
+   ["om-market", "At the market: Gatiin isaa meeqa?, qarshii"],
+   ["om-directions", "Directions and transport: mirga, bitaa, kallattiin; konkolaataa"],
+   ["om-feelings", "How you feel: hunger, thirst, tiredness and health"]
+  ]}
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "code": "ptpt",
+ "name": "Portuguese (Portugal)",
+ "self": "Português (Portugal)",
+ "variant": "European Portuguese of Portugal (Lisbon standard)",
+ "voice": "pt-PT",
+ "script": "Latin with extra letters: ç and the accented vowels á à â ã é ê í ó ô õ ú; left to right",
+ "basis": "NOVA FCSH (fcsh.unl.pt) A1 curricular unit sheets (Written and Oral Communication in Portuguese A1, plus the grammar unit), cross-checked with the Ensino Português no Estrangeiro Programa Nível A1 (DSLC 2012, QuaREPE)",
+ "src": [
+  "NOVA FCSH 'Programas A1' PDF (curricular unit sheets: Comunicação Escrita em Português A1, Comunicação Oral em Português A1, and the grammar unit, headed A2 but framed at A1): contents, topics and European Portuguese phonetics",
+  "Ensino Português no Estrangeiro: Programa Nível A1 (Direção de Serviços de Língua e Cultura, November 2012, QuaREPE): themes, functions and grammar contents",
+  "Lidel catalogue page for Passaporte para Português 1 (Livro do Aluno): opened, but it gives only the book's structure (A1/A2, 40 units), not a table of contents"
+ ],
+ "note": "The two programmes fix what A1 covers but list it by category, not as a teaching sequence. The lesson order, the split into stages, the two sounds lessons, the forms-of-address lesson (tu vs o senhor / a senhora, with você used with care, as is usual in Portugal), the survival lessons (numbers and prices, time, ordering food, directions, transport) and the example words in the titles are common course practice and my own judgment, using the app's Brazilian pt roadmap as a model and naming the European forms where they differ from Brazil. Spelling follows the 1990 Orthographic Agreement as used in Portugal. No textbook table of contents (Português XXI, Passaporte para Português) or the Referencial Camões PLE itself could be opened.",
+ "hardest": [
+  "Hearing European Portuguese: unstressed vowels are reduced or dropped and final s sounds like 'sh', so words blur together",
+  "Nasal vowels and diphthongs (ão, õe, ãe, em) and the sounds lh and nh",
+  "Choosing 'you' (tu, o senhor / a senhora, você) and the verb form that goes with it",
+  "ser vs estar, and the position of me / te / se (chamo-me but não me chamo)"
+ ],
+ "stages": [
+  {
+   "en": "Sounds and first words",
+   "items": [
+    [
+     "ptpt-vowels",
+     "Sounds of Portugal: reduced unstressed vowels (pequeno, telefone) and final s as 'sh' (dois, mais)"
+    ],
+    [
+     "ptpt-nasals",
+     "Spelling and nasal sounds: ão, ões, ãe, em, lh, nh, ç, and the written accents"
+    ],
+    [
+     "ptpt-greetings",
+     "Greetings and courtesy: Olá, Bom dia, Boa tarde, Obrigado / Obrigada, Se faz favor, Desculpe"
+    ],
+    [
+     "ptpt-address",
+     "Saying 'you': tu with friends, o senhor / a senhora with others, and você used with care"
+    ],
+    [
+     "ptpt-intro",
+     "Introducing yourself: Chamo-me…, Sou de…, Moro em…, Muito prazer"
+    ]
+   ]
+  },
+  {
+   "en": "First sentences",
+   "items": [
+    [
+     "ptpt-ser",
+     "ser: eu sou, tu és, ele / ela / o senhor é, for nationality and job"
+    ],
+    [
+     "ptpt-articles",
+     "Gender, plural and articles: o / a, os / as, um / uma"
+    ],
+    [
+     "ptpt-present",
+     "Present tense of -ar, -er, -ir verbs, with the tu form (tu falas, tu comes, tu abres)"
+    ],
+    [
+     "ptpt-questions",
+     "Questions with é que and negation with não: Onde é que moras?, O que é que fazes?"
+    ],
+    [
+     "ptpt-numbers",
+     "Numbers and prices: dezasseis, dezassete, dezanove, euros e cêntimos, Quanto custa?"
+    ],
+    [
+     "ptpt-estar",
+     "estar, and ser vs estar: Estou cansado, O café está quente"
+    ],
+    [
+     "ptpt-ter-haver",
+     "ter and há: Tenho dois irmãos, Há uma farmácia aqui perto?"
+    ],
+    [
+     "ptpt-family",
+     "Family and possessives with the article: o meu pai, a minha mãe, os teus irmãos"
+    ],
+    [
+     "ptpt-adjectives",
+     "Adjectives and demonstratives: uma casa pequena, este / esse / aquele"
+    ]
+   ]
+  },
+  {
+   "en": "Everyday life",
+   "items": [
+    [
+     "ptpt-irregular",
+     "Irregular present: ir, fazer, querer, poder, ver, dar"
+    ],
+    [
+     "ptpt-contractions",
+     "Contractions: no, na, do, da, ao, à (Moro no Porto, Vou à praia)"
+    ],
+    [
+     "ptpt-time",
+     "Telling the time and days: Que horas são?, São duas e meia, à uma, às três, segunda-feira"
+    ],
+    [
+     "ptpt-progressive",
+     "estar a + infinitive for 'right now': Estou a trabalhar (Brazil: estou trabalhando)"
+    ],
+    [
+     "ptpt-routine",
+     "Daily routine and clitic position: levanto-me, tomo o pequeno-almoço, but não me levanto"
+    ],
+    [
+     "ptpt-home",
+     "Home and things: a casa, a cozinha, a casa de banho, o telemóvel"
+    ],
+    [
+     "ptpt-likes",
+     "Likes and reasons: gostar de (Gosto do mar), preferir, e, mas, ou, porque"
+    ],
+    [
+     "ptpt-food",
+     "Ordering food and drink: Queria uma bica, um galão, A conta, se faz favor"
+    ],
+    [
+     "ptpt-city",
+     "Around town: Onde fica…?, perto de, ao lado de, em frente de, Onde é a casa de banho?"
+    ]
+   ]
+  },
+  {
+   "en": "Getting around and talking about more",
+   "items": [
+    [
+     "ptpt-transport",
+     "Transport: de autocarro, de comboio, de metro, um bilhete para Lisboa"
+    ],
+    [
+     "ptpt-directions",
+     "Directions and the imperative: Vire à esquerda, Siga em frente (tu: vira, segue), Onde fica a estação?"
+    ],
+    [
+     "ptpt-plans",
+     "Plans and obligations: ir + infinitive (Vou visitar o Porto), ter de, poder, dever"
+    ],
+    [
+     "ptpt-past",
+     "The past: pretérito perfeito of regular verbs and ser, estar, ir, fazer (falei, comi, fui, estive, fiz)"
+    ]
+   ]
+  }
+ ]
+}

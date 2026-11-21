@@ -1,0 +1,29 @@
+{
+  "native": "de",
+  "reference": "es",
+  "nativeNameEn": "German",
+  "name": {
+    "en": "English",
+    "de": "Englisch"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "standingRule": {
+    "kind": "verb-core",
+    "keywords": "Subjekt|Hilfsverb|(?:dritte[nr]?|3\\.) Person|Übereinstimm|Kongruenz",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Was gehört in die Lücke?",
+    "typeHintCue": " – benutze diese Wörter",
+    "cueTest": "[äöüßÄÖÜ„]|\\b([Dd]er|[Dd]as|[Uu]nd|[Ii]st|[Ee]in|[Ee]ine|[Ee]inen|[Ee]inem|[Ee]iner|[Nn]icht|[Mm]it|[Ii]ch|[Dd]u|[Ss]ie|[Ww]ir|[Ww]ie|[Ww]o|[Ww]elche[rsmn]?|[Bb]edeutet|[Hh]eißt|[Ss]agt|[Ss]agst|[Pp]asst|[Ff]ehlt|[Ss]atz|[Ww]ort|[Aa]ntwort|[Rr]ichtige?|[Ff]rage|[Ss]ubjekt|[Hh]ilfsverb|[Dd]ritte|[Ee]nglisch|[Dd]eutsch|[Gg]ibt|[Ss]chreib|[Oo]rdne|[Bb]enutze|[Aa]uf|[Vv]on|[Zz]u|[Ii]m|[Oo]der|[Aa]ber|[Aa]uch|[Nn]och|[Dd]ass|[Mm]eine?|[Dd]eine?|[Kk]eine?|[Ss]ind|[Bb]ist|[Hh]ier|[Hh]eute|[Gg]estern|[Mm]orgen)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "false-friends": "smalltalk",
+      "make-do": "to-ing"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+ "code": "sm",
+ "name": "Samoan", "self": "Gagana Sāmoa",
+ "variant": "Samoan with macrons and the glottal stop (koma liliu) written; the t-style (tautala lelei) is taught first, and the course says so; the k-style is introduced for listening",
+ "voice": "sm-WS",
+ "script": "Latin with extra letters: long vowels ā, ē, ī, ō, ū and the koma liliu ʻ (glottal stop, written here as U+02BB); g is said ng; left to right",
+ "basis": "Galumalemana Afeleti Hunkin, Gagana Sāmoa: A Samoan Language Coursebook (rev. ed., University of Hawaiʻi Press 2009), lesson order 1–28, checked against the NZ Ministry of Education Samoan curriculum guidelines levels 1–3",
+ "src": [
+  "Project MUSE book page for Hunkin, Gagana Sāmoa: A Samoan Language Coursebook, revised edition (University of Hawaiʻi Press, 2009): the table of contents, 31 lessons (only the contents; the book itself is not open access and was not read)",
+  "Cambridge University Language Centre catalogue entry for the same book (31 brief lessons; greetings, house and home, telling the time, buying things)",
+  "Victoria University of Wellington SAMO 101 Introduction to Samoan course outline, 2010 (Hunkin is the required text; no weekly grammar listed)",
+  "NZ Ministry of Education, Samoan curriculum guidelines PDF on nzcurriculum.tki.org.nz (samoan-c.pdf; published in Samoan and English versions; exact title not confirmed in the part read): achievement objectives and suggested structures for levels 1–3, and the notes on tautala i le t/n and tautala i le k/g and on macrons and glottal stops (first 100,000 of about 187,000 characters read; no licence statement in the part read)"
+ ],
+ "note": "The order follows Hunkin's lesson list: pronunciation, greetings, this / that, articles, the negative, adjectives, commands, locating things, numbers, statements with ʻo, time, the house, days and months, verbs and tenses, negative tenses, personal pronouns, possessives, buying and selling, 'to be' and 'to have', conjunctions. My changes: statements with ʻo are moved up before the negative because the greetings and introductions already use them; a lesson on the two speaking styles, a lesson on polite words, likes and wants, food and directions are added from the NZ guidelines (polite forms for others and everyday forms for oneself, saying a lotu at meals) and from common practice; Hunkin's lessons on the relative particle ai, word order, songs and revision are left out. The NZ guidelines call the styles tautala i le t/n (used in print) and tautala i le k/g (informal speech); the name 'tautala lelei' is the lead's wording, not the guidelines'. Every Samoan word in the titles was spelled by me (the future marker ʻo le ʻā and ʻOu te were checked against samoan.ws, lanumoana against the guidelines), not copied from a source, and should be checked by a speaker. Device voices for sm are not checked.",
+ "hardest": [
+  "The glottal stop and long vowels change meaning, and many printed texts leave both out",
+  "Two pronunciations: t and n in the t-style become k and g (ng) in the everyday k-style",
+  "Two words for 'my': laʻu and loʻu (a- and o-class possession)",
+  "Respect vocabulary: polite words for other people, everyday words for yourself"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["sm-sounds", "Sounds and spelling: five vowels, long vowels (ā), the koma liliu ʻ, and g said ng"],
+   ["sm-t-style", "Two ways of speaking: this course teaches the t-style (tautala lelei) first; the k-style you will also hear"],
+   ["sm-greetings", "Greetings and thanks: Tālofa lava, Mālō, Faʻafetai, Tōfā"],
+   ["sm-intro", "Introducing yourself: ʻO ai lou igoa? ʻO loʻu igoa…"],
+   ["sm-polite", "Polite words: Faʻamolemole, ʻIoe, Leai, Tulou"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["sm-this-that", "This and that: lenei, lenā, lea"],
+   ["sm-articles", "Articles: le, se, ni, and no article for the plural"],
+   ["sm-o", "Statements with ʻo: ʻO le fale lea"],
+   ["sm-negative", "Saying no and not: Leai, e lē ʻo…"],
+   ["sm-adjectives", "Adjectives and colours after the noun: le fale tele, le ʻofu lanumoana"],
+   ["sm-commands", "Simple commands: Sau!, Alu!, Nofo i lalo, Tū i luga"],
+   ["sm-where", "Where things are: ʻO fea…?, i luga, i lalo, i totonu"],
+   ["sm-numbers", "Numbers: tasi, lua, tolu … sefulu, selau"],
+   ["sm-time", "Telling the time: ʻO le ā le taimi? ʻUa tā le tasi"]
+  ]},
+  {"en": "Home, days and verbs", "items": [
+   ["sm-family", "Home and family: le fale, le ʻāiga, tamā, tinā"],
+   ["sm-days", "Days and months: Aso Gafua, Aso Lua … Aso Sā"],
+   ["sm-tenses", "Verbs and tense markers: e, ʻua, sā, na, ʻo le ʻā (future)"],
+   ["sm-tense-neg", "Negative tenses: e lē, ʻua lē, sā lē"],
+   ["sm-pronouns", "Personal pronouns: aʻu, ʻoe, ia; tāua, māua, tātou, mātou"],
+   ["sm-pronoun-verb", "Pronouns with verbs: ʻOu te alu, E te alu"],
+   ["sm-possessive", "Possessives: laʻu and loʻu, lau and lou (a- and o-class)"]
+  ]},
+  {"en": "Getting things done", "items": [
+   ["sm-buying", "Buying and selling: E fia le tau? tālā and sene"],
+   ["sm-food", "Eating and offering: ʻOu te fia ʻai, saying a lotu before meals"],
+   ["sm-have", "To have and there is: e iai, e leai"],
+   ["sm-likes", "Likes and wants: ʻOu te fiafia i…, ʻOu te manaʻo i…"],
+   ["sm-directions", "Directions: taumatau, tauagavale, and places in the village"],
+   ["sm-conjunctions", "Joining sentences: ma (and), and the words for but and because"]
+  ]}
+ ]
+}

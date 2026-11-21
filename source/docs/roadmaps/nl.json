@@ -1,0 +1,56 @@
+{
+ "code": "nl",
+ "name": "Dutch", "self": "Nederlands",
+ "variant": "Standard Dutch (Netherlands)",
+ "voice": "nl-NL",
+ "script": "Latin (ij counts as one letter in spelling); left to right",
+ "basis": "Start.nl deel 1 (beginner Dutch textbook, A1), chapters 1-10, cross-checked with a university beginner Dutch course summary",
+ "src": [
+  "Start.nl deel 1: preview PDF hosted on nt2.nl with the table of contents, chapters 1-10 with goals and grammar",
+  "Durham University Centre for Foreign Language Study: Dutch language courses contents summary (Stage 1, steps 1 and 2)"
+ ],
+ "note": "The overall order follows Start.nl deel 1 (je/u and greetings, present tense, inversion, articles and plurals, geen, separable and modal verbs, object forms, niet, imperative, er, comparatives, perfect, ordering, adjectives). Splitting the sounds into two lessons, moving zijn / hebben and de / het forward, putting ordering food before the perfect, and the lesson titles are my own judgment and common course practice, not from the sources.",
+ "hardest": [
+  "The sounds g / ch, ui, eu and ij / ei, and long vs short vowels in spelling (man / maan)",
+  "de or het for each noun: mostly memorised, and it drives deze / dit and adjective endings",
+  "Word order: verb in second place, the verb at the end after omdat / dat, and split separable verbs",
+  "Adjective -e: een groot huis but een grote auto and het grote huis"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["nl-vowels", "Vowels and spelling: short and long (man / maan), open and closed syllables"],
+   ["nl-sounds", "Hard sounds: g and ch, ui, eu, ij / ei, ou / au, oe"],
+   ["nl-greetings", "Greetings and Hoe gaat het?: je and u"],
+   ["nl-intro", "Introducing yourself: Ik heet…, Ik kom uit…, spelling your name"],
+   ["nl-zijn-hebben", "zijn and hebben: to be and to have"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["nl-present", "Present tense: ik werk, jij werkt, wij werken"],
+   ["nl-pronouns", "Pronouns and possessives: ik, jij, mijn, jouw, uw"],
+   ["nl-numbers", "Numbers and prices: eenentwintig, euro and cent"],
+   ["nl-de-het", "de and het: the two words for 'the', and een"],
+   ["nl-plural", "Plurals: -en and -s (boeken, tafels)"],
+   ["nl-inversion", "Verb in second place: Morgen ga ik…"],
+   ["nl-questions", "Questions: wat, wie, waar, wanneer, hoe, and yes/no questions"],
+   ["nl-geen-niet", "Negation: niet and geen"],
+   ["nl-family", "Family and describing people: en, maar, of, want"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["nl-time", "Telling the time and appointments: half drie, kwart over"],
+   ["nl-separable", "Separable verbs: opstaan, ik sta op"],
+   ["nl-modals", "Modal verbs: kunnen, willen, mogen, moeten, zullen"],
+   ["nl-shopping", "Shopping: Wat kost dat?, and hem, haar, ze for things and people"],
+   ["nl-diminutives", "Diminutives: -je, -tje, -pje (een kopje koffie)"],
+   ["nl-food", "Ordering food and drink: Mag ik…?, Ik wil graag…"],
+   ["nl-travel", "Travel and directions: the imperative, links, rechts, rechtdoor"],
+   ["nl-er", "Er is…, er zijn…: there is, there are"],
+   ["nl-deze-die", "deze, die, dit, dat: this and that"]
+  ]},
+  {"en": "Talking about more", "items": [
+   ["nl-perfect", "Present perfect: ik heb gewerkt, ik ben gegaan"],
+   ["nl-adjectives", "Adjectives: een groot huis, een grote auto"],
+   ["nl-compare", "Comparing: groter, het grootst, te duur"],
+   ["nl-omdat", "omdat and dat: the verb goes to the end"]
+  ]}
+ ]
+}

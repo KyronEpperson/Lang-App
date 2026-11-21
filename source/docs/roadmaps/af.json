@@ -1,0 +1,52 @@
+{
+ "code": "af",
+ "name": "Afrikaans", "self": "Afrikaans",
+ "variant": "Standard Afrikaans (South Africa)",
+ "voice": "af-ZA",
+ "script": "Latin with extra letters: ê, ô, û, ë, ï and the article 'n; left to right",
+ "basis": "Stellenbosch University Survival / Campus Afrikaans outcomes for the themes; common beginner practice for the grammar order",
+ "src": [
+  "Stellenbosch University Language Centre: Survival Afrikaans 2021 outcomes (six learning outcomes, no grammar listed)",
+  "Stellenbosch University Language Centre: Campus Afrikaans 2026 course information (five themes, no grammar listed)",
+  "elon.io: Afrikaans grammar A1 learner path (a grammar website's path, not a course syllabus)"
+ ],
+ "note": "No syllabus with a grammar order was opened. The Stellenbosch pages give only themes in order (greetings, personal information, questions, social talk, in and around town); the elon.io path suggested the early grammar (die / 'n, plurals, pronouns, one present form, is / het, questions, nie … nie, numbers, diminutives). The full lesson order, the past tense, modal verbs, possession with se, adjectives and all titles are common course practice and my own judgment.",
+ "hardest": [
+  "The throaty g, and v said as f and w said as v",
+  "Double negation: nie … nie, with the second nie at the end",
+  "Word order: verb second, and the main verb sent to the end after modals and het ge-",
+  "Vowel spellings and marks: ee, oo, ie, oe, ê, ô, ë"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["af-vowels", "Vowels and spelling: ee, oo, ie, oe, and ê, ô, ë"],
+   ["af-consonants", "Consonants: the throaty g, v said as f, w said as v"],
+   ["af-greetings", "Greetings: Goeiemôre, Hoe gaan dit?, Totsiens"],
+   ["af-intro", "Introducing yourself: My naam is…, Ek kom van…"],
+   ["af-you", "Saying 'you': jy and u, oom and tannie"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["af-die-n", "die and 'n: one 'the', no gender"],
+   ["af-pronouns", "Pronouns: ek, jy, hy, sy, ons, julle, hulle"],
+   ["af-present", "Present tense: one form for all (ek werk, hulle werk)"],
+   ["af-is-het", "is and het: to be and to have"],
+   ["af-questions", "Questions: wat, wie, waar, wanneer, hoe, and yes/no questions"],
+   ["af-v2", "Verb in second place: Vandag werk ek"],
+   ["af-negation", "Double negation: nie … nie"],
+   ["af-numbers", "Numbers and prices: Hoeveel kos dit?"],
+   ["af-plural", "Plurals: -e and -s"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["af-time", "Telling the time: Hoe laat is dit?, kwart oor"],
+   ["af-routine", "Days and daily routine: Maandag, Dinsdag"],
+   ["af-object", "Object pronouns: my, jou, hom, haar"],
+   ["af-possession", "Possession: my, jou, and se (Jan se boek)"],
+   ["af-modals", "Modal verbs: wil, kan, moet, sal, with the verb at the end"],
+   ["af-food", "Ordering food: Kan ek … kry, asseblief?"],
+   ["af-diminutives", "Diminutives: huisie, boompie, katjie"],
+   ["af-adjectives", "Adjectives before the noun: 'n mooi dag, 'n goeie boek"],
+   ["af-directions", "Directions: links, regs, reguit"],
+   ["af-past", "Past tense: het ge- (ek het gewerk)"]
+  ]}
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "code": "gn",
+ "name": "Guaraní",
+ "self": "Avañe’ẽ",
+ "variant": "Paraguayan Guaraní, in the official alphabet of the Academia de la Lengua Guaraní (33 letters); everyday mixing with Spanish (jopara) is shown for recognition",
+ "voice": "gn-PY",
+ "script": "Latin with extra letters: nasal vowels ã, ẽ, ĩ, õ, ũ, ỹ; the vowel y; g̃; the puso ' (glottal stop); mb, nd, ng, nt, rr, ch; stress mark on non-final stressed syllables; left to right",
+ "basis": "Topic order of the Universidad Nacional de Itapúa course 'Comunicación en Lengua Guaraní' (first year): greetings (Maitei); introducing yourself and common questions, spelling rules, family; directions, stress rule, describing people; courtesy; daily activities and nouns; dialogues and adjectives; everyday phrases and verb tenses; describing people. The grammar sequence inside it (verb classes, negation, tense suffixes, possession, postpositions) is common practice from my own knowledge; 26 A1 lessons.",
+ "src": [
+  "Universidad Nacional de Itapúa, Facultad de Humanidades, programme 'Comunicación en Lengua Guaraní' (Licenciatura en Psicología, first year; PDF on humanidades.uni.edu.py): ten units in order (1 Maitei, greetings, history of the language; 2 introducing yourself, common questions, the monophony / monography spelling rule, family vocabulary; 3 directions, the stress rule, describing people; 4 courtesy expressions; 5 daily activities, nouns, number and gender, moods; 6 dialogues, adjectives, feelings; 7 everyday phrases, verb tenses; 8 describing people, appearance, character; 9-10 oral and written communication); written for Paraguayan Spanish speakers; its Guaraní is typed in an older font (ë, ÿ, ĝ for ẽ, ỹ, g̃)",
+  "Universidad Nacional de Itapúa, 'Lengua y Literatura Guaraní I' programme (Licenciatura en Bilingüismo): units on phonology, vowels and consonants, syllables, the monophony / monography rule, the stress rule, the nasal syllable rule, word formation; bibliography includes Academia de la Lengua Guaraní, Gramática Guaraní (2018)",
+  "Universidad de la República (Uruguay), FHCE, 'Guaraní' course programme (2024): a basic course needing no prior knowledge; objectives only (typology, morphosyntax, spelling and phonetics, basic vocabulary, numbers), contents section empty; bibliography includes Academia de la Lengua Guaraní, Guarani Ñe'ẽtekuaa (2020) and Verón Gómez, Ñe'ẽngatu: curso comunicativo de lengua guaraní (2018), neither opened",
+  "Wikibooks 'Guarani' (English): two lessons only (hello, introducing yourself); Lesson 1: Maitei, Mba'éichapa, Aguyje, che, nde, aMaitei / reMaitei / oMaitei, future -ta; Orthography page: the 33-letter official alphabet, nasal vowels, puso, g̃, stress and nasal harmony rules",
+  "Guaraní pages on a University of Mainz staff site (path /lustig/; the page names no author, so attributing it to Wolf Lustig is my inference), 'Meeting and greeting': Mba'éichapa reiko?, Mba'éichapa nde asaje?, Iporãnte ha nde, Aiko porã avei, Aguyjevete ndéve, Nahániri, Jajoechapeve, nañe'ẽkuaái (typed with ê, û for ẽ, ũ)",
+  "Peace Corps Guaraní course (listing page on fsi-language-courses.org: three PDFs, public domain); the PDFs themselves could not be opened from this session, so not used"
+ ],
+ "note": "From the sources: the communicative topic order (Itapúa), the alphabet and the nasal-harmony and stress rules (Wikibooks, Itapúa), and the greeting and courtesy phrases (Mainz pages, Wikibooks). No source I opened gives an A1 grammar sequence for English speakers; the Itapúa course is for Paraguayan university students who already hear Guaraní. My own knowledge and judgment, not from the sources: the order of grammar lessons (no 'to be', areal / aireal / chendal verb classes, nd- … -i negation, -pa / -piko questions, possession che róga / hóga, postpositions -pe / -gui / ndive, -ta / kuri / -ma, plural -kuéra / -nguéra, e- commands); all example words in titles beyond the greetings (réra, Moõguápa, mbo'ehára, kuña porã, peteĩ … pa, aguata, aikuaa, che ro'y, che kane'õ, ndaguatái, sy, túva, ko / pe / amo, mitãnguéra, aipota, ikatu, tembi'u, chipa, mandi'o, Mboýpa?, Mba'e aravópa?, Moõpa oĩ, ko'ápe, upépe, eju, ejúna); the jopara lesson. All sources typed nasal letters in substitute fonts (ë, ÿ, ĝ, ê, û, Ű), so every Guaraní word here was normalised by me to the official ã ẽ ĩ õ ũ ỹ g̃; writers must check each with a first-language speaker or the Academia's dictionary. Note the lead's 'self' uses a curly apostrophe (Avañe’ẽ); titles use the straight puso ' as most Paraguayan texts do; pick one for the app. Voice: no Guaraní device voice was checked; assume none and use speakers' recordings. Permission and community: Paraguayan Guaraní is an official language spoken by most Paraguayans, many of them not Indigenous (own knowledge), so community-ownership concerns are lower than for the other Indigenous languages in this batch, but Guaraní-speaking Indigenous peoples (Mbya, Avá, Pai Tavyterã) speak related but different languages, and the app should not present Paraguayan Guaraní as theirs; the Academia de la Lengua Guaraní sets the spelling, and a Paraguayan teacher should review the course.",
+ "hardest": [
+  "Nasal vowels and nasal harmony: a nasal syllable changes the sounds of prefixes and suffixes (-kuéra but mitãnguéra)",
+  "The puso (glottal stop) and stress, which change meaning and must be written",
+  "Three verb classes with different person prefixes: areal (a-guata), aireal (ai-kuaa) and chendal (che ro'y)",
+  "Two words for 'we' (ñande with you, ore without you) and negation wrapped around the verb (nd- … -i)"
+ ],
+ "stages": [
+  {"en": "Sounds, greetings and first words", "items": [
+   ["gn-sounds", "Sounds: six vowels including y; nasal ã, ẽ, ĩ, õ, ũ, ỹ; the puso ' (glottal stop)"],
+   ["gn-stress-nasal", "Stress and nasal harmony: stress on the last syllable unless marked (Mba'éichapa); mb, nd, ng, nt, g̃"],
+   ["gn-greetings", "Greetings: Maitei; Mba'éichapa reiko? Aiko porã, ha nde?; by time of day: Mba'éichapa nde asaje? (midday)"],
+   ["gn-courtesy", "Courtesy and yes / no: Aguyje, Aguyjevete ndéve (thank you); heẽ (yes), nahániri (no); Jajoechapeve (see you)"],
+   ["gn-intro", "Introducing yourself: Mba'éichapa nde réra? Che réra …; Moõguápa nde? (where are you from?)"],
+   ["gn-pronouns", "Pronouns: che, nde, ha'e; ñande and ore (we, with or without you); peẽ, ha'ekuéra"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["gn-no-be", "No verb 'to be': Che mbo'ehára (I am a teacher); noun + adjective: kuña porã (a pretty woman)"],
+   ["gn-numbers", "Numbers 1-10: peteĩ, mokõi, mbohapy, irundy, po … pa; Spanish numbers for prices and time"],
+   ["gn-areal", "Verbs 1, areal prefixes: a-, re-, o-, ja- / ña-, ro-, pe- (aguata, I walk)"],
+   ["gn-aireal", "Verbs 2, aireal prefixes: ai-, rei-, oi- … (aikuaa, I know)"],
+   ["gn-chendal", "Verbs 3, chendal state words: che ro'y (I'm cold), che kane'õ (I'm tired)"],
+   ["gn-negation", "Negation nd- … -i: ndaguatái (I don't walk); nañe'ẽkuaái (I can't speak it)"],
+   ["gn-questions", "Questions with -pa and -piko; mba'e (what), máva (who), moõ (where), mboy (how many)"],
+   ["gn-family", "Family and possession: sy (mother), túva (father); che róga, nde róga, hóga (my, your, his / her house)"]
+  ]},
+  {"en": "Building sentences", "items": [
+   ["gn-postpositions", "Postpositions after the noun: -pe / -me (in, to), -gui (from), ndive (with)"],
+   ["gn-demonstratives", "ko, pe, amo: this, that, that over there"],
+   ["gn-tense", "Time in the verb: -ta (will), kuri (did), -ma (already): aguatáta (I will walk)"],
+   ["gn-plural", "Plural -kuéra, and -nguéra after nasals: mitãnguéra (children)"],
+   ["gn-describe", "Describing people: appearance and character with chendal words (iporã, pretty / good)"],
+   ["gn-commands", "Commands with e-: eju (come!); softening with -mi, -na: ejúna"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["gn-daily", "Daily routine with areal and aireal verbs"],
+   ["gn-food", "Wanting and asking: aipota (I want), ikatu (can, may); tembi'u (food): chipa, mandi'o"],
+   ["gn-market", "Shopping: Mboýpa? (how much?), prices in Spanish numbers"],
+   ["gn-time", "Telling the time: Mba'e aravópa? (what time is it?)"],
+   ["gn-directions", "Directions: Moõpa oĩ …? (where is …?), ko'ápe (here), upépe (there)"],
+   ["gn-jopara", "Jopara: Spanish words in everyday Guaraní and when to use them"]
+  ]}
+ ]
+}

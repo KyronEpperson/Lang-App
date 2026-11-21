@@ -1,0 +1,22 @@
+/* en-fr extras for the Compliments deck (writer C). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
+exports.DIALOG = `
+C'est délicieux! | Tu veux goûter ma tarte aux pommes? | Mmm, c'est délicieux! | Do you want to try my apple tart? / Mmm, it's delicious!
+Bravo! | J'ai eu mon permis de conduire! | Bravo! | I got my driver's license! / Well done!
+Bonne idée! | On va au cinéma ce soir? | Bonne idée! | Shall we go to the movies tonight? / Good idea!
+Tu es vraiment gentil. | Je t'aide à porter les sacs. | Merci, tu es vraiment gentil. | I'll help you carry the bags. / Thanks, you're really kind.
+Ça te va très bien. | Alors, cette robe? | Ça te va très bien. | So, how's this dress? / It looks great on you.
+Vous parlez très bien français. | Vous parlez très bien français! | Merci, mais j'ai encore des progrès à faire. | You speak French really well! / Thanks, but I still have a lot to learn.
+Merci, c'est gentil. | C'est très joli chez toi. | Merci, c'est gentil. | Your place is really lovely. / Thanks, that's nice of you.
+Tu trouves? | Ta nouvelle coupe est super. | Tu trouves? Merci! | Your new haircut is great. / You think so? Thanks!
+`;
+exports.EXAMPLES = `
+Tu cuisines vraiment bien. | Tu cuisines vraiment bien, tu devrais ouvrir un restaurant! | You're a really good cook, you should open a restaurant!
+Tu es vraiment doué! | Tu as fait ce dessin tout seul? Tu es vraiment doué! | You made this drawing by yourself? You're really talented!
+Tu es tellement drôle! | Tu es tellement drôle, Hugo, on rit tout le temps avec toi! | You're so funny, Hugo, we laugh all the time with you!
+Tu es très travailleur. | Tu es très travailleur, tu restes souvent au bureau jusqu'à vingt heures. | You're very hard-working; you often stay at the office until eight.
+C'est très joli chez toi. | C'est très joli chez toi, j'adore la couleur des murs. | Your place is really lovely; I love the color of the walls.
+`;
+exports.PATTERNS = `
+Quel beau ___! | What a beautiful ___! | Quel beau jardin! | What a beautiful garden!
+Tu es vraiment ___. | You're really ___. | Tu es vraiment patient. | You're really patient.
+`;

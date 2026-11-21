@@ -1,0 +1,30 @@
+{
+  "native": "pt",
+  "reference": "es",
+  "nativeNameEn": "Brazilian Portuguese",
+  "name": {
+    "en": "English",
+    "pt": "inglês"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "standingRule": {
+    "kind": "verb-core",
+    "keywords": "sujeito|auxiliar|terceira pessoa|concord[âa]ncia",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " O que vai no espaço?",
+    "typeHintCue": " — use estas palavras",
+    "cueTest": "[ãõçâêôàáéíóúÃÕÇÂÊÔÀÁÉÍÓÚ]|\\b([Dd]e|[Qq]ue|[Pp]ara|[Uu]ma|[Qq]ual|[Qq]uais|[Ff]rase|[Pp]alavras?|[Ss]ignifica|[Dd]iz|[Ff]orma|[Pp]assado|[Cc]orreta|[Cc]erta|[Rr]esposta|[Pp]ergunta|[Ee]spaço|[Ll]acuna|[Cc]omo|[Ee]le|[Ee]la|[Ee]les|[Ee]las|[Ee]u|[Tt]em|[Ss]eu|[Ss]ua|[Vv]ai|[Ii]sso|[Ee]sta|[Ee]ste|[Ee]stas|[Ee]stes|[Ee]scolha|[Ee]screva|[Cc]omplete|[Oo]rdene|[Tt]raduza|[Ee]m)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "false-friends": "smalltalk",
+      "make-do": "to-ing",
+      "verb-prep": "make-do"
+    }
+  }
+}

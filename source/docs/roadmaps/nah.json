@@ -1,0 +1,58 @@
+{
+ "code": "nah",
+ "name": "Nahuatl",
+ "self": "Nāhuatl",
+ "variant": "Eastern Huasteca Nahuatl of Chicontepec, Veracruz (Mexico), as taught by the UT Austin Nāhuatlahtolli / Tlahtolli course, which follows IDIEZ for spelling and grammar terms; other modern varieties (Hidalgo, Morelos, Puebla) and Classical Nahuatl are not taught",
+ "voice": "nhe-MX",
+ "script": "Latin, in the IDIEZ-style spelling used by the source: vowels a, e, i, o, with macrons for long vowels in teaching texts (chāntli); consonants ch, c / qu, cu / uc, hu / uh, h (the saltillo), l, m, n, p, t, tl, tz, x, y, z; left to right",
+ "basis": "Lesson order of Nāhuatlahtolli (tlahtolli.coerll.utexas.edu, UT Austin COERLL, CC BY-SA 4.0; Chicontepec Huasteca Nahuatl, spelling and grammar terms after IDIEZ): alphabet, questions, names and origin, colours and numbers, professions, intransitive verbs, the day, possessives, family, appearance, greetings, future, verbs with objects, past, reflexives, likes, commands, -pil / -tzin, field and food, house, town, market, illness; cut to 26 A1 lessons with greetings moved to the front.",
+ "src": [
+  "Nāhuatlahtolli (Tlahtolli), UT Austin COERLL, home page: the list of all 32 lessons (Tlamachtiliztli) with Nahuatl and English titles in order; CC BY-SA 4.0 badge; no individual authors named; IDIEZ (Instituto de Docencia e Investigación Etnológica de Zacatecas) acknowledged for the orthography, grammar terminology and explanations",
+  "Nāhuatlahtolli, 'The language' page: the course teaches the Nahuatl of the Huasteca region of Veracruz, specifically Chicontepec, and introduces Hidalgo and Morelos variants; says Nahuatl is not fully standardised; says the lessons do not replace contact with Nahuatl speakers or a Nahuatl-speaking teacher",
+  "Nāhuatlahtolli lesson 1, Piltlahcuiloltzitzin (the alphabet): 17 consonants (ch, m, n, p, t, y, l, cu, uc, qu, hu, uh, h, x, tl, tz, z) and four vowels (a, e, i, o); macrons in examples (chāntli, ēlōtl) but no explanation of vowel length or the saltillo; cites Launey (1992) for using Spanish letters",
+  "Nāhuatlahtolli lesson 3 (I am from Tecomate, Chicontepec): Piyalli, ¿quēniuhqui motōcah?; Na notōcah …; ¿Huan ta?; ¿Cānin tiēhua?; Na niēhua …; Na nitlamachtia; Teipan timoittazceh; Quena, teipanoc; pronouns na, ta, ya, tohhuantin, inmohhuantin, inihhuantin; ni- / ti- on nouns (nicihuātl, ticihuātl), plural -meh, absolutive -tl / -tli / -li"
+ ],
+ "note": "From the sources: the variety, the spelling, the lesson topics and their order, and every Nahuatl word in the titles (copied as returned by a summarising fetch tool, so writers must recheck each against the course pages or with a speaker). Not from the sources, my own judgment: cutting 32 lessons to 26; moving greetings and goodbyes (source lesson 11) to lesson 2; merging colours and numbers with first words; putting 'what I like and don't like' after verbs with objects (as the source does) and using it to teach the negator ax; merging the source's three past-tense lessons into two; dropping the conditional (-zquia), the nonspecific objects tē- / tla- and the cleansing-ceremony lesson (beyond A1, and ceremony is not for a beginner app to teach without community review); teaching the source's pluperfect, imperfect and 'came to' forms in the market and town lessons only as set phrases (their grammar is beyond A1); adding time, prices and directions inside the day, market and town lessons. Own knowledge, not from an opened page: that macrons mark long vowels and h marks the saltillo (lesson 1 shows macrons but does not explain them), the verb person prefixes in titles (ni-, ti-, ø, in-; object c / qui; command xi-; possessive no-, mo-, i-), and that IDIEZ is a Nahua-run institute in Zacatecas working with Chicontepec speakers. Numbers beyond cē and colour words are left out of titles because I saw no verified spellings. Voice: no Nahuatl voice is assumed; nhe (ISO 639-3, Eastern Huasteca Nahuatl) is given as the tag only; the course should use recordings by first-language Chicontepec speakers, never an English or Spanish voice reading the spelling. Permission and community: the source is CC BY-SA 4.0, so any adapted material must be shared under the same licence with attribution to COERLL / UT Austin; IDIEZ is credited for spelling and terms, not as author, and its spelling and terms are its work, so the lead should contact IDIEZ (and ideally Chicontepec speakers who teach there) before building the course, both for review and to agree the spelling. 'Nahuatl' covers many varieties that are not mutually intelligible; the app must say which one it teaches. Speakers often call their language mācēhualtlahtōlli or mexicano (own knowledge, unverified); the lead may want to show that name.",
+ "hardest": [
+  "Long vs short vowels and the saltillo (h), which change meaning but are often left unwritten outside teaching texts",
+  "One word is a sentence: person prefixes on nouns and verbs (nicihuātl, 'I am a woman'), with ø for he / she",
+  "Object prefixes inside the verb (ni-c-piya, 'I have it') and verbs that change shape in the past",
+  "Noun endings -tl / -tli / -li that drop when a noun is possessed (chāntli, but mochān 'your house')"
+ ],
+ "stages": [
+  {"en": "Sounds, greetings and first words", "items": [
+   ["nah-alphabet", "Sounds and spelling: four vowels a, e, i, o; long vowels with a macron (chāntli, ēlōtl); tl, tz, x, hu / uh, cu / uc, qu, and h for the saltillo"],
+   ["nah-greetings", "Greetings and goodbyes: Piyalli; Teipan timoittazceh (see you later); Quena, teipanoc"],
+   ["nah-class", "Classroom phrases: Nicpiya tlahtlaniliztli (I have a question) and other questions in class"],
+   ["nah-name", "Names and origin: ¿Quēniuhqui motōcah? Na notōcah …; ¿Cānin tiēhua? Na niēhua Chicōntepēc"],
+   ["nah-pronouns", "Pronouns: na, ta, ya (I, you, he / she) and tohhuantin, inmohhuantin, inihhuantin (we, you all, they); ¿Huan ta? (and you?)"],
+   ["nah-colours-numbers", "Colours and numbers (Īxnēzcayotl huan tlapōhualiztli): counting from cē (one)"]
+  ]},
+  {"en": "Nouns and verbs as sentences", "items": [
+   ["nah-i-am", "Nouns as sentences: nicihuātl (I am a woman), ticihuātl, cihuātl; plural -meh (ticihuāmeh, we are women)"],
+   ["nah-jobs", "Jobs (Cehcen inintequiuh): Na nitlamachtia (I teach), nimomachtia (I study)"],
+   ["nah-intransitive", "Verbs without an object, present: ni-, ti-, ø and the plural endings"],
+   ["nah-day", "Parts of the day and telling the time: Quēn moxēloa tōnatiuh (how the day is divided)"],
+   ["nah-possession", "Possession: no-, mo-, i- (noyōllo, my heart; notōcah, my name; mochān, your house)"],
+   ["nah-family", "Family (Tēiīxmatcacuahuitl): family words with no-, mo-, i-"],
+   ["nah-appearance", "Describing people (Notlachiyaliz, my appearance)"]
+  ]},
+  {"en": "Verbs in time", "items": [
+   ["nah-future", "The future with -z (Tlachīhualiztli tlen panoz)"],
+   ["nah-object", "Verbs with a specific object: ni-c-, ti-c-, qui- (nicpiya, I have it)"],
+   ["nah-likes", "Likes and saying 'not': Tlen nicāmati huan tlen ax nicāmati (what I like and what I don't like)"],
+   ["nah-past-1", "The past, part 1 (Tlachīhualiztli tlen panoc: panoc, it happened)"],
+   ["nah-past-2", "The past, part 2: verbs whose stem changes"],
+   ["nah-reflexive", "Reflexive verbs: Na nimocehuia pan cuaciyah (I sit on the chair)"],
+   ["nah-commands", "Commands with xi-: Ximoquētza! (stand up!)"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["nah-tzin", "-tzin and -pil: respect, affection and 'little'"],
+   ["nah-field-food", "The cornfield and food: millah (field), ēlōtl (ear of corn); Tlen ticpiyah pan millah (what we have in the field)"],
+   ["nah-house", "In the house: Tlen eltoc calihtic (what is inside the house)"],
+   ["nah-market", "Market and prices: tiānquiz (market); set phrases Namantzin eltoc tiānquiz (it's market day) and Niquicōhuaco cē tlaxcalyoyomitl (I came to buy a tortilla napkin)"],
+   ["nah-town", "Going to town and directions: pan āltepētl (in the city); set phrases Niihhuia pan āltepētl (I had gone to the city) and Nipanoyaya mochān (I was passing your house)"],
+   ["nah-health", "Illness and the body: ¿Tlen cocōliztli tiquixmati? (what illnesses do you know?)"]
+  ]}
+ ]
+}

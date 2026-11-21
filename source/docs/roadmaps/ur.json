@@ -1,0 +1,56 @@
+{
+ "code": "ur",
+ "name": "Urdu",
+ "self": "اردو",
+ "variant": "Standard Urdu of Pakistan, written in Nastaliq script",
+ "voice": "ur-PK",
+ "script": "Urdu alphabet (Perso-Arabic, Nastaliq style), written right to left; short vowels are normally not written",
+ "basis": "McGill Introductory Urdu-Hindi course outline, built on Farooqui and Pien's Beginning Urdu: meeting people, adjectives, imperative, postpositions and oblique, کا, having, comparison, present tenses, likes and needs, prices, past tenses, سکنا",
+ "src": [
+  "McGill University, Introductory Urdu-Hindi (ISLA-251D1) course outline 2023-2024, textbook: Fauzia Farooqui and Joshua Pien, Beginning Urdu: A Complete Course (Georgetown University Press, 2011)"
+ ],
+ "note": "The grammar and topic order of stages 2-4 follows the McGill outline. The outline only says that script lessons are interleaved with the first units, so the five script lessons and their grouping are my own judgment (the script comes first here because the app has no teacher). The simple past with نے and the future are not in the part of the year the outline covers; they and the directions lesson are common beginner-course practice. Numbers are placed earlier than in the outline, as a survival topic.",
+ "hardest": [
+  "Nastaliq: letters slope and stack, and short vowels are not written",
+  "Retroflex ٹ ڈ ڑ against dental ت د ر, and aspirated بھ پھ کھ against plain ب پ ک",
+  "Gender on every noun, with adjectives and verbs that agree",
+  "Postpositions and the oblique case (لڑکا → لڑکے میں), then نے in the past"
+ ],
+ "stages": [
+  {"en": "Script, sounds and greetings", "items": [
+   ["ur-letters-1", "Letters 1: ا, the ب family (ب پ ت ٹ ث) and the long vowels و ی ے"],
+   ["ur-letters-2", "Letters 2: letters that never join to the left (د ڈ ذ ر ڑ ز ژ)"],
+   ["ur-letters-3", "Letters 3: ج چ ح خ, س ش, ص ض, ط ظ, ع غ"],
+   ["ur-letters-4", "Letters 4: ف ق ک گ ل م ن, and the round h ہ"],
+   ["ur-aspirates", "Aspirates with ھ (بھ, پھ, کھ), the nasal ں and the short-vowel marks"],
+   ["ur-greetings", "Greetings: السلام علیکم, خدا حافظ, شکریہ, and آپ / تم / تو"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["ur-hona", "Pronouns and ہونا: میں ہوں, آپ ہیں, یہ ہے"],
+   ["ur-intro", "Introducing yourself and yes/no questions with کیا"],
+   ["ur-gender", "Gender and plurals: لڑکا / لڑکے, لڑکی / لڑکیاں"],
+   ["ur-adjectives", "Adjectives that agree: اچھا, اچھی, اچھے; کوئی and کچھ"],
+   ["ur-numbers", "Numbers 1–100"],
+   ["ur-questions", "نہیں and question words: کون, کہاں, کیسا, یہ کیا ہے؟"],
+   ["ur-imperative", "The infinitive and requests: کرنا, کیجیے, کرو"],
+   ["ur-postpositions", "Postpositions and the oblique: میں, پر, سے, کو (گھر میں)"],
+   ["ur-possessive", "کا / کی / کے and میرا, آپ کا: family"]
+  ]},
+  {"en": "Daily life", "items": [
+   ["ur-have", "Having: میرے پاس and the other ways to say 'have'"],
+   ["ur-compare", "Comparing: سے زیادہ, سب سے"],
+   ["ur-habitual", "Present habitual: کرتا ہوں, کرتی ہوں; daily routine"],
+   ["ur-time", "Clock time: کتنے بجے ہیں؟, ساڑھے, پونے"],
+   ["ur-continuous", "Present continuous: کر رہا ہوں, کر رہی ہوں"],
+   ["ur-like-need", "Likes and needs: مجھے پسند ہے, مجھے چاہیے"],
+   ["ur-food-prices", "Ordering food and prices: کتنے کا ہے؟, روپے, والا"],
+   ["ur-directions", "Directions and transport: سیدھا, دائیں, بائیں"]
+  ]},
+  {"en": "Past and future", "items": [
+   ["ur-tha", "تھا / تھی: was, and the past habitual (کرتا تھا)"],
+   ["ur-past", "The simple past and نے: میں گیا, میں نے کھایا"],
+   ["ur-future", "The future: کروں گا, کروں گی"],
+   ["ur-can-must", "Can and must: سکنا, مجھے جانا ہے"]
+  ]}
+ ]
+}

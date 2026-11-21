@@ -1,0 +1,55 @@
+{
+ "code": "fi",
+ "name": "Finnish", "self": "Suomi",
+ "variant": "Standard Finnish (Finland), written standard forms",
+ "voice": "fi-FI",
+ "script": "Latin with extra letters: ä, ö (å in Swedish names only); left to right",
+ "basis": "Suomen mestari 1 (Finn Lectura), chapters 1-9, as used in UCL's Finnish Level One",
+ "src": [
+  "Finn Lectura: Suomen mestari 1 (renewed edition) sample pages PDF with the table of contents, chapters 1-9 with vocabulary and grammar",
+  "UCL SSEES: Finnish evening course Level One page, themes and grammar topics, textbook Suomen mestari 1"
+ ],
+ "note": "The order follows Suomen mestari 1 (pronouns, olla, vowel harmony; k-p-t gradation, verb type 1, negation, questions; genitive, t-plural; partitive, minulla on; verb types 1-5, verb + verb; location cases, tämä / tuo / se, imperative; word types, past of olla; mass-noun partitive, postpositions, directions). Splitting the sounds into two lessons, splitting the location cases into inner and outer, and all titles are my own judgment; colloquial spoken forms are left out. As in chapter 2 of the book, Puhutko suomea?, Mistä sinä olet? and prices are taught first as set phrases; the partitive and the location cases are explained in stage 3.",
+ "hardest": [
+  "Long vs short sounds that change meaning: tuli / tuuli, kuka / kukka",
+  "Vowel harmony: every ending has two forms (-ssa / -ssä)",
+  "Consonant gradation: k-p-t change inside the word (nukkua, nukun)",
+  "Many cases, and when to use the partitive"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["fi-vowels", "Vowels and long sounds: ä, ö, y, and tuli vs tuuli"],
+   ["fi-consonants", "Double consonants and first-syllable stress: kuka vs kukka"],
+   ["fi-greetings", "Greetings: hei, moi, kiitos, näkemiin"],
+   ["fi-olla", "Introducing yourself with olla: minä olen, sinä olet"],
+   ["fi-harmony", "Vowel harmony: front and back words"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["fi-verbtype1", "Verb type 1: puhua, minä puhun"],
+   ["fi-gradation", "Consonant gradation k-p-t: nukkua, minä nukun"],
+   ["fi-negative", "The negative verb: en, et, ei (en puhu)"],
+   ["fi-questions", "Questions: mikä, kuka, missä, mistä, and -ko / -kö"],
+   ["fi-countries", "Countries and languages: Mistä sinä olet?, Puhutko suomea?"],
+   ["fi-numbers", "Numbers and prices: Paljonko tämä maksaa?"],
+   ["fi-genitive", "Genitive -n: minun, Pekan"],
+   ["fi-plural", "The t-plural: talo, talot"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["fi-partitive", "Partitive: kahvia, vettä, omenaa"],
+   ["fi-habitive", "Having: minulla on"],
+   ["fi-verbtypes", "Verb types 2-5: syödä, tulla, haluta, tarvita"],
+   ["fi-time", "Clock time and daily routine: Paljonko kello on?"],
+   ["fi-verb-verb", "Verb + verb: Haluan juoda kahvia"],
+   ["fi-inner-cases", "Inner location cases: talossa, talosta, taloon"],
+   ["fi-outer-cases", "Outer location cases: torilla, torilta, torille"],
+   ["fi-there-is", "Huoneessa on…: there is, and tämä, tuo, se"],
+   ["fi-imperative", "Imperative: Tule!, Ota!, Mene!"]
+  ]},
+  {"en": "Out and about", "items": [
+   ["fi-food", "Ordering food: Saisinko…?, and the partitive of mass nouns"],
+   ["fi-noun-types", "Noun types -e, -nen, -i: huone, huoneessa; nainen, naisen"],
+   ["fi-past-olla", "Past of olla and minulla oli: olin, olit, oli"],
+   ["fi-directions", "Directions and postpositions: vasemmalle, oikealle, aseman vieressä"]
+  ]}
+ ]
+}

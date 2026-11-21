@@ -1,0 +1,51 @@
+{
+ "code": "arn",
+ "name": "Mapudungun",
+ "self": "Mapudungun",
+ "variant": "Mapuche language of south-central Chile, written in the Azümchefe alphabet; chosen because it is the alphabet of Chile's Ministry of Education school programmes and textbooks, proposed by CONADI for public and educational use, so learners and school-trained teachers will meet it; it keeps ch, sh, ll and ü (unlike Raguileo's c, s, j, v) and is the only system for which I opened an official teaching document. Unificado (used by most linguists) and Raguileo (backed by the Mapuche organisation Consejo de Todas las Tierras) remain alternatives the lead may prefer.",
+ "voice": "arn-CL",
+ "script": "Latin with extra letters (Azümchefe): the sixth vowel ü; g for the ng sound; q for the soft g; z for the 'th' sound; tx for the tr sound; ch, sh, ll, ñ; dental lh, nh, t'; left to right",
+ "basis": "Unit order of Universidad de Chile EH2518 'Introducción a la lengua y cultura mapuche' (Fresia Loncon Antileo): sounds, alphabets and numbers; greetings and Mapuche introductions (tuwün, küpalme); nien (have) with iñche, eymi, fey; question words and tañi / tami; personal questions; then family, tenses and negation, jobs with -fe, colours and plural, place words; then küpa, pepi, kim, verb suffixes, particles, food; cut to 22 A1 lessons, with spelling converted to Azümchefe.",
+ "src": [
+  "Universidad de Chile, FCFM, course programme EH2518 'Introducción a la lengua y cultura mapuche' (instructor Fresia Loncon Antileo; PDF on humanidades.ing.uchile.cl): units 1-4 with contents in order (1: grafemarios and basic phonetics, geographic variants, numbers; greetings and tuwün / küpalme; nien with iñche, eymi, fey; question words and tañi, tami; ¿iney pigeymi?, ¿chumleymi?, ¿chew tuwimi?, how many years; 2: family and values, tenses and negation, jobs with -fe, -le, -ge, colours and plural suffixes, place adverbs; 3: küpa, pepi, kim; transition and movement suffixes; songs; particles petu, muna, rume; food and verbalising suffixes; 4: epew, piam, wewpin); its Mapudungun is written in a mixed, partly Raguileo spelling (mapuzugun, chalintvkun, txipantü), not Azümchefe; bibliography includes Harmelink, Smeets, Catrileo, Cañumil",
+  "Chile Ministry of Education, Programa de Estudio Octavo Año Básico, Lengua Indígena: Mapuzugun (2017, curriculumnacional.cl), first half read: uses Azümchefe, described as a fusion of earlier proposals, adopted after a CONADI agreement and promoted in public and educational documents; mentions Unificado (promoted by the ILV); says there is no consensus even on the name mapuzugun and that variation follows the Fütal Mapu territories (williche speech differs)",
+  "English Wikipedia, 'Mapudungun alphabet': letter-by-letter table of Classic, Unificado, Raguileo, Azümchefe and Nhewenh spellings; Azümchefe proposed by CONADI and recognised by the Ministry of Education but 'not widely used'; Raguileo supported by the Consejo de Todas las Tierras; no consensus among authorities, linguists and communities"
+ ],
+ "note": "From the sources: the topic order (U. Chile units 1-3), the grammar items in titles (nien with iñche / eymi / fey, tañi / tami, chew, iney, txipantü, tuwün, küpalme, -fe, plural, küpa / pepi / kim, movement and transition suffixes, petu / muna / rume, verbalising suffixes) and the Azümchefe letter values (Mineduc programme and the Wikipedia table). U. Chile spellings were converted to Azümchefe by me (v → ü, x → tx), not copied. My own knowledge, not from an opened source: Mari mari (hello), the numbers kiñe … mari, chaw / ñuke, che, kofke, ko, the colour words, the plural pu, the suffix meanings (-a- future, -la- not, -pa- / -me- hither / thither, -fi- him / her / it, -tu- verbaliser) and the glosses of petu, muna, rume; writers must check all of these with a speaker and against Smeets (2007) or Harmelink (1996). Words with dental consonants are kept out of titles because I only saw them in the Wikipedia table. My own judgment: teaching the Chilean language without choosing a territorial variety (the sources only say speech varies by territory; the lead should name one with Mapuche reviewers); cutting the course to 22 lessons; adding time, prices and directions; leaving out the songs (ül), epew, piam and wewpin unit and the cosmovision and ceremonial content (traditional knowledge to be taught only with Mapuche speakers' guidance). Name: the lead gave self = 'Mapudungun', which is the Unificado spelling; in Azümchefe (and in the Mineduc programmes) it is written mapuzugun, and many Mapuche prefer mapuzugun or mapuzungun; I kept the lead's value, but the lead should decide whether 'self' should follow the chosen alphabet. Voice: no Mapudungun device voice was checked; assume none and use speakers' recordings. Permission and community, important before any course is built: the alphabet choice is political (Raguileo is tied to Mapuche self-determination movements, Azümchefe to the Chilean state; own knowledge for that framing beyond the sources), Mineduc itself says there is no consensus on the alphabet or the name, and speech differs by territory (Fütal Mapu; Argentina's Mapuche also differ); the lead should consult Mapuche language teachers or organisations (for example a Kimeltuchefe / educador tradicional, or the course's own instructor network) about the alphabet and variety, and have every lesson reviewed by first-language speakers.",
+ "hardest": [
+  "The sixth vowel ü and sounds English lacks (the g / ng sound, tx, dental consonants), written differently in each of the competing alphabets",
+  "Long verbs built from many suffixes in a fixed order (future -a-, negation -la-, object -fi-, direction -pa- / -me-)",
+  "Three numbers (one, two, more than two) for persons and verbs: singular, dual and plural",
+  "Mapuche introductions name where your family is from (tuwün) and your lineage (küpalme), not only your name"
+ ],
+ "stages": [
+  {"en": "Sounds, greetings and first words", "items": [
+   ["arn-alphabet", "Sounds and spelling: the Azümchefe alphabet, the vowel ü, g for the ng sound (mapuzugun), z, tx; why three alphabets exist"],
+   ["arn-greetings", "Greetings: Mari mari; ¿Chumleymi? (how are you?)"],
+   ["arn-name", "Personal questions: ¿Iney pigeymi? (what is your name?); ¿Chew tuwimi? (where are you from?)"],
+   ["arn-introduction", "A Mapuche introduction: tuwün (where your family comes from) and küpalme (your lineage)"],
+   ["arn-numbers", "Numbers 1-10: kiñe, epu, küla, meli, kechu … mari; mari kiñe (11)"],
+   ["arn-pronouns", "Pronouns iñche, eymi, fey (I, you, he / she)"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["arn-nien", "nien 'have': nien, nieymi, niey (I have, you have, he / she has); age with txipantü (year)"],
+   ["arn-tani-tami", "tañi and tami: my and your"],
+   ["arn-questions", "Question words: chew (where), iney (who), chem (what)"],
+   ["arn-family", "Family: chaw (father), ñuke (mother) and family values"],
+   ["arn-tense-negation", "Time and 'not' in the verb: -a- for the future, -la- for 'not'"],
+   ["arn-jobs", "Jobs and the suffix -fe (the one who does it)"],
+   ["arn-colours-plural", "Colours and the plural pu: pu che (the people)"],
+   ["arn-places", "Place words and mew (in, at)"]
+  ]},
+  {"en": "Doing things", "items": [
+   ["arn-kupa", "küpa (want), pepi (can), kim (know) with another verb"],
+   ["arn-movement", "Movement in the verb: -pa- (coming here), -me- (going there)"],
+   ["arn-object", "The object in the verb: -fi- (him, her, it)"],
+   ["arn-particles", "Particles petu (still), muna (very), rume (very, not even)"],
+   ["arn-food", "Food and drink: kofke (bread), ko (water); verbs made from nouns with -tu-"],
+   ["arn-time", "Days, months and telling the time"],
+   ["arn-market", "Buying and prices with numbers"],
+   ["arn-directions", "Directions and places in town with mew"]
+  ]}
+ ]
+}

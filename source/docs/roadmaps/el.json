@@ -1,0 +1,54 @@
+{
+ "code": "el",
+ "name": "Greek", "self": "ελληνικά",
+ "variant": "Modern Standard Greek (Greece)",
+ "voice": "el-GR",
+ "script": "Greek alphabet (24 letters, monotonic accent); left to right",
+ "basis": "University of Florida GRK1130 Beginning Modern Greek 1, textbook Επικοινωνήστε Ελληνικά 1",
+ "src": [
+  "University of Florida, GRK1130 Beginning Modern Greek 1 syllabus, Spring 2022 (PDF): weekly schedule with alphabet, diphthongs and accent, είμαι and the article, numbers, present tense (type A, then B), possessives, demonstratives, μου αρέσει, questions, adjectives, accusative, genitive and age, time, days, negation"
+ ],
+ "note": "The order follows the UFL weekly schedule. Moving negation earlier (UFL has it in week 15), the σε / από + article lesson, directions, the -ομαι routine lesson, the future with θα and the past tense (beyond the UFL first semester) are common course practice and my own judgment, as are all titles.",
+ "hardest": [
+  "Letters that look English but sound different (β, η, ν, ρ, υ, χ) and many spellings of the 'i' sound (ι, η, υ, ει, οι)",
+  "Three genders with articles that change by case: ο / τον, η / την, το",
+  "Verb types A and B (μένω versus μιλάω) and verbs in -ομαι",
+  "Moving stress, shown by the accent mark, which changes meaning"
+ ],
+ "stages": [
+  {"en": "Script, sounds and first words", "items": [
+   ["el-letters-1", "Greek letters I: familiar shapes (α, β, ε, ζ, η, ι, κ, μ, ν, ο, ρ, τ, υ, χ) and the ones that fool you"],
+   ["el-letters-2", "Greek letters II: new shapes (γ, δ, θ, λ, ξ, π, σ / ς, φ, ψ, ω)"],
+   ["el-pairs", "Letter pairs: ου, αι, ει, οι, μπ, ντ, γκ, τσ, τζ"],
+   ["el-accent", "The accent mark (τόνος) and stress"],
+   ["el-greetings", "Greetings: γεια σου, γεια σας, καλημέρα, καλησπέρα"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["el-eimai", "είμαι: είμαι, είσαι, είναι… and εσύ versus εσείς"],
+   ["el-intro", "Introducing yourself: Με λένε…, Είμαι από…"],
+   ["el-articles", "Gender and the article: ο, η, το"],
+   ["el-negation", "Yes, no and not: ναι, όχι, δεν"],
+   ["el-numbers", "Numbers and prices: Πόσο κάνει; ευρώ"],
+   ["el-verbs-a", "Present tense, type A: μένω, δουλεύω, έχω"],
+   ["el-possessives", "Possessives: ο φίλος μου, το σπίτι σου"]
+  ]},
+  {"en": "Building sentences", "items": [
+   ["el-verbs-b", "Present tense, type B: μιλάω, αγαπάω, μπορώ"],
+   ["el-demonstratives", "This: αυτός, αυτή, αυτό"],
+   ["el-arese", "Liking: μου αρέσει, μου αρέσουν"],
+   ["el-questions", "Question words: τι, ποιος, πού, πότε, πώς"],
+   ["el-adjectives", "Adjectives that agree: καλός, καλή, καλό"],
+   ["el-accusative", "The accusative: τον, την, το (Θέλω έναν καφέ)"],
+   ["el-ordering", "Ordering food: Θα ήθελα…, Τον λογαριασμό, παρακαλώ"]
+  ]},
+  {"en": "Time and place", "items": [
+   ["el-age", "Age and the genitive: Πόσων χρονών είσαι;"],
+   ["el-time", "Time and days: Τι ώρα είναι; τη Δευτέρα"],
+   ["el-se-apo", "σε and από with the article: στον, στην, στο"],
+   ["el-directions", "Directions: δεξιά, αριστερά, ευθεία"],
+   ["el-routine", "Daily routine and -ομαι verbs: ξυπνάω, πλένομαι, ντύνομαι"],
+   ["el-future", "Future with θα: θα πάω, θα φάω"],
+   ["el-past", "Past tense: ήμουν, ήταν; έφαγα, πήγα"]
+  ]}
+ ]
+}

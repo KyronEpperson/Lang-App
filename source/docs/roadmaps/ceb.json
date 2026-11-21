@@ -1,0 +1,56 @@
+{
+ "code": "ceb",
+ "name": "Cebuano",
+ "self": "Sinugbuanong Binisaya",
+ "variant": "Cebuano of Cebu (Cebu City), everyday modern spelling",
+ "voice": "ceb-PH",
+ "script": "Latin (no extra letters), left to right",
+ "basis": "Bunye and Yap, Cebuano for Beginners (University of Hawaii Press, 1971), lessons 1-30 cut down to A1: greetings and particles, kini and si / ang, ako pronouns, taga- and sa, mo- verbs, ni / sa and nako pronouns, adjectives and nga, aduna / wala, question words, mag- verbs, numbers, prices, days, time, gusto, kinahanglan, mas / labing, -on and -an verbs, maka-",
+ "src": [
+  "Maria Victoria R. Bunye and Elsa Paula Yap, Cebuano for Beginners (University of Hawaii Press, 1971), table of contents of the 45 lessons (PDF via core.ac.uk)",
+  "Language Links, Magbinisaya Kita Course 1 description (grammar topics covered: non-verbal predicates, there is / has, want / like, need)"
+ ],
+ "note": "The order follows Bunye and Yap's contents. That book has 45 lessons from 1971; choosing which items are A1, merging them into 26 lessons, and stopping after maka- verbs is my own judgment. The family, ordering-food and directions lessons are common course practice, not lesson titles in the book. Spelling: modern everyday spelling with mo-, ug and o in final syllables (Bunye and Yap write mu-); lesson writers should keep it consistent.",
+ "hardest": [
+  "Verb focus: mo- / mag- (actor) against -on / -an (goal), each with its own past form (ni- / mi-, nag-, gi-)",
+  "Three pronoun sets (ako, nako / akong, kanako) and the markers ang / si, sa / ni",
+  "Two words for 'not': dili for now and later, wala for the past and for 'there isn't'",
+  "Spanish numbers for money and time next to native Cebuano numbers"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["ceb-sounds", "Sounds and spelling: three vowel sounds written five ways (i / e, u / o), ng, the glottal stop"],
+   ["ceb-greetings", "Greetings: Maayong buntag, Kumusta ka?, Maayo man, Salamat"],
+   ["ceb-particles", "Small words that soften: man, lang, sab / pod, diay"],
+   ["ceb-this-that", "kini, kana, kadto: this and that; Unsa kini?"],
+   ["ceb-ako", "ako-set pronouns and si / ang: Ako si…, Maestra si Ana"],
+   ["ceb-intro", "Introducing yourself: Taga-asa ka?, Taga-Amerika ko"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["ceb-questions", "Question words: unsa, kinsa, asa, ngano, kanus-a"],
+   ["ceb-we-you", "Plural pronouns: kami and kita (we), kamo, sila"],
+   ["ceb-nako", "Possession: nako-set pronouns and ni / sa (balay nako, akong balay)"],
+   ["ceb-nga", "Adjectives and the linker nga: dakong balay, balay nga dako"],
+   ["ceb-aduna", "There is and have: aduna, naa, wala"],
+   ["ceb-numbers", "Numbers: usa, duha, tulo and the Spanish numbers used for money and time"],
+   ["ceb-prices", "Prices and buying: Tagpila?, Pila ni?, pesos"],
+   ["ceb-family", "Family: amahan, inahan, igsoon, anak"]
+  ]},
+  {"en": "Verbs and getting around", "items": [
+   ["ceb-mo", "Actor-focus verbs 1: mo- (will) and ni- / mi- (did): mokaon, nikaon"],
+   ["ceb-mag", "Actor-focus verbs 2: mag- / nag-: magluto, nagtrabaho"],
+   ["ceb-negation", "dili and wala: not (now, later) and did not"],
+   ["ceb-time", "Days and the clock: alas tres, Lunes, karon, ugma, gahapon"],
+   ["ceb-gusto", "gusto, ayaw, kinahanglan: want, don't, need"],
+   ["ceb-food", "Ordering food: Palihug, usa ka…, Lami!"],
+   ["ceb-places", "Where things are: sa, asa, hain; diri, diha, didto"],
+   ["ceb-directions", "Directions and jeepneys: wala (left), tuo (right), diretso, Para!"]
+  ]},
+  {"en": "More verbs and comparing", "items": [
+   ["ceb-on", "Goal-focus verbs: -on and gi- (paliton, gipalit)"],
+   ["ceb-an", "-an verbs: doing something to or for someone (hugasan, sulatan)"],
+   ["ceb-compare", "Comparing: mas … kay sa, labing / pinaka-"],
+   ["ceb-maka", "Can and managed to: maka- / naka- (makaadto, nakakaon)"]
+  ]}
+ ]
+}

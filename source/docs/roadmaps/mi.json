@@ -1,0 +1,59 @@
+{
+ "code": "mi",
+ "name": "Māori", "self": "Te reo Māori",
+ "variant": "Standard te reo Māori with macrons (Te Taura Whiri orthography); regional forms (e.g. Kāi Tahu k for ng) mentioned, not taught",
+ "voice": "mi-NZ",
+ "script": "Latin with extra letters: long vowels ā, ē, ī, ō, ū (tohutō / macrons) and the digraphs wh and ng; left to right",
+ "basis": "NZ Ministry of Education Curriculum Guidelines for Teaching and Learning Te Reo Māori, levels 1–2 achievement objectives, with the grammar of the levels 1–2 Grammar Progression Table (Te Whakaipurangi Rauemi); topics in the order of Te Kākano (Te Whanake 1)",
+ "src": [
+  "NZ Ministry of Education, Te Aho Arataki Marau mō te Ako i Te Reo Māori – Kura Auraki (Curriculum Guidelines for Teaching and Learning Te Reo Māori in English-medium Schools), page 'Levels 1 and 2: Beginning to use te reo Māori' on tereomaori.tki.org.nz: achievement objectives 1.1–1.7 and 2.1–2.5, socio-cultural themes and text types (no licence statement on the page)",
+  "NZ Ministry of Education, Te Whakaipurangi Rauemi Grammar Progression Table, levels 1 and 2, on tereomaori.tki.org.nz: the grammar inventory (ko / he / ehara, kei, nō / nā, ka, kei te, e … ana, i, kua, i and ki objects, commands, passive, kāore, questions, numbers, time, possessives, determiners) (no licence statement on the page)",
+  "John C. Moorfield, 'Te Whakaako i Te Reo: Teaching Māori using the Te Whanake collection', Te Kaharoa vol. 1 (2008), AUT: the ten chapter situations of Te Kākano (meeting people, activities, the morning, arrangements, breakfast, looking for things, shopping, the telephone, a hui); the appendix with grammar per chapter was not in the copy read",
+  "Massey University Press, Tūmahi Māori, look-inside PDF: contents, pronunciation notes, regional variation (Taranaki, Kāi Tahu, Tūhoe) and its use of the Te Taura Whiri orthography guidelines",
+  "Cambridge University Language Centre catalogue entry for Te Kākano (Te Whanake 1) and the Te Whanake shop page for the Te Kākano teachers' manual (bibliographic details only)"
+ ],
+ "note": "The curriculum guidelines give the topics (greetings, introductions, numbers and dates, personal information including iwi and pepeha, location, polite and classroom language; then relationships, possessions, likes, time and weather, descriptions and feelings) and the progression table gives the grammar, but neither puts the grammar in a teaching order; the order of lessons inside each stage is my own judgment and common course practice (verbless sentences before verbal ones, kei te before the other tense markers). Food, shopping and directions come from the Te Kākano chapter situations and common practice. The marae and pepeha lessons follow the guidelines' level 1–2 themes and text types (te marae, pepeha, whakapapa); they touch personal identity (iwi, hapū, whakapapa, marae protocol) and must be reviewed and approved by Māori reviewers before any lesson is written; a learner who is not Māori should not be taught to claim a maunga, awa or iwi. Every Māori word in the titles was spelled by me, not copied from a source, and should be checked by a speaker.",
+ "hardest": [
+  "Long vowels change meaning (keke 'cake', kēkē 'armpit'), so macrons must be heard and written",
+  "Particles before the verb carry the tense: kei te, i, ka, kua, e … ana",
+  "Two kinds of possession: tāku / tōku (a- and o-class), with neutral taku",
+  "Four words for 'we': tāua, māua, tātou, mātou (two or more, with or without the listener)"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["mi-sounds", "Sounds and spelling: five vowels, long vowels with macrons (ā), wh and ng"],
+   ["mi-greetings", "Greetings and farewells: Kia ora, Tēnā koe / kōrua / koutou, Mōrena, Haere rā, E noho rā"],
+   ["mi-intro", "Introducing yourself: Ko wai tō ingoa? Ko … tōku ingoa"],
+   ["mi-from", "Where you are from: Nō hea koe? Nō Porirua au"],
+   ["mi-polite", "Polite and classroom language: Aroha mai, Ka pai, He aha te kupu Māori mō…?"]
+  ]},
+  {"en": "Sentences without verbs", "items": [
+   ["mi-pronouns", "Pronouns: au, koe, ia; tāua, māua, tātou, mātou"],
+   ["mi-ko", "Identifying with ko: Ko Manu ia, Ko wai ia?"],
+   ["mi-he", "Classifying with he: He kaiako ia, He aha tēnei?"],
+   ["mi-demonstratives", "tēnei, tēnā, tērā: this, that (by you), that (over there)"],
+   ["mi-te-nga", "te and ngā: one and many (te whare, ngā whare; tamaiti, tamariki)"],
+   ["mi-ehara", "Saying 'not' without a verb: Ehara ia i a Manu"],
+   ["mi-numbers", "Numbers, days and dates: tahi, rua, toru … tekau, kotahi rau; Rāhina … Rātapu"],
+   ["mi-location", "Location and directions: Kei hea a Manu? Kei te kāinga au; ki matau, ki mauī"]
+  ]},
+  {"en": "Verbs and time", "items": [
+   ["mi-kei-te", "Now: Kei te + verb (Kei te haere au), Kei te pēhea koe?"],
+   ["mi-tense", "Other tense markers: i (past), ka (will), kua (has), e … ana (is …ing)"],
+   ["mi-questions", "Questions: aha, wai, pēhea, hea, hia; Kei te aha a Manu?"],
+   ["mi-kaore", "Saying 'not' with verbs: Kāore a Manu i te kai"],
+   ["mi-objects", "Objects with i and ki: Kei te kai a Manu i te āporo"],
+   ["mi-commands", "Commands: E kai!, Kōrero!, Pānuitia te pukapuka!"],
+   ["mi-time", "Time and weather: He aha te wā? Kei te ua"]
+  ]},
+  {"en": "People, things and places", "items": [
+   ["mi-whanau", "Whānau: tuakana, teina, tuahine, tungāne"],
+   ["mi-possessives", "Possessives and ownership: taku / aku, tō / ō, tana / ana; nā and nō"],
+   ["mi-likes", "Likes and dislikes, with reasons: pai, nā te mea"],
+   ["mi-describing", "Describing people and feelings: te whare whero, Kei te hiakai au, Kei te pōuri ia"],
+   ["mi-food-shopping", "Food and shopping: parāoa, tī, kawhe; E hia te utu?"],
+   ["mi-marae", "Visiting a marae: pōwhiri, karanga, whaikōrero, hongi"],
+   ["mi-pepeha", "Pepeha: maunga, awa, waka, iwi, and how a learner who is not Māori introduces themselves"]
+  ]}
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "code": "sw",
+ "name": "Swahili",
+ "self": "Kiswahili",
+ "variant": "Standard Swahili (Kiswahili sanifu) of Tanzania and Kenya",
+ "voice": "sw-TZ",
+ "script": "Latin (no extra letters; ng' with an apostrophe), left to right",
+ "basis": "University of Florida SWA1130 Beginning Swahili syllabus, built on Hinnebusch and Mirza's Kiswahili: Msingi wa Kusema, Kusoma na Kuandika: greetings, -na- present, numbers, negative present, 'to be', -li- past, -ta- future, short verbs, time, object markers, 'to have', locatives",
+ "src": [
+  "University of Florida, SWA1130 Beginning Swahili syllabus (Fall 2021), textbook: Thomas Hinnebusch and Sarah Mirza, Kiswahili: Msingi wa Kusema, Kusoma na Kuandika (2nd ed., 1998)"
+ ],
+ "note": "The tense order, numbers, time, object markers, 'to have' and locatives follow the UF schedule. The schedule does not show when each noun class is taught (it only names locative agreement), so the noun-class lessons, their order (M-WA first, then KI-VI, M-MI, JI-MA, N) and the adjective and demonstrative lessons are common course practice and my own judgment. Possessives, question words and the food and shopping lesson are also placed by common practice.",
+ "hardest": [
+  "Noun classes: every noun belongs to a class, and adjectives, verbs and possessives agree with it",
+  "Verbs built from prefixes: subject + tense + (object) + root (ni-na-ku-penda)",
+  "Negatives that change the prefix and the ending (ninasoma → sisomi)",
+  "Swahili time, which counts from 6 a.m. (saa moja = 7 o'clock)"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["sw-sounds", "Sounds and spelling: five pure vowels, ng', dh, th, gh, and stress on the second-to-last syllable"],
+   ["sw-greetings", "Greetings: Jambo, Habari?, Shikamoo / Marahaba, Asante"],
+   ["sw-ni-si", "Pronouns and ni / si: mimi ni mwalimu, yeye si mwanafunzi"],
+   ["sw-imperative", "Commands and the infinitive: soma, someni, kusoma"],
+   ["sw-numbers", "Numbers 1–100: moja, mbili, kumi, ishirini, mia"]
+  ]},
+  {"en": "Present tense and people", "items": [
+   ["sw-present", "Present tense -na-: ninasoma, unasoma, anasoma"],
+   ["sw-intro", "Introducing yourself: Jina langu ni…, Ninatoka…, Ninakaa…"],
+   ["sw-present-neg", "Negative present: sisomi, husomi, hasomi"],
+   ["sw-m-wa", "Noun classes 1/2 (M-WA): mtu / watu, mtoto / watoto"],
+   ["sw-questions", "Question words: nani, nini, wapi, lini, kwa nini, -ngapi"],
+   ["sw-kuwa-na", "kuwa na: to have (nina, una, sina) and family"],
+   ["sw-possessive", "Possessives: -angu, -ako, -ake (mtoto wangu, watoto wangu)"]
+  ]},
+  {"en": "Noun classes and everyday life", "items": [
+   ["sw-ki-vi", "Classes 7/8 (KI-VI): kitabu / vitabu, kiti / viti"],
+   ["sw-m-mi", "Classes 3/4 (M-MI): mti / miti, mji / miji"],
+   ["sw-ji-ma", "Classes 5/6 (JI-MA): jina / majina, gari / magari"],
+   ["sw-n-class", "Classes 9/10 (N): nyumba, chai, and animals that take M-WA agreement"],
+   ["sw-adjectives", "Adjectives that agree: mtoto mzuri, kitabu kizuri, nyumba nzuri"],
+   ["sw-this-that", "This and that: huyu, hiki, hii; yule, kile, ile"],
+   ["sw-time", "Telling time the Swahili way (saa moja = 7 o'clock), days and dates"],
+   ["sw-food-shopping", "Food and shopping: Bei gani?, shilingi, Naomba…"]
+  ]},
+  {"en": "Past, future and getting around", "items": [
+   ["sw-past", "Past tense -li-: nilisoma; negative sikusoma"],
+   ["sw-future", "Future tense -ta-: nitasoma; negative sitasoma"],
+   ["sw-kuwa", "'To be' in time: nilikuwa, nitakuwa; kulikuwa na"],
+   ["sw-short-verbs", "Short verbs that keep ku-: kula, kunywa, kuja (ninakula, nilikunywa)"],
+   ["sw-object", "Object markers: ninakupenda, nilimwona"],
+   ["sw-places", "Places and directions: -ni (sokoni), kushoto, kulia, moja kwa moja"]
+  ]}
+ ]
+}

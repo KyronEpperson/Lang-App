@@ -1,0 +1,55 @@
+{
+ "code": "yo",
+ "name": "Yoruba",
+ "self": "Yorùbá",
+ "variant": "Standard Yoruba (Nigeria), written with full tone marks and underdots",
+ "voice": "yo-NG",
+ "script": "Latin with extra letters: ẹ, ọ, ṣ, the digraph gb, and tone marks (á, à) on vowels and syllabic n; left to right",
+ "basis": "University of Florida YOR1130 Beginning Yoruba (Fall 2021) on Schleicher's Jẹ́ K'Á Sọ Yorùbá: preliminary lesson (greetings, alphabet and tones, numbers), then introductions and pronouns, family and yes/no questions, likes and the progressive, the home and 'to be', nationality and age with object pronouns, describing, then future, relatives, perfect and habitual",
+ "src": [
+  "University of Florida, YOR1130 Beginning Yoruba syllabus (Fall 2021), textbook: A. Y. F. Schleicher, Jẹ́ K'Á Sọ Yorùbá (Yale University Press, 1993); week-by-week schedule, preliminary lesson and lessons 1-8"
+ ],
+ "note": "The order of greetings, alphabet and tones, numbers, introductions and pronouns, family, yes/no questions and negation, the progressive and likes, wà and 'to be', commands, nationality and age, object pronouns, describing and colours, future, tí, the perfect ti / kò tíì and the habitual máa ń / kì í follows the UF schedule. The syllabus summary I read had broken tone marks, so every Yoruba form in the titles is written from my own knowledge, not copied. Food and ordering, prices and the market, clock time and directions are not in the schedule and are added by common course practice. Merging and splitting the schedule's weeks into 26 lessons is my own judgment.",
+ "hardest": [
+  "Three tones that change meaning: ọkọ̀ (vehicle), ọkọ (husband), ọkọ́ (hoe)",
+  "The underdot letters ẹ, ọ, ṣ, nasal vowels (an, ẹn, in, ọn, un) and the double stops gb and p",
+  "Respect built into grammar: ẹ for elders and strangers, o for friends, and greetings for every occasion",
+  "No verb endings: time and aspect come from small markers (ń, ti, máa, máa ń) and 'to be' has several words (ni, jẹ́, wà)"
+ ],
+ "stages": [
+  {"en": "Sounds, tones and greetings", "items": [
+   ["yo-alphabet", "The alphabet: seven vowels with ẹ and ọ, ṣ, and the double stops gb and p"],
+   ["yo-tones", "Three tones: high á, mid a, low à (ọkọ̀, ọkọ, ọkọ́) and nasal vowels"],
+   ["yo-greetings", "Greetings by time of day: Ẹ káàárọ̀, Ẹ kú ọ̀sán, Ẹ kú ìrọ̀lẹ́"],
+   ["yo-respect", "Respect: ẹ and o for 'you', Ẹ ṣé / O ṣé, and Ẹ kú + noun (Ẹ kú iṣẹ́, Ẹ kú àbọ̀)"],
+   ["yo-numbers", "Numbers 1-20: ọ̀kan, èjì, ẹ̀ta … ẹ̀wá, ogún"]
+  ]},
+  {"en": "Me and my family", "items": [
+   ["yo-intro", "Introducing yourself: Orúkọ mi ni…, Kí ni orúkọ rẹ?"],
+   ["yo-pronouns", "Subject pronouns mo, o, ó, a, ẹ, wọ́n and possessives mi, rẹ, rẹ̀"],
+   ["yo-family", "Family: bàbá, ìyá, ẹ̀gbọ́n and àbúrò (older and younger sibling)"],
+   ["yo-yes-no", "Yes/no questions with ṣé, and Bẹ́ẹ̀ ni / Bẹ́ẹ̀ kọ́"],
+   ["yo-negation", "Negation with kò and ò: Kò dára, Mi ò mọ̀"],
+   ["yo-numbers-big", "Numbers 21-100, counting by twenty: ọgbọ̀n, ogójì, ọgọ́rùn-ún"],
+   ["yo-progressive", "The progressive ń and likes: Mo ń jẹun, Mo fẹ́ràn…, Mo fẹ́…"]
+  ]},
+  {"en": "Home, people and things", "items": [
+   ["yo-wa", "wà: being somewhere, and the home (Níbo ni … wà?, ilé, yàrá)"],
+   ["yo-ni", "'To be' with ni and jẹ́: Olùkọ́ ni mí, Ó jẹ́ dókítà"],
+   ["yo-commands", "Commands and 'don't': Jókòó, Wá, Má lọ"],
+   ["yo-nationality", "Nationality and age: Ọmọ Amẹ́ríkà ni mí, Ọmọ ọdún mélòó ni ọ́?"],
+   ["yo-object", "Object pronouns: Ó rí mi, Mo rí i, Mo rí wọn"],
+   ["yo-describing", "Describing with verbs (Ó ga, Ó dára) and colours: pupa, funfun, dúdú"],
+   ["yo-food", "Food and ordering: oúnjẹ, omi, Mo fẹ́…, Ẹ jọ̀ọ́"],
+   ["yo-market", "Prices and the market: Èló ni?, Mélòó?, náírà"]
+  ]},
+  {"en": "Time and getting around", "items": [
+   ["yo-time", "Days and clock time: Ọjọ́ Ajé, Ọjọ́ Ìṣẹ́gun; Aago mélòó ni?"],
+   ["yo-future", "Future with máa and yóò: Mo máa lọ, Ó máa wá"],
+   ["yo-ti-relative", "tí: who, which, when (ohun tí, ìgbà tí) and Nígbà wo?"],
+   ["yo-perfect", "Done and not yet: Mo ti jẹun, Mi ò tíì jẹun"],
+   ["yo-habitual", "Habits: máa ń and kì í (Mo máa ń lọ, Mi kì í lọ)"],
+   ["yo-transport", "Transport and directions: wọ̀ ọkọ̀, gùn kẹ̀kẹ́, ọ̀tún, òsì"]
+  ]}
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "code": "ha",
+ "name": "Hausa",
+ "self": "Hausa",
+ "variant": "Standard (Kano) Hausa of northern Nigeria, written in Latin (boko) script",
+ "voice": "ha-NG",
+ "script": "Latin (boko) with extra letters: ɓ, ɗ, ƙ and 'y; tone and vowel length are not written in everyday spelling; left to right",
+ "basis": "Peace Corps Niger, An Introduction to the Hausa Language (2006, 24 lessons): pronunciation, greetings and everyday expressions, days and time, numbers and money, food, prices and question words, then 'to be' with ne / ce and its negative, the -na (continuous) forms and da for 'have', future, past and past negative",
+ "src": [
+  "Peace Corps Niger, An Introduction to the Hausa Language (April 2006), table of contents, lessons 1-24 (opened as a PDF through a web reader)"
+ ],
+ "note": "Only the Peace Corps Niger course gave an order, and it teaches the Hausa of Niger. The Kano / Nigerian standard is taught here instead: the hooked letters ɓ ɗ ƙ 'y, naira and kobo, and every Hausa form in the titles are from my own knowledge, not from the source. The survival topics (greetings, days and time, numbers, money, prices and question words, food) come from the source, but their order is mine: question words before numbers, money and time, and food moved to the last stage. The grammar the source covers keeps its order (ne / ce, negative ba … ba, the -na forms with da for 'have', future, past, past negative), except that ne / ce moves to the first stage so that introductions can use it. Other Hausa course pages I opened (HAUSA 1010 on abu-ubaida.com, Wisconsin, Harvard ALP, UC Press, the FSI Hausa Basic Course PDF) gave no usable lesson order. Gender, possession, the subjunctive and commands, plurals, adjectives with mai, family and directions are not in the source and are placed by common course practice and my own judgment. The source's weather lesson is left out to keep 25 lessons; the split into lessons and stages is my own.",
+ "hardest": [
+  "Tone and vowel length change meaning but are not written in ordinary spelling",
+  "The hooked (glottalized) consonants ɓ, ɗ, ƙ and 'y next to plain b, d, k, y",
+  "Grammatical gender everywhere: kai / ke for 'you', ne / ce for 'is', -n / -r linkers",
+  "Tense and aspect carried by the pronoun, not the verb (ina zuwa, na zo, zan zo), and irregular plurals"
+ ],
+ "stages": [
+  {"en": "Sounds and greetings", "items": [
+   ["ha-sounds", "Sounds and spelling: the hooked letters ɓ, ɗ, ƙ and 'y, and ts, sh, c"],
+   ["ha-tones", "Tone and vowel length: heard in every word, but not written in everyday spelling"],
+   ["ha-greetings", "Greetings: Sannu, Ina kwana?, Lafiya lau, Barka da yamma"],
+   ["ha-courtesy", "Thanks and leave-taking: Na gode, Sai an jima, Sai gobe"],
+   ["ha-ne-ce", "Pronouns and 'is': ni, kai, ke, shi, ita, mu, ku, su with ne and ce"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["ha-intro", "Introducing yourself: Sunana…, Ina sunanka?, Ni Ba'amurke ne"],
+   ["ha-gender", "Masculine and feminine nouns (yaro / yarinya) and this / that: wannan, wancan"],
+   ["ha-possession", "Possession: the linkers -n and -r, and endings like sunana, gidana, motata"],
+   ["ha-negative-is", "'Is not': ba … ba ne / ba … ba ce (Ba malami ba ne)"],
+   ["ha-questions", "Question words: me, wa, ina, yaushe, nawa, yaya, and ko for yes/no"],
+   ["ha-numbers", "Numbers: ɗaya, biyu, uku … goma, ashirin, ɗari, dubu"],
+   ["ha-money", "Money, prices and bargaining: Nawa ne?, naira, kobo"],
+   ["ha-time", "Days and time: yau, gobe, jiya; Litinin, Talata; ƙarfe nawa?"]
+  ]},
+  {"en": "Verbs: now, before and later", "items": [
+   ["ha-continuous", "The continuous: ina, kana, kina, yana, tana (Ina karatu); being somewhere (Yana gida)"],
+   ["ha-da", "Having with da: Ina da mota, Ba ni da kuɗi"],
+   ["ha-continuous-neg", "Negative continuous: ba na, ba ka, ba ya (Ba na so)"],
+   ["ha-completive", "The completive (past): na, ka, kin, ya, ta, mun, kun, sun (Ya tafi)"],
+   ["ha-completive-neg", "Negative past with ba … ba: Ban gani ba, Bai zo ba"],
+   ["ha-future", "Future: zan, za ka, zai, za ta (Zan tafi gobe)"],
+   ["ha-subjunctive", "Commands and the subjunctive: zo, ka zauna, mu tafi, don Allah"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["ha-food", "Food and ordering: Ina son…, abinci, ruwa, shayi, tuwo"],
+   ["ha-family", "Family: uba, uwa, ɗan'uwa, 'yar'uwa, miji, mata"],
+   ["ha-plurals", "Plurals in many patterns: yaro / yara, mota / motoci, gida / gidaje"],
+   ["ha-describing", "Describing: babba, ƙarami, sabo, and mai (mai kyau)"],
+   ["ha-directions", "Directions: hagu, dama, gaba, kusa, nesa"]
+  ]}
+ ]
+}

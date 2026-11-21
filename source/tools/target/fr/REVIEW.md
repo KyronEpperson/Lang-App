@@ -63,3 +63,13 @@ Wrong language 0 · wrong teaching 1 · practice 0 · pron 0 · wording 0.
 - Hand-written respellings in notes and bodies agree with the tool (*et un* "ay uhN", *il est* "ee leh").
 - `gen.js` + `validate.js fr`: PASS. Verifier: every pron equals `respell(target)`. `node --check` on all JS files: OK.
 - Not changed: profile.json, packs/, src/, docs/. Departure from profile §6 to flag: liaison after *êtes* (lead's request) and *sommes* (my extension) before *en, à, au, aux, ici*.
+
+## Compliments deck (added later)
+Files: decks-c.js (deck "Compliments", 14 cards), extra-c.js (8 dialogues, 5 examples, 2 patterns). Every pron is the unchanged output of respell.js; no tool warnings, and no output looked wrong on reading (no liaison involved: "Tu es" has none). Cards use tu, except «Vous parlez très bien français», which is what a stranger says to the learner; every note gives the other form, and the feminine adjective with whether it sounds different. No space before ? and !.
+Native speaker, check first:
+1. «Tu trouves?» as a common light reply to a compliment in France.
+2. «Merci, mais j'ai encore des progrès à faire» as the normal modest reply to praise of your French.
+3. «Merci, c'est gentil» described as the usual reply to a compliment.
+4. «Tu es vraiment doué!» glossed "You're really talented!" and «Tu es très travailleur» as a natural compliment.
+5. «C'est très joli chez toi» for "Your place is really lovely".
+6. «Ta nouvelle coupe est super» (dialogue line) and «tu devrais ouvrir un restaurant» (example).

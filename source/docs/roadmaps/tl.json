@@ -1,0 +1,56 @@
+{
+ "code": "tl",
+ "name": "Tagalog (Filipino)",
+ "self": "Tagalog / Wikang Filipino",
+ "variant": "Tagalog (Filipino) of Manila, standard modern spelling",
+ "voice": "fil-PH",
+ "script": "Latin (28-letter Filipino alphabet, with ñ and ng), left to right",
+ "basis": "First-year university Filipino: self and greetings with ang pronouns and markers, family with the na / -ng linker, community with gusto / ayaw and prices, then -um-, mag-, -in verbs and aspect (SEASSI 1st-year Filipino and Oxnard College FILI R101 outline)",
+ "src": [
+  "SEASSI 2025 (University of Wisconsin), Filipino 1st-year syllabus: weekly topics and grammar",
+  "Oxnard College, FILI R101 Elementary Filipino 1 course outline (content list; texts include Barrios, Tagalog for Beginners, and Domingo, Elementary Tagalog)",
+  "Polyglottist Language Academy, Tagalog Beginner 1 syllabus (weekly topics and grammar)"
+ ],
+ "note": "The opening order (greetings, self-introduction, ang pronouns and markers, may / mayroon / wala, then family with the linker, then places, prices, ordering food, gusto / ayaw, then directions and commands with huwag) follows SEASSI and Polyglottist. The list of verb affixes (-um-, mag-, -in), the aspects, particles, po / ho and comparison come from the Oxnard outline, which gives content but not an order; placing verbs in stage 3 and the order inside it is my own judgment and common course practice.",
+ "hardest": [
+  "Verb focus: the affix (-um-, mag-, -in) shows which noun is marked by ang",
+  "Aspect, not tense: completed, ongoing and contemplated forms built by affixes and repeating a syllable (kumain, kumakain, kakain)",
+  "Three marker sets for nouns and pronouns: ang / ng / sa (ako, ko, akin)",
+  "The glottal stop and stress that change meaning but are not shown in normal spelling"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["tl-sounds", "Sounds and spelling: ng, the glottal stop, and stress that changes meaning"],
+   ["tl-greetings", "Greetings and respect: Magandang umaga, Kumusta?, po and opo"],
+   ["tl-pronouns", "ang pronouns: ako, ikaw / ka, siya, kami, tayo, kayo, sila"],
+   ["tl-intro", "Introducing yourself: Ako si…, Taga-… ako, Taga-saan ka?"],
+   ["tl-this-that", "ito, iyan, iyon: this and that; Ano ito?"]
+  ]},
+  {"en": "Building sentences", "items": [
+   ["tl-markers", "Markers: ang / si, ng / ni, sa / kay"],
+   ["tl-questions", "Questions: ba, sino, ano, saan, kailan"],
+   ["tl-yes-no", "Yes and no: oo / opo, hindi / hindi po"],
+   ["tl-numbers", "Numbers: isa, dalawa, tatlo and the Spanish numbers (uno, dos) used for money and time"],
+   ["tl-may", "may, mayroon / meron, wala: there is, have"],
+   ["tl-linker", "The linker na / -ng and ma- adjectives: magandang bahay, bahay na malaki"],
+   ["tl-ng-pronouns", "ng pronouns and possession: ko, mo, niya (bahay ko)"],
+   ["tl-family", "Family and jobs: nanay, tatay, ate, kuya, anak"],
+   ["tl-sa-pronouns", "sa pronouns and place: sa akin, dito, diyan, doon, nasaan"]
+  ]},
+  {"en": "Verbs", "items": [
+   ["tl-um", "-um- verbs (actor focus): kumain, uminom, pumunta"],
+   ["tl-mag", "mag- verbs (actor focus): magluto, maglaro, magtrabaho"],
+   ["tl-aspect", "Aspect: completed, ongoing, contemplated (kumain, kumakain, kakain)"],
+   ["tl-gusto", "gusto, ayaw, kailangan, puwede: like, don't want, need, can"],
+   ["tl-in", "-in verbs (object focus): kainin, lutuin (Kinain ko ang mangga)"],
+   ["tl-food", "Ordering food and prices: Magkano?, Pabili po, isa pa"]
+  ]},
+  {"en": "Getting around", "items": [
+   ["tl-time", "Time and days: Anong oras na?, alas-tres, Lunes, kahapon, bukas"],
+   ["tl-directions", "Directions and transport: kaliwa, kanan, diretso, jeep"],
+   ["tl-requests", "Requests and commands: paki-, huwag"],
+   ["tl-particles", "Particles: na, pa, rin / din, lang, naman"],
+   ["tl-compare", "Comparing: mas … kaysa, pinaka-"]
+  ]}
+ ]
+}

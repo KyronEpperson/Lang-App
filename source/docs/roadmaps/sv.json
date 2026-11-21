@@ -1,0 +1,50 @@
+{
+ "code": "sv",
+ "name": "Swedish", "self": "Svenska",
+ "variant": "Standard Swedish (Sweden)",
+ "voice": "sv-SE",
+ "script": "Latin with extra letters: å, ä, ö; left to right",
+ "basis": "Topics and grammar of Rivstart A1+A2, units 1-6, as taught in a 30-week Level 1 course",
+ "src": [
+  "BHASVIC (Brighton): Swedish Level 1 course outline, Rivstart A1+A2 textbook units 1-6, themes and grammar topics"
+ ],
+ "note": "The outline lists Rivstart's themes and grammar (present, imperative, infinitive, modal + infinitive, pronouns, question words, word order, numbers, nouns indefinite / definite / plural, indefinite adjectives, frequency adverbs, tycker om, an introduction to the past) but not their order. The lesson order, the two sounds lessons, possessives, directions and the titles are common course practice and my own judgment.",
+ "hardest": [
+  "Long vs short vowels and the vowels å, ä, ö, u, y",
+  "The sj- and tj- sounds, and k / g that soften before e, i, y, ä, ö",
+  "en or ett for each noun, and the definite ending (bilen, huset)",
+  "Verb in second place, and where inte goes"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["sv-vowels", "Vowels: long and short, å, ä, ö, u, y"],
+   ["sv-sounds", "Tricky sounds: sj-, tj-, soft k and g, and the two word tones"],
+   ["sv-greetings", "Greetings: hej, tack, hej då"],
+   ["sv-intro", "Introducing yourself: Jag heter…, Jag kommer från…"],
+   ["sv-numbers", "Numbers and prices: Vad kostar det?"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["sv-pronouns", "Pronouns: jag, du, han, hon, vi, ni, de"],
+   ["sv-present", "Present tense in -r: jag bor, han talar"],
+   ["sv-word-order", "Verb in second place: Idag jobbar jag"],
+   ["sv-questions", "Questions: vad, var, vem, när, hur, and yes/no questions"],
+   ["sv-negation", "inte: negation and where it goes"],
+   ["sv-en-ett", "en and ett: the two genders"],
+   ["sv-definite", "Definite form: bilen, huset"],
+   ["sv-plural", "Plurals: bilar, flickor, hus"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["sv-time", "Telling the time: halv tre, kvart över"],
+   ["sv-modals", "Modal verbs + infinitive: vill, kan, måste, ska"],
+   ["sv-cafe", "At the café: Kan jag få en kaffe?, and fika"],
+   ["sv-imperative", "Imperative: Kom!, Ta!, Vänta!"],
+   ["sv-adjectives", "Adjectives: en stor bil, ett stort hus, stora hus"],
+   ["sv-possessives", "Possessives: min, mitt, mina"],
+   ["sv-routine", "Family and daily routine: ofta, alltid, aldrig"],
+   ["sv-tycker-om", "Likes and hobbies: tycker om, gillar"],
+   ["sv-att", "Infinitive with att: Jag tycker om att läsa"],
+   ["sv-directions", "Directions: till höger, till vänster, rakt fram"],
+   ["sv-past", "Past tense: jag pratade, jag var, jag hade"]
+  ]}
+ ]
+}

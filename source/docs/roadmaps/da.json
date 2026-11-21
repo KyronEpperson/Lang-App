@@ -1,0 +1,55 @@
+{
+ "code": "da",
+ "name": "Danish", "self": "Dansk",
+ "variant": "Standard Danish (Denmark, Copenhagen pronunciation)",
+ "voice": "da-DK",
+ "script": "Latin with extra letters: æ, ø, å; left to right",
+ "basis": "University beginner Danish (UBC DANI 100, textbook Puls 1), first term",
+ "src": [
+  "University of British Columbia: DANI 100 syllabus (2022W T1), weekly schedule with grammar and pronunciation, textbook Puls 1",
+  "Danes Worldwide (danes.dk): content of Danish for Beginners A1, themes and communication goals for three terms",
+  "elon.io: Danish grammar A1 learner path (a grammar website's path, not a course syllabus)"
+ ],
+ "note": "The early order follows UBC DANI 100 (alphabet and introductions, vowels, negation and adverbs, nationalities, question words and pronouns, numbers, nouns, time, present tense, inversion, weekdays, family and plurals, past tense). The UBC course reaches the past only at the end of term; danes.dk supplied later A1 topics (café, prices, home, likes). Modal verbs, possessives, adjectives, directions and all titles are common course practice and my own judgment.",
+ "hardest": [
+  "Pronunciation far from spelling: soft d, swallowed endings, many vowel sounds",
+  "The stød (glottal catch) that can change a word's meaning",
+  "Numbers 50-90: halvtreds, tres, halvfjerds, firs, halvfems",
+  "en or et for each noun, and the definite ending (bilen, huset)"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["da-alphabet", "The alphabet: æ, ø, å"],
+   ["da-vowels", "Vowels: many sounds for few letters"],
+   ["da-soft-d", "Soft d, silent letters and the stød"],
+   ["da-greetings", "Greetings: hej, tak, farvel"],
+   ["da-intro", "Introducing yourself: Jeg hedder…, Jeg kommer fra…"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["da-pronouns", "Pronouns: jeg, du, han, hun, vi, I, de, and mig, dig"],
+   ["da-present", "Present tense in -r: jeg bor, hun taler"],
+   ["da-negation", "ikke: negation and adverbs in the sentence"],
+   ["da-nationality", "Nationalities and languages: Jeg er amerikaner, Jeg taler engelsk"],
+   ["da-questions", "Questions: hvad, hvor, hvem, hvornår, hvordan, and yes/no questions"],
+   ["da-numbers", "Numbers and prices: halvtreds, tres, halvfjerds, kroner"]
+  ]},
+  {"en": "Nouns and time", "items": [
+   ["da-en-et", "en and et: the two genders"],
+   ["da-plural", "Plurals: -er, -e and no ending"],
+   ["da-definite", "Definite form: bilen, huset"],
+   ["da-time", "Telling the time: halv tre, kvart over"],
+   ["da-inversion", "Verb in second place: I dag arbejder jeg"],
+   ["da-days", "Days and routines: om morgenen, om aftenen"],
+   ["da-modals", "Modal verbs + infinitive: vil, kan, skal, må"],
+   ["da-cafe", "At the café: Jeg vil gerne have…, Hvad koster det?"]
+  ]},
+  {"en": "People and the past", "items": [
+   ["da-family", "Family and plural definite: børnene, forældrene"],
+   ["da-possessives", "Possessives: min, mit, mine"],
+   ["da-adjectives", "Adjectives: en stor bil, et stort hus, store huse"],
+   ["da-likes", "Likes: Jeg kan godt lide…, Jeg elsker…"],
+   ["da-directions", "Directions: til højre, til venstre, ligeud"],
+   ["da-past", "Past tense: jeg arbejdede, jeg var, jeg havde"]
+  ]}
+ ]
+}

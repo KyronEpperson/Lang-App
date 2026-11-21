@@ -1,0 +1,53 @@
+{
+ "code": "no",
+ "name": "Norwegian", "self": "Norsk",
+ "variant": "Norwegian Bokmål, standard East Norwegian pronunciation",
+ "voice": "nb-NO",
+ "script": "Latin with extra letters: æ, ø, å; left to right",
+ "basis": "NTNU Norwegian on the Web (NoW), chapters 1-5",
+ "src": [
+  "NTNU: Norwegian on the Web, table of contents, chapters 1-5 with themes, grammar and pronunciation"
+ ],
+ "note": "The order follows NoW chapters 1-5 (alphabet; pronouns, present, word order, negation, numbers; object pronouns, modal + infinitive, nouns definite and plural, days and time, directions; reflexives, adjectives, colours, ordinals; demonstratives, food and clothes; past tense). The page gives no CEFR label: treating these chapters as A1 is my judgment. Possessives, the separate greetings lesson, moving gender into its own stage and the titles are common course practice. Bokmål with three genders (en, ei, et) is my decision.",
+ "hardest": [
+  "Long vs short vowels and the vowels u, y, ø, æ",
+  "Three genders and the definite ending on the noun (bilen, boka, huset)",
+  "Double definiteness: den store bilen",
+  "Verb in second place, and where ikke goes"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["no-alphabet", "The alphabet: æ, ø, å"],
+   ["no-vowels", "Vowels: long and short, u and y"],
+   ["no-consonants", "Consonants: kj-, skj-, rs and silent letters"],
+   ["no-greetings", "Greetings: hei, takk, ha det"],
+   ["no-intro", "Introducing yourself: Jeg heter…, Jeg kommer fra…"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["no-present", "Pronouns and the present tense in -r: jeg snakker, du bor"],
+   ["no-word-order", "Verb in second place: I dag jobber jeg"],
+   ["no-questions", "Questions: hva, hvor, hvem, når, hvordan, and yes/no questions"],
+   ["no-negation", "ikke: negation and where it goes"],
+   ["no-numbers", "Numbers and prices: Hva koster det?"],
+   ["no-object", "Object pronouns: meg, deg, ham, henne"],
+   ["no-modals", "Modal verbs + infinitive: vil, kan, må, skal"],
+   ["no-time", "Days and telling the time: halv tre, kvart over"],
+   ["no-directions", "Asking for help and directions: til høyre, til venstre, rett fram"]
+  ]},
+  {"en": "Things and places", "items": [
+   ["no-gender", "en, ei, et: the three genders"],
+   ["no-definite", "Definite form: bilen, boka, huset"],
+   ["no-plural", "Plurals: biler, bilene"],
+   ["no-reflexive", "Reflexive verbs: jeg setter meg, han vasker seg"],
+   ["no-adjectives", "Adjectives: en stor bil, et stort hus, store hus"],
+   ["no-home", "Home, colours and ordinal numbers: første, andre, tredje"],
+   ["no-possessives", "Possessives: min, mi, mitt, mine"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["no-shopping", "Shopping and clothes: denne, dette, disse"],
+   ["no-food", "Food and drink: Kan jeg få…?"],
+   ["no-double-def", "Adjectives after den, det, de: den store bilen"],
+   ["no-past", "Past tense: jeg snakket, jeg var, jeg hadde"]
+  ]}
+ ]
+}

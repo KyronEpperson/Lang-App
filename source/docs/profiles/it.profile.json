@@ -1,0 +1,29 @@
+{
+  "native": "it",
+  "reference": "es",
+  "nativeNameEn": "Italian",
+  "name": {
+    "en": "English",
+    "it": "inglese"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "standingRule": {
+    "kind": "verb-core",
+    "keywords": "soggett[oi]|ausiliar[ei]|terza persona|(?<!d['’])accord[oi]|concordanza",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Che cosa va nello spazio?",
+    "typeHintCue": " — usa queste parole",
+    "cueTest": "[àèéìòùÀÈÉÌÒÙ«»]|\\b([Dd]i|[Dd]el|[Dd]ella|[Dd]ello|[Dd]elle|[Dd]egli|[Dd]ei|[Ii]l|[Ll]a|[Ll]e|[Gg]li|[Uu]n|[Uu]na|[Cc]he|[Ss]ono|[Nn]el|[Nn]ella|[Aa]lla|[Dd]alla|[Qq]uale|[Qq]uali|[Qq]uesta|[Qq]uesto|[Qq]ueste|[Qq]uesti|[Pp]arola|[Ff]rase|[Ss]ignifica|[Ss]i|[Dd]ici|[Ss]cegli|[Ss]crivi|[Cc]ompleta|[Rr]iordina|[Tt]raduci|[Uu]sa|[Mm]anca|[Ss]pazio|[Vv]uoto|[Vv]erbo|[Ff]orma|[Pp]assato|[Ll]ui|[Ll]ei|[Ii]o|[Tt]u|[Nn]oi|[Ll]oro|[Mm]io|[Ii]nglese|[Dd]omanda|[Aa]usiliare|[Ss]oggetto|[Cc]osa|[Tt]erza)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "false-friends": "smalltalk",
+      "make-do": "to-ing"
+    }
+  }
+}

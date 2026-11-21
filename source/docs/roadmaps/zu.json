@@ -1,0 +1,54 @@
+{
+ "code": "zu",
+ "name": "Zulu",
+ "self": "isiZulu",
+ "variant": "Standard isiZulu (South Africa)",
+ "voice": "zu-ZA",
+ "script": "Latin (c, q, x for the three clicks; hl, dl and other digraphs); left to right",
+ "basis": "University of Florida AFLI 2023 Beginning Zulu syllabus on Muller and Mthethwa's Sanibona I-II: greetings, introductions and kinship titles, 'I am / we are', noun classes, sounds and clicks, locatives; then question words, subject and object concords, commands, the -zo- future and negatives; then -na (have), counting, adjectives, colours and health; then food, time, possessives and relatives",
+ "src": [
+  "University of Florida Africa Language Institute (AFLI), Zulu beginner syllabus 2023: weekly topics, grammar and vocabulary; textbooks Muller and Mthethwa, Sanibona I and II, and Mkhize and Nxumalo, Masikhulume isiZulu",
+  "University of Florida, SSA4905 Beginning Zulu syllabus (Fall 2020): opened, but not used for word forms because many of its forms are siSwati rather than Zulu"
+ ],
+ "note": "The order follows the AFLI weeks: greetings, introductions and titles, 'I am / we are', noun classes, sounds and clicks and locatives first; question words, family, concords, commands and the future next; then -na, counting, adjectives and colours, and health; then food, time and possessives. The summary I read garbled some grammar names, so every Zulu form in the titles is from my own knowledge. I moved possessives earlier (beside family, where learners need them) and placed the past tense (not named in the AFLI summary) and directions (AFLI Part Two) by my own judgment. Splitting the weeks into 24 lessons is my own.",
+ "hardest": [
+  "The three clicks c, q, x (and their nasal and voiced forms), plus hl and dl",
+  "Noun classes: every noun's prefix (umu-, isi-, in-, i-) changes the words that agree with it",
+  "Concords: subject and object prefixes on the verb that match the noun class (ngiyakuthanda, siyabona)",
+  "Tone, which is not written, and long words built from many small parts"
+ ],
+ "stages": [
+  {"en": "Sounds and greetings", "items": [
+   ["zu-sounds", "Sounds: five vowels, hl and dl, and b said with an inward pop"],
+   ["zu-clicks", "The three clicks: c, q, x, and gc, nq, ngx"],
+   ["zu-greetings", "Greetings: Sawubona / Sanibonani, Yebo, Unjani?, Ngiyaphila, Ngiyabonga"],
+   ["zu-farewell", "Leave-taking and titles: Sala kahle / Hamba kahle; baba, mama, sisi, bhuti"]
+  ]},
+  {"en": "People and places", "items": [
+   ["zu-intro", "Introducing yourself: NginguSipho, Ngubani igama lakho?"],
+   ["zu-i-am", "I am / we are: ngingumfundi, singabafundi"],
+   ["zu-noun-classes", "Noun classes: umuntu / abantu, isikole / izikole, inja / izinja, igama / amagama"],
+   ["zu-locatives", "Places with e-…-ini, ku- and kwa-: esikoleni, endlini, eGoli, kwaZulu"],
+   ["zu-questions", "Question words: Uhlala kuphi?, Uyaphi?, Wenzani?, ubani, ngani"],
+   ["zu-family", "Family: ubaba, umama, umfowethu, udadewethu, umndeni"],
+   ["zu-possessive", "Possessives that agree: igama lami, indlu yami, abantwana bami"]
+  ]},
+  {"en": "Verbs and concords", "items": [
+   ["zu-present", "Subject concords and the present: ngi-, u-, si-, ni-, ba- (ngiyafunda)"],
+   ["zu-negative", "Negative present: angifundi, akafundi"],
+   ["zu-commands", "Commands: Hamba! Hambani! and Ungahambi"],
+   ["zu-future", "Future with -zo-: ngizofunda"],
+   ["zu-object", "Object concords: ngiyakuthanda, ngiyambona"],
+   ["zu-have", "Having with na-: nginemoto, anginamali"],
+   ["zu-past", "Past tense: ngifundile, ngifunde incwadi"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["zu-numbers", "Counting and prices: kunye, kubili, kuthathu, kune, kuhlanu; Kubiza malini?"],
+   ["zu-adjectives", "Adjectives and colours: umuntu omkhulu, inja enkulu; -mhlophe, -mnyama, -bomvu"],
+   ["zu-health", "Health: Ngiyagula, Ngiphethwe yikhanda"],
+   ["zu-food", "Food and drink: ukudla, Ngicela amanzi, Ngifuna itiye"],
+   ["zu-time", "Time and days: Sithini isikhathi?, uMsombuluko, uLwesibili"],
+   ["zu-directions", "Directions: kwesokudla, kwesobunxele, qhubeka ngqo"]
+  ]}
+ ]
+}

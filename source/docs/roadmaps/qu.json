@@ -1,0 +1,60 @@
+{
+ "code": "qu",
+ "name": "Quechua",
+ "self": "Runasimi",
+ "variant": "Southern Quechua, Cusco-Collao variety (Peru), in the standard three-vowel spelling; chosen over Ayacucho-Chanka because the only course with lessons I could open (Quechua Tinkuy) is Cusco-Collao, built with speakers from Puca Puca (Apurímac) and Quehuar (Cusco), and Cusco-Collao keeps the aspirated and glottalised stops that learners will hear across southern Peru and Bolivia",
+ "voice": "qu-PE",
+ "script": "Latin with extra letters: three vowels a, i, u; aspirated ph, th, chh, kh, qh and glottalised p', t', ch', k', q'; ll, ñ, sh; left to right",
+ "basis": "Unit order of Quechua Tinkuy (quechuatinkuy.coerll.utexas.edu, UT Austin COERLL, CC BY 4.0, Cusco-Collao): pronunciation, colours, numbers, getting to know each other, greetings, days, pronouns, introductions, kay 'to be', present progressive, past, future, getting attention, possessives, place of origin, accusative, questions, progressive, kitchen and food, songs, work in the field; cut and reordered into 26 A1 lessons.",
+ "src": [
+  "Quechua Tinkuy, UT Austin COERLL, 'About' page: team of UT Austin professors and graduate students and residents of the Puca Puca and Quehuar communities; variety Cusco Collao, based on the Quechua of Puca Puca (Apurímac) and Quehuar (Cusco); CC BY 4.0 badge; units have sections Qallarinapaq, Qillqa, Rimanakuna, Ruwapakuy",
+  "Quechua Tinkuy, unit list (unidades): titles of all 22 units (Yachana 01-22) in order with English topic labels; no grammar points given on that page",
+  "Quechua Tinkuy, Yachana 1 (pronunciation): three written vowels a, i, u (i and u sound like e and o near q, qh, q'); plain, aspirated (chh, kh, ph, qh, th) and ejective (ch', k', p', q', t') consonants; example pairs khanka (dirt) / k'anka (rooster)",
+  "Quechua Tinkuy, Yachana 4: ¿Iman sutiyki? / Pedro sutiy; ¿Maymanta kanki? / Punomanta kani; first-person possessive -y on kinship words used in greeting (wawqiy, panay)",
+  "Quechua Tinkuy, Yachana 5: Allillanchu? / Allillanmi; ¿Imaynallan turay?; Qusqumanta kani; -manta (from) for origin; kani, kanki as forms of kay",
+  "Ohio State Pressbooks, 'Quechua' by Elvia Andia Grageda: contents page only (chapters 1-11 untitled, a Cusco and Ayacucho section); all rights reserved; no lesson topics visible, so not used for the order"
+ ],
+ "note": "From the sources: the variety, the spelling (three vowels, aspirates with h, ejectives with an apostrophe), the unit topics and their order, and the phrases in the greeting, name and origin titles (as returned by a summarising fetch tool; writers must recheck them on the Tinkuy pages). For units 2-22 I opened only the titles, so every suffix and word in the other titles (numbers, colours, pronouns, -qa, -mi / -n, -chu, possessive endings, -pi / -man, -sha-, -ta, -rqa-, the future, -wan, -si / -chá, family words, time words) is my own knowledge of Cusco Quechua, not taken from the course. My own judgment: moving greetings and introductions before colours and numbers; merging Tinkuy's two progressive units and its two pronoun units; putting kay and -qa / -mi before verbs; adding family, prices, time words, directions and hearsay -si as lessons; leaving out the songs unit as a lesson (songs can be used inside lessons). Spelling decision for the lead: Tinkuy's own titles mix -nchis (Ñawpaq Ruwayninchiskuna, ¿Imata ruwashanchis?) and -nchik (Takiyninchik, Llamk'ayninchik); I use -nchis everywhere, as in Cusco speech and most Tinkuy titles; Peru's official written standard for Southern Quechua writes -nchik (own knowledge), so the lead should pick one before writers start. Convention used in titles: where Tinkuy shows a form I follow it (llamk'ay, -nchis); otherwise I use Cusco speech forms (qan, phisqa, t'anta), where the official standard writes qam and pichqa. Likewise 'you' is qan in Cusco (used here) and qam in Apurímac and Ayacucho (Tinkuy shows qamrí once). Voice: no Quechua device voice was checked; assume none and use speakers' recordings; qu-PE is the tag (quz-PE has also been used for Cusco Quechua, own knowledge). Permission and community: Tinkuy is CC BY 4.0, so reuse needs attribution to COERLL / UT Austin and, I suggest, to the Puca Puca and Quehuar community members named on its team; the course should be reviewed by a first-language Cusco Quechua teacher, and the app should present Quechua as a living language of millions, not only of the Inca past.",
+ "hardest": [
+  "Plain, aspirated and glottalised stops (khanka 'dirt' vs k'anka 'rooster'), and vowels that sound like e and o next to q",
+  "Suffix chains in a fixed order (wasi-y-pi-n 'it's in my house') and verb-last word order",
+  "Evidential endings -mi / -n (I know it) vs -si / -s (I was told), which English has no grammar for",
+  "Two words for 'we' (ñuqanchis with you, ñuqayku without you) and kinship words that depend on the speaker's sex (wawqi / turi, pana / ñaña)"
+ ],
+ "stages": [
+  {"en": "Sounds, greetings and first words", "items": [
+   ["qu-sounds", "Sounds: three vowels a, i, u (heard as e, o next to q); plain, aspirated and glottalised stops: khanka (dirt), k'anka (rooster)"],
+   ["qu-greetings", "Greetings: Allillanchu? Allillanmi; ¿Imaynallan? with panay, turay (my sister, my brother)"],
+   ["qu-name", "Name and origin: ¿Iman sutiyki? … sutiy; ¿Maymanta kanki? Qusqumanta kani"],
+   ["qu-numbers", "Numbers: huk, iskay, kimsa, tawa, phisqa … chunka; chunka hukniyuq (11)"],
+   ["qu-colours", "Colours: puka (red), yuraq (white), yana (black), q'illu (yellow), q'umir (green)"],
+   ["qu-days", "Days of the week and p'unchaw (day)"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["qu-pronouns", "Pronouns: ñuqa, qan, pay; ñuqanchis (we, with you) and ñuqayku (we, without you); qankuna, paykuna"],
+   ["qu-kay", "kay 'to be': kani, kanki, kan; and no verb at all: Pay Emperatriz (she is Emperatriz)"],
+   ["qu-qa-mi", "-qa (topic) and -mi / -n (I know it): Ñuqaqa yachachiqmi kani (I am a teacher)"],
+   ["qu-chu", "Yes / no questions and 'not' with -chu: Yachachiqchu kanki? Mana yachachiqchu kani"],
+   ["qu-question-words", "Question words: ima (what), pi (who), may (where), hayk'a (how many / how much), imayna (how)"],
+   ["qu-possessive", "Possessive endings: wasiy, wasiyki, wasin, wasinchis (my, your, his / her, our house)"],
+   ["qu-family", "Family: mama, tayta; wawqi, turi, pana, ñaña depend on whether the speaker is a man or a woman"]
+  ]},
+  {"en": "Verbs and places", "items": [
+   ["qu-place", "Place endings -pi (in), -man (to), -manta (from): llaqtamanta (from the town)"],
+   ["qu-present", "Present tense: rimani, rimanki, riman (I speak, you speak, he / she speaks)"],
+   ["qu-progressive", "-sha-: what we are doing now (¿Imata ruwashanchis?)"],
+   ["qu-ta", "The object ending -ta: T'antata munani (I want bread)"],
+   ["qu-past", "The past with -rqa-: ruwarqani (I did)"],
+   ["qu-future", "The future: ruwasaq, ruwanki, ruwanqa (I will do, you will do, he / she will do)"],
+   ["qu-commands", "Getting attention and commands: Uyariy! (listen!), rimay (speak!)"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["qu-food", "Food and the kitchen: mikhuy (to eat), papa, sara (maize), unu (water); asking for food"],
+   ["qu-market", "At the market: Hayk'ataq? (how much?), numbers and prices"],
+   ["qu-time", "Time words: kunan (now), paqarin (tomorrow), qayna p'unchaw (yesterday)"],
+   ["qu-wan", "-wan (with, and) and getting around: maypitaq? (where is it?), karu (far)"],
+   ["qu-chakra", "Work in the field: chakra (field), llamk'ay (to work)"],
+   ["qu-si", "Hearsay -si / -s and guessing -chá: passing on what others said"]
+  ]}
+ ]
+}

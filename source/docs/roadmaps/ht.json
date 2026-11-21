@@ -1,0 +1,55 @@
+{
+ "code": "ht",
+ "name": "Haitian Creole",
+ "self": "Kreyòl ayisyen",
+ "variant": "Standard Haitian Creole (Haiti), in the official orthography",
+ "voice": "ht-HT",
+ "script": "Latin with extra letters: è and ò; nasal vowels written an, en, on; ch, j, ou, ui; every letter always said the same way; left to right",
+ "basis": "Chapter order of Kreyòl pale (University of Florida; called 'A Haitian Creole Textbook for Beginners and Intermediate' in the syllabus and 'for Beginners' on the UF press page), as scheduled in UF's HAI 1130 Beginning Haitian Creole syllabus (fall 2024): greetings and pronouns, likes, numbers and age, ap and articles, family and possessives, the five forms of 'the', se / ye, time, te, weather and pral, negation and health, housing and connectors, restaurant and questions, imperatives, object pronouns and getting around; cut to 25 A1 lessons.",
+ "src": [
+  "University of Florida, HAI 1130 Beginning Haitian Creole syllabus, fall 2024 (PDF on languages.ufl.edu): week-by-week chapters 1-15 of Kreyòl pale with vocabulary and grammar per chapter (ch. 1 greetings, long and short singular pronouns, alphabet and sounds I; ch. 2 likes and hobbies, sounds II, plural pronouns, numbers and age; ch. 3 ap, definite and indefinite articles, kapab and vle; ch. 4 family, possessives with mwen, ou, li, nou, yo; ch. 5 time adverbs, plural yo, the five determiners la, a, lan, an, nan; ch. 6 demonstratives, adjectives, se and ye, past te, telling time; ch. 7 weather, months, pral / prale; ch. 8 body and health, negation with pa; ch. 9 housing, ak, avèk, e, epi; ch. 10 restaurant, questions, quantity words; ch. 11 free time, te, imperatives with kite, annou, pito, bay; ch. 12 object pronouns, mobility; ch. 13-15 conditional ta, relative ki, holidays, complex sentences); no licence stated; chapters given to students as PDFs on Canvas; the syllabus itself has date errors (2021 essay dates)",
+  "University of Florida Library Press post on Kreyòl pale: a 29-chapter textbook for beginners (2025); no authors, licence or table of contents shown; site footer says its content may not be used without permission"
+ ],
+ "note": "From the sources: the topic and grammar order (UF chapters 1-12) and the grammar items named in titles (long / short pronouns, ap, yon / la, kapab, vle, possessive pronouns after the noun, la / a / lan / an / nan and yo, se / ye, te, pral, pa, ak / avèk / e / epi, kite / annou, object pronouns). I did not open the textbook itself, only the UF syllabus that schedules it. Not from the sources, my own judgment and knowledge: splitting sounds into two lessons; moving numbers and age into the plural-pronoun lesson as UF does, but greetings phrases (Bonjou, Bonswa, Sak pase? N ap boule, Kòman ou rele?), the example sentences, Ki lè li ye? / twazè, Konbyen li koute?, Ki kote ki fè w mal?, sa a, èske and the question words are my own (common Haitian usage), not checked against the book; the weather, housing, restaurant and getting-around lessons follow UF's chapter themes with my own titles; leaving out the conditional ta, relative ki and complex sentences (UF chapters 13-15, beyond A1) and the UF chapter 11 dialogue on religion and sexual orientation (a culture topic writers can treat separately). Spelling follows the official orthography as I know it (the 1979 / 1980 IPN spelling, own knowledge); writers must check every Kreyòl word with a first-language speaker. Voice: ht-HT is the tag; device voice availability was not checked. Permission: Kreyòl pale's licence is not stated and the UF press site reserves its content, so the course must be written independently, not adapted from the book, unless the lead gets UF's permission. Haitian Creole is the national language of about 12 million people (own knowledge) and should be presented as a full language with its own grammar, not as 'broken French'.",
+ "hardest": [
+  "'The' comes after the noun and changes shape with the sound before it: la, a, an, lan, nan (liv la, papa a, machin nan); plural yo",
+  "Tense and aspect are small words before the verb (te, ap, pral, ta) that combine and shorten (t ap)",
+  "Short pronoun forms in normal speech (m, w, l, n, y) that are hard to hear",
+  "French look-alike words with different meanings, spelling and pronunciation"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["ht-sounds-1", "Alphabet and sounds 1: the official spelling; vowels a, e, è, i, o, ò, ou; nasal an, en, on"],
+   ["ht-sounds-2", "Alphabet and sounds 2: ch, j, ui, y, w; one letter, one sound"],
+   ["ht-greetings", "Greetings and introducing yourself: Bonjou, Bonswa, Sak pase? N ap boule; Kòman ou rele? Mwen rele …"],
+   ["ht-pronouns", "Subject pronouns, long and short: mwen / m, ou / w, li / l"],
+   ["ht-pronouns-plural", "Plural pronouns nou / n, yo / y; numbers and age: Ki laj ou? Mwen gen … an"],
+   ["ht-likes", "Likes and dislikes: Mwen renmen … / Mwen pa renmen …; hobbies (pastan)"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["ht-ap", "What you are doing now: the progressive ap (M ap etidye)"],
+   ["ht-articles", "yon (a) before the noun, la (the) after it: yon liv, liv la"],
+   ["ht-modals", "kapab / ka and vle: can and want (Mwen vle manje)"],
+   ["ht-family", "Family and possession: manman m, papa w, frè li (my mother, your father, his brother)"],
+   ["ht-the", "The five forms of 'the': la, a, lan, an, nan; plural yo (liv yo)"],
+   ["ht-time-words", "Time words: jodi a, demen, yè (today, tomorrow, yesterday)"],
+   ["ht-se-ye", "se and ye, 'to be': Li se pwofesè; Kote li ye?; no verb before adjectives (Li bèl)"]
+  ]},
+  {"en": "Time and daily life", "items": [
+   ["ht-clock", "Telling the time: Ki lè li ye? Li twazè (it's three o'clock)"],
+   ["ht-demonstratives", "This and these: sa a, sa yo (liv sa a, this book)"],
+   ["ht-te", "The past marker te: Mwen te manje (I ate)"],
+   ["ht-weather-future", "Weather, days and months; the future with pral (Li pral fè lapli, it's going to rain)"],
+   ["ht-negation", "Negation with pa before the markers: M pa t ap travay; pa janm (never), poko (not yet)"],
+   ["ht-health", "Body and health: Ki kote ki fè w mal? (where does it hurt?); at the pharmacy"]
+  ]},
+  {"en": "Getting things done", "items": [
+   ["ht-housing", "Finding a place to live; joining ideas with ak, avèk, e, epi"],
+   ["ht-questions", "Questions: èske, kisa, kilès, kote, ki lè, poukisa, konbyen; quantity words anpil, kèk"],
+   ["ht-restaurant", "At the restaurant: food and drink, ordering, Konbyen li koute? (how much is it?)"],
+   ["ht-commands", "Commands and suggestions: Annou ale! (let's go!), Kite m … (let me …)"],
+   ["ht-object-pronouns", "Object pronouns after the verb: Mwen wè l (I see him / her)"],
+   ["ht-getting-around", "Getting around: tap-tap and taxi, asking Ki kote … ye? (where is …?)"]
+  ]}
+ ]
+}

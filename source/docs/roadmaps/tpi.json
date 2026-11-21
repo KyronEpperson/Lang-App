@@ -1,0 +1,57 @@
+{
+ "code": "tpi",
+ "name": "Tok Pisin", "self": "Tok Pisin",
+ "variant": "Standard Tok Pisin of Papua New Guinea (careful town speech, with the predicate marker i written; spelling as in Mihalic's Jacaranda dictionary and the Tok Pisin Bible)",
+ "voice": "tpi-PG",
+ "script": "Latin (no extra letters); left to right",
+ "basis": "Dutton and Thomas, A New Course in Tok Pisin (Pacific Linguistics D-67, 1985), grammar order of units 1–5, which ANU's TOKP1002 Tok Pisin 1 recommends",
+ "src": [
+  "Tom Dutton with Dicks Thomas, A New Course in Tok Pisin (New Guinea Pidgin), Pacific Linguistics D-67, ANU 1985, open-access PDF via core.ac.uk: read the contents (grammar points of units 1–13) and the text of units 1–2 (pronouns, predicate marker i, pronunciation, spelling, dialogue situations); later units only through the contents list. Copyright © the authors; the ANU repository marks it open access with no licence named",
+  "ANU School of Culture, History and Language: TOKP1002 Tok Pisin 1 class summaries for 2019 and 2026 (learning outcomes, weekly units without named grammar, recommended texts incl. Dutton and Thomas)",
+  "ANU: Tok Pisin Language and Cultural Awareness short-course page (topic list: introductions, market, travel, health)",
+  "Not opened: the Peace Corps Tok Pisin course (ERIC ED401761) and the ANU repository copy of Dutton and Thomas; both downloads were refused. Only a catalogue description of the Peace Corps workbook (Bajao 1991) was read"
+ ],
+ "note": "The grammar order follows Dutton and Thomas units 1–5 (pronouns, i, stap, bilong; possession, laik, verbless sentences, numbers; dual/trial, questions, pinis, plural nouns, -im; bai, save, time and days; i stap, inap, bin). Placing the lessons on long, -pela, negation, commands, family (brata / susa) and directions, splitting numbers from shopping, and moving dual and trial pronouns later are my own judgment and common course practice; the survival topics match the situations of the book's dialogues (greeting in Boroko, the market, a club, asking the way, travel by bus and plane). Device voices for tpi are not checked and probably do not exist.",
+ "hardest": [
+  "Words that look like English but mean something else: save (know how to, usually), stap (be somewhere), bagarap (broken), pinis (done)",
+  "Two words for 'we': yumi (you and me) and mipela (us, not you), plus dual and trial forms such as mitupela",
+  "The little markers English lacks: i before the verb after em, ol, mipela; -im on verbs with an object; -pela on adjectives and numbers",
+  "brata and susa are counted from the speaker's sex: a man's brata is his brother, a woman's brata is her sister"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["tpi-sounds", "Sounds and spelling: five vowels, ai and au, unaspirated p, t, k, and f / p, v / b"],
+   ["tpi-greetings", "Greetings: Moning, Apinun, Gutnait, Lukim yu"],
+   ["tpi-pronouns", "Pronouns: mi, yu, em, yumi, mipela, yupela, ol"],
+   ["tpi-predicate-i", "The predicate marker i: Em i tisa, Ol i wokabaut (but Mi wokabaut)"],
+   ["tpi-intro", "Introducing yourself: Nem bilong mi…, Mi bilong Amerika"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["tpi-stap", "stap: be somewhere, live (Mi stap long Lae)"],
+   ["tpi-long", "long: the all-purpose preposition (long haus, long Mosbi)"],
+   ["tpi-bilong", "bilong: possession (haus bilong mi) and purpose"],
+   ["tpi-questions", "Questions: wanem, husat, we, hamas, olsem wanem"],
+   ["tpi-negation", "Negation with no: Mi no save, Mi no gat mani"],
+   ["tpi-numbers", "Numbers and money: wan, tu, tri, ten; kina and toea"],
+   ["tpi-pela", "-pela on adjectives and counted things: gutpela, bikpela, tupela"],
+   ["tpi-laik", "laik: want to (Mi laik baim kaukau)"],
+   ["tpi-food", "At the market and ordering: Em i kostim hamas?, Bia plis"],
+   ["tpi-im", "Verbs with an object and -im: lukim, baim, and kaikai with no -im"]
+  ]},
+  {"en": "Time and tense", "items": [
+   ["tpi-pinis", "Done: verb + pinis (Mi kaikai pinis)"],
+   ["tpi-bai", "Future with bai: Bai mi go long maket"],
+   ["tpi-save", "save: know how to, and things done usually (Mi save wok long Mande)"],
+   ["tpi-time", "Telling the time and days: Em i wanem taim nau?, Mande, Fraide, Sande"],
+   ["tpi-i-stap", "Going on now: verb + i stap (Em i slip i stap)"],
+   ["tpi-bin", "Past with bin: Mi bin go long Lae"],
+   ["tpi-inap", "inap: can, be able (Inap yu salim wanpela taksi i kam?)"]
+  ]},
+  {"en": "People and places", "items": [
+   ["tpi-dual", "More than one: ol haus, and two or three people (mitupela, yutupela, mitripela)"],
+   ["tpi-family", "Family: papa, mama, pikinini, and brata / susa counted from the speaker"],
+   ["tpi-directions", "Directions and travel: stret, han kais, han sut; long bas, long balus"],
+   ["tpi-commands", "Commands and requests: Kam!, Yu no ken…, plis"]
+  ]}
+ ]
+}

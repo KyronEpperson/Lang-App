@@ -1,0 +1,54 @@
+{
+ "code": "bg",
+ "name": "Bulgarian", "self": "български",
+ "variant": "Standard Bulgarian (Bulgaria)",
+ "voice": "bg-BG",
+ "script": "Cyrillic (Bulgarian alphabet, 30 letters); left to right",
+ "basis": "Beginner Bulgarian course content list (University of Craiova), put into teaching order by dependency",
+ "src": [
+  "University of Craiova (ucv.ro), Bulgarian language course description (PDF): unordered lists of beginner topics and grammar (съм, pronouns, question words, gender and agreement, definite article, present, aorist, future, има / няма, reflexive verbs, comparison, prepositions); no textbook named",
+  "American University in Bulgaria, Introduction to Bulgarian Language and Culture I course page: overview only (Cyrillic alphabet first), no lesson order"
+ ],
+ "note": "No ordered syllabus or textbook table of contents was opened for Bulgarian. The topics and grammar come from the Craiova list; their order, the three script lessons, the да-clause lesson and all titles are common course practice and my own judgment. Prices use the euro, which Bulgaria adopted on 1 January 2026.",
+ "hardest": [
+  "Cyrillic, including letters that look English but sound different (в, н, р, с, у, х)",
+  "The definite article on the end of the word: -ът / -а, -та, -то, -те",
+  "No infinitive: 'I want to go' is искам да отида",
+  "Aspect pairs and the aorist past tense"
+ ],
+ "stages": [
+  {"en": "Script, sounds and first words", "items": [
+   ["bg-letters-1", "Cyrillic I: familiar letters (а, е, к, м, о, т) and false friends (в, н, р, с, у, х)"],
+   ["bg-letters-2", "Cyrillic II: new letters (б, г, д, ж, з, и, й, л, п, ф, ц, ч, ш, щ)"],
+   ["bg-letters-3", "Cyrillic III: ъ, ь, ю, я and reading words"],
+   ["bg-stress", "Free stress and the vowel ъ"],
+   ["bg-greetings", "Greetings: здравей, здравейте, добър ден; ти and вие"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["bg-sam", "съм: аз съм, ти си, той е… and Това е…"],
+   ["bg-intro", "Introducing yourself: Казвам се…, Откъде сте?"],
+   ["bg-gender", "Gender and plural: град, жена, село; градове"],
+   ["bg-adjectives", "Adjectives that agree: нов, нова, ново, нови"],
+   ["bg-article", "The article on the end: -ът / -а, -та, -то, -те"],
+   ["bg-questions", "Questions with ли and question words: кой, какво, къде, кога"],
+   ["bg-numbers", "Numbers and prices: Колко струва? евро"]
+  ]},
+  {"en": "Everyday verbs", "items": [
+   ["bg-present", "Present tense, three conjugations: чета, говоря, имам"],
+   ["bg-ima", "има and няма: there is, have, there isn't"],
+   ["bg-food", "Ordering food: Искам…, Може ли…? Сметката, моля"],
+   ["bg-da", "да + verb instead of 'to': искам да, мога да, трябва да"],
+   ["bg-possessive", "Family and short possessives: майка ми, брат ми"],
+   ["bg-time", "Time and days: Колко е часът? в понеделник"],
+   ["bg-reflexive", "Reflexive verbs and daily routine: събуждам се, обличам се"],
+   ["bg-compare", "Comparing: по-голям, най-голям"]
+  ]},
+  {"en": "Out and about", "items": [
+   ["bg-prepositions", "Places and movement: в, на, от, до"],
+   ["bg-directions", "Directions and transport: наляво, надясно, направо"],
+   ["bg-shopping", "Shopping: clothes, colours and sizes"],
+   ["bg-future", "Future: ще + verb, and няма да"],
+   ["bg-aorist", "Past: the aorist (бях, четох, говорих)"]
+  ]}
+ ]
+}

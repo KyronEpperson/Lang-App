@@ -1,0 +1,144 @@
+{
+ "code": "mr",
+ "name": "Marathi",
+ "self": "मराठी",
+ "variant": "Standard Marathi (Pune), the educated standard of Pune; everyday spoken forms are taught first (माझं, करतोय) with the written forms (माझे, करत आहे) shown beside them; written in Devanagari",
+ "voice": "mr-IN",
+ "script": "Devanagari as used for Marathi, left to right, with the letter ळ, the vowels ॲ and ऑ for English loanwords, the anusvara ं and conjunct letters; Devanagari digits ०–९",
+ "basis": "Sanskrit Library 'Beginners' Course in Marathi for second language learners' (eight weeks, textbook My Marathi Book 1): script; nouns, pronouns, gender, case markers, numbers, question words; simple present, agreement, 'to be'; negation and dative 'want'; formal and informal, present progressive; time and adjective agreement; conjunctions; extended past week 8 with the past, future and modals from common practice",
+ "src": [
+  "Sanskrit Library (sanskritlibrary.org), Beginners' Course in Marathi for second language learners: eight weekly topic lists (read through a fetch summary that paraphrased them); names My Marathi Book 1 as its textbook, which was not opened; names no regional variety",
+  "Central Institute of Indian Languages / NCERT, Marathi Primer (2024, PDF): letter-by-letter script lessons (vowels including ॲ and ऑ, consonants including ळ, vowel-sign chart, numerals); a children's and adult-literacy primer, used only for the script inventory",
+  "UChicago OCHRE page for Marathi Online (digital edition of Marathi in Context): description only, no lesson list",
+  "Opened, not usable: De Gruyter page for Kavadi and Southworth, Spoken Marathi Book 1 (contents page behind access); Visva-Bharati and BHU Marathi syllabi (for advanced or native learners)"
+ ],
+ "note": "The Sanskrit Library outline stops at week 8 with the present progressive, time, adjective agreement and conjunctions, so stage 4 (होता, both kinds of past, the future, must and can) is common course practice and my own judgment, as are the lessons on having (माझ्याकडे), directions and ordering food. Changes to the outline's order: adjective agreement is moved from week 7 to stage 2 to sit beside the possessives, which agree the same way; postpositions are taught as one lesson on the oblique stem (the outline lists cases and case markers in week 3). 'Pune standard' comes from the task brief; the page names no variety. माझं नाव … आहे and तुमचं नाव काय? are taught in the introductions lesson as fixed phrases, before the gender, question and possessive lessons that explain them. Spoken forms (माझं, हवं, करतोय) are my choice for an A1 speaking course and should be confirmed. The split of the script into three lessons and all titles are my own. Spelling in titles is my own.",
+ "hardest": [
+  "Three genders, with adjectives, possessives and verbs that agree (चांगला, चांगली, चांगलं)",
+  "Retroflex ट ड ण ळ against dental त द न ल, and च / ज said two ways",
+  "Postpositions joined to the oblique stem (मुलगा → मुलाला, घर → घरात)",
+  "The past of transitive verbs, which agrees with the object (मी भात खाल्ला, मी भाजी खाल्ली)"
+ ],
+ "stages": [
+  {
+   "en": "Script, sounds and greetings",
+   "items": [
+    [
+     "mr-vowels",
+     "Devanagari vowels and vowel signs: अ आ इ ई उ ऊ ए ऐ ओ औ, and ॲ ऑ"
+    ],
+    [
+     "mr-consonants",
+     "Consonants: aspirated and retroflex letters, ळ, and च / ज said two ways"
+    ],
+    [
+     "mr-conjuncts",
+     "Conjuncts and marks: क्ष, ज्ञ, त्र, the anusvara ं, and the silent inherent अ"
+    ],
+    [
+     "mr-greetings",
+     "Greetings: नमस्कार, कसे आहात?, धन्यवाद; तू, तुम्ही and आपण"
+    ]
+   ]
+  },
+  {
+   "en": "First sentences",
+   "items": [
+    [
+     "mr-ahe",
+     "Pronouns and आहे: मी आहे, तू आहेस, तो आहे, आम्ही आहोत, तुम्ही आहात, ते आहेत"
+    ],
+    [
+     "mr-intro",
+     "Introducing yourself: माझं नाव … आहे; तुमचं नाव काय?"
+    ],
+    [
+     "mr-gender",
+     "Three genders and plurals: मुलगा / मुलगे, मुलगी / मुली, घर / घरं"
+    ],
+    [
+     "mr-questions",
+     "नाही and questions: काय, कोण, कुठे, कसा, किती"
+    ],
+    [
+     "mr-possessive",
+     "माझा, माझी, माझं and तुमचा: family"
+    ],
+    [
+     "mr-adjectives",
+     "Adjectives that agree: चांगला, चांगली, चांगलं; colours"
+    ],
+    [
+     "mr-numbers",
+     "Numbers 1–100 and prices: किती रुपये?"
+    ],
+    [
+     "mr-oblique",
+     "The oblique stem and postpositions: घरात, टेबलावर, मुलाला, पुण्याहून"
+    ]
+   ]
+  },
+  {
+   "en": "Daily life",
+   "items": [
+    [
+     "mr-present",
+     "Present habitual: मी करतो / करते, तू करतोस, तो करतो, ती करते"
+    ],
+    [
+     "mr-want-like",
+     "Wants and likes with मला: मला पाहिजे, मला हवं, मला आवडतं"
+    ],
+    [
+     "mr-food",
+     "Requests and ordering food: या, बसा, एक चहा द्या"
+    ],
+    [
+     "mr-progressive",
+     "Present progressive: मी करतोय, written मी करत आहे"
+    ],
+    [
+     "mr-time",
+     "Clock time and days: किती वाजले?, साडेतीन, सोमवार"
+    ],
+    [
+     "mr-have",
+     "Having: माझ्याकडे … आहे, and मला दोन भाऊ आहेत"
+    ],
+    [
+     "mr-directions",
+     "Directions and transport: सरळ, उजवीकडे, डावीकडे; रिक्षा, बस"
+    ]
+   ]
+  },
+  {
+   "en": "Past and future",
+   "items": [
+    [
+     "mr-hota",
+     "होता, होती, होतं: was, were"
+    ],
+    [
+     "mr-past-go",
+     "The past of going and coming: मी गेलो / गेले, ती आली"
+    ],
+    [
+     "mr-past-object",
+     "The past of transitive verbs, agreeing with the object: मी भात खाल्ला, त्याने पुस्तक वाचलं"
+    ],
+    [
+     "mr-future",
+     "The future: मी करीन, तू करशील, तो करेल, आम्ही करू"
+    ],
+    [
+     "mr-must-can",
+     "Must and can: मला जायला हवं, मी करू शकतो"
+    ],
+    [
+     "mr-connectors",
+     "Joining sentences: आणि, पण, कारण, म्हणून"
+    ]
+   ]
+  }
+ ]
+}

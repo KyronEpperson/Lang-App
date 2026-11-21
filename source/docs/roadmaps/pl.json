@@ -1,0 +1,55 @@
+{
+ "code": "pl",
+ "name": "Polish", "self": "polski",
+ "variant": "Standard Polish (Poland)",
+ "voice": "pl-PL",
+ "script": "Latin with extra letters: ą, ć, ę, ł, ń, ó, ś, ź, ż; left to right",
+ "basis": "University A1 Polish for foreigners course card (Wrocław University of Science and Technology, lessons Le1–Le13; textbooks incl. Hurra!!! Po polsku 1)",
+ "src": [
+  "Wrocław University of Science and Technology (PWr), 'Polish language A1' course card (PDF): ordered lesson content Le1–Le15 and textbook list",
+  "Polish for Beginners Level 1A course description hosted on gvsu.edu (PDF): topics, cases (nominative, accusative, instrumental), three conjugations, textbook Hurra!!! Po polsku 1"
+ ],
+ "note": "The order follows the PWr lesson sequence (alphabet and greetings, być, numbers and food, gender and accusative, instrumental for jobs, family and possessives, routine, motion verbs, time, genitive and quantity, past, future). Splitting sounds into three lessons, the separate locative and directions lessons, and the exact lesson titles are common course practice and my own judgment; the locative is not named in either source.",
+ "hardest": [
+  "Consonant clusters and near-identical hissing sounds: sz, cz, rz / ż versus ś, ć, ź",
+  "Seven cases, with endings that change by gender (accusative, instrumental and genitive already at A1)",
+  "Three conjugation patterns and irregular verbs like iść, jechać, mieć",
+  "Numbers that change the noun's case: 2 złote but 5 złotych"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["pl-alphabet", "Alphabet and the extra letters: ą, ę, ł, ó, ć, ń, ś, ź, ż"],
+   ["pl-spelling", "Letter pairs: sz, cz, rz, ch, dz, dż and ci, si, zi, ni"],
+   ["pl-stress", "Stress on the second-to-last syllable"],
+   ["pl-greetings", "Greetings: dzień dobry, cześć, do widzenia, dziękuję, proszę"],
+   ["pl-pan-pani", "Formal 'you': pan, pani versus ty"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["pl-byc", "być: jestem, jesteś, jest… and To jest…"],
+   ["pl-intro", "Introducing yourself: Mam na imię…, Jestem z…"],
+   ["pl-gender", "Gender: on, ona, ono and how endings show it"],
+   ["pl-adjectives", "Adjectives that agree: dobry, dobra, dobre"],
+   ["pl-questions", "Question words: kto, co, gdzie, jak, and czy for yes/no"],
+   ["pl-numbers", "Numbers and prices: Ile to kosztuje? złoty, złote, złotych"],
+   ["pl-am-asz", "-am, -asz verbs: mieć, mieszkać, czytać"]
+  ]},
+  {"en": "Cases at work", "items": [
+   ["pl-accusative", "Accusative: Mam brata, Proszę kawę"],
+   ["pl-ordering", "Ordering food: Poproszę…, Dla mnie…, Rachunek, proszę"],
+   ["pl-e-isz", "-ę, -isz / -esz verbs: robić, lubić, pisać"],
+   ["pl-instrumental", "Instrumental for jobs: Jestem studentem / lekarką"],
+   ["pl-family", "Family, age and possessives: mój, moja, moje; Ile masz lat?"],
+   ["pl-routine", "Daily routine and how often: zawsze, często, nigdy"]
+  ]},
+  {"en": "Time and place", "items": [
+   ["pl-motion", "Going: iść / chodzić, jechać / jeździć"],
+   ["pl-know", "Three ways to 'know': wiedzieć, umieć, znać"],
+   ["pl-time", "Time and days: Która jest godzina? w poniedziałek"],
+   ["pl-locative", "Where: w, na + locative (w domu, na poczcie)"],
+   ["pl-directions", "Directions: prosto, w lewo, w prawo"],
+   ["pl-genitive", "Genitive: nie ma, nie mam, butelka wody"],
+   ["pl-past", "Past tense: byłem / byłam, robiłem / robiłam"],
+   ["pl-future", "Future: będę + verb"]
+  ]}
+ ]
+}

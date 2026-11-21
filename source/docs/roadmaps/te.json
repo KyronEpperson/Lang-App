@@ -1,0 +1,59 @@
+{
+ "code": "te",
+ "name": "Telugu",
+ "self": "తెలుగు",
+ "variant": "Modern standard Telugu as spoken by educated speakers in Andhra Pradesh and Telangana (everyday spoken standard, not the literary grānthika style), written in Telugu script",
+ "voice": "te-IN",
+ "script": "Telugu script, left to right; an abugida with vowel signs (గుణింతాలు) and conjunct consonants (ఒత్తులు)",
+ "basis": "Michigan State University open textbook Basic Telugu (Afsar Mohammad and Rajiv Ranjan), chapter order: script; simple sentences, requests, numbers, introductions, family; past and past negative; present continuous; future, habitual and obligation; time, routine, travel and shopping",
+ "src": [
+  "Michigan State University open textbook Basic Telugu (Afsar Mohammad and Rajiv Ranjan): table of contents of chapters 1-7 (lesson titles only, no grammar labels)",
+  "KIIT School of Languages (ksol.kiit.ac.in), Telugu (Beginner) course content: an unordered list of grammar items, vocabulary and communicative skills",
+  "V. Vemuri, An Introduction to Telugu Grammar (cs.ucdavis.edu), preface and table of contents, which contrasts literary and spoken Telugu",
+  "University of Pennsylvania catalogue, Beginning Telugu I and II: course overview only (listening and speaking emphasis), no lesson order",
+  "Opened (not a syllabus): a third-party voice catalogue (json2video.com) page listing the Microsoft Azure neural voice te-IN-ShrutiNeural"
+ ],
+ "note": "The stage and lesson order follows the MSU Basic Telugu contents, including its choice to teach the past (chapter 3) before the present continuous (chapter 4) and the future-habitual (chapter 5). That contents list gives only lesson titles, so the grammar forms named in the titles here are my own knowledge, not taken from the book. The split of the script into five lessons, the separate lessons on case endings, plurals, having (ఉంది / లేదు), likes, comparing and directions, and every title are my own judgment and common course practice; KIIT's list was used only to check that nothing basic is missing. Register: the course teaches the everyday spoken standard, written as modern Telugu prose writes speech: spoken verb forms such as చేశాను, వెళ్తాను, చేస్తున్నాను and ఏమిటి, not literary forms such as చేసితిని; lesson writers should keep that convention and mention literary forms only when reading signs or print needs them. The script stage has five lessons like the hi model. Text to speech: an Azure neural voice te-IN-ShrutiNeural is listed on a third-party catalogue page; Microsoft's own voice list did not load, so it is not confirmed from Microsoft, and other Azure voice names were not verified. Device (iOS / Android) voices for te-IN were not checked.",
+ "hardest": [
+  "The script: vowel signs, the తలకట్టు, and conjuncts written below the line (అమ్మ, పుస్తకం)",
+  "Retroflex ట డ ణ ళ against dental త ద న ల, and short ఎ ఒ against long ఏ ఓ",
+  "Verb endings for person and gender (చేశాను, చేశాడు, చేసింది), with the verb at the end of the sentence",
+  "Endings instead of prepositions (ఇంట్లో, బడికి), and no word for 'is' in sentences like నా పేరు రవి"
+ ],
+ "stages": [
+  {"en": "Script, sounds and greetings", "items": [
+   ["te-vowels", "Vowels: అ ఆ ఇ ఈ ఉ ఊ ఋ ఎ ఏ ఐ ఒ ఓ ఔ, short against long"],
+   ["te-consonants-1", "Consonants 1: క ఖ గ ఘ, చ ఛ జ ఝ, retroflex ట ఠ డ ఢ ణ"],
+   ["te-consonants-2", "Consonants 2: dental త థ ద ధ న, ప ఫ బ భ మ, య ర ల వ శ ష స హ ళ"],
+   ["te-vowel-signs", "Vowel signs (గుణింతాలు): క కా కి కీ కు కూ కె కే కై కొ కో కౌ"],
+   ["te-conjuncts", "Conjuncts (ఒత్తులు), doubled letters and the round anusvara: అమ్మ, అక్క, పుస్తకం"],
+   ["te-greetings", "Greetings: నమస్కారం, ఎలా ఉన్నారు?, బాగున్నాను, ధన్యవాదాలు; నువ్వు and మీరు"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["te-no-is", "Pronouns and sentences with no 'is': నేను, నువ్వు, మీరు, అతను, ఆమె; ఇది పుస్తకం"],
+   ["te-questions", "Questions: -ఆ (బాగున్నారా?) and ఏమిటి, ఎవరు, ఎక్కడ, ఎప్పుడు, ఎలా"],
+   ["te-requests", "Requests and ordering food: రండి, ఇవ్వండి, నాకు కాఫీ కావాలి"],
+   ["te-numbers", "Numbers and phone numbers: ఒకటి, రెండు, మూడు; prices: ఎంత?, రూపాయలు"],
+   ["te-intro", "Introducing yourself: మీ పేరు ఏమిటి?, నా పేరు …, మీది ఏ ఊరు?"],
+   ["te-family", "Family and possessives: నా, నీ, మీ, మా; అమ్మ, నాన్న, అన్న, అక్క"],
+   ["te-plurals", "Plurals in -లు (పుస్తకాలు) and adjectives: పెద్ద, చిన్న, మంచి, కొత్త"],
+   ["te-case", "Case endings: -లో, -కి / -కు, -నుంచి, -తో, -మీద (ఇంట్లో, బడికి)"],
+   ["te-have", "There is and have: ఉంది, లేదు, నా దగ్గర … ఉంది"]
+  ]},
+  {"en": "Past and present", "items": [
+   ["te-past", "The past: వెళ్ళాను, తిన్నాను, చేశాను; last week's activities"],
+   ["te-past-neg", "Past negative: వెళ్ళలేదు, తినలేదు"],
+   ["te-like", "Likes and hobbies: నాకు … ఇష్టం"],
+   ["te-continuous", "Present continuous: చేస్తున్నాను, చేస్తున్నారు; negative చేయడం లేదు"],
+   ["te-and-then", "Two actions in a row: తిని వెళ్ళాను"]
+  ]},
+  {"en": "Future, routine and getting around", "items": [
+   ["te-future", "Future and habitual: చేస్తాను, వెళ్తాను; negative చేయను"],
+   ["te-must-can", "Must, must not and can: చేయాలి, చేయకూడదు, చేయగలను"],
+   ["te-time", "Clock time, days and daily routine: టైం ఎంత?, ఏడు గంటలకు, సోమవారం"],
+   ["te-shopping", "Shopping: ఇది ఎంత?, కొంచెం తగ్గించండి"],
+   ["te-directions", "Directions and travel: కుడి వైపు, ఎడమ వైపు, నేరుగా; … ఎక్కడ ఉంది?"],
+   ["te-compare", "Comparing with కంటే: ఇది దాని కంటే పెద్దది"]
+  ]}
+ ]
+}

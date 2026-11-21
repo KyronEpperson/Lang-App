@@ -1,0 +1,9 @@
+{"LANG":"Italian","NATIVE":"standard Italian (it-IT)","UP":"IT",
+ "register":"tu everywhere, imperative on buttons as the profile sets, English in straight quotes and Italian quotations in « », borrowed words invariable",
+ "pron":"IPA between slashes with ˈ stress, written exactly like the Chinese and Portuguese courses",
+ "kw":"soggetto|ausiliare|terza persona|accordo|concordanza (the regex excludes «d'accordo»: never rely on «d'accordo» to satisfy the rule)",
+ "a_extra":"Profile §8 lists four traps for writers and §9 says names carry no accents inside English strings and cities use their English names (Rome, Milan, Naples) — follow both.",
+ "b_extra":"Profile §8 lists four traps for writers — read them before you start.",
+ "c_extra":"Profile §8 lists four traps for writers — read them before you start.",
+ "d_extra":"Profile §8 lists four traps for writers — read them before you start. Never call the present perfect «passato prossimo».",
+ "i_extra":"The profile's tab labels: check each is ≤ 8 characters («Progressi» is 9 — use the profile's alternative)."}

@@ -1,0 +1,21 @@
+/* en-it extras for the Compliments deck (writer C). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
+exports.DIALOG = `
+Era tutto buonissimo. | Grazie per la cena, era tutto buonissimo. | Sono contenta! Vuoi un caffè? | Thanks for dinner, everything was delicious. / I'm so glad! Would you like a coffee?
+Complimenti! | Ho finito la maratona! | Complimenti! | I finished the marathon! / Well done!
+Ottima idea! | Andiamo al mare domenica? | Ottima idea! | Shall we go to the beach on Sunday? / Great idea!
+Sei molto gentile. | Ti aiuto con le borse. | Grazie, sei molto gentile. | I'll help you with the bags. / Thanks, you're very kind.
+Che bella casa! | Che bella casa! | Grazie, troppo gentile! | What a lovely home! / Thanks, that's so kind of you!
+Ti sta benissimo! | Come ti sembra questo vestito? | Ti sta benissimo! | What do you think of this dress? / It looks great on you!
+Parla molto bene l'italiano. | Parla molto bene l'italiano! | Grazie, ma ho ancora tanto da imparare. | You speak Italian very well! / Thanks, but I still have a lot to learn.
+Sei bravissimo! | Ho fatto io questa torta. | Sei bravissimo! | I made this cake myself. / You're really good at this!
+`;
+exports.EXAMPLES = `
+Cucini benissimo! | Cucini benissimo! Mi dai la ricetta del sugo? | You're a great cook! Will you give me the recipe for the sauce?
+Sei proprio divertente! | Sei proprio divertente, con te non ci si annoia mai. | You're so much fun; there's never a dull moment with you.
+Sei un gran lavoratore. | Sei un gran lavoratore: arrivi sempre per primo in ufficio. | You're a really hard worker: you're always the first one at the office.
+Che bella foto! | Che bella foto! È di Firenze? | What a nice photo! Is it Florence?
+`;
+exports.PATTERNS = `
+Che bel ___! | What a lovely ___! (masculine noun) | Che bel giardino! | What a lovely garden!
+Sei proprio ___. | You're really ___. | Sei proprio paziente. | You're really patient.
+`;

@@ -1,0 +1,57 @@
+{
+ "code": "hu",
+ "name": "Hungarian", "self": "Magyar",
+ "variant": "Standard Hungarian (Hungary)",
+ "voice": "hu-HU",
+ "script": "Latin with extra letters: á, é, í, ó, ö, ő, ú, ü, ű, and the letters cs, dz, dzs, gy, ly, ny, sz, ty, zs; left to right",
+ "basis": "University beginner Hungarian (S.O.S. Magyar 1 as taught at Pécs; Corvinus Hungarian for Beginners I)",
+ "src": [
+  "University of Pécs: Hungarian for Engineers 1 (SZE084AN, autumn 2023) weekly schedule with grammar and S.O.S. Magyar 1 pages",
+  "Corvinus University (CEA syllabus): Hungarian for Beginners I weekly topics and grammar",
+  "elon.io: Hungarian grammar A1 learner path (a grammar website's path, not a course syllabus)"
+ ],
+ "note": "The order follows the Pécs schedule (alphabet, articles, there is / isn't, pronouns and 'to be', question words, vowel harmony, numbers, -ban / -ben, present conjugation, -on / -en / -ön, ordinals, accusative -t and plurals, hova / hol / honnan, postpositions, past of 'to be', -val / -vel) with Corvinus for ordering food and directions. Putting vowel harmony in stage 1, definite conjugation, -ik verbs, possessive endings, 'have' with van / nincs, and szeret + -ni are common course practice and my own judgment; all titles are mine.",
+ "hardest": [
+  "Long vs short vowels (ö / ő, ü / ű) and the spellings s, sz, cs, zs, gy, ny",
+  "Vowel harmony: most endings have two or three forms",
+  "Cases as endings: -ban / -ben, -ba / -be, -ból / -ből, -t and more",
+  "Definite vs indefinite conjugation: látok or látom"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["hu-vowels", "Vowels: short and long, ö / ő, ü / ű"],
+   ["hu-consonants", "Consonants: s, sz, cs, zs, gy, ny, ty and double letters"],
+   ["hu-greetings", "Greetings: szia, jó napot, köszönöm"],
+   ["hu-intro", "Introducing yourself: Anna vagyok, amerikai vagyok"],
+   ["hu-harmony", "Vowel harmony: back and front words"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["hu-articles", "a and az: 'the', and egy"],
+   ["hu-no-is", "No 'is' in the third person: A ház nagy"],
+   ["hu-questions", "Questions: ki, mi, hol, milyen, hány"],
+   ["hu-numbers", "Numbers and prices: Mennyibe kerül?"],
+   ["hu-plural", "Plurals: házak, kertek, könyvek"],
+   ["hu-present", "Present tense: tanulok, tanulsz, tanul"],
+   ["hu-negation", "nem: negation and word order"],
+   ["hu-van-nincs", "There is, there isn't: van, nincs, and itt, ott, ez, az"],
+   ["hu-where", "Where?: -ban / -ben and -on / -en / -ön"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["hu-time", "Days and telling the time: Hány óra van?, fél három"],
+   ["hu-ik", "-ik verbs: lakik, eszik, iszik"],
+   ["hu-accusative", "The accusative -t: kávét, almát, könyvet"],
+   ["hu-food", "Ordering food: Kérek egy kávét"],
+   ["hu-definite", "Definite conjugation: látok vs látom"],
+   ["hu-to-from", "Hova? Honnan?: -ba / -be, -ból / -ből, -ra / -re, -ról / -ről"],
+   ["hu-val", "With and by: -val / -vel (busszal, Annával)"],
+   ["hu-directions", "Directions: jobbra, balra, egyenesen"],
+   ["hu-postpositions", "Postpositions: alatt, fölött, mellett, előtt"]
+  ]},
+  {"en": "Having and more", "items": [
+   ["hu-possessive", "My and your: a házam, a házad"],
+   ["hu-have", "Having: Van egy kutyám, Nincs autóm"],
+   ["hu-volt-lesz", "Was and will be: volt, lesz"],
+   ["hu-like", "Likes: szeret, and the infinitive -ni (szeretek úszni)"]
+  ]}
+ ]
+}

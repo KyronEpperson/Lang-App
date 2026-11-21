@@ -1,0 +1,55 @@
+{
+ "code": "tr",
+ "name": "Turkish", "self": "Türkçe",
+ "variant": "Standard Turkish (Istanbul, Türkiye)",
+ "voice": "tr-TR",
+ "script": "Latin with extra letters: ç, ğ, ı, İ, ö, ş, ü; left to right",
+ "basis": "University beginner Turkish: Ohio State Turkish 1101 (Öztopçu, Elementary Turkish) and Hashemite University Turkish for Beginners 1 (Yedi İklim Türkçe A1)",
+ "src": [
+  "Ohio State University, Turkish 1101 syllabus AU16 (PDF), textbook Öztopçu, Elementary Turkish: weekly order of alphabet, vowel harmony, 'to be', plurals, questions, locative, consonant alternation, genitive and possessives, present progressive, dative, var / yok, imperative, -mak istemek, ablative, accusative, past tense",
+  "Hashemite University (Jordan), Turkish for Beginners 1 course plan (PDF), textbook Yedi İklim Türkçe A1: greetings and alphabet, vowel harmony, mı / mi, bu / şu / o, plurals, numbers and days, present continuous, dative and nerede / nereden / nereye, nationalities, ablative"
+ ],
+ "note": "The order follows the OSU sequence, with greetings first and the demonstrative and numbers lessons placed as in the Hashemite plan. Giving -lı / -sız and the ordering-food lesson their own places, and the directions lesson, are common course practice and my own judgment, as are all titles.",
+ "hardest": [
+  "Vowel harmony: every suffix changes its vowel (-lar / -ler, -da / -de, -ı / -i / -u / -ü)",
+  "Word order with the verb last, and long words built from many suffixes",
+  "Consonant changes at the end of words: kitap → kitabım, çocuk → çocuğum",
+  "Dotted i and dotless ı, and the silent ğ"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["tr-alphabet", "Alphabet and sounds: ç, ğ, ı, ö, ş, ü"],
+   ["tr-harmony", "Vowel harmony: front and back, -lar / -ler"],
+   ["tr-greetings", "Greetings: merhaba, günaydın, Nasılsınız?; sen and siz"],
+   ["tr-intro", "Introducing yourself: Adım…, Memnun oldum"]
+  ]},
+  {"en": "Nouns and 'to be'", "items": [
+   ["tr-to-be", "'To be' endings: öğrenciyim, öğrencisin, öğrenci"],
+   ["tr-question", "The question particle mı / mi / mu / mü"],
+   ["tr-degil", "değil: is not"],
+   ["tr-demonstratives", "bu, şu, o: Bu ne? Bu kim?"],
+   ["tr-plural", "Plurals and question words: -lar / -ler; ne, kim, nerede, kaç"],
+   ["tr-numbers", "Numbers and prices: Kaç lira? Ne kadar?"],
+   ["tr-locative", "Locative -da / -de / -ta / -te: where something is"],
+   ["tr-var-yok", "var and yok: there is, there isn't"]
+  ]},
+  {"en": "Building words", "items": [
+   ["tr-possessive", "Possessive endings: evim, evin, evi"],
+   ["tr-consonants", "Consonant softening: kitap → kitabım, çocuk → çocuğum"],
+   ["tr-genitive", "Genitive: benim, senin; Ahmet'in evi"],
+   ["tr-have", "Having: Arabam var, Kardeşim yok"],
+   ["tr-family", "Family and age: Kaç yaşındasın?"],
+   ["tr-li-siz", "-lı / -li and -sız / -siz: with and without (şekerli, sütsüz)"]
+  ]},
+  {"en": "Verbs and getting around", "items": [
+   ["tr-progressive", "Present continuous -iyor: geliyorum, gelmiyorum, geliyor musun?"],
+   ["tr-dative", "Dative -a / -e: going to (okula gidiyorum)"],
+   ["tr-ablative", "Ablative -dan / -den: from (Nereden geliyorsun?)"],
+   ["tr-ordering", "Ordering food: … istiyorum, -mak istemek, Hesap lütfen"],
+   ["tr-time", "Time and days: Saat kaç? pazartesi"],
+   ["tr-directions", "Directions: sağa, sola, düz"],
+   ["tr-accusative", "Accusative -ı / -i: the definite object (kitabı okuyorum)"],
+   ["tr-past", "Past tense -dı / -di: geldim, gittim"]
+  ]}
+ ]
+}

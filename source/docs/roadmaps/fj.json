@@ -1,0 +1,58 @@
+{
+ "code": "fj",
+ "name": "Fijian", "self": "Vosa Vakaviti",
+ "variant": "Standard (Bauan) Fijian, the standard of books, newspapers and town speech",
+ "voice": "fj-FJ",
+ "script": "Latin (no extra letters), but with its own letter values: b = mb, d = nd, q = ngg, g = ng, c = th, dr = ndr; left to right",
+ "basis": "Paul Geraghty's 'Introduction to Fijian' course syllabus (textbook Say Bula!): sounds and spelling; greetings and questions; independent and subject pronouns; suffixed, non-suffixed and nominal possession; noun phrase, 'to be' and 'to have', verb phrase",
+ "src": [
+  "Paul Geraghty, Introduction to Fijian: four-week course syllabus with weekly grammar topics, textbook Say Bula! by Paul Geraghty (PDF hosted by Beijing Foreign Studies University, iss.bfsu.edu.cn; no institution, year or licence named)",
+  "Pasifika TKI (NZ Ministry of Education site), PDF file named Vosa Vakaviti Fijian Language Cards: greetings, courtesy, introductions, How are you?, family words (used to check spellings)",
+  "Albert J. Schütz, 'Fijian language' article on Fiji Guide (© 2022): Bauan as the written and town standard, Cargill's alphabet",
+  "Brigham Young University catalogue entry for FIJI 100 Language Study: Fijian (survival-level outcomes only)",
+  "Not opened: the Peace Corps Lessons in Fijian (ERIC ED131693; download refused), Schütz's Spoken Fijian and The Fijian Language on ScholarSpace (blocked by a browser check), and Say Bula! itself"
+ ],
+ "note": "Only the first four weeks are from a syllabus: Geraghty's order gives stage 1, the pronoun and possession lessons and the start of stage 3 ('to be' and 'to have', questions, the verb phrase). Everything after that (tense and aspect markers, negation with sega ni, transitive endings, numbers, prices, food, time, days, directions, family, commands and the village-visit lesson) is common course practice and my own judgment from general knowledge of Fijian, not from an opened source. Spellings of the greetings, courtesy, introduction and How are you? phrases and the family words follow the NZ language cards (which write Ko cei na yacamu? and Yalovinaka); Io and Sega and all other Fijian words in the titles were spelled by me and should be checked by a speaker. Nothing was opened on village protocol (sevusevu, yaqona); that lesson is from general knowledge. Device voices for fj are not checked.",
+ "hardest": [
+  "Letters with unexpected sounds: b, d, q, g, c and dr (Nadi is said Nandi)",
+  "Pronouns that count: one, two, a few or many, and 'we' with or without the listener (keirau, kedaru, keitou, keda)",
+  "Several kinds of 'my': tamaqu (family, body), noqu (things), kequ (food), mequ (drink)",
+  "Verb first and subject last: E lako o Jone, with the subject pronoun before the verb as well"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["fj-sounds", "Sounds and spelling: b = mb, d = nd, q = ngg, g = ng, c = th, dr"],
+   ["fj-vowels", "Vowels and stress: five vowels, long vowels, stress near the end of the word"],
+   ["fj-greetings", "Greetings and courtesy: Ni sa bula, Vinaka, Yalovinaka, Ni sa moce"],
+   ["fj-phrases", "Short words and phrases: Io, Sega, Vosota, Vosoti au"],
+   ["fj-intro", "Introducing yourself: Ko cei na yacamu? Na yacaqu ko…, Ko iko mai vei?"],
+   ["fj-how-are-you", "How are you?: Ko vakacava tiko? Au vinaka tiko, vinaka"]
+  ]},
+  {"en": "People and possession", "items": [
+   ["fj-pronouns", "Independent pronouns: au, iko, koya; for two, a few and many; with or without the listener"],
+   ["fj-subject", "Subject pronouns before the verb: au, o, e (Au lako, E lako)"],
+   ["fj-articles", "Articles: na for things, o / ko before names (na vale, ko Jone)"],
+   ["fj-suffixed", "Suffixed possession for family and body: tamaqu, yacamu, ligana"],
+   ["fj-noqu", "General possession: noqu, nomu, nona (noqu vale)"],
+   ["fj-kequ", "Possession of food and drink: kequ, kemu; mequ, memu"],
+   ["fj-nominal", "Possession with a noun owner: na yaca ni koro"],
+   ["fj-numbers", "Numbers and prices: dua, rua, tolu … tini; E vica?"]
+  ]},
+  {"en": "Sentences", "items": [
+   ["fj-to-be", "'To be' and 'to have': sentences with no verb, and e tiko (there is)"],
+   ["fj-questions", "Question words: cava, cei, vei, vica"],
+   ["fj-verb-phrase", "The verb phrase: verb first, subject last (E lako o Jone)"],
+   ["fj-tense", "Tense and aspect: sa, a (past), na (future), tiko (ongoing)"],
+   ["fj-negation", "Negation: sega ni (Au sega ni kila)"],
+   ["fj-transitive", "Verbs with an object: -ca and -taka (raica, vakarautaka)"],
+   ["fj-food", "Eating and asking: Au via kana, Au via gunu ti, Kerekere…"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["fj-time", "Time and days: Sa vica na kaloko? Moniti, Tusiti … Sigatabu"],
+   ["fj-family", "Family: tamaqu, tinaqu, tuakaqu, taciqu, ganequ"],
+   ["fj-directions", "Directions and places: ki (to), mai (from), e (at); i matau, i mawi"],
+   ["fj-lets", "'Let's' and commands: Daru lako, Lako mai"],
+   ["fj-village", "Visiting a village: sevusevu and yaqona"]
+  ]}
+ ]
+}

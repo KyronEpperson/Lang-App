@@ -2,7 +2,8 @@
 Writes docs/briefs/en-<t>-{A,B,1,2,3,R}.md from tools/target/<t>/profile.json (deck halves, three lesson files, reviewer)."""
 import json, sys, os
 T, LANG = sys.argv[1], sys.argv[2]; NOTE = sys.argv[3] if len(sys.argv) > 3 else ''
-R = '/home/claude'; j = json.load(open('%s/tools/target/%s/profile.json' % (R, T), encoding='utf8'))
+import os
+R = os.environ.get('LANGAPP_ROOT') or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')); j = json.load(open('%s/tools/target/%s/profile.json' % (R, T), encoding='utf8'))
 ids = [l['id'] for l in j['lessons']]; dk = [d['name'] for d in j['decks']]; h = (len(dk) + 1) // 2; n = len(ids); a = (n + 2) // 3; b = a + (n - a + 1) // 2
 tool = os.path.exists('%s/tools/target/%s/respell.js' % (R, T))
 roles = {'A': ('decks-a.js and extra-a.js', 'the first %d decks in profile order: %s' % (h, ' · '.join(dk[:h])), 'D'), 'B': ('decks-b.js and extra-b.js', 'the last %d decks in profile order: %s' % (len(dk) - h, ' · '.join(dk[h:])), 'D'),

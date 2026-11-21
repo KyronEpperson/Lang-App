@@ -1,0 +1,56 @@
+{
+ "code": "fa",
+ "name": "Persian (Farsi)",
+ "self": "فارسی",
+ "variant": "Persian of Iran (Farsi), standard written language in Perso-Arabic script, with spoken Tehran forms for recognition",
+ "voice": "fa-IR",
+ "script": "Perso-Arabic (Persian alphabet, 32 letters), written right to left; short vowels are normally not written",
+ "basis": "Ohio State Persian 1101 syllabus, built on Sedighi's Persian in Use (elementary): script, then greetings and 'to be', then 'to have', را and possession, then the simple present",
+ "src": [
+  "Ohio State University, Persian 1101 syllabus (Autumn 2016), textbook: Anousha Sedighi, Persian in Use (Leiden University Press, 2015)"
+ ],
+ "note": "The overall order (script weeks, then 'to be', 'to have', را, demonstratives, simple present and compound verbs, suffix pronouns, question words, numbers to a billion) follows the OSU syllabus. The syllabus gives the script only as three weeks, so the split into five script lessons is my own judgment. The past tense, the subjunctive with بـ, the spoken-Tehran lesson, ordering food, prices and directions go beyond what the syllabus lists and are common beginner-course practice. Teaching spoken forms for recognition only is my judgment.",
+ "hardest": [
+  "Reading without written short vowels: the same letters can be read several ways",
+  "Letter shapes that change by position, and the letters that never join to the left",
+  "The ezafe (-e) that links nouns to adjectives and owners, heard but usually not written",
+  "The gap between written and spoken Persian (می‌روم written, میرم said)"
+ ],
+ "stages": [
+  {"en": "Script, sounds and greetings", "items": [
+   ["fa-alphabet-1", "The alphabet 1: the long vowels ا و ی and the ب family (ب پ ت ث)"],
+   ["fa-alphabet-2", "The alphabet 2: letters that never join to the left (ا د ذ ر ز ژ و)"],
+   ["fa-alphabet-3", "The alphabet 3: ج چ ح خ, س ش, ص ض, ط ظ, ع غ"],
+   ["fa-alphabet-4", "The alphabet 4: ف ق ک گ ل م ن ه, and the four letter shapes"],
+   ["fa-vowels", "Short vowels a, e, o: what the script leaves out; آ and the doubling mark"],
+   ["fa-greetings", "Greetings and thanks: سلام, خداحافظ, ممنون, and شما / تو"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["fa-to-be", "Pronouns and 'to be': من, تو, او; هستم, هستی, است"],
+   ["fa-intro", "Introducing yourself: name, nationality, city and job (اهل … هستم)"],
+   ["fa-negation", "Not and yes/no questions: نیستم, نیست, and آیا"],
+   ["fa-ezafe", "The ezafe -e: joining a noun to an adjective (دوستِ خوب)"],
+   ["fa-this-that", "این and آن: this and that; plurals with ‑ها"],
+   ["fa-numbers", "Numbers 0–100 and the Persian digits ۰ to ۹"],
+   ["fa-have", "داشتن: to have (دارم, داری, دارد) and family words"],
+   ["fa-possessive", "Possessive endings: کتابم, کتابت, کتابش"]
+  ]},
+  {"en": "Verbs and daily life", "items": [
+   ["fa-present", "The simple present: می‌ + stem + ending (می‌روم, می‌خورم)"],
+   ["fa-ra", "را: marking the definite object"],
+   ["fa-compound", "Compound verbs: کار کردن, زندگی کردن"],
+   ["fa-question-words", "Question words: چه, کی (who), کجا, چند, چرا"],
+   ["fa-time", "Days, times of day and the clock: ساعت چند است؟"],
+   ["fa-shopping", "Big numbers and prices: چند است؟, تومان and ریال"],
+   ["fa-food", "Ordering food and drink: لطفاً, می‌خواهم, چای"],
+   ["fa-places", "Where things are: در, به, از, روی, زیر"],
+   ["fa-directions", "Directions and transport: مستقیم, چپ, راست"]
+  ]},
+  {"en": "Past and spoken Persian", "items": [
+   ["fa-past", "The simple past: past stems (رفتم, خوردم, دیدم)"],
+   ["fa-subjunctive", "Want to, can: the subjunctive with بـ (می‌خواهم بروم, می‌توانم)"],
+   ["fa-polite", "Polite phrases and ta'arof: بفرمایید, خواهش می‌کنم"],
+   ["fa-spoken", "Spoken Tehran forms: می‌روم → میرم, است → ـه, خانه → خونه"]
+  ]}
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "native": "ar",
+  "nativeNameEn": "Arabic",
+  "name": {
+    "en": "English",
+    "ar": "الإنجليزية"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": "[\\u0621-\\u063A\\u0641-\\u064A\\u0671-\\u06D3]",
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "pronScript": "ˈ",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "أداة التعريف|أداة التنكير|أداتا التنكير|أداتي التنكير|أداة تعريف|أداة تنكير|صيغة الجمع|معدود"
+  },
+  "labels": {
+    "mcBlankCue": " ما الكلمة المناسبة للفراغ؟",
+    "typeHintCue": " — باستخدام هذه الكلمات",
+    "cueTest": "[\\u0621-\\u063A\\u0641-\\u064A\\u0671-\\u06D3]"
+  },
+  "lessonOrder": {
+    "after": {
+      "be-2": "tense",
+      "arabic-traps": "smalltalk"
+    }
+  }
+}

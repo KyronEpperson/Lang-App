@@ -1,0 +1,5 @@
+{"LANG":"French","NATIVE":"French as written in France (fr-FR)","UP":"FR",
+ "register":"tu everywhere, infinitive on buttons, no point médian, French spacing rules (no-break space before ; : ! ? and inside « »), never Québec/Belgian/Swiss words",
+ "pron":"IPA between slashes with ˈ stress, written exactly like the Chinese and Portuguese courses",
+ "kw":"sujet|auxiliaire|troisième personne|accord (the regex excludes «d'accord»: never rely on «d'accord» to satisfy the rule)",
+ "i_extra":"French typography: use a narrow no-break space (U+202F) before ; ! ? and a no-break space (U+00A0) before : and inside « », as the profile says; never a plain space there."}

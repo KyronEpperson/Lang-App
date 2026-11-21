@@ -1,0 +1,27 @@
+{
+  "native": "zh",
+  "nativeNameEn": "Chinese",
+  "name": {
+    "en": "English",
+    "zh": "英语"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": "[\\u3400-\\u4dbf\\u4e00-\\u9fff\\u02c8]",
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "冠词|复数"
+  },
+  "labels": {
+    "mcBlankCue": " 空格处应填什么？",
+    "typeHintCue": " — 用这些词",
+    "cueTest": "[\\u3400-\\u4dbf\\u4e00-\\u9fff]"
+  },
+  "lessonOrder": {
+    "after": {
+      "chinglish": "smalltalk",
+      "articles-3": "passive"
+    }
+  }
+}

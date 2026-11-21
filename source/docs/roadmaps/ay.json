@@ -1,0 +1,58 @@
+{
+ "code": "ay",
+ "name": "Aymara",
+ "self": "Aymar aru",
+ "variant": "Central (La Paz) Aymara of Bolivia, in the official unified alphabet (alfabeto único, recognised by Supreme Decree 20227 of 1984)",
+ "voice": "ay-BO",
+ "script": "Latin with extra letters: three vowels a, i, u and the long-vowel mark (ä, ï, ü); aspirated ph, th, chh, kh, qh and glottalised p', t', ch', k', q'; x for the uvular fricative; ll, ñ; left to right",
+ "basis": "No adult A1 syllabus for La Paz Aymara could be opened. The order combines the Universidad de Chile basic Aymara course EH2527 (greetings and self-introduction first, then sounds and the alphabet, the four persons naya / juma / jupa / jiwasa with -xa and -na) with the content order of two 2023 CEMSE (La Paz) Aymara school texts (greetings and question words, family and pronouns, colours and demonstratives, food, months, numbers, market and verbs; possessives, verb tenses and -pxa later); the remaining grammar order is common practice from my own knowledge; 25 A1 lessons.",
+ "src": [
+  "Universidad de Chile, EH2527 'Lengua, cultura y cosmopráctica aymara (nivel básico)' (Rubén Maquera Butrón, Jannet Mery Patzi; PDF on pueblosindigenas.ing.uchile.cl): unit 1 greetings and self-introduction (name, age, origin, occupation, family), courtesy; unit 2 language family Jaqi-Aru, suffixing and agglutinative, SOV, the alphabet and articulation, persons naya, juma, jupa, jiwasa with the suffixes xa and na; unit 3 cosmovision; unit 4 akulliña, awatiña, yapuchaña; bibliography includes Yapita, Aymara: Método Fácil I (1994), and Cerrón Palomino and Carvajal (2009), neither opened",
+  "CEMSE (Centro de Multiservicios Educativos), La Paz 2023, Aymara teaching and learning text (Janneth Soledad Carita Mamani; on lapaz.bo): ten units in order: greetings and question words kuna, khiti, kawki, kamisa, qawqha with -sa; gender pairs; family and naya, juma, jupa, jiwasa; colours and aka, uka, khaya; healthy food; harmony and metathesis; months; cardinal and ordinal numbers; at the market (qhaturu sarasa), verb roots and the infinitive -ña, verb-final order; water use. Intellectual property of CEMSE, no open licence stated; school text (bilingual, for Spanish-speaking pupils, as far as I can tell)",
+  "CEMSE, La Paz 2023, 'Enseñanza de la Lengua Aymara, nivel primaria' (Nicolás Nilton Ramos Mamani, Yola Estrada Silvestre Quispe; on lapaz.bo): year-by-year primary contents: alphabet, nouns with plural -naka, family, clothing, body, numbers 1-100 with -ni from 11; pronouns of four persons; time, clock; possessive suffixes -ja, -ma, -pa, -sa and -wa; present-tense suffixes; past tenses (witnessed and non-witnessed), future, plural -pxa; interrogatives kuna, khiti, kawki, qawqha, kunjama, kunawsa; occupations. States the unified alphabet of D.S. 20227 (1984). CEMSE intellectual property, no open licence; written for primary schools (first-language and second-language pupils)",
+  "Archived web page 'Aymara Grammar: A short introduction' (aymara.org, Aymara Uta, 2001): jisa, jani, inasa; the four persons and their plurals with -naka; numbers; colours (janq'u, ch'iyara); phrases (Kamisaraki, Kunjamaskatasa?); notes that the official alphabet is the 'único' phonemic alphabet; anonymous, older spellings, so not used for spelling",
+  "Peace Corps / University of Washington 'Beginning Aymara: A course for English speakers' (Paul Wexler, ed., Seattle 1967, 486 pp.): only the bibliographic record (Tel Aviv University) and the fsi-language-courses.org listing page were opened; the PDFs could not be fetched from this session, so the course was not used"
+ ],
+ "note": "Honesty first: none of the opened sources is an A1 syllabus for adult English speakers. The U. Chile course is a university elective for Spanish speakers (and the Aymara spoken in Chile differs somewhat from La Paz Aymara; own knowledge); the two CEMSE texts are Bolivian school materials. From the sources: greetings before grammar; the four persons with -xa; the alphabet; question words with -sa; family, colours, food, months, numbers and market topics; -naka, -ja / -ma / -pa / -sa, -wa, -ña, verb-final order, -ni in numbers from 11, aka / uka / khaya, the two pasts, the future and -pxa as later grammar; qhaturu (to the market). My own knowledge and judgment, not from the sources: the lesson order beyond those points; the greeting forms Kamisaraki? Waliki, Aski urukipan / jayp'ukipan / arumakipan; Yuspajara (written Yuspagara in the old aymara.org page); jilata / kullaka as polite address; Kunas sutimaxa?; Jupax yatichiriwa; Janiw yatkti; the -ti question; -na / -ru / -ta place endings (beyond qhaturu); tayka, awki, t'ant'a, ch'uqi, uma, the colour words beyond janq'u and ch'iyara, munaña, Qawqhasa?, kupi / ch'iqa, phaxsi, the past endings -ya- / -tayna (the CEMSE primary text writes the two pasts as -yä and -tä; the writers must settle the forms with a speaker). Leaving out CEMSE's metathesis and gender-pair units as lessons, and the U. Chile cosmovision and ritual units (akulliña and similar practices should only be taught with Aymara community guidance). Every Aymara word came through a summarising fetch tool or my memory; writers must check each with a first-language La Paz speaker. Voice: no Aymara device voice was checked; assume none and use speakers' recordings. Permission and community: CEMSE's texts are its intellectual property, so they can guide topics but must not be copied; Aymara is an official language of Bolivia with its own language institute (ILCA / Ministry institutes; own knowledge), and the course should be reviewed by a La Paz Aymara teacher. If the lead can obtain Wexler's Peace Corps course (public domain) or Yapita's Método Fácil, the order should be re-checked against it.",
+ "hardest": [
+  "Plain, aspirated and glottalised stops (k / kh / k', q / qh / q') and the uvular sounds q and x",
+  "Four persons, including jiwasa ('you and I'), marked on nouns and verbs",
+  "Suffix chains and vowel dropping (suti-ma-xa, Janiw), with sentence-final -wa and topic -xa",
+  "Verbs that mark whether the speaker saw something happen or was told about it"
+ ],
+ "stages": [
+  {"en": "Sounds, greetings and first words", "items": [
+   ["ay-vowels", "The unified alphabet: three vowels a, i, u and the long-vowel mark ä, ï, ü"],
+   ["ay-consonants", "Plain, aspirated and glottalised stops: p, ph, p'; t, th, t'; k, kh, k'; q, qh, q'; and x"],
+   ["ay-greetings", "Greetings: Kamisaraki? Waliki; Aski urukipan, Aski jayp'ukipan, Aski arumakipan (good morning, afternoon, night)"],
+   ["ay-courtesy", "First words: jisa (yes), jani (no), Yuspajara (thank you); jilata and kullaka (brother, sister) as polite address"],
+   ["ay-intro", "Introducing yourself: Kunas sutimaxa? (what is your name?); name, age, origin and work"],
+   ["ay-numbers", "Numbers 1-10: maya, paya, kimsa, pusi, phisqa … tunka; from 11 with -ni: tunka mayani"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["ay-persons", "The four persons: naya, juma, jupa and jiwasa (you and I); plural -naka (nayanaka)"],
+   ["ay-xa-wa", "Topic -xa and sentence-final -wa: Jupax yatichiriwa (he / she is a teacher)"],
+   ["ay-questions", "Questions: -sa with kuna, khiti, kawki, qawqha, kunjama, kunawsa; yes / no with -ti"],
+   ["ay-negation", "Negation jani … -ti: Janiw yatkti (I don't know)"],
+   ["ay-possessive", "Possessive endings -ja, -ma, -pa, -sa: utaja, utama, utapa, utasa (my, your, his / her, our house)"],
+   ["ay-demonstratives", "aka, uka, khaya: this, that, that over there"],
+   ["ay-family", "Family (wila masi): tayka (mother), awki (father), jilata, kullaka, with possessive endings"],
+   ["ay-colours", "Colours (saminaka): wila, janq'u, ch'iyara, q'illu, ch'uxña (red, white, black, yellow, green)"]
+  ]},
+  {"en": "Verbs", "items": [
+   ["ay-infinitive", "Verbs: the infinitive -ña (saraña, to go; manq'aña, to eat) and verb-last word order"],
+   ["ay-present", "The simple (present) tense with -xa and -wa, for naya, juma, jupa and jiwasa"],
+   ["ay-place", "Place endings -na (in, at), -ru (to), -ta (from): qhaturu (to the market)"],
+   ["ay-future", "The future, marked by a long vowel (written with the diaeresis, ä) or a zero ending"],
+   ["ay-past", "Two pasts: what I saw (-ya-) and what I was told (-tayna)"],
+   ["ay-plural-verb", "-pxa-: plural subjects in the verb"]
+  ]},
+  {"en": "Everyday life", "items": [
+   ["ay-market", "At the market (qhatu): Qawqhasa? (how much?), buying and selling"],
+   ["ay-food", "Food (manq'a): ch'uqi (potato), t'ant'a (bread), uma (water); asking with munaña (to want)"],
+   ["ay-time", "Days, months (phaxsi) and telling the time"],
+   ["ay-directions", "Directions: kupi (right), ch'iqa (left), near and far"],
+   ["ay-daily", "Daily life and work: herding and farming words (awatiña, yapuchaña)"]
+  ]}
+ ]
+}
