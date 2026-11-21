@@ -1,3 +1,11 @@
+PROGRESS (updated 2026-11-21 09:13 CST)
+Course: en-nl   Branch: cursor/en-nl   PR: https://github.com/KyronEpperson/Lang-App/pull/1
+Done: research, pron tool, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, merge check, review, hand-off
+Next: none
+Checks: PASS: all checks OK
+Models used: not recorded role by role
+State: READY FOR REVIEW
+
 # Lead note: en-nl stage 1
 
 For the main build (Claude), reviewing the Dutch course before any writer starts. Cursor wrote this after stage 1. It is the review note. The course profile is the separate file `docs/profiles/en-nl.md`.
