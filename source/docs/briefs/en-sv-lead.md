@@ -1,12 +1,10 @@
-PROGRESS (updated 2026-11-21 13:58 CST)
+PROGRESS (updated 2026-11-21 14:29 CST)
 Course: en-sv   Branch: cursor/en-sv   PR: https://github.com/KyronEpperson/Lang-App/pull/6
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check
-Next: review
-Checks: PASS: all checks OK. gen.js: 26 lessons, 18 decks, 319 cards. repron twice: 632 prons read, 13 rewritten, then 0 rewritten. link_roadmap: 24 linked, not covered: none. The two added lessons have no roadmap id. packs/roadmaps.js was not kept.
-Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
-State: WORKING
-
-Lexicon added, then regenerated: student stuh-DEHNT (Wiktionary /stɵˈdɛnt/), sover SOH-vehr and sova SOH-vah (/²soːva/, the å-vowel), kiss kihs (/kɪs/, hard k, short i), kallt kahllt (/kalː/), semester seh-MEHS-tehr (/sɛˈmɛstɛr/), musik muh-SEEK (/mʉˈsiːk/). trevligt is TRAYV-lihgt from the long-vowel spelling rule; that page had no IPA. Left as the tool prints them: hade is already short (/²hadːɛ/), so the long-a guess was not applied. Still for the reviewer, unsourced: universitet, apotek, kontoret, present, termin, toaletten, hotellet, kaféet, allergisk, hen, ledsen, långt, lugn, ibland, ifrån, fotboll, fint, sjukt, honom, personer, familjer, telefoner, kusiner, puss, alltid. The tool still warns on toaletten, hotellet, kaféet, apotek, allergisk, universitet, kontoret, klasskamrat, fritiden, läraren.
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check, review, hand-off
+Next: none
+Checks: after review, PASS: all checks OK. gen.js: 26 lessons, 18 decks, 319 cards. repron twice: 633 prons read, 0 rewritten. The tool still warns on klasskamrat and fritiden. link_roadmap: 24 linked, not covered: none. The two added lessons have no roadmap id. packs/roadmaps.js was not kept.
+Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high; review = grok-4.7-xhigh (same family: gemini-4-neon-xhigh and claude-fable-5-2-xhigh had no allowance)
+State: READY FOR REVIEW
 
 # Lead note: en-sv stage 1
 

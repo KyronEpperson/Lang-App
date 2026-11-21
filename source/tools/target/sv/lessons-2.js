@@ -109,14 +109,14 @@ module.exports = [
     body: `
 <p>English <i>the</i> is its own word, and it does not care what noun follows. Swedish has no word that works that way on its own. You drop the indefinite article, <i>en</i> or <i>ett</i>, and add a definite suffix to the noun. The gender you already learned decides the suffix.</p>
 <h3>The suffix, not a separate word</h3>
-<p>A common-gender noun, an en-word, takes <i>-en</i> after a consonant and <i>-n</i> after a vowel. A neuter noun, an ett-word, takes <i>-et</i> after a consonant and <i>-t</i> after a vowel. <i>en bil</i> becomes <i>bilen</i>. <i>ett hus</i> becomes <i>huset</i>. English <i>the</i> does not tell you which suffix to use. The noun does.</p>
+<p>A common-gender noun, an en-word, takes <i>-en</i> after a consonant and <i>-n</i> after a vowel. A neuter noun, an ett-word, takes <i>-et</i> after a consonant. <i>en bil</i> becomes <i>bilen</i>. <i>ett hus</i> becomes <i>huset</i>. <i>ett barn</i> becomes <i>barnet</i>: <i>barn</i> ends in <i>n</i>, a consonant, so the definite suffix is <i>-et</i>, not a bare <i>-t</i>. A neuter noun that already ends in an unstressed <i>e</i>, such as <i>äpple</i>, adds only <i>-t</i>: <i>äpplet</i>. English <i>the</i> does not tell you which suffix to use. The noun does.</p>
 <div class="tbl"><table><tr><th></th><th>A, an</th><th>The</th></tr>
 <tr><td>en-word, consonant</td><td class="k">en bil</td><td class="k">bilen</td></tr>
 <tr><td>en-word, vowel</td><td class="k">en mamma</td><td class="k">mamman</td></tr>
 <tr><td>en-word, vowel</td><td class="k">en lärare</td><td class="k">läraren</td></tr>
 <tr><td>ett-word, consonant</td><td class="k">ett hus</td><td class="k">huset</td></tr>
 <tr><td>ett-word, consonant</td><td class="k">ett glas</td><td class="k">glaset</td></tr>
-<tr><td>ett-word, vowel</td><td class="k">ett barn</td><td class="k">barnet</td></tr>
+<tr><td>ett-word, consonant</td><td class="k">ett barn</td><td class="k">barnet</td></tr>
 </table></div>
 {{ex:bilen|BEE-lehn|the car}}
 {{ex:huset|HUEH-seht|the house}}
@@ -143,16 +143,16 @@ module.exports = [
       ["mc", "the car", "bilen", "en bil", "den bil", "ett bil", "The definite suffix is -en. en bil means a car."],
       ["mc", "the house", "huset", "en hus", "hus", "den hus", "hus is an ett-word. The definite ending is -et: huset."],
       ["mc", "the mom", "mamman", "mammaen", "en mamma", "mammanen", "mamma ends in a vowel, so the definite suffix is -n."],
-      ["mc", "the child", "barnet", "en barn", "barn", "barnets", "barn is an ett-word ending in a vowel. The definite suffix is -t."],
+      ["mc", "the child", "barnet", "en barn", "barn", "barnets", "barn ends in a consonant. The definite suffix is -et: barnet."],
       ["mc", "the big car (recognize it)", "den stora bilen", "den stora bil", "den stor bilen", "en stor bilen", "The definite form keeps the suffix: den stora bilen."],
       ["or", "Where is the car? (start with var)", "Var är bilen", "en", "Verb second: var first, then är. The definite suffix is -en."],
       ["or", "I live in the house. (start with jag)", "Jag bor i huset", "ett", "The definite ending on hus is -et."],
       ["or", "Today I work. (start with idag)", "Idag jobbar jag", "inte", "Verb second: idag first, then jobbar, then jag."],
       ["fi", "Var är __?", "Where is the car?", "bilen", "en bil|bil|huset", "The definite suffix is -en: bilen, not en bil."],
       ["fi", "Jag bor i __.", "I live in the house.", "huset", "ett hus|hus|huse", "The definite ending on hus is -et. Write the t."],
-      ["fi", "__ är trött.", "The child is tired.", "Barnet", "Ett barn|Barn|En barn", "barn is an ett-word. The definite suffix is -t: barnet."],
+      ["fi", "__ är trött.", "The child is tired.", "Barnet", "Ett barn|Barn|En barn", "barn ends in a consonant. The definite suffix is -et: barnet."],
       ["ty", "Where is the teacher? (start with var)", "Var är läraren", "var · lärare", "en", "Verb second: var first, then är. The definite suffix is -n."],
-      ["ty", "The child is tired.", "Barnet är trött", "barn · trött", "en", "barn is an ett-word. The definite suffix is -t: barnet."],
+      ["ty", "The child is tired.", "Barnet är trött", "barn · trött", "en", "barn ends in a consonant. The definite suffix is -et: barnet."],
       ["ty", "Where is the mom? (start with var)", "Var är mamman", "var · mamma", "en", "Verb second: var first, then är. The definite suffix is -n."]
     ]
   },
@@ -309,7 +309,7 @@ module.exports = [
       ["fi", "Imorgon __ jag jobba.", "Tomorrow I'm going to work.", "ska", "att|jobbar|och", "Verb second: imorgon first, then ska. The infinitive has no att."],
       ["fi", "__ buss", "a bus", "en", "ett|den|det", "buss is an en-word: en buss."],
       ["ty", "Tomorrow I'm going by train. (start with imorgon, use ska and åka tåg)", "Imorgon ska jag åka tåg", "imorgon · ska · åka · tåg", "att", "Verb second: imorgon first, then ska. No att before åka."],
-      ["ty", "I don't have to go. (start with jag)", "Jag måste inte gå", "måste · gå", "får", "inte goes after the modal. måste inte means you do not have to."],
+      ["ty", "I don't have to go. (use måste, start with jag)", "Jag måste inte gå", "måste · gå", "får", "inte goes after the modal. måste inte means you do not have to."],
       ["ty", "a train", "ett tåg", "tåg", "en", "tåg is an ett-word: ett tåg."]
     ]
   },
@@ -402,7 +402,7 @@ module.exports = [
 {{ex:Kom inte!|kawm IHN-teh|Don't come!}}
 {{ex:Vänta inte!|VEHN-tah IHN-teh|Don't wait!}}
 <h3>Sick or in pain</h3>
-<p><i>Jag är sjuk</i> means I'm sick. A person says <i>sjuk</i>, and you do not build a new ending for this phrase. Pain is a different sentence. <i>har</i> is the present of <i>ha</i>, the same form for every person. You already use the infinitive <i>ha</i> after <i>vill</i>. <i>Jag har ont</i> means I'm in pain. A headache is <i>Jag har ont i huvudet</i>. <i>huvud</i> is an ett-word, a head, and <i>huvudet</i> is the definite form. The <i>-t</i> is the definite suffix you already know. <i>Hjälp mig!</i> uses <i>mig</i>, the object form from the pronoun lesson. At the café, <i>hjälpa</i> was the infinitive. The command is the short form.</p>
+<p><i>Jag är sjuk</i> means I'm sick. For one person, that phrase has no extra ending. Do not add <i>-t</i>. Pain is a different sentence. <i>har</i> is the present of <i>ha</i>, the same form for every person. You already use the infinitive <i>ha</i> after <i>vill</i>. <i>Jag har ont</i> means I'm in pain. A headache is <i>Jag har ont i huvudet</i>. <i>huvud</i> is an ett-word, a head, and <i>huvudet</i> is the definite form. <i>huvud</i> ends in a consonant, so the definite suffix is <i>-et</i>, the same ending as on <i>huset</i>. The final <i>t</i> is often quiet. Write it. <i>Hjälp mig!</i> uses <i>mig</i>, the object form from the pronoun lesson. At the café, <i>hjälpa</i> was the infinitive. The command is the short form.</p>
 {{ex:Jag är sjuk.|jah aer sjuehk|I'm sick.}}
 {{ex:Jag har ont.|jah hahr awnt|I'm in pain.}}
 {{ex:Jag har ont i huvudet.|jah hahr awnt ee HUEH-vuh-deht|I have a headache.}}
@@ -425,9 +425,9 @@ module.exports = [
       ["or", "a head", "ett huvud", "en", "huvud is an ett-word: ett huvud."],
       ["fi", "__ inte!", "Don't come!", "Kom", "Kommer|Komma|Inte", "The command is Kom, and inte goes after it."],
       ["fi", "Jag __ sjuk.", "I'm sick.", "är", "har|mår|kommer", "Jag är sjuk. har goes with ont, not with sjuk."],
-      ["fi", "Jag har ont i __.", "I have a headache.", "huvudet", "huvud|huvuden|ont", "huvud is an ett-word. The definite suffix is -t: huvudet."],
+      ["fi", "Jag har ont i __.", "I have a headache.", "huvudet", "huvud|huvuden|ont", "huvud ends in a consonant. The definite suffix is -et: huvudet."],
       ["ty", "Don't wait! (start with vänta)", "Vänta inte", "vänta · inte", "väntar", "inte goes after the verb. Drop the -r: Vänta, not Väntar."],
-      ["ty", "I have a headache. (use har and huvudet)", "Jag har ont i huvudet", "ha · ont · huvud", "en", "huvud is an ett-word. The definite suffix is -t: huvudet."],
+      ["ty", "I have a headache. (use har and huvudet)", "Jag har ont i huvudet", "ha · ont · huvud", "en", "huvud ends in a consonant. The definite suffix is -et: huvudet."],
       ["ty", "Help me! (the command)", "Hjälp mig", "hjälpa · mig", "hjälper", "The command is Hjälp, then mig. Not the present hjälper."]
     ]
   },

@@ -137,8 +137,9 @@ module.exports = [
 {{ex:Tack!|tahkk|Thank you!}}
 {{ex:Tack så mycket!|tahkk soh MYWK-eht|Thank you so much!}}
 {{ex:Varsågod!|vahsh-aw-GOOHD|Here you are. You're welcome.}}
-<p><i>Förlåt</i> is sorry, and also excuse me. <i>Hej då</i> is goodbye, at any time of day. The <i>då</i> uses the <i>oh</i> of <i>å</i>.</p>
-{{ex:Förlåt!|fur-LOHT|Sorry. Excuse me.}}
+<p><i>Förlåt</i> is sorry. <i>Ursäkta</i> is excuse me, when you stop someone or bump them. <i>Hej då</i> is goodbye, at any time of day. The <i>då</i> uses the <i>oh</i> of <i>å</i>.</p>
+{{ex:Förlåt!|fur-LOHT|Sorry!}}
+{{ex:Ursäkta.|uhr-SEHK-tah|Excuse me.}}
 {{ex:Hej då!|hey doh|Bye!}}
 <h3>du for one person</h3>
 <p>English has one "you". Swedish uses <i>du</i> for one person: a friend, a classmate, a waiter, a shop assistant, a boss, a doctor. It is not rude. Do not capitalise it.</p>
@@ -517,10 +518,10 @@ module.exports = [
       ["or", "Today I'm working. (start with idag)", "Idag jobbar jag", "är", "Verb second: idag first, then jobbar, then jag."],
       ["or", "Are you working? (start with the verb)", "Jobbar du", "är", "In a yes-or-no question the verb comes first."],
       ["or", "a day", "en dag", "ett", "dag is an en-word: en dag."],
-      ["fi", "Idag __ jag.", "Today I'm working. (start with idag)", "jobbar", "regnar|är|bor", "Verb second: after idag the next piece is jobbar, then jag."],
+      ["fi", "Idag __ jag.", "Today I'm working. (start with idag)", "jobbar|arbetar", "regnar|är|bor", "Verb second: after idag the next piece is the verb, then jag. jobbar and arbetar both mean work."],
       ["fi", "Idag regnar __.", "Today it's raining.", "det", "jag|du|den", "Weather uses det. Idag regnar det, with the verb second."],
       ["fi", "__ jobbar jag.", "On Monday I'm working. (the day alone, no på)", "måndag", "idag|imorgon|igår", "The day comes first, then the verb, then jag. måndag is Monday."],
-      ["ty", "Today I'm working. (start with idag)", "Idag jobbar jag.", "idag · jobbar · start with idag", "är", "Verb second: idag first, then jobbar, then jag."],
+      ["ty", "Today I'm working. (start with idag)", "Idag jobbar jag.|Idag arbetar jag.", "idag · jobbar · start with idag", "är", "Verb second: idag first, then the verb, then jag. jobbar and arbetar both mean work."],
       ["ty", "Tomorrow it's raining. (start with imorgon)", "Imorgon regnar det.", "imorgon · regnar · start with imorgon", "är", "Verb second: imorgon first, then regnar, then det."],
       ["ty", "a day", "en dag", "dag · common gender", "ett", "dag is an en-word: en dag."]
     ]

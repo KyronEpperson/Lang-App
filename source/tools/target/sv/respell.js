@@ -15,6 +15,14 @@ choklad=sjuh-klahd person=pehr-shoohn semester=seh-MEHS-tehr finland=fihn-lahnd
 student=stuh-DEHNT studenter=stuh-DEHN-tehr studenten=stuh-DEHN-tehn
 sover=SOH-vehr sova=SOH-vah kall=kahll kallt=kahllt kiss=kihs
 musik=muh-SEEK trevlig=TRAYV-lihg trevligt=TRAYV-lihgt
+ledsen=LEHSS-ehn honom=HAWN-awm fotboll=FOOHT-bawl ibland=ih-BLAHND ifrån=ih-FROHN
+fint=feent sjukt=sjuehkt present=preh-SEHNT termin=tehr-MEEN
+toalett=tooh-ah-LEHT toaletten=tooh-ah-LEHT-ehn hotellet=haw-TEHL-eht
+kaféet=kah-FAY-eht kafeet=kah-FAY-eht allergisk=ah-LAER-gihsk
+universitet=uhn-ih-vehrsh-ih-TAYT universitetet=uhn-ih-vehrsh-ih-TAYT-eht
+apotek=ah-paw-TAYK apoteket=ah-paw-TAY-keht kontor=kawn-TOOHR kontoret=kawn-TOOHR-eht
+biljetten=bihl-JEHT-ehn kusin=kuh-SEEN kusiner=kuh-SEEN-ehr
+personer=pehr-SHOOH-nehr familjer=fah-MIHJ-ehr telefoner=teh-leh-FOHN-ehr
 video=vee-deh-oh radio=rah-dee-oh telefon=teh-leh-FOHN problem=praw-BLAYM
 kafé=kah-FAY café=kah-FAY
 malmö=mahll-meuh umeå=ueh-meh-oh göteborg=jur-teh-BAWRJ
@@ -26,7 +34,7 @@ ursäkta=uhr-SEHK-tah recept=reh-SEHPT minneapolis=mihn-eh-ah-POH-lihs
 `;
 
 /* First vowel short even though only one consonant follows (orthography leaves m, and some n, single). */
-const SHORT = new Set('han hon kan man men den in igen mun ton vän än fem som om rum sen hade för kom fram vem'.split(' '));
+const SHORT = new Set('han hon kan man men den hen in igen mun ton vän än fem som om rum sen hade för kom fram vem'.split(' '));
 /* A following rt/rd/rn/rl/rs counts as one consonant, so the default is a long vowel. These are short. */
 const SHORT_RETRO = new Set('kort fort sport start bort port svart hjärta värt hört skjorta gjort första fjorton'.split(' '));
 /* k/g/sk stays hard before the first front vowel (Svealand kex; kille "guy"). */
@@ -38,7 +46,7 @@ const NOCOMP = new Set('centrum porträtt pingvin'.split(' '));
 /* Compound stress on the second part (place names). */
 const STRESS_LAST = new Set('göteborg varför'.split(' '));
 /* Three-syllable words whose first-syllable stress was checked, so the tool stays quiet. */
-const NOWARN = new Set('uppsala åttio trettio fyrtio femtio sextio sjuttio nittio william köttbullar kiruna hundra morgonen arbetar jättegott huvudet huvud'.split(' '));
+const NOWARN = new Set('uppsala åttio trettio fyrtio femtio sextio sjuttio nittio william köttbullar kiruna hundra morgonen arbetar jättegott huvudet huvud läraren'.split(' '));
 
 const HEADS = `middag förmiddag eftermiddag måltid framtid fritid alltid
 dag tid natt vecka månad morgon kväll rum hus väg gata plats stad kort bil buss tåg plan

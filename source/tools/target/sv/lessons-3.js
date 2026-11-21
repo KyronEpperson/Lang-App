@@ -26,11 +26,11 @@ module.exports = [
 <h3>Someone else's, or the subject's own</h3>
 <p><i>hans</i>, <i>hennes</i> and <i>deras</i> do not change. One form covers an en-word, an ett-word and a plural. They mean someone else's thing: his, her, their.</p>
 {{ex:Maja ringer hans mamma.|MAI-ah RIHNG-ehr hahns MAHMM-ah|Maja calls his mom, not her own.}}
-<p><i>sin</i>, <i>sitt</i> and <i>sina</i> mean the subject's own. Use them when the subject is another person, not <i>jag</i>, <i>du</i>, <i>vi</i> or <i>ni</i>. The word still matches the thing. <i>ringer</i> means calls. <i>med</i> means with.</p>
+<p><i>sin</i>, <i>sitt</i> and <i>sina</i> mean the subject's own. Use them when the subject is he, she, or they, not <i>jag</i>, <i>du</i>, <i>vi</i> or <i>ni</i>. The word still matches the thing. <i>ringer</i> means calls. <i>med</i> means with.</p>
 {{ex:Erik ringer sin mamma.|AY-rihk RIHNG-ehr seen MAHMM-ah|Erik calls his own mom.}}
 {{ex:Anna bor i sitt hus.|AHNN-ah boohr ee siht huehs|Anna lives in her own house.}}
 {{ex:De äter med sina barn.|dawm AE-tehr mayd SEE-nah bahrn|They eat with their own children.}}
-<p><i>De äter med deras barn</i> would be someone else's children. <i>jag</i>, <i>du</i> and <i>vi</i> do not use <i>sin</i>. <i>sin</i> is also not the object word <i>sig</i>.</p>
+<p><i>De äter med deras barn</i> would be someone else's children. <i>jag</i>, <i>du</i>, <i>vi</i> and <i>ni</i> do not use <i>sin</i>. <i>sin</i> is also not the object word <i>sig</i>.</p>
 {{ex:Jag ringer min mamma.|jah RIHNG-ehr meen MAHMM-ah|I call my mom.}}
 {{ex:Du ringer din mamma.|dueh RIHNG-ehr deen MAHMM-ah|You call your mom.}}
 {{ex:Ni bor i ert hus.|nee boohr ee ayrt huehs|You all live in your house.}}
@@ -58,7 +58,7 @@ module.exports = [
       ["fi", "__ bil", "Anna's car", "Annas", "Anna's|Annas'|Anna", "A name takes s, with no apostrophe: Annas bil."],
       ["ty", "my house", "mitt hus", "hus · mitt · matches the thing", "min bilen", "hus is an ett-word: mitt hus."],
       ["ty", "Today Anna lives in Stockholm. (start with Idag)", "Idag bor Anna i Stockholm", "idag · bor · start with idag", "jobbar huset", "Verb second: idag first, then bor, then Anna."],
-      ["ty", "Erik calls his own mom. (start with Erik)", "Erik ringer sin mamma", "ringa · sin · the subject's own", "hans hennes", "sin means the subject's own. Erik is the subject, so not hans."]
+      ["ty", "Erik calls his own mom. (start with Erik)", "Erik ringer sin mamma|Erik ringer till sin mamma", "ringa · sin · the subject's own", "hans hennes", "sin means the subject's own. Erik is the subject, so not hans."]
     ]
   },
   {
@@ -211,7 +211,7 @@ module.exports = [
       ["or", "a big car", "en stor bil", "stort", "bil is an en-word, so the adjective ending has no -t."],
       ["or", "I like to read. (use tycker om, start with Jag)", "Jag tycker om att läsa", "gillar", "att comes before the plain verb after tycker om."],
       ["fi", "Jag tycker om __ läsa.", "I like to read.", "att", "om|inte|och", "att comes before the plain verb. och means and."],
-      ["fi", "Jag kan __.", "I can drive.", "köra|köra bil", "att köra|att|köra att", "kan is a modal, so the plain verb has no att."],
+      ["fi", "Jag kan __.", "I can drive.", "köra|köra bil|köra en bil", "att köra|att|köra att", "kan is a modal, so the plain verb has no att."],
       ["fi", "Huset är __.", "The house is big.", "stort", "stor|stora|liten", "The adjective ending is -t on an ett-word."],
       ["ty", "I can drive. (use kan)", "Jag kan köra|Jag kan köra bil|Jag kan köra en bil", "kan · köra · no att", "att vill", "A modal takes no att."],
       ["ty", "The car is big.", "Bilen är stor", "bil · stor · definite", "stort huset", "The definite suffix is -en."],
@@ -238,7 +238,7 @@ module.exports = [
 {{ex:Var är stationen?|vahr aer stah-SJOOHN-ehn|Where is the station?}}
 {{ex:Tåget är rakt fram.|TOH-geht aer rahkt frahmm|The train is straight ahead.}}
 {{ex:Stationen är till höger.|stah-SJOOHN-ehn aer tihl HEUH-gehr|The station is on the right.}}
-<p>To tell someone the way, use the imperative, the short form you already use after <i>ska</i> and <i>måste</i>. Do not add <i>-r</i>. <i>Går</i> is the present, I go or I am going. <i>Gå</i> is the order: go.</p>
+<p>To tell someone the way, use the imperative. Do not add <i>-r</i>. <i>Går</i> is the present, I go or I am going. <i>Gå</i> is the order: go. After <i>ska</i> and <i>måste</i> you used the infinitive. For <i>gå</i> the infinitive and the order look the same. For <i>komma</i> they do not: the order is <i>Kom</i>, and the infinitive is <i>komma</i>.</p>
 {{ex:Gå rakt fram.|goh rahkt frahmm|Go straight ahead.}}
 {{ex:Gå till höger.|goh tihl HEUH-gehr|Go to the right.}}
 {{ex:Jag går till stationen.|jah gohr tihl stah-SJOOHN-ehn|I'm going to the station.}}
@@ -329,7 +329,7 @@ module.exports = [
       ["fi", "Jag hade __ bil.", "I had a car.", "en", "ett|den|det", "bil is an en-word: en bil."],
       ["ty", "Yesterday I was tired. (start with Igår)", "Igår var jag trött", "igår · var · trött", "hade pratade", "Verb second: igår first, then var, then jag."],
       ["ty", "a big car", "en stor bil", "bil · stor · en-word", "ett stort", "bil is an en-word: en stor bil."],
-      ["ty", "We had fika. (start with Vi)", "Vi hade fika|Vi hade en fika", "hade · fika · past of har", "var pratade", "hade is the past of har."]
+      ["ty", "We had fika. (use hade, start with Vi)", "Vi hade fika|Vi hade en fika", "hade · fika · past of har", "var pratade", "hade is the past of har."]
     ]
   },
   {
@@ -357,7 +357,7 @@ module.exports = [
 <tr><td>adjective</td><td class="k">fin</td><td class="k">fint</td></tr>
 </table></div>
 {{ex:Vilken fin tröja!|VIHL-kehn feen TREUH-jah|What a nice sweater!}}
-{{ex:Vilket fint hus!|VIHL-keht fihnt huehs|What a nice house!}}
+{{ex:Vilket fint hus!|VIHL-keht feent huehs|What a nice house!}}
 <h3>How to answer</h3>
 <p>When someone says a kind thing to you, answer <i>Tack</i>, or <i>Tack, det var snällt</i>. Thanks is the whole answer. You do not have to give a compliment back. You do not have to say no. If you want to say something kind back, and you mean it, you can. Nothing in the language requires it. <i>du</i> is for one person, including a cook, a classmate or a coworker. <i>Varsågod</i> is for handing something over, or for answering <i>tack</i>. It is not the ordinary answer to a compliment.</p>
 {{ex:Tack!|tahkk|Thanks!}}

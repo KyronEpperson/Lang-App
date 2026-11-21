@@ -10,15 +10,15 @@ module.exports = {
     Ta till höger. | tah tihl HEUH-gehr | Turn right. | Imperative. What you say, and what one person tells you.
     Ta till vänster. | tah tihl VEHN-stehr | Turn left. | Same shape as Ta till höger.
     Gå rakt fram. | goh rahkt frahmm | Go straight ahead. | Imperative of gå. No -r.
-    Var är toaletten? | vahr aer TOOH-ah-leht-ehn | Where is the bathroom? | toalett is an en-word. The definite suffix is -en.
+    Var är toaletten? | vahr aer tooh-ah-LEHT-ehn | Where is the bathroom? | toalett is an en-word. The definite suffix is -en.
     en karta | ayn KAHRT-ah | a map | Common gender. Definite: kartan.
-    Var ligger hotellet? | vahr LIHG-ehr HOOH-tehl-eht | Where is the hotel? | A building ligger. hotell is an ett-word: hotellet.
+    Var ligger hotellet? | vahr LIHG-ehr haw-TEHL-eht | Where is the hotel? | A building ligger. hotell is an ett-word: hotellet.
     Det är nära. | deh aer NAE-rah | It's nearby. | Nearby. Far is långt bort.
     Det är långt bort. | deh aer lawngt bawrt | It's far away. | Far away. nära is nearby.
     vid stationen | veed stah-SJOOHN-ehn | at the station | vid means at or by. stationen already has the definite suffix.
     Gå över gatan. | goh EUH-vehr GAH-tahn | Cross the street. | Imperative. en gata, definite gatan.
     Jag är vilse. | jah aer VIHL-seh | I'm lost. | Say it, then ask where with du to one person.
-    Ursäkta, var är kaféet? | uhr-SEHK-tah vahr aer KAH-feh-eht | Excuse me, where is the café? | kafé is an ett-word. The definite suffix is -et. Spelled kafé.
+    Ursäkta, var är kaféet? | uhr-SEHK-tah vahr aer kah-FAY-eht | Excuse me, where is the café? | kafé is an ett-word. The definite suffix is -et. Spelled kafé.
     en hållplats | ayn HAWL-plahts | a stop (bus or tram) | Common gender. Definite: hållplatsen.
   `,
   "Travel and transport": `
@@ -49,8 +49,8 @@ module.exports = {
     Jag har ont i huvudet. | jah hahr awnt ee HUEH-vuh-deht | I have a headache. | ett huvud. The definite suffix is -et. The t is often quiet.
     Jag har ont i magen. | jah hahr awnt ee MAH-gehn | I have a stomachache. | en mage, definite magen. ont i plus the body part.
     Ring en läkare! | rihng ayn LAE-kah-reh | Call a doctor! | Imperative, no -r. en läkare is common gender.
-    ett apotek | eht AH-paw-tehk | a pharmacy | Neuter. Definite: apoteket.
-    Jag är allergisk mot nötter. | jah aer AHLL-ehr-gihsk mooht NURT-ehr | I'm allergic to nuts. | mot, not för. Same form for any person.
+    ett apotek | eht ah-paw-TAYK | a pharmacy | Neuter. Definite: apoteket.
+    Jag är allergisk mot nötter. | jah aer ah-LAER-gihsk mooht NURT-ehr | I'm allergic to nuts. | mot, not för. Same form for any person.
     Jag mår inte bra. | jah mohr IHN-teh brah | I don't feel well. | inte goes after mår.
     Sitt ner! | siht nayr | Sit down! | Imperative of sitta. Not Sitter.
     Ta det här. | tah deh haer | Take this. | Imperative of ta. det här means this. här is not har.
@@ -67,9 +67,9 @@ module.exports = {
     på jobbet | poh JAWB-eht | at work | Definite suffix on jobb.
     Jag studerar svenska. | jah stuh-DAY-rahr SVEHN-skah | I'm studying Swedish. | studerar stresses the ay. The language name is lowercase.
     i skolan | ee SKOOH-lahn | at school | The set phrase. Definite suffix on skola, an en-word.
-    ett universitet | eht UEH-nih-vehrsh-ih-teht | a university | Neuter. Definite: universitetet.
+    ett universitet | eht uhn-ih-vehrsh-ih-TAYT | a university | Neuter. Definite: universitetet.
     ett möte | eht MEUH-teh | a meeting | Neuter. Definite: mötet.
-    på kontoret | poh KAWN-taw-reht | at the office | ett kontor. The definite suffix is -et.
+    på kontoret | poh kawn-TOOHR-eht | at the office | ett kontor. The definite suffix is -et.
     Jag har en lektion. | jah hahr ayn layk-SJOOHN | I have a class. | en lektion, common gender. -tion is the sj-sound.
     Idag pluggar jag. | ih-DAHG PLUHG-ahr jah | Today I'm studying. | Verb second: idag, then pluggar, then jag.
     Jag jobbar inte idag. | jah JAWB-ahr IHN-teh ih-DAHG | I'm not working today. | inte goes after the verb. idag is one word.
@@ -95,8 +95,8 @@ module.exports = {
     mig | mey | me | Spell mig, not mej. Speech is mey.
     dig | dey | you (object, one person) | Object form of du. Spell dig, not dej. Speech is dey.
     sig | sey | himself, herself | The subject's own object: hon ser sig. Spell sig, not sej.
-    Jag är ledsen. | jah aer LEHD-sehn | I'm sad. | är plus the adjective, like hungrig.
-    hen | hayn | they (one person) | Recognition. One person, when you are not saying han or hon.
+    Jag är ledsen. | jah aer LEHSS-ehn | I'm sad. | är plus the adjective, like hungrig.
+    hen | hehn | they (one person) | Recognition. One person, when you are not saying han or hon.
   `,
   "Likes and free time": `
     Jag tycker om att läsa. | jah TYWK-ehr awm ahtt LAE-sah | I like to read. | att before the infinitive. inte splits tycker and om.
@@ -109,11 +109,11 @@ module.exports = {
     Jag gillar inte öl. | jah JIHL-ahr IHN-teh euhl | I don't like beer. | gillar does not split. inte goes after gillar.
     Jag gillar att simma. | jah JIHL-ahr ahtt SIHM-ah | I like to swim. | att before the infinitive.
     att laga mat | ahtt LAH-gah maht | to cook | att plus the infinitive. laga mat is the phrase.
-    Jag spelar fotboll. | jah SPAY-lahr FAWT-bawl | I play soccer. | No article, like gitarr. Soccer, in US English.
+    Jag spelar fotboll. | jah SPAY-lahr FOOHT-bawl | I play soccer. | No article, like gitarr. Soccer, in US English.
     på fritiden | poh FREE-tih-dehn | in your free time | Definite suffix on fritid. One word.
     en film | ayn fihlm | a movie | Common gender. Short i. Definite: filmen.
     Det är roligt. | deh aer ROOH-lihgt | It's fun. | Adjective ending -t, because det is an ett-word. rolig means fun.
-    ibland | IHB-lahnd | sometimes | After the verb, or first: Ibland läser jag.
+    ibland | ih-BLAHND | sometimes | After the verb, or first: Ibland läser jag.
     en hobby | ayn HAWB-yw | a hobby | Common gender.
     Jag lyssnar på musik. | jah LYWS-nahr poh muh-SEEK | I listen to music. | på, not till. lyssnar is present -r.
   `,
@@ -135,7 +135,7 @@ module.exports = {
     Kaffe eller te? | KAHFF-eh EHL-ehr tay | Coffee or tea? | eller means or.
     Vem är det? | vehm aer deh | Who is that? | är is the second element.
     Pratar du engelska? | PRAH-tahr dueh EHNG-ehl-skah | Do you speak English? | Verb first. No Gör du pratar.
-    Var kommer du ifrån? | vahr KAWM-ehr dueh IHF-rawn | Where are you from? | Verb second. ifrån stays at the end.
+    Var kommer du ifrån? | vahr KAWM-ehr dueh ih-FROHN | Where are you from? | Verb second. ifrån stays at the end.
   `,
   "Compliments": `
     Bra jobbat! | brah JAWB-aht | Well done! | About work or a task.
@@ -145,13 +145,13 @@ module.exports = {
     Det var jättegott! | deh vahr JEHT-eh-gawt | That was really delicious! | About food. Answer with tack. You do not owe one back.
     Du är duktig på det. | dueh aer DUHK-tihg poh deh | You're good at it. | About a skill. Ordinary praise.
     Snyggt! | snywgt | Looks great! | About a result you can see. Not about a person's body.
-    Vad fint! | vah fihnt | How lovely! | About a thing, a place, or a drawing.
-    Du sjunger fint. | dueh SJUHNG-ehr fihnt | You sing well. | About a skill. du to one person.
+    Vad fint! | vah feent | How lovely! | About a thing, a place, or a drawing.
+    Du sjunger fint. | dueh SJUHNG-ehr feent | You sing well. | About a skill. du to one person.
     Vilken god soppa! | VIHL-kehn goohd SAWP-ah | What a good soup! | en soppa, so god has no -t.
     Grattis! | GRAHTT-ihs | Congratulations! | The answer is tack.
     Tack ska du ha. | tahkk skah dueh hah | Thank you kindly. | A warm thanks to one person. Not a compliment you have to return.
     Jag gillar din tröja. | jah JIHL-ahr deen TREUH-jah | I like your sweater. | din agrees with tröja, an en-word. The answer is tack.
-    Vilket fint hus! | VIHL-keht fihnt huehs | What a nice house! | hus is an ett-word: vilket, and the adjective ending -t.
+    Vilket fint hus! | VIHL-keht feent huehs | What a nice house! | hus is an ett-word: vilket, and the adjective ending -t.
     Du är rolig. | dueh aer ROOH-lihg | You're funny. | Kind, about a person. It means funny.
     Bra sagt! | brah sahgt | Well said! | About something they said.
     Det där var bra. | deh daer vahr brah | That was good. | About a try or a task. bra means good.
@@ -172,8 +172,8 @@ module.exports = {
     Du får inte gå. | dueh fohr IHN-teh goh | You must not go. | Not allowed. inte goes after får. Different from måste inte.
     eventuellt | eh-vehn-tuh-EHLT | possibly | Possibly, not eventually. Eventually is slutligen or till sist.
     Jag väntar på dig. | jah VEHN-tahr poh dey | I'm waiting for you. | på, not för. dig is one person. Spell dig, not dej.
-    en present | ayn PRAY-sehnt | a gift | A gift. Common gender. gift means poison, or married.
+    en present | ayn preh-SEHNT | a gift | A gift. Common gender. gift means poison, or married.
     lugn | luhngn | calm | Calm. rolig means fun, not this.
-    en termin | ayn TEHR-mihn | a school term | The school term. semester means vacation.
+    en termin | ayn tehr-MEEN | a school term | The school term. semester means vacation.
   `,
 };
