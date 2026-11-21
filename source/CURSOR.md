@@ -37,6 +37,17 @@ Hand-off formats for all four steps: `docs/briefs/HANDOFF-TEMPLATES.md`. The que
 
 Stage 0 (before research): if `docs/briefs/target-profile-<t>.md` does not exist, make it from `docs/briefs/target-profile-TEMPLATE.md` as that file's first paragraph says.
 
+## Autonomous mode (in force from 2026-11-21, set by Kii)
+
+Do not wait for Claude between stages. Claude reviews finished courses in batches, later.
+
+- **Stage-1 decisions: you record them yourself.** Write `docs/briefs/en-<t>-decisions.md` in the decision-record format, answering each decision in your own lead note. Default rules: keep the roadmap's order unless the profile gives a sourced reason to change it; at most one added lesson; never exceed 28 lessons; the register follows the roadmap's variant; when two options are equally defensible, take the one closest to the "closest finished course". Then go straight to stage 2. This applies to Dutch (PR #1) as well.
+- **Finish the course** (stages 2–6), write the hand-off file, mark the pull request "Ready for review", post the hand-off as a comment on it, update the status in `docs/CURSOR-QUEUE.md`, and start the next queued course. Do not merge pull requests; never push to `main`.
+- **Lanes still apply.** Ready: full run. Check: do stage 1; if the profile shows NO app change is needed, record that in the decisions file and continue as Ready; if any is needed, stop after the lead note, mark the PR "waiting for Claude: app change", and move on. App first: stage 1 only, then move on. Blocked: skip.
+- **Stop a course and move on** (PR left as draft, reason at the top of the lead note or hand-off) when: it needs an app change; the validator cannot be made to pass without deleting content or editing tools; the pron tool is too unreliable to use and the profile cannot justify `pron: none`; or you cannot find sources good enough to trust the language content.
+- **Stop everything and tell Kii** only if the setup check fails, a rule in this file would have to be broken, or the queue has no course left that you may work on.
+- One course at a time; one branch and one pull request per course, branched from the latest `main`.
+
 ## The job: one course, six stages
 
 A course is written by six "roles", each with its own brief. In the main build these are separate agents. In Cursor, do them as six separate chats (a fresh chat per role keeps the context small and stops one role's mistakes leaking into the next). Finish and check each stage before the next.
