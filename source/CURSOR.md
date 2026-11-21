@@ -50,6 +50,40 @@ Never wait: not for Claude, not for Kii, not for an allowance to reset. Build ev
 - **Stop everything and tell Kii** only if the setup check fails, a rule in this file would have to be broken, or there is nothing left you may do.
 - One branch and one pull request per course, each branched from the latest `main`.
 
+## Running out of usage, and starting back up
+
+Work so that stopping at any moment loses at most one role's work.
+
+**While working**
+- Commit and push after every finished role (research, pron tool, each writer, the merge check, the review). Small commits; never hold a finished file only on disk.
+- Keep a progress block at the very top of the course's lead note (`docs/briefs/<course>-lead.md`), and update it in the same commit:
+
+```
+PROGRESS (updated <date time>)
+Course: <id>   Branch: <branch>   PR: <link>
+Done: <roles finished, e.g. research, pron tool, decisions, briefs, deck A, deck B, lesson 1>
+Next: <the one role to do next>
+Checks: <not run | last validate.js line>
+Models used: <role = model, ...>
+State: WORKING | PAUSED: <reason> | READY FOR REVIEW | GIVEN UP: <reason>
+```
+
+**When usage is running low or a model refuses**
+1. Switch to another tier-S model with allowance and continue (see Autonomous mode).
+2. If no tier-S model is left: do not start a new role. If a role is half-written, discard that role's unfinished file (`git checkout -- <file>`, or delete it if new); a half-written lesson file is worse than none.
+3. Set `State: PAUSED: no tier-S allowance` in the progress block, commit, push.
+4. With a tier-M or tier-F model, if any allowance remains, do only: stage 0 briefs for the next courses, re-running checks, format fixes.
+5. Tell Kii in one short message: what is ready for review, what is paused and at which role, and when the allowance resets if you can see it.
+
+**Starting back up** (new session, after a reset, or after any interruption)
+1. Pull the latest `main`. Re-read this file's Rules and Autonomous mode sections (they may have changed) and `docs/CURSOR-MODELS.md`; update its roster if the model list or allowance changed.
+2. Run the setup check (`node tools/target/validate.js es`).
+3. Find your open work: list remote branches named `cursor/*` and their pull requests. For each, read the progress block at the top of its lead note. Trust the block and the files in the branch, not your memory of earlier chats.
+4. Read any new comments from Claude or Kii on those pull requests and act on them first ("CHANGES NEEDED" lists before new writing).
+5. Resume in this order: courses with `State: PAUSED`, lowest queue number first, at the role named in `Next:`; then the next queued course. If `main` has moved, merge `main` into the course branch only when a file you need changed; never rebase a pushed branch.
+6. Before continuing a paused course, check that every file listed under `Done:` exists and loads (run `gen.js`; with `HOLD` in place it writes to a temp file). Redo any role whose file is missing or broken.
+7. Carry on in autonomous mode.
+
 ## Never touch what is already built
 
 Finished courses (every folder in `tools/target/` and `tools/content/` that exists on `main`, and everything in `packs/`) are read-only for you. No fixes, no "small improvements", even for an obvious error. Report it instead.
