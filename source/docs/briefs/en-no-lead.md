@@ -1,10 +1,12 @@
-PROGRESS (updated 2026-11-21 15:13 CST)
+PROGRESS (updated 2026-11-21 15:39 CST)
 Course: en-no   Branch: cursor/en-no   PR: https://github.com/KyronEpperson/Lang-App/pull/7
-Done: research brief, research, pron tool, lead note, decisions, briefs
-Next: deck A, deck B, lesson 1, lesson 2, lesson 3
-Checks: respell.js matched the 22 worked examples and pronPattern. Standing-rule keyword table: OK. Full course not run.
-Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A
+Next: deck B, lesson 1, lesson 2, lesson 3
+Checks: deck A partial PASS: all checks OK (partial). 9 decks, 162 cards. Full course not run. Lexicon fixes wait until the other writers finish.
+Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high
 State: WORKING
+
+Lexicon, after the other writers finish, then regenerate. Kept in the files with the tool's stress: Beklager (should stress the second syllable), Velkommen (stress on komm). Not used, because the tool looked wrong: forstår, osten, januar, skjorta, amerikansk. Unverified weekdays left as printed: torsdag, lørdag, søndag. Compounds a native should hear: matpakka, kjøttkaka, et rundstykke.
 
 # Lead note: en-no stage 1
 
