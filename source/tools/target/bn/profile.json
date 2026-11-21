@@ -1,0 +1,308 @@
+{
+ "target": "bn",
+ "nameEn": "Bengali",
+ "self": "বাংলা",
+ "ttsLang": "bn-BD",
+ "brand": "বাংলা",
+ "accents": true,
+ "keys": "ঁ ং ঃ ্ ৎ",
+ "greet": [
+  [
+   "শুভ রাত্রি",
+   "Good night"
+  ],
+  [
+   "শুভ সকাল",
+   "Good morning"
+  ],
+  [
+   "আসসালামু আলাইকুম",
+   "Peace be upon you"
+  ],
+  [
+   "শুভ সন্ধ্যা",
+   "Good evening"
+  ]
+ ],
+ "pron": "required",
+ "pronPattern": "^(?!.*(?:aa|ii|uu|ee|oo|c(?!c?h)))[abcdefghijklmnoprstuwyzôæãõẽũṭḍṇṛ\\u0303]+(?:-[abcdefghijklmnoprstuwyzôæãõẽũṭḍṇṛ\\u0303]+)*[.,?!:;]?(?: [abcdefghijklmnoprstuwyzôæãõẽũṭḍṇṛ\\u0303]+(?:-[abcdefghijklmnoprstuwyzôæãõẽũṭḍṇṛ\\u0303]+)*[.,?!:;]?)*$",
+ "targetScript": "[\\u0980-\\u09E5]",
+ "tilesDefault": true,
+ "pronAnswers": true,
+ "pronAnswersKeepSpaces": true,
+ "pronAnswersScript": "[\\u0980-\\u09FF]",
+ "romaAlmost": true,
+ "voiceMatch": "^bn(?:[-_]|$)",
+ "pronAnswersWarn": true,
+ "standingRule": {
+  "keywords": "\\bverb endings?\\b|\\b(?:ami|tumi|apni|tui|se) forms?\\b|\\bpolite forms?\\b|\\bfamiliar forms?\\b|\\bclassifiers?\\b|\\bcase endings?\\b|\\bpostpositions?\\b|\\bafter the noun\\b|\\bzero copula\\b|\\bretroflex\\b|\\bdental\\b|\\b(?:un)?aspirated\\b|\\binherent vowels?\\b|\\bvowel signs?\\b|\\bconjuncts?\\b|\\bhasant\\b",
+  "flags": "i",
+  "minOrder": 2,
+  "minType": 2
+ },
+ "lessons": [
+  {
+   "id": "vowels",
+   "title": "Vowels and the inherent vowel",
+   "roadmap": "bn-vowels",
+   "deck": "Vowels"
+  },
+  {
+   "id": "consonants",
+   "title": "Aspiration and dental versus retroflex",
+   "roadmap": "bn-consonants",
+   "deck": "Consonants"
+  },
+  {
+   "id": "vowel-signs",
+   "title": "Vowel signs and the four marks",
+   "roadmap": "bn-vowel-signs",
+   "deck": "Vowel signs"
+  },
+  {
+   "id": "conjuncts",
+   "title": "Conjuncts and the pholas",
+   "roadmap": "bn-conjuncts",
+   "deck": "Conjuncts"
+  },
+  {
+   "id": "greetings",
+   "title": "Greetings and thank you",
+   "roadmap": "bn-greetings",
+   "deck": "Greetings and courtesy"
+  },
+  {
+   "id": "pronouns",
+   "title": "Three words for you",
+   "roadmap": "bn-pronouns",
+   "deck": "About me"
+  },
+  {
+   "id": "possessive",
+   "title": "My, your, his",
+   "roadmap": "bn-possessive",
+   "deck": "About me"
+  },
+  {
+   "id": "intro",
+   "title": "Introducing yourself",
+   "roadmap": "bn-intro",
+   "deck": "About me"
+  },
+  {
+   "id": "questions",
+   "title": "Questions and \"not\"",
+   "roadmap": "bn-questions",
+   "deck": "Questions"
+  },
+  {
+   "id": "eta-ota",
+   "title": "This and that",
+   "roadmap": "bn-eta-ota",
+   "deck": "This and that"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers, classifiers and prices",
+   "roadmap": "bn-numbers",
+   "deck": "Numbers and money"
+  },
+  {
+   "id": "ache",
+   "title": "Having and being there",
+   "roadmap": "bn-ache",
+   "deck": "Home and having"
+  },
+  {
+   "id": "need-like",
+   "title": "Want, need and like",
+   "roadmap": "bn-need-like",
+   "deck": "Traps for English speakers"
+  },
+  {
+   "id": "present",
+   "title": "The present tense",
+   "roadmap": "bn-present",
+   "deck": "Time and routine"
+  },
+  {
+   "id": "where",
+   "title": "Where you live",
+   "roadmap": "bn-where",
+   "deck": "Getting around"
+  },
+  {
+   "id": "family",
+   "title": "Family",
+   "roadmap": "bn-family",
+   "deck": "Family and people"
+  },
+  {
+   "id": "food",
+   "title": "Food and drink",
+   "roadmap": "bn-food",
+   "deck": "Food and drink"
+  },
+  {
+   "id": "continuous",
+   "title": "What you are doing now",
+   "roadmap": "bn-continuous",
+   "deck": "Time and routine"
+  },
+  {
+   "id": "future",
+   "title": "Later and tomorrow",
+   "roadmap": "bn-future",
+   "deck": "Time and routine"
+  },
+  {
+   "id": "time",
+   "title": "The clock and the day",
+   "roadmap": "bn-time",
+   "deck": "Time and routine"
+  },
+  {
+   "id": "past",
+   "title": "The simple past",
+   "roadmap": "bn-past",
+   "deck": "Time and routine"
+  },
+  {
+   "id": "chhilo",
+   "title": "Was and were",
+   "roadmap": "bn-chhilo",
+   "deck": "Time and routine"
+  },
+  {
+   "id": "postpositions",
+   "title": "Endings and postpositions",
+   "roadmap": "bn-postpositions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "directions",
+   "title": "Directions",
+   "roadmap": "bn-directions",
+   "deck": "Getting around"
+  },
+  {
+   "id": "compare",
+   "title": "Describing and comparing",
+   "roadmap": "bn-compare",
+   "deck": "Compliments"
+  },
+  {
+   "id": "conjunct-verbs",
+   "title": "Noun plus করা",
+   "roadmap": "bn-conjunct-verbs",
+   "deck": "Work and actions"
+  },
+  {
+   "id": "shopping",
+   "title": "Shopping",
+   "roadmap": "bn-shopping",
+   "deck": "Shopping"
+  }
+ ],
+ "decks": [
+  {
+   "name": "Vowels",
+   "group": "Script and sounds",
+   "desc": "The inherent vowel against আ, ই and ও."
+  },
+  {
+   "name": "Consonants",
+   "group": "Script and sounds",
+   "desc": "Aspirated against plain, and dental against retroflex."
+  },
+  {
+   "name": "Vowel signs",
+   "group": "Script and sounds",
+   "desc": "Vowel signs and the marks ং ঃ ঁ ৎ."
+  },
+  {
+   "name": "Conjuncts",
+   "group": "Script and sounds",
+   "desc": "Conjuncts and the pholas, only where the aid agrees with a source."
+  },
+  {
+   "name": "Greetings and courtesy",
+   "group": "First steps",
+   "desc": "Salam, how are you, and thank you."
+  },
+  {
+   "name": "About me",
+   "group": "First steps",
+   "desc": "Name, pronouns and the polite your."
+  },
+  {
+   "name": "Questions",
+   "group": "First steps",
+   "desc": "Who, what, where, and নই."
+  },
+  {
+   "name": "This and that",
+   "group": "First steps",
+   "desc": "এটা, ওটা and the classifier -টা."
+  },
+  {
+   "name": "Numbers and money",
+   "group": "First steps",
+   "desc": "Number words, -টা, -জন and taka."
+  },
+  {
+   "name": "Home and having",
+   "group": "Everyday life",
+   "desc": "আছে, নেই and having with the genitive."
+  },
+  {
+   "name": "Food and drink",
+   "group": "Everyday life",
+   "desc": "Rice, fish, tea and পানি, with জল in the note."
+  },
+  {
+   "name": "Family and people",
+   "group": "Everyday life",
+   "desc": "Parents, brother, sister, and and."
+  },
+  {
+   "name": "Time and routine",
+   "group": "Everyday life",
+   "desc": "Present, continuous, future, the clock, the past and ছিল."
+  },
+  {
+   "name": "Getting around",
+   "group": "Out and about",
+   "desc": "Where you live, case endings, postpositions and directions."
+  },
+  {
+   "name": "Shopping",
+   "group": "Out and about",
+   "desc": "Price, kilo and taka."
+  },
+  {
+   "name": "Work and actions",
+   "group": "Out and about",
+   "desc": "Noun plus করা: work, phone, like."
+  },
+  {
+   "name": "Traps for English speakers",
+   "group": "Watch out",
+   "desc": "Zero copula, possession, need, want and like."
+  },
+  {
+   "name": "Compliments",
+   "group": "Watch out",
+   "desc": "ভালো and সুন্দর, and comparison with চেয়ে."
+  }
+ ],
+ "titles": [
+  "Beginner",
+  "Traveler",
+  "Explorer",
+  "Speaker",
+  "Conversationalist",
+  "Storyteller",
+  "Master"
+ ]
+}
