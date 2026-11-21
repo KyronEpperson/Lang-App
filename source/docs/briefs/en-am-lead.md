@@ -1,9 +1,9 @@
-PROGRESS (updated 2026-11-21 10:55 CST)
+PROGRESS (updated 2026-11-21 10:56 CST)
 Course: en-am   Branch: cursor/en-am   PR: https://github.com/KyronEpperson/Lang-App/pull/5
-Done: research brief, research, pron tool, lead note, decisions
-Next: briefs
+Done: research brief, research, pron tool, lead note, decisions, briefs
+Next: deck A, deck B, lesson 1, lesson 2, lesson 3
 Checks: not run
-Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7
+Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py
 State: WORKING
 
 STOP, accepted: respell.js cannot be required on every card. The decision record sets pron: none. Writers leave every pron field empty. They do not hand-write a romanisation. The fidel lessons teach the reading in the English body.
