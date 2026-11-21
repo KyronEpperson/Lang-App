@@ -27,7 +27,7 @@ God morgon! | goohd MAWR-gawn | Good morning! | ooh as in food, not the vowel of
 God kväll! | goohd kvehl | Good evening! | From late afternoon, as a hello.
 God natt! | goohd nahtt | Good night! | When someone is going to sleep.
 Hur mår ni? | huehr mohr nee | How are you all? | ni is you-all, or a company. To one person, say Hur mår du?
-Trevligt att träffas! | TREHV-lihgt ahtt TREHF-ahs | Nice to meet you. | When you meet someone new.
+Trevligt att träffas! | TRAYV-lihgt ahtt TREHF-ahs | Nice to meet you. | When you meet someone new.
 Tack! | tahkk | Thank you! | Also: Tack så mycket.
 Tack så mycket! | tahkk soh MYWK-eht | Thank you very much! | Stronger than tack alone.
 Varsågod! | vahsh-aw-GOOHD | Here you are. / You're welcome. | When handing something over, or answering tack.
@@ -53,7 +53,7 @@ Erik bor i Göteborg. | AY-rihk boohr ee jur-teh-BAWRJ | Erik lives in Gothenbur
 Vi bor i Malmö. | vee boohr ee MAHLL-meuh | We live in Malmö. | vi is we. The verb stays bor.
 Hon bor i Uppsala. | hawn boohr ee UHP-sah-lah | She lives in Uppsala. | Uppsala stresses the first syllable.
 Jag är lärare. | jah aer LAE-rah-reh | I'm a teacher. | No article before the job.
-Jag är student. | jah aer STUEH-dehnt | I'm a student. | No article before the job, same as lärare.
+Jag är student. | jah aer stuh-DEHNT | I'm a student. | No article before the job, same as lärare.
 Jag pratar engelska. | jah PRAH-tahr EHNG-ehl-skah | I speak English. | Language names are not capitalised.
 Jag pratar svenska. | jah PRAH-tahr SVEHN-skah | I speak Swedish. | svenska is lowercase too.
 Jag pratar lite svenska. | jah PRAH-tahr LEE-teh SVEHN-skah | I speak a little Swedish. | lite means a little.
@@ -112,7 +112,7 @@ idag | ih-DAHG | today | One word in this course. Newspapers also write i dag.
 igår | ih-GOHR | yesterday | One word. Newspapers also write i går.
 imorgon | ih-MAWR-gawn | tomorrow | One word. Newspapers also write i morgon. Months are lowercase too: i maj.
 Det regnar. | deh REHNG-nahr | It's raining. | gn is the ng of sing, plus n.
-Det är kallt. | deh aer kahlt | It's cold. | Cold right now. kallt takes -t.
+Det är kallt. | deh aer kahllt | It's cold. | Cold right now. kallt takes -t.
 Idag jobbar jag. | ih-DAHG JAWB-ahr jah | Today I'm working. | Verb second. Not: Idag jag jobbar.
 Imorgon jobbar jag. | ih-MAWR-gawn JAWB-ahr jah | Tomorrow I'm working. | Verb second. Not: Imorgon jag jobbar.
 Jag var trött. | jah vahr trurt | I was tired. | var is the past of är. trött has short ö.
@@ -170,7 +170,7 @@ en säng | ayn sehng | a bed | Common gender. Short ä.
 Jag äter frukost. | jah AE-tehr FRUEHK-awst | I eat breakfast. | frukost: long u, short o.
 Jag äter lunch. | jah AE-tehr luhnsj | I eat lunch. | The ch in lunch is the sj-sound.
 Jag äter middag. | jah AE-tehr MIHD-dahg | I eat dinner. | The main hot meal. The g is often quiet.
-Jag sover hemma. | jah SOOH-vehr HEHM-ah | I sleep at home. | sover is the present of sova.
+Jag sover hemma. | jah SOH-vehr HEHM-ah | I sleep at home. | sover is the present of sova.
 Jag förstår inte. | jah fur-STOHR IHN-teh | I don't understand. | inte after the verb. The r+s in förstår is a retroflex in speech.
 Jag äter inte frukost. | jah AE-tehr IHN-teh FRUEHK-awst | I don't eat breakfast. | inte after the verb, before frukost. Not: Jag inte äter.
 ofta | AWF-tah | often | After the verb: Jag äter ofta hemma.

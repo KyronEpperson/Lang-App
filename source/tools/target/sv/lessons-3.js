@@ -71,7 +71,7 @@ module.exports = [
 <h3>After the verb</h3>
 <p><i>ofta</i> means often, <i>alltid</i> means always, and <i>aldrig</i> means never. None of them changes form. They are not adjectives, and they are not verbs. In this course they are sentence adverbs, the same family as <i>inte</i>.</p>
 {{ex:Jag äter ofta frukost.|jah AE-tehr AWF-tah FRUEHK-awst|I often eat breakfast.}}
-{{ex:Jag sover alltid hemma.|jah SOOH-vehr AHLL-teed HEHM-ah|I always sleep at home.}}
+{{ex:Jag sover alltid hemma.|jah SOH-vehr AHLL-teed HEHM-ah|I always sleep at home.}}
 {{ex:Jag äter aldrig frukost.|jah AE-tehr AHL-drihg FRUEHK-awst|I never eat breakfast.}}
 <p><i>frukost</i> means breakfast. It is an en-word: <i>en frukost</i>. In <i>Jag äter frukost</i> the article usually drops, the way English says <i>I eat breakfast</i>. <i>hemma</i> means at home. The English order is the mistake: <i>Jag ofta äter</i> and <i>Jag aldrig äter</i> put the word in front of the verb. Move it.</p>
 {{ex:Jag äter alltid hemma.|jah AE-tehr AHLL-teed HEHM-ah|I always eat at home.}}
@@ -84,7 +84,7 @@ module.exports = [
 <h3>Family, and after att</h3>
 <p>Family words use the same slot. <i>Min mamma äter alltid hemma. Mina barn sover hemma.</i> The verb does not grow an ending for <i>barn</i>.</p>
 {{ex:Min mamma äter alltid hemma.|meen MAHMM-ah AE-tehr AHLL-teed HEHM-ah|My mom always eats at home.}}
-{{ex:Mina barn sover hemma.|MEE-nah bahrn SOOH-vehr HEHM-ah|My children sleep at home.}}
+{{ex:Mina barn sover hemma.|MEE-nah bahrn SOH-vehr HEHM-ah|My children sleep at home.}}
 <p>After <i>att</i>, the adverb comes before the verb, the same way <i>inte</i> does. <i>att jag ofta äter hemma</i>. That is one pattern, not a new lesson. In an ordinary sentence, keep <i>ofta</i> after the verb.</p>
 {{ex:att jag ofta äter hemma|ahtt jah AWF-tah AE-tehr HEHM-ah|that I often eat at home}}
 <div class="tip"><b>Most common mistake:</b> <i>Jag ofta äter frukost</i> → <i>Jag äter ofta frukost</i>.</div>
@@ -413,7 +413,7 @@ module.exports = [
 {{ex:en gåva|ayn GOH-vah|a present}}
 <p><i>glass</i> has two <i>s</i> and a short <i>a</i>. One ice cream is <i>en glass</i>. <i>glas</i> has one <i>s</i> and a long <i>a</i>. <i>ett glas vatten</i> is a glass of water. <i>barn</i> is an ett-word: <i>ett barn</i>, <i>barnet</i>, and the plural is still <i>barn</i>. <i>rolig</i> has no <i>-t</i> on an en-word. For a situation, <i>det</i> is neuter, so calm is <i>lugnt</i>. <i>fart</i> is an ordinary noun for speed. <i>kiss</i> means pee. Say <i>en puss</i> for a kiss, and leave it there.</p>
 {{ex:i hög fart|ee heuhg fahrt|at high speed}}
-{{ex:kiss|tjihs|pee}}
+{{ex:kiss|kihs|pee}}
 {{ex:en puss|ayn puhs|a kiss}}
 {{ex:Det var lugnt.|deh vahr luhngnt|It was calm.}}
 <h3>want, don't have to, possibly</h3>

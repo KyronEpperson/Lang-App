@@ -11,7 +11,10 @@ const LEX_SRC = `
 och=aw jag=jah ja=jah det=deh mig=mey dig=dey sig=sey de=dawm dem=dawm vad=vah
 idag=ih-DAHG igår=ih-GOHR imorgon=ih-MAWR-gawn
 kanske=kahnn-sjeh människa=mehnn-ih-sjah människor=mehnn-ih-shur
-choklad=sjuh-klahd person=pehr-shoohn semester=seh-mehs-tehr finland=fihn-lahnd
+choklad=sjuh-klahd person=pehr-shoohn semester=seh-MEHS-tehr finland=fihn-lahnd
+student=stuh-DEHNT studenter=stuh-DEHN-tehr studenten=stuh-DEHN-tehn
+sover=SOH-vehr sova=SOH-vah kall=kahll kallt=kahllt kiss=kihs
+musik=muh-SEEK trevlig=TRAYV-lihg trevligt=TRAYV-lihgt
 video=vee-deh-oh radio=rah-dee-oh telefon=teh-leh-FOHN problem=praw-BLAYM
 kafé=kah-FAY café=kah-FAY
 malmö=mahll-meuh umeå=ueh-meh-oh göteborg=jur-teh-BAWRJ
@@ -27,7 +30,7 @@ const SHORT = new Set('han hon kan man men den in igen mun ton vän än fem som 
 /* A following rt/rd/rn/rl/rs counts as one consonant, so the default is a long vowel. These are short. */
 const SHORT_RETRO = new Set('kort fort sport start bort port svart hjärta värt hört skjorta gjort första fjorton'.split(' '));
 /* k/g/sk stays hard before the first front vowel (Svealand kex; kille "guy"). */
-const HARD = new Set('kex kille killen killar killarna kiruna'.split(' '));
+const HARD = new Set('kex kille killen killar killarna kiruna kiss'.split(' '));
 /* för- / be- here is not the unstressed prefix. */
 const NOPREFIX = new Set('för förra förre första förr före föra född födde följa följer följt fyra fyr fem förslag'.split(' '));
 /* Whole words that only look like a compound. */

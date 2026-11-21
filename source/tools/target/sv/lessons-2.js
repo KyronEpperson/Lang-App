@@ -66,7 +66,7 @@ module.exports = [
 {{ex:Jag förstår inte.|jah fur-STOHR IHN-teh|I don't understand.}}
 {{ex:Jag bor inte i Lund.|jah boohr IHN-teh ee luhnd|I don't live in Lund.}}
 {{ex:Jag äter inte frukost.|jah AE-tehr IHN-teh FRUEHK-awst|I don't eat breakfast.}}
-{{ex:Jag sover inte.|jah SOOH-vehr IHN-teh|I don't sleep.}}
+{{ex:Jag sover inte.|jah SOH-vehr IHN-teh|I don't sleep.}}
 <p><i>frukost</i> is breakfast, an en-word: <i>en frukost</i>. In <i>jag äter frukost</i> the meal usually has no article, the same way English says "I eat breakfast." <i>hemma</i> means at home. <i>är</i> takes <i>inte</i> in the same slot as any other verb, including with an adjective you already know, such as <i>trött</i>. In a main clause the sentence adverb does not jump in front of <i>är</i>.</p>
 {{ex:Jag är inte trött.|jah aer IHN-teh trurt|I'm not tired.}}
 {{ex:Jag äter frukost hemma.|jah AE-tehr FRUEHK-awst HEHM-ah|I eat breakfast at home.}}

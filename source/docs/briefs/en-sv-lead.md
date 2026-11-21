@@ -1,12 +1,12 @@
-PROGRESS (updated 2026-11-21 13:57 CST)
+PROGRESS (updated 2026-11-21 13:58 CST)
 Course: en-sv   Branch: cursor/en-sv   PR: https://github.com/KyronEpperson/Lang-App/pull/6
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3
-Next: lexicon, then merge check
-Checks: lesson 3 partial PASS reported by the writer. Full course not run. Lexicon fixes are next, then regenerate.
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check
+Next: review
+Checks: PASS: all checks OK. gen.js: 26 lessons, 18 decks, 319 cards. repron twice: 632 prons read, 13 rewritten, then 0 rewritten. link_roadmap: 24 linked, not covered: none. The two added lessons have no roadmap id. packs/roadmaps.js was not kept.
 Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
 State: WORKING
 
-Lexicon, check before adding, then regenerate. Deck A: student (stress the last syllable), sover (å-vowel), trevligt (long e), kallt (short a). Deck B: kiss (hard k), student, semester, universitet, apotek, kontoret, present, termin, toaletten, hotellet, kaféet, allergisk, hen (short), ledsen (long e), långt (long å), lugn (long u), ibland, ifrån, fotboll (long o), musik, fint (long i). Lesson 2: studenter, studenten, personer, familjer, telefoner, kusiner, fint, sjukt. Lesson 1: honom (short o, nearer HAW-nawm). Lesson 3: hade (long a), fint, alltid (second vowel maybe short), kiss (long s), puss (long s). The known simplifications in profile section 6.5 stay as printed.
+Lexicon added, then regenerated: student stuh-DEHNT (Wiktionary /stɵˈdɛnt/), sover SOH-vehr and sova SOH-vah (/²soːva/, the å-vowel), kiss kihs (/kɪs/, hard k, short i), kallt kahllt (/kalː/), semester seh-MEHS-tehr (/sɛˈmɛstɛr/), musik muh-SEEK (/mʉˈsiːk/). trevligt is TRAYV-lihgt from the long-vowel spelling rule; that page had no IPA. Left as the tool prints them: hade is already short (/²hadːɛ/), so the long-a guess was not applied. Still for the reviewer, unsourced: universitet, apotek, kontoret, present, termin, toaletten, hotellet, kaféet, allergisk, hen, ledsen, långt, lugn, ibland, ifrån, fotboll, fint, sjukt, honom, personer, familjer, telefoner, kusiner, puss, alltid. The tool still warns on toaletten, hotellet, kaféet, apotek, allergisk, universitet, kontoret, klasskamrat, fritiden, läraren.
 
 # Lead note: en-sv stage 1
 

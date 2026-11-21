@@ -437,7 +437,7 @@ module.exports = [
 {{ex:Jag arbetar.|jah AHR-beh-tahr|I work.}}
 {{ex:Jag pluggar.|jah PLUHG-ahr|I'm studying.}}
 {{ex:ett jobb|eht jawb|a job}}
-{{ex:en student|ayn STUEH-dehnt|a student}}
+{{ex:en student|ayn stuh-DEHNT|a student}}
 <p><i>är</i> (am, is, are) does not take <i>-r</i>. A job after it still has no article. The modals <i>vill</i>, <i>kan</i>, <i>måste</i> and <i>ska</i> do not take <i>-r</i> either. Spell <i>ska</i>, not <i>skall</i>. Their lesson comes later. Do not build <i>villar</i> or <i>skaar</i> while you wait.</p>
 {{ex:Jag är lärare.|jah aer LAE-rah-reh|I'm a teacher.}}
 <p><i>har</i> (have) is already the present of <i>ha</i>. Do not add a second ending. <i>kommer</i> and <i>heter</i>, which you have used since the introduction, are already present too. <i>en lärare</i> and <i>en student</i> are en-words when you mean the noun. <i>ett jobb</i> is an ett-word. The article still drops after <i>är</i>.</p>

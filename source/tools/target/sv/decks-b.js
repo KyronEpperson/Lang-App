@@ -63,7 +63,7 @@ module.exports = {
     Jag arbetar. | jah AHR-beh-tahr | I work. | The -r is the same for every person.
     Jag pluggar. | jah PLUHG-ahr | I'm studying. | Informal for schoolwork.
     en lärare | ayn LAE-rah-reh | a teacher | No extra article in Jag är lärare.
-    en student | ayn STUEH-dehnt | a student |
+    en student | ayn stuh-DEHNT | a student |
     på jobbet | poh JAWB-eht | at work | Definite suffix on jobb.
     Jag studerar svenska. | jah stuh-DAY-rahr SVEHN-skah | I'm studying Swedish. | studerar stresses the ay. The language name is lowercase.
     i skolan | ee SKOOH-lahn | at school | The set phrase. Definite suffix on skola, an en-word.
@@ -115,7 +115,7 @@ module.exports = {
     Det är roligt. | deh aer ROOH-lihgt | It's fun. | Adjective ending -t, because det is an ett-word. rolig means fun.
     ibland | IHB-lahnd | sometimes | After the verb, or first: Ibland läser jag.
     en hobby | ayn HAWB-yw | a hobby | Common gender.
-    Jag lyssnar på musik. | jah LYWS-nahr poh MUEH-sihk | I listen to music. | på, not till. lyssnar is present -r.
+    Jag lyssnar på musik. | jah LYWS-nahr poh muh-SEEK | I listen to music. | på, not till. lyssnar is present -r.
   `,
   "Questions and connectors": `
     Vad heter du? | vah HAY-tehr dueh | What's your name? | Verb second: heter, then du.
@@ -160,13 +160,13 @@ module.exports = {
     bra | brah | good | Not a bra. A bra is en behå.
     glass | glahss | ice cream | Glass the material is glas (glahs), one s, long a.
     gift | jihft | poison; also married | A gift is en gåva or en present.
-    semester | SEH-mehs-tehr | vacation | A semester is en termin.
+    semester | seh-MEHS-tehr | vacation | A semester is en termin.
     rolig | ROOH-lihg | fun, funny | Calm is lugn.
     barn | bahrn | a child | A child. ett barn. A farm building is en lada.
     fart | fahrt | speed | Speed. Common gender: en fart.
     godis | GOOH-dihs | candy | Candy. Usually ett godis. Not goodies.
     chef | sjayf | a boss | A boss, not a cook. A cook is en kock. The ch is the sj-sound.
-    kiss | tjihs | pee | Neuter: ett kiss. A kiss is en puss.
+    kiss | kihs | pee | Neuter: ett kiss. A kiss is en puss.
     vill | vihl | want | Want, not will. The future is the present, or ska.
     Du måste inte gå. | dueh MAWS-teh IHN-teh goh | You don't have to go. | Not "must not". Must not is får inte. du to one person.
     Du får inte gå. | dueh fohr IHN-teh goh | You must not go. | Not allowed. inte goes after får. Different from måste inte.
