@@ -1,9 +1,9 @@
 PROGRESS (updated 2026-11-21 13:15 CST)
 Course: en-sv   Branch: cursor/en-sv   PR: https://github.com/KyronEpperson/Lang-App/pull/6
-Done: research brief, research, pron tool, lead note, decisions
-Next: briefs
+Done: research brief, research, pron tool, lead note, decisions, briefs
+Next: deck A, deck B, lesson 1, lesson 2, lesson 3
 Checks: respell.js printed the 20 worked examples; all match pronPattern. Standing-rule keyword table: OK. Full course not run.
-Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7
+Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py
 State: WORKING
 
 # Lead note: en-sv stage 1
