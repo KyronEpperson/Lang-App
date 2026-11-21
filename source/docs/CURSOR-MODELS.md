@@ -63,13 +63,13 @@ If you have no parallel agents: do the roles one after another in fresh chats, i
 - Fix validator errors in one batch per file, then re-run; do not re-run after every single edit.
 - Never paste a pack file (`packs/course-*.js`) into a chat.
 
-## 5. When the allowance runs low
+## 5. When a model's allowance runs out
 
-Order of what to protect: (1) finish the course in progress, (2) the cold review, (3) starting a new course.
+Never wait for a reset. Switch at once to the next tier-S model that has allowance, of any family, and carry on with the same course. Note the switch (which roles used which model) in the hand-off.
 
-- If the S allowance runs out mid-course: stop writing. Do not continue the course on a weaker model. Commit what exists, note "paused: S allowance" at the top of the lead note, and tell Kii.
-- While waiting for the allowance to reset, M and F models may do only: stage 0 briefs for upcoming courses, re-running checks, and format fixes.
-- Never start a new course you cannot finish through stage 6 in the same cycle, unless Kii says otherwise. A half-written course costs a second read-in later.
+- Keep the cold reviewer on a different family from the writers when you can.
+- Tier-M and tier-F models never write or review language content. If no tier-S model has any allowance left, use the time for the jobs that do not need one: stage 0 briefs for upcoming courses, re-running checks, format fixes; and tell Kii.
+- To stretch the allowance: use the standard (not "max") variant of a tier-S model for the five writers, keep "max" for the researcher, the pron tool and the reviewer, and record in each hand-off roughly what the course cost.
 
 ## 6. Record what you used
 

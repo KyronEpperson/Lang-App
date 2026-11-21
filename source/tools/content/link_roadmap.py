@@ -4,8 +4,10 @@ usage: python3 tools/content/link_roadmap.py              rewrite the en block o
        python3 tools/content/link_roadmap.py --check LANG  read-only: report roadmap lesson links missing from course-LANG-en.js
                                                            (expected only for deviations.json droppedLessons); exit 1 if any."""
 import re, sys
-PACK = '/home/claude/packs/course-%s-en.js'
-ROADMAPS = '/home/claude/packs/roadmaps.js'
+import os as _os
+_ROOT = _os.environ.get('LANGAPP_ROOT') or _os.path.abspath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..', '..'))
+PACK = _ROOT + '/packs/course-%s-en.js'
+ROADMAPS = _ROOT + '/packs/roadmaps.js'
 def lesson_ids(lang):
     return set(re.findall(r'\{"id":"([a-z0-9-]+)","title"', open(PACK % lang, encoding='utf-8').read()))
 ITEM = r'\["(en-[a-z0-9-]+)", "(?:[^"\\]|\\.)*", "(?:[^"\\]|\\.)*"(, "[a-z0-9-]+")?\]'

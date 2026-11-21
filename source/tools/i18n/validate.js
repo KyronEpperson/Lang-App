@@ -10,7 +10,7 @@ const fs=require('fs'), vm=require('vm'), path=require('path');
 let LANG=process.argv[2]||'ko', F=process.argv[3];
 if(/\.js$/.test(LANG)){ F=LANG; const m=path.basename(F).match(/^i18n-(.+)\.js$/); LANG=m?m[1]:'ko'; }
 if(!/^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/.test(LANG)){ console.log('FAIL: bad language code '+LANG); process.exit(1); }
-F=F||'/home/claude/packs/i18n-'+LANG+'.js';
+const _ROOT=process.env.LANGAPP_ROOT||require('path').join(__dirname,'..','..');F=F||_ROOT+'/packs/i18n-'+LANG+'.js';
 const src=fs.readFileSync(F,'utf8');
 const fail=m=>{console.log('FAIL: '+m); process.exitCode=1;};
 const warns=[]; const warn=m=>warns.push(m);
@@ -50,7 +50,7 @@ const UI=JSON.parse(fs.readFileSync(UIF,'utf8'));
 const txt=v=>v&&typeof v==='object'?(v.t||''):(typeof v==='string'?v:'');
 const uiEx={}, uiPat={}; Object.entries(UI.exact||{}).forEach(([k,v])=>uiEx[k.trim()]=txt(v)); Object.entries(UI.patterns||{}).forEach(([k,v])=>uiPat[k]=txt(v));
 const optional=e=>(e.optionalFor||[]).includes(LANG);
-let profile=null; try{ profile=JSON.parse(fs.readFileSync('/home/claude/tools/content/'+LANG+'/profile.json','utf8')); }catch(e){}
+let profile=null; try{ profile=JSON.parse(fs.readFileSync(_ROOT+'/tools/content/'+LANG+'/profile.json','utf8')); }catch(e){}
 const allTr=Object.values(uiEx).filter(Boolean);
 const distinctScript=profile&&('nativeScript' in profile)? !!profile.nativeScript : allTr.filter(v=>/[^\u0000-\u024f\u2000-\u2bff\s\d\p{P}\p{S}]/u.test(v)).length>allTr.length/2;
 const untranslated=[], slotBad=[], longW=[], sameW=[], outOfSync=[];

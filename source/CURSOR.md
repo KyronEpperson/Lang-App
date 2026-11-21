@@ -37,16 +37,24 @@ Hand-off formats for all four steps: `docs/briefs/HANDOFF-TEMPLATES.md`. The que
 
 Stage 0 (before research): if `docs/briefs/target-profile-<t>.md` does not exist, make it from `docs/briefs/target-profile-TEMPLATE.md` as that file's first paragraph says.
 
-## Autonomous mode (in force from 2026-11-21, set by Kii)
+## Autonomous mode (set by Kii, updated 2026-11-21)
 
-Do not wait for Claude between stages. Claude reviews finished courses in batches, later.
+Never wait: not for Claude, not for Kii, not for an allowance to reset. Build every unfinished course through and through, one after another. Claude reviews finished courses as they arrive.
 
-- **Stage-1 decisions: you record them yourself.** Write `docs/briefs/en-<t>-decisions.md` in the decision-record format, answering each decision in your own lead note. Default rules: keep the roadmap's order unless the profile gives a sourced reason to change it; at most one added lesson; never exceed 28 lessons; the register follows the roadmap's variant; when two options are equally defensible, take the one closest to the "closest finished course". Then go straight to stage 2. This applies to Dutch (PR #1) as well.
-- **Finish the course** (stages 2–6), write the hand-off file, mark the pull request "Ready for review", post the hand-off as a comment on it, update the status in `docs/CURSOR-QUEUE.md`, and start the next queued course. Do not merge pull requests; never push to `main`.
-- **Lanes still apply.** Ready: full run. Check: do stage 1; if the profile shows NO app change is needed, record that in the decisions file and continue as Ready; if any is needed, stop after the lead note, mark the PR "waiting for Claude: app change", and move on. Ready (new script): full run with the existing profile options named in the queue row, no app edits. Blocked: skip.
-- **Stop a course and move on** (PR left as draft, reason at the top of the lead note or hand-off) when: it needs an app change; the validator cannot be made to pass without deleting content or editing tools; the pron tool is too unreliable to use and the profile cannot justify `pron: none`; or you cannot find sources good enough to trust the language content.
-- **Stop everything and tell Kii** only if the setup check fails, a rule in this file would have to be broken, or the queue has no course left that you may work on.
-- One course at a time; one branch and one pull request per course, branched from the latest `main`.
+- **Stage-1 decisions: you record them yourself.** Write `docs/briefs/en-<t>-decisions.md` in the decision-record format, answering each decision in your own lead note. Default rules: keep the roadmap's order unless the profile gives a sourced reason to change it; at most one added lesson; never exceed 28 lessons; the register follows the roadmap's variant; when two options are equally defensible, take the one closest to the "closest finished course". Then go straight on.
+- **Finish each course** (all stages), write the hand-off file, mark the pull request "Ready for review", post the hand-off as a comment on it, update the status in the queue file, and start the next course. Do not merge pull requests; never push to `main`.
+- **Out of one model? Switch, do not stop.** If your strongest model's allowance runs out, continue at once on the next tier-S model that has allowance, of any family (`docs/CURSOR-MODELS.md`). Resume paused courses first. Keep the cold reviewer on a different family from the writers when you can; if you cannot, review in a fresh chat on the same model and say so in the hand-off. Only tier-S models write or review language content.
+- **Order of work:** (1) finish every started course (open draft pull requests); (2) the English → X queue, `docs/CURSOR-QUEUE.md`; (3) the X → English queue, `docs/CURSOR-QUEUE-B.md`; (4) only when nothing is left to build, or no tier-S model has allowance: feedback reviews of finished courses (below).
+- **Lanes still apply.** Ready and Ready (new script): full run. Check: do stage 1; if no app change is needed, record that and continue as Ready; if one is needed, build the course anyway with the closest existing profile options, list the need under "Needs from the lead", and say what is worse without it. Blocked: skip (Kii decides these).
+- **Give up on a course and move on** (pull request left as draft, reason at the top of the lead note or hand-off) only when: the validator cannot be made to pass without deleting content or editing tools; the pron tool is too unreliable to use and the profile cannot justify `pron: none`; or you cannot find sources good enough to trust the language content.
+- **Stop everything and tell Kii** only if the setup check fails, a rule in this file would have to be broken, or there is nothing left you may do.
+- One branch and one pull request per course, each branched from the latest `main`.
+
+## Never touch what is already built
+
+Finished courses (every folder in `tools/target/` and `tools/content/` that exists on `main`, and everything in `packs/`) are read-only for you. No fixes, no "small improvements", even for an obvious error. Report it instead.
+
+**Feedback reviews** (work item 4 above): read one finished course cold, as `docs/TARGET-REVIEW.md` describes (or `docs/briefs/<lang>-R.md` for an X → English course), but change nothing. Write `docs/reviews/<course-id>-cursor.md`: the model used; the 20 most important suspected errors, each with file, item, what is wrong, the correction and why; then patterns you saw; then what you could not judge. One branch `cursor/review-<course-id>` and one pull request per review. Start with the courses nobody has reviewed twice, in this order: ceb, nan, ur, pa, te, kn, yue, tl, th, ar, hi, ru, vi, id, zh, ja, de, pt, it, fr, es.
 
 ## The job: one course, six stages
 
@@ -88,6 +96,32 @@ python3 tools/target/link_roadmap.py <t> # prints roadmap items not covered; sho
 Fix every validator error in the writers' files (not in the validator, and not by deleting content to make a count pass). `link_roadmap.py` edits `packs/roadmaps.js`: do NOT commit that change (`git checkout -- source/packs/roadmaps.js`); the main build re-runs it.
 
 Stage 6: the reviewer reads everything cold and corrects errors in place, then you re-run stage 5.
+
+## X → English courses (queue B)
+
+"English for speakers of <language>": a different, older pipeline, in `tools/content/` and `tools/i18n/`. The English side is shared with every other X → English course; you write the explanations in the learner's language and translate the app's interface. `docs/PIPELINE.md` is the reference. Branch `cursor/<xx>-en`. You may only create or edit: `docs/profiles/<xx>.md`, `docs/profiles/<xx>.profile.json`, `docs/briefs/<xx>.json`, `docs/briefs/<xx>-*.md`, `tools/content/<xx>/`, `tools/i18n/<xx>/`.
+
+| Stage | Role | Brief | Writes |
+|---|---|---|---|
+| 1 | Researcher | `docs/briefs/profile-es-based.md` (models: `docs/profiles/fr.md`, `fr.profile.json`) | `docs/profiles/<xx>.md`, `docs/profiles/<xx>.profile.json`, then a lead note and your own decision record |
+| 2 | Lead step | run `python3 tools/content/setup_es_based.py <xx>`; write `docs/briefs/<xx>.json` (model: `docs/briefs/fr.json`); run `python3 tools/content/mk_briefs.py <xx>` | the scaffold in `tools/content/<xx>/` and `tools/i18n/<xx>/`, and briefs `<xx>-{A,B,C,D,I,R}.md` |
+| 3 | Writers A, B, C, D and Interface I (parallel if you can) | their briefs | their own files only |
+| 4 | Merge check | below | fixes |
+| 5 | Cold reviewer | `docs/briefs/<xx>-R.md` | edits in place, review notes |
+
+Merge check, from `source/`. ALWAYS give the output path (a file in your temp folder), otherwise these commands overwrite files in `packs/`:
+
+```
+node tools/content/gen.js <xx> <tmp>/course-<xx>-en.js
+node tools/content/validate.js <xx> <tmp>/course-<xx>-en.js      # PASS: all checks OK
+node tools/content/parity.js <xx> <tmp>/course-<xx>-en.js        # PASS: shared English side matches ko-en
+python3 tools/i18n/gen.py <xx> <tmp>/i18n-<xx>.js
+node tools/i18n/validate.js <xx> <tmp>/i18n-<xx>.js               # PASS
+```
+
+If a script does not accept the output path as shown, read its first lines for the right arguments; never let it write into `packs/`. Before committing, run `git status` and discard any change under `source/packs/`.
+
+Hand-off: `docs/briefs/<xx>-handoff.md`, same headings as for an English → X course, plus one line on anything in the interface that does not fit on a phone screen (long labels). Right-to-left languages (Urdu, Persian): the app already supports right-to-left for Arabic; list anything that looks specific to Arabic under "Needs from the lead". The app also has to be told a new native language exists (picker, pack loading): that is Claude's merge job, not yours.
 
 ## What to hand back
 
