@@ -2,6 +2,8 @@
 
 Course `en-nl`: Dutch for English speakers. Every explanation, prompt, `why`, `hint`, meaning and card note is in English. Answers, examples and card targets are in Dutch. Machine-readable twin: `tools/target/nl/profile.json`. The `pron` strings in §6 and §9 were produced by `tools/target/nl/respell.js`, and `pronPattern` in the JSON is the string that file's `pronPattern()` prints.
 
+**Lead, before stage 2:** read `docs/briefs/en-nl-lead.md` and record the three decisions there. Writers follow this profile. That note is the review, not a second profile.
+
 **Evidence tags.**
 - **[research-backed]**: an empirical study that was opened for this profile. The study is named, and its sample is given where it is small.
 - **[curriculum convention]**: what textbooks and courses do.
