@@ -1,0 +1,444 @@
+# English speakers learning Amharic: course profile
+
+Course `en-am`: Amharic for English speakers. Every explanation, prompt, `why`, `hint`, meaning and card note is in English. Answers, examples and card targets are in Amharic. Machine-readable twin: `tools/target/am/profile.json`.
+
+**Stop.** `pron` is `none`. `tools/target/am/respell.js` refuses to emit a pronunciation. Do not start lesson or deck writers. Section 6 is the reason. Sections 7 to 9 are the curriculum to keep if a later decision supplies a reliable pronunciation. They are not a start signal.
+
+**Evidence tags.**
+- **[research-backed]**: a study or primary description that was opened. The sample is given where it is small.
+- **[curriculum convention]**: what a course or manual that was opened actually teaches.
+- **[practitioner opinion]**: a teacher's or course site's statement, with no count behind it.
+- **[inference]**: this profile's own reasoning from tagged items.
+
+Untagged rules in §6 to §10 are design decisions, not findings.
+
+## 1. Summary
+
+- **Variant:** Standard Amharic as used in Addis Ababa, in the Ge'ez fidel, voice `am-ET`. The roadmap's variant is kept.
+- **Register:** አንተ and አንቺ together from the first greeting. እርስዎ is in that same lesson, for an older person or a stranger. ጤና ይስጥልኝ is the formal greeting for any person and any time of day.
+- **Biggest English-speaker traps, ranked (§4):** the verb ending (person and gender); gemination, which the fidel does not write; ejectives said as plain consonants; the sixth-order vowel said as English "ee" or dropped in the wrong place; the object ending -ን left off; the definite ending left off; verb-last word order; a sentence with no ነው.
+- **Standing practice rule, drafted and not released:** every practice set re-tests that the verb ending matches the person and the gender. Keywords are in §7. Gemination cannot be this rule, because two meanings can be the same letters.
+- **Pronunciation aid:** none. A generated English-letter line cannot be required. Gemination is phonemic and unwritten. Whether a sixth-order vowel is pronounced is also unwritten, and the published rules do not settle it. `respell.js` exits with a refusal. In one 200-word everyday list, 80 words had a geminate the spelling did not show.
+- **Lessons:** 26, every roadmap item, in roadmap order, no lesson added. Ids drop the `am-` prefix.
+- **Decks:** 17, including "Traps for English speakers" and "Compliments". Five sample cards per deck are not given: a sample would need a pronunciation this tool will not invent.
+- **Typing:** fidel on the device keyboard, word tiles by default. No accent bar. Homophone letters are not folded. The Telugu romanisation-answer fields are not copied, because there is no romanisation to accept.
+
+## 2. Variant, register and voice
+
+### 2.1 Variant
+
+The roadmap sets this: Standard Amharic (Ethiopia, Addis Ababa usage) in the Ge'ez fidel. [research-backed] The Addis Ababa dialect is the one treated as standard in the LDC Amharic peculiarities document (Appen Butler Hill, performer notes for LDC2019S22), which cites Hayward and Hayward 1999 and Marcos 1973 for that status. The same note lists Gondar, Gojjam, Wollo and Shewa as other dialects and says the dialect picture is not exhaustive. This course does not teach a regional deck.
+
+[research-backed] Wikipedia's Amharic article says the same dialect list and says the dialects are mutually intelligible, with minor variations. Jewish Amharic (Beta Israel) is a separate variety on that page. It is out of scope.
+
+**Spelling, one house rule.** There is no single academy spelling. [research-backed] The LDC note, citing Cowley and others 1976, lists the problems: four letters for /h/ (ሀ ሐ ኀ ኸ), two for /s/ (ሰ ሠ), two for /sʼ/ (ጸ ፀ), and አ and ዐ both as a vowel carrier. Leslau's 1976 dictionary, as the LDC note quotes it, keeps the Ge'ez spelling of inherited words, and for words that are not Semitic uses አ for an initial vowel, ሀ for h, ሰ for s, and ጸ for ṣ.
+
+House rule:
+- Do not respell a traditional word onto a different homophone letter. Learners must see ሀ and ሐ and ኀ and ኸ, ሰ and ሠ, አ and ዐ, ጸ and ፀ, because the fidel lessons exist to teach that they sound the same and are still written apart.
+- Where two opened sources spell one everyday word differently, use the Peace Corps Ethiopia manual (2015) spelling in the card, and put the other spelling in the note. The LDC number table has ሦስት and ዐስር; the Peace Corps time unit writes ሶስት. Both stay visible. Neither is silently "corrected."
+- Words are separated with a space, not with ፡. [research-backed] The LDC note says the two-dot word separator is being replaced by white space. Richard Ishida's Amharic orthography notes say the same for modern printed text, and that ፡ still occurs.
+- Do not write the gemination mark U+135F, or a dot above a letter. [research-backed] Wikipedia and Ishida both say Haddis Alemayehu used a dot in one novel and that the practice is rare. The 2009 Amharic TTS paper (Anberbir and Takara) says the orthography does not use a gemination mark and that their synthesizer needed a mark inserted by hand.
+
+**What learners will see anyway:** the other homophone letter, ፡ in older or religious text, and more than one spelling of a labialized consonant. [research-backed] The LDC note gives ሰምቶአል, ሰምቷል and ሰምትዋል for "he has heard." The course teaches one of those only after a source is checked for that word. It does not invent a fourth spelling.
+
+### 2.2 Roadmap items changed by this variant
+
+None. Addis Ababa standard is already the roadmap variant. No item is reordered, renamed in a way that drops the roadmap topic, merged, or replaced. The only title change is `likes`, whose English title now says that the lesson also holds kind remarks, so the Compliments deck has a lesson. The roadmap id stays `am-likes`.
+
+### 2.3 Forms of "you"
+
+**Taught together, in `greetings`:** አንተ (a man) and አንቺ (a woman). [curriculum convention] The Peace Corps Ethiopia Amharic manual (2015) gives the set እኔ ነኝ, አንተ ነህ, አንቺ ነሽ, እርስዎ ነዎት, እሱ ነው, እሷ ናት or ነች, እሳቸው ናቸው, እኛ ነን, እናንተ ናችሁ, እነሱ ናቸው. The same manual's time-of-day table, and the Bereka Buna greetings transcript, and the AmharicTeacher greetings page, all change the greeting for a man, a woman, a polite addressee, and a group. [research-backed] Samuel Mekonnen's 2010 Addis Ababa University thesis, on 45 adult monolingual American English speakers at a joint language school, treats the second-person split (antə, ančči, plural, and a polite form) as a difference English speakers have to learn, and chapter 4 records gender and person disagreement on the verb as a recurrent error.
+
+**እርስዎ:** in `greetings`, as the form for an older person or a stranger, together with ጤና ይስጥልኝ, which the Peace Corps manual marks formal for all persons and all times of day. The full እርስዎ verb paradigm is not drilled ahead of the verb lessons. The greeting itself is taught as a chunk. [inference] A US adult's first real exchanges (a shop, a host, an older relative) are not all አንተ. Dropping እርስዎ until A2 would train one "you."
+
+**How examples address people.** A friend or a peer is አንተ or አንቺ, and the card note says which. A stranger, a shopkeeper, or an older person is እርስዎ, or the formal chunk. English prompts say "(to a man)", "(to a woman)", or "(polite)" when the item tests the ending. They do not say "you" alone on those items.
+
+**Plural** እናንተ is in `be`, with the pronoun table, not in the first greeting drill. The first greeting drill is the singular man, the singular woman, and one polite form.
+
+### 2.4 Voice of the English text
+
+Plain, friendly US English, US spelling. A `why` is one sentence. Amharic inside a lesson body goes in `<b>`. In `why`, hints and card notes, Amharic is written bare. Do not add an English plural or possessive ending to an Amharic word.
+
+1. "English has one word, you. Amharic changes the verb: ደህና ነህ to a man, ደህና ነሽ to a woman."
+2. "The fidel writes ገና once. Said with a short n it is 'still'. Said with a long n it is 'Christmas'. The letters do not show which."
+3. "Nice work. Listen to the audio. The spelling does not show the long consonants."
+
+## 3. Glossary
+
+Use these English terms. Sources: the Peace Corps manual's own labels, Samuel Mekonnen 2010, the Wikipedia Amharic grammar sections that were read, and the roadmap's FSI-based names. Where those disagree, the term in this table wins.
+
+| Term to use | Do not use | Note |
+|---|---|---|
+| fidel | alphabet, abugida (in learner text) | "abugida" once, in `orders`, then "fidel" |
+| order (first order through seventh order) | column, form, series | the seven vowel shapes of one consonant |
+| sixth order | sadis (in learner text) | the shape that is either a vowel or a bare consonant |
+| consonant, vowel | | |
+| ejective | glottalized, emphatic | ቀ ጠ ጨ ጰ ጸ and ፀ. "popped" once as a gloss |
+| gemination, long consonant, short consonant | doubled letter (the fidel has no double letter) | phonemic; not written |
+| homophone letters | redundant letters (in learner text) | ሀ/ሐ/ኀ/ኸ, ሰ/ሠ, አ/ዐ, ጸ/ፀ |
+| -wa form | labiovelar (in learner text) | ቧ and the other wa shapes |
+| subject pronoun | personal pronoun | እኔ, አንተ, አንቺ, እርስዎ, እሱ, እሷ, እኛ, እናንተ |
+| verb ending, subject marker | suffix (when the point is person or gender) | **standing-rule keywords** |
+| person and gender | 2nd person masculine singular | say "the man form", "the woman form", "the polite form" |
+| masculine, feminine | male, female (for a grammatical ending) | **standing-rule keywords** |
+| polite form | formal pronoun, honorific | እርስዎ |
+| noun, verb, adjective | | |
+| plural | | the ending -ኦች. Do not call a bare "plural" a standing-rule hit |
+| definite ending | definite article, the-suffix | -u / -wa in the literature; teach the fidel form the source spells |
+| object ending | accusative, case | -ን |
+| possessive ending | genitive | on the noun: ቤቴ, ቤትህ, ቤትሽ |
+| preposition | | the roadmap's name for በ- ከ- ለ- ወደ, which attach to the following word |
+| copula | the verb to be (as the only name) | ነው and the set ነኝ ነህ ነሽ ናት. "to be" once as a gloss |
+| perfective | past tense (as the only name) | the roadmap says "past tense (perfective)". Use "perfective" and gloss it "the past" |
+| imperfective | present tense (as the only name) | gloss "present and future" |
+| infinitive | base form | መሄድ and the other መ- forms |
+| imperative | command form | |
+| negative | | አል- … -ም in the roadmap's negative lesson |
+| geminate minimal pair | homograph (in learner text) | same letters, two pronunciations, two meanings |
+| false friend | false cognate | |
+| calque | | gloss "a word-for-word copy from English" at first use |
+| Ethiopian time, European time | local time | the Peace Corps labels ሀበሻ ሰዓት and ፈረንጅ ሰዓት |
+
+Interface words stay the English ones already in the app: lesson, practice, review, deck, card, streak, hint, check.
+
+## 4. Error zones of English speakers, ranked
+
+**How this list is ranked** [inference]:
+1. Errors Samuel Mekonnen 2010 recorded in the speech and writing of 45 American English speakers, especially those he says persisted across all four course phases.
+2. Then errors that show up in almost every sentence and can be typed, because the fidel actually distinguishes them.
+3. Then structural points the thesis states as differences, without a count in the error chapter.
+
+The thesis is one school, one cross-section, 45 people. It is the only learner study opened. It is not a rate for every error below. Where the thesis gives a rate, the rate is quoted. Where it says "recurrent" or "regularly" and gives examples, that is what is claimed, not a percentage.
+
+1. **Verb endings: person and gender**
+   - Wrong → right, from the thesis's own examples (transcription as printed there): a masculine subject with a feminine ending, and the reverse. iswa "she" with a masculine ending; antə "you (man)" with a feminine ending; ine "I" with a third-person feminine ending. The Peace Corps forms to teach against that error: አንተ … ነህ, አንቺ … ነሽ, እሱ … ነው, እሷ … ናት.
+   - [research-backed] Mekonnen 2010, §4.2.2.3, calls subject-verb disagreement the pattern he saw most, and splits it into number, gender and person. He also records overgeneralizing the feminine ending /-əčč/ onto "I" and onto "you (woman)", and overgeneralizing the third-person masculine ending /-ə/ onto "I" and "you (man)".
+   - [curriculum convention] Every greeting source opened changes the ending for a man and a woman. Bereka Buna's transcript is built around that fact.
+   - Design consequence: this is the standing rule (§7). It can be typed, because ነህ and ነሽ are different letters.
+
+2. **Gemination left short**
+   - Wrong → right, same letters: አለ said alä "he said" where allä "there is" is meant, or the reverse. ገና said gəna "still, yet" where gənna "Christmas" is meant, or the reverse. ሽፍታ said as the short form "bandit / outlaw" where the long form "rash" is meant, or the reverse.
+   - [research-backed] Anberbir and Takara 2009: lexical gemination cannot be predicted; their example is አለ. Anberbir, Gasser, Takara and Kim 2011, Table 4: ገና, ለጋ, ስፊ, ሽፍታ, ይሰማል, each with a short reading and a long reading. Wikipedia's Amharic article: alä "he said" versus allä "there is", and yǝmätall "he hits" versus yǝmmättall "he will be hit". The fidel is the same for each pair. Gemination is not written.
+   - [research-backed] Mekonnen 2010, §4.2.1.1.3, with Ferguson 1976 as he quotes it: every Amharic consonant except /h/ occurs short and long. His learners produced the long and the short consonant the same way. He lists this with the errors that continued through all four phases (§5.1). His pairs include "Say!" versus "He ate", "He stated" versus "He exists", "savior" versus "hunter". Those glosses are his; the fidel was not in the thesis text that was read, so this profile does not invent spellings for them.
+   - [research-backed] Anberbir and Takara 2009: of 200 common words they took from a dictionary list, 80 (40 percent) contained one or more geminated syllables. They inserted gemination by hand because the spelling does not mark it. This is that list, not a count of running text.
+   - Design consequence: this cannot be a typed standing rule. The right answer and the wrong answer are the same fidel. It is taught by listening, in `reading` and again beside every verb lesson, and it is why §6 sets `pron` to none.
+
+3. **Ejectives said as plain consonants**
+   - Wrong → right, from Mekonnen's table of what his learners produced: /sʼ/ and /s/ both said as /s/ (his pair "skeleton" and "asthma"); /kʼ/ and /k/ both said as /k/ ("surprising" and "dwarf"); /tʃʼ/ and /tʃ/ both said as /tʃ/ ("tail" and "she donates"); /tʼ/ said as /t/. The fidel keeps these apart: ጸ or ፀ versus ሰ, ቀ versus ከ, ጨ versus ቸ, ጠ versus ተ.
+   - [research-backed] Mekonnen 2010, §4.2.1.1.1. He says the substitutions persisted across all four phases. English has no ejectives. His recommendation, which this course follows, is minimal pairs, heard, not a new spelling.
+   - Design consequence: `fidel-1` introduces ቀ, `fidel-3` introduces ጠ ጨ ጰ ጸ, and the traps deck repeats heard pairs. Do not tell learners that ቀ is "k". The aid cannot carry the pop, and there is no aid.
+
+4. **Sixth-order vowel, and syllable shape**
+   - The sixth order is the shape that is sometimes a vowel and sometimes no vowel. [research-backed] Anberbir and others 2011: ልብ is /lɨbb/ "heart" (the ል has a vowel) and in ስልክ /sɨlk/ "telephone" the ል has no vowel. Anberbir and Takara 2009: ሽፍታ "bandit" has an unvoweled sixth-order f; ሽፍታ "rash" has that f long and voweled. Same letters.
+   - [research-backed] The LDC note: there is no immediate way to read off the spelling whether the sixth-order vowel is [ɨ] or nothing. Word-final vowels are usually absent, "although the relationship between context and sixth order vowel is still relatively opaque."
+   - [research-backed] Mekonnen 2010, §4.2.1.2.4 and §4.2.1.1.4: his learners replaced /ɨ/ with /i/, and they turned Amharic CVCC words into an English-like CCVC shape (his examples include "cloth", "people", "love" as /fɨkr/). He lists the /ɨ/ → /i/ substitution among the errors that persisted across all four phases.
+   - [research-backed] Anberbir and others 2011: this epenthetic vowel is not contrastive in the way gemination is, the rules are "not completely understood", and their analyzer has only a first approximation. Ishida: silent vowels are common, written with the sixth order, and the vowel may also be kept, which is ambiguous.
+   - Design consequence: `orders` teaches the seventh shape as "a vowel, or no vowel, and you have to learn which." The course does not give a rule it cannot source. Listen.
+
+5. **Object ending -ን left off**
+   - Wrong → right, thesis pattern: a definite object with no -ን. His grammatical sentence is transcribed ɨne bərr-u-n zəgga-hu "I closed the door"; the learner sentence drops -n.
+   - [research-backed] Mekonnen 2010, Table 9 and Table 10. Of seven morphemes, the accusative /-n/ ranked 6th of 7. On his second scoring system the oral-and-written average was 17.1 percent correct. §4.2.2.2.1: learners regularly omitted it. §4.1.4: he treats -n, the definite marker, and the passive as having no English equivalent, unlike the plural, the copula, the progressive and the possessive, which his group acquired earlier.
+   - Design consequence: the roadmap already puts -ን in `past`. Keep it there. Recycle it in later practice. Do not move it earlier than the definite ending: his group acquired the definite marker before -ን, and both were late.
+
+6. **Definite ending left off**
+   - Wrong → right: a specific noun with no definite ending. The thesis says /-u/ (and /-wa/ for a feminine noun, citing Baye 1994) was regularly omitted: his stars are "Dog is hungering" and "Child was learning" with no definite marker.
+   - [research-backed] Mekonnen 2010, Table 9: definite /-u/ ranked 5th of 7. Table 10, second scoring system, oral-and-written average 34.2 percent. Wikipedia's Amharic grammar section: in the singular the article distinguishes masculine and feminine; in the plural the definite is -u for both.
+   - [curriculum convention] Peace Corps manual, a note under a comparison exercise: towns and countries are normally treated as feminine.
+   - Design consequence: `definite` teaches -u and the feminine form from a checked source, with ቤቱ from the roadmap as the masculine model. Town names take the feminine form once that form has been checked in a dictionary. Do not invent the feminine fidel here; the thesis and Wikipedia give the analysis in transcription, and the Peace Corps note does not print the feminine suffix in fidel.
+
+7. **Verb at the end**
+   - Wrong → right: an English order, verb in the middle, where Amharic keeps the verb last. The roadmap's own example shape is ቡናውን ጠጣሁ.
+   - [research-backed] Mekonnen 2010, introduction: Amharic is SOV and English is SVO, and "English-speaking learners have difficulties ending a sentence with a verb." That sentence is his contrastive claim. The error chapter that was read catalogs agreement, omitted endings and overgeneralized endings. It does not give a count of word-order errors. Ranked here because the difference is in every sentence, and tagged at the strength he gave it.
+   - Design consequence: from `intro` on, example sentences end with the verb. Practice order-items put the verb tile last.
+
+8. **No copula**
+   - Wrong → right: a noun or adjective left to mean "is" by itself. [research-backed] Mekonnen quotes Getachew Haile 1974: an equative sentence in Amharic is ungrammatical with no copula. In his own copula test, some students omitted ነው and gave only the complement (five oral omissions in that item set). Table 9: the copula /nəw/ was 2nd of 7, early, with a second-system average of 75.08 percent. So the error is real and also one of the earlier successes. Teach it in `be` and do not treat it as unlearned forever.
+   - አለ "there is" is a different verb from ነው, and አለ is also the gemination pair in §4.2. [inference] English "is" maps onto both. `have` and `be` must say they are not the same word, and that the letters አለ do not show the long consonant of "there is."
+
+9. **Other phonological substitutions that persisted**
+   - [research-backed] Mekonnen 2010, §5.1: replacing the trill with a flap, across all four phases. His pair: native /bərr/ "door" versus the learner's flap. Wikipedia's allophone table glosses ብር bərr as the Ethiopian birr, not "door". This profile does not decide which gloss is right. The sound point stands: he heard a flap where a native trill was intended. Teach r as a trill in `reading`, by audio.
+   - [research-backed] The same closing section: learners did not palatalize the final alveolar of a feminine singular imperative (his table: "Give!", "Wear!", "Call!", and others). That is a later-verb fact. Mention it in `commands`. Do not build a full palatalization table from his transcriptions alone; several of his rows are hard to read in the extracted text.
+
+10. **Plural is not the hard morpheme**
+    - [research-backed] Mekonnen 2010, Table 9: plural /-očč/ ranked 1st, earliest. Table 10, second system, oral-and-written average 81.58 percent. He also records learners adding English -s to an Amharic noun. Design consequence: teach -ኦች in `definite`, and do not spend the standing rule on it. One traps card for the English -s, once a sourced noun is chosen.
+
+**Not found in anything opened:** a checked list of Amharic–English false friends. The traps deck must not be filled with pairs this profile did not see. Calques to use, if a writer is ever started, are the ones the thesis and the grammar pages support: one "you", "is" with no ነው, an object with no -ን, a verb in the middle.
+
+## 5. Learners: who, why, what first
+
+**Who**
+- [research-backed] Wikipedia, Ethiopian Americans: the 2023 American Community Survey figures given there are 372,804 people reporting Ethiopian ancestry and 278,182 Ethiopia-born. Those are not counts of Amharic speakers. The page lists Amharic among the languages of the community, beside Afar, Oromo, Tigrinya, English and Hebrew. The largest community it names is the Washington, D.C. area. Other cities it names: Los Angeles, Minneapolis–Saint Paul, Dallas, Seattle, Denver, the San Francisco Bay Area, New York, and others.
+- [research-backed] Mekonnen 2010: his 45 subjects were adult monolingual American English speakers studying Amharic at a joint language school, in four phases. That is a classroom population, not the app's whole audience.
+- [curriculum convention] Peace Corps Ethiopia (2015 welcome book): volunteers are placed in schools and learn Amharic, Oromo, or Tigrinya depending on the region. The 2015 language manual is the Amharic course for that training.
+- [inference] The app's adult learner is one of: a family member or partner of an Amharic speaker in a US city, a traveler or volunteer heading to Addis Ababa, or a heritage learner who understands more than they can write. The lesson order is the same for all of them. The fidel lessons are skippable only by a placement check, which this profile does not design.
+
+**Why**
+- No survey of motives was opened. [inference] From the populations above: family and partners, travel, volunteer or school placement, and heritage. Do not invent a percentage.
+
+**What they need first** [inference from the roadmap's own basis, checked against what was opened]
+1. The fidel, in stages, because nothing else can be read. The roadmap's first five items do this. The Peace Corps manual also has a script-reading practice inside its time unit, so script and survival language run together in that course. This course follows the roadmap and finishes the fidel rows before the sentence lessons.
+2. A greeting that matches the person: man, woman, or polite. Every opened greeting source does this on day one.
+3. Name, origin, ነው. The copula was early for Mekonnen's group.
+4. Numbers, time and prices in ብር. The Peace Corps manual puts telling time in Unit 8 and a market in birr beside it. The roadmap already has these in the everyday stage. They stay there, not before the fidel.
+5. Verb endings from the first greeting, because that is the error in §4.1 and it is typeable.
+
+**Check against the named syllabi.** The roadmap says its grammar order is FSI Amharic Basic Course units 1–12, and its topics follow University of Florida AHM1130, with ELIAS as the support for starting from the fidel. Those three pages were not re-opened for this profile. The roadmap's own note says the FSI course is in transcription and has no script lessons, and that the fidel stage is backed by ELIAS starting with the alphabet. This profile accepts that note and does not reorder. [research-backed, for the learner-morpheme order only] Mekonnen's acquisition order (plural, copula, progressive, possessive, definite, accusative, passive) does not fight the roadmap: ነው is early, -ኦች is with the noun lessons, -ን is in the past lesson, and the passive is not in the A1 list. His progressive marker is not a roadmap item. It is not added (§8).
+
+## 6. Pronunciation aid (`pron`)
+
+**Decision: `pron` is `none`. The generator refuses. Do not start writers.**
+
+### 6.1 What the spelling does and does not show
+
+The fidel is an abugida: one character is a consonant plus a vowel, seven orders, left to right. [research-backed] Wikipedia: 34 basic characters, seven forms each, plus wa letters, on the order of 288 shapes, Unicode Ethiopic block U+1200–U+137F. The LDC note limits the letters it used to U+135A. A map from each character to a consonant and a vowel is deterministic. That map is not a pronunciation.
+
+Two things a reader needs are not in the letters.
+
+**Gemination.** [research-backed] It distinguishes words. Sources opened, with the pair each one prints:
+- አለ alä "he said" / allä "there is" (Anberbir and Takara 2009; Wikipedia states the same pair in transcription).
+- ገና gəna "still, yet" / gənna "Christmas" (LDC note; Anberbir, Gasser, Takara and Kim 2011).
+- ሽፍታ short "outlaw / bandit" / long "rash" (Anberbir and others 2011; Anberbir and Takara 2009, who add that the long form is also voweled).
+- ይሰማል "he hears" / the long form "he or it is heard" (Anberbir and others 2011). The passive imperfect doubles consonants the active does not. Their worked verb is ይሰበራል, pronounced with a long s and a long b, from the root sbr "break".
+- Wikipedia: yǝmätall "he hits" / yǝmmättall "he will be hit".
+
+[research-backed] Anberbir and others 2011: all consonants except /h/ and /ʔ/ occur geminated. Mekonnen, quoting Ferguson, excepts only /h/. Lexical gemination "usually cannot be predicted." Without context, ገና cannot be disambiguated. Morphological gemination inside verbs is often predictable if you know the verb class and the affixes. Leslau, as quoted by the literature they rely on and as summarized in their Table 5: type A geminates the penultimate in the perfective only, type B geminates it throughout, type C geminates it in the perfective and the imperfective. The class is lexical. The same paper: derivational categories such as the passive change the pattern again (type A passive imperfective geminates the first and the second consonant). Their HornMorpho analyzer scored 100 percent on 666 verb forms taken from Armbruster 1908, where gemination had been marked by hand. On ገና it returns both pronunciations. They say an incomplete list of common words is not analyzed, and that a part-of-speech tagger would be required for the homographs. That system was not available here, and a partial copy of it would invent gemination on the words it gets wrong.
+
+[research-backed] Anberbir and Takara 2009: 80 of 200 common words in their dictionary sample had at least one geminate. Their letter-to-sound map was one character, one syllable, and they call the lack of automatic gemination an open problem.
+
+**Sixth-order vowel.** [research-backed] The sixth order writes both "consonant plus [ɨ]" and "consonant with no vowel." Anberbir and others 2011: ልብ /lɨbb/ versus the bare l in ስልክ /sɨlk/. The LDC note calls the mapping "relatively opaque." Anberbir and others say the epenthesis rules are not completely understood. Ishida: the sixth order is how silent vowels are written, and the vowel may instead be pronounced. This is not a phonemic contrast of the same kind as gemination (Anberbir and others say epenthesis is not contrastive). It is still a systematic miss: a romanisation that always writes the vowel, or always drops it, is wrong for one of the two readings, and the readings change the syllables.
+
+**What a character map would get right,** and why that is not enough: the seven orders for an ordinary consonant; the ejectives as their own consonants; the homophone mergers (ሀ ሐ ኀ ኸ → h, ሰ ሠ → s, ጸ ፀ → sʼ, አ ዐ → the vowel carrier), which the LDC note states for Addis Ababa; the -wa letters; the special fact that the first order of ሀ ሐ ኀ አ ዐ has merged with the fourth-order vowel, so ሀገር and ሃገር are both /hagər/ "country" (LDC, with a small set of exceptions such as ኧረ). Those are rules a program can apply. They do not restore gemination or the sixth-order vowel.
+
+**Allophones a lesson can mention and a pron line would not need to spell,** if a line existed: [research-backed] Wikipedia's allophone paragraph: /b/ as an approximant between sonorants when it is not geminated; /sʼ/ mostly the affricate [tsʼ]; r a trill when geminated and a tap otherwise; the central vowels fronted after a palatal and rounded after a labialized velar. Stress: Wikipedia says there is no consensus, and that initial and heavy syllables tend to draw it. Mekonnen, quoting Bender, calls Amharic stress weak and not meaning-changing, and says his learners stressed a final verb syllable the way English stress works. These are listening notes. They are not why the tool stops. Gemination is why the tool stops. The sixth order is the second systematic miss.
+
+### 6.2 Options
+
+| Option | Why it fails |
+|---|---|
+| English-letter respelling required on every card, generated from the fidel | Systematic miss. On the 200-word list, 40 percent of the words had a geminate the letters do not show. አለ and ገና would each get one reading and teach the other meaning wrong. |
+| The same line, plus a lexicon of geminated words | The lexicon is the pronunciation, typed by hand, which this pipeline does not allow. Writers have not chosen the words yet. Homographs still need a sense, not a spelling. Verb class is lexical, and the passive changes the gemination. A lexicon of citation forms does not generate እሄዳለሁ versus ሄድኩ. |
+| A HornMorpho-class analyzer | The 2011 paper is the existence proof that verbs can be done with a root lexicon and a large rule set, and the same paper says ገና still has two outputs and the epenthesis component is a first approximation. Reimplementing that here would assert rules this profile has not checked verb by verb. A wrong rule would mark every card of that class wrong, and the output would look authoritative. |
+| IPA | Same missing information, in a notation US adult learners do not read. |
+| `pron: none` | No false line. The cost is real: the queue asked for a romanisation on cards before the fidel lessons finish, and this course cannot generate one. Audio and the fidel are what a learner would have. That is not "the spelling is a sufficient guide." It is not. |
+
+**`pron: none` is justified** as the setting in `profile.json`. A required generated pron would omit a phonemic contrast on a large share of ordinary words, including pairs that change meaning, and it would take a guess on the sixth-order vowel.
+
+**`pron: none` is not justified** as a claim that learners need no help reading the fidel. They do. The help cannot be generated from the spelling. Hand-written prons are outside this pipeline. Until a maintained analyzer and a sense-tagged list exist, writers should not start, and the early cards should not carry a homemade romanisation.
+
+### 6.3 The tool
+
+`node tools/target/am/respell.js "<text>"` writes a refusal to stderr and exits 1. It does not print `<text> -> <pron>`. `respell` throws. `pronPattern()` returns the empty string, matching `profile.json`.
+
+There is no key, no 20 worked examples, and no §6.5 list of words the tool gets wrong. The tool gets no word right, because it emits nothing. A list of exceptions would imply the rest were safe.
+
+**What `orders` must teach anyway,** so a learner can use audio beside the fidel: the seven orders; that several letters are one sound; that a long consonant is not written; that the sixth order may be a vowel or nothing; that an ejective is not the plain consonant. No respelling alphabet is taught, because none is required.
+
+### 6.4 Fields not copied from Telugu
+
+`tilesDefault` is true: a new script, so practice offers word tiles. `voiceMatch` is `^am(?:[-_]|$)` for the `am-ET` voice.
+
+Not copied, on purpose: `pronAnswers`, `pronAnswersKeepSpaces`, `pronAnswersScript`, `romaAlmost`, `pronAnswersWarn`. Those fields accept a typed romanisation. There is no reliable romanisation to accept. Copying them would grade a learner against a line this tool will not produce. The Ethiopic block for a future `pronAnswersScript`, if a pron is ever approved, is U+1200–U+137F, as the queue asked. It is not set now.
+
+## 7. Standing practice rule
+
+**Not released.** Recorded so a later start does not invent a different rule. Do not write practice sets from this section until the pron decision changes or the lead explicitly starts writers with `pron: none`.
+
+**Rule: the verb ending matches the person and the gender.** Two strands, one rule:
+- **(a) Person.** እኔ, አንተ, አንቺ, እርስዎ, እሱ, እሷ, እኛ, እናንተ, እነሱ take their own ending. ነኝ, ነህ, ነሽ, ነዎት, ነው, ናት, ነን, ናችሁ, ናቸው are the copula set from the Peace Corps table. Later lessons use the same person split on the perfective and the imperfective.
+- **(b) Gender.** A man and a woman are different endings. እሷ is not the እሱ ending. The definite ending, once `definite` has taught it, agrees in gender too: masculine versus feminine. Town and country names are feminine when that form is checked.
+
+**Why this, and not gemination.** Gemination is the error Mekonnen's group did not shake, and it is unwritable. A `why` line cannot force a typed fidel answer to be the long consonant, because the short one is the same characters. [inference] The typeable error that is already in the first greeting, and that his chapter 4 treats as the main agreement failure, is the verb ending. The object -ን is the latest of the typeable morphemes and is recycled from `past`, not required in `orders`.
+
+**Count** (`minOrder` 2, `minType` 2): in every practice set, at least two order items and two type items hinge on the rule, and their `why` uses a keyword.
+
+**What counts as hinging.** The `why` matches the keywords, and the item has a real contrast: the distractor is the other person or the other gender (ነህ against ነሽ, a man-form verb against a woman-form verb, እርስዎ's form against አንተ's form). From `definite` on, a definite ending of the other gender also counts. An item about gemination, ejectives, word order, or the plural does not hinge, and its `why` must not use the keywords.
+
+**Keywords** (`standingRule.keywords`, flags `i`), tested with `new RegExp(keywords, "i")`:
+
+```
+\bsubject marker\b|\bverb ending\b|\bmasculine\b|\bfeminine\b|\bpolite form\b|\b(?:man|woman) form\b|\bperson and gender\b|\bagrees with the subject\b
+```
+
+Bare "plural", "ending", "you", "person" and "gender" are not keywords.
+
+**Tested** (25 lines, all as expected):
+
+| Sample `why` | Result | Expected |
+|---|---|---|
+| The verb ending is for a man: ነህ. | match | should match |
+| Use the woman form: ነሽ. | match | should match |
+| The subject marker agrees with the subject. | match | should match |
+| Polite form: ነዎት, for እርስዎ. | match | should match |
+| Person and gender: አንቺ takes ነሽ. | match | should match |
+| እሷ is feminine, so the verb ending is ናት. | match | should match |
+| The masculine ending on the verb is ነህ. | match | should match |
+| Agrees with the subject: እኛ takes ነን. | match | should match |
+| Man form of the greeting: አደርክ. | match | should match |
+| The plural marker is -ኦች. | no match | should not match |
+| Gemination is not written in the fidel. | no match | should not match |
+| The verb comes last. | no match | should not match |
+| Ejective ቀ is not the same as ከ. | no match | should not match |
+| The accusative -ን marks the object. | no match | should not match |
+| Ask the price in birr. | no match | should not match |
+| Ethiopian 12 in the morning is 6 a.m. | no match | should not match |
+| The object comes before the verb. | no match | should not match |
+| Say something kind about the food. | no match | should not match |
+| This letter is the sixth order. | no match | should not match |
+| ሀ and ሐ are the same sound. | no match | should not match |
+| There is no separate word for a. | no match | should not match |
+| Negatives wrap the verb. | no match | should not match |
+| Use the infinitive after want. | no match | should not match |
+| A form of the verb for everyone. | no match | should not match |
+| The ending of the noun is the plural. | no match | should not match |
+
+The test was run on the English skeleton of those lines (the Amharic words are not part of the pattern). "feminine" and "masculine" will also match a `why` that only mentions a feminine town. Use them only when the item hinges.
+
+## 8. Lessons (final order)
+
+**Changes from the roadmap:** none in order, none added, none dropped. Twenty-six items. Ids lose the `am-` prefix. `likes` keeps `am-likes`; the English title adds kind remarks so Compliments has a lesson (§2.2).
+
+These rows are the curriculum to keep. They are not an assignment. The pron stop in §6 blocks writers.
+
+| # | id | Title | Roadmap item | Content, and the English-speaker trap | Deck |
+|---|---|---|---|---|---|
+| | | **Fidel and greetings** | | | |
+| 1 | `orders` | How the fidel works | am-orders | One consonant, seven orders, demonstrated on በ ቡ ቢ ባ ቤ ብ ቦ. The sixth order may be a vowel or none. A long consonant is not written. Trap: reading each character as an English letter name, and assuming the letter shows the length. | How the fidel works |
+| 2 | `fidel-1` | Fidel rows: ሀ to ቸ | am-fidel-1 | ሀ ለ ሐ መ ሠ ረ ሰ ሸ ቀ በ ቨ ተ ቸ. ቀ is an ejective, not k. Trap: equating ቀ with ከ before ከ has been taught. | Fidel rows: ሀ to ቸ |
+| 3 | `fidel-2` | Fidel rows: ኀ to ዠ | am-fidel-2 | ኀ ነ ኘ አ ከ ኸ ወ ዐ ዘ ዠ. አ and ዐ are the vowel carrier. Trap: inventing four h sounds for ሀ ሐ ኀ ኸ. In Addis Ababa they are one /h/ (LDC). | Fidel rows: ኀ to ዠ |
+| 4 | `fidel-3` | Fidel rows: የ to ፐ, and the ejectives | am-fidel-3 | የ ደ ጀ ገ ጠ ጨ ጰ ጸ ፀ ፈ ፐ. ጠ ጨ ጰ ጸ are ejectives; ፀ is the same sound as ጸ. Trap: §4.3, plain t ch p s for the ejectives. | Fidel rows: የ to ፐ |
+| 5 | `reading` | Letters that sound the same, and reading words | am-reading | Homophone letters, -wa forms (the roadmap names ቧ ሏ ኳ ጓ), and short words heard with their gemination. Trap: one pronunciation per spelling. ገና is the example of two. | Reading words |
+| 6 | `greetings` | Greetings: አንተ, አንቺ and እርስዎ | am-greetings | ሰላም, ጤና ይስጥልኝ, ደህና አደርክ / አደርሽ / አደሩ, the afternoon and evening set, ደህና እደሩ at night, አመሰግናለሁ as in the roadmap. Trap: one "you" (§4.1). | Greetings and courtesy |
+| | | **First sentences** | | | |
+| 7 | `intro` | Introducing yourself | am-intro | ስሜ … ነው, ስምህ ማን ነው, ስምሽ ማን ነው, from the roadmap. Trap: dropping ነው (§4.8); asking a woman with the man's ending. | About me |
+| 8 | `be` | Pronouns and ነው | am-be | The Peace Corps pronoun set and ነኝ ነህ ነሽ ነዎት ነው ናት ነን ናችሁ ናቸው. Trap: one verb form for every subject (§4.1). | About me |
+| 9 | `definite` | The and plurals | am-definite | ቤቱ, ቤቶች, from the roadmap. Masculine and feminine definite endings. Plural -ኦች, which Mekonnen's group acquired early, plus the English -s error. Trap: no definite ending on a specific noun (§4.6). | Classroom and home |
+| 10 | `this-that` | This, that, and the classroom | am-this-that | ይህ, ይህች, ያ, መጽሐፍ, ብዕር, from the roadmap. Trap: one word "this" for ይህ and ይህች. | Classroom and home |
+| 11 | `questions` | Question words | am-questions | ምን, ማን, የት, መቼ, ስንት, እንዴት. Trap: a "do" auxiliary, which Amharic does not use. The question is the question word plus the verb ending. | Questions and connectors |
+| 12 | `numbers` | Numbers | am-numbers | አንድ, ሁለት, through አስር, ሃያ, መቶ, as the roadmap lists them. Where ሦስት / ሶስት or ዐስር / አስር appears, follow §2.1. Trap: reading the fidel as the European digit only. | Numbers, time and prices |
+| 13 | `possessive` | Possessive endings | am-possessive | ቤቴ, ቤትህ, ቤትሽ, ቤቱ, ቤቷ. Trap: an English "your" that ignores man and woman. The ending agrees with the possessor's gender, which is strand (b). | People and family |
+| 14 | `have` | Having: አለኝ | am-have | አለኝ, የለኝም. አለ "there is" is the geminated reading; አለ "he said" is the short one (§4.2, §4.8). Trap: English "have" as a verb in the middle, and one pronunciation of አለ. | Classroom and home |
+| 15 | `prepositions` | በ-, ከ-, ለ-, ወደ | am-prepositions | The roadmap's ከአሜሪካ ነኝ. Trap: a separate word placed as in English, and the man's or woman's ነኝ left as ነህ. | Getting around |
+| | | **Verbs** | | | |
+| 16 | `past` | The past, and the object -ን | am-past | Perfective person endings, roadmap examples ሄድኩ, ሄድክ, ሄደ, ሄደች, and ቡናውን ጠጣሁ. Trap: no -ን (§4.5); one past form for every person. Gemination in the perfective is heard, not written (§6.1). | Verbs |
+| 17 | `present` | Present and future | am-present | Imperfective, roadmap examples እሄዳለሁ, ትሄዳለህ, ይሄዳል. Trap: a separate future tense, and ትሄዳለህ said to a woman. | Verbs |
+| 18 | `negative` | Negatives | am-negative | አልሄድኩም, አልሄድም. Trap: English "not" as a separate word, and a negative that keeps the affirmative ending. | Traps for English speakers |
+| 19 | `want` | The infinitive and wanting | am-want | መሄድ, ቡና እፈልጋለሁ. Trap: "I want" with a finite verb copied from English, and the verb before ቡና. | Likes and free time |
+| 20 | `commands` | Commands and please | am-commands | ና, ነይ, ኑ, ተቀመጥ, እባክህ / እባክሽ. Trap: one command for a man and a woman. Palatalization of a feminine imperative is a listening note (§4.9), not a full table. | Greetings and courtesy |
+| | | **Everyday life** | | | |
+| 21 | `time` | Ethiopian time and days | am-time | ስንት ሰዓት ነው. Peace Corps Unit 8: 6 a.m. is ጠዋት አስራ ሁለት ሰዓት, and ከጠዋቱ 1 ሰዓት is 7 a.m.; noon is ከቀኑ 6 ሰዓት. The same page says to ask whether a time is ሀበሻ ሰዓት or ፈረንጅ ሰዓት. Days ሰኞ, ማክሰኞ from the roadmap, forms to be checked before any card is written. Trap: reading 3 ሰዓት as 3 a.m. | Numbers, time and prices |
+| 22 | `prices` | Prices at the market | am-prices | ዋጋው ስንት ነው, ብር. Peace Corps market lines use ብር and ስንት ነው (ሂሳብ ስንት ነው for a bill). Trap: a plural verb with a price, and no definite ending on ዋጋው. | Numbers, time and prices |
+| 23 | `likes` | Likes, and kind remarks | am-likes | እወዳለሁ, አልወድም, and the compliments in §9. Trap: "I like" with the verb before the thing liked, and one ending for every person. | Compliments |
+| 24 | `family` | Family | am-family | አባት, እናት, ወንድም, እህት. Trap: possessive endings of the wrong gender (§13). | People and family |
+| 25 | `restaurant` | At a restaurant | am-restaurant | እንጀራ, ቡና, ውሃ, ሂሳብ, plus dishes the Peace Corps menu prints in fidel (§9). Trap: English word order, and እባክህ said to a woman. | Food and drink |
+| 26 | `directions` | Directions | am-directions | ወደ ቀኝ, ወደ ግራ, ቀጥታ, ሆቴሉ የት ነው, from the roadmap. Trap: the verb before the place, and የት ነው with the wrong person when the subject is "you". | Getting around |
+
+**Not added.** A passive lesson: Mekonnen's passive /tə-/ was last of the seven (Table 10, second system, 12.72 percent), and the roadmap stops before relative clauses and causatives. A separate gemination lesson: the contrast cannot be typed in the fidel. A progressive lesson: his /ɨjjə-/ was early, and it is not on the roadmap. Adding any of these would be a fourth lesson past the "at most one" allowance once the pron block is lifted, so none is added now.
+
+## 9. Decks
+
+**17 decks in 5 groups.** About 16 to 18 cards each when a writer is eventually assigned. Card shape stays `target | pron | meaning | note`, with `pron` empty while `profile.json` says `none`.
+
+**Five sample cards per deck are not given.** A sample needs either a generated pron, which §6 refuses, or an invented Amharic sentence. Neither is allowed. The food, money, names and places below are the ones printed in sources that were opened, so a later writer has a level and a setting without a fake card line.
+
+| Group | Decks |
+|---|---|
+| Script and sounds | How the fidel works · Fidel rows: ሀ to ቸ · Fidel rows: ኀ to ዠ · Fidel rows: የ to ፐ · Reading words |
+| First steps | Greetings and courtesy · About me · People and family |
+| Everyday life | Numbers, time and prices · Classroom and home · Food and drink · Likes and free time |
+| Out and about | Getting around · Verbs |
+| Conversation | Questions and connectors · Compliments · Traps for English speakers |
+
+| Deck | Lesson or lessons | What the cards are |
+|---|---|---|
+| How the fidel works | `orders` | The seven orders on one consonant, then a few more consonants once `fidel-1` has started. Notes say the sixth order and the long consonant are not on the letter. |
+| Fidel rows: ሀ to ቸ | `fidel-1` | Each row, with ቀ marked as an ejective. |
+| Fidel rows: ኀ to ዠ | `fidel-2` | Each row. አ and ዐ identified as the same carrier. |
+| Fidel rows: የ to ፐ | `fidel-3` | Each row. ጠ ጨ ጰ ጸ against ተ ቸ ፐ ሰ. ፀ next to ጸ. |
+| Reading words | `reading` | Homophone letters and wa forms. At least one geminate pair, heard, with both meanings in the note (ገና). |
+| Greetings and courtesy | `greetings`, `commands` | Time-of-day greetings for a man, a woman and እርስዎ; ጤና ይስጥልኝ; ሰላም; thank you; እባክህ and እባክሽ. |
+| About me | `intro`, `be` | Name, origin, the pronoun and copula set. |
+| People and family | `possessive`, `family` | አባት, እናት, ወንድም, እህት, and possessive endings for a man and a woman. |
+| Numbers, time and prices | `numbers`, `time`, `prices` | Numbers, ስንት ሰዓት ነው, the Peace Corps clock pairs, prices in ብር. |
+| Classroom and home | `definite`, `this-that`, `have` | ይህ, ይህች, ያ, መጽሐፍ, ብዕር, ቤቱ, ቤቶች, አለኝ, የለኝም. |
+| Food and drink | `restaurant` | Menu lines the Peace Corps manual prints: ቀይ ወጥ, አልጫ ወጥ, ዶሮ ወጥ, ምስር ወጥ, ክትፎ, ጥብስ, ፍርፍር (the manual glosses the base as እንጀራ), እንቁላል ጥብስ, አምቦ ውሃ, ቡና, ሻይ, ቢራ, and ሂሳብ. |
+| Likes and free time | `want` | Infinitive and እፈልጋለሁ / እወዳለሁ / አልወድም. The likes lesson's deck field is Compliments; this deck still takes the infinitive lesson. |
+| Getting around | `prepositions`, `directions` | በ- ከ- ለ- ወደ, ወደ ቀኝ, ወደ ግራ, ቀጥታ, ሆቴሉ የት ነው. |
+| Verbs | `past`, `present` | Person endings in the perfective and the imperfective, with -ን. |
+| Questions and connectors | `questions` | The six question words, plus እና and ግን, which the Peace Corps market unit uses for "and" and "but". |
+| Compliments | `likes` | Kind remarks. Attested words to build from, not a finished card: ውብ and feminine ውቢት "beautiful" (Peace Corps); ቆንጆ in በጣም ቆንጆ (Peace Corps reading); መልካም ቀን and መልካም ጉዞ (Bereka Buna); በጣም አሪፍ as "great" (Bereka Buna). How a person answers a compliment was not in the pages opened. Do not invent the reply. Leave that card until a source is checked. |
+| Traps for English speakers | `negative` | The typeable traps: ነህ for a woman, no -ን, no ነው, English -s, verb in the middle. Plus listening cards for an ejective and for ገና, with the note that the spelling does not mark the long consonant. No false-friend list (§4, last paragraph). |
+
+**Localisation**
+- **Names that appeared in opened materials:** Abebech and Mike (Peace Corps time dialog); Ato Kebede and Lindsay (Peace Corps greetings dialog); Adam (Bereka Buna); Tigist (Peace Corps exercise). Use these rather than inventing a cast. Ato before a man's name is the Peace Corps pattern.
+- **Places:** Addis Ababa, Gondar, Adama, Butajira, Assela (Assella in one Peace Corps line). The US cities in the Ethiopian-American Wikipedia page are Washington, D.C., Los Angeles, Minneapolis–Saint Paul, and the others in §5. Scenes are Addis Ababa unless the card is about the diaspora.
+- **Food:** the Peace Corps menu in §9 above. Roadmap እንጀራ, ቡና, ውሃ, ሂሳብ are all supported (እንጀራ as the manual's gloss of the firfir base; ቡና, አምቦ ውሃ, ሂሳብ ስንት ነው printed there).
+- **Money:** ብር only. The Peace Corps price list is in birr (a coffee at 4 ብር and a doro wot at 45 ብር on that menu). Those prices are the manual's, not a claim about 2026 prices. Cards can use the numbers as practice figures and should not present them as today's menu.
+- **Time:** Ethiopian clock as in `time`, with the European equivalent in the note. ይቅርታ before asking a stranger the time, as the Peace Corps unit says.
+
+## 10. Typing and script
+
+**Script.** Ge'ez fidel, Unicode Ethiopic U+1200–U+137F. Modern Amharic words use the syllable letters. The LDC note's set stops at U+135A. `targetScript` is `[\\u1200-\\u135A]`, so a string of only punctuation does not count as Amharic text. Punctuation and Ethiopic digits sit above that range (፠ is U+1360, digits from U+1369). [research-backed] Ishida: left to right, no case, modern words usually split by spaces, ፡ still used, native punctuation includes ። ፣ and ፤, and ASCII period and comma also occur.
+
+**No accent bar.** `keys` is empty. `accents` is false. The fidel is not a Latin alphabet plus diacritics. The three Ethiopic combining marks (vowel length, gemination, both) are scholarly. The course does not ask learners to type them. A missing gemination mark is not "almost", because the correct everyday spelling has no mark.
+
+**Homophone letters are different letters.** ሀ and ሐ are not an accent pair. Folding them would mark a wrong spelling right. The same for ሰ/ሠ, አ/ዐ, ጸ/ፀ, and for an ejective versus its plain partner. [inference from the Telugu engine facts] Telugu never folds vowel length, retroflex versus dental, aspirated versus plain, or single versus doubled, inside the script. The Amharic analogue is: do not fold order, homophone letter, or ejective. Gemination has nothing to fold, because it is not written.
+
+**Tiles.** `tilesDefault` true. Practice of a new script is tiles first. Typed fidel is for learners who have an Ethiopic keyboard. The device font draws the fidel. No bundled font is required to start, and this profile is not a start.
+
+**Punctuation.** Authors write ። or a period, and ፣ or a comma, as the source does. The matcher already strips `. , ! ?` in the practice spec. Whether it strips ። and ፣ was not checked, because `src/app.html` was not opened. If a later course is typed, the lead should confirm Ethiopic punctuation is ignored the way ASCII punctuation is. Model answers still include the punctuation the lesson is teaching.
+
+**Case.** None. Do not capitalize fidel. A Latin capital in a loan (a name written in English) is the English word, not Amharic, and should be avoided in a target string. Peace Corps writes Mike and Lindsay in Latin beside the Amharic. Cards should use the Amharic line only.
+
+**What a typed answer must include**
+- The verb ending for the person and the gender the prompt names.
+- The object -ን and the definite ending when the lesson has taught them and the sentence needs them.
+- The preposition attached as the source attaches it (ከአሜሪካ, not a floating ከ).
+
+**What it need not include**
+- A gemination mark.
+- ። or ፣, if the lead confirms they are stripped; until then, do not build items whose only difference is punctuation.
+- A romanisation. `pronAnswers` is off.
+- The subject pronoun, when the verb ending already shows the person. List both in `a` only after a source shows both are natural. The Peace Corps tables print the pronoun in parentheses beside several copula lines, which suggests the pronoun is optional there. That is one manual's layout, not a general rule for every tense. Do not generalize it.
+
+**Word spaces.** `pronAnswersKeepSpaces` is not set. Fidel answers keep their spaces. A missing space is wrong, not almost, unless the lead later finds the matcher collapses spaces. PRACTICE-SPEC says the engine trims and collapses spaces. Authors still write the spaces.
+
+## 11. Gaps and unverified claims
+
+**Pronunciation.** This is the block. No generator was built past the refusal. Not verified here: a current public HornMorpho build, its license, or its error rate on nouns. The 100 percent figure is 666 verb forms from a 1908 collection, not a test of this course's future cards.
+
+**Sixth order.** No complete rule was opened. The LDC note says the context helps and that the relationship stays opaque. Teaching "always drop it at the end of a word" would go past that sentence.
+
+**First order of ሀ ሐ ኀ አ ዐ.** The LDC note says it has merged with the fourth-order vowel, with a few exceptions (ኧረ). A full exception list was not opened.
+
+**Learner counts.** Mekonnen 2010 is 45 students at one school. Table 10's percentages are for seven morphemes under two scoring systems, not for gemination or ejectives. His gemination, ejective, /ɨ/, and trill findings are described as regular and, in the conclusion, as present across four phases. He does not give a percentage for them. Word order is a contrastive claim in his introduction, not a counted error in the chapter that was read. Several of his imperative transcriptions are damaged in the text extraction; they were not used as card spellings.
+
+**False friends, compliment replies, feminine definite fidel.** Not in the pages opened. The Peace Corps note says towns are feminine and does not show the suffix in fidel. Do not coin one.
+
+**Goodbye to a woman.** Peace Corps extraction shows both ሁኚ and a broken ሁኝ; AmharicTeacher prints ደህና ሁኝ. The night leave-taking ደህና እደር / እደሪ / እደሩ is in both AmharicTeacher and Bereka Buna and is what `greet` uses for the polite plural. The disputed ሁን / ሁኝ pair is not in `greet`.
+
+**Ethiopian time.** One manual says both "the day starts at 1 ሰዓት, which is 7 a.m." and "6 a.m. is 12." The roadmap's "counted from 6 a.m." matches the second statement (a six-hour offset). The lesson should quote the manual's examples rather than a single slogan. Days of the week were not re-checked beyond the roadmap titles.
+
+**Syllabi.** FSI contents, the University of Florida AHM1130 syllabus, and the ELIAS lesson list were not re-opened. The roadmap's note about them is accepted, not re-verified.
+
+**Speakers.** 372,804 and 278,182 are ancestry and birthplace, from the Wikipedia summary of the 2023 ACS. They are not Amharic-speaker counts. No Duolingo or enrolment figure for Amharic was opened.
+
+**Engine.** `src/app.html` was not opened. Nothing here claims a new matcher. Ethiopic punctuation stripping is unchecked. The Telugu near-miss rules (a dropped macron, a single consonant for a double) are Telugu facts from the Telugu review note. They were not assumed to apply to Amharic, and they were not turned on.
+
+**Prices** on the Peace Corps menu are that book's figures.
+
+## Sources
+
+Pages and files opened for this profile:
+- Appen Butler Hill, Language Specific Peculiarities Document for Amharic as spoken in Ethiopia, LDC2019S22 notes: https://catalog.ldc.upenn.edu/docs/LDC2019S22/LSP_307_performer09292015.pdf
+- Tadesse Anberbir and Tomio Takara, Development of an Amharic Text-to-Speech System Using Cepstral Method (proceedings page, 2009): https://aclanthology.org/W09-0707.pdf
+- Tadesse Anberbir, Michael Gasser, Tomio Takara and Kim Dong Yoon, Grapheme-to-Phoneme Conversion for Amharic Text-to-Speech System (HLTD 2011): https://aflat.org/sites/default/files/files/anberbir.pdf
+- Samuel Mekonnen, The Grammatical Competence of Adult Monolingual American English-Speaking Learners of Amharic, MA thesis, Addis Ababa University, June 2010: https://etd.aau.edu.et/server/api/core/bitstreams/041796a3-d8c2-4b99-b979-6d1474e814c0/content
+- Wikipedia, Amharic: https://en.wikipedia.org/wiki/Amharic
+- Richard Ishida, Amharic orthography notes: https://r12a.github.io/scripts/ethi/am.html
+- Wikipedia, Ethiopian Americans: https://en.wikipedia.org/wiki/Ethiopian_Americans
+- Peace Corps Ethiopia, Amharic Language Training Manual, January 2015 (Live Lingua PDF): https://www.livelingua.com/peace-corps/Amharic/Amharic%20Peace%20Corps%20Language%20Manual-2015.pdf
+- Peace Corps, The Peace Corps Welcomes You to Ethiopia, September 2015: https://www.govinfo.gov/content/pkg/GOVPUB-PE1-PURL-gpo67025/pdf/GOVPUB-PE1-PURL-gpo67025.pdf
+- Bereka Buna, Season 1 Episode 3, Basic Greetings (transcript PDF): https://berekabuna.org/wp-content/uploads/2024/11/S1.E3-Basic-Greetings.pdf
+- AmharicTeacher, Greetings: https://amharicteacher.com/module/greetings
+
+The roadmap file `docs/roadmaps/am.json` is the lesson plan this profile starts from. Its FSI, University of Florida, and ELIAS citations were not re-opened.
