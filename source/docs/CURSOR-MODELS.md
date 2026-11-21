@@ -2,22 +2,31 @@
 
 Written by Claude without knowing which models or agent features your Cursor plan has today. So step 1 is yours: look, then fill in the roster. Do not guess from this file; trust what Cursor actually shows you.
 
+Roster filled 21 Nov 2026 from this cloud-agent session. Two sources, both visible here:
+
+- This run's own model, from the cloud run record: `grok-4.7`.
+- The model slugs the Task tool in this session accepts for a subagent. There is no model-picker screen in this VM. `inherit` is not a model; it means "use the parent", which is `grok-4.7`.
+
+Effort suffixes (`low`, `medium`, `high`, `xhigh`, `max`) are the same model. A separate `-fast` slug is listed on its own. `muse-wonder-1.0` is selectable, and it is not tiered: this session has no evidence of how strong it is.
+
 ## 1. Fill in the roster (once, and again whenever the model list changes)
 
 List every model you can select, then put each in one tier. Judge by what you know of the model, not its name alone.
 
 | Tier | What it is for | Models you have (fill in) |
 |---|---|---|
-| S: strongest reasoning and writing | anything where being wrong in a foreign language matters | |
-| M: solid general model | structured work with a checker behind it | |
-| F: fast / cheap / "auto" | mechanical chores only | |
+| S: strongest reasoning and writing | anything where being wrong in a foreign language matters | `claude-opus-5-5` (low, medium, high, xhigh, max). `claude-fable-5-2` (low, medium, high, xhigh, max). `gpt-5.6-sol` (none, low, medium, high, xhigh, max). `grok-4.7` (low, medium, high, xhigh), including this run's parent model. `gemini-4-neon` (low, medium, high, xhigh). Use the top effort (`max`, or `xhigh` where that is the top) for course writing. |
+| M: solid general model | structured work with a checker behind it | `claude-sonnet-5-5` (low, medium, high, xhigh, max). `cursor-grok-4.6` (low, medium, high, xhigh). `gemini-4-carbon` (low, medium, high). |
+| F: fast / cheap / "auto" | mechanical chores only | `composer-2.5`. `composer-2.5-fast`. `cursor-grok-4.6-fast` (low, medium, high, xhigh). `gpt-5.6-sol-fast` (none, low, medium, high, xhigh, max). `grok-4.7-fast` (low, medium, high, xhigh). No "auto" model is in the selector. |
+
+Not tiered, do not use for a course: `muse-wonder-1.0` (minimal, low, medium, high, xhigh, max). Unknown until someone who knows the model places it.
 
 Also note: can you run subagents or background agents in parallel? How many at once? Is usage metered per request or per token? Write the answers here:
 
-- Parallel agents available: 
-- Limit at once: 
-- How usage is counted: 
-- Allowance left this cycle (update at the start of each course): 
+- Parallel agents available: yes. This session's Task tool starts subagents, including background ones, and it allows more than one in the same step. Background subagents have already been started in this run.
+- Limit at once: unknown. The tool schema, the run record, and the files in this VM do not state a number. Check Cursor's plan or agent limits for the account that owns this run (epperson.kyron@gmail.com). If a launch is refused, run the writers one after another.
+- How usage is counted: unknown. This VM has no usage or billing record. Check Cursor Settings → Usage, or the usage page on cursor.com while signed in as the owner of this agent.
+- Allowance left this cycle (update at the start of each course): unknown. Same place as the line above. Do not guess a remaining balance from this VM.
 
 ## 2. Role → tier (fixed; do not downgrade to save allowance)
 
@@ -34,6 +43,24 @@ Also note: can you run subagents or background agents in parallel? How many at o
 | 5 | Fix content errors the validator reports (wrong answer lists, untaught words) | S | needs the language |
 | 6 | Cold reviewer | S, and a DIFFERENT model family from the writers if you have one | a second opinion only helps if it is independent |
 | end | Hand-off file, queue status, PR comment | F or M | reporting |
+
+Chosen in this install (21 Nov 2026). A fresh agent per role. Do not swap these for a lower tier.
+
+| Role | Model |
+|---|---|
+| Stage 0, the brief | `composer-2.5` |
+| Stage 1, profile, profile.json, and `respell.js` | `claude-opus-5-5-max` |
+| Stage 1, lead note and decision record | `claude-sonnet-5-5-high` |
+| Stage 2, `mk_briefs.py` | no model; the coordinator runs the command |
+| Deck writers A and B, lesson writers 1, 2 and 3 | `claude-opus-5-5-max`, five agents at once |
+| Stage 5, format fixes | `claude-sonnet-5-5-high` |
+| Stage 5, content fixes | `claude-opus-5-5-max` |
+| Cold reviewer | `gpt-5.6-sol-max` (S, and not a Claude model) |
+| Hand-off, queue line, PR comment | `composer-2.5` |
+
+The five writers run in parallel. Their files do not overlap. If the platform refuses that many at once, run them one after another: A, B, 1, 2, 3.
+
+How many courses fit in the remaining allowance: unknown, until the usage page shows a balance. Do not invent a count.
 
 If you have only one S model, the reviewer uses it in a fresh chat that has not seen the writers' chats. If you have no S model at all, stop and tell Kii: do not write courses with M or F.
 
