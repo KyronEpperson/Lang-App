@@ -1,9 +1,9 @@
-PROGRESS (updated 2026-11-21 09:48 CST)
+PROGRESS (updated 2026-11-21 09:53 CST)
 Course: en-ptpt   Branch: cursor/en-ptpt   PR: https://github.com/KyronEpperson/Lang-App/pull/4
-Done: research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 2
+Done: research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 2, lesson 3
 Next: none
 Checks: not run. `node tools/target/gen.js ptpt` throws before it reads the course.
-Models used: research and pron tool = not recorded; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 2 = grok-4.7-high
+Models used: research and pron tool = not recorded; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
 State: GIVEN UP: tools/target/lib.js check() allows only a 2–3 letter code (/^[a-z]{2,3}$/). ptpt has 4 letters, so gen.js and validate.js cannot pass without editing the tools.
 
 # Lead note: en-ptpt stage 1
