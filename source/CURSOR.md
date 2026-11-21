@@ -24,13 +24,26 @@ node tools/target/validate.js es
 
 It should end with `PASS: all checks OK`. If it does not, stop and report; do not start a course. The tools find the project root from their own location, so run them from `source/` on any machine. (`build.sh` and `harness.js` need the main build's workspace; you do not run them.)
 
+## The life of one course
+
+```
+Cursor: stage 0-1 (brief + research)  ->  lead note + draft PR
+Claude: decision record on the PR     ->  "Go for stage 2"
+Cursor: stages 2-6 (briefs, writers, merge check, cold review)  ->  hand-off file + PR ready
+Claude: merge, full build, end-to-end tests, spot review, release  ->  merge result on the PR
+```
+
+Hand-off formats for all four steps: `docs/briefs/HANDOFF-TEMPLATES.md`. The queue of courses and their lanes: `docs/CURSOR-QUEUE.md`.
+
+Stage 0 (before research): if `docs/briefs/target-profile-<t>.md` does not exist, make it from `docs/briefs/target-profile-TEMPLATE.md` as that file's first paragraph says.
+
 ## The job: one course, six stages
 
 A course is written by six "roles", each with its own brief. In the main build these are separate agents. In Cursor, do them as six separate chats (a fresh chat per role keeps the context small and stops one role's mistakes leaking into the next). Finish and check each stage before the next.
 
 | Stage | Role | Brief to follow | Writes |
 |---|---|---|---|
-| 1 | Researcher | `docs/briefs/target-profile-<t>.md` | `docs/profiles/en-<t>.md`, `tools/target/<t>/profile.json`, `tools/target/<t>/respell.js` |
+| 1 | Researcher | `docs/briefs/target-profile-<t>.md` | `docs/profiles/en-<t>.md`, `tools/target/<t>/profile.json`, `tools/target/<t>/respell.js`, then the lead note `docs/briefs/en-<t>-lead.md` |
 | 2 | Lead step (you run a script) | none | `docs/briefs/en-<t>-{A,B,1,2,3,R}.md` |
 | 3 | Deck writers A and B | `docs/briefs/en-<t>-A.md`, `-B.md` | `decks-a.js`, `extra-a.js`, `decks-b.js`, `extra-b.js` |
 | 4 | Lesson writers 1, 2, 3 | `docs/briefs/en-<t>-1.md`, `-2.md`, `-3.md` | `lessons-1.js`, `lessons-2.js`, `lessons-3.js` |
@@ -40,7 +53,8 @@ A course is written by six "roles", each with its own brief. In the main build t
 Stage 1 notes:
 - The profile brief tells the researcher to use web search. Use it. Every source listed must be one you opened.
 - Study a finished course first: `docs/profiles/en-es.md`, `tools/target/es/profile.json`, `tools/target/es/respell.js`, and one deck and lesson file in `tools/target/es/`.
-- Stop after stage 1 and open a draft pull request with only the profile files. The main build checks the profile before any writing starts; a wrong profile wastes every later stage.
+- Stop after stage 1: write the lead note, open a draft pull request with only the stage-1 files, and wait for Claude's decision record. The main build checks the profile before any writing starts; a wrong profile wastes every later stage.
+- Apply every CHANGE in the decision record to the profile and `profile.json` before stage 2.
 
 Stage 2, after the profile is approved (put a one-line note about the course in the last argument):
 
@@ -66,20 +80,17 @@ Stage 6: the reviewer reads everything cold and corrects errors in place, then y
 
 ## What to hand back
 
-One pull request from `cursor/en-<t>` containing only the files in rule 2, with this report as the description:
+When stage 6 passes: write `docs/briefs/en-<t>-handoff.md` (format in `docs/briefs/HANDOFF-TEMPLATES.md`), commit, and mark the pull request "Ready for review". The pull request must contain only the files in rule 2 (plus the queue status line in `docs/CURSOR-QUEUE.md`).
 
-- Counts printed by `gen.js` and the last line of `validate.js`.
-- What the reviewer changed, as counts per file, and the ten things a native speaker should check first.
-- Pron tool: how reliable, and the words it gets wrong.
-- "Needs from the lead": anything that needs an app change or a decision.
-- Anything you were unsure of. Say so plainly; a hidden doubt costs more than a stated one.
+The main build then pulls the branch, runs the full build and the end-to-end tests on every lesson, spot-checks the content, and releases. If something must change you get a numbered list on the pull request; fix it on the same branch and update the hand-off file.
 
-The main build then pulls the branch, runs the full build and the end-to-end tests on every lesson, runs its own cold review, and releases. You will get review comments on the pull request if something has to change.
+## Saving usage on both sides
+
+- One role per chat. Close a writer's chat when its stage passes.
+- Writers read the profile and their own brief, not other writers' files (except where the brief says).
+- Run the stage-5 scripts yourself and fix errors before handing off; Claude's time is for decisions and the final checks, not first-pass fixes.
+- Keep lead notes and hand-offs short and specific; they replace a full re-read.
 
 ## Job queue
 
-| # | Course | Status | Notes |
-|---|---|---|---|
-| 1 | `en-nl` Dutch for English speakers | ready: start with stage 1 (`docs/briefs/target-profile-nl.md`) | Pilot. Needs no app change. |
-
-More jobs are added here after the pilot is reviewed. The order of what comes next is in `docs/MASTER-PLAN.md`.
+The queue, lanes and per-language notes are in `docs/CURSOR-QUEUE.md`. Work top to bottom; skip any course whose lane is Blocked.
