@@ -1,12 +1,12 @@
-PROGRESS (updated 2026-11-21 17:42 CST)
+PROGRESS (updated 2026-11-21 17:43 CST)
 Course: en-da   Branch: cursor/en-da   PR: https://github.com/KyronEpperson/Lang-App/pull/8
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck B
-Next: deck A, lesson 1, lesson 2, lesson 3
-Checks: deck B node --check passed. 9 decks, 153 cards, 27 dialogues, 18 examples, 9 patterns. Partial validator reported PASS with no lines about these files. Full course not run. Lexicon fixes wait until the other writers finish.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck B = grok-4.7-high
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B
+Next: lesson 1, lesson 2, lesson 3
+Checks: deck A node --check passed. 9 decks, 155 cards, 27 dialogues, 18 examples, 9 patterns. Partial validator reported no lines about these files. Deck B was already saved. Full course not run. Lexicon fixes wait until the lesson writers finish.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high
 State: WORKING
 
-Deck B, tool output kept, a native should hear: the day names (g of dag silent; onsdag's o), ligeud, stationen, toilettet, forældre, for as foh, boede and arbejdede, fabrik, eventuelt, endelig, afhænger, dejlig. Left out because the tool looked wrong: frokost, regningen, banegården, hvordan, overfor, om søndagen, kæreste, dygtig. job, formiddag, osten against ost, and "at huset" were not used.
+Deck B, tool output kept, a native should hear: the day names (g of dag silent; onsdag's o), ligeud, stationen, toilettet, forældre, for as foh, boede and arbejdede, fabrik, eventuelt, endelig, afhænger, dejlig. Left out because the tool looked wrong: frokost, regningen, banegården, hvordan, overfor, om søndagen, kæreste, dygtig. job, formiddag, osten against ost, and "at huset" were not used. Deck A, tool output kept: fordi FOH-ree, aldrig AL-reey, hvordan VOH-ran, hvornår VOH-naw, kvart kvat, København koe-buhn-HAWN, Amerika and amerikaner and amerikansk with first-syllable stress. Questions uses hvad hedder han because hvad hedder du is already in About me.
 
 # Lead note: en-da stage 1
 
