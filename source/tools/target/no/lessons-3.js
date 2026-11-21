@@ -71,7 +71,7 @@ module.exports = [
 <p>Every room has a gender. The kitchen, the bathroom, the bedroom and a room are neuter: <b>et kjøkken</b>, <b>et bad</b>, <b>et soverom</b>, <b>et rom</b>. The living room and the door are feminine: <b>ei stue</b>, <b>ei dør</b>. A chair is masculine: <b>en stol</b>. A table and a window are neuter: <b>et bord</b>, <b>et vindu</b>. The definite ending is the one you know: <b>kjøkkenet</b>, <b>stua</b>, <b>stolen</b>, <b>bordet</b>, <b>døra</b>.</p>
 {{ex:et kjøkken|eht HYOEK-uhn|a kitchen}}
 {{ex:et bad|eht bah:|a bathroom}}
-{{ex:et soverom|eht SOO:-vae-room|a bedroom}}
+{{ex:et soverom|eht SOH:-vuh-room|a bedroom}}
 {{ex:ei stue|ai STUE:-uh|a living room}}
 <h3>Five colors</h3>
 <p>Colors agree. Red has no ending on a masculine or feminine noun, <b>-t</b> on a neuter noun, and <b>-e</b> in the plural. After <b>er</b>, the house is red is <b>Huset er rødt</b>.</p>

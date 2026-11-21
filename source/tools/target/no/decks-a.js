@@ -35,7 +35,7 @@ Bare hyggelig. | BAH:-ruh HEWG-uh-lee | You're welcome. | A warm reply to takk.
 Hvordan har du det? | VOOR-dahn hah:r due: deh: | How are you? | du is for one person, including staff. De is something you may read; do not type it.
 Bra, takk. | brah: tahk | Fine, thanks. | The usual answer, and then you can ask back.
 Ha det. | hah: deh: | See you. | A shorter goodbye.
-Beklager. | BEHK-lah-guhr | I'm sorry. | For a mistake. Unnskyld is also excuse me.
+Beklager. | buh-KLAH:-guhr | I'm sorry. | For a mistake. Unnskyld is also excuse me.
 Kan du gjenta det? | kahn due: YEHN-tah deh: | Can you repeat that? | du to one person, including staff. The verb comes first.
 Jeg skjønner ikke. | yai SHOEN-uhr EEK-uh | I don't understand. | ikke goes after the verb. skj is sh.
 Velkommen. | VEHL-kohm-uhn | Welcome. | To greet someone who is arriving.

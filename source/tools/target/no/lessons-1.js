@@ -434,7 +434,7 @@ module.exports = [
 {{ex:Hvem er det?|vehm ae:r deh:|Who is that?}}
 {{ex:Når kommer du?|noh:r KOHM-uhr due:|When are you coming?}}
 {{ex:Hvordan går det?|VOOR-dahn goh:r deh:|How's it going?}}
-{{ex:Hvorfor snakker du norsk?|VOHR-foor SNAHK-uhr due: nohshk|Why do you speak Norwegian?}}
+{{ex:Hvorfor snakker du norsk?|VOOR-fohr SNAHK-uhr due: nohshk|Why do you speak Norwegian?}}
 <p><b>Hvordan går det?</b> is the set phrase for how's it going. <b>går</b> is the present of gå, the same -r you already add.</p>
 <h3>Yes/no: the verb comes first</h3>
 <p>A yes/no question expects ja or nei. The verb comes first, then the subject. You do not add <b>gjøre</b>. <b>gjøre</b> means to do something, so <b>Hva gjør du?</b> is what are you doing. It is a real question. It is not the helper you insert in front of snakker.</p>

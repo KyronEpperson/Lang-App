@@ -120,16 +120,16 @@ module.exports = [
 <div class="tbl"><table><tr><th>Doing it</th><th>Receiving it</th><th>English</th></tr><tr><td class="k">jeg</td><td class="k">meg</td><td>I, me</td></tr><tr><td class="k">du</td><td class="k">deg</td><td>you (one person)</td></tr><tr><td class="k">han</td><td class="k">ham</td><td>he, him</td></tr><tr><td class="k">hun</td><td class="k">henne</td><td>she, her</td></tr><tr><td class="k">vi</td><td class="k">oss</td><td>we, us</td></tr><tr><td class="k">dere</td><td class="k">dere</td><td>you (several people)</td></tr></table></div>
 <p><b>se</b> is to see, so the present is <b>ser</b>. <b>meg</b> is not a way to say "I". The subject stays <b>jeg</b>. This course types <b>ham</b> for him. You will also see <b>han</b> used as an object. Type <b>ham</b>. <b>de</b> means they. Its object form <b>dem</b>, and the formal <b>Dem</b>, are for reading. You do not type them here.</p>
 {{ex:Hjelp meg!|yehlp mai|Help me!}}
-{{ex:Jeg ser deg.|yai sae:r dai|I see you.}}
-{{ex:Anna ser ham.|AHN-ah sae:r hah:m|Anna sees him.}}
-{{ex:Jeg ser henne.|yai sae:r HEHN-uh|I see her.}}
-{{ex:Jeg ser dere.|yai sae:r DEH:-ruh|I see you. (to several people)}}
+{{ex:Jeg ser deg.|yai seh:r dai|I see you.}}
+{{ex:Anna ser ham.|AHN-ah seh:r hah:m|Anna sees him.}}
+{{ex:Jeg ser henne.|yai seh:r HEHN-uh|I see her.}}
+{{ex:Jeg ser dere.|yai seh:r DEH:-ruh|I see you. (to several people)}}
 <h3>den for a book, det for a house</h3>
 <p>You already use <b>det</b> for the weather and for "it" in <b>Hva koster det?</b> When <b>den</b> or <b>det</b> points back at a noun, the gender decides. Masculine and feminine take <b>den</b>. Neuter takes <b>det</b>. A book is feminine, <b>ei bok</b>, so you point back with <b>den</b>. A house is neuter, <b>et hus</b>, so you point back with <b>det</b>. Later, <b>boka</b> is the same feminine noun, and it is still <b>den</b>.</p>
-{{ex:Jeg ser den.|yai sae:r dehn|I see it. (a book or a car)}}
-{{ex:Jeg ser det.|yai sae:r deh:|I see it. (a house)}}
+{{ex:Jeg ser den.|yai seh:r dehn|I see it. (a book or a car)}}
+{{ex:Jeg ser det.|yai seh:r deh:|I see it. (a house)}}
 <p>Start with <b>i dag</b> and the verb is still second. The object follows the subject.</p>
-{{ex:I dag ser jeg deg.|ee: dah:g sae:r yai dai|Today I see you.}}
+{{ex:I dag ser jeg deg.|ee: dah:g seh:r yai dai|Today I see you.}}
 <h3>Feeling ill</h3>
 <p><b>Jeg er syk</b> is I'm ill. <b>Jeg har vondt</b> is it hurts, or I'm in pain. Learn that one as a phrase. <b>Jeg fryser</b> is I'm cold, the cold you feel. <b>Jeg er kald</b> is a word-for-word copy of English, and it is the wrong sentence. <b>et apotek</b> is a pharmacy, and <b>apotek</b> is neuter. <b>hjelpe</b> is to help. <b>Kan du hjelpe meg?</b> works for one person, staff included. Several people would be <b>dere</b>, and the prompt would say so.</p>
 {{ex:Jeg er syk.|yai ae:r sew:k|I'm ill.}}
@@ -419,7 +419,7 @@ module.exports = [
 <p>Keep the singular "the" and the plural "the" apart. <b>bilen</b> is one car. <b>bilene</b> is the cars. <b>boka</b> is the book. <b>bøkene</b> is the books. <b>barnet</b> is the child, and the t is silent, the same silence as in <b>huset</b>. <b>barna</b> is the children. Those two are easy to mix, because both talk about <b>barn</b>. There is no article in front of a plural. You do not say en biler. The gender shows in the singular, and that is how you know the pattern. A short neuter noun, <b>hus</b> or <b>barn</b>, is the one that adds nothing.</p>
 {{ex:barnet|BAH:-rnuh|the child}}
 <p><b>ikke</b> has not moved. It still follows the verb, and the plural follows <b>ikke</b>. A question still puts the verb second: <b>hvor</b>, then <b>er</b>.</p>
-{{ex:Jeg ser ikke barna.|yai sae:r EEK-uh BAH:-rnah|I don't see the children.}}
+{{ex:Jeg ser ikke barna.|yai seh:r EEK-uh BAH:-rnah|I don't see the children.}}
 {{ex:Hvor er barna?|voor ae:r BAH:-rnah|Where are the children?}}
 <div class="tip"><b>Most common mistake:</b> an English -s, and barns for the children. <b>bils</b> → <b>biler</b>. <b>barns</b> → <b>barn</b>, and "the children" is <b>barna</b>.</div>
 `,

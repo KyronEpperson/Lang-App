@@ -24,12 +24,14 @@ semester=seh-MEHS-tuhr aktuell=ahk-tue-EHL eventuelt=eh-vehn-tue-EHLT
 hotell=hoo-TEHL apotek=ah-poo-TEH:K telefon=teh-luh-FOON sjokolade=shoo-koo-LAH:-duh banan=bah-NAH:N
 minutter=mee-NUET-uhr brunost=BRUE:-noost tirsdag=TEE:SH-dahg onsdag=OO:NS-dahg
 billett=beel-EHT stasjonen=stah-SHOO:-nuhn studenten=stue-DEHNT-uhn studerer=stue-DEH:-ruhr
+beklager=buh-KLAH:-guhr sover=SOH:-vuhr soverom=SOH:-vuh-room
+osten=OOS-tuhn hvorfor=VOOR-fohr
 `;
 
 /* whole words whose single vowel is short even though only one consonant follows */
 const SHORT = new Set('og til vil skal han hun men den en et at som for kan man nok vel kom'.split(' '));
 /* e + r is æ in many words; these keep e */
-const E_NOT_AE = new Set('dere deres flere fler mere periode serie'.split(' '));
+const E_NOT_AE = new Set('dere deres flere fler mere periode serie se ser'.split(' '));
 /* long letter o said with the å sound (oh), not oo */
 const O_OH = new Set('sove sov love lover lov lovte over oven ovenpå'.split(' '));
 /* short letter o said with the oo sound, not oh */

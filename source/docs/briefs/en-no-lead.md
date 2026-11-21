@@ -1,12 +1,12 @@
 PROGRESS (updated 2026-11-21 15:56 CST)
 Course: en-no   Branch: cursor/en-no   PR: https://github.com/KyronEpperson/Lang-App/pull/7
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3
-Next: lexicon, then merge check
-Checks: lesson 2 partial PASS reported by the writer. 9 lessons, 126 practice items. No å-versus-a item needed strict. Full course not run. Lexicon fixes are next, then regenerate.
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check
+Next: review
+Checks: PASS: all checks OK. gen.js: 26 lessons, 18 decks, 318 cards. repron twice: 664 prons read, 14 rewritten, then 0 rewritten. link_roadmap: 25 linked, not covered: none. traps has no roadmap id. packs/roadmaps.js was not kept.
 Models used: research brief = no model (copied from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
 State: WORKING
 
-Lexicon, after lesson 2 finishes, then regenerate. Deck A, kept with the tool's stress: Beklager (stress the second syllable), Velkommen (stress on komm). Deck A, not used because the tool looked wrong: forstår, osten, januar, skjorta, amerikansk. Unverified weekdays left as printed: torsdag, lørdag, søndag. Compounds a native should hear: matpakka, kjøttkaka, et rundstykke. Deck B, tool output kept: flyplassen (long ø), toalettet, apoteket, ambulanse, forkjølet, fotball (long o), snakket (the t is said), Bra jobbet, Hvorfor (oo, not oh), aktuelt, sover (å-vowel), Gratulerer, ser (short e). Also hear Det var kjempegodt and Vel bekomme. Lesson 1: hvorfor is VOHR-foor (hvor plus short for would be VOOR-fohr). Bokmål, søstera, dattera, and læreren were not given a pronunciation line. Letter names to confirm: je rather than jodd, and dobbelt-ve. på mandag for "on Monday." Lesson 3, tool output kept: snakket, vasket, laget, and jobbet drop the t; soverom uses the food vowel; etasje stresses the first syllable; skjorte uses short oh; vakkert; et bad drops the d; genseren. A native should also hear Vel bekomme, Det var kjempegodt, ei gave / gava beside en gave, and tredje.
+Lexicon added, then regenerated: beklager buh-KLAH:-guhr (Wiktionary /bəˈklɑːɡə/), sover SOH:-vuhr and soverom SOH:-vuh-room (sove /²soːvə/), osten OOS-tuhn (ost is already the oo-sound in the tool), hvorfor VOOR-fohr (hvor is already voor), ser seh:r (se /seː/, not the æ of e+r). Velkommen stays VEHL-kohm-uhn: Wiktionary /ˈvɛl.ko.mən/ stresses the first syllable, so the writer's second-syllable guess was not applied. snakket stays SNAHK-uh: the tool drops t on every -et of four letters or more, and the snakke page gave no past pronunciation. forstår was not stored, and a long stressed vowel plus r does not match pronPattern. Still for the reviewer, unsourced: flyplassen, toalettet, apoteket, ambulanse, forkjølet, fotball, aktuelt, Gratulerer, ham, aldri, etasje, skjorte, vakkert, et bad, genseren, januar, amerikansk, the weekdays torsdag lørdag søndag, Bokmål, søstera, dattera, læreren, and whether the past -et should keep its t.
 
 # Lead note: en-no stage 1
 

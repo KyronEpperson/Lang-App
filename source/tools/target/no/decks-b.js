@@ -124,7 +124,7 @@ men | mehn | but | Joins two statements. Each one keeps its verb.
 Hvem er det? | vehm ae:r deh: | Who is that? | hvem means who. hva means what.
 Når kommer du? | noh:r KOHM-uhr due: | When are you coming? | når means when.
 Hvordan går det? | VOOR-dahn goh:r deh: | How's it going? | A normal hello, any time of day.
-Hvorfor det? | VOHR-foor deh: | Why is that? | hvorfor means why. The short form.
+Hvorfor det? | VOOR-fohr deh: | Why is that? | hvorfor means why. The short form.
 Hvor jobber du? | voor YOHB-uhr due: | Where do you work? | hvor, then the verb, then du.
 Hva gjør du? | vah: yoe:r due: | What are you doing? | gjøre means to do something. It is a real verb.
 Snakker dere norsk? | SNAHK-uhr DEH:-ruh nohshk | Do you speak Norwegian? (to several people) | dere is several people. To one person: Snakker du norsk?
@@ -149,7 +149,7 @@ Hun er snill. | huen ae:r sneel | She is kind. | Kind. Good at a skill is flink.
 en fabrikk | ehn fahb-REEK | a factory | A factory. Fabric is et stoff.
 en sky | ehn shew: | a cloud | A cloud. The same word means shy. The sky is himmelen.
 Det er billig. | deh: ae:r BEEL-ee | That's cheap. | Cheap. A bill to pay is en regning.
-Barnet sover. | BAH:-rnuh SOO:-vuhr | The child is sleeping. | A child. Neuter: et barn, barnet. A farm building is en låve.
+Barnet sover. | BAH:-rnuh SOH:-vuhr | The child is sleeping. | A child. Neuter: et barn, barnet. A farm building is en låve.
 et semester | eht seh-MEHS-tuhr | a school term | A school term. A holiday is ferie. Easy to mix up if you know Swedish or Danish.
 Jeg spiser frokost. | yai SPEE:-suhr FROO:-kohst | I eat breakfast. | Breakfast. Lunch is lunsj. Easy to mix up if you know Swedish or Danish.
 Jeg blir tretti. | yai blee:r TREHT-ee | I'm turning thirty. | Age uses bli. vil means want. A plan uses skal.
@@ -170,7 +170,7 @@ Gratulerer! | GRAH:-tue-lae-ruhr | Congratulations! | A birthday, a new job, goo
 Lykke til! | LEWK-uh teel | Good luck! | Before a test, a trip, or a hard day. The answer is Takk.
 Bra jobbet. | brah: YOHB-uh | Well done. | About work someone finished. The answer is Takk.
 Det smaker godt. | deh: SMAH:-kuhr goht | It tastes good. | At the table. godt is neuter, with det.
-Du ser fin ut. | due: sae:r fee:n ue:t | You look nice. | Ordinary and kind. The answer is Takk.
+Du ser fin ut. | due: seh:r fee:n ue:t | You look nice. | Ordinary and kind. The answer is Takk.
 Så koselig. | soh: KOO:-suh-lee | So cozy. | A room, a dinner, a quiet moment. The answer is Takk.
 Kos deg! | koo:s dai | Enjoy yourself. | A kind send-off before a meal, a trip, or a night out. deg matches du. The answer is Takk.
 `
