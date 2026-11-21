@@ -12,7 +12,9 @@ sys.path.insert(0, D)
 from i18nlib import template_regex, load_lang, load_keys, check_lang
 
 lang = check_lang(sys.argv[1] if len(sys.argv) > 1 else 'ko')
-OUT = sys.argv[2] if len(sys.argv) > 2 else '/home/claude/packs/i18n-%s.js' % lang
+import os as _os
+_ROOT = _os.environ.get('LANGAPP_ROOT') or _os.path.abspath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..', '..'))
+OUT = sys.argv[2] if len(sys.argv) > 2 else _ROOT + '/packs/i18n-%s.js' % lang
 L = load_lang(lang)
 K = load_keys()
 
