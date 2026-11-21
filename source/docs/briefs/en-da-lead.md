@@ -1,16 +1,16 @@
 PROGRESS (updated 2026-11-21 17:13 CST)
-Course: en-da   Branch: cursor/en-da   PR: not opened yet
-Done: research brief, research, pron tool, lead note, decisions
-Next: briefs
-Checks: respell.js matched the lead-note table (mad, gade, huset, hun/hund, ikke, at spise, job). 26 lessons, 18 decks. profile.json parses.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7
+Course: en-da   Branch: cursor/en-da   PR: https://github.com/KyronEpperson/Lang-App/pull/8
+Done: research brief, research, pron tool, lead note, decisions, briefs
+Next: decks and lessons
+Checks: respell.js matched the lead-note table (mad, gade, huset, hun/hund, ikke, at spise, job). 26 lessons, 18 decks. profile.json parses. mk_briefs.py: lessons 9, 9, 8 and decks 9, 9.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py
 State: WORKING
 
 # Lead note: en-da stage 1
 
 ## Where the work is
 
-Branch `cursor/en-da`. No pull request. Files from this stage:
+Branch `cursor/en-da`. Draft PR https://github.com/KyronEpperson/Lang-App/pull/8. Files from this stage:
 
 - `docs/profiles/en-da.md`
 - `tools/target/da/profile.json`
