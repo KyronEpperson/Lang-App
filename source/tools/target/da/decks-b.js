@@ -87,7 +87,7 @@ module.exports = {
     kryds gaden | krews GA-dhuhn | cross the street (to one person) | Said to one person. gaden has the definite ending.
     hvor er | vaw eh | where is |
     hvor er toilettet | vaw eh TOH-ee-luh-duhdh | where is the bathroom | toilet is an et-word: toilettet. Stress in the aid is unchecked.
-    stationen | sta-SHOH-nuhn | the station | stress is the default and is unchecked
+    stationen | sta-SHOH-nuhn | the station | Common gender. The definite ending is -en. The stress is on the shohn syllable.
     metroen | MEHT-roh-uhn | the metro | Common gender, definite ending -en.
     parken | PA-kuhn | the park | Common gender, definite ending -en. The r is swallowed.
     på hjørnet | paw YOE-nuhdh | on the corner | hjørne is an et-word: hjørnet.

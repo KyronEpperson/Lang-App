@@ -153,7 +153,7 @@ module.exports = [
 <p>The numbers from zero through twenty are a short list. From fifty upward, Danish does not build the word out of "half" and "three" or out of "five" and "ten". Learn each tens word as a chunk. Prices are in <b>kroner</b>.</p>
 <h3>Zero through the tens</h3>
 <div class="tbl"><table><tr><th></th><th>Danish</th></tr><tr><td>0–10</td><td class="k">nul, en or et, to, tre, fire, fem, seks, syv, otte, ni, ti</td></tr><tr><td>11–19</td><td class="k">elleve, tolv, tretten, fjorten, femten, seksten, sytten, atten, nitten</td></tr><tr><td>20, 30, 40</td><td class="k">tyve, tredive, fyrre</td></tr><tr><td>50–90</td><td class="k">halvtreds, tres, halvfjerds, firs, halvfems</td></tr><tr><td>100</td><td class="k">et hundrede</td></tr></table></div>
-<p>One agrees with the noun, the same way en and et already do. <b>en krone</b> is common gender. <b>et minut</b> is neuter. From two upward the number does not change. Forty is <b>fyrre</b>, its own word, not fire plus ti. A hundred, the full form, is <b>et hundrede</b>. hundrede is neuter.</p>
+<p>One agrees with the noun, the same way en and et already do. <b>en krone</b> is common gender. <b>et minut</b> is neuter. <b>to</b>, <b>tre</b>, and any number that does not end in one stay the same for every noun. A compound that ends in one still agrees: <b>enogtyve kroner</b>, <b>etogtyve år</b>. With no noun, the count is <b>enogtyve</b>. Forty is <b>fyrre</b>, its own word, not fire plus ti. A hundred, the full form, is <b>et hundrede</b>. hundrede is neuter.</p>
 {{ex:en krone|ehn KROH-nuh|one krone}}
 {{ex:et minut|eht MEE-noot|a minute}}
 {{ex:fyrre|FOE-uh|forty}}
@@ -363,11 +363,11 @@ module.exports = [
 {{ex:lørdag|LOE-raw|Saturday}}
 {{ex:søndag|SOE-naw|Sunday}}
 <p>The line is rough on these words. It writes a w where the g of dag is silent, and the o of onsdag comes out long. Trust the voice for the days. dag itself, the noun, is common gender: <b>en dag</b>.</p>
-<h3>On Monday, in the morning, tomorrow</h3>
-<p><b>på mandag</b> is "on Monday". <b>på fredag</b> is "on Friday". The day can also stand alone in front: <b>mandag arbejder jeg</b>, still with a small letter, and the verb second. This course drills the form with på.</p>
+<h3>This Monday, in the morning, tomorrow</h3>
+<p><b>på mandag</b> is this coming Monday, not every Monday. Every Monday is <b>hver mandag</b>. <b>på fredag</b> is this coming Friday. The day can also stand alone in front: <b>mandag arbejder jeg</b>, still with a small letter, and the verb second. This course drills the coming day with på.</p>
 <p><b>om morgenen</b> is "in the morning". <b>om aftenen</b> is "in the evening". You met them with the clock. <b>i morgen</b> is a different phrase. It means tomorrow. Two words, no ending, and no om. Do not swap them.</p>
-{{ex:På mandag arbejder jeg.|paw MA-naw A-bai-dhuh yai|On Monday I work.}}
-{{ex:På fredag tager jeg toget.|paw FREH-dhaw TA-wuh yai TOH-wuhdh|On Friday I take the train.}}
+{{ex:På mandag arbejder jeg.|paw MA-naw A-bai-dhuh yai|I'm working this Monday.}}
+{{ex:På fredag tager jeg toget.|paw FREH-dhaw TA-wuh yai TOH-wuhdh|I'm taking the train this Friday.}}
 {{ex:Om morgenen spiser jeg.|awm MOH-guh-nuhn SPEE-suh yai|In the morning I eat.}}
 {{ex:Om aftenen spiser jeg.|awm AF-tuh-nuhn SPEE-suh yai|In the evening I eat.}}
 {{ex:I morgen arbejder jeg.|ee MOH-guhn A-bai-dhuh yai|Tomorrow I work.}}
@@ -377,19 +377,19 @@ module.exports = [
     check: [
       ["How is Monday written?", ["Mandag", "Måndag", "mandag", "maan-dag"], 2, "Days take a small letter: mandag, like dansk and tirsdag."],
       ["i morgen means", ["tomorrow", "in the morning", "on Monday", "good morning"], 0, "i morgen is tomorrow. In the morning is om morgenen."],
-      ["On Friday I work, and the sentence starts with på fredag.", ["På fredag jeg arbejder.", "Fredag på arbejder jeg.", "På fredag er jeg arbejder.", "På fredag arbejder jeg."], 3, "på fredag is the first element, so arbejder comes next."]
+      ["This Friday I'm working, and the sentence starts with på fredag.", ["På fredag jeg arbejder.", "Fredag på arbejder jeg.", "På fredag er jeg arbejder.", "På fredag arbejder jeg."], 3, "på fredag is this coming Friday, and it is the first element, so arbejder comes next."]
     ],
     practice: [
       ["mc", "Tuesday =", "tirsdag", "torsdag", "fredag", "søndag", "tirsdag is Tuesday. torsdag is Thursday."],
       ["mc", "in the morning =", "om morgenen", "i morgen", "om morgen", "på morgenen", "om morgenen is in the morning. i morgen is tomorrow."],
       ["mc", "tomorrow =", "i morgen", "om morgenen", "på morgen", "i morgenen", "i morgen is tomorrow. The morning phrase is om morgenen."],
-      ["mc", "On Monday I work. (start with på mandag)", "På mandag arbejder jeg.", "På mandag jeg arbejder.", "Mandag på arbejder jeg.", "På mandag er jeg arbejder.", "Verb second: på mandag is the first element, then arbejder."],
+      ["mc", "This Monday I'm working. (start with på mandag)", "På mandag arbejder jeg.", "På mandag jeg arbejder.", "Mandag på arbejder jeg.", "På mandag er jeg arbejder.", "Verb second: på mandag, this coming Monday, is the first element, then arbejder."],
       ["mc", "Saturday =", "lørdag", "fredag", "søndag", "onsdag", "lørdag is Saturday. søndag is Sunday."],
-      ["or", "On Monday I work. (start with på mandag)", "På mandag arbejder jeg", "ikke", "Verb second: på mandag is the first element, then arbejder."],
+      ["or", "This Monday I'm working. (start with på mandag)", "På mandag arbejder jeg", "ikke", "Verb second: på mandag, this coming Monday, is the first element, then arbejder."],
       ["or", "In the morning I eat. (start with om morgenen)", "Om morgenen spiser jeg", "i", "Verb second: om morgenen is the first element, then spiser."],
       ["or", "a day", "en dag", "et", "dag is common gender: en dag."],
       ["fi", "Om __ spiser jeg.", "In the morning I eat.", "morgenen", "morgen|aftenen|i morgen", "om morgenen is in the morning. i morgen would mean tomorrow."],
-      ["fi", "__ arbejder jeg.", "On Friday I work. (use på)", "På fredag", "I fredag|Om fredag|Fredagen", "på fredag is on Friday, and the verb stays the second element."],
+      ["fi", "__ arbejder jeg.", "This Friday I'm working. (use på)", "På fredag", "I fredag|Om fredag|Fredagen", "på fredag is this coming Friday, and the verb stays the second element."],
       ["fi", "Det er __ dag.", "It is a day.", "en", "et|den|det", "dag is an en-word."],
       ["ty", "Tomorrow I work. (start with i morgen)", "I morgen arbejder jeg.", "i morgen · arbejde · jeg · tomorrow first", "om en", "Verb second: i morgen is the first element, then arbejder."],
       ["ty", "In the evening I eat. (start with om aftenen)", "Om aftenen spiser jeg.", "om aftenen · spise · jeg · evening first", "i en", "Verb second: om aftenen is the first element, then spiser."],

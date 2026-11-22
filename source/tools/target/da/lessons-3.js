@@ -169,7 +169,7 @@ module.exports = [
 {{ex:Bilen er stor.|BEE-luhn eh stoh|The car is big.}}
 {{ex:Huset er stort.|HOO-suhdh eh stawt|The house is big.}}
 <h3>A few adjectives that need a second look</h3>
-<p><b>rød</b> works like <b>stor</b>. The <b>d</b> is a soft d. Before <b>t</b>, the line drops that <b>d</b>, so <b>rødt</b> comes out as <b>roet</b>. <b>dejlig</b> takes <b>-t</b> in the neuter: <b>et dejligt hus</b>, and <b>dejligt vejr</b>. <b>vejr</b> is neuter and takes no indefinite article. The final <b>g</b> of <b>dejlig</b> is a rough <b>y</b> on the line. <b>lille</b> does not grow an ending at all: <b>en lille bil</b>, <b>et lille hus</b>, <b>den lille bil</b>.</p>
+<p><b>rød</b> works like <b>stor</b>. The <b>d</b> is a soft d. Before <b>t</b>, the line drops that <b>d</b>, so <b>rødt</b> comes out as <b>roet</b>. <b>dejlig</b> takes <b>-t</b> in the neuter: <b>et dejligt hus</b>, and <b>dejligt vejr</b>. <b>vejr</b> is neuter and takes no indefinite article. The final <b>g</b> of <b>dejlig</b> is a rough <b>y</b> on the line. <b>lille</b> does not grow an ending at all: <b>en lille bil</b>, <b>et lille hus</b>, <b>den lille bil</b>. The plural is a different word, <b>små</b>: <b>små biler</b>.</p>
 {{ex:en rød bil|ehn roedh beel|a red car}}
 {{ex:et rødt hus|eht roet hoos|a red house}}
 {{ex:dejligt vejr|DAI-leht vai|lovely weather}}
@@ -177,6 +177,7 @@ module.exports = [
 {{ex:en lille bil|ehn LEH-luh beel|a small car}}
 {{ex:et lille hus|eht LEH-luh hoos|a small house}}
 {{ex:den lille bil|dehn LEH-luh beel|the small car}}
+{{ex:små biler|smaw BEE-luh|small cars}}
 <h3>ikke after er, and a time in front</h3>
 <p>In a main clause, <b>ikke</b> goes after <b>er</b>. Start with <b>i dag</b> and <b>er</b> is the second element.</p>
 {{ex:Huset er ikke stort.|HOO-suhdh eh EH-guh stawt|The house is not big.}}
@@ -264,7 +265,7 @@ module.exports = [
 {{ex:Til højre.|tehl HOY-uh|To the right.}}
 {{ex:Ligeud.|LEE-yuh-oodh|Straight ahead.}}
 <h3>Where is it?</h3>
-<p>A where-question starts with <b>hvor</b>, then the verb, then the subject. That is inversion. <b>Hvor stationen er</b> is the order of a subordinate clause, and it is not the question. The place takes a definite ending. <b>station</b> is an en-word, so the station is <b>stationen</b>. <b>toilet</b> is an et-word, so the toilet is <b>toilettet</b>. The line says <b>stationen</b> with a <b>t</b> sound and stress at the start, and it splits <b>toilettet</b> into too many beats. The real station word has a <b>sh</b> sound and a later stress. Follow the voice for both.</p>
+<p>A where-question starts with <b>hvor</b>, then the verb, then the subject. That is inversion. <b>Hvor stationen er</b> is the order of a subordinate clause, and it is not the question. The place takes a definite ending. <b>station</b> is an en-word, so the station is <b>stationen</b>. <b>toilet</b> is an et-word, so the toilet is <b>toilettet</b>. The line writes <b>stationen</b> with an sh sound and the stress on that syllable. It splits <b>toilettet</b> into too many beats, and that stress is unchecked. Follow the voice for toilettet.</p>
 {{ex:Hvor er stationen?|vaw eh sta-SHOH-nuhn|Where is the station?}}
 {{ex:Hvor er toilettet?|vaw eh TOH-ee-luh-duhdh|Where is the toilet?}}
 {{ex:Stationen er til venstre.|sta-SHOH-nuhn eh tehl VEHN-struh|The station is on the left.}}
@@ -318,7 +319,7 @@ module.exports = [
 {{ex:Jeg fik en kaffe.|yai fehk ehn KA-fuh|I got a coffee.}}
 {{ex:Jeg så Anna.|yai saw A-na|I saw Anna.}}
 {{ex:Jeg spiste rugbrød.|yai SPEES-tuh ROO-broedh|I ate rye bread.}}
-<p><b>i går</b> means yesterday. The second word is spelled like the verb <b>går</b>, and it is not that verb. <b>gik</b> is shown with a long vowel on the line. The real vowel is short. Follow the voice. <b>havde</b> keeps a soft d on the line. Fast speech may drop it. Follow the voice. <b>drikker</b> does not become <b>drikkede</b>. The past is <b>drak</b>. <b>spiser</b> becomes <b>spiste</b>, not a form in <b>-ede</b>. <b>får</b> in the table means gets. <b>far</b> is father.</p>
+<p><b>i går</b> means yesterday. The second word is spelled like the verb <b>går</b>, and it is not that verb. <b>gik</b> is gehk on the line, a short vowel. <b>havde</b> keeps a soft d on the line. Fast speech may drop it. Follow the voice for that soft d. <b>drikker</b> does not become <b>drikkede</b>. The past is <b>drak</b>. <b>spiser</b> becomes <b>spiste</b>, not a form in <b>-ede</b>. <b>får</b> in the table means gets. <b>far</b> is father.</p>
 <h3>Verb second, and where ikke sits</h3>
 <p>Yesterday can stand first. It is the first element, and the verb is the second element. The subject follows the verb. In a main clause, <b>ikke</b> goes after the verb. In a subordinate clause, <b>ikke</b> comes before the verb. The comma stays before <b>at</b>.</p>
 {{ex:I går drak vi øl.|ee gaw drak vee oel|Yesterday we drank beer.}}

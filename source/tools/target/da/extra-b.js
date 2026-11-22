@@ -10,7 +10,7 @@ jeg vil gerne have | Hvad vil du gerne have? | Jeg vil gerne have en te, tak. | 
 rugbrød | Spiser du rugbrød? | Ja, jeg spiser rugbrød til morgenmad. | Do you eat rye bread? (to one person) / Yes, I eat rye bread for breakfast.
 min mor | Hvem er det? | Det er min mor. | Who is that? / That's my mother.
 et barn | Har I et barn? | Ja, vi har et barn. | Do you have a child? (to several people) / Yes, we have a child.
-mine børn | Hvor er mine børn? | Ja, de er hos min søster. | Where are my children? / Yes, they're at my sister's.
+mine børn | Hvor er mine børn? | De er hos min søster. | Where are my children? / They're at my sister's.
 et stort hus | Bor I i et stort hus? | Nej, vi bor i et lille hus. | Do you live in a big house? (to several people) / No, we live in a small house.
 dejligt | Hvordan er vejret i dag? | Det er dejligt. | How is the weather today? / It's lovely.
 bilen er stor | Er bilen stor? | Ja, bilen er stor. | Is the car big? / Yes, the car is big.

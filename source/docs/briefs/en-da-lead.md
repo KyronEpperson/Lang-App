@@ -1,10 +1,10 @@
-PROGRESS (updated 2026-11-21 17:55 CST)
+PROGRESS (updated 2026-11-21 18:22 CST)
 Course: en-da   Branch: cursor/en-da   PR: https://github.com/KyronEpperson/Lang-App/pull/8
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check
-Next: review
-Checks: PASS: all checks OK. gen.js: 26 lessons, 18 decks, 308 cards. repron twice: 618 prons read, 13 rewritten, then 0 rewritten. link_roadmap: 25 linked, not covered: none. traps has no roadmap id. packs/roadmaps.js was not kept.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
-State: WORKING
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, lexicon, merge check, review, hand-off
+Next: Claude's merge read
+Checks: PASS: all checks OK. gen.js: 26 lessons, 18 decks, 308 cards. After the review, repron twice: 620 prons read, 0 rewritten, then 0 rewritten. link_roadmap: 25 linked, not covered: none. traps has no roadmap id. packs/roadmaps.js was not kept.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high; review = grok-4.7-xhigh
+State: READY FOR REVIEW
 
 Lexicon added, then regenerated: fordi foh-DEE (Wiktionary [fʌˈd̥iˀ]), aldrig AL-dree ([ˈɑld̥ʁi]), hvordan vaw-DAN ([ʋʌˈd̥æn]), station sta-SHOHN and stationen sta-SHOH-nuhn ([sd̥aˈɕoˀn]), gik gehk ([ˈɡ̊iɡ̊], replacing the long geek). Still for the reviewer, unsourced: the day names, halv, hvornår, minut, toilettet, Amerika and amerikaner and amerikansk, englænder, dygtig, tager and toget, København, fjorten, ligeud, forældre, boede and arbejdede, eventuelt, fabrik, dejlig, endelig, rødt, for, koster, havde, kvart, café, idé, undskyld, jer, selv. Do not mark the stød.
 

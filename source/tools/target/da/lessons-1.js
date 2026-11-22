@@ -175,10 +175,11 @@ module.exports = [
 {{ex:Hej hej.|hai hai|Bye.}}
 {{ex:Farvel.|fa-VEHL|Goodbye.}}
 <h3>Thanks, and the words around it</h3>
-<p>There is no everyday word for "please". Politeness is <b>tak</b> and <b>gerne</b>. <b>Ja, gerne</b> is yes, please. <b>Nej tak</b> is no, thanks. The answer to tak is <b>selv tak</b>. <b>Værsgo</b> is what you say as you hand something over: here you go. It also invites a person to go ahead. <b>Undskyld</b> is excuse me, and it is also sorry. The line is rough on undskyld. Trust the voice for that word.</p>
+<p>There is no everyday word for "please". Politeness is <b>tak</b> and <b>gerne</b>. <b>Ja, gerne</b> is yes, please. <b>Nej tak</b> is no, thanks. When the thanks goes both ways, say <b>selv tak</b>. That is thanks, you too, to one person or to several. When you did the favor, you're welcome is <b>det var så lidt</b>, and those words do not change either. <b>Værsgo</b> is what you say as you hand something over: here you go, to one person or to several. It also invites a person to go ahead. <b>Undskyld</b> is excuse me, and it is also sorry. The line is rough on undskyld. Trust the voice for that word.</p>
 {{ex:Tak.|tak|Thanks.}}
-{{ex:Selv tak.|sehlv tak|You're welcome.}}
-{{ex:Værsgo.|VEHS-gaw|Here you go.}}
+{{ex:Selv tak.|sehlv tak|Thanks, you too. (to one person)}}
+{{ex:Det var så lidt.|deh va saw leht|You're welcome. (to one person)}}
+{{ex:Værsgo.|VEHS-gaw|Here you go. (to one person)}}
 {{ex:Ja, gerne.|ya GEH-nuh|Yes, please.}}
 {{ex:Undskyld.|OON-skewl|Excuse me. Sorry.}}
 <p><b>Venligst</b> is a real word, and it is correct on a sign or in a letter. At a counter it sounds stiff. Do not build an order out of it. The café lesson will give you the full polite order. For now, tak and gerne do the work.</p>
@@ -189,20 +190,20 @@ module.exports = [
 `,
     check: [
       ["Which word is the stiff, old-fashioned you?", ["du", "I", "De", "dig"], 2, "De is the stiff, old-fashioned you. Recognize it. Do not produce it."],
-      ["Someone says Tak. What do you answer?", ["Venligst.", "Selv tak.", "Farvel.", "Undskyld."], 1, "Selv tak answers tak. Venligst belongs on signs and in letters."],
+      ["Someone says Tak for i dag, and you thank them too. What do you answer?", ["Venligst.", "Selv tak.", "Farvel.", "Undskyld."], 1, "Selv tak returns the thanks. A plain you're welcome is det var så lidt."],
       ["Which greeting works at any time of day?", ["Godmorgen.", "Goddag.", "Godnat.", "Hej."], 3, "Hej works in the morning, the afternoon and at night."]
     ],
     practice: [
       ["mc", "Good afternoon. =", "Goddag.", "Godaften.", "Godmorgen.", "Godnat.", "Goddag is the afternoon greeting. Godaften is the evening."],
       ["mc", "A greeting that works at any hour is…", "Hej.", "Godnat.", "Venligst.", "Farvel.", "Hej is the all-day greeting. The clock words belong to one part of the day."],
       ["mc", "Which word is the stiff, old-fashioned you?", "De", "du", "I", "dig", "De is recognized, not produced. du is the everyday you, to one person."],
-      ["mc", "The natural answer to Tak is…", "Selv tak.", "Venligst.", "Undskyld.", "Farvel.", "Selv tak answers thanks. Venligst is stiff at the counter."],
+      ["mc", "Someone says Tak for i dag, and you thank them too. =", "Selv tak.", "Venligst.", "Undskyld.", "Farvel.", "Selv tak returns the thanks. A plain you're welcome is det var så lidt."],
       ["mc", "Yes, please. =", "Ja, gerne.", "Ja, venligst.", "Ja, De.", "Ja, undskyld.", "Ja, gerne is the everyday yes-please. Venligst stays on signs and in letters."],
       ["or", "Bye. (casual)", "Hej hej", "Farvel", "Hej hej is the casual goodbye."],
       ["or", "a beer", "en øl", "et", "øl is an en-word."],
       ["or", "an apple", "et æble", "en", "æble is an et-word."],
       ["fi", "__, tak.", "Hi. Thanks.", "Hej", "Farvel|Venligst|De", "Hej works at any hour, and thanks is tak."],
-      ["fi", "Selv __.", "You're welcome.", "tak", "hej|gerne|De", "Selv tak is the answer to tak."],
+      ["fi", "Selv __.", "Thanks, you too. (to one person)", "tak", "hej|gerne|De", "Selv tak returns the thanks. The words are the same to several people."],
       ["fi", "Ja, __.", "Yes, please.", "gerne", "venligst|undskyld|De", "Ja, gerne is yes, please. Venligst is stiff here."],
       ["ty", "Hi. Good morning.", "Hej, godmorgen.", "hej · godmorgen", "venligst", "Hej works at any hour, and godmorgen is the morning greeting."],
       ["ty", "a house", "et hus", "hus · et · a house takes et", "en", "hus is neuter."],
@@ -413,7 +414,7 @@ module.exports = [
 <p>A main clause can stand alone. In a main clause the verb is the second element, and <b>ikke goes after the verb</b>. <b>Jeg spiser ikke.</b> <b>Jeg arbejder ikke.</b> The person stays first in this lesson. Something else in front, which the next lesson teaches, still leaves the verb as the second element. ikke still follows the verb.</p>
 {{ex:Jeg spiser ikke.|yai SPEE-suh EH-guh|I don't eat.}}
 {{ex:Jeg arbejder ikke.|yai A-bai-dhuh EH-guh|I don't work.}}
-<p><b>altid</b> (always) and <b>aldrig</b> (never) sit in that same slot, after the verb. <b>Jeg arbejder altid.</b> <b>Jeg spiser aldrig.</b> The line is rough on aldrig. Trust the voice for that word. The gender of a noun in the sentence does not move ikke. <b>øl</b> is an en-word, so "a beer" is en øl, and ikke still follows drikker. <b>hus</b> is neuter: <b>Det er ikke et hus.</b></p>
+<p><b>altid</b> (always) and <b>aldrig</b> (never) sit in that same slot, after the verb. <b>Jeg arbejder altid.</b> <b>Jeg spiser aldrig.</b> The gender of a noun in the sentence does not move ikke. <b>øl</b> is an en-word, so "a beer" is en øl, and ikke still follows drikker. <b>hus</b> is neuter: <b>Det er ikke et hus.</b></p>
 {{ex:Jeg arbejder altid.|yai A-bai-dhuh AL-teedh|I always work.}}
 {{ex:Jeg spiser aldrig.|yai SPEE-suh AL-dree|I never eat.}}
 {{ex:Jeg drikker ikke en øl.|yai DREH-guh EH-guh ehn oel|I don't drink a beer.}}
@@ -424,7 +425,7 @@ module.exports = [
 {{ex:Anna kommer, hvis hun ikke arbejder.|A-na KAW-muh vehs hoon EH-guh A-bai-dhuh|Anna comes if she isn't working.}}
 {{ex:Jeg spiser, når jeg ikke arbejder.|yai SPEE-suh naw yai EH-guh A-bai-dhuh|I eat when I'm not working.}}
 {{ex:Anna bor i Aarhus, fordi hun ikke bor i København.|A-na boh ee AW-hoos foh-DEE hoon EH-guh boh ee koe-buhn-HAWN|Anna lives in Aarhus, because she doesn't live in Copenhagen.}}
-<p>This course writes the comma before at, fordi, hvis and når. You will see Danish without that comma. Leaving it out is still legal, if a text is consistent. The comma is where the order changes, which is why the course keeps it. A typed answer does not have to include it. The line is rough on fordi. Trust the voice for that word.</p>
+<p>This course writes the comma before at, fordi, hvis and når. You will see Danish without that comma. Leaving it out is still legal, if a text is consistent. The comma is where the order changes, which is why the course keeps it. A typed answer does not have to include it.</p>
 <div class="tip"><b>Most common mistake:</b> ikke in front of the verb, or a do-word copied from English. <b>Jeg ikke spiser</b> → <b>Jeg spiser ikke</b>, and <b>at hun kommer ikke</b> → <b>at hun ikke kommer</b>.</div>
 `,
     check: [
@@ -440,7 +441,7 @@ module.exports = [
       ["mc", "I don't drink a beer. =", "Jeg drikker ikke en øl.", "Jeg drikker ikke et øl.", "Jeg ikke drikker en øl.", "Jeg drikker en øl ikke.", "øl is an en-word, and ikke goes after drikker."],
       ["or", "I don't eat. (start with jeg)", "Jeg spiser ikke", "gør", "ikke goes after the verb in a main clause."],
       ["or", "It is not a house. (start with det)", "Det er ikke et hus", "en", "hus is neuter, and ikke goes after the verb."],
-      ["or", "Anna says that she isn't coming. (start with Anna)", "Anna siger at hun ikke kommer", "gør", "Subordinate clause: ikke comes before the verb."],
+      ["or", "Anna says that she isn't coming. (start with Anna)", "Anna siger, at hun ikke kommer", "gør", "Subordinate clause: ikke comes before the verb."],
       ["fi", "Jeg spiser __.", "I don't eat.", "ikke", "gør|aldrig|er", "ikke goes after the verb in a main clause."],
       ["fi", "Anna siger, at hun __ kommer.", "Anna says that she isn't coming.", "ikke", "gør|aldrig|er", "ikke comes before the verb in a subordinate clause."],
       ["fi", "Det er ikke __ hus.", "It is not a house.", "et", "en|den|det", "hus is neuter."],
