@@ -1,0 +1,295 @@
+{
+  "target": "no",
+  "nameEn": "Norwegian",
+  "self": "norsk",
+  "ttsLang": "nb-NO",
+  "brand": "Norsk",
+  "accents": false,
+  "keys": "æ ø å",
+  "greet": [
+    [
+      "God natt",
+      "Good night (you're up late)"
+    ],
+    [
+      "God morgen",
+      "Good morning"
+    ],
+    [
+      "God dag",
+      "Good afternoon"
+    ],
+    [
+      "God kveld",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?:(?:sh|hy|ng|ks|[bdfghklmnprstvy])*(?:(?:aeu|oey|ah|eh|ee|oo|ue|ew|ae|oe|oh):?|(?:ai|ay|oy|uh))(?:sh|hy|ng|ks|[bdfghklmnprstvy])*|(?:(?:sh|hy|ng|ks|[bdfghklmnprstvy])*(?:(?:aeu|oey|ah|eh|ee|oo|ue|ew|ae|oe|oh):?|(?:ai|ay|oy|uh))(?:sh|hy|ng|ks|[bdfghklmnprstvy])*-)+(?:SH|HY|NG|KS|[BDFGHKLMNPRSTVY])*(?:(?:AEU|OEY|AH|EH|EE|OO|UE|EW|AE|OE|OH):?|(?:AI|AY|OY|UH))(?:SH|HY|NG|KS|[BDFGHKLMNPRSTVY])*(?:-(?:sh|hy|ng|ks|[bdfghklmnprstvy])*(?:(?:aeu|oey|ah|eh|ee|oo|ue|ew|ae|oe|oh):?|(?:ai|ay|oy|uh))(?:sh|hy|ng|ks|[bdfghklmnprstvy])*)*|(?:SH|HY|NG|KS|[BDFGHKLMNPRSTVY])*(?:(?:AEU|OEY|AH|EH|EE|OO|UE|EW|AE|OE|OH):?|(?:AI|AY|OY|UH))(?:SH|HY|NG|KS|[BDFGHKLMNPRSTVY])*(?:-(?:sh|hy|ng|ks|[bdfghklmnprstvy])*(?:(?:aeu|oey|ah|eh|ee|oo|ue|ew|ae|oe|oh):?|(?:ai|ay|oy|uh))(?:sh|hy|ng|ks|[bdfghklmnprstvy])*)+)(?: (?:(?:sh|hy|ng|ks|[bdfghklmnprstvy])*(?:(?:aeu|oey|ah|eh|ee|oo|ue|ew|ae|oe|oh):?|(?:ai|ay|oy|uh))(?:sh|hy|ng|ks|[bdfghklmnprstvy])*|(?:(?:sh|hy|ng|ks|[bdfghklmnprstvy])*(?:(?:aeu|oey|ah|eh|ee|oo|ue|ew|ae|oe|oh):?|(?:ai|ay|oy|uh))(?:sh|hy|ng|ks|[bdfghklmnprstvy])*-)+(?:SH|HY|NG|KS|[BDFGHKLMNPRSTVY])*(?:(?:AEU|OEY|AH|EH|EE|OO|UE|EW|AE|OE|OH):?|(?:AI|AY|OY|UH))(?:SH|HY|NG|KS|[BDFGHKLMNPRSTVY])*(?:-(?:sh|hy|ng|ks|[bdfghklmnprstvy])*(?:(?:aeu|oey|ah|eh|ee|oo|ue|ew|ae|oe|oh):?|(?:ai|ay|oy|uh))(?:sh|hy|ng|ks|[bdfghklmnprstvy])*)*|(?:SH|HY|NG|KS|[BDFGHKLMNPRSTVY])*(?:(?:AEU|OEY|AH|EH|EE|OO|UE|EW|AE|OE|OH):?|(?:AI|AY|OY|UH))(?:SH|HY|NG|KS|[BDFGHKLMNPRSTVY])*(?:-(?:sh|hy|ng|ks|[bdfghklmnprstvy])*(?:(?:aeu|oey|ah|eh|ee|oo|ue|ew|ae|oe|oh):?|(?:ai|ay|oy|uh))(?:sh|hy|ng|ks|[bdfghklmnprstvy])*)+))*$",
+  "targetScript": "[A-Za-zÆØÅæøå]",
+  "standingRule": {
+    "keywords": "\\bmasculine\\b|\\bfeminine\\b|\\bneuter\\b|\\bgender\\b|\\bdefinite ending\\b|\\bdouble definite\\b|\\ben-word\\b|\\bei-word\\b|\\bet-word\\b|\\bverb second\\b|\\bsecond element\\b|\\bsecond place\\b|\\bverb comes first\\b|\\bverb first\\b|\\bafter the verb\\b",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "alphabet",
+      "title": "The alphabet: æ, ø, å",
+      "roadmap": "no-alphabet",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "vowels",
+      "title": "Long and short vowels",
+      "roadmap": "no-vowels",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "consonants",
+      "title": "Consonants: kj, skj and silent letters",
+      "roadmap": "no-consonants",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings: hei, takk, ha det",
+      "roadmap": "no-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "intro",
+      "title": "Introducing yourself",
+      "roadmap": "no-intro",
+      "deck": "About me"
+    },
+    {
+      "id": "gender",
+      "title": "en, ei, et: three genders",
+      "roadmap": "no-gender",
+      "deck": "People and family"
+    },
+    {
+      "id": "present",
+      "title": "The present tense in -r",
+      "roadmap": "no-present",
+      "deck": "Work and study"
+    },
+    {
+      "id": "word-order",
+      "title": "Verb second: I dag jobber jeg",
+      "roadmap": "no-word-order",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "questions",
+      "title": "Questions: hva, hvor, and yes/no",
+      "roadmap": "no-questions",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "negation",
+      "title": "ikke: where it goes",
+      "roadmap": "no-negation",
+      "deck": "Feelings and states"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers and prices",
+      "roadmap": "no-numbers",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "object",
+      "title": "Object pronouns: meg, deg",
+      "roadmap": "no-object",
+      "deck": "Health and emergencies"
+    },
+    {
+      "id": "modals",
+      "title": "Modal verbs: vil, kan, må, skal",
+      "roadmap": "no-modals",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "time",
+      "title": "Days and the clock: halv tre",
+      "roadmap": "no-time",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "directions",
+      "title": "Asking the way",
+      "roadmap": "no-directions",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "definite",
+      "title": "The definite ending",
+      "roadmap": "no-definite",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "plural",
+      "title": "Plurals",
+      "roadmap": "no-plural",
+      "deck": "People and family"
+    },
+    {
+      "id": "reflexive",
+      "title": "Reflexive verbs",
+      "roadmap": "no-reflexive",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjective agreement",
+      "roadmap": "no-adjectives",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "home",
+      "title": "Home, colours and ordinals",
+      "roadmap": "no-home",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "possessives",
+      "title": "Possessives: min, mi, mitt",
+      "roadmap": "no-possessives",
+      "deck": "People and family"
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping: denne, dette, disse",
+      "roadmap": "no-shopping",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "food",
+      "title": "Food, and what to say about it",
+      "roadmap": "no-food",
+      "deck": "Compliments"
+    },
+    {
+      "id": "double-def",
+      "title": "Double definiteness: den store bilen",
+      "roadmap": "no-double-def",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "past",
+      "title": "The past tense",
+      "roadmap": "no-past",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "traps",
+      "title": "False friends",
+      "roadmap": "",
+      "deck": "Traps for English speakers"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "The alphabet, long and short vowels, and the letters English readers misread"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Hello, thanks, excuse me, and goodbye, with du"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Name, where you are from, where you live, and what you do"
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "People and family, each noun with en, ei or et"
+    },
+    {
+      "name": "Numbers, time and prices",
+      "group": "Everyday words",
+      "desc": "Numbers, the clock, and prices in kroner"
+    },
+    {
+      "name": "Days, dates and weather",
+      "group": "Everyday words",
+      "desc": "Days, today and yesterday, and the weather"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Food and drink, and the definite ending on those nouns"
+    },
+    {
+      "name": "Shopping and clothes",
+      "group": "Everyday words",
+      "desc": "Clothes, size and colour, and den store bilen"
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms, colours, ordinals, and a simple daily routine"
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places in town and asking the way"
+    },
+    {
+      "name": "Travel and transport",
+      "group": "Out and about",
+      "desc": "Buses, trains, tickets, and skal and må"
+    },
+    {
+      "name": "Health and emergencies",
+      "group": "Out and about",
+      "desc": "Feeling ill, the pharmacy, and asking for help"
+    },
+    {
+      "name": "Work and study",
+      "group": "Out and about",
+      "desc": "Jobs, study, and the one present-tense form"
+    },
+    {
+      "name": "Feelings and states",
+      "group": "Conversation",
+      "desc": "How you feel, and where ikke goes"
+    },
+    {
+      "name": "Likes and free time",
+      "group": "Conversation",
+      "desc": "What you like and what you did"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "Question words, yes/no questions, and og and men"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends and word-for-word copies from English"
+    },
+    {
+      "name": "Compliments",
+      "group": "Watch out",
+      "desc": "Kind things to say about food, work and people, and how to answer"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

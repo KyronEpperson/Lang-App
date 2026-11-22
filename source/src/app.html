@@ -561,7 +561,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.55.2 · 2026-11-21';
+const APP_VERSION='2.56.0 · 2026-11-22';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1147,7 +1147,7 @@ function curKey(){ return stateKey(COURSE.id); }
 function saveMeta(){ try{ localStorage.setItem('la-meta',JSON.stringify(META)); }catch(e){} }
 function globalsOf(s){ const g={}; GLOBAL_KEYS.forEach(k=>{ if(s&&s[k]!==undefined) g[k]=s[k]; }); return g; }
 function overlayPrefs(){ const p=META.prefs||{}; GLOBAL_KEYS.forEach(k=>{ if(p[k]!==undefined) S[k]=p[k]; }); }
-function validCourse(id,c){ return !!(c&&typeof c==='object'&&c.id===id&&/^[a-z]{2,3}-[a-z]{2,3}$/.test(id)&&LANGS[c.native]&&LANGS[c.target]&&c.DECKS&&typeof c.DECKS==='object'&&Object.keys(c.DECKS).length&&Array.isArray(c.GROUPS)); }
+function validCourse(id,c){ return !!(c&&typeof c==='object'&&c.id===id&&/^[a-z]{2,3}-[a-z]{2,4}$/.test(id)&&LANGS[c.native]&&LANGS[c.target]&&c.DECKS&&typeof c.DECKS==='object'&&Object.keys(c.DECKS).length&&Array.isArray(c.GROUPS)); }
 let TOUR_READ=null, QUICK_READ_ALL=null;
 /* ---- on-demand packs (site build). LANGAPP_MANIFEST={courses:{id:{id,native,target,name,file}},i18n:{lang:file}} is set by the site's loader script; the single-file build has no manifest and every pack inline, so these all resolve at once. ---- */
 function ctx2d(c){ const g=c.getContext('2d'); try{ g.direction='ltr'; }catch(e){} return g; } /* canvases keep left-to-right coordinates: in a right-to-left page the default text start would otherwise flip and draw off-canvas (Arabic text is still shaped correctly) */
@@ -1163,7 +1163,7 @@ function BK(){ return uiDir()==='rtl'?'→':'←'; } /* back arrow, pointing aga
 function uiDir(){ try{ if(localStorage.getItem('la-rtl')==='1') return 'rtl'; }catch(e){} const l=uiLang(); let pl=l; try{ if(l==='en'&&typeof META!=='undefined'&&META&&!META.picked) pl=preLang(); }catch(e){} return RTL_LANGS[pl]?'rtl':'ltr'; } /* before a language is picked, the first screens follow the browser language */ /* text direction of the interface; la-rtl=1 forces right-to-left for layout tests */
 function hLang(l){ return l==='zh'?'zh-Hans':l==='ptpt'?'pt-PT':l; } /* HTML language tag for an app language code */
 function packMan(){ const m=window.LANGAPP_MANIFEST; return m&&typeof m==='object'?m:null; }
-function courseStubs(){ const m=packMan(), out={}; if(m&&m.courses) Object.keys(m.courses).forEach(id=>{ const c=m.courses[id]; if(c&&c.id===id&&/^[a-z]{2,3}-[a-z]{2,3}$/.test(id)&&LANGS[c.native]&&LANGS[c.target]&&typeof c.file==='string') out[id]=c; }); Object.keys(COURSES).forEach(id=>{ out[id]=COURSES[id]; }); return out; }
+function courseStubs(){ const m=packMan(), out={}; if(m&&m.courses) Object.keys(m.courses).forEach(id=>{ const c=m.courses[id]; if(c&&c.id===id&&/^[a-z]{2,3}-[a-z]{2,4}$/.test(id)&&LANGS[c.native]&&LANGS[c.target]&&typeof c.file==='string') out[id]=c; }); Object.keys(COURSES).forEach(id=>{ out[id]=COURSES[id]; }); return out; }
 function knownCourse(id){ return !!(COURSES[id]||courseStubs()[id]); }
 const PACK_P={};
 function loadPack(file){ if(!/^packs\/[a-z0-9.-]+\.js$/.test(file)) return Promise.resolve(false); if(PACK_P[file]) return PACK_P[file]; return PACK_P[file]=new Promise(res=>{ const el=document.createElement('script'); el.src=file; el.onload=()=>res(true); el.onerror=()=>{ delete PACK_P[file]; el.remove(); res(false); }; document.head.appendChild(el); }); }
@@ -1204,7 +1204,7 @@ function initMeta(){ let m=null; try{ m=JSON.parse(localStorage.getItem('la-meta
   if(!m||typeof m!=='object'||m.v!==1){ let had=false; try{ had=!!(localStorage.getItem('ko-app2')||localStorage.getItem('ko-app')); }catch(e){}
     META=had?{v:1,native:'en',course:'en-ko',picked:1,prefs:{},migrated:1}:{v:1,native:null,course:'en-ko',picked:0,prefs:{}}; saveMeta(); }
   else META=Object.assign({v:1,native:null,course:'en-ko',picked:0,prefs:{}},m); if(META.seenHome===undefined){ META.seenHome=(META.picked&&!META.migrated)?1:0; saveMeta(); }
-  if(!META.prefs||typeof META.prefs!=='object'||Array.isArray(META.prefs)) META.prefs={}; if(META.prefs.nick!=null) META.prefs.nick=cleanText(META.prefs.nick,24); if(!/^[a-z]{2,3}-[a-z]{2,3}$/.test(META.course||'')) META.course='en-ko'; }
+  if(!META.prefs||typeof META.prefs!=='object'||Array.isArray(META.prefs)) META.prefs={}; if(META.prefs.nick!=null) META.prefs.nick=cleanText(META.prefs.nick,24); if(!/^[a-z]{2,3}-[a-z]{2,4}$/.test(META.course||'')) META.course='en-ko'; }
 function bootCourse(){ const id=META.course; if(id!=='en-ko'&&COURSES[id]){ COURSE=COURSES[id]; setI18n(); setCourseTables(COURSE); } setI18n(); koVoice=null; pickVoice(); }
 function flushSaveNow(){ saveDirty=true; flushSave(); }
 function quickReview(){ return [['⏰ All due',()=>{ deck=ALLDUE; cardsMode='due'; location.hash='#review'; if(location.hash==='#review') route(); }],...Object.keys(TAGS).slice(0,6).map(t=>[tagL(t),()=>{ deck='*tag*:'+t; cardsMode='due'; location.hash='#review'; route(); }])]; }
@@ -1308,14 +1308,14 @@ function showLangHome(opts){ opts=opts||{}; closeSheet(); const old=$('langHome'
   document.addEventListener('keydown',onKey);
   if(opts.step===2&&META.native&&liveNatives().includes(META.native)&&i18nReady(META.native)) step2(META.native); else step1(); document.body.appendChild(w); }
 /* ---- sync shape: en-ko at the top level (old clients keep working) + _courses:{id:state} + _meta:{native,course} ---- */
-function storedCourseStates(){ const out={}; try{ for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(/^la-s-[a-z]{2,3}-[a-z]{2,3}$/.test(k||'')){ const v=JSON.parse(localStorage.getItem(k)||'null'); if(v&&typeof v==='object') out[k.slice(5)]=v; } } }catch(e){} return out; }
+function storedCourseStates(){ const out={}; try{ for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(/^la-s-[a-z]{2,3}-[a-z]{2,4}$/.test(k||'')){ const v=JSON.parse(localStorage.getItem(k)||'null'); if(v&&typeof v==='object') out[k.slice(5)]=v; } } }catch(e){} return out; }
 function stripSync(s){ const o=JSON.parse(JSON.stringify(s||{})); delete o._courses; delete o._meta; return o; }
 function syncPayload(){ let top; if(COURSE.id==='en-ko') top=S; else { let st=null; try{ st=JSON.parse(localStorage.getItem('ko-app2')||'null'); }catch(e){} top=Object.assign(fresh(),st&&typeof st==='object'?st:{},globalsOf(S)); }
   const p=stripSync(top); const cs=storedCourseStates(); if(COURSE.id!=='en-ko') cs[COURSE.id]=S; delete cs['en-ko']; const ids=Object.keys(cs);
   if(ids.length){ p._courses={}; ids.forEach(id=>{ p._courses[id]=stripSync(cs[id]); }); } if(META.picked) p._meta={native:META.native,course:META.course}; return p; }
 /* merge a remote row into every course; returns {changed} for the active course. Courses this device doesn't know are kept in la-s-<id> and pushed back. */
 function applyRemoteRow(remote){ if(!remote||typeof remote!=='object') return false; const rc=(remote._courses&&typeof remote._courses==='object')?remote._courses:{}; const rm=remote._meta; let changed=false, hold=false;
-  const one=(id,rs)=>{ if(!rs||typeof rs!=='object'||!/^[a-z]{2,3}-[a-z]{2,3}$/.test(id)) return; rs=stripSync(rs);
+  const one=(id,rs)=>{ if(!rs||typeof rs!=='object'||!/^[a-z]{2,3}-[a-z]{2,4}$/.test(id)) return; rs=stripSync(rs);
     if(!COURSES[id]){ /* a course this build cannot open (e.g. synced from a newer build): relay it verbatim, newest updatedAt wins, so nothing this build does not understand is normalised away */
       let loc=null; try{ loc=JSON.parse(localStorage.getItem(stateKey(id))||'null'); }catch(e){} if(!loc||typeof loc!=='object'||(+rs.updatedAt||0)>(+loc.updatedAt||0)){ try{ localStorage.setItem(stateKey(id),JSON.stringify(rs)); }catch(e){} } return; }
     if(id===COURSE.id){ const merged=mergeState(S,rs); if(JSON.stringify(merged)!==JSON.stringify(S)) changed=true; S=merged; try{ localStorage.setItem(curKey(),JSON.stringify(S)); }catch(e){} }
@@ -1331,7 +1331,7 @@ function applyRemoteRow(remote){ if(!remote||typeof remote!=='object') return fa
 function stableStr(v){ if(Array.isArray(v)) return '['+v.map(stableStr).join(',')+']'; if(v&&typeof v==='object') return '{'+Object.keys(v).filter(k=>v[k]!==undefined).sort().map(k=>JSON.stringify(k)+':'+stableStr(v[k])).join(',')+'}'; return JSON.stringify(v===undefined?null:v); }
 
 const i18nT=s=>t(s);
-function wipeOtherCourses(){ try{ const ks=[]; for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(/^la-s-[a-z]{2,3}-[a-z]{2,3}$/.test(k||'')||k==='ko-app2') ks.push(k); } ks.forEach(k=>{ if(k!==curKey()) localStorage.removeItem(k); }); }catch(e){} }
+function wipeOtherCourses(){ try{ const ks=[]; for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(/^la-s-[a-z]{2,3}-[a-z]{2,4}$/.test(k||'')||k==='ko-app2') ks.push(k); } ks.forEach(k=>{ if(k!==curKey()) localStorage.removeItem(k); }); }catch(e){} }
 /* generic drills for courses without the Korean script machinery: Type = see meaning → type the target (case/punctuation-insensitive) */
 function renderTypeDrillQ(container,lvl,onAnswer){ const pool=[]; names.forEach(d=>{ if(d===MYDECK||!deckUnlocked(d)) return; DECKS[d].forEach(c=>pool.push({d,c})); }); const seen=pool.filter(x=>cardState(x.d,x.c));
   const src=seen.length>=6?seen:(pool.length?pool:names.flatMap(d=>DECKS[d].map(c=>({d,c})))); if(!src.length){ container.innerHTML='<p class="stat">'+LL('Add some cards first.','먼저 카드를 추가해 주세요.')+'</p>'; setTimeout(()=>onAnswer(false),900); return ()=>{}; }
@@ -2543,7 +2543,7 @@ $('impFile').addEventListener('change', e=>{ const f=e.target.files&&e.target.fi
 $('impBtn').onclick=()=>{ $('impBox').hidden=!$('impBox').hidden; $('impTxt').value=''; $('impMsg').textContent='Merges into the course the export came from; nothing is lost.'; };
 $('impGo').onclick=()=>{ let obj=null; try{ obj=JSON.parse($('impTxt').value.trim()); }catch(e){} if(!obj||typeof obj!=='object'||!obj.cards||typeof obj.cards!=='object'||Array.isArray(obj.cards)){ $('impMsg').textContent='That is not a valid export.'; return; }
   /* exports carry _course; older exports (no tag) are always en-ko. Merge into that course — never into another course's state. */
-  const cid=(typeof obj._course==='string'&&/^[a-z]{2,3}-[a-z]{2,3}$/.test(obj._course))?obj._course:'en-ko'; obj=stripSync(obj); delete obj._course; obj=sanitizeState(Object.assign(fresh(),obj));
+  const cid=(typeof obj._course==='string'&&/^[a-z]{2,3}-[a-z]{2,4}$/.test(obj._course))?obj._course:'en-ko'; obj=stripSync(obj); delete obj._course; obj=sanitizeState(Object.assign(fresh(),obj));
   if(cid!==COURSE.id){ let loc=null; try{ loc=JSON.parse(localStorage.getItem(stateKey(cid))||'null'); }catch(e){} const base=(loc&&typeof loc==='object')?sanitizeState(Object.assign(fresh(),loc)):fresh(); const b0=Object.keys(base.cards||{}).length; let m=mergeState(base,obj); if(!COURSES[cid]&&loc&&typeof loc==='object') m=Object.assign({},stripSync(loc),m); GLOBAL_KEYS.forEach(k=>{ if(S[k]!==undefined) m[k]=S[k]; }); try{ localStorage.setItem(stateKey(cid),JSON.stringify(m)); }catch(e){} syncPush(); $('impBox').hidden=true; toast('Merged into '+(COURSES[cid]?uiName(COURSES[cid].target):cid)+'. '+(Object.keys(m.cards||{}).length-b0)+' cards of progress were new.'); return; }
   const before=Object.keys(S.cards).length; S=mergeState(S,obj); save(); hdr(); renderProgress(); $('impBox').hidden=true; toast('Merged. '+(Object.keys(S.cards).length-before)+' cards of progress were new.'); };
 function applyAccent(){ document.documentElement.setAttribute('data-accent', S.accent||'red'); const box=$('accents'); if(box&&!box.children.length){ [['red','#c2402f'],['green','#2e7d5b'],['blue','#2f5fa8'],['plum','#7a3b8f']].forEach(([k,c])=>{ const b=document.createElement('button'); b.className='ghost'; b.dataset.k=k; b.title='Accent '+k; b.setAttribute('aria-label','Accent '+k); b.style.cssText='width:36px;height:36px;padding:0;border-radius:50%;background:'+c+';border-color:'+c+';box-shadow:inset 0 0 0 5px var(--card)'; b.onclick=()=>{ S.accent=k; save(); applyAccent(); }; box.appendChild(b); }); } if(box) [...box.children].forEach(b=>b.style.outline=(b.dataset.k===(S.accent||'red'))?'3px solid var(--ink)':''); }

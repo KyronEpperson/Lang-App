@@ -1,0 +1,301 @@
+{
+  "target": "pl",
+  "nameEn": "Polish",
+  "self": "polski",
+  "ttsLang": "pl-PL",
+  "brand": "Polski",
+  "accents": false,
+  "keys": "ą ć ę ł ń ó ś ź ż",
+  "greet": [
+    [
+      "Dobry wieczór",
+      "Good evening (late; there is no separate late-night hello)"
+    ],
+    [
+      "Dzień dobry",
+      "Good morning"
+    ],
+    [
+      "Dzień dobry",
+      "Good afternoon (the same words as the morning)"
+    ],
+    [
+      "Dobry wieczór",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?:(?:(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*(?:ohN(?!g)|ehN(?!g)|ah|eh|ee|oh|oo|ih)(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*-)*(?:CH'|CHY|SH'|SHY|ZH'|ZHY|BY|CH|DY|DZ|FY|GH|GY|J'|JY|KH|KY|MY|NG|NY|PY|SH|TS|TY|VY|ZH|B|D|F|G|J|K|L|M|N|P|R|S|T|V|W|Y|Z)*(?:OHN(?!G)|EHN(?!G)|AH|EH|EE|OH|OO|IH)(?:CH'|CHY|SH'|SHY|ZH'|ZHY|BY|CH|DY|DZ|FY|GH|GY|J'|JY|KH|KY|MY|NG|NY|PY|SH|TS|TY|VY|ZH|B|D|F|G|J|K|L|M|N|P|R|S|T|V|W|Y|Z)*(?:-(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*(?:ohN(?!g)|ehN(?!g)|ah|eh|ee|oh|oo|ih)(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*)*|(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*(?:ohN(?!g)|ehN(?!g)|ah|eh|ee|oh|oo|ih)(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*|(?:CH'|CHY|SH'|SHY|ZH'|ZHY|BY|CH|DY|DZ|FY|GH|GY|J'|JY|KH|KY|MY|NG|NY|PY|SH|TS|TY|VY|ZH|B|D|F|G|J|K|L|M|N|P|R|S|T|V|W|Y|Z)+|(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)+)(?: (?:(?:(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*(?:ohN(?!g)|ehN(?!g)|ah|eh|ee|oh|oo|ih)(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*-)*(?:CH'|CHY|SH'|SHY|ZH'|ZHY|BY|CH|DY|DZ|FY|GH|GY|J'|JY|KH|KY|MY|NG|NY|PY|SH|TS|TY|VY|ZH|B|D|F|G|J|K|L|M|N|P|R|S|T|V|W|Y|Z)*(?:OHN(?!G)|EHN(?!G)|AH|EH|EE|OH|OO|IH)(?:CH'|CHY|SH'|SHY|ZH'|ZHY|BY|CH|DY|DZ|FY|GH|GY|J'|JY|KH|KY|MY|NG|NY|PY|SH|TS|TY|VY|ZH|B|D|F|G|J|K|L|M|N|P|R|S|T|V|W|Y|Z)*(?:-(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*(?:ohN(?!g)|ehN(?!g)|ah|eh|ee|oh|oo|ih)(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*)*|(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*(?:ohN(?!g)|ehN(?!g)|ah|eh|ee|oh|oo|ih)(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)*|(?:CH'|CHY|SH'|SHY|ZH'|ZHY|BY|CH|DY|DZ|FY|GH|GY|J'|JY|KH|KY|MY|NG|NY|PY|SH|TS|TY|VY|ZH|B|D|F|G|J|K|L|M|N|P|R|S|T|V|W|Y|Z)+|(?:ch'|chy|sh'|shy|zh'|zhy|by|ch|dy|dz|fy|gh|gy|j'|jy|kh|ky|my|ng|ny|py|sh|ts|ty|vy|zh|b|d|f|g|j|k|l|m|n|p|r|s|t|v|w|y|z)+))*$",
+  "targetScript": "[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]",
+  "standingRule": {
+    "keywords": "\\b(?:nominative|accusative|genitive|instrumental|locative) (?:case|ending|singular|plural)s?\\b|\\bcase endings?\\b|\\b(?:masculine|feminine|neuter|plural) (?:form|ending|agreement)s?\\b|\\bagrees? with\\b",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "alphabet",
+      "title": "The Polish letters",
+      "roadmap": "pl-alphabet",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "spelling",
+      "title": "sz, cz, ś and the pairs",
+      "roadmap": "pl-spelling",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "stress",
+      "title": "Stress and the hard clusters",
+      "roadmap": "pl-stress",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Hello, please and thank you",
+      "roadmap": "pl-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "pan-pani",
+      "title": "pan and pani",
+      "roadmap": "pl-pan-pani",
+      "deck": "Formal and informal"
+    },
+    {
+      "id": "byc",
+      "title": "być",
+      "roadmap": "pl-byc",
+      "deck": "About me"
+    },
+    {
+      "id": "intro",
+      "title": "My name and where I'm from",
+      "roadmap": "pl-intro",
+      "deck": "About me"
+    },
+    {
+      "id": "gender",
+      "title": "on, ona, ono",
+      "roadmap": "pl-gender",
+      "deck": "People and family"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives that agree",
+      "roadmap": "pl-adjectives",
+      "deck": "Compliments"
+    },
+    {
+      "id": "questions",
+      "title": "Questions",
+      "roadmap": "pl-questions",
+      "deck": "Questions and knowing"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers and złoty",
+      "roadmap": "pl-numbers",
+      "deck": "Numbers and złoty"
+    },
+    {
+      "id": "am-asz",
+      "title": "Verbs in -am and -asz",
+      "roadmap": "pl-am-asz",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "accusative",
+      "title": "The accusative",
+      "roadmap": "pl-accusative",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "ordering",
+      "title": "Ordering food and drink",
+      "roadmap": "pl-ordering",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "e-isz",
+      "title": "Verbs in -ę",
+      "roadmap": "pl-e-isz",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "instrumental",
+      "title": "Jobs and the instrumental",
+      "roadmap": "pl-instrumental",
+      "deck": "Work and study"
+    },
+    {
+      "id": "family",
+      "title": "Family and age",
+      "roadmap": "pl-family",
+      "deck": "People and family"
+    },
+    {
+      "id": "routine",
+      "title": "The daily routine",
+      "roadmap": "pl-routine",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "motion",
+      "title": "Going on foot and by transport",
+      "roadmap": "pl-motion",
+      "deck": "Going places"
+    },
+    {
+      "id": "know",
+      "title": "wiedzieć, umieć, znać",
+      "roadmap": "pl-know",
+      "deck": "Questions and knowing"
+    },
+    {
+      "id": "time",
+      "title": "Time and the days",
+      "roadmap": "pl-time",
+      "deck": "Time and days"
+    },
+    {
+      "id": "locative",
+      "title": "Where things are",
+      "roadmap": "pl-locative",
+      "deck": "Around town"
+    },
+    {
+      "id": "directions",
+      "title": "Directions",
+      "roadmap": "pl-directions",
+      "deck": "Directions"
+    },
+    {
+      "id": "genitive",
+      "title": "The genitive",
+      "roadmap": "pl-genitive",
+      "deck": "Shopping and quantities"
+    },
+    {
+      "id": "past",
+      "title": "The past",
+      "roadmap": "pl-past",
+      "deck": "Past and plans"
+    },
+    {
+      "id": "future",
+      "title": "The future",
+      "roadmap": "pl-future",
+      "deck": "Past and plans"
+    },
+    {
+      "id": "traps",
+      "title": "Traps for English speakers",
+      "roadmap": "",
+      "deck": "Traps for English speakers"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "Sounds and first words",
+      "desc": "The nine extra letters, sz against ś, and penultimate stress."
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "Sounds and first words",
+      "desc": "Hello, goodbye, please and thank you, for a stranger and for a friend."
+    },
+    {
+      "name": "Formal and informal",
+      "group": "Sounds and first words",
+      "desc": "pan and pani, which the learner says, and ty, which they only recognize."
+    },
+    {
+      "name": "About me",
+      "group": "Sounds and first words",
+      "desc": "Your name, where you are from, and To jest."
+    },
+    {
+      "name": "People and family",
+      "group": "People and home",
+      "desc": "Gender, family, and the age chunk Mam … lat."
+    },
+    {
+      "name": "Numbers and złoty",
+      "group": "People and home",
+      "desc": "Prices: 1 złoty, 2 złote, 5 złotych."
+    },
+    {
+      "name": "Food and drink",
+      "group": "People and home",
+      "desc": "Ordering in the accusative, and coffee with milk."
+    },
+    {
+      "name": "Home and routine",
+      "group": "People and home",
+      "desc": "Where you live, what you do each day, and the two present-tense classes."
+    },
+    {
+      "name": "Work and study",
+      "group": "Out and about",
+      "desc": "A job or a role in the instrumental."
+    },
+    {
+      "name": "Time and days",
+      "group": "Out and about",
+      "desc": "The clock, and the day after w."
+    },
+    {
+      "name": "Around town",
+      "group": "Out and about",
+      "desc": "w and na with the locative."
+    },
+    {
+      "name": "Directions",
+      "group": "Out and about",
+      "desc": "Straight, left, right, and where the station is."
+    },
+    {
+      "name": "Going places",
+      "group": "Out and about",
+      "desc": "On foot or by transport, once or as a habit."
+    },
+    {
+      "name": "Questions and knowing",
+      "group": "Plans and errands",
+      "desc": "Question words, and wiedzieć, umieć, znać."
+    },
+    {
+      "name": "Shopping and quantities",
+      "group": "Plans and errands",
+      "desc": "The genitive after nie, do, and a quantity."
+    },
+    {
+      "name": "Past and plans",
+      "group": "Plans and errands",
+      "desc": "The imperfective past, and będę plus an infinitive."
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends and the case calques English speakers produce."
+    },
+    {
+      "name": "Compliments",
+      "group": "Watch out",
+      "desc": "A kind adjective that agrees, and Dziękuję bardzo."
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

@@ -1,7 +1,7 @@
 /* usage: node e2e_en.js <lang> <id> [<id>...]  — <lang>-en (default ko when the first arg is not a scaffolded language): completes each lesson
    as a non-free user (correct check answers from CHECKS), then sweeps practice items. Needs a build (korean-flashcards.html) containing the pack. */
 const fs=require('fs'),path=require('path');let args=process.argv.slice(2);
-const REV=args[0]&&/^en-[a-z]{2,3}$/.test(args[0])?args.shift():null; /* en-<t>: a course that teaches <t> to English speakers (tools/target) */
+const REV=args[0]&&/^en-[a-z]{2,4}$/.test(args[0])?args.shift():null; /* en-<t>: a course that teaches <t> to English speakers (tools/target) */
 const LANG=REV?'en':(args[0]&&/^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/.test(args[0])&&fs.existsSync(path.join(__dirname,args[0],'profile.json')))?args.shift():'ko';const CID=REV||LANG+'-en';
 const {chromium}=require('playwright');(async()=>{const ids=args;const b=await chromium.launch();let fail=0;
 for(const id of ids){const c=await b.newContext({viewport:{width:390,height:800},reducedMotion:'reduce'});const p=await c.newPage();const errs=[],warn=[];p.on('pageerror',e=>errs.push(e.message));p.on('console',m=>{if(/prac/i.test(m.text()))warn.push(m.text().slice(0,100));});
