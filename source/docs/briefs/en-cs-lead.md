@@ -1,10 +1,12 @@
-PROGRESS (updated 2026-11-21 21:48 CST)
+PROGRESS (updated 2026-11-21 22:15 CST)
 Course: en-cs   Branch: cursor/en-cs   PR: https://github.com/KyronEpperson/Lang-App/pull/10
-Done: research brief, research, pron tool, lead note, decisions, briefs
-Next: decks and lessons
-Checks: respell.js --test is ok 84. byt is biht, být is beet, řeka is RZHEH-kah, Dobrý den is DOH-bree dehn. 25 lessons, 17 decks. Roadmap fields use the cs- prefix. traps is empty. profile.json parses. mk_briefs.py: lessons 9, 8, 8 and decks 9, 8.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A
+Next: deck B, lesson 1, lesson 2, lesson 3
+Checks: deck A node --check passed. 9 decks, 157 cards, 28 dialogues, 18 examples, 9 patterns. Partial validator reported pass. Four profile samples also sit in deck B's list (dobrý, chléb, Děkuji, Jsem student) and were kept on both sides. Full course not run.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high
 State: WORKING
+
+Deck A, tool output kept. A native should hear: To je váš bratr vaahzh, Jsem z Plzně SPLLZ-nyeh, S dovolením ZDOH-voh-leh-nyeem, Není zač zahch, to náměstí NAAHM-nyehs-tyee, Mluvíte anglicky AHN-glihts-kih, and the pair Jedna káva / Jednu kávu. domu is do domu and z domu. The place form is v domě. domů is going home. Jmenuji se Eva is the I-form. The vy question is Jak se jmenujete.
 
 # Lead note: en-cs stage 1
 
