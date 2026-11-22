@@ -1,5 +1,7 @@
 # Cursor job queue: English → other languages
 
+**PAUSED by Kii (2026-11-22): after Czech (already started), Bengali and Amharic are finished, start NO new language. Rows 10 and below stay `queued` until Kii lifts the pause. Queue C (additions to finished courses) continues.**
+
 Work in the order of the # column: Dutch, then Bengali and Amharic, then the rest top to bottom. One course per branch (`cursor/en-<t>`) and pull request. While a course waits for Claude's stage-1 decisions, you may start stage 1 of the next "Ready" course; never write lessons or decks before the decision record says "Go for stage 2".
 
 Lanes:
