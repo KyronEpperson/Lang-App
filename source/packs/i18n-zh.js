@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.zh = {
     "listen · type · role-play": "听力 · 输入 · 情景对话",
     "Could not load. Check your connection.": "加载失败，请检查网络连接。",
     "A new version is ready. Reload to continue.": "新版本已就绪，请刷新后继续。",
-    "Category": "类别"
+    "Category": "类别",
+    "⚙ More options": "⚙ 更多选项",
+    "⚙ Fewer options": "⚙ 收起选项",
+    "Show all options on every screen": "在所有页面显示全部选项"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],

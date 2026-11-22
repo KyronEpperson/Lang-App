@@ -5239,6 +5239,27 @@
    "kind": "label",
    "context": "screen-reader label",
    "where": "aria-label of the feedback category chips (Idea / Bug / Content / Other)"
+  },
+  "⚙ More options": {
+   "t": "⚙ Plus d’options",
+   "ko": "⚙ 옵션 더 보기",
+   "kind": "label",
+   "context": "short UI label (button, chip or heading); keep it short",
+   "where": "js STR()"
+  },
+  "⚙ Fewer options": {
+   "t": "⚙ Moins d’options",
+   "ko": "⚙ 옵션 접기",
+   "kind": "label",
+   "context": "short UI label (button, chip or heading); keep it short",
+   "where": "js STR()"
+  },
+  "Show all options on every screen": {
+   "t": "Afficher toutes les options sur chaque écran",
+   "ko": "모든 화면에서 옵션 전체 표시",
+   "kind": "label",
+   "context": "short UI label (button, chip or heading); keep it short",
+   "where": "js STR()"
   }
  },
  "patterns": {

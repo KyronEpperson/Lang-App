@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.hi = {
     "listen · type · role-play": "सुनना · लिखना · रोल-प्ले",
     "Could not load. Check your connection.": "लोड नहीं हो सका। अपना कनेक्शन जाँचें।",
     "A new version is ready. Reload to continue.": "नया वर्ज़न तैयार है। जारी रखने के लिए रीलोड करें।",
-    "Category": "श्रेणी"
+    "Category": "श्रेणी",
+    "⚙ More options": "⚙ और विकल्प",
+    "⚙ Fewer options": "⚙ कम विकल्प",
+    "Show all options on every screen": "हर स्क्रीन पर सभी विकल्प दिखाएँ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ड्रिल"],

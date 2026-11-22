@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.id = {
     "listen · type · role-play": "dengar · ketik · bermain peran",
     "Could not load. Check your connection.": "Tidak dapat memuat. Periksa koneksimu.",
     "A new version is ready. Reload to continue.": "Versi baru sudah siap. Muat ulang untuk melanjutkan.",
-    "Category": "Kategori"
+    "Category": "Kategori",
+    "⚙ More options": "⚙ Opsi lainnya",
+    "⚙ Fewer options": "⚙ Sembunyikan opsi",
+    "Show all options on every screen": "Tampilkan semua opsi di setiap layar"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],

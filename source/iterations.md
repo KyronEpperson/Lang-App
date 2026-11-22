@@ -1541,3 +1541,11 @@ The load asks for limit=1000; the "Showing the latest posts" note is hidden for 
 
 ### Loop 3 close
 All fbtest and bugtest steps pass with no errors or overflow; harness 88 guards pass.
+
+# Simple view (2026-11-22)
+
+## SV-1 — prompt
+Kii: "The app has a lot of buttons and things to read; this is overwhelming for the users." Rewritten: every screen shows one main action and only the controls a first-week learner needs; everything else moves behind one "⚙ More options" button per screen, remembered on the device. Nothing is removed. A control that is in use (a chosen mode, a ticked box, a reply badge) stays visible. One setting, "Show all options on every screen", restores today's layout exactly. Verify by counting visible controls and words per screen before and after, on a new user, a returning user, a generated course, an X-to-English course and Arabic (right to left); plus the harness, the feedback, report-sheet and visitor tests, lesson click-throughs, and a new simple-view test.
+
+### SV-1 — results
+Visible controls / words, en-es returning user, before → after: Today 14/156 → 7/83; Practice 17/131 → 5/70; Review 22/53 → 7/35; Lessons 28/639 → 28/235 (the controls are the lessons themselves; only the next lesson shows its description); Read 15/52 → 13/25; Progress 32/474 → 9/107; bottom tabs 7 → 5 (Read and Feedback move off the bar; Read is linked from Practice, Feedback from the 🐞 button, and either tab reappears while you are on that page or have unread replies). Korean Practice 27 → 5, Review 21 → 6. "Show all" mode measures exactly as before (14/17/22/28/15/33, 7 tabs). tools/tests/simpletest.js passes: within caps, More options reveals and is remembered and keeps focus, an in-use mode stays visible, Read and Feedback reachable, reply badge shows the tab, Show all restores everything. Harness, fbtest, bugtest, vistest pass; e2e OK on Spanish (6 lessons) and Japanese (4). Three new labels translated into all 14 interface languages.

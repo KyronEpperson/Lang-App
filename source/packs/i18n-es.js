@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.es = {
     "listen · type · role-play": "escuchar · escribir · diálogos",
     "Could not load. Check your connection.": "No se pudo cargar. Revisa tu conexión.",
     "A new version is ready. Reload to continue.": "Hay una versión nueva. Recarga para continuar.",
-    "Category": "Categoría"
+    "Category": "Categoría",
+    "⚙ More options": "⚙ Más opciones",
+    "⚙ Fewer options": "⚙ Menos opciones",
+    "Show all options on every screen": "Mostrar todas las opciones en cada pantalla"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Ejercicios"],

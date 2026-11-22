@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.de = {
     "listen · type · role-play": "hören · schreiben · Rollenspiel",
     "Could not load. Check your connection.": "Laden nicht möglich. Prüfe deine Verbindung.",
     "A new version is ready. Reload to continue.": "Eine neue Version ist bereit. Lade neu, um weiterzumachen.",
-    "Category": "Kategorie"
+    "Category": "Kategorie",
+    "⚙ More options": "⚙ Mehr Optionen",
+    "⚙ Fewer options": "⚙ Weniger Optionen",
+    "Show all options on every screen": "Alle Optionen auf jedem Bildschirm anzeigen"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Training"],

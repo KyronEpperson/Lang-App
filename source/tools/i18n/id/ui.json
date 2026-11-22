@@ -5238,6 +5238,27 @@
    "ko": "분류",
    "kind": "label",
    "where": "aria-label of the feedback category chips"
+  },
+  "⚙ More options": {
+   "t": "⚙ Opsi lainnya",
+   "ko": "⚙ 옵션 더 보기",
+   "kind": "label",
+   "context": "short UI label (button, chip or heading); keep it short",
+   "where": "js STR()"
+  },
+  "⚙ Fewer options": {
+   "t": "⚙ Sembunyikan opsi",
+   "ko": "⚙ 옵션 접기",
+   "kind": "label",
+   "context": "short UI label (button, chip or heading); keep it short",
+   "where": "js STR()"
+  },
+  "Show all options on every screen": {
+   "t": "Tampilkan semua opsi di setiap layar",
+   "ko": "모든 화면에서 옵션 전체 표시",
+   "kind": "label",
+   "context": "short UI label (button, chip or heading); keep it short",
+   "where": "js STR()"
   }
  },
  "patterns": {

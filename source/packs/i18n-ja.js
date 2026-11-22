@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.ja = {
     "listen · type · role-play": "聞く · 入力 · ロールプレイ",
     "Could not load. Check your connection.": "読み込めませんでした。接続を確認してください。",
     "A new version is ready. Reload to continue.": "新しいバージョンがあります。再読み込みしてください。",
-    "Category": "カテゴリ"
+    "Category": "カテゴリ",
+    "⚙ More options": "⚙ その他のオプション",
+    "⚙ Fewer options": "⚙ オプションを閉じる",
+    "Show all options on every screen": "すべての画面で全オプションを表示"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],

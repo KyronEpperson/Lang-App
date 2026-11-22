@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 769,
+  "exact": 772,
   "patterns": 272,
   "distinctPatternTemplates": 271
  },
@@ -19,7 +19,7 @@
    "key": "Korean starter",
    "kind": "label",
    "section": "header / nav",
-   "where": "html <small> text",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)"
   },
   {
@@ -331,7 +331,7 @@
    "key": "Deck",
    "kind": "label",
    "section": "practice (static)",
-   "where": "js (top level) <title>",
+   "where": "html <div> @aria-label",
    "context": "form label: choose a deck"
   },
   {
@@ -1018,7 +1018,7 @@
    "key": "Type",
    "kind": "label",
    "section": "feedback tab",
-   "where": "quiz mode chip (verb: type the answer), e.g. \"⌨️ Type EN\"",
+   "where": "js (top level)",
    "context": "a verb meaning \"type on the keyboard\", not \"kind\""
   },
   {
@@ -1118,13 +1118,13 @@
    "key": "Couldn't load feedback right now.",
    "kind": "sentence",
    "section": "feedback tab",
-   "where": "js r() <div>"
+   "where": "js nt() <div>"
   },
   {
    "key": "Try again",
    "kind": "label",
    "section": "feedback tab",
-   "where": "js pass() <button>",
+   "where": "js AGAIN()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -1240,7 +1240,7 @@
    "key": "No feedback yet — be the first.",
    "kind": "sentence",
    "section": "feedback tab",
-   "where": "js roots() <div>"
+   "where": "js lv() <div>"
   },
   {
    "key": "Could not update — are you signed in as admin?",
@@ -1331,7 +1331,7 @@
    "key": "Or type the 6-digit code from the email (works inside the home-screen app):",
    "kind": "fragment",
    "section": "sync / account / sign-in / welcome",
-   "where": "js d() <div>",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
@@ -1363,7 +1363,7 @@
    "key": "Enter the 6-digit code from the email.",
    "kind": "sentence",
    "section": "sync / account / sign-in / welcome",
-   "where": "js code()"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Signed in ✓",
@@ -1493,7 +1493,7 @@
    "key": "Not now",
    "kind": "label",
    "section": "sync / account / sign-in / welcome",
-   "where": "js sh() <button>",
+   "where": "js i()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -1524,7 +1524,7 @@
    "key": "Welcome to Lang App",
    "kind": "label",
    "section": "sync / account / sign-in / welcome",
-   "where": "js w()"
+   "where": "js pl()"
   },
   {
    "key": "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?",
@@ -1672,14 +1672,14 @@
    "key": "New version ready ·",
    "kind": "fragment",
    "section": "sync / account / sign-in / welcome",
-   "where": "js t()",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
    "key": "Reload",
    "kind": "label",
    "section": "sync / account / sign-in / welcome",
-   "where": "js t() <button>",
+   "where": "js t()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -1940,7 +1940,7 @@
    "key": "new",
    "kind": "label",
    "section": "flashcard / review",
-   "where": "html text",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2055,13 +2055,13 @@
    "key": "✨ New card",
    "kind": "label",
    "section": "flashcard / review",
-   "where": "js teach() <div>"
+   "where": "js SPK() <div>"
   },
   {
    "key": "Got it — quiz me",
    "kind": "sentence",
    "section": "flashcard / review",
-   "where": "js teach() <button>"
+   "where": "js goLbl()"
   },
   {
    "key": "Next",
@@ -2155,7 +2155,7 @@
    "key": "🔓 Unlock all",
    "kind": "label",
    "section": "flashcard / review",
-   "where": "js ko() <button>"
+   "where": "js tmp() <button>"
   },
   {
    "key": "Finish 60% of the previous deck to unlock this one.",
@@ -2508,7 +2508,7 @@
    "key": "Start",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js (top level) <title>",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3246,7 +3246,7 @@
    "key": "Set me up",
    "kind": "label",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js tn() <button>"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Travel & getting around",
@@ -3430,7 +3430,7 @@
    "key": "🔓 Unlock all lessons & decks",
    "kind": "sentence",
    "section": "lessons / grammar",
-   "where": "js ko() <button>"
+   "where": "js tmp() <button>"
   },
   {
    "key": "· passed ✓",
@@ -3717,7 +3717,7 @@
    "key": "Su",
    "kind": "label",
    "section": "progress (JS)",
-   "where": "html <span> text",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3745,7 +3745,7 @@
    "key": "Th",
    "kind": "label",
    "section": "progress (JS)",
-   "where": "html <h3> text",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3865,7 +3865,7 @@
    "key": "3D effects off",
    "kind": "label",
    "section": "progress (JS)",
-   "where": "js applyZoom()"
+   "where": "js vs()"
   },
   {
    "key": "Tap again to confirm",
@@ -4052,7 +4052,7 @@
    "key": "Pro",
    "kind": "label",
    "section": "progress (JS)",
-   "where": "html <a> text",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -4192,7 +4192,7 @@
    "key": "good morning",
    "kind": "label",
    "section": "intro / idle overlay",
-   "where": "js x()",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -4279,7 +4279,7 @@
    "key": "What do you want to learn?",
    "kind": "sentence",
    "section": "new engine strings (language home / course switcher / ko-en drills)",
-   "where": "js soon() <h1>"
+   "where": "js nm() <h1>"
   },
   {
    "key": "Coming soon",
@@ -4377,7 +4377,7 @@
    "key": "coming soon",
    "kind": "label",
    "section": "new engine strings (language home / course switcher / ko-en drills)",
-   "where": "js s2()",
+   "where": "js LANGS()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -4434,7 +4434,7 @@
    "key": "Lang App",
    "kind": "label",
    "section": "new engine strings (language home / course switcher / ko-en drills)",
-   "where": "html <button> text",
+   "where": "js (top level) <title>",
    "context": "product name: keep untranslated"
   },
   {
@@ -5293,7 +5293,7 @@
    "key": "Could not load. Check your connection.",
    "kind": "sentence",
    "section": "engine (LL helper)",
-   "where": "toast when a course or interface file cannot be loaded (packMiss)",
+   "where": "js packMiss()",
    "context": "shown as a short toast",
    "source": "engine",
    "optionalFor": [
@@ -5304,7 +5304,7 @@
    "key": "A new version is ready. Reload to continue.",
    "kind": "sentence",
    "section": "engine (LL helper)",
-   "where": "toast when a course or interface file cannot be loaded (packMiss)",
+   "where": "js t()",
    "context": "shown as a short toast",
    "source": "engine",
    "optionalFor": [
@@ -5315,9 +5315,27 @@
    "key": "Category",
    "kind": "label",
    "section": "static html",
-   "where": "aria-label of the feedback category chips (Idea / Bug / Content / Other)",
+   "where": "html <div> @aria-label",
    "context": "screen-reader label",
    "source": "html"
+  },
+  {
+   "key": "⚙ More options",
+   "kind": "label",
+   "section": "added",
+   "where": "html <button> text"
+  },
+  {
+   "key": "⚙ Fewer options",
+   "kind": "label",
+   "section": "added",
+   "where": "js on()"
+  },
+  {
+   "key": "Show all options on every screen",
+   "kind": "sentence",
+   "section": "added",
+   "where": "html <input> text"
   }
  ],
  "patterns": [
@@ -9494,13 +9512,9 @@
     }
    ],
    "regex": "^Now learning (.+) · progress saved per course$",
-   "example": "Now learning 英語 · progress saved per course",
+   "example": "Now learning Hello there · progress saved per course",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language (英語) — Course switched toast (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language (英語) — Course switched toast (LL)"
   },
   {
    "id": "How much {x} do you know?",
@@ -9512,13 +9526,9 @@
     }
    ],
    "regex": "^How much (.+) do you know\\?$",
-   "example": "How much 英語 do you know?",
+   "example": "How much Hello there do you know?",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language — Onboarding question (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   {
    "id": "What do you want {x} for?",
@@ -9530,13 +9540,9 @@
     }
    ],
    "regex": "^What do you want (.+) for\\?$",
-   "example": "What do you want 英語 for?",
+   "example": "What do you want Hello there for?",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language — Onboarding question (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   {
    "id": "type it in {x}",
@@ -9548,13 +9554,9 @@
     }
    ],
    "regex": "^type it in (.+)$",
-   "example": "type it in 英語",
+   "example": "type it in Hello there",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language — Type drill / typed quiz instruction (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language — Type drill / typed quiz instruction (LL)"
   },
   {
    "id": "Type in {x}…",
@@ -9566,13 +9568,9 @@
     }
    ],
    "regex": "^Type in (.+)…$",
-   "example": "Type in 英語…",
+   "example": "Type in Hello there…",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)"
   },
   {
    "id": "Type the {x}, or tap Check again to give up.",
@@ -9584,13 +9582,9 @@
     }
    ],
    "regex": "^Type the (.+), or tap Check again to give up\\.$",
-   "example": "Type the 英語, or tap Check again to give up.",
+   "example": "Type the Hello there, or tap Check again to give up.",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language — Typed quiz empty-submit warning (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language — Typed quiz empty-submit warning (LL)"
   },
   {
    "id": "Planned · {n} more lessons",
@@ -9602,13 +9596,9 @@
     }
    ],
    "regex": "^Planned · (\\d+) more lessons$",
-   "example": "Planned · 6 more lessons",
+   "example": "Planned · 5 more lessons",
    "section": "engine (LL helper)",
-   "context": "{0} = count (always ≥ 1; English uses the plural form even for 1) — Lessons list: planned roadmap heading (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = count (always ≥ 1; English uses the plural form even for 1) — Lessons list: planned roadmap heading (LL)"
   },
   {
    "id": "Best first try {n}% · last {n}% · 1 run",
@@ -9624,13 +9614,9 @@
     }
    ],
    "regex": "^Best first try (\\d+)% · last (\\d+)% · 1 run$",
-   "example": "Best first try 80% · last 60% · 1 run",
+   "example": "Best first try 5% · last 2% · 1 run",
    "section": "engine (LL helper)",
-   "context": "{0},{1} = percent 0–100 — Lesson practice entry, after a run (singular) (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0},{1} = percent 0–100 — Lesson practice entry, after a run (singular) (LL)"
   },
   {
    "id": "Best first try {n}% · last {n}% · {n} runs",
@@ -9650,13 +9636,9 @@
     }
    ],
    "regex": "^Best first try (\\d+)% · last (\\d+)% · (\\d+) runs$",
-   "example": "Best first try 80% · last 60% · 3 runs",
+   "example": "Best first try 5% · last 2% · 3 runs",
    "section": "engine (LL helper)",
-   "context": "{0},{1} = percent; {2} = run count ≥ 2 — Lesson practice entry, after runs (plural; put AFTER the singular pattern or keep both anchored as here) (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0},{1} = percent; {2} = run count ≥ 2 — Lesson practice entry, after runs (plural; put AFTER the singular pattern or keep both anchored as here) (LL)"
   },
   {
    "id": "{n} items · from choosing to typing it yourself",
@@ -9668,13 +9650,9 @@
     }
    ],
    "regex": "^(\\d+) items · from choosing to typing it yourself$",
-   "example": "14 items · from choosing to typing it yourself",
+   "example": "5 items · from choosing to typing it yourself",
    "section": "engine (LL helper)",
-   "context": "{0} = item count (≥ 12 in shipped packs) — Lesson practice entry, before any run (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = item count (≥ 12 in shipped packs) — Lesson practice entry, before any run (LL)"
   },
   {
    "id": "No {x} keyboard? Use tiles",
@@ -9686,13 +9664,9 @@
     }
    ],
    "regex": "^No (.+) keyboard\\? Use tiles$",
-   "example": "No 英語 keyboard? Use tiles",
+   "example": "No Hello there keyboard? Use tiles",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language — Practice runner: tiles toggle (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language — Practice runner: tiles toggle (LL)"
   },
   {
    "id": "Learning {x} 5 minutes a day with Lang App {x}",
@@ -9708,13 +9682,9 @@
     }
    ],
    "regex": "^Learning (.+) 5 minutes a day with Lang App (.+)$",
-   "example": "Learning 英語 5 minutes a day with Lang App 🇺🇸",
+   "example": "Learning Hello there 5 minutes a day with Lang App Good night",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language; {1} = flag emoji — Share sheet text (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language; {1} = flag emoji — Share sheet text (LL)"
   },
   {
    "id": "Learn {x}, 5 minutes a day",
@@ -9726,13 +9696,9 @@
     }
    ],
    "regex": "^Learn (.+), 5 minutes a day$",
-   "example": "Learn 英語, 5 minutes a day",
+   "example": "Learn Hello there, 5 minutes a day",
    "section": "engine (LL helper)",
-   "context": "{0} = target language name in the UI language — Intro animation subtitle (pack courses) (LL)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = target language name in the UI language — Intro animation subtitle (pack courses) (LL)"
   },
   {
    "id": "Coming soon · {n} lessons planned",
@@ -9744,13 +9710,9 @@
     }
    ],
    "regex": "^Coming soon · (\\d+) lessons planned$",
-   "example": "Coming soon · 27 lessons planned",
+   "example": "Coming soon · 5 lessons planned",
    "section": "engine (LL helper)",
-   "context": "{0} = planned lesson count (≥ 12) — Language home step 3 (locked target preview) (language home LLin)",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = planned lesson count (≥ 12) — Language home step 3 (locked target preview) (language home LLin)"
   },
   {
    "id": "day {n} 🔥",
@@ -9762,13 +9724,9 @@
     }
    ],
    "regex": "^day (\\d+) 🔥$",
-   "example": "day 3 🔥",
+   "example": "day 5 🔥",
    "section": "engine (LL helper)",
-   "context": "{0} = streak days — Today streak line when the pack has no greeting gloss (DOM translator (JS-built text))",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = streak days — Today streak line when the pack has no greeting gloss (DOM translator (JS-built text))"
   },
   {
    "id": "Level up! Level {n} · {x} 🎉",
@@ -9784,13 +9742,9 @@
     }
    ],
    "regex": "^Level up! Level (\\d+) · (.+) 🎉$",
-   "example": "Level up! Level 2 · Beginner 初心者 🎉",
+   "example": "Level up! Level 5 · Hello there 🎉",
    "section": "engine (LL helper)",
-   "context": "{0} = level; {1} = level title from the course pack's TITLES (<English> <native>) — Level-up toast for non-Korean courses (DOM translator; Korean side keeps ^레벨 업! Level …) (DOM translator (JS-built text))",
-   "source": "docs/LL-KEYS.md",
-   "optionalFor": [
-    "ko"
-   ]
+   "context": "{0} = level; {1} = level title from the course pack's TITLES (<English> <native>) — Level-up toast for non-Korean courses (DOM translator; Korean side keeps ^레벨 업! Level …) (DOM translator (JS-built text))"
   }
  ]
 }

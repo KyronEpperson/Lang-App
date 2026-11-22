@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.ar = {
     "listen · type · role-play": "استماع · كتابة · لعب أدوار",
     "Could not load. Check your connection.": "تعذر التحميل. التحقق من الاتصال.",
     "A new version is ready. Reload to continue.": "الإصدار الجديد جاهز. إعادة التحميل للمتابعة.",
-    "Category": "الفئة"
+    "Category": "الفئة",
+    "⚙ More options": "⚙ خيارات أكثر",
+    "⚙ Fewer options": "⚙ خيارات أقل",
+    "Show all options on every screen": "إظهار كل الخيارات في كل شاشة"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مهارات"],

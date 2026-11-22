@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.th = {
     "listen · type · role-play": "ฟัง · พิมพ์ · สวมบทบาท",
     "Could not load. Check your connection.": "โหลดไม่สำเร็จ ตรวจสอบการเชื่อมต่อ",
     "A new version is ready. Reload to continue.": "มีเวอร์ชันใหม่แล้ว โหลดใหม่เพื่อใช้งานต่อ",
-    "Category": "หมวดหมู่"
+    "Category": "หมวดหมู่",
+    "⚙ More options": "⚙ ตัวเลือกเพิ่มเติม",
+    "⚙ Fewer options": "⚙ ซ่อนตัวเลือก",
+    "Show all options on every screen": "แสดงตัวเลือกทั้งหมดในทุกหน้าจอ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],

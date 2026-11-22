@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.vi = {
     "listen · type · role-play": "nghe · gõ · nhập vai",
     "Could not load. Check your connection.": "Không tải được. Hãy kiểm tra kết nối mạng.",
     "A new version is ready. Reload to continue.": "Đã có phiên bản mới. Tải lại để tiếp tục.",
-    "Category": "Loại"
+    "Category": "Loại",
+    "⚙ More options": "⚙ Thêm tùy chọn",
+    "⚙ Fewer options": "⚙ Ẩn bớt tùy chọn",
+    "Show all options on every screen": "Hiện mọi tùy chọn trên mọi màn hình"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],

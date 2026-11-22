@@ -769,7 +769,10 @@ LANGAPP_PACKS.i18n.ru = {
     "listen · type · role-play": "аудирование · ввод · ролевая игра",
     "Could not load. Check your connection.": "Не удалось загрузить. Проверь подключение.",
     "A new version is ready. Reload to continue.": "Доступна новая версия. Обнови страницу, чтобы продолжить.",
-    "Category": "Категория"
+    "Category": "Категория",
+    "⚙ More options": "⚙ Ещё настройки",
+    "⚙ Fewer options": "⚙ Скрыть настройки",
+    "Show all options on every screen": "Показывать все настройки на каждом экране"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Тренажёр"],
