@@ -1549,3 +1549,20 @@ Kii: "The app has a lot of buttons and things to read; this is overwhelming for 
 
 ### SV-1 — results
 Visible controls / words, en-es returning user, before → after: Today 14/156 → 7/83; Practice 17/131 → 5/70; Review 22/53 → 7/35; Lessons 28/639 → 28/235 (the controls are the lessons themselves; only the next lesson shows its description); Read 15/52 → 13/25; Progress 32/474 → 9/107; bottom tabs 7 → 5 (Read and Feedback move off the bar; Read is linked from Practice, Feedback from the 🐞 button, and either tab reappears while you are on that page or have unread replies). Korean Practice 27 → 5, Review 21 → 6. "Show all" mode measures exactly as before (14/17/22/28/15/33, 7 tabs). tools/tests/simpletest.js passes: within caps, More options reveals and is remembered and keeps focus, an in-use mode stays visible, Read and Feedback reachable, reply badge shows the tab, Show all restores everything. Harness, fbtest, bugtest, vistest pass; e2e OK on Spanish (6 lessons) and Japanese (4). Three new labels translated into all 14 interface languages.
+
+# Reports #11, #12, #13 (2026-11-22)
+
+## RP-1 — prompt
+#11 (Japanese, Hiragana review): "the answer is shown before I make a selection". Reproduced: the question gives the reading ("o, as in kimono") and every option showed its reading under the letter. Fix: on a letter card no option shows its reading. Check on ten courses that no letter-card quiz shows a reading on an option.
+### RP-1 — results
+0 of 277 letter-card quizzes across en-ja, en-ko, en-ru, en-hi, en-th, en-ar, en-zh, en-te, en-yue show a reading on an option (Spanish has no letter cards).
+
+## RP-2 — prompt
+#12: "add sound when a question is guessed right or wrong". The sounds exist and fire (1 right and 6 wrong chimes counted in the test) but are quiet: peak level 0.09 and 0.07 on sine tones, with the wrong-answer tone low enough to vanish on laptop and phone speakers. Raise both to about 0.2 on a brighter triangle tone.
+### RP-2 — results
+Levels raised (right 0.22, wrong 0.20, triangle). Cannot be heard in a headless test; needs Kii's ear.
+
+## RP-3 — prompt
+#13 (Korean, Hangul vowels review): "after teaching one card it starts the quiz; shouldn't it be teaching 5 cards and then quizzing". Review now teaches new cards five at a time (a counter shows 1/5 … 5/5), then asks those five in mixed order, never starting with the one just shown. A new batch starts only when the last one is mostly learned and accuracy is 70% or better; missed cards still come back within a few cards. Check the order in three courses and keep the 300-answer flow simulation passing.
+### RP-3 — results
+en-ko: T1/5 ㅏ … T5/5 ㅡ, then Q ㅜ ㅡ ㅗ ㅓ ㅏ, a missed card re-shown and re-asked, then the next five. Same shape in en-ja and en-es. Harness updated to click through a batch and to check the load limit at batch start: 94 guards pass, flow simulation passes at 95% and 60%.

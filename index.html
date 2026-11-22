@@ -587,7 +587,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.58.0 · 2026-11-22';
+const APP_VERSION='2.58.1 · 2026-11-22';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1993,7 +1993,7 @@ let actx=null; function tone(f,ms,type){ if(!S.sfx) return; try{ actx=actx||new 
 /* answer sounds: a bright rising two-note chime for right, a soft falling two-note for wrong (gentle, never a buzzer) */
 function chime(notes){ if(!S.sfx) return; try{ actx=actx||new (window.AudioContext||window.webkitAudioContext)(); if(actx.state==='suspended') actx.resume(); const t0=actx.currentTime+0.01; notes.forEach(n=>{ const o=actx.createOscillator(), g=actx.createGain(); o.type=n[3]||'sine'; o.frequency.value=n[0]; const t=t0+n[1]; g.gain.setValueAtTime(0.0001,t); g.gain.exponentialRampToValueAtTime(n[4]||0.09,t+0.015); g.gain.exponentialRampToValueAtTime(0.0001,t+n[2]); o.connect(g); g.connect(actx.destination); o.start(t); o.stop(t+n[2]+0.03); }); }catch(e){} }
 let fxMute=0, fxAt=0; function fxOnce(){ const n=Date.now(); if(n-fxAt<250) return false; fxAt=n; return true; }
-function fxGood(){ if(!fxOnce()) return; buzz(15); chime([[659.25,0,0.22],[987.77,0.09,0.36],[1318.5,0.09,0.3,'sine',0.03]]); fx3('good'); } function fxBad(){ if(!fxOnce()) return; buzz([30,40,30]); chime([[392,0,0.2,'sine',0.07],[311.13,0.13,0.34,'sine',0.07]]); }
+function fxGood(){ if(!fxOnce()) return; buzz(15); chime([[659.25,0,0.24,'triangle',0.22],[987.77,0.09,0.38,'triangle',0.22],[1318.5,0.09,0.32,'sine',0.07]]); fx3('good'); } function fxBad(){ if(!fxOnce()) return; buzz([30,40,30]); chime([[392,0,0.22,'triangle',0.2],[311.13,0.13,0.36,'triangle',0.2]]); }
 function ansFx(ok){ if(ok) fxGood(); else fxBad(); } function fxFlip(el){ tone(520,50); if(el) fx3('flip',el); }
 function confetti(){ if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return; const cv=document.createElement('canvas'); cv.className='confetti'; cv.width=innerWidth; cv.height=innerHeight; document.body.appendChild(cv); const x=ctx2d(cv); const cols=['#c2402f','#2e7d5b','#b7791f','#2f5fa8','#7a3b8f']; const ps=Array.from({length:90},()=>({x:innerWidth/2,y:innerHeight*0.35,vx:(Math.random()-.5)*14,vy:-Math.random()*12-4,r:3+Math.random()*4,c:pick(cols),a:Math.random()*6}));
   let t=0; const step=()=>{ x.clearRect(0,0,cv.width,cv.height); ps.forEach(q=>{ q.vy+=0.35; q.x+=q.vx; q.y+=q.vy; q.a+=0.2; x.save(); x.translate(q.x,q.y); x.rotate(q.a); x.fillStyle=q.c; x.fillRect(-q.r,-q.r/2,q.r*2,q.r); x.restore(); }); if(++t<90) requestAnimationFrame(step); else cv.remove(); }; requestAnimationFrame(step); }
@@ -2871,7 +2871,7 @@ function buildCards(){ const isTag=/^\*tag\*:/.test(deck); if(isTag){ const t=de
 // Review = multiple choice: see the meaning, pick the right Hangul. New cards are taught first, then quizzed.
 let rvTouched=false; // only auto-scroll once the user has started answering (never on page open)
 function rvView(el,toEnd){ try{ if(!el) return; const r=el.getBoundingClientRect(), navH=innerWidth<700?64:8; if(toEnd){ if(r.bottom>innerHeight-navH) window.scrollBy({top:r.bottom-(innerHeight-navH)+8,behavior:'smooth'}); } else if(r.bottom>innerHeight-navH||r.top<60){ window.scrollBy({top:r.top-72,behavior:'smooth'}); } }catch(e){} }
-function renderReviewQ(container, d, c, onAnswer, opt){ opt=opt||{}; /* opt.teachOnly: show the new card and move on (the quiz comes after the whole batch); opt.noTeach: the card was already shown in a batch, so ask at once */ const isH=isScriptDeck(d); const say=c[0].replace(/"/g,'&quot;'); let stage='q', locked=false, ok=false;
+function renderReviewQ(container, d, c, onAnswer, opt){ opt=opt||{}; /* opt.teachOnly: show the new card and move on (the quiz comes after the whole batch); opt.noTeach: the card was already shown in a batch, so ask at once */ const isH=isScriptDeck(d)||soundCard(d,c); /* a letter card: the reading is the question, so no option may show its reading */ const say=c[0].replace(/"/g,'&quot;'); let stage='q', locked=false, ok=false;
   const pool=[]; const seen=new Set([c[0]]); const take=x=>{ if(seen.has(x[0])||x[2]===c[2]) return false; seen.add(x[0]); return true; };
   shuffle(DECKS[d].filter(x=>x!==c)).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); });
   if(pool.length<3){ const extra=[]; names.forEach(n=>{ if(n!==d&&n!==MYDECK&&/^Hangul/.test(n)===/^Hangul/.test(d)) DECKS[n].forEach(x=>extra.push(x)); }); shuffle(extra).forEach(x=>{ if(pool.length<3&&take(x)) pool.push(x); }); }
@@ -2910,12 +2910,15 @@ function rvReset(){ rvMiss={}; rvSeen={}; rvRecent=[]; rvLastNew=-99; rvCount=0;
 function rvLoadCap(){ const l=levelInfo().l; return l<=2?4:l<=5?6:8; }
 function rvAcc(){ const r=(S.rlog||[]).slice(-20); if(r.length<8) return 1; return r.filter(x=>x[2]).length/r.length; }
 function rvLoad(){ let n=0; Object.values(S.cards).forEach(c=>{ if(c&&!c.susp&&(c.box||0)<=1) n++; }); return n; }
-function rvNewOK(){ if(newLeft()<=0) return false; const a=rvAcc(); if(a<0.7) return false; if(rvLoad()>=rvLoadCap()) return false; return rvCount-rvLastNew>=(a>=0.9?3:5); }
+function rvNewOK(){ if(newLeft()<=0) return false; const a=rvAcc(); if(a<0.7) return false; if(rvLoad()>Math.max(1,rvLoadCap()-RV_BATCH)) return false; /* a new batch only once the last one is mostly learned */ return rvCount-rvLastNew>=(a>=0.9?3:5); }
 function rvAhead(){ return new Set(queue.slice(qi).map(x=>ck(x.d,x.c))); }
+const RV_BATCH=5; /* new cards are taught five at a time, then quizzed */
+function rvNewBatch(n){ const ah=rvAhead(), out=[]; const order=(DECKS[deck]&&deck!==MYDECK&&deckUnlocked(deck)?[deck]:[]).concat(PATH.filter(d=>d!==deck)); for(const d of order){ if(!DECKS[d]||!deckUnlocked(d)) continue; for(const c of DECKS[d]){ if(out.length>=n) return out; if(isNew(d,c)&&!ah.has(ck(d,c))) out.push({d,c}); } if(out.length) return out; /* a batch stays inside one deck */ } return out; }
 function rvNextNew(){ const ah=rvAhead(); const order=(DECKS[deck]&&deck!==MYDECK&&deckUnlocked(deck)?[deck]:[]).concat(PATH.filter(d=>d!==deck)); for(const d of order){ if(!DECKS[d]||!deckUnlocked(d)) continue; const c=DECKS[d].find(c=>isNew(d,c)&&!ah.has(ck(d,c))); if(c) return {d,c}; } return null; }
 function rvExtras(n){ const ah=rvAhead(), rec=new Set(rvRecent.slice(-4)), pool=[]; names.forEach(d=>DECKS[d].forEach(c=>{ const st=cardState(d,c); if(!st||st.susp||st.bury===dayNum()) return; /* cards missed often (leeches) stay in this flow: they are the ones that need showing more */ const k=ck(d,c); if(ah.has(k)||rec.has(k)) return; pool.push({d,c,x:1,w:(st.box||1)+1.5*(rvSeen[k]||0)+Math.max(0,st.due-dayNum())/30+Math.random()*0.3}); })); pool.sort((a,b)=>a.w-b.w); return pool.slice(0,n).map(x=>({d:x.d,c:x.c,x:1})); }
 function rvRefill(force){ const ah=rvAhead(); let add=dueQueue().filter(x=>!ah.has(ck(x.d,x.c))).slice(0,10); if(add.length) return add; add=[];
-  const takeNew=()=>{ const nw=rvNextNew(); if(nw){ add.push(nw); rvLastNew=rvCount; } return !!nw; };
+  const takeNew=()=>{ const b=rvNewBatch(Math.max(1,Math.min(RV_BATCH,newLeft()))); if(!b.length) return false; rvLastNew=rvCount; if(b.length===1){ add.push(b[0]); return true; }
+    b.forEach((x,k)=>add.push({d:x.d,c:x.c,teach:1,k,n:b.length})); /* show all of them first… */ let q=shuffle(b.slice()); if(q[0].c===b[b.length-1].c) q.push(q.shift()); /* …then ask them in a mixed order, never starting with the one just shown */ q.forEach(x=>add.push({d:x.d,c:x.c,nt:1})); return true; };
   if(rvNewOK()) takeNew(); add=add.concat(rvExtras(add.length||newLeft()>0?2:5)); if(add.length) return add;
   /* nothing else to show. First re-ask a recent card (so a beginner sees: new, new, review, review, new…), then let the every-3rd / every-5th spacing give way, and only when the page would otherwise be empty ignore the load and accuracy limits. The daily cap on new cards always holds. */
   const keep=rvRecent; rvRecent=rvRecent.slice(-1); add=rvExtras(2); rvRecent=keep; if(add.length) return add;
@@ -2923,14 +2926,14 @@ function rvRefill(force){ const ah=rvAhead(); let add=dueQueue().filter(x=>!ah.h
   if(force&&newLeft()>0) takeNew(); return add; }
 function rvFill(min,force){ let guard=0; while(queue.length-qi<min&&guard++<6){ const add=rvRefill(force); if(!add.length) break; add.forEach(x=>queue.push(x)); } return queue.length-qi; }
 function gradeEarly(d,c){ /* right answer on a card that was not due: count it, keep its box and due date */ memoClear(); const k=ck(d,c), st=S.cards[k]; lastGrade={k, prev:st?JSON.parse(JSON.stringify(st)):null, xp:S.xp, day:S.days[dkey()]||0}; if(st){ st.seen++; st.last=Date.now(); } if(fxMute>Date.now()) fxMute=0; else ansFx(true); award(1); }
-function rvStep(ok){ /* grade the card at queue[qi] and move on; returns what undo needs */ const it=queue[qi], d=it.d, c=it.c, k=ck(d,c), wasNew=isNew(d,c), early=!wasNew&&!isDue(d,c), prevMiss=rvMiss[k]||0; let ins=null;
+function rvStep(ok){ /* grade the card at queue[qi] and move on; returns what undo needs */ if(queue[qi].teach){ qi++; return {k:null,ins:null,prevMiss:0,ok:null,skip:1}; } /* a teaching slide is not an answer */ const it=queue[qi], d=it.d, c=it.c, k=ck(d,c), wasNew=isNew(d,c), early=!wasNew&&!isDue(d,c), prevMiss=rvMiss[k]||0; let ins=null;
   const again=(gap,r)=>{ rvFill(gap+1); ins={d,c,r}; queue.splice(Math.min(queue.length,qi+1+gap),0,ins); };
   if(!ok){ grade(d,c,false,wasNew); rvMiss[k]=2; again(3,1); /* r: when it comes back, show the card again before asking */ }
   else if(prevMiss>0){ rvMiss[k]=prevMiss-1; if(rvMiss[k]>0){ gradeEarly(d,c); again(6); } else grade(d,c,true,false); }
   else if(early) gradeEarly(d,c); else grade(d,c,true,wasNew);
   if(ok) rvSeen[k]=(rvSeen[k]||0)+1; rvRecent.push(k); if(rvRecent.length>12) rvRecent.shift(); rvCount++; qi++;
   return {k,ins,prevMiss,ok}; }
-function rvUndo(u){ if(!undoGrade()) return false; if(u.ins){ const i=queue.indexOf(u.ins); if(i>=0) queue.splice(i,1); } rvMiss[u.k]=u.prevMiss; if(u.ok) rvSeen[u.k]=Math.max(0,(rvSeen[u.k]||1)-1); rvRecent.pop(); rvCount--; qi--; return true; }
+function rvUndo(u){ if(u.skip){ qi--; return true; } if(!undoGrade()) return false; if(u.ins){ const i=queue.indexOf(u.ins); if(i>=0) queue.splice(i,1); } rvMiss[u.k]=u.prevMiss; if(u.ok) rvSeen[u.k]=Math.max(0,(rvSeen[u.k]||1)-1); rvRecent.pop(); rvCount--; qi--; return true; }
 function renderCardsStage(){
   if(cleanup){cleanup();cleanup=null;}
   if(qi>=queue.length&&cardsMode!=='browse') rvFill(1,true);
@@ -2946,7 +2949,7 @@ function renderCardsStage(){
   { const cur=queue[qi], dueN=queue.slice(qi).filter(x=>!x.x&&!isNew(x.d,x.c)).length; $('left').textContent=(cur.x?'Extra practice':isNew(cur.d,cur.c)?'New card':dueN+' due')+(all?'':' · '+ln+'/'+total+' learned'); }
   const {d,c}=queue[qi];
     cleanup=renderReviewQ(stage,d,c,ok=>{ if(ok===null){ qi++; chips(); renderCardsStage(); return; } const u=rvStep(ok); chips(); renderCardsStage();
-    offerUndo($('left').parentElement, ()=>{ if(rvUndo(u)){ chips(); renderCardsStage(); toast('Undone.'); } }); },{reteach:!!queue[qi].r});
+    offerUndo($('left').parentElement, ()=>{ if(rvUndo(u)){ chips(); renderCardsStage(); toast('Undone.'); } }); },Object.assign({reteach:!!queue[qi].r},queue[qi].teach?{teachOnly:true,k:queue[qi].k,n:queue[qi].n,last:queue[qi].k===queue[qi].n-1}:queue[qi].nt?{noTeach:true}:{}));
 }
 $('search').addEventListener('input', e=>{ const q=e.target.value.trim().toLowerCase(); const out=$('searchOut'); if(q.length<2){ out.hidden=true; out.innerHTML=''; return; }
   const hits=[]; names.forEach(d=>DECKS[d].forEach(c=>{ if(hits.length<12&&(c.slice(0,3).some(x=>x.toLowerCase().includes(q))||((S.notes||{})[ck(d,c)]||'').toLowerCase().includes(q))) hits.push({d,c}); }));
