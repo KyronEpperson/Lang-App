@@ -1,16 +1,16 @@
 PROGRESS (updated 2026-11-21 21:48 CST)
-Course: en-cs   Branch: cursor/en-cs   PR: not opened yet
-Done: research brief, research, pron tool, lead note, decisions
-Next: briefs
-Checks: respell.js --test is ok 84. byt is biht, být is beet, řeka is RZHEH-kah, Dobrý den is DOH-bree dehn. 25 lessons, 17 decks. Roadmap fields use the cs- prefix. traps is empty. profile.json parses.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7
+Course: en-cs   Branch: cursor/en-cs   PR: https://github.com/KyronEpperson/Lang-App/pull/10
+Done: research brief, research, pron tool, lead note, decisions, briefs
+Next: decks and lessons
+Checks: respell.js --test is ok 84. byt is biht, být is beet, řeka is RZHEH-kah, Dobrý den is DOH-bree dehn. 25 lessons, 17 decks. Roadmap fields use the cs- prefix. traps is empty. profile.json parses. mk_briefs.py: lessons 9, 8, 8 and decks 9, 8.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py
 State: WORKING
 
 # Lead note: en-cs stage 1
 
 ## Where the work is
 
-Branch `cursor/en-cs`. No pull request. Files: `docs/profiles/en-cs.md`, `tools/target/cs/profile.json`, `tools/target/cs/respell.js`, this note. Nothing else. No lessons, no decks, no decision record, no app edit, no pack edit, no other course. Not committed.
+Branch `cursor/en-cs`. Draft PR https://github.com/KyronEpperson/Lang-App/pull/10. Files: `docs/profiles/en-cs.md`, `tools/target/cs/profile.json`, `tools/target/cs/respell.js`, this note. Nothing else. No lessons, no decks, no decision record, no app edit, no pack edit, no other course. Not committed.
 
 ## What to do
 

@@ -20,7 +20,7 @@ Status values: `queued` · `stage 1` · `waiting for decisions` · `writing` · 
 | 6 | no | Norwegian | Ready | queued | de | Bokmål only, East Norwegian (Oslo) pronunciation; mention once that Nynorsk and dialects exist. Pitch accent; three genders in Bokmål with the common-gender option: state one house rule. |
 | 7 | da | Danish | Ready | queued | de | Spelling is a poor guide to sound (soft d, stød, swallowed endings): the pron aid matters more than in any other Nordic course; say plainly how good it can be. |
 | 8 | pl | Polish | Ready | queued | ru | Seven cases: decide how many reach A1. Consonant clusters and the ś / sz contrast for the pron aid. Formal Pan / Pani. |
-| 9 | cs | Czech | Ready | stage 1 | ru | Seven cases; ř; vowel length marks change meaning (accents should probably count). Formal vy. |
+| 9 | cs | Czech | Ready | writing | ru | Seven cases; ř; vowel length marks change meaning (accents should probably count). Formal vy. PR #10. |
 | 10 | ro | Romanian | Ready | queued | it | ș and ț with the comma below; accept the cedilla forms ş ţ as the same letters if the app needs a fold (list it). Enclitic definite article (casa). |
 | 11 | uk | Ukrainian | Ready | queued | ru | Cyrillic like Russian, but different letters (і, ї, є, ґ) and different sounds; do not copy Russian pron rules. The apostrophe in м'ясо: accept straight and typographic. Політе ви as in the roadmap. |
 | 12 | bg | Bulgarian | Ready | queued | ru | Cyrillic; no cases but a postposed article; stress is not written and moves. |
