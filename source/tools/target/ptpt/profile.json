@@ -1,0 +1,303 @@
+{
+  "target": "ptpt",
+  "nameEn": "Portuguese (Portugal)",
+  "self": "Português (Portugal)",
+  "ttsLang": "pt-PT",
+  "brand": "Portugal",
+  "accents": true,
+  "keys": "á â ã à é ê í ó ô õ ú ç",
+  "greet": [
+    [
+      "Boa noite",
+      "Good night (you're up late)"
+    ],
+    [
+      "Bom dia",
+      "Good morning"
+    ],
+    [
+      "Boa tarde",
+      "Good afternoon"
+    ],
+    [
+      "Boa noite",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?:(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*(?:uhy|uhw|ayw|ehw|eew|ooy|awy|ah|uh|ih|eh|ay|ee|aw|oh|oo|ai|oy|ow)(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*|(?:(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*(?:uhy|uhw|ayw|ehw|eew|ooy|awy|ah|uh|ih|eh|ay|ee|aw|oh|oo|ai|oy|ow)(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*-)*(?:GH|KH|LH|NH|SH|ZH|CH|[BDFGJKLMNPRSTVWYZ])*(?:UHY|UHW|AYW|EHW|EEW|OOY|AWY|AH|UH|IH|EH|AY|EE|AW|OH|OO|AI|OY|OW)(?:GH|KH|LH|NH|SH|ZH|CH|[BDFGJKLMNPRSTVWYZ])*(?:-(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*(?:uhy|uhw|ayw|ehw|eew|ooy|awy|ah|uh|ih|eh|ay|ee|aw|oh|oo|ai|oy|ow)(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*)+|(?:(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*(?:uhy|uhw|ayw|ehw|eew|ooy|awy|ah|uh|ih|eh|ay|ee|aw|oh|oo|ai|oy|ow)(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*-)+(?:GH|KH|LH|NH|SH|ZH|CH|[BDFGJKLMNPRSTVWYZ])*(?:UHY|UHW|AYW|EHW|EEW|OOY|AWY|AH|UH|IH|EH|AY|EE|AW|OH|OO|AI|OY|OW)(?:GH|KH|LH|NH|SH|ZH|CH|[BDFGJKLMNPRSTVWYZ])*)(?: (?:(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*(?:uhy|uhw|ayw|ehw|eew|ooy|awy|ah|uh|ih|eh|ay|ee|aw|oh|oo|ai|oy|ow)(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*|(?:(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*(?:uhy|uhw|ayw|ehw|eew|ooy|awy|ah|uh|ih|eh|ay|ee|aw|oh|oo|ai|oy|ow)(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*-)*(?:GH|KH|LH|NH|SH|ZH|CH|[BDFGJKLMNPRSTVWYZ])*(?:UHY|UHW|AYW|EHW|EEW|OOY|AWY|AH|UH|IH|EH|AY|EE|AW|OH|OO|AI|OY|OW)(?:GH|KH|LH|NH|SH|ZH|CH|[BDFGJKLMNPRSTVWYZ])*(?:-(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*(?:uhy|uhw|ayw|ehw|eew|ooy|awy|ah|uh|ih|eh|ay|ee|aw|oh|oo|ai|oy|ow)(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*)+|(?:(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*(?:uhy|uhw|ayw|ehw|eew|ooy|awy|ah|uh|ih|eh|ay|ee|aw|oh|oo|ai|oy|ow)(?:gh|kh|lh|nh|sh|zh|ch|[bdfgjklmnprstvwyz])*-)+(?:GH|KH|LH|NH|SH|ZH|CH|[BDFGJKLMNPRSTVWYZ])*(?:UHY|UHW|AYW|EHW|EEW|OOY|AWY|AH|UH|IH|EH|AY|EE|AW|OH|OO|AI|OY|OW)(?:GH|KH|LH|NH|SH|ZH|CH|[BDFGJKLMNPRSTVWYZ])*))*$",
+  "targetScript": "[A-Za-zÁÂÃÀÉÊÍÓÔÕÚÇáâãàéêíóôõúç]",
+  "voiceMatch": "^pt-PT",
+  "standingRule": {
+    "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bgender\\b|\\bsingular\\b|\\bplural (?:noun|adjective|article|ending|form|verb)|\\bcontractions?\\b|\\bverb ending|\\bmatch(?:es)? the subject|(?:\\beu|\\btu|\\bele|\\bela|\\bnós|\\bvocês|\\beles|\\belas)[ -]form",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "vowels",
+      "title": "Sounds of Portugal: reduced vowels and final s",
+      "roadmap": "ptpt-vowels",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "nasals",
+      "title": "Nasal sounds, lh, nh and the written accents",
+      "roadmap": "ptpt-nasals",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings and courtesy",
+      "roadmap": "ptpt-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "address",
+      "title": "Saying you: tu, o senhor, a senhora",
+      "roadmap": "ptpt-address",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "intro",
+      "title": "Introducing yourself",
+      "roadmap": "ptpt-intro",
+      "deck": "About me"
+    },
+    {
+      "id": "articles",
+      "title": "Gender, plural and articles",
+      "roadmap": "ptpt-articles",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "ser",
+      "title": "ser for who you are",
+      "roadmap": "ptpt-ser",
+      "deck": "About me"
+    },
+    {
+      "id": "present",
+      "title": "Present tense, with the tu form",
+      "roadmap": "ptpt-present",
+      "deck": "Work and study"
+    },
+    {
+      "id": "questions",
+      "title": "Questions with é que, and não",
+      "roadmap": "ptpt-questions",
+      "deck": "Questions and small words"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers and prices in euros",
+      "roadmap": "ptpt-numbers",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "estar",
+      "title": "estar, and ser or estar",
+      "roadmap": "ptpt-estar",
+      "deck": "Feelings and states"
+    },
+    {
+      "id": "ter-haver",
+      "title": "ter and há",
+      "roadmap": "ptpt-ter-haver",
+      "deck": "Traps for English speakers"
+    },
+    {
+      "id": "family",
+      "title": "Family and possessives with the article",
+      "roadmap": "ptpt-family",
+      "deck": "People and family"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives and demonstratives",
+      "roadmap": "ptpt-adjectives",
+      "deck": "People and family"
+    },
+    {
+      "id": "irregular",
+      "title": "Irregular present",
+      "roadmap": "ptpt-irregular",
+      "deck": "Shopping and paying"
+    },
+    {
+      "id": "contractions",
+      "title": "Contractions",
+      "roadmap": "ptpt-contractions",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "time",
+      "title": "The time and the days",
+      "roadmap": "ptpt-time",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "progressive",
+      "title": "estar a + infinitive",
+      "roadmap": "ptpt-progressive",
+      "deck": "Work and study"
+    },
+    {
+      "id": "routine",
+      "title": "Daily routine and clitic position",
+      "roadmap": "ptpt-routine",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "home",
+      "title": "Home and things",
+      "roadmap": "ptpt-home",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "likes",
+      "title": "Likes and reasons",
+      "roadmap": "ptpt-likes",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "food",
+      "title": "Ordering food and drink",
+      "roadmap": "ptpt-food",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "compliments",
+      "title": "Compliments and thanks",
+      "roadmap": "",
+      "deck": "Compliments"
+    },
+    {
+      "id": "city",
+      "title": "Around town",
+      "roadmap": "ptpt-city",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "roadmap": "ptpt-transport",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "directions",
+      "title": "Directions",
+      "roadmap": "ptpt-directions",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "plans",
+      "title": "Plans and obligations",
+      "roadmap": "ptpt-plans",
+      "deck": "Plans and obligations"
+    },
+    {
+      "id": "past",
+      "title": "The past: pretérito perfeito",
+      "roadmap": "ptpt-past",
+      "deck": "Likes and free time"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "The vowel key, stress capitals, final s as sh, and the two r sounds."
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Bom dia, boa tarde, boa noite, thanks, and excuse me."
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Name, origin, and ser for who a person is."
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "Family nouns, the article with the possessive, and adjective agreement."
+    },
+    {
+      "name": "Numbers, time and prices",
+      "group": "Everyday words",
+      "desc": "dezasseis and the other teen numbers, euros, and the clock."
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Articles on food nouns, and ordering a bica, a galão, or a pastel de nata."
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms, the phone, and getting up, with the pronoun after the verb."
+    },
+    {
+      "name": "Shopping and paying",
+      "group": "Everyday words",
+      "desc": "querer, poder, ir and dar in a café or a shop."
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places, perto, and left and right."
+    },
+    {
+      "name": "Travel and transport",
+      "group": "Out and about",
+      "desc": "Contractions, and the bus, the train and the metro."
+    },
+    {
+      "name": "Work and study",
+      "group": "Out and about",
+      "desc": "Present endings, including tu, and estar a + infinitive."
+    },
+    {
+      "name": "Feelings and states",
+      "group": "Conversation",
+      "desc": "estar for a state or a place, against ser."
+    },
+    {
+      "name": "Likes and free time",
+      "group": "Conversation",
+      "desc": "gostar de, porque, and the same deck the past lesson reuses."
+    },
+    {
+      "name": "Questions and small words",
+      "group": "Conversation",
+      "desc": "onde, o que, não, and como está."
+    },
+    {
+      "name": "Plans and obligations",
+      "group": "Conversation",
+      "desc": "ir + infinitive, ter de, and poder."
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "ter for age and hunger, há, and obrigado agreeing with the speaker."
+    },
+    {
+      "name": "Compliments",
+      "group": "Watch out",
+      "desc": "Parabéns, muito bem, and the informal fixe."
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}
