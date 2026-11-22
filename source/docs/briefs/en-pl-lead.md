@@ -1,16 +1,16 @@
 PROGRESS (updated 2026-11-21 19:32 CST)
-Course: en-pl   Branch: cursor/en-pl   PR: not opened yet
-Done: research brief, research, pron tool, lead note, decisions
-Next: briefs
-Checks: respell.js matched the lead-note table (proszę, prosię, pięć, Pan jest z Krakowa, muzyka, jesteśmy). 27 lessons, 18 decks. profile.json parses. Four cases drilled.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7
+Course: en-pl   Branch: cursor/en-pl   PR: https://github.com/KyronEpperson/Lang-App/pull/9
+Done: research brief, research, pron tool, lead note, decisions, briefs
+Next: decks and lessons
+Checks: respell.js matched the lead-note table (proszę, prosię, pięć, Pan jest z Krakowa, muzyka, jesteśmy). 27 lessons, 18 decks. profile.json parses. Four cases drilled. mk_briefs.py: lessons 9, 9, 9 and decks 9, 9.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py
 State: WORKING
 
 # Lead note: en-pl stage 1
 
 ## Where the work is
 
-Branch `cursor/en-pl`. No pull request.
+Branch `cursor/en-pl`. Draft PR https://github.com/KyronEpperson/Lang-App/pull/9.
 
 Files: `docs/profiles/en-pl.md`, `tools/target/pl/profile.json`, `tools/target/pl/respell.js`, this note.
 
