@@ -1,4 +1,52 @@
-# Lang App master build plan (draft for Kii, 2026-11-21)
+# Lang App master build plan (v2, 2026-11-22)
+
+**Goal (Kii, 2026-11-22): every language in the app can learn every other one. 61 languages = 3,660 courses.**
+
+The v1 plan (three tracks, 106 courses) is kept below for reference; where the two disagree, this section wins.
+
+## 0. The middle path
+
+Two kinds of course, one engine:
+
+| | Hand-tuned course | Standard (assembled) course |
+|---|---|---|
+| What it is | Written for one pair: explanations aimed at that learner's mistakes, shortcuts from what they already know, pronunciation aid in their script | Put together from two reusable halves (below) |
+| Where | The pairs people actually take: every English ↔ X pair, the Korean / Japanese / Chinese triangle, close relatives (Spanish ↔ Portuguese, Hindi ↔ Urdu, the Nordic languages ...). About 150–200 pairs | All other pairs |
+| Label in the app | none | "Standard course" (wording to decide) |
+| Upgrade | n/a | Becomes hand-tuned when the visitor log shows real learners on that pair |
+
+The two halves:
+- **Target half** (one per language taught, 61): cards, example sentences, dialogues, exercises, audio, the lesson order, and the grammar points stated in neutral terms. Never mentions the learner's language.
+- **Native half** (one per learner language, 61): the interface dictionary, the meaning of every card and sentence, and the explanation of every grammar point, in that language.
+- **Pair layer** (hand-tuned pairs only): "what you already know", false friends, error-zone explanations, the pronunciation aid in the learner's script.
+
+Any pair = target half + native half (+ pair layer). 61 + 61 pieces of work cover 3,660 courses.
+
+## 0.1 Order of work
+
+1. **Finish what is running:** Czech, Amharic, Bengali; core-word, Flirting and Compliments decks (queue C). New languages stay paused after that.
+2. **Engine:** a course may have neither side English (today one side must be). Pack format split into target half, native half, pair layer; the existing 42 courses keep working unchanged.
+3. **Pilot:** Japanese → Korean hand-tuned, and one assembled pair from the same halves (for example Spanish → Korean) to see how a standard course feels. Kii reviews both before anything fans out.
+4. **Convert the 29 live languages** into target halves (mostly mechanical: the English-speaker course minus its English-specific explanations) and write native halves for them. Unlocks 29 × 28 = 812 pairs. Meanings are the bulk: about 900 cards plus sentences per target, in each native language.
+5. **Hand-tune in demand order:** remaining X → English, the Korean / Japanese / Chinese triangle, close-relative pairs.
+6. **Add the remaining 32 languages** one at a time (each adds about 120 pairs). Community-first languages still wait for a yes from their language bodies.
+
+## 0.2 Quality rules for assembled courses
+
+- A target half is cold-reviewed before any standard course uses it: an error there repeats in 60 courses.
+- A native half is validated like the interface dictionaries (every key present, placeholders intact) plus a sampled back-translation check.
+- No native speaker has checked any course yet; a target half reviewed by a native speaker is marked as such, and that mark shows in the app.
+- Standard courses carry a "report a problem" prompt on every card and lesson, feeding the Feedback page.
+
+## 0.3 Decisions for Kii
+
+1. The label for assembled courses ("Standard course"? no label?).
+2. Which assembled pair to pilot next to Japanese → Korean.
+3. Whether the 29-language conversion (step 4) starts before or after the Cursor reset.
+
+---
+
+# v1 plan (2026-11-21), for reference
 
 Three tracks: (A) the rest of English → other languages, (B) other languages → English, (C) Asian languages → Korean, Japanese and Chinese. Plus how a Cursor subscription can take real work off the main build.
 
