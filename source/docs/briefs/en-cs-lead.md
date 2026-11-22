@@ -1,10 +1,12 @@
-PROGRESS (updated 2026-11-21 22:15 CST)
+PROGRESS (updated 2026-11-21 22:18 CST)
 Course: en-cs   Branch: cursor/en-cs   PR: https://github.com/KyronEpperson/Lang-App/pull/10
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A
-Next: deck B, lesson 1, lesson 2, lesson 3
-Checks: deck A node --check passed. 9 decks, 157 cards, 28 dialogues, 18 examples, 9 patterns. Partial validator reported pass. Four profile samples also sit in deck B's list (dobrý, chléb, Děkuji, Jsem student) and were kept on both sides. Full course not run.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B
+Next: lesson 1, lesson 2, lesson 3
+Checks: deck B node --check passed. 8 decks, 144 cards, 24 dialogues, 16 examples, 9 patterns. Partial validator reported pass. Shared profile samples kept: Děkuji, Jsem student, pět korun. Full course not run.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high
 State: WORKING
+
+Deck B, tool output kept. na náměstí shipped as NAH naahm-nyehs-tyee. The writer believes NAH naah-mnyehs-tyee, with the m of mě opening the next syllable as in město. A native should also hear: Je pět hodin yeh pyehd HOH-dyihn, Pak doleva pahg DOH-leh-vah, Moc děkuji mohdz DYEH-koo-yih, v obchodě, Hezký den, Dobrou chuť, Na zdraví, Gratuluju, To je hezké.
 
 Deck A, tool output kept. A native should hear: To je váš bratr vaahzh, Jsem z Plzně SPLLZ-nyeh, S dovolením ZDOH-voh-leh-nyeem, Není zač zahch, to náměstí NAAHM-nyehs-tyee, Mluvíte anglicky AHN-glihts-kih, and the pair Jedna káva / Jednu kávu. domu is do domu and z domu. The place form is v domě. domů is going home. Jmenuji se Eva is the I-form. The vy question is Jak se jmenujete.
 
