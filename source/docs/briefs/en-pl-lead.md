@@ -1,12 +1,12 @@
-PROGRESS (updated 2026-11-21 20:02 CST)
+PROGRESS (updated 2026-11-21 20:08 CST)
 Course: en-pl   Branch: cursor/en-pl   PR: https://github.com/KyronEpperson/Lang-App/pull/9
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B
-Next: lesson 1, lesson 2, lesson 3
-Checks: deck B node --check passed. 9 decks, 155 cards, 27 dialogues, 18 examples, 9 patterns. Partial validator reported no lines about these files. Deck A was already saved. Full course not run. Lexicon fixes wait until the lesson writers finish.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 2
+Next: lesson 1, lesson 3
+Checks: lesson 2 node --check passed. 9 lessons, 126 practice items. Partial validator reported no lines about this file. Full course not run. Lexicon fixes wait until lesson 1 and lesson 3 finish.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 2 = grok-4.7-high
 State: WORKING
 
-Deck A, tool output kept. A native should hear: Sześć złotych shehzh'j' ZWOH-tihkh, Dziesięć złotych JYEH-shyehnyj' ZWOH-tihkh, Dzień dobry państwu PAHNY-stfoo, To jest mój mąż mohNsh, żółw zhoowf, barszcz bahrshch, Wrocławia vrohts-WAH-vyah, Wrocławiu vrohts-WAH-vyoo. muzyka and uniwersytet use the careful stress the profile asks for. Deck B, tool output kept: Nie znam Anny nyeh znahm (stress may belong on nie), Teraz jest trzecia TSHEH-chyah (trzy and czy should match), Mam trzydzieści lat tshih, Kilo chleba and Kilo sera KYEE-loh. Also hear Pierwsza w prawo, Druga w lewo, Miska żurku, Chodzę na pocztę, and Idę na dworzec.
+Deck A, tool output kept. A native should hear: Sześć złotych shehzh'j' ZWOH-tihkh, Dziesięć złotych JYEH-shyehnyj' ZWOH-tihkh, Dzień dobry państwu PAHNY-stfoo, To jest mój mąż mohNsh, żółw zhoowf, barszcz bahrshch, Wrocławia vrohts-WAH-vyah, Wrocławiu vrohts-WAH-vyoo. muzyka and uniwersytet use the careful stress the profile asks for. Deck B, tool output kept: Nie znam Anny nyeh znahm (stress may belong on nie), Teraz jest trzecia TSHEH-chyah (trzy and czy should match), Mam trzydzieści lat tshih, Kilo chleba and Kilo sera KYEE-loh. Also hear Pierwsza w prawo, Druga w lewo, Miska żurku, Chodzę na pocztę, and Idę na dworzec. Lesson 2, tool output kept: To jest Wrocław toh yehst FROHTS-wahf. The writer would keep the w voiced (VROHTS). The tool's line is what the lesson uses.
 
 # Lead note: en-pl stage 1
 
