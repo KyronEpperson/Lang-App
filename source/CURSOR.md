@@ -84,6 +84,10 @@ State: WORKING | PAUSED: <reason> | READY FOR REVIEW | GIVEN UP: <reason>
 6. Before continuing a paused course, check that every file listed under `Done:` exists and loads (run `gen.js`; with `HOLD` in place it writes to a temp file). Redo any role whose file is missing or broken.
 7. Carry on in autonomous mode.
 
+## Queue C: additions to finished courses
+
+One job may add to finished courses: `docs/briefs/core-words.md` (core-word decks for each part of speech, a parts-of-speech coverage table, and a Flirting deck). It says exactly which new files you may add and that you may only append deck entries to `profile.json`. Everything else in a finished course stays read-only. Do this queue after the courses in progress and before starting new X → English courses.
+
 ## Never touch what is already built
 
 Finished courses (every folder in `tools/target/` and `tools/content/` that exists on `main`, and everything in `packs/`) are read-only for you. No fixes, no "small improvements", even for an obvious error. Report it instead.
