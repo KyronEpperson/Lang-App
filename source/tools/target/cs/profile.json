@@ -1,0 +1,284 @@
+{
+  "target": "cs",
+  "nameEn": "Czech",
+  "self": "čeština",
+  "ttsLang": "cs-CZ",
+  "brand": "Čeština",
+  "accents": false,
+  "keys": "á č ď é ě í ň ó ř š ť ú ů ý ž",
+  "greet": [
+    [
+      "Dobrou noc",
+      "Good night (you're up late, or you're leaving)"
+    ],
+    [
+      "Dobré ráno",
+      "Good morning"
+    ],
+    [
+      "Dobré odpoledne",
+      "Good afternoon"
+    ],
+    [
+      "Dobrý večer",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?:(?:(?:(?:RZH|RSH|TS|DZ|CH|SH|ZH|KH|DY|TY|NY|J|B|D|F|G|H|K|L|M|N|P|R|S|T|V|Y|Z)*(?:AAH|EHH|OHH|OOH|OHW|EHW|OW|AH|EH|EE|IH|OH|OO|RR|LL)(?:RZH|RSH|TS|DZ|CH|SH|ZH|KH|DY|TY|NY|J|B|D|F|G|H|K|L|M|N|P|R|S|T|V|Y|Z)*)(?:-(?:(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*(?:aah|ehh|ohh|ooh|ohw|ehw|ow|ah|eh|ee|ih|oh|oo|rr|ll)(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*))*|(?:(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*(?:aah|ehh|ohh|ooh|ohw|ehw|ow|ah|eh|ee|ih|oh|oo|rr|ll)(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*)(?:-(?:(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*(?:aah|ehh|ohh|ooh|ohw|ehw|ow|ah|eh|ee|ih|oh|oo|rr|ll)(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*))*))(?: (?:(?:(?:RZH|RSH|TS|DZ|CH|SH|ZH|KH|DY|TY|NY|J|B|D|F|G|H|K|L|M|N|P|R|S|T|V|Y|Z)*(?:AAH|EHH|OHH|OOH|OHW|EHW|OW|AH|EH|EE|IH|OH|OO|RR|LL)(?:RZH|RSH|TS|DZ|CH|SH|ZH|KH|DY|TY|NY|J|B|D|F|G|H|K|L|M|N|P|R|S|T|V|Y|Z)*)(?:-(?:(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*(?:aah|ehh|ohh|ooh|ohw|ehw|ow|ah|eh|ee|ih|oh|oo|rr|ll)(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*))*|(?:(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*(?:aah|ehh|ohh|ooh|ohw|ehw|ow|ah|eh|ee|ih|oh|oo|rr|ll)(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*)(?:-(?:(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*(?:aah|ehh|ohh|ooh|ohw|ehw|ow|ah|eh|ee|ih|oh|oo|rr|ll)(?:rzh|rsh|ts|dz|ch|sh|zh|kh|dy|ty|ny|j|b|d|f|g|h|k|l|m|n|p|r|s|t|v|y|z)*))*))*$",
+  "targetScript": "[A-Za-zÁČĎÉĚÍŇÓŘŠŤÚŮÝŽáčďéěíňóřšťúůýž]",
+  "standingRule": {
+    "keywords": "\\b(?:masculine|feminine|neuter) (?:form|ending|agreement)s?\\b|\\bagrees? with\\b|\\bverb ending\\b|\\b(?:I|you|he|she|we|they|vy|ty|on|ona|ono|my|oni)-form\\b",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "alphabet",
+      "title": "Alphabet and the háček",
+      "roadmap": "cs-alphabet",
+      "deck": "Háček letters"
+    },
+    {
+      "id": "vowels",
+      "title": "Long and short vowels",
+      "roadmap": "cs-vowels",
+      "deck": "Long and short vowels"
+    },
+    {
+      "id": "r-ch",
+      "title": "ř, ch, and the end of a word",
+      "roadmap": "cs-r-ch",
+      "deck": "ř and ch"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings: vy and ty",
+      "roadmap": "cs-greetings",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "byt",
+      "title": "být: jsem, jste, je",
+      "roadmap": "cs-byt",
+      "deck": "About me"
+    },
+    {
+      "id": "intro",
+      "title": "Introducing yourself",
+      "roadmap": "cs-intro",
+      "deck": "About me"
+    },
+    {
+      "id": "gender",
+      "title": "Gender: ten, ta, to",
+      "roadmap": "cs-gender",
+      "deck": "People and family"
+    },
+    {
+      "id": "verbs",
+      "title": "Three verb groups",
+      "roadmap": "cs-verbs",
+      "deck": "Everyday verbs"
+    },
+    {
+      "id": "mit",
+      "title": "mít and mít rád",
+      "roadmap": "cs-mit",
+      "deck": "Everyday verbs"
+    },
+    {
+      "id": "negation",
+      "title": "Questions and ne-",
+      "roadmap": "cs-negation",
+      "deck": "Everyday verbs"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers and the koruna",
+      "roadmap": "cs-numbers",
+      "deck": "Numbers and the koruna"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives: dobrý, dobrá, dobré",
+      "roadmap": "cs-adjectives",
+      "deck": "Describing people and things"
+    },
+    {
+      "id": "accusative",
+      "title": "The object form",
+      "roadmap": "cs-accusative",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "restaurant",
+      "title": "Ordering and paying",
+      "roadmap": "cs-restaurant",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "family",
+      "title": "Family, jobs, and possessives",
+      "roadmap": "cs-family",
+      "deck": "People and family"
+    },
+    {
+      "id": "likes",
+      "title": "líbí se mi and chutná mi",
+      "roadmap": "cs-likes",
+      "deck": "Compliments"
+    },
+    {
+      "id": "modals",
+      "title": "moct, muset, chtít",
+      "roadmap": "cs-modals",
+      "deck": "Work and study"
+    },
+    {
+      "id": "time",
+      "title": "Time and days",
+      "roadmap": "cs-time",
+      "deck": "Time and days"
+    },
+    {
+      "id": "motion",
+      "title": "jít and jet",
+      "roadmap": "cs-motion",
+      "deck": "Getting around"
+    },
+    {
+      "id": "locative",
+      "title": "The place form",
+      "roadmap": "cs-locative",
+      "deck": "Around town"
+    },
+    {
+      "id": "directions",
+      "title": "Asking the way",
+      "roadmap": "cs-directions",
+      "deck": "Around town"
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping and clothes",
+      "roadmap": "cs-shopping",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "past",
+      "title": "The past",
+      "roadmap": "cs-past",
+      "deck": "Everyday verbs"
+    },
+    {
+      "id": "future",
+      "title": "The future",
+      "roadmap": "cs-future",
+      "deck": "Getting around"
+    },
+    {
+      "id": "traps",
+      "title": "Traps for English speakers",
+      "roadmap": "",
+      "deck": "Traps for English speakers"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Háček letters",
+      "group": "Sounds and spelling",
+      "desc": "The letters with a háček, plus c and ch"
+    },
+    {
+      "name": "Long and short vowels",
+      "group": "Sounds and spelling",
+      "desc": "Vowel length, and the beat on the first syllable"
+    },
+    {
+      "name": "ř and ch",
+      "group": "Sounds and spelling",
+      "desc": "ř, the letter ch, a voiced consonant at the end of a word, and syllabic r and l"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "People",
+      "desc": "What you say to a stranger, and the hello you only recognize"
+    },
+    {
+      "name": "About me",
+      "group": "People",
+      "desc": "Your name, where you are from, and what you do"
+    },
+    {
+      "name": "People and family",
+      "group": "People",
+      "desc": "Gender, family, and the possessive you produce"
+    },
+    {
+      "name": "Describing people and things",
+      "group": "People",
+      "desc": "Adjective endings for masculine, feminine and neuter"
+    },
+    {
+      "name": "Everyday verbs",
+      "group": "Everyday life",
+      "desc": "The three verb groups, mít, ne-, and the past"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday life",
+      "desc": "Ordering, and the object form of food and drink"
+    },
+    {
+      "name": "Numbers and the koruna",
+      "group": "Everyday life",
+      "desc": "Numbers, and jedna koruna, dvě koruny, pět korun"
+    },
+    {
+      "name": "Shopping and clothes",
+      "group": "Everyday life",
+      "desc": "Clothes, sizes, and asking the price"
+    },
+    {
+      "name": "Time and days",
+      "group": "Everyday life",
+      "desc": "The clock, the days, and on Monday"
+    },
+    {
+      "name": "Around town",
+      "group": "Out and about",
+      "desc": "Where something is, in the place form"
+    },
+    {
+      "name": "Getting around",
+      "group": "Out and about",
+      "desc": "On foot, by transport, and the future of those verbs"
+    },
+    {
+      "name": "Work and study",
+      "group": "Out and about",
+      "desc": "Can, have to, want, and the university"
+    },
+    {
+      "name": "Compliments",
+      "group": "Kind words and traps",
+      "desc": "A kind word about food, a day or a person, and the answer"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Kind words and traps",
+      "desc": "False friends, calques, and the koruna after five"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}
