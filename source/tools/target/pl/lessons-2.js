@@ -77,7 +77,7 @@ module.exports = [
 {{ex:Dwadzieścia pięć złotych.|dvah-JYEH-sh'chyah pyehnyj' ZWOH-tihkh|Twenty-five złoty.}}
 <h3>The words</h3>
 <p>One to ten: <b>jeden, dwa, trzy, cztery, pięć, sześć, siedem, osiem, dziewięć, dziesięć</b>. Eleven is <b>jedenaście</b>, twelve is <b>dwanaście</b>, and the teens continue with <b>-naście</b>. Fifteen is <b>piętnaście</b>. Twenty is <b>dwadzieścia</b>, thirty <b>trzydzieści</b>, forty <b>czterdzieści</b>, fifty <b>pięćdziesiąt</b>.</p>
-<p><b>Złoty</b> is masculine, so "one" is <b>jeden</b>, not <b>jedna</b>. <b>Kawa</b> is feminine: <b>jedna kawa</b>, <b>dwie kawy</b>. <b>Dwa</b> is the masculine form of "two", and <b>dwie</b> is the feminine form. <b>Trzy</b> and <b>cztery</b> stay as they are for coffee and for złoty. For two male students you may hear <b>Dwóch studentów</b>. Recognize it. You produce <b>dwa</b> and <b>dwie</b>.</p>
+<p><b>Złoty</b> is masculine, so "one" is <b>jeden</b>, not <b>jedna</b>. <b>Kawa</b> is feminine: <b>jedna kawa</b>, <b>dwie kawy</b>. <b>Dwa</b> goes with a masculine noun that is not a person, such as <b>złoty</b>, and with a neuter noun. <b>Dwie</b> is the feminine form. <b>Trzy</b> and <b>cztery</b> stay as they are for coffee and for złoty. For two male students you may hear <b>Dwóch studentów</b>. Recognize it. You produce <b>dwa</b> and <b>dwie</b>.</p>
 {{ex:Jedna kawa.|YEHD-nah KAH-vah|One coffee.}}
 {{ex:Dwie kawy.|dvyeh KAH-vih|Two coffees.}}
 <h3>The question, and one small coin</h3>
@@ -194,10 +194,10 @@ module.exports = [
     ],
     practice: [
       ["mc", "I have a brother =", "Mam brata.", "Mam brat.", "Mam bratem.", "Mam brać.", "Brata is the accusative singular of a masculine person."],
-      ["mc", "Coffee, please. (use poproszę)", "Poproszę kawę.", "Poproszę kawa.", "Poproszę kawe.", "Poproszę kawą.", "The accusative ending on kawa is -ę."],
+      ["mc", "Coffee, please. (use poproszę)", "Poproszę kawę.", "Poproszę kawa.", "Poproszę kawe.", "Poproszę kawą.", "The accusative ending on kawa is -ę.", "!strict"],
       ["mc", "I am writing a letter =", "Piszę list.", "Piszę lista.", "Piszę listę.", "Piszę listu.", "A masculine thing stays looking like the base form, and it is still the accusative case."],
       ["mc", "I see my brother =", "Widzę mojego brata.", "Widzę mój brat.", "Widzę moja brata.", "Widzę mojego brat.", "The person and mój both take the accusative ending."],
-      ["mc", "I am reading a book =", "Czytam książkę.", "Czytam książka.", "Czytam książke.", "Czytam książek.", "Książka is feminine, so the accusative ending is książkę."],
+      ["mc", "I am reading a book =", "Czytam książkę.", "Czytam książka.", "Czytam książke.", "Czytam książek.", "Książka is feminine, so the accusative ending is książkę.", "!strict"],
       ["or", "I have a brother (start with mam)", "Mam brata", "brat", "Brata is the accusative singular."],
       ["or", "A good coffee, please (use poproszę, start with poproszę dobrą)", "Poproszę dobrą kawę", "kawa", "Dobrą kawę takes the accusative ending."],
       ["or", "I am writing a letter (start with piszę)", "Piszę list", "listę", "List looks like the base form and is still the accusative case."],
@@ -231,7 +231,7 @@ module.exports = [
 <p>Two coffees stay <b>dwie kawy</b> after <b>poproszę</b>, the same words you used for the number. <b>Pierogi</b> is already a plural, and the accusative looks like that plural: <b>Poproszę pierogi</b>. Cheese, <b>ser</b>, is a masculine thing, so an order is <b>Poproszę ser</b>.</p>
 <h3>With milk, the bill, and the wish</h3>
 <p><b>Kawa z mlekiem</b> is "coffee with milk". The ending on <b>mlekiem</b> means "with". The jobs lesson explains that ending. <b>Z Polski</b>, which you already say, is origin, not "with". You can use <b>z mlekiem</b> as a phrase now.</p>
-<p><b>Rachunek, proszę</b> asks for the bill. Before a meal, the wish is <b>Smacznego</b>. The answer is <b>Dziękuję</b>. You do not answer by repeating <b>Smacznego</b>, and <b>Dobranoc</b> is not a table word.</p>
+<p><b>Rachunek, proszę</b> asks for the bill. Before a meal, the wish is <b>Smacznego</b>. When a waiter says it, the answer is <b>Dziękuję</b>. <b>Dobranoc</b> is not a table word.</p>
 {{ex:Kawa z mlekiem.|KAH-vah z MLEH-kyehm|Coffee with milk.}}
 {{ex:Rachunek, proszę.|rah-KHOO-nehk PROH-sheh|The bill, please.}}
 {{ex:Smacznego.|smahch-NEH-goh|Enjoy your meal.}}
@@ -239,14 +239,14 @@ module.exports = [
 `,
     check: [
       ["Tea for me.", ["Dla mnie herbata.", "Dla mnie herbatę.", "Dla mnie herbatą.", "Dla mnie herbate."], 1, "The drink takes the accusative ending: herbatę."],
-      ["Someone says Smacznego before the meal. You answer…", ["Dziękuję.", "Smacznego.", "Proszę.", "Dobranoc."], 0, "The answer to Smacznego is Dziękuję. Dobranoc is not for the table."],
+      ["A waiter says Smacznego before the meal. You answer…", ["Dziękuję.", "Smacznego.", "Proszę.", "Dobranoc."], 0, "When a waiter says Smacznego, the answer is Dziękuję. Dobranoc is not for the table."],
       ["I like żurek.", ["Lubię żurka.", "Lubi żurek.", "Lubię żurek.", "Lubię żurkę."], 2, "Żurek is a masculine thing, so the accusative case looks like the base form."]
     ],
     practice: [
-      ["mc", "Coffee, please. (use poproszę)", "Poproszę kawę.", "Poproszę kawa.", "Poproszę kawe.", "Poproszę kawą.", "Kawę is the accusative ending."],
-      ["mc", "Tea for me =", "Dla mnie herbatę.", "Dla mnie herbata.", "Dla mnie herbatą.", "Dla mnie herbate.", "Herbatę is the accusative singular."],
+      ["mc", "Coffee, please. (use poproszę)", "Poproszę kawę.", "Poproszę kawa.", "Poproszę kawe.", "Poproszę kawą.", "Kawę is the accusative ending.", "!strict"],
+      ["mc", "Tea for me =", "Dla mnie herbatę.", "Dla mnie herbata.", "Dla mnie herbatą.", "Dla mnie herbate.", "Herbatę is the accusative singular.", "!strict"],
       ["mc", "The bill, please =", "Rachunek, proszę.", "Rachunku, proszę.", "Smacznego, proszę.", "Kawa, proszę.", "Rachunek names the bill. Smacznego is the wish before a meal."],
-      ["mc", "Someone says Smacznego. You answer…", "Dziękuję.", "Smacznego.", "Dobranoc.", "Proszę.", "The answer to the meal wish is Dziękuję."],
+      ["mc", "A waiter says Smacznego. You answer…", "Dziękuję.", "Smacznego.", "Dobranoc.", "Proszę.", "When a waiter says Smacznego, the answer is Dziękuję. Dobranoc is not a table word."],
       ["mc", "A beer, please. (use poproszę)", "Poproszę piwo.", "Poproszę piwa.", "Poproszę piwem.", "Poproszę piwę.", "Piwo is neuter, so the accusative case looks like the base form."],
       ["or", "Coffee, please (use poproszę, start with poproszę)", "Poproszę kawę", "kawa", "Kawę is the accusative ending."],
       ["or", "Tea for me (start with dla mnie)", "Dla mnie herbatę", "herbata", "Herbatę is the feminine form in the accusative singular."],
@@ -265,7 +265,7 @@ module.exports = [
     blurb: "Use the two -ę patterns for like, do, write and drink, and keep pan in the third person.",
     deck: "Home and routine",
     body: `
-<p>Not every verb ends in <b>-am</b> for "I". <b>Mam</b>, <b>mieszkam</b> and <b>czytam</b> do. Two more patterns end in <b>-ę</b>. Giving every verb <b>-am</b> is the mistake: <b>lubiam</b> and <b>pijam</b> are not Polish.</p>
+<p>Not every verb ends in <b>-am</b> for "I". <b>Mam</b>, <b>mieszkam</b> and <b>czytam</b> do. Two more patterns end in <b>-ę</b>. Giving every verb <b>-am</b> is the mistake. <b>lubiam</b> is not a Polish word. <b>pijam</b> is not the present of <b>pić</b>.</p>
 <h3>Two patterns</h3>
 <div class="tbl"><table><tr><th></th><th>robić, do</th><th>pisać, write</th></tr>
 <tr><td>I</td><td class="k">robię</td><td class="k">piszę</td></tr>
@@ -278,7 +278,7 @@ module.exports = [
 {{ex:Lubię kawę.|LOO-byeh KAH-veh|I like coffee.}}
 {{ex:Co pani robi?|tsoh PAH-nyee ROH-byee|What do you do? (to a woman)}}
 {{ex:Pan pisze list.|pahn PYEE-sheh leest|You are writing a letter. (to a man)}}
-{{ex:Pijesz kawę.|PYEE-yehsh KAH-veh|You drink coffee? (a friend says this)}}
+{{ex:Pijesz kawę.|PYEE-yehsh KAH-veh|You drink coffee. (a friend says this)}}
 <h3>The object is the accusative you know</h3>
 <p><b>Piszę list</b> keeps the masculine thing looking like the base form. <b>Piję wodę</b> and <b>Lubię kawę</b> take the feminine <b>-ę</b>. <b>Anna lubi pierogi</b>. The verb agrees with Anna: <b>lubi</b>, not <b>lubię</b>. <b>Pijemy wodę</b> is "we drink water". They, <b>oni</b> or <b>one</b>, share <b>piją</b> in the present. Gender shows up on <b>mój</b> and on adjectives, not on this present ending.</p>
 {{ex:Piszę list.|PYEE-sheh leest|I'm writing a letter.}}
@@ -297,8 +297,8 @@ module.exports = [
     practice: [
       ["mc", "I like coffee =", "Lubię kawę.", "Lubiam kawę.", "Lubi kawę.", "Lubisz kawę.", "The I ending is lubię, not an -am form."],
       ["mc", "You like coffee. (to a man)", "Pan lubi kawę.", "Pan lubisz kawę.", "Pan lubię kawę.", "Pan lubiam kawę.", "The verb agrees with pan: lubi."],
-      ["mc", "I am writing a letter =", "Piszę list.", "Pisze list.", "Piszę lista.", "Pisam list.", "Piszę is the I form. The accusative case of list looks like the base form."],
-      ["mc", "I am drinking water =", "Piję wodę.", "Pijam wodę.", "Piję woda.", "Pije wodę.", "Pić takes piję for I, and woda takes the accusative ending wodę."],
+      ["mc", "I am writing a letter =", "Piszę list.", "Pisze list.", "Piszę lista.", "Pisam list.", "Piszę is the I form. The accusative case of list looks like the base form.", "!strict"],
+      ["mc", "I am drinking water =", "Piję wodę.", "Pijam wodę.", "Piję woda.", "Pije wodę.", "Pić takes piję for I, and woda takes the accusative ending wodę.", "!strict"],
       ["mc", "What do you do? (to a woman)", "Co pani robi?", "Co pani robisz?", "Co pani robię?", "Co pani robisz kawę?", "The verb agrees with pani: robi."],
       ["or", "I like coffee (start with lubię)", "Lubię kawę", "lubiam", "Kawę is the accusative ending."],
       ["or", "You are writing a letter (to a woman, start with pani pisze)", "Pani pisze list", "piszę", "The verb agrees with pani. Piszę is the I form, and the ogonek is the only difference.", "!strict"],
@@ -346,9 +346,9 @@ module.exports = [
     ],
     practice: [
       ["mc", "I'm a doctor. (a man)", "Jestem lekarzem.", "Jestem lekarz.", "Jestem lekarką.", "Jestem lekarza.", "Lekarzem is the instrumental ending for a man."],
-      ["mc", "I'm a doctor. (a woman)", "Jestem lekarką.", "Jestem lekarka.", "Jestem lekarzem.", "Jestem lekarkę.", "Lekarką is the feminine form in the instrumental case."],
-      ["mc", "She is a student =", "Ona jest studentką.", "Ona jest studentem.", "Ona jest studentka.", "Ona jest studentę.", "Studentką is the feminine form in the instrumental case."],
-      ["mc", "This is my job =", "To jest moja praca.", "To jest moją pracą.", "To jest mój praca.", "To jest moja pracą.", "After to jest the noun stays in the base form, and moja is the feminine form."],
+      ["mc", "I'm a doctor. (a woman)", "Jestem lekarką.", "Jestem lekarka.", "Jestem lekarzem.", "Jestem lekarkę.", "Lekarką is the feminine form in the instrumental case.", "!strict"],
+      ["mc", "She is a student =", "Ona jest studentką.", "Ona jest studentem.", "Ona jest studentka.", "Ona jest studentę.", "Studentką is the feminine form in the instrumental case.", "!strict"],
+      ["mc", "This is my job =", "To jest moja praca.", "To jest moją pracą.", "To jest mój praca.", "To jest moja pracą.", "After to jest the noun stays in the base form, and moja is the feminine form.", "!strict"],
       ["mc", "Coffee with milk =", "Kawa z mlekiem.", "Kawa z mleko.", "Jestem z mlekiem.", "Kawa z mleka.", "Z mlekiem means with. Z Polski is origin, not with."],
       ["or", "I'm a student (a man, start with jestem)", "Jestem studentem", "student", "Studentem is the instrumental ending."],
       ["or", "I'm a doctor (a woman, start with jestem)", "Jestem lekarką", "lekarka", "Lekarką is the feminine form in the instrumental case, and the mark on ą counts.", "!strict"],
@@ -396,7 +396,7 @@ module.exports = [
     ],
     practice: [
       ["mc", "This is my dad =", "To jest mój tata.", "To jest moja tata.", "To jest mój tatę.", "To jest mojego tata.", "Tata takes the masculine form mój."],
-      ["mc", "This is my mom =", "To jest moja mama.", "To jest mój mama.", "To jest moja mamę.", "To jest moją mama.", "Mama takes the feminine form moja."],
+      ["mc", "This is my mom =", "To jest moja mama.", "To jest mój mama.", "To jest moja mamę.", "To jest moją mama.", "Mama takes the feminine form moja.", "!strict"],
       ["mc", "I am twenty =", "Mam dwadzieścia lat.", "Jestem dwadzieścia lat.", "Jest mi dwadzieścia lat.", "Mam dwadzieścia lata.", "Age is mam plus lat. Jest mi is not the age line."],
       ["mc", "You ask a man his age =", "Ile pan ma lat?", "Ile masz lat?", "Ile pan masz lat?", "Ile pan jesteś lat?", "You produce pan plus ma. Masz is the friend line."],
       ["mc", "My sister is tall =", "Moja siostra jest wysoka.", "Mój siostra jest wysoka.", "Moja siostra jest wysoki.", "Moja siostra jest wysokie.", "Moja and wysoka are the feminine form."],
@@ -443,7 +443,7 @@ module.exports = [
     practice: [
       ["mc", "I drink coffee in the morning =", "Rano piję kawę.", "Rano pijam kawę.", "Rano piję kawa.", "Rano pijesz kawę.", "The ending stays piję, and kawę is the accusative ending."],
       ["mc", "I always read =", "Zawsze czytam.", "Zawsze czyta.", "Zawsze czytasz.", "Zawsze czytamam.", "Zawsze does not change the I ending czytam."],
-      ["mc", "I often write a letter =", "Często piszę list.", "Często pisam list.", "Często piszę lista.", "Często pisze list.", "Piszę is the I form, and list is the accusative case."],
+      ["mc", "I often write a letter =", "Często piszę list.", "Często pisam list.", "Często piszę lista.", "Często pisze list.", "Piszę is the I form, and list is the accusative case.", "!strict"],
       ["mc", "I never drink =", "Nigdy nie piję.", "Nigdy piję.", "Nigdy nie pijam.", "Nigdy nie pijesz.", "Nigdy pairs with nie, and the verb stays piję."],
       ["mc", "You read in the morning. (to a woman)", "Rano pani czyta.", "Rano pani czytasz.", "Rano pani czytam.", "Rano pani czytać.", "The verb agrees with pani: czyta."],
       ["or", "I drink coffee in the morning (start with rano piję)", "Rano piję kawę", "kawa", "Kawę is the accusative ending."],

@@ -29,7 +29,7 @@ Jestem lekarką. | Co pani robi? | Jestem lekarką. | What do you do? / I'm a do
 To jest moja praca. | To jest moja praca. | A pan jest studentem? | This is my job. / And are you a student?
 `;
 exports.EXAMPLES = `
-kasza | To jest kasza, a to jest Kasia. | This is buckwheat groats, and this is Kasia.
+kasza | To jest kasza, a to jest Kasia. | This is kasha, groats, and this is Kasia.
 Warszawa | To jest Warszawa, a to jest Kraków. | This is Warsaw, and this is Kraków.
 Dobranoc. | Dobranoc, do jutra. | Good night, see you tomorrow.
 Do widzenia. | Do widzenia i miłego dnia. | Goodbye, and have a nice day.

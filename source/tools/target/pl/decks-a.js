@@ -3,7 +3,7 @@ module.exports = {
   "Sounds and spelling": `
 proszę | PROH-sheh | Please. You're welcome. | sz is hard sh.
 prosię | PROH-shyeh | a piglet | si before a vowel is shy. Neuter. The pair with proszę.
-kasza | KAH-shah | buckwheat groats | Feminine. Hard sz. The pair with Kasia.
+kasza | KAH-shah | kasha, groats | Feminine. Hard sz. Grain groats, not only buckwheat. The pair with Kasia.
 Kasia | KAH-shyah | Kasia | A woman's name. si before a vowel is shy.
 cześć | chehsh'ch' | Hi. Bye. To a friend. | ś and ć are soft. The apostrophe adds no vowel.
 łódka | WOOT-kah | a boat | Feminine. ł is w. d before k is t.
@@ -49,8 +49,8 @@ Masz czas? | mahsh chahs | Do you have time? | A friend says this. The learner a
 Czy pan ma czas? | chih pahn mah chahs | Do you have time? (to a man) | Produce this. pan plus third person ma.
 Czy pani ma czas? | chih PAH-nyee mah chahs | Do you have time? (to a woman) | Produce this. pani plus third person.
 Dziękuję panu. | jyehng-KOO-yeh PAH-noo | Thank you. (to a man) | You will hear this with a man. Not a pattern to copy.
-Możemy mówić sobie na ty? | moh-ZHEH-mih MOO-vyeech' SOH-byeh nah tih | Can we use first names? | Recognize. The offer to switch. Do not answer in ty.
-Dzień dobry państwu. | jyehny DOH-brih PAHNY-stfoo | Good morning. (to a group) | Recognize. państwo is the formal plural.
+Możemy mówić sobie na ty? | moh-ZHEH-mih MOO-vyeech' SOH-byeh nah tih | Can we say ty to each other? | Recognize. The offer to switch. Do not answer in ty.
+Dzień dobry państwu. | jyehny DOH-brih PAHNY-stfoo | Good morning or afternoon. (to a group) | Recognize. państwo is the formal plural. Dzień dobry covers both.
 Proszę pana. | PROH-sheh PAH-nah | Excuse me, sir. | To get a man's attention.
 Proszę pani. | PROH-sheh PAH-nyee | Excuse me, ma'am. | To get a woman's attention.
 Jak pan ma na imię? | yahk pahn mah nah EE-myeh | What's your name? (to a man) | pan plus third person ma.

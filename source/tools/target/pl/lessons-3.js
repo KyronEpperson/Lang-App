@@ -11,7 +11,7 @@ module.exports = [
 <p>One trip on foot uses <b>iść</b>. You are on the way: <b>idę</b>. Speaking to a man, you say <b>pan idzie</b>. Speaking to a woman, you say <b>pani idzie</b>. A friend may say <b>idziesz</b>. You only recognize that line. You never type it. A habit on foot uses <b>chodzić</b>. The usual walk is <b>chodzę</b>, and you say <b>pan chodzi</b> or <b>pani chodzi</b>.</p>
 {{ex:Idę do sklepu.|EE-deh doh SKLEH-poo|I'm going to the shop.}}
 {{ex:Chodzę do pracy.|KHOH-dzeh doh PRAH-tsih|I go to work.}}
-{{ex:Pan idzie do sklepu.|pahn EE-jyeh doh SKLEH-poo|You are going to the shop.}}
+{{ex:Pan idzie do sklepu.|pahn EE-jyeh doh SKLEH-poo|You are going to the shop (to a man).}}
 <h3>By bus, car, or train</h3>
 <p>One trip by transport uses <b>jechać</b>. The I form is <b>jadę</b>, and you say <b>pan jedzie</b> or <b>pani jedzie</b>. The habit uses <b>jeździć</b>. The I form is <b>jeżdżę</b>, and you say <b>pan jeździ</b> or <b>pani jeździ</b>. The verb already means by transport. You do not add a word for the bus or the train. Habit words you know, <b>często</b> and <b>zawsze</b>, take <b>chodzę</b> or <b>jeżdżę</b>. The trip happening now takes <b>idę</b> or <b>jadę</b>.</p>
 {{ex:Jadę do Krakowa.|YAH-deh doh krah-KOH-vah|I'm going to Kraków.}}
@@ -40,9 +40,9 @@ module.exports = [
       ["or", "I'm going to the shop (on foot, this one trip). Start with Idę.", "Idę do sklepu", "sklep chodzę", "Sklepu is the genitive ending after do."],
       ["or", "My sister is going to Gdańsk (by transport, this one trip). Start with Moja.", "Moja siostra jedzie do Gdańska", "Mój idzie", "Moja is the feminine form."],
       ["or", "I often go to Warsaw (by transport). Start with Często.", "Często jeżdżę do Warszawy", "jadę", "A habit by transport uses jeżdżę, not jadę."],
-      ["fi", "___ do sklepu.", "I'm going to the shop (on foot, this one trip).", "Idę", "Chodzę|Jadę|Jeżdżę", "One trip on foot is idę. The other three verbs are a habit or a ride."],
-      ["fi", "Często ___ do Warszawy.", "I often go to Warsaw (by transport).", "jeżdżę", "jadę|idę|chodzę", "Często takes the habit verb. By transport, that verb is jeżdżę."],
-      ["fi", "Moja siostra jedzie do ___.", "My sister is going to Gdańsk (by transport, this one trip).", "Gdańska", "Gdańsk|Gdanska|Gdańsku", "Gdańska is the genitive ending after do.", "!strict"],
+      ["fi", "__ do sklepu.", "I'm going to the shop (on foot, this one trip).", "Idę", "Chodzę|Jadę|Jeżdżę", "One trip on foot is idę. The other three verbs are a habit or a ride."],
+      ["fi", "Często __ do Warszawy.", "I often go to Warsaw (by transport).", "jeżdżę", "jadę|idę|chodzę", "Często takes the habit verb. By transport, that verb is jeżdżę."],
+      ["fi", "Moja siostra jedzie do __.", "My sister is going to Gdańsk (by transport, this one trip).", "Gdańska", "Gdańsk|Gdanska|Gdańsku", "Gdańska is the genitive ending after do.", "!strict"],
       ["ty", "I'm going home (on foot, this one trip). Start with Idę.", "Idę do domu", "iść · do domu · this one trip", "dom chodzę", "Domu is the genitive ending after do."],
       ["ty", "My brother goes to work on foot as a habit. Start with Mój.", "Mój brat chodzi do pracy", "mój · chodzić · praca", "moja idzie", "Mój is the masculine form."],
       ["ty", "You are going to the shop, on foot, this trip, to a man. Start with Pan.", "Pan idzie do sklepu", "pan · iść · third person", "idziesz sklep", "Pan takes idzie. Do not type the friend form idziesz."]
@@ -88,9 +88,9 @@ module.exports = [
       ["or", "I know Kasia. Start with Znam.", "Znam Kasię", "Kasia Kasie Kasi", "Kasię is the accusative ending.", "!strict"],
       ["or", "My brother knows Anna. Start with Mój.", "Mój brat zna Annę", "Moja Anny Anne", "Mój is the masculine form.", "!strict"],
       ["or", "I know how to read. Start with Umiem.", "Umiem czytać", "Wiem Znam", "A skill is umiem plus the plain verb czytać."],
-      ["fi", "Znam ___.", "I know Kasia.", "Kasię", "Kasia|Kasi|Kasie", "Kasię is the accusative. Kasia is the base form, and Kasi is a later case.", "!strict"],
-      ["fi", "___ czytać.", "I know how to read.", "Umiem", "Wiem|Znam|Umiesz", "A skill takes umiem. Umiesz is the friend form, and you do not type it."],
-      ["fi", "Znam ___.", "I know Warsaw.", "Warszawę", "Warszawa|Warszawy|Warszawe", "Warszawę is the accusative ending of the feminine city.", "!strict"],
+      ["fi", "Znam __.", "I know Kasia.", "Kasię", "Kasia|Kasi|Kasie", "Kasię is the accusative. Kasia is the base form, and Kasi is a later case.", "!strict"],
+      ["fi", "__ czytać.", "I know how to read.", "Umiem", "Wiem|Znam|Umiesz", "A skill takes umiem. Umiesz is the friend form, and you do not type it."],
+      ["fi", "Znam __.", "I know Warsaw.", "Warszawę", "Warszawa|Warszawy|Warszawe", "Warszawę is the accusative ending of the feminine city.", "!strict"],
       ["ty", "I know Kraków. Start with Znam.", "Znam Kraków", "znać · Kraków · keep this shape", "Krakowa wiem", "Kraków looks unchanged, and it is still the accusative singular.", "!strict"],
       ["ty", "My sister knows Marek. Start with Moja.", "Moja siostra zna Marka", "moja · znać · Marek", "mój Markę", "Moja is the feminine form."],
       ["ty", "You do not know the fact. Start with Nie.", "Nie wiem", "nie · wiedzieć · a fact", "znam umiem", "A missing fact is nie wiem. Znam is a person, and umiem is a skill."]
@@ -136,9 +136,9 @@ module.exports = [
       ["or", "On Wednesday I read. Start with W.", "W środę czytam", "środzie srode", "Środę is the accusative ending.", "!strict"],
       ["or", "It's eight o'clock. Start with Jest.", "Jest ósma", "ósmy osma ósmą", "Ósma is the feminine form and agrees with godzina.", "!strict"],
       ["or", "On Tuesday I drink coffee. Start with We.", "We wtorek piję kawę", "w wtorku", "Tuesday uses we, and wtorek keeps the shape of the base word."],
-      ["fi", "Jest ___.", "It's eight o'clock.", "ósma", "osma|ósmy|ósmą", "Ósma is the feminine form and agrees with godzina.", "!strict"],
-      ["fi", "W ___ czytam.", "On Wednesday I read.", "środę", "środzie|srode|środa", "Środę is the accusative ending. Środzie is not the day.", "!strict"],
-      ["fi", "We ___ piję kawę.", "On Tuesday I drink coffee.", "wtorek", "wtorku|wtorka|środę", "Tuesday after we keeps the base shape, wtorek."],
+      ["fi", "Jest __.", "It's eight o'clock.", "ósma", "osma|ósmy|ósmą", "Ósma is the feminine form and agrees with godzina.", "!strict"],
+      ["fi", "W __ czytam.", "On Wednesday I read.", "środę", "środzie|srode|środa", "Środę is the accusative ending. Środzie is not the day.", "!strict"],
+      ["fi", "We __ piję kawę.", "On Tuesday I drink coffee.", "wtorek", "wtorku|wtorka|środę", "Tuesday after we keeps the base shape, wtorek."],
       ["ty", "It's one o'clock. Start with Jest.", "Jest pierwsza", "pierwsza · godzina", "pierwszy osiem", "Pierwsza is the feminine form and agrees with godzina."],
       ["ty", "On Saturday I'm at home. Start with W.", "W sobotę jestem w domu", "sobota · w domu", "sobocie sobota", "Sobotę is the accusative singular.", "!strict"],
       ["ty", "What time is it? Use the short question this course teaches.", "Która godzina?", "która · godzina · the short question", "który jest", "Która agrees with godzina, and this course uses the short question.", "!strict"]
@@ -187,9 +187,9 @@ module.exports = [
       ["or", "I live in Warsaw. Start with Mieszkam.", "Mieszkam w Warszawie", "Warszawa do", "Warszawie is the locative ending."],
       ["or", "I'm at the station. Start with Jestem.", "Jestem na dworcu", "w dworzec", "Dworcu is the locative singular."],
       ["or", "My sister is at home. Start with Moja.", "Moja siostra jest w domu", "Mój do", "Moja is the feminine form."],
-      ["fi", "Mieszkam w ___.", "I live in Kraków.", "Krakowie", "Kraków|Krakowa|Krakow", "Krakowie is the locative ending after w."],
-      ["fi", "Jestem na ___.", "I'm at the post office.", "poczcie", "poczta|poczty|pocztę", "Poczcie is the locative after na."],
-      ["fi", "Piszę o ___.", "I'm writing about the exam.", "egzaminie", "egzamin|egzaminu|egzamina", "Egzaminie is the locative ending after o."],
+      ["fi", "Mieszkam w __.", "I live in Kraków.", "Krakowie", "Kraków|Krakowa|Krakow", "Krakowie is the locative ending after w."],
+      ["fi", "Jestem na __.", "I'm at the post office.", "poczcie", "poczta|poczty|pocztę", "Poczcie is the locative after na."],
+      ["fi", "Piszę o __.", "I'm writing about the exam.", "egzaminie", "egzamin|egzaminu|egzamina", "Egzaminie is the locative ending after o."],
       ["ty", "I live in Wrocław. Start with Mieszkam.", "Mieszkam we Wrocławiu", "we · Wrocław", "w Wrocław", "Wrocławiu is the locative ending, and the word in front is we."],
       ["ty", "My brother is at the office. Start with Mój.", "Mój brat jest w biurze", "mój · biuro", "moja biuro", "Mój is the masculine form."],
       ["ty", "I'm at home. Start with Jestem.", "Jestem w domu", "w · dom · being there", "do dom", "Domu after w is the locative case."]
@@ -208,10 +208,10 @@ module.exports = [
 {{ex:Idę w lewo.|EE-deh v LEH-voh|I'm going left.}}
 {{ex:Idę w prawo.|EE-deh f PRAH-voh|I'm going right.}}
 <h3>Near, and where</h3>
-<p><b>Blisko</b> means near, and it stays <b>blisko</b>. <b>Dworzec jest blisko</b> is the station is near. <b>Poczta jest blisko</b> is the post office is near. Do not turn <b>blisko</b> into <b>bliska</b> to match <b>poczta</b>. It is not an adjective in this line.</p>
+<p><b>Blisko</b> means near, and it stays <b>blisko</b>. <b>Dworzec jest blisko</b> is the station is near. <b>Poczta jest blisko</b> is the post office is near. Do not add an ending to <b>blisko</b> so that it matches <b>poczta</b>. <b>Blisko</b> is not an adjective. <b>Bliska</b> is a different word.</p>
 {{ex:Dworzec jest blisko.|DVOH-zhehts yehzd BLEE-skoh|The station is near.}}
 {{ex:Poczta jest blisko.|POHCH-tah yehzd BLEE-skoh|The post office is near.}}
-<p><b>Gdzie jest dworzec?</b> asks where the station is. Keep <b>jest</b>. Do not drop it. <b>Dworzec</b> stays in the base form. You are not putting the station in the locative. <b>Na dworcu</b>, from the last lesson, means you are already there. <b>Gdzie jest dworzec?</b> asks where it is.</p>
+<p><b>Gdzie jest dworzec?</b> asks where the station is. A short question with no <b>jest</b> is heard. This course keeps <b>jest</b>. <b>Dworzec</b> stays in the base form. You are not putting the station in the locative. <b>Na dworcu</b>, from the last lesson, means you are already there. <b>Gdzie jest dworzec?</b> asks where it is.</p>
 {{ex:Gdzie jest dworzec?|gjyeh yehzd DVOH-zhehts|Where is the station?}}
 <h3>Where is my sister?</h3>
 <p>The same question finds a person. <b>Jest</b> does not show gender. The word for my does. <b>Gdzie jest mój brat?</b> uses the masculine form. <b>Gdzie jest moja siostra?</b> uses the feminine form.</p>
@@ -221,21 +221,21 @@ module.exports = [
 `,
     check: [
       ["Straight ahead is…", ["prostą", "prosto", "proście", "prostym"], 1, "Prosto does not take a case ending."],
-      ["Where is the station?", ["Gdzie jest dworca?", "Gdzie jest dworcu?", "Gdzie dworzec?", "Gdzie jest dworzec?"], 3, "The question keeps jest, and dworzec stays in the base form."],
+      ["Where is the station?", ["Gdzie jest dworca?", "Gdzie jest dworcu?", "Gdzie są dworzec?", "Gdzie jest dworzec?"], 3, "The question keeps jest, and dworzec stays in the base form."],
       ["To the right, the phrase this course uses, is…", ["w prawo", "w prawej", "prawym", "prawa"], 0, "This course uses w prawo. Na prawo is also said, and it is not the phrase drilled here."]
     ],
     practice: [
       ["mc", "Straight ahead.", "Prosto.", "Prostą.", "Proście.", "Prostym.", "Prosto takes no case ending."],
       ["mc", "To the left, the phrase this course uses.", "W lewo.", "W lewej.", "Lewym.", "Lewej.", "W lewo is the direction. Lewo does not take a case ending."],
       ["mc", "To the right, the phrase this course uses.", "W prawo.", "W prawej.", "Prawym.", "Prawa.", "W prawo is the direction. Prawo does not take a case ending."],
-      ["mc", "Where is the station?", "Gdzie jest dworzec?", "Gdzie jest dworcu?", "Gdzie jest dworca?", "Gdzie dworzec?", "Keep jest, and leave dworzec in the base form. Dworcu is the locative, for being there."],
-      ["mc", "The post office is near.", "Poczta jest blisko.", "Poczta jest bliska.", "Poczta jest bliskiem.", "Bliska jest poczta.", "Blisko does not change. It is not an adjective in this line."],
+      ["mc", "Where is the station?", "Gdzie jest dworzec?", "Gdzie jest dworcu?", "Gdzie jest dworca?", "Gdzie są dworzec?", "Keep jest, and leave dworzec in the base form. Dworcu is the locative, for being there."],
+      ["mc", "The post office is near.", "Poczta jest blisko.", "Poczta jest bliską.", "Poczta jest bliskiem.", "Poczta jest bliskość.", "Blisko does not change. It is not an adjective in this line."],
       ["or", "I'm going straight. Start with Idę.", "Idę prosto", "prostą", "Prosto takes no case ending."],
       ["or", "Where is my sister? Start with Gdzie.", "Gdzie jest moja siostra?", "mój siostrę", "Moja is the feminine form."],
       ["or", "The station is near. Start with Dworzec.", "Dworzec jest blisko", "bliska dworcu", "Blisko takes no case ending."],
-      ["fi", "Idę ___.", "I'm going straight.", "prosto", "prostą|proście|prostym", "Prosto takes no case ending."],
-      ["fi", "Idę w ___.", "I'm going left (use w).", "lewo", "lewej|lewym|lewa", "Lewo takes no case ending."],
-      ["fi", "Dworzec jest ___.", "The station is near.", "blisko", "bliska|bliskiem|dworcu", "Blisko takes no case ending. Dworcu would mean you are at the station."],
+      ["fi", "Idę __.", "I'm going straight.", "prosto", "prostą|proście|prostym", "Prosto takes no case ending."],
+      ["fi", "Idę w __.", "I'm going left (use w).", "lewo", "lewej|lewym|lewa", "Lewo takes no case ending."],
+      ["fi", "Dworzec jest __.", "The station is near.", "blisko", "bliska|bliskiem|dworcu", "Blisko takes no case ending. Dworcu would mean you are at the station."],
       ["ty", "I'm going left. Use w lewo, and start with Idę.", "Idę w lewo", "iść · w lewo", "lewej na", "Lewo takes no case ending."],
       ["ty", "Where is my brother? Start with Gdzie jest.", "Gdzie jest mój brat?", "gdzie · mój · brat", "moja brata", "Mój is the masculine form."],
       ["ty", "I'm at the station. Start with Jestem.", "Jestem na dworcu", "na · dworzec", "w dworzec", "Dworcu is the locative singular."]
@@ -282,9 +282,9 @@ module.exports = [
       ["or", "I don't have time. Start with Nie.", "Nie mam czasu", "czas czasa", "Czasu is the genitive ending after nie."],
       ["or", "A bottle of water.", "Butelka wody", "woda wodę", "Wody is the genitive singular after a quantity."],
       ["or", "I'm going to the shop. Start with Idę.", "Idę do sklepu", "sklep sklepa", "Sklepu is the genitive singular after do."],
-      ["fi", "Nie ma ___.", "There is no milk.", "mleka", "mleko|mleku|mlekiem", "Mleka is the genitive of mleko after nie ma."],
-      ["fi", "Nie lubię ___.", "I don't like coffee.", "kawy", "kawę|kawa|kawą", "After nie, kawa takes the genitive kawy, not the accusative kawę."],
-      ["fi", "Idę do ___.", "I'm going to Gdańsk.", "Gdańska", "Gdańsk|Gdanska|Gdańsku", "Gdańska is the genitive singular after do.", "!strict"],
+      ["fi", "Nie ma __.", "There is no milk.", "mleka", "mleko|mleku|mlekiem", "Mleka is the genitive of mleko after nie ma."],
+      ["fi", "Nie lubię __.", "I don't like coffee.", "kawy", "kawę|kawa|kawą", "After nie, kawa takes the genitive kawy, not the accusative kawę."],
+      ["fi", "Idę do __.", "I'm going to Gdańsk.", "Gdańska", "Gdańsk|Gdanska|Gdańsku", "Gdańska is the genitive singular after do.", "!strict"],
       ["ty", "I don't know Anna. Start with Nie.", "Nie znam Anny", "znać · Anna", "Annę Anna", "Anny is the genitive singular after nie."],
       ["ty", "Some water, please. Start with Poproszę.", "Poproszę wody", "poproszę · woda · some", "wodę woda", "Wody is the genitive singular when you mean some water."],
       ["ty", "My sister doesn't have a brother. Start with Moja.", "Moja siostra nie ma brata", "moja · brat", "mój brat", "Moja is the feminine form, and brata is the genitive singular."]
@@ -311,7 +311,7 @@ module.exports = [
 <p><b>On był</b> and <b>pan był</b> share a form. <b>Ona była</b> and <b>pani była</b> share a form. A neuter noun takes <b>było</b>, and a describing word takes the neuter form. <b>Mleko było dobre</b> is the milk was good. <b>Dobre</b> agrees with <b>mleko</b>.</p>
 {{ex:Mleko było dobre.|MLEH-koh BIH-woh DOH-breh|The milk was good.}}
 <p>A group that includes a man says <b>byliśmy</b>. A group of women says <b>byłyśmy</b>. You can recognize the women's line. The line to learn by sound here is the one with a man in the group.</p>
-{{ex:Wczoraj byliśmy w domu.|FCHOH-rahy BIH-lee-sh'mih v DOH-moo|Yesterday we were at home.}}
+{{ex:Wczoraj byliśmy w domu.|FCHOH-rahy BIH-lee-sh'mih v DOH-moo|Yesterday we were at home (the group includes a man).}}
 <div class="tip"><b>Most common mistake:</b> one past line for every speaker. A woman saying <b>Wczoraj byłem</b> → <b>Wczoraj byłam</b>.</div>
 `,
     check: [
@@ -328,11 +328,11 @@ module.exports = [
       ["or", "Yesterday I was in Kraków (a man speaking). Start with Wczoraj.", "Wczoraj byłem w Krakowie", "byłam byłeś", "Byłem is the masculine form."],
       ["or", "I was reading a book (a woman speaking). Start with Czytałam.", "Czytałam książkę", "książka czytałem", "Książkę is the accusative ending, and czytałam is the feminine form."],
       ["or", "The milk was good. Start with Mleko.", "Mleko było dobre", "był dobra", "Dobre is the neuter form and agrees with mleko."],
-      ["fi", "Wczoraj ___ w domu.", "Yesterday I was at home (a woman speaking).", "byłam", "byłem|byłaś|była", "Byłam is the feminine form for a woman speaking about herself."],
-      ["fi", "Pan ___ w biurze.", "You were at the office (to a man).", "był", "byłeś|byłem|była", "Pan takes był. Byłeś is the friend form, and you do not type it."],
-      ["fi", "Czytałem ___.", "I was reading a book (a man speaking).", "książkę", "książka|książce|książką", "Książkę is the accusative ending. The base form is książka.", "!strict"],
+      ["fi", "Wczoraj __ w domu.", "Yesterday I was at home (a woman speaking).", "byłam", "byłem|byłaś|była", "Byłam is the feminine form for a woman speaking about herself."],
+      ["fi", "Pan __ w biurze.", "You were at the office (to a man).", "był", "byłeś|byłem|była", "Pan takes był. Byłeś is the friend form, and you do not type it."],
+      ["fi", "Czytałem __.", "I was reading a book (a man speaking).", "książkę", "książka|książce|książką", "Książkę is the accusative ending. The base form is książka.", "!strict"],
       ["ty", "Yesterday I was at home. Start with Wczoraj byłem or Wczoraj byłam.", "Wczoraj byłem w domu|Wczoraj byłam w domu", "być · w domu · man byłem, woman byłam", "byłeś jestem", "The past agrees with the speaker."],
-      ["ty", "You were at home yesterday, to a woman. Start with Pani.", "Pani była w domu", "pani · być", "byłaś byłem", "Była is the feminine form."],
+      ["ty", "You were at home, to a woman. Start with Pani.", "Pani była w domu", "pani · być", "byłaś byłem", "Była is the feminine form."],
       ["ty", "I was reading a book (a man speaking). Start with Czytałem.", "Czytałem książkę", "czytać · książka", "książka czytałam", "Książkę is the accusative singular.", "!strict"]
     ]
   },
@@ -357,7 +357,7 @@ module.exports = [
 <p>A habit of place uses the plain verb too. <b>Będę mieszkać w Krakowie</b> is I'll live in Kraków. <b>Krakowie</b> is the locative ending. <b>W Kraków</b> leaves the base word.</p>
 {{ex:Będę mieszkać w Krakowie.|BEHN-deh MYEH-shkahch' f krah-KOH-vyeh|I'll live in Kraków.}}
 <p>A finished one-time future is a single word, such as <b>przeczytam</b>. That is a real Polish form, and this course does not teach it. For what you will be doing, use <b>będę</b> plus the plain verb.</p>
-<div class="tip"><b>Most common mistake:</b> the one-word finished future for the line this course teaches. <b>Jutro przeczytam</b> → <b>Jutro będę czytać</b>.</div>
+<div class="tip"><b>Most common mistake:</b> the one-word finished future where this course wants <b>będę</b> plus the plain verb. <b>Jutro przeczytam</b> is real Polish for a finished read. The line you produce is <b>Jutro będę czytać</b>.</div>
 `,
     check: [
       ["Which line does this course use for Tomorrow I'll read?", ["Jutro przeczytam.", "Jutro będę czytać.", "Jutro będę przeczytać.", "Jutro czytałem."], 1, "This course uses będę plus the plain verb. Przeczytam is the finished-result future, and this course does not teach it."],
@@ -373,9 +373,9 @@ module.exports = [
       ["or", "Tomorrow I'll read. Start with Jutro.", "Jutro będę czytać", "przeczytam czytał", "This course uses będę plus the plain verb czytać."],
       ["or", "I'll be in Warsaw. Start with Będę.", "Będę w Warszawie", "Warszawa do", "Warszawie is the locative ending."],
       ["or", "My sister will read. Start with Moja.", "Moja siostra będzie czytać", "Mój będę", "Moja is the feminine form."],
-      ["fi", "Jutro będę ___.", "Tomorrow I'll read (będę plus the plain verb).", "czytać", "czytam|czytałem|przeczytam", "The word after będę is the plain verb czytać, not the past and not the I form."],
-      ["fi", "Będę w ___.", "I'll be in Warsaw.", "Warszawie", "Warszawa|Warszawy|Warszawę", "Warszawie is the locative ending after w."],
-      ["fi", "Pan ___ w Krakowie.", "You will be in Kraków (to a man).", "będzie", "będziesz|będę|był", "Pan takes będzie. Będziesz is the friend form."],
+      ["fi", "Jutro będę __.", "Tomorrow I'll read (będę plus the plain verb).", "czytać", "czytam|czytałem|przeczytam", "The word after będę is the plain verb czytać, not the past and not the I form."],
+      ["fi", "Będę w __.", "I'll be in Warsaw.", "Warszawie", "Warszawa|Warszawy|Warszawę", "Warszawie is the locative ending after w."],
+      ["fi", "Pan __ w Krakowie.", "You will be in Kraków (to a man).", "będzie", "będziesz|będę|był", "Pan takes będzie. Będziesz is the friend form."],
       ["ty", "Tomorrow I'll write. Use będę and pisać, and start with Jutro.", "Jutro będę pisać", "jutro · być · pisać", "piszę przeczytam", "This course uses będę plus the plain verb pisać."],
       ["ty", "My brother will be in Gdańsk. Start with Mój.", "Mój brat będzie w Gdańsku", "mój · Gdańsk", "moja Gdańsk", "Mój is the masculine form, and Gdańsku is the locative singular.", "!strict"],
       ["ty", "You will be at home, to a woman. Start with Pani.", "Pani będzie w domu", "pani · być · w domu", "będziesz do", "Domu after w is the locative case."]
@@ -389,7 +389,7 @@ module.exports = [
     body: `
 <p>The forms in this lesson are ones you can already build. English still pulls the sentence back to a base noun, a familiar verb, or a word that looks like an English word and is not. This is the place those pulls get named together.</p>
 <h3>Words that lie by looking familiar</h3>
-<div class="tbl"><table><tr><th>Polish</th><th>It means</th><th>Not</th></tr><tr><td class="k">aktualny</td><td>current</td><td>actual</td></tr><tr><td class="k">aktualnie</td><td>currently</td><td>actually</td></tr><tr><td class="k">ewentualnie</td><td>possibly, if needed</td><td>eventually</td></tr><tr><td class="k">sympatyczny</td><td>nice</td><td>sympathetic</td></tr><tr><td class="k">ordynarny</td><td>rude</td><td>ordinary</td></tr><tr><td class="k">patetyczny</td><td>pompous</td><td>pathetic</td></tr><tr><td class="k">pensja</td><td>salary</td><td>pension</td></tr><tr><td class="k">recepta</td><td>a prescription</td><td>a recipe</td></tr><tr><td class="k">dres</td><td>a tracksuit</td><td>a dress</td></tr><tr><td class="k">magazyn</td><td>a warehouse, the building</td><td>a magazine</td></tr><tr><td class="k">brat</td><td>a brother</td><td>a rude child</td></tr></table></div>
+<div class="tbl"><table><tr><th>Polish</th><th>It means</th><th>Not</th></tr><tr><td class="k">aktualny</td><td>current</td><td>actual</td></tr><tr><td class="k">aktualnie</td><td>currently</td><td>actually</td></tr><tr><td class="k">ewentualnie</td><td>possibly, if needed</td><td>eventually</td></tr><tr><td class="k">sympatyczny</td><td>nice</td><td>sympathetic</td></tr><tr><td class="k">ordynarny</td><td>rude</td><td>ordinary</td></tr><tr><td class="k">patetyczny</td><td>pompous</td><td>pathetic</td></tr><tr><td class="k">pensja</td><td>salary</td><td>pension</td></tr><tr><td class="k">recepta</td><td>a prescription</td><td>a recipe</td></tr><tr><td class="k">dres</td><td>a tracksuit</td><td>a dress</td></tr><tr><td class="k">magazyn</td><td>a warehouse; also a periodical</td><td>only a periodical</td></tr><tr><td class="k">brat</td><td>a brother</td><td>a rude child</td></tr></table></div>
 <p><b>Magazyn</b> is also used for a kind of periodical. When you mean the building, it is a warehouse. <b>Aktualnie mieszkam w Krakowie</b> is I currently live in Kraków. <b>Sympatyczny</b> agrees like any other adjective. A man is <b>sympatyczny</b>, the masculine form. A woman is <b>sympatyczna</b>, the feminine form. <b>Moja pensja</b> is my salary, feminine. <b>Mój dres</b> is my tracksuit, masculine.</p>
 {{ex:Marek jest sympatyczny.|MAH-rehk yehst sihm-pah-TIHCH-nih|Marek is nice.}}
 {{ex:Anna jest sympatyczna.|AHN-nah yehst sihm-pah-TIHCH-nah|Anna is nice.}}
@@ -418,9 +418,9 @@ module.exports = [
       ["or", "I'm a doctor (a man speaking). Start with Jestem.", "Jestem lekarzem", "lekarz lekarza", "Lekarzem is the instrumental ending."],
       ["or", "I'm going to work (on foot, this one trip). Start with Idę.", "Idę do pracy", "praca pracą", "Pracy is the genitive ending after do."],
       ["or", "I see my brother. Start with Widzę.", "Widzę mojego brata", "mój brat", "Brata is the accusative ending, and mojego agrees with brat."],
-      ["fi", "Jestem ___.", "I'm a doctor (a woman speaking).", "lekarką", "lekarka|lekarzem|lekarkę", "Lekarką is the instrumental ending. Lekarka is the base form.", "!strict"],
-      ["fi", "Idę do ___.", "I'm going to work (on foot, this one trip).", "pracy", "praca|pracę|pracą", "Pracy is the genitive ending after do."],
-      ["fi", "Widzę mojego ___.", "I see my brother.", "brata", "brat|bratem|bratu", "Brata is the accusative ending. The base form brat is the trap."],
+      ["fi", "Jestem __.", "I'm a doctor (a woman speaking).", "lekarką", "lekarka|lekarzem|lekarkę", "Lekarką is the instrumental ending. Lekarka is the base form.", "!strict"],
+      ["fi", "Idę do __.", "I'm going to work (on foot, this one trip).", "pracy", "praca|pracę|pracą", "Pracy is the genitive ending after do."],
+      ["fi", "Widzę mojego __.", "I see my brother.", "brata", "brat|bratem|bratu", "Brata is the accusative ending. The base form brat is the trap."],
       ["ty", "I'm a doctor (a woman speaking). Start with Jestem.", "Jestem lekarką", "być · lekarka · a woman", "lekarka lekarzem", "Lekarką is the instrumental ending.", "!strict"],
       ["ty", "I see my sister. Start with Widzę.", "Widzę moją siostrę", "widzieć · moja · siostra", "moja siostra", "Siostrę is the accusative singular, and moją is the feminine form.", "!strict"],
       ["ty", "Kasia is nice. Use sympatyczny, and start with Kasia.", "Kasia jest sympatyczna", "sympatyczny · Kasia", "sympatyczny ordynarna", "Sympatyczna is the feminine form."]

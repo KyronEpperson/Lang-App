@@ -1,10 +1,10 @@
-PROGRESS (updated 2026-11-21 20:15 CST)
+PROGRESS (updated 2026-11-21 20:45 CST)
 Course: en-pl   Branch: cursor/en-pl   PR: https://github.com/KyronEpperson/Lang-App/pull/9
-Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, merge check
-Next: review
-Checks: PASS: all checks OK. gen.js: 27 lessons, 18 decks, 317 cards. repron twice: 580 prons read, 0 rewritten, then 0 rewritten. link_roadmap: 26 linked, not covered: none, after the roadmap field was given the pl- prefix. traps has no roadmap id. packs/roadmaps.js was not kept.
-Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high
-State: WORKING
+Done: research brief, research, pron tool, lead note, decisions, briefs, deck A, deck B, lesson 1, lesson 2, lesson 3, merge check, review, hand-off
+Next: Claude's merge read
+Checks: PASS: all checks OK. gen.js: 27 lessons, 18 decks, 317 cards. After the review, repron twice: 580 prons read, 0 rewritten, then 0 rewritten. link_roadmap: 26 linked, not covered: none. traps has no roadmap id. packs/roadmaps.js was not kept.
+Models used: research brief = no model (filled from the template); research and pron tool = grok-4.7-xhigh; decisions = grok-4.7; briefs = mk_briefs.py; deck A = grok-4.7-high; deck B = grok-4.7-high; lesson 1 = grok-4.7-high; lesson 2 = grok-4.7-high; lesson 3 = grok-4.7-high; review = grok-4.7-xhigh
+State: READY FOR REVIEW
 
 No lexicon change. The tool's own note says an unlisted one-syllable verb after nie stays unmarked, not wrong, so znam was not added. Wrocław alone is VROHTS-wahf; after jest it is FROHTS-wahf. trzy is tshih and czy is chih. Still for the reviewer: Nie znam, trzecia, trzydzieści, kilo, na ty, Sześć złotych, Dziesięć złotych, państwu, mąż, żółw, barszcz, and the city names.
 

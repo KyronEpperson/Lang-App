@@ -144,7 +144,7 @@ patetyczny | pah-teh-TIHCH-nih | pompous | Not "pathetic".
 pensja | PEHN-syah | salary | Not "pension". A pension is emerytura.
 recepta | reh-TSEHP-tah | a prescription | Not "a recipe". A recipe is przepis.
 dres | drehs | a tracksuit | Not "a dress". A dress is sukienka.
-magazyn | mah-GAH-zihn | a warehouse | As a building, a warehouse. Not a magazine.
+magazyn | mah-GAH-zihn | a warehouse | As a building, a warehouse. The same word is also a magazine.
 brat | braht | a brother | A brother. Not a naughty child.
 Jestem lekarzem. | YEH-stehm leh-KAH-zhehm | I'm a doctor. | Not Jestem lekarz. A man says this.
 Idę do pracy. | EE-deh doh PRAH-tsih | I'm going to work. | Not Idę do praca. do takes the genitive. On foot, this time.
@@ -158,7 +158,7 @@ Mam trzydzieści lat. | mahm tshih-JYEH-sh'chyee laht | I'm thirty. | Age is mam
 Dobra kawa. | DOH-brah KAH-vah | Good coffee. | Feminine form.
 Dobry chleb. | DOH-brih khlehp | Good bread. | Masculine form.
 Dobre piwo. | DOH-breh PYEE-voh | Good beer. | Neuter form. piwo is neuter.
-Pyszne pierogi. | PIH-shneh pyeh-ROH-gyee | Delicious pierogi. | The plural form for a thing, not for a group of men.
+Pyszne pierogi. | PIH-shneh pyeh-ROH-gyee | Delicious pierogi. | The plural form for a thing, or a group with no man.
 Pyszna herbata. | PIH-shnah khehr-BAH-tah | Delicious tea. | Feminine form.
 Pyszny ser. | PIH-shnih sehr | Delicious cheese. | Masculine form.
 Ładny dzień. | WAHD-nih jyehny | A beautiful day. | Masculine form. ł is w.

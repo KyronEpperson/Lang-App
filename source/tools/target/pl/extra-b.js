@@ -21,7 +21,7 @@ Kilo chleba. | Ile chleba? | Kilo chleba. | How much bread? / A kilo of bread.
 Wczoraj byłem w Krakowie. | Gdzie pan był wczoraj? | Wczoraj byłem w Krakowie. | Where were you yesterday? / Yesterday I was in Kraków.
 Jutro będę czytać. | Co pani będzie robić jutro? | Jutro będę czytać. | What will you do tomorrow? / Tomorrow I'll read.
 Będę w Warszawie. | Gdzie pani będzie jutro? | Będę w Warszawie. | Where will you be tomorrow? / I'll be in Warsaw.
-Jestem lekarzem. | Kim pan jest? | Jestem lekarzem. | What do you do? / I'm a doctor.
+Jestem lekarzem. | Kim pan jest? | Jestem lekarzem. | Who are you? / I'm a doctor.
 Idę do pracy. | Gdzie pan idzie? | Idę do pracy. | Where are you going? / I'm going to work.
 sympatyczny | Jaki jest Tomek? | Tomek jest sympatyczny. | What's Tomek like? / Tomek is nice.
 Dobra kawa. | Dobra kawa. | Dziękuję bardzo. | Good coffee. / Thank you very much.
@@ -56,6 +56,6 @@ Idę do ___. | I'm going to ___. | Idę do sklepu. | I'm going to the shop.
 Czy pan ___? | Do you ___? (to a man) | Czy pan mówi po polsku? | Do you speak Polish?
 Nie ma ___. | There is no ___. | Nie ma mleka. | There is no milk.
 Jutro będę ___. | Tomorrow I'll ___. | Jutro będę czytać. | Tomorrow I'll read.
-Widzę mojego ___. | I see my ___. | Widzę mojego brata. | I see my brother.
+Widzę mojego ___. | I see my ___ (masculine). | Widzę mojego brata. | I see my brother.
 Dziękuję ___. | Thank you ___. | Dziękuję bardzo. | Thank you very much.
 `;

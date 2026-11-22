@@ -89,8 +89,8 @@ module.exports = [
       ["How do ch in chleb and h in herbata compare?", ["ch is the English ch of chop, and h is silent", "h is v", "ch is shy and h is sh", "They are the same kh sound"], 3, "ch and h are one sound, kh, as in Scottish loch."]
     ],
     practice: [
-      ["mc", "Please.", "proszę", "prosię", "prosze", "kasza", "proszę has hard sz, sh. prosię is the piglet, and prosze is missing the mark."],
-      ["mc", "a piglet", "prosię", "proszę", "prosie", "Kasia", "prosię is shy plus eh. The piglet is a different word from proszę."],
+      ["mc", "Please.", "proszę", "prosię", "prosze", "kasza", "proszę has hard sz, sh. prosię is the piglet, and prosze is missing the mark.", "!strict"],
+      ["mc", "a piglet", "prosię", "proszę", "prosie", "Kasia", "prosię is shy plus eh. The piglet is a different word from proszę.", "!strict"],
       ["mc", "Which aid fits Kasia?", "KAH-shyah", "KAH-shah", "KAH-sh'ah", "KAH-siah", "si before a vowel is shy. kasza is the hard sh, KAH-shah."],
       ["mc", "rzeka and żurek share…", "the same zh sound", "an English r plus z in rzeka", "sh in both words", "the kh of ch and h", "rz and ż are the same sound in this course."],
       ["mc", "chleb and herbata start with…", "the same kh sound", "English ch in chleb", "a silent h in herbata", "shy in both words", "ch and h are the same kh sound."],
@@ -265,19 +265,19 @@ module.exports = [
 {{ex:Jesteś.|YEH-stehsh'|You are. (a friend says this)}}
 {{ex:Jesteście.|yeh-STEH-sh'chyeh|You are. (a friend says this to a group)}}
 <h3>To jest keeps jest</h3>
-<p><b>To jest Marek</b> means "This is Marek". <b>To jest Anna</b> means "This is Anna". <b>jest</b> stays in the sentence. Some languages drop the word for "is" in this kind of line. Polish keeps it. <b>ja</b> means "I". You can say <b>Ja jestem</b> when you want to point at yourself. Most of the time <b>jestem</b> alone is the whole sentence. Alone, <b>jest</b> is <i>yehst</i>. In a full line the aid may change that sound. Read the whole line. The next lesson puts two lines side by side.</p>
+<p><b>To jest Marek</b> means "This is Marek". <b>To jest Anna</b> means "This is Anna". <b>jest</b> stays in the sentence you produce. A short line with no <b>jest</b> is heard. This course keeps <b>jest</b>. <b>ja</b> means "I". You can say <b>Ja jestem</b> when you want to point at yourself. Most of the time <b>jestem</b> alone is the whole sentence. Alone, <b>jest</b> is <i>yehst</i>. In a full line the aid may change that sound. Read the whole line. The next lesson puts two lines side by side.</p>
 {{ex:To jest Marek.|toh yehst MAH-rehk|This is Marek.}}
 {{ex:To jest Anna.|toh yehst AHN-nah|This is Anna.}}
-<div class="tip"><b>Most common mistake:</b> dropping jest, on the model of a language that leaves it out. <b>To Marek</b> → <b>To jest Marek</b>.</div>
+<div class="tip"><b>Most common mistake:</b> dropping jest, on the model of a language that leaves it out. <b>Jest Marek</b> → <b>To jest Marek</b>.</div>
 `,
     check: [
-      ["How do you say This is Marek?", ["To Marek.", "To jest Marek.", "To jesteś Marek.", "Jestem Marek."], 1, "Polish keeps jest. To jest Marek is the line. To Marek has dropped it."],
+      ["How do you say This is Marek?", ["Jest Marek.", "To jest Marek.", "To jesteś Marek.", "Jestem Marek."], 1, "Polish keeps jest. To jest Marek is the line."],
       ["Which form do you type for I am?", ["jestem", "jesteś", "jest", "są"], 0, "I am is jestem. jesteś is the friend's form, and you only recognize it."],
       ["Which form do you only recognize?", ["jestem", "jesteśmy", "jesteś", "są"], 2, "jesteś is what a friend says. You produce jestem, jest, jesteśmy, and są."]
     ],
     practice: [
       ["mc", "I am.", "Jestem.", "Jesteś.", "Jest.", "Są.", "The form for I is jestem. You do not type jesteś."],
-      ["mc", "This is Anna.", "To jest Anna.", "To Anna.", "To jesteś Anna.", "Jestem Anna.", "Polish keeps jest: To jest Anna."],
+      ["mc", "This is Anna.", "To jest Anna.", "Jest Anna.", "To jesteś Anna.", "Jestem Anna.", "Polish keeps jest: To jest Anna."],
       ["mc", "We are.", "Jesteśmy.", "Jesteście.", "Są.", "Jest.", "We takes jesteśmy. jesteście is what a friend says to a group."],
       ["mc", "He is.", "On jest.", "On jesteś.", "Ona jest.", "Ja jest.", "On is the masculine form, and the verb agrees with on."],
       ["mc", "They are.", "Są.", "Jest.", "Jestem.", "Jesteś.", "For they, the form is są. The next lesson splits oni and one."],
@@ -328,7 +328,7 @@ module.exports = [
       ["mc", "My name is Marek.", "Mam na imię Marek.", "Mam na imię Marka.", "Jestem imię Marek.", "To jest Marek.", "Mam na imię Marek. The name stays in the base form. To jest Marek means this is Marek."],
       ["mc", "I'm from Poland.", "Jestem z Polski.", "Jestem z Polska.", "Jestem z Chicago.", "Jestem Polska.", "From Poland is the chunk z Polski. An English city name does not go in the Polish sentence."],
       ["mc", "He is from Kraków.", "On jest z Krakowa.", "On jest z Kraków.", "Ona jest z Krakowa.", "On jest Krakowa.", "On is the masculine form, and the chunk is z Krakowa."],
-      ["mc", "This is Kasia.", "To jest Kasia.", "To Kasia.", "Mam na imię Kasia.", "Kasia jestem.", "This is Kasia keeps jest: To jest Kasia. Mam na imię Kasia means my name is Kasia."],
+      ["mc", "This is Kasia.", "To jest Kasia.", "Jest Kasia.", "Mam na imię Kasia.", "Kasia jestem.", "This is Kasia keeps jest: To jest Kasia. Mam na imię Kasia means my name is Kasia."],
       ["mc", "Ewa is from Gdańsk.", "Ewa jest z Gdańska.", "Ewa jest z Gdańsk.", "Ewa jest z Chicago.", "On jest z Gdańska.", "The chunk is z Gdańska, and Ewa takes jest."],
       ["or", "She is from Warsaw. (start with Ona)", "Ona jest z Warszawy", "On", "Ona is the feminine form."],
       ["or", "He is from Kraków. (start with On)", "On jest z Krakowa", "Ona", "On is the masculine form."],
@@ -404,11 +404,11 @@ module.exports = [
 {{ex:Moja siostra jest wysoka.|MOH-yah SHYOH-strah yehst fih-SOH-kah|My sister is tall.}}
 {{ex:Pyszne pierogi.|PIH-shneh pyeh-ROH-gyee|Delicious pierogi.}}
 <h3>More than one</h3>
-<p>Look at who is in the group. A thing, or a group with no man, takes the plural form in <b>-e</b>. <b>Pierogi są pyszne</b>. <b>Anna i Ewa są wysokie</b>. A group of men takes a different plural form. <b>Marek i Piotr są wysocy</b>. <b>Oni są dobrzy</b>. <b>dobrzy</b> agrees with them. The reply to a compliment is <b>Dziękuję</b>, or <b>Dziękuję bardzo</b>. You do not brush it away.</p>
+<p>Look at who is in the group. A thing, or a group with no man, takes the plural form in <b>-e</b>. <b>Pierogi są pyszne</b>. <b>Anna i Ewa są wysokie</b>. A group that includes a man takes a different plural form. <b>Marek i Piotr są wysocy</b>. <b>Oni są dobrzy</b>. <b>dobrzy</b> agrees with them. The reply to a compliment is <b>Dziękuję</b>, or <b>Dziękuję bardzo</b>. You do not brush it away.</p>
 {{ex:Pierogi są pyszne.|pyeh-ROH-gyee sohN PIH-shneh|The pierogi are delicious.}}
 {{ex:Anna i Ewa są wysokie.|AHN-nah ee EH-vah sohN vih-SOH-kyeh|Anna and Ewa are tall.}}
 {{ex:Marek i Piotr są wysocy.|MAH-rehk ee pyohtr sohN vih-SOH-tsih|Marek and Piotr are tall.}}
-{{ex:Oni są dobrzy.|OH-nyee sohN DOHB-zhih|They are good. (a group of men)}}
+{{ex:Oni są dobrzy.|OH-nyee sohN DOHB-zhih|They are good. (the group includes a man)}}
 {{ex:Dziękuję bardzo.|jyehng-KOO-yeh BAHR-dzoh|Thank you very much.}}
 <h3>Well is not an adjective</h3>
 <p><b>dobrze</b> means "well". It does not change for <b>on</b> or <b>ona</b>. <b>Dobrze pani mówi po polsku</b> is "You speak Polish well." <b>dobrze</b> is the adverb. <b>dobra</b> is the feminine form of the adjective, a different job. Read each line as a whole. After <b>jest</b>, the <b>w</b> of <b>wysoki</b> is <i>f</i> on the aid. After <b>są</b>, that <b>w</b> is <i>v</i>.</p>
@@ -428,7 +428,7 @@ module.exports = [
       ["mc", "Someone says Ładny dzień. You answer…", "Dziękuję bardzo.", "Dobrze.", "Proszę.", "Dobranoc.", "The safe reply to a compliment is Dziękuję bardzo."],
       ["or", "A beautiful day. (adjective first)", "Ładny dzień", "ładna", "ładny is the masculine form. It agrees with dzień."],
       ["or", "My sister is tall. (start with Moja)", "Moja siostra jest wysoka", "wysoki", "wysoka is the feminine form. It agrees with siostra."],
-      ["or", "They are good. (Marek and Piotr, start with Oni)", "Oni są dobrzy", "dobre", "A group of men takes dobrzy, the plural form. The adjective agrees with them."],
+      ["or", "They are good. (Marek and Piotr, start with Oni)", "Oni są dobrzy", "dobre", "A group that includes a man takes dobrzy, the plural form. The adjective agrees with them."],
       ["fi", "__ kawa.", "Good coffee.", "Dobra", "Dobry|Dobre|Dobrze", "Dobra is the feminine form. It agrees with kawa."],
       ["fi", "Mleko jest __.", "The milk is good.", "dobre", "dobry|dobra|dobrze", "dobre is the neuter form. It agrees with mleko."],
       ["fi", "Ładny __.", "A beautiful day.", "dzień", "dzien|noc|kawa", "dzień is masculine, so the adjective in front is the masculine form ładny.", "!strict"],
