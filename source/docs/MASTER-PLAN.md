@@ -12,7 +12,7 @@ Two kinds of course, one engine:
 |---|---|---|
 | What it is | Written for one pair: explanations aimed at that learner's mistakes, shortcuts from what they already know, pronunciation aid in their script | Put together from two reusable halves (below) |
 | Where | The pairs people actually take: every English ↔ X pair, the Korean / Japanese / Chinese triangle, close relatives (Spanish ↔ Portuguese, Hindi ↔ Urdu, the Nordic languages ...). About 150–200 pairs | All other pairs |
-| Label in the app | none | "Standard course" (wording to decide) |
+| Label in the app | small mark in the picker, with a legend | none |
 | Upgrade | n/a | Becomes hand-tuned when the visitor log shows real learners on that pair |
 
 The two halves:
@@ -26,7 +26,7 @@ Any pair = target half + native half (+ pair layer). 61 + 61 pieces of work cove
 
 1. **Finish what is running:** Czech, Amharic, Bengali; core-word, Flirting and Compliments decks (queue C). New languages stay paused after that.
 2. **Engine:** a course may have neither side English (today one side must be). Pack format split into target half, native half, pair layer; the existing 42 courses keep working unchanged.
-3. **Pilot:** Japanese → Korean hand-tuned, and one assembled pair from the same halves (for example Spanish → Korean) to see how a standard course feels. Kii reviews both before anything fans out.
+3. **Pilot:** Spanish → Korean as the first assembled (standard) course. Kii reviews it before anything fans out. Japanese → Korean follows as the first hand-tuned non-English pair.
 4. **Convert the 29 live languages** into target halves (mostly mechanical: the English-speaker course minus its English-specific explanations) and write native halves for them. Unlocks 29 × 28 = 812 pairs. Meanings are the bulk: about 900 cards plus sentences per target, in each native language.
 5. **Hand-tune in demand order:** remaining X → English, the Korean / Japanese / Chinese triangle, close-relative pairs.
 6. **Add the remaining 32 languages** one at a time (each adds about 120 pairs). Community-first languages still wait for a yes from their language bodies.
@@ -38,11 +38,11 @@ Any pair = target half + native half (+ pair layer). 61 + 61 pieces of work cove
 - No native speaker has checked any course yet; a target half reviewed by a native speaker is marked as such, and that mark shows in the app.
 - Standard courses carry a "report a problem" prompt on every card and lesson, feeding the Feedback page.
 
-## 0.3 Decisions for Kii
+## 0.3 Decisions (Kii, 2026-11-22)
 
-1. The label for assembled courses ("Standard course"? no label?).
-2. Which assembled pair to pilot next to Japanese → Korean.
-3. Whether the 29-language conversion (step 4) starts before or after the Cursor reset.
+1. **Label:** hand-tuned courses carry a small asterisk-style mark in the "language to learn" picker, with a one-line legend ("hand-tuned for speakers of your language"). Standard courses carry no mark.
+2. **Pilot:** Spanish → Korean is the assembled (standard) pilot. Japanese → Korean is hand-tuned and comes after the pilot.
+3. **Timing:** engine change starts after the usage reset (about 2026-11-24), not before.
 
 ---
 
