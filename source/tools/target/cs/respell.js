@@ -25,7 +25,8 @@ const BARE_PREP = new Set(['v', 'k', 's', 'z']);
    komunikace, diskuse, statistika: Tahal. Stems must not eat a native word (divadlo stays out). */
 const LOAN = ['politi', 'univerzit', 'statistik', 'komunik', 'želatin', 'vanilk', 'disku', 'dikt', 'panik', 'titul', 'titu', 'nikl', 'tip'];
 /* Native stems. A verbal prefix (ne, za, vy, pře, od…) may sit in front. */
-const NATIVE_STEM = ['angličtin', 'francouzštin', 'španělštin', 'slovenštin', 'italštin', 'němčin', 'polštin', 'ruštin', 'češtin', 'čínštin', 'japonštin', 'nemocnic', 'náměst', 'snídan', 'divad', 'ložnic', 'radnic', 'rodič', 'rodin', 'hodin', 'stanic', 'peníz', 'číšní', 'třet', 'tisíc', 'tisk', 'tich', 'dět', 'dít', 'dív', 'dík', 'knih', 'kniž', 'sníh', 'svít', 'řidi', 'nič'];
+const NATIVE_STEM = ['angličtin', 'francouzštin', 'španělštin', 'slovenštin', 'italštin', 'němčin', 'polštin', 'ruštin', 'češtin', 'čínštin', 'japonštin', 'nemocnic', 'náměst', 'snídan', 'divad', 'ložnic', 'radnic', 'rodič', 'rodin', 'hodin', 'stanic', 'peníz', 'číšní', 'třet', 'tisíc', 'tisk', 'tich', 'dět', 'dít', 'dív', 'dík', 'knih', 'kniž', 'sníh', 'svít', 'řidi', 'nič', 'nikd', 'nikam', 'nikoh', 'nikom', 'nijak'];
+/* nikdo, nikdy, nikde, nikam, nikoho, nikomu, nijak: native ni is soft (NYIHG-doh). */
 const NATIVE_WORD = new Set(['ti', 'tím', 'tí', 'ní', 'ni', 'dí', 'nic', 'oni', 'ony', 'nimi', 'nich', 'ním', 'níž', 'studenti', 'chtít', 'není', 'paní', 'paním']);
 const VERB_PREFIX = ['nejne', 'ne', 'pře', 'při', 'vy', 'za', 'od', 'pod', 'nad', 'roz', 'pro', 'na', 'po', 'do'];
 const IT_REST = /^(?:it|ím|íš|í|íme|íte|il|ila|ilo|ili|ily)$/;
@@ -150,6 +151,9 @@ function parseWord(raw) {
   for (let i = 0; i < ph.length - 1; i++) {
     if (ph[i].k === ph[i + 1].k && ph[i].k !== 'j' && !VOWEL_K.has(ph[i].k)) ph.splice(i + 1, 1), i--;
   }
+  /* Negative ne- before a consonant cluster: the syllable breaks after ne- (nemluvím -> NEH-mloo-veem,
+     nestuduju -> NEH-stoo-doo-yoo). Not before j (nejsem, nejlepší keep NEHY-), r or l (nervózní). */
+  if (/^ne[bcčdďfghkmnňpqsštťvwxzž][bcčdďfghklmnňpqrřsštťvwxzž]/.test(raw) && ph[0].k === 'n' && ph[1].k === 'e' && ph[2] && !isVowelPh(ph[2])) ph[2].negOnset = true;
   return ph;
 }
 
@@ -232,7 +236,8 @@ function renderSyllables(ph) {
   const start = [0];
   for (let n = 0; n < nuc.length - 1; n++) {
     const cons = ph.slice(nuc[n] + 1, nuc[n + 1]);
-    const on = cons.length >= 2 && rising(cons[cons.length - 2], cons[cons.length - 1]) ? 2 : (cons.length ? 1 : 0);
+    const neg = cons.findIndex(p => p.negOnset);
+    const on = neg >= 0 ? cons.length - neg : cons.length >= 2 && rising(cons[cons.length - 2], cons[cons.length - 1]) ? 2 : (cons.length ? 1 : 0);
     start.push(nuc[n + 1] - on);
   }
   const syl = [];
@@ -313,7 +318,10 @@ function runTests() {
     ['oni', 'OH-nyih'], ['paní', 'PAH-nyee'], ['chtít', 'khtyeet'], ['týden', 'TEE-dehn'],
     ['byla jsem', 'BIH-lah ysehm'], ['rád', 'raaht'], ['ráda', 'RAAH-dah'], ['byli', 'BIH-lih'],
     ['byly', 'BIH-lih'],     ['moře', 'MOH-rzheh'], ['tvář', 'tvaahrsh'], ['sedmnáct', 'SEH-doom-naahtst'],
-    ['osmdesát', 'OH-soom-deh-saaht'], ['dvě', 'dvyeh'], ['svůj', 'svoohy'], ['tvůj', 'tvoohy']
+    ['osmdesát', 'OH-soom-deh-saaht'], ['dvě', 'dvyeh'], ['svůj', 'svoohy'], ['tvůj', 'tvoohy'],
+    ['nemluvím', 'NEH-mloo-veem'], ['nestuduju', 'NEH-stoo-doo-yoo'], ['nechci', 'NEH-khtsih'], ['nikdo', 'NYIHG-doh'],
+    ['nikdy', 'NYIHG-dih'], ['nikde', 'NYIHG-deh'], ['přes most', 'PRSHEHS mohst'], ['nejlepší', 'NEHY-lehp-shee'],
+    ['neděle', 'NEH-dyeh-leh'], ['není', 'NEH-nyee'], ['nemám', 'NEH-maahm'], ['nebyl', 'NEH-bihl'], ['nemůžu', 'NEH-mooh-zhoo']
   ];
   let bad = 0;
   for (const [w, want] of eq) {

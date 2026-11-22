@@ -4,7 +4,7 @@ jedna koruna | To je jedna koruna? | Ano, jedna koruna. | Is that one crown? / Y
 dvě koruny | Máte dvě koruny? | Ano, mám dvě koruny. | Do you have two crowns? / Yes, I have two crowns.
 čtyři dva nula | Jaké máte číslo? | Moje číslo je čtyři dva nula. | What is your number? / My number is four two zero.
 Kolik to stojí? | Kolik to stojí? | Deset korun. | How much is it? / Ten crowns.
-Co chcete? | Dobrý den. Co chcete? | Hledám mapu. | Hello. What would you like? / I'm looking for a map.
+Co si přejete? | Dobrý den. Co si přejete? | Hledám mapu. | Hello. What would you like? / I'm looking for a map.
 Jen se dívám. | Můžu vám pomoct? | Ne, děkuji. Jen se dívám. | Can I help you? / No, thank you. I'm just looking.
 Kolik je hodin? | Kolik je hodin? | Je pět hodin. | What time is it? / It's five o'clock.
 v pondělí | Máte čas v pondělí? | Ano, v pondělí mám čas. | Do you have time on Monday? / Yes, on Monday I have time.
@@ -15,7 +15,7 @@ na poště | Kde je Eva? | Eva je na poště. | Where is Eva? / Eva is at the po
 Pojedu do Prahy. | Pojedete do Prahy? | Ano, pojedu do Prahy. | Are you going to Prague? / Yes, I'll go to Prague.
 doleva | Jděte rovně a pak doleva. | Děkuji. | Go straight, and then left. / Thank you.
 Jedu metrem. | Jedete metrem? | Ano, jedu metrem. | Are you taking the metro? / Yes, I'm taking the metro.
-Musím pracovat. | Musíte pracovat dnes? | Ano, musím pracovat. | Do you have to work today? / Yes, I have to work.
+Musím pracovat. | Musíte dnes pracovat? | Ano, musím pracovat. | Do you have to work today? / Yes, I have to work.
 univerzita | To je univerzita? | Ano, to je moje univerzita. | Is that the university? / Yes, that is my university.
 Chci studovat češtinu. | Co chcete studovat? | Chci studovat češtinu. | What do you want to study? / I want to study Czech.
 Chutná mi. | Chutná vám pivo? | Ano, chutná mi. | Do you like the beer? / Yes, I like it.
@@ -39,7 +39,7 @@ rovně | Jděte rovně na náměstí. | Go straight to the square.
 musím | Dnes musím pracovat. | Today I have to work.
 na univerzitě | Anna je na univerzitě. | Anna is at the university.
 České pivo je dobré. | České pivo je dobré a chutná mi. | Czech beer is good, and I like it.
-To je mi líto. | To je mi líto, ale nemůžu dnes. | I'm sorry, but I can't today.
+To je mi líto. | To je mi líto, ale dnes nemůžu. | I'm sorry, but I can't today.
 aktuální | To je aktuální cena. | That is the current price.
 Mám ráda čaj. | Mám ráda čaj a kávu. | I like tea and coffee.
 `;

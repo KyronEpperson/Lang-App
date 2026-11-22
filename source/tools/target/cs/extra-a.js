@@ -3,7 +3,7 @@ exports.DIALOG = `
 čaj | Čaj, prosím. | Ano, hned. | Tea, please. / Yes, right away.
 žena | Kdo je ta žena? | To je Eva. | Who is that woman? / That is Eva.
 město | Je to město? | Ano, to je Brno. | Is that a town? / Yes, that is Brno.
-byt | To je byt? | Ano, to je můj byt. | Is that a flat? / Yes, that is my flat.
+byt | To je byt? | Ano, to je můj byt. | Is that an apartment? / Yes, that is my apartment.
 káva | To je káva? | Ano, káva je dobrá. | Is that coffee? / Yes, the coffee is good.
 dům | To je váš dům? | Ano, to je můj dům. | Is that your house? / Yes, that is my house.
 chléb | Dáte si chléb? | Ano, chléb, prosím. | Will you have bread? / Yes, bread, please.
@@ -43,7 +43,7 @@ Jmenuju se Petr. | Jmenuju se Petr a jsem z Ostravy. | My name is Petr and I am 
 To je moje matka. | To je moje matka, Anna. | That is my mother, Anna.
 to náměstí | To náměstí je velké. | That square is big.
 český | Petr je český lékař. | Petr is a Czech doctor.
-nový | To je nový byt. | That is a new flat.
+nový | To je nový byt. | That is a new apartment.
 studuju | Studuju češtinu. | I study Czech.
 Byla jsem unavená. | Včera odpoledne jsem byla unavená. | Yesterday afternoon I was tired.
 s mlékem | Dám si kávu s mlékem, prosím. | I'll have a coffee with milk, please.

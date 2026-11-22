@@ -76,28 +76,28 @@ module.exports = [
 <h3>Long endings that match</h3>
 <p>Words like <b>dobrý</b> and <b>dlouhý</b> (long) change their last vowel to match the noun's partner word: <b>ten dobrý čaj</b>, <b>ta dobrá káva</b> (the good coffee), <b>to dobré pivo</b> (the good beer), <b>ten dlouhý den</b> (the long day), <b>ta dlouhá řeka</b>. The gender lesson explains it. For now, notice that all three endings are long.</p>
 {{ex:ta dlouhá řeka|tah DLOHW-haah RZHEH-kah|the long river}}
-<div class="tip"><b>Most common mistake:</b> dropping the length mark. <b>byt</b> for "to be" → <b>být</b>. Without the mark, <b>byt</b> means a flat.</div>
+<div class="tip"><b>Most common mistake:</b> dropping the length mark. <b>byt</b> for "to be" → <b>být</b>. Without the mark, <b>byt</b> means an apartment.</div>
 `,
     check: [
-      ["What is the difference between byt and být?",["Only the vowel length, and it changes the word: a flat, to be","Nothing: they are two spellings of one word","byt is the polite form","The beat moves to the second syllable"],0,"byt (short) is a flat; být (long) is to be. Length alone makes the difference."],
+      ["What is the difference between byt and být?",["Only the vowel length, and it changes the word: an apartment, to be","Nothing: they are two spellings of one word","byt is the polite form","The beat moves to the second syllable"],0,"byt (short) is an apartment; být (long) is to be. Length alone makes the difference."],
       ["Where does the beat go in dobrý (good)?",["On -brý, because it is long","On do-, the first syllable","On both syllables equally","It changes from sentence to sentence"],1,"The Czech beat is always on the first syllable. A long vowel does not move it."],
       ["Which pair sounds exactly the same?",["pas and pás","byt and být","být and bít","dům and do domu"],2,"ý and í are the same long ee sound, so být and bít sound alike. The other pairs differ in length."]
     ],
     practice: [
-      ["mc","to be =","být","byt","bít","pít","být has a long ý. byt is a flat, bít is to hit, pít is to drink."],
-      ["mc","a flat; an apartment =","byt","být","dům","pas","byt, with a short y, is a flat. být is to be."],
+      ["mc","to be =","být","byt","bít","pít","být has a long ý. byt is an apartment, bít is to hit, pít is to drink."],
+      ["mc","a flat; an apartment =","byt","být","dům","pas","byt, with a short y, is an apartment. být is to be."],
       ["mc","Where is the beat in dobrý?","on do-, the first syllable","on -brý, the long vowel","on both syllables","it depends on the sentence","The beat is always on the first syllable, even when a later vowel is long."],
       ["mc","Which two words sound exactly the same?","být and bít","byt and být","pas and pás","dobrý and dobrá","y and i are the same sound, so být and bít sound alike."],
       ["mc","a house =","dům","dúm","dum","doum","In the middle of a word, long ooh is written ů: dům."],
       ["or","the good tea","ten dobrý čaj","dobrá","čaj takes ten, so dobrý has the masculine ending -ý."],
       ["or","the good coffee","ta dobrá káva","dobrý","káva takes ta, so dobrá has the feminine ending -á."],
       ["or","the good beer","to dobré pivo","dobrá","pivo takes to, so dobré has the neuter ending -é."],
-      ["fi","b__t","a flat; an apartment","y","ý|i|í","A flat is byt, with a short y. With ý it means to be.","!strict"],
+      ["fi","b__t","a flat; an apartment","y","ý|i|í","An apartment is byt, with a short y. With ý it means to be.","!strict"],
       ["fi","d__m","a house","ů","u|ú|o","dům: long ooh in the middle of a word is written ů.","!strict"],
       ["fi","ta dlouh__ řeka","the long river","á","ý|é|a","řeka takes ta, so long is dlouhá, with a long á.","!strict"],
       ["ty","the long day (with ten, ta or to)","ten dlouhý den","dlouhý · den · den takes ten","dlouhá","den takes ten, so dlouhý has the masculine ending -ý."],
       ["ty","Hello. (Good day.)","Dobrý den","dobrý · den","Dobrá","den takes the masculine ending -ý: Dobrý den."],
-      ["ty","to be","být","být · long ý","byt","To be is být, with a long ý. byt is a flat.","!strict"]
+      ["ty","to be","být","být · long ý","byt","To be is být, with a long ý. byt is an apartment.","!strict"]
     ]
   },
   {
@@ -243,7 +243,7 @@ module.exports = [
       ["mc","Who is it?","Kdo je to?","Co je to?","Kdo jsem to?","Kde je to?","kdo is who; co is what."],
       ["or","Eva is a student. (start with Eva)","Eva je studentka","student","studentka is the feminine form for a woman, and je is the she-form."],
       ["or","We are students. (start with the verb)","Jsme studenti","jsou","jsme is the we-form; jsou is they."],
-      ["or","This is Eva. (start with To)","To je Eva","jsou","je is the on-form, for one person or thing: To je Eva."],
+      ["or","This is Eva. (start with To)","To je Eva","jsou","je is the she-form here; the same je is used for he and it: To je Eva."],
       ["fi","__ student.","I'm a student.","Jsem","Jsi|Je|Jste","I am is jsem. Czech can leave out já, but not the verb."],
       ["fi","__ studentka?","Are you a student? (to a woman you don't know)","Jste","Jsi|Jsem|Je","To a stranger you use vy, and vy takes jste."],
       ["fi","Eva a Petr __ studenti.","Eva and Petr are students.","jsou","je|jsme|jste","Two people, they: jsou."],

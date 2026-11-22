@@ -4,7 +4,7 @@ module.exports = {
 nula | NOO-lah | zero | The digit 0. Read a phone number one digit at a time.
 jedna | YEHD-nah | one | Feminine, with koruna.
 dva | dvah | two (masculine) | A masculine noun, and the plain count. With koruna, say dvě.
-dvě | dvyeh | two | Feminine. d stays d; v does not change it.
+dvě | dvyeh | two (feminine, neuter) | Feminine and neuter: dvě koruny. d stays d; v does not change it.
 čtyři | CHTIH-rzhih | four | The same form for every gender. With koruna: čtyři koruny.
 pět | pyeht | five | ě after p is y + e.
 sedm | SEH-doom | seven | A short u before the m. The aid writes doom.
@@ -17,7 +17,7 @@ dvě koruny | dvyeh KOH-roo-nih | two crowns | The form after 2, 3 and 4.
 čtyři koruny | CHTIH-rzhih KOH-roo-nih | four crowns | Still koruny. Five changes the word.
 deset korun | DEH-seht KOH-roon | ten crowns | Ten is past five, so korun, not koruny.
 pět korun | pyeht KOH-roon | five crowns | The form after 5. Not koruny.
-čtyři dva nula | CHTIH-rzhih dvah NOO-lah | four two zero | A phone number, one digit at a time. Not čtyři sta dvacet.
+čtyři dva nula | CHTIH-rzhih dvah NOO-lah | four two zero | A phone number, one digit at a time. You will also hear the digits grouped: čtyři sta dvacet.
 Kolik korun? | KOH-lihk KOH-roon | How many crowns? | The question when you are counting the money.
 `,
   "Shopping and clothes": `
@@ -31,10 +31,10 @@ ta mapa | tah MAH-pah | the map | The subject form. After hledám or mám it bec
 účtenka | OOHCH-tehn-kah | the receipt | ú at the start is ooh.
 černý | CHEHR-nee | black (masculine) | černá, černé for the other genders.
 černá bunda | CHEHR-naah BOON-dah | a black jacket | černá agrees with feminine bunda.
-malé | MAH-lehh | small (neuter) | A T-shirt: malé tričko. A man is malý, a woman malá.
+malé | MAH-lehh | small (neuter) | malé tričko. With a masculine noun malý, with a feminine noun malá.
 velké | VEHL-kehh | large (neuter) | The same three endings as malé.
 střední | STRSHEHD-nyee | medium | The size. One subject form for all three genders.
-Co chcete? | tsoh KHTSEH-teh | What would you like? | To the assistant. A friend hears Co chceš. You type chcete.
+Co si přejete? | tsoh sih PRSHEH-yeh-teh | What would you like? | What the shop assistant asks you. The vy-form. Co chcete would sound blunt.
 Kolik to stojí? | KOH-lihk toh STOH-yee | How much is it? | The price question. The answer is in crowns.
 Hledám mapu. | HLEH-daahm MAH-poo | I'm looking for a map. | mapa becomes mapu.
 Máte malé tričko? | MAAH-teh MAH-lehh TRIHCH-koh | Do you have a small T-shirt? | máte is the vy-form. malé agrees with tričko.
@@ -112,9 +112,9 @@ na univerzitě | NAH oo-nih-vehr-zih-tyeh | at the university | The place form. 
 práce | PRAAH-tseh | work; a job | Long á in the first syllable.
 Moje práce je dobrá. | MOH-yeh PRAAH-tseh yeh DOH-braah | My job is good. | práce is feminine, so moje and dobrá.
 Musím pracovat. | MOO-seem PRAH-tsoh-vaht | I have to work. | musím is the I-form.
-Můžete studovat tady. | MOOH-zheh-teh STOO-doh-vaht TAH-dih | You can study here. | můžete is the vy-form. The y in tady does not soften the d.
+Můžete tady studovat. | MOOH-zheh-teh TAH-dih STOO-doh-vaht | You can study here. | můžete is the vy-form. The y in tady does not soften the d.
 Chci studovat češtinu. | khtsih STOO-doh-vaht CHEHSH-tyih-noo | I want to study Czech. | čeština becomes češtinu. The ti is soft.
-Nemůžu dnes. | NEH-mooh-zhoo dnehs | I can't today. | ne- is the first syllable, and it has the beat.
+Dnes nemůžu. | dnehs NEH-mooh-zhoo | I can't today. | ne- is the first syllable of nemůžu, and it has the beat.
 studentka | STOO-dehnt-kah | a student (a woman) | A man says student. You still need jsem.
 To je můj kolega. | toh yeh moohy KOH-leh-gah | That is my colleague. | A man, so můj, even though kolega ends in -a.
 učitelka | OO-chih-tehl-kah | a teacher (a woman) | A man says učitel.
@@ -130,7 +130,7 @@ To se mi líbí. | toh seh mih LEE-bee | I like that. | Not food. se and mi sit 
 Líbí se vám? | LEE-bee seh vaahm | Do you like it? | A place, a thing or a person. Not food.
 To je mi líto. | toh yeh mih LEE-toh | I'm sorry. | For bad news. mi is the dative, named once, not a table.
 Všechno nejlepší. | FSHEHKH-noh NEHY-lehp-shee | All the best. | A birthday. v before š is f.
-Děkuji. | DYEH-koo-yih | Thank you. | The answer to a kind word.
+Líbí se vám Praha? | LEE-bee seh vaahm PRAH-hah | Do you like Prague? | vám is the vy word. Praha is the subject.
 Dobrou chuť. | DOH-brohw khooty | Enjoy your meal. | Said before you eat. chuť is feminine, so dobrou.
 Na zdraví. | NAH zdrah-vee | Cheers; bless you. | A drink, or when someone sneezes. na has the beat.
 Hezký den. | HEHS-kee dehn | Have a nice day. | Said as you leave a shop. hezký agrees with den.
@@ -138,15 +138,15 @@ To je hezké. | toh yeh HEHS-kehh | That's nice. | hezké agrees with to. Neuter
 Líbí se mi Eva. | LEE-bee seh mih EH-vah | I like Eva. | A person. Eva is the subject. Not the food verb.
 Chutná mi pivo. | KHOOT-naah mih PIH-voh | I like the beer. | The food verb. pivo is the subject.
 Gratuluju. | GRAH-too-loo-yoo | Congratulations. | The -uju form. Gratuluji is the same word.
-Moc děkuji. | mohdz DYEH-koo-yih | Thank you very much. | Děkuji with moc. Still the answer to a kind word.
+Moc děkuji. | mohdz DYEH-koo-yih | Thank you very much. | The answer to a kind word. moc makes it warmer.
 `,
   "Traps for English speakers": `
 host | hohst | a guest | The person who comes. Not the person who invites.
 kolej | KOH-lehy | a student dorm; a rail | Not a US college.
 aktuální | AHK-too-aahl-nyee | current | Of the present moment. Not the English word "actual". The long á is not the beat.
-Jsem student. | ysehm STOO-dehnt | I am a student. | Czech needs jsem.
+Jsem host. | ysehm hohst | I'm a guest. | The guest is the one who comes. The sentence needs jsem.
 Jsem učitelka. | ysehm OO-chih-tehl-kah | I am a teacher. | A woman. The sentence still needs jsem.
-pět korun | pyeht KOH-roon | five crowns | After 5 the form is korun.
+sto korun | stoh KOH-roon | a hundred crowns | From 5 up, and with sto, the form is korun.
 To je káva. | toh yeh KAAH-vah | This is coffee. | No Czech word for a or the.
 ten čaj | tehn chahy | the tea | Masculine ten. Not ta čaj.
 ta káva | tah KAAH-vah | the coffee | Feminine ta.

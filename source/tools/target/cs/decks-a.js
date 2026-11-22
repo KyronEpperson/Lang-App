@@ -22,7 +22,7 @@ pláž | plaahsh | a beach | á is long. ž at the end sounds like š.
   "Long and short vowels": `
 byt | biht | a flat; an apartment | Short y.
 být | beet | to be | Long ý. Same sound as bít.
-dobrý | DOH-bree | good (masculine) | The beat is DOH, not the long ý.
+malý | MAH-lee | small (masculine) | The beat is MAH, not the long ý.
 káva | KAAH-vah | coffee | á is aah.
 dům | doohm | a house | ů is ooh. Without the ring: domu, as in do domu.
 pas | pahs | a passport | Short a. The same spelling is also the waist.
@@ -41,7 +41,7 @@ víno | VEE-noh | wine | The long í is the first syllable, so it is the beat.
   "ř and ch": `
 tři | trshih | three | ř after t is rsh.
 dobře | DOH-brzheh | well | ř here is rzh.
-chléb | khlehhp | bread | ch is kh. Final b is p.
+moře | MOH-rzheh | the sea | ř between two vowels is the buzzing rzh.
 led | leht | ice | Same sound as let, a flight.
 vlk | vllk | a wolf | ll is syllabic l. Do not add a vowel.
 let | leht | a flight | Same sound as led. The spelling is different.
@@ -103,7 +103,7 @@ ta žena | tah ZHEH-nah | the woman; that woman | Feminine ta.
 to dítě | toh DYEE-tyeh | the child | Neuter to.
 ten muž | tehn moosh | the man | Masculine ten. muž is masculine. Final ž sounds like š.
 to město | toh MNYEHS-toh | the town | Neuter to.
-ten byt | tehn biht | the flat | Masculine ten. A consonant ending is often masculine.
+ten byt | tehn biht | the apartment | Masculine ten. A consonant ending is often masculine.
 To je moje matka. | toh yeh MOH-yeh MAHT-kah | That is my mother. | moje. má is the short form you may see.
 To je můj otec. | toh yeh moohy OH-tehts | That is my father. | můj. Final c is ts.
 To je moje dítě. | toh yeh MOH-yeh DYEE-tyeh | That is my child. | moje for neuter too.

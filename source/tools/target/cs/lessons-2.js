@@ -11,7 +11,7 @@ module.exports = [
 <p>English says "I do not have". Czech puts <b>ne</b> on the front of the verb and writes it as one word: <b>mám</b> (I have) becomes <b>nemám</b> (I don't have). The ending stays the same, so the person is still in the ending.</p>
 <div class="tbl"><table><tr><th>Yes</th><th>No</th><th>English</th></tr><tr><td class="k">mám</td><td class="k">nemám</td><td>I don't have</td></tr><tr><td class="k">máte</td><td class="k">nemáte</td><td>you don't have</td></tr><tr><td class="k">mluvím</td><td class="k">nemluvím</td><td>I don't speak</td></tr><tr><td class="k">studuju</td><td class="k">nestuduju</td><td>I don't study</td></tr></table></div>
 {{ex:Nemám čas.|NEH-maahm chahs|I don't have time.}}
-{{ex:Nemluvím česky.|NEHM-loo-veem CHEHS-kih|I don't speak Czech.}}
+{{ex:Nemluvím česky.|NEH-mloo-veem CHEHS-kih|I don't speak Czech.}}
 <h3>být: one irregular form</h3>
 <p><b>jsem</b> becomes <b>nejsem</b>, <b>jste</b> becomes <b>nejste</b>, <b>jsme</b> becomes <b>nejsme</b> and <b>jsou</b> becomes <b>nejsou</b>. The odd one is <b>je</b> (is): its "not" form is <b>není</b>.</p>
 {{ex:Nejsem student.|NEHY-sehm STOO-dehnt|I'm not a student.}}
@@ -72,7 +72,7 @@ module.exports = [
 {{ex:třicet pět|TRSHIH-tseht pyeht|thirty-five}}
 <p>You will also hear the old order, "five and thirty", as one word. You only need to recognize it.</p>
 <h3>Phone numbers</h3>
-<p>The easy way, which everyone understands, is one digit at a time.</p>
+<p>The easy way, which everyone understands, is one digit at a time. Czechs also group the digits into bigger numbers, so listen for both.</p>
 {{ex:šest nula dva, pět pět osm|shehst NOO-lah dvah pyeht pyeht OH-soom|602 558}}
 <h3>The koruna rule</h3>
 <p>English adds -s after any number above one. Czech has three forms of <b>koruna</b> (the Czech crown):</p>
@@ -217,7 +217,7 @@ module.exports = [
 <p>Answer with <b>Dám si</b> and the object form: <b>Dám si kávu</b>. Or just name the thing and add <b>prosím</b>. Both of these are normal: the first is the plain dictionary form, and the second is the object form, as if <b>Dám si</b> were in front of it.</p>
 {{ex:Jedna káva, prosím.|YEHD-nah KAAH-vah PROH-seem|One coffee, please.}}
 {{ex:Jednu kávu, prosím.|YEHD-noo KAAH-voo PROH-seem|A coffee, please.}}
-<p>With pivo, one is <b>jedno</b>: <b>jedno pivo</b>. The number matches the noun's gender, just like an adjective. Masculine and neuter nouns look the same in both forms, so <b>Jeden čaj, prosím</b> and <b>Dám si čaj</b> need no change at all.</p>
+<p>With pivo, one is <b>jedno</b>: <b>jedno pivo</b>. The number matches the noun's gender, just like an adjective. A masculine thing and a neuter noun look the same in both forms, so <b>Jeden čaj, prosím</b> and <b>Dám si čaj</b> need no change at all.</p>
 <h3>How much is it?</h3>
 <p>English asks "How much is it?". Czech asks "How much does it cost?": <b>Kolik to stojí?</b>. The answer uses the koruna rule you learned with the numbers: <b>jedna koruna</b>, <b>dvě koruny</b>, <b>pět korun</b>. Prices are usually big numbers, so you will mostly need <b>korun</b>.</p>
 {{ex:Kolik to stojí?|KOH-lihk toh STOH-yee|How much is it?}}
@@ -225,7 +225,7 @@ module.exports = [
 {{ex:Káva stojí padesát korun.|KAAH-vah STOH-yee PAH-deh-saaht KOH-roon|The coffee is fifty crowns.}}
 <p>A menu may write Kč after the number. Read it as the word: <b>padesát korun</b>, never "fifty Kč" and never dollars.</p>
 <h3>Paying</h3>
-<p>To get the check, say <b>Účet, prosím</b> ("the bill, please") or <b>Zaplatím, prosím</b> ("I'll pay, please"). <b>Účet</b> starts with a long <b>ú</b>.</p>
+<p>To get the check, say <b>Účet, prosím</b> ("the check, please") or <b>Zaplatím, prosím</b> ("I'll pay, please"). <b>Účet</b> starts with a long <b>ú</b>.</p>
 {{ex:Účet, prosím.|OOH-cheht PROH-seem|The check, please.}}
 {{ex:Zaplatím, prosím.|ZAH-plah-tyeem PROH-seem|I'd like to pay, please.}}
 <h3>Two wishes</h3>
@@ -240,7 +240,7 @@ module.exports = [
       ["A beer costs 50 crowns. Which is right?",["Pivo stojí padesát koruny.","Pivo stojí padesát korun.","Pivo stojí padesát koruna.","Pivo stojíte padesát korun."],1,"From 5 up, the form is korun, and the beer is the subject, so stojí."]
     ],
     practice: [
-      ["mc","'The check, please.' =","Účet, prosím.","Účet, děkuji.","Účty, prosím.","Účet, ahoj.","Účet, prosím asks for the bill."],
+      ["mc","'The check, please.' =","Účet, prosím.","Účet, děkuji.","Účty, prosím.","Účet, ahoj.","Účet, prosím asks for the check."],
       ["mc","'I'll have a beer.' =","Dám si pivo.","Dám si piva.","Dám pivo si.","Mám si pivo.","pivo is neuter, so it stays pivo, and si sits second."],
       ["mc","'The soup is sixty crowns.' =","Polévka stojí šedesát korun.","Polévka stojí šedesát koruny.","Polévka stojí šedesát koruna.","Polévka stojíte šedesát korun.","From 5 up, korun, and the soup is the subject, so stojí."],
       ["mc","What do you say before you start eating?","Dobrou chuť.","Na zdraví.","Na shledanou.","To je mi líto.","Dobrou chuť is 'enjoy your meal'. Na zdraví is 'cheers', for a drink."],
@@ -397,7 +397,7 @@ module.exports = [
       ["mc","Which one is the friend's (ty) form?","chceš","chcete","chci","chce","chceš is for a friend. You say chcete to a stranger."],
       ["mc","'I want a coffee.' =","Chci kávu.","Chci káva.","Chcu kávu.","Chtít kávu.","chci is 'I want', and káva becomes kávu as an object."],
       ["mc","Nemusíte means:","you don't have to","you must not","you can't","you don't want to","ne- with muset means there is no need."],
-      ["or","I want to study Czech. (start with Chci)","Chci studovat češtinu","studuju","Chci is the I-form, and the second verb stays studovat."],
+      ["or","I want to study Czech. (start with Chci, end with češtinu)","Chci studovat češtinu","studuju","Chci is the I-form, and the second verb stays studovat."],
       ["or","Do you have to work? (to a stranger)","Musíte pracovat?","Musíš","Musíte is the vy-form: the verb ending is -íte."],
       ["or","Can I pay? (start with the verb)","Můžu zaplatit?","zaplatím","Můžu carries the I-form ending, and zaplatit stays in the -t form."],
       ["fi","Můžete __ pomalu?","Can you speak slowly?","mluvit","mluvíte|mluvím|mluvíš","After můžete, the second verb stays in the -t form."],

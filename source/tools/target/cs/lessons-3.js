@@ -182,13 +182,13 @@ module.exports = [
       ["mc", "Which one is the 'go!' said to a stranger?", "Jděte", "Jdi", "Jdu", "Jde", "jděte is said to a stranger; jdi is said to a friend."],
       ["mc", "'Is it far?' =", "Je to daleko?", "Je to blízko?", "Je daleko to?", "Jsou to daleko?", "daleko is far; blízko is close."],
       ["or", "How do I get downtown? (start with Jak, end with the place)", "Jak | se | dostanu | do centra", "dostanete | v centru", "dostanu is the I-form; dostanete would be the vy-form."],
-      ["or", "Where is that shop?", "Kde | je | ten | obchod", "ta | to", "obchod is masculine, so it takes the masculine form ten."],
+      ["or", "Where is that shop? (start with Kde, end with obchod)", "Kde | je | ten | obchod", "ta | to", "obchod is masculine, so it takes the masculine form ten."],
       ["or", "Go straight, then right (to a stranger; start with the verb)", "Jděte | rovně | pak | doprava", "Jdi | doleva", "jděte is the vy-form for a stranger; jdi is the ty-form."],
       ["fi", "Jak se dostanu na __?", "How do I get to the post office?", "poštu", "poště|pošta|poštou", "The way there takes the object form: na poštu. na poště is where it is."],
       ["fi", "Je to __.", "It's close.", "blízko", "daleko|doleva|rovně", "blízko is close; daleko is far."],
       ["fi", "Jděte rovně a pak __.", "Go straight and then left.", "doleva", "doprava|daleko|rovně", "doleva is to the left; doprava is to the right."],
       ["ty", "How do I get to the station?", "Jak se dostanu na nádraží|Promiňte jak se dostanu na nádraží", "dostat se · nádraží · na", "dostanete v", "dostanu is the I-form, and the way there takes na: na nádraží."],
-      ["ty", "Where is that shop?", "Kde je ten obchod", "kde · ten / ta / to · obchod", "ta to", "obchod is masculine, so ten, the masculine form."],
+      ["ty", "Where is that shop?", "Kde je ten obchod|Kde ten obchod je", "kde · ten / ta / to · obchod", "ta to", "obchod is masculine, so ten, the masculine form."],
       ["ty", "Go straight. (to a stranger)", "Jděte rovně|Jděte rovně prosím|Prosím jděte rovně", "jít · rovně · the 'go!' for a stranger ends in -ěte", "jdi jdu", "jděte is the vy-form of 'go!'; jdi is the ty-form."]
     ]
   },
@@ -200,8 +200,8 @@ module.exports = [
     body: `
 <p>In a Czech shop the assistant greets you with <b>Dobrý den</b>, and you answer the same way. You and the assistant are strangers, so both of you use vy.</p>
 <h3>What the assistant says</h3>
-<p>You may hear <b>Co chcete?</b> (What would you like?). <b>chcete</b> is the vy-form. A friend would hear <b>Co chceš?</b>, the ty-form, and you never say that to the assistant. If you only want to browse, say <b>Jen se dívám</b>; <b>se</b> sits in second place, as in <b>Jak se máte</b>. If you want help, just ask.</p>
-{{ex:Co chcete?|tsoh KHTSEH-teh|What would you like?}}
+<p>You may hear <b>Co si přejete?</b> (What would you like?). <b>přejete</b> is the vy-form. A friend would hear <b>Co si přeješ?</b>, the ty-form, and you never use ty with the assistant. If you only want to browse, say <b>Jen se dívám</b>; <b>se</b> sits in second place, as in <b>Jak se máte</b>. If you want help, just ask.</p>
+{{ex:Co si přejete?|tsoh sih PRSHEH-yeh-teh|What would you like?}}
 {{ex:Jen se dívám.|yehn seh DYEE-vaahm|I'm just looking.}}
 <h3>Asking for something</h3>
 <p>Use <b>Máte…?</b> (Do you have…?) or <b>Hledám…</b> (I'm looking for…). After <b>hledám</b>, a feminine word in -a takes the object form: bunda becomes <b>bundu</b>. Neuter <b>tričko</b> stays the same. Both questions are polite on their own; add <b>prosím</b> at the end to sound warmer.</p>
@@ -227,13 +227,13 @@ module.exports = [
     ],
     practice: [
       ["mc", "'How much is it?' =", "Kolik to stojí?", "Kolik je hodin?", "Jak to stojí?", "Kolik to stojíte?", "Kolik to stojí? is the price question."],
-      ["mc", "The assistant asks Co chcete? Which form is chcete?", "the vy-form, for a stranger", "the ty-form, for a friend", "the I-form", "a past form", "chcete ends in -te: the form for a stranger."],
+      ["mc", "The assistant asks Co si přejete? Which form is přejete?", "the vy-form, for a stranger", "the ty-form, for a friend", "the I-form", "a past form", "přejete ends in -te: the form for a stranger."],
       ["mc", "'a white T-shirt' =", "bílé tričko", "bílý tričko", "bílá tričko", "bílou tričko", "tričko is neuter, so the adjective ends in -é."],
       ["mc", "'I'm looking for a jacket' =", "Hledám bundu.", "Hledám bunda.", "Hledáte bundu.", "Hledám bundě.", "After hledám, bunda takes the object form bundu."],
       ["mc", "'It's fifty crowns' =", "Stojí to padesát korun.", "Stojí to padesát koruny.", "Stojí to padesát koruna.", "Stojíte to padesát korun.", "Fifty is five and up, so korun."],
       ["or", "Do you have a large T-shirt? (to the assistant; start with the verb)", "Máte | velké | tričko", "Máš | velký", "máte is the vy-form for the assistant, and velké agrees with neuter tričko."],
       ["or", "The jacket is black (start with the subject)", "Ta | bunda | je | černá", "černý | černé", "bunda is feminine, so the color takes the feminine form černá."],
-      ["or", "What would you like? (the assistant to you)", "Co | chcete", "chceš | chci", "The assistant uses the vy-form chcete; chceš is the ty-form."],
+      ["or", "What would you like? (the assistant to you)", "Co | si | přejete", "přeješ", "The assistant uses the vy-form přejete; přeješ is the ty-form."],
       ["fi", "To tričko je __.", "The T-shirt is white.", "bílé", "bílý|bílá|bílou", "tričko is neuter, so bílé."],
       ["fi", "Hledám __.", "I'm looking for a jacket.", "bundu", "bunda|bundě|bundou", "After hledám, bunda becomes bundu."],
       ["fi", "Stojí to sto __.", "It's a hundred crowns.", "korun", "koruny|koruna|korunu", "A hundred is five and up, so korun."],
@@ -328,7 +328,7 @@ module.exports = [
       ["mc", "'Eva will be at home' =", "Eva bude doma.", "Eva budu doma.", "Eva bude být doma.", "Eva je bude doma.", "For she the form is bude, and bude alone means 'will be'."],
       ["mc", "Which one is a normal way to say 'I'm going to Prague tomorrow' (by train)?", "Zítra jedu do Prahy.", "Zítra jdu do Prahy vlakem.", "Zítra půjdu do Prahy vlakem.", "Zítra jsem jel do Prahy.", "With a time word the present jedu works for a plan, and a train means jet."],
       ["or", "Will you be here tomorrow? (to a stranger; start with the verb, end with zítra)", "Budete | tady | zítra", "Budeš | Bude", "budete is the vy-form; budeš is the ty-form for a friend."],
-      ["or", "We will study Czech (start with the verb)", "Budeme | studovat | češtinu", "Budu | studujeme", "budeme is the we-form, and the second verb stays in its base form."],
+      ["or", "We will study Czech (start with the verb, end with češtinu)", "Budeme | studovat | češtinu", "Budu | studujeme", "budeme is the we-form, and the second verb stays in its base form."],
       ["or", "I'll be tired (a woman; start with the verb)", "Budu | unavená", "unavený | Budeš", "A woman uses the feminine form unavená, and budu is the I-form."],
       ["fi", "Zítra __ pracovat.", "Tomorrow I'll work.", "budu", "budete|jsem|bude", "budu is 'I will'."],
       ["fi", "__ domů pěšky.", "I'll walk home.", "Půjdu", "Pojedu|Budu jít|Půjdeš", "On foot is jít, and 'I'll go' is půjdu, without budu."],
