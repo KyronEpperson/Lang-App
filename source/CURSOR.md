@@ -157,6 +157,19 @@ If a script does not accept the output path as shown, read its first lines for t
 
 Hand-off: `docs/briefs/<xx>-handoff.md`, same headings as for an English → X course, plus one line on anything in the interface that does not fit on a phone screen (long labels). Right-to-left languages (Urdu, Persian): the app already supports right-to-left for Arabic; list anything that looks specific to Arabic under "Needs from the lead". The app also has to be told a new native language exists (picker, pack loading): that is Claude's merge job, not yours.
 
+## Checks the validator does not make (added after the first review)
+
+Do these in stage 5 and again in stage 6. Each one was a real fault in the first batch.
+
+1. **Pron tool smoke test.** Before any writer starts, run `respell.js` on the 40 most common words of the language (articles, pronouns, "to be", "to have", yes, no, hello, thanks, numbers 1–10) and check each against a dictionary. An error in a word like "the" reaches hundreds of cards.
+2. **The aid is read by an English speaker.** A letter in the aid must sound the way English spelling suggests. Never write `j` for the y-sound, `c` for ts, `w` for v, and so on, even if the key explains it.
+3. **No card in two decks.** Treat the validator's "is in two decks" warning as an error. The release harness fails on it.
+4. **Wrong options must stay wrong.** The app ignores capitals, punctuation and apostrophes when it checks an answer, and ignores accents when `accents` is true. A wrong option that differs from the answer only in those is accepted as correct. Never write one; test the point another way and explain it in the `why`.
+5. **New script: the aid is lexicon-first.** For a script that does not show its vowels or lengths reliably (Bengali, Amharic, and the like), `respell.js` looks words up in `lexicon.txt` and throws on unknown words. Do not ship `pron: none` for a new-script course.
+6. **Course codes** may be two to four letters.
+
+Claude's reviews are in `docs/reviews/`. Read the newest one when you start back up, before any new writing, and act on every "CHANGES NEEDED" list.
+
 ## What to hand back
 
 When stage 6 passes: write `docs/briefs/en-<t>-handoff.md` (format in `docs/briefs/HANDOFF-TEMPLATES.md`), commit, and mark the pull request "Ready for review". The pull request must contain only the files in rule 2 (plus the queue status line in `docs/CURSOR-QUEUE.md`).
