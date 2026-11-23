@@ -37,7 +37,7 @@ module.exports = {
     { t: "order", p: "مجھے کافی پسند ہے", a: ["I", "like", "coffee"], x: ["copy"], why: "coffee میں f کی آواز ہے: اوپر کے دانت نچلے ہونٹ پر۔ p سے لکھیں تو copy بن جاتا ہے، یعنی نقل۔" },
 
     { t: "fill", q: "I eat __ice every day.", p: "میں روز چاول کھاتا ہوں", a: ["r"], o: ["l", "n", "w"], why: "چاول rice ہے، r سے۔ l سے لکھیں تو lice بن جاتا ہے، یعنی جوئیں۔" },
-    { t: "fill", q: "I __ink so.", p: "میرا بھی یہی خیال ہے", a: ["th"], o: ["s", "t", "p"], why: "think کے شروع میں th ہے۔ s لکھیں تو sink بن جاتا ہے۔" },
+    { t: "fill", q: "I __ink so.", p: "میرے خیال میں ایسا ہی ہے", a: ["th"], o: ["s", "t", "p"], why: "think کے شروع میں th ہے۔ s لکھیں تو sink بن جاتا ہے۔" },
     { t: "fill", q: "This is my __.", p: "یہ میرا بیگ ہے", a: ["bag"], o: ["back", "bug", "beg"], why: "بیگ bag ہے، آخر میں g؛ آخری آواز پوری بولیں۔ آخر میں k کی آواز ہو تو back بن جاتا ہے، یعنی پیٹھ۔" },
 
     { t: "type", p: "تین درخت", a: ["three trees"], hint: "الفاظ: three · tree — تین ہوں تو جمع", x: ["tree"], why: "three کے شروع میں th ہے اور tree کے شروع میں tr۔ تین ہیں، اس لیے جمع کا -s لگتا ہے: trees۔" },
@@ -48,7 +48,7 @@ module.exports = {
   articles: [
     { t: "mc", q: "انگریزی میں: \"میں طالب علم ہوں\"", o: ["I'm a student.", "I'm student.", "I'm an student.", "I'm the student."], why: "پیشے یا حیثیت سے پہلے آرٹیکل a ضرور آتا ہے، حالانکہ اردو جملے میں ایسا کوئی لفظ نہیں۔" },
     { t: "mc", q: "انگریزی میں: \"میرے پاس ایک آئیڈیا ہے\"", o: ["I have an idea.", "I have a idea.", "I have idea.", "I have ideas."], why: "idea واول کی آواز سے شروع ہوتا ہے، اس لیے آرٹیکل an آتا ہے۔" },
-    { t: "mc", q: "انگریزی میں \"ایک گھنٹہ\" کو کیا کہیں گے؟", o: ["an hour", "a hour", "one hours", "hour"], why: "hour کا h خاموش ہے اور لفظ واول کی آواز سے شروع ہوتا ہے، اس لیے آرٹیکل an۔ اردو کے \"ایک\" کے لیے یہاں one نہیں آتا۔" },
+    { t: "mc", q: "انگریزی میں \"ایک گھنٹہ\" کو کیا کہیں گے؟", o: ["an hour", "a hour", "one hours", "hour"], why: "hour کا h خاموش ہے اور لفظ واول کی آواز سے شروع ہوتا ہے، اس لیے آرٹیکل an۔ گنتی پر زور نہ ہو تو اردو کے \"ایک\" کے لیے a یا an کافی ہے؛ اور one کے ساتھ جمع hours نہیں آ سکتا۔" },
     { t: "mc", q: "انگریزی میں: \"مجھے کتے بہت پسند ہیں\" (عام طور پر، سب کتے)", o: ["I love dogs.", "I love a dog.", "I love the dog.", "I love dog."], why: "پوری قسم کی بات ہو تو اسم جمع میں اور آرٹیکل کے بغیر آتا ہے: dogs۔" },
     { t: "mc", q: "انگریزی میں: \"میرے پاس ایک کتا ہے۔ وہ کتا بہت پیارا ہے\"", o: ["I have a dog. The dog is so cute.", "I have the dog. A dog is so cute.", "I have dog. The dog is so cute.", "I have a dog. A dog is so cute."], why: "پہلی بار ذکر ہو تو آرٹیکل a آتا ہے، اور اسی چیز کا دوبارہ ذکر ہو تو the۔" },
 
@@ -62,7 +62,7 @@ module.exports = {
 
     { t: "type", p: "میرے پاس ایک آئیڈیا ہے", a: ["I have an idea", "I've got an idea", "I have got an idea"], hint: "الفاظ: have · idea — واول کی آواز سے پہلے کون سا آرٹیکل؟", x: ["a"], why: "idea واول کی آواز سے شروع ہوتا ہے، اس لیے آرٹیکل an آتا ہے۔" },
     { t: "type", p: "مجھے کتے پسند ہیں (عام طور پر، سب کتے)", a: ["I like dogs", "I love dogs"], hint: "الفاظ: like · dog — عام بات ہو تو جمع", x: ["dog", "a"], why: "پوری قسم کی بات ہو تو اسم جمع میں اور آرٹیکل کے بغیر آتا ہے: dogs۔" },
-    { t: "type", p: "چلو، دوپہر کا کھانا کھاتے ہیں", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "الفاظ: let's · have · lunch — کھانے کے نام سے پہلے آرٹیکل؟", x: ["a", "the"], why: "کھانے کے ناموں (breakfast، lunch، dinner) سے پہلے آرٹیکل نہیں لگتا۔" }
+    { t: "type", p: "چلو، دوپہر کا کھانا کھاتے ہیں (Let's سے شروع کریں)", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "الفاظ: let's · have · lunch — کھانے کے نام سے پہلے آرٹیکل؟", x: ["a", "the"], why: "کھانے کے ناموں (breakfast، lunch، dinner) سے پہلے آرٹیکل نہیں لگتا۔" }
   ],
 
   be: [
@@ -77,12 +77,12 @@ module.exports = {
     { t: "order", p: "اس (لڑکی) کے پاس دو کتے ہیں", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "she کے ساتھ has آتا ہے۔ دو ہیں، اس لیے جمع کا -s لگتا ہے: dogs۔" },
 
     { t: "fill", q: "My brother __ in Seoul.", p: "میرا بھائی سیول میں رہتا ہے", a: ["lives"], o: ["live", "is live", "living"], why: "فاعل he ہے، اس لیے فعل پر -s لگتا ہے: lives۔ اور live کے ساتھ is نہیں آتا۔" },
-    { t: "fill", q: "__ you tired?", p: "کیا تم تھکے ہوئے ہو؟", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired حالت ہے، اس لیے سوال be سے بنتا ہے، اور you کے ساتھ are آتا ہے۔" },
-    { t: "fill", q: "We __ hungry.", p: "ہمیں بھوک لگی ہے", a: ["are"], o: ["is", "am", "do"], why: "hungry حالت ہے، اس لیے be آتا ہے، اور we کے ساتھ are۔" },
+    { t: "fill", q: "__ you tired?", p: "کیا تم تھکے ہوئے ہو؟", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired صفت ہے، فعل نہیں۔ جملے میں کوئی عام فعل نہیں، اس لیے سوال be سے بنتا ہے، اور you کے ساتھ are آتا ہے۔" },
+    { t: "fill", q: "We __ hungry.", p: "ہمیں بھوک لگی ہے", a: ["are"], o: ["is", "am", "do"], why: "hungry صفت ہے، فعل نہیں۔ جملے میں کوئی عام فعل نہیں، اس لیے be آتا ہے، اور we کے ساتھ are۔" },
 
     { t: "type", p: "وہ (لڑکا) استاد ہے", a: ["He's a teacher", "He is a teacher"], hint: "لفظ: teacher — be اور پیشے سے پہلے آرٹیکل", x: ["the"], why: "پہچان بتانے کے لیے be آتا ہے، اور پیشے سے پہلے آرٹیکل a۔" },
     { t: "type", p: "مجھے کافی پسند نہیں", a: ["I don't like coffee", "I do not like coffee"], hint: "الفاظ: don't · like · coffee — عام فعل کا منفی", x: ["am"], why: "like عام فعل ہے، اس لیے منفی don't سے بنتا ہے۔ I'm not like غلط ہے۔" },
-    { t: "type", p: "کیا اس (لڑکی) کے پاس ایک بلی ہے؟", a: ["Does she have a cat"], hint: "الفاظ: does · have · cat — ایک بلی سے پہلے آرٹیکل", x: ["has"], why: "does آئے تو فعل پہلی فارم میں رہتا ہے: have۔ ایک بلی ہے، اس لیے آرٹیکل a۔" }
+    { t: "type", p: "کیا اس (لڑکی) کے پاس ایک بلی ہے؟ (Does سے شروع کریں)", a: ["Does she have a cat"], hint: "الفاظ: does · have · cat — ایک بلی سے پہلے آرٹیکل", x: ["has"], why: "does آئے تو فعل پہلی فارم میں رہتا ہے: have۔ ایک بلی ہے، اس لیے آرٹیکل a۔" }
   ],
 
   polite: [
@@ -93,10 +93,10 @@ module.exports = {
     { t: "mc", q: "جہاز میں کہنا ہے: \"مجھے کھڑکی والی سیٹ چاہیے\"", o: ["I'd like a window seat.", "I'd like window seat.", "I like a window seat.", "I'd like the window seats."], why: "I'd like شائستہ درخواست ہے۔ ایک سیٹ ہے، اس لیے آرٹیکل a۔" },
 
     { t: "order", p: "ایک لاٹے دے دیں گے؟", a: ["Can", "I", "get", "a", "latte"], x: ["the", "give"], why: "پہلی بار منگوائی جانے والی ایک چیز ہے، اس لیے آرٹیکل a۔" },
-    { t: "order", p: "کھڑکی کھول دیں تو آپ کو برا تو نہیں لگے گا؟ (اسی کمرے کی کھڑکی)", a: ["Would", "you", "mind", "opening", "the", "window"], x: ["open", "a"], why: "mind کے بعد -ing والی شکل آتی ہے۔ وہی کھڑکی جسے دونوں جانتے ہیں، اس لیے آرٹیکل the۔" },
+    { t: "order", p: "اگر برا نہ مانیں تو کھڑکی کھول دیں گے؟ (اسی کمرے کی کھڑکی)", a: ["Would", "you", "mind", "opening", "the", "window"], x: ["open", "a"], why: "mind کے بعد -ing والی شکل آتی ہے۔ وہی کھڑکی جسے دونوں جانتے ہیں، اس لیے آرٹیکل the۔" },
     { t: "order", p: "کیا آپ ذرا آہستہ بول سکتے ہیں؟", a: ["Could", "you", "speak", "more", "slowly"], x: ["slow"], why: "Could you سے شائستہ درخواست بنتی ہے۔ فعل کے ساتھ slowly آتا ہے، slow نہیں۔" },
 
-    { t: "fill", q: "Would you mind __ the door?", p: "دروازہ بند کر دیں تو آپ کو برا تو نہیں لگے گا؟", a: ["closing"], o: ["close", "to close", "closed"], why: "mind کے بعد -ing والی شکل آتی ہے: closing۔" },
+    { t: "fill", q: "Would you mind __ the door?", p: "اگر برا نہ مانیں تو دروازہ بند کر دیں گے؟", a: ["closing"], o: ["close", "to close", "closed"], why: "mind کے بعد -ing والی شکل آتی ہے: closing۔" },
     { t: "fill", q: "Can I get __ iced coffee?", p: "کیا مجھے ایک آئسڈ کافی مل سکتی ہے؟", a: ["an"], o: ["a", "two", "many"], why: "iced واول کی آواز سے شروع ہوتا ہے، اس لیے آرٹیکل an۔" },
     { t: "fill", q: "No, not at __.", p: "جی، ضرور (Would you mind والے سوال کا جواب)", a: ["all"], o: ["any", "one", "ever"], why: "No, not at all کا مطلب ہے \"مجھے بالکل برا نہیں لگے گا\"، یعنی \"جی، ضرور\"۔" },
 
@@ -108,7 +108,7 @@ module.exports = {
   tense: [
     { t: "mc", q: "انگریزی میں: \"میں ابھی کافی پی رہا ہوں\"", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "جو کام اسی وقت ہو رہا ہو اس کے لیے be اور -ing والی شکل آتی ہے، اور be چھوڑا نہیں جا سکتا۔" },
     { t: "mc", q: "انگریزی میں: \"پچھلے ویک اینڈ پر میں ساحل پر گیا تھا\"", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go کی دوسری فارم went ہے؛ \"گیا تھا\" کے لیے was نہیں لگتا۔ ساحل سے پہلے آرٹیکل the آتا ہے: the beach۔" },
-    { t: "mc", q: "اگلے مہینے کا منصوبہ بتانا ہے: \"میں جیجو جانے والا ہوں\"", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "پہلے سے بنے ہوئے منصوبے کے لیے be going to اور فعل کی پہلی فارم آتی ہے۔" },
+    { t: "mc", q: "اگلے مہینے کا منصوبہ بتانا ہے: \"میں جیجو جانے والا ہوں\" (جیجو: جنوبی کوریا کا ایک جزیرہ)", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "پہلے سے بنے ہوئے منصوبے کے لیے be going to اور فعل کی پہلی فارم آتی ہے۔" },
     { t: "mc", q: "دروازے کی گھنٹی بجی۔ اسی وقت کہنا ہے: \"میں دیکھتی ہوں!\"", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "جو فیصلہ بولتے وقت ہو، اس کے لیے will آتا ہے۔" },
     { t: "mc", q: "فعل see کی دوسری فارم کیا ہے؟", o: ["saw", "seed", "seen", "sawed"], why: "see بے قاعدہ فعل ہے: see، saw، seen۔" },
 
@@ -142,7 +142,7 @@ module.exports = {
 
     { t: "type", p: "میں صبح کے وقت کافی پیتا ہوں", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "الفاظ: coffee · morning — in اور آرٹیکل", x: ["at"], why: "دن کے حصے کے ساتھ in آتا ہے، اور آرٹیکل the ضرور لگتا ہے: in the morning۔" },
     { t: "type", p: "میں گھر پر ہوں", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "الفاظ: at · home — آرٹیکل کے بغیر", x: ["the"], why: "at home آرٹیکل the کے بغیر آتا ہے۔" },
-    { t: "type", p: "اگلے ویک اینڈ پر ملتے ہیں", a: ["See you next weekend"], hint: "الفاظ: see · next weekend — next سے پہلے preposition؟", x: ["on"], why: "next سے پہلے کوئی preposition نہیں لگتا۔" }
+    { t: "type", p: "اگلے ویک اینڈ پر ملتے ہیں (See you سے شروع کریں)", a: ["See you next weekend"], hint: "الفاظ: see · next weekend — next سے پہلے preposition؟", x: ["on"], why: "next سے پہلے کوئی preposition نہیں لگتا۔" }
   ],
 
   smalltalk: [
@@ -150,19 +150,19 @@ module.exports = {
     { t: "mc", q: "کوئی کہے I don't drink coffee تو \"میں بھی نہیں پیتا\" کیسے کہیں گے؟", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "منفی جملے سے اتفاق کے لیے Me neither کہتے ہیں۔" },
     { t: "mc", q: "بات چیت سلیقے سے ختم کرنی ہو تو کیا کہیں گے؟", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "I should get going نرمی سے رخصت لینے کا جملہ ہے۔" },
     { t: "mc", q: "پہلی بار ملنے والے سے بات شروع کرنے کے لیے کون سا جملہ اچھا ہے؟", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "موسم سب سے محفوظ موضوع ہے۔ تنخواہ، شادی اور وزن کے سوال پہلی ملاقات میں ذاتی سمجھے جاتے ہیں۔" },
-    { t: "mc", q: "کوئی کہے I went to Busan last weekend تو دلچسپی کیسے ظاہر کریں گے؟", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really اور That sounds fun سے دلچسپی ظاہر ہوتی ہے۔" },
+    { t: "mc", q: "کوئی کہے I went to Murree last weekend تو دلچسپی کیسے ظاہر کریں گے؟", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really اور That sounds fun سے دلچسپی ظاہر ہوتی ہے۔" },
 
     { t: "order", p: "ویک اینڈ کا کوئی پروگرام ہے؟", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "اس سوال میں plans جمع میں آتا ہے۔ اسی آنے والے ویک اینڈ کی بات ہے، اس لیے آرٹیکل the۔" },
     { t: "order", p: "آپ سے بات کر کے اچھا لگا", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "یہ بات چیت ختم کرتے وقت کا جملہ ہے۔ nice کے بعد talking آتا ہے، talk نہیں۔" },
     { t: "order", p: "مجھے ڈراؤنی فلمیں پسند نہیں", a: ["I", "don't", "like", "horror", "movies"], x: ["movie", "the"], why: "فلموں کی عام بات ہے، اس لیے جمع movies، اور آرٹیکل کے بغیر۔" },
 
-    { t: "fill", q: "Pretty good! How __ you?", p: "بہت اچھا! اور تمہارا کیا حال ہے؟", a: ["about"], o: ["for", "with", "of"], why: "مختصر جواب دے کر How about you سے وہی سوال پلٹ کر پوچھنا اچھے آداب میں شامل ہے۔" },
+    { t: "fill", q: "Pretty good! How __ you?", p: "کافی اچھا! اور تمہارا کیا حال ہے؟", a: ["about"], o: ["for", "with", "of"], why: "مختصر جواب دے کر How about you سے وہی سوال پلٹ کر پوچھنا اچھے آداب میں شامل ہے۔" },
     { t: "fill", q: "I know, __?", p: "بالکل، ہے نا!", a: ["right"], o: ["light", "yes", "true"], why: "I know, right زور دے کر اتفاق کرنے کا جملہ ہے۔ right کے شروع میں r ہے، l نہیں۔" },
     { t: "fill", q: "Have you seen any good __ lately?", p: "آج کل کوئی اچھا شو یا فلم دیکھی؟", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "ایسے سوال میں any کے بعد قابلِ شمار اسم جمع میں آتا ہے: shows یا movies۔" },
 
     { t: "type", p: "تمہارا ویک اینڈ کیسا رہا؟", a: ["How was your weekend"], hint: "الفاظ: how · weekend — گزرا ہوا وقت", x: ["is"], why: "پچھلے ویک اینڈ کی بات ہے، اس لیے is نہیں، was آتا ہے۔" },
     { t: "type", p: "آج موسم اچھا ہے (nice کے ساتھ)", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "الفاظ: nice · weather · today — آرٹیکل لگے گا یا نہیں؟", x: ["a"], why: "weather ناقابلِ شمار اسم ہے، اس لیے اس کے ساتھ آرٹیکل a نہیں لگتا: a nice weather غلط ہے۔" },
-    { t: "type", p: "مجھے فلمیں دیکھنا پسند ہے", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "الفاظ: like · watch · movie — عام بات ہو تو جمع", x: ["movie"], why: "فلموں کی عام بات ہے، اس لیے جمع: movies۔" }
+    { t: "type", p: "مجھے فلمیں دیکھنا پسند ہے (like کے ساتھ)", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "الفاظ: like · watch · movie — عام بات ہو تو جمع", x: ["movie"], why: "فلموں کی عام بات ہے، اس لیے جمع: movies۔" }
   ],
 
   phrasal: [
@@ -197,12 +197,12 @@ module.exports = {
     { t: "order", p: "ہفتے میں دو بار", a: ["twice", "a", "week"], x: ["the", "one"], why: "\"ہفتے میں اتنی بار\" کے لیے آرٹیکل a آتا ہے: twice a week۔ یہاں the یا one نہیں آتا۔" },
 
     { t: "fill", q: "It's __ quarter past ten.", p: "سوا دس بجے ہیں", a: ["a"], o: ["the", "one", "an"], why: "quarter (چوتھائی گھنٹہ) سے پہلے آرٹیکل a آتا ہے۔" },
-    { t: "fill", q: "That's fifty __ won.", p: "یہ پچاس ہزار وون کا ہے", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 یعنی fifty thousand۔ عدد کے بعد thousand پر جمع کا -s نہیں لگتا۔" },
+    { t: "fill", q: "That's fifty __ won.", p: "یہ پچاس ہزار وون کا ہے (وون: جنوبی کوریا کی کرنسی)", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 یعنی fifty thousand۔ عدد کے بعد thousand پر جمع کا -s نہیں لگتا۔" },
     { t: "fill", q: "I'll be there in ten __.", p: "میں 10 منٹ میں پہنچ جاؤں گا", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "10 منٹ ہیں، اس لیے جمع: minutes۔ اردو میں \"دس منٹ\" کہتے ہوئے لفظ نہیں بدلتا، انگریزی میں -s لگتا ہے۔" },
 
     { t: "type", p: "ساڑھے تین بجے ہیں", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "الفاظ: three · thirty — گھنٹہ اور منٹ سیدھے بولیں", x: ["thirteen"], why: "گھنٹہ اور منٹ سیدھے بولیں: three thirty۔ اسے thirteen (13) سے نہ ملائیں۔" },
     { t: "type", p: "بیس ڈالر ہیں (قیمت بتانی ہے؛ It's سے شروع کریں)", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "الفاظ: twenty · dollar — ایک سے زیادہ ہو تو جمع", x: ["dollar"], why: "ایک سے زیادہ ڈالر ہوں تو جمع کا -s لگتا ہے: dollars۔" },
-    { t: "type", p: "میں ہفتے میں دو بار ورزش کرتا ہوں", a: ["I work out twice a week", "I exercise twice a week"], hint: "الفاظ: work out · twice · week — ہفتے سے پہلے کون سا آرٹیکل؟", x: ["the"], why: "\"ہفتے میں\" کے لیے آرٹیکل a آتا ہے: a week۔ یہاں the week غلط ہے۔" }
+    { t: "type", p: "میں ہفتے میں دو بار ورزش کرتا ہوں (twice کے ساتھ)", a: ["I work out twice a week", "I exercise twice a week"], hint: "الفاظ: work out · twice · week — ہفتے سے پہلے کون سا آرٹیکل؟", x: ["the"], why: "\"ہفتے میں\" کے لیے آرٹیکل a آتا ہے: a week۔ یہاں the week غلط ہے۔" }
   ],
 
   email: [

@@ -5384,14 +5384,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)": {
-   "t": "پچھلی دہرائی: {1} · درست: {2}% · فی کارڈ {3} سیکنڈ · بہترین وقت {4}:00 ({5}%)",
+   "t": "حالیہ دہرائی: {1} کارڈ · درست: {2}% · فی کارڈ {3} سیکنڈ · بہترین وقت {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=f, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 1.5s per card · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card": {
-   "t": "پچھلی دہرائی: {1} · درست: {2}% · فی کارڈ {3} سیکنڈ",
+   "t": "حالیہ دہرائی: {1} کارڈ · درست: {2}% · فی کارڈ {3} سیکنڈ",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=f",
    "example": "Last 5 reviews · 2% correct · 1.5s per card",
@@ -6623,28 +6623,28 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card · best hour {n}:00 ({n}%)": {
-   "t": "پچھلی دہرائی: {1} · درست: {2}% · فی کارڈ {3} سیکنڈ · بہترین وقت {4}:00 ({5}%)",
+   "t": "حالیہ دہرائی: {1} کارڈ · درست: {2}% · فی کارڈ {3} سیکنڈ · بہترین وقت {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card · best hour 4:00 (6%)",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card": {
-   "t": "پچھلی دہرائی: {1} · درست: {2}% · فی کارڈ {3} سیکنڈ",
+   "t": "حالیہ دہرائی: {1} کارڈ · درست: {2}% · فی کارڈ {3} سیکنڈ",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · best hour {n}:00 ({n}%)": {
-   "t": "پچھلی دہرائی: {1} · درست: {2}% · بہترین وقت {3}:00 ({4}%)",
+   "t": "حالیہ دہرائی: {1} کارڈ · درست: {2}% · بہترین وقت {3}:00 ({4}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 가장 잘되는 시간 {3}시 ({4}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "Last 5 reviews · 2% correct · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct": {
-   "t": "پچھلی دہرائی: {1} · درست: {2}%",
+   "t": "حالیہ دہرائی: {1} کارڈ · درست: {2}%",
    "ko": "최근 복습 {1}번 · 정답률 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "Last 5 reviews · 2% correct",

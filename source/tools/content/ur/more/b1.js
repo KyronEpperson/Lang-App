@@ -6,14 +6,15 @@ module.exports = [
 <h3>اردو کا ایک "سے"، انگریزی کے دو لفظ</h3>
 <p>"پانچ سال سے" اور "2020 سے" میں اردو ایک ہی "سے" لگاتی ہے۔ انگریزی میں دیکھنا پڑتا ہے کہ بات <b>مدت</b> کی ہے (کتنی دیر سے) یا <b>شروع کے وقت</b> کی (کس وقت سے)۔</p>
 <div class="tbl"><table><tr><th>مدت کے ساتھ for</th><th>شروع کے وقت کے ساتھ since</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
-<p>"سے" کا ایک مطلب from بھی ہے، اس لیے یہ غلطیاں بہت عام ہیں:</p>
+<p>"سے" کا ایک مطلب from بھی ہے، اس لیے پہلے خانے والی شکلیں پاکستان میں بہت سننے کو ملتی ہیں۔ معیاری انگریزی میں، اور باہر کے سننے والے کے لیے، دوسرے خانے والی شکل درست ہے:</p>
 <div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>I've worked here from two years.</td><td class="k">I've worked here for two years.</td></tr><tr><td>I've worked here since two years.</td><td class="k">I've worked here for two years.</td></tr><tr><td>I am working here since 2020.</td><td class="k">I've worked here since 2020.</td></tr></table></div>
 <h3>"کب سے؟" = How long …?</h3>
 {{ex:How long have you been here?|/ˈhaʊ ˈlɔːŋ həv ju bɪn ˈhɪr/|آپ یہاں کب سے ہیں؟}}{{ex:How long have you studied English?|/ˈhaʊ ˈlɔːŋ həv ju ˈstʌdid ˈɪŋglɪʃ/|آپ کب سے انگریزی پڑھ رہے ہیں؟}}
 <h3>just, already, yet</h3>
 <p>یہ تین لفظ بھی Present Perfect کے ساتھ آتے ہیں: just = ابھی ابھی، already = پہلے ہی، yet = اب تک (سوال اور منفی جملے کے آخر میں)۔</p>
 {{ex:I've just finished.|/aɪv ˈdʒʌst ˈfɪnɪʃt/|میں نے ابھی ابھی ختم کیا ہے}}{{ex:I've already seen it.|/aɪv ɔːlˈredi ˈsiːn ɪt/|میں یہ پہلے ہی دیکھ چکی ہوں}}{{ex:Have you eaten yet?|/həv ju ˈiːtn ˈjet/|کیا تم نے کھانا کھا لیا؟}}
-<div class="tip">عام غلطی: <b>I live here for five years.</b> اور <b>I am living here for five years.</b> ✗ درست: <b>I've lived here for five years.</b> ✓ "سے" اور حالت بتانے والے فعل (know, have) کی پوری بات اگلے سبق میں ہے۔</div>`,
+<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>I live here for five years.</td><td class="k">I've lived here for five years.</td></tr><tr><td>I am living here for five years.</td><td class="k">I've lived here for five years.</td></tr></table></div>
+<div class="tip">"سے" اور حالت بتانے والے فعل (know, have) کی پوری بات اگلے سبق میں ہے۔</div>`,
 check:[["خالی جگہ پُر کریں: I've lived here ___ three years",["since","for","during","from"],1,"three years مدت ہے، اور مدت سے پہلے for آتا ہے۔"],["خالی جگہ پُر کریں: I've worked here ___ 2020",["for","in","since","at"],2,"2020 شروع کا وقت ہے، اور شروع کے وقت سے پہلے since آتا ہے۔"],["انگریزی میں: \"آپ یہاں کب سے ہیں؟\"",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"\"کب سے\" = How long have you + تیسری فارم۔"]],
 practice:[
 ["mc","خالی جگہ پُر کریں: I've known him ___ ten years","for","since","from","during","ten years مدت ہے، اس لیے for؛ یہاں \"سے\" کے لیے from یا since نہیں آتا۔"],
@@ -40,7 +41,7 @@ practice:[
 {{ex:I'm having lunch.|/aɪm ˈhævɪŋ ˈlʌntʃ/|میں دوپہر کا کھانا کھا رہا ہوں}}
 <h3>2. "سے" کی تین انگریزی شکلیں</h3>
 <div class="tbl"><table><tr><th>اردو</th><th>انگریزی</th></tr><tr><td>"2015 سے" (شروع کا وقت)</td><td class="k">since 2015</td></tr><tr><td>"دو سال سے" (مدت)</td><td class="k">for two years</td></tr><tr><td>"2015 سے 2020 تک" (شروع اور آخر)</td><td class="k">from 2015 to 2020</td></tr></table></div>
-<p><b>from two years</b> ✗ اور <b>since two years</b> ✗ درست: <b>for two years</b> ✓</p>
+<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>from two years</td><td class="k">for two years</td></tr><tr><td>since two years</td><td class="k">for two years</td></tr></table></div>
 <h3>3. "سے" + "رہا ہے" = Present Perfect (Continuous)</h3>
 <p>جو بات ماضی میں شروع ہو کر اب تک جاری ہے، وہ Present Continuous میں نہیں آتی۔ حالت ہو تو <b>Present Perfect</b> (have / has + تیسری فارم)، چلتا ہوا کام ہو تو <b>Present Perfect Continuous</b> (have / has been + -ing)۔</p>
 {{ex:I've known him for ten years.|/aɪv ˈnoʊn hɪm fər ˈten ˈjɪrz/|میں اسے دس سال سے جانتا ہوں}}{{ex:I've lived here since 2015.|/aɪv ˈlɪvd ˈhɪr sɪns ˈtuː ˈθaʊznd ˌfɪfˈtiːn/|میں 2015 سے یہاں رہ رہی ہوں}}{{ex:I've been waiting for an hour.|/aɪv bɪn ˈweɪtɪŋ fər ən ˈaʊər/|میں ایک گھنٹے سے انتظار کر رہا ہوں}}{{ex:It's been raining for two days.|/ɪts bɪn ˈreɪnɪŋ fər ˈtuː ˈdeɪz/|دو دن سے بارش ہو رہی ہے}}
@@ -85,7 +86,7 @@ practice:[
 ["mc","خالی جگہ پُر کریں: When I got there, the movie ___ already started","had","has","was","did","جو بات پہلے ہو چکی تھی: had + تیسری فارم۔"],
 ["mc","خالی جگہ پُر کریں: I ___ cooking when the phone rang","was","had","did","have","جو کام چل رہا تھا وہ Past Continuous میں آتا ہے: was + -ing۔"],
 ["mc","انگریزی میں: \"جب میں پہنچا تو ٹرین جا چکی تھی\"","When I arrived, the train had already left.","When I arrived, the train already leaves.","When I had arrived, the train left already had.","When I arrive, the train has left already.","جو بات پہلے ہو چکی تھی اس کے لیے had + تیسری فارم۔"],
-["mc","کہانی آگے بڑھانے کے لیے \"پھر\" کون سا لفظ ہے؟","then","than","that","them","then = پھر؛ than مقابلے کے لیے آتا ہے (older than)۔"],
+["mc","کہانی آگے بڑھانے والا \"پھر\" انگریزی میں کون سا لفظ ہے؟","then","than","that","them","then = پھر؛ than مقابلے کے لیے آتا ہے (older than)۔"],
 ["mc","انگریزی میں: \"میں نے اس سے پہلے کبھی برف نہیں دیکھی تھی\"","I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before.","had + never + تیسری فارم۔"],
 ["or","ٹرین پہلے ہی جا چکی تھی","The train had already left","a has","وہی ٹرین جو پکڑنی تھی، اس لیے آرٹیکل the۔"],
 ["or","مجھے ایک پرانا دوست ملا","I met an old friend","a friends","old واول کی آواز سے شروع ہوتا ہے، اس لیے آرٹیکل an۔"],
@@ -107,7 +108,8 @@ practice:[
 <h3>پچھتاوا اور خواہش: should have, I wish</h3>
 {{ex:I should have called.|/aɪ ʃəd əv ˈkɔːld/|مجھے فون کر لینا چاہیے تھا}}{{ex:I wish I had more time.|/aɪ ˈwɪʃ aɪ ˈhæd ˈmɔːr ˈtaɪm/|کاش میرے پاس اور وقت ہوتا}}
 <div class="tbl"><table><tr><th>قسم</th><th>شرط والا حصہ (if)</th><th>نتیجے والا حصہ</th></tr><tr><td>1 (ممکن بات)</td><td class="k">Simple Present</td><td class="k">will</td></tr><tr><td>2 (حال کا الٹ)</td><td class="k">دوسری فارم</td><td class="k">would</td></tr><tr><td>3 (ماضی کا الٹ)</td><td class="k">had + تیسری فارم</td><td class="k">would have + تیسری فارم</td></tr></table></div>
-<div class="tip"><b>If I were you</b> ایک بندھا ہوا جملہ ہے: یہاں I کے بعد بھی <b>were</b> آتا ہے۔ اور if والے حصے میں would نہیں آتا: <b>If I would have time, …</b> ✗ درست: <b>If I had time, …</b> ✓</div>`,
+<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>If I would have time, I would travel.</td><td class="k">If I had time, I would travel.</td></tr></table></div>
+<div class="tip">خیالی بات میں I, he, she کے بعد بھی <b>were</b> آتا ہے (<b>If I were you</b>, <b>If I were rich</b>)؛ بول چال میں was بھی سننے کو ملتا ہے۔ اور if والے حصے میں would نہیں آتا۔</div>`,
 check:[["خالی جگہ پُر کریں: If I ___ rich, I would travel",["am","were","will be","would be"],1,"حال کی خیالی بات ہو تو if کے بعد دوسری فارم (were) آتی ہے۔"],["خالی جگہ پُر کریں: If I had studied, I ___ passed",["would","will have","would have","had"],2,"ماضی کا الٹ: would have + تیسری فارم۔"],["انگریزی میں: \"مجھے فون کر لینا چاہیے تھا\"",["I should have called.","I should called.","I should had call.","I would call should."],0,"پچھتاوے کے لیے should have + تیسری فارم۔"]],
 practice:[
 ["mc","خالی جگہ پُر کریں: If I ___ time, I would help","had","have","will have","would have","حال کی خیالی بات ہو تو if والے حصے میں دوسری فارم آتی ہے۔"],
@@ -118,7 +120,7 @@ practice:[
 ["or","اگر میرے پاس وقت ہوتا تو میں سفر کرتا","If I had time I'd travel","have will","حال کی خیالی بات: if کے بعد دوسری فارم had، اور نتیجے میں would۔"],
 ["or","میں ہوتا تو ٹیکسی لے لیتا","I'd take a taxi","the taxis","کوئی بھی ایک ٹیکسی، اس لیے آرٹیکل a۔"],
 ["or","مجھے ٹکٹ خرید لینا چاہیے تھا","I should have bought a ticket","the buy","ایک ٹکٹ، کوئی خاص نہیں، اس لیے آرٹیکل a۔"],
-["fi","If I __ you, I'd go.","میں تمہاری جگہ ہوتی تو چلی جاتی","were|was","am|be|would be","If I were you ایک بندھا ہوا جملہ ہے۔"],
+["fi","If I __ you, I'd go.","میں تمہاری جگہ ہوتی تو چلی جاتی","were|was","am|be|would be","If I were you ایک بندھا ہوا جملہ ہے: خیالی بات میں I کے بعد بھی were آتا ہے (بول چال میں was بھی سننے کو ملتا ہے)۔"],
 ["fi","I would __ helped.","میں مدد کر دیتا (مگر موقع نکل گیا)","have","had|has|having","would have + تیسری فارم۔"],
 ["fi","I wish I __ more time.","کاش میرے پاس اور وقت ہوتا","had","have|would have|will have","I wish کے بعد دوسری فارم آتی ہے۔"],
 ["ty","میں تمہاری جگہ ہوتا تو چلا جاتا","If I were you I'd go|I'd go if I were you|If I was you I'd go","الفاظ: if I were you · I'd · go","am","If I were you, I'd کے ساتھ مشورہ دیا جاتا ہے۔"],
@@ -134,7 +136,8 @@ practice:[
 <h3>Active Voice اور Passive Voice</h3>
 <div class="tbl"><table><tr><th>Active Voice</th><th>Passive Voice</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
 <p>دفتری اردو ("مطلع کیا جاتا ہے کہ …") کی طرح پاکستان کی دفتری انگریزی میں بھی Passive Voice بہت آتا ہے: <b>It is informed that the office will remain closed on Friday.</b> باہر ایسی بات عام طور پر سیدھی کہی جاتی ہے: <b>The office will be closed on Friday.</b> جب کرنے والا معلوم ہو اور اہم بھی ہو تو Active Voice میں کہیں۔</p>
-<div class="tip">عام غلطی: be چھوٹ جاتا ہے۔ <b>My phone stolen.</b> ✗ درست: <b>My phone was stolen.</b> ✓</div>`,
+<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>My phone stolen.</td><td class="k">My phone was stolen.</td></tr></table></div>
+<div class="tip">عام غلطی یہ ہے کہ be چھوٹ جاتا ہے۔ Passive Voice میں be (am / is / are / was / were) ضرور لگائیں۔</div>`,
 check:[["خالی جگہ پُر کریں: My bag ___ stolen yesterday",["is","was","did","has"],1,"کل کی بات ہے، اس لیے was + تیسری فارم۔"],["خالی جگہ پُر کریں: This phone ___ made in Korea",["was","did","has","does"],0,"Passive Voice میں be (یہاں was) + تیسری فارم آتی ہے۔"],["انگریزی میں: \"میٹنگ منسوخ ہو گئی\"",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be (یہاں was) + تیسری فارم canceled۔"]],
 practice:[
 ["mc","خالی جگہ پُر کریں: My phone ___ stolen","was","did","has","is steal","Passive Voice میں be + تیسری فارم آتی ہے۔"],
@@ -157,12 +160,13 @@ practice:[
 {{ex:She said she was tired.|/ʃi ˈsed ʃi wəz ˈtaɪərd/|اس نے کہا کہ وہ تھکی ہوئی ہے}}{{ex:He said he would come.|/hi ˈsed hi wəd ˈkʌm/|اس نے کہا کہ وہ آئے گا}}
 <p>اگر اردو کی طرح لفظ بہ لفظ کہہ دیں (<b>He said that I am tired.</b>) تو سننے والا سمجھے گا کہ تھکے ہوئے آپ خود ہیں، وہ نہیں۔</p>
 <h3>say اور tell</h3>
-<p><b>tell</b> کے بعد سننے والا ضرور آتا ہے (told me)؛ <b>say</b> کے بعد نہیں آتا۔ remind بھی tell کی طرح ہے: <b>He reminded that …</b> ✗ درست: <b>He reminded the students that …</b> ✓</p>
+<p><b>tell</b> کے بعد سننے والا ضرور آتا ہے (told me)؛ <b>say</b> کے بعد نہیں آتا۔ remind بھی tell کی طرح ہے: اس کے بعد بھی سننے والا آتا ہے (reminded the students)۔</p>
 {{ex:He told me he was busy.|/hi ˈtoʊld mi hi wəz ˈbɪzi/|اس نے مجھے بتایا کہ وہ مصروف ہے}}
 <h3>سوال آگے بتانا</h3>
 <p>ہاں / نہیں والے سوال کے لیے <b>if</b> آتا ہے، اور سوالیہ لفظ والا سوال اسی سوالیہ لفظ سے شروع ہوتا ہے۔ دونوں میں اس کے بعد <b>عام جملے کی ترتیب</b> (فاعل + فعل) رہتی ہے، سوال والی نہیں۔</p>
 {{ex:She asked if I was okay.|/ʃi ˈæskt ɪf aɪ wəz oʊˈkeɪ/|اس نے پوچھا کہ کیا میں ٹھیک ہوں}}{{ex:He asked where I lived.|/hi ˈæskt ˈwer aɪ ˈlɪvd/|اس نے پوچھا کہ میں کہاں رہتا ہوں}}
-<div class="tip">عام غلطی: <b>He said me …</b> ✗ درست: <b>He told me …</b> ✓ اور <b>He asked where did I live.</b> ✗ درست: <b>He asked where I lived.</b> ✓</div>`,
+<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>He said me he was busy.</td><td class="k">He told me he was busy.</td></tr><tr><td>He reminded that the test was on Monday.</td><td class="k">He reminded the students that the test was on Monday.</td></tr><tr><td>He asked where did I live.</td><td class="k">He asked where I lived.</td></tr></table></div>
+<div class="tip">دو باتیں یاد رکھیں: tell اور remind کے بعد سننے والا آتا ہے، اور آگے بتائے گئے سوال میں عام جملے کی ترتیب رہتی ہے۔</div>`,
 check:[["خالی جگہ پُر کریں: She said she ___ tired",["is being","was","be","will"],1,"بات آگے بتاتے وقت ٹینس ایک قدم ماضی کی طرف جاتا ہے: am کی جگہ was۔"],["خالی جگہ پُر کریں: He ___ me he would come",["said","say","told","tell to"],2,"سننے والا (me) موجود ہو تو told آتا ہے۔"],["انگریزی میں: \"اس نے پوچھا کہ میں کہاں رہتا ہوں\"",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"آگے بتائے گئے سوال میں عام جملے کی ترتیب رہتی ہے: where I lived۔"]],
 practice:[
 ["mc","خالی جگہ پُر کریں: She said she ___ busy","was","is being","be","were being","بات آگے بتاتے وقت ٹینس ایک قدم ماضی کی طرف جاتا ہے۔"],
