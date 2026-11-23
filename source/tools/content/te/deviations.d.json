@@ -1,0 +1,11 @@
+{
+  "lessons": {
+    "question-tags": "te-only lesson (profile te.md §8 add, §4.3): question tags matched to the helper verb and the subject (isn't it? only after it is / this is / that is), right? as the safe tag, answering by the facts (No, I'm not), wh-question order with every helper, and statement order in embedded questions (I don't know where he is). The invariant tag is the most frequent Indian English feature in ICE-India (Lange 786; Demszky et al.), Telugu has one tag (కదా) and no inversion, and ko-en has no tag or embedded-question content. New English side (checks and practice written for this course; the practice set meets the article-plural standing rule: order 2/4, type 2/4). Placed after modals (profile.json lessonOrder.after), deck తప్పనిసరి మాటలు 2 (deck 4, the deck of questions)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": [
+    "question-tags"
+  ],
+  "droppedLessons": []
+}
