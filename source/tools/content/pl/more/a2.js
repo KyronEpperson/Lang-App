@@ -41,13 +41,13 @@ practice:[
 <p>Po polsku czas przyszły stoi w obu częściach zdania: „Zadzwonię, kiedy dotrę do domu”. Po angielsku po <b>when</b> i <b>if</b> stoi Present Simple, a will tylko w drugiej części. Wrócimy do tego w lekcji o pierwszym okresie warunkowym.</p>
 {{ex:I'll call you when I get home.|/aɪl ˈkɔːl ju wen aɪ ˈget ˈhoʊm/|Zadzwonię, kiedy dotrę do domu}}
 <div class="tip">Najczęstszy błąd: <b>I will to go.</b> ✗, <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ Po will stoi sama forma podstawowa.</div>`,
-check:[["Dzwoni telefon. Jak powiedzieć po angielsku „Ja odbiorę”?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"Decyzja podjęta w tej chwili — will."],["I ___ be late. („Nie spóźnię się”) Co pasuje w lukę?",["won't","willn't","don't will","not will"],0,"Przeczenie od will to won't."],["Które zdanie mówi o planie ustalonym wcześniej?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"Plan ustalony wcześniej — be going to."]],
+check:[["Dzwoni telefon. Jak powiedzieć po angielsku „Ja odbiorę”?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"Decyzja podjęta w tej chwili — will."],["I ___ be late. („Nie spóźnię się”) Co pasuje w lukę?",["won't","willn't","don't will","not will"],0,"Przeczenie od will to won't."],["Które zdanie mówi o planie ustalonym wcześniej?",["I'll get the door.","I will to visit the Tatras.","I visit the Tatras will.","I'm going to visit the Tatras next month."],3,"Plan ustalony wcześniej — be going to."]],
 practice:[
 ["mc","„Pomogę ci” po angielsku?","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","Po will stoi forma podstawowa czasownika."],
 ["mc","W restauracji, decyzja w tej chwili: „Wezmę makaron” po angielsku?","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","Decyzja podjęta w tej chwili — will."],
 ["mc","„Nie spóźnię się” po angielsku?","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","will not skracamy do won't."],
 ["mc","„Przyjdziesz?” po angielsku?","Will you come?","Do you will come?","Will you coming?","Will come you?","Will + podmiot + forma podstawowa."],
-["mc","Które zdanie mówi o planie ustalonym wcześniej?","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","Plan ustalony wcześniej — be going to."],
+["mc","Które zdanie mówi o planie ustalonym wcześniej?","I'm going to visit the Tatras next month.","I'll get the door.","I visit the Tatras next month will.","I will to visit the Tatras.","Plan ustalony wcześniej — be going to."],
 ["or","Zadzwonię do ciebie później","I'll call you later","calling","Po will stoi forma podstawowa czasownika."],
 ["or","Wezmę kawę","I'll have a coffee","the coffees","Jedna zamawiana kawa — przedimek a."],
 ["or","Otworzę drzwi","I'll open the door","a doors","Te drzwi, które tu są — przedimek the."],
@@ -73,21 +73,21 @@ practice:[
 <p>Z określeniami zakończonego czasu, takimi jak last year, yesterday, in 2020, Present Perfect nie występuje.</p>
 {{ex:I went to Japan last year.|/aɪ ˈwent tə dʒəˈpæn ˈlæst ˈjɪr/|W zeszłym roku pojechałem do Japonii}}
 <div class="tip">Najczęstsze błędy: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓ oraz <b>I haven't seen her yesterday.</b> ✗ → <b>I didn't see her yesterday.</b> ✓</div>`,
-check:[["Jak powiedzieć po angielsku „Byłeś kiedyś w Japonii?”?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"O doświadczenie pytamy: Have you ever + trzecia forma."],["I ___ never seen that movie. Co pasuje w lukę?",["am","did","have","was"],2,"have + never + trzecia forma."],["Które zdanie jest poprawne?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"Jest last year, czyli zakończony czas — potrzebny jest Past Simple."]],
+check:[["Jak powiedzieć po angielsku „Byłeś kiedyś w Japonii?”?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"O doświadczenie pytamy: Have you ever + trzecia forma."],["I ___ never seen that movie. Co pasuje w lukę?",["am","did","have","was"],2,"have + never + trzecia forma."],["Które zdanie jest poprawne?",["I went to the Baltic last year.","I've been to the Baltic last year.","I have go to the Baltic last year.","I've went to the Baltic."],0,"Jest last year, czyli zakończony czas — potrzebny jest Past Simple."]],
 practice:[
 ["mc","„Byłam w Japonii” (doświadczenie) po angielsku?","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","have + trzecia forma: been."],
 ["mc","Jaka jest trzecia forma czasownika see?","seen","saw","seed","seeing","Trzy formy: see – saw – seen."],
-["mc","„Jadłeś kiedyś kimchi?” po angielsku?","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","Have you ever + trzecia forma."],
+["mc","„Jadłeś kiedyś pierogi?” po angielsku?","Have you ever eaten pierogi?","Did you ever eaten pierogi?","Have you ever ate pierogi?","Do you have eaten pierogi?","Have you ever + trzecia forma."],
 ["mc","„Nigdy tego nie widziałem” po angielsku?","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","have + never + trzecia forma."],
-["mc","Które zdanie jest poprawne, gdy pada „w zeszłym roku”?","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","Gdy pada, kiedy to było, potrzebny jest Past Simple."],
+["mc","Które zdanie jest poprawne, gdy pada „w zeszłym roku”?","I went to the Baltic last year.","I've been to the Baltic last year.","I have go to the Baltic last year.","I've went to the Baltic last year.","Gdy pada, kiedy to było, potrzebny jest Past Simple."],
 ["or","Widziałam ten film","I've seen the movie","a saw","Film, o którym obie osoby wiedzą — przedimek the."],
-["or","Byłem w Korei dwa razy","I've been to Korea twice","went","Po have stoi trzecia forma: been."],
+["or","Byłem w Anglii dwa razy","I've been to England twice","went","Po have stoi trzecia forma: been."],
 ["or","Nigdy nie widziałam węża","I've never seen a snake","the snakes","Jakikolwiek wąż, jeden — przedimek a."],
-["fi","Have you ever __ to Busan?","Byłaś kiedyś w Pusanie?","been","be|went|go","Po have stoi trzecia forma: been."],
+["fi","Have you ever __ to Krakow?","Byłaś kiedyś w Krakowie?","been","be|went|go","Po have stoi trzecia forma: been."],
 ["fi","I've __ eaten that.","Nigdy tego nie jadłem","never","ever|no|not never","„Nigdy” to never — bez drugiego przeczenia."],
-["fi","She __ visited Korea twice.","Ona była w Korei dwa razy","has","have|is|did","Po she stoi has."],
+["fi","She __ visited Poland twice.","Ona była w Polsce dwa razy","has","have|is|did","Po she stoi has."],
 ["ty","Byłeś kiedyś w Japonii?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","O doświadczenie pytamy: Have you ever been to…?"],
-["ty","Czytałam tę książkę (doświadczenie)","I've read the book|I've read that book","I've · read · book — przedimek the","a","Książka, o której obie osoby wiedzą — przedimek the."],
+["ty","Czytałam tę książkę (doświadczenie)","I've read the book|I've read that book|I've read this book","I've · read · book — przedimek the","a","Książka, o której obie osoby wiedzą — przedimek the."],
 ["ty","Nigdy nie miałem kota","I've never had a cat","never · had · cat — przedimek a","the","Jakikolwiek kot, jeden — przedimek a."]]},
 { id:"modals", title:"have to, must, should, might: obowiązek i rada", blurb:"Obowiązek, rada, przypuszczenie. I pułapka: „nie musisz” to nie mustn't.", deck:"Lekarz i nagłe wypadki", body:`
 <p>Cztery sposoby mówienia o obowiązku, radzie i możliwości. Po każdym z nich stoi <b>forma podstawowa</b> czasownika.</p>
@@ -119,7 +119,7 @@ practice:[
 ["fi","It __ rain tomorrow.","Jutro może padać","might|may|could","must to|has to|should to","Możliwość — might (także may albo could)."],
 ["ty","Muszę pracować","I have to work|I must work|I need to work","have to · work","should","Obowiązek — have to."],
 ["ty","Powinieneś iść do lekarza","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — przedimek a","the","Jakikolwiek lekarz, jeden — przedimek a."],
-["ty","Musisz kupić bilet","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — przedimek a","the","Jeden bilet — przedimek a."]]},
+["ty","Musisz kupić bilet","You have to buy a ticket|You need to buy a ticket|You must buy a ticket","have to · buy · ticket — przedimek a","the","Jeden bilet — przedimek a."]]},
 { id:"to-ing", title:"Czasownik + to albo -ing: want to, enjoy -ing", blurb:"Po want — to, po enjoy — forma -ing. Każdy czasownik ma swój wzór.", deck:"Pogawędki", body:`
 <p>Gdy dwa czasowniki stoją obok siebie, pierwszy decyduje o formie drugiego: <b>to + czasownik</b> (bezokolicznik) albo <b>forma -ing</b> (gerund). Po polsku w obu przypadkach wystarcza bezokolicznik („chcę iść”, „lubię gotować”), więc wzór trzeba zapamiętać razem z czasownikiem.</p>
 <div class="tbl"><table><tr><th>Potem to</th><th>Potem -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
@@ -165,7 +165,7 @@ practice:[
 check:[["I play ___ soccer. Co pasuje w lukę?",["a","the","an","(bez przedimka)"],3,"Przed nazwami sportów nie ma przedimka."],["She's from ___ United States. Co pasuje w lukę?",["the","a","an","(bez przedimka)"],0,"Przed United States stoi the."],["Jak powiedzieć po angielsku „Psy są urocze” (psy w ogóle)?",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"O całej kategorii mówimy w liczbie mnogiej bez przedimka."]],
 practice:[
 ["mc","I play ___ piano.","the","a","an","some","Przed nazwą instrumentu stoi the."],
-["mc","„Mieszkam w Korei” po angielsku?","I live in Korea.","I live in the Korea.","I live in a Korea.","I live Korea in.","Większość nazw krajów nie ma przedimka."],
+["mc","„Mieszkam w Polsce” po angielsku?","I live in Poland.","I live in the Poland.","I live in a Poland.","I live Poland in.","Większość nazw krajów nie ma przedimka."],
 ["mc","„Gram w piłkę nożną” po angielsku?","I play soccer.","I play the soccer.","I play a soccer.","I play soccers.","Przed nazwami sportów nie ma przedimka."],
 ["mc","„Koty są urocze” (koty w ogóle) po angielsku?","Cats are cute.","The cat are cute.","A cats are cute.","Cat is cute.","O całej kategorii mówimy w liczbie mnogiej bez przedimka."],
 ["mc","She's from ___ United States.","the","a","an","some","Przed United States stoi the."],
@@ -206,7 +206,7 @@ practice:[
 ["fi","__ you need help, call me.","Jeśli będziesz potrzebować pomocy, zadzwoń do mnie","If|When","So|But|Because","„Jeśli” to if."],
 ["ty","Pomogę, jeśli będę mieć czas","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","Po if nie ma will."],
 ["ty","Jeśli będzie padać, wezmę taksówkę","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi — przedimek a","the","Jakakolwiek taksówka, jedna — przedimek a."],
-["ty","Spóźnisz się na autobus","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — przedimek the","a","Konkretny autobus, na który ktoś chce zdążyć — przedimek the."]]},
+["ty","Spóźnisz się na autobus","You'll miss the bus","miss · bus — przedimek the","a","Konkretny autobus, na który ktoś chce zdążyć — przedimek the."]]},
 { id:"relative", title:"who / that / where: zdania względne", blurb:"Polskie „który” to who dla osób i that dla rzeczy — bez przecinka.", deck:"Zakupy i płatności", body:`
 <p>Zdanie względne dopowiada, o którą osobę lub rzecz chodzi. Polskie „który” ma po angielsku kilka odpowiedników: <b>who</b> dla osób, <b>that</b> (albo <b>which</b>) dla rzeczy, <b>where</b> dla miejsc. Szyk jest ten sam co po polsku: najpierw rzeczownik, potem opis.</p>
 <h3>Osoby: who</h3>
@@ -221,7 +221,7 @@ practice:[
 <h3>Miejsca: where</h3>
 {{ex:the cafe where we met|/ðə kæˈfeɪ wer wi ˈmet/|kawiarnia, w której się poznaliśmy}}
 <div class="tip">Dwie pułapki. Zaimka nie powtarzamy: <b>the book that I read it</b> ✗ → <b>the book that I read</b> ✓. A polskie „co” w takim zdaniu to that, nie what: <b>the book what I bought</b> ✗, <b>everything what you need</b> ✗ → <b>everything (that) you need</b> ✓.</div>`,
-check:[["I have a friend ___ lives in Busan. Co pasuje w lukę?",["which","who","what","he"],1,"O osobach mówimy who."],["Jak powiedzieć po angielsku „książka, którą kupiłem”?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Najpierw rzeczownik, potem opis z that."],["Które zdanie jest poprawne?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Opis stoi po rzeczowniku: the man who lives next door."]],
+check:[["I have a friend ___ lives in Krakow. Co pasuje w lukę?",["which","who","what","he"],1,"O osobach mówimy who."],["Jak powiedzieć po angielsku „książka, którą kupiłem”?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Najpierw rzeczownik, potem opis z that."],["Które zdanie jest poprawne?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Opis stoi po rzeczowniku: the man who lives next door."]],
 practice:[
 ["mc","I have a friend ___ speaks English.","who","which","what","she","O osobach mówimy who."],
 ["mc","„książka, którą kupiłam” po angielsku?","the book that I bought","the I bought book","the book what I bought","the bought I book","Najpierw rzeczownik, potem opis; „którą” to that, nie what."],
@@ -235,6 +235,6 @@ practice:[
 ["fi","the book __ I read","książka, którą przeczytałam","that|which","who|what|it","O rzeczach mówimy that (albo which)."],
 ["fi","the cafe __ we met","kawiarnia, w której się poznaliśmy","where","who|what|it","O miejscach mówimy where."],
 ["ty","To książka, którą kupiłam","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — przedimek the","a","Dokładnie ta książka, którą kupiłam — przedimek the."],
-["ty","Mam znajomego, który mówi po koreańsku","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — przedimek a","the","Znajomy wspomniany po raz pierwszy, jeden z wielu — przedimek a."],
+["ty","Mam znajomego, który mówi po polsku","I have a friend who speaks Polish|I have a friend that speaks Polish","a friend · who · speaks Polish — przedimek a","the","Znajomy wspomniany po raz pierwszy, jeden z wielu — przedimek a."],
 ["ty","Film, który widzieliśmy, był świetny","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","Najpierw rzeczownik, potem opis — bez what."]]},
 ];

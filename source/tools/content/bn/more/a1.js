@@ -29,7 +29,7 @@ practice:[
 ["fi","__ there any seats?","সিট আছে?","Are","Is|Do|Have","seats বহুবচন, তাই Are।"],
 ["ty","আজ গরম পড়েছে","It's hot today","it · hot · today — আবহাওয়ায় it","There's","আবহাওয়ার কথা it দিয়ে শুরু হয়।"],
 ["ty","এখানে কি বাথরুম আছে?","Is there a bathroom here|Is there a restroom here","is there · bathroom — আর্টিকেল খেয়াল করুন","the","প্রথমবার একটা বাথরুমের কথা জিজ্ঞেস করছেন, তাই আর্টিকেল a।"],
-["ty","দুইটা রুম আছে","There are two rooms","there are · two · room — বহুবচন","room","দুইটা, তাই বহুবচন rooms।"]]},
+["ty","(There দিয়ে) দুইটা রুম আছে","There are two rooms","there are · two · room — বহুবচন","room","দুইটা, তাই বহুবচন rooms।"]]},
 
 { id:"plurals", title:"বহুবচনের -s, this / these, my / your", blurb:"দুই বা তার বেশি হলে -s লাগবেই। this একটার জন্য, these অনেকের জন্য।", deck:"কেনাকাটা ও বিল", body:`
 <p>বাংলায় "দুইটা বই", "তিনজন বন্ধু" বললে সংখ্যার গায়ে -টা / -জন লাগে, কিন্তু বিশেষ্য (noun) বদলায় না। ইংরেজিতে দুই বা তার বেশি হলে বিশেষ্যের শেষে <b>-s</b> লাগবেই: <b>two books</b>, <b>three friends</b>। এটাই বহুবচন (plural)। বাংলাভাষীরা এই -s খুব সহজে বাদ দিয়ে ফেলেন।</p>
@@ -58,7 +58,7 @@ practice:[
 ["fi","__ is my friend.","এ হলো আমার বন্ধু","This","These|Those|They","একজন, তাই this।"],
 ["fi","Two __, please.","দুইটা কফি দিন","coffees","coffee|a coffee|coffee's","অর্ডার করার সময় কাপ গুনে বলা হয়, তাই বহুবচন coffees।"],
 ["ty","এগুলো আমার বই","These are my books","these · my · book — বহুবচন","book","একাধিক জিনিস, তাই these আর বহুবচন books।"],
-["ty","আমার দুই বোন আছে","I have two sisters","have · two · sister — বহুবচন","sister","দুইজন, তাই বহুবচন sisters। বাংলায় \"দুই বোন\", ইংরেজিতে -s চাই।"],
+["ty","আমার দুই বোন আছে","I have two sisters|I've got two sisters","have · two · sister — বহুবচন","sister","দুইজন, তাই বহুবচন sisters। বাংলায় \"দুই বোন\", ইংরেজিতে -s চাই।"],
 ["ty","এটা আমার ব্যাগ","This is my bag","this · my · bag — আর্টিকেল ছাড়া","a","my থাকলে আর্টিকেল a বসে না।"]]},
 { id:"present", title:"Present Simple ও শব্দের ক্রম: কর্তা + ক্রিয়া + কর্ম", blurb:"বাংলায় ক্রিয়া বাক্যের শেষে, ইংরেজিতে কর্তার ঠিক পরে।", deck:"নিজের পরিচয়", body:`
 <p>বাংলায় ক্রিয়া বাক্যের শেষে বসে: "আমি কফি <b>খাই</b>"। ইংরেজির ক্রম হলো <b>কে → কী করে → কী</b>, অর্থাৎ কর্তা (subject) + ক্রিয়া + কর্ম (object)। ইংরেজিতে -কে, -এ-র মতো বিভক্তি নেই, তাই শব্দের ক্রমই অর্থ ঠিক করে।</p>
@@ -78,7 +78,7 @@ check:[["\"আমি কফি খাই\"-এর সঠিক শব্দে�
 practice:[
 ["mc","\"আমি ইংরেজি পড়ি\" ইংরেজিতে?","I study English.","I English study.","I am study English.","Study I English.","ক্রম হলো কর্তা + ক্রিয়া + কর্ম।"],
 ["mc","\"আমি মাংস খাই না\" ইংরেজিতে?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্যে don't বসে, ক্রিয়ার আগে।"],
-["mc","\"আমরা সিউলে থাকি\" ইংরেজিতে?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","ক্রিয়ার পরে জায়গা বসে।"],
+["mc","\"আমরা ঢাকায় থাকি\" ইংরেজিতে?","We live in Dhaka.","We in Dhaka live.","We are live in Dhaka.","We live Dhaka in.","ক্রিয়ার পরে জায়গা বসে।"],
 ["mc","\"আমি সাধারণত সাতটায় উঠি\" ইংরেজিতে?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually ক্রিয়ার ঠিক আগে বসে।"],
 ["mc","কোন বাক্যটি প্রতিদিনের অভ্যাস বোঝায়?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","অভ্যাস Present Simple-এ বলা হয়।"],
 ["or","আমি প্রতিদিন কফি খাই","I drink coffee every day","the am","অভ্যাস Present Simple-এ বলা হয়। সাধারণভাবে coffee বললে আর্টিকেল বসে না।"],
@@ -86,7 +86,7 @@ practice:[
 ["or","আমরা উইকেন্ডে কাজ করি","We work on weekends","are","be ছাড়া অন্য ক্রিয়ার আগে আবার be ক্রিয়া বসে না।"],
 ["fi","I __ like fish.","আমি মাছ পছন্দ করি না","don't|do not","not|am not|no","be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্যে don't বসে।"],
 ["fi","I __ English every day.","আমি প্রতিদিন ইংরেজি পড়ি","study","am study|studying|to study","Present Simple-এ I-এর সঙ্গে ক্রিয়ার মূল রূপ বসে।"],
-["fi","They live __ Busan.","তারা বুসানে থাকে","in","at|on|to","শহরের নামের আগে in বসে।"],
+["fi","They live __ Chattogram.","তারা চট্টগ্রামে থাকে","in","at|on|to","শহরের নামের আগে in বসে।"],
 ["ty","আমি চা খাই","I drink tea","drink · tea — আর্টিকেল ছাড়া","a","সাধারণভাবে tea বললে আর্টিকেল বসে না।"],
 ["ty","আমি বিড়াল পছন্দ করি","I like cats","like · cat — বহুবচনে","cat","সব বিড়ালের কথা সাধারণভাবে বললে বহুবচন cats।"],
 ["ty","আমি মাংস খাই না","I don't eat meat","don't · eat · meat","am","be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্যে don't বসে।"]]},
@@ -130,9 +130,9 @@ practice:[
 <p><b>doesn't</b> বা <b>Does</b> বসালে -s সেখানেই চলে যায়। পরের ক্রিয়া মূল রূপে থাকে, -s ছাড়া।</p>
 {{ex:He doesn't drink coffee.|হি ˈডাজ়ান্ট ˈড্রিংক ˈকফি|সে (ছেলে) কফি খায় না}}{{ex:Does she live here?|ডাজ় শি ˈলিভ় ˈহির|সে (মেয়ে) কি এখানে থাকে?}}
 <div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>She work here.</b> ✗ → <b>She works here.</b> ✓, <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
-check:[["She ___ in Seoul. শূন্যস্থানে কী বসবে?",["live","lives","living","is live"],1,"কর্তা she, তাই ক্রিয়ায় -s বসে।"],["He ___ like coffee. শূন্যস্থানে কী বসবে?",["don't","isn't","doesn't","not"],2,"he-এর না-বাচক বাক্যে doesn't বসে।"],["\"তার (মেয়ে) একটা গাড়ি আছে\" ইংরেজিতে?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"she-এর সঙ্গে have বদলে has হয়।"]],
+check:[["She ___ in Sylhet. শূন্যস্থানে কী বসবে?",["live","lives","living","is live"],1,"কর্তা she, তাই ক্রিয়ায় -s বসে।"],["He ___ like coffee. শূন্যস্থানে কী বসবে?",["don't","isn't","doesn't","not"],2,"he-এর না-বাচক বাক্যে doesn't বসে।"],["\"তার (মেয়ে) একটা গাড়ি আছে\" ইংরেজিতে?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"she-এর সঙ্গে have বদলে has হয়।"]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","কর্তা একজন (my brother = he), তাই works।"],
+["mc","My brother ___ in Chattogram.","works","work","working","is work","কর্তা একজন (my brother = he), তাই works।"],
 ["mc","\"সে (ছেলে) কফি খায় না\" ইংরেজিতে?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he-এর না-বাচক বাক্যে doesn't + ক্রিয়ার মূল রূপ।"],
 ["mc","\"সে (মেয়ে) কি এখানে থাকে?\" ইংরেজিতে?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does-এর পরে ক্রিয়ায় -s বসে না।"],
 ["mc","have → she ___","has","haves","have","is have","she-এর সঙ্গে have বদলে has হয়।"],
@@ -165,7 +165,7 @@ practice:[
 ["mc","How ___ time do we have?","much","many","any","a","time গণনাযোগ্য নয়, তাই much।"],
 ["mc","\"আপনার কোনো প্রশ্ন আছে?\" ইংরেজিতে?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","any-এর পরে গণনাযোগ্য বিশেষ্য বহুবচন হয়।"],
 ["mc","\"এক গ্লাস পানি\" ইংরেজিতে?","a glass of water","a water glass of","one waters","a glass water","যা গোনা যায় না, তা a glass of দিয়ে গোনা হয়।"],
-["mc","I have ___ friends in Seoul.","many","much","a","an","friends গণনাযোগ্য আর বহুবচন, তাই many।"],
+["mc","I have ___ friends in Dhaka.","many","much","a","an","friends গণনাযোগ্য আর বহুবচন, তাই many।"],
 ["or","আমার কাছে কিছু টাকা আছে","I have some money","a moneys","money গণনাযোগ্য নয়: আর্টিকেল a বা বহুবচনের -s বসে না।"],
 ["or","দুইটা আপেল দিন","Two apples please","apple","দুইটা, তাই বহুবচন apples।"],
 ["or","আমার হাতে বেশি সময় নেই","I don't have much time","many","time গোনা যায় না, তাই much।"],
@@ -216,7 +216,7 @@ practice:[
 <div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓, ক্যাফেতে <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
 check:[["She can ___ very well. শূন্যস্থানে কী বসবে?",["sings","sing","singing","to sing"],1,"can-এর পরে ক্রিয়ার মূল রূপ বসে।"],["\"আমার রান্না করতে ভালো লাগে\" ইংরেজিতে?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like-এর পরে -ing রূপ বসে।"],["ক্যাফেতে অর্ডার করার সময় কোনটি সবচেয়ে স্বাভাবিক?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"এখন যা চান, তা I'd like দিয়ে বলুন।"]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["mc","He can ___ Spanish.","speak","speaks","speaking","to speak","can-এর পরে ক্রিয়ার মূল রূপ বসে।"],
 ["mc","\"আমি গাড়ি চালাতে পারি না\" ইংরেজিতে?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can-এর না-বাচক রূপ can't।"],
 ["mc","\"আমার সিনেমা দেখতে ভালো লাগে\" ইংরেজিতে?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like-এর পরে -ing; সিনেমার কথা সাধারণভাবে বললে বহুবচন movies।"],
 ["mc","অর্ডার করার সময় \"একটা কফি দিন\" ইংরেজিতে?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","এখন যা চান, তা I'd like দিয়ে বলুন।"],
@@ -303,12 +303,12 @@ practice:[
 ["or","আমি একটা সিনেমা দেখেছি","I saw a movie","see movies","সিনেমা একটা, তাই আর্টিকেল a আর একবচন movie। see-এর past রূপ saw।"],
 ["or","আমরা পিৎজা খেয়েছি","We ate pizza","eated","eat-এর past রূপ ate।"],
 ["or","আমি বন্ধুদের সঙ্গে দেখা করেছি","I met my friends","friend meet","একাধিক বন্ধু, তাই বহুবচন friends।"],
-["fi","I __ to Jeju last year.","আমি গত বছর জেজু গিয়েছিলাম","went","go|goed|gone","go-এর past রূপ went।"],
+["fi","I __ to Cox's Bazar last year.","আমি গত বছর কক্সবাজার গিয়েছিলাম","went","go|goed|gone","go-এর past রূপ went।"],
 ["fi","What did you __?","তুমি কী খেয়েছ?","eat","ate|eaten|eating","did-এর পরে ক্রিয়ার মূল রূপ বসে।"],
 ["fi","She __ a new phone.","সে (মেয়ে) একটা নতুন ফোন কিনেছে","bought","buyed|buy|buys","buy-এর past রূপ bought।"],
-["ty","আমি বুসান গিয়েছিলাম","I went to Busan","went · to · Busan","go","go-এর past রূপ went।"],
-["ty","আমি একটা বই কিনেছি","I bought a book","bought · book — আর্টিকেল a","the","বই একটা, তাই আর্টিকেল a বসে।"],
-["ty","আমি আমার বন্ধুদের সঙ্গে দেখা করেছি","I met my friends|I saw my friends","met · my · friend — বহুবচন","friend","একাধিক বন্ধু, তাই বহুবচন friends।"]]},
+["ty","আমি সিলেট গিয়েছিলাম","I went to Sylhet","went · to · Sylhet","go","go-এর past রূপ went।"],
+["ty","আমি একটা বই কিনলাম","I bought a book","bought · book — আর্টিকেল a","the","বই একটা, তাই আর্টিকেল a বসে।"],
+["ty","আমি আমার বন্ধুদের সঙ্গে দেখা করলাম","I met my friends|I saw my friends","met · my · friend — বহুবচন","friend","একাধিক বন্ধু, তাই বহুবচন friends।"]]},
 { id:"the", title:"আবার the: প্রথমবার a, পরের বার the", blurb:"প্রথমবার বললে a; দুজনেই জিনিসটা চিনলে the।", deck:"পথ জিজ্ঞাসা ও যাতায়াত", body:`
 <p>আর্টিকেল (a, an, the) এক দিনে আয়ত্তে আসে না, কারণ বাংলায় এমন আলাদা শব্দ নেই। বাংলার -টা / -টি অনেক সময় the-এর কাজ করে ("বইটা"), কিন্তু সব জায়গায় মেলে না। এখানে <b>the</b> কখন বসে আর কখন <b>কিছুই বসে না</b>, তা আবার অনুশীলন করুন।</p>
 <h3>প্রথমবার a, আবার বললে the</h3>
@@ -363,8 +363,8 @@ practice:[
 ["fi","This is cheaper __ that one.","এটা ওটার চেয়ে সস্তা","than","then|that|more","\"চেয়ে\" = than।"],
 ["fi","It's the __ expensive one.","এটাই সবচেয়ে দামি","most","more|much|very","লম্বা শব্দের সবচেয়ে-র রূপ: the most।"],
 ["ty","(দোকানিকে: Do you have …?) আরও ছোট সাইজ আছে?","Do you have a smaller size","do you have · smaller · size — আর্টিকেল a","the","যেকোনো একটা সাইজ খুঁজছেন, তাই আর্টিকেল a।"],
-["ty","এটাই সবচেয়ে ভালো","This is the best|This one is the best","the · best — আর্টিকেল the","a","সবচেয়ে-র রূপের আগে আর্টিকেল the বসে।"],
-["ty","এটা আরও সস্তা","This is cheaper|This one is cheaper","cheap — তুলনার রূপ","more","ছোট শব্দে -er বসে; সঙ্গে more নয়।"]]},
+["ty","এটাই সবচেয়ে ভালো","This is the best|This one is the best|It's the best","the · best — আর্টিকেল the","a","সবচেয়ে-র রূপের আগে আর্টিকেল the বসে।"],
+["ty","এটা আরও সস্তা","This is cheaper|This one is cheaper|It's cheaper","cheap — তুলনার রূপ","more","ছোট শব্দে -er বসে; সঙ্গে more নয়।"]]},
 { id:"going-to", title:"পরিকল্পনা বলা: be going to", blurb:"আগে থেকেই ঠিক করা কাজ: be going to + ক্রিয়া।", deck:"হালকা আলাপ", body:`
 <p>বাংলার "করব" দিয়ে পরিকল্পনা, প্রতিশ্রুতি, হঠাৎ নেওয়া সিদ্ধান্ত সবই বোঝায়। ইংরেজিতে <b>আগে থেকেই ঠিক করা পরিকল্পনা</b> বলতে <b>be + going to + ক্রিয়ার মূল রূপ</b> বসে।</p>
 {{ex:I'm going to visit Cox's Bazar.|আইম ˈগৌইং টা ˈভ়িজ়িট ˈকাːক্সিজ় বাˈজ়াːর|আমি কক্সবাজার বেড়াতে যাব}}{{ex:She's going to buy a car.|শিজ় ˈগৌইং টা ˈবাই আ ˈকাːর|সে (মেয়ে) একটা গাড়ি কিনবে}}{{ex:We're going to have dinner.|ওয়ির ˈগৌইং টা ˈহ্যাভ় ˈডিনার|আমরা রাতের খাবার খাব}}
@@ -377,7 +377,7 @@ practice:[
 <div class="tip">বলার সময় going to প্রায়ই <b>gonna</b>-র মতো শোনায়। আর be ক্রিয়া বাদ দেবেন না: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
 check:[["\"আমি আগামীকাল আমার বন্ধুর সঙ্গে দেখা করব\" ইংরেজিতে?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"ছাঁচটা হলো be + going to + ক্রিয়ার মূল রূপ।"],["She ___ going to study. শূন্যস্থানে কী বসবে?",["am","are","is","be"],2,"she-এর সঙ্গে is বসে।"],["\"এই উইকেন্ডে তুমি কী করবে?\" ইংরেজিতে?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"ক্রম হলো প্রশ্নবোধক শব্দ + be + কর্তা + going to।"]],
 practice:[
-["mc","\"আমি বুসান যাব\" ইংরেজিতে?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","ছাঁচটা হলো be + going to + ক্রিয়ার মূল রূপ।"],
+["mc","\"আমি চট্টগ্রাম যাব\" ইংরেজিতে?","I'm going to go to Chattogram.","I going to go to Chattogram.","I'm going go to Chattogram.","I'm go to Chattogram going.","ছাঁচটা হলো be + going to + ক্রিয়ার মূল রূপ।"],
 ["mc","They ___ going to come.","are","is","am","be","they-এর সঙ্গে are বসে।"],
 ["mc","\"বৃষ্টি হবে\" ইংরেজিতে?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to-এর পরে ক্রিয়ার মূল রূপ বসে।"],
 ["mc","\"আমি যাব না\" ইংরেজিতে?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be ক্রিয়ার পরে not বসে।"],

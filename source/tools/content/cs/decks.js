@@ -1,8 +1,8 @@
 /* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
 module.exports = {
 "Pozdravy": `
-Hello. | /həˈloʊ/ | Dobrý den / Ahoj | Hodí se vždy a ke každému. Angličtina nerozlišuje tykání a vykání, takže „Hello“ je „ahoj“ i „dobrý den“.
-Hi! | /ˈhaɪ/ | Ahoj! / Dobrý den! | Méně formální než „Hello“. V USA se tak běžně zdraví i kolegové v práci a prodavači se zákazníky.
+Hello. | /həˈloʊ/ | Dobrý den / Zdravím | Hodí se vždy a ke každému. Angličtina nerozlišuje tykání a vykání, takže „Hello“ je „ahoj“ i „dobrý den“.
+Hi! | /ˈhaɪ/ | Ahoj! | Méně formální než „Hello“. V USA se tak běžně zdraví i kolegové v práci a prodavači se zákazníky.
 Hey! | /ˈheɪ/ | Čau! / Hej! | Jen mezi přáteli. Na cizího člověka může působit příliš familiárně.
 Good morning. | /ˈgʊd ˈmɔːrnɪŋ/ | Dobré ráno / Dobré dopoledne | Říká se až do poledne, tedy i tam, kde česky řekneš „dobrý den“. Zkráceně jen „Morning!“
 Good afternoon. | /ˈgʊd ˌæftərˈnuːn/ | Dobré odpoledne | Zhruba od poledne do šesti večer. Zní trochu formálně; uslyšíš ho hlavně v obchodech a na recepcích.
@@ -22,7 +22,7 @@ Good night. | /ˈgʊd ˈnaɪt/ | Dobrou noc | Jen při loučení pozdě večer n
 `,
 "Představování": `
 My name is Lenka. | /maɪ ˈneɪm ɪz ˈleŋkə/ | Jmenuju se Lenka | V běžné řeči se říká spíš kratší „I'm Lenka.“
-Please call me Jay. | /ˈpliːz ˈkɔːl mi ˈdʒeɪ/ | Říkejte mi Jay | Hodí se, když máš přezdívku nebo kratší podobu jména, kterou cizinci snáz vysloví.
+Please call me Jay. | /ˈpliːz ˈkɔːl mi ˈdʒeɪ/ | Říkej mi Jay / Říkejte mi Jay | Hodí se, když máš přezdívku nebo kratší podobu jména, kterou cizinci snáz vysloví.
 What should I call you? | /ˈwʌt ʃəd aɪ ˈkɔːl ju/ | Jak ti mám říkat? | Užitečné, když nevíš, jak cizí jméno vyslovit, nebo jestli má druhý raději zkrácenou podobu.
 Where are you from? | /ˈwer ər ju frʌm/ | Odkud jsi? / Odkud jste? | Jedna z prvních otázek, které v cizině uslyšíš. Předložka „from“ stojí až na konci.
 I'm from the Czech Republic. | /aɪm frəm ðə ˈtʃek rɪˈpʌblɪk/ | Jsem z České republiky | S členem „the“, protože v názvu je slovo „Republic“. Krátký název „Czechia“ je bez členu.
@@ -251,7 +251,7 @@ Let's touch base next week. | /ˈlets ˈtʌtʃ ˈbeɪs ˈnekst ˈwiːk/ | Spojme
 What's the deadline? | /ˈwʌts ðə ˈdedlaɪn/ | Do kdy to má být? / Jaký je termín? | Totéž: „When is this due?“
 I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | Dnes pracuju z domu | Zkratka WFH. Pozor na čechismus „I have home office“: anglicky je „home office“ domácí pracovna, ne práce z domu.
 I'm off tomorrow. | /aɪm ˈɔːf təˈmɑːroʊ/ | Zítra mám volno | Když si bereš dovolenou: „I'm taking a day off tomorrow.“
-Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | Děkuji vám za všechnu odvedenou práci | Uznání na konci projektu. Při odchodu z práce stačí „See you tomorrow!“
+Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | Děkuji vám za všechnu odvedenou práci | Uznání na konci projektu nebo náročného týdne.
 I'll send you the invoice. | /aɪl ˈsend ju ði ˈɪnvɔɪs/ | Pošlu vám fakturu | Faktura je „invoice“ /ˈɪnvɔɪs/, s přízvukem na první slabice.
 This is my colleague, Martin. | /ˈðɪs ɪz maɪ ˈkɑːliːg ˈmɑːrtən/ | To je můj kolega Martin | „colleague“ /ˈkɑːliːg/ má přízvuk na první slabice a končí znělým /g/. V USA se říká také „coworker“.
 `,
@@ -341,14 +341,14 @@ grow up | /ˈgroʊ ˈʌp/ | vyrůst / dospět | „I grew up in Brno.“ – Vyr
 wake up | /ˈweɪk ˈʌp/ | probudit se | „wake up“ je probudit se, „get up“ je vstát z postele.
 `,
 "Pozor na výslovnost": `
-rice | /ˈraɪs/ | rýže | Anglické „r“ se nekmitá jako české: špička jazyka se ničeho nedotýká a rty se lehce zaokrouhlí.
-lice | /ˈlaɪs/ | vši | „l“ jako v češtině: špička jazyka za horními zuby. Dvojhláska /aɪ/ je stejná jako v „rice“.
-right | /ˈraɪt/ | vpravo / správný | Začíná anglickým „r“ bez kmitání. „gh“ se nevyslovuje.
-light | /ˈlaɪt/ | světlo / lehký | Začíná na „l“. „gh“ se nevyslovuje: /ˈlaɪt/.
-fan | /ˈfæn/ | větrák / fanoušek | Samohláska /æ/: ústa otevři víc než u českého „e“.
-pan | /ˈpæn/ | pánev | Na začátku přízvučné slabiky se „p“ vyslovuje s přídechem, jako by za ním bylo slabé „h“.
-coffee | /ˈkɔːfi/ | káva | Přízvuk je na první slabice a druhá je krátká: /ˈkɔːfi/. Dvojité „f“ se čte jako jedno.
-copy | /ˈkɑːpi/ | kopie / kopírovat | Americké „o“ je tu /ɑː/, skoro jako české „á“: /ˈkɑːpi/.
+cat | /ˈkæt/ | kočka | Otevřené /æ/: ústa víc dokořán než u českého „e“, skoro jako na „a“. Srovnej s „cut“.
+cut | /ˈkʌt/ | řezat / střih | Krátké /ʌ/ zní skoro jako krátké české „a“. Psané „u“ se tu nečte jako české „u“.
+man | /ˈmæn/ | muž | Otevřené /æ/ jako v „cat“. Česky by to znělo jako „men“, tedy muži.
+men | /ˈmen/ | muži | Množné číslo od „man“. /e/ jako české „e“: od jednotného čísla ho odliší jen samohláska.
+full | /ˈfʊl/ | plný / sytý | Krátké uvolněné /ʊ/, rty jen lehce zaokrouhlené. „I'm full.“ = Už mám dost, jsem najedený.
+fool | /ˈfuːl/ | blázen / hlupák | Dlouhé napjaté /uː/, rty do kroužku. S krátkým /ʊ/ řekneš „full“.
+law | /ˈlɔː/ | zákon / právo | Dlouhé /ɔː/ bez dvojhlásky; „w“ se tu nečte. Srovnej s „low“.
+low | /ˈloʊ/ | nízký | Dvojhláska /oʊ/, ne české dlouhé „ó“. S /ɔː/ vznikne „law“ (zákon).
 think | /ˈθɪŋk/ | myslet | /θ/: špička jazyka mezi zuby a jen vzduch. Se „s“ řekneš „sink“. Na konci je /ŋk/.
 sink | /ˈsɪŋk/ | dřez / potopit se | Začíná obyčejným „s“, jazyk zůstává za zuby.
 three | /ˈθriː/ | tři | /θ/, jazyk mezi zuby. S „t“ řekneš „tree“, tedy strom.
@@ -424,7 +424,7 @@ It's a must-watch. | /ɪts ə ˈmʌstwɑːtʃ/ | To musíš vidět | Silné dopo
 Plot twist! | /ˈplɑːt ˈtwɪst/ | Nečekaný zvrat! | Říká se i v běžném životě, když se stane něco nečekaného.
 It's overrated. | /ɪts ˌoʊvərˈreɪtɪd/ | Je to přeceňované | Opak: „underrated“, nedoceněný.
 That scene gave me chills. | /ˈðæt ˈsiːn ˈgeɪv mi ˈtʃɪlz/ | Z té scény mi běhal mráz po zádech | Z dojetí i z napětí. Vždy v množném čísle: „chills“.
-Who's your bias? | /ˈhuːz jʊr ˈbaɪəs/ | Kdo je tvůj oblíbenec (ve skupině)? | Slang fanoušků, hlavně K-popu: „bias“ je nejoblíbenější zpěvák nebo zpěvačka ze skupiny. Mimo fanouškovský svět řekni „Who's your favorite?“
+I'm a huge fan. | /aɪm ə ˈhjuːdʒ ˈfæn/ | Jsem velký fanoušek / velká fanynka | „huge“ = obrovský; zní silněji než „big“. Čeho: „I'm a huge fan of this band.“ Ptáš se „Who's your favorite?“
 Are you kidding me? | /ər ju ˈkɪdɪŋ mi/ | Děláš si legraci? / To snad ne! | Častá filmová hláška. Údiv i rozčilení.
 I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Kryju ti záda / Stojím za tebou | Slib, že druhého podržíš.
 Gotcha. | /ˈgɑːtʃə/ | Jasně, chápu / Mám tě! | Zkrácené „got you“. Nejčastěji znamená „rozumím“.
@@ -459,8 +459,8 @@ Y | /ˈwaɪ/ | písmeno Y (malé y) | Jako ve slově „yes“ (ano). Název /ˈ
 Z | /ˈziː/ | písmeno Z (malé z) | Jako ve slově „zoo“. V USA se jmenuje „zee“ /ˈziː/, v Británii „zed“ – jako české „zet“.
 `,
 "Falešní přátelé a čechismy": `
-current | /ˈkɜːrənt/ | aktuální / současný | Falešný přítel: české „aktuální“ není „actual“. To znamená „skutečný“. Aktuální ceny jsou „current prices“.
-eventually | /ɪˈventʃuəli/ | nakonec / časem | Falešný přítel: „eventually“ není české „eventuálně“. To se řekne „possibly“ nebo prostě „or“.
+current | /ˈkɜːrənt/ | aktuální / současný | Falešný přítel: české „aktuální“ není „actual“. To znamená „skutečný“. Aktuální ceny jsou „current prices“. Pozor i na příslovce: „aktuálně“ je „currently“ nebo „at the moment“; „actually“ znamená „vlastně, ve skutečnosti“. Pozor i na příslovce: „aktuálně“ je „currently“ nebo „at the moment“; „actually“ znamená „vlastně, ve skutečnosti“.
+eventually | /ɪˈventʃuəli/ | nakonec / časem | Falešný přítel: „eventually“ není české „eventuálně“. To se řekne „possibly“, „alternatively“ nebo „if necessary“.
 nice | /ˈnaɪs/ | sympatický / milý | Falešný přítel: české „sympatický“ není „sympathetic“. To znamená „soucitný“. O sympatickém člověku řekni „nice“ nebo „likeable“.
 check | /ˈtʃek/ | zkontrolovat / kontrola | Falešný přítel: české „kontrolovat“ není „control“. To znamená „ovládat, řídit“. Kontrola u lékaře je „a check-up“.
 specific | /spəˈsɪfɪk/ | konkrétní | Falešný přítel: „concrete“ je hlavně beton, případně „hmatatelný“. České „konkrétní“ je většinou „specific“: „a specific example“, „to be specific“.

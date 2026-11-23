@@ -39,9 +39,9 @@ exports.LESSONS = [
 {{ex:think|/ˈθɪŋk/|myśleć}}{{ex:sink|/ˈsɪŋk/|zlew / tonąć}}{{ex:three|/ˈθriː/|trzy}}{{ex:tree|/ˈtriː/|drzewo}}{{ex:this|/ˈðɪs/|ten / to}}
 <h3>-ing bez „k”, r bez drgania</h3>
 <p>Końcówkę -ing wymawia się /ɪŋ/: tył języka dotyka podniebienia jak przy „n” w słowie „bank”, ale <b>bez „k” na końcu</b>. Angielskie <b>r</b> słychać w każdej pozycji, lecz czubek języka <b>niczego nie dotyka</b> i nie drga. Przy <b>l</b> czubek języka dotyka dziąseł za górnymi zębami.</p>
-{{ex:singing|/ˈsɪŋɪŋ/|śpiewanie}}{{ex:rice|/ˈraɪs/|ryż}}{{ex:lice|/ˈlaɪs/|wszy}}{{ex:right|/ˈraɪt/|prawy / poprawny}}{{ex:light|/ˈlaɪt/|światło / lekki}}
-<p>Pary f / p oraz v / b nie sprawiają Polakom kłopotu, bo te głoski są też w polskim. Wystarczy pamiętać, że angielska litera v to polskie „w”.</p>
-{{ex:fan|/ˈfæn/|wentylator / kibic}}{{ex:pan|/ˈpæn/|patelnia}}{{ex:vote|/ˈvoʊt/|głosować}}{{ex:boat|/ˈboʊt/|łódka}}
+{{ex:singing|/ˈsɪŋɪŋ/|śpiewanie}}{{ex:right|/ˈraɪt/|prawy / poprawny}}{{ex:light|/ˈlaɪt/|światło / lekki}}
+<p>Polskie „u” zastępuje dwie angielskie samogłoski: krótkie, luźne /ʊ/ (pull) i długie /uː/ (pool). Dźwięczna końcówka liczy się też przy s i z: eyes to nie ice. Para v / b nie sprawia Polakom kłopotu — wystarczy pamiętać, że angielska litera v to polskie „w”.</p>
+{{ex:pull|/ˈpʊl/|ciągnąć}}{{ex:pool|/ˈpuːl/|basen}}{{ex:eyes|/ˈaɪz/|oczy}}{{ex:ice|/ˈaɪs/|lód}}{{ex:vote|/ˈvoʊt/|głosować}}{{ex:boat|/ˈboʊt/|łódka}}
 <div class="tip">Nie wymawiaj każdej sylaby z pełną samogłoską. W zdaniu małe słowa (a, the, to, of, can) brzmią słabo, z niewyraźnym /ə/: <b>a cup of coffee</b> to /ə ˈkʌp əv ˈkɔːfi/. Znaczenie niosą sylaby akcentowane.</div>`},
 
 { id:"articles", title:"2 · a i the: podstawy przedimków", blurb:"W polskim nie ma przedimków, dlatego a i the łatwo pominąć. Wystarczą trzy zasady.", deck:"O sobie", body:`
@@ -110,7 +110,7 @@ exports.LESSONS = [
 <div class="tip">Słowa takie jak today czy this week same nie wybierają czasu — liczy się to, co chcemy powiedzieć. Najprościej odpowiadać w tym czasie, w którym padło pytanie: na How was your weekend? — Past Simple, na Any plans for the weekend? — going to.</div>`},
 
 { id:"prep", title:"6 · Przyimki in / on / at", blurb:"Polskie „w” i „na” to po angielsku raz in, raz on, raz at. Porządkujemy czas i miejsce.", deck:"Liczby, godziny i daty", body:`
-<p>W angielskim nie ma przypadków — ich pracę wykonują przyimki i szyk wyrazów. Kłopot w tym, że polskie „w” i „na” nie mają jednego odpowiednika: „w maju” to in May, „w poniedziałek” to on Monday, a „w domu” to at home. Ogólna zasada: <b>im szerszy zakres, tym częściej in; im węższy, tym częściej at</b>.</p>
+<p>W angielskim rzeczowniki nie odmieniają się przez przypadki — ich pracę wykonują przyimki i szyk wyrazów. Kłopot w tym, że polskie „w” i „na” nie mają jednego odpowiednika: „w maju” to in May, „w poniedziałek” to on Monday, a „w domu” to at home. Ogólna zasada: <b>im szerszy zakres, tym częściej in; im węższy, tym częściej at</b>.</p>
 <h3>Czas</h3>
 <div class="tbl"><table><tr><th>Przyimek</th><th>Zakres</th><th>Przykład</th></tr><tr><td class="k">in</td><td>miesiące, lata, pory roku, pory dnia</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>dni tygodnia, daty, konkretny dzień</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>godziny, krótkie momenty</td><td>at 7, at noon, at night</td></tr></table></div>
 {{ex:See you on Friday.|/ˈsiː ju ɑːn ˈfraɪdeɪ/|Do zobaczenia w piątek}}{{ex:The meeting is at three.|/ðə ˈmiːtɪŋ ɪz ət ˈθriː/|Spotkanie jest o trzeciej}}{{ex:I was born in 1998.|/aɪ wəz ˈbɔːrn ɪn ˌnaɪnˈtiːn ˌnaɪnti ˈeɪt/|Urodziłem się w 1998 roku}}
@@ -182,7 +182,7 @@ exports.LESSONS = [
 <p>ASAP brzmi jak poganianie. Lepiej podać termin: <b>by + dzień</b>. I jeszcze interpunkcja: po polsku przed „że” zawsze stoi przecinek, po angielsku przed that go nie ma: I think that the report is ready. (I think, that… ✗)</p>
 <h3>Polskie formuły po angielsku</h3>
 <div class="tbl"><table><tr><th>Po polsku</th><th>Po angielsku</th></tr><tr><td>„W załączeniu przesyłam raport”</td><td class="k">I've attached the report.</td></tr><tr><td>„Z góry dziękuję”</td><td class="k">Thanks in advance.</td></tr><tr><td>„Dziękuję za zaangażowanie” (po projekcie)</td><td class="k">Thanks for all your hard work!</td></tr><tr><td>„Dziękuję za pomoc”</td><td class="k">I really appreciate your help.</td></tr><tr><td>„Miłego weekendu!”</td><td class="k">Have a great weekend!</td></tr><tr><td>„Z poważaniem”</td><td class="k">Best regards,</td></tr></table></div>
-<p>W pracy łatwo też o fałszywych przyjaciół: „aktualny” to current (actual znaczy „rzeczywisty”), „ewentualnie” to possibly (eventually znaczy „w końcu”), „pensja” to salary (pension to emerytura), a „promocja” to special offer (promotion to awans).</p>
+<p>W pracy łatwo też o fałszywych przyjaciół: „aktualny” to current (actual znaczy „rzeczywisty”), „aktualnie” to currently (actually znaczy „właściwie, tak naprawdę”), „ewentualnie” to possibly (eventually znaczy „w końcu”), „pensja” to salary (pension to emerytura), a „promocja” to special offer (promotion to awans).</p>
 <div class="tip">Nie trzeba za każdym razem pisać Sorry for the late reply. <b>Thanks for your patience</b> brzmi uprzejmie i pozytywnie, bez przepraszania.</div>`},
 
 { id:"idioms", title:"11 · Idiomy i slang: jak ich używać", blurb:"Wyrażenia, których nie da się tłumaczyć słowo w słowo. Kiedy i przy kim po nie sięgać?", deck:"Angielskie idiomy", body:`
@@ -216,8 +216,8 @@ exports.CHECKS = {
     ["„Lubię koty” (koty w ogóle) po angielsku?", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "O całej kategorii mówimy w liczbie mnogiej bez przedimka. a cat to „jakiś jeden kot”, the cat — „ten konkretny kot”."]
   ],
   be: [
-    ["Wybierz poprawne zdanie.", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "like to zwykły czasownik, więc nie łączy się z to be (am)."],
-    ["„Moja siostra mieszka w Seulu” po angielsku?", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "Podmiot my sister to trzecia osoba liczby pojedynczej (tak jak she), więc czasownik dostaje -s: lives."],
+    ["Wybierz poprawne zdanie.", ["I am like pierogi.","I like pierogi.","I liking pierogi.","I am likes pierogi."], 1, "like to zwykły czasownik, więc nie łączy się z to be (am)."],
+    ["„Moja siostra mieszka w Gdańsku” po angielsku?", ["My sister live in Gdansk.","My sister is live in Gdansk.","My sister living in Gdansk.","My sister lives in Gdansk."], 3, "Podmiot my sister to trzecia osoba liczby pojedynczej (tak jak she), więc czasownik dostaje -s: lives."],
     ["Are you hungry? — jak odpowiedzieć „nie”?", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "Pytanie było z to be, więc odpowiedź też: No, I'm not."]
   ],
   polite: [
@@ -251,8 +251,8 @@ exports.CHECKS = {
     ["Jak najnaturalniej przeczytać cenę $12.50?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "Cenę czytamy jako dwie liczby: twelve fifty."]
   ],
   email: [
-    ["Pierwszy e-mail do Jenny Park z firmy partnerskiej. Które powitanie jest najbezpieczniejsze?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "W amerykańskiej korespondencji służbowej najbezpieczniejsze jest Hi + imię. W bardzo oficjalnej sytuacji: Dear Ms. Park,"],
-    ["Projekt skończony. Jak podziękować zespołowi za włożoną pracę?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "Dziękujemy za konkretny wysiłek: Thanks for all your hard work! Pozostałe zdania brzmią niegrzecznie albo nic nie znaczą."],
+    ["Pierwszy e-mail do Jenny Miller z firmy partnerskiej. Które powitanie jest najbezpieczniejsze?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "W amerykańskiej korespondencji służbowej najbezpieczniejsze jest Hi + imię. W bardzo oficjalnej sytuacji: Dear Ms. Miller,"],
+    ["Projekt skończony. Jak podziękować zespołowi za włożoną pracę?", ["Thanks for your engagement.","Thanks for all your hard work!","Thank you from the mountain.","Please work harder."], 1, "Dziękujemy za konkretny wysiłek: Thanks for all your hard work! Engagement to po angielsku „zaręczyny”, nie „zaangażowanie”, a Thank you from the mountain to dosłowna kalka „z góry dziękuję”; Please work harder brzmi niegrzecznie."],
     ["Które zdanie uprzejmie podaje termin?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you…? + by + dzień: prośba jest łagodna, a termin jasny."]
   ],
   idioms: [

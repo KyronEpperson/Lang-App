@@ -38,13 +38,13 @@ practice:[
 <h3>"will" ug "be going to"</h3>
 <div class="tbl"><table><tr><th></th><th>Kanus-a</th><th>Pananglitan</th></tr><tr><td class="k">will</td><td>desisyon karon, saad</td><td>I'll get the door.</td></tr><tr><td class="k">be going to</td><td>plano nga daan na</td><td>I'm going to visit Bohol next month.</td></tr></table></div>
 <div class="tip">Kasagarang sayop: <b>I will to go.</b> ✗, <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ Human sa <b>will</b>, base form ra ang sunod.</div>`,
-check:[["Nibagting ang telepono. Unsaon pag-ingon sa Iningles nga 'Ako nay motubag'?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"Ang desisyon nga karon pa nahimo kay \"will\"."],["I ___ be late. (Dili ko maulahi)",["won't","willn't","don't will","not will"],0,"Ang negative sa \"will\" kay \"won't\"."],["Hain ang sentence bahin sa plano nga daan na?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"Ang plano nga daan na kay \"be going to\"."]],
+check:[["Nibagting ang telepono. Unsaon pag-ingon sa Iningles nga 'Ako nay motubag'?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"Ang desisyon nga karon pa nahimo kay \"will\"."],["I ___ be late. (Dili ko maulahi)",["won't","willn't","don't will","not will"],0,"Ang negative sa \"will\" kay \"won't\"."],["Hain ang sentence bahin sa plano nga daan na?",["I'll get the door.","I will to visit Bohol.","I visit Bohol will.","I'm going to visit Bohol next month."],3,"Ang plano nga daan na kay \"be going to\"."]],
 practice:[
 ["mc","'Tabangan tika' sa Iningles?","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","Human sa \"will\", base form ang sunod."],
 ["mc","Sa restawran, karon pa ka nakadesisyon. 'Pasta na lang ang akoa' sa Iningles?","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","Ang desisyon nga karon pa nahimo kay \"will\"."],
 ["mc","'Dili ko maulahi' sa Iningles?","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","Ang pinamubo sa \"will not\" kay \"won't\"."],
 ["mc","'Moanhi ka ba?' sa Iningles?","Will you come?","Do you will come?","Will you coming?","Will come you?","\"Will\" + subject + base form."],
-["mc","Hain ang sentence bahin sa plano nga daan na?","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","Ang plano nga daan na kay \"be going to\"."],
+["mc","Hain ang sentence bahin sa plano nga daan na?","I'm going to visit Bohol next month.","I'll get the door.","I visit Bohol next month will.","I will to visit Bohol.","Ang plano nga daan na kay \"be going to\"."],
 ["or","Tawgan tika unya","I'll call you later","calling","Human sa \"will\", base form ang sunod."],
 ["or","Kape na lang ang akoa","I'll have a coffee","the coffees","Usa ka tasa ang gi-order, mao nga article \"a\"."],
 ["or","Ako nay moabli sa pultahan","I'll open the door","a doors","Ang pultahan nga ania dinhi, mao nga article \"the\"."],
@@ -67,21 +67,21 @@ practice:[
 <p>Kon naay time word nga nahuman na, sama sa <b>last year, yesterday, in 2020</b>, dili gamiton ang present perfect. Bantayi kini: ang <i>na</i> sa Bisaya puwede bisan naay <i>gahapon</i> (<i>Gipasa na nako gahapon</i>), pero sa Iningles dili puwede ang <b>have</b> uban sa <b>yesterday</b>.</p>
 {{ex:I went to Japan last year.|/aɪ ˈwent tə dʒəˈpæn ˈlæst ˈjɪr/|Niadto ko sa Japan sa niaging tuig}}{{ex:I submitted it yesterday.|/aɪ səbˈmɪtɪd ɪt ˈjestərdeɪ/|Gipasa na nako kini gahapon}}
 <div class="tip">Kasagarang sayop: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓ <b>I have submitted it yesterday.</b> ✗ → <b>I submitted it yesterday.</b> ✓</div>`,
-check:[["'Nakaadto na ka ba sa Japan?' sa Iningles?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Ang kasinatian: \"Have you ever\" + past participle."],["I ___ never seen that movie. Unsay sakto sa blangko?",["am","did","have","was"],2,"\"have\" + \"never\" + past participle."],["Hain ang sakto nga sentence?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"Kon naay oras nga gihisgotan sama sa \"last year\", past form ang gamiton."]],
+check:[["'Nakaadto na ka ba sa Japan?' sa Iningles?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Ang kasinatian: \"Have you ever\" + past participle."],["I ___ never seen that movie. Unsay sakto sa blangko?",["am","did","have","was"],2,"\"have\" + \"never\" + past participle."],["Hain ang sakto nga sentence?",["I went to Bohol last year.","I've been to Bohol last year.","I have go to Bohol last year.","I've went to Bohol."],0,"Kon naay oras nga gihisgotan sama sa \"last year\", past form ang gamiton."]],
 practice:[
 ["mc","'Nakaadto na ko sa Japan' sa Iningles?","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","\"have\" + past participle nga \"been\"."],
 ["mc","Unsay past participle sa \"see\"?","seen","saw","seed","seeing","\"see\" – \"saw\" – \"seen\"."],
-["mc","'Nakakaon na ka ba og kimchi?' sa Iningles?","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","\"Have you ever\" + past participle."],
+["mc","'Nakakaon na ka ba og balut?' sa Iningles?","Have you ever eaten balut?","Did you ever eaten balut?","Have you ever ate balut?","Do you have eaten balut?","\"Have you ever\" + past participle."],
 ["mc","'Wala pa gyud ko makakita niana' sa Iningles?","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","\"have\" + \"never\" + past participle."],
-["mc","Naay 'sa niaging tuig'. Hain ang sakto nga sentence?","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","Kon naay oras nga gihisgotan, past form ang gamiton."],
+["mc","Naay 'sa niaging tuig'. Hain ang sakto nga sentence?","I went to Bohol last year.","I've been to Bohol last year.","I have go to Bohol last year.","I've went to Bohol last year.","Kon naay oras nga gihisgotan, past form ang gamiton."],
 ["or","Nakatan-aw na ko sa maong salida","I've seen the movie","a saw","Article \"the\" kay nahibaloan na kon unsang salida."],
-["or","Kaduha na ko nakaadto sa Korea","I've been to Korea twice","went","Human sa \"have\", past participle nga \"been\"."],
+["or","Kaduha na ko nakaadto sa Manila","I've been to Manila twice","went","Human sa \"have\", past participle nga \"been\"."],
 ["or","Wala pa gyud ko makakita og halas","I've never seen a snake","the snakes","Bisan unsang usa ka halas, mao nga article \"a\"."],
-["fi","Have you ever __ to Busan?","Nakaadto na ka ba sa Busan?","been","be|went|go","Human sa \"have\", past participle nga \"been\"."],
+["fi","Have you ever __ to Davao?","Nakaadto na ka ba sa Davao?","been","be|went|go","Human sa \"have\", past participle nga \"been\"."],
 ["fi","I've __ eaten that.","Wala pa gyud ko makakaon niana","never","ever|no|not never","Ang \"wala pa gyud\" kay \"never\"."],
-["fi","She __ visited Korea twice.","Kaduha na siya (babaye) nakabisita sa Korea","has","have|is|did","Sa \"she\", \"has\" ang gamiton."],
+["fi","She __ visited Bohol twice.","Kaduha na siya (babaye) nakabisita sa Bohol","has","have|is|did","Sa \"she\", \"has\" ang gamiton."],
 ["ty","Nakaadto na ka ba sa Japan?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","Ang kasinatian ipangutana gamit ang \"Have you ever been to ...?\"."],
-["ty","Nakabasa na ko sa maong libro","I've read the book|I've read that book","I've · read · book — kinahanglan ang article","a","Article \"the\" kay nahibaloan na kon unsang libro."],
+["ty","Nakabasa na ko sa maong libro","I've read the book|I've read that book|I've already read the book|I've already read that book","I've · read · book — kinahanglan ang article","a","Article \"the\" kay nahibaloan na kon unsang libro."],
 ["ty","Wala pa gyud ko makabaton og iring","I've never had a cat","never · had · cat — kinahanglan ang article","the","Bisan unsang usa ka iring, mao nga article \"a\"."]]},
 { id:"aspect-tense", title:"nag-, ni-, mo-, na, pa: gikan sa aspect ngadto sa tense", blurb:"Ang verb sa Bisaya nagpakita kon nahuman na ba ang lihok. Ang verb sa Iningles nagpakita kon kanus-a.", deck:"Istorya-istorya", body:`
 <p>Ang verb sa Bisaya nagpakita og <b>aspect</b> (nahuman na, nagpadayon pa, o wala pa masugdi), dili kon kanus-a. Ang <i>Nagkaon ko</i> puwede <b>I'm eating</b> o <b>I was eating</b>. Sa Iningles, ang verb kinahanglan gyud nga magpakita og <b>tense</b> (ang porma sa verb nga nagpakita sa panahon). Mao nga sa kada sentence, naa kay dugang desisyon nga wala sa Bisaya.</p>
@@ -94,7 +94,7 @@ practice:[
 <h3>Lagda 2: bisan walay time word, mopili gihapon ka og tense</h3>
 <p>Ang <i>Nagkaon ko</i> kompleto na sa Bisaya bisan walay laing pulong. Sa Iningles, tan-awa ang sitwasyon: karon ba, niadto ba, o kanunay ba (<b>I eat</b>)?</p>
 {{ex:I'm eating.|/aɪm ˈiːtɪŋ/|Nagkaon ko (karon)}}{{ex:I was eating.|/aɪ wəz ˈiːtɪŋ/|Nagkaon ko (niadtong orasa)}}
-<div class="tip">Bantayi ang <i>na</i> ug <i>pa</i>: <b>He is already not here.</b> ✗ → <b>He is no longer here.</b> ✓ <b>The papers did not arrive yet.</b> ✗ → <b>The papers haven't arrived yet.</b> ✓ <b>I have submitted it yesterday.</b> ✗ → <b>I submitted it yesterday.</b> ✓</div>`,
+<div class="tip">Bantayi ang <i>na</i> ug <i>pa</i>: <b>He is already not here.</b> ✗ → <b>He is no longer here.</b> ✓ Sa eksamin ug pormal nga sulat: <b>The papers did not arrive yet.</b> ✗ → <b>The papers haven't arrived yet.</b> ✓ <b>I have submitted it yesterday.</b> ✗ → <b>I submitted it yesterday.</b> ✓</div>`,
 check:[["'Nagluto siya (babaye) dihang niabot ko' sa Iningles?",["She is cooking when I arrived.","She cooks when I arrived.","She was cooking when I arrived.","She cooking when I arrived."],2,"Ang \"nag-\" dinhi nahitabo sa nangagi (\"dihang niabot ko\"), mao nga \"was\" + -ing form."],["Hain ang sakto nga sentence?",["I submitted it yesterday.","I have submitted it yesterday.","I submit it yesterday.","I've submit it yesterday."],0,"Bisan naay \"na\" sa Bisaya, kon naay oras nga nahuman na sama sa \"yesterday\", past form ang gamiton."],["'Wala na siya (lalaki) nagtrabaho dinhi' sa Iningles?",["He already doesn't work here.","He is already not working here.","He doesn't work here yet.","He no longer works here."],3,"Ang \"wala na\" kay \"no longer\" o \"not ... anymore\", dili \"already not\"."]],
 practice:[
 ["mc","'Gahapon niadto ko sa merkado' sa Iningles?","Yesterday I went to the market.","Yesterday I go to the market.","Yesterday I'm going to the market.","Yesterday I have gone to the market.","Naay \"yesterday\", mao nga past form: \"went\". Ang time word dili makapuli sa porma sa verb."],
@@ -180,7 +180,7 @@ practice:[
 check:[["I play ___ soccer. Unsay sakto sa blangko?",["a","the","an","(wala)"],3,"Walay article ang ngalan sa dula."],["She's from ___ United States. Unsay sakto sa blangko?",["the","a","an","(wala)"],0,"Sa atubangan sa \"United States\", \"the\" ang gamiton."],["'Cute ang mga iro' (tanang iro) sa Iningles?",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"Kon kinatibuk-an ang gipasabot, plural nga walay article."]],
 practice:[
 ["mc","I play ___ piano.","the","a","an","some","Sa atubangan sa instrumento, \"the\" ang gamiton."],
-["mc","'Nagpuyo ko sa Korea' sa Iningles?","I live in Korea.","I live in the Korea.","I live in a Korea.","I live Korea in.","Kadaghanan sa ngalan sa nasod walay article."],
+["mc","'Nagpuyo ko sa Japan' sa Iningles?","I live in Japan.","I live in the Japan.","I live in a Japan.","I live Japan in.","Kadaghanan sa ngalan sa nasod walay article."],
 ["mc","'Magdula ko og soccer' sa Iningles?","I play soccer.","I play the soccer.","I play a soccer.","I play soccers.","Walay article ang ngalan sa dula."],
 ["mc","'Cute ang mga iring' (tanang iring) sa Iningles?","Cats are cute.","The cat are cute.","A cats are cute.","Cat is cute.","Kon kinatibuk-an ang gipasabot, plural nga walay article."],
 ["mc","She's from ___ United States.","the","a","an","some","Sa atubangan sa \"United States\", \"the\" ang gamiton."],
@@ -221,7 +221,7 @@ practice:[
 ["fi","__ you need help, call me.","Kon kinahanglan nimo og tabang, tawgi ko","If|When","So|But|Because","Ang \"kon\" kay \"if\"."],
 ["ty","Motabang ko kon naa koy panahon","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","Walay \"will\" human sa \"if\"."],
 ["ty","Kon moulan, mosakay ko og taxi","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi — kinahanglan ang article","the","Bisan unsang usa ka taxi, mao nga article \"a\"."],
-["ty","Mabiyaan ka sa bus","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — kinahanglan ang article","a","Ang bus nga imong sakyan unta, mao nga article \"the\"."]]},
+["ty","Mabiyaan ka sa bus","You'll miss the bus","miss · bus — kinahanglan ang article","a","Ang bus nga imong sakyan unta, mao nga article \"the\"."]]},
 { id:"relative", title:"who / that: paghulagway sa tawo ug butang", blurb:"Sama sa \"nga\" sa Bisaya, pero magpili ka: \"who\" para sa tawo, \"that\" para sa butang.", deck:"Pagpamalit ug pagbayad", body:`
 <p>Sa Bisaya, <i>nga</i> ang modugtong sa noun ug sa paghulagway niini: <i>ang libro nga akong gipalit</i>. Mao ra sab ang han-ay sa Iningles: noun una, unya ang paghulagway: the book <b>that I bought</b>. Ang kalainan: usa ra ang <i>nga</i>, pero sa Iningles magpili ka og pulong.</p>
 <h3>Tawo: who</h3>
@@ -234,7 +234,7 @@ practice:[
 <h3>Lugar: where</h3>
 {{ex:the cafe where we met|/ðə kæˈfeɪ wer wi ˈmet/|ang kapehan diin ta nagkita}}
 <div class="tip">Duha ka butang ang bantayan. Ayaw gamita ang "what": <b>the book what I bought</b> ✗. Ug ayaw sublia ang pronoun: <b>the man who he lives next door</b> ✗ → <b>the man who lives next door</b> ✓</div>`,
-check:[["I have a friend ___ lives in Busan. Unsay sakto sa blangko?",["which","who","what","he"],1,"Sa tawo, \"who\" ang gamiton."],["'ang libro nga akong gipalit' sa Iningles?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Noun una, unya \"that\" ug ang paghulagway; dili \"what\"."],["Hain ang sakto nga sentence?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Ang paghulagway moadto sa luyo sa noun."]],
+check:[["I have a friend ___ lives in Davao. Unsay sakto sa blangko?",["which","who","what","he"],1,"Sa tawo, \"who\" ang gamiton."],["'ang libro nga akong gipalit' sa Iningles?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Noun una, unya \"that\" ug ang paghulagway; dili \"what\"."],["Hain ang sakto nga sentence?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Ang paghulagway moadto sa luyo sa noun."]],
 practice:[
 ["mc","I have a friend ___ speaks English.","who","which","what","she","Sa tawo, \"who\" ang gamiton."],
 ["mc","'ang libro nga akong gipalit' sa Iningles?","the book that I bought","the I bought book","the book what I bought","the bought I book","Noun una, unya ang paghulagway."],
@@ -248,6 +248,6 @@ practice:[
 ["fi","the book __ I read","ang libro nga akong gibasa","that|which","who|what|it","Sa butang, \"that\" ang gamiton."],
 ["fi","the cafe __ we met","ang kapehan diin ta nagkita","where","who|what|it","Sa lugar, \"where\" ang gamiton."],
 ["ty","Mao kini ang libro nga akong gipalit","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — kinahanglan ang article","a","Ang mismong libro nga akong gipalit, mao nga article \"the\"."],
-["ty","Naa koy higala nga makasulti og Koreano","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — kinahanglan ang article","the","Usa ka higala nga karon pa nahisgotan, mao nga article \"a\"."],
-["ty","Nindot kaayo ang salida nga among gitan-aw","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","Noun una, unya ang paghulagway."]]},
+["ty","Naa koy higala nga makasulti og Hinapon","I have a friend who speaks Japanese|I have a friend that speaks Japanese","a friend · who · speaks Japanese — kinahanglan ang article","the","Usa ka higala nga karon pa nahisgotan, mao nga article \"a\"."],
+["ty","Nindot kaayo ang salida nga among gitan-aw","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good|The movie we watched was great|The movie we watched was good|The movie that we watched was great|The movie that we watched was good","the movie · we saw · was great","what","Noun una, unya ang paghulagway."]]},
 ];

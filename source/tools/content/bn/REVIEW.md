@@ -140,3 +140,16 @@ Count patterns after the edits, at 1 | 2 | 5 | 22:
 - `{n}× missed`: 1 বার ভুল | 2 বার ভুল | 5 বার ভুল | 22 বার ভুল
 - `Imported {n} cards.`: 1টি কার্ড ইমপোর্ট হয়েছে। | 2টি কার্ড ইমপোর্ট হয়েছে। | 5টি কার্ড ইমপোর্ট হয়েছে। | 22টি কার্ড ইমপোর্ট হয়েছে।
 - `Start typing · streak {n} · best {n}`: লেখা শুরু করুন · টানা সঠিক 1 · সেরা 1 | … 2 · সেরা 2 | … 5 · সেরা 5 | … 22 · সেরা 22
+
+## Pre-merge review, 2026-11-23
+
+**Changed** (reviewer applying own review after merge; not a native speaker):
+- decks.js: *In ten minutes* note now allows the everyday «দশ মিনিটের মধ্যে আসছি» (it contradicted the `numbers` fill prompt); *One million* note «দেশের বাইরে» → «দক্ষিণ এশিয়ার বাইরে»; slang card *Who's your bias?* → *Who's your favorite band?* (pron from pron_bn.js; dialogue in extra.js updated).
+- b1 `articles-3`: the rule on university / company names now adds «(তবে of থাকলে বসে: the University of Dhaka)»; fill prompt «মজার লেখা» → «আকর্ষণীয় লেখা».
+- lessons.js `pron`: new reading-table row for ার্ (work, bird; heart ≠ hurt); the final-r tip no longer contradicts the tongue-tap advice. `articles`: «বেলার খাবারের নাম (breakfast, lunch)». a2 `perfect` table: be → was / were.
+- Typed-answer pass over all 127 type items in the generated pack: 0 full forms missing (the generator already expands contractions; the review's figure of 51 was counted on the sources and was wrong). Prompts cued: 3 (`it-there` #13 «(There দিয়ে)», `irregular-past` #12 / #13 «কিনলাম», «দেখা করলাম» so Present Perfect is not invited). Answers added: 7 items (plurals #12, prep #13, adjectives #12 / #13, passive #11 / #12, reported #13), each in deviations.json.
+- Localisation of the Korean setting (deviations.json, one reason each): Seoul → Dhaka, Busan / Daegu → Chattogram or Sylhet, Jeju → Cox's Bazar, Korea → Bangladesh (Nepal for a trip abroad), won → taka, kimchi → bhuna khichuri, Han Kang → Humayun Ahmed, K-pop → Shironamhin, Korean → Spanish / Japanese for a friend's language, distractors "Good suffering." → "You took a lot of pain." and "tiger" → "ghost".
+- Interface (tools/i18n/bn/ui.json): ten wordings taken from the other dictionary (Grammar ব্যাকরণ, Text size লেখার আকার, Done শেষ, Weak spots দুর্বল দিক, Listen →বাংলা, Mix মিক্স, Accent রং, Not quite পুরোপুরি হয়নি, intervals ব্যবধান, Write it «ইংরেজিতে লিখুন») and `{n} cards due` → «{1}টি কার্ডের রিভিশন বাকি».
+- PRON-TOOL.md: new section "Known limits" with six converter questions for the owner. No respelling was changed by hand.
+
+**Left for a native speaker** (unchanged): *vest* «হাতাকাটা জামা» (or «কটি»); রং / রঙ across cards and interface (Bangla Academy BD form); «লগ ইন» vs «সাইন ইন»; the names Ms. Lee (dialogue) and Jenny Park (email check), kept as ordinary American names; the minimal pairs rice / lice, fan / pan, coffee / copy (shared deck 18 positions; left as they are, since bn learners do confuse f / p and the deck already adds bn pairs at the end); the six pron-key questions in PRON-TOOL.md.

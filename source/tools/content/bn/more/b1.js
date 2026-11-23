@@ -93,21 +93,21 @@ practice:[
 <h3>active আর passive</h3>
 <div class="tbl"><table><tr><th>active (কর্তৃবাচ্য)</th><th>passive (কর্মবাচ্য)</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
 <div class="tip">সবচেয়ে বেশি যে ভুল হয়: be ক্রিয়া বাদ দেওয়া, বা V3-এর জায়গায় অন্য রূপ বসানো। <b>My phone stolen.</b> ✗, <b>My phone was steal.</b> ✗ → <b>My phone was stolen.</b> ✓</div>`,
-check:[["My bag ___ stolen yesterday. শূন্যস্থানে কী বসবে?",["is","was","did","has"],1,"গতকালের ঘটনা, তাই was + V3।"],["This phone ___ made in Korea. শূন্যস্থানে কী বসবে?",["was","did","has","does"],0,"passive-এর ছক: be ক্রিয়া + V3।"],["\"মিটিংটা বাতিল হয়েছে\" ইংরেজিতে?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be ক্রিয়া + V3, এখানে was canceled।"]],
+check:[["My bag ___ stolen yesterday. শূন্যস্থানে কী বসবে?",["is","was","did","has"],1,"গতকালের ঘটনা, তাই was + V3।"],["This shirt ___ made in Bangladesh. শূন্যস্থানে কী বসবে?",["was","did","has","does"],0,"passive-এর ছক: be ক্রিয়া + V3।"],["\"মিটিংটা বাতিল হয়েছে\" ইংরেজিতে?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be ক্রিয়া + V3, এখানে was canceled।"]],
 practice:[
 ["mc","My phone ___ stolen.","was","did","has","is steal","passive-এর ছক: be ক্রিয়া + V3।"],
-["mc","\"এটা কোরিয়ায় তৈরি\" ইংরেজিতে?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be ক্রিয়া + V3, এখানে made।"],
+["mc","\"এটা বাংলাদেশে তৈরি\" ইংরেজিতে?","This was made in Bangladesh.","This made in Bangladesh.","This was make in Bangladesh.","This did made in Bangladesh.","be ক্রিয়া + V3, এখানে made।"],
 ["mc","\"এখানে ইংরেজি বলা হয়\" ইংরেজিতে?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","সব সময় যা হয়, তা বলতে is + V3।"],
 ["mc","\"মিটিংটা বাতিল হয়েছে\" ইংরেজিতে?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","be ক্রিয়া + V3।"],
 ["mc","\"সকালের নাশতা সাতটায় দেওয়া হয়\" ইংরেজিতে?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","খাবারের বেলার নামের আগে আর্টিকেল বসে না; তারপর is + V3।"],
 ["or","আমার ব্যাগ চুরি হয়েছে","My bag was stolen","stole","be ক্রিয়ার পরে V3 বসে, এখানে stolen।"],
 ["or","মিটিংটা বাতিল হয়েছে","The meeting was canceled","A meetings","দুজনেরই জানা মিটিংটা, তাই আর্টিকেল the।"],
 ["or","জানালাটা ভাঙা ছিল","The window was broken","a windows","এখানকার নির্দিষ্ট জানালাটা, তাই আর্টিকেল the।"],
-["fi","This was __ in Korea.","এটা কোরিয়ায় তৈরি","made","make|making|makes","be ক্রিয়ার পরে V3 বসে।"],
+["fi","This was __ in Bangladesh.","এটা বাংলাদেশে তৈরি","made","make|making|makes","be ক্রিয়ার পরে V3 বসে।"],
 ["fi","The room __ cleaned every day.","ঘরটা প্রতিদিন পরিষ্কার করা হয়","is|gets","does|has|did","সব সময় যা হয়, তা বলতে is + V3।"],
-["fi","It was written __ Han Kang.","এটা হান কাং-এর লেখা","by","from|of|with","কে করল, তা বলতে by বসে।"],
-["ty","আমার ফোন চুরি হয়েছে","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be ক্রিয়া + V3, এখানে stolen।"],
-["ty","মিটিংটা বাতিল হয়েছে","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — আর্টিকেল the","a","দুজনেরই জানা মিটিংটা, তাই আর্টিকেল the।"],
+["fi","It was written __ Humayun Ahmed.","এটা হুমায়ূন আহমেদের লেখা","by","from|of|with","কে করল, তা বলতে by বসে।"],
+["ty","আমার ফোন চুরি হয়েছে","My phone was stolen|My phone got stolen|My phone has been stolen","my phone · was · stolen","stole","be ক্রিয়া + V3, এখানে stolen।"],
+["ty","মিটিংটা বাতিল হয়েছে","The meeting was canceled|The meeting was cancelled|The meeting got canceled|The meeting has been canceled|The meeting has been cancelled","the meeting · was · canceled — আর্টিকেল the","a","দুজনেরই জানা মিটিংটা, তাই আর্টিকেল the।"],
 ["ty","দরজাটায় তালা দেওয়া ছিল","The door was locked","the door · was · locked — আর্টিকেল the","a","এখানকার নির্দিষ্ট দরজাটা, তাই আর্টিকেল the।"]]},
 { id:"reported", title:"পরোক্ষ উক্তি: অন্যের কথা জানানো", blurb:"She said she was tired. tense এক ধাপ পেছায়, tell-এর পরে মানুষ।", deck:"ফোন ও চ্যাটের সংক্ষেপ", body:`
 <p>অন্য কেউ কী বলেছে, তা জানানোর উপায় (পরোক্ষ উক্তি)। বাংলায় সাধারণত "যে" বসিয়ে আসল কথাটাই রেখে দিই: সে বলল যে "আমি যাব"। ইংরেজিতে সর্বনাম বদলায়, আর <b>tense এক ধাপ অতীতে সরে যায়</b>: He said he would go.</p>
@@ -135,7 +135,7 @@ practice:[
 ["fi","She asked __ I was okay.","সে জানতে চাইল আমি ঠিক আছি কি না","if|whether","that|what|did","হ্যাঁ / না-প্রশ্ন জানাতে if বসে।"],
 ["ty","সে (ছেলে) বলল যে সে ব্যস্ত","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","অন্যের কথা জানাতে tense অতীতে সরে যায়।"],
 ["ty","সে (মেয়ে) বলল যে তার একটা গাড়ি আছে","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — আর্টিকেল a","the","প্রথমবার বলা একটা গাড়ি, তাই আর্টিকেল a।"],
-["ty","সে (ছেলে) বলল যে সে সিনেমাটা দেখেছে","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — আর্টিকেল the","a","দুজনেরই জানা সিনেমাটা, তাই আর্টিকেল the।"]]},
+["ty","সে (ছেলে) বলল যে সে সিনেমাটা দেখেছে","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie|He told me he had seen the movie","he said · saw · movie — আর্টিকেল the","a","দুজনেরই জানা সিনেমাটা, তাই আর্টিকেল the।"]]},
 { id:"articles-3", title:"কখন আর্টিকেল বসে না: the না কিছুই না?", blurb:"সাধারণ কথা আর্টিকেল ছাড়া, কোনটা তা পরিষ্কার হলে the। -টা / -টি দেখলেই the নয়।", deck:"হালকা আলাপ", body:`
 <p>বাংলায় আর্টিকেল নেই, তাই ভুল হয় দুই দিকেই: দরকারি a / an বাদ পড়ে (<b>I'm engineer.</b> ✗), আবার যেখানে কিছুই বসে না সেখানে the ঢুকে যায় (<b>The life is hard.</b> ✗)। কঠিন হলো দ্বিতীয়টা, অর্থাৎ কখন আর্টিকেল বসে <b>না</b>। লম্বা বাক্যে নিজেকে তিনটি প্রশ্ন করুন।</p>
 <h3>1. কথাটা কি সাধারণভাবে বলা? তাহলে আর্টিকেল ছাড়া</h3>
@@ -150,7 +150,7 @@ practice:[
 <p>তবে বর্ণনা থাকলেই the নয়। জিনিসটা অনেকের মধ্যে একটা হলে লম্বা বর্ণনার পরেও a / an বসে।</p>
 {{ex:My brother is an engineer who works in Dhaka.|মাই ˈব্রাদ়ার ইজ় আন এন্জিˈনির হু ˈওয়ার্ক্স ইন ˈডাːকা|আমার ভাই একজন ইঞ্জিনিয়ার, ঢাকায় কাজ করে}}
 <h3>-টা / -টি দেখলেই the নয়</h3>
-<p>বাংলার -টা / -টি অনেক সময় the-এর কাজ করে (বইটা → the book)। কিন্তু বাংলা এটা এমন জায়গাতেও বসায়, যেখানে ইংরেজিতে কোনো আর্টিকেল বসে না: my, your-এর মতো মালিকানা বোঝানো শব্দের পরে, আর নামের সঙ্গে। মানুষ, শহর, বেশির ভাগ দেশ, বিশ্ববিদ্যালয় আর কোম্পানির নামের আগে the বসে না।</p>
+<p>বাংলার -টা / -টি অনেক সময় the-এর কাজ করে (বইটা → the book)। কিন্তু বাংলা এটা এমন জায়গাতেও বসায়, যেখানে ইংরেজিতে কোনো আর্টিকেল বসে না: my, your-এর মতো মালিকানা বোঝানো শব্দের পরে, আর নামের সঙ্গে। মানুষ, শহর, বেশির ভাগ দেশ, বিশ্ববিদ্যালয় আর কোম্পানির নামের আগে the বসে না (তবে of থাকলে বসে: the University of Dhaka)।</p>
 <div class="tbl"><table><tr><th>বাংলা</th><th>ইংরেজি</th></tr><tr><td>আমার বইটা</td><td class="k">my book (my the book ✗)</td></tr><tr><td>ঢাকা শহরটা বড়</td><td class="k">Dhaka is big. (The Dhaka ✗)</td></tr><tr><td>সে ঢাকা বিশ্ববিদ্যালয়ে পড়ে</td><td class="k">She studies at Dhaka University. (at the Dhaka University ✗)</td></tr></table></div>
 {{ex:She studies at Dhaka University.|শি ˈস্টাডিজ় আট ˈডাːকা ইঊনিˈভ়ার্সাটি|সে ঢাকা বিশ্ববিদ্যালয়ে পড়ে}}
 <h3>3. বাঁধা কথা? তাহলে আর্টিকেল ছাড়া</h3>
@@ -170,7 +170,7 @@ practice:[
 ["or","আমি বাসে করে স্কুলে যাই","I go to school by bus","the a","go to school আর by bus বাঁধা কথা, আর্টিকেল বসে না।"],
 ["fi","__ is short.","জীবন ছোট","Life","The life|A life|Lives","life-এর মতো ধারণা সাধারণ অর্থে আর্টিকেল ছাড়া বসে।"],
 ["fi","I'm __ home now.","আমি এখন বাসায় আছি","at","at the|in the|to","at home বাঁধা কথা, আর্টিকেল বসে না।"],
-["fi","I read __ interesting article about sleep.","ঘুম নিয়ে একটা মজার লেখা পড়লাম","an","a|the|two","লেখাটা অনেকের মধ্যে একটা, তাই বর্ণনা থাকলেও আর্টিকেল an (interesting স্বরধ্বনি দিয়ে শুরু)।"],
+["fi","I read __ interesting article about sleep.","ঘুম নিয়ে একটা আকর্ষণীয় লেখা পড়লাম","an","a|the|two","লেখাটা অনেকের মধ্যে একটা, তাই বর্ণনা থাকলেও আর্টিকেল an (interesting স্বরধ্বনি দিয়ে শুরু)।"],
 ["ty","আমি তাড়াতাড়ি ঘুমাতে গিয়েছিলাম","I went to bed early","went to · bed · early — আর্টিকেল ছাড়া","the","go to bed বাঁধা কথা, আর্টিকেল বসে না।"],
 ["ty","তোমার বানানো কফিটা দারুণ ছিল","The coffee you made was great|The coffee you made was good|The coffee you made was delicious|The coffee that you made was great|The coffee that you made was good|The coffee that you made was delicious","the coffee · you made · great — আর্টিকেল the","a","you made ঠিক করে দিচ্ছে কোন কফি, তাই আর্টিকেল the।"],
 ["ty","আমি ট্রেনে করে কাজে যাই","I go to work by train|I commute by train|I take the train to work","go to work · by train — আর্টিকেল ছাড়া","the","go to work আর by train বাঁধা কথা, আর্টিকেল বসে না।"]]},

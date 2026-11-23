@@ -31,7 +31,7 @@ practice:[
 <p>Kapag ikinukuwento mo ang nangyari, tatlong tense ang pinaghahalo, at may sariling papel ang bawat isa. Sa Tagalog, ang <i>na</i> at ang takbo ng kuwento ang nagsasabi kung alin ang nauna. Sa Ingles, ang verb ang nagsasabi.</p>
 <div class="tbl"><table><tr><th>Tense</th><th>Papel</th><th>Halimbawa</th></tr><tr><td class="k">past continuous</td><td>likuran, ginagawa noon</td><td>I was walking home.</td></tr><tr><td class="k">past tense</td><td>pangyayari</td><td>I saw an old friend.</td></tr><tr><td class="k">past perfect</td><td>nangyari bago pa iyon</td><td>He had moved to Cebu.</td></tr></table></div>
 <h3>Likuran + pangyayari</h3>
-{{ex:I was walking home when I saw an old friend.|/aɪ wəz ˈwɔːkɪŋ ˈhoʊm wen aɪ ˈsɔː ən ˈoʊld ˈfrend/|Naglalakad ako pauwi nang makita ko ang isang dating kaibigan}}
+{{ex:I was walking home when I saw an old friend.|/aɪ wəz ˈwɔːkɪŋ ˈhoʊm wen aɪ ˈsɔː ən ˈoʊld ˈfrend/|Naglalakad ako pauwi nang makasalubong ko ang isang matagal ko nang kaibigan}}
 <h3>Past perfect: had + past participle</h3>
 <p>Para ito sa nangyari <b>bago pa</b> ang isang sandali sa nakaraan.</p>
 {{ex:When I arrived, the movie had already started.|/wen aɪ əˈraɪvd ðə ˈmuːvi həd ɔːlˈredi ˈstɑːrtɪd/|Pagdating ko, nagsimula na ang pelikula}}{{ex:I had never seen snow before.|/aɪ həd ˈnevər ˈsiːn ˈsnoʊ bɪˈfɔːr/|Hindi pa ako nakakakita ng niyebe noon}}
@@ -47,14 +47,14 @@ practice:[
 ["mc","Sa pagkukuwento, ano ang Ingles ng 'pagkatapos'?","then","than","that","them","Ang \"then\" ay \"pagkatapos\"; ang \"than\" ay \"kaysa\"."],
 ["mc","'Hindi pa ako nakakakita ng niyebe noon' sa Ingles?","I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before.","Bago pa ang sandaling iyon sa nakaraan, kaya \"had\" + \"never\" + past participle."],
 ["or","Nakaalis na ang tren noon","The train had already left","a has","Ang tren na sasakyan mo sana ang tinutukoy, kaya article na \"the\"."],
-["or","Nakita ko ang isang dating kaibigan","I met an old friend","a friends","Tunog na vowel ang simula ng \"old\", kaya article na \"an\"."],
+["or","Nakasalubong ko ang isang matagal ko nang kaibigan","I met an old friend","a friends","Tunog na vowel ang simula ng \"old\", kaya article na \"an\"."],
 ["or","Naglalakad ako pauwi noon","I was walking home","had","Past continuous ang likuran ng kuwento."],
 ["fi","I was sleeping __ you called.","Natutulog ako nang tumawag ka","when","than|so|had","\"When\" ang katumbas ng \"nang\" dito."],
 ["fi","The bus had already __.","Nakaalis na ang bus noon","left|gone","leave|leaving|leaves","Past participle ang kasunod ng \"had\"."],
 ["fi","First we ate. __ we watched a movie.","Kumain muna kami. Pagkatapos, nanood kami ng pelikula","Then|After that|Next","Than|Because|When","\"Then\" ang katumbas ng \"pagkatapos\"."],
-["ty","Nagsimula na ang pelikula noon","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — kailangan ng article","a","Ang pelikulang panonoorin sana ang tinutukoy, kaya article na \"the\"."],
-["ty","Nakita ko ang isang dating kaibigan","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — ingat sa article","a","Tunog na vowel ang simula ng \"old\", kaya article na \"an\"."],
-["ty","Naglalakad ako pauwi noon","I was walking home","was · walking · home","had","Past continuous ang gamit sa likuran ng kuwento."]]},
+["ty","Nagsimula na ang pelikula noon","The movie had already started|The movie had started already|The movie already started|The movie had already started by then|The movie had already started then","the movie · had · already · started — kailangan ng article","a","Ang pelikulang panonoorin sana ang tinutukoy, kaya article na \"the\"."],
+["ty","Nakasalubong ko ang isang matagal ko nang kaibigan","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — ingat sa article","a","Tunog na vowel ang simula ng \"old\", kaya article na \"an\"."],
+["ty","Naglalakad ako pauwi noon","I was walking home|I was walking home then|I was walking home at that time","was · walking · home","had","Past continuous ang gamit sa likuran ng kuwento."]]},
 { id:"conditionals", title:"Second at third conditional: kung sana", blurb:"\"Would\" kapag kabaligtaran ng totoo ngayon. \"Would have\" kapag panghihinayang sa nakaraan.", deck:"Damdamin at reaksyon", body:`
 <p>Para ito sa mga bagay na hindi totoo at iniisip lang. Sa Tagalog, <i>kung</i> at <i>sana</i> ang gamit: <i>Kung may oras ako, magbibiyahe sana ako</i>. Walang salitang katumbas ng <i>sana</i> dito sa Ingles. Ang <b>anyo ng verb</b> ang nagsasabing hindi ito totoo.</p>
 <h3>Second conditional: kabaligtaran ng totoo ngayon</h3>
@@ -96,22 +96,22 @@ practice:[
 <h3>Active at passive</h3>
 <div class="tbl"><table><tr><th>Active</th><th>Passive</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
 <div class="tip">Madalas makalusot: nawawala ang "be". <b>My phone stolen.</b> ✗ → <b>My phone was stolen.</b> ✓ <b>The house built in 1990.</b> ✗ → <b>The house was built in 1990.</b> ✓</div>`,
-check:[["My bag ___ stolen yesterday. Ano ang dapat ilagay sa patlang?",["is","was","did","has"],1,"Kahapon nangyari, kaya \"was\" + past participle."],["This phone ___ made in Korea. Ano ang dapat ilagay sa patlang?",["was","did","has","does"],0,"Sa passive, \"be\" + past participle ang anyo."],["'Kinansela ang miting' sa Ingles?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"\"Be\" + past participle na \"canceled\"."]],
+check:[["My bag ___ stolen yesterday. Ano ang dapat ilagay sa patlang?",["is","was","did","has"],1,"Kahapon nangyari, kaya \"was\" + past participle."],["This shirt ___ made in the Philippines. Ano ang dapat ilagay sa patlang?",["was","did","has","does"],0,"Sa passive, \"be\" + past participle ang anyo."],["'Kinansela ang miting' sa Ingles?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"\"Be\" + past participle na \"canceled\"."]],
 practice:[
 ["mc","My phone ___ stolen.","was","did","has","is steal","Sa passive, \"be\" + past participle ang anyo."],
-["mc","'Gawa ito sa Korea' sa Ingles?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","\"Be\" + past participle na \"made\"."],
+["mc","'Gawa ito sa Pilipinas' sa Ingles?","This was made in the Philippines.","This made in the Philippines.","This was make in the Philippines.","This did made in the Philippines.","\"Be\" + past participle na \"made\"."],
 ["mc","'Ingles ang ginagamit dito' (passive) sa Ingles?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","Laging ganoon, kaya \"is\" + past participle."],
 ["mc","'Kinansela ang miting' sa Ingles?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","Sa passive, past participle ang kasunod ng \"be\"."],
 ["mc","'Inihahain ang almusal tuwing alas-siyete' sa Ingles?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","Walang article ang \"breakfast\", \"lunch\" at \"dinner\"; \"is\" + past participle."],
 ["or","Ninakaw ang bag ko","My bag was stolen","stole","Past participle na \"stolen\" ang kasunod ng \"be\"."],
 ["or","Kinansela ang miting","The meeting was canceled","A meetings","Alam ninyong dalawa kung aling miting, kaya article na \"the\"."],
 ["or","Nabasag ang bintana","The window was broken","a windows","Ang bintanang nakikita ninyo ang tinutukoy, kaya article na \"the\"."],
-["fi","This was __ in Korea.","Gawa ito sa Korea","made","make|making|makes","Past participle ang kasunod ng \"be\"."],
+["fi","This was __ in the Philippines.","Gawa ito sa Pilipinas","made","make|making|makes","Past participle ang kasunod ng \"be\"."],
 ["fi","The room __ cleaned every day.","Nililinis ang kuwarto araw-araw","is|gets","does|has|did","Laging ganoon, kaya \"is\" + past participle."],
-["fi","It was written __ Han Kang.","Si Han Kang ang sumulat nito","by","from|of|with","\"By\" ang nagsasabi kung sino ang gumawa."],
+["fi","It was written __ José Rizal.","Si José Rizal ang sumulat nito","by","from|of|with","\"By\" ang nagsasabi kung sino ang gumawa."],
 ["ty","Ninakaw ang cellphone ko (passive)","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","\"Be\" + past participle na \"stolen\"."],
 ["ty","Kinansela ang miting (passive)","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — kailangan ng article","a","Alam ninyong dalawa kung aling miting, kaya article na \"the\"."],
-["ty","Nakakandado ang pinto noon","The door was locked","the door · was · locked — kailangan ng article","a","Ang pintong nasa harap mo ang tinutukoy, kaya article na \"the\"."]]},
+["ty","Nakakandado ang pinto noon","The door was locked|The door was locked then|The door was locked at that time","the door · was · locked — kailangan ng article","a","Ang pintong nasa harap mo ang tinutukoy, kaya article na \"the\"."]]},
 { id:"reported", title:"Reported speech: pagsasabi ng sinabi ng iba", blurb:"She said she was tired. Iatras ang tense, at tao ang kasunod ng \"tell\".", deck:"Tawag, text at mga daglat", body:`
 <p>Ginagamit ito kapag ipinapasa mo ang sinabi ng iba. Sa Tagalog, sapat na ang <i>daw</i> o <i>raw</i>, o ang <i>sabi niya</i>, at hindi nagbabago ang verb: <i>Pagod daw siya</i>. Sa Ingles, kapag past tense ang "said", <b>iniaatras din ang tense</b> ng sinabi.</p>
 <div class="tbl"><table><tr><th>Orihinal na sinabi</th><th>Kapag ipinasa</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>

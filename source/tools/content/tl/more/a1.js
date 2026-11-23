@@ -28,9 +28,9 @@ practice:[
 ["fi","__ cold today.","Malamig ngayon","It's|It is","Is|There's|This","Pinupunan ng \"it\" ang puwesto ng subject."],
 ["fi","There __ a bank near here.","May bangko malapit dito","is","are|have|be","Isa lang ang bangko, kaya \"is\"."],
 ["fi","__ there any seats?","May mga upuan pa ba?","Are","Is|Do|Have","Plural ang \"seats\", kaya \"Are\"."],
-["ty","Mainit ngayon","It's hot today","it · hot · today — \"it\" ang subject kapag panahon","There's","Kapag panahon, \"it\" ang simula ng pangungusap."],
+["ty","Mainit ngayong araw","It's hot today","it · hot · today — \"it\" ang subject kapag panahon","There's","Kapag panahon, \"it\" ang simula ng pangungusap."],
 ["ty","May banyo po ba rito?","Is there a bathroom here|Is there a restroom here","is there · bathroom — huwag kalimutan ang article","the","Isa lang ang hinahanap at hindi pa tiyak kung alin, kaya article na \"a\"."],
-["ty","May dalawang kuwarto","There are two rooms","there are · two · room — plural ang kailangan","room","Sa Tagalog, wala nang \"mga\" pagkatapos ng bilang; sa Ingles, kailangan pa rin ng plural na -s: \"two rooms\"."]]},
+["ty","(gamitin ang there) May dalawang kuwarto","There are two rooms","there are · two · room — plural ang kailangan","room","Sa Tagalog, wala nang \"mga\" pagkatapos ng bilang; sa Ingles, kailangan pa rin ng plural na -s: \"two rooms\"."]]},
 
 { id:"plurals", title:"Plural na -s, this / these at my / your", blurb:"Kahit may bilang na, may -s pa rin: \"two books\", hindi \"two book\". \"This\" para sa isa, \"these\" para sa marami.", deck:"Pamimili at pagbabayad", body:`
 <p>Sa Tagalog, ang salitang <i>mga</i> ang nagpapakita ng plural (maramihan), at nawawala pa ito kapag may bilang: <i>dalawang libro</i>. Hindi nagbabago ang noun (pangngalan). Sa Ingles, ang noun mismo ang nagbabago: kapag dalawa o higit pa, may <b>-s</b>, may bilang man o wala. Kaya madalas makalusot ang <b>two book</b> ✗.</p>
@@ -61,7 +61,7 @@ practice:[
 ["ty","Mga libro ko ito","These are my books","these · my · book — plural ang kailangan","book","Marami ang libro, kaya \"these\" at plural na \"books\"."],
 ["ty","May dalawa akong kapatid na babae","I have two sisters","have · two · sister — plural ang kailangan","sister","Pagkatapos ng \"two\", plural ang noun: \"two sisters\"."],
 ["ty","Bag ko ito","This is my bag","this · my · bag — hindi kailangan ng article","a","Kapag may \"my\", walang article: \"my bag\"."]]},
-{ id:"present", title:"Present tense at ayos ng mga salita: subject + verb + object", blurb:"Sa Tagalog, madalas mauna ang verb; sa Ingles, subject muna. At \"I don't eat\", hindi \"I not eat\".", deck:"Pagpapakilala", body:`
+{ id:"present", title:"Simple present at ayos ng mga salita: subject + verb + object", blurb:"Sa Tagalog, madalas mauna ang verb; sa Ingles, subject muna. At \"I don't eat\", hindi \"I not eat\".", deck:"Pagpapakilala", body:`
 <p>Sa Tagalog, kadalasang nauuna ang verb (pandiwa): <i>Umiinom ako ng kape</i>. Sa Ingles, ang ayos ay <b>sino → ginagawa → ano</b>. Walang marker na tulad ng <i>ang</i> at <i>ng</i> sa Ingles, kaya ang ayos ng mga salita mismo ang nagsasabi kung sino ang gumagawa at ano ang ginagawan.</p>
 <h3>Subject + verb + object</h3>
 {{ex:I drink coffee.|/aɪ ˈdrɪŋk ˈkɔːfi/|Umiinom ako ng kape}}{{ex:I study English.|/aɪ ˈstʌdi ˈɪŋglɪʃ/|Nag-aaral ako ng Ingles}}
@@ -79,7 +79,7 @@ check:[["Alin ang tamang ayos ng mga salita para sa 'Umiinom ako ng kape'?",["I 
 practice:[
 ["mc","'Nag-aaral ako ng Ingles' sa Ingles?","I study English.","I English study.","I am study English.","Study I English.","Subject + verb + object ang ayos."],
 ["mc","'Hindi ako kumakain ng karne' sa Ingles?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","Ang \"hindi\" bago ang verb na hindi \"be\" ay \"don't\", hindi \"not\" lang."],
-["mc","'Nakatira kami sa Seoul' sa Ingles?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","Pagkatapos ng verb, saka ang lugar."],
+["mc","'Nakatira kami sa Maynila' sa Ingles?","We live in Manila.","We in Manila live.","We are live in Manila.","We live Manila in.","Pagkatapos ng verb, saka ang lugar."],
 ["mc","'Karaniwan, alas-siyete ako gumigising' sa Ingles?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","Inilalagay ang \"usually\" bago mismo ang verb."],
 ["mc","Aling pangungusap ang tungkol sa ginagawa araw-araw?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","Present tense ang gamit para sa nakagawian."],
 ["or","Umiinom ako ng kape araw-araw","I drink coffee every day","the am","Nakagawian, kaya present tense. Pangkalahatan ang \"coffee\" rito, kaya walang article."],
@@ -87,9 +87,9 @@ practice:[
 ["or","Nagtatrabaho kami tuwing Sabado at Linggo","We work on weekends","are","Hindi dinadagdagan ng \"be\" ang ibang verb: \"We work\", hindi \"We are work\"."],
 ["fi","I __ like fish.","Hindi ako mahilig sa isda","don't|do not","not|am not|no","Sa negatibo ng verb na hindi \"be\", \"don't\" ang gamit."],
 ["fi","I __ English every day.","Nag-aaral ako ng Ingles araw-araw","study","am study|studying|to study","Sa present tense, base form ng verb ang gamit kapag \"I\" ang subject."],
-["fi","They live __ Busan.","Nakatira sila sa Busan","in","at|on|to","Bago ang pangalan ng lungsod, \"in\" ang gamit."],
-["ty","Umiinom ako ng tsaa","I drink tea","drink · tea — hindi kailangan ng article","a","Pangkalahatan ang \"tea\" rito, kaya walang article."],
-["ty","Mahilig ako sa mga pusa","I like cats","like · cat — gawing plural ang noun","cat","Kapag ang buong uri ng hayop ang tinutukoy, plural ang gamit at walang article: \"cats\"."],
+["fi","They live __ Cebu.","Nakatira sila sa Cebu","in","at|on|to","Bago ang pangalan ng lungsod, \"in\" ang gamit."],
+["ty","(ugali) Umiinom ako ng tsaa","I drink tea","drink · tea — hindi kailangan ng article","a","Pangkalahatan ang \"tea\" rito, kaya walang article."],
+["ty","Mahilig ako sa mga pusa","I like cats|I love cats","like · cat — gawing plural ang noun","cat","Kapag ang buong uri ng hayop ang tinutukoy, plural ang gamit at walang article: \"cats\"."],
 ["ty","Hindi ako kumakain ng karne","I don't eat meat","don't · eat · meat","am","Sa negatibo ng verb na hindi \"be\", \"don't\" ang gamit."]]},
 { id:"questions", title:"Pagtatanong: Do you …? at mga question word", blurb:"Walang \"ba\" sa Ingles: \"do\", \"is\" o \"are\" sa unahan ang kapalit. \"Where do you live?\", hindi \"Where you live?\".", deck:"Mahahalagang pangungusap 2", body:`
 <p>Sa Tagalog, sapat na ang <i>ba</i> at ang tono para maging tanong: <i>Mahilig ka ba sa kape?</i> Walang katumbas na salita ang <i>ba</i> sa Ingles. Ang kapalit nito ay pagbabago sa <b>ayos ng mga salita</b>: may <b>be</b> o <b>do</b> sa unahan.</p>
@@ -130,9 +130,9 @@ practice:[
 <p>Kapag may <b>doesn't</b> o <b>Does</b>, doon na lumilipat ang -s. Base form na (ang verb na walang dagdag) ang kasunod.</p>
 {{ex:He doesn't drink coffee.|/hi ˈdʌznt ˈdrɪŋk ˈkɔːfi/|Hindi siya umiinom ng kape (lalaki)}}{{ex:Does she live here?|/dəz ʃi ˈlɪv ˈhɪr/|Dito ba siya nakatira? (babae)}}
 <div class="tip">Madalas makalusot: <b>She work here.</b> ✗ → <b>She works here.</b> ✓ / <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
-check:[["She ___ in Seoul. Ano ang dapat ilagay sa patlang?",["live","lives","living","is live"],1,"\"She\" ang subject, kaya may -s ang verb: \"lives\"."],["He ___ like coffee. Ano ang dapat ilagay sa patlang?",["don't","isn't","doesn't","not"],2,"Kapag \"he\" ang subject, \"doesn't\" ang negatibo."],["Babae si Ana at may kotse siya. Alin ang tamang pangungusap?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"Nagiging \"has\" ang \"have\" kapag \"she\" ang subject."]],
+check:[["She ___ in Cebu. Ano ang dapat ilagay sa patlang?",["live","lives","living","is live"],1,"\"She\" ang subject, kaya may -s ang verb: \"lives\"."],["He ___ like coffee. Ano ang dapat ilagay sa patlang?",["don't","isn't","doesn't","not"],2,"Kapag \"he\" ang subject, \"doesn't\" ang negatibo."],["Babae si Ana at may kotse siya. Alin ang tamang pangungusap?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"Nagiging \"has\" ang \"have\" kapag \"she\" ang subject."]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","Isang tao lang ang subject, kaya may -s ang verb: \"works\"."],
+["mc","My brother ___ in Baguio.","works","work","working","is work","Isang tao lang ang subject, kaya may -s ang verb: \"works\"."],
 ["mc","Tungkol kay Paolo: 'Hindi siya umiinom ng kape' sa Ingles?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","Lalaki si Paolo, kaya \"he\"; ang negatibo ay \"doesn't\" + base form."],
 ["mc","Tungkol kay Ana: 'Dito ba siya nakatira?' sa Ingles?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Babae si Ana, kaya \"she\"; pagkatapos ng \"Does\", wala nang -s ang verb."],
 ["mc","have → she ___","has","haves","have","is have","Nagiging \"has\" ang \"have\"."],
@@ -144,7 +144,7 @@ practice:[
 ["fi","__ she speak English?","Tungkol kay Ana: Marunong ba siyang mag-Ingles?","Does","Do|Is|Are","Kapag \"she\" ang subject, \"Does\" ang simula ng tanong."],
 ["fi","She __ to work at eight.","Tungkol kay Ana: Pumapasok siya sa trabaho nang alas-otso","goes","go|going|gos","Nagiging \"goes\" ang \"go\"."],
 ["ty","Tungkol kay Paolo: May kotse siya","He has a car","has · car — kailangan ng article na \"a\"","have","\"He\" ang subject, kaya \"has\"; isang kotse, kaya article na \"a\"."],
-["ty","Tungkol kay Ana: Mahilig siya sa mga pusa","She likes cats","likes · cat — gawing plural ang noun","cat","\"She\" ang subject, kaya \"likes\"; ang buong uri ng hayop ang tinutukoy, kaya plural na \"cats\"."],
+["ty","Tungkol kay Ana: Mahilig siya sa mga pusa","She likes cats|She loves cats","likes · cat — gawing plural ang noun","cat","\"She\" ang subject, kaya \"likes\"; ang buong uri ng hayop ang tinutukoy, kaya plural na \"cats\"."],
 ["ty","Tungkol kay Paolo: Hindi siya nakatira rito","He doesn't live here","doesn't · live · here","lives","Pagkatapos ng \"doesn't\", base form ang verb."]]},
 { id:"countable", title:"Noun na nabibilang at hindi nabibilang: some, any, much, many", blurb:"Walang \"a\" at walang -s ang \"water\", \"advice\" at \"furniture\". \"Many\" kapag nabibilang, \"much\" kapag hindi.", deck:"Pag-order sa restawran", body:`
 <p>Sa Tagalog, iisa ang <i>marami</i> at iisa ang <i>kaunti</i> para sa lahat ng noun (pangngalan): <i>maraming tao</i>, <i>maraming tubig</i>. Sa Ingles, hinahati ang mga noun sa <b>nabibilang</b> at <b>hindi nabibilang</b>. Dito nakasalalay kung may article, kung may plural na -s, at kung <b>many</b> o <b>much</b> ang gagamitin.</p>
@@ -166,7 +166,7 @@ practice:[
 ["mc","How ___ time do we have?","much","many","any","a","Hindi nabibilang ang \"time\", kaya \"much\"."],
 ["mc","'May tanong ka ba?' sa Ingles?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","Pagkatapos ng \"any\", plural ang noun na nabibilang."],
 ["mc","'isang basong tubig' sa Ingles?","a glass of water","a water glass of","one waters","a glass water","Binibilang ang hindi nabibilang sa pamamagitan ng \"a glass of\"."],
-["mc","I have ___ friends in Seoul.","many","much","a","an","Nabibilang at plural ang \"friends\", kaya \"many\"."],
+["mc","I have ___ friends in Manila.","many","much","a","an","Nabibilang at plural ang \"friends\", kaya \"many\"."],
 ["or","May kaunti akong pera","I have some money","a moneys","Hindi nabibilang ang \"money\": walang article na \"a\" at walang plural na -s."],
 ["or","Dalawang mansanas nga po","Two apples please","apple","Pagkatapos ng \"two\", plural ang noun: \"two apples\"."],
 ["or","Wala akong gaanong oras","I don't have much time","many","Hindi nabibilang ang \"time\", kaya \"much\", hindi \"many\"."],
@@ -174,7 +174,7 @@ practice:[
 ["fi","I don't have __ questions.","Wala akong tanong","any","some|much|a","Sa negatibong pangungusap, \"any\" ang gamit."],
 ["fi","a cup __ coffee","isang tasang kape","of","for|in|a","\"A cup of …\" ang paraan ng pagbilang."],
 ["ty","Puwede po bang makahingi ng tubig?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — hindi kailangan ng article","a","Hindi nabibilang ang \"water\", kaya walang article na \"a\"; \"some\" ang gamit."],
-["ty","May tanong ka ba?","Do you have any questions","any · question — gawing plural ang noun","question","Pagkatapos ng \"any\", plural ang noun na nabibilang: \"questions\"."],
+["ty","(gamitin ang any) May tanong ka ba?","Do you have any questions","any · question — gawing plural ang noun","question","Pagkatapos ng \"any\", plural ang noun na nabibilang: \"questions\"."],
 ["ty","Ilang tao?","How many people","how many · people","much","Nabibilang ang tao, kaya \"many\"."]]},
 { id:"object-have", title:"me, him, her at ang verb na have", blurb:"Iisa ang \"niya\" sa Tagalog; sa Ingles, \"him\" o \"her\", \"his\" o \"her\". At \"have\" ang \"may\" kapag tao ang may-ari.", deck:"Pagpapakilala", body:`
 <p>Sa Tagalog, nag-iiba ang anyo ng pronoun (panghalip) ayon sa gamit: <i>ako, ko, akin</i>. Ganoon din sa Ingles: pagkatapos ng verb (pandiwa) o ng preposition (pang-ukol), object pronoun ang gamit, hindi <b>I</b> o <b>he</b>.</p>
@@ -205,11 +205,11 @@ practice:[
 ["fi","She __ a dog.","Tungkol kay Ana: May aso siya","has","have|is|haves","\"She\" ang subject, kaya \"has\"."],
 ["ty","Puwede mo ba akong tulungan?","Can you help me|Could you help me","can you · help · me","I","Pagkatapos ng verb, object pronoun ang gamit: \"me\"."],
 ["ty","May bolpen ka ba?","Do you have a pen","do you have · pen — kailangan ng article na \"a\"","the","Kahit anong bolpen ang hinahanap at isa lang, kaya article na \"a\"."],
-["ty","Marami akong kaibigan","I have many friends|I have a lot of friends","have · many · friend — gawing plural ang noun","friend","Pagkatapos ng \"many\", plural ang noun: \"friends\"."]]},
+["ty","Marami akong kaibigan","I have many friends|I have a lot of friends|I have lots of friends","have · many · friend — gawing plural ang noun","friend","Pagkatapos ng \"many\", plural ang noun: \"friends\"."]]},
 { id:"can-like", title:"can, like + -ing at I'd like: kaya mo, hilig mo, gusto mo ngayon", blurb:"\"He can swim\", hindi \"He can swims\". Sa pag-order, \"I'd like\", hindi \"I like\".", deck:"Kuwentuhan", body:`
-<p>Tatlong hulmahan ito na magagamit mo agad sa pagpapakilala at sa pag-order.</p>
+<p>Tatlong pattern ito na magagamit mo agad sa pagpapakilala at sa pag-order.</p>
 <h3>can: kaya, marunong, puwede</h3>
-<p>Pare-parehong <b>can</b> ang <i>kaya</i>, <i>marunong</i> at <i>puwede</i>. Ang hulmahan ay <b>can + base form</b> (ang verb na walang dagdag). Walang -s kahit <b>he</b> o <b>she</b> ang subject.</p>
+<p>Pare-parehong <b>can</b> ang <i>kaya</i>, <i>marunong</i> at <i>puwede</i>. Ang pattern ay <b>can + base form</b> (ang verb na walang dagdag). Walang -s kahit <b>he</b> o <b>she</b> ang subject.</p>
 {{ex:I can swim.|/aɪ kən ˈswɪm/|Marunong akong lumangoy}}{{ex:I can't drive.|/aɪ ˈkænt ˈdraɪv/|Hindi ako marunong magmaneho}}{{ex:Can you speak Tagalog?|/kən ju ˈspiːk təˈgɑːlɔːg/|Marunong ka bang mag-Tagalog?}}
 <h3>like + -ing: ang hilig mong gawin</h3>
 <p>Para sa libangan, anyong -ing ng verb ang kasunod ng <b>like</b> at <b>love</b>.</p>
@@ -220,7 +220,7 @@ practice:[
 <div class="tip">Madalas makalusot: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓. Sa kapihan: <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
 check:[["She can ___ very well. Ano ang dapat ilagay sa patlang?",["sings","sing","singing","to sing"],1,"Pagkatapos ng \"can\", base form ang verb."],["'Mahilig akong magluto' sa Ingles?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"Pagkatapos ng \"like\", anyong -ing ang gamit."],["Alin ang pinakanatural na sabihin kapag umoorder ka sa kapihan?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"\"I'd like\" ang gamit para sa gusto mo ngayon."]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","Pagkatapos ng \"can\", base form ang verb: walang -s."],
+["mc","He can ___ Spanish.","speak","speaks","speaking","to speak","Pagkatapos ng \"can\", base form ang verb: walang -s."],
 ["mc","'Hindi ako marunong magmaneho' sa Ingles?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","\"Can't\" ang negatibo ng \"can\"."],
 ["mc","'Mahilig akong manood ng pelikula' sa Ingles?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","Pagkatapos ng \"like\", anyong -ing; pangkalahatan ang pelikula, kaya plural na \"movies\"."],
 ["mc","Umoorder ka: 'Isang kape nga po' sa Ingles?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","\"I'd like\" ang gamit para sa gusto mo ngayon."],
@@ -231,7 +231,7 @@ practice:[
 ["fi","I can't __.","Hindi ako marunong lumangoy","swim","swimming|swims|to swim","Pagkatapos ng \"can't\", base form ang verb."],
 ["fi","I like __ music.","Mahilig akong makinig ng musika","listening to","listen to|listen|to listening","Pagkatapos ng \"like\", anyong -ing ang gamit."],
 ["fi","__ like a sandwich, please.","Isang sandwich nga po","I'd|I would","I|I'm|I can","Sa pag-order, \"I'd like\" ang gamit."],
-["ty","Mahilig akong magluto","I like cooking|I love cooking|I like to cook","like · cook — gamitin ang anyong -ing","cook","Pagkatapos ng \"like\", anyong -ing ang gamit."],
+["ty","Mahilig akong magluto","I like cooking|I love cooking|I like to cook|I love to cook","like · cook — gamitin ang anyong -ing","cook","Pagkatapos ng \"like\", anyong -ing ang gamit."],
 ["ty","Isang sandwich nga po","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — kailangan ng article na \"a\"","the","Kahit anong sandwich at isa lang, kaya article na \"a\"."],
 ["ty","Mahilig ako sa mga aso","I like dogs|I love dogs","like · dog — gawing plural ang noun","dog","Kapag ang buong uri ng hayop ang tinutukoy, plural ang gamit: \"dogs\"."]]},
 { id:"continuous", title:"Ginagawa ngayon: be + -ing", blurb:"Iisa ang \"kumakain\" sa Tagalog; sa Ingles, \"I eat\" ang nakagawian at \"I'm eating\" ang ginagawa ngayon.", deck:"Kuwentuhan", body:`
@@ -260,7 +260,7 @@ practice:[
 ["fi","She __ working today.","Tungkol kay Ana: Hindi siya nagtatrabaho ngayong araw","isn't|is not","doesn't|don't|not","\"Isn't\" ang negatibo ng be + -ing kapag \"she\" ang subject."],
 ["ty","Nagluluto ako ngayon","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook · now — gamitin ang anyong -ing","cook","Ang ginagawa ngayon ay be + -ing."],
 ["ty","(sa sandaling ito) Nanonood ako ng pelikula","I'm watching a movie","I'm · watching · movie — kailangan ng article na \"a\"","the","Isang pelikula at hindi pa tiyak kung alin, kaya article na \"a\"."],
-["ty","Natutulog ang mga bata","The kids are sleeping|The children are sleeping","kids · are · sleeping — plural ang subject","kid","Marami ang bata, kaya plural na \"kids\" at \"are\"."]]},
+["ty","(sa sandaling ito) Natutulog ang mga bata","The kids are sleeping|The children are sleeping","kids · are · sleeping — plural ang subject","kid","Marami ang bata, kaya plural na \"kids\" at \"are\"."]]},
 { id:"past", title:"Past tense: was / were at -ed", blurb:"May \"yesterday\" man, nagbabago pa rin ang verb: \"I worked yesterday\". At base form pagkatapos ng \"did\": \"Did you call?\".", deck:"Kuwentuhan", body:`
 <p>Alam mo na siguro ang past tense. Ang madalas makalusot ay ang <b>-ed</b> kapag mabilis ka nang magsalita. Sa Tagalog, aspect ang ipinapakita ng verb (pandiwa): ang <i>kumain</i> ay "tapos na". Sa Ingles, tense ang ipinapakita: kailangang nasa past form ang verb kahit may <i>kahapon</i> na sa pangungusap. <b>He work yesterday.</b> ✗ → <b>He worked yesterday.</b> ✓</p>
 <h3>Past ng be: was / were</h3>
@@ -286,8 +286,8 @@ practice:[
 ["fi","We __ at home last night.","Nasa bahay kami kagabi","were","was|did|are","Kapag \"we\" ang subject, \"were\" ang gamit."],
 ["fi","I __ soccer yesterday.","Naglaro ako ng soccer kahapon","played","play|playing|was play","May \"yesterday\", kaya past tense: \"played\"."],
 ["fi","__ you work yesterday?","Nagtrabaho ka ba kahapon?","Did","Were|Do|Was","Sa tanong na past tense na may ibang verb, \"Did\" ang simula."],
-["ty","Pagod ako kanina","I was tired","was · tired","were","Kapag \"I\" ang subject, \"was\" ang gamit."],
-["ty","Nanood ako ng pelikula","I watched a movie","watched · movie — kailangan ng article na \"a\"","the","Isang pelikula at hindi pa tiyak kung alin, kaya article na \"a\"."],
+["ty","Pagod ako kanina","I was tired|I was tired earlier","was · tired","were","Kapag \"I\" ang subject, \"was\" ang gamit."],
+["ty","Nanood ako ng pelikula","I watched a movie|I saw a movie","watched · movie — kailangan ng article na \"a\"","the","Isang pelikula at hindi pa tiyak kung alin, kaya article na \"a\"."],
 ["ty","Tinawagan ko ang mga kaibigan ko","I called my friends","called · my · friend — gawing plural ang noun","friend","Marami ang kaibigan, kaya plural na \"friends\"."]]},
 { id:"irregular-past", title:"Irregular na past: went, ate, saw", blurb:"\"Went\", hindi \"goed\"; at \"Did you go?\", hindi \"Did you went?\". Labindalawang verb muna ang kabisaduhin.", deck:"Kuwentuhan", body:`
 <p>Ang mga verb (pandiwa) na pinakamadalas gamitin ay <b>irregular</b>: hindi -ed ang past form nila. Walang tuntunin, kaya kabisaduhin nang tatluhan gaya ng nakasanayan sa paaralan: base form, past form, past participle. Ang ikalawang hanay ang kailangan sa araling ito; magagamit mo ang ikatlo pagdating sa present perfect.</p>
@@ -307,17 +307,17 @@ practice:[
 ["or","Nanood ako ng pelikula","I saw a movie","see movies","Isang pelikula, kaya article na \"a\" at singular na \"movie\"; \"saw\" ang past ng \"see\"."],
 ["or","Kumain kami ng pizza","We ate pizza","eated","\"Ate\" ang past ng \"eat\"."],
 ["or","Nakipagkita ako sa mga kaibigan ko","I met my friends","friend meet","Marami ang kaibigan, kaya plural na \"friends\"."],
-["fi","I __ to Jeju last year.","Pumunta ako sa Jeju noong nakaraang taon","went","go|goed|gone","\"Went\" ang past ng \"go\"."],
+["fi","I __ to Boracay last year.","Pumunta ako sa Boracay noong nakaraang taon","went","go|goed|gone","\"Went\" ang past ng \"go\"."],
 ["fi","What did you __?","Ano ang kinain mo?","eat","ate|eaten|eating","Pagkatapos ng \"did\", base form ang verb."],
 ["fi","She __ a new phone.","Tungkol kay Ana: Bumili siya ng bagong cellphone","bought","buyed|buy|buys","\"Bought\" ang past ng \"buy\"."],
-["ty","Pumunta ako sa Busan","I went to Busan","went · to · Busan","go","\"Went\" ang past ng \"go\"."],
+["ty","Pumunta ako sa Cebu","I went to Cebu","went · to · Cebu","go","\"Went\" ang past ng \"go\"."],
 ["ty","Bumili ako ng isang libro","I bought a book","bought · book — kailangan ng article na \"a\"","the","Isang libro at unang banggit pa lang, kaya article na \"a\"."],
 ["ty","Nakipagkita ako sa mga kaibigan ko","I met my friends|I saw my friends","met · my · friend — gawing plural ang noun","friend","Marami ang kaibigan, kaya plural na \"friends\"."]]},
 { id:"the", title:"Balik sa the: a sa una, the sa susunod, at kung kailan wala", blurb:"Hindi lahat ng \"ang\" ay \"the\". Unang banggit: \"a\". Alam na ng kausap: \"the\". Pangkalahatan: walang article.", deck:"Direksyon at sasakyan", body:`
 <p>Hindi natututuhan ang article (pantukoy sa Ingles: <b>a, an, the</b>) sa isang upuan lang. Ito ang bitag para sa atin: halos bawat noun (pangngalan) sa Tagalog ay may <i>ang</i>, <i>ng</i> o <i>sa</i>, kaya nakakasanayang lagyan ng <b>the</b> ang bawat noun sa Ingles. Hindi <b>the</b> ang <i>ang</i>. Mas malapit sa <b>the</b> ang <i>yung</i> o <i>iyong</i>: ang bagay na alam na ninyong dalawa.</p>
 <h3>A sa unang banggit, the sa susunod</h3>
 <p>Kung ngayon pa lang maririnig ng kausap ang bagay, <b>a</b>. Kung nabanggit na at alam na niya kung alin, <b>the</b>.</p>
-{{ex:I bought a shirt. The shirt is blue.|/aɪ ˈbɔːt ə ˈʃɜːrt ‖ ðə ˈʃɜːrt ɪz ˈbluː/|Bumili ako ng polo. Asul ang polong iyon}}
+{{ex:I bought a shirt. The shirt is blue.|/aɪ ˈbɔːt ə ˈʃɜːrt ‖ ðə ˈʃɜːrt ɪz ˈbluː/|Bumili ako ng damit. Asul ang damit na iyon}}
 <h3>The kapag malinaw kung alin</h3>
 <p>Ang bintana ng kuwartong ito, ang istasyon dito, ang araw sa langit: malinaw kung alin, kaya <b>the</b> agad.</p>
 {{ex:Can you open the window?|/kən ju ˈoʊpən ðə ˈwɪndoʊ/|Puwede mo bang buksan ang bintana?}}{{ex:Where's the train station?|/ˈwerz ðə ˈtreɪn ˈsteɪʃn/|Nasaan po ang istasyon ng tren?}}{{ex:The sun is hot today.|/ðə ˈsʌn ɪz ˈhɑːt təˈdeɪ/|Mainit ang araw ngayon}}
@@ -380,9 +380,9 @@ practice:[
 <h3>Mga salitang pampanahon na kasama nito</h3>
 <p>Ilagay sa dulo ng pangungusap ang <b>tomorrow</b> (bukas), <b>tonight</b> (mamayang gabi), <b>this weekend</b> (ngayong Sabado at Linggo) o <b>next week</b> (sa susunod na linggo).</p>
 <div class="tip">Sa mabilis na pagsasalita, parang <b>gonna</b> ang tunog ng <b>going to</b>. At huwag kalimutan ang <b>be</b>: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
-check:[["'Makikipagkita ako sa kaibigan ko bukas' sa Ingles?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + base form ang hulmahan."],["She ___ going to study. Ano ang dapat ilagay sa patlang?",["am","are","is","be"],2,"Kapag \"she\" ang subject, \"is\" ang gamit."],["'Ano ang gagawin mo sa Sabado at Linggo?' sa Ingles?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Question word + be + subject + going to ang ayos."]],
+check:[["'Makikipagkita ako sa kaibigan ko bukas' sa Ingles?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + base form ang pattern."],["She ___ going to study. Ano ang dapat ilagay sa patlang?",["am","are","is","be"],2,"Kapag \"she\" ang subject, \"is\" ang gamit."],["'Ano ang gagawin mo sa Sabado at Linggo?' sa Ingles?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Question word + be + subject + going to ang ayos."]],
 practice:[
-["mc","May plano ka na: 'Pupunta ako sa Busan' sa Ingles?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + base form ang hulmahan."],
+["mc","May plano ka na: 'Pupunta ako sa Baguio' sa Ingles?","I'm going to go to Baguio.","I going to go to Baguio.","I'm going go to Baguio.","I'm go to Baguio going.","be + going to + base form ang pattern."],
 ["mc","They ___ going to come.","are","is","am","be","Kapag \"they\" ang subject, \"are\" ang gamit."],
 ["mc","Makulimlim na: 'Uulan' sa Ingles?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","Pagkatapos ng \"going to\", base form ang verb."],
 ["mc","'Hindi ako pupunta' sa Ingles?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","Inilalagay ang \"not\" pagkatapos ng \"be\"."],
@@ -390,12 +390,12 @@ practice:[
 ["or","Tungkol kay Ana: Bibili siya ng kotse","She's going to buy a car","the cars","Isang kotse, kaya article na \"a\" at singular na \"car\"."],
 ["or","Makikipagkita ako sa mga kaibigan ko","I'm going to meet my friends","friend","Marami ang kaibigan, kaya plural na \"friends\"."],
 ["or","Maghahapunan kami","We're going to have dinner","a","Walang article bago ang \"dinner\"."],
-["fi","I'm going __ study tonight.","Mag-aaral ako mamayang gabi","to","for|at|will","going to + base form ang hulmahan."],
+["fi","I'm going __ study tonight.","Mag-aaral ako mamayang gabi","to","for|at|will","going to + base form ang pattern."],
 ["fi","__ you going to come?","Darating ka ba?","Are","Do|Is|Will","Kapag \"you\" ang subject, \"Are\" ang gamit."],
 ["fi","It's going to __ tomorrow.","Uulan bukas","rain","rains|raining|rained","Pagkatapos ng \"going to\", base form ang verb."],
-["ty","Manonood ako ng pelikula","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — kailangan ng article na \"a\"","the","Isang pelikula at hindi pa tiyak kung alin, kaya article na \"a\"."],
-["ty","Ano ang gagawin mo?","What are you going to do","what · going to · do","will","Plano ang itinatanong, kaya \"be going to\"."],
-["ty","Makikipagkita ako sa mga kaibigan ko","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — gawing plural ang noun","friend","Marami ang kaibigan, kaya plural na \"friends\"."]]},
+["ty","(plano na) Manonood ako ng pelikula","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — kailangan ng article na \"a\"","the","Isang pelikula at hindi pa tiyak kung alin, kaya article na \"a\"."],
+["ty","(tungkol sa plano mo) Ano ang gagawin mo?","What are you going to do","what · going to · do","will","Plano ang itinatanong, kaya \"be going to\"."],
+["ty","(plano na) Makikipagkita ako sa mga kaibigan ko","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — gawing plural ang noun","friend","Marami ang kaibigan, kaya plural na \"friends\"."]]},
 { id:"joining", title:"Pagdurugtong ng pangungusap: and, but, or, so, because", blurb:"Isa lang ang piliin: \"because\" o \"so\", \"although\" o \"but\". Hindi sabay, di tulad ng \"dahil … kaya\".", deck:"Damdamin at reaksyon", body:`
 <p>Putol-putol pakinggan ang puro maiikling pangungusap. Sa tulong ng limang pang-ugnay na ito (<b>and, but, or, so, because</b>), mas natural ang daloy ng sinasabi mo.</p>
 <h3>and, but, or</h3>
@@ -422,9 +422,9 @@ practice:[
 ["fi","I'm tired __ happy.","Pagod ako pero masaya","but","so|because|or","\"But\" ang katumbas ng \"pero\"."],
 ["fi","I stayed home __ it was raining.","Nanatili ako sa bahay dahil umuulan","because","so|but|or","Resulta muna bago ang dahilan, kaya \"because\"."],
 ["fi","Coffee __ tea?","Kape o tsaa?","or","so|but|because","Kapag isa lang sa dalawa ang pipiliin, \"or\" ang gamit."],
-["ty","Mahilig ako sa kape at tsaa","I like coffee and tea","like · coffee · and · tea — hindi kailangan ng article","a","Pangkalahatan ang \"coffee\" at \"tea\" rito, kaya walang article."],
+["ty","Mahilig ako sa kape at tsaa","I like coffee and tea|I love coffee and tea","like · coffee · and · tea — hindi kailangan ng article","a","Pangkalahatan ang \"coffee\" at \"tea\" rito, kaya walang article."],
 ["ty","Pagod ako pero masaya","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","\"But\" ang katumbas ng \"pero\"."],
-["ty","Mahilig ako sa mga aso at pusa","I like dogs and cats|I like cats and dogs","dog · and · cat — gawing plural ang mga noun","dog","Ang buong uri ng hayop ang tinutukoy, kaya plural: \"dogs\", \"cats\"."]]},
+["ty","Mahilig ako sa mga aso at pusa","I like dogs and cats|I like cats and dogs|I love dogs and cats|I love cats and dogs","dog · and · cat — gawing plural ang mga noun","dog","Ang buong uri ng hayop ang tinutukoy, kaya plural: \"dogs\", \"cats\"."]]},
 { id:"pinoy-english", title:"Ingles-Pinoy: tama sa atin, iba sa Amerika", blurb:"CR, open the light, for a while: malinaw sa Pilipinas, pero iba ang dating sa Amerika. Ito ang mapa ng mga pagkakaiba.", deck:"Mga bitag ng Ingles-Pinoy", body:`
 <p>Ang Ingles ng Pilipinas ay tunay na uri ng Ingles: may sarili itong mga salita, at marami sa mga iyon ang nakatala na sa mga diksiyonaryo. Kaya hindi listahan ng mali ang araling ito. Mapa ito ng mga bahaging iba ang Ingles-Pinoy sa American English, para alam mo kung alin ang gagamitin kapag taga-ibang bansa ang kausap mo.</p>
 <h3>1. Mga salitang iba ang kahulugan sa labas ng Pilipinas</h3>
@@ -432,7 +432,7 @@ practice:[
 {{ex:Where's the restroom?|/ˈwerz ðə ˈrestruːm/|Nasaan po ang CR?}}{{ex:Please turn off the lights.|/ˈpliːz ˈtɜːrn ˈɔːf ðə ˈlaɪts/|Pakipatay ang mga ilaw}}{{ex:Just a moment, please.|/ˈdʒʌst ə ˈmoʊmənt ˈpliːz/|Sandali lang po}}{{ex:I'll get off here.|/aɪl ˈget ˈɔːf ˈhɪr/|Dito na lang ako bababa}}{{ex:There's a lot of traffic.|/ðerz ə ˈlɑːt əv ˈtræfɪk/|Matindi ang traffic}}{{ex:There was a power outage last night.|/ðer wəz ə ˈpaʊər ˈaʊtɪdʒ ˈlæst ˈnaɪt/|Nag-brownout kagabi}}{{ex:The air conditioner isn't working.|/ði ˈer kənˈdɪʃənər ˈɪznt ˈwɜːrkɪŋ/|Sira ang aircon}}
 <p>Kapag pinalitan mo ang salita, isama ang tamang article at plural (maramihan): <b>the restroom</b> (ang CR ng lugar na ito), <b>the lights</b>, <b>a power outage</b>. Hindi nabibilang ang <b>traffic</b>, kaya walang <b>a</b> bago nito at walang -s.</p>
 <h3>2. Maliliit na gawi sa grammar</h3>
-<p>Iba ang pangkat na ito: madalas marinig ang mga ito, pero mali pa rin sa pormal na Ingles saanmang bansa.</p>
+<p>Iba ang pangkat na ito: madalas marinig ang mga ito, pero hindi ito ang karaniwang anyo sa pormal na Ingles saanmang bansa.</p>
 <div class="tbl"><table><tr><th>Madalas marinig ✗</th><th>Pormal na Ingles ✓</th></tr><tr><td>fill up a form</td><td class="k">fill out a form</td></tr><tr><td>cope up with</td><td class="k">cope with</td></tr><tr><td>result to</td><td class="k">result in</td></tr><tr><td>based from</td><td class="k">based on</td></tr><tr><td>share to your friends</td><td class="k">share with your friends</td></tr><tr><td>for my opinion</td><td class="k">in my opinion</td></tr><tr><td>commit a mistake</td><td class="k">make a mistake</td></tr><tr><td>with regards to</td><td class="k">with regard to, regarding</td></tr><tr><td>more better, more harder</td><td class="k">better, harder</td></tr><tr><td>luggages, furnitures, advices</td><td class="k">luggage, furniture, advice</td></tr></table></div>
 {{ex:I need to fill out a form.|/aɪ ˈniːd tə ˈfɪl ˈaʊt ə ˈfɔːrm/|Kailangan kong sagutan ang isang form}}{{ex:I have two pieces of luggage.|/aɪ ˈhæv ˈtuː ˈpiːsɪz əv ˈlʌgɪdʒ/|May dalawa akong bagahe}}{{ex:I made a mistake.|/aɪ ˈmeɪd ə mɪˈsteɪk/|Nagkamali ako}}{{ex:In my opinion, this one is better.|/ɪn maɪ əˈpɪnjən ˈðɪs ˈwʌn ɪz ˈbetər/|Sa palagay ko, mas maganda ito}}{{ex:Can you give me some advice?|/kən ju ˈgɪv mi ˈsʌm ədˈvaɪs/|Puwede mo ba akong payuhan?}}
 <p>Hindi nabibilang ang <b>luggage</b>, <b>furniture</b> at <b>advice</b>, kaya walang plural na -s. Kapag kailangang bilangin, <b>pieces of</b> ang gamit: <b>two pieces of luggage</b>, <b>a piece of advice</b>.</p>

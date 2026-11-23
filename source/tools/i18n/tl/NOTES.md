@@ -181,7 +181,7 @@ The same pack now also serves **tl-en** (English for Tagalog speakers). Nothing 
 | countable / uncountable | nabibilang / hindi nabibilang | |
 | question word | question word | same as tl-ko |
 | regular / irregular | regular / irregular na … | *regular na past -ed*, *irregular na past* |
-| present simple | simple present | profile: «present tense (simple present)»; the titles use *simple present*, because *present tense* alone does not contrast with *present continuous* |
+| present simple | simple present | profile: «present tense (simple present)»; the titles use *simple present*, because *present tense* alone does not contrast with *present continuous*. Settled 2026-11-23 (pre-merge review): both roadmap titles, the tl-en lesson title and the lesson 5 heading say *simple present*; prose may still say *present tense (simple present)* |
 | present continuous / past continuous | present continuous / past continuous | |
 | past | past | *mga tanong sa past* |
 | present perfect | present perfect | |

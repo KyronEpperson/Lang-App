@@ -92,19 +92,19 @@ practice:[
 <h3>Active voice ug passive voice</h3>
 <div class="tbl"><table><tr><th>active voice</th><th>passive voice</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
 <div class="tip">Kasagarang sayop: malimtan ang be verb, o "get" + base form ang gamiton. <b>My phone stolen.</b> ✗ → <b>My phone was stolen.</b> ✓ <b>They get bully.</b> ✗ → <b>They are bullied.</b> ✓ Sa kaswal nga panag-istorya, mas natural ang active voice kon nahibaloan kon kinsay nagbuhat.</div>`,
-check:[["My bag ___ stolen yesterday. Unsay sakto sa blangko?",["is","was","did","has"],1,"Gahapon kini nahitabo, mao nga \"was\" + past participle."],["This phone ___ made in Korea. Unsay sakto sa blangko?",["was","did","has","does"],0,"Ang passive voice: be verb + past participle."],["'Gikanselar ang miting' sa Iningles?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be verb + past participle nga \"canceled\"."]],
+check:[["My bag ___ stolen yesterday. Unsay sakto sa blangko?",["is","was","did","has"],1,"Gahapon kini nahitabo, mao nga \"was\" + past participle."],["This phone ___ made in Cebu. Unsay sakto sa blangko?",["was","did","has","does"],0,"Ang passive voice: be verb + past participle."],["'Gikanselar ang miting' sa Iningles?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be verb + past participle nga \"canceled\"."]],
 practice:[
 ["mc","My phone ___ stolen.","was","did","has","is steal","Ang passive voice: be verb + past participle."],
-["mc","'Gihimo kini sa Korea' sa Iningles?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be verb + past participle nga \"made\"."],
+["mc","'Gihimo kini sa Cebu' sa Iningles?","This was made in Cebu.","This made in Cebu.","This was make in Cebu.","This did made in Cebu.","be verb + past participle nga \"made\"."],
 ["mc","'Iningles ang sinultihan dinhi' (passive voice) sa Iningles?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","Sa butang nga kanunay mahitabo, \"is\" + past participle."],
 ["mc","'Gikanselar ang miting' sa Iningles?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","be verb + past participle."],
 ["mc","'Ang pamahaw isilbi sa alas siyete' sa Iningles?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","Walay article ang ngalan sa pagkaon sa adlaw (\"breakfast\"), ug \"is\" + past participle."],
 ["or","Gikawat ang akong bag","My bag was stolen","stole","Human sa be verb, past participle nga \"stolen\" ang sunod."],
 ["or","Gikanselar ang miting","The meeting was canceled","A meetings","Article \"the\" kay nahibaloan na kon unsang miting."],
 ["or","Nabuak ang bintana","The window was broken","a windows","Ang bintana nga ania dinhi, mao nga article \"the\"."],
-["fi","This was __ in Korea.","Gihimo kini sa Korea","made","make|making|makes","Human sa be verb, past participle ang sunod."],
+["fi","This was __ in Cebu.","Gihimo kini sa Cebu","made","make|making|makes","Human sa be verb, past participle ang sunod."],
 ["fi","The room __ cleaned every day.","Limpyohan ang kuwarto kada adlaw","is|gets","does|has|did","Sa butang nga kanunay mahitabo, \"is\" + past participle."],
-["fi","It was written __ Han Kang.","Gisulat kini ni Han Kang","by","from|of|with","Kon kinsay nagbuhat, \"by\" ang gamiton."],
+["fi","It was written __ Jose Rizal.","Gisulat kini ni Jose Rizal","by","from|of|with","Kon kinsay nagbuhat, \"by\" ang gamiton."],
 ["ty","Gikawat ang akong telepono","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be verb + past participle nga \"stolen\"."],
 ["ty","Gikanselar ang miting","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — kinahanglan ang article","a","Article \"the\" kay nahibaloan na kon unsang miting."],
 ["ty","Gitrangkahan ang pultahan niadtong orasa","The door was locked","the door · was · locked — kinahanglan ang article","a","Ang pultahan nga ania dinhi, mao nga article \"the\"."]]},

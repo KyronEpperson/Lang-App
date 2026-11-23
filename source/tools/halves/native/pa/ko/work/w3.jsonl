@@ -1,956 +1,956 @@
-{"f":"dialog","id":"ko.g185","k":"tr","src":"What's your ideal type? / Hmm… someone who laughs a lot.","tgt":""}
-{"f":"dialog","id":"ko.g186","k":"tr","src":"I liked my first impression of you. / Me too. I felt comfortable from the start.","tgt":""}
-{"f":"dialog","id":"ko.g187","k":"tr","src":"Have you eaten? / Not yet. Want to eat together?","tgt":""}
-{"f":"dialog","id":"ko.g188","k":"tr","src":"Want to come up for some ramyeon? / Haha, that's the line from the movie, right? I'm heading home tonight.","tgt":""}
-{"f":"dialog","id":"ko.g189","k":"tr","src":"Want to have dinner together this weekend? / Sure, when shall we meet?","tgt":""}
-{"f":"dialog","id":"ko.g190","k":"tr","src":"I had a great time today. Can I contact you? / Thanks for the thought, but I'm fine.","tgt":""}
-{"f":"dialog","id":"ko.g191","k":"tr","src":"Can I see you again? / Sorry, but I'm seeing someone.","tgt":""}
-{"f":"dialog","id":"ko.g192","k":"tr","src":"After class, I'll buy you a coffee. / You're a lovely person, but I'd like to stay friends.","tgt":""}
-{"f":"dialog","id":"ko.g193","k":"tr","src":"The food is really delicious. / Oh, it's nothing special. Eat plenty.","tgt":""}
-{"f":"dialog","id":"ko.g194","k":"tr","src":"How did you make this? / It's easy. I'll show you next time.","tgt":""}
-{"f":"dialog","id":"ko.g195","k":"tr","src":"You're really good at this. / Oh no, I still have a long way to go.","tgt":""}
-{"f":"dialog","id":"ko.g196","k":"tr","src":"I read your report. You're so thorough. / Thanks for seeing it that way.","tgt":""}
-{"f":"dialog","id":"ko.g197","k":"tr","src":"You're forty? You look so young for your age. / You're praising me too much.","tgt":""}
-{"f":"dialog","id":"ko.g198","k":"tr","src":"Your child is so cute. / Thank you. At home he's a little troublemaker.","tgt":""}
-{"f":"dialog","id":"ko.g199","k":"tr","src":"That outfit suits you. / Thank you for the compliment.","tgt":""}
-{"f":"dialog","id":"ko.g200","k":"tr","src":"Your pronunciation is really good. / Oh no. It's all thanks to my teacher.","tgt":""}
-{"f":"dialog","id":"ko.g201","k":"tr","src":"I learned a lot from your presentation today. / Don't mention it. Thanks for listening.","tgt":""}
-{"f":"examples","id":"ko.e001","k":"tr","src":"A glass of water, please.","tgt":""}
-{"f":"examples","id":"ko.e002","k":"tr","src":"Have you eaten?","tgt":""}
-{"f":"examples","id":"ko.e003","k":"tr","src":"Do you like meat?","tgt":""}
-{"f":"examples","id":"ko.e004","k":"tr","src":"This is really delicious.","tgt":""}
-{"f":"examples","id":"ko.e005","k":"tr","src":"I'm hungry. What shall we eat?","tgt":""}
-{"f":"examples","id":"ko.e006","k":"tr","src":"Okay, cheers!","tgt":""}
-{"f":"examples","id":"ko.e007","k":"tr","src":"The weather is nice today.","tgt":""}
-{"f":"examples","id":"ko.e008","k":"tr","src":"Are you free tomorrow?","tgt":""}
-{"f":"examples","id":"ko.e009","k":"tr","src":"I went to bed late yesterday.","tgt":""}
-{"f":"examples","id":"ko.e010","k":"tr","src":"I'm going now!","tgt":""}
-{"f":"examples","id":"ko.e011","k":"tr","src":"Mondays are always busy.","tgt":""}
-{"f":"examples","id":"ko.e012","k":"tr","src":"See you on Friday.","tgt":""}
-{"f":"examples","id":"ko.e013","k":"tr","src":"When did you come to Korea?","tgt":""}
-{"f":"examples","id":"ko.e014","k":"tr","src":"I exercise every day.","tgt":""}
-{"f":"examples","id":"ko.e015","k":"tr","src":"It's so hot today.","tgt":""}
-{"f":"examples","id":"ko.e016","k":"tr","src":"It's cold outside. Dress warm.","tgt":""}
-{"f":"examples","id":"ko.e017","k":"tr","src":"It's raining. Do you have an umbrella?","tgt":""}
-{"f":"examples","id":"ko.e018","k":"tr","src":"Wow, it's snowing!","tgt":""}
-{"f":"examples","id":"ko.e019","k":"tr","src":"I feel good today.","tgt":""}
-{"f":"examples","id":"ko.e020","k":"tr","src":"I'm happy because we're together.","tgt":""}
-{"f":"examples","id":"ko.e021","k":"tr","src":"The movie is so sad.","tgt":""}
-{"f":"examples","id":"ko.e022","k":"tr","src":"I'm nervous because of the interview.","tgt":""}
-{"f":"examples","id":"ko.e023","k":"tr","src":"Why are you angry?","tgt":""}
-{"f":"examples","id":"ko.e024","k":"tr","src":"I'm excited because my trip is tomorrow.","tgt":""}
-{"f":"examples","id":"ko.e025","k":"tr","src":"My mom cooks well.","tgt":""}
-{"f":"examples","id":"ko.e026","k":"tr","src":"Oppa, what is this?","tgt":""}
-{"f":"examples","id":"ko.e027","k":"tr","src":"Your (older sister's) clothes are pretty.","tgt":""}
-{"f":"examples","id":"ko.e028","k":"tr","src":"I have two younger siblings.","tgt":""}
-{"f":"examples","id":"ko.e029","k":"tr","src":"I'm going to grandma's house.","tgt":""}
-{"f":"examples","id":"ko.e030","k":"tr","src":"I miss my family.","tgt":""}
-{"f":"examples","id":"ko.e031","k":"tr","src":"I watched a movie with a friend.","tgt":""}
-{"f":"examples","id":"ko.e032","k":"tr","src":"Teacher, I have a question.","tgt":""}
-{"f":"examples","id":"ko.e033","k":"tr","src":"Who is that woman?","tgt":""}
-{"f":"examples","id":"ko.e034","k":"tr","src":"There are many people here.","tgt":""}
-{"f":"examples","id":"ko.e035","k":"tr","src":"One apple, please.","tgt":""}
-{"f":"examples","id":"ko.e036","k":"tr","src":"Two people.","tgt":""}
-{"f":"examples","id":"ko.e037","k":"tr","src":"Three coffees, please.","tgt":""}
-{"f":"examples","id":"ko.e038","k":"tr","src":"I bought four bottles of beer.","tgt":""}
-{"f":"examples","id":"ko.e039","k":"tr","src":"I have five cats.","tgt":""}
-{"f":"examples","id":"ko.e040","k":"tr","src":"I read six books.","tgt":""}
-{"f":"examples","id":"ko.e041","k":"tr","src":"I have seven tickets.","tgt":""}
-{"f":"examples","id":"ko.e042","k":"tr","src":"I waited two hours.","tgt":""}
-{"f":"examples","id":"ko.e043","k":"tr","src":"I called three times.","tgt":""}
-{"f":"examples","id":"ko.e044","k":"tr","src":"I'm in Korea for a month.","tgt":""}
-{"f":"examples","id":"ko.e045","k":"tr","src":"I ate. And then I drank coffee.","tgt":""}
-{"f":"examples","id":"ko.e046","k":"tr","src":"I'm tired. So I'll sleep early.","tgt":""}
-{"f":"examples","id":"ko.e047","k":"tr","src":"It's tasty. But a bit expensive.","tgt":""}
-{"f":"examples","id":"ko.e048","k":"tr","src":"It's hard. But it's fun.","tgt":""}
-{"f":"examples","id":"ko.e049","k":"tr","src":"What did you do after that?","tgt":""}
-{"f":"examples","id":"ko.e050","k":"tr","src":"You go first.","tgt":""}
-{"f":"examples","id":"ko.e051","k":"tr","src":"Because I don't have time.","tgt":""}
-{"f":"examples","id":"ko.e052","k":"tr","src":"Coffee or tea?","tgt":""}
-{"f":"examples","id":"ko.e053","k":"tr","src":"Then see you tomorrow.","tgt":""}
-{"f":"examples","id":"ko.e054","k":"tr","src":"Actually, my Korean isn't good.","tgt":""}
-{"f":"examples","id":"ko.e055","k":"tr","src":"I like this song.","tgt":""}
-{"f":"examples","id":"ko.e056","k":"tr","src":"The weather is bad.","tgt":""}
-{"f":"examples","id":"ko.e057","k":"tr","src":"The house is big.","tgt":""}
-{"f":"examples","id":"ko.e058","k":"tr","src":"The room is small.","tgt":""}
-{"f":"examples","id":"ko.e059","k":"tr","src":"I have a lot to do.","tgt":""}
-{"f":"examples","id":"ko.e060","k":"tr","src":"This is too expensive.","tgt":""}
-{"f":"examples","id":"ko.e061","k":"tr","src":"It's cheap here.","tgt":""}
-{"f":"examples","id":"ko.e062","k":"tr","src":"Are you busy these days?","tgt":""}
-{"f":"examples","id":"ko.e063","k":"tr","src":"Studying Korean is fun.","tgt":""}
-{"f":"examples","id":"ko.e064","k":"tr","src":"Today is really tough.","tgt":""}
-{"f":"examples","id":"ko.e065","k":"tr","src":"Be honest. What are we?","tgt":""}
-{"f":"examples","id":"ko.e066","k":"tr","src":"I'm not joking. I want to date you seriously.","tgt":""}
-{"f":"examples","id":"ko.e067","k":"tr","src":"I'll buy dinner. Stop being mad.","tgt":""}
-{"f":"examples","id":"ko.e068","k":"tr","src":"It's already 100 days. Happy 100th!","tgt":""}
-{"f":"examples","id":"ko.e069","k":"tr","src":"Same taste. I think we're a good match.","tgt":""}
-{"f":"examples","id":"ko.e070","k":"tr","src":"What time is tomorrow's meeting? It's not on the calendar.","tgt":""}
-{"f":"examples","id":"ko.e071","k":"tr","src":"When is this report due?","tgt":""}
-{"f":"examples","id":"ko.e072","k":"tr","src":"Manager, do you have a moment?","tgt":""}
-{"f":"examples","id":"ko.e073","k":"tr","src":"I'll head out first.","tgt":""}
-{"f":"examples","id":"ko.e074","k":"tr","src":"I have to work late today. Next time for the team dinner.","tgt":""}
-{"f":"examples","id":"ko.e075","k":"tr","src":"I don't have time today.","tgt":""}
-{"f":"examples","id":"ko.e076","k":"tr","src":"Is it OK to take photos here?","tgt":""}
-{"f":"examples","id":"ko.e077","k":"tr","src":"Please say it in Korean.","tgt":""}
-{"f":"examples","id":"ko.e078","k":"tr","src":"I got a lot of presents on my birthday.","tgt":""}
-{"f":"examples","id":"ko.e079","k":"tr","src":"When you come out of the station, it's right in front.","tgt":""}
-{"f":"examples","id":"ko.e080","k":"tr","src":"I live in Seoul.","tgt":""}
-{"f":"examples","id":"ko.e081","k":"tr","src":"Mom made gimbap.","tgt":""}
-{"f":"examples","id":"ko.e082","k":"tr","src":"I think so too.","tgt":""}
-{"f":"examples","id":"ko.e083","k":"tr","src":"I want to go to Korea.","tgt":""}
-{"f":"examples","id":"ko.e084","k":"tr","src":"You can see the sea from here.","tgt":""}
-{"f":"examples","id":"ko.e085","k":"tr","src":"I'm meeting a friend this weekend.","tgt":""}
-{"f":"examples","id":"ko.e086","k":"tr","src":"Today it's on me.","tgt":""}
-{"f":"examples","id":"ko.e087","k":"tr","src":"Please write your name here.","tgt":""}
-{"f":"examples","id":"ko.e088","k":"tr","src":"Please hold this bag for me.","tgt":""}
-{"f":"examples","id":"ko.e089","k":"tr","src":"The movie starts at seven.","tgt":""}
-{"f":"examples","id":"ko.e090","k":"tr","src":"I listen to Korean songs every day.","tgt":""}
-{"f":"examples","id":"ko.e091","k":"tr","src":"Please go in first.","tgt":""}
-{"f":"examples","id":"ko.e092","k":"tr","src":"Are you going out this evening?","tgt":""}
-{"f":"examples","id":"ko.e093","k":"tr","src":"I usually get up at seven.","tgt":""}
-{"f":"examples","id":"ko.e094","k":"tr","src":"Please wait a moment.","tgt":""}
-{"f":"examples","id":"ko.e095","k":"tr","src":"I'm looking for the restroom.","tgt":""}
-{"f":"examples","id":"ko.e096","k":"tr","src":"I walk home.","tgt":""}
-{"f":"examples","id":"ko.e097","k":"tr","src":"I read books on the subway.","tgt":""}
-{"f":"examples","id":"ko.e098","k":"tr","src":"Convenience stores are open at night too.","tgt":""}
-{"f":"examples","id":"ko.e099","k":"tr","src":"Please close the door.","tgt":""}
-{"f":"examples","id":"ko.e100","k":"tr","src":"That person is always smiling.","tgt":""}
-{"f":"examples","id":"ko.e101","k":"tr","src":"I'm learning Korean these days.","tgt":""}
-{"f":"examples","id":"ko.e102","k":"tr","src":"My friend teaches English.","tgt":"","rw":"mentions English"}
-{"f":"examples","id":"ko.e103","k":"tr","src":"I bought fruit at the market.","tgt":""}
-{"f":"examples","id":"ko.e104","k":"tr","src":"I went to bed late yesterday.","tgt":""}
-{"f":"examples","id":"ko.e105","k":"tr","src":"Wear something warm today.","tgt":""}
-{"f":"examples","id":"ko.e106","k":"tr","src":"I take the bus to school.","tgt":""}
-{"f":"examples","id":"ko.e107","k":"tr","src":"I get off at the next station.","tgt":""}
-{"f":"examples","id":"ko.e108","k":"tr","src":"When are you coming back to Korea?","tgt":""}
-{"f":"examples","id":"ko.e109","k":"tr","src":"I sent the photos to a friend.","tgt":""}
-{"f":"examples","id":"ko.e110","k":"tr","src":"We sang at karaoke.","tgt":""}
-{"f":"examples","id":"ko.e111","k":"tr","src":"The meeting ends at five.","tgt":""}
-{"f":"examples","id":"ko.e112","k":"tr","src":"Shall we order chicken?","tgt":""}
-{"f":"examples","id":"ko.e113","k":"tr","src":"Please trust me.","tgt":""}
-{"f":"examples","id":"ko.e114","k":"tr","src":"Don't forget your umbrella.","tgt":""}
-{"f":"examples","id":"ko.e115","k":"tr","src":"I wash my hands before eating.","tgt":""}
-{"f":"examples","id":"ko.e116","k":"tr","src":"A friend helped me move.","tgt":""}
-{"f":"examples","id":"ko.e117","k":"tr","src":"I didn't know the way, so I asked.","tgt":""}
-{"f":"examples","id":"ko.e118","k":"tr","src":"Please pick just one.","tgt":""}
-{"f":"examples","id":"ko.e119","k":"tr","src":"Can we swap seats?","tgt":""}
-{"f":"examples","id":"ko.e120","k":"tr","src":"I caught a cold.","tgt":""}
-{"f":"examples","id":"ko.e121","k":"tr","src":"Please turn on the light.","tgt":""}
-{"f":"examples","id":"ko.e122","k":"tr","src":"Are you doing well these days?","tgt":""}
-{"f":"examples","id":"ko.e123","k":"tr","src":"I work for a company.","tgt":""}
-{"f":"examples","id":"ko.e124","k":"tr","src":"Get well soon.","tgt":""}
-{"f":"examples","id":"ko.e125","k":"tr","src":"What time do you arrive at the airport?","tgt":""}
-{"f":"examples","id":"ko.e126","k":"tr","src":"Shall we take a photo here?","tgt":""}
-{"f":"examples","id":"ko.e127","k":"tr","src":"We go to the same school.","tgt":""}
-{"f":"examples","id":"ko.e128","k":"tr","src":"Oh, really? I didn't know.","tgt":""}
-{"f":"examples","id":"ko.e129","k":"tr","src":"How do you like Korean food?","tgt":""}
-{"f":"examples","id":"ko.e130","k":"tr","src":"Korean and English are very different.","tgt":"","rw":"mentions English"}
-{"f":"examples","id":"ko.e131","k":"tr","src":"Hangul is easier than you think.","tgt":""}
-{"f":"examples","id":"ko.e132","k":"tr","src":"Korean pronunciation is difficult.","tgt":""}
-{"f":"examples","id":"ko.e133","k":"tr","src":"That mountain is the highest.","tgt":""}
-{"f":"examples","id":"ko.e134","k":"tr","src":"Her hair is long.","tgt":""}
-{"f":"examples","id":"ko.e135","k":"tr","src":"The subway is faster than the bus.","tgt":""}
-{"f":"examples","id":"ko.e136","k":"tr","src":"Your grandmother looks really young.","tgt":""}
-{"f":"examples","id":"ko.e137","k":"tr","src":"Health is the most important thing.","tgt":""}
-{"f":"examples","id":"ko.e138","k":"tr","src":"What do you need?","tgt":""}
-{"f":"examples","id":"ko.e139","k":"tr","src":"The room is really clean.","tgt":""}
-{"f":"examples","id":"ko.e140","k":"tr","src":"Horror movies are too scary.","tgt":""}
-{"f":"examples","id":"ko.e141","k":"tr","src":"Where does it hurt?","tgt":""}
-{"f":"examples","id":"ko.e142","k":"tr","src":"Have a fun weekend.","tgt":""}
-{"f":"examples","id":"ko.e143","k":"tr","src":"Good to see you again.","tgt":""}
-{"f":"examples","id":"ko.e144","k":"tr","src":"Thanks for coming.","tgt":""}
-{"f":"examples","id":"ko.e145","k":"tr","src":"Sorry I'm late.","tgt":""}
-{"f":"examples","id":"ko.e146","k":"tr","src":"This tteokbokki is too spicy.","tgt":""}
-{"f":"examples","id":"ko.e147","k":"tr","src":"The soup is hot, so be careful.","tgt":""}
-{"f":"examples","id":"ko.e148","k":"tr","src":"It's warm today.","tgt":""}
-{"f":"examples","id":"ko.e149","k":"tr","src":"The breeze is nice and cool.","tgt":""}
-{"f":"examples","id":"ko.e150","k":"tr","src":"The library is quiet.","tgt":""}
-{"f":"examples","id":"ko.e151","k":"tr","src":"Home is the most comfortable place.","tgt":""}
-{"f":"examples","id":"ko.e152","k":"tr","src":"The shop owner is kind.","tgt":""}
-{"f":"examples","id":"ko.e153","k":"tr","src":"This restaurant is famous for bibimbap.","tgt":""}
-{"f":"examples","id":"ko.e154","k":"tr","src":"The bag is too heavy.","tgt":""}
-{"f":"examples","id":"ko.e155","k":"tr","src":"The two of them look alike.","tgt":""}
-{"f":"examples","id":"ko.e156","k":"tr","src":"It tastes a bit strange.","tgt":""}
-{"f":"examples","id":"ko.e157","k":"tr","src":"I can't be bothered to cook today.","tgt":""}
-{"f":"examples","id":"ko.e158","k":"tr","src":"You're going to Korea? I'm jealous!","tgt":""}
-{"f":"examples","id":"ko.e159","k":"tr","src":"I ate a lot, so I'm full.","tgt":""}
-{"f":"examples","id":"ko.e160","k":"tr","src":"Red suits you.","tgt":""}
-{"f":"examples","id":"ko.e161","k":"tr","src":"I don't drink coffee.","tgt":""}
-{"f":"examples","id":"ko.e162","k":"tr","src":"A bit more kimchi, please.","tgt":""}
-{"f":"examples","id":"ko.e163","k":"tr","src":"I can't swim.","tgt":""}
-{"f":"examples","id":"ko.e164","k":"tr","src":"I eat Korean food without trouble.","tgt":""}
-{"f":"examples","id":"ko.e165","k":"tr","src":"I finished all my homework.","tgt":""}
-{"f":"examples","id":"ko.e166","k":"tr","src":"Could you help me with this?","tgt":""}
-{"f":"examples","id":"ko.e167","k":"tr","src":"Please say it once more.","tgt":""}
-{"f":"examples","id":"ko.e168","k":"tr","src":"Please eat plenty.","tgt":""}
-{"f":"examples","id":"ko.e169","k":"tr","src":"Let's have lunch together.","tgt":""}
-{"f":"examples","id":"ko.e170","k":"tr","src":"The bank is right next door.","tgt":""}
-{"f":"examples","id":"ko.e171","k":"tr","src":"I like kimchi stew the most.","tgt":""}
-{"f":"examples","id":"ko.e172","k":"tr","src":"I really had fun today.","tgt":""}
-{"f":"examples","id":"ko.e173","k":"tr","src":"This bag is too expensive.","tgt":""}
-{"f":"examples","id":"ko.e174","k":"tr","src":"I haven't eaten yet.","tgt":""}
-{"f":"examples","id":"ko.e175","k":"tr","src":"It's already twelve?","tgt":""}
-{"f":"examples","id":"ko.e176","k":"tr","src":"The bus is coming soon.","tgt":""}
-{"f":"examples","id":"ko.e177","k":"tr","src":"Come quickly!","tgt":""}
-{"f":"examples","id":"ko.e178","k":"tr","src":"Do you come here often?","tgt":""}
-{"f":"examples","id":"ko.e179","k":"tr","src":"Sometimes I watch movies alone.","tgt":""}
-{"f":"examples","id":"ko.e180","k":"tr","src":"Mom always gets up early.","tgt":""}
-{"f":"examples","id":"ko.e181","k":"tr","src":"It keeps raining.","tgt":""}
-{"f":"examples","id":"ko.e182","k":"tr","src":"Let's meet again tomorrow.","tgt":""}
-{"f":"examples","id":"ko.e183","k":"tr","src":"I don't really like spicy food.","tgt":""}
-{"f":"examples","id":"ko.e184","k":"tr","src":"I don't know any Japanese at all.","tgt":""}
-{"f":"examples","id":"ko.e185","k":"tr","src":"Be sure to come next time.","tgt":""}
-{"f":"examples","id":"ko.e186","k":"tr","src":"It will probably rain tomorrow.","tgt":""}
-{"f":"examples","id":"ko.e187","k":"tr","src":"Do you speak English, by any chance?","tgt":"","rw":"mentions English"}
-{"f":"examples","id":"ko.e188","k":"tr","src":"We're almost there.","tgt":""}
-{"f":"examples","id":"ko.e189","k":"tr","src":"I'm going home now.","tgt":""}
-{"f":"examples","id":"ko.e190","k":"tr","src":"I just arrived.","tgt":""}
-{"f":"examples","id":"ko.e191","k":"tr","src":"I'll call you later.","tgt":""}
-{"f":"examples","id":"ko.e192","k":"tr","src":"What are you up to these days?","tgt":""}
-{"f":"examples","id":"ko.e193","k":"tr","src":"It suddenly rained.","tgt":""}
-{"f":"examples","id":"ko.e194","k":"tr","src":"I study Korean hard.","tgt":""}
-{"f":"examples","id":"ko.e195","k":"tr","src":"Just water, please.","tgt":""}
-{"f":"examples","id":"ko.e196","k":"tr","src":"I traveled alone.","tgt":""}
-{"f":"examples","id":"ko.e197","k":"tr","src":"Why didn't you come?","tgt":""}
-{"f":"examples","id":"ko.e198","k":"tr","src":"How do I get to Myeongdong?","tgt":""}
-{"f":"examples","id":"ko.e199","k":"tr","src":"I like that too. (casual)","tgt":""}
-{"f":"examples","id":"ko.e200","k":"tr","src":"I'm Mexican.","tgt":""}
-{"f":"examples","id":"ko.e201","k":"tr","src":"What are you doing today? (casual)","tgt":""}
-{"f":"examples","id":"ko.e202","k":"tr","src":"Let's go together.","tgt":""}
-{"f":"examples","id":"ko.e203","k":"tr","src":"Welcome to our shop.","tgt":""}
-{"f":"examples","id":"ko.e204","k":"tr","src":"This is mine. (casual)","tgt":""}
-{"f":"examples","id":"ko.e205","k":"tr","src":"My name is Minjun.","tgt":""}
-{"f":"examples","id":"ko.e206","k":"tr","src":"He didn't say a word. (written style)","tgt":""}
-{"f":"examples","id":"ko.e207","k":"tr","src":"She answered with a smile. (written style)","tgt":""}
-{"f":"examples","id":"ko.e208","k":"tr","src":"I love you. (a song line, or a long-married couple)","tgt":""}
-{"f":"examples","id":"ko.e209","k":"tr","src":"Do your own work yourself.","tgt":""}
-{"f":"examples","id":"ko.e210","k":"tr","src":"Hello, everyone!","tgt":""}
-{"f":"examples","id":"ko.e211","k":"tr","src":"Jisu, would you like a coffee?","tgt":""}
-{"f":"examples","id":"ko.e212","k":"tr","src":"And what's your name?","tgt":""}
-{"f":"examples","id":"ko.e213","k":"tr","src":"Who is that person?","tgt":""}
-{"f":"examples","id":"ko.e214","k":"tr","src":"What did you do on the weekend?","tgt":""}
-{"f":"examples","id":"ko.e215","k":"tr","src":"How may I help you?","tgt":""}
-{"f":"examples","id":"ko.e216","k":"tr","src":"Where do you live?","tgt":""}
-{"f":"examples","id":"ko.e217","k":"tr","src":"This is my book.","tgt":""}
-{"f":"examples","id":"ko.e218","k":"tr","src":"That's a good idea too.","tgt":""}
-{"f":"examples","id":"ko.e219","k":"tr","src":"What is that over there?","tgt":""}
-{"f":"examples","id":"ko.e220","k":"tr","src":"How much is this one?","tgt":""}
-{"f":"examples","id":"ko.e221","k":"tr","src":"Is that one tasty?","tgt":""}
-{"f":"examples","id":"ko.e222","k":"tr","src":"That one over there, please.","tgt":""}
-{"f":"examples","id":"ko.e223","k":"tr","src":"Until what time is that place open?","tgt":""}
-{"f":"examples","id":"ko.e224","k":"tr","src":"This is my teacher.","tgt":""}
-{"f":"examples","id":"ko.e225","k":"tr","src":"That person is really kind.","tgt":""}
-{"f":"examples","id":"ko.e226","k":"tr","src":"Is that person over there the owner?","tgt":""}
-{"f":"examples","id":"ko.e227","k":"tr","src":"This is my younger sibling.","tgt":""}
-{"f":"examples","id":"ko.e228","k":"tr","src":"He's busy these days. (about a friend)","tgt":""}
-{"f":"examples","id":"ko.e229","k":"tr","src":"Who's that over there? (casual)","tgt":""}
-{"f":"examples","id":"ko.e230","k":"tr","src":"Come this way, please.","tgt":""}
-{"f":"examples","id":"ko.e231","k":"tr","src":"The restroom is over there.","tgt":""}
-{"f":"examples","id":"ko.e232","k":"tr","src":"Contact me any time.","tgt":""}
-{"f":"examples","id":"ko.e233","k":"tr","src":"There's nobody home.","tgt":""}
-{"f":"examples","id":"ko.e234","k":"tr","src":"I didn't eat anything this morning.","tgt":""}
-{"f":"examples","id":"ko.e235","k":"tr","src":"Someone opened the door.","tgt":""}
-{"f":"examples","id":"ko.e236","k":"tr","src":"Something's off.","tgt":""}
-{"f":"examples","id":"ko.e237","k":"tr","src":"My phone must be somewhere in the house.","tgt":""}
-{"f":"examples","id":"ko.e238","k":"tr","src":"Believe in yourself.","tgt":""}
-{"f":"examples","id":"ko.e239","k":"tr","src":"I go by subway.","tgt":""}
-{"f":"examples","id":"ko.e240","k":"tr","src":"Until what time are you open?","tgt":""}
-{"f":"examples","id":"ko.e241","k":"tr","src":"Class starts at nine.","tgt":""}
-{"f":"examples","id":"ko.e242","k":"tr","src":"I gave a present to a friend.","tgt":""}
-{"f":"examples","id":"ko.e243","k":"tr","src":"I sent an email to the teacher.","tgt":""}
-{"f":"examples","id":"ko.e244","k":"tr","src":"I called my grandmother.","tgt":""}
-{"f":"examples","id":"ko.e245","k":"tr","src":"I got a text from my sister.","tgt":""}
-{"f":"examples","id":"ko.e246","k":"tr","src":"Today is colder than yesterday.","tgt":""}
-{"f":"examples","id":"ko.e247","k":"tr","src":"You speak like a Korean.","tgt":""}
-{"f":"examples","id":"ko.e248","k":"tr","src":"I go hiking every weekend.","tgt":""}
-{"f":"examples","id":"ko.e249","k":"tr","src":"I only have a thousand won.","tgt":""}
-{"f":"examples","id":"ko.e250","k":"tr","src":"Would you like coffee or tea?","tgt":""}
-{"f":"examples","id":"ko.e251","k":"tr","src":"I watched a movie with a friend.","tgt":""}
-{"f":"examples","id":"ko.e252","k":"tr","src":"Grandfather has arrived.","tgt":""}
-{"f":"examples","id":"ko.e253","k":"tr","src":"Let's meet around three.","tgt":""}
-{"f":"examples","id":"ko.e254","k":"tr","src":"Take one each, please.","tgt":""}
-{"f":"examples","id":"ko.e255","k":"tr","src":"By the way, are you free tomorrow?","tgt":""}
-{"f":"examples","id":"ko.e256","k":"tr","src":"It's raining. So take an umbrella.","tgt":""}
-{"f":"examples","id":"ko.e257","k":"tr","src":"It's expensive. But it's delicious.","tgt":""}
-{"f":"examples","id":"ko.e258","k":"tr","src":"This place is cheap. On top of that, it's good.","tgt":""}
-{"f":"examples","id":"ko.e259","k":"tr","src":"I eat and then have coffee.","tgt":""}
-{"f":"examples","id":"ko.e260","k":"tr","src":"It's expensive, but it's delicious.","tgt":""}
-{"f":"examples","id":"ko.e261","k":"tr","src":"I went to the market and bought fruit.","tgt":""}
-{"f":"examples","id":"ko.e262","k":"tr","src":"I was tired, so I went to bed early.","tgt":""}
-{"f":"examples","id":"ko.e263","k":"tr","src":"If you go to Korea, what do you want to do?","tgt":""}
-{"f":"examples","id":"ko.e264","k":"tr","src":"It's raining, so let's take a taxi.","tgt":""}
-{"f":"examples","id":"ko.e265","k":"tr","src":"I'm busy now, so I'll call you later.","tgt":""}
-{"f":"examples","id":"ko.e266","k":"tr","src":"Let's go eat lunch.","tgt":""}
-{"f":"examples","id":"ko.e267","k":"tr","src":"I listen to music while I walk.","tgt":""}
-{"f":"examples","id":"ko.e268","k":"tr","src":"On the way to school I ran into a friend.","tgt":""}
-{"f":"examples","id":"ko.e269","k":"tr","src":"On weekends I sleep or watch movies.","tgt":""}
-{"f":"examples","id":"ko.e270","k":"tr","src":"Even if it's expensive, I want to buy it.","tgt":""}
-{"f":"examples","id":"ko.e271","k":"tr","src":"I read before I go to sleep.","tgt":""}
-{"f":"examples","id":"ko.e272","k":"tr","src":"After eating, I take a walk.","tgt":""}
-{"f":"examples","id":"ko.e273","k":"tr","src":"I buy presents when I go to Korea.","tgt":""}
-{"f":"examples","id":"ko.e274","k":"tr","src":"I fell asleep as soon as I got home.","tgt":""}
-{"f":"examples","id":"ko.e275","k":"tr","src":"I have too much work today.","tgt":""}
-{"f":"patterns","id":"ko.p001","k":"meaning","src":"topic marker: 'as for…'; contrast, general statements","tgt":""}
-{"f":"patterns","id":"ko.p002","k":"meaning","src":"subject marker: who/what specifically; new information","tgt":""}
-{"f":"patterns","id":"ko.p003","k":"meaning","src":"object marker","tgt":""}
-{"f":"patterns","id":"ko.p004","k":"meaning","src":"to / at (destination, time)","tgt":""}
-{"f":"patterns","id":"ko.p005","k":"meaning","src":"at (where an action happens) / from","tgt":""}
-{"f":"patterns","id":"ko.p006","k":"meaning","src":"also / too (replaces 은/는/이/가/을/를)","tgt":""}
-{"f":"patterns","id":"ko.p007","k":"meaning","src":"possessive; often pronounced 에","tgt":""}
-{"f":"patterns","id":"ko.p008","k":"meaning","src":"and / with","tgt":""}
-{"f":"patterns","id":"ko.p009","k":"meaning","src":"only","tgt":""}
-{"f":"patterns","id":"ko.p010","k":"meaning","src":"toward / by means of","tgt":""}
-{"f":"patterns","id":"ko.p011","k":"meaning","src":"polite present (ㅏ/ㅗ stems → 아요, others → 어요, 하다 → 해요)","tgt":""}
-{"f":"patterns","id":"ko.p012","k":"meaning","src":"polite past","tgt":""}
-{"f":"patterns","id":"ko.p013","k":"meaning","src":"future / intention","tgt":""}
-{"f":"patterns","id":"ko.p014","k":"meaning","src":"don't / not (choice)","tgt":""}
-{"f":"patterns","id":"ko.p015","k":"meaning","src":"can't (ability, circumstance)","tgt":""}
-{"f":"patterns","id":"ko.p016","k":"meaning","src":"don't (slightly formal 안)","tgt":""}
-{"f":"patterns","id":"ko.p017","k":"meaning","src":"can / cannot","tgt":""}
-{"f":"patterns","id":"ko.p018","k":"meaning","src":"shall we…? (suggestion)","tgt":""}
-{"f":"patterns","id":"ko.p019","k":"meaning","src":"do you want to…?","tgt":""}
-{"f":"patterns","id":"ko.p020","k":"meaning","src":"let's (casual)","tgt":""}
-{"f":"patterns","id":"ko.p021","k":"meaning","src":"I will (promise, speaker's intent)","tgt":""}
-{"f":"patterns","id":"ko.p022","k":"meaning","src":"polite request / honorific present","tgt":""}
-{"f":"patterns","id":"ko.p023","k":"meaning","src":"please do (for me)","tgt":""}
-{"f":"patterns","id":"ko.p024","k":"meaning","src":"don't (command)","tgt":""}
-{"f":"patterns","id":"ko.p025","k":"meaning","src":"noticing / mild surprise","tgt":""}
-{"f":"patterns","id":"ko.p026","k":"meaning","src":"soft contrast, background info","tgt":""}
-{"f":"patterns","id":"ko.p027","k":"meaning","src":"is (after consonant / after vowel)","tgt":""}
-{"f":"patterns","id":"ko.p028","k":"meaning","src":"there is, have / there isn't","tgt":""}
-{"f":"patterns","id":"ko.p029","k":"meaning","src":"go in order to","tgt":""}
-{"f":"patterns","id":"ko.p030","k":"meaning","src":"want to","tgt":""}
-{"f":"patterns","id":"ko.p031","k":"meaning","src":"I think / it seems","tgt":""}
-{"f":"patterns","id":"ko.p032","k":"meaning","src":"if / when","tgt":""}
-{"f":"patterns","id":"ko.p033","k":"meaning","src":"things, people, cups, age, hours","tgt":""}
-{"f":"patterns","id":"ko.p034","k":"meaning","src":"money, dates, minutes, phone, floors","tgt":""}
-{"f":"patterns","id":"ko.p035","k":"meaning","src":"and then / so / but","tgt":""}
-{"f":"patterns","id":"ko.p036","k":"meaning","src":"address forms: polite name, title, casual call","tgt":""}
-{"f":"patterns","id":"ko.p037","k":"meaning","src":"honorific: raises the subject (elders, customers)","tgt":""}
-{"f":"patterns","id":"ko.p038","k":"meaning","src":"honorific replacements for 먹다·마시다 / 자다 / 있다","tgt":""}
-{"f":"patterns","id":"ko.p039","k":"meaning","src":"softener: 'a bit' / 'please'","tgt":""}
-{"f":"patterns","id":"ko.p040","k":"meaning","src":"'by any chance' — opens a polite question","tgt":""}
-{"f":"patterns","id":"ko.p041","k":"meaning","src":"'would you mind…?' (very polite request)","tgt":""}
-{"f":"patterns","id":"ko.p042","k":"meaning","src":"'would it be okay if…?' (permission)","tgt":""}
-{"f":"patterns","id":"ko.p043","k":"meaning","src":"'may I…?'","tgt":""}
-{"f":"patterns","id":"ko.p044","k":"meaning","src":"address colleagues by title, never bare name","tgt":""}
-{"f":"patterns","id":"ko.p045","k":"meaning","src":"work sign-offs: to those staying / to seniors after work","tgt":""}
-{"f":"patterns","id":"ko.p046","k":"meaning","src":"email opener: 'the reason I'm writing is…'","tgt":""}
-{"f":"patterns","id":"ko.p047","k":"meaning","src":"polite request closer (humble)","tgt":""}
-{"f":"lessons","id":"hangul","k":"title","src":"1 · Hangul in one sitting","tgt":""}
-{"f":"lessons","id":"hangul","k":"blurb","src":"The alphabet: 14 consonants, 10 vowels, how blocks stack.","tgt":""}
-{"f":"sentences","id":"ko.s0001","k":"gloss","src":"ㄴ + ㅏ side by side","tgt":""}
-{"f":"sentences","id":"ko.s0002","k":"gloss","src":"ㄴ + ㅗ stacked","tgt":""}
-{"f":"sentences","id":"ko.s0003","k":"gloss","src":"ㅎ + ㅏ + ㄴ final","tgt":""}
-{"f":"sentences","id":"ko.s0004","k":"gloss","src":"ㅅ+ㅓ, ㅇ(silent)+ㅜ+ㄹ","tgt":""}
-{"f":"checks","id":"hangul.k1","k":"q","src":"Which vowel is the horizontal 'u' (oo) sound?","tgt":"","rw":"English-spelling sound hint in brackets"}
-{"f":"checks","id":"hangul.k1","k":"why","src":"ㅜ: horizontal stick, tick down = u.","tgt":""}
-{"f":"checks","id":"hangul.k2","k":"q","src":"What does ㅇ sound like at the START of a block?","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"checks","id":"hangul.k2","k":"o[0]","src":"Silent","tgt":""}
-{"f":"checks","id":"hangul.k2","k":"o[1]","src":"ng","tgt":""}
-{"f":"checks","id":"hangul.k2","k":"o[2]","src":"h","tgt":""}
-{"f":"checks","id":"hangul.k2","k":"o[3]","src":"g","tgt":""}
-{"f":"checks","id":"hangul.k2","k":"why","src":"Initial ㅇ is a placeholder; final ㅇ is ng.","tgt":""}
-{"f":"checks","id":"hangul.k3","k":"q","src":"Which block is 'han'?","tgt":""}
-{"f":"checks","id":"hangul.k3","k":"why","src":"ㅎ + ㅏ + ㄴ (final) = 한.","tgt":""}
-{"f":"practice","id":"hangul.01","k":"q","src":"Which letter is the 'a' sound, as in father?","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"practice","id":"hangul.01","k":"why","src":"ㅏ: vertical stick, tick to the right.","tgt":""}
-{"f":"practice","id":"hangul.02","k":"q","src":"Which letter is silent at the start of a block?","tgt":""}
-{"f":"practice","id":"hangul.02","k":"why","src":"Initial ㅇ only holds the vowel's place; at the end it is ng.","tgt":""}
-{"f":"practice","id":"hangul.03","k":"q","src":"Which block reads 'no'?","tgt":""}
-{"f":"practice","id":"hangul.03","k":"why","src":"ㄴ + ㅗ, with the horizontal vowel stacked below.","tgt":""}
-{"f":"practice","id":"hangul.04","k":"q","src":"Which block reads 'gang'?","tgt":""}
-{"f":"practice","id":"hangul.04","k":"why","src":"ㄱ + ㅏ + final ㅇ (ng).","tgt":""}
-{"f":"practice","id":"hangul.05","k":"q","src":"Which word reads 'seoul'?","tgt":""}
-{"f":"practice","id":"hangul.05","k":"why","src":"ㅅ+ㅓ = seo, silent ㅇ+ㅜ+ㄹ = ul.","tgt":""}
-{"f":"practice","id":"hangul.06","k":"p","src":"Seoul (seo-ul)","tgt":""}
-{"f":"practice","id":"hangul.06","k":"why","src":"seo = ㅅ+ㅓ, ul = ㅇ+ㅜ+ㄹ.","tgt":""}
-{"f":"practice","id":"hangul.07","k":"p","src":"Korean language (han-gu-geo)","tgt":""}
-{"f":"practice","id":"hangul.07","k":"why","src":"han + guk + eo; the ㄱ of 국 links into 어 when spoken.","tgt":""}
-{"f":"practice","id":"hangul.08","k":"p","src":"friend (chin-gu)","tgt":""}
-{"f":"practice","id":"hangul.08","k":"why","src":"ㅊ is ch; ㅈ is j.","tgt":""}
-{"f":"practice","id":"hangul.09","k":"p","src":"Seoul (seoul)","tgt":""}
-{"f":"practice","id":"hangul.09","k":"why","src":"ㅜ (u) sits below the ㅇ: 울.","tgt":""}
-{"f":"practice","id":"hangul.10","k":"p","src":"Korean language (hangugeo)","tgt":""}
-{"f":"practice","id":"hangul.10","k":"why","src":"h = ㅎ, a = ㅏ, final n = ㄴ: 한.","tgt":""}
-{"f":"practice","id":"hangul.11","k":"p","src":"banana (banana)","tgt":""}
-{"f":"practice","id":"hangul.11","k":"why","src":"na = ㄴ + ㅏ, side by side.","tgt":""}
-{"f":"practice","id":"hangul.12","k":"p","src":"Type 'gang' — river","tgt":""}
-{"f":"practice","id":"hangul.12","k":"why","src":"Final ㅇ sounds like ng.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"practice","id":"hangul.13","k":"p","src":"Type 'seoul' — Seoul","tgt":""}
-{"f":"practice","id":"hangul.13","k":"why","src":"Two blocks: 서 + 울.","tgt":""}
-{"f":"practice","id":"hangul.14","k":"p","src":"Type 'hangugeo' — Korean language","tgt":""}
-{"f":"practice","id":"hangul.14","k":"why","src":"Three blocks: 한 + 국 + 어.","tgt":""}
-{"f":"lessons","id":"polite","k":"title","src":"2 · Politeness levels","tgt":""}
-{"f":"lessons","id":"polite","k":"blurb","src":"Why every verb has two endings, and which one to use.","tgt":""}
-{"f":"sentences","id":"ko.s0005","k":"gloss","src":"Thanks (polite)","tgt":""}
-{"f":"sentences","id":"ko.s0006","k":"gloss","src":"Thanks (casual)","tgt":""}
-{"f":"sentences","id":"ko.s0007","k":"gloss","src":"You're cute (polite)","tgt":""}
-{"f":"sentences","id":"ko.s0008","k":"gloss","src":"You're cute (casual)","tgt":""}
-{"f":"checks","id":"polite.k1","k":"q","src":"You're ordering at a café. Which form?","tgt":""}
-{"f":"checks","id":"polite.k1","k":"why","src":"요-form is the default with strangers and staff.","tgt":""}
-{"f":"checks","id":"polite.k2","k":"q","src":"Dropping the 요 makes speech…","tgt":""}
-{"f":"checks","id":"polite.k2","k":"o[0]","src":"casual (반말)","tgt":""}
-{"f":"checks","id":"polite.k2","k":"o[1]","src":"more polite","tgt":""}
-{"f":"checks","id":"polite.k2","k":"o[2]","src":"formal","tgt":""}
-{"f":"checks","id":"polite.k2","k":"o[3]","src":"a question","tgt":""}
-{"f":"checks","id":"polite.k2","k":"why","src":"반말 = casual speech for close friends and younger people.","tgt":""}
-{"f":"checks","id":"polite.k3","k":"q","src":"감사합니다 is which level?","tgt":""}
-{"f":"checks","id":"polite.k3","k":"o[0]","src":"formal","tgt":""}
-{"f":"checks","id":"polite.k3","k":"o[1]","src":"casual","tgt":""}
-{"f":"checks","id":"polite.k3","k":"o[2]","src":"polite 요-form","tgt":""}
-{"f":"checks","id":"polite.k3","k":"o[3]","src":"slang","tgt":""}
-{"f":"checks","id":"polite.k3","k":"why","src":"-습니다 / -ㅂ니다 is the formal level.","tgt":""}
-{"f":"practice","id":"polite.01","k":"q","src":"'Thanks' to a close friend (casual):","tgt":""}
-{"f":"practice","id":"polite.01","k":"why","src":"Casual speech drops 요.","tgt":""}
-{"f":"practice","id":"polite.02","k":"q","src":"'Thank you' to a shop clerk you've never met:","tgt":""}
-{"f":"practice","id":"polite.02","k":"why","src":"With strangers use a polite or formal form.","tgt":""}
-{"f":"practice","id":"polite.03","k":"q","src":"Which one is the formal level?","tgt":""}
-{"f":"practice","id":"polite.03","k":"why","src":"-습니다 / -ㅂ니다 is the formal level.","tgt":""}
-{"f":"practice","id":"polite.04","k":"q","src":"'Sorry' to a close friend (casual):","tgt":""}
-{"f":"practice","id":"polite.04","k":"why","src":"미안해 is the casual form; 미안해요 is polite.","tgt":""}
-{"f":"practice","id":"polite.05","k":"q","src":"'You're cute' (polite):","tgt":""}
-{"f":"practice","id":"polite.05","k":"why","src":"귀여워 + 요 = polite.","tgt":""}
-{"f":"practice","id":"polite.06","k":"p","src":"This one, please (polite)","tgt":""}
-{"f":"practice","id":"polite.06","k":"why","src":"주세요 is the polite 'please give'.","tgt":""}
-{"f":"practice","id":"polite.07","k":"p","src":"Yes, thanks (polite)","tgt":""}
-{"f":"practice","id":"polite.07","k":"why","src":"Keep 요 with people you don't know well.","tgt":""}
-{"f":"practice","id":"polite.08","k":"p","src":"No, it's okay (polite)","tgt":""}
-{"f":"practice","id":"polite.08","k":"why","src":"괜찮아 without 요 is casual.","tgt":""}
-{"f":"practice","id":"polite.09","k":"p","src":"Thanks (polite)","tgt":""}
-{"f":"practice","id":"polite.09","k":"why","src":"Add 요 to make it polite.","tgt":""}
-{"f":"practice","id":"polite.10","k":"p","src":"Sorry (casual)","tgt":""}
-{"f":"practice","id":"polite.10","k":"why","src":"Casual = the 요-form without 요: 미안해.","tgt":""}
-{"f":"practice","id":"polite.11","k":"p","src":"I'm sorry (formal)","tgt":""}
-{"f":"practice","id":"polite.11","k":"why","src":"Formal level ends in -ㅂ니다.","tgt":""}
-{"f":"practice","id":"polite.12","k":"p","src":"Yes, thanks (polite 요-form)","tgt":""}
-{"f":"practice","id":"polite.12","k":"why","src":"Polite = casual form + 요.","tgt":""}
-{"f":"practice","id":"polite.13","k":"p","src":"Yes, I'm sorry (formal)","tgt":""}
-{"f":"practice","id":"polite.13","k":"why","src":"죄송합니다 is the safe apology to strangers.","tgt":""}
-{"f":"practice","id":"polite.14","k":"p","src":"No, it's okay (casual)","tgt":""}
-{"f":"practice","id":"polite.14","k":"hint","src":"drop the 요","tgt":""}
-{"f":"practice","id":"polite.14","k":"why","src":"Casual drops the 요.","tgt":""}
-{"f":"lessons","id":"meet","k":"title","src":"3 · Meeting people","tgt":""}
-{"f":"lessons","id":"meet","k":"blurb","src":"Introduce yourself, ask the four standard questions, say goodbye correctly.","tgt":""}
-{"f":"sentences","id":"ko.s0297","k":"gloss","src":"Hello. I'm @@.","tgt":""}
-{"f":"sentences","id":"ko.s0010","k":"gloss","src":"Nice to meet you","tgt":""}
-{"f":"sentences","id":"ko.s0011","k":"gloss","src":"Where are you from?","tgt":""}
-{"f":"sentences","id":"ko.s0298","k":"gloss","src":"I'm from Mexico","tgt":""}
-{"f":"sentences","id":"ko.s0013","k":"gloss","src":"What do you do?","tgt":""}
-{"f":"sentences","id":"ko.s0014","k":"gloss","src":"I'm studying Korean","tgt":""}
-{"f":"sentences","id":"ko.s0015","k":"gloss","src":"How old are you?","tgt":""}
-{"f":"sentences","id":"ko.s0016","k":"gloss","src":"I'm 28","tgt":""}
-{"f":"sentences","id":"ko.s0017","k":"gloss","src":"Go well (they are leaving)","tgt":""}
-{"f":"sentences","id":"ko.s0018","k":"gloss","src":"Stay well (you are leaving)","tgt":""}
-{"f":"checks","id":"meet.k1","k":"q","src":"'I'm Lisa' — in Hangul 리사, and the last block 사 ends in a vowel, so:","tgt":""}
-{"f":"checks","id":"meet.k1","k":"why","src":"Go by the last Hangul block: no final consonant → 예요; a final consonant → 이에요.","tgt":""}
-{"f":"checks","id":"meet.k2","k":"q","src":"Someone is leaving and you are staying. You say:","tgt":""}
-{"f":"checks","id":"meet.k2","k":"why","src":"가세요 = go well (to the one leaving).","tgt":""}
-{"f":"checks","id":"meet.k3","k":"q","src":"'Where are you from?'","tgt":""}
-{"f":"checks","id":"meet.k3","k":"why","src":"에서 왔어요 = came from.","tgt":""}
-{"f":"practice","id":"meet.01","k":"q","src":"'I'm Minsu' — 민수 ends in a vowel, so:","tgt":""}
-{"f":"practice","id":"meet.01","k":"why","src":"예요 after a vowel, 이에요 after a consonant.","tgt":""}
-{"f":"practice","id":"meet.02","k":"q","src":"'Nice to meet you' =","tgt":""}
-{"f":"practice","id":"meet.02","k":"why","src":"만나서 반가워요 = glad because we met.","tgt":""}
-{"f":"practice","id":"meet.03","k":"q","src":"You leave a shop; the owner stays. You say:","tgt":""}
-{"f":"practice","id":"meet.03","k":"why","src":"계세요 = stay well, said by the one leaving.","tgt":""}
-{"f":"practice","id":"meet.04","k":"q","src":"'Where are you from?' =","tgt":""}
-{"f":"practice","id":"meet.04","k":"why","src":"에서 왔어요 = came from.","tgt":""}
-{"f":"practice","id":"meet.05","k":"q","src":"'I'm a student' =","tgt":""}
-{"f":"practice","id":"meet.05","k":"why","src":"학생 ends in a consonant → 이에요.","tgt":""}
-{"f":"practice","id":"meet.06","k":"p","src":"I'm from Mexico","tgt":""}
-{"f":"practice","id":"meet.06","k":"why","src":"Place + 에서 왔어요 = came from.","tgt":""}
-{"f":"practice","id":"meet.07","k":"p","src":"I'm studying Korean","tgt":""}
-{"f":"practice","id":"meet.07","k":"why","src":"한국어 = Korean language; 한국 = Korea.","tgt":""}
-{"f":"practice","id":"meet.08","k":"p","src":"Hello, I'm Minsu","tgt":""}
-{"f":"practice","id":"meet.08","k":"why","src":"민수 ends in a vowel → 예요.","tgt":""}
-{"f":"practice","id":"meet.09","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"meet.09","k":"why","src":"Consonant ending → 이에요.","tgt":""}
-{"f":"practice","id":"meet.10","k":"p","src":"I'm Minsu","tgt":""}
-{"f":"practice","id":"meet.10","k":"why","src":"Vowel ending → 예요.","tgt":""}
-{"f":"practice","id":"meet.11","k":"p","src":"Goodbye (you are leaving, they stay)","tgt":""}
-{"f":"practice","id":"meet.11","k":"why","src":"The one leaving says 계세요 (stay well).","tgt":""}
-{"f":"practice","id":"meet.12","k":"p","src":"Nice to meet you","tgt":""}
-{"f":"practice","id":"meet.12","k":"why","src":"The standard first-meeting phrase.","tgt":""}
-{"f":"practice","id":"meet.13","k":"p","src":"Where are you from?","tgt":""}
-{"f":"practice","id":"meet.13","k":"why","src":"Lit. 'from where did you come?'","tgt":""}
-{"f":"practice","id":"meet.14","k":"p","src":"How old are you?","tgt":""}
-{"f":"practice","id":"meet.14","k":"why","src":"몇 = how many, 살 = years of age.","tgt":""}
-{"f":"lessons","id":"sound-changes","k":"title","src":"4 · Sound changes: why 감사합니다 sounds different","tgt":""}
-{"f":"lessons","id":"sound-changes","k":"blurb","src":"Four habits that make spoken Korean differ from its spelling. Learn to expect them.","tgt":""}
-{"f":"sentences","id":"ko.s0019","k":"gloss","src":"Korean language · sounds like 한구거","tgt":""}
-{"f":"sentences","id":"ko.s0020","k":"gloss","src":"music · sounds like 으막","tgt":""}
-{"f":"sentences","id":"ko.s0021","k":"gloss","src":"there is · sounds like 이써요","tgt":""}
-{"f":"sentences","id":"ko.s0022","k":"gloss","src":"thank you · sounds like 감사함니다","tgt":""}
-{"f":"sentences","id":"ko.s0023","k":"gloss","src":"nice to meet you · sounds like 반갑씀니다","tgt":""}
-{"f":"sentences","id":"ko.s0024","k":"gloss","src":"Korean (speech) · sounds like 한궁말","tgt":""}
-{"f":"sentences","id":"ko.s0025","k":"gloss","src":"to be good · sounds like 조타","tgt":""}
-{"f":"sentences","id":"ko.s0026","k":"gloss","src":"congratulations · sounds like 추카","tgt":""}
-{"f":"sentences","id":"ko.s0027","k":"gloss","src":"it's good · sounds like 조아요","tgt":""}
-{"f":"sentences","id":"ko.s0028","k":"gloss","src":"contact · sounds like 열락","tgt":""}
-{"f":"sentences","id":"ko.s0029","k":"gloss","src":"Lunar New Year · sounds like 설랄","tgt":""}
-{"f":"checks","id":"sound-changes.k1","k":"q","src":"감사합니다 sounds like:","tgt":""}
-{"f":"checks","id":"sound-changes.k1","k":"o[1]","src":"감사합니다, exactly as spelled","tgt":""}
-{"f":"checks","id":"sound-changes.k1","k":"why","src":"ㅂ before ㄴ softens to ㅁ.","tgt":""}
-{"f":"checks","id":"sound-changes.k2","k":"q","src":"한국어 sounds like:","tgt":""}
-{"f":"checks","id":"sound-changes.k2","k":"o[1]","src":"한국 어, with a pause","tgt":""}
-{"f":"checks","id":"sound-changes.k2","k":"why","src":"The final ㄱ slides into the empty ㅇ seat.","tgt":""}
-{"f":"checks","id":"sound-changes.k3","k":"q","src":"좋아요 sounds like:","tgt":""}
-{"f":"checks","id":"sound-changes.k3","k":"why","src":"ㅎ between vowels goes silent.","tgt":""}
-{"f":"practice","id":"sound-changes.01","k":"q","src":"감사합니다 sounds like:","tgt":""}
-{"f":"practice","id":"sound-changes.01","k":"why","src":"ㅂ before ㄴ softens to ㅁ.","tgt":""}
-{"f":"practice","id":"sound-changes.02","k":"q","src":"한국어 sounds like:","tgt":""}
-{"f":"practice","id":"sound-changes.02","k":"why","src":"Final ㄱ links into the next block.","tgt":""}
-{"f":"practice","id":"sound-changes.03","k":"q","src":"좋아요 sounds like:","tgt":""}
-{"f":"practice","id":"sound-changes.03","k":"why","src":"ㅎ between vowels goes silent.","tgt":""}
-{"f":"practice","id":"sound-changes.04","k":"q","src":"연락 (contact) sounds like:","tgt":""}
+{"f":"dialog","id":"ko.g185","k":"tr","src":"What's your ideal type? / Hmm… someone who laughs a lot.","tgt":"ਤੁਹਾਡਾ ਆਈਡੀਅਲ ਟਾਈਪ ਕਿਹੋ ਜਿਹਾ ਹੈ? / ਹੰਮ… ਕੋਈ ਹਸਮੁੱਖ ਇਨਸਾਨ।"}
+{"f":"dialog","id":"ko.g186","k":"tr","src":"I liked my first impression of you. / Me too. I felt comfortable from the start.","tgt":"ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਵਿੱਚ ਹੀ ਤੁਸੀਂ ਚੰਗੇ ਲੱਗੇ। / ਮੈਨੂੰ ਵੀ। ਸ਼ੁਰੂ ਤੋਂ ਹੀ ਸਹਿਜ ਮਹਿਸੂਸ ਹੋਇਆ।"}
+{"f":"dialog","id":"ko.g187","k":"tr","src":"Have you eaten? / Not yet. Want to eat together?","tgt":"ਖਾਣਾ ਖਾ ਲਿਆ? / ਅਜੇ ਨਹੀਂ। ਇਕੱਠੇ ਖਾਈਏ?"}
+{"f":"dialog","id":"ko.g188","k":"tr","src":"Want to come up for some ramyeon? / Haha, that's the line from the movie, right? I'm heading home tonight.","tgt":"ਰਾਮਯੋਨ ਖਾ ਕੇ ਜਾਓਗੇ? / ਹਾਹਾ, ਇਹ ਉਸ ਫ਼ਿਲਮ ਦਾ ਡਾਇਲਾਗ ਹੈ ਨਾ? ਅੱਜ ਤਾਂ ਮੈਂ ਘਰ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ।"}
+{"f":"dialog","id":"ko.g189","k":"tr","src":"Want to have dinner together this weekend? / Sure, when shall we meet?","tgt":"ਇਸ ਵੀਕਐਂਡ ਇਕੱਠੇ ਖਾਣਾ ਖਾਓਗੇ? / ਵਧੀਆ, ਕਦੋਂ ਮਿਲੀਏ?"}
+{"f":"dialog","id":"ko.g190","k":"tr","src":"I had a great time today. Can I contact you? / Thanks for the thought, but I'm fine.","tgt":"ਅੱਜ ਬਹੁਤ ਮਜ਼ਾ ਆਇਆ। ਮੈਂ ਤੁਹਾਨੂੰ ਮੈਸੇਜ ਕਰ ਲਵਾਂ? / ਤੁਹਾਡੀ ਭਾਵਨਾ ਲਈ ਸ਼ੁਕਰੀਆ, ਪਰ ਰਹਿਣ ਦਿਓ।"}
+{"f":"dialog","id":"ko.g191","k":"tr","src":"Can I see you again? / Sorry, but I'm seeing someone.","tgt":"ਕੀ ਆਪਾਂ ਫਿਰ ਮਿਲ ਸਕਦੇ ਹਾਂ? / ਮਾਫ਼ ਕਰਨਾ ਜੀ, ਪਰ ਮੇਰੀ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਕੋਈ ਹੈ।"}
+{"f":"dialog","id":"ko.g192","k":"tr","src":"After class, I'll buy you a coffee. / You're a lovely person, but I'd like to stay friends.","tgt":"ਕਲਾਸ ਤੋਂ ਬਾਅਦ ਕੌਫ਼ੀ ਮੇਰੇ ਵੱਲੋਂ। / ਤੁਸੀਂ ਬਹੁਤ ਚੰਗੇ ਇਨਸਾਨ ਹੋ, ਪਰ ਮੇਰਾ ਦਿਲ ਕਰਦਾ ਹੈ ਕਿ ਆਪਾਂ ਦੋਸਤ ਹੀ ਰਹੀਏ।"}
+{"f":"dialog","id":"ko.g193","k":"tr","src":"The food is really delicious. / Oh, it's nothing special. Eat plenty.","tgt":"ਖਾਣਾ ਸੱਚੀਂ ਬਹੁਤ ਸੁਆਦੀ ਹੈ। / ਕੋਈ ਖ਼ਾਸ ਨਹੀਂ। ਰੱਜ ਕੇ ਖਾਓ ਜੀ।"}
+{"f":"dialog","id":"ko.g194","k":"tr","src":"How did you make this? / It's easy. I'll show you next time.","tgt":"ਤੁਸੀਂ ਇਹ ਕਿਵੇਂ ਬਣਾਇਆ ਜੀ? / ਸੌਖਾ ਹੈ। ਅਗਲੀ ਵਾਰ ਸਿਖਾ ਦਿਆਂਗਾ/ਦਿਆਂਗੀ।"}
+{"f":"dialog","id":"ko.g195","k":"tr","src":"You're really good at this. / Oh no, I still have a long way to go.","tgt":"ਤੁਹਾਨੂੰ ਤਾਂ ਇਹ ਸੱਚੀਂ ਬਹੁਤ ਵਧੀਆ ਆਉਂਦਾ ਹੈ। / ਨਹੀਂ ਨਹੀਂ, ਅਜੇ ਬਹੁਤ ਕੁਝ ਸਿੱਖਣਾ ਬਾਕੀ ਹੈ।"}
+{"f":"dialog","id":"ko.g196","k":"tr","src":"I read your report. You're so thorough. / Thanks for seeing it that way.","tgt":"ਮੈਂ ਤੁਹਾਡੀ ਰਿਪੋਰਟ ਦੇਖੀ। ਤੁਸੀਂ ਬਹੁਤ ਬਾਰੀਕੀ ਨਾਲ ਕੰਮ ਕਰਦੇ ਹੋ। / ਇੰਨੀ ਚੰਗੀ ਨਜ਼ਰ ਨਾਲ ਦੇਖਣ ਲਈ ਧੰਨਵਾਦ।"}
+{"f":"dialog","id":"ko.g197","k":"tr","src":"You're forty? You look so young for your age. / You're praising me too much.","tgt":"ਤੁਸੀਂ ਚਾਲੀ ਸਾਲ ਦੇ ਹੋ? ਤੁਹਾਡੀ ਉਮਰ ਦਾ ਪਤਾ ਹੀ ਨਹੀਂ ਲੱਗਦਾ। / ਇਹ ਤਾਂ ਲੋੜ ਤੋਂ ਵੱਧ ਤਾਰੀਫ਼ ਹੈ।"}
+{"f":"dialog","id":"ko.g198","k":"tr","src":"Your child is so cute. / Thank you. At home he's a little troublemaker.","tgt":"ਤੁਹਾਡਾ ਬੱਚਾ ਬਹੁਤ ਪਿਆਰਾ ਹੈ। / ਧੰਨਵਾਦ। ਘਰ ਵਿੱਚ ਤਾਂ ਪੂਰਾ ਸ਼ਰਾਰਤੀ ਹੈ।"}
+{"f":"dialog","id":"ko.g199","k":"tr","src":"That outfit suits you. / Thank you for the compliment.","tgt":"ਇਹ ਕੱਪੜੇ ਤੁਹਾਡੇ ਉੱਤੇ ਬਹੁਤ ਜਚਦੇ ਹਨ। / ਤਾਰੀਫ਼ ਲਈ ਧੰਨਵਾਦ।"}
+{"f":"dialog","id":"ko.g200","k":"tr","src":"Your pronunciation is really good. / Oh no. It's all thanks to my teacher.","tgt":"ਤੁਹਾਡਾ ਉਚਾਰਨ ਸੱਚੀਂ ਬਹੁਤ ਵਧੀਆ ਹੈ। / ਨਹੀਂ ਨਹੀਂ। ਇਹ ਸਭ ਮੇਰੇ ਟੀਚਰ ਦੀ ਬਦੌਲਤ ਹੈ।"}
+{"f":"dialog","id":"ko.g201","k":"tr","src":"I learned a lot from your presentation today. / Don't mention it. Thanks for listening.","tgt":"ਅੱਜ ਤੁਹਾਡੀ ਪ੍ਰੈਜ਼ੈਂਟੇਸ਼ਨ ਤੋਂ ਬਹੁਤ ਕੁਝ ਸਿੱਖਿਆ। / ਅਜਿਹੀ ਕੋਈ ਗੱਲ ਨਹੀਂ। ਸੁਣਨ ਲਈ ਸ਼ੁਕਰੀਆ।"}
+{"f":"examples","id":"ko.e001","k":"tr","src":"A glass of water, please.","tgt":"ਇੱਕ ਗਲਾਸ ਪਾਣੀ ਦੇ ਦਿਓ।"}
+{"f":"examples","id":"ko.e002","k":"tr","src":"Have you eaten?","tgt":"ਖਾਣਾ ਖਾ ਲਿਆ?"}
+{"f":"examples","id":"ko.e003","k":"tr","src":"Do you like meat?","tgt":"ਤੁਹਾਨੂੰ ਮੀਟ ਪਸੰਦ ਹੈ?"}
+{"f":"examples","id":"ko.e004","k":"tr","src":"This is really delicious.","tgt":"ਇਹ ਸੱਚੀਂ ਬਹੁਤ ਸੁਆਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e005","k":"tr","src":"I'm hungry. What shall we eat?","tgt":"ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ। ਕੀ ਖਾਈਏ?"}
+{"f":"examples","id":"ko.e006","k":"tr","src":"Okay, cheers!","tgt":"ਚਲੋ, ਚੀਅਰਸ!"}
+{"f":"examples","id":"ko.e007","k":"tr","src":"The weather is nice today.","tgt":"ਅੱਜ ਤਾਂ ਮੌਸਮ ਬੜਾ ਵਧੀਆ ਹੈ।"}
+{"f":"examples","id":"ko.e008","k":"tr","src":"Are you free tomorrow?","tgt":"ਕੱਲ੍ਹ ਤੁਹਾਡੇ ਕੋਲ ਸਮਾਂ ਹੈ?"}
+{"f":"examples","id":"ko.e009","k":"tr","src":"I went to bed late yesterday.","tgt":"ਕੱਲ੍ਹ ਰਾਤ ਸੌਣ ਵਿੱਚ ਦੇਰ ਹੋ ਗਈ।"}
+{"f":"examples","id":"ko.e010","k":"tr","src":"I'm going now!","tgt":"ਮੈਂ ਹੁਣੇ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ!"}
+{"f":"examples","id":"ko.e011","k":"tr","src":"Mondays are always busy.","tgt":"ਸੋਮਵਾਰ ਨੂੰ ਹਮੇਸ਼ਾ ਬਹੁਤ ਰੁਝੇਵਾਂ ਹੁੰਦਾ ਹੈ।"}
+{"f":"examples","id":"ko.e012","k":"tr","src":"See you on Friday.","tgt":"ਸ਼ੁੱਕਰਵਾਰ ਨੂੰ ਮਿਲਦੇ ਹਾਂ।"}
+{"f":"examples","id":"ko.e013","k":"tr","src":"When did you come to Korea?","tgt":"ਤੁਸੀਂ ਕੋਰੀਆ ਕਦੋਂ ਆਏ?"}
+{"f":"examples","id":"ko.e014","k":"tr","src":"I exercise every day.","tgt":"ਮੈਂ ਰੋਜ਼ ਕਸਰਤ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e015","k":"tr","src":"It's so hot today.","tgt":"ਅੱਜ ਬਹੁਤ ਗਰਮੀ ਹੈ।"}
+{"f":"examples","id":"ko.e016","k":"tr","src":"It's cold outside. Dress warm.","tgt":"ਬਾਹਰ ਠੰਢ ਹੈ। ਗਰਮ ਕੱਪੜੇ ਪਾਓ।"}
+{"f":"examples","id":"ko.e017","k":"tr","src":"It's raining. Do you have an umbrella?","tgt":"ਮੀਂਹ ਪੈ ਰਿਹਾ ਹੈ। ਤੁਹਾਡੇ ਕੋਲ ਛੱਤਰੀ ਹੈ?"}
+{"f":"examples","id":"ko.e018","k":"tr","src":"Wow, it's snowing!","tgt":"ਵਾਹ, ਬਰਫ਼ ਪੈ ਰਹੀ ਹੈ!"}
+{"f":"examples","id":"ko.e019","k":"tr","src":"I feel good today.","tgt":"ਅੱਜ ਮੇਰਾ ਮੂਡ ਵਧੀਆ ਹੈ।"}
+{"f":"examples","id":"ko.e020","k":"tr","src":"I'm happy because we're together.","tgt":"ਆਪਾਂ ਇਕੱਠੇ ਹਾਂ, ਇਸ ਲਈ ਮੈਂ ਖ਼ੁਸ਼ ਹਾਂ।"}
+{"f":"examples","id":"ko.e021","k":"tr","src":"The movie is so sad.","tgt":"ਫ਼ਿਲਮ ਬਹੁਤ ਉਦਾਸ ਕਰਨ ਵਾਲੀ ਹੈ।"}
+{"f":"examples","id":"ko.e022","k":"tr","src":"I'm nervous because of the interview.","tgt":"ਇੰਟਰਵਿਊ ਕਰਕੇ ਘਬਰਾਹਟ ਹੋ ਰਹੀ ਹੈ।"}
+{"f":"examples","id":"ko.e023","k":"tr","src":"Why are you angry?","tgt":"ਤੁਸੀਂ ਗੁੱਸੇ ਕਿਉਂ ਹੋ?"}
+{"f":"examples","id":"ko.e024","k":"tr","src":"I'm excited because my trip is tomorrow.","tgt":"ਕੱਲ੍ਹ ਘੁੰਮਣ ਜਾਣਾ ਹੈ, ਇਸ ਲਈ ਬੜਾ ਚਾਅ ਚੜ੍ਹਿਆ ਹੋਇਆ ਹੈ।"}
+{"f":"examples","id":"ko.e025","k":"tr","src":"My mom cooks well.","tgt":"ਮੰਮੀ ਬਹੁਤ ਵਧੀਆ ਖਾਣਾ ਬਣਾਉਂਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e026","k":"tr","src":"Oppa, what is this?","tgt":"ਭਾਜੀ, ਇਹ ਕੀ ਹੈ?"}
+{"f":"examples","id":"ko.e027","k":"tr","src":"Your (older sister's) clothes are pretty.","tgt":"ਤੁਹਾਡੇ (ਭੈਣ ਜੀ ਦੇ) ਕੱਪੜੇ ਸੋਹਣੇ ਹਨ।"}
+{"f":"examples","id":"ko.e028","k":"tr","src":"I have two younger siblings.","tgt":"ਮੇਰੇ ਦੋ ਛੋਟੇ ਭੈਣ-ਭਰਾ ਹਨ।"}
+{"f":"examples","id":"ko.e029","k":"tr","src":"I'm going to grandma's house.","tgt":"ਮੈਂ ਦਾਦੀ ਦੇ ਘਰ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e030","k":"tr","src":"I miss my family.","tgt":"ਮੈਨੂੰ ਪਰਿਵਾਰ ਦੀ ਯਾਦ ਆ ਰਹੀ ਹੈ।"}
+{"f":"examples","id":"ko.e031","k":"tr","src":"I watched a movie with a friend.","tgt":"ਮੈਂ ਦੋਸਤ ਨਾਲ ਫ਼ਿਲਮ ਦੇਖੀ।"}
+{"f":"examples","id":"ko.e032","k":"tr","src":"Teacher, I have a question.","tgt":"ਟੀਚਰ ਜੀ, ਮੇਰਾ ਇੱਕ ਸਵਾਲ ਹੈ।"}
+{"f":"examples","id":"ko.e033","k":"tr","src":"Who is that woman?","tgt":"ਉਹ ਔਰਤ ਕੌਣ ਹੈ?"}
+{"f":"examples","id":"ko.e034","k":"tr","src":"There are many people here.","tgt":"ਇੱਥੇ ਬਹੁਤ ਲੋਕ ਹਨ।"}
+{"f":"examples","id":"ko.e035","k":"tr","src":"One apple, please.","tgt":"ਇੱਕ ਸੇਬ ਦੇ ਦਿਓ।"}
+{"f":"examples","id":"ko.e036","k":"tr","src":"Two people.","tgt":"ਦੋ ਜਣੇ।"}
+{"f":"examples","id":"ko.e037","k":"tr","src":"Three coffees, please.","tgt":"ਤਿੰਨ ਕੌਫ਼ੀ ਦੇ ਦਿਓ।"}
+{"f":"examples","id":"ko.e038","k":"tr","src":"I bought four bottles of beer.","tgt":"ਮੈਂ ਬੀਅਰ ਦੀਆਂ ਚਾਰ ਬੋਤਲਾਂ ਖ਼ਰੀਦੀਆਂ।"}
+{"f":"examples","id":"ko.e039","k":"tr","src":"I have five cats.","tgt":"ਮੈਂ ਪੰਜ ਬਿੱਲੀਆਂ ਪਾਲੀਆਂ ਹਨ।"}
+{"f":"examples","id":"ko.e040","k":"tr","src":"I read six books.","tgt":"ਮੈਂ ਛੇ ਕਿਤਾਬਾਂ ਪੜ੍ਹੀਆਂ।"}
+{"f":"examples","id":"ko.e041","k":"tr","src":"I have seven tickets.","tgt":"ਮੇਰੇ ਕੋਲ ਸੱਤ ਟਿਕਟਾਂ ਹਨ।"}
+{"f":"examples","id":"ko.e042","k":"tr","src":"I waited two hours.","tgt":"ਮੈਂ ਦੋ ਘੰਟੇ ਉਡੀਕ ਕੀਤੀ।"}
+{"f":"examples","id":"ko.e043","k":"tr","src":"I called three times.","tgt":"ਮੈਂ ਤਿੰਨ ਵਾਰ ਫ਼ੋਨ ਕੀਤਾ।"}
+{"f":"examples","id":"ko.e044","k":"tr","src":"I'm in Korea for a month.","tgt":"ਮੈਂ ਇੱਕ ਮਹੀਨੇ ਲਈ ਕੋਰੀਆ ਵਿੱਚ ਹਾਂ।"}
+{"f":"examples","id":"ko.e045","k":"tr","src":"I ate. And then I drank coffee.","tgt":"ਮੈਂ ਖਾਣਾ ਖਾਧਾ। ਅਤੇ ਫਿਰ ਕੌਫ਼ੀ ਪੀਤੀ।"}
+{"f":"examples","id":"ko.e046","k":"tr","src":"I'm tired. So I'll sleep early.","tgt":"ਥਕਾਵਟ ਹੈ। ਇਸ ਲਈ ਮੈਂ ਜਲਦੀ ਸੌਂ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ।"}
+{"f":"examples","id":"ko.e047","k":"tr","src":"It's tasty. But a bit expensive.","tgt":"ਸੁਆਦੀ ਹੈ। ਪਰ ਥੋੜ੍ਹਾ ਮਹਿੰਗਾ ਹੈ।"}
+{"f":"examples","id":"ko.e048","k":"tr","src":"It's hard. But it's fun.","tgt":"ਔਖਾ ਹੈ। ਪਰ ਮਜ਼ੇਦਾਰ ਹੈ।"}
+{"f":"examples","id":"ko.e049","k":"tr","src":"What did you do after that?","tgt":"ਉਸ ਤੋਂ ਬਾਅਦ ਤੁਸੀਂ ਕੀ ਕੀਤਾ?"}
+{"f":"examples","id":"ko.e050","k":"tr","src":"You go first.","tgt":"ਤੁਸੀਂ ਪਹਿਲਾਂ ਜਾਓ।"}
+{"f":"examples","id":"ko.e051","k":"tr","src":"Because I don't have time.","tgt":"ਕਿਉਂਕਿ ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਨਹੀਂ ਹੈ।"}
+{"f":"examples","id":"ko.e052","k":"tr","src":"Coffee or tea?","tgt":"ਕੌਫ਼ੀ ਜਾਂ ਚਾਹ?"}
+{"f":"examples","id":"ko.e053","k":"tr","src":"Then see you tomorrow.","tgt":"ਤਾਂ ਫਿਰ ਕੱਲ੍ਹ ਮਿਲਦੇ ਹਾਂ।"}
+{"f":"examples","id":"ko.e054","k":"tr","src":"Actually, my Korean isn't good.","tgt":"ਸੱਚ ਦੱਸਾਂ ਤਾਂ ਮੈਨੂੰ ਕੋਰੀਆਈ ਚੰਗੀ ਤਰ੍ਹਾਂ ਨਹੀਂ ਆਉਂਦੀ।"}
+{"f":"examples","id":"ko.e055","k":"tr","src":"I like this song.","tgt":"ਮੈਨੂੰ ਇਹ ਗਾਣਾ ਪਸੰਦ ਹੈ।"}
+{"f":"examples","id":"ko.e056","k":"tr","src":"The weather is bad.","tgt":"ਮੌਸਮ ਖ਼ਰਾਬ ਹੈ।"}
+{"f":"examples","id":"ko.e057","k":"tr","src":"The house is big.","tgt":"ਘਰ ਵੱਡਾ ਹੈ।"}
+{"f":"examples","id":"ko.e058","k":"tr","src":"The room is small.","tgt":"ਕਮਰਾ ਛੋਟਾ ਹੈ।"}
+{"f":"examples","id":"ko.e059","k":"tr","src":"I have a lot to do.","tgt":"ਮੇਰੇ ਕੋਲ ਕਰਨ ਨੂੰ ਬਹੁਤ ਕੰਮ ਹੈ।"}
+{"f":"examples","id":"ko.e060","k":"tr","src":"This is too expensive.","tgt":"ਇਹ ਬਹੁਤ ਜ਼ਿਆਦਾ ਮਹਿੰਗਾ ਹੈ।"}
+{"f":"examples","id":"ko.e061","k":"tr","src":"It's cheap here.","tgt":"ਇੱਥੇ ਸਸਤਾ ਹੈ।"}
+{"f":"examples","id":"ko.e062","k":"tr","src":"Are you busy these days?","tgt":"ਅੱਜਕੱਲ੍ਹ ਤੁਸੀਂ ਰੁੱਝੇ ਹੋਏ ਹੋ?"}
+{"f":"examples","id":"ko.e063","k":"tr","src":"Studying Korean is fun.","tgt":"ਕੋਰੀਆਈ ਪੜ੍ਹਨ ਵਿੱਚ ਮਜ਼ਾ ਆਉਂਦਾ ਹੈ।"}
+{"f":"examples","id":"ko.e064","k":"tr","src":"Today is really tough.","tgt":"ਅੱਜ ਦਾ ਦਿਨ ਸੱਚੀਂ ਬਹੁਤ ਔਖਾ ਹੈ।"}
+{"f":"examples","id":"ko.e065","k":"tr","src":"Be honest. What are we?","tgt":"ਸੱਚ-ਸੱਚ ਦੱਸ। ਆਪਣੇ ਵਿਚਕਾਰ ਕੀ ਹੈ?"}
+{"f":"examples","id":"ko.e066","k":"tr","src":"I'm not joking. I want to date you seriously.","tgt":"ਇਹ ਮਜ਼ਾਕ ਨਹੀਂ। ਮੇਰਾ ਦਿਲ ਕਰਦਾ ਹੈ ਕਿ ਤੈਨੂੰ ਸੀਰੀਅਸਲੀ ਡੇਟ ਕਰਾਂ।"}
+{"f":"examples","id":"ko.e067","k":"tr","src":"I'll buy dinner. Stop being mad.","tgt":"ਡਿਨਰ ਮੇਰੇ ਵੱਲੋਂ। ਹੁਣ ਗੁੱਸਾ ਛੱਡ ਦੇ।"}
+{"f":"examples","id":"ko.e068","k":"tr","src":"It's already 100 days. Happy 100th!","tgt":"100 ਦਿਨ ਹੋ ਵੀ ਗਏ। 100 ਦਿਨ ਮੁਬਾਰਕ!"}
+{"f":"examples","id":"ko.e069","k":"tr","src":"Same taste. I think we're a good match.","tgt":"ਆਪਣੀ ਪਸੰਦ ਬਿਲਕੁਲ ਇੱਕੋ ਜਿਹੀ ਹੈ। ਲੱਗਦਾ ਹੈ ਆਪਣੀ ਖ਼ੂਬ ਬਣਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e070","k":"tr","src":"What time is tomorrow's meeting? It's not on the calendar.","tgt":"ਕੱਲ੍ਹ ਦੀ ਮੀਟਿੰਗ ਕਿੰਨੇ ਵਜੇ ਹੈ? ਕੈਲੰਡਰ ਵਿੱਚ ਨਹੀਂ ਹੈ।"}
+{"f":"examples","id":"ko.e071","k":"tr","src":"When is this report due?","tgt":"ਇਸ ਰਿਪੋਰਟ ਦੀ ਡੈੱਡਲਾਈਨ ਕਦੋਂ ਹੈ?"}
+{"f":"examples","id":"ko.e072","k":"tr","src":"Manager, do you have a moment?","tgt":"ਮੈਨੇਜਰ ਜੀ, ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਮਿੰਟ ਹੈ?"}
+{"f":"examples","id":"ko.e073","k":"tr","src":"I'll head out first.","tgt":"ਮੈਂ ਪਹਿਲਾਂ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ ਜੀ।"}
+{"f":"examples","id":"ko.e074","k":"tr","src":"I have to work late today. Next time for the team dinner.","tgt":"ਅੱਜ ਮੈਨੂੰ ਦੇਰ ਤੱਕ ਕੰਮ ਕਰਨਾ ਪਵੇਗਾ। ਦਫ਼ਤਰ ਦੀ ਪਾਰਟੀ ਅਗਲੀ ਵਾਰ।"}
+{"f":"examples","id":"ko.e075","k":"tr","src":"I don't have time today.","tgt":"ਅੱਜ ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਨਹੀਂ ਹੈ।"}
+{"f":"examples","id":"ko.e076","k":"tr","src":"Is it OK to take photos here?","tgt":"ਕੀ ਇੱਥੇ ਫ਼ੋਟੋ ਖਿੱਚਣਾ ਠੀਕ ਹੈ?"}
+{"f":"examples","id":"ko.e077","k":"tr","src":"Please say it in Korean.","tgt":"ਕੋਰੀਆਈ ਵਿੱਚ ਬੋਲ ਦਿਓ।"}
+{"f":"examples","id":"ko.e078","k":"tr","src":"I got a lot of presents on my birthday.","tgt":"ਜਨਮਦਿਨ ਉੱਤੇ ਮੈਨੂੰ ਬਹੁਤ ਸਾਰੇ ਤੋਹਫ਼ੇ ਮਿਲੇ।"}
+{"f":"examples","id":"ko.e079","k":"tr","src":"When you come out of the station, it's right in front.","tgt":"ਮੈਟਰੋ ਸਟੇਸ਼ਨ ਤੋਂ ਬਾਹਰ ਨਿਕਲਦੇ ਹੀ ਬਿਲਕੁਲ ਸਾਹਮਣੇ ਹੈ।"}
+{"f":"examples","id":"ko.e080","k":"tr","src":"I live in Seoul.","tgt":"ਮੈਂ ਸਿਓਲ ਵਿੱਚ ਰਹਿੰਦਾ/ਰਹਿੰਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e081","k":"tr","src":"Mom made gimbap.","tgt":"ਮੰਮੀ ਨੇ ਗਿਮਬਾਪ ਬਣਾਇਆ।"}
+{"f":"examples","id":"ko.e082","k":"tr","src":"I think so too.","tgt":"ਮੈਨੂੰ ਵੀ ਇਹੀ ਲੱਗਦਾ ਹੈ।"}
+{"f":"examples","id":"ko.e083","k":"tr","src":"I want to go to Korea.","tgt":"ਮੇਰਾ ਕੋਰੀਆ ਜਾਣ ਨੂੰ ਦਿਲ ਕਰਦਾ ਹੈ।"}
+{"f":"examples","id":"ko.e084","k":"tr","src":"You can see the sea from here.","tgt":"ਇੱਥੋਂ ਸਮੁੰਦਰ ਦਿਸਦਾ ਹੈ।"}
+{"f":"examples","id":"ko.e085","k":"tr","src":"I'm meeting a friend this weekend.","tgt":"ਵੀਕਐਂਡ ਉੱਤੇ ਮੈਂ ਇੱਕ ਦੋਸਤ ਨੂੰ ਮਿਲ ਰਿਹਾ/ਰਹੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e086","k":"tr","src":"Today it's on me.","tgt":"ਅੱਜ ਮੇਰੇ ਵੱਲੋਂ।"}
+{"f":"examples","id":"ko.e087","k":"tr","src":"Please write your name here.","tgt":"ਆਪਣਾ ਨਾਂ ਇੱਥੇ ਲਿਖ ਦਿਓ।"}
+{"f":"examples","id":"ko.e088","k":"tr","src":"Please hold this bag for me.","tgt":"ਜ਼ਰਾ ਇਹ ਬੈਗ ਫੜ ਲਓ।"}
+{"f":"examples","id":"ko.e089","k":"tr","src":"The movie starts at seven.","tgt":"ਫ਼ਿਲਮ ਸੱਤ ਵਜੇ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e090","k":"tr","src":"I listen to Korean songs every day.","tgt":"ਮੈਂ ਰੋਜ਼ ਕੋਰੀਆਈ ਗਾਣੇ ਸੁਣਦਾ/ਸੁਣਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e091","k":"tr","src":"Please go in first.","tgt":"ਤੁਸੀਂ ਪਹਿਲਾਂ ਅੰਦਰ ਜਾਓ।"}
+{"f":"examples","id":"ko.e092","k":"tr","src":"Are you going out this evening?","tgt":"ਅੱਜ ਸ਼ਾਮ ਨੂੰ ਬਾਹਰ ਜਾ ਰਹੇ ਹੋ?"}
+{"f":"examples","id":"ko.e093","k":"tr","src":"I usually get up at seven.","tgt":"ਮੈਂ ਆਮ ਤੌਰ ਉੱਤੇ ਸੱਤ ਵਜੇ ਉੱਠਦਾ/ਉੱਠਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e094","k":"tr","src":"Please wait a moment.","tgt":"ਬੱਸ ਇੱਕ ਮਿੰਟ ਰੁਕ ਜਾਓ।"}
+{"f":"examples","id":"ko.e095","k":"tr","src":"I'm looking for the restroom.","tgt":"ਮੈਂ ਬਾਥਰੂਮ ਲੱਭ ਰਿਹਾ/ਰਹੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e096","k":"tr","src":"I walk home.","tgt":"ਮੈਂ ਘਰ ਤੱਕ ਪੈਦਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e097","k":"tr","src":"I read books on the subway.","tgt":"ਮੈਂ ਮੈਟਰੋ ਵਿੱਚ ਕਿਤਾਬਾਂ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e098","k":"tr","src":"Convenience stores are open at night too.","tgt":"ਕਨਵੀਨੀਅੰਸ ਸਟੋਰ ਰਾਤ ਨੂੰ ਵੀ ਖੁੱਲ੍ਹੇ ਰਹਿੰਦੇ ਹਨ।"}
+{"f":"examples","id":"ko.e099","k":"tr","src":"Please close the door.","tgt":"ਜ਼ਰਾ ਦਰਵਾਜ਼ਾ ਬੰਦ ਕਰ ਦਿਓ।"}
+{"f":"examples","id":"ko.e100","k":"tr","src":"That person is always smiling.","tgt":"ਉਹ ਇਨਸਾਨ ਹਮੇਸ਼ਾ ਹੱਸਦਾ ਰਹਿੰਦਾ ਹੈ।"}
+{"f":"examples","id":"ko.e101","k":"tr","src":"I'm learning Korean these days.","tgt":"ਅੱਜਕੱਲ੍ਹ ਮੈਂ ਕੋਰੀਆਈ ਸਿੱਖ ਰਿਹਾ/ਰਹੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e102","k":"tr","src":"My friend teaches English.","tgt":"ਮੇਰਾ ਦੋਸਤ ਅੰਗਰੇਜ਼ੀ ਪੜ੍ਹਾਉਂਦਾ ਹੈ।","rw":"mentions English"}
+{"f":"examples","id":"ko.e103","k":"tr","src":"I bought fruit at the market.","tgt":"ਮੈਂ ਬਾਜ਼ਾਰ ਤੋਂ ਫਲ ਖ਼ਰੀਦੇ।"}
+{"f":"examples","id":"ko.e104","k":"tr","src":"I went to bed late yesterday.","tgt":"ਕੱਲ੍ਹ ਰਾਤ ਸੌਣ ਵਿੱਚ ਦੇਰ ਹੋ ਗਈ।"}
+{"f":"examples","id":"ko.e105","k":"tr","src":"Wear something warm today.","tgt":"ਅੱਜ ਗਰਮ ਕੱਪੜੇ ਪਾਓ।"}
+{"f":"examples","id":"ko.e106","k":"tr","src":"I take the bus to school.","tgt":"ਮੈਂ ਬੱਸ ਰਾਹੀਂ ਸਕੂਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e107","k":"tr","src":"I get off at the next station.","tgt":"ਮੈਂ ਅਗਲੇ ਸਟੇਸ਼ਨ ਉੱਤੇ ਉਤਰਦਾ/ਉਤਰਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e108","k":"tr","src":"When are you coming back to Korea?","tgt":"ਤੁਸੀਂ ਕੋਰੀਆ ਕਦੋਂ ਵਾਪਸ ਆ ਰਹੇ ਹੋ?"}
+{"f":"examples","id":"ko.e109","k":"tr","src":"I sent the photos to a friend.","tgt":"ਮੈਂ ਫ਼ੋਟੋਆਂ ਇੱਕ ਦੋਸਤ ਨੂੰ ਭੇਜੀਆਂ।"}
+{"f":"examples","id":"ko.e110","k":"tr","src":"We sang at karaoke.","tgt":"ਅਸੀਂ ਕਰਾਓਕੇ ਵਿੱਚ ਗਾਣੇ ਗਾਏ।"}
+{"f":"examples","id":"ko.e111","k":"tr","src":"The meeting ends at five.","tgt":"ਮੀਟਿੰਗ ਪੰਜ ਵਜੇ ਖ਼ਤਮ ਹੁੰਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e112","k":"tr","src":"Shall we order chicken?","tgt":"ਚਿਕਨ ਮੰਗਵਾਈਏ?"}
+{"f":"examples","id":"ko.e113","k":"tr","src":"Please trust me.","tgt":"ਮੇਰੇ ਉੱਤੇ ਭਰੋਸਾ ਕਰੋ।"}
+{"f":"examples","id":"ko.e114","k":"tr","src":"Don't forget your umbrella.","tgt":"ਛੱਤਰੀ ਭੁੱਲਿਓ ਨਾ।"}
+{"f":"examples","id":"ko.e115","k":"tr","src":"I wash my hands before eating.","tgt":"ਮੈਂ ਖਾਣ ਤੋਂ ਪਹਿਲਾਂ ਹੱਥ ਧੋਂਦਾ/ਧੋਂਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e116","k":"tr","src":"A friend helped me move.","tgt":"ਇੱਕ ਦੋਸਤ ਨੇ ਘਰ ਬਦਲਣ ਵਿੱਚ ਮੇਰੀ ਮਦਦ ਕੀਤੀ।"}
+{"f":"examples","id":"ko.e117","k":"tr","src":"I didn't know the way, so I asked.","tgt":"ਮੈਨੂੰ ਰਾਹ ਨਹੀਂ ਪਤਾ ਸੀ, ਇਸ ਲਈ ਮੈਂ ਪੁੱਛ ਲਿਆ।"}
+{"f":"examples","id":"ko.e118","k":"tr","src":"Please pick just one.","tgt":"ਸਿਰਫ਼ ਇੱਕ ਚੁਣ ਦਿਓ।"}
+{"f":"examples","id":"ko.e119","k":"tr","src":"Can we swap seats?","tgt":"ਸੀਟਾਂ ਬਦਲ ਲਈਏ?"}
+{"f":"examples","id":"ko.e120","k":"tr","src":"I caught a cold.","tgt":"ਮੈਨੂੰ ਜ਼ੁਕਾਮ ਹੋ ਗਿਆ।"}
+{"f":"examples","id":"ko.e121","k":"tr","src":"Please turn on the light.","tgt":"ਜ਼ਰਾ ਲਾਈਟ ਜਗਾ ਦਿਓ।"}
+{"f":"examples","id":"ko.e122","k":"tr","src":"Are you doing well these days?","tgt":"ਅੱਜਕੱਲ੍ਹ ਸਭ ਠੀਕ ਚੱਲ ਰਿਹਾ ਹੈ?"}
+{"f":"examples","id":"ko.e123","k":"tr","src":"I work for a company.","tgt":"ਮੈਂ ਇੱਕ ਕੰਪਨੀ ਵਿੱਚ ਕੰਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e124","k":"tr","src":"Get well soon.","tgt":"ਜਲਦੀ ਠੀਕ ਹੋ ਜਾਓ।"}
+{"f":"examples","id":"ko.e125","k":"tr","src":"What time do you arrive at the airport?","tgt":"ਤੁਸੀਂ ਕਿੰਨੇ ਵਜੇ ਏਅਰਪੋਰਟ ਪਹੁੰਚੋਗੇ?"}
+{"f":"examples","id":"ko.e126","k":"tr","src":"Shall we take a photo here?","tgt":"ਇੱਥੇ ਫ਼ੋਟੋ ਖਿੱਚੀਏ?"}
+{"f":"examples","id":"ko.e127","k":"tr","src":"We go to the same school.","tgt":"ਅਸੀਂ ਇੱਕੋ ਸਕੂਲ ਵਿੱਚ ਪੜ੍ਹਦੇ ਹਾਂ।"}
+{"f":"examples","id":"ko.e128","k":"tr","src":"Oh, really? I didn't know.","tgt":"ਅੱਛਾ, ਸੱਚੀਂ? ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ ਸੀ।"}
+{"f":"examples","id":"ko.e129","k":"tr","src":"How do you like Korean food?","tgt":"ਕੋਰੀਆਈ ਖਾਣਾ ਕਿਹੋ ਜਿਹਾ ਲੱਗਦਾ ਹੈ?"}
+{"f":"examples","id":"ko.e130","k":"tr","src":"Korean and English are very different.","tgt":"ਕੋਰੀਆਈ ਅਤੇ ਅੰਗਰੇਜ਼ੀ ਬਹੁਤ ਵੱਖਰੀਆਂ ਹਨ।","rw":"mentions English"}
+{"f":"examples","id":"ko.e131","k":"tr","src":"Hangul is easier than you think.","tgt":"ਹੰਗੁਲ ਤੁਹਾਡੀ ਸੋਚ ਨਾਲੋਂ ਸੌਖਾ ਹੈ।"}
+{"f":"examples","id":"ko.e132","k":"tr","src":"Korean pronunciation is difficult.","tgt":"ਕੋਰੀਆਈ ਉਚਾਰਨ ਔਖਾ ਹੈ।"}
+{"f":"examples","id":"ko.e133","k":"tr","src":"That mountain is the highest.","tgt":"ਉਹ ਪਹਾੜ ਸਭ ਤੋਂ ਉੱਚਾ ਹੈ।"}
+{"f":"examples","id":"ko.e134","k":"tr","src":"Her hair is long.","tgt":"ਉਸ ਦੇ ਵਾਲ ਲੰਮੇ ਹਨ।"}
+{"f":"examples","id":"ko.e135","k":"tr","src":"The subway is faster than the bus.","tgt":"ਮੈਟਰੋ ਬੱਸ ਨਾਲੋਂ ਤੇਜ਼ ਹੈ।"}
+{"f":"examples","id":"ko.e136","k":"tr","src":"Your grandmother looks really young.","tgt":"ਤੁਹਾਡੇ ਦਾਦੀ ਜੀ ਸੱਚੀਂ ਬਹੁਤ ਜਵਾਨ ਲੱਗਦੇ ਹਨ।"}
+{"f":"examples","id":"ko.e137","k":"tr","src":"Health is the most important thing.","tgt":"ਸਿਹਤ ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਹੈ।"}
+{"f":"examples","id":"ko.e138","k":"tr","src":"What do you need?","tgt":"ਤੁਹਾਨੂੰ ਕੀ ਚਾਹੀਦਾ ਹੈ?"}
+{"f":"examples","id":"ko.e139","k":"tr","src":"The room is really clean.","tgt":"ਕਮਰਾ ਸੱਚੀਂ ਬਹੁਤ ਸਾਫ਼ ਹੈ।"}
+{"f":"examples","id":"ko.e140","k":"tr","src":"Horror movies are too scary.","tgt":"ਹੌਰਰ ਫ਼ਿਲਮਾਂ ਬਹੁਤ ਡਰਾਉਣੀਆਂ ਹੁੰਦੀਆਂ ਹਨ।"}
+{"f":"examples","id":"ko.e141","k":"tr","src":"Where does it hurt?","tgt":"ਕਿੱਥੇ ਦਰਦ ਹੋ ਰਿਹਾ ਹੈ?"}
+{"f":"examples","id":"ko.e142","k":"tr","src":"Have a fun weekend.","tgt":"ਵੀਕਐਂਡ ਮਜ਼ੇ ਨਾਲ ਬਿਤਾਓ।"}
+{"f":"examples","id":"ko.e143","k":"tr","src":"Good to see you again.","tgt":"ਫਿਰ ਮਿਲ ਕੇ ਖ਼ੁਸ਼ੀ ਹੋਈ।"}
+{"f":"examples","id":"ko.e144","k":"tr","src":"Thanks for coming.","tgt":"ਆਉਣ ਲਈ ਸ਼ੁਕਰੀਆ।"}
+{"f":"examples","id":"ko.e145","k":"tr","src":"Sorry I'm late.","tgt":"ਦੇਰ ਨਾਲ ਆਉਣ ਲਈ ਮਾਫ਼ ਕਰਨਾ।"}
+{"f":"examples","id":"ko.e146","k":"tr","src":"This tteokbokki is too spicy.","tgt":"ਇਹ ਤੋਕਬੋਕੀ ਬਹੁਤ ਤਿੱਖੀ ਹੈ।"}
+{"f":"examples","id":"ko.e147","k":"tr","src":"The soup is hot, so be careful.","tgt":"ਸੂਪ ਗਰਮ ਹੈ, ਇਸ ਲਈ ਧਿਆਨ ਰੱਖੋ।"}
+{"f":"examples","id":"ko.e148","k":"tr","src":"It's warm today.","tgt":"ਅੱਜ ਮੌਸਮ ਨਿੱਘਾ ਹੈ।"}
+{"f":"examples","id":"ko.e149","k":"tr","src":"The breeze is nice and cool.","tgt":"ਹਵਾ ਠੰਢੀ ਅਤੇ ਸੁਹਾਵਣੀ ਹੈ।"}
+{"f":"examples","id":"ko.e150","k":"tr","src":"The library is quiet.","tgt":"ਲਾਇਬ੍ਰੇਰੀ ਸ਼ਾਂਤ ਹੈ।"}
+{"f":"examples","id":"ko.e151","k":"tr","src":"Home is the most comfortable place.","tgt":"ਘਰ ਸਭ ਤੋਂ ਅਰਾਮਦਾਇਕ ਥਾਂ ਹੈ।"}
+{"f":"examples","id":"ko.e152","k":"tr","src":"The shop owner is kind.","tgt":"ਦੁਕਾਨ ਦੇ ਮਾਲਕ ਬਹੁਤ ਚੰਗੇ ਸੁਭਾਅ ਦੇ ਹਨ।"}
+{"f":"examples","id":"ko.e153","k":"tr","src":"This restaurant is famous for bibimbap.","tgt":"ਇਹ ਰੈਸਟੋਰੈਂਟ ਬਿਬਿਮਬਾਪ ਲਈ ਮਸ਼ਹੂਰ ਹੈ।"}
+{"f":"examples","id":"ko.e154","k":"tr","src":"The bag is too heavy.","tgt":"ਬੈਗ ਬਹੁਤ ਭਾਰਾ ਹੈ।"}
+{"f":"examples","id":"ko.e155","k":"tr","src":"The two of them look alike.","tgt":"ਦੋਵਾਂ ਦੀ ਸ਼ਕਲ ਮਿਲਦੀ-ਜੁਲਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e156","k":"tr","src":"It tastes a bit strange.","tgt":"ਸੁਆਦ ਥੋੜ੍ਹਾ ਅਜੀਬ ਹੈ।"}
+{"f":"examples","id":"ko.e157","k":"tr","src":"I can't be bothered to cook today.","tgt":"ਅੱਜ ਖਾਣਾ ਬਣਾਉਣ ਦਾ ਆਲਸ ਆ ਰਿਹਾ ਹੈ।"}
+{"f":"examples","id":"ko.e158","k":"tr","src":"You're going to Korea? I'm jealous!","tgt":"ਤੁਸੀਂ ਕੋਰੀਆ ਜਾ ਰਹੇ ਹੋ? ਮੈਨੂੰ ਤਾਂ ਸਾੜਾ ਹੋ ਰਿਹਾ ਹੈ!"}
+{"f":"examples","id":"ko.e159","k":"tr","src":"I ate a lot, so I'm full.","tgt":"ਬਹੁਤ ਖਾ ਲਿਆ, ਢਿੱਡ ਭਰ ਗਿਆ।"}
+{"f":"examples","id":"ko.e160","k":"tr","src":"Red suits you.","tgt":"ਲਾਲ ਕੱਪੜੇ ਤੁਹਾਡੇ ਉੱਤੇ ਬਹੁਤ ਜਚਦੇ ਹਨ।"}
+{"f":"examples","id":"ko.e161","k":"tr","src":"I don't drink coffee.","tgt":"ਮੈਂ ਕੌਫ਼ੀ ਨਹੀਂ ਪੀਂਦਾ/ਪੀਂਦੀ।"}
+{"f":"examples","id":"ko.e162","k":"tr","src":"A bit more kimchi, please.","tgt":"ਥੋੜ੍ਹੀ ਹੋਰ ਕਿਮਚੀ ਦੇ ਦਿਓ।"}
+{"f":"examples","id":"ko.e163","k":"tr","src":"I can't swim.","tgt":"ਮੈਨੂੰ ਤੈਰਨਾ ਨਹੀਂ ਆਉਂਦਾ।"}
+{"f":"examples","id":"ko.e164","k":"tr","src":"I eat Korean food without trouble.","tgt":"ਮੈਨੂੰ ਕੋਰੀਆਈ ਖਾਣੇ ਨਾਲ ਕੋਈ ਦਿੱਕਤ ਨਹੀਂ।"}
+{"f":"examples","id":"ko.e165","k":"tr","src":"I finished all my homework.","tgt":"ਮੈਂ ਸਾਰਾ ਹੋਮਵਰਕ ਕਰ ਲਿਆ।"}
+{"f":"examples","id":"ko.e166","k":"tr","src":"Could you help me with this?","tgt":"ਜ਼ਰਾ ਇਸ ਵਿੱਚ ਮੇਰੀ ਮਦਦ ਕਰ ਦਿਓ।"}
+{"f":"examples","id":"ko.e167","k":"tr","src":"Please say it once more.","tgt":"ਇੱਕ ਵਾਰ ਫਿਰ ਬੋਲ ਦਿਓ।"}
+{"f":"examples","id":"ko.e168","k":"tr","src":"Please eat plenty.","tgt":"ਰੱਜ ਕੇ ਖਾਓ ਜੀ।"}
+{"f":"examples","id":"ko.e169","k":"tr","src":"Let's have lunch together.","tgt":"ਚਲੋ ਇਕੱਠੇ ਦੁਪਹਿਰ ਦਾ ਖਾਣਾ ਖਾਈਏ।"}
+{"f":"examples","id":"ko.e170","k":"tr","src":"The bank is right next door.","tgt":"ਬੈਂਕ ਬਿਲਕੁਲ ਨਾਲ ਹੀ ਹੈ।"}
+{"f":"examples","id":"ko.e171","k":"tr","src":"I like kimchi stew the most.","tgt":"ਮੈਨੂੰ ਕਿਮਚੀ ਜਿਗੇ ਸਭ ਤੋਂ ਵੱਧ ਪਸੰਦ ਹੈ।"}
+{"f":"examples","id":"ko.e172","k":"tr","src":"I really had fun today.","tgt":"ਅੱਜ ਸੱਚੀਂ ਬਹੁਤ ਮਜ਼ਾ ਆਇਆ।"}
+{"f":"examples","id":"ko.e173","k":"tr","src":"This bag is too expensive.","tgt":"ਇਹ ਬੈਗ ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ।"}
+{"f":"examples","id":"ko.e174","k":"tr","src":"I haven't eaten yet.","tgt":"ਮੈਂ ਅਜੇ ਖਾਣਾ ਨਹੀਂ ਖਾਧਾ।"}
+{"f":"examples","id":"ko.e175","k":"tr","src":"It's already twelve?","tgt":"ਬਾਰਾਂ ਵੱਜ ਵੀ ਗਏ?"}
+{"f":"examples","id":"ko.e176","k":"tr","src":"The bus is coming soon.","tgt":"ਬੱਸ ਛੇਤੀ ਹੀ ਆ ਰਹੀ ਹੈ।"}
+{"f":"examples","id":"ko.e177","k":"tr","src":"Come quickly!","tgt":"ਜਲਦੀ ਆਓ!"}
+{"f":"examples","id":"ko.e178","k":"tr","src":"Do you come here often?","tgt":"ਤੁਸੀਂ ਇੱਥੇ ਅਕਸਰ ਆਉਂਦੇ ਹੋ?"}
+{"f":"examples","id":"ko.e179","k":"tr","src":"Sometimes I watch movies alone.","tgt":"ਕਦੇ-ਕਦੇ ਮੈਂ ਇਕੱਲੇ ਹੀ ਫ਼ਿਲਮ ਦੇਖਦਾ/ਦੇਖਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e180","k":"tr","src":"Mom always gets up early.","tgt":"ਮੰਮੀ ਹਮੇਸ਼ਾ ਜਲਦੀ ਉੱਠਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e181","k":"tr","src":"It keeps raining.","tgt":"ਲਗਾਤਾਰ ਮੀਂਹ ਪੈ ਰਿਹਾ ਹੈ।"}
+{"f":"examples","id":"ko.e182","k":"tr","src":"Let's meet again tomorrow.","tgt":"ਕੱਲ੍ਹ ਫਿਰ ਮਿਲਦੇ ਹਾਂ।"}
+{"f":"examples","id":"ko.e183","k":"tr","src":"I don't really like spicy food.","tgt":"ਮੈਨੂੰ ਤਿੱਖਾ ਖਾਣਾ ਕੋਈ ਖ਼ਾਸ ਪਸੰਦ ਨਹੀਂ।"}
+{"f":"examples","id":"ko.e184","k":"tr","src":"I don't know any Japanese at all.","tgt":"ਮੈਨੂੰ ਜਪਾਨੀ ਬਿਲਕੁਲ ਨਹੀਂ ਆਉਂਦੀ।"}
+{"f":"examples","id":"ko.e185","k":"tr","src":"Be sure to come next time.","tgt":"ਅਗਲੀ ਵਾਰ ਜ਼ਰੂਰ ਆਇਓ।"}
+{"f":"examples","id":"ko.e186","k":"tr","src":"It will probably rain tomorrow.","tgt":"ਸ਼ਾਇਦ ਕੱਲ੍ਹ ਮੀਂਹ ਪਵੇਗਾ।"}
+{"f":"examples","id":"ko.e187","k":"tr","src":"Do you speak English, by any chance?","tgt":"ਕਿਤੇ ਤੁਹਾਨੂੰ ਅੰਗਰੇਜ਼ੀ ਤਾਂ ਨਹੀਂ ਆਉਂਦੀ?","rw":"mentions English"}
+{"f":"examples","id":"ko.e188","k":"tr","src":"We're almost there.","tgt":"ਬੱਸ ਪਹੁੰਚਣ ਹੀ ਵਾਲੇ ਹਾਂ।"}
+{"f":"examples","id":"ko.e189","k":"tr","src":"I'm going home now.","tgt":"ਹੁਣ ਮੈਂ ਘਰ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e190","k":"tr","src":"I just arrived.","tgt":"ਮੈਂ ਹੁਣੇ-ਹੁਣੇ ਪਹੁੰਚਿਆ/ਪਹੁੰਚੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e191","k":"tr","src":"I'll call you later.","tgt":"ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਾਂਗਾ/ਕਰਾਂਗੀ।"}
+{"f":"examples","id":"ko.e192","k":"tr","src":"What are you up to these days?","tgt":"ਅੱਜਕੱਲ੍ਹ ਕੀ ਚੱਲ ਰਿਹਾ ਹੈ?"}
+{"f":"examples","id":"ko.e193","k":"tr","src":"It suddenly rained.","tgt":"ਅਚਾਨਕ ਮੀਂਹ ਪੈਣ ਲੱਗ ਪਿਆ।"}
+{"f":"examples","id":"ko.e194","k":"tr","src":"I study Korean hard.","tgt":"ਮੈਂ ਮਨ ਲਾ ਕੇ ਕੋਰੀਆਈ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e195","k":"tr","src":"Just water, please.","tgt":"ਬੱਸ ਪਾਣੀ ਦੇ ਦਿਓ।"}
+{"f":"examples","id":"ko.e196","k":"tr","src":"I traveled alone.","tgt":"ਮੈਂ ਇਕੱਲਿਆਂ ਸਫ਼ਰ ਕੀਤਾ।"}
+{"f":"examples","id":"ko.e197","k":"tr","src":"Why didn't you come?","tgt":"ਤੁਸੀਂ ਆਏ ਕਿਉਂ ਨਹੀਂ?"}
+{"f":"examples","id":"ko.e198","k":"tr","src":"How do I get to Myeongdong?","tgt":"ਮਯੋਂਗਦੋਂਗ ਕਿਵੇਂ ਜਾਈਏ?"}
+{"f":"examples","id":"ko.e199","k":"tr","src":"I like that too. (casual)","tgt":"ਮੈਨੂੰ ਵੀ ਉਹ ਪਸੰਦ ਹੈ। (ਆਮ)"}
+{"f":"examples","id":"ko.e200","k":"tr","src":"I'm Mexican.","tgt":"ਮੈਂ ਮੈਕਸੀਕਨ ਹਾਂ।"}
+{"f":"examples","id":"ko.e201","k":"tr","src":"What are you doing today? (casual)","tgt":"ਤੂੰ ਅੱਜ ਕੀ ਕਰ ਰਿਹਾ/ਰਹੀ ਹੈਂ? (ਆਮ)"}
+{"f":"examples","id":"ko.e202","k":"tr","src":"Let's go together.","tgt":"ਚਲੋ ਇਕੱਠੇ ਚੱਲੀਏ।"}
+{"f":"examples","id":"ko.e203","k":"tr","src":"Welcome to our shop.","tgt":"ਸਾਡੀ ਦੁਕਾਨ ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ ਜੀ।"}
+{"f":"examples","id":"ko.e204","k":"tr","src":"This is mine. (casual)","tgt":"ਇਹ ਮੇਰਾ ਹੈ। (ਆਮ)"}
+{"f":"examples","id":"ko.e205","k":"tr","src":"My name is Minjun.","tgt":"ਮੇਰਾ ਨਾਂ ਮਿਨਜੁਨ ਹੈ।"}
+{"f":"examples","id":"ko.e206","k":"tr","src":"He didn't say a word. (written style)","tgt":"ਉਸ ਨੇ ਇੱਕ ਸ਼ਬਦ ਵੀ ਨਹੀਂ ਕਿਹਾ। (ਲਿਖਤੀ ਸ਼ੈਲੀ)"}
+{"f":"examples","id":"ko.e207","k":"tr","src":"She answered with a smile. (written style)","tgt":"ਉਸ ਨੇ ਮੁਸਕਰਾਉਂਦੇ ਹੋਏ ਜਵਾਬ ਦਿੱਤਾ। (ਲਿਖਤੀ ਸ਼ੈਲੀ)"}
+{"f":"examples","id":"ko.e208","k":"tr","src":"I love you. (a song line, or a long-married couple)","tgt":"ਮੈਨੂੰ ਤੁਹਾਡੇ ਨਾਲ ਪਿਆਰ ਹੈ। (ਕਿਸੇ ਗਾਣੇ ਦੀ ਲਾਈਨ, ਜਾਂ ਬਹੁਤ ਪੁਰਾਣੇ ਵਿਆਹੇ ਜੋੜੇ ਵਿੱਚ)"}
+{"f":"examples","id":"ko.e209","k":"tr","src":"Do your own work yourself.","tgt":"ਆਪਣਾ ਕੰਮ ਆਪ ਕਰੋ।"}
+{"f":"examples","id":"ko.e210","k":"tr","src":"Hello, everyone!","tgt":"ਸਾਰਿਆਂ ਨੂੰ ਨਮਸਕਾਰ!"}
+{"f":"examples","id":"ko.e211","k":"tr","src":"Jisu, would you like a coffee?","tgt":"ਜੀਸੂ ਜੀ, ਕੌਫ਼ੀ ਪੀਓਗੇ?"}
+{"f":"examples","id":"ko.e212","k":"tr","src":"And what's your name?","tgt":"ਅਤੇ ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ?"}
+{"f":"examples","id":"ko.e213","k":"tr","src":"Who is that person?","tgt":"ਉੱਥੇ ਉਹ ਇਨਸਾਨ ਕੌਣ ਹੈ?"}
+{"f":"examples","id":"ko.e214","k":"tr","src":"What did you do on the weekend?","tgt":"ਵੀਕਐਂਡ ਉੱਤੇ ਤੁਸੀਂ ਕੀ ਕੀਤਾ?"}
+{"f":"examples","id":"ko.e215","k":"tr","src":"How may I help you?","tgt":"ਮੈਂ ਤੁਹਾਡੀ ਕੀ ਮਦਦ ਕਰਾਂ ਜੀ?"}
+{"f":"examples","id":"ko.e216","k":"tr","src":"Where do you live?","tgt":"ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ?"}
+{"f":"examples","id":"ko.e217","k":"tr","src":"This is my book.","tgt":"ਇਹ ਮੇਰੀ ਕਿਤਾਬ ਹੈ।"}
+{"f":"examples","id":"ko.e218","k":"tr","src":"That's a good idea too.","tgt":"ਉਹ ਵੀ ਵਧੀਆ ਵਿਚਾਰ ਹੈ।"}
+{"f":"examples","id":"ko.e219","k":"tr","src":"What is that over there?","tgt":"ਉੱਥੇ ਉਹ ਕੀ ਹੈ?"}
+{"f":"examples","id":"ko.e220","k":"tr","src":"How much is this one?","tgt":"ਇਹ ਵਾਲਾ ਕਿੰਨੇ ਦਾ ਹੈ?"}
+{"f":"examples","id":"ko.e221","k":"tr","src":"Is that one tasty?","tgt":"ਉਹ ਵਾਲਾ ਸੁਆਦੀ ਹੈ?"}
+{"f":"examples","id":"ko.e222","k":"tr","src":"That one over there, please.","tgt":"ਉੱਥੇ ਵਾਲਾ ਉਹ ਦੇ ਦਿਓ।"}
+{"f":"examples","id":"ko.e223","k":"tr","src":"Until what time is that place open?","tgt":"ਉਹ ਥਾਂ ਕਿੰਨੇ ਵਜੇ ਤੱਕ ਖੁੱਲ੍ਹੀ ਰਹਿੰਦੀ ਹੈ?"}
+{"f":"examples","id":"ko.e224","k":"tr","src":"This is my teacher.","tgt":"ਇਹ ਮੇਰੇ ਟੀਚਰ ਜੀ ਹਨ।"}
+{"f":"examples","id":"ko.e225","k":"tr","src":"That person is really kind.","tgt":"ਉਹ ਸੱਚੀਂ ਬਹੁਤ ਮਿਹਰਬਾਨ ਹਨ।"}
+{"f":"examples","id":"ko.e226","k":"tr","src":"Is that person over there the owner?","tgt":"ਕੀ ਉੱਥੇ ਉਹ ਮਾਲਕ ਹਨ?"}
+{"f":"examples","id":"ko.e227","k":"tr","src":"This is my younger sibling.","tgt":"ਇਹ ਮੇਰਾ ਛੋਟਾ ਭਰਾ (ਜਾਂ ਛੋਟੀ ਭੈਣ) ਹੈ।"}
+{"f":"examples","id":"ko.e228","k":"tr","src":"He's busy these days. (about a friend)","tgt":"ਉਹ ਅੱਜਕੱਲ੍ਹ ਰੁੱਝਿਆ ਹੋਇਆ ਹੈ। (ਇੱਕ ਦੋਸਤ ਬਾਰੇ)"}
+{"f":"examples","id":"ko.e229","k":"tr","src":"Who's that over there? (casual)","tgt":"ਉੱਥੇ ਉਹ ਕੌਣ ਹੈ? (ਆਮ)"}
+{"f":"examples","id":"ko.e230","k":"tr","src":"Come this way, please.","tgt":"ਇਧਰ ਆਓ।"}
+{"f":"examples","id":"ko.e231","k":"tr","src":"The restroom is over there.","tgt":"ਬਾਥਰੂਮ ਉਧਰ ਹੈ।"}
+{"f":"examples","id":"ko.e232","k":"tr","src":"Contact me any time.","tgt":"ਕਦੇ ਵੀ ਸੰਪਰਕ ਕਰੋ।"}
+{"f":"examples","id":"ko.e233","k":"tr","src":"There's nobody home.","tgt":"ਘਰ ਵਿੱਚ ਕੋਈ ਨਹੀਂ ਹੈ।"}
+{"f":"examples","id":"ko.e234","k":"tr","src":"I didn't eat anything this morning.","tgt":"ਮੈਂ ਸਵੇਰੇ ਕੁਝ ਨਹੀਂ ਖਾਧਾ।"}
+{"f":"examples","id":"ko.e235","k":"tr","src":"Someone opened the door.","tgt":"ਕਿਸੇ ਨੇ ਦਰਵਾਜ਼ਾ ਖੋਲ੍ਹਿਆ।"}
+{"f":"examples","id":"ko.e236","k":"tr","src":"Something's off.","tgt":"ਕੁਝ ਗੜਬੜ ਹੈ।"}
+{"f":"examples","id":"ko.e237","k":"tr","src":"My phone must be somewhere in the house.","tgt":"ਮੇਰਾ ਫ਼ੋਨ ਘਰ ਵਿੱਚ ਹੀ ਕਿਤੇ ਹੋਵੇਗਾ।"}
+{"f":"examples","id":"ko.e238","k":"tr","src":"Believe in yourself.","tgt":"ਆਪਣੇ-ਆਪ ਉੱਤੇ ਭਰੋਸਾ ਰੱਖੋ।"}
+{"f":"examples","id":"ko.e239","k":"tr","src":"I go by subway.","tgt":"ਮੈਂ ਮੈਟਰੋ ਰਾਹੀਂ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e240","k":"tr","src":"Until what time are you open?","tgt":"ਕਿੰਨੇ ਵਜੇ ਤੱਕ ਖੁੱਲ੍ਹਾ ਰਹਿੰਦਾ ਹੈ?"}
+{"f":"examples","id":"ko.e241","k":"tr","src":"Class starts at nine.","tgt":"ਕਲਾਸ ਨੌਂ ਵਜੇ ਤੋਂ ਹੈ।"}
+{"f":"examples","id":"ko.e242","k":"tr","src":"I gave a present to a friend.","tgt":"ਮੈਂ ਇੱਕ ਦੋਸਤ ਨੂੰ ਤੋਹਫ਼ਾ ਦਿੱਤਾ।"}
+{"f":"examples","id":"ko.e243","k":"tr","src":"I sent an email to the teacher.","tgt":"ਮੈਂ ਟੀਚਰ ਨੂੰ ਈਮੇਲ ਭੇਜੀ।"}
+{"f":"examples","id":"ko.e244","k":"tr","src":"I called my grandmother.","tgt":"ਮੈਂ ਦਾਦੀ ਜੀ ਨੂੰ ਫ਼ੋਨ ਕੀਤਾ।"}
+{"f":"examples","id":"ko.e245","k":"tr","src":"I got a text from my sister.","tgt":"ਵੱਡੀ ਭੈਣ ਦਾ ਮੈਸੇਜ ਆਇਆ।"}
+{"f":"examples","id":"ko.e246","k":"tr","src":"Today is colder than yesterday.","tgt":"ਕੱਲ੍ਹ ਨਾਲੋਂ ਅੱਜ ਜ਼ਿਆਦਾ ਠੰਢ ਹੈ।"}
+{"f":"examples","id":"ko.e247","k":"tr","src":"You speak like a Korean.","tgt":"ਤੁਸੀਂ ਕੋਰੀਆਈਆਂ ਵਾਂਗ ਬੋਲਦੇ ਹੋ।"}
+{"f":"examples","id":"ko.e248","k":"tr","src":"I go hiking every weekend.","tgt":"ਮੈਂ ਹਰ ਵੀਕਐਂਡ ਪਹਾੜਾਂ ਉੱਤੇ ਚੜ੍ਹਨ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e249","k":"tr","src":"I only have a thousand won.","tgt":"ਮੇਰੇ ਕੋਲ ਸਿਰਫ਼ ਇੱਕ ਹਜ਼ਾਰ ਵੌਨ ਹਨ।"}
+{"f":"examples","id":"ko.e250","k":"tr","src":"Would you like coffee or tea?","tgt":"ਕੌਫ਼ੀ ਜਾਂ ਚਾਹ ਪੀਓਗੇ?"}
+{"f":"examples","id":"ko.e251","k":"tr","src":"I watched a movie with a friend.","tgt":"ਮੈਂ ਇੱਕ ਦੋਸਤ ਨਾਲ ਫ਼ਿਲਮ ਦੇਖੀ।"}
+{"f":"examples","id":"ko.e252","k":"tr","src":"Grandfather has arrived.","tgt":"ਦਾਦਾ ਜੀ ਆ ਗਏ ਹਨ।"}
+{"f":"examples","id":"ko.e253","k":"tr","src":"Let's meet around three.","tgt":"ਤਿੰਨ ਕੁ ਵਜੇ ਮਿਲਦੇ ਹਾਂ।"}
+{"f":"examples","id":"ko.e254","k":"tr","src":"Take one each, please.","tgt":"ਸਾਰੇ ਇੱਕ-ਇੱਕ ਲੈ ਜਾਓ।"}
+{"f":"examples","id":"ko.e255","k":"tr","src":"By the way, are you free tomorrow?","tgt":"ਵੈਸੇ, ਕੱਲ੍ਹ ਤੁਹਾਡੇ ਕੋਲ ਸਮਾਂ ਹੈ?"}
+{"f":"examples","id":"ko.e256","k":"tr","src":"It's raining. So take an umbrella.","tgt":"ਮੀਂਹ ਪੈ ਰਿਹਾ ਹੈ। ਇਸ ਲਈ ਛੱਤਰੀ ਲੈ ਜਾਓ।"}
+{"f":"examples","id":"ko.e257","k":"tr","src":"It's expensive. But it's delicious.","tgt":"ਮਹਿੰਗਾ ਹੈ। ਫਿਰ ਵੀ ਸੁਆਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e258","k":"tr","src":"This place is cheap. On top of that, it's good.","tgt":"ਇਹ ਥਾਂ ਸਸਤੀ ਹੈ। ਉੱਤੋਂ ਸੁਆਦੀ ਵੀ ਹੈ।"}
+{"f":"examples","id":"ko.e259","k":"tr","src":"I eat and then have coffee.","tgt":"ਮੈਂ ਖਾਣਾ ਖਾ ਕੇ ਕੌਫ਼ੀ ਪੀਂਦਾ/ਪੀਂਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e260","k":"tr","src":"It's expensive, but it's delicious.","tgt":"ਮਹਿੰਗਾ ਹੈ, ਪਰ ਸੁਆਦੀ ਹੈ।"}
+{"f":"examples","id":"ko.e261","k":"tr","src":"I went to the market and bought fruit.","tgt":"ਮੈਂ ਬਾਜ਼ਾਰ ਜਾ ਕੇ ਫਲ ਖ਼ਰੀਦੇ।"}
+{"f":"examples","id":"ko.e262","k":"tr","src":"I was tired, so I went to bed early.","tgt":"ਥਕਾਵਟ ਕਰਕੇ ਜਲਦੀ ਨੀਂਦ ਆ ਗਈ।"}
+{"f":"examples","id":"ko.e263","k":"tr","src":"If you go to Korea, what do you want to do?","tgt":"ਜੇ ਤੁਸੀਂ ਕੋਰੀਆ ਗਏ, ਤਾਂ ਕੀ ਕਰਨ ਨੂੰ ਦਿਲ ਕਰਦਾ ਹੈ?"}
+{"f":"examples","id":"ko.e264","k":"tr","src":"It's raining, so let's take a taxi.","tgt":"ਮੀਂਹ ਪੈ ਰਿਹਾ ਹੈ, ਚਲੋ ਟੈਕਸੀ ਲੈ ਲਈਏ।"}
+{"f":"examples","id":"ko.e265","k":"tr","src":"I'm busy now, so I'll call you later.","tgt":"ਹੁਣ ਥੋੜ੍ਹਾ ਕੰਮ ਹੈ, ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਾਂਗਾ/ਕਰਾਂਗੀ।"}
+{"f":"examples","id":"ko.e266","k":"tr","src":"Let's go eat lunch.","tgt":"ਚਲੋ ਦੁਪਹਿਰ ਦਾ ਖਾਣਾ ਖਾਣ ਚੱਲੀਏ।"}
+{"f":"examples","id":"ko.e267","k":"tr","src":"I listen to music while I walk.","tgt":"ਮੈਂ ਤੁਰਦੇ-ਤੁਰਦੇ ਗਾਣੇ ਸੁਣਦਾ/ਸੁਣਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e268","k":"tr","src":"On the way to school I ran into a friend.","tgt":"ਸਕੂਲ ਜਾਂਦਿਆਂ ਰਾਹ ਵਿੱਚ ਇੱਕ ਦੋਸਤ ਨਾਲ ਮੁਲਾਕਾਤ ਹੋ ਗਈ।"}
+{"f":"examples","id":"ko.e269","k":"tr","src":"On weekends I sleep or watch movies.","tgt":"ਵੀਕਐਂਡ ਉੱਤੇ ਬੱਸ ਸੌਣਾ ਜਾਂ ਫ਼ਿਲਮਾਂ ਦੇਖਣਾ, ਇਹੀ ਮੇਰਾ ਕੰਮ ਹੈ।"}
+{"f":"examples","id":"ko.e270","k":"tr","src":"Even if it's expensive, I want to buy it.","tgt":"ਮਹਿੰਗਾ ਹੋਵੇ ਤਾਂ ਵੀ, ਮੇਰਾ ਇਹ ਖ਼ਰੀਦਣ ਨੂੰ ਦਿਲ ਕਰਦਾ ਹੈ।"}
+{"f":"examples","id":"ko.e271","k":"tr","src":"I read before I go to sleep.","tgt":"ਮੈਂ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਤਾਬ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e272","k":"tr","src":"After eating, I take a walk.","tgt":"ਖਾਣਾ ਖਾਣ ਤੋਂ ਬਾਅਦ ਮੈਂ ਸੈਰ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e273","k":"tr","src":"I buy presents when I go to Korea.","tgt":"ਕੋਰੀਆ ਜਾਣ ਵੇਲੇ ਮੈਂ ਤੋਹਫ਼ੇ ਖ਼ਰੀਦਦਾ/ਖ਼ਰੀਦਦੀ ਹਾਂ।"}
+{"f":"examples","id":"ko.e274","k":"tr","src":"I fell asleep as soon as I got home.","tgt":"ਘਰ ਪਹੁੰਚਦੇ ਹੀ ਮੈਨੂੰ ਨੀਂਦ ਆ ਗਈ।"}
+{"f":"examples","id":"ko.e275","k":"tr","src":"I have too much work today.","tgt":"ਅੱਜ ਬਹੁਤ ਜ਼ਿਆਦਾ ਕੰਮ ਹੈ।"}
+{"f":"patterns","id":"ko.p001","k":"meaning","src":"topic marker: 'as for…'; contrast, general statements","tgt":"ਵਿਸ਼ਾ ਪਾਰਟੀਕਲ: \"ਜਿੱਥੋਂ ਤੱਕ … ਦੀ ਗੱਲ ਹੈ\"; ਤੁਲਨਾ, ਆਮ ਗੱਲਾਂ"}
+{"f":"patterns","id":"ko.p002","k":"meaning","src":"subject marker: who/what specifically; new information","tgt":"ਕਰਤਾ ਪਾਰਟੀਕਲ: ਖ਼ਾਸ ਤੌਰ ਉੱਤੇ ਕੌਣ ਜਾਂ ਕੀ; ਨਵੀਂ ਜਾਣਕਾਰੀ"}
+{"f":"patterns","id":"ko.p003","k":"meaning","src":"object marker","tgt":"ਕਰਮ ਪਾਰਟੀਕਲ"}
+{"f":"patterns","id":"ko.p004","k":"meaning","src":"to / at (destination, time)","tgt":"ਨੂੰ / ਵਿੱਚ / ਉੱਤੇ (ਮੰਜ਼ਿਲ, ਸਮਾਂ)"}
+{"f":"patterns","id":"ko.p005","k":"meaning","src":"at (where an action happens) / from","tgt":"ਵਿੱਚ (ਜਿੱਥੇ ਕੰਮ ਹੁੰਦਾ ਹੈ) / ਤੋਂ"}
+{"f":"patterns","id":"ko.p006","k":"meaning","src":"also / too (replaces 은/는/이/가/을/를)","tgt":"ਵੀ (은/는/이/가/을/를 ਦੀ ਥਾਂ ਲੈਂਦਾ ਹੈ)"}
+{"f":"patterns","id":"ko.p007","k":"meaning","src":"possessive; often pronounced 에","tgt":"ਸੰਬੰਧ (ਦਾ / ਦੀ / ਦੇ); ਅਕਸਰ 에 ਬੋਲਿਆ ਜਾਂਦਾ ਹੈ"}
+{"f":"patterns","id":"ko.p008","k":"meaning","src":"and / with","tgt":"ਅਤੇ / ਨਾਲ"}
+{"f":"patterns","id":"ko.p009","k":"meaning","src":"only","tgt":"ਸਿਰਫ਼ / ਹੀ"}
+{"f":"patterns","id":"ko.p010","k":"meaning","src":"toward / by means of","tgt":"ਵੱਲ / ਰਾਹੀਂ"}
+{"f":"patterns","id":"ko.p011","k":"meaning","src":"polite present (ㅏ/ㅗ stems → 아요, others → 어요, 하다 → 해요)","tgt":"ਨਿਮਰ ਵਰਤਮਾਨ (ㅏ/ㅗ ਵਾਲੇ ਸਟੈਮ → 아요, ਬਾਕੀ → 어요, 하다 → 해요)"}
+{"f":"patterns","id":"ko.p012","k":"meaning","src":"polite past","tgt":"ਨਿਮਰ ਭੂਤਕਾਲ"}
+{"f":"patterns","id":"ko.p013","k":"meaning","src":"future / intention","tgt":"ਭਵਿੱਖ ਕਾਲ / ਇਰਾਦਾ"}
+{"f":"patterns","id":"ko.p014","k":"meaning","src":"don't / not (choice)","tgt":"ਨਹੀਂ (ਆਪਣੀ ਮਰਜ਼ੀ ਨਾਲ)"}
+{"f":"patterns","id":"ko.p015","k":"meaning","src":"can't (ability, circumstance)","tgt":"ਨਾ ਕਰ ਸਕਣਾ (ਯੋਗਤਾ, ਹਾਲਾਤ)"}
+{"f":"patterns","id":"ko.p016","k":"meaning","src":"don't (slightly formal 안)","tgt":"ਨਹੀਂ (안 ਨਾਲੋਂ ਥੋੜ੍ਹਾ ਰਸਮੀ)"}
+{"f":"patterns","id":"ko.p017","k":"meaning","src":"can / cannot","tgt":"ਕਰ ਸਕਣਾ / ਨਾ ਕਰ ਸਕਣਾ"}
+{"f":"patterns","id":"ko.p018","k":"meaning","src":"shall we…? (suggestion)","tgt":"…ਕਰੀਏ? (ਸੁਝਾਅ)"}
+{"f":"patterns","id":"ko.p019","k":"meaning","src":"do you want to…?","tgt":"…ਕਰੋਗੇ? (ਮਰਜ਼ੀ ਪੁੱਛਣੀ)"}
+{"f":"patterns","id":"ko.p020","k":"meaning","src":"let's (casual)","tgt":"ਚਲੋ …ਈਏ! (ਆਮ)"}
+{"f":"patterns","id":"ko.p021","k":"meaning","src":"I will (promise, speaker's intent)","tgt":"ਮੈਂ …ਵਾਂਗਾ/ਵਾਂਗੀ (ਵਾਅਦਾ, ਬੋਲਣ ਵਾਲੇ ਦਾ ਇਰਾਦਾ)"}
+{"f":"patterns","id":"ko.p022","k":"meaning","src":"polite request / honorific present","tgt":"ਨਿਮਰ ਬੇਨਤੀ / ਸਤਿਕਾਰ ਵਾਲਾ ਵਰਤਮਾਨ"}
+{"f":"patterns","id":"ko.p023","k":"meaning","src":"please do (for me)","tgt":"(ਮੇਰੇ ਲਈ) ਕਰ ਦਿਓ"}
+{"f":"patterns","id":"ko.p024","k":"meaning","src":"don't (command)","tgt":"ਨਾ ਕਰੋ (ਹੁਕਮ)"}
+{"f":"patterns","id":"ko.p025","k":"meaning","src":"noticing / mild surprise","tgt":"ਕੁਝ ਦੇਖ ਕੇ ਕਹਿਣਾ / ਹਲਕੀ ਹੈਰਾਨੀ"}
+{"f":"patterns","id":"ko.p026","k":"meaning","src":"soft contrast, background info","tgt":"ਹਲਕਾ \"ਪਰ\", ਗੱਲ ਦਾ ਪਿਛੋਕੜ"}
+{"f":"patterns","id":"ko.p027","k":"meaning","src":"is (after consonant / after vowel)","tgt":"ਹੈ (ਵਿਅੰਜਨ ਤੋਂ ਬਾਅਦ / ਸਵਰ ਤੋਂ ਬਾਅਦ)"}
+{"f":"patterns","id":"ko.p028","k":"meaning","src":"there is, have / there isn't","tgt":"ਹੈ, ਕੋਲ ਹੈ / ਨਹੀਂ ਹੈ"}
+{"f":"patterns","id":"ko.p029","k":"meaning","src":"go in order to","tgt":"…ਕਰਨ ਜਾਣਾ"}
+{"f":"patterns","id":"ko.p030","k":"meaning","src":"want to","tgt":"…ਕਰਨ ਨੂੰ ਦਿਲ ਕਰਦਾ ਹੈ"}
+{"f":"patterns","id":"ko.p031","k":"meaning","src":"I think / it seems","tgt":"ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ / ਇੰਝ ਲੱਗਦਾ ਹੈ"}
+{"f":"patterns","id":"ko.p032","k":"meaning","src":"if / when","tgt":"ਜੇ / ਜਦੋਂ"}
+{"f":"patterns","id":"ko.p033","k":"meaning","src":"things, people, cups, age, hours","tgt":"ਚੀਜ਼ਾਂ, ਲੋਕ, ਕੱਪ, ਉਮਰ, ਘੰਟੇ"}
+{"f":"patterns","id":"ko.p034","k":"meaning","src":"money, dates, minutes, phone, floors","tgt":"ਪੈਸੇ, ਤਾਰੀਖ਼ਾਂ, ਮਿੰਟ, ਫ਼ੋਨ ਨੰਬਰ, ਮੰਜ਼ਿਲਾਂ"}
+{"f":"patterns","id":"ko.p035","k":"meaning","src":"and then / so / but","tgt":"ਅਤੇ ਫਿਰ / ਇਸ ਲਈ / ਪਰ"}
+{"f":"patterns","id":"ko.p036","k":"meaning","src":"address forms: polite name, title, casual call","tgt":"ਸੰਬੋਧਨ ਸ਼ਬਦ: ਨਾਂ ਨਾਲ ਨਿਮਰ, ਅਹੁਦੇ ਨਾਲ, ਆਮ ਬੁਲਾਵਾ"}
+{"f":"patterns","id":"ko.p037","k":"meaning","src":"honorific: raises the subject (elders, customers)","tgt":"ਸਤਿਕਾਰ ਵਾਲਾ: ਕਰਤਾ ਨੂੰ ਉੱਚਾ ਦਰਜਾ ਦਿੰਦਾ ਹੈ (ਵੱਡੇ-ਬਜ਼ੁਰਗ, ਗਾਹਕ)"}
+{"f":"patterns","id":"ko.p038","k":"meaning","src":"honorific replacements for 먹다·마시다 / 자다 / 있다","tgt":"먹다·마시다 / 자다 / 있다 ਦੀ ਥਾਂ ਸਤਿਕਾਰ ਵਾਲੇ ਸ਼ਬਦ"}
+{"f":"patterns","id":"ko.p039","k":"meaning","src":"softener: 'a bit' / 'please'","tgt":"ਨਰਮ ਕਰਨ ਵਾਲਾ ਸ਼ਬਦ: \"ਜ਼ਰਾ\" / \"ਥੋੜ੍ਹਾ\""}
+{"f":"patterns","id":"ko.p040","k":"meaning","src":"'by any chance' — opens a polite question","tgt":"\"ਕਿਤੇ … ਤਾਂ ਨਹੀਂ?\" — ਨਿਮਰ ਸਵਾਲ ਦੀ ਸ਼ੁਰੂਆਤ"}
+{"f":"patterns","id":"ko.p041","k":"meaning","src":"'would you mind…?' (very polite request)","tgt":"\"…ਦਿਓਗੇ ਜੀ?\" (ਬਹੁਤ ਨਿਮਰ ਬੇਨਤੀ)"}
+{"f":"patterns","id":"ko.p042","k":"meaning","src":"'would it be okay if…?' (permission)","tgt":"\"… ਤਾਂ ਨਹੀਂ ਚੱਲੇਗਾ?\" (ਇਜਾਜ਼ਤ)"}
+{"f":"patterns","id":"ko.p043","k":"meaning","src":"'may I…?'","tgt":"\"ਮੈਂ …ਲਵਾਂ?\""}
+{"f":"patterns","id":"ko.p044","k":"meaning","src":"address colleagues by title, never bare name","tgt":"ਸਾਥੀਆਂ ਨੂੰ ਅਹੁਦੇ ਨਾਲ ਬੁਲਾਓ, ਕਦੇ ਸਿਰਫ਼ ਨਾਂ ਨਾਲ ਨਹੀਂ"}
+{"f":"patterns","id":"ko.p045","k":"meaning","src":"work sign-offs: to those staying / to seniors after work","tgt":"ਕੰਮ ਤੋਂ ਵਿਦਾਈ: ਰੁਕਣ ਵਾਲਿਆਂ ਨੂੰ / ਕੰਮ ਤੋਂ ਬਾਅਦ ਸੀਨੀਅਰਾਂ ਨੂੰ"}
+{"f":"patterns","id":"ko.p046","k":"meaning","src":"email opener: 'the reason I'm writing is…'","tgt":"ਈਮੇਲ ਦੀ ਸ਼ੁਰੂਆਤ: \"ਲਿਖਣ ਦੀ ਵਜ੍ਹਾ ਇਹ ਹੈ ਕਿ…\""}
+{"f":"patterns","id":"ko.p047","k":"meaning","src":"polite request closer (humble)","tgt":"ਬੇਨਤੀ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ਨਿਮਰ ਸ਼ਬਦ (ਆਪਣੇ-ਆਪ ਨੂੰ ਨੀਵਾਂ ਰੱਖ ਕੇ)"}
+{"f":"lessons","id":"hangul","k":"title","src":"1 · Hangul in one sitting","tgt":"1 · ਹੰਗੁਲ ਇੱਕੋ ਬੈਠਕ ਵਿੱਚ","_waive":["hangul"],"_note":"Body adds 감사합니다 (profile §5.4 reading guide), the tense letters ㄲ ㄸ ㅃ ㅉ ㅆ and ㄹ outside its stroke token, so the Punjabi reading guide (profile §5.3) can teach plain / aspirated / tense against ਕ / ਖ / tight ਕ and the r / l letter."}
+{"f":"lessons","id":"hangul","k":"blurb","src":"The alphabet: 14 consonants, 10 vowels, how blocks stack.","tgt":"ਵਰਣਮਾਲਾ: 14 ਵਿਅੰਜਨ, 10 ਸਵਰ, ਅਤੇ ਬਲਾਕ ਕਿਵੇਂ ਬਣਦੇ ਹਨ।"}
+{"f":"sentences","id":"ko.s0001","k":"gloss","src":"ㄴ + ㅏ side by side","tgt":"ㄴ + ㅏ ਨਾਲ-ਨਾਲ"}
+{"f":"sentences","id":"ko.s0002","k":"gloss","src":"ㄴ + ㅗ stacked","tgt":"ㄴ + ㅗ ਉੱਪਰ-ਹੇਠਾਂ"}
+{"f":"sentences","id":"ko.s0003","k":"gloss","src":"ㅎ + ㅏ + ㄴ final","tgt":"ㅎ + ㅏ + ਆਖ਼ਰੀ ㄴ"}
+{"f":"sentences","id":"ko.s0004","k":"gloss","src":"ㅅ+ㅓ, ㅇ(silent)+ㅜ+ㄹ","tgt":"ㅅ+ㅓ, ㅇ(ਚੁੱਪ)+ㅜ+ㄹ"}
+{"f":"checks","id":"hangul.k1","k":"q","src":"Which vowel is the horizontal 'u' (oo) sound?","tgt":"ਕਿਹੜਾ ਲੇਟਵਾਂ ਸਵਰ \"ਊ\" ਦੀ ਅਵਾਜ਼ ਦਿੰਦਾ ਹੈ?","rw":"English-spelling sound hint in brackets"}
+{"f":"checks","id":"hangul.k1","k":"why","src":"ㅜ: horizontal stick, tick down = u.","tgt":"ㅜ: ਲੇਟਵੀਂ ਡੰਡੀ, ਹੇਠਾਂ ਵੱਲ ਛੋਟੀ ਲਕੀਰ = ਊ (u)।"}
+{"f":"checks","id":"hangul.k2","k":"q","src":"What does ㅇ sound like at the START of a block?","tgt":"ਬਲਾਕ ਦੀ ਸ਼ੁਰੂਆਤ ਵਿੱਚ ㅇ ਦੀ ਅਵਾਜ਼ ਕੀ ਹੁੰਦੀ ਹੈ?","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"checks","id":"hangul.k2","k":"o[0]","src":"Silent","tgt":"ਕੋਈ ਅਵਾਜ਼ ਨਹੀਂ (ਚੁੱਪ)"}
+{"f":"checks","id":"hangul.k2","k":"o[1]","src":"ng","tgt":"ng (\"ਰੰਗ\" ਵਾਲੀ ਅਵਾਜ਼)"}
+{"f":"checks","id":"hangul.k2","k":"o[2]","src":"h","tgt":"ਹ (h)"}
+{"f":"checks","id":"hangul.k2","k":"o[3]","src":"g","tgt":"ਕ ਵਰਗੀ ਅਵਾਜ਼ (g)"}
+{"f":"checks","id":"hangul.k2","k":"why","src":"Initial ㅇ is a placeholder; final ㅇ is ng.","tgt":"ਸ਼ੁਰੂਆਤ ਵਾਲਾ ㅇ ਸਿਰਫ਼ ਥਾਂ ਭਰਦਾ ਹੈ; ਅਖ਼ੀਰਲਾ ㅇ ng ਹੈ।"}
+{"f":"checks","id":"hangul.k3","k":"q","src":"Which block is 'han'?","tgt":"ਕਿਹੜਾ ਬਲਾਕ \"han\" ਹੈ?"}
+{"f":"checks","id":"hangul.k3","k":"why","src":"ㅎ + ㅏ + ㄴ (final) = 한.","tgt":"ㅎ + ㅏ + ㄴ (ਆਖ਼ਰੀ) = 한।"}
+{"f":"practice","id":"hangul.01","k":"q","src":"Which letter is the 'a' sound, as in father?","tgt":"ਕਿਹੜਾ ਅੱਖਰ \"ਆ\" (a) ਦੀ ਅਵਾਜ਼ ਹੈ?","rw":"English sound comparison (\"as in …\")"}
+{"f":"practice","id":"hangul.01","k":"why","src":"ㅏ: vertical stick, tick to the right.","tgt":"ㅏ: ਖੜ੍ਹੀ ਡੰਡੀ, ਸੱਜੇ ਪਾਸੇ ਛੋਟੀ ਲਕੀਰ।"}
+{"f":"practice","id":"hangul.02","k":"q","src":"Which letter is silent at the start of a block?","tgt":"ਬਲਾਕ ਦੀ ਸ਼ੁਰੂਆਤ ਵਿੱਚ ਕਿਹੜਾ ਅੱਖਰ ਚੁੱਪ ਰਹਿੰਦਾ ਹੈ?"}
+{"f":"practice","id":"hangul.02","k":"why","src":"Initial ㅇ only holds the vowel's place; at the end it is ng.","tgt":"ਸ਼ੁਰੂਆਤ ਵਾਲਾ ㅇ ਸਿਰਫ਼ ਸਵਰ ਦੀ ਥਾਂ ਭਰਦਾ ਹੈ; ਅਖ਼ੀਰ ਵਿੱਚ ਇਹ ng ਹੈ।"}
+{"f":"practice","id":"hangul.03","k":"q","src":"Which block reads 'no'?","tgt":"ਕਿਹੜਾ ਬਲਾਕ \"no\" ਪੜ੍ਹਿਆ ਜਾਂਦਾ ਹੈ?"}
+{"f":"practice","id":"hangul.03","k":"why","src":"ㄴ + ㅗ, with the horizontal vowel stacked below.","tgt":"ㄴ + ㅗ, ਲੇਟਵਾਂ ਸਵਰ ਹੇਠਾਂ ਲੱਗਦਾ ਹੈ।"}
+{"f":"practice","id":"hangul.04","k":"q","src":"Which block reads 'gang'?","tgt":"ਕਿਹੜਾ ਬਲਾਕ \"gang\" ਪੜ੍ਹਿਆ ਜਾਂਦਾ ਹੈ?"}
+{"f":"practice","id":"hangul.04","k":"why","src":"ㄱ + ㅏ + final ㅇ (ng).","tgt":"ㄱ + ㅏ + ਆਖ਼ਰੀ ㅇ (ng)।"}
+{"f":"practice","id":"hangul.05","k":"q","src":"Which word reads 'seoul'?","tgt":"ਕਿਹੜਾ ਸ਼ਬਦ \"seoul\" ਪੜ੍ਹਿਆ ਜਾਂਦਾ ਹੈ?"}
+{"f":"practice","id":"hangul.05","k":"why","src":"ㅅ+ㅓ = seo, silent ㅇ+ㅜ+ㄹ = ul.","tgt":"ㅅ+ㅓ = seo, ਚੁੱਪ ㅇ+ㅜ+ㄹ = ul।"}
+{"f":"practice","id":"hangul.06","k":"p","src":"Seoul (seo-ul)","tgt":"ਸਿਓਲ (seo-ul)"}
+{"f":"practice","id":"hangul.06","k":"why","src":"seo = ㅅ+ㅓ, ul = ㅇ+ㅜ+ㄹ.","tgt":"seo = ㅅ+ㅓ, ul = ㅇ+ㅜ+ㄹ।"}
+{"f":"practice","id":"hangul.07","k":"p","src":"Korean language (han-gu-geo)","tgt":"ਕੋਰੀਆਈ ਭਾਸ਼ਾ (han-gu-geo)"}
+{"f":"practice","id":"hangul.07","k":"why","src":"han + guk + eo; the ㄱ of 국 links into 어 when spoken.","tgt":"han + guk + eo; ਬੋਲਦੇ ਸਮੇਂ 국 ਦਾ ㄱ 어 ਨਾਲ ਜੁੜ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"hangul.08","k":"p","src":"friend (chin-gu)","tgt":"ਦੋਸਤ (chin-gu)"}
+{"f":"practice","id":"hangul.08","k":"why","src":"ㅊ is ch; ㅈ is j.","tgt":"ㅊ = ch (ਛ, ਜ਼ੋਰ ਦੀ ਹਵਾ); ㅈ = j (ਚ ਵਰਗਾ, ਥੋੜ੍ਹੀ ਹਵਾ)।"}
+{"f":"practice","id":"hangul.09","k":"p","src":"Seoul (seoul)","tgt":"ਸਿਓਲ (seoul)"}
+{"f":"practice","id":"hangul.09","k":"why","src":"ㅜ (u) sits below the ㅇ: 울.","tgt":"ㅜ (u) ㅇ ਦੇ ਹੇਠਾਂ ਬੈਠਦਾ ਹੈ: 울।"}
+{"f":"practice","id":"hangul.10","k":"p","src":"Korean language (hangugeo)","tgt":"ਕੋਰੀਆਈ ਭਾਸ਼ਾ (hangugeo)"}
+{"f":"practice","id":"hangul.10","k":"why","src":"h = ㅎ, a = ㅏ, final n = ㄴ: 한.","tgt":"h = ㅎ, a = ㅏ, ਆਖ਼ਰੀ n = ㄴ: 한।"}
+{"f":"practice","id":"hangul.11","k":"p","src":"banana (banana)","tgt":"ਕੇਲਾ (banana)"}
+{"f":"practice","id":"hangul.11","k":"why","src":"na = ㄴ + ㅏ, side by side.","tgt":"na = ㄴ + ㅏ, ਨਾਲ-ਨਾਲ।"}
+{"f":"practice","id":"hangul.12","k":"p","src":"Type 'gang' — river","tgt":"\"gang\" ਟਾਈਪ ਕਰੋ — ਦਰਿਆ"}
+{"f":"practice","id":"hangul.12","k":"why","src":"Final ㅇ sounds like ng.","tgt":"ਅਖ਼ੀਰ ਵਿੱਚ ㅇ \"ਰੰਗ\" ਵਾਲੀ ਅਵਾਜ਼ ਹੈ, ਬਿਨਾਂ ਗ ਦੇ।","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"practice","id":"hangul.13","k":"p","src":"Type 'seoul' — Seoul","tgt":"\"seoul\" ਟਾਈਪ ਕਰੋ — ਸਿਓਲ"}
+{"f":"practice","id":"hangul.13","k":"why","src":"Two blocks: 서 + 울.","tgt":"ਦੋ ਬਲਾਕ: 서 + 울।"}
+{"f":"practice","id":"hangul.14","k":"p","src":"Type 'hangugeo' — Korean language","tgt":"\"hangugeo\" ਟਾਈਪ ਕਰੋ — ਕੋਰੀਆਈ ਭਾਸ਼ਾ"}
+{"f":"practice","id":"hangul.14","k":"why","src":"Three blocks: 한 + 국 + 어.","tgt":"ਤਿੰਨ ਬਲਾਕ: 한 + 국 + 어।"}
+{"f":"lessons","id":"polite","k":"title","src":"2 · Politeness levels","tgt":"2 · ਨਿਮਰਤਾ ਦੇ ਪੱਧਰ"}
+{"f":"lessons","id":"polite","k":"blurb","src":"Why every verb has two endings, and which one to use.","tgt":"ਹਰ ਕਿਰਿਆ ਦੀਆਂ ਦੋ ਐਂਡਿੰਗਾਂ ਕਿਉਂ ਹੁੰਦੀਆਂ ਹਨ, ਅਤੇ ਕਿਹੜੀ ਕਦੋਂ ਵਰਤੀਏ।"}
+{"f":"sentences","id":"ko.s0005","k":"gloss","src":"Thanks (polite)","tgt":"ਸ਼ੁਕਰੀਆ (ਨਿਮਰ)"}
+{"f":"sentences","id":"ko.s0006","k":"gloss","src":"Thanks (casual)","tgt":"ਥੈਂਕਸ (ਆਮ)"}
+{"f":"sentences","id":"ko.s0007","k":"gloss","src":"You're cute (polite)","tgt":"ਤੁਸੀਂ ਕਿਊਟ ਹੋ (ਨਿਮਰ)"}
+{"f":"sentences","id":"ko.s0008","k":"gloss","src":"You're cute (casual)","tgt":"ਤੂੰ ਕਿਊਟ ਹੈਂ (ਆਮ)"}
+{"f":"checks","id":"polite.k1","k":"q","src":"You're ordering at a café. Which form?","tgt":"ਤੁਸੀਂ ਕੈਫ਼ੇ ਵਿੱਚ ਆਰਡਰ ਦੇ ਰਹੇ ਹੋ। ਕਿਹੜਾ ਰੂਪ?"}
+{"f":"checks","id":"polite.k1","k":"why","src":"요-form is the default with strangers and staff.","tgt":"ਅਜਨਬੀਆਂ ਅਤੇ ਸਟਾਫ਼ ਨਾਲ ਪਹਿਲੀ ਚੋਣ 요-ਰੂਪ ਹੈ।"}
+{"f":"checks","id":"polite.k2","k":"q","src":"Dropping the 요 makes speech…","tgt":"요 ਹਟਾਉਣ ਨਾਲ ਗੱਲ ਬਣ ਜਾਂਦੀ ਹੈ…"}
+{"f":"checks","id":"polite.k2","k":"o[0]","src":"casual (반말)","tgt":"ਆਮ (반말)"}
+{"f":"checks","id":"polite.k2","k":"o[1]","src":"more polite","tgt":"ਹੋਰ ਨਿਮਰ"}
+{"f":"checks","id":"polite.k2","k":"o[2]","src":"formal","tgt":"ਰਸਮੀ"}
+{"f":"checks","id":"polite.k2","k":"o[3]","src":"a question","tgt":"ਇੱਕ ਸਵਾਲ"}
+{"f":"checks","id":"polite.k2","k":"why","src":"반말 = casual speech for close friends and younger people.","tgt":"반말 = ਪੱਕੇ ਦੋਸਤਾਂ ਅਤੇ ਉਮਰ ਵਿੱਚ ਛੋਟਿਆਂ ਨਾਲ ਆਮ ਬੋਲੀ।"}
+{"f":"checks","id":"polite.k3","k":"q","src":"감사합니다 is which level?","tgt":"감사합니다 ਕਿਸ ਪੱਧਰ ਦਾ ਹੈ?"}
+{"f":"checks","id":"polite.k3","k":"o[0]","src":"formal","tgt":"ਰਸਮੀ"}
+{"f":"checks","id":"polite.k3","k":"o[1]","src":"casual","tgt":"ਆਮ"}
+{"f":"checks","id":"polite.k3","k":"o[2]","src":"polite 요-form","tgt":"ਨਿਮਰ 요-ਰੂਪ"}
+{"f":"checks","id":"polite.k3","k":"o[3]","src":"slang","tgt":"ਸਲੈਂਗ"}
+{"f":"checks","id":"polite.k3","k":"why","src":"-습니다 / -ㅂ니다 is the formal level.","tgt":"-습니다 / -ㅂ니다 ਰਸਮੀ ਪੱਧਰ ਹੈ।"}
+{"f":"practice","id":"polite.01","k":"q","src":"'Thanks' to a close friend (casual):","tgt":"ਪੱਕੇ ਦੋਸਤ ਨੂੰ \"ਥੈਂਕਸ\" (ਆਮ):"}
+{"f":"practice","id":"polite.01","k":"why","src":"Casual speech drops 요.","tgt":"ਆਮ ਬੋਲੀ ਵਿੱਚ 요 ਹਟ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"polite.02","k":"q","src":"'Thank you' to a shop clerk you've never met:","tgt":"ਕਿਸੇ ਅਣਜਾਣ ਦੁਕਾਨਦਾਰ ਨੂੰ \"ਧੰਨਵਾਦ\":"}
+{"f":"practice","id":"polite.02","k":"why","src":"With strangers use a polite or formal form.","tgt":"ਅਜਨਬੀਆਂ ਨਾਲ ਨਿਮਰ ਜਾਂ ਰਸਮੀ ਰੂਪ ਵਰਤੋ।"}
+{"f":"practice","id":"polite.03","k":"q","src":"Which one is the formal level?","tgt":"ਇਹਨਾਂ ਵਿੱਚੋਂ ਰਸਮੀ ਪੱਧਰ ਕਿਹੜਾ ਹੈ?"}
+{"f":"practice","id":"polite.03","k":"why","src":"-습니다 / -ㅂ니다 is the formal level.","tgt":"-습니다 / -ㅂ니다 ਰਸਮੀ ਪੱਧਰ ਹੈ।"}
+{"f":"practice","id":"polite.04","k":"q","src":"'Sorry' to a close friend (casual):","tgt":"ਪੱਕੇ ਦੋਸਤ ਨੂੰ \"ਸੌਰੀ\" (ਆਮ):"}
+{"f":"practice","id":"polite.04","k":"why","src":"미안해 is the casual form; 미안해요 is polite.","tgt":"미안해 ਆਮ ਰੂਪ ਹੈ; 미안해요 ਨਿਮਰ ਹੈ।"}
+{"f":"practice","id":"polite.05","k":"q","src":"'You're cute' (polite):","tgt":"\"ਤੁਸੀਂ ਕਿਊਟ ਹੋ\" (ਨਿਮਰ):"}
+{"f":"practice","id":"polite.05","k":"why","src":"귀여워 + 요 = polite.","tgt":"귀여워 + 요 = ਨਿਮਰ।"}
+{"f":"practice","id":"polite.06","k":"p","src":"This one, please (polite)","tgt":"ਇਹ ਵਾਲਾ ਦੇ ਦਿਓ (ਨਿਮਰ)"}
+{"f":"practice","id":"polite.06","k":"why","src":"주세요 is the polite 'please give'.","tgt":"주세요 ਨਿਮਰ \"ਦੇ ਦਿਓ\" ਹੈ।"}
+{"f":"practice","id":"polite.07","k":"p","src":"Yes, thanks (polite)","tgt":"ਹਾਂ ਜੀ, ਸ਼ੁਕਰੀਆ (ਨਿਮਰ)"}
+{"f":"practice","id":"polite.07","k":"why","src":"Keep 요 with people you don't know well.","tgt":"ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਚੰਗੀ ਤਰ੍ਹਾਂ ਨਹੀਂ ਜਾਣਦੇ, ਉਹਨਾਂ ਨਾਲ 요 ਰੱਖੋ।"}
+{"f":"practice","id":"polite.08","k":"p","src":"No, it's okay (polite)","tgt":"ਨਹੀਂ ਜੀ, ਕੋਈ ਗੱਲ ਨਹੀਂ (ਨਿਮਰ)"}
+{"f":"practice","id":"polite.08","k":"why","src":"괜찮아 without 요 is casual.","tgt":"요 ਤੋਂ ਬਿਨਾਂ 괜찮아 ਆਮ ਹੈ।"}
+{"f":"practice","id":"polite.09","k":"p","src":"Thanks (polite)","tgt":"ਸ਼ੁਕਰੀਆ (ਨਿਮਰ)"}
+{"f":"practice","id":"polite.09","k":"why","src":"Add 요 to make it polite.","tgt":"ਨਿਮਰ ਬਣਾਉਣ ਲਈ 요 ਜੋੜੋ।"}
+{"f":"practice","id":"polite.10","k":"p","src":"Sorry (casual)","tgt":"ਸੌਰੀ (ਆਮ)"}
+{"f":"practice","id":"polite.10","k":"why","src":"Casual = the 요-form without 요: 미안해.","tgt":"ਆਮ = 요-ਰੂਪ, 요 ਤੋਂ ਬਿਨਾਂ: 미안해।"}
+{"f":"practice","id":"polite.11","k":"p","src":"I'm sorry (formal)","tgt":"ਮਾਫ਼ ਕਰਨਾ ਜੀ (ਰਸਮੀ)"}
+{"f":"practice","id":"polite.11","k":"why","src":"Formal level ends in -ㅂ니다.","tgt":"ਰਸਮੀ ਪੱਧਰ -ㅂ니다 ਉੱਤੇ ਖ਼ਤਮ ਹੁੰਦਾ ਹੈ।"}
+{"f":"practice","id":"polite.12","k":"p","src":"Yes, thanks (polite 요-form)","tgt":"ਹਾਂ ਜੀ, ਸ਼ੁਕਰੀਆ (ਨਿਮਰ 요-ਰੂਪ)"}
+{"f":"practice","id":"polite.12","k":"why","src":"Polite = casual form + 요.","tgt":"ਨਿਮਰ = ਆਮ ਰੂਪ + 요।"}
+{"f":"practice","id":"polite.13","k":"p","src":"Yes, I'm sorry (formal)","tgt":"ਹਾਂ ਜੀ, ਮਾਫ਼ ਕਰਨਾ ਜੀ (ਰਸਮੀ)"}
+{"f":"practice","id":"polite.13","k":"why","src":"죄송합니다 is the safe apology to strangers.","tgt":"ਅਜਨਬੀਆਂ ਤੋਂ ਮਾਫ਼ੀ ਮੰਗਣ ਦਾ ਸੁਰੱਖਿਅਤ ਤਰੀਕਾ 죄송합니다 ਹੈ।"}
+{"f":"practice","id":"polite.14","k":"p","src":"No, it's okay (casual)","tgt":"ਨਹੀਂ, ਕੋਈ ਗੱਲ ਨਹੀਂ (ਆਮ)"}
+{"f":"practice","id":"polite.14","k":"hint","src":"drop the 요","tgt":"요 ਹਟਾ ਦਿਓ"}
+{"f":"practice","id":"polite.14","k":"why","src":"Casual drops the 요.","tgt":"ਆਮ ਬੋਲੀ ਵਿੱਚ 요 ਹਟ ਜਾਂਦਾ ਹੈ।"}
+{"f":"lessons","id":"meet","k":"title","src":"3 · Meeting people","tgt":"3 · ਲੋਕਾਂ ਨੂੰ ਮਿਲਣਾ"}
+{"f":"lessons","id":"meet","k":"blurb","src":"Introduce yourself, ask the four standard questions, say goodbye correctly.","tgt":"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ ਕਰਾਓ, ਚਾਰ ਆਮ ਸਵਾਲ ਪੁੱਛੋ, ਅਤੇ ਸਹੀ ਤਰੀਕੇ ਨਾਲ ਵਿਦਾ ਲਓ।"}
+{"f":"sentences","id":"ko.s0297","k":"gloss","src":"Hello. I'm @@.","tgt":"ਨਮਸਕਾਰ। ਮੈਂ @@ ਹਾਂ।"}
+{"f":"sentences","id":"ko.s0010","k":"gloss","src":"Nice to meet you","tgt":"ਮਿਲ ਕੇ ਖ਼ੁਸ਼ੀ ਹੋਈ"}
+{"f":"sentences","id":"ko.s0011","k":"gloss","src":"Where are you from?","tgt":"ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ?"}
+{"f":"sentences","id":"ko.s0298","k":"gloss","src":"I'm from Mexico","tgt":"ਮੈਂ ਮੈਕਸੀਕੋ ਤੋਂ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0013","k":"gloss","src":"What do you do?","tgt":"ਤੁਸੀਂ ਕੀ ਕੰਮ ਕਰਦੇ ਹੋ?"}
+{"f":"sentences","id":"ko.s0014","k":"gloss","src":"I'm studying Korean","tgt":"ਮੈਂ ਕੋਰੀਆਈ ਪੜ੍ਹ ਰਿਹਾ/ਰਹੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0015","k":"gloss","src":"How old are you?","tgt":"ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ?"}
+{"f":"sentences","id":"ko.s0016","k":"gloss","src":"I'm 28","tgt":"ਮੇਰੀ ਉਮਰ 28 ਸਾਲ ਹੈ"}
+{"f":"sentences","id":"ko.s0017","k":"gloss","src":"Go well (they are leaving)","tgt":"ਆਰਾਮ ਨਾਲ ਜਾਓ (ਜਾਣ ਵਾਲੇ ਨੂੰ)"}
+{"f":"sentences","id":"ko.s0018","k":"gloss","src":"Stay well (you are leaving)","tgt":"ਆਰਾਮ ਨਾਲ ਰਹੋ (ਰੁਕਣ ਵਾਲੇ ਨੂੰ)"}
+{"f":"checks","id":"meet.k1","k":"q","src":"'I'm Lisa' — in Hangul 리사, and the last block 사 ends in a vowel, so:","tgt":"\"ਮੈਂ ਲੀਸਾ ਹਾਂ\" — ਹੰਗੁਲ ਵਿੱਚ 리사, ਅਤੇ ਆਖ਼ਰੀ ਬਲਾਕ 사 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ, ਇਸ ਲਈ:"}
+{"f":"checks","id":"meet.k1","k":"why","src":"Go by the last Hangul block: no final consonant → 예요; a final consonant → 이에요.","tgt":"ਆਖ਼ਰੀ ਹੰਗੁਲ ਬਲਾਕ ਦੇਖੋ: ਆਖ਼ਰੀ ਵਿਅੰਜਨ ਨਹੀਂ → 예요; ਆਖ਼ਰੀ ਵਿਅੰਜਨ ਹੈ → 이에요।"}
+{"f":"checks","id":"meet.k2","k":"q","src":"Someone is leaving and you are staying. You say:","tgt":"ਕੋਈ ਹੋਰ ਜਾ ਰਿਹਾ ਹੈ ਅਤੇ ਤੁਸੀਂ ਇੱਥੇ ਹੀ ਰੁਕ ਰਹੇ ਹੋ। ਤੁਸੀਂ ਕਹੋਗੇ:"}
+{"f":"checks","id":"meet.k2","k":"why","src":"가세요 = go well (to the one leaving).","tgt":"가세요 = ਆਰਾਮ ਨਾਲ ਜਾਓ (ਜਾਣ ਵਾਲੇ ਨੂੰ)।"}
+{"f":"checks","id":"meet.k3","k":"q","src":"'Where are you from?'","tgt":"\"ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ?\""}
+{"f":"checks","id":"meet.k3","k":"why","src":"에서 왔어요 = came from.","tgt":"에서 왔어요 = … ਤੋਂ ਆਏ।"}
+{"f":"practice","id":"meet.01","k":"q","src":"'I'm Minsu' — 민수 ends in a vowel, so:","tgt":"\"ਮੈਂ ਮਿਨਸੂ ਹਾਂ\" — 민수 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ, ਇਸ ਲਈ:"}
+{"f":"practice","id":"meet.01","k":"why","src":"예요 after a vowel, 이에요 after a consonant.","tgt":"ਸਵਰ ਤੋਂ ਬਾਅਦ 예요, ਵਿਅੰਜਨ ਤੋਂ ਬਾਅਦ 이에요।"}
+{"f":"practice","id":"meet.02","k":"q","src":"'Nice to meet you' =","tgt":"\"ਮਿਲ ਕੇ ਖ਼ੁਸ਼ੀ ਹੋਈ\" ="}
+{"f":"practice","id":"meet.02","k":"why","src":"만나서 반가워요 = glad because we met.","tgt":"만나서 반가워요 = ਮਿਲੇ, ਇਸ ਲਈ ਖ਼ੁਸ਼ੀ ਹੋਈ।"}
+{"f":"practice","id":"meet.03","k":"q","src":"You leave a shop; the owner stays. You say:","tgt":"ਤੁਸੀਂ ਦੁਕਾਨ ਤੋਂ ਨਿਕਲ ਰਹੇ ਹੋ; ਮਾਲਕ ਉੱਥੇ ਹੀ ਰਹਿਣਗੇ। ਤੁਸੀਂ ਕਹੋਗੇ:"}
+{"f":"practice","id":"meet.03","k":"why","src":"계세요 = stay well, said by the one leaving.","tgt":"계세요 = ਆਰਾਮ ਨਾਲ ਰਹੋ; ਇਹ ਜਾਣ ਵਾਲਾ ਕਹਿੰਦਾ ਹੈ।"}
+{"f":"practice","id":"meet.04","k":"q","src":"'Where are you from?' =","tgt":"\"ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ?\" ="}
+{"f":"practice","id":"meet.04","k":"why","src":"에서 왔어요 = came from.","tgt":"에서 왔어요 = … ਤੋਂ ਆਏ।"}
+{"f":"practice","id":"meet.05","k":"q","src":"'I'm a student' =","tgt":"\"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ\" ="}
+{"f":"practice","id":"meet.05","k":"why","src":"학생 ends in a consonant → 이에요.","tgt":"학생 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 이에요।"}
+{"f":"practice","id":"meet.06","k":"p","src":"I'm from Mexico","tgt":"ਮੈਂ ਮੈਕਸੀਕੋ ਤੋਂ ਹਾਂ"}
+{"f":"practice","id":"meet.06","k":"why","src":"Place + 에서 왔어요 = came from.","tgt":"ਥਾਂ + 에서 왔어요 = ਉੱਥੋਂ ਆਏ।"}
+{"f":"practice","id":"meet.07","k":"p","src":"I'm studying Korean","tgt":"ਮੈਂ ਕੋਰੀਆਈ ਪੜ੍ਹ ਰਿਹਾ/ਰਹੀ ਹਾਂ"}
+{"f":"practice","id":"meet.07","k":"why","src":"한국어 = Korean language; 한국 = Korea.","tgt":"한국어 = ਕੋਰੀਆਈ ਭਾਸ਼ਾ; 한국 = ਕੋਰੀਆ।"}
+{"f":"practice","id":"meet.08","k":"p","src":"Hello, I'm Minsu","tgt":"ਨਮਸਕਾਰ, ਮੈਂ ਮਿਨਸੂ ਹਾਂ"}
+{"f":"practice","id":"meet.08","k":"why","src":"민수 ends in a vowel → 예요.","tgt":"민수 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 예요।"}
+{"f":"practice","id":"meet.09","k":"p","src":"I'm a student","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ"}
+{"f":"practice","id":"meet.09","k":"why","src":"Consonant ending → 이에요.","tgt":"ਵਿਅੰਜਨ ਉੱਤੇ ਅੰਤ → 이에요।"}
+{"f":"practice","id":"meet.10","k":"p","src":"I'm Minsu","tgt":"ਮੈਂ ਮਿਨਸੂ ਹਾਂ"}
+{"f":"practice","id":"meet.10","k":"why","src":"Vowel ending → 예요.","tgt":"ਸਵਰ ਉੱਤੇ ਅੰਤ → 예요।"}
+{"f":"practice","id":"meet.11","k":"p","src":"Goodbye (you are leaving, they stay)","tgt":"ਆਰਾਮ ਨਾਲ ਰਹੋ (ਤੁਸੀਂ ਜਾ ਰਹੇ ਹੋ, ਉਹ ਰੁਕ ਰਹੇ ਹਨ)"}
+{"f":"practice","id":"meet.11","k":"why","src":"The one leaving says 계세요 (stay well).","tgt":"ਜਾਣ ਵਾਲਾ 계세요 (ਆਰਾਮ ਨਾਲ ਰਹੋ) ਕਹਿੰਦਾ ਹੈ।"}
+{"f":"practice","id":"meet.12","k":"p","src":"Nice to meet you","tgt":"ਮਿਲ ਕੇ ਖ਼ੁਸ਼ੀ ਹੋਈ"}
+{"f":"practice","id":"meet.12","k":"why","src":"The standard first-meeting phrase.","tgt":"ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਦਾ ਪੱਕਾ ਵਾਕ।"}
+{"f":"practice","id":"meet.13","k":"p","src":"Where are you from?","tgt":"ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ?"}
+{"f":"practice","id":"meet.13","k":"why","src":"Lit. 'from where did you come?'","tgt":"ਸ਼ਬਦੀ ਅਰਥ: \"ਤੁਸੀਂ ਕਿੱਥੋਂ ਆਏ?\""}
+{"f":"practice","id":"meet.14","k":"p","src":"How old are you?","tgt":"ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ?"}
+{"f":"practice","id":"meet.14","k":"why","src":"몇 = how many, 살 = years of age.","tgt":"몇 = ਕਿੰਨੇ, 살 = ਉਮਰ ਦੇ ਸਾਲ (ਪੰਜਾਬੀ \"ਸਾਲ\" ਨਾਲ ਮਿਲਣਾ ਸਿਰਫ਼ ਇਤਫ਼ਾਕ ਹੈ)।"}
+{"f":"lessons","id":"sound-changes","k":"title","src":"4 · Sound changes: why 감사합니다 sounds different","tgt":"4 · ਧੁਨੀ-ਬਦਲਾਅ: 감사합니다 ਵੱਖਰਾ ਕਿਉਂ ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ"}
+{"f":"lessons","id":"sound-changes","k":"blurb","src":"Four habits that make spoken Korean differ from its spelling. Learn to expect them.","tgt":"ਚਾਰ ਆਦਤਾਂ, ਜਿਨ੍ਹਾਂ ਕਰਕੇ ਬੋਲੀ ਜਾਣ ਵਾਲੀ ਕੋਰੀਆਈ ਆਪਣੀ ਸਪੈਲਿੰਗ ਤੋਂ ਵੱਖਰੀ ਸੁਣਾਈ ਦਿੰਦੀ ਹੈ। ਇਹਨਾਂ ਨੂੰ ਪਹਿਲਾਂ ਤੋਂ ਪਛਾਣੋ।"}
+{"f":"sentences","id":"ko.s0019","k":"gloss","src":"Korean language · sounds like 한구거","tgt":"ਕੋਰੀਆਈ ਭਾਸ਼ਾ · ਸੁਣਨ ਨੂੰ: 한구거"}
+{"f":"sentences","id":"ko.s0020","k":"gloss","src":"music · sounds like 으막","tgt":"ਸੰਗੀਤ · ਸੁਣਨ ਨੂੰ: 으막"}
+{"f":"sentences","id":"ko.s0021","k":"gloss","src":"there is · sounds like 이써요","tgt":"ਹੈ · ਸੁਣਨ ਨੂੰ: 이써요"}
+{"f":"sentences","id":"ko.s0022","k":"gloss","src":"thank you · sounds like 감사함니다","tgt":"ਧੰਨਵਾਦ · ਸੁਣਨ ਨੂੰ: 감사함니다"}
+{"f":"sentences","id":"ko.s0023","k":"gloss","src":"nice to meet you · sounds like 반갑씀니다","tgt":"ਮਿਲ ਕੇ ਖ਼ੁਸ਼ੀ ਹੋਈ · ਸੁਣਨ ਨੂੰ: 반갑씀니다"}
+{"f":"sentences","id":"ko.s0024","k":"gloss","src":"Korean (speech) · sounds like 한궁말","tgt":"ਕੋਰੀਆਈ (ਬੋਲੀ) · ਸੁਣਨ ਨੂੰ: 한궁말"}
+{"f":"sentences","id":"ko.s0025","k":"gloss","src":"to be good · sounds like 조타","tgt":"ਚੰਗਾ ਹੋਣਾ · ਸੁਣਨ ਨੂੰ: 조타"}
+{"f":"sentences","id":"ko.s0026","k":"gloss","src":"congratulations · sounds like 추카","tgt":"ਵਧਾਈ · ਸੁਣਨ ਨੂੰ: 추카"}
+{"f":"sentences","id":"ko.s0027","k":"gloss","src":"it's good · sounds like 조아요","tgt":"ਵਧੀਆ ਹੈ · ਸੁਣਨ ਨੂੰ: 조아요"}
+{"f":"sentences","id":"ko.s0028","k":"gloss","src":"contact · sounds like 열락","tgt":"ਸੰਪਰਕ · ਸੁਣਨ ਨੂੰ: 열락"}
+{"f":"sentences","id":"ko.s0029","k":"gloss","src":"Lunar New Year · sounds like 설랄","tgt":"ਚੰਦਰ ਨਵਾਂ ਸਾਲ · ਸੁਣਨ ਨੂੰ: 설랄"}
+{"f":"checks","id":"sound-changes.k1","k":"q","src":"감사합니다 sounds like:","tgt":"감사합니다 ਸੁਣਨ ਨੂੰ ਇੰਝ ਲੱਗਦਾ ਹੈ:"}
+{"f":"checks","id":"sound-changes.k1","k":"o[1]","src":"감사합니다, exactly as spelled","tgt":"감사합니다, ਬਿਲਕੁਲ ਜਿਵੇਂ ਲਿਖਿਆ ਹੈ"}
+{"f":"checks","id":"sound-changes.k1","k":"why","src":"ㅂ before ㄴ softens to ㅁ.","tgt":"ㄴ ਤੋਂ ਪਹਿਲਾਂ ㅂ ਨੱਕ ਵਾਲਾ ㅁ ਬਣ ਜਾਂਦਾ ਹੈ।"}
+{"f":"checks","id":"sound-changes.k2","k":"q","src":"한국어 sounds like:","tgt":"한국어 ਸੁਣਨ ਨੂੰ ਇੰਝ ਲੱਗਦਾ ਹੈ:"}
+{"f":"checks","id":"sound-changes.k2","k":"o[1]","src":"한국 어, with a pause","tgt":"한국 어, ਵਿੱਚ ਰੁਕ ਕੇ"}
+{"f":"checks","id":"sound-changes.k2","k":"why","src":"The final ㄱ slides into the empty ㅇ seat.","tgt":"ਆਖ਼ਰੀ ㄱ ਖ਼ਾਲੀ ㅇ ਵਾਲੀ ਥਾਂ ਵਿੱਚ ਖਿਸਕ ਜਾਂਦਾ ਹੈ।"}
+{"f":"checks","id":"sound-changes.k3","k":"q","src":"좋아요 sounds like:","tgt":"좋아요 ਸੁਣਨ ਨੂੰ ਇੰਝ ਲੱਗਦਾ ਹੈ:"}
+{"f":"checks","id":"sound-changes.k3","k":"why","src":"ㅎ between vowels goes silent.","tgt":"ਸਵਰਾਂ ਦੇ ਵਿਚਕਾਰ ㅎ ਚੁੱਪ ਹੋ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.01","k":"q","src":"감사합니다 sounds like:","tgt":"감사합니다 ਸੁਣਨ ਨੂੰ ਇੰਝ ਲੱਗਦਾ ਹੈ:"}
+{"f":"practice","id":"sound-changes.01","k":"why","src":"ㅂ before ㄴ softens to ㅁ.","tgt":"ㄴ ਤੋਂ ਪਹਿਲਾਂ ㅂ ਨੱਕ ਵਾਲਾ ㅁ ਬਣ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.02","k":"q","src":"한국어 sounds like:","tgt":"한국어 ਸੁਣਨ ਨੂੰ ਇੰਝ ਲੱਗਦਾ ਹੈ:"}
+{"f":"practice","id":"sound-changes.02","k":"why","src":"Final ㄱ links into the next block.","tgt":"ਆਖ਼ਰੀ ㄱ ਅਗਲੇ ਬਲਾਕ ਨਾਲ ਜੁੜ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.03","k":"q","src":"좋아요 sounds like:","tgt":"좋아요 ਸੁਣਨ ਨੂੰ ਇੰਝ ਲੱਗਦਾ ਹੈ:"}
+{"f":"practice","id":"sound-changes.03","k":"why","src":"ㅎ between vowels goes silent.","tgt":"ਸਵਰਾਂ ਦੇ ਵਿਚਕਾਰ ㅎ ਚੁੱਪ ਹੋ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.04","k":"q","src":"연락 (contact) sounds like:","tgt":"연락 (ਸੰਪਰਕ) ਸੁਣਨ ਨੂੰ ਇੰਝ ਲੱਗਦਾ ਹੈ:"}
 {"f":"practice","id":"sound-changes.04","k":"why","src":"ㄴ + ㄹ → ㄹㄹ.","tgt":"ㄴ + ㄹ → ㄹㄹ.","pre":1}
-{"f":"practice","id":"sound-changes.05","k":"q","src":"축하 (congratulations) sounds like:","tgt":""}
+{"f":"practice","id":"sound-changes.05","k":"q","src":"축하 (congratulations) sounds like:","tgt":"축하 (ਵਧਾਈ) ਸੁਣਨ ਨੂੰ ਇੰਝ ਲੱਗਦਾ ਹੈ:"}
 {"f":"practice","id":"sound-changes.05","k":"why","src":"ㄱ + ㅎ → ㅋ.","tgt":"ㄱ + ㅎ → ㅋ.","pre":1}
-{"f":"practice","id":"sound-changes.06","k":"p","src":"Build how 한국어 SOUNDS","tgt":""}
-{"f":"practice","id":"sound-changes.06","k":"why","src":"ㄱ moves to the next block.","tgt":""}
-{"f":"practice","id":"sound-changes.07","k":"p","src":"Build how 음악 SOUNDS","tgt":""}
-{"f":"practice","id":"sound-changes.07","k":"why","src":"ㅁ moves to the next block.","tgt":""}
-{"f":"practice","id":"sound-changes.08","k":"p","src":"Build how 한국말 SOUNDS","tgt":""}
-{"f":"practice","id":"sound-changes.08","k":"why","src":"ㄱ before ㅁ → ㅇ.","tgt":""}
-{"f":"practice","id":"sound-changes.09","k":"p","src":"Thank you — write the block as it SOUNDS","tgt":""}
+{"f":"practice","id":"sound-changes.06","k":"p","src":"Build how 한국어 SOUNDS","tgt":"한국어 ਜਿਵੇਂ ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ, ਉਵੇਂ ਬਣਾਓ"}
+{"f":"practice","id":"sound-changes.06","k":"why","src":"ㄱ moves to the next block.","tgt":"ㄱ ਅਗਲੇ ਬਲਾਕ ਵਿੱਚ ਚਲਾ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.07","k":"p","src":"Build how 음악 SOUNDS","tgt":"음악 ਜਿਵੇਂ ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ, ਉਵੇਂ ਬਣਾਓ"}
+{"f":"practice","id":"sound-changes.07","k":"why","src":"ㅁ moves to the next block.","tgt":"ㅁ ਅਗਲੇ ਬਲਾਕ ਵਿੱਚ ਚਲਾ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.08","k":"p","src":"Build how 한국말 SOUNDS","tgt":"한국말 ਜਿਵੇਂ ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ, ਉਵੇਂ ਬਣਾਓ"}
+{"f":"practice","id":"sound-changes.08","k":"why","src":"ㄱ before ㅁ → ㅇ.","tgt":"ㅁ ਤੋਂ ਪਹਿਲਾਂ ㄱ → ㅇ।"}
+{"f":"practice","id":"sound-changes.09","k":"p","src":"Thank you — write the block as it SOUNDS","tgt":"ਧੰਨਵਾਦ — ਬਲਾਕ ਉਵੇਂ ਲਿਖੋ ਜਿਵੇਂ ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ"}
 {"f":"practice","id":"sound-changes.09","k":"why","src":"ㅂ + ㄴ → ㅁ + ㄴ.","tgt":"ㅂ + ㄴ → ㅁ + ㄴ.","pre":1}
-{"f":"practice","id":"sound-changes.10","k":"p","src":"It's good — how 좋아요 SOUNDS","tgt":""}
-{"f":"practice","id":"sound-changes.10","k":"why","src":"The ㅎ is silent between vowels.","tgt":""}
-{"f":"practice","id":"sound-changes.11","k":"p","src":"Contact — how 연락 SOUNDS","tgt":""}
+{"f":"practice","id":"sound-changes.10","k":"p","src":"It's good — how 좋아요 SOUNDS","tgt":"ਵਧੀਆ ਹੈ — 좋아요 ਜਿਵੇਂ ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ"}
+{"f":"practice","id":"sound-changes.10","k":"why","src":"The ㅎ is silent between vowels.","tgt":"ਸਵਰਾਂ ਦੇ ਵਿਚਕਾਰ ㅎ ਚੁੱਪ ਰਹਿੰਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.11","k":"p","src":"Contact — how 연락 SOUNDS","tgt":"ਸੰਪਰਕ — 연락 ਜਿਵੇਂ ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ"}
 {"f":"practice","id":"sound-changes.11","k":"why","src":"ㄴ + ㄹ → ㄹㄹ.","tgt":"ㄴ + ㄹ → ㄹㄹ.","pre":1}
-{"f":"practice","id":"sound-changes.12","k":"p","src":"Type the real SPELLING of the word that sounds like 한구거 (Korean language)","tgt":""}
-{"f":"practice","id":"sound-changes.12","k":"why","src":"Spelling keeps the ㄱ under 국.","tgt":""}
-{"f":"practice","id":"sound-changes.13","k":"p","src":"Type the real SPELLING of the word that sounds like 조아요 (it's good)","tgt":""}
-{"f":"practice","id":"sound-changes.13","k":"why","src":"The silent ㅎ is still written.","tgt":""}
-{"f":"practice","id":"sound-changes.14","k":"p","src":"Type the real SPELLING of the word that sounds like 이써요 (there is)","tgt":""}
-{"f":"practice","id":"sound-changes.14","k":"why","src":"ㅆ is written under 있.","tgt":""}
-{"f":"lessons","id":"nouns","k":"title","src":"5 · Nouns and 은/는","tgt":""}
-{"f":"lessons","id":"nouns","k":"blurb","src":"Names of things, this/that, 이에요/예요, and the topic marker 은/는.","tgt":""}
-{"f":"sentences","id":"ko.s0030","k":"gloss","src":"a book / the book / books","tgt":""}
-{"f":"sentences","id":"ko.s0031","k":"gloss","src":"friend / friends","tgt":""}
-{"f":"sentences","id":"ko.s0032","k":"gloss","src":"friends (clearly more than one)","tgt":""}
-{"f":"sentences","id":"ko.s0033","k":"gloss","src":"this book","tgt":""}
-{"f":"sentences","id":"ko.s0034","k":"gloss","src":"that person","tgt":""}
-{"f":"sentences","id":"ko.s0035","k":"gloss","src":"that building over there","tgt":""}
-{"f":"sentences","id":"ko.s0036","k":"gloss","src":"(my) friend's house","tgt":""}
-{"f":"sentences","id":"ko.s0037","k":"gloss","src":"my name","tgt":""}
-{"f":"sentences","id":"ko.s0038","k":"gloss","src":"(I) am a student","tgt":""}
-{"f":"sentences","id":"ko.s0039","k":"gloss","src":"(She) is a doctor","tgt":""}
-{"f":"sentences","id":"ko.s0040","k":"gloss","src":"(I'm) not a student","tgt":""}
-{"f":"sentences","id":"ko.s0041","k":"gloss","src":"What is this?","tgt":""}
-{"f":"sentences","id":"ko.s0042","k":"gloss","src":"I'm a student (as for me: student)","tgt":""}
-{"f":"sentences","id":"ko.s0043","k":"gloss","src":"My name is Minsu","tgt":""}
-{"f":"sentences","id":"ko.s0044","k":"gloss","src":"This book is my book","tgt":""}
-{"f":"sentences","id":"ko.s0045","k":"gloss","src":"My friend is a doctor","tgt":""}
-{"f":"checks","id":"nouns.k1","k":"q","src":"'I'm a student' =","tgt":""}
-{"f":"checks","id":"nouns.k1","k":"why","src":"저 ends in a vowel → 는; 학생 ends in a consonant → 이에요.","tgt":""}
-{"f":"checks","id":"nouns.k2","k":"q","src":"'That building over there' =","tgt":""}
-{"f":"checks","id":"nouns.k2","k":"why","src":"이 = this, 그 = that (near you), 저 = over there.","tgt":""}
-{"f":"checks","id":"nouns.k3","k":"q","src":"'My name is Minsu' =","tgt":""}
-{"f":"checks","id":"nouns.k3","k":"why","src":"이름 ends in a consonant → 은; 민수 ends in a vowel → 예요.","tgt":""}
-{"f":"practice","id":"nouns.01","k":"q","src":"'This book' =","tgt":""}
-{"f":"practice","id":"nouns.01","k":"why","src":"이 = this, before the noun.","tgt":""}
-{"f":"practice","id":"nouns.02","k":"q","src":"'I'm a doctor' =","tgt":""}
-{"f":"practice","id":"nouns.02","k":"why","src":"저 + 는 (vowel); 의사 + 예요 (vowel).","tgt":""}
-{"f":"practice","id":"nouns.03","k":"q","src":"'My friend's house' =","tgt":""}
-{"f":"practice","id":"nouns.03","k":"why","src":"Owner first, then the thing.","tgt":""}
-{"f":"practice","id":"nouns.04","k":"q","src":"Which one is correct?","tgt":""}
-{"f":"practice","id":"nouns.04","k":"why","src":"선생님 ends in a consonant → 이에요.","tgt":""}
-{"f":"practice","id":"nouns.05","k":"q","src":"'This book is my book' =","tgt":""}
-{"f":"practice","id":"nouns.05","k":"why","src":"책 ends in a consonant → 은 and 이에요.","tgt":""}
-{"f":"practice","id":"nouns.06","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"nouns.06","k":"why","src":"저 ends in a vowel → 는.","tgt":""}
-{"f":"practice","id":"nouns.07","k":"p","src":"My name is Minsu","tgt":""}
-{"f":"practice","id":"nouns.07","k":"why","src":"이름 ends in a consonant → 은.","tgt":""}
-{"f":"practice","id":"nouns.08","k":"p","src":"That person (near you) is a doctor","tgt":""}
-{"f":"practice","id":"nouns.08","k":"why","src":"그 = that near you; 사람 + 은.","tgt":""}
-{"f":"practice","id":"nouns.09","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"nouns.09","k":"why","src":"Topic 는 after a vowel.","tgt":""}
-{"f":"practice","id":"nouns.10","k":"p","src":"My name is Minsu","tgt":""}
-{"f":"practice","id":"nouns.10","k":"why","src":"이름 ends in a consonant → 은.","tgt":""}
-{"f":"practice","id":"nouns.11","k":"p","src":"(She) is a doctor","tgt":""}
-{"f":"practice","id":"nouns.11","k":"why","src":"의사 ends in a vowel → 예요.","tgt":""}
-{"f":"practice","id":"nouns.12","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"nouns.12","k":"why","src":"Topic 는, then noun + 이에요.","tgt":""}
-{"f":"practice","id":"nouns.13","k":"p","src":"What is this?","tgt":""}
-{"f":"practice","id":"nouns.13","k":"why","src":"뭐 ends in a vowel → 예요.","tgt":""}
-{"f":"practice","id":"nouns.14","k":"p","src":"I'm not a student","tgt":""}
-{"f":"practice","id":"nouns.14","k":"why","src":"'Is not' = 이/가 아니에요.","tgt":""}
-{"f":"lessons","id":"isseoyo","k":"title","src":"6 · 있어요 and 없어요","tgt":""}
-{"f":"lessons","id":"isseoyo","k":"blurb","src":"There is / there isn't, have / don't have, the subject marker 이/가, and where things are with 에.","tgt":""}
-{"f":"sentences","id":"ko.s0046","k":"gloss","src":"Is there a bathroom?","tgt":""}
-{"f":"sentences","id":"ko.s0047","k":"gloss","src":"Yes, there is","tgt":""}
-{"f":"sentences","id":"ko.s0048","k":"gloss","src":"No, there isn't","tgt":""}
-{"f":"sentences","id":"ko.s0049","k":"gloss","src":"There is time / (I) have time","tgt":""}
-{"f":"sentences","id":"ko.s0050","k":"gloss","src":"There is a cat","tgt":""}
-{"f":"sentences","id":"ko.s0051","k":"gloss","src":"There's no money / (I) have no money","tgt":""}
-{"f":"sentences","id":"ko.s0052","k":"gloss","src":"I have a cat","tgt":""}
-{"f":"sentences","id":"ko.s0053","k":"gloss","src":"Do you have a younger sibling?","tgt":""}
-{"f":"sentences","id":"ko.s0054","k":"gloss","src":"I don't have time","tgt":""}
-{"f":"sentences","id":"ko.s0055","k":"gloss","src":"(I'm) at home","tgt":""}
-{"f":"sentences","id":"ko.s0056","k":"gloss","src":"The cat is at home","tgt":""}
-{"f":"sentences","id":"ko.s0057","k":"gloss","src":"Where is the bathroom?","tgt":""}
-{"f":"sentences","id":"ko.s0058","k":"gloss","src":"My friend is at school","tgt":""}
-{"f":"checks","id":"isseoyo.k1","k":"q","src":"'I'm at home' =","tgt":""}
-{"f":"checks","id":"isseoyo.k1","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":""}
-{"f":"checks","id":"isseoyo.k2","k":"q","src":"'I have a cat' =","tgt":""}
-{"f":"checks","id":"isseoyo.k2","k":"why","src":"Having = 'a cat exists': 이/가 + 있어요.","tgt":""}
-{"f":"checks","id":"isseoyo.k3","k":"q","src":"'I don't have time' =","tgt":""}
-{"f":"checks","id":"isseoyo.k3","k":"why","src":"없어요 = there isn't / don't have; 시간 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"isseoyo.01","k":"q","src":"'I'm at school' =","tgt":""}
-{"f":"practice","id":"isseoyo.01","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":""}
-{"f":"practice","id":"isseoyo.02","k":"q","src":"'Is there a bathroom?' =","tgt":""}
-{"f":"practice","id":"isseoyo.02","k":"why","src":"있어요? = is there?","tgt":""}
-{"f":"practice","id":"isseoyo.03","k":"q","src":"Subject marker after 고양이:","tgt":""}
-{"f":"practice","id":"isseoyo.03","k":"why","src":"고양이 ends in a vowel → 가.","tgt":""}
-{"f":"practice","id":"isseoyo.04","k":"q","src":"'I have no money' =","tgt":""}
-{"f":"practice","id":"isseoyo.04","k":"why","src":"없어요 = don't have; 돈 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"isseoyo.05","k":"q","src":"'This is a school' (here = school) =","tgt":""}
-{"f":"practice","id":"isseoyo.05","k":"why","src":"A = B → 이에요/예요. 학교가 있어요 = there is a school.","tgt":""}
-{"f":"practice","id":"isseoyo.06","k":"p","src":"(I'm) at home","tgt":""}
-{"f":"practice","id":"isseoyo.06","k":"why","src":"Place + 에 + 있어요.","tgt":""}
-{"f":"practice","id":"isseoyo.07","k":"p","src":"I have a younger sibling","tgt":""}
-{"f":"practice","id":"isseoyo.07","k":"why","src":"Having = owner 은/는, thing 이/가 + 있어요.","tgt":""}
-{"f":"practice","id":"isseoyo.08","k":"p","src":"Is there a bathroom?","tgt":""}
-{"f":"practice","id":"isseoyo.08","k":"why","src":"Existence → 있어요, not 이에요.","tgt":""}
-{"f":"practice","id":"isseoyo.09","k":"p","src":"I have time","tgt":""}
-{"f":"practice","id":"isseoyo.09","k":"why","src":"시간 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"isseoyo.10","k":"p","src":"The cat is at home","tgt":""}
-{"f":"practice","id":"isseoyo.10","k":"why","src":"Location with 있어요 → 에.","tgt":""}
-{"f":"practice","id":"isseoyo.11","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"isseoyo.11","k":"why","src":"A = B → 이에요, not 있어요.","tgt":""}
-{"f":"practice","id":"isseoyo.12","k":"p","src":"I have a cat","tgt":""}
-{"f":"practice","id":"isseoyo.12","k":"why","src":"Lit. 'a cat exists (for me)'.","tgt":""}
-{"f":"practice","id":"isseoyo.13","k":"p","src":"My friend is at school","tgt":""}
-{"f":"practice","id":"isseoyo.13","k":"why","src":"Location → 에 + 있어요, not 이에요.","tgt":""}
-{"f":"practice","id":"isseoyo.14","k":"p","src":"I don't have time","tgt":""}
-{"f":"practice","id":"isseoyo.14","k":"why","src":"없어요 is the opposite of 있어요.","tgt":""}
-{"f":"lessons","id":"pronouns-questions","k":"title","src":"7 · Pronouns and question words","tgt":""}
-{"f":"lessons","id":"pronouns-questions","k":"blurb","src":"I, we, this, that, here, there, and the seven question words that unlock real conversations.","tgt":""}
-{"f":"sentences","id":"ko.s0059","k":"gloss","src":"I am a student","tgt":""}
-{"f":"sentences","id":"ko.s0060","k":"gloss","src":"my home (our house)","tgt":""}
-{"f":"sentences","id":"ko.s0061","k":"gloss","src":"my mom","tgt":""}
-{"f":"sentences","id":"ko.s0062","k":"gloss","src":"Are you a student, Minsu?","tgt":""}
-{"f":"sentences","id":"ko.s0063","k":"gloss","src":"This (person) is a teacher","tgt":""}
-{"f":"sentences","id":"ko.s0064","k":"gloss","src":"It's over there","tgt":""}
-{"f":"sentences","id":"ko.s0065","k":"gloss","src":"Who is that person?","tgt":""}
-{"f":"sentences","id":"ko.s0066","k":"gloss","src":"When is your birthday?","tgt":""}
-{"f":"sentences","id":"ko.s0067","k":"gloss","src":"How much is this?","tgt":""}
-{"f":"sentences","id":"ko.s0068","k":"gloss","src":"Who is there?","tgt":""}
-{"f":"checks","id":"pronouns-questions.k1","k":"q","src":"'What is this?' =","tgt":""}
-{"f":"checks","id":"pronouns-questions.k1","k":"why","src":"뭐 = what; it sits where the answer goes.","tgt":""}
-{"f":"checks","id":"pronouns-questions.k2","k":"q","src":"'Where is the bathroom?' =","tgt":""}
-{"f":"checks","id":"pronouns-questions.k2","k":"why","src":"어디 = where; 에 있어요 = is at.","tgt":""}
-{"f":"checks","id":"pronouns-questions.k3","k":"q","src":"'Who is there?' =","tgt":""}
+{"f":"practice","id":"sound-changes.12","k":"p","src":"Type the real SPELLING of the word that sounds like 한구거 (Korean language)","tgt":"ਉਸ ਸ਼ਬਦ ਦੀ ਅਸਲ ਸਪੈਲਿੰਗ ਟਾਈਪ ਕਰੋ ਜੋ 한구거 ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ (ਕੋਰੀਆਈ ਭਾਸ਼ਾ)"}
+{"f":"practice","id":"sound-changes.12","k":"why","src":"Spelling keeps the ㄱ under 국.","tgt":"ਸਪੈਲਿੰਗ ਵਿੱਚ 국 ਦੇ ਹੇਠਾਂ ㄱ ਬਣਿਆ ਰਹਿੰਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.13","k":"p","src":"Type the real SPELLING of the word that sounds like 조아요 (it's good)","tgt":"ਉਸ ਸ਼ਬਦ ਦੀ ਅਸਲ ਸਪੈਲਿੰਗ ਟਾਈਪ ਕਰੋ ਜੋ 조아요 ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ (ਵਧੀਆ ਹੈ)"}
+{"f":"practice","id":"sound-changes.13","k":"why","src":"The silent ㅎ is still written.","tgt":"ਚੁੱਪ ㅎ ਫਿਰ ਵੀ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ।"}
+{"f":"practice","id":"sound-changes.14","k":"p","src":"Type the real SPELLING of the word that sounds like 이써요 (there is)","tgt":"ਉਸ ਸ਼ਬਦ ਦੀ ਅਸਲ ਸਪੈਲਿੰਗ ਟਾਈਪ ਕਰੋ ਜੋ 이써요 ਸੁਣਾਈ ਦਿੰਦਾ ਹੈ (ਹੈ)"}
+{"f":"practice","id":"sound-changes.14","k":"why","src":"ㅆ is written under 있.","tgt":"ㅆ 있 ਦੇ ਹੇਠਾਂ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ।"}
+{"f":"lessons","id":"nouns","k":"title","src":"5 · Nouns and 은/는","tgt":"5 · ਨਾਂਵ ਅਤੇ 은/는"}
+{"f":"lessons","id":"nouns","k":"blurb","src":"Names of things, this/that, 이에요/예요, and the topic marker 은/는.","tgt":"ਚੀਜ਼ਾਂ ਦੇ ਨਾਂ, ਇਹ / ਉਹ, 이에요/예요, ਅਤੇ ਵਿਸ਼ਾ ਪਾਰਟੀਕਲ 은/는।"}
+{"f":"sentences","id":"ko.s0030","k":"gloss","src":"a book / the book / books","tgt":"ਕਿਤਾਬ / ਕਿਤਾਬਾਂ"}
+{"f":"sentences","id":"ko.s0031","k":"gloss","src":"friend / friends","tgt":"ਦੋਸਤ (ਇੱਕ ਜਾਂ ਕਈ)"}
+{"f":"sentences","id":"ko.s0032","k":"gloss","src":"friends (clearly more than one)","tgt":"ਦੋਸਤ (ਸਾਫ਼ ਤੌਰ ਉੱਤੇ ਇੱਕ ਤੋਂ ਵੱਧ)"}
+{"f":"sentences","id":"ko.s0033","k":"gloss","src":"this book","tgt":"ਇਹ ਕਿਤਾਬ"}
+{"f":"sentences","id":"ko.s0034","k":"gloss","src":"that person","tgt":"ਉਹ ਇਨਸਾਨ"}
+{"f":"sentences","id":"ko.s0035","k":"gloss","src":"that building over there","tgt":"ਉਹ ਇਮਾਰਤ (ਉੱਥੇ ਦੂਰ)"}
+{"f":"sentences","id":"ko.s0036","k":"gloss","src":"(my) friend's house","tgt":"(ਮੇਰੇ) ਦੋਸਤ ਦਾ ਘਰ"}
+{"f":"sentences","id":"ko.s0037","k":"gloss","src":"my name","tgt":"ਮੇਰਾ ਨਾਂ"}
+{"f":"sentences","id":"ko.s0038","k":"gloss","src":"(I) am a student","tgt":"(ਮੈਂ) ਵਿਦਿਆਰਥੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0039","k":"gloss","src":"(She) is a doctor","tgt":"(ਉਹ) ਡਾਕਟਰ ਹੈ"}
+{"f":"sentences","id":"ko.s0040","k":"gloss","src":"(I'm) not a student","tgt":"(ਮੈਂ) ਵਿਦਿਆਰਥੀ ਨਹੀਂ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0041","k":"gloss","src":"What is this?","tgt":"ਇਹ ਕੀ ਹੈ?"}
+{"f":"sentences","id":"ko.s0042","k":"gloss","src":"I'm a student (as for me: student)","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ (ਜਿੱਥੋਂ ਤੱਕ ਮੇਰੀ ਗੱਲ ਹੈ: ਵਿਦਿਆਰਥੀ)"}
+{"f":"sentences","id":"ko.s0043","k":"gloss","src":"My name is Minsu","tgt":"ਮੇਰਾ ਨਾਂ ਮਿਨਸੂ ਹੈ"}
+{"f":"sentences","id":"ko.s0044","k":"gloss","src":"This book is my book","tgt":"ਇਹ ਕਿਤਾਬ ਮੇਰੀ ਕਿਤਾਬ ਹੈ"}
+{"f":"sentences","id":"ko.s0045","k":"gloss","src":"My friend is a doctor","tgt":"ਮੇਰਾ ਦੋਸਤ ਡਾਕਟਰ ਹੈ"}
+{"f":"checks","id":"nouns.k1","k":"q","src":"'I'm a student' =","tgt":"\"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ\" ="}
+{"f":"checks","id":"nouns.k1","k":"why","src":"저 ends in a vowel → 는; 학생 ends in a consonant → 이에요.","tgt":"저 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 는; 학생 ਵਿਅੰਜਨ ਉੱਤੇ → 이에요।"}
+{"f":"checks","id":"nouns.k2","k":"q","src":"'That building over there' =","tgt":"\"ਉਹ ਇਮਾਰਤ (ਉੱਥੇ ਦੂਰ)\" ="}
+{"f":"checks","id":"nouns.k2","k":"why","src":"이 = this, 그 = that (near you), 저 = over there.","tgt":"이 = ਇਹ, 그 = ਉਹ (ਤੁਹਾਡੇ ਕੋਲ), 저 = ਉਹ (ਸਾਡੇ ਦੋਵਾਂ ਤੋਂ ਦੂਰ)।"}
+{"f":"checks","id":"nouns.k3","k":"q","src":"'My name is Minsu' =","tgt":"\"ਮੇਰਾ ਨਾਂ ਮਿਨਸੂ ਹੈ\" ="}
+{"f":"checks","id":"nouns.k3","k":"why","src":"이름 ends in a consonant → 은; 민수 ends in a vowel → 예요.","tgt":"이름 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 은; 민수 ਸਵਰ ਉੱਤੇ → 예요।"}
+{"f":"practice","id":"nouns.01","k":"q","src":"'This book' =","tgt":"\"ਇਹ ਕਿਤਾਬ\" ="}
+{"f":"practice","id":"nouns.01","k":"why","src":"이 = this, before the noun.","tgt":"이 = ਇਹ, ਨਾਂਵ ਤੋਂ ਪਹਿਲਾਂ — ਪੰਜਾਬੀ ਵਾਂਗ।"}
+{"f":"practice","id":"nouns.02","k":"q","src":"'I'm a doctor' =","tgt":"\"ਮੈਂ ਡਾਕਟਰ ਹਾਂ\" ="}
+{"f":"practice","id":"nouns.02","k":"why","src":"저 + 는 (vowel); 의사 + 예요 (vowel).","tgt":"저 + 는 (ਸਵਰ); 의사 + 예요 (ਸਵਰ)।"}
+{"f":"practice","id":"nouns.03","k":"q","src":"'My friend's house' =","tgt":"\"ਮੇਰੇ ਦੋਸਤ ਦਾ ਘਰ\" ="}
+{"f":"practice","id":"nouns.03","k":"why","src":"Owner first, then the thing.","tgt":"ਪਹਿਲਾਂ ਮਾਲਕ, ਫਿਰ ਚੀਜ਼ — ਪੰਜਾਬੀ \"ਦੋਸਤ ਦਾ ਘਰ\" ਵਾਂਗ, ਬੱਸ \"ਦਾ\" ਤੋਂ ਬਿਨਾਂ।"}
+{"f":"practice","id":"nouns.04","k":"q","src":"Which one is correct?","tgt":"ਕਿਹੜਾ ਸਹੀ ਹੈ?"}
+{"f":"practice","id":"nouns.04","k":"why","src":"선생님 ends in a consonant → 이에요.","tgt":"선생님 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 이에요।"}
+{"f":"practice","id":"nouns.05","k":"q","src":"'This book is my book' =","tgt":"\"ਇਹ ਕਿਤਾਬ ਮੇਰੀ ਕਿਤਾਬ ਹੈ\" ="}
+{"f":"practice","id":"nouns.05","k":"why","src":"책 ends in a consonant → 은 and 이에요.","tgt":"책 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 은 ਅਤੇ 이에요।"}
+{"f":"practice","id":"nouns.06","k":"p","src":"I'm a student","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ"}
+{"f":"practice","id":"nouns.06","k":"why","src":"저 ends in a vowel → 는.","tgt":"저 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 는।"}
+{"f":"practice","id":"nouns.07","k":"p","src":"My name is Minsu","tgt":"ਮੇਰਾ ਨਾਂ ਮਿਨਸੂ ਹੈ"}
+{"f":"practice","id":"nouns.07","k":"why","src":"이름 ends in a consonant → 은.","tgt":"이름 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 은।"}
+{"f":"practice","id":"nouns.08","k":"p","src":"That person (near you) is a doctor","tgt":"ਉਹ ਇਨਸਾਨ (ਤੁਹਾਡੇ ਕੋਲ ਵਾਲਾ) ਡਾਕਟਰ ਹੈ"}
+{"f":"practice","id":"nouns.08","k":"why","src":"그 = that near you; 사람 + 은.","tgt":"그 = ਤੁਹਾਡੇ ਕੋਲ ਵਾਲਾ \"ਉਹ\"; 사람 + 은।"}
+{"f":"practice","id":"nouns.09","k":"p","src":"I'm a student","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ"}
+{"f":"practice","id":"nouns.09","k":"why","src":"Topic 는 after a vowel.","tgt":"ਵਿਸ਼ਾ ਪਾਰਟੀਕਲ: ਸਵਰ ਤੋਂ ਬਾਅਦ 는।"}
+{"f":"practice","id":"nouns.10","k":"p","src":"My name is Minsu","tgt":"ਮੇਰਾ ਨਾਂ ਮਿਨਸੂ ਹੈ"}
+{"f":"practice","id":"nouns.10","k":"why","src":"이름 ends in a consonant → 은.","tgt":"이름 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 은।"}
+{"f":"practice","id":"nouns.11","k":"p","src":"(She) is a doctor","tgt":"(ਉਹ) ਡਾਕਟਰ ਹੈ"}
+{"f":"practice","id":"nouns.11","k":"why","src":"의사 ends in a vowel → 예요.","tgt":"의사 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 예요।"}
+{"f":"practice","id":"nouns.12","k":"p","src":"I'm a student","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ"}
+{"f":"practice","id":"nouns.12","k":"why","src":"Topic 는, then noun + 이에요.","tgt":"ਵਿਸ਼ੇ ਲਈ 는, ਫਿਰ ਨਾਂਵ + 이에요।"}
+{"f":"practice","id":"nouns.13","k":"p","src":"What is this?","tgt":"ਇਹ ਕੀ ਹੈ?"}
+{"f":"practice","id":"nouns.13","k":"why","src":"뭐 ends in a vowel → 예요.","tgt":"뭐 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 예요।"}
+{"f":"practice","id":"nouns.14","k":"p","src":"I'm not a student","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਨਹੀਂ ਹਾਂ"}
+{"f":"practice","id":"nouns.14","k":"why","src":"'Is not' = 이/가 아니에요.","tgt":"ਨਾਂਵ ਲਈ \"ਨਹੀਂ ਹੈ\" = 이/가 아니에요।"}
+{"f":"lessons","id":"isseoyo","k":"title","src":"6 · 있어요 and 없어요","tgt":"6 · 있어요 ਅਤੇ 없어요"}
+{"f":"lessons","id":"isseoyo","k":"blurb","src":"There is / there isn't, have / don't have, the subject marker 이/가, and where things are with 에.","tgt":"ਹੈ / ਨਹੀਂ ਹੈ, ਕੋਲ ਹੋਣਾ / ਨਾ ਹੋਣਾ, ਕਰਤਾ ਪਾਰਟੀਕਲ 이/가, ਅਤੇ 에 ਨਾਲ ਇਹ ਦੱਸਣਾ ਕਿ ਚੀਜ਼ ਕਿੱਥੇ ਹੈ।"}
+{"f":"sentences","id":"ko.s0046","k":"gloss","src":"Is there a bathroom?","tgt":"ਬਾਥਰੂਮ ਹੈ?"}
+{"f":"sentences","id":"ko.s0047","k":"gloss","src":"Yes, there is","tgt":"ਹਾਂ ਜੀ, ਹੈ"}
+{"f":"sentences","id":"ko.s0048","k":"gloss","src":"No, there isn't","tgt":"ਨਹੀਂ ਜੀ, ਨਹੀਂ ਹੈ"}
+{"f":"sentences","id":"ko.s0049","k":"gloss","src":"There is time / (I) have time","tgt":"ਸਮਾਂ ਹੈ / (ਮੇਰੇ ਕੋਲ) ਸਮਾਂ ਹੈ"}
+{"f":"sentences","id":"ko.s0050","k":"gloss","src":"There is a cat","tgt":"ਇੱਕ ਬਿੱਲੀ ਹੈ"}
+{"f":"sentences","id":"ko.s0051","k":"gloss","src":"There's no money / (I) have no money","tgt":"ਪੈਸੇ ਨਹੀਂ ਹਨ / (ਮੇਰੇ ਕੋਲ) ਪੈਸੇ ਨਹੀਂ ਹਨ"}
+{"f":"sentences","id":"ko.s0052","k":"gloss","src":"I have a cat","tgt":"ਮੇਰੇ ਕੋਲ ਇੱਕ ਬਿੱਲੀ ਹੈ"}
+{"f":"sentences","id":"ko.s0053","k":"gloss","src":"Do you have a younger sibling?","tgt":"ਕੀ ਤੁਹਾਡੇ ਛੋਟੇ ਭੈਣ-ਭਰਾ ਹਨ?"}
+{"f":"sentences","id":"ko.s0054","k":"gloss","src":"I don't have time","tgt":"ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਨਹੀਂ ਹੈ"}
+{"f":"sentences","id":"ko.s0055","k":"gloss","src":"(I'm) at home","tgt":"(ਮੈਂ) ਘਰ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0056","k":"gloss","src":"The cat is at home","tgt":"ਬਿੱਲੀ ਘਰ ਵਿੱਚ ਹੈ"}
+{"f":"sentences","id":"ko.s0057","k":"gloss","src":"Where is the bathroom?","tgt":"ਬਾਥਰੂਮ ਕਿੱਥੇ ਹੈ?"}
+{"f":"sentences","id":"ko.s0058","k":"gloss","src":"My friend is at school","tgt":"ਮੇਰਾ ਦੋਸਤ ਸਕੂਲ ਵਿੱਚ ਹੈ"}
+{"f":"checks","id":"isseoyo.k1","k":"q","src":"'I'm at home' =","tgt":"\"ਮੈਂ ਘਰ ਹਾਂ\" ="}
+{"f":"checks","id":"isseoyo.k1","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":"ਕਿਤੇ ਹੋਣਾ → ਥਾਂ + 에 + 있어요।"}
+{"f":"checks","id":"isseoyo.k2","k":"q","src":"'I have a cat' =","tgt":"\"ਮੇਰੇ ਕੋਲ ਇੱਕ ਬਿੱਲੀ ਹੈ\" ="}
+{"f":"checks","id":"isseoyo.k2","k":"why","src":"Having = 'a cat exists': 이/가 + 있어요.","tgt":"ਕੋਲ ਹੋਣਾ = \"ਬਿੱਲੀ ਹੈ\": 이/가 + 있어요। ਪੰਜਾਬੀ ਵਿੱਚ ਵੀ ਇੱਥੇ ਬਿੱਲੀ ਹੀ ਕਰਤਾ ਹੈ।"}
+{"f":"checks","id":"isseoyo.k3","k":"q","src":"'I don't have time' =","tgt":"\"ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਨਹੀਂ ਹੈ\" ="}
+{"f":"checks","id":"isseoyo.k3","k":"why","src":"없어요 = there isn't / don't have; 시간 ends in a consonant → 이.","tgt":"없어요 = ਨਹੀਂ ਹੈ / ਕੋਲ ਨਹੀਂ ਹੈ; 시간 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 이।"}
+{"f":"practice","id":"isseoyo.01","k":"q","src":"'I'm at school' =","tgt":"\"ਮੈਂ ਸਕੂਲ ਵਿੱਚ ਹਾਂ\" ="}
+{"f":"practice","id":"isseoyo.01","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":"ਕਿਤੇ ਹੋਣਾ → ਥਾਂ + 에 + 있어요।"}
+{"f":"practice","id":"isseoyo.02","k":"q","src":"'Is there a bathroom?' =","tgt":"\"ਬਾਥਰੂਮ ਹੈ?\" ="}
+{"f":"practice","id":"isseoyo.02","k":"why","src":"있어요? = is there?","tgt":"있어요? = (ਕੋਈ ਚੀਜ਼) ਹੈ?"}
+{"f":"practice","id":"isseoyo.03","k":"q","src":"Subject marker after 고양이:","tgt":"고양이 ਤੋਂ ਬਾਅਦ ਕਰਤਾ ਪਾਰਟੀਕਲ:"}
+{"f":"practice","id":"isseoyo.03","k":"why","src":"고양이 ends in a vowel → 가.","tgt":"고양이 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 가।"}
+{"f":"practice","id":"isseoyo.04","k":"q","src":"'I have no money' =","tgt":"\"ਮੇਰੇ ਕੋਲ ਪੈਸੇ ਨਹੀਂ ਹਨ\" ="}
+{"f":"practice","id":"isseoyo.04","k":"why","src":"없어요 = don't have; 돈 ends in a consonant → 이.","tgt":"없어요 = ਕੋਲ ਨਹੀਂ ਹੈ; 돈 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 이।"}
+{"f":"practice","id":"isseoyo.05","k":"q","src":"'This is a school' (here = school) =","tgt":"\"ਇਹ ਸਕੂਲ ਹੈ\" (ਇੱਥੇ = ਸਕੂਲ) ="}
+{"f":"practice","id":"isseoyo.05","k":"why","src":"A = B → 이에요/예요. 학교가 있어요 = there is a school.","tgt":"A = B → 이에요/예요। 학교가 있어요 = (ਇੱਥੇ) ਇੱਕ ਸਕੂਲ ਹੈ, ਯਾਨੀ ਮੌਜੂਦ ਹੈ। ਪੰਜਾਬੀ ਵਿੱਚ ਦੋਵਾਂ ਵਿੱਚ \"ਹੈ\", ਕੋਰੀਆਈ ਵਿੱਚ ਨਹੀਂ।"}
+{"f":"practice","id":"isseoyo.06","k":"p","src":"(I'm) at home","tgt":"(ਮੈਂ) ਘਰ ਹਾਂ"}
+{"f":"practice","id":"isseoyo.06","k":"why","src":"Place + 에 + 있어요.","tgt":"ਥਾਂ + 에 + 있어요।"}
+{"f":"practice","id":"isseoyo.07","k":"p","src":"I have a younger sibling","tgt":"ਮੇਰਾ ਇੱਕ ਛੋਟਾ ਭਰਾ ਜਾਂ ਇੱਕ ਛੋਟੀ ਭੈਣ ਹੈ"}
+{"f":"practice","id":"isseoyo.07","k":"why","src":"Having = owner 은/는, thing 이/가 + 있어요.","tgt":"ਕੋਲ ਹੋਣਾ = ਮਾਲਕ ਨਾਲ 은/는, ਚੀਜ਼ ਨਾਲ 이/가 + 있어요।"}
+{"f":"practice","id":"isseoyo.08","k":"p","src":"Is there a bathroom?","tgt":"ਬਾਥਰੂਮ ਹੈ?"}
+{"f":"practice","id":"isseoyo.08","k":"why","src":"Existence → 있어요, not 이에요.","tgt":"ਮੌਜੂਦ ਹੋਣਾ → 있어요, 이에요 ਨਹੀਂ।"}
+{"f":"practice","id":"isseoyo.09","k":"p","src":"I have time","tgt":"ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਹੈ"}
+{"f":"practice","id":"isseoyo.09","k":"why","src":"시간 ends in a consonant → 이.","tgt":"시간 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 이।"}
+{"f":"practice","id":"isseoyo.10","k":"p","src":"The cat is at home","tgt":"ਬਿੱਲੀ ਘਰ ਵਿੱਚ ਹੈ"}
+{"f":"practice","id":"isseoyo.10","k":"why","src":"Location with 있어요 → 에.","tgt":"있어요 ਨਾਲ ਥਾਂ → 에।"}
+{"f":"practice","id":"isseoyo.11","k":"p","src":"I'm a student","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ"}
+{"f":"practice","id":"isseoyo.11","k":"why","src":"A = B → 이에요, not 있어요.","tgt":"A = B → 이에요, 있어요 ਨਹੀਂ।"}
+{"f":"practice","id":"isseoyo.12","k":"p","src":"I have a cat","tgt":"ਮੇਰੇ ਕੋਲ ਇੱਕ ਬਿੱਲੀ ਹੈ"}
+{"f":"practice","id":"isseoyo.12","k":"why","src":"Lit. 'a cat exists (for me)'.","tgt":"ਸ਼ਬਦੀ ਅਰਥ: \"(ਮੇਰੇ ਲਈ) ਬਿੱਲੀ ਹੈ\" — ਪੰਜਾਬੀ ਦੇ \"ਮੇਰੇ ਕੋਲ ਬਿੱਲੀ ਹੈ\" ਵਰਗਾ।"}
+{"f":"practice","id":"isseoyo.13","k":"p","src":"My friend is at school","tgt":"ਮੇਰਾ ਦੋਸਤ ਸਕੂਲ ਵਿੱਚ ਹੈ"}
+{"f":"practice","id":"isseoyo.13","k":"why","src":"Location → 에 + 있어요, not 이에요.","tgt":"ਥਾਂ → 에 + 있어요, 이에요 ਨਹੀਂ।"}
+{"f":"practice","id":"isseoyo.14","k":"p","src":"I don't have time","tgt":"ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਨਹੀਂ ਹੈ"}
+{"f":"practice","id":"isseoyo.14","k":"why","src":"없어요 is the opposite of 있어요.","tgt":"없어요, 있어요 ਦਾ ਉਲਟ ਹੈ।"}
+{"f":"lessons","id":"pronouns-questions","k":"title","src":"7 · Pronouns and question words","tgt":"7 · ਪੜਨਾਂਵ ਅਤੇ ਸਵਾਲੀਆ ਸ਼ਬਦ"}
+{"f":"lessons","id":"pronouns-questions","k":"blurb","src":"I, we, this, that, here, there, and the seven question words that unlock real conversations.","tgt":"ਮੈਂ, ਅਸੀਂ, ਇਹ, ਉਹ, ਇੱਥੇ, ਉੱਥੇ, ਅਤੇ ਉਹ ਸੱਤ ਸਵਾਲੀਆ ਸ਼ਬਦ ਜਿਨ੍ਹਾਂ ਨਾਲ ਅਸਲ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ।"}
+{"f":"sentences","id":"ko.s0059","k":"gloss","src":"I am a student","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0060","k":"gloss","src":"my home (our house)","tgt":"ਮੇਰਾ ਘਰ (ਸਾਡਾ ਘਰ)"}
+{"f":"sentences","id":"ko.s0061","k":"gloss","src":"my mom","tgt":"ਮੇਰੇ ਮੰਮੀ"}
+{"f":"sentences","id":"ko.s0062","k":"gloss","src":"Are you a student, Minsu?","tgt":"ਮਿਨਸੂ ਜੀ, ਕੀ ਤੁਸੀਂ ਵਿਦਿਆਰਥੀ ਹੋ?"}
+{"f":"sentences","id":"ko.s0063","k":"gloss","src":"This (person) is a teacher","tgt":"ਇਹ ਟੀਚਰ ਹਨ"}
+{"f":"sentences","id":"ko.s0064","k":"gloss","src":"It's over there","tgt":"ਉੱਥੇ ਹੈ"}
+{"f":"sentences","id":"ko.s0065","k":"gloss","src":"Who is that person?","tgt":"ਉਹ ਬੰਦਾ ਕੌਣ ਹੈ?"}
+{"f":"sentences","id":"ko.s0066","k":"gloss","src":"When is your birthday?","tgt":"ਤੁਹਾਡਾ ਜਨਮਦਿਨ ਕਦੋਂ ਹੈ?"}
+{"f":"sentences","id":"ko.s0067","k":"gloss","src":"How much is this?","tgt":"ਇਹ ਕਿੰਨੇ ਦਾ ਹੈ?"}
+{"f":"sentences","id":"ko.s0068","k":"gloss","src":"Who is there?","tgt":"ਉੱਥੇ ਕੌਣ ਹੈ?"}
+{"f":"checks","id":"pronouns-questions.k1","k":"q","src":"'What is this?' =","tgt":"\"ਇਹ ਕੀ ਹੈ?\" ="}
+{"f":"checks","id":"pronouns-questions.k1","k":"why","src":"뭐 = what; it sits where the answer goes.","tgt":"뭐 = ਕੀ; ਇਹ ਉੱਥੇ ਹੀ ਰਹਿੰਦਾ ਹੈ ਜਿੱਥੇ ਜਵਾਬ ਆਵੇਗਾ।"}
+{"f":"checks","id":"pronouns-questions.k2","k":"q","src":"'Where is the bathroom?' =","tgt":"\"ਬਾਥਰੂਮ ਕਿੱਥੇ ਹੈ?\" ="}
+{"f":"checks","id":"pronouns-questions.k2","k":"why","src":"어디 = where; 에 있어요 = is at.","tgt":"어디 = ਕਿੱਥੇ; 에 있어요 = … ਵਿੱਚ / ਉੱਤੇ ਹੈ।"}
+{"f":"checks","id":"pronouns-questions.k3","k":"q","src":"'Who is there?' =","tgt":"\"ਉੱਥੇ ਕੌਣ ਹੈ?\" ="}
 {"f":"checks","id":"pronouns-questions.k3","k":"why","src":"누구 + 가 → 누가.","tgt":"누구 + 가 → 누가.","pre":1}
-{"f":"practice","id":"pronouns-questions.01","k":"q","src":"Which word means 'who'?","tgt":""}
-{"f":"practice","id":"pronouns-questions.01","k":"why","src":"누구 = who.","tgt":""}
-{"f":"practice","id":"pronouns-questions.02","k":"q","src":"'How much is this?' =","tgt":""}
-{"f":"practice","id":"pronouns-questions.02","k":"why","src":"얼마 = how much (price).","tgt":""}
-{"f":"practice","id":"pronouns-questions.03","k":"q","src":"'Over there' (far from both of us) =","tgt":""}
-{"f":"practice","id":"pronouns-questions.03","k":"why","src":"저 = far; 저기 = that place over there.","tgt":""}
-{"f":"practice","id":"pronouns-questions.04","k":"q","src":"The polite word for 'I' =","tgt":""}
-{"f":"practice","id":"pronouns-questions.04","k":"why","src":"저 is polite; 나 is for close friends.","tgt":""}
-{"f":"practice","id":"pronouns-questions.05","k":"q","src":"'My home' the natural way =","tgt":""}
-{"f":"practice","id":"pronouns-questions.05","k":"why","src":"Home and family take 우리.","tgt":""}
-{"f":"practice","id":"pronouns-questions.06","k":"p","src":"Where is the bathroom?","tgt":""}
-{"f":"practice","id":"pronouns-questions.06","k":"why","src":"어디에 있어요 = where is it.","tgt":""}
-{"f":"practice","id":"pronouns-questions.07","k":"p","src":"Who is that person (over there)?","tgt":""}
-{"f":"practice","id":"pronouns-questions.07","k":"why","src":"누구 = who.","tgt":""}
-{"f":"practice","id":"pronouns-questions.08","k":"p","src":"When is your birthday?","tgt":""}
-{"f":"practice","id":"pronouns-questions.08","k":"why","src":"언제 = when.","tgt":""}
-{"f":"practice","id":"pronouns-questions.09","k":"p","src":"What is this?","tgt":""}
-{"f":"practice","id":"pronouns-questions.09","k":"why","src":"뭐 = what.","tgt":""}
-{"f":"practice","id":"pronouns-questions.10","k":"p","src":"Who is there?","tgt":""}
+{"f":"practice","id":"pronouns-questions.01","k":"q","src":"Which word means 'who'?","tgt":"ਕਿਸ ਸ਼ਬਦ ਦਾ ਅਰਥ \"ਕੌਣ\" ਹੈ?"}
+{"f":"practice","id":"pronouns-questions.01","k":"why","src":"누구 = who.","tgt":"누구 = ਕੌਣ।"}
+{"f":"practice","id":"pronouns-questions.02","k":"q","src":"'How much is this?' =","tgt":"\"ਇਹ ਕਿੰਨੇ ਦਾ ਹੈ?\" ="}
+{"f":"practice","id":"pronouns-questions.02","k":"why","src":"얼마 = how much (price).","tgt":"얼마 = ਕਿੰਨਾ (ਮੁੱਲ)।"}
+{"f":"practice","id":"pronouns-questions.03","k":"q","src":"'Over there' (far from both of us) =","tgt":"\"ਉੱਥੇ\" (ਸਾਡੇ ਦੋਵਾਂ ਤੋਂ ਦੂਰ) ="}
+{"f":"practice","id":"pronouns-questions.03","k":"why","src":"저 = far; 저기 = that place over there.","tgt":"저 = ਦੂਰ; 저기 = ਉੱਥੇ, ਉਹ ਦੂਰ ਵਾਲੀ ਥਾਂ।"}
+{"f":"practice","id":"pronouns-questions.04","k":"q","src":"The polite word for 'I' =","tgt":"\"ਮੈਂ\" ਲਈ ਨਿਮਰ ਸ਼ਬਦ ="}
+{"f":"practice","id":"pronouns-questions.04","k":"why","src":"저 is polite; 나 is for close friends.","tgt":"저 ਨਿਮਰ ਹੈ; 나 ਪੱਕੇ ਦੋਸਤਾਂ ਲਈ ਹੈ।"}
+{"f":"practice","id":"pronouns-questions.05","k":"q","src":"'My home' the natural way =","tgt":"\"ਮੇਰਾ ਘਰ\", ਕੁਦਰਤੀ ਢੰਗ ਨਾਲ ="}
+{"f":"practice","id":"pronouns-questions.05","k":"why","src":"Home and family take 우리.","tgt":"ਘਰ ਅਤੇ ਪਰਿਵਾਰ ਲਈ 우리 (\"ਸਾਡਾ\"), ਜਿਵੇਂ ਪੰਜਾਬੀ ਵਿੱਚ \"ਸਾਡੇ ਮੰਮੀ\"।"}
+{"f":"practice","id":"pronouns-questions.06","k":"p","src":"Where is the bathroom?","tgt":"ਬਾਥਰੂਮ ਕਿੱਥੇ ਹੈ?"}
+{"f":"practice","id":"pronouns-questions.06","k":"why","src":"어디에 있어요 = where is it.","tgt":"어디에 있어요 = ਕਿੱਥੇ ਹੈ।"}
+{"f":"practice","id":"pronouns-questions.07","k":"p","src":"Who is that person (over there)?","tgt":"ਉਹ ਬੰਦਾ (ਉੱਥੇ ਦੂਰ ਵਾਲਾ) ਕੌਣ ਹੈ?"}
+{"f":"practice","id":"pronouns-questions.07","k":"why","src":"누구 = who.","tgt":"누구 = ਕੌਣ।"}
+{"f":"practice","id":"pronouns-questions.08","k":"p","src":"When is your birthday?","tgt":"ਤੁਹਾਡਾ ਜਨਮਦਿਨ ਕਦੋਂ ਹੈ?"}
+{"f":"practice","id":"pronouns-questions.08","k":"why","src":"언제 = when.","tgt":"언제 = ਕਦੋਂ।"}
+{"f":"practice","id":"pronouns-questions.09","k":"p","src":"What is this?","tgt":"ਇਹ ਕੀ ਹੈ?"}
+{"f":"practice","id":"pronouns-questions.09","k":"why","src":"뭐 = what.","tgt":"뭐 = ਕੀ।"}
+{"f":"practice","id":"pronouns-questions.10","k":"p","src":"Who is there?","tgt":"ਉੱਥੇ ਕੌਣ ਹੈ?"}
 {"f":"practice","id":"pronouns-questions.10","k":"why","src":"누구 + 가 → 누가.","tgt":"누구 + 가 → 누가.","pre":1}
-{"f":"practice","id":"pronouns-questions.11","k":"p","src":"Where is the bathroom?","tgt":""}
-{"f":"practice","id":"pronouns-questions.11","k":"why","src":"어디 = where.","tgt":""}
-{"f":"practice","id":"pronouns-questions.12","k":"p","src":"What is this?","tgt":""}
-{"f":"practice","id":"pronouns-questions.12","k":"why","src":"The question word sits where the answer goes.","tgt":""}
-{"f":"practice","id":"pronouns-questions.13","k":"p","src":"Where is it?","tgt":""}
+{"f":"practice","id":"pronouns-questions.11","k":"p","src":"Where is the bathroom?","tgt":"ਬਾਥਰੂਮ ਕਿੱਥੇ ਹੈ?"}
+{"f":"practice","id":"pronouns-questions.11","k":"why","src":"어디 = where.","tgt":"어디 = ਕਿੱਥੇ।"}
+{"f":"practice","id":"pronouns-questions.12","k":"p","src":"What is this?","tgt":"ਇਹ ਕੀ ਹੈ?"}
+{"f":"practice","id":"pronouns-questions.12","k":"why","src":"The question word sits where the answer goes.","tgt":"ਸਵਾਲੀਆ ਸ਼ਬਦ ਉੱਥੇ ਹੀ ਰਹਿੰਦਾ ਹੈ ਜਿੱਥੇ ਜਵਾਬ ਆਵੇਗਾ — ਪੰਜਾਬੀ ਵਾਂਗ।"}
+{"f":"practice","id":"pronouns-questions.13","k":"p","src":"Where is it?","tgt":"ਉਹ ਕਿੱਥੇ ਹੈ?"}
 {"f":"practice","id":"pronouns-questions.13","k":"why","src":"어디에 있어요.","tgt":"어디에 있어요.","pre":1}
-{"f":"practice","id":"pronouns-questions.14","k":"p","src":"Who is that person?","tgt":""}
-{"f":"practice","id":"pronouns-questions.14","k":"why","src":"누구예요 = who is (it).","tgt":""}
-{"f":"lessons","id":"verbbasics","k":"title","src":"8 · Verbs","tgt":""}
-{"f":"lessons","id":"verbbasics","k":"blurb","src":"Every verb ends in 다, never changes for I/you/she, and adjectives are verbs too.","tgt":""}
-{"f":"sentences","id":"ko.s0069","k":"gloss","src":"I go / you go / she goes / we go","tgt":""}
-{"f":"sentences","id":"ko.s0070","k":"gloss","src":"eat","tgt":""}
-{"f":"sentences","id":"ko.s0071","k":"gloss","src":"drink","tgt":""}
-{"f":"sentences","id":"ko.s0072","k":"gloss","src":"The weather is good","tgt":""}
-{"f":"sentences","id":"ko.s0073","k":"gloss","src":"The bag is big","tgt":""}
-{"f":"sentences","id":"ko.s0074","k":"gloss","src":"study (noun) → (I) study","tgt":""}
-{"f":"sentences","id":"ko.s0075","k":"gloss","src":"(I) exercise","tgt":""}
-{"f":"sentences","id":"ko.s0076","k":"gloss","src":"(I) have time","tgt":""}
-{"f":"sentences","id":"ko.s0077","k":"gloss","src":"(I) have no money","tgt":""}
-{"f":"checks","id":"verbbasics.k1","k":"q","src":"Stem of 먹다 =","tgt":""}
-{"f":"checks","id":"verbbasics.k1","k":"why","src":"Drop 다 to get the stem.","tgt":""}
-{"f":"checks","id":"verbbasics.k2","k":"q","src":"'The weather is good' =","tgt":""}
-{"f":"checks","id":"verbbasics.k2","k":"why","src":"좋아요 already includes 'is'.","tgt":""}
-{"f":"checks","id":"verbbasics.k3","k":"q","src":"'I have time' =","tgt":""}
-{"f":"checks","id":"verbbasics.k3","k":"why","src":"있어요 = exist / have.","tgt":""}
-{"f":"practice","id":"verbbasics.01","k":"q","src":"Stem of 가다 =","tgt":""}
-{"f":"practice","id":"verbbasics.01","k":"why","src":"Drop 다 to get the stem.","tgt":""}
-{"f":"practice","id":"verbbasics.02","k":"q","src":"'The bag is big' =","tgt":""}
-{"f":"practice","id":"verbbasics.02","k":"why","src":"커요 already means 'is big'.","tgt":""}
-{"f":"practice","id":"verbbasics.03","k":"q","src":"Polite form of 하다 =","tgt":""}
-{"f":"practice","id":"verbbasics.03","k":"why","src":"하다 is special: 해요.","tgt":""}
-{"f":"practice","id":"verbbasics.04","k":"q","src":"'I exercise' =","tgt":""}
-{"f":"practice","id":"verbbasics.04","k":"why","src":"Noun + 하다 makes a verb: 운동해요.","tgt":""}
-{"f":"practice","id":"verbbasics.05","k":"q","src":"'The weather is good' =","tgt":""}
-{"f":"practice","id":"verbbasics.05","k":"why","src":"Describing verbs need no separate 'is'.","tgt":""}
-{"f":"practice","id":"verbbasics.06","k":"p","src":"The weather is good","tgt":""}
-{"f":"practice","id":"verbbasics.06","k":"why","src":"좋다요 is not a form: the polite form is 좋아요.","tgt":""}
-{"f":"practice","id":"verbbasics.07","k":"p","src":"I have time","tgt":""}
-{"f":"practice","id":"verbbasics.07","k":"why","src":"있어요 = have.","tgt":""}
-{"f":"practice","id":"verbbasics.08","k":"p","src":"The bag is big","tgt":""}
-{"f":"practice","id":"verbbasics.08","k":"why","src":"커요 = is big.","tgt":""}
-{"f":"practice","id":"verbbasics.09","k":"p","src":"(I) eat","tgt":""}
-{"f":"practice","id":"verbbasics.09","k":"why","src":"Spoken form is 먹어요; 먹다 is for dictionaries.","tgt":""}
-{"f":"practice","id":"verbbasics.10","k":"p","src":"(I) study","tgt":""}
+{"f":"practice","id":"pronouns-questions.14","k":"p","src":"Who is that person?","tgt":"ਉਹ ਬੰਦਾ ਕੌਣ ਹੈ?"}
+{"f":"practice","id":"pronouns-questions.14","k":"why","src":"누구예요 = who is (it).","tgt":"누구예요 = ਕੌਣ ਹੈ।"}
+{"f":"lessons","id":"verbbasics","k":"title","src":"8 · Verbs","tgt":"8 · ਕਿਰਿਆਵਾਂ"}
+{"f":"lessons","id":"verbbasics","k":"blurb","src":"Every verb ends in 다, never changes for I/you/she, and adjectives are verbs too.","tgt":"ਹਰ ਕਿਰਿਆ 다 ਉੱਤੇ ਮੁੱਕਦੀ ਹੈ, ਮੈਂ / ਤੁਸੀਂ / ਉਹ ਲਈ ਕਦੇ ਨਹੀਂ ਬਦਲਦੀ, ਅਤੇ ਵਿਸ਼ੇਸ਼ਣ ਵੀ ਕਿਰਿਆਵਾਂ ਹਨ।"}
+{"f":"sentences","id":"ko.s0069","k":"gloss","src":"I go / you go / she goes / we go","tgt":"ਮੈਂ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ / ਤੁਸੀਂ ਜਾਂਦੇ ਹੋ / ਉਹ ਜਾਂਦੀ ਹੈ / ਅਸੀਂ ਜਾਂਦੇ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0070","k":"gloss","src":"eat","tgt":"ਖਾਣਾ (ਕਿਰਿਆ)"}
+{"f":"sentences","id":"ko.s0071","k":"gloss","src":"drink","tgt":"ਪੀਣਾ"}
+{"f":"sentences","id":"ko.s0072","k":"gloss","src":"The weather is good","tgt":"ਮੌਸਮ ਵਧੀਆ ਹੈ"}
+{"f":"sentences","id":"ko.s0073","k":"gloss","src":"The bag is big","tgt":"ਬੈਗ ਵੱਡਾ ਹੈ"}
+{"f":"sentences","id":"ko.s0074","k":"gloss","src":"study (noun) → (I) study","tgt":"ਪੜ੍ਹਾਈ (ਨਾਂਵ) → (ਮੈਂ) ਪੜ੍ਹਾਈ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0075","k":"gloss","src":"(I) exercise","tgt":"(ਮੈਂ) ਕਸਰਤ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0076","k":"gloss","src":"(I) have time","tgt":"(ਮੇਰੇ ਕੋਲ) ਸਮਾਂ ਹੈ"}
+{"f":"sentences","id":"ko.s0077","k":"gloss","src":"(I) have no money","tgt":"(ਮੇਰੇ ਕੋਲ) ਪੈਸੇ ਨਹੀਂ ਹਨ"}
+{"f":"checks","id":"verbbasics.k1","k":"q","src":"Stem of 먹다 =","tgt":"먹다 ਦਾ ਸਟੈਮ ="}
+{"f":"checks","id":"verbbasics.k1","k":"why","src":"Drop 다 to get the stem.","tgt":"다 ਹਟਾਓ, ਸਟੈਮ ਮਿਲ ਜਾਵੇਗਾ।"}
+{"f":"checks","id":"verbbasics.k2","k":"q","src":"'The weather is good' =","tgt":"\"ਮੌਸਮ ਵਧੀਆ ਹੈ\" ="}
+{"f":"checks","id":"verbbasics.k2","k":"why","src":"좋아요 already includes 'is'.","tgt":"좋아요 ਵਿੱਚ \"ਹੈ\" ਪਹਿਲਾਂ ਹੀ ਸ਼ਾਮਲ ਹੈ।"}
+{"f":"checks","id":"verbbasics.k3","k":"q","src":"'I have time' =","tgt":"\"ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਹੈ\" ="}
+{"f":"checks","id":"verbbasics.k3","k":"why","src":"있어요 = exist / have.","tgt":"있어요 = ਹੋਣਾ / ਕੋਲ ਹੋਣਾ।"}
+{"f":"practice","id":"verbbasics.01","k":"q","src":"Stem of 가다 =","tgt":"가다 ਦਾ ਸਟੈਮ ="}
+{"f":"practice","id":"verbbasics.01","k":"why","src":"Drop 다 to get the stem.","tgt":"다 ਹਟਾਓ, ਸਟੈਮ ਮਿਲ ਜਾਵੇਗਾ।"}
+{"f":"practice","id":"verbbasics.02","k":"q","src":"'The bag is big' =","tgt":"\"ਬੈਗ ਵੱਡਾ ਹੈ\" ="}
+{"f":"practice","id":"verbbasics.02","k":"why","src":"커요 already means 'is big'.","tgt":"커요 ਦਾ ਅਰਥ ਹੀ \"ਵੱਡਾ ਹੈ\" ਹੈ।"}
+{"f":"practice","id":"verbbasics.03","k":"q","src":"Polite form of 하다 =","tgt":"하다 ਦਾ ਨਿਮਰ ਰੂਪ ="}
+{"f":"practice","id":"verbbasics.03","k":"why","src":"하다 is special: 해요.","tgt":"하다 ਖ਼ਾਸ ਹੈ: 해요।"}
+{"f":"practice","id":"verbbasics.04","k":"q","src":"'I exercise' =","tgt":"\"ਮੈਂ ਕਸਰਤ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ\" ="}
+{"f":"practice","id":"verbbasics.04","k":"why","src":"Noun + 하다 makes a verb: 운동해요.","tgt":"ਨਾਂਵ + 하다 ਨਾਲ ਕਿਰਿਆ ਬਣਦੀ ਹੈ, ਜਿਵੇਂ ਕਸਰਤ + ਕਰਨਾ: 운동해요।"}
+{"f":"practice","id":"verbbasics.05","k":"q","src":"'The weather is good' =","tgt":"\"ਮੌਸਮ ਵਧੀਆ ਹੈ\" ="}
+{"f":"practice","id":"verbbasics.05","k":"why","src":"Describing verbs need no separate 'is'.","tgt":"ਵਿਸ਼ੇਸ਼ਣ-ਕਿਰਿਆ ਨੂੰ ਵੱਖਰਾ \"ਹੈ\" ਨਹੀਂ ਚਾਹੀਦਾ।"}
+{"f":"practice","id":"verbbasics.06","k":"p","src":"The weather is good","tgt":"ਮੌਸਮ ਵਧੀਆ ਹੈ"}
+{"f":"practice","id":"verbbasics.06","k":"why","src":"좋다요 is not a form: the polite form is 좋아요.","tgt":"좋다요 ਕੋਈ ਰੂਪ ਨਹੀਂ ਹੈ: ਨਿਮਰ ਰੂਪ 좋아요 ਹੈ।"}
+{"f":"practice","id":"verbbasics.07","k":"p","src":"I have time","tgt":"ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਹੈ"}
+{"f":"practice","id":"verbbasics.07","k":"why","src":"있어요 = have.","tgt":"있어요 = ਕੋਲ ਹੋਣਾ।"}
+{"f":"practice","id":"verbbasics.08","k":"p","src":"The bag is big","tgt":"ਬੈਗ ਵੱਡਾ ਹੈ"}
+{"f":"practice","id":"verbbasics.08","k":"why","src":"커요 = is big.","tgt":"커요 = ਵੱਡਾ ਹੈ।"}
+{"f":"practice","id":"verbbasics.09","k":"p","src":"(I) eat","tgt":"(ਮੈਂ) ਖਾਂਦਾ/ਖਾਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"verbbasics.09","k":"why","src":"Spoken form is 먹어요; 먹다 is for dictionaries.","tgt":"ਬੋਲਣ ਵਿੱਚ 먹어요; 먹다 ਡਿਕਸ਼ਨਰੀ ਲਈ ਹੈ।"}
+{"f":"practice","id":"verbbasics.10","k":"p","src":"(I) study","tgt":"(ਮੈਂ) ਪੜ੍ਹਾਈ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ"}
 {"f":"practice","id":"verbbasics.10","k":"why","src":"공부 + 하다 → 공부해요.","tgt":"공부 + 하다 → 공부해요.","pre":1}
-{"f":"practice","id":"verbbasics.11","k":"p","src":"I have no money","tgt":""}
-{"f":"practice","id":"verbbasics.11","k":"why","src":"돈 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"verbbasics.12","k":"p","src":"(I'm) going home","tgt":""}
-{"f":"practice","id":"verbbasics.12","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":""}
-{"f":"practice","id":"verbbasics.13","k":"p","src":"(I) study Korean","tgt":""}
-{"f":"practice","id":"verbbasics.13","k":"why","src":"Noun + 해요.","tgt":""}
-{"f":"practice","id":"verbbasics.14","k":"p","src":"The weather is good","tgt":""}
-{"f":"practice","id":"verbbasics.14","k":"why","src":"좋아요 already includes 'is'.","tgt":""}
-{"f":"lessons","id":"verbs","k":"title","src":"9 · Present tense: the 요-form","tgt":""}
-{"f":"lessons","id":"verbs","k":"blurb","src":"Turn any dictionary verb into the polite present: 아요, 어요 or 해요.","tgt":""}
-{"f":"sentences","id":"ko.s0078","k":"gloss","src":"go","tgt":""}
-{"f":"sentences","id":"ko.s0079","k":"gloss","src":"come","tgt":""}
-{"f":"sentences","id":"ko.s0080","k":"gloss","src":"see, watch","tgt":""}
-{"f":"sentences","id":"ko.s0081","k":"gloss","src":"read","tgt":""}
-{"f":"sentences","id":"ko.s0082","k":"gloss","src":"there is / have","tgt":""}
-{"f":"sentences","id":"ko.s0083","k":"gloss","src":"I go to school / I'm going to school","tgt":""}
-{"f":"sentences","id":"ko.s0084","k":"gloss","src":"Are you going home?","tgt":""}
-{"f":"sentences","id":"ko.s0085","k":"gloss","src":"What are you doing now?","tgt":""}
-{"f":"sentences","id":"ko.s0086","k":"gloss","src":"My friend is coming","tgt":""}
-{"f":"checks","id":"verbs.k1","k":"q","src":"먹다 in the polite present =","tgt":""}
-{"f":"checks","id":"verbs.k1","k":"why","src":"Last vowel is ㅓ (not ㅏ/ㅗ) → 어요.","tgt":""}
-{"f":"checks","id":"verbs.k2","k":"q","src":"보다 in the polite present =","tgt":""}
-{"f":"checks","id":"verbs.k2","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":""}
-{"f":"checks","id":"verbs.k3","k":"q","src":"'Are you going home?' =","tgt":""}
-{"f":"checks","id":"verbs.k3","k":"why","src":"Same 요-form; only the tone rises.","tgt":""}
-{"f":"practice","id":"verbs.01","k":"q","src":"보다 in the polite present =","tgt":""}
-{"f":"practice","id":"verbs.01","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":""}
-{"f":"practice","id":"verbs.02","k":"q","src":"마시다 in the polite present =","tgt":""}
-{"f":"practice","id":"verbs.02","k":"why","src":"ㅣ stem + 어요; 시 + 어 merge into 셔.","tgt":""}
-{"f":"practice","id":"verbs.03","k":"q","src":"먹다 in the polite present =","tgt":""}
-{"f":"practice","id":"verbs.03","k":"why","src":"ㅓ stem → 어요.","tgt":""}
-{"f":"practice","id":"verbs.04","k":"q","src":"공부하다 in the polite present =","tgt":""}
-{"f":"practice","id":"verbs.04","k":"why","src":"하다 verbs → 해요.","tgt":""}
-{"f":"practice","id":"verbs.05","k":"q","src":"'(I'm) not going' =","tgt":""}
-{"f":"practice","id":"verbs.05","k":"why","src":"안 goes right before the verb.","tgt":""}
-{"f":"practice","id":"verbs.06","k":"p","src":"My friend is coming","tgt":""}
-{"f":"practice","id":"verbs.06","k":"why","src":"오 + 아요 merge into 와요.","tgt":""}
-{"f":"practice","id":"verbs.07","k":"p","src":"I go to school","tgt":""}
-{"f":"practice","id":"verbs.07","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":""}
-{"f":"practice","id":"verbs.08","k":"p","src":"What are you doing now?","tgt":""}
+{"f":"practice","id":"verbbasics.11","k":"p","src":"I have no money","tgt":"ਮੇਰੇ ਕੋਲ ਪੈਸੇ ਨਹੀਂ ਹਨ"}
+{"f":"practice","id":"verbbasics.11","k":"why","src":"돈 ends in a consonant → 이.","tgt":"돈 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 이।"}
+{"f":"practice","id":"verbbasics.12","k":"p","src":"(I'm) going home","tgt":"(ਮੈਂ) ਘਰ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ"}
+{"f":"practice","id":"verbbasics.12","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":"요-ਰੂਪ ਬੋਲੋ, ਡਿਕਸ਼ਨਰੀ ਰੂਪ ਨਹੀਂ।"}
+{"f":"practice","id":"verbbasics.13","k":"p","src":"(I) study Korean","tgt":"(ਮੈਂ) ਕੋਰੀਆਈ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ"}
+{"f":"practice","id":"verbbasics.13","k":"why","src":"Noun + 해요.","tgt":"ਨਾਂਵ + 해요।"}
+{"f":"practice","id":"verbbasics.14","k":"p","src":"The weather is good","tgt":"ਮੌਸਮ ਵਧੀਆ ਹੈ"}
+{"f":"practice","id":"verbbasics.14","k":"why","src":"좋아요 already includes 'is'.","tgt":"좋아요 ਵਿੱਚ \"ਹੈ\" ਪਹਿਲਾਂ ਹੀ ਸ਼ਾਮਲ ਹੈ।"}
+{"f":"lessons","id":"verbs","k":"title","src":"9 · Present tense: the 요-form","tgt":"9 · ਵਰਤਮਾਨ ਕਾਲ: 요-ਰੂਪ"}
+{"f":"lessons","id":"verbs","k":"blurb","src":"Turn any dictionary verb into the polite present: 아요, 어요 or 해요.","tgt":"ਕਿਸੇ ਵੀ ਡਿਕਸ਼ਨਰੀ ਰੂਪ ਨੂੰ ਨਿਮਰ ਵਰਤਮਾਨ ਵਿੱਚ ਬਦਲੋ: 아요, 어요 ਜਾਂ 해요।"}
+{"f":"sentences","id":"ko.s0078","k":"gloss","src":"go","tgt":"ਜਾਣਾ"}
+{"f":"sentences","id":"ko.s0079","k":"gloss","src":"come","tgt":"ਆਉਣਾ"}
+{"f":"sentences","id":"ko.s0080","k":"gloss","src":"see, watch","tgt":"ਦੇਖਣਾ"}
+{"f":"sentences","id":"ko.s0081","k":"gloss","src":"read","tgt":"ਪੜ੍ਹਨਾ"}
+{"f":"sentences","id":"ko.s0082","k":"gloss","src":"there is / have","tgt":"ਹੈ / ਕੋਲ ਹੋਣਾ"}
+{"f":"sentences","id":"ko.s0083","k":"gloss","src":"I go to school / I'm going to school","tgt":"ਮੈਂ ਸਕੂਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ / ਮੈਂ ਸਕੂਲ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0084","k":"gloss","src":"Are you going home?","tgt":"ਕੀ ਤੁਸੀਂ ਘਰ ਜਾ ਰਹੇ ਹੋ?"}
+{"f":"sentences","id":"ko.s0085","k":"gloss","src":"What are you doing now?","tgt":"ਤੁਸੀਂ ਹੁਣ ਕੀ ਕਰ ਰਹੇ ਹੋ?"}
+{"f":"sentences","id":"ko.s0086","k":"gloss","src":"My friend is coming","tgt":"ਮੇਰਾ ਦੋਸਤ ਆ ਰਿਹਾ ਹੈ"}
+{"f":"checks","id":"verbs.k1","k":"q","src":"먹다 in the polite present =","tgt":"ਨਿਮਰ ਵਰਤਮਾਨ ਵਿੱਚ 먹다 ="}
+{"f":"checks","id":"verbs.k1","k":"why","src":"Last vowel is ㅓ (not ㅏ/ㅗ) → 어요.","tgt":"ਆਖ਼ਰੀ ਸਵਰ ㅓ ਹੈ (ㅏ / ㅗ ਨਹੀਂ) → 어요।"}
+{"f":"checks","id":"verbs.k2","k":"q","src":"보다 in the polite present =","tgt":"ਨਿਮਰ ਵਰਤਮਾਨ ਵਿੱਚ 보다 ="}
+{"f":"checks","id":"verbs.k2","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":"ㅗ ਵਾਲਾ ਸਟੈਮ + 아요; 보 + 아 ਮਿਲ ਕੇ 봐।"}
+{"f":"checks","id":"verbs.k3","k":"q","src":"'Are you going home?' =","tgt":"\"ਕੀ ਤੁਸੀਂ ਘਰ ਜਾ ਰਹੇ ਹੋ?\" ="}
+{"f":"checks","id":"verbs.k3","k":"why","src":"Same 요-form; only the tone rises.","tgt":"ਉਹੀ 요-ਰੂਪ; ਬੱਸ ਅਵਾਜ਼ ਉੱਪਰ ਉੱਠਦੀ ਹੈ। \"ਕੀ\" ਵਰਗਾ ਕੋਈ ਸ਼ਬਦ ਨਹੀਂ ਜੁੜਦਾ।"}
+{"f":"practice","id":"verbs.01","k":"q","src":"보다 in the polite present =","tgt":"ਨਿਮਰ ਵਰਤਮਾਨ ਵਿੱਚ 보다 ="}
+{"f":"practice","id":"verbs.01","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":"ㅗ ਵਾਲਾ ਸਟੈਮ + 아요; 보 + 아 ਮਿਲ ਕੇ 봐।"}
+{"f":"practice","id":"verbs.02","k":"q","src":"마시다 in the polite present =","tgt":"ਨਿਮਰ ਵਰਤਮਾਨ ਵਿੱਚ 마시다 ="}
+{"f":"practice","id":"verbs.02","k":"why","src":"ㅣ stem + 어요; 시 + 어 merge into 셔.","tgt":"ㅣ ਵਾਲਾ ਸਟੈਮ + 어요; 시 + 어 ਮਿਲ ਕੇ 셔।"}
+{"f":"practice","id":"verbs.03","k":"q","src":"먹다 in the polite present =","tgt":"ਨਿਮਰ ਵਰਤਮਾਨ ਵਿੱਚ 먹다 ="}
+{"f":"practice","id":"verbs.03","k":"why","src":"ㅓ stem → 어요.","tgt":"ㅓ ਵਾਲਾ ਸਟੈਮ → 어요।"}
+{"f":"practice","id":"verbs.04","k":"q","src":"공부하다 in the polite present =","tgt":"ਨਿਮਰ ਵਰਤਮਾਨ ਵਿੱਚ 공부하다 ="}
+{"f":"practice","id":"verbs.04","k":"why","src":"하다 verbs → 해요.","tgt":"하다-ਕਿਰਿਆ → 해요।"}
+{"f":"practice","id":"verbs.05","k":"q","src":"'(I'm) not going' =","tgt":"\"(ਮੈਂ) ਨਹੀਂ ਜਾ ਰਿਹਾ/ਰਹੀ\" ="}
+{"f":"practice","id":"verbs.05","k":"why","src":"안 goes right before the verb.","tgt":"안 ਕਿਰਿਆ ਤੋਂ ਠੀਕ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ, ਪੰਜਾਬੀ \"ਨਹੀਂ\" ਵਾਂਗ।"}
+{"f":"practice","id":"verbs.06","k":"p","src":"My friend is coming","tgt":"ਮੇਰਾ ਦੋਸਤ ਆ ਰਿਹਾ ਹੈ"}
+{"f":"practice","id":"verbs.06","k":"why","src":"오 + 아요 merge into 와요.","tgt":"오 + 아요 ਮਿਲ ਕੇ 와요।"}
+{"f":"practice","id":"verbs.07","k":"p","src":"I go to school","tgt":"ਮੈਂ ਸਕੂਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"verbs.07","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":"요-ਰੂਪ ਬੋਲੋ, ਡਿਕਸ਼ਨਰੀ ਰੂਪ ਨਹੀਂ।"}
+{"f":"practice","id":"verbs.08","k":"p","src":"What are you doing now?","tgt":"ਤੁਸੀਂ ਹੁਣ ਕੀ ਕਰ ਰਹੇ ਹੋ?"}
 {"f":"practice","id":"verbs.08","k":"why","src":"하다 → 해요.","tgt":"하다 → 해요.","pre":1}
-{"f":"practice","id":"verbs.09","k":"p","src":"(I) eat","tgt":""}
-{"f":"practice","id":"verbs.09","k":"why","src":"ㅓ stem → 어요.","tgt":""}
-{"f":"practice","id":"verbs.10","k":"p","src":"I love (you)","tgt":""}
-{"f":"practice","id":"verbs.10","k":"why","src":"하다 verbs → 해요.","tgt":""}
-{"f":"practice","id":"verbs.11","k":"p","src":"(I'm) not going","tgt":""}
-{"f":"practice","id":"verbs.11","k":"why","src":"안 goes right before the verb.","tgt":""}
-{"f":"practice","id":"verbs.12","k":"p","src":"(I) go home","tgt":""}
+{"f":"practice","id":"verbs.09","k":"p","src":"(I) eat","tgt":"(ਮੈਂ) ਖਾਂਦਾ/ਖਾਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"verbs.09","k":"why","src":"ㅓ stem → 어요.","tgt":"ㅓ ਵਾਲਾ ਸਟੈਮ → 어요।"}
+{"f":"practice","id":"verbs.10","k":"p","src":"I love (you)","tgt":"ਮੈਨੂੰ (ਤੁਹਾਡੇ ਨਾਲ) ਪਿਆਰ ਹੈ"}
+{"f":"practice","id":"verbs.10","k":"why","src":"하다 verbs → 해요.","tgt":"하다-ਕਿਰਿਆ → 해요।"}
+{"f":"practice","id":"verbs.11","k":"p","src":"(I'm) not going","tgt":"(ਮੈਂ) ਨਹੀਂ ਜਾ ਰਿਹਾ/ਰਹੀ"}
+{"f":"practice","id":"verbs.11","k":"why","src":"안 goes right before the verb.","tgt":"안 ਕਿਰਿਆ ਤੋਂ ਠੀਕ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ, ਪੰਜਾਬੀ \"ਨਹੀਂ\" ਵਾਂਗ।"}
+{"f":"practice","id":"verbs.12","k":"p","src":"(I) go home","tgt":"(ਮੈਂ) ਘਰ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ"}
 {"f":"practice","id":"verbs.12","k":"why","src":"가 + 아요 → 가요.","tgt":"가 + 아요 → 가요.","pre":1}
-{"f":"practice","id":"verbs.13","k":"p","src":"My friend eats","tgt":""}
+{"f":"practice","id":"verbs.13","k":"p","src":"My friend eats","tgt":"ਮੇਰਾ ਦੋਸਤ ਖਾਂਦਾ ਹੈ"}
 {"f":"practice","id":"verbs.13","k":"why","src":"먹 + 어요.","tgt":"먹 + 어요.","pre":1}
-{"f":"practice","id":"verbs.14","k":"p","src":"(I'm) not going home","tgt":""}
-{"f":"practice","id":"verbs.14","k":"why","src":"안 sits right before the verb.","tgt":""}
-{"f":"lessons","id":"past","k":"title","src":"10 · Past tense: 았어요 / 었어요","tgt":""}
-{"f":"lessons","id":"past","k":"blurb","src":"Take the 요-form, swap 요 for ㅆ어요, and you are talking about yesterday.","tgt":""}
-{"f":"sentences","id":"ko.s0087","k":"gloss","src":"went","tgt":""}
-{"f":"sentences","id":"ko.s0088","k":"gloss","src":"ate","tgt":""}
-{"f":"sentences","id":"ko.s0089","k":"gloss","src":"studied","tgt":""}
-{"f":"sentences","id":"ko.s0090","k":"gloss","src":"(it) was good","tgt":""}
-{"f":"sentences","id":"ko.s0091","k":"gloss","src":"(I) was at home yesterday","tgt":""}
-{"f":"sentences","id":"ko.s0092","k":"gloss","src":"(I) had no time","tgt":""}
-{"f":"sentences","id":"ko.s0093","k":"gloss","src":"(I) was a student","tgt":""}
-{"f":"sentences","id":"ko.s0094","k":"gloss","src":"(She) was a doctor","tgt":""}
-{"f":"sentences","id":"ko.s0095","k":"gloss","src":"My friend came yesterday","tgt":""}
-{"f":"sentences","id":"ko.s0096","k":"gloss","src":"What did you do yesterday?","tgt":""}
-{"f":"sentences","id":"ko.s0097","k":"gloss","src":"(I) didn't go","tgt":""}
-{"f":"checks","id":"past.k1","k":"q","src":"가다 in the past =","tgt":""}
-{"f":"checks","id":"past.k1","k":"why","src":"가요 → drop 요 → 갔어요.","tgt":""}
-{"f":"checks","id":"past.k2","k":"q","src":"'(I) was a student' =","tgt":""}
-{"f":"checks","id":"past.k2","k":"why","src":"Consonant ending → 이었어요.","tgt":""}
-{"f":"checks","id":"past.k3","k":"q","src":"'What did you do yesterday?' =","tgt":""}
-{"f":"checks","id":"past.k3","k":"why","src":"해요 → 했어요; the time word goes first.","tgt":""}
-{"f":"practice","id":"past.01","k":"q","src":"먹다 in the past =","tgt":""}
+{"f":"practice","id":"verbs.14","k":"p","src":"(I'm) not going home","tgt":"(ਮੈਂ) ਘਰ ਨਹੀਂ ਜਾ ਰਿਹਾ/ਰਹੀ"}
+{"f":"practice","id":"verbs.14","k":"why","src":"안 sits right before the verb.","tgt":"안 ਕਿਰਿਆ ਤੋਂ ਠੀਕ ਪਹਿਲਾਂ ਬੈਠਦਾ ਹੈ।"}
+{"f":"lessons","id":"past","k":"title","src":"10 · Past tense: 았어요 / 었어요","tgt":"10 · ਭੂਤਕਾਲ: 았어요 / 었어요"}
+{"f":"lessons","id":"past","k":"blurb","src":"Take the 요-form, swap 요 for ㅆ어요, and you are talking about yesterday.","tgt":"요-ਰੂਪ ਲਓ, 요 ਦੀ ਥਾਂ ㅆ어요 ਲਾਓ, ਅਤੇ ਤੁਸੀਂ ਬੀਤੇ ਕੱਲ੍ਹ ਦੀ ਗੱਲ ਕਰ ਰਹੇ ਹੋ।"}
+{"f":"sentences","id":"ko.s0087","k":"gloss","src":"went","tgt":"ਗਿਆ/ਗਈ"}
+{"f":"sentences","id":"ko.s0088","k":"gloss","src":"ate","tgt":"ਖਾਧਾ"}
+{"f":"sentences","id":"ko.s0089","k":"gloss","src":"studied","tgt":"ਪੜ੍ਹਾਈ ਕੀਤੀ"}
+{"f":"sentences","id":"ko.s0090","k":"gloss","src":"(it) was good","tgt":"(ਇਹ) ਵਧੀਆ ਸੀ"}
+{"f":"sentences","id":"ko.s0091","k":"gloss","src":"(I) was at home yesterday","tgt":"(ਮੈਂ) ਕੱਲ੍ਹ ਘਰ ਸੀ"}
+{"f":"sentences","id":"ko.s0092","k":"gloss","src":"(I) had no time","tgt":"(ਮੇਰੇ ਕੋਲ) ਸਮਾਂ ਨਹੀਂ ਸੀ"}
+{"f":"sentences","id":"ko.s0093","k":"gloss","src":"(I) was a student","tgt":"(ਮੈਂ) ਵਿਦਿਆਰਥੀ ਸੀ"}
+{"f":"sentences","id":"ko.s0094","k":"gloss","src":"(She) was a doctor","tgt":"(ਉਹ) ਡਾਕਟਰ ਸੀ"}
+{"f":"sentences","id":"ko.s0095","k":"gloss","src":"My friend came yesterday","tgt":"ਕੱਲ੍ਹ ਮੇਰਾ ਦੋਸਤ ਆਇਆ"}
+{"f":"sentences","id":"ko.s0096","k":"gloss","src":"What did you do yesterday?","tgt":"ਤੁਸੀਂ ਕੱਲ੍ਹ ਕੀ ਕੀਤਾ?"}
+{"f":"sentences","id":"ko.s0097","k":"gloss","src":"(I) didn't go","tgt":"(ਮੈਂ) ਨਹੀਂ ਗਿਆ/ਗਈ"}
+{"f":"checks","id":"past.k1","k":"q","src":"가다 in the past =","tgt":"ਭੂਤਕਾਲ ਵਿੱਚ 가다 ="}
+{"f":"checks","id":"past.k1","k":"why","src":"가요 → drop 요 → 갔어요.","tgt":"가요 → 요 ਹਟਾਓ → 갔어요।"}
+{"f":"checks","id":"past.k2","k":"q","src":"'(I) was a student' =","tgt":"\"(ਮੈਂ) ਵਿਦਿਆਰਥੀ ਸੀ\" ="}
+{"f":"checks","id":"past.k2","k":"why","src":"Consonant ending → 이었어요.","tgt":"ਵਿਅੰਜਨ ਉੱਤੇ ਅੰਤ → 이었어요।"}
+{"f":"checks","id":"past.k3","k":"q","src":"'What did you do yesterday?' =","tgt":"\"ਤੁਸੀਂ ਕੱਲ੍ਹ ਕੀ ਕੀਤਾ?\" ="}
+{"f":"checks","id":"past.k3","k":"why","src":"해요 → 했어요; the time word goes first.","tgt":"해요 → 했어요; ਸਮੇਂ ਵਾਲਾ ਸ਼ਬਦ ਪਹਿਲਾਂ।"}
+{"f":"practice","id":"past.01","k":"q","src":"먹다 in the past =","tgt":"ਭੂਤਕਾਲ ਵਿੱਚ 먹다 ="}
 {"f":"practice","id":"past.01","k":"why","src":"먹어요 → 먹었어요.","tgt":"먹어요 → 먹었어요.","pre":1}
-{"f":"practice","id":"past.02","k":"q","src":"오다 in the past =","tgt":""}
+{"f":"practice","id":"past.02","k":"q","src":"오다 in the past =","tgt":"ਭੂਤਕਾਲ ਵਿੱਚ 오다 ="}
 {"f":"practice","id":"past.02","k":"why","src":"와요 → 왔어요.","tgt":"와요 → 왔어요.","pre":1}
-{"f":"practice","id":"past.03","k":"q","src":"하다 in the past =","tgt":""}
+{"f":"practice","id":"past.03","k":"q","src":"하다 in the past =","tgt":"ਭੂਤਕਾਲ ਵਿੱਚ 하다 ="}
 {"f":"practice","id":"past.03","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
-{"f":"practice","id":"past.04","k":"q","src":"'(It) was good' =","tgt":""}
+{"f":"practice","id":"past.04","k":"q","src":"'(It) was good' =","tgt":"\"(ਇਹ) ਵਧੀਆ ਸੀ\" ="}
 {"f":"practice","id":"past.04","k":"why","src":"좋아요 → 좋았어요.","tgt":"좋아요 → 좋았어요.","pre":1}
-{"f":"practice","id":"past.05","k":"q","src":"'(I) didn't go' =","tgt":""}
-{"f":"practice","id":"past.05","k":"why","src":"안 before the verb; 갔어요 is the past.","tgt":""}
-{"f":"practice","id":"past.06","k":"p","src":"My friend came yesterday","tgt":""}
-{"f":"practice","id":"past.06","k":"why","src":"Time words usually come first; the past verb always comes last.","tgt":""}
-{"f":"practice","id":"past.07","k":"p","src":"(I) was at home yesterday","tgt":""}
+{"f":"practice","id":"past.05","k":"q","src":"'(I) didn't go' =","tgt":"\"(ਮੈਂ) ਨਹੀਂ ਗਿਆ/ਗਈ\" ="}
+{"f":"practice","id":"past.05","k":"why","src":"안 before the verb; 갔어요 is the past.","tgt":"안 ਕਿਰਿਆ ਤੋਂ ਪਹਿਲਾਂ; 갔어요 ਭੂਤਕਾਲ ਹੈ।"}
+{"f":"practice","id":"past.06","k":"p","src":"My friend came yesterday","tgt":"ਕੱਲ੍ਹ ਮੇਰਾ ਦੋਸਤ ਆਇਆ"}
+{"f":"practice","id":"past.06","k":"why","src":"Time words usually come first; the past verb always comes last.","tgt":"ਸਮੇਂ ਵਾਲੇ ਸ਼ਬਦ ਆਮ ਤੌਰ ਉੱਤੇ ਪਹਿਲਾਂ ਆਉਂਦੇ ਹਨ; ਭੂਤਕਾਲ ਦੀ ਕਿਰਿਆ ਹਮੇਸ਼ਾ ਅਖ਼ੀਰ ਵਿੱਚ।"}
+{"f":"practice","id":"past.07","k":"p","src":"(I) was at home yesterday","tgt":"(ਮੈਂ) ਕੱਲ੍ਹ ਘਰ ਸੀ"}
 {"f":"practice","id":"past.07","k":"why","src":"있어요 → 있었어요.","tgt":"있어요 → 있었어요.","pre":1}
-{"f":"practice","id":"past.08","k":"p","src":"What did you do?","tgt":""}
+{"f":"practice","id":"past.08","k":"p","src":"What did you do?","tgt":"ਤੁਸੀਂ ਕੀ ਕੀਤਾ?"}
 {"f":"practice","id":"past.08","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
-{"f":"practice","id":"past.09","k":"p","src":"(I) ate","tgt":""}
+{"f":"practice","id":"past.09","k":"p","src":"(I) ate","tgt":"ਮੈਂ ਖਾਧਾ"}
 {"f":"practice","id":"past.09","k":"why","src":"먹어요 → 먹었어요.","tgt":"먹어요 → 먹었어요.","pre":1}
-{"f":"practice","id":"past.10","k":"p","src":"(I) studied","tgt":""}
+{"f":"practice","id":"past.10","k":"p","src":"(I) studied","tgt":"ਮੈਂ ਪੜ੍ਹਾਈ ਕੀਤੀ"}
 {"f":"practice","id":"past.10","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
-{"f":"practice","id":"past.11","k":"p","src":"(She) was a doctor","tgt":""}
-{"f":"practice","id":"past.11","k":"why","src":"Vowel ending → 였어요.","tgt":""}
-{"f":"practice","id":"past.12","k":"p","src":"(I) went home","tgt":""}
-{"f":"practice","id":"past.12","k":"hint","src":"past","tgt":""}
+{"f":"practice","id":"past.11","k":"p","src":"(She) was a doctor","tgt":"(ਉਹ) ਡਾਕਟਰ ਸੀ"}
+{"f":"practice","id":"past.11","k":"why","src":"Vowel ending → 였어요.","tgt":"ਸਵਰ ਉੱਤੇ ਅੰਤ → 였어요।"}
+{"f":"practice","id":"past.12","k":"p","src":"(I) went home","tgt":"(ਮੈਂ) ਘਰ ਗਿਆ/ਗਈ"}
+{"f":"practice","id":"past.12","k":"hint","src":"past","tgt":"ਭੂਤਕਾਲ"}
 {"f":"practice","id":"past.12","k":"why","src":"가요 → 갔어요.","tgt":"가요 → 갔어요.","pre":1}
-{"f":"practice","id":"past.13","k":"p","src":"I was a student","tgt":""}
+{"f":"practice","id":"past.13","k":"p","src":"I was a student","tgt":"ਮੈਂ ਵਿਦਿਆਰਥੀ ਸੀ"}
 {"f":"practice","id":"past.13","k":"why","src":"이에요 → 이었어요.","tgt":"이에요 → 이었어요.","pre":1}
-{"f":"practice","id":"past.14","k":"p","src":"(I) didn't eat yesterday","tgt":""}
-{"f":"practice","id":"past.14","k":"why","src":"안 + past verb.","tgt":""}
-{"f":"lessons","id":"future","k":"title","src":"11 · Future and plans: -(으)ㄹ 거예요","tgt":""}
-{"f":"lessons","id":"future","k":"blurb","src":"Say what you will do, and guess what will probably happen.","tgt":""}
-{"f":"sentences","id":"ko.s0098","k":"gloss","src":"will go","tgt":""}
-{"f":"sentences","id":"ko.s0099","k":"gloss","src":"will watch","tgt":""}
-{"f":"sentences","id":"ko.s0100","k":"gloss","src":"will do","tgt":""}
-{"f":"sentences","id":"ko.s0101","k":"gloss","src":"will eat","tgt":""}
-{"f":"sentences","id":"ko.s0102","k":"gloss","src":"will be (there)","tgt":""}
-{"f":"sentences","id":"ko.s0103","k":"gloss","src":"I'll go to school tomorrow","tgt":""}
-{"f":"sentences","id":"ko.s0104","k":"gloss","src":"What will you do on the weekend?","tgt":""}
-{"f":"sentences","id":"ko.s0105","k":"gloss","src":"I'll be at home","tgt":""}
-{"f":"sentences","id":"ko.s0106","k":"gloss","src":"I won't go","tgt":""}
-{"f":"sentences","id":"ko.s0107","k":"gloss","src":"It will probably be tasty","tgt":""}
-{"f":"sentences","id":"ko.s0108","k":"gloss","src":"It will probably be cold tomorrow","tgt":""}
-{"f":"checks","id":"future.k1","k":"q","src":"먹다 in the future =","tgt":""}
-{"f":"checks","id":"future.k1","k":"why","src":"Consonant stem + 을 거예요.","tgt":""}
-{"f":"checks","id":"future.k2","k":"q","src":"'What will you do on the weekend?' =","tgt":""}
+{"f":"practice","id":"past.14","k":"p","src":"(I) didn't eat yesterday","tgt":"ਮੈਂ ਕੱਲ੍ਹ ਨਹੀਂ ਖਾਧਾ"}
+{"f":"practice","id":"past.14","k":"why","src":"안 + past verb.","tgt":"안 + ਭੂਤਕਾਲ ਦੀ ਕਿਰਿਆ।"}
+{"f":"lessons","id":"future","k":"title","src":"11 · Future and plans: -(으)ㄹ 거예요","tgt":"11 · ਭਵਿੱਖ ਕਾਲ ਅਤੇ ਇਰਾਦੇ: -(으)ㄹ 거예요"}
+{"f":"lessons","id":"future","k":"blurb","src":"Say what you will do, and guess what will probably happen.","tgt":"ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਕੀ ਕਰੋਗੇ, ਅਤੇ ਅੰਦਾਜ਼ਾ ਲਾਓ ਕਿ ਸ਼ਾਇਦ ਕੀ ਹੋਵੇਗਾ।"}
+{"f":"sentences","id":"ko.s0098","k":"gloss","src":"will go","tgt":"ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ"}
+{"f":"sentences","id":"ko.s0099","k":"gloss","src":"will watch","tgt":"ਦੇਖਾਂਗਾ/ਦੇਖਾਂਗੀ"}
+{"f":"sentences","id":"ko.s0100","k":"gloss","src":"will do","tgt":"ਕਰਾਂਗਾ/ਕਰਾਂਗੀ"}
+{"f":"sentences","id":"ko.s0101","k":"gloss","src":"will eat","tgt":"ਖਾਵਾਂਗਾ/ਖਾਵਾਂਗੀ"}
+{"f":"sentences","id":"ko.s0102","k":"gloss","src":"will be (there)","tgt":"(ਉੱਥੇ) ਰਹਾਂਗਾ/ਰਹਾਂਗੀ"}
+{"f":"sentences","id":"ko.s0103","k":"gloss","src":"I'll go to school tomorrow","tgt":"ਮੈਂ ਕੱਲ੍ਹ ਸਕੂਲ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ"}
+{"f":"sentences","id":"ko.s0104","k":"gloss","src":"What will you do on the weekend?","tgt":"ਤੁਸੀਂ ਵੀਕਐਂਡ ਉੱਤੇ ਕੀ ਕਰੋਗੇ?"}
+{"f":"sentences","id":"ko.s0105","k":"gloss","src":"I'll be at home","tgt":"ਮੈਂ ਘਰ ਰਹਾਂਗਾ/ਰਹਾਂਗੀ"}
+{"f":"sentences","id":"ko.s0106","k":"gloss","src":"I won't go","tgt":"ਮੈਂ ਨਹੀਂ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ"}
+{"f":"sentences","id":"ko.s0107","k":"gloss","src":"It will probably be tasty","tgt":"ਸ਼ਾਇਦ ਸੁਆਦੀ ਹੋਵੇਗਾ"}
+{"f":"sentences","id":"ko.s0108","k":"gloss","src":"It will probably be cold tomorrow","tgt":"ਕੱਲ੍ਹ ਸ਼ਾਇਦ ਠੰਢ ਹੋਵੇਗੀ"}
+{"f":"checks","id":"future.k1","k":"q","src":"먹다 in the future =","tgt":"ਭਵਿੱਖ ਕਾਲ ਵਿੱਚ 먹다 ="}
+{"f":"checks","id":"future.k1","k":"why","src":"Consonant stem + 을 거예요.","tgt":"ਵਿਅੰਜਨ ਵਾਲਾ ਸਟੈਮ + 을 거예요।"}
+{"f":"checks","id":"future.k2","k":"q","src":"'What will you do on the weekend?' =","tgt":"\"ਤੁਸੀਂ ਵੀਕਐਂਡ ਉੱਤੇ ਕੀ ਕਰੋਗੇ?\" ="}
 {"f":"checks","id":"future.k2","k":"why","src":"하 + ㄹ 거예요 → 할 거예요.","tgt":"하 + ㄹ 거예요 → 할 거예요.","pre":1}
-{"f":"checks","id":"future.k3","k":"q","src":"'(I) won't go' =","tgt":""}
-{"f":"checks","id":"future.k3","k":"why","src":"안 goes before the verb.","tgt":""}
-{"f":"practice","id":"future.01","k":"q","src":"가다 in the future =","tgt":""}
-{"f":"practice","id":"future.01","k":"why","src":"Vowel stem + ㄹ 거예요.","tgt":""}
-{"f":"practice","id":"future.02","k":"q","src":"먹다 in the future =","tgt":""}
-{"f":"practice","id":"future.02","k":"why","src":"Consonant stem + 을 거예요.","tgt":""}
-{"f":"practice","id":"future.03","k":"q","src":"하다 in the future =","tgt":""}
+{"f":"checks","id":"future.k3","k":"q","src":"'(I) won't go' =","tgt":"\"(ਮੈਂ) ਨਹੀਂ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ\" ="}
+{"f":"checks","id":"future.k3","k":"why","src":"안 goes before the verb.","tgt":"안 ਕਿਰਿਆ ਤੋਂ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ।"}
+{"f":"practice","id":"future.01","k":"q","src":"가다 in the future =","tgt":"ਭਵਿੱਖ ਕਾਲ ਵਿੱਚ 가다 ="}
+{"f":"practice","id":"future.01","k":"why","src":"Vowel stem + ㄹ 거예요.","tgt":"ਸਵਰ ਵਾਲਾ ਸਟੈਮ + ㄹ 거예요।"}
+{"f":"practice","id":"future.02","k":"q","src":"먹다 in the future =","tgt":"ਭਵਿੱਖ ਕਾਲ ਵਿੱਚ 먹다 ="}
+{"f":"practice","id":"future.02","k":"why","src":"Consonant stem + 을 거예요.","tgt":"ਵਿਅੰਜਨ ਵਾਲਾ ਸਟੈਮ + 을 거예요।"}
+{"f":"practice","id":"future.03","k":"q","src":"하다 in the future =","tgt":"ਭਵਿੱਖ ਕਾਲ ਵਿੱਚ 하다 ="}
 {"f":"practice","id":"future.03","k":"why","src":"하 + ㄹ → 할 거예요.","tgt":"하 + ㄹ → 할 거예요.","pre":1}
-{"f":"practice","id":"future.04","k":"q","src":"Which word means 'tomorrow'?","tgt":""}
-{"f":"practice","id":"future.04","k":"why","src":"내일 = tomorrow; 어제 = yesterday.","tgt":""}
-{"f":"practice","id":"future.05","k":"q","src":"'(I) won't go' =","tgt":""}
-{"f":"practice","id":"future.05","k":"why","src":"안 goes before the verb.","tgt":""}
-{"f":"practice","id":"future.06","k":"p","src":"I'll go to school tomorrow","tgt":""}
-{"f":"practice","id":"future.06","k":"why","src":"Time usually first; 갈 거예요 = will go.","tgt":""}
-{"f":"practice","id":"future.07","k":"p","src":"What will you do on the weekend?","tgt":""}
-{"f":"practice","id":"future.07","k":"why","src":"할 거예요 = will do.","tgt":""}
-{"f":"practice","id":"future.08","k":"p","src":"(I) will be at home","tgt":""}
+{"f":"practice","id":"future.04","k":"q","src":"Which word means 'tomorrow'?","tgt":"ਕਿਸ ਸ਼ਬਦ ਦਾ ਅਰਥ \"ਕੱਲ੍ਹ (ਆਉਣ ਵਾਲਾ)\" ਹੈ?"}
+{"f":"practice","id":"future.04","k":"why","src":"내일 = tomorrow; 어제 = yesterday.","tgt":"내일 = ਆਉਣ ਵਾਲਾ ਕੱਲ੍ਹ; 어제 = ਬੀਤਿਆ ਕੱਲ੍ਹ। ਪੰਜਾਬੀ ਵਿੱਚ ਇੱਕ \"ਕੱਲ੍ਹ\", ਕੋਰੀਆਈ ਵਿੱਚ ਦੋ ਸ਼ਬਦ।"}
+{"f":"practice","id":"future.05","k":"q","src":"'(I) won't go' =","tgt":"\"(ਮੈਂ) ਨਹੀਂ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ\" ="}
+{"f":"practice","id":"future.05","k":"why","src":"안 goes before the verb.","tgt":"안 ਕਿਰਿਆ ਤੋਂ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ।"}
+{"f":"practice","id":"future.06","k":"p","src":"I'll go to school tomorrow","tgt":"ਮੈਂ ਕੱਲ੍ਹ ਸਕੂਲ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ"}
+{"f":"practice","id":"future.06","k":"why","src":"Time usually first; 갈 거예요 = will go.","tgt":"ਸਮਾਂ ਆਮ ਤੌਰ ਉੱਤੇ ਪਹਿਲਾਂ; 갈 거예요 = ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ।"}
+{"f":"practice","id":"future.07","k":"p","src":"What will you do on the weekend?","tgt":"ਤੁਸੀਂ ਵੀਕਐਂਡ ਉੱਤੇ ਕੀ ਕਰੋਗੇ?"}
+{"f":"practice","id":"future.07","k":"why","src":"할 거예요 = will do.","tgt":"할 거예요 = ਕਰੋਗੇ।"}
+{"f":"practice","id":"future.08","k":"p","src":"(I) will be at home","tgt":"(ਮੈਂ) ਘਰ ਰਹਾਂਗਾ/ਰਹਾਂਗੀ"}
 {"f":"practice","id":"future.08","k":"why","src":"있 + 을 거예요.","tgt":"있 + 을 거예요.","pre":1}
-{"f":"practice","id":"future.09","k":"p","src":"(I) will go","tgt":""}
-{"f":"practice","id":"future.09","k":"why","src":"Stem + ㄹ + 거예요.","tgt":""}
-{"f":"practice","id":"future.10","k":"p","src":"(I) will eat","tgt":""}
-{"f":"practice","id":"future.10","k":"why","src":"Consonant stem → 을 거예요.","tgt":""}
-{"f":"practice","id":"future.11","k":"p","src":"My friend will come tomorrow","tgt":""}
+{"f":"practice","id":"future.09","k":"p","src":"(I) will go","tgt":"(ਮੈਂ) ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ"}
+{"f":"practice","id":"future.09","k":"why","src":"Stem + ㄹ + 거예요.","tgt":"ਸਟੈਮ + ㄹ + 거예요।"}
+{"f":"practice","id":"future.10","k":"p","src":"(I) will eat","tgt":"(ਮੈਂ) ਖਾਵਾਂਗਾ/ਖਾਵਾਂਗੀ"}
+{"f":"practice","id":"future.10","k":"why","src":"Consonant stem → 을 거예요.","tgt":"ਵਿਅੰਜਨ ਵਾਲਾ ਸਟੈਮ → 을 거예요।"}
+{"f":"practice","id":"future.11","k":"p","src":"My friend will come tomorrow","tgt":"ਕੱਲ੍ਹ ਮੇਰਾ ਦੋਸਤ ਆਵੇਗਾ"}
 {"f":"practice","id":"future.11","k":"why","src":"오 + ㄹ → 올 거예요.","tgt":"오 + ㄹ → 올 거예요.","pre":1}
-{"f":"practice","id":"future.12","k":"p","src":"(I) will go tomorrow","tgt":""}
+{"f":"practice","id":"future.12","k":"p","src":"(I) will go tomorrow","tgt":"(ਮੈਂ) ਕੱਲ੍ਹ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ"}
 {"f":"practice","id":"future.12","k":"why","src":"가 + ㄹ 거예요.","tgt":"가 + ㄹ 거예요.","pre":1}
-{"f":"practice","id":"future.13","k":"p","src":"My friend will eat","tgt":""}
+{"f":"practice","id":"future.13","k":"p","src":"My friend will eat","tgt":"ਮੇਰਾ ਦੋਸਤ ਖਾਵੇਗਾ"}
 {"f":"practice","id":"future.13","k":"why","src":"먹 + 을 거예요.","tgt":"먹 + 을 거예요.","pre":1}
-{"f":"practice","id":"future.14","k":"p","src":"(I) won't go","tgt":""}
+{"f":"practice","id":"future.14","k":"p","src":"(I) won't go","tgt":"(ਮੈਂ) ਨਹੀਂ ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ"}
 {"f":"practice","id":"future.14","k":"why","src":"안 + 갈 거예요.","tgt":"안 + 갈 거예요.","pre":1}
-{"f":"lessons","id":"sov","k":"title","src":"12 · Word order and 을/를","tgt":""}
-{"f":"lessons","id":"sov","k":"blurb","src":"Subject · Object · Verb, the object marker 을/를, and when it drops.","tgt":""}
-{"f":"sentences","id":"ko.s0109","k":"gloss","src":"I (topic) rice (object) eat","tgt":""}
-{"f":"sentences","id":"ko.s0110","k":"gloss","src":"Friend (subject) coffee (object) drinks","tgt":""}
-{"f":"sentences","id":"ko.s0111","k":"gloss","src":"(I) read / look at a book","tgt":""}
-{"f":"sentences","id":"ko.s0112","k":"gloss","src":"(I) drink coffee","tgt":""}
-{"f":"sentences","id":"ko.s0113","k":"gloss","src":"(I) study Korean","tgt":""}
-{"f":"sentences","id":"ko.s0114","k":"gloss","src":"(Did you) eat?","tgt":""}
-{"f":"sentences","id":"ko.s0115","k":"gloss","src":"Yes, (I) ate","tgt":""}
-{"f":"sentences","id":"ko.s0116","k":"gloss","src":"(I) drink coffee — 를 dropped","tgt":""}
-{"f":"sentences","id":"ko.s0117","k":"gloss","src":"(I'm) going. / (Are you) going?","tgt":""}
-{"f":"sentences","id":"ko.s0118","k":"gloss","src":"Where (are you) going?","tgt":""}
-{"f":"sentences","id":"ko.s0119","k":"gloss","src":"What (are you) eating?","tgt":""}
-{"f":"checks","id":"sov.k1","k":"q","src":"Korean word order is:","tgt":""}
-{"f":"checks","id":"sov.k1","k":"o[0]","src":"Subject · Object · Verb","tgt":""}
-{"f":"checks","id":"sov.k1","k":"o[1]","src":"Subject · Verb · Object","tgt":""}
-{"f":"checks","id":"sov.k1","k":"o[2]","src":"Verb · Subject · Object","tgt":""}
-{"f":"checks","id":"sov.k1","k":"o[3]","src":"Object · Verb · Subject","tgt":""}
-{"f":"checks","id":"sov.k1","k":"why","src":"The verb always closes the sentence.","tgt":""}
-{"f":"checks","id":"sov.k2","k":"q","src":"'I study Korean' =","tgt":""}
-{"f":"checks","id":"sov.k2","k":"why","src":"한국어 ends in a vowel → 를; verb last.","tgt":""}
-{"f":"checks","id":"sov.k3","k":"q","src":"'The bag is big' =","tgt":""}
-{"f":"checks","id":"sov.k3","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":""}
-{"f":"practice","id":"sov.01","k":"q","src":"'I eat rice' =","tgt":""}
-{"f":"practice","id":"sov.01","k":"why","src":"Object + 을, verb last.","tgt":""}
-{"f":"practice","id":"sov.02","k":"q","src":"Object marker after 커피:","tgt":""}
-{"f":"practice","id":"sov.02","k":"why","src":"커피 ends in a vowel → 를.","tgt":""}
-{"f":"practice","id":"sov.03","k":"q","src":"Object marker after 책:","tgt":""}
-{"f":"practice","id":"sov.03","k":"why","src":"책 ends in a consonant → 을.","tgt":""}
-{"f":"practice","id":"sov.04","k":"q","src":"'The weather is good' =","tgt":""}
-{"f":"practice","id":"sov.04","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":""}
-{"f":"practice","id":"sov.05","k":"q","src":"'Where are you going?' =","tgt":""}
-{"f":"practice","id":"sov.05","k":"why","src":"어디 = where; it sits where the answer would go.","tgt":""}
-{"f":"practice","id":"sov.06","k":"p","src":"I drink coffee","tgt":""}
-{"f":"practice","id":"sov.06","k":"why","src":"Object + 를, verb last.","tgt":""}
-{"f":"practice","id":"sov.07","k":"p","src":"I study Korean","tgt":""}
-{"f":"practice","id":"sov.07","k":"why","src":"한국어 is the object → 를.","tgt":""}
-{"f":"practice","id":"sov.08","k":"p","src":"My friend is looking at a book","tgt":""}
-{"f":"practice","id":"sov.08","k":"why","src":"Subject, object, verb.","tgt":""}
-{"f":"practice","id":"sov.09","k":"p","src":"(I) eat rice","tgt":""}
-{"f":"practice","id":"sov.09","k":"why","src":"밥 ends in a consonant → 을.","tgt":""}
-{"f":"practice","id":"sov.10","k":"p","src":"(I) drink coffee","tgt":""}
-{"f":"practice","id":"sov.10","k":"why","src":"커피 ends in a vowel → 를.","tgt":""}
-{"f":"practice","id":"sov.11","k":"p","src":"The bag is big","tgt":""}
-{"f":"practice","id":"sov.11","k":"why","src":"Describing verb → 이/가; 가방 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"sov.12","k":"p","src":"I eat rice","tgt":""}
-{"f":"practice","id":"sov.12","k":"why","src":"Object + 을, verb last.","tgt":""}
-{"f":"practice","id":"sov.13","k":"p","src":"I study Korean","tgt":""}
-{"f":"practice","id":"sov.13","k":"why","src":"Object + 를, verb last.","tgt":""}
-{"f":"practice","id":"sov.14","k":"p","src":"What are you eating?","tgt":""}
-{"f":"practice","id":"sov.14","k":"why","src":"Question word where the answer goes, rising tone.","tgt":""}
-{"f":"lessons","id":"particles","k":"title","src":"13 · 에 and 에서, plus the particle map","tgt":""}
-{"f":"lessons","id":"particles","k":"blurb","src":"에 for where you go, where things are and when; 에서 for where you do things and where you come from.","tgt":""}
-{"f":"sentences","id":"ko.s0120","k":"gloss","src":"(I'm) going home","tgt":""}
-{"f":"sentences","id":"ko.s0121","k":"gloss","src":"(I) go to school","tgt":""}
-{"f":"sentences","id":"ko.s0122","k":"gloss","src":"My friend is coming to the café","tgt":""}
-{"f":"sentences","id":"ko.s0123","k":"gloss","src":"(I) go to school on the weekend","tgt":""}
-{"f":"sentences","id":"ko.s0124","k":"gloss","src":"(I) drink coffee in the morning","tgt":""}
-{"f":"sentences","id":"ko.s0125","k":"gloss","src":"(I) rest at home","tgt":""}
-{"f":"sentences","id":"ko.s0126","k":"gloss","src":"(I) study at a café","tgt":""}
-{"f":"sentences","id":"ko.s0299","k":"gloss","src":"(I) came from Canada","tgt":""}
-{"f":"sentences","id":"ko.s0128","k":"gloss","src":"As for me, I'm a student","tgt":""}
-{"f":"sentences","id":"ko.s0129","k":"gloss","src":"Who came? My friend came (new info → 가)","tgt":""}
-{"f":"checks","id":"particles.k1","k":"q","src":"'I'm going home' =","tgt":""}
-{"f":"checks","id":"particles.k1","k":"why","src":"Destination with 가요 → 에.","tgt":""}
-{"f":"checks","id":"particles.k2","k":"q","src":"'I study at a café' =","tgt":""}
-{"f":"checks","id":"particles.k2","k":"why","src":"Where an action happens → 에서.","tgt":""}
-{"f":"checks","id":"particles.k3","k":"q","src":"'The cat is at home' =","tgt":""}
-{"f":"checks","id":"particles.k3","k":"why","src":"있어요 takes 에, not 에서.","tgt":""}
-{"f":"practice","id":"particles.01","k":"q","src":"'I go to school' =","tgt":""}
-{"f":"practice","id":"particles.01","k":"why","src":"Destination with 가요 → 에.","tgt":""}
-{"f":"practice","id":"particles.02","k":"q","src":"'I rest at home' =","tgt":""}
-{"f":"practice","id":"particles.02","k":"why","src":"Where an action happens → 에서.","tgt":""}
-{"f":"practice","id":"particles.03","k":"q","src":"'I came from Japan' =","tgt":""}
-{"f":"practice","id":"particles.03","k":"why","src":"에서 = from; 일본에 왔어요 = came to Japan.","tgt":""}
-{"f":"practice","id":"particles.04","k":"q","src":"'On the weekend' =","tgt":""}
-{"f":"practice","id":"particles.04","k":"why","src":"Time words take 에.","tgt":""}
-{"f":"practice","id":"particles.05","k":"q","src":"Answering 누가 왔어요? (Who came?): 'My friend came' =","tgt":""}
-{"f":"practice","id":"particles.05","k":"why","src":"The answer to 'who?' is new info → 이/가.","tgt":""}
-{"f":"practice","id":"particles.06","k":"p","src":"I study at a café","tgt":""}
-{"f":"practice","id":"particles.06","k":"why","src":"Action location → 에서.","tgt":""}
-{"f":"practice","id":"particles.07","k":"p","src":"I'm going home","tgt":""}
-{"f":"practice","id":"particles.07","k":"why","src":"Destination → 에.","tgt":""}
-{"f":"practice","id":"particles.08","k":"p","src":"I drink coffee in the morning","tgt":""}
-{"f":"practice","id":"particles.08","k":"why","src":"Time → 에; time words usually go first.","tgt":""}
-{"f":"practice","id":"particles.09","k":"p","src":"I study at a café","tgt":""}
-{"f":"practice","id":"particles.09","k":"why","src":"Action location → 에서.","tgt":""}
-{"f":"practice","id":"particles.10","k":"p","src":"I go to school","tgt":""}
-{"f":"practice","id":"particles.10","k":"why","src":"Destination → 에.","tgt":""}
-{"f":"practice","id":"particles.11","k":"p","src":"The cat is at home","tgt":""}
-{"f":"practice","id":"particles.11","k":"why","src":"있어요 takes 에, not 에서.","tgt":""}
-{"f":"practice","id":"particles.12","k":"p","src":"I rest at home","tgt":""}
-{"f":"practice","id":"particles.12","k":"why","src":"Resting is an action → 에서.","tgt":""}
-{"f":"practice","id":"particles.13","k":"p","src":"I go to school on the weekend","tgt":""}
-{"f":"practice","id":"particles.13","k":"why","src":"Time + 에, destination + 에.","tgt":""}
-{"f":"practice","id":"particles.14","k":"p","src":"I study Korean at school","tgt":""}
-{"f":"practice","id":"particles.14","k":"why","src":"Place of action + 에서, object + 를.","tgt":""}
+{"f":"lessons","id":"sov","k":"title","src":"12 · Word order and 을/를","tgt":"12 · ਸ਼ਬਦਾਂ ਦੀ ਤਰਤੀਬ ਅਤੇ 을/를"}
+{"f":"lessons","id":"sov","k":"blurb","src":"Subject · Object · Verb, the object marker 을/를, and when it drops.","tgt":"ਕਰਤਾ · ਕਰਮ · ਕਿਰਿਆ, ਕਰਮ ਪਾਰਟੀਕਲ 을/를, ਅਤੇ ਇਹ ਕਦੋਂ ਛੁੱਟ ਜਾਂਦਾ ਹੈ।"}
+{"f":"sentences","id":"ko.s0109","k":"gloss","src":"I (topic) rice (object) eat","tgt":"ਮੈਂ (ਵਿਸ਼ਾ) ਚੌਲ (ਕਰਮ) ਖਾਂਦਾ/ਖਾਂਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0110","k":"gloss","src":"Friend (subject) coffee (object) drinks","tgt":"ਦੋਸਤ (ਕਰਤਾ) ਕੌਫ਼ੀ (ਕਰਮ) ਪੀਂਦਾ ਹੈ"}
+{"f":"sentences","id":"ko.s0111","k":"gloss","src":"(I) read / look at a book","tgt":"(ਮੈਂ) ਕਿਤਾਬ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ / ਦੇਖਦਾ/ਦੇਖਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0112","k":"gloss","src":"(I) drink coffee","tgt":"(ਮੈਂ) ਕੌਫ਼ੀ ਪੀਂਦਾ/ਪੀਂਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0113","k":"gloss","src":"(I) study Korean","tgt":"(ਮੈਂ) ਕੋਰੀਆਈ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0114","k":"gloss","src":"(Did you) eat?","tgt":"(ਤੁਸੀਂ) ਖਾਣਾ ਖਾ ਲਿਆ?"}
+{"f":"sentences","id":"ko.s0115","k":"gloss","src":"Yes, (I) ate","tgt":"ਹਾਂ ਜੀ, (ਮੈਂ) ਖਾ ਲਿਆ"}
+{"f":"sentences","id":"ko.s0116","k":"gloss","src":"(I) drink coffee — 를 dropped","tgt":"(ਮੈਂ) ਕੌਫ਼ੀ ਪੀਂਦਾ/ਪੀਂਦੀ ਹਾਂ — 를 ਛੁੱਟ ਗਿਆ"}
+{"f":"sentences","id":"ko.s0117","k":"gloss","src":"(I'm) going. / (Are you) going?","tgt":"(ਮੈਂ) ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ। / (ਤੁਸੀਂ) ਜਾ ਰਹੇ ਹੋ?"}
+{"f":"sentences","id":"ko.s0118","k":"gloss","src":"Where (are you) going?","tgt":"(ਤੁਸੀਂ) ਕਿੱਥੇ ਜਾ ਰਹੇ ਹੋ?"}
+{"f":"sentences","id":"ko.s0119","k":"gloss","src":"What (are you) eating?","tgt":"(ਤੁਸੀਂ) ਕੀ ਖਾ ਰਹੇ ਹੋ?"}
+{"f":"checks","id":"sov.k1","k":"q","src":"Korean word order is:","tgt":"ਕੋਰੀਆਈ ਵਿੱਚ ਸ਼ਬਦਾਂ ਦੀ ਤਰਤੀਬ ਹੈ:"}
+{"f":"checks","id":"sov.k1","k":"o[0]","src":"Subject · Object · Verb","tgt":"ਕਰਤਾ · ਕਰਮ · ਕਿਰਿਆ"}
+{"f":"checks","id":"sov.k1","k":"o[1]","src":"Subject · Verb · Object","tgt":"ਕਰਤਾ · ਕਿਰਿਆ · ਕਰਮ"}
+{"f":"checks","id":"sov.k1","k":"o[2]","src":"Verb · Subject · Object","tgt":"ਕਿਰਿਆ · ਕਰਤਾ · ਕਰਮ"}
+{"f":"checks","id":"sov.k1","k":"o[3]","src":"Object · Verb · Subject","tgt":"ਕਰਮ · ਕਿਰਿਆ · ਕਰਤਾ"}
+{"f":"checks","id":"sov.k1","k":"why","src":"The verb always closes the sentence.","tgt":"ਕਿਰਿਆ ਹਮੇਸ਼ਾ ਵਾਕ ਨੂੰ ਖ਼ਤਮ ਕਰਦੀ ਹੈ — ਪੰਜਾਬੀ ਵਾਂਗ।"}
+{"f":"checks","id":"sov.k2","k":"q","src":"'I study Korean' =","tgt":"\"ਮੈਂ ਕੋਰੀਆਈ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ\" ="}
+{"f":"checks","id":"sov.k2","k":"why","src":"한국어 ends in a vowel → 를; verb last.","tgt":"한국어 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 를; ਕਿਰਿਆ ਅਖ਼ੀਰ ਵਿੱਚ।"}
+{"f":"checks","id":"sov.k3","k":"q","src":"'The bag is big' =","tgt":"\"ਬੈਗ ਵੱਡਾ ਹੈ\" ="}
+{"f":"checks","id":"sov.k3","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"ਵਿਸ਼ੇਸ਼ਣ-ਕਿਰਿਆ ਨਾਲ 이/가, 을/를 ਨਹੀਂ।"}
+{"f":"practice","id":"sov.01","k":"q","src":"'I eat rice' =","tgt":"\"ਮੈਂ ਚੌਲ ਖਾਂਦਾ/ਖਾਂਦੀ ਹਾਂ\" ="}
+{"f":"practice","id":"sov.01","k":"why","src":"Object + 을, verb last.","tgt":"ਕਰਮ + 을, ਕਿਰਿਆ ਅਖ਼ੀਰ ਵਿੱਚ।"}
+{"f":"practice","id":"sov.02","k":"q","src":"Object marker after 커피:","tgt":"커피 ਤੋਂ ਬਾਅਦ ਕਰਮ ਪਾਰਟੀਕਲ:"}
+{"f":"practice","id":"sov.02","k":"why","src":"커피 ends in a vowel → 를.","tgt":"커피 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 를।"}
+{"f":"practice","id":"sov.03","k":"q","src":"Object marker after 책:","tgt":"책 ਤੋਂ ਬਾਅਦ ਕਰਮ ਪਾਰਟੀਕਲ:"}
+{"f":"practice","id":"sov.03","k":"why","src":"책 ends in a consonant → 을.","tgt":"책 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 을।"}
+{"f":"practice","id":"sov.04","k":"q","src":"'The weather is good' =","tgt":"\"ਮੌਸਮ ਵਧੀਆ ਹੈ\" ="}
+{"f":"practice","id":"sov.04","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"ਵਿਸ਼ੇਸ਼ਣ-ਕਿਰਿਆ ਨਾਲ 이/가, 을/를 ਨਹੀਂ।"}
+{"f":"practice","id":"sov.05","k":"q","src":"'Where are you going?' =","tgt":"\"ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ ਹੋ?\" ="}
+{"f":"practice","id":"sov.05","k":"why","src":"어디 = where; it sits where the answer would go.","tgt":"어디 = ਕਿੱਥੇ; ਇਹ ਉੱਥੇ ਬੈਠਦਾ ਹੈ ਜਿੱਥੇ ਜਵਾਬ ਆਉਣਾ ਹੈ — ਪੰਜਾਬੀ ਵਾਂਗ।"}
+{"f":"practice","id":"sov.06","k":"p","src":"I drink coffee","tgt":"ਮੈਂ ਕੌਫ਼ੀ ਪੀਂਦਾ/ਪੀਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"sov.06","k":"why","src":"Object + 를, verb last.","tgt":"ਕਰਮ + 를, ਕਿਰਿਆ ਅਖ਼ੀਰ ਵਿੱਚ।"}
+{"f":"practice","id":"sov.07","k":"p","src":"I study Korean","tgt":"ਮੈਂ ਕੋਰੀਆਈ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ"}
+{"f":"practice","id":"sov.07","k":"why","src":"한국어 is the object → 를.","tgt":"한국어 ਕਰਮ ਹੈ → 를।"}
+{"f":"practice","id":"sov.08","k":"p","src":"My friend is looking at a book","tgt":"ਮੇਰਾ ਦੋਸਤ ਕਿਤਾਬ ਪੜ੍ਹ ਰਿਹਾ ਹੈ"}
+{"f":"practice","id":"sov.08","k":"why","src":"Subject, object, verb.","tgt":"ਕਰਤਾ, ਕਰਮ, ਕਿਰਿਆ।"}
+{"f":"practice","id":"sov.09","k":"p","src":"(I) eat rice","tgt":"(ਮੈਂ) ਚੌਲ ਖਾਂਦਾ/ਖਾਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"sov.09","k":"why","src":"밥 ends in a consonant → 을.","tgt":"밥 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 을।"}
+{"f":"practice","id":"sov.10","k":"p","src":"(I) drink coffee","tgt":"(ਮੈਂ) ਕੌਫ਼ੀ ਪੀਂਦਾ/ਪੀਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"sov.10","k":"why","src":"커피 ends in a vowel → 를.","tgt":"커피 ਸਵਰ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 를।"}
+{"f":"practice","id":"sov.11","k":"p","src":"The bag is big","tgt":"ਬੈਗ ਵੱਡਾ ਹੈ"}
+{"f":"practice","id":"sov.11","k":"why","src":"Describing verb → 이/가; 가방 ends in a consonant → 이.","tgt":"ਵਿਸ਼ੇਸ਼ਣ-ਕਿਰਿਆ → 이/가; 가방 ਵਿਅੰਜਨ ਉੱਤੇ ਮੁੱਕਦਾ ਹੈ → 이।"}
+{"f":"practice","id":"sov.12","k":"p","src":"I eat rice","tgt":"ਮੈਂ ਚੌਲ ਖਾਂਦਾ/ਖਾਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"sov.12","k":"why","src":"Object + 을, verb last.","tgt":"ਕਰਮ + 을, ਕਿਰਿਆ ਅਖ਼ੀਰ ਵਿੱਚ।"}
+{"f":"practice","id":"sov.13","k":"p","src":"I study Korean","tgt":"ਮੈਂ ਕੋਰੀਆਈ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ"}
+{"f":"practice","id":"sov.13","k":"why","src":"Object + 를, verb last.","tgt":"ਕਰਮ + 를, ਕਿਰਿਆ ਅਖ਼ੀਰ ਵਿੱਚ।"}
+{"f":"practice","id":"sov.14","k":"p","src":"What are you eating?","tgt":"ਤੁਸੀਂ ਕੀ ਖਾ ਰਹੇ ਹੋ?"}
+{"f":"practice","id":"sov.14","k":"why","src":"Question word where the answer goes, rising tone.","tgt":"ਸਵਾਲੀਆ ਸ਼ਬਦ ਜਵਾਬ ਦੀ ਥਾਂ, ਅਵਾਜ਼ ਉੱਪਰ।"}
+{"f":"lessons","id":"particles","k":"title","src":"13 · 에 and 에서, plus the particle map","tgt":"13 · 에 ਅਤੇ 에서, ਨਾਲੇ ਪਾਰਟੀਕਲਾਂ ਦਾ ਨਕਸ਼ਾ"}
+{"f":"lessons","id":"particles","k":"blurb","src":"에 for where you go, where things are and when; 에서 for where you do things and where you come from.","tgt":"에: ਜਿੱਥੇ ਤੁਸੀਂ ਜਾਂਦੇ ਹੋ, ਜਿੱਥੇ ਚੀਜ਼ਾਂ ਹਨ, ਅਤੇ ਕਦੋਂ; 에서: ਜਿੱਥੇ ਤੁਸੀਂ ਕੁਝ ਕਰਦੇ ਹੋ, ਅਤੇ ਜਿੱਥੋਂ ਆਉਂਦੇ ਹੋ।"}
+{"f":"sentences","id":"ko.s0120","k":"gloss","src":"(I'm) going home","tgt":"(ਮੈਂ) ਘਰ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0121","k":"gloss","src":"(I) go to school","tgt":"(ਮੈਂ) ਸਕੂਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0122","k":"gloss","src":"My friend is coming to the café","tgt":"ਮੇਰਾ ਦੋਸਤ ਕੈਫ਼ੇ ਆ ਰਿਹਾ ਹੈ"}
+{"f":"sentences","id":"ko.s0123","k":"gloss","src":"(I) go to school on the weekend","tgt":"(ਮੈਂ) ਵੀਕਐਂਡ ਉੱਤੇ ਸਕੂਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0124","k":"gloss","src":"(I) drink coffee in the morning","tgt":"(ਮੈਂ) ਸਵੇਰੇ ਕੌਫ਼ੀ ਪੀਂਦਾ/ਪੀਂਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0125","k":"gloss","src":"(I) rest at home","tgt":"(ਮੈਂ) ਘਰ ਵਿੱਚ ਆਰਾਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0126","k":"gloss","src":"(I) study at a café","tgt":"(ਮੈਂ) ਕੈਫ਼ੇ ਵਿੱਚ ਪੜ੍ਹਾਈ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0299","k":"gloss","src":"(I) came from Canada","tgt":"(ਮੈਂ) ਕੈਨੇਡਾ ਤੋਂ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0128","k":"gloss","src":"As for me, I'm a student","tgt":"ਜਿੱਥੋਂ ਤੱਕ ਮੇਰੀ ਗੱਲ ਹੈ, ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ"}
+{"f":"sentences","id":"ko.s0129","k":"gloss","src":"Who came? My friend came (new info → 가)","tgt":"ਕੌਣ ਆਇਆ? ਮੇਰਾ ਦੋਸਤ ਆਇਆ (ਨਵੀਂ ਜਾਣਕਾਰੀ → 가)"}
+{"f":"checks","id":"particles.k1","k":"q","src":"'I'm going home' =","tgt":"\"ਮੈਂ ਘਰ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ\" ="}
+{"f":"checks","id":"particles.k1","k":"why","src":"Destination with 가요 → 에.","tgt":"가요 ਨਾਲ ਮੰਜ਼ਿਲ → 에।"}
+{"f":"checks","id":"particles.k2","k":"q","src":"'I study at a café' =","tgt":"\"ਮੈਂ ਕੈਫ਼ੇ ਵਿੱਚ ਪੜ੍ਹਾਈ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ\" ="}
+{"f":"checks","id":"particles.k2","k":"why","src":"Where an action happens → 에서.","tgt":"ਜਿੱਥੇ ਕੰਮ ਹੁੰਦਾ ਹੈ → 에서।"}
+{"f":"checks","id":"particles.k3","k":"q","src":"'The cat is at home' =","tgt":"\"ਬਿੱਲੀ ਘਰ ਵਿੱਚ ਹੈ\" ="}
+{"f":"checks","id":"particles.k3","k":"why","src":"있어요 takes 에, not 에서.","tgt":"있어요 ਨਾਲ 에, 에서 ਨਹੀਂ।"}
+{"f":"practice","id":"particles.01","k":"q","src":"'I go to school' =","tgt":"\"ਮੈਂ ਸਕੂਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ\" ="}
+{"f":"practice","id":"particles.01","k":"why","src":"Destination with 가요 → 에.","tgt":"가요 ਨਾਲ ਮੰਜ਼ਿਲ → 에।"}
+{"f":"practice","id":"particles.02","k":"q","src":"'I rest at home' =","tgt":"\"ਮੈਂ ਘਰ ਵਿੱਚ ਆਰਾਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ\" ="}
+{"f":"practice","id":"particles.02","k":"why","src":"Where an action happens → 에서.","tgt":"ਜਿੱਥੇ ਕੰਮ ਹੁੰਦਾ ਹੈ → 에서, ਭਾਵੇਂ ਪੰਜਾਬੀ ਵਿੱਚ ਇੱਥੇ ਵੀ \"ਵਿੱਚ\" ਹੋਵੇ।"}
+{"f":"practice","id":"particles.03","k":"q","src":"'I came from Japan' =","tgt":"\"ਮੈਂ ਜਪਾਨ ਤੋਂ ਹਾਂ\" ="}
+{"f":"practice","id":"particles.03","k":"why","src":"에서 = from; 일본에 왔어요 = came to Japan.","tgt":"에서 = ਤੋਂ; 일본에 왔어요 = ਮੈਂ ਜਪਾਨ ਆਇਆ/ਆਈ ਹਾਂ।"}
+{"f":"practice","id":"particles.04","k":"q","src":"'On the weekend' =","tgt":"\"ਵੀਕਐਂਡ ਉੱਤੇ\" ="}
+{"f":"practice","id":"particles.04","k":"why","src":"Time words take 에.","tgt":"ਸਮੇਂ ਵਾਲੇ ਸ਼ਬਦਾਂ ਨਾਲ 에, ਜਿਵੇਂ ਪੰਜਾਬੀ \"ਸੋਮਵਾਰ ਨੂੰ\" ਦਾ \"ਨੂੰ\"।"}
+{"f":"practice","id":"particles.05","k":"q","src":"Answering 누가 왔어요? (Who came?): 'My friend came' =","tgt":"누가 왔어요? (ਕੌਣ ਆਇਆ?) ਦਾ ਜਵਾਬ: \"ਮੇਰਾ ਦੋਸਤ ਆਇਆ\" ="}
+{"f":"practice","id":"particles.05","k":"why","src":"The answer to 'who?' is new info → 이/가.","tgt":"\"ਕੌਣ?\" ਦਾ ਜਵਾਬ ਨਵੀਂ ਜਾਣਕਾਰੀ ਹੈ → 이/가।"}
+{"f":"practice","id":"particles.06","k":"p","src":"I study at a café","tgt":"ਮੈਂ ਕੈਫ਼ੇ ਵਿੱਚ ਪੜ੍ਹਾਈ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ"}
+{"f":"practice","id":"particles.06","k":"why","src":"Action location → 에서.","tgt":"ਕੰਮ ਦੀ ਥਾਂ → 에서।"}
+{"f":"practice","id":"particles.07","k":"p","src":"I'm going home","tgt":"ਮੈਂ ਘਰ ਜਾ ਰਿਹਾ/ਰਹੀ ਹਾਂ"}
+{"f":"practice","id":"particles.07","k":"why","src":"Destination → 에.","tgt":"ਮੰਜ਼ਿਲ → 에।"}
+{"f":"practice","id":"particles.08","k":"p","src":"I drink coffee in the morning","tgt":"ਮੈਂ ਸਵੇਰੇ ਕੌਫ਼ੀ ਪੀਂਦਾ/ਪੀਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"particles.08","k":"why","src":"Time → 에; time words usually go first.","tgt":"ਸਮਾਂ → 에; ਸਮੇਂ ਵਾਲੇ ਸ਼ਬਦ ਆਮ ਤੌਰ ਉੱਤੇ ਪਹਿਲਾਂ।"}
+{"f":"practice","id":"particles.09","k":"p","src":"I study at a café","tgt":"ਮੈਂ ਕੈਫ਼ੇ ਵਿੱਚ ਪੜ੍ਹਾਈ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ"}
+{"f":"practice","id":"particles.09","k":"why","src":"Action location → 에서.","tgt":"ਕੰਮ ਦੀ ਥਾਂ → 에서।"}
+{"f":"practice","id":"particles.10","k":"p","src":"I go to school","tgt":"ਮੈਂ ਸਕੂਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"particles.10","k":"why","src":"Destination → 에.","tgt":"ਮੰਜ਼ਿਲ → 에।"}
+{"f":"practice","id":"particles.11","k":"p","src":"The cat is at home","tgt":"ਬਿੱਲੀ ਘਰ ਵਿੱਚ ਹੈ"}
+{"f":"practice","id":"particles.11","k":"why","src":"있어요 takes 에, not 에서.","tgt":"있어요 ਨਾਲ 에, 에서 ਨਹੀਂ।"}
+{"f":"practice","id":"particles.12","k":"p","src":"I rest at home","tgt":"ਮੈਂ ਘਰ ਵਿੱਚ ਆਰਾਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ"}
+{"f":"practice","id":"particles.12","k":"why","src":"Resting is an action → 에서.","tgt":"ਆਰਾਮ ਕਰਨਾ ਇੱਕ ਕੰਮ ਹੈ → 에서।"}
+{"f":"practice","id":"particles.13","k":"p","src":"I go to school on the weekend","tgt":"ਮੈਂ ਵੀਕਐਂਡ ਉੱਤੇ ਸਕੂਲ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ"}
+{"f":"practice","id":"particles.13","k":"why","src":"Time + 에, destination + 에.","tgt":"ਸਮਾਂ + 에, ਮੰਜ਼ਿਲ + 에।"}
+{"f":"practice","id":"particles.14","k":"p","src":"I study Korean at school","tgt":"ਮੈਂ ਸਕੂਲ ਵਿੱਚ ਕੋਰੀਆਈ ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ ਹਾਂ"}
+{"f":"practice","id":"particles.14","k":"why","src":"Place of action + 에서, object + 를.","tgt":"ਕੰਮ ਦੀ ਥਾਂ + 에서, ਕਰਮ + 를।"}

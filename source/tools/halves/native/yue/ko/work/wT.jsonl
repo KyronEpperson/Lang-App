@@ -167,13 +167,13 @@
 {"f":"trainer","id":"gloss.QW.얼마","src":"how much","tgt":"幾多（錢）"}
 {"f":"trainer","id":"gloss.QW.몇","src":"how many","tgt":"幾"}
 {"f":"trainer","id":"gloss.QW.어느","src":"which","tgt":"邊（邊間、邊本）"}
-{"f":"trainer","id":"gloss.CONN.그리고","src":"and then","tgt":"跟住 / 同埋"}
+{"f":"trainer","id":"gloss.CONN.그리고","src":"and then","tgt":"然後 / 同埋"}
 {"f":"trainer","id":"gloss.CONN.그래서","src":"so","tgt":"所以"}
-{"f":"trainer","id":"gloss.CONN.그런데","src":"but","tgt":"但係 / 係呢"}
-{"f":"trainer","id":"gloss.CONN.근데","src":"but (casual)","tgt":"但係（口語）"}
-{"f":"trainer","id":"gloss.CONN.하지만","src":"but","tgt":"不過"}
+{"f":"trainer","id":"gloss.CONN.그런데","src":"but","tgt":"不過 / 係呢"}
+{"f":"trainer","id":"gloss.CONN.근데","src":"but (casual)","tgt":"不過（口語）"}
+{"f":"trainer","id":"gloss.CONN.하지만","src":"but","tgt":"但係"}
 {"f":"trainer","id":"gloss.CONN.먼저","src":"first","tgt":"首先"}
-{"f":"trainer","id":"gloss.CONN.그다음에","src":"after that","tgt":"然後"}
+{"f":"trainer","id":"gloss.CONN.그다음에","src":"after that","tgt":"跟住"}
 {"f":"trainer","id":"gloss.CONN.마지막으로","src":"lastly","tgt":"最後"}
 {"f":"trainer","id":"gloss.CONN.아니면","src":"or","tgt":"定係 / 或者"}
 {"f":"trainer","id":"gloss.CONN.그럼","src":"then","tgt":"咁"}
@@ -240,13 +240,13 @@
 {"f":"trainer","id":"gloss.tpl.word","src":"noun / word","tgt":"名詞 / 生字"}
 {"f":"trainer","id":"build.extra.어제 친구를 만났어요","src":"Yesterday I met a friend","tgt":"尋日我見咗個朋友"}
 {"f":"trainer","id":"build.extra.먼저 카페에 갔어요","src":"First we went to a café","tgt":"我哋首先去咗咖啡店"}
-{"f":"trainer","id":"build.extra.그리고 커피를 마셨어요","src":"And we drank coffee","tgt":"跟住飲咗咖啡"}
-{"f":"trainer","id":"build.extra.그다음에 영화를 봤어요","src":"After that we watched a movie","tgt":"然後睇咗套戲"}
+{"f":"trainer","id":"build.extra.그리고 커피를 마셨어요","src":"And we drank coffee","tgt":"然後飲咗咖啡"}
+{"f":"trainer","id":"build.extra.그다음에 영화를 봤어요","src":"After that we watched a movie","tgt":"跟住睇咗套戲"}
 {"f":"trainer","id":"build.extra.그래서 집에 늦게 왔어요","src":"So I got home late","tgt":"所以我好夜先返到屋企"}
 {"f":"trainer","id":"build.extra.지난 주말에 뭐 했어요","src":"What did you do last weekend","tgt":"你上個週末做咗乜嘢？"}
-{"f":"trainer","id":"build.extra.아까 점심 먹었어요","src":"I had lunch a while ago","tgt":"我啱啱食咗晏"}
-{"f":"trainer","id":"build.extra.그런데 영화가 너무 길었어요","src":"But the movie was too long","tgt":"但係套戲太長"}
-{"f":"trainer","id":"build.extra.매운 거 안 먹어요","src":"I don't eat spicy food","tgt":"我唔食辣嘢"}
+{"f":"trainer","id":"build.extra.아까 점심 먹었어요","src":"I had lunch a while ago","tgt":"我頭先食咗晏"}
+{"f":"trainer","id":"build.extra.그런데 영화가 너무 길었어요","src":"But the movie was too long","tgt":"不過套戲太長"}
+{"f":"trainer","id":"build.extra.매운 거 안 먹어요","src":"I don't eat spicy food","tgt":"我唔食辣"}
 {"f":"trainer","id":"build.extra.매운 거 못 먹어요","src":"I can't eat spicy food","tgt":"我食唔到辣"}
 {"f":"trainer","id":"build.extra.한국어 할 수 있어요","src":"Can you speak Korean","tgt":"你識唔識講韓文？"}
 {"f":"trainer","id":"build.extra.조금 할 수 있어요","src":"I can, a little","tgt":"識少少"}
@@ -254,7 +254,7 @@
 {"f":"trainer","id":"build.extra.오늘 운동 안 해요","src":"I'm not working out today","tgt":"我今日唔做運動"}
 {"f":"trainer","id":"build.extra.잘 모르겠어요","src":"I'm not sure","tgt":"我唔太清楚"}
 {"f":"trainer","id":"build.extra.길을 몰라요","src":"I don't know the way","tgt":"我唔識路"}
-{"f":"trainer","id":"build.extra.지금 갈 수 없어요","src":"I can't go now","tgt":"我而家冇辦法去"}
+{"f":"trainer","id":"build.extra.지금 갈 수 없어요","src":"I can't go now","tgt":"我而家去唔到"}
 {"f":"trainer","id":"build.extra.커피 안 마셔요","src":"I don't drink coffee","tgt":"我唔飲咖啡"}
 {"f":"trainer","id":"build.ui.prompt","src":"tap the words in order","tgt":"順序撳啲字"}
 {"f":"trainer","id":"build.ui.answer","src":"Answer","tgt":"答案"}

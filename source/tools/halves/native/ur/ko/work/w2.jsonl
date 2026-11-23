@@ -205,7 +205,7 @@
 {"f":"cards","id":"ko.c0817","k":"meaning","src":"to choose; to pick","tgt":"چننا؛ منتخب کرنا"}
 {"f":"cards","id":"ko.c0817","k":"note","src":"골라요. 르 irregular.","tgt":"مؤدب شکل: 골라요۔ 르 بے قاعدہ۔"}
 {"f":"cards","id":"ko.c0818","k":"meaning","src":"to get better (recover)","tgt":"ٹھیک ہونا (بیماری سے)"}
-{"f":"cards","id":"ko.c0818","k":"note","src":"나아요. ㅅ irregular. 빨리 나으세요 = get well soon.","tgt":"مؤدب شکل: 나아요۔ ㅅ بے قاعدہ۔ 빨리 나으세요 = جلدی ٹھیک ہو جائیے۔"}
+{"f":"cards","id":"ko.c0818","k":"note","src":"나아요. ㅅ irregular. 빨리 나으세요 = get well soon.","tgt":"مؤدب شکل: 나아요۔ ㅅ بے قاعدہ۔ 빨리 나으세요 = جلدی ٹھیک ہو جائیں۔"}
 {"f":"cards","id":"ko.c0819","k":"meaning","src":"to remember","tgt":"یاد رکھنا"}
 {"f":"cards","id":"ko.c0819","k":"note","src":"기억해요. 저 기억하세요? = do you remember me?","tgt":"مؤدب شکل: 기억해요۔ 저 기억하세요 = کیا آپ کو میں یاد ہوں؟"}
 {"f":"cards","id":"ko.c0820","k":"meaning","src":"to close","tgt":"بند کرنا"}
@@ -463,14 +463,14 @@
 {"f":"cards","id":"ko.c0946","k":"meaning","src":"my (polite)","tgt":"میرا (مؤدب)"}
 {"f":"cards","id":"ko.c0946","k":"note","src":"저 + 의. 제 이름은 … = my name is …","tgt":"یعنی 저 + 의۔ مثال: 제 이름은 … = میرا نام … ہے"}
 {"f":"cards","id":"ko.c0947","k":"meaning","src":"oneself; self","tgt":"خود؛ اپنی ذات"}
-{"f":"cards","id":"ko.c0947","k":"note","src":"자신 있어요 = I'm confident. 자신을 사랑하세요.","tgt":"مثال: 자신 있어요 = مجھے خود پر بھروسا ہے۔ 자신을 사랑하세요 (اپنے آپ سے محبت کیجیے)۔"}
+{"f":"cards","id":"ko.c0947","k":"note","src":"자신 있어요 = I'm confident. 자신을 사랑하세요.","tgt":"مثال: 자신 있어요 = مجھے خود پر بھروسا ہے۔ 자신을 사랑하세요 (اپنے آپ سے محبت کریں)۔"}
 {"f":"cards","id":"ko.c0948","k":"meaning","src":"you (casual, to a friend or a child)","tgt":"تم (بے تکلف، دوست یا بچے سے)"}
 {"f":"cards","id":"ko.c0948","k":"note","src":"Only to close friends or younger people. With 가: 네가 (said 니가).","tgt":"صرف پکے دوستوں یا چھوٹوں سے۔ 가 کے ساتھ: 네가 (بولتے ہیں 니가)۔"}
 {"f":"cards","id":"ko.c0949","k":"meaning","src":"what (spoken)","tgt":"کیا (بول چال)"}
 {"f":"cards","id":"ko.c0949","k":"note","src":"뭐 해요? = what are you doing? Formal: 무엇.","tgt":"مثال: 뭐 해요 = آپ کیا کر رہے ہیں؟ رسمی: 무엇۔"}
 {"f":"cards","id":"ko.c0950","k":"meaning","src":"who","tgt":"کون"}
 {"f":"cards","id":"ko.c0950","k":"note","src":"누구예요? With 가: 누가 왔어요? = who came?","tgt":"مثال: 누구예요 (کون ہے؟)۔ 가 کے ساتھ: 누가 왔어요 = کون آیا؟"}
-{"f":"cards","id":"ko.c0951","k":"meaning","src":"oneself; honey (between couples)","tgt":"خود؛ جان (جوڑوں میں)"}
+{"f":"cards","id":"ko.c0951","k":"meaning","src":"oneself; honey (between couples)","tgt":"خود؛ جانو (جوڑوں میں)"}
 {"f":"cards","id":"ko.c0951","k":"note","src":"자기 일 = one's own business. 자기야 = honey.","tgt":"مثال: 자기 일 = اپنا کام۔ 자기야 = جانو۔"}
 {"f":"cards","id":"ko.c0952","k":"meaning","src":"what (written, formal)","tgt":"کیا (تحریری، رسمی)"}
 {"f":"cards","id":"ko.c0952","k":"note","src":"무엇을 도와드릴까요? = how may I help you?","tgt":"مثال: 무엇을 도와드릴까요 = میں آپ کی کیا مدد کروں؟"}
@@ -510,8 +510,8 @@
 {"f":"cards","id":"ko.c0969","k":"note","src":"Introducing someone: 이분은 김 선생님이세요.","tgt":"کسی کا تعارف کراتے ہوئے: 이분은 김 선생님이세요۔"}
 {"f":"cards","id":"ko.c0970","k":"meaning","src":"this kid; this person (casual)","tgt":"یہ بچہ؛ یہ (بے تکلف)"}
 {"f":"cards","id":"ko.c0970","k":"note","src":"From 이 아이. About a friend standing next to you: 얘는 제 친구예요.","tgt":"یہ 이 아이 سے بنا ہے۔ پاس کھڑے دوست کے بارے میں: 얘는 제 친구예요 (یہ میرا دوست ہے)۔"}
-{"f":"cards","id":"ko.c0971","k":"meaning","src":"this way; this person (introducing)","tgt":"اس طرف؛ یہ (تعارف کراتے ہوئے)"}
-{"f":"cards","id":"ko.c0971","k":"note","src":"이쪽으로 오세요 = come this way. 이쪽은 제 동생이에요.","tgt":"مثال: 이쪽으로 오세요 = اس طرف آئیں۔ 이쪽은 제 동생이에요۔"}
+{"f":"cards","id":"ko.c0971","k":"meaning","src":"this way; this person (introducing)","tgt":"یہاں، اس طرف؛ یہ (تعارف کراتے ہوئے)"}
+{"f":"cards","id":"ko.c0971","k":"note","src":"이쪽으로 오세요 = come this way. 이쪽은 제 동생이에요.","tgt":"مثال: 이쪽으로 오세요 = یہاں اس طرف آئیں۔ 이쪽은 제 동생이에요۔"}
 {"f":"cards","id":"ko.c0972","k":"meaning","src":"that kid; he / she (casual)","tgt":"وہ بچہ؛ وہ (بے تکلف)"}
 {"f":"cards","id":"ko.c0972","k":"note","src":"From 그 아이. Common way to say \"he/she\" among friends.","tgt":"یہ 그 아이 سے بنا ہے۔ دوستوں میں \"وہ\" کہنے کا عام طریقہ۔"}
 {"f":"cards","id":"ko.c0973","k":"meaning","src":"you (to a stranger, lit. that side)","tgt":"آپ (اجنبی سے، لفظی: وہ طرف)"}
@@ -640,7 +640,7 @@
 {"f":"cards","id":"ko.c1034","k":"note","src":"Pleasantly surprised: 오, 멋있다! Also spelled like 오 (five).","tgt":"خوشگوار حیرت: 오, 멋있다 (اوہ، زبردست!)۔ لکھنے میں 오 (پانچ) جیسا ہی ہے۔"}
 {"f":"cards","id":"ko.c1035","k":"meaning","src":"yeah; uh-huh (casual)","tgt":"ہاں؛ ہوں (بے تکلف)"}
 {"f":"cards","id":"ko.c1035","k":"note","src":"Casual \"yes\" to friends. To elders: 네.","tgt":"دوستوں سے بے تکلف \"ہاں\"۔ بزرگوں سے: 네۔"}
-{"f":"cards","id":"ko.c1036","k":"meaning","src":"right, then; here you go","tgt":"چلیں جی؛ یہ لیں"}
+{"f":"cards","id":"ko.c1036","k":"meaning","src":"right, then; here you go","tgt":"تو چلیں؛ یہ لیں"}
 {"f":"cards","id":"ko.c1036","k":"note","src":"Getting started or handing something over: 자, 시작할까요?","tgt":"شروع کرتے یا کچھ پکڑاتے ہوئے: 자, 시작할까요 (چلیں، شروع کریں؟)"}
 {"f":"cards","id":"ko.c1037","k":"meaning","src":"hmm","tgt":"ہمم"}
 {"f":"cards","id":"ko.c1037","k":"note","src":"Thinking before you answer. Fine in any register.","tgt":"جواب سے پہلے سوچتے ہوئے۔ ہر درجے میں ٹھیک۔"}
@@ -980,7 +980,7 @@
 {"f":"cards","id":"ko.c1204","k":"note","src":"The first reflex after any compliment: deflect, even if you're pleased.","tgt":"کسی بھی تعریف کے بعد پہلا ردِعمل: بات ٹال دیں، چاہے آپ خوش ہوں۔"}
 {"f":"cards","id":"ko.c1205","k":"meaning","src":"Oh no, I still have a long way to go","tgt":"ارے نہیں، ابھی بہت سیکھنا باقی ہے"}
 {"f":"cards","id":"ko.c1205","k":"note","src":"The standard modest reply, especially about your Korean.","tgt":"عام مؤدب جواب، خاص طور پر اپنی کوریائی کے بارے میں۔"}
-{"f":"cards","id":"ko.c1206","k":"meaning","src":"Don't mention it; you're too kind","tgt":"ارے، یہ تو آپ کی ذرہ نوازی ہے"}
+{"f":"cards","id":"ko.c1206","k":"meaning","src":"Don't mention it; you're too kind","tgt":"ارے، شکریے کی کیا بات؛ یہ تو آپ کی ذرہ نوازی ہے"}
 {"f":"cards","id":"ko.c1206","k":"note","src":"Polite and a little formal. To elders and at work.","tgt":"مؤدب اور ذرا رسمی۔ بزرگوں سے اور دفتر میں۔"}
 {"f":"cards","id":"ko.c1207","k":"meaning","src":"You're praising me too much","tgt":"آپ ضرورت سے زیادہ تعریف کر رہے ہیں"}
 {"f":"cards","id":"ko.c1207","k":"note","src":"Literally \"that's too much praise\". Polite, a bit formal.","tgt":"لفظی: \"حد سے زیادہ تعریف\"۔ مؤدب، ذرا رسمی۔"}
@@ -1002,414 +1002,414 @@
 {"f":"cards","id":"ko.c1215","k":"note","src":"중국 사람 = Chinese (person); 중국어 = Chinese.","tgt":"مثال: 중국 사람 = چینی (شخص)؛ 중국어 = چینی زبان۔"}
 {"f":"cards","id":"ko.c1216","k":"meaning","src":"Taiwan","tgt":"تائیوان"}
 {"f":"cards","id":"ko.c1216","k":"note","src":"대만 사람 = Taiwanese (person). People speak 중국어.","tgt":"مثال: 대만 사람 = تائیوانی (شخص)۔ لوگ 중국어 بولتے ہیں۔"}
-{"f":"cards","id":"ko.c1217","k":"meaning","src":"Hong Kong","tgt":""}
-{"f":"cards","id":"ko.c1217","k":"note","src":"홍콩 사람. 광둥어 = Cantonese.","tgt":""}
-{"f":"cards","id":"ko.c1218","k":"meaning","src":"Macao","tgt":""}
-{"f":"cards","id":"ko.c1219","k":"meaning","src":"Mongolia","tgt":""}
-{"f":"cards","id":"ko.c1219","k":"note","src":"몽골 사람; 몽골어 = Mongolian.","tgt":""}
-{"f":"cards","id":"ko.c1220","k":"meaning","src":"Russia","tgt":""}
-{"f":"cards","id":"ko.c1220","k":"note","src":"러시아 사람; 러시아어 = Russian.","tgt":""}
-{"f":"cards","id":"ko.c1221","k":"meaning","src":"United States","tgt":""}
-{"f":"cards","id":"ko.c1221","k":"note","src":"미국 사람 = American. The language is 영어 (English); there is no 미국어.","tgt":"","rw":"mentions English"}
-{"f":"cards","id":"ko.c1222","k":"meaning","src":"India","tgt":""}
-{"f":"cards","id":"ko.c1222","k":"note","src":"인도 사람; 힌디어 = Hindi.","tgt":""}
-{"f":"cards","id":"ko.c1223","k":"meaning","src":"Indonesia","tgt":""}
-{"f":"cards","id":"ko.c1223","k":"note","src":"인도네시아 사람; 인도네시아어 = Indonesian.","tgt":""}
-{"f":"cards","id":"ko.c1224","k":"meaning","src":"Brazil","tgt":""}
-{"f":"cards","id":"ko.c1224","k":"note","src":"브라질 사람. People speak 포르투갈어.","tgt":""}
-{"f":"cards","id":"ko.c1225","k":"meaning","src":"Pakistan","tgt":""}
-{"f":"cards","id":"ko.c1226","k":"meaning","src":"Nigeria","tgt":""}
-{"f":"cards","id":"ko.c1227","k":"meaning","src":"Bangladesh","tgt":""}
-{"f":"cards","id":"ko.c1228","k":"meaning","src":"Mexico","tgt":""}
-{"f":"cards","id":"ko.c1228","k":"note","src":"멕시코 사람. People speak 스페인어.","tgt":""}
-{"f":"cards","id":"ko.c1229","k":"meaning","src":"Philippines","tgt":""}
-{"f":"cards","id":"ko.c1229","k":"note","src":"필리핀 사람 = Filipino (person); 필리핀어 or 타갈로그어 = Filipino, Tagalog.","tgt":""}
-{"f":"cards","id":"ko.c1230","k":"meaning","src":"Vietnam","tgt":""}
-{"f":"cards","id":"ko.c1230","k":"note","src":"베트남 사람; 베트남어 = Vietnamese.","tgt":""}
-{"f":"cards","id":"ko.c1231","k":"meaning","src":"United Kingdom","tgt":""}
-{"f":"cards","id":"ko.c1231","k":"note","src":"영국 사람 = British (person); 영어 = English (irregular: not 영국어).","tgt":"","rw":"mentions English"}
-{"f":"cards","id":"ko.c1232","k":"meaning","src":"Canada","tgt":""}
-{"f":"cards","id":"ko.c1232","k":"note","src":"캐나다 사람. People speak 영어 and 프랑스어.","tgt":""}
-{"f":"cards","id":"ko.c1233","k":"meaning","src":"Australia","tgt":""}
-{"f":"cards","id":"ko.c1233","k":"note","src":"호주 사람 = Australian. 호주 is from the Chinese characters; 오스트레일리아 is also correct.","tgt":""}
-{"f":"cards","id":"ko.c1234","k":"meaning","src":"Germany","tgt":""}
-{"f":"cards","id":"ko.c1234","k":"note","src":"독일 사람; 독일어 = German.","tgt":""}
-{"f":"cards","id":"ko.c1235","k":"meaning","src":"France","tgt":""}
-{"f":"cards","id":"ko.c1235","k":"note","src":"프랑스 사람; 프랑스어 = French.","tgt":""}
-{"f":"cards","id":"ko.c1236","k":"meaning","src":"Spain","tgt":""}
-{"f":"cards","id":"ko.c1236","k":"note","src":"스페인 사람; 스페인어 = Spanish.","tgt":""}
-{"f":"cards","id":"ko.c1237","k":"meaning","src":"Italy","tgt":""}
-{"f":"cards","id":"ko.c1237","k":"note","src":"이탈리아 사람; 이탈리아어 = Italian.","tgt":""}
-{"f":"cards","id":"ko.c1238","k":"meaning","src":"Thailand","tgt":""}
-{"f":"cards","id":"ko.c1238","k":"note","src":"태국 사람; 태국어 = Thai.","tgt":""}
-{"f":"cards","id":"ko.c1239","k":"meaning","src":"Malaysia","tgt":""}
-{"f":"cards","id":"ko.c1240","k":"meaning","src":"Singapore","tgt":""}
-{"f":"cards","id":"ko.c1241","k":"meaning","src":"Myanmar","tgt":""}
-{"f":"cards","id":"ko.c1242","k":"meaning","src":"Cambodia","tgt":""}
-{"f":"cards","id":"ko.c1243","k":"meaning","src":"Laos","tgt":""}
-{"f":"cards","id":"ko.c1244","k":"meaning","src":"Brunei","tgt":""}
-{"f":"cards","id":"ko.c1245","k":"meaning","src":"Timor-Leste","tgt":""}
-{"f":"cards","id":"ko.c1246","k":"meaning","src":"Nepal","tgt":""}
-{"f":"cards","id":"ko.c1247","k":"meaning","src":"Sri Lanka","tgt":""}
-{"f":"cards","id":"ko.c1248","k":"meaning","src":"Bhutan","tgt":""}
-{"f":"cards","id":"ko.c1249","k":"meaning","src":"Maldives","tgt":""}
-{"f":"cards","id":"ko.c1250","k":"meaning","src":"Afghanistan","tgt":""}
-{"f":"cards","id":"ko.c1251","k":"meaning","src":"Kazakhstan","tgt":""}
-{"f":"cards","id":"ko.c1252","k":"meaning","src":"Uzbekistan","tgt":""}
-{"f":"cards","id":"ko.c1253","k":"meaning","src":"Kyrgyzstan","tgt":""}
-{"f":"cards","id":"ko.c1254","k":"meaning","src":"Tajikistan","tgt":""}
-{"f":"cards","id":"ko.c1255","k":"meaning","src":"Turkmenistan","tgt":""}
-{"f":"cards","id":"ko.c1256","k":"meaning","src":"Türkiye","tgt":""}
-{"f":"cards","id":"ko.c1256","k":"note","src":"The official Korean name since 2022; the older 터키 is still common. 튀르키예어 = Turkish.","tgt":""}
-{"f":"cards","id":"ko.c1257","k":"meaning","src":"Iran","tgt":""}
-{"f":"cards","id":"ko.c1258","k":"meaning","src":"Iraq","tgt":""}
-{"f":"cards","id":"ko.c1259","k":"meaning","src":"Saudi Arabia","tgt":""}
-{"f":"cards","id":"ko.c1259","k":"note","src":"아랍어 = Arabic.","tgt":""}
-{"f":"cards","id":"ko.c1260","k":"meaning","src":"United Arab Emirates","tgt":""}
-{"f":"cards","id":"ko.c1261","k":"meaning","src":"Qatar","tgt":""}
-{"f":"cards","id":"ko.c1262","k":"meaning","src":"Kuwait","tgt":""}
-{"f":"cards","id":"ko.c1263","k":"meaning","src":"Bahrain","tgt":""}
-{"f":"cards","id":"ko.c1264","k":"meaning","src":"Oman","tgt":""}
-{"f":"cards","id":"ko.c1265","k":"meaning","src":"Yemen","tgt":""}
-{"f":"cards","id":"ko.c1266","k":"meaning","src":"Jordan","tgt":""}
-{"f":"cards","id":"ko.c1267","k":"meaning","src":"Lebanon","tgt":""}
-{"f":"cards","id":"ko.c1268","k":"meaning","src":"Syria","tgt":""}
-{"f":"cards","id":"ko.c1269","k":"meaning","src":"Israel","tgt":""}
-{"f":"cards","id":"ko.c1270","k":"meaning","src":"Palestine","tgt":""}
-{"f":"cards","id":"ko.c1271","k":"meaning","src":"Cyprus","tgt":""}
-{"f":"cards","id":"ko.c1272","k":"meaning","src":"Georgia","tgt":""}
-{"f":"cards","id":"ko.c1272","k":"note","src":"The country. The US state is also 조지아.","tgt":""}
-{"f":"cards","id":"ko.c1273","k":"meaning","src":"Armenia","tgt":""}
-{"f":"cards","id":"ko.c1274","k":"meaning","src":"Azerbaijan","tgt":""}
-{"f":"cards","id":"ko.c1275","k":"meaning","src":"Guatemala","tgt":""}
-{"f":"cards","id":"ko.c1276","k":"meaning","src":"Belize","tgt":""}
-{"f":"cards","id":"ko.c1277","k":"meaning","src":"El Salvador","tgt":""}
-{"f":"cards","id":"ko.c1278","k":"meaning","src":"Honduras","tgt":""}
-{"f":"cards","id":"ko.c1279","k":"meaning","src":"Nicaragua","tgt":""}
-{"f":"cards","id":"ko.c1280","k":"meaning","src":"Costa Rica","tgt":""}
-{"f":"cards","id":"ko.c1281","k":"meaning","src":"Panama","tgt":""}
-{"f":"cards","id":"ko.c1282","k":"meaning","src":"Cuba","tgt":""}
-{"f":"cards","id":"ko.c1283","k":"meaning","src":"Jamaica","tgt":""}
-{"f":"cards","id":"ko.c1284","k":"meaning","src":"Haiti","tgt":""}
-{"f":"cards","id":"ko.c1285","k":"meaning","src":"Dominican Republic","tgt":""}
-{"f":"cards","id":"ko.c1285","k":"note","src":"Not the island country Dominica (도미니카 연방).","tgt":""}
-{"f":"cards","id":"ko.c1286","k":"meaning","src":"Puerto Rico","tgt":""}
-{"f":"cards","id":"ko.c1287","k":"meaning","src":"Bahamas","tgt":""}
-{"f":"cards","id":"ko.c1288","k":"meaning","src":"Barbados","tgt":""}
-{"f":"cards","id":"ko.c1289","k":"meaning","src":"Trinidad and Tobago","tgt":""}
-{"f":"cards","id":"ko.c1290","k":"meaning","src":"Dominica","tgt":""}
-{"f":"cards","id":"ko.c1291","k":"meaning","src":"Grenada","tgt":""}
-{"f":"cards","id":"ko.c1292","k":"meaning","src":"Saint Lucia","tgt":""}
-{"f":"cards","id":"ko.c1293","k":"meaning","src":"Saint Vincent and the Grenadines","tgt":""}
-{"f":"cards","id":"ko.c1294","k":"meaning","src":"Saint Kitts and Nevis","tgt":""}
-{"f":"cards","id":"ko.c1295","k":"meaning","src":"Antigua and Barbuda","tgt":""}
-{"f":"cards","id":"ko.c1296","k":"meaning","src":"Argentina","tgt":""}
-{"f":"cards","id":"ko.c1297","k":"meaning","src":"Colombia","tgt":""}
-{"f":"cards","id":"ko.c1298","k":"meaning","src":"Peru","tgt":""}
-{"f":"cards","id":"ko.c1299","k":"meaning","src":"Venezuela","tgt":""}
-{"f":"cards","id":"ko.c1300","k":"meaning","src":"Chile","tgt":""}
-{"f":"cards","id":"ko.c1301","k":"meaning","src":"Ecuador","tgt":""}
-{"f":"cards","id":"ko.c1302","k":"meaning","src":"Bolivia","tgt":""}
-{"f":"cards","id":"ko.c1303","k":"meaning","src":"Paraguay","tgt":""}
-{"f":"cards","id":"ko.c1304","k":"meaning","src":"Uruguay","tgt":""}
-{"f":"cards","id":"ko.c1305","k":"meaning","src":"Guyana","tgt":""}
-{"f":"cards","id":"ko.c1306","k":"meaning","src":"Suriname","tgt":""}
-{"f":"cards","id":"ko.c1307","k":"meaning","src":"England","tgt":""}
-{"f":"cards","id":"ko.c1307","k":"note","src":"One of the four nations of the United Kingdom (영국).","tgt":""}
-{"f":"cards","id":"ko.c1308","k":"meaning","src":"Scotland","tgt":""}
-{"f":"cards","id":"ko.c1309","k":"meaning","src":"Wales","tgt":""}
-{"f":"cards","id":"ko.c1310","k":"meaning","src":"Ireland","tgt":""}
-{"f":"cards","id":"ko.c1311","k":"meaning","src":"Portugal","tgt":""}
-{"f":"cards","id":"ko.c1311","k":"note","src":"포르투갈 사람; 포르투갈어 = Portuguese.","tgt":""}
-{"f":"cards","id":"ko.c1312","k":"meaning","src":"Netherlands","tgt":""}
-{"f":"cards","id":"ko.c1312","k":"note","src":"네덜란드 사람; 네덜란드어 = Dutch.","tgt":""}
-{"f":"cards","id":"ko.c1313","k":"meaning","src":"Belgium","tgt":""}
-{"f":"cards","id":"ko.c1314","k":"meaning","src":"Luxembourg","tgt":""}
-{"f":"cards","id":"ko.c1315","k":"meaning","src":"Switzerland","tgt":""}
-{"f":"cards","id":"ko.c1316","k":"meaning","src":"Austria","tgt":""}
-{"f":"cards","id":"ko.c1317","k":"meaning","src":"Denmark","tgt":""}
-{"f":"cards","id":"ko.c1318","k":"meaning","src":"Norway","tgt":""}
-{"f":"cards","id":"ko.c1319","k":"meaning","src":"Sweden","tgt":""}
-{"f":"cards","id":"ko.c1320","k":"meaning","src":"Finland","tgt":""}
-{"f":"cards","id":"ko.c1321","k":"meaning","src":"Iceland","tgt":""}
-{"f":"cards","id":"ko.c1322","k":"meaning","src":"Poland","tgt":""}
-{"f":"cards","id":"ko.c1322","k":"note","src":"폴란드 사람; 폴란드어 = Polish.","tgt":""}
-{"f":"cards","id":"ko.c1323","k":"meaning","src":"Czechia","tgt":""}
-{"f":"cards","id":"ko.c1324","k":"meaning","src":"Slovakia","tgt":""}
-{"f":"cards","id":"ko.c1325","k":"meaning","src":"Hungary","tgt":""}
-{"f":"cards","id":"ko.c1326","k":"meaning","src":"Romania","tgt":""}
-{"f":"cards","id":"ko.c1327","k":"meaning","src":"Bulgaria","tgt":""}
-{"f":"cards","id":"ko.c1328","k":"meaning","src":"Greece","tgt":""}
-{"f":"cards","id":"ko.c1329","k":"meaning","src":"Ukraine","tgt":""}
-{"f":"cards","id":"ko.c1329","k":"note","src":"우크라이나 사람; 우크라이나어 = Ukrainian.","tgt":""}
-{"f":"cards","id":"ko.c1330","k":"meaning","src":"Belarus","tgt":""}
-{"f":"cards","id":"ko.c1331","k":"meaning","src":"Moldova","tgt":""}
-{"f":"cards","id":"ko.c1332","k":"meaning","src":"Lithuania","tgt":""}
-{"f":"cards","id":"ko.c1333","k":"meaning","src":"Latvia","tgt":""}
-{"f":"cards","id":"ko.c1334","k":"meaning","src":"Estonia","tgt":""}
-{"f":"cards","id":"ko.c1335","k":"meaning","src":"Serbia","tgt":""}
-{"f":"cards","id":"ko.c1336","k":"meaning","src":"Croatia","tgt":""}
-{"f":"cards","id":"ko.c1337","k":"meaning","src":"Slovenia","tgt":""}
-{"f":"cards","id":"ko.c1338","k":"meaning","src":"Bosnia and Herzegovina","tgt":""}
-{"f":"cards","id":"ko.c1339","k":"meaning","src":"Montenegro","tgt":""}
-{"f":"cards","id":"ko.c1340","k":"meaning","src":"North Macedonia","tgt":""}
-{"f":"cards","id":"ko.c1341","k":"meaning","src":"Albania","tgt":""}
-{"f":"cards","id":"ko.c1342","k":"meaning","src":"Kosovo","tgt":""}
-{"f":"cards","id":"ko.c1343","k":"meaning","src":"Malta","tgt":""}
-{"f":"cards","id":"ko.c1344","k":"meaning","src":"Monaco","tgt":""}
-{"f":"cards","id":"ko.c1345","k":"meaning","src":"Liechtenstein","tgt":""}
-{"f":"cards","id":"ko.c1346","k":"meaning","src":"Andorra","tgt":""}
-{"f":"cards","id":"ko.c1347","k":"meaning","src":"San Marino","tgt":""}
-{"f":"cards","id":"ko.c1348","k":"meaning","src":"Vatican City","tgt":""}
-{"f":"cards","id":"ko.c1349","k":"meaning","src":"Egypt","tgt":""}
-{"f":"cards","id":"ko.c1350","k":"meaning","src":"Ethiopia","tgt":""}
-{"f":"cards","id":"ko.c1351","k":"meaning","src":"South Africa","tgt":""}
-{"f":"cards","id":"ko.c1351","k":"note","src":"Often shortened to 남아공.","tgt":""}
-{"f":"cards","id":"ko.c1352","k":"meaning","src":"Kenya","tgt":""}
-{"f":"cards","id":"ko.c1353","k":"meaning","src":"Morocco","tgt":""}
-{"f":"cards","id":"ko.c1354","k":"meaning","src":"Algeria","tgt":""}
-{"f":"cards","id":"ko.c1355","k":"meaning","src":"Tunisia","tgt":""}
-{"f":"cards","id":"ko.c1356","k":"meaning","src":"Libya","tgt":""}
-{"f":"cards","id":"ko.c1357","k":"meaning","src":"Sudan","tgt":""}
-{"f":"cards","id":"ko.c1358","k":"meaning","src":"South Sudan","tgt":""}
-{"f":"cards","id":"ko.c1359","k":"meaning","src":"Ghana","tgt":""}
-{"f":"cards","id":"ko.c1360","k":"meaning","src":"Côte d'Ivoire","tgt":""}
-{"f":"cards","id":"ko.c1361","k":"meaning","src":"Senegal","tgt":""}
-{"f":"cards","id":"ko.c1362","k":"meaning","src":"Cameroon","tgt":""}
-{"f":"cards","id":"ko.c1363","k":"meaning","src":"Democratic Republic of the Congo","tgt":""}
-{"f":"cards","id":"ko.c1364","k":"meaning","src":"Republic of the Congo","tgt":""}
-{"f":"cards","id":"ko.c1365","k":"meaning","src":"Angola","tgt":""}
-{"f":"cards","id":"ko.c1366","k":"meaning","src":"Tanzania","tgt":""}
-{"f":"cards","id":"ko.c1367","k":"meaning","src":"Uganda","tgt":""}
-{"f":"cards","id":"ko.c1368","k":"meaning","src":"Rwanda","tgt":""}
-{"f":"cards","id":"ko.c1369","k":"meaning","src":"Burundi","tgt":""}
-{"f":"cards","id":"ko.c1370","k":"meaning","src":"Somalia","tgt":""}
-{"f":"cards","id":"ko.c1371","k":"meaning","src":"Djibouti","tgt":""}
-{"f":"cards","id":"ko.c1372","k":"meaning","src":"Eritrea","tgt":""}
-{"f":"cards","id":"ko.c1373","k":"meaning","src":"Mozambique","tgt":""}
-{"f":"cards","id":"ko.c1374","k":"meaning","src":"Madagascar","tgt":""}
-{"f":"cards","id":"ko.c1375","k":"meaning","src":"Zimbabwe","tgt":""}
-{"f":"cards","id":"ko.c1376","k":"meaning","src":"Zambia","tgt":""}
-{"f":"cards","id":"ko.c1377","k":"meaning","src":"Malawi","tgt":""}
-{"f":"cards","id":"ko.c1378","k":"meaning","src":"Botswana","tgt":""}
-{"f":"cards","id":"ko.c1379","k":"meaning","src":"Namibia","tgt":""}
-{"f":"cards","id":"ko.c1380","k":"meaning","src":"Lesotho","tgt":""}
-{"f":"cards","id":"ko.c1381","k":"meaning","src":"Eswatini","tgt":""}
-{"f":"cards","id":"ko.c1382","k":"meaning","src":"Mauritius","tgt":""}
-{"f":"cards","id":"ko.c1383","k":"meaning","src":"Seychelles","tgt":""}
-{"f":"cards","id":"ko.c1384","k":"meaning","src":"Comoros","tgt":""}
-{"f":"cards","id":"ko.c1385","k":"meaning","src":"Cabo Verde","tgt":""}
-{"f":"cards","id":"ko.c1386","k":"meaning","src":"Guinea","tgt":""}
-{"f":"cards","id":"ko.c1387","k":"meaning","src":"Guinea-Bissau","tgt":""}
-{"f":"cards","id":"ko.c1388","k":"meaning","src":"Equatorial Guinea","tgt":""}
-{"f":"cards","id":"ko.c1389","k":"meaning","src":"Sierra Leone","tgt":""}
-{"f":"cards","id":"ko.c1390","k":"meaning","src":"Liberia","tgt":""}
-{"f":"cards","id":"ko.c1391","k":"meaning","src":"Togo","tgt":""}
-{"f":"cards","id":"ko.c1392","k":"meaning","src":"Benin","tgt":""}
-{"f":"cards","id":"ko.c1393","k":"meaning","src":"Burkina Faso","tgt":""}
-{"f":"cards","id":"ko.c1394","k":"meaning","src":"Mali","tgt":""}
-{"f":"cards","id":"ko.c1395","k":"meaning","src":"Niger","tgt":""}
-{"f":"cards","id":"ko.c1396","k":"meaning","src":"Chad","tgt":""}
-{"f":"cards","id":"ko.c1397","k":"meaning","src":"Central African Republic","tgt":""}
-{"f":"cards","id":"ko.c1398","k":"meaning","src":"Gabon","tgt":""}
-{"f":"cards","id":"ko.c1399","k":"meaning","src":"Gambia","tgt":""}
-{"f":"cards","id":"ko.c1400","k":"meaning","src":"Mauritania","tgt":""}
-{"f":"cards","id":"ko.c1401","k":"meaning","src":"São Tomé and Príncipe","tgt":""}
-{"f":"cards","id":"ko.c1402","k":"meaning","src":"New Zealand","tgt":""}
-{"f":"cards","id":"ko.c1403","k":"meaning","src":"Fiji","tgt":""}
-{"f":"cards","id":"ko.c1404","k":"meaning","src":"Papua New Guinea","tgt":""}
-{"f":"cards","id":"ko.c1405","k":"meaning","src":"Solomon Islands","tgt":""}
-{"f":"cards","id":"ko.c1406","k":"meaning","src":"Vanuatu","tgt":""}
-{"f":"cards","id":"ko.c1407","k":"meaning","src":"Samoa","tgt":""}
-{"f":"cards","id":"ko.c1408","k":"meaning","src":"Tonga","tgt":""}
-{"f":"cards","id":"ko.c1409","k":"meaning","src":"Kiribati","tgt":""}
-{"f":"cards","id":"ko.c1410","k":"meaning","src":"Tuvalu","tgt":""}
-{"f":"cards","id":"ko.c1411","k":"meaning","src":"Nauru","tgt":""}
-{"f":"cards","id":"ko.c1412","k":"meaning","src":"Marshall Islands","tgt":""}
-{"f":"cards","id":"ko.c1413","k":"meaning","src":"Micronesia","tgt":""}
-{"f":"cards","id":"ko.c1414","k":"meaning","src":"Palau","tgt":""}
-{"f":"cards","id":"ko.c1415","k":"meaning","src":"Guam","tgt":""}
-{"f":"dialog","id":"ko.g001","k":"tr","src":"Hello, nice to meet you for the first time. / Hi! Nice to meet you.","tgt":""}
-{"f":"dialog","id":"ko.g002","k":"tr","src":"Thank you for helping. / Not at all.","tgt":""}
-{"f":"dialog","id":"ko.g003","k":"tr","src":"Sorry I'm late. / It's fine, I just got here too.","tgt":""}
-{"f":"dialog","id":"ko.g004","k":"tr","src":"How much is this? / 12,000 won.","tgt":""}
-{"f":"dialog","id":"ko.g005","k":"tr","src":"Excuse me, where's the bathroom? / Go straight that way.","tgt":""}
-{"f":"dialog","id":"ko.g006","k":"tr","src":"What can I get you? / This one, to go.","tgt":""}
-{"f":"dialog","id":"ko.g007","k":"tr","src":"Are you okay? Hurt? / Yes, I'm fine.","tgt":""}
-{"f":"dialog","id":"ko.g008","k":"tr","src":"Sorry, please speak slowly. / Ah, sure, I'll slow down.","tgt":""}
-{"f":"dialog","id":"ko.g009","k":"tr","src":"Your Korean is good! / No, I'm still not good.","tgt":""}
-{"f":"dialog","id":"ko.g010","k":"tr","src":"Excuse me, coming through. / Go ahead.","tgt":""}
-{"f":"dialog","id":"ko.g011","k":"tr","src":"Excuse me! The menu, please. / Yes, one moment.","tgt":""}
-{"f":"dialog","id":"ko.g012","k":"tr","src":"Excuse me, please help me. / Sure, what do you need?","tgt":""}
-{"f":"dialog","id":"ko.g013","k":"tr","src":"Sorry, say that again please. / The subway station is on the left.","tgt":""}
-{"f":"dialog","id":"ko.g014","k":"tr","src":"Can you speak English? / A little. I'll speak slowly.","tgt":"","rw":"mentions English"}
-{"f":"dialog","id":"ko.g015","k":"tr","src":"What is this? / Tteokbokki. It's a bit spicy.","tgt":""}
-{"f":"dialog","id":"ko.g016","k":"tr","src":"Do you take cards? / Yes. Insert it here.","tgt":""}
-{"f":"dialog","id":"ko.g017","k":"tr","src":"What's the wifi password? / It's on the receipt.","tgt":""}
-{"f":"dialog","id":"ko.g018","k":"tr","src":"I'm lost. Where is this? / This is Hongdae. Where are you going?","tgt":""}
-{"f":"dialog","id":"ko.g019","k":"tr","src":"What's your name? / I'm @@. What's yours?","tgt":""}
-{"f":"dialog","id":"ko.g020","k":"tr","src":"Nice to meet you. / Nice to meet you too.","tgt":""}
-{"f":"dialog","id":"ko.g021","k":"tr","src":"Where are you from? / From the Philippines. Cebu.","tgt":""}
-{"f":"dialog","id":"ko.g022","k":"tr","src":"Excuse me, how old are you? / 28. And you?","tgt":""}
-{"f":"dialog","id":"ko.g023","k":"tr","src":"What do you do? / I work at an IT company.","tgt":""}
-{"f":"dialog","id":"ko.g024","k":"tr","src":"Do you study Korean? / Yes, a little every day.","tgt":""}
-{"f":"dialog","id":"ko.g025","k":"tr","src":"What's your hobby? / Running and music.","tgt":""}
-{"f":"dialog","id":"ko.g026","k":"tr","src":"Long time no see! How've you been? / Good, thanks. You?","tgt":""}
-{"f":"dialog","id":"ko.g027","k":"tr","src":"How are things lately? / Busy. But fun.","tgt":""}
-{"f":"dialog","id":"ko.g028","k":"tr","src":"Nice weather today. / Yes, perfect for a walk.","tgt":""}
-{"f":"dialog","id":"ko.g029","k":"tr","src":"What are you doing this weekend? / Going hiking. Want to come?","tgt":""}
-{"f":"dialog","id":"ko.g030","k":"tr","src":"Today was fun. See you again! / Yes, I'll be in touch.","tgt":""}
-{"f":"dialog","id":"ko.g031","k":"tr","src":"I'll head out first. Goodbye (stay well). / Bye (go well).","tgt":""}
-{"f":"dialog","id":"ko.g032","k":"tr","src":"I'm bored. Let's hang out! / Deal! Where should we meet?","tgt":""}
-{"f":"dialog","id":"ko.g033","k":"tr","src":"Are you free tomorrow? / In the afternoon. Why?","tgt":""}
-{"f":"dialog","id":"ko.g034","k":"tr","src":"I'm going to a café, wanna come? / Sure, let's go.","tgt":""}
-{"f":"dialog","id":"ko.g035","k":"tr","src":"I'm hungry. Wanna go eat? / Yes! What should we eat?","tgt":""}
-{"f":"dialog","id":"ko.g036","k":"tr","src":"When should we meet? / How about Saturday?","tgt":""}
-{"f":"dialog","id":"ko.g037","k":"tr","src":"Where should we meet? / Let's meet at Gangnam station exit 11.","tgt":""}
-{"f":"dialog","id":"ko.g038","k":"tr","src":"Where are you? Almost here? / Sorry, coming now. 5 minutes!","tgt":""}
-{"f":"dialog","id":"ko.g039","k":"tr","src":"Today was really fun. / Me too. Let's hang out again!","tgt":""}
-{"f":"dialog","id":"ko.g040","k":"tr","src":"Ready to order? / One iced Americano, please.","tgt":""}
-{"f":"dialog","id":"ko.g041","k":"tr","src":"For here? / No, to go.","tgt":""}
-{"f":"dialog","id":"ko.g042","k":"tr","src":"What sizes do you have? / Tall, grande, venti.","tgt":""}
-{"f":"dialog","id":"ko.g043","k":"tr","src":"Do you have a points card? / No, that's okay.","tgt":""}
-{"f":"dialog","id":"ko.g044","k":"tr","src":"Please heat this up. / Sure, it takes a minute.","tgt":""}
-{"f":"dialog","id":"ko.g045","k":"tr","src":"Do you need a bag? / Yes, one please.","tgt":""}
-{"f":"dialog","id":"ko.g046","k":"tr","src":"Cash or card? / Card.","tgt":""}
-{"f":"dialog","id":"ko.g047","k":"tr","src":"Where is a pharmacy? / On the first floor of that building.","tgt":""}
-{"f":"dialog","id":"ko.g048","k":"tr","src":"Where does it hurt? / My head hurts. I have a fever too.","tgt":""}
-{"f":"dialog","id":"ko.g049","k":"tr","src":"Do you have painkillers? / Yes, take these after a meal.","tgt":""}
-{"f":"dialog","id":"ko.g050","k":"tr","src":"Do you have allergies? / Yes, I'm allergic to peanuts.","tgt":""}
-{"f":"dialog","id":"ko.g051","k":"tr","src":"How many times a day? / Three times, 30 minutes after meals.","tgt":""}
-{"f":"dialog","id":"ko.g052","k":"tr","src":"Package! / Please leave it at the door.","tgt":""}
-{"f":"dialog","id":"ko.g053","k":"tr","src":"How much is rent? / 500,000 won, maintenance included.","tgt":""}
-{"f":"dialog","id":"ko.g054","k":"tr","src":"Can you dry clean this? / Yes, pick it up tomorrow afternoon.","tgt":""}
-{"f":"dialog","id":"ko.g055","k":"tr","src":"I'm starting work with you today. Please take care of me. / Likewise.","tgt":""}
-{"f":"dialog","id":"ko.g056","k":"tr","src":"How are things? / So-so. Just busy.","tgt":""}
-{"f":"dialog","id":"ko.g057","k":"tr","src":"I'm a coffee addict. / Me too! At least three cups a day.","tgt":""}
-{"f":"dialog","id":"ko.g058","k":"tr","src":"I'm going to Korea next month. / Really? Where to?","tgt":""}
-{"f":"dialog","id":"ko.g059","k":"tr","src":"I should get going. Goodbye. / Okay, get home safe.","tgt":""}
-{"f":"dialog","id":"ko.g060","k":"tr","src":"See you next time. / Yes, I'll be in touch!","tgt":""}
-{"f":"dialog","id":"ko.g061","k":"tr","src":"Hey, what are you doing? / Watching Netflix at home. Why?","tgt":""}
-{"f":"dialog","id":"ko.g062","k":"tr","src":"Are you free tonight? / Yeah, after seven.","tgt":""}
-{"f":"dialog","id":"ko.g063","k":"tr","src":"Wanna come over? I'll order chicken. / Deal! I'll bring beer.","tgt":""}
-{"f":"dialog","id":"ko.g064","k":"tr","src":"Today was so fun. Let's hang again. / Sure, see you next week!","tgt":""}
-{"f":"dialog","id":"ko.g065","k":"tr","src":"Can I get your number? / Sure, 010-3322-7788.","tgt":""}
-{"f":"dialog","id":"ko.g066","k":"tr","src":"Do you have Instagram? / Yes, I'll give you my handle.","tgt":""}
-{"f":"dialog","id":"ko.g067","k":"tr","src":"Today was lovely. Shall we meet again? / Sure. This time it's on me.","tgt":""}
-{"f":"dialog","id":"ko.g068","k":"tr","src":"It's late. I'll walk you home. / It's fine, I can take the subway.","tgt":""}
-{"f":"dialog","id":"ko.g069","k":"tr","src":"You look pretty today. / Thanks. I got a haircut.","tgt":""}
-{"f":"dialog","id":"ko.g070","k":"tr","src":"You're here! I missed you. / Me too. Did you wait long?","tgt":""}
-{"f":"dialog","id":"ko.g071","k":"tr","src":"Did you get home safe? / Yeah, just got in. Thanks for today.","tgt":""}
-{"f":"dialog","id":"ko.g072","k":"tr","src":"I'm going to sleep. Night! / Okay, sweet dreams.","tgt":""}
-{"f":"dialog","id":"ko.g073","k":"tr","src":"Did you eat? / Not yet. Wanna eat together?","tgt":""}
-{"f":"dialog","id":"ko.g074","k":"tr","src":"What are you up to? / Just lying around. Bored.","tgt":""}
-{"f":"dialog","id":"ko.g075","k":"tr","src":"Where are you? Almost here? / Sorry, five minutes! Just got off the subway.","tgt":""}
-{"f":"dialog","id":"ko.g076","k":"tr","src":"I think I'll be late. / No worries, take your time. I'll be at the café.","tgt":""}
-{"f":"dialog","id":"ko.g077","k":"tr","src":"Look at this meme lol / That's hilarious lol","tgt":""}
-{"f":"dialog","id":"ko.g078","k":"tr","src":"I made this. / Wow, that's cool! How did you make it?","tgt":""}
-{"f":"dialog","id":"ko.g079","k":"tr","src":"I passed the exam! / Really? Nice job!","tgt":""}
-{"f":"dialog","id":"ko.g080","k":"tr","src":"I worked overtime today… / You worked hard. Get some rest.","tgt":""}
-{"f":"dialog","id":"ko.g081","k":"tr","src":"Wanna grab a drink after work? / Love to! Where?","tgt":""}
-{"f":"dialog","id":"ko.g082","k":"tr","src":"I'm so nervous about the interview. / You got this! You'll do great.","tgt":""}
-{"f":"dialog","id":"ko.g083","k":"tr","src":"What are you doing tomorrow? / I'm off tomorrow. Why?","tgt":""}
-{"f":"dialog","id":"ko.g084","k":"tr","src":"What time is it now? / Half past two.","tgt":""}
-{"f":"dialog","id":"ko.g085","k":"tr","src":"What time is it? / 9:10.","tgt":""}
-{"f":"dialog","id":"ko.g086","k":"tr","src":"How's the weather in Seoul? / Cold today, and the fine dust is bad.","tgt":""}
-{"f":"dialog","id":"ko.g087","k":"tr","src":"Is it raining outside? / Yes, take an umbrella.","tgt":""}
-{"f":"dialog","id":"ko.g088","k":"tr","src":"You look tired. / Yeah, I couldn't sleep last night.","tgt":""}
-{"f":"dialog","id":"ko.g089","k":"tr","src":"I'm bored. / Then shall we watch a movie?","tgt":""}
-{"f":"dialog","id":"ko.g090","k":"tr","src":"I won the lottery! / No way! How much?","tgt":""}
-{"f":"dialog","id":"ko.g091","k":"tr","src":"I lost my wallet… / Oh no! Did you check with the police?","tgt":""}
-{"f":"dialog","id":"ko.g092","k":"tr","src":"My presentation is tomorrow. / You got this! You can do it.","tgt":""}
-{"f":"dialog","id":"ko.g093","k":"tr","src":"Please eat plenty. / Thank you, I will!","tgt":""}
-{"f":"dialog","id":"ko.g094","k":"tr","src":"May I have your name? / I'm Kim Minsu.","tgt":""}
-{"f":"dialog","id":"ko.g095","k":"tr","src":"Please sit here. / Thank you.","tgt":""}
-{"f":"dialog","id":"ko.g096","k":"tr","src":"Anyone home? / Yes, come in!","tgt":""}
-{"f":"dialog","id":"ko.g097","k":"tr","src":"Teacher, have you been well? / Yes, thanks to you. Long time no see.","tgt":""}
-{"f":"dialog","id":"ko.g098","k":"tr","src":"Would you mind taking a photo? / Of course. One, two, three!","tgt":""}
-{"f":"dialog","id":"ko.g099","k":"tr","src":"What are we? / Hmm… I like you. Want to go out?","tgt":""}
-{"f":"dialog","id":"ko.g100","k":"tr","src":"Why didn't you text yesterday? / Sorry, my fault. Don't be mad.","tgt":""}
-{"f":"dialog","id":"ko.g101","k":"tr","src":"How is it being with me? / I feel comfortable. That's the best part.","tgt":""}
-{"f":"dialog","id":"ko.g102","k":"tr","src":"Can I hold your hand? / Yeah… is it because you're cold?","tgt":""}
-{"f":"dialog","id":"ko.g103","k":"tr","src":"It's our 100th day today! / Really? Happy 100 days. I got you something.","tgt":""}
-{"f":"dialog","id":"ko.g104","k":"tr","src":"I have something to tell you. / What is it? Is something wrong?","tgt":""}
-{"f":"dialog","id":"ko.g105","k":"tr","src":"What time is the meeting? / Two. Meeting room B.","tgt":""}
-{"f":"dialog","id":"ko.g106","k":"tr","src":"When is the deadline? / Friday, 6 PM.","tgt":""}
-{"f":"dialog","id":"ko.g107","k":"tr","src":"Manager, do you have a moment? / Yes, come in.","tgt":""}
-{"f":"dialog","id":"ko.g108","k":"tr","src":"I'll head out first. / Okay, good work today.","tgt":""}
-{"f":"dialog","id":"ko.g109","k":"tr","src":"There's a team dinner today. / What time and where?","tgt":""}
-{"f":"dialog","id":"ko.g110","k":"tr","src":"What should we have for lunch? / How about kimchi stew?","tgt":""}
-{"f":"dialog","id":"ko.g111","k":"tr","src":"Ugh, I'm bored. What should I do? / Come out. Let's get chicken.","tgt":""}
-{"f":"dialog","id":"ko.g112","k":"tr","src":"I'm so tired today. / Sleep early. See you tomorrow.","tgt":""}
-{"f":"dialog","id":"ko.g113","k":"tr","src":"Where are you? / On my way. 10 minutes!","tgt":""}
-{"f":"dialog","id":"ko.g114","k":"tr","src":"What's with him? / Dunno. I'm curious too.","tgt":""}
-{"f":"dialog","id":"ko.g115","k":"tr","src":"I saved us seats. / You really are the best.","tgt":""}
-{"f":"dialog","id":"ko.g116","k":"tr","src":"Karaoke tonight? / Let's go! My treat.","tgt":""}
-{"f":"dialog","id":"ko.g117","k":"tr","src":"I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.","tgt":""}
-{"f":"dialog","id":"ko.g118","k":"tr","src":"Finally done. / Nice work. A beer?","tgt":""}
-{"f":"dialog","id":"ko.g119","k":"tr","src":"How's this? Just bought it. / Cute. It suits you.","tgt":""}
-{"f":"dialog","id":"ko.g120","k":"tr","src":"I miss you. / Me too. Let's meet this weekend.","tgt":""}
-{"f":"dialog","id":"ko.g121","k":"tr","src":"I like you. / …Me too. You should've said sooner.","tgt":""}
-{"f":"dialog","id":"ko.g122","k":"tr","src":"Babe, what are you doing? / Thinking about you, obviously.","tgt":""}
-{"f":"dialog","id":"ko.g123","k":"tr","src":"I'm heading out now. / Get home safe. Text me when you arrive.","tgt":""}
-{"f":"dialog","id":"ko.g124","k":"tr","src":"Sleepy. Going to bed. / Okay, sweet dreams.","tgt":""}
-{"f":"dialog","id":"ko.g125","k":"tr","src":"Why are you smiling like that? / Your smile just now made my heart skip.","tgt":""}
-{"f":"dialog","id":"ko.g126","k":"tr","src":"Why'd you text? / No reason. I keep thinking about you.","tgt":""}
-{"f":"dialog","id":"ko.g127","k":"tr","src":"You said you had something to say? / I think I like you.","tgt":""}
-{"f":"dialog","id":"ko.g128","k":"tr","src":"What are we? / Let's date.","tgt":""}
-{"f":"dialog","id":"ko.g129","k":"tr","src":"I passed! / Really? Congrats!","tgt":""}
-{"f":"dialog","id":"ko.g130","k":"tr","src":"I'll go first. / Don't go. Stay a little longer.","tgt":""}
-{"f":"dialog","id":"ko.g131","k":"tr","src":"Long time no see. / I missed you. Been well?","tgt":""}
-{"f":"dialog","id":"ko.g132","k":"tr","src":"Who's your bias? / The main vocalist.","tgt":""}
-{"f":"dialog","id":"ko.g133","k":"tr","src":"What are you listening to lately? / I became a fan of this group. Their stage is amazing.","tgt":""}
-{"f":"dialog","id":"ko.g134","k":"tr","src":"What are you doing this weekend? / Going to a concert! I even bought a light stick.","tgt":""}
-{"f":"dialog","id":"ko.g135","k":"tr","src":"I'm a fan! Please sign this. / Sure, thanks. What's your name?","tgt":""}
-{"f":"dialog","id":"ko.g136","k":"tr","src":"They're making a comeback this month. / Really? Did you see the teaser?","tgt":""}
-{"f":"dialog","id":"ko.g137","k":"tr","src":"How was the concert? / Got goosebumps during the singalong.","tgt":""}
-{"f":"dialog","id":"ko.g138","k":"tr","src":"Are you on Instagram? / Yes, I just followed you.","tgt":""}
-{"f":"dialog","id":"ko.g139","k":"tr","src":"Posted a photo. Hit like for me. / Already did.","tgt":""}
-{"f":"dialog","id":"ko.g140","k":"tr","src":"Why did nobody laugh at my joke earlier? / It killed the mood…","tgt":""}
-{"f":"dialog","id":"ko.g141","k":"tr","src":"How's the tteokbokki here? / Insanely good. I'm coming back.","tgt":""}
-{"f":"dialog","id":"ko.g142","k":"tr","src":"This song is addictive. / For real, been listening all day.","tgt":""}
-{"f":"dialog","id":"ko.g143","k":"tr","src":"What should I wear today? / Go effortless. Jeans and a white tee.","tgt":""}
-{"f":"dialog","id":"ko.g144","k":"tr","src":"What are you doing this weekend? / Having a meal with family.","tgt":""}
-{"f":"dialog","id":"ko.g145","k":"tr","src":"Who did you come with? / With a friend.","tgt":""}
-{"f":"dialog","id":"ko.g146","k":"tr","src":"Who's that? / That's my older brother.","tgt":""}
-{"f":"dialog","id":"ko.g147","k":"tr","src":"Unni, how's this? / It suits you. Buy it.","tgt":""}
-{"f":"dialog","id":"ko.g148","k":"tr","src":"Do you have siblings? / Yes, one younger sibling.","tgt":""}
-{"f":"dialog","id":"ko.g149","k":"tr","src":"Teacher, I have a question. / Yes, go ahead.","tgt":""}
-{"f":"dialog","id":"ko.g150","k":"tr","src":"That restaurant is closed on Mondays. / Ah, really? Then let's go on Tuesday.","tgt":""}
-{"f":"dialog","id":"ko.g151","k":"tr","src":"This is a cake I made. / Wow, it's really pretty!","tgt":""}
-{"f":"dialog","id":"ko.g152","k":"tr","src":"Minsu, I'm here. / Oh, you're here? Come in.","tgt":""}
-{"f":"dialog","id":"ko.g153","k":"tr","src":"Want to have lunch tomorrow? / Yeah, sure. What time?","tgt":""}
-{"f":"dialog","id":"ko.g154","k":"tr","src":"What do you want to eat? / Hmm… bibimbap today.","tgt":""}
-{"f":"dialog","id":"ko.g155","k":"tr","src":"I bought this with my first paycheck. / Oh, nice!","tgt":""}
-{"f":"dialog","id":"ko.g156","k":"tr","src":"This is Namsan Tower. / Whoa, you can see all of Seoul!","tgt":""}
-{"f":"dialog","id":"ko.g157","k":"tr","src":"I'm getting married next month. / Oh my, really? Congratulations!","tgt":""}
-{"f":"dialog","id":"ko.g158","k":"tr","src":"Ouch! I banged my hand on the door. / Are you OK? Let me see.","tgt":""}
-{"f":"dialog","id":"ko.g159","k":"tr","src":"Your face has gone red! / Oh, come on, stop looking.","tgt":""}
-{"f":"dialog","id":"ko.g160","k":"tr","src":"Do you think this movie will be good? / Well, I'm not sure.","tgt":""}
-{"f":"dialog","id":"ko.g161","k":"tr","src":"I saw BTS yesterday. / Come on, no way!","tgt":""}
-{"f":"dialog","id":"ko.g162","k":"tr","src":"They say there's no team dinner today. / Yes! I'm going home early.","tgt":""}
-{"f":"dialog","id":"ko.g163","k":"tr","src":"It's already eleven. / Yikes, I have to hurry!","tgt":""}
-{"f":"dialog","id":"ko.g164","k":"tr","src":"Oops, I spilled the coffee! / It's fine, I'll wipe it up.","tgt":""}
-{"f":"dialog","id":"ko.g165","k":"tr","src":"Did you bring an umbrella? / Oh no, I left it at home.","tgt":""}
-{"f":"dialog","id":"ko.g166","k":"tr","src":"Is your exam over? / Yes, phew, now I need some rest.","tgt":""}
-{"f":"dialog","id":"ko.g167","k":"tr","src":"Overtime again today? / Sigh, yes. There's too much work.","tgt":""}
-{"f":"dialog","id":"ko.g168","k":"tr","src":"Shh, the baby is sleeping. / Oh, sorry. I'll be quiet.","tgt":""}
-{"f":"dialog","id":"ko.g169","k":"tr","src":"Right, shall we start now? / Yes, let's start!","tgt":""}
-{"f":"dialog","id":"ko.g170","k":"tr","src":"Hello? Is that Minji? / Yes, it's me. What's up?","tgt":""}
-{"f":"dialog","id":"ko.g171","k":"tr","src":"This bag is a million won. / Oh my god, that's way too expensive!","tgt":""}
-{"f":"dialog","id":"ko.g172","k":"tr","src":"Boo! / Ah, you scared me! That made me jump.","tgt":""}
-{"f":"dialog","id":"ko.g173","k":"tr","src":"Aaah, a bug! / Stay still. I'll get it.","tgt":""}
-{"f":"dialog","id":"ko.g174","k":"tr","src":"Ta-da! It's your birthday present. / Wow, thank you! What is it?","tgt":""}
-{"f":"dialog","id":"ko.g175","k":"tr","src":"This milk is past its date. / Yuck, I already drank some!","tgt":""}
-{"f":"dialog","id":"ko.g176","k":"tr","src":"You look even prettier today. / Really? I changed my hair a bit.","tgt":""}
-{"f":"dialog","id":"ko.g177","k":"tr","src":"My name is Haneul. / Even your name is pretty.","tgt":""}
-{"f":"dialog","id":"ko.g178","k":"tr","src":"Why are you so cute? / Oh, stop joking.","tgt":""}
-{"f":"dialog","id":"ko.g179","k":"tr","src":"You're even better-looking in person. / Haha, I guess my photos don't do me justice.","tgt":""}
-{"f":"dialog","id":"ko.g180","k":"tr","src":"You look cool when you're working. / Out of nowhere? Thank you.","tgt":""}
-{"f":"dialog","id":"ko.g181","k":"tr","src":"You have a pretty smile. / Thank you. That's the first time I've heard that.","tgt":""}
-{"f":"dialog","id":"ko.g182","k":"tr","src":"Your eye smile is really pretty. / Oh, come on, I'm embarrassed.","tgt":""}
-{"f":"dialog","id":"ko.g183","k":"tr","src":"What's the occasion? You actually called. / I just wanted to hear your voice.","tgt":""}
-{"f":"dialog","id":"ko.g184","k":"tr","src":"What do you think of me? / Honestly, you're totally my type.","tgt":""}
+{"f":"cards","id":"ko.c1217","k":"meaning","src":"Hong Kong","tgt":"ہانگ کانگ"}
+{"f":"cards","id":"ko.c1217","k":"note","src":"홍콩 사람. 광둥어 = Cantonese.","tgt":"شخص: 홍콩 사람۔ 광둥어 = کینٹونیز۔"}
+{"f":"cards","id":"ko.c1218","k":"meaning","src":"Macao","tgt":"مکاؤ"}
+{"f":"cards","id":"ko.c1219","k":"meaning","src":"Mongolia","tgt":"منگولیا"}
+{"f":"cards","id":"ko.c1219","k":"note","src":"몽골 사람; 몽골어 = Mongolian.","tgt":"شخص: 몽골 사람؛ 몽골어 = منگول زبان۔"}
+{"f":"cards","id":"ko.c1220","k":"meaning","src":"Russia","tgt":"روس"}
+{"f":"cards","id":"ko.c1220","k":"note","src":"러시아 사람; 러시아어 = Russian.","tgt":"شخص: 러시아 사람؛ 러시아어 = روسی زبان۔"}
+{"f":"cards","id":"ko.c1221","k":"meaning","src":"United States","tgt":"امریکہ"}
+{"f":"cards","id":"ko.c1221","k":"note","src":"미국 사람 = American. The language is 영어 (English); there is no 미국어.","tgt":"شخص: 미국 사람 = امریکی۔ زبان 영어 (انگریزی) ہے؛ 미국어 نام کی کوئی زبان نہیں۔","rw":"mentions English"}
+{"f":"cards","id":"ko.c1222","k":"meaning","src":"India","tgt":"بھارت"}
+{"f":"cards","id":"ko.c1222","k":"note","src":"인도 사람; 힌디어 = Hindi.","tgt":"شخص: 인도 사람؛ 힌디어 = ہندی۔"}
+{"f":"cards","id":"ko.c1223","k":"meaning","src":"Indonesia","tgt":"انڈونیشیا"}
+{"f":"cards","id":"ko.c1223","k":"note","src":"인도네시아 사람; 인도네시아어 = Indonesian.","tgt":"شخص: 인도네시아 사람؛ 인도네시아어 = انڈونیشیائی زبان۔"}
+{"f":"cards","id":"ko.c1224","k":"meaning","src":"Brazil","tgt":"برازیل"}
+{"f":"cards","id":"ko.c1224","k":"note","src":"브라질 사람. People speak 포르투갈어.","tgt":"شخص: 브라질 사람۔ لوگ 포르투갈어 بولتے ہیں۔"}
+{"f":"cards","id":"ko.c1225","k":"meaning","src":"Pakistan","tgt":"پاکستان"}
+{"f":"cards","id":"ko.c1226","k":"meaning","src":"Nigeria","tgt":"نائجیریا"}
+{"f":"cards","id":"ko.c1227","k":"meaning","src":"Bangladesh","tgt":"بنگلہ دیش"}
+{"f":"cards","id":"ko.c1228","k":"meaning","src":"Mexico","tgt":"میکسیکو"}
+{"f":"cards","id":"ko.c1228","k":"note","src":"멕시코 사람. People speak 스페인어.","tgt":"شخص: 멕시코 사람۔ لوگ 스페인어 بولتے ہیں۔"}
+{"f":"cards","id":"ko.c1229","k":"meaning","src":"Philippines","tgt":"فلپائن"}
+{"f":"cards","id":"ko.c1229","k":"note","src":"필리핀 사람 = Filipino (person); 필리핀어 or 타갈로그어 = Filipino, Tagalog.","tgt":"شخص: 필리핀 사람 = فلپائنی؛ 필리핀어 یا 타갈로그어 = فلپینو، ٹیگالوگ۔"}
+{"f":"cards","id":"ko.c1230","k":"meaning","src":"Vietnam","tgt":"ویتنام"}
+{"f":"cards","id":"ko.c1230","k":"note","src":"베트남 사람; 베트남어 = Vietnamese.","tgt":"شخص: 베트남 사람؛ 베트남어 = ویتنامی زبان۔"}
+{"f":"cards","id":"ko.c1231","k":"meaning","src":"United Kingdom","tgt":"برطانیہ"}
+{"f":"cards","id":"ko.c1231","k":"note","src":"영국 사람 = British (person); 영어 = English (irregular: not 영국어).","tgt":"شخص: 영국 사람 = برطانوی؛ 영어 = انگریزی (بے قاعدہ: 영국어 نہیں)۔","rw":"mentions English"}
+{"f":"cards","id":"ko.c1232","k":"meaning","src":"Canada","tgt":"کینیڈا"}
+{"f":"cards","id":"ko.c1232","k":"note","src":"캐나다 사람. People speak 영어 and 프랑스어.","tgt":"شخص: 캐나다 사람۔ لوگ 영어 اور 프랑스어 بولتے ہیں۔"}
+{"f":"cards","id":"ko.c1233","k":"meaning","src":"Australia","tgt":"آسٹریلیا"}
+{"f":"cards","id":"ko.c1233","k":"note","src":"호주 사람 = Australian. 호주 is from the Chinese characters; 오스트레일리아 is also correct.","tgt":"شخص: 호주 사람 = آسٹریلوی۔ نام 호주 چینی حروف سے آیا ہے؛ 오스트레일리아 بھی درست ہے۔"}
+{"f":"cards","id":"ko.c1234","k":"meaning","src":"Germany","tgt":"جرمنی"}
+{"f":"cards","id":"ko.c1234","k":"note","src":"독일 사람; 독일어 = German.","tgt":"شخص: 독일 사람؛ 독일어 = جرمن زبان۔"}
+{"f":"cards","id":"ko.c1235","k":"meaning","src":"France","tgt":"فرانس"}
+{"f":"cards","id":"ko.c1235","k":"note","src":"프랑스 사람; 프랑스어 = French.","tgt":"شخص: 프랑스 사람؛ 프랑스어 = فرانسیسی زبان۔"}
+{"f":"cards","id":"ko.c1236","k":"meaning","src":"Spain","tgt":"اسپین"}
+{"f":"cards","id":"ko.c1236","k":"note","src":"스페인 사람; 스페인어 = Spanish.","tgt":"شخص: 스페인 사람؛ 스페인어 = ہسپانوی زبان۔"}
+{"f":"cards","id":"ko.c1237","k":"meaning","src":"Italy","tgt":"اٹلی"}
+{"f":"cards","id":"ko.c1237","k":"note","src":"이탈리아 사람; 이탈리아어 = Italian.","tgt":"شخص: 이탈리아 사람؛ 이탈리아어 = اطالوی زبان۔"}
+{"f":"cards","id":"ko.c1238","k":"meaning","src":"Thailand","tgt":"تھائی لینڈ"}
+{"f":"cards","id":"ko.c1238","k":"note","src":"태국 사람; 태국어 = Thai.","tgt":"شخص: 태국 사람؛ 태국어 = تھائی زبان۔"}
+{"f":"cards","id":"ko.c1239","k":"meaning","src":"Malaysia","tgt":"ملائیشیا"}
+{"f":"cards","id":"ko.c1240","k":"meaning","src":"Singapore","tgt":"سنگاپور"}
+{"f":"cards","id":"ko.c1241","k":"meaning","src":"Myanmar","tgt":"میانمار"}
+{"f":"cards","id":"ko.c1242","k":"meaning","src":"Cambodia","tgt":"کمبوڈیا"}
+{"f":"cards","id":"ko.c1243","k":"meaning","src":"Laos","tgt":"لاؤس"}
+{"f":"cards","id":"ko.c1244","k":"meaning","src":"Brunei","tgt":"برونائی"}
+{"f":"cards","id":"ko.c1245","k":"meaning","src":"Timor-Leste","tgt":"مشرقی تیمور"}
+{"f":"cards","id":"ko.c1246","k":"meaning","src":"Nepal","tgt":"نیپال"}
+{"f":"cards","id":"ko.c1247","k":"meaning","src":"Sri Lanka","tgt":"سری لنکا"}
+{"f":"cards","id":"ko.c1248","k":"meaning","src":"Bhutan","tgt":"بھوٹان"}
+{"f":"cards","id":"ko.c1249","k":"meaning","src":"Maldives","tgt":"مالدیپ"}
+{"f":"cards","id":"ko.c1250","k":"meaning","src":"Afghanistan","tgt":"افغانستان"}
+{"f":"cards","id":"ko.c1251","k":"meaning","src":"Kazakhstan","tgt":"قازقستان"}
+{"f":"cards","id":"ko.c1252","k":"meaning","src":"Uzbekistan","tgt":"ازبکستان"}
+{"f":"cards","id":"ko.c1253","k":"meaning","src":"Kyrgyzstan","tgt":"کرغیزستان"}
+{"f":"cards","id":"ko.c1254","k":"meaning","src":"Tajikistan","tgt":"تاجکستان"}
+{"f":"cards","id":"ko.c1255","k":"meaning","src":"Turkmenistan","tgt":"ترکمانستان"}
+{"f":"cards","id":"ko.c1256","k":"meaning","src":"Türkiye","tgt":"ترکیہ"}
+{"f":"cards","id":"ko.c1256","k":"note","src":"The official Korean name since 2022; the older 터키 is still common. 튀르키예어 = Turkish.","tgt":"2022 سے سرکاری کوریائی نام؛ پرانا 터키 اب بھی عام ہے۔ 튀르키예어 = ترکی زبان۔"}
+{"f":"cards","id":"ko.c1257","k":"meaning","src":"Iran","tgt":"ایران"}
+{"f":"cards","id":"ko.c1258","k":"meaning","src":"Iraq","tgt":"عراق"}
+{"f":"cards","id":"ko.c1259","k":"meaning","src":"Saudi Arabia","tgt":"سعودی عرب"}
+{"f":"cards","id":"ko.c1259","k":"note","src":"아랍어 = Arabic.","tgt":"زبان: 아랍어 = عربی۔"}
+{"f":"cards","id":"ko.c1260","k":"meaning","src":"United Arab Emirates","tgt":"متحدہ عرب امارات"}
+{"f":"cards","id":"ko.c1261","k":"meaning","src":"Qatar","tgt":"قطر"}
+{"f":"cards","id":"ko.c1262","k":"meaning","src":"Kuwait","tgt":"کویت"}
+{"f":"cards","id":"ko.c1263","k":"meaning","src":"Bahrain","tgt":"بحرین"}
+{"f":"cards","id":"ko.c1264","k":"meaning","src":"Oman","tgt":"عمان"}
+{"f":"cards","id":"ko.c1265","k":"meaning","src":"Yemen","tgt":"یمن"}
+{"f":"cards","id":"ko.c1266","k":"meaning","src":"Jordan","tgt":"اردن"}
+{"f":"cards","id":"ko.c1267","k":"meaning","src":"Lebanon","tgt":"لبنان"}
+{"f":"cards","id":"ko.c1268","k":"meaning","src":"Syria","tgt":"شام"}
+{"f":"cards","id":"ko.c1269","k":"meaning","src":"Israel","tgt":"اسرائیل"}
+{"f":"cards","id":"ko.c1270","k":"meaning","src":"Palestine","tgt":"فلسطین"}
+{"f":"cards","id":"ko.c1271","k":"meaning","src":"Cyprus","tgt":"قبرص"}
+{"f":"cards","id":"ko.c1272","k":"meaning","src":"Georgia","tgt":"جارجیا"}
+{"f":"cards","id":"ko.c1272","k":"note","src":"The country. The US state is also 조지아.","tgt":"یہ ملک ہے۔ امریکی ریاست جارجیا بھی 조지아 کہلاتی ہے۔"}
+{"f":"cards","id":"ko.c1273","k":"meaning","src":"Armenia","tgt":"آرمینیا"}
+{"f":"cards","id":"ko.c1274","k":"meaning","src":"Azerbaijan","tgt":"آذربائیجان"}
+{"f":"cards","id":"ko.c1275","k":"meaning","src":"Guatemala","tgt":"گوئٹے مالا"}
+{"f":"cards","id":"ko.c1276","k":"meaning","src":"Belize","tgt":"بیلیز"}
+{"f":"cards","id":"ko.c1277","k":"meaning","src":"El Salvador","tgt":"ایل سلواڈور"}
+{"f":"cards","id":"ko.c1278","k":"meaning","src":"Honduras","tgt":"ہونڈوراس"}
+{"f":"cards","id":"ko.c1279","k":"meaning","src":"Nicaragua","tgt":"نکاراگوا"}
+{"f":"cards","id":"ko.c1280","k":"meaning","src":"Costa Rica","tgt":"کوسٹاریکا"}
+{"f":"cards","id":"ko.c1281","k":"meaning","src":"Panama","tgt":"پاناما"}
+{"f":"cards","id":"ko.c1282","k":"meaning","src":"Cuba","tgt":"کیوبا"}
+{"f":"cards","id":"ko.c1283","k":"meaning","src":"Jamaica","tgt":"جمیکا"}
+{"f":"cards","id":"ko.c1284","k":"meaning","src":"Haiti","tgt":"ہیٹی"}
+{"f":"cards","id":"ko.c1285","k":"meaning","src":"Dominican Republic","tgt":"جمہوریہ ڈومینیکن"}
+{"f":"cards","id":"ko.c1285","k":"note","src":"Not the island country Dominica (도미니카 연방).","tgt":"یہ جزیرے والا ملک ڈومینیکا (도미니카 연방) نہیں۔"}
+{"f":"cards","id":"ko.c1286","k":"meaning","src":"Puerto Rico","tgt":"پورٹو ریکو"}
+{"f":"cards","id":"ko.c1287","k":"meaning","src":"Bahamas","tgt":"بہاماس"}
+{"f":"cards","id":"ko.c1288","k":"meaning","src":"Barbados","tgt":"بارباڈوس"}
+{"f":"cards","id":"ko.c1289","k":"meaning","src":"Trinidad and Tobago","tgt":"ٹرینیڈاڈ اور ٹوباگو"}
+{"f":"cards","id":"ko.c1290","k":"meaning","src":"Dominica","tgt":"ڈومینیکا"}
+{"f":"cards","id":"ko.c1291","k":"meaning","src":"Grenada","tgt":"گریناڈا"}
+{"f":"cards","id":"ko.c1292","k":"meaning","src":"Saint Lucia","tgt":"سینٹ لوسیا"}
+{"f":"cards","id":"ko.c1293","k":"meaning","src":"Saint Vincent and the Grenadines","tgt":"سینٹ ونسینٹ اور گریناڈائنز"}
+{"f":"cards","id":"ko.c1294","k":"meaning","src":"Saint Kitts and Nevis","tgt":"سینٹ کٹس اور نیوس"}
+{"f":"cards","id":"ko.c1295","k":"meaning","src":"Antigua and Barbuda","tgt":"انٹیگوا اور باربوڈا"}
+{"f":"cards","id":"ko.c1296","k":"meaning","src":"Argentina","tgt":"ارجنٹینا"}
+{"f":"cards","id":"ko.c1297","k":"meaning","src":"Colombia","tgt":"کولمبیا"}
+{"f":"cards","id":"ko.c1298","k":"meaning","src":"Peru","tgt":"پیرو"}
+{"f":"cards","id":"ko.c1299","k":"meaning","src":"Venezuela","tgt":"وینزویلا"}
+{"f":"cards","id":"ko.c1300","k":"meaning","src":"Chile","tgt":"چلی"}
+{"f":"cards","id":"ko.c1301","k":"meaning","src":"Ecuador","tgt":"ایکواڈور"}
+{"f":"cards","id":"ko.c1302","k":"meaning","src":"Bolivia","tgt":"بولیویا"}
+{"f":"cards","id":"ko.c1303","k":"meaning","src":"Paraguay","tgt":"پیراگوئے"}
+{"f":"cards","id":"ko.c1304","k":"meaning","src":"Uruguay","tgt":"یوراگوئے"}
+{"f":"cards","id":"ko.c1305","k":"meaning","src":"Guyana","tgt":"گیانا"}
+{"f":"cards","id":"ko.c1306","k":"meaning","src":"Suriname","tgt":"سورینام"}
+{"f":"cards","id":"ko.c1307","k":"meaning","src":"England","tgt":"انگلینڈ"}
+{"f":"cards","id":"ko.c1307","k":"note","src":"One of the four nations of the United Kingdom (영국).","tgt":"برطانیہ (영국) کی چار قوموں میں سے ایک۔"}
+{"f":"cards","id":"ko.c1308","k":"meaning","src":"Scotland","tgt":"اسکاٹ لینڈ"}
+{"f":"cards","id":"ko.c1309","k":"meaning","src":"Wales","tgt":"ویلز"}
+{"f":"cards","id":"ko.c1310","k":"meaning","src":"Ireland","tgt":"آئرلینڈ"}
+{"f":"cards","id":"ko.c1311","k":"meaning","src":"Portugal","tgt":"پرتگال"}
+{"f":"cards","id":"ko.c1311","k":"note","src":"포르투갈 사람; 포르투갈어 = Portuguese.","tgt":"شخص: 포르투갈 사람؛ 포르투갈어 = پرتگالی زبان۔"}
+{"f":"cards","id":"ko.c1312","k":"meaning","src":"Netherlands","tgt":"نیدرلینڈز"}
+{"f":"cards","id":"ko.c1312","k":"note","src":"네덜란드 사람; 네덜란드어 = Dutch.","tgt":"شخص: 네덜란드 사람؛ 네덜란드어 = ڈچ زبان۔"}
+{"f":"cards","id":"ko.c1313","k":"meaning","src":"Belgium","tgt":"بیلجیم"}
+{"f":"cards","id":"ko.c1314","k":"meaning","src":"Luxembourg","tgt":"لکسمبرگ"}
+{"f":"cards","id":"ko.c1315","k":"meaning","src":"Switzerland","tgt":"سوئٹزرلینڈ"}
+{"f":"cards","id":"ko.c1316","k":"meaning","src":"Austria","tgt":"آسٹریا"}
+{"f":"cards","id":"ko.c1317","k":"meaning","src":"Denmark","tgt":"ڈنمارک"}
+{"f":"cards","id":"ko.c1318","k":"meaning","src":"Norway","tgt":"ناروے"}
+{"f":"cards","id":"ko.c1319","k":"meaning","src":"Sweden","tgt":"سویڈن"}
+{"f":"cards","id":"ko.c1320","k":"meaning","src":"Finland","tgt":"فن لینڈ"}
+{"f":"cards","id":"ko.c1321","k":"meaning","src":"Iceland","tgt":"آئس لینڈ"}
+{"f":"cards","id":"ko.c1322","k":"meaning","src":"Poland","tgt":"پولینڈ"}
+{"f":"cards","id":"ko.c1322","k":"note","src":"폴란드 사람; 폴란드어 = Polish.","tgt":"شخص: 폴란드 사람؛ 폴란드어 = پولش زبان۔"}
+{"f":"cards","id":"ko.c1323","k":"meaning","src":"Czechia","tgt":"چیکیا"}
+{"f":"cards","id":"ko.c1324","k":"meaning","src":"Slovakia","tgt":"سلوواکیہ"}
+{"f":"cards","id":"ko.c1325","k":"meaning","src":"Hungary","tgt":"ہنگری"}
+{"f":"cards","id":"ko.c1326","k":"meaning","src":"Romania","tgt":"رومانیہ"}
+{"f":"cards","id":"ko.c1327","k":"meaning","src":"Bulgaria","tgt":"بلغاریہ"}
+{"f":"cards","id":"ko.c1328","k":"meaning","src":"Greece","tgt":"یونان"}
+{"f":"cards","id":"ko.c1329","k":"meaning","src":"Ukraine","tgt":"یوکرین"}
+{"f":"cards","id":"ko.c1329","k":"note","src":"우크라이나 사람; 우크라이나어 = Ukrainian.","tgt":"شخص: 우크라이나 사람؛ 우크라이나어 = یوکرینی زبان۔"}
+{"f":"cards","id":"ko.c1330","k":"meaning","src":"Belarus","tgt":"بیلاروس"}
+{"f":"cards","id":"ko.c1331","k":"meaning","src":"Moldova","tgt":"مالدووا"}
+{"f":"cards","id":"ko.c1332","k":"meaning","src":"Lithuania","tgt":"لتھووینیا"}
+{"f":"cards","id":"ko.c1333","k":"meaning","src":"Latvia","tgt":"لٹویا"}
+{"f":"cards","id":"ko.c1334","k":"meaning","src":"Estonia","tgt":"اسٹونیا"}
+{"f":"cards","id":"ko.c1335","k":"meaning","src":"Serbia","tgt":"سربیا"}
+{"f":"cards","id":"ko.c1336","k":"meaning","src":"Croatia","tgt":"کروشیا"}
+{"f":"cards","id":"ko.c1337","k":"meaning","src":"Slovenia","tgt":"سلووینیا"}
+{"f":"cards","id":"ko.c1338","k":"meaning","src":"Bosnia and Herzegovina","tgt":"بوسنیا اور ہرزیگووینا"}
+{"f":"cards","id":"ko.c1339","k":"meaning","src":"Montenegro","tgt":"مونٹی نیگرو"}
+{"f":"cards","id":"ko.c1340","k":"meaning","src":"North Macedonia","tgt":"شمالی مقدونیہ"}
+{"f":"cards","id":"ko.c1341","k":"meaning","src":"Albania","tgt":"البانیہ"}
+{"f":"cards","id":"ko.c1342","k":"meaning","src":"Kosovo","tgt":"کوسووو"}
+{"f":"cards","id":"ko.c1343","k":"meaning","src":"Malta","tgt":"مالٹا"}
+{"f":"cards","id":"ko.c1344","k":"meaning","src":"Monaco","tgt":"موناکو"}
+{"f":"cards","id":"ko.c1345","k":"meaning","src":"Liechtenstein","tgt":"لیختینستائن"}
+{"f":"cards","id":"ko.c1346","k":"meaning","src":"Andorra","tgt":"انڈورا"}
+{"f":"cards","id":"ko.c1347","k":"meaning","src":"San Marino","tgt":"سان مارینو"}
+{"f":"cards","id":"ko.c1348","k":"meaning","src":"Vatican City","tgt":"ویٹیکن سٹی"}
+{"f":"cards","id":"ko.c1349","k":"meaning","src":"Egypt","tgt":"مصر"}
+{"f":"cards","id":"ko.c1350","k":"meaning","src":"Ethiopia","tgt":"ایتھوپیا"}
+{"f":"cards","id":"ko.c1351","k":"meaning","src":"South Africa","tgt":"جنوبی افریقہ"}
+{"f":"cards","id":"ko.c1351","k":"note","src":"Often shortened to 남아공.","tgt":"اکثر مختصر کر کے 남아공 کہتے ہیں۔"}
+{"f":"cards","id":"ko.c1352","k":"meaning","src":"Kenya","tgt":"کینیا"}
+{"f":"cards","id":"ko.c1353","k":"meaning","src":"Morocco","tgt":"مراکش"}
+{"f":"cards","id":"ko.c1354","k":"meaning","src":"Algeria","tgt":"الجزائر"}
+{"f":"cards","id":"ko.c1355","k":"meaning","src":"Tunisia","tgt":"تیونس"}
+{"f":"cards","id":"ko.c1356","k":"meaning","src":"Libya","tgt":"لیبیا"}
+{"f":"cards","id":"ko.c1357","k":"meaning","src":"Sudan","tgt":"سوڈان"}
+{"f":"cards","id":"ko.c1358","k":"meaning","src":"South Sudan","tgt":"جنوبی سوڈان"}
+{"f":"cards","id":"ko.c1359","k":"meaning","src":"Ghana","tgt":"گھانا"}
+{"f":"cards","id":"ko.c1360","k":"meaning","src":"Côte d'Ivoire","tgt":"آئیوری کوسٹ"}
+{"f":"cards","id":"ko.c1361","k":"meaning","src":"Senegal","tgt":"سینیگال"}
+{"f":"cards","id":"ko.c1362","k":"meaning","src":"Cameroon","tgt":"کیمرون"}
+{"f":"cards","id":"ko.c1363","k":"meaning","src":"Democratic Republic of the Congo","tgt":"جمہوری جمہوریہ کانگو"}
+{"f":"cards","id":"ko.c1364","k":"meaning","src":"Republic of the Congo","tgt":"جمہوریہ کانگو"}
+{"f":"cards","id":"ko.c1365","k":"meaning","src":"Angola","tgt":"انگولا"}
+{"f":"cards","id":"ko.c1366","k":"meaning","src":"Tanzania","tgt":"تنزانیہ"}
+{"f":"cards","id":"ko.c1367","k":"meaning","src":"Uganda","tgt":"یوگنڈا"}
+{"f":"cards","id":"ko.c1368","k":"meaning","src":"Rwanda","tgt":"روانڈا"}
+{"f":"cards","id":"ko.c1369","k":"meaning","src":"Burundi","tgt":"برونڈی"}
+{"f":"cards","id":"ko.c1370","k":"meaning","src":"Somalia","tgt":"صومالیہ"}
+{"f":"cards","id":"ko.c1371","k":"meaning","src":"Djibouti","tgt":"جبوتی"}
+{"f":"cards","id":"ko.c1372","k":"meaning","src":"Eritrea","tgt":"اریٹیریا"}
+{"f":"cards","id":"ko.c1373","k":"meaning","src":"Mozambique","tgt":"موزمبیق"}
+{"f":"cards","id":"ko.c1374","k":"meaning","src":"Madagascar","tgt":"مڈغاسکر"}
+{"f":"cards","id":"ko.c1375","k":"meaning","src":"Zimbabwe","tgt":"زمبابوے"}
+{"f":"cards","id":"ko.c1376","k":"meaning","src":"Zambia","tgt":"زیمبیا"}
+{"f":"cards","id":"ko.c1377","k":"meaning","src":"Malawi","tgt":"ملاوی"}
+{"f":"cards","id":"ko.c1378","k":"meaning","src":"Botswana","tgt":"بوٹسوانا"}
+{"f":"cards","id":"ko.c1379","k":"meaning","src":"Namibia","tgt":"نمیبیا"}
+{"f":"cards","id":"ko.c1380","k":"meaning","src":"Lesotho","tgt":"لیسوتھو"}
+{"f":"cards","id":"ko.c1381","k":"meaning","src":"Eswatini","tgt":"اسواتینی"}
+{"f":"cards","id":"ko.c1382","k":"meaning","src":"Mauritius","tgt":"ماریشس"}
+{"f":"cards","id":"ko.c1383","k":"meaning","src":"Seychelles","tgt":"سیشلز"}
+{"f":"cards","id":"ko.c1384","k":"meaning","src":"Comoros","tgt":"کوموروس"}
+{"f":"cards","id":"ko.c1385","k":"meaning","src":"Cabo Verde","tgt":"کیپ ورڈی"}
+{"f":"cards","id":"ko.c1386","k":"meaning","src":"Guinea","tgt":"گنی"}
+{"f":"cards","id":"ko.c1387","k":"meaning","src":"Guinea-Bissau","tgt":"گنی بساؤ"}
+{"f":"cards","id":"ko.c1388","k":"meaning","src":"Equatorial Guinea","tgt":"استوائی گنی"}
+{"f":"cards","id":"ko.c1389","k":"meaning","src":"Sierra Leone","tgt":"سیرالیون"}
+{"f":"cards","id":"ko.c1390","k":"meaning","src":"Liberia","tgt":"لائبیریا"}
+{"f":"cards","id":"ko.c1391","k":"meaning","src":"Togo","tgt":"ٹوگو"}
+{"f":"cards","id":"ko.c1392","k":"meaning","src":"Benin","tgt":"بینن"}
+{"f":"cards","id":"ko.c1393","k":"meaning","src":"Burkina Faso","tgt":"برکینا فاسو"}
+{"f":"cards","id":"ko.c1394","k":"meaning","src":"Mali","tgt":"مالی"}
+{"f":"cards","id":"ko.c1395","k":"meaning","src":"Niger","tgt":"نائجر"}
+{"f":"cards","id":"ko.c1396","k":"meaning","src":"Chad","tgt":"چاڈ"}
+{"f":"cards","id":"ko.c1397","k":"meaning","src":"Central African Republic","tgt":"وسطی افریقی جمہوریہ"}
+{"f":"cards","id":"ko.c1398","k":"meaning","src":"Gabon","tgt":"گیبون"}
+{"f":"cards","id":"ko.c1399","k":"meaning","src":"Gambia","tgt":"گیمبیا"}
+{"f":"cards","id":"ko.c1400","k":"meaning","src":"Mauritania","tgt":"موریتانیہ"}
+{"f":"cards","id":"ko.c1401","k":"meaning","src":"São Tomé and Príncipe","tgt":"ساؤ ٹومے اور پرنسپے"}
+{"f":"cards","id":"ko.c1402","k":"meaning","src":"New Zealand","tgt":"نیوزی لینڈ"}
+{"f":"cards","id":"ko.c1403","k":"meaning","src":"Fiji","tgt":"فجی"}
+{"f":"cards","id":"ko.c1404","k":"meaning","src":"Papua New Guinea","tgt":"پاپوا نیو گنی"}
+{"f":"cards","id":"ko.c1405","k":"meaning","src":"Solomon Islands","tgt":"جزائر سلیمان"}
+{"f":"cards","id":"ko.c1406","k":"meaning","src":"Vanuatu","tgt":"وانواتو"}
+{"f":"cards","id":"ko.c1407","k":"meaning","src":"Samoa","tgt":"ساموا"}
+{"f":"cards","id":"ko.c1408","k":"meaning","src":"Tonga","tgt":"ٹونگا"}
+{"f":"cards","id":"ko.c1409","k":"meaning","src":"Kiribati","tgt":"کیریباتی"}
+{"f":"cards","id":"ko.c1410","k":"meaning","src":"Tuvalu","tgt":"تووالو"}
+{"f":"cards","id":"ko.c1411","k":"meaning","src":"Nauru","tgt":"ناورو"}
+{"f":"cards","id":"ko.c1412","k":"meaning","src":"Marshall Islands","tgt":"جزائر مارشل"}
+{"f":"cards","id":"ko.c1413","k":"meaning","src":"Micronesia","tgt":"مائیکرونیشیا"}
+{"f":"cards","id":"ko.c1414","k":"meaning","src":"Palau","tgt":"پلاؤ"}
+{"f":"cards","id":"ko.c1415","k":"meaning","src":"Guam","tgt":"گوام"}
+{"f":"dialog","id":"ko.g001","k":"tr","src":"Hello, nice to meet you for the first time. / Hi! Nice to meet you.","tgt":"السلام علیکم، پہلی ملاقات ہے۔ / جی، السلام علیکم! آپ سے مل کر خوشی ہوئی۔"}
+{"f":"dialog","id":"ko.g002","k":"tr","src":"Thank you for helping. / Not at all.","tgt":"مدد کرنے کا شکریہ۔ / ارے نہیں، شکریے کی کیا بات ہے۔"}
+{"f":"dialog","id":"ko.g003","k":"tr","src":"Sorry I'm late. / It's fine, I just got here too.","tgt":"دیر سے آنے پر معاف کیجیے۔ / کوئی بات نہیں، میں بھی ابھی ابھی پہنچا/پہنچی ہوں۔"}
+{"f":"dialog","id":"ko.g004","k":"tr","src":"How much is this? / 12,000 won.","tgt":"یہ کتنے کا ہے؟ / 12,000 وون کا۔"}
+{"f":"dialog","id":"ko.g005","k":"tr","src":"Excuse me, where's the bathroom? / Go straight that way.","tgt":"سنیے، واش روم کہاں ہے؟ / اس طرف سیدھے چلے جائیں۔"}
+{"f":"dialog","id":"ko.g006","k":"tr","src":"What can I get you? / This one, to go.","tgt":"آپ کیا لیں گے؟ / یہ دے دیں۔ پیک کر کے۔"}
+{"f":"dialog","id":"ko.g007","k":"tr","src":"Are you okay? Hurt? / Yes, I'm fine.","tgt":"آپ ٹھیک ہیں؟ چوٹ تو نہیں لگی؟ / جی، میں ٹھیک ہوں۔"}
+{"f":"dialog","id":"ko.g008","k":"tr","src":"Sorry, please speak slowly. / Ah, sure, I'll slow down.","tgt":"معاف کیجیے، آہستہ بولیں۔ / اچھا، جی۔ آہستہ بولوں گا/گی۔"}
+{"f":"dialog","id":"ko.g009","k":"tr","src":"Your Korean is good! / No, I'm still not good.","tgt":"آپ کی کوریائی تو بہت اچھی ہے! / ارے نہیں، ابھی اچھی طرح نہیں آتی۔"}
+{"f":"dialog","id":"ko.g010","k":"tr","src":"Excuse me, coming through. / Go ahead.","tgt":"ایک منٹ، ذرا راستہ دیں۔ / جی، جائیں۔"}
+{"f":"dialog","id":"ko.g011","k":"tr","src":"Excuse me! The menu, please. / Yes, one moment.","tgt":"سنیے! ذرا مینیو دے دیں۔ / جی، ایک منٹ۔"}
+{"f":"dialog","id":"ko.g012","k":"tr","src":"Excuse me, please help me. / Sure, what do you need?","tgt":"سنیے، ذرا مدد کر دیں۔ / جی، آپ کو کیا چاہیے؟"}
+{"f":"dialog","id":"ko.g013","k":"tr","src":"Sorry, say that again please. / The subway station is on the left.","tgt":"معاف کیجیے، دوبارہ بتا دیں۔ / میٹرو اسٹیشن بائیں طرف ہے۔"}
+{"f":"dialog","id":"ko.g014","k":"tr","src":"Can you speak English? / A little. I'll speak slowly.","tgt":"آپ کو انگریزی آتی ہے؟ / تھوڑی سی۔ میں آہستہ بولوں گا/گی۔","rw":"mentions English"}
+{"f":"dialog","id":"ko.g015","k":"tr","src":"What is this? / Tteokbokki. It's a bit spicy.","tgt":"یہ کیا ہے؟ / یہ توکبوکی ہے۔ تھوڑی تیز مرچ والی ہے۔"}
+{"f":"dialog","id":"ko.g016","k":"tr","src":"Do you take cards? / Yes. Insert it here.","tgt":"کارڈ چلے گا؟ / جی، چلے گا۔ یہاں ڈال دیں۔"}
+{"f":"dialog","id":"ko.g017","k":"tr","src":"What's the wifi password? / It's on the receipt.","tgt":"وائی فائی کا پاس ورڈ کیا ہے؟ / رسید پر لکھا ہے۔"}
+{"f":"dialog","id":"ko.g018","k":"tr","src":"I'm lost. Where is this? / This is Hongdae. Where are you going?","tgt":"مجھے راستہ نہیں مل رہا۔ یہ کون سی جگہ ہے؟ / یہ ہونگدے ہے۔ آپ کہاں جا رہے ہیں؟"}
+{"f":"dialog","id":"ko.g019","k":"tr","src":"What's your name? / I'm @@. What's yours?","tgt":"آپ کا نام کیا ہے؟ / میں @@ ہوں۔ آپ کا نام کیا ہے؟"}
+{"f":"dialog","id":"ko.g020","k":"tr","src":"Nice to meet you. / Nice to meet you too.","tgt":"آپ سے مل کر خوشی ہوئی۔ / مجھے بھی آپ سے مل کر خوشی ہوئی۔"}
+{"f":"dialog","id":"ko.g021","k":"tr","src":"Where are you from? / From the Philippines. Cebu.","tgt":"آپ کہاں سے ہیں؟ / میں فلپائن سے ہوں۔ سیبو سے۔"}
+{"f":"dialog","id":"ko.g022","k":"tr","src":"Excuse me, how old are you? / 28. And you?","tgt":"برا نہ مانیں تو، آپ کی عمر کتنی ہے؟ / اٹھائیس۔ اور آپ کی؟"}
+{"f":"dialog","id":"ko.g023","k":"tr","src":"What do you do? / I work at an IT company.","tgt":"آپ کا کام کیا ہے؟ / میری ایک آئی ٹی کمپنی میں نوکری ہے۔"}
+{"f":"dialog","id":"ko.g024","k":"tr","src":"Do you study Korean? / Yes, a little every day.","tgt":"آپ کوریائی سیکھ رہے ہیں؟ / جی، روز تھوڑی تھوڑی۔"}
+{"f":"dialog","id":"ko.g025","k":"tr","src":"What's your hobby? / Running and music.","tgt":"آپ کا شوق کیا ہے؟ / دوڑنا اور موسیقی۔"}
+{"f":"dialog","id":"ko.g026","k":"tr","src":"Long time no see! How've you been? / Good, thanks. You?","tgt":"بڑے دنوں بعد ملاقات ہوئی! اتنے دن کیسے گزرے؟ / جی، آپ کی دعا سے۔ آپ کے کیسے گزرے؟"}
+{"f":"dialog","id":"ko.g027","k":"tr","src":"How are things lately? / Busy. But fun.","tgt":"آج کل کیسا چل رہا ہے؟ / مصروفیت ہے۔ پھر بھی مزہ آ رہا ہے۔"}
+{"f":"dialog","id":"ko.g028","k":"tr","src":"Nice weather today. / Yes, perfect for a walk.","tgt":"آج موسم اچھا ہے، ہے نا۔ / جی، چہل قدمی کے لیے بالکل بہترین۔"}
+{"f":"dialog","id":"ko.g029","k":"tr","src":"What are you doing this weekend? / Going hiking. Want to come?","tgt":"ویک اینڈ پر کیا کر رہے ہیں؟ / پہاڑ پر ہائیکنگ کا پروگرام ہے۔ ساتھ چلیں گے؟"}
+{"f":"dialog","id":"ko.g030","k":"tr","src":"Today was fun. See you again! / Yes, I'll be in touch.","tgt":"آج بڑا مزہ آیا۔ پھر ملیں گے! / جی، رابطے میں رہیں گے۔"}
+{"f":"dialog","id":"ko.g031","k":"tr","src":"I'll head out first. Goodbye (stay well). / Bye (go well).","tgt":"میں پہلے چلتا/چلتی ہوں۔ اللہ حافظ (رکنے والے سے)۔ / جی، اللہ حافظ (جانے والے سے)۔"}
+{"f":"dialog","id":"ko.g032","k":"tr","src":"I'm bored. Let's hang out! / Deal! Where should we meet?","tgt":"بڑی بوریت ہو رہی ہے۔ چلو، کچھ مزہ کریں! / ڈن! کہاں ملیں؟"}
+{"f":"dialog","id":"ko.g033","k":"tr","src":"Are you free tomorrow? / In the afternoon. Why?","tgt":"کل تمہارے پاس وقت ہے؟ / سہ پہر کو ہے۔ کیوں؟"}
+{"f":"dialog","id":"ko.g034","k":"tr","src":"I'm going to a café, wanna come? / Sure, let's go.","tgt":"کیفے جانے کا پروگرام ہے، ساتھ چلنا ہے؟ / ٹھیک ہے، چلو۔"}
+{"f":"dialog","id":"ko.g035","k":"tr","src":"I'm hungry. Wanna go eat? / Yes! What should we eat?","tgt":"بھوک لگی ہے۔ کھانا کھانے چلنا ہے؟ / ہاں! کیا کھائیں؟"}
+{"f":"dialog","id":"ko.g036","k":"tr","src":"When should we meet? / How about Saturday?","tgt":"ہم کب ملیں؟ / ہفتہ کیسا رہے گا؟"}
+{"f":"dialog","id":"ko.g037","k":"tr","src":"Where should we meet? / Let's meet at Gangnam station exit 11.","tgt":"کہاں ملیں؟ / گنگنم اسٹیشن کے ایگزٹ نمبر 11 پر ملتے ہیں۔"}
+{"f":"dialog","id":"ko.g038","k":"tr","src":"Where are you? Almost here? / Sorry, coming now. 5 minutes!","tgt":"کہاں ہو؟ پہنچنے والے/والی ہو؟ / سوری، ابھی آتا/آتی ہوں۔ 5 منٹ!"}
+{"f":"dialog","id":"ko.g039","k":"tr","src":"Today was really fun. / Me too. Let's hang out again!","tgt":"آج سچ میں بڑا مزہ آیا۔ / مجھے بھی۔ چلو، پھر کبھی گھومنے چلیں گے!"}
+{"f":"dialog","id":"ko.g040","k":"tr","src":"Ready to order? / One iced Americano, please.","tgt":"آپ آرڈر دیں گے؟ / ایک آئسڈ امریکانو دے دیں۔"}
+{"f":"dialog","id":"ko.g041","k":"tr","src":"For here? / No, to go.","tgt":"یہیں بیٹھ کر لیں گے؟ / جی نہیں، پیک کر کے۔"}
+{"f":"dialog","id":"ko.g042","k":"tr","src":"What sizes do you have? / Tall, grande, venti.","tgt":"کون کون سے سائز ہیں؟ / ٹال، گرانڈے، وینٹی ہیں۔"}
+{"f":"dialog","id":"ko.g043","k":"tr","src":"Do you have a points card? / No, that's okay.","tgt":"آپ کے پاس پوائنٹس کارڈ ہے؟ / جی نہیں، شکریہ۔"}
+{"f":"dialog","id":"ko.g044","k":"tr","src":"Please heat this up. / Sure, it takes a minute.","tgt":"اسے گرم کر دیں۔ / جی، 1 منٹ لگے گا۔"}
+{"f":"dialog","id":"ko.g045","k":"tr","src":"Do you need a bag? / Yes, one please.","tgt":"تھیلی چاہیے؟ / جی، ایک دے دیں۔"}
+{"f":"dialog","id":"ko.g046","k":"tr","src":"Cash or card? / Card.","tgt":"کیش یا کارڈ؟ / کارڈ سے۔"}
+{"f":"dialog","id":"ko.g047","k":"tr","src":"Where is a pharmacy? / On the first floor of that building.","tgt":"فارمیسی کہاں ہے؟ / اس عمارت کے گراؤنڈ فلور پر ہے۔"}
+{"f":"dialog","id":"ko.g048","k":"tr","src":"Where does it hurt? / My head hurts. I have a fever too.","tgt":"آپ کو کہاں تکلیف ہے؟ / سر میں درد ہے۔ بخار بھی ہے۔"}
+{"f":"dialog","id":"ko.g049","k":"tr","src":"Do you have painkillers? / Yes, take these after a meal.","tgt":"درد کی دوا ہے؟ / جی، یہ کھانے کے بعد لیجیے۔"}
+{"f":"dialog","id":"ko.g050","k":"tr","src":"Do you have allergies? / Yes, I'm allergic to peanuts.","tgt":"آپ کو کوئی الرجی ہے؟ / جی، مجھے مونگ پھلی سے الرجی ہے۔"}
+{"f":"dialog","id":"ko.g051","k":"tr","src":"How many times a day? / Three times, 30 minutes after meals.","tgt":"دن میں کتنی بار کھانی ہے؟ / دن میں تین بار، کھانے کے 30 منٹ بعد۔"}
+{"f":"dialog","id":"ko.g052","k":"tr","src":"Package! / Please leave it at the door.","tgt":"پارسل آیا ہے! / جی، دروازے کے باہر رکھ دیں۔"}
+{"f":"dialog","id":"ko.g053","k":"tr","src":"How much is rent? / 500,000 won, maintenance included.","tgt":"کرایہ کتنا ہے؟ / پانچ لاکھ وون۔ مینٹیننس ملا کر۔"}
+{"f":"dialog","id":"ko.g054","k":"tr","src":"Can you dry clean this? / Yes, pick it up tomorrow afternoon.","tgt":"اس کا ڈرائی کلین ہو جائے گا؟ / جی، کل سہ پہر کو آ کر لے جائیں۔"}
+{"f":"dialog","id":"ko.g055","k":"tr","src":"I'm starting work with you today. Please take care of me. / Likewise.","tgt":"آج سے ہم ساتھ کام کریں گے۔ امید ہے آپ کا ساتھ اچھا رہے گا۔ / جی، میری طرف سے بھی یہی امید ہے۔"}
+{"f":"dialog","id":"ko.g056","k":"tr","src":"How are things? / So-so. Just busy.","tgt":"آج کل کیسا چل رہا ہے؟ / بس ٹھیک ٹھاک۔ مصروفیت ہی مصروفیت ہے۔"}
+{"f":"dialog","id":"ko.g057","k":"tr","src":"I'm a coffee addict. / Me too! At least three cups a day.","tgt":"مجھے کافی کی لت ہے۔ / مجھے بھی! دن میں تین کپ تو ہو ہی جاتے ہیں۔"}
+{"f":"dialog","id":"ko.g058","k":"tr","src":"I'm going to Korea next month. / Really? Where to?","tgt":"اگلے مہینے میرا کوریا جانے کا پروگرام ہے۔ / سچ میں؟ کہاں جا رہے ہیں؟"}
+{"f":"dialog","id":"ko.g059","k":"tr","src":"I should get going. Goodbye. / Okay, get home safe.","tgt":"اب میں چلتا/چلتی ہوں۔ اللہ حافظ (رکنے والے سے)۔ / جی، خیریت سے جائیں۔"}
+{"f":"dialog","id":"ko.g060","k":"tr","src":"See you next time. / Yes, I'll be in touch!","tgt":"اگلی بار پھر ملیں گے۔ / جی، رابطے میں رہیں گے!"}
+{"f":"dialog","id":"ko.g061","k":"tr","src":"Hey, what are you doing? / Watching Netflix at home. Why?","tgt":"ارے، کیا ہو رہا ہے؟ / گھر پر نیٹ فلکس چل رہا ہے۔ کیوں؟"}
+{"f":"dialog","id":"ko.g062","k":"tr","src":"Are you free tonight? / Yeah, after seven.","tgt":"آج شام کو وقت ہے؟ / ہاں، سات بجے کے بعد۔"}
+{"f":"dialog","id":"ko.g063","k":"tr","src":"Wanna come over? I'll order chicken. / Deal! I'll bring beer.","tgt":"میرے گھر آنا ہے؟ چکن میں منگوا لوں گا/گی۔ / ڈن! بیئر میری طرف سے۔"}
+{"f":"dialog","id":"ko.g064","k":"tr","src":"Today was so fun. Let's hang again. / Sure, see you next week!","tgt":"آج سچ میں بڑا مزہ آیا۔ پھر کبھی گھومنے چلیں گے۔ / ٹھیک ہے، اگلے ہفتے ملتے ہیں!"}
+{"f":"dialog","id":"ko.g065","k":"tr","src":"Can I get your number? / Sure, 010-3322-7788.","tgt":"ذرا اپنا نمبر دے دو نا؟ / ہاں، 010-3322-7788۔"}
+{"f":"dialog","id":"ko.g066","k":"tr","src":"Do you have Instagram? / Yes, I'll give you my handle.","tgt":"آپ انسٹاگرام پر ہیں؟ / جی، میں اپنی آئی ڈی بتا دیتا/دیتی ہوں۔"}
+{"f":"dialog","id":"ko.g067","k":"tr","src":"Today was lovely. Shall we meet again? / Sure. This time it's on me.","tgt":"آج بہت اچھا لگا۔ پھر ملیں؟ / ٹھیک ہے۔ اس بار میری طرف سے۔"}
+{"f":"dialog","id":"ko.g068","k":"tr","src":"It's late. I'll walk you home. / It's fine, I can take the subway.","tgt":"دیر ہو گئی ہے۔ میں تمہیں گھر چھوڑ دیتا/دیتی ہوں۔ / رہنے دو، میٹرو ہے نا۔"}
+{"f":"dialog","id":"ko.g069","k":"tr","src":"You look pretty today. / Thanks. I got a haircut.","tgt":"آج آپ بہت خوبصورت لگ رہی ہیں۔ / شکریہ۔ میں نے بال کٹوائے ہیں۔"}
+{"f":"dialog","id":"ko.g070","k":"tr","src":"You're here! I missed you. / Me too. Did you wait long?","tgt":"آ گئے؟ آپ کی یاد آ رہی تھی۔ / مجھے بھی۔ زیادہ دیر انتظار کیا؟"}
+{"f":"dialog","id":"ko.g071","k":"tr","src":"Did you get home safe? / Yeah, just got in. Thanks for today.","tgt":"گھر خیریت سے پہنچ گئے/گئیں؟ / ہاں، ابھی پہنچا/پہنچی۔ آج کے لیے تھینکس۔"}
+{"f":"dialog","id":"ko.g072","k":"tr","src":"I'm going to sleep. Night! / Okay, sweet dreams.","tgt":"اب میں سونے جا رہا/رہی ہوں۔ شب بخیر! / ہاں، اچھے خواب دیکھنا۔"}
+{"f":"dialog","id":"ko.g073","k":"tr","src":"Did you eat? / Not yet. Wanna eat together?","tgt":"کھانا کھایا؟ / ابھی نہیں۔ ساتھ کھائیں؟"}
+{"f":"dialog","id":"ko.g074","k":"tr","src":"What are you up to? / Just lying around. Bored.","tgt":"کیا ہو رہا ہے؟ / کچھ نہیں، بس لیٹے لیٹے بوریت ہو رہی ہے۔"}
+{"f":"dialog","id":"ko.g075","k":"tr","src":"Where are you? Almost here? / Sorry, five minutes! Just got off the subway.","tgt":"کہاں ہو؟ پہنچنے والے/والی ہو؟ / سوری، بس پانچ منٹ! ابھی میٹرو سے اترا/اتری ہوں۔"}
+{"f":"dialog","id":"ko.g076","k":"tr","src":"I think I'll be late. / No worries, take your time. I'll be at the café.","tgt":"لگتا ہے مجھے ذرا دیر ہو جائے گی۔ / کوئی بات نہیں، آرام سے آؤ۔ میں کیفے میں ہوں گا/گی۔"}
+{"f":"dialog","id":"ko.g077","k":"tr","src":"Look at this meme lol / That's hilarious lol","tgt":"یہ میم دیکھو ہاہاہا / اوہ، سچ میں بہت مزاحیہ ہے ہاہاہا"}
+{"f":"dialog","id":"ko.g078","k":"tr","src":"I made this. / Wow, that's cool! How did you make it?","tgt":"یہ میں نے بنایا ہے۔ / واہ، کمال ہے! کیسے بنایا؟"}
+{"f":"dialog","id":"ko.g079","k":"tr","src":"I passed the exam! / Really? Nice job!","tgt":"میرا امتحان پاس ہو گیا! / سچ میں؟ شاباش!"}
+{"f":"dialog","id":"ko.g080","k":"tr","src":"I worked overtime today… / You worked hard. Get some rest.","tgt":"آج اوور ٹائم لگانا پڑا… / تم نے بڑی مشقت اٹھائی۔ اچھی طرح آرام کرو۔"}
+{"f":"dialog","id":"ko.g081","k":"tr","src":"Wanna grab a drink after work? / Love to! Where?","tgt":"کام کے بعد ایک ایک ڈرنک ہو جائے؟ / ضرور! کہاں؟"}
+{"f":"dialog","id":"ko.g082","k":"tr","src":"I'm so nervous about the interview. / You got this! You'll do great.","tgt":"انٹرویو سے بہت گھبراہٹ ہو رہی ہے۔ / ہمت کرو! تمہارا انٹرویو اچھا ہوگا۔"}
+{"f":"dialog","id":"ko.g083","k":"tr","src":"What are you doing tomorrow? / I'm off tomorrow. Why?","tgt":"آپ کل کیا کر رہے ہیں؟ / کل میری چھٹی ہے۔ کیوں؟"}
+{"f":"dialog","id":"ko.g084","k":"tr","src":"What time is it now? / Half past two.","tgt":"ابھی کتنے بجے ہیں؟ / ڈھائی بجے ہیں۔"}
+{"f":"dialog","id":"ko.g085","k":"tr","src":"What time is it? / 9:10.","tgt":"ابھی کتنے بجے ہیں؟ / نو بج کر دس منٹ ہوئے ہیں۔"}
+{"f":"dialog","id":"ko.g086","k":"tr","src":"How's the weather in Seoul? / Cold today, and the fine dust is bad.","tgt":"سیول میں موسم کیسا ہے؟ / آج سردی ہے اور باریک گرد (اسموگ) بھی بہت ہے۔"}
+{"f":"dialog","id":"ko.g087","k":"tr","src":"Is it raining outside? / Yes, take an umbrella.","tgt":"باہر بارش ہو رہی ہے؟ / جی، چھتری لے جائیں۔"}
+{"f":"dialog","id":"ko.g088","k":"tr","src":"You look tired. / Yeah, I couldn't sleep last night.","tgt":"آپ تھکے ہوئے لگ رہے ہیں۔ / جی، کل رات نیند نہیں آئی۔"}
+{"f":"dialog","id":"ko.g089","k":"tr","src":"I'm bored. / Then shall we watch a movie?","tgt":"بہت بوریت ہو رہی ہے۔ / تو فلم دیکھیں؟"}
+{"f":"dialog","id":"ko.g090","k":"tr","src":"I won the lottery! / No way! How much?","tgt":"میری لاٹری نکل آئی! / زبردست! کتنے کی؟"}
+{"f":"dialog","id":"ko.g091","k":"tr","src":"I lost my wallet… / Oh no! Did you check with the police?","tgt":"میرا بٹوا کھو گیا… / ہائے، اب کیا کریں! پولیس سے پتا کیا؟"}
+{"f":"dialog","id":"ko.g092","k":"tr","src":"My presentation is tomorrow. / You got this! You can do it.","tgt":"کل میری پریزنٹیشن ہے۔ / ہمت کرو! تم سے ہو جائے گا۔"}
+{"f":"dialog","id":"ko.g093","k":"tr","src":"Please eat plenty. / Thank you, I will!","tgt":"جی بھر کر کھائیے۔ / جی، کھانے کا شکریہ!"}
+{"f":"dialog","id":"ko.g094","k":"tr","src":"May I have your name? / I'm Kim Minsu.","tgt":"آپ کا اسمِ گرامی؟ / میرا نام کم منسو ہے۔"}
+{"f":"dialog","id":"ko.g095","k":"tr","src":"Please sit here. / Thank you.","tgt":"یہاں تشریف رکھیے۔ / شکریہ۔"}
+{"f":"dialog","id":"ko.g096","k":"tr","src":"Anyone home? / Yes, come in!","tgt":"کوئی ہے؟ / جی، اندر آئیے!"}
+{"f":"dialog","id":"ko.g097","k":"tr","src":"Teacher, have you been well? / Yes, thanks to you. Long time no see.","tgt":"سر/میڈم، اتنے دن آپ خیریت سے رہے؟ / جی، آپ کی دعا سے۔ بڑے دنوں بعد ملاقات ہوئی۔"}
+{"f":"dialog","id":"ko.g098","k":"tr","src":"Would you mind taking a photo? / Of course. One, two, three!","tgt":"اگر زحمت نہ ہو تو ذرا ایک تصویر کھینچ دیجیے گا؟ / جی، ضرور۔ ایک، دو، تین!"}
+{"f":"dialog","id":"ko.g099","k":"tr","src":"What are we? / Hmm… I like you. Want to go out?","tgt":"ہمارے بیچ کیا ہے؟ / ہمم… مجھے تم پسند ہو۔ تو پھر ہم ریلیشن شپ میں آ جائیں؟"}
+{"f":"dialog","id":"ko.g100","k":"tr","src":"Why didn't you text yesterday? / Sorry, my fault. Don't be mad.","tgt":"کل رابطہ کیوں نہیں کیا؟ / سوری، غلطی میری تھی۔ اب غصہ چھوڑو۔"}
+{"f":"dialog","id":"ko.g101","k":"tr","src":"How is it being with me? / I feel comfortable. That's the best part.","tgt":"میرے ساتھ رہ کر کیسا لگتا ہے؟ / تمہارے ساتھ سکون ملتا ہے۔ یہی سب سے اچھی بات ہے۔"}
+{"f":"dialog","id":"ko.g102","k":"tr","src":"Can I hold your hand? / Yeah… is it because you're cold?","tgt":"تمہارا ہاتھ پکڑ لوں؟ / ہاں… سردی لگ رہی ہے کیا؟"}
+{"f":"dialog","id":"ko.g103","k":"tr","src":"It's our 100th day today! / Really? Happy 100 days. I got you something.","tgt":"آج ہمارے 100 دن پورے ہو گئے! / سچ میں؟ 100 دن مبارک ہو۔ میں نے تمہارے لیے تحفہ تیار کیا ہے۔"}
+{"f":"dialog","id":"ko.g104","k":"tr","src":"I have something to tell you. / What is it? Is something wrong?","tgt":"مجھے تم سے کچھ کہنا ہے۔ / کیا؟ سب ٹھیک تو ہے؟"}
+{"f":"dialog","id":"ko.g105","k":"tr","src":"What time is the meeting? / Two. Meeting room B.","tgt":"میٹنگ کتنے بجے ہے؟ / دو بجے۔ میٹنگ روم B میں۔"}
+{"f":"dialog","id":"ko.g106","k":"tr","src":"When is the deadline? / Friday, 6 PM.","tgt":"ڈیڈ لائن کب ہے؟ / جمعہ، شام چھ بجے۔"}
+{"f":"dialog","id":"ko.g107","k":"tr","src":"Manager, do you have a moment? / Yes, come in.","tgt":"مینیجر صاحب، آپ کے پاس ایک منٹ ہوگا؟ / جی، اندر آ جائیں۔"}
+{"f":"dialog","id":"ko.g108","k":"tr","src":"I'll head out first. / Okay, good work today.","tgt":"اجازت ہو تو میں پہلے نکلتا/نکلتی ہوں۔ / جی، آج کی محنت کا شکریہ۔"}
+{"f":"dialog","id":"ko.g109","k":"tr","src":"There's a team dinner today. / What time and where?","tgt":"آج ٹیم ڈنر ہے۔ / کتنے بجے اور کہاں؟"}
+{"f":"dialog","id":"ko.g110","k":"tr","src":"What should we have for lunch? / How about kimchi stew?","tgt":"لنچ میں کیا کھائیں؟ / کمچی والا سالن کیسا رہے گا؟"}
+{"f":"dialog","id":"ko.g111","k":"tr","src":"Ugh, I'm bored. What should I do? / Come out. Let's get chicken.","tgt":"اف، بوریت ہو رہی ہے۔ کیا کروں؟ / باہر آؤ۔ چلو، چکن کھاتے ہیں۔"}
+{"f":"dialog","id":"ko.g112","k":"tr","src":"I'm so tired today. / Sleep early. See you tomorrow.","tgt":"آج بہت تھکن ہے۔ / جلدی سو جاؤ۔ کل ملتے ہیں۔"}
+{"f":"dialog","id":"ko.g113","k":"tr","src":"Where are you? / On my way. 10 minutes!","tgt":"کہاں ہو؟ / راستے میں ہوں۔ 10 منٹ!"}
+{"f":"dialog","id":"ko.g114","k":"tr","src":"What's with him? / Dunno. I'm curious too.","tgt":"اسے کیا ہوا ہے؟ / پتا نہیں۔ مجھے بھی یہی جاننا ہے۔"}
+{"f":"dialog","id":"ko.g115","k":"tr","src":"I saved us seats. / You really are the best.","tgt":"میں نے ہمارے لیے جگہ رکھ لی ہے۔ / تم واقعی سب سے بہترین ہو۔"}
+{"f":"dialog","id":"ko.g116","k":"tr","src":"Karaoke tonight? / Let's go! My treat.","tgt":"آج کراوکے کیسا رہے گا؟ / چلو! میری طرف سے۔"}
+{"f":"dialog","id":"ko.g117","k":"tr","src":"I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.","tgt":"لگتا ہے میری پریزنٹیشن خراب ہو جائے گی۔ / فکر نہ کرو۔ بس جیسے پریکٹس کی ہے ویسے ہی کرنا۔"}
+{"f":"dialog","id":"ko.g118","k":"tr","src":"Finally done. / Nice work. A beer?","tgt":"آخرکار ختم ہو گیا۔ / تم نے اچھا کام کیا۔ ایک بیئر ہو جائے؟"}
+{"f":"dialog","id":"ko.g119","k":"tr","src":"How's this? Just bought it. / Cute. It suits you.","tgt":"یہ کیسا ہے؟ ابھی خریدا ہے۔ / کیوٹ ہے۔ تم پر بہت جچ رہا ہے۔"}
+{"f":"dialog","id":"ko.g120","k":"tr","src":"I miss you. / Me too. Let's meet this weekend.","tgt":"تمہاری یاد آ رہی ہے۔ / مجھے بھی۔ ویک اینڈ پر ملتے ہیں۔"}
+{"f":"dialog","id":"ko.g121","k":"tr","src":"I like you. / …Me too. You should've said sooner.","tgt":"مجھے تم پسند ہو۔ / …مجھے بھی۔ پہلے کیوں نہیں بتایا؟"}
+{"f":"dialog","id":"ko.g122","k":"tr","src":"Babe, what are you doing? / Thinking about you, obviously.","tgt":"جانو، کیا ہو رہا ہے؟ / تمہارا ہی خیال آ رہا تھا، اور کیا۔"}
+{"f":"dialog","id":"ko.g123","k":"tr","src":"I'm heading out now. / Get home safe. Text me when you arrive.","tgt":"اب میں چلتا/چلتی ہوں۔ / خیریت سے جانا۔ پہنچ کر میسج کرنا۔"}
+{"f":"dialog","id":"ko.g124","k":"tr","src":"Sleepy. Going to bed. / Okay, sweet dreams.","tgt":"نیند آ رہی ہے۔ اب سوتا/سوتی ہوں۔ / ہاں، اچھے خواب دیکھنا۔"}
+{"f":"dialog","id":"ko.g125","k":"tr","src":"Why are you smiling like that? / Your smile just now made my heart skip.","tgt":"اتنی مسکراہٹ کس بات کی؟ / ابھی تمہیں مسکراتے دیکھ کر دل دھڑک اٹھا۔"}
+{"f":"dialog","id":"ko.g126","k":"tr","src":"Why'd you text? / No reason. I keep thinking about you.","tgt":"میسج کیوں کیا؟ / بس ایسے ہی۔ بار بار تمہاری یاد آ رہی تھی۔"}
+{"f":"dialog","id":"ko.g127","k":"tr","src":"You said you had something to say? / I think I like you.","tgt":"تمہیں کچھ کہنا تھا نا؟ / لگتا ہے مجھے تم پسند ہو۔"}
+{"f":"dialog","id":"ko.g128","k":"tr","src":"What are we? / Let's date.","tgt":"ہمارے بیچ کیا ہے؟ / چلو، ریلیشن شپ شروع کرتے ہیں۔"}
+{"f":"dialog","id":"ko.g129","k":"tr","src":"I passed! / Really? Congrats!","tgt":"میرا سلیکشن ہو گیا! / سچ میں؟ مبارک ہو!"}
+{"f":"dialog","id":"ko.g130","k":"tr","src":"I'll go first. / Don't go. Stay a little longer.","tgt":"میں پہلے چلتا/چلتی ہوں۔ / مت جاؤ۔ تھوڑی دیر اور رکو۔"}
+{"f":"dialog","id":"ko.g131","k":"tr","src":"Long time no see. / I missed you. Been well?","tgt":"بڑے دنوں بعد ملاقات ہوئی۔ / تمہاری یاد آ رہی تھی۔ سب خیریت رہی؟"}
+{"f":"dialog","id":"ko.g132","k":"tr","src":"Who's your bias? / The main vocalist.","tgt":"آپ کا سب سے پسندیدہ کون ہے؟ / میرا تو مین ووکلسٹ۔"}
+{"f":"dialog","id":"ko.g133","k":"tr","src":"What are you listening to lately? / I became a fan of this group. Their stage is amazing.","tgt":"آج کل کیا سن رہے ہیں؟ / میں اس گروپ کا فین بن گیا/گئی ہوں۔ یہ اسٹیج پر کمال کرتے ہیں۔"}
+{"f":"dialog","id":"ko.g134","k":"tr","src":"What are you doing this weekend? / Going to a concert! I even bought a light stick.","tgt":"ویک اینڈ پر کیا کر رہے ہیں؟ / کنسرٹ کا پروگرام ہے! لائٹ اسٹک بھی خرید لی۔"}
+{"f":"dialog","id":"ko.g135","k":"tr","src":"I'm a fan! Please sign this. / Sure, thanks. What's your name?","tgt":"میں آپ کا فین ہوں! آٹوگراف دے دیں۔ / جی، شکریہ۔ آپ کا نام کیا ہے؟"}
+{"f":"dialog","id":"ko.g136","k":"tr","src":"They're making a comeback this month. / Really? Did you see the teaser?","tgt":"سنا ہے اس مہینے کم بیک ہے۔ / سچ میں؟ ٹیزر دیکھا؟"}
+{"f":"dialog","id":"ko.g137","k":"tr","src":"How was the concert? / Got goosebumps during the singalong.","tgt":"کنسرٹ کیسا رہا؟ / جب سب نے مل کر گایا تو رونگٹے کھڑے ہو گئے۔"}
+{"f":"dialog","id":"ko.g138","k":"tr","src":"Are you on Instagram? / Yes, I just followed you.","tgt":"آپ انسٹاگرام چلاتے ہیں؟ / جی، ابھی ابھی آپ کو فالو کیا۔"}
+{"f":"dialog","id":"ko.g139","k":"tr","src":"Posted a photo. Hit like for me. / Already did.","tgt":"تصویر ڈالی ہے۔ لائک کر دو۔ / کب کا کر دیا۔"}
+{"f":"dialog","id":"ko.g140","k":"tr","src":"Why did nobody laugh at my joke earlier? / It killed the mood…","tgt":"تھوڑی دیر پہلے میرے لطیفے پر کوئی کیوں نہیں ہنسا؟ / ماحول ایک دم ٹھنڈا پڑ گیا تھا…"}
+{"f":"dialog","id":"ko.g141","k":"tr","src":"How's the tteokbokki here? / Insanely good. I'm coming back.","tgt":"یہاں کی توکبوکی کیسی ہے؟ / حد سے زیادہ مزیدار۔ پھر آنا پڑے گا۔"}
+{"f":"dialog","id":"ko.g142","k":"tr","src":"This song is addictive. / For real, been listening all day.","tgt":"یہ گانا تو لت لگا دینے والا ہے۔ / سچ میں، صبح سے یہی چل رہا ہے۔"}
+{"f":"dialog","id":"ko.g143","k":"tr","src":"What should I wear today? / Go effortless. Jeans and a white tee.","tgt":"آج کیا پہنوں؟ / سادہ مگر اسٹائلش رکھو۔ جینز اور سفید ٹی شرٹ۔"}
+{"f":"dialog","id":"ko.g144","k":"tr","src":"What are you doing this weekend? / Having a meal with family.","tgt":"ویک اینڈ پر کیا کر رہے ہیں؟ / گھر والوں کے ساتھ کھانے کا پروگرام ہے۔"}
+{"f":"dialog","id":"ko.g145","k":"tr","src":"Who did you come with? / With a friend.","tgt":"آپ کس کے ساتھ آئے ہیں؟ / دوست کے ساتھ۔"}
+{"f":"dialog","id":"ko.g146","k":"tr","src":"Who's that? / That's my older brother.","tgt":"وہ کون ہیں؟ / میرے بڑے بھائی ہیں۔"}
+{"f":"dialog","id":"ko.g147","k":"tr","src":"Unni, how's this? / It suits you. Buy it.","tgt":"باجی، یہ کیسا ہے؟ / تم پر اچھا لگ رہا ہے۔ لے لو۔"}
+{"f":"dialog","id":"ko.g148","k":"tr","src":"Do you have siblings? / Yes, one younger sibling.","tgt":"آپ کے بہن بھائی ہیں؟ / جی، ایک چھوٹا بھائی یا چھوٹی بہن ہے۔"}
+{"f":"dialog","id":"ko.g149","k":"tr","src":"Teacher, I have a question. / Yes, go ahead.","tgt":"سر/میڈم، میرا ایک سوال ہے۔ / جی، بولیں۔"}
+{"f":"dialog","id":"ko.g150","k":"tr","src":"That restaurant is closed on Mondays. / Ah, really? Then let's go on Tuesday.","tgt":"وہ ریسٹورنٹ پیر کو بند رہتا ہے۔ / اچھا، واقعی؟ تو پھر منگل کو چلتے ہیں۔"}
+{"f":"dialog","id":"ko.g151","k":"tr","src":"This is a cake I made. / Wow, it's really pretty!","tgt":"یہ کیک میں نے بنایا ہے۔ / واہ، بہت خوبصورت ہے!"}
+{"f":"dialog","id":"ko.g152","k":"tr","src":"Minsu, I'm here. / Oh, you're here? Come in.","tgt":"منسو، میں آ گیا/گئی۔ / ارے، آ گئے/گئیں؟ اندر آ جاؤ۔"}
+{"f":"dialog","id":"ko.g153","k":"tr","src":"Want to have lunch tomorrow? / Yeah, sure. What time?","tgt":"کل ساتھ لنچ کریں؟ / ہاں، ٹھیک ہے۔ کتنے بجے؟"}
+{"f":"dialog","id":"ko.g154","k":"tr","src":"What do you want to eat? / Hmm… bibimbap today.","tgt":"آپ کا کیا کھانے کو دل چاہ رہا ہے؟ / ہمم… آج بیبمباپ۔"}
+{"f":"dialog","id":"ko.g155","k":"tr","src":"I bought this with my first paycheck. / Oh, nice!","tgt":"یہ میں نے اپنی پہلی تنخواہ سے خریدا۔ / اوہ، کمال ہے!"}
+{"f":"dialog","id":"ko.g156","k":"tr","src":"This is Namsan Tower. / Whoa, you can see all of Seoul!","tgt":"یہ نمسان ٹاور ہے۔ / واؤ، یہاں سے پورا سیول نظر آتا ہے!"}
+{"f":"dialog","id":"ko.g157","k":"tr","src":"I'm getting married next month. / Oh my, really? Congratulations!","tgt":"اگلے مہینے میری شادی ہے۔ / ہائے اللہ، سچ میں؟ مبارک ہو!"}
+{"f":"dialog","id":"ko.g158","k":"tr","src":"Ouch! I banged my hand on the door. / Are you OK? Let me see.","tgt":"اوئی! دروازے سے ہاتھ ٹکرا گیا۔ / آپ ٹھیک ہیں؟ دکھائیں۔"}
+{"f":"dialog","id":"ko.g159","k":"tr","src":"Your face has gone red! / Oh, come on, stop looking.","tgt":"آپ کا چہرہ لال ہو گیا! / اف، چھوڑیں بھی، مت دیکھیں۔"}
+{"f":"dialog","id":"ko.g160","k":"tr","src":"Do you think this movie will be good? / Well, I'm not sure.","tgt":"یہ فلم اچھی ہوگی؟ / کیا کہوں… پکا پتا نہیں۔"}
+{"f":"dialog","id":"ko.g161","k":"tr","src":"I saw BTS yesterday. / Come on, no way!","tgt":"میں نے کل بی ٹی ایس کو دیکھا۔ / ارے چھوڑو، جھوٹ!"}
+{"f":"dialog","id":"ko.g162","k":"tr","src":"They say there's no team dinner today. / Yes! I'm going home early.","tgt":"سنا ہے آج ٹیم ڈنر نہیں ہے۔ / یس! آج تو جلدی گھر۔"}
+{"f":"dialog","id":"ko.g163","k":"tr","src":"It's already eleven. / Yikes, I have to hurry!","tgt":"گیارہ بج بھی گئے۔ / ارے باپ رے، مجھے جلدی جانا ہے!"}
+{"f":"dialog","id":"ko.g164","k":"tr","src":"Oops, I spilled the coffee! / It's fine, I'll wipe it up.","tgt":"اوپس، مجھ سے کافی گر گئی! / کوئی بات نہیں، لائیں، میں صاف کر دوں۔"}
+{"f":"dialog","id":"ko.g165","k":"tr","src":"Did you bring an umbrella? / Oh no, I left it at home.","tgt":"چھتری لائے ہیں؟ / ارے، وہ تو گھر پر ہی رہ گئی۔"}
+{"f":"dialog","id":"ko.g166","k":"tr","src":"Is your exam over? / Yes, phew, now I need some rest.","tgt":"امتحان ختم ہو گیا؟ / جی، اف، اب تھوڑا آرام کرنا ہے۔"}
+{"f":"dialog","id":"ko.g167","k":"tr","src":"Overtime again today? / Sigh, yes. There's too much work.","tgt":"آج بھی اوور ٹائم؟ / اوہو، جی۔ کام بہت زیادہ ہے۔"}
+{"f":"dialog","id":"ko.g168","k":"tr","src":"Shh, the baby is sleeping. / Oh, sorry. I'll be quiet.","tgt":"شش، بچہ سو رہا ہے۔ / اوہ، معاف کریں۔ اب آواز نہیں ہوگی۔"}
+{"f":"dialog","id":"ko.g169","k":"tr","src":"Right, shall we start now? / Yes, let's start!","tgt":"چلیں، اب شروع کریں؟ / جی، شروع کرتے ہیں!"}
+{"f":"dialog","id":"ko.g170","k":"tr","src":"Hello? Is that Minji? / Yes, it's me. What's up?","tgt":"ہیلو؟ منجی؟ / جی، میں ہی ہوں۔ کیا بات ہے؟"}
+{"f":"dialog","id":"ko.g171","k":"tr","src":"This bag is a million won. / Oh my god, that's way too expensive!","tgt":"یہ بیگ دس لاکھ وون کا ہے۔ / یا اللہ، یہ تو بہت مہنگا ہے!"}
+{"f":"dialog","id":"ko.g172","k":"tr","src":"Boo! / Ah, you scared me! That made me jump.","tgt":"بھو! / ارے، ڈرا دیا! تم نے تو چونکا دیا۔"}
+{"f":"dialog","id":"ko.g173","k":"tr","src":"Aaah, a bug! / Stay still. I'll get it.","tgt":"آآآ، کیڑا! / ہلیں مت۔ مجھ پر چھوڑ دیں۔"}
+{"f":"dialog","id":"ko.g174","k":"tr","src":"Ta-da! It's your birthday present. / Wow, thank you! What is it?","tgt":"ٹا ڈا! یہ آپ کی سالگرہ کا تحفہ ہے۔ / واہ، شکریہ! کیا ہے؟"}
+{"f":"dialog","id":"ko.g175","k":"tr","src":"This milk is past its date. / Yuck, I already drank some!","tgt":"اس دودھ کی تاریخ گزر چکی ہے۔ / چھی، میں نے تو پی بھی لیا!"}
+{"f":"dialog","id":"ko.g176","k":"tr","src":"You look even prettier today. / Really? I changed my hair a bit.","tgt":"آج تو آپ اور بھی خوبصورت لگ رہی ہیں۔ / سچ میں؟ میں نے بالوں کا انداز تھوڑا بدلا ہے۔"}
+{"f":"dialog","id":"ko.g177","k":"tr","src":"My name is Haneul. / Even your name is pretty.","tgt":"میرا نام ہانل ہے۔ / آپ کا نام بھی خوبصورت ہے۔"}
+{"f":"dialog","id":"ko.g178","k":"tr","src":"Why are you so cute? / Oh, stop joking.","tgt":"آپ اتنے کیوٹ کیوں ہیں؟ / ارے، مذاق مت کریں۔"}
+{"f":"dialog","id":"ko.g179","k":"tr","src":"You're even better-looking in person. / Haha, I guess my photos don't do me justice.","tgt":"آپ سامنے اور بھی ہینڈسم لگتے ہیں۔ / ہاہا، لگتا ہے میری تصویریں اچھی نہیں آتیں۔"}
+{"f":"dialog","id":"ko.g180","k":"tr","src":"You look cool when you're working. / Out of nowhere? Thank you.","tgt":"کام کرتے وقت آپ کا انداز کمال کا ہے۔ / اچانک؟ شکریہ۔"}
+{"f":"dialog","id":"ko.g181","k":"tr","src":"You have a pretty smile. / Thank you. That's the first time I've heard that.","tgt":"آپ کی مسکراہٹ خوبصورت ہے۔ / شکریہ۔ یہ بات پہلی بار سنی ہے۔"}
+{"f":"dialog","id":"ko.g182","k":"tr","src":"Your eye smile is really pretty. / Oh, come on, I'm embarrassed.","tgt":"آپ کی آنکھوں کی مسکراہٹ بہت خوبصورت ہے۔ / اف، چھوڑیں بھی، مجھے شرم آ رہی ہے۔"}
+{"f":"dialog","id":"ko.g183","k":"tr","src":"What's the occasion? You actually called. / I just wanted to hear your voice.","tgt":"آج کیسے یاد کر لیا؟ فون تک کر دیا۔ / بس، آپ کی آواز سننے کو دل چاہ رہا تھا۔"}
+{"f":"dialog","id":"ko.g184","k":"tr","src":"What do you think of me? / Honestly, you're totally my type.","tgt":"میرے بارے میں آپ کا کیا خیال ہے؟ / سچ کہوں تو آپ بالکل میرے ٹائپ ہیں۔"}

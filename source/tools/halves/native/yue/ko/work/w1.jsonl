@@ -77,7 +77,7 @@
 {"f":"labels","id":"ko.z.polite.02","k":"text","src":"Please (I'm asking a favor)","tgt":"拜託（求人幫手）"}
 {"f":"labels","id":"ko.z.polite.03","k":"text","src":"Excuse me / Pardon me","tgt":"唔好意思（打擾晒）"}
 {"f":"labels","id":"ko.z.polite.04","k":"text","src":"Excuse me (to get attention)","tgt":"唔該（叫人嗰陣）"}
-{"f":"labels","id":"ko.z.polite.05","k":"text","src":"Excuse me, one second","tgt":"唔好意思，等等"}
+{"f":"labels","id":"ko.z.polite.05","k":"text","src":"Excuse me, one second","tgt":"等等 / 等一陣"}
 {"f":"labels","id":"ko.z.polite.06","k":"text","src":"I'm sorry","tgt":"對唔住"}
 {"f":"labels","id":"ko.z.polite.07","k":"text","src":"Thank you","tgt":"多謝"}
 {"f":"labels","id":"ko.z.polite.08","k":"text","src":"Thanks","tgt":"多謝（較親切）"}
@@ -283,13 +283,13 @@
 {"f":"cards","id":"ko.c0012","k":"note","src":"ㅜ + y.","tgt":"ㅜ + y。"}
 {"f":"cards","id":"ko.c0013","k":"meaning","src":"g (soft) at start, k at syllable end","tgt":"字頭係比粵拼 g 鬆嘅 g，音節尾讀 k"}
 {"f":"cards","id":"ko.c0013","k":"note","src":"가 = ga, 악 = ak.","tgt":"가 = ga，악 = ak。"}
-{"f":"cards","id":"ko.c0014","k":"meaning","src":"n","tgt":"同粵拼 n 一樣，唔好讀成 l"}
+{"f":"cards","id":"ko.c0014","k":"meaning","src":"n","tgt":"舌尖頂住上齒齦，似「拿（naa4）」嘅 n，唔好讀成 l"}
 {"f":"cards","id":"ko.c0014","k":"note","src":"나 = na.","tgt":"나 = na。"}
 {"f":"cards","id":"ko.c0015","k":"meaning","src":"d at start, t at end","tgt":"字頭係比粵拼 d 鬆嘅 d，音節尾讀 t"}
 {"f":"cards","id":"ko.c0015","k":"note","src":"다 = da.","tgt":"다 = da。"}
 {"f":"cards","id":"ko.c0016","k":"meaning","src":"flap r between vowels, l at end","tgt":"兩個元音中間舌尖輕彈一下（r），音節尾讀 l"}
 {"f":"cards","id":"ko.c0016","k":"note","src":"라 = ra, 물 = mul.","tgt":"라 = ra，물 = mul。"}
-{"f":"cards","id":"ko.c0017","k":"meaning","src":"m","tgt":"同粵拼 m 一樣"}
+{"f":"cards","id":"ko.c0017","k":"meaning","src":"m","tgt":"似「媽（maa1）」嘅 m"}
 {"f":"cards","id":"ko.c0017","k":"note","src":"마 = ma.","tgt":"마 = ma。"}
 {"f":"cards","id":"ko.c0018","k":"meaning","src":"b at start, p at end","tgt":"字頭係比粵拼 b 鬆嘅 b，音節尾讀 p"}
 {"f":"cards","id":"ko.c0018","k":"note","src":"바 = ba, 밥 = bap.","tgt":"바 = ba，밥 = bap。"}
@@ -522,7 +522,7 @@
 {"f":"cards","id":"ko.c0131","k":"meaning","src":"Less sweet, please","tgt":"唔該少甜"}
 {"f":"cards","id":"ko.c0131","k":"note","src":"덜 = less. 안 달게 = not sweet.","tgt":"덜 = 少啲。안 달게 = 唔要甜。"}
 {"f":"cards","id":"ko.c0132","k":"meaning","src":"No syrup, please","tgt":"唔該走糖漿"}
-{"f":"cards","id":"ko.c0132","k":"note","src":"빼다 = take out. 얼음 빼 주세요 = no ice.","tgt":"빼다 = 攞走。얼음 빼 주세요 = 走冰。"}
+{"f":"cards","id":"ko.c0132","k":"note","src":"빼다 = take out. 얼음 빼 주세요 = no ice.","tgt":"빼다 = 攞走。얼음 빼 주세요 = 唔該走冰。"}
 {"f":"cards","id":"ko.c0133","k":"meaning","src":"For here? (they ask)","tgt":"請問喺度食？（店員問）"}
 {"f":"cards","id":"ko.c0133","k":"note","src":"Answer: 네, 먹고 갈게요 (for here) / 포장이요 (to go).","tgt":"答：네, 먹고 갈게요（喺度食）/ 포장이요（拎走）。"}
 {"f":"cards","id":"ko.c0134","k":"meaning","src":"To go","tgt":"拎走"}
@@ -556,7 +556,7 @@
 {"f":"cards","id":"ko.c0148","k":"meaning","src":"Phone number","tgt":"電話號碼"}
 {"f":"cards","id":"ko.c0148","k":"note","src":"Phone digits are Sino, and 0 is 공 (gong), not 영.","tgt":"電話號碼用漢字詞數字，0 讀 공（gong），唔係 영。"}
 {"f":"cards","id":"ko.c0149","k":"meaning","src":"3rd floor","tgt":"3 樓"}
-{"f":"cards","id":"ko.c0149","k":"note","src":"층 = floor, Sino number. 지하 1층 (B1) = jiha ilcheung.","tgt":"층 = 樓層，用漢字詞數字。지하 1층（B1）= jiha ilcheung。韓國嘅一樓即係香港嘅地下。"}
+{"f":"cards","id":"ko.c0149","k":"note","src":"층 = floor, Sino number. 지하 1층 (B1) = jiha ilcheung.","tgt":"층 = 樓層，用漢字詞數字。지하 1층（B1）= jiha ilcheung。韓國將地面嗰層叫一樓。"}
 {"f":"cards","id":"ko.c0150","k":"meaning","src":"2 PM","tgt":"下晝 2 點"}
 {"f":"cards","id":"ko.c0150","k":"note","src":"Hours are native: 두 시. 오후 = PM, 오전 = AM.","tgt":"鐘點用固有詞：두 시。오후 = 下晝，오전 = 上晝。"}
 {"f":"cards","id":"ko.c0151","k":"meaning","src":"9:30 AM","tgt":"上晝 9:30"}
@@ -639,7 +639,7 @@
 {"f":"cards","id":"ko.c0189","k":"note","src":"Most-used feeling word in Korea.","tgt":"韓國人最常講嘅感受。"}
 {"f":"cards","id":"ko.c0190","k":"meaning","src":"I'm nervous","tgt":"我好緊張"}
 {"f":"cards","id":"ko.c0190","k":"note","src":"긴장 = tension. Before a test or a date.","tgt":"긴장 = 緊張。考試前或者拍拖前。"}
-{"f":"cards","id":"ko.c0191","k":"meaning","src":"I'm bored","tgt":"好悶呀"}
+{"f":"cards","id":"ko.c0191","k":"meaning","src":"I'm bored","tgt":"好悶"}
 {"f":"cards","id":"ko.c0191","k":"note","src":"심심하다. 놀자! fixes it.","tgt":"심심하다。講句 놀자! 就搞掂。"}
 {"f":"cards","id":"ko.c0192","k":"meaning","src":"I'm angry","tgt":"我嬲咗"}
 {"f":"cards","id":"ko.c0192","k":"note","src":"화 = anger. 화내지 마 = don't be mad.","tgt":"화 = 火、嬲。화내지 마 = 唔好嬲。"}
@@ -755,11 +755,11 @@
 {"f":"cards","id":"ko.c0247","k":"note","src":"성함 = honorific of 이름.","tgt":"성함 = 이름 嘅尊敬形。"}
 {"f":"cards","id":"ko.c0248","k":"meaning","src":"How old are you? (honorific)","tgt":"請問你貴庚？（尊敬）"}
 {"f":"cards","id":"ko.c0248","k":"note","src":"연세 = honorific of 나이. For elders.","tgt":"연세 = 나이 嘅尊敬形，對長輩用。"}
-{"f":"cards","id":"ko.c0249","k":"meaning","src":"go (honorific)","tgt":"去（尊敬）"}
+{"f":"cards","id":"ko.c0249","k":"meaning","src":"go (honorific)","tgt":"請慢行 / 去（尊敬）"}
 {"f":"cards","id":"ko.c0249","k":"note","src":"가다 + 시 + 어요 → 가세요. 조심히 가세요.","tgt":"가다 + 시 + 어요 → 가세요. 조심히 가세요.","pre":1}
-{"f":"cards","id":"ko.c0250","k":"meaning","src":"Did you come? (honorific past)","tgt":"你嚟咗喇？（尊敬，過去式）"}
+{"f":"cards","id":"ko.c0250","k":"meaning","src":"Did you come? (honorific past)","tgt":"請問你到咗喇？（尊敬，過去式）"}
 {"f":"cards","id":"ko.c0250","k":"note","src":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?","tgt":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?","pre":1}
-{"f":"cards","id":"ko.c0251","k":"meaning","src":"do (honorific)","tgt":"做（尊敬）"}
+{"f":"cards","id":"ko.c0251","k":"meaning","src":"do (honorific)","tgt":"請做 / 做（尊敬）"}
 {"f":"cards","id":"ko.c0251","k":"note","src":"안녕하세요 is literally 'are you at peace' with 시.","tgt":"안녕하세요 加咗 시，直譯係「你過得平安」。"}
 {"f":"cards","id":"ko.c0252","k":"meaning","src":"father / mother (someone else's, honorific)","tgt":"伯父 / 伯母（尊敬，指人哋嘅父母）"}
 {"f":"cards","id":"ko.c0252","k":"note","src":"님 raises 아버지/어머니. For your partner's parents.","tgt":"님 抬高 아버지 / 어머니。用嚟稱呼另一半嘅父母。"}
@@ -769,7 +769,7 @@
 {"f":"cards","id":"ko.c0254","k":"note","src":"손 + 님. 고객님 at shops.","tgt":"손 + 님。商店會叫 고객님。"}
 {"f":"cards","id":"ko.c0255","k":"meaning","src":"Teacher, have you eaten?","tgt":"老師，請問你食咗飯未？"}
 {"f":"cards","id":"ko.c0255","k":"note","src":"식사 = honorific-ish 'meal'. 하셨어요 = did (honorific).","tgt":"식사 = 用膳（比較尊敬嘅「飯」）。하셨어요 = 做咗（尊敬）。"}
-{"f":"cards","id":"ko.c0256","k":"meaning","src":"Have you been well? (honorific)","tgt":"你近排好唔好？（尊敬）"}
+{"f":"cards","id":"ko.c0256","k":"meaning","src":"Have you been well? (honorific)","tgt":"請問你近排好唔好？（尊敬）"}
 {"f":"cards","id":"ko.c0256","k":"note","src":"지내다 + 시 + 었어요.","tgt":"지내다 + 시 + 었어요.","pre":1}
 {"f":"cards","id":"ko.c0257","k":"meaning","src":"please sit","tgt":"請坐"}
 {"f":"cards","id":"ko.c0257","k":"note","src":"앉다 + 으세요 (after consonant).","tgt":"앉다 + 으세요（有收音之後）。"}
@@ -782,7 +782,7 @@
 {"f":"cards","id":"ko.c0261","k":"meaning","src":"library","tgt":"圖書館"}
 {"f":"cards","id":"ko.c0261","k":"note","src":"도서 books + 관 hall.","tgt":"도서（圖書）+ 관（館）。"}
 {"f":"cards","id":"ko.c0262","k":"meaning","src":"museum","tgt":"博物館"}
-{"f":"cards","id":"ko.c0262","k":"note","src":"미술관 = art museum.","tgt":"미술관 = 美術館。博物館 bok3 mat6 gun2：-k 對 k，-t 對 l。"}
+{"f":"cards","id":"ko.c0262","k":"note","src":"미술관 = art museum.","tgt":"미술관 = 美術館。博物館 bok3 mat6 gun2：「物（mat6）」收 -t，韓文收 l。"}
 {"f":"cards","id":"ko.c0263","k":"meaning","src":"house / home","tgt":"屋企"}
 {"f":"cards","id":"ko.c0263","k":"note","src":"집에 가요 = I'm going home.","tgt":"집에 가요 = 我返屋企。"}
 {"f":"cards","id":"ko.c0264","k":"meaning","src":"school","tgt":"學校"}
@@ -1004,7 +1004,7 @@
 {"f":"cards","id":"ko.c0376","k":"meaning","src":"exit / entrance","tgt":"出口 / 入口"}
 {"f":"cards","id":"ko.c0376","k":"note","src":"지하철 3번 출구 = subway exit 3.","tgt":"지하철 3번 출구 = 地鐵 3 號出口。"}
 {"f":"cards","id":"ko.c0377","k":"meaning","src":"floor (of a building)","tgt":"樓層"}
-{"f":"cards","id":"ko.c0377","k":"note","src":"2층 = 2nd floor; 지하 1층 = B1.","tgt":"2층 = 二樓（即香港嘅 1 樓，因為韓國冇「地下」）；지하 1층 = B1。"}
+{"f":"cards","id":"ko.c0377","k":"note","src":"2층 = 2nd floor; 지하 1층 = B1.","tgt":"2층 = 二樓，即係香港嘅 1 樓（韓國將地面嗰層叫一樓）；지하 1층 = 地庫一樓（B1）。"}
 {"f":"cards","id":"ko.c0378","k":"meaning","src":"Go back / turn around","tgt":"請返轉頭 / 請掉頭"}
 {"f":"cards","id":"ko.c0378","k":"note","src":"돌다 = to turn.","tgt":"돌다 = 轉。"}
 {"f":"cards","id":"ko.c0379","k":"meaning","src":"straight ahead","tgt":"直行"}
@@ -1038,7 +1038,7 @@
 {"f":"cards","id":"ko.c0393","k":"meaning","src":"topic marker ('as for...')","tgt":"話題助詞（「至於……」）"}
 {"f":"cards","id":"ko.c0393","k":"note","src":"은 after consonant, 는 after vowel. 저는 = as for me.","tgt":"은 喺收音後面，는 喺元音後面。저는 = 我呢……"}
 {"f":"cards","id":"ko.c0394","k":"meaning","src":"subject marker","tgt":"主格助詞"}
-{"f":"cards","id":"ko.c0394","k":"note","src":"이 after consonant, 가 after vowel. 비가 와요 = rain is falling.","tgt":"이 喺收音後面，가 喺元音後面。비가 와요 = 落雨。"}
+{"f":"cards","id":"ko.c0394","k":"note","src":"이 after consonant, 가 after vowel. 비가 와요 = rain is falling.","tgt":"이 喺收音後面，가 喺元音後面。비가 와요 = 落緊雨。"}
 {"f":"cards","id":"ko.c0395","k":"meaning","src":"object marker","tgt":"賓格助詞"}
 {"f":"cards","id":"ko.c0395","k":"note","src":"을 after consonant, 를 after vowel. 밥을 먹어요.","tgt":"을 喺收音後面，를 喺元音後面。밥을 먹어요。"}
 {"f":"cards","id":"ko.c0396","k":"meaning","src":"to / at (place or time)","tgt":"去 / 喺（地點或時間）"}
@@ -1060,7 +1060,7 @@
 {"f":"cards","id":"ko.c0404","k":"meaning","src":"7, 8, 9, 10 (native)","tgt":"7、8、9、10（固有詞）"}
 {"f":"cards","id":"ko.c0404","k":"note","src":"스물 = 20, 서른 = 30.","tgt":"스물 = 20, 서른 = 30.","pre":1}
 {"f":"cards","id":"ko.c0405","k":"meaning","src":"1 to 5 (Sino-Korean)","tgt":"1 至 5（漢字詞）"}
-{"f":"cards","id":"ko.c0405","k":"note","src":"Sino numbers: money, dates, minutes, phone numbers.","tgt":"漢字詞數字：錢、日期、分鐘、電話號碼。佢哋同廣東話「一二三四五」同源，收尾都對得上：一 jat1、三 saam1。"}
+{"f":"cards","id":"ko.c0405","k":"note","src":"Sino numbers: money, dates, minutes, phone numbers.","tgt":"漢字詞數字：錢、日期、分鐘、電話號碼。佢哋同廣東話「一二三四五」同源：一 jat1 收 -t，韓文變 l；三 saam1 收 -m，韓文都收 m。"}
 {"f":"cards","id":"ko.c0406","k":"meaning","src":"6 to 10 (Sino-Korean)","tgt":"6 至 10（漢字詞）"}
 {"f":"cards","id":"ko.c0406","k":"note","src":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000.","tgt":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000.","pre":1}
 {"f":"cards","id":"ko.c0407","k":"meaning","src":"10,000 won","tgt":"一萬韓元"}
@@ -1085,13 +1085,13 @@
 {"f":"cards","id":"ko.c0416","k":"note","src":"Casual. Polite: 잘 자요; to elders: 안녕히 주무세요.","tgt":"半語。禮貌：잘 자요；對長輩：안녕히 주무세요。"}
 {"f":"cards","id":"ko.c0417","k":"meaning","src":"Did you eat?","tgt":"食咗飯未？"}
 {"f":"cards","id":"ko.c0417","k":"note","src":"How Koreans say 'how are you' to people they care about.","tgt":"韓國人對關心嘅人咁樣問候，同廣東話「食咗飯未呀」一樣。"}
-{"f":"cards","id":"ko.c0418","k":"meaning","src":"You look pretty today","tgt":"你今日好靚喎"}
+{"f":"cards","id":"ko.c0418","k":"meaning","src":"You look pretty today","tgt":"你今日好靚"}
 {"f":"cards","id":"ko.c0418","k":"note","src":"네요 = noticing out loud. Casual: 오늘 예쁘네.","tgt":"네요 = 發現咗即刻講出嚟，好似「喎」。半語：오늘 예쁘네。"}
 {"f":"cards","id":"ko.c0419","k":"meaning","src":"Your eyes are so pretty","tgt":"你對眼好靚"}
 {"f":"cards","id":"ko.c0419","k":"note","src":"눈 = eyes. 웃는 모습이 예뻐요 = your smile is pretty.","tgt":"눈 = 眼。웃는 모습이 예뻐요 = 你笑起嚟好靚。"}
 {"f":"cards","id":"ko.c0420","k":"meaning","src":"The way you laugh is so cute","tgt":"你笑起嚟好可愛"}
 {"f":"cards","id":"ko.c0420","k":"note","src":"웃다 = to laugh/smile.","tgt":"웃다 = 笑。"}
-{"f":"cards","id":"ko.c0421","k":"meaning","src":"I missed you","tgt":"我好掛住你呀"}
+{"f":"cards","id":"ko.c0421","k":"meaning","src":"I missed you","tgt":"我好掛住你"}
 {"f":"cards","id":"ko.c0421","k":"note","src":"Casual: 보고 싶었어. Say it on arrival.","tgt":"半語：보고 싶었어。見面嗰陣講。"}
 {"f":"cards","id":"ko.c0422","k":"meaning","src":"I'm happy when I'm with you","tgt":"同你一齊就好幸福"}
 {"f":"cards","id":"ko.c0422","k":"note","src":"같이 = together. 행복하다 = to be happy.","tgt":"같이 = 一齊。행복하다 = 幸福。"}
@@ -1101,7 +1101,7 @@
 {"f":"cards","id":"ko.c0424","k":"note","src":"Peak Korean affection: caring about meals.","tgt":"韓國人最高級嘅關心：留意你有冇食飯。"}
 {"f":"cards","id":"ko.c0425","k":"meaning","src":"Did you get home safe?","tgt":"安全返到屋企未？"}
 {"f":"cards","id":"ko.c0425","k":"note","src":"Text this after a date. Expected, not optional.","tgt":"拍拖之後一定要傳呢句，唔係可有可無。"}
-{"f":"cards","id":"ko.c0426","k":"meaning","src":"Get home safe","tgt":"小心行呀"}
+{"f":"cards","id":"ko.c0426","k":"meaning","src":"Get home safe","tgt":"小心行"}
 {"f":"cards","id":"ko.c0426","k":"note","src":"Casual. Polite: 조심히 가세요.","tgt":"半語。禮貌：조심히 가세요。"}
 {"f":"cards","id":"ko.c0427","k":"meaning","src":"Sweet dreams","tgt":"好夢"}
 {"f":"cards","id":"ko.c0427","k":"note","src":"Lit. 'dream a good dream'. Pairs with 잘 자.","tgt":"直譯「發個好夢」。同 잘 자 一齊講。"}
@@ -1149,9 +1149,9 @@
 {"f":"cards","id":"ko.c0448","k":"note","src":"The universal opener. Polite: 뭐 해요?","tgt":"萬用開場白。禮貌：뭐 해요?"}
 {"f":"cards","id":"ko.c0449","k":"meaning","src":"I'm bored","tgt":"好悶"}
 {"f":"cards","id":"ko.c0449","k":"note","src":"심심하다 = bored. 놀자 = let's hang out.","tgt":"심심하다 = 悶。놀자 = 一齊玩啦。"}
-{"f":"cards","id":"ko.c0450","k":"meaning","src":"I'm tired","tgt":"好攰"}
+{"f":"cards","id":"ko.c0450","k":"meaning","src":"I'm tired","tgt":"我好攰"}
 {"f":"cards","id":"ko.c0450","k":"note","src":"피곤하다. 졸려 = I'm sleepy.","tgt":"피곤하다。졸려 = 好眼瞓。"}
-{"f":"cards","id":"ko.c0451","k":"meaning","src":"I'm hungry","tgt":"好肚餓"}
+{"f":"cards","id":"ko.c0451","k":"meaning","src":"I'm hungry","tgt":"我肚餓"}
 {"f":"cards","id":"ko.c0451","k":"note","src":"Casual version of 배고파요.","tgt":"배고파요 嘅半語。"}
 {"f":"cards","id":"ko.c0452","k":"meaning","src":"Where are you?","tgt":"你喺邊？"}
 {"f":"cards","id":"ko.c0452","k":"note","src":"Casual. 어디예요? polite.","tgt":"半語。禮貌：어디예요?"}
@@ -1165,7 +1165,7 @@
 {"f":"cards","id":"ko.c0456","k":"note","src":"Texting shorthand for 응. ㄴㄴ = no.","tgt":"응 嘅短訊縮寫。ㄴㄴ = 唔係。"}
 {"f":"cards","id":"ko.c0457","k":"meaning","src":"That's hilarious","tgt":"好好笑 / 笑死"}
 {"f":"cards","id":"ko.c0457","k":"note","src":"웃기다 = to be funny.","tgt":"웃기다 = 好笑。"}
-{"f":"cards","id":"ko.c0458","k":"meaning","src":"Dunno","tgt":"唔知"}
+{"f":"cards","id":"ko.c0458","k":"meaning","src":"Dunno","tgt":"我唔知"}
 {"f":"cards","id":"ko.c0458","k":"note","src":"Casual 몰라요. 글쎄 = hmm, not sure.","tgt":"몰라요 嘅半語。글쎄 = 嗯，唔肯定。"}
 {"f":"cards","id":"ko.c0459","k":"meaning","src":"Okay / sure / fine","tgt":"好 / 得 / 係咁"}
 {"f":"cards","id":"ko.c0459","k":"note","src":"Also 'is that so?' with rising tone.","tgt":"尾音升就變「真係？」。"}
@@ -1213,7 +1213,7 @@
 {"f":"cards","id":"ko.c0480","k":"note","src":"놀다 = to play / hang out. 자 = let's.","tgt":"놀다 = 玩、出去玩。자 = ……啦。"}
 {"f":"cards","id":"ko.c0481","k":"meaning","src":"Come out (come hang)","tgt":"出嚟啦"}
 {"f":"cards","id":"ko.c0481","k":"note","src":"Lit. 'come out'. 빨리 나와 = hurry up and come out.","tgt":"直譯「出嚟」。빨리 나와 = 快啲出嚟。"}
-{"f":"cards","id":"ko.c0482","k":"meaning","src":"You free?","tgt":"得唔得閒？"}
+{"f":"cards","id":"ko.c0482","k":"meaning","src":"You free?","tgt":"你得唔得閒？"}
 {"f":"cards","id":"ko.c0482","k":"note","src":"Polite: 시간 있어요?","tgt":"禮貌：시간 있어요?"}
 {"f":"cards","id":"ko.c0483","k":"meaning","src":"Are you free today?","tgt":"今日得唔得閒？"}
 {"f":"cards","id":"ko.c0483","k":"note","src":"돼 = is it possible / does it work.","tgt":"돼 = 得唔得、用唔用到。"}
@@ -1319,7 +1319,7 @@
 {"f":"cards","id":"ko.c0533","k":"note","src":"잘못하다 = to do wrong. Own it.","tgt":"잘못하다 = 做錯。錯就要認。"}
 {"f":"cards","id":"ko.c0534","k":"meaning","src":"Don't be mad anymore","tgt":"唔好再嬲啦"}
 {"f":"cards","id":"ko.c0534","k":"note","src":"풀다 = to untie / release. 화 풀어 줘 softer.","tgt":"풀다 = 解開、放開。화 풀어 줘 語氣軟啲。"}
-{"f":"cards","id":"ko.c0535","k":"meaning","src":"Don't worry, you have me","tgt":"唔使擔心，有我喺度吖嘛"}
+{"f":"cards","id":"ko.c0535","k":"meaning","src":"Don't worry, you have me","tgt":"唔使擔心，有我喺度"}
 {"f":"cards","id":"ko.c0535","k":"note","src":"잖아 = 'you know'. Reassurance.","tgt":"잖아 ≈「……吖嘛」。安撫對方。"}
 {"f":"cards","id":"ko.c0536","k":"meaning","src":"How was the date today?","tgt":"今日約會點呀？"}
 {"f":"cards","id":"ko.c0536","k":"note","src":"어땠어 = how was it.","tgt":"어땠어 = 點呀（講過去嘅事）。"}
@@ -1377,10 +1377,10 @@
 {"f":"cards","id":"ko.c0562","k":"note","src":"요즘 = these days. 어때요 = how is it.","tgt":"요즘 = 最近。어때요 = 點呀。"}
 {"f":"cards","id":"ko.c0563","k":"meaning","src":"So-so","tgt":"麻麻哋"}
 {"f":"cards","id":"ko.c0563","k":"note","src":"Lit. 'it's just like that'. Very common honest answer.","tgt":"直譯「就係咁樣」。好常見嘅老實答案。"}
-{"f":"cards","id":"ko.c0564","k":"meaning","src":"Nice weather, isn't it","tgt":"天氣好好喎"}
+{"f":"cards","id":"ko.c0564","k":"meaning","src":"Nice weather, isn't it","tgt":"天氣真好"}
 {"f":"cards","id":"ko.c0564","k":"note","src":"네요 ending = noticing something out loud. 날씨가 춥네요 = it's cold, huh.","tgt":"네요 = 發現咗即刻講出嚟，好似「喎」。날씨가 춥네요 = 好凍喎。"}
 {"f":"cards","id":"ko.c0565","k":"meaning","src":"What are you doing this weekend?","tgt":"你週末做咩？"}
-{"f":"cards","id":"ko.c0565","k":"note","src":"주말 = weekend, 에 = on.","tgt":"주말 = 週末（「末」mut6 收 -t，韓文收 l），에 = 喺。"}
+{"f":"cards","id":"ko.c0565","k":"note","src":"주말 = weekend, 에 = on.","tgt":"주말 = 週末（「末」mut6 收 -t，韓文收 l；後面再接元音就連音讀 r），에 = 喺。"}
 {"f":"cards","id":"ko.c0566","k":"meaning","src":"Me too","tgt":"我都係"}
 {"f":"cards","id":"ko.c0566","k":"note","src":"Casual: 나도.","tgt":"半語：나도。"}
 {"f":"cards","id":"ko.c0567","k":"meaning","src":"Really?","tgt":"真係？"}
@@ -1452,7 +1452,7 @@
 {"f":"cards","id":"ko.c0600","k":"meaning","src":"morning / lunchtime / evening","tgt":"朝早 / 晏晝 / 夜晚"}
 {"f":"cards","id":"ko.c0600","k":"note","src":"Also mean breakfast / lunch / dinner.","tgt":"亦解早餐 / 午餐 / 晚餐。午餐嗰個字漢字寫「點心」，但唔係飲茶嘅點心。"}
 {"f":"cards","id":"ko.c0601","k":"meaning","src":"Monday","tgt":"星期一"}
-{"f":"cards","id":"ko.c0601","k":"note","src":"요일 = day of the week.","tgt":"요일 = 星期幾。漢字係「月曜日」：「月（jyut6）」「日（jat6）」收 -t，韓文收 l。"}
+{"f":"cards","id":"ko.c0601","k":"note","src":"요일 = day of the week.","tgt":"요일 = 星期幾。漢字係「月曜日」：「月（jyut6）」收 -t，韓文收 l，後面接元音就連音讀 r。"}
 {"f":"cards","id":"ko.c0602","k":"meaning","src":"Friday","tgt":"星期五"}
 {"f":"cards","id":"ko.c0602","k":"note","src":"불금 = 'burning Friday', Friday night out.","tgt":"불금 =「火熱星期五」，即係星期五晚出去玩。"}
 {"f":"cards","id":"ko.c0603","k":"meaning","src":"Saturday / Sunday","tgt":"星期六 / 星期日"}
@@ -1473,7 +1473,7 @@
 {"f":"cards","id":"ko.c0610","k":"note","src":"누나 if you're male, 언니 if you're female.","tgt":"男仔叫 누나，女仔叫 언니。"}
 {"f":"cards","id":"ko.c0611","k":"meaning","src":"younger sibling","tgt":"細佬或者細妹"}
 {"f":"cards","id":"ko.c0611","k":"note","src":"남동생 = younger brother, 여동생 = younger sister.","tgt":"남동생 = 細佬，여동생 = 細妹。"}
-{"f":"cards","id":"ko.c0612","k":"meaning","src":"grandma / grandpa","tgt":"婆婆 / 公公"}
+{"f":"cards","id":"ko.c0612","k":"meaning","src":"grandma / grandpa","tgt":"嫲嫲、婆婆 / 爺爺、公公"}
 {"f":"cards","id":"ko.c0612","k":"note","src":"Also polite for any elderly person.","tgt":"同廣東話一樣，對任何老人家都可以咁叫，好有禮貌。"}
 {"f":"cards","id":"ko.c0613","k":"meaning","src":"family","tgt":"家人"}
 {"f":"cards","id":"ko.c0613","k":"note","src":"가족이 몇 명이에요? = how many in your family?","tgt":"가족이 몇 명이에요? = 你屋企有幾多人？漢字「家族」，「族（zuk6）」收 -k，韓文都收 k。"}

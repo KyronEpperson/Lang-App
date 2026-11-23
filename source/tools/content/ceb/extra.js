@@ -71,7 +71,7 @@ I'm on my way. | Are you almost here? | Yeah, I'm on my way! | Hapit na ka moabo
 I'm here for sightseeing. | What's the purpose of your visit? | I'm here for sightseeing. | Unsay tuyo sa imong pagbisita? / Nianhi ko aron mosuroy-suroy.
 I'm staying for a week. | How long are you staying? | I'm staying for a week. | Unsa ka kadugay dinhi? / Usa ka semana ko dinhi.
 Window or aisle? | Window or aisle? | Aisle, please. | Daplin sa bintana o daplin sa agianan? / Sa agianan, palihug.
-I have a reservation under Kim. | Hi, are you checking in? | Yes, I have a reservation under Kim. | Hi, mo-check in ka? / Oo, naa koy reserbasyon sa ngalan nga Kim.
+I have a reservation under Santos. | Hi, are you checking in? | Yes, I have a reservation under Santos. | Hi, mo-check in ka? / Oo, naa koy reserbasyon sa ngalan nga Santos.
 The air conditioner isn't working. | Front desk. How can I help you? | Hi, the air conditioner isn't working in room 512. | Front desk. Unsay akong ikatabang nimo? / Hi, dili moandar ang aircon sa kuwarto 512.
 My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I see your baggage tag? | Nawala ang akong bagahe. / Pasayloa mi niana. Puwede nako makita ang imong baggage tag?
 I don't feel well. | Are you okay? You look pale. | I don't feel well. I think I need to sit down. | Okay ra ka? Luspad ka tan-awon. / Dili maayo ang akong pamati. Kinahanglan siguro ko molingkod.
@@ -85,7 +85,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | Moadto ka sa party karong gabii? / Dili siguro. Medyo dili maayo ang akong lawas.
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | Naa koy nadungog nga grabe bahin kang Jen ug Mike. / Ha, unsa? Isulti na ang tsismis!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | Nahuman na nimo ang serye? Ang kataposan kay… / Ayaw isulti! Naa pa ko sa episode 3.
-Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | Kinsa imong paborito sa grupo? / Ang lead singer gyud. Ikaw?
+Who's your favorite character? | Who's your favorite character? | Definitely the main character. What about you? | Kinsa imong paboritong karakter? / Ang bida gyud. Ikaw?
 `;
 
 exports.EXAMPLES = `

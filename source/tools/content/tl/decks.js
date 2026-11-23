@@ -3,9 +3,9 @@
    Deck names are FINAL (tools/content/tl/DECKNAMES.md). Deck 21 is the shared alphabet deck; the last deck is tl-only (profile §9). */
 module.exports = {
 "Pagbati": `
-Hello. | /həˈloʊ/ | Kumusta | Pinakapangunahing pagbati. Puwede kahit kailan, kahit saan at kahit kanino.
-Hi! | /ˈhaɪ/ | Uy! / Kumusta! | Mas magaan at mas palagay ang loob kaysa sa "Hello". Sa Amerika, "Hi" rin ang bati ng magkakatrabaho sa isa't isa.
-Hey! | /ˈheɪ/ | Uy! / Hoy! (sa kaibigan) | Para sa mga kaibigan. Sa taong hindi mo kakilala, puwede itong tumunog na bastos.
+Hello. | /həˈloʊ/ | Kumusta (pagbati) | Pinakapangunahing pagbati. Puwede kahit kailan, kahit saan at kahit kanino.
+Hi! | /ˈhaɪ/ | Uy! (magaang bati) | Mas magaan at mas palagay ang loob kaysa sa "Hello". Sa Amerika, "Hi" rin ang bati ng magkakatrabaho sa isa't isa.
+Hey! | /ˈheɪ/ | Hoy! (sa kaibigan) | Para sa mga kaibigan. Sa taong hindi mo kakilala, puwede itong tumunog na bastos.
 Good morning. | /ˈgʊd ˈmɔːrnɪŋ/ | Magandang umaga | Hanggang bago magtanghali. Madalas paikliin: "Morning!"
 Good afternoon. | /ˈgʊd ˌæftərˈnuːn/ | Magandang hapon | Mula tanghali hanggang mga alas-sais ng gabi, kaya ito rin ang katumbas ng "Magandang tanghali". Medyo pormal; madalas marinig sa tindahan at opisina.
 Good evening. | /ˈgʊd ˈiːvnɪŋ/ | Magandang gabi (pagdating) | Bati kapag nagkita sa gabi. Ang "Good night" ay para lang sa paghihiwalay o bago matulog.
@@ -23,7 +23,7 @@ Bye! | /ˈbaɪ/ | Paalam! / Sige! | Kapag matatanda ang nag-uusap, medyo pambata
 Good night. | /ˈgʊd ˈnaɪt/ | Magandang gabi (paalam) / Matulog nang mahimbing | Sa paghihiwalay sa gabi o bago matulog lang. Kapag kararating mo, "Good evening" ang bati.
 `,
 "Pagpapakilala": `
-My name is Ana. | /maɪ ˈneɪm ɪz ˈɑːnə/ | Ana ang pangalan ko | Sa karaniwang usapan, mas madalas ang "I'm Ana." Kailangan ang "is" sa Ingles; walang katumbas na salita nito sa Tagalog, kaya huwag itong laktawan.
+My name is Ana. | /maɪ ˈneɪm ɪz ˈɑːnə/ | Ana ang pangalan ko | Sa karaniwang usapan, mas madalas ang "I'm Ana."
 Please call me Jay. | /ˈpliːz ˈkɔːl mi ˈdʒeɪ/ | Jay na lang ang itawag mo sa akin | Para sa palayaw. Karaniwan din ang palayaw sa Amerika, kaya sabihin mo lang ang sa iyo.
 What should I call you? | /ˈwʌt ʃəd aɪ ˈkɔːl ju/ | Ano ang itatawag ko sa iyo? | Magagamit kapag mahirap bigkasin ang pangalan ng kausap o gusto mong malaman ang palayaw niya.
 Where are you from? | /ˈwer ər ju frʌm/ | Taga-saan ka? | Isa sa mga unang itatanong sa iyo sa ibang bansa.
@@ -54,7 +54,7 @@ Sorry? | /ˈsɑːri/ | Ano iyon? / Ano po? | Pataas ang tono sa dulo; ibig sabih
 Could you say that again? | /kəd ju ˈseɪ ˈðæt əˈgen/ | Puwede mo bang ulitin? / Pakiulit po | Huwag mahiyang magtanong kapag hindi mo nakuha. Kung "repeat" ang gagamitin, walang "again": "Could you repeat that?"
 Could you speak more slowly? | /kəd ju ˈspiːk ˈmɔːr ˈsloʊli/ | Puwede bang bagalan mo ang pagsasalita? | Mas magalang kapag may "please". "more slowly", hindi "more slower".
 I don't understand. | /aɪ ˈdoʊnt ˌʌndərˈstænd/ | Hindi ko maintindihan | Medyo matigas ang dating. Mas malumanay: "Sorry, I didn't quite catch that."
-Do you speak Tagalog? | /də ju ˈspiːk təˈgɑːlɔːg/ | Marunong ka bang mag-Tagalog? | Mas natural at mas magalang ang "Do you speak…?" kaysa sa "Can you speak…?" Filipino ang tawag sa wikang pambansa; sa labas ng Pilipinas, "Tagalog" ang mas kilala.
+Do you speak Tagalog? | /də ju ˈspiːk təˈgɑːlɔːg/ | Marunong ka bang mag-Tagalog? | Mas natural at mas magalang ang "Do you speak…?" kaysa sa "Can you speak…?" Sa labas ng Pilipinas, mas kilala ang "Tagalog" kaysa sa "Filipino".
 I speak a little English. | /aɪ ˈspiːk ə ˈlɪtl ˈɪŋglɪʃ/ | Marunong ako ng kaunting Ingles | "a little" = kaunti pero mayroon. Kapag walang "a" ("little English"), halos wala na ang ibig sabihin. Walang article ang pangalan ng wika: "the English" ✗
 How do you say this in English? | /ˈhaʊ də ju ˈseɪ ˈðɪs ɪn ˈɪŋglɪʃ/ | Paano ito sabihin sa Ingles? | Ituro ang bagay habang nagtatanong, at may bago ka agad na salita.
 What does this mean? | /ˈwʌt dəz ˈðɪs ˈmiːn/ | Ano ang ibig sabihin nito? | Kailangan ang "does" sa tanong: "What means this?" ✗ Ituro ang menu o karatula habang nagtatanong.
@@ -68,7 +68,7 @@ Can I get the Wi-Fi password? | /kən aɪ ˈget ðə ˈwaɪfaɪ ˈpæswɜːrd/ |
 I'm lost. | /aɪm ˈlɔːst/ | Naliligaw ako | Puwede mong ipakita ang mapa at itanong: "Where am I on this map?"
 Can I pay by card? | /kən aɪ ˈpeɪ baɪ ˈkɑːrd/ | Puwede bang card ang ibayad? | "by card", walang article; puwede ring "with a card". Halos lahat ng tindahan sa Amerika ay tumatanggap ng card, pero hindi ang mga e-wallet natin.
 One moment, please. | /ˈwʌn ˈmoʊmənt ˈpliːz/ | Sandali lang po | Magalang; madalas marinig sa tindahan at sa telepono. Ito ang sabihin sa halip na "For a while", na "matagal-tagal" ang ibig sabihin sa American English.
-Just a second. | /ˈdʒʌst ə ˈsekənd/ | Teka lang / Sandali lang | Kaswal. Mas maikli pa: "Just a sec."
+Just a second. | /ˈdʒʌst ə ˈsekənd/ | Teka lang / Saglit lang | Kaswal. Mas maikli pa: "Just a sec."
 No worries. | /ˈnoʊ ˈwɜːriz/ | Ayos lang / Huwag mong alalahanin | Lalong karaniwan sa Australia at UK, pero madalas na ring marinig sa Amerika.
 That's okay. | /ˈðæts oʊˈkeɪ/ | Okay lang iyon / Wala iyon | Sagot kapag may humingi ng paumanhin sa iyo. Puwede rin: "Don't worry about it."
 Of course. | /əv ˈkɔːrs/ | Siyempre / Oo naman | Para sa pagpayag sa hiling. Bilang sagot sa tanong, puwede itong tumunog na "Halata naman, hindi ba?", kaya ingatan ang tono.
@@ -142,7 +142,7 @@ I'm just looking, thanks. | /aɪm ˈdʒʌst ˈlʊkɪŋ ˈθæŋks/ | Tumitingin 
 Do you have this in a medium? | /də ju ˈhæv ˈðɪs ɪn ə ˈmiːdiəm/ | May medium ba kayo nito? | Mga size: small, medium, large. May article dito: "in a medium".
 Do you have it in black? | /də ju ˈhæv ɪt ɪn ˈblæk/ | May itim ba kayo nito? | "in" bago ang kulay, at walang article: "in black", "in blue".
 Can I try this on? | /kən aɪ ˈtraɪ ˈðɪs ˈɑːn/ | Puwede ko bang isukat ito? | "try on" = isukat (damit, sapatos). Hindi "fit": "Can I fit this?" ✗
-Where's the fitting room? | /ˈwerz ðə ˈfɪtɪŋ ˈruːm/ | Nasaan ang sukatan ng damit? | Sa Amerika, maririnig din ang "dressing room". Sa British English: "changing room".
+Where's the fitting room? | /ˈwerz ðə ˈfɪtɪŋ ˈruːm/ | Nasaan ang fitting room? (sukatan ng damit) | Sa Amerika, maririnig din ang "dressing room". Sa British English: "changing room".
 It's too big. | /ɪts ˈtuː ˈbɪg/ | Masyadong malaki | Kung maliit: "It's too small." "too" = sobra, kaya may problema; "very" = talaga lang.
 It's a bit tight. | /ɪts ə ˈbɪt ˈtaɪt/ | Medyo masikip | Kung maluwag: "It's a bit loose."
 Is this on sale? | /ɪz ˈðɪs ɑːn ˈseɪl/ | Naka-sale ba ito? | "on sale" = may diskuwento; "for sale" = ipinagbibili. Madaling mapagpalit ang dalawa.
@@ -158,7 +158,7 @@ Does that include tax? | /dəz ˈðæt ɪnˈkluːd ˈtæks/ | Kasama na ba ang t
 "Numero, oras at petsa": `
 What time is it? | /ˈwʌt ˈtaɪm ɪz ɪt/ | Anong oras na? | Sa hindi kakilala: "Excuse me, do you have the time?"
 It's three thirty. | /ɪts ˈθriː ˈθɜːrti/ | Alas-tres y medya na | Sa British English, "half past three" rin.
-It's a quarter to five. | /ɪts ə ˈkwɔːrtər tə ˈfaɪv/ | Labinlimang minuto bago mag-alas-singko | "quarter" = 15 minuto. Puwede ring "four forty-five".
+It's a quarter to five. | /ɪts ə ˈkwɔːrtər tə ˈfaɪv/ | Menos kinse para alas-singko | "quarter" = 15 minuto. Puwede ring "four forty-five".
 At noon | /ət ˈnuːn/ | Sa tanghaling-tapat (alas-dose) | "at" bago ang oras. Hatinggabi: "at midnight". Mas malinaw ang "noon" at "midnight" kaysa sa "12 p.m." at "12 a.m."
 What's the date today? | /ˈwʌts ðə ˈdeɪt təˈdeɪ/ | Anong petsa ngayon? | Kung araw ang itatanong: "What day is it today?"
 It's May 3rd. | /ɪts ˈmeɪ ˈθɜːrd/ | Mayo 3 ngayon | Binabasa ang petsa bilang ordinal: "May third". Buwan muna bago araw sa Amerika, gaya sa atin: ang 5/3 ay Mayo 3.
@@ -186,7 +186,7 @@ What do you do for fun? | /ˈwʌt də ju ˈduː fər ˈfʌn/ | Ano ang libangan 
 Have you seen any good shows lately? | /həv ju ˈsiːn ˈeni ˈgʊd ˈʃoʊz ˈleɪtli/ | May napanood ka bang magandang palabas nitong mga nakaraang araw? | "show" = serye o programa sa TV. Plural ang noun pagkatapos ng "any" sa tanong: "any good shows".
 That sounds fun. | /ˈðæt ˈsaʊndz ˈfʌn/ | Mukhang masaya iyan | Sagot habang nakikinig. Puwede rin: "That sounds great!" May -s ang "sounds".
 Same here. | /ˈseɪm ˈhɪr/ | Ako rin | Sa usapan, madalas "Same!" na lang.
-Me neither. | /ˈmiː ˈniːðər/ | Ako rin, hindi | Pagsang-ayon sa negatibong pangungusap: "I don't like it." → "Me neither." (hindi "Me too"). Iisang "Ako rin" lang ito sa Tagalog.
+Me neither. | /ˈmiː ˈniːðər/ | Hindi rin ako | Pagsang-ayon sa negatibong pangungusap: "I don't like it." → "Me neither." (hindi "Me too"). Puwedeng "Ako rin" ang sagot sa Tagalog sa dalawang kaso; sa Ingles, magkaiba: "Me too" sa positibo, "Me neither" sa negatibo.
 I know, right? | /aɪ ˈnoʊ ˈraɪt/ | Oo nga! / Sinabi mo pa! | Kaswal na paraan ng buong pagsang-ayon.
 Oh, really? | /ˈoʊ ˈriːəli/ | Talaga? | Pagpapakita ng interes; pataas ang tono sa dulo.
 By the way | /baɪ ðə ˈweɪ/ | Siyanga pala / Nga pala | Panlipat ng paksa. Sa text: "BTW".
@@ -241,7 +241,7 @@ Let me know if you have any questions. | /ˈlet mi ˈnoʊ ɪf ju ˈhæv ˈeni ˈ
 Could you send me the file by Friday? | /kəd ju ˈsend mi ðə ˈfaɪl baɪ ˈfraɪdeɪ/ | Puwede mo bang ipadala sa akin ang file nang hindi lalampas sa Biyernes? | "by" = hindi lalampas sa (deadline); "until" = tuloy-tuloy hanggang. Sa labas ng Pilipinas, mas karaniwan ang "Could you…?" kaysa sa "Kindly…".
 Sorry for the late reply. | /ˈsɑːri fər ðə ˈleɪt rɪˈplaɪ/ | Pasensiya na at ngayon lang ako nakasagot | Puwede rin: "Thanks for your patience."
 Thanks for getting back to me. | /ˈθæŋks fər ˈgetɪŋ ˈbæk tə mi/ | Salamat sa pagsagot mo | "get back to" = sumagot o bumalik sa usapan.
-Best regards, | /ˈbest rɪˈgɑːrdz/ | Lubos na gumagalang, (pangwakas ng email) | Mas kaswal: "Best," o "Thanks,". May -s ang "regards" dito, pero wala sa "with regard to".
+Best regards, | /ˈbest rɪˈgɑːrdz/ | Gumagalang, (pangwakas ng email) | Mas kaswal: "Best," o "Thanks,". May -s ang "regards" dito, pero wala sa "with regard to".
 Let's schedule a meeting. | /ˈlets ˈskedʒuːl ə ˈmiːtɪŋ/ | Magtakda tayo ng miting | Sa American English: /ˈskedʒuːl/. Sa British English: /ˈʃedjuːl/.
 I'm running late. | /aɪm ˈrʌnɪŋ ˈleɪt/ | Mahuhuli ako nang kaunti | Pasabi habang nasa daan: "I'll be there in 10." Kung traffic ang dahilan: "There's a lot of traffic", hindi "It's traffic".
 Can we push the meeting to 3? | /kən wi ˈpʊʃ ðə ˈmiːtɪŋ tə ˈθriː/ | Puwede bang iurong sa alas-tres ang miting? | Kung paaagahin: "Can we move it up to 1?"
@@ -251,7 +251,7 @@ Let's touch base next week. | /ˈlets ˈtʌtʃ ˈbeɪs ˈnekst ˈwiːk/ | Mag-us
 What's the deadline? | /ˈwʌts ðə ˈdedlaɪn/ | Kailan ang deadline? | Ganoon din: "When is this due?"
 I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | Sa bahay ako nagtatrabaho ngayong araw | Pinaikli: WFH. Walang article: "from home".
 I'm off tomorrow. | /aɪm ˈɔːf təˈmɑːroʊ/ | Wala akong pasok bukas | Kapag magli-leave ka: "I'm taking a day off tomorrow."
-Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | Salamat sa lahat ng pagsisikap mo | Hindi nabibilang ang "work" (trabaho), kaya walang "works" at walang "a". Sa pag-uwi, sapat na ang "See you tomorrow!"
+Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | Salamat sa lahat ng pagsisikap mo | Hindi nabibilang ang "work" (trabaho), kaya walang "works" at walang "a". Madalas itong isulat sa dulo ng proyekto o sa email sa team.
 `,
 "Tawag, text at mga daglat": `
 Hello, this is Ana. | /həˈloʊ ˈðɪs ɪz ˈɑːnə/ | Hello, si Ana ito | Sa telepono, "This is Ana", hindi "I'm Ana".
@@ -326,7 +326,7 @@ turn off | /ˈtɜːrn ˈɔːf/ | patayin (ilaw, TV, aircon) | Hindi "close the l
 turn down | /ˈtɜːrn ˈdaʊn/ | tanggihan / hinaan | Parehong karaniwan: "She turned down the offer." at "Turn it down!"
 put off | /ˈpʊt ˈɔːf/ | ipagpaliban | Mas karaniwan sa usapan kaysa sa "postpone": "Stop putting it off!"
 show up | /ˈʃoʊ ˈʌp/ | sumipot / dumating | "He didn't show up to the party." (Hindi siya sumipot sa party.)
-hang out | /ˈhæŋ ˈaʊt/ | tumambay / gumala kasama ang mga kaibigan | Para sa matatanda, "hang out" ang gamit, hindi "play". Sa atin, "gimmick" ang tawag dito; iba ang kahulugan ng salitang iyon sa Amerika.
+hang out | /ˈhæŋ ˈaʊt/ | tumambay / gumala kasama ang mga kaibigan | Para sa pagsasama-sama ng magkakaibigan. Sa atin, "gimmick" ang tawag dito; iba ang kahulugan ng salitang iyon sa Amerika.
 check out | /ˈtʃek ˈaʊt/ | tingnan / silipin | "Check out this video!" Ginagamit din sa pag-alis sa hotel.
 work out | /ˈwɜːrk ˈaʊt/ | mag-ehersisyo / maging maayos (ang kinalabasan) | "I work out every day." at "It'll work out." (Maaayos din iyan.)
 come up with | /ˈkʌm ˈʌp wɪð/ | makaisip ng (ideya) | Para sa ideya, dahilan o solusyon: "She came up with a great idea."
@@ -367,7 +367,7 @@ milk | /ˈmɪlk/ | gatas | Bigkasin nang magkasunod ang "l" at "k", at itigil sa
 McDonald's | /məkˈdɑːnldz/ | McDo (kainan) | Nasa "Don" ang stress, at /z/ ang dulo: /məkˈdɑːnldz/. Hindi maiintindihan ang "McDo" sa Amerika.
 ship | /ˈʃɪp/ | barko | Maikli at maluwag na /ɪ/. Ihiwalay sa "sheep".
 sheep | /ˈʃiːp/ | tupa | Mahaba at banat na /iː/, nakangiti ang labi. Pareho ang singular at plural: "one sheep", "two sheep".
-full | /ˈfʊl/ | puno / busog | Maikli at maluwag na /ʊ/. Iisa lang ang "u" sa Tagalog, kaya madalas itong maging "fool".
+full | /ˈfʊl/ | puno (sa laman) / busog | Maikli at maluwag na /ʊ/. Iisa lang ang "u" sa Tagalog, kaya madalas itong maging "fool".
 fool | /ˈfuːl/ | hangal / lokohin | Mahaba at banat na /uː/, nakausli ang labi.
 cat | /ˈkæt/ | pusa | /æ/: ibuka nang maluwang ang bibig at hilahin pagilid ang labi. Hindi ito ang "a" ng Tagalog.
 cut | /ˈkʌt/ | hiwa / gupitin | /ʌ/: maikli, nakarelaks ang bibig at halos hindi bumubuka. Sa bigkas natin, madalas magkatunog ang "cat" at "cut".
@@ -412,7 +412,7 @@ It's a must-watch. | /ɪts ə ˈmʌstwɑːtʃ/ | Dapat mong mapanood ito | Para 
 Plot twist! | /ˈplɑːt ˈtwɪst/ | Biglang baligtad ang kuwento! | Ginagamit din sa totoong buhay kapag may nangyaring hindi inaasahan.
 It's overrated. | /ɪts ˌoʊvərˈreɪtɪd/ | Hindi naman iyon kasingganda ng sinasabi nila | Kabaligtaran: "underrated" (mas maganda kaysa sa inaakala ng marami).
 That scene gave me chills. | /ˈðæt ˈsiːn ˈgeɪv mi ˈtʃɪlz/ | Kinilabutan ako sa eksenang iyon | Kilabot dahil sa ganda, kaba o takot.
-Who's your bias? | /ˈhuːz jʊr ˈbaɪəs/ | Sino ang bias mo? | Salita ng mga fan ng K-pop para sa pinakapaboritong miyembro ng grupo. Sa karaniwang Ingles, "bias" = pagkiling, kaya sabihin: "Who's your favorite member?"
+I'm a huge fan! | /aɪm ə ˈhjuːdʒ ˈfæn/ | Idol na idol ko! / Solid fan ako! | "a fan of" + banda o artista: "I'm a huge fan of Ben&Ben." May article na "a"; "I'm huge fan." ✗
 Are you kidding me? | /ər ju ˈkɪdɪŋ mi/ | Nagbibiro ka ba? / Seryoso ka ba? | Madalas na linya sa pelikula at serye. Puwedeng gulat o inis.
 I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Ako ang bahala sa iyo / Nandito lang ako para sa iyo | Ibig sabihin, susuportahan at ipagtatanggol kita.
 Gotcha. | /ˈgɑːtʃə/ | Kuha ko / Huli ka! | Pinaikling "got you". Pinakamadalas na gamit: "naintindihan ko".
@@ -476,10 +476,11 @@ Regarding your email | /rɪˈgɑːrdɪŋ jʊr ˈiːmeɪl/ | Tungkol sa email mo 
 I shared it with my friends. | /aɪ ˈʃerd ɪt wɪð maɪ ˈfrendz/ | Ibinahagi ko ito sa mga kaibigan ko | "share to" ✗: iisang "sa" lang sa Tagalog, pero "with" ang kasama ng "share" sa Ingles.
 See you in January. | /ˈsiː ju ɪn ˈdʒænjueri/ | Kita tayo sa Enero | "on January" ✗: "in" bago ang buwan, "on" bago ang araw o petsa ("on January 5th"), "at" bago ang oras.
 Just a moment, please. | /ˈdʒʌst ə ˈmoʊmənt ˈpliːz/ | Sandali lang po | Sa Pilipinas: "For a while" sa telepono, mula sa "sandali lang". Sa American English, "for a while" = matagal-tagal. Sabihin: "Just a moment, please" o "Hold on, please".
-I'm heading out. | /aɪm ˈhedɪŋ ˈaʊt/ | Mauna na ako | Sa Pilipinas: "I'll go ahead", mula sa "mauna na ako". Sa American English, "go ahead" = "sige, ituloy mo". Kapag aalis ka na: "I'm heading out" o "I have to go".
+I'm heading out. | /aɪm ˈhedɪŋ ˈaʊt/ | Mauna na ako | Sa Pilipinas: "I'll go ahead", mula sa "mauna na ako". Kapag mag-isa, karaniwang "sige, ituloy mo" ang dating ng "go ahead" sa American English; kapag aalis ka na, mas malinaw ang "I'm heading out" o "I have to go".
 cope with | /ˈkoʊp wɪð/ | harapin / kayanin (ang problema) | "cope up with" ✗: walang "up". "She is coping with stress."
 result in | /rɪˈzʌlt ɪn/ | humantong sa / magbunga ng | "result to" ✗. "The delay resulted in a loss."
 based on | /ˈbeɪst ɑːn/ | batay sa / ayon sa | "based from" ✗. "It is based on a true story."
 Please fill out this form. | /ˈpliːz ˈfɪl ˈaʊt ˈðɪs ˈfɔːrm/ | Pakisagutan ang form na ito | "fill up a form" ✗: "fill up" = punuin (ang tangke, ang baso). Para sa form: "fill out" sa American English, "fill in" sa British English.
+That went over my head. | /ˈðæt ˈwent ˈoʊvər maɪ ˈhed/ | Nosebleed! / Hindi ko na-gets | Sa Pilipinas: "Nosebleed!" kapag sobrang lalim o hirap ng Ingles. Sa American English, pagdurugo lang ng ilong ang "nosebleed"; ang "nosebleed seats" ay ang pinakamataas na upuan sa stadium. Sabihin: "That went over my head." o "That's way over my head."
 `
 };

@@ -74,11 +74,11 @@ module.exports = {
     { t: "mc", q: `Sagutin ng 'oo': "Do you like coffee?"`, o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: `"Do" ang ginamit sa tanong, kaya "do" rin sa sagot.` },
     { t: "mc", q: `Babae si Liza. 'Hindi siya kumakain ng karne' sa Ingles?`, o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: `Babae si Liza, kaya "she". Ang negatibo para sa "she" ay "doesn't" + base form na walang -s.` },
 
-    { t: "order", p: `Sa Seoul nagtatrabaho ang kuya ko`, a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: `Iisang lalaki ang subject ("he"), kaya may -s ang verb: "works". Hindi na kailangan ng "is" dahil may verb na.` },
+    { t: "order", p: `Sa Maynila nagtatrabaho ang kuya ko`, a: ["My", "brother", "works", "in", "Manila"], x: ["work", "is"], why: `Iisang lalaki ang subject ("he"), kaya may -s ang verb: "works". Hindi na kailangan ng "is" dahil may verb na.` },
     { t: "order", p: `Hindi ako estudyante`, a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: `"Not" ang negatibo ng "be", at kailangan ng article na "a" bago ang katayuan ng tao.` },
     { t: "order", p: `Tungkol kay Ana: may dalawa siyang aso`, a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: `Babae si Ana, kaya "she", at "has" ang kasunod nito. Dalawa ang aso, kaya plural na "dogs".` },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: `Nakatira sa Seoul ang kuya ko`, a: ["lives"], o: ["live", "is live", "living"], why: `"He" ang katumbas ng "ang kuya ko", kaya may -s ang verb: "lives".` },
+    { t: "fill", q: "My brother __ in Cebu.", p: `Nakatira sa Cebu ang kuya ko`, a: ["lives"], o: ["live", "is live", "living"], why: `"He" ang katumbas ng "ang kuya ko", kaya may -s ang verb: "lives".` },
     { t: "fill", q: "__ you tired?", p: `Pagod ka ba?`, a: ["Are"], o: ["Do", "Is", "Does"], why: `Kalagayan ang "tired", kaya "be" ang gamit sa tanong. "Are" ang anyo nito para sa "you".` },
     { t: "fill", q: "We __ hungry.", p: `Gutom kami`, a: ["are"], o: ["is", "am", "do"], why: `Kalagayan ang "hungry", kaya "be". "Are" ang anyo nito para sa "we".` },
 
@@ -110,7 +110,7 @@ module.exports = {
   tense: [
     { t: "mc", q: `'Umiinom ako ng kape ngayon mismo' sa Ingles?`, o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: `Ginagawa ngayon mismo, kaya "be" + anyong -ing. Iisa ang "umiinom" sa Tagalog, pero dito, present continuous ang kailangan.` },
     { t: "mc", q: `'Pumunta ako sa beach noong nakaraang weekend' sa Ingles?`, o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: `"Went" ang past form ng "go". Kahit may "last weekend", kailangan pa ring magbago ng verb. May article na "the" ang "the beach".` },
-    { t: "mc", q: `Plano mo sa susunod na buwan: 'Pupunta ako sa Jeju.' Alin ang tama?`, o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: `Sa planong napag-isipan na, "be going to" + base form ang gamit.` },
+    { t: "mc", q: `Plano mo sa susunod na buwan: 'Pupunta ako sa Boracay.' Alin ang tama?`, o: ["I'm going to visit Boracay next month.", "I visit Boracay next month.", "I visited Boracay next month.", "I'm going visit Boracay next month."], why: `Sa planong napag-isipan na, "be going to" + base form ang gamit.` },
     { t: "mc", q: `May kumakatok sa pinto. Sasabihin mo agad: 'Ako na ang magbubukas!' Alin ang tama?`, o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: `"Will" ang gamit sa pasyang ginawa sa mismong sandali ng pagsasalita.` },
     { t: "mc", q: `Ano ang past form ng "see"?`, o: ["saw", "seed", "seen", "sawed"], why: `Irregular na verb ang "see": see, saw, seen.` },
 
@@ -132,7 +132,7 @@ module.exports = {
     { t: "mc", q: `'sa Mayo 3' sa Ingles?`, o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: `"On" ang gamit bago ang petsa.` },
     { t: "mc", q: `'Nasa bus ako (ngayon)' sa Ingles?`, o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: `"On" ang gamit sa pampublikong sasakyan. Ang bus na sinasakyan mo ngayon ang tinutukoy, kaya may article na "the".` },
     { t: "mc", q: `'sa gabi' sa Ingles?`, o: ["at night", "on night", "in night", "at the night"], why: `Eksepsiyon ang "night": "at night", at walang article.` },
-    { t: "mc", q: `Alin ang tamang pangungusap?`, o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: `"In" ang gamit sa lungsod, at walang article na "the" bago ang pangalan ng lungsod.` },
+    { t: "mc", q: `Alin ang tamang pangungusap?`, o: ["I live in Manila.", "I live at Manila.", "I live on Manila.", "I live in the Manila."], why: `"In" ang gamit sa lungsod, at walang article na "the" bago ang pangalan ng lungsod.` },
 
     { t: "order", p: `(ang istasyong alam nating dalawa) Magkita tayo sa istasyon`, a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: `"At" ang gamit sa isang tiyak na punto. Alam ninyong dalawa kung aling istasyon, kaya article na "the".` },
     { t: "order", p: `Nasa ibabaw ng mesa ang cellphone ko`, a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: `"On" ang gamit kapag nasa ibabaw. Ang mesang nakikita ninyo ang tinutukoy, kaya article na "the".` },
@@ -144,15 +144,15 @@ module.exports = {
 
     { t: "type", p: `Umiinom ako ng kape sa umaga`, a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: `coffee · morning — in, at may article bago ang "morning"`, x: ["at"], why: `"In" ang gamit sa bahagi ng araw, at laging may article na "the": "in the morning".` },
     { t: "type", p: `Nasa bahay ako ngayon`, a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: `at · home — hindi kailangan ng article`, x: ["the"], why: `Walang article na "the" sa "at home".` },
-    { t: "type", p: `Kita tayo sa susunod na weekend`, a: ["See you next weekend"], hint: `see · next weekend — kailangan ba ng preposition bago ang "next"?`, x: ["on"], why: `Walang preposition bago ang "next".` }
+    { t: "type", p: `Kita tayo sa susunod na weekend`, a: ["See you next weekend", "Let's meet next weekend"], hint: `see · next weekend — kailangan ba ng preposition bago ang "next"?`, x: ["on"], why: `Walang preposition bago ang "next".` }
   ],
 
   smalltalk: [
     { t: "mc", q: `Tinanong ka ng katrabaho mo: "How was your weekend?" Alin ang magandang sagot?`, o: ["It was great! I went hiking.", "It is great! I go hiking.", "It will be great!", "Yes, it was."], why: `Tapos na ang weekend na itinatanong, kaya past tense ang sagot, at may isa pang detalye.` },
-    { t: "mc", q: `Sabi ng kausap mo: "I don't drink coffee." Paano sabihin ang 'Ako rin, hindi rin ako umiinom'?`, o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: `Kapag sumasang-ayon sa negatibong pangungusap, "Me neither" ang sagot.` },
+    { t: "mc", q: `Sabi ng kausap mo: "I don't drink coffee." Paano sabihin ang 'Hindi rin ako umiinom'?`, o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: `Kapag sumasang-ayon sa negatibong pangungusap, "Me neither" ang sagot.` },
     { t: "mc", q: `Alin ang maayos na paraan para tapusin ang usapan?`, o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: `Malumanay na pagpapaalam ang "I should get going".` },
     { t: "mc", q: `Alin ang magandang sabihin sa taong ngayon mo lang nakilala?`, o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: `Panahon ang pinakaligtas na paksa. Hindi itinatanong sa bagong kakilala ang suweldo, asawa at timbang.` },
-    { t: "mc", q: `Sabi ng kausap mo: "I went to Busan last weekend." Aling sagot ang nagpapakitang interesado ka?`, o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: `Ipinapakita ng "Oh, really?" at "That sounds fun!" na interesado ka.` },
+    { t: "mc", q: `Sabi ng kausap mo: "I went to Baguio last weekend." Aling sagot ang nagpapakitang interesado ka?`, o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: `Ipinapakita ng "Oh, really?" at "That sounds fun!" na interesado ka.` },
 
     { t: "order", p: `May plano ka ba sa weekend?`, a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: `Plural na "plans" ang gamit sa tanong na ito, at article na "the" dahil ang darating na weekend ang tinutukoy.` },
     { t: "order", p: `Natuwa akong makausap ka`, a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: `Pamamaalam ito sa dulo ng usapan. "Talking" ang kasunod ng "nice".` },
@@ -170,7 +170,7 @@ module.exports = {
   phrasal: [
     { t: "mc", q: `'Buksan mo iyan' (ilaw o TV) sa Ingles?`, o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: `Nasa gitna ng phrasal verb ang pronoun na "it": turn it on.` },
     { t: "mc", q: `'Naubusan kami ng gatas' sa Ingles?`, o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: `"Run out of" = maubusan. Huwag kalimutan ang "of".` },
-    { t: "mc", q: `'Sa Daegu ako lumaki' sa Ingles?`, o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: `"Grow up" = lumaki. "Grew up" ang past form nito.` },
+    { t: "mc", q: `'Sa Baguio ako lumaki' sa Ingles?`, o: ["I grew up in Baguio.", "I grew in Baguio up.", "I growed up in Baguio.", "I grew out in Baguio."], why: `"Grow up" = lumaki. "Grew up" ang past form nito.` },
     { t: "mc", q: `'Puwede mo bang alagaan ang pusa ko?' sa Ingles?`, o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: `"Look after" = alagaan. Hindi ito nahahati. Ang "look for" ay hanapin.` },
     { t: "mc", q: `'Susunduin kita nang alas-siyete' sa Ingles?`, o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: `Nasa pagitan ng "pick" at "up" ang pronoun na "you".` },
 
@@ -184,7 +184,7 @@ module.exports = {
 
     { t: "type", p: `(gamitin ang it) Pakipatay naman iyan`, a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: `turn · off — nasa gitna ang pronoun`, x: ["on"], why: `Nasa pagitan ng "turn" at "off" ang pronoun na "it".` },
     { t: "type", p: `Dalawang pusa ang inaalagaan ko (palagi)`, a: ["I look after two cats", "I take care of two cats"], hint: `look after · two · cat — dalawa, kaya plural ang kailangan`, x: ["cat"], why: `"Look after" = alagaan. Dalawa ang pusa, kaya plural na "cats".` },
-    { t: "type", p: `Naubusan kami ng gatas`, a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: `run out of · milk — kailangan ba ng article?`, x: ["a"], why: `Hindi nabibilang ang "milk", kaya walang article na "a".` }
+    { t: "type", p: `Naubusan na ng gatas`, a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: `run out of · milk — kailangan ba ng article?`, x: ["a"], why: `Hindi nabibilang ang "milk", kaya walang article na "a".` }
   ],
 
   numbers: [
@@ -199,7 +199,7 @@ module.exports = {
     { t: "order", p: `dalawang beses sa isang linggo`, a: ["twice", "a", "week"], x: ["the", "one"], why: `Kapag sinasabi kung ilang beses sa bawat linggo, article na "a" ang gamit: "twice a week".` },
 
     { t: "fill", q: "It's __ quarter past ten.", p: `Labinlimang minuto makalipas ang alas-diyes`, a: ["a"], o: ["the", "one", "an"], why: `May article na "a" bago ang "quarter" (labinlimang minuto).` },
-    { t: "fill", q: "That's fifty __ won.", p: `Limampung libong won iyan`, a: ["thousand"], o: ["thousands", "hundred", "million"], why: `"Fifty thousand" ang 50,000. Pagkatapos ng numero, walang plural na -s ang "thousand".` },
+    { t: "fill", q: "That's fifty __ pesos.", p: `Limampung libong piso iyan`, a: ["thousand"], o: ["thousands", "hundred", "million"], why: `"Fifty thousand" ang 50,000. Pagkatapos ng numero, walang plural na -s ang "thousand".` },
     { t: "fill", q: "I'll be there in ten __.", p: `Darating ako sa loob ng sampung minuto`, a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: `Sampu ang minuto, kaya plural na "minutes". Sa Tagalog, walang "mga" pagkatapos ng bilang; sa Ingles, kailangan ng -s.` },
 
     { t: "type", p: `Alas-tres y medya na`, a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: `three · thirty — basahin ang oras at minuto`, x: ["thirteen"], why: `Basahin nang magkasunod ang oras at minuto: three thirty. Huwag ipagkamali ang "thirty" sa "thirteen" (13).` },
@@ -239,7 +239,7 @@ module.exports = {
     { t: "order", p: `Hindi ko iyan hilig`, a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: `Kabisaduhin nang buo ang "not my cup of tea". May "my" na sa unahan, kaya walang article.` },
 
     { t: "fill", q: "Kill two __ with one stone.", p: `Makatama ng dalawang ibon sa isang bato (dalawang pakay sa isang gawa)`, a: ["birds"], o: ["bird", "a bird", "the bird"], why: `Dalawa ang ibon, kaya plural na "birds".` },
-    { t: "fill", q: "Speak of the __!", p: `Pinag-uusapan lang natin siya, heto na siya!`, a: ["devil"], o: ["tiger", "angel", "bird"], why: `"Devil" (demonyo) ang salita sa idyomang ito. Sinasabi ito kapag biglang dumating ang taong pinag-uusapan.` },
+    { t: "fill", q: "Speak of the __!", p: `Pinag-uusapan lang natin siya, heto na siya!`, a: ["devil"], o: ["ghost", "angel", "bird"], why: `"Devil" (demonyo) ang salita sa idyomang ito. Sinasabi ito kapag biglang dumating ang taong pinag-uusapan.` },
     { t: "fill", q: "I'm feeling under __ weather.", p: `Medyo masama ang pakiramdam ko`, a: ["the"], o: ["a", "an", "my"], why: `"Under the weather": hindi nagbabago ang article na "the".` },
 
     { t: "type", p: `(idyoma tungkol sa keyk) Napakadali niyan`, a: ["It's a piece of cake", "It is a piece of cake"], hint: `piece · cake — huwag kalimutan ang article`, x: ["the"], why: `"A piece of cake": laging may article na "a".` },

@@ -29,17 +29,17 @@ module.exports = {
   ],
 
   pron: [
-    { t: "mc", q: "Které slovo znamená „rýže“?", o: ["rice", "lice", "rise", "nice"], why: "Rýže je „rice“ s R. Hlásky r a l čeština rozlišuje, tohle je rozcvička: jen dej pozor, ať anglické r nekmitá. S L vznikne „lice“ (vši)." },
-    { t: "mc", q: "Které slovo znamená „větrák“?", o: ["fan", "pan", "van", "ban"], why: "Větrák je „fan“. F a P rozlišuješ i v češtině, tohle je rozcvička. S P vznikne „pan“ (pánev)." },
+    { t: "mc", q: "Které slovo znamená „kočka“?", o: ["cat", "cut", "cot", "kit"], why: "Kočka je „cat“ s otevřeným /æ/: ústa víc dokořán než u českého „e“. S krátkým /ʌ/, podobným českému „a“, vznikne „cut“ (řezat)." },
+    { t: "mc", q: "Které slovo znamená „blázen“?", o: ["fool", "full", "fall", "foal"], why: "Blázen je „fool“ s dlouhým /uː/ a rty v kroužku. S krátkým uvolněným /ʊ/ vznikne „full“ (plný)." },
     { t: "mc", q: "Které slovo znamená „myslet“?", o: ["think", "sink", "thing", "pink"], why: "„Think“ začíná hláskou TH: špička jazyka patří mezi zuby. České „s“ nestačí, vznikne z něj „sink“ (dřez). A na konci je „k“, bez něj by to bylo „thing“ (věc)." },
     { t: "mc", q: "Které slovo znamená „hlasovat“?", o: ["vote", "boat", "goat", "bought"], why: "„Vote“ začíná hláskou V: horní zuby na spodním rtu. S B vznikne „boat“ (člun). V a B čeština rozlišuje; hlídej si spíš, aby z V nebylo W." },
-    { t: "mc", q: "Které slovo znamená „vpravo“?", o: ["right", "light", "fight", "bright"], why: "„Right“ s R znamená vpravo nebo správně. „Light“ s L je světlo." },
+    { t: "mc", q: "Které slovo znamená „muži“?", o: ["men", "man", "main", "mean"], why: "Muži jsou „men“ s /e/ jako české „e“. „Man“ (muž) má otevřené /æ/: jednotné a množné číslo tu odliší jen samohláska." },
 
     { t: "order", p: "Tohle je banán", a: ["This", "is", "a", "banana"], x: ["an", "Dis"], why: "„Banana“ začíná souhláskou, proto člen „a“, ne „an“. „This“ se píše s TH a nevyslovuje se s „d“." },
     { t: "order", p: "tři stromy", a: ["three", "trees"], x: ["tree", "free"], why: "Stromy jsou tři, proto množné číslo „trees“. „Three“ začíná hláskou TH, ne „f“ ani „t“." },
-    { t: "order", p: "Mám rád / ráda kávu", a: ["I", "like", "coffee"], x: ["copy"], why: "„Coffee“ se píše s F. S P vznikne „copy“ (kopie)." },
+    { t: "order", p: "Mám rád / ráda kočky (kočky obecně)", a: ["I", "like", "cats"], x: ["cuts", "cat"], why: "O kočkách obecně mluvíš v množném čísle: „cats“ s otevřeným /æ/. S /ʌ/ vznikne „cuts“ (řezy)." },
 
-    { t: "fill", q: "I eat __ice every day.", p: "Každý den jím rýži", a: ["r"], o: ["l", "n", "w"], why: "Rýže je „rice“ s R. S L vznikne „lice“ (vši)." },
+    { t: "fill", q: "The price is too __.", p: "Cena je moc nízká", a: ["low"], o: ["law", "lot", "loud"], why: "Nízký je „low“ s dvojhláskou /oʊ/. S dlouhým /ɔː/ vznikne „law“ (zákon)." },
     { t: "fill", q: "I __ink so.", p: "Myslím, že ano", a: ["th"], o: ["s", "t", "p"], why: "„Think“ začíná na TH. Se „s“ vznikne „sink“ (dřez)." },
     { t: "fill", q: "This is my __.", p: "Tohle je moje taška", a: ["bag"], o: ["back", "bug", "beg"], why: "Taška je „bag“ se znělým g na konci. S neznělým k vznikne „back“ (záda) a s českým „e“ místo otevřeného æ zase „beg“ (prosit)." },
 
@@ -75,11 +75,11 @@ module.exports = {
     { t: "mc", q: "Jak odpovíš kladně na otázku „Do you like coffee?“", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "Otázka je s „do“, proto i krátká odpověď: „Yes, I do.“" },
     { t: "mc", q: "Jak se anglicky řekne „Nejí maso“ (ona)?", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "Zápor ve 3. osobě je „doesn't“ a základní tvar slovesa bez -s." },
 
-    { t: "order", p: "Můj bratr pracuje v Soulu", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "Podmět je jeden člověk (he), proto „works“ s -s. Sloveso „to be“ sem nepatří." },
+    { t: "order", p: "Můj bratr pracuje v Brně", a: ["My", "brother", "works", "in", "Brno"], x: ["work", "is"], why: "Podmět je jeden člověk (he), proto „works“ s -s. Sloveso „to be“ sem nepatří." },
     { t: "order", p: "Nejsem student / studentka", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "Zápor slovesa „to be“ tvoří „not“. Před povoláním nebo postavením je člen „a“." },
     { t: "order", p: "Má dva psy (ona)", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "K „she“ patří „has“. Psi jsou dva, proto množné číslo „dogs“." },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "Můj bratr bydlí v Soulu", a: ["lives"], o: ["live", "is live", "living"], why: "Podmět je „he“, proto sloveso s -s: „lives“." },
+    { t: "fill", q: "My brother __ in Prague.", p: "Můj bratr bydlí v Praze", a: ["lives"], o: ["live", "is live", "living"], why: "Podmět je „he“, proto sloveso s -s: „lives“." },
     { t: "fill", q: "__ you tired?", p: "Jsi unavený / unavená?", a: ["Are"], o: ["Do", "Is", "Does"], why: "„Tired“ je stav, proto otázka se slovesem „to be“; k „you“ patří „are“." },
     { t: "fill", q: "We __ hungry.", p: "Máme hlad", a: ["are"], o: ["is", "am", "do"], why: "„Hungry“ je stav, proto „to be“; k „we“ patří „are“. Česky hlad „máme“, anglicky „jsme hladoví“." },
 
@@ -111,7 +111,7 @@ module.exports = {
   tense: [
     { t: "mc", q: "Jak se anglicky řekne „Právě teď piju kávu“?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "Děj, který probíhá právě teď, vyjadřuje „be“ a tvar s -ing." },
     { t: "mc", q: "Jak se anglicky řekne „Minulý víkend jsem byl / byla na pláži“?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "Minulý tvar slovesa „go“ je „went“. Pláž má určitý člen: „the beach“." },
-    { t: "mc", q: "Mluvíš o plánu na příští měsíc. Jak řekneš „Chystám se na ostrov Čedžu“?", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "Plán připravený předem vyjadřuje „be going to“ a základní tvar slovesa." },
+    { t: "mc", q: "Mluvíš o plánu na příští měsíc. Jak řekneš „Chystám se do Chorvatska“?", o: ["I'm going to visit Croatia next month.", "I visit Croatia next month.", "I visited Croatia next month.", "I'm going visit Croatia next month."], why: "Plán připravený předem vyjadřuje „be going to“ a základní tvar slovesa." },
     { t: "mc", q: "Zvoní zvonek a ty se hned rozhodneš: „Já otevřu!“ Jak to řekneš?", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "Rozhodnutí v okamžiku řeči vyjadřuje „will“." },
     { t: "mc", q: "Jaký je minulý tvar slovesa „see“?", o: ["saw", "seed", "seen", "sawed"], why: "„See“ je nepravidelné sloveso: see – saw – seen." },
 
@@ -133,7 +133,7 @@ module.exports = {
     { t: "mc", q: "Jak se anglicky řekne „třetího května“ (kdy?)", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "Před datem je „on“." },
     { t: "mc", q: "Jak se anglicky řekne „Jsem (právě) v autobuse“?", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "U hromadné dopravy je „on“, i když česky říkáš „v autobuse“. Jde o autobus, kterým právě jedeš, proto člen „the“." },
     { t: "mc", q: "Jak se anglicky řekne „v noci“?", o: ["at night", "on night", "in night", "at the night"], why: "„Night“ je výjimka: „at night“, a to bez členu." },
-    { t: "mc", q: "Která věta je správně?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "Před městem je „in“. Jména měst jsou bez členu „the“." },
+    { t: "mc", q: "Která věta je správně?", o: ["I live in Prague.", "I live at Prague.", "I live on Prague.", "I live in the Prague."], why: "Před městem je „in“. Jména měst jsou bez členu „the“." },
 
     { t: "order", p: "Sejdeme se na nádraží (na tom, které oba známe)", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "Bod, kde se sejdete, má „at“. Nádraží oba znáte, proto člen „the“." },
     { t: "order", p: "Můj telefon je na stole (na tomto stole)", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "Na povrchu je „on“. Jde o stůl, který oba vidíte, proto člen „the“." },
@@ -153,7 +153,7 @@ module.exports = {
     { t: "mc", q: "Někdo řekne „I don't drink coffee.“ a ty kávu taky nepiješ. Jak zareaguješ?", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "Souhlas se zápornou větou je „Me neither“." },
     { t: "mc", q: "Jak přirozeně ukončíš rozhovor?", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "„I should get going“ je zdvořilý způsob, jak se rozloučit." },
     { t: "mc", q: "Čím se hodí začít hovor s člověkem, kterého vidíš poprvé?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "Počasí je nejbezpečnější téma. Plat, rodinný stav a váha se při prvním setkání nehodí." },
-    { t: "mc", q: "Někdo řekne „I went to Busan last weekend.“ Jak projevíš zájem?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "„Oh, really?“ a „That sounds fun!“ ukazují, že tě to zajímá." },
+    { t: "mc", q: "Někdo řekne „I went to Brno last weekend.“ Jak projevíš zájem?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "„Oh, really?“ a „That sounds fun!“ ukazují, že tě to zajímá." },
 
     { t: "order", p: "Máš nějaké plány na víkend?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "V této otázce je „plans“ v množném čísle. Jde o nadcházející víkend, proto člen „the“." },
     { t: "order", p: "Bylo fajn si popovídat", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "Touto větou se loučíš na konci rozhovoru. Po „nice“ je tvar s -ing: „talking“." },
@@ -163,7 +163,7 @@ module.exports = {
     { t: "fill", q: "I know, __?", p: "Že jo? / Přesně tak!", a: ["right"], o: ["light", "yes", "true"], why: "„I know, right?“ vyjadřuje silný souhlas. Píše se s R: „right“." },
     { t: "fill", q: "Have you seen any good __ lately?", p: "Viděl / viděla jsi v poslední době nějaké dobré filmy nebo seriály?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "Počitatelné podstatné jméno je po „any“ v otázce v množném čísle." },
 
-    { t: "type", p: "Jaký byl tvůj víkend?", a: ["How was your weekend"], hint: "how · weekend – minulý čas", x: ["is"], why: "Víkend už skončil, proto minulý čas: „was“." },
+    { t: "type", p: "Jak bylo o víkendu? (zeptej se kamaráda)", a: ["How was your weekend"], hint: "how · weekend – minulý čas", x: ["is"], why: "Víkend už skončil, proto minulý čas: „was“." },
     { t: "type", p: "Dnes je hezké počasí", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today – patří sem člen „a“?", x: ["a"], why: "„Weather“ je nepočitatelné, proto bez členu „a“ („a nice weather“ ✗)." },
     { t: "type", p: "Rád / ráda se dívám na filmy", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "like · watch · movie – obecně, takže množné číslo", x: ["movie"], why: "O filmech mluvíš obecně, proto množné číslo: „movies“." }
   ],
@@ -171,11 +171,11 @@ module.exports = {
   phrasal: [
     { t: "mc", q: "Jak se anglicky řekne „Zapni to“?", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "Zájmeno „it“ patří doprostřed frázového slovesa: „turn it on“." },
     { t: "mc", q: "Jak se anglicky řekne „Došlo nám mléko“?", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "„Run out of“ = dojít, spotřebovat se. Nevynech „of“." },
-    { t: "mc", q: "Jak se anglicky řekne „Vyrostl / vyrostla jsem v Tegu“?", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "„Grow up“ = vyrůst; minulý tvar je „grew up“." },
+    { t: "mc", q: "Jak se anglicky řekne „Vyrostl / vyrostla jsem v Ostravě“?", o: ["I grew up in Ostrava.", "I grew in Ostrava up.", "I growed up in Ostrava.", "I grew out in Ostrava."], why: "„Grow up“ = vyrůst; minulý tvar je „grew up“." },
     { t: "mc", q: "Jak se anglicky řekne „Můžeš se mi postarat o kočku?“", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "„Look after“ = starat se o někoho. Nedělí se. („Look for“ znamená hledat.)" },
     { t: "mc", q: "Jak se anglicky řekne „Vyzvednu tě v sedm“?", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "Zájmeno „you“ patří mezi „pick“ a „up“." },
 
-    { t: "order", p: "Hledám své brýle", a: ["I'm", "looking", "for", "my", "glasses"], x: ["glass", "after"], why: "Brýle jsou i anglicky vždy v množném čísle: „glasses“ („glass“ je sklenice). Hledat je „look for“." },
+    { t: "order", p: "Hledám brýle", a: ["I'm", "looking", "for", "my", "glasses"], x: ["glass", "after"], why: "Brýle jsou i anglicky vždy v množném čísle: „glasses“ („glass“ je sklenice). Hledat je „look for“." },
     { t: "order", p: "Pojďme vymyslet nějaký plán", a: ["Let's", "come", "up", "with", "a", "plan"], x: ["the", "an"], why: "„Come up with“ = vymyslet. Plán zatím neexistuje, je to „nějaký“ plán, proto člen „a“." },
     { t: "order", p: "Vyzvednu tě", a: ["I'll", "pick", "you", "up"], x: ["on"], why: "Zájmeno „you“ patří mezi „pick“ a „up“." },
 
@@ -185,7 +185,7 @@ module.exports = {
 
     { t: "type", p: "Vypni to, prosím", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off – zájmeno patří doprostřed", x: ["on"], why: "Zájmeno „it“ patří mezi „turn“ a „off“." },
     { t: "type", p: "Starám se o dvě kočky", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat – dvě, takže množné číslo", x: ["cat"], why: "„Look after“ = starat se. Kočky jsou dvě, proto množné číslo „cats“." },
-    { t: "type", p: "Došlo nám mléko", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk – patří sem člen?", x: ["a"], why: "„Milk“ je nepočitatelné, proto bez členu „a“." }
+    { t: "type", p: "Došlo nám mléko", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk"], hint: "run out of · milk – patří sem člen?", x: ["a"], why: "„Milk“ je nepočitatelné, proto bez členu „a“." }
   ],
 
   numbers: [
@@ -200,7 +200,7 @@ module.exports = {
     { t: "order", p: "dvakrát týdně", a: ["twice", "a", "week"], x: ["the", "one"], why: "„Kolikrát za týden“ se říká s neurčitým členem „a“: „twice a week“." },
 
     { t: "fill", q: "It's __ quarter past ten.", p: "Je čtvrt na jedenáct", a: ["a"], o: ["the", "one", "an"], why: "Před „quarter“ (čtvrthodina) je člen „a“. A pozor: angličtina počítá od hodiny, která už byla." },
-    { t: "fill", q: "That's fifty __ won.", p: "Dělá to padesát tisíc wonů", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 je „fifty thousand“. Po číslovce je „thousand“ bez -s množného čísla." },
+    { t: "fill", q: "That's fifty __ crowns.", p: "Dělá to padesát tisíc korun", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 je „fifty thousand“. Po číslovce je „thousand“ bez -s množného čísla." },
     { t: "fill", q: "I'll be there in ten __.", p: "Budu tam za deset minut", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "Minut je deset, proto množné číslo: „minutes“." },
 
     { t: "type", p: "Je půl čtvrté (3:30)", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty – přečti hodiny a minuty za sebou", x: ["thirteen"], why: "Hodiny a minuty se čtou za sebou: „three thirty“. Česká „půl čtvrté“ je anglicky půl po třetí. A nepleť si „thirty“ a „thirteen“." },
@@ -240,7 +240,7 @@ module.exports = {
     { t: "order", p: "To není můj šálek kávy", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "„Not my cup of tea“ se učí vcelku. Místo „my“ nepatří člen „the“. Čeština má šálek kávy, angličtina šálek čaje." },
 
     { t: "fill", q: "Kill two __ with one stone.", p: "Zabít dvě mouchy jednou ranou", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "Ptáci jsou dva, proto množné číslo: „birds“. Čeština zabíjí mouchy, angličtina ptáky." },
-    { t: "fill", q: "Speak of the __!", p: "My o vlku a vlk za dveřmi!", a: ["devil"], o: ["tiger", "angel", "bird"], why: "V angličtině místo vlka přichází ďábel: „devil“." },
+    { t: "fill", q: "Speak of the __!", p: "My o vlku a vlk za dveřmi!", a: ["devil"], o: ["wolf", "angel", "bird"], why: "V angličtině místo vlka přichází ďábel: „devil“." },
     { t: "fill", q: "I'm feeling under __ weather.", p: "Není mi dobře", a: ["the"], o: ["a", "an", "my"], why: "„Under the weather“ má vždy člen „the“." },
 
     { t: "type", p: "Je to hračka (idiom s dortem)", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake – nezapomeň na člen", x: ["the"], why: "„A piece of cake“: člen „a“ sem patří vždy." },

@@ -707,7 +707,7 @@
    "where": "html <button> text"
   },
   "Export = your whole progress as text. Use it to move between devices when account sync is off.": {
-   "t": "Eksport = wszystkie Twoje postępy jako tekst. Przyda się do przenoszenia między urządzeniami, gdy synchronizacja konta jest wyłączona.",
+   "t": "Eksport = wszystkie twoje postępy jako tekst. Przyda się do przenoszenia między urządzeniami, gdy synchronizacja konta jest wyłączona.",
    "ko": "내보내기 = 전체 진도를 텍스트로 저장해요. 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -827,7 +827,7 @@
    "where": "js step1() <a>"
   },
   "Short version: your learning data is yours, nothing is sold, there are no ads, and you can take it with you or delete it any time.": {
-   "t": "W skrócie: Twoje dane o nauce należą do Ciebie, niczego nie sprzedajemy, nie ma reklam, a dane możesz w każdej chwili zabrać ze sobą albo usunąć.",
+   "t": "W skrócie: twoje dane o nauce należą do ciebie, niczego nie sprzedajemy, nie ma reklam, a dane możesz w każdej chwili zabrać ze sobą albo usunąć.",
    "ko": "요약: 학습 데이터는 여러분의 것이에요. 어떤 것도 판매하지 않고, 광고도 없으며, 언제든 가져가거나 삭제할 수 있어요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -839,7 +839,7 @@
    "where": "html <h3> text"
   },
   "On your device": {
-   "t": "Na Twoim urządzeniu",
+   "t": "Na twoim urządzeniu",
    "ko": "내 기기",
    "kind": "label",
    "where": "html <b> text"
@@ -857,7 +857,7 @@
    "where": "html <b> text"
   },
   ": your email address and a copy of your progress, kept in our database (Supabase) so it syncs across devices. Only you can read your row.": {
-   "t": ": Twój adres e-mail i kopia postępów, przechowywane w naszej bazie danych (Supabase), żeby synchronizować je między urządzeniami. Swój wiersz możesz odczytać tylko Ty.",
+   "t": ": twój adres e-mail i kopia postępów, przechowywane w naszej bazie danych (Supabase), żeby synchronizować je między urządzeniami. Swój wiersz możesz odczytać tylko ty.",
    "ko": ": 이메일 주소와 진도 사본을 데이터베이스(Supabase)에 보관해 여러 기기에서 동기화해요. 내 데이터는 나만 읽을 수 있어요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -955,7 +955,7 @@
    "where": "html <b> text"
   },
   ": Progress → Account → Delete my account. Removes your account and synced progress permanently; your feedback posts stay but are unlinked from you.": {
-   "t": ": Postępy → Konto → Usuń moje konto. Trwale usuwa konto i zsynchronizowane postępy; Twoje wpisy z opiniami zostają, ale nie są już z Tobą powiązane.",
+   "t": ": Postępy → Konto → Usuń moje konto. Trwale usuwa konto i zsynchronizowane postępy; twoje wpisy z opiniami zostają, ale nie są już z tobą powiązane.",
    "ko": ": 진도 → 계정 → 계정 삭제. 계정과 동기화된 진도가 영구 삭제돼요. 피드백 글은 남지만 내 계정과의 연결은 끊어져요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -982,7 +982,7 @@
    "where": "html <h3> text"
   },
   "Use the Feedback tab. If it's private, post without your name and say how to reach you — or just sign in and tick \"Show my name\".": {
-   "t": "Skorzystaj z zakładki Opinie. Jeśli sprawa jest prywatna, napisz bez pseudonimu i podaj, jak się z Tobą skontaktować — albo po prostu zaloguj się i zaznacz „Pokaż mój pseudonim”.",
+   "t": "Skorzystaj z zakładki Opinie. Jeśli sprawa jest prywatna, napisz bez pseudonimu i podaj, jak się z tobą skontaktować — albo po prostu zaloguj się i zaznacz „Pokaż mój pseudonim”.",
    "ko": "피드백 탭을 이용하세요. 비공개로 전하고 싶다면 이름 없이 올리고 연락 방법을 남겨 주세요 — 아니면 로그인하고 \"내 이름 표시\"를 체크하세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1277,7 +1277,7 @@
    "where": "js flushSave()"
   },
   "Synced to your account": {
-   "t": "Zsynchronizowano z Twoim kontem",
+   "t": "Zsynchronizowano z twoim kontem",
    "ko": "계정에 동기화됨",
    "kind": "label",
    "where": "js el()"
@@ -1428,7 +1428,7 @@
    "where": "js d() <span>"
   },
   "Your progress is safe in your account either way.": {
-   "t": "Tak czy inaczej Twoje postępy są bezpieczne na koncie.",
+   "t": "Tak czy inaczej twoje postępy są bezpieczne na koncie.",
    "ko": "어느 쪽을 골라도 진도는 계정에 안전하게 남아요.",
    "kind": "sentence",
    "where": "js sh() <p>"
@@ -1464,7 +1464,7 @@
    "where": "js out()"
   },
   "you@example.com": {
-   "t": "ty@przyklad.pl",
+   "t": "ty@example.com",
    "ko": "you@example.com",
    "kind": "label",
    "where": "js sh() <input> @placeholder"
@@ -1525,7 +1525,7 @@
    "where": "js pl()"
   },
   "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": {
-   "t": "Wymowa, fiszki z dźwiękiem, quizy i codzienna 5-minutowa sesja. Zanim zaczniesz — jak mamy zapisywać Twoje postępy?",
+   "t": "Wymowa, fiszki z dźwiękiem, quizy i codzienna 5-minutowa sesja. Zanim zaczniesz — jak mamy zapisywać twoje postępy?",
    "ko": "소리 나는 플래시카드, 퀴즈, 하루 5분 학습. 시작하기 전에 — 진도를 어떻게 저장할까요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -1593,7 +1593,7 @@
    "where": "js step1() <b>"
   },
   "What should we call you?": {
-   "t": "Jak mamy się do Ciebie zwracać?",
+   "t": "Jak mamy się do ciebie zwracać?",
    "ko": "어떻게 불러 드릴까요?",
    "kind": "sentence",
    "where": "js step3() <h1>"
@@ -2038,7 +2038,7 @@
    "where": "js ko()"
   },
   "Added by you": {
-   "t": "Dodane przez Ciebie",
+   "t": "Dodane przez ciebie",
    "ko": "직접 추가함",
    "kind": "label",
    "where": "js ko()"
@@ -2230,7 +2230,7 @@
    "where": "js teach() <button>"
   },
   "Daily new-card cap reached. Learning anyway since you asked.": {
-   "t": "Dzienny limit nowych fiszek osiągnięty. Nauka trwa dalej — na Twoje życzenie.",
+   "t": "Dzienny limit nowych fiszek osiągnięty. Nauka trwa dalej — na twoje życzenie.",
    "ko": "오늘 새 카드 한도에 도달했어요. 원하셨으니 그래도 배울게요.",
    "kind": "sentence",
    "where": "js i()"
@@ -2676,7 +2676,7 @@
    "where": "js u()"
   },
   "Number dictation": {
-   "t": "Dyktando z liczb",
+   "t": "Dyktando liczb",
    "ko": "숫자 받아쓰기",
    "kind": "label",
    "where": "js lessonNext() <span>"
@@ -3278,7 +3278,7 @@
    "where": "js ov() <button>"
   },
   "One button, one session. Due reviews, new cards, a quick quiz and drills, mixed for you.": {
-   "t": "Jeden przycisk, jedna sesja. Zaległe powtórki, nowe fiszki, szybki quiz i ćwiczenia — dobrane dla Ciebie.",
+   "t": "Jeden przycisk, jedna sesja. Zaległe powtórki, nowe fiszki, szybki quiz i ćwiczenia — dobrane dla ciebie.",
    "ko": "버튼 하나로 학습 한 번. 복습할 카드, 새 카드, 빠른 퀴즈와 훈련을 알아서 섞어 드려요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3761,13 +3761,13 @@
    "where": "js (top level) <link>"
   },
   "Review a few cards and this fills in: retention by box, speed, and your best hour.": {
-   "t": "Powtórz kilka fiszek, a pojawią się tu dane: zapamiętywanie według przegródek, tempo i Twoja najlepsza godzina.",
+   "t": "Powtórz kilka fiszek, a pojawią się tu dane: zapamiętywanie według przegródek, tempo i twoja najlepsza godzina.",
    "ko": "카드를 몇 장 복습하면 여기에 상자별 기억률, 속도, 가장 잘되는 시간이 채워져요.",
    "kind": "sentence",
    "where": "js el() <p>"
   },
   "Retention when a card comes back from each box. Higher boxes should stay high; a dip means the interval there is too long for you.": {
-   "t": "Zapamiętywanie w chwili, gdy fiszka wraca z danej przegródki. W wyższych przegródkach powinno być wysokie; spadek oznacza, że odstęp jest tam dla Ciebie za długi.",
+   "t": "Zapamiętywanie w chwili, gdy fiszka wraca z danej przegródki. W wyższych przegródkach powinno być wysokie; spadek oznacza, że odstęp jest tam dla ciebie za długi.",
    "ko": "각 상자에서 카드가 돌아왔을 때의 기억률이에요. 높은 상자일수록 높게 유지돼야 하고, 떨어진다면 그 상자의 간격이 나에게 너무 길다는 뜻이에요.",
    "kind": "sentence",
    "where": "js overall() <p>"
@@ -3848,7 +3848,7 @@
    "where": "js applyZoom()"
   },
   "Decks start shuffled": {
-   "t": "Talie zaczynają się potasowane",
+   "t": "Tasuj talie na starcie",
    "ko": "덱을 섞어서 시작해요",
    "kind": "label",
    "where": "js applyZoom()"
@@ -4162,7 +4162,7 @@
    "where": "js PAUSE_EXTRA()"
   },
   "You're doing great": {
-   "t": "Świetnie Ci idzie",
+   "t": "Świetnie ci idzie",
    "ko": "정말 잘하고 있어요",
    "kind": "label",
    "where": "js PAUSE_EXTRA()"
@@ -5022,7 +5022,7 @@
    ]
   },
   "How should we save your progress?": {
-   "t": "Jak mamy zapisywać Twoje postępy?",
+   "t": "Jak mamy zapisywać twoje postępy?",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1 second line",
@@ -5042,7 +5042,7 @@
    ]
   },
   "Saves across all your devices": {
-   "t": "Zapis na wszystkich Twoich urządzeniach",
+   "t": "Zapis na wszystkich twoich urządzeniach",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1",
@@ -5260,7 +5260,7 @@
    "where": "html <input> text"
   },
   "Hand-tuned for speakers of your language": {
-   "t": "Kurs pisany specjalnie dla osób mówiących w Twoim języku",
+   "t": "Kurs pisany specjalnie dla osób mówiących w twoim języku",
    "ko": "이 언어 사용자에 맞춰 만든 코스",
    "kind": "sentence",
    "context": "legend under the course list (language home): a small ✦ next to a course means its lessons were written specifically for speakers of the learner's language, not a standard course assembled from shared material",
@@ -6395,13 +6395,13 @@
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
   },
   "This permanently deletes your account ({s}) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "Ta operacja trwale usuwa Twoje konto ({1}) i zsynchronizowane postępy. Nie da się jej cofnąć. Twoje wpisy z opiniami zostaną, ale nie będą już z Tobą powiązane. Wpisz",
+   "t": "Ta operacja trwale usuwa twoje konto ({1}) i zsynchronizowane postępy. Nie da się jej cofnąć. Twoje wpisy z opiniami zostaną, ale nie będą już z tobą powiązane. Wpisz",
    "ko": "계정({1})과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "{1}=s",
    "example": "This permanently deletes your account (Greetings) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
   },
   "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "Ta operacja trwale usuwa Twoje konto () i zsynchronizowane postępy. Nie da się jej cofnąć. Twoje wpisy z opiniami zostaną, ale nie będą już z Tobą powiązane. Wpisz",
+   "t": "Ta operacja trwale usuwa twoje konto () i zsynchronizowane postępy. Nie da się jej cofnąć. Twoje wpisy z opiniami zostaną, ale nie będą już z tobą powiązane. Wpisz",
    "ko": "계정과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "",
    "example": "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"

@@ -28,7 +28,7 @@ practice:[
 ["fi","__ cold today.","Bugnaw karon","It's|It is","Is|There's|This","Pun-a ang lugar sa subject og \"it\"."],
 ["fi","There __ a bank near here.","Naay bangko duol dinhi","is","are|have|be","Usa ra ka bangko, mao nga \"is\"."],
 ["fi","__ there any seats?","Naa pa bay mga lingkoranan?","Are","Is|Do|Have","Plural ang \"seats\", mao nga \"Are\"."],
-["ty","Init karon","It's hot today","it · hot · today — sa panahon, \"it\" ang subject","There's","Sa panahon, magsugod ta sa \"it\"."],
+["ty","Init karon","It's hot today|It's hot now","it · hot · today — sa panahon, \"it\" ang subject","There's","Sa panahon, magsugod ta sa \"it\"."],
 ["ty","Naa bay banyo dinhi?","Is there a bathroom here|Is there a restroom here","is there · bathroom — ayaw kalimti ang article","the","Usa ra ug wala pa nahisgotan, mao nga article \"a\"."],
 ["ty","Naay duha ka kuwarto","There are two rooms","there are · two · room — plural kay duha","room","Duha ka kuwarto, mao nga plural: \"rooms\"."]]},
 
@@ -82,7 +82,7 @@ check:[["Unsay sakto nga word order sa 'Moinom ko og kape'?",["I coffee drink.",
 practice:[
 ["mc","'Magtuon ko og Iningles' sa Iningles?","I study English.","I English study.","I am study English.","Study I English.","Subject + verb + object ang han-ay."],
 ["mc","'Dili ko mokaon og karne' sa Iningles?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","Sa negative sa ordinaryong verb: \"don't\" + verb."],
-["mc","'Nagpuyo mi sa Seoul' sa Iningles?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","Human sa verb, isunod ang lugar."],
+["mc","'Nagpuyo mi sa Manila' sa Iningles?","We live in Manila.","We in Manila live.","We are live in Manila.","We live Manila in.","Human sa verb, isunod ang lugar."],
 ["mc","'Kasagaran mobangon ko sa alas siyete' sa Iningles?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","Ang \"usually\" ibutang sa atubangan gyud sa verb."],
 ["mc","Hain niini ang nagsulti bahin sa buhaton kada adlaw?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","Ang naandan isulti sa simple present tense."],
 ["or","Moinom ko og kape kada adlaw","I drink coffee every day","the am","Naandan kini, mao nga simple present tense. Kape sa kinatibuk-an ang gipasabot, mao nga walay article."],
@@ -90,7 +90,7 @@ practice:[
 ["or","Motrabaho mi kada Sabado ug Domingo","We work on weekends","are","Ayaw dugangi og be verb ang ordinaryong verb."],
 ["fi","I __ like fish.","Dili ko ganahan og isda","don't|do not","not|am not|no","Sa negative sa ordinaryong verb, \"don't\" ang gamiton."],
 ["fi","I __ English every day.","Magtuon ko og Iningles kada adlaw","study","am study|studying|to study","Sa simple present tense, ang verb ra mismo ang gamiton."],
-["fi","They live __ Busan.","Nagpuyo sila sa Busan","in","at|on|to","Sa atubangan sa ngalan sa siyudad, \"in\" ang gamiton."],
+["fi","They live __ Davao.","Nagpuyo sila sa Davao","in","at|on|to","Sa atubangan sa ngalan sa siyudad, \"in\" ang gamiton."],
 ["ty","Moinom ko og tsa (naandan)","I drink tea","drink · tea — walay article","a","Tsa sa kinatibuk-an ang gipasabot, mao nga walay article."],
 ["ty","Ganahan ko og mga iring","I like cats","like · cat — plural ang gamiton","cat","Kon ang tanang iring ang gipasabot, plural ang gamiton: \"cats\"."],
 ["ty","Dili ko mokaon og karne (naandan)","I don't eat meat","don't · eat · meat — negative sa ordinaryong verb","am","Sa negative sa ordinaryong verb, \"don't\" ang gamiton."]]},
@@ -135,9 +135,9 @@ practice:[
 <h3>Pangitaa ang tinuod nga subject</h3>
 <p>Kon plural ang subject, walay -s ang verb: <b>School uniforms ensures safety.</b> ✗ → <b>School uniforms ensure safety.</b> ✓. Ug sa <b>one of …</b>, ang <b>one</b> ang subject, mao nga naay -s: <b>One of my friends live here.</b> ✗ → <b>One of my friends lives here.</b> ✓</p>
 <div class="tip">Kasagarang sayop: <b>She work here.</b> ✗ → <b>She works here.</b> ✓ / <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
-check:[["She ___ in Seoul. Unsay sakto sa blangko?",["live","lives","living","is live"],1,"Kon \"she\" ang subject, dugangi og -s ang verb."],["He ___ like coffee. Unsay sakto sa blangko?",["don't","isn't","doesn't","not"],2,"Ang negative kon \"he\" ang subject: \"doesn't\"."],["'Naa siyay awto (babaye)' sa Iningles?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"Ang \"have\" mahimong \"has\" kon \"she\" ang subject."]],
+check:[["She ___ in Manila. Unsay sakto sa blangko?",["live","lives","living","is live"],1,"Kon \"she\" ang subject, dugangi og -s ang verb."],["He ___ like coffee. Unsay sakto sa blangko?",["don't","isn't","doesn't","not"],2,"Ang negative kon \"he\" ang subject: \"doesn't\"."],["'Naa siyay awto (babaye)' sa Iningles?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"Ang \"have\" mahimong \"has\" kon \"she\" ang subject."]],
 practice:[
-["mc","My brother ___ in Busan. Unsay sakto sa blangko?","works","work","working","is work","Usa ra ka tawo ang subject, mao nga \"works\"."],
+["mc","My brother ___ in Davao. Unsay sakto sa blangko?","works","work","working","is work","Usa ra ka tawo ang subject, mao nga \"works\"."],
 ["mc","'Dili siya moinom og kape (lalaki)' sa Iningles?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","Ang negative kon \"he\" ang subject: \"doesn't\" + base form."],
 ["mc","'Dinhi ba siya nagpuyo? (babaye)' sa Iningles?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Human sa \"Does\", walay -s ang verb."],
 ["mc","have → she ___ Unsay sakto sa blangko?","has","haves","have","is have","Ang \"have\" mahimong \"has\"."],
@@ -170,14 +170,14 @@ practice:[
 ["mc","How ___ time do we have? Unsay sakto sa blangko?","much","many","any","a","Dili maihap ang \"time\", mao nga \"much\"."],
 ["mc","'Naa ba kay mga pangutana?' sa Iningles?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","Human sa \"any\", plural ang countable noun."],
 ["mc","'usa ka baso nga tubig' sa Iningles?","a glass of water","a water glass of","one waters","a glass water","Ang dili maihap ihapon gamit ang \"a glass of\"."],
-["mc","I have ___ friends in Seoul. Unsay sakto sa blangko?","many","much","a","an","Maihap ug plural ang \"friends\", mao nga \"many\"."],
+["mc","I have ___ friends in Manila. Unsay sakto sa blangko?","many","much","a","an","Maihap ug plural ang \"friends\", mao nga \"many\"."],
 ["or","Naa koy gamay nga kuwarta","I have some money","a moneys","Dili maihap ang \"money\": walay article \"a\" ug walay plural -s."],
 ["or","Duha ka mansanas, palihug","Two apples please","apple","Duha, mao nga plural: \"apples\"."],
 ["or","Wala kaayo koy panahon","I don't have much time","many","Dili maihap ang \"time\", mao nga \"much\"."],
 ["fi","How __ is this?","Tagpila kini?","much","many|any|some","Ang presyo pangutan-on og \"how much\"."],
 ["fi","I don't have __ questions.","Wala koy pangutana","any","some|much|a","Sa negative, \"any\" ang gamiton."],
 ["fi","a cup __ coffee","usa ka tasa nga kape","of","for|in|a","\"a cup of …\" ang pag-ihap."],
-["ty","Puwede ko mangayo og tubig?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — walay article","a","Dili maihap ang \"water\", mao nga \"some\" ang gamiton, dili ang article \"a\"."],
+["ty","Puwede ko mangayo og tubig?","Can I have some water|Could I have some water|Can I get some water|Could I get some water|May I have some water","can I have · some · water — walay article","a","Dili maihap ang \"water\", mao nga \"some\" ang gamiton, dili ang article \"a\"."],
 ["ty","Naa ba kay mga pangutana?","Do you have any questions","any · question — plural ang gamiton","question","Human sa \"any\", plural ang countable noun: \"questions\"."],
 ["ty","Pila ka tawo?","How many people","how many · people — maihap ang tawo","much","Maihap ang tawo, mao nga \"many\"."]]},
 { id:"object-have", title:"me, him, her ug ang verb nga have", blurb:"Human sa verb, me ang gamiton, dili I. Ug ang have, nga daghan og gamit.", deck:"Pagpaila sa kaugalingon", body:`
@@ -222,7 +222,7 @@ practice:[
 <div class="tip">Kasagarang sayop: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓. Sa kapehan: <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
 check:[["She can ___ very well. Unsay sakto sa blangko?",["sings","sing","singing","to sing"],1,"Human sa \"can\", base form ang verb."],["'Ganahan ko moluto' sa Iningles?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"Human sa \"like\", -ing form ang gamiton."],["Unsay pinakanatural nga isulti kon mag-order ka sa kapehan?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"Ang gusto nimo karon isulti og \"I'd like\"."]],
 practice:[
-["mc","He can ___ Korean. Unsay sakto sa blangko?","speak","speaks","speaking","to speak","Human sa \"can\", base form ang verb."],
+["mc","He can ___ Cebuano. Unsay sakto sa blangko?","speak","speaks","speaking","to speak","Human sa \"can\", base form ang verb."],
 ["mc","'Dili ko kamao magmaneho' sa Iningles?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","Ang negative sa \"can\" kay \"can't\"."],
 ["mc","'Ganahan ko motan-aw og mga salida' sa Iningles?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","Human sa \"like\", -ing form. Mga salida sa kinatibuk-an, mao nga plural: \"movies\"."],
 ["mc","Sa pag-order: 'Usa ka kape, palihug' sa Iningles?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","Ang gusto nimo karon isulti og \"I'd like\"."],
@@ -240,7 +240,7 @@ practice:[
 <p>Sa Bisaya, ang <i>nag-</i> nagpakita nga nagsugod na ang lihok, pero wala kini mag-ingon kon kanus-a: ang <i>Nagkaon ko</i> puwede "karon" o "ganina". Sa Iningles, ang lihok nga nagpadayon <b>karon mismo</b> isulti og <b>be verb + -ing</b>. Mao ni ang present progressive (gitawag sab og present continuous).</p>
 {{ex:I'm working now.|/aɪm ˈwɜːrkɪŋ ˈnaʊ/|Nagtrabaho ko karon}}{{ex:She's cooking dinner.|/ʃiz ˈkʊkɪŋ ˈdɪnər/|Nagluto siya og panihapon (babaye)}}{{ex:It's raining.|/ɪts ˈreɪnɪŋ/|Nag-ulan}}
 <h3>Pangutana ug negative</h3>
-{{ex:What are you doing?|/ˈwʌt ər ju ˈduːɪŋ/|Unsay imong gibuhat karon?}}{{ex:Are you listening?|/ər ju ˈlɪsənɪŋ/|Naminaw ka ba?}}{{ex:I'm not sleeping.|/aɪm ˈnɑːt ˈsliːpɪŋ/|Wala ko natulog}}
+{{ex:What are you doing?|/ˈwʌt ər ju ˈduːɪŋ/|Unsay imong gibuhat karon?}}{{ex:Are you listening?|/ər ju ˈlɪsənɪŋ/|Naminaw ka ba?}}{{ex:I'm not sleeping.|/aɪm ˈnɑːt ˈsliːpɪŋ/|Wala ko natulog (karon)}}
 <h3>Itandi sa simple present tense</h3>
 <div class="tbl"><table><tr><th>Kanunay (simple present tense)</th><th>Karon (be verb + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
 <h3>Mga verb nga dili butangan og -ing</h3>
@@ -289,7 +289,7 @@ practice:[
 ["fi","I __ soccer yesterday.","Nidula ko og soccer gahapon","played","play|playing|was play","Naay \"yesterday\", mao nga past form: \"played\"."],
 ["fi","__ you work yesterday?","Nitrabaho ka ba gahapon?","Did","Were|Do|Was","Ang pangutana sa past sa ordinaryong verb magsugod sa \"Did\"."],
 ["ty","Gikapoy ko (simple past tense)","I was tired","was · tired — ang past sa be verb","were","Kon \"I\" ang subject, \"was\" ang gamiton."],
-["ty","Nitan-aw ko og salida","I watched a movie","watched · movie — article \"a\" kay usa ra","the","Usa ra ka salida, mao nga butangan og article \"a\"."],
+["ty","Nitan-aw ko og salida (gamita ang \"watch\")","I watched a movie","watched · movie — article \"a\" kay usa ra","the","Usa ra ka salida, mao nga butangan og article \"a\"."],
 ["ty","Nitawag ko sa akong mga higala","I called my friends","called · my · friend — plural kay daghan","friend","Daghan sila, mao nga plural: \"friends\"."]]},
 { id:"irregular-past", title:"Irregular nga past form: went, ate, saw", blurb:"Ang mga verb nga pinakagamiton, dili -ed ang past form. Sugdi sa 12.", deck:"Istorya-istorya", body:`
 <p>Ang mga verb nga gamiton kada adlaw kasagaran <b>irregular verb</b>: walay lagda ang ilang past form, mao nga sag-ulohon ang matag pares. Nahinumdom ka tingali sa lista sa eskuwelahan: base form, past form, past participle. Dinhi, ang unang duha lang una.</p>
@@ -310,10 +310,10 @@ practice:[
 ["or","Nitan-aw ko og salida","I saw a movie","see movies","Usa ra ka salida, mao nga article \"a\" ug singular nga \"movie\". Ang past form sa \"see\" kay \"saw\"."],
 ["or","Nikaon mi og pizza","We ate pizza","eated","Ang past form sa \"eat\" kay \"ate\"."],
 ["or","Nakigkita ko sa akong mga higala","I met my friends","friend meet","Daghan sila, mao nga plural: \"friends\"."],
-["fi","I __ to Jeju last year.","Niadto ko sa Jeju sa niaging tuig","went","go|goed|gone","Ang past form sa \"go\" kay \"went\"."],
+["fi","I __ to Bohol last year.","Niadto ko sa Bohol sa niaging tuig","went","go|goed|gone","Ang past form sa \"go\" kay \"went\"."],
 ["fi","What did you __?","Unsay imong gikaon?","eat","ate|eaten|eating","Human sa \"did\", base form ang verb."],
 ["fi","She __ a new phone.","Nipalit siya og bag-ong telepono (babaye)","bought","buyed|buy|buys","Ang past form sa \"buy\" kay \"bought\"."],
-["ty","Niadto ko sa Busan","I went to Busan","went · to · Busan — ang past form sa \"go\"","go","Ang past form sa \"go\" kay \"went\"."],
+["ty","Niadto ko sa Davao","I went to Davao","went · to · Davao — ang past form sa \"go\"","go","Ang past form sa \"go\" kay \"went\"."],
 ["ty","Nipalit ko og usa ka libro","I bought a book","bought · book — article \"a\" kay usa ra","the","Usa ra ka libro, mao nga butangan og article \"a\"."],
 ["ty","Nakigkita ko sa akong mga higala","I met my friends|I saw my friends","met · my · friend — plural kay daghan","friend","Daghan sila, mao nga plural: \"friends\"."]]},
 { id:"the", title:"Balikan ang the: a sa una, the sa sunod", blurb:"Sa unang paghisgot, a. Kon nahibaloan na ninyong duha, the. Ang \"ang\" sa Bisaya dili kanunay \"the\".", deck:"Direksyon ug sakyanan", body:`
@@ -387,7 +387,7 @@ practice:[
 <div class="tip">Sa pag-istorya, ang going to madungog nga <b>gonna</b>. Ug ayaw kalimti ang be verb: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
 check:[["'Makigkita ko sa akong higala ugma' sa Iningles?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be verb + going to + base form ang han-ay."],["She ___ going to study. Unsay sakto sa blangko?",["am","are","is","be"],2,"Kon \"she\" ang subject, \"is\" ang be verb."],["'Unsay imong buhaton karong Sabado ug Domingo?' sa Iningles?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Question word + be verb + subject + going to."]],
 practice:[
-["mc","'Moadto ko sa Busan (plano na)' sa Iningles?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be verb + going to + base form."],
+["mc","'Moadto ko sa Davao (plano na)' sa Iningles?","I'm going to go to Davao.","I going to go to Davao.","I'm going go to Davao.","I'm go to Davao going.","be verb + going to + base form."],
 ["mc","They ___ going to come. Unsay sakto sa blangko?","are","is","am","be","Kon \"they\" ang subject, \"are\" ang be verb."],
 ["mc","'Moulan na' sa Iningles?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","Human sa \"going to\", base form ang verb."],
 ["mc","'Dili ko moadto (plano na)' sa Iningles?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","Ibutang ang \"not\" human sa be verb."],

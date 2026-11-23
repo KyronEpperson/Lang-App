@@ -1,24 +1,73 @@
 {
-  "lessons": {
-    "pinoy-english": "tl-only lesson (profile tl.md §8 'add' / §4.8 / §2 classes A, C, D / §9 Ingles-Pinoy list): Philippine English usages that mislead abroad (CR, open the light, for a while, go down, It's traffic, brownout, ref, aircon, commute, salvage, gimmick, bold), small grammar habits (fill out, cope with, result in, based on, share with, in my opinion, make a mistake, uncountable luggage / furniture / advice) and local words that are fine (jeepney, barangay, sari-sari store, pasalubong); placed after smalltalk via profile.json lessonOrder.after; deck Mga bitag ng Ingles-Pinoy; no ko-en counterpart (replaces the ko-only konglish lesson in more/a1.js; mirrors zh chinglish, ja katakana-english, id indo-english)",
-    "aspect-tense": "tl-only lesson (profile tl.md §8 additions, §4.3): maps the three Tagalog aspect forms (tapos na / ginagawa / gagawin pa: kumain, kumakain, kakain) and the enclitics na / pa onto the English tenses each can become, plus the two rules Tagalog lacks (the verb always carries the time; base form after did / does / will / to); placed after perfect via profile.json lessonOrder.after; linked to the deck «Kuwentuhan»; new body, check and 16-item practice set that satisfies the standing rule article-plural (§7)"
-  },
-  "items": {},
-  "decks": {
-    "Pagpapakilala": "localisation per profile tl.md §9 (Minji→Ana, Korea→the Philippines, Seoul→Manila): cards 0 'My name is Ana.', 4 'I'm from the Philippines.', 5 'I live in Manila.'",
-    "Mahahalagang pangungusap 1": "localisation per profile tl.md §9: card 12 'Do you speak Korean?' → 'Do you speak Tagalog?' (learner's own language)",
-    "Kuwentuhan": "localisation per profile tl.md §9: card 6 'Have you been to Korea?' → 'Have you been to the Philippines?'",
-    "Papuri at paghanga": "localisation per profile tl.md §9: card 8 'Your Korean is really good!' → 'Your Tagalog is really good!'",
-    "Tawag, text at mga daglat": "localisation per profile tl.md §9 (Minji→Ana; Mr. Kim→Mr. Santos): cards 0 'Hello, this is Ana.', 1 'Can I speak to Mr. Santos?'",
-    "Biyahe (airport at hotel)": "localisation per profile tl.md §9: card 8 reservation name 'under Kim' → 'under Santos'",
-    "Ospital at emergency": "localisation per profile tl.md §9: card 15 'the Korean embassy' → 'the Philippine embassy' (learner's own embassy)",
-    "Ingat sa bigkas": "tl-only cards appended per profile tl.md §4.10 / §9 (cards 26–35): ship, sheep (ɪ / iː), full, fool (ʊ / uː), cat, cut (æ / ʌ), zoo, Sue, his, hiss (z / s). Original 26 cards unchanged; the think / 'tink' contrast is named in the note of 'think' and shown in the pron lesson body only",
-    "Mga bitag ng Ingles-Pinoy": "tl-only deck (profile tl.md §2 classes C–D, §4.8, §9 Ingles-Pinoy list): 34 cards whose target is the American form (bathroom for CR, turn on / off, power outage, fridge, AC, sneakers, get off, a lot of traffic, salvage, bold, go out for gimmick, make a copy, prepaid minutes, take the bus, bottled water, marker, bunk bed, fast, graduated the same year, main dish, make a mistake, in my opinion, better, luggage, regarding, share with, in January, just a moment, heading out, cope with, result in, based on, fill out); linked to the tl-only lesson pinoy-english; no ko-en counterpart",
-    "count": "deck count 22 vs ko-en: tl-only deck Mga bitag ng Ingles-Pinoy (profile tl.md §9) appended last, after the shared alphabet deck"
-  },
-  "extraLessons": [
-    "pinoy-english",
-    "aspect-tense"
-  ],
-  "droppedLessons": []
+ "lessons": {
+  "pinoy-english": "tl-only lesson (profile tl.md §8 'add' / §4.8 / §2 classes A, C, D / §9 Ingles-Pinoy list): Philippine English usages that mislead abroad (CR, open the light, for a while, go down, It's traffic, brownout, ref, aircon, commute, salvage, gimmick, bold), small grammar habits (fill out, cope with, result in, based on, share with, in my opinion, make a mistake, uncountable luggage / furniture / advice) and local words that are fine (jeepney, barangay, sari-sari store, pasalubong); placed after smalltalk via profile.json lessonOrder.after; deck Mga bitag ng Ingles-Pinoy; no ko-en counterpart (replaces the ko-only konglish lesson in more/a1.js; mirrors zh chinglish, ja katakana-english, id indo-english)",
+  "aspect-tense": "tl-only lesson (profile tl.md §8 additions, §4.3): maps the three Tagalog aspect forms (tapos na / ginagawa / gagawin pa: kumain, kumakain, kakain) and the enclitics na / pa onto the English tenses each can become, plus the two rules Tagalog lacks (the verb always carries the time; base form after did / does / will / to); placed after perfect via profile.json lessonOrder.after; linked to the deck «Kuwentuhan»; new body, check and 16-item practice set that satisfies the standing rule article-plural (§7)"
+ },
+ "items": {
+  "be#check0": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): K-pop → OPM; grammar point (no 'am' before another verb) unchanged",
+  "be#check1": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Seoul → Cebu; third-person -s unchanged",
+  "be#5": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Seoul → Manila; third-person -s unchanged",
+  "be#8": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Seoul → Cebu; third-person -s unchanged",
+  "present#2": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Seoul → Manila; word order unchanged",
+  "present#10": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Busan → Cebu; 'in' + city unchanged",
+  "present#12": "typed-answer pass (pre-merge review 2026-11-23): 'Mahilig ako sa mga pusa' is also 'I love cats' (can-like already accepts love)",
+  "third-s#12": "typed-answer pass (pre-merge review 2026-11-23): 'She loves cats' is equally correct for 'mahilig'",
+  "prep#4": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Seoul → Manila; 'in' + city unchanged",
+  "prep#13": "typed-answer pass (pre-merge review 2026-11-23): 'Kita tayo…' is also 'Let's meet next weekend' (still no preposition before next)",
+  "object-have#13": "typed-answer pass (pre-merge review 2026-11-23): 'I have lots of friends' is equally correct",
+  "can-like#11": "typed-answer pass (pre-merge review 2026-11-23): 'I love to cook' is equally correct",
+  "past#12": "typed-answer pass (pre-merge review 2026-11-23): 'Nanood ako ng pelikula' is also 'I saw a movie' (the order item for the same prompt teaches saw)",
+  "irregular-past#8": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Jeju → Boracay; went unchanged",
+  "irregular-past#11": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Busan → Cebu; went unchanged",
+  "going-to#0": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Busan → Baguio; be going to unchanged",
+  "tense#2": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Jeju → Boracay; be going to unchanged",
+  "joining#11": "typed-answer pass (pre-merge review 2026-11-23): 'I love coffee and tea' is equally correct for 'mahilig'",
+  "joining#13": "typed-answer pass (pre-merge review 2026-11-23): 'I love dogs and cats' is equally correct for 'mahilig'",
+  "numbers#9": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): won → pesos; 'fifty thousand' (no -s) unchanged",
+  "will#check2": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Jeju → Palawan; will vs going to unchanged",
+  "will#4": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Jeju → Palawan; will vs going to unchanged",
+  "perfect#check2": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Jeju → Boracay; past vs present perfect with 'last year' unchanged",
+  "perfect#2": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): kimchi → sinigang; have ever + past participle unchanged",
+  "perfect#4": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Jeju → Boracay; past vs present perfect unchanged",
+  "perfect#6": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Korea → Palawan; I've been to … twice unchanged",
+  "perfect#8": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Busan → Baguio; been unchanged",
+  "perfect#10": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Korea → Palawan; has unchanged",
+  "to-ing#11": "typed-answer pass (pre-merge review 2026-11-23): 'Gusto ko nang umuwi' is also 'I want to go home now'",
+  "articles-2#1": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Korea → Canada (a country without 'the'; the Philippines would take 'the'); no-article point unchanged",
+  "first-conditional#13": "typed-answer pass (pre-merge review 2026-11-23): prompt 'Maiiwan ka ng bus' names you; We/I answers (from the subjectless ko prompt) removed",
+  "relative#12": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Korean → Spanish (prompt: mag-Espanyol); who/that unchanged",
+  "relative#13": "typed-answer pass (pre-merge review 2026-11-23): 'pinanood namin' is 'we watched' as well as 'we saw'",
+  "phrasal#2": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Daegu → Baguio; grow up unchanged",
+  "passive#1": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Korea → the Philippines; be + made unchanged",
+  "passive#8": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Korea → the Philippines; made unchanged",
+  "passive#10": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Han Kang → José Rizal (an author every Filipino knows); by unchanged",
+  "email#check1": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): Korean-calque distractors (You suffered a lot / Good suffering) → Filipino-learner slips (Thanks for your hardworking / You did a hard work)",
+  "idioms#9": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): distractor 'tiger' (Korean idiom 호랑이도 제 말 하면 온다) → 'ghost'",
+  "past#11": "typed-answer pass (pre-merge review 2026-11-23): prompt says 'kanina'; 'I was tired earlier' is equally correct",
+  "past-continuous#11": "typed-answer pass (pre-merge review 2026-11-23): prompt says 'noon'; '… then / at that time' is equally correct",
+  "past-continuous#12": "typed-answer pass (pre-merge review 2026-11-23): prompt says 'noon'; '… then / at that time' is equally correct",
+  "past-continuous#13": "typed-answer pass (pre-merge review 2026-11-23): prompt says 'noon'; '… then' is equally correct",
+  "perfect#12": "typed-answer pass (pre-merge review 2026-11-23): prompt has 'na'; 'I've already read the/that book' is equally correct (perfect-2 accepts already)",
+  "narrative#11": "typed-answer pass (pre-merge review 2026-11-23): prompt says 'noon'; '… by then / then' is equally correct",
+  "narrative#13": "typed-answer pass (pre-merge review 2026-11-23): prompt says 'noon'; '… then / at that time' is equally correct",
+  "passive#13": "typed-answer pass (pre-merge review 2026-11-23): prompt says 'noon'; '… then / at that time' is equally correct"
+ },
+ "decks": {
+  "Pagpapakilala": "localisation per profile tl.md §9 (Minji→Ana, Korea→the Philippines, Seoul→Manila): cards 0 'My name is Ana.', 4 'I'm from the Philippines.', 5 'I live in Manila.'",
+  "Mahahalagang pangungusap 1": "localisation per profile tl.md §9: card 12 'Do you speak Korean?' → 'Do you speak Tagalog?' (learner's own language)",
+  "Kuwentuhan": "localisation per profile tl.md §9: card 6 'Have you been to Korea?' → 'Have you been to the Philippines?'",
+  "Papuri at paghanga": "localisation per profile tl.md §9: card 8 'Your Korean is really good!' → 'Your Tagalog is really good!'",
+  "Tawag, text at mga daglat": "localisation per profile tl.md §9 (Minji→Ana; Mr. Kim→Mr. Santos): cards 0 'Hello, this is Ana.', 1 'Can I speak to Mr. Santos?'",
+  "Biyahe (airport at hotel)": "localisation per profile tl.md §9: card 8 reservation name 'under Kim' → 'under Santos'",
+  "Ospital at emergency": "localisation per profile tl.md §9: card 15 'the Korean embassy' → 'the Philippine embassy' (learner's own embassy)",
+  "Ingat sa bigkas": "tl-only cards appended per profile tl.md §4.10 / §9 (cards 26–35): ship, sheep (ɪ / iː), full, fool (ʊ / uː), cat, cut (æ / ʌ), zoo, Sue, his, hiss (z / s). Original 26 cards unchanged; the think / 'tink' contrast is named in the note of 'think' and shown in the pron lesson body only",
+  "Mga bitag ng Ingles-Pinoy": "tl-only deck (profile tl.md §2 classes C–D, §4.8, §9 Ingles-Pinoy list): 35 cards whose target is the American form (bathroom for CR, turn on / off, power outage, fridge, AC, sneakers, get off, a lot of traffic, salvage, bold, go out for gimmick, make a copy, prepaid minutes, take the bus, bottled water, marker, bunk bed, fast, graduated the same year, main dish, make a mistake, in my opinion, better, luggage, regarding, share with, in January, just a moment, heading out, cope with, result in, based on, fill out, and (added in the pre-merge review) That went over my head for Pinoy 'nosebleed'); linked to the tl-only lesson pinoy-english; no ko-en counterpart",
+  "count": "deck count 22 vs ko-en: tl-only deck Mga bitag ng Ingles-Pinoy (profile tl.md §9) appended last, after the shared alphabet deck",
+  "Pelikula, serye at slang": "localisation (pre-merge review 2026-11-23, reverses the profile §9 keep-Korean rule): card 14 'Who's your bias?' (K-pop fan word) → 'I'm a huge fan!' (with Ben&Ben example and dialogue)"
+ },
+ "extraLessons": [
+  "pinoy-english",
+  "aspect-tense"
+ ],
+ "droppedLessons": []
 }

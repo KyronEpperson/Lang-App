@@ -15,7 +15,7 @@ Author: not a native speaker. Everything here needs a Polish speaker's check (§
 
 ## 1. Register and typography (one decision each)
 
-- **Address:** informal *ty* through the verb ending, pronoun dropped (*Wybierz*, *możesz*, *zaczniesz*). Where a pronoun is unavoidable it is capitalised: *Ty, Ciebie, Ci, Tobą, Twój* (profile §2; flagged there as the least certain choice).
+- **Address:** informal *ty* through the verb ending, pronoun dropped (*Wybierz*, *możesz*, *zaczniesz*). Where a pronoun is unavoidable it is written in **lower case**: *ty, ciebie, ci, tobą, twój* (*Świetnie ci idzie*, *Na twoim urządzeniu*, *Jak mamy się do ciebie zwracać?*). Capital only where any word would be capitalised: at the start of a string or a sentence (*Twoja ścieżka*, *Twoje konto*, label *Ty*). Decided once for the whole file in the pre-merge review 2026-11-23 (the profile §2 capitalised form was its least certain choice; lower case is the usual app style).
 - **Buttons and instructions:** imperative, second person singular: *Sprawdź, Dalej, Zapisz, Anuluj, Wstecz, Pomiń, Zamknij, Kontynuuj, Odśwież, Tasuj, Scal, Odmień*. Never the infinitive.
 - **Gender-neutral:** no second-person past tense, conditional, or adjective about the learner. Devices used: impersonal *-no / -to* forms (*Zalogowano, Wylogowano, Zapisano, Dodano, Cofnięto, Scalono, Opublikowano*), nouns (*Nowy rekord, Pauza*), first-person verbs on answer buttons (*Umiem*), present tense (*Co było w nagraniu?* for "Which one did you hear?", *Co mówi B?* for "What did B say?"). "Not sure" is *Nie mam pewności* (not *Nie jestem pewien / pewna*). "Are you signed in as admin?" became *czy to konto administratora?*.
 - **Quotes** „ ” (U+201E, U+201D). **Dash:** em dash with spaces between clauses, en dash only in ranges. **NFC** throughout.
@@ -66,7 +66,7 @@ The slot arrives as „Angielski” (nominative, capitalised), so it stands only
 | How much {x} do you know? | {1}: jaki masz poziom? |
 | What do you want {x} for? | {1}: jaki masz cel? |
 | type it in {x} / Type in {x}… | język odpowiedzi: {1} / Język odpowiedzi: {1}… |
-| Type the {x}, or tap Check again to give up. | Wpisz odpowiedź (język: {1}) albo dotknij Sprawdź jeszcze raz, żeby się poddać. |
+| Type the {x}, or tap Check again to give up. | Wpisz odpowiedź (język: {1}) albo jeszcze raz dotknij „Sprawdź”, żeby się poddać. |
 | No {x} keyboard? Use tiles | {1}: brak klawiatury? Użyj kafelków |
 | Learning {x} 5 minutes a day with Lang App {x} | {1} — 5 minut dziennie z Lang App {2} |
 | Learn {x}, 5 minutes a day | {1} — 5 minut dziennie |
@@ -118,11 +118,17 @@ Fixed strings without a slot use the proper case: *Napisz po angielsku*, *Ucz si
 | Accent (colour setting) | Kolor | *Kolor: czerwony*; avoids confusion with a spoken accent |
 | Text size | Tekst | |
 | grammar pattern / conjugate | konstrukcja / odmień | |
-| weekday headers Su–Sa | Nd Pn Wt Śr Cz Pt So | two letters each |
+| weekday headers Su–Sa | Nd Pn Wt Śr Cz Pt So | two letters each; „Sob.” was considered and not used, because it would break the two-letter set |
 | level titles (glosses beside the English title) | Kiełek, Szkolna ławka, Starsza klasa, Wyższa liga, Klasa mistrzowska, Sensei; Pierwsze kroki, Luźna rozmowa, W podróży, Jak u siebie | names of a stage, not of a person |
 | DELETE | DELETE | the engine compares the typed word |
 
 Fragments that the engine joins at run time were written to read as one sentence: „👆 Dotknij” + „fiszki, aby ją odwrócić”; „👉 Przesuń w prawo” + „= Umiem ·” + „👈 w lewo” + „= Jeszcze raz”; „… Wpisz” + DELETE + „dla potwierdzenia.”; „Potem 5 fiszek z talii” + deck name; „: wszystko, co publikujesz, jest” + „publiczne” + „dla wszystkich użytkowników. …”.
+
+### Changes in the pre-merge review (2026-11-23)
+- Pronouns of address in lower case throughout (26 occurrences; §1).
+- „Dyktando liczb” for "Number dictation" (was „Dyktando z liczb”).
+- „Tasuj talie na starcie” for "Decks start shuffled" (was „Talie zaczynają się potasowane”).
+- Sample address „ty@example.com” for "you@example.com" (was „ty@przyklad.pl”, a possibly real domain; example.com is reserved for examples).
 
 ## 5. Labels the validator flags as long
 
@@ -130,7 +136,7 @@ Recall en→한 (*Przypominanie pl→en*), Say it (*Powiedz na głos*), Cards by
 
 ## 6. Open doubts for a native speaker
 
-1. Capitalised *Ty / Twój / Ci / Ciebie* in interface text (many Polish apps use lower case).
+1. ~~Capitalised *Ty / Twój / Ci / Ciebie*~~ — settled 2026-11-23: lower case throughout (§1).
 2. *talia* for a deck (alternative: *zestaw*) and *Wprawki* for the Drills tab.
 3. *przegródka* for a Leitner box (alternative: *pudełko*).
 4. *oporna fiszka* for a leech (Anki's Polish uses *pijawka*).
@@ -142,11 +148,11 @@ Recall en→한 (*Przypominanie pl→en*), Say it (*Powiedz na głos*), Cards by
 10. *Pisanie* for the key `Type` (see §4).
 11. *Twórcy* / *❤️ twórcom się podoba* for "Developer" / "loved by the dev".
 12. The level-title glosses, especially *Kiełek*, *Starsza klasa*, *Wyższa liga*, *Luźna rozmowa*.
-13. *Nd Pn Wt Śr Cz Pt So* as weekday headers (capitalised, as on printed calendars).
+13. *Nd Pn Wt Śr Cz Pt So* as weekday headers (capitalised, as on printed calendars). „So” vs „Sb” is still open; „Sob.” would break the two-letter set.
 14. *Równo do przodu.* for "Steady."; *Znów w obiegu.* for "Back in rotation."; *Wszystko na bieżąco* for "All caught up"; *wszystko już było* for "all seen".
 15. *Nauka do późna — brawo* / *późno już, dobra robota* for the late-night greeting.
 16. *udostępniane w obecnej postaci, bez gwarancji* for "provided as-is".
 17. *bursztynowy* for amber in the calendar legend (alternative: *pomarańczowy*).
 18. *Kolor: śliwkowy* for "Accent plum".
 19. Legacy keys that the pl-en course probably never shows, worded loosely after the German file: the reading-drill blurb, *klasyfikator ·* (counter), *temat czasownika + końcówka*, *propozycja (shall we?)*, *czas teraźniejszy (uprzejmie)*.
-20. Roadmap: *Kolejność według poziomów CEFR A1–B1, dostosowana do osób mówiących po koreańsku* is a faithful translation of the English basis line, which names Korean speakers.
+20. Roadmap: *Kolejność według poziomów CEFR A1–B1, dostosowana do osób mówiących po koreańsku* is a faithful translation of the English basis line, which names Korean speakers. Not shown to Polish learners: for a native language other than ko / en the app shows the roadmap's `basisAny` („CEFR A1–B1”) instead (src/app.html, roadmap note).

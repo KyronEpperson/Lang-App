@@ -111,7 +111,7 @@ No onions, please. | /ˈnoʊ ˈʌnjənz ˈpliːz/ | Bez cebuli, poproszę | Po a
 I'm allergic to peanuts. | /aɪm əˈlɜːrdʒɪk tə ˈpiːnʌts/ | Mam alergię na orzeszki ziemne | „Alergia na” to allergic to. Akcent na drugą sylabę: /əˈlɜːrdʒɪk/.
 Is it spicy? | /ɪz ɪt ˈspaɪsi/ | Czy to jest ostre? | O łagodniejszą wersję dania prosi się słowem mild.
 Could we get some water? | /kəd wi ˈget ˈsʌm ˈwɔːtər/ | Czy możemy prosić o wodę? | water jest niepoliczalne: some water, nie a water. W amerykańskich restauracjach woda z kranu (tap water) jest darmowa i zwykle podawana z lodem.
-Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | Wszystko było pyszne | Odpowiedź na pytanie kelnera How is everything?
+Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | Wszystko było świetne | Odpowiedź na pytanie kelnera How is everything?
 Can we get the check, please? | /kən wi ˈget ðə ˈtʃek ˈpliːz/ | Czy możemy prosić o rachunek? | check to słowo amerykańskie; w brytyjskim: the bill.
 Can we split the bill? | /kən wi ˈsplɪt ðə ˈbɪl/ | Czy możemy podzielić rachunek? | Gdy każdy płaci za siebie, mówi się też: separate checks.
 It's on me. | /ɪts ɑːn ˈmiː/ | Ja stawiam | To samo: My treat!
@@ -338,12 +338,12 @@ grow up | /ˈgroʊ ˈʌp/ | dorastać | O miejscu, w którym minęło dziecińst
 wake up | /ˈweɪk ˈʌp/ | obudzić się | wake up to obudzić się, a get up — wstać z łóżka.
 `,
 "Wymowa: pułapki": `
-rice | /ˈraɪs/ | ryż | r i l rozróżniasz bez trudu, to łatwa para. Pilnuj tylko, żeby angielskie r nie drgało: czubek języka niczego nie dotyka.
-lice | /ˈlaɪs/ | wszy | l: czubek języka tuż za górnymi zębami. Para rice / lice to rozgrzewka.
+pull | /ˈpʊl/ | ciągnąć | Krótkie, luźne /ʊ/, krótsze niż polskie „u”. Z długim /uː/ wychodzi pool (basen). Napis Pull na drzwiach to „Ciągnąć”.
+pool | /ˈpuːl/ | basen | Długie /uː/. Polskie „u” zastępuje dwie angielskie samogłoski: krótkie /ʊ/ w pull i długie /uː/ w pool.
 right | /ˈraɪt/ | prawy / poprawny | Amerykańskie r: czubek języka lekko cofnięty, bez drgania — inaczej niż polskie „r”. Litery gh są nieme.
 light | /ˈlaɪt/ | światło / lekki | Litery gh są nieme: /ˈlaɪt/. Dwugłoskę /aɪ/ wymawia się jak polskie „aj”.
-fan | /ˈfæn/ | wentylator / kibic | f i p to dla Polaków rozgrzewka. Trudniejsza jest samogłoska /æ/: usta szerzej niż przy „e”, coś między „e” i „a”.
-pan | /ˈpæn/ | patelnia | Wygląda jak polskie „pan”, ale brzmi inaczej: p na początku wyrazu ma lekki przydech, a samogłoska to /æ/.
+eyes | /ˈaɪz/ | oczy | Końcowe /z/ jest dźwięczne. Ubezdźwięcznione, jak po polsku, brzmi jak ice (lód).
+ice | /ˈaɪs/ | lód | Bezdźwięczne /s/ na końcu. W parze eyes / ice słowo zmienia tylko dźwięczność ostatniej głoski.
 coffee | /ˈkɔːfi/ | kawa | W amerykańskim /ˈkɔːfi/: akcent na pierwszą sylabę, a końcowe -ee to krótkie /i/. Podwójne litery czyta się pojedynczo.
 copy | /ˈkɑːpi/ | kopia / kopiować | Amerykańskie o w tym słowie to /ɑː/, bliskie długiemu „a”: /ˈkɑːpi/.
 think | /ˈθɪŋk/ | myśleć | /θ/: czubek języka między zębami, lekki wydech. Z „s” wychodzi sink; „f” i „t” też nie pasują.
@@ -418,7 +418,7 @@ It's a must-watch. | /ɪts ə ˈmʌstwɑːtʃ/ | To trzeba obejrzeć | Gorąca r
 Plot twist! | /ˈplɑːt ˈtwɪst/ | Zwrot akcji! | Także o niespodziankach w życiu.
 It's overrated. | /ɪts ˌoʊvərˈreɪtɪd/ | To jest przereklamowane | Przeciwieństwo: underrated — niedoceniany.
 That scene gave me chills. | /ˈðæt ˈsiːn ˈgeɪv mi ˈtʃɪlz/ | Przy tej scenie miałam ciarki | Z zachwytu albo z napięcia. W scene litera c jest niema: /ˈsiːn/.
-Who's your bias? | /ˈhuːz jʊr ˈbaɪəs/ | Kto jest twoim ulubieńcem w zespole? | Slang fanów muzyki pop: bias to ulubiony członek zespołu. Neutralnie: Who's your favorite member?
+Who's your favorite character? | /ˈhuːz jʊr ˈfeɪvərɪt ˈkærɪktər/ | Kto jest twoją ulubioną postacią? | Pytanie o serial, film albo książkę. W amerykańskim favorite, w brytyjskim favourite. Postać to character, nie person.
 Are you kidding me? | /ər ju ˈkɪdɪŋ mi/ | Chyba żartujesz! | Typowa kwestia z seriali: zdziwienie albo irytacja.
 I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Możesz na mnie liczyć | Obietnica wsparcia: „jestem po twojej stronie”.
 Gotcha. | /ˈgɑːtʃə/ | Jasne, rozumiem / Mam cię! | Skrót od got you. Najczęściej znaczy „rozumiem”.
@@ -454,7 +454,8 @@ Z | /ˈziː/ | litera Z z | zero — liczba 0. W USA nazwa to zee /ˈziː/, nie 
 `,
 "Fałszywi przyjaciele i kalki": `
 current | /ˈkɜːrənt/ | aktualny / obecny | Fałszywy przyjaciel: actual znaczy „rzeczywisty, faktyczny”. „Moja aktualna praca” to my current job.
-possibly | /ˈpɑːsəbli/ | ewentualnie / być może | Fałszywy przyjaciel: eventually znaczy „w końcu, ostatecznie”. „Ewentualnie w piątek” to possibly on Friday.
+currently | /ˈkɜːrəntli/ | aktualnie / obecnie | Fałszywy przyjaciel: actually znaczy „właściwie, tak naprawdę”. „Aktualnie pracuję w banku” to I currently work at a bank.
+possibly | /ˈpɑːsəbli/ | ewentualnie / być może | Fałszywy przyjaciel: eventually znaczy „w końcu, ostatecznie”. „Ewentualnie w piątek” to possibly on Friday. Gdy „ewentualnie” znaczy „albo”: on Friday or, alternatively, on Saturday.
 nice | /ˈnaɪs/ | sympatyczny / miły | Fałszywy przyjaciel: sympathetic znaczy „współczujący”. Sympatyczna osoba to a nice person.
 salary | /ˈsæləri/ | pensja | Fałszywy przyjaciel: pension to emerytura. „Wysoka pensja” to a high salary.
 prescription | /prɪˈskrɪpʃn/ | recepta | Fałszywy przyjaciel: receipt to paragon, a przepis kulinarny to recipe.
@@ -465,7 +466,7 @@ warehouse | /ˈwerhaʊs/ | magazyn (skład towarów) | Fałszywy przyjaciel: mag
 lettuce | /ˈletɪs/ | sałata | Fałszywy przyjaciel: salad to sałatka, czyli gotowe danie. Końcówkę czytamy /ɪs/.
 special offer | /ˈspeʃl ˈɔːfər/ | promocja (w sklepie) | Fałszywy przyjaciel: promotion to przede wszystkim awans. Towar w promocji jest on sale albo on special offer.
 complaint | /kəmˈpleɪnt/ | reklamacja / skarga | Fałszywy przyjaciel: reclamation nie znaczy „reklamacja”. Złożyć reklamację to make a complaint.
-rude | /ˈruːd/ | ordynarny / niegrzeczny | Fałszywy przyjaciel: ordinary znaczy „zwyczajny”.
+rude | /ˈruːd/ | niegrzeczny / ordynarny | Fałszywy przyjaciel: ordinary znaczy „zwyczajny”.
 consistent | /kənˈsɪstənt/ | konsekwentny | Fałszywy przyjaciel: consequent znaczy „wynikający z czegoś”. O konsekwentnej osobie mówi się consistent.
 comprehensive | /ˌkɑːmprɪˈhensɪv/ | kompleksowy | Fałszywy przyjaciel: complex znaczy „złożony, skomplikowany”. Kompleksowa usługa to a comprehensive service.
 date | /ˈdeɪt/ | data / randka | Fałszywy przyjaciel: angielskie data to „dane”.

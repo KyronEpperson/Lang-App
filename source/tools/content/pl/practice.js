@@ -29,8 +29,8 @@ module.exports = {
   ],
 
   pron: [
-    { t: "mc", q: "Które słowo znaczy „ryż”?", o: ["rice", "lice", "rise", "nice"], why: "Ryż to rice, przez R. R i l rozróżniasz bez trudu — pilnuj tylko, żeby angielskie r nie drgało. Z L wychodzi lice (wszy)." },
-    { t: "mc", q: "Które słowo znaczy „wentylator”?", o: ["fan", "pan", "van", "ban"], why: "F i p to dla Polaków rozgrzewka: fan to wentylator, a pan to patelnia." },
+    { t: "mc", q: "Które słowo znaczy „basen”?", o: ["pool", "pull", "poll", "pole"], why: "Basen to pool, z długim /uː/. pull, z krótkim /ʊ/, to „ciągnąć”; poll i pole mają dwugłoskę /oʊ/." },
+    { t: "mc", q: "Które słowo znaczy „oczy”?", o: ["eyes", "ice", "ace", "yes"], why: "eyes kończy się dźwięcznym /z/. Ubezdźwięcznione, jak po polsku, daje ice (lód)." },
     { t: "mc", q: "Które słowo znaczy „myśleć”?", o: ["think", "sink", "thing", "pink"], why: "TH: czubek języka lekko między zębami. Z s wychodzi sink (zlew); polskie f albo t też tu nie pasuje." },
     { t: "mc", q: "Które słowo znaczy „głosować”?", o: ["vote", "boat", "goat", "bought"], why: "V i b też nie sprawiają kłopotu: angielskie v to polskie w. vote to głosować, a boat to łódka." },
     { t: "mc", q: "Które słowo znaczy „prawy, w prawo”?", o: ["right", "light", "fight", "bright"], why: "right przez R to „prawy”, a light przez L to „światło” albo „lekki”." },
@@ -39,7 +39,7 @@ module.exports = {
     { t: "order", p: "trzy drzewa", a: ["three", "trees"], x: ["tree", "free"], why: "Drzewa są trzy, więc liczba mnoga: trees. three zaczyna się od TH — to nie tree ani free." },
     { t: "order", p: "Lubię kawę", a: ["I", "like", "coffee"], x: ["copy"], why: "W coffee jest F, a akcent pada na pierwszą sylabę. Z P wychodzi copy (kopia)." },
 
-    { t: "fill", q: "I eat __ice every day.", p: "Codziennie jem ryż", a: ["r"], o: ["l", "n", "w"], why: "Ryż to rice, przez R. Z L wychodzi lice (wszy)." },
+    { t: "fill", q: "Let's go to the __.", p: "Chodźmy na basen", a: ["pool"], o: ["pull", "poll", "pole"], why: "Basen to pool, z długim /uː/. pull z krótkim /ʊ/ to „ciągnąć”." },
     { t: "fill", q: "I __ink so.", p: "Tak mi się wydaje", a: ["th"], o: ["s", "t", "p"], why: "think zaczyna się od TH. Z s wychodzi sink (zlew)." },
     { t: "fill", q: "This is my __.", p: "To moja torba", a: ["bag"], o: ["back", "bug", "beg"], why: "Torba to bag, z dźwięcznym g na końcu. Nie ubezdźwięczniaj: z k wychodzi back (plecy). Samogłoska jest szeroka, między e i a — to nie beg ani bug." },
 
@@ -75,17 +75,17 @@ module.exports = {
     { t: "mc", q: "Do you like coffee? — jak odpowiedzieć „tak”?", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "Pytanie było z do, więc odpowiedź też z do: Yes, I do." },
     { t: "mc", q: "„Ona nie je mięsa” po angielsku?", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "Przeczenie przy she to doesn't + forma podstawowa, bez -s." },
 
-    { t: "order", p: "Mój brat pracuje w Seulu", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "Podmiot to jedna osoba (he), więc works z końcówką -s. Czasownika to be tu nie ma." },
+    { t: "order", p: "Mój brat pracuje w Krakowie", a: ["My", "brother", "works", "in", "Krakow"], x: ["work", "is"], why: "Podmiot to jedna osoba (he), więc works z końcówką -s. Czasownika to be tu nie ma." },
     { t: "order", p: "Nie jestem studentem", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "Przeczenie z to be tworzy not, a przed rzeczownikiem policzalnym w liczbie pojedynczej potrzebny jest przedimek a." },
     { t: "order", p: "Ona ma dwa psy", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "Po she jest has, a psy są dwa, więc liczba mnoga: dogs." },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "Mój brat mieszka w Seulu", a: ["lives"], o: ["live", "is live", "living"], why: "Podmiot to he, więc czasownik dostaje -s: lives." },
+    { t: "fill", q: "My brother __ in Warsaw.", p: "Mój brat mieszka w Warszawie", a: ["lives"], o: ["live", "is live", "living"], why: "Podmiot to he, więc czasownik dostaje -s: lives." },
     { t: "fill", q: "__ you tired?", p: "Jesteś zmęczona?", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired opisuje stan, więc pytamy czasownikiem to be; przy you jest are." },
     { t: "fill", q: "We __ hungry.", p: "Jesteśmy głodni", a: ["are"], o: ["is", "am", "do"], why: "hungry opisuje stan, więc to be; przy we jest are." },
 
     { t: "type", p: "On jest nauczycielem", a: ["He's a teacher", "He is a teacher"], hint: "teacher — to be i przedimek przed zawodem", x: ["the"], why: "Po polsku wystarcza narzędnik („nauczycielem”), po angielsku przed nazwą zawodu stoi przedimek a: He's a teacher." },
     { t: "type", p: "Nie lubię kawy", a: ["I don't like coffee", "I do not like coffee"], hint: "don't · like · coffee — przeczenie z do, nie z to be", x: ["am"], why: "like to zwykły czasownik, więc przeczenie tworzy don't (I'm not like ✗)." },
-    { t: "type", p: "Czy ona ma kota?", a: ["Does she have a cat"], hint: "does · have · cat — jeden kot, więc przedimek", x: ["has"], why: "Po does czasownik wraca do formy podstawowej have, a przed jednym kotem stoi przedimek a." }
+    { t: "type", p: "Czy ona ma kota?", a: ["Does she have a cat", "Has she got a cat"], hint: "does · have · cat — jeden kot, więc przedimek", x: ["has"], why: "Po does czasownik wraca do formy podstawowej have, a przed jednym kotem stoi przedimek a." }
   ],
 
   polite: [
@@ -104,14 +104,14 @@ module.exports = {
     { t: "fill", q: "No, not at __.", p: "(odpowiedź na Would you mind…?) Ależ skąd, żaden problem", a: ["all"], o: ["any", "one", "ever"], why: "No, not at all znaczy „wcale nie mam nic przeciwko”, czyli zgodę." },
 
     { t: "type", p: "Czy może mi pan pomóc? (uprzejmie)", a: ["Could you help me", "Could you help me please", "Could you please help me", "Would you help me", "Would you help me please", "Would you mind helping me"], hint: "could · help — uprzejma prośba", x: ["can"], why: "Do nieznajomej osoby zwracamy się z Could you…?" },
-    { t: "type", p: "Poproszę miejsce przy oknie", a: pl(["I'd like a window seat", "I would like a window seat", "Can I get a window seat", "Could I get a window seat", "Can I have a window seat", "Could I have a window seat"]), hint: "I'd like · window seat — jedno miejsce, więc przedimek", x: ["the"], why: "Jedno miejsce, o którym mowa pierwszy raz: przedimek a — a window seat." },
+    { t: "type", p: "Poproszę miejsce przy oknie", a: pl(["I'd like a window seat", "I would like a window seat", "A window seat", "Can I get a window seat", "Could I get a window seat", "Can I have a window seat", "Could I have a window seat"]), hint: "I'd like · window seat — jedno miejsce, więc przedimek", x: ["the"], why: "Jedno miejsce, o którym mowa pierwszy raz: przedimek a — a window seat." },
     { t: "type", p: "Poproszę dwie kawy", a: pl(["Can I get two coffees", "Could I get two coffees", "Can I have two coffees", "Could I have two coffees", "I'd like two coffees", "I would like two coffees", "Two coffees"]), hint: "two · coffee — dwie, czyli liczba mnoga", x: ["coffee"], why: "Przy zamawianiu kawę liczymy na filiżanki, więc liczba mnoga: two coffees." }
   ],
 
   tense: [
     { t: "mc", q: "„Właśnie piję kawę” po angielsku?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "To, co dzieje się w tej chwili, wyraża be + forma -ing (Present Continuous)." },
     { t: "mc", q: "„W zeszły weekend pojechałam na plażę” po angielsku?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "Druga forma czasownika go to went. Przed beach stoi przedimek the: the beach." },
-    { t: "mc", q: "Plan na przyszły miesiąc: „Zamierzam pojechać na Czedżu”", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "Plan ułożony wcześniej to be going to + forma podstawowa." },
+    { t: "mc", q: "Plan na przyszły miesiąc: „Zamierzam pojechać w Tatry”", o: ["I'm going to visit the Tatras next month.", "I visit the Tatras next month.", "I visited the Tatras next month.", "I'm going visit the Tatras next month."], why: "Plan ułożony wcześniej to be going to + forma podstawowa." },
     { t: "mc", q: "Dzwonek do drzwi. Decyzja w tej chwili: „Ja otworzę!”", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "Decyzję podjętą w chwili mówienia wyraża will." },
     { t: "mc", q: "Jaka jest druga forma (Past Simple) czasownika see?", o: ["saw", "seed", "seen", "sawed"], why: "see jest czasownikiem nieregularnym: see — saw — seen." },
 
@@ -133,7 +133,7 @@ module.exports = {
     { t: "mc", q: "„Trzeciego maja” po angielsku?", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "Przed datą stoi przyimek on." },
     { t: "mc", q: "„Jestem (teraz) w autobusie” po angielsku?", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "Polskie „w autobusie” to on the bus — przyimek on przy środkach komunikacji. To konkretny autobus, więc z przedimkiem the." },
     { t: "mc", q: "„W nocy” po angielsku?", o: ["at night", "on night", "in night", "at the night"], why: "night to wyjątek: at night, bez przedimka." },
-    { t: "mc", q: "Wybierz poprawne zdanie.", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "Przed nazwą miasta stoi in, a nazwy miast nie mają przedimka the." },
+    { t: "mc", q: "Wybierz poprawne zdanie.", o: ["I live in Warsaw.", "I live at Warsaw.", "I live on Warsaw.", "I live in the Warsaw."], why: "Przed nazwą miasta stoi in, a nazwy miast nie mają przedimka the." },
 
     { t: "order", p: "Spotkajmy się na dworcu (tym, który oboje znamy)", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "Punkt na mapie to at — po polsku „na dworcu”. Dworzec jest znany obu osobom: przedimek the." },
     { t: "order", p: "Mój telefon leży na (tym) stole", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "Na powierzchni — on. Stół jest konkretny, mamy go przed oczami: przedimek the." },
@@ -153,7 +153,7 @@ module.exports = {
     { t: "mc", q: "I don't drink coffee. — jak powiedzieć „Ja też nie”?", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "Z przeczeniem zgadzamy się przez Me neither." },
     { t: "mc", q: "Jak naturalnie zakończyć rozmowę?", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "I should get going to łagodny sposób, żeby się pożegnać." },
     { t: "mc", q: "Co dobrze nadaje się na początek rozmowy z nieznajomą osobą?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "Pogoda to najbezpieczniejszy temat pogawędki. Pytania o zarobki, małżeństwo i wagę są zbyt osobiste." },
-    { t: "mc", q: "I went to Busan last weekend. — która reakcja okazuje zainteresowanie?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really? i That sounds fun! pokazują, że słuchamy z zainteresowaniem." },
+    { t: "mc", q: "I went to Gdansk last weekend. — która reakcja okazuje zainteresowanie?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really? i That sounds fun! pokazują, że słuchamy z zainteresowaniem." },
 
     { t: "order", p: "Masz jakieś plany na weekend?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "W tym pytaniu plans stoi w liczbie mnogiej, a weekend jest konkretny (najbliższy): przedimek the." },
     { t: "order", p: "Miło było porozmawiać", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "Tak kończy się rozmowę. Po nice stoi forma -ing: talking." },
@@ -171,7 +171,7 @@ module.exports = {
   phrasal: [
     { t: "mc", q: "„Włącz to” po angielsku?", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "Zaimek it stoi w środku czasownika frazowego: turn it on." },
     { t: "mc", q: "„Skończyło nam się mleko” po angielsku?", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "run out of znaczy „zużyć do końca, nie mieć już”. Nie wolno zgubić of." },
-    { t: "mc", q: "„Dorastałem w Daegu” po angielsku?", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "grow up znaczy „dorastać”; druga forma to grew up." },
+    { t: "mc", q: "„Dorastałem w Krakowie” po angielsku?", o: ["I grew up in Krakow.", "I grew in Krakow up.", "I growed up in Krakow.", "I grew out in Krakow."], why: "grow up znaczy „dorastać”; druga forma to grew up." },
     { t: "mc", q: "„Możesz zaopiekować się moim kotem?” po angielsku?", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "look after znaczy „opiekować się” i jest nierozdzielne (look for to „szukać”)." },
     { t: "mc", q: "„Przyjadę po ciebie o siódmej” po angielsku?", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "Zaimek you stoi między pick i up." },
 
@@ -185,7 +185,7 @@ module.exports = {
 
     { t: "type", p: "Wyłącz to, proszę", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — zaimek w środku", x: ["on"], why: "Zaimek it stoi między turn i off." },
     { t: "type", p: "Na co dzień opiekuję się dwoma kotami", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — dwa, czyli liczba mnoga", x: ["cat"], why: "look after znaczy „opiekować się”. Koty są dwa, więc liczba mnoga: cats." },
-    { t: "type", p: "Skończyło nam się mleko", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — z przedimkiem a czy bez?", x: ["a"], why: "milk jest niepoliczalne, więc bez przedimka a." }
+    { t: "type", p: "Skończyło nam się mleko", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk"], hint: "run out of · milk — z przedimkiem a czy bez?", x: ["a"], why: "milk jest niepoliczalne, więc bez przedimka a." }
   ],
 
   numbers: [
@@ -200,7 +200,7 @@ module.exports = {
     { t: "order", p: "dwa razy w tygodniu", a: ["twice", "a", "week"], x: ["the", "one"], why: "„W tygodniu”, „na tydzień” wyrażamy przedimkiem a: twice a week." },
 
     { t: "fill", q: "It's __ quarter past ten.", p: "Jest kwadrans po dziesiątej", a: ["a"], o: ["the", "one", "an"], why: "Przed quarter (kwadrans) stoi przedimek a." },
-    { t: "fill", q: "That's fifty __ won.", p: "To pięćdziesiąt tysięcy wonów", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50 000 to fifty thousand. Po liczbie thousand nie dostaje -s liczby mnogiej." },
+    { t: "fill", q: "That's fifty __ zloty.", p: "To pięćdziesiąt tysięcy złotych", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50 000 to fifty thousand. Po liczbie thousand nie dostaje -s liczby mnogiej." },
     { t: "fill", q: "I'll be there in ten __.", p: "Będę za dziesięć minut", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "Dziesięć minut, więc liczba mnoga: minutes." },
 
     { t: "type", p: "Jest trzecia trzydzieści (wpół do czwartej)", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — godzinę i minuty czytamy po kolei", x: ["thirteen"], why: "Czytamy godzinę i minuty po kolei: three thirty. Nie myl thirty z thirteen (13)." },
@@ -224,7 +224,7 @@ module.exports = {
     { t: "fill", q: "Thanks for all your hard __!", p: "Dziękuję wszystkim za zaangażowanie!", a: ["work"], o: ["works", "working", "job"], why: "work w znaczeniu „praca” jest niepoliczalne, więc bez -s liczby mnogiej." },
 
     { t: "type", p: "Jutro mam wolne (nie pracuję)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — czasownik to be i off", x: ["do"], why: "Dzień wolny od pracy wyrażamy przez be off." },
-    { t: "type", p: "W załączeniu przesyłam plik", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — plik jest konkretny, więc jaki przedimek?", x: ["a"], why: "Plik jest konkretny — odbiorca właśnie go dostaje: przedimek the." },
+    { t: "type", p: "W załączeniu przesyłam plik", a: ["I've attached the file", "I have attached the file", "I attached the file", "I'm attaching the file", "I am attaching the file"], hint: "attach · file — plik jest konkretny, więc jaki przedimek?", x: ["a"], why: "Plik jest konkretny — odbiorca właśnie go dostaje: przedimek the." },
     { t: "type", p: "Miłego weekendu!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — jeden weekend, więc przedimek", x: ["the"], why: "Jeden weekend: przedimek a — a great weekend." }
   ],
 
@@ -240,7 +240,7 @@ module.exports = {
     { t: "order", p: "To nie moja bajka", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "not my cup of tea zapamiętujemy w całości; my zajmuje miejsce przedimka." },
 
     { t: "fill", q: "Kill two __ with one stone.", p: "Upiec dwie pieczenie na jednym ogniu", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "Ptaki są dwa, więc liczba mnoga: birds." },
-    { t: "fill", q: "Speak of the __!", p: "O wilku mowa!", a: ["devil"], o: ["tiger", "angel", "bird"], why: "Po polsku mowa o wilku, po angielsku o diable: Speak of the devil!" },
+    { t: "fill", q: "Speak of the __!", p: "O wilku mowa!", a: ["devil"], o: ["wolf", "angel", "bird"], why: "Po polsku mowa o wilku (wolf), po angielsku o diable: Speak of the devil!" },
     { t: "fill", q: "I'm feeling under __ weather.", p: "Kiepsko się czuję", a: ["the"], o: ["a", "an", "my"], why: "under the weather: zawsze z przedimkiem the." },
 
     { t: "type", p: "To bułka z masłem", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — nie zapomnij o przedimku", x: ["the"], why: "a piece of cake: przedimek a jest częścią idiomu." },

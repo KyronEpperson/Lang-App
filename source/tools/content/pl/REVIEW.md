@@ -131,3 +131,30 @@ Korean characters under tools/content/pl: none
 ```
 
 The two i18n warnings were there before the review (same count in the baseline run); none comes from an edited string.
+
+## Pre-merge review, 2026-11-23
+
+Second reviewer (not a native speaker), after the cold review above. All shared-English changes are declared in `deviations.json` (`items`, plus the reasons for the decks „Wymowa: pułapki”, „Fałszywi przyjaciele i kalki” and „Filmy, seriale i slang”).
+
+**Review findings applied**
+- Type items that rejected correct answers or accepted a wrong person: modals „Musisz kupić bilet” (I/We have to removed; You need to / You must added), perfect „Czytałam tę książkę” and perfect-2 „Już przeczytałem tę książkę” (this book added), polite „Poproszę miejsce przy oknie” and can-like „Poproszę kanapkę” (A window seat / A sandwich, please added), email „W załączeniu przesyłam plik” (I'm attaching the file added), reported „Powiedział, że widział ten film” (that movie added).
+- False friends: aktualnie / actually row added to the ponglish table, new card *currently* in „Fałszywi przyjaciele i kalki” (31 cards), the email lesson's list now names aktualnie / currently; the *possibly* note now also gives „ewentualnie” = or alternatively.
+- Card *rude*: meaning reordered to „niegrzeczny / ordynarny”. Card *Everything was great.*: „Wszystko było świetne”.
+- lessons.js prep: „rzeczowniki nie odmieniają się przez przypadki” (pronouns do). b1 passive: „Po angielsku zwykle zastępuje je strona bierna” (was „takich konstrukcji nie ma”).
+- email check 0: Jenny Park → Jenny Miller (Polish side only).
+
+**Typed-answer pass** (all 127 type items listed from the generated pack and read)
+- Prompts cued (6): „To moje książki (te tutaj)”, „To moja torba (ta tutaj)”, „Piję herbatę (na co dzień)”, „Oglądam (teraz) film”, „Dzieci (teraz) śpią”, „On ma samochód (użyj has)”.
+- Answers added (12 items): Has she got a cat, Today it's hot, Have you got any questions, Have you got a pen, He has got a car, and the seven review items above.
+- Wrong-person answers removed (3 items): modals „Musisz…”, first-conditional „Spóźnisz się na autobus” (We'll / I'll), phrasal „Skończyło nam się mleko” (I ran out / I'm out).
+- Full forms: none missing in the pack (the DSL expands more/ items; practice.js items already list both). He's got a car was deliberately not added: the DSL would also generate the wrong full form *He is got a car*.
+
+**Localisation** (Korean setting → Poland; 36 practice items and checks, 28 of them on the shared English side): Seoul / Busan / Daegu → Warsaw, Krakow, Gdansk; Jeju → the Tatras (plans) or the Baltic (last year); Korea → Poland (made in, live in, visited) or England (been to … twice); Korean → Polish; kimchi and K-pop → pierogi; won → zloty; Han Kang → Olga Tokarczuk; idioms distractor tiger → wolf; email distractors You suffered a lot / Good suffering → Thanks for your engagement / Thank you from the mountain (Polish calques). Card *Who's your bias?* → *Who's your favorite character?* (deck, DIALOG). Pronunciation deck: the Korean pairs rice / lice and fan / pan → pull / pool (ʊ vs uː) and eyes / ice (final voicing), with the pron lesson body, two mc items, one fill and the EXAMPLES row. right / light, coffee / copy, very / berry, vote / boat kept (their notes already treat them as useful for Poles).
+
+**Interface** (tools/i18n/pl): pronouns of address in lower case throughout (26 strings); „Dyktando liczb”; „Tasuj talie na starcie”; „ty@example.com”; NOTES.md brought up to date (address rule, the „Sprawdź” string, the roadmap basis line is not shown to pl learners).
+
+**Left for a native speaker**
+- Weekday header „So” vs „Sb” (unchanged; „Sob.” would break the two-letter set).
+- Ponglish table row ordynarny → rude: „ordynarny” leans to vulgar / coarse; the row may want „rude, vulgar”.
+- „Wprawki” (tab) beside „ćwiczenie” elsewhere; „Ćwiczenia” would be more consistent (measure at 320 px).
+- Whether the replacement pron pairs (pull / pool, eyes / ice) and the Polish calque distractors read naturally.

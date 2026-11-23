@@ -29,7 +29,7 @@ practice:[
 ["fi","Have you finished __?","Skończyłeś już?","yet|already","ever|never|since","W pytaniu „już” to zwykle yet."],
 ["ty","Mieszkam tu od trzech lat","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — liczba mnoga","year","Po three — liczba mnoga years; okres wciąż trwa, więc Present Perfect."],
 ["ty","Jak długo tu jesteś?","How long have you been here","how long · have you · been here","are","How long have you + trzecia forma — nie Present Simple."],
-["ty","Już przeczytałem tę książkę","I've already read the book|I've read the book already|I already read the book","already · read · book — przedimek the","a","Książka, o której obie osoby wiedzą — przedimek the."]]},
+["ty","Już przeczytałem tę książkę","I've already read the book|I've read the book already|I already read the book|I've already read this book|I've read this book already|I already read this book|I've already read that book","already · read · book — przedimek the","a","Książka, o której obie osoby wiedzą — przedimek the."]]},
 { id:"narrative", title:"Czasy w opowiadaniu: Past Simple, Past Continuous, Past Perfect", blurb:"Tło — Past Continuous, wydarzenia — Past Simple, to, co stało się wcześniej — had + trzecia forma.", deck:"Filmy, seriale i slang", body:`
 <p>Opowiadając, co się wydarzyło, mieszamy trzy czasy przeszłe. Każdy ma swoją rolę. Po polsku wystarcza jeden czas przeszły z aspektem („szłam”, „zobaczyłam”), a kolejność zdarzeń wynika ze słów takich jak „już” i „wcześniej”.</p>
 <div class="tbl"><table><tr><th>Czas</th><th>Rola</th><th>Przykład</th></tr><tr><td class="k">Past Continuous</td><td>tło, czynność w toku</td><td>I was walking home.</td></tr><tr><td class="k">Past Simple</td><td>wydarzenie</td><td>I saw an old friend.</td></tr><tr><td class="k">Past Perfect</td><td>coś, co stało się jeszcze wcześniej</td><td>He had moved to Krakow.</td></tr></table></div>
@@ -88,7 +88,7 @@ practice:[
 ["ty","Trzeba było wziąć taksówkę (mówię o sobie)","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — przedimek a","the","Jakakolwiek taksówka, jedna — przedimek a."]]},
 { id:"passive", title:"Strona bierna: be + trzecia forma", blurb:"Gdy ważniejsze jest, co się stało, niż kto to zrobił.", deck:"Praca i e-maile", body:`
 <p>Strona bierna to <b>czasownik to be + trzecia forma</b>. Używamy jej, gdy nie wiadomo, kto coś zrobił, albo nie ma to znaczenia.</p>
-<p>Po polsku w takich sytuacjach wolimy „się” albo formy na -no / -to: „Ukradziono mi telefon”, „Spotkanie odwołano”, „Tu mówi się po angielsku”. Po angielsku takich konstrukcji nie ma — ich pracę wykonuje strona bierna i dlatego jest dużo częstsza niż w polskim.</p>
+<p>Po polsku w takich sytuacjach wolimy „się” albo formy na -no / -to: „Ukradziono mi telefon”, „Spotkanie odwołano”, „Tu mówi się po angielsku”. Po angielsku zwykle zastępuje je strona bierna i dlatego jest dużo częstsza niż w polskim.</p>
 {{ex:My phone was stolen.|/maɪ ˈfoʊn wəz ˈstoʊlən/|Ukradziono mi telefon}}{{ex:This was made in Poland.|/ˈðɪs wəz ˈmeɪd ɪn ˈpoʊlənd/|To wyprodukowano w Polsce}}{{ex:The meeting was canceled.|/ðə ˈmiːtɪŋ wəz ˈkænsld/|Spotkanie zostało odwołane}}{{ex:A new bridge was built.|/ə ˈnuː ˈbrɪdʒ wəz ˈbɪlt/|Zbudowano nowy most}}
 <h3>Present Simple: coś dzieje się stale</h3>
 {{ex:English is spoken here.|/ˈɪŋglɪʃ ɪz ˈspoʊkən ˈhɪr/|Tu mówi się po angielsku}}{{ex:Breakfast is served at seven.|/ˈbrekfəst ɪz ˈsɜːrvd ət ˈsevn/|Śniadanie podaje się o siódmej}}
@@ -99,19 +99,19 @@ practice:[
 <h3>Strona czynna i strona bierna</h3>
 <div class="tbl"><table><tr><th>Strona czynna</th><th>Strona bierna</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
 <div class="tip">Najczęstszy błąd: brak czasownika to be. <b>My phone stolen.</b> ✗ → <b>My phone was stolen.</b> ✓</div>`,
-check:[["My bag ___ stolen yesterday. Co pasuje w lukę?",["is","was","did","has"],1,"To było wczoraj, więc was + trzecia forma."],["This phone ___ made in Korea. Co pasuje w lukę?",["was","did","has","does"],0,"Strona bierna: czasownik to be + trzecia forma."],["Jak powiedzieć po angielsku „Spotkanie zostało odwołane”?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"Czasownik to be + trzecia forma: was canceled."]],
+check:[["My bag ___ stolen yesterday. Co pasuje w lukę?",["is","was","did","has"],1,"To było wczoraj, więc was + trzecia forma."],["This phone ___ made in Poland. Co pasuje w lukę?",["was","did","has","does"],0,"Strona bierna: czasownik to be + trzecia forma."],["Jak powiedzieć po angielsku „Spotkanie zostało odwołane”?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"Czasownik to be + trzecia forma: was canceled."]],
 practice:[
 ["mc","My phone ___ stolen.","was","did","has","is steal","Strona bierna: czasownik to be + trzecia forma."],
-["mc","„To wyprodukowano w Korei” po angielsku?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","Czasownik to be + trzecia forma: made."],
+["mc","„To wyprodukowano w Polsce” po angielsku?","This was made in Poland.","This made in Poland.","This was make in Poland.","This did made in Poland.","Czasownik to be + trzecia forma: made."],
 ["mc","Jak powiedzieć w stronie biernej: „Tu mówi się po angielsku”?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","Coś dzieje się stale — is + trzecia forma."],
 ["mc","„Spotkanie zostało odwołane” po angielsku?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","Czasownik to be + trzecia forma."],
 ["mc","„Śniadanie podaje się o siódmej” po angielsku?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","Nazwy posiłków nie mają przedimka; is + trzecia forma."],
 ["or","Ukradziono mi torbę","My bag was stolen","stole","Po czasowniku to be stoi trzecia forma: stolen."],
 ["or","Spotkanie zostało odwołane","The meeting was canceled","A meetings","Spotkanie, o którym obie osoby wiedzą — przedimek the."],
 ["or","Okno zostało wybite","The window was broken","a windows","To okno, które tu jest — przedimek the."],
-["fi","This was __ in Korea.","To wyprodukowano w Korei","made","make|making|makes","Po czasowniku to be stoi trzecia forma."],
+["fi","This was __ in Poland.","To wyprodukowano w Polsce","made","make|making|makes","Po czasowniku to be stoi trzecia forma."],
 ["fi","The room __ cleaned every day.","Pokój jest sprzątany codziennie","is|gets","does|has|did","Coś dzieje się stale — is + trzecia forma."],
-["fi","It was written __ Han Kang.","Napisała to Han Kang","by","from|of|with","Wykonawcę wprowadza by — polskie „przez”."],
+["fi","It was written __ Olga Tokarczuk.","Napisała to Olga Tokarczuk","by","from|of|with","Wykonawcę wprowadza by — polskie „przez”."],
 ["ty","Ukradziono mi telefon","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","Czasownik to be + trzecia forma: stolen."],
 ["ty","Spotkanie zostało odwołane","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — przedimek the","a","Spotkanie, o którym obie osoby wiedzą — przedimek the."],
 ["ty","Drzwi były zamknięte na klucz","The door was locked","the door · was · locked — przedimek the","a","Te drzwi, które tu są — przedimek the."]]},
@@ -178,5 +178,5 @@ practice:[
 ["fi","She asked __ I was okay.","Zapytała, czy wszystko u mnie w porządku","if|whether","that|what|did","Polskie „czy” to if (albo whether)."],
 ["ty","Powiedział, że jest zajęty","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","Po said czas cofa się o krok: is → was."],
 ["ty","Powiedziała, że ma samochód","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — przedimek a","the","Samochód wspomniany po raz pierwszy, jeden — przedimek a."],
-["ty","Powiedział, że widział ten film","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — przedimek the","a","Film, o którym obie osoby wiedzą — przedimek the."]]},
+["ty","Powiedział, że widział ten film","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie|He said he saw that movie|He said he had seen that movie","he said · saw · movie — przedimek the","a","Film, o którym obie osoby wiedzą — przedimek the."]]},
 ];

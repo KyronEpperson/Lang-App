@@ -85,7 +85,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | আজ রাতে পার্টিতে আসছ? / মনে হয় না। শরীরটা একটু ম্যাজম্যাজ করছে।
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | জেন আর মাইককে নিয়ে একটা অবিশ্বাস্য কথা শুনলাম। / দাঁড়াও, কী? কাহিনিটা খুলে বলো তো!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | সিরিজটা শেষ করেছ? শেষে কিন্তু… / কাহিনি বলে দিয়ো না! আমি মাত্র 3 নম্বর পর্বে।
-Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | দলে তোমার সবচেয়ে প্রিয় কে? / অবশ্যই মূল গায়ক। তোমার?
+Who's your favorite band? | Who's your favorite band? | Definitely Shironamhin. What about you? | তোমার প্রিয় ব্যান্ড কোনটা? / অবশ্যই শিরোনামহীন। তোমার?
 `;
 
 exports.EXAMPLES = `

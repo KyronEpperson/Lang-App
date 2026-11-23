@@ -86,7 +86,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | Przyjdziesz dziś wieczorem na imprezę? / Raczej nie. Kiepsko się czuję.
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | Słyszałam coś niesamowitego o Jen i Mike'u. / Czekaj, co? No, opowiadaj!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | Skończyłaś ten serial? Zakończenie jest… / Bez spoilerów! Jestem dopiero na trzecim odcinku.
-Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | Kto jest twoim ulubieńcem w zespole? / Zdecydowanie wokalista. A twoim?
+Who's your favorite character? | Who's your favorite character? | Definitely the detective. What about you? | Kto jest twoją ulubioną postacią? / Zdecydowanie detektyw. A twoją?
 `;
 
 exports.EXAMPLES = `
@@ -142,7 +142,7 @@ It costs an arm and a leg. | Living in New York costs an arm and a leg. | Życie
 Once in a blue moon | I only drink soda once in a blue moon. | Napoje gazowane piję od wielkiego dzwonu.
 Low-key | I low-key want to dye my hair pink. | Tak po cichu mam ochotę ufarbować włosy na różowo.
 I binge-watched the whole season. | I binge-watched the whole season in one weekend. | Obejrzałem cały sezon ciurkiem w jeden weekend.
-rice | I had rice and chicken for lunch. | Na lunch zjadłam ryż z kurczakiem.
+pool | Let's go to the pool after work. | Chodźmy po pracy na basen.
 think | I think so, too. | Też tak myślę.
 `;
 

@@ -60,7 +60,7 @@
 {"f":"cards","id":"ko.c0744","k":"note","src":"없어요. The opposite of 있다. 시간이 없어요 = I have no time.","tgt":"없어요。係 있다 嘅相反。시간이 없어요 = 我冇時間。"}
 {"f":"cards","id":"ko.c0745","k":"meaning","src":"to become; to work out; to be OK","tgt":"變成；得；可以"}
 {"f":"cards","id":"ko.c0745","k":"note","src":"돼요. 돼요? = is that OK? 안 돼요 = no, you can't.","tgt":"돼요。돼요? = 得唔得？안 돼요 = 唔得。"}
-{"f":"cards","id":"ko.c0746","k":"meaning","src":"to speak; to say","tgt":"講；說"}
+{"f":"cards","id":"ko.c0746","k":"meaning","src":"to speak; to say","tgt":"講；話"}
 {"f":"cards","id":"ko.c0746","k":"note","src":"말해요. To an elder: 말씀하세요.","tgt":"말해요。對長輩：말씀하세요。"}
 {"f":"cards","id":"ko.c0747","k":"meaning","src":"to receive; to get","tgt":"收；接受"}
 {"f":"cards","id":"ko.c0747","k":"note","src":"받아요. 전화 받아요 = I answer the phone.","tgt":"받아요。전화 받아요 = 我聽電話。"}
@@ -383,7 +383,7 @@
 {"f":"cards","id":"ko.c0906","k":"meaning","src":"very","tgt":"非常；好"}
 {"f":"cards","id":"ko.c0906","k":"note","src":"Neutral. Spoken more: 정말, 진짜, 너무.","tgt":"中性。口語多數講 정말、진짜、너무。"}
 {"f":"cards","id":"ko.c0907","k":"meaning","src":"just; for no reason","tgt":"就係咁；無端端"}
-{"f":"cards","id":"ko.c0907","k":"note","src":"그냥요 = no reason; 그냥 그래요 = so-so.","tgt":"그냥요 = 冇乜，就係咁；그냥 그래요 = 一般般。"}
+{"f":"cards","id":"ko.c0907","k":"note","src":"그냥요 = no reason; 그냥 그래요 = so-so.","tgt":"그냥요 = 冇乜，就係咁；그냥 그래요 = 麻麻哋。"}
 {"f":"cards","id":"ko.c0908","k":"meaning","src":"almost; hardly","tgt":"差唔多；好少"}
 {"f":"cards","id":"ko.c0908","k":"note","src":"거의 다 왔어요 = almost there; 거의 안 먹어요 = I hardly eat.","tgt":"거의 다 왔어요 = 差唔多到；거의 안 먹어요 = 我好少食。"}
 {"f":"cards","id":"ko.c0909","k":"meaning","src":"soon","tgt":"就快；好快"}
@@ -391,7 +391,7 @@
 {"f":"cards","id":"ko.c0910","k":"meaning","src":"each other","tgt":"互相"}
 {"f":"cards","id":"ko.c0910","k":"note","src":"서로 도와요 = we help each other.","tgt":"서로 도와요 = 我哋互相幫手。"}
 {"f":"cards","id":"ko.c0911","k":"meaning","src":"really; truly","tgt":"真係；的確"}
-{"f":"cards","id":"ko.c0911","k":"note","src":"정말 맛있어요. 정말요? = really?","tgt":"정말 맛있어요（真係好好食）。정말요? = 真㗎？"}
+{"f":"cards","id":"ko.c0911","k":"note","src":"정말 맛있어요. 정말요? = really?","tgt":"정말 맛있어요（真係好好食）。정말요? = 真係？"}
 {"f":"cards","id":"ko.c0912","k":"meaning","src":"alone; by yourself","tgt":"一個人；自己"}
 {"f":"cards","id":"ko.c0912","k":"note","src":"혼자 왔어요 = I came alone.","tgt":"혼자 왔어요 = 我一個人嚟。"}
 {"f":"cards","id":"ko.c0913","k":"meaning","src":"now (from now on); finally","tgt":"而家（由而家起）；終於"}
@@ -427,7 +427,7 @@
 {"f":"cards","id":"ko.c0928","k":"meaning","src":"later","tgt":"遲啲；之後"}
 {"f":"cards","id":"ko.c0928","k":"note","src":"나중에 연락할게요.","tgt":"나중에 연락할게요.","pre":1}
 {"f":"cards","id":"ko.c0929","k":"meaning","src":"not really; not particularly","tgt":"唔係幾；唔太"}
-{"f":"cards","id":"ko.c0929","k":"note","src":"With a negative: 별로 안 좋아해요. 별로예요 = it's meh.","tgt":"同否定一齊用：별로 안 좋아해요。별로예요 = 麻麻哋。"}
+{"f":"cards","id":"ko.c0929","k":"note","src":"With a negative: 별로 안 좋아해요. 별로예요 = it's meh.","tgt":"同否定一齊用：별로 안 좋아해요。별로예요 = 唔係幾好。"}
 {"f":"cards","id":"ko.c0930","k":"meaning","src":"sometimes","tgt":"有時"}
 {"f":"cards","id":"ko.c0930","k":"note","src":"가끔 만나요.","tgt":"가끔 만나요.","pre":1}
 {"f":"cards","id":"ko.c0931","k":"meaning","src":"early","tgt":"早"}
@@ -544,7 +544,7 @@
 {"f":"cards","id":"ko.c0986","k":"note","src":"Goes after the thing you compare against: 버스보다 빨라요 = faster than the bus.","tgt":"放喺被比較嘅嘢後面：버스보다 빨라요 = 比巴士快。"}
 {"f":"cards","id":"ko.c0987","k":"meaning","src":"plural marker (-s)","tgt":"複數標記（似「我哋」嘅「哋」）"}
 {"f":"cards","id":"ko.c0987","k":"note","src":"친구들 = friends. Often left out: Korean doesn't need a plural.","tgt":"친구들 = 啲朋友。好多時省略：韓文唔一定要標複數。"}
-{"f":"cards","id":"ko.c0988","k":"meaning","src":"and; with (casual)","tgt":"同；同埋（口語）"}
+{"f":"cards","id":"ko.c0988","k":"meaning","src":"and; with (casual)","tgt":"同；同埋（半語）"}
 {"f":"cards","id":"ko.c0988","k":"note","src":"Vowel: 랑 (친구랑); consonant: 이랑 (동생이랑). Spoken version of 하고.","tgt":"元音後面：랑（친구랑）；收音後面：이랑（동생이랑）。係 하고 嘅口語講法。"}
 {"f":"cards","id":"ko.c0989","k":"meaning","src":"or; as many as","tgt":"或者；竟然有……咁多"}
 {"f":"cards","id":"ko.c0989","k":"note","src":"Vowel: 나 (커피나 차); consonant: 이나 (빵이나 밥). 두 시간이나 = a whole two hours.","tgt":"元音後面：나（커피나 차）；收音後面：이나（빵이나 밥）。두 시간이나 = 足足兩個鐘。"}
@@ -899,7 +899,7 @@
 {"f":"cards","id":"ko.c1164","k":"meaning","src":"You're so sweet and caring","tgt":"你真係好體貼"}
 {"f":"cards","id":"ko.c1164","k":"note","src":"After a kind gesture. Warm.","tgt":"對方做咗貼心嘅事之後講。暖心。"}
 {"f":"cards","id":"ko.c1165","k":"meaning","src":"Have you eaten? (I care about you)","tgt":"食咗飯未呀？（我關心你）"}
-{"f":"cards","id":"ko.c1165","k":"note","src":"Korean's indirect \"I'm thinking of you\". Polite form of the casual 밥 먹었어? Mild.","tgt":"韓文入面間接嘅「我掛住你」，廣東話都會用「食咗飯未」關心人。係半語 밥 먹었어? 嘅禮貌形。輕鬆。"}
+{"f":"cards","id":"ko.c1165","k":"note","src":"Korean's indirect \"I'm thinking of you\". Polite form of the casual 밥 먹었어? Mild.","tgt":"韓文入面間接嘅「我掛住你」，廣東話都會用「食咗飯未」關心人。係半語 밥 먹었어? 嘅禮貌體。輕鬆。"}
 {"f":"cards","id":"ko.c1166","k":"meaning","src":"Let's grab a meal sometime","tgt":"第日一齊食餐飯啦"}
 {"f":"cards","id":"ko.c1166","k":"note","src":"Often polite filler; when meant, it opens a date. Ask \"when?\" to show you mean it. Mild.","tgt":"好多時只係客套；真心嘅話就係約會嘅開始。問「幾時？」表示你係認真。輕鬆。"}
 {"f":"cards","id":"ko.c1167","k":"meaning","src":"Want to have dinner together?","tgt":"一齊食飯好唔好？"}
@@ -1235,7 +1235,7 @@
 {"f":"dialog","id":"ko.g004","k":"tr","src":"How much is this? / 12,000 won.","tgt":"呢個幾多錢？ / 一萬二千韓元。"}
 {"f":"dialog","id":"ko.g005","k":"tr","src":"Excuse me, where's the bathroom? / Go straight that way.","tgt":"唔該，洗手間喺邊度？ / 向嗰邊一直行就係。"}
 {"f":"dialog","id":"ko.g006","k":"tr","src":"What can I get you? / This one, to go.","tgt":"請問要啲咩？ / 唔該要呢個，拎走。"}
-{"f":"dialog","id":"ko.g007","k":"tr","src":"Are you okay? Hurt? / Yes, I'm fine.","tgt":"你冇事吖嘛？有冇整親？ / 冇事，我冇事。"}
+{"f":"dialog","id":"ko.g007","k":"tr","src":"Are you okay? Hurt? / Yes, I'm fine.","tgt":"你冇事吖嘛？有冇整親？ / 係，我冇事。"}
 {"f":"dialog","id":"ko.g008","k":"tr","src":"Sorry, please speak slowly. / Ah, sure, I'll slow down.","tgt":"對唔住，唔該講慢啲。 / 啊，好，我講慢啲。"}
 {"f":"dialog","id":"ko.g009","k":"tr","src":"Your Korean is good! / No, I'm still not good.","tgt":"你韓文講得真好！ / 唔係啦，我仲未講得好。"}
 {"f":"dialog","id":"ko.g010","k":"tr","src":"Excuse me, coming through. / Go ahead.","tgt":"等等，唔該借借。 / 好，請過。"}
@@ -1243,23 +1243,23 @@
 {"f":"dialog","id":"ko.g012","k":"tr","src":"Excuse me, please help me. / Sure, what do you need?","tgt":"唔該，幫幫我。 / 好，請問你需要啲乜？"}
 {"f":"dialog","id":"ko.g013","k":"tr","src":"Sorry, say that again please. / The subway station is on the left.","tgt":"對唔住，唔該再講一次。 / 地鐵站喺左邊。"}
 {"f":"dialog","id":"ko.g014","k":"tr","src":"Can you speak English? / A little. I'll speak slowly.","tgt":"你識唔識講英文？ / 識少少。我會講慢啲。","rw":"mentions English"}
-{"f":"dialog","id":"ko.g015","k":"tr","src":"What is this? / Tteokbokki. It's a bit spicy.","tgt":"呢個係乜嘢？ / 係辣炒年糕，有少少辣。"}
-{"f":"dialog","id":"ko.g016","k":"tr","src":"Do you take cards? / Yes. Insert it here.","tgt":"收唔收卡？ / 收，唔該插喺呢度。"}
-{"f":"dialog","id":"ko.g017","k":"tr","src":"What's the wifi password? / It's on the receipt.","tgt":"Wi-Fi 密碼係乜嘢？ / 喺收據上面。"}
-{"f":"dialog","id":"ko.g018","k":"tr","src":"I'm lost. Where is this? / This is Hongdae. Where are you going?","tgt":"我蕩失路。呢度係邊度？ / 呢度係弘大。請問你去邊？"}
+{"f":"dialog","id":"ko.g015","k":"tr","src":"What is this? / Tteokbokki. It's a bit spicy.","tgt":"呢個係咩嚟？ / 係辣炒年糕，有少少辣。"}
+{"f":"dialog","id":"ko.g016","k":"tr","src":"Do you take cards? / Yes. Insert it here.","tgt":"可唔可以碌卡？ / 可以，唔該插喺呢度。"}
+{"f":"dialog","id":"ko.g017","k":"tr","src":"What's the wifi password? / It's on the receipt.","tgt":"Wi-Fi 密碼係咩？ / 喺收據上面。"}
+{"f":"dialog","id":"ko.g018","k":"tr","src":"I'm lost. Where is this? / This is Hongdae. Where are you going?","tgt":"我蕩失路。呢度係邊？ / 呢度係弘大。請問你去邊？"}
 {"f":"dialog","id":"ko.g019","k":"tr","src":"What's your name? / I'm @@. What's yours?","tgt":"你叫咩名？ / 我係 @@。你呢？"}
 {"f":"dialog","id":"ko.g020","k":"tr","src":"Nice to meet you. / Nice to meet you too.","tgt":"好高興識到你。 / 我都好高興識到你。"}
 {"f":"dialog","id":"ko.g021","k":"tr","src":"Where are you from? / From the Philippines. Cebu.","tgt":"你由邊度嚟？ / 我由菲律賓嚟，宿霧。"}
 {"f":"dialog","id":"ko.g022","k":"tr","src":"Excuse me, how old are you? / 28. And you?","tgt":"唔好意思，請問你貴庚？ / 二十八。你呢？"}
-{"f":"dialog","id":"ko.g023","k":"tr","src":"What do you do? / I work at an IT company.","tgt":"你做邊行？ / 我喺一間 IT 公司做嘢。"}
+{"f":"dialog","id":"ko.g023","k":"tr","src":"What do you do? / I work at an IT company.","tgt":"你做咩工作？ / 我喺一間 IT 公司做嘢。"}
 {"f":"dialog","id":"ko.g024","k":"tr","src":"Do you study Korean? / Yes, a little every day.","tgt":"你學緊韓文？ / 係，每日學少少。"}
 {"f":"dialog","id":"ko.g025","k":"tr","src":"What's your hobby? / Running and music.","tgt":"你有咩興趣？ / 跑步同音樂。"}
-{"f":"dialog","id":"ko.g026","k":"tr","src":"Long time no see! How've you been? / Good, thanks. You?","tgt":"好耐冇見！你最近點呀？ / 幾好，托賴。你呢？"}
+{"f":"dialog","id":"ko.g026","k":"tr","src":"Long time no see! How've you been? / Good, thanks. You?","tgt":"好耐冇見！你近排好唔好呀？ / 幾好，托賴。你呢？"}
 {"f":"dialog","id":"ko.g027","k":"tr","src":"How are things lately? / Busy. But fun.","tgt":"最近點呀？ / 好忙，不過幾好玩。"}
 {"f":"dialog","id":"ko.g028","k":"tr","src":"Nice weather today. / Yes, perfect for a walk.","tgt":"今日天氣好好喎。 / 係呀，啱晒去散步。"}
-{"f":"dialog","id":"ko.g029","k":"tr","src":"What are you doing this weekend? / Going hiking. Want to come?","tgt":"週末做咩呀？ / 去行山。一齊去唔去？"}
-{"f":"dialog","id":"ko.g030","k":"tr","src":"Today was fun. See you again! / Yes, I'll be in touch.","tgt":"今日好開心。下次見！ / 好，我再搵你。"}
-{"f":"dialog","id":"ko.g031","k":"tr","src":"I'll head out first. Goodbye (stay well). / Bye (go well).","tgt":"我走先喇，再見（我走，你留低）。 / 好，再見，慢慢行（你走，我留低）。"}
+{"f":"dialog","id":"ko.g029","k":"tr","src":"What are you doing this weekend? / Going hiking. Want to come?","tgt":"你週末做咩？ / 去行山。一齊去唔去？"}
+{"f":"dialog","id":"ko.g030","k":"tr","src":"Today was fun. See you again! / Yes, I'll be in touch.","tgt":"今日好開心。下次再見！ / 好，我再搵你。"}
+{"f":"dialog","id":"ko.g031","k":"tr","src":"I'll head out first. Goodbye (stay well). / Bye (go well).","tgt":"我走先喇。再見（你走，對方留低）。 / 好，再見（對方走，你留低）。"}
 {"f":"dialog","id":"ko.g032","k":"tr","src":"I'm bored. Let's hang out! / Deal! Where should we meet?","tgt":"好悶呀。出去玩啦！ / 得！就咁話！喺邊度見？"}
 {"f":"dialog","id":"ko.g033","k":"tr","src":"Are you free tomorrow? / In the afternoon. Why?","tgt":"聽日得唔得閒？ / 下晝得閒。做咩？"}
 {"f":"dialog","id":"ko.g034","k":"tr","src":"I'm going to a café, wanna come? / Sure, let's go.","tgt":"我去咖啡店，一齊去唔去？ / 好呀，去啦。"}
@@ -1267,38 +1267,38 @@
 {"f":"dialog","id":"ko.g036","k":"tr","src":"When should we meet? / How about Saturday?","tgt":"我哋幾時見？ / 星期六好唔好？"}
 {"f":"dialog","id":"ko.g037","k":"tr","src":"Where should we meet? / Let's meet at Gangnam station exit 11.","tgt":"喺邊度見？ / 喺江南站 11 號出口等啦。"}
 {"f":"dialog","id":"ko.g038","k":"tr","src":"Where are you? Almost here? / Sorry, coming now. 5 minutes!","tgt":"你喺邊？到未呀？ / 唔好意思，我而家嚟。5 分鐘！"}
-{"f":"dialog","id":"ko.g039","k":"tr","src":"Today was really fun. / Me too. Let's hang out again!","tgt":"今日真係好開心。 / 我都係。下次再出嚟玩！"}
+{"f":"dialog","id":"ko.g039","k":"tr","src":"Today was really fun. / Me too. Let's hang out again!","tgt":"今日真係好開心。 / 我都係。下次再玩過！"}
 {"f":"dialog","id":"ko.g040","k":"tr","src":"Ready to order? / One iced Americano, please.","tgt":"請問要啲咩？ / 唔該要一杯凍美式。"}
 {"f":"dialog","id":"ko.g041","k":"tr","src":"For here? / No, to go.","tgt":"喺度食？ / 唔係，拎走。"}
 {"f":"dialog","id":"ko.g042","k":"tr","src":"What sizes do you have? / Tall, grande, venti.","tgt":"有咩大細？ / 有 Tall、Grande、Venti。"}
 {"f":"dialog","id":"ko.g043","k":"tr","src":"Do you have a points card? / No, that's okay.","tgt":"請問有冇積分卡？ / 唔使喇。"}
 {"f":"dialog","id":"ko.g044","k":"tr","src":"Please heat this up. / Sure, it takes a minute.","tgt":"唔該幫我叮熱佢。 / 好，要一分鐘。"}
-{"f":"dialog","id":"ko.g045","k":"tr","src":"Do you need a bag? / Yes, one please.","tgt":"要唔要袋？ / 要，唔該俾一個我。"}
-{"f":"dialog","id":"ko.g046","k":"tr","src":"Cash or card? / Card.","tgt":"現金定碌卡？ / 碌卡。"}
-{"f":"dialog","id":"ko.g047","k":"tr","src":"Where is a pharmacy? / On the first floor of that building.","tgt":"藥房喺邊度？ / 喺嗰棟大廈地下。","_note":"Korean 1층 = ground floor, so glossed 地下 (HK ground floor), not 1 樓."}
+{"f":"dialog","id":"ko.g045","k":"tr","src":"Do you need a bag? / Yes, one please.","tgt":"請問要唔要膠袋？ / 要，唔該俾一個我。"}
+{"f":"dialog","id":"ko.g046","k":"tr","src":"Cash or card? / Card.","tgt":"現金定碌卡？ / 我碌卡。"}
+{"f":"dialog","id":"ko.g047","k":"tr","src":"Where is a pharmacy? / On the first floor of that building.","tgt":"藥房喺邊？ / 喺嗰棟大廈地下。","_note":"Korean 1층 = ground floor, so glossed 地下 (HK ground floor), not 1 樓."}
 {"f":"dialog","id":"ko.g048","k":"tr","src":"Where does it hurt? / My head hurts. I have a fever too.","tgt":"請問邊度唔舒服？ / 我頭痛，仲有發燒。"}
 {"f":"dialog","id":"ko.g049","k":"tr","src":"Do you have painkillers? / Yes, take these after a meal.","tgt":"有冇止痛藥？ / 有，呢啲請飯後食。"}
 {"f":"dialog","id":"ko.g050","k":"tr","src":"Do you have allergies? / Yes, I'm allergic to peanuts.","tgt":"請問你有冇敏感？ / 有，我對花生敏感。"}
 {"f":"dialog","id":"ko.g051","k":"tr","src":"How many times a day? / Three times, 30 minutes after meals.","tgt":"一日食幾多次？ / 一日三次，飯後 30 分鐘。"}
-{"f":"dialog","id":"ko.g052","k":"tr","src":"Package! / Please leave it at the door.","tgt":"有速遞！ / 好，唔該放喺門口。"}
+{"f":"dialog","id":"ko.g052","k":"tr","src":"Package! / Please leave it at the door.","tgt":"有速遞到！ / 好，唔該放喺門口。"}
 {"f":"dialog","id":"ko.g053","k":"tr","src":"How much is rent? / 500,000 won, maintenance included.","tgt":"月租幾多錢？ / 五十萬韓元，包管理費。"}
 {"f":"dialog","id":"ko.g054","k":"tr","src":"Can you dry clean this? / Yes, pick it up tomorrow afternoon.","tgt":"呢件可唔可以乾洗？ / 可以，聽日下晝嚟攞。"}
 {"f":"dialog","id":"ko.g055","k":"tr","src":"I'm starting work with you today. Please take care of me. / Likewise.","tgt":"由今日開始同你一齊做嘢，請多多指教。 / 好，我都請你多多指教。"}
-{"f":"dialog","id":"ko.g056","k":"tr","src":"How are things? / So-so. Just busy.","tgt":"最近點呀？ / 一般般，淨係忙。"}
+{"f":"dialog","id":"ko.g056","k":"tr","src":"How are things? / So-so. Just busy.","tgt":"最近點呀？ / 麻麻哋，淨係忙。"}
 {"f":"dialog","id":"ko.g057","k":"tr","src":"I'm a coffee addict. / Me too! At least three cups a day.","tgt":"我飲咖啡上咗癮。 / 我都係！一日起碼飲三杯。"}
-{"f":"dialog","id":"ko.g058","k":"tr","src":"I'm going to Korea next month. / Really? Where to?","tgt":"我下個月去韓國。 / 真㗎？去邊度？"}
-{"f":"dialog","id":"ko.g059","k":"tr","src":"I should get going. Goodbye. / Okay, get home safe.","tgt":"我差唔多要走喇，再見（我走，你留低）。 / 好，小心行。"}
+{"f":"dialog","id":"ko.g058","k":"tr","src":"I'm going to Korea next month. / Really? Where to?","tgt":"我下個月去韓國。 / 真係？去邊度？"}
+{"f":"dialog","id":"ko.g059","k":"tr","src":"I should get going. Goodbye. / Okay, get home safe.","tgt":"我差唔多要走喇。再見（你走，對方留低）。 / 好，小心行。"}
 {"f":"dialog","id":"ko.g060","k":"tr","src":"See you next time. / Yes, I'll be in touch!","tgt":"下次見。 / 好，我再搵你！"}
 {"f":"dialog","id":"ko.g061","k":"tr","src":"Hey, what are you doing? / Watching Netflix at home. Why?","tgt":"喂，做緊咩？ / 喺屋企睇緊 Netflix。做咩？"}
 {"f":"dialog","id":"ko.g062","k":"tr","src":"Are you free tonight? / Yeah, after seven.","tgt":"今晚得唔得閒？ / 得，七點之後。"}
 {"f":"dialog","id":"ko.g063","k":"tr","src":"Wanna come over? I'll order chicken. / Deal! I'll bring beer.","tgt":"嚟唔嚟我屋企？我叫炸雞。 / 得！就咁話！我買啤酒過嚟。"}
-{"f":"dialog","id":"ko.g064","k":"tr","src":"Today was so fun. Let's hang again. / Sure, see you next week!","tgt":"今日真係好開心，下次再玩。 / 好，下個星期見！"}
-{"f":"dialog","id":"ko.g065","k":"tr","src":"Can I get your number? / Sure, 010-3322-7788.","tgt":"可唔可以俾你個電話號碼我？ / 好呀，010-3322-7788。"}
-{"f":"dialog","id":"ko.g066","k":"tr","src":"Do you have Instagram? / Yes, I'll give you my handle.","tgt":"你有冇玩 IG？ / 有，我話俾你知我個帳號。"}
-{"f":"dialog","id":"ko.g067","k":"tr","src":"Today was lovely. Shall we meet again? / Sure. This time it's on me.","tgt":"今日好開心。我哋再見面好唔好？ / 好呀。今次我請。"}
+{"f":"dialog","id":"ko.g064","k":"tr","src":"Today was so fun. Let's hang again. / Sure, see you next week!","tgt":"今日真係好開心，下次再玩過。 / 好，下個星期見！"}
+{"f":"dialog","id":"ko.g065","k":"tr","src":"Can I get your number? / Sure, 010-3322-7788.","tgt":"俾你個電話號碼我好唔好？ / 好呀，010-3322-7788。"}
+{"f":"dialog","id":"ko.g066","k":"tr","src":"Do you have Instagram? / Yes, I'll give you my handle.","tgt":"你有冇 Instagram？ / 有，我話俾你知我個帳號。"}
+{"f":"dialog","id":"ko.g067","k":"tr","src":"Today was lovely. Shall we meet again? / Sure. This time it's on me.","tgt":"今日好開心。不如我哋再見面？ / 好呀。今次我請。"}
 {"f":"dialog","id":"ko.g068","k":"tr","src":"It's late. I'll walk you home. / It's fine, I can take the subway.","tgt":"好夜喇，我送你返去。 / 唔使喇，我搭地鐵就得。"}
 {"f":"dialog","id":"ko.g069","k":"tr","src":"You look pretty today. / Thanks. I got a haircut.","tgt":"你今日好靚喎。 / 多謝。我剪咗頭髮。"}
-{"f":"dialog","id":"ko.g070","k":"tr","src":"You're here! I missed you. / Me too. Did you wait long?","tgt":"你嚟咗喇？我好掛住你。 / 我都係。等咗好耐？"}
+{"f":"dialog","id":"ko.g070","k":"tr","src":"You're here! I missed you. / Me too. Did you wait long?","tgt":"你嚟咗喇？我好掛住你呀。 / 我都係。等咗好耐？"}
 {"f":"dialog","id":"ko.g071","k":"tr","src":"Did you get home safe? / Yeah, just got in. Thanks for today.","tgt":"安全返到屋企未？ / 返到喇，啱啱到。今日多謝你。"}
 {"f":"dialog","id":"ko.g072","k":"tr","src":"I'm going to sleep. Night! / Okay, sweet dreams.","tgt":"我瞓喇，早唞！ / 好，好夢。"}
 {"f":"dialog","id":"ko.g073","k":"tr","src":"Did you eat? / Not yet. Wanna eat together?","tgt":"食咗飯未？ / 未呀。一齊食好唔好？"}
@@ -1319,7 +1319,7 @@
 {"f":"dialog","id":"ko.g088","k":"tr","src":"You look tired. / Yeah, I couldn't sleep last night.","tgt":"你睇落好攰。 / 係呀，尋晚瞓唔著。"}
 {"f":"dialog","id":"ko.g089","k":"tr","src":"I'm bored. / Then shall we watch a movie?","tgt":"好悶呀。 / 咁不如睇戲？"}
 {"f":"dialog","id":"ko.g090","k":"tr","src":"I won the lottery! / No way! How much?","tgt":"我中咗六合彩！ / 勁呀！幾多錢？"}
-{"f":"dialog","id":"ko.g091","k":"tr","src":"I lost my wallet… / Oh no! Did you check with the police?","tgt":"我唔見咗銀包…… / 點算好！你有冇去警署問下？"}
+{"f":"dialog","id":"ko.g091","k":"tr","src":"I lost my wallet… / Oh no! Did you check with the police?","tgt":"我唔見咗銀包…… / 哎呀，點算好！你有冇去警署問下？"}
 {"f":"dialog","id":"ko.g092","k":"tr","src":"My presentation is tomorrow. / You got this! You can do it.","tgt":"我聽日要匯報。 / 加油！你得㗎。"}
 {"f":"dialog","id":"ko.g093","k":"tr","src":"Please eat plenty. / Thank you, I will!","tgt":"請食多啲。 / 好，我唔客氣喇！"}
 {"f":"dialog","id":"ko.g094","k":"tr","src":"May I have your name? / I'm Kim Minsu.","tgt":"請問點稱呼？ / 我叫 Kim Minsu。"}
@@ -1327,52 +1327,52 @@
 {"f":"dialog","id":"ko.g096","k":"tr","src":"Anyone home? / Yes, come in!","tgt":"請問有冇人喺度？ / 有，請入嚟！"}
 {"f":"dialog","id":"ko.g097","k":"tr","src":"Teacher, have you been well? / Yes, thanks to you. Long time no see.","tgt":"老師，近來好嗎？ / 幾好，托賴。好耐冇見。"}
 {"f":"dialog","id":"ko.g098","k":"tr","src":"Would you mind taking a photo? / Of course. One, two, three!","tgt":"請問可唔可以幫我影張相？ / 好，冇問題。一、二、三！"}
-{"f":"dialog","id":"ko.g099","k":"tr","src":"What are we? / Hmm… I like you. Want to go out?","tgt":"我哋係咩關係？ / 嗯……我鍾意你。我哋一齊好唔好？"}
-{"f":"dialog","id":"ko.g100","k":"tr","src":"Why didn't you text yesterday? / Sorry, my fault. Don't be mad.","tgt":"你尋日點解唔搵我？ / 對唔住，係我唔啱。唔好嬲啦。"}
-{"f":"dialog","id":"ko.g101","k":"tr","src":"How is it being with me? / I feel comfortable. That's the best part.","tgt":"同我一齊覺得點？ / 同你一齊好舒服，呢樣最好。"}
-{"f":"dialog","id":"ko.g102","k":"tr","src":"Can I hold your hand? / Yeah… is it because you're cold?","tgt":"可唔可以拖你手？ / 嗯……係咪因為凍呀？"}
+{"f":"dialog","id":"ko.g099","k":"tr","src":"What are we? / Hmm… I like you. Want to go out?","tgt":"我哋而家係咩關係？ / 嗯……我鍾意你。我哋一齊好唔好？"}
+{"f":"dialog","id":"ko.g100","k":"tr","src":"Why didn't you text yesterday? / Sorry, my fault. Don't be mad.","tgt":"你尋日點解唔搵我？ / 對唔住，係我錯。唔好再嬲啦。"}
+{"f":"dialog","id":"ko.g101","k":"tr","src":"How is it being with me? / I feel comfortable. That's the best part.","tgt":"同我一齊覺得點？ / 同你一齊好自在，呢樣最好。"}
+{"f":"dialog","id":"ko.g102","k":"tr","src":"Can I hold your hand? / Yeah… is it because you're cold?","tgt":"可唔可以拖你隻手？ / 嗯……係咪因為凍呀？"}
 {"f":"dialog","id":"ko.g103","k":"tr","src":"It's our 100th day today! / Really? Happy 100 days. I got you something.","tgt":"今日係我哋一百日！ / 真㗎？一百日快樂。我準備咗禮物。"}
 {"f":"dialog","id":"ko.g104","k":"tr","src":"I have something to tell you. / What is it? Is something wrong?","tgt":"我有啲嘢想同你講。 / 咩嘢？出咗咩事？"}
-{"f":"dialog","id":"ko.g105","k":"tr","src":"What time is the meeting? / Two. Meeting room B.","tgt":"開會幾點？ / 兩點，喺 B 會議室。"}
-{"f":"dialog","id":"ko.g106","k":"tr","src":"When is the deadline? / Friday, 6 PM.","tgt":"截止日期係幾時？ / 星期五下晝六點。"}
-{"f":"dialog","id":"ko.g107","k":"tr","src":"Manager, do you have a moment? / Yes, come in.","tgt":"經理，請問而家得唔得閒？ / 得，入嚟啦。"}
+{"f":"dialog","id":"ko.g105","k":"tr","src":"What time is the meeting? / Two. Meeting room B.","tgt":"幾點開會？ / 兩點，喺 B 會議室。"}
+{"f":"dialog","id":"ko.g106","k":"tr","src":"When is the deadline? / Friday, 6 PM.","tgt":"死線係幾時？ / 星期五下晝六點。"}
+{"f":"dialog","id":"ko.g107","k":"tr","src":"Manager, do you have a moment? / Yes, come in.","tgt":"經理，請問而家得唔得閒？ / 得，請入嚟。"}
 {"f":"dialog","id":"ko.g108","k":"tr","src":"I'll head out first. / Okay, good work today.","tgt":"我走先喇。 / 好，辛苦晒。"}
 {"f":"dialog","id":"ko.g109","k":"tr","src":"There's a team dinner today. / What time and where?","tgt":"今日有公司飯局。 / 幾點？喺邊？"}
-{"f":"dialog","id":"ko.g110","k":"tr","src":"What should we have for lunch? / How about kimchi stew?","tgt":"今日食晏食咩好？ / 泡菜鍋點？"}
+{"f":"dialog","id":"ko.g110","k":"tr","src":"What should we have for lunch? / How about kimchi stew?","tgt":"午餐食咩好？ / 泡菜鍋點？"}
 {"f":"dialog","id":"ko.g111","k":"tr","src":"Ugh, I'm bored. What should I do? / Come out. Let's get chicken.","tgt":"唉，好悶。做咩好？ / 出嚟啦，食炸雞。"}
 {"f":"dialog","id":"ko.g112","k":"tr","src":"I'm so tired today. / Sleep early. See you tomorrow.","tgt":"今日好攰。 / 早啲瞓啦，聽日見。"}
 {"f":"dialog","id":"ko.g113","k":"tr","src":"Where are you? / On my way. 10 minutes!","tgt":"你喺邊？ / 我而家嚟緊，10 分鐘！"}
 {"f":"dialog","id":"ko.g114","k":"tr","src":"What's with him? / Dunno. I'm curious too.","tgt":"佢搞咩呀？ / 唔知，我都想知。"}
 {"f":"dialog","id":"ko.g115","k":"tr","src":"I saved us seats. / You really are the best.","tgt":"我霸咗位喇。 / 果然你最掂。"}
-{"f":"dialog","id":"ko.g116","k":"tr","src":"Karaoke tonight? / Let's go! My treat.","tgt":"今晚去唱 K 好唔好？ / 去！我請。"}
+{"f":"dialog","id":"ko.g116","k":"tr","src":"Karaoke tonight? / Let's go! My treat.","tgt":"今晚去唱 K 好唔好？ / 去啦！我請。"}
 {"f":"dialog","id":"ko.g117","k":"tr","src":"I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.","tgt":"我覺得我匯報會搞砸。 / 唔使擔心，照練習咁做就得。"}
 {"f":"dialog","id":"ko.g118","k":"tr","src":"Finally done. / Nice work. A beer?","tgt":"終於搞掂。 / 辛苦晒。飲杯啤酒？"}
 {"f":"dialog","id":"ko.g119","k":"tr","src":"How's this? Just bought it. / Cute. It suits you.","tgt":"呢件點？啱啱買。 / 好得意，好襯你。"}
 {"f":"dialog","id":"ko.g120","k":"tr","src":"I miss you. / Me too. Let's meet this weekend.","tgt":"我掛住你。 / 我都係，週末見啦。"}
 {"f":"dialog","id":"ko.g121","k":"tr","src":"I like you. / …Me too. You should've said sooner.","tgt":"我鍾意你。 / ……我都係。點解唔早啲講。"}
 {"f":"dialog","id":"ko.g122","k":"tr","src":"Babe, what are you doing? / Thinking about you, obviously.","tgt":"BB，做緊咩？ / 梗係諗緊你啦。"}
-{"f":"dialog","id":"ko.g123","k":"tr","src":"I'm heading out now. / Get home safe. Text me when you arrive.","tgt":"我而家走喇。 / 小心行。到咗話我知。"}
+{"f":"dialog","id":"ko.g123","k":"tr","src":"I'm heading out now. / Get home safe. Text me when you arrive.","tgt":"我而家走喇。 / 小心行呀。到咗話我知。"}
 {"f":"dialog","id":"ko.g124","k":"tr","src":"Sleepy. Going to bed. / Okay, sweet dreams.","tgt":"好眼瞓，我瞓喇。 / 好，好夢。"}
 {"f":"dialog","id":"ko.g125","k":"tr","src":"Why are you smiling like that? / Your smile just now made my heart skip.","tgt":"你做咩笑成咁？ / 頭先見到你笑，我心跳漏咗一拍。"}
 {"f":"dialog","id":"ko.g126","k":"tr","src":"Why'd you text? / No reason. I keep thinking about you.","tgt":"做咩搵我？ / 冇呀，成日諗起你。"}
 {"f":"dialog","id":"ko.g127","k":"tr","src":"You said you had something to say? / I think I like you.","tgt":"你話有嘢同我講？ / 我好似鍾意咗你。"}
-{"f":"dialog","id":"ko.g128","k":"tr","src":"What are we? / Let's date.","tgt":"我哋係咩關係？ / 同我拍拖啦。"}
+{"f":"dialog","id":"ko.g128","k":"tr","src":"What are we? / Let's date.","tgt":"我哋而家係咩關係？ / 我哋拍拖啦。"}
 {"f":"dialog","id":"ko.g129","k":"tr","src":"I passed! / Really? Congrats!","tgt":"我合格咗！ / 真㗎？恭喜！"}
 {"f":"dialog","id":"ko.g130","k":"tr","src":"I'll go first. / Don't go. Stay a little longer.","tgt":"我走先喇。 / 唔好走，留多陣啦。"}
 {"f":"dialog","id":"ko.g131","k":"tr","src":"Long time no see. / I missed you. Been well?","tgt":"好耐冇見。 / 我好掛住你。你最近點？"}
-{"f":"dialog","id":"ko.g132","k":"tr","src":"Who's your bias? / The main vocalist.","tgt":"你嘅本命係邊個？ / 我係主唱。"}
+{"f":"dialog","id":"ko.g132","k":"tr","src":"Who's your bias? / The main vocalist.","tgt":"你嘅本命係邊個？ / 我嘅本命係主唱。"}
 {"f":"dialog","id":"ko.g133","k":"tr","src":"What are you listening to lately? / I became a fan of this group. Their stage is amazing.","tgt":"最近聽緊咩？ / 我入咗呢隊組合嘅坑，佢哋嘅舞台真係好勁。"}
-{"f":"dialog","id":"ko.g134","k":"tr","src":"What are you doing this weekend? / Going to a concert! I even bought a light stick.","tgt":"週末做咩呀？ / 去睇演唱會！我仲買埋應援棒。"}
-{"f":"dialog","id":"ko.g135","k":"tr","src":"I'm a fan! Please sign this. / Sure, thanks. What's your name?","tgt":"我係你嘅粉絲！唔該幫我簽個名。 / 好，多謝。你叫咩名？"}
+{"f":"dialog","id":"ko.g134","k":"tr","src":"What are you doing this weekend? / Going to a concert! I even bought a light stick.","tgt":"你週末做咩？ / 我去聽演唱會！仲買埋應援棒。"}
+{"f":"dialog","id":"ko.g135","k":"tr","src":"I'm a fan! Please sign this. / Sure, thanks. What's your name?","tgt":"我係粉絲！唔該幫我簽名。 / 好，多謝。你叫咩名？"}
 {"f":"dialog","id":"ko.g136","k":"tr","src":"They're making a comeback this month. / Really? Did you see the teaser?","tgt":"聽講佢哋今個月回歸。 / 真㗎？睇咗預告未？"}
 {"f":"dialog","id":"ko.g137","k":"tr","src":"How was the concert? / Got goosebumps during the singalong.","tgt":"演唱會點呀？ / 大合唱嗰陣我起晒雞皮。"}
-{"f":"dialog","id":"ko.g138","k":"tr","src":"Are you on Instagram? / Yes, I just followed you.","tgt":"你有冇玩 IG？ / 有，啱啱追蹤咗你。"}
+{"f":"dialog","id":"ko.g138","k":"tr","src":"Are you on Instagram? / Yes, I just followed you.","tgt":"你有冇玩 Instagram？ / 有，啱啱追蹤咗你。"}
 {"f":"dialog","id":"ko.g139","k":"tr","src":"Posted a photo. Hit like for me. / Already did.","tgt":"我出咗張相，幫我撳個讚。 / 早就撳咗。"}
 {"f":"dialog","id":"ko.g140","k":"tr","src":"Why did nobody laugh at my joke earlier? / It killed the mood…","tgt":"頭先點解冇人笑我個笑話？ / 一講完即刻冷場……"}
 {"f":"dialog","id":"ko.g141","k":"tr","src":"How's the tteokbokki here? / Insanely good. I'm coming back.","tgt":"呢度啲辣炒年糕點？ / 好食到癲。我會再嚟。"}
 {"f":"dialog","id":"ko.g142","k":"tr","src":"This song is addictive. / For real, been listening all day.","tgt":"呢首歌好上癮。 / 認真，我成日都喺度聽。"}
 {"f":"dialog","id":"ko.g143","k":"tr","src":"What should I wear today? / Go effortless. Jeans and a white tee.","tgt":"今日着咩好？ / 行簡約隨意風啦，牛仔褲配白色 T 恤。"}
-{"f":"dialog","id":"ko.g144","k":"tr","src":"What are you doing this weekend? / Having a meal with family.","tgt":"週末做咩呀？ / 同屋企人食飯。"}
+{"f":"dialog","id":"ko.g144","k":"tr","src":"What are you doing this weekend? / Having a meal with family.","tgt":"你週末做咩？ / 同屋企人食飯。"}
 {"f":"dialog","id":"ko.g145","k":"tr","src":"Who did you come with? / With a friend.","tgt":"你同邊個嚟？ / 同朋友嚟。"}
 {"f":"dialog","id":"ko.g146","k":"tr","src":"Who's that? / That's my older brother.","tgt":"嗰個人係邊個？ / 係我阿哥。"}
 {"f":"dialog","id":"ko.g147","k":"tr","src":"Unni, how's this? / It suits you. Buy it.","tgt":"家姐，呢件點呀？ / 好襯你，買啦。"}
@@ -1393,7 +1393,7 @@
 {"f":"dialog","id":"ko.g162","k":"tr","src":"They say there's no team dinner today. / Yes! I'm going home early.","tgt":"聽講今日冇公司飯局。 / 好嘢！今日早啲返屋企。"}
 {"f":"dialog","id":"ko.g163","k":"tr","src":"It's already eleven. / Yikes, I have to hurry!","tgt":"已經十一點喇。 / 吓！要快啲走喇！"}
 {"f":"dialog","id":"ko.g164","k":"tr","src":"Oops, I spilled the coffee! / It's fine, I'll wipe it up.","tgt":"哎！我倒瀉咗啲咖啡！ / 冇事，我嚟抹。"}
-{"f":"dialog","id":"ko.g165","k":"tr","src":"Did you bring an umbrella? / Oh no, I left it at home.","tgt":"你有冇帶遮？ / 弊，唔記得咗喺屋企。"}
+{"f":"dialog","id":"ko.g165","k":"tr","src":"Did you bring an umbrella? / Oh no, I left it at home.","tgt":"你有冇帶遮？ / 弊，留咗喺屋企。"}
 {"f":"dialog","id":"ko.g166","k":"tr","src":"Is your exam over? / Yes, phew, now I need some rest.","tgt":"考完試未？ / 考完喇，呼，而家要好好休息下。"}
 {"f":"dialog","id":"ko.g167","k":"tr","src":"Overtime again today? / Sigh, yes. There's too much work.","tgt":"今日又要加班？ / 唉，係呀。啲嘢多到做唔完。"}
 {"f":"dialog","id":"ko.g168","k":"tr","src":"Shh, the baby is sleeping. / Oh, sorry. I'll be quiet.","tgt":"噓，BB 瞓緊。 / 啊，對唔住。我會靜啲。"}

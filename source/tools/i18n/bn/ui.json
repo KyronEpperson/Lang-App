@@ -361,7 +361,7 @@
    "where": "html <button> text"
   },
   "Listen 🔊→en": {
-   "t": "শোনা 🔊→bn",
+   "t": "শোনা 🔊→বাংলা",
    "ko": "듣기 🔊→한",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -381,7 +381,7 @@
    "where": "html <button> text"
   },
   "Weak spots": {
-   "t": "দুর্বল জায়গা",
+   "t": "দুর্বল দিক",
    "ko": "약점 공략",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -549,7 +549,7 @@
    "where": "html <h3> text"
   },
   "Intervals adapt to your retention (±) ·": {
-   "t": "আপনার মনে রাখার হার অনুযায়ী বিরতি বদলায় (±) ·",
+   "t": "আপনার মনে রাখার হার অনুযায়ী ব্যবধান বদলায় (±) ·",
    "ko": "복습 간격은 기억률에 맞춰 조정돼요 (±) ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -763,14 +763,14 @@
    "where": "html <button> text"
   },
   "Accent": {
-   "t": "রঙ",
+   "t": "রং",
    "ko": "강조 색상",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <span> text"
   },
   "Text size": {
-   "t": "ফন্ট",
+   "t": "লেখার আকার",
    "ko": "글자 크기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2136,7 +2136,7 @@
    "where": "js STR()"
   },
   "Done ▴": {
-   "t": "হয়েছে ▴",
+   "t": "শেষ ▴",
    "ko": "완료 ▴",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2567,7 +2567,7 @@
    "where": "js a()"
   },
   "Done": {
-   "t": "হয়েছে",
+   "t": "শেষ",
    "ko": "완료",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2599,7 +2599,7 @@
    "where": "js pass()"
   },
   "Mix": {
-   "t": "মিশেল",
+   "t": "মিক্স",
    "ko": "섞어서",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3284,7 +3284,7 @@
    "where": "js TOUR()"
   },
   "Learn 5 cards at a time, quiz them, then 5 more. Tests, weak spots, blitz and exams live here too.": {
-   "t": "একবারে 5টি কার্ড শিখুন, কুইজ দিন, তারপর আরও 5টি। টেস্ট, দুর্বল জায়গা, ঝটপট কুইজ আর পরীক্ষাও এখানে।",
+   "t": "একবারে 5টি কার্ড শিখুন, কুইজ দিন, তারপর আরও 5টি। টেস্ট, দুর্বল দিক, ঝটপট কুইজ আর পরীক্ষাও এখানে।",
    "ko": "카드를 5장씩 배우고 퀴즈로 확인한 뒤 또 5장. 테스트, 약점 공략, 스피드 퀴즈, 시험도 여기 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3342,7 +3342,7 @@
    "where": "js (top level)"
   },
   "Search cards, lessons, grammar, modes…": {
-   "t": "কার্ড, পাঠ, গ্রামার, মোড খুঁজুন…",
+   "t": "কার্ড, পাঠ, ব্যাকরণ, মোড খুঁজুন…",
    "ko": "카드, 레슨, 문법, 모드 검색…",
    "kind": "sentence",
    "where": "js sh() <input> @placeholder"
@@ -3360,7 +3360,7 @@
    "where": "js sh() <p>"
   },
   "Grammar": {
-   "t": "গ্রামার",
+   "t": "ব্যাকরণ",
    "ko": "문법",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3386,7 +3386,7 @@
    "where": "js at()"
   },
   "Grammar index": {
-   "t": "গ্রামারের সূচি",
+   "t": "ব্যাকরণের সূচি",
    "ko": "문법 색인",
    "kind": "label",
    "where": "js STR()"
@@ -3767,7 +3767,7 @@
    "where": "js el() <p>"
   },
   "Retention when a card comes back from each box. Higher boxes should stay high; a dip means the interval there is too long for you.": {
-   "t": "প্রতিটি বক্স থেকে কার্ড ফিরে এলে মনে রাখার হার। উঁচু বক্সে হার বেশি থাকার কথা; কমে গেলে বুঝবেন ওই বক্সের বিরতি আপনার জন্য বেশি লম্বা।",
+   "t": "প্রতিটি বক্স থেকে কার্ড ফিরে এলে মনে রাখার হার। উঁচু বক্সে হার বেশি থাকার কথা; কমে গেলে বুঝবেন ওই বক্সের ব্যবধান আপনার জন্য বেশি লম্বা।",
    "ko": "각 상자에서 카드가 돌아왔을 때의 기억률이에요. 높은 상자일수록 높게 유지돼야 하고, 떨어진다면 그 상자의 간격이 나에게 너무 길다는 뜻이에요.",
    "kind": "sentence",
    "where": "js overall() <p>"
@@ -3842,7 +3842,7 @@
    "where": "js obj()"
   },
   "Intervals reset.": {
-   "t": "বিরতি রিসেট হয়েছে।",
+   "t": "ব্যবধান রিসেট হয়েছে।",
    "ko": "복습 간격을 초기화했어요.",
    "kind": "sentence",
    "where": "js applyZoom()"
@@ -3929,28 +3929,28 @@
    "where": "js file()"
   },
   "Accent red": {
-   "t": "লাল রঙ",
+   "t": "লাল রং",
    "ko": "강조 색상: 빨강",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent green": {
-   "t": "সবুজ রঙ",
+   "t": "সবুজ রং",
    "ko": "강조 색상: 초록",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent blue": {
-   "t": "নীল রঙ",
+   "t": "নীল রং",
    "ko": "강조 색상: 파랑",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent plum": {
-   "t": "বেগুনি রঙ",
+   "t": "বেগুনি রং",
    "ko": "강조 색상: 자주",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4722,7 +4722,7 @@
    ]
   },
   "Not quite.": {
-   "t": "হয়নি, আবার দেখুন।",
+   "t": "পুরোপুরি হয়নি।",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner feedback",
@@ -4802,7 +4802,7 @@
    ]
   },
   "Write it": {
-   "t": "বাক্যটি ইংরেজিতে লিখুন",
+   "t": "ইংরেজিতে লিখুন",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -5398,7 +5398,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} cards due": {
-   "t": "{1}টি কার্ড রিভিশনের জন্য",
+   "t": "{1}টি কার্ডের রিভিশন বাকি",
    "ko": "복습할 카드 {1}장",
    "slots": "{1}=n",
    "example": "5 cards due",
@@ -5723,62 +5723,62 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Weak spots · {n}": {
-   "t": "দুর্বল জায়গা · {1}",
+   "t": "দুর্বল দিক · {1}",
    "ko": "약점 공략 · {1}",
    "slots": "{1}=n",
    "example": "Weak spots · 5"
   },
   "Weak spots · {n} cards": {
-   "t": "দুর্বল জায়গা · {1}টি কার্ড",
+   "t": "দুর্বল দিক · {1}টি কার্ড",
    "ko": "약점 공략 · 카드 {1}장",
    "slots": "{1}=n",
    "example": "Weak spots · 5 cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Weak spots · {n} cards · passed": {
-   "t": "দুর্বল জায়গা · {1}টি কার্ড · পাস",
+   "t": "দুর্বল দিক · {1}টি কার্ড · পাস",
    "ko": "약점 공략 · 카드 {1}장 · 통과",
    "slots": "{1}=n",
    "example": "Weak spots · 5 cards · passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Weak spots · {n} cards · 80% to pass": {
-   "t": "দুর্বল জায়গা · {1}টি কার্ড · পাস করতে 80%",
+   "t": "দুর্বল দিক · {1}টি কার্ড · পাস করতে 80%",
    "ko": "약점 공략 · 카드 {1}장 · 80% 이상이면 통과",
    "slots": "{1}=n",
    "example": "Weak spots · 5 cards · 80% to pass",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Mix · {n} cards": {
-   "t": "মিশেল · {1}টি কার্ড",
+   "t": "মিক্স · {1}টি কার্ড",
    "ko": "섞어서 · 카드 {1}장",
    "slots": "{1}=n",
    "example": "Mix · 5 cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Mix · {n} cards · passed": {
-   "t": "মিশেল · {1}টি কার্ড · পাস",
+   "t": "মিক্স · {1}টি কার্ড · পাস",
    "ko": "섞어서 · 카드 {1}장 · 통과",
    "slots": "{1}=n",
    "example": "Mix · 5 cards · passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Mix · {n} cards · 80% to pass": {
-   "t": "মিশেল · {1}টি কার্ড · পাস করতে 80%",
+   "t": "মিক্স · {1}টি কার্ড · পাস করতে 80%",
    "ko": "섞어서 · 카드 {1}장 · 80% 이상이면 통과",
    "slots": "{1}=n",
    "example": "Mix · 5 cards · 80% to pass",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New 5 added · now {n} cards in the mix": {
-   "t": "নতুন 5টি যোগ হয়েছে · মিশেলে এখন {1}টি কার্ড",
+   "t": "নতুন 5টি যোগ হয়েছে · মিক্সে এখন {1}টি কার্ড",
    "ko": "새 카드 5장 추가 · 이제 {1}장을 섞어서 풀어요",
    "slots": "{1}=n",
    "example": "New 5 added · now 5 cards in the mix",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New 5 added · now {n} cards in the mix · passed": {
-   "t": "নতুন 5টি যোগ হয়েছে · মিশেলে এখন {1}টি কার্ড · পাস",
+   "t": "নতুন 5টি যোগ হয়েছে · মিক্সে এখন {1}টি কার্ড · পাস",
    "ko": "새 카드 5장 추가 · 이제 {1}장을 섞어서 풀어요 · 통과",
    "slots": "{1}=n",
    "example": "New 5 added · now 5 cards in the mix · passed",
@@ -5827,7 +5827,7 @@
    "example": "Exam re-drill · 80% to pass"
   },
   "Quiz the whole mix ({n})": {
-   "t": "পুরো মিশেলের কুইজ ({1})",
+   "t": "পুরো মিক্সের কুইজ ({1})",
    "ko": "섞인 카드 전부 퀴즈 ({1})",
    "slots": "{1}=n",
    "example": "Quiz the whole mix (5)"
@@ -5845,13 +5845,13 @@
    "example": "New 5 · 5/2 · pass 3/3 · read"
   },
   "Mix · {n}/{n} · pass {n}/3 · read": {
-   "t": "মিশেল · {1}/{2} · দফা {3}/3 · পড়া",
+   "t": "মিক্স · {1}/{2} · দফা {3}/3 · পড়া",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · read"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · read": {
-   "t": "দুর্বল জায়গা · {1}/{2} · দফা {3}/3 · পড়া",
+   "t": "দুর্বল দিক · {1}/{2} · দফা {3}/3 · পড়া",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · read"
@@ -5900,13 +5900,13 @@
    "example": "New 5 · 5/2 · pass 3/3 · recall"
   },
   "Mix · {n}/{n} · pass {n}/3 · recall": {
-   "t": "মিশেল · {1}/{2} · দফা {3}/3 · মনে করা",
+   "t": "মিক্স · {1}/{2} · দফা {3}/3 · মনে করা",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · recall"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · recall": {
-   "t": "দুর্বল জায়গা · {1}/{2} · দফা {3}/3 · মনে করা",
+   "t": "দুর্বল দিক · {1}/{2} · দফা {3}/3 · মনে করা",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · recall"
@@ -5955,13 +5955,13 @@
    "example": "New 5 · 5/2 · pass 3/3 · listen"
   },
   "Mix · {n}/{n} · pass {n}/3 · listen": {
-   "t": "মিশেল · {1}/{2} · দফা {3}/3 · শোনা",
+   "t": "মিক্স · {1}/{2} · দফা {3}/3 · শোনা",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · listen"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · listen": {
-   "t": "দুর্বল জায়গা · {1}/{2} · দফা {3}/3 · শোনা",
+   "t": "দুর্বল দিক · {1}/{2} · দফা {3}/3 · শোনা",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · listen"
@@ -6010,13 +6010,13 @@
    "example": "New 5 · 5/2 · pass 3/3 · type"
   },
   "Mix · {n}/{n} · pass {n}/3 · type": {
-   "t": "মিশেল · {1}/{2} · দফা {3}/3 · লেখা",
+   "t": "মিক্স · {1}/{2} · দফা {3}/3 · লেখা",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · type"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · type": {
-   "t": "দুর্বল জায়গা · {1}/{2} · দফা {3}/3 · লেখা",
+   "t": "দুর্বল দিক · {1}/{2} · দফা {3}/3 · লেখা",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · type"
@@ -6065,13 +6065,13 @@
    "example": "New 5 · 5/2 · pass 3/3 · mixed"
   },
   "Mix · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "মিশেল · {1}/{2} · দফা {3}/3 · মিশ্র",
+   "t": "মিক্স · {1}/{2} · দফা {3}/3 · মিশ্র",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · mixed"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "দুর্বল জায়গা · {1}/{2} · দফা {3}/3 · মিশ্র",
+   "t": "দুর্বল দিক · {1}/{2} · দফা {3}/3 · মিশ্র",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · mixed"
@@ -6540,7 +6540,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "📚 Grammar index · {n} patterns": {
-   "t": "📚 গ্রামারের সূচি · {1}টি প্যাটার্ন",
+   "t": "📚 ব্যাকরণের সূচি · {1}টি প্যাটার্ন",
    "ko": "📚 문법 색인 · 패턴 {1}개",
    "slots": "{1}=n",
    "example": "📚 Grammar index · 5 patterns",
@@ -6670,7 +6670,7 @@
    "example": "Hello there · 6 = mastered"
   },
   "{n} predictions · when you said \"yes\" you were right {n}% of the time ({n}/{n}) · when \"not sure\", you still got {n}% ({n}/{n}) · {n} overconfident cards go first in Weak spots": {
-   "t": "{1}টি অনুমান · \"হ্যাঁ\" বললে {2}% বার ঠিক ছিলেন ({3}/{4}) · \"নিশ্চিত নই\" বলেও {5}% পেরেছেন ({6}/{7}) · বেশি আত্মবিশ্বাসে ভুল হওয়া {8}টি কার্ড \"দুর্বল জায়গা\"-য় আগে আসবে",
+   "t": "{1}টি অনুমান · \"হ্যাঁ\" বললে {2}% বার ঠিক ছিলেন ({3}/{4}) · \"নিশ্চিত নই\" বলেও {5}% পেরেছেন ({6}/{7}) · বেশি আত্মবিশ্বাসে ভুল হওয়া {8}টি কার্ড \"দুর্বল দিক\"-য় আগে আসবে",
    "ko": "예측 {1}번 · \"네\"라고 했을 때 {2}% 맞혔어요 ({3}/{4}) · \"잘 모르겠어요\"라고 했을 때도 {5}% 맞혔어요 ({6}/{7}) · 과신한 카드 {8}장은 약점 공략에 먼저 나와요",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n, {6}=n, {7}=n, {8}=n",
    "example": "5 predictions · when you said \"yes\" you were right 2% of the time (3/4) · when \"not sure\", you still got 6% (7/8) · 9 overconfident cards go first in Weak spots",
@@ -6866,7 +6866,7 @@
    "example": "5/2 · Hello there"
   },
   "Accent {x}": {
-   "t": "রঙ: {1}",
+   "t": "রং: {1}",
    "ko": "강조 색상: {1}",
    "slots": "{1}=x",
    "example": "Accent Hello there"

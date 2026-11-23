@@ -62,12 +62,12 @@ Real Cebuano is used for ordinary words, for example:
 | Lessons | **Leksyon** | 7 | Lecciones |
 | Practice | **Praktis** | 7 | Práctica |
 | Review | **Review** | 6 | Repaso |
-| Progress | **Uswag** | 5 | Progreso |
+| Progress | **Pag-uswag** | 9 (over the 8 cap; see below) | Progreso |
 | Read (advanced, script courses) | Basa | 4 | Leer |
 | Drills (same tab in courses without a script, e.g. ceb-en) | **Drill** | 5 | |
 | Feedback | Feedback | 8 | Opinión |
 
-In-text references use the same names, for example *Uswag → Backup → I-share ang file*. Changed 2026-11-23 for the 8-character cap of the seven-label bar (`docs/profiles/ceb.md` §10): the tab was *Pag-uswag* (9) and *Mga drill* (9). The noun in sentences is still *pag-uswag* (*ang imong pag-uswag*, *Pag-uswag sa Koreano*); only strings that name the tab say *Uswag*.
+In-text references use the same names, for example *Pag-uswag → Backup → I-share ang file*. On 2026-11-23 only *Mga drill* (9) → **Drill** (5) was shortened for the 8-character cap of the seven-label bar (`docs/profiles/ceb.md` §10). *Pag-uswag* (9) is still over the cap: the proposed *Uswag* (5) was not applied, because the live ceb-ko lesson prose names the tab *Pag-uswag*; the rename belongs to the main build, in one pass with that prose.
 
 ## 4. 30 strings to check first (for the Bisaya-speaking friend)
 
@@ -152,12 +152,12 @@ The Intl result was observed in Node (full ICU): `new Intl.DisplayNames(['ceb'],
 
 ## 6. Second course: ceb-en (added 2026-11-23)
 
-**Changed in `ui.json` (16 keys, none Korean-specific, so ceb-ko shows them too):**
-- `Progress` (tab) *Pag-uswag* → **Uswag**, and the 10 strings that name that tab: the two Privacy paths (`: Progress → Backup → …`, `: Progress → Account → …`), `You can add an email later in Progress.`, `Saved in this browser only. …`, `Suspended. Restore it from Progress.`, `🩹 Marked as a leech … Manage it in Progress.`, `Settings · Progress`, `This device only — … Add an email later in Progress.`, and the patterns `Progress · quick actions`, `{n}/{n} · Progress`.
+**Changed in `ui.json` (2 keys, none Korean-specific, so ceb-ko shows them too):**
+- `Progress` (tab) is **unchanged**: still *Pag-uswag* (9 characters, over the 8 cap). The rename to *Uswag* and the 10 strings that name the tab (the two Privacy paths, `You can add an email later in Progress.`, `Saved in this browser only. …`, `Suspended. Restore it from Progress.`, `🩹 Marked as a leech … Manage it in Progress.`, `Settings · Progress`, `This device only — … Add an email later in Progress.`, `Progress · quick actions`, `{n}/{n} · Progress`) were proposed but not applied (see the lead note below).
 - `Drills` (the label of the Read tab in courses without a script) *Mga drill* → **Drill**. `{n}/{n} · Mga drill` and the canvas `MGA DRILL` are unchanged.
 - `Text size` *Gidak-on sa letra* (17) → **Letra** (5); it sits beside the A− / A+ buttons.
 
-**Left literal for Korean (per-course override needed for ceb-en; put the English wording in the ceb-en course's `COURSE.UI`).** Suggested ceb-en wording after each key:
+**Left literal for Korean in this pack; ceb-en overrides them.** The override file `tools/content/ceb/ui.json` (27 keys, the wording in the right-hand column below plus `Aa romanization: on / off` → *Aa paglitok: on / off*) is emitted by `gen.js` as the ceb-en `UI`; its values were checked against the house spelling on 2026-11-23 (no change needed).
 
 | Key | In the pack (ceb-ko) | Suggested for ceb-en |
 |---|---|---|
@@ -191,8 +191,8 @@ Mixed Hangul keys that keep their Korean text and would look wrong in ceb-en if 
 
 **Roadmap.** The 39 strings first used by the `en` roadmap are filled with the ceb.md §3 terms (*simple present tense, present progressive, past form, be verb, article, plural*). `road.py check ceb` cannot run: the script only accepts 2-letter codes (§5 item 1), and 1,743 strings of the other 61 roadmaps are still empty by design (English fallback).
 
-**For the ceb-ko prose:** lesson text in `tools/halves/native/ceb/ko/` that names the tab *Pag-uswag* should now say *Uswag*.
+**For the ceb-ko prose:** lesson text in `tools/halves/native/ceb/ko/` names the tab *Pag-uswag*, which is what the pack shows; change both together if the tab is ever renamed *Uswag*.
 
 ## Lead note (ceb-en build, 2026-11-23)
 
-The «Pag-uswag» → «Uswag» tab rename proposed in the ceb-en profile was NOT applied: the live Cebuano → Korean lesson prose names the tab «Pag-uswag», so the rename belongs to the main build, in one pass with that prose. Where this file says the tab is «Uswag», read «Pag-uswag» until then.
+The «Pag-uswag» → «Uswag» tab rename proposed in the ceb-en profile was NOT applied: the live Cebuano → Korean lesson prose names the tab «Pag-uswag», so the rename belongs to the main build, in one pass with that prose. §3 and §6 above were corrected on 2026-11-23 to match ui.json.

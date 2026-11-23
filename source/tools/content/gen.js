@@ -87,7 +87,14 @@ out += '  GOALS: ' + objLines(GOALS, J) + ',\n';
 out += '  PLAN_PRESETS: ' + objLines(PLAN_PRESETS, J) + ',\n';
 out += '  TITLES: ' + J(TITLES) + ',\n';
 out += '  PAUSE: {\n    sets: ' + objLines(PAUSE.sets, v => '[' + J(v[0]) + ', [\n' + v[1].map(x => '      ' + J(x)).join(',\n') + '\n    ]]').replace(/\n/g, '\n  ') + ',\n';
-out += '    idioms: [\n' + IDIOMS.map(x => '      ' + J(x)).join(',\n') + '\n    ]\n  }\n';
+out += '    idioms: [\n' + IDIOMS.map(x => '      ' + J(x)).join(',\n') + '\n    ]\n  }' ;
+/* optional per-course interface overrides (tools/content/<lang>/ui.json): the interface dictionary of a language that also has a
+   Korean course is worded for Korean ("Type the Korean", Hangul), so its English course carries its own wording for those keys. */
+{ const uiPath = path.join(SRC, 'ui.json');
+  if (fs.existsSync(uiPath)) { const UI = JSON.parse(fs.readFileSync(uiPath, 'utf8'));
+    for (const [k, v] of Object.entries(UI)) if (typeof v !== 'string' || !v.trim()) throw new Error('ui.json: empty value for ' + k);
+    out += ',\n  UI: ' + objLines(UI, J); } }
+out += '\n';
 out += '};\n';
 fs.writeFileSync(OUT, out);
 console.log('wrote', OUT, out.length, 'bytes');

@@ -52,22 +52,22 @@ Author: not a native speaker. Everything here needs a Bengali speaker's check (�
 | daily goal | দৈনিক লক্ষ্য | toast «আজকের লক্ষ্য পূরণ হয়েছে» |
 | daily cap | দৈনিক সীমা | |
 | box (SRS) | বক্স | |
-| interval | বিরতি | |
+| interval | ব্যবধান | pre-merge review 2026-11-23 (was বিরতি) |
 | retention | মনে রাখার হার | |
 | new / learning / learned / mastered | নতুন / শিখছি / শেখা হয়েছে / আয়ত্ত | caption "cards learned" = «শেখা কার্ড» |
 | Got it / Again | পেরেছি / আবার | SRS buttons; «বুঝেছি — কুইজ দিন» for "Got it — quiz me" |
-| Check / Skip / Next / Done / Finish | যাচাই করুন / বাদ দিন / পরের / হয়েছে / শেষ করুন | |
-| Correct! / Not quite. | সঠিক! / হয়নি, আবার দেখুন। | profile §10 |
+| Check / Skip / Next / Done / Finish | যাচাই করুন / বাদ দিন / পরের / শেষ / শেষ করুন | |
+| Correct! / Not quite. | সঠিক! / পুরোপুরি হয়নি। | profile §10 |
 | hint / answer / explanation (`Why:`) | ইঙ্গিত / উত্তর / ব্যাখ্যা | |
 | passed / to pass | পাস / পাস করতে 80% | |
 | missed | ভুল হওয়া | |
-| weak spots | দুর্বল জায়গা | |
+| weak spots | দুর্বল দিক | pre-merge review 2026-11-23 (was দুর্বল জায়গা) |
 | hardest cards | সবচেয়ে কঠিন কার্ড | |
 | leech | বারবার ভুল হওয়া কার্ড (short: বারবার ভুল) | no animal metaphor |
 | suspend / restore | স্থগিত করুন / ফিরিয়ে আনুন | |
 | bury | কাল দেখব / কাল পর্যন্ত বাদ দিন | |
 | flip / shuffle / browse | উল্টান / এলোমেলো করুন / ঘুরে দেখুন | |
-| Mix (5-at-a-time pool) / Mixed (quiz mode) | মিশেল / মিশ্র | |
+| Mix (5-at-a-time pool) / Mixed (quiz mode) | মিক্স / মিশ্র | pre-merge review 2026-11-23 (was মিশেল) |
 | read / recall / listen / type (modes) | পড়া / মনে করা / শোনা / লেখা | button form of type: «লিখুন» |
 | pass 2/3 (learning pass) | দফা 2/3 | |
 | round | রাউন্ড | |
@@ -76,7 +76,7 @@ Author: not a native speaker. Everything here needs a Bengali speaker's check (�
 | pronunciation hint, romanization | উচ্চারণ | toggle «উচ্চারণ দেখান / লুকান» |
 | polite ↔ casual | ভদ্র ↔ ঘরোয়া | |
 | role-play / shadow | রোল-প্লে / শুনে শুনে বলুন | |
-| grammar / pattern / grammar index | গ্রামার / প্যাটার্ন / গ্রামারের সূচি | |
+| grammar / pattern / grammar index | ব্যাকরণ / প্যাটার্ন / ব্যাকরণের সূচি | pre-merge review 2026-11-23 (was গ্রামার) |
 | verb / noun / question word / idiom | ক্রিয়া / বিশেষ্য / প্রশ্নবোধক শব্দ / বাগধারা | profile §3 |
 | progress | অগ্রগতি | |
 | feedback / feedback board | মতামত / মতামত বোর্ড | |
@@ -209,3 +209,6 @@ Answer "OK" or write the natural version.
 7. **Content writers** should cite the tabs as আজ, অনুশীলন, রিভিশন, পাঠ, অগ্রগতি, মতামত and the buttons as «পেরেছি», «আবার», «যাচাই করুন», «বাকি সব রিভিশন», «আমার ফ্রেজ».
 
 **Scratch lint used (not in the repo).** It checks: every `t` filled and NFC; no Hangul, no Bengali digits, no তুমি forms; the emoji, symbols and fixed digits of the key; edge punctuation of fragments; «।» where the key ends in a full stop; the slot set `{1}..{k}`, each once; no case ending or «-গুলো» after a slot; tab and weekday lengths. It does not check naturalness; that needs §6.
+
+## Pre-merge review, 2026-11-23
+Taken from the independently written ko-worded dictionary (tools/i18n/bn/ko-worded/, untouched): Grammar ব্যাকরণ, Text size লেখার আকার, Done শেষ, Weak spots দুর্বল দিক, Listen 🔊→বাংলা, Mix মিক্স, Accent রং, Not quite. পুরোপুরি হয়নি।, interval ব্যবধান, and Write it «ইংরেজিতে লিখুন» (shortened). `{n} cards due` → «{1}টি কার্ডের রিভিশন বাকি». The same term was changed in every string that uses it (33 strings), so the glossary stays one term per concept.

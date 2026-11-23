@@ -118,3 +118,41 @@ python3 tools/i18n/gen.py ceb <scratch> + validate exact=784 patterns=275 warnin
 node --check on every edited JS file               ok
 grep for Hangul under tools/content/ceb            none
 ```
+
+## Pre-merge review, 2026-11-23
+
+Second cold reader, also **not a native speaker**. Review read-only on PR #13, then applied here after the merge.
+
+**Changed.**
+- Review findings (12):
+  - decks: *Can you lend me your pen?* meaning → «Puwede ko nimo pahulamon sa imong bolpen?» (was "borrow"). *I hope this email finds you well.* → «Hinaot nga maayo ra ka». *I'm so happy for you!* note no longer calls "so very happy" wrong.
+  - lessons: `polite` «Matinahuron kaayo» → «Matinahoron kaayo», and check option «~ing (opening)» → «-ing form (opening)». `pron` «*syudad*» → «*siyudad*».
+  - more: a1 *I'm not sleeping.* → «Wala ko natulog (karon)». a2 `aspect-tense` *did not arrive yet* ✗ is now limited to «Sa eksamin ug pormal nga sulat».
+  - practice: `prep` prompt «… (panamilit)», `smalltalk` prompt «… (nahuman na)».
+  - i18n: roadmap title «Mga lit-ag sa paglitok: F/P, V/B, TH». NOTES.md §3 and §6 now match ui.json: the Progress tab is still «Pag-uswag», and only *Drills* and *Text size* changed.
+- Typed-answer pass. Script over all 127 type items in the pack:
+  - 1 prompt cued: `past` «… (gamita ang "watch")».
+  - 5 answers added: `it-there` *It's hot now*; `countable` *May I have some water*; `tense` *…working at home today*; `perfect` *I've already read the book / that book*; `relative` *The movie (that) we watched…*.
+  - 2 person mismatches fixed: `first-conditional` «Mabiyaan **ka**» drops we / I; `phrasal` «Nahutdan **mi**» drops I.
+  - Full forms: none missing in the pack.
+- Localisation (profile §9):
+  - Places and culture: Seoul→Manila, Busan→Davao, Jeju→Bohol, Daegu→Cebu, Korea→Manila / Bohol / Cebu (and Japan for the country-without-article item), Korean→Cebuano / Japanese (*Hinapon*), kimchi→balut, won→pesos, K-pop→OPM, Han Kang→Jose Rizal.
+  - Kim→Santos (deck, DIALOG, PRON-RULES). *Who's your bias?*→*Who's your favorite character?* (as es).
+  - Distractors: *tiger*→*dog*; `email` *You suffered a lot. / Good suffering.*→*More power! / Good day to all!*.
+  - All declared as `items` / `decks` entries in deviations.json.
+- Not changed:
+  - The R/L pairs (rice / lice, right / light) in «Bantayi ang paglitok». The lesson already presents R/L as easy for Bisaya speakers, and F/P and coffee / copy are real Bisaya traps. Replacing them would also mean rewriting the `pron` practice items.
+  - Variant glosses (fool, bad, nakaistorya ta / tika).
+  - `tools/content/ceb/ui.json`: its 27 values follow the house spelling.
+
+**For the native speaker (left unchanged):**
+- «Ako sab, dili» (*Me neither*) → «Ako sab dili»?
+- «Nalingaw kaayo ko nga nakauban ka»
+- «Gipasigarbo tika»
+- «Giunsa nimo pag-antos ang kainit?» (a completed form for a habit; «Unsaon nimo pag-agwanta sa kainit?»?)
+- «Pila mo kabuok?»
+- «Puwede ko makakuha og…» for ordering
+- «hagong sa buyog / putyokan»
+- *hotel* = «kapuy-an sa mga biyahero»
+- «Letra» for *Text size*
+- The new localised prompts: «Nakakaon na ka ba og balut?», «Gihimo kini sa Cebu», «Gisulat kini ni Jose Rizal», «Naa koy higala nga makasulti og Hinapon», «Kinsa imong paboritong karakter?».

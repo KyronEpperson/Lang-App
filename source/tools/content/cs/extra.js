@@ -85,7 +85,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | Přijdeš večer na ten večírek? / Asi ne. Něco na mě leze.
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | Slyšela jsem o Jen a Mikovi něco šíleného. / Počkej, cože? Sem s těmi drby!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | Už jsi ten seriál dokoukal? Ten konec je… / Nic neprozrazuj! Jsem teprve u třetího dílu.
-Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | Kdo je tvůj oblíbenec? / Jednoznačně hlavní zpěvák. A tvůj?
+I'm a huge fan. | Do you like this band? | Are you kidding? I'm a huge fan. | Líbí se ti tahle kapela? / Děláš si legraci? Jsem jejich velká fanynka.
 `;
 
 exports.EXAMPLES = `
@@ -141,7 +141,7 @@ It costs an arm and a leg. | Living in New York costs an arm and a leg. | Život
 Once in a blue moon | I only drink soda once in a blue moon. | Limonádu piju jen jednou za uherský rok.
 Low-key | I low-key want to dye my hair pink. | Tak trochu mám chuť obarvit si vlasy na růžovo.
 I binge-watched the whole season. | I binge-watched the whole season in one weekend. | Zhltl / zhltla jsem celou řadu za jediný víkend.
-rice | I had chicken and rice for lunch. | K obědu jsem měl / měla kuře s rýží.
+cat | Our cat sleeps on my bed. | Naše kočka spí na mé posteli.
 think | I think so, too. | Taky si to myslím.
 `;
 
@@ -260,7 +260,7 @@ Live and learn | Chybami se člověk učí
 A friend in need is a friend indeed | V nouzi poznáš přítele
 It's never too late to learn | Na učení není nikdy pozdě
 Every expert was once a beginner | Žádný učený z nebe nespadl
-Stay hungry, stay foolish | Zůstaňte hladoví, zůstaňte blázniví
+Stay hungry, stay foolish | Zůstaň hladový, zůstaň bláznivý (Steve Jobs)
 Small steps every day | Každý den malý krok
 `
 };

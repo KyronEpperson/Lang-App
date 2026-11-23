@@ -7,7 +7,7 @@
      4. lesson deck links that do not exist; lessons with no practice set; practice sets outside 12-16 items
    Exit code 1 when (1) or (4) has findings. */
 const fs = require('fs'), path = require('path');
-const lang = process.argv[2]; if (!/^[a-z]{2}$/.test(lang || '')) { console.error('usage: node tools/content/lint.js <lang> [pack]'); process.exit(2); }
+const lang = process.argv[2]; if (!/^[a-z]{2,4}$/.test(lang || '')) { console.error('usage: node tools/content/lint.js <lang> [pack]'); process.exit(2); }
 const file = process.argv[3] || path.join(__dirname, '..', '..', 'packs', 'course-' + lang + '-en.js');
 const P = { course: {}, i18n: {} }; new Function('LANGAPP_PACKS', fs.readFileSync(file, 'utf8'))(P);
 const C = P.course[lang + '-en']; if (!C) { console.error('no course in', file); process.exit(2); }

@@ -95,7 +95,7 @@ exports.LESSONS = [
 <p>Sa Tagalog, ang anyo ng verb ang nagsasabi kung tapos na, ginagawa pa o gagawin pa ang kilos: <i>kumain, kumakain, kakain</i>. Sa Ingles, tense ang pinipili, at hindi laging magkatugma ang dalawa. Halimbawa, dalawa ang puwedeng maging Ingles ng <i>kumakain</i>:</p>
 {{ex:I eat vegetables.|/aɪ ˈiːt ˈvedʒtəblz/|Kumakain ako ng gulay (ugali)}}{{ex:I'm eating right now.|/aɪm ˈiːtɪŋ ˈraɪt ˈnaʊ/|Kumakain ako ngayon (sa sandaling ito)}}
 <p>Balikan natin ang limang anyong pinakakailangan sa kuwentuhan.</p>
-<h3>Present tense at present continuous</h3>
+<h3>Simple present at present continuous</h3>
 <div class="tbl"><table><tr><th>Anyo</th><th>Gamit</th><th>Halimbawa</th></tr><tr><td class="k">present tense</td><td>ugali, bagay na laging totoo</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + -ing</td><td>ginagawa ngayon mismo / nakatakda nang gawin</td><td>I'm drinking coffee right now.</td></tr></table></div>
 {{ex:I work at a bank.|/aɪ ˈwɜːrk ət ə ˈbæŋk/|Sa bangko ako nagtatrabaho (palagi)}}{{ex:I'm working from home today.|/aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/|Sa bahay ako nagtatrabaho ngayong araw}}
 <h3>Past tense</h3>
@@ -216,8 +216,8 @@ exports.CHECKS = {
     [`'Mahilig ako sa pusa' (lahat ng pusa, pangkalahatan) sa Ingles?`, ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, `Kapag pangkalahatan ang sinasabi, plural ang noun at walang article. Ang "a cat" ay isang pusa; ang "the cat" ay ang pusang alam na ninyong dalawa.`]
   ],
   be: [
-    [`Alin ang tamang pangungusap?`, ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, `May verb na ang pangungusap ("like"), kaya hindi na ito sinasamahan ng "am".`],
-    [`'Nakatira sa Seoul ang ate ko' sa Ingles?`, ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, `"She" ang katumbas ng "ang ate ko", kaya may -s ang verb: "lives".`],
+    [`Alin ang tamang pangungusap?`, ["I am like OPM.","I like OPM.","I liking OPM.","I am likes OPM."], 1, `May verb na ang pangungusap ("like"), kaya hindi na ito sinasamahan ng "am".`],
+    [`'Nakatira sa Cebu ang ate ko' sa Ingles?`, ["My sister live in Cebu.","My sister is live in Cebu.","My sister living in Cebu.","My sister lives in Cebu."], 3, `"She" ang katumbas ng "ang ate ko", kaya may -s ang verb: "lives".`],
     [`Paano sasagot ng 'hindi' sa tanong na "Are you hungry?"`, ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, `"Be" ang ginamit sa tanong, kaya "be" rin sa sagot: No, I'm not.`]
   ],
   polite: [
@@ -251,8 +251,8 @@ exports.CHECKS = {
     [`Ano ang pinakanatural na basa sa $12.50?`, ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, `Binabasa ang presyo bilang dalawang numero: twelve fifty.`]
   ],
   email: [
-    [`Unang beses kang susulat kay Jenny Park, ang kausap mo sa isang kliyenteng kompanya. Alin ang pinakaligtas na bati?`, ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, `Sa email sa trabaho sa Amerika, "Hi" + unang pangalan ang pinakaligtas. Kapag napakapormal: Dear Ms. Park,`],
-    [`Tapos na ang proyekto at gusto mong pasalamatan ang team sa pagod nila. Alin ang isusulat mo?`, ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, `Pasalamatan ang pagsisikap nila: Thanks for all your hard work!`],
+    [`Unang beses kang susulat kay Jenny Cruz, ang kausap mo sa isang kliyenteng kompanya. Alin ang pinakaligtas na bati?`, ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, `Sa email sa trabaho sa Amerika, "Hi" + unang pangalan ang pinakaligtas. Kapag napakapormal: Dear Ms. Cruz,`],
+    [`Tapos na ang proyekto at gusto mong pasalamatan ang team sa pagod nila. Alin ang isusulat mo?`, ["Thanks for your hardworking.","Thanks for all your hard work!","You did a hard work.","Please work harder."], 1, `Pasalamatan ang pagsisikap nila: Thanks for all your hard work!`],
     [`Aling pangungusap ang magalang na humihiling at may malinaw na deadline?`, ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, `"Could you ~?" + "by" + araw: malumanay ang hiling pero malinaw ang deadline.`]
   ],
   idioms: [

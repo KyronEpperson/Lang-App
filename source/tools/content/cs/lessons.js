@@ -44,9 +44,10 @@ exports.LESSONS = [
 <h3>Znělé souhlásky na konci slova</h3>
 <p>Na konci slova čeština znělost ruší: „led“ zní jako „let“. Angličtina ne: <b>bad</b> a <b>bat</b>, <b>bag</b> a <b>back</b>, <b>dog</b> a <b>dock</b> jsou vždy dvě různá slova. Pomůcka pro ucho: samohláska před znělou souhláskou je <b>delší</b>. Totéž platí pro koncovku množného čísla: ve slově <b>dogs</b> /ˈdɔːgz/ zní na konci /z/, ne /s/.</p>
 {{ex:bag|/ˈbæg/|taška}}{{ex:back|/ˈbæk/|záda / zpátky}}{{ex:bat|/ˈbæt/|netopýr / pálka}}{{ex:dog|/ˈdɔːg/|pes}}{{ex:dock|/ˈdɑːk/|přístaviště / dok}}
-<h3>R a L: jen na rozcvičku</h3>
-<p>Hlásky r a l čeština rozlišuje, takže <b>rice</b> a <b>lice</b> ti potíže dělat nebudou. Jiný je jen způsob tvoření: u anglického R se špička jazyka <b>ničeho nedotýká</b> a nekmitá, jazyk je mírně stažený dozadu a rty lehce zaokrouhlené. U L se špička opře o dáseň za horními zuby. Stejně snadné jsou pro Čechy dvojice F a P, V a B: <b>fan</b> (větrák) a <b>pan</b> (pánev), <b>vote</b> (hlasovat) a <b>boat</b> (člun).</p>
-{{ex:rice|/ˈraɪs/|rýže}}{{ex:lice|/ˈlaɪs/|vši}}{{ex:right|/ˈraɪt/|vpravo / správný}}{{ex:light|/ˈlaɪt/|světlo / lehký}}
+<h3>Samohlásky, které čeština nemá</h3>
+<p>Anglických samohlásek je víc než českých a některé čeština vůbec nemá. Dvojice, které se Čechům slévají: <b>cat</b> a <b>cut</b> (otevřené /æ/ proti krátkému /ʌ/, které zní skoro jako české „a“), <b>man</b> a <b>men</b> (/æ/ proti /e/: množné číslo tu pozná posluchač jen podle samohlásky), <b>full</b> a <b>fool</b> (krátké uvolněné /ʊ/ proti dlouhému /uː/ s rty v kroužku) a <b>law</b> a <b>low</b> (dlouhé /ɔː/ proti dvojhlásce /oʊ/, ne českému „ó“).</p>
+<p>Hlásky r a l čeština rozlišuje, jiný je jen způsob tvoření: u anglického R se špička jazyka <b>ničeho nedotýká</b> a nekmitá, jazyk je mírně stažený dozadu a rty lehce zaokrouhlené. U L se špička opře o dáseň za horními zuby.</p>
+{{ex:cat|/ˈkæt/|kočka}}{{ex:cut|/ˈkʌt/|řezat / střih}}{{ex:man|/ˈmæn/|muž}}{{ex:men|/ˈmen/|muži}}{{ex:full|/ˈfʊl/|plný / sytý}}{{ex:fool|/ˈfuːl/|blázen / hlupák}}{{ex:law|/ˈlɔː/|zákon / právo}}{{ex:low|/ˈloʊ/|nízký}}
 <h3>Vázání slov</h3>
 <p>Angličtina mezi slovy nedělá pauzy. Souhláska na konci slova se váže na samohlásku na začátku dalšího: <b>Turn it on</b> zní skoro jako jedno slovo.</p>
 <div class="tip">Kontrola před zrcadlem: u F a V se horní zuby dotýkají spodního rtu, u TH je <b>vidět</b> špička jazyka mezi zuby, u W jsou rty v kroužku a zubů se nedotýkají. A než slovo vyslovíš, najdi si v přepisu znak ˈ.</div>`},
@@ -226,8 +227,8 @@ exports.CHECKS = {
     ["Jak se anglicky řekne „Mám rád / ráda kočky“ (kočky obecně)?", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "Když mluvíš o něčem obecně, použij množné číslo bez členu. „A cat“ je jedna kočka, „the cat“ ta konkrétní kočka."]
   ],
   be: [
-    ["Která věta je správně?", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "„Like“ je významové sloveso, proto k němu „am“ nepatří."],
-    ["Jak se anglicky řekne „Moje sestra bydlí v Soulu“?", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "Podmět je ve 3. osobě jednotného čísla (she), proto má sloveso koncovku -s: „lives“."],
+    ["Která věta je správně?", ["I am like rock music.","I like rock music.","I liking rock music.","I am likes rock music."], 1, "„Like“ je významové sloveso, proto k němu „am“ nepatří."],
+    ["Jak se anglicky řekne „Moje sestra bydlí v Praze“?", ["My sister live in Prague.","My sister is live in Prague.","My sister living in Prague.","My sister lives in Prague."], 3, "Podmět je ve 3. osobě jednotného čísla (she), proto má sloveso koncovku -s: „lives“."],
     ["Jak odpovíš záporně na otázku „Are you hungry?“", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "Otázka je se slovesem „to be“, proto i odpověď: „No, I'm not.“"]
   ],
   polite: [
@@ -262,7 +263,7 @@ exports.CHECKS = {
   ],
   email: [
     ["Píšeš poprvé Jenny Park, kontaktní osobě u obchodního partnera. Které oslovení je nejvhodnější?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "V amerických pracovních e-mailech je „Hi“ a křestní jméno běžné i při prvním kontaktu. Hodně formálně: „Dear Ms. Park,“."],
-    ["Tým dokončil projekt. Jak mu anglicky poděkuješ za odvedenou práci?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "Poděkuj za úsilí: „Thanks for all your hard work!“ Doslovné překlady tu nefungují."],
+    ["Tým dokončil projekt. Jak mu anglicky poděkuješ za odvedenou práci?", ["Thanks for your hard working!","Thanks for all your hard work!","Thank you for the hard job.","Please work harder."], 1, "Poděkuj za úsilí: „Thanks for all your hard work!“ „Work“ je tu podstatné jméno, ne „working“, a „job“ znamená pracovní místo nebo úkol."],
     ["Kterou větou zdvořile určíš termín?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "„Could you …?“ a „by“ + den: zdvořilé, a přitom jasné."]
   ],
   idioms: [

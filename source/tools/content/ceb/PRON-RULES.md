@@ -11,7 +11,7 @@ Binding for every `pron` field: card `pron` in decks.js, IDIOMS in extra.js, `{{
 | Case | Form | Note |
 |---|---|---|
 | Philippine place names (en-US voice, to confirm against the clips) | Cebu /seɪˈbuː/, Cebuano /seɪˈbwɑːnoʊ/, Davao /ˈdɑːvaʊ/, the Philippines /ðə ˈfɪlɪpiːnz/, Philippine /ˈfɪlɪpiːn/ | profile §6 rule 7. *Bohol* and *Manila* are not transcribed anywhere yet; use /boʊˈhoʊl/, /məˈnɪlə/ |
-| Names | Ana /ˈɑːnə/, Kim /ˈkɪm/, Jose Rizal /hoʊˈzeɪ rɪˈzɑːl/, Jollibee /ˈdʒɑːlibiː/ | the English reading, not the Bisaya one (no /h/ → /x/, no tapped r) |
+| Names | Ana /ˈɑːnə/, Santos /ˈsæntoʊs/ (replaced Kim, 2026-11-23), Jose Rizal /hoʊˈzeɪ rɪˈzɑːl/, Jollibee /ˈdʒɑːlibiː/ | the English reading, not the Bisaya one (no /h/ → /x/, no tapped r) |
 | Local food word | lechon /leˈtʃɔːn/ | stress on the last syllable, as the en-US voice reads the loan |
 | Citation form of a function word on a pronunciation card | they /ˈðeɪ/ (deck «Bantayi ang paglitok») | the **only** word conflict the checker reports: /ðeɪ/ inside sentences, /ˈðeɪ/ when the card is the word alone (profile §6 rule 2: a function word that stands alone takes ˈ) |
 | Spelled abbreviations | AC /ˌeɪ ˈsiː/, LOL /ˌel oʊ ˈel/ | secondary stress on all letters but the last |

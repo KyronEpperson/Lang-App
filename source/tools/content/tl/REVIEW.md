@@ -81,7 +81,7 @@ Smaller doubts: «polo» for *shirt*; «Ako rin, hindi» for *Me neither*; «Big
 - «CEFR A1-B1 order, adjusted for Korean speakers» is translated literally, so tl-en learners read «…para sa mga nagsasalita ng Koreano». It needs a per-course string.
 
 **Shared English that could not be touched**
-- Checks and about 15 practice items keep Seoul, Busan, Jeju, Daegu, kimchi, K-pop, won and Han Kang, as the profile rules. The card *Who's your bias?* and its dialogue are K-pop by nature; the note explains it.
+- ~~Checks and about 15 practice items keep Seoul, Busan, Jeju, Daegu, kimchi, K-pop, won and Han Kang…~~ Localised in the pre-merge review (see below).
 - Alphabet card G gives the example word *go*, whose first sound is not the letter's name.
 
 **Tooling**
@@ -99,3 +99,25 @@ node tools/content/alphabet_check.js tl <scratch> PASS alphabet tl: lesson 1, de
 node tools/content/tl/pron_check.js               pairs 845 · words 814 · phrase conflicts 0 · word conflicts 0 · rule hits 0
 ```
 `node --check` passes on all eight edited JS files. No Korean characters under `tools/content/tl`.
+
+## Pre-merge review, 2026-11-23
+
+Second reviewer (not a native speaker of Filipino). Findings applied after merge; all checks pass (validate, parity, alphabet, lint 0 blocking, pron_check 0 conflicts, i18n validate).
+
+**Changed**
+- Practice prompts whose subject did not match the answers: modals ty → «Kailangang bumili ng tiket…» (subjectless), phrasal#13 → «Naubusan na ng gatas»; first-conditional ty «Maiiwan ka ng bus» keeps only You'll (deviation).
+- Wrong meaning: «dating kaibigan» (= former friend) for *old friend* → «isang matagal ko nang kaibigan» (narrative ex, order, type).
+- Typed-answer pass over all 128 type items (script; full forms all present in the pack): 8 prompts cued (ugali, plano na ×2, tungkol sa plano mo, sa sandaling ito, gamitin ang there / any, ngayong araw), 19 items got equally correct answers (I saw a movie, love for mahilig ×4, lots of friends, love to cook, Let's meet next weekend, go home now, we watched, I've waited, then / at that time for «noon» ×6, earlier for «kanina», already for «na»), 1 wrong-person set removed. Shared-side changes are item deviations: 28 localisation + 19 typed-answer.
+- Decks: Hello «Kumusta (pagbati)», Hi «Uy! (magaang bati)», Hey «Hoy! (sa kaibigan)», Just a second «Teka lang / Saglit lang», Me neither «Hindi rin ako» (also extra.js and practice), heading out note (go ahead also means leave first), Korean-course notes removed from *hang out* (play) and *hard work* (수고하셨습니다), Best regards «Gumagalang,», quarter to five «Menos kinse para alas-singko», fitting room, full «puno (sa laman)», two talking-down sentences (My name is, Do you speak Tagalog).
+- New card in Ingles-Pinoy: *That went over my head.* for Pinoy «Nosebleed!» (tl-only deck, 35 cards).
+- Lessons: «hulmahan» → «pattern» (5); shirt «polo» → «damit»; pinoy-english "commit a mistake" class now «hindi ang karaniwang anyo», not «mali».
+- Localisation (reverses profile §9 keep-Korean rule): Seoul / Busan / Daegu / Jeju / Korea / kimchi / won / K-pop / Han Kang / Jenny Park / "Who's your bias?" → Manila, Cebu, Baguio, Boracay, Palawan, the Philippines, Canada (country without *the*), sinigang, pesos, OPM, José Rizal, Jenny Cruz, "I'm a huge fan!" (Ben&Ben); Korean-calque distractors (You suffered a lot, Good suffering, tiger) replaced. 28 item / check deviations + 1 deck deviation, each with a reason.
+- Terms: roadmap titles and the a1 lesson title / lesson 5 heading say *simple present*, matching tools/i18n/tl/NOTES.md §6.
+- tools/content/tl/ui.json (26 overrides found, not 27): 5 values reworded (auto kung walang laman, isa sa bawat linya, share text with *nang*, «Komportable ka na bang magbasa sa Ingles?», «Para saan mo gagamitin ang Ingles?»); 4 keys added for Korean-mixed onboarding / goal / unlock / language strings (안녕하세요 → Kumusta). The remaining Korean-worded keys belong to Korean-only tools (conjugator, 요-form, 사자성어).
+- Roadmap basis line: no change needed; src/app.html shows `basisAny` («CEFR A1–B1») to natives other than ko / en.
+
+**Left for a native speaker**
+- aspect-tense table: should «gagawin pa (sa kuwentong nakaraan) → was going to» say «+ sana» (tatawagan sana kita)? The *would* half has no sana («darating daw siya»).
+- «nang hindi lalampas sa Biyernes» (length); *miting* / *taksi* vs *meeting* / *taxi* in a Taglish register; *lodi* as a slang example (dated).
+- New wording: «Uy! (magaang bati)», «Idol na idol ko! / Solid fan ako!», «Nosebleed! / Hindi ko na-gets», the Ben&Ben example, «Komportable ka na bang magbasa sa Ingles?».
+- Pron deck pairs: rice / lice and right / light (an easy contrast for Tagalog speakers) were kept: replacing them would also change the shared pron lesson and its practice; F/P, V/B and coffee / copy are real Filipino traps and stay.

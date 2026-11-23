@@ -75,11 +75,11 @@ module.exports = {
     { t: "mc", q: "Tubaga og 'oo': \"Do you like coffee?\"", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "\"do\" ang gigamit sa pangutana, mao nga \"do\" sab ang sa tubag." },
     { t: "mc", q: "'Dili siya (babaye) mokaon og karne' sa Iningles?", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "Ang negative kon \"she\": \"doesn't\" + base form nga walay -s." },
 
-    { t: "order", p: "Nagtrabaho sa Seoul ang akong igsoong lalaki", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "Usa ra ka tawo ang subject (he), mao nga dugangi og -s ang verb: \"works\". Naa nay verb, mao nga dili na kinahanglan ang be verb." },
+    { t: "order", p: "Nagtrabaho sa Manila ang akong igsoong lalaki", a: ["My", "brother", "works", "in", "Manila"], x: ["work", "is"], why: "Usa ra ka tawo ang subject (he), mao nga dugangi og -s ang verb: \"works\". Naa nay verb, mao nga dili na kinahanglan ang be verb." },
     { t: "order", p: "Dili ko estudyante", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "\"not\" ang negative sa be verb. Kinahanglan ang article \"a\" sa atubangan sa \"student\"." },
     { t: "order", p: "Naa siyay duha ka iro (babaye siya)", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "Kon \"she\", \"has\". Human sa \"two\", plural ang noun: \"dogs\". Walay \"mga\" sa Iningles, -s ang gamiton." },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "Nagpuyo sa Seoul ang akong igsoong lalaki", a: ["lives"], o: ["live", "is live", "living"], why: "\"he\" ang subject, mao nga dugangi og -s ang verb: \"lives\"." },
+    { t: "fill", q: "My brother __ in Manila.", p: "Nagpuyo sa Manila ang akong igsoong lalaki", a: ["lives"], o: ["live", "is live", "living"], why: "\"he\" ang subject, mao nga dugangi og -s ang verb: \"lives\"." },
     { t: "fill", q: "__ you tired?", p: "Gikapoy ka?", a: ["Are"], o: ["Do", "Is", "Does"], why: "Adjective ang \"tired\", mao nga be verb ang gamiton sa pangutana. Kon \"you\", \"are\"." },
     { t: "fill", q: "We __ hungry.", p: "Gigutom mi", a: ["are"], o: ["is", "am", "do"], why: "Adjective ang \"hungry\", mao nga be verb ang gamiton. Kon \"we\", \"are\"." },
 
@@ -111,7 +111,7 @@ module.exports = {
   tense: [
     { t: "mc", q: "'Nag-inom ko og kape karon' sa Iningles?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "Ang nagpadayon karon: be verb + -ing form." },
     { t: "mc", q: "'Niadto ko sa baybayon sa niaging weekend' sa Iningles?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "\"went\" ang past form sa \"go\". Bisan naay \"last weekend\", usbon gihapon ang verb. Naay article \"the\" ang baybayon: \"the beach\"." },
-    { t: "mc", q: "Plano sa sunod bulan: 'Moadto ko sa Jeju' sa Iningles?", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "Ang plano nga nahimo na daan: \"be going to\" + base form." },
+    { t: "mc", q: "Plano sa sunod bulan: 'Moadto ko sa Bohol' sa Iningles?", o: ["I'm going to visit Bohol next month.", "I visit Bohol next month.", "I visited Bohol next month.", "I'm going visit Bohol next month."], why: "Ang plano nga nahimo na daan: \"be going to\" + base form." },
     { t: "mc", q: "Nibagting ang doorbell. Sa mismong higayon moingon ka: 'Ako nay moabli!'", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "\"will\" ang gamiton sa desisyon nga gihimo sa mismong higayon." },
     { t: "mc", q: "Unsay past form sa \"see\"?", o: ["saw", "seed", "seen", "sawed"], why: "Irregular verb ang \"see\": see, saw, seen." },
 
@@ -123,7 +123,7 @@ module.exports = {
     { t: "fill", q: "__ you have fun?", p: "Nalingaw ba ka?", a: ["Did"], o: ["Does", "Are", "Were"], why: "Sa pangutana bahin sa nahuman na: \"Did\" + base form." },
     { t: "fill", q: "I'm going __ visit my parents.", p: "Mobisita ko sa akong ginikanan (plano)", a: ["to"], o: ["for", "at", "on"], why: "Plano: \"be going to\" + base form." },
 
-    { t: "type", p: "Sa balay ko nagtrabaho karong adlawa", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — nagpadayon karon", x: ["work"], why: "Ang buhat nga nagpadayon karong adlawa: be verb + -ing form." },
+    { t: "type", p: "Sa balay ko nagtrabaho karong adlawa", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home", "I'm working at home today", "I am working at home today"], hint: "work · from home · today — nagpadayon karon", x: ["work"], why: "Ang buhat nga nagpadayon karong adlawa: be verb + -ing form." },
     { t: "type", p: "Niadto ko sa baybayon sa niaging weekend", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — past form ug article", x: ["a"], why: "\"went\" ang past form sa \"go\". Naay article \"the\" ang baybayon: \"the beach\"." },
     { t: "type", p: "Mokuha ko og usa ka klase sa pagluto (plano na daan)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — article sa atubangan sa usa ka klase", x: ["the"], why: "Plano nga nahimo na daan: \"going to\". Usa ka klase nga karon pa gihisgotan, mao nga article \"a\"." }
   ],
@@ -133,7 +133,7 @@ module.exports = {
     { t: "mc", q: "'sa Mayo 3' sa Iningles?", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "\"on\" ang gamiton sa petsa." },
     { t: "mc", q: "'Naa ko sa bus (karon)' sa Iningles?", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "\"on\" ang gamiton sa pampublikong sakyanan. Naay article \"the\" kay ang bus nga imong gisakyan karon ang gipasabot." },
     { t: "mc", q: "'sa gabii' sa Iningles?", o: ["at night", "on night", "in night", "at the night"], why: "Eksepsyon ang \"night\": \"at night\", walay article." },
-    { t: "mc", q: "Hain ang sakto nga sentence?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "\"in\" ang gamiton sa siyudad, ug walay article \"the\" ang ngalan sa siyudad." },
+    { t: "mc", q: "Hain ang sakto nga sentence?", o: ["I live in Manila.", "I live at Manila.", "I live on Manila.", "I live in the Manila."], why: "\"in\" ang gamiton sa siyudad, ug walay article \"the\" ang ngalan sa siyudad." },
 
     { t: "order", p: "Magkita ta sa estasyon (ang estasyon nga nahibaloan nato)", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "\"at\" ang gamiton sa usa ka punto. Pareho ninyong nahibaloan kon hain nga estasyon, mao nga article \"the\"." },
     { t: "order", p: "Naa sa ibabaw sa lamesa ang akong telepono", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "\"on\" ang gamiton kon naa sa ibabaw sa usa ka butang. Ang lamesa nga naa sa inyong atubangan ang gipasabot, mao nga article \"the\"." },
@@ -145,7 +145,7 @@ module.exports = {
 
     { t: "type", p: "Moinom ko og kape sa buntag (batasan nako)", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "coffee · morning — \"in\" ug article", x: ["at"], why: "\"in\" ang gamiton sa bahin sa adlaw, ug kinahanglan ang article \"the\": \"in the morning\"." },
     { t: "type", p: "Naa ko sa balay karon", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home — walay article", x: ["the"], why: "Walay article \"the\" sa \"at home\"." },
-    { t: "type", p: "Magkita ta sa sunod weekend", a: ["See you next weekend"], hint: "see · next weekend — naa bay preposition sa atubangan sa \"next\"?", x: ["on"], why: "Walay preposition sa atubangan sa \"next\"." }
+    { t: "type", p: "Magkita ta sa sunod weekend (panamilit)", a: ["See you next weekend"], hint: "see · next weekend — naa bay preposition sa atubangan sa \"next\"?", x: ["on"], why: "Walay preposition sa atubangan sa \"next\"." }
   ],
 
   smalltalk: [
@@ -153,7 +153,7 @@ module.exports = {
     { t: "mc", q: "Unsay isulti kon mouyon ka sa \"I don't drink coffee.\" (ikaw sab dili moinom)?", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "Sa negative nga sentence, \"Me neither\" ang gamiton." },
     { t: "mc", q: "Unsaon pagtapos sa istorya nga hapsay?", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "Ang \"I should get going\" malumo nga paagi sa pagpanamilit." },
     { t: "mc", q: "Hain ang maayong isulti sa tawo nga bag-o pa nimong nailhan?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "Ang panahon ang labing luwas nga hisgotan sa small talk. Likayi ang suweldo, kon minyo na ba, ug ang timbang." },
-    { t: "mc", q: "Unsay itubag sa \"I went to Busan last weekend.\" aron ipakita nga interesado ka?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Ang \"Oh, really?\" ug \"That sounds fun!\" nagpakita nga interesado ka." },
+    { t: "mc", q: "Unsay itubag sa \"I went to Davao last weekend.\" aron ipakita nga interesado ka?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Ang \"Oh, really?\" ug \"That sounds fun!\" nagpakita nga interesado ka." },
 
     { t: "order", p: "Naa kay plano sa weekend?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "Plural ang \"plans\" niining pangutana, ug article \"the\" kay ang umaabot nga weekend ang gipasabot." },
     { t: "order", p: "Nalipay ko nga nakaistorya tika", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "Panamilit kini sa kataposan sa istorya. Human sa \"nice\", -ing form ang gamiton: \"talking\"." },
@@ -163,7 +163,7 @@ module.exports = {
     { t: "fill", q: "I know, __?", p: "Bitaw, no?", a: ["right"], o: ["light", "yes", "true"], why: "Ang \"I know, right?\" kusganong pag-uyon. R ang sinugdanan sa \"right\"." },
     { t: "fill", q: "Have you seen any good __ lately?", p: "Naa kay nakita nga nindot nga salida o serye karong bag-o?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "Human sa \"any\" niining pangutana, plural ang countable noun." },
 
-    { t: "type", p: "Kumusta ang imong weekend?", a: ["How was your weekend"], hint: "how · weekend — past form kay nahuman na", x: ["is"], why: "Nahuman na ang weekend, mao nga past form: \"was\"." },
+    { t: "type", p: "Kumusta ang imong weekend? (nahuman na)", a: ["How was your weekend"], hint: "how · weekend — past form kay nahuman na", x: ["is"], why: "Nahuman na ang weekend, mao nga past form: \"was\"." },
     { t: "type", p: "Nindot ang panahon karon, no?", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today — naa bay article?", x: ["a"], why: "Uncountable noun ang \"weather\", mao nga walay article \"a\": dili \"a nice weather\"." },
     { t: "type", p: "Ganahan ko motan-aw og salida (sa kinatibuk-an)", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "like · watch · movie — plural kon tanan ang gihisgotan", x: ["movie"], why: "Salida sa kinatibuk-an ang gihisgotan, mao nga plural: \"movies\"." }
   ],
@@ -171,7 +171,7 @@ module.exports = {
   phrasal: [
     { t: "mc", q: "'Pasigaa kana' sa Iningles?", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "Ang pronoun \"it\" ibutang sa tunga sa phrasal verb: \"turn it on\"." },
     { t: "mc", q: "'Nahutdan mi og gatas' sa Iningles?", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "\"run out of\" = mahutdan. Ayaw kalimti ang \"of\"." },
-    { t: "mc", q: "'Nagdako ko sa Daegu' sa Iningles?", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "\"grow up\" = modako. Ang past form: \"grew up\"." },
+    { t: "mc", q: "'Nagdako ko sa Cebu' sa Iningles?", o: ["I grew up in Cebu.", "I grew in Cebu up.", "I growed up in Cebu.", "I grew out in Cebu."], why: "\"grow up\" = modako. Ang past form: \"grew up\"." },
     { t: "mc", q: "'Puwede nimong atimanon ang akong iring?' sa Iningles?", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "\"look after\" = atimanon. Dili kini mabulag. Ang \"look for\" mao ang 'pangitaon'." },
     { t: "mc", q: "'Sundoon tika sa alas siyete' sa Iningles?", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "Ang pronoun \"you\" ibutang sa tunga sa \"pick\" ug \"up\"." },
 
@@ -185,7 +185,7 @@ module.exports = {
 
     { t: "type", p: "Palihug patya kana", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — ang pronoun sa tunga", x: ["on"], why: "Ang pronoun \"it\" ibutang sa tunga sa \"turn\" ug \"off\"." },
     { t: "type", p: "Nag-atiman ko og duha ka iring (kanunay)", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — duha, mao nga plural", x: ["cat"], why: "\"look after\" = atimanon. Duha ka iring, mao nga plural -s: \"cats\"." },
-    { t: "type", p: "Nahutdan mi og gatas", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — naa bay article?", x: ["a"], why: "Uncountable noun ang \"milk\", mao nga walay article \"a\"." }
+    { t: "type", p: "Nahutdan mi og gatas", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk"], hint: "run out of · milk — naa bay article?", x: ["a"], why: "Uncountable noun ang \"milk\", mao nga walay article \"a\"." }
   ],
 
   numbers: [
@@ -200,7 +200,7 @@ module.exports = {
     { t: "order", p: "kaduha sa usa ka semana", a: ["twice", "a", "week"], x: ["the", "one"], why: "Kon moingon ka kon kapila matag semana, article \"a\" ang gamiton: \"twice a week\"." },
 
     { t: "fill", q: "It's __ quarter past ten.", p: "Kinse minutos human sa alas diyes", a: ["a"], o: ["the", "one", "an"], why: "Naay article \"a\" sa atubangan sa \"quarter\" (kinse minutos)." },
-    { t: "fill", q: "That's fifty __ won.", p: "Singkuwenta mil won kana", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "Ang 50,000 \"fifty thousand\". Human sa numero, walay plural -s ang \"thousand\"." },
+    { t: "fill", q: "That's fifty __ pesos.", p: "Singkuwenta mil pesos kana", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "Ang 50,000 \"fifty thousand\". Human sa numero, walay plural -s ang \"thousand\"." },
     { t: "fill", q: "I'll be there in ten __.", p: "Moabot ko sulod sa napulo ka minuto", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "Napulo ka minuto, mao nga plural: \"minutes\"." },
 
     { t: "type", p: "Alas tres y medya na", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — basaha ang oras ug ang minuto", x: ["thirteen"], why: "Basaha ang oras ug ang minuto: \"three thirty\". Lahi kini sa 13 (\"thirteen\")." },
@@ -240,7 +240,7 @@ module.exports = {
     { t: "order", p: "Dili kana ang akong gusto", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "Sag-uloha nga tibuok ang \"not my cup of tea\". Naa na ang \"my\", mao nga walay article." },
 
     { t: "fill", q: "Kill two __ with one stone.", p: "Duha ka tuyo ang matuman sa usa ra ka lihok", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "Duha ka langgam, mao nga plural: \"birds\"." },
-    { t: "fill", q: "Speak of the __!", p: "(isulti kon moabot ang tawo nga gihisgotan pa lang)", a: ["devil"], o: ["tiger", "angel", "bird"], why: "\"devil\" (yawa) ang naa niining idiom." },
+    { t: "fill", q: "Speak of the __!", p: "(isulti kon moabot ang tawo nga gihisgotan pa lang)", a: ["devil"], o: ["dog", "angel", "bird"], why: "\"devil\" (yawa) ang naa niining idiom." },
     { t: "fill", q: "I'm feeling under __ weather.", p: "Medyo dili maayo ang akong lawas", a: ["the"], o: ["a", "an", "my"], why: "\"under the weather\": kanunay article \"the\"." },
 
     { t: "type", p: "Sayon ra kaayo (idiom nga naay \"cake\")", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — ayaw kalimti ang article", x: ["the"], why: "\"a piece of cake\": kinahanglan ang article \"a\"." },

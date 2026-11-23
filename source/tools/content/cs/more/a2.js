@@ -42,13 +42,13 @@ practice:[
 <div class="tbl"><table><tr><th></th><th>Kdy</th><th>Příklad</th></tr><tr><td class="k">will</td><td>rozhodnutí na místě, slib</td><td class="k">I'll get the door.</td></tr><tr><td class="k">be going to</td><td>plán, který už máš</td><td class="k">I'm going to visit Brno next month.</td></tr></table></div>
 <p>Po <b>if</b> a <b>when</b> se <b>will</b> nepoužívá, i když čeština tam má budoucí čas („až přijdu“). Víc v lekci o prvním kondicionálu.</p>
 <div class="tip">Nejčastější chyba: <b>I will to go.</b>, <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ Po <b>will</b> je vždy jen základní tvar.</div>`,
-check:[["Zvoní telefon. Jak anglicky řekneš „Já to vezmu“?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"Rozhodnutí na místě se říká s „will“."],["I ___ be late. (Nepřijdu pozdě.) Co patří na vynechané místo?",["won't","willn't","don't will","not will"],0,"Zápor od „will“ je „won't“."],["Která věta mluví o plánu, který už máš?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"Plán, který už máš, se říká s „be going to“."]],
+check:[["Zvoní telefon. Jak anglicky řekneš „Já to vezmu“?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"Rozhodnutí na místě se říká s „will“."],["I ___ be late. (Nepřijdu pozdě.) Co patří na vynechané místo?",["won't","willn't","don't will","not will"],0,"Zápor od „will“ je „won't“."],["Která věta mluví o plánu, který už máš?",["I'll get the door.","I will to visit Croatia.","I visit Croatia will.","I'm going to visit Croatia next month."],3,"Plán, který už máš, se říká s „be going to“."]],
 practice:[
 ["mc","Jak se anglicky řekne „Pomůžu ti“?","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","Po „will“ následuje základní tvar slovesa."],
 ["mc","V restauraci se rozhoduješ až teď. Jak anglicky řekneš „Dám si těstoviny“?","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","Rozhodnutí na místě se říká s „will“."],
 ["mc","Jak se anglicky řekne „Nepřijdu pozdě“?","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","„Will not“ se stahuje na „won't“."],
 ["mc","Jak se anglicky řekne „Přijdeš?“","Will you come?","Do you will come?","Will you coming?","Will come you?","V otázce stojí „will“ před podmětem a za ním je základní tvar."],
-["mc","Která věta mluví o plánu, který už máš?","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","Plán, který už máš, se říká s „be going to“."],
+["mc","Která věta mluví o plánu, který už máš?","I'm going to visit Croatia next month.","I'll get the door.","I visit Croatia next month will.","I will to visit Croatia.","Plán, který už máš, se říká s „be going to“."],
 ["or","Zavolám ti později","I'll call you later","calling","Po „will“ následuje základní tvar slovesa."],
 ["or","Dám si kávu","I'll have a coffee","the coffees","Objednáváš jeden šálek: neurčitý člen „a“."],
 ["or","Otevřu dveře","I'll open the door","a doors","České „dveře“ jsou anglicky „door“ v jednotném čísle; jde o tyto dveře tady, proto určitý člen „the“."],
@@ -74,21 +74,21 @@ practice:[
 {{ex:I went to Japan last year.|/aɪ ˈwent tə dʒəˈpæn ˈlæst ˈjɪr/|Loni jsem byl / byla v Japonsku}}
 <p><b>I've seen it on my birthday.</b> ✗ → <b>I saw it on my birthday.</b> ✓</p>
 <div class="tip">Nejčastější chyba: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓</div>`,
-check:[["Jak se anglicky řekne „Byl / byla jsi někdy v Japonsku?“",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Na zkušenost se ptáš „Have you ever“ + příčestí minulé."],["I ___ never seen that movie. Co patří na vynechané místo?",["am","did","have","was"],2,"„Have“ + „never“ + příčestí minulé."],["Která věta je správně?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"Je tu „last year“, tedy dokončená doba, proto minulý čas prostý."]],
+check:[["Jak se anglicky řekne „Byl / byla jsi někdy v Japonsku?“",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Na zkušenost se ptáš „Have you ever“ + příčestí minulé."],["I ___ never seen that movie. Co patří na vynechané místo?",["am","did","have","was"],2,"„Have“ + „never“ + příčestí minulé."],["Která věta je správně?",["I went to Croatia last year.","I've been to Croatia last year.","I have go to Croatia last year.","I've went to Croatia."],0,"Je tu „last year“, tedy dokončená doba, proto minulý čas prostý."]],
 practice:[
 ["mc","Jak se anglicky řekne „V Japonsku jsem už byl / byla“?","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","„Have“ + příčestí minulé „been“."],
 ["mc","Jaké je příčestí minulé (3. tvar) slovesa „see“?","seen","saw","seed","seeing","Tři tvary: see – saw – seen."],
-["mc","Jak se anglicky řekne „Jedl / jedla jsi někdy kimči?“","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","Na zkušenost se ptáš „Have you ever“ + příčestí minulé."],
+["mc","Jak se anglicky řekne „Jedl / jedla jsi někdy sushi?“","Have you ever eaten sushi?","Did you ever eaten sushi?","Have you ever ate sushi?","Do you have eaten sushi?","Na zkušenost se ptáš „Have you ever“ + příčestí minulé."],
 ["mc","Jak se anglicky řekne „Nikdy jsem to neviděl / neviděla“?","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","„Have“ + „never“ + příčestí minulé; v angličtině stačí jeden zápor."],
-["mc","Ve větě je „loni“. Která věta je správně?","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","S dokončenou dobou je minulý čas prostý."],
+["mc","Ve větě je „loni“. Která věta je správně?","I went to Croatia last year.","I've been to Croatia last year.","I have go to Croatia last year.","I've went to Croatia last year.","S dokončenou dobou je minulý čas prostý."],
 ["or","Ten film už jsem viděl / viděla","I've seen the movie","a saw","Film, o kterém už byla řeč: určitý člen „the“."],
-["or","V Koreji jsem byl / byla dvakrát","I've been to Korea twice","went","Po „have“ následuje příčestí minulé „been“."],
+["or","V Itálii jsem byl / byla dvakrát","I've been to Italy twice","went","Po „have“ následuje příčestí minulé „been“."],
 ["or","Nikdy jsem neviděl / neviděla hada","I've never seen a snake","the snakes","Jakýkoli had, ne jeden určitý: neurčitý člen „a“."],
-["fi","Have you ever __ to Busan?","Byl / byla jsi někdy v Pusanu?","been","be|went|go","Po „have“ následuje příčestí minulé „been“."],
+["fi","Have you ever __ to Vienna?","Byl / byla jsi někdy ve Vídni?","been","be|went|go","Po „have“ následuje příčestí minulé „been“."],
 ["fi","I've __ eaten that.","To jsem nikdy nejedl / nejedla","never","ever|no|not never","„Nikdy“ je „never“; sloveso už v záporu není."],
-["fi","She __ visited Korea twice.","Navštívila Koreu dvakrát","has","have|is|did","Po „she“ je „has“."],
+["fi","She __ visited Italy twice.","Navštívila Itálii dvakrát","has","have|is|did","Po „she“ je „has“."],
 ["ty","Byl / byla jsi někdy v Japonsku?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan – zkušenost","went","Na zkušenost se ptáš „Have you ever been to …?“."],
-["ty","Tu knihu už jsem četl / četla (předpřítomný čas)","I've read the book|I've read that book","I've · read · book – určitý člen „the“","a","Kniha, o které už byla řeč: určitý člen „the“."],
+["ty","Tu knihu už jsem četl / četla (předpřítomný čas)","I've read the book|I've read that book|I've already read the book|I've read the book already|I've already read that book|I've read that book already","I've · read · book – určitý člen „the“","a","Kniha, o které už byla řeč: určitý člen „the“."],
 ["ty","Nikdy jsem neměl / neměla kočku (předpřítomný čas)","I've never had a cat","never · had · cat – neurčitý člen „a“","the","Jakákoli kočka, ne jedna určitá: neurčitý člen „a“."]]},
 { id:"modals", title:"„Have to“, „must“, „should“, „might“: povinnost, rada a možnost", blurb:"Co musíš, co nemusíš, co nesmíš a co se možná stane.", deck:"Lékař a nouzové situace", body:`
 <p>Čtyři výrazy pro povinnost, radu a možnost. Po všech následuje <b>základní tvar slovesa</b>.</p>
@@ -120,7 +120,7 @@ practice:[
 ["fi","It __ rain tomorrow.","Zítra možná bude pršet","might|may|could","must to|has to|should to","Možnost vyjádříš slovesem „might“."],
 ["ty","Musím pracovat","I have to work|I must work|I need to work","have to · work – vyjádři povinnost","should","Povinnost je „have to“."],
 ["ty","Měl / měla bys zajít k lékaři","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor – neurčitý člen „a“","the","Jakýkoli lékař, ne jeden určitý: neurčitý člen „a“."],
-["ty","Musíš si koupit jízdenku (s „have to“)","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket – neurčitý člen „a“","the","Jedna jízdenka: neurčitý člen „a“."]]},
+["ty","Musíš si koupit jízdenku (s „have to“)","You have to buy a ticket","have to · buy · ticket – neurčitý člen „a“","the","Jedna jízdenka: neurčitý člen „a“."]]},
 { id:"to-ing", title:"Sloveso po slovese: „want to“, „enjoy“ + -ing", blurb:"Po „want“ je infinitiv s „to“, po „enjoy“ tvar s -ing. Rozhoduje první sloveso.", deck:"Nezávazná konverzace", body:`
 <p>Když jdou dvě slovesa za sebou, čeština má prostě infinitiv: „chci jít“, „potřebuju spát“. Angličtina má dvě možnosti, <b>infinitiv s to</b> nebo <b>tvar s -ing</b> (gerundium), a o tom, která platí, rozhoduje první sloveso. Nejčastější slovesa se vyplatí naučit ve skupinách.</p>
 <div class="tbl"><table><tr><th>Následuje to</th><th>Následuje -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
@@ -167,7 +167,7 @@ practice:[
 check:[["I play ___ soccer. Co patří na vynechané místo?",["a","the","an","(bez členu)"],3,"Před názvy sportů člen není."],["She's from ___ United States. Co patří na vynechané místo?",["the","a","an","(bez členu)"],0,"Před „United States“ je určitý člen „the“."],["Jak se anglicky řekne „Psi jsou roztomilí“ (psi obecně)?",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"Obecné tvrzení: množné číslo bez členu."]],
 practice:[
 ["mc","I play ___ piano.","the","a","an","some","Před hudebním nástrojem je „the“."],
-["mc","Jak se anglicky řekne „Bydlím v Koreji“?","I live in Korea.","I live in the Korea.","I live in a Korea.","I live Korea in.","Před většinou názvů zemí člen není."],
+["mc","Jak se anglicky řekne „Bydlím v Rakousku“?","I live in Austria.","I live in the Austria.","I live in a Austria.","I live Austria in.","Před většinou názvů zemí člen není."],
 ["mc","Jak se anglicky řekne „Hraju fotbal“?","I play soccer.","I play the soccer.","I play a soccer.","I play soccers.","Před názvy sportů člen není."],
 ["mc","Jak se anglicky řekne „Kočky jsou roztomilé“ (kočky obecně)?","Cats are cute.","The cat are cute.","A cats are cute.","Cat is cute.","Obecné tvrzení: množné číslo bez členu."],
 ["mc","She's from ___ United States.","the","a","an","some","Před „United States“ je určitý člen „the“."],
@@ -209,7 +209,7 @@ practice:[
 ["fi","__ you need help, call me.","Jestli budeš potřebovat pomoc, zavolej mi","If|When","So|But|Because","„Jestli“ je „if“."],
 ["ty","Pomůžu ti, jestli budu mít čas","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time – po „if“ přítomný čas","will","Po „if“ se „will“ nepoužívá."],
 ["ty","Jestli bude pršet, vezmu si taxík","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi – neurčitý člen „a“","the","Jakýkoli taxík, ne jeden určitý: neurčitý člen „a“."],
-["ty","Ujede ti autobus (s „miss“)","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus – určitý člen „the“","a","Autobus, kterým chceš jet, je určitý: člen „the“."]]},
+["ty","Ujede ti autobus (s „miss“)","You'll miss the bus|You're going to miss the bus","miss · bus – určitý člen „the“","a","Autobus, kterým chceš jet, je určitý: člen „the“."]]},
 { id:"relative", title:"Vztažné věty: „who“ a „that“", blurb:"České „který“ má v angličtině několik podob. A čárka se před ním nepíše.", deck:"Nakupování a placení", body:`
 <p>Vztažná věta (relative clause) upřesňuje podstatné jméno a stojí <b>za ním</b>, stejně jako v češtině: „kniha, <i>kterou jsme koupili</i>“ → the book <b>that we bought</b>. České „který“ se ale překládá podle toho, o kom nebo o čem mluvíš.</p>
 <h3>O lidech: who</h3>
@@ -228,7 +228,7 @@ practice:[
 <p>České „všechno, co“ není <b>everything what</b>. Správně je <b>everything that</b> nebo jen <b>everything</b>. A zájmeno se ve vztažné větě neopakuje: <b>the book that I bought it</b> ✗</p>
 {{ex:That's everything I need.|/ˈðæts ˈevriθɪŋ aɪ ˈniːd/|To je všechno, co potřebuju}}
 <div class="tip">Co si zapamatovat: o lidech <b>who</b>, o věcech <b>that</b>, a nikdy <b>what</b>: <b>the book what I bought</b> ✗</div>`,
-check:[["I have a friend ___ lives in Busan. Co patří na vynechané místo?",["which","who","what","he"],1,"O lidech se říká „who“."],["Jak se anglicky řekne „kniha, kterou jsem koupil / koupila“?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Nejdřív podstatné jméno, za ním upřesnění s „that“; nikdy „what“."],["Která věta je správně?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Vztažná věta stojí hned za podstatným jménem."]],
+check:[["I have a friend ___ lives in Brno. Co patří na vynechané místo?",["which","who","what","he"],1,"O lidech se říká „who“."],["Jak se anglicky řekne „kniha, kterou jsem koupil / koupila“?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Nejdřív podstatné jméno, za ním upřesnění s „that“; nikdy „what“."],["Která věta je správně?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Vztažná věta stojí hned za podstatným jménem."]],
 practice:[
 ["mc","I have a friend ___ speaks English.","who","which","what","she","O lidech se říká „who“."],
 ["mc","Jak se anglicky řekne „kniha, kterou jsem koupil / koupila“?","the book that I bought","the I bought book","the book what I bought","the bought I book","Podstatné jméno, za ním „that“ a upřesnění; „what“ sem nepatří."],
@@ -242,6 +242,6 @@ practice:[
 ["fi","the book __ I read","kniha, kterou jsem četl / četla","that|which","who|what|it","O věcech se říká „that“."],
 ["fi","the cafe __ we met","kavárna, kde jsme se potkali","where","who|what|it","O místech se říká „where“."],
 ["ty","Tohle je ta kniha, kterou jsem koupil / koupila","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought – určitý člen „the“","a","Knihu upřesňuje vztažná věta, proto určitý člen „the“."],
-["ty","Mám kamaráda, který mluví korejsky","I have a friend who speaks Korean|I have a friend that speaks Korean","friend · who · speaks Korean – neurčitý člen „a“","the","První zmínka o jednom kamarádovi: neurčitý člen „a“."],
+["ty","Mám kamaráda, který mluví česky","I have a friend who speaks Czech|I have a friend that speaks Czech","friend · who · speaks Czech – neurčitý člen „a“","the","První zmínka o jednom kamarádovi: neurčitý člen „a“."],
 ["ty","Film, který jsme viděli, byl skvělý","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great – podstatné jméno první","what","Nejdřív podstatné jméno, upřesnění až za ním."]]},
 ];

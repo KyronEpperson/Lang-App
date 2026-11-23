@@ -72,11 +72,11 @@ module.exports = {
     { t: "mc", q: "Do you like coffee?-এর উত্তরে \"হ্যাঁ\" বলতে চাইলে", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "do দিয়ে প্রশ্ন, তাই do দিয়েই উত্তর।" },
     { t: "mc", q: "\"সে (মেয়ে) মাংস খায় না\" ইংরেজিতে?", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "she-এর না-বাচক রূপ: doesn't + ক্রিয়ার মূল রূপ, -s ছাড়া।" },
 
-    { t: "order", p: "আমার ভাই সিউলে কাজ করে", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "কর্তা একজন (he), তাই works: he / she / it-এর সঙ্গে -s। এখানে be ক্রিয়া বসে না।" },
+    { t: "order", p: "আমার ভাই ঢাকায় কাজ করে", a: ["My", "brother", "works", "in", "Dhaka"], x: ["work", "is"], why: "কর্তা একজন (he), তাই works: he / she / it-এর সঙ্গে -s। এখানে be ক্রিয়া বসে না।" },
     { t: "order", p: "আমি ছাত্র নই", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "be ক্রিয়ার না-বাচক রূপে not বসে; আর পরিচয়ের আগে আর্টিকেল a।" },
     { t: "order", p: "তার (মেয়ে) দুইটা কুকুর আছে", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "she-এর সঙ্গে has; দুইটা, তাই বহুবচনের -s বসিয়ে dogs।" },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "আমার ভাই সিউলে থাকে", a: ["lives"], o: ["live", "is live", "living"], why: "কর্তা my brother, মানে he; তাই ক্রিয়ায় -s বসে: lives।" },
+    { t: "fill", q: "My brother __ in Dhaka.", p: "আমার ভাই ঢাকায় থাকে", a: ["lives"], o: ["live", "is live", "living"], why: "কর্তা my brother, মানে he; তাই ক্রিয়ায় -s বসে: lives।" },
     { t: "fill", q: "__ you tired?", p: "তুমি কি ক্লান্ত?", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired একটা অবস্থা, তাই be ক্রিয়া দিয়ে প্রশ্ন; you-এর সঙ্গে are।" },
     { t: "fill", q: "We __ hungry.", p: "আমাদের খিদে পেয়েছে", a: ["are"], o: ["is", "am", "do"], why: "hungry একটা অবস্থা, তাই be ক্রিয়া লাগে; we-এর সঙ্গে are।" },
 
@@ -108,7 +108,7 @@ module.exports = {
   tense: [
     { t: "mc", q: "\"আমি এখন কফি খাচ্ছি\" ইংরেজিতে?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "এই মুহূর্তে চলছে এমন কাজে be + -ing; be ক্রিয়া বাদ দেওয়া যায় না।" },
     { t: "mc", q: "\"গত উইকেন্ডে আমি সমুদ্রসৈকতে গিয়েছিলাম\" ইংরেজিতে?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go-এর past রূপ went। সৈকতের আগে আর্টিকেল the বসিয়ে the beach বলা হয়।" },
-    { t: "mc", q: "আগামী মাসের পরিকল্পনা: \"আমি জেজু দ্বীপে বেড়াতে যাব\"", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "আগে থেকে ঠিক করা পরিকল্পনায় be going to + ক্রিয়ার মূল রূপ।" },
+    { t: "mc", q: "আগামী মাসের পরিকল্পনা: \"আমি কক্সবাজারে বেড়াতে যাব\"", o: ["I'm going to visit Cox's Bazar next month.", "I visit Cox's Bazar next month.", "I visited Cox's Bazar next month.", "I'm going visit Cox's Bazar next month."], why: "আগে থেকে ঠিক করা পরিকল্পনায় be going to + ক্রিয়ার মূল রূপ।" },
     { t: "mc", q: "কলিং বেল বাজল। তখনই বললেন: \"আমি দরজা খুলছি!\"", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "কথা বলার মুহূর্তে নেওয়া সিদ্ধান্তে will।" },
     { t: "mc", q: "see-এর past রূপ?", o: ["saw", "seed", "seen", "sawed"], why: "see অনিয়মিত ক্রিয়া: see - saw - seen।" },
 
@@ -130,7 +130,7 @@ module.exports = {
     { t: "mc", q: "\"মে মাসের 3 তারিখে\" ইংরেজিতে?", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "তারিখের আগে on।" },
     { t: "mc", q: "\"আমি (এখন) বাসে আছি\" ইংরেজিতে?", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "বাস-ট্রেনের বেলায় on; আর এখন যে বাসে আছেন সেটাই, তাই আর্টিকেল the।" },
     { t: "mc", q: "\"রাতে\" ইংরেজিতে?", o: ["at night", "on night", "in night", "at the night"], why: "night ব্যতিক্রম: আর্টিকেল ছাড়া at night।" },
-    { t: "mc", q: "কোন বাক্যটি ঠিক?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "শহরের আগে in; আর শহরের নামের আগে আর্টিকেল the বসে না।" },
+    { t: "mc", q: "কোন বাক্যটি ঠিক?", o: ["I live in Dhaka.", "I live at Dhaka.", "I live on Dhaka.", "I live in the Dhaka."], why: "শহরের আগে in; আর শহরের নামের আগে আর্টিকেল the বসে না।" },
 
     { t: "order", p: "(আমাদের চেনা) স্টেশনটায় দেখা করি", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "একটা নির্দিষ্ট বিন্দু বোঝাতে at; দুজনেই জানি কোন স্টেশন, তাই আর্টিকেল the।" },
     { t: "order", p: "আমার ফোনটা (ওই) টেবিলের উপরে আছে", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "কোনো কিছুর উপরে বোঝাতে on; চোখের সামনের টেবিলটাই, তাই আর্টিকেল the।" },
@@ -142,7 +142,7 @@ module.exports = {
 
     { t: "type", p: "আমি সকালে কফি খাই", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "coffee · morning — in + আর্টিকেল", x: ["at"], why: "দিনের ভাগের আগে in; আর in the morning-এ আর্টিকেল the বসাতেই হয়।" },
     { t: "type", p: "আমি এখন বাসায় আছি", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home — আর্টিকেল ছাড়া", x: ["the"], why: "at home-এ আর্টিকেল the বসে না।" },
-    { t: "type", p: "আগামী উইকেন্ডে দেখা হবে", a: ["See you next weekend"], hint: "see · next weekend — next-এর আগে preposition?", x: ["on"], why: "next-এর আগে কোনো preposition বসে না।" }
+    { t: "type", p: "আগামী উইকেন্ডে দেখা হবে", a: ["See you next weekend", "I'll see you next weekend", "I will see you next weekend"], hint: "see · next weekend — next-এর আগে preposition?", x: ["on"], why: "next-এর আগে কোনো preposition বসে না।" }
   ],
 
   smalltalk: [
@@ -150,7 +150,7 @@ module.exports = {
     { t: "mc", q: "I don't drink coffee.-এর উত্তরে \"আমিও না (আমিও খাই না)\"", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "না-বাচক বাক্যে সায় দিতে Me neither।" },
     { t: "mc", q: "আলাপ সুন্দরভাবে শেষ করতে চাইলে", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "I should get going বলে নরমভাবে বিদায় নেওয়া যায়।" },
     { t: "mc", q: "প্রথম আলাপে কোন কথাটা দিয়ে শুরু করা ভালো?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "আবহাওয়া হালকা আলাপের সবচেয়ে নিরাপদ বিষয়। বেতন, বিয়ে বা ওজনের কথা এড়িয়ে চলুন।" },
-    { t: "mc", q: "I went to Busan last weekend. শুনে আগ্রহ দেখাতে কী বলবেন?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really? আর That sounds fun! দিয়ে আগ্রহ দেখানো যায়।" },
+    { t: "mc", q: "I went to Sylhet last weekend. শুনে আগ্রহ দেখাতে কী বলবেন?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really? আর That sounds fun! দিয়ে আগ্রহ দেখানো যায়।" },
 
     { t: "order", p: "উইকেন্ডে কোনো পরিকল্পনা আছে?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "পরিকল্পনা জিজ্ঞেস করার এই বাক্যে বহুবচন plans বসে; আর সামনের উইকেন্ডটাই, তাই আর্টিকেল the।" },
     { t: "order", p: "আপনার সঙ্গে কথা বলে ভালো লাগল", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "আলাপ শেষ করার সময়ের কথা। nice-এর পরে talking বসে।" },
@@ -168,7 +168,7 @@ module.exports = {
   phrasal: [
     { t: "mc", q: "\"ওটা চালু করো\" ইংরেজিতে?", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "সর্বনাম it ফ্রেজাল ভার্বের মাঝখানে বসে: turn it on।" },
     { t: "mc", q: "\"আমাদের দুধ শেষ হয়ে গেছে\" ইংরেজিতে?", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "run out of মানে শেষ হয়ে যাওয়া। of বাদ দেবেন না।" },
-    { t: "mc", q: "\"আমি দেগুতে বড় হয়েছি\" ইংরেজিতে?", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "grow up মানে বড় হওয়া; past রূপ grew up।" },
+    { t: "mc", q: "\"আমি চট্টগ্রামে বড় হয়েছি\" ইংরেজিতে?", o: ["I grew up in Chattogram.", "I grew in Chattogram up.", "I growed up in Chattogram.", "I grew out in Chattogram."], why: "grow up মানে বড় হওয়া; past রূপ grew up।" },
     { t: "mc", q: "\"আমার বিড়ালটার দেখাশোনা করতে পারবে?\" ইংরেজিতে?", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "look after মানে দেখাশোনা করা; এটা ভাগ হয় না (look for মানে \"খোঁজা\")।" },
     { t: "mc", q: "\"আমি সাতটায় তোমাকে নিতে আসব\" ইংরেজিতে?", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "সর্বনাম you বসে pick আর up-এর মাঝখানে।" },
 
@@ -197,7 +197,7 @@ module.exports = {
     { t: "order", p: "সপ্তাহে দুইবার", a: ["twice", "a", "week"], x: ["the", "one"], why: "\"সপ্তাহে কতবার\" বোঝাতে আর্টিকেল a বসে: twice a week।" },
 
     { t: "fill", q: "It's __ quarter past ten.", p: "সোয়া দশটা বাজে", a: ["a"], o: ["the", "one", "an"], why: "quarter (পনেরো মিনিট)-এর আগে আর্টিকেল a বসে।" },
-    { t: "fill", q: "That's fifty __ won.", p: "এটার দাম পঞ্চাশ হাজার ওন (কোরিয়ার মুদ্রা)", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 হলো fifty thousand। সংখ্যার পরে thousand-এ বহুবচনের -s বসে না।" },
+    { t: "fill", q: "That's fifty __ taka.", p: "এটার দাম পঞ্চাশ হাজার টাকা", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 হলো fifty thousand। সংখ্যার পরে thousand-এ বহুবচনের -s বসে না।" },
     { t: "fill", q: "I'll be there in ten __.", p: "আমি দশ মিনিটের মধ্যে পৌঁছাব", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "দশ মিনিট, তাই বহুবচন বসে: minutes।" },
 
     { t: "type", p: "সাড়ে তিনটা বাজে", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — ঘণ্টা আর মিনিট পরপর", x: ["thirteen"], why: "ঘণ্টা আর মিনিট পরপর বলুন: three thirty। 13 (thirteen)-এর সঙ্গে গুলিয়ে ফেলবেন না।" },
@@ -237,7 +237,7 @@ module.exports = {
     { t: "order", p: "এটা আমার পছন্দের জিনিস নয়", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "not my cup of tea পুরোটা মুখস্থ করুন। my-এর জায়গায় আর্টিকেল বসে না।" },
 
     { t: "fill", q: "Kill two __ with one stone.", p: "এক ঢিলে দুই পাখি মারা", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "পাখি দুইটা, তাই বহুবচন বসে: birds।" },
-    { t: "fill", q: "Speak of the __!", p: "যার কথা হচ্ছিল, সে-ই হাজির!", a: ["devil"], o: ["tiger", "angel", "bird"], why: "ইংরেজি বাগধারাটায় devil (শয়তান) বসে: Speak of the devil!" },
+    { t: "fill", q: "Speak of the __!", p: "যার কথা হচ্ছিল, সে-ই হাজির!", a: ["devil"], o: ["ghost", "angel", "bird"], why: "ইংরেজি বাগধারাটায় devil (শয়তান) বসে: Speak of the devil!" },
     { t: "fill", q: "I'm feeling under __ weather.", p: "শরীরটা ভালো লাগছে না", a: ["the"], o: ["a", "an", "my"], why: "under the weather: আর্টিকেল the যেমন আছে তেমনই বসে।" },
 
     { t: "type", p: "এটা পানির মতো সহজ (cake দিয়ে বাগধারা)", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — আর্টিকেল ভুলবেন না", x: ["the"], why: "a piece of cake: আর্টিকেল a বসাতেই হয়।" },

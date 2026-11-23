@@ -26,6 +26,7 @@ Liza, Reyes, Makati, Boracay and Davao appear only in translations, dialogue lin
 ## B. Words first transcribed in this course
 - Pair cards and pair rows: ship /ˈʃɪp/, sheep /ˈʃiːp/, full /ˈfʊl/, fool /ˈfuːl/, cat /ˈkæt/, cut /ˈkʌt/, cot /ˈkɑːt/, zoo /ˈzuː/, Sue /ˈsuː/, his /ˈhɪz/, hiss /ˈhɪs/. **His** takes ˈ only as a citation word on its own card or row; inside a sentence it is the weak /hɪz/ of the zh course.
 - Ingles-Pinoy deck and lesson: power outage /ˈpaʊər ˈaʊtɪdʒ/, fridge /ˈfrɪdʒ/, sneakers /ˈsniːkərz/, traffic /ˈtræfɪk/, salvage /ˈsælvɪdʒ/, bold /ˈboʊld/, prepaid /ˌpriːˈpeɪd/, bottled /ˈbɑːtld/, marker /ˈmɑːrkər/, bunk /ˈbʌŋk/, graduated /ˈgrædʒueɪtɪd/, mistake /mɪˈsteɪk/, opinion /əˈpɪnjən/, regarding /rɪˈgɑːrdɪŋ/, January /ˈdʒænjueri/, cope /ˈkoʊp/, result /rɪˈzʌlt/, based /ˈbeɪst/, form /ˈfɔːrm/.
+- Pre-merge review cards: huge /ˈhjuːdʒ/ (I'm a huge fan!), went over my head /ˈwent ˈoʊvər maɪ ˈhed/ (two-syllable *over* of the idiom *go over someone's head* keeps ˈ, as in pull over /ˈpʊl ˈoʊvər/; zh C.3 polysyllable rule).
 - Others: basketball /ˈbæskɪtbɔːl/, vegetables /ˈvedʒtəblz/, nature /ˈneɪtʃər/, author /ˈɔːθər/, hour /ˈaʊər/, kid /ˈkɪd/, still /ˈstɪl/, took /ˈtʊk/.
 - In prose only (pron lesson): ceremony /ˈserəmoʊni/, comfortable /ˈkʌmftəbl/, dogs /ˈdɔːgz/, back /ˈbæk/, shop /ˈʃɑːp/.
 

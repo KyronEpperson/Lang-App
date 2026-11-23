@@ -29,7 +29,7 @@ practice:[
 ["fi","__ there any seats?","Jsou tu volná místa?","Are","Is|Do|Have","„Seats“ je množné číslo, proto „Are“."],
 ["ty","Dnes je horko","It's hot today","it · hot · today – počasí začíná slovem „it“","There's","Počasí začíná podmětem „it“."],
 ["ty","Je tady toaleta?","Is there a bathroom here|Is there a restroom here","is there · bathroom – pozor na člen","the","Ptáš se poprvé na jednu toaletu, proto neurčitý člen „a“."],
-["ty","Jsou tu dva pokoje","There are two rooms","there are · two · room – množné číslo","room","Pokoje jsou dva, proto množné číslo „rooms“."]]},
+["ty","Jsou tu dva pokoje","There are two rooms|There are two rooms here","there are · two · room – množné číslo","room","Pokoje jsou dva, proto množné číslo „rooms“."]]},
 { id:"plurals", title:"Množné číslo: -s, „this“ / „these“ a „my“ / „your“", blurb:"Množné číslo čeština zná. Nové je slyšitelné -s, „these“ pro víc věcí a žádný člen vedle „my“.", deck:"Nakupování a placení", body:`
 <p>Množné číslo znáš z češtiny, takže myšlenka je snadná. Angličtina na ně má jedinou koncovku: <b>-s</b>. Chybuje se jinde: ve výslovnosti, u slov <b>this</b> a <b>these</b> a u několika podstatných jmen, která se v češtině chovají jinak.</p>
 <h3>Jak se množné číslo tvoří</h3>
@@ -80,7 +80,7 @@ check:[["Jak se správně anglicky řekne „Piju kávu“?",["I coffee drink.",
 practice:[
 ["mc","Jak se anglicky řekne „Učím se anglicky“?","I study English.","I English study.","I am study English.","Study I English.","Pořadí je podmět + sloveso + předmět."],
 ["mc","Jak se anglicky řekne „Nejím maso“?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","Zápor se tvoří pomocí „don't“ před slovesem."],
-["mc","Jak se anglicky řekne „Bydlíme v Soulu“?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","Místo stojí až za slovesem."],
+["mc","Jak se anglicky řekne „Bydlíme v Praze“?","We live in Prague.","We in Prague live.","We are live in Prague.","We live Prague in.","Místo stojí až za slovesem."],
 ["mc","Jak se anglicky řekne „Obvykle vstávám v sedm“?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","„Usually“ stojí těsně před slovesem."],
 ["mc","Která věta mluví o tom, co děláš každý den?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","Zvyk se říká přítomným časem prostým."],
 ["or","Každý den piju kávu","I drink coffee every day","the am","Zvyk má přítomný čas prostý. Káva obecně je bez členu, „the“ sem nepatří."],
@@ -88,8 +88,8 @@ practice:[
 ["or","O víkendech pracujeme","We work on weekends","are","Před sloveso „work“ se nepřidává „are“."],
 ["fi","I __ like fish.","Ryby mi nechutnají","don't|do not","not|am not|no","Zápor se tvoří pomocí „don't“."],
 ["fi","I __ English every day.","Každý den se učím anglicky","study","am study|studying|to study","V přítomném čase prostém zůstává sloveso v základním tvaru."],
-["fi","They live __ Busan.","Bydlí v Pusanu","in","at|on|to","Před názvem města je „in“."],
-["ty","Piju čaj","I drink tea","drink · tea – bez členu","a","Čaj obecně je nepočitatelný a bez členu."],
+["fi","They live __ Brno.","Bydlí v Brně","in","at|on|to","Před názvem města je „in“."],
+["ty","Piju čaj (obvykle, zvyk)","I drink tea","drink · tea – bez členu","a","Čaj obecně je nepočitatelný a bez členu."],
 ["ty","Mám rád / ráda kočky","I like cats","like · cat – množné číslo","cat","Když mluvíš o kočkách obecně, použij množné číslo bez členu: „cats“."],
 ["ty","Nejím maso","I don't eat meat","don't · eat · meat – zápor","am","Zápor se tvoří pomocí „don't“."]]},
 { id:"questions", title:"Otázky: „Do you …?“ a tázací slova", blurb:"Jen zvednout hlas nestačí. „Do“ patří na začátek věty a tázací slovo ještě před něj.", deck:"Základní fráze 2", body:`
@@ -132,9 +132,9 @@ practice:[
 <p>Když použiješ <b>doesn't</b> nebo <b>Does</b>, koncovka -s se přestěhuje tam. Sloveso za ním zůstane v základním tvaru.</p>
 {{ex:He doesn't drink coffee.|/hi ˈdʌznt ˈdrɪŋk ˈkɔːfi/|On nepije kávu}}{{ex:Does she live here?|/dəz ʃi ˈlɪv ˈhɪr/|Bydlí ona tady?}}
 <div class="tip">Nejčastější chyby: <b>She work here.</b> ✗ → <b>She works here.</b> ✓ / <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
-check:[["She ___ in Seoul. Co patří na vynechané místo?",["live","lives","living","is live"],1,"Po „she“ má sloveso koncovku -s."],["He ___ like coffee. Co patří na vynechané místo?",["don't","isn't","doesn't","not"],2,"Zápor po „he“ je „doesn't“."],["Jak se anglicky řekne „Ona má auto“?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"„Have“ se po „she“ mění na „has“."]],
+check:[["She ___ in Prague. Co patří na vynechané místo?",["live","lives","living","is live"],1,"Po „she“ má sloveso koncovku -s."],["He ___ like coffee. Co patří na vynechané místo?",["don't","isn't","doesn't","not"],2,"Zápor po „he“ je „doesn't“."],["Jak se anglicky řekne „Ona má auto“?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"„Have“ se po „she“ mění na „has“."]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","Bratr je jedna osoba, proto „works“."],
+["mc","My brother ___ in Brno.","works","work","working","is work","Bratr je jedna osoba, proto „works“."],
 ["mc","Jak se anglicky řekne „On nepije kávu“?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","Zápor po „he“ je „doesn't“ a základní tvar slovesa."],
 ["mc","Jak se anglicky zeptáš: „Bydlí ona tady?“","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Po „Does“ je sloveso bez -s."],
 ["mc","have → she ___","has","haves","have","is have","„Have“ se mění na „has“."],
@@ -145,7 +145,7 @@ practice:[
 ["fi","He __ soccer.","On má rád fotbal","likes","like|liking|is like","Po „he“ je „likes“."],
 ["fi","__ she speak English?","Mluví ona anglicky?","Does","Do|Is|Are","Otázka po „she“ začíná „Does“."],
 ["fi","She __ to work at eight.","Ona chodí do práce na osmou","goes","go|going|gos","„Go“ má ve 3. osobě tvar „goes“."],
-["ty","On má auto","He has a car","has · car – člen „a“","have","Po „he“ je „has“; auto je jedno, proto neurčitý člen „a“."],
+["ty","On má auto (sloveso „have“, bez „got“)","He has a car","has · car – člen „a“","have","Po „he“ je „has“; auto je jedno, proto neurčitý člen „a“."],
 ["ty","Ona má ráda kočky","She likes cats","likes · cat – množné číslo","cat","Po „she“ je „likes“; o kočkách obecně mluvíš v množném čísle: „cats“."],
 ["ty","On tady nebydlí","He doesn't live here","doesn't · live · here – zápor","lives","Po „doesn't“ je základní tvar slovesa."]]},
 { id:"countable", title:"Počitatelná a nepočitatelná podstatná jména: „some“, „any“, „much“, „many“", blurb:"„Information“, „advice“ a „money“ nemají v angličtině množné číslo. A české „hodně“ je jednou „many“, jindy „much“.", deck:"Restaurace", body:`
@@ -167,7 +167,7 @@ practice:[
 ["mc","How ___ time do we have?","much","many","any","a","„Time“ je nepočitatelné, proto „much“."],
 ["mc","Jak se anglicky zeptáš: „Máte nějaké otázky?“","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","Počitatelné podstatné jméno je po „any“ v množném čísle."],
 ["mc","Jak se anglicky řekne „sklenice vody“?","a glass of water","a water glass of","one waters","a glass water","Nepočitatelné věci se počítají pomocí „a glass of“."],
-["mc","I have ___ friends in Seoul.","many","much","a","an","„Friends“ je počitatelné a v množném čísle, proto „many“."],
+["mc","I have ___ friends in Prague.","many","much","a","an","„Friends“ je počitatelné a v množném čísle, proto „many“."],
 ["or","Mám nějaké peníze","I have some money","a moneys","„Money“ je nepočitatelné: bez členu „a“ a bez -s."],
 ["or","Dvě jablka, prosím","Two apples please","apple","Po „two“ je množné číslo „apples“."],
 ["or","Nemám moc času","I don't have much time","many","„Time“ je nepočitatelné, proto „much“, ne „many“."],
@@ -203,7 +203,7 @@ practice:[
 ["fi","I work with __.","Pracuju s ním","him","he|his|he's","I za předložkou stojí předmětový tvar."],
 ["fi","She __ a dog.","Ona má psa","has","have|is|haves","Po „she“ je „has“."],
 ["ty","Můžeš mi pomoct?","Can you help me|Could you help me","can you · help · me – tvar za slovesem","I","Za slovesem stojí předmětový tvar „me“."],
-["ty","Máš propisku?","Do you have a pen","do you have · pen – člen „a“","the","Hledáš jakoukoli jednu propisku, proto neurčitý člen „a“."],
+["ty","Máš propisku?","Do you have a pen|Have you got a pen","do you have · pen – člen „a“","the","Hledáš jakoukoli jednu propisku, proto neurčitý člen „a“."],
 ["ty","Mám hodně kamarádů","I have many friends|I have a lot of friends","have · many · friend – množné číslo","friend","Po „many“ je množné číslo „friends“."]]},
 { id:"can-like", title:"„Can“, „like“ + -ing a „I'd like“: co umíš, co tě baví a co si přeješ", blurb:"Jak říct, co umíš, co tě baví a co si právě teď přeješ.", deck:"Nezávazná konverzace", body:`
 <p>Tři vazby, které hned využiješ při představování a při objednávání.</p>
@@ -219,7 +219,7 @@ practice:[
 <div class="tip">Nejčastější chyby: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓ / <b>I very like it.</b> ✗ → <b>I really like it.</b> ✓ / v kavárně <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
 check:[["She can ___ very well. Co patří na vynechané místo?",["sings","sing","singing","to sing"],1,"Po „can“ je základní tvar slovesa."],["Jak se anglicky řekne „Vaření mě baví“?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"Po „like“ je tvar s -ing."],["Která věta se nejlépe hodí pro objednávku v kavárně?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"Co chceš právě teď, řekneš zdvořile pomocí „I'd like“."]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","Po „can“ je základní tvar slovesa, bez -s."],
+["mc","He can ___ Czech.","speak","speaks","speaking","to speak","Po „can“ je základní tvar slovesa, bez -s."],
 ["mc","Jak se anglicky řekne „Neumím řídit“?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","Zápor slovesa „can“ je „can't“."],
 ["mc","Jak se anglicky řekne „Baví mě dívat se na filmy“?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","Po „like“ je tvar s -ing; o filmech obecně mluvíš v množném čísle: „movies“."],
 ["mc","Jak si anglicky objednáš: „Dám si kávu, prosím“?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","Co chceš právě teď, řekneš pomocí „I'd like“."],
@@ -231,7 +231,7 @@ practice:[
 ["fi","I like __ music.","Baví mě poslouchat hudbu","listening to","listen to|listen|to listening","Po „like“ je tvar s -ing."],
 ["fi","__ like a sandwich, please.","Dám si sendvič, prosím","I'd|I would","I|I'm|I can","Objednáváš pomocí „I'd like“."],
 ["ty","Vaření mě baví","I like cooking|I love cooking|I like to cook","like · cook – tvar s -ing","cook","Po „like“ je tvar s -ing."],
-["ty","Dám si sendvič","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich – člen „a“","the","Objednáváš jakýkoli jeden sendvič, proto neurčitý člen „a“."],
+["ty","Dám si sendvič","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich|I'll have a sandwich|I'll have a sandwich please","I'd like · sandwich – člen „a“","the","Objednáváš jakýkoli jeden sendvič, proto neurčitý člen „a“."],
 ["ty","Mám rád / ráda psy","I like dogs|I love dogs","like · dog – množné číslo","dog","O psech obecně mluvíš v množném čísle: „dogs“."]]},
 { id:"continuous", title:"Právě teď: „be“ + -ing", blurb:"Co děláš běžně, říká přítomný čas prostý. Co děláš právě teď, říká „be“ a tvar s -ing.", deck:"Nezávazná konverzace", body:`
 <p>České „Hraju tenis“ znamená „hraju ho pravidelně“ i „hraju ho právě teď“. Angličtina to rozlišuje. Co se děje <b>v tuto chvíli</b>, má přítomný čas průběhový (Present Continuous): <b>be + tvar s -ing</b>.</p>
@@ -287,8 +287,8 @@ practice:[
 ["fi","I __ soccer yesterday.","Včera jsem hrál / hrála fotbal","played","play|playing|was play","Minulý čas má koncovku -ed."],
 ["fi","__ you work yesterday?","Pracoval / pracovala jsi včera?","Did","Were|Do|Was","Otázka v minulém čase začíná „Did“."],
 ["ty","Byl jsem unavený","I was tired","was · tired – minulý čas","were","Po „I“ je „was“."],
-["ty","Díval / dívala jsem se na film","I watched a movie","watched · movie – člen „a“","the","Film byl jeden a zmiňuješ ho poprvé, proto neurčitý člen „a“."],
-["ty","Volal / volala jsem kamarádům","I called my friends","called · my · friend – množné číslo","friend","Kamarádů bylo víc, proto množné číslo „friends“."]]},
+["ty","Díval / dívala jsem se na film (minulý čas prostý)","I watched a movie","watched · movie – člen „a“","the","Film byl jeden a zmiňuješ ho poprvé, proto neurčitý člen „a“."],
+["ty","Volal / volala jsem kamarádům (minulý čas prostý)","I called my friends","called · my · friend – množné číslo","friend","Kamarádů bylo víc, proto množné číslo „friends“."]]},
 { id:"irregular-past", title:"Nepravidelná slovesa v minulém čase: „went“, „ate“, „saw“", blurb:"Právě nejběžnější slovesa koncovku -ed nemají. Začni těmito dvanácti.", deck:"Nezávazná konverzace", body:`
 <p>Slovesa, která používáš každý den, mají minulý tvar <b>nepravidelný</b>. Tabulku tří tvarů (go – went – gone) znáš ze školy. Tady potřebuješ ten druhý, minulý tvar. Pravidlo neexistuje, proto se uč dvojice.</p>
 <div class="tbl"><table><tr><th>Základní tvar</th><th>Minulý tvar</th><th>Základní tvar</th><th>Minulý tvar</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
@@ -307,10 +307,10 @@ practice:[
 ["or","Viděl / viděla jsem film","I saw a movie","see movies","Film byl jeden: neurčitý člen „a“ a jednotné číslo „movie“. Minulý tvar slovesa „see“ je „saw“."],
 ["or","Jedli jsme pizzu","We ate pizza","eated","Minulý tvar slovesa „eat“ je „ate“."],
 ["or","Sešel / sešla jsem se s kamarády","I met my friends","friend meet","Kamarádů bylo víc, proto množné číslo „friends“."],
-["fi","I __ to Jeju last year.","Loni jsem jel / jela na Čedžu","went","go|goed|gone","Minulý tvar slovesa „go“ je „went“."],
+["fi","I __ to Croatia last year.","Loni jsem jel / jela do Chorvatska","went","go|goed|gone","Minulý tvar slovesa „go“ je „went“."],
 ["fi","What did you __?","Co jsi jedl / jedla?","eat","ate|eaten|eating","Po „did“ je základní tvar slovesa."],
 ["fi","She __ a new phone.","Koupila si nový telefon","bought","buyed|buy|buys","Minulý tvar slovesa „buy“ je „bought“."],
-["ty","Jel / jela jsem do Pusanu","I went to Busan","went · to · Busan – minulý tvar","go","Minulý tvar slovesa „go“ je „went“."],
+["ty","Jel / jela jsem do Brna","I went to Brno","went · to · Brno – minulý tvar","go","Minulý tvar slovesa „go“ je „went“."],
 ["ty","Koupil / koupila jsem si knihu","I bought a book","bought · book – člen „a“","the","Kniha je jedna a zmiňuješ ji poprvé, proto neurčitý člen „a“."],
 ["ty","Sešel / sešla jsem se s kamarády","I met my friends|I saw my friends","met · my · friend – množné číslo","friend","Kamarádů bylo víc, proto množné číslo „friends“."]]},
 { id:"the", title:"Člen „the“ podruhé: kdy ano a kdy žádný člen", blurb:"Poprvé „a“, podruhé „the“. Praha je bez členu, ale Česká republika ho má.", deck:"Cesta a doprava", body:`
@@ -383,7 +383,7 @@ practice:[
 <div class="tip">V řeči zní <b>going to</b> jako <b>gonna</b>. A nezapomeň na sloveso <b>be</b>: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
 check:[["Jak se anglicky řekne „Zítra se sejdu s kamarádem“?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"Vazba je „be“ + „going to“ + základní tvar slovesa."],["She ___ going to study. Co patří na vynechané místo?",["am","are","is","be"],2,"K „she“ patří „is“."],["Jak se anglicky zeptáš: „Co budeš dělat o víkendu?“",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Pořadí je tázací slovo + „be“ + podmět + „going to“."]],
 practice:[
-["mc","Jak se anglicky řekne „Pojedu do Pusanu“?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","Vazba je „be“ + „going to“ + základní tvar slovesa."],
+["mc","Jak se anglicky řekne „Pojedu do Brna“?","I'm going to go to Brno.","I going to go to Brno.","I'm going go to Brno.","I'm go to Brno going.","Vazba je „be“ + „going to“ + základní tvar slovesa."],
 ["mc","They ___ going to come.","are","is","am","be","K „they“ patří „are“."],
 ["mc","Jak se anglicky řekne „Bude pršet“?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","Po „going to“ je základní tvar slovesa."],
 ["mc","Jak se anglicky řekne „Nepůjdu“?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","„Not“ stojí hned za slovesem „be“."],
@@ -423,13 +423,13 @@ practice:[
 ["fi","I'm tired __ happy.","Jsem unavená, ale šťastná","but","so|because|or","České „ale“ je „but“."],
 ["fi","I stayed home __ it was raining.","Zůstal / zůstala jsem doma, protože pršelo","because","so|but|or","Nejdřív výsledek, potom důvod: „because“."],
 ["fi","Coffee __ tea?","Kávu, nebo čaj?","or","so|but|because","Výběr ze dvou možností: „or“."],
-["ty","Mám rád / ráda kávu a čaj","I like coffee and tea","like · coffee · and · tea – bez členu","a","Káva a čaj obecně jsou nepočitatelné a bez členu."],
+["ty","Mám rád / ráda kávu a čaj","I like coffee and tea|I like tea and coffee","like · coffee · and · tea – bez členu","a","Káva a čaj obecně jsou nepočitatelné a bez členu."],
 ["ty","Jsem unavená, ale šťastná","I'm tired but happy|I'm tired but I'm happy","tired · but · happy – česky „ale“","so","České „ale“ je „but“."],
 ["ty","Mám rád / ráda psy a kočky","I like dogs and cats|I like cats and dogs","dog · and · cat – množné číslo","dog","O zvířatech obecně mluvíš v množném čísle: „dogs“, „cats“."]]},
 { id:"czenglish", title:"Czenglish: falešní přátelé a čechismy", blurb:"„Actual“ neznamená „aktuální“ a „How is it called?“ anglicky nikdo neřekne. Nejčastější pasti české angličtiny.", deck:"Falešní přátelé a čechismy", body:`
 <p>Hodně chyb, které Češi v angličtině dělají, nejsou chyby v gramatice, ale ve slovech. Anglické slovo vypadá jako české, a znamená něco jiného (<b>actual</b> není „aktuální“). Jedno české slovo má dva anglické překlady („učit“ je <b>teach</b>, „učit se“ je <b>learn</b>). A doslovný překlad dá větu, kterou angličtina nezná (<b>How is it called?</b>). Této směsi se říká Czenglish.</p>
 <h3>Falešní přátelé</h3>
-<div class="tbl"><table><tr><th>Česky</th><th>Špatně ✗</th><th>Správně ✓</th><th>Falešný přítel znamená</th></tr><tr><td>aktuální</td><td><b>actual</b></td><td class="k">current</td><td>skutečný</td></tr><tr><td>eventuálně</td><td><b>eventually</b></td><td class="k">possibly</td><td>nakonec</td></tr><tr><td>sympatický</td><td><b>sympathetic</b></td><td class="k">nice</td><td>soucitný</td></tr><tr><td>kontrola (u lékaře)</td><td><b>control</b></td><td class="k">check-up</td><td>ovládání, řízení</td></tr><tr><td>konkrétní</td><td><b>concrete</b></td><td class="k">specific</td><td>beton, betonový; hmatatelný</td></tr><tr><td>gymnázium</td><td><b>gymnasium</b></td><td class="k">high school</td><td>tělocvična</td></tr><tr><td>novela</td><td><b>novel</b></td><td class="k">novella</td><td>román</td></tr><tr><td>bilion</td><td><b>billion</b></td><td class="k">trillion</td><td>miliarda</td></tr></table></div>
+<div class="tbl"><table><tr><th>Česky</th><th>Špatně ✗</th><th>Správně ✓</th><th>Falešný přítel znamená</th></tr><tr><td>aktuální</td><td><b>actual</b></td><td class="k">current</td><td>skutečný</td></tr><tr><td>aktuálně</td><td><b>actually</b></td><td class="k">currently</td><td>vlastně, ve skutečnosti</td></tr><tr><td>aktuálně</td><td><b>actually</b></td><td class="k">currently</td><td>vlastně, ve skutečnosti</td></tr><tr><td>eventuálně</td><td><b>eventually</b></td><td class="k">possibly</td><td>nakonec</td></tr><tr><td>sympatický</td><td><b>sympathetic</b></td><td class="k">nice</td><td>soucitný</td></tr><tr><td>kontrola (u lékaře)</td><td><b>control</b></td><td class="k">check-up</td><td>ovládání, řízení</td></tr><tr><td>konkrétní</td><td><b>concrete</b></td><td class="k">specific</td><td>beton, betonový; hmatatelný</td></tr><tr><td>gymnázium</td><td><b>gymnasium</b></td><td class="k">high school</td><td>tělocvična</td></tr><tr><td>novela</td><td><b>novel</b></td><td class="k">novella</td><td>román</td></tr><tr><td>bilion</td><td><b>billion</b></td><td class="k">trillion</td><td>miliarda</td></tr></table></div>
 {{ex:What's the current price?|/ˈwʌts ðə ˈkɜːrənt ˈpraɪs/|Jaká je aktuální cena?}}{{ex:She's very nice.|/ʃiz ˈveri ˈnaɪs/|Je moc sympatická}}{{ex:He goes to high school.|/hi ˈgoʊz tə ˈhaɪ ˈskuːl/|Chodí na gymnázium}}{{ex:I went to the doctor for a check-up.|/aɪ ˈwent tə ðə ˈdɑːktər fər ə ˈtʃekʌp/|Byl / byla jsem u lékaře na kontrole}}
 <p>Když slovo vyměníš, nezapomeň na člen a číslo. <b>Check-up</b> je počitatelné podstatné jméno, a tak chce <b>a</b>. Spojení <b>go to high school</b> je bez členu, stejně jako <b>go to work</b>.</p>
 <h3>Jedno české slovo, dvě anglická</h3>
@@ -439,7 +439,7 @@ practice:[
 <div class="tbl"><table><tr><th>Česky</th><th>Čechismus ✗</th><th>Anglicky ✓</th></tr><tr><td>Jak se to jmenuje?</td><td><b>How is it called?</b></td><td class="k">What is it called?</td></tr><tr><td>Můžu mít dotaz?</td><td><b>Can I have a question?</b></td><td class="k">Can I ask a question?</td></tr><tr><td>Je mu 22 let.</td><td><b>He is 22 years.</b></td><td class="k">He's 22. / He's 22 years old.</td></tr><tr><td>všechno, co potřebuju</td><td><b>everything what I need</b></td><td class="k">everything that I need</td></tr><tr><td>základní škola</td><td><b>basic school</b></td><td class="k">elementary school</td></tr><tr><td>Jsem z Česka.</td><td><b>I'm from Czech.</b></td><td class="k">I'm from the Czech Republic.</td></tr></table></div>
 {{ex:What is it called?|/ˈwʌt ɪz ɪt ˈkɔːld/|Jak se to jmenuje?}}{{ex:Can I ask a question?|/kən aɪ ˈæsk ə ˈkwestʃən/|Můžu mít dotaz?}}{{ex:He's 22 years old.|/hiz ˌtwentiˈtuː ˈjɪrz ˈoʊld/|Je mu 22 let}}{{ex:I'm from the Czech Republic.|/aɪm frəm ðə ˈtʃek rɪˈpʌblɪk/|Jsem z České republiky}}{{ex:She gave me some advice.|/ʃi ˈgeɪv mi ˈsʌm ədˈvaɪs/|Dala mi pár rad}}
 <p><b>Advice</b> je nepočitatelné, i když jsou české „rady“ v množném čísle: bez <b>a</b> a bez <b>-s</b>. Krátký název země je <b>Czechia</b>. Samotné <b>Czech</b> je jen přídavné jméno a název jazyka.</p>
-<div class="tip">Když anglické slovo vypadá jako české, ověř si ho ve slovníku: <b>actual</b>, <b>eventually</b>, <b>sympathetic</b> a <b>control</b> jsou jen podobná. Časté chyby: <b>I learned him English.</b> ✗ → <b>I taught him English.</b> ✓ / <b>How is it called?</b> ✗ → <b>What is it called?</b> ✓</div>`,
+<div class="tip">Když anglické slovo vypadá jako české, ověř si ho ve slovníku: <b>actual</b>, <b>actually</b>, <b>eventually</b>, <b>sympathetic</b> a <b>control</b> jsou jen podobná. Časté chyby: <b>I learned him English.</b> ✗ → <b>I taught him English.</b> ✓ / <b>How is it called?</b> ✗ → <b>What is it called?</b> ✓</div>`,
 check:[["Jak se anglicky řekne „Chodí na gymnázium“?",["He goes to gymnasium.","He goes to high school.","He goes to basic school.","He goes to a gymnasium school."],1,"Gymnázium je „high school“. „Gymnasium“ je falešný přítel a znamená tělocvična."],["Jak se anglicky zeptáš: „Jak se to jmenuje?“",["What is it called?","How is it called?","How does it call?","What is it call?"],0,"Na název se anglicky ptáš slovem „what“. „How is it called?“ je čechismus."],["Jak se anglicky řekne „Výlet byl zábavný“?",["The trip was funny.","The trip was a fun.","The trip was funning.","The trip was fun."],3,"Zábavný ve smyslu příjemný je „fun“. „Funny“ znamená směšný nebo vtipný."]],
 practice:[
 ["mc","Jak se anglicky řekne „Je moc sympatická“?","She's very nice.","She's very sympathetic.","She's very sympathy.","She's very actual.","Sympatický je „nice“. „Sympathetic“ je falešný přítel a znamená soucitný."],

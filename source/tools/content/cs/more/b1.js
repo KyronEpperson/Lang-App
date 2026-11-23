@@ -25,7 +25,7 @@ practice:[
 ["mc","Jak se anglicky řekne „Už jsi jedl / jedla?“","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","„Už“ v otázce je „yet“ na konci věty."],
 ["or","Bydlím tady pět let","I've lived here for five years","year since","Trvá to dodnes, proto předpřítomný čas; po „five“ je množné číslo „years“."],
 ["or","Ten film už jsem viděl / viděla","I've already seen the movie","a saw","Film, o kterém už byla řeč: určitý člen „the“."],
-["or","Jak dlouho čekáš?","How long have you waited","did","Trvá to dodnes: „How long have you“ + příčestí minulé."],
+["or","Jak dlouho už čekáš?","How long have you been waiting","did","Trvá to dodnes a pořád to probíhá: „How long have you been“ + tvar s -ing."],
 ["fi","I've worked here __ two years.","Pracuju tady dva roky","for","since|from|during","Dobu trvání (jak dlouho) uvádí „for“."],
 ["fi","I've been here __ Monday.","Jsem tady od pondělí","since","for|at|during","Počátek (odkdy) uvádí „since“."],
 ["fi","Have you finished __?","Už máš hotovo?","yet|already","ever|never|since","„Už“ v otázce je „yet“."],
@@ -36,7 +36,7 @@ practice:[
 <p>Čeština má jeden minulý čas. Angličtina má na stejném místě dva: minulý čas prostý (Past Simple) a předpřítomný čas (Present Perfect). Chybuje se oběma směry: předpřítomný čas chybí tam, kde být má, a objevuje se tam, kde být nemá. Stačí tři rozhodnutí.</p>
 <h3>1. Český přítomný čas + doba trvání → předpřítomný čas</h3>
 <p>Když něco začalo dřív a trvá dodnes, čeština má přítomný čas. Angličtina ne.</p>
-{{ex:I've lived here for five years.|/aɪv ˈlɪvd ˈhɪr fər ˈfaɪv ˈjɪrz/|Bydlím tady pět let}}{{ex:I've been teaching her for three years.|/aɪv bɪn ˈtiːtʃɪŋ hər fər ˈθriː ˈjɪrz/|Učím ji tři roky}}{{ex:It's been open for two years.|/ɪts bɪn ˈoʊpən fər ˈtuː ˈjɪrz/|Je to otevřené dva roky}}
+{{ex:I've lived here for five years.|/aɪv ˈlɪvd ˈhɪr fər ˈfaɪv ˈjɪrz/|Bydlím tady už pět let}}{{ex:I've been teaching her for three years.|/aɪv bɪn ˈtiːtʃɪŋ hər fər ˈθriː ˈjɪrz/|Učím ji tři roky}}{{ex:It's been open for two years.|/ɪts bɪn ˈoʊpən fər ˈtuː ˈjɪrz/|Má otevřeno už dva roky}}
 <p><b>I live here five years.</b> ✗ <b>It's open for two years.</b> ✗</p>
 <h3>2. Český minulý čas + výsledek platí teď → předpřítomný čas</h3>
 <p>Stalo se to v minulosti, neříkáš kdy, a důležité je, jak to vypadá teď.</p>
@@ -145,17 +145,17 @@ practice:[
 <h3>Činný a trpný rod</h3>
 <div class="tbl"><table><tr><th>Činný rod</th><th>Trpný rod</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
 <div class="tip">Nejčastější chyba: chybí sloveso <b>be</b>. <b>My phone stolen.</b> ✗ → <b>My phone was stolen.</b> ✓</div>`,
-check:[["My bag ___ stolen yesterday. Co patří na vynechané místo?",["is","was","did","has"],1,"Stalo se to včera, proto „was“ + příčestí minulé."],["This phone ___ made in Korea. Co patří na vynechané místo?",["was","did","has","does"],0,"Trpný rod je „be“ + příčestí minulé."],["Jak se anglicky řekne „Schůzka byla zrušena“?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"„Be“ + příčestí minulé „canceled“."]],
+check:[["My bag ___ stolen yesterday. Co patří na vynechané místo?",["is","was","did","has"],1,"Stalo se to včera, proto „was“ + příčestí minulé."],["This phone ___ made in Germany. Co patří na vynechané místo?",["was","did","has","does"],0,"Trpný rod je „be“ + příčestí minulé."],["Jak se anglicky řekne „Schůzka byla zrušena“?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"„Be“ + příčestí minulé „canceled“."]],
 practice:[
 ["mc","My phone ___ stolen.","was","did","has","is steal","Trpný rod je „be“ + příčestí minulé."],
-["mc","Jak se anglicky řekne „Tohle bylo vyrobeno v Koreji“?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","„Be“ + příčestí minulé „made“."],
+["mc","Jak se anglicky řekne „Tohle bylo vyrobeno v Německu“?","This was made in Germany.","This made in Germany.","This was make in Germany.","This did made in Germany.","„Be“ + příčestí minulé „made“."],
 ["mc","Jak se anglicky řekne „Tady se mluví anglicky“?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","České „se“ je tady trpný rod: „is“ + příčestí minulé."],
 ["mc","Jak se anglicky řekne „Schůzka byla zrušena“?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","Schůzka se nezruší sama, proto „was“ + příčestí minulé."],
 ["mc","Jak se anglicky řekne „Snídaně se podává v sedm“?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","Před názvy denních jídel člen není; trpný rod je „is“ + příčestí minulé."],
 ["or","Ukradli mi tašku","My bag was stolen","stole","Po „be“ následuje příčestí minulé „stolen“."],
 ["or","Schůzka byla zrušena","The meeting was canceled","A meetings","Schůzka, o které už byla řeč: určitý člen „the“."],
 ["or","Okno bylo rozbité","The window was broken","a windows","Jde o toto okno tady: určitý člen „the“."],
-["fi","This was __ in Korea.","Tohle bylo vyrobeno v Koreji","made","make|making|makes","Po „be“ následuje příčestí minulé."],
+["fi","This was __ in Germany.","Tohle bylo vyrobeno v Německu","made","make|making|makes","Po „be“ následuje příčestí minulé."],
 ["fi","The room __ cleaned every day.","Pokoj se uklízí každý den","is|gets","does|has|did","Co se děje běžně: „is“ + příčestí minulé."],
 ["fi","It was written __ Han Kang.","Napsala to Han Kang","by","from|of|with","Autora uvádí „by“, ne „from“."],
 ["ty","Ukradli mi telefon (trpný rod)","My phone was stolen|My phone got stolen","my phone · was · stolen – trpný rod","stole","„Be“ + příčestí minulé „stolen“."],
@@ -187,7 +187,7 @@ practice:[
 ["fi","She __ she was tired.","Řekla, že je unavená","said","told|asked|say","Není tu osoba, které to říká, proto „said“."],
 ["fi","He told __ he was busy.","Řekl mi, že má moc práce","me","I|my|to","Po „told“ následuje osoba."],
 ["fi","She asked __ I was okay.","Zeptala se, jestli jsem v pořádku","if|whether","that|what|did","Otázku ano/ne uvádí „if“."],
-["ty","Řekl, že má moc práce","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy – posun času","is","V nepřímé řeči se čas posouvá do minulosti."],
+["ty","Řekl, že má moc práce","He said he was busy|He said that he was busy|He told me he was busy|He said he had a lot of work|He said that he had a lot of work|He told me he had a lot of work","he said · he was · busy – posun času","is","V nepřímé řeči se čas posouvá do minulosti."],
 ["ty","Řekla, že má auto","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car – neurčitý člen „a“","the","První zmínka o jednom autě: neurčitý člen „a“."],
 ["ty","Řekl, že ten film viděl","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie – určitý člen „the“","a","Film, o kterém už byla řeč: určitý člen „the“."]]},
 ];

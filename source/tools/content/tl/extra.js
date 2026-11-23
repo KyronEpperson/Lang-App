@@ -53,7 +53,7 @@ How was your weekend? | How was your weekend? | It was great! I went to the beac
 Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | May plano ka ba sa weekend? / Wala naman. Magpapahinga lang ako sa bahay.
 Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | Ang ganda ng panahon ngayon, ano? / Oo nga! Sa wakas, umaraw din.
 What do you do for fun? | What do you do for fun? | I play basketball and sing karaoke with my friends. | Ano ang libangan mo? / Nagba-basketball ako at nagka-karaoke kasama ang mga kaibigan ko.
-Me neither. | I don't really like spicy food. | Me neither. | Hindi ako masyadong mahilig sa maanghang. / Ako rin, hindi.
+Me neither. | I don't really like spicy food. | Me neither. | Hindi ako masyadong mahilig sa maanghang. / Hindi rin ako.
 It was nice talking to you. | Well, I should get going. It was nice talking to you. | You too! See you around. | O sige, kailangan ko nang umalis. Natuwa akong makausap ka. / Ako rin! Hanggang sa muli.
 Congratulations! | I got the job! | Congratulations! I'm so happy for you! | Natanggap ako sa trabaho! / Binabati kita! Tuwang-tuwa ako para sa iyo!
 No way! | I saw a famous actor at the airport yesterday. | No way! Did you get a picture? | May nakita akong sikat na artista sa airport kahapon. / Hindi nga! Nakapagpakuha ka ba ng litrato?
@@ -86,7 +86,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | Pupunta ka ba sa party mamayang gabi? / Mukhang hindi. Medyo masama ang pakiramdam ko.
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | May narinig akong matinding balita tungkol kina Jen at Mike. / Teka, ano iyon? Ikuwento mo na ang tsismis!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | Natapos mo na ba ang serye? Ang ending ay... / Walang spoiler, ha! Nasa episode 3 pa lang ako.
-Who's your bias? | Who's your bias? | Definitely the lead dancer. What about you? | Sino ang bias mo? / Siyempre ang lead dancer. Ikaw?
+I'm a huge fan! | Have you heard the new Ben&Ben song? | Yes! I'm a huge fan! | Narinig mo na ba ang bagong kanta ng Ben&Ben? / Oo! Idol na idol ko sila!
 `;
 
 exports.EXAMPLES = `

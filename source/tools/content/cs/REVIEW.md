@@ -84,3 +84,21 @@ Reviewer role: native-level Czech editor and English teacher, reading the finish
 - **Legacy interface keys** (Korean-UI toggle, conjugator labels such as «zdvořilý přítomný čas») are translated sensibly but describe features an English course does not show.
 - **`deviations.json`** produces the warning «unused deviations (stale?): lessons:czenglish, lessons:perfect-3»; that file is outside the review scope.
 - Level-title fallback series (Sprout / Senior / Sensei) now mixes two naming styles with the aligned titles; it is shown only if a pack has no `TITLES`.
+
+## Pre-merge review, 2026-11-23
+
+Reviewer: not a native Czech speaker. Every change to the shared English side is declared in `deviations.json`.
+
+### Changed
+- **Korean setting localised** (32 practice/check items and 1 card): Seoul → Prague, Busan → Brno, Daegu → Ostrava, Jeju → Croatia (holiday trip), Korea → Italy / Austria / Germany ("made in"), kimchi → sushi, won → crowns, "speaks Korean" / "He can ___ Korean" → Czech, K-pop → rock music, idiom distractor tiger → wolf, email check distractors «You suffered a lot.» / «Good suffering.» → «Thanks for your hard working!» / «Thank you for the hard job.», card «Who's your bias?» → «I'm a huge fan.» (with its dialogue), and the `Thanks for all your hard work.` note no longer mentions saying it when leaving work.
+- **Pronunciation deck and `pron` lesson:** the Korean pairs rice / lice, right / light, fan / pan, coffee / copy (cards 0–7) are now cat / cut, man / men, full / fool, law / low; the lesson section «R a L: jen na rozcvičku» became «Samohlásky, které čeština nemá» (R kept as one paragraph); 5 `pron` practice items rewritten to match; EXAMPLES key `rice` → `cat`.
+- **aktuálně / actually:** added to the `current` card note and as a row in the czenglish table; «actually» added to the lesson tip.
+- **Wording:** Hello = «Dobrý den / Zdravím», Hi! = «Ahoj!» (no longer the same meaning); perfect-3 «Je to otevřené dva roky» → «Má otevřeno už dva roky», «Bydlím tady pět let» → «…už pět let»; `eventually` note «possibly, alternatively, if necessary»; «Hledám brýle»; «Říkej mi Jay / Říkejte mi Jay»; «Zůstaň hladový, zůstaň bláznivý (Steve Jobs)»; smalltalk type prompt «Jak bylo o víkendu? (zeptej se kamaráda)».
+- **perfect-2 order item:** «Jak dlouho už čekáš?» → "How long have you been waiting" (declared deviation; ko-en has "How long have you waited").
+- **Typed answers (all 128 type items listed and read):** cues added to 4 prompts (Piju čaj: zvyk; two past-simple prompts; On má auto: "have" without "got", because the generator would expand "He's got" to "He is got"); 6 answer lists widened (rooms here, Have you got a pen, I'll have a sandwich, tea and coffee, I've already read the book, He said he had a lot of work, You're going to miss the bus); wrong-person answers removed from 3 items (Musíš → only "You have to…", Ujede ti → only "You…", Došlo nám → only "We…"). Every contraction already had its full form in the generated pack.
+
+### Left for a native speaker
+- Everything in section 4 above (verb register border, alternating gender, level titles, interface terms trénink / dril / přihrádka / Názor, tab labels).
+- «Opatrnosti nikdy nezbývá» for "Better safe than sorry" (left unchanged).
+- Business contact «Jenny Park» in the email check (left as an American name).
+- Card pairs very / berry and vote / boat stay (b / v is not a Czech problem, but v / w is taught next to them).

@@ -192,7 +192,7 @@ How's work? | /ˈhaʊz ˈwɜːrk/ | Kumusta ang trabaho? | Pangumusta sa kaila. 
 It was nice talking to you. | /ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/ | Nalipay ko nga nakaistorya ta | Maayong paagi sa pagtapos sa istorya
 `,
 "Pagbati ug reaksyon": `
-I'm so happy for you! | /aɪm ˈsoʊ ˈhæpi fər ju/ | Nalipay kaayo ko para nimo! | Kon naay maayong nahitabo sa imong kaistorya. Usa ra ang pilion, "so" o "very": dili "so very happy"
+I'm so happy for you! | /aɪm ˈsoʊ ˈhæpi fər ju/ | Nalipay kaayo ko para nimo! | Kon naay maayong nahitabo sa imong kaistorya. Igo na ang usa: "so happy" o "very happy"
 Congratulations! | /kənˌgrætʃəˈleɪʃnz/ | Pahalipay kanimo! | Kanunay nga naay -s. Pinamubo: "Congrats!"
 That's awesome! | /ˈðæts ˈɔːsəm/ | Nindota uy! | Reaksyon nga kanunay kaayong gamiton sa mga Amerikano
 No way! | /ˈnoʊ ˈweɪ/ | Uy, dili ko motuo! | Kon natingala ka. Gamiton sab sa pagbalibad: "No way, I'm not doing that."
@@ -231,7 +231,7 @@ You made my day! | /ju ˈmeɪd maɪ ˈdeɪ/ | Gilipay nimo ang akong adlaw! | Ko
 That's very kind of you. | /ˈðæts ˈveri ˈkaɪnd əv ju/ | Buotan kaayo ka | Matinahoron nga tubag kon gitabangan o gidayeg ka
 `,
 "Trabaho ug email": `
-I hope this email finds you well. | /aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/ | Hinaot nga maayo ka pag-abot niining email | Pormal nga sinugdanan sa email. Mas gaan: "I hope you're doing well." Sa gawas, dili gamiton ang atong "Good day!"
+I hope this email finds you well. | /aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/ | Hinaot nga maayo ra ka | Pormal nga sinugdanan sa email. Mas gaan: "I hope you're doing well." Sa gawas, dili gamiton ang atong "Good day!"
 I'm writing to ask about the schedule. | /aɪm ˈraɪtɪŋ tu ˈæsk əbaʊt ðə ˈskedʒuːl/ | Nagsulat ko aron mangutana bahin sa iskedyul | Isulti ang tuyo sa unang sentence: "I'm writing to" + tuyo
 I've attached the report. | /aɪv əˈtætʃt ðə rɪˈpɔːrt/ | Gilakip nako ang report | Mas pormal ug mas gahi: "Please find attached…"
 Just a quick reminder about tomorrow's meeting. | /ˈdʒʌst ə ˈkwɪk rɪˈmaɪndər əbaʊt təˈmɑːroʊz ˈmiːtɪŋ/ | Pahinumdom lang bahin sa miting ugma | Hinay nga paagi sa pagpahinumdom
@@ -253,7 +253,7 @@ Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜː
 `,
 "Tawag, text ug chat": `
 Hello, this is Ana. | /həˈloʊ ˈðɪs ɪz ˈɑːnə/ | Hello, si Ana ni | Sa telepono, "This is Ana", dili "I'm Ana"
-Can I speak to Mr. Kim? | /kən aɪ ˈspiːk tə ˈmɪstər ˈkɪm/ | Puwede ko makaistorya kang Mr. Kim? | Mas matinahoron: "May I speak to…?" Sa gawas, "Mr." o "Ms." + apelyido ang gamiton, dili "Sir Kim"
+Can I speak to Mr. Santos? | /kən aɪ ˈspiːk tə ˈmɪstər ˈsæntoʊs/ | Puwede ko makaistorya kang Mr. Santos? | Mas matinahoron: "May I speak to…?" Sa gawas, "Mr." o "Ms." + apelyido ang gamiton, dili "Sir Santos"
 Who's calling, please? | /ˈhuːz ˈkɔːlɪŋ ˈpliːz/ | Kinsa ni, palihug? | Pangutana sa nagtubag sa telepono. Mas matinahoron kaysa "Who is this?"
 Hold on a second. | /ˈhoʊld ˈɑːn ə ˈsekənd/ | Hulat usa kadiyot | Direktang hubad: dili "For a while". Sa telepono: "Hold on a second." o "One moment, please."
 Sorry, you're breaking up. | /ˈsɑːri jʊr ˈbreɪkɪŋ ˈʌp/ | Pasayloa, putol-putol ang imong tingog | "break up" dinhi = maputol-putol ang tingog sa tawag. Lain nga kahulogan: magbulag ang managtrato
@@ -280,7 +280,7 @@ Window or aisle? | /ˈwɪndoʊ ər ˈaɪl/ | Daplin sa bintana o daplin sa agian
 I'd like an aisle seat, please. | /aɪd ˈlaɪk ən ˈaɪl ˈsiːt ˈpliːz/ | Gusto nako og lingkoranan daplin sa agianan, palihug | "an" kay vowel ang sinugdanan sa "aisle". Kon sa bintana: "a window seat"
 Where is the baggage claim? | /ˈwer ɪz ðə ˈbægɪdʒ ˈkleɪm/ | Asa ang kuhaanan sa bagahe? | Sa UK: "baggage reclaim"
 My luggage is missing. | /maɪ ˈlʌgɪdʒ ɪz ˈmɪsɪŋ/ | Nawala ang akong bagahe | Dili maihap ang "luggage": walay "luggages" ug "is" ang verb. Kon usa ra: "a piece of luggage"
-I have a reservation under Kim. | /aɪ ˈhæv ə ˌrezərˈveɪʃn ʌndər ˈkɪm/ | Naa koy reserbasyon sa ngalan nga Kim | "under" + ang ngalan sa nagpareserba: "under Reyes"
+I have a reservation under Santos. | /aɪ ˈhæv ə ˌrezərˈveɪʃn ʌndər ˈsæntoʊs/ | Naa koy reserbasyon sa ngalan nga Santos | "under" + ang ngalan sa nagpareserba: "under Reyes"
 What time is check-out? | /ˈwʌt ˈtaɪm ɪz ˈtʃekaʊt/ | Unsang orasa ang check-out? | Kon gusto nimong molangan og gawas: "Can I get a late check-out?"
 Can I check in early? | /kən aɪ ˈtʃek ˈɪn ˈɜːrli/ | Puwede ba sayo ang akong check-in? | "check in" (duha ka pulong) ang verb; "check-in" (naay hyphen) ang noun
 Is breakfast included? | /ɪz ˈbrekfəst ɪnˈkluːdɪd/ | Apil na ba ang pamahaw? | Walay article ang "breakfast", "lunch" ug "dinner". Litokon og /ˈbrekfəst/, dili "break-fast"
@@ -415,7 +415,7 @@ It's a must-watch. | /ɪts ə ˈmʌstwɑːtʃ/ | Kinahanglan gyud nimo tan-awon 
 Plot twist! | /ˈplɑːt ˈtwɪst/ | Kalit nga nausab ang dagan sa istorya! | Gamiton sab sa adlaw-adlaw kon naay wala damhang nahitabo
 It's overrated. | /ɪts ˌoʊvərˈreɪtɪd/ | Sobra ra ang pagdayeg niini | Ang kabaliktaran: "underrated" (kulang ang pagdayeg)
 That scene gave me chills. | /ˈðæt ˈsiːn ˈgeɪv mi ˈtʃɪlz/ | Nanindog ang akong balhibo niadtong eksena | Para sa eksena nga makatandog o makahadlok
-Who's your bias? | /ˈhuːz jʊr ˈbaɪəs/ | Kinsa imong paborito sa grupo? | Pulong sa mga fan sa K-pop. Sa kasagaran: "Who's your favorite member?"
+Who's your favorite character? | /ˈhuːz jʊr ˈfeɪvərɪt ˈkærɪktər/ | Kinsa imong paboritong karakter? | Pangutana bahin sa salida o serye. Sa Amerika "favorite" ang ispeling; sa UK "favourite"
 Are you kidding me? | /ər ju ˈkɪdɪŋ mi/ | Nagkomedya ka? | Kasagarang linya sa mga salida. Puwede katingala, puwede kalagot
 I've got your back. | /aɪv ˈgɑːt jʊr ˈbæk/ | Naa ra ko sa imong luyo | Nagpasabot nga suportahan ug panalipdan nimo ang imong kaistorya
 Gotcha. | /ˈgɑːtʃə/ | Sige, kuha na nako | Pinamubo sa "got you". Kasagaran nagpasabot nga nakasabot ka
@@ -466,7 +466,7 @@ It's an all-you-can-eat buffet. | /ɪts ən ˈɔːl ju kən ˈiːt bəˈfeɪ/ | 
 They salvaged the boat. | /ðeɪ ˈsælvɪdʒd ðə ˈboʊt/ | Naluwas nila ang sakayan gikan sa kadaot | Lit-ag: sa balita sa atoa, ang "salvage" = patyon. Sa Iningles sa gawas, kabaliktaran: luwason o bawion gikan sa kadaot
 My first language is Cebuano. | /maɪ ˈfɜːrst ˈlæŋgwɪdʒ ɪz seɪˈbwɑːnoʊ/ | Bisaya ang akong unang pinulongan | Iningles sa Pinas: "My dialect is Bisaya." Pinulongan ang Bisaya, mao nga "language". Sa Iningles, "Cebuano" ang ngalan niini
 Just a moment, please. | /ˈdʒʌst ə ˈmoʊmənt ˈpliːz/ | Hulat lang kadiyot, palihug | Direktang hubad: "For a while" ✗ gikan sa "kadiyot lang". Sa telepono: "Just a moment, please." o "One moment, please."
-Can you lend me your pen? | /kən ju ˈlend mi jʊr ˈpen/ | Puwede ko mohulam sa imong bolpen? | Direktang hubad: "Can you borrow me your pen?" ✗. Duha ka verb ang "hulam" sa Iningles: "lend" (magpahulam) ug "borrow" (mohulam): "Can I borrow your pen?"
+Can you lend me your pen? | /kən ju ˈlend mi jʊr ˈpen/ | Puwede ko nimo pahulamon sa imong bolpen? | Direktang hubad: "Can you borrow me your pen?" ✗. Duha ka verb ang "hulam" sa Iningles: "lend" (magpahulam) ug "borrow" (mohulam): "Can I borrow your pen?"
 Please fill out this form. | /ˈpliːz ˈfɪl ˈaʊt ˈðɪs ˈfɔːrm/ | Palihug sulati kining form | "fill up the form" ✗ → "fill out the form" ✓. Ang "fill up" para sa tangke o baso
 It's based on a true story. | /ɪts ˈbeɪst ɑːn ə ˈtruː ˈstɔːri/ | Gibase kini sa tinuod nga istorya | "based from" ✗ → "based on" ✓. Dili mailisan ang gamayng pulong human sa "based"
 Stress can result in headaches. | /ˈstres kən rɪˈzʌlt ɪn ˈhedeɪks/ | Ang stress makahatag og labad sa ulo | "result to" ✗ → "result in" ✓
