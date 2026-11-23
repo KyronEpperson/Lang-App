@@ -73,7 +73,7 @@ module.exports = [
 {{ex:ডান|ḍan|right (side)}}
 <p>ড় has a dot in the letter itself. In Dhaka it sounds much like র, but the line keeps ṛ so you can see which letter is written.</p>
 <h3>Three letters for sh</h3>
-<p>শ and ষ are both sh. স is usually sh too, but it is s when it is joined to a following ত, থ, ক or প, and in some borrowed words. That one difference separates two words:</p>
+<p>শ and ষ are both sh. স is usually sh too, but in some conjuncts (lesson 4) and some borrowed words it is s. English uses s and sh to tell words apart, and so does Bengali: this one difference separates two words.</p>
 {{ex:আস্তে|aste|slowly; softly}}
 {{ex:আসতে|ashte|to come}}
 <p>In some eastern dialects, especially Sylheti, খ ফ ভ lose their puff and become hissing sounds. That is not the Dhaka standard taught here.</p>
@@ -82,14 +82,14 @@ module.exports = [
     check: [
       ["What does the h in khô mean in the pronunciation line?", ["A separate h sound after a pause", "A puff of air: the letter is aspirated", "The letter is silent", "The th of think"], 1, "An h after a letter is a puff of air, the mark of an aspirated letter."],
       ["How do you say the retroflex ট?", ["Tongue on the back of the top teeth", "Like the th of think", "Tongue tip curled back to the roof of the mouth", "With a puff of air"], 2, "ট is retroflex: curl the tip back. ত is the dental one, on the teeth."],
-      ["Which letter can be said s instead of sh?", ["স", "শ", "ষ", "হ"], 0, "শ and ষ are always sh. স is s when it is joined to ত, থ, ক or প, as in আস্তে (aste)."]
+      ["Which letter can be said s instead of sh?", ["স", "শ", "ষ", "হ"], 0, "শ and ষ are always sh. স is usually sh, but it is s in some words, as in আস্তে (aste)."]
     ],
     practice: [
       ["mc", "Which letter is aspirated?", "খ", "ক", "গ", "ট", "খ has the puff of air: khô. ক, গ and ট have none."],
       ["mc", "Which letter is retroflex?", "ট", "ত", "থ", "দ", "ট is retroflex (ṭ, with the dot). ত, থ and দ are dental."],
       ["mc", "In থ (thô), what is the th?", "a dental t with a puff of air", "the th of think", "the th of this", "a t followed by a separate h", "th in the line is an aspirated dental t, never the English th."],
       ["mc", "Which word starts with a dental t?", "তিন", "টাকা", "ডান", "দশ", "তিন (tin) starts with ত, dental. টাকা and ডান are retroflex, and দশ starts with d."],
-      ["mc", "আস্তে (aste) means slowly. What makes its স an s, not sh?", "It is joined to the ত after it", "It is at the start of the word", "It comes after আ", "স is always s", "স is s when it is joined to a following ত, থ, ক or প; elsewhere it is usually sh."],
+      ["mc", "Which word has an s sound, not sh?", "আস্তে", "আসতে", "সে", "শহর", "আস্তে (slowly) is aste. In আসতে and সে the স is sh, and শ is always sh."],
       ["or", "Put the letters in the order of these sounds: ṭô, tô, thô", "ট ত থ", "ঠ", "ট is retroflex, ত is dental, and থ is the aspirated dental."],
       ["or", "Put the letters in the order of these sounds: kô, khô, gô, ghô", "ক খ গ ঘ", "হ", "খ and ঘ are aspirated: the h is a puff, not a separate letter."],
       ["or", "Put the letters in the order of these sounds: dô, ḍô, dhô", "দ ড ধ", "ঢ", "দ is dental, ড is retroflex, and ধ is the aspirated dental. ঢ would be ḍhô."],
@@ -125,7 +125,7 @@ module.exports = [
 {{ex:বাংলা|bangla|Bengali}}
 {{ex:দুঃখিত|dukkhito|sorry}}
 {{ex:চাঁদ|chãd|moon}}
-{{ex:চমৎকার|chômotkar|wonderful}}
+{{ex:চমৎকার|chômôtkar|wonderful}}
 <p>A nasal vowel is said with air through the nose, like the vowel in French <i>bon</i>. In the line, ã is a nasal a.</p>
 <p>To read a new word, go syllable by syllable: find each consonant, then look left, right, above and below it for its sign. No sign means the inherent vowel.</p>
 <div class="tip"><b>Most common mistake:</b> saying ি before the consonant because it is written first. Wrong: the i sound before the k in কি → right: consonant first, then the vowel, ki.</div>
@@ -158,7 +158,7 @@ module.exports = [
     blurb: "Read consonant clusters, ক্ষ, and the pholas, and know when a written letter is not said.",
     deck: "Conjuncts",
     body: `
-<p>English writes a cluster like <i>str</i> as three separate letters. Bengali joins the consonants into one shape, a <b>conjunct</b>. Some conjuncts show their parts clearly; a few look like nothing you have seen.</p>
+<p>English writes a cluster like <i>str</i> as three separate letters. Bengali joins the consonants into one shape, a <b>conjunct</b>. Some conjuncts show their parts clearly; a few look like nothing you have seen. As in English <i>str</i>, most conjuncts are said the way they are written, every letter in turn. The surprises are ক্ষ and the pholas.</p>
 <h3>The hasant</h3>
 <p>The hasant ্ removes the inherent vowel. Two consonants with no vowel between them are usually joined into one shape: স with a hasant, then ত, gives স্ত. You will see the hasant itself only now and then, when the letters are not joined.</p>
 {{ex:স্থান|sthan|place}}
@@ -191,7 +191,7 @@ module.exports = [
       ["mc", "In ব্যথা (bætha), 'pain', what does the ya-phola do?", "It turns the vowel into æ", "It adds a y sound", "It doubles the b", "Nothing: it is silent decoration", "At the start of a word a ya-phola usually turns the vowel into æ."],
       ["mc", "Which word starts with the sound kh written as ক্ষ?", "ক্ষমা", "খুব", "শিক্ষা", "কত", "ক্ষমা (khôma) starts with ক্ষ. খুব starts with plain খ, and শিক্ষা has ক্ষ inside."],
       ["mc", "What is a conjunct?", "Two or more consonants written as one shape", "A vowel sign on the left", "A mark that makes a vowel nasal", "A doubled vowel", "A conjunct joins consonants with no vowel between them."],
-      ["or", "Put the words in the order of these sounds: shikkha, prothom, aste", "শিক্ষা প্রথম আস্তে", "আসতে", "আস্তে has the conjunct স্ত, said s-t. আসতে has no conjunct and is said ashte."],
+      ["or", "Put the words in the order of these sounds: shikkha, prothom, aste", "শিক্ষা প্রথম আস্তে", "আসতে", "আস্তে has the conjunct স্ত and is said aste. আসতে has no conjunct and is said ashte."],
       ["or", "Put the words in the order of these sounds: skul, gram, sthan", "স্কুল গ্রাম স্থান", "গরম", "গ্রাম is a conjunct: the hasant drops the inherent vowel, so nothing comes between g and r. গরম is gôrom."],
       ["or", "Put the words in the order of these sounds: khôma, jonno, bætha", "ক্ষমা জন্য ব্যথা", "খুব", "ক্ষমা starts with ক্ষ, জন্য has a ya-phola that doubles the n, and ব্যথা has a ya-phola that gives æ."],
       ["fi", "__মা", "khôma: forgiveness", "ক্ষ", "ক|খ|ষ", "At the start of a word the conjunct ক্ষ is said kh."],
@@ -218,17 +218,18 @@ module.exports = [
 <h3>How are you?</h3>
 <p>English has one "How are you?". Bengali changes the verb for the person you are talking to. To a stranger, an older person or a shopkeeper, say <b>আপনি</b> <i>apni</i> with <b>আছেন</b> <i>achhen</i>. To a friend your own age, say <b>তুমি</b> <i>tumi</i> with <b>আছো</b> <i>achho</i>. You can drop আপনি or তুমি, because the verb ending already shows who you mean.</p>
 <div class="tbl"><table><tr><th>To a stranger</th><th>To a friend</th></tr><tr><td class="k">আপনি কেমন আছেন?</td><td class="k">তুমি কেমন আছো?</td></tr><tr><td class="k">কেমন আছেন?</td><td class="k">কেমন আছো?</td></tr></table></div>
-{{ex:আপনি কেমন আছেন?|apni kemon achhen?|How are you? (polite)}}
-{{ex:তুমি কেমন আছো?|tumi kemon achho?|How are you? (to a friend)}}
+{{ex:আপনি কেমন আছেন?|apni kæmon achhen?|How are you? (polite)}}
+{{ex:তুমি কেমন আছো?|tumi kæmon achho?|How are you? (to a friend)}}
 <p>When in doubt, use আপনি. Nobody minds being treated politely. You will also see আছো written আছ, without the last sign; it is the same word.</p>
 <h3>I'm fine</h3>
 <p>English says "I am fine". Bengali says <b>ভালো আছি</b> <i>bhalo achhi</i>, literally "well am". The verb is now <b>আছি</b> <i>achhi</i>, because it matches the speaker, you, not the person who asked. <b>আমি</b> <i>ami</i>, "I", is optional.</p>
 {{ex:ভালো আছি।|bhalo achhi.|I'm fine.}}
 {{ex:আমি ভালো আছি।|ami bhalo achhi.|I'm fine.}}
+<p>English likes a full sentence here; Bengali is happy with two words. To return the question, simply ask it back with the verb that fits the other person.</p>
 <h3>Thank you</h3>
 <p><b>ধন্যবাদ</b> <i>dhonnobad</i> means "thank you". Bengali speakers say it far less than Americans say "thanks". Keep it for a real favor or for good service, not for every small thing at the family table.</p>
 {{ex:ধন্যবাদ।|dhonnobad.|Thank you.}}
-<p>You will also see <b>শুভ সকাল</b> <i>shubho shôkal</i>, "good morning", and <b>শুভ সন্ধ্যা</b> <i>shubho shôndha</i>, "good evening". They are formal, for cards, messages and announcements, not the everyday hello.</p>
+<p>You will also see <b>শুভ সকাল</b> <i>shubho shôkal</i>, "good morning", and <b>শুভ সন্ধ্যা</b> <i>shubho shondha</i>, "good evening". They are formal, for cards, messages and announcements, not the everyday hello.</p>
 <div class="tip"><b>Most common mistake:</b> greeting by the time of day. Wrong: শুভ সকাল to a neighbor in the morning → right: আসসালামু আলাইকুম, at any hour.</div>
 `,
     check: [
@@ -272,11 +273,11 @@ module.exports = [
 <h3>More than one</h3>
 <p>English changes "am" to "are" for "we". Bengali does not: the plural keeps the singular ending. <b>আমরা</b> <i>amra</i> "we" takes আছি, like আমি. <b>তোমরা</b> <i>tomra</i> takes আছো, <b>আপনারা</b> <i>apnara</i> takes আছেন, <b>তারা</b> <i>tara</i> "they" takes আছে.</p>
 {{ex:আমরা ভালো আছি।|amra bhalo achhi.|We are fine.}}
-{{ex:আপনারা কেমন আছেন?|apnara kemon achhen?|How are you all? (polite)}}
-{{ex:তোমরা কেমন আছো?|tomra kemon achho?|How are you all? (to friends)}}
+{{ex:আপনারা কেমন আছেন?|apnara kæmon achhen?|How are you all? (polite)}}
+{{ex:তোমরা কেমন আছো?|tomra kæmon achho?|How are you all? (to friends)}}
 {{ex:তারা ভালো আছে।|tara bhalo achhe.|They are fine.}}
 <h3>Dropping the pronoun</h3>
-<p>Because the ending shows the person, the pronoun is often left out: <b>ভালো আছি</b> <i>bhalo achhi</i> is complete. With আছে, keep সে or তারা, because the ending alone does not say who.</p>
+<p>English always needs "I" or "you" in front of the verb. Bengali often does not, much as Spanish drops <i>yo</i>. Because the ending shows the person, the pronoun is often left out: <b>ভালো আছি</b> <i>bhalo achhi</i> is complete. With আছে, keep সে or তারা, because the ending alone does not say who.</p>
 {{ex:আমি ভালো আছি।|ami bhalo achhi.|I'm fine.}}
 <div class="tip"><b>Most common mistake:</b> one "you" for everybody. Wrong: তুমি কেমন আছো? to an older stranger → right: আপনি কেমন আছেন?</div>
 `,
@@ -319,14 +320,13 @@ module.exports = [
 <p>English picks his or her by the owner. Bengali uses <b>তার</b> <i>tar</i> for both, just as সে covers he and she. <b>তাঁর</b> <i>tãr</i>, with the nasal mark, is the respectful version that goes with তিনি. The two differ only by that mark (lesson 3), so listen for the nasal vowel. Use তাঁর for a teacher, an elder, or anyone you would call তিনি.</p>
 {{ex:তার বন্ধু ভালো আছে।|tar bondhu bhalo achhe.|His friend is fine. Her friend is fine.}}
 <h3>The your matches the you</h3>
-<p>If you say আপনি to someone, say <b>আপনার</b> <i>apnar</i> for "your". If you say তুমি, say <b>তোমার</b> <i>tomar</i>. When you ask about someone's parents, the verb is <b>আছেন</b> <i>achhen</i>, because parents get the respectful ending.</p>
-{{ex:আপনার বাবা কেমন আছেন?|apnar baba kemon achhen?|How is your father? (polite)}}
-{{ex:তোমার মা কেমন আছেন?|tomar ma kemon achhen?|How is your mother? (to a friend)}}
+<p>If you say আপনি to someone, say <b>আপনার</b> <i>apnar</i> for "your". If you say তুমি, say <b>তোমার</b> <i>tomar</i>. When you ask about someone's parents, the verb is usually <b>আছেন</b> <i>achhen</i>, because parents get the respectful ending. You will also hear the plain আছে, especially for your own parents; it is not wrong, just less formal.</p>
+{{ex:আপনার বাবা কেমন আছেন?|apnar baba kæmon achhen?|How is your father? (polite)}}
+{{ex:তোমার মা কেমন আছেন?|tomar ma kæmon achhen?|How is your mother? (to a friend)}}
 {{ex:আমার বাবা ভালো আছেন।|amar baba bhalo achhen.|My father is fine.}}
-<p>Talking about the family home, Bengali speakers usually say <b>আমাদের বাড়ি</b> <i>amader baṛi</i>, "our house", where English might say "my parents' house".</p>
 <h3>Nothing else changes</h3>
 <p>English speakers sometimes expect "my" to change with the thing owned, the way it does in French or Spanish. It does not. The possessive never changes for the thing owned: <b>আমার</b> <i>amar</i> stays the same before father, mother or house, one or many. Learn one word per owner and you are done.</p>
-<div class="tip"><b>Most common mistake:</b> using the plain pronoun for "my". Wrong: আমি নাম → right: আমার নাম, "my name".</div>
+<div class="tip"><b>Most common mistake:</b> expecting the possessive to change with the owner's sex or with the thing owned. Wrong: hunting for a separate word for "her" → right: one তার for his and her, and one আমার before any noun: তার বন্ধু, আমার বাবা, আমার মা.</div>
 `,
     check: [
       ["What does তার mean?", ["his only", "her only", "their", "his or her"], 3, "তার covers his and her, just as সে covers he and she."],
@@ -339,14 +339,14 @@ module.exports = [
       ["mc", "our house", "আমাদের বাড়ি", "আমরা বাড়ি", "আমার বাড়ি", "আপনাদের বাড়ি", "Our is আমাদের. আমার is my, and আপনাদের is your (polite, plural)."],
       ["mc", "Which word is the respectful his or her?", "তাঁর", "তার", "তুমি", "তোমার", "তাঁর, with the nasal mark, goes with তিনি."],
       ["mc", "How is your father? (to a friend)", "তোমার বাবা কেমন আছেন?", "তুমি বাবা কেমন আছেন?", "তোমার বাবা কেমন আছো?", "আপনার বাবা কেমন আছো?", "To a friend, your is তোমার. The father gets আছেন."],
-      ["or", "My father is fine.", "আমার বাবা ভালো আছেন", "আমি", "A parent takes the polite form আছেন; my is আমার, not আমি."],
-      ["or", "How is your mother? (to a stranger)", "আপনার মা কেমন আছেন", "তোমার", "To a stranger, your is আপনার, and a mother takes the polite form আছেন."],
+      ["or", "My father is fine.", "আমার বাবা ভালো আছেন", "আমি", "A parent usually gets the polite form আছেন; my is আমার, not আমি."],
+      ["or", "How is your mother? (to a stranger)", "আপনার মা কেমন আছেন", "তোমার", "To a stranger, your is আপনার, and a mother usually gets the polite form আছেন."],
       ["or", "His friend is fine.", "তার বন্ধু ভালো আছে", "সে", "His is তার, the possessive; সে is he."],
       ["fi", "__ বাবা কেমন আছেন?", "How is your father? (to a friend)", "তোমার", "আপনার|তুমি|আমি", "To a friend, your is তোমার."],
       ["fi", "আমার বন্ধু ভালো __।", "My friend is fine.", "আছে", "আছি|আছো|আমার", "A friend is spoken of like সে: আছে."],
       ["fi", "__ বাড়ি", "our house", "আমাদের", "আমরা|আমার|আমি", "Our is আমাদের."],
       ["ty", "my name", "আমার নাম", "আমার · নাম", "আমি", "আমার ends in the case ending র, which means of: my name, not I name."],
-      ["ty", "How is your father? (to a stranger)", "আপনার বাবা কেমন আছেন?", "আপনার · বাবা · কেমন · আছেন", "তোমার", "A stranger's father: আপনার for your, and the polite form আছেন."],
+      ["ty", "How is your father? (to a stranger)", "আপনার বাবা কেমন আছেন?|আপনার বাবা কেমন আছে?", "আপনার · বাবা · কেমন · আছেন", "তোমার", "A stranger's father: আপনার for your, and the polite form আছেন."],
       ["ty", "our house", "আমাদের বাড়ি", "আমাদের · বাড়ি", "আমরা", "আমাদের carries the case ending that makes we into our."]
     ]
   },
@@ -358,14 +358,14 @@ module.exports = [
     body: `
 <p>English needs "am", "is" and "are" in every sentence about who or what someone is. Bengali leaves them out.</p>
 <h3>No word for "am"</h3>
-<p>English says "I am a student". Bengali says <b>আমি ছাত্র</b> <i>ami chhatro</i>, literally "I student". There is no verb at all. This is called a <b>zero copula</b>, and it is completely normal, not baby talk.</p>
+<p>English says "I am a student". Bengali says <b>আমি ছাত্র</b> <i>ami chhatro</i>, literally "I student". There is no verb at all. This is called a <b>zero copula</b>, and it is completely normal, not baby talk. Think of the two parts as a label and what it says: "I", "student"; "my name", "Rahim". English glues them together with am or is; Bengali just sets them side by side.</p>
 {{ex:আমি ছাত্র।|ami chhatro.|I am a student.}}
 {{ex:আমি বাংলাদেশি।|ami bangladeshi.|I am Bangladeshi.}}
 <h3>"Is" disappears too</h3>
 <p>The same goes for he, she and things. Your name, your job, where someone is from: just put the two parts side by side.</p>
 {{ex:আমার নাম রাহীম।|amar nam rahim.|My name is Rahim.}}
 {{ex:আমার বাবা ডাক্তার।|amar baba ḍaktar.|My father is a doctor.}}
-{{ex:উনি আমার শিক্ষক।|uni amar shikkhok.|He is my teacher.}}
+{{ex:উনি আমার শিক্ষক।|uni amar shikkhôk.|He is my teacher.}}
 <p>Every new job or nationality word you learn drops straight into this frame.</p>
 <h3>Keep the "I"</h3>
 <p>In greetings you could drop আমি, because the ending of আছি already meant "I". A sentence with no verb has no ending to show the person, so keep the subject: <b>আমি ছাত্র</b> <i>ami chhatro</i>, not just ছাত্র. And mind the pair <b>বাংলাদেশ</b> <i>bangladesh</i>, the country, and <b>বাংলাদেশি</b> <i>bangladeshi</i>, a person from it, just like Bangladesh and Bangladeshi.</p>
@@ -376,8 +376,6 @@ module.exports = [
 <p>To ask a name politely, say <b>আপনার নাম কী?</b> <i>apnar nam ki?</i>, literally "your name what?" (more on question words in lesson 9). To introduce someone politely, use <b>ইনি</b> <i>ini</i>, "this person", which takes respect like তিনি. For someone farther away, <b>উনি</b> <i>uni</i>.</p>
 {{ex:আপনার নাম কী?|apnar nam ki?|What is your name?}}
 {{ex:ইনি আমার বাবা।|ini amar baba.|This is my father.}}
-<p>At the end of a first meeting you can say:</p>
-{{ex:আপনার সাথে দেখা হয়ে ভালো লাগলো।|apnar shathe dækha hoye bhalo laglo.|It was nice to meet you.}}
 <div class="tip"><b>Most common mistake:</b> adding আছি for "am". Wrong: আমি ছাত্র আছি → right: আমি ছাত্র।</div>
 `,
     check: [
@@ -411,19 +409,19 @@ module.exports = [
 <p>English moves the question word to the front and adds "is" or "do". Bengali does neither.</p>
 <h3>The question word sits where the answer goes</h3>
 <p>Compare <b>আমার নাম রাহীম।</b> <i>amar nam rahim.</i> with <b>আপনার নাম কী?</b> <i>apnar nam ki?</i>. The question word takes the place of the answer, and nothing else changes. In speech the question word can also come first for emphasis, but putting it where the answer goes is always right.</p>
-<div class="tbl"><table><tr><th>Bengali</th><th>Line</th><th>English</th></tr><tr><td class="k">কী</td><td>ki</td><td>what</td></tr><tr><td class="k">কে</td><td>ke</td><td>who</td></tr><tr><td class="k">কার</td><td>kar</td><td>whose</td></tr><tr><td class="k">কোথায়</td><td>kothay</td><td>where</td></tr><tr><td class="k">কেমন</td><td>kemon</td><td>how, what like</td></tr></table></div>
+<div class="tbl"><table><tr><th>Bengali</th><th>Line</th><th>English</th></tr><tr><td class="k">কী</td><td>ki</td><td>what</td></tr><tr><td class="k">কে</td><td>ke</td><td>who</td></tr><tr><td class="k">কার</td><td>kar</td><td>whose</td></tr><tr><td class="k">কোথায়</td><td>kothay</td><td>where</td></tr><tr><td class="k">কেমন</td><td>kæmon</td><td>how, what like</td></tr></table></div>
 {{ex:আপনার নাম কী?|apnar nam ki?|What is your name?}}
 {{ex:উনি কে?|uni ke?|Who is he? Who is she?}}
 {{ex:এটা কার বই?|eṭa kar boi?|Whose book is this?}}
 {{ex:আপনার বাড়ি কোথায়?|apnar baṛi kothay?|Where is your home? (Where are you from?)}}
-<p>Like statements, these questions have no word for "is". You already know <b>কেমন</b> <i>kemon</i> from <b>কেমন আছেন?</b> <i>kemon achhen?</i>: it asks how someone or something is.</p>
+<p>Like statements, these questions have no word for "is". You already know <b>কেমন</b> <i>kæmon</i> from <b>কেমন আছেন?</b> <i>kæmon achhen?</i>: it asks how someone or something is.</p>
 <h3>Yes-or-no questions</h3>
-<p>English flips the words: "You are a student" becomes "Are you a student?". Bengali keeps the order and adds <b>কি</b> <i>ki</i> after the subject. It is written with the short sign ি and sounds the same as কী, "what".</p>
+<p>English flips the words: "You are a student" becomes "Are you a student?". Bengali keeps the order and adds <b>কি</b> <i>ki</i> after the subject. It never needs a helper word like "do". It is written with the short sign ি and sounds the same as কী, "what".</p>
 {{ex:আপনি কি ছাত্র?|apni ki chhatro?|Are you a student?}}
 <p>To answer, start with <b>হ্যাঁ</b> <i>hæ̃</i>, "yes", or <b>না</b> <i>na</i>, "no".</p>
 {{ex:হ্যাঁ, আমি ছাত্র।|hæ̃, ami chhatro.|Yes, I am a student.}}
 <h3>Saying "not" when there is no verb</h3>
-<p>"I am a student" has no verb in Bengali, so "not" needs a word of its own, at the end. With আমি, it is <b>নই</b> <i>noi</i>. With সে, or a thing, it is <b>নয়</b> <i>nôy</i>. This lesson uses only these two.</p>
+<p>"I am a student" has no verb in Bengali, so "not" needs a word of its own, at the end. With আমি, it is <b>নই</b> <i>noi</i>. With সে, or a thing, it is <b>নয়</b> <i>nôy</i>. English puts "not" in the middle, after "am"; Bengali puts it at the very end of the sentence. This lesson uses only these two.</p>
 {{ex:আমি ছাত্র নই।|ami chhatro noi.|I am not a student.}}
 {{ex:সে ডাক্তার নয়।|she ḍaktar nôy.|He is not a doctor. She is not a doctor.}}
 {{ex:না, আমি ছাত্র নই।|na, ami chhatro noi.|No, I am not a student.}}
@@ -445,7 +443,7 @@ module.exports = [
       ["mc", "Are you a student? (polite)", "আপনি কি ছাত্র?", "আপনি ছাত্র নই?", "আপনি কে ছাত্র?", "আপনি ছাত্র আছেন?", "A yes-or-no question adds কি after the subject, with a zero copula."],
       ["or", "I am not a doctor.", "আমি ডাক্তার নই", "নেই", "নই is the ami form of not, used with a zero copula. নেই belongs with আছে."],
       ["or", "He is not a student. (use সে)", "সে ছাত্র নয়", "নই", "With সে, not is নয়: like a verb ending, it changes with the person. নই is the ami form."],
-      ["or", "Are you a student? (polite, start with আপনি)", "আপনি কি ছাত্র", "নই", "Keep the statement order, with a zero copula, and add কি after the subject."],
+      ["or", "Are you a student? (polite; put কি straight after আপনি)", "আপনি কি ছাত্র", "নই", "Keep the statement order, with a zero copula, and add কি after the subject."],
       ["fi", "আমি ছাত্র __।", "I am not a student.", "নই", "নেই|নয়|আছি", "With আমি, not is নই."],
       ["fi", "উনি __?", "Who is he?", "কে", "কী|কার|কোথায়", "Who is কে; কী is what."],
       ["fi", "এটা __ বই?", "Whose book is this?", "কার", "কে|কোথায়|কেমন", "Whose is কার."],

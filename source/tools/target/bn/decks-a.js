@@ -34,7 +34,7 @@ module.exports = {
 ঠ | ṭhô | the letter ṭh | Retroflex and aspirated.
 ড | ḍô | the letter ḍ | Retroflex d, the closest to English d.
 শ | shô | the letter sh | ষ is the same sound. স is not always.
-স | shô | the letter s | Mostly said sh too, but s before থ, as in স্থান.
+স | shô | the letter s | Mostly said sh too, but s in clusters such as স্থ, স্ত and স্ক (স্থান, আস্তে, স্কুল).
 খাতা | khata | notebook | খ is aspirated, ত is dental.
 ঘর | ghôr | room | ঘ is aspirated. ঘর can also mean the home.
 ঠান্ডা | ṭhanḍa | cold | ঠ and ড are both retroflex.
@@ -70,8 +70,8 @@ module.exports = {
 স্কুল | skul | school | স্ক is স + ক.
 ট্রেন | ṭren | train | ra-phola on ট.
 রাত্রি | ratri | night | ত্র: ra-phola on ত.
-সন্ধ্যা | shôndha | evening | ন্ধ, then a ya-phola on ধ.
-শিক্ষক | shikkhok | teacher | The same ক্ষ as in শিক্ষা.
+সন্ধ্যা | shondha | evening | ন্ধ, then a ya-phola on ধ.
+শিক্ষক | shikkhôk | teacher | The same ক্ষ as in শিক্ষা.
 উত্তর | uttor | answer; north | ত্ত is a doubled t, held longer.
 ব্যথা | bætha | pain | The ya-phola is not said as y: ব্য is bæ.
 শক্ত | shôkto | hard; tough | ক্ত again.
@@ -80,8 +80,8 @@ module.exports = {
   "Greetings and courtesy": `
 আসসালামু আলাইকুম | assalamu alaikum | peace be upon you | Dhaka's everyday hello, at any time of day. Hindu and West Bengal speakers say নমস্কার.
 ওয়ালাইকুম আসসালাম। | walaikum assalam. | and upon you peace | The reply to আসসালামু আলাইকুম.
-কেমন আছেন? | kemon achhen? | How are you? (polite) | To a stranger, an elder or a shopkeeper.
-তুমি কেমন আছো? | tumi kemon achho? | How are you? (familiar) | To a friend. The verb ending changes: আছেন becomes আছো.
+কেমন আছেন? | kæmon achhen? | How are you? (polite) | To a stranger, an elder or a shopkeeper.
+তুমি কেমন আছো? | tumi kæmon achho? | How are you? (familiar) | To a friend. The verb ending changes: আছেন becomes আছো.
 ভালো আছি | bhalo achhi | I'm well. | Literally: well am. আছি is the ami form; no আমি is needed.
 আমি ভালো আছি, আপনি? | ami bhalo achhi, apni? | I'm fine, and you? | আপনি alone asks the question back politely.
 ধন্যবাদ | dhonnobad | thank you | For a real favor or a service. Family and close friends often skip it.
@@ -103,14 +103,14 @@ module.exports = {
 আপনার নাম কী? | apnar nam ki? | What's your name? (polite) | To an adult you don't know.
 আমি ছাত্র। | ami chhatro. | I'm a student. | No word for "am", and no word for "a".
 আমি ডাক্তার। | ami ḍaktar. | I'm a doctor. | Jobs work the same way: zero copula.
-আমি শিক্ষক। | ami shikkhok. | I'm a teacher. | Zero copula again.
+আমি শিক্ষক। | ami shikkhôk. | I'm a teacher. | Zero copula again.
 আমি বাংলাদেশি | ami bangladeshi | I'm Bangladeshi. | বাংলাদেশ + ি: from Bangladesh.
 আমি আমেরিকা থেকে এসেছি। | ami amerika theke eshechhi. | I'm from America. | Literally: I have come from America. থেকে goes after the place.
 আমার বাড়ি ঢাকায়। | amar baṛi ḍhakay. | My home is in Dhaka. | Also the usual way to say where you're from.
 আপনার বাড়ি কোথায়? | apnar baṛi kothay? | Where are you from? (polite) | Literally: where is your home?
 আমার বাবা | amar baba | my father | আমার never changes, whatever noun follows.
 উনি আমার বন্ধু। | uni amar bondhu. | He's my friend. / She's my friend. | উনি is polite and means he or she.
-তিনি আমার শিক্ষক। | tini amar shikkhok. | He's my teacher. / She's my teacher. | তিনি is the polite "he" or "she".
+তিনি আমার শিক্ষক। | tini amar shikkhôk. | He's my teacher. / She's my teacher. | তিনি is the polite "he" or "she".
 আমার বয়স পঁচিশ বছর। | amar bôyosh põchish bôchhor. | I'm twenty-five. | Literally: my age twenty-five years.
 আপনার বয়স কত? | apnar bôyosh kôto? | How old are you? (polite) | Literally: your age how much?
 আমি বাংলা শিখছি। | ami bangla shikhchhi. | I'm learning Bengali. | শিখছি: learning now, these days.
@@ -119,7 +119,7 @@ module.exports = {
 `,
   "Questions": `
 এটা কী? | eṭa ki? | What is this? | কী (long ী) is "what".
-কে? | ke? | Who? | কে is "who"; কী is "what".
+কে আসছে? | ke ashchhe? | Who is coming? | কে is "who"; কী is "what". The verb takes the সে form.
 উনি কে? | uni ke? | Who is he? / Who is she? | Polite. The question word stays where the answer goes.
 কোথায়? | kothay? | Where? | Asks where something or someone is.
 বাজার কোথায়? | bajar kothay? | Where is the market? | The question word comes near the end, not first.
@@ -132,8 +132,8 @@ module.exports = {
 হ্যাঁ, আমি বাংলাদেশি। | hæ̃, ami bangladeshi. | Yes, I'm Bangladeshi. | হ্যাঁ is "yes".
 আমি ছাত্র নই। | ami chhatro noi. | I'm not a student. | নই, not নেই: there is no আছে here.
 না, সে ডাক্তার নয়। | na, she ḍaktar nôy. | No, she isn't a doctor. | সে is he or she. সে takes নয়; আমি takes নই.
-তুমি কেন খুশি? | tumi keno khushi? | Why are you happy? (familiar) | কেন is "why".
-আপনি কখন আসবেন? | apni kôkhon ashben? | When will you come? (polite) | কখন is "when".
+তুমি এত খুশি কেন? | tumi æto khushi kæno? | Why are you so happy? (familiar) | কেন is "why"; it often comes last. এত is "so".
+আপনি কখন আসবেন? | apni kôkhôn ashben? | When will you come? (polite) | কখন is "when".
 কোনটা আপনার? | konṭa apnar? | Which one is yours? (polite) | কোনটা is "which one".
 `,
   "This and that": `
@@ -165,7 +165,7 @@ module.exports = {
 ছয় | chhôy | six | ছ is aspirated.
 সাত | shat | seven | Seven things: সাতটা.
 আট | aṭ | eight | ট is retroflex.
-নয় | nôy | nine | Same word and sound as নয়, "is not".
+নয় | nôy | nine | Spelled and said like নয়, "is not": the context tells them apart.
 দশ | dôsh | ten | দ is dental.
 তিনটা বই | tinṭa boi | three books | The classifier -টা goes on the number, not the noun.
 দুইজন ছাত্র | duijon chhatro | two students | -জন counts people.

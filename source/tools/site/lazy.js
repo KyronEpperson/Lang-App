@@ -55,8 +55,10 @@ const skipIntro=async p=>{await p.waitForTimeout(800);await p.evaluate(()=>{cons
  ok('T7 nothing pushed before the course loaded',r.early===0&&r.pushes.every(x=>x.picked===1)&&r.meta&&r.meta.course==='es-en',JSON.stringify(r.pushes).slice(0,160));await c.close();}
 // T8 pack file gone while online (tab left open across a deploy) → reload offer, not a connection message
 {const [c,p]=await mk({locale:'en-US',serviceWorkers:'block'});await p.route(/\/packs\/i18n-ja/,r=>r.fulfill({status:404,body:'nf'}));await p.goto(U);await skipIntro(p);
- await p.evaluate(()=>{const w=document.getElementById('welcome');if(w)w.remove();showLangHome();});await p.click('#langHome [data-native="ja"]');await p.waitForTimeout(1200);
- const t=await p.evaluate(()=>({toast:document.getElementById('toast').textContent,btn:!!document.querySelector('#toast button'),step1:!!document.querySelector('#langHome [data-native]'),dis:document.querySelector('#langHome [data-native="ja"]').disabled}));
+ await p.evaluate(()=>{try{sessionStorage.setItem('la-autoreload',String(Date.now()));}catch(e){} /* the one automatic reload is already used: this test checks the offer that follows */ const w=document.getElementById('welcome');if(w)w.remove();showLangHome();});await p.click('#langHome [data-native="ja"]');await p.waitForTimeout(1200);
+ /* the app reloads itself once when a pack is missing; if that reload lands during the read below, wait for it and read again */
+ const ev8=async f=>{for(let i=0;;i++){try{return await p.evaluate(f);}catch(e){if(i>3||!/context was destroyed|navigation/i.test(String(e)))throw e;await p.waitForLoadState('load').catch(()=>{});await p.waitForTimeout(1500);}}};
+ const t=await ev8(()=>({toast:document.getElementById('toast').textContent,btn:!!document.querySelector('#toast button'),step1:!!document.querySelector('#langHome [data-native]'),dis:document.querySelector('#langHome [data-native="ja"]').disabled}));
  ok('T8 missing pack online → reload offer, still on step 1',/new version/i.test(t.toast)&&t.btn&&t.step1&&!t.dis,JSON.stringify(t));await c.close();}
 // T9 every listed course opens from the language home in its own interface language
 {const [c,p]=await mk({locale:'en-US',serviceWorkers:'block'});await p.goto(U);await skipIntro(p);await p.evaluate(()=>{const w=document.getElementById('welcome');if(w)w.remove();});

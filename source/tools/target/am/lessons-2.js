@@ -10,7 +10,7 @@ module.exports = [
 <p>English has one word, this, for a book and for a woman. Amharic looks at the noun. Near you, a masculine noun takes <b>ይህ</b> and a feminine noun takes <b>ይህች</b>. Farther away, a masculine noun takes <b>ያ</b> and a feminine noun takes <b>ያች</b>. One English word cannot cover those four.</p>
 <h3>The noun, then "to be"</h3>
 <p>English says "this is a book," with is in the middle. Amharic says the demonstrative, then the noun, then the copula at the end. Copula is the little "to be." A book, a pen and a house are masculine in this course, so the verb ending is <b>ነው</b>. For "this is a book," the noun stays bare: <b>ይህ መጽሐፍ ነው</b>, not <b>ይህ መጽሐፉ</b>. A house you already have in mind can still be <b>ቤቱ</b>. <b>ይህ ቤቱ ነው</b> is a real sentence.</p>
-{{ex:ይህ መጽሐፍ ነው።|yih mes'haf new.|This is a book.}}
+{{ex:ይህ መጽሐፍ ነው።|yih mets'haf new.|This is a book.}}
 {{ex:ይህ ብዕር ነው።|yih bi'ir new.|This is a pen.}}
 {{ex:ያ ቤት ነው።|ya bét new.|That is a house.}}
 <h3>A woman takes ናት</h3>
@@ -55,7 +55,7 @@ module.exports = [
     deck: "Questions and connectors",
     body: `
 <p>English builds most questions with a helper: Where do you live? Do you have a pen? Amharic has no word that does the job of do. A yes-or-no question is the same sentence you already know, said with your voice up at the end. Nothing moves to the front. The verb stays last, and its ending still says who you mean. Asking a stranger or an older person does not change that shape. It only chooses the polite form of the ending, not the ending you use with a friend.</p>
-{{ex:ይህ መጽሐፍ ነው?|yih mes'haf new?|Is this a book?}}
+{{ex:ይህ መጽሐፍ ነው?|yih mets'haf new?|Is this a book?}}
 {{ex:አንቺ ነሽ?|anchi nesh?|Are you? (to a woman)}}
 <h3>Six question words</h3>
 <div class="tbl"><table>
@@ -122,7 +122,7 @@ module.exports = [
 <p>You will also see three written <b>ሦስት</b>, ten written <b>ዐስር</b>, and twenty written <b>ሀያ</b>. Same words. This course writes <b>ሶስት</b>, <b>አስር</b> and <b>ሃያ</b>. Eleven through nineteen set <b>አስራ</b> in front of the small number: <b>አስራ አንድ</b> is eleven. The other tens are their own words. Leave them until a price needs them. Twenty is not "two tens."</p>
 <h3>After a number, the line to learn is singular</h3>
 <p>English adds an s: two houses. The line to learn is the singular noun: <b>ሁለት ቤት</b>. A plural after a number also occurs, including <b>ሁለት ድመቶች</b>. Do not treat that plural as a mistake. Do not add an English s. <b>ቤትስ</b> is not a word. The copula still notices how many there are. One masculine thing takes <b>ነው</b>. More than one takes <b>ናቸው</b>, the verb ending for they. When someone asks how many, answer with the number word and <b>ናቸው</b>. Do not read the fidel as if it were the digit. Say the word out loud: one through ten, then twenty, then a hundred.</p>
-{{ex:አንድ መጽሐፍ ነው።|and mes'haf new.|It is one book.}}
+{{ex:አንድ መጽሐፍ ነው።|and mets'haf new.|It is one book.}}
 {{ex:ሁለት ቤት ናቸው።|hulet bét nacchew.|They are two houses.}}
 {{ex:አስር ብዕር ናቸው።|assir bi'ir nacchew.|They are ten pens.}}
 {{ex:ሃያ ቤት ናቸው።|haya bét nacchew.|They are twenty houses.}}
@@ -217,7 +217,7 @@ module.exports = [
 <h3>Same letters, two words</h3>
 <p>Said with a long l, <b>አለ</b> means there is. Said with a short l, the same letters mean he said. <b>አለኝ</b> is built on the long one. The fidel does not show the long consonant. Listen. <b>ቤት አለ</b> is there is a house. <b>ቤት አለኝ</b> is I have a house. <b>ነህ</b> is you are. <b>አለህ</b> is you have. They are different verbs.</p>
 {{ex:ቤት አለ።|bét alle.|There is a house.}}
-{{ex:መጽሐፍ አለኝ።|mes'haf alleny.|I have a book.}}
+{{ex:መጽሐፍ አለኝ።|mets'haf alleny.|I have a book.}}
 {{ex:ቤት አለኝ።|bét alleny.|I have a house.}}
 <div class="tbl"><table>
 <tr><th>Who</th><th>Has</th><th>Does not have</th></tr>
@@ -231,10 +231,10 @@ module.exports = [
 <p>The woman form is <b>አለሽ</b>, not the man's <b>አለህ</b>. The form for she has is <b>አላት</b>, not <b>አለው</b>. A stranger or an older person gets the polite form <b>አለዎት</b>. For <b>እኛ</b>, the forms are <b>አለን</b> and <b>የለንም</b>. With no owner, "there is not" is <b>የለም</b>. The <b>ም</b> at the end means not. Other verbs get a wider pattern in the negative lesson. Do not say <b>አላለኝም</b>. If you name the owner, put that word first: <b>እኔ መጽሐፍ አለኝ</b>. You can leave it off, because <b>አለኝ</b> already says I. Do not borrow <b>ነው</b> here. Have is <b>አለ</b>, not the copula. A pen, a book and a house are enough to practice every person in the set. Those are one thing, so the verb is <b>አለ</b>. Two or more switch to the they-form. The Peace Corps manual says <b>ሁለት ድመቶች አሉኝ</b>, I have two cats.</p>
 {{ex:ብዕር አለሽ።|bi'ir allesh.|You have a pen. (to a woman)}}
 {{ex:ቤት አለህ።|bét alleh.|You have a house. (to a man)}}
-{{ex:መጽሐፍ አለዎት።|mes'haf allewot.|You have a book. (polite)}}
+{{ex:መጽሐፍ አለዎት።|mets'haf allewot.|You have a book. (polite)}}
 {{ex:ቤት አላት።|bét allat.|She has a house.}}
 {{ex:ብዕር የለኝም።|bi'ir yellenyim.|I do not have a pen.}}
-{{ex:መጽሐፍ የለሽም።|mes'haf yelleshim.|You do not have a book. (to a woman)}}
+{{ex:መጽሐፍ የለሽም።|mets'haf yelleshim.|You do not have a book. (to a woman)}}
 {{ex:ቤት የለም።|bét yellem.|There is no house.}}
 {{ex:ሁለት ድመቶች አሉኝ።|hulet dimmetoch alluny.|I have two cats.}}
 <div class="tip">Have does not sit in the middle. <b>አለኝ መጽሐፍ</b> → <b>መጽሐፍ አለኝ</b>.</div>
@@ -279,8 +279,8 @@ module.exports = [
 <p>At home is <b>በቤት</b>. In the house, with the definite ending, is <b>በቤቱ</b>. For a person, <b>ለ</b> joins too: <b>ለአንቺ</b> to a woman, <b>ለአንተ</b> to a man, <b>ለእርስዎ</b> polite, <b>ለእኔ</b> for me. The book is still the subject, so the verb ending is <b>ነው</b>. A city or a country, when it is the subject, takes the feminine verb ending <b>ናት</b>. Read each join as one word. A gap after <b>ከ</b>, <b>በ</b> or <b>ለ</b> is the English habit, and it is not how these are written. <b>ወደ</b> is the one that keeps its space.</p>
 {{ex:በቤት ናት።|bebét nat.|She is at home.}}
 {{ex:አቶ ከበደ በቤቱ ነው።|ato kebbede bebétu new.|Ato Kebede is in the house.}}
-{{ex:ይህ መጽሐፍ ለአንቺ ነው።|yih mes'haf leanchi new.|This book is for you. (to a woman)}}
-{{ex:ይህ መጽሐፍ ለእርስዎ ነው።|yih mes'haf leirswo new.|This book is for you. (polite)}}
+{{ex:ይህ መጽሐፍ ለአንቺ ነው።|yih mets'haf leanchi new.|This book is for you. (to a woman)}}
+{{ex:ይህ መጽሐፍ ለእርስዎ ነው።|yih mets'haf leirswo new.|This book is for you. (polite)}}
 {{ex:አዲስ አበባ በኢትዮጵያ ናት።|addis abeba beityop'ya nat.|Addis Ababa is in Ethiopia.}}
 <div class="tip">For "I am from America," do not leave a gap and do not use the man form. <b>ከ አሜሪካ ነህ</b> → <b>ከአሜሪካ ነኝ</b>.</div>
 `,

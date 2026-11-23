@@ -2,7 +2,7 @@
    Lexicon-first, like tools/target/nan/respell.js: every word is looked up in tools/target/am/lexicon.txt, where each entry names the
    source it was checked against (or says unverified:model). There is NO rule fallback: the fidel does not write gemination and does
    not show whether a sixth-order vowel is said, so a word that is not in the lexicon throws instead of getting a guessed reading.
-   Key (lexicon header): orders e u i a é i/nothing o; ሀ ሐ ኀ አ ዐ first order a; sh ch j zh ny y w v; ejectives t' k' p' ch' s';
+   Key (lexicon header): orders e u i a é i/nothing o; ሀ ሐ ኀ አ ዐ first order a; sh ch j zh ny y w v; ejectives t' k' p' ch' ts';
    a long consonant is a doubled letter (bunna, abbat; ssh cch nny tt' kk' cch'); glottal stop inside a word is ' after the vowel.
    Words are separated by one space. Punctuation is kept and attached to the word before it: ? . , ! (Ethiopic ። ፣ ፧ ፤ become . , ? ,; the word space ፡ is dropped).
    It throws on: a word not in the lexicon; a Latin letter or a digit; a blank (___); an empty text.

@@ -8,7 +8,7 @@
    - Spacing is kept as one space between words; । ॥ become "."; , ? ! : ; stay stuck to the word before; a hyphen stays a hyphen
      (a hyphenated compound is looked up whole first, then part by part). Quotes and brackets are dropped.
    - It throws on Latin letters, digits (Western or Bengali: write numbers as words), and any other character it does not know.
-   usage: node respell.js "আপনি কেমন আছেন?"      ->  আপনি কেমন আছেন? -> apni kemon achhen?
+   usage: node respell.js "আপনি কেমন আছেন?"      ->  আপনি কেমন আছেন? -> apni kæmon achhen?
           node respell.js --pattern                prints pronPattern
           node respell.js --check                  validates every lexicon line (pattern, word counts, sources, conflicts); exit 1 on a problem
           node respell.js --suggest "<word>"       prints an UNVERIFIED rule-based guess (tools/target/bn/suggest.js), never a source */

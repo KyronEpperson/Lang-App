@@ -215,7 +215,7 @@ ASCII plus é, one spelling per fidel unit, no context rules (the lexicon header
 | labialised -wa | Cwa | ኳስ kwas, ቋንቋ k'wank'wa |
 
 - e for the first order follows the usual Ethiopian romanisation (selam, betam) and the BGN/PCGN table. The lesson tells learners to say it short, between bed and but.
-- s' for ጸ/ፀ matches the course's wording ("the ejective s"); BGN/PCGN writes ts', and §6.1 of the first profile noted it is mostly [tsʼ]. A speaker can decide whether to switch; it is one global replacement in the lexicon.
+- ts' for ጸ/ፀ, as BGN/PCGN writes it and as most speakers say it ([tsʼ]). Decided by Kii 2026-11-22 ("whichever is more accurate").
 - A final long consonant is written only where the source writes it (ብር birr, ውድ widd). Numbers: Omniglot writes hulätt, aratt, säbatt; the Peace Corps manual does not. The lexicon writes hulet, arat, sebat.
 - CURSOR rule 2: no letter is used against its English value. The known weak spots are combinations, not letters: e+w (ነው new, ሰው sew) and a+y (ሻይ shay). The `orders` lesson warns about ነው.
 - Prefixes ከ- በ- ለ- የ- are joined without a hyphen (ከአሜሪካ keamérika).

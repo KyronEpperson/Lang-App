@@ -36,13 +36,13 @@ module.exports = [
       ["mc","this (one), near you =","এটা","ওটা","কোথায়","কার","এটা is this one, near you; ওটা is that one, over there."],
       ["mc","the pen =","কলমটা","একটা কলম","টা কলম","এটা কলম","The classifier -টা goes after the noun: কলমটা. একটা কলম is a pen, and এটা কলম is this is a pen."],
       ["mc","Whose phone is that?","ওই ফোনটা কার?","ওই ফোনটা কী?","এই ফোনটা কার?","ওই ফোনটা কোথায়?","ওই is that, and কার asks whose."],
-      ["mc","Which form will you see in formal writing?","বইটি","বইটা","এটা","বই","-টি is the formal classifier; -টা is the everyday one."],
+      ["mc","\"the book\" in its formal, written form =","বইটি","বইটা","এটা","বই","-টি is the formal classifier; বইটা is the everyday form, and বই has no classifier."],
       ["mc","এটা কী? means…","What is this?","What is that?","Where is this?","Whose is this?","এটা is this, কী is what, and there is no word for is."],
-      ["or","This book is good.","এই বইটা ভালো","বই","এই goes in front, and the classifier -টা stays after the noun: এই বইটা."],
+      ["or","This book is good.","এই বইটা ভালো","ওই","এই goes in front, and the classifier -টা stays after the noun: এই বইটা."],
       ["or","The pen is mine. (start with the pen)","কলমটা আমার","আমি","The classifier -টা goes after the noun, and আমার at the end says mine, with a zero copula."],
       ["or","Whose phone is that?","ওই ফোনটা কার?","কে","কার is whose; কে is who."],
       ["fi","__ আমার ফোন।","That is my phone.","ওটা","এটা|কী|কার","That one, over there, is ওটা."],
-      ["fi","এই __ ভালো।","This book is good.","বইটা","এটা|ওটা|কার","After এই comes the noun with its classifier: এই বইটা."],
+      ["fi","এই __ ভালো।","This book is good. (with the classifier)","বইটা","এটা|ওটা|কার","After এই comes the noun with its classifier: এই বইটা."],
       ["fi","ওই কলমটা __?","Whose pen is that?","কার","কে|কী|কোথায়","কার asks whose; কে asks who."],
       ["ty","Where is the phone?","ফোনটা কোথায়?","ফোন · কোথায় · for the, add -টা","ফোন","The classifier -টা goes after the noun for the: ফোনটা কোথায়?"],
       ["ty","This is my book.","এটা আমার বই","এটা · আমার · বই","আছে","Zero copula: there is no word for is, so এটা আমার বই is the whole sentence."],
@@ -68,7 +68,7 @@ module.exports = [
 <p>Use the same classifier to ask how many: <b>কয়টা</b> <i>kôyṭa</i> means "how many (things)?". The answer repeats the classifier, so a question with -টা gets an answer with -টা.</p>
 <p>For people, the classifier is -জন: <b>একজন</b> <i>ækjon</i>, <b>দুইজন</b> <i>duijon</i>, <b>তিনজন</b> <i>tinjon</i>.</p>
 {{ex:তিনজন ছাত্র|tinjon chhatro|three students}}
-{{ex:দুইজন শিক্ষক|duijon shikkhok|two teachers}}
+{{ex:দুইজন শিক্ষক|duijon shikkhôk|two teachers}}
 <p>To ask how many people, use <b>কয়জন</b> <i>kôyjon</i>. Bengali does not mind that "two teachers" is plural in English: the classifier already tells you that a number is involved, so শিক্ষক stays exactly as it is.</p>
 <h3>Prices</h3>
 <p>The money is <b>টাকা</b> <i>ṭaka</i>, taka. To ask the price, say <b>কত টাকা?</b>, "how many taka?". The answer is simply the number and টাকা. A price is a fact about the thing, so it uses the zero copula: "this is fifty taka" has no word for "is". You can also point first with এটা, as in the last lesson.</p>
@@ -116,7 +116,7 @@ module.exports = [
 <p>The opposite of আছে is <b>নেই</b> <i>nei</i>, "is not there". It replaces আছে completely. Do not use নই or নয় here: those are for sentences with no verb, like আমি ছাত্র নই.</p>
 {{ex:আমার গাড়ি নেই।|amar gaṛi nei.|I don't have a car.}}
 <h3>There is, there isn't</h3>
-<p>The same two words say "there is" and "there isn't". A rising voice turns any of these into a question, with no change in the words. That is the easiest question in Bengali, and you will hear it in every shop: পানি আছে? চা আছে?</p>
+<p>The same two words say "there is" and "there isn't". A rising voice turns any of these into a question, with no change in the words, or you can add কি as in the questions lesson. That is the easiest question in Bengali, and you will hear it in every shop: পানি আছে? চা আছে?</p>
 {{ex:এখানে পানি আছে।|ekhane pani achhe.|There is water here.}}
 {{ex:পানি আছে?|pani achhe?|Is there any water?}}
 <h3>Being somewhere</h3>
@@ -147,7 +147,7 @@ module.exports = [
       ["fi","__ টাকা নেই।","I don't have money.","আমার","আমি|তুমি|আপনি","The owner takes the আমার form: আমার টাকা নেই."],
       ["fi","তুমি কোথায় __?","Where are you? (to a friend)","আছো","আছেন|আছি|আছে","তুমি takes the familiar ending: আছো."],
       ["ty","I don't have a car.","আমার গাড়ি নেই|আমার কোনো গাড়ি নেই","আমার · গাড়ি · নেই","আমি","Possession takes আমার, not the ami form, and নেই replaces আছে."],
-      ["ty","Is there water here? (start with here)","এখানে পানি আছে?","এখানে · পানি · আছে","নেই","আছে is there is; a rising voice makes it a question."],
+      ["ty","Is there water here? (start with here)","এখানে পানি আছে?|এখানে কি পানি আছে?","এখানে · পানি · আছে","নেই","আছে is there is; a rising voice makes it a question."],
       ["ty","You have a book. (polite)","আপনার একটা বই আছে|আপনার বই আছে","আপনার · বই · আছে","আপনি","Having is genitive plus আছে: আপনার, not the apni form আপনি."]
     ]
   },
@@ -175,7 +175,7 @@ module.exports = [
 <div class="tbl"><table><tr><th>English</th><th>Bengali shape</th></tr><tr><td>I want</td><td class="k">আমি … চাই</td></tr><tr><td>I need</td><td class="k">আমার … দরকার</td></tr><tr><td>I like</td><td class="k">আমার … ভালো লাগে</td></tr></table></div>
 <p>A quick test: if the English verb is "want", start with আমি. If it is "need" or "like", start with আমার. The same rule works for every person: তুমি চাও, but তোমার দরকার and তোমার ভালো লাগে.</p>
 <p>Notice what this means for your ear: when a sentence starts with আমার, expect দরকার, ভালো লাগে or আছে at the end, not a verb with the আমি ending. That one word at the start tells you which pattern is coming.</p>
-<p>In a shop or a café, চাই is the most useful of the three. Name the thing, add চাই, and you have a complete and polite request. A shopkeeper will often ask you first, with আপনি কী চান?</p>
+<p>In a shop or a café, চাই is the most useful of the three. Name the thing and add চাই: পানি চাই, "I want water". The person can be left out when it is clear, because the ending -ই already says "I".</p>
 <div class="tip"><b>Most common mistake:</b> building "need" like an English verb. আমি টাকা দরকার → <b>আমার টাকা দরকার</b>.</div>
 `,
     check: [
@@ -188,7 +188,7 @@ module.exports = [
       ["mc","I need money. =","আমার টাকা দরকার।","আমি টাকা দরকার।","আমি টাকা দরকার আছি।","আমার টাকা দরকার আছি।","Need is আমার plus দরকার, with no verb."],
       ["mc","I like Dhaka. =","আমার ঢাকা ভালো লাগে।","আমি ঢাকা ভালো লাগে।","আমি ঢাকা ভালো।","আমার ঢাকা দরকার।","Like is the liker in the আমার form plus ভালো লাগে."],
       ["mc","What would you like? (to a customer)","আপনি কী চান?","আপনি কী চাও?","তুমি কী চান?","আপনি কী চাই?","আপনি takes the polite ending: চান."],
-      ["mc","In আমার চা ভালো লাগে, what happens to লাগে if a friend is the liker?","Nothing: it stays লাগে","It becomes লাগো","It is dropped","It moves to the front","Only আমার changes (তোমার, তার); লাগে stays the same."],
+      ["mc","In আমার চা ভালো লাগে, what happens to লাগে if a friend is the liker?","Nothing: it stays লাগে","It changes to match the person","It is dropped","It moves to the front","Only আমার changes (তোমার, তার); লাগে stays the same."],
       ["or","I need a pen. (start with the person)","আমার একটা কলম দরকার","আমি","Need takes আমার, not the ami form, and has no verb: zero copula."],
       ["or","I want water. (start with I)","আমি পানি চাই","চান","The verb ending -ই matches আমি; চান is the polite form."],
       ["or","I like tea. (start with the person)","আমার চা ভালো লাগে","আমি","The liker takes আমার, and ভালো লাগে stays the same."],
@@ -229,7 +229,7 @@ module.exports = [
     check: [
       ["\"You work\" to a stranger:",["আপনি কাজ করো।","আপনি কাজ করি।","আপনি কাজ করেন।","আপনার কাজ করেন।"],2,"আপনি takes the polite verb ending -েন: করেন."],
       ["Why is it আমরা করি, with the same ending as আমি করি?",["The ending follows the person, not the number","আমরা is a polite word","It is a spelling mistake","Plural endings are optional"],0,"Bengali verb endings show person and politeness, never number."],
-      ["করি and করো start with the same letters, but the aid writes kori and kôro. Why?",["One of them is a typo","The first vowel really is said differently","kôro is the polite form","The aid always writes ô after তুমি"],1,"The spelling hides the vowel change; the aid writes what is said."]
+      ["করি and করো start with the same letters, but the aid writes kori and kôro. Why?",["One of them is a typo","The first vowel really is said differently","করো is the polite form","The aid changes the vowel after every তুমি"],1,"The spelling hides the vowel change; the aid writes what is said."]
     ],
     practice: [
       ["mc","I work. =","আমি কাজ করি।","আমি কাজ করো।","আমি কাজ করেন।","আমার কাজ করি।","The ami form ends in -ি: করি."],
@@ -244,7 +244,7 @@ module.exports = [
       ["fi","তুমি বাংলা __?","Do you speak Bengali? (to a friend)","বলো","বলেন|বলি|বলা","তুমি takes the familiar ending: বলো."],
       ["fi","আমি ইংরেজি __।","I speak English.","বলি","বলো|বলেন|বলা","আমি takes -ি: বলি."],
       ["ty","I work.","আমি কাজ করি|কাজ করি","কাজ · করা","করো","The verb ending for আমি is -ি: করি."],
-      ["ty","Do you speak English? (polite)","আপনি ইংরেজি বলেন?|ইংরেজি বলেন?","ইংরেজি · বলা","বলো","The polite form takes the verb ending -েন: বলেন."],
+      ["ty","Do you speak English? (polite)","আপনি ইংরেজি বলেন?|ইংরেজি বলেন?|আপনি কি ইংরেজি বলেন?","ইংরেজি · বলা","বলো","The polite form takes the verb ending -েন: বলেন."],
       ["ty","What do you do? (to a friend)","তুমি কী করো?|কী করো?","কী · করা","করেন","The familiar form তুমি takes করো."]
     ]
   },
@@ -270,7 +270,8 @@ module.exports = [
 <h3>Being at a place</h3>
 <p>The ending also works with আছি from the আছে lesson. থাকি is where you live; আছি is where you are right now.</p>
 {{ex:আমি বাড়িতে আছি।|ami baṛite achhi.|I'm at home.}}
-{{ex:সে অফিসে আছে।|she ofishe achhe.|She is at the office.}}
+{{ex:সে অফিসে আছে।|she ôfishe achhe.|She is at the office.}}
+<p>In Dhaka, the flat or house you live in is usually called <b>বাসা</b> <i>basha</i>, so "at home" is often <b>বাসায়</b>, with -য় after -া; বাড়িতে is understood everywhere too.</p>
 <p>A parent or other elder often gets the polite ending, as in আমার বাবা শহরে থাকেন.</p>
 <p>The question word is <b>কোথায়</b>, "where", from the questions lesson. It sits where the place would sit, just before the verb, so the question and the answer have the same shape: কোথায় থাকেন? ঢাকায় থাকি. Swap the question word for the place and you have your answer, with the verb ending changed to match you.</p>
 <p>The ending is part of the word, so never put a separate word for "in" in front of the place. The place comes first, the ending is joined to it, and the verb comes last.</p>
@@ -295,7 +296,7 @@ module.exports = [
       ["fi","তুমি কোথায় __?","Where do you live? (to a friend)","থাকো","থাকেন|থাকি|থাকা","তুমি takes the familiar ending: থাকো."],
       ["ty","I live in Dhaka.","আমি ঢাকায় থাকি|ঢাকায় থাকি|আমি ঢাকাতে থাকি|ঢাকাতে থাকি|আমি থাকি ঢাকায়","ঢাকা · থাকা","ঢাকা","The case ending -য় goes after the noun: ঢাকায়."],
       ["ty","Where do you live? (polite)","আপনি কোথায় থাকেন?|কোথায় থাকেন?|আপনি থাকেন কোথায়?","কোথায় · থাকা","থাকো","The polite form takes the verb ending -েন: থাকেন."],
-      ["ty","I'm at home right now. (use আছি)","আমি বাড়িতে আছি|বাড়িতে আছি","বাড়ি · আছি","থাকি","The case ending -তে goes after বাড়ি, and আছি matches আমি."]
+      ["ty","I'm at home right now. (use আছি)","আমি বাড়িতে আছি|বাড়িতে আছি|আমি বাসায় আছি|বাসায় আছি","বাড়ি · আছি","থাকি","The case ending -তে goes after বাড়ি, and আছি matches আমি."]
     ]
   },
   {
@@ -311,7 +312,7 @@ module.exports = [
 {{ex:আমার বাবা ডাক্তার।|amar baba ḍaktar.|My father is a doctor.}}
 {{ex:সে আমার ভাই।|she amar bhai.|He is my brother.}}
 <h3>And, and, but</h3>
-<p>Bengali has two everyday words for "and". <b>ও</b> <i>o</i> and <b>আর</b> <i>ar</i> both join two nouns. <b>কিন্তু</b> <i>kintu</i> is "but". ও can also mean "also", and আর can also mean "more", so listen to the whole sentence. For joining two family words, either one is fine. Put কিন্তু between two complete sentences, after a comma, the way English uses "but".</p>
+<p>Bengali has two everyday words for "and". <b>ও</b> <i>o</i> and <b>আর</b> <i>ar</i> both join two nouns. <b>কিন্তু</b> <i>kintu</i> is "but". আর can also mean "more", so listen to the whole sentence before you decide what it means. For joining two family words, either one is fine. Put কিন্তু between two complete sentences, after a comma, the way English uses "but".</p>
 {{ex:আমার মা ও বাবা|amar ma o baba|my mother and father}}
 {{ex:আমার একটা বোন আছে, কিন্তু ভাই নেই।|amar ækṭa bon achhe, kintu bhai nei.|I have a sister, but no brother.}}
 <h3>More than one person: -রা</h3>
@@ -321,7 +322,7 @@ module.exports = [
 <h3>Numbers win</h3>
 <p>When a number is there, the number does the counting, so the noun takes no -রা. Use the people classifier -জন from the numbers lesson.</p>
 {{ex:আমার দুইজন ভাই আছে।|amar duijon bhai achhe.|I have two brothers.}}
-<p>The classifier -জন belongs to the number, and the noun after it stays plain. That is the same rule you saw with দুইটা বই. So -রা and a number never meet on the same noun: choose one or the other.</p>
+<p>The classifier -জন belongs to the number, and the noun after it stays plain. That is the same rule you saw with দুইটা বই. So -রা and a number never meet on the same noun: choose one or the other. With family words you will also hear the bare number, with no classifier: আমার দুই ভাই আছে.</p>
 <p>Elders often get the polite verb ending when you talk about them: আমার মা ঢাকায় থাকেন. That is respect, not plural.</p>
 <div class="tip"><b>Most common mistake:</b> thinking of English -s and adding -রা even after a number. দুইজন বন্ধুরা → <b>দুইজন বন্ধু</b>.</div>
 `,
@@ -391,8 +392,8 @@ module.exports = [
       ["fi","তুমি কী __?","What do you eat? (to a friend)","খাও","খান|খাই|খায়","তুমি takes the familiar ending: খাও."],
       ["fi","সে মাছ __ না।","He doesn't eat fish.","খায়","খাই|খাও|খান","সে takes খায়, and না comes after the verb."],
       ["ty","I eat rice.","আমি ভাত খাই|ভাত খাই","ভাত · খাওয়া","খান","The verb ending for আমি is -ই: খাই."],
-      ["ty","Some water, please. (polite)","একটু পানি দিন|পানি দিন","একটু · পানি · দিন","দাও","Use the polite form দিন with a waiter."],
-      ["ty","Do you drink tea? (to a friend)","তুমি চা খাও?|চা খাও?","চা · খাওয়া","খান","The familiar form তুমি takes খাও."]
+      ["ty","Some water, please. (polite)","একটু পানি দিন|পানি দিন|আমাকে পানি দিন|আমাকে একটু পানি দিন","একটু · পানি · দিন","দাও","Use the polite form দিন with a waiter."],
+      ["ty","Do you drink tea? (to a friend)","তুমি চা খাও?|চা খাও?|তুমি কি চা খাও?","চা · খাওয়া","খান","The familiar form তুমি takes খাও."]
     ]
   },
   {
@@ -414,7 +415,7 @@ module.exports = [
 {{ex:আপনি কোথায় যাচ্ছেন?|apni kothay jacchhen?|Where are you going?}}
 {{ex:আমরা চা খাচ্ছি।|amra cha khacchhi.|We're having tea.}}
 <h3>Usually or right now?</h3>
-<p>The choice is mostly the same as in English, and the pronoun can be dropped in both, because the ending already shows the person. A habit takes the simple form; something happening as you speak takes the -ছ- form. If you could add "every day" in English, use the simple form; if you could add "at the moment", use the -ছ- form. Bengali speakers make the same choice, so your English instinct is a good guide. <b>এখন</b> <i>ækhon</i>, "now", often comes with it.</p>
+<p>The choice is mostly the same as in English, and the pronoun can be dropped in both, because the ending already shows the person. A habit takes the simple form; something happening as you speak takes the -ছ- form. If you could add "every day" in English, use the simple form; if you could add "at the moment", use the -ছ- form. So your English instinct is usually a good guide. <b>এখন</b> <i>ækhon</i>, "now", often comes with it.</p>
 <div class="tbl"><table><tr><th>Habit</th><th>Right now</th></tr><tr><td class="k">আমি চা খাই।</td><td class="k">আমি চা খাচ্ছি।</td></tr><tr><td>I drink tea.</td><td>I'm drinking tea.</td></tr></table></div>
 {{ex:আমি এখন বাংলা বলছি।|ami ækhon bangla bolchhi.|I'm speaking Bengali now.}}
 <p>On the phone, <b>কী করছ?</b> "what are you doing?" is a very common way to start a chat with a friend. To a stranger, ask <b>কী করছেন?</b> The answer uses the same form: কাজ করছি, "I'm working", or চা খাচ্ছি, "I'm having tea".</p>

@@ -33,7 +33,7 @@ module.exports = [
 {{ex:ገና|gena|still. With a long n, genna, the same letters are Christmas}}
 <h3>The English letters under each word</h3>
 <p>Every card and example also shows the word in English letters, so you can read it before you know the fidel. It is a reading aid, not a second spelling. The Written column above gives the vowels. The first order is written e, but say it short, between the e of bed and the u of but. The fifth order is written é, like the e of café. The letter i stands for two sounds: the third order, the ee of see said short, and the sixth order, a quick weak vowel like the i of bit. When the sixth order is silent, nothing is written.</p>
-<p>A doubled letter is a long consonant: hold it, as in the middle of book case. <b>ቡና</b> is bunna, with a long n. The fidel does not show this, but the English letters do. An apostrophe after a consonant marks an ejective, a popped sound: t', k', p', ch', s'. <b>ቀ</b> is k'e and <b>ከ</b> is ke. An apostrophe after a vowel is a short catch in the throat, as in <b>ሰዓት</b>, se'at.</p>
+<p>A doubled letter is a long consonant: hold it, as in the middle of book case. <b>ቡና</b> is bunna, with a long n. The fidel does not show this, but the English letters do. An apostrophe after a consonant marks an ejective, a popped sound: t', k', p', ch', ts'. <b>ቀ</b> is k'e and <b>ከ</b> is ke. An apostrophe after a vowel is a short catch in the throat, as in <b>ሰዓት</b>, se'at.</p>
 <p>The other letters sound the way they do in English: sh, ch, j as in jam, y as in yes, ny as in canyon, zh as the s in measure. Some words look like English words. They are not read that way: <b>ነው</b> new is ne plus w, <b>ሰው</b> sew is se plus w, <b>ዋልክ</b> walk is wa plus l plus k, and <b>ግን</b> gin has a hard g, as in get. The English letters come from a checked word list, so a word you meet later may surprise you. Trust the audio when it differs.</p>
 {{ex:ጠዋት|t'ewat|morning, with the ejective t'}}
 <h3>What the rows will add</h3>
@@ -203,7 +203,7 @@ module.exports = [
 <tr><td class="k">ጠ</td><td>an ejective. Not the t of ተ</td></tr>
 <tr><td class="k">ጨ</td><td>an ejective. Not the ch of ቸ</td></tr>
 <tr><td class="k">ጰ</td><td>an ejective. Not the p of ፐ</td></tr>
-<tr><td class="k">ጸ</td><td>an ejective s. Not the s of ሰ</td></tr>
+<tr><td class="k">ጸ</td><td>an ejective ts. Not the s of ሰ</td></tr>
 <tr><td class="k">ፀ</td><td>the same sound as ጸ</td></tr>
 <tr><td class="k">ፈ</td><td>f</td></tr>
 <tr><td class="k">ፐ</td><td>p</td></tr>
@@ -211,11 +211,11 @@ module.exports = [
 <h3>Plain partner, ejective partner</h3>
 <p>You already know the plain partners. <b>ተ</b> is a plain t. <b>ጠ</b> is not that t. <b>ቸ</b> is a plain ch. <b>ጨ</b> is not that ch. <b>ፐ</b> is a plain p. <b>ጰ</b> is not that p. <b>ሰ</b> is a plain s. <b>ጸ</b> is not that s. Each ejective has a catch in the throat. Listen to the pair. Do not flatten the ejective into the plain letter.</p>
 {{ex:ጠ|t'e|an ejective, not the t of ተ}}
-{{ex:ጸ|s'e|an ejective s, not the s of ሰ}}
+{{ex:ጸ|ts'e|an ejective ts, a popped ts: not the s of ሰ}}
 {{ex:ጨ|ch'e|an ejective, not the ch of ቸ}}
 {{ex:ጰ|p'e|an ejective, not the p of ፐ}}
-<p><b>ፀ</b> is the same sound as <b>ጸ</b>. Two letters, one ejective s, the way <b>ሀ</b> and <b>ሐ</b> are one h. Keep the spelling the word actually uses. Do not pick one letter and use it everywhere.</p>
-{{ex:ፀ|s'e|the same sound as ጸ}}
+<p><b>ፀ</b> is the same sound as <b>ጸ</b>. Two letters, one ejective ts, the way <b>ሀ</b> and <b>ሐ</b> are one h. Keep the spelling the word actually uses. Do not pick one letter and use it everywhere.</p>
+{{ex:ፀ|ts'e|the same sound as ጸ}}
 <h3>Words you can read now</h3>
 <p><b>ደ</b> is d, so <b>ደህና</b> is no longer only a shape. It is <b>ደ</b>, sixth-order <b>ሀ</b>, then <b>ና</b>. <b>ጤና</b> is health: fifth-order <b>ጠ</b>, the ejective, then <b>ና</b>. <b>ቡና</b> is coffee. <b>ገና</b> is the word from the first lesson. You can read the letters now. You still cannot see whether the n is long.</p>
 {{ex:ደህና|dehna|fine}}
@@ -228,12 +228,12 @@ module.exports = [
 `,
     check: [
       ["ጠ and ተ are…", ["The same consonant", "An ejective and a plain t, two consonants", "Both h", "A long t and a short t"], 1, "ጠ is an ejective. ተ is a plain t. The length of a consonant is a different issue, and it is not written."],
-      ["ፀ and ጸ are…", ["Two different sounds", "One ejective s, two letters", "A plain s and an ejective", "Both the s of ሰ"], 1, "ፀ and ጸ are the same ejective s. ሰ is the plain s."],
+      ["ፀ and ጸ are…", ["Two different sounds", "One ejective ts, two letters", "A plain s and an ejective", "Both the s of ሰ"], 1, "ፀ and ጸ are the same ejective ts. ሰ is the plain s."],
       ["What does አቶ ከበደ use አቶ for?", ["A woman's name", "Hello", "A title before a man's name", "The word coffee"], 2, "አቶ sits before a man's name. It is a title, not a greeting."]
     ],
     practice: [
       ["mc", "Which letter is the ejective partner of ተ?", "ጠ", "ጨ", "ፐ", "ደ", "ጠ is the ejective beside plain ተ. ጨ is the ejective beside ቸ."],
-      ["mc", "Which letter is the same sound as ጸ?", "ፀ", "ሰ", "ሠ", "ዘ", "ፀ and ጸ are one ejective s. ሰ and ሠ are plain s."],
+      ["mc", "Which letter is the same sound as ጸ?", "ፀ", "ሰ", "ሠ", "ዘ", "ፀ and ጸ are one ejective ts. ሰ and ሠ are plain s."],
       ["mc", "Health is…", "ጤና", "ደህና", "ቡና", "ገና", "ጤና is health, with the ejective ጠ. ደህና is fine."],
       ["mc", "ገና, as written, can mean…", "still, or Christmas", "only still", "only Christmas", "coffee", "One spelling covers both. The long n is not written."],
       ["mc", "You are fine, to a man. Which matches?", "ደህና ነህ", "ደህና ነሽ", "ነሽ ደህና", "አቶ ነህ", "The verb ending ነህ is the man form. አቶ is a title, not a verb ending."],
@@ -261,7 +261,7 @@ module.exports = [
 <tr><td class="k">ሀ ሐ ኀ ኸ</td><td>h</td></tr>
 <tr><td class="k">ሰ ሠ</td><td>s</td></tr>
 <tr><td class="k">አ ዐ</td><td>a vowel, no consonant</td></tr>
-<tr><td class="k">ጸ ፀ</td><td>the ejective s</td></tr>
+<tr><td class="k">ጸ ፀ</td><td>the ejective ts</td></tr>
 </table></div>
 <p>Country is a useful pair. <b>ሀገር</b> and <b>ሃገር</b> are both country. <b>ሀ</b> is the first order, <b>ሃ</b> is the fourth, and for this letter those two orders are the same vowel. You will see both spellings. Neither one is a different word.</p>
 {{ex:ሀገር|hager|country, spelled with first-order ሀ}}
@@ -279,13 +279,13 @@ module.exports = [
 {{ex:አለ|alle|there is. With a short l, ale, the same letters are he said}}
 <h3>A rolled r, and a real place</h3>
 <p><b>ረ</b> is a trill when it is held, and a tap when it is short. English speakers often use only the tap. In <b>ሀገር</b>, follow the audio. The book <b>መጽሐፍ</b> puts three lessons in one word: the ejective <b>ጸ</b>, the h letter <b>ሐ</b>, and a sixth-order <b>ፈ</b> at the end. You will also see <b>መጽሀፍ</b>, the Peace Corps spelling. Same word. The city you are learning for is two words.</p>
-{{ex:መጽሐፍ|mes'haf|book}}
+{{ex:መጽሐፍ|mets'haf|book}}
 {{ex:አዲስ አበባ|addis abeba|Addis Ababa}}
 <p>The practice still asks for the man form and the woman form. <b>ነህ</b> and <b>ነሽ</b> did not go away when the letters got easier.</p>
 <div class="tip"><b>Most common mistake:</b> one pronunciation for one spelling. <b>ገና</b> read only as still → <b>ገና</b> as still or Christmas, with the long n left to your ear.</div>
 `,
     check: [
-      ["In Addis Ababa, ጸ and ፀ are…", ["A plain s and an ejective", "Two vowels", "Both h", "One ejective s, two letters"], 3, "ጸ and ፀ are the same ejective s. The plain s letters are ሰ and ሠ."],
+      ["In Addis Ababa, ጸ and ፀ are…", ["A plain s and an ejective", "Two vowels", "Both h", "One ejective ts, two letters"], 3, "ጸ and ፀ are the same ejective ts. The plain s letters are ሰ and ሠ."],
       ["ኳ is the -wa form on…", ["the ejective ቀ", "plain k, the ከ row", "g", "b"], 1, "ኳ is plain k plus w. ቧ is b, and ጓ is g."],
       ["You see ገና with no audio and no context. What can you know?", ["It must mean still", "It must mean Christmas", "It is one of those two, and the letters do not say which", "The n is written twice if it is long"], 2, "ገና is still or Christmas. The long consonant is not written."]
     ],

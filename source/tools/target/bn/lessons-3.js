@@ -11,7 +11,7 @@ module.exports = [
 <p>A dictionary lists a verb with -আ on the end: করা, আসা, or -ওয়া: যাওয়া, খাওয়া. Drop that ending and you have the stem. Take the stem (কর- for "do") and add <b>-ব</b> for আমি, <b>-বে</b> for তুমি and সে, and <b>-বেন</b> for আপনি.</p>
 <div class="tbl"><table><tr><th>Who</th><th>Present</th><th>Future</th></tr><tr><td>I</td><td class="k">আমি করি</td><td class="k">আমি করব</td></tr><tr><td>you (familiar)</td><td class="k">তুমি করো</td><td class="k">তুমি করবে</td></tr><tr><td>he, she</td><td class="k">সে করে</td><td class="k">সে করবে</td></tr><tr><td>you (polite)</td><td class="k">আপনি করেন</td><td class="k">আপনি করবেন</td></tr></table></div>
 {{ex:আমি কাল কাজ করব।|ami kal kaj korbo.|I'll work tomorrow.}}
-{{ex:আপনি কখন আসবেন?|apni kôkhon ashben?|When will you come? (polite)}}
+{{ex:আপনি কখন আসবেন?|apni kôkhôn ashben?|When will you come? (polite)}}
 <p>Notice that in the future তুমি and সে share one form, করবে. The context tells you who is meant.</p>
 {{ex:তুমি কী খাবে?|tumi ki khabe?|What will you eat? (familiar)}}
 {{ex:সে কাল আসবে।|she kal ashbe.|She'll come tomorrow.}}
@@ -19,9 +19,9 @@ module.exports = [
 <div class="tbl"><table><tr><th>Verb</th><th>আমি</th><th>তুমি, সে</th><th>আপনি</th></tr><tr><td>go</td><td class="k">যাব</td><td class="k">যাবে</td><td class="k">যাবেন</td></tr><tr><td>eat, drink</td><td class="k">খাব</td><td class="k">খাবে</td><td class="k">খাবেন</td></tr><tr><td>come</td><td class="k">আসব</td><td class="k">আসবে</td><td class="k">আসবেন</td></tr></table></div>
 <p>You will also see these written with a final ো: করবো, যাবো. It is the same word with the same sound.</p>
 <h3>Today, tomorrow, later</h3>
-<p><b>আজ</b> (<i>aj</i>) is "today". <b>কাল</b> (<i>kal</i>) means "tomorrow", but it also means "yesterday": the verb ending tells you which. <b>আগামীকাল</b> (<i>agamikal</i>) can only mean "tomorrow". <b>পরে আসব</b> (<i>pore ashbo</i>) is "I'll come later". The time word usually comes right after the person, and the verb stays at the end.</p>
+<p><b>কখন</b> (<i>kôkhôn</i>) is "when". <b>আজ</b> (<i>aj</i>) is "today". <b>কাল</b> (<i>kal</i>) means "tomorrow", but it also means "yesterday": the verb ending tells you which. <b>আগামীকাল</b> (<i>agamikal</i>) can only mean "tomorrow". <b>পরে আসব</b> (<i>pôre ashbo</i>) is "I'll come later". The time word usually comes right after the person, and the verb stays at the end.</p>
 {{ex:আমি আগামীকাল ঢাকায় যাব।|ami agamikal ḍhakay jabo.|I'll go to Dhaka tomorrow.}}
-{{ex:আমি পরে আসব।|ami pore ashbo.|I'll come later.}}
+{{ex:আমি পরে আসব।|ami pôre ashbo.|I'll come later.}}
 <h3>Planning a day</h3>
 <p>Plans for tomorrow are just a string of future verbs, each with the ending for the person who will do it. With a friend or a younger relative, ask with the familiar form. With a shopkeeper, a teacher or an older neighbor, use the polite form. To say you won't do something, put না after the verb.</p>
 {{ex:সকালে আমি চা খাব।|shôkale ami cha khabo.|In the morning I'll have tea.}}
@@ -40,14 +40,14 @@ module.exports = [
       ["mc","Which word can only mean 'tomorrow'?","আগামীকাল","কাল","আজ","এখন","কাল can be tomorrow or yesterday. আগামীকাল is only tomorrow."],
       ["mc","'Will he come?' =","সে আসবে?","সে আসব?","সে আসবেন?","সে আসে?","সে takes -বে in the future. -ব is for আমি, -বেন for আপনি."],
       ["or","I'll go to Dhaka tomorrow. (start with আমি, then কাল)","আমি কাল ঢাকায় যাব","যাবে","This is the ami form: যাব. The verb ending -বে is for তুমি and সে."],
-      ["or","When will you come? (polite, start with আপনি)","আপনি কখন আসবেন","আসবে","The polite form of the future is আসবেন, and the verb stays last."],
-      ["or","What will you eat? (familiar, start with তুমি)","তুমি কী খাবে","খাবেন","With a friend use the familiar form: খাবে, not the polite খাবেন."],
+      ["or","When will you come? (polite, start with আপনি, verb last)","আপনি কখন আসবেন","আসবে","The polite form of the future is আসবেন, and the verb stays last."],
+      ["or","What will you eat? (familiar, start with তুমি, verb last)","তুমি কী খাবে","খাবেন","With a friend use the familiar form: খাবে, not the polite খাবেন."],
       ["fi","আমি কাল ঢাকায় __।","I'll go to Dhaka tomorrow.","যাব|যাবো","যাবে|যাবেন|যাই","আমি takes the future ending -ব: যাব."],
       ["fi","আপনি কী __?","What will you eat? (polite)","খাবেন","খাবে|খাব|খান","Polite আপনি in the future: খাবেন. খান is the present."],
       ["fi","সে __ আসবে।","He'll come tomorrow.","কাল|আগামীকাল","গতকাল|আজ|এখন","Tomorrow is কাল or আগামীকাল. গতকাল is yesterday."],
-      ["ty","I'll work tomorrow. (use কাল)","আমি কাল কাজ করব|কাল আমি কাজ করব|কাল কাজ করব|আমি কাল কাজ করবো|কাল আমি কাজ করবো|কাল কাজ করবো","hint: কাল · কাজ · করা · future ending -ব","করবে","The ami form of the future is করব, with the verb last."],
-      ["ty","Will you come tomorrow? (polite, use কাল)","আপনি কাল আসবেন|কাল আপনি আসবেন|কাল আসবেন","hint: আপনি · কাল · আসা · future","আসবে","The verb ending for আপনি is -বেন: আসবেন."],
-      ["ty","What will you eat? (familiar)","তুমি কী খাবে|কী খাবে","hint: তুমি · কী · খাওয়া · future","খাবেন","The familiar form of the future is খাবে, the same as for সে."]
+      ["ty","I'll work tomorrow. (use কাল)","আমি কাল কাজ করব|কাল আমি কাজ করব|কাল কাজ করব|আমি কাল কাজ করবো|কাল আমি কাজ করবো|কাল কাজ করবো","কাল · কাজ · করা · future ending -ব","করবে","The ami form of the future is করব, with the verb last."],
+      ["ty","Will you come tomorrow? (polite, use কাল)","আপনি কাল আসবেন|কাল আপনি আসবেন|কাল আসবেন","আপনি · কাল · আসা · future","আসবে","The verb ending for আপনি is -বেন: আসবেন."],
+      ["ty","What will you eat? (familiar)","তুমি কী খাবে|কী খাবে","তুমি · কী · খাওয়া · future","খাবেন","The familiar form of the future is খাবে, the same as for সে."]
     ]
   },
   {
@@ -67,7 +67,7 @@ module.exports = [
 <div class="tbl"><table><tr><th>Word</th><th>Means</th><th>Example</th></tr><tr><td class="k">সাড়ে</td><td>half past</td><td class="k">সাড়ে চারটা</td></tr><tr><td class="k">সোয়া</td><td>quarter past</td><td class="k">সোয়া চারটা</td></tr><tr><td class="k">পৌনে</td><td>quarter to</td><td class="k">পৌনে চারটা</td></tr></table></div>
 {{ex:সাড়ে চারটা বাজে।|shaṛe charṭa baje.|It's half past four.}}
 {{ex:পৌনে দশটা বাজে।|poune dôshṭa baje.|It's a quarter to ten.}}
-<p>Two half hours have their own words. Half past one is <b>দেড়টা</b> (<i>deṛṭa</i>) and half past two is <b>আড়াইটা</b> (<i>aṛaiṭa</i>). Use these two, not সাড়ে, for one and two.</p>
+<p>Bengali has no word for "o'clock" or for "past" in these: the word in front does all the work, and বাজে still ends the sentence. Two half hours have their own words. Half past one is <b>দেড়টা</b> (<i>deṛṭa</i>) and half past two is <b>আড়াইটা</b> (<i>aṛaiṭa</i>). Use these two, not সাড়ে, for one and two.</p>
 {{ex:আড়াইটা বাজে।|aṛaiṭa baje.|It's half past two.}}
 <h3>At five: -টায়</h3>
 <p>English says "at five". Bengali changes -টা to -টায়, so the "at" is an ending on the hour, not a word in front of it.</p>
@@ -79,7 +79,7 @@ module.exports = [
 <p>Every day ends in -বার: সোমবার, মঙ্গলবার, বুধবার, বৃহস্পতিবার, শুক্রবার, শনিবার, রবিবার (Monday to Sunday). Bengali needs no "is" here: "today Monday" is a full sentence. In Bangladesh the weekend is Friday and Saturday.</p>
 {{ex:আজ সোমবার।|aj shombar.|Today is Monday.}}
 {{ex:কাল শুক্রবার।|kal shukrobar.|Tomorrow is Friday.}}
-<div class="tip"><b>Most common mistake:</b> copying "It's four" and dropping the verb. <b>এখন চারটা।</b> → <b>এখন চারটা বাজে।</b> The clock time ends with বাজে.</div>
+<div class="tip"><b>Most common mistake:</b> saying the bare number, as in English "It's four". <b>এখন চার বাজে।</b> → <b>এখন চারটা বাজে।</b> The hour always takes -টা. In quick replies you will also hear the time with no বাজে: এখন চারটা.</div>
 `,
     check: [
       ["How do you ask \"What time is it?\"",["কয়টা বাজে?","কত টাকা?","কোথায় বাজে?","কে বাজে?"],0,"কয়টা asks how many, and বাজে is the clock verb."],
@@ -87,10 +87,10 @@ module.exports = [
       ["Where does \"in the evening\" go in a clock time?",["After বাজে","In front of the hour: সন্ধ্যা সাতটা","Between the hour and -টা","Bengali uses a.m. and p.m."],1,"The part of the day comes first, then the hour."]
     ],
     practice: [
-      ["mc","'It's five o'clock.' =","পাঁচটা বাজে।","পাঁচ বাজে।","পাঁচটা।","বাজে পাঁচটা।","The hour takes the classifier -টা, and বাজে comes after it."],
+      ["mc","'It's five o'clock.' =","পাঁচটা বাজে।","পাঁচ বাজে।","পাঁচটা আছে।","বাজে পাঁচটা।","The hour takes the classifier -টা, and বাজে comes after it."],
       ["mc","Which one means half past two?","আড়াইটা","পৌনে তিনটা","দেড়টা","সোয়া দুইটা","Half past two has its own word: আড়াইটা."],
       ["mc","পৌনে আটটা means:","a quarter to eight","a quarter past eight","half past eight","eight o'clock sharp","পৌনে is quarter to."],
-      ["mc","'Tomorrow is Friday.' =","কাল শুক্রবার।","কাল শুক্রবার আছে।","কাল শুক্রবার বাজে।","শুক্রবার কাল আছি।","No verb for is here: a zero copula, as in আমি সুখী."],
+      ["mc","'Tomorrow is Friday.' =","কাল শুক্রবার।","কাল শুক্রবারে।","কাল শুক্রবার বাজে।","শুক্রবার কাল আছি।","No verb for is here: a zero copula, as in আমি সুখী."],
       ["mc","'It's seven in the morning.' =","সকাল সাতটা বাজে।","সাতটা সকাল বাজে।","সাত সকাল বাজে।","বাজে সাতটা সকাল।","The part of the day goes first, then the hour with -টা, then বাজে."],
       ["or","What time is it?","কয়টা বাজে","কোথায়","কয়টা asks for the hour with the classifier -টা built in."],
       ["or","It's half past four now. (start with এখন)","এখন সাড়ে চারটা বাজে","চার","সাড়ে goes in front, and the hour keeps the classifier: চারটা."],
@@ -98,9 +98,9 @@ module.exports = [
       ["fi","এখন তিনটা __।","It's three o'clock now.","বাজে","আছে|বাজতে|বেজে","The clock verb is বাজে, not আছে."],
       ["fi","__ চারটা বাজে।","It's a quarter past four.","সোয়া","সাড়ে|পৌনে|এখন","সোয়া is quarter past. সাড়ে is half past, পৌনে quarter to."],
       ["fi","আজ __।","Today is Saturday.","শনিবার","রবিবার|সোমবার|শুক্রবার","Saturday is শনিবার. শুক্রবার is Friday."],
-      ["ty","What time is it?","কয়টা বাজে","hint: কয়টা · বাজা","কোথায়","কয়টা carries the classifier -টা, and বাজে is the clock verb."],
-      ["ty","It's six o'clock. (no এখন)","ছয়টা বাজে","hint: ছয় · -টা · বাজে","ছয়","Put the classifier -টা on the hour: ছয়টা, then বাজে."],
-      ["ty","Today is Monday.","আজ সোমবার","hint: আজ · সোমবার · no verb","আছে","A zero copula: no verb for is in this sentence."]
+      ["ty","What time is it?","কয়টা বাজে|এখন কয়টা বাজে","কয়টা · বাজা","কোথায়","কয়টা carries the classifier -টা, and বাজে is the clock verb."],
+      ["ty","It's six o'clock. (no এখন)","ছয়টা বাজে","ছয় · -টা · বাজে","ছয়","Put the classifier -টা on the hour: ছয়টা, then বাজে."],
+      ["ty","Today is Monday.","আজ সোমবার","আজ · সোমবার · no verb","আছে","A zero copula: no verb for is in this sentence."]
     ]
   },
   {
@@ -126,7 +126,7 @@ module.exports = [
 <p>Eat has a new stem too: <b>আমি খেলাম</b> (<i>ami khelam</i>), "I ate".</p>
 {{ex:আমি ভাত খেলাম।|ami bhat khelam.|I ate rice.}}
 <h3>When to use it</h3>
-<p>This is the everyday past for something that happened recently, earlier today or yesterday. Use it to tell a friend what you did this morning or to ask a colleague what they said at a meeting. Bengali has other past tenses for long ago and for "have done", and you will meet them later. <b>গতকাল</b> (<i>gôtokal</i>) means only "yesterday"; কাল with a past verb means it too.</p>
+<p>This is the everyday past for something that happened recently, earlier today or yesterday. Use it to tell a friend what you did this morning or to ask a colleague what they said at a meeting. Where English says "I've just eaten" about something a moment ago, Bengali can use this same past: আমি ভাত খেলাম. Bengali also has other past tenses, for long ago and for "have done", and you will meet them later. <b>গতকাল</b> (<i>gôtokal</i>) means only "yesterday"; কাল with a past verb means it too.</p>
 <h3>What you will hear in Dhaka</h3>
 <p>This course writes the তুমি form with -লে: করলে, গেলে. In Dhaka and the east you will often hear -লা instead: <b>তুমি করলা</b> (<i>tumi korla</i>), <b>তুমি গেলা</b> (<i>tumi gela</i>). Understand it, and use -লে yourself.</p>
 <div class="tip"><b>Most common mistake:</b> adding "yesterday" but keeping the present ending. <b>আমি গতকাল বাজারে যাই।</b> → <b>আমি গতকাল বাজারে গেলাম।</b> The past lives on the verb.</div>
@@ -148,9 +148,9 @@ module.exports = [
       ["fi","আমি গতকাল ঢাকায় __।","I went to Dhaka yesterday.","গেলাম","গেল|যাই|যাব","আমি in the past: গেলাম."],
       ["fi","তুমি কী __?","What did you do? (familiar)","করলে","করলাম|করলেন|করবে","The familiar past is করলে."],
       ["fi","সে কাজ __।","She worked.","করল|করলো","করলাম|করলে|করব","সে takes -ল in the past: করল."],
-      ["ty","I ate rice.","আমি ভাত খেলাম|ভাত খেলাম","hint: ভাত · খাওয়া · past stem খে-","খাই","The ami form of the past is খেলাম."],
-      ["ty","What did you say? (polite)","আপনি কী বললেন|কী বললেন","hint: আপনি · কী · বলা · past","বলল","The polite form of the past ends in -লেন: বললেন."],
-      ["ty","He went home.","সে বাড়ি গেল|সে বাড়ি গেলো","hint: সে · বাড়ি · যাওয়া · past stem গে-","গেলাম","The verb ending for সে is -ল: গেল."]
+      ["ty","I ate rice.","আমি ভাত খেলাম|ভাত খেলাম","ভাত · খাওয়া · past stem খে-","খাই","The ami form of the past is খেলাম."],
+      ["ty","What did you say? (polite)","আপনি কী বললেন|কী বললেন","আপনি · কী · বলা · past","বলল","The polite form of the past ends in -লেন: বললেন."],
+      ["ty","He went home.","সে বাড়ি গেল|সে বাড়ি গেলো|সে বাড়িতে গেল|সে বাড়িতে গেলো","সে · বাড়ি · যাওয়া · past stem গে-","গেলাম","The verb ending for সে is -ল: গেল."]
     ]
   },
   {
@@ -176,7 +176,7 @@ module.exports = [
 {{ex:আমার একটা গাড়ি ছিল।|amar ækṭa gaṛi chhilo.|I had a car.}}
 <h3>How was it?</h3>
 <p>Questions work as in the present: a question word, and the verb at the end. When the subject is a thing or a place, use the সে form ছিল.</p>
-{{ex:ঢাকা কেমন ছিল?|ḍhaka kemon chhilo?|How was Dhaka?}}
+{{ex:ঢাকা কেমন ছিল?|ḍhaka kæmon chhilo?|How was Dhaka?}}
 <h3>Was not</h3>
 <p>The present has নই, নয় and নেই for "not". In the past all of them become ছিল plus না.</p>
 {{ex:আমার টাকা ছিল না।|amar ṭaka chhilo na.|I had no money.}}
@@ -201,9 +201,9 @@ module.exports = [
       ["fi","আমি গতকাল ঢাকায় __।","I was in Dhaka yesterday.","ছিলাম","ছিল|আছি|ছিলেন","আমি takes ছিলাম."],
       ["fi","আপনি কোথায় __?","Where were you? (polite)","ছিলেন","ছিলে|ছিলাম|আছেন","The polite past is ছিলেন. আছেন is the present."],
       ["fi","আমার একটা গাড়ি __।","I had a car.","ছিল|ছিলো","ছিলাম|আছে|ছিলে","The car was there: ছিল. আছে would be the present."],
-      ["ty","I was busy.","আমি ব্যস্ত ছিলাম|ব্যস্ত ছিলাম","hint: আমি · ব্যস্ত · ছিল","ছিল","The zero copula is only for the present. The ami form of the past is ছিলাম."],
-      ["ty","Where were you? (familiar)","তুমি কোথায় ছিলে|কোথায় ছিলে","hint: তুমি · কোথায় · ছিল","ছিলেন","The familiar form is ছিলে."],
-      ["ty","I had a book.","আমার একটা বই ছিল|আমার একটা বই ছিলো","hint: আমার · একটা · বই · ছিল","ছিলাম","The owner is আমার, the book takes the classifier -টা, and the verb is ছিল."]
+      ["ty","I was busy.","আমি ব্যস্ত ছিলাম|ব্যস্ত ছিলাম","আমি · ব্যস্ত · ছিল","ছিল","The zero copula is only for the present. The ami form of the past is ছিলাম."],
+      ["ty","Where were you? (familiar)","তুমি কোথায় ছিলে|কোথায় ছিলে","তুমি · কোথায় · ছিল","ছিলেন","The familiar form is ছিলে."],
+      ["ty","I had a book.","আমার একটা বই ছিল|আমার একটা বই ছিলো","আমার · একটা · বই · ছিল","ছিলাম","The owner is আমার, the book takes the classifier -টা, and the verb is ছিল."]
     ]
   },
   {
@@ -231,7 +231,7 @@ module.exports = [
 <p><b>থেকে</b> (<i>theke</i>) means "from". After a place name it needs no extra ending: ঢাকা থেকে, "from Dhaka".</p>
 {{ex:সে কাল ঢাকা থেকে আসবে।|she kal ḍhaka theke ashbe.|She'll come from Dhaka tomorrow.}}
 <p>English changes "I" to "me" after "with" and "for". Bengali changes the word too, but into the "of" form: আমার সাথে is literally "my with". That is why you never hear আমি সাথে.</p>
-<p>So the order is always noun first, then the little word. If you catch yourself starting with সাথে or জন্য, stop and move it to the end of the phrase.</p>
+<p>So the order is always noun first, then the little word. If you catch yourself starting with সাথে or জন্য, stop and move it to the end of the phrase. This is the same rule as the place endings you learned with ঢাকায়: in Bengali, the small grammar pieces come after the noun, never before it.</p>
 <div class="tip"><b>Most common mistake:</b> putting the postposition first, as in English. <b>আমি সাথে মা থাকি।</b> → <b>আমি মায়ের সাথে থাকি।</b> The noun comes first, in its -র form, then সাথে.</div>
 `,
     check: [
@@ -245,15 +245,15 @@ module.exports = [
       ["mc","'I saw him.' =","আমি তাকে দেখলাম।","আমি সে দেখলাম।","আমি তার দেখলাম।","আমি তাকে দেখল।","The person you see takes -কে: তাকে. The verb stays in the ami form."],
       ["mc","'from Dhaka' =","ঢাকা থেকে","থেকে ঢাকা","ঢাকার সাথে","ঢাকা জন্য","থেকে follows the place name with no extra ending."],
       ["mc","'I want a book.' =","আমি একটা বই চাই।","আমি একটা বইকে চাই।","আমি বইকে একটা চাই।","একটা আমি বই চাই।","A thing takes no -কে. Keep -কে for people."],
-      ["or","I live with my mother. (start with আমি)","আমি মায়ের সাথে থাকি","মা","সাথে is a postposition after the noun, and মা takes the -র form: মায়ের."],
+      ["or","I live with my mother. (start with আমি, verb last)","আমি মায়ের সাথে থাকি","মা","সাথে is a postposition after the noun, and মা takes the -র form: মায়ের."],
       ["or","This is for you. (familiar, start with এটা)","এটা তোমার জন্য","তুমি","জন্য is a postposition after the noun: তোমার জন্য, not তুমি জন্য."],
       ["or","Give me a book, please. (start with আমাকে)","আমাকে একটা বই দিন","আমি","The person you give to takes the case ending -কে: আমাকে."],
       ["fi","আমি __ সাথে থাকি।","I live with my mother.","মায়ের","মা|মাকে|আমি","Before সাথে the noun takes the -র form: মায়ের."],
       ["fi","সে কাল ঢাকা __ আসবে।","She'll come from Dhaka tomorrow.","থেকে","জন্য|সাথে|কাছে","From is থেকে, after the place."],
       ["fi","আমি __ দেখলাম।","I saw him.","তাকে","সে|তার|তুমি","The person you see takes -কে: তাকে."],
-      ["ty","This is for you. (familiar)","এটা তোমার জন্য|তোমার জন্য এটা","hint: এটা · তোমার · জন্য","তুমি","জন্য is a postposition: it comes after the noun, in the -র form."],
-      ["ty","I don't have money on me. (use কাছে)","আমার কাছে টাকা নেই","hint: আমার · কাছে · টাকা · নেই","আমি","কাছে is a postposition after the noun: আমার কাছে."],
-      ["ty","I saw my brother. (start with আমি)","আমি ভাইকে দেখলাম|আমি আমার ভাইকে দেখলাম","hint: ভাই · -কে · দেখা · past","ভাই","A person you see takes the case ending -কে: ভাইকে."]
+      ["ty","This is for you. (familiar)","এটা তোমার জন্য|তোমার জন্য এটা","এটা · তোমার · জন্য","তুমি","জন্য is a postposition: it comes after the noun, in the -র form."],
+      ["ty","I don't have money on me. (use কাছে)","আমার কাছে টাকা নেই","আমার · কাছে · টাকা · নেই","আমি","কাছে is a postposition after the noun: আমার কাছে."],
+      ["ty","I saw my brother. (start with আমি)","আমি ভাইকে দেখলাম|আমি আমার ভাইকে দেখলাম","ভাই · -কে · দেখা · past","ভাই","A person you see takes the case ending -কে: ভাইকে."]
     ]
   },
   {
@@ -268,14 +268,14 @@ module.exports = [
 {{ex:ডান দিকে যান।|ḍan dike jan.|Go right.}}
 {{ex:বাঁ দিকে যান।|bã dike jan.|Go left.}}
 {{ex:সোজা যান।|shoja jan.|Go straight.}}
-<p>You will also hear the short forms <b>ডানে</b> (<i>ḍane</i>) and <b>বাঁয়ে</b> (<i>bãye</i>), and ডান দিকে written as one word, ডানদিকে.</p>
+<p>You will also hear the short forms <b>ডানে</b> (<i>ḍane</i>) and <b>বাঁয়ে</b> (<i>bãye</i>), and ডান দিকে written as one word, ডানদিকে. In Bangladesh many people say <b>বাম দিকে</b> (<i>bam dike</i>) for "to the left".</p>
 <h3>যান: the polite "go"</h3>
-<p>In the present tense, আপনি যান means "you go". Said to a stranger without আপনি, the same form is a polite instruction: "go". You met this pattern with দিন, "please give". Instructions to a stranger use the polite form.</p>
-{{ex:মোড়ে বাঁ দিকে যান।|moṛe bã dike jan.|Turn left at the corner.}}
+<p>The polite instruction "go" is <b>যান</b> (<i>jan</i>). It looks just like the present আপনি যান, "you go", so you already know how to say it. It belongs with দিন, "please give", which you met with food: both are polite instructions. With a stranger, always use these polite forms, never the familiar যাও.</p>
+{{ex:মোড়ে গিয়ে বাঁ দিকে যান।|moṛe giye bã dike jan.|Turn left at the corner.}}
 {{ex:তারপর ডান দিকে যান।|tarpôr ḍan dike jan.|Then go right.}}
 <h3>Near and far</h3>
 <p><b>কাছে</b> (<i>kachhe</i>) is "near" and <b>দূরে</b> (<i>dure</i>) is "far". Add অনেক for "very" with দূরে. There is no verb for "is": the place, then কাছে or দূরে. To say "near something", that thing takes the -র form you learned with postpositions.</p>
-{{ex:বাজার কাছে।|bajar kachhe.|The market is close.}}
+{{ex:বাজারটা কাছে।|bajarṭa kachhe.|The market is close.}}
 {{ex:হাসপাতাল অনেক দূরে।|hashpatal ônek dure.|The hospital is very far.}}
 <h3>Asking the way</h3>
 <p>Name the place and add কোথায়, "where". People will answer with the words above, so listen for ডান, বাঁ and সোজা first, then for the verb at the end.</p>
@@ -287,23 +287,23 @@ module.exports = [
     check: [
       ["How do you say \"Go left\" to a stranger?",["যান বাঁ।","বাঁ যান।","বাঁ দিকে যাই।","বাঁ দিকে যান।"],3,"The side needs দিকে, the verb comes last, and a stranger gets the polite যান."],
       ["What does দূরে mean?",["far","near","straight","right"],0,"দূরে is far. কাছে is near."],
-      ["Why is যান a polite instruction?",["It is the familiar form","It is the আপনি form of the present, used as a command","It is the future","It is the past"],1,"The polite present form doubles as a polite instruction, like দিন."]
+      ["What is যান in সোজা যান?",["The familiar instruction go","The polite instruction go","The future: will go","The past: went"],1,"যান is the polite instruction, the kind of word দিন is. The familiar one is যাও."]
     ],
     practice: [
       ["mc","'Go right.' (polite) =","ডান দিকে যান।","ডান যান।","ডান দিকে যাই।","দিকে ডান যান।","The side needs দিকে, and the polite instruction is যান."],
       ["mc","সোজা যান। means:","Go straight.","Turn left.","It's far.","Turn right.","সোজা is straight."],
       ["mc","Which word means 'far'?","দূরে","কাছে","সোজা","দিকে","দূরে is far, কাছে near."],
-      ["mc","'The market is close.' =","বাজার কাছে।","বাজার কাছে আছি।","কাছে বাজার আছি।","বাজার কাছে যান।","No verb for is here, and আছি would mean I am."],
+      ["mc","'The market is close.' =","বাজারটা কাছে।","বাজারটা কাছে আছি।","কাছে বাজারটা আছি।","বাজারটা কাছে যান।","No verb for is here, and আছি would mean I am."],
       ["mc","'near the market' =","বাজারের কাছে","কাছে বাজারের","বাজারের দিকে","বাজারে কাছে","কাছে follows the noun in its -র form: বাজারের কাছে."],
-      ["or","Turn left at the corner. (polite, start with মোড়ে)","মোড়ে বাঁ দিকে যান","যাই","দিকে is a postposition after the noun বাঁ, and a stranger gets the polite form যান."],
+      ["or","Turn left at the corner. (polite, start with মোড়ে)","মোড়ে গিয়ে বাঁ দিকে যান","যাই","দিকে is a postposition after the noun বাঁ, and a stranger gets the polite form যান."],
       ["or","Then go right. (polite, start with তারপর)","তারপর ডান দিকে যান","যাও","Use the polite form যান with a stranger. যাও is the familiar form."],
       ["or","The shop is near the market. (start with দোকানটা)","দোকানটা বাজারের কাছে","বাজার","কাছে is a postposition after the noun, which takes the -র form: বাজারের."],
-      ["fi","__ দিকে যান।","Go left.","বাঁ","ডান|সোজা|দূরে","Left is বাঁ. ডান is right."],
+      ["fi","__ দিকে যান।","Go left.","বাঁ|বাম","ডান|সোজা|দূরে","Left is বাঁ (or বাম). ডান is right."],
       ["fi","সোজা __।","Go straight. (polite)","যান","যাই|যাব|যাবে","The polite instruction is যান."],
       ["fi","হাসপাতাল অনেক __।","The hospital is very far.","দূরে","কাছে|দিকে|সোজা","Far is দূরে."],
-      ["ty","Go right. (polite)","ডান দিকে যান|ডানদিকে যান","hint: ডান · দিকে · যাওয়া","যাই","Use the polite form যান, after ডান দিকে."],
-      ["ty","Turn left at the corner. (polite)","মোড়ে বাঁ দিকে যান|মোড়ে বাঁদিকে যান","hint: মোড়ে · বাঁ · দিকে · যান","যাও","দিকে is a postposition after the noun, and the polite form is যান."],
-      ["ty","The shop is near the market. (use দোকানটা)","দোকানটা বাজারের কাছে","hint: দোকানটা · বাজার · কাছে","বাজার","কাছে is a postposition: the noun before it takes -র, বাজারের."]
+      ["ty","Go right. (polite)","ডান দিকে যান|ডানদিকে যান","ডান · দিকে · যাওয়া","যাই","Use the polite form যান, after ডান দিকে."],
+      ["ty","Turn left at the corner. (polite)","মোড়ে গিয়ে বাঁ দিকে যান|মোড়ে গিয়ে বাঁদিকে যান|মোড়ে গিয়ে বাম দিকে যান","মোড়ে গিয়ে · বাঁ · দিকে · যান","যাও","দিকে is a postposition after the noun, and the polite form is যান."],
+      ["ty","The shop is near the market. (use দোকানটা)","দোকানটা বাজারের কাছে","দোকানটা · বাজার · কাছে","বাজার","কাছে is a postposition: the noun before it takes -র, বাজারের."]
     ]
   },
   {
@@ -328,7 +328,7 @@ module.exports = [
 <p>The adjective stays the same in every case: লম্বা is tall and taller, ভালো is good and better, ছোট is small and smaller. English "better" and "worse" are irregular; Bengali has nothing irregular here at all. The usual order is: the thing you describe, then the thing you compare with, then চেয়ে, then the adjective last, in the place where a verb would go.</p>
 {{ex:আমার বাড়ি ছোট।|amar baṛi chhoṭo.|My house is small.}}
 <h3>The most</h3>
-<p><b>সবচেয়ে</b> (<i>shôbcheye</i>) means "than all", and it gives you "the best", "the biggest". It goes right before the adjective, which still does not change.</p>
+<p><b>সবচেয়ে</b> (<i>shôbcheye</i>) means "than all", and it gives you "the best", "the biggest". It goes right before the adjective, which still does not change. English needs a new form here, "best" or "biggest"; Bengali only adds this one word, so there is nothing new to memorize for each adjective.</p>
 {{ex:এটা সবচেয়ে ভালো।|eṭa shôbcheye bhalo.|This is the best.}}
 <h3>থেকে in speech</h3>
 <p>In everyday speech you will often hear থেকে in place of চেয়ে: <b>ওটার থেকে বড়</b> (<i>oṭar theke bôṛo</i>). The written standard prefers চেয়ে, so this course teaches চেয়ে.</p>
@@ -351,9 +351,9 @@ module.exports = [
       ["fi","এটা ওটার __ বড়।","This is bigger than that.","চেয়ে|থেকে","সাথে|জন্য|কাছে","Than is চেয়ে. In speech you will also hear থেকে."],
       ["fi","আমার ভাই __ চেয়ে লম্বা।","My brother is taller than me.","আমার","আমি|আমাকে|আমরা","Before চেয়ে, আমি takes the -র form: আমার."],
       ["fi","তোমার শাড়িটা __ সুন্দর।","Your sari is very beautiful.","খুব|অনেক","চেয়ে|সাথে|জন্য","Very is খুব."],
-      ["ty","This is bigger than that.","এটা ওটার চেয়ে বড়|এটা ওটার থেকে বড়","hint: এটা · ওটা · চেয়ে · বড়","ওটা","চেয়ে is a postposition after the noun, which takes -র: ওটার চেয়ে."],
-      ["ty","Tea is better than coffee.","চা কফির চেয়ে ভালো|চা কফির থেকে ভালো","hint: চা · কফি · চেয়ে · ভালো","কফি","The postposition চেয়ে needs the -র form before it: কফির."],
-      ["ty","This is very good.","এটা খুব ভালো|এটা অনেক ভালো","hint: এটা · খুব · ভালো · no verb","আছে","A zero copula: Bengali has no verb for is here."]
+      ["ty","This is bigger than that.","এটা ওটার চেয়ে বড়|এটা ওটার থেকে বড়","এটা · ওটা · চেয়ে · বড়","ওটা","চেয়ে is a postposition after the noun, which takes -র: ওটার চেয়ে."],
+      ["ty","Tea is better than coffee.","চা কফির চেয়ে ভালো|চা কফির থেকে ভালো","চা · কফি · চেয়ে · ভালো","কফি","The postposition চেয়ে needs the -র form before it: কফির."],
+      ["ty","This is very good.","এটা খুব ভালো|এটা অনেক ভালো","এটা · খুব · ভালো · no verb","আছে","A zero copula: Bengali has no verb for is here."]
     ]
   },
   {
@@ -365,8 +365,8 @@ module.exports = [
 <p>English has a one-word verb for most actions: <i>work, phone, like, cook, wait</i>. Bengali very often says a noun plus <b>করা</b> (<i>kôra</i>), "to do": <b>কাজ করা</b> (<i>kaj kôra</i>) is "work-do". The noun never changes. Only করা takes the endings you already know.</p>
 <h3>Common pairs</h3>
 <div class="tbl"><table><tr><th>Noun</th><th>with করা</th><th>Means</th></tr><tr><td class="k">কাজ</td><td class="k">কাজ করা</td><td>to work</td></tr><tr><td class="k">ফোন</td><td class="k">ফোন করা</td><td>to phone</td></tr><tr><td class="k">পছন্দ</td><td class="k">পছন্দ করা</td><td>to like</td></tr><tr><td class="k">রান্না</td><td class="k">রান্না করা</td><td>to cook</td></tr><tr><td class="k">বাজার</td><td class="k">বাজার করা</td><td>to do the shopping</td></tr><tr><td class="k">অপেক্ষা</td><td class="k">অপেক্ষা করা</td><td>to wait</td></tr></table></div>
-<p>পছন্দ is said with the sound ch, not s: look at its pronunciation line. The noun and করা stay side by side, and anything else in the sentence goes in front of the pair: the place, the time, the thing you like. Think of the pair as one verb that happens to be written as two words.</p>
-{{ex:আমি অফিসে কাজ করি।|ami ofishe kaj kori.|I work in an office.}}
+<p>পছন্দ is said with the sound ch, not s: look at its pronunciation line. The noun and করা stay side by side, and anything else in the sentence goes in front of the pair: the place, the time, the thing you like. Think of the pair as one verb that happens to be written as two words. When you meet a new action word, check whether Bengali says it with করা before you look for a one-word verb.</p>
+{{ex:আমি অফিসে কাজ করি।|ami ôfishe kaj kori.|I work in an office.}}
 {{ex:সে মাছ পছন্দ করে।|she machh pôchhondo kôre.|She likes fish.}}
 <h3>Every tense works</h3>
 <p>Because the ending sits on করা, you can use every tense you have learned: present, now, future and past. You do not need to learn any new endings in this lesson. Every form of করা you know, from করি to করলেন, works after any of these nouns.</p>
@@ -395,13 +395,13 @@ module.exports = [
       ["mc","'Do you like fish?' (polite) =","আপনি মাছ পছন্দ করেন?","আপনি মাছ পছন্দ করো?","আপনি মাছ পছন্দ করি?","আপনি মাছ পছন্দ করব?","আপনি takes করেন."],
       ["or","I like tea. (use পছন্দ করা, start with আমি)","আমি চা পছন্দ করি","আমার","This is the ami form: আমি … করি. আমার goes with ভালো লাগে, not with করি."],
       ["or","I'll call you tomorrow. (familiar, start with আমি, then তোমাকে)","আমি তোমাকে কাল ফোন করব","তুমি","The person you call takes the case ending -কে: তোমাকে."],
-      ["or","She works in an office. (start with সে)","সে | অফিসে | কাজ করে","কাজ করি","This is the se form: করে. করি is the ami form."],
+      ["or","She works in an office. (start with সে)","সে | অফিসে | কাজ করে","করি","This is the se form: করে. করি is the ami form."],
       ["fi","আমি অফিসে কাজ __।","I work in an office.","করি","করো|করেন|করব","আমি takes করি in the present."],
       ["fi","আমি তোমাকে কাল __ করব।","I'll call you tomorrow.","ফোন","কাজ|রান্না|পছন্দ","To phone is ফোন করা."],
       ["fi","আপনি কী পছন্দ __?","What do you like? (polite)","করেন","করো|করি|করব","আপনি takes করেন."],
-      ["ty","I like fish. (use পছন্দ করা)","আমি মাছ পছন্দ করি|মাছ পছন্দ করি","hint: মাছ · পছন্দ · করা","আমার","The ami form is করি, and the liker is আমি, not আমার."],
-      ["ty","I'll cook tomorrow. (use কাল)","আমি কাল রান্না করব|কাল আমি রান্না করব|কাল রান্না করব|আমি কাল রান্না করবো|কাল আমি রান্না করবো|কাল রান্না করবো","hint: কাল · রান্না · করা · future","করবে","The ami form of the future is করব."],
-      ["ty","Do you like tea? (polite, use পছন্দ করা)","আপনি চা পছন্দ করেন|চা পছন্দ করেন","hint: আপনি · চা · পছন্দ · করা","করো","Use the polite form করেন with আপনি."]
+      ["ty","I like fish. (use পছন্দ করা)","আমি মাছ পছন্দ করি|মাছ পছন্দ করি","মাছ · পছন্দ · করা","আমার","The ami form is করি, and the liker is আমি, not আমার."],
+      ["ty","I'll cook tomorrow. (use কাল)","আমি কাল রান্না করব|কাল আমি রান্না করব|কাল রান্না করব|আমি কাল রান্না করবো|কাল আমি রান্না করবো|কাল রান্না করবো","কাল · রান্না · করা · future","করবে","The ami form of the future is করব."],
+      ["ty","Do you like tea? (polite, use পছন্দ করা)","আপনি চা পছন্দ করেন|চা পছন্দ করেন","আপনি · চা · পছন্দ · করা","করো","Use the polite form করেন with আপনি."]
     ]
   },
   {
@@ -421,7 +421,7 @@ module.exports = [
 {{ex:পঞ্চাশ টাকা।|pônchash ṭaka.|Fifty taka.}}
 <h3>Counting and weighing</h3>
 <div class="tbl"><table><tr><th>English</th><th>Bengali</th></tr><tr><td>four mangoes</td><td class="k">চারটা আম</td></tr><tr><td>one kilo of potatoes</td><td class="k">এক কেজি আলু</td></tr><tr><td>two kilos of rice</td><td class="k">দুই কেজি চাল</td></tr></table></div>
-<p>Counted things: number plus -টা. Weighed things: number, কেজি, then the food. Never both. Things you buy one by one are counted; rice and potatoes are weighed. <b>চাল</b> (<i>chal</i>) is uncooked rice, what you buy. ভাত is cooked rice, what you eat.</p>
+<p>Counted things: number plus -টা. Weighed things: number, কেজি, then the food. Never both. Things you buy one by one are counted; rice and potatoes are weighed. In the table, আম is a mango and আলু a potato; ডিম, an egg, is counted the same way as আম. <b>চাল</b> (<i>chal</i>) is uncooked rice, what you buy. ভাত is cooked rice, what you eat.</p>
 {{ex:আমাকে চারটা আম দিন।|amake charṭa am din.|Four mangoes, please.}}
 {{ex:আমাকে দুই কেজি চাল দিন।|amake dui keji chal din.|Two kilos of rice, please.}}
 <h3>Half</h3>
@@ -449,9 +449,9 @@ module.exports = [
       ["fi","আমাকে __ ডিম দিন।","Five eggs, please.","পাঁচটা","পাঁচ|পাঁচশো|দশটা","Counted things take -টা: পাঁচটা."],
       ["fi","এক কেজি আলুর দাম __?","How much is a kilo of potatoes?","কত","কয়টা|কে|কোথায়","How much is কত."],
       ["fi","আমাকে দুই __ চাল দিন।","Two kilos of rice, please.","কেজি","জন|দাম|কত","Kilo is কেজি, right after the number."],
-      ["ty","What's the price?","দাম কত","hint: দাম · কত","কে","No verb for is: a zero copula, as in other questions."],
-      ["ty","Four mangoes, please. (polite, use দিন)","আমাকে চারটা আম দিন|চারটা আম দিন","hint: আমাকে · চার · -টা · আম · দিন","চার","A counted number takes the classifier -টা: চারটা আম."],
-      ["ty","One kilo of potatoes, please. (polite, use দিন)","আমাকে এক কেজি আলু দিন|এক কেজি আলু দিন","hint: আমাকে · এক · কেজি · আলু · দিন","একটা","কেজি takes the place of the classifier, so say এক কেজি, not একটা."]
+      ["ty","What's the price?","দাম কত|কত দাম","দাম · কত","কে","No verb for is: a zero copula, as in other questions."],
+      ["ty","Four mangoes, please. (polite, use দিন)","আমাকে চারটা আম দিন|চারটা আম দিন","আমাকে · চার · -টা · আম · দিন","চার","A counted number takes the classifier -টা: চারটা আম."],
+      ["ty","One kilo of potatoes, please. (polite, use দিন)","আমাকে এক কেজি আলু দিন|এক কেজি আলু দিন","আমাকে · এক · কেজি · আলু · দিন","একটা","কেজি takes the place of the classifier, so say এক কেজি, not একটা."]
     ]
   }
 ];

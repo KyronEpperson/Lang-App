@@ -17,7 +17,7 @@ Untagged rules in §6 to §10 are design decisions. Sources at the end are only 
 - **Register:** আপনি first, for strangers, elders and shops. তুমি for friends and peers. তুই is recognition only. The verb ending changes with the person and the politeness, and it does not change for number.
 - **Biggest traps, ranked in §4:** the inherent vowel; aspiration and dental versus retroflex; এ as two vowels; the three words for "you" and the verb ending; the missing "am / is / are"; possession and need said with the genitive; classifiers; case endings and postpositions after the noun; স versus শ.
 - **Standing practice rule:** every set keeps re-testing the verb ending (person and politeness) and the material that sits after the noun (classifier, case ending, postposition). Script lessons, which have no grammar yet, re-test the sound contrasts instead. Keywords and the test table are in §7.
-- **Pronunciation aid:** a generated English-letter romanisation. It is **not reliable enough to trust on every card**. The `pron` field is still `required`, because a hand-written pron is forbidden and `none` is forbidden. A word the tool warns on is not cleared. §6 says what the tool gets wrong.
+- **Pronunciation aid:** an English-letter romanisation printed by a lexicon-first tool (§6): every word is looked up whole in `tools/target/bn/lexicon.txt`, and a missing word makes the tool throw, so nothing is guessed. `pron` is `required` and is always the tool's output, pasted unchanged. A reading is only as good as its lexicon line: a line marked `unverified:model` has no opened source yet (§6.5).
 - **Lessons:** 27, every roadmap item, in roadmap order. Nothing added.
 - **Decks:** 18 in 5 groups, including "Traps for English speakers" and "Compliments".
 - **Typing:** word tiles by default. A typed answer may be Bengali script or this romanisation. ô, the underdot and æ are real contrasts. Do not assume a missing circumflex is only "almost". §10.
@@ -93,7 +93,7 @@ No study of English-speaking learners of Bengali was opened. The order below is 
 1. **The inherent vowel.** [curriculum convention] The University of Texas page says অ is the vowel of English "call", not the a of "father", and that there is no way to see the difference between that vowel and ও on the consonant itself. [curriculum convention] r12a: at the end of a word "there is no real way to tell" whether the vowel is said, except that it usually is said after a final cluster; inside a word some clusters are not marked at all (করতাল). [research-backed] Choudhury, Basu and Sarkar 2004, about 85% on 1,000 Bengali words, with the misses on common adjectives, suffixes, Sanskrit loans and compounds. [research-backed] Johny and Jansche 2018: বল is /bɔlo/ "say" and /bɔl/ "ball". Wrong reading: ক as "ka". The aid writes kô, and even that is only the default.
 2. **Aspiration.** [curriculum convention] UT and the roadmap both treat খ ঘ ছ ঝ থ ধ ফ ভ as a separate series from the plain stops. Wrong: খ read as English k, or থ read as the "th" of "think". The h in the aid is a puff. Wikipedia's phonology describes these as stops, not as English fricatives. ফ is the exception the key writes as f (§6): Wikipedia says /pʰ/ is commonly [ɸ] or [f].
 3. **Dental against retroflex.** ত দ against ট ড. Wrong: one English "t" for both. The underdot is the retroflex. A missing dot is a different word, not a typo.
-4. **এ is more than one vowel.** [curriculum convention] UT: কে is ke or kæ. [curriculum convention] Wikipedia phonology: একই is now [æki]. The aid writes e unless a ya-phola or an override forces æ. The warning on এ stays on.
+4. **এ is more than one vowel.** [curriculum convention] UT: কে is ke or kæ. [curriculum convention] Wikipedia phonology: একই is now [æki]. The aid writes whatever the word's lexicon line says (e or æ); the spelling does not decide it (§6).
 5. **Three words for "you", and the verb ending.** [curriculum convention] Wikipedia: তুমি বল, আপনি বলেন, and the plural does not change the ending. Wrong: one verb form for every "you", or a plural ending copied from English.
 6. **Zero copula.** [curriculum convention] Wikipedia: আমি সুখী, not a sentence with আছি, for "I am happy". Wrong: আমি সুখী আছি.
 7. **Possession and need.** [curriculum convention] Wikipedia: তোমার একটা বই আছে, আমার টাকা দরকার. Wrong: আমি একটা বই আছি, আমি টাকা দরকার.
@@ -118,7 +118,7 @@ No study of English-speaking learners of Bengali was opened. The order below is 
 
 ## 6. Pronunciation aid (`pron`)
 
-**Revised 2026-11-22 (lead decision, `docs/reviews/claude-review-2026-11-22.md`, en-bn): the aid is LEXICON-FIRST.** This section replaces the earlier rule-based design. It also overrides the pron remarks in §1, §8, §9 and §10: the `pron` columns in §9 were printed by the old rule tool. On a real card the pron is always the current tool output, so regenerate every sample (some change: কেমন kemon, কত kôto, বড় bôṛo, শিক্ষা shikkha).
+**Revised 2026-11-22 (lead decision, `docs/reviews/claude-review-2026-11-22.md`, en-bn): the aid is LEXICON-FIRST.** This section replaces the earlier rule-based design. It also overrides the pron remarks in §1, §8, §9 and §10: the `pron` columns in §9 were printed by the old rule tool (the reviewer regenerated them with the lexicon tool on 2026-11-22). On a real card the pron is always the current tool output, so regenerate every sample (some change: কত kôto, বড় bôṛo, শিক্ষা shikkha; the reviewer later corrected কেমন to kæmon).
 
 ### 6.1 What the spelling hides
 
@@ -139,7 +139,7 @@ Bengali is an abugida. The spelling does not show:
 
 - **Lexicon line:** `bengali<TAB>romanisation<TAB>source`, `#` for comments. The romanisation writes the sound in the key below. The source is a page that was opened (a `#source` id from the header of `lexicon.txt`, or a URL), or `unverified:model` if none could be opened. A line that is not true to a source is never labelled as sourced.
 - **Whole words only.** বই, বইটা, ঢাকা and ঢাকায় are four lines. No ending is split off.
-- **Multi-word lines** (`আপনাকে দেখে	apnake dekhe	wt-dekha`) win over single words by longest match. A **homograph** is two lines with the same key, each marked `homograph:<gloss>` in the source column. Used alone, it throws and asks for a multi-word line that fixes the reading. Seeded homographs: করে, দেখে, বলে (present kôre, dækhe, bôle; participle kore, dekhe, bole); খেলে, খেলো, খেলেন (খাওয়া khele … / খেলা khæle …); আসল (ashlo "came" / ashol "real"); আসলে (ashle / ashole "actually"); পরে (pore "after" / pôre "wears"). `gen.js` gives a fill or type answer that is a bare homograph no romanised alternative, so build such an item around a form that is not a homograph, or around a phrase.
+- **Multi-word lines** (`আপনাকে দেখে	apnake dekhe	wt-dekha`) win over single words by longest match. A **homograph** is two lines with the same key, each marked `homograph:<gloss>` in the source column. Used alone, it throws and asks for a multi-word line that fixes the reading. Seeded homographs: করে, দেখে, বলে (present kôre, dækhe, bôle; participle kore, dekhe, bole); খেলে, খেলো, খেলেন (খাওয়া khele … / খেলা khæle …); আসল (ashlo "came" / ashol "real"); আসলে (ashle / ashole "actually"). পরে was seeded as pore "after" / pôre "wears"; the reviewer made it one line, pôre, because Wikipedia's phonology article gives /pɔre/ for both (§11). `gen.js` gives a fill or type answer that is a bare homograph no romanised alternative, so build such an item around a form that is not a homograph, or around a phrase.
 - **Who edits what.** Writers never edit `lexicon.txt` or `respell.js`. When the tool throws, a writer adds the word to their own file, `lexicon-add-<role>.txt`, where the role is A, B, 1, 2, 3 or R. The lead merges those files into `lexicon.txt`. Two files that give the same word different readings make the word throw ("conflicting readings") until the lead settles it.
 - `node tools/target/bn/respell.js --check` validates every line. It checks the pattern with and without the `u` flag, that the key and reading have the same number of words and hyphens, that the source is known, that there are no conflicts, and that multi-word lines agree with their words. It prints the share of lines that have a source.
 - `node tools/target/bn/respell.js --suggest "<word>"` prints the old rule's guess, labelled UNVERIFIED. It is a starting point for looking a word up. It is never a source.
@@ -159,8 +159,8 @@ The key writes the sound, all lowercase, one pron word per Bengali word. A hyphe
 | আ | a | |
 | ই ঈ / ি ী | i | Length is not a contrast. |
 | উ ঊ / ু ূ | u | |
-| /e/ | e | কেমন kemon, দেখি dekhi |
-| /æ/: এ or ya-phola said æ | æ | এক æk, দেখা dækha, ব্যথা bætha, হ্যাঁ hæ̃ |
+| /e/ | e | দেখি dekhi, একটু ekṭu |
+| /æ/: এ or ya-phola said æ | æ | এক æk, কেমন kæmon, দেখা dækha, ব্যথা bætha, হ্যাঁ hæ̃ |
 | ঐ, ঔ, other vowel pairs | oi, ou, ai, ei, ao ... | বই boi, খাই khai, যাও jao |
 | ক খ গ ঘ | k kh g gh | |
 | চ ছ জ ঝ | ch chh j jh | Never a bare c. |
@@ -186,7 +186,7 @@ A letter said alone carries its inherent vowel (ক kô, ট ṭô). A vowel let
 ### 6.4 Format and `pronPattern`
 
 ```
-node tools/target/bn/respell.js "আপনি কেমন আছেন?"     ->  আপনি কেমন আছেন? -> apni kemon achhen?
+node tools/target/bn/respell.js "আপনি কেমন আছেন?"     ->  আপনি কেমন আছেন? -> apni kæmon achhen?
 node tools/target/bn/respell.js --pattern
 ```
 
@@ -198,11 +198,11 @@ These lines have no opened source yet. A writer may use them. Where a card's poi
 
 | Word | Lexicon | Why open |
 |---|---|---|
-| কেমন | kemon | The old tool said kemôn, and LangLibra writes o. Not checked this round. |
-| সকাল, সন্ধ্যা | shôkal, shôndha | UT writes shokal and shondha, and UT does not mark ô. |
-| কয়টা | kôyṭa | LangLibra writes Kôyta (§11). Not opened this round. |
-| দরকার | dôrkar | LangLibra writes dôrkar (§6 of the first draft). Not opened this round. |
-| ছাত্র | chhatro | UT prints chatra, glossed "students". The usual reading is chhatro. |
+| কেমন | kæmon | Settled by the reviewer: Wikivoyage KA-mohn (a = æ); Wiktionary gives কেন /kæno/ the same way. |
+| সকাল, সন্ধ্যা | shôkal, shondha | Settled by the reviewer: Wiktionary /ʃɔkal/; Wikivoyage shohn-dhah (oh = o). |
+| কয়টা | kôyṭa | Wiktionary কয় /kɔe̯/; the -টা form itself is not on a page (§11). |
+| দরকার | dôrkar | Settled by the reviewer: Wiktionary Dhaka /d̪ɔɹkaɹ/. |
+| ছাত্র | chhatro | Settled by the reviewer: Wiktionary /tʃʰat̪ɾo/. |
 | পনেরো, চব্বিশ, চল্লিশ, সত্তর, নব্বই, পঁচিশ | | MSU prints these in lowercase, and its lowercase o does not settle ô versus o. |
 | pronouns, কি / কী words, family, food, places | | Mostly explicit vowels. Unverified, but at low risk. |
 
@@ -212,7 +212,7 @@ These lines have no opened source yet. A writer may use them. Where a card's poi
 
 | Bengali | pron | Source of the hard part |
 |---|---|---|
-| আপনি কেমন আছেন? | apni kemon achhen? | আছেন: Wiktionary আছ- table |
+| আপনি কেমন আছেন? | apni kæmon achhen? | আছেন: Wiktionary আছ- table |
 | ভালো আছি | bhalo achhi | আছি: Wiktionary |
 | আমি করি। | ami kori. | Wiktionary করা table (raised o) |
 | তুমি করো। | tumi kôro. | Wiktionary করা table (ô) |
@@ -318,14 +318,14 @@ What each one has to hit:
 1. **vowels.** অ আ ই ঈ উ ঊ এ ঐ ও ঔ, and the fact that a bare consonant already has অ. Trap: reading অ as the a of "father". Teach the aid (§6.7). ঋ is recognised, not drilled.
 2. **consonants.** The aspirated row and ট ড against ত দ. শ ষ স, with the আস্তে / আসতে pair. Trap: one English t, and "th" as in "think".
 3. **vowel-signs.** কা কি কী কু কূ কে কো, plus ং ঃ ঁ ৎ. Trap: ি is written to the left of the consonant, so it looks as if it comes first. কী and কি are the same sound.
-4. **conjuncts.** ক্ষ, a cluster such as স্ত, and ra-phola in প্রথম. Trap: pronouncing every letter of a phola. The lesson uses only words the tool does not warn on, or words already in `EXC`.
+4. **conjuncts.** ক্ষ, a cluster such as স্ত, and ra-phola in প্রথম. Trap: pronouncing every letter of a phola. Every word the lesson shows must be in the lexicon (§6); prefer words whose lexicon line names a source.
 5. **greetings.** আসসালামু আলাইকুম and the reply; কেমন আছেন; ভালো আছি; ধন্যবাদ. নমস্কার in a note. Trap: a time-of-day "good afternoon" that Dhaka does not use as the everyday hello. শুভ সকাল, শুভ সন্ধ্যা and শুভ রাত্রি are formal (§10).
 6. **pronouns.** আমি, তুমি, আপনি, সে, তিনি. তুই in a note. Trap: one "you".
 7. **possessive.** আমার, তোমার, আপনার, তার. Trap: a possessive adjective that agrees, copied from English. It does not agree.
 8. **intro.** আমার নাম …, আমি ছাত্র, with no copula. Trap: inserting আছি.
 9. **questions.** কী, কে, কার, কোথায়, কেমন, and নই / নয়. Trap: নয় used where নেই belongs. নেই waits for আছে.
 10. **eta-ota.** এটা, ওটা, বইটা. Trap: no classifier. -টি is the formal note.
-11. **numbers.** The numbers the roadmap lists, said as words (the tool rejects digits), with -টা and -জন, and কত টাকা. Trap: এক বই. এক is æk, an override.
+11. **numbers.** The numbers the roadmap lists, said as words (the tool rejects digits), with -টা and -জন, and কত টাকা. Trap: এক বই. এক is æk (MSU, Wikivoyage).
 12. **ache.** আমার একটা বই আছে, নেই, and location. Trap: আমি আছে.
 13. **need-like.** আমি … চাই, আমার … দরকার, আমার … ভালো লাগে. This is the traps deck: the three English calques. Trap: আমি টাকা দরকার.
 14. **present.** আমি করি, তুমি করো, সে করে, আপনি করেন, for one verb class, not ten. Trap: the ending not changed for আপনি. Spell করো, and note the spelling without ো.
@@ -345,7 +345,7 @@ What each one has to hit:
 
 ## 9. Decks
 
-18 decks, 16 to 18 cards each when they are written. Five sample cards here fix the level. The `pron` is the tool's. A note that says "warns" means the writer does not copy that pron onto a real card until the word is in `VER` or `EXC`. Names are examples. The city is Dhaka. The money is টাকা. Water is পানি.
+18 decks, 16 to 18 cards each when they are written. Five sample cards here fix the level. The `pron` column is the output of the lexicon-first tool (§6), regenerated by the reviewer on 2026-11-22; on a real card the pron is always whatever the tool prints. Each card is in one deck only: কত টাকা? belongs to Numbers and money and আমার একটা বই আছে। to Traps for English speakers, although they are also shown below as samples for Shopping and Home and having. Names are examples. The city is Dhaka. The money is টাকা. Water is পানি.
 
 ### Script and sounds
 
@@ -363,11 +363,11 @@ What each one has to hit:
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| ক | kô | the letter k | Plain. Warns: the vowel is inherent. |
-| খ | khô | the letter kh | Aspirated. The h is a puff. Warns: inherent vowel. |
-| ত | tô | the letter t | Dental. Warns: inherent vowel. |
-| ট | ṭô | the letter ṭ | Retroflex. The dot is the difference. Warns: inherent vowel. |
-| শ | shô | the letter sh | ষ is the same sound. স is not always. Warns: inherent vowel. |
+| ক | kô | the letter k | Plain. |
+| খ | khô | the letter kh | Aspirated. The h is a puff. |
+| ত | tô | the letter t | Dental. |
+| ট | ṭô | the letter ṭ | Retroflex. The dot is the difference. |
+| শ | shô | the letter sh | ষ is the same sound. স is not always. |
 
 **3. Vowel signs.** The sign, and one mark. Lesson: `vowel-signs`.
 
@@ -375,8 +375,8 @@ What each one has to hit:
 |---|---|---|---|
 | কা | ka | ka | া replaces the inherent vowel. |
 | কি | ki | ki | The sign is written to the left. |
-| কে | ke | ke | Warns. এ may be e or æ. |
-| কো | ko | ko | |
+| কে | ke | ke | এ may be e or æ. |
+| কো | ko | ko |  |
 | বাংলা | bangla | Bengali | ং is ng. |
 
 **4. Conjuncts.** Only forms the tool and a source agree on. Lesson: `conjuncts`.
@@ -384,10 +384,10 @@ What each one has to hit:
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
 | গ্রাম | gram | village | ra-phola. UT. |
-| প্রথম | prothom | first | Override. The rule said prothôm. UT. |
-| শিক্ষা | shikhkha | education | Medial ক্ষ is khkh. UT. |
-| ক্ষমা | khôma | forgiveness | Word-initial ক্ষ is kh. Warns: inherent vowel. |
-| স্থান | sthan | place | স before a stop is s. Warns on the dropped vowel. Do not ship until checked. |
+| প্রথম | prothom | first | UT. |
+| শিক্ষা | shikkha | education | Medial ক্ষ is kkh. UT. |
+| ক্ষমা | khôma | forgiveness | Word-initial ক্ষ is kh. |
+| স্থান | sthan | place | স before a stop is s. |
 
 ### First steps
 
@@ -397,28 +397,28 @@ What each one has to hit:
 |---|---|---|---|
 | আসসালামু আলাইকুম | assalamu alaikum | peace be upon you | Dhaka's everyday hello, any time of day. |
 | ওয়ালাইকুম আসসালাম। | walaikum assalam. | and upon you peace | The reply. |
-| কেমন আছেন? | kemôn achhen? | how are you? | Polite. Warns. |
+| কেমন আছেন? | kæmon achhen? | how are you? | Polite. |
 | ভালো আছি | bhalo achhi | I am well | No "am". |
-| ধন্যবাদ | dhônnobad | thank you | Warns. LangLibra: save it for real favours and for service, not for family small talk. |
+| ধন্যবাদ | dhonnobad | thank you | LangLibra: save it for real favours and for service, not for family small talk. |
 
 **6. About me.** Lessons: `pronouns`, `possessive`, `intro`.
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| আমার নাম রাহীম। | amar nam rahim. | My name is Rahim. | Example name. Zero copula. Warns on the final vowel of রাহীম. |
+| আমার নাম রাহীম। | amar nam rahim. | My name is Rahim. | Example name. Zero copula. |
 | আমি ছাত্র। | ami chhatro. | I am a student. | No আছি. The feminine was not in the tables opened here, so it is not an accepted answer yet. |
-| আপনার নাম কী? | apnar nam ki? | What is your name? | Polite. আপনার is an override. |
-| আমি বাংলাদেশি | ami bangladeshi | I am Bangladeshi | LangLibra's phrase. Warns on এ. |
-| আমার বাবা | amar baba | my father | |
+| আপনার নাম কী? | apnar nam ki? | What is your name? | Polite. |
+| আমি বাংলাদেশি | ami bangladeshi | I am Bangladeshi | LangLibra's phrase. |
+| আমার বাবা | amar baba | my father |  |
 
 **7. Questions.** Lesson: `questions`.
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| এটা কী? | eṭa ki? | What is this? | |
-| কে? | ke? | Who? | Warns. এ may be æ. |
-| কোথায়? | kothay? | Where? | |
-| কার? | kar? | Whose? | |
+| এটা কী? | eṭa ki? | What is this? |  |
+| কে? | ke? | Who? | এ may be æ. |
+| কোথায়? | kothay? | Where? |  |
+| কার? | kar? | Whose? |  |
 | আমি ছাত্র নই। | ami chhatro noi. | I am not a student. | নই, not নেই. There is no আছে here. |
 
 **8. This and that.** Lesson: `eta-ota`.
@@ -426,20 +426,20 @@ What each one has to hit:
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
 | এটা | eṭa | this | Colloquial -টা. |
-| ওটা | oṭa | that | |
+| ওটা | oṭa | that |  |
 | বইটা | boiṭa | the book | The classifier is on the noun. |
-| এই বইটা | ei boiṭa | this book | Wikipedia's pattern with -টা instead of formal -টি. Warns. |
-| একটা বই | ækṭa boi | a book; one book | এক is an override, æk. |
+| এই বইটা | ei boiṭa | this book | Wikipedia's pattern with -টা instead of formal -টি. |
+| একটা বই | ækṭa boi | a book; one book | এক is æk. |
 
 **9. Numbers and money.** Lesson: `numbers`.
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| এক | æk | one | Override. Wikipedia's æ. |
+| এক | æk | one | Wikipedia's æ. |
 | দুই | dui | two | LangLibra. |
-| দশ | dôsh | ten | LangLibra's dôsh. Warns. |
-| কত টাকা? | kôt ṭaka? | how much money? | |
-| দুই হাজার টাকা | dui hajar ṭaka | two thousand taka | LangLibra's shop line. Warns on হাজার. |
+| দশ | dôsh | ten | LangLibra's dôsh. |
+| কত টাকা? | kôto ṭaka? | how much money? |  |
+| দুই হাজার টাকা | dui hajar ṭaka | two thousand taka | LangLibra's shop line. |
 
 ### Everyday life
 
@@ -447,19 +447,19 @@ What each one has to hit:
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| আমার একটা বই আছে। | amar ækṭa boi achhe. | I have a book. | Wikipedia. Genitive, then আছে. Warns on আছে. |
-| তোমার একটা বই আছে। | tomar ækṭa boi achhe. | You have a book. | Wikipedia's familiar example. Warns on আছে. |
-| নেই | nei | there isn't | The negative of আছে. Warns. |
-| আছে | achhe | there is | Warns. এ may be æ. |
-| ঢাকায় | ḍhakay | in Dhaka | Locative -য়. Warns. |
+| আমার একটা বই আছে। | amar ækṭa boi achhe. | I have a book. | Wikipedia. Genitive, then আছে. |
+| তোমার একটা বই আছে। | tomar ækṭa boi achhe. | You have a book. | Wikipedia's familiar example. |
+| নেই | nei | there isn't | The negative of আছে. |
+| আছে | achhe | there is | এ may be æ. |
+| ঢাকায় | ḍhakay | in Dhaka | Locative -য়. |
 
 **11. Food and drink.** Lesson: `food`.
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| ভাত | bhat | rice | |
-| মাছ | machh | fish | Warns. The aspiration is the letter ছ. |
-| চা | cha | tea | |
+| ভাত | bhat | rice |  |
+| মাছ | machh | fish | The aspiration is the letter ছ. |
+| চা | cha | tea |  |
 | পানি | pani | water | The Bangladesh word. |
 | জল | jôl | water | Kolkata. Note only, not the taught word. |
 
@@ -467,21 +467,21 @@ What each one has to hit:
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| মা | ma | mother | |
-| বাবা | baba | father | |
-| ভাই | bhai | brother | |
-| বোন | bon | sister | Warns. Final vowel dropped by the rule. |
-| আর | ar | and | Warns. |
+| মা | ma | mother |  |
+| বাবা | baba | father |  |
+| ভাই | bhai | brother |  |
+| বোন | bon | sister |  |
+| আর | ar | and |  |
 
 **13. Time and routine.** Lessons: `present`, `continuous`, `future`, `time`, `past`, `chhilo`.
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| আমি করি। | ami kori. | I do. | Warns. Do not ship the pron until the stem vowel is checked. |
-| তুমি করো। | tumi kôro. | You do. | Familiar. The ো is the house spelling. Warns on the inherent vowel. |
-| আপনি করেন। | apni kôren. | You do. | Polite. Warns. |
-| কয়টা বাজে? | koyṭa baje? | What time is it? | LangLibra writes Kôyta. The tool has o, from the y rule. Warns. |
-| আমি সুখী ছিলাম। | ami shukhi chhilam. | I was happy. | Wikipedia. Warns on ছিলাম. |
+| আমি করি। | ami kori. | I do. |  |
+| তুমি করো। | tumi kôro. | You do. | Familiar. The ো is the house spelling. |
+| আপনি করেন। | apni kôren. | You do. | Polite. |
+| কয়টা বাজে? | kôyṭa baje? | What time is it? | LangLibra writes Kôyta. |
+| আমি সুখী ছিলাম। | ami shukhi chhilam. | I was happy. | Wikipedia. |
 
 ### Out and about
 
@@ -489,31 +489,31 @@ What each one has to hit:
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| ঢাকায় থাকি | ḍhakay thaki | I live in Dhaka | The ending is on the place. Warns. |
-| ডান দিকে | ḍan dike | to the right | Roadmap phrase. Warns. |
-| বাঁ দিকে | bã dike | to the left | Warns on দিকে. |
-| সোজা | shoja | straight | |
+| ঢাকায় থাকি | ḍhakay thaki | I live in Dhaka | The ending is on the place. |
+| ডান দিকে | ḍan dike | to the right | Roadmap phrase. |
+| বাঁ দিকে | bã dike | to the left |  |
+| সোজা | shoja | straight |  |
 | সাথে | shathe | with | Postposition, after the noun. |
 
 **15. Shopping.** Lesson: `shopping`.
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| দাম কত? | dam kôt? | What's the price? | LangLibra. Warns. |
-| কত টাকা? | kôt ṭaka? | How many taka? | |
-| এক কেজি | æk keji | one kilo | Warns on কেজি. |
-| টাকা | ṭaka | taka | |
-| দশটা | dôshṭa | ten (of things) | Classifier on the number. Warns. |
+| দাম কত? | dam kôto? | What's the price? | LangLibra. |
+| কত টাকা? | kôto ṭaka? | How many taka? |  |
+| এক কেজি | æk keji | one kilo |  |
+| টাকা | ṭaka | taka |  |
+| দশটা | dôshṭa | ten (of things) | Classifier on the number. |
 
 **16. Work and actions.** Lesson: `conjunct-verbs`.
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
-| কাজ করা | kaj kôra | to work | Noun + করা. Warns. |
-| ফোন করা | fon kôra | to phone | ফ is f. Warns. |
+| কাজ করা | kaj kôra | to work | Noun + করা. |
+| ফোন করা | fon kôra | to phone | ফ is f. |
 | পছন্দ | pôchhondo | liking | Wikipedia [pɔtʃʰondo]. From Persian pasand, said with চ. |
-| আমি কাজ করি। | ami kaj kori. | I work. | Warns. |
-| ফোন | fon | phone | The loan. Warns on the dropped vowel. |
+| আমি কাজ করি। | ami kaj kori. | I work. |  |
+| ফোন | fon | phone | The loan. |
 
 ### Watch out
 
@@ -522,20 +522,20 @@ What each one has to hit:
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
 | আমি সুখী। | ami shukhi. | I am happy. | Not আমি সুখী আছি. Wikipedia. |
-| আমার টাকা দরকার। | amar ṭaka dôrkar. | I need money. | Not আমি টাকা দরকার. Override on দরকার. |
-| আমার একটা বই আছে। | amar ækṭa boi achhe. | I have a book. | Not আমি আছে. Warns on আছে. |
+| আমার টাকা দরকার। | amar ṭaka dôrkar. | I need money. | Not আমি টাকা দরকার. |
+| আমার একটা বই আছে। | amar ækṭa boi achhe. | I have a book. | Not আমি আছে. |
 | আমি চাই। | ami chai. | I want. | Roadmap frame. The চাই diphthong is explicit. |
-| ভালো লাগে | bhalo lage | it pleases; I like | Roadmap. The liker is genitive: আমার ভালো লাগে. Warns. |
+| ভালো লাগে | bhalo lage | it pleases; I like | Roadmap. The liker is genitive: আমার ভালো লাগে. |
 
 **18. Compliments.** Lesson: `compare`. Praising uses সুন্দর and ভালো, and the comparison frame of this lesson is genitive + চেয়ে. How a person answers a compliment was not in any page opened here. Do not invent a reply. [practitioner opinion] The two longer lines are from the Latinum lesson, which also says তুমি with a peer and আপনি with anyone senior.
 
 | Bengali | pron | Meaning | Note |
 |---|---|---|---|
 | এটা ভালো। | eṭa bhalo. | This is good. | Zero copula, the আমি সুখী pattern. [inference] |
-| খুব সুন্দর | khub shundor | very beautiful | Latinum's phrase. Warns on সুন্দর. |
-| তোমার শাড়িটা খুব সুন্দর লাগছে। | tomar shaṛiṭa khub shundor lagchhe. | Your sari looks beautiful. | Latinum. Familiar "you". Warns. |
-| আপনাকে দেখে খুব ভালো লাগলো। | apnake dekhe khub bhalo laglo. | It was good to see you. | Latinum. Polite. Warns. |
-| এটা ওটার চেয়ে বড়। | eṭa oṭar cheye bôṛ. | This is bigger than that. | Roadmap frame. চেয়ে, not থেকে. Warns. The final vowel of বড় is unchecked. |
+| খুব সুন্দর | khub shundôr | very beautiful | Latinum's phrase. |
+| তোমার শাড়িটা খুব সুন্দর লাগছে। | tomar shaṛiṭa khub shundôr lagchhe. | Your sari looks beautiful. | Latinum. Familiar "you". |
+| আপনাকে দেখে খুব ভালো লাগলো। | apnake dekhe khub bhalo laglo. | It was good to see you. | Latinum. Polite. |
+| এটা ওটার চেয়ে বড়। | eṭa oṭar cheye bôṛo. | This is bigger than that. | Roadmap frame. চেয়ে, not থেকে. |
 
 ## 10. Typing and script
 
@@ -559,11 +559,13 @@ The options below are the ones Telugu already uses. No app change is required to
 
 - The familiar past. Wikipedia says eastern speech uses tumi bolla, and Dhaka is in the east. The course teaches করলে. Nobody opened a Dhaka style guide or listened to the `bn-BD` voice. The lead can flip this to -লা.
 - তুমি করো against Wikipedia's তুমি বল with no vowel sign. House rule is to write the sign. Not checked against a publisher's style.
-- কয়টা. The tool says koyṭa. LangLibra writes Kôyta. Not settled.
-- বড়. The tool drops the final vowel (bôṛ). No source opened here said whether it is said.
+- কয়টা. The lexicon says kôyṭa: Wiktionary gives কয় /kɔe̯/, and -টা is added (the whole form is still `unverified:model`). LangLibra writes Kôyta. A native speaker should confirm.
+- বড়. Settled: Wiktionary gives Dhaka /bɔɹo/, so the lexicon has bôṛo.
 - The reply to a compliment. Not found.
 - ছাত্রী as the feminine of ছাত্র. Used as a caution in a sample note, not as a taught form.
-- কোন and হল. Homographs in Johny and Jansche. Not overridden, so they must not appear on a card.
+- কোন and হল. Homographs in Johny and Jansche. The lexicon has one line each (কোন kon, হল holo). A card that needs the other reading needs a homograph pair and a multi-word line (§6.2).
+- পরে. Seeded as a homograph (pore "after" / pôre "wears"). The reviewer found that Wikipedia's "Bengali phonology" gives /pɔre/ for both senses, so the lexicon now has one line, pôre. A native speaker should confirm.
+- কেমন, কেন. Now kæmon (Wikivoyage KA-mohn) and kæno (Wiktionary /kæno/), not kemon / keno.
 - Khan 2010, the JIPA sketch Wikipedia cites for the Dhaka vowel chart, was not opened. Anything about [ɛ] in Dhaka is Wikipedia's report, not the paper.
 - The MSU textbook, the Wisconsin syllabus PDF and the Durham PDF were not opened for this profile. The roadmap already describes what its author saw. This profile does not add claims from them.
 - No English-speaker error corpus. The ranking in §4 is an inference.

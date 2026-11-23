@@ -7,13 +7,13 @@ module.exports = {
 ያች | yach | that (feminine) | Feminine that. Same caution as ይህች: pointing it at a person instead of using her name can sound rude.
 እነዚህ | innezih | these | These, for any gender.
 እነዚያ | inneziya | those | Those, for any gender.
-መጽሀፍ | mes'haf | a book | Masculine, so ይህ መጽሀፍ. Also spelled መጽሐፍ.
+መጽሀፍ | mets'haf | a book | Masculine, so ይህ መጽሀፍ. Also spelled መጽሐፍ.
 ብዕር | bi'ir | a pen | A pen. The usual word for a pencil is እርሳስ.
 እርሳስ | irsas | a pencil | A pencil. Masculine.
 ቤቱ | bétu | the house | Definite ending. A specific house. The same letters can mean his house.
 ቤቶች | bétoch | houses | Plural -ኦች. Do not add an English s.
-መጽሀፉ | mes'hafu | the book | Definite ending on መጽሀፍ.
-ይህ መጽሀፍ ነው | yih mes'haf new | this is a book | You need ነው. ይህ መጽሀፍ alone does not mean this is a book.
+መጽሀፉ | mets'hafu | the book | Definite ending on መጽሀፍ.
+ይህ መጽሀፍ ነው | yih mets'haf new | this is a book | You need ነው. ይህ መጽሀፍ alone does not mean this is a book.
 አለኝ | alleny | I have | I have. The consonant in the middle is long, and the fidel does not show it.
 የለኝም | yellenyim | I don't have | The negative wraps the verb. There is no separate word for not.
 አለህ | alleh | you have (to a man) | Man form. To a woman, say አለሽ.

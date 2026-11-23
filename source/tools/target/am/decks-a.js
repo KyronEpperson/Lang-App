@@ -65,8 +65,8 @@ module.exports = {
 ጠ | t'e | ejective t | An ejective t. Not the plain ተ. Listen for the pop.
 ጨ | ch'e | ejective ch | An ejective ch. Not ቸ.
 ጰ | p'e | ejective p | An ejective p. Not the plain ፐ.
-ጸ | s'e | ejective s, first letter | An ejective s. Not ሰ. Same sound as ፀ, written apart.
-ፀ | s'e | ejective s, second letter | Same ejective s as ጸ in Addis Ababa. Do not swap them.
+ጸ | ts'e | ejective ts, first letter | An ejective ts. Not ሰ. Same sound as ፀ, written apart.
+ፀ | ts'e | ejective ts, second letter | Same ejective ts as ጸ in Addis Ababa. Do not swap them.
 ፈ | fe | the f row | Like English f.
 ፐ | pe | plain p | Plain p. Not the ejective ጰ.
 ድመት | dimmet | a cat | ደ is plain d. ም and ት are sixth order.

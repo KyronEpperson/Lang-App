@@ -5,7 +5,7 @@
 #   vowel orders: 1st e (ደ de), 2nd u, 3rd i, 4th a, 5th é (ቤ bé), 6th i where the source says it is pronounced, nothing where it is silent, 7th o.
 #   ሀ ሐ ኀ አ ዐ: first order is a (Addis Ababa merger, LDC note). Labialised -wa letters: bwa, lwa, kwa, gwa, k'wa.
 #   consonants: sh ሸ, ch ቸ, j ጀ, zh ዠ, ny ኘ (and ኝ), y የ, w ወ, v ቨ.
-#   ejectives take an apostrophe: t' ጠ, k' ቀ, p' ጰ, ch' ጨ, s' ጸ/ፀ (BGN/PCGN writes ts'; the course calls it the ejective s).
+#   ejectives take an apostrophe: t' ጠ, k' ቀ, p' ጰ, ch' ጨ, ts' ጸ/ፀ (as BGN/PCGN; most speakers say it as an ejective ts).
 #   a glottal stop between vowels (ዓ, ዕ inside a word) is an apostrophe after the vowel: se'at, bi'ir.
 #   gemination (a long consonant, never written in fidel) is a doubled letter: bunna, abbat; for a two-letter consonant the first letter
 #   doubles: ssh, cch, nny, tt', kk', cch'. Taken from the source named on the line. A final long consonant is written only where the source writes it (birr, widd).
@@ -146,7 +146,7 @@
 አዲስ	addis	PC
 ስንት	sint	PC
 ሰዓት	se'at	PC
-መጽሀፍ	mes'haf	PC
+መጽሀፍ	mets'haf	PC
 በጣም	bet'am	PC; OMG
 አንድ	and	PC; OMGN
 አበበች	abebech	PC
@@ -246,7 +246,7 @@
 ይወዳሉ	yiweddallu	PC (prints yïwäddalu; -allu as PC አሉ allu)
 ጠጣ	t'ett'a	WKT; PRV
 ከአዲስ	keaddis	PC
-መጽሐፍ	mes'haf	PC (printed as መጽሃፍ; same sound, LDC homophone note)
+መጽሐፍ	mets'haf	PC (printed as መጽሃፍ; same sound, LDC homophone note)
 ከበደ	kebbede	LDC (የከበደ yəkəbbədə)
 ቡናውን	bunnawn	PC
 ብዕር	bi'ir	WKT
@@ -315,7 +315,7 @@
 እህቴ	ihité	composed: PC እህት + -é
 እህትሽ	ihitish	composed: PC እህት + -ish
 ወንድምሽ	wendimish	composed: PC ወንድም + -ish
-መጽሀፉ	mes'hafu	composed: PC መጽሀፍ + -u
+መጽሀፉ	mets'hafu	composed: PC መጽሀፍ + -u
 በስተቀኝ	besitek'eny	composed: PRD በስተ ቀኝ bäsɨtə qäñ
 ምንድነው	mindinew	composed: PC ምንድን + ነው
 ከወጥ	kewet'	composed: ከ + PC ወጥ
@@ -402,8 +402,8 @@
 ጣ	t'a	BGN
 ጨ	ch'e	BGN
 ጰ	p'e	BGN
-ጸ	s'e	BGN (BGN writes ts')
-ፀ	s'e	BGN (BGN writes ts')
+ጸ	ts'e	BGN
+ፀ	ts'e	BGN
 ፈ	fe	BGN
 ፐ	pe	BGN
 ቧ	bwa	BGN

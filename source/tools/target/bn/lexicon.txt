@@ -4,7 +4,7 @@
 # Source column: a source id below, a URL that was opened, or `unverified:model` (no page was opened for this line: the reading is
 # the model's own; replace it with a sourced reading when you can, and never ship a card whose point is a sound on such a line
 # without checking it). A source id may be followed by a short note in brackets.
-# Seeded homographs: করে দেখে বলে খেলে খেলো খেলেন আসল আসলে পরে.
+# Seeded homographs: করে দেখে বলে খেলে খেলো খেলেন আসল আসলে. (পরে was seeded as a homograph pore / pôre; EN-BN-R found Wikipedia "Bengali phonology" gives /pɔre/ for both "wears" and "after", so it is one line, pôre.)
 # Homographs: two lines with the same key and different readings, each with `homograph:<gloss>` in its source column. The tool then
 # refuses the word on its own and asks for a longer entry (multi-word line) that fixes the reading.
 #
@@ -34,6 +34,9 @@
 #source ut-script https://bangla.la.utexas.edu/resources/the-bangla-script/ University of Texas "The Bangla Script": conjunct and phola chart (ɔ, æ marked)
 #source ut-time https://bangla.la.utexas.edu/resources/telling-time-in-bangla/ University of Texas "Telling time in Bangla" (writes o for both ɔ and o: used only where that does not matter)
 #source wv https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Bengali Wikivoyage Bengali phrasebook (mirror, 2025-02): English respellings, aw = ɔ, oh = o, a/ack = æ
+#source wp-phon https://en.wikipedia.org/wiki/Bengali_phonology Wikipedia "Bengali phonology" (opened 2026-11-22 by EN-BN-R): IPA and transliterations of its example words (আস্তে /aste/, বাস /bʌs/, পরে /pɔre/, সবজি /ʃobdʒi/, গ্লাস glash ...)
+#source wp-gram https://en.wikipedia.org/wiki/Bengali_grammar Wikipedia "Bengali grammar" (opened 2026-11-22 by EN-BN-R): pronoun, demonstrative, classifier and negator romanisations (ê = æ, ô = ɔ)
+#source msu-amt https://openbooks.lib.msu.edu/basicbangla/chapter/7-amounts/ MSU Basic Bangla 9.3 "Amounts and Quantities" (opened 2026-11-22 by EN-BN-R): O = ɔ, E = æ, T = ṭ
 #
 # How a printed form becomes this key (mechanical; a line counts as verified only if it is this conversion of what the page printed):
 #   Wiktionary tables: ô -> ô, ê -> æ, ō -> o, c -> ch, ch -> chh, cc -> cch, cch -> cchh, ĵ -> j, ẏ -> y, ś -> sh, oẇa / ōẇa / ōẏa -> oya, kkh stays kkh.
@@ -124,42 +127,42 @@
 সালাম	salam	unverified:model
 নমস্কার	nômoshkar	wv
 ধন্যবাদ	dhonnobad	wt-dhonnobad
-শুভ	shubho	unverified:model
-সকাল	shôkal	unverified:model
-সন্ধ্যা	shôndha	unverified:model (UT ut-time prints shondha: consonants and the silent য-ফলা agree; ô not checked)
+শুভ	shubho	wv (SHOO-bhoh)
+সকাল	shôkal	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%B8/%E0%A6%B8%E0%A6%95/%E0%A6%B8%E0%A6%95%E0%A6%BE%E0%A6%B2.html (Dhaka /ʃɔkal/; wv SHAW-kahl)
+সন্ধ্যা	shondha	wv (shohn-dhah; oh = o). Corrected from shôndha
 রাত্রি	ratri	ut-time
 হ্যাঁ	hæ̃	ut-script
 না	na	wv
 জি	ji	unverified:model
 আচ্ছা	acchha	unverified:model
-ঠিক	ṭhik	unverified:model
-মাফ	maf	unverified:model
-ক্ষমা	khôma	unverified:model
+ঠিক	ṭhik	wv (tthihck)
+মাফ	maf	wv (mahph)
+ক্ষমা	khôma	https://kaikki.org/dictionary/Bengali/meaning/ক/ক্/ক্ষমা.html (Dhaka /kʰɔma/; wv KHAW-mah)
 দুঃখিত	dukkhito	wv
 শুনুন	shunun	unverified:model
 দয়া	dôya	wv
 আবার	abar	unverified:model
-খোদা	khoda	unverified:model
+খোদা	khoda	wv (KHOH-dah)
 হাফেজ	hafej	unverified:model
-কেমন	kemon	unverified:model
+কেমন	kæmon	wv (KA-mohn; a = æ). Corrected 2026-11-22 from kemon
 
 # ---------- pronouns ----------
 আমি	ami	wv
 তুমি	tumi	wt-ach (pronoun label)
 আপনি	apni	wv
 তুই	tui	wt-ach (pronoun label)
-সে	she	unverified:model
+সে	she	wp-gram (she)
 তিনি	tini	wt-ach (pronoun label)
 ইনি	ini	wt-ach (pronoun label)
 উনি	uni	wt-ach (pronoun label)
-আমরা	amra	unverified:model
-তোমরা	tomra	unverified:model
-আপনারা	apnara	unverified:model
-তারা	tara	unverified:model
-আমার	amar	unverified:model
-তোমার	tomar	unverified:model
-আপনার	apnar	unverified:model
-তার	tar	unverified:model
+আমরা	amra	wp-gram (amra)
+তোমরা	tomra	wp-gram (tomra)
+আপনারা	apnara	wp-gram (apnara; wv AHP-nah-rah)
+তারা	tara	wp-gram (tara)
+আমার	amar	wp-gram (amar; wv AH-mahr)
+তোমার	tomar	wp-gram (tomar; wv TOH-mahr)
+আপনার	apnar	wv (AHP-nahr)
+তার	tar	wp-gram (tar)
 তাঁর	tãr	unverified:model
 ওর	or	unverified:model
 ওনার	onar	unverified:model
@@ -167,50 +170,48 @@
 তোমাদের	tomader	unverified:model
 আপনাদের	apnader	unverified:model
 তাদের	tader	unverified:model
-আমাকে	amake	unverified:model
+আমাকে	amake	wp-gram (amake; wv ah-mah-keh)
 তোমাকে	tomake	unverified:model
 আপনাকে	apnake	unverified:model
-তাকে	take	unverified:model
+তাকে	take	wp-gram (take)
 ওকে	oke	unverified:model
 
 # ---------- question words, negation ----------
-কী	ki	wv
-কি	ki	ut-script
-কার	kar	unverified:model
+কার	kar	wp-gram (kar)
 কাকে	kake	unverified:model
 কারা	kara	unverified:model
-কোথায়	kothay	unverified:model
+কোথায়	kothay	wv (KOH-thigh)
 কোথা	kotha	unverified:model
-কখন	kôkhon	unverified:model
+কখন	kôkhôn	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%95%E0%A6%96%E0%A6%A8 (Dhaka /kɔkʰɔn/). Corrected from kôkhon
 কবে	kôbe	unverified:model
-কেন	keno	unverified:model
+কেন	kæno	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%95%E0%A7%87%E0%A6%A8 (Dhaka /kæno/). Corrected from keno
 কত	kôto	wv
-কোন	kon	unverified:model
-কোনো	kono	unverified:model
+কোন	kon	wp-gram (kon)
+কোনো	kono	msu-amt (kono; wv koh-noh)
 কোনটা	konṭa	unverified:model
-কিছু	kichhu	unverified:model
+কিছু	kichhu	msu-amt (kichu; MSU ch = chh; wv kih-chhoo)
 কেউ	keu	unverified:model
-নই	noi	unverified:model
-নয়	nôy	unverified:model
-নেই	nei	unverified:model
+নই	noi	wp-gram (noi)
+নয়	nôy	msu-num (sound; spelling from wp-num; নয় "is not" is said the same)
+নেই	nei	wp-gram (nei)
 নি	ni	unverified:model
 
 # ---------- this, that, classifiers ----------
 এই	ei	wv
-ওই	oi	unverified:model
+ওই	oi	wp-gram (oi)
 সেই	shei	unverified:model
 যে	je	wv
-এটা	eṭa	unverified:model
-ওটা	oṭa	unverified:model
-সেটা	sheṭa	unverified:model
-এটার	eṭar	unverified:model
+এটা	eṭa	wp-gram (eţa)
+ওটা	oṭa	wp-gram (oţa)
+সেটা	sheṭa	wp-gram (sheţa)
+এটার	eṭar	wv (EH-ttahr)
 ওটার	oṭar	unverified:model
 এগুলো	egulo	unverified:model
 ওগুলো	ogulo	unverified:model
 বইটা	boiṭa	unverified:model
-একটা	ækṭa	unverified:model
-একজন	ækjon	unverified:model
-দুইটা	duiṭa	unverified:model
+একটা	ækṭa	wv (ACK-ttah; wp-gram êkṭa)
+একজন	ækjon	wp-gram (êk-jon)
+দুইটা	duiṭa	wv (dui-ttah, Bangladesh)
 দুইজন	duijon	unverified:model
 তিনটা	tinṭa	unverified:model
 চারটা	charṭa	unverified:model
@@ -218,7 +219,7 @@
 ছয়টা	chhôyṭa	unverified:model
 সাতটা	shatṭa	unverified:model
 আটটা	aṭṭa	unverified:model
-নয়টা	nôyṭa	unverified:model
+নয়টা	nôyṭa	wp-gram (Nôy-ţa)
 দশটা	dôshṭa	unverified:model
 এগারোটা	ægaroṭa	unverified:model
 বারোটা	baroṭa	unverified:model
@@ -237,7 +238,6 @@
 ছয়	chhôy	msu-num (sound; spelling from wp-num)
 সাত	shat	wp-num
 আট	aṭ	msu-num (sound; spelling from wp-num)
-নয়	nôy	msu-num (sound; spelling from wp-num; নয় "is not" is said the same)
 দশ	dôsh	msu-num (sound; spelling from wp-num)
 এগারো	ægaro	msu-num (sound; spelling from wp-num)
 বারো	baro	msu-num (sound; spelling from wp-num)
@@ -428,7 +428,7 @@
 দেবেন	deben	unverified:model
 নেওয়া	neoya	msu-verbs
 নিন	nin	unverified:model
-নেব	nebo	unverified:model
+নেব	nebo	wv (neh-boh)
 আসা	asha	wt-asha
 আসি	ashi	wt-asha
 আসো	asho	wt-asha
@@ -447,7 +447,7 @@
 আসতে	ashte	wt-asha
 এসে	eshe	wt-asha
 আসুন	ashun	unverified:model
-আস্তে	aste	unverified:model
+আস্তে	aste	wp-phon (/aste/)
 হওয়া	hôoya	wt-hoya
 হই	hoi	wt-hoya
 হয়	hoy	wt-hoya
@@ -497,13 +497,12 @@
 ঘুমাই	ghumai	unverified:model
 
 # ---------- postpositions, conjunctions, adverbs ----------
-সাথে	shathe	unverified:model
+সাথে	shathe	wv (shah-theh)
 সঙ্গে	shôngge	unverified:model
 জন্য	jonno	ut-script
 কাছে	kachhe	unverified:model
 দিকে	dike	wv (in ডানদিকে)
-পরে	pore	unverified:model homograph:after, later
-পরে	pôre	unverified:model homograph:(s)he wears (পরা)
+পরে	pôre	wp-phon (পরে /pɔre/ 'wears / after'): one reading for both senses, so no longer a homograph. Corrected from pore (after)
 আগে	age	unverified:model
 উপরে	upore	unverified:model
 নিচে	niche	unverified:model
@@ -519,22 +518,22 @@
 কারণ	karon	unverified:model
 যদি	jodi	unverified:model
 তাহলে	tahole	unverified:model
-খুব	khub	unverified:model
+খুব	khub	msu-amt (khub)
 এখন	ækhon	wv
 এখনও	ækhono	unverified:model
 আজ	aj	wv
 কাল	kal	unverified:model
 আগামীকাল	agamikal	wv
 গতকাল	gôtokal	wv
-এখানে	ekhane	unverified:model
+এখানে	ekhane	wv (EH-khah-neh)
 ওখানে	okhane	unverified:model
 সেখানে	shekhane	unverified:model
 সোজা	shoja	wv
 একদম	ækdôm	wv
 দূরে	dure	unverified:model
-একটু	ekṭu	unverified:model
-অনেক	ônek	unverified:model
-সব	shôb	unverified:model
+একটু	ekṭu	msu-amt (ekTu)
+অনেক	ônek	https://kaikki.org/dictionary/Bengali/meaning/অ/অন/অনেক.html (Dhaka /ɔnek/; msu-amt Onek)
+সব	shôb	msu-amt (sOb)
 সবাই	shôbai	unverified:model
 প্রতিদিন	protidin	unverified:model (প্রতি proti: ut-script)
 প্রতি	proti	ut-script
@@ -556,14 +555,14 @@
 বড়	bôṛo	wt-boro
 ছোট	chhoṭo	unverified:model
 সুন্দর	shundôr	wt-sundor
-নতুন	notun	unverified:model
+নতুন	notun	wv (NOH-toon)
 পুরনো	purono	unverified:model
 গরম	gôrom	unverified:model
 ঠান্ডা	ṭhanḍa	unverified:model
 মিষ্টি	mishṭi	unverified:model
 ঝাল	jhal	unverified:model
-সস্তা	shôsta	unverified:model
-দামি	dami	unverified:model
+সস্তা	shôsta	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%B8%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE (Dhaka /ʃɔst̪a/)
+দামি	dami	wv (dah-mih)
 সুখী	shukhi	unverified:model
 খুশি	khushi	unverified:model
 ব্যস্ত	bæsto	unverified:model
@@ -572,9 +571,9 @@
 সাদা	shada	unverified:model
 কালো	kalo	unverified:model
 অর্ধেক	ôrdhek	unverified:model
-দরকার	dôrkar	unverified:model
+দরকার	dôrkar	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%A6/%E0%A6%A6%E0%A6%B0/%E0%A6%A6%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0.html (Dhaka /d̪ɔɹkaɹ/; wv dawr-kahr)
 দারুণ	darun	unverified:model
-চমৎকার	chômotkar	unverified:model
+চমৎকার	chômôtkar	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%9A%E0%A6%AE%E0%A6%A4%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0 (Dhaka /tɕɔmɔt̪kaɹ/). Corrected from chômotkar
 শক্ত	shôkto	ut-script
 বন্ধ	bôndho	ut-script
 মজা	môja	ut-script
@@ -588,7 +587,7 @@
 আব্বু	abbu	unverified:model
 ভাই	bhai	unverified:model
 ভাইয়া	bhaiya	unverified:model
-বোন	bon	unverified:model
+বোন	bon	https://www.wiktionary.com/wiki/%E0%A6%AC%E0%A7%8B%E0%A6%A8 (Dhaka /bon/)
 আপা	apa	unverified:model
 দাদা	dada	unverified:model
 দাদি	dadi	unverified:model
@@ -604,10 +603,10 @@
 বন্ধু	bondhu	unverified:model
 পরিবার	poribar	unverified:model
 বাচ্চা	baccha	unverified:model
-ছাত্র	chhatro	unverified:model (ut-script prints chatra, glossed "students")
+ছাত্র	chhatro	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0 (/tʃʰat̪ɾo/)
 ছাত্রী	chhatri	unverified:model
-শিক্ষক	shikkhok	unverified:model
-ডাক্তার	ḍaktar	unverified:model
+শিক্ষক	shikkhôk	https://kaikki.org/dictionary/Bengali/meaning/শ/শি/শিক্ষক.html (Dhaka /ʃikʰːɔk/; wp-gram shikkhôk). Corrected from shikkhok
+ডাক্তার	ḍaktar	wv (ddahk-tahr)
 রাহীম	rahim	unverified:model
 
 # ---------- food and drink ----------
@@ -627,8 +626,8 @@
 ফল	fôl	unverified:model
 আম	am	unverified:model
 কলা	kôla	unverified:model
-সবজি	shôbji	unverified:model
-খাবার	khabar	unverified:model
+সবজি	shobji	wp-phon (/ʃobdʒi/). Corrected from shôbji
+খাবার	khabar	wv (khah-bahr)
 বিরিয়ানি	biriyani	unverified:model
 পরোটা	poroṭa	unverified:model
 মরিচ	morich	unverified:model
@@ -638,26 +637,26 @@
 গরু	goru	unverified:model
 ভর্তা	bhôrta	unverified:model
 রান্না	ranna	unverified:model
-নাস্তা	nashta	unverified:model
+নাস্তা	nasta	wv (NAHSS-tah). Corrected from nashta
 
 # ---------- places, things, work ----------
 বাড়ি	baṛi	unverified:model
-ঘর	ghôr	unverified:model
-দোকান	dokan	unverified:model
+ঘর	ghôr	wv (GHAWR-ttah)
+দোকান	dokan	wv (DOH-kahn)
 বাজার	bajar	unverified:model
 রাস্তা	rasta	unverified:model
-স্কুল	skul	unverified:model
-অফিস	ofish	unverified:model
+স্কুল	skul	wp-phon (skul)
+অফিস	ôfish	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8 (Dhaka /ɔfiʃ/). Corrected from ofish
 হাসপাতাল	hashpatal	unverified:model
 বই	boi	unverified:model
-কলম	kôlom	unverified:model
+কলম	kôlom	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%95%E0%A6%B2%E0%A6%AE (/kɔlom/)
 খাতা	khata	unverified:model
-ফোন	fon	unverified:model
+ফোন	fon	wv (phohn; ফ = f in this key)
 গাড়ি	gaṛi	unverified:model
-রিকশা	riksha	unverified:model
-বাস	bas	unverified:model
-ট্রেন	ṭren	unverified:model
-শহর	shôhor	unverified:model
+রিকশা	riksha	wv (RIHCK-shah)
+বাস	bas	wp-phon (বাস /bʌs/ 'bus')
+ট্রেন	ṭren	wp-phon (ṭren)
+শহর	shôhor	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%B6/%E0%A6%B6%E0%A6%B9/%E0%A6%B6%E0%A6%B9%E0%A6%B0.html (Dhaka /ʃɔhoɹ/)
 গ্রাম	gram	ut-script
 দেশ	desh	unverified:model
 বাংলাদেশ	bangladesh	unverified:model
@@ -666,18 +665,18 @@
 ঢাকায়	ḍhakay	unverified:model
 আমেরিকা	amerika	unverified:model
 বাংলা	bangla	ut-script
-ইংরেজি	ingreji	unverified:model
+ইংরেজি	ingreji	wv (ihng-reh-jih)
 ভাষা	bhasha	unverified:model
 শাড়ি	shaṛi	unverified:model
 জামা	jama	unverified:model
 কাজ	kaj	unverified:model
-টাকা	ṭaka	unverified:model
-দাম	dam	unverified:model
+টাকা	ṭaka	wv (ttah-kah)
+দাম	dam	wv (dahm)
 কেজি	keji	unverified:model
-টিকিট	ṭikiṭ	unverified:model
-নাম	nam	unverified:model
-বয়স	bôyosh	unverified:model
-পছন্দ	pôchhondo	unverified:model
+টিকিট	ṭikiṭ	wv (TTIH-kihtt)
+নাম	nam	wv (nahm)
+বয়স	bôyosh	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AC%E0%A6%AF%E0%A6%BC%E0%A6%B8 (/bɔe̯.oʃ/)
+পছন্দ	pôchhondo	wp-phon ([pɔtʃʰondo])
 চাঁদ	chãd	ut-script
 ব্যথা	bætha	ut-script
 ব্যবসা	bæbsha	ut-script
@@ -702,12 +701,12 @@
 দুপুর	dupur	ut-time
 বিকাল	bikal	ut-time
 বিকেল	bikel	unverified:model
-সময়	shômoy	unverified:model
+সময়	shomoy	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%B8/%E0%A6%B8%E0%A6%AE/%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC.html (Dhaka /ʃom.oe̯/; wv shoh-moy). Corrected from shômoy
 ঘণ্টা	ghônṭa	unverified:model
 মিনিট	miniṭ	unverified:model
 সপ্তাহ	shôptaho	unverified:model
 মাস	mash	unverified:model
-বছর	bôchhor	unverified:model
+বছর	bôchhor	wv (baw-chhoh-rehr)
 সোমবার	shombar	wv
 মঙ্গলবার	monggolbar	wv
 বুধবার	budhbar	wv
@@ -721,3 +720,114 @@
 সে করে	she kôre	wt-kora
 সে দেখে	she dækhe	wt-dekha
 সে বলে	she bôle	wt-bola
+
+
+# ---------- merged from lexicon-add-2.txt (writer additions) ----------
+# lexicon-add-2: EN-BN-2 (lessons-2.js). Derived forms (base word + ending) are unverified:model even when the base is sourced.
+কলমটা	kôlomṭa	unverified:model
+ফোনটা	fonṭa	unverified:model
+বইটি	boiṭi	unverified:model
+তিনজন	tinjon	unverified:model
+দশজন	dôshjon	unverified:model
+শহরে	shôhore	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%B6/%E0%A6%B6%E0%A6%B9/%E0%A6%B6%E0%A6%B9%E0%A6%B0.html (locative śohore printed; vowels from /ʃɔhoɹ/)
+গ্রামে	grame	unverified:model
+বাড়িতে	baṛite	unverified:model
+আমেরিকায়	amerikay	unverified:model
+আমেরিকাতে	amerikate	unverified:model
+ঢাকাতে	ḍhakate	unverified:model
+ছেলেরা	chhelera	unverified:model
+মেয়েরা	meyera	unverified:model
+ভাইরা	bhaira	unverified:model
+বোনেরা	bonera	https://www.wiktionary.com/wiki/%E0%A6%AC%E0%A7%8B%E0%A6%A8 (plural bonera printed; vowel from /bon/)
+বন্ধুটা	bondhuṭa	unverified:model
+ছেলেটা	chheleṭa	unverified:model
+# homograph-fixing phrases: করে / বলে as the simple present (3rd person ordinary), as printed in the opened Chalita tables (kôre, bôle)
+কাজ করে	kaj kôre	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE_%E0%A6%95%E0%A6%B0%E0%A6%BE
+বাংলা বলে	bangla bôle	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AC%E0%A6%B2%E0%A6%BE
+শহরটা	shôhorṭa	unverified:model
+গ্রামটা	gramṭa	unverified:model
+
+# ---------- merged from lexicon-add-3.txt (writer additions) ----------
+# lexicon-add-3: EN-BN-3 (lessons-3.js). bengali<TAB>romanisation<TAB>source. A sourced line is the profile §6.3 conversion of what that page printed;
+# derived forms (base word + ending) that the page does not print are unverified:model even when the base is sourced.
+বললে	bolle	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AC%E0%A6%B2%E0%A6%BE
+দেখলে	dekhle	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE
+গেলো	gelo	unverified:model
+করলা	korla	unverified:model
+গেলা	gela	unverified:model
+বাজারের	bajarer	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%AC/%E0%A6%AC%E0%A6%BE/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0.html
+চাল	chal	https://wiki.1209k.com/content/wiktionary_en_all_maxi_2024-05/A/%E0%A6%9A%E0%A6%BE%E0%A6%B2
+মোড়ে	moṛe	unverified:model
+বেশি	beshi	msu-amt (beshi; wv beh-shih)
+কফির	kofir	unverified:model
+আলুর	alur	unverified:model
+কেজিটা	kejiṭa	unverified:model
+বইকে	boike	unverified:model
+ভাইকে	bhaike	unverified:model
+মাকে	make	unverified:model
+পছন্দ করে	pôchhondo kôre	unverified:model
+পরে আসব	pôre ashbo	wp-phon (পরে /pɔre/) + wt-asha (আসব). Corrected from pore ashbo
+
+# ---------- merged from lexicon-add-A.txt (writer additions) ----------
+এসেছি	eshechhi	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%86%E0%A6%B8%E0%A6%BE
+
+# ---------- merged from lexicon-add-B.txt (writer additions) ----------
+# lexicon additions by writer EN-BN-B (decks-b.js, extra-b.js). bengali<TAB>romanisation<TAB>source. Sourced lines: the reading is the profile §6.3 conversion of the IPA or romanisation printed on that page.
+বাসা	basha	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%AC/%E0%A6%AC%E0%A6%BE/%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%BE.html
+বাসায়	bashay	unverified:model
+বাসাটা	bashaṭa	unverified:model
+সমস্যা	shômossha	https://wiki.neonvagabond.xyz/content/wiktionary_en_all_nopic_2024-05/A/%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE
+কম	kôm	https://wiki.neonvagabond.xyz/content/wiktionary_en_all_nopic_2024-05/A/%E0%A6%95%E0%A6%AE
+তারপর	tarpôr	https://www.wiktionary.com/wiki/%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%AA%E0%A6%B0
+শেষ	shesh	https://wiki.neonvagabond.xyz/content/wiktionary_en_all_nopic_2024-05/A/%E0%A6%B6%E0%A7%87%E0%A6%B7
+চেষ্টা	cheshṭa	https://wiki.neonvagabond.xyz/content/wiktionary_en_all_nopic_2024-05/A/%E0%A6%9A%E0%A7%87%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BE
+গোসল	goshol	https://wiki.neonvagabond.xyz/content/wiktionary_en_all_nopic_2024-05/A/%E0%A6%97%E0%A7%8B%E0%A6%B8%E0%A6%B2
+মানুষ	manush	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7
+অপেক্ষা	ôpekkha	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE_%E0%A6%95%E0%A6%B0%E0%A6%BE
+হয়েছে	hoyechhe	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%B9%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE
+পারছেন	parchhen	https://kaweah.freedombox.rocks/kiwix/content/wiktionary_en_all_maxi_2023-04/A/%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%BE
+চাবিটা	chabiṭa	unverified:model
+টেবিলের	ṭebiler	unverified:model
+ঘরে	ghôre	unverified:model
+কাপ	kap	unverified:model
+গ্লাস	glash	wp-phon (cluster examples: glash). Corrected from glas
+ছাড়া	chhaṛa	unverified:model
+বিলটা	bilṭa	unverified:model
+ভাইবোন	bhaibon	unverified:model
+কয়জন	kôyjon	unverified:model
+বন্ধুরা	bondhura	unverified:model
+সকালে	shôkale	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%B8/%E0%A6%B8%E0%A6%95/%E0%A6%B8%E0%A6%95%E0%A6%BE%E0%A6%B2.html (locative sokale printed; vowels from /ʃɔkal/)
+এগারোটায়	ægaroṭay	unverified:model
+দশটায়	dôshṭay	unverified:model
+পাঁচটায়	pãchṭay	unverified:model
+অফিসে	ôfishe	unverified:model (base অফিস Dhaka /ɔfiʃ/ on Wiktionary; -এ added). Corrected from ofishe
+বাজারে	bajare	unverified:model
+বাসে	base	unverified:model
+হাসপাতালটা	hashpatalṭa	unverified:model
+মায়ের	mayer	unverified:model
+আধা	adha	unverified:model
+রাখুন	rakhun	unverified:model
+ব্যাগ	bæg	unverified:model
+ভাংতি	bhangti	unverified:model
+আরও	aro	msu-amt (printed আরো aro, the same word in the other spelling)
+গান	gan	wp-phon ([gan])
+সাহায্য	shahajjo	wv (shah-haj-joh)
+কাজটা	kajṭa	unverified:model
+ক্লান্ত	klanto	unverified:model
+মাথা	matha	unverified:model
+মনে	mone	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%AE/%E0%A6%AE%E0%A6%A8/%E0%A6%AE%E0%A6%A8.html (Dhaka /mon/; locative mone printed)
+সবচেয়ে	shôbcheye	unverified:model
+ঢাকার	ḍhakar	unverified:model
+হাসিটা	hashiṭa	unverified:model
+ছোটটা	chhoṭoṭa	unverified:model
+বড়টার	bôṛoṭar	unverified:model
+দোকানটা	dokanṭa	unverified:model
+আমগুলোর	amgulor	unverified:model
+ডালটা	ḍalṭa	unverified:model
+শাড়িটার	shaṛiṭar	unverified:model
+ভয়	bhôy	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AD%E0%A6%AF%E0%A6%BC (/bʱɔe̯/)
+বাবার	babar	unverified:model
+
+# ---------- added by EN-BN-R (reviewer), 2026-11-22 ----------
+এত	æto	msu-amt (Eto)
+বাজারটা	bajarṭa	unverified:model (base বাজার on kaikki; -টা added)

@@ -8,7 +8,7 @@ module.exports = {
 আমার একটা গাড়ি আছে। | amar ækṭa gaṛi achhe. | I have a car. | Not আমি আছে: the owner is আমার, "my".
 আপনার কি ফোন আছে? | apnar ki fon achhe? | Do you have a phone? (polite) | কি turns it into a yes-or-no question.
 আমার টাকা নেই। | amar ṭaka nei. | I don't have any money. | নেই replaces আছে. No separate "not".
-আমার সময় নেই। | amar shômoy nei. | I don't have time. | Same frame: owner + thing + নেই.
+আমার সময় নেই। | amar shomoy nei. | I don't have time. | Same frame: owner + thing + নেই.
 বাসায় কেউ নেই। | bashay keu nei. | There's nobody at home. | বাসা is the everyday Dhaka word for the place you live.
 আমার কাছে টাকা আছে। | amar kachhe ṭaka achhe. | I have money on me. | আমার কাছে "near me" is for what you carry. আমার alone is for what you own.
 আপনার বাসা কোথায়? | apnar basha kothay? | Where do you live? (polite) | বাসা is where you live now. আপনার বাড়ি কোথায়? asks about your home town.
@@ -31,7 +31,7 @@ module.exports = {
 ডিম | ḍim | egg | |
 রুটি | ruṭi | flatbread; roti | Often eaten at breakfast.
 এক কাপ চা দিন। | æk kap cha din. | A cup of tea, please. | দিন "give" (polite) is how you ask for things. No word for "please" is needed.
-এক গ্লাস পানি দিন। | æk glas pani din. | A glass of water, please. | The measure (গ্লাস) comes between the number and the noun.
+এক গ্লাস পানি দিন। | æk glash pani din. | A glass of water, please. | The measure (গ্লাস) comes between the number and the noun.
 ঝাল কম দিন। | jhal kôm din. | Not too spicy, please. | Literally "give less heat". ঝাল is chili heat.
 খুব ঝাল। | khub jhal. | It's very spicy. | No verb. ঝাল is the heat of chili, not just strong flavor.
 চিনি ছাড়া চা | chini chhaṛa cha | tea without sugar | ছাড়া "without" comes after the noun.
@@ -75,8 +75,8 @@ module.exports = {
 আমি প্রতিদিন সকালে চা খাই। | ami protidin shôkale cha khai. | I have tea every morning. | The plain present is for habits.
 আমি এগারোটায় ঘুমাই। | ami ægaroṭay ghumai. | I go to sleep at eleven. | At an hour: -টায়.
 দশটায় দেখা হবে। | dôshṭay dækha hobe. | See you at ten. | Literally "at ten a meeting will happen".
-আমি নাস্তা করলাম। | ami nashta korlam. | I had breakfast. | Past ending -লাম for আমি. Used for something just done.
-উনি অফিসে গেলেন। | uni ofishe gelen. | He went to the office. (polite) | গেলেন is the past of যাওয়া, with the polite ending.
+আমি নাস্তা করলাম। | ami nasta korlam. | I had breakfast. | Past ending -লাম for আমি. Used for something just done.
+উনি অফিসে গেলেন। | uni ôfishe gelen. | He went to the office. (polite) | গেলেন is the past of যাওয়া, with the polite ending.
 আমি গতকাল ঢাকায় ছিলাম। | ami gôtokal ḍhakay chhilam. | I was in Dhaka yesterday. | ছিলাম is "was" for আমি.
 আমি সুখী ছিলাম। | ami shukhi chhilam. | I was happy. | In the present there is no verb (আমি সুখী), but the past needs ছিলাম.
 `,
@@ -97,7 +97,7 @@ module.exports = {
 আমি বাসে যাই। | ami base jai. | I go by bus. | -এ on the bus: "by bus".
 হাসপাতালটা কোথায়? | hashpatalṭa kothay? | Where's the hospital? | -টা: the hospital, the one around here.
 এটা মায়ের জন্য। | eṭa mayer jonno. | This is for my mother. | জন্য "for" comes after মায়ের "mother's".
-আমি অফিস থেকে আসছি। | ami ofish theke ashchhi. | I'm coming from the office. | থেকে "from" comes after the place.
+আমি অফিস থেকে আসছি। | ami ôfish theke ashchhi. | I'm coming from the office. | থেকে "from" comes after the place.
 `,
   "Shopping": `
 দাম কত? | dam kôto? | What's the price? | The everyday question in a shop or market.
@@ -109,7 +109,7 @@ module.exports = {
 এক কেজি আলু দিন। | æk keji alu din. | A kilo of potatoes, please. | Amount first, then the thing, then দিন.
 খুব দামি। | khub dami. | It's very expensive. | No verb.
 একটু কম রাখুন। | ekṭu kôm rakhun. | Can you take a bit off? | The bargaining line. Literally "keep it a little less".
-দাম আশি টাকা। | dam ashi ṭaka. | It's eighty taka. | Literally "the price is fifty taka", with no verb.
+দাম আশি টাকা। | dam ashi ṭaka. | It's eighty taka. | Literally "the price eighty taka", with no verb.
 এটা নেব। | eṭa nebo. | I'll take this. | নেব "I will take".
 আর কিছু লাগবে? | ar kichhu lagbe? | Anything else? | What the shopkeeper asks. Literally "will you need anything more?".
 দুইটা দিন। | duiṭa din. | Give me two. | -টা on the number when you count things.
@@ -124,7 +124,7 @@ module.exports = {
 পছন্দ | pôchhondo | liking; taste | From Persian. পছন্দ করা is "to like".
 আমি কাজ করি। | ami kaj kori. | I work. | কাজ stays the same. Only করি changes.
 ফোন | fon | phone | The English loan.
-আমি একটা অফিসে কাজ করি। | ami ækṭa ofishe kaj kori. | I work in an office. | -এ on অফিস means "in".
+আমি একটা অফিসে কাজ করি। | ami ækṭa ôfishe kaj kori. | I work in an office. | -এ on অফিস means "in".
 আমাকে ফোন করুন। | amake fon korun. | Please call me. | -কে marks the person you call.
 আমি তোমাকে কাল ফোন করব। | ami tomake kal fon korbo. | I'll call you tomorrow. | The future ending -ব on করা.
 আমি বাংলা গান পছন্দ করি। | ami bangla gan pôchhondo kori. | I like Bengali songs. | পছন্দ করি is "I like", with আমি as subject.
@@ -146,7 +146,7 @@ module.exports = {
 আমি চা চাই। | ami cha chai. | I want tea. | The thing goes before চাই.
 আমার ঢাকা ভালো লাগে। | amar ḍhaka bhalo lage. | I like Dhaka. | Not আমি ভালো লাগে.
 আমি ক্লান্ত। | ami klanto. | I'm tired. | Again no verb for "am".
-আমার একটু সময় দরকার। | amar ekṭu shômoy dôrkar. | I need a little time. | দরকার with আমার, the same as money.
+আমার একটু সময় দরকার। | amar ekṭu shomoy dôrkar. | I need a little time. | দরকার with আমার, the same as money.
 আমার ভয় লাগছে। | amar bhôy lagchhe. | I'm scared. | Literally "fear is touching me". Not আমি ভয়.
 আমার ঠান্ডা লাগছে। | amar ṭhanḍa lagchhe. | I'm cold. | Literally "cold is touching me". Not আমি ঠান্ডা.
 আমার মাথা ব্যথা করছে। | amar matha bætha korchhe. | I have a headache. | Literally "my head is aching". No "have".
