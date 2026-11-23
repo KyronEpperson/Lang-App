@@ -413,7 +413,7 @@
    "where": "html <h2> text"
   },
   "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": {
-   "t": "ಉಚ್ಚಾರಣೆ ಟೈಪ್ ಮಾಡಿ. ಇಂಗ್ಲಿಷ್ ಪದಗಳು ಚಿಕ್ಕ ಭಾಗಗಳಿಂದ ಆಗಿವೆ: ವ್ಯಂಜನ + ಸ್ವರ (+ ಕೊನೆಯ ವ್ಯಂಜನ). ಇಲ್ಲಿ ಆರಿಸಿದ ಲೆವೆಲ್ ಸೆಷನ್‌ಗಳಿಗೂ ಅನ್ವಯಿಸುತ್ತದೆ.",
+   "t": "ಉಚ್ಚಾರಣೆ ಟೈಪ್ ಮಾಡಿ. ಇಂಗ್ಲಿಷ್ ಪದಗಳು ಚಿಕ್ಕ ಭಾಗಗಳಿಂದ ಕೂಡಿವೆ: ವ್ಯಂಜನ + ಸ್ವರ (+ ಕೊನೆಯ ವ್ಯಂಜನ). ಇಲ್ಲಿ ಆರಿಸಿದ ಲೆವೆಲ್ ಸೆಷನ್‌ಗಳಿಗೂ ಅನ್ವಯಿಸುತ್ತದೆ.",
    "ko": "발음 표기를 입력하세요. 한글 글자는 자음 + 모음 (+ 받침)으로 쌓여요. 여기서 고른 레벨은 학습에도 쓰여요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -1153,7 +1153,7 @@
    "where": "js badges() <span>"
   },
   "hidden": {
-   "t": "ಮರೆಮಾಡಿದೆ",
+   "t": "ಮರೆಮಾಡಲಾಗಿದೆ",
    "ko": "숨김",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1574,7 +1574,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Save across devices": {
-   "t": "ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಸೇವ್ ಮಾಡಿ",
+   "t": "ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಸಿ",
    "ko": "여러 기기에 저장",
    "kind": "label",
    "where": "js step2() <h1>"
@@ -1748,7 +1748,7 @@
    "where": "js boxTxt() <button> @title"
   },
   "Skip until tomorrow": {
-   "t": "ನಾಳೆಯವರೆಗೆ ಬಿಟ್ಟುಬಿಡಿ",
+   "t": "ನಾಳೆಗೆ ಮುಂದೂಡಿ",
    "ko": "내일까지 건너뛰기",
    "kind": "label",
    "where": "js boxTxt() <button> @title"
@@ -2056,7 +2056,7 @@
    "where": "js SPK() <div>"
   },
   "Got it — quiz me": {
-   "t": "ಗೊತ್ತಾಯಿತು — ಕ್ವಿಜ್ ಕೊಡಿ",
+   "t": "ಗೊತ್ತು — ಕ್ವಿಜ್ ಕೊಡಿ",
    "ko": "알겠어요 — 퀴즈 내 주세요",
    "kind": "sentence",
    "where": "js goLbl()"
@@ -2657,7 +2657,7 @@
    "where": "js QUICK()"
   },
   "Goal done. Keep going?": {
-   "t": "ಗುರಿ ಮುಟ್ಟಿದೆ. ಮುಂದುವರಿಸುವುದೇ?",
+   "t": "ಗುರಿ ತಲುಪಿದ್ದೀರಿ. ಮುಂದುವರಿಸುತ್ತೀರಾ?",
    "ko": "목표 달성! 계속할까요?",
    "kind": "sentence",
    "where": "js lessonNext()"
@@ -2757,7 +2757,7 @@
    "where": "js cand() <a>"
   },
   "Go": {
-   "t": "ಹೋಗಿ",
+   "t": "ತೆರೆಯಿರಿ",
    "ko": "가기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2888,7 +2888,7 @@
    "where": "js STR()"
   },
   "Hangul drill": {
-   "t": "ಉಚ್ಚಾರಣೆ ಡ್ರಿಲ್",
+   "t": "ಓದುವ ಡ್ರಿಲ್",
    "ko": "읽기 훈련",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -3155,7 +3155,7 @@
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "ಪ್ರವಾಸದ ತಯಾರಿ",
+   "t": "ವಿದೇಶ ಪ್ರವಾಸದ ತಯಾರಿ",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
@@ -3793,7 +3793,7 @@
    "where": "js c() <button>"
   },
   "🩹 leech · re-enable": {
-   "t": "🩹 ಮೊಂಡು ಕಾರ್ಡ್ · ಮತ್ತೆ ಚಾಲೂ ಮಾಡಿ",
+   "t": "🩹 ಮೊಂಡು ಕಾರ್ಡ್ · ಮರಳಿ ತನ್ನಿ",
    "ko": "🩹 거머리 카드 · 다시 켜기",
    "kind": "label",
    "where": "js c() <button>"
@@ -3999,7 +3999,7 @@
    "where": "js stats()"
   },
   "CERTIFICATE OF COMPLETION": {
-   "t": "ಪೂರ್ಣಗೊಳಿಸಿದ ಪ್ರಮಾಣಪತ್ರ",
+   "t": "ಪೂರ್ಣಗೊಳಿಸಿದ್ದಕ್ಕೆ ಪ್ರಮಾಣಪತ್ರ",
    "ko": "수료증",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
@@ -4103,7 +4103,7 @@
    "where": "js sub()"
   },
   "목표 달성! Daily goal reached 🎉": {
-   "t": "ಗುರಿ ಮುಟ್ಟಿದೆ! ದಿನದ ಗುರಿ ಪೂರ್ಣ 🎉",
+   "t": "ದಿನದ ಗುರಿ ತಲುಪಿದ್ದೀರಿ! 🎉",
    "ko": "목표 달성! 오늘 목표를 채웠어요 🎉",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4207,7 +4207,7 @@
    "where": "js x()"
   },
   "it's late, good work": {
-   "t": "ತಡವಾಗಿದೆ, ಚೆನ್ನಾಗಿ ಮಾಡಿದಿರಿ",
+   "t": "ತಡವಾಗಿದೆ, ಚೆನ್ನಾಗಿ ಮಾಡಿದ್ದೀರಿ",
    "ko": "늦었네요, 수고했어요",
    "kind": "label",
    "where": "js x()"
@@ -4902,7 +4902,7 @@
    ]
   },
   "Back to practice": {
-   "t": "ಅಭ್ಯಾಸಕ್ಕೆ ಹಿಂದೆ",
+   "t": "ಅಭ್ಯಾಸಕ್ಕೆ ಮರಳಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice rule sheet",
@@ -4962,7 +4962,7 @@
    ]
   },
   "Back to lesson": {
-   "t": "ಪಾಠಕ್ಕೆ ಹಿಂದೆ",
+   "t": "ಪಾಠಕ್ಕೆ ಮರಳಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen",
@@ -5102,7 +5102,7 @@
    ]
   },
   "Daily goal reached 🎉": {
-   "t": "ದಿನದ ಗುರಿ ಮುಟ್ಟಿದೆ 🎉",
+   "t": "ದಿನದ ಗುರಿ ತಲುಪಿದ್ದೀರಿ 🎉",
    "ko": null,
    "kind": "label",
    "context": "DOM translator (JS-built text) — Goal toast for non-Korean courses (DOM translator; was 목표 달성! Daily goal reached 🎉)",
@@ -5546,7 +5546,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "suspended · box {n}": {
-   "t": "ತಡೆಹಿಡಿದಿದೆ · ಬಾಕ್ಸ್ {1}",
+   "t": "ತಡೆಹಿಡಿಯಲಾಗಿದೆ · ಬಾಕ್ಸ್ {1}",
    "ko": "보류 · 상자 {1}",
    "slots": "{1}=n",
    "example": "suspended · box 5"
@@ -6547,13 +6547,13 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "3 questions on this lesson · passed ✓.": {
-   "t": "ಈ ಪಾಠದ ಮೇಲೆ 3 ಪ್ರಶ್ನೆ · ಪಾಸ್ ✓.",
+   "t": "ಈ ಪಾಠದ ಬಗ್ಗೆ 3 ಪ್ರಶ್ನೆ · ಪಾಸ್ ✓.",
    "ko": "이 레슨 확인 문제 3개 · 통과 ✓.",
    "slots": "",
    "example": "3 questions on this lesson · passed ✓."
   },
   "3 questions on this lesson.": {
-   "t": "ಈ ಪಾಠದ ಮೇಲೆ 3 ಪ್ರಶ್ನೆ.",
+   "t": "ಈ ಪಾಠದ ಬಗ್ಗೆ 3 ಪ್ರಶ್ನೆ.",
    "ko": "이 레슨 확인 문제 3개.",
    "slots": "",
    "example": "3 questions on this lesson."
@@ -6616,7 +6616,7 @@
    "example": "🛡️ Streak shields: 5/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak."
   },
   "Last 8 weeks · {n} active days · {n} active weeks · green = goal met, amber = some study": {
-   "t": "ಕಳೆದ 8 ವಾರ · ಸಕ್ರಿಯ ದಿನ: {1} · ಸಕ್ರಿಯ ವಾರ: {2} · ಹಸಿರು = ಗುರಿ ಮುಟ್ಟಿದೆ, ಕಿತ್ತಳೆ = ಸ್ವಲ್ಪ ಕಲಿಕೆ",
+   "t": "ಕಳೆದ 8 ವಾರ · ಸಕ್ರಿಯ ದಿನ: {1} · ಸಕ್ರಿಯ ವಾರ: {2} · ಹಸಿರು = ಗುರಿ ತಲುಪಿದ ದಿನ, ಕಿತ್ತಳೆ = ಸ್ವಲ್ಪ ಕಲಿಕೆ",
    "ko": "최근 8주 · 학습한 날 {1}일 · 학습한 주 {2}주 · 초록 = 목표 달성, 주황 = 조금 학습",
    "slots": "{1}=n, {2}=n",
    "example": "Last 8 weeks · 5 active days · 2 active weeks · green = goal met, amber = some study",

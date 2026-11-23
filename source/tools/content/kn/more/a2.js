@@ -4,7 +4,7 @@ module.exports = [
 <p>ಹಿಂದಿನ <b>ಒಂದು ಕ್ಷಣದಲ್ಲಿ ನಡೆಯುತ್ತಿದ್ದ ಕೆಲಸ</b>ವನ್ನು ಹೇಳಲು Past Continuous ಬೇಕು. ಕನ್ನಡದ "ಮಾಡುತ್ತಿದ್ದೆ" ಇದಕ್ಕೆ ಸರಿಯಾಗಿ ಹೊಂದುತ್ತದೆ. Present Continuous ರೂಪದಲ್ಲಿ am / is / are ಬದಲು <b>was / were</b> ಹಾಕಿದರೆ ಸಾಕು: I, he, she, it ಜೊತೆ <b>was</b>; you, we, they ಜೊತೆ <b>were</b>.</p>
 {{ex:I was sleeping.|ಐ ವಜ಼್ ˈಸ್ಲೀಪಿಙ್|ನಾನು ನಿದ್ದೆ ಮಾಡುತ್ತಿದ್ದೆ}}{{ex:We were watching TV.|ವಿ ವರ್ ˈವಾಚಿಙ್ ಟೀ ವ಼ೀ|ನಾವು ಟಿವಿ ನೋಡುತ್ತಿದ್ದೆವು}}{{ex:It was raining.|ಇಟ್ ವಜ಼್ ˈರೇನಿಙ್|ಮಳೆ ಬರುತ್ತಿತ್ತು}}
 <h3>ಪ್ರಶ್ನೆ</h3>
-<p>ಕನ್ನಡದಲ್ಲಿ ವಾಕ್ಯದ ಕೊನೆಗೆ -ಆ ಸೇರಿಸಿದರೆ ಪ್ರಶ್ನೆ ಆಗುತ್ತದೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ was / were ಕರ್ತೃವಿನ ಮೊದಲು ಬರಬೇಕು.</p>
+<p>ಕನ್ನಡದಲ್ಲಿ ವಾಕ್ಯದ ಕೊನೆಗೆ -ಆ / -ಏ ಸೇರಿಸಿದರೆ ಪ್ರಶ್ನೆ ಆಗುತ್ತದೆ; ಪದಗಳ ಕ್ರಮ ಬದಲಾಗುವುದಿಲ್ಲ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ was / were ಕರ್ತೃವಿನ ಮೊದಲು ಬರಬೇಕು.</p>
 {{ex:What were you doing?|ವಟ್ ವರ್ ಯು ˈಡೂಇಙ್|ನೀನು ಏನು ಮಾಡುತ್ತಿದ್ದೆ?}}{{ex:Were you working at nine?|ವರ್ ಯು ˈವರ್ಕಿಙ್ ಅಟ್ ನೈನ್|ನೀವು 9 ಗಂಟೆಗೆ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಿರಾ?}}
 <h3>when ಜೊತೆ: ಕೆಲಸದ ನಡುವೆ ಇನ್ನೊಂದು ಘಟನೆ</h3>
 <p>ಹೆಚ್ಚು ಹೊತ್ತು ನಡೆಯುತ್ತಿದ್ದ ಕೆಲಸಕ್ಕೆ <b>Past Continuous</b>, ಅದರ ನಡುವೆ ನಡೆದ ಚಿಕ್ಕ ಘಟನೆಗೆ <b>Simple Past</b>.</p>
@@ -27,7 +27,7 @@ practice:[
 ["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡುತ್ತಿದ್ದೆ","I was watching a movie","was · watching · movie — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ a."],
 ["ty","ಮಕ್ಕಳು ಆಡುತ್ತಿದ್ದರು","The kids were playing|The children were playing","the kids · were · playing — ಬಹುವಚನ","kid","ಒಬ್ಬರಿಗಿಂತ ಹೆಚ್ಚು ಮಕ್ಕಳು: ಬಹುವಚನ kids, ಜೊತೆಗೆ were."]]},
 { id:"will", title:"will: ಈಗ ಮಾಡಿದ ನಿರ್ಧಾರ, ಕೊಟ್ಟ ಮಾತು, ಊಹೆ", blurb:"ಆ ಕ್ಷಣದಲ್ಲೇ ನಿರ್ಧರಿಸಿದರೆ will, ಮೊದಲೇ ಯೋಜಿಸಿದ್ದರೆ going to.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
-<p>ರೂಪ: <b>will + V1</b>. ಮಾತಿನಲ್ಲಿ ಹೆಚ್ಚಾಗಿ <b>I'll, you'll, it'll</b> ಎಂದು ಚಿಕ್ಕದು ಮಾಡುತ್ತಾರೆ. ನಿಷೇಧ ರೂಪ <b>won't</b>. ಕನ್ನಡದಲ್ಲಿ "ಮಾಡುತ್ತೇನೆ" ಎಂಬ ಒಂದೇ ರೂಪ ದಿನದ ಅಭ್ಯಾಸಕ್ಕೂ ಮುಂದೆ ಮಾಡುವ ಕೆಲಸಕ್ಕೂ ಬರುತ್ತದೆ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಮುಂದೆ ಮಾಡುವ ಕೆಲಸಕ್ಕೆ will (ಭವಿಷ್ಯತ್ ಕಾಲ) ಬೇಕು: <b>I call you tomorrow.</b> ✗ → <b>I'll call you tomorrow.</b> ✓</p>
+<p>ರೂಪ: <b>will + V1</b>. ಮಾತಿನಲ್ಲಿ ಹೆಚ್ಚಾಗಿ <b>I'll, you'll, it'll</b> ಎಂದು ಚಿಕ್ಕದು ಮಾಡುತ್ತಾರೆ. ನಿಷೇಧ ರೂಪ <b>won't</b>. ಕನ್ನಡದಲ್ಲಿ "ಮಾಡುತ್ತೇನೆ" ಎಂಬ ಒಂದೇ ರೂಪ ದಿನದ ಅಭ್ಯಾಸಕ್ಕೂ ಮುಂದೆ ಮಾಡುವ ಕೆಲಸಕ್ಕೂ ಬರುತ್ತದೆ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಮುಂದೆ ಮಾಡುವ ಕೆಲಸಕ್ಕೆ will (ಅಥವಾ be going to) ಬೇಕು: <b>I call you tomorrow.</b> ✗ → <b>I'll call you tomorrow.</b> ✓</p>
 <h3>ಆ ಕ್ಷಣದಲ್ಲೇ ನಿರ್ಧರಿಸಿದಾಗ</h3>
 {{ex:I'll have the pasta.|ಐಲ್ ಹ್ಯಾವ಼್ ದ಼ ˈಪಾಸ್ಟ|ನನಗೆ ಪಾಸ್ತಾ ಕೊಡಿ}}{{ex:I'll get it.|ಐಲ್ ಗೆಟ್ ಇಟ್|ನಾನು ನೋಡುತ್ತೇನೆ (ಫೋನ್ ಅಥವಾ ಬಾಗಿಲು)}}
 <h3>ಮಾತು ಕೊಡುವಾಗ, ಸಹಾಯಕ್ಕೆ ಮುಂದಾದಾಗ</h3>
@@ -36,7 +36,7 @@ practice:[
 {{ex:It'll be fine.|ಇಟಲ್ ಬಿ ಫ಼ೈನ್|ಎಲ್ಲಾ ಸರಿಹೋಗುತ್ತದೆ}}{{ex:I think it will rain.|ಐ ಥ಼ಿಂಕ್ ಇಟ್ ವಲ್ ರೇನ್|ಮಳೆ ಬರುತ್ತದೆ ಎಂದು ನನಗೆ ಅನಿಸುತ್ತದೆ}}
 <h3>will ಮತ್ತು be going to</h3>
 <div class="tbl"><table><tr><th></th><th>ಯಾವಾಗ</th><th>ಉದಾಹರಣೆ</th></tr><tr><td class="k">will</td><td>ಈಗ ಮಾಡಿದ ನಿರ್ಧಾರ, ಕೊಟ್ಟ ಮಾತು</td><td>I'll get the door.</td></tr><tr><td class="k">be going to</td><td>ಮೊದಲೇ ಮಾಡಿದ ಯೋಜನೆ</td><td>I'm going to visit Coorg next month.</td></tr></table></div>
-<div class="tip">ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>I will to go.</b> / <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ will ನಂತರ V1 ಮಾತ್ರ. ಹೊರಡುವಾಗ ಹೇಳುವ "ಹೋಗಿ ಬರುತ್ತೇನೆ" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ <b>I will go and come.</b> ✗ ಅಲ್ಲ; <b>See you later.</b> ಅಥವಾ <b>I'll be back.</b> ✓</div>`,
+<div class="tip">ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>I will to go.</b> / <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ will ನಂತರ V1 ಮಾತ್ರ. ಹೊರಡುವಾಗ ಹೇಳುವ "ಹೋಗಿ ಬರುತ್ತೇನೆ" ಎಂಬುದನ್ನು ಪದಕ್ಕೆ ಪದ ಅನುವಾದಿಸಬೇಡಿ: <b>I will go and come.</b> ✗ → <b>See you later.</b> / <b>I'll be back.</b> ✓</div>`,
 check:[["ಫೋನ್ ರಿಂಗ್ ಆಗುತ್ತಿದೆ. \"ನಾನು ನೋಡುತ್ತೇನೆ\" ಎಂದು ಆ ಕ್ಷಣದಲ್ಲೇ ಹೇಳುವುದು ಹೇಗೆ?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"ಆ ಕ್ಷಣದಲ್ಲೇ ಮಾಡಿದ ನಿರ್ಧಾರಕ್ಕೆ will."],["I ___ be late. (ನಾನು ತಡ ಮಾಡುವುದಿಲ್ಲ)",["won't","willn't","don't will","not will"],0,"will ಇದರ ನಿಷೇಧ ರೂಪ won't."],["ಮೊದಲೇ ಮಾಡಿದ ಯೋಜನೆಯನ್ನು ಹೇಳುವ ವಾಕ್ಯ ಯಾವುದು?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"ಮೊದಲೇ ಮಾಡಿದ ಯೋಜನೆಗೆ be going to."]],
 practice:[
 ["mc","\"ನಾನು ನಿನಗೆ ಸಹಾಯ ಮಾಡುತ್ತೇನೆ\" (ಮಾತು ಕೊಡುವಾಗ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","will ನಂತರ V1."],
@@ -63,7 +63,7 @@ practice:[
 <div class="tbl"><table><tr><th>V1</th><th>V2</th><th>V3</th></tr><tr><td class="k">be</td><td class="k">was</td><td class="k">been</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">eaten</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">seen</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">done</td></tr><tr><td class="k">try</td><td class="k">tried</td><td class="k">tried</td></tr></table></div>
 <h3>ಯಾವಾಗ ಎಂದು ಹೇಳಿದರೆ Simple Past</h3>
 <p>ಕನ್ನಡದ "ನೋಡಿದ್ದೇನೆ" ನೋಡಲು have seen ಥರ ಇದೆ, ಆದರೆ ಕನ್ನಡದಲ್ಲಿ ಅದರ ಜೊತೆ "ಕಳೆದ ವರ್ಷ", "ನಿನ್ನೆ" ಕೂಡ ಬರುತ್ತವೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ last year, yesterday, in 2020 ಥರದ ಮುಗಿದ ಸಮಯ ಇದ್ದರೆ Present Perfect ಬರುವುದಿಲ್ಲ; Simple Past ಬೇಕು.</p>
-{{ex:I went to Japan last year.|ಐ ವೆನ್ಟ್ ಟ ಜˈಪ್ಯಾನ್ ಲ್ಯಾಸ್ಟ್ ಯಿರ್|ನಾನು ಕಳೆದ ವರ್ಷ ಜಪಾನ್‌ಗೆ ಹೋಗಿದ್ದೆ}}{{ex:I visited Hampi last year.|ಐ ˈವ಼ಿಜ಼ಿಟಿಡ್ ˈಹ್ಯಾಮ್ಪಿ ಲ್ಯಾಸ್ಟ್ ಯಿರ್|ಕಳೆದ ವರ್ಷ ನಾನು ಹಂಪಿ ನೋಡಿದ್ದೇನೆ}}
+{{ex:I went to Japan last year.|ಐ ವೆನ್ಟ್ ಟ ಜˈಪ್ಯಾನ್ ಲ್ಯಾಸ್ಟ್ ಯಿರ್|ನಾನು ಕಳೆದ ವರ್ಷ ಜಪಾನ್‌ಗೆ ಹೋಗಿದ್ದೆ}}{{ex:I visited Hampi last year.|ಐ ˈವ಼ಿಜ಼ಿಟಿಡ್ ˈಹ್ಯಾಮ್ಪಿ ಲ್ಯಾಸ್ಟ್ ಯಿರ್|ಕಳೆದ ವರ್ಷ ನಾನು ಹಂಪಿಗೆ ಹೋಗಿದ್ದೆ}}
 <div class="tip">ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓</div>`,
 check:[["\"ನೀವು ಎಂದಾದರೂ ಜಪಾನ್‌ಗೆ ಹೋಗಿದ್ದೀರಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"ಅನುಭವ ಕೇಳಲು Have you ever + V3."],["I ___ never seen that movie. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["am","did","have","was"],2,"have ಮತ್ತು V3 ನಡುವೆ never: have + never + V3."],["ಸರಿಯಾದ ವಾಕ್ಯ ಯಾವುದು?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"last year ಥರದ ಮುಗಿದ ಸಮಯ ಇದ್ದರೆ Simple Past."]],
 practice:[
@@ -75,12 +75,12 @@ practice:[
 ["or","ನಾನು ಆ ಸಿನಿಮಾ ನೋಡಿದ್ದೇನೆ","I've seen the movie","a saw","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."],
 ["or","ನಾನು ಎರಡು ಸಲ ಕೊರಿಯಾಕ್ಕೆ ಹೋಗಿ ಬಂದಿದ್ದೇನೆ","I've been to Korea twice","went","have ನಂತರ V3: been."],
 ["or","ನಾನು ಎಂದೂ ಹಾವು ನೋಡಿಲ್ಲ","I've never seen a snake","the snakes","ಯಾವುದೋ ಒಂದು ಹಾವು: ಆರ್ಟಿಕಲ್ a."],
-["fi","Have you ever __ to Busan?","ನೀವು ಎಂದಾದರೂ ಬುಸಾನ್‌ಗೆ ಹೋಗಿದ್ದೀರಾ?","been","be|went|go","have ನಂತರ V3: been."],
+["fi","Have you ever __ to Busan?","ನೀವು ಎಂದಾದರೂ ಬೂಸಾನ್‌ಗೆ ಹೋಗಿದ್ದೀರಾ?","been","be|went|go","have ನಂತರ V3: been."],
 ["fi","I've __ eaten that.","ನಾನು ಅದನ್ನು ಎಂದೂ ತಿಂದಿಲ್ಲ","never","ever|no|not never","\"ಎಂದೂ ಇಲ್ಲ\" ಎನ್ನಲು never."],
 ["fi","She __ visited Korea twice.","ಅವರು ಎರಡು ಸಲ ಕೊರಿಯಾಕ್ಕೆ ಬಂದಿದ್ದಾರೆ","has","have|is|did","she ಜೊತೆ has."],
 ["ty","ನೀವು ಎಂದಾದರೂ ಜಪಾನ್‌ಗೆ ಹೋಗಿದ್ದೀರಾ?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","ಅನುಭವ ಕೇಳಲು Have you ever been to …?"],
 ["ty","ನಾನು ಆ ಪುಸ್ತಕ ಓದಿದ್ದೇನೆ","I've read the book|I've read that book","I've · read · book — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಪುಸ್ತಕ: ಆರ್ಟಿಕಲ್ the."],
-["ty","ನಾನು ಎಂದೂ ಬೆಕ್ಕು ಸಾಕಿಲ್ಲ","I've never had a cat","never · had · cat — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಬೆಕ್ಕು: ಆರ್ಟಿಕಲ್ a."]]},
+["ty","ನಾನು ಎಂದೂ ಬೆಕ್ಕು ಸಾಕಿಲ್ಲ","I've never had a cat","I've · never · had · cat — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಬೆಕ್ಕು: ಆರ್ಟಿಕಲ್ a."]]},
 { id:"modals", title:"have to, must, should, might: ಕಡ್ಡಾಯ ಮತ್ತು ಸಲಹೆ", blurb:"ಮಾಡಲೇಬೇಕು, ಮಾಡಿದರೆ ಒಳ್ಳೆಯದು, ಆಗಬಹುದು.", deck:"ಆಸ್ಪತ್ರೆ ಮತ್ತು ತುರ್ತು ಪರಿಸ್ಥಿತಿ", body:`
 <p>ಕನ್ನಡದ <b>ಬೇಕು</b> ಎಂಬ ಒಂದೇ ಪದದಲ್ಲಿ want, need, must, should ಎಲ್ಲವೂ ಸೇರಿವೆ; <b>ಬಹುದು</b> ಎಂದರೆ can, may, might. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಅರ್ಥ ನೋಡಿ ಪದ ಆರಿಸಬೇಕು. ಈ ಪದಗಳ ನಂತರ ಯಾವಾಗಲೂ <b>V1</b> ಬರುತ್ತದೆ.</p>
 <h3>have to: ಮಾಡಲೇಬೇಕು</h3>
@@ -95,7 +95,7 @@ practice:[
 <div class="tip">ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>You should to go.</b> / <b>You must to go.</b> / <b>It might rains.</b> ✗ → <b>You should go.</b> / <b>You must go.</b> / <b>It might rain.</b> ✓ ಮುಂದೆ ನಡೆಯುವ ಸಾಮಾನ್ಯ ವಿಷಯಕ್ಕೆ ಭಾರತದಲ್ಲಿ would ಕೇಳಿಬರುತ್ತದೆ (<b>I would send it tomorrow.</b>); ವಿದೇಶದಲ್ಲಿ ಇಲ್ಲಿ <b>will</b> ನಿರೀಕ್ಷಿಸುತ್ತಾರೆ: <b>I'll send it tomorrow.</b></div>`,
 check:[["\"ನೀವು ಬರಬೇಕಾಗಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["You must not come.","You don't have to come.","You shouldn't to come.","You haven't to come."],1,"\"ಅಗತ್ಯ ಇಲ್ಲ\" ಎನ್ನಲು don't have to."],["ಸಲಹೆ ಕೊಡುವಾಗ: You ___ see a doctor. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["might","have","should","must to"],2,"ಸಲಹೆಗೆ should + V1."],["She ___ to work today. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["have","must","should","has"],3,"she ಜೊತೆ has to."]],
 practice:[
-["mc","\"ನಾಳೆ ನಾನು ಕೆಲಸ ಮಾಡಬೇಕು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow.","have to + V1; must ನಂತರ to ಬರುವುದಿಲ್ಲ."],
+["mc","\"ನಾಳೆ ನಾನು ಕೆಲಸ ಮಾಡಬೇಕು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow.","\"ಮಾಡಬೇಕು\" ಎನ್ನಲು have to + V1 (I have work ಎಂದರೆ \"ನನಗೆ ಕೆಲಸ ಇದೆ\"); must ನಂತರ to ಬರುವುದಿಲ್ಲ."],
 ["mc","\"ನೀವು ಬರಬೇಕಾಗಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","You don't have to come.","You must not come.","You don't must come.","You haven't come to.","\"ಅಗತ್ಯ ಇಲ್ಲ\" ಎನ್ನಲು don't have to; must not ಎಂದರೆ ನಿಷೇಧ."],
 ["mc","\"ನೀವು ಡಾಕ್ಟರ್‌ಗೆ ತೋರಿಸುವುದು ಒಳ್ಳೆಯದು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","You should see a doctor.","You should to see a doctor.","You should seeing a doctor.","You might a doctor see.","should + V1; ಯಾರೋ ಒಬ್ಬ ಡಾಕ್ಟರ್ ಆದ್ದರಿಂದ ಆರ್ಟಿಕಲ್ a."],
 ["mc","\"ಮಳೆ ಬರಬಹುದು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","It might rain.","It might rains.","It might to rain.","It mights rain.","might + V1: -s ಇಲ್ಲ, to ಇಲ್ಲ."],
@@ -105,10 +105,10 @@ practice:[
 ["or","ನೀವು ಟಿಕೆಟ್ ಕೊಳ್ಳಬೇಕು","You have to buy a ticket","the tickets","ಒಂದು ಟಿಕೆಟ್: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ ticket."],
 ["fi","She __ to study tonight.","ಅವಳು ಇಂದು ರಾತ್ರಿ ಓದಬೇಕು","has","have|must|should","she ಜೊತೆ has to."],
 ["fi","You __ have to pay.","ನೀವು ಹಣ ಕೊಡಬೇಕಾಗಿಲ್ಲ","don't|do not","must not|not|aren't","\"ಅಗತ್ಯ ಇಲ್ಲ\" ಎನ್ನಲು don't have to."],
-["fi","It __ rain tomorrow.","ನಾಳೆ ಮಳೆ ಬರಬಹುದು","might|may|could","must to|has to|should to","ಸಾಧ್ಯತೆ ಹೇಳಲು might."],
-["ty","ನಾನು ಕೆಲಸ ಮಾಡಬೇಕು","I have to work|I must work|I need to work","have to · work","should","ಕಡ್ಡಾಯ ಹೇಳಲು have to."],
+["fi","It __ rain tomorrow.","ನಾಳೆ ಮಳೆ ಬರಬಹುದು","might|may|could","must to|has to|should to","ಸಾಧ್ಯತೆ ಹೇಳಲು might (may, could ಕೂಡ ಸರಿ)."],
+["ty","ನಾನು ಕೆಲಸ ಮಾಡಲೇಬೇಕು (ಕಡ್ಡಾಯ)","I have to work|I must work|I need to work","have to · work","should","ಕಡ್ಡಾಯ ಹೇಳಲು have to."],
 ["ty","ನೀವು ಡಾಕ್ಟರ್‌ಗೆ ತೋರಿಸುವುದು ಒಳ್ಳೆಯದು","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — ಆರ್ಟಿಕಲ್ a","the","ಯಾರೋ ಒಬ್ಬ ಡಾಕ್ಟರ್: ಆರ್ಟಿಕಲ್ a."],
-["ty","ನೀವು ಟಿಕೆಟ್ ಕೊಳ್ಳಬೇಕು","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — ಆರ್ಟಿಕಲ್ a","the","ಒಂದು ಟಿಕೆಟ್: ಆರ್ಟಿಕಲ್ a."]]},
+["ty","ನೀವು ಟಿಕೆಟ್ ಕೊಳ್ಳಲೇಬೇಕು (have to ಬಳಸಿ)","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — ಆರ್ಟಿಕಲ್ a","the","ಒಂದು ಟಿಕೆಟ್: ಆರ್ಟಿಕಲ್ a."]]},
 { id:"to-ing", title:"ಕ್ರಿಯಾಪದದ ನಂತರ to ಅಥವಾ -ing: want to, enjoy -ing", blurb:"want ನಂತರ to, enjoy ನಂತರ -ing. ಯಾವುದು ಬರಬೇಕು ಎನ್ನುವುದನ್ನು ಮೊದಲ ಕ್ರಿಯಾಪದ ನಿರ್ಧರಿಸುತ್ತದೆ.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
 <p>ಕನ್ನಡದಲ್ಲಿ "ಹೋಗಲು ಬಯಸುತ್ತೇನೆ", "ಹೋಗುವುದು ಇಷ್ಟ" ಎಂದು -ಅಲು ಮತ್ತು -ಉವುದು ರೂಪಗಳನ್ನು ಯೋಚಿಸದೆ ಬಳಸುತ್ತೇವೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಎರಡು ಕ್ರಿಯಾಪದ ಒಟ್ಟಿಗೆ ಬಂದಾಗ ಎರಡನೆಯದು <b>to + V1</b> ಆಗಬೇಕೋ <b>-ing ರೂಪ</b> ಆಗಬೇಕೋ ಎನ್ನುವುದನ್ನು ಮೊದಲ ಕ್ರಿಯಾಪದ ನಿರ್ಧರಿಸುತ್ತದೆ. ಹೆಚ್ಚು ಬಳಕೆಯ ಪದಗಳನ್ನು ಗುಂಪಾಗಿ ನೆನಪಿಟ್ಟುಕೊಳ್ಳಿ.</p>
 <div class="tbl"><table><tr><th>ನಂತರ to</th><th>ನಂತರ -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
@@ -149,7 +149,7 @@ practice:[
 <p>ಅಮೆರಿಕನ್ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ: <b>at school</b>, <b>at work</b> (ಆರ್ಟಿಕಲ್ ಇಲ್ಲ), ಆದರೆ <b>in the hospital</b>.</p>
 <h3>ಸಾಮಾನ್ಯವಾಗಿ ಎಲ್ಲ ಮತ್ತು ನಿರ್ದಿಷ್ಟವಾದವು</h3>
 {{ex:I like dogs.|ಐ ಲೈಕ್ ಡಾಗ್ಜ಼್|ನನಗೆ ನಾಯಿಗಳು ಇಷ್ಟ (ಎಲ್ಲ ನಾಯಿಗಳು)}}{{ex:The dogs in this park are cute.|ದ಼ ಡಾಗ್ಜ಼್ ಇನ್ ದ಼ಿಸ್ ಪಾರ್ಕ್ ಅರ್ ಕ್ಯೂಟ್|ಈ ಪಾರ್ಕ್‌ನಲ್ಲಿರುವ ನಾಯಿಗಳು ಮುದ್ದಾಗಿವೆ (ಆ ನಾಯಿಗಳು)}}
-<div class="tip">"ಸಾಮಾನ್ಯವಾಗಿ ಎಲ್ಲ" ಎನ್ನುವಾಗ the ಇಲ್ಲದೆ ಬಹುವಚನ: <b>I like the dogs.</b> ಎಂದರೆ "ಆ ನಾಯಿಗಳು ನನಗೆ ಇಷ್ಟ" ಎಂದಾಗುತ್ತದೆ. ಕನ್ನಡದ "ಒಂದು" ಎಲ್ಲ ಕಡೆ one ಅಲ್ಲ: ಸಂಖ್ಯೆಗೆ ಒತ್ತು ಇಲ್ಲದಿದ್ದರೆ a ಬಳಸಿ (<b>I have one doubt.</b> → <b>I have a question.</b>).</div>`,
+<div class="tip">"ಸಾಮಾನ್ಯವಾಗಿ ಎಲ್ಲ" ಎನ್ನುವಾಗ the ಇಲ್ಲದೆ ಬಹುವಚನ: <b>I like the dogs.</b> ಎಂದರೆ "ಆ ನಾಯಿಗಳು ನನಗೆ ಇಷ್ಟ" ಎಂದಾಗುತ್ತದೆ. ಕನ್ನಡದ "ಒಂದು" ಎಲ್ಲ ಕಡೆ one ಅಲ್ಲ: ಸಂಖ್ಯೆಗೆ ಒತ್ತು ಇಲ್ಲದಿದ್ದರೆ a ಬಳಸಿ (<b>He is one doctor.</b> → <b>He is a doctor.</b>).</div>`,
 check:[["I play ___ soccer. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["a","the","an","(ಏನೂ ಬೇಡ)"],3,"ಆಟದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬರುವುದಿಲ್ಲ."],["She's from ___ United States. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["the","a","an","(ಏನೂ ಬೇಡ)"],0,"United States ಮೊದಲು the ಬೇಕು."],["\"ನಾಯಿಗಳು ಮುದ್ದಾಗಿರುತ್ತವೆ\" (ಸಾಮಾನ್ಯವಾಗಿ ಎಲ್ಲ ನಾಯಿಗಳು) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವಾಗ ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ ಬಹುವಚನ."]],
 practice:[
 ["mc","I play ___ piano.","the","a","an","some","ವಾದ್ಯದ ಹೆಸರಿನ ಮೊದಲು the."],
@@ -216,10 +216,10 @@ practice:[
 ["or","ಇದು ನಾನು ಕೊಂಡ ಪುಸ್ತಕ","This is the book I bought","a what","ನಾನು ಕೊಂಡ ಅದೇ ಪುಸ್ತಕ: ಆರ್ಟಿಕಲ್ the."],
 ["or","ಅಡುಗೆ ಮಾಡುವ ಒಬ್ಬ ಸ್ನೇಹಿತ ನನಗಿದ್ದಾನೆ","I have a friend who cooks","the which","ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿರುವ ಒಬ್ಬ ಸ್ನೇಹಿತ: ಆರ್ಟಿಕಲ್ a."],
 ["or","ನಾವು ನೋಡಿದ ಸಿನಿಮಾ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು","The movie we saw was great","A movies","ನಾವು ನೋಡಿದ ಅದೇ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."],
-["fi","the man __ lives here","ಇಲ್ಲಿ ವಾಸವಾಗಿರುವ ವ್ಯಕ್ತಿ","who|that","what|he|which","ವ್ಯಕ್ತಿಯನ್ನು ವಿವರಿಸಲು who."],
-["fi","the book __ I read","ನಾನು ಓದಿದ ಪುಸ್ತಕ","that|which","who|what|it","ವಸ್ತುವನ್ನು ವಿವರಿಸಲು that."],
+["fi","the man __ lives here","ಇಲ್ಲಿ ವಾಸವಾಗಿರುವ ವ್ಯಕ್ತಿ","who|that","what|he|which","ವ್ಯಕ್ತಿಯನ್ನು ವಿವರಿಸಲು who (that ಕೂಡ ಸರಿ)."],
+["fi","the book __ I read","ನಾನು ಓದಿದ ಪುಸ್ತಕ","that|which","who|what|it","ವಸ್ತುವನ್ನು ವಿವರಿಸಲು that (which ಕೂಡ ಸರಿ)."],
 ["fi","the cafe __ we met","ನಾವು ಭೇಟಿಯಾದ ಕೆಫೆ","where","who|what|it","ಜಾಗವನ್ನು ವಿವರಿಸಲು where."],
 ["ty","ಇದು ನಾನು ಕೊಂಡ ಪುಸ್ತಕ","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — ಆರ್ಟಿಕಲ್ the","a","ನಾನು ಕೊಂಡ ಅದೇ ಪುಸ್ತಕ: ಆರ್ಟಿಕಲ್ the."],
 ["ty","ಕೊರಿಯನ್ ಮಾತನಾಡುವ ಒಬ್ಬ ಸ್ನೇಹಿತ ನನಗಿದ್ದಾನೆ","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — ಆರ್ಟಿಕಲ್ a","the","ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿರುವ ಒಬ್ಬ ಸ್ನೇಹಿತ: ಆರ್ಟಿಕಲ್ a."],
-["ty","ನಾವು ನೋಡಿದ ಸಿನಿಮಾ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","ಮೊದಲು ನಾಮಪದ, ನಂತರ ವಿವರಣೆ."]]},
+["ty","ನಾವು ನೋಡಿದ ಸಿನಿಮಾ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು (great ಬಳಸಿ)","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","ಮೊದಲು ನಾಮಪದ, ನಂತರ ವಿವರಣೆ."]]},
 ];

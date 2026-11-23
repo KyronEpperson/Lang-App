@@ -9,7 +9,7 @@ module.exports = [
 <h3>How long …?</h3>
 {{ex:How long have you been here?|ಹೌ ಲಾಙ್ ಹವ಼್ ಯು ಬಿನ್ ಹಿರ್|ನೀವು ಎಷ್ಟು ಸಮಯದಿಂದ ಇಲ್ಲಿದ್ದೀರಿ?}}{{ex:How long have you studied English?|ಹೌ ಲಾಙ್ ಹವ಼್ ಯು ˈಸ್ಟಡಿಡ್ ˈಇಂಗ್ಲಿಶ್|ನೀವು ಎಷ್ಟು ಸಮಯದಿಂದ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಿದ್ದೀರಿ?}}
 <h3>just, already, yet</h3>
-{{ex:I've just finished.|ಐವ಼್ ಜಸ್ಟ್ ˈಫ಼ಿನಿಶ್ಟ್|ನಾನು ಈಗ ತಾನೇ ಮುಗಿಸಿದೆ}}{{ex:I've already seen it.|ಐವ಼್ ಆಲ್ˈರೆಡಿ ಸೀನ್ ಇಟ್|ನಾನು ಅದನ್ನು ಆಗಲೇ ನೋಡಿದ್ದೇನೆ}}{{ex:Have you eaten yet?|ಹವ಼್ ಯು ˈಈಟನ್ ಯೆಟ್|ನಿನ್ನ ಊಟ ಆಯಿತಾ?}}
+{{ex:I've just finished.|ಐವ಼್ ಜಸ್ಟ್ ˈಫ಼ಿನಿಶ್ಟ್|ನಾನು ಈಗ ತಾನೇ ಮುಗಿಸಿದೆ}}{{ex:I've already seen it.|ಐವ಼್ ಆಲ್ˈರೆಡಿ ಸೀನ್ ಇಟ್|ನಾನು ಅದನ್ನು ಆಗಲೇ ನೋಡಿದ್ದೇನೆ}}{{ex:Have you eaten yet?|ಹವ಼್ ಯು ˈಈಟನ್ ಯೆಟ್|ನಿನ್ನ ಊಟ ಆಯಿತೇ?}}
 <div class="tip">ಸಾಮಾನ್ಯ ತಪ್ಪು: ಕನ್ನಡದ ಹಾಗೆ ಈಗಿನ ರೂಪ ಬಳಸುವುದು. <b>I live here for five years.</b> / <b>I am living here from five years.</b> ✗ → <b>I've lived here for five years.</b> ✓ ಮುಂದಿನ ಪಾಠದಲ್ಲಿ ಇದರ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ಇದೆ.</div>`,
 check:[["I've lived here ___ three years. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["since","for","during","from"],1,"ಅವಧಿಯ ಮೊದಲು for."],["I've worked here ___ 2020. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["for","in","since","at"],2,"ಶುರುವಾದ ಸಮಯದ ಮೊದಲು since."],["\"ನೀವು ಎಷ್ಟು ಸಮಯದಿಂದ ಇಲ್ಲಿದ್ದೀರಿ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"ಅವಧಿ ಕೇಳಲು How long have you + V3."]],
 practice:[
@@ -17,13 +17,13 @@ practice:[
 ["mc","She's lived here ___ 2019.","since","for","in","at","ಶುರುವಾದ ಸಮಯದ ಮೊದಲು since."],
 ["mc","\"ನೀವು ಎಷ್ಟು ಸಮಯದಿಂದ ಇಲ್ಲಿದ್ದೀರಿ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?","ಅವಧಿ ಕೇಳಲು How long have you + V3."],
 ["mc","\"ನಾನು ಈಗ ತಾನೇ ಮುಗಿಸಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I've just finished.","I just have finish.","I've just finish.","I'm just finished have.","have ಮತ್ತು V3 ನಡುವೆ just: have + just + V3."],
-["mc","\"ನಿನ್ನ ಊಟ ಆಯಿತಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","ಪ್ರಶ್ನೆಯಲ್ಲಿ \"ಆಯಿತಾ?\" ಎನ್ನುವ ಅರ್ಥಕ್ಕೆ ಕೊನೆಗೆ yet; ಜೊತೆಗೆ have + V3."],
+["mc","\"ನಿನ್ನ ಊಟ ಆಯಿತೇ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","ಪ್ರಶ್ನೆಯಲ್ಲಿ \"ಆಯಿತೇ?\" ಎನ್ನುವ ಅರ್ಥಕ್ಕೆ ಕೊನೆಗೆ yet; ಜೊತೆಗೆ have + V3."],
 ["or","ನಾನು ಐದು ವರ್ಷದಿಂದ ಇಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇನೆ","I've lived here for five years","year since","ಐದು ವರ್ಷ: ಬಹುವಚನ years; ಅವಧಿಯ ಮೊದಲು for."],
 ["or","ನಾನು ಆ ಸಿನಿಮಾ ಆಗಲೇ ನೋಡಿದ್ದೇನೆ","I've already seen the movie","a saw","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."],
 ["or","ನೀವು ಎಷ್ಟು ಹೊತ್ತಿನಿಂದ ಕಾಯುತ್ತಿದ್ದೀರಿ?","How long have you waited","did","ಅವಧಿ ಕೇಳಲು How long have you + V3."],
 ["fi","I've worked here __ two years.","ನಾನು ಎರಡು ವರ್ಷದಿಂದ ಇಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ","for","since|from|during","\"ಎರಡು ವರ್ಷದಿಂದ\" ಅವಧಿ: for."],
 ["fi","I've been here __ Monday.","ನಾನು ಸೋಮವಾರದಿಂದ ಇಲ್ಲಿದ್ದೇನೆ","since","for|at|during","\"ಸೋಮವಾರದಿಂದ\" ಶುರುವಾದ ಸಮಯ: since."],
-["fi","Have you finished __?","ನಿನ್ನ ಕೆಲಸ ಮುಗಿಯಿತಾ?","yet|already","ever|never|since","ಪ್ರಶ್ನೆಯ ಕೊನೆಗೆ yet."],
+["fi","Have you finished __?","ನಿನ್ನ ಕೆಲಸ ಮುಗಿಯಿತೇ?","yet|already","ever|never|since","ಪ್ರಶ್ನೆಯ ಕೊನೆಗೆ yet."],
 ["ty","ನಾನು ಮೂರು ವರ್ಷದಿಂದ ಇಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇನೆ","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — ಬಹುವಚನ","year","ಮೂರು ವರ್ಷ: ಬಹುವಚನ years. ಕನ್ನಡದಲ್ಲಿ \"ಮೂರು ವರ್ಷ\" ಎನ್ನಬಹುದು, ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ -s ಬೇಕೇ ಬೇಕು."],
 ["ty","ನೀವು ಎಷ್ಟು ಸಮಯದಿಂದ ಇಲ್ಲಿದ್ದೀರಿ?","How long have you been here","how long · have you · been here","are","ಅವಧಿ ಕೇಳಲು How long have you + V3."],
 ["ty","ನಾನು ಆ ಪುಸ್ತಕ ಆಗಲೇ ಓದಿದ್ದೇನೆ","I've already read the book|I've read the book already|I already read the book","already · read · book — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಪುಸ್ತಕ: ಆರ್ಟಿಕಲ್ the."]]},
@@ -40,7 +40,7 @@ practice:[
 <p><b>from two years</b> ✗ / <b>since two years</b> ✗ → <b>for two years</b> ✓</p>
 <h3>3. -ಇಂದ + "ಇದ್ದೇನೆ / ಮಾಡುತ್ತಿದ್ದೇನೆ" = Present Perfect (Continuous)</h3>
 <p>ಹಿಂದೆ ಶುರುವಾಗಿ ಈಗಲೂ ಮುಂದುವರಿದಿರುವ ವಿಷಯಕ್ಕೆ Present Continuous ಬರುವುದಿಲ್ಲ. ಸ್ಥಿತಿ ಆದರೆ <b>Present Perfect</b> (have / has + V3), ನಡೆಯುತ್ತಿರುವ ಕೆಲಸ ಆದರೆ <b>Present Perfect Continuous</b> (have / has been + -ing).</p>
-{{ex:I've known him for ten years.|ಐವ಼್ ನೋನ್ ಹಿಮ್ ಫ಼ರ್ ಟೆನ್ ಯಿರ್ಜ಼್|ನನಗೆ ಅವನು ಹತ್ತು ವರ್ಷದಿಂದ ಗೊತ್ತು}}{{ex:I've lived here since 2015.|ಐವ಼್ ಲಿವ಼್ಡ್ ಹಿರ್ ಸಿನ್ಸ್ ಟೂ ˈಥ಼ೌಜ಼ನ್ಡ್ ಫ಼ಿಫ಼್ˈಟೀನ್|ನಾನು 2015 ರಿಂದ ಇಲ್ಲಿ ಇದ್ದೇನೆ}}{{ex:I've been waiting for an hour.|ಐವ಼್ ಬಿನ್ ˈವೇಟಿಙ್ ಫ಼ರ್ ಅನ್ ˈಔಅರ್|ನಾನು ಒಂದು ಗಂಟೆಯಿಂದ ಕಾಯುತ್ತಿದ್ದೇನೆ}}{{ex:It's been raining for two days.|ಇಟ್ಸ್ ಬಿನ್ ˈರೇನಿಙ್ ಫ಼ರ್ ಟೂ ಡೇಜ಼್|ಎರಡು ದಿನದಿಂದ ಮಳೆ ಬರುತ್ತಿದೆ}}
+{{ex:I've known him for ten years.|ಐವ಼್ ನೋನ್ ಹಿಮ್ ಫ಼ರ್ ಟೆನ್ ಯಿರ್ಜ಼್|ನನಗೆ ಅವನು ಹತ್ತು ವರ್ಷದಿಂದ ಗೊತ್ತು}}{{ex:I've lived here since 2015.|ಐವ಼್ ಲಿವ಼್ಡ್ ಹಿರ್ ಸಿನ್ಸ್ ˈಟ್ವೆನ್ಟಿ ಫ಼ಿಫ಼್ˈಟೀನ್|ನಾನು 2015 ರಿಂದ ಇಲ್ಲಿ ಇದ್ದೇನೆ}}{{ex:I've been waiting for an hour.|ಐವ಼್ ಬಿನ್ ˈವೇಟಿಙ್ ಫ಼ರ್ ಅನ್ ˈಔಅರ್|ನಾನು ಒಂದು ಗಂಟೆಯಿಂದ ಕಾಯುತ್ತಿದ್ದೇನೆ}}{{ex:It's been raining for two days.|ಇಟ್ಸ್ ಬಿನ್ ˈರೇನಿಙ್ ಫ಼ರ್ ಟೂ ಡೇಜ಼್|ಎರಡು ದಿನದಿಂದ ಮಳೆ ಬರುತ್ತಿದೆ}}
 <p>live ಮತ್ತು work ಜೊತೆ ಎರಡೂ ರೂಪ ಸರಿ: <b>I've lived here since 2015.</b> = <b>I've been living here since 2015.</b> ಆದರೆ know, have ಥರದ ಸ್ಥಿತಿ ತಿಳಿಸುವ ಕ್ರಿಯಾಪದಗಳ ಜೊತೆ been + -ing ಇಲ್ಲ: <b>I've been knowing him.</b> ✗</p>
 <h3>4. "ಎಷ್ಟು ಸಮಯದಿಂದ?" = How long …?</h3>
 {{ex:How long have you been waiting?|ಹೌ ಲಾಙ್ ಹವ಼್ ಯು ಬಿನ್ ˈವೇಟಿಙ್|ನೀವು ಎಷ್ಟು ಹೊತ್ತಿನಿಂದ ಕಾಯುತ್ತಿದ್ದೀರಿ?}}{{ex:How long have you known her?|ಹೌ ಲಾಙ್ ಹವ಼್ ಯು ನೋನ್ ಹರ್|ನಿಮಗೆ ಅವರು ಎಷ್ಟು ಸಮಯದಿಂದ ಗೊತ್ತು?}}
@@ -56,7 +56,7 @@ practice:[
 ["or","ನನಗೆ ಅವಳು ಐದು ವರ್ಷದಿಂದ ಗೊತ್ತು","I've known her for five years","year since","ಐದು ವರ್ಷ: ಬಹುವಚನ years; ಅವಧಿಯ ಮೊದಲು for; know ಜೊತೆ -ing ಇಲ್ಲ."],
 ["or","ನಮ್ಮ ಹತ್ತಿರ 2020 ರಿಂದ ಒಂದು ಕಾರು ಇದೆ","We've had a car since 2020","the for","ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿರುವ ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a; ಶುರುವಾದ ವರ್ಷ, ಹಾಗಾಗಿ since."],
 ["or","ಅವರು ಎರಡು ಗಂಟೆಯಿಂದ ಕಾಯುತ್ತಿದ್ದಾರೆ","They've been waiting for two hours","hour","ಎರಡು ಗಂಟೆ: ಬಹುವಚನ hours; ನಡೆಯುತ್ತಿರುವ ಕೆಲಸ + ಅವಧಿ = have been + -ing."],
-["or","ನನಗೆ ಒಂದು ಪ್ರಶ್ನೆ ಇದೆ","I have a question","the doubt","ಒಂದು ಪ್ರಶ್ನೆ: ಆರ್ಟಿಕಲ್ a; ಇಲ್ಲಿ have ಎಂದರೆ \"ಇದೆ\", ಹಾಗಾಗಿ -ing ಇಲ್ಲ. doubt ಎಂದರೆ ಅನುಮಾನ."],
+["or","ನನಗೆ ಒಂದು ಪ್ರಶ್ನೆ ಇದೆ","I have a question","the doubt","ಒಂದು ಪ್ರಶ್ನೆ: ಆರ್ಟಿಕಲ್ a; ಇಲ್ಲಿ have ಎಂದರೆ \"ಇದೆ\", ಹಾಗಾಗಿ -ing ಇಲ್ಲ. I have a doubt ಭಾರತದಲ್ಲಿ ಸಾಮಾನ್ಯ; ವಿದೇಶದಲ್ಲಿ doubt ಎಂದರೆ ಅನುಮಾನ, ಹಾಗಾಗಿ question."],
 ["fi","She __ my friend since school.","ಅವಳು ಶಾಲೆಯ ದಿನಗಳಿಂದ ನನ್ನ ಗೆಳತಿ","has been","is|was|is being","-ಇಂದ + ಇಂದಿನವರೆಗೆ = Present Perfect: has been; is ಅಲ್ಲ."],
 ["fi","I've worked here __ ten years.","ನಾನು ಹತ್ತು ವರ್ಷದಿಂದ ಇಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ","for","since|from|during","\"ಹತ್ತು ವರ್ಷದಿಂದ\" ಅವಧಿ, ಹಾಗಾಗಿ for."],
 ["fi","We've been __ for an hour.","ನಾವು ಒಂದು ಗಂಟೆಯಿಂದ ಕಾಯುತ್ತಿದ್ದೇವೆ","waiting","wait|waited|waits","have been ನಂತರ -ing ರೂಪ."],
@@ -103,7 +103,7 @@ practice:[
 <h3>ಪಶ್ಚಾತ್ತಾಪ: should have, I wish</h3>
 {{ex:I should have called.|ಐ ಶಡ್ ಅವ಼್ ಕಾಲ್ಡ್|ನಾನು ಫೋನ್ ಮಾಡಬೇಕಿತ್ತು}}{{ex:I wish I had more time.|ಐ ವಿಶ್ ಐ ಹ್ಯಾಡ್ ಮೋರ್ ಟೈಮ್|ನನಗೆ ಇನ್ನೂ ಸ್ವಲ್ಪ ಸಮಯ ಇದ್ದಿದ್ದರೆ ಚೆನ್ನಾಗಿತ್ತು}}
 <div class="tbl"><table><tr><th>ಬಗೆ</th><th>if ಭಾಗ</th><th>ಫಲಿತಾಂಶದ ಭಾಗ</th></tr><tr><td>1 (ನಡೆಯಬಹುದಾದದ್ದು)</td><td class="k">Simple Present</td><td class="k">will</td></tr><tr><td>2 (ಈಗಿನ ನಿಜಕ್ಕೆ ವಿರುದ್ಧ)</td><td class="k">Simple Past</td><td class="k">would</td></tr><tr><td>3 (ಆಗಿಹೋದದ್ದಕ್ಕೆ ವಿರುದ್ಧ)</td><td class="k">had + V3</td><td class="k">would have + V3</td></tr></table></div>
-<div class="tip">If I were you ಒಂದು ಸಿದ್ಧ ರೂಪ: I ಜೊತೆಗೂ was ಅಲ್ಲ, <b>were</b>. if ಭಾಗದಲ್ಲಿ would ಬರುವುದಿಲ್ಲ: <b>If I would have known, …</b> ✗ → <b>If I had known, …</b> ✓</div>`,
+<div class="tip">If I were you ಒಂದು ಸಿದ್ಧ ರೂಪ: I ಜೊತೆಗೂ <b>were</b> (ಮಾತಿನಲ್ಲಿ was ಕೂಡ ಕೇಳಿಬರುತ್ತದೆ; ಬರವಣಿಗೆಯಲ್ಲಿ were ಬಳಸಿ). ಬರವಣಿಗೆಯಲ್ಲಿ if ಭಾಗದಲ್ಲಿ would ಬೇಡ (ಮಾತಿನಲ್ಲಿ ಕೇಳಿಬರುತ್ತದೆ): <b>If I would have known, …</b> → <b>If I had known, …</b></div>`,
 check:[["If I ___ rich, I would travel. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["am","were","will be","would be"],1,"ಈಗಿನ ನಿಜಕ್ಕೆ ವಿರುದ್ಧವಾದ ಕಲ್ಪನೆ: Simple Past ರೂಪ (were)."],["If I had studied, I ___ passed. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["would","will have","would have","had"],2,"ಆಗಿಹೋದದ್ದಕ್ಕೆ ವಿರುದ್ಧ: would have + V3."],["\"ನಾನು ಫೋನ್ ಮಾಡಬೇಕಿತ್ತು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["I should have called.","I should called.","I should had call.","I would call should."],0,"ಪಶ್ಚಾತ್ತಾಪಕ್ಕೆ should have + V3."]],
 practice:[
 ["mc","If I ___ time, I would help.","had","have","will have","would have","ಈಗಿನ ನಿಜಕ್ಕೆ ವಿರುದ್ಧ: if ಭಾಗದಲ್ಲಿ Simple Past ರೂಪ."],
@@ -114,12 +114,12 @@ practice:[
 ["or","ನನಗೆ ಸಮಯ ಇದ್ದಿದ್ದರೆ ಪ್ರವಾಸ ಹೋಗುತ್ತಿದ್ದೆ","If I had time I'd travel","have will","ಈಗಿನ ನಿಜಕ್ಕೆ ವಿರುದ್ಧ: Simple Past ರೂಪ had, ಜೊತೆಗೆ would."],
 ["or","ನಾನಾಗಿದ್ದರೆ ಟ್ಯಾಕ್ಸಿಯಲ್ಲಿ ಹೋಗುತ್ತಿದ್ದೆ","I'd take a taxi","the taxis","ಯಾವುದೋ ಒಂದು ಟ್ಯಾಕ್ಸಿ: ಆರ್ಟಿಕಲ್ a."],
 ["or","ನಾನು ಟಿಕೆಟ್ ಕೊಳ್ಳಬೇಕಿತ್ತು","I should have bought a ticket","the buy","ಒಂದು ಟಿಕೆಟ್: ಆರ್ಟಿಕಲ್ a."],
-["fi","If I __ you, I'd go.","ನಾನು ನಿನ್ನ ಜಾಗದಲ್ಲಿದ್ದಿದ್ದರೆ ಹೋಗುತ್ತಿದ್ದೆ","were|was","am|be|would be","If I were you ಒಂದು ಸಿದ್ಧ ರೂಪ."],
+["fi","If I __ you, I'd go.","ನಾನು ನಿನ್ನ ಜಾಗದಲ್ಲಿದ್ದಿದ್ದರೆ ಹೋಗುತ್ತಿದ್ದೆ","were|was","am|be|would be","If I were you ಒಂದು ಸಿದ್ಧ ರೂಪ (ಮಾತಿನಲ್ಲಿ was ಕೂಡ ಕೇಳಿಬರುತ್ತದೆ)."],
 ["fi","I would __ helped.","ನಾನು ಸಹಾಯ ಮಾಡುತ್ತಿದ್ದೆ (ಆದರೆ ಆಗಲಿಲ್ಲ)","have","had|has|having","would have ನಂತರ V3: would have helped."],
 ["fi","I wish I __ more time.","ನನಗೆ ಇನ್ನೂ ಸ್ವಲ್ಪ ಸಮಯ ಇದ್ದಿದ್ದರೆ ಚೆನ್ನಾಗಿತ್ತು","had","have|would have|will have","I wish ನಂತರ Simple Past ರೂಪ."],
 ["ty","ನಾನು ನಿನ್ನ ಜಾಗದಲ್ಲಿದ್ದಿದ್ದರೆ ಹೋಗುತ್ತಿದ್ದೆ","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd … ಎಂಬ ಸಿದ್ಧ ರೂಪ."],
-["ty","ನನ್ನ ಹತ್ತಿರ ಒಂದು ಕಾರು ಇದ್ದಿದ್ದರೆ ಚೆನ್ನಾಗಿತ್ತು","I wish I had a car","I wish · had · car — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a."],
-["ty","ನಾನು ಟ್ಯಾಕ್ಸಿಯಲ್ಲಿ ಹೋಗಬೇಕಿತ್ತು","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಟ್ಯಾಕ್ಸಿ: ಆರ್ಟಿಕಲ್ a."]]},
+["ty","ನನ್ನ ಹತ್ತಿರ ಒಂದು ಕಾರು ಇದ್ದಿದ್ದರೆ ಚೆನ್ನಾಗಿತ್ತು (I wish ಬಳಸಿ)","I wish I had a car","I wish · had · car — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a."],
+["ty","ನಾನು ಟ್ಯಾಕ್ಸಿ ಹಿಡಿಯಬೇಕಿತ್ತು","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಟ್ಯಾಕ್ಸಿ: ಆರ್ಟಿಕಲ್ a."]]},
 { id:"passive", title:"Passive Voice (ಕರ್ಮಣಿ ಪ್ರಯೋಗ): be + V3", blurb:"ಯಾರು ಮಾಡಿದರು ಎನ್ನುವುದಕ್ಕಿಂತ ಏನಾಯಿತು ಎನ್ನುವುದು ಮುಖ್ಯವಾದಾಗ.", deck:"ಆಫೀಸ್ ಮತ್ತು ಇಮೇಲ್", body:`
 <p>ರೂಪ: <b>be + V3</b>. ಯಾರು ಮಾಡಿದರು ಎಂದು ಗೊತ್ತಿಲ್ಲದಾಗ ಅಥವಾ ಅದು ಮುಖ್ಯವಲ್ಲದಾಗ ಇದು ಸಹಜ. ಕನ್ನಡದ ಕರ್ಮಣಿ ಪ್ರಯೋಗ ("ಮಾಡಲ್ಪಟ್ಟಿತು") ಪುಸ್ತಕದ ಭಾಷೆ; ಮಾತಿನಲ್ಲಿ "ಫೋನ್ ಕಳುವಾಯಿತು", "ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು" ಎನ್ನುತ್ತೇವೆ. ಇಂಥ ವಾಕ್ಯಗಳಿಗೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಹೆಚ್ಚಾಗಿ Passive Voice ಬರುತ್ತದೆ.</p>
 {{ex:My phone was stolen.|ಮೈ ಫ಼ೋನ್ ವಜ಼್ ˈಸ್ಟೋಲನ್|ನನ್ನ ಫೋನ್ ಕಳುವಾಯಿತು}}{{ex:This was made in India.|ದ಼ಿಸ್ ವಜ಼್ ಮೇಡ್ ಇನ್ ˈಇನ್ಡಿಅ|ಇದು ಭಾರತದಲ್ಲಿ ತಯಾರಾಗಿದೆ}}{{ex:The meeting was canceled.|ದ಼ ˈಮೀಟಿಙ್ ವಜ಼್ ˈಕ್ಯಾನ್ಸಲ್ಡ್|ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು}}
@@ -147,31 +147,31 @@ practice:[
 ["ty","ನನ್ನ ಫೋನ್ ಕಳುವಾಯಿತು","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be ನಂತರ V3: was stolen."],
 ["ty","ಆ ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಮೀಟಿಂಗ್: ಆರ್ಟಿಕಲ್ the."],
 ["ty","ಬಾಗಿಲಿಗೆ ಬೀಗ ಹಾಕಿತ್ತು","The door was locked","the door · was · locked — ಆರ್ಟಿಕಲ್ the","a","ಇಲ್ಲಿರುವ ಆ ಬಾಗಿಲು: ಆರ್ಟಿಕಲ್ the."]]},
-{ id:"reported", title:"Indirect Speech (ಪರೋಕ್ಷ ಕಥನ): ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವುದು", blurb:"She said she was tired. ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ; tell ನಂತರ ಕೇಳಿದ ವ್ಯಕ್ತಿ.", deck:"ಕಾಲ್ ಮತ್ತು ಚಾಟ್ ಸಂಕ್ಷಿಪ್ತ ರೂಪ", body:`
+{ id:"reported", title:"Indirect Speech (ಪರೋಕ್ಷ ಕಥನ): ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವುದು", blurb:"She said she was tired. ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ; tell ನಂತರ ಯಾರಿಗೆ ಹೇಳಿದರೋ ಆ ವ್ಯಕ್ತಿ.", deck:"ಕಾಲ್ ಮತ್ತು ಚಾಟ್ ಸಂಕ್ಷಿಪ್ತ ರೂಪ", body:`
 <p>ಬೇರೆಯವರು ಹೇಳಿದ್ದನ್ನು ತಿಳಿಸುವಾಗ ಬಳಸುತ್ತೇವೆ. ಕನ್ನಡದಲ್ಲಿ ಹೇಳಿದವರ ಮಾತನ್ನು ಹಾಗೆಯೇ ಇಟ್ಟು "ಅಂತ" ಅಥವಾ "ಎಂದು" ಸೇರಿಸುತ್ತೇವೆ: ಅವನು "ನಾನು ಬರುತ್ತೇನೆ" ಅಂತ ಹೇಳಿದ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಎರಡು ಬದಲಾವಣೆ ಆಗುತ್ತವೆ: <b>ಸರ್ವನಾಮ</b> ಬದಲಾಗುತ್ತದೆ (I → he), <b>ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ</b> ಹೋಗುತ್ತದೆ (will → would).</p>
 <div class="tbl"><table><tr><th>ಹೇಳಿದ ಮಾತು</th><th>ತಿಳಿಸುವಾಗ</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>
 {{ex:She said she was tired.|ಶಿ ಸೆಡ್ ಶಿ ವಜ಼್ ˈಟೈಅರ್ಡ್|ತನಗೆ ಸುಸ್ತಾಗಿದೆ ಎಂದು ಅವಳು ಹೇಳಿದಳು}}{{ex:He said he would come.|ಹಿ ಸೆಡ್ ಹಿ ವಡ್ ಕಮ್|ತಾನು ಬರುವುದಾಗಿ ಅವನು ಹೇಳಿದ}}
 <h3>say ಮತ್ತು tell</h3>
-<p><b>tell</b> ನಂತರ ಕೇಳಿದ ವ್ಯಕ್ತಿ ಬರಲೇಬೇಕು, ಅದೂ to ಇಲ್ಲದೆ. <b>say</b> ನಂತರ ವ್ಯಕ್ತಿ ಬರುವುದಿಲ್ಲ. ಕನ್ನಡದ "ನನಗೆ ಹೇಳಿದ" ನೋಡಿ told to me ಎನ್ನಬೇಡಿ.</p>
+<p><b>tell</b> ನಂತರ ಯಾರಿಗೆ ಹೇಳಿದರೋ ಆ ವ್ಯಕ್ತಿ ಬರಲೇಬೇಕು, ಅದೂ to ಇಲ್ಲದೆ. <b>say</b> ನಂತರ ನೇರವಾಗಿ ವ್ಯಕ್ತಿ ಬರುವುದಿಲ್ಲ. ಕನ್ನಡದ "ನನಗೆ ಹೇಳಿದ" ನೋಡಿ told to me ಎನ್ನಬೇಡಿ.</p>
 {{ex:He told me he was busy.|ಹಿ ಟೋಲ್ಡ್ ಮಿ ಹಿ ವಜ಼್ ˈಬಿಜ಼ಿ|ತಾನು ಬ್ಯುಸಿ ಇರುವುದಾಗಿ ಅವನು ನನಗೆ ಹೇಳಿದ}}
 <h3>ಪ್ರಶ್ನೆಯನ್ನು ತಿಳಿಸುವಾಗ</h3>
 <p>ಹೌದು-ಇಲ್ಲ ಪ್ರಶ್ನೆಗೆ <b>if</b>; wh-ಪ್ರಶ್ನೆಗೆ ಅದೇ wh-ಪದ. ನಂತರದ ಭಾಗ <b>ಸಾಮಾನ್ಯ ವಾಕ್ಯದ ಕ್ರಮದಲ್ಲಿ</b> (ಕರ್ತೃ + ಕ್ರಿಯಾಪದ) ಇರುತ್ತದೆ; do / did ಬರುವುದಿಲ್ಲ.</p>
 {{ex:She asked if I was okay.|ಶಿ ಆ್ಯಸ್ಕ್ಟ್ ಇಫ಼್ ಐ ವಜ಼್ ಓˈಕೇ|ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆಯೇ ಎಂದು ಅವಳು ಕೇಳಿದಳು}}{{ex:He asked where I lived.|ಹಿ ಆ್ಯಸ್ಕ್ಟ್ ವೆರ್ ಐ ಲಿವ಼್ಡ್|ನಾನು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇನೆ ಎಂದು ಅವನು ಕೇಳಿದ}}
-<div class="tip">ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>He said me …</b> / <b>He told to me …</b> ✗ → <b>He told me …</b> ✓ ಬರುವವನು ಅವನೇ ಆದರೆ <b>He said that I will come.</b> ✗ → <b>He said he would come.</b> ✓ <b>He asked where did I live.</b> ✗ → <b>He asked where I lived.</b> ✓</div>`,
-check:[["She said she ___ tired. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["is being","was","be","will"],1,"ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವಾಗ ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ: was."],["He ___ me he would come. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["said","say","told","tell to"],2,"ಕೇಳಿದ ವ್ಯಕ್ತಿ (me) ಇದ್ದರೆ told."],["\"ನಾನು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇನೆ ಎಂದು ಅವನು ಕೇಳಿದ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"ತಿಳಿಸುವ ಪ್ರಶ್ನೆಯಲ್ಲಿ ಸಾಮಾನ್ಯ ವಾಕ್ಯದ ಕ್ರಮ."]],
+<div class="tip">ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>He said me …</b> / <b>He told to me …</b> ✗ → <b>He told me …</b> ✓ ಬರುವವನು ಅವನೇ ಆದರೆ <b>He said that I will come.</b> ✗ → <b>He said he would come.</b> ✓ <b>He asked where did I live.</b> ✗ → <b>He asked where I lived.</b> ✓ ಹೇಳಿದ ವಿಷಯ ಈಗಲೂ ನಿಜವಾಗಿದ್ದರೆ ಮಾತಿನಲ್ಲಿ ಕಾಲ ಬದಲಿಸದೆ ಹೇಳುವುದೂ ಇದೆ (<b>She said she's tired.</b>); ಈ ಪಾಠದ ಅಭ್ಯಾಸದಲ್ಲಿ ಹಿಂದಕ್ಕೆ ಸರಿಸಿದ ರೂಪ ಬಳಸಿ.</div>`,
+check:[["She said she ___ tired. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["is being","was","be","will"],1,"ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವಾಗ ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ: was."],["He ___ me he would come. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["said","say","told","tell to"],2,"ಯಾರಿಗೆ ಹೇಳಿದರು (me) ಎಂಬುದು ಇದ್ದರೆ told."],["\"ನಾನು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇನೆ ಎಂದು ಅವನು ಕೇಳಿದ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"ತಿಳಿಸುವ ಪ್ರಶ್ನೆಯಲ್ಲಿ ಸಾಮಾನ್ಯ ವಾಕ್ಯದ ಕ್ರಮ."]],
 practice:[
 ["mc","She said she ___ busy.","was","is being","be","were being","ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವಾಗ ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ: was."],
-["mc","He ___ me he was late.","told","said","say","tells to","ಕೇಳಿದ ವ್ಯಕ್ತಿ ಇದ್ದರೆ told."],
+["mc","He ___ me he was late.","told","said","say","tells to","ಯಾರಿಗೆ ಹೇಳಿದರು (me) ಎಂಬುದು ಇದ್ದರೆ told."],
 ["mc","\"ತಾನು ಬರುವುದಾಗಿ ಅವನು ಹೇಳಿದ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","He said he would come.","He said he will came.","He told he would come.","He said me he would come.","will ಇಲ್ಲಿ would ಆಗುತ್ತದೆ; said ನಂತರ me ಬರುವುದಿಲ್ಲ."],
 ["mc","\"ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆಯೇ ಎಂದು ಅವಳು ಕೇಳಿದಳು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","ಹೌದು-ಇಲ್ಲ ಪ್ರಶ್ನೆಯನ್ನು ತಿಳಿಸಲು if."],
 ["mc","\"ನಾನು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇನೆ ಎಂದು ಅವನು ಕೇಳಿದ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","ತಿಳಿಸುವ ಪ್ರಶ್ನೆಯಲ್ಲಿ ಸಾಮಾನ್ಯ ವಾಕ್ಯದ ಕ್ರಮ; did ಬೇಡ."],
-["or","ತನಗೆ ಸುಸ್ತಾಗಿದೆ ಎಂದು ಅವಳು ಹೇಳಿದಳು","She said she was tired","told","ಕೇಳಿದ ವ್ಯಕ್ತಿ ಇಲ್ಲದಿದ್ದರೆ said."],
+["or","ತನಗೆ ಸುಸ್ತಾಗಿದೆ ಎಂದು ಅವಳು ಹೇಳಿದಳು","She said she was tired","told","ಯಾರಿಗೆ ಹೇಳಿದರು ಎಂಬುದು ಇಲ್ಲದಿದ್ದರೆ said."],
 ["or","ತಾನು ಒಂದು ಕಾರು ಕೊಂಡಿರುವುದಾಗಿ ಅವನು ಹೇಳಿದ","He said he bought a car","the cars","ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿರುವ ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a."],
 ["or","ಆ ಪುಸ್ತಕ ತನಗೆ ಇಷ್ಟವಾಯಿತು ಎಂದು ಅವಳು ಹೇಳಿದಳು","She said she liked the book","a books","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಪುಸ್ತಕ: ಆರ್ಟಿಕಲ್ the."],
-["fi","She __ she was tired.","ತನಗೆ ಸುಸ್ತಾಗಿದೆ ಎಂದು ಅವಳು ಹೇಳಿದಳು","said","told|asked|say","ಕೇಳಿದ ವ್ಯಕ್ತಿ ಇಲ್ಲದಿದ್ದರೆ said."],
-["fi","He told __ he was busy.","ತಾನು ಬ್ಯುಸಿ ಇರುವುದಾಗಿ ಅವನು ನನಗೆ ಹೇಳಿದ","me","I|my|to","told ನಂತರ ಕೇಳಿದ ವ್ಯಕ್ತಿ: me; to ಬೇಡ."],
+["fi","She __ she was tired.","ತನಗೆ ಸುಸ್ತಾಗಿದೆ ಎಂದು ಅವಳು ಹೇಳಿದಳು","said","told|asked|say","ಯಾರಿಗೆ ಹೇಳಿದರು ಎಂಬುದು ಇಲ್ಲದಿದ್ದರೆ said."],
+["fi","He told __ he was busy.","ತಾನು ಬ್ಯುಸಿ ಇರುವುದಾಗಿ ಅವನು ನನಗೆ ಹೇಳಿದ","me","I|my|to","told ನಂತರ ಯಾರಿಗೆ ಹೇಳಿದರೋ ಆ ವ್ಯಕ್ತಿ: me; to ಬೇಡ."],
 ["fi","She asked __ I was okay.","ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆಯೇ ಎಂದು ಅವಳು ಕೇಳಿದಳು","if|whether","that|what|did","ಹೌದು-ಇಲ್ಲ ಪ್ರಶ್ನೆಯನ್ನು ತಿಳಿಸಲು if."],
-["ty","ತಾನು ಬ್ಯುಸಿ ಇರುವುದಾಗಿ ಅವನು ಹೇಳಿದ","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವಾಗ ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ: was."],
-["ty","ತನ್ನ ಹತ್ತಿರ ಒಂದು ಕಾರು ಇದೆ ಎಂದು ಅವಳು ಹೇಳಿದಳು","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — ಆರ್ಟಿಕಲ್ a","the","ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿರುವ ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a."],
-["ty","ತಾನು ಆ ಸಿನಿಮಾ ನೋಡಿರುವುದಾಗಿ ಅವನು ಹೇಳಿದ","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."]]},
+["ty","ತಾನು ಬ್ಯುಸಿ ಇರುವುದಾಗಿ ಅವನು ಹೇಳಿದ (ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ)","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವಾಗ ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ: was."],
+["ty","ತನ್ನ ಹತ್ತಿರ ಒಂದು ಕಾರು ಇದೆ ಎಂದು ಅವಳು ಹೇಳಿದಳು (ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ)","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — ಆರ್ಟಿಕಲ್ a","the","ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿರುವ ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a."],
+["ty","ತಾನು ಆ ಸಿನಿಮಾ ನೋಡಿರುವುದಾಗಿ ಅವನು ಹೇಳಿದ (ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ)","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."]]},
 ];

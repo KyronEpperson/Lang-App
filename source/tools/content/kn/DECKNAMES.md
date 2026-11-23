@@ -4,7 +4,7 @@ Rows 1–20 replace the Korean course's 20 decks in the same order. Later rows a
 
 | # | name (use verbatim) | notes |
 |---|---|---|
-| 1 | ನಮಸ್ಕಾರ ಮತ್ತು ವಿದಾಯ | greetings and goodbyes (ko 인사) |
+| 1 | ನಮಸ್ಕಾರ ಮತ್ತು ವಿದಾಯ | greetings and goodbyes |
 | 2 | ಸ್ವಪರಿಚಯ | articles, be, present, third-s, object-have, perfect-2, **stative-since** |
 | 3 | ಅತ್ಯಗತ್ಯ ಇಂಗ್ಲಿಷ್ 1 | polite |
 | 4 | ಅತ್ಯಗತ್ಯ ಇಂಗ್ಲಿಷ್ 2 | questions |

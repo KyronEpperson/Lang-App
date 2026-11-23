@@ -55,3 +55,13 @@ Scope: `ui.json` (784 exact strings, 274 pattern templates) and the 39 English-r
 - Quiz chips read `ಓದಿ EN→ಕನ್ನಡ`, `ನೆನಪು ಕನ್ನಡ→EN`, `ಕೇಳಿ 🔊→ಕನ್ನಡ`, `⌨️ ಟೈಪ್ ಮಾಡಿ EN` (direction follows the hi and zh packs: target → native for reading).
 - The roadmap basis string still says "adjusted for Korean speakers" in English; it is translated literally (ಕೊರಿಯನ್ ಭಾಷಿಕರಿಗೆ ಹೊಂದಿಸಿದ್ದು). If the kn-en course shows it, the English source should say Kannada speakers.
 - `roadmap.json`: only the 39 entries with `"roadmap": "en"` are filled; `road.py` was not run.
+
+## Review (cold reviewer, 2026-11-23)
+
+- 20 `t` values changed in ui.json and 4 in roadmap.json; nothing else in either file changed. Details: tools/content/kn/REVIEW.md.
+- Level titles: the interface ladder (ಆರಂಭಿಕ, ವಿದ್ಯಾರ್ಥಿ, ಮಾತುಗಾರ, ಪ್ರವಾಸಿ, ಸ್ಥಳೀಯ, ಪರಿಣತ, ನಿಪುಣ) is now also `TITLES` in tools/content/kn/meta.js.
+- Plan names agree with meta.js: `Trip to Korea` = ವಿದೇಶ ಪ್ರವಾಸದ ತಯಾರಿ, `Make friends & date` = ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸ್ನೇಹ ಬೆಳೆಸಿ, `Conversational in 90 days` = 90 ದಿನದಲ್ಲಿ ಮಾತುಕತೆಗೆ ಸಿದ್ಧ. Travel as a goal is ಪ್ರವಾಸ in both places.
+- ಕ್ವಿಜ್ = deck quiz, ಕಿರು ಪರೀಕ್ಷೆ = the 3-question lesson check: confirmed in every string.
+- "Goal reached" strings now address the learner (ಗುರಿ ತಲುಪಿದ್ದೀರಿ); `Go` on the deck-of-the-week link is ತೆರೆಯಿರಿ; `Back to practice / lesson` is ಅಭ್ಯಾಸಕ್ಕೆ ಮರಳಿ / ಪಾಠಕ್ಕೆ ಮರಳಿ.
+- Roadmap: ವರ್ಣಮಾಲೆ (the course word) replaces ಅಕ್ಷರಮಾಲೆ; «ಮೂಲಪಾಠ» (which means "original text") is now «ಮೊದಲ ಹೆಜ್ಜೆ»; the conditional titles follow the lesson titles (if ವಾಕ್ಯ 1; if ವಾಕ್ಯ 2 ಮತ್ತು 3).
+- ZWNJ policy as above, checked by script in every `t`: every ZWNJ follows ್ on a loanword and precedes a Kannada letter.

@@ -3,10 +3,10 @@ exports.DIALOG = `
 How are you? | Hi, Jake! How are you? | Good, thanks! How about you? | ಹಾಯ್ ಜೇಕ್! ಹೇಗಿದ್ದೀಯಾ? / ಚೆನ್ನಾಗಿದ್ದೇನೆ, ಥ್ಯಾಂಕ್ಸ್! ನೀನು ಹೇಗಿದ್ದೀಯಾ?
 What's up? | Hey, what's up? | Not much. Just getting some coffee. | ಹೇ, ಏನು ಸಮಾಚಾರ? / ವಿಶೇಷವೇನಿಲ್ಲ. ಕಾಫಿ ತೆಗೆದುಕೊಳ್ಳಲು ಹೋಗುತ್ತಿದ್ದೇನೆ, ಅಷ್ಟೇ.
 Nice to meet you. | Hi, I'm Divya. Nice to meet you. | Nice to meet you, too. I'm Ryan. | ಹಾಯ್, ನಾನು ದಿವ್ಯಾ. ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು. / ನನಗೂ ಸಂತೋಷವಾಯಿತು. ನಾನು ರಯಾನ್.
-Long time no see! | Long time no see! How have you been? | I've been great! You look good! | ನೋಡಿ ತುಂಬಾ ದಿನ ಆಯಿತು! ಇಷ್ಟು ದಿನ ಹೇಗಿದ್ದೆ? / ತುಂಬಾ ಚೆನ್ನಾಗಿದ್ದೆ! ನೀನು ಚೆನ್ನಾಗಿ ಕಾಣುತ್ತಿದ್ದೀಯಾ!
+Long time no see! | Long time no see! How have you been? | I've been great! You look good! | ನೋಡಿ ತುಂಬಾ ದಿನ ಆಯಿತು! ಇಷ್ಟು ದಿನ ಹೇಗಿದ್ದೆ? / ತುಂಬಾ ಚೆನ್ನಾಗಿದ್ದೆ! ನೀನು ಚೆನ್ನಾಗಿ ಕಾಣುತ್ತಿದ್ದೀಯ!
 Have a good one! | Here's your receipt. Have a good one! | Thanks, you too! | ಇಲ್ಲಿದೆ ನಿಮ್ಮ ರಸೀದಿ. ದಿನ ಚೆನ್ನಾಗಿರಲಿ! / ಧನ್ಯವಾದ, ನಿಮಗೂ!
 Good night. | I'm going to bed. Good night! | Good night! Sleep well. | ನಾನು ಮಲಗಲು ಹೋಗುತ್ತೇನೆ. ಶುಭರಾತ್ರಿ! / ಶುಭರಾತ್ರಿ! ಚೆನ್ನಾಗಿ ನಿದ್ದೆ ಮಾಡು.
-Where are you from? | So, where are you from? | I'm from India. Bengaluru, actually. | ಅಂದ ಹಾಗೆ, ನೀವು ಎಲ್ಲಿಯವರು? / ನಾನು ಭಾರತದಿಂದ ಬಂದಿದ್ದೇನೆ. ಬೆಂಗಳೂರಿನಿಂದ.
+Where are you from? | So, where are you from? | I'm from India. Bengaluru, actually. | ಅಂದ ಹಾಗೆ, ನೀವು ಎಲ್ಲಿಯವರು? / ನಾನು ಭಾರತದಿಂದ ಬಂದಿದ್ದೇನೆ. ಅದರಲ್ಲೂ ಬೆಂಗಳೂರಿನಿಂದ.
 What do you do? | What do you do? | I'm a designer. I work at a small startup. | ನೀವು ಏನು ಕೆಲಸ ಮಾಡುತ್ತೀರಿ? / ನಾನು ಡಿಸೈನರ್. ಒಂದು ಚಿಕ್ಕ ಸ್ಟಾರ್ಟಪ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ.
 What should I call you? | What should I call you? | Just call me Jay. Everyone does. | ನಿಮ್ಮನ್ನು ಏನೆಂದು ಕರೆಯಲಿ? / ಜೇ ಎಂದು ಕರೆಯಿರಿ, ಸಾಕು. ಎಲ್ಲರೂ ಹಾಗೇ ಕರೆಯುತ್ತಾರೆ.
 I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | ವಾರಾಂತ್ಯದಲ್ಲಿ ಏನು ಮಾಡುತ್ತೀರಿ? / ನನಗೆ ಟ್ರೆಕ್ಕಿಂಗ್ ಎಂದರೆ ತುಂಬಾ ಇಷ್ಟ. ಹೆಚ್ಚುಕಡಿಮೆ ಪ್ರತಿ ಶನಿವಾರ ಹೋಗುತ್ತೇನೆ.
@@ -32,8 +32,8 @@ How long does it take? | How long does it take to get downtown? | About fifteen 
 Is this seat taken? | Excuse me, is this seat taken? | No, go ahead. | ಕ್ಷಮಿಸಿ, ಈ ಸೀಟಿನಲ್ಲಿ ಯಾರಾದರೂ ಇದ್ದಾರೆಯೇ? / ಇಲ್ಲ, ಕುಳಿತುಕೊಳ್ಳಿ.
 A table for two, please. | Hi! How many? | A table for two, please. | ನಮಸ್ಕಾರ! ಎಷ್ಟು ಜನ? / ಇಬ್ಬರಿಗೆ ಒಂದು ಟೇಬಲ್ ಕೊಡಿ.
 What do you recommend? | What do you recommend? | The mushroom pasta is really popular. | ನೀವು ಯಾವುದನ್ನು ಸೂಚಿಸುತ್ತೀರಿ? / ಮಶ್ರೂಮ್ ಪಾಸ್ತಾ ತುಂಬಾ ಜನಪ್ರಿಯ.
-I'll have the steak. | Are you ready to order? | Yes, I'll have the steak, please. | ಆರ್ಡರ್ ಕೊಡುತ್ತೀರಾ? / ಹೌದು, ನನಗೆ ಸ್ಟೀಕ್ ಕೊಡಿ.
-Medium rare, please. | How would you like your steak? | Medium rare, please. | ಸ್ಟೀಕ್ ಎಷ್ಟು ಬೇಯಬೇಕು? / ಮೀಡಿಯಂ ರೇರ್ ಆಗಿ ಬೇಯಿಸಿ.
+I'll have the steak. | Are you ready to order? | Yes, I'll have the steak, please. | ಆರ್ಡರ್ ಕೊಡುತ್ತೀರಾ? / ಹೌದು, ನನಗೆ ಸ್ಟೇಕ್ ಕೊಡಿ.
+Medium rare, please. | How would you like your steak? | Medium rare, please. | ಸ್ಟೇಕ್ ಎಷ್ಟು ಬೇಯಬೇಕು? / ಮೀಡಿಯಂ ರೇರ್ ಆಗಿ ಬೇಯಿಸಿ.
 I'm allergic to peanuts. | Does this have nuts in it? I'm allergic to peanuts. | Let me check with the kitchen. | ಇದರಲ್ಲಿ ನಟ್ಸ್ ಇದೆಯೇ? ನನಗೆ ಕಡಲೆಕಾಯಿ ಅಲರ್ಜಿ ಇದೆ. / ಅಡುಗೆಮನೆಯಲ್ಲಿ ಕೇಳಿ ಹೇಳುತ್ತೇನೆ.
 Everything was great. | How was everything? | Everything was great, thank you! | ಊಟ ಹೇಗಿತ್ತು? / ಎಲ್ಲವೂ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು, ಧನ್ಯವಾದ!
 Can we get the check, please? | Can we get the check, please? | Sure, I'll be right back with it. | ಬಿಲ್ ಕೊಡುತ್ತೀರಾ? / ಖಂಡಿತ, ಈಗಲೇ ತರುತ್ತೇನೆ.
@@ -49,7 +49,7 @@ Cash or card? | Cash or card? | Card, please. | ಕ್ಯಾಶ್ ಅಥವಾ 
 What time is it? | Excuse me, what time is it? | It's almost three. | ಕ್ಷಮಿಸಿ, ಈಗ ಗಂಟೆ ಎಷ್ಟು? / ಹೆಚ್ಚುಕಡಿಮೆ ಮೂರು.
 Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | ಮೂವತ್ತು ಡಾಲರ್. / ಕ್ಷಮಿಸಿ, ಹದಿಮೂರೇ, ಮೂವತ್ತೇ?
 How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | ನಿಮ್ಮ ವಾರಾಂತ್ಯ ಹೇಗಿತ್ತು? / ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು! ಬೀಚ್‌ಗೆ ಹೋಗಿದ್ದೆ. ನಿಮ್ಮದು ಹೇಗಿತ್ತು?
-Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | ವಾರಾಂತ್ಯಕ್ಕೆ ಏನಾದರೂ ಪ್ಲಾನ್ ಇದೆಯೇ? / ಅಂಥದ್ದೇನಿಲ್ಲ. ಮನೆಯಲ್ಲೇ ಆರಾಮವಾಗಿ ಇರುತ್ತೇನೆ.
+Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | ವಾರಾಂತ್ಯಕ್ಕೆ ಏನಾದರೂ ಪ್ಲಾನ್ ಇದೆಯೇ? / ಅಂಥದ್ದೇನಿಲ್ಲ. ಮನೆಯಲ್ಲೇ ಆರಾಮವಾಗಿ ಇರಲಿದ್ದೇನೆ, ಅಷ್ಟೇ.
 Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | ಇವತ್ತು ವಾತಾವರಣ ಚೆನ್ನಾಗಿದೆ, ಅಲ್ವಾ? / ಹೌದು! ಕೊನೆಗೂ ಬಿಸಿಲು ಬಂತು.
 What do you do for fun? | What do you do for fun? | I play cricket and watch a lot of Kannada movies. | ಬಿಡುವಿನ ವೇಳೆಯಲ್ಲಿ ಏನು ಮಾಡುತ್ತೀರಿ? / ಕ್ರಿಕೆಟ್ ಆಡುತ್ತೇನೆ, ಕನ್ನಡ ಸಿನಿಮಾಗಳನ್ನೂ ತುಂಬಾ ನೋಡುತ್ತೇನೆ.
 Me neither. | I don't really like spicy food. | Me neither. | ನನಗೆ ಖಾರದ ಊಟ ಅಷ್ಟು ಇಷ್ಟ ಇಲ್ಲ. / ನನಗೂ ಇಲ್ಲ.
@@ -79,7 +79,7 @@ I have a sore throat. | What seems to be the problem? | I have a sore throat and
 I lost my wallet. | I lost my wallet. I think I left it on the bus. | Let's call the bus company's lost and found. | ನನ್ನ ಪರ್ಸ್ ಕಳೆದುಹೋಗಿದೆ. ಬಸ್‌ನಲ್ಲಿ ಬಿಟ್ಟೆ ಅನಿಸುತ್ತದೆ. / ಬಸ್ ಕಂಪನಿಯ ಕಳೆದ ವಸ್ತುಗಳ ವಿಭಾಗಕ್ಕೆ ಕರೆ ಮಾಡೋಣ.
 hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | ಈ ವಾರಾಂತ್ಯ ಒಟ್ಟಿಗೆ ಕಾಲ ಕಳೆಯೋಣವೇ? / ಖಂಡಿತ! ಸಿನಿಮಾಗೆ ಹೋಗೋಣ.
 pick up | Can you pick me up at the airport? | Of course. What time does your flight land? | ಏರ್‌ಪೋರ್ಟ್‌ಗೆ ಬಂದು ನನ್ನನ್ನು ಕರೆದುಕೊಂಡು ಹೋಗುತ್ತೀಯಾ? / ಖಂಡಿತ. ನಿನ್ನ ವಿಮಾನ ಎಷ್ಟು ಗಂಟೆಗೆ ಇಳಿಯುತ್ತದೆ?
-work out | You look great! Do you work out? | Yeah, I go to the gym three times a week. | ನೀನು ತುಂಬಾ ಚೆನ್ನಾಗಿ ಕಾಣುತ್ತಿದ್ದೀಯಾ! ವ್ಯಾಯಾಮ ಮಾಡುತ್ತೀಯಾ? / ಹೌದು, ವಾರಕ್ಕೆ ಮೂರು ಸಲ ಜಿಮ್‌ಗೆ ಹೋಗುತ್ತೇನೆ.
+work out | You look great! Do you work out? | Yeah, I go to the gym three times a week. | ನೀನು ತುಂಬಾ ಚೆನ್ನಾಗಿ ಕಾಣುತ್ತಿದ್ದೀಯ! ವ್ಯಾಯಾಮ ಮಾಡುತ್ತೀಯಾ? / ಹೌದು, ವಾರಕ್ಕೆ ಮೂರು ಸಲ ಜಿಮ್‌ಗೆ ಹೋಗುತ್ತೇನೆ.
 It's not my cup of tea. | Do you want to go to the jazz concert? | Thanks, but honestly, it's not my cup of tea. | ಜಾಜ್ ಸಂಗೀತ ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ಬರುತ್ತೀಯಾ? / ಥ್ಯಾಂಕ್ಸ್, ಆದರೆ ನಿಜ ಹೇಳಬೇಕೆಂದರೆ ಅದು ನನಗೆ ಅಷ್ಟಾಗಿ ಹಿಡಿಸುವುದಿಲ್ಲ.
 Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he comes. | ಇವತ್ತು ಮಾರ್ಕ್‌ನನ್ನು ನೋಡಿದೆಯಾ? / ನೆನೆಸಿಕೊಂಡ ಕೂಡಲೇ ಬಂದುಬಿಟ್ಟ! ಅಲ್ಲಿ ಬರುತ್ತಿದ್ದಾನೆ ನೋಡು.
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | ಇವತ್ತು ರಾತ್ರಿ ಪಾರ್ಟಿಗೆ ಬರುತ್ತೀಯಾ? / ಬರಲು ಆಗುವುದಿಲ್ಲ ಅನಿಸುತ್ತದೆ. ನನಗೆ ಸ್ವಲ್ಪ ಮೈ ಸರಿಯಿಲ್ಲ.
@@ -123,7 +123,7 @@ I'm bored. | I'm bored. Do you want to go for a walk? | ನನಗೆ ಬೋರ�
 I'm nervous. | I'm nervous about my job interview tomorrow. | ನಾಳೆಯ ಇಂಟರ್‌ವ್ಯೂ ನೆನೆದು ನನಗೆ ಆತಂಕವಾಗುತ್ತಿದೆ.
 I can't wait! | We're going to Goa next week. I can't wait! | ಮುಂದಿನ ವಾರ ನಾವು ಗೋವಾಕ್ಕೆ ಹೋಗುತ್ತಿದ್ದೇವೆ. ಕಾಯಲು ಆಗುತ್ತಿಲ್ಲ!
 That color looks good on you. | That color looks good on you. You should wear it more often. | ಆ ಬಣ್ಣ ನಿಮಗೆ ಚೆನ್ನಾಗಿ ಒಪ್ಪುತ್ತದೆ. ಅದನ್ನು ಇನ್ನೂ ಹೆಚ್ಚಾಗಿ ಹಾಕಿಕೊಳ್ಳಿ.
-You made my day! | Thanks for the cookies. You made my day! | ಕುಕೀಸ್‌ಗೆ ಧನ್ಯವಾದ. ನಿಮ್ಮಿಂದ ನನ್ನ ದಿನ ಸಾರ್ಥಕವಾಯಿತು!
+You made my day! | Thanks for the cookies. You made my day! | ಕುಕೀಸ್‌ಗೆ ಧನ್ಯವಾದ. ನಿಮ್ಮಿಂದ ಇವತ್ತು ನನಗೆ ತುಂಬಾ ಖುಷಿಯಾಯಿತು!
 Let me know if you have any questions. | I've attached the slides. Let me know if you have any questions. | ಸ್ಲೈಡ್‌ಗಳನ್ನು ಲಗತ್ತಿಸಿದ್ದೇನೆ. ಏನಾದರೂ ಪ್ರಶ್ನೆ ಇದ್ದರೆ ತಿಳಿಸಿ.
 Could you send me the file by Friday? | Could you send me the file by Friday? I need it for the presentation. | ಶುಕ್ರವಾರದೊಳಗೆ ಫೈಲ್ ಕಳುಹಿಸುತ್ತೀರಾ? ಪ್ರೆಸೆಂಟೇಷನ್‌ಗೆ ಬೇಕಾಗಿದೆ.
 Let's touch base next week. | Let's touch base next week and see how things are going. | ಮುಂದಿನ ವಾರ ಒಮ್ಮೆ ಮಾತನಾಡಿ ಕೆಲಸ ಹೇಗೆ ನಡೆಯುತ್ತಿದೆ ನೋಡೋಣ.
@@ -157,17 +157,17 @@ I am / You are / She is | be ಕ್ರಿಯಾಪದ. ಕನ್ನಡದ "ಅ�
 Do you ~? / Does he ~? | be ಅಲ್ಲದ ಕ್ರಿಯಾಪದ ಇರುವ ವಾಕ್ಯದ ಹೌದು-ಇಲ್ಲ ಪ್ರಶ್ನೆ. he / she / it ಗೆ does | Does he live here? | be
 don't / doesn't + V1 | be ಅಲ್ಲದ ಕ್ರಿಯಾಪದ ಇರುವ ನಿಷೇಧ ವಾಕ್ಯ | I don't eat meat. | be
 he / she / it + V1-s | Simple Present ನಲ್ಲಿ he, she, it ನಂತರ ಕ್ರಿಯಾಪದಕ್ಕೆ -s | My sister works at a hospital. | be
-be + ~ing | ಈಗ ನಡೆಯುತ್ತಿರುವ ಕೆಲಸ / ನಿಗದಿಯಾದ ಹತ್ತಿರದ ಭವಿಷ್ಯ. know, like, have (ಇದೆ) ಇಂಥ ಕ್ರಿಯಾಪದಗಳಿಗೆ -ing ಇಲ್ಲ | I'm meeting Jake tonight. | tense
-V1-ed / ಅನಿಯಮಿತ V2 | ಮುಗಿದುಹೋದ ಕೆಲಸ (went, ate, saw…) | I went to Mysuru last week. | tense
+be + ~ing | ಈಗ ನಡೆಯುತ್ತಿರುವ ಕೆಲಸ / ನಿಗದಿಯಾದ ಹತ್ತಿರದ ಭವಿಷ್ಯ. know, like, have (ಇದೆ) ಇಂಥ ಸ್ಥಿತಿ ತಿಳಿಸುವ ಕ್ರಿಯಾಪದಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ -ing ಇಲ್ಲ | I'm meeting Jake tonight. | tense
+V1-ed / ಅನಿಯಮಿತ V2 | Simple Past: ಹಿಂದೆ ಮುಗಿದುಹೋದ ಕೆಲಸ (went, ate, saw…) | I went to Mysuru last week. | tense
 will + V1 | ಮಾತನಾಡುವ ಕ್ಷಣದಲ್ಲಿ ಮಾಡಿದ ನಿರ್ಧಾರ / ಭರವಸೆ / ಊಹೆ | I'll call you later. | tense
 be going to + V1 | ಮೊದಲೇ ಯೋಜಿಸಿದ ಕೆಲಸ | I'm going to visit my parents this weekend. | tense
-Have you ever ~? | ಅನುಭವ ಕೇಳಲು: "ಎಂದಾದರೂ … ಮಾಡಿದ್ದೀರಾ?" | Have you ever tried dosa? | tense
+Have you ever ~? | ಅನುಭವ ಕೇಳಲು (Have you ever + V3): "ಎಂದಾದರೂ … ಮಾಡಿದ್ದೀರಾ?" | Have you ever tried dosa? | tense
 in + ತಿಂಗಳು, ವರ್ಷ, ಋತು | ದೊಡ್ಡ ಕಾಲಾವಧಿ | My birthday is in June. | prep
 on + ವಾರದ ದಿನ, ದಿನಾಂಕ | ಒಂದು ನಿರ್ದಿಷ್ಟ ದಿನ | The party is on Saturday. | prep
 at + ಗಂಟೆ, ಜಾಗ | ನಿಖರವಾದ ಸಮಯ ಅಥವಾ ಒಂದು ನಿರ್ದಿಷ್ಟ ಜಾಗ | Let's meet at 7 at the station. | prep
 How about ~ing? | ಸಲಹೆ ಕೊಡಲು: "… ಮಾಡಿದರೆ ಹೇಗೆ?" | How about getting lunch together? | smalltalk
 So do I / Neither do I | "ನನಗೂ ಹಾಗೇ" (ಮೊದಲನೆಯದು ಸಾಮಾನ್ಯ ವಾಕ್ಯಕ್ಕೆ, ಎರಡನೆಯದು ನಿಷೇಧ ವಾಕ್ಯಕ್ಕೆ). ಹಗುರವಾಗಿ Me too / Me neither | I love this song. / So do I. | smalltalk
-ಕ್ರಿಯಾಪದ + it + ಕ್ರಿಯಾವಿಶೇಷಣ | ಫ್ರೇಸಲ್ ವರ್ಬ್‌ನ ಕರ್ಮ (object) ಸರ್ವನಾಮವಾಗಿದ್ದರೆ ಅದು ನಡುವೆ ಬರುತ್ತದೆ | Can you turn it down? | phrasal
+ಕ್ರಿಯಾಪದ + it + ಕ್ರಿಯಾವಿಶೇಷಣ | ಎರಡು ಭಾಗವಾಗಿ ಬಿಡಿಸಬಹುದಾದ ಫ್ರೇಸಲ್ ವರ್ಬ್‌ನ (turn down, pick up) ಕರ್ಮ (object) ಸರ್ವನಾಮವಾಗಿದ್ದರೆ ಅದು ನಡುವೆ ಬರುತ್ತದೆ | Can you turn it down? | phrasal
 look forward to + ~ing | ಇಲ್ಲಿ to ಒಂದು preposition; ಅದಕ್ಕೇ ಅದರ ನಂತರ -ing | I'm looking forward to hearing from you. | phrasal
 It's + ಗಂಟೆ | ಸಮಯ ಹೇಳಲು. ಗಂಟೆ ಮತ್ತು ನಿಮಿಷವನ್ನು ಇದ್ದ ಹಾಗೆಯೇ ಓದಿ | It's ten fifteen. | numbers
 I'm writing to ~ | ಇಮೇಲ್‌ನ ಮೊದಲ ವಾಕ್ಯದಲ್ಲಿ ಉದ್ದೇಶ ಹೇಳಲು | I'm writing to confirm our meeting. | email
@@ -188,11 +188,11 @@ I admire you | ನಿಮ್ಮ ಬಗ್ಗೆ ನನಗೆ ತುಂಬಾ ಗ�
 You inspire me | ನೀವು ನನಗೆ ಸ್ಫೂರ್ತಿ
 You're really talented | ನೀವು ನಿಜವಾಗಿಯೂ ಪ್ರತಿಭಾವಂತರು
 You're a great listener | ನೀವು ಗಮನವಿಟ್ಟು ಕೇಳಿಸಿಕೊಳ್ಳುತ್ತೀರಿ
-You've got this | ಇದು ನಿನ್ನಿಂದ ಆಗುತ್ತದೆ
+You've got this | ಇದು ನಿಮ್ಮಿಂದ ಆಗುತ್ತದೆ
 That's brilliant | ಅದು ಅದ್ಭುತ ಉಪಾಯ
 You're so easy to talk to | ನಿಮ್ಮ ಜೊತೆ ಮಾತನಾಡುವುದು ತುಂಬಾ ಸುಲಭ
 You always know what to say | ಏನು ಹೇಳಬೇಕೆಂದು ನಿಮಗೆ ಯಾವಾಗಲೂ ಗೊತ್ತಿರುತ್ತದೆ
-You're a good friend | ನಿನ್ನಂಥ ಸ್ನೇಹಿತರು ಸಿಗುವುದು ಅಪರೂಪ
+You're a good friend | ನೀವು ಒಳ್ಳೆಯ ಸ್ನೇಹಿತರು
 Your hard work shows | ನಿಮ್ಮ ಶ್ರಮ ಎದ್ದು ಕಾಣುತ್ತದೆ
 You're glowing | ನಿಮ್ಮ ಮುಖದಲ್ಲಿ ಕಳೆ ತುಂಬಿದೆ
 Well said | ಚೆನ್ನಾಗಿ ಹೇಳಿದಿರಿ
@@ -200,11 +200,11 @@ Well said | ಚೆನ್ನಾಗಿ ಹೇಳಿದಿರಿ
 expression: `
 Sounds good | ಸರಿ, ಚೆನ್ನಾಗಿದೆ
 Fair enough | ಅದೂ ಸರಿಯೇ
-Makes sense | ಹೌದು, ಸರಿಯಾಗಿದೆ
+Makes sense | ಹೌದು, ಅದು ಸರಿ ಅನಿಸುತ್ತದೆ
 Got it | ಗೊತ್ತಾಯಿತು
 I see | ಓ, ಹಾಗಾ
-No kidding | ನಿಜವಾಗಲೂ? / ಹೌದು ಮತ್ತೆ
-Good point | ಒಳ್ಳೆಯ ಅಂಶ
+No kidding | ನಿಜವಾಗಿಯೂ? / ಹೌದು ಮತ್ತೆ
+Good point | ಅದು ಒಳ್ಳೆಯ ಮಾತು
 Exactly | ಅದೇ, ಸರಿಯಾಗಿ ಹೇಳಿದಿರಿ
 Totally | ಪೂರ್ತಿ ಒಪ್ಪುತ್ತೇನೆ
 Never mind | ಬಿಡಿ, ಪರವಾಗಿಲ್ಲ
