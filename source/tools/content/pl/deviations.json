@@ -1,7 +1,24 @@
 {
-  "lessons": {},
+  "lessons": {
+    "ponglish": "pl-only lesson (profile pl.md §8 'add' / §4.4 / §9): Ponglish traps — false friends (aktualny/current, ewentualnie/possibly, sympatyczny/nice, pensja/salary, recepta/prescription, fabryka/factory, dres/tracksuit, magazyn/warehouse, sałata/lettuce, ordynarny/rude), one Polish word vs two English words (robić: do/make, pożyczyć: borrow/lend, uczyć się/uczyć: learn/study/teach), calques (mam 20 lat, dziś rano, z góry dziękuję, interested/bored, advices) and it for objects; placed after smalltalk via profile.json lessonOrder.after; deck „Fałszywi przyjaciele i kalki”; replaces the ko-only konglish slot, no ko-en counterpart (mirrors zh chinglish / ru runglish). English side starts from ru runglish (She works at a factory, Can I give you some advice?, I need some advice, make coffee, My phone is old. It doesn't work.) with the Russian-only items replaced by Polish ones as profile §8 lists (prescription/receipt, warehouse/magazine, current/actual, lend/borrow, I'm twenty years old, interested in history, made a mistake); its practice set meets the article-plural rule on its own (order 4/4, type 3/4)",
+    "articles-3": "pl-only lesson (profile pl.md §8 add, §4.1): „Przedimki: powtórka i podsumowanie” — articles revisited at B1. Body leads with omission, the main Polish error (missing the 37% + missing a 18% of article errors, Rozovskaya & Roth 2010): a / an before a singular count noun even with a description (an engineer who…, an interesting article), the for a noun defined by a phrase or clause, for the one in the room and with superlatives (the music in this cafe, the coffee you made, Can you open the window?, the best movie); then the shorter half on withholding it: generic plurals, uncountable and abstract nouns (Cats sleep a lot, Time is money, Life is short), city names, zero-article fixed phrases (go to bed, go to work / school, at home / work, by train / bus). English side (check and practice) copied verbatim from ru articles-3 (itself ja's set) as profile §8 says, with one localisation per profile §9: Moscow → Warsaw in the engineer mc item (all four options) and the matching body row. Replaces the Korean course's own articles-3 (ko ownLessons), which the scaffold copied. Placed after passive via profile.json lessonOrder.after; deck „Pogawędki” (deck 10, as ru and zh). The optional swap of two zero-article items for omission items (profile §8, the lead's call) was not made."
+  },
   "items": {},
-  "decks": {},
-  "extraLessons": [],
+  "decks": {
+    "O sobie": "localisation per profile pl.md §9 (Minji→Anna, Korea→Poland, Seoul→Warsaw): cards 0 'My name is Anna.', 4 'I'm from Poland.', 5 'I live in Warsaw.'",
+    "Niezbędnik 1": "localisation per profile pl.md §9: card 12 'Do you speak Korean?' → 'Do you speak Polish?' (learner's own language)",
+    "Pogawędki": "localisation per profile pl.md §9: card 6 'Have you been to Korea?' → 'Have you been to Poland?'",
+    "Komplementy i sympatia": "localisation per profile pl.md §9: card 8 'Your Korean is really good!' → 'Your Polish is really good!'",
+    "Telefon i skróty z czatu": "localisation per profile pl.md §9 (Minji→Anna; surname only in phone / hotel scenes, Mr. Kim→Mr. Nowak): cards 0 'Hello, this is Anna.', 1 'Can I speak to Mr. Nowak?'",
+    "Podróże (lotnisko i hotel)": "localisation per profile pl.md §9: card 8 reservation name 'under Kim' → 'under Nowak' (surname)",
+    "Lekarz i nagłe wypadki": "localisation per profile pl.md §9: card 15 'the Korean embassy' → 'the Polish embassy' (learner's own embassy)",
+    "Wymowa: pułapki": "pl-only cards appended per profile pl.md §4.14 / §9 (cards 26–42): bad / bed / bat (æ vs e, final voicing), dog / dock (final voicing), ship / sheep (ɪ vs iː), hat / hut (æ vs ʌ, not Polish a twice), wine / vine (w = ł, v = w), sing / singing (ŋ without k), asked (-ed = /t/), comfortable, vegetable, camera (stress and spelling traps). think / sink, leave / live, walk / work and hotel are already in the shared cards. Original 26 cards unchanged",
+    "Fałszywi przyjaciele i kalki": "pl-only deck (profile pl.md §4.4 / §9 deck 22, DECKNAMES row 22), 30 cards: false friends (current, possibly, nice, salary, prescription, receipt, factory, tracksuit, warehouse, lettuce, special offer, complaint, rude, consistent, comprehensive, date, boss, billion), one Polish word for two English words (make a mistake, lend, teach) and calques from Polish (I'm twenty years old, this morning, at the age of twenty, I'm interested in history, Thanks in advance, take a photo, What does it look like?, a piece of advice, it for things); linked to the pl-only lesson ponglish; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: pl-only deck „Fałszywi przyjaciele i kalki” (profile pl.md §9, DECKNAMES row 22) appended last, after the shared alphabet deck"
+  },
+  "extraLessons": [
+    "ponglish",
+    "articles-3"
+  ],
   "droppedLessons": []
 }
