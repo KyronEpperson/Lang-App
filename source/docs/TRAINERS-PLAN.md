@@ -1,6 +1,6 @@
 # Korean trainers for every learner language: plan
 
-Status: **design, not started** (2026-11-22). Nothing in `src/app.html` is changed by this document.
+Status: **WP0a, WP0b, WP0c, WP0d and WP1 done** (2026-11-23); WP2–WP8 open. What is built, and what the open packages can rely on: see **Done** at the end. The design below is unchanged; line numbers in it are from the 2026-11-22 snapshot.
 
 Sources read:
 - `src/app.html`, snapshot sha256 `38ad6749…`. Line numbers below are **≈** values from that snapshot, because another agent is editing the file. Code is quoted so each spot can be found by search.
@@ -575,3 +575,114 @@ Counted with the halves word counter (`lib.words`, Latin-letter words) over the 
 | **trainer.json total** | **663** (328 strings) |
 | Korean-specific `ui.json` overrides (14 static strings, the draft's `ui` group; es already overrides 2 of them) | 86 |
 | **Per new language** | **≈750 words** (663 + 86), plus the alternates/input table (authored, not translated; usually under 20 entries) |
+
+---
+
+## Done (2026-11-23): WP0a, WP0b, WP0c, WP0d, WP1 and the live bugs
+
+`src/app.html` sha256 `abc284e5db93332b…` (exported into `target/ko/course.json`). All of the following pass on that build: `node tools/tests/trainers-golden.js` (en-ko recording **identical**), `node harness.js` (100 guards), `node tools/tests/esko.js`, `node tools/tests/kograde.js`, `node tools/tests/voicetest.js`, `node tools/site/lazy.js`, `node tools/halves/selftest.js`, `node tools/halves/proof.js` (0 raw / 0 runtime-path differences), `node tools/halves/validate.js en ko` and `es ko` (0 errors).
+
+### What is built
+
+**WP0a: golden.** `tools/tests/trainers-golden.js` and `tools/tests/golden/en-ko-trainers.json` (39 sections, about 1.15 MB), recorded on the untouched build. They hold:
+* the per-deck predicates over all 43 decks and `dialogDeck` for every dialogue key;
+* `answersFor` for all 101 words, `hangulItem` ×200 at each level, and `MEAN`;
+* the renderers type / pick (×50 at each of 3 levels, with correct, alternate, wrong and empty submissions), register, sound, listen, role, numbers, build (×50), say, and stale modes;
+* `renderQuizQ` "why" and `renderReviewQ` for every deck, `buildQuiz`, and card backs (every jamo card, plus the first card of each deck and every dialogue card);
+* `buildSentences`, `breakdown`, `breakdownHTML`, `dialogVocab`, `cjHTML` over 42 inputs, and `renderGrammar`;
+* `numItem` ×200, `sino` / `native`, the sound pool, `pronNote` / `romanize` over all cards, and `pronounce`;
+* `toast()` and `koTips` titles for every `KOUI` word;
+* `sessSize` + `planSession` for 7 learner states, `weekDeck`, `QUICK.read`, `TOUR[3]`, the `#hModes` visibility, the nav and read-tab chrome, the global-search drill and action lists, each onboarding answer's effect, the today tiles and `qSel` at boot.
+
+Seeded mulberry32 per item, frozen clock (2026-11-20 10:00 UTC), en-US, fresh storage, speech stubbed. Run it twice and it gives the same result; a one-token mutation (ㅜ loses `oo`) turns it red. `--record` re-records it (WP7 and WP8 only, with the diff reviewed). `GOLDEN_SRC=<html>` runs it against another build.
+
+**WP0b: engine foundation (`src/app.html`).**
+* Helpers after `CF`: `ROLES_EN`, `KINDS_EN`, `TR(path)`, `TRF(path, …slots)`, `ROLE(r)`, `roleList(r)`, `KIND(k, deck)` (memoised per `KINDS` object), `TRAINER_WIRED`, `READY`, `CF(f)` (flag ∧ readiness for Korean targets; non-built-in courses only get wired features) and `modeOk(mode)`.
+* `trainerEn()` (before `courseRT`) builds the en `TRAINER`:
+  * by reference: `MEAN`, `PART` / `ENDS` (as maps), `QW`, `CONN`, `COUNT`, `BUILD_EN`, and `KOUI` glosses;
+  * literals: everything else, equal to the draft.
+* `registerCourses()` attaches `ROLES` / `KINDS` / `TRAINER` to `COURSES['en-ko']`.
+* All 15 deck-name sites now read `ROLE` / `roleList` / `KIND`. `qSel`'s top-level initialiser uses the constant `ROLES_EN.survival`, because it runs before `registerCourses`.
+* Mode gating goes through `modeOk`:
+  * `#hModes` chips, `QUICK.read` (items now carry their mode as `x[2]`), the global-search drill list and `sessSize`;
+  * the `renderHangulQ` dispatch (falls back to type), and `resetCourseRuntime` (a stale or unavailable mode resets to `hangul.defaultMode` or `type`);
+  * the breakdown button and "Words from dialogues" use `modeOk('build')`.
+* Jamo tables:
+  * `V` lost its English tails (`uh`, `u`, `yuh`, `oo`, `ee`);
+  * `hangulTables()` rebuilds `[canonical, …neutral, …native]` per `TRAINER.hangul.alt` (memoised per alt object), and `decompose` reads it;
+  * the `'sh'` push comes from `alt.sh`;
+  * `hangulCands(raw)` is the input normaliser (lower case, `map`, `fold`, `[a-z]`, plus one candidate from the `rewrite` rules).
+* `setI18n()` / `i18nDict()` use a non-empty `COURSE.UI` even when the native language has no interface pack (B11).
+* Tooltips: `kouiTip(k)` = `romanize(k) + ' · ' + TRAINER.koui[k]`, used by both `koTips` and `toast()` (B5). Courses without `TRAINER.koui`, such as ko-en and en-xx, no longer get English tooltips.
+* `strokeSVG(ch, lbl)` takes the button label; the card back passes `TR('strokes.replay')`, and with no label it draws no button (B12). The 1-argument output is unchanged (lesson tokens, proof).
+* The quiz "why" line shows on `KINDS.grammar` decks with `TRF('quiz.why')` / `TR('quiz.rule')`.
+* `buildSentences`' 18 extra pairs moved verbatim into `const BUILD_EN` (pure move).
+* `harness.js` gained the guards `trainerTables` and `noFallback`.
+
+**WP1: Hangul drill + onboarding.**
+* `renderHangulPick` and `renderHangulQ` read the prompt, placeholder, aria-label, level word, empty hint and meaning from `TRAINER.hangul`. The input carries `lang=COURSE.native` and `inputmode="latin"` unless `defaultMode` is `pick`.
+* `renderOnboard` reads `TRAINER.onboard`; the started toast is `TRF('onboard.started', deck)`; "Yes, fluently" marks `ROLE('hangulVowels')` / `ROLE('hangulConsonants')` as known.
+
+**WP0c / WP0d: halves.**
+* `export_ko.js` now also writes:
+  * `target/ko/course.json` `roles` / `kinds` / `build` (ids `ko.b01`… reused by Korean text);
+  * the mirror `target/ko/trainer.json` (adds `jamo` tables and `uiKeys` to the plan's list);
+  * `native/en/ko/trainer.json` from the live `TRAINER`, carrying the draft's `_src` / `_new` notes. It is identical in content to the draft minus `_meta` / `_engineNeutral` / `ui`.
+  * Running it twice is a no-op, and no other half file changed.
+* `assemble.js`:
+  * emits `ROLES` / `KINDS` (labels) and `TRAINER` (`_` keys and `ui` dropped, `build.extra` filtered to target `build[]`);
+  * computes `features` from `readiness()` ∧ `WIRED` (exported).
+* `validate.js` adds the trainer checks of HALVES-SPEC §10.3, including a syllable-level collision rule the plan's same-slot rule could not express (ㅈ `y`). Trainer and `uiKeys` words count in "words remaining". An absent `trainer.json` or section is a warning.
+* `proof.js` compares `TRAINER` / `ROLES` / `KINDS`, the mirror against the live engine, and the `CF` / `modeOk` gates of the assembled pack against the built-in.
+* `selftest.js` adds 8 trainer breakage cases and one proof case.
+* `docs/HALVES-SPEC.md` v1.1 §10 documents all of it.
+
+**Spanish (`tools/halves/native/es/ko/`).**
+* `trainer.json` holds the sections `hangul` (101 meanings, `ui`, `alt`), `onboard`, `quiz`, `koui` and `strokes`.
+* `ui.json` gained 12 overrides: the read-tab panel ×2, the `(han)` line, "Hangul drill", the grammar search and 7 romanisation strings. With these, all 14 `uiKeys` are covered.
+* The pack is reassembled into `packs/course-es-ko.js` with `features` `script`, `pron` and `strokes`.
+* Alternates, **pending es-reviewer confirmation** (plan §3.2):
+  * `V`: ㅘ `ua`, ㅝ `uo`, ㅙ / ㅞ / ㅚ `ue`;
+  * `sh`;
+  * `input`: `fold`, `ñ→ny`, rewrites `qu(?=[ei])→k`, `gu(?=[ei])→g`, `c(?=[aou])→k`.
+
+**Live bugs.** Each was reproduced on the pre-change build and is now fixed:
+* B4: es-ko offered «Vocales del hangul», «Partículas», «Números» … as "where" answers.
+* B5: `수고했어요` showed the tooltip "sugohaesseoyo · good work"; it is now «… · buen trabajo».
+* B12: the "↻ stroke order" button is now «↻ orden de trazos».
+* B11: setI18n dropped `COURSE.UI` without an interface pack.
+
+`tools/tests/esko.js` covers all four on the real pack (B11 with a `tl` fixture). It also covers E11–E13 and the Hangul drill H0–H13: 서울 `seoul` ✓ / `soul` ✗, 과 `gwa` / `gua` ✓, 게 `ge` / `gue` ✓, 서 `so` ✗, 서 `suh` ✗, `sé` folded, 김치 `quimchi` ✓ and 뇨 `ño` ✓. Every screen is scanned with the script on. Screenshots: `review/trainers/es-ko-hangul-drill-390*.png`.
+
+### What WP2–WP8 can rely on
+
+* **One switch per feature, in two places.** To ship a trainer for packs, route its renderer through `TR` / `TRF`, then set the feature to 1 in `TRAINER_WIRED` (app) and to true in `WIRED` (`assemble.js`). WP6 does the same with `TRAINER_WIRED.build`. Until then a pack never runs it, whatever its flags or data say.
+* **The en data is already there.** `COURSES['en-ko'].TRAINER` has every section with the draft's exact strings: `numbers`, `sound` (`showGloss:false`), `register`, `conj`, `gloss.tpl`, `build.ui` and `quiz.rule`. The packages change **readers only**, so the golden must stay identical. `native/en/ko/trainer.json` is regenerated by `export_ko.js`, never hand-edited.
+* **Spanish.** Add your section to `native/es/ko/trainer.json` directly (sections are disjoint, so there is no merge), run `validate.js es ko` (key parity, slots and Hangul are enforced per section), then the lead reassembles. The readiness rule for each section is in `assemble.js` `readiness()` and in app `READY`.
+* **Tests.** The `trainerTests()` pattern in `esko.js` gives a fresh context per scenario on the real pack, a `visText` scan and a `leaks(text, allow)` filter. Add your scenarios there, or in your own `esko-<name>.js` copying that block. Then run the golden.
+* **Line ownership.** WP0b already rewrote every mixed line the plan assigns to it. WP5 owns `cjHTML` and the conjugator half of the `renderGrammar` line; the "Words from dialogues" gate on that line is now `modeOk('build')`. WP6 owns `PART` … `isPastSyl`, `breakdown` / `breakdownHTML`, `buildSentences` (it reads `BUILD_EN`; switch it to `TR('build.extra')`), `renderBuildQ` and `dialogVocab`.
+* **WP7 / WP8** re-record the golden with `--record` and review the diff.
+
+### Deviations from the plan
+
+* The tests extend `tools/tests/esko.js` (as requested) instead of adding `esko-lib.js` / `esko-hangul.js`.
+* `mk_native.js` is **unchanged**: there is no `wT.jsonl` split, because the ceb writers are mid-flight on the current split. Non-English `trainer.json` files are written directly.
+* Gating with `TRAINER_WIRED` / `WIRED` is new. Without it, a pack with data for an unwired trainer would show its English literals, which breaks requirement 2.
+* The es half also carries `quiz`, `koui` and `strokes`. They are small, and without them the B5 / B12 fixes would show nothing, and the grammar-deck "why" line (now matched by `KINDS`) would be missing.
+* `trainer.draft.json` is kept as a historical reference. `trainer.json` is authoritative, and the draft can be deleted.
+* The mirror adds `jamo` (needed by the alternate rules and the 400-cap check) and `uiKeys`.
+* WP0b and WP1 went in as **one** assertion-guarded edit pass (`src/app.html`), so the golden was compared after that pass, not between the two stages. It was compared again after every later change.
+* The deck-name sites changed for every course, not only Korean ones. A scan of all 44 other packs found no deck or group named like the old regexes and literals (Survival phrases, Everyday / Social, Particles …, Hangul… / Pronunciation…), so their behaviour is unchanged.
+
+### Left open
+
+* WP2–WP8.
+* es-reviewer confirmation of the alternates and of the 101 meanings. 영어 is «inglés» by meaning; the esko scans allow that word only as card or drill content.
+* The `trainer.json` split in `mk_native.js`.
+* B9 (en ㅓ `u`) and B10 (English fronts in the target half), as planned.
+* es `trainer.json` has 455 words remaining (the unwired sections).
+* `validate.js` counts the 663 trainer words and the 86 `uiKeys` words as remaining for any half without them, ceb included. A read-only run on ceb shows the trainer checks add only a warning.
+* Two es-ko notes now that `script` is on:
+  * Existing learners who went through the generic onboarding have no `read` answer. `canRead` withholds their reading and listening session items until lesson 1 is done or 8 consonants are learned, as for en-ko.
+  * `TOUR[3]` (a translated key) still names the numbers and polite↔casual drills, which es-ko gets only with WP2 / WP4.
+

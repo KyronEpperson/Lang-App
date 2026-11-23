@@ -1,0 +1,198 @@
+{
+ "_about": "Spanish (neutral Latin American, tú) trainer text for the Korean course: the parts WP1 needs (Hangul drill, onboarding) plus the small tables the engine reads on every screen (stroke button, tooltip glosses, quiz \"why\" line). Shape and keys: native/en/ko/trainer.json; glossary: REVIEW.md. Sections still absent (gloss, build, numbers, sound, register, conj) keep those trainers off until WP2–WP6.",
+ "hangul": {
+  "_src": "Hangul reading drill. mean = the Spanish meaning shown after each answer; ui = the drill's own words.",
+  "mean": {
+   "나무": "árbol",
+   "바다": "mar",
+   "가수": "cantante",
+   "구두": "zapatos de vestir",
+   "고기": "carne",
+   "모자": "gorra / sombrero",
+   "바지": "pantalón",
+   "지도": "mapa",
+   "하나": "uno",
+   "어머니": "madre",
+   "아버지": "padre",
+   "머리": "cabeza / pelo",
+   "다리": "pierna / puente",
+   "소리": "sonido",
+   "노래": "canción",
+   "피자": "pizza",
+   "커피": "café",
+   "치마": "falda",
+   "토마토": "tomate",
+   "포도": "uva",
+   "기차": "tren",
+   "하루": "un día",
+   "이모": "tía (por parte de mamá)",
+   "누나": "hermana mayor (dicho por un hombre)",
+   "야구": "béisbol",
+   "여자": "mujer",
+   "요리": "cocina, cocinar",
+   "유리": "vidrio",
+   "우유": "leche",
+   "아이": "niño / niña",
+   "오이": "pepino",
+   "나비": "mariposa",
+   "부자": "persona rica",
+   "주소": "dirección",
+   "비누": "jabón",
+   "가게": "tienda",
+   "해": "sol / año",
+   "배": "barco / pera / barriga",
+   "개": "perro",
+   "나라": "país",
+   "서울": "Seúl",
+   "한국": "Corea",
+   "사람": "persona",
+   "물": "agua",
+   "밥": "arroz / comida",
+   "김치": "kimchi",
+   "집": "casa",
+   "산": "montaña",
+   "강": "río",
+   "눈": "ojo / nieve",
+   "문": "puerta",
+   "손": "mano",
+   "발": "pie",
+   "책": "libro",
+   "달": "luna / mes",
+   "별": "estrella",
+   "밤": "noche / castaña",
+   "공": "pelota",
+   "방": "habitación",
+   "돈": "dinero",
+   "술": "alcohol",
+   "말": "palabra / caballo",
+   "길": "camino",
+   "봄": "primavera",
+   "감": "caqui",
+   "입": "boca",
+   "친구": "amigo / amiga",
+   "선생님": "profesor/a",
+   "학생": "estudiante",
+   "사랑": "amor",
+   "안녕": "hola / adiós",
+   "감사": "gracias",
+   "한글": "hangul",
+   "시간": "tiempo / hora",
+   "음악": "música",
+   "영어": "inglés",
+   "생일": "cumpleaños",
+   "운동": "ejercicio",
+   "이름": "nombre",
+   "얼굴": "cara",
+   "꽃": "flor",
+   "딸": "hija",
+   "빨리": "rápido",
+   "쌀": "arroz (sin cocer)",
+   "진짜": "de verdad",
+   "과일": "fruta",
+   "원": "won",
+   "회사": "empresa",
+   "귀": "oreja",
+   "왜": "por qué",
+   "의사": "médico/a",
+   "얘기": "conversación / historia",
+   "옷": "ropa",
+   "부엌": "cocina",
+   "앞": "delante",
+   "닭": "pollo",
+   "값": "precio",
+   "뭐": "qué",
+   "외국": "el extranjero",
+   "위": "arriba / estómago",
+   "끝": "fin"
+  },
+  "alt": {
+   "_note": "Typed-answer alternates for Spanish spellings (TRAINERS-PLAN §3.2). Proposed by the plan from standard Spanish orthography; PENDING confirmation by the es reviewer. Rejected on purpose (would merge letters the course teaches apart): ㅓ o, ㅡ u, ㅕ yo, ㅟ ui, ㅎ j, ㅈ y / ch, ㅃ ㄸ ㄲ p t k, final ㅇ n, ㅇ h, and the English uh / oo / ee / yuh.",
+   "V": {
+    "ㅘ": [
+     "ua"
+    ],
+    "ㅝ": [
+     "uo"
+    ],
+    "ㅙ": [
+     "ue"
+    ],
+    "ㅞ": [
+     "ue"
+    ],
+    "ㅚ": [
+     "ue"
+    ]
+   },
+   "L": {},
+   "T": {},
+   "sh": [
+    "sh"
+   ],
+   "input": {
+    "fold": true,
+    "map": [
+     [
+      "ñ",
+      "ny"
+     ]
+    ],
+    "rewrite": [
+     [
+      "qu(?=[ei])",
+      "k"
+     ],
+     [
+      "gu(?=[ei])",
+      "g"
+     ],
+     [
+      "c(?=[aou])",
+      "k"
+     ]
+    ]
+   }
+  },
+  "ui": {
+   "placeholder": "escribe el sonido, p. ej., ga",
+   "ariaLabel": "Romanización",
+   "levelSyllable": "sílaba",
+   "levelWord": "palabra",
+   "empty": "Escribe el sonido con letras latinas (p. ej., <b>ga</b>) o escribe la palabra en hangul.",
+   "pickPrompt": "¿Cuál escuchaste?"
+  }
+ },
+ "quiz": {
+  "why": "Por qué: %1",
+  "rule": "Ver la regla ↗"
+ },
+ "koui": {
+  "수고했어요": "buen trabajo",
+  "다음에 봐요": "nos vemos la próxima",
+  "잘했어요": "bien hecho",
+  "대박": "increíble",
+  "좋아요": "bien",
+  "다시 해 봐요": "inténtalo otra vez",
+  "맞아요": "correcto",
+  "완벽해요": "perfecto",
+  "다 했어요": "todo listo",
+  "목표 달성": "meta cumplida",
+  "레벨 업": "subiste de nivel",
+  "내 표현": "mis frases",
+  "모두 열렸어요": "todo desbloqueado",
+  "한글": "el alfabeto coreano"
+ },
+ "onboard": {
+  "title": "안녕하세요 👋 Dos preguntas rápidas",
+  "read": "¿Ya sabes leer hangul?",
+  "readNo": "Todavía no",
+  "readSlow": "Despacio",
+  "readYes": "Sí, con fluidez",
+  "goal": "¿Para qué quieres aprender coreano?",
+  "time": "¿Cuánto tiempo al día?",
+  "started": "Listo. Empieza con %1."
+ },
+ "strokes": {
+  "replay": "↻ orden de trazos"
+ }
+}

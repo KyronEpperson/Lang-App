@@ -17,5 +17,17 @@
  "Korean progress": "Progreso en coreano",
  "Type the Korean": "Escríbelo en coreano",
  "type it in Korean": "escríbelo en coreano",
- "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": "Hangul, tarjetas con audio, tests y una sesión diaria de 5 minutos. Antes de empezar: ¿cómo guardamos tu progreso?"
+ "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": "Hangul, tarjetas con audio, tests y una sesión diaria de 5 minutos. Antes de empezar: ¿cómo guardamos tu progreso?",
+ "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": "Escribe la romanización. Cada bloque del hangul apila consonante + vocal (+ consonante final). El nivel que elijas aquí también se usa en las sesiones.",
+ "How a block is built": "Cómo se forma un bloque",
+ "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": "(han). Las vocales verticales (ㅏㅓㅣ) van a la derecha de la consonante; las horizontales (ㅗㅜㅡ), debajo. La consonante final siempre va abajo.",
+ "Hangul drill": "Lectura de hangul",
+ "Search a pattern, e.g. 에서 or 'want'": "Busca una estructura, p. ej., 에서 o «querer»",
+ "Romanization": "Romanización",
+ "Romanization (auto if blank)": "Romanización (automática si la dejas vacía)",
+ "Hide romanization": "Ocultar romanización",
+ "Blur romanization in Browse": "Difuminar romanización en Explorar",
+ "Show romanization in practice": "Mostrar romanización al practicar",
+ "Aa romanization: on": "Aa romanización: activada",
+ "Aa romanization: off": "Aa romanización: desactivada"
 }

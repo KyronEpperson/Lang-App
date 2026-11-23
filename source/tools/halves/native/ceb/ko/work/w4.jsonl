@@ -1,0 +1,674 @@
+{"f":"lessons","id":"food","k":"title","src":"19 · Eating out","tgt":"19 · Pagkaon sa gawas"}
+{"f":"lessons","id":"food","k":"blurb","src":"Ordering, counters, and the two meal phrases everyone says.","tgt":"Pag-order, mga counter, ug ang duha ka pulong nga ingnon sa tanan sa kan-anan."}
+{"f":"sentences","id":"ko.s0181","k":"gloss","src":"Excuse me! (to call staff)","tgt":"Palihug! (aron tawgon ang serbidor)"}
+{"f":"sentences","id":"ko.s0182","k":"gloss","src":"This one, please (point at the menu)","tgt":"Kini, palihug (itudlo sa menu)"}
+{"f":"sentences","id":"ko.s0183","k":"gloss","src":"Water, please","tgt":"Tubig, palihug"}
+{"f":"sentences","id":"ko.s0184","k":"gloss","src":"Check, please","tgt":"Ang bayronon, palihug"}
+{"f":"sentences","id":"ko.s0185","k":"gloss","src":"Two gimbap, please","tgt":"Duha ka gimbap, palihug"}
+{"f":"sentences","id":"ko.s0186","k":"gloss","src":"Three beers, please","tgt":"Tulo ka beer, palihug"}
+{"f":"sentences","id":"ko.s0187","k":"gloss","src":"Before eating: 'I will eat well'","tgt":"Sa dili pa mokaon: 'Mokaon ko og maayo'"}
+{"f":"sentences","id":"ko.s0188","k":"gloss","src":"After eating: 'I ate well'","tgt":"Human mokaon: 'Nikaon ko og maayo'"}
+{"f":"checks","id":"food.k1","k":"q","src":"To call a waiter you say:","tgt":"Aron tawgon ang serbidor, ingnon nimo:"}
+{"f":"checks","id":"food.k1","k":"why","src":"저기요 = excuse me (there). 야 is rude to staff.","tgt":"저기요 = matinahurong pagtawag (sa literal, 'didto'). Bastos ang 야 sa serbidor."}
+{"f":"checks","id":"food.k2","k":"q","src":"'Two gimbap, please' =","tgt":"'Duha ka gimbap, palihug' ="}
+{"f":"checks","id":"food.k2","k":"why","src":"Native 둘 → 두 before the counter 개 (things).","tgt":"Ang native nga 둘 mahimong 두 sa atubangan sa counter 개 (mga butang)."}
+{"f":"checks","id":"food.k3","k":"q","src":"Said AFTER eating:","tgt":"Ingnon HUMAN mokaon:"}
+{"f":"checks","id":"food.k3","k":"why","src":"먹었 = past (I ate well). 먹겠 = future (I will eat well).","tgt":"먹었 = past (nikaon ko og maayo). 먹겠 = future (mokaon ko og maayo)."}
+{"f":"practice","id":"food.01","k":"q","src":"To call a server over, you say:","tgt":"Aron tawgon ang serbidor, ingnon nimo:"}
+{"f":"practice","id":"food.01","k":"why","src":"저기요 = 'excuse me', to get someone's attention.","tgt":"저기요 = pagtawag sa atensyon sa usa ka tawo, sama sa 'Palihug!'."}
+{"f":"practice","id":"food.02","k":"q","src":"Before you start eating, you say:","tgt":"Sa dili pa ka mosugod og kaon, ingnon nimo:"}
+{"f":"practice","id":"food.02","k":"why","src":"먹겠습니다 = 'I will eat (well)'; 먹었습니다 is past, for after the meal.","tgt":"먹겠습니다 = 'mokaon ko (og maayo)'; ang 먹었습니다 kay past, para human sa pagkaon."}
+{"f":"practice","id":"food.03","k":"q","src":"'Two gimbap, please' =","tgt":"'Duha ka gimbap, palihug' ="}
+{"f":"practice","id":"food.03","k":"why","src":"Noun + native number + 개 for things; 둘 → 두.","tgt":"Noun + native number + 개 para sa mga butang; 둘 → 두."}
+{"f":"practice","id":"food.04","k":"q","src":"'Three beers (glasses), please' =","tgt":"'Tulo ka beer (baso), palihug' ="}
+{"f":"practice","id":"food.04","k":"why","src":"Glasses take 잔, with the native number 세 in front of it.","tgt":"Ang baso mogamit og 잔, nga naay native number 세 sa atubangan."}
+{"f":"practice","id":"food.05","k":"q","src":"'Check, please' =","tgt":"'Ang bayronon, palihug' ="}
+{"f":"practice","id":"food.05","k":"why","src":"계산 = paying the bill; 해 주세요 = please do it.","tgt":"계산 = pagbayad sa bayronon; 해 주세요 = palihug buhata."}
+{"f":"practice","id":"food.06","k":"p","src":"Two gimbap, please","tgt":"Duha ka gimbap, palihug"}
+{"f":"practice","id":"food.06","k":"why","src":"Noun + number + counter + 주세요.","tgt":"Noun + numero + counter + 주세요."}
+{"f":"practice","id":"food.07","k":"p","src":"One coffee, please","tgt":"Usa ka kape, palihug"}
+{"f":"practice","id":"food.07","k":"why","src":"하나 → 한 before the counter 잔.","tgt":"하나 → 한 sa atubangan sa counter 잔."}
+{"f":"practice","id":"food.08","k":"p","src":"Please make it not spicy","tgt":"Palihug, ayaw himoa nga halang"}
+{"f":"practice","id":"food.08","k":"why","src":"맵지 않게 = not spicy; 해 주세요 = please make it.","tgt":"맵지 않게 = dili halang; 해 주세요 = palihug himoa."}
+{"f":"practice","id":"food.09","k":"p","src":"Two beers (glasses), please","tgt":"Duha ka beer (baso), palihug"}
+{"f":"practice","id":"food.09","k":"why","src":"Cups and glasses → 잔.","tgt":"Tasa ug baso → 잔."}
+{"f":"practice","id":"food.10","k":"p","src":"I ate well (said after the meal)","tgt":"Nikaon ko og maayo (ingnon human sa pagkaon)"}
+{"f":"practice","id":"food.10","k":"why","src":"After the meal is past: 잘 먹었습니다.","tgt":"Human sa pagkaon, past na: 잘 먹었습니다."}
+{"f":"practice","id":"food.11","k":"p","src":"Check, please","tgt":"Ang bayronon, palihug"}
+{"f":"practice","id":"food.11","k":"why","src":"하다 → 해 before 주세요: 계산해 주세요.","tgt":"하다 → 해 sa atubangan sa 주세요: 계산해 주세요."}
+{"f":"practice","id":"food.12","k":"p","src":"Water, please","tgt":"Tubig, palihug"}
+{"f":"practice","id":"food.12","k":"why","src":"Noun + 주세요 is the all-purpose order.","tgt":"Noun + 주세요: magamit sa bisan unsang order."}
+{"f":"practice","id":"food.13","k":"p","src":"Three gimbap, please (write the number in Hangul)","tgt":"Tulo ka gimbap, palihug (isulat ang numero sa Hangul)"}
+{"f":"practice","id":"food.13","k":"why","src":"셋 shortens to 세 before 개.","tgt":"Ang 셋 mahimong 세 sa atubangan sa 개."}
+{"f":"practice","id":"food.14","k":"p","src":"One coffee, please (write the number in Hangul)","tgt":"Usa ka kape, palihug (isulat ang numero sa Hangul)"}
+{"f":"practice","id":"food.14","k":"why","src":"Counting cups is native (한 잔), not Sino 일.","tgt":"Ang tasa ihapon sa native numbers (한 잔), dili sa Sino-Korean nga 일."}
+{"f":"lessons","id":"getting-around","k":"title","src":"20 · Getting around","tgt":"20 · Paglibot sa siyudad"}
+{"f":"lessons","id":"getting-around","k":"blurb","src":"Asking where, understanding the answer, taxis and subway.","tgt":"Pagpangutana kon asa, pagsabot sa tubag, taxi ug subway."}
+{"f":"sentences","id":"ko.s0189","k":"gloss","src":"Where is the subway station?","tgt":"Asa ang estasyon sa subway?"}
+{"f":"sentences","id":"ko.s0190","k":"gloss","src":"Go straight","tgt":"Diretso lang"}
+{"f":"sentences","id":"ko.s0191","k":"gloss","src":"Go left (으로 = toward)","tgt":"Adto sa wala (으로 = padulong)"}
+{"f":"sentences","id":"ko.s0192","k":"gloss","src":"Please go to Myeongdong","tgt":"Sa Myeongdong, palihug"}
+{"f":"sentences","id":"ko.s0193","k":"gloss","src":"Please stop here","tgt":"Diri lang, palihug"}
+{"f":"sentences","id":"ko.s0194","k":"gloss","src":"The next station is Gangnam","tgt":"Ang sunod nga estasyon: Gangnam"}
+{"f":"checks","id":"getting-around.k1","k":"q","src":"'Go straight' =","tgt":"'Diretso lang' ="}
+{"f":"checks","id":"getting-around.k1","k":"why","src":"똑바로 = straight.","tgt":"똑바로 = diretso."}
+{"f":"checks","id":"getting-around.k2","k":"q","src":"In a taxi, 'please go to Myeongdong' =","tgt":"Sa taxi, 'sa Myeongdong, palihug' ="}
+{"f":"checks","id":"getting-around.k2","k":"why","src":"place + 으로 가 주세요.","tgt":"lugar + 으로 가 주세요."}
+{"f":"checks","id":"getting-around.k3","k":"q","src":"The transit card is called:","tgt":"Ang kard nga ipambayad sa pamasahe gitawag nga:"}
+{"f":"checks","id":"getting-around.k3","k":"why","src":"T-money works on subway, bus and most taxis.","tgt":"Magamit ang T-money sa subway, bus, ug sa kadaghanan sa taxi."}
+{"f":"practice","id":"getting-around.01","k":"q","src":"'Where is the subway station?' =","tgt":"'Asa ang estasyon sa subway?' ="}
+{"f":"practice","id":"getting-around.01","k":"why","src":"Place + 어디예요? = 'Where is (place)?'","tgt":"Lugar + 어디예요? = 'Asa ang (lugar)?'"}
+{"f":"practice","id":"getting-around.02","k":"q","src":"'Go left' =","tgt":"'Adto sa wala' ="}
+{"f":"practice","id":"getting-around.02","k":"why","src":"왼쪽 = left, 으로 = toward.","tgt":"왼쪽 = wala, 으로 = padulong."}
+{"f":"practice","id":"getting-around.03","k":"q","src":"In a taxi: 'Please go to Myeongdong' =","tgt":"Sa taxi: 'Sa Myeongdong, palihug' ="}
+{"f":"practice","id":"getting-around.03","k":"why","src":"Destination + (으)로 + 가 주세요.","tgt":"Ang adtoan + (으)로 + 가 주세요."}
+{"f":"practice","id":"getting-around.04","k":"q","src":"'Please stop here' =","tgt":"'Diri lang, palihug' ="}
+{"f":"practice","id":"getting-around.04","k":"why","src":"여기서 = here; 세워 주세요 = please stop.","tgt":"여기서 = diri; 세워 주세요 = palihug hunong."}
+{"f":"practice","id":"getting-around.05","k":"q","src":"On the subway, 'next stop' =","tgt":"Sa subway, 'sunod nga estasyon' ="}
+{"f":"practice","id":"getting-around.05","k":"why","src":"다음 = next, 역 = station. 이번 역 = this stop.","tgt":"다음 = sunod, 역 = estasyon. 이번 역 = kini nga estasyon."}
+{"f":"practice","id":"getting-around.06","k":"p","src":"Please go to Myeongdong","tgt":"Sa Myeongdong, palihug"}
+{"f":"practice","id":"getting-around.06","k":"why","src":"Destination + 으로, then 가 주세요.","tgt":"Ang adtoan + 으로, dayon 가 주세요."}
+{"f":"practice","id":"getting-around.07","k":"p","src":"Please stop here","tgt":"Diri lang, palihug"}
+{"f":"practice","id":"getting-around.07","k":"why","src":"Place first, then 세워 주세요.","tgt":"Ang lugar una, dayon 세워 주세요."}
+{"f":"practice","id":"getting-around.08","k":"p","src":"Where is the bus stop?","tgt":"Asa ang hulatanan sa bus?"}
+{"f":"practice","id":"getting-around.08","k":"why","src":"Place + 어디예요?","tgt":"Lugar + 어디예요?"}
+{"f":"practice","id":"getting-around.09","k":"p","src":"Go left","tgt":"Adto sa wala"}
+{"f":"practice","id":"getting-around.09","k":"why","src":"Toward a direction → (으)로; 왼쪽 ends in a consonant, so 으로.","tgt":"Padulong sa usa ka direksyon → (으)로; ang 왼쪽 mohuman sa consonant, mao nga 으로."}
+{"f":"practice","id":"getting-around.10","k":"p","src":"Where is the subway station?","tgt":"Asa ang estasyon sa subway?"}
+{"f":"practice","id":"getting-around.10","k":"why","src":"어디 = where.","tgt":"어디 = asa."}
+{"f":"practice","id":"getting-around.11","k":"p","src":"To the airport, please","tgt":"Sa tugpahanan, palihug"}
+{"f":"practice","id":"getting-around.11","k":"why","src":"Destination → 으로 (after a consonant) or 에, never 에서.","tgt":"Ang adtoan → 으로 (human sa consonant) o 에, dili gyud 에서."}
+{"f":"practice","id":"getting-around.12","k":"p","src":"Where is the subway station?","tgt":"Asa ang estasyon sa subway?"}
+{"f":"practice","id":"getting-around.12","k":"why","src":"Place + 어디예요?","tgt":"Lugar + 어디예요?"}
+{"f":"practice","id":"getting-around.13","k":"p","src":"Go straight (giving directions)","tgt":"Diretso lang (paghatag og direksyon)"}
+{"f":"practice","id":"getting-around.13","k":"why","src":"똑바로 = straight; 가세요 = please go.","tgt":"똑바로 = diretso; 가세요 = palihug lakaw."}
+{"f":"practice","id":"getting-around.14","k":"p","src":"Please go to the airport (to a taxi driver)","tgt":"Sa tugpahanan, palihug (sa drayber sa taxi)"}
+{"f":"practice","id":"getting-around.14","k":"why","src":"Destination takes 으로 or 에. 에서 is where an action happens.","tgt":"Ang adtoan mogamit og 으로 o 에. Ang 에서 para sa lugar diin naay buhaton. Sa Bisaya, 'sa' ra para sa duha."}
+{"f":"lessons","id":"titles","k":"title","src":"21 · Titles & honorifics","tgt":"21 · Mga title: unsaon pagtawag sa tawo"}
+{"f":"lessons","id":"titles","k":"blurb","src":"씨, 님, 오빠/언니 — what to call people and when a bare name is rude.","tgt":"씨, 님, 오빠/언니: unsay itawag sa mga tawo, ug kanus-a bastos ang ngalan ra."}
+{"f":"sentences","id":"ko.s0195","k":"gloss","src":"Boss (owner), the check please","tgt":"Boss (sa tag-iya), ang bayronon palihug"}
+{"f":"sentences","id":"ko.s0196","k":"gloss","src":"Minsu, are you free?","tgt":"Minsu, naa kay oras?"}
+{"f":"sentences","id":"ko.s0197","k":"gloss","src":"(to older guy, from a girl) What are you doing?","tgt":"(sa babaye ngadto sa mas magulang nga lalaki) Unsay imong ginabuhat?"}
+{"f":"checks","id":"titles.k1","k":"q","src":"Your coworker Minsu, same age. Safe way to address him:","tgt":"Si Minsu, imong kauban sa trabaho, ka-edad nimo. Ang luwas nga pagtawag niya:"}
+{"f":"checks","id":"titles.k1","k":"why","src":"Name + 씨 is the polite default with peers.","tgt":"Ngalan + 씨 ang kasagarang matinahurong pagtawag sa ka-edad o ka-level."}
+{"f":"checks","id":"titles.k2","k":"q","src":"You're a guy; she's two years older. You call her:","tgt":"Lalaki ka; babaye siya nga duha ka tuig nga mas magulang nimo. Tawgon nimo siya og:"}
+{"f":"checks","id":"titles.k2","k":"why","src":"Male speaker → older girl = 누나.","tgt":"Lalaki ang nagsulti → babaye nga mas magulang = 누나."}
+{"f":"checks","id":"titles.k3","k":"q","src":"Calling the café owner over:","tgt":"Pagtawag sa tag-iya sa kapehan:"}
+{"f":"checks","id":"titles.k3","k":"why","src":"사장님 = boss/owner, polite and standard.","tgt":"사장님 = boss o tag-iya, matinahuron ug mao ang kasagaran."}
+{"f":"practice","id":"titles.01","k":"q","src":"Calling your coworker 민수 politely:","tgt":"Matinahurong pagtawag sa imong kauban sa trabaho nga si 민수:"}
+{"f":"practice","id":"titles.01","k":"why","src":"Name + 씨 is the polite default for peers and coworkers.","tgt":"Ngalan + 씨 ang kasagarang matinahurong pagtawag sa ka-level ug sa kauban sa trabaho."}
+{"f":"practice","id":"titles.02","k":"q","src":"A woman calling her older male friend 민수:","tgt":"Usa ka babaye nga motawag sa iyang mas magulang nga higala nga lalaki, si 민수:"}
+{"f":"practice","id":"titles.02","k":"why","src":"Women say 오빠 to older guys; men say 형.","tgt":"Ang babaye moingon og 오빠 sa mas magulang nga lalaki; ang lalaki, 형."}
+{"f":"practice","id":"titles.03","k":"q","src":"A man calling his older female friend 지은:","tgt":"Usa ka lalaki nga motawag sa iyang mas magulang nga higala nga babaye, si 지은:"}
+{"f":"practice","id":"titles.03","k":"why","src":"Men say 누나 to older women; women say 언니.","tgt":"Ang lalaki moingon og 누나 sa mas magulang nga babaye; ang babaye, 언니."}
+{"f":"practice","id":"titles.04","k":"q","src":"Calling your close friend 지은 by name:","tgt":"Pagtawag sa imong suod nga higala nga si 지은 sa iyang ngalan:"}
+{"f":"practice","id":"titles.04","k":"why","src":"지은 ends in a consonant → 아.","tgt":"Ang 지은 mohuman sa consonant → 아."}
+{"f":"practice","id":"titles.05","k":"q","src":"Calling the restaurant owner:","tgt":"Pagtawag sa tag-iya sa restawran:"}
+{"f":"practice","id":"titles.05","k":"why","src":"A role takes 님: 사장님.","tgt":"Ang posisyon o trabaho mogamit og 님: 사장님."}
+{"f":"practice","id":"titles.06","k":"p","src":"Boss (owner), the check please","tgt":"Boss (sa tag-iya), ang bayronon palihug"}
+{"f":"practice","id":"titles.06","k":"why","src":"The title opens (or closes) the request.","tgt":"Ang title mag-una (o maulahi) sa hangyo."}
+{"f":"practice","id":"titles.07","k":"p","src":"Minsu, are you free? (to a coworker)","tgt":"Minsu, naa kay oras? (sa kauban sa trabaho)"}
+{"f":"practice","id":"titles.07","k":"why","src":"Name + 씨 for a coworker; it opens (or closes) the question.","tgt":"Ngalan + 씨 para sa kauban sa trabaho; mahimo kining mag-una (o maulahi) sa pangutana."}
+{"f":"practice","id":"titles.08","k":"p","src":"(a girl to an older guy) What are you doing?","tgt":"(sa babaye ngadto sa mas magulang nga lalaki) Unsay imong ginabuhat?"}
+{"f":"practice","id":"titles.08","k":"why","src":"A girl calls an older guy 오빠.","tgt":"Ang babaye motawag og 오빠 sa mas magulang nga lalaki."}
+{"f":"practice","id":"titles.09","k":"p","src":"Minsu! What are you doing? (close friend)","tgt":"Minsu! Unsay imong ginabuhat? (suod nga higala)"}
+{"f":"practice","id":"titles.09","k":"why","src":"민수 ends in a vowel → 야.","tgt":"Ang 민수 mohuman sa vowel → 야."}
+{"f":"practice","id":"titles.10","k":"p","src":"Jieun! Did you eat? (close friend)","tgt":"Jieun! Nakakaon ka na? (suod nga higala)"}
+{"f":"practice","id":"titles.10","k":"why","src":"지은 ends in a consonant → 아.","tgt":"Ang 지은 mohuman sa consonant → 아."}
+{"f":"practice","id":"titles.11","k":"p","src":"Hello, teacher","tgt":"Maayong adlaw, titser"}
+{"f":"practice","id":"titles.11","k":"why","src":"Roles take 님: 선생님.","tgt":"Ang posisyon o trabaho mogamit og 님: 선생님."}
+{"f":"practice","id":"titles.12","k":"p","src":"To your close friend 민수: 'Minsu, what are you doing?' (casual)","tgt":"Sa imong suod nga higala nga si 민수: 'Minsu, unsay imong ginabuhat?' (casual)"}
+{"f":"practice","id":"titles.12","k":"why","src":"Vowel-final name + 야, casual 뭐 해.","tgt":"Ngalan nga mohuman sa vowel + 야, ug ang casual nga 뭐 해."}
+{"f":"practice","id":"titles.13","k":"p","src":"To your coworker 지은: 'Jieun, are you free?' (polite)","tgt":"Sa imong kauban sa trabaho nga si 지은: 'Jieun, naa kay oras?' (polite)"}
+{"f":"practice","id":"titles.13","k":"why","src":"Coworkers get name + 씨, and 요 stays on.","tgt":"Sa kauban sa trabaho: ngalan + 씨, ug magpabilin ang 요."}
+{"f":"practice","id":"titles.14","k":"p","src":"To your teacher: 'Hello, teacher!'","tgt":"Sa imong titser: 'Maayong adlaw, titser!'"}
+{"f":"practice","id":"titles.14","k":"why","src":"Teachers are 선생님, never a name or 씨.","tgt":"Ang titser kay 선생님, dili gyud ang ngalan o 씨."}
+{"f":"lessons","id":"plans","k":"title","src":"22 · Making plans","tgt":"22 · Paghimo og plano"}
+{"f":"lessons","id":"plans","k":"blurb","src":"Suggest, invite, agree: ㄹ까요 / ㄹ래요 / 자, and 같이.","tgt":"Pagsugyot, pagdapit, pag-uyon: ㄹ까요 / ㄹ래요 / 자, ug 같이."}
+{"f":"sentences","id":"ko.s0198","k":"gloss","src":"What shall we do this weekend?","tgt":"Unsa kaha atong buhaton karong katapusan sa semana?"}
+{"f":"sentences","id":"ko.s0199","k":"gloss","src":"Want to have dinner together?","tgt":"Gusto ka mopanihapon uban nako?"}
+{"f":"sentences","id":"ko.s0200","k":"gloss","src":"Sure, what time shall we meet?","tgt":"Sige, unsang orasa ta magkita?"}
+{"f":"sentences","id":"ko.s0201","k":"gloss","src":"See you at 7 at Hongik Univ. station exit 2","tgt":"Kita ta sa alas 7 sa gawasanan 2 sa estasyon sa Hongik Univ."}
+{"f":"sentences","id":"ko.s0202","k":"gloss","src":"Sounds good / Deal!","tgt":"Sige / Kuyog ko!"}
+{"f":"sentences","id":"ko.s0203","k":"gloss","src":"Sorry, I have plans that day","tgt":"Sori, naa nakoy lakaw anang adlawa"}
+{"f":"sentences","id":"ko.s0204","k":"gloss","src":"Next time for sure","tgt":"Sa sunod gyud, sigurado"}
+{"f":"checks","id":"plans.k1","k":"q","src":"'Shall we get coffee?' (soft suggestion)","tgt":"'Magkape kaha ta?' (humok nga sugyot)"}
+{"f":"checks","id":"plans.k1","k":"why","src":"ㄹ까요 = shall we.","tgt":"ㄹ까요 = '… kaha ta?': humok nga sugyot."}
+{"f":"checks","id":"plans.k2","k":"q","src":"'Let's eat!' (casual, decided)","tgt":"'Kaon ta!' (casual, desidido na)"}
+{"f":"checks","id":"plans.k2","k":"why","src":"자 = let's.","tgt":"자 = '… ta!', sama sa 'Kaon ta!': casual ug desidido na."}
+{"f":"checks","id":"plans.k3","k":"q","src":"Koreans usually confirm a meetup spot with:","tgt":"Ang mga Koreano kasagaran mokumpirma sa tagboanan pinaagi sa:"}
+{"f":"checks","id":"plans.k3","k":"o[0]","src":"station + exit number","tgt":"estasyon + numero sa gawasanan"}
+{"f":"checks","id":"plans.k3","k":"o[1]","src":"street address","tgt":"adres sa kalye"}
+{"f":"checks","id":"plans.k3","k":"o[2]","src":"GPS coordinates","tgt":"lokasyon sa GPS"}
+{"f":"checks","id":"plans.k3","k":"o[3]","src":"a landmark photo","tgt":"litrato sa ilado nga lugar"}
+{"f":"checks","id":"plans.k3","k":"why","src":"e.g. 강남역 11번 출구.","tgt":"pananglitan, 강남역 11번 출구."}
+{"f":"practice","id":"plans.01","k":"q","src":"'Shall we drink coffee?' (soft suggestion) =","tgt":"'Magkape kaha ta?' (humok nga sugyot) ="}
+{"f":"practice","id":"plans.01","k":"why","src":"Vowel stem 마시 + ㄹ까요 = 마실까요.","tgt":"Vowel stem 마시 + ㄹ까요 = 마실까요."}
+{"f":"practice","id":"plans.02","k":"q","src":"Asking what they want: 'Do you want to go together?' =","tgt":"Pangutana kon unsay iyang gusto: 'Gusto ka mouban nako og adto?' ="}
+{"f":"practice","id":"plans.02","k":"why","src":"Vowel stem 가 + ㄹ래요 = 갈래요.","tgt":"Vowel stem 가 + ㄹ래요 = 갈래요."}
+{"f":"practice","id":"plans.03","k":"q","src":"To a close friend: 'Let's eat!' =","tgt":"Sa suod nga higala: 'Kaon ta!' ="}
+{"f":"practice","id":"plans.03","k":"why","src":"-자 goes straight onto the stem: 먹 + 자.","tgt":"Ang -자 direkta motapot sa stem: 먹 + 자."}
+{"f":"practice","id":"plans.04","k":"q","src":"먹다 + -(으)ㄹ까요 =","tgt":"먹다 + -(으)ㄹ까요 =","pre":1}
+{"f":"practice","id":"plans.04","k":"why","src":"Consonant stem → 을까요.","tgt":"Consonant stem → 을까요."}
+{"f":"practice","id":"plans.05","k":"q","src":"Saying yes to an invite with enthusiasm:","tgt":"Pag-oo sa usa ka pagdapit nga madasigon:"}
+{"f":"practice","id":"plans.05","k":"why","src":"좋아요 = sounds good; the others turn it down.","tgt":"좋아요 = sige, maayo; ang uban nagbalibad."}
+{"f":"practice","id":"plans.06","k":"p","src":"What shall we do this weekend?","tgt":"Unsa kaha atong buhaton karong katapusan sa semana?"}
+{"f":"practice","id":"plans.06","k":"why","src":"Time + 에, then 뭐 + 할까요.","tgt":"Time word + 에, dayon 뭐 + 할까요."}
+{"f":"practice","id":"plans.07","k":"p","src":"What time shall we meet?","tgt":"Unsang orasa kaha ta magkita?"}
+{"f":"practice","id":"plans.07","k":"why","src":"몇 시에 = at what time; 보다 doubles as 'meet'.","tgt":"몇 시에 = unsang orasa; ang 보다 nagkahulogan sab og 'magkita'."}
+{"f":"practice","id":"plans.08","k":"p","src":"Shall we go to a café?","tgt":"Moadto kaha ta sa kapehan?"}
+{"f":"practice","id":"plans.08","k":"why","src":"Destination + 에 with 가다.","tgt":"Ang adtoan + 에 uban sa 가다."}
+{"f":"practice","id":"plans.09","k":"p","src":"Do you want to watch a movie?","tgt":"Gusto ka motan-aw og sine?"}
+{"f":"practice","id":"plans.09","k":"why","src":"Vowel stem 보 + ㄹ래요 = 볼래요.","tgt":"Vowel stem 보 + ㄹ래요 = 볼래요."}
+{"f":"practice","id":"plans.10","k":"p","src":"What shall we do this weekend?","tgt":"Unsa kaha atong buhaton karong katapusan sa semana?"}
+{"f":"practice","id":"plans.10","k":"why","src":"하 + ㄹ까요 = 할까요.","tgt":"하 + ㄹ까요 = 할까요.","pre":1}
+{"f":"practice","id":"plans.11","k":"p","src":"Let's hang out together! (to a friend)","tgt":"Gala ta! (sa higala)"}
+{"f":"practice","id":"plans.11","k":"why","src":"-자 attaches straight to the stem: 놀 + 자.","tgt":"Ang -자 direkta motapot sa stem: 놀 + 자."}
+{"f":"practice","id":"plans.12","k":"p","src":"Shall we drink coffee? (use -(으)ㄹ까요)","tgt":"Magkape kaha ta? (gamita ang -(으)ㄹ까요)"}
+{"f":"practice","id":"plans.12","k":"why","src":"마시 + ㄹ까요 = 마실까요.","tgt":"마시 + ㄹ까요 = 마실까요.","pre":1}
+{"f":"practice","id":"plans.13","k":"p","src":"Do you want to eat together? (polite, use -(으)ㄹ래요)","tgt":"Gusto ka mokaon uban nako? (polite, gamita ang -(으)ㄹ래요)"}
+{"f":"practice","id":"plans.13","k":"why","src":"Consonant stem 먹 + 을래요.","tgt":"Consonant stem 먹 + 을래요."}
+{"f":"practice","id":"plans.14","k":"p","src":"To a friend: 'Let's meet at the café' (use -자)","tgt":"Sa higala: 'Magkita ta sa kapehan' (gamita ang -자)"}
+{"f":"practice","id":"plans.14","k":"why","src":"Meeting happens at a place → 에서; 만나 + 자.","tgt":"Ang pagkita mahitabo sa usa ka lugar → 에서; 만나 + 자."}
+{"f":"lessons","id":"texting","k":"title","src":"23 · Texting like a local","tgt":"23 · Pag-text sama sa taga-Korea"}
+{"f":"lessons","id":"texting","k":"blurb","src":"ㅋㅋ, ㅠㅠ, dropped particles, and the shorthand everyone uses on KakaoTalk.","tgt":"ㅋㅋ, ㅠㅠ, mga particle nga mawala, ug ang mga pinamubo nga gamiton sa tanan sa KakaoTalk."}
+{"f":"sentences","id":"ko.s0205","k":"gloss","src":"Where (are you) now?","tgt":"Asa (ka) karon?"}
+{"f":"sentences","id":"ko.s0206","k":"gloss","src":"I'm almost there","tgt":"Hapit na ko moabot"}
+{"f":"sentences","id":"ko.s0207","k":"gloss","src":"OK, 5 minutes","tgt":"Ok, 5 minutos"}
+{"f":"sentences","id":"ko.s0208","k":"gloss","src":"Hungry ㅠㅠ what should I eat","tgt":"Gigutom ko ㅠㅠ unsa kaha akong kaonon"}
+{"f":"sentences","id":"ko.s0209","k":"gloss","src":"Yes, confirmed (work chat)","tgt":"Oo, nakumpirma na (chat sa trabaho)"}
+{"f":"checks","id":"texting.k1","k":"q","src":"ㅋㅋㅋ means:","tgt":"Ang ㅋㅋㅋ nagpasabot og:"}
+{"f":"checks","id":"texting.k1","k":"o[0]","src":"lol","tgt":"haha"}
+{"f":"checks","id":"texting.k1","k":"o[1]","src":"sorry","tgt":"sori"}
+{"f":"checks","id":"texting.k1","k":"o[2]","src":"no","tgt":"dili"}
+{"f":"checks","id":"texting.k1","k":"o[3]","src":"bye","tgt":"babay"}
+{"f":"checks","id":"texting.k1","k":"why","src":"ㅋ = the k in 크크 laughter.","tgt":"ㅋ = ang k sa 크크, tingog sa katawa (sama sa atong 'hahaha')."}
+{"f":"checks","id":"texting.k2","k":"q","src":"Casual 'yeah' in a text:","tgt":"Casual nga 'oo' sa text:"}
+{"f":"checks","id":"texting.k2","k":"why","src":"ㅇㅇ = 응응.","tgt":"ㅇㅇ = 응응.","pre":1}
+{"f":"checks","id":"texting.k3","k":"q","src":"Texting your older coworker, you should:","tgt":"Kon mo-text ka sa imong kauban sa trabaho nga mas magulang nimo, kinahanglan nimo:"}
+{"f":"checks","id":"texting.k3","k":"o[0]","src":"keep 요 and use 네/넵","tgt":"ipabilin ang 요 ug gamita ang 네/넵"}
+{"f":"checks","id":"texting.k3","k":"o[1]","src":"use ㅇㅇ","tgt":"gamita ang ㅇㅇ"}
+{"f":"checks","id":"texting.k3","k":"o[2]","src":"drop all particles and 요","tgt":"kuhaa ang tanang particle ug ang 요"}
+{"f":"checks","id":"texting.k3","k":"o[3]","src":"send only ㅋㅋ","tgt":"ipadala lang ang ㅋㅋ"}
+{"f":"checks","id":"texting.k3","k":"why","src":"Shorthand is for friends; politeness stays with seniors.","tgt":"Ang mga pinamubo para sa mga higala; sa mas magulang, magpabilin ang pagkamatinahuron."}
+{"f":"practice","id":"texting.01","k":"q","src":"How do you text 'lol'?","tgt":"Unsaon pag-text og 'haha'?"}
+{"f":"practice","id":"texting.01","k":"why","src":"ㅋ is a laugh sound; more ㅋ = funnier.","tgt":"Tingog sa katawa ang ㅋ; mas daghang ㅋ = mas kataw-anan."}
+{"f":"practice","id":"texting.02","k":"q","src":"A casual 'yeah' in a text:","tgt":"Casual nga 'oo' sa text:"}
+{"f":"practice","id":"texting.02","k":"why","src":"ㅇㅇ is short for 응 (yeah). ㄴㄴ = no.","tgt":"Ang ㅇㅇ pinamubo sa 응 (oo). ㄴㄴ = dili."}
+{"f":"practice","id":"texting.03","k":"q","src":"Texting your boss 'Yes, confirmed':","tgt":"Mo-text ka sa imong boss og 'Oo, nakumpirma na':"}
+{"f":"practice","id":"texting.03","k":"why","src":"With seniors, keep it polite; 넵 is the friendly work 'yes'.","tgt":"Sa mas magulang o mas taas nimo, magpabilin nga matinahuron; ang 넵 mao ang mahigalaon nga 'oo' sa trabaho."}
+{"f":"practice","id":"texting.04","k":"q","src":"Texting a friend 'Where (are you) now?':","tgt":"Mo-text ka sa higala og 'Asa (ka) karon?':"}
+{"f":"practice","id":"texting.04","k":"why","src":"Between friends, drop everything optional: 지금 어디?","tgt":"Sa managhigala, kuhaa ang tanan nga dili kinahanglan: 지금 어디?"}
+{"f":"practice","id":"texting.05","k":"q","src":"How do you text 'crying' or 'ugh'?","tgt":"Unsaon pag-text og 'naghilak' o 'huhu'?"}
+{"f":"practice","id":"texting.05","k":"why","src":"ㅠㅠ: the vowels look like tears.","tgt":"ㅠㅠ: ang mga vowel morag luha."}
+{"f":"practice","id":"texting.06","k":"p","src":"I'm almost there","tgt":"Hapit na ko moabot"}
+{"f":"practice","id":"texting.06","k":"why","src":"Casual 나, no particle: 나 다 왔어.","tgt":"Casual nga 나, walay particle: 나 다 왔어."}
+{"f":"practice","id":"texting.07","k":"p","src":"Hungry, what should I eat","tgt":"Gigutom ko, unsa kaha akong kaonon"}
+{"f":"practice","id":"texting.07","k":"why","src":"Friends drop 요; 뭐 먹지 = what should I eat.","tgt":"Ang managhigala mokuha sa 요; 뭐 먹지 = unsa kaha akong kaonon."}
+{"f":"practice","id":"texting.08","k":"p","src":"Night, see you tomorrow","tgt":"Katulog og maayo, kita ta ugma"}
+{"f":"practice","id":"texting.08","k":"why","src":"The standard casual sign-off.","tgt":"Ang kasagarang casual nga panamilit."}
+{"f":"practice","id":"texting.09","k":"p","src":"Where are you now? (to a friend)","tgt":"Asa ka karon? (sa higala)"}
+{"f":"practice","id":"texting.09","k":"why","src":"어디 = where; texts drop the rest.","tgt":"어디 = asa; sa text, kuhaon ang uban."}
+{"f":"practice","id":"texting.10","k":"p","src":"I'm almost there","tgt":"Hapit na ko moabot"}
+{"f":"practice","id":"texting.10","k":"why","src":"다 왔어 = (I've) almost arrived.","tgt":"다 왔어 = hapit na ko moabot."}
+{"f":"practice","id":"texting.11","k":"p","src":"OK, see you tomorrow","tgt":"Ok, kita ta ugma"}
+{"f":"practice","id":"texting.11","k":"why","src":"내일 봐 = see you tomorrow (casual).","tgt":"내일 봐 = kita ta ugma (casual)."}
+{"f":"practice","id":"texting.12","k":"p","src":"Text a friend: 'What are you up to?'","tgt":"I-text ang higala: 'Unsay imong ginabuhat?'"}
+{"f":"practice","id":"texting.12","k":"why","src":"The universal casual opener.","tgt":"Ang kasagarang casual nga pangutana aron magsugod og istorya."}
+{"f":"practice","id":"texting.13","k":"p","src":"Text a friend: 'I'm on my way'","tgt":"I-text ang higala: 'Padulong na ko'"}
+{"f":"practice","id":"texting.13","k":"why","src":"Casual: no 요, no particles.","tgt":"Casual: walay 요, walay particle."}
+{"f":"practice","id":"texting.14","k":"p","src":"Text a senior coworker: 'Yes, confirmed' (friendly-polite)","tgt":"I-text ang kauban sa trabaho nga mas magulang nimo: 'Oo, nakumpirma na' (mahigalaon pero matinahuron)"}
+{"f":"practice","id":"texting.14","k":"why","src":"Politeness still exists: 넵 or 네, never ㅇㅇ, with seniors.","tgt":"Naa gihapon ang pagkamatinahuron: 넵 o 네, dili gyud ㅇㅇ, sa mas magulang."}
+{"f":"lessons","id":"counters","k":"title","src":"24 · Counters","tgt":"24 · Mga counter"}
+{"f":"lessons","id":"counters","k":"blurb","src":"You can't say 'two coffees' without one. The ten counters that cover daily life.","tgt":"Sa Korean, dili nimo maingon ang 'duha ka kape' kon walay counter. Ang napulo ka counter para sa adlaw-adlaw."}
+{"f":"sentences","id":"ko.s0210","k":"gloss","src":"Two coffees, please","tgt":"Duha ka kape, palihug"}
+{"f":"sentences","id":"ko.s0211","k":"gloss","src":"How many people? Four","tgt":"Pila mo? Upat mi"}
+{"f":"sentences","id":"ko.s0212","k":"gloss","src":"Two tickets, please","tgt":"Duha ka tiket, palihug"}
+{"f":"sentences","id":"ko.s0213","k":"gloss","src":"I have three cats","tgt":"Naa koy tulo ka iring"}
+{"f":"checks","id":"counters.k1","k":"q","src":"'Two coffees, please' =","tgt":"'Duha ka kape, palihug' ="}
+{"f":"checks","id":"counters.k1","k":"why","src":"둘 → 두 before a counter; drinks take 잔.","tgt":"둘 → 두 sa atubangan sa counter; ang ilimnon mogamit og 잔."}
+{"f":"checks","id":"counters.k2","k":"q","src":"Counting people politely uses:","tgt":"Ang matinahurong pag-ihap sa tawo mogamit og:"}
+{"f":"checks","id":"counters.k2","k":"why","src":"분 is the honorific people counter; 명 is neutral.","tgt":"Ang 분 mao ang honorific nga counter para sa tawo; yano ra ang 명."}
+{"f":"checks","id":"counters.k3","k":"q","src":"Where does the number + counter go?","tgt":"Asa ibutang ang numero + counter?"}
+{"f":"checks","id":"counters.k3","k":"o[0]","src":"after the noun: 맥주 두 병","tgt":"human sa noun: 맥주 두 병"}
+{"f":"checks","id":"counters.k3","k":"o[1]","src":"before the noun: 두 병 맥주","tgt":"sa atubangan sa noun: 두 병 맥주"}
+{"f":"checks","id":"counters.k3","k":"o[2]","src":"after the verb","tgt":"human sa verb"}
+{"f":"checks","id":"counters.k3","k":"o[3]","src":"anywhere","tgt":"bisan asa"}
+{"f":"checks","id":"counters.k3","k":"why","src":"Noun → number → counter.","tgt":"Noun → numero → counter."}
+{"f":"practice","id":"counters.01","k":"q","src":"'Three people' =","tgt":"'Tulo ka tawo' ="}
+{"f":"practice","id":"counters.01","k":"why","src":"People take 명, with native 세.","tgt":"Ang tawo mogamit og 명, uban sa native nga 세."}
+{"f":"practice","id":"counters.02","k":"q","src":"'Two tickets, please' =","tgt":"'Duha ka tiket, palihug' ="}
+{"f":"practice","id":"counters.02","k":"why","src":"Tickets are flat things → 장; noun + number + counter.","tgt":"Ang tiket patag nga butang → 장; noun + numero + counter."}
+{"f":"practice","id":"counters.03","k":"q","src":"'I have three cats' =","tgt":"'Naa koy tulo ka iring' ="}
+{"f":"practice","id":"counters.03","k":"why","src":"Animals take 마리, with native 세.","tgt":"Ang hayop mogamit og 마리, uban sa native nga 세."}
+{"f":"practice","id":"counters.04","k":"q","src":"'Two bottles of beer' =","tgt":"'Duha ka botelya sa beer' ="}
+{"f":"practice","id":"counters.04","k":"why","src":"Bottles → 병, and 둘 → 두.","tgt":"Botelya → 병, ug 둘 → 두."}
+{"f":"practice","id":"counters.05","k":"q","src":"'I'm 20 years old' =","tgt":"'Baynte anyos na ko' ="}
+{"f":"practice","id":"counters.05","k":"why","src":"스물 shortens to 스무 before a counter.","tgt":"Edad: native number, bisan baynte ang ingnon sa Bisaya. Ang 스물 mahimong 스무 sa atubangan sa counter."}
+{"f":"practice","id":"counters.06","k":"p","src":"I drank two bottles of beer","tgt":"Nakainom ko og duha ka botelya sa beer"}
+{"f":"practice","id":"counters.06","k":"why","src":"Noun + number + counter, and the particle goes after the counter.","tgt":"Noun + numero + counter, ug ang particle human sa counter."}
+{"f":"practice","id":"counters.07","k":"p","src":"Four people (answering 'How many?')","tgt":"Upat ka tawo (tubag sa 'Pila mo?')"}
+{"f":"practice","id":"counters.07","k":"why","src":"Native 넷 → 네 before 명.","tgt":"Ang native nga 넷 → 네 sa atubangan sa 명."}
+{"f":"practice","id":"counters.08","k":"p","src":"Three books, please","tgt":"Tulo ka libro, palihug"}
+{"f":"practice","id":"counters.08","k":"why","src":"Books → 권.","tgt":"Libro → 권."}
+{"f":"practice","id":"counters.09","k":"p","src":"I have one puppy","tgt":"Naa koy usa ka itoy"}
+{"f":"practice","id":"counters.09","k":"why","src":"Animals → 마리.","tgt":"Hayop → 마리."}
+{"f":"practice","id":"counters.10","k":"p","src":"Two coffees, please","tgt":"Duha ka kape, palihug"}
+{"f":"practice","id":"counters.10","k":"why","src":"Native 둘 shortens to 두 before a counter.","tgt":"Ang native nga 둘 mahimong 두 sa atubangan sa counter."}
+{"f":"practice","id":"counters.11","k":"p","src":"How many people (are you)?","tgt":"Pila mo ka tawo?"}
+{"f":"practice","id":"counters.11","k":"why","src":"People → 명 (polite: 분).","tgt":"Tawo → 명 (matinahuron: 분)."}
+{"f":"practice","id":"counters.12","k":"p","src":"Two tickets, please (write the number in Hangul)","tgt":"Duha ka tiket, palihug (isulat ang numero sa Hangul)"}
+{"f":"practice","id":"counters.12","k":"why","src":"Tickets → 장; 둘 → 두.","tgt":"Tiket → 장; 둘 → 두."}
+{"f":"practice","id":"counters.13","k":"p","src":"I have three cats (write the number in Hangul)","tgt":"Naa koy tulo ka iring (isulat ang numero sa Hangul)"}
+{"f":"practice","id":"counters.13","k":"why","src":"Animals → 마리; noun + number + counter.","tgt":"Hayop → 마리; noun + numero + counter."}
+{"f":"practice","id":"counters.14","k":"p","src":"I studied for two hours (write the number in Hangul)","tgt":"Nagtuon ko og duha ka oras (isulat ang numero sa Hangul)"}
+{"f":"practice","id":"counters.14","k":"why","src":"Duration is native + 시간 (두 시간). 두 시 alone means 2 o'clock.","tgt":"Ang gidugayon: native + 시간 (두 시간). Ang 두 시 ra kay alas dos."}
+{"f":"lessons","id":"joining","k":"title","src":"25 · Joining sentences: -고, -지만, -아/어서","tgt":"25 · Pagdugtong sa mga sentence: -고, -지만, -아/어서"}
+{"f":"lessons","id":"joining","k":"blurb","src":"And, but, so. Three endings that turn two short sentences into one natural one.","tgt":"Ug, pero, mao nga. Tulo ka ending nga mohimo sa duha ka mubong sentence nga usa ka natural nga sentence."}
+{"f":"sentences","id":"ko.s0214","k":"gloss","src":"It's cheap and tasty","tgt":"Barato ug lami"}
+{"f":"sentences","id":"ko.s0215","k":"gloss","src":"(I) eat and (then) drink coffee","tgt":"Mokaon ko, dayon moinom og kape"}
+{"f":"sentences","id":"ko.s0216","k":"gloss","src":"It's expensive but tasty","tgt":"Mahal pero lami"}
+{"f":"sentences","id":"ko.s0217","k":"gloss","src":"(I) want to go, but I have no time","tgt":"Gusto ko moadto, pero wala koy oras"}
+{"f":"sentences","id":"ko.s0218","k":"gloss","src":"I'm busy, so I'm not going","tgt":"Puliki ko, mao nga dili ko moadto"}
+{"f":"sentences","id":"ko.s0219","k":"gloss","src":"I was hungry, so I ate","tgt":"Gigutom ko, mao nga nikaon ko"}
+{"f":"sentences","id":"ko.s0220","k":"gloss","src":"(I) go to a café and study (there)","tgt":"Moadto ko sa kapehan ug didto ko magtuon"}
+{"f":"sentences","id":"ko.s0221","k":"gloss","src":"(I) came home and rested","tgt":"Niuli ko ug nipahulay"}
+{"f":"sentences","id":"ko.s0222","k":"gloss","src":"I was busy, so I didn't go","tgt":"Puliki ko, mao nga wala ko moadto"}
+{"f":"checks","id":"joining.k1","k":"q","src":"'It's expensive but tasty' =","tgt":"'Mahal pero lami' ="}
+{"f":"checks","id":"joining.k1","k":"why","src":"-지만 = but.","tgt":"-지만 = pero."}
+{"f":"checks","id":"joining.k2","k":"q","src":"'I was busy, so I didn't go' =","tgt":"'Puliki ko, mao nga wala ko moadto' ="}
+{"f":"checks","id":"joining.k2","k":"why","src":"-아/어서 never takes the past.","tgt":"Ang -아/어서 dili gyud mag-past."}
+{"f":"checks","id":"joining.k3","k":"q","src":"'It's cheap and tasty' =","tgt":"'Barato ug lami' ="}
+{"f":"checks","id":"joining.k3","k":"why","src":"Stem + 고 = and.","tgt":"Stem + 고 = ug."}
+{"f":"practice","id":"joining.01","k":"q","src":"'It's expensive but tasty' =","tgt":"'Mahal pero lami' ="}
+{"f":"practice","id":"joining.01","k":"why","src":"-지만 = but.","tgt":"-지만 = pero."}
+{"f":"practice","id":"joining.02","k":"q","src":"'I was busy, so I didn't go' =","tgt":"'Puliki ko, mao nga wala ko moadto' ="}
+{"f":"practice","id":"joining.02","k":"why","src":"Reason + 서; no past before 서.","tgt":"Rason + 서; walay past sa atubangan sa 서."}
+{"f":"practice","id":"joining.03","k":"q","src":"'It's cheap and tasty' =","tgt":"'Barato ug lami' ="}
+{"f":"practice","id":"joining.03","k":"why","src":"Stem + 고.","tgt":"Stem + 고."}
+{"f":"practice","id":"joining.04","k":"q","src":"'(I) go to a café and study (there)' =","tgt":"'Moadto ko sa kapehan ug didto ko magtuon' ="}
+{"f":"practice","id":"joining.04","k":"why","src":"가서 links two steps of one trip.","tgt":"Ang 가서 nagdugtong sa duha ka lakang sa usa ka lakaw."}
+{"f":"practice","id":"joining.05","k":"q","src":"Which ending means 'but'?","tgt":"Unsang ending ang nagpasabot og 'pero'?"}
+{"f":"practice","id":"joining.05","k":"why","src":"-지만 = but.","tgt":"-지만 = pero."}
+{"f":"practice","id":"joining.06","k":"p","src":"(I) eat and (then) drink coffee","tgt":"Mokaon ko, dayon moinom og kape"}
+{"f":"practice","id":"joining.06","k":"why","src":"먹 + 고 = and.","tgt":"먹 + 고 = ug (dayon)."}
+{"f":"practice","id":"joining.07","k":"p","src":"It's expensive but good","tgt":"Mahal pero maayo"}
+{"f":"practice","id":"joining.07","k":"why","src":"-지만 = but.","tgt":"-지만 = pero."}
+{"f":"practice","id":"joining.08","k":"p","src":"I'm busy, so I'm not going","tgt":"Puliki ko, mao nga dili ko moadto"}
+{"f":"practice","id":"joining.08","k":"why","src":"바빠요 → 바빠서.","tgt":"바빠요 → 바빠서.","pre":1}
+{"f":"practice","id":"joining.09","k":"p","src":"It's cheap and tasty","tgt":"Barato ug lami"}
+{"f":"practice","id":"joining.09","k":"why","src":"Stem + 고 = and.","tgt":"Stem + 고 = ug."}
+{"f":"practice","id":"joining.10","k":"p","src":"It's expensive but tasty","tgt":"Mahal pero lami"}
+{"f":"practice","id":"joining.10","k":"why","src":"Stem + 지만 = but.","tgt":"Stem + 지만 = pero."}
+{"f":"practice","id":"joining.11","k":"p","src":"I was hungry, so I ate","tgt":"Gigutom ko, mao nga nikaon ko"}
+{"f":"practice","id":"joining.11","k":"why","src":"요-form without 요 + 서.","tgt":"요-form nga walay 요 + 서."}
+{"f":"practice","id":"joining.12","k":"p","src":"It's cheap and tasty","tgt":"Barato ug lami"}
+{"f":"practice","id":"joining.12","k":"why","src":"싸 + 고.","tgt":"싸 + 고.","pre":1}
+{"f":"practice","id":"joining.13","k":"p","src":"It's expensive but tasty","tgt":"Mahal pero lami"}
+{"f":"practice","id":"joining.13","k":"why","src":"비싸 + 지만.","tgt":"비싸 + 지만.","pre":1}
+{"f":"practice","id":"joining.14","k":"p","src":"I'm busy, so I'm not going","tgt":"Puliki ko, mao nga dili ko moadto"}
+{"f":"practice","id":"joining.14","k":"why","src":"바빠 + 서.","tgt":"바빠 + 서.","pre":1}
+{"f":"lessons","id":"story","k":"title","src":"26 · Telling a story in the past","tgt":"26 · Pagsugilon og istorya sa past"}
+{"f":"lessons","id":"story","k":"blurb","src":"String past-tense sentences together with 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로.","tgt":"Dugtonga ang mga sentence sa past gamit ang 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로."}
+{"f":"sentences","id":"ko.s0223","k":"gloss","src":"Yesterday I met a friend","tgt":"Gahapon, nakigkita ko sa usa ka higala"}
+{"f":"sentences","id":"ko.s0224","k":"gloss","src":"First we went to a café","tgt":"Una, niadto mi sa kapehan"}
+{"f":"sentences","id":"ko.s0225","k":"gloss","src":"And we drank coffee","tgt":"Ug niinom mi og kape"}
+{"f":"sentences","id":"ko.s0226","k":"gloss","src":"After that we watched a movie","tgt":"Pagkahuman, nitan-aw mi og sine"}
+{"f":"sentences","id":"ko.s0227","k":"gloss","src":"But the movie was too long","tgt":"Pero taas kaayo ang sine"}
+{"f":"sentences","id":"ko.s0228","k":"gloss","src":"So I got home late","tgt":"Mao nga naulahi ko og uli"}
+{"f":"sentences","id":"ko.s0229","k":"gloss","src":"What did you do last weekend?","tgt":"Unsay imong gibuhat sa miaging katapusan sa semana?"}
+{"f":"sentences","id":"ko.s0230","k":"gloss","src":"I had lunch a while ago","tgt":"Nikaon ko og paniudto ganiha"}
+{"f":"checks","id":"story.k1","k":"q","src":"'So I got home late' =","tgt":"'Mao nga naulahi ko og uli' ="}
+{"f":"checks","id":"story.k1","k":"why","src":"그래서 = so / therefore.","tgt":"그래서 = mao nga / busa."}
+{"f":"checks","id":"story.k2","k":"q","src":"Which connector adds a contrast?","tgt":"Unsang connector ang nagdala og 'pero' sa istorya?"}
+{"f":"checks","id":"story.k2","k":"why","src":"그런데 / 하지만 = but.","tgt":"그런데 / 하지만 = pero."}
+{"f":"checks","id":"story.k3","k":"q","src":"Where does 어제 (yesterday) usually go?","tgt":"Asa kasagaran ibutang ang 어제 (gahapon)?"}
+{"f":"checks","id":"story.k3","k":"o[0]","src":"at the start","tgt":"sa sinugdanan"}
+{"f":"checks","id":"story.k3","k":"o[1]","src":"after the verb","tgt":"human sa verb"}
+{"f":"checks","id":"story.k3","k":"o[2]","src":"after the object","tgt":"human sa object"}
+{"f":"checks","id":"story.k3","k":"o[3]","src":"it is a verb ending","tgt":"ending kini sa verb"}
+{"f":"checks","id":"story.k3","k":"why","src":"Time words set the scene first.","tgt":"Ang mga time word mag-una ug mopaila kon kanus-a nahitabo."}
+{"f":"practice","id":"story.01","k":"q","src":"Which connector means 'first'?","tgt":"Unsang connector ang nagpasabot og 'una'?"}
+{"f":"practice","id":"story.01","k":"why","src":"먼저 = first; 마지막으로 = lastly.","tgt":"먼저 = una; 마지막으로 = sa katapusan."}
+{"f":"practice","id":"story.02","k":"q","src":"'So I got home late' =","tgt":"'Mao nga naulahi ko og uli' ="}
+{"f":"practice","id":"story.02","k":"why","src":"그래서 = so; arriving home is 집에, in the past: 왔어요.","tgt":"그래서 = mao nga; ang pag-uli kay 집에, sa past: 왔어요."}
+{"f":"practice","id":"story.03","k":"q","src":"'But the movie was too long' =","tgt":"'Pero taas kaayo ang sine' (past) ="}
+{"f":"practice","id":"story.03","k":"why","src":"그런데 = but; a describing verb takes 이/가; past 길었어요.","tgt":"그런데 = pero; ang describing verb mogamit og 이/가; past nga 길었어요."}
+{"f":"practice","id":"story.04","k":"q","src":"Past tense of 보다 (요-form):","tgt":"Past sa 보다 (요-form):"}
+{"f":"practice","id":"story.04","k":"why","src":"보 + 았어요 merges to 봤어요.","tgt":"보 + 았어요 mahimong 봤어요."}
+{"f":"practice","id":"story.05","k":"q","src":"'Lastly' =","tgt":"'Sa katapusan' ="}
+{"f":"practice","id":"story.05","k":"why","src":"마지막으로 closes a sequence.","tgt":"Ang 마지막으로 motapos sa sunod-sunod nga panghitabo."}
+{"f":"practice","id":"story.06","k":"p","src":"Yesterday I met a friend","tgt":"Gahapon, nakigkita ko sa usa ka higala"}
+{"f":"practice","id":"story.06","k":"why","src":"Time words usually come first; the past tense always comes last.","tgt":"Ang time word kasagaran mag-una; ang past kanunay sa katapusan."}
+{"f":"practice","id":"story.07","k":"p","src":"After that, we watched a movie","tgt":"Pagkahuman, nitan-aw mi og sine"}
+{"f":"practice","id":"story.07","k":"why","src":"Connector first; a movie is what you watch → 를.","tgt":"Connector una; ang sine mao ang imong tan-awon → 를."}
+{"f":"practice","id":"story.08","k":"p","src":"First we went to a café","tgt":"Una, niadto mi sa kapehan"}
+{"f":"practice","id":"story.08","k":"why","src":"Going to a place → 에.","tgt":"Pag-adto sa usa ka lugar → 에."}
+{"f":"practice","id":"story.09","k":"p","src":"And we drank coffee","tgt":"Ug niinom mi og kape"}
+{"f":"practice","id":"story.09","k":"why","src":"그리고 = and (then).","tgt":"그리고 = ug (dayon)."}
+{"f":"practice","id":"story.10","k":"p","src":"Yesterday I met a friend","tgt":"Gahapon, nakigkita ko sa usa ka higala"}
+{"f":"practice","id":"story.10","k":"why","src":"어제 needs the past: 만나 + 았어요 → 만났어요.","tgt":"Ang 어제 nagkinahanglan og past: 만나 + 았어요 → 만났어요."}
+{"f":"practice","id":"story.11","k":"p","src":"What did you do last weekend?","tgt":"Unsay imong gibuhat sa miaging katapusan sa semana?"}
+{"f":"practice","id":"story.11","k":"why","src":"Time words take 에.","tgt":"Ang mga time word mogamit og 에."}
+{"f":"practice","id":"story.12","k":"p","src":"I had lunch a while ago","tgt":"Nikaon ko og paniudto ganiha"}
+{"f":"practice","id":"story.12","k":"why","src":"Time word first, then past tense.","tgt":"Time word una, dayon ang past."}
+{"f":"practice","id":"story.13","k":"p","src":"So I rested at home","tgt":"Mao nga nipahulay ko sa balay"}
+{"f":"practice","id":"story.13","k":"why","src":"Resting happens at home → 집에서; 쉬 + 었어요.","tgt":"Ang pagpahulay mahitabo sa balay → 집에서; 쉬 + 었어요."}
+{"f":"practice","id":"story.14","k":"p","src":"But I didn't drink coffee (use 안)","tgt":"Pero wala ko moinom og kape (gamita ang 안)"}
+{"f":"practice","id":"story.14","k":"why","src":"안 goes right before the verb, even in the past.","tgt":"Ang 안 diha dayon sa atubangan sa verb, bisan sa past. Sa Bisaya, wala + mo-; sa Korean, past gihapon."}
+{"f":"lessons","id":"noun-modifiers","k":"title","src":"27 · Describing nouns: 좋은 날씨, 큰 가방","tgt":"27 · Paghulagway sa noun: 좋은 날씨, 큰 가방"}
+{"f":"lessons","id":"noun-modifiers","k":"blurb","src":"Put an adjective in front of a noun: a big bag, good weather, spicy food.","tgt":"Ibutang ang describing verb sa atubangan sa noun: dakong bag, maayong panahon, halang nga pagkaon."}
+{"f":"sentences","id":"ko.s0231","k":"gloss","src":"a big bag (크다)","tgt":"dakong bag (크다)"}
+{"f":"sentences","id":"ko.s0232","k":"gloss","src":"a pretty flower (예쁘다)","tgt":"nindot nga bulak (예쁘다)"}
+{"f":"sentences","id":"ko.s0233","k":"gloss","src":"good weather (좋다)","tgt":"maayong panahon (좋다)"}
+{"f":"sentences","id":"ko.s0234","k":"gloss","src":"a small house (작다)","tgt":"gamay nga balay (작다)"}
+{"f":"sentences","id":"ko.s0235","k":"gloss","src":"tasty food","tgt":"lamian nga pagkaon"}
+{"f":"sentences","id":"ko.s0236","k":"gloss","src":"a fun movie","tgt":"makalingaw nga sine"}
+{"f":"sentences","id":"ko.s0237","k":"gloss","src":"spicy food (맵다)","tgt":"halang nga pagkaon (맵다)"}
+{"f":"sentences","id":"ko.s0238","k":"gloss","src":"cold weather (춥다)","tgt":"bugnaw nga panahon (춥다)"}
+{"f":"sentences","id":"ko.s0239","k":"gloss","src":"a long movie (길다)","tgt":"taas nga sine (길다)"}
+{"f":"sentences","id":"ko.s0240","k":"gloss","src":"(I) have a big bag","tgt":"Naa koy dakong bag"}
+{"f":"sentences","id":"ko.s0241","k":"gloss","src":"(I) like spicy food","tgt":"Ganahan ko og halang nga pagkaon"}
+{"f":"sentences","id":"ko.s0242","k":"gloss","src":"Have a good day","tgt":"Hinaot nga maayo ang imong adlaw"}
+{"f":"checks","id":"noun-modifiers.k1","k":"q","src":"'a big bag' =","tgt":"'dakong bag' ="}
+{"f":"checks","id":"noun-modifiers.k1","k":"why","src":"Vowel stem + ㄴ, in front of the noun.","tgt":"Vowel stem + ㄴ, sa atubangan sa noun."}
+{"f":"checks","id":"noun-modifiers.k2","k":"q","src":"'tasty food' =","tgt":"'lamian nga pagkaon' ="}
+{"f":"checks","id":"noun-modifiers.k2","k":"why","src":"있다 words take 는.","tgt":"Ang mga pulong nga naay 있다 mogamit og 는."}
+{"f":"checks","id":"noun-modifiers.k3","k":"q","src":"'spicy food' =","tgt":"'halang nga pagkaon' ="}
+{"f":"checks","id":"noun-modifiers.k3","k":"why","src":"ㅂ stem: 맵다 → 매운.","tgt":"ㅂ stem: 맵다 → 매운."}
+{"f":"practice","id":"noun-modifiers.01","k":"q","src":"'a big bag' =","tgt":"'dakong bag' ="}
+{"f":"practice","id":"noun-modifiers.01","k":"why","src":"크 + ㄴ → 큰.","tgt":"크 + ㄴ → 큰.","pre":1}
+{"f":"practice","id":"noun-modifiers.02","k":"q","src":"'tasty food' =","tgt":"'lamian nga pagkaon' ="}
+{"f":"practice","id":"noun-modifiers.02","k":"why","src":"있다 words take 는.","tgt":"Ang mga pulong nga naay 있다 mogamit og 는."}
+{"f":"practice","id":"noun-modifiers.03","k":"q","src":"'spicy food' =","tgt":"'halang nga pagkaon' ="}
+{"f":"practice","id":"noun-modifiers.03","k":"why","src":"ㅂ → 우 + ㄴ.","tgt":"ㅂ → 우 + ㄴ.","pre":1}
+{"f":"practice","id":"noun-modifiers.04","k":"q","src":"'good weather' =","tgt":"'maayong panahon' ="}
+{"f":"practice","id":"noun-modifiers.04","k":"why","src":"Consonant stem + 은.","tgt":"Consonant stem + 은."}
+{"f":"practice","id":"noun-modifiers.05","k":"q","src":"'a long movie' =","tgt":"'taas nga sine' ="}
+{"f":"practice","id":"noun-modifiers.05","k":"why","src":"ㄹ drops: 길다 → 긴.","tgt":"Mawala ang ㄹ: 길다 → 긴."}
+{"f":"practice","id":"noun-modifiers.06","k":"p","src":"(I) have a big bag","tgt":"Naa koy dakong bag"}
+{"f":"practice","id":"noun-modifiers.06","k":"why","src":"큰 + noun; the particle goes on the noun.","tgt":"큰 + noun; ang particle motapot sa noun."}
+{"f":"practice","id":"noun-modifiers.07","k":"p","src":"(I) like spicy food","tgt":"Ganahan ko og halang nga pagkaon"}
+{"f":"practice","id":"noun-modifiers.07","k":"why","src":"맵다 → 매운.","tgt":"맵다 → 매운.","pre":1}
+{"f":"practice","id":"noun-modifiers.08","k":"p","src":"It's a fun movie","tgt":"Makalingaw nga sine kini"}
+{"f":"practice","id":"noun-modifiers.08","k":"why","src":"있다 words take 는.","tgt":"Ang mga pulong nga naay 있다 mogamit og 는."}
+{"f":"practice","id":"noun-modifiers.09","k":"p","src":"good weather","tgt":"maayong panahon"}
+{"f":"practice","id":"noun-modifiers.09","k":"why","src":"Consonant stem + 은.","tgt":"Consonant stem + 은."}
+{"f":"practice","id":"noun-modifiers.10","k":"p","src":"tasty food","tgt":"lamian nga pagkaon"}
+{"f":"practice","id":"noun-modifiers.10","k":"why","src":"있다 words take 는.","tgt":"Ang mga pulong nga naay 있다 mogamit og 는."}
+{"f":"practice","id":"noun-modifiers.11","k":"p","src":"a small house","tgt":"gamay nga balay"}
+{"f":"practice","id":"noun-modifiers.11","k":"why","src":"작 + 은.","tgt":"작 + 은.","pre":1}
+{"f":"practice","id":"noun-modifiers.12","k":"p","src":"It's a big house","tgt":"Dakong balay kini"}
+{"f":"practice","id":"noun-modifiers.12","k":"why","src":"크 + ㄴ → 큰 집.","tgt":"크 + ㄴ → 큰 집.","pre":1}
+{"f":"practice","id":"noun-modifiers.13","k":"p","src":"(I) like spicy food","tgt":"Ganahan ko og halang nga pagkaon"}
+{"f":"practice","id":"noun-modifiers.13","k":"why","src":"맵다 → 매운.","tgt":"맵다 → 매운.","pre":1}
+{"f":"practice","id":"noun-modifiers.14","k":"p","src":"Have a good day","tgt":"Hinaot nga maayo ang imong adlaw"}
+{"f":"practice","id":"noun-modifiers.14","k":"why","src":"좋 + 은 → 좋은 하루.","tgt":"좋 + 은 → 좋은 하루.","pre":1}
+{"f":"lessons","id":"compare","k":"title","src":"28 · Comparing: 보다, 더, 제일","tgt":"28 · Pagtandi: 보다, 더, 제일"}
+{"f":"lessons","id":"compare","k":"blurb","src":"Cheaper than, more, less, the best. Everything you need to compare and choose.","tgt":"Mas barato kaysa, mas, menos, pinaka-. Ang tanan nga kinahanglan nimo sa pagtandi ug pagpili."}
+{"f":"sentences","id":"ko.s0243","k":"gloss","src":"The bus is cheaper than a taxi","tgt":"Mas barato ang bus kaysa sa taxi"}
+{"f":"sentences","id":"ko.s0244","k":"gloss","src":"Today is colder than yesterday","tgt":"Mas bugnaw karon kaysa gahapon"}
+{"f":"sentences","id":"ko.s0245","k":"gloss","src":"The bus is cheaper than a taxi (same meaning)","tgt":"Mas barato ang bus kaysa sa taxi (pareho ra ang kahulogan)"}
+{"f":"sentences","id":"ko.s0246","k":"gloss","src":"More, please","tgt":"Dugangi, palihug"}
+{"f":"sentences","id":"ko.s0247","k":"gloss","src":"Do you have a bigger bag?","tgt":"Naa moy mas dakong bag?"}
+{"f":"sentences","id":"ko.s0248","k":"gloss","src":"It's less spicy","tgt":"Menos na ang kahalang"}
+{"f":"sentences","id":"ko.s0249","k":"gloss","src":"This is the tastiest","tgt":"Kini ang pinakalami"}
+{"f":"sentences","id":"ko.s0250","k":"gloss","src":"What is your favourite food?","tgt":"Unsa ang imong pinakaganahang pagkaon?"}
+{"f":"sentences","id":"ko.s0251","k":"gloss","src":"Which is better?","tgt":"Hain ang mas maayo?"}
+{"f":"sentences","id":"ko.s0252","k":"gloss","src":"Where is the cheapest?","tgt":"Asa ang pinakabarato?"}
+{"f":"checks","id":"compare.k1","k":"q","src":"'The bus is cheaper than a taxi' =","tgt":"'Mas barato ang bus kaysa sa taxi' ="}
+{"f":"checks","id":"compare.k1","k":"why","src":"보다 goes on the thing you compare against.","tgt":"Ang 보다 motapot sa butang nga gitandian, ang nagsunod sa 'kaysa'."}
+{"f":"checks","id":"compare.k2","k":"q","src":"'This is the tastiest' =","tgt":"'Kini ang pinakalami' ="}
+{"f":"checks","id":"compare.k2","k":"why","src":"제일 = the most.","tgt":"제일 = pinaka-."}
+{"f":"checks","id":"compare.k3","k":"q","src":"'More, please' =","tgt":"'Dugangi, palihug' ="}
+{"f":"checks","id":"compare.k3","k":"why","src":"더 = more.","tgt":"더 = mas, dugang."}
+{"f":"practice","id":"compare.01","k":"q","src":"'The bus is cheaper than a taxi' =","tgt":"'Mas barato ang bus kaysa sa taxi' ="}
+{"f":"practice","id":"compare.01","k":"why","src":"보다 marks the 'than' item.","tgt":"Ang 보다 = 'kaysa', apan motapot kini sa luyo sa noun, dili sa atubangan."}
+{"f":"practice","id":"compare.02","k":"q","src":"'This is the tastiest' =","tgt":"'Kini ang pinakalami' ="}
+{"f":"practice","id":"compare.02","k":"why","src":"제일 = the most.","tgt":"제일 = pinaka-."}
+{"f":"practice","id":"compare.03","k":"q","src":"'More, please' =","tgt":"'Dugangi, palihug' ="}
+{"f":"practice","id":"compare.03","k":"why","src":"더 = more.","tgt":"더 = mas, dugang."}
+{"f":"practice","id":"compare.04","k":"q","src":"'Today is colder than yesterday' =","tgt":"'Mas bugnaw karon kaysa gahapon' ="}
+{"f":"practice","id":"compare.04","k":"why","src":"어제보다 = than yesterday.","tgt":"어제보다 = kaysa gahapon."}
+{"f":"practice","id":"compare.05","k":"q","src":"'It's less spicy' =","tgt":"'Menos na ang kahalang' ="}
+{"f":"practice","id":"compare.05","k":"why","src":"덜 = less.","tgt":"덜 = menos."}
+{"f":"practice","id":"compare.06","k":"p","src":"The bus is cheaper than a taxi (start with the bus)","tgt":"Mas barato ang bus kaysa sa taxi (sugdi sa bus)"}
+{"f":"practice","id":"compare.06","k":"why","src":"택시보다 = than a taxi.","tgt":"택시보다 = kaysa sa taxi."}
+{"f":"practice","id":"compare.07","k":"p","src":"This is the tastiest","tgt":"Kini ang pinakalami"}
+{"f":"practice","id":"compare.07","k":"why","src":"제일 before the describing word.","tgt":"제일 sa atubangan sa describing verb."}
+{"f":"practice","id":"compare.08","k":"p","src":"Which is better?","tgt":"Hain ang mas maayo?"}
+{"f":"practice","id":"compare.08","k":"why","src":"더 = more.","tgt":"더 = mas."}
+{"f":"practice","id":"compare.09","k":"p","src":"The bus is cheaper than a taxi","tgt":"Mas barato ang bus kaysa sa taxi"}
+{"f":"practice","id":"compare.09","k":"why","src":"보다 = than.","tgt":"보다 = kaysa."}
+{"f":"practice","id":"compare.10","k":"p","src":"This is the tastiest","tgt":"Kini ang pinakalami"}
+{"f":"practice","id":"compare.10","k":"why","src":"제일 / 가장 = the most.","tgt":"제일 / 가장 = pinaka-."}
+{"f":"practice","id":"compare.11","k":"p","src":"More, please","tgt":"Dugangi, palihug"}
+{"f":"practice","id":"compare.11","k":"why","src":"더 = more.","tgt":"더 = mas, dugang."}
+{"f":"practice","id":"compare.12","k":"p","src":"The bus is cheaper than a taxi","tgt":"Mas barato ang bus kaysa sa taxi"}
+{"f":"practice","id":"compare.12","k":"why","src":"보다 goes on 택시.","tgt":"Ang 보다 motapot sa 택시."}
+{"f":"practice","id":"compare.13","k":"p","src":"This is the tastiest","tgt":"Kini ang pinakalami"}
+{"f":"practice","id":"compare.13","k":"why","src":"제일 = the most.","tgt":"제일 = pinaka-."}
+{"f":"practice","id":"compare.14","k":"p","src":"More, please","tgt":"Dugangi, palihug"}
+{"f":"practice","id":"compare.14","k":"why","src":"더 = more.","tgt":"더 = mas, dugang."}
+{"f":"lessons","id":"cant","k":"title","src":"29 · Can't, can, and don't know","tgt":"29 · Dili makahimo, makahimo, ug dili kabalo"}
+{"f":"lessons","id":"cant","k":"blurb","src":"못 vs 안, -(으)ㄹ 수 있어요 / 없어요, and 몰라요 vs 모르겠어요.","tgt":"못 o 안, -(으)ㄹ 수 있어요 / 없어요, ug 몰라요 o 모르겠어요."}
+{"f":"sentences","id":"ko.s0253","k":"gloss","src":"I don't eat spicy food (by choice)","tgt":"Dili ko mokaon og halang (kay mao akong pili)"}
+{"f":"sentences","id":"ko.s0254","k":"gloss","src":"I can't eat spicy food (it's too much)","tgt":"Dili ko makakaon og halang (dili nako kaya)"}
+{"f":"sentences","id":"ko.s0255","k":"gloss","src":"I can't go today","tgt":"Dili ko makaadto karong adlawa"}
+{"f":"sentences","id":"ko.s0296","k":"gloss","src":"I can't swim (no skill: 못해요, one word)","tgt":"Dili ko kamao molangoy (walay kahanas: 못해요, usa ka pulong)"}
+{"f":"sentences","id":"ko.s0257","k":"gloss","src":"I can't work out today","tgt":"Dili ko makaehersisyo karong adlawa"}
+{"f":"sentences","id":"ko.s0258","k":"gloss","src":"Can you speak Korean?","tgt":"Makasulti ka og Korean?"}
+{"f":"sentences","id":"ko.s0259","k":"gloss","src":"I can, a little","tgt":"Makahimo ko, gamay lang"}
+{"f":"sentences","id":"ko.s0260","k":"gloss","src":"I can eat kimchi","tgt":"Makakaon ko og kimchi"}
+{"f":"sentences","id":"ko.s0261","k":"gloss","src":"I can't go tomorrow","tgt":"Dili ko makaadto ugma"}
+{"f":"sentences","id":"ko.s0262","k":"gloss","src":"I'm not sure","tgt":"Dili ko sigurado"}
+{"f":"sentences","id":"ko.s0263","k":"gloss","src":"I don't know the way","tgt":"Dili ko kabalo sa dalan"}
+{"f":"sentences","id":"ko.s0264","k":"gloss","src":"I don't know either","tgt":"Dili sab ko kabalo"}
+{"f":"checks","id":"cant.k1","k":"q","src":"'I can't go today' (something stops me) =","tgt":"'Dili ko makaadto karong adlawa' (naay nakababag) ="}
+{"f":"checks","id":"cant.k1","k":"why","src":"못 = can't; 안 = choose not to.","tgt":"못 = dili maka-; 안 = dili, kay mao ang imong pili."}
+{"f":"checks","id":"cant.k2","k":"q","src":"'I can eat kimchi' =","tgt":"'Makakaon ko og kimchi' ="}
+{"f":"checks","id":"cant.k2","k":"why","src":"Consonant stem + 을 수 있어요 = can.","tgt":"Consonant stem + 을 수 있어요 = maka-."}
+{"f":"checks","id":"cant.k3","k":"q","src":"Asked something you're unsure about, the soft answer is:","tgt":"Gipangutana ka og butang nga dili ka sigurado. Ang humok nga tubag:"}
+{"f":"checks","id":"cant.k3","k":"why","src":"모르겠어요 is the softer 'I'm not sure'.","tgt":"Ang 모르겠어요 mao ang mas humok nga 'dili ko sigurado'."}
+{"f":"practice","id":"cant.01","k":"q","src":"'I can't eat spicy food' (it hurts) =","tgt":"'Dili ko makakaon og halang' (dili nako kaya) ="}
+{"f":"practice","id":"cant.01","k":"why","src":"못 = can't, placed right before the verb. 안 = don't (by choice).","tgt":"못 = dili maka-, diha dayon sa atubangan sa verb. 안 = dili (kay mao ang imong gusto)."}
+{"f":"practice","id":"cant.02","k":"q","src":"'I can do it' =","tgt":"'Makahimo ko ana' ="}
+{"f":"practice","id":"cant.02","k":"why","src":"Vowel stem 하 + ㄹ 수 있어요.","tgt":"Vowel stem 하 + ㄹ 수 있어요."}
+{"f":"practice","id":"cant.03","k":"q","src":"'I can't exercise' — where does 못 go?","tgt":"'Dili ko makaehersisyo': asa ibutang ang 못?"}
+{"f":"practice","id":"cant.03","k":"why","src":"With 하다 verbs, 못 goes between the noun and 해요.","tgt":"Sa mga 하다 verb, ang 못 mosulod taliwala sa noun ug 해요."}
+{"f":"practice","id":"cant.04","k":"q","src":"You're asked something and you're not sure. The soft, common reply:","tgt":"Gipangutana ka ug dili ka sigurado. Ang humok ug kasagarang tubag:"}
+{"f":"practice","id":"cant.04","k":"why","src":"모르겠어요 = I'm not sure; 몰라요 is a flat 'I don't know'.","tgt":"모르겠어요 = dili ko sigurado; ang 몰라요 kay prangka nga 'dili ko kabalo'."}
+{"f":"practice","id":"cant.05","k":"q","src":"'I can't go' with -(으)ㄹ 수 없어요 =","tgt":"'Dili ko makaadto' gamit ang -(으)ㄹ 수 없어요 ="}
+{"f":"practice","id":"cant.05","k":"why","src":"Vowel stem 가 + ㄹ 수 없어요.","tgt":"Vowel stem 가 + ㄹ 수 없어요."}
+{"f":"practice","id":"cant.06","k":"p","src":"I can't go today","tgt":"Dili ko makaadto karong adlawa"}
+{"f":"practice","id":"cant.06","k":"why","src":"못 right before the verb = can't.","tgt":"못 diha dayon sa atubangan sa verb = dili maka-."}
+{"f":"practice","id":"cant.07","k":"p","src":"Can you speak Korean?","tgt":"Makasulti ka og Korean?"}
+{"f":"practice","id":"cant.07","k":"why","src":"할 수 있어요 = can do; 한국어 하다 = speak Korean.","tgt":"할 수 있어요 = makahimo; 한국어 하다 = mosulti og Korean."}
+{"f":"practice","id":"cant.08","k":"p","src":"I don't know the way","tgt":"Dili ko kabalo sa dalan"}
+{"f":"practice","id":"cant.08","k":"why","src":"'Don't know' is its own verb, 몰라요; never 안 알아요.","tgt":"Ang 'dili kabalo' kay lahi nga verb, 몰라요; dili gyud 안 알아요."}
+{"f":"practice","id":"cant.09","k":"p","src":"I can't eat spicy food","tgt":"Dili ko makakaon og halang"}
+{"f":"practice","id":"cant.09","k":"why","src":"Can't → 못.","tgt":"Dili maka- → 못."}
+{"f":"practice","id":"cant.10","k":"p","src":"I can, a little","tgt":"Makahimo ko, gamay lang"}
+{"f":"practice","id":"cant.10","k":"why","src":"-(으)ㄹ 수 있어요 = can.","tgt":"-(으)ㄹ 수 있어요 = maka-."}
+{"f":"practice","id":"cant.11","k":"p","src":"I can't eat (it)","tgt":"Dili ko makakaon (niana)"}
+{"f":"practice","id":"cant.11","k":"why","src":"-(으)ㄹ 수 없어요 = cannot.","tgt":"-(으)ㄹ 수 없어요 = dili maka-."}
+{"f":"practice","id":"cant.12","k":"p","src":"I can speak Korean a little (use -(으)ㄹ 수 있어요)","tgt":"Makasulti ko og gamay nga Korean (gamita ang -(으)ㄹ 수 있어요)"}
+{"f":"practice","id":"cant.12","k":"why","src":"하 + ㄹ 수 있어요 = can do.","tgt":"하 + ㄹ 수 있어요 = makahimo."}
+{"f":"practice","id":"cant.13","k":"p","src":"I can't go today (use 못)","tgt":"Dili ko makaadto karong adlawa (gamita ang 못)"}
+{"f":"practice","id":"cant.13","k":"why","src":"Circumstances stop you → 못.","tgt":"Naay nakababag nimo → 못."}
+{"f":"practice","id":"cant.14","k":"p","src":"I don't eat meat (by choice, use 안)","tgt":"Dili ko mokaon og karne (kay mao akong pili, gamita ang 안)"}
+{"f":"practice","id":"cant.14","k":"why","src":"A choice → 안. 못 would mean you can't.","tgt":"Imong pili → 안. Ang 못 nagpasabot nga dili ka makahimo."}
+{"f":"lessons","id":"have-to","k":"title","src":"30 · Have to: -아/어야 해요","tgt":"30 · Kinahanglan: -아/어야 해요"}
+{"f":"lessons","id":"have-to","k":"blurb","src":"Say what you must do, ask if you have to, and say when you don't.","tgt":"Isulti kon unsay kinahanglan nimong buhaton, pangutana kon kinahanglan ba, ug isulti kon dili kinahanglan."}
+{"f":"sentences","id":"ko.s0265","k":"gloss","src":"(I) have to go now","tgt":"Kinahanglan na ko molakaw"}
+{"f":"sentences","id":"ko.s0266","k":"gloss","src":"(I) have to eat","tgt":"Kinahanglan ko mokaon"}
+{"f":"sentences","id":"ko.s0267","k":"gloss","src":"(I) have to work tomorrow","tgt":"Kinahanglan ko motrabaho ugma"}
+{"f":"sentences","id":"ko.s0268","k":"gloss","src":"(I) have to study","tgt":"Kinahanglan ko magtuon"}
+{"f":"sentences","id":"ko.s0269","k":"gloss","src":"Do I have to go now?","tgt":"Kinahanglan ba ko moadto karon?"}
+{"f":"sentences","id":"ko.s0270","k":"gloss","src":"What do I have to do?","tgt":"Unsay kinahanglan nakong buhaton?"}
+{"f":"sentences","id":"ko.s0271","k":"gloss","src":"(I) had to work yesterday","tgt":"Kinahanglan ko motrabaho gahapon"}
+{"f":"sentences","id":"ko.s0272","k":"gloss","src":"(You) don't have to go","tgt":"Dili na kinahanglan nga moadto ka"}
+{"f":"sentences","id":"ko.s0273","k":"gloss","src":"(You) don't have to eat it","tgt":"Dili na kinahanglan nga kaonon nimo"}
+{"f":"checks","id":"have-to.k1","k":"q","src":"'(I) have to go' =","tgt":"'Kinahanglan ko moadto' ="}
+{"f":"checks","id":"have-to.k1","k":"why","src":"가요 → 가 + 야 해요.","tgt":"가요 → 가 + 야 해요.","pre":1}
+{"f":"checks","id":"have-to.k2","k":"q","src":"먹다 → 'have to eat' =","tgt":"먹다 → 'kinahanglan mokaon' ="}
+{"f":"checks","id":"have-to.k2","k":"why","src":"먹어요 → 먹어 + 야 해요.","tgt":"먹어요 → 먹어 + 야 해요.","pre":1}
+{"f":"checks","id":"have-to.k3","k":"q","src":"'(You) don't have to go' =","tgt":"'Dili kinahanglan nga moadto ka' ="}
+{"f":"checks","id":"have-to.k3","k":"why","src":"안 … 도 돼요 = it's okay not to.","tgt":"안 … 도 돼요 = sige ra bisan dili nimo buhaton."}
+{"f":"practice","id":"have-to.01","k":"q","src":"'(I) have to go' =","tgt":"'Kinahanglan ko moadto' ="}
+{"f":"practice","id":"have-to.01","k":"why","src":"가 + 야 해요.","tgt":"가 + 야 해요.","pre":1}
+{"f":"practice","id":"have-to.02","k":"q","src":"먹다 → 'have to eat' =","tgt":"먹다 → 'kinahanglan mokaon' ="}
+{"f":"practice","id":"have-to.02","k":"why","src":"먹어 + 야 해요.","tgt":"먹어 + 야 해요.","pre":1}
+{"f":"practice","id":"have-to.03","k":"q","src":"하다 → 'have to do' =","tgt":"하다 → 'kinahanglan mobuhat' ="}
+{"f":"practice","id":"have-to.03","k":"why","src":"해 + 야 해요.","tgt":"해 + 야 해요.","pre":1}
+{"f":"practice","id":"have-to.04","k":"q","src":"'(You) don't have to go' =","tgt":"'Dili kinahanglan nga moadto ka' ="}
+{"f":"practice","id":"have-to.04","k":"why","src":"안 … 도 돼요.","tgt":"안 … 도 돼요.","pre":1}
+{"f":"practice","id":"have-to.05","k":"q","src":"'(I) had to go' =","tgt":"'Kinahanglan ko moadto' (past) ="}
+{"f":"practice","id":"have-to.05","k":"why","src":"Only 해요 goes into the past.","tgt":"Ang 해요 ra ang mag-past."}
+{"f":"practice","id":"have-to.06","k":"p","src":"(I) have to go now","tgt":"Kinahanglan na ko molakaw"}
+{"f":"practice","id":"have-to.06","k":"why","src":"가야 해요.","tgt":"가야 해요.","pre":1}
+{"f":"practice","id":"have-to.07","k":"p","src":"(I) have to work tomorrow","tgt":"Kinahanglan ko motrabaho ugma"}
+{"f":"practice","id":"have-to.07","k":"why","src":"일해 + 야 돼요.","tgt":"일해 + 야 돼요.","pre":1}
+{"f":"practice","id":"have-to.08","k":"p","src":"(I) have to eat","tgt":"Kinahanglan ko mokaon"}
+{"f":"practice","id":"have-to.08","k":"why","src":"먹어 + 야 해요.","tgt":"먹어 + 야 해요.","pre":1}
+{"f":"practice","id":"have-to.09","k":"p","src":"(I) have to go","tgt":"Kinahanglan ko moadto"}
+{"f":"practice","id":"have-to.09","k":"why","src":"요-form without 요 + 야 해요.","tgt":"요-form nga walay 요 + 야 해요."}
+{"f":"practice","id":"have-to.10","k":"p","src":"(I) have to study","tgt":"Kinahanglan ko magtuon"}
+{"f":"practice","id":"have-to.10","k":"why","src":"공부해 + 야 돼요.","tgt":"공부해 + 야 돼요.","pre":1}
+{"f":"practice","id":"have-to.11","k":"p","src":"(You) don't have to go","tgt":"Dili kinahanglan nga moadto ka"}
+{"f":"practice","id":"have-to.11","k":"why","src":"안 가도 돼요.","tgt":"안 가도 돼요.","pre":1}
+{"f":"practice","id":"have-to.12","k":"p","src":"(I) have to go home","tgt":"Kinahanglan ko mouli"}
+{"f":"practice","id":"have-to.12","k":"why","src":"가 + 야 해요 / 돼요.","tgt":"가 + 야 해요 / 돼요.","pre":1}
+{"f":"practice","id":"have-to.13","k":"p","src":"(I) have to study today","tgt":"Kinahanglan ko magtuon karong adlawa"}
+{"f":"practice","id":"have-to.13","k":"why","src":"공부해 + 야 해요.","tgt":"공부해 + 야 해요.","pre":1}
+{"f":"practice","id":"have-to.14","k":"p","src":"(You) don't have to go","tgt":"Dili kinahanglan nga moadto ka"}
+{"f":"practice","id":"have-to.14","k":"why","src":"안 가도 돼요.","tgt":"안 가도 돼요.","pre":1}
+{"f":"lessons","id":"honorific","k":"title","src":"31 · Honorific verbs","tgt":"31 · Mga honorific nga verb"}
+{"f":"lessons","id":"honorific","k":"blurb","src":"-(으)시- and the special verbs: 드시다, 주무시다, 계시다, 말씀하시다.","tgt":"-(으)시- ug ang mga espesyal nga verb: 드시다, 주무시다, 계시다, 말씀하시다."}
+{"f":"sentences","id":"ko.s0274","k":"gloss","src":"Where are you going? (to an elder)","tgt":"Asa ka padulong? (sa mas magulang)"}
+{"f":"sentences","id":"ko.s0275","k":"gloss","src":"When did you arrive? (honorific)","tgt":"Kanus-a ka niabot? (honorific)"}
+{"f":"sentences","id":"ko.s0276","k":"gloss","src":"Please sit here","tgt":"Lingkod diri, palihug"}
+{"f":"sentences","id":"ko.s0277","k":"gloss","src":"Enjoy your meal (lit. eat deliciously)","tgt":"Kaon og maayo (sa literal: kaon nga lamian)"}
+{"f":"sentences","id":"ko.s0278","k":"gloss","src":"Good night (to an elder)","tgt":"Maayong gabii (sa mas magulang)"}
+{"f":"sentences","id":"ko.s0279","k":"gloss","src":"Is the owner in?","tgt":"Naa ba ang tag-iya?"}
+{"f":"checks","id":"honorific.k1","k":"q","src":"'Enjoy your meal' to a customer:","tgt":"'Kaon og maayo' sa kustomer:"}
+{"f":"checks","id":"honorific.k1","k":"why","src":"드시다 replaces 먹다 in honorific speech.","tgt":"Ang 드시다 mopuli sa 먹다 sa honorific nga sinultihan."}
+{"f":"checks","id":"honorific.k2","k":"q","src":"Honorific of 자다 (to sleep):","tgt":"Honorific sa 자다 (matulog):"}
+{"f":"checks","id":"honorific.k2","k":"why","src":"안녕히 주무세요.","tgt":"안녕히 주무세요.","pre":1}
+{"f":"checks","id":"honorific.k3","k":"q","src":"Which is wrong?","tgt":"Hain ang sayop?"}
+{"f":"checks","id":"honorific.k3","k":"why","src":"Never use 시 about yourself.","tgt":"Ayaw gyud gamita ang 시 bahin sa imong kaugalingon."}
+{"f":"practice","id":"honorific.01","k":"q","src":"To an elder: 'Where are you going?' =","tgt":"Sa mas magulang: 'Asa ka padulong?' ="}
+{"f":"practice","id":"honorific.01","k":"why","src":"Elder is the subject → 가 + 세요. Plain 가요 lacks the honorific.","tgt":"Ang mas magulang ang subject → 가 + 세요. Ang yano nga 가요 walay honorific."}
+{"f":"practice","id":"honorific.02","k":"q","src":"The honorific verb for 먹다 / 마시다:","tgt":"Ang honorific nga verb para sa 먹다 / 마시다:"}
+{"f":"practice","id":"honorific.02","k":"why","src":"드시다 = eat / drink (honorific).","tgt":"드시다 = mokaon / moinom (honorific)."}
+{"f":"practice","id":"honorific.03","k":"q","src":"'Is the owner in?' =","tgt":"'Naa ba ang tag-iya?' ="}
+{"f":"practice","id":"honorific.03","k":"why","src":"For a person being somewhere, 있다 becomes 계시다 → 계세요.","tgt":"Para sa tawo nga naa sa usa ka lugar, ang 있다 mahimong 계시다 → 계세요."}
+{"f":"practice","id":"honorific.04","k":"q","src":"Saying you are going (about yourself):","tgt":"Pag-ingon nga molakaw ka (bahin sa imong kaugalingon):"}
+{"f":"practice","id":"honorific.04","k":"why","src":"Never use 시 about yourself.","tgt":"Ayaw gyud gamita ang 시 bahin sa imong kaugalingon."}
+{"f":"practice","id":"honorific.05","k":"q","src":"'When did you arrive?' (honorific past) =","tgt":"'Kanus-a ka niabot?' (honorific nga past) ="}
+{"f":"practice","id":"honorific.05","k":"why","src":"오 + 시 + 었어요 → 오셨어요.","tgt":"오 + 시 + 었어요 → 오셨어요.","pre":1}
+{"f":"practice","id":"honorific.06","k":"p","src":"What is your name? (honorific)","tgt":"Unsa ang imong ngalan? (honorific)"}
+{"f":"practice","id":"honorific.06","k":"why","src":"성함 is the honorific word for 이름.","tgt":"Ang 성함 mao ang honorific nga pulong para sa 이름."}
+{"f":"practice","id":"honorific.07","k":"p","src":"Good night (to an elder)","tgt":"Maayong gabii (sa mas magulang)"}
+{"f":"practice","id":"honorific.07","k":"why","src":"자다 swaps entirely to 주무시다.","tgt":"Ang 자다 mausab sa tibuok, ngadto sa 주무시다."}
+{"f":"practice","id":"honorific.08","k":"p","src":"Please sit here","tgt":"Lingkod diri, palihug"}
+{"f":"practice","id":"honorific.08","k":"why","src":"Consonant stem 앉 + 으세요.","tgt":"Consonant stem 앉 + 으세요."}
+{"f":"practice","id":"honorific.09","k":"p","src":"Please sit here (to an elder)","tgt":"Lingkod diri, palihug (sa mas magulang)"}
+{"f":"practice","id":"honorific.09","k":"why","src":"After a consonant stem, -으세요.","tgt":"Human sa consonant stem, -으세요."}
+{"f":"practice","id":"honorific.10","k":"p","src":"Is grandma in? (honorific)","tgt":"Naa ba si lola? (honorific)"}
+{"f":"practice","id":"honorific.10","k":"why","src":"A respected person being somewhere → 계세요.","tgt":"Tawo nga gitahod nga naa sa usa ka lugar → 계세요."}
+{"f":"practice","id":"honorific.11","k":"p","src":"When did you arrive? (to an elder)","tgt":"Kanus-a ka niabot? (sa mas magulang)"}
+{"f":"practice","id":"honorific.11","k":"why","src":"Honorific past: 오셨어요.","tgt":"Honorific nga past: 오셨어요."}
+{"f":"practice","id":"honorific.12","k":"p","src":"To an elder: 'Enjoy your meal'","tgt":"Sa mas magulang: 'Kaon og maayo'"}
+{"f":"practice","id":"honorific.12","k":"why","src":"Eating, for an elder, is 드시다 → 드세요.","tgt":"Para sa mas magulang, ang pagkaon kay 드시다 → 드세요."}
+{"f":"practice","id":"honorific.13","k":"p","src":"To an elder: 'Where are you going?'","tgt":"Sa mas magulang: 'Asa ka padulong?'"}
+{"f":"practice","id":"honorific.13","k":"why","src":"가 + 세요: the elder is the one going.","tgt":"가 + 세요: ang mas magulang ang molakaw."}
+{"f":"practice","id":"honorific.14","k":"p","src":"About yourself: 'I'm going home'","tgt":"Bahin sa imong kaugalingon: 'Mouli na ko'"}
+{"f":"practice","id":"honorific.14","k":"why","src":"No 시 about yourself, and destination takes 에.","tgt":"Walay 시 bahin sa imong kaugalingon, ug ang adtoan mogamit og 에."}
+{"f":"lessons","id":"requests","k":"title","src":"32 · Asking for things politely","tgt":"32 · Paghangyo nga matinahuron"}
+{"f":"lessons","id":"requests","k":"blurb","src":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요? — the softeners that get a yes.","tgt":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요?: ang mga softener nga makakuha og oo."}
+{"f":"sentences","id":"ko.s0280","k":"gloss","src":"By any chance, do you have an English menu?","tgt":"Basin naa moy menu nga Iningles?","rw":"mentions English"}
+{"f":"sentences","id":"ko.s0281","k":"gloss","src":"Would you mind speaking slowly?","tgt":"Mahimo ba nga hinay-hinay lang ka mosulti?"}
+{"f":"sentences","id":"ko.s0282","k":"gloss","src":"Could you move us to a window seat?","tgt":"Mahimo ba nga ibalhin mi sa lingkoranan duol sa bintana?"}
+{"f":"sentences","id":"ko.s0283","k":"gloss","src":"May I charge here?","tgt":"Pwede ko mag-charge diri?"}
+{"f":"sentences","id":"ko.s0284","k":"gloss","src":"Sorry, but that's not possible","tgt":"Pasayloa, pero dili pwede"}
+{"f":"sentences","id":"ko.s0285","k":"gloss","src":"It's fine, never mind","tgt":"Sige lang, ayaw na lang"}
+{"f":"checks","id":"requests.k1","k":"q","src":"Most polite way to ask someone to take a photo:","tgt":"Ang pinakamatinahurong paghangyo sa usa ka tawo nga kuhaan ka og litrato:"}
+{"f":"checks","id":"requests.k1","k":"why","src":"좀 + 주시겠어요 = maximum politeness.","tgt":"좀 + 주시겠어요 = pinakamatinahuron."}
+{"f":"checks","id":"requests.k2","k":"q","src":"'By any chance' =","tgt":"Ang pulong nga moabli og matinahurong pangutana, sama sa 'Basin naa moy…?':"}
+{"f":"checks","id":"requests.k2","k":"why","src":"혹시 opens a polite question.","tgt":"Ang 혹시 moabli og matinahurong pangutana."}
+{"f":"checks","id":"requests.k3","k":"q","src":"'May I sit here?' =","tgt":"'Pwede ko molingkod diri?' ="}
+{"f":"checks","id":"requests.k3","k":"why","src":"-아/어도 돼요 = may I.","tgt":"-아/어도 돼요 = 'Pwede ko…?'"}
+{"f":"practice","id":"requests.01","k":"q","src":"Make 'Water, please' gentler:","tgt":"Himoa nga mas humok ang 'Tubig, palihug':"}
+{"f":"practice","id":"requests.01","k":"why","src":"좀 slips in after the noun and softens the request.","tgt":"Ang 좀 mosulod human sa noun ug mopahumok sa hangyo, sama sa 'lang'."}
+{"f":"practice","id":"requests.02","k":"q","src":"'By any chance, do you have an English menu?' =","tgt":"'Basin naa moy menu nga Iningles?' =","rw":"mentions English"}
+{"f":"practice","id":"requests.02","k":"why","src":"혹시 opens the question; 있어요? = do you have?","tgt":"Ang 혹시 moabli sa pangutana; 있어요? = naa ba moy?"}
+{"f":"practice","id":"requests.03","k":"q","src":"Asking a stranger: 'Would you mind taking a photo (for us)?' =","tgt":"Sa estranyo: 'Mahimo ba nga kuhaan mo mi og litrato?' ="}
+{"f":"practice","id":"requests.03","k":"why","src":"-아/어 주시겠어요 asks them to do it; -아/어도 돼요 asks if you may.","tgt":"-아/어 주시겠어요 naghangyo nga siya ang mobuhat; -아/어도 돼요 nangutana kon pwede ka."}
+{"f":"practice","id":"requests.04","k":"q","src":"'May I charge (my phone) here?' =","tgt":"'Pwede ko mag-charge (sa akong selpon) diri?' ="}
+{"f":"practice","id":"requests.04","k":"why","src":"May I → -아/어도 돼요; 하다 → 해도.","tgt":"Pwede ko…? → -아/어도 돼요; 하다 → 해도."}
+{"f":"practice","id":"requests.05","k":"q","src":"Politely refusing: 'Sorry, but that's not possible' =","tgt":"Matinahurong pagbalibad: 'Pasayloa, pero dili pwede' ="}
+{"f":"practice","id":"requests.05","k":"why","src":"안 돼요 = not possible. It's spelled 돼요, never 되요.","tgt":"안 돼요 = dili pwede. Isulat og 돼요, dili gyud 되요."}
+{"f":"practice","id":"requests.06","k":"p","src":"Would you mind speaking slowly?","tgt":"Mahimo ba nga hinay-hinay lang ka mosulti?"}
+{"f":"practice","id":"requests.06","k":"why","src":"Adverb, then verb + 주시겠어요.","tgt":"Ang pulong nga nagsulti kon unsaon (hinay), dayon verb + 주시겠어요."}
+{"f":"practice","id":"requests.07","k":"p","src":"May I sit here?","tgt":"Pwede ko molingkod diri?"}
+{"f":"practice","id":"requests.07","k":"why","src":"앉 + 아도 돼요 = may I sit.","tgt":"앉 + 아도 돼요 = pwede ko molingkod?"}
+{"f":"practice","id":"requests.08","k":"p","src":"Would it be okay if I sit here?","tgt":"Dili ba pwede nga molingkod ko diri?"}
+{"f":"practice","id":"requests.08","k":"why","src":"Consonant stem + 으면 안 돼요?","tgt":"Consonant stem + 으면 안 돼요? Sama sa 'Dili ba pwede…?', naay negative sa pangutana."}
+{"f":"practice","id":"requests.09","k":"p","src":"Would you mind taking a photo (for us)?","tgt":"Mahimo ba nga kuhaan mo mi og litrato?"}
+{"f":"practice","id":"requests.09","k":"why","src":"찍어 + 주시겠어요 = would you take (it) for me.","tgt":"찍어 + 주시겠어요 = mahimo ba nga kuhaan mo ko?"}
+{"f":"practice","id":"requests.10","k":"p","src":"By any chance, is there a bathroom?","tgt":"Basin naa moy CR diri?"}
+{"f":"practice","id":"requests.10","k":"why","src":"혹시 = by any chance; it opens the question.","tgt":"혹시 = basin; moabli kini sa pangutana."}
+{"f":"practice","id":"requests.11","k":"p","src":"May I charge here?","tgt":"Pwede ko mag-charge diri?"}
+{"f":"practice","id":"requests.11","k":"why","src":"-아/어도 돼요 = may I.","tgt":"-아/어도 돼요 = 'Pwede ko…?'"}
+{"f":"practice","id":"requests.12","k":"p","src":"Water, please (soften it with 좀)","tgt":"Tubig, palihug (pahumoka gamit ang 좀)"}
+{"f":"practice","id":"requests.12","k":"why","src":"좀 right after the noun.","tgt":"Ang 좀 diha dayon human sa noun."}
+{"f":"practice","id":"requests.13","k":"p","src":"May I take a photo? (use -아/어도 돼요)","tgt":"Pwede ko magkuha og litrato? (gamita ang -아/어도 돼요)"}
+{"f":"practice","id":"requests.13","k":"why","src":"찍 + 어도 돼요.","tgt":"찍 + 어도 돼요.","pre":1}
+{"f":"practice","id":"requests.14","k":"p","src":"Would it be okay if I sit here? (use -(으)면 안 돼요)","tgt":"Dili ba pwede nga molingkod ko diri? (gamita ang -(으)면 안 돼요)"}
+{"f":"practice","id":"requests.14","k":"why","src":"Consonant stem 앉 + 으면 안 돼요. This 안 is part of the set phrase, not a plain 'not'.","tgt":"Consonant stem 앉 + 으면 안 돼요. Kini nga 안 kabahin sa pirmi nga hugpong, sama sa 'dili' sa 'Dili ba pwede…?': dili kini tinuod nga pagdumili."}
+{"f":"lessons","id":"office","k":"title","src":"33 · Office Korean","tgt":"33 · Korean sa opisina"}
+{"f":"lessons","id":"office","k":"blurb","src":"Titles, the 수고 family, email openers and closers, and surviving 회식.","tgt":"Mga title, ang pamilya sa 수고, pagsugod ug pagtapos sa email, ug paglahutay sa 회식."}
+{"f":"sentences","id":"ko.s0286","k":"gloss","src":"Keep up the good work (to someone still working, as you leave)","tgt":"Padayon lang sa trabaho (sa nagtrabaho pa, samtang mobiya ka)"}
+{"f":"sentences","id":"ko.s0287","k":"gloss","src":"Good work today (to a senior, after work)","tgt":"Salamat sa imong kakugi karon (sa mas taas nimo, human sa trabaho)"}
+{"f":"sentences","id":"ko.s0288","k":"gloss","src":"Good work (to a junior or peer)","tgt":"Maayo ang imong trabaho (sa mas ubos nimo o ka-level)"}
+{"f":"sentences","id":"ko.s0289","k":"gloss","src":"Hello, this is Kii from the marketing team","tgt":"Maayong adlaw, si Kii ni sa marketing team"}
+{"f":"sentences","id":"ko.s0290","k":"gloss","src":"I'm writing about the report","tgt":"Mosulat ko bahin sa report"}
+{"f":"sentences","id":"ko.s0291","k":"gloss","src":"Please take a look","tgt":"Palihug tan-awa"}
+{"f":"sentences","id":"ko.s0292","k":"gloss","src":"Thank you. Kii","tgt":"Salamat. Kii"}
+{"f":"sentences","id":"ko.s0293","k":"gloss","src":"Please have a drink (pouring for a senior)","tgt":"Dawata kining usa ka baso (samtang magbubo ka para sa mas taas nimo)"}
+{"f":"sentences","id":"ko.s0294","k":"gloss","src":"I have to drive, so (no thanks)","tgt":"Kinahanglan ko magmaneho, mao nga (dili na lang)"}
+{"f":"checks","id":"office.k1","k":"q","src":"You're leaving; a coworker at your level is still working. You say:","tgt":"Mopauli ka na; ang kauban nimo nga ka-level nagtrabaho pa. Moingon ka:"}
+{"f":"checks","id":"office.k1","k":"why","src":"수고하세요 = keep up the good work (they stay).","tgt":"수고하세요 = padayon sa trabaho (siya magpabilin)."}
+{"f":"checks","id":"office.k2","k":"q","src":"Address a manager named 김민수 as:","tgt":"Ang manager nga ginganlag 김민수, tawgon nimo og:"}
+{"f":"checks","id":"office.k2","k":"why","src":"Title + 님, not the name.","tgt":"Title + 님, dili ang ngalan."}
+{"f":"checks","id":"office.k3","k":"q","src":"Politely declining a drink at 회식:","tgt":"Matinahurong pagbalibad sa ilimnon sa 회식:"}
+{"f":"checks","id":"office.k3","k":"why","src":"Give a reason; 운전 is the universal one.","tgt":"Paghatag og rason; ang 운전 maoy rason nga dawaton sa tanan."}
+{"f":"practice","id":"office.01","k":"q","src":"Leaving while a coworker is still working, you say:","tgt":"Mopauli ka samtang nagtrabaho pa ang kauban nimo. Moingon ka:"}
+{"f":"practice","id":"office.01","k":"why","src":"수고하세요 = keep up the good work, to someone who stays.","tgt":"수고하세요 = padayon sa trabaho, para sa magpabilin."}
+{"f":"practice","id":"office.02","k":"q","src":"To your manager at the end of the day:","tgt":"Sa imong manager sa katapusan sa adlaw:"}
+{"f":"practice","id":"office.02","k":"why","src":"수고했어요 is for juniors or peers; seniors get 수고하셨습니다.","tgt":"Ang 수고했어요 para sa mas ubos nimo o ka-level; sa mas taas nimo, 수고하셨습니다."}
+{"f":"practice","id":"office.03","k":"q","src":"How do you address your manager (과장)?","tgt":"Unsaon nimo pagtawag ang imong manager (과장)?"}
+{"f":"practice","id":"office.03","k":"why","src":"Titles always take 님.","tgt":"Ang mga title kanunay mogamit og 님."}
+{"f":"practice","id":"office.04","k":"q","src":"The standard email closer 'Please take a look':","tgt":"Ang kasagarang pagtapos sa email nga 'Palihug tan-awa':"}
+{"f":"practice","id":"office.04","k":"why","src":"부탁드립니다 = I humbly ask.","tgt":"부탁드립니다 = mapainubsanon nga naghangyo ko."}
+{"f":"practice","id":"office.05","k":"q","src":"Signing an email as 키이:","tgt":"Pagpirma sa email isip 키이:"}
+{"f":"practice","id":"office.05","k":"why","src":"드림 goes after your own name; never 씨 or 님 for yourself.","tgt":"Ang 드림 human sa imong kaugalingong ngalan; dili gyud 씨 o 님 para sa imong kaugalingon."}
+{"f":"practice","id":"office.06","k":"p","src":"I'll head out first (to the room)","tgt":"Una na ko (sa tanan sa opisina)"}
+{"f":"practice","id":"office.06","k":"why","src":"먼저 퇴근하겠습니다 is the set phrase.","tgt":"Ang 먼저 퇴근하겠습니다 kay pirmi nga pulong."}
+{"f":"practice","id":"office.07","k":"p","src":"What time is the meeting?","tgt":"Unsang orasa ang miting?"}
+{"f":"practice","id":"office.07","k":"why","src":"몇 시예요? = what time is it?","tgt":"몇 시예요? = unsang orasa?"}
+{"f":"practice","id":"office.08","k":"p","src":"Hello, this is Kii from the marketing team","tgt":"Maayong adlaw, si Kii ni sa marketing team"}
+{"f":"practice","id":"office.08","k":"why","src":"Team, then your name + 입니다. No 님 for yourself.","tgt":"Ang ngalan sa grupo una, dayon ang imong ngalan + 입니다. Walay 님 para sa imong kaugalingon."}
+{"f":"practice","id":"office.09","k":"p","src":"Please take a look (email)","tgt":"Palihug tan-awa (email)"}
+{"f":"practice","id":"office.09","k":"why","src":"부탁드립니다 = (I) humbly request.","tgt":"부탁드립니다 = mapainubsanon nga naghangyo (ko)."}
+{"f":"practice","id":"office.10","k":"p","src":"Good work today (to a senior, after work)","tgt":"Salamat sa imong kakugi karon (sa mas taas nimo, human sa trabaho)"}
+{"f":"practice","id":"office.10","k":"why","src":"Seniors get the honorific past: 수고하셨습니다.","tgt":"Ang mas taas nimo makadawat og honorific nga past: 수고하셨습니다."}
+{"f":"practice","id":"office.11","k":"p","src":"Manager, could you check this?","tgt":"Manager, mahimo ba nimo kining tan-awon?"}
+{"f":"practice","id":"office.11","k":"why","src":"Titles always take 님.","tgt":"Ang mga title kanunay mogamit og 님."}
+{"f":"practice","id":"office.12","k":"p","src":"To your team lead after work: 'Good work today'","tgt":"Sa imong team leader human sa trabaho: 'Salamat sa imong kakugi karon'"}
+{"f":"practice","id":"office.12","k":"why","src":"Title + 님, then the senior form 수고하셨습니다.","tgt":"Title + 님, dayon ang porma para sa mas taas: 수고하셨습니다."}
+{"f":"practice","id":"office.13","k":"p","src":"Leaving before your boss: 'I'll head out first'","tgt":"Mauna ka og uli sa imong boss: 'Una na ko'"}
+{"f":"practice","id":"office.13","k":"why","src":"Say it clearly to the room.","tgt":"Isulti kini og klaro sa tanan sa kwarto."}
+{"f":"practice","id":"office.14","k":"p","src":"Manager, could you check this? (very polite)","tgt":"Manager, mahimo ba nimo kining tan-awon? (matinahuron kaayo)"}
+{"f":"practice","id":"office.14","k":"why","src":"Title + 님, then -아/어 주시겠어요 from the requests lesson.","tgt":"Title + 님, dayon -아/어 주시겠어요 gikan sa lesson 32 (Paghangyo nga matinahuron)."}

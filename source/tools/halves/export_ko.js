@@ -37,6 +37,9 @@ const STROKE_RX = /<div class="sgl" data-replay="1"><div class="k">([^<]+)<\/div
   const { browser, page, errs } = await L.openApp();
   const d = await L.liveBuiltin(page);
   /* greet(): the built-in Korean course greets from code, not data: evaluate it at four hours */
+  /* trainer tables (docs/TRAINERS-PLAN.md): the built-in course's native-side trainer text and the engine's Korean keys */
+  d.TR = await page.evaluate(() => { const c = COURSES['en-ko']; const J = x => JSON.parse(JSON.stringify(x));
+    return { TRAINER: J(c.TRAINER), ROLES: J(c.ROLES), KINDS: J(c.KINDS), BUILD: J(BUILD_EN), WORDS_CV: J(WORDS_CV), WORDS_F: J(WORDS_F), L: J(L), V: J(V), T: J(T), PART: PART.map(x => x[0]), ENDS: ENDS.map(x => x[0]), KOUI: Object.keys(KOUI) }; });
   d.GREET = await page.evaluate(() => { const real = Date.prototype.getHours, out = []; try { for (const h of [2, 9, 14, 20]) { Date.prototype.getHours = () => h; out.push(greet()); } } finally { Date.prototype.getHours = real; } return out; });
   await browser.close();
   if (errs.length) console.warn('page errors:', errs.slice(0, 3));
@@ -125,7 +128,29 @@ const STROKE_RX = /<div class="sgl" data-replay="1"><div class="k">([^<]+)<\/div
   const pauseSets = Object.entries(d.PAUSE.sets).map(([k, s]) => { const id = 'ko.z.' + k, sp = splitKo(s[0]); if (!sp || !sp.note) throw new Error('pause label ' + s[0]); labels.push({ id, text: sp.note }); return { id, key: k, ko: sp.ko, sep: sp.sep, items: s[1].map((it, i) => { const iid = id + '.' + pad(i + 1, 2); labels.push({ id: iid, text: it[1] }); return { id: iid, ko: it[0] }; }) }; });
   const idioms = d.PAUSE.idioms.map((x, i) => { const id = 'ko.i' + pad(i + 1, 2); labels.push({ id, text: x[3] }); return { id, ko: x[0], hanja: x[1], rom: x[2] }; });
   if (d.DESC[MY] != null) labels.push({ id: 'ko.d.mydeck', text: d.DESC[MY] }); /* description of the runtime's own "My phrases" deck */
-  const tCourse = { target: 'ko', ttsLang: 'ko-KR', self: d.name.ko, introWord: d.introWord, groups, tags, goals, plans, titles, greet, pairs: d.PAIRS, pause: { sets: pauseSets, idioms }, exportedFrom: { file: path.relative(L.ROOT, L.SRC), sha256_16: srcHash } };
+  /* ---------- trainer roles / kinds / Build sentences (target, ids only) + the native trainer text ---------- */
+  const TRd = d.TR, grpId = name => { const g = d.GROUPS.find(x => x[0] === name); if (!g) throw new Error('role group ' + name); return 'ko.grp.' + slug(name); };
+  const did = x => { if (!deckId[x]) throw new Error('trainer deck ' + x); return deckId[x]; };
+  const roles = {}; Object.entries(TRd.ROLES).forEach(([k, v]) => roles[k] = Array.isArray(v) ? v.map(grpId) : did(v));
+  const kinds = {}; Object.entries(TRd.KINDS).forEach(([k, v]) => kinds[k] = v.map(did));
+  const oldCourse = fs.existsSync(path.join(T, 'course.json')) ? L.readJSON(path.join(T, 'course.json')) : {};
+  const oldBuild = new Map((oldCourse.build || []).map(b => [b.ko, b.id])); let bMax = Math.max(0, ...(oldCourse.build || []).map(b => +String(b.id).slice(4)));
+  const build = TRd.BUILD.map(([ko]) => ({ id: oldBuild.get(ko) || 'ko.b' + pad(++bMax, 2), ko }));
+  if (new Set(build.map(b => b.id)).size !== build.length) throw new Error('duplicate build id');
+  const tCourse = { target: 'ko', ttsLang: 'ko-KR', self: d.name.ko, introWord: d.introWord, groups, tags, goals, plans, titles, greet, pairs: d.PAIRS, pause: { sets: pauseSets, idioms }, roles, kinds, build, exportedFrom: { file: path.relative(L.ROOT, L.SRC), sha256_16: srcHash } };
+  /* native/en/ko/trainer.json: TRAINER of the live engine; translator notes (_src, _new, …) are carried over from the previous file (or the draft) at the same paths */
+  const prevTr = fs.existsSync(path.join(N, 'trainer.json')) ? L.readJSON(path.join(N, 'trainer.json')) : fs.existsSync(path.join(N, 'trainer.draft.json')) ? L.readJSON(path.join(N, 'trainer.draft.json')) : {};
+  const withNotes = (v, prev) => { if (!v || typeof v !== 'object' || Array.isArray(v)) return v; const o = {}; if (prev && typeof prev === 'object') Object.keys(prev).forEach(k => { if (k[0] === '_' && k !== '_meta' && k !== '_engineNeutral') o[k] = prev[k]; }); Object.keys(v).forEach(k => o[k] = withNotes(v[k], prev && typeof prev === 'object' ? prev[k] : null)); return o; };
+  const nTrainer = withNotes(TRd.TRAINER, prevTr);
+  if (prevTr._about && !nTrainer._about) nTrainer._about = prevTr._about;
+  /* target/ko/trainer.json: read-only mirror of the engine's Korean keys (what a native trainer.json must cover); not a second source */
+  const prevMirror = fs.existsSync(path.join(T, 'trainer.json')) ? L.readJSON(path.join(T, 'trainer.json')) : {};
+  const draftUi = (prevTr.ui && typeof prevTr.ui === 'object') ? Object.keys(prevTr.ui).filter(k => k[0] !== '_') : null;
+  const TT = TRd.TRAINER;
+  const mirror = { _about: 'READ-ONLY mirror written by tools/halves/export_ko.js from the live engine: the Korean keys and engine tables a native trainer.json is checked against. Edit the engine (src/app.html), never this file.',
+    words: { cv: TRd.WORDS_CV, f: TRd.WORDS_F }, jamo: { L: TRd.L, V: TRd.V, T: TRd.T }, part: TRd.PART, ends: TRd.ENDS, qw: Object.keys(TT.gloss.QW), conn: Object.keys(TT.gloss.CONN), count: Object.keys(TT.gloss.COUNT),
+    koui: TRd.KOUI, soundRules: Object.keys(TT.sound.rules), conjFields: Object.keys(TT.conj.labels), conjIrregular: Object.keys(TT.conj.irregular), numKinds: Object.keys(TT.numbers.hint), counters: Object.keys(TT.numbers.counter), build: build.map(b => b.id),
+    uiKeys: prevMirror.uiKeys || draftUi || [] };
   const nCourse = { native: 'en', name: d.name.en, brand: d.brand };
 
   /* ---------- guard: check and practice ids are positional within a lesson (<lessonId>.k<n>, <lessonId>.<nn>).
@@ -139,6 +164,8 @@ const STROKE_RX = /<div class="sgl" data-replay="1"><div class="k">([^<]+)<\/div
   /* ---------- write ---------- */
   fs.rmSync(path.join(N, 'lessons'), { recursive: true, force: true });
   L.writeJSON(path.join(T, 'course.json'), tCourse);
+  L.writeJSON(path.join(T, 'trainer.json'), mirror);
+  L.writeJSON(path.join(N, 'trainer.json'), nTrainer);
   const W = (dir, f, rows) => L.writeJSONL(path.join(dir, f + '.jsonl'), rows);
   W(T, 'decks', tDecks); W(T, 'cards', tCards); W(T, 'dialog', tDlg); W(T, 'examples', tEx); W(T, 'patterns', tPat); W(T, 'sentences', tSen); W(T, 'lessons', tLessons); W(T, 'checks', tChk); W(T, 'practice', tPr);
   L.writeJSON(path.join(N, 'course.json'), nCourse);

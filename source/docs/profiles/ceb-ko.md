@@ -615,3 +615,7 @@ Web pages opened and used for this profile (2026-11-22):
 - [Philstar (2008). Korean learning program seen to bare biz prospects (Cebu)](https://philstar.com/cebu-business/2008/11/01/411656/korean-learning-program-seen-bare-biz-prospects)
 
 Local project files read: `docs/HALVES-SPEC.md`; `docs/profiles/en-es.md` (model); `docs/profiles/en-ceb.md` (§1–5, §10–11: house spelling, terms, register); `tools/target/ceb/REVIEW.md`; `tools/target/ceb/decks-a.js` (sample cards); `tools/halves/native/es/ko/work/README.md`; `tools/halves/native/es/ko/REVIEW.md`; `tools/halves/target/ko/{lessons,cards,sentences,dialog,patterns,practice,course}.jsonl/json`; `tools/halves/native/en/ko/{lessons.jsonl,cards.jsonl,ui.json,course.json}` and all 33 `lessons/*.html`; the `LANGS` table in `src/app.html`.
+
+## Confirmed by the owner (2026-11-23)
+- Speakers call the language **Bisaya**; the app shows it as "Bisaya (Cebuano)".
+- Clock times and ages are said with Spanish numbers (alas dos, traynta anyos): confirmed. The notes and the `numbers` lesson that rest on this stand.

@@ -43,7 +43,14 @@ function diff(a, b, p, out) {
     try { setCourseTables(pk); packed = snap(); } finally { COURSE = was; setCourseTables(B); }
     const asm = { LESSONS: pk.LESSONS.map(l => ({ id: l.id, title: l.title, blurb: l.blurb, deck: l.deck, body: norm(strokes(expandEx(l.body))) })) };
     const exact = pk.LESSONS.filter((l, i) => strokes(expandEx(l.body)) === B.LESSONS[i].body).length;
-    return { builtin, raw, packed, valid, cleaned, asm, exact };
+    /* trainers: the built-in course's TRAINER / ROLES / KINDS, and the engine tables the target mirror copies */
+    const trainer = { TRAINER: J(B.TRAINER), ROLES: J(B.ROLES), KINDS: J(B.KINDS) };
+    const engine = { words: { cv: J(WORDS_CV), f: J(WORDS_F) }, jamo: { L: J(L), V: J(V), T: J(T) }, part: PART.map(x => x[0]), ends: ENDS.map(x => x[0]), qw: Object.keys(QW), conn: Object.keys(CONN), count: Object.keys(COUNT), koui: Object.keys(KOUI), build: BUILD_EN.map(x => x[0]),
+      soundRules: Object.keys(B.TRAINER.sound.rules), conjFields: Object.keys(B.TRAINER.conj.labels), conjIrregular: Object.keys(B.TRAINER.conj.irregular), numKinds: Object.keys(B.TRAINER.numbers.hint), counters: Object.keys(B.TRAINER.numbers.counter) };
+    /* the assembled pack's trainer gating through the runtime: a copy of the pack must reach the same CF() / modeOk() answers as the built-in course */
+    const gate = c => { const was = COURSE; COURSE = c; try { return ['script', 'pron', 'strokes'].map(f => f + '=' + CF(f)).concat(['type', 'pick', 'listen', 'role', 'say'].map(m => m + ':' + modeOk(m))).join(' '); } finally { COURSE = was; } };
+    const gates = { builtin: gate(B), packed: gate(pk) };
+    return { builtin, raw, packed, valid, cleaned, asm, exact, trainer, engine, gates };
   }, pack);
   await browser.close();
 
@@ -51,8 +58,16 @@ function diff(a, b, p, out) {
   const rawPack = { DECKS: pack.DECKS, GROUPS: pack.GROUPS, TAGS: pack.TAGS, DESC: pack.DESC, DIALOG: pack.DIALOG, EXAMPLES: pack.EXAMPLES, PATTERNS: pack.PATTERNS, CHECKS: pack.CHECKS, PRACTICE: pack.PRACTICE, GOALS: pack.GOALS, PLAN_PRESETS: pack.PLAN_PRESETS, TITLES: pack.TITLES, PAIRS: pack.PAIRS, PAUSE: pack.PAUSE, name: pack.name, brand: pack.brand, introWord: pack.introWord, ttsLang: pack.ttsLang, GREET: pack.GREET, LESSONS: R.asm.LESSONS };
   diff(R.raw, rawPack, 'raw', A);
   diff(R.builtin, R.packed, 'runtime', Bd);
+  /* trainers (docs/TRAINERS-PLAN.md WP0d): assembled TRAINER / ROLES / KINDS ≡ COURSES['en-ko'] (deep, exact), and the target mirror ≡ the live engine */
+  diff(R.trainer, { TRAINER: pack.TRAINER || null, ROLES: pack.ROLES || null, KINDS: pack.KINDS || null }, 'raw.trainer', A);
+  const { loadHalves } = require('./assemble.js'); const H = loadHalves('en', 'ko'); const tc = H.t.course, mir = H.t.trainer || {};
+  const mirror = { words: mir.words, jamo: mir.jamo, part: mir.part, ends: mir.ends, qw: mir.qw, conn: mir.conn, count: mir.count, koui: mir.koui, build: (tc.build || []).map(b => b.ko), soundRules: mir.soundRules, conjFields: mir.conjFields, conjIrregular: mir.conjIrregular, numKinds: mir.numKinds, counters: mir.counters };
+  diff(R.engine, mirror, 'raw.mirror', A);
+  if ((mir.build || []).join() !== (tc.build || []).map(b => b.id).join()) A.push('raw.mirror.build: ids differ from target course.json build[]');
+  if (R.gates.builtin !== R.gates.packed) Bd.push('runtime.gates: ' + R.gates.builtin + ' ≠ ' + R.gates.packed);
   const strokeTok = pack.LESSONS.reduce((n, l) => n + (l.body.match(/\{\{strokes:/g) || []).length, 0);
   console.log('== PROOF en-ko: target/ko + native/en/ko vs built-in ==');
+  console.log('trainer gates (built-in | assembled): ' + R.gates.builtin + (R.gates.builtin === R.gates.packed ? ' (same)' : ' | ' + R.gates.packed));
   console.log('validCourse(pack): ' + R.valid + (missing.length ? '   missing native rows: ' + missing.length : ''));
   missing.slice(0, 50).forEach(m => console.log('  MISSING ' + m));
   console.log('A. raw data differences: ' + A.length); A.slice(0, 400).forEach(x => console.log('  ' + x));

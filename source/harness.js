@@ -393,6 +393,11 @@ else {
   mc.bootPackCourse=await p.evaluate(async()=>{ let ok=COURSE.id==='ko-en'&&uiLang()==='ko'; for(const r of ['practice','review','read','lessons','progress','today']){ try{ location.hash='#'+r; route(); await new Promise(z=>setTimeout(z,60)); }catch(e){ ok=false; } } return ok&&[...qSel].every(d=>DECKS[d])&&document.querySelectorAll('#quizDecks .chip').length>0; });
   await ctx.close(); }
 }
+// Korean trainers (docs/TRAINERS-PLAN.md WP0b): en-ko carries ROLES / KINDS / TRAINER whose labels all exist and whose readiness holds; a copy without TRAINER falls back to nothing
+{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const c=COURSES['en-ko']; const out={};
+    out.trainerTables=!!(c.ROLES&&c.KINDS&&c.TRAINER)&&Object.entries(c.ROLES).every(([k,v])=>Array.isArray(v)?v.every(g=>GROUPS.some(x=>x[0]===g)):!!DECKS[v]&&ROLE(k)===v)&&Object.values(c.KINDS).every(a=>a.length&&a.every(d=>DECKS[d]))&&['script','numbers','sound','register','conj','pron','strokes'].every(f=>CF(f)&&(!READY[f]||READY[f]()))&&['type','pick','build','register','listen','numbers','role','say','sound'].every(modeOk)&&[...WORDS_CV,...WORDS_F].every(w=>c.TRAINER.hangul.mean[w]);
+    const was=COURSE; let fb; try{ const x=Object.assign({},c,{id:'en-kx'}); delete x.TRAINER; COURSE=x; fb=!CF('script')&&!modeOk('pick')&&!modeOk('build')&&!CF('register')&&kouiTip('좋아요')===''&&answersFor('서')&&!answersFor('서').answers.has('suh'); } finally { COURSE=was; }
+    out.noFallback=!!fb&&answersFor('서').answers.has('suh'); return out; }); await ctx.close(); Object.assign(mc,r); }
 // pack integrity for every course
 res.checks.packs=await (async()=>{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const out={}; Object.values(COURSES).forEach(c=>{ const rt=courseRT(c); const raw=c.builtin?Object.keys(c.DECKS).filter(d=>d!==MYDECK):Object.keys(c.DECKS); const tg=[]; raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>tg.push(String(x[0]).toLowerCase().trim())));
     const grouped=raw.every(d=>(c.GROUPS||[]).some(g=>g[1].includes(d))&&(c.GROUPS||[]).filter(g=>g[1].includes(d)).length===1), tagged=raw.every(d=>Object.values(c.TAGS||{}).some(a=>a.includes(d)));

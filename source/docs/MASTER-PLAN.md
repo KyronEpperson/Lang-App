@@ -51,7 +51,12 @@ Today one Spanish course (Mexico-leaning Latin American) carries a "Caribbean an
 - Precedent in the app: Portuguese (Brazil) and Portuguese (Portugal) are separate courses.
 - Candidates: Spanish (Mexico), Spanish (Dominican / Caribbean), Spanish (Spain), Spanish (Rioplatense); later Arabic (Egyptian / Levantine / Gulf), Chinese varieties already separate, English (US / UK) for learners of English.
 - Each dialect course carries its own flag in the picker; the learner's own language (step 1) stays one entry per language.
-- To decide: which dialects first (suggested: Dominican, since the deck already exists and Kii studies it), and whether progress carries between dialect courses of one language.
+- **Kii, 2026-11-23: add Puerto Rican Spanish, built right after the Bisaya → Korean course.** Read as a dialect course for English speakers (Spanish (Puerto Rico)), sharing the Caribbean groundwork with Dominican; confirm with Kii if he meant Puerto Rican Spanish speakers learning Korean.
+- **Decided (Kii, 2026-11-23): Dominican Spanish is the first dialect course.** Still open: whether progress carries between dialect courses of one language.
+
+## 0.6 After the Asian → Korean block (Kii, 2026-11-23)
+
+The English → other-language queue (docs/CURSOR-QUEUE.md, from row 10: Romanian, Ukrainian, Bulgarian, Hungarian, Finnish, Afrikaans, Swahili, Haitian Creole, Zulu, then the Check lane) resumes and runs continuously, one course after another. Blocked (community-first) languages stay blocked.
 
 ## 0.4 Status (2026-11-22, evening)
 

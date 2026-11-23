@@ -1143,8 +1143,117 @@
    }
   ]
  },
+ "roles": {
+  "hangulVowels": "ko.d.hangul-vowels",
+  "hangulConsonants": "ko.d.hangul-consonants",
+  "survival": "ko.d.survival-phrases",
+  "weekGroups": [
+   "ko.grp.everyday",
+   "ko.grp.social"
+  ]
+ },
+ "kinds": {
+  "letters": [
+   "ko.d.hangul-vowels",
+   "ko.d.hangul-consonants",
+   "ko.d.hangul-advanced"
+  ],
+  "pronunciation": [
+   "ko.d.pronunciation-tips"
+  ],
+  "grammar": [
+   "ko.d.particles",
+   "ko.d.core-verbs",
+   "ko.d.counters",
+   "ko.d.numbers",
+   "ko.d.numbers-in-the-wild",
+   "ko.d.adjectives"
+  ],
+  "reference": [
+   "ko.d.particles",
+   "ko.d.core-verbs",
+   "ko.d.counters",
+   "ko.d.numbers",
+   "ko.d.connectors",
+   "ko.d.adjectives"
+  ]
+ },
+ "build": [
+  {
+   "id": "ko.b01",
+   "ko": "어제 친구를 만났어요"
+  },
+  {
+   "id": "ko.b02",
+   "ko": "먼저 카페에 갔어요"
+  },
+  {
+   "id": "ko.b03",
+   "ko": "그리고 커피를 마셨어요"
+  },
+  {
+   "id": "ko.b04",
+   "ko": "그다음에 영화를 봤어요"
+  },
+  {
+   "id": "ko.b05",
+   "ko": "그래서 집에 늦게 왔어요"
+  },
+  {
+   "id": "ko.b06",
+   "ko": "지난 주말에 뭐 했어요"
+  },
+  {
+   "id": "ko.b07",
+   "ko": "아까 점심 먹었어요"
+  },
+  {
+   "id": "ko.b08",
+   "ko": "그런데 영화가 너무 길었어요"
+  },
+  {
+   "id": "ko.b09",
+   "ko": "매운 거 안 먹어요"
+  },
+  {
+   "id": "ko.b10",
+   "ko": "매운 거 못 먹어요"
+  },
+  {
+   "id": "ko.b11",
+   "ko": "한국어 할 수 있어요"
+  },
+  {
+   "id": "ko.b12",
+   "ko": "조금 할 수 있어요"
+  },
+  {
+   "id": "ko.b13",
+   "ko": "오늘은 못 가요"
+  },
+  {
+   "id": "ko.b14",
+   "ko": "오늘 운동 안 해요"
+  },
+  {
+   "id": "ko.b15",
+   "ko": "잘 모르겠어요"
+  },
+  {
+   "id": "ko.b16",
+   "ko": "길을 몰라요"
+  },
+  {
+   "id": "ko.b17",
+   "ko": "지금 갈 수 없어요"
+  },
+  {
+   "id": "ko.b18",
+   "ko": "커피 안 마셔요"
+  }
+ ],
  "exportedFrom": {
   "file": "src/app.html",
-  "sha256_16": "28307e1020d17f1f"
+  "sha256_16": "abc284e5db93332b"
  }
 }

@@ -21,6 +21,11 @@ fs.readdirSync(W).forEach(f => {
 });
 r = run('mk_native.js', ['es', '--merge'], base); if (r.status) throw new Error(r.stderr);
 const N = d => path.join(d, 'native', 'es', 'ko');
+/* a fake Spanish trainer.json: every English string prefixed "ES " (Hangul and %n slots kept), no alternates */
+{ const pre = v => typeof v === 'string' ? 'ES ' + v : Array.isArray(v) ? v : v && typeof v === 'object' ? Object.fromEntries(Object.entries(v).filter(([k]) => k[0] !== '_').map(([k, x]) => [k, pre(x)])) : v;
+  const tr = pre(L.readJSON(path.join(base, 'native', 'en', 'ko', 'trainer.json'))); tr.hangul.alt = { V: { 'ㅘ': ['ua'] }, L: {}, T: {}, sh: ['sh'], input: { fold: true, map: [['ñ', 'ny']], rewrite: [['qu(?=[ei])', 'k']] } }; tr.sound.showGloss = true;
+  L.writeJSON(path.join(N(base), 'trainer.json'), tr); }
+const editJ = (d, f, fn) => { const p = path.join(N(d), f); const o = L.readJSON(p); fn(o); L.writeJSON(p, o); };
 const edit = (d, f, fn) => { const p = path.join(N(d), f); L.writeJSONL(p, fn(L.readJSONL(p))); };
 const cases = [
   ['clean fake es half validates', d => { }, null],
@@ -36,6 +41,14 @@ const cases = [
   ['dialog " / " lost', d => edit(d, 'dialog.jsonl', rows => { rows[0].tr = rows[0].tr.replace(' / ', ' '); return rows; }), /" \/ "/],
   ['event-attribute trap in body', d => { const p = path.join(N(d), 'lessons', 'numbers.html'); fs.writeFileSync(p, fs.readFileSync(p, 'utf8').replace('<p>', '<p>ES once = 11. ')); }, /event attribute/],
   ['options made identical', d => edit(d, 'checks.jsonl', rows => { const x = rows.find(r => Array.isArray(r.o) && r.o.filter(v => v != null).length >= 2); const ix = x.o.map((v, i) => v != null ? i : -1).filter(i => i >= 0); x.o[ix[1]] = x.o[ix[0]]; return rows; }), /identical/],
+  ['trainer: a Hangul drill meaning dropped', d => editJ(d, 'trainer.json', o => { delete o.hangul.mean['서울']; }), /missing meaning for a Hangul drill word/],
+  ['trainer: a %1 slot changed', d => editJ(d, 'trainer.json', o => { o.onboard.started = o.onboard.started.replace('%1', '%2'); }), /slots %2 differ/],
+  ['trainer: alternate "o" for ㅓ (merges with ㅗ)', d => editJ(d, 'trainer.json', o => { o.hangul.alt.V['ㅓ'] = ['o']; }), /canonical spelling of ㅗ/],
+  ['trainer: alternate "y" for ㅈ (ㅈ+ㅏ = 야)', d => editJ(d, 'trainer.json', o => { o.hangul.alt.L['ㅈ'] = ['y']; }), /merge two syllables/],
+  ['trainer: orphan PART key', d => editJ(d, 'trainer.json', o => { o.gloss.PART['께서'] = 'ES honorific subject'; }), /orphan key/],
+  ['trainer: Hangul changed in a gloss', d => editJ(d, 'trainer.json', o => { o.register.toPolite = o.register.toPolite.replace('요', '죠'); }), /Hangul differs/],
+  ['trainer: rewrite regex that does not compile', d => editJ(d, 'trainer.json', o => { o.hangul.alt.input.rewrite.push(['qu(', 'k']); }), /does not compile/],
+  ['trainer.json absent still validates (trainers off)', d => fs.rmSync(path.join(N(d), 'trainer.json')), null],
   ['blank placeholder removed', d => edit(d, 'patterns.jsonl', rows => { const x = rows.find(r => /__/.test(r.meaning)) || rows[0]; x.meaning = x.meaning.replace(/_{2,}/, '…') + (/__/.test(x.meaning) ? '' : ' ___'); return rows; }), /placeholder/]
 ];
 let fail = 0;
@@ -57,6 +70,13 @@ cases.forEach(([name, mut, want]) => {
 {
   const d = fresh('moved'); const p = path.join(d, 'target', 'ko', 'practice.jsonl'); const rows = L.readJSONL(p); rows[3].a = ['다른']; L.writeJSONL(p, rows);
   const v = run('export_ko.js', [], d); const ok = v.status === 1 && /different Korean content/.test(v.stderr); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'export refuses moved positional ids');
+}
+/* proof must catch a changed English trainer text and a changed role */
+{
+  const d = fresh('prooftr'); const p = path.join(d, 'native', 'en', 'ko', 'trainer.json'); const o = L.readJSON(p); o.hangul.mean['나무'] = 'wood'; L.writeJSON(p, o);
+  const c = path.join(d, 'target', 'ko', 'course.json'); const k = L.readJSON(c); k.roles.survival = 'ko.d.survival-phrases-2'; L.writeJSON(c, k);
+  const v = run('proof.js', [], d); const ok = v.status === 1 && /raw\.trainer\."TRAINER"\."hangul"\."mean"\."나무"/.test(v.stdout) && /raw\.trainer\."ROLES"\."survival"/.test(v.stdout); if (!ok) fail++;
+  console.log((ok ? 'ok   ' : 'FAIL ') + 'proof detects an altered English trainer text and role');
 }
 /* proof must catch a changed Korean string in the target half */
 {

@@ -16,7 +16,9 @@ Author: not a native speaker. Everything here needs the Bisaya-speaking friend's
   - *kon*, not *kung*;
   - *gyud*;
   - no apostrophes and no accent marks.
-  - The build linter checked all of these.
+  - Root vowels kept in affixed forms (KWF §7.5): *kahulogan, panumdoman, nahinumdoman, Pindota*, *puwede*, past *ni-* (*niingon, niaging*).
+  - What the build linter checks automatically: Hangul, emoji and digits equal to the key; fragment edge punctuation; no apostrophes or accents; none of *kung, po, hindi, ng, mu-*. It does **not** check *og / ug*, *ni- / mi-*, root vowels or loan spelling; those were audited by hand (word list grep).
+  - Known open class: *katapusan / katapusang* (root *tapos*) is written as commonly printed, as ceb-ko.md §3.3 also flags.
 - Commands use the plain Cebuano form (*Pilia, Ablihi, Tangtanga, Sulayi, Kopyaha, Paminawa*). English verbs take the *i-* prefix the way Cebuanos write them (*i-tap, i-save, i-share, i-type, i-delete, i-review*).
 - Counts use *ka* (`{1} ka card`), which reads correctly at 1 and at 2+, so singular and plural templates share one text.
 - Grammar terms follow the closed English list in `docs/profiles/ceb-ko.md` §3.4: *verb, noun, stem, dictionary form, ending, particle, counter, question word, polite, casual, honorific, 요-form, romanization, block, vowel, consonant, final, sound change, past, present*.
@@ -42,7 +44,7 @@ Real Cebuano is used for ordinary words, for example:
 - Usab (again), Kabalo ko (Got it), Balika (retry);
 - Laktaw (skip), Itago / Ipakita (hide / show), Sirad-i (close), Kanselahon (cancel).
 
-**Trap avoided:** *Usba* means "change / edit" (used for *edit note*). It is never used for "again" or "retry": those are *Usab* and *Balika*.
+**Merge vs mix:** *Isagol / Sinagol / Sagol* are shuffle, mix and mixed; *Iusa / Naiusa* (make one) are merge. **Trap avoided:** *Usba* means "change / edit" (used for *edit note*). It is never used for "again" or "retry": those are *Usab* and *Balika*.
 
 ## 3. Tab names (5-tab bar + extras)
 
@@ -78,7 +80,7 @@ Answer "OK" or write the natural version.
 | 12 | Weak spots | Huyang nga bahin | Natural? |
 | 13 | Streak at risk | Peligro ang streak | Or *Hapit maputol ang streak*? |
 | 14 | A missed day won't break your streak | kon makalaktaw ka og usa ka adlaw | Natural for "if you skip a day"? |
-| 15 | Mastered (box 6) | kahanas na | Or *batid na*, *kabisado na*? |
+| 15 | Mastered (box 6) | hanas na | Or *kabisado na*, *batid na*? (*kahanas* is kept for the noun "mastery".) |
 | 16 | Learning (box state) | gitun-an | Correct form for "being learned"? |
 | 17 | Bury / Buried until tomorrow | ⏭ ilubong / Gilubong hangtod ugma | A literal "bury" (Anki term). Too strange? *Ilain sa ugma*? |
 | 18 | Play / plays the pronunciation | Patokara / motokar sa paglitok | Is *tokar* right for playing audio, or only for music? Or *Paminawa*? |
@@ -95,7 +97,7 @@ Answer "OK" or write the natural version.
 | 29 | Sign-in code / Sign in to sync | Code sa pag-sign in / Mo-sign in aron mo-sync | Too much English? |
 | 30 | Something went wrong: | Naay sayop: | Or *Naay problema:*? |
 
-Also worth a glance: *Sirad-i* (close), *Tan-awa* (Browse), *Huyang*, *Pun-a ang blangko* (Fill the gap), *Han-aya ang mga pulong* (Put the words in order), *Sugod sa Koreano* (Korean starter), *I-delete na gyud* (Delete forever).
+Also worth a glance: *Iusa* (Merge in; or *I-merge*?), *hanas na* (mastered), *Sirad-i* (close), *Tan-awa* (Browse), *Huyang*, *Pun-a ang blangko* (Fill the gap), *Han-aya ang mga pulong* (Put the words in order), *Sugod sa Koreano* (Korean starter), *I-delete na gyud* (Delete forever).
 
 ## 5. For the lead (src/app.html, build, tests; I changed none of these)
 
@@ -125,8 +127,16 @@ Also worth a glance: *Sirad-i* (close), *Tan-awa* (Browse), *Huyang*, *Pun-a ang
 **Tell the halves agent:**
 - **`docs/profiles/ceb-ko.md` §3.5** (it says "no Cebuano interface pack; name tabs in English as on screen") is now out of date. The tabs on screen are **Karon, Leksyon, Praktis, Review, Pag-uswag**, so lesson prose in `tools/halves/native/ceb/ko/` that says "Today / Lessons / Practice / Progress" should use these names. Other button names the prose may cite are *Kabalo ko* (Got it), *Usab* (Again), *I-check* (Check), *Tan-awa* (Browse) and *Akong mga phrase* (My phrases).
 
+**Course UI overrides.** `tools/halves/native/ceb/ko/ui.json` exists and is empty `{}`. Whatever goes there becomes `COURSE.UI` and overrides this pack key by key in `setI18n()`, so keep the two consistent; prefer fixing wording here. The halves lesson titles (`work/w*.jsonl`, `k: title`) are still empty. Once written, compare them with the 40 roadmap titles in `roadmap.json` (different strings: the roadmap is the plan preview, but the wording should match).
+
+**Pipeline notes.** `new_lang.py` uses `ko/ui.json` as its reference column (it accepts 3-letter codes). The inline single-file build (`korean-flashcards.html`) will also include the new pack, about 74 KB.
+
 **Roadmaps.** Only the `ko` roadmap (40 strings) is translated. The 1,782 strings of the other roadmaps (shown in "Coming soon" previews) have empty `t` and fall back to English through `rmT`, which the pipeline allows.
 
 ### Language names in Cebuano (for item 2)
 
-ko Koreano · en Iningles · es Kinatsila · ja Hinapon · zh Insik (Mandarin) · tl Tinagalog · ceb Binisaya · hil Hiligaynon · war Winaray · fr Pranses · de Aleman · it Italyano · pt Portuges · ru Ruso · ar Arabiko · hi Hindi · id Indonesian · th Thai · vi Vietnamese · yue Insik (Cantonese). All other codes: the English name.
+The Intl result was observed in Node (full ICU): `new Intl.DisplayNames(['ceb'],{type:'language'})` gives ko → "Korean", en → "English", es → "Espanyol". Browsers may differ slightly.
+
+**Given in the task (use):** ko Koreano · en Iningles · es Kinatsila · ja Hinapon · zh Insik (Mandarin) · tl Tinagalog · ceb Binisaya.
+**Unverified candidates (from recall; friend to confirm, else use the English name):** hil Hiligaynon · war Winaray · fr Pranses · de Aleman · it Italyano · pt Portuges · ru Ruso · ar Arabiko · yue Insik (Cantonese).
+**All other codes:** the English name.

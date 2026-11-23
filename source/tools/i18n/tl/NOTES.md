@@ -1,0 +1,163 @@
+# Tagalog / Filipino (tl) interface dictionary: notes
+
+Files:
+- `ui.json`: 784 exact keys and 274 pattern templates, all filled.
+- `roadmap.json`: the 40 Korean-roadmap titles are filled. The other 1,782 strings are empty, so they fall back to English.
+- The generated pack is `packs/i18n-tl.js`.
+
+Build: `python3 tools/i18n/gen.py tl && node tools/i18n/validate.js tl`. It passes with 2 warning classes, the same two that `ceb` and `es` have:
+- 20 labels that may overflow;
+- 55 strings identical to English, because they are kept loanwords, grammar terms or symbols (every one of them is on the list in §2).
+
+The only course this interface serves is **tl-ko** (Korean for Tagalog speakers). So every key that says Korean, Hangul or romanization is translated **literally for Korean**: *Koreano*, *Hangul*, *romanization*. All Hangul and 🇰🇷 are kept. The generic "English" keys are translated literally too (*Ingles*). They are only shown in an English course, which Tagalog speakers do not have. es and id rewrote these keys for English, so they were not used as models. ceb was the model for them.
+
+Author: not a native speaker. Everything here needs a Tagalog speaker's check (§4).
+
+## 1. Register and spelling (one decision each)
+
+- **Variety:** everyday educated Manila Filipino as Philippine apps write it. That is Taglish: common English tech and learning words are kept, and Filipino is used for ordinary words.
+- **Address:** informal *ikaw / ka / mo / iyo*, never *kayo*. This is the usual register of Philippine app copy, though no app was checked for this note [inference].
+- ***po* rule:** no *po / ho / opo* anywhere in the interface, not even in requests. A request uses the plain command form, or *pakiusap* / *paki-* where English says "please" (*pakiusap, huwag mag-share…*). One rule, no exceptions.
+- **Commands:** buttons and instructions use the object-focus command form, the way apps do (*Piliin, Buksan, Isara, Kopyahin, Pakinggan, Alisin, Burahin, Ulitin, Subukan ulit, Laktawan*).
+  - Where the action has no object it uses *mag-* / *-um-* (*Makinig, Sumagot, Magpatuloy, Mag-type na*).
+  - English verbs take *i-* or *mag-* with a hyphen: *i-tap, i-save, i-share, i-type, i-delete, i-review, i-check, i-reset, i-export, i-import, i-paste, i-play, i-swipe, i-quiz, i-unlock, i-sync / mag-sync, mag-sign in / mag-sign out*.
+  - Progressive Taglish forms repeat the first syllable of the English verb: *Nagse-save…, Dine-delete…, Nagsi-sync, Naglo-load…*.
+- **Counts:** a slot number is written **without a linker and without *mga***: `{1} card`, `{1} araw`, `{1} deck`, `{1} linggo`.
+  - The right linker (*limang / apat na*) depends on the number word, and a digit hides it.
+  - Philippine apps also write bare "5 araw".
+  - Singular and plural templates therefore share one text.
+  - No *-ng*, *din / rin* or *daw / raw* is ever written directly after a slot (the build lint checks this).
+  - Fixed digits in fixed strings may take the linker (*4 na card*) or not (*5 card*); both read normally.
+- **d / r:** *rin, rito, raw* after a vowel (or w / y), *din, dito, daw* after a consonant. The lint checks *din / rin / dito / rito*.
+- **Spelling:** standard KWF spelling, no accent marks and no apostrophe contractions (*ano'ng*, *'yan* are avoided). Loans are written as Manila apps write them: *settings, email, quiz, card*. *Kumusta* is used, not *kamusta*.
+- **Plurals:** *mga* + noun for unnumbered plurals (*Mga deck, Mga aralin, Mga phrase ko*). It is dropped after a number.
+- **Grammar terms:** English, from the closed list in `docs/profiles/tl-ko.md` §3.4: *verb, noun, stem, dictionary form, ending, particle, counter, question word, polite, casual, honorific, 요-form, romanization, block, vowel, consonant, final, sound change, past, present, pattern, irregular*. They are used as nouns inside Filipino (*ang verb*, *polite na present*). No Filipino school terms (*pandiwa, pangngalan*).
+- **Quiz mode words** are used the same everywhere:
+  - Read = *Basa* / *basa*; Listen = *Pakinig* / *pakinig*; Recall = *Alala* / *alala*; Type = *I-type*;
+  - Mixed (the quiz mode) = *Halo-halo*; the Mix pool (5 at a time) = *Halo*;
+  - Shuffle = *I-shuffle*; Merge = *Isama* / *Naisama* (never *Halo*).
+
+## 2. Loanwords kept in English (closed list)
+
+Tech and app terms:
+- app, account, email, Sign in / Sign out (*mag-sign in*), sync, backup, export / import, CSV, TSV, PNG, KB, file, link, code, password, browser, device, storage, site data, online / offline, inbox, spam, admin, Developer, dev, bug, Feedback, Privacy, Analytics, ads, cookies, page view, user, post, page, Settings, tour, preview, view, screen, home screen, keyboard, arrow key, Enter, Esc, Ctrl+K, button, text, track, tab, 3D effect, sound effect, Audio, Mode, row, item, tiles, forecast, calendar, phone, laptop, level, normal, native (audio speed), on / off.
+
+Learning terms:
+- card / flashcard, deck, quiz, exam, test, drill, mini drill, blitz, round, session, Review (tab, noun and verb *i-review*), streak, streak shield, streak card, recap card, Level / Lv, XP, combo, personal best, badge, hint, score, interval, leech, suspend (*i-suspend*), role-play, dictation, Register, spaced repetition, phrase (*Mga phrase ko*), pattern, grammar, conjugator, index (*Index ng grammar*), date (*makipag-date*), average, Pro, Sensei, K-drama.
+
+Product name: Lang App. Code word: DELETE (never translated; the engine compares the typed text).
+
+Filipino is used for ordinary words, for example:
+- tabs: *Ngayon, Aralin, Pagsasanay, Pag-unlad, Basa*;
+- *kahulugan* (meaning), *tala* (note), *halimbawa* (example), *salita* (word), *usapan* (dialogue), *bigkas* (pronunciation), *tunog* (sound), *boses* (voice), *bilis* (speed);
+- *kahon* (SRS box), *layunin* (goal), *paalala* (reminder), *palayaw* (nickname), *kulay* (accent colour), *sertipiko*, *wika* (language), *kurso*;
+- *mabagal / mabilis*;
+- *Tama! / Hindi pa tama.*;
+- *Ulit* (Again), *Alam ko na* (Got it), *Ulitin* (Retry / Redo / Replay), *Subukan ulit* (Try again);
+- *Laktawan*, *Itago / Ipakita*, *Isara*, *Kanselahin*, *Bumalik*, *Susunod*, *Tapos*, *Tapusin*, *Simulan*, *Magpatuloy*;
+- *Kahinaan* (Weak spots), *Mga mali* (Missed), *pasado / para pumasa* (passed / to pass), *natutunan* (learned), *inaaral* (learning), *kabisado na* (mastered), *ipagpabukas* (bury);
+- *Tingnan* (Browse).
+- Level titles: *Baguhan, Usbong, Estudyante, Madaldal* (Talker; 수다쟁이 is "chatterbox"), *Biyahero, Lokal, Beterano* (Senior / 선배), *Maestro, Pro, Sensei*.
+
+## 3. Tab names (5-tab bar + extras)
+
+| English | Tagalog | chars | ceb | es |
+|---|---|---|---|---|
+| Today | **Ngayon** | 6 | Karon | Hoy |
+| Lessons | **Aralin** | 6 | Leksyon | Lecciones |
+| Practice | **Pagsasanay** | 10 | Praktis | Práctica |
+| Review | **Review** | 6 | Review | Repaso |
+| Progress | **Pag-unlad** | 9 | Pag-uswag | Progreso |
+| Read (advanced) | Basa | 4 | Basa | Leer |
+| Feedback | Feedback | 8 | Feedback | Opinión |
+
+- *Aralin* is used without *mga* on the tab (Tagalog plurals are often unmarked; *Mga Aralin* is 10 characters).
+- *Pagsasanay* is the longest tab, one character more than *Lecciones*, which already ships.
+- References inside text use the same names, for example *Pag-unlad → Backup → I-share ang file*.
+- Other button names the lesson prose may cite: *Alam ko na* (Got it), *Ulit* (Again), *I-check* (Check), *Tingnan* (Browse), *Mga phrase ko* (My phrases), *Review lahat* (All due).
+
+## 4. 30 strings to check first (for a Tagalog speaker)
+
+Answer "OK" or write the natural version.
+
+| # | English key | Tagalog now | Doubt |
+|---|---|---|---|
+| 1 | Practice (tab) | Pagsasanay | 10 characters. Natural as a tab, or would *Praktis* be the app word? |
+| 2 | Lessons (tab) | Aralin | Without *Mga*: OK as a tab? |
+| 3 | Review (tab) | Review | English kept, as the brief asked. *Balik-aral* is the school word. Which is better? |
+| 4 | Progress (tab) | Pag-unlad | Natural for "your stats"? Or *Progress*? |
+| 5 | Got it (SRS button) | Alam ko na | Or *Gets ko na*, *Kabisado ko na*? |
+| 6 | Again (SRS button) | Ulit | Does *Ulit* alone work as a button? |
+| 7 | Due / {n} due | Para i-review / {1} para i-review | Natural for "cards waiting for review"? |
+| 8 | All due | ⏰ Review lahat | OK? (*Lahat ng para i-review* is too long.) |
+| 9 | Weak spots | Kahinaan | "Weaknesses": OK as a mode name? |
+| 10 | Missed | Mga mali | OK as a filter / mode name? |
+| 11 | bury / Buried until tomorrow | ⏭ ipagpabukas / Ipinagpabukas. | Natural for "put off until tomorrow"? |
+| 12 | mastered | kabisado na | Or *master na*? |
+| 13 | learned | natutunan | KWF prefers *natutuhan*; apps write *natutunan*. Which one? |
+| 14 | learning (SRS state) | inaaral | OK? |
+| 15 | flip | baligtarin | Right verb for turning a card over? |
+| 16 | Mixed (quiz mode) / Mix (pool) | Halo-halo / Halo | Is *halo-halo* too playful (the dessert)? |
+| 17 | Recall en→한 | Alala tl→한 | Is *Alala* clear for "recall"? Is "tl" understood as Tagalog? |
+| 18 | Listen 🔊→en | Pakinig 🔊→tl | *Pakinig* as a mode noun: OK? |
+| 19 | native (audio speed) | native | English kept. Or *bilis ng native speaker*? |
+| 20 | Talker (level title) | Madaldal | Fun or rude? Other titles: *Baguhan, Usbong, Estudyante, Beterano, Maestro, Biyahero, Lokal*. |
+| 21 | Senior (선배) | Beterano | OK? Filipino students say *senior* too. |
+| 22 | Social (deck group) / #social | Pakikisalamuha / #pakikisalamuha | Long. *Sosyal* was avoided because it means "posh". Better word? |
+| 23 | Dating, friends & nights out | Date, mga kaibigan at gimik | Is *gimik* right for "nights out"? |
+| 24 | I get by (level answer) | Nakakaraos | Natural for language ability? Or *Kaya ko nang kaunti*? |
+| 25 | Working late — nice job | Puyat sa trabaho — ang galing | Natural greeting gloss? |
+| 26 | it's late, good work | gabi na, salamat sa sipag | Natural? |
+| 27 | Something went wrong: | May nagkaproblema: | Or *May mali:*? |
+| 28 | Streak at risk | Nanganganib ang streak | Too dramatic? *Mapuputol na ang streak*? |
+| 29 | Shuffle | I-shuffle | Or *Paghaluin*? |
+| 30 | Hand-tuned for speakers of your language | Inihanda nang mabuti para sa mga nagsasalita ng wika mo | Natural? Shorter version? |
+
+Also worth a glance: *Isama* (Merge in), *Tingnan* (Browse), *himayin* (break it down), *gayahin ×3* (shadow), *Ayusin ang mga salita* (Put the words in order), *Punan ang patlang* (Fill the gap), *Panimulang Koreano* (Korean starter), *Kusang baligtad* (Auto-flip), *Nakakausap sa loob ng 90 araw* (Conversational in 90 days), *Mabilisang aksyon* (quick actions), and the day abbreviations *Lin Lun Mar Miy Huw Biy Sab*.
+
+## 5. For the lead (src/app.html, build, tests; I changed none of these)
+
+**Works already:**
+- `tl` is a 2-letter code. So `id.slice(0,2)` in `tools/site/lazy.js` (lines 66, 68) and in the `build.sh` loader give `tl` for `tl-ko`. The 3-letter problems listed in `tools/i18n/ceb/NOTES.md` §5 do not affect `tl`.
+- `gen.py` writes `LANGAPP_PACKS.i18n.tl`, and `validate.js tl` passes.
+- `LANGS.tl` exists: `{name:'Tagalog',self:'Tagalog',flag:'🇵🇭',ko:'타갈로그어'}`.
+- `hLang('tl')` gives `tl`, a valid BCP-47 tag. `tl` is not in `RTL_LANGS`, which is correct.
+
+**Must change:**
+
+1. **`fil` browsers never get this pack.** Philippine devices report `fil-PH` (or `en-PH`), not `tl`. The current code turns `fil-PH` into `fi` (Finnish):
+   - `src/app.html`, `function preLang(){ let b=''; try{ b=String(navigator.language||'').slice(0,2).toLowerCase(); }…`. There is no `fi` pack today, so the user silently gets English. If a Finnish pack is ever added, Filipino users would get Finnish.
+   - `build.sh`, the `loader=` string: `b=String((m&&m.native)||navigator.language||'').slice(0,2).toLowerCase()`. This has the same effect: no early i18n preload.
+   - **Fix in both places:** `b=String(navigator.language||'').toLowerCase().split(/[-_]/)[0]; if(b==='fil') b='tl';`. The split also fixes `ceb`, as the ceb notes ask.
+   - Speech already has a related request in `docs/profiles/en-tl.md` §10.2 (`fil-PH` voices fall back to Finnish matching).
+2. **Language names leak English.** `langName(code,'tl')` asks `Intl.DisplayNames(['tl'])`. ICU canonicalises `tl` to `fil`. Observed in Node (full ICU): ko → "Korean" (**English**), en → "Ingles", es → "Spanish" (**English**), tl → "Filipino", ceb → "Cebuano". That leaks English into `type it in {x}`, `Learn {x}, 5 minutes a day` and the course lists.
+   - The same per-language override map the ceb notes propose (`LANG_NAMES={tl:{…}}`) fixes it.
+   - Values: **ko Koreano · en Ingles · es Espanyol · ja Hapon · zh Tsino (Mandarin) · tl Tagalog · ceb Bisaya (Cebuano)**.
+   - From recall, to be checked: fr Pranses · de Aleman · it Italyano · pt Portuges · ru Ruso · ar Arabe · hil Hiligaynon · war Waray · yue Cantonese.
+   - All other codes: the English name.
+3. **`LANGS.tl.self`** is `'Tagalog'`. Most Philippine apps and the Constitution call the national language *Filipino*. Suggestion: `self:'Tagalog (Filipino)'`, so that both words are searchable in the picker.
+
+**Tell the halves agent:**
+- The tabs on screen are **Ngayon, Aralin, Pagsasanay, Review, Pag-unlad**. Lesson prose in `tools/halves/native/tl/ko/` (when it exists) should use these names, and the button names in §3.
+- `docs/profiles/tl-ko.md` §3.5 says the same.
+
+**Course UI overrides.** Whatever goes into a future `tools/halves/native/tl/ko/ui.json` becomes `COURSE.UI` and overrides this pack key by key in `setI18n()`. Keep the two consistent, and prefer fixing wording here.
+
+**Pipeline notes.**
+- **`road.py` is still broken for every language** (as in the ceb notes).
+  - `node -e` with all of roadmaps.js fails with `Argument list too long`. Fix: write the code to a temp .js file, or `require()` it.
+  - Its `__main__` assert should be `[a-z]{2,3}`.
+- I wrote `tl/roadmap.json` directly in road.py's output shape, using the ceb file as the skeleton (same 1,822 strings, every `t` blanked). I filled the 40 strings of the `ko` roadmap, read straight from `packs/roadmaps.js` (`LANGAPP_PACKS.roadmaps.ko`). `gen.py` emits `road` 40, which equals the number of strings in the ko roadmap block.
+- The inline single-file build (`korean-flashcards.html`) will also include this pack, about the size of the ceb one.
+
+**Build-time lint used (scratch script, not in the repo).** It checks:
+- the Hangul runs, emoji and digits are the same as the key's;
+- fragment edge punctuation;
+- the slot set `{1}..{k}`, with no stray `{` or `$`;
+- no *po / ho / opo*, no accents, no apostrophes not in the key;
+- *din / rin* and *dito / rito* by the preceding sound;
+- no linker or enclitic after a slot;
+- Cebuano leak words (*og, ug, nga, kon, dili, naa, karon, imong, nimo, gyud*);
+- length-ratio outliers.
+
+It does **not** check verb focus or naturalness; those need the native check (§4).

@@ -13,13 +13,13 @@ LANGAPP_PACKS.course['es-ko'] = {
  "brand": "한글",
  "introWord": "한글",
  "features": {
-  "script": false,
-  "pron": false,
+  "script": true,
+  "pron": true,
   "conj": false,
   "register": false,
   "numbers": false,
   "sound": false,
-  "strokes": false
+  "strokes": true
  },
  "standard": true,
  "GREET": [
@@ -188,7 +188,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "ㅅ",
     "s",
     "s; antes de ㅣ suena casi «sh», como en «Shakira»",
-    "사 = sa, 시 = shi."
+    "사 = sa, 시 = si (suena casi «shi»)."
    ],
    [
     "ㅇ",
@@ -504,7 +504,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    ],
    [
     "한국어 잘 못해요",
-    "hangugeo jal mothaeyo",
+    "hangugeo jal motaeyo",
     "No hablo bien coreano",
     "Con esto, la gente te tendrá paciencia."
    ],
@@ -520,7 +520,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "저는 ___이에요 / 예요",
     "jeoneun ___ ieyo / yeyo",
     "Soy ___",
-    "이에요 tras consonante (저는 Kim이에요), 예요 tras vocal (저는 Lisa예요)."
+    "Fíjate en el último bloque en hangul: 이에요 tras consonante final (저는 킴이에요), 예요 tras vocal (저는 리사예요)."
    ],
    [
     "이름이 뭐예요?",
@@ -937,8 +937,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     "Respuesta: 네 / 아니요. Las bolsas cuestan unos 100원."
    ],
    [
-    "1+1 이에요?",
-    "il peureoseu il ieyo?",
+    "1+1이에요?",
+    "won peulleoseu wonieyo?",
     "¿Esto es 2x1?",
     "Las etiquetas 1+1 / 2+1 de Corea. Se dice 원 플러스 원."
    ],
@@ -1006,7 +1006,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    ],
    [
     "2호선",
-    "iho seon",
+    "ihoseon",
     "Línea 2",
     "Líneas del metro: 호선 con números sinocoreanos. 9호선 = guhoseon."
    ],
@@ -1620,7 +1620,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "할머님",
     "halmeonim",
     "abuela (honorífico)",
-    "También para señoras mayores que no conoces."
+    "Abuela de otra persona, o habla muy formal. A una señora mayor que no conoces: 할머니 o 어르신."
    ],
    [
     "손님",
@@ -2620,7 +2620,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "잘 자",
     "jal ja",
     "Duerme bien / buenas noches",
-    "Informal. Cortés: 안녕히 주무세요."
+    "Informal. Cortés: 잘 자요; a personas mayores: 안녕히 주무세요."
    ],
    [
     "밥 먹었어?",
@@ -3190,7 +3190,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "데뷔",
     "debwi",
     "debut (primer lanzamiento)",
-    "데뷔 몇 년이에요? = ¿en qué año debutaron?"
+    "몇 년에 데뷔했어요? = ¿en qué año debutaron?"
    ],
    [
     "팬미팅",
@@ -3252,7 +3252,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "존맛탱",
     "jonmattaeng",
     "riquísimo, delicioso a morir",
-    "Muy coloquial. En mensajes: JMT."
+    "Muy coloquial y de origen vulgar: solo con amigos de confianza. En mensajes: JMT."
    ],
    [
     "ㅇㅈ",
@@ -3336,7 +3336,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    ],
    [
     "미안해, 내가 잘못했어",
-    "mianhae, naega jalmothaesseo",
+    "mianhae, naega jalmotaesseo",
     "Perdón, fue mi culpa",
     "잘못하다 = hacer algo mal. Acepta tu error."
    ],
@@ -3568,7 +3568,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    ],
    [
     "연락할게요",
-    "yeollakhalgeyo",
+    "yeollakalgeyo",
     "Te escribo / estamos en contacto",
     "ㄹ게요 = voy a… (como promesa). 연락 = contacto."
    ]
@@ -4237,7 +4237,7 @@ LANGAPP_PACKS.course['es-ko'] = {
  "DIALOG": {
   "안녕하세요": [
    "안녕하세요, 처음 뵙겠습니다.",
-   "네, 안녕하세요! 반가워요.",
+   "네, 안녕하세요! 반갑습니다.",
    "Hola, mucho gusto. / ¡Hola! Mucho gusto."
   ],
   "감사합니다": [
@@ -4247,8 +4247,8 @@ LANGAPP_PACKS.course['es-ko'] = {
   ],
   "죄송합니다": [
    "늦어서 죄송합니다.",
-   "괜찮아요, 천천히 오세요.",
-   "Perdón por llegar tarde. / No pasa nada, sin prisa."
+   "괜찮아요, 저도 방금 왔어요.",
+   "Perdón por llegar tarde. / No pasa nada, yo también acabo de llegar."
   ],
   "얼마예요?": [
    "이거 얼마예요?",
@@ -4341,9 +4341,9 @@ LANGAPP_PACKS.course['es-ko'] = {
    "¿De dónde eres? / De Estados Unidos. De Oklahoma."
   ],
   "몇 살이에요?": [
-   "실례지만 몇 살이에요?",
+   "실례지만 나이가 어떻게 되세요?",
    "스물여덟이요. 그쪽은요?",
-   "Disculpa, ¿cuántos años tienes? / 28. ¿Y tú?"
+   "Disculpe, ¿cuántos años tiene? / 28. ¿Y tú?"
   ],
   "무슨 일 해요?": [
    "무슨 일 해요?",
@@ -4931,7 +4931,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Subí una foto. Dame like. / Ya te lo di."
   ],
   "갑분싸": [
-   "아까 내 농담 왜 아무도 안 웃어?",
+   "아까 내 농담에 왜 아무도 안 웃었어?",
    "갑분싸였어…",
    "¿Por qué nadie se rio de mi chiste hace rato? / Mató el ambiente…"
   ],
@@ -5075,8 +5075,8 @@ LANGAPP_PACKS.course['es-ko'] = {
    "¿Por qué estás enojado?"
   ],
   "설레요": [
-   "내일 여행 가서 설레요.",
-   "Estoy emocionado porque mañana me voy de viaje."
+   "내일 여행이라서 설레요.",
+   "Estoy emocionado porque mañana es mi viaje."
   ],
   "엄마 / 아빠": [
    "엄마가 요리를 잘해요.",
@@ -5171,8 +5171,8 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Está rico. Pero un poco caro."
   ],
   "하지만": [
-   "어렵지만 재밌어요.",
-   "Es difícil pero divertido."
+   "어려워요. 하지만 재밌어요.",
+   "Es difícil. Pero es divertido."
   ],
   "그다음에": [
    "그다음에 뭐 했어요?",
@@ -5183,7 +5183,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Vaya usted primero."
   ],
   "왜냐하면": [
-   "왜냐하면 시간이 없어요.",
+   "왜냐하면 시간이 없거든요.",
    "Porque no tengo tiempo."
   ],
   "아니면": [
@@ -5271,8 +5271,8 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Gerente, ¿tiene un momento?"
   ],
   "먼저 퇴근하겠습니다": [
-   "저 먼저 퇴근하겠습니다. 수고하세요.",
-   "Me retiro primero. Ánimo con el trabajo."
+   "저 먼저 퇴근하겠습니다.",
+   "Me retiro primero."
   ],
   "야근해야 돼요": [
    "오늘 야근해야 돼요. 회식은 다음에요.",
@@ -5576,14 +5576,14 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "2 · Niveles de cortesía",
    "blurb": "Por qué cada verbo tiene dos terminaciones y cuál usar.",
    "deck": "Frases de supervivencia",
-   "body": "\n<p>Los verbos coreanos no cambian según la persona (yo, tú, ella…), sino según el nivel de cortesía. Es como elegir entre tú y usted, solo que en coreano la diferencia va en la terminación del verbo. Para empezar necesitas dos niveles:</p>\n<div class=\"tbl\"><table><tr><th>Nivel</th><th>Terminación</th><th>Con quién</th></tr><tr><td><b>Forma con 요</b> (cortés)</td><td>…요</td><td>Desconocidos, tiendas, compañeros de trabajo, cualquier persona mayor que tú. Tu opción por defecto.</td></tr><tr><td><b>Informal</b> (반말)</td><td>quita el 요</td><td>Amigos cercanos, personas más jóvenes, tu pareja, niños.</td></tr></table></div>\n{{ex:고마워요|gomawoyo|Gracias (cortés)}}{{ex:고마워|gomawo|Gracias (informal)}}{{ex:귀여워요|gwiyeowoyo|Eres tierno/a (cortés)}}{{ex:귀여워|gwiyeowo|Eres tierno/a (informal)}}\n<p>También existe un nivel formal (<b>-습니다 / -ㅂ니다</b>) que oirás en anuncios, noticias y frases hechas como 감사합니다 y 죄송합니다. Apréndelo a reconocer; todavía no necesitas usarlo.</p>\n<div class=\"tip\">Regla práctica: usa 요 hasta que una persona coreana te diga que lo dejes. Pasarte a lo informal demasiado pronto suena grosero; seguir con la forma cortés mucho tiempo solo suena amable.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>Decirle 감사해요 al dueño de una tienda: está bien, pero 감사합니다 es la opción más segura con desconocidos.</li><li>Quitar el 요 con alguien mayor porque es amable contigo: espera a que te diga 말 놔도 돼요.</li><li>Mezclar niveles en una oración (저는… 먹어): elige un solo nivel por oración.</li></ul></div>\n<h3>Dilo de 3 maneras</h3><div class=\"tbl\"><table><tr><th>Formal</th><th>Cortés</th><th>Informal</th><th></th></tr><tr><td class=\"k\">고맙습니다</td><td class=\"k\">고마워요</td><td class=\"k\">고마워</td><td>gracias</td></tr><tr><td class=\"k\">죄송합니다</td><td class=\"k\">미안해요</td><td class=\"k\">미안해</td><td>perdón</td></tr></table></div>\n"
+   "body": "\n<p>Los verbos coreanos no cambian según la persona (yo, tú, ella…), sino según el nivel de cortesía. Es como elegir entre tú y usted, solo que en coreano la diferencia va en la terminación del verbo. Para empezar necesitas dos niveles:</p>\n<div class=\"tbl\"><table><tr><th>Nivel</th><th>Terminación</th><th>Con quién</th></tr><tr><td><b>Forma con 요</b> (cortés)</td><td>…요</td><td>Desconocidos, tiendas, compañeros de trabajo, cualquier persona mayor que tú. Tu opción por defecto.</td></tr><tr><td><b>Informal</b> (반말)</td><td>quita el 요</td><td>Amigos cercanos, personas más jóvenes, tu pareja, niños.</td></tr></table></div>\n{{ex:고마워요|gomawoyo|Gracias (cortés)}}{{ex:고마워|gomawo|Gracias (informal)}}{{ex:귀여워요|gwiyeowoyo|Eres tierno/a (cortés)}}{{ex:귀여워|gwiyeowo|Eres tierno/a (informal)}}\n<p>También existe un nivel formal (<b>-습니다 / -ㅂ니다</b>) que oirás en anuncios, noticias y frases hechas como 감사합니다 y 죄송합니다. Apréndelo a reconocer; todavía no necesitas usarlo.</p>\n<div class=\"tip\">Regla práctica: usa 요 hasta que una persona coreana te diga que lo dejes. Pasarte a lo informal demasiado pronto suena grosero; seguir con la forma cortés mucho tiempo solo suena amable.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>Decirle 감사해요 al dueño de una tienda: está bien, pero 감사합니다 es la opción más segura con desconocidos.</li><li>Quitar el 요 con alguien mayor porque es amable contigo: espera a que te diga 말 놔도 돼요.</li><li>Mezclar niveles en una oración (저는… 먹어): elige un solo nivel por oración.</li></ul></div>\n<h3>Dilo de 3 maneras</h3><div class=\"tbl\"><table><tr><th>Formal</th><th>Cortés</th><th>Informal</th><th></th></tr><tr><td class=\"k\">고맙습니다</td><td class=\"k\">고마워요</td><td class=\"k\">고마워</td><td>gracias</td></tr><tr><td class=\"k\">미안합니다</td><td class=\"k\">미안해요</td><td class=\"k\">미안해</td><td>perdón (죄송합니다 es la opción más humilde)</td></tr></table></div>\n"
   },
   {
    "id": "meet",
    "title": "3 · Conocer gente",
    "blurb": "Preséntate, haz las cuatro preguntas de siempre y despídete como se debe.",
    "deck": "Presentaciones",
-   "body": "\n<p>Toda primera conversación en Corea sigue el mismo guion. Apréndete el guion y podrás sostenerla desde el primer día.</p>\n<h3>El guion</h3>\n{{ex:안녕하세요. 저는 Kii예요|annyeonghaseyo. jeoneun Kii-yeyo|Hola. Soy Kii.}}{{ex:만나서 반가워요|mannaseo bangawoyo|Mucho gusto}}{{ex:어디에서 왔어요?|eodieseo wasseoyo?|¿De dónde eres?}}{{ex:미국에서 왔어요|migugeseo wasseoyo|Soy de Estados Unidos}}{{ex:무슨 일 해요?|museun il haeyo?|¿A qué te dedicas?}}{{ex:한국어 공부해요|hangugeo gongbuhaeyo|Estudio coreano}}\n<h3>이에요 o 예요</h3><p>«Soy ___» lleva <b>이에요</b> después de consonante y <b>예요</b> después de vocal. Di el nombre en voz alta: si termina en sonido de vocal, usa 예요. Fíjate que aquí el verbo va al final, después del nombre: «Lisa soy».</p>\n<div class=\"tbl\"><table><tr><th>Termina en</th><th>Usa</th><th>Ejemplo</th></tr><tr><td>consonante</td><td class=\"k\">이에요</td><td>학생이에요 · Kim이에요</td></tr><tr><td>vocal</td><td class=\"k\">예요</td><td>저예요 · Lisa예요</td></tr></table></div>\n<h3>Preguntar la edad es normal</h3><p>En Corea se pregunta 몇 살이에요? muy pronto, porque la edad define el nivel de cortesía entre ustedes. Responde con un número coreano nativo + 살.</p>\n{{ex:몇 살이에요?|myeot sarieyo?|¿Cuántos años tienes?}}{{ex:스물여덟 살이에요|seumullyeodeol sarieyo|Tengo 28 años}}\n<h3>Dos despedidas</h3><p>Cuál dices depende de quién se va.</p>\n{{ex:안녕히 가세요|annyeonghi gaseyo|Adiós, vaya en paz (la otra persona se va)}}{{ex:안녕히 계세요|annyeonghi gyeseyo|Adiós, quédese en paz (tú te vas)}}\n<div class=\"tip\">¿Se van los dos (por ejemplo, al salir de un café)? Los dos dicen 안녕히 가세요. ¿Llamada telefónica? Quien cuelga primero dice 안녕히 계세요.</div>\n<h3>Dilo de 3 maneras</h3><div class=\"tbl\"><table><tr><th>Formal</th><th>Cortés</th><th>Informal</th><th></th></tr><tr><td class=\"k\">만나서 반갑습니다</td><td class=\"k\">만나서 반가워요</td><td class=\"k\">반가워</td><td>mucho gusto</td></tr><tr><td class=\"k\">성함이 어떻게 되세요?</td><td class=\"k\">이름이 뭐예요?</td><td class=\"k\">이름이 뭐야?</td><td>¿cómo te llamas?</td></tr></table></div>\n"
+   "body": "\n<p>Toda primera conversación en Corea sigue el mismo guion. Apréndete el guion y podrás sostenerla desde el primer día.</p>\n<h3>El guion</h3>\n{{ex:안녕하세요. 저는 키이예요|annyeonghaseyo. jeoneun kiiyeyo|Hola. Soy Kii.}}{{ex:만나서 반가워요|mannaseo bangawoyo|Mucho gusto}}{{ex:어디에서 왔어요?|eodieseo wasseoyo?|¿De dónde eres?}}{{ex:미국에서 왔어요|migugeseo wasseoyo|Soy de Estados Unidos}}{{ex:무슨 일 해요?|museun il haeyo?|¿A qué te dedicas?}}{{ex:한국어 공부해요|hangugeo gongbuhaeyo|Estudio coreano}}\n<h3>이에요 o 예요</h3><p>«Soy ___» lleva <b>이에요</b> después de consonante final y <b>예요</b> después de vocal. Un nombre sigue su escritura en hangul, no cómo suena en tu idioma, así que fíjate en el último bloque en hangul: Mike = 마이크 → 마이크예요, Juan = 후안 → 후안이에요. Fíjate que aquí el verbo va al final, después del nombre: «Lisa soy».</p>\n<div class=\"tbl\"><table><tr><th>Termina en</th><th>Usa</th><th>Ejemplo</th></tr><tr><td>consonante</td><td class=\"k\">이에요</td><td>학생이에요 · 킴이에요</td></tr><tr><td>vocal</td><td class=\"k\">예요</td><td>저예요 · 리사예요</td></tr></table></div>\n<h3>Preguntar la edad es normal</h3><p>En Corea se pregunta 몇 살이에요? muy pronto, porque la edad define el nivel de cortesía entre ustedes. Responde con un número coreano nativo + 살.</p>\n{{ex:몇 살이에요?|myeot sarieyo?|¿Cuántos años tienes?}}{{ex:스물여덟 살이에요|seumullyeodeol sarieyo|Tengo 28 años}}\n<h3>Dos despedidas</h3><p>Cuál dices depende de quién se va.</p>\n{{ex:안녕히 가세요|annyeonghi gaseyo|Adiós, vaya en paz (la otra persona se va)}}{{ex:안녕히 계세요|annyeonghi gyeseyo|Adiós, quédese en paz (tú te vas)}}\n<div class=\"tip\">¿Se van los dos (por ejemplo, al salir de un café)? Los dos dicen 안녕히 가세요. Por teléfono se suele decir 안녕히 계세요 o 들어가세요.</div>\n<h3>Dilo de 3 maneras</h3><div class=\"tbl\"><table><tr><th>Formal</th><th>Cortés</th><th>Informal</th><th></th></tr><tr><td class=\"k\">만나서 반갑습니다</td><td class=\"k\">만나서 반가워요</td><td class=\"k\">반가워</td><td>mucho gusto</td></tr><tr><td class=\"k\">성함이 어떻게 되세요?</td><td class=\"k\">이름이 뭐예요?</td><td class=\"k\">이름이 뭐야?</td><td>¿cómo te llamas?</td></tr></table></div>\n"
   },
   {
    "id": "sound-changes",
@@ -5604,7 +5604,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "6 · 있어요 y 없어요",
    "blurb": "Hay / no hay, tener / no tener, el marcador de sujeto 이/가 y dónde está algo con 에.",
    "deck": "Verbos básicos",
-   "body": "\n<p>Aquí el español te ayuda, porque ya separa lo que el coreano separa: <i>ser</i> por un lado, y <i>hay</i>, «estar en» y «tener» por otro. <b>이에요/예요</b> es el ser: dice qué es algo (soy estudiante). <b>있어요</b> dice que algo existe, que está en algún sitio o que lo tienes. Su contrario es <b>없어요</b>. Ojo: el «estar» de los estados (estoy cansado) no es 있어요. Dos verbos cortos, y ya puedes pedir la mitad de lo que necesitas.</p>\n<h3>Hay, no hay</h3><p><b>있어요</b> = hay / ¿hay?; <b>없어요</b> = no hay. Pregunta con entonación ascendente y responde con el mismo verbo.</p>\n{{ex:화장실 있어요?|hwajangsil isseoyo?|¿Hay baño?}}{{ex:네, 있어요|ne, isseoyo|Sí, hay}}{{ex:아니요, 없어요|aniyo, eopseoyo|No, no hay}}\n<h3>El marcador de sujeto 이/가</h3><p>Lo que existe lleva <b>이</b> después de consonante y <b>가</b> después de vocal.</p>\n{{ex:시간이 있어요|sigani isseoyo|Hay tiempo / tengo tiempo}}{{ex:고양이가 있어요|goyangiga isseoyo|Hay un gato}}{{ex:돈이 없어요|doni eopseoyo|No hay dinero / no tengo dinero}}\n<h3>Tener algo</h3><p>El coreano dice «en cuanto a mí, hay X». El dueño lleva el tema 은/는 y la cosa, 이/가.</p>\n{{ex:저는 고양이가 있어요|jeoneun goyangiga isseoyo|Yo tengo un gato}}{{ex:동생이 있어요?|dongsaengi isseoyo?|¿Tienes hermanos menores?}}{{ex:저는 시간이 없어요|jeoneun sigani eopseoyo|Yo no tengo tiempo}}\n<h3>Dónde está algo: lugar + 에</h3><p>Pon <b>에</b> después del lugar (como «en»), luego 있어요 o 없어요.</p>\n{{ex:집에 있어요|jibe isseoyo|Estoy en casa}}{{ex:고양이가 집에 있어요|goyangiga jibe isseoyo|El gato está en casa}}{{ex:화장실이 어디에 있어요?|hwajangsiri eodie isseoyo?|¿Dónde está el baño?}}{{ex:친구가 학교에 있어요|chinguga hakgyoe isseoyo|Mi amigo está en la escuela}}\n<h3>¿이에요 o 있어요?</h3><p>Si la oración es «A = B» (ser), usa 이에요/예요. Si dice que hay algo, que algo está en un lugar o que lo tienes, usa 있어요.</p>\n<div class=\"tbl\"><table><tr><th>Español</th><th>Coreano</th><th>Por qué</th></tr><tr><td>Soy estudiante</td><td class=\"k\">학생이에요</td><td>ser: yo = estudiante</td></tr><tr><td>Estoy en la escuela</td><td class=\"k\">학교에 있어요</td><td>estar en un lugar</td></tr><tr><td>Esto es una escuela</td><td class=\"k\">여기는 학교예요</td><td>ser: aquí = escuela</td></tr><tr><td>Aquí hay una escuela</td><td class=\"k\">여기에 학교가 있어요</td><td>hay: existe</td></tr></table></div>\n<div class=\"tip\">Al hablar, 이/가 suele caerse en preguntas cortas: 시간 있어요? (¿tienes tiempo?) es como se pregunta de verdad. Igual necesitas 이/가 para leer y para armar oraciones más largas.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>이에요 para un lugar — 저는 학교예요 ✗ → 저는 학교에 있어요 ✓</li><li>이에요 para tener — 저는 고양이예요 ✗ (= soy un gato) → 저는 고양이가 있어요 ✓</li><li>이/가 equivocado — 시간가 있어요 ✗ → 시간이 있어요 ✓</li><li>Olvidar 에 — 고양이가 집 있어요 ✗ → 고양이가 집에 있어요 ✓</li></ul></div>"
+   "body": "\n<p>Aquí el español te ayuda, porque ya separa lo que el coreano separa: <i>ser</i> por un lado, y <i>hay</i>, «estar en» y «tener» por otro. <b>이에요/예요</b> es el ser: dice qué es algo (soy estudiante). <b>있어요</b> dice que algo existe, que está en algún sitio o que lo tienes. Su contrario es <b>없어요</b>. Ojo: el «estar» de los estados (estoy cansado) no es 있어요. Dos verbos cortos, y ya puedes pedir la mitad de lo que necesitas.</p>\n<h3>Hay, no hay</h3><p><b>있어요</b> = hay / ¿hay?; <b>없어요</b> = no hay. Pregunta con entonación ascendente y responde con el mismo verbo.</p>\n{{ex:화장실 있어요?|hwajangsil isseoyo?|¿Hay baño?}}{{ex:네, 있어요|ne, isseoyo|Sí, hay}}{{ex:아니요, 없어요|aniyo, eopseoyo|No, no hay}}\n<h3>El marcador de sujeto 이/가</h3><p>Lo que existe lleva <b>이</b> después de consonante y <b>가</b> después de vocal.</p>\n{{ex:시간이 있어요|sigani isseoyo|Hay tiempo / tengo tiempo}}{{ex:고양이가 있어요|goyangiga isseoyo|Hay un gato}}{{ex:돈이 없어요|doni eopseoyo|No hay dinero / no tengo dinero}}\n<h3>Tener algo</h3><p>El coreano dice «en cuanto a mí, hay X». El dueño lleva el tema 은/는 y la cosa, 이/가.</p>\n{{ex:저는 고양이가 있어요|jeoneun goyangiga isseoyo|Yo tengo un gato}}{{ex:동생이 있어요?|dongsaengi isseoyo?|¿Tienes hermanos menores?}}{{ex:저는 시간이 없어요|jeoneun sigani eopseoyo|Yo no tengo tiempo}}\n<h3>Dónde está algo: lugar + 에</h3><p>Pon <b>에</b> después del lugar (como «en»), luego 있어요 o 없어요.</p>\n{{ex:집에 있어요|jibe isseoyo|Estoy en casa}}{{ex:고양이가 집에 있어요|goyangiga jibe isseoyo|El gato está en casa}}{{ex:화장실이 어디에 있어요?|hwajangsiri eodie isseoyo?|¿Dónde está el baño?}}{{ex:친구가 학교에 있어요|chinguga hakgyoe isseoyo|Mi amigo está en la escuela}}\n<h3>¿이에요 o 있어요?</h3><p>Si la oración es «A = B» (ser), usa 이에요/예요. Si dice que hay algo, que algo está en un lugar o que lo tienes, usa 있어요.</p>\n<div class=\"tbl\"><table><tr><th>Español</th><th>Coreano</th><th>Por qué</th></tr><tr><td>Soy estudiante</td><td class=\"k\">학생이에요</td><td>ser: yo = estudiante</td></tr><tr><td>Estoy en la escuela</td><td class=\"k\">학교에 있어요</td><td>estar en un lugar</td></tr><tr><td>Esto es una escuela</td><td class=\"k\">여기는 학교예요</td><td>ser: aquí = escuela</td></tr><tr><td>Aquí hay una escuela</td><td class=\"k\">여기에 학교가 있어요</td><td>hay: existe</td></tr></table></div>\n<div class=\"tip\">Al hablar, 이/가 suele caerse en preguntas cortas: 시간 있어요? (¿tienes tiempo?) es como se pregunta de verdad. Igual necesitas 이/가 para leer y para armar oraciones más largas.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>있어요 para un lugar — la forma completa es 저는 학교에 있어요 ✓ (en el habla informal también vas a oír 지금 학교예요, «ahora estoy en la escuela»)</li><li>이에요 para tener — 저는 고양이예요 ✗ (= soy un gato) → 저는 고양이가 있어요 ✓</li><li>이/가 equivocado — 시간가 있어요 ✗ → 시간이 있어요 ✓</li><li>Olvidar 에 — 고양이가 집 있어요 ✗ → 고양이가 집에 있어요 ✓</li></ul></div>"
   },
   {
    "id": "pronouns-questions",
@@ -5618,7 +5618,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "8 · Verbos",
    "blurb": "Todo verbo termina en 다, no cambia para yo/tú/ella, y los adjetivos también son verbos.",
    "deck": "Verbos básicos",
-   "body": "\n<p>Un verbo dice qué pasa. Así como en español todo infinitivo termina en -ar, -er o -ir, en el diccionario todo verbo coreano termina en <b>다</b>. Quita 다 y te queda la <b>raíz</b> (como habl- en «hablar»); las terminaciones van sobre la raíz.</p>\n<div class=\"tbl\"><table><tr><th>Diccionario</th><th>Raíz</th><th>Cortés (요)</th><th>Significado</th></tr><tr><td class=\"k\">가다</td><td class=\"k\">가</td><td class=\"k\">가요</td><td>ir</td></tr><tr><td class=\"k\">먹다</td><td class=\"k\">먹</td><td class=\"k\">먹어요</td><td>comer</td></tr><tr><td class=\"k\">하다</td><td class=\"k\">하</td><td class=\"k\">해요</td><td>hacer</td></tr></table></div>\n<h3>Una forma para todos</h3><p>A diferencia del español (voy, vas, va), el verbo no cambia para yo, tú, él o ellos. Quién lo hace se sabe por el contexto.</p>\n{{ex:가요|gayo|voy / vas / va / vamos}}\n<h3>Cuatro tipos que conviene conocer</h3>\n<p><b>1 · Verbos de acción</b>: cosas que haces.</p>{{ex:먹어요|meogeoyo|comer}}{{ex:마셔요|masyeoyo|beber, tomar}}\n<p><b>2 · Verbos descriptivos</b>: lo que en español son adjetivos. En coreano son verbos, así que no hace falta «ser» ni «estar».</p>{{ex:날씨가 좋아요|nalssiga joayo|El clima está bueno}}{{ex:가방이 커요|gabangi keoyo|La bolsa es grande}}\n<p><b>3 · Verbos con 하다</b>: un sustantivo + 하다 (hacer), como «hacer ejercicio». Así se forman cientos de verbos.</p>{{ex:공부 → 공부해요|gongbu → gongbuhaeyo|estudio (sustantivo) → (yo) estudio}}{{ex:운동해요|undonghaeyo|Hago ejercicio}}\n<p><b>4 · 있다 / 없다</b>: haber o tener / no haber o no tener.</p>{{ex:시간이 있어요|sigani isseoyo|Tengo tiempo}}{{ex:돈이 없어요|doni eopseoyo|No tengo dinero}}\n<div class=\"tip\">El verbo es lo único que la oración no puede omitir. 가요 por sí solo ya es una oración completa, como «voy».</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>Decir la forma de diccionario, como quien dice «yo comer» — 먹다 es para el diccionario; di 먹어요.</li><li>Agregar «es» a un verbo descriptivo — 좋아요 ya significa «es bueno».</li><li>Usar 이에요 para «hay» — hay un gato = 고양이가 있어요.</li></ul></div>"
+   "body": "\n<p>Un verbo dice qué pasa. Así como en español todo infinitivo termina en -ar, -er o -ir, en el diccionario todo verbo coreano termina en <b>다</b>. Quita 다 y te queda la <b>raíz</b> (como habl- en «hablar»); las terminaciones van sobre la raíz.</p>\n<div class=\"tbl\"><table><tr><th>Diccionario</th><th>Raíz</th><th>Cortés (요)</th><th>Significado</th></tr><tr><td class=\"k\">가다</td><td class=\"k\">가</td><td class=\"k\">가요</td><td>ir</td></tr><tr><td class=\"k\">먹다</td><td class=\"k\">먹</td><td class=\"k\">먹어요</td><td>comer</td></tr><tr><td class=\"k\">하다</td><td class=\"k\">하</td><td class=\"k\">해요</td><td>hacer</td></tr></table></div>\n<h3>Una forma para todos</h3><p>A diferencia del español (voy, vas, va), el verbo no cambia para yo, tú, él o ellos. Quién lo hace se sabe por el contexto.</p>\n{{ex:가요|gayo|voy / vas / va / vamos}}\n<h3>Cuatro tipos que conviene conocer</h3>\n<p><b>1 · Verbos de acción</b>: cosas que haces.</p>{{ex:먹어요|meogeoyo|comer}}{{ex:마셔요|masyeoyo|beber, tomar}}\n<p><b>2 · Verbos descriptivos</b>: lo que en español son adjetivos. En coreano son verbos, así que no hace falta «ser» ni «estar».</p>{{ex:날씨가 좋아요|nalssiga joayo|El clima está bueno}}{{ex:가방이 커요|gabangi keoyo|La bolsa es grande}}\n<p><b>3 · Verbos con 하다</b>: un sustantivo + 하다 (hacer), como «hacer ejercicio». Así se forman cientos de verbos.</p>{{ex:공부 → 공부해요|gongbu → gongbuhaeyo|estudio (sustantivo) → (yo) estudio}}{{ex:운동해요|undonghaeyo|Hago ejercicio}}\n<p><b>4 · 있다 / 없다</b>: haber o tener / no haber o no tener.</p>{{ex:시간이 있어요|sigani isseoyo|Tengo tiempo}}{{ex:돈이 없어요|doni eopseoyo|No tengo dinero}}\n<div class=\"tip\">El verbo es lo único que la oración no puede omitir. 가요 por sí solo ya es una oración completa, como «voy».</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>Decir en voz alta la forma de diccionario de un verbo de acción, como quien dice «yo comer» — 먹다 es para el diccionario; di 먹어요. (Un verbo descriptivo en forma 다 sí sirve como exclamación: 와, 날씨 좋다!)</li><li>Agregar «es» a un verbo descriptivo — 좋아요 ya significa «es bueno».</li><li>Usar 이에요 para «hay» — hay un gato = 고양이가 있어요.</li></ul></div>"
   },
   {
    "id": "verbs",
@@ -5730,7 +5730,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "24 · Contadores",
    "blurb": "No puedes decir «dos cafés» sin uno. Los diez contadores que cubren el día a día.",
    "deck": "Contadores",
-   "body": "\n<p>En coreano las cosas se cuentan con <b>número nativo + contador</b>. El contador depende de lo que cuentas, como en «dos <i>tazas</i> de café» o «tres <i>hojas</i> de papel», solo que aquí es obligatorio.</p>\n<div class=\"tbl\"><table><tr><th>Contador</th><th>Cuenta</th><th>Ejemplo</th></tr><tr><td class=\"k\">개</td><td>cosas (el comodín)</td><td>사과 두 개</td></tr><tr><td class=\"k\">명 / 분</td><td>personas / personas (cortés)</td><td>세 명, 세 분</td></tr><tr><td class=\"k\">잔</td><td>tazas, vasos</td><td>커피 한 잔</td></tr><tr><td class=\"k\">병</td><td>botellas</td><td>맥주 두 병</td></tr><tr><td class=\"k\">마리</td><td>animales</td><td>강아지 한 마리</td></tr><tr><td class=\"k\">권</td><td>libros</td><td>책 세 권</td></tr><tr><td class=\"k\">장</td><td>cosas planas, boletos</td><td>표 두 장</td></tr><tr><td class=\"k\">살</td><td>años de edad</td><td>스물다섯 살</td></tr><tr><td class=\"k\">시간</td><td>horas (duración)</td><td>두 시간</td></tr><tr><td class=\"k\">번</td><td>veces</td><td>세 번</td></tr></table></div>\n<h3>El cambio del 1 al 4</h3><p>Antes de un contador: 하나 → <b>한</b>, 둘 → <b>두</b>, 셋 → <b>세</b>, 넷 → <b>네</b>, 스물 → <b>스무</b>. Todo lo demás queda igual.</p>\n{{ex:커피 두 잔 주세요|keopi du jan juseyo|Dos cafés, por favor}}{{ex:몇 명이세요? 네 명이요|myeot myeongiseyo? ne myeongiyo|¿Cuántas personas? Cuatro}}{{ex:표 두 장 주세요|pyo du jang juseyo|Dos boletos, por favor}}{{ex:고양이 세 마리 있어요|goyangi se mari isseoyo|Tengo tres gatos}}\n<h3>Orden de las palabras</h3><p>Sustantivo + número + contador: 맥주 (sustantivo) 두 (número) 병 (contador). La partícula, si la hay, va después del contador: 맥주 두 병<b>을</b> 마셨어요.</p>\n<div class=\"tip\">¿Te trabaste? 개 sirve para casi cualquier objeto y nadie se va a extrañar. Eso sí, nunca uses 개 para personas (명) ni para bebidas (잔).</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>두 명 para bebidas ✗ — 명 es para personas; las bebidas son 잔.</li><li>세 개 사람 ✗ — el orden es sustantivo + número + contador: 사람 세 명.</li><li>스물 살 ✗ — 스물 → 스무 antes de un contador: 스무 살.</li></ul></div>\n"
+   "body": "\n<p>En coreano las cosas se cuentan con <b>número nativo + contador</b>. El contador depende de lo que cuentas, como en «dos <i>tazas</i> de café» o «tres <i>hojas</i> de papel», solo que aquí es obligatorio.</p>\n<div class=\"tbl\"><table><tr><th>Contador</th><th>Cuenta</th><th>Ejemplo</th></tr><tr><td class=\"k\">개</td><td>cosas (el comodín)</td><td>사과 두 개</td></tr><tr><td class=\"k\">명 / 분</td><td>personas / personas (cortés)</td><td>세 명, 세 분</td></tr><tr><td class=\"k\">잔</td><td>tazas, vasos</td><td>커피 한 잔</td></tr><tr><td class=\"k\">병</td><td>botellas</td><td>맥주 두 병</td></tr><tr><td class=\"k\">마리</td><td>animales</td><td>강아지 한 마리</td></tr><tr><td class=\"k\">권</td><td>libros</td><td>책 세 권</td></tr><tr><td class=\"k\">장</td><td>cosas planas, boletos</td><td>표 두 장</td></tr><tr><td class=\"k\">살</td><td>años de edad</td><td>스물다섯 살</td></tr><tr><td class=\"k\">시간</td><td>horas (duración)</td><td>두 시간</td></tr><tr><td class=\"k\">번</td><td>veces</td><td>세 번</td></tr></table></div>\n<h3>El cambio del 1 al 4</h3><p>Antes de un contador: 하나 → <b>한</b>, 둘 → <b>두</b>, 셋 → <b>세</b>, 넷 → <b>네</b>, 스물 → <b>스무</b>. Todo lo demás queda igual.</p>\n{{ex:커피 두 잔 주세요|keopi du jan juseyo|Dos cafés, por favor}}{{ex:몇 명이세요? 네 명이요|myeot myeongiseyo? ne myeongiyo|¿Cuántas personas? Cuatro}}{{ex:표 두 장 주세요|pyo du jang juseyo|Dos boletos, por favor}}{{ex:고양이 세 마리 있어요|goyangi se mari isseoyo|Tengo tres gatos}}\n<h3>Orden de las palabras</h3><p>Sustantivo + número + contador: 맥주 (sustantivo) 두 (número) 병 (contador). La partícula, si la hay, va después del contador: 맥주 두 병<b>을</b> 마셨어요.</p>\n<div class=\"tip\">¿Te trabaste? 개 sirve para casi cualquier objeto y nadie se va a extrañar. Eso sí, nunca uses 개 para personas (명). Para bebidas, 잔 es el contador de libro, aunque al pedir en una cafetería 개 es muy común.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>두 명 para bebidas ✗ — 명 es para personas; las bebidas son 잔.</li><li>세 개 사람 ✗ — el orden es sustantivo + número + contador: 사람 세 명.</li><li>스물 살 ✗ — 스물 → 스무 antes de un contador: 스무 살.</li></ul></div>\n"
   },
   {
    "id": "joining",
@@ -5765,7 +5765,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "29 · No poder, poder y no saber",
    "blurb": "못 vs 안, -(으)ㄹ 수 있어요 / 없어요, y 몰라요 vs 모르겠어요.",
    "deck": "Verbos básicos",
-   "body": "\n<p>Ya dices «no» con 안. El coreano tiene otra palabra para «no poder»: <b>못</b>. Para «poder» hay una estructura, <b>-(으)ㄹ 수 있어요</b>, y su negativa, <b>-(으)ㄹ 수 없어요</b>. Súmale las dos formas de decir «no sé» y podrás rechazar cualquier cosa con cortesía.</p>\n<h3>안 = no (por decisión), 못 = no puedo</h3><p>Los dos van justo antes del verbo. Elige por el sentido: una decisión (안) o algo que te lo impide (못).</p>\n{{ex:매운 거 안 먹어요|maeun geo an meogeoyo|No como picante (por decisión)}}{{ex:매운 거 못 먹어요|maeun geo mot meogeoyo|No puedo comer picante (es demasiado)}}{{ex:오늘은 못 가요|oneureun mot gayo|Hoy no puedo ir}}\n<h3>Los verbos con 하다 se separan, como con 안</h3><p>못 va entre el sustantivo y 해요. No 못 공부해요.</p>\n{{ex:수영 못 해요|suyeong mot haeyo|No puedo nadar}}{{ex:오늘 운동 못 해요|oneul undong mot haeyo|Hoy no puedo hacer ejercicio}}\n<h3>Poder: -(으)ㄹ 수 있어요 / 없어요</h3><p>Raíz + <b>ㄹ 수 있어요</b> después de vocal, <b>을 수 있어요</b> después de consonante. Cambia a 없어요 para «no poder».</p>\n{{ex:한국어 할 수 있어요?|hangugeo hal su isseoyo?|¿Puedes hablar coreano?}}{{ex:조금 할 수 있어요|jogeum hal su isseoyo|Puedo, un poco}}{{ex:김치 먹을 수 있어요|gimchi meogeul su isseoyo|Puedo comer kimchi}}{{ex:내일은 갈 수 없어요|naeireun gal su eopseoyo|Mañana no puedo ir}}\n<h3>몰라요 vs 모르겠어요</h3><p><b>몰라요</b> = no sé (un dato). <b>모르겠어요</b> = no estoy seguro / no entiendo: más suave y más común cuando te preguntan algo. La forma positiva es 알아요.</p>\n{{ex:잘 모르겠어요|jal moreugesseoyo|No estoy seguro}}{{ex:길을 몰라요|gireul mollayo|No sé el camino}}{{ex:저도 몰라요|jeodo mollayo|Yo tampoco sé}}\n<div class=\"tip\">Que te pregunten 매운 거 먹을 수 있어요? (¿puedes comer picante?) es casi un rito de iniciación. 네, 잘 먹어요 te gana respeto; 조금요 es la respuesta honesta. Y 한국어 잘 못해요 (no hablo bien coreano) se escribe junto cuando significa «ser malo para algo».</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>못 antes del sustantivo de un verbo con 하다: 못 공부해요 ✗ → 공부 못 해요 ✓</li><li>안 para algo que no puedes hacer: 매운 거 안 먹어요 cuando te hace daño ✗ → 매운 거 못 먹어요 ✓</li><li>Olvidar 을 después de consonante: 먹 수 있어요 ✗ → 먹을 수 있어요 ✓</li><li>Un 몰라요 seco cuando no entendiste: 몰라요 ✗ → 잘 모르겠어요 ✓</li></ul></div>\n"
+   "body": "\n<p>Ya dices «no» con 안. El coreano tiene otra palabra para «no poder»: <b>못</b>. Para «poder» hay una estructura, <b>-(으)ㄹ 수 있어요</b>, y su negativa, <b>-(으)ㄹ 수 없어요</b>. Súmale las dos formas de decir «no sé» y podrás rechazar cualquier cosa con cortesía.</p>\n<h3>안 = no (por decisión), 못 = no puedo</h3><p>Los dos van justo antes del verbo. Elige por el sentido: una decisión (안) o algo que te lo impide (못).</p>\n{{ex:매운 거 안 먹어요|maeun geo an meogeoyo|No como picante (por decisión)}}{{ex:매운 거 못 먹어요|maeun geo mot meogeoyo|No puedo comer picante (es demasiado)}}{{ex:오늘은 못 가요|oneureun mot gayo|Hoy no puedo ir}}\n<h3>Los verbos con 하다 se separan, como con 안</h3><p>못 va entre el sustantivo y 해요. No 못 공부해요.</p>\n{{ex:수영 못해요|suyeong motaeyo|No puedo nadar (no sé: 못해요, junto)}}{{ex:오늘 운동 못 해요|oneul undong mot haeyo|Hoy no puedo hacer ejercicio}}\n<h3>Poder: -(으)ㄹ 수 있어요 / 없어요</h3><p>Raíz + <b>ㄹ 수 있어요</b> después de vocal, <b>을 수 있어요</b> después de consonante. Cambia a 없어요 para «no poder».</p>\n{{ex:한국어 할 수 있어요?|hangugeo hal su isseoyo?|¿Puedes hablar coreano?}}{{ex:조금 할 수 있어요|jogeum hal su isseoyo|Puedo, un poco}}{{ex:김치 먹을 수 있어요|gimchi meogeul su isseoyo|Puedo comer kimchi}}{{ex:내일은 갈 수 없어요|naeireun gal su eopseoyo|Mañana no puedo ir}}\n<h3>몰라요 vs 모르겠어요</h3><p><b>몰라요</b> = no sé (un dato). <b>모르겠어요</b> = no estoy seguro / no entiendo: más suave y más común cuando te preguntan algo. La forma positiva es 알아요.</p>\n{{ex:잘 모르겠어요|jal moreugesseoyo|No estoy seguro}}{{ex:길을 몰라요|gireul mollayo|No sé el camino}}{{ex:저도 몰라요|jeodo mollayo|Yo tampoco sé}}\n<div class=\"tip\">Que te pregunten 매운 거 먹을 수 있어요? (¿puedes comer picante?) es casi un rito de iniciación. 네, 잘 먹어요 te gana respeto; 조금요 es la respuesta honesta. Y 한국어 잘 못해요 (no hablo bien coreano) se escribe junto cuando significa «ser malo para algo».</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>못 antes del sustantivo de un verbo con 하다: 못 공부해요 ✗ → 공부 못 해요 ✓</li><li>안 para algo que no puedes hacer: 매운 거 안 먹어요 cuando te hace daño ✗ → 매운 거 못 먹어요 ✓</li><li>Olvidar 을 después de consonante: 먹 수 있어요 ✗ → 먹을 수 있어요 ✓</li><li>Un 몰라요 seco cuando no entendiste: 몰라요 ✗ → 잘 모르겠어요 ✓</li></ul></div>\n"
   },
   {
    "id": "have-to",
@@ -5793,7 +5793,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "33 · Coreano para la oficina",
    "blurb": "Cargos, la familia de 수고, cómo empezar y cerrar un correo, y cómo sobrevivir al 회식.",
    "deck": "Trabajo y oficina",
-   "body": "\n<p>Las oficinas coreanas funcionan con cargos y frases hechas. Apréndete las frases hechas y desde el primer día sonarás como de la casa.</p>\n<h3>Cargos (siempre + 님)</h3>\n<div class=\"tbl\"><table><tr><th>Cargo</th><th>Más o menos</th></tr><tr><td class=\"k\">사원</td><td>empleado</td></tr><tr><td class=\"k\">대리님</td><td>subgerente</td></tr><tr><td class=\"k\">과장님</td><td>gerente</td></tr><tr><td class=\"k\">차장님 / 부장님</td><td>gerente sénior / jefe de departamento</td></tr><tr><td class=\"k\">팀장님</td><td>líder de equipo</td></tr><tr><td class=\"k\">사장님 / 대표님</td><td>director general</td></tr></table></div>\n<p>Llama a la gente por su cargo, no por su nombre, como «licenciado» o «ingeniero» en varios países de habla hispana, pero aquí es obligatorio: 과장님, 이거 확인해 주시겠어요? Si dudas, 선생님 o 팀장님 son una opción segura.</p>\n<h3>La familia de 수고</h3>\n{{ex:수고하세요|sugohaseyo|Ánimo con el trabajo (a quien se queda trabajando, cuando te vas)}}{{ex:수고하셨습니다|sugohasyeotseumnida|Gracias por su trabajo de hoy (a un superior, al salir)}}{{ex:수고했어요|sugohaesseoyo|Buen trabajo (a alguien de menor rango o a un igual)}}\n<h3>Un correo en cuatro líneas</h3>\n{{ex:안녕하세요, 마케팅팀 키이입니다|annyeonghaseyo, maketingtim kiiimnida|Hola, soy Kii, del equipo de marketing}}{{ex:다름이 아니라 보고서 관련해서 연락드립니다|dareumi anira bogoseo gwallyeonhaeseo yeollakdeurimnida|Le escribo por el informe}}{{ex:확인 부탁드립니다|hwagin butakdeurimnida|Le pido que lo revise, por favor}}{{ex:감사합니다. 키이 드림|gamsahamnida. kii deurim|Gracias. Kii}}\n<h3>Reglas del 회식</h3><p>Es la cena con el equipo después del trabajo. Sirve a los demás con las dos manos, recibe con las dos manos, voltéate un poco hacia un lado cuando bebas frente a un superior y nunca te sirvas tú. 한 잔만 할게요 (solo una copa) se acepta; 운전해야 돼요 (tengo que manejar) acaba con la presión.</p>\n{{ex:한 잔 받으세요|han jan badeuseyo|Acepte una copa, por favor (al servirle a un superior)}}{{ex:저는 운전해야 돼서요|jeoneun unjeonhaeya dwaeseoyo|Tengo que manejar, así que (no, gracias)}}\n<div class=\"tip\">Irse antes que el jefe solía ser tabú. Hoy lo normal es decir 먼저 퇴근하겠습니다 en voz clara a toda la oficina. Dilo, haz una pequeña reverencia y vete.</div>\n"
+   "body": "\n<p>Las oficinas coreanas funcionan con cargos y frases hechas. Apréndete las frases hechas y desde el primer día sonarás como de la casa.</p>\n<h3>Cargos (siempre + 님)</h3>\n<div class=\"tbl\"><table><tr><th>Cargo</th><th>Más o menos</th></tr><tr><td class=\"k\">사원</td><td>empleado (no se usa para dirigirse a nadie: di el nombre + 씨)</td></tr><tr><td class=\"k\">대리님</td><td>subgerente</td></tr><tr><td class=\"k\">과장님</td><td>gerente</td></tr><tr><td class=\"k\">차장님 / 부장님</td><td>gerente sénior / jefe de departamento</td></tr><tr><td class=\"k\">팀장님</td><td>líder de equipo</td></tr><tr><td class=\"k\">사장님 / 대표님</td><td>director general</td></tr></table></div>\n<p>Llama a la gente por su cargo, no por su nombre, como «licenciado» o «ingeniero» en varios países de habla hispana, pero aquí es obligatorio: 과장님, 이거 확인해 주시겠어요? Si no sabes el cargo de alguien, pregúntale a un compañero; en el chat, el nombre + 님 es una opción segura.</p>\n<h3>La familia de 수고</h3>\n{{ex:수고하세요|sugohaseyo|Ánimo con el trabajo (a quien se queda trabajando, cuando te vas)}}{{ex:수고하셨습니다|sugohasyeotseumnida|Gracias por su trabajo de hoy (a un superior, al salir)}}{{ex:수고했어요|sugohaesseoyo|Buen trabajo (a alguien de menor rango o a un igual)}}\n<h3>Un correo en cuatro líneas</h3>\n{{ex:안녕하세요, 마케팅팀 키이입니다|annyeonghaseyo, maketingtim kiiimnida|Hola, soy Kii, del equipo de marketing}}{{ex:다름이 아니라 보고서 관련해서 연락드립니다|dareumi anira bogoseo gwallyeonhaeseo yeollakdeurimnida|Le escribo por el informe}}{{ex:확인 부탁드립니다|hwagin butakdeurimnida|Le pido que lo revise, por favor}}{{ex:감사합니다. 키이 드림|gamsahamnida. kii deurim|Gracias. Kii}}\n<h3>Reglas del 회식</h3><p>Es la cena con el equipo después del trabajo. Sirve a los demás con las dos manos, recibe con las dos manos, voltéate un poco hacia un lado cuando bebas frente a un superior y nunca te sirvas tú. 한 잔만 할게요 (solo una copa) se acepta; 운전해야 돼요 (tengo que manejar) acaba con la presión.</p>\n{{ex:한 잔 받으세요|han jan badeuseyo|Acepte una copa, por favor (al servirle a un superior)}}{{ex:저는 운전해야 돼서요|jeoneun unjeonhaeya dwaeseoyo|Tengo que manejar, así que (no, gracias)}}\n<div class=\"tip\">Irse antes que el jefe solía ser tabú. Hoy lo normal es decir 먼저 퇴근하겠습니다 en voz clara a toda la oficina. Dilo, haz una pequeña reverencia y vete.</div>\n"
   }
  ],
  "CHECKS": {
@@ -6187,7 +6187,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "«Estoy en casa» =",
     [
      "집에 있어요",
-     "집이에요",
+     "집을 있어요",
      "집이 있어요",
      "집에 이에요"
     ],
@@ -6464,7 +6464,7 @@ LANGAPP_PACKS.course['es-ko'] = {
   ],
   "office": [
    [
-    "Te vas y tu gerente sigue trabajando. Dices:",
+    "Te vas y un compañero de tu mismo nivel sigue trabajando. Dices:",
     [
      "수고하세요",
      "수고했어요",
@@ -6609,7 +6609,7 @@ LANGAPP_PACKS.course['es-ko'] = {
      "커피 두 잔 주세요",
      "커피 둘 잔 주세요",
      "커피 이 잔 주세요",
-     "커피 두 개 주세요"
+     "커피 두 명 주세요"
     ],
     0,
     "둘 → 두 antes de un contador; las bebidas llevan 잔."
@@ -6814,7 +6814,7 @@ LANGAPP_PACKS.course['es-ko'] = {
   ],
   "meet": [
    [
-    "«Soy Lisa»: Lisa termina en vocal, así que:",
+    "«Soy Lisa»: en hangul es 리사, y el último bloque, 사, termina en vocal, así que:",
     [
      "리사예요",
      "리사이에요",
@@ -6822,7 +6822,7 @@ LANGAPP_PACKS.course['es-ko'] = {
      "리사야"
     ],
     0,
-    "예요 después de vocal, 이에요 después de consonante."
+    "Fíjate en el último bloque en hangul: sin consonante final → 예요; con consonante final → 이에요."
    ],
    [
     "Alguien se va y tú te quedas. Dices:",
@@ -6899,7 +6899,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     [
      "김밥 두 개 주세요",
      "김밥 이 개 주세요",
-     "김밥 둘 주세요",
+     "김밥 둘 개 주세요",
      "김밥 두 잔 주세요"
     ],
     0,
@@ -7292,7 +7292,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "No, está bien (informal)",
     "a": [
      "아니 괜찮아",
-     "아니야 괜찮아"
+     "아니야 괜찮아",
+     "아냐 괜찮아",
+     "괜찮아"
     ],
     "x": [
      "괜찮아요"
@@ -7404,7 +7406,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "Soy estudiante",
     "a": [
-     "이에요"
+     "이에요",
+     "입니다"
     ],
     "why": "Termina en consonante → 이에요."
    },
@@ -7441,7 +7444,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "Mucho gusto",
     "a": [
      "만나서 반가워요",
-     "반가워요"
+     "반가워요",
+     "만나서 반갑습니다",
+     "반갑습니다"
     ],
     "hint": "만나서 · 반가워요",
     "why": "La frase de siempre al conocer a alguien."
@@ -7451,7 +7456,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "¿De dónde eres?",
     "a": [
      "어디에서 왔어요",
-     "어디서 왔어요"
+     "어디서 왔어요",
+     "어디서 오셨어요",
+     "어디에서 오셨어요"
     ],
     "hint": "어디에서 · 왔어요",
     "why": "Lit. «¿de dónde viniste?»."
@@ -7460,7 +7467,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "t": "type",
     "p": "¿Cuántos años tienes?",
     "a": [
-     "몇 살이에요"
+     "몇 살이에요",
+     "몇 살이세요",
+     "나이가 어떻게 되세요"
     ],
     "hint": "몇 · 살이에요",
     "why": "몇 = cuántos, 살 = años de edad."
@@ -7772,7 +7781,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "(Ella) es médica",
     "a": [
-     "예요"
+     "예요",
+     "입니다"
     ],
     "why": "의사 termina en vocal → 예요."
    },
@@ -7781,7 +7791,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "Yo soy estudiante",
     "a": [
      "저는 학생이에요",
-     "학생이에요"
+     "학생이에요",
+     "저는 학생입니다",
+     "학생입니다"
     ],
     "hint": "저는 · 학생이에요",
     "why": "Tema con 는, luego sustantivo + 이에요."
@@ -7792,7 +7804,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "a": [
      "이거 뭐예요",
      "이게 뭐예요",
-     "이건 뭐예요"
+     "이건 뭐예요",
+     "이것은 뭐예요",
+     "이것이 뭐예요"
     ],
     "hint": "이거 · 뭐예요",
     "why": "뭐 termina en vocal → 예요."
@@ -7816,7 +7830,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "q": "«Estoy en la escuela» =",
     "o": [
      "학교에 있어요",
-     "학교예요",
+     "학교를 있어요",
      "학교가 있어요",
      "학교에 이에요"
     ],
@@ -7874,7 +7888,7 @@ LANGAPP_PACKS.course['es-ko'] = {
      "있어요"
     ],
     "x": [
-     "집이에요"
+     "집을"
     ],
     "why": "Lugar + 에 + 있어요."
    },
@@ -7942,7 +7956,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "Yo soy estudiante",
     "a": [
-     "이에요"
+     "이에요",
+     "입니다"
     ],
     "why": "A = B (ser) → 이에요, no 있어요."
    },
@@ -7953,7 +7968,11 @@ LANGAPP_PACKS.course['es-ko'] = {
      "고양이가 있어요",
      "저는 고양이가 있어요",
      "고양이 있어요",
-     "저는 고양이 있어요"
+     "저는 고양이 있어요",
+     "고양이 키워요",
+     "고양이를 키워요",
+     "저는 고양이 키워요",
+     "저는 고양이를 키워요"
     ],
     "x": [
      "고양이예요"
@@ -8147,7 +8166,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "¿Dónde está?",
     "a": [
      "어디에 있어요",
-     "어디 있어요"
+     "어디 있어요",
+     "어디예요"
     ],
     "x": [
      "언제"
@@ -8223,7 +8243,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "q": "«El clima está bueno» =",
     "o": [
      "날씨가 좋아요",
-     "날씨가 좋다",
+     "날씨가 좋다요",
      "날씨가 좋아 이에요",
      "날씨예요 좋아요"
     ],
@@ -8237,9 +8257,9 @@ LANGAPP_PACKS.course['es-ko'] = {
      "좋아요"
     ],
     "x": [
-     "좋다"
+     "좋다요"
     ],
-    "why": "Di la forma en 요, no la forma de diccionario."
+    "why": "좋다요 no existe: la forma cortés es 좋아요."
    },
    {
     "t": "order",
@@ -8289,7 +8309,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "(Yo) estudio",
     "a": [
-     "해요"
+     "해요",
+     "해"
     ],
     "why": "공부 + 하다 → 공부해요."
    },
@@ -8326,7 +8347,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "Estudio coreano",
     "a": [
      "한국어 공부해요",
-     "저는 한국어 공부해요"
+     "저는 한국어 공부해요",
+     "한국어를 공부해요",
+     "저는 한국어를 공부해요"
     ],
     "x": [
      "공부하다"
@@ -8342,7 +8365,7 @@ LANGAPP_PACKS.course['es-ko'] = {
      "날씨 좋아요"
     ],
     "x": [
-     "좋다"
+     "좋다요"
     ],
     "hint": "날씨 · 좋아요",
     "why": "좋아요 ya incluye el «es/está»."
@@ -8466,7 +8489,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "(Te) quiero",
     "a": [
-     "해요"
+     "해요",
+     "해"
     ],
     "why": "Verbos con 하다 → 해요."
    },
@@ -8591,7 +8615,14 @@ LANGAPP_PACKS.course['es-ko'] = {
     "x": [
      "와요"
     ],
-    "why": "Primero la palabra de tiempo, al final el verbo en pasado."
+    "alt": [
+     [
+      "친구가",
+      "어제",
+      "왔어요"
+     ]
+    ],
+    "why": "La palabra de tiempo suele ir primero; el verbo en pasado siempre va al final."
    },
    {
     "t": "order",
@@ -8678,7 +8709,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "Yo era estudiante",
     "a": [
      "저는 학생이었어요",
-     "학생이었어요"
+     "학생이었어요",
+     "저는 학생이었습니다",
+     "학생이었습니다"
     ],
     "x": [
      "학생이에요"
@@ -8768,7 +8801,15 @@ LANGAPP_PACKS.course['es-ko'] = {
     "x": [
      "갔어요"
     ],
-    "why": "Primero el tiempo; 갈 거예요 = voy a ir."
+    "alt": [
+     [
+      "학교에",
+      "내일",
+      "갈",
+      "거예요"
+     ]
+    ],
+    "why": "El tiempo suele ir primero; 갈 거예요 = voy a ir."
    },
    {
     "t": "order",
@@ -8998,7 +9039,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "Tomo café",
     "a": [
-     "를"
+     "를",
+     "는"
     ],
     "why": "커피 termina en vocal → 를."
    },
@@ -9150,7 +9192,14 @@ LANGAPP_PACKS.course['es-ko'] = {
     "x": [
      "아침에서"
     ],
-    "why": "Tiempo → 에; las palabras de tiempo van primero."
+    "alt": [
+     [
+      "커피를",
+      "아침에",
+      "마셔요"
+     ]
+    ],
+    "why": "Tiempo → 에; las palabras de tiempo suelen ir primero."
    },
    {
     "t": "fill",
@@ -9685,7 +9734,15 @@ LANGAPP_PACKS.course['es-ko'] = {
     "x": [
      "커피가"
     ],
-    "why": "cuándo · con quién · qué · verbo."
+    "alt": [
+     [
+      "친구하고",
+      "오늘",
+      "커피를",
+      "마셔요"
+     ]
+    ],
+    "why": "Normalmente cuándo · con quién · qué · verbo; el verbo siempre va al final."
    },
    {
     "t": "fill",
@@ -9857,7 +9914,7 @@ LANGAPP_PACKS.course['es-ko'] = {
      "싶어요"
     ],
     "x": [
-     "한국을"
+     "한국이"
     ],
     "why": "El destino lleva 에."
    },
@@ -10109,7 +10166,9 @@ LANGAPP_PACKS.course['es-ko'] = {
      "스물 여덟 살이에요",
      "저는 스물 여덟 살이에요",
      "스물여덟살이에요",
-     "저는 스물여덟살이에요"
+     "저는 스물여덟살이에요",
+     "스물여덟 살입니다",
+     "저는 스물여덟 살입니다"
     ],
     "x": [
      "이십팔"
@@ -10124,7 +10183,9 @@ LANGAPP_PACKS.course['es-ko'] = {
      "두 시예요",
      "지금 두 시예요",
      "두시예요",
-     "지금 두시예요"
+     "지금 두시예요",
+     "두 시입니다",
+     "지금 두 시입니다"
     ],
     "x": [
      "이"
@@ -10137,7 +10198,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "Son 3,000 wones (escribe el número en hangul)",
     "a": [
      "삼천 원이에요",
-     "삼천원이에요"
+     "삼천원이에요",
+     "삼천 원입니다"
     ],
     "x": [
      "세"
@@ -10268,7 +10330,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "Comí bien (se dice después de comer)",
     "a": [
-     "먹었습니다"
+     "먹었습니다",
+     "먹었어요"
     ],
     "why": "Después de la comida va en pasado: 잘 먹었습니다."
    },
@@ -10302,7 +10365,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "Tres gimbap, por favor (escribe el número en hangul)",
     "a": [
      "김밥 세 개 주세요",
-     "김밥 세개 주세요"
+     "김밥 세개 주세요",
+     "김밥 세 줄 주세요",
+     "김밥 세줄 주세요"
     ],
     "x": [
      "셋"
@@ -10443,7 +10508,9 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "¿Dónde está la estación de metro?",
     "a": [
-     "어디예요"
+     "어디예요",
+     "어디 있어요",
+     "어디에 있어요"
     ],
     "why": "어디 = dónde."
    },
@@ -10482,7 +10549,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "Siga derecho (dando indicaciones)",
     "a": [
      "똑바로 가세요",
-     "쭉 가세요"
+     "쭉 가세요",
+     "직진하세요"
     ],
     "hint": "똑바로 · 가세요",
     "why": "똑바로 = derecho; 가세요 = vaya."
@@ -10572,7 +10640,14 @@ LANGAPP_PACKS.course['es-ko'] = {
     "x": [
      "사장아"
     ],
-    "why": "Primero el título, luego lo que pides."
+    "alt": [
+     [
+      "계산해",
+      "주세요",
+      "사장님"
+     ]
+    ],
+    "why": "El título abre (o cierra) lo que pides."
    },
    {
     "t": "order",
@@ -10586,7 +10661,15 @@ LANGAPP_PACKS.course['es-ko'] = {
     "x": [
      "민수야"
     ],
-    "why": "Nombre + 씨 para un compañero de trabajo, luego la pregunta."
+    "alt": [
+     [
+      "시간",
+      "있어요",
+      "민수",
+      "씨"
+     ]
+    ],
+    "why": "Nombre + 씨 para un compañero de trabajo; puede abrir (o cerrar) la pregunta."
    },
    {
     "t": "order",
@@ -10598,6 +10681,13 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "x": [
      "형"
+    ],
+    "alt": [
+     [
+      "뭐",
+      "해",
+      "오빠"
+     ]
     ],
     "why": "Una chica le dice 오빠 a un chico mayor."
    },
@@ -10954,6 +11044,14 @@ LANGAPP_PACKS.course['es-ko'] = {
     "x": [
      "봐요"
     ],
+    "alt": [
+     [
+      "내일",
+      "봐",
+      "잘",
+      "자"
+     ]
+    ],
     "why": "La despedida informal de siempre."
    },
    {
@@ -11202,7 +11300,11 @@ LANGAPP_PACKS.course['es-ko'] = {
      "저는 고양이가 세 마리 있어요",
      "고양이 세마리 있어요",
      "고양이 세 마리가 있어요",
-     "저는 고양이 세 마리가 있어요"
+     "저는 고양이 세 마리가 있어요",
+     "고양이 세 마리 키워요",
+     "고양이를 세 마리 키워요",
+     "저는 고양이 세 마리 키워요",
+     "저는 고양이를 세 마리 키워요"
     ],
     "x": [
      "명"
@@ -11469,7 +11571,14 @@ LANGAPP_PACKS.course['es-ko'] = {
     "x": [
      "만나요"
     ],
-    "why": "Primero la palabra de tiempo, al final el pasado."
+    "alt": [
+     [
+      "친구를",
+      "어제",
+      "만났어요"
+     ]
+    ],
+    "why": "La palabra de tiempo suele ir primero; el pasado siempre va al final."
    },
    {
     "t": "order",
@@ -11521,7 +11630,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     ],
     "p": "Ayer vi a un amigo",
     "a": [
-     "만났어요"
+     "만났어요",
+     "봤어요"
     ],
     "why": "어제 pide el pasado: 만나 + 았어요 → 만났어요."
    },
@@ -11935,7 +12045,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     "t": "type",
     "p": "Más, por favor",
     "a": [
-     "더 주세요"
+     "더 주세요",
+     "좀 더 주세요"
     ],
     "x": [
      "덜"
@@ -12765,7 +12876,8 @@ LANGAPP_PACKS.course['es-ko'] = {
     "p": "Le pido que lo revise (correo)",
     "a": [
      "부탁드립니다",
-     "부탁 드립니다"
+     "부탁 드립니다",
+     "부탁드려요"
     ],
     "why": "부탁드립니다 = le pido humildemente."
    },
@@ -13045,7 +13157,7 @@ LANGAPP_PACKS.course['es-ko'] = {
   ],
   [
    "잘 자",
-   "안녕히 주무세요"
+   "잘 자요"
   ],
   [
    "보고 싶어",
@@ -13128,8 +13240,8 @@ LANGAPP_PACKS.course['es-ko'] = {
    "저 지금 가요"
   ],
   [
-   "내 거 할래?",
-   "제 거 할래요?"
+   "이거 먹어도 돼?",
+   "이거 먹어도 돼요?"
   ],
   [
    "너 진짜 예뻐",
@@ -13161,7 +13273,7 @@ LANGAPP_PACKS.course['es-ko'] = {
   ],
   [
    "나 먼저 갈게",
-   "먼저 퇴근하겠습니다"
+   "저 먼저 갈게요"
   ],
   [
    "수고했어",
@@ -13408,8 +13520,8 @@ LANGAPP_PACKS.course['es-ko'] = {
       "Gracias (cortés, más cercano)"
      ],
      [
-      "천만에요",
-      "De nada"
+      "아니에요",
+      "De nada (lit. «no es nada»)"
      ],
      [
       "괜찮습니다",
@@ -13513,7 +13625,7 @@ LANGAPP_PACKS.course['es-ko'] = {
       "Tú puedes"
      ],
      [
-      "괜찮아, 잘 될 거야",
+      "괜찮아, 잘될 거야",
       "Tranquilo, todo saldrá bien"
      ],
      [
@@ -13529,7 +13641,7 @@ LANGAPP_PACKS.course['es-ko'] = {
       "Hasta los monos se caen de los árboles"
      ],
      [
-      "말 한마디로 천 냥 빚 갚는다",
+      "말 한마디에 천 냥 빚도 갚는다",
       "Una palabra amable paga una gran deuda"
      ]
     ]
@@ -13749,7 +13861,249 @@ LANGAPP_PACKS.course['es-ko'] = {
   "Korean progress": "Progreso en coreano",
   "Type the Korean": "Escríbelo en coreano",
   "type it in Korean": "escríbelo en coreano",
-  "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": "Hangul, tarjetas con audio, tests y una sesión diaria de 5 minutos. Antes de empezar: ¿cómo guardamos tu progreso?"
+  "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": "Hangul, tarjetas con audio, tests y una sesión diaria de 5 minutos. Antes de empezar: ¿cómo guardamos tu progreso?",
+  "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": "Escribe la romanización. Cada bloque del hangul apila consonante + vocal (+ consonante final). El nivel que elijas aquí también se usa en las sesiones.",
+  "How a block is built": "Cómo se forma un bloque",
+  "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": "(han). Las vocales verticales (ㅏㅓㅣ) van a la derecha de la consonante; las horizontales (ㅗㅜㅡ), debajo. La consonante final siempre va abajo.",
+  "Hangul drill": "Lectura de hangul",
+  "Search a pattern, e.g. 에서 or 'want'": "Busca una estructura, p. ej., 에서 o «querer»",
+  "Romanization": "Romanización",
+  "Romanization (auto if blank)": "Romanización (automática si la dejas vacía)",
+  "Hide romanization": "Ocultar romanización",
+  "Blur romanization in Browse": "Difuminar romanización en Explorar",
+  "Show romanization in practice": "Mostrar romanización al practicar",
+  "Aa romanization: on": "Aa romanización: activada",
+  "Aa romanization: off": "Aa romanización: desactivada"
+ },
+ "ROLES": {
+  "hangulVowels": "Vocales del hangul",
+  "hangulConsonants": "Consonantes del hangul",
+  "survival": "Frases de supervivencia",
+  "weekGroups": [
+   "Vida diaria",
+   "Social"
+  ]
+ },
+ "KINDS": {
+  "letters": [
+   "Vocales del hangul",
+   "Consonantes del hangul",
+   "Letras avanzadas del hangul"
+  ],
+  "pronunciation": [
+   "Claves de pronunciación"
+  ],
+  "grammar": [
+   "Partículas",
+   "Verbos básicos",
+   "Contadores",
+   "Números",
+   "Números en la calle",
+   "Adjetivos"
+  ],
+  "reference": [
+   "Partículas",
+   "Verbos básicos",
+   "Contadores",
+   "Números",
+   "Conectores",
+   "Adjetivos"
+  ]
+ },
+ "TRAINER": {
+  "hangul": {
+   "mean": {
+    "나무": "árbol",
+    "바다": "mar",
+    "가수": "cantante",
+    "구두": "zapatos de vestir",
+    "고기": "carne",
+    "모자": "gorra / sombrero",
+    "바지": "pantalón",
+    "지도": "mapa",
+    "하나": "uno",
+    "어머니": "madre",
+    "아버지": "padre",
+    "머리": "cabeza / pelo",
+    "다리": "pierna / puente",
+    "소리": "sonido",
+    "노래": "canción",
+    "피자": "pizza",
+    "커피": "café",
+    "치마": "falda",
+    "토마토": "tomate",
+    "포도": "uva",
+    "기차": "tren",
+    "하루": "un día",
+    "이모": "tía (por parte de mamá)",
+    "누나": "hermana mayor (dicho por un hombre)",
+    "야구": "béisbol",
+    "여자": "mujer",
+    "요리": "cocina, cocinar",
+    "유리": "vidrio",
+    "우유": "leche",
+    "아이": "niño / niña",
+    "오이": "pepino",
+    "나비": "mariposa",
+    "부자": "persona rica",
+    "주소": "dirección",
+    "비누": "jabón",
+    "가게": "tienda",
+    "해": "sol / año",
+    "배": "barco / pera / barriga",
+    "개": "perro",
+    "나라": "país",
+    "서울": "Seúl",
+    "한국": "Corea",
+    "사람": "persona",
+    "물": "agua",
+    "밥": "arroz / comida",
+    "김치": "kimchi",
+    "집": "casa",
+    "산": "montaña",
+    "강": "río",
+    "눈": "ojo / nieve",
+    "문": "puerta",
+    "손": "mano",
+    "발": "pie",
+    "책": "libro",
+    "달": "luna / mes",
+    "별": "estrella",
+    "밤": "noche / castaña",
+    "공": "pelota",
+    "방": "habitación",
+    "돈": "dinero",
+    "술": "alcohol",
+    "말": "palabra / caballo",
+    "길": "camino",
+    "봄": "primavera",
+    "감": "caqui",
+    "입": "boca",
+    "친구": "amigo / amiga",
+    "선생님": "profesor/a",
+    "학생": "estudiante",
+    "사랑": "amor",
+    "안녕": "hola / adiós",
+    "감사": "gracias",
+    "한글": "hangul",
+    "시간": "tiempo / hora",
+    "음악": "música",
+    "영어": "inglés",
+    "생일": "cumpleaños",
+    "운동": "ejercicio",
+    "이름": "nombre",
+    "얼굴": "cara",
+    "꽃": "flor",
+    "딸": "hija",
+    "빨리": "rápido",
+    "쌀": "arroz (sin cocer)",
+    "진짜": "de verdad",
+    "과일": "fruta",
+    "원": "won",
+    "회사": "empresa",
+    "귀": "oreja",
+    "왜": "por qué",
+    "의사": "médico/a",
+    "얘기": "conversación / historia",
+    "옷": "ropa",
+    "부엌": "cocina",
+    "앞": "delante",
+    "닭": "pollo",
+    "값": "precio",
+    "뭐": "qué",
+    "외국": "el extranjero",
+    "위": "arriba / estómago",
+    "끝": "fin"
+   },
+   "alt": {
+    "V": {
+     "ㅘ": [
+      "ua"
+     ],
+     "ㅝ": [
+      "uo"
+     ],
+     "ㅙ": [
+      "ue"
+     ],
+     "ㅞ": [
+      "ue"
+     ],
+     "ㅚ": [
+      "ue"
+     ]
+    },
+    "L": {},
+    "T": {},
+    "sh": [
+     "sh"
+    ],
+    "input": {
+     "fold": true,
+     "map": [
+      [
+       "ñ",
+       "ny"
+      ]
+     ],
+     "rewrite": [
+      [
+       "qu(?=[ei])",
+       "k"
+      ],
+      [
+       "gu(?=[ei])",
+       "g"
+      ],
+      [
+       "c(?=[aou])",
+       "k"
+      ]
+     ]
+    }
+   },
+   "ui": {
+    "placeholder": "escribe el sonido, p. ej., ga",
+    "ariaLabel": "Romanización",
+    "levelSyllable": "sílaba",
+    "levelWord": "palabra",
+    "empty": "Escribe el sonido con letras latinas (p. ej., <b>ga</b>) o escribe la palabra en hangul.",
+    "pickPrompt": "¿Cuál escuchaste?"
+   }
+  },
+  "quiz": {
+   "why": "Por qué: %1",
+   "rule": "Ver la regla ↗"
+  },
+  "koui": {
+   "수고했어요": "buen trabajo",
+   "다음에 봐요": "nos vemos la próxima",
+   "잘했어요": "bien hecho",
+   "대박": "increíble",
+   "좋아요": "bien",
+   "다시 해 봐요": "inténtalo otra vez",
+   "맞아요": "correcto",
+   "완벽해요": "perfecto",
+   "다 했어요": "todo listo",
+   "목표 달성": "meta cumplida",
+   "레벨 업": "subiste de nivel",
+   "내 표현": "mis frases",
+   "모두 열렸어요": "todo desbloqueado",
+   "한글": "el alfabeto coreano"
+  },
+  "onboard": {
+   "title": "안녕하세요 👋 Dos preguntas rápidas",
+   "read": "¿Ya sabes leer hangul?",
+   "readNo": "Todavía no",
+   "readSlow": "Despacio",
+   "readYes": "Sí, con fluidez",
+   "goal": "¿Para qué quieres aprender coreano?",
+   "time": "¿Cuánto tiempo al día?",
+   "started": "Listo. Empieza con %1."
+  },
+  "strokes": {
+   "replay": "↻ orden de trazos"
+  }
  }
 };
 

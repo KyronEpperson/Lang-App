@@ -35,7 +35,7 @@ for f in sorted(glob.glob('packs/*.js')):
 mj=json.dumps(man,ensure_ascii=False,separators=(',',':')).replace('</','<\\/').replace('\u2028','\\u2028').replace('\u2029','\\u2029')
 loader=("(function(){var M="+mj+";window.LANGAPP_MANIFEST=M;window.LANGAPP_PACKS={course:{},i18n:{}};var m=null;try{m=JSON.parse(localStorage.getItem('la-meta')||'null')}catch(e){}"
  "var w=[],c=m&&typeof m==='object'&&m.v===1&&m.picked&&typeof m.course==='string'&&Object.prototype.hasOwnProperty.call(M.courses,m.course)?M.courses[m.course]:null;"
- "if(c){w.push(c.file);if(M.i18n[c.native])w.push(M.i18n[c.native])}else{var b='';try{b=String((m&&m.native)||navigator.language||'').slice(0,2).toLowerCase()}catch(e){}if(b&&b!=='en'&&Object.prototype.hasOwnProperty.call(M.i18n,b))w.push(M.i18n[b])}"
+ "if(c){w.push(c.file);if(M.i18n[c.native])w.push(M.i18n[c.native])}else{var b='';try{b=String((m&&m.native)||navigator.language||'').toLowerCase().split(/[-_]/)[0];if(b==='fil')b='tl'}catch(e){}if(b&&b!=='en'&&Object.prototype.hasOwnProperty.call(M.i18n,b))w.push(M.i18n[b])}"
  "for(var i=0;i<w.length;i++)document.write('<script src=\"'+w[i]+'\"><\\/script>')})();")
 assert src.count('\n<script>\n')==1, 'expected exactly one inline <script> block in src/app.html'
 site=src.replace('\n<script>\n','\n<script>'+loader+'</script>\n<script>\n').replace('/*__PACKS__*/','\n'.join(inline))

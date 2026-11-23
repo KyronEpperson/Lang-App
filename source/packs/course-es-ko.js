@@ -11,13 +11,13 @@ LANGAPP_PACKS.course['es-ko'] = {
  "brand": "한글",
  "introWord": "한글",
  "features": {
-  "script": false,
-  "pron": false,
+  "script": true,
+  "pron": true,
   "conj": false,
   "register": false,
   "numbers": false,
   "sound": false,
-  "strokes": false
+  "strokes": true
  },
  "standard": true,
  "GREET": [
@@ -13859,6 +13859,248 @@ LANGAPP_PACKS.course['es-ko'] = {
   "Korean progress": "Progreso en coreano",
   "Type the Korean": "Escríbelo en coreano",
   "type it in Korean": "escríbelo en coreano",
-  "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": "Hangul, tarjetas con audio, tests y una sesión diaria de 5 minutos. Antes de empezar: ¿cómo guardamos tu progreso?"
+  "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": "Hangul, tarjetas con audio, tests y una sesión diaria de 5 minutos. Antes de empezar: ¿cómo guardamos tu progreso?",
+  "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": "Escribe la romanización. Cada bloque del hangul apila consonante + vocal (+ consonante final). El nivel que elijas aquí también se usa en las sesiones.",
+  "How a block is built": "Cómo se forma un bloque",
+  "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": "(han). Las vocales verticales (ㅏㅓㅣ) van a la derecha de la consonante; las horizontales (ㅗㅜㅡ), debajo. La consonante final siempre va abajo.",
+  "Hangul drill": "Lectura de hangul",
+  "Search a pattern, e.g. 에서 or 'want'": "Busca una estructura, p. ej., 에서 o «querer»",
+  "Romanization": "Romanización",
+  "Romanization (auto if blank)": "Romanización (automática si la dejas vacía)",
+  "Hide romanization": "Ocultar romanización",
+  "Blur romanization in Browse": "Difuminar romanización en Explorar",
+  "Show romanization in practice": "Mostrar romanización al practicar",
+  "Aa romanization: on": "Aa romanización: activada",
+  "Aa romanization: off": "Aa romanización: desactivada"
+ },
+ "ROLES": {
+  "hangulVowels": "Vocales del hangul",
+  "hangulConsonants": "Consonantes del hangul",
+  "survival": "Frases de supervivencia",
+  "weekGroups": [
+   "Vida diaria",
+   "Social"
+  ]
+ },
+ "KINDS": {
+  "letters": [
+   "Vocales del hangul",
+   "Consonantes del hangul",
+   "Letras avanzadas del hangul"
+  ],
+  "pronunciation": [
+   "Claves de pronunciación"
+  ],
+  "grammar": [
+   "Partículas",
+   "Verbos básicos",
+   "Contadores",
+   "Números",
+   "Números en la calle",
+   "Adjetivos"
+  ],
+  "reference": [
+   "Partículas",
+   "Verbos básicos",
+   "Contadores",
+   "Números",
+   "Conectores",
+   "Adjetivos"
+  ]
+ },
+ "TRAINER": {
+  "hangul": {
+   "mean": {
+    "나무": "árbol",
+    "바다": "mar",
+    "가수": "cantante",
+    "구두": "zapatos de vestir",
+    "고기": "carne",
+    "모자": "gorra / sombrero",
+    "바지": "pantalón",
+    "지도": "mapa",
+    "하나": "uno",
+    "어머니": "madre",
+    "아버지": "padre",
+    "머리": "cabeza / pelo",
+    "다리": "pierna / puente",
+    "소리": "sonido",
+    "노래": "canción",
+    "피자": "pizza",
+    "커피": "café",
+    "치마": "falda",
+    "토마토": "tomate",
+    "포도": "uva",
+    "기차": "tren",
+    "하루": "un día",
+    "이모": "tía (por parte de mamá)",
+    "누나": "hermana mayor (dicho por un hombre)",
+    "야구": "béisbol",
+    "여자": "mujer",
+    "요리": "cocina, cocinar",
+    "유리": "vidrio",
+    "우유": "leche",
+    "아이": "niño / niña",
+    "오이": "pepino",
+    "나비": "mariposa",
+    "부자": "persona rica",
+    "주소": "dirección",
+    "비누": "jabón",
+    "가게": "tienda",
+    "해": "sol / año",
+    "배": "barco / pera / barriga",
+    "개": "perro",
+    "나라": "país",
+    "서울": "Seúl",
+    "한국": "Corea",
+    "사람": "persona",
+    "물": "agua",
+    "밥": "arroz / comida",
+    "김치": "kimchi",
+    "집": "casa",
+    "산": "montaña",
+    "강": "río",
+    "눈": "ojo / nieve",
+    "문": "puerta",
+    "손": "mano",
+    "발": "pie",
+    "책": "libro",
+    "달": "luna / mes",
+    "별": "estrella",
+    "밤": "noche / castaña",
+    "공": "pelota",
+    "방": "habitación",
+    "돈": "dinero",
+    "술": "alcohol",
+    "말": "palabra / caballo",
+    "길": "camino",
+    "봄": "primavera",
+    "감": "caqui",
+    "입": "boca",
+    "친구": "amigo / amiga",
+    "선생님": "profesor/a",
+    "학생": "estudiante",
+    "사랑": "amor",
+    "안녕": "hola / adiós",
+    "감사": "gracias",
+    "한글": "hangul",
+    "시간": "tiempo / hora",
+    "음악": "música",
+    "영어": "inglés",
+    "생일": "cumpleaños",
+    "운동": "ejercicio",
+    "이름": "nombre",
+    "얼굴": "cara",
+    "꽃": "flor",
+    "딸": "hija",
+    "빨리": "rápido",
+    "쌀": "arroz (sin cocer)",
+    "진짜": "de verdad",
+    "과일": "fruta",
+    "원": "won",
+    "회사": "empresa",
+    "귀": "oreja",
+    "왜": "por qué",
+    "의사": "médico/a",
+    "얘기": "conversación / historia",
+    "옷": "ropa",
+    "부엌": "cocina",
+    "앞": "delante",
+    "닭": "pollo",
+    "값": "precio",
+    "뭐": "qué",
+    "외국": "el extranjero",
+    "위": "arriba / estómago",
+    "끝": "fin"
+   },
+   "alt": {
+    "V": {
+     "ㅘ": [
+      "ua"
+     ],
+     "ㅝ": [
+      "uo"
+     ],
+     "ㅙ": [
+      "ue"
+     ],
+     "ㅞ": [
+      "ue"
+     ],
+     "ㅚ": [
+      "ue"
+     ]
+    },
+    "L": {},
+    "T": {},
+    "sh": [
+     "sh"
+    ],
+    "input": {
+     "fold": true,
+     "map": [
+      [
+       "ñ",
+       "ny"
+      ]
+     ],
+     "rewrite": [
+      [
+       "qu(?=[ei])",
+       "k"
+      ],
+      [
+       "gu(?=[ei])",
+       "g"
+      ],
+      [
+       "c(?=[aou])",
+       "k"
+      ]
+     ]
+    }
+   },
+   "ui": {
+    "placeholder": "escribe el sonido, p. ej., ga",
+    "ariaLabel": "Romanización",
+    "levelSyllable": "sílaba",
+    "levelWord": "palabra",
+    "empty": "Escribe el sonido con letras latinas (p. ej., <b>ga</b>) o escribe la palabra en hangul.",
+    "pickPrompt": "¿Cuál escuchaste?"
+   }
+  },
+  "quiz": {
+   "why": "Por qué: %1",
+   "rule": "Ver la regla ↗"
+  },
+  "koui": {
+   "수고했어요": "buen trabajo",
+   "다음에 봐요": "nos vemos la próxima",
+   "잘했어요": "bien hecho",
+   "대박": "increíble",
+   "좋아요": "bien",
+   "다시 해 봐요": "inténtalo otra vez",
+   "맞아요": "correcto",
+   "완벽해요": "perfecto",
+   "다 했어요": "todo listo",
+   "목표 달성": "meta cumplida",
+   "레벨 업": "subiste de nivel",
+   "내 표현": "mis frases",
+   "모두 열렸어요": "todo desbloqueado",
+   "한글": "el alfabeto coreano"
+  },
+  "onboard": {
+   "title": "안녕하세요 👋 Dos preguntas rápidas",
+   "read": "¿Ya sabes leer hangul?",
+   "readNo": "Todavía no",
+   "readSlow": "Despacio",
+   "readYes": "Sí, con fluidez",
+   "goal": "¿Para qué quieres aprender coreano?",
+   "time": "¿Cuánto tiempo al día?",
+   "started": "Listo. Empieza con %1."
+  },
+  "strokes": {
+   "replay": "↻ orden de trazos"
+  }
  }
 };

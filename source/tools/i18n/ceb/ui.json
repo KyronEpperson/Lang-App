@@ -115,7 +115,7 @@
    "where": "html <input> @placeholder"
   },
   "Meaning (required)": {
-   "t": "Kahulugan (kinahanglan)",
+   "t": "Kahulogan (kinahanglan)",
    "ko": "뜻 (필수)",
    "kind": "label",
    "where": "html <input> @placeholder"
@@ -140,7 +140,7 @@
    "where": "html <summary> text"
   },
   "Korean, romanization, meaning, note — one per line (romanization/note optional)": {
-   "t": "Koreano, romanization, kahulugan, nota — usa matag linya (opsyonal ang romanization/nota)",
+   "t": "Koreano, romanization, kahulogan, nota — usa matag linya (opsyonal ang romanization/nota)",
    "ko": "표현, 발음 표기, 뜻, 메모 — 한 줄에 하나씩 (발음 표기·메모는 선택)",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -549,7 +549,7 @@
    "where": "html <h3> text"
   },
   "Intervals adapt to your retention (±) ·": {
-   "t": "Ang interval mosunod sa imong panumduman (±) ·",
+   "t": "Ang interval mosunod sa imong panumdoman (±) ·",
    "ko": "복습 간격은 기억률에 맞춰 조정돼요 (±) ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -694,13 +694,13 @@
    "where": "html <textarea> @placeholder"
   },
   "Merges with what is here; nothing is lost.": {
-   "t": "Isagol sa naa na diri; walay mawala.",
+   "t": "Iusa sa naa na diri; walay mawala.",
    "ko": "지금 기록과 합쳐져요. 사라지는 건 없어요.",
    "kind": "sentence",
    "where": "html <span> text"
   },
   "Merge in": {
-   "t": "Isagol",
+   "t": "Iusa",
    "ko": "합치기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1476,7 +1476,7 @@
    "where": "js sh() <h3>"
   },
   "Enter your email and we'll send a sign-in link and a 6-digit code. No password. Your progress merges with what's already on this device.": {
-   "t": "I-type ang imong email ug magpadala mi og link sa pag-sign in ug 6 ka numero nga code. Walay password. Ang imong pag-uswag isagol sa naa na niining device.",
+   "t": "I-type ang imong email ug magpadala mi og link sa pag-sign in ug 6 ka numero nga code. Walay password. Ang imong pag-uswag iusa sa naa na niining device.",
    "ko": "이메일을 입력하면 로그인 링크와 6자리 코드를 보내 드려요. 비밀번호는 필요 없어요. 진도는 이 기기에 있는 기록과 합쳐져요.",
    "kind": "sentence",
    "where": "js sh() <p>"
@@ -1956,7 +1956,7 @@
    "where": "js spark()"
   },
   "mastered": {
-   "t": "kahanas na",
+   "t": "hanas na",
    "ko": "마스터",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2111,7 +2111,7 @@
    "where": "js next() <a>"
   },
   "No match. Try the English meaning.": {
-   "t": "Walay nakit-an. Sulayi ang kahulugan sa Iningles.",
+   "t": "Walay nakit-an. Sulayi ang kahulogan sa Iningles.",
    "ko": "결과가 없어요. 한국어 뜻으로 검색해 보세요.",
    "kind": "sentence",
    "where": "js hits() <p>"
@@ -2156,7 +2156,7 @@
    "where": "js tmp() <button>"
   },
   "Finish 60% of the previous deck to unlock this one.": {
-   "t": "Humana ang 60% sa miaging deck aron maablihan kini.",
+   "t": "Humana ang 60% sa niaging deck aron maablihan kini.",
    "ko": "이전 덱을 60% 끝내면 열려요.",
    "kind": "sentence",
    "where": "js b()"
@@ -2380,7 +2380,7 @@
    "where": "js romT() <button>"
   },
   "Listen, then pick the meaning": {
-   "t": "Paminaw, dayon pilia ang kahulugan",
+   "t": "Paminaw, dayon pilia ang kahulogan",
    "ko": "듣고 뜻을 고르세요",
    "kind": "sentence",
    "where": "js romT() <div>"
@@ -2612,7 +2612,7 @@
    "where": "js pass()"
   },
   "Flip it, listen, then tap Got it once it sticks.": {
-   "t": "Baliha, paminawa, dayon i-tap ang Kabalo ko kon nahinumduman na nimo.",
+   "t": "Baliha, paminawa, dayon i-tap ang Kabalo ko kon nahinumdoman na nimo.",
    "ko": "뒤집고, 들어 보고, 외워지면 알아요를 누르세요.",
    "kind": "sentence",
    "where": "js x() <p>"
@@ -3691,14 +3691,14 @@
    "where": "js toks()"
   },
   "is it okay? (-아/어도 돼요)": {
-   "t": "pwede ba? (-아/어도 돼요)",
+   "t": "puwede ba? (-아/어도 돼요)",
    "ko": "~해도 돼요? (-아/어도 돼요)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "not okay? (-(으)면 안 돼요)": {
-   "t": "dili pwede? (-(으)면 안 돼요)",
+   "t": "dili puwede? (-(으)면 안 돼요)",
    "ko": "~하면 안 돼요? (-(으)면 안 돼요)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3761,13 +3761,13 @@
    "where": "js (top level) <link>"
   },
   "Review a few cards and this fills in: retention by box, speed, and your best hour.": {
-   "t": "Pag-review og pipila ka card ug mapuno kini: panumduman matag kahon, katulin, ug imong labing maayong oras.",
+   "t": "Pag-review og pipila ka card ug mapuno kini: panumdoman matag kahon, katulin, ug imong labing maayong oras.",
    "ko": "카드를 몇 장 복습하면 여기에 상자별 기억률, 속도, 가장 잘되는 시간이 채워져요.",
    "kind": "sentence",
    "where": "js el() <p>"
   },
   "Retention when a card comes back from each box. Higher boxes should stay high; a dip means the interval there is too long for you.": {
-   "t": "Panumduman kon mobalik ang card gikan sa matag kahon. Ang taas nga kahon kinahanglan magpabiling taas; kon mous-os, taas ra kaayo ang interval didto para nimo.",
+   "t": "Panumdoman kon mobalik ang card gikan sa matag kahon. Ang taas nga kahon kinahanglan magpabiling taas; kon mous-os, taas ra kaayo ang interval didto para nimo.",
    "ko": "각 상자에서 카드가 돌아왔을 때의 기억률이에요. 높은 상자일수록 높게 유지돼야 하고, 떨어진다면 그 상자의 간격이 나에게 너무 길다는 뜻이에요.",
    "kind": "sentence",
    "where": "js overall() <p>"
@@ -3886,13 +3886,13 @@
    "where": "js b()"
   },
   "Could not save here. Long-press the image instead.": {
-   "t": "Dili ma-save diri. Pinduta og dugay ang hulagway.",
+   "t": "Dili ma-save diri. Pindota og dugay ang hulagway.",
    "ko": "여기서는 저장할 수 없어요. 대신 이미지를 길게 누르세요.",
    "kind": "sentence",
    "where": "js b()"
   },
   "Long-press / right-click the image to share it.": {
-   "t": "Pinduta og dugay / i-right-click ang hulagway aron i-share.",
+   "t": "Pindota og dugay / i-right-click ang hulagway aron i-share.",
    "ko": "이미지를 길게 누르거나 오른쪽 클릭해서 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
@@ -3905,13 +3905,13 @@
    "where": "js img()"
   },
   "Or long-press / right-click the image to share it.": {
-   "t": "O pinduta og dugay / i-right-click ang hulagway aron i-share.",
+   "t": "O pindota og dugay / i-right-click ang hulagway aron i-share.",
    "ko": "또는 이미지를 길게 누르거나 오른쪽 클릭해서 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
   },
   "Long-press or right-click the image to save or share it.": {
-   "t": "Pinduta og dugay o i-right-click ang hulagway aron i-save o i-share.",
+   "t": "Pindota og dugay o i-right-click ang hulagway aron i-save o i-share.",
    "ko": "이미지를 길게 누르거나 오른쪽 클릭해서 저장하거나 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
@@ -4013,7 +4013,7 @@
    "where": "js cards()"
   },
   "cards mastered to 80%+ · all lesson checks passed": {
-   "t": "mga card nga kahanas na sa 80%+ · nakapasar sa tanang check sa leksyon",
+   "t": "mga card nga hanas na sa 80%+ · nakapasar sa tanang check sa leksyon",
    "ko": "카드 80% 이상 마스터 · 레슨 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "js cards()"
@@ -4530,7 +4530,7 @@
    "where": "js g()"
   },
   "Merges into the course the export came from; nothing is lost.": {
-   "t": "Isagol sa kurso nga gigikanan sa export; walay mawala.",
+   "t": "Iusa sa kurso nga gigikanan sa export; walay mawala.",
    "ko": "내보낸 코스의 진도와 합쳐져요. 사라지는 건 없어요.",
    "kind": "sentence",
    "where": "js r()"
@@ -5188,7 +5188,7 @@
    ]
   },
   "English, pronunciation, meaning, note — one per line (pronunciation/note optional)": {
-   "t": "Iningles, paglitok, kahulugan, nota — usa matag linya (opsyonal ang paglitok/nota)",
+   "t": "Iningles, paglitok, kahulogan, nota — usa matag linya (opsyonal ang paglitok/nota)",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #109)",
@@ -6257,13 +6257,13 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Flashcard: {s} ({s}). Press to flip, arrow keys to answer.": {
-   "t": "Flashcard: {1} ({2}). Pinduta aron balihon, arrow key aron motubag.",
+   "t": "Flashcard: {1} ({2}). Pindota aron balihon, arrow key aron motubag.",
    "ko": "플래시카드: {1} ({2}). 눌러서 뒤집고, 방향키로 답하세요.",
    "slots": "{1}=s, {2}=s",
    "example": "Flashcard: Greetings (Travel). Press to flip, arrow keys to answer."
   },
   "Flashcard: {x}. Press to flip, arrow keys to answer.": {
-   "t": "Flashcard: {1}. Pinduta aron balihon, arrow key aron motubag.",
+   "t": "Flashcard: {1}. Pindota aron balihon, arrow key aron motubag.",
    "ko": "플래시카드: {1}. 눌러서 뒤집고, 방향키로 답하세요.",
    "slots": "{1}=x",
    "example": "Flashcard: Hello there. Press to flip, arrow keys to answer."
@@ -6344,7 +6344,7 @@
    "example": "🛡️ Streak shield earned (5/2). A missed day won't break your streak."
   },
   "🏆 {x} mastered · +50 XP": {
-   "t": "🏆 Kahanas na sa {1} · +50 XP",
+   "t": "🏆 Hanas na sa {1} · +50 XP",
    "ko": "🏆 {1} 마스터 · +50 XP",
    "slots": "{1}=x",
    "example": "🏆 Hello there mastered · +50 XP"
@@ -6382,7 +6382,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged. {n} cards of progress were new.": {
-   "t": "Nasagol na. {1} ka card nga naay bag-ong pag-uswag.",
+   "t": "Naiusa na. {1} ka card nga naay bag-ong pag-uswag.",
    "ko": "합쳤어요. 카드 {1}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=n",
    "example": "Merged. 5 cards of progress were new.",
@@ -6658,19 +6658,19 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New → box 1 (today) → {x} · 6 = mastered": {
-   "t": "Bag-o → kahon 1 (karon) → {1} · 6 = kahanas na",
+   "t": "Bag-o → kahon 1 (karon) → {1} · 6 = hanas na",
    "ko": "새 카드 → 상자 1 (오늘) → {1} · 6 = 마스터",
    "slots": "{1}=x",
    "example": "New → box 1 (today) → Hello there · 6 = mastered"
   },
   "{x} · 6 = mastered": {
-   "t": "{1} · 6 = kahanas na",
+   "t": "{1} · 6 = hanas na",
    "ko": "{1} · 6 = 마스터",
    "slots": "{1}=x",
    "example": "Hello there · 6 = mastered"
   },
   "{n} predictions · when you said \"yes\" you were right {n}% of the time ({n}/{n}) · when \"not sure\", you still got {n}% ({n}/{n}) · {n} overconfident cards go first in Weak spots": {
-   "t": "{1} ka tag-an · kon miingon ka og \"Oo\", sakto ka {2}% sa higayon ({3}/{4}) · kon \"Dili sigurado\", nakuha gihapon nimo ang {5}% ({6}/{7}) · {8} ka card nga sobra ang imong salig ang una sa Huyang nga bahin",
+   "t": "{1} ka tag-an · kon niingon ka og \"Oo\", sakto ka {2}% sa higayon ({3}/{4}) · kon \"Dili sigurado\", nakuha gihapon nimo ang {5}% ({6}/{7}) · {8} ka card nga sobra ang imong salig ang una sa Huyang nga bahin",
    "ko": "예측 {1}번 · \"네\"라고 했을 때 {2}% 맞혔어요 ({3}/{4}) · \"잘 모르겠어요\"라고 했을 때도 {5}% 맞혔어요 ({6}/{7}) · 과신한 카드 {8}장은 약점 공략에 먼저 나와요",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n, {6}=n, {7}=n, {8}=n",
    "example": "5 predictions · when you said \"yes\" you were right 2% of the time (3/4) · when \"not sure\", you still got 6% (7/8) · 9 overconfident cards go first in Weak spots",
@@ -6965,14 +6965,14 @@
    "example": "Listen: Hello there"
   },
   "{n} decks · {n} cards mastered to 80%+ · all lesson checks passed": {
-   "t": "{1} ka deck · {2} ka card nga kahanas na sa 80%+ · nakapasar sa tanang check sa leksyon",
+   "t": "{1} ka deck · {2} ka card nga hanas na sa 80%+ · nakapasar sa tanang check sa leksyon",
    "ko": "덱 {1}개 · 카드 {2}장 80% 이상 마스터 · 확인 문제 모두 통과",
    "slots": "{1}=n, {2}=n",
    "example": "5 decks · 2 cards mastered to 80%+ · all lesson checks passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged into {x}. {n} cards of progress were new.": {
-   "t": "Nasagol sa {1}. {2} ka card nga naay bag-ong pag-uswag.",
+   "t": "Naiusa sa {1}. {2} ka card nga naay bag-ong pag-uswag.",
    "ko": "{1} 코스에 합쳤어요. 카드 {2}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=x, {2}=n",
    "example": "Merged into Hello there. 5 cards of progress were new.",

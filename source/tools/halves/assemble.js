@@ -19,6 +19,9 @@ function loadHalves(nat, tgt, dir) {
   t.course = L.readJSON(path.join(T, 'course.json'));
   n.course = L.readJSON(path.join(N, 'course.json'));
   n.ui = fs.existsSync(path.join(N, 'ui.json')) ? L.readJSON(path.join(N, 'ui.json')) : {};
+  /* Korean trainers (docs/TRAINERS-PLAN.md §5): target/<t>/trainer.json = read-only mirror of the engine's Korean keys; native/<n>/<t>/trainer.json = the learner-language trainer text */
+  t.trainer = fs.existsSync(path.join(T, 'trainer.json')) ? L.readJSON(path.join(T, 'trainer.json')) : null;
+  n.trainer = fs.existsSync(path.join(N, 'trainer.json')) ? L.readJSON(path.join(N, 'trainer.json')) : null;
   n.bodies = {}; t.lessons.forEach(l => { const f = path.join(N, 'lessons', l.id + '.html'); n.bodies[l.id] = fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : null; });
   return { t, n, T, N };
 }
@@ -73,17 +76,53 @@ function assemble(nat, tgt, opts) {
   const sets = {}; ((t.course.pause || {}).sets || []).forEach(s => sets[s.key] = [s.ko + s.sep + label(s.id), s.items.map(i => [i.ko, label(i.id)])]);
   const idioms = ((t.course.pause || {}).idioms || []).map(i => [i.ko, i.hanja, i.rom, label(i.id)]);
 
+  /* ---------- trainers: ROLES / KINDS (always, when the target half defines them), TRAINER (when the native half has trainer.json), features from readiness ---------- */
+  const groupName = {}; t.course.groups.forEach(g => groupName[g.id] = get('groups', g.id).name);
+  const tc = t.course, ROLES = {}, KINDS = {};
+  Object.entries(tc.roles || {}).forEach(([k, v]) => ROLES[k] = Array.isArray(v) ? v.map(id => { if (!groupName[id]) miss.push('role group:' + id); return groupName[id]; }) : DL(v));
+  Object.entries(tc.kinds || {}).forEach(([k, v]) => KINDS[k] = v.map(DL));
+  const TRAINER = n.trainer ? trainerOf(n.trainer, tc) : null;
+  const features = { script: false, pron: false, conj: false, register: false, numbers: false, sound: false, strokes: false };
+  if (tgt === 'ko') { const rd = readiness(TRAINER, t.trainer, PAIRS_LEN(tc)); Object.keys(features).forEach(f => features[f] = !!(rd[f] && WIRED[f])); }
+
   if (miss.length && !opts.lenient) throw new Error(miss.length + ' native row(s) missing, first: ' + miss.slice(0, 5).join(', ') + ' — run validate.js');
   const pack = {
     id: nat + '-' + tgt, native: nat, target: tgt, ttsLang: t.course.ttsLang,
     name: { [nat]: n.course.name, [tgt]: t.course.self }, brand: n.course.brand || t.course.introWord, introWord: t.course.introWord,
-    features: { script: false, pron: false, conj: false, register: false, numbers: false, sound: false, strokes: false },
+    features,
     /* a course assembled from the two halves is a STANDARD course unless its native half says it was hand-tuned for this pair (course.json "tuned": true); the picker marks hand-tuned courses */
     ...(n.course.tuned ? {} : { standard: true }),
     GREET, TITLES, DECKS, GROUPS, TAGS, DESC, DIALOG, EXAMPLES, PATTERNS, LESSONS, CHECKS, PRACTICE, GOALS, PLAN_PRESETS,
-    PAIRS: t.course.pairs || [], PAUSE: { sets, idioms }, UI: n.ui || {}
+    PAIRS: t.course.pairs || [], PAUSE: { sets, idioms }, UI: n.ui || {},
+    ...(tc.roles ? { ROLES } : {}), ...(tc.kinds ? { KINDS } : {}), ...(TRAINER ? { TRAINER } : {})
   };
   return { pack, missing: miss };
+}
+
+/* features whose engine renderers read COURSE.TRAINER today (src/app.html TRAINER_WIRED); WP2–WP6 add numbers, sound, register, conj as their renderers land */
+const WIRED = { script: true, pron: true, strokes: true, numbers: false, sound: false, register: false, conj: false };
+const PAIRS_LEN = tc => (tc.pairs || []).length;
+const isObj = x => x && typeof x === 'object' && !Array.isArray(x);
+/* the native trainer.json without its _notes; build.extra keyed by the Korean of target build[] (only those sentences, in target order) */
+function trainerOf(nt, tc) {
+  const strip = v => { if (Array.isArray(v)) return v.map(strip); if (!isObj(v)) return v; const o = {}; Object.keys(v).forEach(k => { if (k[0] !== '_') o[k] = strip(v[k]); }); return o; };
+  const T = strip(nt); delete T.ui;
+  if (isObj(T.build) && isObj(T.build.extra) && Array.isArray(tc.build)) { const ex = {}; tc.build.forEach(b => { if (typeof T.build.extra[b.ko] === 'string') ex[b.ko] = T.build.extra[b.ko]; }); T.build.extra = ex; }
+  return T;
+}
+/* mirrors READY in src/app.html: a flag is on only when its section is complete */
+function readiness(T, mirror, pairs) {
+  const has = (o, keys) => isObj(o) && keys.every(k => typeof o[k] === 'string' && o[k].trim());
+  const words = mirror ? mirror.words.cv.concat(mirror.words.f) : null;
+  const h = T && T.hangul;
+  return {
+    script: !!(T && words && isObj(h) && has(h.mean, words) && has(h.ui, ['placeholder', 'ariaLabel', 'levelSyllable', 'levelWord', 'empty', 'pickPrompt']) && has(T.onboard, ['title', 'read', 'readNo', 'readSlow', 'readYes', 'goal', 'time', 'started'])),
+    numbers: !!(T && mirror && isObj(T.numbers) && has(T.numbers.hint, mirror.numKinds) && has(T.numbers.counter, mirror.counters) && has(T.numbers.ui, ['prompt', 'placeholder'])),
+    sound: !!(T && mirror && isObj(T.sound) && has(T.sound.ui, ['prompt']) && has(T.sound.rules, mirror.soundRules)),
+    register: !!(T && has(T.register, ['toPolite', 'toCasual', 'whyPolite', 'whyCasual']) && pairs >= 4),
+    conj: !!(T && mirror && isObj(T.conj) && has(T.conj.labels, mirror.conjFields) && has(T.conj.irregular, mirror.conjIrregular) && has(T.conj.ui, ['empty', 'irregular', 'title', 'placeholder', 'button', 'tryLine'])),
+    pron: true, strokes: true
+  };
 }
 
 function packSource(pack, nat, tgt) {
@@ -92,7 +131,7 @@ function packSource(pack, nat, tgt) {
     "LANGAPP_PACKS.course['" + pack.id + "'] = " + js + ';\n';
 }
 
-module.exports = { assemble, loadHalves, packSource };
+module.exports = { assemble, loadHalves, packSource, readiness, WIRED };
 
 if (require.main === module) {
   const [nat, tgt, outArg] = process.argv.slice(2);
@@ -108,6 +147,6 @@ if (require.main === module) {
     const P = { course: {}, i18n: {} }; new Function('LANGAPP_PACKS', src)(P);
     if (Object.keys(P.course).length !== 1 || Object.keys(P.i18n).length) throw new Error('pack must define exactly one course');
     const c = P.course[pack.id];
-    console.log(JSON.stringify({ out, id: c.id, decks: Object.keys(c.DECKS).length, cards: Object.values(c.DECKS).reduce((a, b) => a + b.length, 0), lessons: c.LESSONS.length, checks: Object.values(c.CHECKS).reduce((a, b) => a + b.length, 0), practice: Object.values(c.PRACTICE).reduce((a, b) => a + b.length, 0), dialog: Object.keys(c.DIALOG).length, examples: Object.keys(c.EXAMPLES).length, patterns: c.PATTERNS.length, ui: Object.keys(c.UI).length, bytes: src.length }));
+    console.log(JSON.stringify({ out, id: c.id, decks: Object.keys(c.DECKS).length, cards: Object.values(c.DECKS).reduce((a, b) => a + b.length, 0), lessons: c.LESSONS.length, checks: Object.values(c.CHECKS).reduce((a, b) => a + b.length, 0), practice: Object.values(c.PRACTICE).reduce((a, b) => a + b.length, 0), dialog: Object.keys(c.DIALOG).length, examples: Object.keys(c.EXAMPLES).length, patterns: c.PATTERNS.length, ui: Object.keys(c.UI).length, features: Object.keys(c.features).filter(f => c.features[f]).join(',') || 'none', trainer: c.TRAINER ? Object.keys(c.TRAINER).join(',') : 'none', bytes: src.length }));
   } catch (e) { console.error('assemble: ' + e.message); process.exit(1); }
 }

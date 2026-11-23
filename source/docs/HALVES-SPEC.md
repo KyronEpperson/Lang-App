@@ -1,6 +1,6 @@
 # Two halves: on-disk format for teaching Korean to any learner language
 
-Status: **frozen v1** (2026-11-22). Exported from `src/app.html` sha256 `9f869e4e5599a06d…`. Tools: `tools/halves/` (`export_ko.js`, `assemble.js`, `proof.js`, `validate.js`, `mk_native.js`, `selftest.js`).
+Status: **frozen v1** (2026-11-22), **v1.1** (2026-11-23: Korean trainers — `roles` / `kinds` / `build` in the target `course.json`, `target/ko/trainer.json`, `native/<n>/ko/trainer.json`, pack fields `ROLES` / `KINDS` / `TRAINER`, features from readiness; see §10). Exported from `src/app.html` sha256 `abc284e5db93332b…` (`target/ko/course.json` `exportedFrom` always holds the current hash). Tools: `tools/halves/` (`export_ko.js`, `assemble.js`, `proof.js`, `validate.js`, `mk_native.js`, `selftest.js`).
 
 A Korean course is stored as two halves, and `assemble.js` joins them into an ordinary course pack (`LANGAPP_PACKS.course['<n>-ko']`). The runtime needs almost no change.
 
@@ -18,8 +18,8 @@ A Korean course is stored as two halves, and `assemble.js` joins them into an or
 * Lesson bodies are **HTML files**, one per lesson: `native/<n>/ko/lessons/<lessonId>.html`.
 
 ```
-target/ko/   course.json decks.jsonl cards.jsonl dialog.jsonl examples.jsonl patterns.jsonl sentences.jsonl lessons.jsonl checks.jsonl practice.jsonl
-native/<n>/ko/ course.json ui.json decks.jsonl groups.jsonl cards.jsonl dialog.jsonl examples.jsonl patterns.jsonl sentences.jsonl lessons.jsonl checks.jsonl practice.jsonl labels.jsonl lessons/<id>.html
+target/ko/   course.json trainer.json decks.jsonl cards.jsonl dialog.jsonl examples.jsonl patterns.jsonl sentences.jsonl lessons.jsonl checks.jsonl practice.jsonl
+native/<n>/ko/ course.json ui.json trainer.json decks.jsonl groups.jsonl cards.jsonl dialog.jsonl examples.jsonl patterns.jsonl sentences.jsonl lessons.jsonl checks.jsonl practice.jsonl labels.jsonl lessons/<id>.html
 ```
 
 ## 2 · Ids (assigned once, never reused, never positional)
@@ -41,6 +41,7 @@ native/<n>/ko/ course.json ui.json decks.jsonl groups.jsonl cards.jsonl dialog.j
 | goal / plan preset | `goal.<key>` / `plan.<key>` | `goal.travel` |
 | pause set / item / idiom | `ko.z.<key>` / `ko.z.<key>.<nn>` / `ko.i<nn>` | `ko.z.compliment.01` |
 | "My phrases" description | `ko.d.mydeck` | |
+| Build-drill sentence (trainer) | `ko.b<nn>`, reused by Korean text | `ko.b01` |
 
 Further rules:
 
@@ -67,6 +68,7 @@ checks.jsonl     {"id":"sov.k1","lesson":"sov","o":[null,null,null,null],"a":0}
                  {"id":"compare.k1","lesson":"compare","o":["버스가 택시보다 싸요","버스보다 택시가 싸요","버스가 택시더 싸요","버스가 택시 제일 싸요"],"a":0}
 practice.jsonl   {"id":"hangul.01","lesson":"hangul","t":"mc","o":["ㅏ","ㅓ","ㅗ","ㅜ"]}
                  {"id":"hangul.06","lesson":"hangul","t":"order","a":["서","울"],"x":["소"]}
+                 {"id":"past.06","lesson":"past","t":"order","a":["어제","친구가","왔어요"],"x":["와요"],"alt":[["친구가","어제","왔어요"]]}
                  {"id":"hangul.09","lesson":"hangul","t":"fill","q":"서__","o":["을","올","얼"],"a":["울"]}
                  {"id":"hangul.12","lesson":"hangul","t":"type","a":["강"],"x":["감"],"hint":{"ko":"ㄱ + ㅏ + ㅇ"}}
                  {"id":"polite.14","lesson":"polite","t":"type","a":["아니 괜찮아","아니야 괜찮아"],"x":["괜찮아요"],"hint":{"ko":"아니요 · 괜찮아요","sep":" — "}}
@@ -82,7 +84,14 @@ practice.jsonl   {"id":"hangul.01","lesson":"hangul","t":"mc","o":["ㅏ","ㅓ","
 * `greet` `[{id,ko,rom}]` (night, morning, afternoon, evening);
 * `pairs` `[[casual,polite]…]`;
 * `pause` `{sets:[{id,key,ko,sep,items:[{id,ko}]}], idioms:[{id,ko,hanja,rom}]}`;
+* `roles` `{hangulVowels, hangulConsonants, survival: deckId, weekGroups: [groupId…]}`: the decks and groups the trainers and the session planner address by role (assembled as `ROLES`, §10);
+* `kinds` `{letters, pronunciation, grammar, reference: [deckId…]}`: deck sets (assembled as `KINDS`; the engine derives `sounds` = letters ∪ pronunciation);
+* `build` `[{id:"ko.b01", ko}…]`: the 18 extra Build-drill sentences (Korean only; the gloss is native, `trainer.json build.extra`);
 * `exportedFrom` (source file + hash).
+
+Practice `order` items may carry **`alt`**: a list of other accepted tile orders (`[["친구가","어제","왔어요"]]`). It is target-side, like `a` and `x`, and assembly copies it unchanged.
+
+**`target/ko/trainer.json`** is a **read-only mirror** that `export_ko.js` writes from the live engine and `proof.js` checks. It is the list of Korean keys and engine tables a native `trainer.json` is validated against, never a second source: `words {cv, f}` (the Hangul drill corpus), `jamo {L, V, T}` (the engine's canonical + language-neutral spelling rows), `part` / `ends` (breakdown match order), `qw`, `conn`, `count`, `koui`, `soundRules`, `conjFields`, `conjIrregular`, `numKinds`, `counters`, `build` (ids), and `uiKeys` (the 14 Korean-specific static UI strings each non-English `ui.json` should override).
 
 ## 4 · Native half (`native/<n>/ko`)
 
@@ -109,6 +118,8 @@ labels.jsonl     {"id":"ko.t01","text":"Sprout"}   {"id":"ko.h.night","text":"it
   * `name` is the course name in the learner's language. It becomes `name[<n>]`; `name.ko` comes from the target half's `self`.
 * **`ui.json`:** per-course interface overrides, `{"English UI string": "native text"}`.
   * They are assembled as the pack field `UI` (see §8).
+  * For a Korean course, the 14 strings in the target mirror's `uiKeys` (read-tab panel, add-card form, grammar search, romanisation toggles) were translated for learning English in the interface dictionaries; every non-English half overrides them here. `validate.js` counts the missing ones under "words remaining".
+* **`trainer.json`:** the trainers' learner-language text (§10). Optional: without it, every Korean trainer stays off for that course.
 * **`lessons/<id>.html`:** the lesson body in the learner's language.
   * Korean inside the prose and the tables (`<td class="k">ㅏ</td>`, `<b>요</b>`) stays inline. The Hangul check (§6) protects it.
   * Example rows and stroke diagrams are tokens:
@@ -149,25 +160,29 @@ Errors fail the run:
 * the pack-path limits: `q` `p` `why` `hint` ≤ 400 characters, options ≤ 200, ≤ 60 items per lesson, no options made identical;
 * `LANGS` has both language codes.
 
+* trainer.json (§10.3): key parity with `native/en/ko/trainer.json` inside each section that is present, no orphans, `%n` slot sets equal to the English, Hangul runs set-equal, no braces, ≤ 200 characters, HTML only `<b>` in `hangul.ui.empty`, every drill word has a `hangul.mean`, the `hangul.alt` rules, `roles` / `kinds` ids resolve to target decks / groups.
+
 Warnings:
 
+* a `trainer.json` section is absent (that trainer stays off), or the whole file is absent;
 * the lesson structure (`h3`, `div`, `table`, `li` counts) differs from the English;
 * Hangul run counts differ;
 * a sentence is unused.
 
-The validator reports counts per file and **words remaining**: the English words whose native field is missing, empty, or still identical to English.
+The validator reports counts per file and **words remaining**: the English words whose native field is missing, empty, or still identical to English, including `trainer.json` strings and the `uiKeys` lines of `ui.json`.
 
 ## 7 · Assembly (`node tools/halves/assemble.js <n> ko [outfile]`)
 
 The default outfile is `<tmpdir>/course-<n>-ko.js`, never `packs/`. Assembly writes `LANGAPP_PACKS.course['<n>-ko'] = {…}` in the existing pack shape:
 
 * `id`, `native`, `target:'ko'`, `ttsLang:'ko-KR'`, `name`, `brand` and `introWord`;
-* `features` with all seven flags **false**;
+* `features` from readiness (§10.4): `pron` and `strokes` always true for Korean, `script` true when `trainer.json` has complete `hangul.mean` / `hangul.ui` / `onboard`; `numbers` / `sound` / `register` / `conj` stay false until their renderers are wired (WP2–WP5);
 * `GREET`, `TITLES` (`[level, Korean, native]`, as en-ko), `DECKS` (`[ko, rom, meaning, note]` under native deck labels), `GROUPS`, `TAGS` and `DESC` (plus `DESC['My phrases']`);
 * `DIALOG` and `EXAMPLES`, keyed by card Korean;
 * `PATTERNS`, as `[pattern, meaning, example, lessonId]`, the en-ko shape;
 * `LESSONS` (en-ko ids), `CHECKS` (`[q, options, correctIndex, why]`) and `PRACTICE`;
-* `GOALS`, `PLAN_PRESETS`, `PAIRS`, `PAUSE` and `UI`.
+* `GOALS`, `PLAN_PRESETS`, `PAIRS`, `PAUSE` and `UI`;
+* `ROLES` and `KINDS` (ids mapped to native deck labels and group names) whenever the target `course.json` has `roles` / `kinds`, and `TRAINER` (the native `trainer.json` without its `_` notes and `ui`; `build.extra` keyed by the Korean of the target `build[]`) when the native half has one.
 
 The output passes `node --check`, contains no `</script`, defines exactly one course (the build.sh probe), and passes `validCourse()`.
 
@@ -178,11 +193,11 @@ The output passes `node --check`, contains no `</script`, defines exactly one co
    * The 24 tokens sit inside `<div class="strokes-grid">` in `hangul.html`.
    * Without this, the pack path shows the literal token text.
    * Replay already works once the cells exist: the delegated `document` click handler on `.sgl` is not gated by `features.strokes`. The lead decides whether cells render while `features.strokes` is false; the en-ko lesson shows them regardless.
-2. **Pack field `UI`** (`{"English UI string": "native"}`) is not read by the runtime yet.
-   * Merge `COURSE.UI` over the exact map in `setI18n()` (for `COURSE.native`) and in `i18nDict()` (for `l === COURSE.native`).
-   * It must also work when the native language has **no** i18n pack: `setI18n()` currently sets `I18N=null` then (today that applies to `ceb` and `tl`).
+2. **Pack field `UI`** (`{"English UI string": "native"}`): **done.** `setI18n()` and `i18nDict()` merge `COURSE.UI` over the exact map for `COURSE.native`, and since 2026-11-23 also when the native language has **no** interface pack (a non-empty `UI` alone then becomes the dictionary; `uiLang()` is that language).
 3. **`PATTERNS[3]`** is a lesson id in en-ko and in these packs (`renderGrammar` links it). Some generated packs (for example en-es) put an English translation there instead, so do not "fix" one shape to the other.
 4. **Greeting.** `greet()` now uses `COURSE.GREET` for a non-built-in Korean course (as of this spec), so no change is needed. Keep that branch.
+
+5. **Trainer fields** `ROLES` / `KINDS` / `TRAINER` are read by the engine (§10). `features.strokes` is never read (B8): it is a no-op flag that assembly sets to true for Korean.
 
 ## 9 · Workflow for a new learner language
 
@@ -196,3 +211,39 @@ node tools/halves/validate.js es ko       # 0 errors, 0 words remaining
 node tools/halves/assemble.js es ko packs/course-es-ko.js   # the lead decides when it goes into packs/
 node tools/halves/selftest.js             # the validator and proof still detect breakage
 ```
+
+`trainer.json` is not split into the `wN.jsonl` work files yet (`mk_native.js` is unchanged while writers are mid-flight on the existing split). Write `native/<n>/ko/trainer.json` directly, section by section, starting from `native/en/ko/trainer.json`; never via `--merge`.
+
+## 10 · Korean trainers (`ROLES`, `KINDS`, `TRAINER`)
+
+Plan and rationale: `docs/TRAINERS-PLAN.md`. The built-in en-ko course carries the same three fields (attached in `registerCourses()`), so every Korean course runs one code path; `proof.js` proves `assemble('en','ko')` reproduces them exactly.
+
+### 10.1 Pack fields
+
+```js
+ROLES:   { hangulVowels:'<deck label>', hangulConsonants:'<deck label>', survival:'<deck label>', weekGroups:['<group name>', …] },
+KINDS:   { letters:[labels], pronunciation:[labels], grammar:[labels], reference:[labels] },   // engine: sounds = letters ∪ pronunciation
+TRAINER: { hangul:{ mean:{word:gloss…}, alt:{V,L,T,sh,input}, ui:{placeholder,ariaLabel,levelSyllable,levelWord,empty,pickPrompt}, defaultMode? },
+           onboard:{title,read,readNo,readSlow,readYes,goal,time,started}, quiz:{why,rule}, koui:{ko:gloss…}, strokes:{replay},
+           gloss:{PART,ENDS,QW,CONN,COUNT,tpl}, build:{extra,ui}, numbers:{hint,counter,ui}, sound:{rules,showGloss,ui}, register:{…}, conj:{labels,irregular,ui} }
+```
+
+* Engine helpers: `TR('a.b')` (value or undefined), `TRF(path, …slots)` (fills `%1`…`%9`), `ROLE(r)` (label only when that deck exists), `roleList('weekGroups')`, `KIND(k, deck)`.
+* Engine readers today: `ROLES` / `KINDS` at every former English deck-name site; `TRAINER.hangul` (drill text, meanings, alternates), `onboard`, `quiz` (the "why" line on `KINDS.grammar` decks), `koui` (tooltip = `romanize(ko) + ' · ' + gloss`), `strokes.replay` (card-back button; none when absent). `gloss` / `build` / `numbers` / `sound` / `register` / `conj` are carried as data; their renderers are wired by WP2–WP6.
+* Slots are positional `%1`…`%9` (braces are forbidden in native text). Keys are the Korean text where the engine table is keyed by Korean (`mean`, `PART`, `CONN`, `koui`, `build.extra`, sound-rule names), otherwise a fixed English slug.
+
+### 10.2 `native/<n>/ko/trainer.json`
+
+The shape of `TRAINER`, plus `_about` / `_src` / `_note` / `_new` meta fields that assembly drops. `native/en/ko/trainer.json` is written by `export_ko.js` from the live engine (translator notes are carried over at the same paths); edit the engine, not that file. Other languages write their file by hand, one section at a time; a missing section keeps that trainer off.
+
+`hangul.alt` is **authored, not translated**: the learner's own spellings, appended after the engine's `[canonical, …neutral]` for each jamo. `V` / `L` / `T` map a jamo to extra spellings, `sh` lists the spellings added for ㅅ before ㅣ / y-vowels, `input` normalises what the learner types: `fold` (strip accents), `map` (ordered literal replacements, e.g. `["ñ","ny"]`; may map a whole script to Latin), `rewrite` (`[regex, replacement]`, each adds one more candidate, never replaces the input). `hangul.defaultMode: "pick"` suits learners who do not type Latin; the input then drops `inputmode="latin"`.
+
+### 10.3 Validation of `trainer.json` (errors)
+
+* Inside each present section: every English key exists (booleans stay booleans), no orphan keys, same `%n` set, same Hangul runs (an object may carry `"_waive": ["hangul"]`), no braces, ≤ 200 characters, no HTML except `<b>` in `hangul.ui.empty`. `hangul.alt` and `hangul.defaultMode` are exempt from parity.
+* `hangul.mean` covers every word of the mirror. For `en`, every Korean-keyed table equals the mirror's key list.
+* `hangul.alt`: spellings are `[a-z]+`; none equals **another jamo's canonical spelling in the same slot**; an initial or vowel alternate may not make a syllable read like a different syllable's canonical reading (rejects ㅈ `y`: 자 = 야); `rewrite` regexes compile and replacements are `[a-z]*`; `map` keys are non-empty; with the table applied, no drill word reaches the engine's 400-spelling cap. The en-only exception is ㅓ `u` (equal to ㅜ's `u`, kept so en-ko stays identical).
+
+### 10.4 Features from readiness
+
+`CF(f)` in the engine is `features[f] && READY[f]()` for a Korean target, and a non-built-in course only gets features whose renderers read `TRAINER` (`TRAINER_WIRED`: today `script`, `pron`, `strokes`; the `build` mode is also gated). Assembly mirrors this (`WIRED` in `assemble.js`), so a pack never ships a flag whose screen would show English. `modeOk(mode)` gates each drill mode (`pick` needs `script`, `build` needs `script` + `gloss` + `build`, `register` / `numbers` / `sound` need their flag).

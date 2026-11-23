@@ -1,0 +1,4791 @@
+{
+ "decks": {
+  "Top nouns": [
+   [
+    "것",
+    "geot",
+    "thing; the one (that…)",
+    "Never alone: 이것 = this thing, 좋은 것 = a good one. Spoken: 거."
+   ],
+   [
+    "수",
+    "su",
+    "way; possibility (in -ㄹ 수 있다)",
+    "갈 수 있어요 = I can go. Never alone."
+   ],
+   [
+    "거",
+    "geo",
+    "thing (spoken form of 것)",
+    "이거, 제 거 = mine. What people actually say."
+   ],
+   [
+    "말",
+    "mal",
+    "words; what someone says",
+    "말이 빨라요 = you talk fast. 말 also means horse."
+   ],
+   [
+    "일",
+    "il",
+    "work; job; matter",
+    "일이 많아요 = I have a lot of work. Also: day (counter), one (Sino-Korean)."
+   ],
+   [
+    "때",
+    "ttae",
+    "time (when something happens)",
+    "어릴 때 = when I was little; 그때 = back then."
+   ],
+   [
+    "문제",
+    "munje",
+    "problem; question (on a test)",
+    "문제없어요 = no problem."
+   ],
+   [
+    "속",
+    "sok",
+    "inside (deep in)",
+    "마음속 = deep in your heart; 물속 = underwater."
+   ],
+   [
+    "중",
+    "jung",
+    "middle; in the middle of",
+    "회의 중이에요 = I'm in a meeting."
+   ],
+   [
+    "생각",
+    "saenggak",
+    "thought; idea",
+    "좋은 생각이에요 = good idea. Verb: 생각하다."
+   ],
+   [
+    "소리",
+    "sori",
+    "sound; noise",
+    "무슨 소리예요? = what's that noise? (also: what nonsense!)"
+   ],
+   [
+    "정도",
+    "jeongdo",
+    "degree; about (an amount)",
+    "한 시간 정도 = about an hour."
+   ],
+   [
+    "아이",
+    "ai",
+    "child",
+    "Spoken: 애. Polite for someone's child: 아드님 / 따님."
+   ],
+   [
+    "시간",
+    "sigan",
+    "time; hours",
+    "시간 있어요? = are you free? Counted: 두 시간 = two hours."
+   ],
+   [
+    "어머니",
+    "eomeoni",
+    "mother (respectful)",
+    "Family talk: 엄마. Someone else's: 어머님."
+   ],
+   [
+    "다음",
+    "daeum",
+    "next; next time",
+    "다음 주 = next week; 다음에 봐요 = see you next time."
+   ],
+   [
+    "한국",
+    "hanguk",
+    "Korea",
+    "한국 사람 = a Korean; 한국말 = Korean (spoken)."
+   ],
+   [
+    "곳",
+    "got",
+    "place",
+    "좋은 곳 = a nice place. Spoken also: 데."
+   ],
+   [
+    "세계",
+    "segye",
+    "world",
+    "세계 여행 = a trip around the world."
+   ],
+   [
+    "돈",
+    "don",
+    "money",
+    "돈이 없어요 = I'm broke."
+   ],
+   [
+    "날",
+    "nal",
+    "day",
+    "그날 = that day; 좋은 날 = a good day."
+   ],
+   [
+    "마음",
+    "maeum",
+    "heart; mind; feelings",
+    "마음에 들어요 = I like it (it pleases me)."
+   ],
+   [
+    "후",
+    "hu",
+    "after; later",
+    "밥 먹은 후에 = after eating. Same as 뒤 for time."
+   ],
+   [
+    "아버지",
+    "abeoji",
+    "father (respectful)",
+    "Family talk: 아빠. Someone else's: 아버님."
+   ],
+   [
+    "몸",
+    "mom",
+    "body",
+    "몸이 안 좋아요 = I don't feel well."
+   ],
+   [
+    "얼굴",
+    "eolgul",
+    "face",
+    "얼굴이 빨개요 = your face is red."
+   ],
+   [
+    "모습",
+    "moseup",
+    "appearance; how someone looks",
+    "웃는 모습 = the way you look when you smile."
+   ],
+   [
+    "길",
+    "gil",
+    "road; way",
+    "길이 막혀요 = the traffic is bad."
+   ],
+   [
+    "생활",
+    "saenghwal",
+    "daily life; living",
+    "한국 생활 = life in Korea."
+   ],
+   [
+    "방법",
+    "bangbeop",
+    "way (of doing something); method",
+    "좋은 방법 = a good way to do it."
+   ],
+   [
+    "처음",
+    "cheoeum",
+    "the first time; the beginning",
+    "처음이에요 = it's my first time."
+   ],
+   [
+    "손",
+    "son",
+    "hand",
+    "손 씻으세요 = wash your hands."
+   ],
+   [
+    "이야기",
+    "iyagi",
+    "story; talk",
+    "Spoken: 얘기. 이야기해요 = we talk."
+   ],
+   [
+    "회사",
+    "hoesa",
+    "company; the office",
+    "회사에 가요 = I'm going to work."
+   ],
+   [
+    "내용",
+    "naeyong",
+    "content; what it's about",
+    "무슨 내용이에요? = what's it about?"
+   ],
+   [
+    "책",
+    "chaek",
+    "book",
+    "책을 읽어요. Counted: 한 권."
+   ],
+   [
+    "점",
+    "jeom",
+    "point; aspect; dot",
+    "좋은 점 = a good point; 점 also = a mole on the skin."
+   ],
+   [
+    "나라",
+    "nara",
+    "country",
+    "어느 나라 사람이에요? = which country are you from?"
+   ],
+   [
+    "학생",
+    "haksaeng",
+    "student",
+    "학생이에요? = are you a student?"
+   ],
+   [
+    "이름",
+    "ireum",
+    "name",
+    "Polite for an elder's name: 성함."
+   ],
+   [
+    "이유",
+    "iyu",
+    "reason",
+    "이유가 뭐예요? = what's the reason?"
+   ],
+   [
+    "남편",
+    "nampyeon",
+    "husband",
+    "Spouses call each other 여보 or 자기."
+   ],
+   [
+    "밤",
+    "bam",
+    "night",
+    "오늘 밤 = tonight. 밤 also means chestnut."
+   ],
+   [
+    "컴퓨터",
+    "keompyuteo",
+    "computer",
+    "컴퓨터가 고장 났어요 = the computer broke."
+   ],
+   [
+    "머리",
+    "meori",
+    "head; hair",
+    "머리가 아파요 = headache; 머리 잘랐어요 = I got a haircut."
+   ],
+   [
+    "아들",
+    "adeul",
+    "son",
+    "Someone else's son (polite): 아드님."
+   ],
+   [
+    "방",
+    "bang",
+    "room",
+    "제 방 = my room. Also -방 places: 노래방, PC방."
+   ],
+   [
+    "끝",
+    "kkeut",
+    "end",
+    "끝났어요 = it's over."
+   ],
+   [
+    "하늘",
+    "haneul",
+    "sky",
+    "하늘이 맑아요 = the sky is clear."
+   ],
+   [
+    "사랑",
+    "sarang",
+    "love (the noun)",
+    "첫사랑 = first love. Verb: 사랑하다."
+   ],
+   [
+    "전화",
+    "jeonhwa",
+    "phone call; telephone",
+    "전화해요 = I call; 전화 왔어요 = there's a call."
+   ],
+   [
+    "맛",
+    "mat",
+    "taste; flavor",
+    "맛이 어때요? = how does it taste?"
+   ],
+   [
+    "음식",
+    "eumsik",
+    "food (a dish, cuisine)",
+    "한국 음식 = Korean food."
+   ],
+   [
+    "아내",
+    "anae",
+    "wife",
+    "Casual: 와이프. Someone else's: 부인."
+   ],
+   [
+    "나이",
+    "nai",
+    "age",
+    "Polite: 연세. Age decides how people talk to each other."
+   ],
+   [
+    "딸",
+    "ttal",
+    "daughter",
+    "Someone else's daughter (polite): 따님."
+   ],
+   [
+    "산",
+    "san",
+    "mountain",
+    "Korea is two-thirds mountains: 산에 가요 = we go hiking."
+   ],
+   [
+    "문",
+    "mun",
+    "door",
+    "문 좀 닫아 주세요."
+   ],
+   [
+    "노래",
+    "norae",
+    "song",
+    "노래 불러요 = I sing."
+   ],
+   [
+    "바다",
+    "bada",
+    "sea; beach",
+    "바다에 가요 = we're going to the beach."
+   ],
+   [
+    "기분",
+    "gibun",
+    "mood; how you feel",
+    "기분이 어때요? = how are you feeling?"
+   ],
+   [
+    "옷",
+    "ot",
+    "clothes",
+    "옷이 예뻐요. Counted: 한 벌."
+   ],
+   [
+    "꿈",
+    "kkum",
+    "dream",
+    "꿈을 꿔요 = I have a dream (asleep)."
+   ],
+   [
+    "물건",
+    "mulgeon",
+    "thing; item (an object you buy or own)",
+    "물건을 사요 = I buy things."
+   ],
+   [
+    "경험",
+    "gyeongheom",
+    "experience",
+    "좋은 경험이었어요 = it was a good experience."
+   ],
+   [
+    "비",
+    "bi",
+    "rain",
+    "비가 와요 = it's raining (rain comes)."
+   ],
+   [
+    "고향",
+    "gohyang",
+    "hometown",
+    "고향이 어디예요? = where are you from originally?"
+   ],
+   [
+    "아기",
+    "agi",
+    "baby",
+    "아기가 자요 = the baby is sleeping."
+   ],
+   [
+    "아저씨",
+    "ajeossi",
+    "middle-aged man; sir (to a stranger)",
+    "To taxi drivers, shopkeepers. Don't use it to a young man."
+   ],
+   [
+    "달",
+    "dal",
+    "month; the moon",
+    "이번 달 = this month. Counted: 한 달."
+   ],
+   [
+    "마지막",
+    "majimak",
+    "the last (one)",
+    "마지막 기회 = the last chance."
+   ],
+   [
+    "건강",
+    "geongang",
+    "health",
+    "건강하세요 = stay healthy (a common goodbye to elders)."
+   ],
+   [
+    "버스",
+    "beoseu",
+    "bus",
+    "버스 타요 = I take the bus."
+   ],
+   [
+    "사진",
+    "sajin",
+    "photo",
+    "사진 찍어도 돼요? = may I take a photo?"
+   ],
+   [
+    "뜻",
+    "tteut",
+    "meaning",
+    "이게 무슨 뜻이에요? = what does this mean?"
+   ],
+   [
+    "자동차",
+    "jadongcha",
+    "car",
+    "Everyday: 차, which also means tea."
+   ],
+   [
+    "반",
+    "ban",
+    "half; class (at school)",
+    "한 시 반 = half past one; 우리 반 = our class."
+   ],
+   [
+    "가격",
+    "gagyeok",
+    "price",
+    "Spoken also: 값. 가격이 얼마예요?"
+   ],
+   [
+    "핸드폰",
+    "haendeupon",
+    "mobile phone",
+    "Also 휴대폰; casual 폰."
+   ],
+   [
+    "동네",
+    "dongne",
+    "neighborhood",
+    "우리 동네 = my neighborhood."
+   ],
+   [
+    "영어",
+    "yeongeo",
+    "English (the language)",
+    "영어 선생님 = English teacher."
+   ],
+   [
+    "질문",
+    "jilmun",
+    "question",
+    "질문 있어요 = I have a question."
+   ],
+   [
+    "부모님",
+    "bumonim",
+    "parents",
+    "Always with 님, even your own."
+   ],
+   [
+    "가게",
+    "gage",
+    "shop; store",
+    "작은 가게 = a small shop."
+   ],
+   [
+    "날씨",
+    "nalssi",
+    "weather",
+    "날씨가 좋네요."
+   ],
+   [
+    "의사",
+    "uisa",
+    "doctor",
+    "Address one as 선생님."
+   ],
+   [
+    "대답",
+    "daedap",
+    "answer; reply",
+    "대답해 주세요 = please answer."
+   ],
+   [
+    "시작",
+    "sijak",
+    "start; beginning",
+    "시작이 반이다 = starting is half the job."
+   ],
+   [
+    "숙제",
+    "sukje",
+    "homework",
+    "숙제 다 했어요? = did you finish your homework?"
+   ],
+   [
+    "표",
+    "pyo",
+    "ticket",
+    "표 두 장 = two tickets."
+   ],
+   [
+    "강아지",
+    "gangaji",
+    "puppy; dog (everyday)",
+    "개 is the plain word but also a swear prefix; 강아지 is safe."
+   ],
+   [
+    "선물",
+    "seonmul",
+    "gift",
+    "선물이에요 = it's a present for you."
+   ],
+   [
+    "지하철",
+    "jihacheol",
+    "subway",
+    "지하철로 가요 = I go by subway."
+   ],
+   [
+    "주말",
+    "jumal",
+    "weekend",
+    "주말 잘 보내세요 = have a good weekend."
+   ],
+   [
+    "생일",
+    "saengil",
+    "birthday",
+    "생일 축하해요 = happy birthday."
+   ],
+   [
+    "고양이",
+    "goyangi",
+    "cat",
+    "고양이 키워요 = I have a cat."
+   ],
+   [
+    "약",
+    "yak",
+    "medicine",
+    "약 먹어요 = I take medicine (eat medicine)."
+   ],
+   [
+    "아줌마",
+    "ajumma",
+    "middle-aged woman (casual)",
+    "Can sound rude. Politer: 아주머니, or in a shop 사장님."
+   ],
+   [
+    "주",
+    "ju",
+    "week",
+    "이번 주 = this week; 다음 주 = next week."
+   ],
+   [
+    "한국어",
+    "hangugeo",
+    "Korean (the language)",
+    "Spoken: 한국말."
+   ]
+  ],
+  "Top verbs": [
+   [
+    "없다",
+    "eopda",
+    "there isn't; not to have",
+    "없어요. The opposite of 있다. 시간이 없어요 = I have no time."
+   ],
+   [
+    "되다",
+    "doeda",
+    "to become; to work out; to be OK",
+    "돼요. 돼요? = is that OK? 안 돼요 = no, you can't."
+   ],
+   [
+    "말하다",
+    "malhada",
+    "to speak; to say",
+    "말해요. To an elder: 말씀하세요."
+   ],
+   [
+    "받다",
+    "batda",
+    "to receive; to get",
+    "받아요. 전화 받아요 = I answer the phone."
+   ],
+   [
+    "나오다",
+    "naoda",
+    "to come out",
+    "나와요. 결과가 나왔어요 = the results are out."
+   ],
+   [
+    "살다",
+    "salda",
+    "to live",
+    "살아요. ㄹ drops before ㄴ/ㅂ/ㅅ: 사세요, 사는 곳."
+   ],
+   [
+    "생각하다",
+    "saenggakada",
+    "to think",
+    "생각해요. 그렇게 생각해요 = I think so."
+   ],
+   [
+    "만들다",
+    "mandeulda",
+    "to make",
+    "만들어요. ㄹ drops: 만드세요, 만드는 법."
+   ],
+   [
+    "싶다",
+    "sipda",
+    "to want to (after -고)",
+    "싶어요. 먹고 싶어요 = I want to eat. Never alone."
+   ],
+   [
+    "보이다",
+    "boida",
+    "to be seen; to look (like)",
+    "보여요. 잘 보여요 = I can see well."
+   ],
+   [
+    "가지다",
+    "gajida",
+    "to have; to take (own)",
+    "가져요. 가지고 가요 = I'll take it with me."
+   ],
+   [
+    "지나다",
+    "jinada",
+    "to pass (by); time goes by",
+    "지나요. 시간이 빨리 지나요."
+   ],
+   [
+    "들다",
+    "deulda",
+    "to hold; to lift; to cost",
+    "들어요. ㄹ drops: 드세요 (but 드세요 also = please eat)."
+   ],
+   [
+    "버리다",
+    "beorida",
+    "to throw away",
+    "버려요. After -아/어: 다 먹어 버렸어요 = I ate it all (oops)."
+   ],
+   [
+    "시작하다",
+    "sijakada",
+    "to start",
+    "시작해요. 영화가 시작해요."
+   ],
+   [
+    "들어가다",
+    "deureogada",
+    "to go in; to enter",
+    "들어가요. 집에 들어가요 = I'm heading home."
+   ],
+   [
+    "놓다",
+    "nota",
+    "to put; to place",
+    "놓아요 / 놔요. 여기 놓으세요."
+   ],
+   [
+    "만나다",
+    "mannada",
+    "to meet",
+    "만나요. Note: 친구를 만나요 (을/를, not \"with\")."
+   ],
+   [
+    "내다",
+    "naeda",
+    "to put out; to pay",
+    "내요. 제가 낼게요 = I'll pay."
+   ],
+   [
+    "쓰다",
+    "sseuda",
+    "to write; to use",
+    "써요 (ㅡ drops). Also: to wear (a hat), to taste bitter."
+   ],
+   [
+    "듣다",
+    "deutda",
+    "to listen; to hear",
+    "들어요. ㄷ irregular: ㄷ → ㄹ before a vowel."
+   ],
+   [
+    "찾다",
+    "chatda",
+    "to look for; to find",
+    "찾아요. 돈 찾아요 = I withdraw money."
+   ],
+   [
+    "나가다",
+    "nagada",
+    "to go out; to leave",
+    "나가요. 오늘 나가요? = going out today?"
+   ],
+   [
+    "사다",
+    "sada",
+    "to buy",
+    "사요. 제가 살게요 = it's on me."
+   ],
+   [
+    "잡다",
+    "japda",
+    "to catch; to hold; to grab",
+    "잡아요. 택시를 잡아요 = I hail a taxi."
+   ],
+   [
+    "서다",
+    "seoda",
+    "to stand; to stop",
+    "서요. 줄을 서요 = I stand in line."
+   ],
+   [
+    "읽다",
+    "ikda",
+    "to read",
+    "읽어요. Said [익따]; 책 읽어요."
+   ],
+   [
+    "일어나다",
+    "ireonada",
+    "to get up; to wake up",
+    "일어나요. 일곱 시에 일어나요."
+   ],
+   [
+    "넣다",
+    "neota",
+    "to put in",
+    "넣어요. 설탕 넣어 주세요."
+   ],
+   [
+    "느끼다",
+    "neukkida",
+    "to feel",
+    "느껴요. 행복을 느껴요."
+   ],
+   [
+    "부르다",
+    "bureuda",
+    "to call; to sing",
+    "불러요. 르 irregular: 르 → ㄹㄹ before 아/어."
+   ],
+   [
+    "죽다",
+    "jukda",
+    "to die",
+    "죽어요. Polite about people: 돌아가시다. Also slang: 배고파 죽겠어 = starving."
+   ],
+   [
+    "내리다",
+    "naerida",
+    "to get off; to come down (rain, snow)",
+    "내려요. 다음 역에서 내려요."
+   ],
+   [
+    "짓다",
+    "jitda",
+    "to build; to make (a name, rice)",
+    "지어요. ㅅ irregular: ㅅ drops before a vowel."
+   ],
+   [
+    "사용하다",
+    "sayonghada",
+    "to use",
+    "사용해요. Everyday speech prefers 쓰다."
+   ],
+   [
+    "타다",
+    "tada",
+    "to ride; to get on",
+    "타요. 버스를 타요 (을/를)."
+   ],
+   [
+    "보내다",
+    "bonaeda",
+    "to send; to spend (time)",
+    "보내요. 주말 잘 보내세요 = have a good weekend."
+   ],
+   [
+    "다니다",
+    "danida",
+    "to go regularly; to attend",
+    "다녀요. 회사에 다녀요 = I work at a company."
+   ],
+   [
+    "열다",
+    "yeolda",
+    "to open",
+    "열어요. ㄹ drops: 여세요, 여는 시간."
+   ],
+   [
+    "돌아오다",
+    "doraoda",
+    "to come back",
+    "돌아와요. 언제 돌아와요?"
+   ],
+   [
+    "묻다",
+    "mutda",
+    "to ask",
+    "물어요. ㄷ irregular. 길을 물어봐요 = I ask the way."
+   ],
+   [
+    "남다",
+    "namda",
+    "to be left over; to remain",
+    "남아요. 시간이 좀 남았어요."
+   ],
+   [
+    "나다",
+    "nada",
+    "to come out; to break out (happen)",
+    "나요. 생각이 나요 = it comes to mind; 냄새가 나요 = it smells."
+   ],
+   [
+    "웃다",
+    "utda",
+    "to laugh; to smile",
+    "웃어요. Regular (not ㅅ irregular)."
+   ],
+   [
+    "기다리다",
+    "gidarida",
+    "to wait",
+    "기다려요. 잠깐만 기다려 주세요."
+   ],
+   [
+    "입다",
+    "ipda",
+    "to wear (clothes)",
+    "입어요. Regular (not ㅂ irregular). Hats: 쓰다; shoes: 신다."
+   ],
+   [
+    "끝나다",
+    "kkeunnada",
+    "to end; to finish",
+    "끝나요. 수업이 끝났어요."
+   ],
+   [
+    "걸리다",
+    "geollida",
+    "to take (time); to catch (a cold)",
+    "걸려요. 감기에 걸렸어요."
+   ],
+   [
+    "오르다",
+    "oreuda",
+    "to go up; to rise",
+    "올라요. 르 irregular. 가격이 올랐어요."
+   ],
+   [
+    "믿다",
+    "mitda",
+    "to believe; to trust",
+    "믿어요. 저를 믿으세요."
+   ],
+   [
+    "바꾸다",
+    "bakkuda",
+    "to change; to exchange",
+    "바꿔요. 자리 바꿀까요? = shall we swap seats?"
+   ],
+   [
+    "배우다",
+    "baeuda",
+    "to learn",
+    "배워요. 한국어를 배워요."
+   ],
+   [
+    "돕다",
+    "dopda",
+    "to help",
+    "도와요. ㅂ irregular (ㅂ → 오 here). Asking: 도와주세요."
+   ],
+   [
+    "이야기하다",
+    "iyagihada",
+    "to talk; to chat",
+    "이야기해요. Spoken: 얘기해요."
+   ],
+   [
+    "자다",
+    "jada",
+    "to sleep",
+    "자요. To an elder: 주무세요."
+   ],
+   [
+    "걷다",
+    "geotda",
+    "to walk",
+    "걸어요. ㄷ irregular: ㄷ → ㄹ before a vowel."
+   ],
+   [
+    "울다",
+    "ulda",
+    "to cry",
+    "울어요. ㄹ drops: 우세요, 우는 아이."
+   ],
+   [
+    "지내다",
+    "jinaeda",
+    "to get along; to spend days",
+    "지내요. 잘 지냈어요? = how have you been?"
+   ],
+   [
+    "팔다",
+    "palda",
+    "to sell",
+    "팔아요. ㄹ drops: 파세요, 파는 곳."
+   ],
+   [
+    "태어나다",
+    "taeeonada",
+    "to be born",
+    "태어나요. 서울에서 태어났어요."
+   ],
+   [
+    "가르치다",
+    "gareuchida",
+    "to teach",
+    "가르쳐요. 영어를 가르쳐요."
+   ],
+   [
+    "시키다",
+    "sikida",
+    "to order (food); to make someone do",
+    "시켜요. 치킨 시킬까요? = shall we order chicken?"
+   ],
+   [
+    "원하다",
+    "wonhada",
+    "to want; to wish for",
+    "원해요. Formal; day to day use -고 싶다."
+   ],
+   [
+    "잊다",
+    "itda",
+    "to forget",
+    "잊어요. Spoken more: 잊어버리다."
+   ],
+   [
+    "노력하다",
+    "noryeokada",
+    "to make an effort; to try hard",
+    "노력해요. 더 노력할게요."
+   ],
+   [
+    "씻다",
+    "ssitda",
+    "to wash (yourself, food)",
+    "씻어요. 손 씻어요."
+   ],
+   [
+    "싸우다",
+    "ssauda",
+    "to fight; to argue",
+    "싸워요. 친구랑 싸웠어요."
+   ],
+   [
+    "전화하다",
+    "jeonhwahada",
+    "to call (phone)",
+    "전화해요. 이따 전화할게요 = I'll call you later."
+   ],
+   [
+    "준비하다",
+    "junbihada",
+    "to prepare; to get ready",
+    "준비해요. 준비됐어요? = are you ready?"
+   ],
+   [
+    "결혼하다",
+    "gyeolhonhada",
+    "to marry; to get married",
+    "결혼해요. 결혼했어요? = are you married?"
+   ],
+   [
+    "찍다",
+    "jjikda",
+    "to take (a photo); to stamp",
+    "찍어요. 사진 찍어 주세요."
+   ],
+   [
+    "도착하다",
+    "dochakada",
+    "to arrive",
+    "도착해요. 몇 시에 도착해요?"
+   ],
+   [
+    "빌리다",
+    "billida",
+    "to borrow; to rent",
+    "빌려요. 책 빌려도 돼요? To lend: 빌려주다."
+   ],
+   [
+    "고르다",
+    "goreuda",
+    "to choose; to pick",
+    "골라요. 르 irregular."
+   ],
+   [
+    "낫다",
+    "natda",
+    "to get better (recover)",
+    "나아요. ㅅ irregular. 빨리 나으세요 = get well soon."
+   ],
+   [
+    "기억하다",
+    "gieokada",
+    "to remember",
+    "기억해요. 저 기억하세요? = do you remember me?"
+   ],
+   [
+    "닫다",
+    "datda",
+    "to close",
+    "닫아요. Regular, unlike 듣다 / 걷다."
+   ],
+   [
+    "출발하다",
+    "chulbalhada",
+    "to leave; to depart",
+    "출발해요. 지금 출발해요."
+   ],
+   [
+    "켜다",
+    "kyeoda",
+    "to turn on",
+    "켜요. 불 좀 켜 주세요 = turn the light on."
+   ],
+   [
+    "끄다",
+    "kkeuda",
+    "to turn off",
+    "꺼요 (ㅡ drops). 핸드폰 꺼 주세요."
+   ],
+   [
+    "좋아지다",
+    "joajida",
+    "to get better; to improve",
+    "좋아져요. 날씨가 좋아졌어요."
+   ]
+  ],
+  "Top adjectives": [
+   [
+    "같다",
+    "gatda",
+    "to be the same; to be like",
+    "같아요 · before a noun: 같은. 같은 반 = the same class."
+   ],
+   [
+    "그렇다",
+    "geureota",
+    "to be so; to be like that",
+    "그래요 · 그런 (ㅎ irregular). 그래요? = really?"
+   ],
+   [
+    "어떻다",
+    "eotteota",
+    "to be how (what is it like?)",
+    "어때요? · 어떤 (ㅎ irregular). 날씨 어때요?"
+   ],
+   [
+    "이렇다",
+    "ireota",
+    "to be like this",
+    "이래요 · 이런 (ㅎ irregular). 왜 이래요? = what's wrong with you?"
+   ],
+   [
+    "다르다",
+    "dareuda",
+    "to be different",
+    "달라요 · 다른 (르 irregular)."
+   ],
+   [
+    "새롭다",
+    "saeropda",
+    "to be new; to be fresh (feel new)",
+    "새로워요 · 새로운 (ㅂ irregular). For things: 새 (new)."
+   ],
+   [
+    "중요하다",
+    "jungyohada",
+    "to be important",
+    "중요해요 · 중요한."
+   ],
+   [
+    "어렵다",
+    "eoryeopda",
+    "to be difficult",
+    "어려워요 · 어려운 (ㅂ irregular). 한국어 어려워요?"
+   ],
+   [
+    "쉽다",
+    "swipda",
+    "to be easy",
+    "쉬워요 · 쉬운 (ㅂ irregular)."
+   ],
+   [
+    "필요하다",
+    "piryohada",
+    "to be needed; to need",
+    "필요해요 · 필요한. 뭐가 필요해요? = what do you need?"
+   ],
+   [
+    "높다",
+    "nopda",
+    "to be high; to be tall (buildings)",
+    "높아요 · 높은. People are 키가 커요, not 높아요."
+   ],
+   [
+    "길다",
+    "gilda",
+    "to be long",
+    "길어요 · 긴 (ㄹ drops)."
+   ],
+   [
+    "젊다",
+    "jeomda",
+    "to be young",
+    "젊어요 · 젊은. Said [점따]."
+   ],
+   [
+    "아프다",
+    "apeuda",
+    "to be sick; to hurt",
+    "아파요 · 아픈 (ㅡ drops). 어디 아파요?"
+   ],
+   [
+    "적다",
+    "jeokda",
+    "to be few; to be little",
+    "적어요 · 적은. Opposite of 많다."
+   ],
+   [
+    "빠르다",
+    "ppareuda",
+    "to be fast",
+    "빨라요 · 빠른 (르 irregular)."
+   ],
+   [
+    "넓다",
+    "neolda",
+    "to be wide; to be spacious",
+    "넓어요 · 넓은. Said [널따]."
+   ],
+   [
+    "이상하다",
+    "isanghada",
+    "to be strange; to be weird",
+    "이상해요 · 이상한."
+   ],
+   [
+    "비슷하다",
+    "biseutada",
+    "to be similar",
+    "비슷해요 · 비슷한."
+   ],
+   [
+    "짧다",
+    "jjalda",
+    "to be short (length, time)",
+    "짧아요 · 짧은. Short people: 키가 작아요."
+   ],
+   [
+    "고맙다",
+    "gomapda",
+    "to be thankful",
+    "고마워요 · 고마운 (ㅂ irregular). Warmer, less formal than 감사합니다."
+   ],
+   [
+    "따뜻하다",
+    "ttatteutada",
+    "to be warm",
+    "따뜻해요 · 따뜻한. Also for people: a warm person."
+   ],
+   [
+    "낮다",
+    "natda",
+    "to be low",
+    "낮아요 · 낮은."
+   ],
+   [
+    "즐겁다",
+    "jeulgeopda",
+    "to be fun; to be enjoyable",
+    "즐거워요 · 즐거운 (ㅂ irregular). 즐거운 주말 보내세요."
+   ],
+   [
+    "무섭다",
+    "museopda",
+    "to be scary; to be scared",
+    "무서워요 · 무서운 (ㅂ irregular)."
+   ],
+   [
+    "가볍다",
+    "gabyeopda",
+    "to be light (weight)",
+    "가벼워요 · 가벼운 (ㅂ irregular)."
+   ],
+   [
+    "건강하다",
+    "geonganghada",
+    "to be healthy",
+    "건강해요 · 건강한."
+   ],
+   [
+    "밝다",
+    "bakda",
+    "to be bright",
+    "밝아요 · 밝은. Said [박따]. Also: cheerful (a person)."
+   ],
+   [
+    "편하다",
+    "pyeonhada",
+    "to be comfortable; to be convenient",
+    "편해요 · 편한."
+   ],
+   [
+    "깨끗하다",
+    "kkaekkeutada",
+    "to be clean",
+    "깨끗해요 · 깨끗한."
+   ],
+   [
+    "어둡다",
+    "eodupda",
+    "to be dark",
+    "어두워요 · 어두운 (ㅂ irregular)."
+   ],
+   [
+    "미안하다",
+    "mianhada",
+    "to be sorry",
+    "미안해요 · 미안한. Formal apology: 죄송합니다."
+   ],
+   [
+    "유명하다",
+    "yumyeonghada",
+    "to be famous",
+    "유명해요 · 유명한."
+   ],
+   [
+    "기쁘다",
+    "gippeuda",
+    "to be glad; to be joyful",
+    "기뻐요 · 기쁜 (ㅡ drops)."
+   ],
+   [
+    "무겁다",
+    "mugeopda",
+    "to be heavy",
+    "무거워요 · 무거운 (ㅂ irregular)."
+   ],
+   [
+    "특별하다",
+    "teukbyeolhada",
+    "to be special",
+    "특별해요 · 특별한."
+   ],
+   [
+    "뜨겁다",
+    "tteugeopda",
+    "to be hot (to the touch)",
+    "뜨거워요 · 뜨거운 (ㅂ irregular). Hot weather is 덥다."
+   ],
+   [
+    "친절하다",
+    "chinjeolhada",
+    "to be kind (helpful)",
+    "친절해요 · 친절한. For staff, strangers."
+   ],
+   [
+    "좁다",
+    "jopda",
+    "to be narrow; to be cramped",
+    "좁아요 · 좁은."
+   ],
+   [
+    "불편하다",
+    "bulpyeonhada",
+    "to be uncomfortable; to be inconvenient",
+    "불편해요 · 불편한."
+   ],
+   [
+    "시원하다",
+    "siwonhada",
+    "to be cool; to be refreshing",
+    "시원해요 · 시원한. Also said of hot soup: \"ah, that hits the spot\"."
+   ],
+   [
+    "반갑다",
+    "bangapda",
+    "to be glad (to see someone)",
+    "반가워요 · 반가운 (ㅂ irregular)."
+   ],
+   [
+    "차갑다",
+    "chagapda",
+    "to be cold (to the touch)",
+    "차가워요 · 차가운 (ㅂ irregular). Cold weather is 춥다."
+   ],
+   [
+    "맵다",
+    "maepda",
+    "to be spicy",
+    "매워요 · 매운 (ㅂ irregular)."
+   ],
+   [
+    "달다",
+    "dalda",
+    "to be sweet (taste)",
+    "달아요 · 단 (ㄹ drops)."
+   ],
+   [
+    "느리다",
+    "neurida",
+    "to be slow",
+    "느려요 · 느린."
+   ],
+   [
+    "더럽다",
+    "deoreopda",
+    "to be dirty",
+    "더러워요 · 더러운 (ㅂ irregular)."
+   ],
+   [
+    "시끄럽다",
+    "sikkeureopda",
+    "to be noisy",
+    "시끄러워요 · 시끄러운 (ㅂ irregular)."
+   ],
+   [
+    "하얗다",
+    "hayata",
+    "to be white",
+    "하얘요 · 하얀 (ㅎ irregular)."
+   ],
+   [
+    "짜다",
+    "jjada",
+    "to be salty",
+    "짜요 · 짠."
+   ],
+   [
+    "조용하다",
+    "joyonghada",
+    "to be quiet",
+    "조용해요 · 조용한."
+   ],
+   [
+    "부럽다",
+    "bureopda",
+    "to be envious (of)",
+    "부러워요 · 부러운 (ㅂ irregular). 부러워요! = lucky you!"
+   ],
+   [
+    "빨갛다",
+    "ppalgata",
+    "to be red",
+    "빨개요 · 빨간 (ㅎ irregular)."
+   ],
+   [
+    "배부르다",
+    "baebureuda",
+    "to be full (after eating)",
+    "배불러요 · 배부른 (르 irregular)."
+   ],
+   [
+    "재미없다",
+    "jaemieopda",
+    "to be boring; not fun",
+    "재미없어요 · 재미없는 (있다/없다 take -는)."
+   ],
+   [
+    "노랗다",
+    "norata",
+    "to be yellow",
+    "노래요 · 노란 (ㅎ irregular). 노래요 also = it's a song."
+   ],
+   [
+    "맛없다",
+    "madeopda",
+    "to taste bad",
+    "맛없어요 · 맛없는. Said [마덥따]."
+   ],
+   [
+    "까맣다",
+    "kkamata",
+    "to be black",
+    "까매요 · 까만 (ㅎ irregular)."
+   ],
+   [
+    "외롭다",
+    "oeropda",
+    "to be lonely",
+    "외로워요 · 외로운 (ㅂ irregular)."
+   ],
+   [
+    "파랗다",
+    "parata",
+    "to be blue",
+    "파래요 · 파란 (ㅎ irregular)."
+   ],
+   [
+    "귀찮다",
+    "gwichanta",
+    "to be a hassle; can't be bothered",
+    "귀찮아요 · 귀찮은. Very common in speech."
+   ]
+  ],
+  "Top adverbs": [
+   [
+    "안",
+    "an",
+    "not (short negation)",
+    "Right before the verb: 안 가요. With 하다 verbs: 공부 안 해요."
+   ],
+   [
+    "더",
+    "deo",
+    "more",
+    "더 주세요 = more, please; 조금 더 = a bit more."
+   ],
+   [
+    "잘",
+    "jal",
+    "well",
+    "잘 자요 = sleep well; 잘 몰라요 = I don't really know."
+   ],
+   [
+    "또",
+    "tto",
+    "again; also",
+    "또 봐요 = see you again; 또 늦었어요? = late again?"
+   ],
+   [
+    "어떻게",
+    "eotteoke",
+    "how",
+    "어떻게 가요? = how do I get there? 어떡해 = oh no (from 어떻게 해)."
+   ],
+   [
+    "다시",
+    "dasi",
+    "again",
+    "다시 한번 = once more."
+   ],
+   [
+    "다",
+    "da",
+    "all; everything",
+    "다 먹었어요 = I ate it all; 다 왔어요 = we're almost there."
+   ],
+   [
+    "좀",
+    "jom",
+    "a little; please (softener)",
+    "좀 도와주세요 sounds softer than 도와주세요. Short for 조금."
+   ],
+   [
+    "함께",
+    "hamkke",
+    "together (a bit formal)",
+    "Everyday: 같이. 함께해요 = let's do it together."
+   ],
+   [
+    "많이",
+    "mani",
+    "a lot; much",
+    "많이 드세요 = eat plenty (said by a host)."
+   ],
+   [
+    "가장",
+    "gajang",
+    "most (the …-est)",
+    "가장 좋아하는 = my favorite. Spoken more: 제일."
+   ],
+   [
+    "바로",
+    "baro",
+    "right (away); exactly",
+    "바로 앞 = right in front; 바로 갈게요 = I'll come right away."
+   ],
+   [
+    "모두",
+    "modu",
+    "all; everyone",
+    "모두 같이 = all together."
+   ],
+   [
+    "왜",
+    "wae",
+    "why",
+    "왜요? = why? Sounds blunt alone; add 혹시 to soften."
+   ],
+   [
+    "특히",
+    "teuki",
+    "especially",
+    "특히 김치를 좋아해요."
+   ],
+   [
+    "아직",
+    "ajik",
+    "yet; still",
+    "아직 안 먹었어요 = I haven't eaten yet."
+   ],
+   [
+    "같이",
+    "gachi",
+    "together",
+    "같이 가요 = let's go together. After a noun it is a particle: 꽃같이 = like a flower."
+   ],
+   [
+    "못",
+    "mot",
+    "can't",
+    "Right before the verb: 못 가요 = I can't go. 수영 못 해요."
+   ],
+   [
+    "너무",
+    "neomu",
+    "too; so (very)",
+    "너무 비싸요 = too expensive; 너무 좋아요 = I love it."
+   ],
+   [
+    "이미",
+    "imi",
+    "already (done earlier)",
+    "이미 끝났어요 = it's already over."
+   ],
+   [
+    "아주",
+    "aju",
+    "very",
+    "Neutral. Spoken more: 정말, 진짜, 너무."
+   ],
+   [
+    "그냥",
+    "geunyang",
+    "just; for no reason",
+    "그냥요 = no reason; 그냥 그래요 = so-so."
+   ],
+   [
+    "거의",
+    "geoui",
+    "almost; hardly",
+    "거의 다 왔어요 = almost there; 거의 안 먹어요 = I hardly eat."
+   ],
+   [
+    "곧",
+    "got",
+    "soon",
+    "곧 도착해요 = arriving soon."
+   ],
+   [
+    "서로",
+    "seoro",
+    "each other",
+    "서로 도와요 = we help each other."
+   ],
+   [
+    "정말",
+    "jeongmal",
+    "really; truly",
+    "정말 맛있어요. 정말요? = really?"
+   ],
+   [
+    "혼자",
+    "honja",
+    "alone; by yourself",
+    "혼자 왔어요 = I came alone."
+   ],
+   [
+    "이제",
+    "ije",
+    "now (from now on); finally",
+    "이제 가요 = I'm going now; 이제 알겠어요 = now I get it."
+   ],
+   [
+    "꼭",
+    "kkok",
+    "surely; be sure to",
+    "꼭 오세요 = be sure to come."
+   ],
+   [
+    "요즘",
+    "yojeum",
+    "these days; lately",
+    "요즘 바빠요?"
+   ],
+   [
+    "계속",
+    "gyesok",
+    "continuously; keep (…ing)",
+    "계속 생각나요 = I keep thinking about it."
+   ],
+   [
+    "갑자기",
+    "gapjagi",
+    "suddenly",
+    "갑자기 비가 와요."
+   ],
+   [
+    "전혀",
+    "jeonhyeo",
+    "not at all",
+    "With a negative: 전혀 몰라요."
+   ],
+   [
+    "빨리",
+    "ppalli",
+    "quickly; fast",
+    "빨리 와요 = come quickly."
+   ],
+   [
+    "훨씬",
+    "hwolssin",
+    "much (more)",
+    "With comparisons: 훨씬 더 좋아요."
+   ],
+   [
+    "열심히",
+    "yeolsimhi",
+    "hard; diligently",
+    "열심히 공부해요."
+   ],
+   [
+    "자주",
+    "jaju",
+    "often",
+    "자주 와요? = do you come here often?"
+   ],
+   [
+    "벌써",
+    "beolsseo",
+    "already (sooner than expected)",
+    "벌써 열 시예요? = it's ten already?"
+   ],
+   [
+    "제일",
+    "jeil",
+    "the most; number one",
+    "제일 좋아요 = it's the best."
+   ],
+   [
+    "아마",
+    "ama",
+    "probably; maybe",
+    "Often with -(으)ㄹ 거예요: 아마 비가 올 거예요."
+   ],
+   [
+    "조금",
+    "jogeum",
+    "a little; a bit",
+    "Spoken short form: 좀."
+   ],
+   [
+    "항상",
+    "hangsang",
+    "always",
+    "Spoken also: 늘, 언제나."
+   ],
+   [
+    "나중에",
+    "najunge",
+    "later",
+    "나중에 연락할게요."
+   ],
+   [
+    "별로",
+    "byeollo",
+    "not really; not particularly",
+    "With a negative: 별로 안 좋아해요. 별로예요 = it's meh."
+   ],
+   [
+    "가끔",
+    "gakkeum",
+    "sometimes",
+    "가끔 만나요."
+   ],
+   [
+    "일찍",
+    "iljjik",
+    "early",
+    "일찍 일어나요."
+   ],
+   [
+    "원래",
+    "wollae",
+    "originally; normally (it's always like that)",
+    "원래 그래요 = it's always like that."
+   ],
+   [
+    "늦게",
+    "neutge",
+    "late",
+    "늦게 자요 = I go to bed late."
+   ],
+   [
+    "보통",
+    "botong",
+    "usually",
+    "보통 몇 시에 자요? Also a noun: regular size."
+   ],
+   [
+    "혹시",
+    "hoksi",
+    "by any chance",
+    "Softens a question: 혹시 한국 사람이에요?"
+   ],
+   [
+    "되게",
+    "doege",
+    "really; so (spoken)",
+    "Casual: 되게 맛있어. Not in writing."
+   ],
+   [
+    "금방",
+    "geumbang",
+    "in a moment; right away",
+    "금방 갈게요 = I'll be right there."
+   ],
+   [
+    "진짜로",
+    "jinjjaro",
+    "for real; seriously",
+    "Stronger, more casual than 정말."
+   ],
+   [
+    "천천히",
+    "cheoncheonhi",
+    "slowly",
+    "천천히 드세요 = take your time eating."
+   ],
+   [
+    "방금",
+    "banggeum",
+    "just now",
+    "방금 왔어요 = I just got here."
+   ]
+  ],
+  "Top pronouns": [
+   [
+    "나",
+    "na",
+    "I; me (casual)",
+    "To friends and younger people. With 가: 내가. My: 내."
+   ],
+   [
+    "우리",
+    "uri",
+    "we; us; our",
+    "Also \"my\" for family and home: 우리 엄마, 우리 집."
+   ],
+   [
+    "그",
+    "geu",
+    "he (in writing)",
+    "Speech uses the person's name or 그 사람, 걔. 그 also = that (before a noun)."
+   ],
+   [
+    "씨",
+    "ssi",
+    "Mr. / Ms. (after a full or given name)",
+    "Names replace \"you\": 민수 씨, 어디 가요? Never after your own name or a surname alone."
+   ],
+   [
+    "그것",
+    "geugeot",
+    "that (thing, near you or mentioned)",
+    "Spoken: 그거. With 이: 그게."
+   ],
+   [
+    "저",
+    "jeo",
+    "I; me (polite, humble)",
+    "The default with strangers. With 가: 제가. My: 제."
+   ],
+   [
+    "그녀",
+    "geunyeo",
+    "she (in writing)",
+    "Almost never spoken. Use the name, 그 사람 or 걔."
+   ],
+   [
+    "제",
+    "je",
+    "my (polite)",
+    "저 + 의. 제 이름은 … = my name is …"
+   ],
+   [
+    "자신",
+    "jasin",
+    "oneself; self",
+    "자신 있어요 = I'm confident. 자신을 사랑하세요."
+   ],
+   [
+    "너",
+    "neo",
+    "you (casual, to a friend or a child)",
+    "Only to close friends or younger people. With 가: 네가 (said 니가)."
+   ],
+   [
+    "뭐",
+    "mwo",
+    "what (spoken)",
+    "뭐 해요? = what are you doing? Formal: 무엇."
+   ],
+   [
+    "누구",
+    "nugu",
+    "who",
+    "누구예요? With 가: 누가 왔어요? = who came?"
+   ],
+   [
+    "자기",
+    "jagi",
+    "oneself; honey (between couples)",
+    "자기 일 = one's own business. 자기야 = honey."
+   ],
+   [
+    "무엇",
+    "mueot",
+    "what (written, formal)",
+    "무엇을 도와드릴까요? = how may I help you?"
+   ],
+   [
+    "그거",
+    "geugeo",
+    "that one (spoken)",
+    "그거 좋네요 = that's a good one / good idea."
+   ],
+   [
+    "어디",
+    "eodi",
+    "where; what place",
+    "어디 가요? (often just a greeting: where are you off to?)"
+   ],
+   [
+    "이것",
+    "igeot",
+    "this (thing)",
+    "Spoken: 이거. With 이: 이게."
+   ],
+   [
+    "당신",
+    "dangsin",
+    "you (spouses, songs, ads)",
+    "Rarely used face to face: it can sound cold or start a fight. Use the person's name or title instead."
+   ],
+   [
+    "거기",
+    "geogi",
+    "there (near you, or the place we mentioned)",
+    "거기 어디예요? = where is that place? Pairs with 여기 / 저기."
+   ],
+   [
+    "이거",
+    "igeo",
+    "this one (spoken)",
+    "이거 얼마예요? Point and say 이거 주세요."
+   ],
+   [
+    "내",
+    "nae",
+    "my (casual)",
+    "나 + 의. 내 친구 = my friend."
+   ],
+   [
+    "아무",
+    "amu",
+    "any; anyone (+ particle)",
+    "아무나 = anyone at all; 아무 때나 = any time."
+   ],
+   [
+    "아무도",
+    "amudo",
+    "nobody (with a negative)",
+    "아무도 없어요 = there's nobody here."
+   ],
+   [
+    "저거",
+    "jeogeo",
+    "that one over there (spoken)",
+    "저거 뭐예요?"
+   ],
+   [
+    "아무것도",
+    "amugeotdo",
+    "nothing (with a negative)",
+    "아무것도 몰라요 = I don't know anything."
+   ],
+   [
+    "뭔가",
+    "mwonga",
+    "something",
+    "뭔가 이상해요 = something's off."
+   ],
+   [
+    "저희",
+    "jeohui",
+    "we; us (humble)",
+    "To customers, elders, at work. It lowers your side, so it never includes the listener."
+   ],
+   [
+    "여러분",
+    "yeoreobun",
+    "everyone (you all)",
+    "Addressing a group: 여러분, 안녕하세요!"
+   ],
+   [
+    "누군가",
+    "nugunga",
+    "someone",
+    "누군가 왔어요 = someone came. Spoken: 누가."
+   ],
+   [
+    "저것",
+    "jeogeot",
+    "that (thing, over there)",
+    "Spoken: 저거. With 이: 저게."
+   ],
+   [
+    "이분",
+    "ibun",
+    "this person (honorific)",
+    "Introducing someone: 이분은 김 선생님이세요."
+   ],
+   [
+    "얘",
+    "yae",
+    "this kid; this person (casual)",
+    "From 이 아이. About a friend standing next to you: 얘는 제 친구예요."
+   ],
+   [
+    "이쪽",
+    "ijjok",
+    "this way; this person (introducing)",
+    "이쪽으로 오세요 = come this way. 이쪽은 제 동생이에요."
+   ],
+   [
+    "걔",
+    "gyae",
+    "that kid; he / she (casual)",
+    "From 그 아이. Common way to say \"he/she\" among friends."
+   ],
+   [
+    "그쪽",
+    "geujjok",
+    "you (to a stranger, lit. that side)",
+    "A way around saying 너 or 당신 to someone whose name you don't know. Can sound distant or a little cheeky."
+   ],
+   [
+    "저쪽",
+    "jeojjok",
+    "over that way",
+    "저쪽에 있어요 = it's over there."
+   ],
+   [
+    "저분",
+    "jeobun",
+    "that person over there (honorific)",
+    "저분이 누구세요?"
+   ],
+   [
+    "쟤",
+    "jyae",
+    "that kid over there (casual)",
+    "From 저 아이. Don't use it about elders."
+   ],
+   [
+    "어딘가",
+    "eodinga",
+    "somewhere",
+    "어딘가에 있을 거예요 = it must be somewhere."
+   ],
+   [
+    "그분",
+    "geubun",
+    "that person; he / she (honorific)",
+    "For someone respected: 그분이 오셨어요."
+   ]
+  ],
+  "Top particles": [
+   [
+    "(으)로",
+    "(eu)ro",
+    "by (means); toward; as",
+    "After a vowel or ㄹ: 로 (버스로, 지하철로); after a consonant: 으로 (손으로)."
+   ],
+   [
+    "까지",
+    "kkaji",
+    "until; to (an end point); even",
+    "Same after vowels and consonants: 세 시까지, 서울까지."
+   ],
+   [
+    "부터",
+    "buteo",
+    "from (a starting time or point)",
+    "아홉 시부터 = from nine. Pairs with 까지."
+   ],
+   [
+    "요",
+    "yo",
+    "polite marker (after any word)",
+    "Makes a bare word polite: 저도요, 커피요, 왜요?"
+   ],
+   [
+    "한테",
+    "hante",
+    "to (a person, spoken)",
+    "친구한테 줘요. Only for people and animals; places take 에."
+   ],
+   [
+    "보다",
+    "boda",
+    "than",
+    "Goes after the thing you compare against: 버스보다 빨라요 = faster than the bus."
+   ],
+   [
+    "들",
+    "deul",
+    "plural marker (-s)",
+    "친구들 = friends. Often left out: Korean doesn't need a plural."
+   ],
+   [
+    "이랑 / 랑",
+    "irang / rang",
+    "and; with (casual)",
+    "Vowel: 랑 (친구랑); consonant: 이랑 (동생이랑). Spoken version of 하고."
+   ],
+   [
+    "이나 / 나",
+    "ina / na",
+    "or; as many as",
+    "Vowel: 나 (커피나 차); consonant: 이나 (빵이나 밥). 두 시간이나 = a whole two hours."
+   ],
+   [
+    "에게",
+    "ege",
+    "to (a person, written or careful)",
+    "Same as 한테, a bit more formal: 선생님에게."
+   ],
+   [
+    "처럼",
+    "cheoreom",
+    "like; as (similar to)",
+    "한국 사람처럼 말해요 = you talk like a Korean."
+   ],
+   [
+    "밖에",
+    "bakke",
+    "only; nothing but (with a negative)",
+    "천 원밖에 없어요 = I only have 1,000 won. The verb must be negative."
+   ],
+   [
+    "쯤",
+    "jjeum",
+    "about; around (a time or amount)",
+    "세 시쯤 = around three; 얼마쯤 = about how much."
+   ],
+   [
+    "마다",
+    "mada",
+    "every; each",
+    "날마다 = every day; 주말마다 = every weekend."
+   ],
+   [
+    "아 / 야",
+    "a / ya",
+    "hey (after a name, casual)",
+    "Consonant: 아 (민정아); vowel: 야 (지수야). Only to friends and younger people."
+   ],
+   [
+    "께서",
+    "kkeseo",
+    "subject marker (honorific)",
+    "Replaces 이/가 for elders: 할아버지께서 오셨어요."
+   ],
+   [
+    "께",
+    "kke",
+    "to (an honored person)",
+    "Honorific 에게: 할머니께 드려요."
+   ],
+   [
+    "한테서",
+    "hanteseo",
+    "from (a person, spoken)",
+    "친구한테서 받았어요. Often shortened to 한테."
+   ],
+   [
+    "씩",
+    "ssik",
+    "each; at a time",
+    "하나씩 = one each; 조금씩 = little by little."
+   ],
+   [
+    "(이)라도",
+    "(i)rado",
+    "at least; or something",
+    "커피라도 마실래요? = want to at least grab a coffee?"
+   ],
+   [
+    "(이)라고",
+    "(i)rago",
+    "called; saying (quotes a word)",
+    "민수라고 해요 = I'm called Minsu."
+   ],
+   [
+    "대로",
+    "daero",
+    "as; in accordance with",
+    "마음대로 = as you like; 말한 대로 = as I said."
+   ],
+   [
+    "에서부터",
+    "eseobuteo",
+    "(starting) from (a place)",
+    "집에서부터 걸어왔어요 = I walked all the way from home."
+   ]
+  ],
+  "Top connectors": [
+   [
+    "먹고",
+    "meokgo",
+    "eat and (then) (-고)",
+    "-고 joins two actions or facts. Same after vowels and consonants: 가고, 먹고."
+   ],
+   [
+    "가서",
+    "gaseo",
+    "go and (then) (-아서/어서)",
+    "-아서/어서: one action leads to the next. 가서 먹어요 = I'll go there and eat."
+   ],
+   [
+    "피곤해서",
+    "pigonhaeseo",
+    "because I'm tired (-아서/어서)",
+    "-아서/어서 = because. Never with -(으)세요 or -(으)ㄹ까요."
+   ],
+   [
+    "가면",
+    "gamyeon",
+    "if (I) go (-(으)면)",
+    "Vowel stem: -면 (가면); consonant: -으면 (먹으면)."
+   ],
+   [
+    "바쁜데",
+    "bappeunde",
+    "I'm busy, but / so (-(으)ㄴ데 / -는데)",
+    "Sets the scene: 바쁜데 나중에 얘기해요. Verbs: 가는데; adjectives: 바쁜데."
+   ],
+   [
+    "비싸지만",
+    "bissajiman",
+    "it's expensive, but (-지만)",
+    "-지만 = but. Same after any stem: 좋지만, 비싸지만."
+   ],
+   [
+    "갈 때",
+    "gal ttae",
+    "when (I) go (-(으)ㄹ 때)",
+    "Vowel: 갈 때; consonant: 먹을 때. 어릴 때 = when I was little."
+   ],
+   [
+    "비가 오니까",
+    "biga onikka",
+    "since it's raining (-(으)니까)",
+    "-(으)니까 = because, and works with requests: 비가 오니까 우산 가져가세요."
+   ],
+   [
+    "비싸도",
+    "bissado",
+    "even if it's expensive (-아도/어도)",
+    "비싸도 사고 싶어요."
+   ],
+   [
+    "가려고",
+    "garyeogo",
+    "intending to go (-(으)려고)",
+    "한국에 가려고 한국어를 배워요."
+   ],
+   [
+    "걸으면서",
+    "georeumyeonseo",
+    "while walking (-(으)면서)",
+    "Two things at once, same person: 음악 들으면서 걸어요."
+   ],
+   [
+    "먹으러",
+    "meogeureo",
+    "(go) in order to eat (-(으)러)",
+    "Only with go / come: 먹으러 가요, 놀러 와요."
+   ],
+   [
+    "가다가",
+    "gadaga",
+    "while going, then (-다가)",
+    "One action is interrupted: 집에 가다가 친구를 만났어요."
+   ],
+   [
+    "자거나",
+    "jageona",
+    "sleep or (-거나)",
+    "-거나 = or, between actions: 주말에 자거나 영화 봐요."
+   ],
+   [
+    "먹은 후에",
+    "meogeun hue",
+    "after eating (-(으)ㄴ 후에)",
+    "Vowel: 간 후에; consonant: 먹은 후에. Also -고 나서."
+   ],
+   [
+    "자기 전에",
+    "jagi jeone",
+    "before sleeping (-기 전에)",
+    "Verb + 기 전에: 먹기 전에 = before eating."
+   ],
+   [
+    "도착하자마자",
+    "dochakajamaja",
+    "as soon as (I) arrive (-자마자)",
+    "집에 도착하자마자 잤어요."
+   ],
+   [
+    "그러나",
+    "geureona",
+    "however (written)",
+    "Books and news. In speech: 그런데, 하지만."
+   ],
+   [
+    "즉",
+    "jeuk",
+    "that is; namely",
+    "Written, formal."
+   ],
+   [
+    "근데",
+    "geunde",
+    "but; by the way (spoken)",
+    "The spoken short form of 그런데. Starts a new topic too: 근데 밥 먹었어?"
+   ],
+   [
+    "따라서",
+    "ttaraseo",
+    "therefore (written)",
+    "Formal 그래서."
+   ],
+   [
+    "또는",
+    "ttoneun",
+    "or (between nouns, formal)",
+    "카드 또는 현금 = card or cash. Speech: 아니면, (이)나."
+   ],
+   [
+    "그러니까",
+    "geureonikka",
+    "so; that's why; I mean",
+    "Also \"exactly!\": 그러니까요! Spoken short: 그니까."
+   ],
+   [
+    "그렇지만",
+    "geureochiman",
+    "but; nevertheless",
+    "Between 그런데 and 하지만 in tone."
+   ],
+   [
+    "그렇다면",
+    "geureotamyeon",
+    "if so; in that case",
+    "A bit more formal than 그럼."
+   ],
+   [
+    "그러다가",
+    "geureodaga",
+    "and then (while doing that)",
+    "텔레비전을 봤어요. 그러다가 잠들었어요."
+   ],
+   [
+    "게다가",
+    "gedaga",
+    "besides; on top of that",
+    "비싸요. 게다가 맛도 없어요."
+   ]
+  ],
+  "Top interjections": [
+   [
+    "아",
+    "a",
+    "ah; oh (I see)",
+    "The all-purpose reaction: 아, 그래요? Also a sigh."
+   ],
+   [
+    "어",
+    "eo",
+    "uh; huh?",
+    "Surprise or a casual \"yeah\": 어, 왔어? Casual."
+   ],
+   [
+    "와",
+    "wa",
+    "wow",
+    "Neutral, anyone can say it. Longer = more impressed: 와아."
+   ],
+   [
+    "오",
+    "o",
+    "oh!; ooh",
+    "Pleasantly surprised: 오, 멋있다! Also spelled like 오 (five)."
+   ],
+   [
+    "응",
+    "eung",
+    "yeah; uh-huh (casual)",
+    "Casual \"yes\" to friends. To elders: 네."
+   ],
+   [
+    "자",
+    "ja",
+    "right, then; here you go",
+    "Getting started or handing something over: 자, 시작할까요?"
+   ],
+   [
+    "음",
+    "eum",
+    "hmm",
+    "Thinking before you answer. Fine in any register."
+   ],
+   [
+    "우와",
+    "uwa",
+    "whoa; wooow",
+    "Bigger, more childlike than 와."
+   ],
+   [
+    "여보세요",
+    "yeoboseyo",
+    "hello? (on the phone)",
+    "Only on the phone, or to check if someone hears you. Not a greeting in person."
+   ],
+   [
+    "글쎄",
+    "geulsse",
+    "well…; I'm not sure",
+    "Polite: 글쎄요. Buys time or softens a \"no\"."
+   ],
+   [
+    "에이",
+    "ei",
+    "aw, come on; no way",
+    "Light disbelief or teasing: 에이, 거짓말! Casual."
+   ],
+   [
+    "세상에",
+    "sesange",
+    "oh my god (lit. in the world)",
+    "Amazement or shock. Common with older speakers: 세상에, 이게 뭐야!"
+   ],
+   [
+    "휴",
+    "hyu",
+    "phew",
+    "Relief. Also a sigh."
+   ],
+   [
+    "아야",
+    "aya",
+    "ouch",
+    "Sudden pain. Shorter: 아! Children say 아야야."
+   ],
+   [
+    "에휴",
+    "ehyu",
+    "sigh; oh well",
+    "Tired resignation. Can sound grumpy; be careful with elders."
+   ],
+   [
+    "어머",
+    "eomeo",
+    "oh my!; goodness!",
+    "Mostly women and older speakers. 어머나 is stronger."
+   ],
+   [
+    "헉",
+    "heok",
+    "gasp!; yikes",
+    "Shock, also typed in chats. Casual."
+   ],
+   [
+    "앗",
+    "at",
+    "oops!; oh!",
+    "Sudden small surprise or mistake. Casual."
+   ],
+   [
+    "아차",
+    "acha",
+    "oh no, I forgot!",
+    "When you remember a mistake: 아차, 지갑! Casual."
+   ],
+   [
+    "깜짝이야",
+    "kkamjjagiya",
+    "you scared me!",
+    "When startled. Casual; polite: 깜짝 놀랐어요."
+   ],
+   [
+    "아이참",
+    "aicham",
+    "oh, come on (embarrassed, coy)",
+    "Shy or mildly annoyed, often playful. Usually women."
+   ],
+   [
+    "아싸",
+    "assa",
+    "yes!; yay!",
+    "Small personal victory. Also written 앗싸. Casual, a bit playful."
+   ],
+   [
+    "쉿",
+    "swit",
+    "shh",
+    "Asking for quiet. Anyone can say it."
+   ],
+   [
+    "으악",
+    "euak",
+    "aaah!",
+    "A scream: a bug, a fright, a disaster. Casual."
+   ],
+   [
+    "짜잔",
+    "jjajan",
+    "ta-da!",
+    "Showing off a surprise or a gift. Playful."
+   ],
+   [
+    "웩",
+    "wek",
+    "yuck; ew",
+    "Disgust, especially at food. Casual; rude to say about someone's cooking."
+   ]
+  ],
+  "Top words": [
+   [
+    "이 / 그 / 저",
+    "i / geu / jeo",
+    "this / that / that (over there) (before a noun)",
+    "이 사람, 그 책, 저 건물. 그 = near you or already mentioned; 저 = far from both."
+   ],
+   [
+    "한, 두, 세, 네",
+    "han du se ne",
+    "one, two, three, four (before a counter)",
+    "하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명."
+   ],
+   [
+    "이런 / 그런 / 저런",
+    "ireon / geureon / jeoreon",
+    "this kind of / that kind of / that kind of (over there)",
+    "이런 날 = a day like this. 그런 거 아니에요 = it's not like that."
+   ],
+   [
+    "어떤",
+    "eotteon",
+    "what kind of; some (before a noun)",
+    "어떤 음식 좋아해요? From 어떻다."
+   ],
+   [
+    "다른",
+    "dareun",
+    "other; another; different",
+    "다른 거 있어요? = do you have another one?"
+   ],
+   [
+    "여러",
+    "yeoreo",
+    "various; several",
+    "여러 번 = many times; 여러 가지 = all sorts."
+   ],
+   [
+    "어느",
+    "eoneu",
+    "which (before a noun)",
+    "어느 나라 = which country; 어느 쪽 = which way."
+   ],
+   [
+    "모든",
+    "modeun",
+    "every; all (before a noun)",
+    "모든 사람 = everyone."
+   ],
+   [
+    "이번",
+    "ibeon",
+    "this (time); this coming",
+    "이번 주말 = this weekend; 이번이 처음이에요."
+   ],
+   [
+    "몇",
+    "myeot",
+    "how many; a few",
+    "몇 개? = how many? 몇 명 = a few people."
+   ],
+   [
+    "무슨",
+    "museun",
+    "what (kind of) (before a noun)",
+    "무슨 일 있어요? = is something wrong?"
+   ],
+   [
+    "지난",
+    "jinan",
+    "last; past (before a noun)",
+    "지난 주말 = last weekend; 지난달 = last month."
+   ],
+   [
+    "새",
+    "sae",
+    "new (before a noun)",
+    "새 옷 = new clothes; 새해 = New Year."
+   ],
+   [
+    "맞아요",
+    "majayo",
+    "that's right",
+    "Agreeing: 네, 맞아요. Casual: 맞아."
+   ],
+   [
+    "예",
+    "ye",
+    "yes (formal)",
+    "More formal than 네; heard in offices and from older people."
+   ],
+   [
+    "오후",
+    "ohu",
+    "afternoon; p.m.",
+    "오후 세 시 = 3 p.m."
+   ],
+   [
+    "첫",
+    "cheot",
+    "first (before a noun)",
+    "첫눈 = the first snow; 첫 데이트 = a first date."
+   ],
+   [
+    "올해",
+    "olhae",
+    "this year",
+    "올해 몇 살이에요?"
+   ],
+   [
+    "아니",
+    "ani",
+    "no (casual); no wait",
+    "To friends. Also starts a protest: 아니, 그게 아니라…"
+   ],
+   [
+    "천",
+    "cheon",
+    "thousand",
+    "천 원 = 1,000 won; 삼천 = 3,000."
+   ],
+   [
+    "영 / 공",
+    "yeong / gong",
+    "zero",
+    "영 in maths and scores; 공 in phone numbers: 공일공 = 010."
+   ],
+   [
+    "작년",
+    "jangnyeon",
+    "last year",
+    "Also 지난해."
+   ],
+   [
+    "안녕",
+    "annyeong",
+    "hi; bye (casual)",
+    "To friends and children, both hello and goodbye."
+   ],
+   [
+    "낮",
+    "nat",
+    "daytime",
+    "낮에는 더워요 = it's hot during the day."
+   ],
+   [
+    "오전",
+    "ojeon",
+    "morning; a.m.",
+    "오전 열 시 = 10 a.m."
+   ],
+   [
+    "새벽",
+    "saebyeok",
+    "early morning; small hours",
+    "새벽 두 시 = 2 a.m."
+   ],
+   [
+    "지난주",
+    "jinanju",
+    "last week",
+    "One word, no space."
+   ],
+   [
+    "아뇨",
+    "anyo",
+    "no (spoken)",
+    "Short form of 아니요; softer and more common in speech."
+   ],
+   [
+    "스무",
+    "seumu",
+    "twenty (before a counter)",
+    "스물 → 스무: 스무 살 = twenty years old."
+   ],
+   [
+    "화요일",
+    "hwayoil",
+    "Tuesday",
+    "화 = fire. 월화수목금토일."
+   ],
+   [
+    "수요일",
+    "suyoil",
+    "Wednesday",
+    "수 = water."
+   ],
+   [
+    "목요일",
+    "mogyoil",
+    "Thursday",
+    "목 = wood."
+   ],
+   [
+    "스물",
+    "seumul",
+    "20 (native)",
+    "Before a counter: 스무."
+   ],
+   [
+    "내년",
+    "naenyeon",
+    "next year",
+    "내년에 한국에 가요."
+   ],
+   [
+    "서른, 마흔, 쉰",
+    "seoreun maheun swin",
+    "30, 40, 50 (native)",
+    "Mostly for age: 서른 살. Sino-Korean 삼십 is used for money and minutes."
+   ],
+   [
+    "백",
+    "baek",
+    "hundred",
+    "백 원; 이백 = 200. Not 일백."
+   ],
+   [
+    "열하나, 열둘",
+    "yeolhana yeoldul",
+    "11, 12 (native)",
+    "열 + 하나: 열한 시 = 11 o'clock."
+   ],
+   [
+    "모레",
+    "more",
+    "the day after tomorrow",
+    "내일모레 = in a couple of days."
+   ],
+   [
+    "그저께",
+    "geujeokke",
+    "the day before yesterday",
+    "Also 그제."
+   ]
+  ],
+  "Top counters": [
+   [
+    "한 대",
+    "han dae",
+    "one (car, machine)",
+    "대 counts vehicles and machines: 차 두 대, 컴퓨터 한 대."
+   ],
+   [
+    "두 분",
+    "du bun",
+    "two people (honorific)",
+    "분 is the polite 명: 몇 분이세요? = how many in your party?"
+   ],
+   [
+    "한 벌",
+    "han beol",
+    "one outfit; one suit",
+    "벌 counts sets of clothes: 옷 한 벌."
+   ],
+   [
+    "한 송이",
+    "han songi",
+    "one flower; one bunch (of grapes)",
+    "장미 한 송이 = one rose."
+   ],
+   [
+    "한 줄",
+    "han jul",
+    "one roll; one line",
+    "김밥 한 줄 = one gimbap roll; 한 줄로 = in a line."
+   ],
+   [
+    "한 접시",
+    "han jeopsi",
+    "one plate (of)",
+    "만두 한 접시 = a plate of dumplings."
+   ],
+   [
+    "한 조각",
+    "han jogak",
+    "one slice; one piece",
+    "피자 한 조각, 케이크 한 조각."
+   ],
+   [
+    "한 가지",
+    "han gaji",
+    "one kind; one thing",
+    "한 가지 더 = one more thing; 여러 가지 = all kinds."
+   ],
+   [
+    "한 군데",
+    "han gunde",
+    "one place",
+    "두 군데 = two places. Spoken, everyday."
+   ],
+   [
+    "한 곡",
+    "han gok",
+    "one song",
+    "노래 한 곡 = one song (at karaoke)."
+   ],
+   [
+    "한 편",
+    "han pyeon",
+    "one (film, story)",
+    "영화 한 편 봐요 = we watch a movie."
+   ],
+   [
+    "한 알",
+    "han al",
+    "one pill; one small round thing",
+    "약 한 알 = one pill."
+   ],
+   [
+    "한 캔",
+    "han kaen",
+    "one can",
+    "맥주 한 캔 = a can of beer."
+   ],
+   [
+    "한 판",
+    "han pan",
+    "one game; one round; one tray",
+    "게임 한 판 = one round; 계란 한 판 = a tray of 30 eggs."
+   ],
+   [
+    "한 시",
+    "han si",
+    "one o'clock",
+    "Hours use native numbers: 한 시, 두 시 … 열두 시."
+   ],
+   [
+    "오 분",
+    "o bun",
+    "five minutes",
+    "Minutes use Sino-Korean numbers: 오 분, 십 분, 삼십 분."
+   ],
+   [
+    "일 년",
+    "il nyeon",
+    "one year",
+    "Years use Sino-Korean: 일 년, 이 년. Native: 한 해."
+   ],
+   [
+    "삼 개월",
+    "sam gaewol",
+    "three months",
+    "Sino-Korean months: 삼 개월. Native: 석 달."
+   ],
+   [
+    "이 인분",
+    "i inbun",
+    "two portions (servings)",
+    "Korean BBQ is ordered by portion: 삼겹살 이 인분 = pork belly for two."
+   ],
+   [
+    "첫 번째",
+    "cheot beonjjae",
+    "the first (one)",
+    "번째 makes ordinals: 두 번째 = second, 세 번째 = third."
+   ]
+  ],
+  "Flirting words": [
+   [
+    "예쁘다",
+    "yeppeuda",
+    "to be pretty",
+    "예뻐요. Mostly to women, also to kids and things. Mild; everyone hears it. No gender forms in Korean."
+   ],
+   [
+    "귀엽다",
+    "gwiyeopda",
+    "to be cute",
+    "귀여워요 (ㅂ irregular). To anyone, men included. Mild and playful."
+   ],
+   [
+    "잘생기다",
+    "jalsaenggida",
+    "to be handsome; good-looking",
+    "Said in the past tense: 잘생겼어요. Mostly to men. Warm."
+   ],
+   [
+    "멋있다",
+    "meositda",
+    "to be cool; to look great",
+    "멋있어요. Mostly to men, also to women with style. Mild to warm."
+   ],
+   [
+    "아름답다",
+    "areumdapda",
+    "to be beautiful",
+    "아름다워요 (ㅂ irregular). Strong and a bit poetic: for scenery, or a very sincere compliment. Bold."
+   ],
+   [
+    "사랑스럽다",
+    "sarangseureopda",
+    "to be lovely; adorable",
+    "사랑스러워요 (ㅂ irregular). Tender, more for couples. Warm."
+   ],
+   [
+    "매력",
+    "maeryeok",
+    "charm; appeal",
+    "매력 있어요 = you're attractive. Safe and common. Mild to warm."
+   ],
+   [
+    "매력적이다",
+    "maeryeokjeogida",
+    "to be attractive; charming",
+    "매력적이에요. A notch more serious than 매력 있어요. Warm."
+   ],
+   [
+    "똑똑하다",
+    "ttokttokada",
+    "to be smart",
+    "똑똑해요. To anyone. Mild. To an elder, praise their knowledge instead."
+   ],
+   [
+    "착하다",
+    "chakada",
+    "to be kind-hearted; nice",
+    "착해요. Big compliment from a partner's family; to equals or juniors only. Mild."
+   ],
+   [
+    "다정하다",
+    "dajeonghada",
+    "to be affectionate; sweet and caring",
+    "다정해요. A top quality in a partner. Warm."
+   ],
+   [
+    "미소",
+    "miso",
+    "smile",
+    "미소가 예뻐요. A little literary; speech also uses 웃는 모습. Mild."
+   ],
+   [
+    "눈",
+    "nun",
+    "eyes",
+    "눈이 예뻐요. Praising eyes is safe and common. (눈 also = snow.) Mild to warm."
+   ],
+   [
+    "눈웃음",
+    "nunuseum",
+    "eye smile; smiling eyes",
+    "A Korean favourite: eyes curving into crescents when you smile. Warm."
+   ],
+   [
+    "보조개",
+    "bojogae",
+    "dimple",
+    "보조개가 귀여워요. A classic Korean compliment. Mild."
+   ],
+   [
+    "목소리",
+    "moksori",
+    "voice",
+    "목소리가 좋아요. Safe, very common, especially on the phone. Mild."
+   ],
+   [
+    "웃음",
+    "useum",
+    "laugh; laughter",
+    "웃음이 많아요 = you laugh a lot (a good thing). Mild."
+   ],
+   [
+    "분위기",
+    "bunwigi",
+    "vibe; aura; atmosphere",
+    "분위기 있어요 = you have a certain charm. Very Korean compliment. Warm."
+   ],
+   [
+    "스타일",
+    "seutail",
+    "style; type",
+    "제 스타일이에요 = you're my type. Mild alone; warm in that phrase."
+   ],
+   [
+    "성격",
+    "seonggyeok",
+    "personality",
+    "성격 좋아요 is high praise. Mild."
+   ],
+   [
+    "센스",
+    "senseu",
+    "good taste; tact",
+    "센스 있어요 = you've got taste / you're thoughtful. Mild."
+   ],
+   [
+    "이상형",
+    "isanghyeong",
+    "ideal type",
+    "Koreans ask 이상형이 뭐예요? on first dates and in interviews. Mild as a question."
+   ],
+   [
+    "첫인상",
+    "cheosinsang",
+    "first impression",
+    "첫인상이 좋았어요 = I liked you from the start. Warm."
+   ],
+   [
+    "훈남",
+    "hunnam",
+    "good-looking, warm-vibe guy",
+    "Slang, from 훈훈한 남자. For women: 훈녀. Mild, friendly."
+   ],
+   [
+    "심쿵",
+    "simkung",
+    "heart skipping a beat",
+    "Slang: 심장이 쿵. 심쿵했어요 = you made my heart skip. Warm, playful."
+   ],
+   [
+    "오늘따라 더 예뻐요",
+    "oneulttara deo yeppeoyo",
+    "You look even prettier today",
+    "To a woman you know. 오늘따라 = today especially. Warm."
+   ],
+   [
+    "이름도 예쁘네요",
+    "ireumdo yeppeuneyo",
+    "Even your name is pretty",
+    "Right after learning a name. Mild, sweet."
+   ],
+   [
+    "예쁘다는 말 많이 듣죠?",
+    "yeppeudaneun mal mani deutjyo?",
+    "You must hear that you're pretty a lot",
+    "Indirect and smooth. To a woman. Warm."
+   ],
+   [
+    "왜 이렇게 귀여워요?",
+    "wae ireoke gwiyeowoyo?",
+    "Why are you so cute?",
+    "Teasing, to anyone. Warm."
+   ],
+   [
+    "하는 짓이 다 귀여워요",
+    "haneun jisi da gwiyeowoyo",
+    "Everything you do is cute",
+    "To someone you know well. 짓 = little actions. Warm, playful."
+   ],
+   [
+    "잘생기셨네요",
+    "jalsaenggisyeonneyo",
+    "You're very handsome",
+    "Polite -시-; to a man you don't know well. Mild to warm."
+   ],
+   [
+    "실물이 더 잘생겼어요",
+    "silmuri deo jalsaenggyeosseoyo",
+    "You're even better-looking in person",
+    "After seeing photos first (dating app, a friend's phone). Warm."
+   ],
+   [
+    "오늘 멋있네요",
+    "oneul meosinneyo",
+    "You look great today",
+    "To anyone dressed up. Mild."
+   ],
+   [
+    "일하는 모습이 멋있어요",
+    "ilhaneun moseubi meosisseoyo",
+    "You look cool when you're working",
+    "Classic office or café crush line. Warm."
+   ],
+   [
+    "진짜 똑똑하네요",
+    "jinjja ttokttokaneyo",
+    "You're really smart",
+    "To someone your age or younger. Mild."
+   ],
+   [
+    "매력 있어요",
+    "maeryeok isseoyo",
+    "You're attractive / You have charm",
+    "Safe on a date or between friends. Mild to warm."
+   ],
+   [
+    "매력이 넘치시네요",
+    "maeryeogi neomchisineyo",
+    "You're full of charm",
+    "Polite and playful. Warm."
+   ],
+   [
+    "미소가 예뻐요",
+    "misoga yeppeoyo",
+    "You have a pretty smile",
+    "Safe on a first meeting. Mild."
+   ],
+   [
+    "눈웃음이 정말 예뻐요",
+    "nunuseumi jeongmal yeppeoyo",
+    "Your eye smile is really pretty",
+    "Very Korean compliment. Warm."
+   ],
+   [
+    "보조개가 너무 귀여워요",
+    "bojogaega neomu gwiyeowoyo",
+    "Your dimples are so cute",
+    "Mild, sweet."
+   ],
+   [
+    "목소리가 정말 좋네요",
+    "moksoriga jeongmal jonneyo",
+    "You have a really nice voice",
+    "Often on the phone or after karaoke. Mild."
+   ],
+   [
+    "목소리 듣고 싶었어요",
+    "moksori deutgo sipeosseoyo",
+    "I wanted to hear your voice",
+    "Why you called. To someone you're dating. Warm to bold."
+   ],
+   [
+    "분위기 있으시네요",
+    "bunwigi isseusineyo",
+    "You have a certain charm about you",
+    "A refined compliment to men or women. Warm."
+   ],
+   [
+    "스타일 좋으시네요",
+    "seutail joeusineyo",
+    "You have great style",
+    "Mild; works with near-strangers."
+   ],
+   [
+    "제 스타일이에요",
+    "je seutairieyo",
+    "You're my type",
+    "Light and direct. Warm."
+   ],
+   [
+    "완전 제 이상형이에요",
+    "wanjeon je isanghyeongieyo",
+    "You're totally my ideal type",
+    "Bold and playful. Usually after a few dates."
+   ],
+   [
+    "이상형이 뭐예요?",
+    "isanghyeongi mwoyeyo?",
+    "What's your ideal type?",
+    "The classic first-date question. Mild."
+   ],
+   [
+    "첫인상이 좋았어요",
+    "cheosinsangi joasseoyo",
+    "I liked my first impression of you",
+    "On a second date. Warm."
+   ],
+   [
+    "성격도 좋으시네요",
+    "seonggyeokdo joeusineyo",
+    "And you have a great personality too",
+    "도 = on top of being good-looking. Warm."
+   ],
+   [
+    "다정하시네요",
+    "dajeonghasineyo",
+    "You're so sweet and caring",
+    "After a kind gesture. Warm."
+   ],
+   [
+    "밥 먹었어요?",
+    "bap meogeosseoyo?",
+    "Have you eaten? (I care about you)",
+    "Korean's indirect \"I'm thinking of you\". Polite form of the casual 밥 먹었어? Mild."
+   ],
+   [
+    "언제 밥 한번 먹어요",
+    "eonje bap hanbeon meogeoyo",
+    "Let's grab a meal sometime",
+    "Often polite filler; when meant, it opens a date. Ask \"when?\" to show you mean it. Mild."
+   ],
+   [
+    "같이 밥 먹을래요?",
+    "gachi bap meogeullaeyo?",
+    "Want to have dinner together?",
+    "The real invitation. Warm."
+   ],
+   [
+    "제가 커피 살게요",
+    "jega keopi salgeyo",
+    "I'll buy you a coffee",
+    "Easy opener after class or work. Mild."
+   ],
+   [
+    "연락해도 돼요?",
+    "yeollakaedo dwaeyo?",
+    "Is it OK if I contact you?",
+    "Polite way to ask for KakaoTalk. Mild."
+   ],
+   [
+    "다음에 또 볼 수 있어요?",
+    "daeume tto bol su isseoyo?",
+    "Can I see you again?",
+    "At the end of a first meeting. Warm."
+   ],
+   [
+    "라면 먹고 갈래요?",
+    "ramyeon meokgo gallaeyo?",
+    "Want to come up for some ramyeon? (joke line)",
+    "From the film One Fine Spring Day (2001), where the line is 라면 먹을래요?; this meme version means an invitation inside. Joke only, never a real move."
+   ],
+   [
+    "에이, 농담이죠?",
+    "ei nongdamijyo?",
+    "Come on, you're joking, right?",
+    "Playful deflection, shy but not a no. Casual and friendly."
+   ],
+   [
+    "말도 참 잘하시네요",
+    "maldo cham jalhasineyo",
+    "You're quite the smooth talker",
+    "Teasing deflection; smiling = interested, flat = not. Mild."
+   ],
+   [
+    "좋아요, 언제 만날까요?",
+    "joayo eonje mannalkkayo?",
+    "Sure, when shall we meet?",
+    "A warm yes to an invitation."
+   ],
+   [
+    "마음은 고맙지만 괜찮아요",
+    "maeumeun gomapjiman gwaenchanayo",
+    "Thanks for the thought, but I'm fine",
+    "Kind, clear no. Works for a drink or a number."
+   ],
+   [
+    "죄송하지만 만나는 사람이 있어요",
+    "joesonghajiman mannaneun sarami isseoyo",
+    "Sorry, but I'm seeing someone",
+    "Clear no; nobody will push after this."
+   ],
+   [
+    "좋은 분인데, 친구로 지내고 싶어요",
+    "joeun buninde chinguro jinaego sipeoyo",
+    "You're a lovely person, but I'd like to stay friends",
+    "Gentle no to someone you know. 분 keeps it respectful."
+   ],
+   [
+    "지금은 연애할 생각이 없어요",
+    "jigeumeun yeonaehal saenggagi eopseoyo",
+    "I'm not looking to date right now",
+    "Firm but not personal."
+   ]
+  ],
+  "Compliments": [
+   [
+    "음식이 정말 맛있네요",
+    "eumsigi jeongmal masinneyo",
+    "The food is really delicious",
+    "-네요 = noticing out loud. Say it to the host or cook during the meal."
+   ],
+   [
+    "요리 솜씨가 정말 좋으시네요",
+    "yori somssiga jeongmal joeusineyo",
+    "You're a really good cook",
+    "솜씨 = skill with your hands. Polite -시-; fine to elders."
+   ],
+   [
+    "이거 어떻게 만드셨어요?",
+    "igeo eotteoke mandeusyeosseoyo?",
+    "How did you make this?",
+    "Asking for the recipe is praise in itself."
+   ],
+   [
+    "정말 잘하시네요",
+    "jeongmal jalhasineyo",
+    "You're really good at this",
+    "For any skill. To elders, praise with -시- and no grading words."
+   ],
+   [
+    "좋은 생각이에요",
+    "joeun saenggagieyo",
+    "That's a good idea",
+    "To colleagues and friends. To a boss: 좋은 생각이신 것 같아요."
+   ],
+   [
+    "꼼꼼하시네요",
+    "kkomkkomhasineyo",
+    "You're so thorough",
+    "A big compliment at work."
+   ],
+   [
+    "정말 착하시네요",
+    "jeongmal chakasineyo",
+    "You're so good-hearted",
+    "To equals or juniors. It sounds odd said to a much older person."
+   ],
+   [
+    "유머 감각이 있으시네요",
+    "yumeo gamgagi isseusineyo",
+    "You have a great sense of humor",
+    "Polite; to anyone."
+   ],
+   [
+    "배려심이 많으시네요",
+    "baeryeosimi maneusineyo",
+    "You're very considerate",
+    "배려 = thinking of others. Highly valued."
+   ],
+   [
+    "정말 부지런하시네요",
+    "jeongmal bujireonhasineyo",
+    "You're so diligent",
+    "Always busy and on time. Different from 열심히 하시네요 (works hard at it)."
+   ],
+   [
+    "피부가 정말 좋으시네요",
+    "pibuga jeongmal joeusineyo",
+    "Your skin looks great",
+    "A very common, friendly compliment in Korea, to men and women alike."
+   ],
+   [
+    "동안이시네요",
+    "donganisineyo",
+    "You look so young for your age",
+    "A favorite compliment, especially to people over 30."
+   ],
+   [
+    "인상이 좋으세요",
+    "insangi joeuseyo",
+    "You have a kind face",
+    "Literally \"your impression is good\". Said on first meeting."
+   ],
+   [
+    "집이 정말 예쁘네요",
+    "jibi jeongmal yeppeuneyo",
+    "Your home is lovely",
+    "Said on a first visit, often with a gift (휴지, fruit)."
+   ],
+   [
+    "아이가 정말 귀엽네요",
+    "aiga jeongmal gwiyeomneyo",
+    "Your child is so cute",
+    "Parents will usually deflect: 아니에요, 말썽꾸러기예요."
+   ],
+   [
+    "아이가 참 예의 바르네요",
+    "aiga cham yeui bareuneyo",
+    "Your child is so polite",
+    "A compliment to the parents too. Very welcome."
+   ],
+   [
+    "사진 잘 나왔네요",
+    "sajin jal nawanneyo",
+    "That's a nice photo",
+    "Literally \"the photo came out well\"."
+   ],
+   [
+    "그 옷 잘 어울리세요",
+    "geu ot jal eoulliseyo",
+    "That outfit suits you",
+    "Polite -세요; to anyone, including elders."
+   ],
+   [
+    "발음이 정말 좋으시네요",
+    "bareumi jeongmal joeusineyo",
+    "Your pronunciation is really good",
+    "What learners hear right after 한국어 잘하시네요."
+   ],
+   [
+    "한국 사람인 줄 알았어요",
+    "hanguk saramin jul arasseoyo",
+    "I thought you were Korean!",
+    "Friendly exaggeration to a learner."
+   ],
+   [
+    "한국어 어디서 배우셨어요?",
+    "hangugeo eodiseo baeusyeosseoyo?",
+    "Where did you learn Korean?",
+    "Usually follows the compliment; itself a compliment."
+   ],
+   [
+    "많이 늘었어요",
+    "mani neureosseoyo",
+    "You've improved a lot",
+    "To a friend or junior. To an elder it sounds like grading."
+   ],
+   [
+    "발표 잘 들었습니다",
+    "balpyo jal deureotseumnida",
+    "I enjoyed your presentation",
+    "The polite way to praise a boss: you report your experience, you don't grade them."
+   ],
+   [
+    "많이 배웠습니다",
+    "mani baewotseumnida",
+    "I learned a lot (from you)",
+    "The safest praise for a senior, teacher or boss."
+   ],
+   [
+    "수고 많으셨어요",
+    "sugo maneusyeosseoyo",
+    "Thank you for all your hard work",
+    "Praises effort. Fine among colleagues; some seniors find 수고 from a junior presumptuous, so to a boss 감사합니다 is safer."
+   ],
+   [
+    "아니에요",
+    "anieyo",
+    "Oh no, not at all",
+    "The first reflex after any compliment: deflect, even if you're pleased."
+   ],
+   [
+    "아니에요, 아직 멀었어요",
+    "anieyo ajik meoreosseoyo",
+    "Oh no, I still have a long way to go",
+    "The standard modest reply, especially about your Korean."
+   ],
+   [
+    "별말씀을요",
+    "byeolmalsseumeullyo",
+    "Don't mention it; you're too kind",
+    "Polite and a little formal. To elders and at work."
+   ],
+   [
+    "과찬이세요",
+    "gwachaniseyo",
+    "You're praising me too much",
+    "Literally \"that's too much praise\". Polite, a bit formal."
+   ],
+   [
+    "칭찬해 주셔서 감사해요",
+    "chingchanhae jusyeoseo gamsahaeyo",
+    "Thank you for the compliment",
+    "Accepting warmly. More common among younger people."
+   ],
+   [
+    "좋게 봐 주셔서 감사해요",
+    "joke bwa jusyeoseo gamsahaeyo",
+    "Thanks for seeing it that way",
+    "Modest and grateful at once."
+   ],
+   [
+    "별거 아니에요",
+    "byeolgeo anieyo",
+    "Oh, it's nothing special",
+    "The host's answer to praise for food or a gift."
+   ],
+   [
+    "덕분이에요",
+    "deokbunieyo",
+    "It's all thanks to you",
+    "Turns the praise back onto the other person. Warm and humble."
+   ]
+  ]
+ },
+ "group": {
+  "Top nouns": "Core words",
+  "Top verbs": "Core words",
+  "Top adjectives": "Core words",
+  "Top adverbs": "Core words",
+  "Top pronouns": "Core words",
+  "Top particles": "Core words",
+  "Top connectors": "Core words",
+  "Top interjections": "Core words",
+  "Top words": "Core words",
+  "Top counters": "Core words",
+  "Flirting words": "Social",
+  "Compliments": "Social"
+ },
+ "desc": {
+  "Top nouns": "The most-used Korean nouns the course doesn't teach yet, most frequent first.",
+  "Top verbs": "Action verbs in dictionary form; the note gives the 해요 form and flags irregular verbs.",
+  "Top adjectives": "Descriptive verbs (Korean adjectives are verbs): the 해요 form and the form before a noun.",
+  "Top adverbs": "Time, degree, frequency and manner words: very, already, often, why, how.",
+  "Top pronouns": "I, you, this one, who, nobody, and why names and titles usually replace 'you'.",
+  "Top particles": "Korean's answer to prepositions: the particles beyond the nine in the Particles deck.",
+  "Top connectors": "Joining endings (-고, -지만, -아서, -(으)면 …) shown on a verb, plus linking words not in Connectors.",
+  "Top interjections": "What Koreans really exclaim: wow, ouch, oops, phew, ta-da, and who says each one.",
+  "Top words": "This / that / which before a noun, number forms, days and times, and ways to say yes and no.",
+  "Top counters": "Counters missing from the Counters deck: cars, portions, rolls, slices, minutes, months.",
+  "Flirting words": "The words Koreans flirt with, phrases built from them, and kind ways to say yes or no.",
+  "Compliments": "Everyday praise for food, work, homes and children, and the modest ways to answer it."
+ },
+ "examples": [
+  [
+   "없다",
+   "오늘은 시간이 없어요.",
+   "I don't have time today."
+  ],
+  [
+   "되다",
+   "여기서 사진 찍어도 돼요?",
+   "Is it OK to take photos here?"
+  ],
+  [
+   "말하다",
+   "한국어로 말해 주세요.",
+   "Please say it in Korean."
+  ],
+  [
+   "받다",
+   "생일에 선물을 많이 받았어요.",
+   "I got a lot of presents on my birthday."
+  ],
+  [
+   "나오다",
+   "지하철역에서 나오면 바로 앞이에요.",
+   "When you come out of the station, it's right in front."
+  ],
+  [
+   "살다",
+   "저는 서울에 살아요.",
+   "I live in Seoul."
+  ],
+  [
+   "만들다",
+   "엄마가 김밥을 만들었어요.",
+   "Mom made gimbap."
+  ],
+  [
+   "생각하다",
+   "저도 그렇게 생각해요.",
+   "I think so too."
+  ],
+  [
+   "싶다",
+   "한국에 가고 싶어요.",
+   "I want to go to Korea."
+  ],
+  [
+   "보이다",
+   "여기서 바다가 보여요.",
+   "You can see the sea from here."
+  ],
+  [
+   "만나다",
+   "주말에 친구를 만나요.",
+   "I'm meeting a friend this weekend."
+  ],
+  [
+   "내다",
+   "오늘은 제가 낼게요.",
+   "Today it's on me."
+  ],
+  [
+   "쓰다",
+   "이름을 여기에 써 주세요.",
+   "Please write your name here."
+  ],
+  [
+   "들다",
+   "이 가방 좀 들어 주세요.",
+   "Please hold this bag for me."
+  ],
+  [
+   "시작하다",
+   "영화가 일곱 시에 시작해요.",
+   "The movie starts at seven."
+  ],
+  [
+   "듣다",
+   "매일 한국 노래를 들어요.",
+   "I listen to Korean songs every day."
+  ],
+  [
+   "들어가다",
+   "먼저 들어가세요.",
+   "Please go in first."
+  ],
+  [
+   "나가다",
+   "오늘 저녁에 나가요?",
+   "Are you going out this evening?"
+  ],
+  [
+   "일어나다",
+   "보통 일곱 시에 일어나요.",
+   "I usually get up at seven."
+  ],
+  [
+   "기다리다",
+   "잠깐만 기다려 주세요.",
+   "Please wait a moment."
+  ],
+  [
+   "찾다",
+   "화장실을 찾고 있어요.",
+   "I'm looking for the restroom."
+  ],
+  [
+   "걷다",
+   "집까지 걸어서 가요.",
+   "I walk home."
+  ],
+  [
+   "읽다",
+   "지하철에서 책을 읽어요.",
+   "I read books on the subway."
+  ],
+  [
+   "열다",
+   "편의점은 밤에도 열어요.",
+   "Convenience stores are open at night too."
+  ],
+  [
+   "닫다",
+   "문 좀 닫아 주세요.",
+   "Please close the door."
+  ],
+  [
+   "웃다",
+   "그 사람은 항상 웃어요.",
+   "That person is always smiling."
+  ],
+  [
+   "배우다",
+   "요즘 한국어를 배워요.",
+   "I'm learning Korean these days."
+  ],
+  [
+   "가르치다",
+   "친구가 영어를 가르쳐요.",
+   "My friend teaches English."
+  ],
+  [
+   "사다",
+   "시장에서 과일을 샀어요.",
+   "I bought fruit at the market."
+  ],
+  [
+   "자다",
+   "어제 늦게 잤어요.",
+   "I went to bed late yesterday."
+  ],
+  [
+   "입다",
+   "오늘 따뜻한 옷을 입으세요.",
+   "Wear something warm today."
+  ],
+  [
+   "타다",
+   "버스를 타고 학교에 가요.",
+   "I take the bus to school."
+  ],
+  [
+   "내리다",
+   "다음 역에서 내려요.",
+   "I get off at the next station."
+  ],
+  [
+   "돌아오다",
+   "언제 한국에 돌아와요?",
+   "When are you coming back to Korea?"
+  ],
+  [
+   "보내다",
+   "사진을 친구에게 보냈어요.",
+   "I sent the photos to a friend."
+  ],
+  [
+   "부르다",
+   "노래방에서 노래를 불렀어요.",
+   "We sang at karaoke."
+  ],
+  [
+   "끝나다",
+   "회의가 다섯 시에 끝나요.",
+   "The meeting ends at five."
+  ],
+  [
+   "시키다",
+   "치킨 시킬까요?",
+   "Shall we order chicken?"
+  ],
+  [
+   "믿다",
+   "저를 믿어 주세요.",
+   "Please trust me."
+  ],
+  [
+   "잊다",
+   "우산을 잊지 마세요.",
+   "Don't forget your umbrella."
+  ],
+  [
+   "씻다",
+   "밥 먹기 전에 손을 씻어요.",
+   "I wash my hands before eating."
+  ],
+  [
+   "돕다",
+   "친구가 이사를 도와줬어요.",
+   "A friend helped me move."
+  ],
+  [
+   "묻다",
+   "길을 몰라서 물어봤어요.",
+   "I didn't know the way, so I asked."
+  ],
+  [
+   "고르다",
+   "하나만 골라 주세요.",
+   "Please pick just one."
+  ],
+  [
+   "바꾸다",
+   "자리를 바꿔도 돼요?",
+   "Can we swap seats?"
+  ],
+  [
+   "걸리다",
+   "감기에 걸렸어요.",
+   "I caught a cold."
+  ],
+  [
+   "켜다",
+   "불 좀 켜 주세요.",
+   "Please turn on the light."
+  ],
+  [
+   "지내다",
+   "요즘 잘 지내요?",
+   "Are you doing well these days?"
+  ],
+  [
+   "다니다",
+   "저는 회사에 다녀요.",
+   "I work for a company."
+  ],
+  [
+   "낫다",
+   "빨리 나으세요.",
+   "Get well soon."
+  ],
+  [
+   "도착하다",
+   "몇 시에 공항에 도착해요?",
+   "What time do you arrive at the airport?"
+  ],
+  [
+   "찍다",
+   "여기서 사진 찍을까요?",
+   "Shall we take a photo here?"
+  ],
+  [
+   "같다",
+   "우리는 같은 학교에 다녀요.",
+   "We go to the same school."
+  ],
+  [
+   "그렇다",
+   "아, 그래요? 몰랐어요.",
+   "Oh, really? I didn't know."
+  ],
+  [
+   "어떻다",
+   "한국 음식 어때요?",
+   "How do you like Korean food?"
+  ],
+  [
+   "다르다",
+   "한국어와 영어는 많이 달라요.",
+   "Korean and English are very different."
+  ],
+  [
+   "쉽다",
+   "한글은 생각보다 쉬워요.",
+   "Hangul is easier than you think."
+  ],
+  [
+   "어렵다",
+   "한국어 발음이 어려워요.",
+   "Korean pronunciation is difficult."
+  ],
+  [
+   "높다",
+   "저 산이 제일 높아요.",
+   "That mountain is the highest."
+  ],
+  [
+   "길다",
+   "머리가 길어요.",
+   "Her hair is long."
+  ],
+  [
+   "빠르다",
+   "지하철이 버스보다 빨라요.",
+   "The subway is faster than the bus."
+  ],
+  [
+   "젊다",
+   "할머니가 정말 젊어 보이세요.",
+   "Your grandmother looks really young."
+  ],
+  [
+   "중요하다",
+   "건강이 제일 중요해요.",
+   "Health is the most important thing."
+  ],
+  [
+   "필요하다",
+   "뭐가 필요해요?",
+   "What do you need?"
+  ],
+  [
+   "깨끗하다",
+   "방이 정말 깨끗해요.",
+   "The room is really clean."
+  ],
+  [
+   "무섭다",
+   "공포 영화는 너무 무서워요.",
+   "Horror movies are too scary."
+  ],
+  [
+   "아프다",
+   "어디가 아파요?",
+   "Where does it hurt?"
+  ],
+  [
+   "즐겁다",
+   "즐거운 주말 보내세요.",
+   "Have a fun weekend."
+  ],
+  [
+   "반갑다",
+   "다시 만나서 반가워요.",
+   "Good to see you again."
+  ],
+  [
+   "고맙다",
+   "와 줘서 고마워요.",
+   "Thanks for coming."
+  ],
+  [
+   "미안하다",
+   "늦어서 미안해요.",
+   "Sorry I'm late."
+  ],
+  [
+   "맵다",
+   "이 떡볶이는 너무 매워요.",
+   "This tteokbokki is too spicy."
+  ],
+  [
+   "뜨겁다",
+   "국이 뜨거우니까 조심하세요.",
+   "The soup is hot, so be careful."
+  ],
+  [
+   "따뜻하다",
+   "오늘은 날씨가 따뜻해요.",
+   "It's warm today."
+  ],
+  [
+   "시원하다",
+   "바람이 시원해요.",
+   "The breeze is nice and cool."
+  ],
+  [
+   "조용하다",
+   "도서관은 조용해요.",
+   "The library is quiet."
+  ],
+  [
+   "편하다",
+   "집이 제일 편해요.",
+   "Home is the most comfortable place."
+  ],
+  [
+   "친절하다",
+   "가게 사장님이 친절해요.",
+   "The shop owner is kind."
+  ],
+  [
+   "유명하다",
+   "이 식당은 비빔밥으로 유명해요.",
+   "This restaurant is famous for bibimbap."
+  ],
+  [
+   "무겁다",
+   "가방이 너무 무거워요.",
+   "The bag is too heavy."
+  ],
+  [
+   "비슷하다",
+   "두 사람은 얼굴이 비슷해요.",
+   "The two of them look alike."
+  ],
+  [
+   "이상하다",
+   "맛이 좀 이상해요.",
+   "It tastes a bit strange."
+  ],
+  [
+   "귀찮다",
+   "오늘은 요리하기 귀찮아요.",
+   "I can't be bothered to cook today."
+  ],
+  [
+   "부럽다",
+   "한국에 가요? 부러워요!",
+   "You're going to Korea? I'm jealous!"
+  ],
+  [
+   "배부르다",
+   "많이 먹어서 배불러요.",
+   "I ate a lot, so I'm full."
+  ],
+  [
+   "빨갛다",
+   "빨간 옷이 잘 어울려요.",
+   "Red suits you."
+  ],
+  [
+   "안",
+   "저는 커피를 안 마셔요.",
+   "I don't drink coffee."
+  ],
+  [
+   "더",
+   "김치 좀 더 주세요.",
+   "A bit more kimchi, please."
+  ],
+  [
+   "못",
+   "저는 수영 못 해요.",
+   "I can't swim."
+  ],
+  [
+   "잘",
+   "한국 음식 잘 먹어요.",
+   "I eat Korean food without trouble."
+  ],
+  [
+   "다",
+   "숙제 다 했어요.",
+   "I finished all my homework."
+  ],
+  [
+   "좀",
+   "이것 좀 도와주세요.",
+   "Could you help me with this?"
+  ],
+  [
+   "다시",
+   "다시 한번 말해 주세요.",
+   "Please say it once more."
+  ],
+  [
+   "많이",
+   "많이 드세요.",
+   "Please eat plenty."
+  ],
+  [
+   "같이",
+   "같이 점심 먹어요.",
+   "Let's have lunch together."
+  ],
+  [
+   "바로",
+   "은행은 바로 옆에 있어요.",
+   "The bank is right next door."
+  ],
+  [
+   "제일",
+   "저는 김치찌개를 제일 좋아해요.",
+   "I like kimchi stew the most."
+  ],
+  [
+   "정말",
+   "오늘 정말 즐거웠어요.",
+   "I really had fun today."
+  ],
+  [
+   "너무",
+   "이 가방은 너무 비싸요.",
+   "This bag is too expensive."
+  ],
+  [
+   "아직",
+   "아직 밥 안 먹었어요.",
+   "I haven't eaten yet."
+  ],
+  [
+   "벌써",
+   "벌써 열두 시예요?",
+   "It's already twelve?"
+  ],
+  [
+   "곧",
+   "버스가 곧 와요.",
+   "The bus is coming soon."
+  ],
+  [
+   "빨리",
+   "빨리 오세요!",
+   "Come quickly!"
+  ],
+  [
+   "자주",
+   "여기 자주 와요?",
+   "Do you come here often?"
+  ],
+  [
+   "가끔",
+   "가끔 혼자 영화를 봐요.",
+   "Sometimes I watch movies alone."
+  ],
+  [
+   "항상",
+   "엄마는 항상 일찍 일어나요.",
+   "Mom always gets up early."
+  ],
+  [
+   "계속",
+   "계속 비가 와요.",
+   "It keeps raining."
+  ],
+  [
+   "또",
+   "내일 또 만나요.",
+   "Let's meet again tomorrow."
+  ],
+  [
+   "별로",
+   "저는 매운 음식을 별로 안 좋아해요.",
+   "I don't really like spicy food."
+  ],
+  [
+   "전혀",
+   "일본어는 전혀 몰라요.",
+   "I don't know any Japanese at all."
+  ],
+  [
+   "꼭",
+   "다음에 꼭 오세요.",
+   "Be sure to come next time."
+  ],
+  [
+   "아마",
+   "아마 내일 비가 올 거예요.",
+   "It will probably rain tomorrow."
+  ],
+  [
+   "혹시",
+   "혹시 영어 할 수 있어요?",
+   "Do you speak English, by any chance?"
+  ],
+  [
+   "거의",
+   "거의 다 왔어요.",
+   "We're almost there."
+  ],
+  [
+   "이제",
+   "이제 집에 가요.",
+   "I'm going home now."
+  ],
+  [
+   "방금",
+   "방금 도착했어요.",
+   "I just arrived."
+  ],
+  [
+   "나중에",
+   "나중에 전화할게요.",
+   "I'll call you later."
+  ],
+  [
+   "요즘",
+   "요즘 뭐 해요?",
+   "What are you up to these days?"
+  ],
+  [
+   "갑자기",
+   "갑자기 비가 왔어요.",
+   "It suddenly rained."
+  ],
+  [
+   "열심히",
+   "한국어를 열심히 공부해요.",
+   "I study Korean hard."
+  ],
+  [
+   "그냥",
+   "그냥 물 주세요.",
+   "Just water, please."
+  ],
+  [
+   "혼자",
+   "혼자 여행했어요.",
+   "I traveled alone."
+  ],
+  [
+   "왜",
+   "왜 안 왔어요?",
+   "Why didn't you come?"
+  ],
+  [
+   "어떻게",
+   "명동에 어떻게 가요?",
+   "How do I get to Myeongdong?"
+  ],
+  [
+   "나",
+   "나도 그거 좋아해.",
+   "I like that too. (casual)"
+  ],
+  [
+   "저",
+   "저는 미국 사람이에요.",
+   "I'm American."
+  ],
+  [
+   "너",
+   "너 오늘 뭐 해?",
+   "What are you doing today? (casual)"
+  ],
+  [
+   "우리",
+   "우리 같이 가요.",
+   "Let's go together."
+  ],
+  [
+   "저희",
+   "저희 가게에 오신 걸 환영합니다.",
+   "Welcome to our shop."
+  ],
+  [
+   "내",
+   "이거 내 거야.",
+   "This is mine. (casual)"
+  ],
+  [
+   "제",
+   "제 이름은 민준이에요.",
+   "My name is Minjun."
+  ],
+  [
+   "그",
+   "그는 아무 말도 하지 않았다.",
+   "He didn't say a word. (written style)"
+  ],
+  [
+   "그녀",
+   "그녀는 웃으면서 대답했다.",
+   "She answered with a smile. (written style)"
+  ],
+  [
+   "당신",
+   "당신을 사랑해요.",
+   "I love you. (a song line, or a long-married couple)"
+  ],
+  [
+   "자기",
+   "자기 일은 자기가 하세요.",
+   "Do your own work yourself."
+  ],
+  [
+   "여러분",
+   "여러분, 안녕하세요!",
+   "Hello, everyone!"
+  ],
+  [
+   "씨",
+   "지수 씨, 커피 마실래요?",
+   "Jisu, would you like a coffee?"
+  ],
+  [
+   "그쪽",
+   "그쪽은 이름이 뭐예요?",
+   "And what's your name?"
+  ],
+  [
+   "누구",
+   "저 사람은 누구예요?",
+   "Who is that person?"
+  ],
+  [
+   "뭐",
+   "주말에 뭐 했어요?",
+   "What did you do on the weekend?"
+  ],
+  [
+   "무엇",
+   "무엇을 도와드릴까요?",
+   "How may I help you?"
+  ],
+  [
+   "어디",
+   "어디 살아요?",
+   "Where do you live?"
+  ],
+  [
+   "이것",
+   "이것은 제 책이에요.",
+   "This is my book."
+  ],
+  [
+   "그것",
+   "그것도 좋은 생각이에요.",
+   "That's a good idea too."
+  ],
+  [
+   "저것",
+   "저것은 뭐예요?",
+   "What is that over there?"
+  ],
+  [
+   "이거",
+   "이거 얼마예요?",
+   "How much is this one?"
+  ],
+  [
+   "그거",
+   "그거 맛있어요?",
+   "Is that one tasty?"
+  ],
+  [
+   "저거",
+   "저거 주세요.",
+   "That one over there, please."
+  ],
+  [
+   "거기",
+   "거기 몇 시까지 해요?",
+   "Until what time is that place open?"
+  ],
+  [
+   "이분",
+   "이분은 제 선생님이세요.",
+   "This is my teacher."
+  ],
+  [
+   "그분",
+   "그분은 정말 친절하세요.",
+   "That person is really kind."
+  ],
+  [
+   "저분",
+   "저분이 사장님이세요?",
+   "Is that person over there the owner?"
+  ],
+  [
+   "얘",
+   "얘는 제 동생이에요.",
+   "This is my younger sibling."
+  ],
+  [
+   "걔",
+   "걔 요즘 바빠요.",
+   "He's busy these days. (about a friend)"
+  ],
+  [
+   "쟤",
+   "쟤 누구야?",
+   "Who's that over there? (casual)"
+  ],
+  [
+   "이쪽",
+   "이쪽으로 오세요.",
+   "Come this way, please."
+  ],
+  [
+   "저쪽",
+   "화장실은 저쪽에 있어요.",
+   "The restroom is over there."
+  ],
+  [
+   "아무",
+   "아무 때나 연락하세요.",
+   "Contact me any time."
+  ],
+  [
+   "아무도",
+   "집에 아무도 없어요.",
+   "There's nobody home."
+  ],
+  [
+   "아무것도",
+   "아침에 아무것도 안 먹었어요.",
+   "I didn't eat anything this morning."
+  ],
+  [
+   "누군가",
+   "누군가 문을 열었어요.",
+   "Someone opened the door."
+  ],
+  [
+   "뭔가",
+   "뭔가 이상해요.",
+   "Something's off."
+  ],
+  [
+   "어딘가",
+   "핸드폰이 집 어딘가에 있을 거예요.",
+   "My phone must be somewhere in the house."
+  ],
+  [
+   "자신",
+   "자신을 믿으세요.",
+   "Believe in yourself."
+  ],
+  [
+   "(으)로",
+   "지하철로 가요.",
+   "I go by subway."
+  ],
+  [
+   "까지",
+   "몇 시까지 열어요?",
+   "Until what time are you open?"
+  ],
+  [
+   "부터",
+   "수업은 아홉 시부터예요.",
+   "Class starts at nine."
+  ],
+  [
+   "한테",
+   "친구한테 선물을 줬어요.",
+   "I gave a present to a friend."
+  ],
+  [
+   "에게",
+   "선생님에게 이메일을 보냈어요.",
+   "I sent an email to the teacher."
+  ],
+  [
+   "께",
+   "할머니께 전화했어요.",
+   "I called my grandmother."
+  ],
+  [
+   "한테서",
+   "언니한테서 문자가 왔어요.",
+   "I got a text from my sister."
+  ],
+  [
+   "보다",
+   "오늘이 어제보다 추워요.",
+   "Today is colder than yesterday."
+  ],
+  [
+   "처럼",
+   "한국 사람처럼 말해요.",
+   "You speak like a Korean."
+  ],
+  [
+   "마다",
+   "주말마다 등산해요.",
+   "I go hiking every weekend."
+  ],
+  [
+   "밖에",
+   "천 원밖에 없어요.",
+   "I only have a thousand won."
+  ],
+  [
+   "이나 / 나",
+   "커피나 차 마실래요?",
+   "Would you like coffee or tea?"
+  ],
+  [
+   "이랑 / 랑",
+   "친구랑 영화 봤어요.",
+   "I watched a movie with a friend."
+  ],
+  [
+   "께서",
+   "할아버지께서 오셨어요.",
+   "Grandfather has arrived."
+  ],
+  [
+   "쯤",
+   "세 시쯤 만나요.",
+   "Let's meet around three."
+  ],
+  [
+   "씩",
+   "한 사람에 하나씩 가져가세요.",
+   "Take one each, please."
+  ],
+  [
+   "근데",
+   "근데 내일 시간 있어요?",
+   "By the way, are you free tomorrow?"
+  ],
+  [
+   "그러니까",
+   "비가 와요. 그러니까 우산 가져가세요.",
+   "It's raining. So take an umbrella."
+  ],
+  [
+   "그렇지만",
+   "비싸요. 그렇지만 맛있어요.",
+   "It's expensive. But it's delicious."
+  ],
+  [
+   "게다가",
+   "이 집은 싸요. 게다가 맛있어요.",
+   "This place is cheap. On top of that, it's good."
+  ],
+  [
+   "먹고",
+   "밥 먹고 커피 마셔요.",
+   "I eat and then have coffee."
+  ],
+  [
+   "비싸지만",
+   "비싸지만 맛있어요.",
+   "It's expensive, but it's delicious."
+  ],
+  [
+   "가서",
+   "시장에 가서 과일을 샀어요.",
+   "I went to the market and bought fruit."
+  ],
+  [
+   "피곤해서",
+   "피곤해서 일찍 잤어요.",
+   "I was tired, so I went to bed early."
+  ],
+  [
+   "가면",
+   "한국에 가면 뭐 하고 싶어요?",
+   "If you go to Korea, what do you want to do?"
+  ],
+  [
+   "비가 오니까",
+   "비가 오니까 택시 타요.",
+   "It's raining, so let's take a taxi."
+  ],
+  [
+   "바쁜데",
+   "지금 바쁜데 이따 전화할게요.",
+   "I'm busy now, so I'll call you later."
+  ],
+  [
+   "먹으러",
+   "점심 먹으러 가요.",
+   "Let's go eat lunch."
+  ],
+  [
+   "걸으면서",
+   "걸으면서 음악을 들어요.",
+   "I listen to music while I walk."
+  ],
+  [
+   "가다가",
+   "학교에 가다가 친구를 만났어요.",
+   "On the way to school I ran into a friend."
+  ],
+  [
+   "자거나",
+   "주말에는 자거나 영화를 봐요.",
+   "On weekends I sleep or watch movies."
+  ],
+  [
+   "비싸도",
+   "비싸도 사고 싶어요.",
+   "Even if it's expensive, I want to buy it."
+  ],
+  [
+   "자기 전에",
+   "자기 전에 책을 읽어요.",
+   "I read before I go to sleep."
+  ],
+  [
+   "먹은 후에",
+   "밥 먹은 후에 산책해요.",
+   "After eating, I take a walk."
+  ],
+  [
+   "갈 때",
+   "한국에 갈 때 선물을 사요.",
+   "I buy presents when I go to Korea."
+  ],
+  [
+   "도착하자마자",
+   "집에 도착하자마자 잤어요.",
+   "I fell asleep as soon as I got home."
+  ],
+  [
+   "일",
+   "오늘은 일이 너무 많아요.",
+   "I have too much work today."
+  ]
+ ],
+ "dialog": [
+  [
+   "아",
+   "그 식당 월요일에 닫아요.",
+   "아, 그래요? 그럼 화요일에 가요.",
+   "That restaurant is closed on Mondays. / Ah, really? Then let's go on Tuesday."
+  ],
+  [
+   "와",
+   "이거 제가 만든 케이크예요.",
+   "와, 진짜 예뻐요!",
+   "This is a cake I made. / Wow, it's really pretty!"
+  ],
+  [
+   "어",
+   "민수야, 나 왔어.",
+   "어, 왔어? 들어와.",
+   "Minsu, I'm here. / Oh, you're here? Come in."
+  ],
+  [
+   "응",
+   "내일 같이 점심 먹을래?",
+   "응, 좋아. 몇 시?",
+   "Want to have lunch tomorrow? / Yeah, sure. What time?"
+  ],
+  [
+   "음",
+   "뭐 먹고 싶어요?",
+   "음… 오늘은 비빔밥이요.",
+   "What do you want to eat? / Hmm… bibimbap today."
+  ],
+  [
+   "오",
+   "이거 제 첫 월급으로 샀어요.",
+   "오, 멋있다!",
+   "I bought this with my first paycheck. / Oh, nice!"
+  ],
+  [
+   "우와",
+   "여기가 남산타워예요.",
+   "우와, 서울이 다 보여요!",
+   "This is Namsan Tower. / Whoa, you can see all of Seoul!"
+  ],
+  [
+   "어머",
+   "저 다음 달에 결혼해요.",
+   "어머, 정말요? 축하해요!",
+   "I'm getting married next month. / Oh my, really? Congratulations!"
+  ],
+  [
+   "아야",
+   "아야! 문에 손을 부딪쳤어요.",
+   "괜찮아요? 어디 봐요.",
+   "Ouch! I banged my hand on the door. / Are you OK? Let me see."
+  ],
+  [
+   "아이참",
+   "얼굴 빨개졌어요!",
+   "아이참, 그만 봐요.",
+   "Your face has gone red! / Oh, come on, stop looking."
+  ],
+  [
+   "글쎄",
+   "이 영화 재미있을까?",
+   "글쎄, 잘 모르겠어.",
+   "Do you think this movie will be good? / Well, I'm not sure."
+  ],
+  [
+   "에이",
+   "나 어제 BTS 봤어.",
+   "에이, 거짓말!",
+   "I saw BTS yesterday. / Come on, no way!"
+  ],
+  [
+   "아싸",
+   "오늘 회식 없대요.",
+   "아싸! 집에 일찍 가야지.",
+   "They say there's no team dinner today. / Yes! I'm going home early."
+  ],
+  [
+   "헉",
+   "벌써 열한 시예요.",
+   "헉, 빨리 가야 돼요!",
+   "It's already eleven. / Yikes, I have to hurry!"
+  ],
+  [
+   "앗",
+   "앗, 커피 쏟았어요!",
+   "괜찮아요, 제가 닦을게요.",
+   "Oops, I spilled the coffee! / It's fine, I'll wipe it up."
+  ],
+  [
+   "아차",
+   "우산 가져왔어요?",
+   "아차, 집에 두고 왔어요.",
+   "Did you bring an umbrella? / Oh no, I left it at home."
+  ],
+  [
+   "휴",
+   "시험 끝났어요?",
+   "네, 휴, 이제 좀 쉬어야겠어요.",
+   "Is your exam over? / Yes, phew, now I need some rest."
+  ],
+  [
+   "에휴",
+   "오늘도 야근이에요?",
+   "에휴, 네. 일이 너무 많아요.",
+   "Overtime again today? / Sigh, yes. There's too much work."
+  ],
+  [
+   "쉿",
+   "쉿, 아기 자요.",
+   "아, 미안해요. 조용히 할게요.",
+   "Shh, the baby is sleeping. / Oh, sorry. I'll be quiet."
+  ],
+  [
+   "자",
+   "자, 이제 시작할까요?",
+   "네, 시작해요!",
+   "Right, shall we start now? / Yes, let's start!"
+  ],
+  [
+   "여보세요",
+   "여보세요? 민지 씨예요?",
+   "네, 저예요. 무슨 일이에요?",
+   "Hello? Is that Minji? / Yes, it's me. What's up?"
+  ],
+  [
+   "세상에",
+   "이 가방이 백만 원이에요.",
+   "세상에, 너무 비싸요!",
+   "This bag is a million won. / Oh my god, that's way too expensive!"
+  ],
+  [
+   "깜짝이야",
+   "왁!",
+   "아, 깜짝이야! 놀랐잖아.",
+   "Boo! / Ah, you scared me! That made me jump."
+  ],
+  [
+   "으악",
+   "으악, 벌레다!",
+   "가만히 있어요. 제가 잡을게요.",
+   "Aaah, a bug! / Stay still. I'll get it."
+  ],
+  [
+   "짜잔",
+   "짜잔! 생일 선물이에요.",
+   "와, 고마워요! 뭐예요?",
+   "Ta-da! It's your birthday present. / Wow, thank you! What is it?"
+  ],
+  [
+   "웩",
+   "이 우유 날짜 지났어요.",
+   "웩, 벌써 마셨는데!",
+   "This milk is past its date. / Yuck, I already drank some!"
+  ],
+  [
+   "오늘따라 더 예뻐요",
+   "오늘따라 더 예뻐요.",
+   "진짜요? 머리 좀 바꿨어요.",
+   "You look even prettier today. / Really? I changed my hair a bit."
+  ],
+  [
+   "이름도 예쁘네요",
+   "제 이름은 하늘이에요.",
+   "이름도 예쁘네요.",
+   "My name is Haneul. / Even your name is pretty."
+  ],
+  [
+   "왜 이렇게 귀여워요?",
+   "왜 이렇게 귀여워요?",
+   "에이, 농담하지 마세요.",
+   "Why are you so cute? / Oh, stop joking."
+  ],
+  [
+   "실물이 더 잘생겼어요",
+   "실물이 더 잘생겼어요.",
+   "하하, 사진이 잘 안 나왔나 봐요.",
+   "You're even better-looking in person. / Haha, I guess my photos don't do me justice."
+  ],
+  [
+   "일하는 모습이 멋있어요",
+   "일하는 모습이 멋있어요.",
+   "갑자기요? 고마워요.",
+   "You look cool when you're working. / Out of nowhere? Thank you."
+  ],
+  [
+   "미소가 예뻐요",
+   "미소가 예뻐요.",
+   "감사합니다. 그런 말 처음 들어요.",
+   "You have a pretty smile. / Thank you. That's the first time I've heard that."
+  ],
+  [
+   "눈웃음이 정말 예뻐요",
+   "눈웃음이 정말 예뻐요.",
+   "아이참, 부끄러워요.",
+   "Your eye smile is really pretty. / Oh, come on, I'm embarrassed."
+  ],
+  [
+   "목소리 듣고 싶었어요",
+   "웬일이에요? 전화를 다 하고.",
+   "그냥, 목소리 듣고 싶었어요.",
+   "What's the occasion? You actually called. / I just wanted to hear your voice."
+  ],
+  [
+   "제 스타일이에요",
+   "저 어때요?",
+   "솔직히, 완전 제 스타일이에요.",
+   "What do you think of me? / Honestly, you're totally my type."
+  ],
+  [
+   "이상형이 뭐예요?",
+   "이상형이 뭐예요?",
+   "음… 웃음이 많은 사람이요.",
+   "What's your ideal type? / Hmm… someone who laughs a lot."
+  ],
+  [
+   "첫인상이 좋았어요",
+   "첫인상이 좋았어요.",
+   "저도요. 처음부터 편했어요.",
+   "I liked my first impression of you. / Me too. I felt comfortable from the start."
+  ],
+  [
+   "밥 먹었어요?",
+   "밥 먹었어요?",
+   "아직이요. 같이 먹을래요?",
+   "Have you eaten? / Not yet. Want to eat together?"
+  ],
+  [
+   "라면 먹고 갈래요?",
+   "라면 먹고 갈래요?",
+   "하하, 그 영화 대사죠? 오늘은 집에 갈게요.",
+   "Want to come up for some ramyeon? / Haha, that's the line from the movie, right? I'm heading home tonight."
+  ],
+  [
+   "같이 밥 먹을래요?",
+   "이번 주말에 같이 밥 먹을래요?",
+   "좋아요, 언제 만날까요?",
+   "Want to have dinner together this weekend? / Sure, when shall we meet?"
+  ],
+  [
+   "연락해도 돼요?",
+   "오늘 즐거웠어요. 연락해도 돼요?",
+   "마음은 고맙지만 괜찮아요.",
+   "I had a great time today. Can I contact you? / Thanks for the thought, but I'm fine."
+  ],
+  [
+   "다음에 또 볼 수 있어요?",
+   "다음에 또 볼 수 있어요?",
+   "죄송하지만 만나는 사람이 있어요.",
+   "Can I see you again? / Sorry, but I'm seeing someone."
+  ],
+  [
+   "제가 커피 살게요",
+   "수업 끝나고 제가 커피 살게요.",
+   "좋은 분인데, 친구로 지내고 싶어요.",
+   "After class, I'll buy you a coffee. / You're a lovely person, but I'd like to stay friends."
+  ],
+  [
+   "음식이 정말 맛있네요",
+   "음식이 정말 맛있네요.",
+   "별거 아니에요. 많이 드세요.",
+   "The food is really delicious. / Oh, it's nothing special. Eat plenty."
+  ],
+  [
+   "이거 어떻게 만드셨어요?",
+   "이거 어떻게 만드셨어요?",
+   "간단해요. 다음에 알려 드릴게요.",
+   "How did you make this? / It's easy. I'll show you next time."
+  ],
+  [
+   "정말 잘하시네요",
+   "정말 잘하시네요.",
+   "아니에요, 아직 멀었어요.",
+   "You're really good at this. / Oh no, I still have a long way to go."
+  ],
+  [
+   "꼼꼼하시네요",
+   "보고서 봤어요. 꼼꼼하시네요.",
+   "좋게 봐 주셔서 감사해요.",
+   "I read your report. You're so thorough. / Thanks for seeing it that way."
+  ],
+  [
+   "동안이시네요",
+   "마흔이에요? 동안이시네요.",
+   "과찬이세요.",
+   "You're forty? You look so young for your age. / You're praising me too much."
+  ],
+  [
+   "아이가 정말 귀엽네요",
+   "아이가 정말 귀엽네요.",
+   "감사해요. 집에서는 말썽꾸러기예요.",
+   "Your child is so cute. / Thank you. At home he's a little troublemaker."
+  ],
+  [
+   "그 옷 잘 어울리세요",
+   "그 옷 잘 어울리세요.",
+   "칭찬해 주셔서 감사해요.",
+   "That outfit suits you. / Thank you for the compliment."
+  ],
+  [
+   "발음이 정말 좋으시네요",
+   "발음이 정말 좋으시네요.",
+   "아니에요. 선생님 덕분이에요.",
+   "Your pronunciation is really good. / Oh no. It's all thanks to my teacher."
+  ],
+  [
+   "많이 배웠습니다",
+   "오늘 발표에서 많이 배웠습니다.",
+   "별말씀을요. 들어 줘서 고마워요.",
+   "I learned a lot from your presentation today. / Don't mention it. Thanks for listening."
+  ]
+ ]
+}

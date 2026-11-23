@@ -3,7 +3,7 @@ course-de-en.25c3420c.js
 course-en-am.e9c1f564.js
 course-en-ar.78616ea8.js
 course-en-bn.c461472e.js
-course-en-ceb.f6f5d6a4.js
+course-en-ceb.ddd88f17.js
 course-en-cs.da82a1ca.js
 course-en-da.c8f8152f.js
 course-en-de.df3e734e.js
@@ -31,7 +31,7 @@ course-en-vi.d44988e4.js
 course-en-yue.91b759ec.js
 course-en-zh.d85761e6.js
 course-es-en.ea7b7010.js
-course-es-ko.e868b8ee.js
+course-es-ko.213442d7.js
 course-fr-en.880a59d8.js
 course-hi-en.519211f1.js
 course-id-en.2011c2ab.js
@@ -44,6 +44,7 @@ course-th-en.8f4e769a.js
 course-vi-en.a291d545.js
 course-zh-en.7f66ee47.js
 i18n-ar.eaecb222.js
+i18n-ceb.4c0ffe3b.js
 i18n-de.aba7a874.js
 i18n-es.5ac935f0.js
 i18n-fr.9cf95e5f.js
@@ -55,5 +56,6 @@ i18n-ko.a88bd665.js
 i18n-pt.24677035.js
 i18n-ru.a2f5a7fe.js
 i18n-th.442eb22d.js
+i18n-tl.0ab018ab.js
 i18n-vi.b9170ab9.js
 i18n-zh.47a30483.js
