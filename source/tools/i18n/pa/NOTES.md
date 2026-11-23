@@ -89,3 +89,14 @@ Language-name slots stand at the start of the line or after a colon (`{1}: ਤ�
 11. Greeting glosses «ਸ਼ੁਭ ਸਵੇਰ / ਸ਼ੁਭ ਦੁਪਹਿਰ / ਸ਼ੁਭ ਸ਼ਾਮ»; `Working late — nice job` «ਦੇਰ ਤੱਕ ਲੱਗੇ ਹੋ — ਸ਼ਾਬਾਸ਼».
 12. `Conversational in 90 days` «90 ਦਿਨਾਂ ਵਿੱਚ ਗੱਲਬਾਤ ਜੋਗੇ»; `I get by` «ਕੰਮ ਚੱਲਦਾ ਹੈ»; `Be kind…` «ਪਿਆਰ ਨਾਲ ਪੇਸ਼ ਆਓ…».
 13. Roadmap: «ਉਚਾਰਨ ਦੀਆਂ ਔਕੜਾਂ», «ਕਰਤਾ ਵਾਲੇ ਪੜਨਾਂਵ» / «ਕਰਮ ਵਾਲੇ ਪੜਨਾਂਵ», «ਕਹਾਣੀ ਸੁਣਾਉਣ ਵਾਲੇ ਟੈਂਸ», «If ਵਾਲੇ ਵਾਕ 1: if».
+
+## 7. Cold review 2026-11-23 (ui.json, `t` values only; 22 strings changed)
+
+- `{n} quiz / quizzes · last {n}%` is the deck-quiz history line on the Practice screen, so it now reads «ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%» (section 5, first bullet, is settled this way). «ਮਿੰਨੀ-ਟੈਸਟ» is kept for the 3-question lesson check only.
+- `Listen: {x}` (aria-label of every play button) and the drill chip `🎧 Listen` are «ਸੁਣੋ», like the other drill chips (ਲਿਖੋ, ਬਣਾਓ, ਬੋਲੋ). «ਸੁਣਨਾ» stays for the skill name (`Listening`, `listening`, the quiz-mode suffix `· listen`).
+- `Review due cards` (plan row on Today, a noun next to `New cards` and `Quick quiz`) is «ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ»; «ਬਾਕੀ» is only "left".
+- `~{n} day(s) of new cards` (4 templates) reads «ਨਵੇਂ ਕਾਰਡ: ~{1} ਦਿਨ» (invariant noun last, nothing after it).
+- Spelling «ਅਖ਼ੀਰ», «ਅਖ਼ੀਰਲਾ / ਅਖ਼ੀਰਲੀ» (was without the dot in 3 strings). «ਆਖ਼ਰੀ» ("last", adjective) is a different word and stays.
+- "tap" is always «ਟੈਪ ਕਰੋ» (2 strings said «ਦਬਾਓ»; «ਦਬਾਓ» stays for "press" / "long-press"). `every card × 3 passes` uses «ਗੇੜ» like the quiz header. `Delete everything` (privacy heading about the account) uses «ਡਿਲੀਟ». "right now" in three error messages is «ਇਸ ਵੇਲੇ». `목표 달성! Daily goal reached 🎉` no longer says the goal twice. Oblique plurals «ਸਾਰੇ ਡੈੱਕਾਂ ਦੇ», «ਉੱਚੇ ਬਾਕਸਾਂ ਵਿੱਚ».
+- U+0A5C ੜ is an ordinary letter (ਪੜ੍ਹੋ, ਲੜੀ, ਗਾਲੜੀ: 105 strings) and is not one of the six precomposed dotted letters; the file has none of U+0A33, 0A36, 0A59, 0A5A, 0A5B, 0A5E and every `t` equals its NFC form.
+- Open for the build: `tools/content/pa/meta.js` `TITLES` has «ਨਵਾਂ ਸਿਖਿਆਰਥੀ» and «ਸਥਾਨਕ ਵਾਸੀ» where this file has «ਸ਼ੁਰੂਆਤੀ» and «ਲੋਕਲ» (section 4 asks for the same seven words).

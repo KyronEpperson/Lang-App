@@ -38,16 +38,16 @@ practice:[
 <h3>ਅੰਦਾਜ਼ਾ</h3>
 {{ex:It'll be fine.|ਇਟਲ ਬੀ ਫ਼ਾਈਨ|ਸਭ ਠੀਕ ਹੋ ਜਾਵੇਗਾ}}{{ex:I think it will rain.|ਆਈ ਥ਼ਿੰਕ ਇਟ ਵਲ ਰੇਨ|ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਮੀਂਹ ਪਵੇਗਾ}}
 <h3>will ਤੇ be going to</h3>
-<div class="tbl"><table><tr><th></th><th>ਕਦੋਂ</th><th>ਮਿਸਾਲ</th></tr><tr><td class="k">will</td><td>ਹੁਣੇ ਦਾ ਫ਼ੈਸਲਾ, ਵਾਅਦਾ</td><td>I'll get the door.</td></tr><tr><td class="k">be going to</td><td>ਪਹਿਲਾਂ ਤੋਂ ਬਣੀ ਯੋਜਨਾ</td><td>I'm going to visit Shimla next month.</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>ਕਦੋਂ</th><th>ਮਿਸਾਲ</th></tr><tr><td class="k">will</td><td>ਹੁਣੇ ਦਾ ਫ਼ੈਸਲਾ, ਵਾਅਦਾ</td><td>I'll get the door.</td></tr><tr><td class="k">be going to</td><td>ਪਹਿਲਾਂ ਤੋਂ ਬਣਿਆ ਪਲਾਨ</td><td>I'm going to visit Shimla next month.</td></tr></table></div>
 <p>ਭਾਰਤ ਦੀਆਂ ਕਈ ਕਿਤਾਬਾਂ ਵਿੱਚ <b>I shall</b> ਮਿਲਦਾ ਹੈ। ਅਮਰੀਕੀ ਬੋਲਚਾਲ ਵਿੱਚ ਇਹ ਬਹੁਤ ਘੱਟ ਸੁਣਨ ਨੂੰ ਮਿਲਦਾ ਹੈ; <b>I'll</b> ਕਹੋ।</p>
 <div class="tip">ਸਭ ਤੋਂ ਆਮ ਗ਼ਲਤੀ: <b>I will to go.</b>, <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ will ਤੋਂ ਬਾਅਦ ਸਿਰਫ਼ V1 ਆਉਂਦਾ ਹੈ।</div>`,
-check:[["ਫ਼ੋਨ ਵੱਜ ਰਿਹਾ ਹੈ। \"ਮੈਂ ਚੁੱਕਦਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"ਉਸੇ ਪਲ ਕੀਤਾ ਫ਼ੈਸਲਾ: will। ਪੰਜਾਬੀ ਦੇ \"ਚੁੱਕਦਾ ਹਾਂ\" ਤੋਂ Simple Present ਨਾ ਬਣਾਓ।"],["I ___ be late. (ਮੈਂ ਦੇਰ ਨਹੀਂ ਕਰਾਂਗਾ)",["won't","willn't","don't will","not will"],0,"will not ਦਾ ਛੋਟਾ ਰੂਪ won't ਹੈ।"],["ਪਹਿਲਾਂ ਤੋਂ ਤੈਅ ਯੋਜਨਾ ਦੱਸਣ ਵਾਲਾ ਵਾਕ ਕਿਹੜਾ ਹੈ?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"ਪਹਿਲਾਂ ਤੋਂ ਬਣੀ ਯੋਜਨਾ ਲਈ be going to।"]],
+check:[["ਫ਼ੋਨ ਵੱਜ ਰਿਹਾ ਹੈ। \"ਮੈਂ ਚੁੱਕਦਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"ਉਸੇ ਪਲ ਕੀਤਾ ਫ਼ੈਸਲਾ: will। ਪੰਜਾਬੀ ਦੇ \"ਚੁੱਕਦਾ ਹਾਂ\" ਤੋਂ Simple Present ਨਾ ਬਣਾਓ।"],["I ___ be late. (ਮੈਂ ਦੇਰ ਨਹੀਂ ਕਰਾਂਗਾ)",["won't","willn't","don't will","not will"],0,"will not ਦਾ ਛੋਟਾ ਰੂਪ won't ਹੈ।"],["ਪਹਿਲਾਂ ਤੋਂ ਤੈਅ ਪਲਾਨ ਦੱਸਣ ਵਾਲਾ ਵਾਕ ਕਿਹੜਾ ਹੈ?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"ਪਹਿਲਾਂ ਤੋਂ ਬਣੇ ਪਲਾਨ ਲਈ be going to।"]],
 practice:[
 ["mc","\"ਮੈਂ ਤੇਰੀ ਮਦਦ ਕਰਾਂਗਾ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","will ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ।"],
 ["mc","ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ ਹੁਣੇ ਫ਼ੈਸਲਾ ਕਰਦਿਆਂ: \"ਮੈਂ ਪਾਸਤਾ ਲਵਾਂਗੀ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","ਉਸੇ ਪਲ ਦਾ ਫ਼ੈਸਲਾ: will + V1।"],
 ["mc","\"ਮੈਂ ਦੇਰ ਨਹੀਂ ਕਰਾਂਗਾ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","will not → won't। late ਵਿਸ਼ੇਸ਼ਣ ਹੈ, ਇਸ ਲਈ be ਵੀ ਚਾਹੀਦਾ ਹੈ।"],
 ["mc","\"ਕੀ ਤੂੰ ਆਵੇਂਗਾ?\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","Will you come?","Do you will come?","Will you coming?","Will come you?","ਸਵਾਲ ਵਿੱਚ Will + ਕਰਤਾ + V1।"],
-["mc","ਪਹਿਲਾਂ ਤੋਂ ਤੈਅ ਯੋਜਨਾ ਦੱਸਣ ਵਾਲਾ ਵਾਕ ਕਿਹੜਾ ਹੈ?","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","ਪਹਿਲਾਂ ਤੋਂ ਬਣੀ ਯੋਜਨਾ ਲਈ be going to।"],
+["mc","ਪਹਿਲਾਂ ਤੋਂ ਤੈਅ ਪਲਾਨ ਦੱਸਣ ਵਾਲਾ ਵਾਕ ਕਿਹੜਾ ਹੈ?","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","ਪਹਿਲਾਂ ਤੋਂ ਬਣੇ ਪਲਾਨ ਲਈ be going to।"],
 ["or","ਮੈਂ ਤੈਨੂੰ ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਾਂਗਾ","I'll call you later","calling","will ਤੋਂ ਬਾਅਦ V1, -ing ਰੂਪ ਨਹੀਂ।"],
 ["or","ਮੈਂ ਇੱਕ ਕੌਫ਼ੀ ਲਵਾਂਗੀ","I'll have a coffee","the coffees","ਆਰਡਰ ਵਿੱਚ ਇੱਕ ਕੱਪ — ਆਰਟੀਕਲ a, ਬਹੁਵਚਨ ਨਹੀਂ।"],
 ["or","ਮੈਂ ਬੂਹਾ ਖੋਲ੍ਹ ਦਿੰਦਾ ਹਾਂ","I'll open the door","a doors","ਇਹੀ ਬੂਹਾ, ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ — ਆਰਟੀਕਲ the। ਪੰਜਾਬੀ ਵਿੱਚ \"ਖੋਲ੍ਹ ਦਿੰਦਾ ਹਾਂ\", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ will।"],
@@ -90,10 +90,10 @@ practice:[
 ["ty","ਮੇਰੇ ਕੋਲ ਕਦੇ ਬਿੱਲੀ ਨਹੀਂ ਰਹੀ (have ਨਾਲ)","I've never had a cat","never · had · cat — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਬਿੱਲੀ — ਆਰਟੀਕਲ a।"]]},
 { id:"modals", title:"have to, must, should, might: ਜ਼ਿੰਮੇਵਾਰੀ, ਸਲਾਹ, ਸੰਭਾਵਨਾ", blurb:"ਕਰਨਾ ਪੈਣਾ ਹੈ, ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਸ਼ਾਇਦ ਹੋ ਜਾਵੇ — ਪੰਜਾਬੀ ਦੇ \"ਚਾਹੀਦਾ\" ਤੇ \"ਸਕਦਾ ਹੈ\" ਨੂੰ ਵੱਖ-ਵੱਖ ਕਰੋ।", deck:"ਡਾਕਟਰ ਤੇ ਐਮਰਜੈਂਸੀ", body:`
 <p>ਜ਼ਿੰਮੇਵਾਰੀ, ਸਲਾਹ ਤੇ ਸੰਭਾਵਨਾ ਲਈ ਚਾਰ ਰੂਪ ਹਨ। ਸਾਰਿਆਂ ਤੋਂ ਬਾਅਦ <b>V1</b> ਆਉਂਦਾ ਹੈ। should, must, might ਮੋਡਲ ਹਨ ਤੇ ਇਹਨਾਂ ਤੋਂ ਬਾਅਦ to ਨਹੀਂ ਲੱਗਦਾ; have to ਵਿੱਚ to ਉਸੇ ਦਾ ਹਿੱਸਾ ਹੈ।</p>
-<h3>ਪੰਜਾਬੀ ਦਾ "ਚਾਹੀਦਾ" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਤਿੰਨ ਤਰ੍ਹਾਂ</h3>
+<h3>"ਕਰਨਾ ਹੈ" ਤੇ "ਚਾਹੀਦਾ": ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਤਿੰਨ ਵੱਖਰੇ ਰੂਪ</h3>
 <div class="tbl"><table><tr><th>ਪੰਜਾਬੀ</th><th>ਅੰਗਰੇਜ਼ੀ</th></tr><tr><td>"ਮੈਂ ਜਾਣਾ ਹੈ / ਮੈਨੂੰ ਜਾਣਾ ਪੈਣਾ ਹੈ"</td><td class="k">I have to go.</td></tr><tr><td>"ਤੁਹਾਨੂੰ ਡਾਕਟਰ ਨੂੰ ਦਿਖਾਉਣਾ ਚਾਹੀਦਾ ਹੈ"</td><td class="k">You should see a doctor.</td></tr><tr><td>"ਮੈਨੂੰ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ"</td><td class="k">I need water.</td></tr></table></div>
 <h3>have to: ਕਰਨਾ ਹੈ, ਕਰਨਾ ਪੈਣਾ ਹੈ</h3>
-<p>ਰੋਜ਼ ਦੀ ਬੋਲਚਾਲ ਵਿੱਚ ਸਭ ਤੋਂ ਆਮ। he, she ਨਾਲ <b>has to</b>।</p>
+<p>ਰੋਜ਼ ਦੀ ਬੋਲਚਾਲ ਵਿੱਚ ਸਭ ਤੋਂ ਆਮ। he, she, it ਨਾਲ <b>has to</b>।</p>
 {{ex:I have to work tomorrow.|ਆਈ ਹੈਫ਼ ਟ ਵਰ੍ਕ ਟˈਮਾਰੋ|ਮੈਂ ਕੱਲ੍ਹ ਕੰਮ ਕਰਨਾ ਹੈ}}{{ex:She has to go now.|ਸ਼ੀ ਹੈਸ ਟ ਗੋ ਨਾਊ|ਉਸ ਨੇ ਹੁਣ ਜਾਣਾ ਹੈ}}
 <h3>don't have to ਤੇ must not ਇੱਕੋ ਨਹੀਂ ਹਨ</h3>
 <div class="tbl"><table><tr><th>ਵਾਕ</th><th>ਮਤਲਬ</th></tr><tr><td class="k">You don't have to come.</td><td>ਆਉਣ ਦੀ ਲੋੜ ਨਹੀਂ (ਚਾਹੋ ਤਾਂ ਆ ਸਕਦੇ ਹੋ)</td></tr><tr><td class="k">You must not smoke here.</td><td>ਇੱਥੇ ਸਿਗਰਟ ਪੀਣੀ ਮਨ੍ਹਾ ਹੈ</td></tr></table></div>
@@ -106,7 +106,7 @@ practice:[
 <div class="tip">ਸਭ ਤੋਂ ਆਮ ਗ਼ਲਤੀ: <b>You should to go.</b>, <b>It might rains.</b> ✗ → <b>You should go.</b>, <b>It might rain.</b> ✓</div>`,
 check:[["\"ਤੁਹਾਨੂੰ ਆਉਣ ਦੀ ਲੋੜ ਨਹੀਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["You must not come.","You don't have to come.","You shouldn't to come.","You haven't to come."],1,"\"ਲੋੜ ਨਹੀਂ\" = don't have to। must not ਦਾ ਮਤਲਬ \"ਮਨ੍ਹਾ ਹੈ\"।"],["ਸਲਾਹ ਦੇ ਰਹੇ ਹੋ: You ___ see a doctor.",["might","have","should","must to"],2,"ਸਲਾਹ ਲਈ should + V1।"],["She ___ to work today. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["have","must","should","has"],3,"she ਨਾਲ has to।"]],
 practice:[
-["mc","\"ਮੈਂ ਕੱਲ੍ਹ ਕੰਮ ਕਰਨਾ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow.","have to ਤੋਂ ਬਾਅਦ V1।"],
+["mc","\"ਮੈਂ ਕੱਲ੍ਹ ਕੰਮ ਕਰਨਾ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ? (have to ਨਾਲ)","I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow.","have to ਤੋਂ ਬਾਅਦ V1।"],
 ["mc","\"ਤੁਹਾਨੂੰ ਆਉਣ ਦੀ ਲੋੜ ਨਹੀਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","You don't have to come.","You must not come.","You don't must come.","You haven't come to.","\"ਲੋੜ ਨਹੀਂ\" = don't have to।"],
 ["mc","\"ਤੁਹਾਨੂੰ ਡਾਕਟਰ ਨੂੰ ਦਿਖਾਉਣਾ ਚਾਹੀਦਾ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","You should see a doctor.","You should to see a doctor.","You should seeing a doctor.","You might a doctor see.","should + V1; ਕੋਈ ਵੀ ਇੱਕ ਡਾਕਟਰ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
 ["mc","\"ਸ਼ਾਇਦ ਮੀਂਹ ਪਵੇ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","It might rain.","It might rains.","It might to rain.","It mights rain.","might + V1, ਇਸ ਵਿੱਚ -s ਨਹੀਂ ਲੱਗਦਾ।"],
@@ -154,7 +154,7 @@ practice:[
 { id:"articles-2", title:"the ਕਿੱਥੇ ਲੱਗੇ, ਕਿੱਥੇ ਨਹੀਂ: ਇੱਕੋ-ਇੱਕ ਚੀਜ਼ਾਂ ਤੇ ਆਮ ਗੱਲਾਂ", blurb:"piano ਨਾਲ the, cricket ਨਾਲ ਕੁਝ ਨਹੀਂ। ਦੇਸ਼ਾਂ ਦੇ ਨਾਂ ਤੇ \"ਸਾਰੇ\" ਵਾਲੀ ਆਮ ਗੱਲ ਵੀ।", deck:"ਸਫ਼ਰ (ਏਅਰਪੋਰਟ ਤੇ ਹੋਟਲ)", body:`
 <p>ਆਰਟੀਕਲ ਦਾ ਤੀਜਾ ਪਾਠ। ਇੱਥੇ ਉਹ ਥਾਵਾਂ ਹਨ ਜਿੱਥੇ ਨਿਯਮ ਪੱਕਾ ਹੈ: ਕਿਤੇ the ਲੱਗਦਾ ਹੀ ਹੈ, ਕਿਤੇ ਕਦੇ ਨਹੀਂ। ਪੰਜਾਬੀ ਵਿੱਚ ਆਰਟੀਕਲ ਨਹੀਂ ਹੁੰਦੇ, ਇਸ ਲਈ ਗ਼ਲਤੀ ਦੋਵੇਂ ਪਾਸੇ ਹੁੰਦੀ ਹੈ — ਜ਼ਰੂਰੀ the ਰਹਿ ਜਾਂਦਾ ਹੈ ਤੇ ਵਾਧੂ the ਲੱਗ ਜਾਂਦਾ ਹੈ (<b>The life is hard.</b> ✗, <b>the Canada</b> ✗)।</p>
 <h3>the ਕਿੱਥੇ ਲੱਗਦਾ ਹੈ</h3>
-<div class="tbl"><table><tr><th>ਕਦੋਂ</th><th>ਮਿਸਾਲ</th></tr><tr><td>ਦੁਨੀਆ ਵਿੱਚ ਇੱਕੋ-ਇੱਕ</td><td class="k">the sun, the internet</td></tr><tr><td>ਸਾਜ਼ (ਵਜਾਉਣ ਵਾਲੇ)</td><td class="k">play the piano</td></tr><tr><td>ਦਰਿਆ, ਸਮੁੰਦਰ</td><td class="k">the Ganges, the Pacific</td></tr><tr><td>States, Kingdom ਵਰਗੇ ਸ਼ਬਦ ਵਾਲੇ ਜਾਂ ਬਹੁਵਚਨ ਨਾਂ ਵਾਲੇ ਦੇਸ਼</td><td class="k">the United States (the US), the UK, the Netherlands</td></tr></table></div>
+<div class="tbl"><table><tr><th>ਕਦੋਂ</th><th>ਮਿਸਾਲ</th></tr><tr><td>ਦੁਨੀਆ ਵਿੱਚ ਇੱਕੋ-ਇੱਕ</td><td class="k">the sun, the internet</td></tr><tr><td>ਸਾਜ਼ ਵਜਾਉਣਾ (ਬੋਲਚਾਲ ਵਿੱਚ the ਤੋਂ ਬਿਨਾਂ ਵੀ ਸੁਣੋਗੇ)</td><td class="k">play the piano</td></tr><tr><td>ਦਰਿਆ, ਸਮੁੰਦਰ</td><td class="k">the Ganges, the Pacific</td></tr><tr><td>States, Kingdom ਵਰਗੇ ਸ਼ਬਦ ਵਾਲੇ ਜਾਂ ਬਹੁਵਚਨ ਨਾਂ ਵਾਲੇ ਦੇਸ਼</td><td class="k">the United States (the US), the UK, the Netherlands</td></tr></table></div>
 {{ex:I play the piano.|ਆਈ ਪ੍ਲੇ ਦ਼ ਪੀˈਐਨੋ|ਮੈਂ ਪਿਆਨੋ ਵਜਾਉਂਦਾ ਹਾਂ}}{{ex:She's from the United States.|ਸ਼ੀਜ਼ ਫ਼੍ਰਮ ਦ਼ ਯੂˈਨਾਈਟਿਡ ਸ੍ਟੇਟ੍ਸ|ਉਹ ਅਮਰੀਕਾ ਤੋਂ ਹੈ}}{{ex:I found it on the internet.|ਆਈ ਫ਼ਾਊਂਡ ਇਟ ਆਨ ਦ਼ੀ ˈਇੰਟਰ੍ਨੇਟ|ਮੈਨੂੰ ਇਹ ਇੰਟਰਨੈੱਟ ਤੇ ਲੱਭਿਆ}}
 <h3>ਆਰਟੀਕਲ ਕਿੱਥੇ ਨਹੀਂ ਲੱਗਦਾ</h3>
 <div class="tbl"><table><tr><th>ਕਦੋਂ</th><th>ਮਿਸਾਲ</th></tr><tr><td>ਬਹੁਤੇ ਦੇਸ਼ ਤੇ ਸ਼ਹਿਰ</td><td class="k">India, Canada, Amritsar</td></tr><tr><td>ਖੇਡ, ਭਾਸ਼ਾ, ਖਾਣੇ ਦਾ ਵੇਲਾ</td><td class="k">play cricket, speak Punjabi, have lunch</td></tr><tr><td>"ਸਾਰੇ" ਵਾਲੀ ਆਮ ਗੱਲ</td><td class="k">Dogs are cute. I love music. Life is short.</td></tr></table></div>
@@ -177,7 +177,7 @@ practice:[
 ["fi","The sun rises in __ east.","ਸੂਰਜ ਪੂਰਬ ਵਿੱਚ ਚੜ੍ਹਦਾ ਹੈ","the","a|an|some","ਦਿਸ਼ਾ (east, west) ਤੋਂ ਪਹਿਲਾਂ the ਲੱਗਦਾ ਹੈ।"],
 ["fi","I love __.","ਮੈਨੂੰ ਸੰਗੀਤ ਬਹੁਤ ਪਸੰਦ ਹੈ","music","the musics|a music|musics","music ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: ਸਾਰੇ ਸੰਗੀਤ ਦੀ ਗੱਲ ਵਿੱਚ ਨਾ the, ਨਾ -s।"],
 ["ty","ਮੈਂ ਅਮਰੀਕਾ ਤੋਂ ਹਾਂ","I'm from the United States|I'm from the US|I'm from America","I'm from · United States — ਆਰਟੀਕਲ the","a","United States ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ the।"],
-["ty","ਮੈਂ ਗਿਟਾਰ ਵਜਾਉਂਦਾ ਹਾਂ","I play the guitar|I play guitar","play · guitar — ਆਰਟੀਕਲ the","a","ਸਾਜ਼ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ the।"],
+["ty","ਮੈਂ ਗਿਟਾਰ ਵਜਾਉਂਦਾ ਹਾਂ","I play the guitar|I play guitar","play · guitar — ਆਰਟੀਕਲ the","a","ਸਾਜ਼ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ the; ਅਮਰੀਕੀ ਬੋਲਚਾਲ ਵਿੱਚ play guitar ਵੀ ਚੱਲਦਾ ਹੈ।"],
 ["ty","ਬਿੱਲੀਆਂ ਪਿਆਰੀਆਂ ਹੁੰਦੀਆਂ ਹਨ","Cats are cute","cat — ਆਰਟੀਕਲ ਨਹੀਂ, ਬਹੁਵਚਨ","The cat","ਸਾਰੀਆਂ ਬਿੱਲੀਆਂ ਦੀ ਗੱਲ — ਆਰਟੀਕਲ ਨਹੀਂ, ਬਹੁਵਚਨ cats।"]]},
 { id:"first-conditional", title:"If ਵਾਲੇ ਵਾਕ 1: If + Simple Present, will", blurb:"\"ਜੇ ਇਸ ਤਰ੍ਹਾਂ ਹੋਇਆ ਤਾਂ…\" — if ਵਾਲੇ ਹਿੱਸੇ ਵਿੱਚ will ਨਹੀਂ ਲੱਗਦਾ, ਭਾਵੇਂ ਪੰਜਾਬੀ ਵਿੱਚ \"ਪਵੇਗਾ\" ਹੋਵੇ।", deck:"ਦਫ਼ਤਰ ਤੇ ਈਮੇਲ", body:`
 <p>ਜੋ ਸੱਚਮੁੱਚ ਹੋ ਸਕਦਾ ਹੈ, ਉਸ ਲਈ If ਵਾਲਾ ਵਾਕ (conditional): <b>If + Simple Present, will + V1</b>। ਪੰਜਾਬੀ ਵਿੱਚ ਅਕਸਰ ਦੋਵਾਂ ਹਿੱਸਿਆਂ ਵਿੱਚ ਭਵਿੱਖ ਆਉਂਦਾ ਹੈ — "ਜੇ ਕੱਲ੍ਹ ਮੀਂਹ <b>ਪਵੇਗਾ</b> ਤਾਂ ਮੈਂ ਘਰ <b>ਰਹਾਂਗਾ</b>" — ਪਰ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ if ਵਾਲਾ ਹਿੱਸਾ <b>Simple Present</b> ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ, ਭਾਵੇਂ ਗੱਲ ਕੱਲ੍ਹ ਦੀ ਹੋਵੇ।</p>
@@ -206,7 +206,7 @@ practice:[
 ["fi","__ you need help, call me.","ਮਦਦ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਮੈਨੂੰ ਫ਼ੋਨ ਕਰ ਦੇਈਂ","If|When","So|But|Because","\"ਜੇ\" = if।"],
 ["ty","ਟਾਈਮ ਹੋਇਆ ਤਾਂ ਮੈਂ ਮਦਦ ਕਰ ਦਿਆਂਗਾ","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","if ਤੋਂ ਬਾਅਦ will ਨਹੀਂ ਲੱਗਦਾ।"],
 ["ty","ਮੀਂਹ ਪਿਆ ਤਾਂ ਮੈਂ ਟੈਕਸੀ ਲੈ ਲਵਾਂਗੀ","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਟੈਕਸੀ — ਆਰਟੀਕਲ a।"],
-["ty","ਬੱਸ ਨਿਕਲ ਜਾਵੇਗੀ (miss ਨਾਲ)","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — ਆਰਟੀਕਲ the","a","ਉਹੀ ਬੱਸ ਜਿਹੜੀ ਫੜਨੀ ਹੈ — ਆਰਟੀਕਲ the।"]]},
+["ty","ਤੇਰੀ ਬੱਸ ਨਿਕਲ ਜਾਵੇਗੀ (miss ਨਾਲ)","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — ਆਰਟੀਕਲ the","a","ਉਹੀ ਬੱਸ ਜਿਹੜੀ ਫੜਨੀ ਹੈ — ਆਰਟੀਕਲ the।"]]},
 { id:"relative", title:"who / that: ਨਾਂਵ ਤੋਂ ਬਾਅਦ ਉਸ ਬਾਰੇ ਜਾਣਕਾਰੀ", blurb:"ਪੰਜਾਬੀ \"ਜਿਹੜਾ… ਉਹ…\" ਨਾਲ ਗੱਲ ਦੋ ਵਾਰ ਕਹਿੰਦੀ ਹੈ, ਅੰਗਰੇਜ਼ੀ ਇੱਕ ਵਾਰ: the man who came is…", deck:"ਖ਼ਰੀਦਦਾਰੀ ਤੇ ਭੁਗਤਾਨ", body:`
 <p>ਪੰਜਾਬੀ ਵਿੱਚ ਕਿਸੇ ਨਾਂਵ ਬਾਰੇ ਦੱਸਣ ਦੇ ਦੋ ਤਰੀਕੇ ਹਨ: ਨਾਂਵ ਤੋਂ ਪਹਿਲਾਂ ("ਮੇਰੀ ਖ਼ਰੀਦੀ ਹੋਈ ਕਿਤਾਬ") ਜਾਂ ਜਿਹੜਾ… ਉਹ… ਨਾਲ ("ਜਿਹੜੀ ਕਿਤਾਬ ਮੈਂ ਖ਼ਰੀਦੀ, ਉਹ…")। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਨਾਂਵ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ ਤੇ ਉਸ ਬਾਰੇ ਜਾਣਕਾਰੀ <b>ਬਾਅਦ ਵਿੱਚ</b>, who / which / that ਵਾਲੇ ਉਪਵਾਕ ਵਿੱਚ: the book <b>that I bought</b>।</p>
 <h3>ਇਨਸਾਨ ਲਈ who</h3>
@@ -233,8 +233,8 @@ practice:[
 ["or","ਇਹ ਉਹ ਕਿਤਾਬ ਹੈ ਜਿਹੜੀ ਮੈਂ ਖ਼ਰੀਦੀ","This is the book I bought","a what","ਮੇਰੀ ਖ਼ਰੀਦੀ ਹੋਈ ਉਹੀ ਕਿਤਾਬ — ਆਰਟੀਕਲ the।"],
 ["or","ਮੇਰਾ ਇੱਕ ਦੋਸਤ ਹੈ ਜਿਹੜਾ ਖਾਣਾ ਬਣਾਉਂਦਾ ਹੈ","I have a friend who cooks","the which","ਪਹਿਲੀ ਵਾਰ ਜ਼ਿਕਰ, ਇੱਕ ਦੋਸਤ — ਆਰਟੀਕਲ a।"],
 ["or","ਅਸੀਂ ਜਿਹੜੀ ਫ਼ਿਲਮ ਦੇਖੀ, ਉਹ ਸ਼ਾਨਦਾਰ ਸੀ","The movie we saw was great","A movies","ਸਾਡੀ ਦੇਖੀ ਹੋਈ ਉਹੀ ਫ਼ਿਲਮ — ਆਰਟੀਕਲ the; \"ਉਹ\" ਦੁਬਾਰਾ ਨਹੀਂ ਆਉਂਦਾ।"],
-["fi","the man __ lives here","ਇੱਥੇ ਰਹਿਣ ਵਾਲਾ ਆਦਮੀ","who|that","what|he|which","ਇਨਸਾਨ ਲਈ who।"],
-["fi","the book __ I read","ਮੇਰੀ ਪੜ੍ਹੀ ਹੋਈ ਕਿਤਾਬ","that|which","who|what|it","ਚੀਜ਼ ਲਈ that।"],
+["fi","the man __ lives here","ਇੱਥੇ ਰਹਿਣ ਵਾਲਾ ਆਦਮੀ","who|that","what|he|which","ਇਨਸਾਨ ਲਈ who (that ਵੀ ਚੱਲਦਾ ਹੈ); which ਚੀਜ਼ਾਂ ਲਈ ਹੈ।"],
+["fi","the book __ I read","ਮੇਰੀ ਪੜ੍ਹੀ ਹੋਈ ਕਿਤਾਬ","that|which","who|what|it","ਚੀਜ਼ ਲਈ that ਜਾਂ which; who ਇਨਸਾਨ ਲਈ ਹੈ।"],
 ["fi","the cafe __ we met","ਉਹ ਕੈਫ਼ੇ ਜਿੱਥੇ ਅਸੀਂ ਮਿਲੇ ਸੀ","where","who|what|it","ਥਾਂ ਲਈ where।"],
 ["ty","ਇਹ ਉਹ ਕਿਤਾਬ ਹੈ ਜਿਹੜੀ ਮੈਂ ਖ਼ਰੀਦੀ","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — ਆਰਟੀਕਲ the","a","ਮੇਰੀ ਖ਼ਰੀਦੀ ਹੋਈ ਉਹੀ ਕਿਤਾਬ — ਆਰਟੀਕਲ the।"],
 ["ty","ਮੇਰਾ ਇੱਕ ਦੋਸਤ ਹੈ ਜਿਹੜਾ ਕੋਰੀਅਨ ਬੋਲਦਾ ਹੈ","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — ਆਰਟੀਕਲ a","the","ਪਹਿਲੀ ਵਾਰ ਜ਼ਿਕਰ, ਇੱਕ ਦੋਸਤ — ਆਰਟੀਕਲ a।"],

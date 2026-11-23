@@ -32,7 +32,7 @@ exports.LESSONS = [
 <p>ਜੀਭ ਦੀ ਨੋਕ ਉੱਪਰਲੇ ਤੇ ਹੇਠਲੇ ਦੰਦਾਂ ਵਿਚਕਾਰੋਂ <b>ਥੋੜ੍ਹੀ ਜਿਹੀ ਬਾਹਰ</b> ਕੱਢੋ ਤੇ ਹਵਾ ਨਿਕਲਦੀ ਰਹਿਣ ਦਿਓ। ਸਿਰਫ਼ ਹਵਾ ਨਿਕਲੇ ਤਾਂ <i>think</i> ਵਾਲਾ th (ਥ਼); ਗਲਾ ਵੀ ਗੂੰਜੇ ਤਾਂ <i>this</i> ਵਾਲਾ th (ਦ਼)। ਪੰਜਾਬੀ ਦਾ ਥ ਜਾਂ ਦ ਬੋਲੋਗੇ ਤਾਂ ਸੁਣਨ ਵਾਲੇ ਨੂੰ three ਦੀ ਥਾਂ <i>tree</i> ਤੇ they ਦੀ ਥਾਂ <i>day</i> ਸੁਣ ਸਕਦਾ ਹੈ।</p>
 {{ex:think|ਥ਼ਿੰਕ|ਸੋਚਣਾ}}{{ex:three|ਥ਼੍ਰੀ|ਤਿੰਨ}}{{ex:tree|ਟ੍ਰੀ|ਰੁੱਖ}}{{ex:this|ਦ਼ਿਸ|ਇਹ}}
 <h3>ਫ਼ ਤੇ ਜ਼: F ਤੇ Z</h3>
-<p><b>F (ਫ਼)</b>: ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ ਰੱਖ ਕੇ ਹਵਾ ਕੱਢੋ; ਬੁੱਲ੍ਹ ਬੰਦ ਨਹੀਂ ਹੁੰਦੇ। ਬੁੱਲ੍ਹ ਬੰਦ ਕਰ ਕੇ ਬੋਲਿਆ ਫ ਅੰਗਰੇਜ਼ੀ ਸੁਣਨ ਵਾਲੇ ਨੂੰ P ਵਰਗਾ ਲੱਗਦਾ ਹੈ: <i>fan</i> ਦੀ ਥਾਂ <i>pan</i>। <b>Z (ਜ਼)</b> ਗੂੰਜਦਾ ਹੋਇਆ "ਸ" ਹੈ, ਜ ਨਹੀਂ: zoo ਨੂੰ "ਜੂ" ਕਹੋ ਤਾਂ <i>Jew</i> ਸੁਣਦਾ ਹੈ। usually, television ਵਿੱਚ ਜ਼ ਨੂੰ ਸ਼ ਵਾਂਗ ਨਰਮ ਬੋਲੋ, ਪਰ ਗੂੰਜ ਨਾਲ। V ਤੇ B ਦਾ ਫ਼ਰਕ ਵੀ ਇੱਥੇ ਹੀ ਹੈ: very (ਵ਼) / berry (ਬ)।</p>
+<p><b>F (ਫ਼)</b>: ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ ਰੱਖ ਕੇ ਹਵਾ ਕੱਢੋ; ਬੁੱਲ੍ਹ ਬੰਦ ਨਹੀਂ ਹੁੰਦੇ। ਬੁੱਲ੍ਹ ਬੰਦ ਕਰ ਕੇ ਬੋਲਿਆ ਫ ਅੰਗਰੇਜ਼ੀ ਸੁਣਨ ਵਾਲੇ ਨੂੰ P ਵਰਗਾ ਲੱਗਦਾ ਹੈ: <i>fan</i> ਦੀ ਥਾਂ <i>pan</i>। <b>Z (ਜ਼)</b> ਗੂੰਜਦਾ ਹੋਇਆ "ਸ" ਹੈ, ਜ ਨਹੀਂ: zoo ਨੂੰ ਪੰਜਾਬੀ ਵਾਲੇ ਜ ਨਾਲ "ਜੂ" ਨਾ ਕਹੋ। usually, television ਵਿੱਚ ਜ਼ ਨੂੰ ਸ਼ ਵਾਂਗ ਨਰਮ ਬੋਲੋ, ਪਰ ਗੂੰਜ ਨਾਲ। V ਤੇ B ਦਾ ਫ਼ਰਕ ਵੀ ਇੱਥੇ ਹੀ ਹੈ: very (ਵ਼) / berry (ਬ)।</p>
 {{ex:fan|ਫ਼ੈਨ|ਪੱਖਾ}}{{ex:pan|ਪੈਨ|ਤਵਾ / ਕੜਾਹੀ}}{{ex:coffee|ˈਕੌਫ਼ੀ|ਕੌਫ਼ੀ}}{{ex:zoo|ਜ਼ੂ|ਚਿੜੀਆਘਰ}}{{ex:berry|ˈਬੇਰੀ|ਬੇਰ ਵਰਗਾ ਛੋਟਾ ਫਲ}}
 <h3>ਜ਼ੋਰ: ਇੱਕ ਹਿੱਸਾ ਭਾਰਾ, ਬਾਕੀ ਹਲਕੇ</h3>
 <p>ਪੰਜਾਬੀ ਵਿੱਚ ਸ਼ਬਦ ਦੇ ਸਾਰੇ ਹਿੱਸੇ ਲਗਭਗ ਬਰਾਬਰ ਜ਼ੋਰ ਨਾਲ ਬੋਲੇ ਜਾਂਦੇ ਹਨ। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਦੋ ਜਾਂ ਵੱਧ ਹਿੱਸਿਆਂ ਵਾਲੇ ਹਰ ਸ਼ਬਦ ਦਾ <b>ਇੱਕ ਹਿੱਸਾ ਜ਼ੋਰ ਨਾਲ, ਲੰਮਾ ਤੇ ਉੱਚਾ</b> ਬੋਲਿਆ ਜਾਂਦਾ ਹੈ, ਤੇ ਬਾਕੀ ਹਿੱਸੇ ਛੋਟੇ ਤੇ ਹਲਕੇ, ਅਕਸਰ ਹਲਕੇ "ਅ" (schwa) ਨਾਲ। ਆਵਾਜ਼ਾਂ ਠੀਕ ਹੋਣ ਪਰ ਜ਼ੋਰ ਗ਼ਲਤ ਹੋਵੇ, ਤਾਂ ਵੀ ਸ਼ਬਦ ਪਛਾਣਿਆ ਨਹੀਂ ਜਾਂਦਾ। ਅੱਧਕ ਵਾਲੀ ਆਦਤ ਵੀ ਛੱਡੋ: happy, city ਵਿੱਚ p ਤੇ t ਇੱਕੋ ਵਾਰ ਬੋਲੇ ਜਾਂਦੇ ਹਨ, ਦੱਬ ਕੇ ਨਹੀਂ।</p>
@@ -62,7 +62,7 @@ exports.LESSONS = [
 {{ex:I love dogs.|ਆਈ ਲਵ਼ ਡੌਗ੍ਜ਼|ਮੈਨੂੰ ਕੁੱਤੇ ਬਹੁਤ ਪਸੰਦ ਹਨ (ਸਾਰੇ ਕੁੱਤੇ, ਆਮ ਗੱਲ)}}{{ex:I don't drink coffee.|ਆਈ ਡੋਂਟ ਡ੍ਰਿੰਕ ˈਕੌਫ਼ੀ|ਮੈਂ ਕੌਫ਼ੀ ਨਹੀਂ ਪੀਂਦਾ}}{{ex:Let's have lunch.|ਲੇਟ੍ਸ ਹੈਵ਼ ਲੰਚ|ਚੱਲੋ, ਦੁਪਹਿਰ ਦਾ ਖਾਣਾ ਖਾਈਏ}}
 <div class="tip">ਸਭ ਤੋਂ ਆਮ ਗ਼ਲਤੀ: <b>I'm teacher. ✗ → I'm a teacher. ✓</b> ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ a ਕਦੇ ਨਾ ਛੱਡੋ।</div>`},
 
-{ id:"be", title:"3 · be (am, is, are) ਤੇ ਬਾਕੀ ਕਿਰਿਆਵਾਂ", blurb:"am / is / are ਤੇ do / does ਨੂੰ ਇੱਕੋ ਵਾਕ ਵਿੱਚ ਨਾ ਰਲਾਓ — ਤੇ \"ਉਹ\" ਲਈ he, she ਜਾਂ it ਚੁਣੋ।", deck:"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ", body:`
+{ id:"be", title:"3 · be (am, is, are) ਤੇ ਹੋਰ ਕਿਰਿਆਵਾਂ", blurb:"am / is / are ਤੇ do / does ਨੂੰ ਇੱਕੋ ਵਾਕ ਵਿੱਚ ਨਾ ਰਲਾਓ — ਤੇ \"ਉਹ\" ਲਈ he, she ਜਾਂ it ਚੁਣੋ।", deck:"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ", body:`
 <p>ਪੰਜਾਬੀ ਦੇ ਲਗਭਗ ਹਰ ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ਹਾਂ / ਹੈ / ਹਨ ਆਉਂਦਾ ਹੈ: "ਮੈਂ ਥੱਕਿਆ ਹਾਂ", "ਮੈਂ ਚਾਹ ਪੀਂਦਾ ਹਾਂ"। ਇਸ ਲਈ ਲੱਗਦਾ ਹੈ ਕਿ ਅੰਗਰੇਜ਼ੀ ਦੇ ਹਰ ਵਾਕ ਵਿੱਚ ਵੀ am / is ਚਾਹੀਦਾ ਹੈ। ਇਉਂ ਨਹੀਂ ਹੈ। ਅੰਗਰੇਜ਼ੀ ਵਾਕ ਦੀ ਕਿਰਿਆ ਜਾਂ ਤਾਂ <b>be (am, is, are)</b> ਹੁੰਦੀ ਹੈ ਜਾਂ <b>ਕੋਈ ਹੋਰ ਕਿਰਿਆ</b> (like, live, work, agree…), ਤੇ ਇਸੇ ਤੋਂ ਤੈਅ ਹੁੰਦਾ ਹੈ ਕਿ ਨਾਂਹ-ਵਾਚਕ ਵਾਕ ਤੇ ਸਵਾਲ ਕਿਵੇਂ ਬਣਨਗੇ।</p>
 <h3>ਦੋ ਤਰ੍ਹਾਂ ਦੀਆਂ ਕਿਰਿਆਵਾਂ</h3>
 <div class="tbl"><table><tr><th></th><th>be</th><th>ਹੋਰ ਕਿਰਿਆ</th></tr><tr><td>ਕੰਮ</td><td>ਪਛਾਣ, ਥਾਂ, ਹਾਲਤ (ਹਾਂ, ਹੈ, … ਵਿੱਚ ਹੈ)</td><td>ਬਾਕੀ ਸਭ: ਪਸੰਦ ਕਰਨਾ, ਰਹਿਣਾ, ਖਾਣਾ, ਸਹਿਮਤ ਹੋਣਾ</td></tr><tr><td>ਉਦਾਹਰਨ</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>ਨਾਂਹ-ਵਾਚਕ</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>ਸਵਾਲ</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
@@ -90,7 +90,7 @@ exports.LESSONS = [
 <h3>Would you mind…? ਦਾ ਜਾਲ</h3>
 <p>mind ਦਾ ਮਤਲਬ ਹੈ "ਬੁਰਾ ਮੰਨਣਾ"। ਇਸ ਲਈ ਇੱਥੇ <b>No ਦਾ ਮਤਲਬ "ਠੀਕ ਹੈ"</b> ਹੁੰਦਾ ਹੈ।</p>
 {{ex:Would you mind opening the window?|ਵਡ ਯੂ ਮਾਈਂਡ ˈਓਪਨਿਙ ਦ਼ ˈਵਿੰਡੋ|ਕੀ ਤੁਸੀਂ ਖਿੜਕੀ ਖੋਲ੍ਹ ਦਿਓਗੇ? (ਬੁਰਾ ਤਾਂ ਨਹੀਂ ਮੰਨੋਗੇ?)}}{{ex:No, not at all.|ਨੋ ਨਾਟ ਅਟ ਔਲ|ਨਹੀਂ, ਬਿਲਕੁਲ ਨਹੀਂ (ਯਾਨੀ: ਹਾਂ, ਖੋਲ੍ਹ ਦਿੰਦਾ ਹਾਂ)}}
-<p>Thank you ਦਾ ਜਵਾਬ <b>You're welcome</b> ਹੈ, Please ਨਹੀਂ। ਤੇ <b>Kindly</b> + ਹੁਕਮ (Kindly send it) ਭਾਰਤੀ ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਇਹ ਰੁੱਖਾ ਜਿਹਾ ਲੱਗਦਾ ਹੈ — Could you please… ਕਹੋ।</p>
+<p>Thank you ਦਾ ਜਵਾਬ <b>You're welcome</b> ਹੈ, Please ਨਹੀਂ। ਤੇ <b>Kindly</b> + ਹੁਕਮ (Kindly send it) ਭਾਰਤੀ ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਇਹ ਬਹੁਤ ਰਸਮੀ ਜਾਂ ਹੁਕਮ ਵਰਗਾ ਲੱਗ ਸਕਦਾ ਹੈ — Could you please… ਕਹੋ।</p>
 {{ex:You're welcome.|ਯੁਰ ˈਵੇਲ੍ਕਮ|ਕੋਈ ਗੱਲ ਨਹੀਂ (Thank you ਦਾ ਜਵਾਬ)}}
 <div class="tip"><b>please</b> ਤੇ <b>thank you</b> ਜਿੰਨੀ ਵਾਰ ਮਰਜ਼ੀ ਕਹੋ, ਵੱਧ ਨਹੀਂ ਹੁੰਦੇ। ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ਸਿਰਫ਼ please ਲਾਉਣ ਨਾਲ ਵੀ ਗੱਲ ਨਰਮ ਹੋ ਜਾਂਦੀ ਹੈ। ਅਣਜਾਣ ਬੰਦੇ ਨੂੰ ਵੀ ਤੇ ਦੋਸਤ ਨੂੰ ਵੀ you ਹੀ ਕਹਿੰਦੇ ਹਨ; ਤੂੰ / ਤੁਸੀਂ ਵਾਲਾ ਫ਼ਰਕ could ਤੇ would ਨਾਲ ਦਿਖਾਓ।</div>`},
 
@@ -98,9 +98,9 @@ exports.LESSONS = [
 <p>ਚੰਗੀ ਖ਼ਬਰ: ਪੰਜਾਬੀ ਦੇ ਟੈਂਸ (ਕਾਲ) ਅੰਗਰੇਜ਼ੀ ਨਾਲ ਕਾਫ਼ੀ ਮਿਲਦੇ ਹਨ। ਧਿਆਨ ਉਹਨਾਂ ਥਾਵਾਂ ਤੇ ਚਾਹੀਦਾ ਹੈ ਜਿੱਥੇ ਇਹ ਮੇਲ ਧੋਖਾ ਦਿੰਦਾ ਹੈ। ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ ਲਈ ਇਹ ਪੰਜ ਰੂਪ ਕਾਫ਼ੀ ਹਨ।</p>
 <div class="tbl"><table><tr><th>ਪੰਜਾਬੀ</th><th>ਅੰਗਰੇਜ਼ੀ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td>ਕਰਦਾ ਹੈ</td><td>Simple Present</td><td class="k">He works.</td></tr><tr><td>ਕਰ ਰਿਹਾ ਹੈ</td><td>Present Continuous</td><td class="k">He's working.</td></tr><tr><td>ਕੀਤਾ</td><td>Simple Past (Past Indefinite)</td><td class="k">He worked.</td></tr><tr><td>ਕੀਤਾ ਹੈ</td><td>Present Perfect — ਪਰ yesterday ਵਰਗੇ ਬੀਤੇ ਸਮੇਂ ਨਾਲ Simple Past</td><td class="k">He has worked.</td></tr><tr><td>ਕਰੇਗਾ</td><td>will / be going to</td><td class="k">He'll work.</td></tr></table></div>
 <h3>Simple Present ਤੇ Present Continuous</h3>
-<div class="tbl"><table><tr><th>ਰੂਪ</th><th>ਮਤਲਬ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td class="k">V1 (ਪਹਿਲੀ ਫ਼ਾਰਮ)</td><td>ਆਦਤ, ਹਮੇਸ਼ਾ ਦੀ ਗੱਲ</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + -ing</td><td>ਹੁਣੇ ਚੱਲ ਰਿਹਾ ਕੰਮ / ਪੱਕਾ ਹੋ ਚੁੱਕਾ ਨੇੜਲਾ ਪ੍ਰੋਗਰਾਮ</td><td>I'm drinking coffee right now.</td></tr></table></div>
+<div class="tbl"><table><tr><th>ਰੂਪ</th><th>ਮਤਲਬ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td class="k">V1 (ਪਹਿਲੀ ਫ਼ਾਰਮ)</td><td>ਆਦਤ, ਹਮੇਸ਼ਾ ਦੀ ਗੱਲ</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + -ing</td><td>ਹੁਣੇ ਚੱਲ ਰਿਹਾ ਕੰਮ / ਪੱਕਾ ਹੋ ਚੁੱਕਾ ਨੇੜਲਾ ਪਲਾਨ</td><td>I'm drinking coffee right now.</td></tr></table></div>
 {{ex:I work at a bank.|ਆਈ ਵਰ੍ਕ ਅਟ ਅ ਬੈਂਕ|ਮੈਂ ਬੈਂਕ ਵਿੱਚ ਕੰਮ ਕਰਦੀ ਹਾਂ (ਹਮੇਸ਼ਾ)}}{{ex:I'm working from home today.|ਆਈਮ ˈਵਰ੍ਕਿਙ ਫ਼੍ਰਮ ਹੋਮ ਟˈਡੇ|ਅੱਜ ਮੈਂ ਘਰੋਂ ਕੰਮ ਕਰ ਰਹੀ ਹਾਂ}}
-<p>ਧੋਖੇ ਵਾਲਾ ਮੇਲ: "ਮੈਂ ਦੋ ਸਾਲਾਂ ਤੋਂ ਇੱਥੇ ਰਹਿ ਰਿਹਾ ਹਾਂ" ਵਿੱਚ "ਰਿਹਾ ਹਾਂ" ਹੈ, ਪਰ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ "ਤੋਂ" ਵਾਲੀ ਗੱਲ Present Continuous ਨਹੀਂ ਹੁੰਦੀ: <b>I am living here from two years ✗ → I've lived here for two years ✓</b> (Present Perfect)। ਇਸ ਦਾ ਪੂਰਾ ਪਾਠ ਅੱਗੇ ਆਵੇਗਾ।</p>
+<p>ਧੋਖੇ ਵਾਲਾ ਮੇਲ: "ਮੈਂ ਦੋ ਸਾਲਾਂ ਤੋਂ ਇੱਥੇ ਰਹਿ ਰਿਹਾ ਹਾਂ" ਵਿੱਚ "ਰਿਹਾ ਹਾਂ" ਹੈ, ਪਰ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਪਹਿਲਾਂ ਸ਼ੁਰੂ ਹੋ ਕੇ ਹੁਣ ਤੱਕ ਚੱਲ ਰਹੀ ਗੱਲ Present Continuous ਵਿੱਚ ਨਹੀਂ ਜਾਂਦੀ, ਤੇ ਸਮੇਂ ਦੀ ਲੰਬਾਈ ਨਾਲ from ਨਹੀਂ, for ਆਉਂਦਾ ਹੈ: <b>I am living here from two years ✗ → I've lived here for two years ✓</b> (Present Perfect; I've been living here for two years ਵੀ ਠੀਕ ਹੈ)। ਇਸ ਦਾ ਪੂਰਾ ਪਾਠ ਅੱਗੇ ਆਵੇਗਾ।</p>
 <h3>Simple Past</h3>
 <p>ਨਿਯਮਿਤ ਕਿਰਿਆ ਨਾਲ <b>-ed</b> ਲੱਗਦਾ ਹੈ; ਸਭ ਤੋਂ ਵੱਧ ਵਰਤੀਆਂ ਜਾਣ ਵਾਲੀਆਂ ਕਿਰਿਆਵਾਂ ਅਨਿਯਮਿਤ ਹਨ (V1 → V2): go → went, eat → ate, see → saw, have → had, get → got। ਸਵਾਲ ਤੇ ਨਾਂਹ ਵਿੱਚ did + V1: <b>I didn't went ✗ → I didn't go ✓</b>।</p>
 {{ex:I went to the beach last weekend.|ਆਈ ਵੇਂਟ ਟ ਦ਼ ਬੀਚ ਲੈਸ੍ਟ ˈਵੀਕੇਂਡ|ਪਿਛਲੇ ਵੀਕਐਂਡ ਮੈਂ ਬੀਚ ਤੇ ਗਿਆ ਸੀ}}{{ex:Did you have fun?|ਡਿਡ ਯੂ ਹੈਵ਼ ਫ਼ਨ|ਮਜ਼ਾ ਆਇਆ?}}
@@ -176,7 +176,7 @@ exports.LESSONS = [
 <h3>ਮੁੱਢਲਾ ਢਾਂਚਾ</h3>
 <div class="tbl"><table><tr><th>ਹਿੱਸਾ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td>ਸੰਬੋਧਨ</td><td class="k">Hi Sarah, / Dear Mr. Singh,</td></tr><tr><td>ਪਹਿਲੀ ਲਾਈਨ (ਹਾਲ-ਚਾਲ, ਮਕਸਦ)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>ਮੁੱਖ ਗੱਲ (ਬੇਨਤੀ)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>ਸਮਾਪਤੀ</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>ਅਖ਼ੀਰਲੇ ਸ਼ਬਦ</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
 <h3>ਸੰਬੋਧਨ: Hi + ਨਾਂ</h3>
-<p>ਅਮਰੀਕੀ ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਪਹਿਲੀ ਵਾਰ ਲਿਖਣ ਵੇਲੇ ਵੀ <b>Hi + ਪਹਿਲਾ ਨਾਂ</b> ਠੀਕ ਹੈ। ਬਹੁਤ ਰਸਮੀ ਮੌਕੇ ਤੇ Dear + <b>Mr. / Ms. + ਸਰਨੇਮ</b>: Dear Mr. Singh, Dear Ms. Kaur। ਸਿਰਫ਼ ਅਹੁਦਾ (Dear Manager) ਜਾਂ ਪਹਿਲੇ ਨਾਂ ਨਾਲ Sir / Madam (<b>Aman Sir ✗</b>) ਨਾ ਲਿਖੋ।</p>
+<p>ਅਮਰੀਕੀ ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਪਹਿਲੀ ਵਾਰ ਲਿਖਣ ਵੇਲੇ ਵੀ <b>Hi + ਪਹਿਲਾ ਨਾਂ</b> ਠੀਕ ਹੈ। ਬਹੁਤ ਰਸਮੀ ਮੌਕੇ ਤੇ Dear + <b>Mr. / Ms. + ਸਰਨੇਮ</b>: Dear Mr. Singh, Dear Ms. Kaur। ਸਿਰਫ਼ ਅਹੁਦਾ (Dear Manager) ਨਾ ਲਿਖੋ। ਪਹਿਲੇ ਨਾਂ ਨਾਲ Sir / Madam (<b>Aman Sir</b>) ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਨਹੀਂ।</p>
 {{ex:I hope this email finds you well.|ਆਈ ਹੋਪ ਦ਼ਿਸ ˈਈਮੇਲ ਫ਼ਾਈਂਡ੍ਜ਼ ਯੂ ਵੇਲ|ਉਮੀਦ ਹੈ ਤੁਸੀਂ ਠੀਕ-ਠਾਕ ਹੋਵੋਗੇ}}{{ex:I'm writing to follow up on our meeting.|ਆਈਮ ˈਰਾਈਟਿਙ ਟ ˈਫ਼ਾਲੋ ਅਪ ਆਨ ਆਊਅਰ ˈਮੀਟਿਙ|ਮੈਂ ਸਾਡੀ ਮੀਟਿੰਗ ਦੀ ਗੱਲ ਅੱਗੇ ਤੋਰਨ ਲਈ ਲਿਖ ਰਿਹਾ ਹਾਂ}}
 <h3>ਬੇਨਤੀ ਨਰਮ, ਤਾਰੀਖ਼ ਸਾਫ਼</h3>
 {{ex:Could you send me the report by Thursday?|ਕਡ ਯੂ ਸੇਂਡ ਮੀ ਦ਼ ਰਿˈਪੌਰ੍ਟ ਬਾਈ ˈਥ਼ਰ੍ਜ਼੍ਡੇ|ਕੀ ਤੁਸੀਂ ਵੀਰਵਾਰ ਤੱਕ ਮੈਨੂੰ ਰਿਪੋਰਟ ਭੇਜ ਸਕਦੇ ਹੋ?}}{{ex:Thanks for your patience.|ਥ਼ੈਂਕ੍ਸ ਫ਼ਰ ਯੁਰ ˈਪੇਸ਼ਨ੍ਸ|ਉਡੀਕ ਕਰਨ ਲਈ ਧੰਨਵਾਦ}}
@@ -186,7 +186,7 @@ exports.LESSONS = [
 {{ex:I've attached the report.|ਆਈਵ਼ ਅˈਟੈਚ੍ਟ ਦ਼ ਰਿˈਪੌਰ੍ਟ|ਮੈਂ ਰਿਪੋਰਟ ਨਾਲ ਨੱਥੀ ਕੀਤੀ ਹੈ}}{{ex:I'll get back to you.|ਆਈਲ ਗੇਟ ਬੈਕ ਟ ਯੂ|ਮੈਂ ਤੁਹਾਨੂੰ ਬਾਅਦ ਵਿੱਚ ਜਵਾਬ ਦਿਆਂਗਾ}}
 <h3>ਧੰਨਵਾਦ ਤੇ ਸ਼ੁਭ ਇੱਛਾ</h3>
 <ul><li>ਪ੍ਰੋਜੈਕਟ ਮੁੱਕਣ ਤੇ: <b>Thanks for all your hard work!</b></li><li>ਸ਼ੁੱਕਰਵਾਰ ਦੀ ਈਮੇਲ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ: <b>Have a great weekend!</b></li><li>ਮਦਦ ਮਿਲਣ ਤੇ: <b>I really appreciate your help.</b></li></ul>
-<p>ਵਿਦੇਸ਼ ਦੇ ਕਾਲਜ, ਮਕਾਨ-ਮਾਲਕ ਜਾਂ ਕੰਪਨੀ ਨੂੰ ਲਿਖਣ ਵੇਲੇ ਵੀ ਇਹੀ ਢਾਂਚਾ ਚੱਲਦਾ ਹੈ: ਪਹਿਲੀ ਲਾਈਨ ਵਿੱਚ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਕੌਣ ਹੋ ਤੇ ਕਿਉਂ ਲਿਖ ਰਹੇ ਹੋ। ਕੈਨੇਡਾ, ਬ੍ਰਿਟੇਨ ਤੇ ਆਸਟ੍ਰੇਲੀਆ ਵਿੱਚ ਸਪੈਲਿੰਗ ਬ੍ਰਿਟਿਸ਼ ਹੈ (colour, centre); ਬਾਕੀ ਸਭ ਇਹੀ ਹੈ।</p>
+<p>ਵਿਦੇਸ਼ ਦੇ ਕਾਲਜ, ਮਕਾਨ-ਮਾਲਕ ਜਾਂ ਕੰਪਨੀ ਨੂੰ ਲਿਖਣ ਵੇਲੇ ਵੀ ਇਹੀ ਢਾਂਚਾ ਚੱਲਦਾ ਹੈ: ਪਹਿਲੀ ਲਾਈਨ ਵਿੱਚ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਕੌਣ ਹੋ ਤੇ ਕਿਉਂ ਲਿਖ ਰਹੇ ਹੋ। ਕੈਨੇਡਾ, ਬ੍ਰਿਟੇਨ ਤੇ ਆਸਟ੍ਰੇਲੀਆ ਵਿੱਚ ਸਪੈਲਿੰਗ ਜ਼ਿਆਦਾਤਰ ਬ੍ਰਿਟਿਸ਼ ਢੰਗ ਦੀ ਹੈ (colour, centre); ਬਾਕੀ ਸਭ ਇਹੀ ਹੈ।</p>
 <div class="tip">ਹਰ ਵਾਰ "Sorry for the late reply" ਲਿਖਣ ਦੀ ਲੋੜ ਨਹੀਂ। <b>Thanks for your patience</b> ਮਾਫ਼ੀ ਮੰਗੇ ਬਿਨਾਂ ਵੀ ਨਿਮਰ ਤੇ ਚੰਗਾ ਲੱਗਦਾ ਹੈ।</div>`},
 
 { id:"idioms", title:"11 · ਮੁਹਾਵਰੇ ਤੇ ਸਲੈਂਗ ਕਿਵੇਂ ਵਰਤੀਏ", blurb:"ਸ਼ਬਦ-ਦਰ-ਸ਼ਬਦ ਅਨੁਵਾਦ ਕਰੋ ਤਾਂ ਅਜੀਬ ਲੱਗਣ ਵਾਲੇ ਵਾਕ। ਕਦੋਂ ਤੇ ਕਿਸ ਨਾਲ ਵਰਤੀਏ?", deck:"ਅੰਗਰੇਜ਼ੀ ਮੁਹਾਵਰੇ", body:`
@@ -216,8 +216,8 @@ exports.CHECKS = {
     ["hotel ਵਿੱਚ ਜ਼ੋਰ ਕਿਸ ਹਿੱਸੇ ਤੇ ਹੈ?", ["ho (ਪਹਿਲੇ ਤੇ)","ਕਿਸੇ ਤੇ ਨਹੀਂ","ਦੋਵਾਂ ਤੇ ਬਰਾਬਰ","tel (ਦੂਜੇ ਤੇ)"], 3, "ho-TEL: ਦੂਜਾ ਹਿੱਸਾ ਜ਼ੋਰ ਨਾਲ ਤੇ ਲੰਮਾ ਬੋਲੋ — ਹੋˈਟੇਲ। ਭਾਰਤ ਵਿੱਚ ਜ਼ੋਰ ਅਕਸਰ ਪਹਿਲੇ ਹਿੱਸੇ ਤੇ ਸੁਣਦਾ ਹੈ।"]
   ],
   articles: [
-    ["I'm ___ engineer. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?", ["a","an","the","(ਕੁਝ ਨਹੀਂ)"], 1, "engineer ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ an। ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ ਜ਼ਰੂਰ ਲੱਗਦਾ ਹੈ।"],
-    ["ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ ਬੈਠ ਕੇ ਵੇਟਰ ਨੂੰ: Can I see ___ menu?", ["the","a","an","(ਕੁਝ ਨਹੀਂ)"], 0, "ਇਸੇ ਰੈਸਟੋਰੈਂਟ ਦਾ ਮੈਨਿਊ ਹੈ; ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ ਕਿਹੜਾ, ਇਸ ਲਈ the।"],
+    ["I'm ___ engineer. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?", ["a","an","the","(ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ)"], 1, "engineer ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ an। ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ ਜ਼ਰੂਰ ਲੱਗਦਾ ਹੈ।"],
+    ["ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ ਬੈਠ ਕੇ ਵੇਟਰ ਨੂੰ: Can I see ___ menu?", ["the","a","an","(ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ)"], 0, "ਇਸੇ ਰੈਸਟੋਰੈਂਟ ਦਾ ਮੈਨਿਊ ਹੈ; ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ ਕਿਹੜਾ, ਇਸ ਲਈ the।"],
     ["\"ਮੈਨੂੰ ਬਿੱਲੀਆਂ ਪਸੰਦ ਹਨ\" (ਸਾਰੀਆਂ ਬਿੱਲੀਆਂ, ਆਮ ਗੱਲ)", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "ਆਮ ਗੱਲ ਲਈ ਬਿਨਾਂ ਆਰਟੀਕਲ ਦੇ ਬਹੁਵਚਨ: cats। a cat = ਕੋਈ ਇੱਕ ਬਿੱਲੀ, the cat = ਉਹ ਖ਼ਾਸ ਬਿੱਲੀ।"]
   ],
   be: [

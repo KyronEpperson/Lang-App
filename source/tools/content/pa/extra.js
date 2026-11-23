@@ -9,7 +9,7 @@ Good night. | I'm going to bed. Good night! | Good night! Sleep well. | ਮੈ�
 Where are you from? | So, where are you from? | I'm from India. Amritsar, actually. | ਅੱਛਾ, ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ? / ਮੈਂ ਭਾਰਤ ਤੋਂ ਹਾਂ। ਅਸਲ ਵਿੱਚ ਅੰਮ੍ਰਿਤਸਰ ਤੋਂ।
 What do you do? | What do you do? | I'm a designer. I work at a small startup. | ਤੁਸੀਂ ਕੀ ਕੰਮ ਕਰਦੇ ਹੋ? / ਮੈਂ ਡਿਜ਼ਾਈਨਰ ਹਾਂ। ਇੱਕ ਛੋਟੀ ਜਿਹੀ ਸਟਾਰਟਅੱਪ ਕੰਪਨੀ ਵਿੱਚ ਕੰਮ ਕਰਦੀ ਹਾਂ।
 What should I call you? | What should I call you? | Just call me Jay. Everyone does. | ਮੈਂ ਤੁਹਾਨੂੰ ਕੀ ਕਹਿ ਕੇ ਬੁਲਾਵਾਂ? / ਬੱਸ ਜੇ ਕਹਿ ਲਓ। ਸਾਰੇ ਇਹੀ ਕਹਿੰਦੇ ਹਨ।
-I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | ਸ਼ਨੀ-ਐਤਵਾਰ ਨੂੰ ਤੁਸੀਂ ਕੀ ਕਰਦੇ ਹੋ? / ਮੈਨੂੰ ਪਹਾੜਾਂ ਵਿੱਚ ਪੈਦਲ ਘੁੰਮਣ ਦਾ ਬੜਾ ਸ਼ੌਕ ਹੈ। ਲਗਭਗ ਹਰ ਸ਼ਨੀਵਾਰ ਜਾਂਦਾ ਹਾਂ।
+I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | ਵੀਕਐਂਡ ਤੇ ਤੁਸੀਂ ਕੀ ਕਰਦੇ ਹੋ? / ਮੈਨੂੰ ਪਹਾੜਾਂ ਵਿੱਚ ਪੈਦਲ ਘੁੰਮਣ ਦਾ ਬੜਾ ਸ਼ੌਕ ਹੈ। ਲਗਭਗ ਹਰ ਸ਼ਨੀਵਾਰ ਜਾਂਦਾ ਹਾਂ।
 I'm here on vacation. | Are you here for work? | No, I'm here on vacation. | ਕੀ ਤੁਸੀਂ ਇੱਥੇ ਕੰਮ ਲਈ ਆਏ ਹੋ? / ਨਹੀਂ, ਮੈਂ ਛੁੱਟੀਆਂ ਮਨਾਉਣ ਆਈ ਹਾਂ।
 Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | ਸੁਣੋ ਜੀ, ਕੀ ਇਹ ਟਿਕਟਾਂ ਵਾਲੀ ਲਾਈਨ ਹੈ? / ਹਾਂ ਜੀ, ਇਹੀ ਹੈ। ਲਾਈਨ ਦਾ ਸਿਰਾ ਔਹ ਹੈ।
 Thank you. | Here, let me get the door for you. | Oh, thank you! | ਲਿਆਓ, ਦਰਵਾਜ਼ਾ ਮੈਂ ਖੋਲ੍ਹ ਦਿੰਦਾ ਹਾਂ। / ਓ, ਧੰਨਵਾਦ!
@@ -48,8 +48,8 @@ I'll take it. | It fits perfectly! I'll take it. | Great! I can ring you up over
 Cash or card? | Cash or card? | Card, please. | ਕੈਸ਼ ਜਾਂ ਕਾਰਡ? / ਕਾਰਡ ਨਾਲ।
 What time is it? | Excuse me, what time is it? | It's almost three. | ਸੁਣੋ ਜੀ, ਕਿੰਨੇ ਵਜੇ ਹਨ? / ਤਿੰਨ ਵੱਜਣ ਵਾਲੇ ਹਨ।
 Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | ਤੀਹ ਡਾਲਰ ਹੋਏ। / ਮਾਫ਼ ਕਰਨਾ, ਤੇਰਾਂ ਜਾਂ ਤੀਹ?
-How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | ਤੁਹਾਡਾ ਸ਼ਨੀ-ਐਤਵਾਰ ਕਿਵੇਂ ਲੰਘਿਆ? / ਬਹੁਤ ਵਧੀਆ! ਮੈਂ ਸਮੁੰਦਰ ਕੰਢੇ ਗਈ ਸੀ। ਤੇ ਤੁਹਾਡਾ?
-Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | ਸ਼ਨੀ-ਐਤਵਾਰ ਦਾ ਕੋਈ ਪ੍ਰੋਗਰਾਮ? / ਕੁਝ ਖ਼ਾਸ ਨਹੀਂ। ਬੱਸ ਘਰ ਆਰਾਮ ਕਰਾਂਗਾ।
+How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | ਤੁਹਾਡਾ ਵੀਕਐਂਡ ਕਿਵੇਂ ਰਿਹਾ? / ਬਹੁਤ ਵਧੀਆ! ਮੈਂ ਸਮੁੰਦਰ ਕੰਢੇ ਗਈ ਸੀ। ਤੇ ਤੁਹਾਡਾ?
+Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | ਵੀਕਐਂਡ ਦਾ ਕੋਈ ਪਲਾਨ ਹੈ? / ਕੁਝ ਖ਼ਾਸ ਨਹੀਂ। ਬੱਸ ਘਰ ਆਰਾਮ ਕਰਾਂਗਾ।
 Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | ਅੱਜ ਮੌਸਮ ਵਧੀਆ ਹੈ, ਹੈ ਨਾ? / ਹੋਰ ਕੀ! ਆਖ਼ਰ ਧੁੱਪ ਨਿਕਲੀ ਹੈ।
 What do you do for fun? | What do you do for fun? | I play cricket and watch a lot of Punjabi movies. | ਵਿਹਲੇ ਵੇਲੇ ਤੁਸੀਂ ਕੀ ਕਰਦੇ ਹੋ? / ਮੈਂ ਕ੍ਰਿਕਟ ਖੇਡਦਾ ਹਾਂ ਤੇ ਪੰਜਾਬੀ ਫ਼ਿਲਮਾਂ ਬਹੁਤ ਦੇਖਦਾ ਹਾਂ।
 Me neither. | I don't really like spicy food. | Me neither. | ਮੈਨੂੰ ਤਿੱਖਾ ਖਾਣਾ ਬਹੁਤਾ ਪਸੰਦ ਨਹੀਂ। / ਮੈਨੂੰ ਵੀ ਨਹੀਂ।
@@ -77,7 +77,7 @@ My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I se
 I don't feel well. | Are you okay? You look pale. | I don't feel well. I think I need to sit down. | ਤੂੰ ਠੀਕ ਹੈਂ? ਤੇਰਾ ਰੰਗ ਪੀਲਾ ਪਿਆ ਹੋਇਆ ਹੈ। / ਮੇਰੀ ਤਬੀਅਤ ਠੀਕ ਨਹੀਂ। ਲੱਗਦਾ ਹੈ ਮੈਨੂੰ ਬੈਠ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।
 I have a sore throat. | What seems to be the problem? | I have a sore throat and a slight fever. | ਦੱਸੋ, ਕੀ ਤਕਲੀਫ਼ ਹੈ? / ਮੇਰਾ ਗਲਾ ਖ਼ਰਾਬ ਹੈ ਤੇ ਹਲਕਾ ਜਿਹਾ ਬੁਖ਼ਾਰ ਹੈ।
 I lost my wallet. | I lost my wallet. I think I left it on the bus. | Let's call the bus company's lost and found. | ਮੇਰਾ ਬਟੂਆ ਗੁਆਚ ਗਿਆ। ਲੱਗਦਾ ਹੈ ਬੱਸ ਵਿੱਚ ਰਹਿ ਗਿਆ। / ਚੱਲ, ਬੱਸ ਕੰਪਨੀ ਦੇ ਗੁਆਚੇ ਸਮਾਨ ਵਾਲੇ ਦਫ਼ਤਰ ਫ਼ੋਨ ਕਰੀਏ।
-hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | ਇਸ ਸ਼ਨੀ-ਐਤਵਾਰ ਕਿਤੇ ਘੁੰਮਣ ਚੱਲੀਏ? / ਹਾਂ, ਜ਼ਰੂਰ! ਚੱਲ, ਫ਼ਿਲਮ ਦੇਖਣ ਚੱਲੀਏ।
+hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | ਇਸ ਵੀਕਐਂਡ ਕਿਤੇ ਘੁੰਮਣ ਚੱਲੀਏ? / ਹਾਂ, ਜ਼ਰੂਰ! ਚੱਲ, ਫ਼ਿਲਮ ਦੇਖਣ ਚੱਲੀਏ।
 pick up | Can you pick me up at the airport? | Of course. What time does your flight land? | ਮੈਨੂੰ ਏਅਰਪੋਰਟ ਤੋਂ ਲੈਣ ਆ ਜਾਵੇਂਗਾ? / ਹਾਂ, ਬਿਲਕੁਲ। ਤੇਰੀ ਫ਼ਲਾਈਟ ਕਿੰਨੇ ਵਜੇ ਉਤਰੇਗੀ?
 work out | You look great! Do you work out? | Yeah, I go to the gym three times a week. | ਤੂੰ ਤਾਂ ਬੜਾ ਜਚ ਰਿਹਾ ਹੈਂ! ਕਸਰਤ ਕਰਦਾ ਹੈਂ? / ਹਾਂ, ਹਫ਼ਤੇ ਵਿੱਚ ਤਿੰਨ ਵਾਰ ਜਿੰਮ ਜਾਂਦਾ ਹਾਂ।
 It's not my cup of tea. | Do you want to go to the jazz concert? | Thanks, but honestly, it's not my cup of tea. | ਜੈਜ਼ ਦੇ ਕੰਸਰਟ ਤੇ ਚੱਲੇਂਗੀ? / ਸ਼ੁਕਰੀਆ, ਪਰ ਸੱਚ ਦੱਸਾਂ ਤਾਂ ਇਹ ਮੇਰੀ ਪਸੰਦ ਦੀ ਚੀਜ਼ ਨਹੀਂ।
@@ -91,7 +91,7 @@ Who's your bias? | Who's your bias? | Definitely the lead singer. What about you
 exports.EXAMPLES = `
 I'm a student. | I'm a student at a college in Chandigarh. | ਮੈਂ ਚੰਡੀਗੜ੍ਹ ਦੇ ਇੱਕ ਕਾਲਜ ਵਿੱਚ ਪੜ੍ਹਦਾ ਹਾਂ।
 I work in marketing. | I work in marketing at a game company. | ਮੈਂ ਇੱਕ ਗੇਮ ਕੰਪਨੀ ਵਿੱਚ ਮਾਰਕੀਟਿੰਗ ਦਾ ਕੰਮ ਕਰਦੀ ਹਾਂ।
-I like watching movies. | I like watching movies on the weekends. | ਮੈਨੂੰ ਸ਼ਨੀ-ਐਤਵਾਰ ਨੂੰ ਫ਼ਿਲਮਾਂ ਦੇਖਣਾ ਪਸੰਦ ਹੈ।
+I like watching movies. | I like watching movies on the weekends. | ਮੈਨੂੰ ਵੀਕਐਂਡ ਤੇ ਫ਼ਿਲਮਾਂ ਦੇਖਣਾ ਪਸੰਦ ਹੈ।
 I've been learning English for a year. | I've been learning English for a year, but speaking is still hard. | ਮੈਂ ਇੱਕ ਸਾਲ ਤੋਂ ਅੰਗਰੇਜ਼ੀ ਸਿੱਖ ਰਿਹਾ ਹਾਂ, ਪਰ ਬੋਲਣਾ ਅਜੇ ਵੀ ਔਖਾ ਲੱਗਦਾ ਹੈ।
 Thanks a lot. | Thanks a lot for your help today. | ਅੱਜ ਮਦਦ ਕਰਨ ਲਈ ਬਹੁਤ-ਬਹੁਤ ਸ਼ੁਕਰੀਆ।
 I speak a little English. | Sorry, I only speak a little English. | ਮਾਫ਼ ਕਰਨਾ, ਮੈਂ ਥੋੜ੍ਹੀ ਜਿਹੀ ਅੰਗਰੇਜ਼ੀ ਹੀ ਬੋਲ ਸਕਦੀ ਹਾਂ।
@@ -140,7 +140,7 @@ get along with | I get along with my roommate really well. | ਮੇਰੀ ਆਪ
 It costs an arm and a leg. | Living in New York costs an arm and a leg. | ਨਿਊਯਾਰਕ ਵਿੱਚ ਰਹਿਣਾ ਬਹੁਤ ਹੀ ਮਹਿੰਗਾ ਹੈ।
 Once in a blue moon | I only drink soda once in a blue moon. | ਮੈਂ ਠੰਢਾ ਕਦੇ-ਕਦਾਈਂ ਹੀ ਪੀਂਦੀ ਹਾਂ।
 Low-key | I low-key want to dye my hair pink. | ਅੰਦਰੋ-ਅੰਦਰੀ ਮੇਰਾ ਦਿਲ ਕਰਦਾ ਹੈ ਕਿ ਵਾਲ ਗੁਲਾਬੀ ਰੰਗ ਲਵਾਂ।
-I binge-watched the whole season. | I binge-watched the whole season in one weekend. | ਮੈਂ ਇੱਕੋ ਸ਼ਨੀ-ਐਤਵਾਰ ਵਿੱਚ ਪੂਰਾ ਸੀਜ਼ਨ ਦੇਖ ਲਿਆ।
+I binge-watched the whole season. | I binge-watched the whole season in one weekend. | ਮੈਂ ਇੱਕੋ ਵੀਕਐਂਡ ਵਿੱਚ ਪੂਰਾ ਸੀਜ਼ਨ ਦੇਖ ਲਿਆ।
 rice | I had rice and dal for lunch. | ਮੈਂ ਦੁਪਹਿਰ ਨੂੰ ਦਾਲ-ਚੌਲ ਖਾਧੇ।
 think | I think so, too. | ਮੇਰਾ ਵੀ ਇਹੀ ਖ਼ਿਆਲ ਹੈ।
 `;
@@ -149,18 +149,18 @@ think | I think so, too. | ਮੇਰਾ ਵੀ ਇਹੀ ਖ਼ਿਆਲ ਹੈ�
 exports.PATTERNS = `
 Could you ~? | ਨਿਮਰ ਬੇਨਤੀ: "ਕੀ ਤੁਸੀਂ … ਕਰ ਦਿਓਗੇ?" Can you ਨਾਲੋਂ ਨਰਮ | Could you help me with this? | polite
 Would you mind ~ing? | ਬਹੁਤ ਨਿਮਰ ਬੇਨਤੀ। ਜਵਾਬ ਵਿੱਚ No ਦਾ ਮਤਲਬ ਹੈ "ਕੋਈ ਇਤਰਾਜ਼ ਨਹੀਂ, ਕਰ ਦਿੰਦਾ ਹਾਂ" | Would you mind closing the window? | polite
-Can I get ~? | ਦੁਕਾਨ ਜਾਂ ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ ਕੁਝ ਮੰਗਣ ਲਈ; ਅਮਰੀਕੀ ਬੋਲਚਾਲ ਵਿੱਚ ਸਭ ਤੋਂ ਆਮ | Can I get a large latte? | polite
+Can I get ~? | ਦੁਕਾਨ ਜਾਂ ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ ਕੁਝ ਮੰਗਣ ਲਈ; ਅਮਰੀਕੀ ਬੋਲਚਾਲ ਵਿੱਚ ਬਹੁਤ ਆਮ | Can I get a large latte? | polite
 I'd like ~ | want ਦਾ ਨਿਮਰ ਰੂਪ: "ਮੈਨੂੰ … ਚਾਹੀਦਾ ਹੈ" | I'd like a window seat, please. | polite
 a / an + ਨਾਂਵ | ਪਹਿਲੀ ਵਾਰ ਜ਼ਿਕਰ ਹੋ ਰਹੀ ਇੱਕ ਗਿਣਨਯੋਗ ਚੀਜ਼। ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਪਹਿਲਾਂ an | I have an idea. | articles
 the + ਨਾਂਵ | ਉਹ ਖ਼ਾਸ ਚੀਜ਼ ਜਿਸ ਦਾ ਬੋਲਣ ਤੇ ਸੁਣਨ ਵਾਲੇ ਦੋਵਾਂ ਨੂੰ ਪਤਾ ਹੈ | Can you open the door? | articles
 I am / You are / She is | be ਕਿਰਿਆ: "ਹਾਂ / ਹੋ / ਹੈ"। ਪੰਜਾਬੀ ਵਿੱਚ ਇਹ ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਤੇ ਆਉਂਦੀ ਹੈ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ ਤੋਂ ਤੁਰੰਤ ਬਾਅਦ | She is a nurse. | be
-Do you ~? / Does he ~? | ਆਮ ਕਿਰਿਆ ਵਾਲਾ ਸਵਾਲ। he / she / it ਨਾਲ does, ਤੇ ਕਿਰਿਆ ਫਿਰ V1 ਵਿੱਚ | Does he live here? | be
-don't / doesn't + V1 | ਆਮ ਕਿਰਿਆ ਵਾਲਾ ਨਾਂਹ ਵਾਲਾ ਵਾਕ | I don't eat meat. | be
+Do you ~? / Does he ~? | be ਤੋਂ ਇਲਾਵਾ ਹੋਰ ਕਿਰਿਆ ਵਾਲਾ ਸਵਾਲ। he / she / it ਨਾਲ does, ਤੇ ਕਿਰਿਆ ਫਿਰ V1 ਵਿੱਚ | Does he live here? | be
+don't / doesn't + V1 | be ਤੋਂ ਇਲਾਵਾ ਹੋਰ ਕਿਰਿਆ ਵਾਲਾ ਨਾਂਹ-ਵਾਚਕ ਵਾਕ | I don't eat meat. | be
 he / she / it + ਕਿਰਿਆ-s | Present Simple ਵਿੱਚ he, she, it ਤੋਂ ਬਾਅਦ ਕਿਰਿਆ ਨਾਲ -s | My sister works at a hospital. | be
-be + -ing | ਜੋ ਕੰਮ ਇਸ ਵੇਲੇ ਚੱਲ ਰਿਹਾ ਹੈ, ਜਾਂ ਨੇੜਲੇ ਭਵਿੱਖ ਦਾ ਪੱਕਾ ਪ੍ਰੋਗਰਾਮ | I'm meeting Jake tonight. | tense
+be + -ing | ਜੋ ਕੰਮ ਇਸ ਵੇਲੇ ਚੱਲ ਰਿਹਾ ਹੈ, ਜਾਂ ਨੇੜਲੇ ਭਵਿੱਖ ਦਾ ਪੱਕਾ ਪਲਾਨ | I'm meeting Jake tonight. | tense
 ਕਿਰਿਆ-ed / ਅਨਿਯਮਿਤ V2 | ਜੋ ਕੰਮ ਮੁੱਕ ਚੁੱਕਾ ਹੈ (went, ate, saw…) | I went to Chandigarh last week. | tense
 will + V1 | ਬੋਲਦੇ ਵੇਲੇ ਕੀਤਾ ਫ਼ੈਸਲਾ, ਵਾਅਦਾ ਜਾਂ ਅੰਦਾਜ਼ਾ | I'll call you later. | tense
-be going to + V1 | ਪਹਿਲਾਂ ਤੋਂ ਬਣਾਇਆ ਪ੍ਰੋਗਰਾਮ | I'm going to visit my parents this weekend. | tense
+be going to + V1 | ਪਹਿਲਾਂ ਤੋਂ ਬਣਾਇਆ ਪਲਾਨ | I'm going to visit my parents this weekend. | tense
 Have you ever ~? | ਤਜਰਬਾ ਪੁੱਛਣਾ: "ਕੀ ਤੁਸੀਂ ਕਦੇ … ਹੈ?" | Have you ever tried lassi? | tense
 in + ਮਹੀਨਾ / ਸਾਲ / ਰੁੱਤ | ਸਮੇਂ ਦਾ ਵੱਡਾ ਘੇਰਾ | My birthday is in June. | prep
 on + ਦਿਨ / ਤਾਰੀਖ਼ | ਇੱਕ ਖ਼ਾਸ ਦਿਨ | The party is on Saturday. | prep
@@ -267,12 +267,12 @@ Small steps every day | ਰੋਜ਼ ਥੋੜ੍ਹਾ-ਥੋੜ੍ਹਾ
 
 /* idiom | meaning | pron | note */
 exports.IDIOMS = `
-Break a leg | ਰੱਬ ਕਰੇ ਸਭ ਵਧੀਆ ਰਹੇ! | ਬ੍ਰੇਕ ਅ ਲੇਗ | ਮੰਚ ਤੇ ਜਾਣ, ਪੇਪਰ ਜਾਂ ਇੰਟਰਵਿਊ ਤੋਂ ਪਹਿਲਾਂ ਦਿੱਤੀ ਸ਼ੁਭ ਕਾਮਨਾ; Good luck ਦੀ ਥਾਂ ਕਹਿੰਦੇ ਹਨ। ਲੱਤ ਤੋੜਨ ਨਾਲ ਕੋਈ ਵਾਸਤਾ ਨਹੀਂ।
+Break a leg | ਰੱਬ ਕਰੇ ਸਭ ਵਧੀਆ ਰਹੇ! | ਬ੍ਰੇਕ ਅ ਲੇਗ | ਖ਼ਾਸ ਕਰ ਕੇ ਮੰਚ ਤੇ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਦਿੱਤੀ ਸ਼ੁਭ ਕਾਮਨਾ (ਕਦੇ-ਕਦੇ ਪੇਪਰ ਜਾਂ ਇੰਟਰਵਿਊ ਤੋਂ ਪਹਿਲਾਂ ਵੀ); Good luck ਦੀ ਥਾਂ ਕਹਿੰਦੇ ਹਨ। ਲੱਤ ਤੋੜਨ ਨਾਲ ਕੋਈ ਵਾਸਤਾ ਨਹੀਂ।
 Bite the bullet | ਦਿਲ ਕਰੜਾ ਕਰ ਕੇ ਕੰਮ ਕਰ ਲੈਣਾ | ਬਾਈਟ ਦ਼ ˈਬੁਲਿਟ | ਜਦੋਂ ਕੋਈ ਔਖਾ ਜਾਂ ਨਾਪਸੰਦ ਕੰਮ ਟਲ ਨਾ ਸਕੇ ਤੇ ਬੰਦਾ ਹਿੰਮਤ ਕਰ ਕੇ ਕਰ ਹੀ ਲਵੇ।
 Cut corners | ਡੰਗ ਟਪਾਊ ਕੰਮ ਕਰਨਾ | ਕਟ ˈਕੌਰ੍ਨਰ੍ਜ਼ | ਪੈਸਾ ਜਾਂ ਸਮਾਂ ਬਚਾਉਣ ਲਈ ਜ਼ਰੂਰੀ ਕਦਮ ਛੱਡ ਦੇਣੇ; ਮਾੜੇ ਅਰਥ ਵਿੱਚ।
 Hit the sack | ਸੌਣ ਜਾਣਾ | ਹਿਟ ਦ਼ ਸੈਕ | ਬੋਲਚਾਲ ਦਾ ਰੂਪ: I'm tired. I'm going to hit the sack।
 Let the cat out of the bag | ਭੇਤ ਖੋਲ੍ਹ ਦੇਣਾ | ਲੇਟ ਦ਼ ਕੈਟ ਆਊਟ ਅਵ਼ ਦ਼ ਬੈਗ | ਜਦੋਂ ਕਿਸੇ ਕੋਲੋਂ ਗ਼ਲਤੀ ਨਾਲ ਲੁਕਾਈ ਹੋਈ ਗੱਲ ਨਿਕਲ ਜਾਵੇ, ਜਿਵੇਂ ਸਰਪ੍ਰਾਈਜ਼ ਪਾਰਟੀ ਦੀ।
-Kill two birds with one stone | ਇੱਕ ਪੰਥ ਦੋ ਕਾਜ | ਕਿਲ ਟੂ ਬਰ੍ਡ੍ਜ਼ ਵਿਦ਼ ਵਨ ਸ੍ਟੋਨ | ਇੱਕੋ ਕੰਮ ਨਾਲ ਦੋ ਮਕਸਦ ਪੂਰੇ ਹੋ ਜਾਣ।
+Kill two birds with one stone | ਇੱਕ ਤੀਰ ਨਾਲ ਦੋ ਨਿਸ਼ਾਨੇ | ਕਿਲ ਟੂ ਬਰ੍ਡ੍ਜ਼ ਵਿਦ਼ ਵਨ ਸ੍ਟੋਨ | ਇੱਕੋ ਕੰਮ ਨਾਲ ਦੋ ਮਕਸਦ ਪੂਰੇ ਹੋ ਜਾਣ।
 Burn the midnight oil | ਰਾਤਾਂ ਜਾਗ ਕੇ ਕੰਮ ਜਾਂ ਪੜ੍ਹਾਈ ਕਰਨੀ | ਬਰ੍ਨ ਦ਼ ˈਮਿਡ੍ਨਾਈਟ ਔਈਲ | ਪੇਪਰਾਂ ਦੇ ਦਿਨਾਂ ਵਿੱਚ ਜਾਂ ਕੰਮ ਦੀ ਆਖ਼ਰੀ ਤਾਰੀਖ਼ ਤੋਂ ਪਹਿਲਾਂ।
 The best of both worlds | ਦੋਵੇਂ ਹੱਥੀਂ ਲੱਡੂ | ਦ਼ ਬੇਸ੍ਟ ਅਵ਼ ਬੋਥ਼ ਵਰ੍ਲ੍ਡ੍ਜ਼ | ਜਦੋਂ ਦੋ ਵੱਖਰੀਆਂ ਚੀਜ਼ਾਂ ਦੇ ਫ਼ਾਇਦੇ ਇਕੱਠੇ ਮਿਲ ਜਾਣ।
 A blessing in disguise | ਮਾੜੀ ਲੱਗਦੀ ਗੱਲ ਵਿੱਚੋਂ ਨਿਕਲਿਆ ਭਲਾ | ਅ ˈਬ੍ਲੇਸਿਙ ਇਨ ਡਿਸ੍ˈਗਾਈਜ਼ | ਜੋ ਗੱਲ ਪਹਿਲਾਂ ਮਾੜੀ ਲੱਗੀ ਪਰ ਅਖ਼ੀਰ ਚੰਗੀ ਸਾਬਤ ਹੋਈ।

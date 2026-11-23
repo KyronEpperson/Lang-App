@@ -319,7 +319,7 @@
    "where": "html <b> text"
   },
   ": every card × 3 passes. Mixed = read, listen, recall.": {
-   "t": ": ਹਰ ਕਾਰਡ × 3 ਵਾਰ। ਰਲਵਾਂ = ਪੜ੍ਹਨਾ, ਸੁਣਨਾ, ਯਾਦ ਕਰਨਾ।",
+   "t": ": ਹਰ ਕਾਰਡ × 3 ਗੇੜ। ਰਲਵਾਂ = ਪੜ੍ਹਨਾ, ਸੁਣਨਾ, ਯਾਦ ਕਰਨਾ।",
    "ko": ": 모든 카드를 3번씩 풀어요. 섞어서 = 읽기, 듣기, 떠올리기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -413,7 +413,7 @@
    "where": "html <h2> text"
   },
   "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": {
-   "t": "ਉਚਾਰਨ ਲਿਖੋ। ਅੰਗਰੇਜ਼ੀ ਸ਼ਬਦ ਸਿਲੇਬਲ ਤੋਂ ਬਣਦੇ ਹਨ: ਵਿਅੰਜਨ + ਸਵਰ (+ ਅਖੀਰਲਾ ਵਿਅੰਜਨ)। ਇੱਥੇ ਚੁਣਿਆ ਲੈਵਲ ਸੈਸ਼ਨ ਵਿੱਚ ਵੀ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।",
+   "t": "ਉਚਾਰਨ ਲਿਖੋ। ਅੰਗਰੇਜ਼ੀ ਸ਼ਬਦ ਸਿਲੇਬਲ ਤੋਂ ਬਣਦੇ ਹਨ: ਵਿਅੰਜਨ + ਸਵਰ (+ ਅਖ਼ੀਰਲਾ ਵਿਅੰਜਨ)। ਇੱਥੇ ਚੁਣਿਆ ਲੈਵਲ ਸੈਸ਼ਨ ਵਿੱਚ ਵੀ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।",
    "ko": "발음 표기를 입력하세요. 한글 글자는 자음 + 모음 (+ 받침)으로 쌓여요. 여기서 고른 레벨은 학습에도 쓰여요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -434,7 +434,7 @@
    "where": "html <button> text"
   },
   "Words + finals": {
-   "t": "ਸ਼ਬਦ + ਅਖੀਰਲੀ ਆਵਾਜ਼",
+   "t": "ਸ਼ਬਦ + ਅਖ਼ੀਰਲੀ ਆਵਾਜ਼",
    "ko": "단어 + 받침",
    "kind": "label",
    "where": "html <button> text"
@@ -465,7 +465,7 @@
    "where": "html <button> text"
   },
   "🎧 Listen": {
-   "t": "🎧 ਸੁਣਨਾ",
+   "t": "🎧 ਸੁਣੋ",
    "ko": "🎧 듣기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -949,7 +949,7 @@
    "where": "html text"
   },
   "Delete everything": {
-   "t": "ਸਭ ਕੁਝ ਮਿਟਾਉਣਾ",
+   "t": "ਸਭ ਕੁਝ ਡਿਲੀਟ ਕਰਨਾ",
    "ko": "전부 삭제",
    "kind": "label",
    "where": "html <b> text"
@@ -1113,7 +1113,7 @@
    "where": "js box() <div>"
   },
   "Couldn't load feedback right now.": {
-   "t": "ਸੁਝਾਅ ਹੁਣੇ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ।",
+   "t": "ਇਸ ਵੇਲੇ ਸੁਝਾਅ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ।",
    "ko": "지금은 피드백을 불러올 수 없어요.",
    "kind": "sentence",
    "where": "js nt() <div>"
@@ -1265,7 +1265,7 @@
    "where": "js last()"
   },
   "Could not send right now — try again in a moment.": {
-   "t": "ਹੁਣੇ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ — ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+   "t": "ਇਸ ਵੇਲੇ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ — ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
    "ko": "지금은 보낼 수 없어요 — 잠시 후 다시 시도해 주세요.",
    "kind": "sentence",
    "where": "js j()"
@@ -2294,7 +2294,7 @@
    "where": "js pool()"
   },
   "no feedback until the end": {
-   "t": "ਜਵਾਬ ਅਖੀਰ ਵਿੱਚ",
+   "t": "ਜਵਾਬ ਅਖ਼ੀਰ ਵਿੱਚ",
    "ko": "끝날 때까지 정답을 알려 주지 않아요",
    "kind": "sentence",
    "where": "js q() <span>"
@@ -2332,7 +2332,7 @@
    "where": "js renderTypeQ() <div>"
   },
   "Type the Korean, or tap Check again to give up.": {
-   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲਿਖੋ, ਜਾਂ ਛੱਡਣ ਲਈ ਦੁਬਾਰਾ \"ਜਾਂਚੋ\" ਦਬਾਓ।",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲਿਖੋ, ਜਾਂ ਛੱਡਣ ਲਈ ਦੁਬਾਰਾ \"ਜਾਂਚੋ\" ਟੈਪ ਕਰੋ।",
    "ko": "영어로 입력하세요. 포기하려면 확인을 한 번 더 누르세요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2861,7 +2861,7 @@
    "where": "js lessonNext() <button>"
   },
   "Review due cards": {
-   "t": "ਬਾਕੀ ਕਾਰਡ ਦੁਹਰਾਓ",
+   "t": "ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ",
    "ko": "복습할 카드 복습",
    "kind": "label",
    "where": "js lessonNext() <span>"
@@ -3290,7 +3290,7 @@
    "where": "js TOUR()"
   },
   "Spaced repetition. \"All due\" across decks, swipe right for got it, left for again. Browse any deck as a list.": {
-   "t": "ਵਕਫ਼ੇ ਨਾਲ ਦੁਹਰਾਈ। ਸਾਰੇ ਡੈੱਕ ਦੇ ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ ਇਕੱਠੇ; \"ਆਉਂਦਾ ਹੈ\" ਲਈ ਸੱਜੇ ਸਵਾਈਪ ਕਰੋ, \"ਦੁਬਾਰਾ\" ਲਈ ਖੱਬੇ। ਕੋਈ ਵੀ ਡੈੱਕ ਸੂਚੀ ਵਾਂਗ ਬ੍ਰਾਊਜ਼ ਕਰੋ।",
+   "t": "ਵਕਫ਼ੇ ਨਾਲ ਦੁਹਰਾਈ। ਸਾਰੇ ਡੈੱਕਾਂ ਦੇ ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ ਇਕੱਠੇ; \"ਆਉਂਦਾ ਹੈ\" ਲਈ ਸੱਜੇ ਸਵਾਈਪ ਕਰੋ, \"ਦੁਬਾਰਾ\" ਲਈ ਖੱਬੇ। ਕੋਈ ਵੀ ਡੈੱਕ ਸੂਚੀ ਵਾਂਗ ਬ੍ਰਾਊਜ਼ ਕਰੋ।",
    "ko": "간격 반복 복습이에요. 모든 덱의 \"복습할 카드 전부\"를 모아 보고, 오른쪽으로 밀면 알아요, 왼쪽은 다시. 덱을 목록으로 둘러볼 수도 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3767,7 +3767,7 @@
    "where": "js el() <p>"
   },
   "Retention when a card comes back from each box. Higher boxes should stay high; a dip means the interval there is too long for you.": {
-   "t": "ਹਰ ਬਾਕਸ ਤੋਂ ਕਾਰਡ ਮੁੜਨ ਵੇਲੇ ਕਿੰਨਾ ਯਾਦ ਰਿਹਾ। ਉੱਚੇ ਬਾਕਸ ਵਿੱਚ ਇਹ ਉੱਚਾ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ; ਗਿਰਾਵਟ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਉੱਥੇ ਵਕਫ਼ਾ ਤੁਹਾਡੇ ਲਈ ਬਹੁਤ ਲੰਮਾ ਹੈ।",
+   "t": "ਹਰ ਬਾਕਸ ਤੋਂ ਕਾਰਡ ਮੁੜਨ ਵੇਲੇ ਕਿੰਨਾ ਯਾਦ ਰਿਹਾ। ਉੱਚੇ ਬਾਕਸਾਂ ਵਿੱਚ ਇਹ ਉੱਚਾ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ; ਗਿਰਾਵਟ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਉੱਥੇ ਵਕਫ਼ਾ ਤੁਹਾਡੇ ਲਈ ਬਹੁਤ ਲੰਮਾ ਹੈ।",
    "ko": "각 상자에서 카드가 돌아왔을 때의 기억률이에요. 높은 상자일수록 높게 유지돼야 하고, 떨어진다면 그 상자의 간격이 나에게 너무 길다는 뜻이에요.",
    "kind": "sentence",
    "where": "js overall() <p>"
@@ -4103,7 +4103,7 @@
    "where": "js sub()"
   },
   "목표 달성! Daily goal reached 🎉": {
-   "t": "ਟੀਚਾ ਪੂਰਾ! ਰੋਜ਼ ਦਾ ਟੀਚਾ ਹਾਸਲ 🎉",
+   "t": "ਰੋਜ਼ ਦਾ ਟੀਚਾ ਪੂਰਾ! 🎉",
    "ko": "목표 달성! 오늘 목표를 채웠어요 🎉",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -5620,14 +5620,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quiz · last {n}%": {
-   "t": "ਮਿੰਨੀ-ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%",
+   "t": "ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quiz · last 2%",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quizzes · last {n}%": {
-   "t": "ਮਿੰਨੀ-ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%",
+   "t": "ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quizzes · last 2%",
@@ -6389,7 +6389,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Couldn't delete right now ({x}). Try again, or post in Feedback.": {
-   "t": "ਹੁਣੇ ਡਿਲੀਟ ਨਹੀਂ ਹੋ ਸਕਿਆ ({1})। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਜਾਂ \"ਸੁਝਾਅ\" ਵਿੱਚ ਲਿਖੋ।",
+   "t": "ਇਸ ਵੇਲੇ ਡਿਲੀਟ ਨਹੀਂ ਹੋ ਸਕਿਆ ({1})। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਜਾਂ \"ਸੁਝਾਅ\" ਵਿੱਚ ਲਿਖੋ।",
    "ko": "지금은 삭제할 수 없어요 ({1}). 다시 시도하거나 피드백에 남겨 주세요.",
    "slots": "{1}=x",
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
@@ -6872,14 +6872,14 @@
    "example": "Accent Hello there"
   },
   "{x} · ~{n} days of new cards": {
-   "t": "{1} · ਨਵੇਂ ਕਾਰਡਾਂ ਦੇ ਦਿਨ: ~{2}",
+   "t": "{1} · ਨਵੇਂ ਕਾਰਡ: ~{2} ਦਿਨ",
    "ko": "{1} · 새 카드 약 {2}일 분량",
    "slots": "{1}=x, {2}=n",
    "example": "Hello there · ~5 days of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} · ~{n} day of new cards": {
-   "t": "{1} · ਨਵੇਂ ਕਾਰਡਾਂ ਦੇ ਦਿਨ: ~{2}",
+   "t": "{1} · ਨਵੇਂ ਕਾਰਡ: ~{2} ਦਿਨ",
    "ko": "{1} · 새 카드 약 {2}일 분량",
    "slots": "{1}=x, {2}=n",
    "example": "Hello there · ~5 day of new cards",
@@ -6945,21 +6945,21 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· ~{n} days of new cards": {
-   "t": "· ਨਵੇਂ ਕਾਰਡਾਂ ਦੇ ਦਿਨ: ~{1}",
+   "t": "· ਨਵੇਂ ਕਾਰਡ: ~{1} ਦਿਨ",
    "ko": "· 새 카드 약 {1}일 분량",
    "slots": "{1}=n",
    "example": "· ~5 days of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· ~{n} day of new cards": {
-   "t": "· ਨਵੇਂ ਕਾਰਡਾਂ ਦੇ ਦਿਨ: ~{1}",
+   "t": "· ਨਵੇਂ ਕਾਰਡ: ~{1} ਦਿਨ",
    "ko": "· 새 카드 약 {1}일 분량",
    "slots": "{1}=n",
    "example": "· ~5 day of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Listen: {x}": {
-   "t": "ਸੁਣਨਾ: {1}",
+   "t": "ਸੁਣੋ: {1}",
    "ko": "듣기: {1}",
    "slots": "{1}=x",
    "example": "Listen: Hello there"
@@ -7020,7 +7020,7 @@
    "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)"
   },
   "Type the {x}, or tap Check again to give up.": {
-   "t": "ਜਵਾਬ ਦੀ ਭਾਸ਼ਾ: {1}। ਜਵਾਬ ਲਿਖੋ, ਜਾਂ ਛੱਡਣ ਲਈ ਦੁਬਾਰਾ \"ਜਾਂਚੋ\" ਦਬਾਓ।",
+   "t": "ਜਵਾਬ ਦੀ ਭਾਸ਼ਾ: {1}। ਜਵਾਬ ਲਿਖੋ, ਜਾਂ ਛੱਡਣ ਲਈ ਦੁਬਾਰਾ \"ਜਾਂਚੋ\" ਟੈਪ ਕਰੋ।",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type the Hello there, or tap Check again to give up.",

@@ -10,7 +10,7 @@ module.exports = {
     { t: "mc", q: "ਸਹੀ ਕਿਹੜਾ ਹੈ?", o: ["an M","a M","an B","an U"], why: "M ਦਾ ਨਾਂ ਏਮ ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ an। B (ਬੀ) ਨਾਲ a B; U (ਯੂ) \"ਯ\" ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ a U।" },
     { t: "mc", q: "ਇਹਨਾਂ ਵਿੱਚੋਂ ਸਵਰ ਅੱਖਰ ਕਿਹੜਾ ਹੈ?", o: ["U","R","S","W"], why: "ਅੰਗਰੇਜ਼ੀ ਦੇ ਸਵਰ ਅੱਖਰ ਪੰਜ ਹਨ: A, E, I, O, U। R, S, W ਵਿਅੰਜਨ ਹਨ।" },
     { t: "mc", q: "W ਦਾ ਅੰਗਰੇਜ਼ੀ ਨਾਂ ਕੀ ਹੈ?", o: ["double u","double v","u u","v v"], why: "ਸ਼ਕਲ ਦੋ V ਵਰਗੀ ਹੈ, ਪਰ ਨਾਂ double u ਹੈ, ਯਾਨੀ \"ਦੋ U\"।" },
-    { t: "order", p: "ਇਸ ਦੀ ਸਪੈਲਿੰਗ ਕੀ ਹੈ?", a: ["How","do","you","spell","that"], x: ["spelling","does"], why: "spell ਆਮ ਕਿਰਿਆ ਹੈ, ਇਸ ਲਈ ਸਵਾਲ ਵਿੱਚ ਸਹਾਇਕ ਕਿਰਿਆ do ਚਾਹੀਦੀ ਹੈ। you ਨਾਲ does ਨਹੀਂ ਲੱਗਦਾ, ਤੇ do ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦੀ ਹੈ: spell।" },
+    { t: "order", p: "ਇਸ ਦੀ ਸਪੈਲਿੰਗ ਕੀ ਹੈ?", a: ["How","do","you","spell","that"], x: ["spelling","does"], why: "spell be ਨਹੀਂ, ਹੋਰ ਕਿਰਿਆ ਹੈ, ਇਸ ਲਈ ਸਵਾਲ ਵਿੱਚ ਸਹਾਇਕ ਕਿਰਿਆ do ਚਾਹੀਦੀ ਹੈ। you ਨਾਲ does ਨਹੀਂ ਲੱਗਦਾ, ਤੇ do ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦੀ ਹੈ: spell।" },
     { t: "order", p: "ਮੇਰਾ ਨਾਂ S ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ", a: ["My","name","starts","with","an","S"], x: ["a","start"], why: "S ਦਾ ਨਾਂ ਏਸ ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ an। ਕਰਤਾ my name ਇੱਕ ਹੈ, ਇਸ ਲਈ starts।" },
     { t: "order", p: "hello ਵਿੱਚ ਦੋ L ਹਨ", a: ["There","are","two","Ls","in","hello"], x: ["is","L"], why: "L ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ Ls; ਤੇ ਬਹੁਵਚਨ ਨਾਲ is ਨਹੀਂ, are ਆਉਂਦਾ ਹੈ।" },
     { t: "fill", q: "How do you __ your name?", p: "ਤੁਹਾਡੇ ਨਾਂ ਦੀ ਸਪੈਲਿੰਗ ਕੀ ਹੈ?", a: ["spell"], o: ["spelling","spells","spelled"], why: "do ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦੀ ਹੈ: How do you spell…?" },

@@ -43,16 +43,16 @@ practice:[
 <h3>3. "ਤੋਂ" + "ਰਿਹਾ ਹੈ" = Present Perfect (Continuous)</h3>
 <p>ਜਿਹੜੀ ਗੱਲ ਪਹਿਲਾਂ ਸ਼ੁਰੂ ਹੋ ਕੇ ਹੁਣ ਤੱਕ ਚੱਲ ਰਹੀ ਹੈ, ਉਹ Present Continuous ਵਿੱਚ ਨਹੀਂ ਜਾਂਦੀ। ਹਾਲਤ ਹੋਵੇ ਤਾਂ <b>Present Perfect</b> (have / has + V3), ਚੱਲ ਰਿਹਾ ਕੰਮ ਹੋਵੇ ਤਾਂ <b>Present Perfect Continuous</b> (have / has been + -ing)।</p>
 {{ex:I've known him for ten years.|ਆਈਵ਼ ਨੋਨ ਹਿਮ ਫ਼ਰ ਟੇਨ ਯਿਰ੍ਜ਼|ਮੈਂ ਉਸ ਨੂੰ ਦਸ ਸਾਲਾਂ ਤੋਂ ਜਾਣਦਾ ਹਾਂ}}{{ex:I've lived here since 2015.|ਆਈਵ਼ ਲਿਵ਼੍ਡ ਹਿਰ ਸਿਨ੍ਸ ˈਟ੍ਵੇਂਟੀ ਫ਼ਿਫ਼੍ˈਟੀਨ|ਮੈਂ 2015 ਤੋਂ ਇੱਥੇ ਰਹਿ ਰਹੀ ਹਾਂ}}{{ex:I've been waiting for an hour.|ਆਈਵ਼ ਬਿਨ ˈਵੇਟਿਙ ਫ਼ਰ ਅਨ ˈਆਊਅਰ|ਮੈਂ ਇੱਕ ਘੰਟੇ ਤੋਂ ਉਡੀਕ ਕਰ ਰਿਹਾ ਹਾਂ}}{{ex:It's been raining for two days.|ਇਟ੍ਸ ਬਿਨ ˈਰੇਨਿਙ ਫ਼ਰ ਟੂ ਡੇਜ਼|ਦੋ ਦਿਨਾਂ ਤੋਂ ਮੀਂਹ ਪੈ ਰਿਹਾ ਹੈ}}
-<p>live ਤੇ work ਨਾਲ ਦੋਵੇਂ ਰੂਪ ਚੱਲਦੇ ਹਨ: <b>I've lived here since 2015.</b> = <b>I've been living here since 2015.</b> ਪਰ know, have ਵਰਗੀਆਂ ਹਾਲਤ ਵਾਲੀਆਂ ਕਿਰਿਆਵਾਂ ਨਾਲ been + -ing ਨਹੀਂ: <b>I've been knowing him.</b> ✗</p>
+<p>live ਤੇ work ਨਾਲ ਦੋਵੇਂ ਰੂਪ ਚੱਲਦੇ ਹਨ: <b>I've lived here since 2015.</b> = <b>I've been living here since 2015.</b> ਪਰ know, have (ਕੋਲ ਹੋਣਾ) ਵਰਗੀਆਂ ਹਾਲਤ ਦੱਸਣ ਵਾਲੀਆਂ ਕਿਰਿਆਵਾਂ ਨਾਲ been + -ing ਨਹੀਂ: <b>I've been knowing him.</b> ✗</p>
 <h3>4. "ਕਦੋਂ ਤੋਂ?" = How long…?</h3>
 {{ex:How long have you been waiting?|ਹਾਊ ਲੌਙ ਹਵ਼ ਯੂ ਬਿਨ ˈਵੇਟਿਙ|ਤੁਸੀਂ ਕਦੋਂ ਤੋਂ ਉਡੀਕ ਕਰ ਰਹੇ ਹੋ?}}{{ex:How long have you known her?|ਹਾਊ ਲੌਙ ਹਵ਼ ਯੂ ਨੋਨ ਹਰ|ਤੁਸੀਂ ਉਸ ਨੂੰ ਕਦੋਂ ਤੋਂ ਜਾਣਦੇ ਹੋ?}}
-<p><b>Since when you are waiting?</b> ✗ — ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ Since when…? ਹੈਰਾਨੀ ਜਾਂ ਤਾਅਨੇ ਵਰਗਾ ਲੱਗਦਾ ਹੈ। ਆਮ ਸਵਾਲ How long ਨਾਲ ਬਣਦਾ ਹੈ।</p>
+<p><b>Since when you are waiting?</b> ✗ — ਇੱਥੇ ਸ਼ਬਦ-ਤਰਤੀਬ ਵੀ ਗ਼ਲਤ ਹੈ, ਤੇ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ Since when…? ਅਕਸਰ ਹੈਰਾਨੀ ਜਾਂ ਤਾਅਨੇ ਵਰਗਾ ਲੱਗਦਾ ਹੈ। ਆਮ ਸਵਾਲ How long ਨਾਲ ਬਣਦਾ ਹੈ।</p>
 <div class="tip">ਇੱਕ ਲਾਈਨ ਵਿੱਚ: "ਤੋਂ" + ਸਮੇਂ ਦੀ ਲੰਬਾਈ = for; "ਤੋਂ" + ਸ਼ੁਰੂ ਹੋਣ ਦਾ ਪਲ = since; "ਤੋਂ" + "ਰਿਹਾ ਹਾਂ" = have / has + V3 ਜਾਂ have / has been + -ing। ਤੇ know, have (ਕੋਲ ਹੋਣਾ), understand ਨਾਲ ਕਦੇ -ing ਨਹੀਂ।</div>`,
 check:[["\"ਮੈਂ ਉਸ ਨੂੰ ਸਾਲਾਂ ਤੋਂ ਜਾਣਦਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["I'm knowing him for years.","I've known him for years.","I know him since years.","I've been knowing him for years."],1,"know ਹਾਲਤ ਦੱਸਣ ਵਾਲੀ ਕਿਰਿਆ ਹੈ, ਇਸ ਲਈ -ing ਨਹੀਂ; \"ਤੋਂ\" + ਸਮੇਂ ਦੀ ਲੰਬਾਈ ਲਈ Present Perfect + for।"],["\"ਦੋ ਸਾਲਾਂ ਤੋਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["from two years","since two years","before two years","for two years"],3,"ਸਮੇਂ ਦੀ ਲੰਬਾਈ ਨਾਲ for; from ਤੇ since ਇੱਥੇ ਗ਼ਲਤ ਹਨ।"],["It ___ raining for two days. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["has been","is","was being","have"],0,"ਦੋ ਦਿਨਾਂ ਤੋਂ ਪੈ ਰਿਹਾ ਮੀਂਹ: has been + -ing।"]],
 practice:[
 ["mc","He ___ a car. (ਉਸ ਕੋਲ ਇੱਕ ਕਾਰ ਹੈ)","has","is having","have","is has","\"ਕੋਲ ਹੋਣਾ\" ਵਾਲਾ have ਹਾਲਤ ਦੱਸਦਾ ਹੈ: has, is having ਨਹੀਂ।"],
 ["mc","\"ਹੁਣ ਮੈਨੂੰ ਸਮਝ ਆ ਗਈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I understand now.","I am understanding now.","I'm understand now.","I understanding now.","understand ਹਾਲਤ ਦੱਸਦੀ ਹੈ: ਹੁਣ ਲਈ ਵੀ Simple Present।"],
-["mc","\"ਮੈਂ 2015 ਤੋਂ ਇੱਥੇ ਰਹਿ ਰਿਹਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I've lived here since 2015.","I am living here since 2015.","I live here from 2015.","I've lived here for 2015.","2015 ਤੋਂ = since 2015, ਤੇ \"ਤੋਂ + ਰਿਹਾ ਹਾਂ\" = Present Perfect।"],
+["mc","\"ਮੈਂ 2015 ਤੋਂ ਇੱਥੇ ਰਹਿ ਰਿਹਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I've lived here since 2015.","I am living here since 2015.","I live here from 2015.","I've lived here for 2015.","2015 ਤੋਂ = since 2015, ਤੇ \"ਤੋਂ + ਰਿਹਾ ਹਾਂ\" = Present Perfect (I've been living ਵੀ ਠੀਕ ਹੈ; I am living ਨਹੀਂ)।"],
 ["mc","I've had this phone ___ March.","since","for","from","during","\"ਮਾਰਚ ਤੋਂ\" — ਸ਼ੁਰੂ ਹੋਣ ਦਾ ਮਹੀਨਾ, ਇਸ ਲਈ since।"],
 ["mc","\"ਤੁਸੀਂ ਕਦੋਂ ਤੋਂ ਉਡੀਕ ਕਰ ਰਹੇ ਹੋ?\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","How long have you been waiting?","Since when you are waiting?","How long are you waiting?","From when have you waited?","\"ਕਦੋਂ ਤੋਂ\" = How long have you been + -ing?"],
 ["or","ਮੈਂ ਉਸ (ਕੁੜੀ) ਨੂੰ ਪੰਜ ਸਾਲਾਂ ਤੋਂ ਜਾਣਦੀ ਹਾਂ","I've known her for five years","year since","ਪੰਜ ਸਾਲ — ਬਹੁਵਚਨ years; ਲੰਬਾਈ ਨਾਲ for, ਤੇ know ਨਾਲ -ing ਨਹੀਂ।"],
@@ -65,7 +65,7 @@ practice:[
 ["ty","ਮੇਰੇ ਕੋਲ ਇਹ ਫ਼ੋਨ ਤਿੰਨ ਸਾਲਾਂ ਤੋਂ ਹੈ","I've had this phone for three years","had · phone · for · three · year — ਬਹੁਵਚਨ","year","ਤਿੰਨ ਸਾਲ — ਬਹੁਵਚਨ years; \"ਕੋਲ ਹੋਣਾ\" ਵਾਲਾ have ਹਾਲਤ ਹੈ: I've had, -ing ਨਹੀਂ।"],
 ["ty","ਅਸੀਂ ਦਸ ਸਾਲਾਂ ਤੋਂ ਦੋਸਤ ਹਾਂ","We've been friends for ten years","been · friends · for · ten · year — ਬਹੁਵਚਨ","year","ਦਸ ਸਾਲ — ਬਹੁਵਚਨ years; \"ਤੋਂ\" + ਹੁਣ ਤੱਕ = Present Perfect: We've been, We are ਨਹੀਂ।"],
 ["ty","ਮੈਂ 2015 ਤੋਂ ਇੱਥੇ ਰਹਿ ਰਿਹਾ ਹਾਂ","I've lived here since 2015|I've been living here since 2015","lived · here · since · 2015","am","\"2015 ਤੋਂ\" = since 2015; \"ਰਹਿ ਰਿਹਾ ਹਾਂ\" ਹੁੰਦਿਆਂ ਵੀ Present Perfect: I've lived / I've been living।"],
-["ty","ਤੁਸੀਂ ਕਦੋਂ ਤੋਂ ਉਡੀਕ ਕਰ ਰਹੇ ਹੋ?","How long have you been waiting","how long · have you · been · waiting","since","\"ਕਦੋਂ ਤੋਂ\" = How long…? ਇੱਥੇ Since when ਨਹੀਂ।"]]},
+["ty","ਤੁਸੀਂ ਕਦੋਂ ਤੋਂ ਉਡੀਕ ਕਰ ਰਹੇ ਹੋ?","How long have you been waiting|How long have you waited","how long · have you · been · waiting","since","\"ਕਦੋਂ ਤੋਂ\" = How long…? ਇੱਥੇ Since when ਨਹੀਂ।"]]},
 { id:"narrative", title:"ਕਹਾਣੀ ਦੇ ਟੈਂਸ: Simple Past, Past Continuous, Past Perfect", blurb:"ਮਾਹੌਲ Past Continuous ਵਿੱਚ, ਘਟਨਾ Simple Past ਵਿੱਚ, ਉਸ ਤੋਂ ਵੀ ਪਹਿਲਾਂ ਦੀ ਗੱਲ had + V3 ਵਿੱਚ।", deck:"ਫ਼ਿਲਮਾਂ, ਵੈੱਬ ਸੀਰੀਜ਼ ਤੇ ਸਲੈਂਗ", body:`
 <p>ਬੀਤੀ ਗੱਲ ਸੁਣਾਉਂਦਿਆਂ ਤਿੰਨ ਟੈਂਸ ਇਕੱਠੇ ਆਉਂਦੇ ਹਨ, ਤੇ ਹਰ ਇੱਕ ਦਾ ਕੰਮ ਵੱਖਰਾ ਹੈ।</p>
 <div class="tbl"><table><tr><th>ਟੈਂਸ</th><th>ਕੰਮ</th><th>ਮਿਸਾਲ</th></tr><tr><td class="k">Past Continuous</td><td>ਮਾਹੌਲ, ਚੱਲ ਰਿਹਾ ਕੰਮ</td><td>I was walking home.</td></tr><tr><td class="k">Simple Past</td><td>ਘਟਨਾ</td><td>I saw an old friend.</td></tr><tr><td class="k">Past Perfect</td><td>ਉਸ ਤੋਂ ਵੀ ਪਹਿਲਾਂ ਹੋਈ ਗੱਲ</td><td>He had moved to Canada.</td></tr></table></div>
@@ -103,7 +103,7 @@ practice:[
 <h3>ਕਿਸਮ 3: ਬੀਤੇ ਤੋਂ ਉਲਟ</h3>
 <p><b>If + had + V3, would have + V3</b>। ਜੋ ਹੋ ਚੁੱਕਾ, ਉਹ ਬਦਲ ਨਹੀਂ ਸਕਦਾ; ਇਹ ਪਛਤਾਵੇ ਦਾ ਢਾਂਚਾ ਹੈ।</p>
 {{ex:If I had studied, I would have passed.|ਇਫ਼ ਆਈ ਹਡ ˈਸ੍ਟਡੀਡ ਆਈ ਵਡ ਅਵ਼ ਪੈਸ੍ਟ|ਜੇ ਮੈਂ ਪੜ੍ਹਾਈ ਕੀਤੀ ਹੁੰਦੀ ਤਾਂ ਪਾਸ ਹੋ ਜਾਂਦਾ (ਬੀਤੀ ਗੱਲ)}}
-<h3>ਪਛਤਾਵਾ: should have, I wish</h3>
+<h3>ਪਛਤਾਵਾ ਤੇ ਅਧੂਰੀ ਇੱਛਾ: should have, I wish</h3>
 {{ex:I should have called.|ਆਈ ਸ਼ਡ ਅਵ਼ ਕੌਲ੍ਡ|ਮੈਨੂੰ ਫ਼ੋਨ ਕਰ ਲੈਣਾ ਚਾਹੀਦਾ ਸੀ}}{{ex:I wish I had more time.|ਆਈ ਵਿਸ਼ ਆਈ ਹੈਡ ਮੌਰ ਟਾਈਮ|ਕਾਸ਼ ਮੇਰੇ ਕੋਲ ਹੋਰ ਟਾਈਮ ਹੁੰਦਾ}}
 <div class="tbl"><table><tr><th>ਕਿਸਮ</th><th>if ਵਾਲਾ ਹਿੱਸਾ</th><th>ਨਤੀਜਾ</th></tr><tr><td>1 (ਹੋ ਸਕਦਾ ਹੈ)</td><td class="k">Simple Present</td><td class="k">will</td></tr><tr><td>2 (ਅੱਜ ਤੋਂ ਉਲਟ)</td><td class="k">Simple Past</td><td class="k">would</td></tr><tr><td>3 (ਬੀਤੇ ਤੋਂ ਉਲਟ)</td><td class="k">had + V3</td><td class="k">would have + V3</td></tr></table></div>
 <div class="tip">If I were you ਪੱਕਾ ਢਾਂਚਾ ਹੈ: I ਨਾਲ ਵੀ was ਨਹੀਂ, <b>were</b>। ਬੋਲਚਾਲ ਵਿੱਚ If I was you ਵੀ ਸੁਣਨ ਨੂੰ ਮਿਲਦਾ ਹੈ, ਪਰ ਲਿਖਣ ਵੇਲੇ were ਲਿਖੋ।</div>`,
