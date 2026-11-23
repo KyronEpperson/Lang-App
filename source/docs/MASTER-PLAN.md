@@ -43,9 +43,12 @@ Any pair = target half + native half (+ pair layer). 61 + 61 pieces of work cove
 1. **Label:** hand-tuned courses carry a small asterisk-style mark in the "language to learn" picker, with a one-line legend ("hand-tuned for speakers of your language"). Standard courses carry no mark.
 2. **Pilot:** Spanish → Korean is the assembled (standard) pilot. Japanese → Korean is hand-tuned and comes after the pilot.
 3. **Timing:** engine change starts after the usage reset (about 2026-11-24), not before.
-4. **Next block after the pilot (Kii, 2026-11-22): every Asian language → Korean.** 16 pairs, in this order:
-   - Interface already exists (cheapest; Japanese and Chinese hand-tuned, the rest standard): Japanese, Chinese, Vietnamese, Thai, Indonesian, Hindi.
-   - Needs a native half first (interface dictionary and meanings): Bisaya / Cebuano (HAND-TUNED, Kii 2026-11-22: a friend asked for it; first of this group; research the mistakes Cebuano speakers make in Korean, and ask the friend to check it before launch), Tagalog, Cantonese (convert the Chinese interface to Traditional characters), Taiwanese Hokkien (same conversion), Bengali, Urdu, Punjabi, Telugu, Kannada, Marathi.
+4. **Next block after the pilot (Kii, 2026-11-22): every Asian language → Korean.** 16 pairs, in Kii's order:
+   1. **Bisaya / Cebuano: HAND-TUNED** (a friend asked for it). Needs a Cebuano native half first (interface dictionary and meanings). Research the mistakes Cebuano speakers make in Korean; ask the friend to check it before launch.
+   2. **Tagalog** (needs a native half; reuses much of the Cebuano research on Philippine-language speakers).
+   3. **Chinese (Mandarin): hand-tuned** (interface exists).
+   4. **Japanese: hand-tuned** (interface exists).
+   5. The others: Vietnamese, Thai, Indonesian, Hindi (interface exists, standard); then Cantonese and Taiwanese Hokkien (convert the Chinese interface to Traditional characters), Bengali, Urdu, Punjabi, Telugu, Kannada, Marathi (each needs a native half).
    - Arabic, Persian and Turkish are NOT in this block (Kii, 2026-11-22).
    Korean's target half comes from the Spanish → Korean pilot and is reused by all 16.
 
