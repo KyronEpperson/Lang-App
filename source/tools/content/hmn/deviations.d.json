@@ -1,0 +1,20 @@
+{
+  "lessons": {},
+  "items": {
+    "will#check2": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Jeju → Thailand (all options)",
+    "will#4": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Jeju → Thailand (all options)",
+    "perfect#check2": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Jeju → Thailand (all options)",
+    "perfect#4": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Jeju → Thailand (all options)",
+    "perfect#2": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: kimchi → pho (fawm)",
+    "perfect#6": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Korea → Laos (Nplog teb)",
+    "perfect#10": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Korea → Laos (Nplog teb), fill q",
+    "perfect#8": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Busan → Fresno, fill q",
+    "articles-2#1": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Korea → Minnesota (a state name takes no article, the point of the item)",
+    "relative#12": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: speaks Korean → speaks Chinese (lus Suav)",
+    "passive#1": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: made in Korea → made in Thailand (all options)",
+    "passive#8": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: made in Korea → made in Thailand, fill q",
+    "passive#10": "localisation (hmn-en, profile §9): Korean setting replaced with the learner's own, grammar point unchanged: Han Kang → Kao Kalia Yang (Hmong American author), fill q"
+  },
+  "decks": {},
+  "extraLessons": ["he-she-it"]
+}

@@ -118,3 +118,91 @@ slang
 
 # Names used by the localisation map (docs/briefs/hmn-*.md, HMONG RULES §4)
 Kao Kalia Yang
+bank  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+soccer  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+key  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+keys  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+box  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+boxes  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+movie  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+station  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+size  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+restaurant  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+idea  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+RPA  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+
+# HMN-I interface (tools/i18n/hmn/ui.json): app and web words kept in English (no attested Hmong term; list and reasons in tools/i18n/hmn/NOTES.md)
+account  # HMN-I ui.json: UW Extension Hmong Zoom sheet keeps it ("tsim tus zoom account dawb")
+internet  # HMN-I ui.json: MN DHS Hmong Tech Skills guide keeps it ("Kev txuas internet")
+computer  # HMN-I ui.json: MN DHS Hmong Tech Skills guide keeps it ("tus computer")
+download  # HMN-I ui.json: MN DHS Hmong Tech Skills guide keeps it ("Download txhais tau tias ...")
+browser  # HMN-I ui.json: MN DHS Hmong Tech Skills guide keeps it ("Qhov browser yog ib qho app")
+keyboard  # HMN-I ui.json: MN DHS Hmong Tech Skills guide keeps it
+screen  # HMN-I ui.json: MN DHS Hmong Tech Skills guide keeps it ("daim screen")
+home screen  # HMN-I ui.json: phone home screen (app install hint)
+right-click  # HMN-I ui.json: mouse action, no Hmong term found
+export  # HMN-I ui.json: backup file (app term)
+import  # HMN-I ui.json: backup file (app term)
+backup  # HMN-I ui.json: app term
+session  # HMN-I ui.json: the daily study session (app term)
+drill  # HMN-I ui.json: practice drill (app term; Xyaum is the Practice tab)
+drills  # HMN-I ui.json: as drill
+plan  # HMN-I ui.json: study plan (app term)
+badge  # HMN-I ui.json: weekly badge (app term)
+certificate  # HMN-I ui.json: course certificate (app term)
+box  # HMN-I ui.json: review box 1-6 (app term)
+shield  # HMN-I ui.json: streak shield (app term)
+points  # HMN-I ui.json: blitz points (app term)
+grammar  # HMN-I ui.json: grammar index (profile §3: grammar terms stay English)
+irregular  # HMN-I ui.json: irregular verb label (grammar term)
+lesson  # HMN-I ui.json: singular of Lessons (tab kept English, profile §10)
+link  # HMN-I ui.json: web link (app term)
+code  # HMN-I ui.json: 6-digit sign-in code (app term)
+error  # HMN-I ui.json: error report (app term)
+bug  # HMN-I ui.json: bug report (app term)
+spam  # HMN-I ui.json: board rules
+ads  # HMN-I ui.json: "no ads" (privacy text)
+version  # HMN-I ui.json: app version
+database  # HMN-I ui.json: privacy text (Supabase database)
+cookies  # HMN-I ui.json: privacy text
+Analytics  # HMN-I ui.json: privacy text (Vercel Web Analytics)
+Vercel Web Analytics  # HMN-I ui.json: product name in the privacy text
+Supabase  # HMN-I ui.json: product name in the privacy text
+site data  # HMN-I ui.json: browser site data (privacy and sign-in text)
+browser data  # HMN-I ui.json: as site data
+inbox  # HMN-I ui.json: email inbox
+admin  # HMN-I ui.json: board admin
+menu  # HMN-I ui.json: menu language option
+calendar  # HMN-I ui.json: add a reminder to your calendar
+Privacy  # HMN-I ui.json: privacy page title
+Korean  # HMN-I ui.json: the language option Korean (no attested Hmong name in the glossary)
+example.com  # HMN-I ui.json: placeholder e-mail address
+Sun  # HMN-I ui.json: weekday header (en-hmn decisions §1: English day names)
+Mon  # HMN-I ui.json: weekday header
+Tue  # HMN-I ui.json: weekday header
+Wed  # HMN-I ui.json: weekday header
+Fri  # HMN-I ui.json: weekday header
+Sat  # HMN-I ui.json: weekday header
+# HMN-D (more/a2.js, more/b1.js) additions
+past participle  # HMN-D perfect, perfect-2, narrative, conditionals, passive: grammar term kept in English (profile §3, never coin)
+barking  # HMN-D to-ing: the English example a barking dog quoted in Hmong prose (profile §4 zone 11, BIL bark dog)
+movie  # HMN-D prompts and meanings: no attested Hmong word (DECKNAMES row 20 keeps Movies in English; yeeb yaj kiab not found)
+piano  # HMN-D articles-2: instrument name kept in English inside Hmong prompts (no attested Hmong word)
+guitar  # HMN-D articles-2: instrument name kept in English (no attested Hmong word)
+soccer  # HMN-D articles-2, past-continuous: sport name kept in English (no attested Hmong word)
+internet  # HMN-D articles-2: decisions §5 gap word, no Hmong source found; English kept
+ticket  # HMN-D modals, conditionals: written after the classifier daim (ib daim ticket); no attested Hmong word
+taxi  # HMN-D first-conditional, conditionals: written after the head noun tsheb (tsheb taxi), HMONG RULES §3.2
+meeting  # HMN-D passive: no attested Hmong word for a work meeting; English kept
+pasta  # HMN-D will: the ko-en example I'll have the pasta; no Hmong word
+Japan  # HMN-D perfect: country name in the shared examples (I've been to Japan)
+ɪz  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+ɪd  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+lɪvz  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+bʊk  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+ʃ  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+tʃ  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+dʒ  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+sh  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+ies  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+gonna  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong

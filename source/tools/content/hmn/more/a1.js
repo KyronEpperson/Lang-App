@@ -1,459 +1,461 @@
-/* TRANSLATE/ADAPT (hmn): scaffolded from tools/content/ko/more/a1.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for hmn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the hmn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage A1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* hmn-en stage A1: lessons it-there … joining, plus the hmn-en extra lesson final-sounds (English side from vi-en). Shorthand is expanded by _dsl.js. */
 module.exports = [
-{ id:"it-there", title:"it과 there: 주어 자리 채우기", blurb:"날씨·시간은 it, '~이 있어요'는 there is / there are.", deck:"스몰토크", body:`
-<p>한국어는 "추워요", "카페가 있어요"처럼 주어 없이도 말이 돼요. 영어는 주어 자리가 비면 안 돼요. 그래서 뜻이 없는 <b>it</b>과 <b>there</b>로 그 자리를 채워요.</p>
-<h3>날씨·시간은 It</h3>
-<p>이때 it은 '그것'이 아니에요. 자리만 채우는 말이에요.</p>
-{{ex:It's cold today.|이츠 콜드 투데이|오늘 추워요}}{{ex:It's three o'clock.|이츠 쓰리 어클락|세 시예요}}{{ex:It's raining.|이츠 레이닝|비가 와요}}
-<h3>'~이 있어요'는 There is / There are</h3>
-<p>하나면 <b>There is a …</b>, 여럿이면 <b>There are … -s</b>예요. 말할 때는 There's로 줄여요.</p>
-{{ex:There's a cafe near here.|데어즈 어 캐페이 니어 히어|이 근처에 카페가 있어요}}{{ex:There are two rooms.|데어 아 투 룸즈|방이 두 개 있어요}}
-<h3>질문과 부정</h3>
-{{ex:Is there a bathroom here?|이즈 데어 어 배쓰룸 히어?|여기 화장실 있어요?}}{{ex:Are there any seats?|아 데어 애니 싯츠?|자리 있어요?}}{{ex:There isn't a bus today.|데어 이즌 어 버스 투데이|오늘은 버스가 없어요}}
-<h3>have와 구분하기</h3>
-<p>사람이 가진 것은 <b>have</b>, 어떤 장소에 있는 것은 <b>there is</b>예요.</p>
-{{ex:I have a car.|아이 해버 카|저는 차가 있어요}}{{ex:There's a car outside.|데어즈 어 카 아웃사이드|밖에 차가 있어요}}
-<div class="tip">가장 흔한 실수: <b>Is cold.</b> (X) → <b>It's cold.</b> (O) / <b>Have a cafe here.</b> (X) → <b>There's a cafe here.</b> (O)</div>`,
-check:[["'오늘 더워요'를 영어로 하면?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"날씨는 it으로 주어 자리를 채워요."],["There ___ three people. 빈칸에 알맞은 것은?",["is","are","have","be"],1,"여럿이면 there are예요."],["'여기 화장실 있어요?'를 영어로 하면?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"있는지 물을 때는 Is there a ~?예요."]],
+{ id:"it-there", title:"it thiab there: lus Askiv yuav tsum muaj subject", blurb:"Huab cua thiab sij hawm siv it. Lus Hmoob hais muaj, lus Askiv hais there is / there are.", deck:"Sib tham", body:`
+<p>Lus Hmoob hais <b>Los nag</b> thiab <b>Muaj ib lub khw nyob ze</b>: tsis muaj subject. Lus Askiv yuav tsum muaj subject. Yog tsis muaj, lus Askiv siv <b>it</b> los yog <b>there</b>.</p>
+<h3>Huab cua thiab sij hawm: It</h3>
+<p>It no tsis yog nws (khoom). It nyob qhov subject xwb.</p>
+{{ex:It's cold today.|/ɪts koʊld təˈdeɪ/|Hnub no no.}}{{ex:It's three o'clock.|/ɪts θriː əˈklɑːk/|Tam sim no peb teev.}}{{ex:It's raining.|/ɪts ˈreɪnɪŋ/|Los nag.}}
+<h3>Muaj: There is / There are</h3>
+<p>Ib yam: <b>There is a …</b>. Ntau yam: <b>There are … -s</b>. Thaum hais lus, There is luv ua There's.</p>
+{{ex:There's a cafe near here.|/ðerz‿ə kæˈfeɪ nɪr hɪr/|Muaj ib lub khw kav fes nyob ze qhov no.}}{{ex:There are two rooms.|/ðer ɑːr tuː ruːmz/|Muaj ob chav pw.}}
+<h3>Nug thiab tsis muaj</h3>
+{{ex:Is there a bathroom here?|/ɪz ðer ə ˈbæθruːm hɪr/|Qhov no puas muaj chav dej?}}{{ex:Are there any seats?|/ɑːr ðer ˈeni siːts/|Puas muaj rooj?}}{{ex:There isn't a bus today.|/ðer ˈɪzənt‿ə bʌs təˈdeɪ/|Hnub no tsis muaj tsheb ntiav.}}
+<h3>Muaj: have los yog there is?</h3>
+<p>Hauv lus Hmoob, <b>muaj</b> yog have thiab yog there is. Lus Askiv siv ob lo lus: ib tug neeg muaj = <b>have</b>; muaj nyob ib qho chaw = <b>there is</b>.</p>
+{{ex:I have a car.|/aɪ hæv‿ə kɑːr/|Kuv muaj ib lub tsheb.}}{{ex:There's a car outside.|/ðerz‿ə kɑːr aʊtˈsaɪd/|Muaj ib lub tsheb nyob nraum.}}
+<div class="tip">Nco ntsoov: <b>Is cold.</b> ✗ → <b>It's cold.</b> ✓ / <b>Have a cafe here.</b> ✗ → <b>There's a cafe here.</b> ✓</div>`,
+check:[["'Hnub no kub.' — lus Askiv twg raug?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"Huab cua: it yog subject."],["There ___ three people. Lo lus twg raug?",["is","are","have","be"],1,"Peb tug neeg yog plural: there are."],["'Qhov no puas muaj chav dej?' — lus Askiv twg raug?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"Nug tias puas muaj: Is there a …?"]],
 practice:[
-["mc","'비가 와요' =","It's raining.","Is raining.","There is raining.","Rain is.","날씨는 it이 주어예요."],
-["mc","'이 근처에 카페가 있어요' =","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","장소에 있는 것은 there is, 하나라서 관사 a를 붙여요."],
-["mc","There ___ two rooms. 빈칸은?","are","is","have","has","복수 rooms라서 are예요."],
-["mc","'세 시예요' =","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","시간도 it으로 시작해요."],
-["mc","'저는 차가 있어요' =","I have a car.","There is a car me.","I am a car.","It's a car me.","사람이 가진 것은 have예요."],
-["or","오늘 추워요","It's cold today","There's","날씨는 it이 주어예요."],
-["or","밖에 차가 있어요","There's a car outside","cars","하나니까 관사 a와 단수 car를 써요."],
-["or","자리가 두 개 있어요","There are two seats","seat is","둘 이상이면 are와 복수 seats예요."],
-["fi","__ cold today.","오늘 추워요","It's|It is","Is|There's|This","주어 자리를 it으로 채워요."],
-["fi","There __ a bank near here.","근처에 은행이 있어요","is","are|have|be","하나라서 is예요."],
-["fi","__ there any seats?","자리 있어요?","Are","Is|Do|Have","복수 seats라서 Are예요."],
-["ty","오늘 더워요","It's hot today","it · hot · today — 날씨는 it","There's","날씨는 it으로 시작해요."],
-["ty","여기 화장실 있어요?","Is there a bathroom here|Is there a restroom here","is there · bathroom — 관사 주의","the","처음 묻는 하나라서 관사 a를 붙여요."],
-["ty","방이 두 개 있어요","There are two rooms","there are · two · room — 복수","room","둘이니까 복수 rooms예요."]]},
+["mc","'Los nag.' — lus Askiv twg raug?","It's raining.","Is raining.","There is raining.","Rain is.","Huab cua: it yog subject."],
+["mc","'Muaj ib lub khw kav fes nyob ze qhov no.' — lus Askiv twg raug?","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","Muaj … nyob ze: there is. Ib lub khw: article a."],
+["mc","There ___ two rooms. Lo lus twg raug?","are","is","have","has","Rooms yog plural: are."],
+["mc","'Tam sim no peb teev.' — lus Askiv twg raug?","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","Sij hawm kuj siv it."],
+["mc","'Kuv muaj ib lub tsheb.' — lus Askiv twg raug?","I have a car.","There is a car me.","I am a car.","It's a car me.","Kuv muaj = I have (tsis yog there is)."],
+["or","Hnub no no","It's cold today","There's","Huab cua: it yog subject."],
+["or","Muaj ib lub tsheb nyob nraum","There's a car outside","cars","Ib lub tsheb: article a thiab car (singular)."],
+["or","Muaj ob lub rooj","There are two seats","seat is","Ob lub yog plural: are thiab seats."],
+["fi","__ cold today.","Hnub no no.","It's|It is","Is|There's|This","It nyob qhov subject."],
+["fi","There __ a bank near here.","Muaj ib lub tsev bank nyob ze.","is","are|have|be","Ib lub tsev bank xwb: is."],
+["fi","__ there any seats?","Puas muaj rooj?","Are","Is|Do|Have","Seats yog plural: Are."],
+["ty","Hnub no kub","It's hot today","it · hot · today — huab cua siv it","There's","Huab cua: it yog subject."],
+["ty","Qhov no puas muaj chav dej?","Is there a bathroom here|Is there a restroom here","is there · bathroom — siv article a","the","Ib chav dej: article a."],
+["ty","Muaj ob chav pw (rooms)","There are two rooms","there are · two · room — siv plural","room","Ob chav yog plural: rooms."]]},
 
-{ id:"plurals", title:"복수 -s와 this / these, my / your", blurb:"둘 이상이면 꼭 -s. this는 하나, these는 여럿.", deck:"쇼핑·계산", body:`
-<p>한국어는 "사과 세 개"처럼 명사 모양이 그대로예요. 영어는 둘 이상이면 명사에 꼭 <b>-s</b>를 붙여요. 한국인이 가장 자주 빼먹는 부분이에요.</p>
-<h3>복수 만들기</h3>
-<div class="tbl"><table><tr><th>규칙</th><th>예</th></tr><tr><td>대부분 -s</td><td class="k">book → books</td></tr><tr><td>s·x·ch·sh 뒤 -es</td><td class="k">box → boxes</td></tr><tr><td>자음 + y → -ies</td><td class="k">city → cities</td></tr><tr><td>불규칙</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
-{{ex:two books|투 북스|책 두 권}}{{ex:three boxes|쓰리 박시즈|상자 세 개}}{{ex:I have two children.|아이 해브 투 칠드런|저는 아이가 둘 있어요}}
-<h3>this / that 은 하나, these / those 는 여럿</h3>
-{{ex:This is my bag.|디스 이즈 마이 백|이건 제 가방이에요}}{{ex:These are my keys.|디즈 아 마이 키즈|이것들은 제 열쇠예요}}{{ex:Those shoes are nice.|도즈 슈즈 아 나이스|저 신발 예뻐요}}
+{ id:"plurals", title:"Plural -s, this / these thiab my / your", blurb:"Ntau tshaj ib: noun muaj -s. This yog ib yam, these yog ntau yam.", deck:"Mus kav khw", body:`
+<p>Hauv lus Hmoob, noun (tej lus txog khoom los yog chaw) tsis hloov: <b>ib tug dev</b>, <b>ob tug dev</b>, <b>peb tug dev</b>. Lus Askiv tsis muaj classifier, tab sis noun hloov: <b>one dog</b>, <b>two dogs</b>. Ntau tshaj ib, noun yuav tsum muaj <b>-s</b>.</p>
+<p><b>Cov dev</b> = the dogs. Cov tsis yog -s: lus Askiv tseem yuav tsum muaj -s.</p>
+<h3>Plural ua li cas</h3>
+<div class="tbl"><table><tr><th>Txoj cai</th><th>Lus Askiv</th></tr><tr><td>Ntau lo lus: -s</td><td class="k">book → books</td></tr><tr><td>Tom qab s · x · ch · sh: -es</td><td class="k">box → boxes</td></tr><tr><td>Consonant + y: -ies</td><td class="k">city → cities</td></tr><tr><td>Nco ntsoov</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
+<p>Hais -s ua /s/ (books), /z/ (dogs) los yog /ɪz/ (boxes). Koj yuav xyaum ntau dua hauv Final sounds.</p>
+{{ex:two books|/tuː bʊks/|ob phau ntawv}}{{ex:three boxes|/θriː ˈbɑːksɪz/|peb lub box}}{{ex:I have two children.|/aɪ hæv tuː ˈtʃɪldrən/|Kuv muaj ob tug me nyuam.}}
+<h3>this / that: ib yam · these / those: ntau yam</h3>
+{{ex:This is my bag.|/ðɪs‿ɪz maɪ bæg/|Nov yog kuv lub hnab.}}{{ex:These are my keys.|/ðiːz‿ɑːr maɪ kiːz/|Cov no yog kuv cov keys.}}{{ex:Those shoes are nice.|/ðoʊz ʃuːz‿ɑːr naɪs/|Nkawm khau ntawd zoo nkauj.}}
 <h3>my, your, his, her, our, their</h3>
-<p>'누구의'를 말하는 단어예요. 이 단어가 있으면 a나 the를 같이 쓰지 않아요.</p>
-{{ex:Is this your phone?|이즈 디스 유어 폰?|이거 당신 휴대폰이에요?}}{{ex:Her brothers live in Busan.|허 브라더즈 리브 인 부산|그녀의 오빠들은 부산에 살아요}}
-<div class="tip">숫자, many, these, those 뒤의 명사는 항상 복수예요: <b>two friend</b> (X) → <b>two friends</b> (O), <b>my a bag</b> (X) → <b>my bag</b> (O)</div>`,
-check:[["I have two ___. 빈칸에 알맞은 것은?",["sister","sisters","a sister","sister's"],1,"둘이니까 복수 sisters예요."],["___ are my keys. 빈칸에 알맞은 것은?",["This","That","These","It"],2,"keys가 복수라서 These예요."],["'이건 제 가방이에요'를 영어로 하면?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"my가 있으면 관사를 붙이지 않아요."]],
+<p>Hauv lus Hmoob, <b>kuv lub hnab</b> = <b>my bag</b>: kuv nyob ua ntej, nkaus li lus Askiv. Muaj my, your … lawm, tsis txhob siv a los yog the.</p>
+{{ex:Is this your phone?|/ɪz ðɪs jʊr foʊn/|Qhov no puas yog koj lub xov tooj?}}{{ex:Her brothers live in Fresno.|/hɝː ˈbrʌðɚz lɪv‿ɪn ˈfreznoʊ/|Nws (poj niam) cov nus nyob Fresno.}}
+<div class="tip">Tom qab two, many, these, those, noun yeej yog plural: <b>two friend</b> ✗ → <b>two friends</b> ✓ / <b>my a bag</b> ✗ → <b>my bag</b> ✓</div>`,
+check:[["I have two ___. Lo lus twg raug?",["sister","sisters","a sister","sister's"],1,"Ob tug yog plural: sisters."],["___ are my keys. Lo lus twg raug?",["This","That","These","It"],2,"Keys yog plural: These."],["'Nov yog kuv lub hnab.' — lus Askiv twg raug?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"Muaj my lawm: tsis siv article."]],
 practice:[
-["mc","'책 두 권' =","two books","two book","two a book","twos book","둘 이상이면 복수 -s를 붙여요."],
-["mc","child의 복수형은?","children","childs","childes","child","불규칙 복수예요."],
-["mc","___ shoes are nice. (저 신발)","Those","That","This","It","shoes가 복수라서 those예요."],
-["mc","'이건 제 가방이에요' =","This is my bag.","This is a my bag.","This is my a bag.","This is the my bag.","my와 관사는 같이 쓰지 않아요."],
-["mc","box의 복수형은?","boxes","boxs","boxies","box","s, x, ch, sh 뒤에는 -es예요."],
-["or","이것들은 제 열쇠예요","These are my keys","key This","여럿이라 these와 복수 keys를 써요."],
-["or","저는 아이가 둘 있어요","I have two children","child a","둘이니까 복수 children이에요. 관사 a는 빼요."],
-["or","저 신발 예뻐요","Those shoes are nice","That","shoes가 복수라서 those예요."],
-["fi","I have three __.","저는 고양이가 세 마리 있어요","cats","cat|a cat|cat's","셋이니까 복수 cats예요."],
-["fi","__ is my friend.","이 사람은 제 친구예요","This","These|Those|They","한 명이라서 this예요."],
-["fi","Two __, please.","커피 두 잔 주세요","coffees","coffee|a coffee|coffee's","잔 수를 세어 주문할 때는 coffees처럼 복수로 말해요."],
-["ty","이것들은 제 책이에요","These are my books","these · my · book — 복수","book","여럿이라 these와 복수 books예요."],
-["ty","저는 언니가 둘 있어요","I have two sisters","have · two · sister — 복수","sister","둘이니까 복수 sisters예요."],
-["ty","이건 제 가방이에요","This is my bag","this · my · bag — 관사 없이","a","my가 있으면 관사 a를 쓰지 않아요."]]},
-{ id:"present", title:"현재형과 어순: 주어 + 동사 + 목적어", blurb:"한국어는 동사가 끝, 영어는 동사가 두 번째예요.", deck:"자기소개", body:`
-<p>한국어는 "저는 커피를 <b>마셔요</b>"처럼 동사가 맨 끝에 와요. 영어는 <b>누가 → 한다 → 무엇을</b> 순서예요. 조사가 없기 때문에 이 순서가 곧 뜻이에요.</p>
-<h3>주어 + 동사 + 목적어</h3>
-{{ex:I drink coffee.|아이 드링크 커피|저는 커피를 마셔요}}{{ex:I study English.|아이 스터디 잉글리시|저는 영어를 공부해요}}
-<h3>장소와 시간은 뒤에</h3>
-<p>나머지 정보는 <b>장소 → 시간</b> 순서로 뒤에 붙여요.</p>
-{{ex:We live in Seoul.|위 리브 인 서울|우리는 서울에 살아요}}{{ex:I study English every day.|아이 스터디 잉글리시 에브리 데이|저는 매일 영어를 공부해요}}{{ex:They work on weekends.|데이 워크 온 위켄즈|그들은 주말에 일해요}}
-<h3>현재형은 습관과 사실</h3>
-<p>늘 하는 일, 변하지 않는 사실을 말해요. 부정은 동사 앞에 <b>don't</b>를 넣어요.</p>
-{{ex:I don't eat meat.|아이 돈 잇 밋|저는 고기를 안 먹어요}}
-<h3>얼마나 자주: always, usually, sometimes, never</h3>
-<p>이 단어들은 동사 <b>바로 앞</b>에 와요.</p>
-{{ex:I usually get up at seven.|아이 유주얼리 게럽 앳 세븐|저는 보통 7시에 일어나요}}{{ex:I never drink coffee at night.|아이 네버 드링크 커피 앳 나잇|저는 밤에는 커피를 절대 안 마셔요}}
-<div class="tip">한국어 순서대로 옮기면 틀려요: <b>I coffee drink.</b> (X) → <b>I drink coffee.</b> (O). 주어 다음에 바로 동사를 말하는 연습을 하세요.</div>`,
-check:[["'저는 커피를 마셔요'의 바른 어순은?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"주어 + 동사 + 목적어 순서예요."],["I ___ eat meat. (안 먹어요)",["not","am not","no","don't"],3,"일반동사 부정은 don't예요."],["always의 알맞은 자리는?",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"빈도 부사는 동사 바로 앞에 와요."]],
+["mc","'Ob phau ntawv' — lus Askiv twg raug?","two books","two book","two a book","twos book","Ntau tshaj ib: plural -s."],
+["mc","Child: plural yog dab tsi?","children","childs","childes","child","Child tsis siv -s: nco ntsoov children."],
+["mc","___ shoes are nice. (nkawm khau ntawd) Lo lus twg raug?","Those","That","This","It","Shoes yog plural: those."],
+["mc","'Nov yog kuv lub hnab.' — lus Askiv twg raug?","This is my bag.","This is a my bag.","This is my a bag.","This is the my bag.","My thiab article tsis nyob ib txhij."],
+["mc","Box: plural yog dab tsi?","boxes","boxs","boxies","box","Tom qab s, x, ch, sh: siv -es."],
+["or","Cov no yog kuv cov keys","These are my keys","key This","Ntau yam: these thiab plural keys."],
+["or","Kuv muaj ob tug me nyuam","I have two children","child a","Ob tug yog plural: children. Tsis siv article a."],
+["or","Nkawm khau ntawd zoo nkauj","Those shoes are nice","That","Shoes yog plural: those."],
+["fi","I have three __.","Kuv muaj peb tug miv.","cats","cat|a cat|cat's","Peb tug yog plural: cats."],
+["fi","__ is my friend.","Nov yog kuv tus phooj ywg.","This","These|Those|They","Ib tug xwb: this."],
+["fi","Two __, please.","Thov ob khob kav fes.","coffees","coffee|a coffee|coffee's","Ob khob yog plural: coffees."],
+["ty","Cov no yog kuv cov ntawv (books)","These are my books","these · my · book — siv plural","book","Ntau yam: these thiab plural books."],
+["ty","Kuv muaj ob tug muam (txiv neej hais)","I have two sisters","have · two · sister — siv plural","sister","Ob tug yog plural: sisters."],
+["ty","Nov yog kuv lub hnab","This is my bag","this · my · bag — tsis siv article","a","Muaj my lawm: tsis siv article a."]]},
+{ id:"present", title:"Simple Present: subject + verb + object", blurb:"Subject + verb + object nkaus li lus Hmoob. Kuv tsis noj = I don't eat.", deck:"Kuv tus kheej", body:`
+<p><b>Kuv haus kav fes</b> = <b>I drink coffee</b>. Lus Hmoob thiab lus Askiv: subject (kuv, I), verb (tej lus txog kev ua li cas: haus, drink), object (kav fes, coffee). Qhov no yooj yim rau koj.</p>
+<h3>Subject + verb + object</h3>
+{{ex:I drink coffee.|/aɪ drɪŋk ˈkɑːfi/|Kuv haus kav fes.}}{{ex:I study English.|/aɪ ˈstʌdi ˈɪŋglɪʃ/|Kuv kawm lus Askiv.}}
+<h3>Chaw thiab sij hawm nyob tom qab</h3>
+<p>Tom qab verb, hais chaw ua ntej thiab sij hawm tom qab: <b>in St. Paul</b>, <b>every day</b>.</p>
+{{ex:We live in St. Paul.|/wi lɪv‿ɪn seɪnt pɑːl/|Peb nyob St. Paul.}}{{ex:I study English every day.|/aɪ ˈstʌdi ˈɪŋglɪʃ‿ˈevri deɪ/|Kuv kawm lus Askiv txhua hnub.}}{{ex:They work on weekends.|/ðeɪ wɝːk‿ɑːn ˈwiːkendz/|Lawv ua hauj lwm hnub Saturday thiab hnub Sunday.}}
+<h3>Simple Present: tej yam koj ua txhua hnub</h3>
+<p>Simple Present yog tej yam koj ua txhua hnub thiab tej yam muaj tseeb. Lus Hmoob hais <b>tsis</b> ua ntej verb. Lus Askiv tsis hais <b>I not eat</b>: siv <b>don't</b> ua ntej verb.</p>
+{{ex:I don't eat meat.|/aɪ doʊnt‿iːt miːt/|Kuv tsis noj nqaij.}}
+<h3>always, usually, sometimes, never</h3>
+<p>Cov adverb (tej lus piav yus ua zoo li cas) no nyob ua ntej verb.</p>
+{{ex:I usually get up at seven.|/aɪ ˈjuːʒuəli get‿ʌp‿ət ˈsevən/|Txhua hnub kuv sawv 7 teev.}}{{ex:I never drink coffee at night.|/aɪ ˈnevɚ drɪŋk ˈkɑːfi ət naɪt/|Kuv tsis haus kav fes thaum tsaus ntuj.}}
+<div class="tip">Nco ntsoov: <b>I not eat meat.</b> ✗ → <b>I don't eat meat.</b> ✓ / <b>I drink always tea.</b> ✗ → <b>I always drink tea.</b> ✓ / <b>I am live in Fresno.</b> ✗ → <b>I live in Fresno.</b> ✓</div>`,
+check:[["'Kuv haus kav fes.' — lus Askiv twg raug?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"Subject + verb + object, nkaus li lus Hmoob."],["I ___ eat meat. (Kuv tsis noj nqaij.) Lo lus twg raug?",["not","am not","no","don't"],3,"Lus Hmoob tsis = lus Askiv don't, ua ntej verb."],["Always nyob qhov twg? Lus Askiv twg raug?",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"Always nyob ua ntej verb."]],
 practice:[
-["mc","'저는 영어를 공부해요' =","I study English.","I English study.","I am study English.","Study I English.","주어 + 동사 + 목적어 순서예요."],
-["mc","'저는 고기를 안 먹어요' =","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","일반동사 부정은 don't예요."],
-["mc","'우리는 서울에 살아요' =","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","동사 다음에 장소가 와요."],
-["mc","'저는 보통 7시에 일어나요' =","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually는 동사 바로 앞에 와요."],
-["mc","매일 하는 일을 말하는 문장은?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","습관은 현재형으로 말해요."],
-["or","저는 매일 커피를 마셔요","I drink coffee every day","the am","습관은 현재형이에요. 일반적인 coffee에는 관사를 붙이지 않아요."],
-["or","저는 책을 많이 읽어요","I read many books","book","many 뒤에는 복수 books가 와요."],
-["or","우리는 주말에 일해요","We work on weekends","are","일반동사 앞에 be동사를 겹쳐 쓰지 않아요."],
-["fi","I __ like fish.","저는 생선을 안 좋아해요","don't|do not","not|am not|no","일반동사 부정은 don't예요."],
-["fi","I __ English every day.","저는 매일 영어를 공부해요","study","am study|studying|to study","현재형은 동사를 그대로 써요."],
-["fi","They live __ Busan.","그들은 부산에 살아요","in","at|on|to","도시 앞에는 in이에요."],
-["ty","저는 차를 마셔요","I drink tea","drink · tea — 관사 없이","a","일반적인 tea에는 관사를 붙이지 않아요."],
-["ty","저는 고양이를 좋아해요","I like cats","like · cat — 복수로","cat","그 동물 전체를 말할 때는 복수 cats예요."],
-["ty","저는 고기를 안 먹어요","I don't eat meat","don't · eat · meat","am","일반동사 부정은 don't예요."]]},
-{ id:"questions", title:"질문 만들기: Do you ~?와 의문사", blurb:"끝만 올리면 안 돼요. Do를 앞에, 의문사는 맨 앞에.", deck:"생존 영어 2", body:`
-<p>한국어는 끝만 올리면 질문이 돼요. 영어는 <b>단어 순서</b>를 바꿔야 질문이에요.</p>
-<h3>be동사: 자리 바꾸기</h3>
-{{ex:Are you okay?|아 유 오케이?|괜찮아요?}}{{ex:Is this your bag?|이즈 디스 유어 백?|이거 당신 가방이에요?}}
-<h3>일반동사: Do를 앞에</h3>
-<p>문장 앞에 <b>Do</b>를 붙여요. 나머지 순서는 그대로예요.</p>
-{{ex:Do you like coffee?|두 유 라익 커피?|커피 좋아하세요?}}{{ex:Do you speak English?|두 유 스픽 잉글리시?|영어 하세요?}}
-<p>대답은 짧게 해요: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
-<h3>의문사는 맨 앞에</h3>
-<p>what(무엇), where(어디), when(언제), who(누구), why(왜), how(어떻게)를 맨 앞에 두고 질문 순서를 그대로 이어요.</p>
-{{ex:Where do you live?|웨어 두 유 리브?|어디 사세요?}}{{ex:What do you do?|왓 두 유 두?|무슨 일 하세요?}}{{ex:Where is the bathroom?|웨어 이즈 더 배쓰룸?|화장실이 어디예요?}}{{ex:How much is this?|하우 머치 이즈 디스?|이거 얼마예요?}}
-<div class="tip">가장 흔한 실수: <b>Where you live?</b> (X) → <b>Where do you live?</b> (O), <b>Are you like coffee?</b> (X) → <b>Do you like coffee?</b> (O)</div>`,
-check:[["'커피 좋아하세요?'를 영어로 하면?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"일반동사 질문은 Do로 시작해요."],["'어디 사세요?'를 영어로 하면?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"의문사 + do + 주어 + 동사 순서예요."],["Do you speak English?의 알맞은 대답은?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Do로 물으면 do로 대답해요."]],
+["mc","'Kuv kawm lus Askiv.' — lus Askiv twg raug?","I study English.","I English study.","I am study English.","Study I English.","Subject + verb + object, nkaus li lus Hmoob."],
+["mc","'Kuv tsis noj nqaij.' — lus Askiv twg raug?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","Tsis: siv don't ua ntej verb."],
+["mc","'Peb nyob St. Paul.' — lus Askiv twg raug?","We live in St. Paul.","We in St. Paul live.","We are live in St. Paul.","We live St. Paul in.","Verb ua ntej, chaw tom qab. Tsis siv are nrog live."],
+["mc","'Txhua hnub kuv sawv 7 teev.' (usually) — lus Askiv twg raug?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","Usually nyob ua ntej verb."],
+["mc","Koj ua txhua hnub: lus Askiv twg raug?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","Tej yam ua txhua hnub: Simple Present."],
+["or","Kuv haus kav fes txhua hnub","I drink coffee every day","the am","Txhua hnub: Simple Present. Coffee tsis siv article."],
+["or","Kuv nyeem ntau phau ntawv","I read many books","book","Ntau phau ntawv: many thiab plural books."],
+["or","Peb ua hauj lwm hnub Saturday thiab hnub Sunday","We work on weekends","are","Muaj work lawm: tsis siv are."],
+["fi","I __ like fish.","Kuv tsis nyiam ntses.","don't|do not","not|am not|no","Tsis = don't."],
+["fi","I __ English every day.","Kuv kawm lus Askiv txhua hnub.","study","am study|studying|to study","Simple Present: verb tsis hloov."],
+["fi","They live __ Fresno.","Lawv nyob Fresno.","in","at|on|to","Ua ntej lub nroog: in."],
+["ty","Kuv haus tshuaj yej","I drink tea","drink · tea — tsis siv article","a","Tshuaj yej, kav fes, dej: tsis siv article a."],
+["ty","Kuv nyiam miv","I like cats","like · cat — siv plural","cat","Txhua tus miv: plural cats."],
+["ty","Kuv tsis noj nqaij","I don't eat meat","don't · eat · meat — tsis = don't","am","Tsis = don't."]]},
+{ id:"questions", title:"Lo lus nug: Do you …? thiab what, where", blurb:"Lus Hmoob siv puas. Lus Askiv: Do, Are los yog Is nyob ua ntej subject.", deck:"Lus Askiv txhua hnub 2", body:`
+<p>Lus Hmoob nug nrog <b>puas</b> ua ntej verb, thiab tsis hloov dab tsi: <b>Koj puas hais lus Askiv?</b> Lus Askiv yuav tsum hloov: <b>Do you speak English?</b> Tsis txhob hais <b>You speak English?</b> xwb.</p>
+<p>Koj kuj nug tau nrog <b>los tsis yog</b>: <b>Koj noj mov lawm los tsis yog?</b> Lus Askiv muaj <b>…, or not?</b>, tab sis <b>Do you …?</b> zoo dua.</p>
+<h3>be: Are you …? / Is this …?</h3>
+<p>Muaj am, is los yog are: lawv nyob ua ntej subject.</p>
+{{ex:Are you okay?|/ɑːr ju oʊˈkeɪ/|Koj puas nyob zoo?}}{{ex:Is this your bag?|/ɪz ðɪs jʊr bæg/|Qhov no puas yog koj lub hnab?}}
+<h3>Lwm verb: Do nyob ua ntej</h3>
+<p>Nug koj tus kheej: puas muaj lwm verb tsis yog be (like, live, speak)? Muaj: siv <b>Do</b> ua ntej subject. Lwm yam tsis hloov.</p>
+{{ex:Do you like coffee?|/duː ju laɪk ˈkɑːfi/|Koj puas nyiam kav fes?}}{{ex:Do you speak English?|/duː ju spiːk‿ˈɪŋglɪʃ/|Koj puas hais lus Askiv?}}
+<p>Teb luv luv: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
+<h3>what, where … nyob ua ntej</h3>
+<p>Lus Hmoob: <b>Koj nyob qhov twg?</b> (qhov twg nyob tom qab). Lus Askiv: what (dab tsi), where (qhov twg), when (thaum twg), who (leej twg), why (vim li cas), how (li cas) nyob ua ntej: <b>Where do you live?</b></p>
+{{ex:Where do you live?|/wer duː ju lɪv/|Koj nyob qhov twg?}}{{ex:What do you do?|/wʌt duː ju duː/|Koj ua hauj lwm dab tsi?}}{{ex:Where is the bathroom?|/wer ɪz ðə ˈbæθruːm/|Chav dej nyob qhov twg?}}{{ex:How much is this?|/haʊ mʌtʃ‿ɪz ðɪs/|Qhov no pes tsawg?}}
+<div class="tip">Nco ntsoov: <b>You like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓ / <b>Where you live?</b> ✗ → <b>Where do you live?</b> ✓ / <b>Are you like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓</div>`,
+check:[["'Koj puas nyiam kav fes?' — lus Askiv twg raug?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"Like tsis yog be: nug nrog Do."],["'Koj nyob qhov twg?' — lus Askiv twg raug?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"Nug: Where + do + subject + verb."],["Do you speak English? Lo lus teb twg raug?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Nug nrog Do, teb nrog do."]],
 practice:[
-["mc","'영어 하세요?' =","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","일반동사 질문은 Do로 시작해요."],
-["mc","'어디 사세요?' =","Where do you live?","Where you live?","Where are you live?","Where live you?","의문사 + do + 주어 + 동사예요."],
-["mc","'이거 얼마예요?' =","How much is this?","How much this is?","How much does this?","What much is this?","가격은 How much is ~?로 물어요."],
-["mc","Do you like tea? — 알맞은 대답은?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Do로 물으면 do로 대답해요."],
-["mc","'무슨 일 하세요?' (직업) =","What do you do?","What are you do?","What you do?","What do you?","직업은 What do you do?로 물어요."],
-["or","커피 좋아하세요?","Do you like coffee","Are the","일반동사 질문은 Do로 시작해요. 일반적인 coffee에는 관사가 없어요."],
-["or","화장실이 어디예요?","Where is the bathroom","a do","이 건물의 그 화장실이라서 관사 the예요."],
-["or","어디 사세요?","Where do you live","are","일반동사 질문에는 do가 필요해요."],
-["fi","__ you like music?","음악 좋아하세요?","Do","Are|Is|Does","일반동사 like의 질문은 Do예요."],
-["fi","__ do you live?","어디 사세요?","Where","What|Who|When","장소를 물을 때는 where예요."],
-["fi","What time __ it?","몇 시예요?","is","do|does|are","시간은 be동사로 물어요."],
-["ty","영어 하세요?","Do you speak English|Can you speak English","do · speak · English","Are","일반동사 질문은 Do로 시작해요."],
-["ty","화장실이 어디예요?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — 관사 the","a","서로 아는 그 화장실이라 관사 the예요."],
-["ty","개 좋아하세요?","Do you like dogs","do · like · dog — 복수","dog","동물 전체를 말할 때는 복수 dogs예요."]]},
-{ id:"third-s", title:"he·she·it에는 -s: does / doesn't", blurb:"주어가 한 사람이면 동사에 -s. 질문과 부정은 does.", deck:"자기소개", body:`
-<p>현재형에서 주어가 <b>he, she, it</b>이나 한 사람·한 물건이면 동사에 <b>-s</b>를 붙여요. 한국어에 없는 규칙이라 말할 때 자주 빠져요.</p>
-<div class="tbl"><table><tr><th>주어</th><th>동사</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
-{{ex:She works at a bank.|쉬 웍스 앳 어 뱅크|그녀는 은행에서 일해요}}{{ex:He likes soccer.|히 라익스 사커|그는 축구를 좋아해요}}{{ex:My mom cooks well.|마이 맘 쿡스 웰|우리 엄마는 요리를 잘해요}}
-<h3>모양이 조금 바뀌는 동사</h3>
-{{ex:She has a car.|쉬 해즈 어 카|그녀는 차가 있어요 (have → has)}}{{ex:He goes to work at eight.|히 고우즈 투 워크 앳 에잇|그는 8시에 출근해요 (go → goes)}}{{ex:She studies English.|쉬 스터디즈 잉글리시|그녀는 영어를 공부해요 (study → studies)}}
-<h3>부정과 질문은 does</h3>
-<p><b>doesn't</b>나 <b>Does</b>를 쓰면 -s는 거기로 옮겨 가요. 뒤의 동사는 -s 없이 써요.</p>
-{{ex:He doesn't drink coffee.|히 더즌 드링크 커피|그는 커피를 안 마셔요}}{{ex:Does she live here?|더즈 쉬 리브 히어?|그녀는 여기 살아요?}}
-<div class="tip">가장 흔한 실수: <b>She work here.</b> (X) → <b>She works here.</b> (O), <b>Does she works?</b> (X) → <b>Does she work?</b> (O)</div>`,
-check:[["She ___ in Seoul. 빈칸에 알맞은 것은?",["live","lives","living","is live"],1,"she라서 동사에 -s를 붙여요."],["He ___ like coffee. 빈칸에 알맞은 것은?",["don't","isn't","doesn't","not"],2,"he의 부정은 doesn't예요."],["'그녀는 차가 있어요'를 영어로 하면?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"have는 she 뒤에서 has가 돼요."]],
+["mc","'Koj puas hais lus Askiv?' — lus Askiv twg raug?","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","Speak tsis yog be: Do nyob ua ntej."],
+["mc","'Koj nyob qhov twg?' — lus Askiv twg raug?","Where do you live?","Where you live?","Where are you live?","Where live you?","Nug: Where + do + subject + verb."],
+["mc","'Qhov no pes tsawg?' — lus Askiv twg raug?","How much is this?","How much this is?","How much does this?","What much is this?","Nug nqi: How much is …?"],
+["mc","Do you like tea? — lo lus teb twg raug?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Nug nrog Do, teb nrog do."],
+["mc","'Koj ua hauj lwm dab tsi?' — lus Askiv twg raug?","What do you do?","What are you do?","What you do?","What do you?","Nug hauj lwm: What do you do?"],
+["or","Koj puas nyiam kav fes?","Do you like coffee","Are the","Like: nug nrog Do. Coffee tsis siv article."],
+["or","Chav dej nyob qhov twg?","Where is the bathroom","a do","Chav dej hauv lub tsev no: article the."],
+["or","Koj nyob qhov twg?","Where do you live","are","Live tsis yog be: siv do."],
+["fi","__ you like music?","Koj puas nyiam nkauj?","Do","Are|Is|Does","Like tsis yog be: nug nrog Do."],
+["fi","__ do you live?","Koj nyob qhov twg?","Where","What|Who|When","Qhov twg = where."],
+["fi","What time __ it?","Tam sim no pes tsawg teev?","is","do|does|are","Sij hawm: nug nrog be (is)."],
+["ty","Koj puas hais lus Askiv?","Do you speak English|Can you speak English","do · speak · English — nug nrog do","Are","Speak tsis yog be: Do nyob ua ntej."],
+["ty","Chav dej nyob qhov twg?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — siv article the","a","Chav dej hauv qhov no: article the."],
+["ty","Koj puas nyiam dev?","Do you like dogs","do · like · dog — siv plural","dog","Txhua tus dev: plural dogs."]]},
+{ id:"third-s", title:"-s tom qab he, she, it: does / doesn't", blurb:"Ib tug neeg los yog ib yam: verb muaj -s. Nug thiab tsis: siv does.", deck:"Kuv tus kheej", body:`
+<p>Lus Hmoob verb tsis hloov: <b>kuv ua hauj lwm</b>, <b>nws ua hauj lwm</b>. Hauv Simple Present lus Askiv, thaum subject yog <b>he, she, it</b> los yog ib tug neeg, ib yam khoom, verb muaj <b>-s</b>. Thaum hais lus, nco ntsoov hais -s: /s/ (works), /z/ (lives) los yog /ɪz/ (watches).</p>
+<div class="tbl"><table><tr><th>subject</th><th>verb</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
+{{ex:She works at a bank.|/ʃi wɝːks‿ət‿ə bæŋk/|Nws (poj niam) ua hauj lwm ntawm ib lub tsev bank.}}{{ex:He likes soccer.|/hi laɪks ˈsɑːkɚ/|Nws (txiv neej) nyiam ua si soccer.}}{{ex:My mom cooks well.|/maɪ mɑːm kʊks wel/|Kuv niam ua mov qab heev.}}
+<h3>Verb hloov mentsis</h3>
+{{ex:She has a car.|/ʃi hæz‿ə kɑːr/|Nws (poj niam) muaj ib lub tsheb. (have → has)}}{{ex:He goes to work at eight.|/hi goʊz tə wɝːk‿ət‿eɪt/|Nws (txiv neej) mus ua hauj lwm 8 teev. (go → goes)}}{{ex:She studies English.|/ʃi ˈstʌdiz‿ˈɪŋglɪʃ/|Nws (poj niam) kawm lus Askiv. (study → studies)}}
+<h3>Tsis thiab nug: does</h3>
+<p>Thaum siv <b>doesn't</b> los yog <b>Does</b>, -s nyob hauv does. Verb tom qab tsis muaj -s.</p>
+{{ex:He doesn't drink coffee.|/hi ˈdʌzənt drɪŋk ˈkɑːfi/|Nws (txiv neej) tsis haus kav fes.}}{{ex:Does she live here?|/dʌz ʃi lɪv hɪr/|Nws (poj niam) puas nyob qhov no?}}
+<div class="tip">Nco ntsoov: <b>She work here.</b> ✗ → <b>She works here.</b> ✓ / <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
+check:[["She ___ in Fresno. Lo lus twg raug?",["live","lives","living","is live"],1,"She: verb muaj -s."],["He ___ like coffee. Lo lus twg raug?",["don't","isn't","doesn't","not"],2,"He: tsis = doesn't."],["'Nws (poj niam) muaj ib lub tsheb.' — lus Askiv twg raug?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"Tom qab she, have hloov ua has."]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","한 사람이라서 works예요."],
-["mc","'그는 커피를 안 마셔요' =","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he의 부정은 doesn't + 동사원형이에요."],
-["mc","'그녀는 여기 살아요?' =","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does 뒤 동사는 -s 없이 써요."],
-["mc","have → she ___","has","haves","have","is have","have는 has로 바뀌어요."],
-["mc","study → he ___","studies","studys","study","studyes","자음 + y는 -ies로 바뀌어요."],
-["or","그녀는 은행에서 일해요","She works at a bank","work the","she라서 works예요. 처음 말하는 직장에는 관사 a를 써요."],
-["or","그는 개가 두 마리 있어요","He has two dogs","have dog","he라서 has, 둘이니까 복수 dogs예요."],
-["or","그녀는 고기를 안 먹어요","She doesn't eat meat","eats","doesn't 뒤에는 -s 없는 동사가 와요."],
-["fi","He __ soccer.","그는 축구를 좋아해요","likes","like|liking|is like","he라서 likes예요."],
-["fi","__ she speak English?","그녀는 영어를 해요?","Does","Do|Is|Are","she의 질문은 Does예요."],
-["fi","She __ to work at eight.","그녀는 8시에 출근해요","goes","go|going|gos","go는 goes가 돼요."],
-["ty","그는 차가 있어요","He has a car","has · car — 관사 a","have","he라서 has, 차 한 대라서 관사 a예요."],
-["ty","그녀는 고양이를 좋아해요","She likes cats","likes · cat — 복수","cat","she라서 likes, 고양이 전체는 복수 cats예요."],
-["ty","그는 여기 안 살아요","He doesn't live here","doesn't · live · here","lives","doesn't 뒤에는 동사원형이 와요."]]},
-/* final-sounds (hmn-en extra lesson, profile hmn.md §8): copied from tools/content/vi/more/a1.js by the stage-1 lead. Keep its ENGLISH side exactly (examples, IPA, check options, practice answers); the Vietnamese text is a placeholder to rewrite in White Hmong. The Korean-only lesson konglish was removed here. */
-{ id:"final-sounds", title:"Âm cuối và đuôi -s, -ed", blurb:"Tiếng Anh đọc rõ âm cuối và cụm phụ âm. Đuôi -s, -ed mang cả ngữ pháp.", deck:"Âm cuối", body:`
-<p>Âm tiết tiếng Việt chỉ kết thúc bằng vài phụ âm (“p, t, c, ch, m, n, ng, nh”), và những âm này được ngậm lại, không bật ra. Tiếng Anh có rất nhiều âm cuối, được đọc rõ, và thường là <b>cụm phụ âm</b> như /ks/, /st/, /nts/. Bỏ âm cuối thì người nghe hiểu sai cả ngữ pháp: <b>book</b> hay <b>books</b>, <b>work</b> hay <b>worked</b>.</p>
-<h3>Đuôi -s: /s/, /z/ hoặc /ɪz/</h3>
-<p>Ba cách đọc này dùng chung cho đuôi -s số nhiều, đuôi -s ở ngôi thứ ba số ít và sở hữu cách ('s).</p>
-<div class="tbl"><table><tr><th>Cách đọc</th><th>Khi nào</th><th>Ví dụ</th></tr><tr><td>/s/</td><td>sau âm vô thanh /p t k f/</td><td class="k">books, works</td></tr><tr><td>/z/</td><td>sau nguyên âm và âm hữu thanh</td><td class="k">dogs, plays</td></tr><tr><td>/ɪz/</td><td>sau âm /s z ʃ tʃ dʒ/</td><td class="k">buses, watches</td></tr></table></div>
-{{ex:two books|/tuː bʊks/|hai quyển sách}}{{ex:two dogs|/tuː dɑːgz/|hai con chó}}{{ex:two buses|/tuː ˈbʌsɪz/|hai chiếc xe buýt}}
-<h3>Cụm phụ âm: đọc đủ từng âm</h3>
-<p>Tiếng Việt không có cụm phụ âm, nên người học hay chỉ giữ lại một âm: <b>six</b> nghe thành “xích”, <b>last</b> thành “lát”. Hãy đọc đủ cả cụm.</p>
-{{ex:six students|/sɪks ˈstuːdənts/|sáu học sinh}}{{ex:last week|/læst wiːk/|tuần trước}}
-<h3>Hữu thanh hay vô thanh ở cuối từ</h3>
-<p>Người Việt hay đọc <b>dog</b> thành “đóc”, tức là thành <b>dock</b>. Âm cuối hữu thanh /b d g v z/ phải giữ được độ rung, và nguyên âm đứng trước nó hơi dài ra.</p>
-{{ex:bag / back|/bæg/ / /bæk/|cái túi / phía sau}}{{ex:dog / dock|/dɑːg/ / /dɑːk/|con chó / bến tàu}}{{ex:seed / seat|/siːd/ / /siːt/|hạt giống / chỗ ngồi}}
-<h3>Nối âm: phụ âm cuối nối sang nguyên âm</h3>
-<p>Khi từ sau bắt đầu bằng nguyên âm, phụ âm cuối được nối sang từ đó. Trong phiên âm của khóa học, dấu ‿ đánh dấu chỗ nối. Nối âm là cách dễ nhất để đọc được âm cuối.</p>
-{{ex:My brother works in Hanoi.|/maɪ ˈbrʌðɚ wɝːks‿ɪn hæˈnɔɪ/|Anh trai tôi làm việc ở Hà Nội}}{{ex:She lives in a big city.|/ʃi lɪvz‿ɪn‿ə bɪg ˈsɪti/|Cô ấy sống ở một thành phố lớn}}
-<h3>Xem trước đuôi -ed</h3>
-<p>Thì quá khứ đơn thêm -ed, đọc là /t/, /d/ hoặc /ɪd/. Bài về thì quá khứ đơn sẽ luyện kỹ hơn.</p>
-{{ex:watched / played / wanted|/wɑːtʃt/ / /pleɪd/ / /ˈwɑːntɪd/|đã xem / đã chơi / đã muốn}}
-<h3>Đừng thêm -s khi không cần</h3>
-<p>Luyện đuôi -s nhiều quá, bạn có thể thêm /s/ vào cả những từ không có nó. Chỉ thêm -s khi danh từ thật sự ở số nhiều hoặc chủ ngữ ở ngôi thứ ba số ít: một sở thích là <b>hobby</b>, không phải <b>hobbies</b>.</p>
-{{ex:My hobby is music.|/maɪ ˈhɑːbi ɪz ˈmjuːzɪk/|Sở thích của tôi là âm nhạc}}
-<div class="tip">Lỗi hay gặp: <b>two bus</b> ✗ → <b>two buses</b> ✓ / <b>She work.</b> ✗ → <b>She works.</b> ✓ / đọc <b>dog</b> thành “đóc” ✗ → giữ âm /g/ hữu thanh ✓</div>`,
-check:[["Từ nào có đuôi -s đọc là /ɪz/?",["books","dogs","buses","cats"],2,"Sau âm /s/, đuôi -es đọc là /ɪz/: \"buses\"."],["“Hai con chó” là cụm nào?",["two dogs","two dog","two dogses","a two dogs"],0,"Có \"two\" nên danh từ ở số nhiều; đuôi -s ở đây đọc là /z/."],["She ___ in Hanoi. Chọn từ điền vào chỗ trống.",["live","living","is live","lives"],3,"\"She\" là ngôi thứ ba số ít nên động từ thêm -s: \"lives\", đọc là /lɪvz/."]],
+["mc","My brother ___ in Fresno. Lo lus twg raug?","works","work","working","is work","Ib tug neeg: works."],
+["mc","'Nws (txiv neej) tsis haus kav fes.' — lus Askiv twg raug?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","He: doesn't + verb tsis muaj -s."],
+["mc","'Nws (poj niam) puas nyob qhov no?' — lus Askiv twg raug?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Tom qab Does, verb tsis muaj -s."],
+["mc","have → she ___ Lo lus twg raug?","has","haves","have","is have","Have hloov ua has."],
+["mc","study → he ___ Lo lus twg raug?","studies","studys","study","studyes","Consonant + y: hloov ua -ies."],
+["or","Nws (poj niam) ua hauj lwm ntawm ib lub tsev bank","She works at a bank","work the","She: works. Ib lub tsev bank: article a."],
+["or","Nws (txiv neej) muaj ob tug dev","He has two dogs","have dog","He: has. Ob tug yog plural: dogs."],
+["or","Nws (poj niam) tsis noj nqaij","She doesn't eat meat","eats","Tom qab doesn't, verb tsis muaj -s."],
+["fi","He __ soccer.","Nws (txiv neej) nyiam ua si soccer.","likes","like|liking|is like","He siv likes."],
+["fi","__ she speak English?","Nws (poj niam) puas hais lus Askiv?","Does","Do|Is|Are","She: nug nrog Does."],
+["fi","She __ to work at eight.","Nws (poj niam) mus ua hauj lwm 8 teev.","goes","go|going|gos","Go hloov ua goes."],
+["ty","Nws (txiv neej) muaj ib lub tsheb","He has a car","has · car — siv article a","have","He: has. Ib lub tsheb: article a."],
+["ty","Nws (poj niam) nyiam miv","She likes cats","likes · cat — siv plural","cat","She: likes. Txhua tus miv: plural cats."],
+["ty","Nws (txiv neej) tsis nyob qhov no","He doesn't live here","doesn't · live · here — tsis siv -s","lives","Tom qab doesn't, verb tsis muaj -s."]]},
+{ id:"final-sounds", title:"Hais consonant kawg: -s thiab -ed", blurb:"Lus Askiv hais txhua consonant kawg. -s thiab -ed qhia plural thiab past tense.", deck:"Final sounds: -s, -ed", body:`
+<p>Hauv lus Hmoob, tus tsiaj ntawv kawg yog cim (tone): <b>Hmoob</b>, koj tsis hais b. Lo lus Hmoob tsis muaj consonant ntawm qhov kawg. Hauv lus Askiv, koj yuav tsum hais tus kawg: <b>book</b> /bʊk/, koj hais /k/. Ntau zaus muaj ob peb tus consonant ib txhij: /ks/, /st/, /nts/. Yog koj tsis hais tus kawg, lawv tsis paub tias yog <b>book</b> los yog <b>books</b>, <b>work</b> los yog <b>worked</b>.</p>
+<h3>-s: /s/, /z/ los yog /ɪz/</h3>
+<p>Peb yam no siv rau plural -s, rau -s tom qab he / she / it, thiab rau 's.</p>
+<div class="tbl"><table><tr><th>Hais li cas</th><th>Thaum twg</th><th>Lus Askiv</th></tr><tr><td>/s/</td><td>tom qab /p t k f/</td><td class="k">books, works</td></tr><tr><td>/z/</td><td>tom qab vowel thiab lwm tus consonant</td><td class="k">dogs, plays</td></tr><tr><td>/ɪz/</td><td>tom qab /s z ʃ tʃ dʒ/</td><td class="k">buses, watches</td></tr></table></div>
+{{ex:two books|/tuː bʊks/|ob phau ntawv}}{{ex:two dogs|/tuː dɑːgz/|ob tug dev}}{{ex:two buses|/tuː ˈbʌsɪz/|ob lub tsheb ntiav}}
+<h3>Ob peb tus consonant ib txhij: hais txhua tus</h3>
+<p>Lus Hmoob tsis muaj consonant ntawm qhov kawg, thiaj li ntau tus neeg hais <b>six</b> nkaus li <b>sick</b>, thiab <b>last</b> tsis muaj /t/. Hais txhua tus.</p>
+{{ex:six students|/sɪks ˈstuːdənts/|rau tus tub kawm ntawv}}{{ex:last week|/læst wiːk/|ib lim tiam dhau los}}
+<h3>Thaum kawg: /g/ los yog /k/?</h3>
+<p>McCurdy (2010) kawm 15 tus neeg Hmoob kawm lus Askiv: lawv tsis hais /d/, /g/, /v/ ntawm qhov kawg ntau tshaj. Yog koj hais <b>dog</b> tsis muaj /g/, nws yog <b>dock</b>. Vowel ua ntej /b d g v z/ ntev mentsis: <b>bag</b> ntev dua <b>back</b>.</p>
+{{ex:bag / back|/bæg/ / /bæk/|lub hnab / tom qab}}{{ex:dog / dock|/dɑːg/ / /dɑːk/|dev / chaw nkoj nyob}}{{ex:seed / seat|/siːd/ / /siːt/|noob / rooj}}
+<h3>Ob lo lus ib txhij: consonant thiab vowel</h3>
+<p>Thaum lo lus tom qab muaj vowel ua ntej (in, a), hais consonant kawg nrog vowel ntawd ib txhij. Hauv IPA, ‿ qhia qhov no. Txoj kev no pab koj hais consonant kawg yooj yim dua.</p>
+{{ex:My brother works in St. Paul.|/maɪ ˈbrʌðɚ wɝːks‿ɪn seɪnt pɑːl/|Kuv tus nus ua hauj lwm hauv St. Paul. (poj niam hais)}}{{ex:She lives in a big city.|/ʃi lɪvz‿ɪn‿ə bɪg ˈsɪti/|Nws (poj niam) nyob hauv ib lub nroog loj.}}
+<h3>-ed (past tense): /t/, /d/ los yog /ɪd/</h3>
+<p>Past tense muaj -ed: hais /t/, /d/ los yog /ɪd/. Koj yuav xyaum ntau dua tom qab.</p>
+{{ex:watched / played / wanted|/wɑːtʃt/ / /pleɪd/ / /ˈwɑːntɪd/|tau saib / tau ua si / tau xav}}
+<h3>Tsis yog plural: tsis txhob siv -s</h3>
+<p>Thaum koj xyaum -s ntau, tej zaum koj siv -s rau txhua lo lus. Siv -s thaum noun yog plural los yog thaum subject yog he, she, it xwb. Ib yam koj nyiam ua = <b>hobby</b>, tsis yog <b>hobbies</b>.</p>
+{{ex:My hobby is music.|/maɪ ˈhɑːbi ɪz ˈmjuːzɪk/|Yam kuv nyiam ua yog mloog nkauj.}}
+<div class="tip">Nco ntsoov: <b>two bus</b> ✗ → <b>two buses</b> ✓ / <b>She work.</b> ✗ → <b>She works.</b> ✓ / <b>dog</b> nkaus li <b>dock</b> ✗ → hais /g/ ✓</div>`,
+check:[["Lo lus twg -s hais /ɪz/?",["books","dogs","buses","cats"],2,"Tom qab /s/, -es hais /ɪz/: buses."],["'Ob tug dev' — lus Askiv twg raug?",["two dogs","two dog","two dogses","a two dogs"],0,"Muaj two, noun yog plural; -s no hais /z/."],["She ___ in St. Paul. Lo lus twg raug?",["live","living","is live","lives"],3,"She: verb muaj -s: lives, hais /lɪvz/."]],
 practice:[
-["mc","“Sáu” là từ nào?","six","sick","sit","sip","\"Six\" kết thúc bằng cụm phụ âm /ks/; \"sick\" chỉ có /k/."],
-["mc","“Cái túi” là từ nào?","bag","back","bat","bad","\"Bag\" kết thúc bằng /g/ hữu thanh; đọc thành /k/ thì sẽ thành \"back\"."],
-["mc","“Con chó” là từ nào?","dog","dock","duck","dot","\"Dog\" kết thúc bằng /g/ hữu thanh, không phải /k/ như \"dock\"."],
-["mc","Từ nào có đuôi -s đọc là /z/?","dogs","books","cats","buses","Sau âm hữu thanh /g/, đuôi -s đọc là /z/."],
-["mc","Từ nào có đuôi -ed đọc là /ɪd/?","wanted","watched","played","worked","Sau âm /t/ hoặc /d/, đuôi -ed đọc là /ɪd/."],
-["or","hai chiếc xe buýt","two buses","bus","Có \"two\" nên dùng số nhiều; \"bus\" thêm -es, đọc là /ɪz/."],
-["or","Cô ấy có sáu học sinh","She has six students","student","Có \"six\" nên dùng số nhiều \"students\"; đọc rõ cụm phụ âm /nts/."],
-["or","Anh trai tôi làm việc ở Hà Nội","My brother works in Hanoi","work","\"My brother\" là ngôi thứ ba số ít nên dùng \"works\"; nối /s/ sang \"in\"."],
-["fi","She __ in Hanoi.","Cô ấy làm việc ở Hà Nội","works","work|is work|working","\"She\" là ngôi thứ ba số ít nên dùng \"works\"; đọc rõ cụm /ks/."],
-["fi","My __ is music.","Sở thích của tôi là âm nhạc","hobby","hobbies|hobbys|hobby's","Chỉ có một sở thích nên dùng số ít \"hobby\"; đừng thêm /s/."],
-["fi","I need two __.","Tôi cần hai cái hộp","boxes","box|boxs|a box","Có \"two\" nên dùng số nhiều; sau x thêm -es, đọc là /ɪz/."],
-["ty","sáu học sinh","six students","six · student — số nhiều","student","Có \"six\" nên \"students\" ở dạng số nhiều, cụm phụ âm /nts/."],
-["ty","Anh ấy có hai cái túi","He has two bags","has · two · bag — số nhiều","bag","Có \"two\" nên dùng số nhiều \"bags\"; đuôi -s đọc là /z/."],
-["ty","Mẹ tôi nấu ăn ngon","My mom cooks well|My mother cooks well|My mom cooks really well|My mother cooks really well|My mom cooks very well|My mother cooks very well","mom · cook · well — ngôi thứ ba số ít","cook","\"My mom\" là ngôi thứ ba số ít nên dùng \"cooks\"; đọc rõ /ks/."]]},
-{ id:"countable", title:"셀 수 있는 명사와 없는 명사: some, any, much, many", blurb:"water에는 a도 -s도 못 붙여요. many는 셀 수 있을 때, much는 없을 때.", deck:"식당 주문", body:`
-<p>영어 명사는 <b>셀 수 있는 것</b>과 <b>셀 수 없는 것</b>으로 나뉘어요. 한국어에는 없는 구분이라 처음엔 낯설어요.</p>
-<div class="tbl"><table><tr><th>셀 수 있음</th><th>셀 수 없음</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, 숫자, -s 가능</td><td>a / an, 숫자, -s 불가능</td></tr></table></div>
-<h3>some 과 any</h3>
-<p>'조금, 몇 개'는 긍정문에서 <b>some</b>, 부정문과 질문에서 <b>any</b>예요. 단, 부탁하거나 권할 때는 질문이어도 <b>some</b>을 써요: <b>Can I have some water?</b></p>
-{{ex:I have some money.|아이 해브 썸 머니|돈이 좀 있어요}}{{ex:I don't have any money.|아이 돈 해브 애니 머니|돈이 하나도 없어요}}{{ex:Do you have any questions?|두 유 해브 애니 퀘스천즈?|질문 있어요?}}
-<h3>many 와 much</h3>
-<p>셀 수 있으면 <b>many</b> + 복수, 셀 수 없으면 <b>much</b>예요. <b>a lot of</b>는 둘 다 돼요.</p>
-{{ex:How many people?|하우 매니 피플?|몇 명이에요?}}{{ex:How much is it?|하우 머치 이즈 잇?|얼마예요?}}{{ex:I don't have much time.|아이 돈 해브 머치 타임|시간이 별로 없어요}}
-<h3>셀 수 없는 것을 세는 방법</h3>
-{{ex:a glass of water|어 글래스 오브 워러|물 한 잔}}{{ex:a cup of coffee|어 컵 오브 커피|커피 한 잔}}
-<div class="tip">가장 흔한 실수: <b>a water</b>, <b>many money</b>, <b>informations</b> (X) → <b>some water</b>, <b>much money</b>, <b>information</b> (O)</div>`,
-check:[["How ___ people are there? 빈칸에 알맞은 것은?",["much","many","any","a"],1,"people은 셀 수 있어서 many예요."],["다음 중 셀 수 없는 명사는?",["apple","chair","water","friend"],2,"water에는 a나 -s를 붙이지 않아요."],["I don't have ___ money. 빈칸에 알맞은 것은?",["some","a","many","any"],3,"부정문에서는 any를 써요."]],
+["mc","6 = rau: lus Askiv twg raug?","six","sick","sit","sip","Six muaj /ks/ ntawm qhov kawg; sick muaj /k/ xwb."],
+["mc","'Lub hnab' — lus Askiv twg raug?","bag","back","bat","bad","Bag muaj /g/ ntawm qhov kawg; yog hais /k/, nws yog back."],
+["mc","'Dev' — lus Askiv twg raug?","dog","dock","duck","dot","Dog muaj /g/, tsis yog /k/ nkaus li dock."],
+["mc","Lo lus twg -s hais /z/?","dogs","books","cats","buses","Tom qab /g/, -s hais /z/."],
+["mc","Lo lus twg -ed hais /ɪd/?","wanted","watched","played","worked","Tom qab /t/ los yog /d/, -ed hais /ɪd/."],
+["or","ob lub tsheb ntiav","two buses","bus","Muaj two: plural. Bus muaj -es, hais /ɪz/."],
+["or","Nws (poj niam) muaj rau tus tub kawm ntawv","She has six students","student","Muaj six: plural students. Hais /nts/."],
+["or","Kuv tus nus ua hauj lwm hauv St. Paul (poj niam hais)","My brother works in St. Paul","work","My brother yog ib tug neeg: works. Hais /s/ nrog in ib txhij."],
+["fi","She __ in St. Paul.","Nws (poj niam) ua hauj lwm hauv St. Paul.","works","work|is work|working","She: works. Hais /ks/."],
+["fi","My __ is music.","Yam kuv nyiam ua yog mloog nkauj.","hobby","hobbies|hobbys|hobby's","Ib yam xwb: hobby (singular). Tsis txhob hais /s/."],
+["fi","I need two __.","Kuv xav tau ob lub box.","boxes","box|boxs|a box","Muaj two: plural. Tom qab x, -es hais /ɪz/."],
+["ty","rau tus tub kawm ntawv","six students","six · student — siv plural","student","Muaj six: plural students, hais /nts/."],
+["ty","Nws (txiv neej) muaj ob lub hnab","He has two bags","has · two · bag — siv plural","bag","Muaj two: plural bags. -s hais /z/."],
+["ty","Kuv niam ua mov qab heev","My mom cooks well|My mother cooks well|My mom cooks really well|My mother cooks really well|My mom cooks very well|My mother cooks very well","mom · cook · well — siv -s","cook","My mom yog ib tug neeg: cooks. Hais /ks/."]]},
+{ id:"countable", title:"Countable thiab uncountable: some, any, much, many", blurb:"Water tsis siv a, tsis muaj -s. Many rau yam suav tau, much rau yam suav tsis tau.", deck:"Mus noj mov", body:`
+<p>Lus Hmoob muaj classifier: <b>ib lub tsev</b>, <b>ib daim ntawv</b>, <b>ib txoj kev</b>. Lus Askiv tsis muaj classifier, tab sis noun muaj ob yam: yam <b>suav tau</b> (countable) thiab yam <b>suav tsis tau</b> (uncountable).</p>
+<div class="tbl"><table><tr><th>Suav tau</th><th>Suav tsis tau</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, two, three …, -s: siv tau</td><td>a / an, two, three …, -s: siv tsis tau</td></tr></table></div>
+<h3>some thiab any</h3>
+<p><b>some</b> = ib txhia. Thaum hais tias muaj: <b>some</b>. Thaum tsis muaj thiab thaum nug: <b>any</b>. Tab sis thaum koj thov ib yam los yog muab ib yam rau ib tug neeg, lo lus nug kuj siv <b>some</b>: <b>Can I have some water?</b></p>
+{{ex:I have some money.|/aɪ hæv sʌm ˈmʌni/|Kuv muaj ib txhia nyiaj.}}{{ex:I don't have any money.|/aɪ doʊnt hæv‿ˈeni ˈmʌni/|Kuv tsis muaj nyiaj.}}{{ex:Do you have any questions?|/duː ju hæv‿ˈeni ˈkwestʃənz/|Koj puas muaj lo lus nug?}}
+<h3>many thiab much</h3>
+<p>Suav tau: <b>many</b> + plural. Suav tsis tau: <b>much</b>. <b>A lot of</b> siv tau rau ob yam.</p>
+{{ex:How many people?|/haʊ ˈmeni ˈpiːpəl/|Muaj pes tsawg tus neeg?}}{{ex:How much is it?|/haʊ mʌtʃ‿ɪz‿ɪt/|Qhov no pes tsawg?}}{{ex:I don't have much time.|/aɪ doʊnt hæv mʌtʃ taɪm/|Kuv tsis muaj sij hawm ntau.}}
+<h3>Suav dej thiab kav fes li cas</h3>
+<p>Lus Hmoob siv classifier <b>khob</b>. Lus Askiv siv <b>a glass of</b>, <b>a cup of</b>.</p>
+{{ex:a glass of water|/ə glæs‿əv ˈwɑːtɚ/|ib khob dej}}{{ex:a cup of coffee|/ə kʌp‿əv ˈkɑːfi/|ib khob kav fes}}
+<div class="tip">Nco ntsoov: <b>a water</b>, <b>many money</b>, <b>informations</b> ✗ → <b>some water</b>, <b>much money</b>, <b>information</b> ✓</div>`,
+check:[["How ___ people are there? Lo lus twg raug?",["much","many","any","a"],1,"Neeg suav tau: many."],["Lo lus twg suav tsis tau (uncountable)?",["apple","chair","water","friend"],2,"Water tsis siv a, tsis muaj -s."],["I don't have ___ money. Lo lus twg raug?",["some","a","many","any"],3,"Tsis muaj: siv any."]],
 practice:[
-["mc","Can I have ___ water?","some","a","many","an","water는 셀 수 없어서 a나 many를 못 써요."],
-["mc","How ___ time do we have?","much","many","any","a","time은 셀 수 없어서 much예요."],
-["mc","'질문 있어요?' =","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","any 뒤 셀 수 있는 명사는 복수예요."],
-["mc","'물 한 잔' =","a glass of water","a water glass of","one waters","a glass water","셀 수 없는 것은 a glass of로 세요."],
-["mc","I have ___ friends in Seoul.","many","much","a","an","friends는 셀 수 있는 복수라서 many예요."],
-["or","저는 돈이 좀 있어요","I have some money","a moneys","money는 셀 수 없어서 관사 a나 복수 -s를 못 붙여요."],
-["or","사과 두 개 주세요","Two apples please","apple","둘이니까 복수 apples예요."],
-["or","시간이 별로 없어요","I don't have much time","many","time은 셀 수 없어서 much예요."],
-["fi","How __ is this?","이거 얼마예요?","much","many|any|some","가격은 how much로 물어요."],
-["fi","I don't have __ questions.","질문 없어요","any","some|much|a","부정문에서는 any를 써요."],
-["fi","a cup __ coffee","커피 한 잔","of","for|in|a","a cup of ~로 세요."],
-["ty","물 좀 주시겠어요?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — 관사 없이","a","water는 셀 수 없어서 관사 a 대신 some을 써요."],
-["ty","질문 있어요?","Do you have any questions","any · question — 복수","question","any 뒤 셀 수 있는 명사는 복수 questions예요."],
-["ty","몇 명이에요?","How many people","how many · people","much","사람은 셀 수 있어서 many예요."]]},
-{ id:"object-have", title:"me, him, her와 have", blurb:"동사 뒤에는 I가 아니라 me. 그리고 만능 동사 have.", deck:"자기소개", body:`
-<p>한국어는 '를'만 붙이면 되지만, 영어는 대명사의 <b>모양 자체</b>가 바뀌어요. 동사나 전치사 <b>뒤</b>에는 이 모양을 써요.</p>
-<div class="tbl"><table><tr><th>주어</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>목적어</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
-{{ex:She knows me.|쉬 노우즈 미|그녀는 저를 알아요}}{{ex:I like him.|아이 라익 힘|저는 그를 좋아해요}}{{ex:Can you help us?|캔 유 헬프 어스?|우리 좀 도와줄래요?}}{{ex:I work with her.|아이 워크 윋 허|저는 그녀와 같이 일해요}}
-<h3>have: 있다, 가지다</h3>
-<p>'~가 있어요'를 사람 주어로 말할 때 써요. 가족, 물건, 시간 모두 have예요.</p>
-{{ex:I have two brothers.|아이 해브 투 브라더즈|저는 형이 둘 있어요}}{{ex:Do you have a pen?|두 유 해버 펜?|펜 있어요?}}{{ex:I don't have time.|아이 돈 해브 타임|시간이 없어요}}
-<h3>have: 먹다, 마시다</h3>
-<p>식사 이름 앞에는 관사를 붙이지 않아요.</p>
-{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}{{ex:I have coffee every morning.|아이 해브 커피 에브리 모닝|저는 매일 아침 커피를 마셔요}}
-<div class="tip">가장 흔한 실수: <b>She knows I.</b> (X) → <b>She knows me.</b> (O), <b>I am two brothers.</b> (X) → <b>I have two brothers.</b> (O)</div>`,
-check:[["I like ___. (그를)",["he","his","him","he's"],2,"동사 뒤에는 목적격 him이에요."],["Can you help ___? (우리를)",["us","we","our","ours"],0,"동사 뒤에는 목적격 us예요."],["'펜 있어요?'를 영어로 하면?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have는 일반동사라서 Do로 물어요."]],
+["mc","Can I have ___ water? Lo lus twg raug?","some","a","many","an","Water suav tsis tau: tsis siv a los yog many."],
+["mc","How ___ time do we have? Lo lus twg raug?","much","many","any","a","Time suav tsis tau: much."],
+["mc","'Koj puas muaj lo lus nug?' — lus Askiv twg raug?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","Tom qab any, noun suav tau yog plural."],
+["mc","'Ib khob dej' — lus Askiv twg raug?","a glass of water","a water glass of","one waters","a glass water","Suav dej: siv a glass of."],
+["mc","I have ___ friends in St. Paul. Lo lus twg raug?","many","much","a","an","Friends suav tau thiab yog plural: many."],
+["or","Kuv muaj ib txhia nyiaj","I have some money","a moneys","Money suav tsis tau: tsis siv article a, tsis muaj plural -s."],
+["or","Thov ob lub txiv av paum","Two apples please","apple","Ob lub yog plural: apples."],
+["or","Kuv tsis muaj sij hawm ntau","I don't have much time","many","Time suav tsis tau: much."],
+["fi","How __ is this?","Qhov no pes tsawg?","much","many|any|some","Nug nqi: how much."],
+["fi","I don't have __ questions.","Kuv tsis muaj lo lus nug.","any","some|much|a","Tsis muaj: any."],
+["fi","a cup __ coffee","ib khob kav fes","of","for|in|a","Suav kav fes: siv a cup of."],
+["ty","Kuv thov dej haus puas tau?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — tsis siv article","a","Water suav tsis tau: siv some, tsis siv article a."],
+["ty","Koj puas muaj lo lus nug?","Do you have any questions","any · question — siv plural","question","Tom qab any, noun suav tau: plural questions."],
+["ty","Muaj pes tsawg tus neeg?","How many people","how many · people — neeg suav tau","much","Neeg suav tau: many."]]},
+{ id:"object-have", title:"me, him, her thiab have", blurb:"Tom qab verb siv me, tsis yog I. Thiab have: muaj, noj, haus.", deck:"Kuv tus kheej", body:`
+<p>Lus Hmoob pronoun (tej lus pauv lub npe) tsis hloov: <b>kuv</b> = I, me thiab my. <b>Nws paub kuv</b>: kuv tsis hloov. Lus Askiv pronoun hloov: tom qab verb los yog preposition (tej lus txog kev nyob qhov twg), siv <b>me, him, her, us, them</b>.</p>
+<p>Lus Hmoob <b>nws</b> = he, she thiab him, her. Koj yuav kawm ntau dua tom qab, hauv he-she-it.</p>
+<div class="tbl"><table><tr><th>subject</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>object</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
+{{ex:She knows me.|/ʃi noʊz mi/|Nws (poj niam) paub kuv.}}{{ex:I like him.|/aɪ laɪk hɪm/|Kuv nyiam nws (txiv neej).}}{{ex:Can you help us?|/kən ju help‿ʌs/|Pab peb puas tau?}}{{ex:I work with her.|/aɪ wɝːk wɪð hɝː/|Kuv ua hauj lwm nrog nws (poj niam).}}
+<h3>have: muaj</h3>
+<p>Lus Hmoob <b>muaj</b> = lus Askiv <b>have</b>: tsev neeg, khoom thiab sij hawm.</p>
+{{ex:I have two brothers.|/aɪ hæv tuː ˈbrʌðɚz/|Kuv muaj ob tug nus. (poj niam hais)}}{{ex:Do you have a pen?|/duː ju hæv‿ə pen/|Koj puas muaj cwj mem?}}{{ex:I don't have time.|/aɪ doʊnt hæv taɪm/|Kuv tsis muaj sij hawm.}}
+<h3>have: noj, haus</h3>
+<p>Lus Askiv kuj siv <b>have</b> rau noj thiab haus. Breakfast, lunch, dinner tsis siv article.</p>
+{{ex:Let's have lunch.|/lets hæv lʌntʃ/|Wb mus noj su.}}{{ex:I have coffee every morning.|/aɪ hæv ˈkɑːfi ˈevri ˈmɔːrnɪŋ/|Sawv ntxov kuv haus kav fes.}}
+<div class="tip">Nco ntsoov: <b>She knows I.</b> ✗ → <b>She knows me.</b> ✓ / <b>I am two brothers.</b> ✗ → <b>I have two brothers.</b> ✓</div>`,
+check:[["I like ___. (nws, txiv neej) Lo lus twg raug?",["he","his","him","he's"],2,"Tom qab verb siv him."],["Can you help ___? (peb) Lo lus twg raug?",["us","we","our","ours"],0,"Tom qab verb siv us."],["'Koj puas muaj cwj mem?' — lus Askiv twg raug?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"Have tsis yog be: nug nrog Do."]],
 practice:[
-["mc","She knows ___. (나를)","me","I","my","mine","동사 뒤에는 목적격 me예요."],
-["mc","I like ___. (그들을)","them","they","their","theirs","동사 뒤에는 목적격 them이에요."],
-["mc","'우리 좀 도와줄래요?' =","Can you help us?","Can you help we?","Can you help our?","Can us help you?","동사 뒤에는 us예요."],
-["mc","'점심 먹어요' =","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","식사 이름에는 관사를 붙이지 않아요."],
-["mc","'저는 형이 둘 있어요' =","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","가족은 have로 말하고, 둘이니까 복수예요."],
-["or","펜 있어요?","Do you have a pen","the pens","아무 펜 하나라서 관사 a와 단수 pen이에요."],
-["or","저는 그녀를 좋아해요","I like her","she","동사 뒤에는 목적격 her예요."],
-["or","저는 여동생이 둘 있어요","I have two sisters","sister a","둘이니까 복수 sisters예요. 관사 a는 못 써요."],
-["fi","Call __ tonight.","오늘 밤에 저한테 전화해요","me","I|my|mine","동사 뒤에는 me예요."],
-["fi","I work with __.","저는 그와 같이 일해요","him","he|his|he's","전치사 뒤에도 목적격을 써요."],
-["fi","She __ a dog.","그녀는 개를 키워요","has","have|is|haves","she라서 has예요."],
-["ty","저 좀 도와줄래요?","Can you help me|Could you help me","can you · help · me","I","동사 뒤에는 목적격 me예요."],
-["ty","펜 있어요?","Do you have a pen","do you have · pen — 관사 a","the","아무 펜 하나를 찾으니까 관사 a예요."],
-["ty","저는 친구가 많아요","I have many friends|I have a lot of friends","have · many · friend — 복수","friend","many 뒤에는 복수 friends가 와요."]]},
-{ id:"can-like", title:"can, like + -ing, I'd like: 할 수 있는 것과 원하는 것", blurb:"할 수 있는 것, 좋아하는 것, 지금 원하는 것을 말해요.", deck:"스몰토크", body:`
-<p>자기소개와 주문에 바로 쓰는 세 가지 틀이에요.</p>
-<h3>can: 할 수 있어요</h3>
-<p><b>can + 동사원형</b>이에요. 주어가 he, she여도 -s를 붙이지 않아요.</p>
-{{ex:I can swim.|아이 캔 스윔|저는 수영할 수 있어요}}{{ex:I can't drive.|아이 캔트 드라이브|저는 운전 못 해요}}{{ex:Can you speak Korean?|캔 유 스픽 코리언?|한국어 할 수 있어요?}}
-<h3>like + -ing: ~하는 걸 좋아해요</h3>
-<p>취미를 말할 때는 like, love 뒤에 <b>동사 + ing</b>를 써요.</p>
-{{ex:I like cooking.|아이 라익 쿠킹|저는 요리하는 걸 좋아해요}}{{ex:I love watching movies.|아이 러브 왓칭 무비즈|저는 영화 보는 걸 정말 좋아해요}}{{ex:I don't like running.|아이 돈 라익 러닝|저는 달리기를 안 좋아해요}}
-<h3>I'd like: ~주세요, ~하고 싶어요</h3>
-<p><b>I like</b>는 늘 좋아한다는 뜻이고, <b>I'd like</b>는 지금 원한다는 공손한 표현이에요. 주문할 때는 I'd like를 써요.</p>
-{{ex:I'd like a coffee, please.|아이드 라이커 커피 플리즈|커피 한 잔 주세요}}{{ex:Would you like some tea?|우쥬 라익 썸 티?|차 좀 드릴까요?}}
-<div class="tip">가장 흔한 실수: <b>He can swims.</b> (X) → <b>He can swim.</b> (O), 카페에서 <b>I like a coffee.</b> (X) → <b>I'd like a coffee.</b> (O)</div>`,
-check:[["She can ___ very well. 빈칸에 알맞은 것은?",["sings","sing","singing","to sing"],1,"can 뒤에는 동사원형이 와요."],["'저는 요리하는 걸 좋아해요'를 영어로 하면?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like 뒤에는 -ing를 써요."],["카페에서 주문할 때 가장 자연스러운 말은?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"지금 원하는 것은 I'd like로 말해요."]],
+["mc","She knows ___. (kuv) Lo lus twg raug?","me","I","my","mine","Tom qab verb siv me."],
+["mc","I like ___. (lawv) Lo lus twg raug?","them","they","their","theirs","Tom qab verb siv them."],
+["mc","'Pab peb puas tau?' — lus Askiv twg raug?","Can you help us?","Can you help we?","Can you help our?","Can us help you?","Tom qab verb siv us."],
+["mc","'Wb mus noj su.' — lus Askiv twg raug?","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","Lunch tsis siv article."],
+["mc","'Kuv muaj ob tug nus.' (poj niam hais) — lus Askiv twg raug?","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","Tsev neeg: have. Ob tug yog plural."],
+["or","Koj puas muaj cwj mem?","Do you have a pen","the pens","Ib tus cwj mem: article a thiab pen (singular)."],
+["or","Kuv nyiam nws (poj niam)","I like her","she","Tom qab verb siv her."],
+["or","Kuv muaj ob tug muam (txiv neej hais)","I have two sisters","sister a","Ob tug yog plural: sisters. Tsis siv article a."],
+["fi","Call __ tonight.","Tsaus ntuj no hu rau kuv.","me","I|my|mine","Tom qab verb siv me."],
+["fi","I work with __.","Kuv ua hauj lwm nrog nws (txiv neej).","him","he|his|he's","Tom qab preposition (with) kuj siv him."],
+["fi","She __ a dog.","Nws (poj niam) muaj ib tug dev.","has","have|is|haves","She siv has."],
+["ty","Pab kuv puas tau?","Can you help me|Could you help me","can you · help · me — tsis siv I","I","Tom qab verb siv me."],
+["ty","Koj puas muaj cwj mem?","Do you have a pen","do you have · pen — siv article a","the","Ib tus cwj mem: article a."],
+["ty","Kuv muaj ntau tus phooj ywg","I have many friends|I have a lot of friends","have · many · friend — siv plural","friend","Tom qab many siv plural friends."]]},
+{ id:"can-like", title:"can, like + -ing, I'd like: koj ua tau dab tsi thiab xav tau dab tsi", blurb:"Hais tias koj ua tau dab tsi, nyiam dab tsi, thiab tam sim no xav tau dab tsi.", deck:"Sib tham", body:`
+<p>Peb yam no pab koj qhia koj tus kheej thiab thov ib yam.</p>
+<h3>can: ua tau</h3>
+<p>Lus Hmoob <b>tau</b> nyob tom qab verb (<b>Kuv ua luam dej tau</b>) los yog ua ntej. Lus Askiv: <b>can</b> yeej nyob ua ntej verb. Tom qab he, she, verb kuj tsis muaj -s.</p>
+{{ex:I can swim.|/aɪ kən swɪm/|Kuv ua luam dej tau.}}{{ex:I can't drive.|/aɪ kænt draɪv/|Kuv tsav tsheb tsis tau.}}{{ex:Can you speak Hmong?|/kən ju spiːk mɑːŋ/|Koj puas hais tau lus Hmoob?}}
+<h3>like + -ing: nyiam ua</h3>
+<p>Lus Hmoob: <b>nyiam</b> + verb (<b>Kuv nyiam noj fawm</b>). Lus Askiv: like, love + verb-ing.</p>
+{{ex:I like cooking.|/aɪ laɪk ˈkʊkɪŋ/|Kuv nyiam ua mov.}}{{ex:I love watching movies.|/aɪ lʌv ˈwɑːtʃɪŋ ˈmuːviz/|Kuv nyiam saib movies heev.}}{{ex:I don't like running.|/aɪ doʊnt laɪk ˈrʌnɪŋ/|Kuv tsis nyiam khiav.}}
+<h3>I'd like: thov, kuv xav tau</h3>
+<p><b>I like</b> = kuv nyiam (txhua hnub). <b>I'd like</b> = tam sim no kuv xav tau, hais lus zoo. Thaum thov mov los yog kav fes, siv I'd like.</p>
+{{ex:I'd like a coffee, please.|/aɪd laɪk‿ə ˈkɑːfi pliːz/|Thov ib khob kav fes.}}{{ex:Would you like some tea?|/wʊd ju laɪk sʌm tiː/|Koj puas xav haus tshuaj yej?}}
+<div class="tip">Nco ntsoov: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓ / Thaum thov kav fes: <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
+check:[["She can ___ very well. Lo lus twg raug?",["sings","sing","singing","to sing"],1,"Tom qab can: verb tsis hloov."],["'Kuv nyiam ua mov.' — lus Askiv twg raug?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"Tom qab like siv -ing."],["Thaum thov kav fes, lus Askiv twg zoo tshaj?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"Tam sim no xav tau: I'd like."]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can 뒤에는 동사원형이 와요."],
-["mc","'저는 운전 못 해요' =","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can의 부정은 can't예요."],
-["mc","'저는 영화 보는 걸 좋아해요' =","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like 뒤는 -ing, 영화 전체는 복수 movies예요."],
-["mc","주문할 때 '커피 한 잔 주세요' =","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","지금 원하는 것은 I'd like로 말해요."],
-["mc","'차 좀 드릴까요?' =","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","권할 때는 Would you like ~?예요."],
-["or","커피 한 잔 주세요","I'd like a coffee please","the coffees","주문하는 한 잔이라 관사 a와 단수 coffee예요."],
-["or","저는 책 읽는 걸 좋아해요","I like reading books","book read","like 뒤는 -ing, 책 전체는 복수 books예요."],
-["or","수영할 줄 알아요?","Can you swim","swimming","can 뒤에는 동사원형이 와요."],
-["fi","I can't __.","저는 수영 못 해요","swim","swimming|swims|to swim","can't 뒤에는 동사원형이 와요."],
-["fi","I like __ music.","저는 음악 듣는 걸 좋아해요","listening to","listen to|listen|to listening","like 뒤에는 -ing를 써요."],
-["fi","__ like a sandwich, please.","샌드위치 하나 주세요","I'd|I would","I|I'm|I can","주문은 I'd like로 해요."],
-["ty","저는 요리하는 걸 좋아해요","I like cooking|I love cooking|I like to cook","like · cook — -ing","cook","like 뒤에는 -ing를 써요."],
-["ty","샌드위치 하나 주세요","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — 관사 a","the","아무 샌드위치 하나라서 관사 a예요."],
-["ty","저는 개를 좋아해요","I like dogs|I love dogs","like · dog — 복수","dog","개 전체를 말할 때는 복수 dogs예요."]]},
-{ id:"continuous", title:"지금 하는 중: be + -ing", blurb:"늘 하는 일은 현재형, 지금 하는 일은 be + -ing.", deck:"스몰토크", body:`
-<p>한국어 "일해요"는 습관도 되고 지금 하는 일도 돼요. 영어는 둘을 나눠요. <b>지금 이 순간</b> 하고 있는 일은 <b>be + 동사-ing</b>예요.</p>
-{{ex:I'm working now.|아임 워킹 나우|저 지금 일하고 있어요}}{{ex:She's cooking dinner.|쉬즈 쿠킹 디너|그녀는 저녁을 만들고 있어요}}{{ex:It's raining.|이츠 레이닝|비가 오고 있어요}}
-<h3>질문과 부정</h3>
-{{ex:What are you doing?|와라유 두잉?|지금 뭐 해요?}}{{ex:Are you listening?|아 유 리스닝?|듣고 있어요?}}{{ex:I'm not sleeping.|아임 낫 슬리핑|저 안 자고 있어요}}
-<h3>현재형과 비교</h3>
-<div class="tbl"><table><tr><th>늘 (현재형)</th><th>지금 (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
-<h3>-ing를 붙이지 않는 동사</h3>
-<p>like, know, want, need, have(가지다)처럼 <b>상태</b>를 말하는 동사는 지금 일이어도 현재형으로 써요.</p>
-{{ex:I know him.|아이 노우 힘|저는 그를 알아요}}{{ex:I want some water.|아이 원트 썸 워러|물이 마시고 싶어요}}
-<div class="tip">가장 흔한 실수: be동사를 빼먹는 것. <b>I working.</b> (X) → <b>I'm working.</b> (O), <b>I'm knowing.</b> (X) → <b>I know.</b> (O)</div>`,
-check:[["'지금 뭐 해요?'를 영어로 하면?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"지금 하는 일은 be + -ing로 물어요."],["I ___ coffee every morning. 빈칸에 알맞은 것은?",["am drinking","drinking","drink","am drink"],2,"매일 하는 습관은 현재형이에요."],["다음 중 알맞은 문장은?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"know, want, have(소유)는 -ing를 쓰지 않아요."]],
+["mc","He can ___ Hmong. Lo lus twg raug?","speak","speaks","speaking","to speak","Tom qab can: verb tsis hloov."],
+["mc","'Kuv tsav tsheb tsis tau.' — lus Askiv twg raug?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","Ua tsis tau = can't."],
+["mc","'Kuv nyiam saib movies.' — lus Askiv twg raug?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","Tom qab like: -ing. Movies yog plural."],
+["mc","Thov ib khob kav fes: lus Askiv twg raug?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","Tam sim no xav tau: I'd like."],
+["mc","'Koj puas xav haus tshuaj yej?' — lus Askiv twg raug?","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","Thaum muab rau ib tug neeg: Would you like …?"],
+["or","Thov ib khob kav fes","I'd like a coffee please","the coffees","Ib khob: article a thiab coffee (singular)."],
+["or","Kuv nyiam nyeem ntawv","I like reading books","book read","Tom qab like: -ing. Txhua phau ntawv: plural books."],
+["or","Koj puas ua luam dej tau?","Can you swim","swimming","Tom qab can: verb tsis hloov."],
+["fi","I can't __.","Kuv ua luam dej tsis tau.","swim","swimming|swims|to swim","Tom qab can't: verb tsis hloov."],
+["fi","I like __ music.","Kuv nyiam mloog nkauj.","listening to","listen to|listen|to listening","Tom qab like siv -ing."],
+["fi","__ like a sandwich, please.","Thov ib lub sandwich.","I'd|I would","I|I'm|I can","Thov: I'd like."],
+["ty","Kuv nyiam ua mov","I like cooking|I love cooking|I like to cook","like · cook — siv -ing","cook","Tom qab like siv -ing."],
+["ty","Thov ib lub sandwich","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — siv article a","the","Ib lub sandwich: article a."],
+["ty","Kuv nyiam dev","I like dogs|I love dogs","like · dog — siv plural","dog","Txhua tus dev: plural dogs."]]},
+{ id:"continuous", title:"Tam sim no: be + -ing", blurb:"Ua txhua hnub: Simple Present. Tam sim no tab tom ua: be + -ing.", deck:"Sib tham", body:`
+<p>Lus Hmoob <b>tab tom</b> qhia tias tam sim no tab tom ua: <b>Kuv tab tom noj mov</b>. Tab sis lus Hmoob tsis siv tab tom txhua zaus. Lus Askiv yuav tsum siv <b>be + verb-ing</b> txhua zaus: <b>I'm working</b>.</p>
+{{ex:I'm working now.|/aɪm ˈwɝːkɪŋ naʊ/|Tam sim no kuv tab tom ua hauj lwm.}}{{ex:She's cooking dinner.|/ʃiz ˈkʊkɪŋ ˈdɪnɚ/|Nws (poj niam) tab tom ua mov noj hmo.}}{{ex:It's raining.|/ɪts ˈreɪnɪŋ/|Tab tom los nag.}}
+<h3>Nug thiab tsis</h3>
+{{ex:What are you doing?|/wʌt‿ɑːr ju ˈduːɪŋ/|Koj tab tom ua dab tsi?}}{{ex:Are you listening?|/ɑːr ju ˈlɪsənɪŋ/|Koj puas tab tom mloog?}}{{ex:I'm not sleeping.|/aɪm nɑːt ˈsliːpɪŋ/|Kuv tsis pw tsaug zog.}}
+<h3>Simple Present thiab be + -ing</h3>
+<div class="tbl"><table><tr><th>Txhua hnub (Simple Present)</th><th>Tam sim no (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
+<h3>Verb tsis siv -ing</h3>
+<p>like, know, want, need, have (muaj): tej verb no tsis yog ua ib yam dab tsi. Tam sim no, lus Askiv tseem siv Simple Present.</p>
+{{ex:I know him.|/aɪ noʊ hɪm/|Kuv paub nws (txiv neej).}}{{ex:I want some water.|/aɪ wɑːnt sʌm ˈwɑːtɚ/|Kuv xav haus dej.}}
+<div class="tip">Nco ntsoov be: <b>I working.</b> ✗ → <b>I'm working.</b> ✓ / <b>I'm knowing.</b> ✗ → <b>I know.</b> ✓</div>`,
+check:[["'Koj tab tom ua dab tsi?' — lus Askiv twg raug?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"Tam sim no: nug nrog be + -ing."],["I ___ coffee every morning. Lo lus twg raug?",["am drinking","drinking","drink","am drink"],2,"Ua txhua hnub: Simple Present."],["Lus Askiv twg raug?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"Know, want thiab have (muaj) tsis siv -ing."]],
 practice:[
-["mc","'저 지금 일하고 있어요' =","I'm working now.","I work now am.","I'm work now.","I working now.","지금 하는 일은 be + -ing예요."],
-["mc","'그녀는 저녁을 만들고 있어요' =","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","be + -ing이고, 식사 이름에는 관사가 없어요."],
-["mc","매일 하는 일을 말하는 문장은?","I walk to work every day.","I'm walking to work every day.","I walking to work every day.","I'm walk to work every day.","습관은 현재형이에요."],
-["mc","'지금 뭐 해요?' =","What are you doing?","What do you doing?","What are you do?","What you are doing?","의문사 + be + 주어 + -ing예요."],
-["mc","'저는 그를 알아요' =","I know him.","I'm knowing him.","I knowing him.","I'm know him.","know는 -ing를 쓰지 않는 동사예요."],
-["or","저는 책을 읽고 있어요","I'm reading a book","read books","지금 읽는 한 권이라 관사 a와 단수 book이에요."],
-["or","아이들이 놀고 있어요","The kids are playing","kid is","여럿이라 복수 kids와 are를 써요."],
-["or","지금 비가 오고 있어요","It's raining now","rains","지금 일어나는 일은 be + -ing예요."],
-["fi","I'm __ TV.","저는 TV를 보고 있어요","watching","watch|watches|to watch","be 뒤에는 -ing가 와요."],
-["fi","What __ you doing?","뭐 하고 있어요?","are","do|is|does","you에는 are예요."],
-["fi","She __ working today.","그녀는 오늘 일 안 해요","isn't|is not","doesn't|don't|not","be + -ing의 부정은 isn't예요."],
-["ty","저 지금 요리하고 있어요","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — -ing · now","cook","지금 하는 일은 be + -ing예요."],
-["ty","저는 영화를 보고 있어요","I'm watching a movie","I'm · watching · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","아이들이 자고 있어요","The kids are sleeping|The children are sleeping","kids · are · sleeping — 복수","kid","여럿이라 복수 kids와 are예요."]]},
-{ id:"past", title:"과거형: was / were와 -ed", blurb:"be동사는 was·were, 일반동사는 -ed. 질문과 부정은 did.", deck:"스몰토크", body:`
-<p>한국어의 '-았/었어요'에 해당해요. be동사와 일반동사의 과거가 따로 있어요.</p>
-<h3>be동사의 과거: was / were</h3>
-<p>I, he, she, it에는 <b>was</b>, you, we, they에는 <b>were</b>예요.</p>
-{{ex:I was tired.|아이 워즈 타이어드|피곤했어요}}{{ex:It was fun.|잇 워즈 펀|재미있었어요}}{{ex:We were at home.|위 워 앳 홈|우리는 집에 있었어요}}{{ex:Were you busy?|워 유 비지?|바빴어요?}}
-<h3>일반동사의 과거: -ed</h3>
-<p>동사 끝에 <b>-ed</b>를 붙여요. 주어가 누구든 모양이 같아요.</p>
-{{ex:I worked yesterday.|아이 웍트 예스터데이|어제 일했어요}}{{ex:We watched a movie.|위 왓치트 어 무비|우리는 영화를 봤어요}}{{ex:She called me.|쉬 콜드 미|그녀가 저한테 전화했어요}}
-<h3>부정과 질문은 did</h3>
-<p><b>didn't</b>나 <b>Did</b>를 쓰면 동사는 원래 모양으로 돌아가요.</p>
-{{ex:I didn't work yesterday.|아이 디든 워크 예스터데이|어제 일 안 했어요}}{{ex:Did you call me?|디쥬 콜 미?|저한테 전화했어요?}}
-<div class="tip">가장 흔한 실수: <b>I didn't worked.</b> (X) → <b>I didn't work.</b> (O), <b>I was work.</b> (X) → <b>I worked.</b> (O)</div>`,
-check:[["They ___ at home yesterday. 빈칸에 알맞은 것은?",["was","were","did","are"],1,"they에는 were예요."],["'어제 일 안 했어요'를 영어로 하면?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"didn't 뒤에는 동사원형이 와요."],["Did you ___ the movie? 빈칸에 알맞은 것은?",["watch","watched","watching","watches"],0,"Did 뒤에는 동사원형이 와요."]],
+["mc","'Tam sim no kuv tab tom ua hauj lwm.' — lus Askiv twg raug?","I'm working now.","I work now am.","I'm work now.","I working now.","Tam sim no: be + -ing."],
+["mc","'Nws (poj niam) tab tom ua mov noj hmo.' — lus Askiv twg raug?","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","Be + -ing. Dinner tsis siv article."],
+["mc","Ua txhua hnub: lus Askiv twg raug?","I walk to work every day.","I'm walking to work every day.","I walking to work every day.","I'm walk to work every day.","Ua txhua hnub: Simple Present."],
+["mc","'Koj tab tom ua dab tsi?' — lus Askiv twg raug?","What are you doing?","What do you doing?","What are you do?","What you are doing?","Nug: What + be + subject + -ing."],
+["mc","'Kuv paub nws (txiv neej).' — lus Askiv twg raug?","I know him.","I'm knowing him.","I knowing him.","I'm know him.","Know tsis siv -ing."],
+["or","Kuv tab tom nyeem ib phau ntawv","I'm reading a book","read books","Ib phau ntawv: article a thiab book (singular)."],
+["or","Cov me nyuam tab tom ua si","The kids are playing","kid is","Cov me nyuam: plural kids thiab are."],
+["or","Tam sim no tab tom los nag","It's raining now","rains","Tam sim no: be + -ing."],
+["fi","I'm __ TV.","Kuv tab tom saib TV.","watching","watch|watches|to watch","Tom qab be siv -ing."],
+["fi","What __ you doing?","Koj tab tom ua dab tsi?","are","do|is|does","You siv are."],
+["fi","She __ working today.","Hnub no nws (poj niam) tsis ua hauj lwm.","isn't|is not","doesn't|don't|not","Be + -ing tsis: isn't."],
+["ty","Tam sim no kuv tab tom ua mov","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook · now — siv -ing","cook","Tam sim no: be + -ing."],
+["ty","Kuv tab tom saib movie (a)","I'm watching a movie","I'm · watching · movie — siv article a","the","Ib yam movie: article a."],
+["ty","Cov me nyuam tab tom pw tsaug zog","The kids are sleeping|The children are sleeping","kids · are · sleeping — siv plural","kid","Cov me nyuam: plural kids thiab are."]]},
+{ id:"past", title:"Past tense: was / were thiab -ed", blurb:"Be hloov ua was, were. Lwm verb muaj -ed. Nug thiab tsis: siv did.", deck:"Sib tham", body:`
+<p>Lus Hmoob verb tsis hloov: <b>Nag hmo kuv mus tom khw</b>. <b>Nag hmo</b> qhia sij hawm. <b>Tau</b> thiab <b>lawm</b> muaj tau, tsis muaj kuj tau. Lus Askiv verb yuav tsum hloov txhua zaus: <b>Yesterday I went to the store</b>. Muaj yesterday lawm, verb tseem yuav tsum hloov.</p>
+<h3>be: was / were</h3>
+<p>I, he, she, it: <b>was</b>. You, we, they: <b>were</b>.</p>
+{{ex:I was tired.|/aɪ wəz ˈtaɪɚd/|Kuv nkees.}}{{ex:It was fun.|/ɪt wəz fʌn/|Zoo kawg.}}{{ex:We were at home.|/wi wɝː ət hoʊm/|Peb nyob tsev.}}{{ex:Were you busy?|/wɝː ju ˈbɪzi/|Koj puas tsis khoom?}}
+<h3>-ed</h3>
+<p>Verb muaj <b>-ed</b>. <b>She worked</b> nkaus li <b>I worked</b>: subject twg los verb tsis hloov ntxiv. Hais -ed ua /t/ (worked), /d/ (called) los yog /ɪd/ (wanted), nkaus li hauv Final sounds.</p>
+{{ex:I worked yesterday.|/aɪ wɝːkt ˈjestɚdeɪ/|Nag hmo kuv ua hauj lwm.}}{{ex:We watched a movie.|/wi wɑːtʃt‿ə ˈmuːvi/|Peb saib movie.}}{{ex:She called me.|/ʃi kɑːld mi/|Nws (poj niam) hu rau kuv.}}
+<h3>Tsis thiab nug: did</h3>
+<p>Thaum siv <b>didn't</b> los yog <b>Did</b>, verb rov qab ua lo lus qub.</p>
+{{ex:I didn't work yesterday.|/aɪ ˈdɪdənt wɝːk ˈjestɚdeɪ/|Nag hmo kuv tsis ua hauj lwm.}}{{ex:Did you call me?|/dɪd ju kɑːl mi/|Koj puas hu rau kuv?}}
+<div class="tip">Nco ntsoov: <b>I didn't worked.</b> ✗ → <b>I didn't work.</b> ✓ / <b>I was work.</b> ✗ → <b>I worked.</b> ✓ / <b>Yesterday I work.</b> ✗ → <b>Yesterday I worked.</b> ✓</div>`,
+check:[["They ___ at home yesterday. Lo lus twg raug?",["was","were","did","are"],1,"They siv were."],["'Nag hmo kuv tsis ua hauj lwm.' — lus Askiv twg raug?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"Tom qab didn't: lo lus qub (work)."],["Did you ___ the movie? Lo lus twg raug?",["watch","watched","watching","watches"],0,"Tom qab Did: lo lus qub."]],
 practice:[
-["mc","I ___ tired yesterday.","was","were","did","am","I에는 was예요."],
-["mc","'우리는 영화를 봤어요' =","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","일반동사 과거는 -ed예요."],
-["mc","'어제 전화했어요?' =","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Did 뒤에는 동사원형이 와요."],
-["mc","'재미있었어요' =","It was fun.","It were fun.","It did fun.","It funned.","it에는 was예요."],
-["mc","'바빴어요?' =","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy는 상태라서 be동사로 물어요."],
-["or","우리는 영화를 봤어요","We watched a movie","watch movies","영화 한 편이라 관사 a와 단수 movie예요."],
-["or","(어린아이가) 저는 친구들과 놀았어요","I played with my friends","friend play","여러 명이라 복수 friends예요."],
-["or","어제 일 안 했어요","I didn't work yesterday","worked","didn't 뒤에는 동사원형이 와요."],
-["fi","We __ at home last night.","우리는 어젯밤에 집에 있었어요","were","was|did|are","we에는 were예요."],
-["fi","I __ soccer yesterday.","어제 축구했어요","played","play|playing|was play","과거는 -ed예요."],
-["fi","__ you work yesterday?","어제 일했어요?","Did","Were|Do|Was","일반동사 과거 질문은 Did예요."],
-["ty","피곤했어요","I was tired","was · tired","were","I에는 was예요."],
-["ty","저는 영화를 봤어요","I watched a movie","watched · movie — 관사 a","the","영화 한 편이라 관사 a를 붙여요."],
-["ty","저는 친구들한테 전화했어요","I called my friends","called · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"irregular-past", title:"불규칙 과거: went, ate, saw", blurb:"가장 자주 쓰는 동사일수록 -ed가 아니에요. 12개만 먼저 외워요.", deck:"스몰토크", body:`
-<p>매일 쓰는 동사들은 과거형이 <b>불규칙</b>이에요. 규칙이 없으니 짝으로 외워요.</p>
-<div class="tbl"><table><tr><th>현재</th><th>과거</th><th>현재</th><th>과거</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
-{{ex:I went to Busan.|아이 웬 투 부산|부산에 갔어요}}{{ex:We ate pizza.|위 에잇 피짜|우리는 피자를 먹었어요}}{{ex:I saw a movie.|아이 쏘 어 무비|영화를 봤어요}}{{ex:I met my friends.|아이 멧 마이 프렌즈|친구들을 만났어요}}{{ex:I bought a book.|아이 봇 어 북|책을 한 권 샀어요}}
-<h3>질문과 부정에서는 원래 모양으로</h3>
-<p><b>did</b>가 과거를 표시하니까 동사는 원형으로 돌아가요.</p>
-{{ex:What did you do?|왓 디쥬 두?|뭐 했어요?}}{{ex:Where did you go?|웨어 디쥬 고?|어디 갔어요?}}{{ex:I didn't go.|아이 디든 고|안 갔어요}}
-<div class="tip">가장 흔한 실수: <b>I goed.</b> (X) → <b>I went.</b> (O), <b>Did you went?</b> (X) → <b>Did you go?</b> (O)</div>`,
-check:[["go의 과거형은?",["goed","gone","went","going"],2,"go의 과거는 went예요."],["'뭐 했어요?'를 영어로 하면?",["What did you do?","What did you did?","What you did?","What were you do?"],0,"did 뒤에는 동사원형 do가 와요."],["I didn't ___ breakfast. 빈칸에 알맞은 것은?",["ate","eaten","eats","eat"],3,"didn't 뒤에는 동사원형이 와요."]],
+["mc","I ___ tired yesterday. Lo lus twg raug?","was","were","did","am","I siv was."],
+["mc","'Peb saib movie.' (past tense) — lus Askiv twg raug?","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","Past tense siv -ed."],
+["mc","'Nag hmo koj puas hu?' — lus Askiv twg raug?","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Tom qab Did: lo lus qub."],
+["mc","'Zoo kawg.' (past tense) — lus Askiv twg raug?","It was fun.","It were fun.","It did fun.","It funned.","It siv was."],
+["mc","'Koj puas tsis khoom?' (past tense) — lus Askiv twg raug?","Were you busy?","Did you busy?","Was you busy?","Were you busied?","Busy tsis yog verb: nug nrog be (were)."],
+["or","Peb saib movie (a, past tense)","We watched a movie","watch movies","Ib yam movie: article a thiab movie (singular)."],
+["or","Kuv ua si nrog kuv cov phooj ywg (past tense)","I played with my friends","friend play","Cov phooj ywg: plural friends."],
+["or","Nag hmo kuv tsis ua hauj lwm","I didn't work yesterday","worked","Tom qab didn't: lo lus qub."],
+["fi","We __ at home last night.","Nag hmo tsaus ntuj peb nyob tsev.","were","was|did|are","We siv were."],
+["fi","I __ soccer yesterday.","Nag hmo kuv ua si soccer.","played","play|playing|was play","Past tense siv -ed."],
+["fi","__ you work yesterday?","Nag hmo koj puas ua hauj lwm?","Did","Were|Do|Was","Nug past tense: Did."],
+["ty","Kuv nkees (past tense)","I was tired","was · tired — I: was","were","I siv was."],
+["ty","Kuv saib movie (a, past tense)","I watched a movie","watched · movie — siv article a","the","Ib yam movie: article a."],
+["ty","Kuv hu rau kuv cov phooj ywg (past tense)","I called my friends","called · my · friend — siv plural","friend","Cov phooj ywg: plural friends."]]},
+{ id:"irregular-past", title:"Past tense tsis muaj -ed: went, ate, saw", blurb:"Ntau lo lus koj siv txhua hnub tsis muaj -ed. Nco ntsoov 12 lo lus no ua ntej.", deck:"Sib tham", body:`
+<p>Cov verb koj siv txhua hnub tsis muaj -ed hauv past tense. Tsis muaj txoj cai: nco ntsoov ob lo lus ib txhij (go, went).</p>
+<div class="tbl"><table><tr><th>Tam sim no</th><th>Past tense</th><th>Tam sim no</th><th>Past tense</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
+{{ex:I went to Fresno.|/aɪ went tə ˈfreznoʊ/|Kuv tau mus Fresno.}}{{ex:We ate pizza.|/wi eɪt ˈpiːtsə/|Peb noj pizza.}}{{ex:I saw a movie.|/aɪ sɑː ə ˈmuːvi/|Kuv saib movie.}}{{ex:I met my friends.|/aɪ met maɪ frendz/|Kuv ntsib kuv cov phooj ywg.}}{{ex:I bought a book.|/aɪ bɑːt‿ə bʊk/|Kuv yuav ib phau ntawv.}}
+<h3>Nug thiab tsis: lo lus qub</h3>
+<p><b>Did</b> qhia tias yog past tense, thiaj li verb rov qab ua lo lus qub.</p>
+{{ex:What did you do?|/wʌt dɪd ju duː/|Koj ua dab tsi?}}{{ex:Where did you go?|/wer dɪd ju goʊ/|Koj tau mus qhov twg?}}{{ex:I didn't go.|/aɪ ˈdɪdənt goʊ/|Kuv tsis tau mus.}}
+<div class="tip">Nco ntsoov: <b>I goed.</b> ✗ → <b>I went.</b> ✓ / <b>Did you went?</b> ✗ → <b>Did you go?</b> ✓</div>`,
+check:[["Go: past tense yog dab tsi?",["goed","gone","went","going"],2,"Go hloov ua went."],["'Koj ua dab tsi?' (past tense) — lus Askiv twg raug?",["What did you do?","What did you did?","What you did?","What were you do?"],0,"Tom qab did: lo lus qub (do)."],["I didn't ___ breakfast. Lo lus twg raug?",["ate","eaten","eats","eat"],3,"Tom qab didn't: lo lus qub."]],
 practice:[
-["mc","eat의 과거형은?","ate","eated","eat","eaten","eat의 과거는 ate예요."],
-["mc","'어디 갔어요?' =","Where did you go?","Where did you went?","Where you went?","Where were you go?","did 뒤에는 동사원형이 와요."],
-["mc","'저는 책을 한 권 샀어요' =","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","buy의 과거는 bought, 한 권이라 관사 a예요."],
-["mc","see의 과거형은?","saw","seed","seen","sawed","see의 과거는 saw예요."],
-["mc","'저는 안 갔어요' =","I didn't go.","I didn't went.","I wasn't go.","I not went.","didn't 뒤에는 동사원형이 와요."],
-["or","저는 영화를 봤어요","I saw a movie","see movies","한 편이라 관사 a와 단수 movie예요. see의 과거는 saw예요."],
-["or","우리는 피자를 먹었어요","We ate pizza","eated","eat의 과거는 ate예요."],
-["or","저는 친구들을 만났어요","I met my friends","friend meet","여러 명이라 복수 friends예요."],
-["fi","I __ to Jeju last year.","작년에 제주에 갔어요","went","go|goed|gone","go의 과거는 went예요."],
-["fi","What did you __?","뭐 먹었어요?","eat","ate|eaten|eating","did 뒤에는 동사원형이 와요."],
-["fi","She __ a new phone.","그녀는 새 휴대폰을 샀어요","bought","buyed|buy|buys","buy의 과거는 bought예요."],
-["ty","저는 부산에 갔어요","I went to Busan","went · to · Busan","go","go의 과거는 went예요."],
-["ty","저는 책을 한 권 샀어요","I bought a book","bought · book — 관사 a","the","한 권이라 관사 a를 붙여요."],
-["ty","저는 친구들을 만났어요","I met my friends|I saw my friends","met · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"the", title:"the 다시 보기: 처음엔 a, 다음엔 the", blurb:"처음 꺼낼 땐 a, 서로 아는 것이 되면 the.", deck:"길 묻기·교통", body:`
-<p>관사는 한 번에 익혀지지 않아요. 여기서는 <b>the</b>를 쓰는 때와 <b>아무것도 안 쓰는 때</b>를 다시 연습해요.</p>
-<h3>처음엔 a, 다시 말할 땐 the</h3>
-<p>듣는 사람이 처음 듣는 것이면 a, 방금 말해서 이제 아는 것이면 the예요.</p>
-{{ex:I bought a shirt. The shirt is blue.|아이 봇 어 셔트. 더 셔트 이즈 블루|셔츠를 하나 샀어요. 그 셔츠는 파란색이에요}}
-<h3>상황상 하나뿐이면 the</h3>
-<p>이 방의 창문, 이 근처의 역처럼 무엇인지 뻔하면 처음부터 the예요.</p>
-{{ex:Can you open the window?|캔 유 오픈 더 윈도우?|창문 좀 열어 줄래요?}}{{ex:Where's the subway station?|웨어즈 더 서브웨이 스테이션?|지하철역이 어디예요?}}{{ex:The sun is hot today.|더 썬 이즈 핫 투데이|오늘 햇볕이 뜨거워요}}
-<h3>관사를 안 쓰는 표현</h3>
-<p>자주 쓰는 장소·교통·식사 표현은 통째로 외워요.</p>
-{{ex:I go to work by bus.|아이 고우 투 워크 바이 버스|저는 버스로 출근해요}}{{ex:I'm at home.|아임 앳 홈|저 집에 있어요}}{{ex:I go to bed at eleven.|아이 고우 투 베드 앳 일레븐|저는 11시에 자요}}
-<div class="tip">스스로 물어보세요: "듣는 사람이 <b>어느 것인지</b> 알까?" 알면 the, 모르면 a예요.</div>`,
-check:[["I have a cat. ___ cat is white. 빈칸에 알맞은 것은?",["A","An","The","(없음)"],2,"방금 말한 그 고양이라서 the예요."],["I go to ___ work by bus. 빈칸에 알맞은 것은?",["a","the","an","(없음)"],3,"go to work에는 관사를 쓰지 않아요."],["이 방의 창문을 열어 달라고 할 때 알맞은 말은?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"둘 다 아는 그 창문이라서 the예요."]],
+["mc","Eat: past tense yog dab tsi?","ate","eated","eat","eaten","Eat hloov ua ate."],
+["mc","'Koj tau mus qhov twg?' — lus Askiv twg raug?","Where did you go?","Where did you went?","Where you went?","Where were you go?","Tom qab did: lo lus qub."],
+["mc","'Kuv yuav ib phau ntawv.' (past tense) — lus Askiv twg raug?","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","Buy hloov ua bought. Ib phau: article a."],
+["mc","See: past tense yog dab tsi?","saw","seed","seen","sawed","See hloov ua saw."],
+["mc","'Kuv tsis tau mus.' — lus Askiv twg raug?","I didn't go.","I didn't went.","I wasn't go.","I not went.","Tom qab didn't: lo lus qub."],
+["or","Kuv pom movie (a, past tense)","I saw a movie","see movies","Ib yam movie: article a thiab movie (singular). See hloov ua saw."],
+["or","Peb noj pizza (past tense)","We ate pizza","eated","Eat hloov ua ate."],
+["or","Kuv ntsib kuv cov phooj ywg (past tense)","I met my friends","friend meet","Cov phooj ywg: plural friends."],
+["fi","I __ to Thailand last year.","Tsaib no kuv mus Thaib teb.","went","go|goed|gone","Go hloov ua went."],
+["fi","What did you __?","Koj noj dab tsi? (past tense)","eat","ate|eaten|eating","Tom qab did: lo lus qub."],
+["fi","She __ a new phone.","Nws (poj niam) yuav ib lub xov tooj tshiab. (past tense)","bought","buyed|buy|buys","Buy hloov ua bought."],
+["ty","Kuv mus Fresno (past tense)","I went to Fresno","went · to · Fresno — go hloov ua went","go","Go hloov ua went."],
+["ty","Kuv yuav ib phau ntawv (past tense)","I bought a book","bought · book — siv article a","the","Ib phau ntawv: article a."],
+["ty","Kuv ntsib kuv cov phooj ywg (past tense)","I met my friends|I saw my friends","met · my · friend — siv plural","friend","Cov phooj ywg: plural friends."]]},
+{ id:"the", title:"Saib the dua: a ua ntej, the tom qab", blurb:"Thaum koj hais ua ntej: a. Thaum nej ob tug twb paub lawm: the.", deck:"Nug kev thiab caij tsheb", body:`
+<p>Lus Hmoob tsis muaj article. Tej zaum classifier xwb (<b>tus dev</b>) yog <b>the dog</b>, thiab <b>ib tug dev</b> yog <b>a dog</b>. Lus Askiv yuav tsum muaj article txhua zaus. Qhov no koj xyaum thaum twg siv <b>the</b> thiab thaum twg tsis siv article.</p>
+<h3>a ua ntej, the tom qab</h3>
+<p>Tus neeg mloog tsis tau paub: <b>a</b>. Koj twb hais lawm, nws paub lawm: <b>the</b>.</p>
+{{ex:I bought a shirt. The shirt is blue.|/aɪ bɑːt‿ə ʃɝːt/ /ðə ʃɝːt‿ɪz bluː/|Kuv yuav ib lub tsho. Lub tsho xiav.}}
+<h3>Nej paub tias yog lub twg: the</h3>
+<p>Lub qhov rais hauv lub tsev no, lub hnub saum ntuj: koj paub tias yog lub twg, siv <b>the</b>.</p>
+{{ex:Can you open the window?|/kən ju ˈoʊpən ðə ˈwɪndoʊ/|Qhib lub qhov rais puas tau?}}{{ex:Where's the bus station?|/werz ðə bʌs ˈsteɪʃən/|Lub tsev station tsheb ntiav nyob qhov twg?}}{{ex:The sun is hot today.|/ðə sʌn‿ɪz hɑːt təˈdeɪ/|Hnub no tshav ntuj kub.}}
+<h3>Tsis siv article</h3>
+<p>Cov lus no txog chaw, tsheb thiab mus pw tsis siv article. Nco ntsoov lawv.</p>
+{{ex:I go to work by bus.|/aɪ goʊ tə wɝːk baɪ bʌs/|Kuv caij tsheb ntiav mus ua hauj lwm.}}{{ex:I'm at home.|/aɪm‿ət hoʊm/|Kuv nyob tsev.}}{{ex:I go to bed at eleven.|/aɪ goʊ tə bed‿ət‿ɪˈlevən/|Kuv mus pw 11 teev.}}
+<div class="tip">Nug koj tus kheej: tus neeg mloog puas paub tias yog qhov twg? Paub: <b>the</b>. Tsis paub: <b>a</b>.</div>`,
+check:[["I have a cat. ___ cat is white. Lo lus twg raug?",["A","An","The","(tsis muaj)"],2,"Tus miv koj nyuam qhuav hais: the."],["I go to ___ work by bus. Lo lus twg raug?",["a","the","an","(tsis muaj)"],3,"Go to work tsis siv article."],["Thov qhib lub qhov rais hauv lub tsev no: lus Askiv twg raug?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"Nej ob tug paub tias yog lub qhov rais twg: the."]],
 practice:[
-["mc","I bought a shirt. ___ shirt is blue.","The","A","An","Some","방금 말한 그 셔츠라서 the예요."],
-["mc","'역이 어디예요?' =","Where's the station?","Where's a station?","Where's station?","Where the station?","이 근처의 그 역이라서 the예요."],
-["mc","다음 중 알맞은 문장은?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","go to work, by bus에는 관사가 없어요."],
-["mc","'해가 뜨거워요' =","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","하나뿐인 것에는 the를 붙여요."],
-["mc","'저 집에 있어요' =","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","at home에는 관사가 없어요."],
-["or","창문 좀 열어 줄래요?","Can you open the window","a windows","둘 다 아는 그 창문이라 관사 the예요."],
-["or","저는 버스로 출근해요","I go to work by bus","the a","go to work, by bus에는 관사를 쓰지 않아요."],
-["or","그 개는 커요","The dog is big","A dogs","이미 말한 그 개라서 관사 the예요."],
-["fi","I saw a movie. __ movie was great.","영화를 봤어요. 그 영화 정말 좋았어요","The","A|An|Some","방금 말한 그 영화라서 the예요."],
-["fi","Where's __ bathroom?","화장실이 어디예요?","the","a|an|some","이 건물의 그 화장실이라서 the예요."],
-["fi","I have __ idea.","좋은 생각이 있어요","an","a|the|some","처음 꺼내는 하나이고 모음 소리로 시작해서 an이에요."],
-["ty","문 좀 닫아 줄래요?","Can you close the door|Could you close the door","can you · close · door — 관사 the","a","둘 다 아는 그 문이라 관사 the예요."],
-["ty","역이 어디예요?","Where is the station|Where's the station","where · station — 관사 the","a","이 근처의 그 역이라 관사 the예요."],
-["ty","저는 집에 있어요","I'm at home|I'm home","I'm · at · home — 관사 없이","the","home 앞에는 관사를 쓰지 않아요."]]},
-{ id:"adjectives", title:"형용사와 비교: bigger, more expensive, the best", blurb:"형용사는 명사 앞에. 비교는 -er / more, 최고는 the -est / the most.", deck:"쇼핑·계산", body:`
-<p>형용사는 명사 <b>앞</b>이나 be동사 <b>뒤</b>에 와요. 쇼핑할 때 꼭 필요한 비교 표현까지 같이 익혀요.</p>
-{{ex:a big bag|어 빅 백|큰 가방}}{{ex:This bag is big.|디스 백 이즈 빅|이 가방은 커요}}{{ex:It's too small.|이츠 투 스몰|너무 작아요}}
-<h3>비교: -er 또는 more</h3>
-<p>짧은 단어는 <b>-er</b>, 긴 단어는 앞에 <b>more</b>를 붙여요. '~보다'는 <b>than</b>이에요.</p>
-<div class="tbl"><table><tr><th>원래</th><th>더 ~한</th><th>가장 ~한</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
-{{ex:This one is cheaper.|디스 원 이즈 치퍼|이게 더 싸요}}{{ex:It's more expensive than that one.|이츠 모어 익스펜시브 댄 댓 원|저것보다 더 비싸요}}{{ex:Do you have a bigger size?|두 유 해버 비거 사이즈?|더 큰 사이즈 있어요?}}
-<h3>최상급에는 the</h3>
-{{ex:This is the best restaurant here.|디스 이즈 더 베스트 레스토란트 히어|여기서 제일 좋은 식당이에요}}{{ex:Which is the cheapest?|위치 이즈 더 치피스트?|어느 게 제일 싸요?}}
-<div class="tip">가장 흔한 실수: <b>more cheaper</b>, <b>more good</b> (X) → <b>cheaper</b>, <b>better</b> (O). -er와 more는 같이 쓰지 않아요.</div>`,
-check:[["big의 비교급은?",["more big","biger","bigger","most big"],2,"짧은 단어는 -er, 끝 자음을 한 번 더 써요."],["This is ___ expensive than that. 빈칸에 알맞은 것은?",["more","most","much","very"],0,"긴 단어의 비교급은 more를 붙여요."],["good의 최상급은?",["the goodest","the most good","the better","the best"],3,"good – better – the best예요."]],
+["mc","I bought a shirt. ___ shirt is blue. Lo lus twg raug?","The","A","An","Some","Lub tsho koj nyuam qhuav hais: the."],
+["mc","'Lub tsev station nyob qhov twg?' — lus Askiv twg raug?","Where's the station?","Where's a station?","Where's station?","Where the station?","Lub tsev station ze qhov no: the."],
+["mc","Lus Askiv twg raug?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","Go to work thiab by bus tsis siv article."],
+["mc","'Tshav ntuj kub.' (the sun) — lus Askiv twg raug?","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","Muaj ib lub hnub xwb: the."],
+["mc","'Kuv nyob tsev.' — lus Askiv twg raug?","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","At home tsis siv article."],
+["or","Qhib lub qhov rais puas tau?","Can you open the window","a windows","Nej ob tug paub tias yog lub twg: article the."],
+["or","Kuv caij tsheb ntiav mus ua hauj lwm","I go to work by bus","the a","Go to work thiab by bus tsis siv article."],
+["or","Tus dev loj (the)","The dog is big","A dogs","Tus dev peb twb hais lawm: article the."],
+["fi","I saw a movie. __ movie was great.","Kuv saib movie. Movie ntawd zoo heev.","The","A|An|Some","Movie koj nyuam qhuav hais: the."],
+["fi","Where's __ bathroom?","Chav dej nyob qhov twg?","the","a|an|some","Chav dej hauv lub tsev no: the."],
+["fi","I have __ idea.","Kuv muaj ib txoj kev xav.","an","a|the|some","Ib yam xwb, thiab idea muaj vowel ua ntej: an."],
+["ty","Kaw lub qhov rooj puas tau?","Can you close the door|Could you close the door","can you · close · door — siv article the","a","Nej ob tug paub tias yog lub qhov rooj twg: article the."],
+["ty","Lub tsev station nyob qhov twg?","Where is the station|Where's the station","where · station — siv article the","a","Lub tsev station ze qhov no: article the."],
+["ty","Kuv nyob tsev","I'm at home|I'm home","I'm · at · home — tsis siv article","the","Home tsis siv article."]]},
+{ id:"adjectives", title:"Adjective thiab tshaj: bigger, more expensive, the best", blurb:"Adjective nyob ua ntej noun. Tshaj: -er los yog more. Zoo tshaj: the -est los yog the most.", deck:"Mus kav khw", body:`
+<p>Lus Hmoob adjective (tej lus piav txog tej yam yus ua) nyob tom qab noun: <b>lub hnab loj</b>. Lus Askiv adjective nyob <b>ua ntej</b> noun: <b>a big bag</b>, los yog tom qab be: <b>This bag is big.</b></p>
+{{ex:a big bag|/ə bɪg bæg/|ib lub hnab loj}}{{ex:This bag is big.|/ðɪs bæg‿ɪz bɪg/|Lub hnab no loj.}}{{ex:It's too small.|/ɪts tuː smɑːl/|Nws me heev, tsis zoo.}}
+<h3>Tshaj: -er los yog more</h3>
+<p>Lus Hmoob: <b>kim tshaj lub ntawd</b>. Lus Askiv: lo lus luv siv <b>-er</b>; lo lus ntev siv <b>more</b> ua ntej. Tshaj lub ntawd = <b>than</b> that one. Tsis txhob siv more thiab -er ib txhij.</p>
+<div class="tbl"><table><tr><th>adjective</th><th>-er / more</th><th>the -est / the most</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
+{{ex:This one is cheaper.|/ðɪs wʌn‿ɪz ˈtʃiːpɚ/|Lub no pheej yig dua.}}{{ex:It's more expensive than that one.|/ɪts mɔːr ɪkˈspensɪv ðən ðæt wʌn/|Nws kim tshaj lub ntawd.}}{{ex:Do you have a bigger size?|/duː ju hæv‿ə ˈbɪgɚ saɪz/|Koj puas muaj size loj dua?}}
+<h3>Zoo tshaj: the -est</h3>
+<p>Hauv lus Hmoob, tshaj tsis muaj dab tsi tom qab = the -est, the most. Lus Askiv siv <b>the</b>.</p>
+{{ex:This is the best restaurant here.|/ðɪs‿ɪz ðə best ˈrestərɑːnt hɪr/|Qhov no, lub tsev restaurant no zoo tshaj.}}{{ex:Which is the cheapest?|/wɪtʃ‿ɪz ðə ˈtʃiːpɪst/|Lub twg pheej yig tshaj?}}
+<div class="tip">Nco ntsoov: <b>dress blue</b> ✗ → <b>blue dress</b> ✓ / <b>more cheaper</b>, <b>more good</b> ✗ → <b>cheaper</b>, <b>better</b> ✓. Tsis siv -er thiab more ib txhij.</div>`,
+check:[["Big: lo lus tshaj yog dab tsi?",["more big","biger","bigger","most big"],2,"Lo lus luv: -er. Sau g ob zaug."],["This is ___ expensive than that. Lo lus twg raug?",["more","most","much","very"],0,"Lo lus ntev: more."],["Good: zoo tshaj (the …) yog dab tsi?",["the goodest","the most good","the better","the best"],3,"Good hloov ua better thiab the best."]],
 practice:[
-["mc","cheap의 비교급은?","cheaper","more cheap","cheapper","most cheap","짧은 단어는 -er를 붙여요."],
-["mc","'이게 더 비싸요' =","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","긴 단어는 more를 붙여요."],
-["mc","'더 큰 사이즈 있어요?' =","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","관사 + 형용사 + 명사 순서예요."],
-["mc","good의 비교급은?","better","gooder","more good","best","good – better – best예요."],
-["mc","'여기가 제일 좋은 식당이에요' =","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","최상급 앞에는 the를 붙여요."],
-["or","더 큰 사이즈 있어요?","Do you have a bigger size","the sizes","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["or","이게 제일 싸요","This is the cheapest","a cheaper","최상급 앞에는 관사 the를 붙여요."],
-["or","이게 저것보다 싸요","This is cheaper than that","more","-er 형용사에는 more를 붙이지 않아요."],
-["fi","It's __ small.","너무 작아요","too","much|more|most","'너무'는 too예요."],
-["fi","This is cheaper __ that one.","이게 저것보다 싸요","than","then|that|more","'~보다'는 than이에요."],
-["fi","It's the __ expensive one.","제일 비싼 거예요","most","more|much|very","긴 단어의 최상급은 the most예요."],
-["ty","더 작은 사이즈 있어요?","Do you have a smaller size","smaller · size — 관사 a","the","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["ty","이게 제일 좋아요","This is the best|This one is the best","the · best — 관사 the","a","최상급 앞에는 관사 the를 붙여요."],
-["ty","이게 더 싸요","This is cheaper|This one is cheaper","cheap — 비교급","more","짧은 단어는 -er를 붙여요."]]},
-{ id:"going-to", title:"계획 말하기: be going to", blurb:"이미 마음먹은 일은 be going to + 동사.", deck:"스몰토크", body:`
-<p>'~할 거예요'처럼 <b>미리 정한 계획</b>을 말할 때 써요. 틀은 <b>be + going to + 동사원형</b>이에요.</p>
-{{ex:I'm going to visit Busan.|아임 고잉 투 비짓 부산|저는 부산에 갈 거예요}}{{ex:She's going to buy a car.|쉬즈 고잉 투 바이 어 카|그녀는 차를 살 거예요}}{{ex:We're going to have dinner.|위어 고잉 투 해브 디너|우리는 저녁을 먹을 거예요}}
-<h3>부정과 질문</h3>
-{{ex:I'm not going to go.|아임 낫 고잉 투 고|저는 안 갈 거예요}}{{ex:Are you going to come?|아 유 고잉 투 컴?|올 거예요?}}{{ex:What are you going to do this weekend?|왓 아 유 고잉 투 두 디스 위켄드?|이번 주말에 뭐 할 거예요?}}
-<h3>보이는 대로 예상할 때도</h3>
-{{ex:It's going to rain.|이츠 고잉 투 레인|비가 올 거예요}}
-<h3>함께 쓰는 시간 표현</h3>
-<p>tomorrow(내일), tonight(오늘 밤), this weekend(이번 주말), next week(다음 주)를 문장 끝에 붙여요.</p>
-<div class="tip">말할 때는 going to가 <b>gonna(거나)</b>처럼 들려요. 그리고 be동사를 빼먹지 마세요: <b>I going to go.</b> (X) → <b>I'm going to go.</b> (O)</div>`,
-check:[["'내일 친구를 만날 거예요'를 영어로 하면?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + 동사원형이에요."],["She ___ going to study. 빈칸에 알맞은 것은?",["am","are","is","be"],2,"she에는 is예요."],["'주말에 뭐 할 거예요?'를 영어로 하면?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"의문사 + be + 주어 + going to예요."]],
+["mc","Cheap: lo lus tshaj yog dab tsi?","cheaper","more cheap","cheapper","most cheap","Lo lus luv: -er."],
+["mc","'Lub no kim dua.' — lus Askiv twg raug?","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","Lo lus ntev: more."],
+["mc","'Koj puas muaj size loj dua?' — lus Askiv twg raug?","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","Article + adjective + noun: adjective nyob ua ntej noun."],
+["mc","Good: lo lus tshaj yog dab tsi?","better","gooder","more good","best","Good hloov ua better."],
+["mc","'Lub tsev restaurant no zoo tshaj.' — lus Askiv twg raug?","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","Ua ntej best: the."],
+["or","Koj puas muaj size loj dua?","Do you have a bigger size","the sizes","Koj nug ib qho size: article a."],
+["or","Lub no pheej yig tshaj","This is the cheapest","a cheaper","Ua ntej cheapest: article the."],
+["or","Lub no pheej yig tshaj lub ntawd","This is cheaper than that","more","Cheaper twb muaj -er: tsis siv more."],
+["fi","It's __ small.","Nws me heev, tsis zoo.","too","much|more|most","Me heev thiab tsis zoo: too."],
+["fi","This is cheaper __ that one.","Lub no pheej yig tshaj lub ntawd.","than","then|that|more","Tshaj lub ntawd: than."],
+["fi","It's the __ expensive one.","Lub no kim tshaj.","most","more|much|very","Lo lus ntev, kim tshaj: the most."],
+["ty","Koj puas muaj size me dua?","Do you have a smaller size","smaller · size — siv article a","the","Koj nug ib qho size: article a."],
+["ty","Lub no zoo tshaj","This is the best|This one is the best","the · best — siv article the","a","Zoo tshaj: article the thiab best."],
+["ty","Lub no pheej yig dua","This is cheaper|This one is cheaper","cheap — siv -er","more","Lo lus luv: -er."]]},
+{ id:"going-to", title:"be going to: yam koj yuav ua", blurb:"Yam koj twb npaj lawm tias yuav ua: be going to + verb.", deck:"Sib tham", body:`
+<p>Lus Hmoob <b>yuav</b> = will, going to thiab want. Lus Askiv siv <b>be + going to + verb</b> thaum koj twb npaj lawm.</p>
+{{ex:I'm going to visit Fresno.|/aɪm ˈgoʊɪŋ tə ˈvɪzɪt ˈfreznoʊ/|Kuv yuav mus xyuas Fresno.}}{{ex:She's going to buy a car.|/ʃiz ˈgoʊɪŋ tə baɪ ə kɑːr/|Nws (poj niam) yuav mus yuav ib lub tsheb.}}{{ex:We're going to have dinner.|/wɪr ˈgoʊɪŋ tə hæv ˈdɪnɚ/|Peb yuav noj hmo.}}
+<h3>Tsis thiab nug</h3>
+{{ex:I'm not going to go.|/aɪm nɑːt ˈgoʊɪŋ tə goʊ/|Kuv yuav tsis mus.}}{{ex:Are you going to come?|/ɑːr ju ˈgoʊɪŋ tə kʌm/|Koj puas yuav tuaj?}}{{ex:What are you going to do this weekend?|/wʌt‿ɑːr ju ˈgoʊɪŋ tə duː ðɪs ˈwiːkend/|Hnub Saturday thiab hnub Sunday no koj yuav ua dab tsi?}}
+<h3>Koj pom tias yuav los nag: going to</h3>
+{{ex:It's going to rain.|/ɪts ˈgoʊɪŋ tə reɪn/|Yuav los nag.}}
+<h3>Lo lus sij hawm</h3>
+<p>tomorrow (tag kis), tonight, this weekend, next week nyob qhov kawg.</p>
+<div class="tip">Thaum hais lus, going to hais nkaus li <b>gonna</b>. Nco ntsoov be: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
+check:[["'Tag kis kuv yuav mus ntsib kuv tus phooj ywg.' (use going to) — lus Askiv twg raug?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"Siv be + going to + verb."],["She ___ going to study. Lo lus twg raug?",["am","are","is","be"],2,"She siv is."],["'Hnub Saturday thiab hnub Sunday no koj yuav ua dab tsi?' — lus Askiv twg raug?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Nug: What + be + subject + going to."]],
 practice:[
-["mc","'저는 부산에 갈 거예요' =","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + 동사원형이에요."],
-["mc","They ___ going to come.","are","is","am","be","they에는 are예요."],
-["mc","'비가 올 거예요' =","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to 뒤에는 동사원형이 와요."],
-["mc","'저는 안 갈 거예요' =","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be동사 뒤에 not을 넣어요."],
-["mc","'올 거예요?' =","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","be동사를 앞으로 보내요."],
-["or","그녀는 차를 살 거예요","She's going to buy a car","the cars","차 한 대라서 관사 a와 단수 car예요."],
-["or","저는 친구들을 만날 거예요","I'm going to meet my friends","friend","여러 명이라 복수 friends예요."],
-["or","우리는 저녁을 먹을 거예요","We're going to have dinner","a","식사 이름 dinner에는 관사를 쓰지 않아요."],
-["fi","I'm going __ study tonight.","오늘 밤에 공부할 거예요","to","for|at|will","going to + 동사원형이에요."],
-["fi","__ you going to come?","올 거예요?","Are","Do|Is|Will","you에는 Are예요."],
-["fi","It's going to __ tomorrow.","내일 비가 올 거예요","rain","rains|raining|rained","going to 뒤에는 동사원형이 와요."],
-["ty","저는 영화를 볼 거예요","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","뭐 할 거예요?","What are you going to do","what · going to · do","will","계획을 물을 때는 be going to예요."],
-["ty","저는 친구들을 만날 거예요","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"joining", title:"문장 잇기: and, but, or, so, because", blurb:"짧은 문장 두 개를 하나로. so와 because는 순서가 반대예요.", deck:"감정·반응", body:`
-<p>짧은 문장만 말하면 뚝뚝 끊겨요. 이 다섯 단어로 문장을 이으면 훨씬 자연스러워요.</p>
+["mc","'Kuv yuav mus Fresno.' — lus Askiv twg raug?","I'm going to go to Fresno.","I going to go to Fresno.","I'm going go to Fresno.","I'm go to Fresno going.","Siv be + going to + verb."],
+["mc","They ___ going to come. Lo lus twg raug?","are","is","am","be","They siv are."],
+["mc","'Yuav los nag.' — lus Askiv twg raug?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","Tom qab going to: verb tsis hloov."],
+["mc","'Kuv yuav tsis mus.' — lus Askiv twg raug?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","Not nyob tom qab be."],
+["mc","'Koj puas yuav tuaj?' — lus Askiv twg raug?","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","Be nyob ua ntej subject."],
+["or","Nws (poj niam) yuav mus yuav ib lub tsheb","She's going to buy a car","the cars","Ib lub tsheb: article a thiab car (singular)."],
+["or","Kuv yuav mus ntsib kuv cov phooj ywg","I'm going to meet my friends","friend","Cov phooj ywg: plural friends."],
+["or","Peb yuav noj hmo","We're going to have dinner","a","Dinner tsis siv article."],
+["fi","I'm going __ study tonight.","Tsaus ntuj no kuv yuav kawm ntawv.","to","for|at|will","Siv going to + verb."],
+["fi","__ you going to come?","Koj puas yuav tuaj?","Are","Do|Is|Will","You siv Are."],
+["fi","It's going to __ tomorrow.","Tag kis yuav los nag.","rain","rains|raining|rained","Tom qab going to: verb tsis hloov."],
+["ty","Kuv yuav saib movie (a, use going to)","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — siv article a","the","Ib yam movie: article a."],
+["ty","Koj yuav ua dab tsi? (use going to)","What are you going to do","what · going to · do — siv be going to","will","Nug yam koj npaj lawm: be going to."],
+["ty","Kuv yuav mus ntsib kuv cov phooj ywg (use going to)","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — siv plural","friend","Cov phooj ywg: plural friends."]]},
+{ id:"joining", title:"and, but, or, so, because: thiab, tab sis, los yog, thiaj li, vim", blurb:"Lus Hmoob thiab, tab sis, vim, thiaj li = and, but, because, so. Tsis txhob siv so thiab because ib txhij.", deck:"Zoo siab thiab tu siab", body:`
+<p>Lus Hmoob muaj <b>thiab</b> (and), <b>tab sis</b> (but), <b>los yog</b> (or), <b>thiaj li</b> (so) thiab <b>vim</b> (because). Lus Askiv siv tsib lo lus no nkaus li ntawd.</p>
 <h3>and, but, or</h3>
-{{ex:I like coffee and tea.|아이 라익 커피 앤 티|저는 커피와 차를 좋아해요}}{{ex:I'm tired but happy.|아임 타이어드 벗 해피|피곤하지만 행복해요}}{{ex:Coffee or tea?|커피 오어 티?|커피 아니면 차?}}
-<h3>so: 그래서</h3>
-<p><b>이유 + so + 결과</b> 순서예요. 한국어 '~해서'와 순서가 같아요.</p>
-{{ex:I was tired, so I went home.|아이 워즈 타이어드 쏘 아이 웬 홈|피곤해서 집에 갔어요}}
-<h3>because: 왜냐하면</h3>
-<p><b>결과 + because + 이유</b> 순서예요. 한국어와 반대라서 주의해요.</p>
-{{ex:I went home because I was tired.|아이 웬 홈 비코즈 아이 워즈 타이어드|피곤해서 집에 갔어요}}{{ex:I stayed home because it was raining.|아이 스테이드 홈 비코즈 잇 워즈 레이닝|비가 와서 집에 있었어요}}
-<h3>too: ~도</h3>
-{{ex:I like it too.|아이 라이킷 투|저도 좋아해요}}
-<div class="tip">so와 because를 한 문장에 같이 쓰지 않아요: <b>Because I was tired, so I went home.</b> (X). 둘 중 하나만 고르세요.</div>`,
-check:[["I was sick, ___ I stayed home. 빈칸에 알맞은 것은?",["because","but","so","or"],2,"이유 다음에 결과가 오면 so예요."],["I stayed home ___ I was sick. 빈칸에 알맞은 것은?",["because","so","but","and"],0,"결과 다음에 이유가 오면 because예요."],["'커피 드실래요, 차 드실래요?'에 알맞은 말은?",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"둘 중 하나를 고를 때는 or예요."]],
+{{ex:I like coffee and tea.|/aɪ laɪk ˈkɑːfi ən tiː/|Kuv nyiam kav fes thiab tshuaj yej.}}{{ex:I'm tired but happy.|/aɪm ˈtaɪɚd bʌt ˈhæpi/|Kuv nkees tab sis kuv zoo siab.}}{{ex:Coffee or tea?|/ˈkɑːfi ɔːr tiː/|Kav fes los yog tshuaj yej?}}
+<h3>so: thiaj li</h3>
+<p><b>so</b> nyob nruab nrab, nkaus li <b>thiaj li</b>: <b>Kuv nkees, kuv thiaj li mus tsev</b> = I was tired, <b>so</b> I went home.</p>
+{{ex:I was tired, so I went home.|/aɪ wəz ˈtaɪɚd soʊ aɪ went hoʊm/|Kuv nkees, kuv thiaj li mus tsev.}}
+<h3>because: vim</h3>
+<p><b>because</b> nkaus li <b>vim</b>: <b>Kuv mus tsev vim kuv nkees</b> = I went home <b>because</b> I was tired.</p>
+{{ex:I went home because I was tired.|/aɪ went hoʊm bɪˈkɑːz‿aɪ wəz ˈtaɪɚd/|Kuv mus tsev vim kuv nkees.}}{{ex:I stayed home because it was raining.|/aɪ steɪd hoʊm bɪˈkɑːz‿ɪt wəz ˈreɪnɪŋ/|Kuv nyob tsev vim los nag.}}
+<h3>too: kuj</h3>
+{{ex:I like it too.|/aɪ laɪk‿ɪt tuː/|Kuv kuj nyiam.}}
+<div class="tip">Lus Askiv: tsis txhob siv so thiab because ib txhij. <b>Because I was tired, so I went home.</b> ✗. Xaiv ib lo lus xwb.</div>`,
+check:[["I was sick, ___ I stayed home. Lo lus twg raug?",["because","but","so","or"],2,"Kuv mob, kuv thiaj li nyob tsev: so."],["I stayed home ___ I was sick. Lo lus twg raug?",["because","so","but","and"],0,"Kuv nyob tsev vim kuv mob: because."],["'Koj xav haus kav fes los yog tshuaj yej?' — lus Askiv twg raug?",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"Xaiv ib yam: or."]],
 practice:[
-["mc","I like dogs ___ I don't like cats.","but","so","or","because","반대되는 내용은 but으로 이어요."],
-["mc","I was hungry, ___ I ate a sandwich.","so","because","but","or","이유 다음에 결과가 오면 so예요."],
-["mc","I ate a sandwich ___ I was hungry.","because","so","but","or","결과 다음에 이유가 오면 because예요."],
-["mc","'커피 아니면 차?' =","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","둘 중 하나는 or예요."],
-["mc","'피곤하지만 행복해요' =","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","'~지만'은 but이에요."],
-["or","저는 고양이와 개를 좋아해요","I like cats and dogs","cat dog","동물 전체는 복수 cats, dogs로 말해요."],
-["or","커피 한 잔이랑 샌드위치 하나 주세요","A coffee and a sandwich please","the or","하나씩 주문하니까 각각 관사 a를 붙여요."],
-["or","배고파서 먹었어요","I was hungry so I ate","because","이유 다음에 결과가 오면 so예요."],
-["fi","I'm tired __ happy.","피곤하지만 행복해요","but","so|because|or","'~지만'은 but이에요."],
-["fi","I stayed home __ it was raining.","비가 와서 집에 있었어요","because","so|but|or","결과 다음에 이유가 오면 because예요."],
-["fi","Coffee __ tea?","커피 아니면 차?","or","so|but|because","둘 중 하나는 or예요."],
-["ty","저는 커피와 차를 좋아해요","I like coffee and tea","like · coffee · and · tea — 관사 없이","a","일반적인 coffee, tea에는 관사를 붙이지 않아요."],
-["ty","피곤하지만 행복해요","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","'~지만'은 but이에요."],
-["ty","저는 개와 고양이를 좋아해요","I like dogs and cats|I like cats and dogs","dog · and · cat — 복수","dog","동물 전체는 복수 dogs, cats로 말해요."]]},
+["mc","I like dogs ___ I don't like cats. Lo lus twg raug?","but","so","or","because","Nyiam thiab tsis nyiam: but (tab sis)."],
+["mc","I was hungry, ___ I ate a sandwich. Lo lus twg raug?","so","because","but","or","Kuv tshaib plab, kuv thiaj li noj: so."],
+["mc","I ate a sandwich ___ I was hungry. Lo lus twg raug?","because","so","but","or","Kuv noj vim kuv tshaib plab: because."],
+["mc","'Kav fes los yog tshuaj yej?' — lus Askiv twg raug?","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","Los yog = or."],
+["mc","'Kuv nkees tab sis kuv zoo siab.' — lus Askiv twg raug?","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","Tab sis yog but."],
+["or","Kuv nyiam miv thiab dev","I like cats and dogs","cat dog","Txhua tus miv thiab dev: plural cats, dogs."],
+["or","Thov ib khob kav fes thiab ib lub sandwich","A coffee and a sandwich please","the or","Ib khob, ib lub: article a rau txhua yam."],
+["or","Kuv tshaib plab, kuv thiaj li noj (past tense)","I was hungry so I ate","because","Kuv tshaib plab, kuv thiaj li noj: so."],
+["fi","I'm tired __ happy.","Kuv nkees tab sis kuv zoo siab.","but","so|because|or","Tab sis yog but."],
+["fi","I stayed home __ it was raining.","Kuv nyob tsev vim los nag.","because","so|but|or","Vim yog because."],
+["fi","Coffee __ tea?","Kav fes los yog tshuaj yej?","or","so|but|because","Los yog = or."],
+["ty","Kuv nyiam kav fes thiab tshuaj yej","I like coffee and tea","like · coffee · and · tea — tsis siv article","a","Kav fes, tshuaj yej: tsis siv article."],
+["ty","Kuv nkees tab sis kuv zoo siab","I'm tired but happy|I'm tired but I'm happy","tired · but · happy — tab sis yog but","so","Tab sis yog but."],
+["ty","Kuv nyiam dev thiab miv","I like dogs and cats|I like cats and dogs","dog · and · cat — siv plural","dog","Txhua tus dev thiab miv: plural dogs, cats."]]},
 ];

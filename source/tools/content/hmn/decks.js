@@ -1,473 +1,550 @@
-/* TRANSLATE/ADAPT (hmn): scaffolded from tools/content/ko/decks.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for hmn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the hmn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
+/* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note
+   hmn-en: pron = IPA between slashes, the vi-en key (tools/content/vi/PRON-RULES.md; profile hmn.md §6); IPA of strings shared with vi-en copied from pron_lookup.json.
+   Meanings and notes in White Hmong (RPA), every word from tools/hmong/GLOSSARY.tsv or a sourced NEW-WORDS row. Deck names: DECKNAMES.md (FINAL). Decks 22-25 are hmn-en additions. */
 module.exports = {
-"인사": `
-Hello. | 헬로우 | 안녕하세요 | 가장 기본 인사예요. 언제 어디서나, 누구에게나 OK
-Hi! | 하이! | 안녕! / 안녕하세요 | Hello보다 가볍고 친근해요. 미국에선 직장 동료끼리도 Hi를 써요
-Hey! | 헤이! | 야! / 안녕! | 친구끼리 쓰는 말. 처음 보는 사람에게 쓰면 무례하게 들릴 수 있어요
-Good morning. | 굿 모닝 | 좋은 아침이에요 | 정오 전까지 써요. 줄여서 그냥 "Morning!"이라고도 해요
-Good afternoon. | 굿 애프터눈 | 안녕하세요 (오후 인사) | 낮 12시~6시쯤. 약간 격식 있는 느낌이라 가게·회사에서 자주 들려요
-Good evening. | 굿 이브닝 | 안녕하세요 (저녁 인사) | 만날 때 하는 저녁 인사예요. Good night은 헤어질 때만 써요!
-How are you? | 하우 아 유? | 잘 지내요? / 안녕하세요? | 진짜 안부라기보다 인사예요. "Good, thanks. You?"로 가볍게 받아요
-I'm good, thanks. And you? | 아임 굿, 땡스. 앤 쥬? | 잘 지내요, 고마워요. 당신은요? | "I'm fine, thank you"는 교과서 느낌. good이 훨씬 자연스러워요
-What's up? | 왓썹? | 뭐 해? / 별일 없어? | 하늘(up)을 볼 필요 없어요. 보통 "Not much."로 대답해요
-Not much. | 낫 머치 | 별일 없어 | What's up?에 대한 가장 흔한 대답. "Not much, you?"로 되물어요
-How's it going? | 하우즈 잇 고잉? | 어떻게 지내? / 잘 돼 가? | How are you?의 캐주얼 버전. "Pretty good!"으로 받아요
-Nice to meet you. | 나이스 투 미츄 | 만나서 반가워요 | 처음 만났을 때만 써요. 대답은 "Nice to meet you, too."
-Long time no see! | 롱 타임 노 씨! | 오랜만이에요! | 친한 사이에서 써요. 조금 격식 있게는 "It's been a while."
-See you later. | 씨 유 레이러 | 나중에 봐요 | 다시 만날 계획이 없어도 헤어질 때 인사로 그냥 써요
-Take care. | 테익 케어 | 잘 지내요 / 몸조심해요 | 헤어질 때 하는 따뜻한 인사. 문자 끝에도 자주 붙여요
-Have a good one! | 해버 굿 원! | 좋은 하루 보내요! | 가게 직원이 계산 후 자주 해요. "You too!"로 받으면 끝
-Bye! | 바이! | 안녕! (헤어질 때) | "Bye-bye"는 어른끼리 쓰면 조금 귀엽게(아이 말투처럼) 들릴 수 있어요
-Good night. | 굿 나잇 | 잘 자요 / 안녕히 가세요 (밤) | 밤에 헤어지거나 자러 갈 때만 써요. 만날 때는 Good evening
+"Nyob zoo thiab sib ntsib dua": `
+Hello. | /həˈloʊ/ | Nyob zoo. | Siv tau txhua lub sij hawm, rau txhua tus neeg.
+Hi! | /haɪ/ | Nyob zoo! (rau phooj ywg) | Siv tau rau phooj ywg thiab tom hauj lwm. Nyob Amelika, neeg ua hauj lwm kuj hais Hi.
+Hey! | /heɪ/ | Hej! | Hais rau phooj ywg xwb. Tsis txhob hais rau neeg koj tsis paub.
+Good morning. | /gʊd ˈmɔːrnɪŋ/ | Nyob zoo (hais thaum sawv ntxov) | Hais ua ntej tav su. Luv: Morning!
+Good afternoon. | /gʊd‿ˌæftɚˈnuːn/ | Nyob zoo (hais thaum hnub qaij) | 12 teev txog 6 teev. Neeg hais ntau tom khw thiab tom hauj lwm.
+Good evening. | /gʊd‿ˈiːvnɪŋ/ | Nyob zoo (hais thaum tsaus ntuj) | Hais thaum koj tuaj txog. Thaum koj mus, hais Good night.
+How are you? | /haʊ ɑːr ju/ | Koj nyob li cas? | Yog lus nyob zoo xwb, tsis yog nug tiag. Teb: Good, thanks. You?
+I'm good, thanks. And you? | /aɪm gʊd θæŋks/ /ænd ju/ | Kuv nyob zoo, ua tsaug. Koj puas nyob zoo? | I'm fine, thank you yog lus hauv phau ntawv. Neeg Amelika hais I'm good ntau.
+What's up? | /wʌts‿ʌp/ | Muaj dab tsi tshiab? | Tsis yog nug txog saum ntuj (up). Hais rau phooj ywg. Teb: Not much.
+Not much. | /nɑːt mʌtʃ/ | Tsis muaj dab tsi. | Teb rau What's up? Nug rov qab: Not much, you?
+How's it going? | /haʊz‿ɪt ˈgoʊɪŋ/ | Koj puas nyob zoo? | Zoo li How are you?, rau phooj ywg. Teb: Pretty good!
+Nice to meet you. | /naɪs tə miːt ju/ | Zoo siab tau ntsib koj. | Hais thaum nej nyuam qhuav sib ntsib xwb. Teb: Nice to meet you, too.
+Long time no see! | /lɑːŋ taɪm noʊ siː/ | Ntev lawm tsis pom koj! | Hais rau neeg koj paub zoo. Lwm yam: It's been a while.
+See you later. | /siː ju ˈleɪtɚ/ | Sib ntsib dua. | Hais thaum koj yuav mus, txawm nej tsis tau teem sij hawm.
+Take care. | /teɪk ker/ | Ua tib zoo os. | Lus zoo thaum koj yuav mus. Neeg kuj sau tom qab email.
+Have a good one! | /hæv‿ə gʊd wʌn/ | Ib hnub zoo os! | Neeg ua hauj lwm tom khw hais thaum koj them nqi tas. Teb: You too!
+Bye! | /baɪ/ | Mus zoo! | Neeg laus hais Bye-bye zoo li me nyuam hais.
+Good night. | /gʊd naɪt/ | Pw zoo os. | Hais thaum mus pw, los yog thaum koj mus tsev tsaus ntuj. Thaum tuaj txog, hais Good evening.
 `,
-"자기소개": `
-My name is Minji. | 마이 네임 이즈 민지 | 제 이름은 민지예요 | 일상에서는 더 짧게 "I'm Minji."라고 많이 해요
-Please call me Jay. | 플리즈 콜 미 제이 | 제이라고 불러 주세요 | 영어 이름이 있거나 이름을 줄여 부르고 싶을 때
-What should I call you? | 왓 슈다이 콜 유? | 뭐라고 부르면 될까요? | 상대 이름 발음이 어렵거나 애칭이 궁금할 때 유용해요
-Where are you from? | 웨어 아 유 프럼? | 어디서 왔어요? / 어느 나라 사람이에요? | 외국에서 가장 먼저 듣는 질문 중 하나예요
-I'm from Korea. | 아임 프럼 코리아 | 한국에서 왔어요 | 도시까지 말하면 대화가 이어져요: "I'm from Busan, in South Korea."
-I live in Seoul. | 아이 리브 인 서울 | 서울에 살아요 | live의 v는 윗니로 아랫입술을 살짝 물고 소리 내요
-I'm a student. | 아임 어 스튜던트 | 저는 학생이에요 | 직업 앞에는 꼭 a/an! "I'm student"는 가장 흔한 실수예요
-What do you do? | 왓 두 유 두? | 무슨 일 하세요? | 직업을 묻는 표준 질문. "What's your job?"보다 부드러워요
-I work at a bank. | 아이 워크 앳 어 뱅크 | 은행에서 일해요 | 회사·장소 앞엔 at: "I work at Samsung."
-I work in marketing. | 아이 워크 인 마케팅 | 마케팅 분야에서 일해요 | 분야·부서 앞엔 in. at(회사)과 구분해요
-I'm 25 years old. | 아임 트웬티파이브 이어즈 올드 | 저는 25살이에요 | 영어권에선 만 나이로 말해요. 나이를 먼저 묻는 건 실례일 수 있어요
-I'm really into hiking. | 아임 륄리 인투 하이킹 | 등산에 푹 빠져 있어요 | "My hobby is…"보다 훨씬 자연스러운 취미 표현이에요
-I like watching movies. | 아이 라익 와칭 무비즈 | 영화 보는 걸 좋아해요 | like 뒤에 동작이 오면 ~ing 또는 to + 동사원형
-I've been learning English for a year. | 아이브 빈 러닝 잉글리시 포러 이어 | 영어를 1년째 배우고 있어요 | 지금까지 계속 해 온 일은 have been + ~ing
-I'm here on vacation. | 아임 히어 온 베이케이션 | 휴가로 왔어요 | 영국식은 "I'm here on holiday."
-I'm married. | 아임 매리드 | 결혼했어요 | 미혼이면 "I'm single." 초면에 결혼 여부를 묻는 건 피하는 게 좋아요
-I have a younger brother. | 아이 해버 영거 브라더 | 남동생이 한 명 있어요 | 영어는 형·오빠·남동생을 older/younger brother로만 구분해요
+"Kuv tus kheej": `
+My name is Mai. | /maɪ neɪm‿ɪz maɪ/ | Kuv lub npe hu ua Mai. | Luv: I'm Mai.
+Please call me Jay. | /pliːz kɑːl mi dʒeɪ/ | Thov hu kuv ua Jay. | Siv thaum koj muaj lub npe lus Askiv, los yog thaum koj xav kom neeg hu koj lub npe luv.
+What should I call you? | /wʌt ʃʊd‿aɪ kɑːl ju/ | Kuv yuav hu koj li cas? | Nug thaum lub npe nyuaj hais. Lus Askiv tsis siv lo lus tsev neeg: hu lub npe xwb.
+Where are you from? | /wer ɑːr ju frʌm/ | Koj tuaj qhov twg tuaj? | Neeg nug ntau thaum nej nyuam qhuav sib ntsib.
+I'm from Minnesota. | /aɪm frəm ˌmɪnəˈsoʊtə/ | Kuv tuaj Minnesota tuaj. | Hais koj lub xeev los yog koj lub nroog. Tsis tas yuav hais koj yug qhov twg.
+I live in St. Paul. | /aɪ lɪv‿ɪn seɪnt pɑːl/ | Kuv nyob St. Paul. | Hauv lus Hmoob, v kawg yog cim. Hauv lus Askiv, hais v kawg ntawm live.
+I'm a student. | /aɪm‿ə ˈstuːdənt/ | Kuv yog ib tug tub kawm ntawv (los yog ntxhais kawm ntawv). | Muaj article a ua ntej hauj lwm: I'm student ✗ → I'm a student ✓
+What do you do? | /wʌt duː ju duː/ | Koj ua hauj lwm dab tsi? | Neeg Amelika nug txog hauj lwm li no.
+I work at a bank. | /aɪ wɝːk‿ət‿ə bæŋk/ | Kuv ua hauj lwm hauv lub tsev bank. | at + qhov chaw ua hauj lwm: I work at a clinic.
+I work in marketing. | /aɪ wɝːk‿ɪn ˈmɑːrkətɪŋ/ | Kuv ua hauj lwm txog kev muag khoom. | in + yam hauj lwm; at + qhov chaw: I work at a bank.
+I'm 25 years old. | /aɪm ˈtwenti faɪv jɪrz‿oʊld/ | Kuv hnub nyoog muaj nees nkaum tsib xyoo. | Tsis txhob nug neeg hnub nyoog thaum nej nyuam qhuav sib ntsib.
+I'm really into hiking. | /aɪm ˈriːli ˈɪntuː ˈhaɪkɪŋ/ | Kuv nyiam taug kev hauv roob heev. | I'm into… = kuv nyiam heev. Neeg hais ntau tshaj My hobby is…
+I like watching movies. | /aɪ laɪk ˈwɑːtʃɪŋ ˈmuːviz/ | Kuv nyiam saib movies. | like + -ing los yog like + to: I like watching. I like watch ✗
+I've been learning English for a year. | /aɪv bɪn ˈlɝːnɪŋ‿ˈɪŋglɪʃ fɚ ə jɪr/ | Kuv kawm lus Askiv tau ib xyoo lawm. | have been + -ing: koj tseem kawm tam sim no.
+I'm here on vacation. | /aɪm hɪr ɑːn veɪˈkeɪʃən/ | Kuv tuaj so xwb, tsis yog tuaj ua hauj lwm. | Teb rau Are you here for work?
+I'm married. | /aɪm ˈmærid/ | Kuv muaj poj niam (los yog muaj txiv). | Yog tsis tau: I'm single. Tsis txhob nug neeg txog qhov no thaum nej nyuam qhuav sib ntsib.
+I have a younger brother. | /aɪ hæv‿ə ˈjʌŋgɚ ˈbrʌðɚ/ | Kuv muaj ib tug kwv (txiv neej hais); kuv muaj ib tug nus (poj niam hais). | Lus Askiv muaj brother xwb, rau txiv neej thiab poj niam. Siv older los yog younger.
 `,
-"생존 영어 1": `
-Excuse me. | 익스큐즈 미 | 실례합니다 / 저기요 | 사람을 부르거나 지나갈 때 써요. 부딪친 뒤에는 Sorry!
-Thank you. | 땡큐 | 감사합니다 | th는 혀끝을 이 사이에 살짝. 그래도 "땡큐"로 충분히 통해요
-Thanks a lot. | 땡스 어 랏 | 정말 고마워요 | Thank you보다 가볍고 친근해요
-You're welcome. | 유어 웰컴 | 천만에요 | 캐주얼하게는 "Sure." "No problem." "Anytime."
-No problem. | 노 프라블럼 | 별거 아니에요 | 고맙다는 말에 대한 대답으로 아주 흔해요
-I'm sorry. | 아임 쏘리 | 죄송해요 | 진짜 사과할 때. 가볍게 부딪쳤을 땐 "Sorry!" 한 마디면 돼요
-Yes, please. | 예스, 플리즈 | 네, 주세요 | "Would you like some water?" 같은 제안에 대한 대답
-No, thank you. | 노, 땡큐 | 아니요, 괜찮아요 | 거절할 때 그냥 No보다 훨씬 공손해요. 캐주얼: "I'm good, thanks."
-Sorry? | 쏘리? (끝을 올려서) | 네? 뭐라고요? | 끝을 올리면 "다시 말해 주세요"라는 뜻이 돼요. 미국에선 "Pardon?"보다 흔해요
-Could you say that again? | 쿠쥬 쎄이 댓 어게인? | 다시 말씀해 주시겠어요? | 못 알아들었을 때 당당하게 써요. 원어민도 자주 해요
-Could you speak more slowly? | 쿠쥬 스픽 모어 슬로울리? | 좀 더 천천히 말해 주시겠어요? | please를 붙이면 더 공손해요
-I don't understand. | 아이 돈 언더스탠드 | 이해가 안 돼요 | 조금 딱딱해요. 부드럽게: "Sorry, I didn't quite catch that."
-Do you speak Korean? | 두 유 스픽 코리안? | 한국어 하세요? | "Can you speak…?"보다 "Do you speak…?"가 더 자연스럽고 공손해요
-I speak a little English. | 아이 스픽 어 리를 잉글리시 | 영어를 조금 해요 | little의 tt는 "ㄹ"처럼 굴려요: 리를
-How do you say this in English? | 하우 두 유 쎄이 디스 인 잉글리시? | 이거 영어로 뭐라고 해요? | 물건을 가리키며 쓰면 단어를 바로 배울 수 있어요
-What does this mean? | 왓 더즈 디스 민? | 이게 무슨 뜻이에요? | 메뉴판·표지판을 가리키며 써요
-Can you help me? | 캔 유 헬프 미? | 좀 도와주실래요? | 더 공손하게: "Could you help me?"
+"Lus Askiv txhua hnub 1": `
+Excuse me. | /ɪkˈskjuːz mi/ | Thov zam kev. / Thov txim (thaum hu neeg). | Siv thaum hu neeg los yog thaum koj xav dhau. Yog koj tsoo neeg, hais Sorry!
+Thank you. | /θæŋk ju/ | Ua tsaug. | th: rau nplaig nruab nrab hniav thiab tshuab. RPA th (tham) tsis yog lus Askiv th.
+Thanks a lot. | /θæŋks‿ə lɑːt/ | Ua tsaug ntau os. | Rau phooj ywg; zoo li Thank you.
+You're welcome. | /jʊr ˈwelkəm/ | Tsis ua li cas. | Rau phooj ywg: Sure. No problem. Anytime.
+No problem. | /noʊ ˈprɑːbləm/ | Tsis ua li cas os. | Teb rau Thank you. Neeg hais ntau heev.
+I'm sorry. | /aɪm ˈsɑːri/ | Kuv thov txim. | Siv thaum koj ua txhaum. Yog koj tsoo neeg ib ntsis xwb, hais Sorry!
+Yes, please. | /jes pliːz/ | Yog, kuv xav tau os. | Teb thaum neeg nug Would you like some water? (Koj puas xav haus dej?)
+No, thank you. | /noʊ θæŋk ju/ | Kuv tsis xav, ua tsaug. | No xwb tsis zoo. Rau phooj ywg: I'm good, thanks.
+Sorry? | /ˈsɑːri/ | Koj hais li cas? | Hais thaum koj tsis hnov, zoo li lo lus nug. Nyob Amelika, neeg hais Sorry? ntau tshaj Pardon?
+Could you say that again? | /kʊd ju seɪ ðæt‿əˈgen/ | Hais dua puas tau? | Siv thaum koj tsis hnov. Tsis txhob txaj muag: neeg Amelika kuj nug.
+Could you speak more slowly? | /kʊd ju spiːk mɔːr ˈsloʊli/ | Hais maj mam puas tau? | Could you…? zoo li … puas tau? hauv lus Hmoob. Ntxiv please: Could you speak more slowly, please?
+I don't understand. | /aɪ doʊnt‿ˌʌndɚˈstænd/ | Kuv tsis nkag siab. | Hais tau, tab sis luv heev. Lwm yam: Sorry, I didn't quite catch that.
+Do you speak Hmong? | /duː ju spiːk mɑːŋ/ | Koj puas hais lus Hmoob? | Do you speak…? zoo li Koj puas hais…? Nws zoo tshaj Can you speak…?
+I speak a little English. | /aɪ spiːk‿ə ˈlɪtəl‿ˈɪŋglɪʃ/ | Kuv hais lus Askiv tau mentsis. | little: tt hais zoo li d hauv lus Askiv Amelika.
+How do you say this in English? | /haʊ duː ju seɪ ðɪs‿ɪn‿ˈɪŋglɪʃ/ | No lus Askiv hu li cas? | Nug thaum koj tsis paub lo lus. Koj yuav kawm tau lo lus tshiab.
+What does this mean? | /wʌt dʌz ðɪs miːn/ | Qhov no txhais li cas? | Nug txog ib lo lus ntawm daim ntawv los yog ntawm txoj kev.
+Can you help me? | /kən ju help mi/ | Pab kuv puas tau? | Could you help me? zoo tshaj, rau neeg koj tsis paub.
 `,
-"생존 영어 2": `
-Where's the restroom? | 웨어즈 더 레스트룸? | 화장실이 어디예요? | 미국: restroom·bathroom, 영국: toilet·loo. "toilet"은 미국에선 변기 자체를 뜻해요
-How much is this? | 하우 머치 이즈 디스? | 이거 얼마예요? | 여러 개면 "How much are these?"
-Is there an ATM around here? | 이즈 데어런 에이티엠 어롸운드 히어? | 이 근처에 ATM 있어요? | 영국에선 cash machine이라고도 해요
-Can I get the Wi-Fi password? | 캔 아이 겟 더 와이파이 패스워드? | 와이파이 비밀번호 알려 주실래요? | 영어로는 "와이파이"가 맞아요. "Is there Wi-Fi here?"도 OK
-I'm lost. | 아임 로스트 | 길을 잃었어요 | 지도를 보여 주며 "Where am I on this map?"도 써 보세요
-Can I pay by card? | 캔 아이 페이 바이 카드? | 카드 돼요? | 미국은 거의 다 카드 OK. 작은 가게는 최소 금액이 있을 수 있어요
-One moment, please. | 원 모먼트, 플리즈 | 잠시만요 | 공손한 표현이라 가게·전화에서 많이 들어요
-Just a second. | 저스트 어 세컨 | 잠깐만 | 캐주얼. 더 짧게 "Just a sec."
-No worries. | 노 워리즈 | 괜찮아요 / 신경 쓰지 마요 | 호주·영국에서 특히 많이 쓰고 미국에서도 흔해요
-That's okay. | 댓츠 오케이 | 괜찮아요 (상대가 사과할 때) | 누가 사과하면 "That's okay!" 또는 "Don't worry about it."
-Of course. | 오브 코스 | 물론이죠 | 부탁을 들어줄 때. 질문에 쓰면 "당연한 걸 왜 물어?"처럼 들릴 수 있어 말투를 부드럽게
-I'm not sure. | 아임 낫 슈어 | 잘 모르겠어요 | I don't know보다 부드러워요
-I have a question. | 아이 해버 퀘스천 | 질문이 있어요 | 수업·회의에서: "Can I ask a question?"
-Can you write it down? | 캔 유 롸이릿 다운? | 적어 주실 수 있어요? | 주소·숫자·이름을 못 알아들었을 때 최고의 해결책
-Can I take a picture? | 캔 아이 테이커 픽처? | 사진 찍어도 돼요? | 박물관·가게에서 먼저 물어보는 게 매너예요
-Could you take a picture of us? | 쿠쥬 테이커 픽처 오브 어스? | 저희 사진 좀 찍어 주실래요? | 찍어 준 뒤엔 "Thank you so much!"
-After you. | 애프터 유 | 먼저 가세요 | 문 앞·엘리베이터에서 양보할 때. 영어권에선 문을 잡아 주는 게 기본 매너예요
-Watch out! | 와치 아웃! | 조심해요! | 위험할 때 크게 외쳐요. "Look out!"도 같은 뜻
+"Lus Askiv txhua hnub 2": `
+Where's the restroom? | /werz ðə ˈrestruːm/ | Chav dej nyob qhov twg? | Nyob Amelika, hais restroom los yog bathroom.
+How much is this? | /haʊ mʌtʃ‿ɪz ðɪs/ | Qhov no pes tsawg? | Yog muaj ntau yam: How much are these?
+Is there an ATM around here? | /ɪz ðer ən‿eɪ tiː ˈem‿əˈraʊnd hɪr/ | Puas muaj tshuab ATM nyob ze qhov no? | ATM yog lub tshuab muab nyiaj.
+Can I get the Wi-Fi password? | /kən‿aɪ get ðə ˈwaɪfaɪ ˈpæswɝːd/ | Kuv thov Wi-Fi password puas tau? | Lwm yam: Is there Wi-Fi here?
+I'm lost. | /aɪm lɑːst/ | Kuv tsis paub kev lawm. | Nug ntxiv: Where am I on this map?
+Can I pay by card? | /kən‿aɪ peɪ baɪ kɑːrd/ | Kuv them nqi nrog card puas tau? | Nyob Amelika, khw coob siv card tau.
+One moment, please. | /wʌn ˈmoʊmənt pliːz/ | Thov ib ntsis os. | Siv tom khw thiab hauv xov tooj.
+Just a second. | /dʒʌst‿ə ˈsekənd/ | Ib ntsis xwb. | Rau phooj ywg. Luv: Just a sec.
+No worries. | /noʊ ˈwɝːiz/ | Tsis ua li cas. | Neeg Amelika hais ntau, zoo li No problem.
+That's okay. | /ðæts‿oʊˈkeɪ/ | Tsis ua li cas os. | Hais thaum neeg thov txim rau koj. Lwm yam: Don't worry about it.
+Of course. | /əv kɔːrs/ | Yeej tau. | Hais thaum neeg thov koj pab.
+I'm not sure. | /aɪm nɑːt ʃʊr/ | Kuv tsis paub meej. | Hais thaum koj tsis paub tseeb. Nws zoo tshaj I don't know.
+I have a question. | /aɪ hæv‿ə ˈkwestʃən/ | Kuv muaj ib lo lus nug. | Hauv chav kawm: Can I ask a question?
+Can you write it down? | /kən ju raɪt‿ɪt daʊn/ | Sau rau kuv puas tau? | Siv thaum koj tsis hnov lub npe los yog tus nqi.
+Can I take a picture? | /kən‿aɪ teɪk‿ə ˈpɪktʃɚ/ | Kuv yees duab puas tau? | Nug ua ntej thaum koj nyob hauv khw.
+Could you take a picture of us? | /kʊd ju teɪk‿ə ˈpɪktʃɚ əv‿ʌs/ | Pab yees duab rau peb puas tau? | Tom qab: Thank you so much!
+After you. | /ˈæftɚ ju/ | Koj mus ua ntej. | Hais ntawm qhov rooj. Nyob Amelika, neeg tuav qhov rooj rau lwm tus.
+Watch out! | /wɑːtʃ‿aʊt/ | Saib os! | Hais thaum muaj dab tsi phem tuaj. Lwm yam: Look out!
 `,
-"길 묻기·교통": `
-How do I get to the subway station? | 하우 두 아이 겟 투 더 썹웨이 스테이션? | 지하철역에 어떻게 가요? | 영국: underground / tube station. 목적지만 바꿔서 쓰면 돼요
-Is it far from here? | 이즈 잇 파 프럼 히어? | 여기서 멀어요? | far의 r은 혀를 살짝 말아요
-Is it within walking distance? | 이즈 잇 위딘 워킹 디스턴스? | 걸어갈 수 있는 거리예요? | "Can I walk there?"도 OK
-Go straight. | 고 스트레잇 | 쭉 가세요 / 직진하세요 | "Go straight for two blocks." 미국은 거리를 block으로 세요
-Turn left at the corner. | 턴 레프트 앳 더 코너 | 모퉁이에서 왼쪽으로 도세요 | 신호등에서는 "at the light"
-It's on your right. | 잇츠 온 유어 롸잇 | 오른쪽에 있어요 | right의 r은 입술을 내밀고 "(우)롸"
-It's across the street. | 잇츠 어크로스 더 스트릿 | 길 건너편에 있어요 | across from ~ = ~의 맞은편
-It's next to the bank. | 잇츠 넥스 투 더 뱅크 | 은행 옆에 있어요 | next to의 t는 하나만 살짝 발음돼요
-Which line goes downtown? | 위치 라인 고즈 다운타운? | 시내 가는 건 몇 호선이에요? | downtown 앞에는 to를 쓰지 않아요
-Where do I transfer? | 웨어 두 아이 트랜스퍼? | 어디서 갈아타요? | 영국에선 change: "Where do I change?"
-Does this bus go to the airport? | 더즈 디스 버스 고 투 디 에어포트? | 이 버스 공항 가요? | 모음 앞 the는 "디"로 발음해요
-Which stop should I get off at? | 위치 스탑 슈다이 게로프 앳? | 어느 정류장에서 내려야 해요? | get off = (버스·지하철에서) 내리다
-One ticket to Boston, please. | 원 티킷 투 보스턴, 플리즈 | 보스턴행 표 한 장 주세요 | 목적지 앞엔 to
-Round trip or one way? | 롸운드 트립 오어 원 웨이? | 왕복이에요, 편도예요? | 영국식: "Return or single?"
-Can you take me to this address? | 캔 유 테익 미 투 디스 애드레스? | 이 주소로 가 주세요 | 택시에서 화면을 보여 주며 쓰면 실수가 없어요
-Could you pull over here? | 쿠쥬 풀 오버 히어? | 여기 세워 주시겠어요? | 택시·차에서 내리고 싶을 때. "Right here is fine."도 OK
-How long does it take? | 하우 롱 더즈 잇 테익? | 얼마나 걸려요? | 대답: "About 20 minutes."
-Is this seat taken? | 이즈 디스 씻 테이큰? | 이 자리 주인 있어요? | 비어 있으면 "No, go ahead."라고 해요. seat는 길게 "씨-잇"
+"Nug kev thiab caij tsheb": `
+How do I get to the bus station? | /haʊ duː aɪ get tə ðə bʌs ˈsteɪʃən/ | Kuv yuav mus caij tsheb ntiav qhov twg? | Hloov qhov chaw: How do I get to the clinic?
+Is it far from here? | /ɪz‿ɪt fɑːr frəm hɪr/ | Puas nyob deb? | far: r kawg yog lus Askiv r, tsis yog RPA r.
+Is it within walking distance? | /ɪz‿ɪt wɪˈðɪn ˈwɑːkɪŋ ˈdɪstəns/ | Puas taug kev mus tau? | Lwm yam: Can I walk there?
+Go straight. | /goʊ streɪt/ | Mus ncaj nraim. | Nyob Amelika, neeg suav kev ua block: Go straight for two blocks.
+Turn left at the corner. | /tɝːn left‿ət ðə ˈkɔːrnɚ/ | Lem sab laug ntawm lub kaum. | Ntawm lub teeb: at the light.
+It's on your right. | /ɪts‿ɑːn jʊr raɪt/ | Nws nyob koj sab xis. | right: lus Askiv r, tsis yog RPA r (RPA r zoo li t).
+It's across the street. | /ɪts‿əˈkrɑːs ðə striːt/ | Nws nyob tim txoj kev. | across from = sab tid.
+It's next to the bank. | /ɪts nekst tə ðə bæŋk/ | Nws nyob ntawm ib sab lub tsev bank. | next to: hais t ib zaug xwb.
+Which line goes downtown? | /wɪtʃ laɪn goʊz ˌdaʊnˈtaʊn/ | Kab twg mus nruab nrab lub nroog? | downtown: tsis muaj to ua ntej. go to downtown ✗
+Where do I transfer? | /wer duː aɪ trænsˈfɝː/ | Kuv hloov tsheb qhov twg? | Lwm yam: Where do I change?
+Does this bus go to the airport? | /dʌz ðɪs bʌs goʊ tə ði ˈerpɔːrt/ | Lub tsheb ntiav no puas mus tom airport? | Ua ntej a, e, i, o, u, the hais /ði/: the airport.
+Which stop should I get off at? | /wɪtʃ stɑːp ʃʊd‿aɪ get‿ɑːf‿æt/ | Kuv yuav tsum nres qhov twg? | get off yog phrasal verb rau tsheb ntiav thiab tsheb nqaj.
+One ticket to Boston, please. | /wʌn ˈtɪkɪt tə ˈbɑːstən pliːz/ | Thov muab ib daim ntawv mus Boston. | to ua ntej qhov chaw koj mus.
+Round trip or one way? | /raʊnd trɪp‿ɔːr wʌn weɪ/ | Mus thiab rov qab, los yog mus xwb? | round trip = mus thiab rov qab los.
+Can you take me to this address? | /kən ju teɪk mi tə ðɪs‿ˈædres/ | Thov coj kuv mus qhov chaw no. | Qhia lub xov tooj rau tus tsav tsheb, koj yuav tsis txhaum.
+Could you pull over here? | /kʊd ju pʊl‿ˈoʊvɚ hɪr/ | Nres ntawm no puas tau? | Hais hauv tsheb thaum koj xav nqis. Lwm yam: Right here is fine.
+How long does it take? | /haʊ lɑːŋ dʌz‿ɪt teɪk/ | Siv sij hawm ntev npaum li cas? | Teb: About 20 minutes.
+Is this seat taken? | /ɪz ðɪs siːt ˈteɪkən/ | Lub rooj zaum no puas muaj neeg zaum? | Yog tsis muaj: No, go ahead. seat: ea ntev.
 `,
-"식당 주문": `
-A table for two, please. | 어 테이블 포 투, 플리즈 | 두 명이요 | 미국 식당은 보통 직원이 자리를 안내해 줄 때까지 기다려요
-Do you have a reservation? | 두 유 해버 레저베이션? | 예약하셨어요? | 직원이 묻는 말. "Yes, under Kim."처럼 대답해요
-Can I see the menu? | 캔 아이 씨 더 메뉴? | 메뉴판 좀 볼 수 있을까요? | menu 강세는 앞: 메뉴
-What do you recommend? | 왓 두 유 레커멘드? | 추천해 주실 메뉴 있어요? | "What's popular here?"도 좋아요
-I'll have the steak. | 아일 해브 더 스테익 | 스테이크로 할게요 | 주문의 기본 공식: I'll have + 메뉴
-Can I get a Coke? | 캔 아이 게러 코크? | 콜라 한 잔 주실래요? | get a는 "게러"처럼 이어져요. 콜라는 보통 Coke라고 해요
-Medium rare, please. | 미디엄 레어, 플리즈 | 미디엄 레어로 주세요 | "How would you like your steak?"에 대한 대답
-No onions, please. | 노 어니언즈, 플리즈 | 양파는 빼 주세요 | "Can I get it without onions?"도 같은 뜻
-I'm allergic to peanuts. | 아임 얼러직 투 피넛츠 | 땅콩 알레르기가 있어요 | allergic 강세는 가운데 "러". 알레르기는 영어로 allergy(앨러지)
-Is it spicy? | 이즈 잇 스파이시? | 매워요? | 미국의 spicy는 한국 기준으로 안 매울 때가 많아요
-Could we get some water? | 쿳 위 겟 썸 워러? | 물 좀 주시겠어요? | 미국 식당 물은 보통 무료. water는 "워러"처럼 굴려요
-Everything was great. | 에브리띵 워즈 그레잇 | 다 맛있었어요 | 직원이 "How is everything?" 하고 물으면 이렇게 답해요
-Can we get the check, please? | 캔 위 겟 더 첵, 플리즈? | 계산서 주세요 | 영국: the bill. 미국은 보통 자리에서 계산해요
-Can we split the bill? | 캔 위 스플릿 더 빌? | 따로 계산할 수 있나요? | "separate checks"라고도 해요
-It's on me. | 잇츠 온 미 | 제가 살게요 | "My treat!"도 같은 뜻이에요
-Can I get this to go? | 캔 아이 겟 디스 투 고? | 이거 포장돼요? | 남은 음식을 싸 갈 땐 "Can I get a box?"
-Is the tip included? | 이즈 더 팁 인클루디드? | 팁 포함인가요? | 미국 식당은 보통 15~20% 팁을 따로 내요
+"Mus noj mov": `
+A table for two, please. | /ə ˈteɪbəl fɚ tuː pliːz/ | Thov muab lub rooj rau ob tug neeg. | Nyob Amelika, tos neeg ua hauj lwm coj koj mus zaum.
+Do you have a reservation? | /duː ju hæv‿ə rezɚˈveɪʃən/ | Koj puas tau teem sij hawm? | Neeg ua hauj lwm nug. Teb: Yes, under Vang.
+Can I see the menu? | /kən‿aɪ siː ðə ˈmenjuː/ | Kuv saib daim ntawv mov puas tau? | menu: stress ntawm thawj qhov.
+What do you recommend? | /wʌt duː ju rekəˈmend/ | Koj xav kom kuv noj dab tsi? | Lwm yam: What's popular here?
+I'll have the chicken. | /aɪl hæv ðə ˈtʃɪkən/ | Kuv xav noj nqaij qaib. | Thaum xaj mov: I'll have + yam mov.
+Can I get a Coke? | /kən‿aɪ get‿ə koʊk/ | Kuv thov ib khob Coke puas tau? | get a hais ua ke. Neeg Amelika hu cola ua Coke.
+Not too spicy, please. | /nɑːt tuː ˈspaɪsi pliːz/ | Thov tsis txhob ntsim heev. | Teb thaum neeg nug How spicy would you like it?
+No onions, please. | /noʊ ˈʌnjənz pliːz/ | Thov tsis txhob muab dos. | Lwm yam: Can I get it without onions?
+I'm allergic to peanuts. | /aɪm‿əˈlɝːdʒɪk tə ˈpiːnʌts/ | Kuv noj huabxeeb tsis tau, kuv yuav mob. | allergic: stress ntawm qhov nruab nrab. Hais ua ntej koj xaj.
+Is it spicy? | /ɪz‿ɪt ˈspaɪsi/ | Puas ntsim? | Nyob Amelika, spicy feem ntau tsis ntsim npaum li mov Hmoob.
+Could we get some water? | /kʊd wi get sʌm ˈwɑːtɚ/ | Thov muab dej rau peb puas tau? | Nyob Amelika, dej hauv tsev noj mov feem ntau pub dawb.
+Everything was great. | /ˈevriθɪŋ wəz greɪt/ | Txhua yam qab heev. | Teb thaum neeg nug How is everything?
+Can we get the check, please? | /kən wi get ðə tʃek pliːz/ | Thov muab daim ntawv them nqi rau peb. | Nyob Amelika, koj them nqi ntawm koj lub rooj.
+Can we split the bill? | /kən wi splɪt ðə bɪl/ | Peb sib cais them nqi puas tau? | Lwm yam: separate checks.
+It's on me. | /ɪts‿ɑːn miː/ | Kuv them. | Lwm yam: My treat!
+Can I get this to go? | /kən‿aɪ get ðɪs tə goʊ/ | Kuv nqa qhov no mus tsev puas tau? | Mov seem: Can I get a box?
+Is the tip included? | /ɪz ðə tɪp‿ɪnˈkluːdɪd/ | Puas muaj tip lawm? | Nyob Amelika, neeg muab tip rau neeg ua hauj lwm, 15–20%.
 `,
-"카페·편의점": `
-Can I get an iced Americano? | 캔 아이 게런 아이스트 아메리카노? | 아이스 아메리카노 주세요 | iced의 -d는 거의 안 들려요. 음료 주문은 Can I get ~?이 가장 흔해요
-What size would you like? | 왓 싸이즈 우쥬 라익? | 사이즈는 어떤 걸로 하시겠어요? | 직원이 묻는 말. would you는 "우쥬"
-Small, please. | 스몰, 플리즈 | 작은 걸로 주세요 | 스타벅스는 tall·grande·venti라고 말해요
-For here or to go? | 포 히어 오어 투 고? | 드시고 가세요, 가져가세요? | 영국식: "Eat in or take away?"
-Can I get oat milk instead? | 캔 아이 겟 오트 밀크 인스테드? | 귀리 우유로 바꿔 주실래요? | instead = 대신에. 추가 요금이 붙을 수 있어요
-Less ice, please. | 레스 아이스, 플리즈 | 얼음 적게 주세요 | 얼음 빼고: "No ice, please."
-Decaf, please. | 디캐프, 플리즈 | 디카페인으로 주세요 | decaffeinated의 줄임말이에요
-Can I get a name for the order? | 캔 아이 게러 네임 포 디 오더? | 주문하시는 분 성함이요? | 직원이 컵에 이름을 적으려고 물어요. 쉬운 영어 이름을 하나 정해 두면 편해요
-Do you need a bag? | 두 유 니더 백? | 봉투 필요하세요? | 필요 없으면 "No, I'm good."
-Can I get a receipt? | 캔 아이 게러 리씻? | 영수증 주세요 | receipt의 p는 소리 내지 않아요: 리씻
-Where can I find batteries? | 웨어 캔 아이 파인드 배러리즈? | 건전지 어디 있어요? | 물건 위치를 물을 때 만능 문장
-Do you sell phone chargers? | 두 유 쎌 폰 차저즈? | 휴대폰 충전기 팔아요? | "Do you have ~?"도 같은 뜻
-Can you heat this up? | 캔 유 히리썹? | 이거 데워 주실 수 있어요? | heat this up이 "히리썹"처럼 이어져요
-That's it. | 댓츠 잇 | 그게 다예요 | 직원이 "Anything else?"라고 물을 때
-Here you go. | 히어 유 고 | 여기요 | 돈이나 물건을 건넬 때 써요
-Keep the change. | 킵 더 체인지 | 잔돈은 가지세요 | 택시·배달에서 팁 대신 자주 써요
+"Kav fes thiab khw": `
+Can I get an iced Americano? | /kən‿aɪ get‿ən‿aɪst‿əmerɪˈkɑːnoʊ/ | Kuv thov ib khob kav fes txias puas tau? | Can I get…? yog lus neeg hais ntau tshaj thaum xaj dej haus.
+What size would you like? | /wʌt saɪz wʊd ju laɪk/ | Koj xav tau loj npaum li cas? | Neeg ua hauj lwm nug. would you hais ua ke.
+Small, please. | /smɑːl pliːz/ | Thov muab me. | Lwm yam: medium (nruab nrab), large (loj).
+For here or to go? | /fɚ hɪr ɔːr tə goʊ/ | Noj ntawm no los yog nqa mus? | Teb: For here. / To go, please.
+Can I get oat milk instead? | /kən‿aɪ get‿oʊt mɪlk‿ɪnˈsted/ | Kuv thov hloov ua oat milk puas tau? | instead = hloov. Tej zaum yuav tsum them nqi ntxiv.
+Less ice, please. | /les‿aɪs pliːz/ | Thov muab dej khov tsawg. | Tsis xav tau dej khov: No ice, please.
+Decaf, please. | /ˈdiːkæf pliːz/ | Thov muab kav fes tsis muaj caffeine. | decaf yog lo lus luv ntawm decaffeinated.
+Can I get a name for the order? | /kən‿aɪ get‿ə neɪm fɚ ði ˈɔːrdɚ/ | Koj lub npe hu li cas, rau koj qhov xaj? | Neeg ua hauj lwm sau koj lub npe rau ntawm lub khob.
+Do you need a bag? | /duː ju niːd‿ə bæg/ | Koj puas xav tau lub hnab? | Yog tsis xav tau: No, I'm good.
+Can I get a receipt? | /kən‿aɪ get‿ə rɪˈsiːt/ | Kuv thov daim ntawv them nqi puas tau? | receipt: p tsis hais.
+Where can I find batteries? | /wer kən‿aɪ faɪnd ˈbætɚiz/ | Roj teeb nyob qhov twg? | Where can I find…? siv tau rau txhua yam khoom.
+Do you sell phone chargers? | /duː ju sel foʊn ˈtʃɑːrdʒɚz/ | Koj puas muag xov hlau them xov tooj? | Lwm yam: Do you have…?
+Can you heat this up? | /kən ju hiːt ðɪs‿ʌp/ | Thov ua kom qhov no sov puas tau? | heat this up hais ua ke.
+That's it. | /ðæts‿ɪt/ | Tas li ntawd xwb. | Teb thaum neeg nug Anything else?
+Here you go. | /hɪr ju goʊ/ | No ne. | Hais thaum koj muab nyiaj los yog khoom rau neeg.
+Keep the change. | /kiːp ðə tʃeɪndʒ/ | Cov nyiaj seem koj muab cia. | Siv rau neeg tsav tsheb los yog neeg xa mov.
 `,
-"쇼핑·계산": `
-I'm just looking, thanks. | 아임 저스트 루킹, 땡스 | 그냥 구경하는 거예요 | 직원이 "Can I help you find anything?" 할 때
-Do you have this in a medium? | 두 유 해브 디스 인 어 미디엄? | 이거 M 사이즈 있어요? | 사이즈는 small / medium / large
-Do you have it in black? | 두 유 해빗 인 블랙? | 검은색 있어요? | 색깔 앞엔 in
-Can I try this on? | 캔 아이 트라이 디스 온? | 입어 봐도 돼요? | try on = (옷·신발을) 입어 보다·신어 보다
-Where's the fitting room? | 웨어즈 더 피팅 룸? | 탈의실 어디예요? | 영국: changing room
-It's too big. | 잇츠 투 빅 | 너무 커요 | 작으면 "It's too small."
-It's a bit tight. | 잇츠 어 빗 타잇 | 조금 껴요 | 헐렁하면 "It's a bit loose."
-Is this on sale? | 이즈 디스 온 쎄일? | 이거 세일해요? | on sale = 할인 중. for sale = 판매 중. 헷갈리기 쉬워요!
-Can you give me a discount? | 캔 유 깁 미 어 디스카운트? | 좀 깎아 주실 수 있어요? | 미국 일반 매장에선 흥정을 거의 안 해요. 시장·중고 거래에서만
-I'll take it. | 아일 테이킷 | 이걸로 할게요 | 살 물건을 정했을 때. 두 개 이상이면 "I'll take them."
-Cash or card? | 캐시 오어 카드? | 현금이요, 카드요? | 계산대에서 꼭 듣는 질문
-Do you take Apple Pay? | 두 유 테익 애플 페이? | 애플페이 돼요? | take = (결제 수단을) 받다
-Can I get a refund? | 캔 아이 게러 리펀드? | 환불돼요? | 영수증을 꼭 챙기세요
-I'd like to exchange this. | 아이드 라익 투 익스체인지 디스 | 이거 교환하고 싶어요 | 이유도 덧붙여요: "It's the wrong size."
-Can you gift wrap it? | 캔 유 기프트 랩 잇? | 선물 포장해 주실 수 있어요? | wrap의 w만 소리 나요: 랩
-Does that include tax? | 더즈 댓 인클루드 택스? | 세금 포함인가요? | 미국은 가격표에 세금이 빠져 있어서 계산할 때 더 나와요
+"Mus kav khw": `
+I'm just looking, thanks. | /aɪm dʒʌst ˈlʊkɪŋ θæŋks/ | Kuv saib xwb, ua tsaug. | Teb thaum neeg nug Can I help you find anything?
+Do you have this in a medium? | /duː ju hæv ðɪs‿ɪn‿ə ˈmiːdiəm/ | Qhov no puas muaj loj nruab nrab? | small / medium / large = me / nruab nrab / loj.
+Do you have it in black? | /duː ju hæv‿ɪt‿ɪn blæk/ | Puas muaj xim dub? | Ua ntej xim: in. in black, in red.
+Can I try this on? | /kən‿aɪ traɪ ðɪs‿ɑːn/ | Kuv sim hnav qhov no puas tau? | try on = sim hnav (khaub ncaws, khau).
+Where's the fitting room? | /werz ðə ˈfɪtɪŋ ruːm/ | Chav sim khaub ncaws nyob qhov twg? | fitting room yog chav hloov khaub ncaws hauv khw.
+It's too big. | /ɪts tuː bɪg/ | Loj dhau lawm. | Me dhau: It's too small.
+It's a bit tight. | /ɪts‿ə bɪt taɪt/ | Ceev me ntsis. | Yog dav dhau: It's a bit loose.
+Is this on sale? | /ɪz ðɪs‿ɑːn seɪl/ | Qhov no puas muaj luv nqi? | on sale = luv nqi. for sale = muag. Ua tib zoo!
+Can you give me a discount? | /kən ju gɪv mi ə ˈdɪskaʊnt/ | Txo nqi rau kuv puas tau? | Nyob Amelika, khw loj tsis sib cav nqi.
+I'll take it. | /aɪl teɪk‿ɪt/ | Kuv yuav qhov no. | Yog ob yam los ntau: I'll take them.
+Cash or card? | /kæʃ‿ɔːr kɑːrd/ | Nyiaj los yog card? | Neeg nug ntawm qhov them nqi.
+Do you take Apple Pay? | /duː ju teɪk‿ˈæpəl peɪ/ | Koj puas txais Apple Pay? | take = txais (yam them nqi).
+Can I get a refund? | /kən‿aɪ get‿ə ˈriːfʌnd/ | Kuv thov nyiaj rov qab puas tau? | Khaws daim ntawv them nqi cia.
+I'd like to exchange this. | /aɪd laɪk tu ɪksˈtʃeɪndʒ ðɪs/ | Kuv xav hloov qhov no. | Hais vim li cas: It's the wrong size.
+Can you gift wrap it? | /kən ju gɪft ræp‿ɪt/ | Thov qhwv ua khoom plig puas tau? | wrap: w tsis hais, pib nrog r.
+Does that include tax? | /dʌz ðæt‿ɪnˈkluːd tæks/ | Puas muaj se lawm? | Nyob Amelika, tus nqi ntawm daim ntawv feem ntau tsis muaj se.
 `,
-"숫자·시간·날짜": `
-What time is it? | 왓 타임 이즈 잇? | 지금 몇 시예요? | 모르는 사람에게는 "Excuse me, do you have the time?"
-It's three thirty. | 잇츠 쓰리 써리 | 3시 반이에요 | "half past three"(영국식)도 같은 뜻
-It's a quarter to five. | 잇츠 어 쿼러 투 파이브 | 5시 15분 전이에요 | quarter = 15분. "four forty-five"라고 해도 돼요
-At noon | 앳 눈 | 정오에 / 낮 12시에 | 자정은 midnight. 12 a.m./p.m.보다 헷갈리지 않아요
-What's the date today? | 왓츠 더 데잇 투데이? | 오늘 며칠이에요? | 요일은 "What day is it today?"
-It's May 3rd. | 잇츠 메이 써드 | 5월 3일이에요 | 날짜는 서수로 읽어요: first, second, third, fourth…
-My birthday is in October. | 마이 버스데이 이즈 인 악토버 | 제 생일은 10월이에요 | 월 앞에는 in, 날짜 앞에는 on: on October 5th
-On Monday | 온 먼데이 | 월요일에 | 요일 앞에는 on. 매주라면 on Mondays
-Next weekend | 넥스트 위켄드 | 다음 주말 | next·last·this 앞에는 전치사를 쓰지 않아요
-The day after tomorrow | 더 데이 애프터 터마로우 | 모레 | 그저께는 the day before yesterday
-Thirteen or thirty? | 써틴 오어 써리? | 13이에요, 30이에요? | 13은 뒤(-teen)를 길게, 30은 앞을 세게. 가격 들을 때 꼭 확인해요
-Fifteen dollars | 피프틴 달러즈 | 15달러 | $15.50은 "fifteen fifty"라고 읽어요
-Two hundred and fifty | 투 헌드레드 앤 피프티 | 이백오십 (250) | 미국에선 and를 자주 생략해요: two hundred fifty
-Ten thousand | 텐 싸우전드 | 만 (10,000) | 영어에는 '만' 단위가 없어요! 세 자리씩 끊어서 10 thousand
-One million | 원 밀리언 | 백만 (1,000,000) | 천만 = ten million, 1억 = one hundred million
-Twice a week | 트와이스 어 윅 | 일주일에 두 번 | once(한 번), twice(두 번), three times(세 번)
-In ten minutes | 인 텐 미닛츠 | 10분 후에 | 미래 시간 앞의 in = ~ 후에. "10분 안에"가 아니에요
+"Pes tsawg, sij hawm thiab hnub": `
+What time is it? | /wʌt taɪm‿ɪz‿ɪt/ | Tam sim no pes tsawg teev? | Rau neeg koj tsis paub: Excuse me, do you have the time?
+It's three thirty. | /ɪts θriː ˈθɝːti/ | Peb teev ib nrab. | Lwm yam: half past three.
+It's a quarter to five. | /ɪts‿ə ˈkwɔːrtɚ tə faɪv/ | Tseem kaum tsib feeb txog tsib teev. | quarter = kaum tsib feeb. Lwm yam: four forty-five.
+At noon | /ət nuːn/ | Thaum tav su | Ib tag hmo = midnight.
+What's the date today? | /wʌts ðə deɪt təˈdeɪ/ | Hnub no yog hnub tim pes tsawg? | Nug txog hnub hauv lim tiam: What day is it today?
+It's May 3rd. | /ɪts meɪ θɝːd/ | Hnub no yog tsib hlis ntuj tim peb. | Hnub tim hais ua first, second, third, fourth…
+My birthday is in October. | /maɪ ˈbɝːθdeɪ ɪz‿ɪn‿ɑːkˈtoʊbɚ/ | Kuv hnub yug yog kaum hli ntuj. | in + hli: in October. on + hnub: on October 5th.
+On Monday | /ɑːn ˈmʌndeɪ/ | Hnub Monday | on + hnub. Txhua lim tiam: on Mondays.
+Next weekend | /nekst ˈwiːkend/ | Hnub so tom ntej | next, last, this: tsis muaj preposition ua ntej.
+The day after tomorrow | /ðə deɪ ˈæftɚ təˈmɑːroʊ/ | Hnub tom qab tag kis | Hnub ua ntej nag hmo: the day before yesterday.
+Thirteen or thirty? | /ˌθɝːˈtiːn‿ɔːr ˈθɝːti/ | Kaum peb los yog peb caug? | thirteen: stress ntawm -teen. thirty: stress ntawm thawj qhov. Nug dua thaum hnov tus nqi.
+Fifteen dollars | /ˌfɪfˈtiːn ˈdɑːlɚz/ | Kaum tsib daus las | $15.50 hais ua fifteen fifty.
+Two hundred and fifty | /tuː ˈhʌndrəd‿ən ˈfɪfti/ | Ob puas tsib caug | Nyob Amelika, neeg feem ntau tsis hais and: two hundred fifty.
+Ten thousand | /ten ˈθaʊzənd/ | Kaum txhiab | Tsis muaj lo lus rau kaum txhiab: hais ten thousand. Lwm yam hauv lus Hmoob: ib vam.
+One million | /wʌn ˈmɪljən/ | Ib plhom | Kuj hais ib lab. Kaum plhom = ten million.
+Twice a week | /twaɪs‿ə wiːk/ | Ob zaug ib lim tiam | once (ib zaug), twice (ob zaug), three times (peb zaug).
+In ten minutes | /ɪn ten ˈmɪnɪts/ | Kaum feeb tom ntej | in + sij hawm = tom qab ntawd. Tsis yog hauv kaum feeb.
 `,
-"스몰토크": `
-How was your weekend? | 하우 워즈 유어 위켄드? | 주말 어땠어요? | 월요일 단골 질문. 한두 문장으로 짧게 대답하고 되물어요
-It was pretty relaxing. | 잇 워즈 프리티 릴랙싱 | 꽤 여유로웠어요 | pretty = 꽤. "예쁜"이 아니에요
-Any plans for the weekend? | 애니 플랜즈 포 더 위켄드? | 주말에 계획 있어요? | 금요일 단골 질문. 계획 없으면 "Not really, just relaxing."
-Nice weather today, huh? | 나이스 웨더 투데이, 허? | 오늘 날씨 좋네요 | 날씨는 누구와도 할 수 있는 가장 안전한 화제예요
-It's freezing today. | 잇츠 프리징 투데이 | 오늘 엄청 춥네요 | 더울 땐 "It's boiling!" 또는 "It's so hot!"
-How long have you lived here? | 하우 롱 해뷰 리브드 히어? | 여기 산 지 얼마나 됐어요? | 대답: "About three years."
-Have you been to Korea? | 해뷰 빈 투 코리아? | 한국 가 본 적 있어요? | 경험을 물을 땐 have been to
-What do you do for fun? | 왓 두 유 두 포 펀? | 쉴 때 주로 뭐 해요? | "What's your hobby?"보다 훨씬 자연스러운 취미 질문이에요
-Have you seen any good shows lately? | 해뷰 씬 애니 굿 쇼즈 레잇리? | 요즘 재밌는 거 봤어요? | show = 드라마·예능 같은 TV 프로그램
-That sounds fun. | 댓 싸운즈 펀 | 재밌겠다 | 상대 이야기에 반응할 때. "That sounds great!"도 좋아요
-Same here. | 쎄임 히어 | 저도 그래요 | 캐주얼하게 그냥 "Same!"
-Me neither. | 미 니더 | 저도 안 그래요 | 부정문에 맞장구칠 때. "I don't like it." → "Me neither." (Me too 아님!)
-I know, right? | 아이 노우, 롸잇? | 그러니까요! / 내 말이! | 강하게 동의할 때 쓰는 캐주얼한 표현
-Oh, really? | 오, 륄리? | 아, 정말요? | 관심을 보여 주는 맞장구. 끝을 올려요
-By the way | 바이 더 웨이 | 그런데 / 그나저나 | 화제를 바꿀 때. 문자로는 BTW
-How's work? | 하우즈 워크? | 일은 어때요? | 아는 사이의 안부 질문. "Busy, but good!"처럼 대답해요
-It was nice talking to you. | 잇 워즈 나이스 토킹 투 유 | 이야기 즐거웠어요 | 대화를 자연스럽게 끝낼 때 써요
+"Sib tham": `
+How was your weekend? | /haʊ wəz jʊr ˈwiːkend/ | Koj hnub so zoo li cas? | Neeg nug hnub Monday. Teb luv luv thiab nug rov qab.
+It was pretty relaxing. | /ɪt wəz ˈprɪti rɪˈlæksɪŋ/ | Kuv tau so zoo. | pretty = heev me ntsis. Tsis yog zoo nkauj.
+Any plans for the weekend? | /ˈeni plænz fɚ ðə ˈwiːkend/ | Hnub so koj yuav ua dab tsi? | Neeg nug hnub Friday. Yog tsis muaj: Not really, just relaxing.
+Nice weather today, huh? | /naɪs ˈweðɚ təˈdeɪ hʌ/ | Hnub no huab cua zoo, yam? | huab cua yog lus zoo rau tham nrog txhua tus neeg.
+It's freezing today. | /ɪts ˈfriːzɪŋ təˈdeɪ/ | Hnub no no heev. | Kub heev: It's boiling! los yog It's so hot!
+How long have you lived here? | /haʊ lɑːŋ hæv ju lɪvd hɪr/ | Koj nyob ntawm no ntev npaum li cas lawm? | Teb: About three years.
+Have you been to Laos? | /hæv ju bɪn tə laʊs/ | Koj puas tau mus Nplog teb? | Nug txog qhov koj tau ua: Have you been to…?
+What do you do for fun? | /wʌt duː ju duː fɚ fʌn/ | Thaum koj so, koj nyiam ua dab tsi? | Neeg hais ntau tshaj What's your hobby?
+Have you seen any good shows lately? | /hæv ju siːn‿ˈeni gʊd ʃoʊz ˈleɪtli/ | Tsis ntev no koj puas tau saib yam zoo hauv TV? | show = yam ua yeeb yam hauv TV.
+That sounds fun. | /ðæt saʊndz fʌn/ | Zoo heev. | Teb thaum neeg qhia nws zaj dab neeg. Lwm yam: That sounds great!
+Same here. | /seɪm hɪr/ | Kuv kuj zoo li ntawd. | Rau phooj ywg: Same!
+Me neither. | /miː ˈniːðɚ/ | Kuv kuj tsis. | Teb rau lus tsis: I don't like it. → Me neither. (Me too ✗)
+I know, right? | /aɪ noʊ raɪt/ | Yog lawm! | Hais thaum koj pom zoo heev. Rau phooj ywg.
+Oh, really? | /oʊ ˈriːli/ | Tiag los? | Qhia tias koj xav mloog. Hais siab ntawm qhov kawg.
+By the way | /baɪ ðə weɪ/ | Ib qho ntxiv | Siv thaum koj hloov lus tham. Sau luv: BTW.
+How's work? | /haʊz wɝːk/ | Koj hauj lwm zoo li cas? | Nug neeg koj paub. Teb: Busy, but good!
+It was nice talking to you. | /ɪt wəz naɪs ˈtɑːkɪŋ tə ju/ | Zoo siab tau tham nrog koj. | Hais thaum koj xaus kev tham.
 `,
-"감정·반응": `
-I'm so happy for you! | 아임 쏘 해피 포 유! | 정말 잘됐다! (축하) | 상대에게 좋은 일이 생겼을 때
-Congratulations! | 컹그래츄레이션스! | 축하해요! | 꼭 -s를 붙여요. 줄여서 "Congrats!"
-That's awesome! | 댓츠 어썸! | 대박! 멋지다! | 미국인이 정말 자주 쓰는 리액션이에요
-No way! | 노 웨이! | 말도 안 돼! / 헐! | 놀랐을 때. 거절할 때도 써요: "No way, I'm not doing that."
-Seriously? | 시리어슬리? | 진심이야? / 진짜로? | 말투에 따라 놀람 또는 짜증을 나타내요
-I'm so tired. | 아임 쏘 타이어드 | 너무 피곤해요 | 완전 지쳤을 땐 "I'm exhausted."
-I'm stressed out. | 아임 스트레스드 아웃 | 스트레스를 너무 받아요 | "I have stress"보다 자연스러워요
-I'm bored. | 아임 보어드 | 심심해요 / 지루해요 | 주의! "I'm boring"은 "나는 지루한 사람이에요"라는 뜻
-I'm excited. | 아임 익싸이티드 | 신나요 / 설레요 | 기대되는 일이 있을 때. -ed는 내가 느끼는 감정
-I'm nervous. | 아임 너버스 | 긴장돼요 | 면접·발표 전에. 상대에게: "Don't be nervous."
-That's too bad. | 댓츠 투 배드 | 아쉽네요 / 안타깝네요 | 가벼운 아쉬움. 심각한 일엔 아래 표현을 써요
-I'm sorry to hear that. | 아임 쏘리 투 히어 댓 | 그런 일이 있었다니 마음이 안 좋네요 | 사과가 아니라 위로예요. sorry = 유감스러운
-What a relief! | 와러 릴리프! | 다행이다! | "Phew!"와 함께 쓰면 더 자연스러워요
-Oh my gosh! | 오 마이 가쉬! | 세상에! | Oh my God를 순화한 표현. 문자로는 OMG
-I'm upset. | 아임 업셋 | 속상해요 / 기분이 상했어요 | 화남과 슬픔의 중간 느낌이에요
-That's so annoying. | 댓츠 쏘 어노잉 | 진짜 짜증 나 | 사람에게 "You're annoying"은 꽤 세게 들려요
-I can't wait! | 아이 캔트 웨잇! | 너무 기대돼! / 빨리 하고 싶어! | 직역하면 "못 기다리겠어"
-It's not a big deal. | 잇츠 나러 빅 딜 | 별일 아니에요 | 상대가 미안해할 때 안심시키는 말
+"Zoo siab thiab tu siab": `
+I'm so happy for you! | /aɪm soʊ ˈhæpi fɚ ju/ | Kuv zoo siab nrog koj heev! | Hais thaum muaj yam zoo los rau neeg.
+Congratulations! | /kəngrætʃəˈleɪʃənz/ | Zoo siab nrog koj! | Muaj -s kawg. Luv: Congrats!
+That's awesome! | /ðæts‿ˈɑːsəm/ | Zoo kawg! | Neeg Amelika hais ntau heev.
+No way! | /noʊ weɪ/ | Tsis yog tiag! | Thaum koj xav tsis txog. Kuj siv thaum koj tsis kam: No way, I'm not doing that.
+Seriously? | /ˈsɪriəsli/ | Tiag tiag los? | Nyob ntawm koj hais li cas: zoo siab los yog chim siab.
+I'm so tired. | /aɪm soʊ ˈtaɪɚd/ | Kuv nkees heev. | Nkees kawg: I'm exhausted.
+I'm stressed out. | /aɪm strest‿aʊt/ | Kuv txhawj heev. | Neeg hais li no, tsis hais I have stress.
+I'm bored. | /aɪm bɔːrd/ | Kuv tsis muaj dab tsi ua, kuv dhuav. | Ua tib zoo: I'm boring = kuv yog neeg ua rau lwm tus dhuav.
+I'm excited. | /aɪm‿ɪkˈsaɪtɪd/ | Kuv zoo siab tos tsis taus. | -ed = qhov koj xav: I'm excited.
+I'm nervous. | /aɪm ˈnɝːvəs/ | Kuv ntshai me ntsis. | Ua ntej xeem los yog ua ntej hais lus. Rau lwm tus: Don't be nervous.
+That's too bad. | /ðæts tuː bæd/ | Tu siab tiag. | Rau yam me me. Yam loj: I'm sorry to hear that.
+I'm sorry to hear that. | /aɪm ˈsɑːri tə hɪr ðæt/ | Kuv tu siab nrog koj. | Tsis yog thov txim: koj qhia tias koj tu siab nrog nws.
+What a relief! | /wʌt‿ə rɪˈliːf/ | Kaj siab lawm! | Hais nrog Phew!
+Oh my gosh! | /oʊ maɪ gɑːʃ/ | Au! | Lo lus mos ntawm Oh my God. Sau luv: OMG.
+I'm upset. | /aɪm‿ʌpˈset/ | Kuv tsis zoo siab. | Nruab nrab chim siab thiab tu siab.
+That's so annoying. | /ðæts soʊ əˈnɔɪɪŋ/ | Ua rau kuv chim heev. | You're annoying hais rau neeg: phem heev.
+I can't wait! | /aɪ kænt weɪt/ | Kuv tos tsis taus! | Hais thaum koj xav kom yam zoo los sai sai.
+It's not a big deal. | /ɪts nɑːt‿ə bɪg diːl/ | Tsis yog teeb meem loj. | Hais thaum neeg thov txim rau koj.
 `,
-"칭찬·호감 표현": `
-You look great! | 유 룩 그레잇! | 좋아 보여요! / 멋져요! | 외모 칭찬은 "You look ~"로. 아는 사이에서 자연스러워요
-I love your shoes. | 아이 러브 유어 슈즈 | 신발 너무 예뻐요 | love = 정말 마음에 든다. 처음 보는 사람에게도 가볍게 칭찬해요
-That color looks good on you. | 댓 컬러 룩스 굿 온 유 | 그 색 잘 어울려요 | look good on + 사람 = ~에게 잘 어울리다
-You have a great smile. | 유 해버 그레잇 스마일 | 미소가 정말 예뻐요 | 친해진 사이에서 쓰는 따뜻한 칭찬
-You're so funny. | 유어 쏘 퍼니 | 진짜 웃겨요 | funny = 웃긴. fun = 함께 있으면 즐거운
-Great job! | 그레잇 잡! | 잘했어요! | 직장·학교 어디서나. "Nice work!"도 같아요
-I'm proud of you. | 아임 프라우드 오브 유 | 네가 자랑스러워 | 가족·친구에게. 상사가 부하에게 쓰기도 해요
-You did it! | 유 디딧! | 해냈구나! | 목표를 이룬 사람에게
-Your Korean is really good! | 유어 코리안 이즈 륄리 굿! | 한국어 진짜 잘하시네요! | 한국어를 배우는 외국인 친구에게 해 주면 좋아해요
-You have good taste. | 유 해브 굿 테이스트 | 안목이 좋으시네요 / 센스 있어요 | 옷·음악·인테리어 취향 칭찬. "센스"는 영어로 taste예요
-I really enjoyed spending time with you. | 아이 륄리 인조이드 스펜딩 타임 위드 유 | 같이 시간 보내서 정말 즐거웠어요 | 데이트·모임이 끝날 때
-Do you want to grab coffee sometime? | 두 유 워너 그랩 커피 썸타임? | 언제 커피 한잔할래요? | want to는 "워너". grab = 가볍게 먹다·마시다
-I miss you. | 아이 미스 유 | 보고 싶어요 | 지금 떨어져 있는 사람에게. 가족·친구에게도 써요
-You mean a lot to me. | 유 민 어 랏 투 미 | 너는 나한테 정말 소중해 | 친구·연인에게 진심을 전할 때
-You're a lifesaver! | 유어러 라이프세이버! | 덕분에 살았어요! | 작은 도움에도 과장해서 고마움을 표현해요
-You made my day! | 유 메이드 마이 데이! | 덕분에 하루가 행복해졌어요! | 기분 좋은 말이나 선물을 받았을 때
-That's very kind of you. | 댓츠 베리 카인드 오브 유 | 정말 친절하시네요 | 도움이나 칭찬을 받았을 때 공손하게
+"Kev nyiam thiab lus zoo": `
+You look great! | /ju lʊk greɪt/ | Koj zoo nkauj (los yog zoo saib) heev! | Hais rau neeg koj paub: You look…
+I love your shoes. | /aɪ lʌv jʊr ʃuːz/ | Kuv nyiam koj nkawm khau heev. | love = nyiam heev. Nyob Amelika, neeg hais rau neeg tsis paub kuj tau.
+That color looks good on you. | /ðæt ˈkʌlɚ lʊks gʊd‿ɑːn ju/ | Xim ntawd haum koj zoo. | look good on + neeg.
+You have a great smile. | /ju hæv‿ə greɪt smaɪl/ | Koj luag zoo nkauj heev. | Hais rau neeg koj paub zoo.
+You're so funny. | /jʊr soʊ ˈfʌni/ | Koj lom zem heev. | funny = ua rau luag. fun = zoo siab nrog.
+Great job! | /greɪt dʒɑːb/ | Koj ua tau zoo heev! | Siv tau tom hauj lwm thiab tom tsev kawm ntawv. Lwm yam: Nice work!
+I'm proud of you. | /aɪm praʊd‿əv ju/ | Kuv zoo siab rau koj heev. | Hais rau tsev neeg thiab phooj ywg.
+You did it! | /ju dɪd‿ɪt/ | Koj ua tau lawm! | Hais rau neeg uas ua tau yam nws xav ua.
+Your English is really good! | /jʊr ˈɪŋglɪʃ‿ɪz ˈriːli gʊd/ | Koj hais lus Askiv zoo heev! | Teb: Thank you! Kuj tau: Thanks, I'm still learning.
+You have good taste. | /ju hæv gʊd teɪst/ | Koj paub xaiv yam zoo. | Rau khaub ncaws, nkauj los yog tsev.
+I really enjoyed spending time with you. | /aɪ ˈriːli ɪnˈdʒɔɪd ˈspendɪŋ taɪm wɪð ju/ | Kuv zoo siab heev tau nrog koj. | Hais thaum nej yuav sib ncaim.
+Do you want to grab coffee sometime? | /duː ju wɑːnt tə græb ˈkɑːfi ˈsʌmtaɪm/ | Lwm hnub wb mus haus kav fes puas tau? | want to hais zoo li wanna. grab = noj los yog haus sai sai.
+I miss you. | /aɪ mɪs ju/ | Kuv nco koj. | Rau neeg nyob deb: tsev neeg los yog phooj ywg.
+You mean a lot to me. | /ju miːn‿ə lɑːt tə mi/ | Koj tseem ceeb rau kuv heev. | Hais rau phooj ywg los yog tus koj hlub.
+You're a lifesaver! | /jʊr ə ˈlaɪfseɪvɚ/ | Koj pab kuv tau zoo kawg! | Neeg Amelika hais rau kev pab me me thiab.
+You made my day! | /ju meɪd maɪ deɪ/ | Koj ua rau kuv zoo siab tag hnub! | Thaum koj tau lus zoo los yog khoom plig.
+That's very kind of you. | /ðæts ˈveri kaɪnd‿əv ju/ | Koj siab zoo heev. | Hais thaum neeg pab koj los yog hais lus zoo rau koj.
 `,
-"직장·이메일": `
-I hope this email finds you well. | 아이 호프 디스 이메일 파인즈 유 웰 | 잘 지내고 계시길 바랍니다 | 격식 있는 이메일 첫 인사. 조금 가볍게: "I hope you're doing well."
-I'm writing to ask about the schedule. | 아임 롸이팅 투 애스크 어바웃 더 스케줄 | 일정에 대해 여쭤보려고 연락드립니다 | 메일 목적을 첫 문장에 밝혀요. I'm writing to + 목적
-I've attached the report. | 아이브 어태치드 더 리포트 | 보고서를 첨부했습니다 | "Please find attached…"는 더 딱딱한 표현이에요
-Just a quick reminder about tomorrow's meeting. | 저스트 어 퀵 리마인더 어바웃 터마로우즈 미팅 | 내일 회의 관련해서 다시 한번 알려 드려요 | 독촉을 부드럽게 하는 표현
-Let me know if you have any questions. | 렛 미 노우 이퓨 해브 애니 퀘스천즈 | 궁금한 점 있으면 말씀해 주세요 | 이메일 마무리 단골 문장
-Could you send me the file by Friday? | 쿠쥬 쎈드 미 더 파일 바이 프라이데이? | 금요일까지 파일 보내 주실 수 있나요? | by = ~까지 (기한). until = ~까지 계속
-Sorry for the late reply. | 쏘리 포 더 레잇 리플라이 | 답장이 늦어 죄송합니다 | 조금 덜 미안하게: "Thanks for your patience."
-Thanks for getting back to me. | 땡스 포 게링 백 투 미 | 답장 주셔서 감사합니다 | get back to = 다시 연락하다
-Best regards, | 베스트 리가즈 | ~ 드림 (이메일 맺음말) | 무난한 맺음말. 가까운 사이: "Best," "Thanks,"
-Let's schedule a meeting. | 렛츠 스케줄 어 미팅 | 회의 일정을 잡읍시다 | 미국: 스케줄, 영국: 셰듈
-I'm running late. | 아임 러닝 레잇 | 조금 늦을 것 같아요 | 이동 중에 미리 연락할 때. "I'll be there in 10."
-Can we push the meeting to 3? | 캔 위 푸쉬 더 미팅 투 쓰리? | 회의를 3시로 미룰 수 있을까요? | 앞당길 땐 move up: "Can we move it up to 1?"
-I'll get back to you. | 아일 겟 백 투 유 | 확인하고 다시 연락드릴게요 | 바로 답하기 어려울 때 시간을 버는 표현
-Can you walk me through it? | 캔 유 워크 미 쓰루 잇? | 하나씩 설명해 주실래요? | walk through = 단계별로 안내하다
-Let's touch base next week. | 렛츠 터치 베이스 넥스트 윅 | 다음 주에 잠깐 얘기 나눠요 | 짧게 진행 상황을 공유하자는 뜻
-What's the deadline? | 왓츠 더 데드라인? | 마감이 언제예요? | "When is this due?"도 같은 뜻
-I'm working from home today. | 아임 워킹 프럼 홈 투데이 | 오늘 재택근무해요 | 줄여서 WFH
-I'm off tomorrow. | 아임 오프 터마로우 | 내일 쉬어요 (휴무예요) | 연차는 "I'm taking a day off tomorrow."
-Thanks for all your hard work. | 땡스 포 올 유어 하드 워크 | 그동안 정말 고생 많으셨어요 | "수고하셨습니다"에 딱 맞는 말은 없어요. 퇴근 인사는 그냥 "See you tomorrow!"
+"Hauj lwm thiab email": `
+I hope this email finds you well. | /aɪ hoʊp ðɪs‿ˈiːmeɪl faɪndz ju wel/ | Kuv vam tias koj nyob zoo. | Thawj kab ntawm email. Mos dua: I hope you're doing well.
+I'm writing to ask about the schedule. | /aɪm ˈraɪtɪŋ tu æsk‿əˈbaʊt ðə ˈskedʒuːl/ | Kuv sau tuaj nug txog sij hawm teem tseg. | Hais qhov koj sau vim li cas hauv thawj kab: I'm writing to + verb.
+I've attached the report. | /aɪv‿əˈtætʃt ðə rɪˈpɔːrt/ | Kuv muab daim ntawv qhia txuas rau lawm. | Please find attached… yog lus nruj dua.
+Just a quick reminder about tomorrow's meeting. | /dʒʌst‿ə kwɪk rɪˈmaɪndɚ əˈbaʊt təˈmɑːroʊz ˈmiːtɪŋ/ | Ceeb toom koj txog lub rooj sib tham tag kis. | Ib txoj kev mos nug kom neeg nco qab.
+Let me know if you have any questions. | /let mi noʊ ɪf ju hæv‿ˈeni ˈkwestʃənz/ | Yog koj muaj lus nug, qhia rau kuv. | Kab kawg ntawm email.
+Could you send me the file by Friday? | /kʊd ju send mi ðə faɪl baɪ ˈfraɪdeɪ/ | Xa daim ntawv rau kuv ua ntej hnub Friday puas tau? | by = tsis pub dhau. until = mus txog.
+Sorry for the late reply. | /ˈsɑːri fɚ ðə leɪt rɪˈplaɪ/ | Thov txim, kuv teb lig. | Lwm yam: Thanks for your patience.
+Thanks for getting back to me. | /θæŋks fɚ ˈgetɪŋ bæk tə mi/ | Ua tsaug koj teb rov qab. | get back to = teb rov qab.
+Best regards, | /best rɪˈgɑːrdz/ | Nrog kev hwm, | Siv tom qab ntawm email. Rau neeg koj paub: Best, Thanks,
+Let's schedule a meeting. | /lets ˈskedʒuːl‿ə ˈmiːtɪŋ/ | Wb teem sij hawm sib tham. | schedule: Amelika hais sk-, Askiv teb hais sh-.
+I'm running late. | /aɪm ˈrʌnɪŋ leɪt/ | Kuv yuav tuaj lig. | Qhia ua ntej: I'll be there in 10.
+Can we push the meeting to 3? | /kən wi pʊʃ ðə ˈmiːtɪŋ tə θriː/ | Peb muab lub rooj sib tham ncua mus 3 teev puas tau? | Ua ntxov dua: move up. Can we move it up to 1?
+I'll get back to you. | /aɪl get bæk tə ju/ | Kuv mam li teb koj. | Hais thaum koj tseem teb tsis tau tam sim no.
+Can you walk me through it? | /kən ju wɑːk mi θruː ɪt/ | Qhia kuv ib kauj ruam zuj zus puas tau? | walk through = qhia ib yam zuj zus.
+Let's touch base next week. | /lets tʌtʃ beɪs nekst wiːk/ | Lim tiam tom ntej wb tham luv luv. | Sib qhia hauj lwm mus li cas.
+What's the deadline? | /wʌts ðə ˈdedlaɪn/ | Yuav tsum ua tas thaum twg? | Lwm yam: When is this due?
+I'm working from home today. | /aɪm ˈwɝːkɪŋ frəm hoʊm təˈdeɪ/ | Hnub no kuv ua hauj lwm hauv tsev. | Sau luv: WFH.
+I'm off tomorrow. | /aɪm‿ɑːf təˈmɑːroʊ/ | Tag kis kuv so. | Lwm yam: I'm taking a day off tomorrow.
+Thanks for all your hard work. | /θæŋks fɚ ɑːl jʊr hɑːrd wɝːk/ | Ua tsaug rau koj txhua yam hauj lwm. | Hais rau neeg ua hauj lwm nrog koj. Thaum tawm hauj lwm, hais See you tomorrow!
 `,
-"전화·문자 줄임말": `
-Hello, this is Minji. | 헬로우, 디스 이즈 민지 | 여보세요, 민지예요 | 전화에서는 "I'm Minji" 대신 "This is Minji"
-Can I speak to Mr. Kim? | 캔 아이 스픽 투 미스터 킴? | 김 선생님과 통화할 수 있을까요? | 더 공손하게: "May I speak to…?"
-Who's calling, please? | 후즈 콜링, 플리즈? | 누구시죠? | 전화 받는 쪽에서 묻는 말
-Hold on a second. | 홀드 온 어 세컨드 | 잠시만 기다려 주세요 | 전화·대화 중에 잠깐 기다려 달라고 할 때
-Sorry, you're breaking up. | 쏘리, 유어 브레이킹 업 | 죄송해요, 소리가 끊겨요 | break up = (전화 소리가) 끊기다. 연인이 헤어지다는 뜻도 있어요
-Can I call you back? | 캔 아이 콜 유 백? | 다시 전화드려도 될까요? | 바쁠 때: "I'm in a meeting. Can I call you back?"
-I'll text you. | 아일 텍스트 유 | 문자할게 | 미국에선 메시지 보내는 걸 text라고 해요
-I'm on my way. | 아임 온 마이 웨이 | 가는 중이야 | 문자로는 OMW
-LOL | 엘오엘 | ㅋㅋㅋ (laughing out loud) | 진짜 크게 웃기보다는 가벼운 ㅋㅋ 느낌이에요
-BRB | 비알비 | 금방 올게 (be right back) | 채팅·게임에서 잠깐 자리 비울 때
-BTW | 비티더블유 | 근데 (by the way) | 화제 전환
-TBH | 티비에이치 | 솔직히 (to be honest) | 문장 앞이나 뒤에 붙여요
-IDK | 아이디케이 | 몰라 (I don't know) | 소문자 idk로 많이 써요
-OMG | 오엠지 | 헐 / 세상에 (oh my God) | 말로도 "오엠지!"라고 해요
-ASAP | 에이에스에이피 / 에이샙 | 최대한 빨리 (as soon as possible) | 직장에서도 쓰지만 상사에게는 날짜를 주는 게 더 공손해요
-TTYL | 티티와이엘 | 나중에 얘기해 (talk to you later) | 대화를 끝낼 때
-NVM | 엔브이엠 | 아냐, 됐어 (never mind) | 질문을 취소할 때
-FYI | 에프와이아이 | 참고로 (for your information) | 업무 메일·메신저에서 많이 써요
+"Xov tooj thiab lus luv": `
+Hello, this is Mai. | /həˈloʊ ðɪs‿ɪz maɪ/ | Nyob zoo, kuv yog Mai. | Hauv xov tooj, hais This is Mai, tsis hais I'm Mai.
+Can I speak to Mr. Vang? | /kən‿aɪ spiːk tə ˈmɪstɚ væŋ/ | Kuv tham nrog Mr. Vang puas tau? | Lwm yam: May I speak to…?
+Who's calling, please? | /huːz ˈkɑːlɪŋ pliːz/ | Leej twg hu tuaj? | Tus neeg txais xov tooj nug.
+Hold on a second. | /hoʊld‿ɑːn‿ə ˈsekənd/ | Ib ntsis os. | Hais thaum koj xav kom neeg tos.
+Sorry, you're breaking up. | /ˈsɑːri jʊr ˈbreɪkɪŋ‿ʌp/ | Thov txim, kuv hnov tsis meej. | break up kuj txhais tias ob tug neeg sib nrauj.
+Can I call you back? | /kən‿aɪ kɑːl ju bæk/ | Kuv hu rov qab rau koj puas tau? | Thaum koj tsis khoom: I'm in a meeting. Can I call you back?
+I'll text you. | /aɪl tekst ju/ | Kuv yuav sau text rau koj. | Nyob Amelika, xa lus hauv xov tooj hu ua text.
+I'm on my way. | /aɪm‿ɑːn maɪ weɪ/ | Kuv tab tom tuaj. | Sau luv: OMW.
+LOL | /el‿oʊ ˈel/ | Luag (laughing out loud) | Tsis yog luag nrov tiag; zoo li luag me ntsis.
+BRB | /biː ɑːr ˈbiː/ | Kuv mam li rov los (be right back) | Thaum koj mus ib ntsis.
+BTW | /biː tiː ˈdʌbəljuː/ | Ib qho ntxiv (by the way) | Siv thaum hloov lus tham.
+TBH | /tiː biː ˈeɪtʃ/ | Hais tseeb (to be honest) | Sau ua ntej los yog tom qab ntawm sentence.
+IDK | /aɪ diː ˈkeɪ/ | Kuv tsis paub (I don't know) | Neeg sau ntau ua tsiaj me: idk.
+OMG | /oʊ em ˈdʒiː/ | Au (oh my God) | Neeg kuj hais: O-M-G!
+ASAP | /eɪ es‿eɪ ˈpiː/ / /ˈeɪsæp/ | Sai li sai tau (as soon as possible) | Rau tus nai, qhia hnub ntawd thiaj zoo.
+TTYL | /tiː tiː waɪ ˈel/ | Mam li tham (talk to you later) | Thaum xaus kev tham.
+NVM | /en viː ˈem/ | Tsis ua li cas lawm (never mind) | Thaum koj tsis nug lawm.
+FYI | /ef waɪ ˈaɪ/ | Qhia rau koj paub (for your information) | Siv ntau tom hauj lwm thiab hauv email.
 `,
-"여행(공항·호텔)": `
-Here's my passport. | 히어즈 마이 패스포트 | 여기 여권이요 | 체크인·입국 심사에서 건네며
-I'm here for sightseeing. | 아임 히어 포 싸잇씽 | 관광하러 왔어요 | 입국 심사 "What's the purpose of your visit?"에 대한 대답
-I'm staying for a week. | 아임 스테잉 포러 윅 | 일주일 머물 거예요 | "How long are you staying?"에 대한 대답
-I'm staying at the Hilton. | 아임 스테잉 앳 더 힐튼 | 힐튼 호텔에 묵어요 | "Where are you staying?"에 대한 대답
-Window or aisle? | 윈도우 오어 아일? | 창가석이요, 통로석이요? | aisle의 s는 묵음이에요: 아일
-I'd like an aisle seat, please. | 아이드 라익 언 아일 씻, 플리즈 | 통로 쪽 자리로 주세요 | 창가는 a window seat
-Where is the baggage claim? | 웨어리즈 더 배기지 클레임? | 짐 찾는 곳이 어디예요? | 영국에선 baggage reclaim
-My luggage is missing. | 마이 러기지 이즈 미싱 | 짐이 안 나왔어요 | luggage는 셀 수 없어요: a piece of luggage
-I have a reservation under Kim. | 아이 해버 레저베이션 언더 킴 | 김 이름으로 예약했어요 | under + 예약자 이름
-What time is check-out? | 왓 타임 이즈 체카웃? | 체크아웃은 몇 시예요? | 늦게 나가고 싶으면 "Can I get a late check-out?"
-Can I check in early? | 캔 아이 체킨 얼리? | 일찍 체크인할 수 있나요? | check in이 "체킨"처럼 이어져요
-Is breakfast included? | 이즈 브렉퍼스트 인클루디드? | 조식 포함이에요? | breakfast는 "브렉퍼스트". 브레이크가 아니에요
-The air conditioner isn't working. | 디 에어 컨디셔너 이즌트 워킹 | 에어컨이 안 돼요 | "에어컨"은 콩글리시. 줄여서 AC(에이씨)라고 해요
-Could I get some extra towels? | 쿠다이 겟 썸 엑스트라 타월즈? | 수건 좀 더 주실 수 있나요? | could I는 "쿠다이"처럼 이어져요
-Can you hold my bags until 3? | 캔 유 홀드 마이 백즈 언틸 쓰리? | 3시까지 짐 좀 맡아 주실 수 있어요? | 체크아웃 후 짐 보관 요청. hold = 맡아 두다
-My flight was delayed. | 마이 플라잇 워즈 딜레이드 | 비행기가 지연됐어요 | 결항은 canceled
-Where's gate 12? | 웨어즈 게잇 트웰브? | 12번 게이트 어디예요? | 영어는 번호를 뒤에 붙여요
-Do I need to take my laptop out? | 두 아이 니드 투 테익 마이 랩탑 아웃? | 노트북 꺼내야 해요? | 보안 검색대에서. "노트북"은 영어로 laptop이에요
+"Mus ncig teb chaws": `
+Here's my passport. | /hɪrz maɪ ˈpæspɔːrt/ | No yog kuv daim passport. | Muab thaum check-in los yog thaum nkag teb chaws.
+I'm here for sightseeing. | /aɪm hɪr fɚ ˈsaɪtsiːɪŋ/ | Kuv tuaj ncig saib xwb. | Teb rau What's the purpose of your visit?
+I'm staying for a week. | /aɪm ˈsteɪɪŋ fɚ ə wiːk/ | Kuv yuav nyob ib lim tiam. | Teb rau How long are you staying?
+I'm staying at the Hilton. | /aɪm ˈsteɪɪŋ‿ət ðə ˈhɪltən/ | Kuv nyob tsev hotel Hilton. | Teb rau Where are you staying?
+Window or aisle? | /ˈwɪndoʊ ɔːr aɪl/ | Ze qhov rais los yog ze kev? | aisle: s tsis hais.
+I'd like an aisle seat, please. | /aɪd laɪk‿ən‿aɪl siːt pliːz/ | Thov muab lub rooj zaum ze kev rau kuv. | Ze qhov rais: a window seat.
+Where is the baggage claim? | /wer ɪz ðə ˈbægɪdʒ kleɪm/ | Qhov chaw khaws hnab nyob qhov twg? | baggage claim = qhov chaw txais hnab.
+My luggage is missing. | /maɪ ˈlʌgɪdʒ‿ɪz ˈmɪsɪŋ/ | Kuv lub hnab ploj lawm. | luggage yog uncountable: a piece of luggage.
+I have a reservation under Vang. | /aɪ hæv‿ə rezɚˈveɪʃən‿ˈʌndɚ væŋ/ | Kuv teem chav nrog lub npe Vang. | under + lub npe.
+What time is check-out? | /wʌt taɪm‿ɪz ˈtʃekaʊt/ | Check-out thaum pes tsawg teev? | Xav tawm lig: Can I get a late check-out?
+Can I check in early? | /kən‿aɪ tʃek‿ɪn‿ˈɝːli/ | Kuv check in ntxov puas tau? | check in hais ua ke.
+Is breakfast included? | /ɪz ˈbrekfəst‿ɪnˈkluːdɪd/ | Puas muaj noj tshais lawm? | breakfast hais zoo li brek-.
+The air conditioner isn't working. | /ði er kənˈdɪʃənɚ ˈɪzənt ˈwɝːkɪŋ/ | Lub tshuab cua txias tsis ua hauj lwm. | Luv: AC.
+Could I get some extra towels? | /kʊd‿aɪ get sʌm‿ˈekstrə ˈtaʊəlz/ | Thov muab phuam ntxiv puas tau? | could I hais ua ke.
+Can you hold my bags until 3? | /kən ju hoʊld maɪ bægz‿ənˈtɪl θriː/ | Khaws kuv cov hnab txog 3 teev puas tau? | Tom qab check-out. hold = khaws cia.
+My flight was delayed. | /maɪ flaɪt wəz dɪˈleɪd/ | Kuv lub dav hlau lig lawm. | Yog tsis ya: canceled.
+Where's gate 12? | /werz geɪt twelv/ | Gate 12 nyob qhov twg? | Lus Askiv muab tus lej tso tom qab.
+Do I need to take my laptop out? | /duː aɪ niːd tə teɪk maɪ ˈlæptɑːp‿aʊt/ | Kuv puas yuav tsum muab kuv lub laptop tawm? | Ntawm qhov kuaj xyuas hnab.
 `,
-"병원·긴급": `
-Help! | 헬프! | 도와주세요! | 위급할 때 크게 외쳐요
-Call 911! | 콜 나인 원 원! | 911에 전화해 주세요! | 미국 긴급번호는 911(나인 원 원), 영국은 999
-I need a doctor. | 아이 니더 닥터 | 의사가 필요해요 | 급하면 "I need an ambulance."
-I don't feel well. | 아이 돈 필 웰 | 몸이 안 좋아요 | 가장 무난한 표현이에요
-I have a headache. | 아이 해버 헤데익 | 머리가 아파요 | 아픈 곳 + ache: stomachache, toothache
-I have a fever. | 아이 해버 피버 | 열이 나요 | f는 윗니를 아랫입술에 대고 바람을 내보내요
-My stomach hurts. | 마이 스터먹 허츠 | 배가 아파요 | 아픈 부위 + hurts. stomach는 "스터먹"
-I have a sore throat. | 아이 해버 쏘어 쓰롯 | 목이 아파요 | sore = 쓰리고 아픈. 목 전체(neck)가 아니라 목구멍이에요
-I feel dizzy. | 아이 필 디지 | 어지러워요 | 메스꺼우면 "I feel sick." / "I feel nauseous."
-I sprained my ankle. | 아이 스프레인드 마이 앵클 | 발목을 삐었어요 | sprain = 삐다. 손목은 wrist
-Is there a pharmacy near here? | 이즈 데어러 파머시 니어 히어? | 이 근처에 약국 있어요? | 미국에선 drugstore(CVS 등)라고도 해요
-Do I need a prescription? | 두 아이 니더 프리스크립션? | 처방전이 필요한가요? | 미국은 처방전 없이 살 수 있는 약을 over-the-counter라고 해요
-I lost my wallet. | 아이 로스트 마이 월릿 | 지갑을 잃어버렸어요 | 휴대폰이면 phone. 분실물 센터는 lost and found
-Someone stole my phone. | 썸원 스톨 마이 폰 | 누가 제 휴대폰을 훔쳐 갔어요 | steal(훔치다)의 과거형 stole
-Where is the police station? | 웨어리즈 더 폴리스 스테이션? | 경찰서가 어디예요? | police 강세는 뒤: 폴리-스
-I need to contact the Korean embassy. | 아이 니드 투 칸택트 더 코리안 엠버시 | 한국 대사관에 연락해야 해요 | 여권 분실 시 꼭 필요한 문장이에요
-I have travel insurance. | 아이 해브 트래블 인슈어런스 | 여행자 보험이 있어요 | 병원비가 비싼 나라에선 꼭 가입하고 가세요
+"Tsev kho mob thiab kev pab": `
+Help! | /help/ | Pab! | Hais nrov thaum muaj mob ceev heev.
+Call 911! | /kɑːl naɪn wʌn wʌn/ | Hu 911! | Nyob Amelika, tus lej hu thaum mob ceev heev yog 911 (nine one one).
+I need a doctor. | /aɪ niːd‿ə ˈdɑːktɚ/ | Kuv xav ntsib kws kho mob. | Yog ceev heev: I need an ambulance.
+I don't feel well. | /aɪ doʊnt fiːl wel/ | Kuv tsis nyob zoo. | Lus mos thiab siv tau txhua qhov chaw.
+I have a headache. | /aɪ hæv‿ə ˈhedeɪk/ | Kuv mob taub hau. | Qhov mob + ache: stomachache, toothache.
+I have a fever. | /aɪ hæv‿ə ˈfiːvɚ/ | Kuv kub ib ce. | f: hniav saum kov di ncauj hauv qab thiab tshuab.
+My stomach hurts. | /maɪ ˈstʌmək hɝːts/ | Kuv mob plab. | Qhov mob + hurts.
+I have a sore throat. | /aɪ hæv‿ə sɔːr θroʊt/ | Kuv mob caj pas. | sore = mob. throat yog caj pas, tsis yog caj dab (neck).
+I feel dizzy. | /aɪ fiːl ˈdɪzi/ | Kuv kiv taub hau. | Xav ntuav: I feel sick. / I feel nauseous.
+I sprained my ankle. | /aɪ spreɪnd maɪ ˈæŋkəl/ | Kuv dab taws ntswj lawm. | Dab teg: wrist.
+Is there a pharmacy near here? | /ɪz ðer ə ˈfɑːrməsi nɪr hɪr/ | Puas muaj khw muab tshuaj nyob ze qhov no? | Nyob Amelika, kuj hu ua drugstore.
+Do I need a prescription? | /duː aɪ niːd‿ə prɪˈskrɪpʃən/ | Kuv puas yuav tsum muaj ntawv kws kho mob? | Tshuaj yuav tau tsis muaj ntawv: over-the-counter.
+I lost my wallet. | /aɪ lɑːst maɪ ˈwɑːlɪt/ | Kuv lub hnab nyiaj ploj lawm. | Xov tooj: phone. Qhov chaw nrhiav khoom ploj: lost and found.
+Someone stole my phone. | /ˈsʌmwʌn stoʊl maɪ foʊn/ | Muaj neeg nyiag kuv lub xov tooj. | stole yog past tense ntawm steal.
+Where is the police station? | /wer ɪz ðə pəˈliːs ˈsteɪʃən/ | Tsev tub ceev xwm nyob qhov twg? | police: stress ntawm qhov kawg.
+I need a Hmong interpreter. | /aɪ niːd‿ə mɑːŋ ɪnˈtɝːprətɚ/ | Kuv xav tau ib tug neeg txhais lus Hmoob. | Tsev kho mob yuav tsum muab neeg txhais lus pub dawb. Nug thaum koj teem sij hawm.
+I have travel insurance. | /aɪ hæv ˈtrævəl‿ɪnˈʃʊrəns/ | Kuv muaj ntawv pov hwm thaum mus ncig. | Mus ncig teb chaws, yuav ntawv pov hwm ua ntej.
 `,
-"구동사": `
-pick up | 피컵 | (차로) 데리러 가다 / 줍다 | "I'll pick you up at 7." 대명사(you, it)는 가운데에 와요
-give up | 기법 | 포기하다 | "Don't give up!" 무엇을 포기하는지는 ~ing: give up smoking
-figure out | 피겨라웃 | 알아내다 / 해결하다 | "I can't figure out this app." (이 앱 어떻게 쓰는지 모르겠어)
-find out | 파인다웃 | (사실을) 알게 되다 | 정보를 알아낼 때. figure out은 머리를 써서 풀 때
-look for | 룩 포 | 찾다 (찾는 중이다) | "I'm looking for my keys." 찾아냈으면 find
-look after | 룩 애프터 | 돌보다 | "Can you look after my cat?" 미국에선 take care of도 많이 써요
-look forward to | 룩 포워드 투 | ~을 기대하다 | to 뒤에 명사나 ~ing: "I'm looking forward to seeing you."
-run out of | 러나우로브 | ~이 다 떨어지다 | 무엇이 떨어졌는지는 of 뒤에: "We ran out of milk." (우유가 다 떨어졌어)
-turn on | 터논 | 켜다 | 전기·기계를 켤 때: "Turn on the light." 대명사는 가운데: "Turn it on."
-turn off | 터노프 | 끄다 | 대명사는 가운데: "Turn it off." (turn off it X)
-turn down | 턴 다운 | 거절하다 / (소리를) 줄이다 | 두 가지 뜻 모두 자주 써요: "She turned down the offer." / "Turn it down!"
-put off | 푸로프 | 미루다 | 일상 대화에선 postpone보다 훨씬 많이 써요: "Stop putting it off!"
-show up | 쇼우 업 | 나타나다 / 오다 | 약속 장소에 나타날 때: "He didn't show up to the party." (파티에 안 왔어)
-hang out | 행아웃 | 놀다 / 어울리다 | 친구랑 노는 건 play가 아니라 hang out! (play는 아이들이나 게임·운동)
-check out | 체카웃 | 확인하다 / 한번 보다 | "Check out this video!" 호텔 체크아웃이라는 뜻도 있어요
-work out | 워카웃 | 운동하다 / 잘 풀리다 | 헬스장 운동은 exercise보다 work out: "I work out every day." / "It'll work out." (잘될 거야)
-come up with | 커멉 위드 | (아이디어를) 생각해 내다 | 아이디어·핑계·해결책을 떠올릴 때: "She came up with a great idea."
-get along with | 게럴롱 위드 | ~와 잘 지내다 | 사이가 좋을 때: "I get along with my coworkers." (동료들과 잘 지내요)
-calm down | 캄 다운 | 진정하다 | calm의 l은 소리 나지 않아요. 화난 사람에게 쓰면 더 화나게 할 수도 있어요
-set up | 쎄럽 | 설치하다 / 마련하다 | 기기 설치·회의 준비 등: "Can you help me set up my printer?"
-break up | 브레이컵 | 헤어지다 | "They broke up last month." 누구와: break up with
-fill out | 필 아웃 | (서류를) 작성하다 | "Please fill out this form." 영국식은 fill in
-grow up | 그로우 업 | 자라다 | 자란 곳을 말할 때: "I grew up in Daegu." (대구에서 자랐어요)
-wake up | 웨이컵 | 잠에서 깨다 | 깨어나는 순간은 wake up, 침대에서 나오는 건 get up
+"Phrasal verbs": `
+pick up | /pɪk‿ʌp/ | Mus tos (hauv tsheb); khaws | I'll pick you up at 7. Pronoun (you, it) nyob nruab nrab.
+give up | /gɪv‿ʌp/ | Tso tseg | Don't give up! Tso tseg dab tsi: give up + -ing.
+figure out | /ˈfɪgjɚ aʊt/ | Nrhiav tau kev ua | I can't figure out this app.
+find out | /faɪnd‿aʊt/ | Paub tom qab | Thaum koj paub ib yam tshiab. figure out yog thaum koj xav thiaj paub.
+look for | /lʊk fɔːr/ | Nrhiav | I'm looking for my keys. Thaum nrhiav tau lawm: find.
+look after | /lʊk‿ˈæftɚ/ | Saib xyuas | Can you look after my cat? Amelika kuj hais take care of.
+look forward to | /lʊk ˈfɔːrwɚd tuː/ | Tos tsis taus | Tom qab to: noun los yog -ing. I'm looking forward to seeing you.
+run out of | /rʌn‿aʊt‿ʌv/ | Tas lawm | We ran out of milk. (Mis nyuj tas lawm.)
+turn on | /tɝːn‿ɑːn/ | Qhib (teeb, tshuab) | Turn on the light. Pronoun nyob nruab nrab: Turn it on.
+turn off | /tɝːn‿ɑːf/ | Kaw (teeb, tshuab) | Turn it off. turn off it ✗
+turn down | /tɝːn daʊn/ | Tsis kam; txo kom me | She turned down the offer. / Turn it down!
+put off | /pʊt‿ɑːf/ | Ncua | Neeg hais ntau tshaj postpone: Stop putting it off!
+show up | /ʃoʊ ʌp/ | Tuaj txog | He didn't show up to the party. (Nws tsis tuaj.)
+hang out | /hæŋ‿aʊt/ | Mus nrog phooj ywg | Neeg laus hang out, tsis yog play. play rau me nyuam, game, kev ua si.
+check out | /tʃek‿aʊt/ | Saib | Check out this video! Hauv tsev hotel: tawm.
+work out | /wɝːk‿aʊt/ | Ua kom lub cev muaj zog; ua tau zoo | I work out every day. / It'll work out.
+come up with | /kʌm‿ʌp wɪð/ | Xav tau (tswv yim) | She came up with a great idea.
+get along with | /get‿əˈlɑːŋ wɪð/ | Nrog … sib raug zoo | I get along with my coworkers.
+calm down | /kɑːm daʊn/ | Txias siab | calm: l tsis hais. Hais rau neeg chim siab tej zaum yuav ua rau nws chim ntxiv.
+set up | /set‿ʌp/ | Teeb tsa | Can you help me set up my printer?
+break up | /breɪk‿ʌp/ | Sib nrauj (ob tug hluas) | They broke up last month. Nrog leej twg: break up with.
+fill out | /fɪl‿aʊt/ | Sau (daim ntawv) | Please fill out this form.
+grow up | /groʊ ʌp/ | Loj hlob | I grew up in Fresno. (Kuv loj hlob hauv Fresno.)
+wake up | /weɪk‿ʌp/ | Tsim | wake up = qhov thaum koj tsim. get up = sawv ntawm txaj.
 `,
-"발음 주의": `
-rice | 롸이스 | 쌀 / 밥 | R: 입술을 둥글게 내밀고, 혀끝은 어디에도 닿지 않게. lice와 구분해요
-lice | 라이스 | 이 (머리에 사는 벌레) | L: 혀끝을 윗니 뒤 잇몸에 붙였다 떼요. "I like rice"를 lice로 말하면 큰일!
-right | 롸잇 | 오른쪽 / 맞는 | R로 시작. light와 구분
-light | 라잇 | 빛 / 가벼운 | L로 시작. 혀끝이 윗잇몸에 닿아요
-fan | 팬 (f) | 선풍기 / 팬 (좋아하는 사람) | F: 윗니를 아랫입술에 살짝 대고 바람을 내보내요
-pan | 팬 (p) | 프라이팬 | P: 두 입술을 붙였다가 터뜨려요
-coffee | 커피 (f) | 커피 | 가운데 f를 살려요. p로 말하면 copy(카피)처럼 들려요
-copy | 카피 | 복사하다 / 복사본 | 가운데가 p. 미국식은 "카피"에 가까워요
-think | 띵크 (th) | 생각하다 | TH: 혀끝을 윗니와 아랫니 사이에 살짝 내밀고 바람. s로 말하면 sink
-sink | 씽크 | 싱크대 / 가라앉다 | 혀가 이 뒤에 숨어 있는 s 소리
-three | 쓰리 (th) | 숫자 3 | 혀를 이 사이에! t로 말하면 tree처럼 들려요
-tree | 트리 | 나무 | tr은 "츄리"에 가깝게 들리기도 해요
-this | 디스 (th) | 이것 | 성대를 울리는 th. 혀끝을 이 사이에 두고 "드"
-very | 베리 (v) | 매우 | V: 윗니를 아랫입술에 대고 성대를 울려요. b로 말하면 berry
-berry | 베리 (b) | 베리 (딸기 같은 열매) | 두 입술을 붙였다 떼는 b
-vote | 보웃 (v) | 투표하다 | v로 시작. boat와 구분
-boat | 보웃 (b) | 배 / 보트 | b로 시작. "보트"보다 "보웃"에 가까워요
-walk | 웍 | 걷다 | l은 소리 나지 않아요. 입을 크게 벌린 "어"
-work | 워r크 | 일하다 | 혀를 뒤로 말아 r을 넣어요. walk와 헷갈리기 쉬운 짝꿍
-beach | 비-치 | 해변 | "이-"를 길게! 짧게 말하면 욕처럼 들릴 수 있어요
-leave | 리-브 | 떠나다 | 길게 "리-". 짧은 live(살다)와 구분해요
-live | 리브 (짧게) | 살다 | 짧고 힘을 빼서 "리브". leave보다 입을 덜 벌려요
-banana | 버내너 | 바나나 | 강세는 가운데 "내". "바나나"라고 또박또박 읽으면 못 알아들어요
-hotel | 호우텔 | 호텔 | 강세는 뒤 "텔". 앞을 세게 말하면 어색해요
-milk | 밀크 (크는 아주 약하게) | 우유 | 끝에 "으"를 붙이지 마요. 끝 자음은 입 모양만 살짝
-McDonald's | 먹다널즈 | 맥도날드 | 강세는 "다". 미국에서 "맥도날드"라고 하면 잘 못 알아들어요
+"Pronunciation: hais ua tib zoo": `
+rice | /raɪs/ | Mov | r: tsis yog RPA r (zoo li t). Ncav di ncauj, nplaig tsis kov dab tsi.
+lice | /laɪs/ | Tuv | l: nplaig kov tom qab hniav saum. I like rice hais ua lice, txaj muag heev!
+right | /raɪt/ | Sab xis; raug | Pib nrog r. Tsis txhob hais zoo li light.
+light | /laɪt/ | Teeb; sib | Pib nrog l, nplaig kov saum.
+fan | /fæn/ | Kiv cua; neeg nyiam ib tus neeg | f: hniav saum kov di ncauj hauv qab thiab tshuab.
+pan | /pæn/ | Lauj kaub | p: ob daim di ncauj kaw thiab qhib.
+coffee | /ˈkɑːfi/ | Kav fes | f nruab nrab. Hais ua p yuav zoo li copy.
+copy | /ˈkɑːpi/ | Theej | p nruab nrab.
+think | /θɪŋk/ | Xav | th: rau nplaig nruab nrab hniav thiab tshuab. Hais s yuav ua sink.
+sink | /sɪŋk/ | Lub dab dej ntxuav | s yog RPA x: nplaig nyob tom qab hniav.
+three | /θriː/ | Peb | Nplaig nruab nrab hniav! Hais t yuav ua tree.
+tree | /triː/ | Ntoo | tr: t + lus Askiv r.
+this | /ðɪs/ | Qhov no | th uas muaj suab caj pas: rau nplaig nruab nrab hniav.
+very | /ˈveri/ | Heev | v: hniav saum kov di ncauj hauv qab. Hais b yuav ua berry.
+berry | /ˈberi/ | Txiv me me (txiv pos liab) | b: ob daim di ncauj. Tsis yog np.
+vote | /voʊt/ | Pov npav | Pib nrog v. Tsis yog boat.
+boat | /boʊt/ | Nkoj | Pib nrog b. Hais t kawg.
+walk | /wɑːk/ | Taug kev | l tsis hais.
+work | /wɝːk/ | Ua hauj lwm | Muaj r hauv nruab nrab. Tsis txhob hais zoo li walk.
+beach | /biːtʃ/ | Ntug hiav txwv | ea ntev: /iː/. ch kawg yuav tsum hais.
+leave | /liːv/ | Tawm mus | ea ntev, v kawg. Tsis yog live.
+live | /lɪv/ | Nyob | i luv. Tsis txhob tso v kawg tseg.
+banana | /bəˈnænə/ | Txiv tsawb | stress ntawm qhov nruab nrab: ba-NA-na.
+hotel | /hoʊˈtel/ | Tsev hotel | stress ntawm qhov kawg: ho-TEL. Hais l kawg.
+milk | /mɪlk/ | Mis nyuj | lk kawg: hais ob qho, tsis txhob ntxiv ib lub suab tom qab.
+McDonald's | /məkˈdɑːnəldz/ | Khw McDonald's | stress ntawm DO. ldz kawg.
+thank | /θæŋk/ | Ua tsaug (verb) | th tsis yog RPA th (tham). th: nplaig nruab nrab hniav. Hais t yuav ua tank.
+she | /ʃiː/ | Nws (poj niam) | sh zoo li RPA s, tab sis nplaig tsis khoov. Hais s yuav ua see.
+see | /siː/ | Pom | s yog RPA x, tsis yog RPA s.
+ship | /ʃɪp/ | Nkoj loj | sh + i luv. Tsis yog sheep (i ntev) los yog sip (s).
+sheep | /ʃiːp/ | Yaj | ee ntev. ship luv.
+sip | /sɪp/ | Haus ib ntsis | s yog RPA x. Tsis yog sh.
+chair | /tʃer/ | Lub rooj zaum | ch zoo li RPA ts. Tsis yog share.
+share | /ʃer/ | Sib faib | sh hais tau ntev; ch hais ib zaug xwb.
+zoo | /zuː/ | Vaj tsiaj | Lus Askiv z tsis yog RPA z. Hais s nrog suab caj pas.
+bee | /biː/ | Muv | b tsis yog RPA np: tsis muaj n ua ntej. g (go) tsis yog nk.
+red | /red/ | Liab | Lus Askiv r: ncav di ncauj, nplaig tsis kov dab tsi. RPA r zoo li t.
+we | /wiː/ | Peb | Lus Askiv w yog consonant: ncav di ncauj ua ntej. RPA w yog vowel.
+bed | /bed/ | Txaj | e zoo li RPA e. d kawg yuav tsum hais.
+bad | /bæd/ | Phem | a qhib qhov ncauj loj dua bed.
+cut | /kʌt/ | Txiav | u luv, qhov ncauj qhib me ntsis. t kawg.
+cot | /kɑːt/ | Txaj me | a ntev, qhov ncauj qhib loj. cut luv.
 `,
-"영어 관용구": `
-It's a piece of cake. | 잇츠 어 피스 오브 케익 | 식은 죽 먹기예요 | 아주 쉬운 일. "The test was a piece of cake."
-I'm on cloud nine. | 아임 온 클라우드 나인 | 날아갈 듯 기뻐요 | 엄청 행복할 때
-It costs an arm and a leg. | 잇 코스츠 언 암 앤 어 레그 | 엄청 비싸요 | 팔다리를 내줄 만큼 비싸다는 뜻
-Let's call it a day. | 렛츠 콜 잇 어 데이 | 오늘은 여기까지 해요 | 일·공부를 마칠 때. 회의에서도 자연스러워요
-I'm feeling under the weather. | 아임 필링 언더 더 웨더 | 몸이 좀 안 좋아요 | 감기 기운처럼 가볍게 아플 때. 날씨와는 상관없어요
-I need to hit the books. | 아이 니드 투 힛 더 북스 | 공부 좀 열심히 해야 해 | 시험 전에. 책을 때리는 게 아니에요
-Once in a blue moon | 원스 인 어 블루 문 | 아주 가끔 | 아주 드문 일에: "I only eat fast food once in a blue moon."
-Better late than never. | 베러 레잇 댄 네버 | 늦더라도 안 하는 것보단 낫죠 | 늦게 시작한 사람을 격려할 때
-Don't beat around the bush. | 돈 비러롸운 더 부쉬 | 돌려 말하지 마요 | 본론을 말해 달라는 뜻
-It's not my cup of tea. | 잇츠 낫 마이 커퍼 티 | 제 취향은 아니에요 | 부드럽게 싫다고 할 때 좋아요
-Let's get the ball rolling. | 렛츠 겟 더 볼 롤링 | 자, 시작해 봅시다 | 회의·프로젝트 시작할 때
-I'll keep my fingers crossed. | 아일 킵 마이 핑거즈 크로스드 | 잘되길 빌게요 | 검지와 중지를 꼬는 제스처와 함께 써요
-Hang in there. | 행 인 데어 | 조금만 버텨 / 힘내 | 힘든 시기를 보내는 사람에게
-Speak of the devil! | 스픽 오브 더 데블! | 호랑이도 제 말 하면 온다더니! | 얘기하던 사람이 나타났을 때
-The ball is in your court. | 더 볼 이즈 인 유어 코트 | 이제 당신이 결정할 차례예요 | 테니스에서 온 표현
-My lips are sealed. | 마이 립스 아 씰드 | 비밀 지킬게요 | 입술을 봉했다는 뜻
-It's on the tip of my tongue. | 잇츠 온 더 팁 오브 마이 텅 | 혀끝에서 맴도는데… | 생각날 듯 말 듯할 때
-I'm all ears. | 아임 올 이어즈 | 잘 듣고 있어요 / 어서 말해 봐요 | 귀를 쫑긋 세우고 듣는다는 뜻
-When pigs fly. | 웬 픽스 플라이 | 해가 서쪽에서 뜨겠다 | 절대 일어나지 않을 일. "He'll clean his room when pigs fly."
+"Paj lug lus Askiv": `
+It's a piece of cake. | /ɪts‿ə piːs‿əv keɪk/ | Yooj yim heev. | Yam yooj yim: The test was a piece of cake.
+I'm on cloud nine. | /aɪm‿ɑːn klaʊd naɪn/ | Kuv zoo siab kawg nkaus. | Thaum koj zoo siab heev.
+It costs an arm and a leg. | /ɪt kɑːsts‿ən‿ɑːrm‿ən‿ə leg/ | Kim heev. | Kim npaum li yuav muab koj txhais tes thiab txhais ceg them.
+Let's call it a day. | /lets kɑːl‿ɪt‿ə deɪ/ | Hnub no ua txog ntawm no xwb. | Thaum xaus hauj lwm los yog kev kawm.
+I'm feeling under the weather. | /aɪm ˈfiːlɪŋ‿ˈʌndɚ ðə ˈweðɚ/ | Kuv tsis nyob zoo me ntsis. | Mob me me, zoo li khaub thuas. Tsis yog huab cua.
+I need to hit the books. | /aɪ niːd tə hɪt ðə bʊks/ | Kuv yuav tsum kawm ntawv heev. | Ua ntej xeem. Tsis yog ntaus phau ntawv!
+Once in a blue moon | /wʌns‿ɪn‿ə bluː muːn/ | Ntev ntev ib zaug | Yam tsawg heev: I only eat fast food once in a blue moon.
+Better late than never. | /ˈbetɚ leɪt ðən ˈnevɚ/ | Lig los zoo tshaj tsis ua. | Hais rau neeg pib lig.
+Don't beat around the bush. | /doʊnt biːt‿əˈraʊnd ðə bʊʃ/ | Hais ncaj ncaj. | Thaum koj xav kom neeg hais qhov tseeb.
+It's not my cup of tea. | /ɪts nɑːt maɪ kʌp‿əv tiː/ | Kuv tsis nyiam yam no. | Txoj kev mos hais tias koj tsis nyiam.
+Let's get the ball rolling. | /lets get ðə bɑːl ˈroʊlɪŋ/ | Wb pib. | Thaum pib lub rooj sib tham los yog hauj lwm.
+I'll keep my fingers crossed. | /aɪl kiːp maɪ ˈfɪŋgɚz krɑːst/ | Kuv vam tias yuav zoo. | Neeg muab ob tus ntiv tes sib hla.
+Hang in there. | /hæŋ‿ɪn ðer/ | Ua siab ntev. | Hais rau neeg uas muaj teeb meem.
+Speak of the devil! | /spiːk‿əv ðə ˈdevəl/ | Hais txog nws, nws tuaj lawm! | Thaum tus neeg nej tab tom tham txog tuaj txog.
+The ball is in your court. | /ðə bɑːl‿ɪz‿ɪn jʊr kɔːrt/ | Tam sim no koj yog tus txiav txim. | Los ntawm kev ua si tennis.
+My lips are sealed. | /maɪ lɪps‿ɑːr siːld/ | Kuv yuav tsis qhia leej twg. | Di ncauj kaw lawm.
+It's on the tip of my tongue. | /ɪts‿ɑːn ðə tɪp‿əv maɪ tʌŋ/ | Kuv yuav luag nco qab lawm. | Thaum koj yuav luag nco tau ib lo lus.
+I'm all ears. | /aɪm‿ɑːl‿ɪrz/ | Kuv mloog koj. | Kuv mloog zoo heev, hais tuaj.
+When pigs fly. | /wen pɪgz flaɪ/ | Yeej tsis muaj hnub ntawd. | Yam yuav tsis muaj: He'll clean his room when pigs fly.
 `,
-"영화·드라마·슬랭": `
-Spill the tea. | 스필 더 티 | 썰 좀 풀어 봐 | tea = 가십·소문. 친구 사이 슬랭
-No cap. | 노 캡 | 진짜야, 거짓말 아님 | 젊은 층 슬랭. cap = 거짓말
-That song slaps. | 댓 쏭 슬랩스 | 그 노래 진짜 좋다 | slap = (음악이) 끝내주다. 음식에도 써요
-I'm dead. | 아임 데드 | 개웃겨 / 빵 터졌어 | 문자에서 💀 이모지와 함께 써요. 진짜 죽었다는 뜻 아니에요
-Low-key | 로우키 | 은근히 / 살짝 | "I low-key love this song." 반대는 high-key(대놓고)
-I'm obsessed with this song. | 아임 업세스트 위드 디스 쏭 | 이 노래에 완전 꽂혔어 | obsessed = 푹 빠진. 긍정적으로 많이 써요
-What's it about? | 왓츠 잇 어바웃? | 무슨 내용이야? | 영화·드라마 줄거리를 물을 때
-No spoilers! | 노 스포일러즈! | 스포 금지! | "Don't spoil it!"도 같은 뜻
-I binge-watched the whole season. | 아이 빈지와치트 더 홀 시즌 | 시즌 전체를 정주행했어 | binge-watch = 몰아보기
-The ending was so good. | 디 엔딩 워즈 쏘 굿 | 결말 진짜 좋았어 | 별로였으면 "The ending was disappointing."
-It's a must-watch. | 잇츠 어 머스트와치 | 꼭 봐야 하는 작품이야 | 강력 추천할 때
-Plot twist! | 플랏 트위스트! | 반전! | 일상에서 예상 못 한 일이 생겼을 때도 써요
-It's overrated. | 잇츠 오버레이티드 | 과대평가됐어 | 반대는 underrated(과소평가된)
-That scene gave me chills. | 댓 씬 게이브 미 칠즈 | 그 장면 소름 돋았어 | 감동이나 긴장으로 소름 돋을 때
-Who's your bias? | 후즈 유어 바이어스? | 최애가 누구야? | K-pop 팬덤에서 쓰는 말. 일반적으로는 "Who's your favorite member?"
-Are you kidding me? | 아 유 키딩 미? | 장난해? / 이게 말이 돼? | 드라마 단골 대사. 놀람·짜증 모두 가능
-I've got your back. | 아이브 갓 유어 백 | 내가 네 편이야 | 든든하게 지켜 주겠다는 뜻
-Gotcha. | 가차 | 알았어 / 잡았다! | got you의 줄임말. 이해했다는 뜻으로 가장 많이 써요
-Let's do this! | 렛츠 두 디스! | 가자! 해 보자! | 시작 전에 의욕을 북돋울 때
+"Movies, TV thiab slang": `
+Spill the tea. | /spɪl ðə tiː/ | Qhia zaj dab neeg rau kuv. | tea = lus neeg tham txog lwm tus. Slang rau phooj ywg.
+No cap. | /noʊ kæp/ | Tseeb tiag, tsis dag. | Slang ntawm cov hluas. cap = dag.
+That song slaps. | /ðæt sɑːŋ slæps/ | Zaj hu nkauj ntawd zoo kawg. | slap = zoo kawg (nkauj). Kuj siv rau zaub mov.
+I'm dead. | /aɪm ded/ | Kuv luag tuag lawm. | Tsis yog tuag tiag. Neeg sau nrog ib daim duab pob txha taub hau.
+Low-key | /ˈloʊkiː/ | Me ntsis; tsis qhia leej twg | I low-key love this song. Sib txawv: high-key.
+I'm obsessed with this song. | /aɪm‿əbˈsest wɪð ðɪs sɑːŋ/ | Kuv nyiam zaj hu nkauj no kawg nkaus. | obsessed = nyiam heev. Siv rau yam zoo.
+What's it about? | /wʌts‿ɪt‿əˈbaʊt/ | Nws hais txog dab tsi? | Nug txog zaj dab neeg ntawm movie los yog TV.
+No spoilers! | /noʊ ˈspɔɪlɚz/ | Tsis txhob qhia qhov kawg! | Lwm yam: Don't spoil it!
+I binge-watched the whole season. | /aɪ ˈbɪndʒwɑːtʃt ðə hoʊl ˈsiːzən/ | Kuv saib tag nrho ib season tib zaug. | binge-watch = saib ntau ntu tib zaug.
+The ending was so good. | /ði ˈendɪŋ wəz soʊ gʊd/ | Qhov kawg zoo heev. | Tsis zoo: The ending was disappointing.
+It's a must-watch. | /ɪts‿ə ˈmʌstwɑːtʃ/ | Koj yuav tsum saib. | Thaum koj xav kom phooj ywg saib heev.
+Plot twist! | /plɑːt twɪst/ | Txawv tsis tau xav txog! | Kuj siv thaum muaj yam koj tsis tau xav txog tshwm sim.
+It's overrated. | /ɪts‿ˌoʊvɚˈreɪtɪd/ | Neeg qhuas ntau dhau. | Sib txawv: underrated (neeg qhuas tsawg dhau).
+That scene gave me chills. | /ðæt siːn geɪv mi tʃɪlz/ | Qhov ntawd ua rau kuv tshee. | Thaum koj ntshai los yog zoo siab heev.
+Who's your favorite player? | /huːz jʊr ˈfeɪvərɪt ˈpleɪɚ/ | Koj nyiam tus neeg ncaws pob twg tshaj? | Nug txog kev ua si: football, basketball. Kuj nug: Who's your favorite singer?
+Are you kidding me? | /ɑːr ju ˈkɪdɪŋ mi/ | Koj dag kuv los? | Neeg hais ntau hauv movies: xav tsis txog los yog chim.
+I've got your back. | /aɪv gɑːt jʊr bæk/ | Kuv pab koj. | Kuv nrog koj, kuv yuav tiv thaiv koj.
+Gotcha. | /ˈgɑːtʃə/ | Nkag siab lawm. | Luv ntawm got you. Siv ntau tshaj rau nkag siab.
+Let's do this! | /lets duː ðɪs/ | Wb ua! | Hais ua ntej pib, kom muaj zog.
 `,
-"알파벳": `
-A | 에이 | 글자 A (소문자 a) | apple(사과)의 A. 이름은 '아'가 아니라 '에이'예요
-B | 비 (b) | 글자 B (소문자 b) | boy의 B. 두 입술을 붙였다 떼요. V와 이름이 같게 들리지 않게 조심해요
-C | 씨 | 글자 C (소문자 c) | coffee의 C. 이름이 see(보다)와 똑같은 소리예요
-D | 디 | 글자 D (소문자 d) | dog의 D. 이름은 '디'예요. T(티)와 달리 성대를 울려 부드럽게 시작해요
-E | 이 | 글자 E (소문자 e) | email의 E. 이름은 '이'예요. '아이'는 I의 이름이에요
-F | 에프 | 글자 F (소문자 f) | fan의 F. 윗니를 아랫입술에 대고 바람을 내요. P(피)와 구분해요
-G | 지 (g) | 글자 G (소문자 g) | game의 G. 입술을 내밀어 '쥐'에 가깝게. J(제이)와 이름이 달라요
-H | 에이치 | 글자 H (소문자 h) | hotel의 H. 이름이 모음 소리 '에'로 시작해서 an H라고 해요
-I | 아이 | 글자 I (소문자 i) | idea의 I. '나'를 뜻하는 I와 같은 소리예요. E(이)와 헷갈리지 마세요
-J | 제이 | 글자 J (소문자 j) | job의 J. G(지)와 바꿔 말하기 쉬워요
-K | 케이 | 글자 K (소문자 k) | key의 K. K-pop의 그 '케이'예요
-L | 엘 | 글자 L (소문자 l) | light의 L. 혀끝을 윗잇몸에 붙이며 '엘'로 끝내요
-M | 엠 | 글자 M (소문자 m) | milk의 M. 입술을 다물며 끝내요. summer처럼 M이 두 개면 double M이라고 불러요
-N | 엔 | 글자 N (소문자 n) | name의 N. 전화로는 M과 헷갈리기 쉬워 "N as in name"처럼 확인해요
-O | 오우 | 글자 O (소문자 o) | OK의 O. 이름은 '오'가 아니라 끝을 살짝 오므린 '오우'예요
-P | 피 | 글자 P (소문자 p) | pan의 P. 두 입술을 터뜨려요. F(에프)와 구분해요
-Q | 큐 | 글자 Q (소문자 q) | question의 Q. 단어에서는 거의 항상 뒤에 U가 와요 (qu)
-R | 아r | 글자 R (소문자 r) | rice의 R. '알'이 아니라 혀를 뒤로 말아 '아r'. L(엘)과 꼭 구분해요
-S | 에스 | 글자 S (소문자 s) | sorry의 S. 이름은 '에스'예요. '씨'는 C의 이름이에요
-T | 티 | 글자 T (소문자 t) | taxi의 T. 대문자는 capital T, 두 개면 double T라고 해요
-U | 유 | 글자 U (소문자 u) | university의 U. 이름이 '유'(y 소리)로 시작해서 an U가 아니라 a U
-V | 비 (v) | 글자 V (소문자 v) | very의 V. 윗니를 아랫입술에 대고 성대를 울려요. B와 구분해요
-W | 더블유 | 글자 W (소문자 w) | water의 W. 이름은 double u, 'U 두 개'라는 뜻이에요 (double v 아님)
-X | 엑스 | 글자 X (소문자 x) | X-ray(엑스레이)의 X. 이름이 모음 소리로 시작해서 an X-ray, an X
-Y | 와이 | 글자 Y (소문자 y) | yes의 Y. 이름이 why(왜)와 똑같은 소리예요
-Z | 지 (z) | 글자 Z (소문자 z) | zoo의 Z. 미국에서는 zee예요. '제트'라고 하면 잘 못 알아들어요
+"A txog Z: lus Askiv": `
+A | /eɪ/ | A loj, a me | apple. Lub npe yog /eɪ/, tsis yog RPA a.
+B | /biː/ | B loj, b me | boy. b: ob daim di ncauj, tsis muaj n ua ntej (tsis yog np).
+C | /siː/ | C loj, c me | coffee. Lub npe zoo li see. Tsis yog RPA c.
+D | /diː/ | D loj, d me | dog. Lub npe /diː/. Tsis yog RPA d (cim).
+E | /iː/ | E loj, e me | email. Lub npe zoo li RPA i ntev. Tsis yog RPA e.
+F | /ef/ | F loj, f me | family. Lub npe /ef/: hniav saum kov di ncauj hauv qab.
+G | /dʒiː/ | G loj, g me | good. Lub npe /dʒiː/. Tsis yog J (/dʒeɪ/).
+H | /eɪtʃ/ | H loj, h me | house. Lub npe /eɪtʃ/, pib nrog vowel: an H.
+I | /aɪ/ | I loj, i me | idea. Lub npe zoo li RPA ai. Hais i, neeg yuav sau E.
+J | /dʒeɪ/ | J loj, j me | job. Lub npe /dʒeɪ/. Tsis yog RPA j (cim).
+K | /keɪ/ | K loj, k me | key. Lub npe /keɪ/.
+L | /el/ | L loj, l me | lunch. Lub npe /el/, ib qho xwb.
+M | /em/ | M loj, m me | money. Hauv xov tooj, M thiab N zoo li, hais M as in Mary.
+N | /en/ | N loj, n me | name. Lub npe /en/.
+O | /oʊ/ | O loj, o me | open. Lub npe /oʊ/, zoo li oh.
+P | /piː/ | P loj, p me | pizza. Lub npe /piː/, ob daim di ncauj.
+Q | /kjuː/ | Q loj, q me | question. Lub npe /kjuː/. Tsis yog RPA q.
+R | /ɑːr/ | R loj, r me | room. Lub npe /ɑːr/, zoo li are. Tsis yog RPA r.
+S | /es/ | S loj, s me | school. Lub npe /es/. S yog RPA x, tsis yog RPA s.
+T | /tiː/ | T loj, t me | ticket. Lub npe zoo li tea. T loj: capital T.
+U | /juː/ | U loj, u me | university. Lub npe zoo li you: a U, tsis yog an U.
+V | /viː/ | V loj, v me | very. Lub npe /viː/: hniav saum kov di ncauj. Tsis yog RPA v (cim).
+W | /ˈdʌbəljuː/ | W loj, w me | water. Lub npe double u (ob tug u). RPA w yog vowel; lus Askiv w yog consonant.
+X | /eks/ | X loj, x me | X-ray. Lub npe /eks/. Lus Askiv x tsis yog RPA x.
+Y | /waɪ/ | Y loj, y me | yes. Lub npe zoo li why.
+Z | /ziː/ | Z loj, z me | zero. Amelika: /ziː/ (zee). Tsis yog RPA z.
 `,
-/* deck 22 (hmn-en extra deck for the extra lesson final-sounds, profile hmn.md §8): copied from tools/content/vi/decks.js by the stage-1 lead. Keep the English targets and IPA; the Vietnamese meanings and notes are placeholders to rewrite in White Hmong; rename the deck per DECKNAMES.md row 22 (and the deck link in more/a1.js final-sounds). */
-"Âm cuối": `
-six | /sɪks/ | số 6 | Cụm phụ âm cuối /ks/. Chỉ đọc /k/ sẽ thành "sick".
-sick | /sɪk/ | ốm / bệnh | Âm cuối /k/, giống “c” cuối tiếng Việt nhưng được bật nhẹ ra.
-bag | /bæg/ | cái túi | Âm cuối /g/ hữu thanh, nguyên âm kéo dài hơn. Đọc thành /k/ sẽ thành "back".
-back | /bæk/ | phía sau / lưng | Âm cuối /k/ vô thanh; nguyên âm ngắn hơn "bag".
-dog | /dɑːg/ | con chó | Âm cuối /g/. Đọc kiểu “đóc” là thành "dock".
-dock | /dɑːk/ | bến tàu | Âm cuối /k/ vô thanh.
-seed | /siːd/ | hạt giống | Âm cuối /d/ hữu thanh. Đọc kiểu “sít” là thành "seat".
-seat | /siːt/ | chỗ ngồi | Âm cuối /t/ vô thanh.
-rise | /raɪz/ | tăng lên / mọc (mặt trời) | Âm cuối /z/ rung dây thanh; "rice" (bộ Phát âm dễ sai) kết thúc bằng /s/.
-nine | /naɪn/ | số 9 | Âm cuối /n/. Đừng nhầm với "night" (âm cuối /t/, bộ Phát âm dễ sai).
-card | /kɑːrd/ | thẻ / tấm thiệp | Âm cuối /rd/: bỏ /d/ sẽ thành "car".
-car | /kɑːr/ | xe ô tô / xe hơi | Kết thúc bằng /r/, không có /d/.
-wash | /wɑːʃ/ | rửa / giặt | Âm cuối /ʃ/ kéo dài được. Phân biệt với "watch".
-watch | /wɑːtʃ/ | xem / đồng hồ đeo tay | Âm cuối /tʃ/ bật ra. Đừng đọc thành "wash".
-mice | /maɪs/ | lũ chuột | Âm cuối /s/: số nhiều bất quy tắc của "mouse". Bỏ /s/ sẽ thành "my".
-my | /maɪ/ | của tôi | Không có phụ âm cuối. Phân biệt với "mice".
-books | /bʊks/ | những quyển sách | Đuôi -s đọc /s/ sau âm vô thanh /k/: cụm /ks/.
-dogs | /dɑːgz/ | những con chó | Đuôi -s đọc /z/ sau âm hữu thanh /g/.
-buses | /ˈbʌsɪz/ | những chiếc xe buýt | Đuôi -es đọc /ɪz/ sau /s/, thêm một âm tiết.
-watched | /wɑːtʃt/ | đã xem | Đuôi -ed đọc /t/ sau âm vô thanh /tʃ/.
-played | /pleɪd/ | đã chơi | Đuôi -ed đọc /d/ sau nguyên âm.
-wanted | /ˈwɑːntɪd/ | đã muốn | Đuôi -ed đọc /ɪd/ sau /t/, thêm một âm tiết.
-last | /læst/ | cuối cùng / vừa qua | Cụm phụ âm cuối /st/: đọc cả /s/ lẫn /t/.
-next | /nekst/ | tiếp theo | Cụm phụ âm cuối /kst/.
-desks | /desks/ | những cái bàn làm việc | Cụm phụ âm cuối /sks/ — khó, nhưng phải đọc đủ thì người nghe mới biết là số nhiều.
-months | /mʌnθs/ | những tháng | Cụm phụ âm cuối /nθs/: đưa lưỡi ra giữa răng cho /θ/ rồi đến /s/.
-asked | /æskt/ | đã hỏi | Cụm phụ âm cuối /skt/: đuôi -ed đọc /t/.
-students | /ˈstuːdənts/ | những học sinh | Cụm phụ âm cuối /nts/: đuôi -s số nhiều sau /t/.
-hobby | /ˈhɑːbi/ | sở thích | Không có phụ âm cuối: đừng thêm /s/ khi chỉ nói một sở thích ("my hobby", không phải "my hobbies").
+"Final sounds: -s, -ed": `
+six | /sɪks/ | Rau | ks kawg. Hais k xwb yuav ua sick.
+sick | /sɪk/ | Mob | k kawg: hais kom hnov. RPA tsis muaj k kawg.
+bag | /bæg/ | Lub hnab | g kawg, muaj suab caj pas. Hais k yuav ua back.
+back | /bæk/ | Nraub qaum; tom qab | k kawg. Vowel luv tshaj bag.
+dog | /dɑːg/ | Dev | g kawg. Hais k yuav ua dock.
+dock | /dɑːk/ | Chaw nres nkoj | k kawg.
+seed | /siːd/ | Noob | d kawg, muaj suab caj pas. Hais t yuav ua seat.
+seat | /siːt/ | Rooj zaum | t kawg.
+rise | /raɪz/ | Nce; tawm (hnub) | z kawg; rice (Pronunciation: hais ua tib zoo) muaj s kawg.
+nine | /naɪn/ | Cuaj | n kawg. Tsis yog night (t kawg).
+card | /kɑːrd/ | Daim card; daim ntawv | rd kawg: tsis hais d yuav ua car.
+car | /kɑːr/ | Lub tsheb | r kawg, tsis muaj d.
+wash | /wɑːʃ/ | Ntxuav | sh kawg, hais tau ntev. Tsis yog watch.
+watch | /wɑːtʃ/ | Saib; nalika | ch kawg, hais ib zaug. Tsis yog wash.
+mice | /maɪs/ | Cov nas tsuag | s kawg: plural ntawm mouse. Tsis hais s yuav ua my.
+my | /maɪ/ | Kuv (kuv lub, kuv tus) | Tsis muaj consonant kawg. Tsis yog mice.
+books | /bʊks/ | Cov phau ntawv | -s hais /s/ tom qab k: ks.
+dogs | /dɑːgz/ | Cov dev | -s hais /z/ tom qab g.
+buses | /ˈbʌsɪz/ | Cov tsheb ntiav | -es hais /ɪz/ tom qab s: muaj ib qho ntxiv.
+watched | /wɑːtʃt/ | Tau saib (past tense) | -ed hais /t/ tom qab ch.
+played | /pleɪd/ | Tau ua si (past tense) | -ed hais /d/ tom qab vowel.
+wanted | /ˈwɑːntɪd/ | Tau xav (past tense) | -ed hais /ɪd/ tom qab t: muaj ib qho ntxiv.
+last | /læst/ | Kawg; dhau los | st kawg: hais s thiab t.
+next | /nekst/ | Tom ntej | kst kawg.
+desks | /desks/ | Cov rooj sau ntawv | sks kawg: nyuaj, tab sis yuav tsum hais kom neeg paub tias yog plural.
+months | /mʌnθs/ | Cov hli | nθs kawg: nplaig nruab nrab hniav rau θ, ces s.
+asked | /æskt/ | Tau nug (past tense) | skt kawg: -ed hais /t/.
+students | /ˈstuːdənts/ | Cov tub ntxhais kawm ntawv | nts kawg: plural -s tom qab t.
+hobby | /ˈhɑːbi/ | Yam koj nyiam ua thaum so | Tsis muaj consonant kawg: my hobby (ib yam), tsis yog my hobbies.
+`,
+"Kuv thiab kuv tsev neeg": `
+mother | /ˈmʌðɚ/ | Niam | Hu niam: Mom. th nruab nrab muaj suab caj pas.
+father | /ˈfɑːðɚ/ | Txiv | Hu txiv: Dad.
+parents | /ˈperənts/ | Niam txiv | Ib tug: parent. My parents live in Fresno.
+son | /sʌn/ | Tub | Zoo li sun (hnub) hais.
+daughter | /ˈdɑːtɚ/ | Ntxhais | gh tsis hais.
+brother | /ˈbrʌðɚ/ | Tij laug, kwv (txiv neej hais); nus (poj niam hais) | Lus Askiv muaj ib lo lus xwb. Hais older brother los yog younger brother.
+sister | /ˈsɪstɚ/ | Muam (txiv neej hais); viv ncaus (poj niam hais) | Lus Askiv muaj ib lo lus xwb: older sister, younger sister.
+grandmother | /ˈgrænmʌðɚ/ | Pog, niam tais | Hu: Grandma. Lus Askiv tsis qhia sab txiv los yog sab niam.
+grandfather | /ˈgrænfɑːðɚ/ | Yawg, yawm txiv | Hu: Grandpa.
+husband | /ˈhʌzbənd/ | Tus txiv | Hauv lus Askiv, husband thiab father yog ob lo lus.
+wife | /waɪf/ | Tus poj niam | Plural: wives.
+children | /ˈtʃɪldrən/ | Cov me nyuam | Plural ntawm child (ib tug me nyuam). childs ✗
+She's my mother. | /ʃiz maɪ ˈmʌðɚ/ | Nws yog kuv niam. | nws = he, she, it. Poj niam: she.
+He's my son. | /hiz maɪ sʌn/ | Nws yog kuv tus tub. | Txiv neej: he.
+It's our dog. | /ɪts‿aʊr dɑːg/ | Nws yog peb tus dev. | Tsiaj los yog khoom: it. Dev thiab miv, neeg kuj hais he los yog she.
+I know him. | /aɪ noʊ hɪm/ | Kuv paub nws (txiv neej). | Tom qab verb: him, her, it. I know he ✗
+I saw her yesterday. | /aɪ sɑː hɝː ˈjestɚdeɪ/ | Nag hmo kuv pom nws (poj niam). | her tom qab verb. I saw she ✗
+His name is Tou. | /hɪz neɪm‿ɪz tuː/ | Nws (txiv neej) lub npe hu ua Tou. | Ntawm txiv neej: his. Ntawm poj niam: her.
+They're my brothers. | /ðer maɪ ˈbrʌðɚz/ | Lawv yog kuv cov tij laug thiab kwv. | lawv = they. Ntau tus: plural -s, brothers.
+Their house is big. | /ðer haʊs‿ɪz bɪg/ | Lawv lub tsev loj. | lawv lub = their. Muaj is ua ntej big.
+`,
+"Lus Hmoob thiab lus Askiv": `
+a blue dress | /ə bluː dres/ | Ib lub cev tiab xiav | Lus Hmoob: xim tom qab. Lus Askiv: adjective ua ntej. dress blue ✗ → a blue dress ✓
+my red car | /maɪ red kɑːr/ | Kuv lub tsheb liab | kuv ua ntej, zoo li lus Hmoob; liab (red) ua ntej car. car red my ✗
+this big house | /ðɪs bɪg haʊs/ | Lub tsev loj no | no (this) nyob kawg hauv lus Hmoob; this nyob ua ntej hauv lus Askiv. house big this ✗
+four dogs | /fɔːr dɑːgz/ | Plaub tug dev | Lus Hmoob tsis muaj -s. Lus Askiv: plural -s. four dog ✗
+I'm a teacher. | /aɪm‿ə ˈtiːtʃɚ/ | Kuv yog ib tug xib fwb. | Muaj am thiab article a. I teacher ✗ → I'm a teacher. ✓
+I'm happy. | /aɪm ˈhæpi/ | Kuv zoo siab. | Lus Hmoob tsis muaj yog ua ntej zoo siab; lus Askiv yuav tsum muaj am. I happy ✗
+I live in Fresno. | /aɪ lɪv‿ɪn ˈfreznoʊ/ | Kuv nyob Fresno. | live yog verb, tsis muaj am. I am live in Fresno ✗
+He hit him. | /hi hɪt hɪm/ | Nws ntaus nws. | Lus Hmoob nws ob zaug; lus Askiv he … him. He hit he ✗
+She works at a clinic. | /ʃi wɝːks‿ət‿ə ˈklɪnɪk/ | Nws (poj niam) ua hauj lwm hauv tsev kho mob. | Lus Hmoob verb tsis hloov. Lus Askiv: she + works (-s). She work ✗
+He doesn't know. | /hi ˈdʌzənt noʊ/ | Nws (txiv neej) tsis paub. | he, she, it: doesn't. He don't know ✗
+Do you go to school? | /duː ju goʊ tə skuːl/ | Koj puas mus kawm ntawv? | Lus Hmoob puas ua ntej verb. Lus Askiv: Do ua ntej. You go to school? ✗
+Where are you going? | /wer ɑːr ju ˈgoʊɪŋ/ | Koj mus qhov twg? | Lus Hmoob qhov twg nyob kawg. Lus Askiv: Where ua ntej. You go where? ✗
+Yesterday I went to the store. | /ˈjestɚdeɪ aɪ went tə ðə stɔːr/ | Nag hmo kuv mus tom khw. | Lus Hmoob mus tsis hloov. Lus Askiv: go hloov ua went. Yesterday I go ✗
+I've already eaten. | /aɪv‿ɑːlˈredi ˈiːtən/ | Kuv twb noj mov lawm. | twb … lawm ≈ already. I already eat ✗ → I've already eaten. ✓
+Have you eaten yet? | /hæv ju ˈiːtən jet/ | Koj noj mov lawm los tsis yog? | Hauv lus Hmoob yog lus nyob zoo. Hauv lus Askiv yog lo lus nug tiag: neeg yuav caw koj noj mov.
+I'll give you the book. | /aɪl gɪv ju ðə bʊk/ | Kuv muab phau ntawv rau koj. | Lus Hmoob muab … rau. Lus Askiv: give + leej twg + yam. I take book give you ✗
+It's raining. | /ɪts ˈreɪnɪŋ/ | Los nag. | Lus Hmoob tsis muaj subject. Lus Askiv yuav tsum muaj it. Is raining ✗
+There's a store near here. | /ðerz‿ə stɔːr nɪr hɪr/ | Muaj ib lub khw nyob ze qhov no. | muaj = have thiab there is. Have a store near here ✗ → There's a store near here. ✓
+I want to go home. | /aɪ wɑːnt tə goʊ hoʊm/ | Kuv xav mus tsev. | Lus Hmoob verb ua ke. Lus Askiv: want to + verb. I want go home ✗
+`,
+"Nyob hauv Amelika": `
+I'd like to make an appointment. | /aɪd laɪk tə meɪk‿ən‿əˈpɔɪntmənt/ | Kuv xav teem sij hawm. | Hais rau tsev kho mob los yog chaw ua hauj lwm hauv xov tooj.
+I have an appointment at ten. | /aɪ hæv‿ən‿əˈpɔɪntmənt‿ət ten/ | Kuv teem sij hawm kaum teev. | at + teev: at ten, at 2:30.
+Please speak slowly. | /pliːz spiːk ˈsloʊli/ | Thov hais maj mam. | Thov = please. Hais thaum koj tsis nkag siab.
+Is there a Hmong-speaking doctor? | /ɪz ðer ə ˈmɑːŋ ˌspiːkɪŋ ˈdɑːktɚ/ | Puas muaj kws kho mob hais lus Hmoob? | Yog tsis muaj, nug neeg txhais lus.
+I have Medical Assistance. | /aɪ hæv ˈmedɪkəl əˈsɪstəns/ | Kuv muaj Medical Assistance. | Nyob Minnesota, hu ua MA. Nqa koj daim card mus.
+Do I need to pay? | /duː aɪ niːd tə peɪ/ | Kuv puas yuav tsum them nqi? | need to + verb.
+Where do I sign? | /wer duː aɪ saɪn/ | Kuv kos lub npe qhov twg? | sign: g tsis hais.
+Please fill out this form. | /pliːz fɪl‿aʊt ðɪs fɔːrm/ | Thov sau daim ntawv no. | fill out (Phrasal verbs). Sau koj lub npe thiab koj chaw nyob.
+What's your address? | /wʌts jʊr ˈædres/ | Koj chaw nyob yog qhov twg? | Teb: tus lej tsev, txoj kev, lub nroog.
+My daughter goes to school here. | /maɪ ˈdɑːtɚ goʊz tə skuːl hɪr/ | Kuv tus ntxhais kawm ntawv qhov no. | goes to school, tsis muaj the.
+This is my child's teacher. | /ðɪs‿ɪz maɪ tʃaɪldz ˈtiːtʃɚ/ | Nov yog kuv tus me nyuam tus xib fwb. | child's = ntawm kuv tus me nyuam.
+My kids are at school. | /maɪ kɪdz‿ɑːr‿ət skuːl/ | Kuv cov me nyuam nyob tom tsev kawm ntawv. | kids = children. at school: tsis muaj the.
+Which bus goes to the clinic? | /wɪtʃ bʌs goʊz tə ðə ˈklɪnɪk/ | Lub tsheb ntiav twg mus tsev kho mob? | goes: bus yog ib lub (he, she, it).
+The bus is late. | /ðə bʌs‿ɪz leɪt/ | Lub tsheb ntiav tseem tsis tuaj. | late = lig.
+It's snowing. | /ɪts ˈsnoʊɪŋ/ | Los daus. | Zoo li It's raining: it + be + -ing.
+It's very cold today. | /ɪts ˈveri koʊld təˈdeɪ/ | Hnub no no heev. | Lus Hmoob no = cold thiab this. cold yog adjective, muaj is.
+My grandma doesn't speak English. | /maɪ ˈgrænmɑː ˈdʌzənt spiːk ˈɪŋglɪʃ/ | Kuv pog tsis hais lus Askiv. | grandma = pog los yog niam tais. she → doesn't.
+We're going to the Hmong New Year. | /wɪr ˈgoʊɪŋ tə ðə mɑːŋ nuː jɪr/ | Peb mus noj peb caug. | Hmong New Year = noj peb caug. Muaj nyob Fresno, St. Paul thiab ntau lub nroog.
+Happy Hmong New Year! | /ˈhæpi mɑːŋ nuː jɪr/ | Nyob zoo xyoo tshiab! | Teb: Thank you, you too!
 `,
 };
