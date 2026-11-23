@@ -1,0 +1,103 @@
+name: iOS app
+
+# Builds the Capacitor iOS shell on a GitHub-hosted Mac (no local Mac needed).
+#  - Every run: compiles the app for the iOS Simulator, to prove the project builds.
+#  - "Upload to TestFlight" ticked: also signs the app and sends it to App Store Connect.
+#    That part needs the four secrets listed in native/README.md.
+on:
+  workflow_dispatch:
+    inputs:
+      testflight:
+        description: Upload to TestFlight (needs the Apple secrets)
+        type: boolean
+        default: false
+  push:
+    branches: [native-wrapper]
+    paths: ['native/**', '.github/workflows/ios.yml']
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ios:
+    runs-on: macos-26   # Capacitor 8 needs Xcode 26
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: native
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Capacitor
+        run: npm install --no-audit --no-fund
+
+      - name: Bundle the website
+        run: npm run prepare-web
+
+      - name: Create the iOS project
+        run: |
+          npx cap add ios
+          npx cap sync ios
+          npm run ios:configure
+
+      - name: Work out version numbers
+        id: ver
+        run: |
+          VERSION=$(node -p "require('./www/native-build.json').version")
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "build=${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+          if [ -d ios/App/App.xcworkspace ]; then echo "target=-workspace ios/App/App.xcworkspace" >> "$GITHUB_OUTPUT"; else echo "target=-project ios/App/App.xcodeproj" >> "$GITHUB_OUTPUT"; fi
+          xcodebuild -version
+
+      - name: Build for the iOS Simulator (unsigned)
+        run: |
+          xcodebuild ${{ steps.ver.outputs.target }} -scheme App -configuration Debug \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build \
+            MARKETING_VERSION=${{ steps.ver.outputs.version }} CURRENT_PROJECT_VERSION=${{ steps.ver.outputs.build }} \
+            CODE_SIGNING_ALLOWED=NO build
+          cd build/Build/Products/Debug-iphonesimulator && zip -qr "$GITHUB_WORKSPACE/LangApp-simulator.zip" App.app
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LangApp-simulator-${{ steps.ver.outputs.version }}-${{ steps.ver.outputs.build }}
+          path: LangApp-simulator.zip
+          retention-days: 14
+
+      - name: Archive, sign and upload to TestFlight
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.testflight }}
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          for v in ASC_KEY_ID ASC_ISSUER_ID ASC_KEY_P8 APPLE_TEAM_ID; do
+            if [ -z "${!v}" ]; then echo "::error::Secret $v is not set. See native/README.md."; exit 1; fi
+          done
+          KEY="$RUNNER_TEMP/AuthKey_$ASC_KEY_ID.p8"
+          printf '%s' "$ASC_KEY_P8" > "$KEY"
+          AUTH=(-allowProvisioningUpdates -authenticationKeyPath "$KEY" -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID")
+          xcodebuild ${{ steps.ver.outputs.target }} -scheme App -configuration Release \
+            -destination 'generic/platform=iOS' -archivePath "$RUNNER_TEMP/LangApp.xcarchive" \
+            MARKETING_VERSION=${{ steps.ver.outputs.version }} CURRENT_PROJECT_VERSION=${{ steps.ver.outputs.build }} \
+            DEVELOPMENT_TEAM="$APPLE_TEAM_ID" CODE_SIGN_STYLE=Automatic \
+            "${AUTH[@]}" archive
+          cat > "$RUNNER_TEMP/export.plist" <<EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>destination</key><string>upload</string>
+            <key>teamID</key><string>$APPLE_TEAM_ID</string>
+            <key>signingStyle</key><string>automatic</string>
+          </dict></plist>
+          EOF
+          xcodebuild -exportArchive -archivePath "$RUNNER_TEMP/LangApp.xcarchive" \
+            -exportOptionsPlist "$RUNNER_TEMP/export.plist" -exportPath "$RUNNER_TEMP/export" "${AUTH[@]}"
+          rm -f "$KEY"

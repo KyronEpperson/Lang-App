@@ -10,6 +10,6 @@ Lang App is an installable PWA, so the stores can take it with a thin wrapper �
 
 ## Apple App Store
 - Needs an Apple Developer account ($99/yr) and Xcode → requires a Mac, or a cloud Mac (MacinCloud, GitHub Actions macOS runner, Codemagic).
-- PWABuilder → **iOS** produces an Xcode project; or wrap with Capacitor.
+- The Capacitor wrapper lives in `native/` and builds on a GitHub Actions Mac (Actions → **iOS app**). Setup steps and the secrets needed for TestFlight are in `native/README.md`.
 - Apple rejects thin web wrappers unless the app adds value; the offline mode, audio, home-screen install and account features help — consider adding push reminders (study-time notifications) before submitting.
 - Required: privacy policy URL, in-app account deletion (done), Sign in with Apple only if you add other social logins (email OTP alone is fine).
