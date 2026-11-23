@@ -1,0 +1,56 @@
+{"id":"ko.d.hangul-vowels","label":"韓文元音","desc":"10 個基本元音，識讀就拼得出任何字。羅馬拼音唔係粵拼：eo 係一個唇唔圓嘅元音，唔係「出（ceot1）」嗰個；eu 係唇扁、舌向後縮嘅元音；ae 同 e 而家讀法一樣。"}
+{"id":"ko.d.hangul-consonants","label":"韓文輔音","desc":"14 個基本輔音，同埋佢哋喺音節尾點樣變。j 唔係粵拼 j，近似「之（zi1）」嘅 z；g 比粵拼 g 鬆；ch 近似「車（ce1）」；h 好輕；r 係舌尖輕彈一下。"}
+{"id":"ko.d.hangul-advanced","label":"韓文進階字母","desc":"緊音、送氣音、複合元音同雙收音。kk、tt、pp、ss、jj 係緊音：喉嚨收緊、完全唔送氣，唔係長音。"}
+{"id":"ko.d.pronunciation-tips","label":"發音貼士","desc":"令實際讀音同寫法唔同嘅發音規則。"}
+{"id":"ko.d.survival-phrases","label":"必備短句","desc":"喺韓國過一日要用嘅 12 句。"}
+{"id":"ko.d.introductions","label":"自我介紹","desc":"名、由邊度嚟、年紀、工作、興趣：初次見面嘅對白。"}
+{"id":"ko.d.survival-phrases-2","label":"必備短句 2","desc":"求助、叫人再講一次、埋單、蕩失路。"}
+{"id":"ko.d.asking-around","label":"搵地方","desc":"洗手間、出口、座位、Wi-Fi、營業時間：所有「喺邊度」嘅問題。"}
+{"id":"ko.d.cafe-convenience-store","label":"咖啡店同便利店","desc":"大細杯、熱定凍、積分卡、叮熱嘢食、膠袋。"}
+{"id":"ko.d.numbers-in-the-wild","label":"日常數字","desc":"價錢、電話號碼、樓層同時間，睇吓實際點寫。"}
+{"id":"ko.d.counters","label":"量詞","desc":"點樣數嘢、數人、杯、樽同動物。"}
+{"id":"ko.d.weather-feelings","label":"天氣同心情","desc":"講天氣同講心情，最常用嘅兩個開場白。"}
+{"id":"ko.d.connectors","label":"連接詞","desc":"同埋、所以、但係、然後：講故事嘅黐膠。"}
+{"id":"ko.d.doctor-pharmacy","label":"睇醫生同藥房","desc":"病徵、藥物、敏感、處方。"}
+{"id":"ko.d.housing-errands","label":"租屋同雜務","desc":"租金、按金、包裹、回收、洗衫。"}
+{"id":"ko.d.honorifics","label":"尊敬形","desc":"抬高主語：드시다、주무시다、계시다 同 -(으)시-。"}
+{"id":"ko.d.places-buildings","label":"地方同建築","desc":"咖啡店、健身室、圖書館、博物館、屋企：講去邊度嗰陣用嘅地方。"}
+{"id":"ko.d.hobbies","label":"興趣","desc":"用地道嘅詞語答 취미가 뭐예요?"}
+{"id":"ko.d.food-words","label":"食物","desc":"每張餐牌都會見到嘅菜式同食材。"}
+{"id":"ko.d.drinks","label":"飲品","desc":"咖啡、茶、燒酒、啤酒，同埋點樣再叫多一杯。"}
+{"id":"ko.d.activities","label":"日常活動","desc":"日常「我做 X」嘅動詞，用禮貌體。"}
+{"id":"ko.d.tv-entertainment","label":"影視娛樂","desc":"韓劇、綜藝節目、類型、集數、煲劇。"}
+{"id":"ko.d.position-direction-words","label":"方位詞","desc":"上面、隔籬、對面、出口同樓層：講嘢擺喺邊，同埋搵嘢。"}
+{"id":"ko.d.core-verbs","label":"核心動詞","desc":"日日都會用嘅 12 個動詞，用禮貌體。"}
+{"id":"ko.d.particles","label":"助詞","desc":"標記話題、主語、賓語同地點嘅助詞。"}
+{"id":"ko.d.numbers","label":"數字","desc":"固有詞數字同漢字詞數字，同埋幾時用邊套。"}
+{"id":"ko.d.sweet-talk","label":"甜言蜜語","desc":"可愛、靚、掛住你：講畀親密嘅人聽。"}
+{"id":"ko.d.cute-things-to-say","label":"暖心說話","desc":"令人窩心嘅讚美同關心說話。"}
+{"id":"ko.d.flirting","label":"搭訕","desc":"攞電話、約人出街、講出心意。"}
+{"id":"ko.d.casual-texting","label":"短訊用語","desc":"KakaoTalk 縮寫，同埋朋友之間真係會傳嘅訊息。"}
+{"id":"ko.d.hype-cool","label":"讚人同打氣","desc":"朋友之間嘅讚美、打氣同潮語。"}
+{"id":"ko.d.hanging-out","label":"約朋友出街","desc":"約人、傾去邊度同幾點、散場收尾。"}
+{"id":"ko.d.k-pop-fan-culture","label":"K-pop 追星","desc":"由 최애 到 떼창 嘅追星詞彙。"}
+{"id":"ko.d.social-media-slang","label":"社交媒體同潮語","desc":"Instagram、改圖同而家流行嘅潮語。"}
+{"id":"ko.d.dating-deeper","label":"拍拖進階","desc":"確認關係、真心讚美、道歉、畀對方安心。"}
+{"id":"ko.d.work-office","label":"職場","desc":"開會、死線、問同事、準時收工、회식。"}
+{"id":"ko.d.small-talk","label":"閒聊","desc":"講近況、天氣、週末計劃，同埋得體咁講再見。"}
+{"id":"ko.d.food-ordering","label":"叫嘢食","desc":"叫嘢食、食物嘅量詞、食飯前後嗰兩句。"}
+{"id":"ko.d.directions-transport","label":"問路同交通","desc":"左右直行、地鐵、巴士、的士用語。"}
+{"id":"ko.d.time-days","label":"時間同日子","desc":"今日聽日、星期幾、而家幾點。"}
+{"id":"ko.d.family-people","label":"家人同稱呼","desc":"媽媽、爸爸、兄弟姊妹、朋友、老師，同埋年紀點樣改變稱呼。"}
+{"id":"ko.d.adjectives","label":"形容詞","desc":"好、差、大、細、熱、凍、忙、好玩。"}
+{"id":"ko.d.k-drama-phrases","label":"韓劇對白","desc":"每集都會聽到嘅反應同對白。"}
+{"id":"ko.d.top-nouns","label":"常用名詞","desc":"課程未教、最常用嘅韓文名詞，最常見嘅排先。"}
+{"id":"ko.d.top-verbs","label":"常用動詞","desc":"原形動作動詞；備註寫出 해요 形，同埋標出不規則動詞。"}
+{"id":"ko.d.top-adjectives","label":"常用形容詞","desc":"形容詞（韓文形容詞會好似動詞咁變）：해요 形，同埋放喺名詞前面嘅形。"}
+{"id":"ko.d.top-adverbs","label":"常用副詞","desc":"時間、程度、頻率同方式嘅詞：好、已經、成日、點解、點樣。"}
+{"id":"ko.d.top-pronouns","label":"常用代詞","desc":"我、你、呢個、邊個、冇人，同埋點解通常用名或者稱呼代替「你」。"}
+{"id":"ko.d.top-particles","label":"更多助詞","desc":"廣東話靠語序，韓文靠助詞：呢度係「助詞」卡組九個以外嘅助詞。"}
+{"id":"ko.d.top-connectors","label":"更多連接詞","desc":"連接詞尾（-고、-지만、-아서、-(으)면……）接喺動詞上，加埋「連接詞」卡組冇嘅連接詞。"}
+{"id":"ko.d.top-interjections","label":"常用感嘆詞","desc":"韓國人真正會講嘅感嘆詞：嘩、哎呀、弊、呼、噹噹，同埋邊個會講。"}
+{"id":"ko.d.top-words","label":"實用小詞","desc":"名詞前面嘅呢個 / 嗰個 / 邊個、數字形式、日子同時間，同埋講「係」同「唔係」嘅講法。"}
+{"id":"ko.d.top-counters","label":"更多量詞","desc":"「量詞」卡組冇嘅量詞：車、份、卷、片、分鐘、月。"}
+{"id":"ko.d.flirting-words","label":"戀愛詞彙","desc":"韓國人溝仔溝女用嘅詞、用佢哋砌成嘅句子，同埋有禮貌咁答應或者拒絕。"}
+{"id":"ko.d.compliments","label":"日常稱讚","desc":"讚嘢食、工作、屋企同小朋友嘅日常講法，同埋謙虛咁回應。"}
+{"id":"ko.d.countries","label":"國家同地區","desc":"所有國家同地區，最多人問嘅排先。國名 + 에서 왔어요 = 我由……嚟；+ 사람 = 國籍；+ 어 = 語言。"}

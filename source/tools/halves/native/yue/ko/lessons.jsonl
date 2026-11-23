@@ -1,0 +1,33 @@
+{"id":"hangul","title":"1 · 一次過學識韓文字母","blurb":"字母表：14 個輔音、10 個元音，同音節塊點砌。","_waive":["hangul"],"_note":"Body adds Hangul the English body lacks so the reading guide (profile yue-ko 4.1/4.4) can show a Cantonese reader how each romanization letter is said: the jamo ㅢ ㅘ ㅝ ㅟ ㅚ ㅞ ㅙ, the tense letters ㄲ ㄸ ㅃ ㅉ ㅆ, ㄹ outside the strokes token, and the examples 삼, 서울, 밥, 학, 나, 라, 감사합니다, 학교, 학꾜. Also one extra <h3> for the guide, as the profile asks."}
+{"id":"polite","title":"2 · 禮貌等級","blurb":"點解每個動詞都有兩款詞尾，平時用邊款。"}
+{"id":"meet","title":"3 · 識新朋友","blurb":"自我介紹，問四條常見問題，講啱個再見。"}
+{"id":"sound-changes","title":"4 · 音變：點解 감사합니다 讀落唔同","blurb":"四個習慣，令韓文講出嚟同寫出嚟唔一樣。預先知道，就唔會嚇親。"}
+{"id":"nouns","title":"5 · 名詞同 은/는","blurb":"物件嘅名、呢個 / 嗰個、이에요/예요，同話題助詞 은/는。"}
+{"id":"isseoyo","title":"6 · 있어요 同 없어요","blurb":"有 / 冇、喺邊度、主格助詞 이/가，同表示位置嘅 에。"}
+{"id":"pronouns-questions","title":"7 · 代詞同疑問詞","blurb":"我、我哋、呢個、嗰個、呢度、嗰度，再加七個疑問詞，等你真係傾到偈。"}
+{"id":"verbbasics","title":"8 · 動詞","blurb":"動詞原形都用 다 收尾，唔會因為「我 / 你 / 佢」而變；形容詞都好似動詞咁變。"}
+{"id":"verbs","title":"9 · 現在式：요體","blurb":"將任何動詞原形變成禮貌體現在式：아요、어요 或者 해요。"}
+{"id":"past","title":"10 · 過去式：았어요 / 었어요","blurb":"攞 요體，將 요 換做 ㅆ어요，就講得到尋日嘅事。"}
+{"id":"future","title":"11 · 將來同計劃：-(으)ㄹ 거예요","blurb":"講你會做乜，同估下乜嘢大概會發生。"}
+{"id":"sov","title":"12 · 語序同 을/를","blurb":"主語—賓語—動詞、賓格助詞 을/를，同幾時可以省略。"}
+{"id":"particles","title":"13 · 에 同 에서，仲有助詞總表","blurb":"에：去邊、嘢喺邊、幾時；에서：喺邊度做嘢、由邊度嚟。"}
+{"id":"negation","title":"14 · 講「唔」：안 同 -지 않아요","blurb":"안 + 動詞、공부 안 해요、-지 않아요，名詞用 아니에요，仲有 없어요。"}
+{"id":"do-man","title":"15 · 도 同 만：都、淨係","blurb":"도（都）同 만（淨係）會取代 은/는、이/가、을/를，但係喺 에 同 에서 後面就疊上去。"}
+{"id":"sentences","title":"16 · 將名詞同動詞砌成句子","blurb":"四種句型，講得出你大部分想講嘅嘢，再教你點樣將句子加長。"}
+{"id":"want-like","title":"17 · 想同鍾意：-고 싶어요、좋아해요","blurb":"講你想做乜、鍾意乜。兩個日日都用到嘅句式。"}
+{"id":"numbers","title":"18 · 兩套數字","blurb":"固有詞數字用嚟數嘢、講年齡同幾點；漢字詞數字用嚟講錢、幾多分同日期。"}
+{"id":"food","title":"19 · 出街食飯","blurb":"叫嘢食、量詞，同埋人人都講嘅兩句食飯用語。"}
+{"id":"getting-around","title":"20 · 搭車問路","blurb":"問路、聽明個答案、搭的士同地鐵。"}
+{"id":"titles","title":"21 · 點樣稱呼人","blurb":"씨、님、오빠/언니：點樣叫人，幾時直接叫名會冇禮貌。"}
+{"id":"plans","title":"22 · 約人","blurb":"提議、邀請、答應：ㄹ까요 / ㄹ래요 / 자，同埋 같이。"}
+{"id":"texting","title":"23 · 好似本地人咁傳訊息","blurb":"ㅋㅋ、ㅠㅠ、省略助詞，同埋人人喺 KakaoTalk 都用嘅縮寫。"}
+{"id":"counters","title":"24 · 量詞","blurb":"冇量詞，連「兩杯咖啡」都講唔到。日常用得着嘅十個量詞。"}
+{"id":"joining","title":"25 · 連接句子：-고、-지만、-아/어서","blurb":"同埋、但係、所以。三個詞尾，將兩句短句變成一句自然嘅句子。"}
+{"id":"story","title":"26 · 用過去式講故事","blurb":"用 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로 將過去式句子串埋一齊。"}
+{"id":"noun-modifiers","title":"27 · 形容名詞：좋은 날씨、큰 가방","blurb":"將形容詞擺喺名詞前面：大嘅袋、好天氣、辣嘅嘢食。"}
+{"id":"compare","title":"28 · 比較：보다、더、제일","blurb":"平過、多啲、冇咁、最好。比較同揀嘢要用嘅嘢全部喺度。"}
+{"id":"cant","title":"29 · 做唔到、做得到同唔知","blurb":"못 同 안、-(으)ㄹ 수 있어요 / 없어요，同埋 몰라요 同 모르겠어요。"}
+{"id":"have-to","title":"30 · 一定要：-아/어야 해요","blurb":"講你要做乜、問人使唔使做，同埋講唔使做。"}
+{"id":"honorific","title":"31 · 尊敬形動詞","blurb":"-(으)시- 同特別動詞：드시다、주무시다、계시다、말씀하시다。"}
+{"id":"requests","title":"32 · 有禮貌咁請求","blurb":"좀、혹시、-아/어 주시겠어요?、-(으)면 안 돼요?：令人答「好」嘅緩和語氣詞。"}
+{"id":"office","title":"33 · 職場韓文","blurb":"職位、수고 呢一家講法、電郵開頭同結尾，同埋點樣捱過 회식。"}
