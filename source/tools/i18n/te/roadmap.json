@@ -242,235 +242,235 @@
    "roadmap": "ko"
   },
   "General (American) English": {
-   "t": "",
+   "t": "సాధారణ (అమెరికన్) ఇంగ్లీష్",
    "ko": "미국식 영어",
    "kind": "variant",
    "roadmap": "en"
   },
   "CEFR A1-B1 order, adjusted for Korean speakers": {
-   "t": "",
+   "t": "CEFR A1–B1 క్రమం, కొరియన్ మాట్లాడేవారి కోసం సర్దుబాటు చేసినది",
    "ko": "CEFR A1-B1 순서 (한국어 화자에 맞게 조정)",
    "kind": "basis",
    "roadmap": "en"
   },
   "A1 · First sentences": {
-   "t": "",
+   "t": "A1 · తొలి వాక్యాలు",
    "ko": "A1 · 첫 문장",
    "kind": "stage",
    "roadmap": "en"
   },
   "The alphabet and spelling aloud": {
-   "t": "",
+   "t": "ఇంగ్లీష్ అక్షరమాల, స్పెల్లింగ్ చెప్పడం",
    "ko": "알파벳과 철자 말하기",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Pronunciation traps: R/L, F/P, TH": {
-   "t": "",
+   "t": "ఉచ్చారణలో చిక్కులు: R/L, F/P, TH",
    "ko": "발음 함정: R/L, F/P, TH",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "be, subject pronouns, every sentence needs a subject": {
-   "t": "",
+   "t": "be, కర్త సర్వనామాలు, ప్రతి వాక్యానికీ కర్త కావాలి",
    "ko": "be동사, 주어 대명사, 주어는 꼭 필요",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "It's cold · there is / there are": {
-   "t": "",
+   "t": "It's cold · there is / there are",
    "ko": "It's cold · there is / there are",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "a / an and the: the basics": {
-   "t": "",
+   "t": "a / an, the: ప్రాథమిక విషయాలు",
    "ko": "a / an과 the 기초",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Plurals, this / these, my / your": {
-   "t": "",
+   "t": "బహువచనం, this / these, my / your",
    "ko": "복수 -s, this / these, my / your",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present simple and subject-verb-object": {
-   "t": "",
+   "t": "Simple Present, కర్త-క్రియ-కర్మ వరుస",
    "ko": "현재 시제와 주어-동사-목적어",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Questions: do, then question words": {
-   "t": "",
+   "t": "ప్రశ్నలు: ముందు do, తర్వాత wh- పదాలు",
    "ko": "의문문: do, 의문사",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "He/she/it: -s, does / doesn't": {
-   "t": "",
+   "t": "He/she/it: -s, does / doesn't",
    "ko": "3인칭 단수 -s, does / doesn't",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "at / in / on": {
-   "t": "",
+   "t": "at / in / on",
    "ko": "전치사 at / in / on",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Countable and uncountable: some, any, much, many": {
-   "t": "",
+   "t": "లెక్కించదగినవి, లెక్కించలేనివి: some, any, much, many",
    "ko": "셀 수 있는 명사: some, any, much, many",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "A1 · Doing things": {
-   "t": "",
+   "t": "A1 · పనులు చేయడం",
    "ko": "A1 · 행동 말하기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Object pronouns and have": {
-   "t": "",
+   "t": "కర్మ సర్వనామాలు, have",
    "ko": "목적격 대명사와 have",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "can, like + -ing, I'd like": {
-   "t": "",
+   "t": "can, like + -ing, I'd like",
    "ko": "can, like + -ing, I'd like",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present continuous vs present simple": {
-   "t": "",
+   "t": "Present Continuous, Simple Present తేడా",
    "ko": "현재진행 vs 현재",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "was / were and regular past -ed": {
-   "t": "",
+   "t": "Simple Past: was / were, -ed",
    "ko": "was / were, 규칙 과거 -ed",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Irregular past, past questions": {
-   "t": "",
+   "t": "ఇర్రెగ్యులర్ క్రియలు (V2), Simple Past ప్రశ్నలు",
    "ko": "불규칙 과거, 과거 의문문",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "the: first vs second mention": {
-   "t": "",
+   "t": "the: మొదటిసారి, రెండోసారి చెప్పినప్పుడు",
    "ko": "the: 처음 말할 때와 다시 말할 때",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Adjectives, comparatives, superlatives": {
-   "t": "",
+   "t": "విశేషణాలు, పోలిక: comparative, superlative",
    "ko": "형용사, 비교급, 최상급",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "going to: plans": {
-   "t": "",
+   "t": "going to: అనుకున్న పనులు",
    "ko": "going to: 계획",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "and, but, or, so, because": {
-   "t": "",
+   "t": "and, but, or, so, because",
    "ko": "and, but, or, so, because",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "A2 · Building range": {
-   "t": "",
+   "t": "A2 · పరిధి పెంచుకోవడం",
    "ko": "A2 · 표현 넓히기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Past continuous": {
-   "t": "",
+   "t": "Past Continuous",
    "ko": "과거진행",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "will vs going to": {
-   "t": "",
+   "t": "will, going to తేడా",
    "ko": "will vs going to",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present perfect: experience": {
-   "t": "",
+   "t": "Present Perfect: అనుభవం",
    "ko": "현재완료: 경험",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "have to, must, should, might": {
-   "t": "",
+   "t": "have to, must, should, might",
    "ko": "have to, must, should, might",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Verb + to or -ing": {
-   "t": "",
+   "t": "క్రియ + to లేదా -ing",
    "ko": "동사 + to / -ing",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "the for one-of-a-kind, no article with plurals": {
-   "t": "",
+   "t": "ఒక్కటే ఉన్నవాటికి the, బహువచనంతో ఆర్టికల్ లేదు",
    "ko": "유일한 것의 the, 복수의 무관사",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "First conditional: if": {
-   "t": "",
+   "t": "if వాక్యాలు 1 (first conditional)",
    "ko": "조건문 1: if",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "who / that: describing people and things": {
-   "t": "",
+   "t": "who / that: మనుషులను, వస్తువులను వర్ణించడం",
    "ko": "관계대명사 who / that",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "B1 · Telling more": {
-   "t": "",
+   "t": "B1 · మరింత వివరంగా చెప్పడం",
    "ko": "B1 · 더 길게 말하기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Present perfect with for / since": {
-   "t": "",
+   "t": "Present Perfect, for / since తో",
    "ko": "현재완료 for / since",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Narrative tenses": {
-   "t": "",
+   "t": "కథ చెప్పే టెన్స్‌లు",
    "ko": "이야기 시제",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Second and third conditional": {
-   "t": "",
+   "t": "if వాక్యాలు 2, 3",
    "ko": "조건문 2, 3",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Passive": {
-   "t": "",
+   "t": "Passive Voice (కర్మణి ప్రయోగం)",
    "ko": "수동태",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Reported speech": {
-   "t": "",
+   "t": "Indirect Speech (పరోక్ష కథనం)",
    "ko": "간접화법",
    "kind": "lesson title",
    "roadmap": "en"
