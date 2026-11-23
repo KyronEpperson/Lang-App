@@ -1,0 +1,9 @@
+{
+  "lessons": {
+    "stative-since": "ur-only lesson (profile ur.md §8 add, §4.2): states vs actions with the continuous (I am knowing ✗, She is having a car ✗), Urdu سے → since / for / from, and سے + رہا ہے → Present Perfect (states) or Present Perfect Continuous (actions), How long…? for کب سے. The most Urdu-specific grammar zone (Groningen handout on Pakistani English; eWAVE 89; the Hindi evidence cited in hi.md); ko-en has no such lesson. Same id and same English side (checks, practice o / a / x, fill q) as hi-en's stative-since; Urdu prompts and why lines written fresh; body rows carry IPA. Practice meets the article-plural standing rule. Placed after perfect-2 (profile.json lessonOrder.after), deck «اپنا تعارف» (deck 2, the deck of perfect-2)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["stative-since"],
+  "droppedLessons": []
+}
