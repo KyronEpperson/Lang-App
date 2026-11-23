@@ -1,0 +1,29 @@
+{
+  "native": "tl",
+  "nativeNameEn": "Tagalog",
+  "name": {
+    "en": "English",
+    "tl": "Ingles"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "pronScript": "ˈ",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "\\barticle|\\bplural|\\bmaramihan|\\bpantukoy|\\bnabibilang",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Ano ang dapat ilagay sa patlang?",
+    "typeHintCue": " — gamitin ang mga salitang ito",
+    "cueTest": "\\b([Aa]ng|[Nn]g|[Mm]ga|[Ss]a|[Aa]y|[Ii]to|[Ii]yan|[Ii]yon|[Aa]no|[Aa]lin|[Ss]ino|[Ss]aan|[Kk]ailan|[Bb]akit|[Pp]aano|[Ii]lan|[Mm]agkano|[Pp]iliin|[Pp]umili|[Tt]ama|[Tt]amang|[Mm]aling|[Ss]alita|[Ss]alitang|[Pp]angungusap|[II]ngles|[Ww]ika|[Gg]amitin|[Ii]sulat|[Ss]agot|[Ss]agutin|[Aa]yusin|[Pp]unan|[Pp]atlang|[Kk]ahulugan|[Ii]big|[Ss]abihin|[Aa]ko|[Ii]kaw|[Kk]a|[Mm]o|[Ss]iya|[Ss]ila|[Kk]ami|[Tt]ayo|[Nn]iya|[Hh]indi|[Ww]ala|[Dd]ahil|[Kk]aya|[Pp]ero|[Dd]in|[Rr]in|[Ii]sa|[Dd]apat|[Kk]ailangan|[Pp]uwede|[Gg]usto|[Bb]ago|[Pp]agkatapos|[Kk]ahapon|[Bb]ukas|[Nn]gayon|[Mm]aramihan|[Ii]sahan|[Aa]nyo|[Tt]anong|[Nn]ang|[Mm]ula|[Hh]anggang|[Tt]ungkol|[Kk]apag|[Ii]lagay|[Bb]igkas|[Tt]unog|[Pp]antukoy|[Mm]arami|[Nn]asaan|[Nn]aman|[Ll]alaki|[Bb]abae)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "pinoy-english": "smalltalk",
+      "aspect-tense": "perfect"
+    }
+  }
+}
