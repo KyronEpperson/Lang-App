@@ -6,9 +6,9 @@ Scope: `ui.json` (784 exact strings, 274 pattern templates) and the 39 English-r
 
 | English | Kannada |
 |---|---|
-| Today / Practice / Review / Lessons / Read / Progress / Feedback (tab bar) | ಇಂದು / ಅಭ್ಯಾಸ / ಪುನರ್ಮನನ / ಪಾಠಗಳು / ಓದು / ಪ್ರಗತಿ / ಅನಿಸಿಕೆ |
+| Today / Practice / Review / Lessons / Read / Progress / Feedback (tab bar) | ಇಂದು / ಅಭ್ಯಾಸ / ರಿವ್ಯೂ / ಪಾಠಗಳು / ಓದು / ಪ್ರಗತಿ / ಅನಿಸಿಕೆ |
 | Drills | ಡ್ರಿಲ್ |
-| review (prose, tab) / review (count label, button) | ಪುನರ್ಮನನ / ಮನನ, ಮನನ ಮಾಡಿ |
+| review (prose, tab, count label) / review (button) | ರಿವ್ಯೂ (ರಿವ್ಯೂಗೆ, ರಿವ್ಯೂನಲ್ಲಿ) / ರಿವ್ಯೂ ಮಾಡಿ |
 | due, left | ಬಾಕಿ |
 | deck / card / session / level / course | ಡೆಕ್ / ಕಾರ್ಡ್ / ಸೆಷನ್ / ಲೆವೆಲ್ / ಕೋರ್ಸ್ |
 | quiz | ಕ್ವಿಜ್ |
@@ -25,9 +25,9 @@ Scope: `ui.json` (784 exact strings, 274 pattern templates) and the 39 English-r
 | polite ↔ casual | ಗೌರವ ↔ ಸಲುಗೆ |
 | weak spots / hardest cards / mix / mixed | ದುರ್ಬಲ ಅಂಶಗಳು / ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು / ಮಿಶ್ರಣ / ಮಿಶ್ರ |
 | suspend / bury / leech | ತಡೆಹಿಡಿಯಿರಿ / ನಾಳೆಗೆ ಮುಂದೂಡಿ / ಮೊಂಡು ಕಾರ್ಡ್ |
-| save (button) / saved (state) | ಉಳಿಸಿ / ಸೇವ್ ಆಗಿದೆ |
+| save (button) / saved, saving (state) | ಉಳಿಸಿ / ಉಳಿಸಲಾಗಿದೆ, ಉಳಿಸಲಾಗುತ್ತಿದೆ… (ಸೇವ್ is not used) |
 | delete / cancel / undo / close | ಅಳಿಸಿ / ರದ್ದುಮಾಡಿ / ಹಿಂಪಡೆಯಿರಿ / ಮುಚ್ಚಿ |
-| copy / share / merge | ನಕಲಿಸಿ / ಹಂಚಿಕೊಳ್ಳಿ / ವಿಲೀನ |
+| copy / paste / share / merge | ನಕಲಿಸಿ / ಅಂಟಿಸಿ / ಹಂಚಿಕೊಳ್ಳಿ / ವಿಲೀನ |
 | tap / long-press / swipe | ಒತ್ತಿ / ಒತ್ತಿ ಹಿಡಿಯಿರಿ / ಸ್ವೈಪ್ ಮಾಡಿ |
 | account / device / nickname / note / phrase | ಖಾತೆ / ಸಾಧನ / ಅಡ್ಡಹೆಸರು / ಟಿಪ್ಪಣಿ / ವಾಕ್ಯ |
 | goal / plan / badge / certificate | ಗುರಿ / ಪ್ಲಾನ್ / ಬ್ಯಾಡ್ಜ್ / ಪ್ರಮಾಣಪತ್ರ |
@@ -49,9 +49,9 @@ Scope: `ui.json` (784 exact strings, 274 pattern templates) and the 39 English-r
 
 ## For the main build
 
-- `ಪುನರ್ಮನನ` is exactly 8 code points and the widest tab label. If it truncates at 390px, change the exact key `Review` to `ಮನನ` and leave every other string as it is.
+- The Review tab is `ರಿವ್ಯೂ` (pre-merge review 2026-11-23; it replaced the Sanskritic 8-code-point `ಪುನರ್ಮನನ`, so the truncation risk at 390px is gone).
 - The validator lists 12 labels longer than 1.6 × the English. `Write it` (ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬರೆಯಿರಿ) and `Try again` (ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ) are fixed by the profile; the rest can be shortened if a button overflows.
-- The profile's request for an `html[lang=kn]` font and line-height rule in `src/app.html` still stands; subscripts in ಅಭ್ಯಾಸ, ಪ್ರಗತಿ, ಪುನರ್ಮನನ may clip at the nav size.
+- The profile's request for an `html[lang=kn]` font and line-height rule in `src/app.html` still stands; subscripts in ಅಭ್ಯಾಸ, ಪ್ರಗತಿ may clip at the nav size.
 - Quiz chips read `ಓದಿ EN→ಕನ್ನಡ`, `ನೆನಪು ಕನ್ನಡ→EN`, `ಕೇಳಿ 🔊→ಕನ್ನಡ`, `⌨️ ಟೈಪ್ ಮಾಡಿ EN` (direction follows the hi and zh packs: target → native for reading).
 - The roadmap basis string still says "adjusted for Korean speakers" in English; it is translated literally (ಕೊರಿಯನ್ ಭಾಷಿಕರಿಗೆ ಹೊಂದಿಸಿದ್ದು). If the kn-en course shows it, the English source should say Kannada speakers.
 - `roadmap.json`: only the 39 entries with `"roadmap": "en"` are filled; `road.py` was not run.
@@ -65,3 +65,14 @@ Scope: `ui.json` (784 exact strings, 274 pattern templates) and the 39 English-r
 - "Goal reached" strings now address the learner (ಗುರಿ ತಲುಪಿದ್ದೀರಿ); `Go` on the deck-of-the-week link is ತೆರೆಯಿರಿ; `Back to practice / lesson` is ಅಭ್ಯಾಸಕ್ಕೆ ಮರಳಿ / ಪಾಠಕ್ಕೆ ಮರಳಿ.
 - Roadmap: ವರ್ಣಮಾಲೆ (the course word) replaces ಅಕ್ಷರಮಾಲೆ; «ಮೂಲಪಾಠ» (which means "original text") is now «ಮೊದಲ ಹೆಜ್ಜೆ»; the conditional titles follow the lesson titles (if ವಾಕ್ಯ 1; if ವಾಕ್ಯ 2 ಮತ್ತು 3).
 - ZWNJ policy as above, checked by script in every `t`: every ZWNJ follows ್ on a loanword and precedes a Kannada letter.
+
+## Pre-merge review, 2026-11-23
+
+Base is this dictionary; six picks from the comparison with the independently written `ko-worded/ui.json` were applied (49 `t` values changed, nothing else):
+- Review: ಪುನರ್ಮನನ / ಮನನ → **ರಿವ್ಯೂ** everywhere (tab, prose, counts, buttons ರಿವ್ಯೂ ಮಾಡಿ).
+- Privacy: ಗೋಪ್ಯತೆ → **ಗೌಪ್ಯತೆ** (the standard privacy term, as in ಗೌಪ್ಯತಾ ನೀತಿ).
+- Paste: ಪೇಸ್ಟ್ ಮಾಡಿ → **ಅಂಟಿಸಿ** (pairs with ನಕಲಿಸಿ for Copy).
+- Saved states: ಸೇವ್ ಆಗಿದೆ / ಸೇವ್ ಮಾಡಲು … → **ಉಳಿಸಲಾಗಿದೆ / ಉಳಿಸಲು …** (one verb with the ಉಳಿಸಿ button).
+- `Got it — quiz me`: ಗೊತ್ತು → **ಗೊತ್ತಾಯಿತು** (= understood, after an explanation); the flashcard `Got it` stays ಗೊತ್ತು.
+- `What should we call you?`: ಕರೆಯಬೇಕು? → **ಕರೆಯಲಿ?** (matches the deck card «ನಿಮ್ಮನ್ನು ಏನೆಂದು ಕರೆಯಲಿ?»).
+Kept from this base after the comparison: ಅನಿಸಿಕೆ (feedback), ಇಂಪೋರ್ಟ್ / ಎಕ್ಸ್‌ಪೋರ್ಟ್, ಹಿಂಪಡೆಯಿರಿ (undo; ರದ್ದುಮಾಡಿ is cancel), ಸತತ ದಿನ, ಊಹೆಯ ನಿಖರತೆ, ರೋಲ್-ಪ್ಲೇ, ನನ್ನ ವಾಕ್ಯಗಳು, ಡೆಕ್‌ಗಳು, ಎಲ್ಲ, ಪದದ ಭಾಗಗಳು. Not checked by a native speaker.

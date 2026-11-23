@@ -47,7 +47,7 @@
    "where": "html <a> text"
   },
   "Review": {
-   "t": "ಪುನರ್ಮನನ",
+   "t": "ರಿವ್ಯೂ",
    "ko": "복습",
    "kind": "label",
    "context": "bottom-nav tab: flashcard review (noun, not \"to review\")",
@@ -82,7 +82,7 @@
    "where": "html <a> text"
   },
   "Privacy": {
-   "t": "ಗೋಪ್ಯತೆ",
+   "t": "ಗೌಪ್ಯತೆ",
    "ko": "개인정보",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -134,7 +134,7 @@
    "where": "html <button> text"
   },
   "Bulk import (paste CSV / TSV)": {
-   "t": "ಒಟ್ಟಿಗೆ ಇಂಪೋರ್ಟ್ (CSV / TSV ಪೇಸ್ಟ್ ಮಾಡಿ)",
+   "t": "ಒಟ್ಟಿಗೆ ಇಂಪೋರ್ಟ್ (CSV / TSV ಅಂಟಿಸಿ)",
    "ko": "한꺼번에 가져오기 (CSV / TSV 붙여넣기)",
    "kind": "sentence",
    "where": "html <summary> text"
@@ -537,7 +537,7 @@
    "where": "html <h3> text"
   },
   "Reviews coming up": {
-   "t": "ಮುಂದೆ ಬರುವ ಪುನರ್ಮನನ",
+   "t": "ಮುಂದೆ ಬರುವ ರಿವ್ಯೂ",
    "ko": "다가오는 복습",
    "kind": "label",
    "where": "html <h3> text"
@@ -688,7 +688,7 @@
    "where": "html <label> text"
   },
   "Paste an export here": {
-   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಇಲ್ಲಿ ಪೇಸ್ಟ್ ಮಾಡಿ",
+   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಇಲ್ಲಿ ಅಂಟಿಸಿ",
    "ko": "내보낸 데이터를 여기에 붙여넣으세요",
    "kind": "label",
    "where": "html <textarea> @placeholder"
@@ -821,7 +821,7 @@
    "where": "js STR()"
   },
   "Privacy & terms": {
-   "t": "ಗೋಪ್ಯತೆ ಮತ್ತು ನಿಯಮಗಳು",
+   "t": "ಗೌಪ್ಯತೆ ಮತ್ತು ನಿಯಮಗಳು",
    "ko": "개인정보 및 이용약관",
    "kind": "label",
    "where": "js step1() <a>"
@@ -833,7 +833,7 @@
    "where": "html <p> text"
   },
   "What's stored, and where": {
-   "t": "ಏನು ಸೇವ್ ಆಗುತ್ತದೆ, ಎಲ್ಲಿ",
+   "t": "ಏನನ್ನು ಉಳಿಸಲಾಗುತ್ತದೆ, ಎಲ್ಲಿ",
    "ko": "무엇을 어디에 저장하나요",
    "kind": "label",
    "where": "html <h3> text"
@@ -884,7 +884,7 @@
    "where": "html <b> text"
   },
   "to all users. Your name is shown only if you tick \"Show my name\". We also store the page you posted from, the app version and your browser type (never shown publicly) to help fix bugs.": {
-   "t": "— ಎಲ್ಲ ಬಳಕೆದಾರರಿಗೂ ಕಾಣುತ್ತದೆ. \"ನನ್ನ ಹೆಸರು ತೋರಿಸಿ\" ಆರಿಸಿದರೆ ಮಾತ್ರ ನಿಮ್ಮ ಹೆಸರು ಕಾಣುತ್ತದೆ. ಬಗ್ ಸರಿಪಡಿಸಲು ನೆರವಾಗಲೆಂದು ನೀವು ಯಾವ ಪುಟದಿಂದ ಪೋಸ್ಟ್ ಮಾಡಿದ್ದೀರಿ, ಆ್ಯಪ್ ಆವೃತ್ತಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಬಗೆ ಇವನ್ನೂ ಸೇವ್ ಮಾಡುತ್ತೇವೆ (ಇವು ಎಂದೂ ಸಾರ್ವಜನಿಕವಾಗಿ ಕಾಣುವುದಿಲ್ಲ).",
+   "t": "— ಎಲ್ಲ ಬಳಕೆದಾರರಿಗೂ ಕಾಣುತ್ತದೆ. \"ನನ್ನ ಹೆಸರು ತೋರಿಸಿ\" ಆರಿಸಿದರೆ ಮಾತ್ರ ನಿಮ್ಮ ಹೆಸರು ಕಾಣುತ್ತದೆ. ಬಗ್ ಸರಿಪಡಿಸಲು ನೆರವಾಗಲೆಂದು ನೀವು ಯಾವ ಪುಟದಿಂದ ಪೋಸ್ಟ್ ಮಾಡಿದ್ದೀರಿ, ಆ್ಯಪ್ ಆವೃತ್ತಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಬಗೆ ಇವನ್ನೂ ಉಳಿಸಿಕೊಳ್ಳುತ್ತೇವೆ (ಇವು ಎಂದೂ ಸಾರ್ವಜನಿಕವಾಗಿ ಕಾಣುವುದಿಲ್ಲ).",
    "ko": "로 모든 사용자에게 보여요. 이름은 \"내 이름 표시\"를 체크했을 때만 보여요. 버그 수정을 위해 글을 올린 페이지, 앱 버전, 브라우저 종류도 저장해요(공개되지 않아요).",
    "kind": "sentence",
    "where": "html text"
@@ -1283,19 +1283,19 @@
    "where": "js el()"
   },
   "Saving…": {
-   "t": "ಸೇವ್ ಆಗುತ್ತಿದೆ…",
+   "t": "ಉಳಿಸಲಾಗುತ್ತಿದೆ…",
    "ko": "저장 중…",
    "kind": "sentence",
    "where": "js el()"
   },
   "Saved on this device only": {
-   "t": "ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಸೇವ್ ಆಗಿದೆ",
+   "t": "ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಉಳಿಸಲಾಗಿದೆ",
    "ko": "이 기기에만 저장됨",
    "kind": "sentence",
    "where": "js el()"
   },
   "Sync failed — saved locally": {
-   "t": "ಸಿಂಕ್ ಆಗಲಿಲ್ಲ — ಈ ಸಾಧನದಲ್ಲಿ ಸೇವ್ ಆಗಿದೆ",
+   "t": "ಸಿಂಕ್ ಆಗಲಿಲ್ಲ — ಈ ಸಾಧನದಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ",
    "ko": "동기화 실패 — 이 기기에 저장했어요",
    "kind": "sentence",
    "where": "js el()"
@@ -1525,14 +1525,14 @@
    "where": "js pl()"
   },
   "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": {
-   "t": "ಉಚ್ಚಾರಣೆ, ಆಡಿಯೋ ಇರುವ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್, ಕ್ವಿಜ್ ಮತ್ತು ದಿನಕ್ಕೆ 5 ನಿಮಿಷದ ಸೆಷನ್. ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು — ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಹೇಗೆ ಸೇವ್ ಮಾಡಬೇಕು?",
+   "t": "ಉಚ್ಚಾರಣೆ, ಆಡಿಯೋ ಇರುವ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್, ಕ್ವಿಜ್ ಮತ್ತು ದಿನಕ್ಕೆ 5 ನಿಮಿಷದ ಸೆಷನ್. ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು — ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಹೇಗೆ ಉಳಿಸಬೇಕು?",
    "ko": "소리 나는 플래시카드, 퀴즈, 하루 5분 학습. 시작하기 전에 — 진도를 어떻게 저장할까요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "📧 Email — save across devices": {
-   "t": "📧 ಇಮೇಲ್ — ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಸೇವ್",
+   "t": "📧 ಇಮೇಲ್ — ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಸಿ",
    "ko": "📧 이메일 — 여러 기기에 저장",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1593,7 +1593,7 @@
    "where": "js step1() <b>"
   },
   "What should we call you?": {
-   "t": "ನಿಮ್ಮನ್ನು ಏನೆಂದು ಕರೆಯಬೇಕು?",
+   "t": "ನಿಮ್ಮನ್ನು ಏನೆಂದು ಕರೆಯಲಿ?",
    "ko": "어떻게 불러 드릴까요?",
    "kind": "sentence",
    "where": "js step3() <h1>"
@@ -1605,7 +1605,7 @@
    "where": "js step3() <button>"
   },
   "Saved in this browser only. Clearing site data or switching devices loses progress — add an email any time in Progress to keep it safe.": {
-   "t": "ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಮಾತ್ರ ಸೇವ್ ಆಗಿದೆ. ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಅಥವಾ ಸಾಧನ ಬದಲಿಸಿದರೆ ಪ್ರಗತಿ ಕಳೆದುಹೋಗುತ್ತದೆ — ಅದನ್ನು ಸುರಕ್ಷಿತವಾಗಿಡಲು ಯಾವಾಗ ಬೇಕಾದರೂ \"ಪ್ರಗತಿ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಇಮೇಲ್ ಸೇರಿಸಿ.",
+   "t": "ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಮಾತ್ರ ಉಳಿಸಲಾಗಿದೆ. ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಅಥವಾ ಸಾಧನ ಬದಲಿಸಿದರೆ ಪ್ರಗತಿ ಕಳೆದುಹೋಗುತ್ತದೆ — ಅದನ್ನು ಸುರಕ್ಷಿತವಾಗಿಡಲು ಯಾವಾಗ ಬೇಕಾದರೂ \"ಪ್ರಗತಿ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಇಮೇಲ್ ಸೇರಿಸಿ.",
    "ko": "이 브라우저에만 저장돼요. 사이트 데이터를 지우거나 기기를 바꾸면 진도가 사라져요 — 안전하게 지키려면 언제든 진도 탭에서 이메일을 추가하세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1661,7 +1661,7 @@
    "where": "js data()"
   },
   "Link copied — paste it anywhere": {
-   "t": "ಲಿಂಕ್ ನಕಲಾಗಿದೆ — ಎಲ್ಲಿ ಬೇಕಾದರೂ ಪೇಸ್ಟ್ ಮಾಡಿ",
+   "t": "ಲಿಂಕ್ ನಕಲಾಗಿದೆ — ಎಲ್ಲಿ ಬೇಕಾದರೂ ಅಂಟಿಸಿ",
    "ko": "링크를 복사했어요 — 어디든 붙여넣으세요",
    "kind": "sentence",
    "where": "js data()"
@@ -1754,7 +1754,7 @@
    "where": "js boxTxt() <button> @title"
   },
   "Hide from reviews until you restore it": {
-   "t": "ನೀವು ಮರಳಿ ತರುವವರೆಗೆ ಪುನರ್ಮನನದಿಂದ ಮರೆಮಾಡಿ",
+   "t": "ನೀವು ಮರಳಿ ತರುವವರೆಗೆ ರಿವ್ಯೂನಿಂದ ಮರೆಮಾಡಿ",
    "ko": "되돌릴 때까지 복습에서 숨기기",
    "kind": "sentence",
    "where": "js boxTxt() <button> @title"
@@ -1838,7 +1838,7 @@
    "where": "js STR()"
   },
   "Note saved.": {
-   "t": "ಟಿಪ್ಪಣಿ ಸೇವ್ ಆಗಿದೆ.",
+   "t": "ಟಿಪ್ಪಣಿ ಉಳಿಸಲಾಗಿದೆ.",
    "ko": "메모를 저장했어요.",
    "kind": "sentence",
    "where": "js v()"
@@ -1963,7 +1963,7 @@
    "where": "js isNew()"
   },
   "No phrases yet. Use \"＋ Add your own phrase\" above — anything you hear today goes here and joins review, practice and search.": {
-   "t": "ಇನ್ನೂ ಯಾವ ವಾಕ್ಯವೂ ಇಲ್ಲ. ಮೇಲಿನ \"＋ ನಿಮ್ಮದೇ ವಾಕ್ಯ ಸೇರಿಸಿ\" ಬಳಸಿ — ಇಂದು ನೀವು ಕೇಳಿದ ಯಾವುದೇ ವಾಕ್ಯ ಇಲ್ಲಿ ಬಂದು ಪುನರ್ಮನನ, ಅಭ್ಯಾಸ ಮತ್ತು ಹುಡುಕಾಟಕ್ಕೆ ಸೇರುತ್ತದೆ.",
+   "t": "ಇನ್ನೂ ಯಾವ ವಾಕ್ಯವೂ ಇಲ್ಲ. ಮೇಲಿನ \"＋ ನಿಮ್ಮದೇ ವಾಕ್ಯ ಸೇರಿಸಿ\" ಬಳಸಿ — ಇಂದು ನೀವು ಕೇಳಿದ ಯಾವುದೇ ವಾಕ್ಯ ಇಲ್ಲಿ ಬಂದು ರಿವ್ಯೂ, ಅಭ್ಯಾಸ ಮತ್ತು ಹುಡುಕಾಟಕ್ಕೆ ಸೇರುತ್ತದೆ.",
    "ko": "아직 표현이 없어요. 위의 \"＋ 나만의 표현 추가\"를 써 보세요 — 오늘 들은 표현을 여기 넣으면 복습, 연습, 검색에 함께 나와요.",
    "kind": "sentence",
    "where": "js stage() <div>"
@@ -2056,7 +2056,7 @@
    "where": "js SPK() <div>"
   },
   "Got it — quiz me": {
-   "t": "ಗೊತ್ತು — ಕ್ವಿಜ್ ಕೊಡಿ",
+   "t": "ಗೊತ್ತಾಯಿತು — ಕ್ವಿಜ್ ಕೊಡಿ",
    "ko": "알겠어요 — 퀴즈 내 주세요",
    "kind": "sentence",
    "where": "js goLbl()"
@@ -2099,7 +2099,7 @@
    "where": "js msg()"
   },
   "Review this deck anyway": {
-   "t": "ಆದರೂ ಈ ಡೆಕ್ ಮನನ ಮಾಡಿ",
+   "t": "ಆದರೂ ಈ ಡೆಕ್ ರಿವ್ಯೂ ಮಾಡಿ",
    "ko": "그래도 이 덱 복습하기",
    "kind": "label",
    "where": "js next() <button>"
@@ -2193,7 +2193,7 @@
    "where": "js s()"
   },
   "Back in rotation.": {
-   "t": "ಮತ್ತೆ ಪುನರ್ಮನನಕ್ಕೆ ಸೇರಿದೆ.",
+   "t": "ಮತ್ತೆ ರಿವ್ಯೂಗೆ ಸೇರಿದೆ.",
    "ko": "다시 복습에 넣었어요.",
    "kind": "sentence",
    "where": "js s()"
@@ -2262,7 +2262,7 @@
    "where": "js b()"
   },
   "Review these 5 again": {
-   "t": "ಈ 5 ಕಾರ್ಡ್ ಮತ್ತೆ ಮನನ ಮಾಡಿ",
+   "t": "ಈ 5 ಕಾರ್ಡ್ ಮತ್ತೆ ರಿವ್ಯೂ ಮಾಡಿ",
    "ko": "이 5장 다시 보기",
    "kind": "label",
    "where": "js b()"
@@ -2732,7 +2732,7 @@
    "where": "js STR()"
   },
   "Already in your review queue": {
-   "t": "ಈಗಾಗಲೇ ನಿಮ್ಮ ಪುನರ್ಮನನ ಪಟ್ಟಿಯಲ್ಲಿದೆ",
+   "t": "ಈಗಾಗಲೇ ನಿಮ್ಮ ರಿವ್ಯೂ ಪಟ್ಟಿಯಲ್ಲಿದೆ",
    "ko": "이미 복습 목록에 있어요",
    "kind": "sentence",
    "where": "js tonight() <span>"
@@ -2744,13 +2744,13 @@
    "where": "js tonight() <span>"
   },
   "+ Add to review": {
-   "t": "+ ಪುನರ್ಮನನಕ್ಕೆ ಸೇರಿಸಿ",
+   "t": "+ ರಿವ್ಯೂಗೆ ಸೇರಿಸಿ",
    "ko": "+ 복습에 추가",
    "kind": "label",
    "where": "js tonight() <button>"
   },
   "Review it": {
-   "t": "ಮನನ ಮಾಡಿ",
+   "t": "ರಿವ್ಯೂ ಮಾಡಿ",
    "ko": "복습하기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2861,7 +2861,7 @@
    "where": "js lessonNext() <button>"
   },
   "Review due cards": {
-   "t": "ಬಾಕಿ ಕಾರ್ಡ್ ಮನನ ಮಾಡಿ",
+   "t": "ಬಾಕಿ ಕಾರ್ಡ್ ರಿವ್ಯೂ ಮಾಡಿ",
    "ko": "복습할 카드 복습",
    "kind": "label",
    "where": "js lessonNext() <span>"
@@ -2907,7 +2907,7 @@
    "where": "js blob()"
   },
   "Could not save here.": {
-   "t": "ಇಲ್ಲಿ ಸೇವ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ.",
+   "t": "ಇಲ್ಲಿ ಉಳಿಸಲು ಆಗಲಿಲ್ಲ.",
    "ko": "여기서는 저장할 수 없어요.",
    "kind": "sentence",
    "where": "js blob()"
@@ -2919,7 +2919,7 @@
    "where": "js a()"
   },
   "Added. It will show up in Review today.": {
-   "t": "ಸೇರಿಸಲಾಗಿದೆ. ಇಂದು ಇದು \"ಪುನರ್ಮನನ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಕಾಣುತ್ತದೆ.",
+   "t": "ಸೇರಿಸಲಾಗಿದೆ. ಇಂದು ಇದು \"ರಿವ್ಯೂ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಕಾಣುತ್ತದೆ.",
    "ko": "추가했어요. 오늘 복습에 나올 거예요.",
    "kind": "sentence",
    "where": "js c()"
@@ -2966,7 +2966,7 @@
    "where": "js names2()"
   },
   "Steady. Missed cards come back as reviews.": {
-   "t": "ಚೆನ್ನಾಗಿ ಸಾಗುತ್ತಿದೆ. ತಪ್ಪಿದ ಕಾರ್ಡ್‌ಗಳು ಪುನರ್ಮನನದಲ್ಲಿ ಮತ್ತೆ ಬರುತ್ತವೆ.",
+   "t": "ಚೆನ್ನಾಗಿ ಸಾಗುತ್ತಿದೆ. ತಪ್ಪಿದ ಕಾರ್ಡ್‌ಗಳು ರಿವ್ಯೂನಲ್ಲಿ ಮತ್ತೆ ಬರುತ್ತವೆ.",
    "ko": "꾸준해요. 틀린 카드는 복습으로 다시 나와요.",
    "kind": "sentence",
    "where": "js names2()"
@@ -3290,7 +3290,7 @@
    "where": "js TOUR()"
   },
   "Spaced repetition. \"All due\" across decks, swipe right for got it, left for again. Browse any deck as a list.": {
-   "t": "ಅಂತರವಿಟ್ಟು ಪುನರ್ಮನನ. \"ಎಲ್ಲ ಬಾಕಿ\" ಎಲ್ಲ ಡೆಕ್‌ಗಳ ಬಾಕಿ ಕಾರ್ಡ್ ಒಟ್ಟಿಗೆ ತರುತ್ತದೆ; \"ಗೊತ್ತು\" ಎನ್ನಲು ಬಲಕ್ಕೆ, \"ಮತ್ತೆ\" ಎನ್ನಲು ಎಡಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ. ಯಾವುದೇ ಡೆಕ್ ಅನ್ನು ಪಟ್ಟಿಯಾಗಿ ಬ್ರೌಸ್ ಮಾಡಿ.",
+   "t": "ಅಂತರವಿಟ್ಟು ರಿವ್ಯೂ. \"ಎಲ್ಲ ಬಾಕಿ\" ಎಲ್ಲ ಡೆಕ್‌ಗಳ ಬಾಕಿ ಕಾರ್ಡ್ ಒಟ್ಟಿಗೆ ತರುತ್ತದೆ; \"ಗೊತ್ತು\" ಎನ್ನಲು ಬಲಕ್ಕೆ, \"ಮತ್ತೆ\" ಎನ್ನಲು ಎಡಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ. ಯಾವುದೇ ಡೆಕ್ ಅನ್ನು ಪಟ್ಟಿಯಾಗಿ ಬ್ರೌಸ್ ಮಾಡಿ.",
    "ko": "간격 반복 복습이에요. 모든 덱의 \"복습할 카드 전부\"를 모아 보고, 오른쪽으로 밀면 알아요, 왼쪽은 다시. 덱을 목록으로 둘러볼 수도 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3761,7 +3761,7 @@
    "where": "js (top level) <link>"
   },
   "Review a few cards and this fills in: retention by box, speed, and your best hour.": {
-   "t": "ಕೆಲವು ಕಾರ್ಡ್ ಮನನ ಮಾಡಿದರೆ ಇದು ತುಂಬುತ್ತದೆ: ಬಾಕ್ಸ್‌ವಾರು ನೆನಪು, ವೇಗ ಮತ್ತು ನಿಮ್ಮ ಅತ್ಯುತ್ತಮ ಗಂಟೆ.",
+   "t": "ಕೆಲವು ಕಾರ್ಡ್ ರಿವ್ಯೂ ಮಾಡಿದರೆ ಇದು ತುಂಬುತ್ತದೆ: ಬಾಕ್ಸ್‌ವಾರು ನೆನಪು, ವೇಗ ಮತ್ತು ನಿಮ್ಮ ಅತ್ಯುತ್ತಮ ಗಂಟೆ.",
    "ko": "카드를 몇 장 복습하면 여기에 상자별 기억률, 속도, 가장 잘되는 시간이 채워져요.",
    "kind": "sentence",
    "where": "js el() <p>"
@@ -3886,7 +3886,7 @@
    "where": "js b()"
   },
   "Could not save here. Long-press the image instead.": {
-   "t": "ಇಲ್ಲಿ ಸೇವ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ. ಬದಲಿಗೆ ಚಿತ್ರವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.",
+   "t": "ಇಲ್ಲಿ ಉಳಿಸಲು ಆಗಲಿಲ್ಲ. ಬದಲಿಗೆ ಚಿತ್ರವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.",
    "ko": "여기서는 저장할 수 없어요. 대신 이미지를 길게 누르세요.",
    "kind": "sentence",
    "where": "js b()"
@@ -3911,13 +3911,13 @@
    "where": "js a()"
   },
   "Long-press or right-click the image to save or share it.": {
-   "t": "ಸೇವ್ ಮಾಡಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳಲು ಚಿತ್ರವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ ಅಥವಾ ರೈಟ್-ಕ್ಲಿಕ್ ಮಾಡಿ.",
+   "t": "ಉಳಿಸಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳಲು ಚಿತ್ರವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ ಅಥವಾ ರೈಟ್-ಕ್ಲಿಕ್ ಮಾಡಿ.",
    "ko": "이미지를 길게 누르거나 오른쪽 클릭해서 저장하거나 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
   },
   "Saved.": {
-   "t": "ಸೇವ್ ಆಗಿದೆ.",
+   "t": "ಉಳಿಸಲಾಗಿದೆ.",
    "ko": "저장했어요.",
    "kind": "sentence",
    "where": "js dl()"
@@ -4672,7 +4672,7 @@
    ]
   },
   "Due for review": {
-   "t": "ಪುನರ್ಮನನಕ್ಕೆ ಬಾಕಿ",
+   "t": "ರಿವ್ಯೂಗೆ ಬಾಕಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Pause scene tag",
@@ -5022,7 +5022,7 @@
    ]
   },
   "How should we save your progress?": {
-   "t": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಹೇಗೆ ಸೇವ್ ಮಾಡಬೇಕು?",
+   "t": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಹೇಗೆ ಉಳಿಸಬೇಕು?",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1 second line",
@@ -5042,7 +5042,7 @@
    ]
   },
   "Saves across all your devices": {
-   "t": "ನಿಮ್ಮ ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಸೇವ್ ಆಗುತ್ತದೆ",
+   "t": "ನಿಮ್ಮ ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಸಲಾಗುತ್ತದೆ",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1",
@@ -5384,14 +5384,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)": {
-   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್ · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {4}:00 ({5}%)",
+   "t": "ಇತ್ತೀಚಿನ ರಿವ್ಯೂ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್ · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=f, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 1.5s per card · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card": {
-   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್",
+   "t": "ಇತ್ತೀಚಿನ ರಿವ್ಯೂ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=f",
    "example": "Last 5 reviews · 2% correct · 1.5s per card",
@@ -5539,7 +5539,7 @@
    "example": "box 5"
   },
   "box {n}: {n} reviews": {
-   "t": "ಬಾಕ್ಸ್ {1} · ಮನನ: {2}",
+   "t": "ಬಾಕ್ಸ್ {1} · ರಿವ್ಯೂ: {2}",
    "ko": "상자 {1}: 복습 {2}번",
    "slots": "{1}=n, {2}=n",
    "example": "box 5: 2 reviews",
@@ -6623,28 +6623,28 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card · best hour {n}:00 ({n}%)": {
-   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್ · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {4}:00 ({5}%)",
+   "t": "ಇತ್ತೀಚಿನ ರಿವ್ಯೂ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್ · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card · best hour 4:00 (6%)",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card": {
-   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್",
+   "t": "ಇತ್ತೀಚಿನ ರಿವ್ಯೂ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · best hour {n}:00 ({n}%)": {
-   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {3}:00 ({4}%)",
+   "t": "ಇತ್ತೀಚಿನ ರಿವ್ಯೂ: {1} · ಸರಿ: {2}% · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {3}:00 ({4}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 가장 잘되는 시간 {3}시 ({4}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "Last 5 reviews · 2% correct · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct": {
-   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}%",
+   "t": "ಇತ್ತೀಚಿನ ರಿವ್ಯೂ: {1} · ಸರಿ: {2}%",
    "ko": "최근 복습 {1}번 · 정답률 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "Last 5 reviews · 2% correct",
@@ -6758,7 +6758,7 @@
    "example": "Anonymous · Hello there"
   },
   "Due for review · {x}": {
-   "t": "ಪುನರ್ಮನನಕ್ಕೆ ಬಾಕಿ · {1}",
+   "t": "ರಿವ್ಯೂಗೆ ಬಾಕಿ · {1}",
    "ko": "복습할 카드 · {1}",
    "slots": "{1}=x",
    "example": "Due for review · Hello there"
@@ -6800,13 +6800,13 @@
    "example": "5/2 · Practice"
   },
   "Review · quick actions": {
-   "t": "ಪುನರ್ಮನನ · ಶಾರ್ಟ್‌ಕಟ್",
+   "t": "ರಿವ್ಯೂ · ಶಾರ್ಟ್‌ಕಟ್",
    "ko": "복습 · 빠른 실행",
    "slots": "",
    "example": "Review · quick actions"
   },
   "{n}/{n} · Review": {
-   "t": "{1}/{2} · ಪುನರ್ಮನನ",
+   "t": "{1}/{2} · ರಿವ್ಯೂ",
    "ko": "{1}/{2} · 복습",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Review"
@@ -6985,7 +6985,7 @@
    "example": "Hello there progress"
   },
   "Now learning {x} · progress saved per course": {
-   "t": "ಕೋರ್ಸ್: {1} · ಪ್ರತಿ ಕೋರ್ಸ್‌ನ ಪ್ರಗತಿ ಬೇರೆಯಾಗಿ ಸೇವ್ ಆಗುತ್ತದೆ",
+   "t": "ಕೋರ್ಸ್: {1} · ಪ್ರತಿ ಕೋರ್ಸ್‌ನ ಪ್ರಗತಿ ಬೇರೆಯಾಗಿ ಉಳಿಸಲಾಗುತ್ತದೆ",
    "ko": null,
    "slots": "{1}=x",
    "example": "Now learning Hello there · progress saved per course",

@@ -74,11 +74,11 @@ module.exports = {
     { t: "mc", q: "Do you like coffee? ಪ್ರಶ್ನೆಗೆ \"ಹೌದು\" ಎಂಬ ಉತ್ತರ ಯಾವುದು?", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "do ಬಳಸಿ ಕೇಳಿದ ಪ್ರಶ್ನೆಗೆ do ಬಳಸಿಯೇ ಉತ್ತರ." },
     { t: "mc", q: "\"ಅವಳು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "she ಜೊತೆ ನಿಷೇಧಕ್ಕೆ doesn't + -s ಇಲ್ಲದ V1 ರೂಪ." },
 
-    { t: "order", p: "ನನ್ನ ಅಣ್ಣ ಸಿಯೋಲ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾನೆ", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "ಕರ್ತೃ ಒಬ್ಬ ವ್ಯಕ್ತಿ (he), ಹಾಗಾಗಿ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಸೇರಿ works. ಇಲ್ಲಿ be ಬರುವುದಿಲ್ಲ." },
+    { t: "order", p: "ನನ್ನ ಅಣ್ಣ ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾನೆ", a: ["My", "brother", "works", "in", "Bengaluru"], x: ["work", "is"], why: "ಕರ್ತೃ ಒಬ್ಬ ವ್ಯಕ್ತಿ (he), ಹಾಗಾಗಿ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಸೇರಿ works. ಇಲ್ಲಿ be ಬರುವುದಿಲ್ಲ." },
     { t: "order", p: "ನಾನು ವಿದ್ಯಾರ್ಥಿ ಅಲ್ಲ", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "be ಜೊತೆ ನಿಷೇಧಕ್ಕೆ not; ಸ್ಥಾನದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ a." },
     { t: "order", p: "ಅವಳ ಹತ್ತಿರ ಎರಡು ನಾಯಿಗಳಿವೆ", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "she ಜೊತೆ has; ಎರಡು ಇವೆ, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರಿ dogs." },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "ನನ್ನ ಅಣ್ಣ ಸಿಯೋಲ್‌ನಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾನೆ", a: ["lives"], o: ["live", "is live", "living"], why: "ಕರ್ತೃ he, ಹಾಗಾಗಿ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಸೇರುತ್ತದೆ: lives." },
+    { t: "fill", q: "My brother __ in Bengaluru.", p: "ನನ್ನ ಅಣ್ಣ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾನೆ", a: ["lives"], o: ["live", "is live", "living"], why: "ಕರ್ತೃ he, ಹಾಗಾಗಿ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಸೇರುತ್ತದೆ: lives." },
     { t: "fill", q: "__ you tired?", p: "ನಿನಗೆ ಸುಸ್ತಾಗಿದೆಯೇ?", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired ಒಂದು ಸ್ಥಿತಿ, ಹಾಗಾಗಿ be ಬಳಸಿ ಕೇಳಬೇಕು; you ಜೊತೆ are." },
     { t: "fill", q: "We __ hungry.", p: "ನಮಗೆ ಹಸಿವಾಗಿದೆ", a: ["are"], o: ["is", "am", "do"], why: "hungry ಒಂದು ಸ್ಥಿತಿ, ಹಾಗಾಗಿ be; we ಜೊತೆ are." },
 
@@ -110,7 +110,7 @@ module.exports = {
   tense: [
     { t: "mc", q: "\"ಈಗ ಕಾಫಿ ಕುಡಿಯುತ್ತಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "ಈಗ ನಡೆಯುತ್ತಿರುವ ಕೆಲಸಕ್ಕೆ be + -ing." },
     { t: "mc", q: "\"ಕಳೆದ ವಾರಾಂತ್ಯ ಬೀಚ್‌ಗೆ ಹೋಗಿದ್ದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go ಕ್ರಿಯಾಪದದ V2 ರೂಪ went. ಬೀಚ್ ಎನ್ನುವಾಗ ಆರ್ಟಿಕಲ್ the ಸೇರಿಸಿ the beach ಎನ್ನುತ್ತಾರೆ." },
-    { t: "mc", q: "ಮುಂದಿನ ತಿಂಗಳ ಪ್ಲಾನ್ ಹೇಳುವಾಗ: \"ಜೆಜು ದ್ವೀಪಕ್ಕೆ ಹೋಗಲಿದ್ದೇನೆ\"", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "ಮೊದಲೇ ಮಾಡಿಕೊಂಡ ಪ್ಲಾನ್‌ಗೆ be going to + V1." },
+    { t: "mc", q: "ಮುಂದಿನ ತಿಂಗಳ ಪ್ಲಾನ್ ಹೇಳುವಾಗ: \"ಕೊಡಗಿಗೆ ಹೋಗಲಿದ್ದೇನೆ\"", o: ["I'm going to visit Coorg next month.", "I visit Coorg next month.", "I visited Coorg next month.", "I'm going visit Coorg next month."], why: "ಮೊದಲೇ ಮಾಡಿಕೊಂಡ ಪ್ಲಾನ್‌ಗೆ be going to + V1." },
     { t: "mc", q: "ಕಾಲಿಂಗ್ ಬೆಲ್ ಬಾರಿಸುತ್ತಿದೆ. ಆ ಕ್ಷಣದಲ್ಲೇ: \"ನಾನು ಬಾಗಿಲು ತೆರೆಯುತ್ತೇನೆ!\"", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "ಮಾತನಾಡುವ ಕ್ಷಣದಲ್ಲೇ ಮಾಡಿದ ನಿರ್ಧಾರಕ್ಕೆ will." },
     { t: "mc", q: "see ಕ್ರಿಯಾಪದದ V2 (Simple Past ರೂಪ) ಯಾವುದು?", o: ["saw", "seed", "seen", "sawed"], why: "see ಅನಿಯಮಿತ ಕ್ರಿಯಾಪದ: see - saw - seen." },
 
@@ -132,7 +132,7 @@ module.exports = {
     { t: "mc", q: "\"ಮೇ 3 ರಂದು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "ತಾರೀಕಿನ ಮೊದಲು on." },
     { t: "mc", q: "\"(ಈಗ) ನಾನು ಬಸ್‌ನಲ್ಲಿ ಇದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "ಬಸ್, ರೈಲು ಇಂಥ ವಾಹನಗಳಿಗೆ on; ಈಗ ನೀವು ಇರುವ ಬಸ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the ಕೂಡ ಬೇಕು." },
     { t: "mc", q: "\"ರಾತ್ರಿ ಹೊತ್ತಿನಲ್ಲಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["at night", "on night", "in night", "at the night"], why: "night ಒಂದು ಅಪವಾದ: ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ at night." },
-    { t: "mc", q: "ಯಾವ ವಾಕ್ಯ ಸರಿ?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "ಊರಿನ ಹೆಸರಿನ ಮೊದಲು in; ಊರಿನ ಹೆಸರಿಗೆ ಆರ್ಟಿಕಲ್ the ಸೇರುವುದಿಲ್ಲ." },
+    { t: "mc", q: "ಯಾವ ವಾಕ್ಯ ಸರಿ?", o: ["I live in Bengaluru.", "I live at Bengaluru.", "I live on Bengaluru.", "I live in the Bengaluru."], why: "ಊರಿನ ಹೆಸರಿನ ಮೊದಲು in; ಊರಿನ ಹೆಸರಿಗೆ ಆರ್ಟಿಕಲ್ the ಸೇರುವುದಿಲ್ಲ." },
 
     { t: "order", p: "(ನಮಗೆ ಗೊತ್ತಿರುವ ಆ) ಸ್ಟೇಷನ್‌ನಲ್ಲಿ ಸಿಗೋಣ", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "ಒಂದು ಬಿಂದುವಿಗೆ at; ಯಾವ ಸ್ಟೇಷನ್ ಎಂದು ಇಬ್ಬರಿಗೂ ಗೊತ್ತು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
     { t: "order", p: "ನನ್ನ ಫೋನ್ (ಆ) ಟೇಬಲ್ ಮೇಲೆ ಇದೆ", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "ಮೇಲ್ಮೈ ಮೇಲೆ ಇದ್ದರೆ on; ಕಣ್ಣೆದುರಿಗೆ ಇರುವ ಟೇಬಲ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
@@ -152,7 +152,7 @@ module.exports = {
     { t: "mc", q: "I don't drink coffee. ಎಂಬ ಮಾತಿಗೆ \"ನಾನೂ ಕುಡಿಯುವುದಿಲ್ಲ\" ಎನ್ನಲು", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "ನಿಷೇಧ ವಾಕ್ಯಕ್ಕೆ ಒಪ್ಪಿಗೆ ಸೂಚಿಸಲು Me neither." },
     { t: "mc", q: "ಮಾತುಕತೆಯನ್ನು ಸಹಜವಾಗಿ ಮುಗಿಸಲು ಯಾವುದು ಸರಿ?", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "I should get going ಎಂಬುದು ಮೃದುವಾಗಿ ಹೊರಡುವ ಮಾತು." },
     { t: "mc", q: "ಮೊದಲ ಸಲ ಭೇಟಿಯಾದವರ ಜೊತೆ ಮಾತು ಶುರು ಮಾಡಲು ಯಾವುದು ಒಳ್ಳೆಯದು?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "ಹವಾಮಾನ ಅತ್ಯಂತ ಸುರಕ್ಷಿತ ವಿಷಯ. ಸಂಬಳ, ಮದುವೆ, ತೂಕ ಮೊದಲ ಭೇಟಿಯಲ್ಲಿ ಬೇಡ." },
-    { t: "mc", q: "I went to Busan last weekend. ಎಂಬ ಮಾತಿಗೆ ಆಸಕ್ತಿ ತೋರಿಸುವ ಪ್ರತಿಕ್ರಿಯೆ ಯಾವುದು?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really? ಮತ್ತು That sounds fun! ಆಸಕ್ತಿ ತೋರಿಸುವ ಮಾತುಗಳು." },
+    { t: "mc", q: "I went to Mysuru last weekend. ಎಂಬ ಮಾತಿಗೆ ಆಸಕ್ತಿ ತೋರಿಸುವ ಪ್ರತಿಕ್ರಿಯೆ ಯಾವುದು?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really? ಮತ್ತು That sounds fun! ಆಸಕ್ತಿ ತೋರಿಸುವ ಮಾತುಗಳು." },
 
     { t: "order", p: "ವಾರಾಂತ್ಯಕ್ಕೆ ಏನಾದರೂ ಪ್ಲಾನ್ ಇದೆಯೇ?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "ಪ್ಲಾನ್ ಕೇಳುವ ಈ ಮಾತಿನಲ್ಲಿ ಬಹುವಚನ plans ಬರುತ್ತದೆ; ಈ ವಾರಾಂತ್ಯ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
     { t: "order", p: "ನಿಮ್ಮ ಜೊತೆ ಮಾತನಾಡಿ ಖುಷಿಯಾಯಿತು", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "ಮಾತುಕತೆ ಮುಗಿಸುವಾಗ ಹೇಳುವ ಮಾತು. nice ನಂತರ talking ಬರುತ್ತದೆ." },
@@ -170,7 +170,7 @@ module.exports = {
   phrasal: [
     { t: "mc", q: "\"ಅದನ್ನು ಆನ್ ಮಾಡು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "ಸರ್ವನಾಮ it ಫ್ರೇಸಲ್ ವರ್ಬ್‌ನ ನಡುವೆ ಬರುತ್ತದೆ: turn it on." },
     { t: "mc", q: "\"ಹಾಲು ಖಾಲಿಯಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "run out of = ಖಾಲಿಯಾಗು. of ಬಿಡಬೇಡಿ." },
-    { t: "mc", q: "\"ನಾನು ಬೆಳೆದದ್ದು ಡೇಗು ನಗರದಲ್ಲಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "grow up = ಬೆಳೆದು ದೊಡ್ಡವರಾಗು; V2 ರೂಪ grew up." },
+    { t: "mc", q: "\"ನಾನು ಬೆಳೆದದ್ದು ಹುಬ್ಬಳ್ಳಿಯಲ್ಲಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I grew up in Hubballi.", "I grew in Hubballi up.", "I growed up in Hubballi.", "I grew out in Hubballi."], why: "grow up = ಬೆಳೆದು ದೊಡ್ಡವರಾಗು; V2 ರೂಪ grew up." },
     { t: "mc", q: "\"ನನ್ನ ಬೆಕ್ಕನ್ನು ಸ್ವಲ್ಪ ನೋಡಿಕೊಳ್ಳುತ್ತೀಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "look after = ನೋಡಿಕೊ. ಇದನ್ನು ಬೇರೆ ಮಾಡಲಾಗದು (look for = ಹುಡುಕು)." },
     { t: "mc", q: "\"ಏಳು ಗಂಟೆಗೆ ನಿನ್ನನ್ನು ಕರೆದುಕೊಂಡು ಹೋಗಲು ಬರುತ್ತೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "ಸರ್ವನಾಮ you ಬರುವುದು pick ಮತ್ತು up ನಡುವೆ." },
 
@@ -184,7 +184,7 @@ module.exports = {
 
     { t: "type", p: "(turn ಬಳಸಿ) ಅದನ್ನು ಆಫ್ ಮಾಡಿ", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — ಸರ್ವನಾಮ ನಡುವೆ", x: ["on"], why: "ಸರ್ವನಾಮ it ಬರುವುದು turn ಮತ್ತು off ನಡುವೆ." },
     { t: "type", p: "ನಾನು ಎರಡು ಬೆಕ್ಕುಗಳನ್ನು ನೋಡಿಕೊಳ್ಳುತ್ತೇನೆ", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — ಎರಡು ಇದ್ದರೆ ಬಹುವಚನ", x: ["cat"], why: "look after = ನೋಡಿಕೊ. ಎರಡು ಬೆಕ್ಕು, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರಿ cats." },
-    { t: "type", p: "(run out of ಬಳಸಿ) ನಮ್ಮ ಮನೆಯಲ್ಲಿ ಹಾಲು ಖಾಲಿಯಾಗಿದೆ", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — ಆರ್ಟಿಕಲ್ a ಬೇಕೇ?", x: ["a"], why: "milk ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a ಬರುವುದಿಲ್ಲ." }
+    { t: "type", p: "(run out of ಬಳಸಿ) ನಮ್ಮ ಮನೆಯಲ್ಲಿ ಹಾಲು ಖಾಲಿಯಾಗಿದೆ", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk"], hint: "run out of · milk — ಆರ್ಟಿಕಲ್ a ಬೇಕೇ?", x: ["a"], why: "milk ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a ಬರುವುದಿಲ್ಲ." }
   ],
 
   numbers: [
@@ -199,7 +199,7 @@ module.exports = {
     { t: "order", p: "ವಾರಕ್ಕೆ ಎರಡು ಸಲ", a: ["twice", "a", "week"], x: ["the", "one"], why: "\"ವಾರಕ್ಕೆ ಇಷ್ಟು ಸಲ\" ಎನ್ನುವಾಗ ಆರ್ಟಿಕಲ್ a: twice a week." },
 
     { t: "fill", q: "It's __ quarter past ten.", p: "ಈಗ ಹತ್ತೂ ಕಾಲು (10:15)", a: ["a"], o: ["the", "one", "an"], why: "quarter (ಕಾಲು ಗಂಟೆ) ಮೊದಲು ಆರ್ಟಿಕಲ್ a ಬರುತ್ತದೆ; one ಅಲ್ಲ." },
-    { t: "fill", q: "That's fifty __ won.", p: "ಅದಕ್ಕೆ ಐವತ್ತು ಸಾವಿರ ವೊನ್ (ಕೊರಿಯಾದ ಹಣ)", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 = fifty thousand. ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ thousand ಪದಕ್ಕೆ ಬಹುವಚನ -s ಸೇರುವುದಿಲ್ಲ." },
+    { t: "fill", q: "That's fifty __ rupees.", p: "ಅದಕ್ಕೆ ಐವತ್ತು ಸಾವಿರ ರೂಪಾಯಿ", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 = fifty thousand. ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ thousand ಪದಕ್ಕೆ ಬಹುವಚನ -s ಸೇರುವುದಿಲ್ಲ." },
     { t: "fill", q: "I'll be there in ten __.", p: "ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ ಬರುತ್ತೇನೆ", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "ಹತ್ತು ನಿಮಿಷ, ಹಾಗಾಗಿ ಬಹುವಚನ: minutes. ಕನ್ನಡದಲ್ಲಿ \"ಹತ್ತು ನಿಮಿಷ\" ಸಾಕು; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ -s ಬೇಕು." },
 
     { t: "type", p: "ಈಗ ಮೂರೂವರೆ (3:30)", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — ಗಂಟೆ ಮತ್ತು ನಿಮಿಷವನ್ನು ಹಾಗೆಯೇ", x: ["thirteen"], why: "ಗಂಟೆ ಮತ್ತು ನಿಮಿಷವನ್ನು ಹಾಗೆಯೇ ಓದಿ: three thirty. 13 (thirteen) ಜೊತೆ ಗೊಂದಲ ಬೇಡ." },
@@ -232,14 +232,14 @@ module.exports = {
     { t: "mc", q: "\"ಅದು ವಿಪರೀತ ದುಬಾರಿ\" ಎಂಬ ಅರ್ಥದ ನುಡಿಗಟ್ಟು ಯಾವುದು?", o: ["It costs an arm and a leg.", "It costs a arm and a leg.", "It costs arm and leg.", "It costs an arm and an leg."], why: "arm ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an; leg ವ್ಯಂಜನ ಧ್ವನಿಯಿಂದ, ಹಾಗಾಗಿ a." },
     { t: "mc", q: "\"ಇವತ್ತಿಗೆ ಇಷ್ಟು ಸಾಕು\" (ಮೀಟಿಂಗ್‌ನಲ್ಲೂ ಹೇಳಬಹುದು)", o: ["Let's call it a day.", "Let's call it the day.", "Let's call a day.", "Let's call it day."], why: "call it a day — ಆರ್ಟಿಕಲ್ a ಸಹಿತ ಇಡಿಯಾಗಿ ಕಲಿಯಬೇಕಾದ ನುಡಿಗಟ್ಟು." },
     { t: "mc", q: "\"ನನಗೆ ಆಕಾಶದಲ್ಲಿ ತೇಲಿದಷ್ಟು ಖುಷಿಯಾಗಿದೆ\" ಎಂಬ ಅರ್ಥದ ನುಡಿಗಟ್ಟು ಯಾವುದು?", o: ["I'm on cloud nine.", "I'm on cloud nines.", "I'm in cloud nine.", "I'm on the cloud nine."], why: "on cloud nine: ಇಲ್ಲಿ ಆರ್ಟಿಕಲ್ ಇಲ್ಲ, ಬಹುವಚನ -s ಕೂಡ ಇಲ್ಲ." },
-    { t: "mc", q: "ಗೆಳೆಯರ ನಡುವೆ ಮಾತ್ರ ಬಳಸುವ ಸ್ಲ್ಯಾಂಗ್ ಯಾವುದು?", o: ["No cap", "Let's call it a day", "It's a piece of cake", "I'm all ears"], why: "No cap ಎಂದರೆ \"ನಿಜವಾಗಲೂ\"; ಇದು ಯುವಜನರ ಸ್ಲ್ಯಾಂಗ್. ಉಳಿದವು ಆಫೀಸ್‌ನಲ್ಲೂ ಬಳಸುವ ನುಡಿಗಟ್ಟುಗಳು." },
+    { t: "mc", q: "ಗೆಳೆಯರ ನಡುವೆ ಮಾತ್ರ ಬಳಸುವ ಸ್ಲ್ಯಾಂಗ್ ಯಾವುದು?", o: ["No cap", "Let's call it a day", "It's a piece of cake", "I'm all ears"], why: "No cap ಎಂದರೆ \"ನಿಜವಾಗಿಯೂ\"; ಇದು ಯುವಜನರ ಸ್ಲ್ಯಾಂಗ್. ಉಳಿದವು ಆಫೀಸ್‌ನಲ್ಲೂ ಬಳಸುವ ನುಡಿಗಟ್ಟುಗಳು." },
 
     { t: "order", p: "ಗಮನವಿಟ್ಟು ಕೇಳುತ್ತಿದ್ದೇನೆ", a: ["I'm", "all", "ears"], x: ["ear"], why: "\"ಮೈಯೆಲ್ಲಾ ಕಿವಿ\" ಎಂಬ ಅರ್ಥದ ಮಾತು, ಹಾಗಾಗಿ ಬಹುವಚನ ears." },
     { t: "order", p: "ನಾನು ಕುಳಿತು ಚೆನ್ನಾಗಿ ಓದಬೇಕು", a: ["I", "need", "to", "hit", "the", "books"], x: ["book", "a"], why: "hit the books — ಆರ್ಟಿಕಲ್ the ಮತ್ತು ಬಹುವಚನ books ಹಾಗೆಯೇ ಇರಬೇಕು." },
     { t: "order", p: "ಅದು ನನ್ನ ಅಭಿರುಚಿಗೆ ಹೊಂದುವುದಿಲ್ಲ", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "not my cup of tea ಎಂಬುದನ್ನು ಇಡಿಯಾಗಿ ಕಲಿಯಿರಿ. my ಇರುವ ಜಾಗದಲ್ಲಿ ಆರ್ಟಿಕಲ್ ಬರುವುದಿಲ್ಲ." },
 
     { t: "fill", q: "Kill two __ with one stone.", p: "ಒಂದೇ ಕಲ್ಲಿಗೆ ಎರಡು ಹಕ್ಕಿ", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "ಎರಡು ಹಕ್ಕಿ, ಹಾಗಾಗಿ ಬಹುವಚನ: birds." },
-    { t: "fill", q: "Speak of the __!", p: "ನಿನಗೆ ನೂರು ವರ್ಷ ಆಯಸ್ಸು! (ಈಗ ತಾನೇ ನಿನ್ನ ಬಗ್ಗೆ ಮಾತನಾಡುತ್ತಿದ್ದೆವು)", a: ["devil"], o: ["tiger", "angel", "bird"], why: "ನೆನೆದವರೇ ಎದುರಿಗೆ ಬಂದಾಗ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ devil (ದೆವ್ವ) ಎನ್ನುತ್ತಾರೆ: Speak of the devil!" },
+    { t: "fill", q: "Speak of the __!", p: "ನಿನಗೆ ನೂರು ವರ್ಷ ಆಯಸ್ಸು! (ಈಗ ತಾನೇ ನಿನ್ನ ಬಗ್ಗೆ ಮಾತನಾಡುತ್ತಿದ್ದೆವು)", a: ["devil"], o: ["ghost", "angel", "bird"], why: "ನೆನೆದವರೇ ಎದುರಿಗೆ ಬಂದಾಗ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ devil (ದೆವ್ವ) ಎನ್ನುತ್ತಾರೆ: Speak of the devil!" },
     { t: "fill", q: "I'm feeling under __ weather.", p: "ನನಗೆ ಸ್ವಲ್ಪ ಹುಷಾರಿಲ್ಲ", a: ["the"], o: ["a", "an", "my"], why: "under the weather — ಆರ್ಟಿಕಲ್ the ಹಾಗೆಯೇ ಇರಬೇಕು." },
 
     { t: "type", p: "ಅದು ತುಂಬಾ ಸುಲಭ (cake ಇರುವ ನುಡಿಗಟ್ಟು)", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — ಆರ್ಟಿಕಲ್ ಮರೆಯಬೇಡಿ", x: ["the"], why: "a piece of cake — ಆರ್ಟಿಕಲ್ a ಬೇಕೇ ಬೇಕು." },

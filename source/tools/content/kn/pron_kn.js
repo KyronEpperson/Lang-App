@@ -13,6 +13,7 @@ const PRON_RE = new RegExp(PROFILE.pronPattern, 'u');
 /* combining marks by code point, so that no editor or shell can drop or reorder them */
 const NUK = String.fromCodePoint(0x0CBC), VIR = String.fromCodePoint(0x0CCD), ANUS = String.fromCodePoint(0x0C82);
 const AA = String.fromCodePoint(0x0CBE);                 /* ಾ */
+const ZWNJ = String.fromCodePoint(0x200C);               /* rule 13a only */
 /* consonants: IPA -> letter (dotted letters as base + U+0CBC). ŋ is ಂ before k / g (see convWord). */
 const CONS = {
   p: 'ಪ', b: 'ಬ', t: 'ಟ', d: 'ಡ', k: 'ಕ', g: 'ಗ',
@@ -48,11 +49,47 @@ function tokenize(word) {
   return out;
 }
 
+/* Stress for a 2+ syllable word that has no ˈ (rule 2 as amended 2026-11-23, lead ruling after the pre-merge review; mirrors
+   tools/content/te/pron_te.js). Order: (1) a ˌ in the word becomes ˈ; (2) the position zh uses for the same sounds in a stressed
+   occurrence anywhere in tools/content/zh; (3) HAND_STRESS (citation stress). A word none of these covers throws. */
+const HAND_STRESS = {
+  /* key = the sounds without marks; value = the IPA with ˈ */
+  'ɪntə': 'ˈɪntə', 'ɪntu': 'ˈɪntu', 'ʌndər': 'ˈʌndər', 'oʊvər': 'ˈoʊvər', 'æftər': 'ˈæftər', 'əntɪl': 'ənˈtɪl',
+  'əbaʊt': 'əˈbaʊt', 'əkrɔːs': 'əˈkrɔːs', 'əraʊnd': 'əˈraʊnd', 'bɪfɔːr': 'bɪˈfɔːr', 'bɪkʌz': 'bɪˈkʌz', 'bɪkəz': 'bɪˈkəz',
+  'bɪtwiːn': 'bɪˈtwiːn', 'wɪðaʊt': 'wɪˈðaʊt', 'wɪθaʊt': 'wɪˈθaʊt', 'əgen': 'əˈgen', 'əgenst': 'əˈgenst', 'əpɑːn': 'əˈpɑːn',
+  'ʌntɪl': 'ʌnˈtɪl', 'dʊrɪŋ': 'ˈdʊrɪŋ', 'ɔːlsoʊ': 'ˈɔːlsoʊ', 'eni': 'ˈeni', 'ʌðər': 'ˈʌðər', 'əlɔːŋ': 'əˈlɔːŋ', 'əwer': 'əˈwer',
+  'ɑːntu': 'ˈɑːntu', 'ɑːntə': 'ˈɑːntə', 'bɪsaɪd': 'bɪˈsaɪd', 'bɪhaɪnd': 'bɪˈhaɪnd', 'bɪloʊ': 'bɪˈloʊ', 'əbʌv': 'əˈbʌv',
+  'wɪðɪn': 'wɪˈðɪn', 'ɔːlðoʊ': 'ɔːlˈðoʊ', 'aʊər': 'ˈaʊər', 'ɪtl': 'ˈɪtl'
+};
+let STRESSED = null;
+function stressMap() {
+  if (STRESSED) return STRESSED;
+  STRESSED = {};
+  for (const p of zhPairs()) for (const g of p.ipa.replace(/[\/‖]/g, ' ').split(/\s+/)) {
+    if (!g || (g.match(/ˈ/g) || []).length !== 1) continue;
+    let seg; try { seg = tokenize(g); } catch (x) { continue; }
+    const key = seg.filter(x => x.t !== 'S').map(x => x.k).join('');
+    let n = 0, pos = -1; for (const x of seg) { if (x.t === 'S') { if (x.primary) pos = n; } else n++; }
+    if (pos >= 0 && !(key in STRESSED)) STRESSED[key] = pos;
+  }
+  return STRESSED;
+}
+function supplyStress(seg, key, word) {
+  const sec = seg.findIndex(x => x.t === 'S' && !x.primary);
+  if (sec >= 0) { seg[sec] = { t: 'S', primary: true }; return; }
+  let pos = stressMap()[key];
+  if (pos === undefined && HAND_STRESS[key]) { const h = tokenize(HAND_STRESS[key]); pos = h.findIndex(x => x.t === 'S'); }
+  if (pos === undefined || pos < 0) throw new Error('ipaToKn: rule 2 needs ˈ on /' + word + '/ (2+ syllables, no stress in the IPA, none found in zh or HAND_STRESS)');
+  let n = 0;
+  for (let i = 0; i < seg.length; i++) { if (seg[i].t === 'S') continue; if (n === pos) { seg.splice(i, 0, { t: 'S', primary: true }); return; } n++; }
+}
+
 function convWord(word) {
   const seg = tokenize(word);
   const bad = m => { throw new Error('ipaToKn: ' + m + ' in /' + word + '/'); };
   const ph = seg.filter(x => x.t !== 'S');
   if (!ph.length) bad('no sound');
+  const soundKey = ph.map(x => x.k).join('');
   seg.forEach((x, i) => { if (x.t === 'S' && (i === seg.length - 1 || seg[i + 1].t === 'S')) bad('a stress mark with no sound after it'); });
   /* symbols that are not in the key: British diphthongs and NURSE without r (zh PRON-RULES A1) */
   ph.forEach((x, i) => {
@@ -70,7 +107,10 @@ function convWord(word) {
         ph.slice(i + 1).every(y => y.t === 'C')) x.syl = true;
   });
   const syll = ph.filter(x => x.t === 'V' || x.syl).length;
-  /* rule 2: ˈ only in words of 2+ syllables, every ˌ dropped. rule 7: ɔɪ = ɑː + ಯ */
+  /* rule 2 (amended 2026-11-23): every word of 2+ syllables carries ˈ, even where the zh IPA leaves a function word unstressed
+     (about, into, under …) or has only ˌ (ninety-nine, twenty twenty-six); one-syllable words carry none; every other ˌ is dropped.
+     rule 7: ɔɪ = ɑː + ಯ */
+  if (syll >= 2 && !seg.some(x => x.t === 'S' && x.primary)) supplyStress(seg, soundKey, word);
   const s = [];
   for (const x of seg) {
     if (x.t === 'S') { if (x.primary && syll >= 2) s.push(x); continue; }
@@ -101,13 +141,19 @@ function convWord(word) {
     /* rule 4: ್ on every consonant with no vowel after it: the last one, before a consonant, and before ˈ
        (kept visible where ˈ splits a cluster; a vowel after ˈ is then written independent) */
     out += VIR;
+    /* rule 13a (2026-11-23, pre-merge review): a dotted letter cannot be drawn as a subscript (ottu) in most fonts, so the ್ before
+       it falls back to a visible ್ in some fonts and not in others. ZWNJ after that ್ asks every font for the same visible ್.
+       Not after ರ, which becomes the arkavattu and renders correctly. */
+    if (x.k !== 'r' && next && next.t === 'C' && CONS[next.k].endsWith(NUK)) out += ZWNJ;
   }
   return out;
 }
 
-/* characters §6 rule 13 bans, by code point: ZWNJ, ZWJ, the length marks, Kannada digits, ಒ / ೊ, visarga */
+/* characters §6 rule 13 bans, by code point: ZWNJ (except in the rule 13a slot: ್ + ZWNJ before a dotted letter), ZWJ, the length marks,
+   Kannada digits, ಒ / ೊ, visarga */
 const BANNED = [0x200C, 0x200D, 0x0CD5, 0x0CD6, 0x0C92, 0x0CCA, 0x0C83].concat(Array.from({ length: 10 }, (_, i) => 0x0CE6 + i));
-const banned = str => [...str].filter(c => BANNED.includes(c.codePointAt(0)));
+const ZWNJ_OK = /\u0CCD\u200C(?=[\u0C9C\u0CB5\u0CB6\u0CAB\u0CA5\u0CA6]\u0CBC)/gu;
+const banned = str => [...str.replace(ZWNJ_OK, '\u0CCD')].filter(c => BANNED.includes(c.codePointAt(0)));
 
 function ipaToKn(ipa) {
   if (typeof ipa !== 'string') throw new Error('ipaToKn: string expected');
@@ -198,8 +244,8 @@ const EXAMPLES = [
   {"en":"mouth","ipa":"/ˈmaʊθ/","kn":"ಮೌಥ಼್","src":"zh row","table":"worked"},
   {"en":"mouse","ipa":"/ˈmaʊs/","kn":"ಮೌಸ್","src":"zh row","table":"worked"},
   {"en":"asked","ipa":"/ˈæskt/","kn":"ಆ್ಯಸ್ಕ್ಟ್","src":"zh row","table":"worked"},
-  {"en":"months","ipa":"/ˈmʌnθs/","kn":"ಮನ್ಥ಼್ಸ್","src":"zh row","table":"worked"},
-  {"en":"friends","ipa":"/ˈfrendz/","kn":"ಫ಼್ರೆನ್ಡ್ಜ಼್","src":"zh row","table":"worked"},
+  {"en":"months","ipa":"/ˈmʌnθs/","kn":"ಮನ್‌ಥ಼್ಸ್","src":"zh row","table":"worked"},
+  {"en":"friends","ipa":"/ˈfrendz/","kn":"ಫ಼್ರೆನ್ಡ್‌ಜ಼್","src":"zh row","table":"worked"},
   {"en":"hotel","ipa":"/hoʊˈtel/","kn":"ಹೋˈಟೆಲ್","src":"zh row","table":"worked"},
   {"en":"bus","ipa":"/ˈbʌs/","kn":"ಬಸ್","src":"new","table":"worked"},
   {"en":"bus stop","ipa":"/ˈbʌs ˈstɑːp/","kn":"ಬಸ್ ಸ್ಟಾಪ್","src":"new","table":"worked"},
@@ -277,7 +323,7 @@ const EXAMPLES = [
   {"en":"house","ipa":"/ˈhaʊs/","kn":"ಹೌಸ್","src":"own","table":"key"},
   {"en":"now","ipa":"/ˈnaʊ/","kn":"ನೌ","src":"zh word","table":"key"},
   {"en":"boy","ipa":"/ˈbɔɪ/","kn":"ಬಾಯ್","src":"zh word","table":"key"},
-  {"en":"noise","ipa":"/ˈnɔɪz/","kn":"ನಾಯ್ಜ಼್","src":"own","table":"key"},
+  {"en":"noise","ipa":"/ˈnɔɪz/","kn":"ನಾಯ್‌ಜ಼್","src":"own","table":"key"},
   {"en":"work","ipa":"/ˈwɜːrk/","kn":"ವರ್ಕ್","src":"zh word","table":"key"},
   {"en":"bird","ipa":"/ˈbɜːrd/","kn":"ಬರ್ಡ್","src":"zh word","table":"key"},
   {"en":"water","ipa":"/ˈwɔːtər/","kn":"ˈವಾಟರ್","src":"zh word","table":"key"},
@@ -313,7 +359,7 @@ const EXAMPLES = [
   {"en":"job","ipa":"/ˈdʒɑːb/","kn":"ಜಾಬ್","src":"zh word","table":"key"},
   {"en":"since","ipa":"/sɪns/","kn":"ಸಿನ್ಸ್","src":"zh word","table":"key"},
   {"en":"lamp","ipa":"/ˈlæmp/","kn":"ಲ್ಯಾಮ್ಪ್","src":"own","table":"key"},
-  {"en":"friends","ipa":"/ˈfrendz/","kn":"ಫ಼್ರೆನ್ಡ್ಜ಼್","src":"zh word","table":"key"},
+  {"en":"friends","ipa":"/ˈfrendz/","kn":"ಫ಼್ರೆನ್ಡ್‌ಜ಼್","src":"zh word","table":"key"},
   {"en":"English","ipa":"/ˈɪŋglɪʃ/","kn":"ˈಇಂಗ್ಲಿಶ್","src":"zh word","table":"key"},
   {"en":"long","ipa":"/ˈlɔːŋ/","kn":"ಲಾಙ್","src":"zh word","table":"key"},
   {"en":"singing","ipa":"/ˈsɪŋɪŋ/","kn":"ˈಸಿಙಿಙ್","src":"own","table":"key"},
@@ -339,7 +385,7 @@ const EXAMPLES = [
   {"en":"can't","ipa":"/ˈkænt/","kn":"ಕ್ಯಾನ್ಟ್","src":"zh word","table":"key"},
   {"en":"that's","ipa":"/ˈðæts/","kn":"ದ಼್ಯಾಟ್ಸ್","src":"zh word","table":"key"},
   {"en":"cats","ipa":"/ˈkæts/","kn":"ಕ್ಯಾಟ್ಸ್","src":"zh word","table":"key"},
-  {"en":"dogs","ipa":"/ˈdɔːgz/","kn":"ಡಾಗ್ಜ಼್","src":"zh word","table":"key"},
+  {"en":"dogs","ipa":"/ˈdɔːgz/","kn":"ಡಾಗ್‌ಜ಼್","src":"zh word","table":"key"},
   {"en":"buses","ipa":"/ˈbʌsɪz/","kn":"ˈಬಸಿಜ಼್","src":"own","table":"key"},
   {"en":"watched","ipa":"/ˈwɑːtʃt/","kn":"ವಾಚ್ಟ್","src":"zh word","table":"key"},
   {"en":"played","ipa":"/ˈpleɪd/","kn":"ಪ್ಲೇಡ್","src":"own","table":"key"},
@@ -393,7 +439,15 @@ const EXAMPLES = [
   {"en":"cot","ipa":"/ˈkɑːt/","kn":"ಕಾಟ್","src":"own","table":"key"},
   {"en":"caught","ipa":"/ˈkɔːt/","kn":"ಕಾಟ್","src":"own","table":"key"},
   {"en":"street","ipa":"/ˈstriːt/","kn":"ಸ್ಟ್ರೀಟ್","src":"own","table":"key"},
-  {"en":"happy","ipa":"/ˈhæpi/","kn":"ˈಹ್ಯಾಪಿ","src":"own","table":"key"}
+  {"en":"happy","ipa":"/ˈhæpi/","kn":"ˈಹ್ಯಾಪಿ","src":"own","table":"key"},
+  {"en":"across (rule 2, HAND_STRESS)","ipa":"/əkrɔːs/","kn":"ಅˈಕ್ರಾಸ್","src":"own","table":"key"},
+  {"en":"until (rule 2, HAND_STRESS)","ipa":"/əntɪl/","kn":"ಅನ್ˈಟಿಲ್","src":"own","table":"key"},
+  {"en":"because (rule 2)","ipa":"/bɪkəz/","kn":"ಬಿˈಕಜ಼್","src":"own","table":"key"},
+  {"en":"ninety-nine (rule 2, ˌ promoted)","ipa":"/ˌnaɪnti ˈnaɪn/","kn":"ˈನೈನ್ಟಿ ನೈನ್","src":"own","table":"key"},
+  {"en":"twenty twenty-six (rule 2)","ipa":"/ˈtwenti ˌtwenti ˈsɪks/","kn":"ˈಟ್ವೆನ್ಟಿ ˈಟ್ವೆನ್ಟಿ ಸಿಕ್ಸ್","src":"own","table":"key"},
+  {"en":"twelve (rule 13a)","ipa":"/ˈtwelv/","kn":"ಟ್ವೆಲ್‌ವ಼್","src":"own","table":"key"},
+  {"en":"silver (rule 13a)","ipa":"/ˈsɪlvər/","kn":"ˈಸಿಲ್‌ವ಼ರ್","src":"own","table":"key"},
+  {"en":"nervous (rule 13a: none after ರ)","ipa":"/ˈnɜːrvəs/","kn":"ˈನರ್ವ಼ಸ್","src":"own","table":"key"}
 ];
 
 /* inputs the converter must refuse */
@@ -440,7 +494,9 @@ function selftest() {
   const rows = profileRows(), worked = EXAMPLES.filter(e => e.table === 'worked');
   if (rows) {
     if (rows.length !== worked.length) { bad++; console.log('FAIL  profile §6 has ' + rows.length + ' worked rows, the tool has ' + worked.length); }
-    rows.forEach((r, i) => { const w = worked[i]; if (w && (w.en !== r.en || w.ipa !== r.ipa || w.kn !== r.kn)) { bad++; console.log('FAIL  worked row ' + (i + 1) + ' differs from the profile: ' + r.en + ' ' + r.ipa + ' ' + r.kn); } });
+    /* the profile table predates rule 13a (ZWNJ before a dotted letter, 2026-11-23): compare it with the ZWNJ removed */
+    const noZ = t => t.replace(/\u200C/g, '');
+    rows.forEach((r, i) => { const w = worked[i]; if (w && (w.en !== r.en || w.ipa !== r.ipa || noZ(w.kn) !== noZ(r.kn))) { bad++; console.log('FAIL  worked row ' + (i + 1) + ' differs from the profile: ' + r.en + ' ' + r.ipa + ' ' + r.kn); } });
   }
   for (const e of EXAMPLES) {
     let got; try { got = ipaToKn(e.ipa); } catch (x) { got = 'ERROR ' + x.message; }

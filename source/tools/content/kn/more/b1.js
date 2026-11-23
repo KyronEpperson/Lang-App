@@ -26,7 +26,7 @@ practice:[
 ["fi","Have you finished __?","ನಿನ್ನ ಕೆಲಸ ಮುಗಿಯಿತೇ?","yet|already","ever|never|since","ಪ್ರಶ್ನೆಯ ಕೊನೆಗೆ yet."],
 ["ty","ನಾನು ಮೂರು ವರ್ಷದಿಂದ ಇಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇನೆ","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — ಬಹುವಚನ","year","ಮೂರು ವರ್ಷ: ಬಹುವಚನ years. ಕನ್ನಡದಲ್ಲಿ \"ಮೂರು ವರ್ಷ\" ಎನ್ನಬಹುದು, ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ -s ಬೇಕೇ ಬೇಕು."],
 ["ty","ನೀವು ಎಷ್ಟು ಸಮಯದಿಂದ ಇಲ್ಲಿದ್ದೀರಿ?","How long have you been here","how long · have you · been here","are","ಅವಧಿ ಕೇಳಲು How long have you + V3."],
-["ty","ನಾನು ಆ ಪುಸ್ತಕ ಆಗಲೇ ಓದಿದ್ದೇನೆ","I've already read the book|I've read the book already|I already read the book","already · read · book — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಪುಸ್ತಕ: ಆರ್ಟಿಕಲ್ the."]]},
+["ty","ನಾನು ಆ ಪುಸ್ತಕ ಆಗಲೇ ಓದಿದ್ದೇನೆ","I've already read the book|I've read the book already|I already read the book|I've already read that book|I've read that book already|I already read that book","already · read · book — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಪುಸ್ತಕ: ಆರ್ಟಿಕಲ್ the."]]},
 { id:"stative-since", title:"since / for ಮತ್ತು know, have: -ing ಬೇಡ", blurb:"\"ನಾನು 2015 ರಿಂದ ಇಲ್ಲಿ ಇದ್ದೇನೆ\" = I've lived here since 2015; I am living ಅಲ್ಲ.", deck:"ಸ್ವಪರಿಚಯ", body:`
 <p>"ನಾನು ಎರಡು ವರ್ಷದಿಂದ ಇಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ", "ನನಗೆ ಅವನು ಹತ್ತು ವರ್ಷದಿಂದ ಗೊತ್ತು": ಕನ್ನಡದಲ್ಲಿ ಇವು ಸರಳ ವಾಕ್ಯಗಳು. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಹೇಳುವಾಗ ಮೂರು ಕಡೆ ಎಡವುತ್ತೇವೆ: ಬೇಡದ ಕ್ರಿಯಾಪದಕ್ಕೆ -ing, ಬೇರೆ ಕಾಲ (tense), ಮತ್ತು -ಇಂದ ಬದಲು from. ಭಾರತದಲ್ಲಿ ಈ ರೂಪಗಳು ತುಂಬಾ ಕೇಳಿಬರುತ್ತವೆ; ವಿದೇಶದಲ್ಲಿ ಕೇಳುವವರು ಕೆಳಗಿನ ರೂಪಗಳನ್ನು ನಿರೀಕ್ಷಿಸುತ್ತಾರೆ.</p>
 <h3>1. ಸ್ಥಿತಿ ತಿಳಿಸುವ ಕ್ರಿಯಾಪದಗಳಿಗೆ (stative verbs) -ing ಬೇಡ</h3>
@@ -89,7 +89,7 @@ practice:[
 ["fi","I was sleeping __ you called.","ನೀನು ಫೋನ್ ಮಾಡಿದಾಗ ನಾನು ನಿದ್ದೆ ಮಾಡುತ್ತಿದ್ದೆ","when","than|so|had","\"ಮಾಡಿದಾಗ\" ಎನ್ನಲು when."],
 ["fi","The bus had already __.","ಬಸ್ ಆಗಲೇ ಹೊರಟುಹೋಗಿತ್ತು","left|gone","leave|leaving|leaves","had ನಂತರ V3."],
 ["fi","First we ate. __ we watched a movie.","ಮೊದಲು ಊಟ ಮಾಡಿದೆವು. ಆಮೇಲೆ ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆವು","Then|After that|Next","Than|Because|When","\"ಆಮೇಲೆ\" ಎನ್ನಲು then."],
-["ty","ಸಿನಿಮಾ ಆಗಲೇ ಶುರುವಾಗಿತ್ತು","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — ಆರ್ಟಿಕಲ್ the","a","ನೋಡಬೇಕೆಂದಿದ್ದ ಆ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."],
+["ty","ಸಿನಿಮಾ ಆಗಲೇ ಶುರುವಾಗಿತ್ತು","The movie had already started|The movie had started already|The movie already started|The film had already started|The film had started already|The film already started","the movie · had · already · started — ಆರ್ಟಿಕಲ್ the","a","ನೋಡಬೇಕೆಂದಿದ್ದ ಆ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."],
 ["ty","ನಾನು ಒಬ್ಬ ಹಳೆಯ ಸ್ನೇಹಿತನನ್ನು ಭೇಟಿಯಾದೆ","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — ಆರ್ಟಿಕಲ್ an","a","old ಸ್ವರದ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ: ಆರ್ಟಿಕಲ್ an."],
 ["ty","ನಾನು ಮನೆಗೆ ನಡೆದು ಹೋಗುತ್ತಿದ್ದೆ","I was walking home","was · walking · home","had","ಹಿನ್ನೆಲೆಯನ್ನು Past Continuous ರೂಪದಲ್ಲಿ ಹೇಳಿ."]]},
 { id:"conditionals", title:"if ವಾಕ್ಯ 2 ಮತ್ತು 3: ಕಲ್ಪನೆ ಮತ್ತು ಪಶ್ಚಾತ್ತಾಪ", blurb:"ಈಗಿನ ನಿಜಕ್ಕೆ ವಿರುದ್ಧವಾದ ಕಲ್ಪನೆಗೆ would, ಆಗಿಹೋದದ್ದರ ಪಶ್ಚಾತ್ತಾಪಕ್ಕೆ would have.", deck:"ಭಾವನೆ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ", body:`
@@ -119,33 +119,33 @@ practice:[
 ["fi","I wish I __ more time.","ನನಗೆ ಇನ್ನೂ ಸ್ವಲ್ಪ ಸಮಯ ಇದ್ದಿದ್ದರೆ ಚೆನ್ನಾಗಿತ್ತು","had","have|would have|will have","I wish ನಂತರ Simple Past ರೂಪ."],
 ["ty","ನಾನು ನಿನ್ನ ಜಾಗದಲ್ಲಿದ್ದಿದ್ದರೆ ಹೋಗುತ್ತಿದ್ದೆ","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd … ಎಂಬ ಸಿದ್ಧ ರೂಪ."],
 ["ty","ನನ್ನ ಹತ್ತಿರ ಒಂದು ಕಾರು ಇದ್ದಿದ್ದರೆ ಚೆನ್ನಾಗಿತ್ತು (I wish ಬಳಸಿ)","I wish I had a car","I wish · had · car — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a."],
-["ty","ನಾನು ಟ್ಯಾಕ್ಸಿ ಹಿಡಿಯಬೇಕಿತ್ತು","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಟ್ಯಾಕ್ಸಿ: ಆರ್ಟಿಕಲ್ a."]]},
+["ty","ನಾನು ಟ್ಯಾಕ್ಸಿ ಹಿಡಿಯಬೇಕಿತ್ತು","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi|I should've taken a taxi|I should've got a taxi|I should've gotten a taxi","should have · taken · taxi — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಟ್ಯಾಕ್ಸಿ: ಆರ್ಟಿಕಲ್ a."]]},
 { id:"passive", title:"Passive Voice (ಕರ್ಮಣಿ ಪ್ರಯೋಗ): be + V3", blurb:"ಯಾರು ಮಾಡಿದರು ಎನ್ನುವುದಕ್ಕಿಂತ ಏನಾಯಿತು ಎನ್ನುವುದು ಮುಖ್ಯವಾದಾಗ.", deck:"ಆಫೀಸ್ ಮತ್ತು ಇಮೇಲ್", body:`
 <p>ರೂಪ: <b>be + V3</b>. ಯಾರು ಮಾಡಿದರು ಎಂದು ಗೊತ್ತಿಲ್ಲದಾಗ ಅಥವಾ ಅದು ಮುಖ್ಯವಲ್ಲದಾಗ ಇದು ಸಹಜ. ಕನ್ನಡದ ಕರ್ಮಣಿ ಪ್ರಯೋಗ ("ಮಾಡಲ್ಪಟ್ಟಿತು") ಪುಸ್ತಕದ ಭಾಷೆ; ಮಾತಿನಲ್ಲಿ "ಫೋನ್ ಕಳುವಾಯಿತು", "ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು" ಎನ್ನುತ್ತೇವೆ. ಇಂಥ ವಾಕ್ಯಗಳಿಗೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಹೆಚ್ಚಾಗಿ Passive Voice ಬರುತ್ತದೆ.</p>
 {{ex:My phone was stolen.|ಮೈ ಫ಼ೋನ್ ವಜ಼್ ˈಸ್ಟೋಲನ್|ನನ್ನ ಫೋನ್ ಕಳುವಾಯಿತು}}{{ex:This was made in India.|ದ಼ಿಸ್ ವಜ಼್ ಮೇಡ್ ಇನ್ ˈಇನ್ಡಿಅ|ಇದು ಭಾರತದಲ್ಲಿ ತಯಾರಾಗಿದೆ}}{{ex:The meeting was canceled.|ದ಼ ˈಮೀಟಿಙ್ ವಜ಼್ ˈಕ್ಯಾನ್ಸಲ್ಡ್|ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು}}
 <h3>Simple Present: ಯಾವಾಗಲೂ ಹಾಗೆಯೇ ನಡೆಯುವುದು</h3>
-{{ex:English is spoken here.|ˈಇಂಗ್ಲಿಶ್ ಇಜ಼್ ˈಸ್ಪೋಕನ್ ಹಿರ್|ಇಲ್ಲಿ ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತಾರೆ}}{{ex:Breakfast is served at seven.|ˈಬ್ರೆಕ್ಫ಼ಸ್ಟ್ ಇಜ಼್ ಸರ್ವ಼್ಡ್ ಅಟ್ ˈಸೆವ಼ನ್|ಬೆಳಗಿನ ತಿಂಡಿ 7 ಗಂಟೆಗೆ ಕೊಡುತ್ತಾರೆ}}
+{{ex:English is spoken here.|ˈಇಂಗ್ಲಿಶ್ ಇಜ಼್ ˈಸ್ಪೋಕನ್ ಹಿರ್|ಇಲ್ಲಿ ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತಾರೆ}}{{ex:Breakfast is served at seven.|ˈಬ್ರೆಕ್‌ಫ಼ಸ್ಟ್ ಇಜ಼್ ಸರ್ವ಼್ಡ್ ಅಟ್ ˈಸೆವ಼ನ್|ಬೆಳಗಿನ ತಿಂಡಿ 7 ಗಂಟೆಗೆ ಕೊಡುತ್ತಾರೆ}}
 <h3>ಯಾರು ಮಾಡಿದರು ಎನ್ನಲು by</h3>
 <p>ಕನ್ನಡದ -ಇಂದ ("ಕುವೆಂಪು ಅವರಿಂದ") ಇಲ್ಲಿ by; from ಅಲ್ಲ.</p>
 {{ex:It was written by Kuvempu.|ಇಟ್ ವಜ಼್ ˈರಿಟನ್ ಬೈ ಕುˈವ಼ೆಮ್ಪೂ|ಇದನ್ನು ಕುವೆಂಪು ಬರೆದಿದ್ದಾರೆ}}
 <h3>Active ಮತ್ತು Passive</h3>
 <div class="tbl"><table><tr><th>Active Voice (ಕರ್ತರಿ ಪ್ರಯೋಗ)</th><th>Passive Voice</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
 <div class="tip">ಸಾಮಾನ್ಯ ತಪ್ಪು: be ಬಿಟ್ಟುಬಿಡುವುದು. <b>My phone stolen.</b> ✗ → <b>My phone was stolen.</b> ✓ ಆಫೀಸ್ ಇಮೇಲ್‌ನಲ್ಲಿ <b>It is informed that …</b> ಎಂದು ಬರೆಯುವ ಬದಲು <b>Please note that …</b> ಎಂದು ಬರೆಯಿರಿ.</div>`,
-check:[["My bag ___ stolen yesterday. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["is","was","did","has"],1,"ನಿನ್ನೆಯ ವಿಷಯ: was + V3."],["This phone ___ made in Korea. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["was","did","has","does"],0,"Passive Voice ಎಂದರೆ be + V3."],["\"ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"Passive Voice ಎಂದರೆ be + V3: was canceled."]],
+check:[["My bag ___ stolen yesterday. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["is","was","did","has"],1,"ನಿನ್ನೆಯ ವಿಷಯ: was + V3."],["This phone ___ made in India. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["was","did","has","does"],0,"Passive Voice ಎಂದರೆ be + V3."],["\"ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"Passive Voice ಎಂದರೆ be + V3: was canceled."]],
 practice:[
 ["mc","My phone ___ stolen.","was","did","has","is steal","Passive Voice ಎಂದರೆ be + V3."],
-["mc","\"ಇದು ಕೊರಿಯಾದಲ್ಲಿ ತಯಾರಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be ನಂತರ V3: was made."],
+["mc","\"ಇದು ಭಾರತದಲ್ಲಿ ತಯಾರಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","This was made in India.","This made in India.","This was make in India.","This did made in India.","be ನಂತರ V3: was made."],
 ["mc","\"ಇಲ್ಲಿ ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತಾರೆ\" (Passive Voice ಬಳಸಿ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","ಯಾವಾಗಲೂ ನಡೆಯುವುದಕ್ಕೆ is + V3."],
 ["mc","\"ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","Passive Voice ಎಂದರೆ be + V3: was canceled."],
 ["mc","\"ಬೆಳಗಿನ ತಿಂಡಿ 7 ಗಂಟೆಗೆ ಕೊಡುತ್ತಾರೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","ಊಟದ ಹೆಸರಿಗೆ ಆರ್ಟಿಕಲ್ ಇಲ್ಲ; is + V3."],
 ["or","ನನ್ನ ಬ್ಯಾಗ್ ಕಳುವಾಯಿತು","My bag was stolen","stole","be ನಂತರ V3: stolen."],
 ["or","ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು","The meeting was canceled","A meetings","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಮೀಟಿಂಗ್: ಆರ್ಟಿಕಲ್ the."],
 ["or","ಕಿಟಕಿ ಒಡೆದಿತ್ತು","The window was broken","a windows","ಇಲ್ಲಿರುವ ಆ ಕಿಟಕಿ: ಆರ್ಟಿಕಲ್ the."],
-["fi","This was __ in Korea.","ಇದು ಕೊರಿಯಾದಲ್ಲಿ ತಯಾರಾಗಿದೆ","made","make|making|makes","be ನಂತರ V3."],
+["fi","This was __ in India.","ಇದು ಭಾರತದಲ್ಲಿ ತಯಾರಾಗಿದೆ","made","make|making|makes","be ನಂತರ V3."],
 ["fi","The room __ cleaned every day.","ಕೋಣೆಯನ್ನು ಪ್ರತಿದಿನ ಸ್ವಚ್ಛ ಮಾಡುತ್ತಾರೆ","is|gets","does|has|did","ಯಾವಾಗಲೂ ನಡೆಯುವುದಕ್ಕೆ is + V3."],
-["fi","It was written __ Han Kang.","ಇದನ್ನು ಹಾನ್ ಕಾಂಗ್ ಬರೆದಿದ್ದಾರೆ","by","from|of|with","ಯಾರು ಮಾಡಿದರು ಎನ್ನಲು by; from ಅಲ್ಲ."],
+["fi","It was written __ Kuvempu.","ಇದನ್ನು ಕುವೆಂಪು ಬರೆದಿದ್ದಾರೆ","by","from|of|with","ಯಾರು ಮಾಡಿದರು ಎನ್ನಲು by; from ಅಲ್ಲ."],
 ["ty","ನನ್ನ ಫೋನ್ ಕಳುವಾಯಿತು","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be ನಂತರ V3: was stolen."],
-["ty","ಆ ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಮೀಟಿಂಗ್: ಆರ್ಟಿಕಲ್ the."],
+["ty","ಆ ಮೀಟಿಂಗ್ ರದ್ದಾಯಿತು","The meeting was canceled|The meeting was cancelled|The meeting got canceled|That meeting was canceled|That meeting was cancelled|That meeting got canceled|The meeting got cancelled","the meeting · was · canceled — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಮೀಟಿಂಗ್: ಆರ್ಟಿಕಲ್ the."],
 ["ty","ಬಾಗಿಲಿಗೆ ಬೀಗ ಹಾಕಿತ್ತು","The door was locked","the door · was · locked — ಆರ್ಟಿಕಲ್ the","a","ಇಲ್ಲಿರುವ ಆ ಬಾಗಿಲು: ಆರ್ಟಿಕಲ್ the."]]},
 { id:"reported", title:"Indirect Speech (ಪರೋಕ್ಷ ಕಥನ): ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವುದು", blurb:"She said she was tired. ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ; tell ನಂತರ ಯಾರಿಗೆ ಹೇಳಿದರೋ ಆ ವ್ಯಕ್ತಿ.", deck:"ಕಾಲ್ ಮತ್ತು ಚಾಟ್ ಸಂಕ್ಷಿಪ್ತ ರೂಪ", body:`
 <p>ಬೇರೆಯವರು ಹೇಳಿದ್ದನ್ನು ತಿಳಿಸುವಾಗ ಬಳಸುತ್ತೇವೆ. ಕನ್ನಡದಲ್ಲಿ ಹೇಳಿದವರ ಮಾತನ್ನು ಹಾಗೆಯೇ ಇಟ್ಟು "ಅಂತ" ಅಥವಾ "ಎಂದು" ಸೇರಿಸುತ್ತೇವೆ: ಅವನು "ನಾನು ಬರುತ್ತೇನೆ" ಅಂತ ಹೇಳಿದ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಎರಡು ಬದಲಾವಣೆ ಆಗುತ್ತವೆ: <b>ಸರ್ವನಾಮ</b> ಬದಲಾಗುತ್ತದೆ (I → he), <b>ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ</b> ಹೋಗುತ್ತದೆ (will → would).</p>
@@ -173,5 +173,5 @@ practice:[
 ["fi","She asked __ I was okay.","ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆಯೇ ಎಂದು ಅವಳು ಕೇಳಿದಳು","if|whether","that|what|did","ಹೌದು-ಇಲ್ಲ ಪ್ರಶ್ನೆಯನ್ನು ತಿಳಿಸಲು if."],
 ["ty","ತಾನು ಬ್ಯುಸಿ ಇರುವುದಾಗಿ ಅವನು ಹೇಳಿದ (ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ)","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","ಬೇರೆಯವರ ಮಾತನ್ನು ತಿಳಿಸುವಾಗ ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ: was."],
 ["ty","ತನ್ನ ಹತ್ತಿರ ಒಂದು ಕಾರು ಇದೆ ಎಂದು ಅವಳು ಹೇಳಿದಳು (ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ)","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — ಆರ್ಟಿಕಲ್ a","the","ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿರುವ ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a."],
-["ty","ತಾನು ಆ ಸಿನಿಮಾ ನೋಡಿರುವುದಾಗಿ ಅವನು ಹೇಳಿದ (ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ)","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."]]},
+["ty","ತಾನು ಆ ಸಿನಿಮಾ ನೋಡಿರುವುದಾಗಿ ಅವನು ಹೇಳಿದ (ಕಾಲ ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ)","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie|He said he had seen that movie|He said he'd seen the movie|He said that he had seen the movie|He said he saw that movie|He said he had seen the film|He said he saw the film|He said he had seen that film","he said · saw · movie — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ the."]]},
 ];

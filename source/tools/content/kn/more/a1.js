@@ -7,7 +7,7 @@ module.exports = [
 {{ex:It's cold today.|ಇಟ್ಸ್ ಕೋಲ್ಡ್ ಟˈಡೇ|ಇವತ್ತು ಚಳಿ ಇದೆ}}{{ex:It's three o'clock.|ಇಟ್ಸ್ ಥ಼್ರೀ ಅˈಕ್ಲಾಕ್|ಈಗ ಮೂರು ಗಂಟೆ}}{{ex:It's raining.|ಇಟ್ಸ್ ˈರೇನಿಙ್|ಮಳೆ ಬರುತ್ತಿದೆ}}
 <h3>"…ಇದೆ" ಎನ್ನಲು There is / There are</h3>
 <p>ಒಂದೇ ಇದ್ದರೆ <b>There is a …</b>, ಹೆಚ್ಚು ಇದ್ದರೆ <b>There are … -s</b>. ಮಾತಿನಲ್ಲಿ There's ಎಂದು ಚಿಕ್ಕದಾಗುತ್ತದೆ. ಕನ್ನಡದಲ್ಲಿ "ಇದೆ" ವಾಕ್ಯದ ಕೊನೆಗೆ ಬರುತ್ತದೆ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ There is ವಾಕ್ಯದ ಮೊದಲಿಗೆ ಬರುತ್ತದೆ.</p>
-{{ex:There's a cafe near here.|ದ಼ೆರ್ಜ಼್ ಅ ಕ್ಯಾˈಫ಼ೇ ನಿರ್ ಹಿರ್|ಇಲ್ಲಿ ಹತ್ತಿರ ಒಂದು ಕೆಫೆ ಇದೆ}}{{ex:There are two rooms.|ದ಼ೆರ್ ಅರ್ ಟೂ ರೂಮ್ಜ಼್|ಎರಡು ರೂಮ್ ಇವೆ}}
+{{ex:There's a cafe near here.|ದ಼ೆರ್ಜ಼್ ಅ ಕ್ಯಾˈಫ಼ೇ ನಿರ್ ಹಿರ್|ಇಲ್ಲಿ ಹತ್ತಿರ ಒಂದು ಕೆಫೆ ಇದೆ}}{{ex:There are two rooms.|ದ಼ೆರ್ ಅರ್ ಟೂ ರೂಮ್‌ಜ಼್|ಎರಡು ರೂಮ್ ಇವೆ}}
 <h3>ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧ</h3>
 {{ex:Is there a bathroom here?|ಇಜ಼್ ದ಼ೆರ್ ಅ ˈಬ್ಯಾಥ಼್ರೂಮ್ ಹಿರ್|ಇಲ್ಲಿ ಶೌಚಾಲಯ ಇದೆಯೇ?}}{{ex:Are there any seats?|ಅರ್ ದ಼ೆರ್ ˈಎನಿ ಸೀಟ್ಸ್|ಸೀಟ್ ಇವೆಯೇ?}}{{ex:There isn't a bus today.|ದ಼ೆರ್ ˈಇಜ಼ನ್ಟ್ ಅ ಬಸ್ ಟˈಡೇ|ಇವತ್ತು ಬಸ್ ಇಲ್ಲ}}
 <h3>have ಜೊತೆ ಗೊಂದಲ ಬೇಡ</h3>
@@ -28,7 +28,7 @@ practice:[
 ["fi","There __ a bank near here.","ಇಲ್ಲಿ ಹತ್ತಿರ ಒಂದು ಬ್ಯಾಂಕ್ ಇದೆ","is","are|have|be","ಒಂದೇ ಬ್ಯಾಂಕ್, ಹಾಗಾಗಿ is."],
 ["fi","__ there any seats?","ಸೀಟ್ ಇವೆಯೇ?","Are","Is|Do|Have","seats ಬಹುವಚನ, ಹಾಗಾಗಿ Are."],
 ["ty","ಇವತ್ತು ಸೆಕೆ ಇದೆ","It's hot today","it · hot · today — ಹವಾಮಾನಕ್ಕೆ it","There's","ಹವಾಮಾನ ಹೇಳುವಾಗ ವಾಕ್ಯ it ನಿಂದ ಶುರುವಾಗುತ್ತದೆ."],
-["ty","ಇಲ್ಲಿ ಶೌಚಾಲಯ ಇದೆಯೇ?","Is there a bathroom here|Is there a restroom here","is there · bathroom — ಆರ್ಟಿಕಲ್ ನೆನಪಿಡಿ","the","ಮೊದಲ ಸಲ ಕೇಳುತ್ತಿರುವ ಒಂದು ವಸ್ತು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ಇಲ್ಲಿ ಶೌಚಾಲಯ ಇದೆಯೇ?","Is there a bathroom here|Is there a restroom here|Is there a washroom here|Is there a toilet here","is there · bathroom — ಆರ್ಟಿಕಲ್ ನೆನಪಿಡಿ","the","ಮೊದಲ ಸಲ ಕೇಳುತ್ತಿರುವ ಒಂದು ವಸ್ತು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
 ["ty","ಎರಡು ರೂಮ್ ಇವೆ","There are two rooms","there are · two · room — ಬಹುವಚನ","room","ಎರಡು ಇರುವುದರಿಂದ ಬಹುವಚನ rooms."]]},
 
 { id:"plurals", title:"ಬಹುವಚನ -s, this / these ಮತ್ತು my / your", blurb:"ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಇದ್ದರೆ -s ಬೇಕೇ ಬೇಕು. this ಒಂದಕ್ಕೆ, these ಹಲವಕ್ಕೆ.", deck:"ಶಾಪಿಂಗ್ ಮತ್ತು ಪಾವತಿ", body:`
@@ -58,15 +58,15 @@ practice:[
 ["fi","__ is my friend.","ಇವನು ನನ್ನ ಸ್ನೇಹಿತ","This","These|Those|They","ಒಬ್ಬನೇ ಇರುವುದರಿಂದ this."],
 ["fi","Two __, please.","ಎರಡು ಕಾಫಿ ಕೊಡಿ","coffees","coffee|a coffee|coffee's","ಕಪ್‌ಗಳ ಲೆಕ್ಕದಲ್ಲಿ ಆರ್ಡರ್ ಮಾಡುವಾಗ coffees ಎಂದು ಬಹುವಚನದಲ್ಲಿ ಹೇಳುತ್ತಾರೆ."],
 ["ty","ಇವು ನನ್ನ ಪುಸ್ತಕಗಳು","These are my books","these · my · book — ಬಹುವಚನ","book","ಹಲವು ಇರುವುದರಿಂದ these ಮತ್ತು ಬಹುವಚನ books."],
-["ty","ನನಗೆ ಇಬ್ಬರು ಸಹೋದರಿಯರು ಇದ್ದಾರೆ","I have two sisters","have · two · sister — ಬಹುವಚನ","sister","ಇಬ್ಬರು ಇರುವುದರಿಂದ ಬಹುವಚನ sisters."],
-["ty","ಇದು ನನ್ನ ಬ್ಯಾಗ್","This is my bag","this · my · bag — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","my ಇದ್ದರೆ ಆರ್ಟಿಕಲ್ a ಬರುವುದಿಲ್ಲ."]]},
+["ty","ನನಗೆ ಇಬ್ಬರು ಸಹೋದರಿಯರು ಇದ್ದಾರೆ","I have two sisters|I've got two sisters","have · two · sister — ಬಹುವಚನ","sister","ಇಬ್ಬರು ಇರುವುದರಿಂದ ಬಹುವಚನ sisters."],
+["ty","ಇದು ನನ್ನ ಬ್ಯಾಗ್","This is my bag|It's my bag","this · my · bag — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","my ಇದ್ದರೆ ಆರ್ಟಿಕಲ್ a ಬರುವುದಿಲ್ಲ."]]},
 { id:"present", title:"Simple Present ಮತ್ತು ಪದಗಳ ಕ್ರಮ: ಕರ್ತೃ + ಕ್ರಿಯಾಪದ + ಕರ್ಮ", blurb:"ಕನ್ನಡದಲ್ಲಿ ಕ್ರಿಯಾಪದ ಕೊನೆಗೆ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಕರ್ತೃವಿನ ನಂತರವೇ.", deck:"ಸ್ವಪರಿಚಯ", body:`
 <p>ಕನ್ನಡದಲ್ಲಿ "ನಾನು ಕಾಫಿ <b>ಕುಡಿಯುತ್ತೇನೆ</b>" ಎಂದು ಕ್ರಿಯಾಪದ ಕೊನೆಗೆ ಬರುತ್ತದೆ. ಇಂಗ್ಲಿಷ್‌ನ ಕ್ರಮ <b>ಯಾರು → ಏನು ಮಾಡುತ್ತಾರೆ → ಏನನ್ನು</b>, ಅಂದರೆ ಕರ್ತೃ (subject) + ಕ್ರಿಯಾಪದ + ಕರ್ಮ (object). ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ "-ಅನ್ನು" ತರಹದ ಪ್ರತ್ಯಯ ಇಲ್ಲ; ಪದಗಳ ಕ್ರಮವೇ ಅರ್ಥ ತಿಳಿಸುತ್ತದೆ. ಈ ರೂಪದ ಹೆಸರು Simple Present.</p>
 <h3>ಕರ್ತೃ + ಕ್ರಿಯಾಪದ + ಕರ್ಮ</h3>
 {{ex:I drink coffee.|ಐ ಡ್ರಿಂಕ್ ˈಕಾಫ಼ಿ|ನಾನು ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ}}{{ex:I study English.|ಐ ˈಸ್ಟಡಿ ˈಇಂಗ್ಲಿಶ್|ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ}}
 <h3>ಜಾಗ ಮತ್ತು ಸಮಯ ಕೊನೆಗೆ</h3>
 <p>ಉಳಿದ ವಿವರಗಳು <b>ಜಾಗ → ಸಮಯ</b> ಕ್ರಮದಲ್ಲಿ ಕೊನೆಗೆ ಬರುತ್ತವೆ.</p>
-{{ex:We live in Bengaluru.|ವಿ ಲಿವ಼್ ಇನ್ ಬೆಂಗˈಲುರೂ|ನಾವು ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇವೆ}}{{ex:I study English every day.|ಐ ˈಸ್ಟಡಿ ˈಇಂಗ್ಲಿಶ್ ˈಎವ಼್ರಿ ಡೇ|ನಾನು ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ}}{{ex:They work on weekends.|ದ಼ೇ ವರ್ಕ್ ಆನ್ ˈವೀಕೆನ್ಡ್ಜ಼್|ಅವರು ವಾರಾಂತ್ಯದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾರೆ}}
+{{ex:We live in Bengaluru.|ವಿ ಲಿವ಼್ ಇನ್ ಬೆಂಗˈಲುರೂ|ನಾವು ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇವೆ}}{{ex:I study English every day.|ಐ ˈಸ್ಟಡಿ ˈಇಂಗ್ಲಿಶ್ ˈಎವ಼್ರಿ ಡೇ|ನಾನು ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ}}{{ex:They work on weekends.|ದ಼ೇ ವರ್ಕ್ ಆನ್ ˈವೀಕೆನ್ಡ್‌ಜ಼್|ಅವರು ವಾರಾಂತ್ಯದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾರೆ}}
 <h3>Simple Present: ಅಭ್ಯಾಸ ಮತ್ತು ಸತ್ಯ</h3>
 <p>ಯಾವಾಗಲೂ ಮಾಡುವ ಕೆಲಸ ಮತ್ತು ಬದಲಾಗದ ಸತ್ಯಗಳಿಗೆ ಈ ರೂಪ. ಕನ್ನಡದಲ್ಲಿ "ಇಲ್ಲ" ಕ್ರಿಯಾಪದದ ನಂತರ ಬರುತ್ತದೆ (ತಿನ್ನುವುದಿಲ್ಲ); ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ <b>don't</b> ಕ್ರಿಯಾಪದದ ಮೊದಲು ಬರುತ್ತದೆ.</p>
 {{ex:I don't eat meat.|ಐ ಡೋನ್ಟ್ ಈಟ್ ಮೀಟ್|ನಾನು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ}}
@@ -78,7 +78,7 @@ check:[["\"ನಾನು ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ\" — 
 practice:[
 ["mc","\"ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I study English.","I English study.","I am study English.","Study I English.","ಕರ್ತೃ + ಕ್ರಿಯಾಪದ + ಕರ್ಮ — ಇದೇ ಕ್ರಮ."],
 ["mc","\"ನಾನು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ನಿಷೇಧಕ್ಕೆ don't."],
-["mc","\"ನಾವು ಸಿಯೋಲ್‌ನಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇವೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","ಕ್ರಿಯಾಪದದ ನಂತರ ಜಾಗ ಬರುತ್ತದೆ."],
+["mc","\"ನಾವು ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇವೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","We live in Bengaluru.","We in Bengaluru live.","We are live in Bengaluru.","We live Bengaluru in.","ಕ್ರಿಯಾಪದದ ನಂತರ ಜಾಗ ಬರುತ್ತದೆ."],
 ["mc","\"ನಾನು ಸಾಮಾನ್ಯವಾಗಿ ಏಳು ಗಂಟೆಗೆ ಏಳುತ್ತೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually ಕ್ರಿಯಾಪದಕ್ಕೆ ಸರಿಯಾಗಿ ಮೊದಲು ಬರುತ್ತದೆ."],
 ["mc","ಪ್ರತಿದಿನ ಮಾಡುವ ಕೆಲಸವನ್ನು ಹೇಳುವ ವಾಕ್ಯ ಯಾವುದು?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","ಅಭ್ಯಾಸ ಹೇಳಲು Simple Present."],
 ["or","ನಾನು ಪ್ರತಿದಿನ ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ","I drink coffee every day","the am","ಅಭ್ಯಾಸ ಹೇಳಲು Simple Present. ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ coffee ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬೇಡ."],
@@ -86,9 +86,9 @@ practice:[
 ["or","ನಾವು ವಾರಾಂತ್ಯದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇವೆ","We work on weekends","are","work ಕ್ರಿಯಾಪದ ಇರುವಾಗ ಅದರ ಮೊದಲು are ಸೇರಿಸಬೇಡಿ."],
 ["fi","I __ like fish.","ನನಗೆ ಮೀನು ಇಷ್ಟವಿಲ್ಲ","don't|do not","not|am not|no","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ನಿಷೇಧಕ್ಕೆ don't."],
 ["fi","I __ English every day.","ನಾನು ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ","study","am study|studying|to study","Simple Present ನಲ್ಲಿ ಕ್ರಿಯಾಪದ ಹಾಗೆಯೇ ಇರುತ್ತದೆ."],
-["fi","They live __ Busan.","ಅವರು ಬೂಸಾನ್‌ನಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾರೆ","in","at|on|to","ಊರಿನ ಹೆಸರಿನ ಮೊದಲು in."],
+["fi","They live __ Mysuru.","ಅವರು ಮೈಸೂರಿನಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾರೆ","in","at|on|to","ಊರಿನ ಹೆಸರಿನ ಮೊದಲು in."],
 ["ty","ನಾನು ಟೀ ಕುಡಿಯುತ್ತೇನೆ","I drink tea","drink · tea — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ tea ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬೇಡ."],
-["ty","ನನಗೆ ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","I like cats","like · cat — ಬಹುವಚನದಲ್ಲಿ","cat","ಆ ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ cats."],
+["ty","ನನಗೆ ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","I like cats|I love cats","like · cat — ಬಹುವಚನದಲ್ಲಿ","cat","ಆ ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ cats."],
 ["ty","ನಾನು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ","I don't eat meat","don't · eat · meat","am","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ನಿಷೇಧಕ್ಕೆ don't."]]},
 { id:"questions", title:"ಪ್ರಶ್ನೆ ಮಾಡುವುದು: Do you …? ಮತ್ತು wh-ಪದ", blurb:"ಕನ್ನಡದ ಹಾಗೆ ಕೊನೆಗೆ -ಆ / -ಏ ಸೇರಿಸಿದರೆ ಸಾಲದು. Do ಮೊದಲಿಗೆ, wh-ಪದ ಎಲ್ಲಕ್ಕಿಂತ ಮೊದಲು.", deck:"ಅತ್ಯಗತ್ಯ ಇಂಗ್ಲಿಷ್ 2", body:`
 <p>ಕನ್ನಡದಲ್ಲಿ ವಾಕ್ಯದ ಕೊನೆಗೆ <b>-ಆ</b> ಅಥವಾ <b>-ಏ</b> ಸೇರಿಸಿದರೆ ಪ್ರಶ್ನೆ ಆಗುತ್ತದೆ: "ನೀವು ಬರುತ್ತೀರಾ?", "ಈ ಬ್ಯಾಗ್ ನಿಮ್ಮದೇ?". ಯಾವ ಪದವೂ ಜಾಗ ಬದಲಿಸುವುದಿಲ್ಲ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ <b>ಪದಗಳ ಕ್ರಮ</b> ಬದಲಾದರೆ ಮಾತ್ರ ಪ್ರಶ್ನೆ.</p>
@@ -117,7 +117,7 @@ practice:[
 ["fi","__ do you live?","ನೀವು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೀರಿ?","Where","What|Who|When","ಜಾಗ ಕೇಳಲು where."],
 ["fi","What time __ it?","ಈಗ ಎಷ್ಟು ಗಂಟೆ?","is","do|does|are","ಸಮಯ ಕೇಳಲು be (is) ಬೇಕು."],
 ["ty","ನೀವು ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತೀರಾ?","Do you speak English|Can you speak English","do · speak · English","Are","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ಪ್ರಶ್ನೆ Do ನಿಂದ ಶುರುವಾಗುತ್ತದೆ."],
-["ty","ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಆ ಶೌಚಾಲಯ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
+["ty","ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom|Where is the washroom|Where is the toilet","where · bathroom — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಆ ಶೌಚಾಲಯ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
 ["ty","ನಿಮಗೆ ನಾಯಿಗಳು ಇಷ್ಟವೇ?","Do you like dogs","do · like · dog — ಬಹುವಚನ","dog","ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ dogs."]]},
 { id:"third-s", title:"he / she / it ಜೊತೆ -s: does / doesn't", blurb:"ಕರ್ತೃ he, she, it ಆದರೆ ಕ್ರಿಯಾಪದಕ್ಕೆ -s. ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧಕ್ಕೆ does.", deck:"ಸ್ವಪರಿಚಯ", body:`
 <p>ಕನ್ನಡದಲ್ಲಿ ಕ್ರಿಯಾಪದ ಪ್ರತಿ ಕರ್ತೃವಿಗೂ ಬದಲಾಗುತ್ತದೆ: ಬರುತ್ತೇನೆ, ಬರುತ್ತೀರಿ, ಬರುತ್ತಾನೆ, ಬರುತ್ತಾಳೆ. ಇಂಗ್ಲಿಷ್‌ನ Simple Present ನಲ್ಲಿ ಉಳಿದಿರುವುದು ಒಂದೇ ಬದಲಾವಣೆ: ಕರ್ತೃ <b>he, she, it</b> ಅಥವಾ ಅವುಗಳ ಜಾಗದಲ್ಲಿ ಬರುವ ಒಬ್ಬ ವ್ಯಕ್ತಿ, ಒಂದು ವಸ್ತು (my mom, the bus) ಆದರೆ ಕ್ರಿಯಾಪದಕ್ಕೆ <b>-s</b>. ಅದು ಒಂದೇ ಅಕ್ಷರ, ಹಾಗಾಗಿ ಮಾತಿನಲ್ಲಿ ಸುಲಭವಾಗಿ ಬಿಟ್ಟುಹೋಗುತ್ತದೆ.</p>
@@ -130,9 +130,9 @@ practice:[
 <p><b>doesn't</b> ಅಥವಾ <b>Does</b> ಬಂದರೆ -s ಅಲ್ಲಿಗೆ ಹೋಗುತ್ತದೆ. ಮುಂದಿನ ಕ್ರಿಯಾಪದ -s ಇಲ್ಲದ ಮೂಲ ರೂಪ (V1).</p>
 {{ex:He doesn't drink coffee.|ಹಿ ˈಡಜ಼ನ್ಟ್ ಡ್ರಿಂಕ್ ˈಕಾಫ಼ಿ|ಅವನು ಕಾಫಿ ಕುಡಿಯುವುದಿಲ್ಲ}}{{ex:Does she live here?|ಡಜ಼್ ಶಿ ಲಿವ಼್ ಹಿರ್|ಅವಳು ಇಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾಳೆಯೇ?}}
 <div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>She work here.</b> ✗ → <b>She works here.</b> ✓, <b>He don't like tea.</b> ✗ → <b>He doesn't like tea.</b> ✓, <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
-check:[["She ___ in Seoul. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["live","lives","living","is live"],1,"she ಇರುವುದರಿಂದ ಕ್ರಿಯಾಪದಕ್ಕೆ -s."],["He ___ like coffee. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["don't","isn't","doesn't","not"],2,"he ಜೊತೆ ನಿಷೇಧಕ್ಕೆ doesn't."],["\"ಅವಳ ಹತ್ತಿರ ಕಾರು ಇದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"she ಜೊತೆ have ಎಂಬುದು has ಆಗುತ್ತದೆ."]],
+check:[["She ___ in Bengaluru. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["live","lives","living","is live"],1,"she ಇರುವುದರಿಂದ ಕ್ರಿಯಾಪದಕ್ಕೆ -s."],["He ___ like coffee. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["don't","isn't","doesn't","not"],2,"he ಜೊತೆ ನಿಷೇಧಕ್ಕೆ doesn't."],["\"ಅವಳ ಹತ್ತಿರ ಕಾರು ಇದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"she ಜೊತೆ have ಎಂಬುದು has ಆಗುತ್ತದೆ."]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","My brother ಎಂದರೆ he, ಹಾಗಾಗಿ works."],
+["mc","My brother ___ in Mysuru.","works","work","working","is work","My brother ಎಂದರೆ he, ಹಾಗಾಗಿ works."],
 ["mc","\"ಅವನು ಕಾಫಿ ಕುಡಿಯುವುದಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he ಜೊತೆ ನಿಷೇಧಕ್ಕೆ doesn't + V1."],
 ["mc","\"ಅವಳು ಇಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾಳೆಯೇ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does ನಂತರ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಇಲ್ಲ."],
 ["mc","have → she ___","has","haves","have","is have","have ಎಂಬುದು has ಆಗುತ್ತದೆ."],
@@ -143,15 +143,15 @@ practice:[
 ["fi","He __ soccer.","ಅವನಿಗೆ ಫುಟ್‌ಬಾಲ್ ಇಷ್ಟ","likes","like|liking|is like","he ಇರುವುದರಿಂದ likes."],
 ["fi","__ she speak English?","ಅವಳು ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತಾಳೆಯೇ?","Does","Do|Is|Are","she ಜೊತೆ ಪ್ರಶ್ನೆಗೆ Does."],
 ["fi","She __ to work at eight.","ಅವಳು ಎಂಟು ಗಂಟೆಗೆ ಕೆಲಸಕ್ಕೆ ಹೋಗುತ್ತಾಳೆ","goes","go|going|gos","go ಎಂಬುದು goes ಆಗುತ್ತದೆ."],
-["ty","ಅವನ ಹತ್ತಿರ ಕಾರು ಇದೆ","He has a car","has · car — ಆರ್ಟಿಕಲ್ a","have","he ಇರುವುದರಿಂದ has; ಒಂದೇ ಕಾರು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
-["ty","ಅವಳಿಗೆ ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","She likes cats","likes · cat — ಬಹುವಚನ","cat","she ಇರುವುದರಿಂದ likes; ಬೆಕ್ಕುಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ cats."],
+["ty","ಅವನ ಹತ್ತಿರ ಕಾರು ಇದೆ","He has a car|He's got a car","has · car — ಆರ್ಟಿಕಲ್ a","have","he ಇರುವುದರಿಂದ has; ಒಂದೇ ಕಾರು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ಅವಳಿಗೆ ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","She likes cats|She loves cats","likes · cat — ಬಹುವಚನ","cat","she ಇರುವುದರಿಂದ likes; ಬೆಕ್ಕುಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ cats."],
 ["ty","ಅವನು ಇಲ್ಲಿ ವಾಸವಾಗಿಲ್ಲ","He doesn't live here","doesn't · live · here","lives","doesn't ನಂತರ V1 ಬರುತ್ತದೆ."]]},
 { id:"countable", title:"ಎಣಿಸಬಹುದಾದ ಮತ್ತು ಎಣಿಸಲಾಗದ ನಾಮಪದ: some, any, much, many", blurb:"water ಜೊತೆ a ಕೂಡ ಇಲ್ಲ, -s ಕೂಡ ಇಲ್ಲ. ಎಣಿಸಬಹುದಾದರೆ many, ಎಣಿಸಲಾಗದಿದ್ದರೆ much.", deck:"ಊಟದ ಆರ್ಡರ್", body:`
 <p>ಇಂಗ್ಲಿಷ್ ನಾಮಪದಗಳಲ್ಲಿ ಎರಡು ಗುಂಪು: <b>ಎಣಿಸಬಹುದಾದ</b> (countable) ಮತ್ತು <b>ಎಣಿಸಲಾಗದ</b> (uncountable) ನಾಮಪದ. ಕನ್ನಡ ಈ ವ್ಯತ್ಯಾಸವನ್ನು ಗುರುತಿಸುವುದಿಲ್ಲ: "ಎರಡು ಸಲಹೆ", "ಹಲವು ಮಾಹಿತಿ" ಎನ್ನಬಹುದು. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ advice, information ಎಣಿಸಲಾಗದ ನಾಮಪದಗಳು.</p>
 <div class="tbl"><table><tr><th>ಎಣಿಸಬಹುದಾದ</th><th>ಎಣಿಸಲಾಗದ</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, ಸಂಖ್ಯೆ, -s ಬರಬಹುದು</td><td>a / an, ಸಂಖ್ಯೆ, -s ಬರುವುದಿಲ್ಲ</td></tr></table></div>
 <h3>some ಮತ್ತು any</h3>
 <p>"ಸ್ವಲ್ಪ, ಕೆಲವು" ಎನ್ನಲು ಸಾಮಾನ್ಯ ವಾಕ್ಯದಲ್ಲಿ <b>some</b>, ನಿಷೇಧ ವಾಕ್ಯ ಮತ್ತು ಪ್ರಶ್ನೆಯಲ್ಲಿ <b>any</b>. ಆದರೆ ಏನನ್ನಾದರೂ ಕೇಳಿ ಪಡೆಯುವಾಗ ಅಥವಾ ಕೊಡಲು ಮುಂದಾದಾಗ ಪ್ರಶ್ನೆಯಲ್ಲೂ <b>some</b>: <b>Can I have some water?</b></p>
-{{ex:I have some money.|ಐ ಹ್ಯಾವ಼್ ಸಮ್ ˈಮನಿ|ನನ್ನ ಹತ್ತಿರ ಸ್ವಲ್ಪ ಹಣ ಇದೆ}}{{ex:I don't have any money.|ಐ ಡೋನ್ಟ್ ಹ್ಯಾವ಼್ ˈಎನಿ ˈಮನಿ|ನನ್ನ ಹತ್ತಿರ ಹಣವೇ ಇಲ್ಲ}}{{ex:Do you have any questions?|ಡ ಯು ಹ್ಯಾವ಼್ ˈಎನಿ ˈಕ್ವೆಸ್ಚನ್ಜ಼್|ಏನಾದರೂ ಪ್ರಶ್ನೆ ಇದೆಯೇ?}}
+{{ex:I have some money.|ಐ ಹ್ಯಾವ಼್ ಸಮ್ ˈಮನಿ|ನನ್ನ ಹತ್ತಿರ ಸ್ವಲ್ಪ ಹಣ ಇದೆ}}{{ex:I don't have any money.|ಐ ಡೋನ್ಟ್ ಹ್ಯಾವ಼್ ˈಎನಿ ˈಮನಿ|ನನ್ನ ಹತ್ತಿರ ಹಣವೇ ಇಲ್ಲ}}{{ex:Do you have any questions?|ಡ ಯು ಹ್ಯಾವ಼್ ˈಎನಿ ˈಕ್ವೆಸ್ಚನ್‌ಜ಼್|ಏನಾದರೂ ಪ್ರಶ್ನೆ ಇದೆಯೇ?}}
 <h3>many ಮತ್ತು much</h3>
 <p>ಎಣಿಸಬಹುದಾದರೆ <b>many</b> + ಬಹುವಚನ, ಎಣಿಸಲಾಗದಿದ್ದರೆ <b>much</b>. <b>a lot of</b> ಎರಡಕ್ಕೂ ಸರಿ.</p>
 {{ex:How many people?|ಹೌ ˈಮೆನಿ ˈಪೀಪಲ್|ಎಷ್ಟು ಜನ?}}{{ex:How much is it?|ಹೌ ಮಚ್ ಇಜ಼್ ಇಟ್|ಅದರ ಬೆಲೆ ಎಷ್ಟು?}}{{ex:I don't have much time.|ಐ ಡೋನ್ಟ್ ಹ್ಯಾವ಼್ ಮಚ್ ಟೈಮ್|ನನಗೆ ಹೆಚ್ಚು ಸಮಯ ಇಲ್ಲ}}
@@ -164,7 +164,7 @@ practice:[
 ["mc","How ___ time do we have?","much","many","any","a","time ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ much."],
 ["mc","\"ಏನಾದರೂ ಪ್ರಶ್ನೆ ಇದೆಯೇ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","ಪ್ರಶ್ನೆಯಲ್ಲಿ any ನಂತರ ಎಣಿಸಬಹುದಾದ ನಾಮಪದ ಸಾಮಾನ್ಯವಾಗಿ ಬಹುವಚನದಲ್ಲಿ ಬರುತ್ತದೆ."],
 ["mc","\"ಒಂದು ಲೋಟ ನೀರು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","a glass of water","a water glass of","one waters","a glass water","ಎಣಿಸಲಾಗದ ವಸ್ತುವಿನ ಅಳತೆ ಹೇಳಲು a glass of."],
-["mc","I have ___ friends in Seoul.","many","much","a","an","friends ಎಣಿಸಬಹುದಾದ ನಾಮಪದದ ಬಹುವಚನ, ಹಾಗಾಗಿ many."],
+["mc","I have ___ friends in Bengaluru.","many","much","a","an","friends ಎಣಿಸಬಹುದಾದ ನಾಮಪದದ ಬಹುವಚನ, ಹಾಗಾಗಿ many."],
 ["or","ನನ್ನ ಹತ್ತಿರ ಸ್ವಲ್ಪ ಹಣ ಇದೆ","I have some money","a moneys","money ಎಣಿಸಲಾಗದ ನಾಮಪದ: ಆರ್ಟಿಕಲ್ a ಇಲ್ಲ, ಬಹುವಚನ -s ಇಲ್ಲ."],
 ["or","ಎರಡು ಸೇಬು ಕೊಡಿ","Two apples please","apple","ಎರಡು ಇರುವುದರಿಂದ ಬಹುವಚನ apples."],
 ["or","ನನಗೆ ಹೆಚ್ಚು ಸಮಯ ಇಲ್ಲ","I don't have much time","many","time ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ much."],
@@ -200,8 +200,8 @@ practice:[
 ["fi","I work with __.","ನಾನು ಅವನ ಜೊತೆ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ","him","he|his|he's","preposition ನಂತರವೂ ಕರ್ಮ ರೂಪ ಬರುತ್ತದೆ."],
 ["fi","She __ a dog.","ಅವಳ ಹತ್ತಿರ ಒಂದು ನಾಯಿ ಇದೆ","has","have|is|haves","she ಇರುವುದರಿಂದ has."],
 ["ty","ನನಗೆ ಸಹಾಯ ಮಾಡುತ್ತೀರಾ? (Can ಬಳಸಿ)","Can you help me|Could you help me","can you · help · me","I","ಕ್ರಿಯಾಪದದ ನಂತರ ಕರ್ಮ ರೂಪ me."],
-["ty","ನಿಮ್ಮ ಹತ್ತಿರ ಪೆನ್ ಇದೆಯೇ?","Do you have a pen","do you have · pen — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದಾದರೂ ಒಂದು ಪೆನ್ ಬೇಕು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
-["ty","ನನಗೆ ತುಂಬಾ ಸ್ನೇಹಿತರಿದ್ದಾರೆ","I have many friends|I have a lot of friends","have · many · friend — ಬಹುವಚನ","friend","many ನಂತರ ಬಹುವಚನ friends."]]},
+["ty","ನಿಮ್ಮ ಹತ್ತಿರ ಪೆನ್ ಇದೆಯೇ?","Do you have a pen|Have you got a pen","do you have · pen — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದಾದರೂ ಒಂದು ಪೆನ್ ಬೇಕು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನನಗೆ ತುಂಬಾ ಸ್ನೇಹಿತರಿದ್ದಾರೆ","I have many friends|I have a lot of friends|I've got many friends|I've got a lot of friends|I have lots of friends","have · many · friend — ಬಹುವಚನ","friend","many ನಂತರ ಬಹುವಚನ friends."]]},
 { id:"can-like", title:"can, like + -ing, I'd like: ಬರುವುದು ಮತ್ತು ಬೇಕಾದದ್ದು", blurb:"ಏನು ಮಾಡಲು ಬರುತ್ತದೆ, ಏನು ಇಷ್ಟ, ಈಗ ಏನು ಬೇಕು ಎಂದು ಹೇಳಿ.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
 <p>ಕನ್ನಡದಲ್ಲಿ "ನನಗೆ ಈಜು ಬರುತ್ತದೆ", "ನನಗೆ ಕಾಫಿ ಇಷ್ಟ" ಎಂದು "ನನಗೆ" ಎಂಬ ಪದದಿಂದ ಶುರು ಮಾಡುತ್ತೇವೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಕರ್ತೃ <b>I</b>: <b>I can swim</b>, <b>I like coffee</b>. ಸ್ವಪರಿಚಯ ಮತ್ತು ಆರ್ಡರ್ ಮಾಡಲು ಬೇಕಾದ ಮೂರು ಮಾದರಿಗಳು ಇಲ್ಲಿವೆ.</p>
 <h3>can: ಬರುತ್ತದೆ, ಸಾಧ್ಯ</h3>
@@ -216,7 +216,7 @@ practice:[
 <div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓, <b>I am liking coffee.</b> ✗ → <b>I like coffee.</b> ✓, ಕೆಫೆಯಲ್ಲಿ <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
 check:[["She can ___ very well. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["sings","sing","singing","to sing"],1,"can ನಂತರ V1 ಬರುತ್ತದೆ."],["\"ನನಗೆ ಅಡುಗೆ ಮಾಡುವುದು ಇಷ್ಟ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ."],["ಕೆಫೆಯಲ್ಲಿ ಆರ್ಡರ್ ಮಾಡುವಾಗ ಯಾವ ವಾಕ್ಯ ಹೆಚ್ಚು ಸಹಜ?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"ಈಗ ಬೇಕಾದದ್ದನ್ನು I'd like ಎಂದು ಕೇಳಿ."]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can ನಂತರ V1 ಬರುತ್ತದೆ."],
+["mc","He can ___ Kannada.","speak","speaks","speaking","to speak","can ನಂತರ V1 ಬರುತ್ತದೆ."],
 ["mc","\"ನನಗೆ ಡ್ರೈವಿಂಗ್ ಬರುವುದಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can ಪದದ ನಿಷೇಧ ರೂಪ can't."],
 ["mc","\"ನನಗೆ ಸಿನಿಮಾ ನೋಡುವುದು ಇಷ್ಟ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like ನಂತರ -ing; ಸಿನಿಮಾಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ movies."],
 ["mc","ಆರ್ಡರ್ ಮಾಡುವಾಗ \"ಒಂದು ಕಾಫಿ ಕೊಡಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","ಈಗ ಬೇಕಾದದ್ದನ್ನು I'd like ಎಂದು ಕೇಳಿ."],
@@ -227,7 +227,7 @@ practice:[
 ["fi","I can't __.","ನನಗೆ ಈಜು ಬರುವುದಿಲ್ಲ","swim","swimming|swims|to swim","can't ನಂತರ V1 ಬರುತ್ತದೆ."],
 ["fi","I like __ music.","ನನಗೆ ಸಂಗೀತ ಕೇಳುವುದು ಇಷ್ಟ","listening to","listen to|listen|to listening","like ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ."],
 ["fi","__ like a sandwich, please.","ಒಂದು ಸ್ಯಾಂಡ್‌ವಿಚ್ ಕೊಡಿ","I'd|I would","I|I'm|I can","ಆರ್ಡರ್ ಮಾಡಲು I'd like."],
-["ty","ನನಗೆ ಅಡುಗೆ ಮಾಡುವುದು ಇಷ್ಟ","I like cooking|I love cooking|I like to cook","like · cook — -ing ರೂಪ","cook","like ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ."],
+["ty","ನನಗೆ ಅಡುಗೆ ಮಾಡುವುದು ಇಷ್ಟ","I like cooking|I love cooking|I like to cook|I love to cook","like · cook — -ing ರೂಪ","cook","like ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ."],
 ["ty","ಒಂದು ಸ್ಯಾಂಡ್‌ವಿಚ್ ಕೊಡಿ (ಆರ್ಡರ್ ಮಾಡುವಾಗ; I'd like ಬಳಸಿ)","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದಾದರೂ ಒಂದು ಸ್ಯಾಂಡ್‌ವಿಚ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
 ["ty","ನನಗೆ ನಾಯಿಗಳು ಇಷ್ಟ","I like dogs|I love dogs","like · dog — ಬಹುವಚನ","dog","ನಾಯಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ dogs."]]},
 { id:"continuous", title:"ಈಗ ನಡೆಯುತ್ತಿರುವುದು: be + -ing", blurb:"ಯಾವಾಗಲೂ ಮಾಡುವುದಕ್ಕೆ Simple Present, ಈಗ ಮಾಡುತ್ತಿರುವುದಕ್ಕೆ be + -ing.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
@@ -255,7 +255,7 @@ practice:[
 ["fi","What __ you doing?","ಏನು ಮಾಡುತ್ತಿದ್ದೀಯಾ?","are","do|is|does","you ಜೊತೆ are."],
 ["fi","She __ working today.","ಅವಳು ಇವತ್ತು ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ","isn't|is not","doesn't|don't|not","be + -ing ವಾಕ್ಯದ ನಿಷೇಧಕ್ಕೆ isn't."],
 ["ty","ನಾನು ಈಗ ಅಡುಗೆ ಮಾಡುತ್ತಿದ್ದೇನೆ","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — -ing ರೂಪ · now","cook","ಈಗ ನಡೆಯುತ್ತಿರುವುದಕ್ಕೆ be + -ing."],
-["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡುತ್ತಿದ್ದೇನೆ","I'm watching a movie","I'm · watching · movie — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡುತ್ತಿದ್ದೇನೆ","I'm watching a movie|I'm watching a film","I'm · watching · movie — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
 ["ty","(ನಮ್ಮ ಮನೆಯ) ಮಕ್ಕಳು ನಿದ್ದೆ ಮಾಡುತ್ತಿದ್ದಾರೆ — The … ಇಂದ ಶುರು ಮಾಡಿ","The kids are sleeping|The children are sleeping","the kids · are · sleeping — ಬಹುವಚನ","kid","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ kids ಮತ್ತು are; ಯಾವ ಮಕ್ಕಳು ಎಂದು ಗೊತ್ತಿರುವುದರಿಂದ the."]]},
 { id:"past", title:"Simple Past: was / were ಮತ್ತು -ed", blurb:"be ಬದಲು was / were, be ಅಲ್ಲದ ಕ್ರಿಯಾಪದಗಳಿಗೆ -ed. ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧಕ್ಕೆ did.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
 <p>ಕನ್ನಡದ "ಮಾಡಿದೆ", "ಇದ್ದೆ" ತರಹದ ರೂಪಗಳಿಗೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ Simple Past (ಭೂತಕಾಲ). be ಮತ್ತು be ಅಲ್ಲದ ಕ್ರಿಯಾಪದಗಳಿಗೆ ರೂಪ ಬೇರೆ ಬೇರೆ.</p>
@@ -283,12 +283,12 @@ practice:[
 ["fi","I __ soccer yesterday.","ನಾನು ನಿನ್ನೆ ಫುಟ್‌ಬಾಲ್ ಆಡಿದೆ","played","play|playing|was play","Simple Past ನಲ್ಲಿ -ed."],
 ["fi","__ you work yesterday?","ನೀನು ನಿನ್ನೆ ಕೆಲಸ ಮಾಡಿದೆಯಾ?","Did","Were|Do|Was","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ Simple Past ಪ್ರಶ್ನೆಗೆ Did."],
 ["ty","ನನಗೆ ಸುಸ್ತಾಗಿತ್ತು","I was tired","was · tired","were","I ಜೊತೆ was."],
-["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ (watch ಬಳಸಿ)","I watched a movie","watched · movie — ಆರ್ಟಿಕಲ್ a","the","ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ (watch ಬಳಸಿ)","I watched a movie|I watched a film","watched · movie — ಆರ್ಟಿಕಲ್ a","the","ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
 ["ty","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರಿಗೆ ಕಾಲ್ ಮಾಡಿದೆ","I called my friends","called · my · friend — ಬಹುವಚನ","friend","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."]]},
 { id:"irregular-past", title:"ಅನಿಯಮಿತ ಕ್ರಿಯಾಪದಗಳ Simple Past: went, ate, saw", blurb:"ಹೆಚ್ಚು ಬಳಸುವ ಕ್ರಿಯಾಪದಗಳಿಗೇ -ed ಇಲ್ಲ. ಮೊದಲು 12 ನೆನಪಿಟ್ಟುಕೊಳ್ಳಿ.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
 <p>ದಿನವೂ ಬಳಸುವ ಕ್ರಿಯಾಪದಗಳ Simple Past ರೂಪ (V2) <b>ಅನಿಯಮಿತ</b>. ಇದಕ್ಕೆ ನಿಯಮ ಇಲ್ಲ; ಶಾಲೆಯಲ್ಲಿ ಕಲಿತ ಹಾಗೆ V1, V2 ಜೋಡಿಯಾಗಿ ನೆನಪಿಟ್ಟುಕೊಳ್ಳಿ.</p>
 <div class="tbl"><table><tr><th>V1</th><th>V2</th><th>V1</th><th>V2</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
-{{ex:I went to Mysuru.|ಐ ವೆನ್ಟ್ ಟ ಮೈˈಸುರೂ|ನಾನು ಮೈಸೂರಿಗೆ ಹೋದೆ}}{{ex:We ate pizza.|ವಿ ಏಟ್ ˈಪೀಟ್ಸ|ನಾವು ಪಿಜ್ಜಾ ತಿಂದೆವು}}{{ex:I saw a movie.|ಐ ಸಾ ಅ ˈಮೂವ಼ಿ|ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ}}{{ex:I met my friends.|ಐ ಮೆಟ್ ಮೈ ಫ಼್ರೆನ್ಡ್ಜ಼್|ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾದೆ}}{{ex:I bought a book.|ಐ ಬಾಟ್ ಅ ಬುಕ್|ನಾನು ಒಂದು ಪುಸ್ತಕ ಕೊಂಡೆ}}
+{{ex:I went to Mysuru.|ಐ ವೆನ್ಟ್ ಟ ಮೈˈಸುರೂ|ನಾನು ಮೈಸೂರಿಗೆ ಹೋದೆ}}{{ex:We ate pizza.|ವಿ ಏಟ್ ˈಪೀಟ್ಸ|ನಾವು ಪಿಜ್ಜಾ ತಿಂದೆವು}}{{ex:I saw a movie.|ಐ ಸಾ ಅ ˈಮೂವ಼ಿ|ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ}}{{ex:I met my friends.|ಐ ಮೆಟ್ ಮೈ ಫ಼್ರೆನ್ಡ್‌ಜ಼್|ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾದೆ}}{{ex:I bought a book.|ಐ ಬಾಟ್ ಅ ಬುಕ್|ನಾನು ಒಂದು ಪುಸ್ತಕ ಕೊಂಡೆ}}
 <h3>ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧದಲ್ಲಿ ಮತ್ತೆ V1</h3>
 <p>ಕೆಲಸ ಹಿಂದೆ ನಡೆದದ್ದು ಎಂಬುದನ್ನು <b>did</b> ತೋರಿಸುತ್ತದೆ; ಹಾಗಾಗಿ ಕ್ರಿಯಾಪದ V1 ಆಗಿಯೇ ಇರುತ್ತದೆ.</p>
 {{ex:What did you do?|ವಟ್ ಡಿಡ್ ಯು ಡೂ|ನೀನು ಏನು ಮಾಡಿದೆ?}}{{ex:Where did you go?|ವೆರ್ ಡಿಡ್ ಯು ಗೋ|ನೀನು ಎಲ್ಲಿಗೆ ಹೋಗಿದ್ದೆ?}}{{ex:I didn't go.|ಐ ˈಡಿಡನ್ಟ್ ಗೋ|ನಾನು ಹೋಗಲಿಲ್ಲ}}
@@ -303,10 +303,10 @@ practice:[
 ["or","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ","I saw a movie","see movies","ಒಂದೇ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ movie. see ಪದದ Simple Past ರೂಪ saw."],
 ["or","ನಾವು ಪಿಜ್ಜಾ ತಿಂದೆವು","We ate pizza","eated","eat ಪದದ Simple Past ರೂಪ ate."],
 ["or","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾದೆ","I met my friends","friend meet","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."],
-["fi","I __ to Jeju last year.","ನಾನು ಹೋದ ವರ್ಷ ಜೆಜುಗೆ ಹೋಗಿದ್ದೆ","went","go|goed|gone","go ಪದದ Simple Past ರೂಪ went."],
+["fi","I __ to Coorg last year.","ನಾನು ಹೋದ ವರ್ಷ ಕೊಡಗಿಗೆ ಹೋಗಿದ್ದೆ","went","go|goed|gone","go ಪದದ Simple Past ರೂಪ went."],
 ["fi","What did you __?","ನೀನು ಏನು ತಿಂದೆ?","eat","ate|eaten|eating","did ನಂತರ V1 ಬರುತ್ತದೆ."],
 ["fi","She __ a new phone.","ಅವಳು ಹೊಸ ಫೋನ್ ಕೊಂಡಳು","bought","buyed|buy|buys","buy ಪದದ Simple Past ರೂಪ bought."],
-["ty","ನಾನು ಬೂಸಾನ್‌ಗೆ ಹೋದೆ","I went to Busan","went · to · Busan","go","go ಪದದ Simple Past ರೂಪ went."],
+["ty","ನಾನು ಮೈಸೂರಿಗೆ ಹೋದೆ","I went to Mysuru","went · to · Mysuru","go","go ಪದದ Simple Past ರೂಪ went."],
 ["ty","ನಾನು ಒಂದು ಪುಸ್ತಕ ಕೊಂಡೆ","I bought a book","bought · book — ಆರ್ಟಿಕಲ್ a","the","ಒಂದು ಪುಸ್ತಕ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
 ["ty","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾದೆ","I met my friends|I saw my friends","met · my · friend — ಬಹುವಚನ","friend","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."]]},
 { id:"the", title:"the ಮತ್ತೊಮ್ಮೆ: ಮೊದಲು a, ನಂತರ the", blurb:"ಮೊದಲ ಸಲ ಹೇಳುವಾಗ a; ಇಬ್ಬರಿಗೂ ಗೊತ್ತಾದ ಮೇಲೆ the.", deck:"ದಾರಿ ಮತ್ತು ಸಾರಿಗೆ", body:`
@@ -334,7 +334,7 @@ practice:[
 ["fi","I saw a movie. __ movie was great.","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ. ಆ ಸಿನಿಮಾ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು","The","A|An|Some","ಈಗ ತಾನೇ ಹೇಳಿದ ಅದೇ ಸಿನಿಮಾ, ಹಾಗಾಗಿ the."],
 ["fi","Where's __ bathroom?","ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ?","the","a|an|some","ಈ ಕಟ್ಟಡದ ಆ ಶೌಚಾಲಯ, ಹಾಗಾಗಿ the."],
 ["fi","I have __ idea.","ನನಗೊಂದು ಐಡಿಯಾ ಬಂದಿದೆ","an","a|the|some","ಮೊದಲ ಸಲ ಹೇಳುವ ಒಂದು ವಿಷಯ; idea ಸ್ವರದ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ an."],
-["ty","ಬಾಗಿಲು ಮುಚ್ಚುತ್ತೀರಾ? (Can ಬಳಸಿ)","Can you close the door|Could you close the door","can you · close · door — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಆ ಬಾಗಿಲು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
+["ty","ಬಾಗಿಲು ಮುಚ್ಚುತ್ತೀರಾ? (Can ಬಳಸಿ)","Can you close the door|Could you close the door|Can you shut the door|Could you shut the door","can you · close · door — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಆ ಬಾಗಿಲು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
 ["ty","ಸ್ಟೇಷನ್ ಎಲ್ಲಿದೆ?","Where is the station|Where's the station","where · station — ಆರ್ಟಿಕಲ್ the","a","ಇಲ್ಲಿ ಹತ್ತಿರದ ಆ ಸ್ಟೇಷನ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
 ["ty","ನಾನು ಮನೆಯಲ್ಲಿ ಇದ್ದೇನೆ","I'm at home|I'm home","I'm · at · home — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","the","home ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬರುವುದಿಲ್ಲ."]]},
 { id:"adjectives", title:"ಗುಣವಾಚಕ ಮತ್ತು ಹೋಲಿಕೆ: bigger, more expensive, the best", blurb:"ಗುಣವಾಚಕ ನಾಮಪದದ ಮೊದಲು. ಹೋಲಿಕೆಗೆ -er / more; ಎಲ್ಲಕ್ಕಿಂತ ಹೆಚ್ಚು ಎನ್ನಲು the -est / the most.", deck:"ಶಾಪಿಂಗ್ ಮತ್ತು ಪಾವತಿ", body:`
@@ -375,7 +375,7 @@ practice:[
 <div class="tip">ಮಾತಿನಲ್ಲಿ going to ಎಂಬುದು <b>gonna</b> ಎಂದು ಕೇಳಿಸುತ್ತದೆ. be ಬಿಡಬೇಡಿ: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
 check:[["\"ನಾನು ನಾಳೆ ನನ್ನ ಸ್ನೇಹಿತನನ್ನು ಭೇಟಿಯಾಗಲಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + V1 — ಇದೇ ಮಾದರಿ."],["She ___ going to study. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["am","are","is","be"],2,"she ಜೊತೆ is."],["\"ಈ ವಾರಾಂತ್ಯ ಏನು ಮಾಡಲಿದ್ದೀಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"wh-ಪದ + be + ಕರ್ತೃ + going to — ಇದೇ ಕ್ರಮ."]],
 practice:[
-["mc","\"ನಾನು ಬೂಸಾನ್‌ಗೆ ಹೋಗಲಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + V1 — ಇದೇ ಮಾದರಿ."],
+["mc","\"ನಾನು ಮೈಸೂರಿಗೆ ಹೋಗಲಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'm going to go to Mysuru.","I going to go to Mysuru.","I'm going go to Mysuru.","I'm go to Mysuru going.","be + going to + V1 — ಇದೇ ಮಾದರಿ."],
 ["mc","They ___ going to come.","are","is","am","be","they ಜೊತೆ are."],
 ["mc","\"ಮಳೆ ಬರುವ ಹಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to ನಂತರ V1 ಬರುತ್ತದೆ."],
 ["mc","\"ನಾನು ಹೋಗುವುದಿಲ್ಲ\" (ಯೋಜನೆ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be ನಂತರ not ಬರುತ್ತದೆ."],
@@ -386,7 +386,7 @@ practice:[
 ["fi","I'm going __ study tonight.","ನಾನು ಇವತ್ತು ರಾತ್ರಿ ಓದಲಿದ್ದೇನೆ","to","for|at|will","going to + V1 — ಇದೇ ಮಾದರಿ."],
 ["fi","__ you going to come?","ನೀನು ಬರಲಿದ್ದೀಯಾ?","Are","Do|Is|Will","you ಜೊತೆ Are."],
 ["fi","It's going to __ tomorrow.","ನಾಳೆ ಮಳೆ ಬರಲಿದೆ","rain","rains|raining|rained","going to ನಂತರ V1 ಬರುತ್ತದೆ."],
-["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಲಿದ್ದೇನೆ","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಲಿದ್ದೇನೆ","I'm going to watch a movie|I'm going to see a movie|I'm going to watch a film|I'm going to see a film","going to · watch · movie — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
 ["ty","ನೀನು ಏನು ಮಾಡಲಿದ್ದೀಯಾ?","What are you going to do","what · going to · do","will","ಯೋಜನೆ ಕೇಳಲು be going to."],
 ["ty","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾಗಲಿದ್ದೇನೆ","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — ಬಹುವಚನ","friend","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."]]},
 { id:"joining", title:"ವಾಕ್ಯ ಜೋಡಿಸುವುದು: and, but, or, so, because", blurb:"ಎರಡು ಚಿಕ್ಕ ವಾಕ್ಯಗಳನ್ನು ಒಂದು ಮಾಡಿ. so ಮತ್ತು because ಇರುವಾಗ ಕ್ರಮ ತಿರುಗುತ್ತದೆ.", deck:"ಭಾವನೆ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ", body:`
@@ -398,7 +398,7 @@ practice:[
 {{ex:I was tired, so I went home.|ಐ ವಜ಼್ ˈಟೈಅರ್ಡ್ ಸೋ ಐ ವೆನ್ಟ್ ಹೋಮ್|ನನಗೆ ಸುಸ್ತಾಗಿತ್ತು, ಹಾಗಾಗಿ ಮನೆಗೆ ಹೋದೆ}}
 <h3>because: ಏಕೆಂದರೆ</h3>
 <p><b>ಪರಿಣಾಮ + because + ಕಾರಣ</b>. ಕನ್ನಡದಲ್ಲಿ ಕಾರಣ ಸಾಮಾನ್ಯವಾಗಿ ಮೊದಲು ಬರುತ್ತದೆ ("ಸುಸ್ತಾಗಿದ್ದರಿಂದ ಮನೆಗೆ ಹೋದೆ"); ಇಲ್ಲಿ ಕ್ರಮ ತಿರುಗುತ್ತದೆ.</p>
-{{ex:I went home because I was tired.|ಐ ವೆನ್ಟ್ ಹೋಮ್ ಬಿಕಜ಼್ ಐ ವಜ಼್ ˈಟೈಅರ್ಡ್|ಸುಸ್ತಾಗಿದ್ದರಿಂದ ನಾನು ಮನೆಗೆ ಹೋದೆ}}{{ex:I stayed home because it was raining.|ಐ ಸ್ಟೇಡ್ ಹೋಮ್ ಬಿಕಜ಼್ ಇಟ್ ವಜ಼್ ˈರೇನಿಙ್|ಮಳೆ ಬರುತ್ತಿದ್ದರಿಂದ ನಾನು ಮನೆಯಲ್ಲೇ ಇದ್ದೆ}}
+{{ex:I went home because I was tired.|ಐ ವೆನ್ಟ್ ಹೋಮ್ ಬಿˈಕಜ಼್ ಐ ವಜ಼್ ˈಟೈಅರ್ಡ್|ಸುಸ್ತಾಗಿದ್ದರಿಂದ ನಾನು ಮನೆಗೆ ಹೋದೆ}}{{ex:I stayed home because it was raining.|ಐ ಸ್ಟೇಡ್ ಹೋಮ್ ಬಿˈಕಜ಼್ ಇಟ್ ವಜ಼್ ˈರೇನಿಙ್|ಮಳೆ ಬರುತ್ತಿದ್ದರಿಂದ ನಾನು ಮನೆಯಲ್ಲೇ ಇದ್ದೆ}}
 <h3>too: …ಕೂಡ</h3>
 <p>ಕನ್ನಡದ "-ಊ" (ನನಗೂ) ಪದಕ್ಕೇ ಸೇರಿಕೊಳ್ಳುತ್ತದೆ; too ವಾಕ್ಯದ ಕೊನೆಗೆ ಬರುತ್ತದೆ: "ನಾನೂ ಬರುತ್ತಿದ್ದೇನೆ" = <b>I'm coming too.</b></p>
 {{ex:I like it too.|ಐ ಲೈಕ್ ಇಟ್ ಟೂ|ನನಗೂ ಅದು ಇಷ್ಟ}}
@@ -416,9 +416,9 @@ practice:[
 ["fi","I'm tired __ happy.","ಸುಸ್ತಾಗಿದೆ, ಆದರೆ ಖುಷಿಯಾಗಿದ್ದೇನೆ","but","so|because|or","\"ಆದರೆ\" ಎನ್ನಲು but."],
 ["fi","I stayed home __ it was raining.","ಮಳೆ ಬರುತ್ತಿದ್ದರಿಂದ ನಾನು ಮನೆಯಲ್ಲೇ ಇದ್ದೆ","because","so|but|or","ಪರಿಣಾಮದ ನಂತರ ಕಾರಣ ಬಂದರೆ because."],
 ["fi","Coffee __ tea?","ಕಾಫಿ ಅಥವಾ ಟೀ?","or","so|but|because","ಎರಡರಲ್ಲಿ ಒಂದು ಎನ್ನಲು or."],
-["ty","ನನಗೆ ಕಾಫಿ ಮತ್ತು ಟೀ ಇಷ್ಟ","I like coffee and tea","like · coffee · and · tea — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ coffee, tea ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬೇಡ."],
+["ty","ನನಗೆ ಕಾಫಿ ಮತ್ತು ಟೀ ಇಷ್ಟ","I like coffee and tea|I like tea and coffee|I love coffee and tea|I love tea and coffee","like · coffee · and · tea — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ coffee, tea ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬೇಡ."],
 ["ty","ಸುಸ್ತಾಗಿದೆ, ಆದರೆ ಖುಷಿಯಾಗಿದ್ದೇನೆ","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","\"ಆದರೆ\" ಎನ್ನಲು but."],
-["ty","ನನಗೆ ನಾಯಿಗಳು ಮತ್ತು ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","I like dogs and cats|I like cats and dogs","dog · and · cat — ಬಹುವಚನ","dog","ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ: dogs, cats."]]},
+["ty","ನನಗೆ ನಾಯಿಗಳು ಮತ್ತು ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","I like dogs and cats|I like cats and dogs|I love dogs and cats|I love cats and dogs","dog · and · cat — ಬಹುವಚನ","dog","ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ: dogs, cats."]]},
 { id:"indian-english", title:"ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್: ಇಲ್ಲಿ ಸರಿ, ವಿದೇಶದಲ್ಲಿ ವಿಚಿತ್ರ", blurb:"prepone, out of station, good name — ಭಾರತದಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಅರ್ಥವಾಗುತ್ತವೆ. ವಿದೇಶದಲ್ಲಿ ಏನು ಹೇಳಬೇಕು ಎಂದು ತಿಳಿಯಿರಿ.", deck:"ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್: ಇಲ್ಲಿ ಮತ್ತು ವಿದೇಶದಲ್ಲಿ", body:`
 <p>ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್ ಅಮೆರಿಕನ್ ಅಥವಾ ಬ್ರಿಟಿಷ್ ಇಂಗ್ಲಿಷ್‌ನ ಹಾಗೆಯೇ ಇಂಗ್ಲಿಷ್‌ನ ಒಂದು ನಿಜವಾದ ಬಗೆ. ಅದರ ಪದಗಳು ಮತ್ತು ಮಾತುಗಳು ಭಾರತದಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಅರ್ಥವಾಗುತ್ತವೆ; ಭಾರತೀಯ ಸಹೋದ್ಯೋಗಿಗಳ ಜೊತೆ ಅವನ್ನು ಹಿಂಜರಿಕೆ ಇಲ್ಲದೆ ಬಳಸಿ. ಆದರೆ ವಿದೇಶದಲ್ಲಿ, ಅಥವಾ ವಿದೇಶಿ ಕ್ಲೈಂಟ್ ಜೊತೆ ಮಾತನಾಡುವಾಗ, ಕೆಲವು ಮಾತುಗಳು ಕೇಳುವವರಿಗೆ ಗೊಂದಲ ತರುತ್ತವೆ. ಅಲ್ಲಿನ ಜನ ಏನು ಕೇಳಲು ನಿರೀಕ್ಷಿಸುತ್ತಾರೆ ಎಂದು ಈ ಪಾಠ ತೋರಿಸುತ್ತದೆ.</p>
 <h3>ಭಾರತದಲ್ಲಿ ಸರಿ, ವಿದೇಶದಲ್ಲಿ ಹೀಗೆ ಹೇಳಿ</h3>

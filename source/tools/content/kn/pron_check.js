@@ -4,7 +4,7 @@
    - SCAFFOLD: a pron with no Kannada letter (the Korean scaffold text, IPA, Latin): not converted yet; no other check runs on it;
    - PATTERN: a pron that fails profile.json pronPattern;
    - ENCODING: a pron that is not NFC;
-   - BANNED: a character §6 rule 13 bans (ZWNJ / ZWJ, the length marks U+0CD5 / U+0CD6, short ಒ / ೊ, ತ ಣ ಳ ಷ and every other letter
+   - BANNED: a character §6 rule 13 bans (ZWNJ outside the rule 13a slot ್ + ZWNJ + dotted letter, ZWJ, the length marks U+0CD5 / U+0CD6, short ಒ / ೊ, ತ ಣ ಳ ಷ and every other letter
      outside the key, visarga, digits of both scripts, Latin, IPA other than ˈ), ಫ ಥ ದ without the dot, or a dot after a letter other than ಜ ವ ಶ ಫ ಥ ದ;
    - DOUBLED: one consonant written twice in a row (ಬಸ್ಸು, ಹ್ಯಾಪ್ಪಿ): §6 rule 12 forbids it and pronPattern cannot see it;
    - DIFF: a string that is in pron_lookup.json but carries a different aid (the lookup wins);
@@ -19,7 +19,7 @@ const U = n => String.fromCodePoint(n);
 const PROFILE = JSON.parse(fs.readFileSync(D + 'profile.json', 'utf8'));
 const PRON_RE = new RegExp(PROFILE.pronPattern, 'u');
 const KANNADA = new RegExp(PROFILE.nativeScript, 'u');
-/* the key: 11 independent vowels, 21 consonant letters, 10 vowel signs, anusvara, ್, nukta; plus ˈ, space, period and slash as separators */
+/* the key (ZWNJ is not in it: banned() lets it through only in the rule 13a slot): 11 independent vowels, 21 consonant letters, 10 vowel signs, anusvara, ್, nukta; plus ˈ, space, period and slash as separators */
 const OK_CHARS = new Set([...'ಅಆಇಈಉಊಎಏಐಓಔಕಗಙಚಜಟಡಥದನಪಫಬಮಯರಲವಶಸಹ', ...[0x0CBE, 0x0CBF, 0x0CC0, 0x0CC1, 0x0CC2, 0x0CC6, 0x0CC7, 0x0CC8, 0x0CCB, 0x0CCC, 0x0C82, 0x0CCD, 0x0CBC].map(U), 'ˈ', ' ', '.', '/']);
 const NUK = U(0x0CBC), VIR = U(0x0CCD), NUK_BASE = new Set([...'ಜವಶಫಥದ']), NUK_ALWAYS = new Set([...'ಫಥದ']);
 const CONS_RE = new RegExp('^[' + U(0x0C95) + '-' + U(0x0CB9) + ']$', 'u');
@@ -33,8 +33,11 @@ for (const fn of bodyFiles) { const t = fs.readFileSync(D + fn, 'utf8'); let m; 
 const norm = s => s.toLowerCase().replace(/’/g, "'").replace(/[.,!?;:"()…]/g, ' ').split(/\s+/).filter(Boolean);
 const toks = p => p.split(/\. | \/ | /).filter(Boolean);
 const cpName = c => 'U+' + c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
+/* rule 13a (2026-11-23): ZWNJ is allowed only as ್ + ZWNJ before a dotted letter (ಜ಼ ವ಼ ಶ಼ ಫ಼ ಥ಼ ದ಼); it is removed before the character test */
+const ZWNJ_OK = /\u0CCD\u200C(?=[\u0C9C\u0CB5\u0CB6\u0CAB\u0CA5\u0CA6]\u0CBC)/gu;
 function banned(p) {
-  const cs = [...p], out = new Set();
+  const cs = [...p.replace(ZWNJ_OK, '\u0CCD')], out = new Set();
+  for (const m of p.matchAll(/([\u0C95-\u0CB9])\u0CBC?\u0CCD(?=[\u0C9C\u0CB5\u0CB6\u0CAB\u0CA5\u0CA6]\u0CBC)/gu)) if (m[1] !== '\u0CB0') out.add('dotted letter after ್ without ZWNJ (rule 13a)');
   cs.forEach((c, i) => {
     if (!OK_CHARS.has(c)) out.add(cpName(c));
     else if (c === NUK && !NUK_BASE.has(cs[i - 1])) out.add('dot after ' + (cs[i - 1] ? cpName(cs[i - 1]) : 'nothing'));
@@ -44,7 +47,7 @@ function banned(p) {
 }
 /* consonant (+ dot) + ್ + the same consonant (+ the same dot) */
 function doubled(p) {
-  const cs = [...p], out = new Set();
+  const cs = [...p.replace(ZWNJ_OK, '\u0CCD')], out = new Set();
   for (let i = 0; i < cs.length; i++) {
     if (!CONS_RE.test(cs[i])) continue;
     const a = cs[i + 1] === NUK ? cs[i] + NUK : cs[i], j = i + [...a].length;
@@ -76,7 +79,7 @@ const KN = U(0x0C80) + '-' + U(0x0CE3);
 for (const fn of ['decks.js', 'extra.js', ...bodyFiles]) {
   let s = fs.readFileSync(D + fn, 'utf8').replace(/\{\{ex:[^|}]*\|[^|}]*\|/g, '');
   if (fn === 'decks.js') s = s.split('\n').map(l => { const p = l.split(' | '); return p.length >= 4 ? p.slice(2).join(' | ') : l; }).join('\n');
-  const re = new RegExp('[' + KN + 'ˈ]*ˈ[' + KN + ']+', 'gu'); let m;
+  const re = new RegExp('[' + KN + 'ˈ\u200C]*ˈ[' + KN + '\u200C]+', 'gu');   /* ZWNJ belongs to the token (rule 13a) */ let m;
   while ((m = re.exec(s))) if (!forms.has(m[0])) out.push('PROSE    ' + fn + ' ' + m[0]);
 }
 const args = process.argv.slice(2), strict = args.includes('--strict'), mode = args.find(a => !a.startsWith('--')) || 'summary';

@@ -32,8 +32,8 @@ How long does it take? | How long does it take to get downtown? | About fifteen 
 Is this seat taken? | Excuse me, is this seat taken? | No, go ahead. | ಕ್ಷಮಿಸಿ, ಈ ಸೀಟಿನಲ್ಲಿ ಯಾರಾದರೂ ಇದ್ದಾರೆಯೇ? / ಇಲ್ಲ, ಕುಳಿತುಕೊಳ್ಳಿ.
 A table for two, please. | Hi! How many? | A table for two, please. | ನಮಸ್ಕಾರ! ಎಷ್ಟು ಜನ? / ಇಬ್ಬರಿಗೆ ಒಂದು ಟೇಬಲ್ ಕೊಡಿ.
 What do you recommend? | What do you recommend? | The mushroom pasta is really popular. | ನೀವು ಯಾವುದನ್ನು ಸೂಚಿಸುತ್ತೀರಿ? / ಮಶ್ರೂಮ್ ಪಾಸ್ತಾ ತುಂಬಾ ಜನಪ್ರಿಯ.
-I'll have the steak. | Are you ready to order? | Yes, I'll have the steak, please. | ಆರ್ಡರ್ ಕೊಡುತ್ತೀರಾ? / ಹೌದು, ನನಗೆ ಸ್ಟೇಕ್ ಕೊಡಿ.
-Medium rare, please. | How would you like your steak? | Medium rare, please. | ಸ್ಟೇಕ್ ಎಷ್ಟು ಬೇಯಬೇಕು? / ಮೀಡಿಯಂ ರೇರ್ ಆಗಿ ಬೇಯಿಸಿ.
+I'll have the paneer tikka. | Are you ready to order? | Yes, I'll have the paneer tikka, please. | ಆರ್ಡರ್ ಕೊಡುತ್ತೀರಾ? / ಹೌದು, ನನಗೆ ಪನೀರ್ ಟಿಕ್ಕಾ ಕೊಡಿ.
+Not too spicy, please. | How spicy would you like it? | Not too spicy, please. | ಎಷ್ಟು ಖಾರ ಬೇಕು? / ಖಾರ ಜಾಸ್ತಿ ಹಾಕಬೇಡಿ.
 I'm allergic to peanuts. | Does this have nuts in it? I'm allergic to peanuts. | Let me check with the kitchen. | ಇದರಲ್ಲಿ ನಟ್ಸ್ ಇದೆಯೇ? ನನಗೆ ಕಡಲೆಕಾಯಿ ಅಲರ್ಜಿ ಇದೆ. / ಅಡುಗೆಮನೆಯಲ್ಲಿ ಕೇಳಿ ಹೇಳುತ್ತೇನೆ.
 Everything was great. | How was everything? | Everything was great, thank you! | ಊಟ ಹೇಗಿತ್ತು? / ಎಲ್ಲವೂ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು, ಧನ್ಯವಾದ!
 Can we get the check, please? | Can we get the check, please? | Sure, I'll be right back with it. | ಬಿಲ್ ಕೊಡುತ್ತೀರಾ? / ಖಂಡಿತ, ಈಗಲೇ ತರುತ್ತೇನೆ.
@@ -85,7 +85,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | ಇವತ್ತು ರಾತ್ರಿ ಪಾರ್ಟಿಗೆ ಬರುತ್ತೀಯಾ? / ಬರಲು ಆಗುವುದಿಲ್ಲ ಅನಿಸುತ್ತದೆ. ನನಗೆ ಸ್ವಲ್ಪ ಮೈ ಸರಿಯಿಲ್ಲ.
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | ಜೆನ್ ಮತ್ತು ಮೈಕ್ ಬಗ್ಗೆ ನಂಬಲಾಗದ ಸುದ್ದಿ ಕೇಳಿದೆ. / ಏನು? ಬೇಗ ಗುಟ್ಟು ಬಿಚ್ಚಿಡು!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | ಆ ಶೋ ಪೂರ್ತಿ ನೋಡಿದೆಯಾ? ಕೊನೆಯಲ್ಲಿ… / ಕಥೆ ಮೊದಲೇ ಹೇಳಬೇಡ! ನಾನಿನ್ನೂ ಮೂರನೇ ಎಪಿಸೋಡ್‌ನಲ್ಲಿದ್ದೇನೆ.
-Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | ಗುಂಪಿನಲ್ಲಿ ನಿನ್ನ ಅಚ್ಚುಮೆಚ್ಚಿನವರು ಯಾರು? / ಖಂಡಿತ ಮುಖ್ಯ ಗಾಯಕ. ನಿನಗೆ?
+Who's your favorite player? | Who's your favorite player? | Definitely the captain. What about you? | ನಿನ್ನ ಅಚ್ಚುಮೆಚ್ಚಿನ ಆಟಗಾರ ಯಾರು? / ಖಂಡಿತ ಕ್ಯಾಪ್ಟನ್. ನಿನಗೆ?
 `;
 
 exports.EXAMPLES = `
@@ -110,7 +110,7 @@ Can I get this to go? | I can't finish this. Can I get this to go? | ಇದನ�
 Less ice, please. | Can I get a large iced latte? Less ice, please. | ಒಂದು ಲಾರ್ಜ್ ಐಸ್ಡ್ ಲಾಟೆ ಕೊಡುತ್ತೀರಾ? ಐಸ್ ಕಡಿಮೆ ಹಾಕಿ.
 Can I get a receipt? | Can I get a receipt? It's for work. | ರಸೀದಿ ಕೊಡುತ್ತೀರಾ? ಆಫೀಸ್‌ಗೆ ಕೊಡಬೇಕು.
 Is this on sale? | Is this jacket on sale? | ಈ ಜಾಕೆಟ್‌ಗೆ ರಿಯಾಯಿತಿ ಇದೆಯೇ?
-I'd like to exchange this. | I'd like to exchange this for a smaller size. | ಇದನ್ನು ಇನ್ನೂ ಚಿಕ್ಕ ಸೈಜ್‌ಗೆ ಬದಲಾಯಿಸಬೇಕಿತ್ತು.
+I'd like to exchange this. | I'd like to exchange this for a smaller size. | ಇದನ್ನು ಇನ್ನೂ ಚಿಕ್ಕ ಸೈಜ್‌ಗೆ ಬದಲಾಯಿಸಿಕೊಳ್ಳಬೇಕು.
 It's a bit tight. | These jeans are a bit tight. | ಈ ಜೀನ್ಸ್ ಸ್ವಲ್ಪ ಬಿಗಿಯಾಗಿದೆ.
 It's three thirty. | It's three thirty. We have half an hour left. | ಈಗ ಮೂರೂವರೆ. ನಮಗೆ ಇನ್ನೂ ಅರ್ಧ ಗಂಟೆ ಇದೆ.
 My birthday is in October. | My birthday is in October, so I'm a Libra. | ನನ್ನ ಹುಟ್ಟುಹಬ್ಬ ಅಕ್ಟೋಬರ್‌ನಲ್ಲಿ, ಹಾಗಾಗಿ ಪಾಶ್ಚಾತ್ಯ ಜ್ಯೋತಿಷ್ಯದ ಪ್ರಕಾರ ನನ್ನದು ತುಲಾ ರಾಶಿ.
@@ -272,22 +272,22 @@ Bite the bullet | ಮನಸ್ಸು ಗಟ್ಟಿ ಮಾಡಿ ಮಾಡಿ �
 Cut corners | ಅಡ್ಡದಾರಿ ಹಿಡಿದು ಕೆಲಸ ಮುಗಿಸುವುದು | ಕಟ್ ˈಕೋರ್ನರ್ಜ಼್ | ಹಣ ಅಥವಾ ಸಮಯ ಉಳಿಸಲು ಮಾಡಬೇಕಾದ್ದನ್ನು ಬಿಟ್ಟುಬಿಡುವುದು (ಟೀಕೆಯ ಮಾತು)
 Hit the sack | ಮಲಗಲು ಹೋಗುವುದು | ಹಿಟ್ ದ಼ ಸ್ಯಾಕ್ | ಹಗುರ ಮಾತು: "I'm tired. I'm going to hit the sack."
 Let the cat out of the bag | ಗುಟ್ಟು ಬಯಲು ಮಾಡುವುದು | ಲೆಟ್ ದ಼ ಕ್ಯಾಟ್ ಔಟ್ ಅವ಼್ ದ಼ ಬ್ಯಾಗ್ | ಸರ್ಪ್ರೈಸ್ ಪಾರ್ಟಿಯ ಸುದ್ದಿಯನ್ನು ಬಾಯಿ ತಪ್ಪಿ ಹೇಳಿಬಿಟ್ಟಾಗ
-Kill two birds with one stone | ಒಂದೇ ಕಲ್ಲಿಗೆ ಎರಡು ಹಕ್ಕಿ | ಕಿಲ್ ಟೂ ಬರ್ಡ್ಜ಼್ ವಿದ಼್ ವನ್ ಸ್ಟೋನ್ | ಒಂದೇ ಕೆಲಸದಿಂದ ಎರಡು ಉದ್ದೇಶ ಈಡೇರಿದಾಗ. ಕನ್ನಡದಲ್ಲೂ ಇದೇ ಮಾತು ಇದೆ
+Kill two birds with one stone | ಒಂದೇ ಕಲ್ಲಿಗೆ ಎರಡು ಹಕ್ಕಿ | ಕಿಲ್ ಟೂ ಬರ್ಡ್‌ಜ಼್ ವಿದ಼್ ವನ್ ಸ್ಟೋನ್ | ಒಂದೇ ಕೆಲಸದಿಂದ ಎರಡು ಉದ್ದೇಶ ಈಡೇರಿದಾಗ. ಕನ್ನಡದಲ್ಲೂ ಇದೇ ಮಾತು ಇದೆ
 Burn the midnight oil | ರಾತ್ರಿ ತಡವಾಗುವವರೆಗೂ ಕೆಲಸ ಮಾಡುವುದು ಅಥವಾ ಓದುವುದು | ಬರ್ನ್ ದ಼ ˈಮಿಡ್ನೈಟ್ ಆಯ್ಲ್ | ಪರೀಕ್ಷೆಯ ಸಮಯದಲ್ಲಿ, ಗಡುವಿನ ಮೊದಲು
-The best of both worlds | ಎರಡೂ ಕಡೆಯ ಲಾಭ | ದ಼ ಬೆಸ್ಟ್ ಅವ಼್ ಬೋಥ಼್ ವರ್ಲ್ಡ್ಜ಼್ | ಎರಡು ಬೇರೆ ಬೇರೆ ವಿಷಯಗಳ ಒಳ್ಳೆಯ ಅಂಶಗಳು ಒಟ್ಟಿಗೆ ಸಿಕ್ಕಾಗ
+The best of both worlds | ಎರಡೂ ಕಡೆಯ ಲಾಭ | ದ಼ ಬೆಸ್ಟ್ ಅವ಼್ ಬೋಥ಼್ ವರ್ಲ್ಡ್‌ಜ಼್ | ಎರಡು ಬೇರೆ ಬೇರೆ ವಿಷಯಗಳ ಒಳ್ಳೆಯ ಅಂಶಗಳು ಒಟ್ಟಿಗೆ ಸಿಕ್ಕಾಗ
 A blessing in disguise | ಕೆಟ್ಟದ್ದರ ರೂಪದಲ್ಲಿ ಬಂದ ಒಳ್ಳೆಯದು | ಅ ˈಬ್ಲೆಸಿಙ್ ಇನ್ ಡಿಸ್ˈಗೈಜ಼್ | ಮೊದಲು ಕೆಟ್ಟದ್ದು ಅನಿಸಿ, ಕೊನೆಗೆ ಒಳ್ಳೆಯದೇ ಆದ ವಿಷಯ
-Every cloud has a silver lining | ಕಷ್ಟದಲ್ಲೂ ಒಂದು ಆಶಾಕಿರಣ ಇರುತ್ತದೆ | ˈಎವ಼್ರಿ ಕ್ಲೌಡ್ ಹ್ಯಾಜ಼್ ಅ ˈಸಿಲ್ವ಼ರ್ ˈಲೈನಿಙ್ | ಕಷ್ಟದಲ್ಲಿರುವವರಿಗೆ ಸಮಾಧಾನ ಹೇಳುವಾಗ
+Every cloud has a silver lining | ಕಷ್ಟದಲ್ಲೂ ಒಂದು ಆಶಾಕಿರಣ ಇರುತ್ತದೆ | ˈಎವ಼್ರಿ ಕ್ಲೌಡ್ ಹ್ಯಾಜ಼್ ಅ ˈಸಿಲ್‌ವ಼ರ್ ˈಲೈನಿಙ್ | ಕಷ್ಟದಲ್ಲಿರುವವರಿಗೆ ಸಮಾಧಾನ ಹೇಳುವಾಗ
 Get cold feet | ಕೊನೆಯ ಕ್ಷಣದಲ್ಲಿ ಹಿಂಜರಿಯುವುದು | ಗೆಟ್ ಕೋಲ್ಡ್ ಫ಼ೀಟ್ | ಮದುವೆ ಅಥವಾ ದೊಡ್ಡ ನಿರ್ಧಾರಕ್ಕೆ ಸ್ವಲ್ಪ ಮೊದಲು ಧೈರ್ಯ ಕಳೆದುಕೊಂಡಾಗ
 Hit the nail on the head | ಸರಿಯಾದ ವಿಷಯವನ್ನೇ ಹೇಳುವುದು | ಹಿಟ್ ದ಼ ನೇಲ್ ಆನ್ ದ಼ ಹೆಡ್ | ಯಾರಾದರೂ ವಿಷಯದ ತಿರುಳನ್ನೇ ಹಿಡಿದು ಹೇಳಿದಾಗ
 In the same boat | ಒಂದೇ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಇರುವುದು | ಇನ್ ದ಼ ಸೇಮ್ ಬೋಟ್ | ಒಂದೇ ಕಷ್ಟದಲ್ಲಿರುವವರಿಗೆ ಸಮಾಧಾನ ಹೇಳಲು: "Don't worry, we're all in the same boat."
 Miss the boat | ಅವಕಾಶ ಕಳೆದುಕೊಳ್ಳುವುದು | ಮಿಸ್ ದ಼ ಬೋಟ್ | ಒಳ್ಳೆಯ ಅವಕಾಶ ಕೈತಪ್ಪಿ ಹೋದಾಗ
 No pain, no gain | ಕಷ್ಟಪಡದೆ ಫಲ ಇಲ್ಲ | ನೋ ಪೇನ್ ನೋ ಗೇನ್ | ವ್ಯಾಯಾಮ, ಓದಿನ ಸಂದರ್ಭದಲ್ಲಿ ಹೆಚ್ಚು ಕೇಳಿಸುತ್ತದೆ. ಕನ್ನಡದ "ಕೈ ಕೆಸರಾದರೆ ಬಾಯಿ ಮೊಸರು" ಗಾದೆಯ ಹಾಗೆ
 On the fence | ಯಾವ ಕಡೆಗೂ ನಿರ್ಧರಿಸದೆ ಇರುವುದು | ಆನ್ ದ಼ ಫ಼ೆನ್ಸ್ | ಬೇಲಿಯ ಮೇಲೆ ಕುಳಿತು ಯಾವ ಕಡೆಗೂ ಇಳಿಯದ ಚಿತ್ರ: "I'm still on the fence about the job offer."
-Pull someone's leg | ತಮಾಷೆಗೆ ಕಾಲೆಳೆಯುವುದು | ಪುಲ್ ˈಸಮ್ವನ್ಜ಼್ ಲೆಗ್ | ತಮಾಷೆಗಾಗಿ ಸುಳ್ಳು ಹೇಳಿ ರೇಗಿಸುವುದು: "Relax, I'm just pulling your leg!"
+Pull someone's leg | ತಮಾಷೆಗೆ ಕಾಲೆಳೆಯುವುದು | ಪುಲ್ ˈಸಮ್ವನ್‌ಜ಼್ ಲೆಗ್ | ತಮಾಷೆಗಾಗಿ ಸುಳ್ಳು ಹೇಳಿ ರೇಗಿಸುವುದು: "Relax, I'm just pulling your leg!"
 Sit tight | ತಾಳ್ಮೆಯಿಂದ ಕಾಯುವುದು | ಸಿಟ್ ಟೈಟ್ | ಫಲಿತಾಂಶ ಬರುವವರೆಗೆ ಏನೂ ಮಾಡದೆ ಕಾಯಿರಿ ಎಂಬ ಅರ್ಥ
 The last straw | ತಾಳ್ಮೆ ತಪ್ಪಿಸಿದ ಕೊನೆಯ ಘಟನೆ | ದ಼ ಲ್ಯಾಸ್ಟ್ ಸ್ಟ್ರಾ | ಸಹಿಸಿ ಸಹಿಸಿ ಕೊನೆಗೆ ತಾಳ್ಮೆ ಕಳೆದುಕೊಳ್ಳುವಂತೆ ಮಾಡಿದ ವಿಷಯ
 Throw in the towel | ಸೋಲು ಒಪ್ಪಿಕೊಂಡು ಬಿಟ್ಟುಬಿಡುವುದು | ಥ಼್ರೋ ಇನ್ ದ಼ ˈಟೌಅಲ್ | ಬಾಕ್ಸಿಂಗ್‌ನಲ್ಲಿ ಟವೆಲ್ ಎಸೆದು ಸೋಲು ಒಪ್ಪಿಕೊಳ್ಳುವ ಪದ್ಧತಿಯಿಂದ ಬಂದ ಮಾತು
-Actions speak louder than words | ಮಾತಿಗಿಂತ ಕೃತಿ ಮೇಲು | ˈಆ್ಯಕ್ಶನ್ಜ಼್ ಸ್ಪೀಕ್ ˈಲೌಡರ್ ದ಼ನ್ ವರ್ಡ್ಜ಼್ | ಬರೀ ಹೇಳುವುದಲ್ಲ, ಮಾಡಿ ತೋರಿಸಿ ಎಂಬ ಅರ್ಥ
+Actions speak louder than words | ಮಾತಿಗಿಂತ ಕೃತಿ ಮೇಲು | ˈಆ್ಯಕ್ಶನ್‌ಜ಼್ ಸ್ಪೀಕ್ ˈಲೌಡರ್ ದ಼ನ್ ವರ್ಡ್‌ಜ಼್ | ಬರೀ ಹೇಳುವುದಲ್ಲ, ಮಾಡಿ ತೋರಿಸಿ ಎಂಬ ಅರ್ಥ
 Easier said than done | ಹೇಳುವುದು ಸುಲಭ, ಮಾಡುವುದು ಕಷ್ಟ | ˈಈಜ಼ಿಅರ್ ಸೆಡ್ ದ಼ನ್ ಡನ್ | ಮಾತಿನಲ್ಲಿ ಸುಲಭ ಅನಿಸಿದರೂ ಮಾಡಲು ಹೊರಟಾಗ ಕಷ್ಟ ಎನ್ನುವಾಗ
 Go the extra mile | ನಿರೀಕ್ಷೆಗಿಂತ ಹೆಚ್ಚು ಶ್ರಮ ಹಾಕುವುದು | ಗೋ ದ಼ಿ ˈಎಕ್ಸ್ಟ್ರ ಮೈಲ್ | ಮೆಚ್ಚುಗೆಯ ಮಾತಿನಲ್ಲಿ ಹೆಚ್ಚು ಬಳಕೆ: "She always goes the extra mile."
 Get out of hand | ಕೈ ಮೀರಿ ಹೋಗುವುದು | ಗೆಟ್ ಔಟ್ ಅವ಼್ ಹ್ಯಾನ್ಡ್ | ಪರಿಸ್ಥಿತಿ ಹತೋಟಿ ತಪ್ಪಿದಾಗ. ಕನ್ನಡದ "ಕೈ ಮೀರುವುದು" ಇದೇ ಚಿತ್ರ

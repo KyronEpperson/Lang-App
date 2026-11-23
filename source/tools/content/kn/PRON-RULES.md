@@ -39,7 +39,7 @@ The aid shows what the American voice says, so it differs on purpose from the Ka
 *to* is ಟ before a consonant and ಟು before a vowel (*been to India* ಟು ˈಇನ್ಡಿಅ); *the* is ದ಼ before a consonant and ದ಼ಿ before a vowel (*the Indian embassy*); *a* ಅ, *an* ಅನ್, *of* ಅವ಼್, *can* ಕನ್, *for* ಫ಼ರ್, *you* ಯು (ಯೂ when it stands alone or is stressed), *are* ಅರ್, *your* / *you're* ಯುರ್.
 
 ## 5. What a respelling may and may not contain
-- No ZWNJ and no ZWJ in any aid; no Kannada digit; no Latin letter; ˈ is U+02C8 and stands only in words of two or more syllables.
+- No ZWJ in any aid; ZWNJ only in the rule 13a slot: ್ + ZWNJ before a dotted letter, except after ರ (ಟ್ವೆಲ್‌ವ಼್, ˈಸಿಲ್‌ವ಼ರ್, ಡಾಗ್‌ಜ಼್; but ˈನರ್ವ಼ಸ್), written by the tool (pre-merge review 2026-11-23: without it a dotted subscript falls back to a visible ್ in some fonts and not others; with it every font shows the same visible ್). No Kannada digit; no Latin letter; ˈ is U+02C8 and stands in every word of two or more syllables and only there (rule 2 as amended 2026-11-23: the tool supplies it where the zh IPA has none, e.g. ಅˈಬೌಟ್, ಅˈಕ್ರಾಸ್, ಬಿˈಕಜ಼್, ˈನೈನ್ಟಿ).
 - The dot (U+0CBC) only on ಫ಼ ಜ಼ ವ಼ ಥ಼ ದ಼ ಶ಼, typed after the letter and before the ್ or vowel sign. The dot never appears in ordinary prose or in a meaning: loanwords there keep their ordinary spelling (ಫೋನ್, ಕಾಫಿ, ಆಫೀಸ್).
 - ಙ್ for /ŋ/ at the end of a word or before a vowel (ˈಮೋರ್ನಿಙ್); ಂ only for /ŋ/ before k / g.
 - The last consonant always carries ್; one English consonant is never written twice.
