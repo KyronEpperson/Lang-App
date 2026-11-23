@@ -5,12 +5,12 @@ module.exports = [
 <p>Sa Bisaya, ang <i>Nagluto ko</i> puwede karon o ganina; ang time word ra ang magsulti. Sa Iningles, ang be verb mismo ang mausab: <b>I am cooking</b> (karon) → <b>I was cooking</b> (niadto).</p>
 {{ex:I was sleeping.|/aɪ wəz ˈsliːpɪŋ/|Natulog ko niadtong orasa}}{{ex:We were watching TV.|/wi wər ˈwɑːtʃɪŋ ˌtiː ˈviː/|Nagtan-aw mi og TV niadtong orasa}}{{ex:It was raining.|/ɪt wəz ˈreɪnɪŋ/|Nag-ulan niadtong orasa}}
 <h3>Mga pangutana</h3>
-{{ex:What were you doing?|/ˈwʌt wər ju ˈduːɪŋ/|Unsay imong gibuhat niadtong orasa?}}{{ex:Were you working at nine?|/wər ju ˈwɜːrkɪŋ ət ˈnaɪn/|Nagtrabaho ka ba sa alas nuybe?}}
+{{ex:What were you doing?|/ˈwʌt wər ju ˈduːɪŋ/|Unsay imong gibuhat niadtong orasa?}}{{ex:Were you working at nine?|/wər ju ˈwɜːrkɪŋ ət ˈnaɪn/|Nagtrabaho ka ba sa alas nuwebe?}}
 <h3>Uban sa "when": naay nahitabo samtang nagbuhat ka</h3>
 <p>Ang taas nga lihok nga nagpadayon kay <b>past progressive</b>. Ang mubo nga panghitabo nga nisulod kay <b>simple past tense</b>.</p>
 {{ex:I was cooking when you called.|/aɪ wəz ˈkʊkɪŋ wen ju ˈkɔːld/|Nagluto ko dihang nitawag ka}}{{ex:I was walking home when it started to rain.|/aɪ wəz ˈwɔːkɪŋ ˈhoʊm wen ɪt ˈstɑːrtɪd tə ˈreɪn/|Naglakaw ko pauli dihang nisugod ang ulan}}
 <div class="tip">Kon simple past tense ra ang gamiton, lahi ang kahulogan. Ang <b>I cooked when you called.</b> nagpasabot nga "nisugod ko og luto human ka nitawag".</div>`,
-check:[["'Unsay imong gibuhat sa alas nuybe?' (nagpadayon niadtong orasa) sa Iningles?",["What did you doing at nine?","What were you doing at nine?","What was you doing at nine?","What were you do at nine?"],1,"Sa \"you\", \"were\" ang gamiton, ug -ing form ang sunod."],["I was cooking ___ you called. Unsay sakto sa blangko?",["when","so","or","than"],0,"Ang \"dihang\" kay \"when\"."],["They ___ watching TV. Unsay sakto sa blangko?",["was","did","were","are being"],2,"Sa \"they\", \"were\" ang gamiton."]],
+check:[["'Unsay imong gibuhat sa alas nuwebe?' (nagpadayon niadtong orasa) sa Iningles?",["What did you doing at nine?","What were you doing at nine?","What was you doing at nine?","What were you do at nine?"],1,"Sa \"you\", \"were\" ang gamiton, ug -ing form ang sunod."],["I was cooking ___ you called. Unsay sakto sa blangko?",["when","so","or","than"],0,"Ang \"dihang\" kay \"when\"."],["They ___ watching TV. Unsay sakto sa blangko?",["was","did","were","are being"],2,"Sa \"they\", \"were\" ang gamiton."]],
 practice:[
 ["mc","I ___ sleeping at ten.","was","were","did","am","Sa \"I\", \"was\" ang gamiton."],
 ["mc","'Nagluto ko dihang nitawag ka' sa Iningles?","I was cooking when you called.","I cooked when you were calling.","I was cook when you called.","I cooking when you called.","Ang nagpadayon nga lihok kay past progressive; ang nisulod nga panghitabo kay simple past tense."],
@@ -108,9 +108,9 @@ practice:[
 ["fi","I __ to Davao last week.","Niadto ko sa Davao sa niaging semana","went","go|have gone|am going","Naay \"last week\", mao nga past form: \"went\"."],
 ["fi","She has lived here __ 2020.","Nagpuyo siya (babaye) dinhi sukad 2020","since","for|from|in","Ang \"sukad\" kay \"since\"."],
 ["fi","I haven't finished __.","Wala pa ko mahuman","yet","already|still|anymore","Ang \"wala pa\" kay \"haven't ... yet\"."],
-["ty","Wala pa nako mabasa ang mga libro","I haven't read the books yet|I haven't yet read the books|I've not read the books yet","haven't · read · books · yet — plural kay mga libro","book","Daghan ang libro, mao nga plural nga \"books\"; ang \"wala pa\" kay \"haven't ... yet\"."],
-["ty","Nagbasa siya (lalaki) og usa ka libro karon","He's reading a book|He's reading a book now|He's reading a book right now","he's · reading · book — kinahanglan ang article","the","Usa ra ka libro, mao nga article \"a\"; ang \"nag-\" uban sa \"karon\" kay be verb + -ing form."],
-["ty","Wala na siya (lalaki) nagtrabaho sa bangko (gamita ang \"no longer\")","He no longer works at the bank|He's no longer working at the bank|He no longer works in the bank|He doesn't work at the bank anymore|He doesn't work at the bank any more","no longer · works · at · bank — kinahanglan ang article","a","Article \"the\" kay nahibaloan na kon unsang bangko; ang \"wala na\" kay \"no longer\" o \"not ... anymore\"."]]},
+["ty","Wala pa nako mabasa ang mga libro","I haven't read the books yet|I haven't yet read the books|I've not read the books yet|I have not read the books yet|I still haven't read the books","haven't · read · books · yet — plural kay mga libro","book","Daghan ang libro, mao nga plural nga \"books\"; ang \"wala pa\" kay \"haven't ... yet\"."],
+["ty","Nagbasa siya (lalaki) og usa ka libro karon","He's reading a book|He's reading a book now|He's reading a book right now|He is reading a book|He is reading a book now|He is reading a book right now","he's · reading · book — kinahanglan ang article","the","Usa ra ka libro, mao nga article \"a\"; ang \"nag-\" uban sa \"karon\" kay be verb + -ing form."],
+["ty","Wala na siya (lalaki) nagtrabaho sa bangko (gamita ang \"no longer\")","He no longer works at the bank|He's no longer working at the bank|He no longer works in the bank|He doesn't work at the bank anymore|He doesn't work at the bank any more|He is no longer working at the bank|He does not work at the bank anymore","no longer · works · at · bank — kinahanglan ang article","a","Article \"the\" kay nahibaloan na kon unsang bangko; ang \"wala na\" kay \"no longer\" o \"not ... anymore\"."]]},
 { id:"modals", title:"have to, must, should, might: obligasyon ug tambag", blurb:"Kinahanglan, maayo unta, ug basin.", deck:"Ospital ug emerhensiya", body:`
 <p>Upat ka paagi sa pagsulti og obligasyon, tambag ug posibilidad. Human sa tanan, <b>base form</b> ang sunod.</p>
 <h3>have to: kinahanglan</h3>
@@ -146,7 +146,7 @@ practice:[
 <h3>to + base form</h3>
 {{ex:I want to go home.|/aɪ ˈwɑːnt tə ˈgoʊ ˈhoʊm/|Gusto kong mopauli}}{{ex:I need to study.|/aɪ ˈniːd tə ˈstʌdi/|Kinahanglan kong magtuon}}{{ex:I'd like to order.|/aɪd ˈlaɪk tu ˈɔːrdər/|Gusto unta kong mo-order}}{{ex:I decided to learn English.|/aɪ dɪˈsaɪdɪd tə ˈlɜːrn ˈɪŋglɪʃ/|Nakadesisyon ko nga magtuon og Iningles}}
 <h3>Human sa enjoy, finish, mind: -ing form</h3>
-{{ex:I enjoy cooking.|/aɪ ɪnˈdʒɔɪ ˈkʊkɪŋ/|Ganahan kong magluto}}{{ex:I finished working.|/aɪ ˈfɪnɪʃt ˈwɜːrkɪŋ/|Nahuman na ko og trabaho}}{{ex:I don't mind waiting.|/aɪ ˈdoʊnt ˈmaɪnd ˈweɪtɪŋ/|Okey ra nako nga maghulat}}
+{{ex:I enjoy cooking.|/aɪ ɪnˈdʒɔɪ ˈkʊkɪŋ/|Ganahan kong magluto}}{{ex:I finished working.|/aɪ ˈfɪnɪʃt ˈwɜːrkɪŋ/|Nahuman na ko og trabaho}}{{ex:I don't mind waiting.|/aɪ ˈdoʊnt ˈmaɪnd ˈweɪtɪŋ/|Okay ra nako nga maghulat}}
 <h3>Mga verb nga puwede ang duha</h3>
 <p>Ang <b>like, love, start</b> puwede sundan og "to" o og -ing form.</p>
 <div class="tip">Kasagarang sayop: <b>I want go.</b> ✗, <b>I enjoy to cook.</b> ✗ → <b>I want to go.</b> ✓, <b>I enjoy cooking.</b> ✓</div>`,
@@ -156,7 +156,7 @@ practice:[
 ["mc","I enjoy ___.","cooking","to cook","cook","to cooking","Human sa \"enjoy\", -ing form."],
 ["mc","'Gusto unta kong mo-order' sa Iningles?","I'd like to order.","I'd like order.","I'd like ordering.","I like order to.","Human sa \"would like\", \"to\" + base form."],
 ["mc","'Nahuman na ko og trabaho' sa Iningles?","I finished working.","I finished to work.","I finished work to.","I finish worked.","Human sa \"finish\", -ing form."],
-["mc","'Okey ra nako nga maghulat' sa Iningles?","I don't mind waiting.","I don't mind to wait.","I don't mind wait.","I'm not mind waiting.","Human sa \"mind\", -ing form."],
+["mc","'Okay ra nako nga maghulat' sa Iningles?","I don't mind waiting.","I don't mind to wait.","I don't mind wait.","I'm not mind waiting.","Human sa \"mind\", -ing form."],
 ["or","Gusto kong mopalit og usa ka awto","I want to buy a car","the buying","Human sa \"want\", \"to\"; usa ka awto, mao nga article \"a\"."],
 ["or","Ganahan kong motan-aw og mga salida","I enjoy watching movies","movie watch","Human sa \"enjoy\", -ing form; mga salida sa kinatibuk-an, mao nga plural nga \"movies\"."],
 ["or","Kinahanglan kong mopahulay","I need to rest","resting","Human sa \"need\", \"to\" + base form."],
@@ -172,7 +172,7 @@ practice:[
 <div class="tbl"><table><tr><th>Kaso</th><th>Pananglitan</th></tr><tr><td>Nag-inusara ra sa kalibotan</td><td class="k">the sun, the internet</td></tr><tr><td>Instrumento sa musika</td><td class="k">play the piano</td></tr><tr><td>Suba ug dagat</td><td class="k">the Nile, the Pacific</td></tr><tr><td>Nasod nga plural ang ngalan o naay "States"</td><td class="k">the Philippines, the United States</td></tr></table></div>
 {{ex:I play the piano.|/aɪ ˈpleɪ ðə piˈænoʊ/|Motukar ko og piano}}{{ex:I'm from the Philippines.|/aɪm frəm ðə ˈfɪlɪpiːnz/|Taga-Pilipinas ko}}{{ex:She's from the United States.|/ʃiz frəm ðə juˈnaɪtɪd ˈsteɪts/|Taga-Estados Unidos siya (babaye)}}{{ex:I found it on the internet.|/aɪ ˈfaʊnd ɪt ɑːn ði ˈɪntərnet/|Nakit-an nako kini sa internet}}
 <h3>Kanus-a walay article</h3>
-<div class="tbl"><table><tr><th>Kaso</th><th>Pananglitan</th></tr><tr><td>Kadaghanan sa nasod ug siyudad</td><td class="k">Japan, Cebu</td></tr><tr><td>Dula, pinulongan, kaon</td><td class="k">play soccer, speak English, have lunch</td></tr><tr><td>Butang o ideya sa kinatibuk-an</td><td class="k">Dogs are cute. I love music.</td></tr></table></div>
+<div class="tbl"><table><tr><th>Kaso</th><th>Pananglitan</th></tr><tr><td>Kadaghanan sa nasod ug siyudad</td><td class="k">Japan, Cebu</td></tr><tr><td>Dula, pinulongan, pagkaon sa adlaw</td><td class="k">play soccer, speak English, have lunch</td></tr><tr><td>Butang o ideya sa kinatibuk-an</td><td class="k">Dogs are cute. I love music.</td></tr></table></div>
 {{ex:I live in Cebu.|/aɪ ˈlɪv ɪn seɪˈbuː/|Nagpuyo ko sa Cebu}}{{ex:I play soccer.|/aɪ ˈpleɪ ˈsɑːkər/|Magdula ko og soccer}}{{ex:Dogs are cute.|/ˈdɔːgz ər ˈkjuːt/|Cute ang mga iro (tanang iro)}}
 <h3>Kinatibuk-an ug espesipiko</h3>
 {{ex:I like dogs.|/aɪ ˈlaɪk ˈdɔːgz/|Ganahan ko og iro (tanang iro)}}{{ex:The dogs in this park are cute.|/ðə ˈdɔːgz ɪn ˈðɪs ˈpɑːrk ər ˈkjuːt/|Cute ang mga iro niining parke (kadto rang mga iroa)}}
@@ -225,9 +225,9 @@ practice:[
 { id:"relative", title:"who / that: paghulagway sa tawo ug butang", blurb:"Sama sa \"nga\" sa Bisaya, pero magpili ka: \"who\" para sa tawo, \"that\" para sa butang.", deck:"Pagpamalit ug pagbayad", body:`
 <p>Sa Bisaya, <i>nga</i> ang modugtong sa noun ug sa paghulagway niini: <i>ang libro nga akong gipalit</i>. Mao ra sab ang han-ay sa Iningles: noun una, unya ang paghulagway: the book <b>that I bought</b>. Ang kalainan: usa ra ang <i>nga</i>, pero sa Iningles magpili ka og pulong.</p>
 <h3>Tawo: who</h3>
-{{ex:I have a friend who speaks Cebuano.|/aɪ ˈhæv ə ˈfrend hu ˈspiːks seɪˈbwɑːnoʊ/|Naa koy higala nga makasulti og Binisaya}}{{ex:the man who lives next door|/ðə ˈmæn hu ˈlɪvz ˈnekst ˈdɔːr/|ang lalaki nga nagpuyo sa silingang balay}}
+{{ex:I have a friend who speaks Cebuano.|/aɪ ˈhæv ə ˈfrend hu ˈspiːks seɪˈbwɑːnoʊ/|Naa koy higala nga makasulti og Bisaya}}{{ex:the man who lives next door|/ðə ˈmæn hu ˈlɪvz ˈnekst ˈdɔːr/|ang lalaki nga nagpuyo sa silingang balay}}
 <h3>Butang: that</h3>
-{{ex:the book that I bought|/ðə ˈbʊk ðət aɪ ˈbɔːt/|ang libro nga akong gipalit}}{{ex:This is the phone that I want.|/ˈðɪs ɪz ðə ˈfoʊn ðət aɪ ˈwɑːnt/|Mao kini ang cellphone nga akong gusto}}
+{{ex:the book that I bought|/ðə ˈbʊk ðət aɪ ˈbɔːt/|ang libro nga akong gipalit}}{{ex:This is the phone that I want.|/ˈðɪs ɪz ðə ˈfoʊn ðət aɪ ˈwɑːnt/|Mao kini ang telepono nga akong gusto}}
 <h3>Kanunay tangtangon ang "that"</h3>
 <p>Kon subject + verb dayon ang sunod, puwede tangtangon ang <b>that</b>. Sa pagsulti, hapit kanunay kining tangtangon.</p>
 {{ex:The movie we saw was great.|/ðə ˈmuːvi wi ˈsɔː wəz ˈgreɪt/|Nindot kaayo ang salida nga among gitan-aw}}

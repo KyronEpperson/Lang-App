@@ -83,8 +83,8 @@ practice:[
 ["ty","Maayo unta kon naa koy awto (gamita ang \"I wish\")","I wish I had a car","I wish · had · car — kinahanglan ang article","the","Bisan unsang usa ka awto, mao nga article \"a\"."],
 ["ty","Nisakay unta ko og taxi (pagmahay)","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — kinahanglan ang article","the","Bisan unsang usa ka taxi, mao nga article \"a\"."]]},
 { id:"passive", title:"Passive voice: be verb + past participle", blurb:"Kon mas importante ang nahitabo kaysa kon kinsay nagbuhat.", deck:"Trabaho ug email", body:`
-<p>Sa Bisaya, ordinaryo kaayo ang verb nga naay <i>gi-</i>: <i>Gikawat ang akong cellphone</i>. Sa Iningles, ang passive voice nagkinahanglan og duha ka bahin: <b>be verb + past participle</b>, ug ang be verb ang magdala sa tense. Gamiton kini kon wala ta kahibalo o dili importante kon kinsay nagbuhat.</p>
-{{ex:My phone was stolen.|/maɪ ˈfoʊn wəz ˈstoʊlən/|Gikawat ang akong cellphone}}{{ex:This was made in the Philippines.|/ˈðɪs wəz ˈmeɪd ɪn ðə ˈfɪlɪpiːnz/|Gihimo kini sa Pilipinas}}{{ex:The meeting was canceled.|/ðə ˈmiːtɪŋ wəz ˈkænsld/|Gikanselar ang miting}}
+<p>Sa Bisaya, ordinaryo kaayo ang verb nga naay <i>gi-</i>: <i>Gikawat ang akong telepono</i>. Sa Iningles, ang passive voice nagkinahanglan og duha ka bahin: <b>be verb + past participle</b>, ug ang be verb ang magdala sa tense. Gamiton kini kon wala ta kahibalo o dili importante kon kinsay nagbuhat.</p>
+{{ex:My phone was stolen.|/maɪ ˈfoʊn wəz ˈstoʊlən/|Gikawat ang akong telepono}}{{ex:This was made in the Philippines.|/ˈðɪs wəz ˈmeɪd ɪn ðə ˈfɪlɪpiːnz/|Gihimo kini sa Pilipinas}}{{ex:The meeting was canceled.|/ðə ˈmiːtɪŋ wəz ˈkænsld/|Gikanselar ang miting}}
 <h3>Karon: butang nga kanunay mahitabo</h3>
 {{ex:English is spoken here.|/ˈɪŋglɪʃ ɪz ˈspoʊkən ˈhɪr/|Iningles ang sinultihan dinhi}}{{ex:Breakfast is served at seven.|/ˈbrekfəst ɪz ˈsɜːrvd ət ˈsevn/|Ang pamahaw isilbi sa alas siyete}}
 <h3>Kinsay nagbuhat: by</h3>
@@ -98,14 +98,14 @@ practice:[
 ["mc","'Gihimo kini sa Korea' sa Iningles?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be verb + past participle nga \"made\"."],
 ["mc","'Iningles ang sinultihan dinhi' (passive voice) sa Iningles?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","Sa butang nga kanunay mahitabo, \"is\" + past participle."],
 ["mc","'Gikanselar ang miting' sa Iningles?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","be verb + past participle."],
-["mc","'Ang pamahaw isilbi sa alas siyete' sa Iningles?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","Walay article ang ngalan sa kaon (\"breakfast\"), ug \"is\" + past participle."],
+["mc","'Ang pamahaw isilbi sa alas siyete' sa Iningles?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","Walay article ang ngalan sa pagkaon sa adlaw (\"breakfast\"), ug \"is\" + past participle."],
 ["or","Gikawat ang akong bag","My bag was stolen","stole","Human sa be verb, past participle nga \"stolen\" ang sunod."],
 ["or","Gikanselar ang miting","The meeting was canceled","A meetings","Article \"the\" kay nahibaloan na kon unsang miting."],
 ["or","Nabuak ang bintana","The window was broken","a windows","Ang bintana nga ania dinhi, mao nga article \"the\"."],
 ["fi","This was __ in Korea.","Gihimo kini sa Korea","made","make|making|makes","Human sa be verb, past participle ang sunod."],
 ["fi","The room __ cleaned every day.","Limpyohan ang kuwarto kada adlaw","is|gets","does|has|did","Sa butang nga kanunay mahitabo, \"is\" + past participle."],
 ["fi","It was written __ Han Kang.","Gisulat kini ni Han Kang","by","from|of|with","Kon kinsay nagbuhat, \"by\" ang gamiton."],
-["ty","Gikawat ang akong cellphone","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be verb + past participle nga \"stolen\"."],
+["ty","Gikawat ang akong telepono","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be verb + past participle nga \"stolen\"."],
 ["ty","Gikanselar ang miting","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — kinahanglan ang article","a","Article \"the\" kay nahibaloan na kon unsang miting."],
 ["ty","Gitrangkahan ang pultahan niadtong orasa","The door was locked","the door · was · locked — kinahanglan ang article","a","Ang pultahan nga ania dinhi, mao nga article \"the\"."]]},
 { id:"reported", title:"Reported speech: pagbalita sa giingon sa uban", blurb:"She said she was tired. Iatras ang tense og usa ka lakang; human sa \"tell\", ang tawo nga gisultihan.", deck:"Tawag, text ug chat", body:`
@@ -117,21 +117,21 @@ practice:[
 {{ex:He told me he was busy.|/hi ˈtoʊld mi hi wəz ˈbɪzi/|Giingnan ko niya (lalaki) nga puliki siya}}
 <h3>Pagbalita sa pangutana</h3>
 <p>Sa pangutana nga oo / dili ang tubag, <b>if</b> ang gamiton. Sa pangutana nga naay question word, ipabilin ang question word. Ang sunod mosunod sa <b>han-ay sa statement</b> (subject + verb).</p>
-{{ex:She asked if I was okay.|/ʃi ˈæskt ɪf aɪ wəz oʊˈkeɪ/|Nangutana siya (babaye) kon okey ra ba ko}}{{ex:He asked where I lived.|/hi ˈæskt ˈwer aɪ ˈlɪvd/|Nangutana siya (lalaki) kon asa ko nagpuyo}}
+{{ex:She asked if I was okay.|/ʃi ˈæskt ɪf aɪ wəz oʊˈkeɪ/|Nangutana siya (babaye) kon okay ra ba ko}}{{ex:He asked where I lived.|/hi ˈæskt ˈwer aɪ ˈlɪvd/|Nangutana siya (lalaki) kon asa ko nagpuyo}}
 <div class="tip">Kasagarang sayop: <b>He said me …</b> ✗ → <b>He told me …</b> ✓ <b>He asked where did I live.</b> ✗ → <b>He asked where I lived.</b> ✓ Ug bantayi ang <i>siya</i>: kon babaye, <b>she</b>; kon lalaki, <b>he</b>.</div>`,
 check:[["She said she ___ tired. Unsay sakto sa blangko?",["is being","was","be","will"],1,"Ang gibalita iatras ngadto sa past."],["He ___ me he would come. Unsay sakto sa blangko?",["said","say","told","tell to"],2,"Kon naay tawo nga gisultihan (\"me\"), \"told\" ang gamiton."],["'Nangutana siya (lalaki) kon asa ko nagpuyo' sa Iningles?",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"Ang gibalita nga pangutana mosunod sa han-ay sa statement."]],
 practice:[
 ["mc","She said she ___ busy.","was","is being","be","were being","Ang gibalita iatras ngadto sa past."],
 ["mc","He ___ me he was late.","told","said","say","tells to","Kon naay tawo nga gisultihan, \"told\" ang gamiton."],
 ["mc","'Niingon siya (lalaki) nga moanhi siya' sa Iningles?","He said he would come.","He said he will came.","He told he would come.","He said me he would come.","Ang \"will\" mahimong \"would\"."],
-["mc","'Nangutana siya (babaye) kon okey ra ba ko' sa Iningles?","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","Ang pangutana nga oo / dili ang tubag ibalita gamit ang \"if\"."],
+["mc","'Nangutana siya (babaye) kon okay ra ba ko' sa Iningles?","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","Ang pangutana nga oo / dili ang tubag ibalita gamit ang \"if\"."],
 ["mc","'Nangutana siya (lalaki) kon asa ko nagpuyo' sa Iningles?","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","Ang gibalita nga pangutana mosunod sa han-ay sa statement."],
 ["or","Niingon siya (babaye) nga gikapoy siya","She said she was tired","told","Kon walay tawo nga gisultihan, \"said\" ang gamiton."],
 ["or","Niingon siya (lalaki) nga nipalit siya og usa ka awto","He said he bought a car","the cars","Usa ka awto nga karon pa nahisgotan, mao nga article \"a\"."],
 ["or","Niingon siya (babaye) nga ganahan siya sa maong libro","She said she liked the book","a books","Article \"the\" kay nahibaloan na kon unsang libro."],
 ["fi","She __ she was tired.","Niingon siya (babaye) nga gikapoy siya","said","told|asked|say","Kon walay tawo nga gisultihan, \"said\" ang gamiton."],
 ["fi","He told __ he was busy.","Giingnan ko niya (lalaki) nga puliki siya","me","I|my|to","Human sa \"told\", ang tawo nga gisultihan ang sunod."],
-["fi","She asked __ I was okay.","Nangutana siya (babaye) kon okey ra ba ko","if|whether","that|what|did","Ang pangutana nga oo / dili ang tubag ibalita gamit ang \"if\"."],
+["fi","She asked __ I was okay.","Nangutana siya (babaye) kon okay ra ba ko","if|whether","that|what|did","Ang pangutana nga oo / dili ang tubag ibalita gamit ang \"if\"."],
 ["ty","Niingon siya (lalaki) nga puliki siya","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","Ang gibalita iatras ngadto sa past."],
 ["ty","Niingon siya (babaye) nga naa siyay awto","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — kinahanglan ang article","the","Usa ka awto nga karon pa nahisgotan, mao nga article \"a\"."],
 ["ty","Niingon siya (lalaki) nga nakatan-aw siya sa maong salida","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — kinahanglan ang article","a","Article \"the\" kay nahibaloan na kon unsang salida."]]},

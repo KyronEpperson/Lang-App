@@ -23,7 +23,7 @@ Good night. | /ˈgʊd ˈnaɪt/ | Maayong gabii (kon manamilit o matulog na) | Ga
 "Pagpaila sa kaugalingon": `
 My name is Ana. | /maɪ ˈneɪm ɪz ˈɑːnə/ | Ang akong ngalan kay Ana | Sa adlaw-adlaw, mas mubo: "I'm Ana." Ang "is" litokon og /ɪz/, naay /z/ sa kataposan
 Please call me Jay. | /ˈpliːz ˈkɔːl mi ˈdʒeɪ/ | Tawga lang ko og Jay | Para kon naa kay angga o gusto nimong pamub-on ang imong ngalan
-What should I call you? | /ˈwʌt ʃəd aɪ ˈkɔːl ju/ | Unsay itawag nako nimo? | Mapuslanon kon lisod litokon ang ngalan sa imong kaistorya o gusto nimong mahibaw-an ang iyang angga
+What should I call you? | /ˈwʌt ʃəd aɪ ˈkɔːl ju/ | Unsay itawag nako nimo? | Mapuslanon kon lisod litokon ang ngalan sa imong kaistorya o gusto nimong mahibaloan ang iyang angga
 Where are you from? | /ˈwer ər ju frʌm/ | Taga-asa ka? | Usa sa unang pangutana nga imong madungog sa gawas sa nasod
 I'm from the Philippines. | /aɪm frəm ðə ˈfɪlɪpiːnz/ | Taga-Pilipinas ko | Kinahanglan ang "the": "the Philippines", ug /f/ ang sinugdanan, dili /p/. Idugang ang siyudad aron mopadayon ang istorya: "I'm from Cebu, in the Philippines."
 I live in Cebu. | /aɪ ˈlɪv ɪn seɪˈbuː/ | Nagpuyo ko sa Cebu | Mubo ang /ɪ/ sa "live" ug /v/ ang kataposan: ibutang ang ngipon sa taas sa ngabil sa ubos. Kon taas ang "i", mahimo kining "leave"
@@ -118,10 +118,10 @@ Can I get this to go? | /kən aɪ ˈget ˈðɪs tə ˈgoʊ/ | Puwede ni nako ipa
 Is the tip included? | /ɪz ðə ˈtɪp ɪnˈkluːdɪd/ | Apil na ba ang tip? | Sa mga restawran sa Amerika, gipaabot ang tip nga 15 hangtod 20 porsiyento. Dili kini apil sa presyo
 `,
 "Kapehan ug tindahan": `
-Can I get an iced Americano? | /kən aɪ ˈget ən ˈaɪst əˌmerɪˈkɑːnoʊ/ | Puwede mangayo og bugnaw nga Americano? | "an" kay vowel ang sinugdanan sa "iced". Ang -d sa "iced" litokon og /t/: /ˈaɪst/. Dili "ice Americano"
+Can I get an iced Americano? | /kən aɪ ˈget ən ˈaɪst əˌmerɪˈkɑːnoʊ/ | Puwede mangayo og bugnaw nga Americano? | "an" kay vowel ang sinugdanan sa "iced". Ang -d sa "iced" litokon og /t/: /ˈaɪst/. Mao sab ang "iced tea": dili "ice tea"
 What size would you like? | /ˈwʌt ˈsaɪz wəd ju ˈlaɪk/ | Unsa nga size ang imong gusto? | Pangutana sa staff. "would you like" = matinahoron nga "do you want"
 Small, please. | /ˈsmɔːl ˈpliːz/ | Ang gamay lang, palihug | Mga size: "small", "medium", "large". Sa Starbucks: "tall", "grande", "venti"
-For here or to go? | /fər ˈhɪr ər tə ˈgoʊ/ | Dinhi ra mokaon o ipaputos? | Iningles sa Pinas: "dine in or take out" sa atoa. Sa Amerika: "For here or to go?"
+For here or to go? | /fər ˈhɪr ər tə ˈgoʊ/ | Dinhi ra mokaon o ipaputos? | Sa atoa, "Dine in or take out?" ang kasagarang pangutana. Sa Amerika, "For here or to go?" ang imong madungog
 Can I get oat milk instead? | /kən aɪ ˈget ˈoʊt ˈmɪlk ɪnˈsted/ | Puwede oat milk na lang ang ibutang? | "instead" = puli. Usahay naay dugang bayad
 Less ice, please. | /ˈles ˈaɪs ˈpliːz/ | Diyotay ra nga yelo, palihug | Kon walay yelo: "No ice, please." Dili maihap ang "ice", mao nga "less"
 Decaf, please. | /ˈdiːkæf ˈpliːz/ | Kanang walay caffeine, palihug | Pinamubo sa "decaffeinated". Ang stress naa sa una: /ˈdiːkæf/
@@ -314,7 +314,7 @@ I have travel insurance. | /aɪ ˈhæv ˈtrævl ɪnˈʃʊrəns/ | Naa koy seguro
 pick up | /ˈpɪk ˈʌp/ | sundoon / puniton | "I'll pick you up at 7." Ang pronoun ("you", "it") ibutang sa tunga
 give up | /ˈgɪv ˈʌp/ | moundang / mosurender | "Don't give up!" Kon unsa ang undangan, -ing form: "give up smoking"
 figure out | /ˈfɪgjər ˈaʊt/ | masabtan / masulbad | "I can't figure out this app." (Dili nako masabtan kon unsaon paggamit niining app)
-find out | /ˈfaɪnd ˈaʊt/ | mahibaw-an | Para sa impormasyon nga imong nasayran. Ang "figure out" para sa butang nga gihunahuna og maayo
+find out | /ˈfaɪnd ˈaʊt/ | mahibaloan | Para sa impormasyon nga imong nasayran. Ang "figure out" para sa butang nga gihunahuna og maayo
 look for | /ˈlʊk fɔːr/ | mangita | "I'm looking for my keys." Kon nakit-an na: "find"
 look after | /ˈlʊk ˈæftər/ | mag-atiman | "Can you look after my cat?" Sa Amerika, kasagaran sab ang "take care of"
 look forward to | /ˈlʊk ˈfɔːrwərd tuː/ | maghinam-hinam sa | Human sa "to", noun o -ing form: "I'm looking forward to seeing you."
@@ -324,7 +324,7 @@ turn off | /ˈtɜːrn ˈɔːf/ | palungon | Direktang hubad: dili "close the lig
 turn down | /ˈtɜːrn ˈdaʊn/ | balibaran / hinayan ang tingog | Duha ka kahulogan: "She turned down the offer." / "Turn it down!"
 put off | /ˈpʊt ˈɔːf/ | ilangan / isibog sa laing adlaw | Sa adlaw-adlaw nga sinultihan, mas kasagaran kaysa "postpone": "Stop putting it off!"
 show up | /ˈʃoʊ ˈʌp/ | motunga / moabot | Kon moabot sa gikasabotang lugar: "He didn't show up to the party." (Wala siya motunga sa party)
-hang out | /ˈhæŋ ˈaʊt/ | magtambay uban sa mga higala | Sa mga hamtong, "hang out" ang gamiton, dili "play". Ang "play" para sa mga bata, dula ug sports
+hang out | /ˈhæŋ ˈaʊt/ | magtambay uban sa mga higala | Sama sa atong "tambay" uban sa mga higala: "Let's hang out this weekend." Ang "play" para sa dula ug sports
 check out | /ˈtʃek ˈaʊt/ | tan-awon / susihon | "Check out this video!" Lain nga kahulogan: mogawas sa hotel
 work out | /ˈwɜːrk ˈaʊt/ | mag-ehersisyo / maayo ra ang sangpotan | "I work out every day." / "It'll work out." (Maayo ra na unya)
 come up with | /ˈkʌm ˈʌp wɪð/ | makahunahuna og ideya | Para sa ideya, rason o solusyon: "She came up with a great idea."
@@ -385,7 +385,7 @@ I'm on cloud nine. | /aɪm ɑːn ˈklaʊd ˈnaɪn/ | Lipay kaayo ko, morag naa s
 It costs an arm and a leg. | /ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/ | Mahal kaayo | Sa pulong-pulong: bukton ug tiil ang bayad. "an arm" kay vowel ang sinugdanan
 Let's call it a day. | /ˈlets ˈkɔːl ɪt ə ˈdeɪ/ | Taman ra ta dinhi karong adlawa | Para sa pagtapos sa trabaho o pagtuon. Natural sab sa miting
 I'm feeling under the weather. | /aɪm ˈfiːlɪŋ ʌndər ðə ˈweðər/ | Medyo dili maayo ang akong lawas | Para sa gaan nga sakit sama sa sip-on. Walay kalabotan sa panahon
-I need to hit the books. | /aɪ ˈniːd tə ˈhɪt ðə ˈbʊks/ | Kinahanglan ko magtuon og maayo | Sa dili pa ang exam. Dili tinuod nga sumbagon ang libro
+I need to hit the books. | /aɪ ˈniːd tə ˈhɪt ðə ˈbʊks/ | Kinahanglan ko magtuon og maayo | Sa dili pa ang eksamin. Dili tinuod nga sumbagon ang libro
 Once in a blue moon | /ˈwʌns ɪn ə ˈbluː ˈmuːn/ | Talagsa ra kaayo | "I only eat fast food once in a blue moon."
 Better late than never. | /ˈbetər ˈleɪt ðən ˈnevər/ | Maayo na lang ang ulahi kaysa wala gyud | Pagdasig sa tawo nga ulahi nga nagsugod
 Don't beat around the bush. | /ˈdoʊnt ˈbiːt əraʊnd ðə ˈbʊʃ/ | Ayaw na paliko-liko, diretsoha | Hangyo nga isulti dayon ang punto

@@ -5,7 +5,7 @@ exports.LESSONS = [
 <p>Ang lima ka letra nga baga ang pagkasulat, <b>A E I O U</b>, mao ang mga vowel. Ang uban consonant. Ang IPA (ang paglitok sulod sa / /) nagpakita sa <b>ngalan</b> sa letra: mao kini ang imong isulti kon mohatag ka og ispeling.</p>
 <div class="tbl"><table><tr><td class="k"><b>A</b> /ˈeɪ/</td><td class="k">B /ˈbiː/</td><td class="k">C /ˈsiː/</td><td class="k">D /ˈdiː/</td><td class="k"><b>E</b> /ˈiː/</td></tr><tr><td class="k">F /ˈef/</td><td class="k">G /ˈdʒiː/</td><td class="k">H /ˈeɪtʃ/</td><td class="k"><b>I</b> /ˈaɪ/</td><td class="k">J /ˈdʒeɪ/</td></tr><tr><td class="k">K /ˈkeɪ/</td><td class="k">L /ˈel/</td><td class="k">M /ˈem/</td><td class="k">N /ˈen/</td><td class="k"><b>O</b> /ˈoʊ/</td></tr><tr><td class="k">P /ˈpiː/</td><td class="k">Q /ˈkjuː/</td><td class="k">R /ˈɑːr/</td><td class="k">S /ˈes/</td><td class="k">T /ˈtiː/</td></tr><tr><td class="k"><b>U</b> /ˈjuː/</td><td class="k">V /ˈviː/</td><td class="k">W /ˈdʌbəljuː/</td><td class="k">X /ˈeks/</td><td class="k">Y /ˈwaɪ/</td></tr><tr><td class="k">Z /ˈziː/</td><td></td><td></td><td></td><td></td></tr></table></div>
 <h3>Mga ngalan nga kasagarang masayop</h3>
-<div class="tbl"><table><tr><th>Letra</th><th>Ngalan sa Iningles</th><th>Bantayi</th></tr><tr><td class="k">A · E · I</td><td>/ˈeɪ/ · /ˈiː/ · /ˈaɪ/</td><td>Sa Bisaya, "a", "e" ug "i" ang atong basa niini. Sa Iningles, ang ngalan sa E mao ang taas nga /iː/, ug ang I pareho sa pulong nga <b>I</b> (ako). Sa email address kini kasagarang magkabaylo</td></tr><tr><td class="k">G · J</td><td>/ˈdʒiː/ · /ˈdʒeɪ/</td><td>Ang G mahuman sa /iː/, ang J sa /eɪ/</td></tr><tr><td class="k">C · Z</td><td>/ˈsiː/ · /ˈziː/</td><td>Ang kalainan naa ra sa /s/ ug /z/: sa Z, mokurog ang tutunlan. Sa America, "zee" ang Z, dili "zed"</td></tr><tr><td class="k">F · P</td><td>/ˈef/ · /ˈpiː/</td><td>Sa F, ang ngipon sa ibabaw modapat sa ngabil sa ubos. Sa P, magtapot ang duha ka ngabil</td></tr><tr><td class="k">V · B</td><td>/ˈviː/ · /ˈbiː/</td><td>Ang V sama sa F ang baba, pero naay tingog. Sa B, magtapot ang duha ka ngabil</td></tr><tr><td class="k">H</td><td>/ˈeɪtʃ/</td><td>Walay /h/ sa sinugdanan sa ngalan niini</td></tr><tr><td class="k">W</td><td>/ˈdʌbəljuː/</td><td><b>double u</b>, buot ipasabot duha ka U. Litoka ang tanang syllable</td></tr></table></div>
+<div class="tbl"><table><tr><th>Letra</th><th>Ngalan sa Iningles</th><th>Bantayi</th></tr><tr><td class="k">A · E · I</td><td>/ˈeɪ/ · /ˈiː/ · /ˈaɪ/</td><td>Sa Bisaya, "a", "e" ug "i" ang atong basa niini. Sa Iningles, ang ngalan sa E mao ang taas nga /iː/, ug ang I pareho sa pulong nga <b>I</b> (ako). Sa email address kini kasagarang magkabaylo</td></tr><tr><td class="k">G · J</td><td>/ˈdʒiː/ · /ˈdʒeɪ/</td><td>Ang G mahuman sa /iː/, ang J sa /eɪ/</td></tr><tr><td class="k">C · Z</td><td>/ˈsiː/ · /ˈziː/</td><td>Ang kalainan naa ra sa /s/ ug /z/: sa Z, mokurog ang tutunlan. Sa Amerika, "zee" ang Z, dili "zed"</td></tr><tr><td class="k">F · P</td><td>/ˈef/ · /ˈpiː/</td><td>Sa F, ang ngipon sa ibabaw modapat sa ngabil sa ubos. Sa P, magtapot ang duha ka ngabil</td></tr><tr><td class="k">V · B</td><td>/ˈviː/ · /ˈbiː/</td><td>Ang V sama sa F ang baba, pero naay tingog. Sa B, magtapot ang duha ka ngabil</td></tr><tr><td class="k">H</td><td>/ˈeɪtʃ/</td><td>Walay /h/ sa sinugdanan sa ngalan niini</td></tr><tr><td class="k">W</td><td>/ˈdʌbəljuː/</td><td><b>double u</b>, buot ipasabot duha ka U. Litoka ang tanang syllable</td></tr></table></div>
 <h3>Pagpangutana ug paghatag og ispeling</h3>
 <p>Kon dili klaro ang usa ka letra, dugangi og sayon nga pulong nga nagsugod niana nga letra: <b>B as in boy</b>. Ang <b>last name</b> mao ang apelyido: kon Ana Reyes ang imong ngalan, <b>Reyes</b> ang imong last name.</p>
 {{ex:How do you spell that?|/ˈhaʊ də ju ˈspel ˈðæt/|Unsay ispeling ana?}}{{ex:How do you spell your last name?|/ˈhaʊ də ju ˈspel jʊr ˈlæst ˈneɪm/|Unsay ispeling sa imong apelyido?}}{{ex:Can you spell that, please?|/kən ju ˈspel ˈðæt ˈpliːz/|Palihug, puwede nimong isulti ang ispeling ana?}}{{ex:It starts with a capital T.|/ɪt ˈstɑːrts wɪð ə ˈkæpɪtl ˈtiː/|Nagsugod kini sa dakong letra nga T}}{{ex:B as in boy.|/ˈbiː əz ɪn ˈbɔɪ/|B, sama sa "boy"}}{{ex:Is that M as in Mary?|/ɪz ˈðæt ˈem əz ɪn ˈmeri/|M ba kana, sama sa "Mary"?}}{{ex:There are two Ls in hello.|/ðer ər ˈtuː ˈelz ɪn həˈloʊ/|Naay duha ka L sa "hello"}}
@@ -37,7 +37,7 @@ exports.LESSONS = [
 <p>Sa Iningles, ang syllable nga walay stress kasagaran mahimong /ə/, bisan unsa pay letra sa sulat: <b>about</b> /əˈbaʊt/, <b>banana</b> /bəˈnænə/, <b>today</b> /təˈdeɪ/. Litoka sab ang tanang consonant sa kataposan sa pulong: <b>attract</b> /əˈtrækt/ (naay /t/ human sa /k/), <b>gift</b> /ˈgɪft/, <b>asked</b> /ˈæskt/. Ang -s ug -ed naa sa kataposan; kon mawala sila, mawala sab ang plural ug ang past form. Ang kataposang tingog makausab sab sa kahulogan:</p>
 {{ex:bag|/ˈbæg/|bag nga sudlanan}}{{ex:back|/ˈbæk/|likod}}
 <h3>R ug L</h3>
-<p>Naa nay R ug L ang Bisaya, mao nga sayon ra nimo kining duha. Usa ra ang kalainan: sa American nga <b>R</b>, ang tumoy sa dila <b>dili modapat bisan asa</b> ug dili mokurog sama sa atong "r".</p>
+<p>Naa nay R ug L ang Bisaya, mao nga sayon ra nimo kining duha. Usa ra ang kalainan: sa Amerikanong <b>R</b>, ang tumoy sa dila <b>dili modapat bisan asa</b> ug dili mokurog sama sa atong "r".</p>
 {{ex:rice|/ˈraɪs/|bugas / kan-on}}{{ex:lice|/ˈlaɪs/|kuto}}{{ex:right|/ˈraɪt/|tuo / sakto}}{{ex:light|/ˈlaɪt/|suga / gaan}}
 <h3>Stress</h3>
 <p>Sa matag pulong sa Iningles, naay usa ka syllable nga <b>mas kusog ug mas dugay</b>. Kon sayop ang stress, lisod kang masabtan bisan sakto ang mga tingog. Bantayi kining mga pulong nga kasagaran natong ibalhin ang stress:</p>
@@ -53,7 +53,7 @@ exports.LESSONS = [
 <div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university (/j/ ang sinugdanan)</td><td class="k">an hour (walay tingog ang h)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket (/w/ ang sinugdanan)</td><td class="k">an LGU (/e/ ang sinugdanan sa ngalan sa L)</td></tr></table></div>
 <h3>the: ang butang nga pareho ninyong nahibaloan</h3>
 <p>Gamita ang <b>the</b> kon nahisgotan na ang butang, o kon klaro sa sitwasyon kon hain ang gipasabot. Gamiton sab kini sa butang nga usa ra: <b>the sun</b>, <b>the internet</b>.</p>
-{{ex:I have a dog. The dog is so cute.|/aɪ ˈhæv ə ˈdɔːg ‖ ðə ˈdɔːg ɪz ˈsoʊ ˈkjuːt/|Naa koy iro. Cute kaayo ang maong iro}}{{ex:Can you close the door?|/kən ju ˈkloʊz ðə ˈdɔːr/|Puwede nimong sirad-an ang pultahan? (ang pultahan niining kwarto)}}
+{{ex:I have a dog. The dog is so cute.|/aɪ ˈhæv ə ˈdɔːg ‖ ðə ˈdɔːg ɪz ˈsoʊ ˈkjuːt/|Naa koy iro. Cute kaayo ang maong iro}}{{ex:Can you close the door?|/kən ju ˈkloʊz ðə ˈdɔːr/|Puwede nimong sirad-an ang pultahan? (ang pultahan niining kuwartoha)}}
 <h3>Ang "ang" dili "the"</h3>
 <p>Sa Bisaya, hapit tanang noun puwede nga naay <i>ang</i>: ngalan sa eskuwelahan, kompanya, ug mga butang sa kinatibuk-an. Sa Iningles, walay <b>the</b> niini: <b>The technology is a great help.</b> ✗ → <b>Technology is a great help.</b> ✓ / <b>I'm going to the Jollibee.</b> ✗ → <b>I'm going to Jollibee.</b> ✓</p>
 <h3>Walay article: mga butang sa kinatibuk-an</h3>
@@ -66,7 +66,7 @@ exports.LESSONS = [
 <h3>Duha ka klase sa verb</h3>
 <div class="tbl"><table><tr><th></th><th>be verb</th><th>ubang verb</th></tr><tr><td>Kahulogan</td><td>kinsa o unsa ka, asa ka, unsay imong kahimtang</td><td>lihok, batasan, gusto (mokaon, mopuyo, ganahan)</td></tr><tr><td>Pananglitan</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>Negative</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>Question</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
 <p>Ang be verb mausab sumala sa subject: <b>I am</b> / <b>you, we, they are</b> / <b>he, she, it is</b>. Sa pagsulti, kasagaran contraction (pinamubo) ang gamiton: <b>I'm</b>, <b>you're</b>, <b>she's</b>.</p>
-{{ex:I'm hungry.|/aɪm ˈhʌŋgri/|Gigutom ko}}{{ex:She's at work.|/ʃiz ət ˈwɜːrk/|Naa siya (babaye) sa trabaho}}{{ex:Are you okay?|/ər ju oʊˈkeɪ/|Okey ra ka?}}
+{{ex:I'm hungry.|/aɪm ˈhʌŋgri/|Gigutom ko}}{{ex:She's at work.|/ʃiz ət ˈwɜːrk/|Naa siya (babaye) sa trabaho}}{{ex:Are you okay?|/ər ju oʊˈkeɪ/|Okay ra ka?}}
 <h3>Ang "siya": he o she?</h3>
 <p>Usa ra ang <i>siya</i> sa Bisaya. Sa Iningles, kinahanglan kang mopili: <b>he</b> kon lalaki, <b>she</b> kon babaye, <b>it</b> kon butang o hayop. Hunahunaa una kon kinsa ang imong gihisgotan sa dili ka pa mosulti. Ug ayaw kalimti ang be verb sa atubangan sa adjective:</p>
 {{ex:She's very beautiful.|/ʃiz ˈveri ˈbjuːtɪfl/|Gwapa kaayo siya (She very beautiful ✗)}}
@@ -80,17 +80,17 @@ exports.LESSONS = [
 {{ex:My brother works in Cebu.|/maɪ ˈbrʌðər ˈwɜːrks ɪn seɪˈbuː/|Nagtrabaho sa Cebu ang akong igsoong lalaki}}{{ex:Does he speak English?|/dəz hi ˈspiːk ˈɪŋglɪʃ/|Makasulti ba siya (lalaki) og Iningles?}}{{ex:She doesn't eat meat.|/ʃi ˈdʌznt ˈiːt ˈmiːt/|Dili siya (babaye) mokaon og karne}}
 <div class="tip">Kon maglibog ka, pangutan-a ang imong kaugalingon: gawas sa be verb, naa bay <b>laing verb</b> niining sentence (like, live, want, go…)? Kon naa, <b>do / does</b> ang gamiton sa negative ug question. Kon wala (adjective, noun o lugar ra ang sunod), be verb.</div>`},
 
-{ id:"polite", title:"4 · Matinahurong paghangyo", blurb:"\"Can you\" → \"Could you\" → \"Would you mind\". Dili igo ang \"please\" + mando.", deck:"Importanteng phrase 1", body:`
-<p>Sa Bisaya, igo na ang <i>palihug</i> ug ang mando aron matinahuron ka: <i>Palihug ko og tubig</i>. Sa Iningles, ang <b>Please give me water</b> mando gihapon paminawon. Ang pagkamatinahuron naa sa <b>porma sa pangutana</b>: <b>Could you…?</b>, <b>Could I have…?</b></p>
-<h3>Ang hagdanan sa pagkamatinahuron</h3>
-<div class="tbl"><table><tr><th>Phrase</th><th>Paminawon</th><th>Asa gamiton</th></tr><tr><td class="k">Give me…</td><td>Mando. Bastos paminawon</td><td>Ayaw gamita</td></tr><tr><td class="k">Can you…?</td><td>Kaswal nga hangyo</td><td>Higala, tindahan</td></tr><tr><td class="k">Could you…?</td><td>Matinahurong hangyo</td><td>Dili kaila, trabaho</td></tr><tr><td class="k">Would you mind …ing?</td><td>Matinahuron kaayo</td><td>Dakong hangyo, sa imong boss</td></tr></table></div>
-{{ex:Could you help me?|/kəd ju ˈhelp mi/|Puwede ko nimo tabangan?}}{{ex:Could you say that again?|/kəd ju ˈseɪ ˈðæt əˈgen/|Puwede nimong balikon ang imong giingon?}}{{ex:Would you mind taking a picture of us?|/wəd ju ˈmaɪnd ˈteɪkɪŋ ə ˈpɪktʃər əv əs/|Puwede mi nimo kuhaan og litrato, kon okey ra nimo?}}
+{ id:"polite", title:"4 · Matinahorong paghangyo", blurb:"\"Can you\" → \"Could you\" → \"Would you mind\". Dili igo ang \"please\" + mando.", deck:"Importanteng phrase 1", body:`
+<p>Sa Bisaya, igo na ang <i>palihug</i> ug ang mando aron matinahoron ka: <i>Palihug ko og tubig</i>. Sa Iningles, ang <b>Please give me water</b> mando gihapon paminawon. Ang pagkamatinahoron naa sa <b>porma sa pangutana</b>: <b>Could you…?</b>, <b>Could I have…?</b></p>
+<h3>Ang hagdanan sa pagkamatinahoron</h3>
+<div class="tbl"><table><tr><th>Phrase</th><th>Paminawon</th><th>Asa gamiton</th></tr><tr><td class="k">Give me…</td><td>Mando. Bastos paminawon</td><td>Ayaw gamita</td></tr><tr><td class="k">Can you…?</td><td>Kaswal nga hangyo</td><td>Higala, tindahan</td></tr><tr><td class="k">Could you…?</td><td>Matinahorong hangyo</td><td>Dili kaila, trabaho</td></tr><tr><td class="k">Would you mind …ing?</td><td>Matinahuron kaayo</td><td>Dakong hangyo, sa imong boss</td></tr></table></div>
+{{ex:Could you help me?|/kəd ju ˈhelp mi/|Puwede ko nimo tabangan?}}{{ex:Could you say that again?|/kəd ju ˈseɪ ˈðæt əˈgen/|Puwede nimong balikon ang imong giingon?}}{{ex:Would you mind taking a picture of us?|/wəd ju ˈmaɪnd ˈteɪkɪŋ ə ˈpɪktʃər əv əs/|Puwede mi nimo kuhaan og litrato, kon okay ra nimo?}}
 <h3>Sa pag-order: Can I get…? / I'd like…</h3>
 <p>Ang <b>I want…</b> morag bata nga nagpangayo. Sa tindahan ug restawran, kini ang isulti:</p>
 {{ex:Can I get a latte, please?|/kən aɪ ˈget ə ˈlɑːteɪ ˈpliːz/|Usa ka latte, palihug}}{{ex:I'd like a window seat.|/aɪd ˈlaɪk ə ˈwɪndoʊ ˈsiːt/|Gusto unta ko og lingkoranan sa daplin sa bintana}}
 <h3>Ang lit-ag sa Would you mind…?</h3>
-<p>Ang <b>mind</b> nagpasabot og "dili gusto" o "maglisod". Mao nga ang <b>No</b> mao ang "sige, okey ra".</p>
-{{ex:Would you mind opening the window?|/wəd ju ˈmaɪnd ˈoʊpənɪŋ ðə ˈwɪndoʊ/|Puwede nimong ablihan ang bintana, kon okey ra nimo?}}{{ex:No, not at all.|/ˈnoʊ ˈnɑːt ət ˈɔːl/|Sige, walay problema (dili gyud ko maglisod)}}
+<p>Ang <b>mind</b> nagpasabot og "dili gusto" o "maglisod". Mao nga ang <b>No</b> mao ang "sige, okay ra".</p>
+{{ex:Would you mind opening the window?|/wəd ju ˈmaɪnd ˈoʊpənɪŋ ðə ˈwɪndoʊ/|Puwede nimong ablihan ang bintana, kon okay ra nimo?}}{{ex:No, not at all.|/ˈnoʊ ˈnɑːt ət ˈɔːl/|Sige, walay problema (dili gyud ko maglisod)}}
 <h3>Sir, Ma'am ug For a while</h3>
 <p>Sa Pilipinas, normal ang <b>Sir</b> ug <b>Ma'am</b>, apil ang <b>Ma'am Ana</b>. Sa gawas sa nasod, sa serbisyo ra kini madungog (waiter, hotel). Sa trabaho, gamita ang first name, o <b>Mr. / Ms.</b> + apelyido: <b>Ms. Reyes</b>. Sa telepono, sakto sa Pilipinas ang <b>For a while</b>, pero sa gawas lahi ang gigamit: <b>One moment, please.</b></p>
 <div class="tip">Ang <b>please</b> ug <b>thank you</b> dili gyud masobra. Dugangi lang og please sa kataposan ug mas humok na ang sentence. Importante sab ang tono: kon mosaka gamay sa kataposan, hangyo; kon monaog, morag mando.</div>`},
@@ -124,7 +124,7 @@ exports.LESSONS = [
 <h3>Kon walay preposition</h3>
 <p>Walay preposition sa atubangan sa <b>next, last, this, every, tomorrow, yesterday</b>, bisan naay <i>sa</i> sa Bisaya.</p>
 {{ex:See you next week.|/ˈsiː ju ˈnekst ˈwiːk/|Magkita ta sa sunod semana (on next week ✗)}}
-<div class="tip">Sag-uloha kining mga eksepsyon: <b>at night</b> (sa gabii), <b>in the morning / afternoon / evening</b>. Sa America, <b>on the weekend</b>; sa Britain, <b>at the weekend</b>.</div>`},
+<div class="tip">Sag-uloha kining mga eksepsyon: <b>at night</b> (sa gabii), <b>in the morning / afternoon / evening</b>. Sa Amerika, <b>on the weekend</b>; sa UK, <b>at the weekend</b>.</div>`},
 
 { id:"smalltalk", title:"7 · Ang kultura sa small talk", blurb:"Ang \"How are you?\" pangumusta, dili tinuod nga pangutana. Unsay maayong hisgotan ug unsay likayan.", deck:"Istorya-istorya", body:`
 <p>Sa mga nasod nga Iningles ang sinultihan, mag-istoryahanay og mubo ang mga tawo bisan dili magkaila: sa elevator, sa kahera, sa dili pa magsugod ang miting. Dili kini lawom nga panag-istorya. <b>Mubo lang kini nga istorya aron mogaan ang palibot.</b></p>
@@ -132,7 +132,7 @@ exports.LESSONS = [
 <p>Sama kini sa atong <i>Nakakaon na ka?</i> o <i>Asa ka padulong?</i>: pangumusta ra, dili tinuod nga pangutana. Tubaga og mubo ug <b>ibalik ang pangutana</b>. Pero ayaw hubara ang atoa ngadto sa Iningles: sa <b>Have you eaten?</b> o <b>Where are you going?</b>, maghunahuna ang langyaw nga tinuod kang nangutana.</p>
 {{ex:Hey, how's it going?|/ˈheɪ ˈhaʊz ɪt ˈgoʊɪŋ/|Uy, kumusta man?}}{{ex:Pretty good! How about you?|/ˈprɪti ˈgʊd ‖ ˈhaʊ əbaʊt ˈjuː/|Maayo man! Ikaw, kumusta?}}
 <h3>Maayong hisgotan ug likayan</h3>
-<div class="tbl"><table><tr><th>Maayong hisgotan</th><th>Likayi sa unang pagkita</th></tr><tr><td>panahon, plano sa weekend ug bakasyon</td><td>edad, kon minyo na ba o naay uyab</td></tr><tr><td>pagkaon, kan-anan, biyahe</td><td>timbang ug hitsura ("Nanambok ka?")</td></tr><tr><td>salida, serye, sport</td><td>sweldo, presyo sa balay</td></tr><tr><td>trabaho (gaan lang), ang inyong lugar</td><td>politika, relihiyon</td></tr></table></div>
+<div class="tbl"><table><tr><th>Maayong hisgotan</th><th>Likayi sa unang pagkita</th></tr><tr><td>panahon, plano sa weekend ug bakasyon</td><td>edad, kon minyo na ba o naay uyab</td></tr><tr><td>pagkaon, kan-anan, biyahe</td><td>timbang ug hitsura ("Nanambok ka?")</td></tr><tr><td>salida, serye, sport</td><td>suweldo, presyo sa balay</td></tr><tr><td>trabaho (gaan lang), ang inyong lugar</td><td>politika, relihiyon</td></tr></table></div>
 <p>Sa atoa, ang <i>Pila na imong edad?</i>, <i>Minyo na ka?</i> ug <i>Nanambok man ka!</i> timailhan sa pagkasuod. Sa langyaw nga bag-o pa nimong nailhan, bastos kini paminawon.</p>
 <h3>Unsaon pagpadayon sa istorya</h3>
 <p>Tubag + <b>usa pa ka detalye</b> + <b>balik nga pangutana</b>. Niining tulo ka lakang, dili maputol ang istorya.</p>
@@ -140,21 +140,21 @@ exports.LESSONS = [
 <p>Importante sab ang reaksyon: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
 <h3>Unsaon pagtapos nga hapsay</h3>
 {{ex:Well, I should get going.|/ˈwel aɪ ʃəd ˈget ˈgoʊɪŋ/|Sige, molakaw na ko}}{{ex:It was nice talking to you.|/ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/|Nalipay ko nga nakaistorya tika}}
-<div class="tip">Kon mouyon ka sa negative nga sentence, <b>Me neither</b> ang isulti: I don't like horror movies. → Me neither. Dili Me too. Sa kaswal nga American, madungog sab ang Me either, pero Me neither ang standard.</div>`},
+<div class="tip">Kon mouyon ka sa negative nga sentence, <b>Me neither</b> ang isulti: I don't like horror movies. → Me neither. Dili Me too. Sa kaswal nga Iningles sa Amerika, madungog sab ang Me either, pero Me neither ang standard.</div>`},
 
 { id:"phrasal", title:"8 · Pasiuna sa phrasal verb", blurb:"Verb + gamay nga pulong = bag-ong kahulogan. Ug ang gamay nga pulong dili puwedeng ilisan.", deck:"Mga phrasal verb", body:`
 <p>Ang phrasal verb mao ang <b>verb + gamay nga pulong sama sa up, out, off, on</b> (ang particle) nga naghimo og bag-ong kahulogan. Sa inadlaw-adlaw nga istorya, mas kanunay kining madungog kaysa mga pulong sa libro (postpone, discover).</p>
 <div class="tbl"><table><tr><th>Pormal nga pulong</th><th>Phrasal verb (inadlaw-adlaw)</th><th>Kahulogan</th></tr><tr><td>postpone</td><td class="k">put off</td><td>ibalhin sa ulahi</td></tr><tr><td>discover</td><td class="k">find out</td><td>mahibaloan</td></tr><tr><td>exercise</td><td class="k">work out</td><td>mag-ehersisyo</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>antoson</td></tr></table></div>
 <h3>Naay timailhan sa gamay nga pulong</h3>
 <p>Ang <b>up</b> naay sabot nga "pataas, hingpit", ang <b>out</b> "pagawas, hangtod mahurot", ang <b>off</b> "bulag, hunong", ug ang <b>on</b> "tapot, padayon".</p>
-{{ex:I grew up in Davao.|/aɪ ˈgruː ˈʌp ɪn ˈdɑːvaʊ/|Nagdako ko sa Davao}}{{ex:We ran out of milk.|/wi ˈræn ˈaʊt əv ˈmɪlk/|Nahutdan mi og gatas}}{{ex:Turn off your phone, please.|/ˈtɜːrn ˈɔːf jʊr ˈfoʊn ˈpliːz/|Palihug patya ang imong cellphone}}
+{{ex:I grew up in Davao.|/aɪ ˈgruː ˈʌp ɪn ˈdɑːvaʊ/|Nagdako ko sa Davao}}{{ex:We ran out of milk.|/wi ˈræn ˈaʊt əv ˈmɪlk/|Nahutdan mi og gatas}}{{ex:Turn off your phone, please.|/ˈtɜːrn ˈɔːf jʊr ˈfoʊn ˈpliːz/|Palihug patya ang imong telepono}}
 <h3>Ang particle dili puwedeng ilisan</h3>
 <p>Ang particle ang nagdala sa kahulogan, mao nga dili ka makapili og lain. Kini ang kasagarang masayop: <b>fill up the form</b> ✗ → <b>fill out the form</b> ✓ / <b>based from</b> ✗ → <b>based on</b> ✓ / <b>result to</b> ✗ → <b>result in</b> ✓ / <b>cope up with</b> ✗ → <b>cope with</b> ✓. Sa suga, sakto sa Pilipinas ang open ug close, pero sa gawas lahi ang gigamit: <b>turn on / turn off the light</b>.</p>
 <h3>Ang pronoun ibutang sa tunga</h3>
 <p>Daghang phrasal verb nga naay object ang puwedeng bulagon. Ang noun puwede sa tunga o sa luyo, pero <b>ang pronoun sama sa it, them, me kinahanglan sa tunga</b>.</p>
 {{ex:Turn on the light. / Turn the light on.|/ˈtɜːrn ˈɑːn ðə ˈlaɪt/ /ˈtɜːrn ðə ˈlaɪt ˈɑːn/|Pasigaa ang suga (sakto ang duha)}}{{ex:Turn it on.|/ˈtɜːrn ɪt ˈɑːn/|Pasigaa kana (turn on it ✗)}}{{ex:I'll pick you up at seven.|/aɪl ˈpɪk ju ˈʌp ət ˈsevn/|Sundoon tika sa alas siyete}}
 <h3>Mga phrasal verb nga dili mabulag</h3>
-<p>Ang look after, look for ug get along with dili bulagon: <i>look after my cat</i>, <i>look after her</i>.</p>
+<p>Ang look after, look for ug get along with dili bulagon: <b>look after my cat</b>, <b>look after her</b>.</p>
 <div class="tip">Sag-uloha ang phrasal verb nga <b>tibuok</b>, sama sa usa ka pulong, uban sa pananglitan. Niana, masag-ulo sab nimo ang particle ug ang lugar sa pronoun. Sulayi og gamit ang tulo kada adlaw.</div>`},
 
 { id:"numbers", title:"9 · Numero, oras ug presyo", blurb:"Gikan sa \"singkuwenta\" ug \"alas tres\" ngadto sa numero sa Iningles: 13 ug 30, oras ug presyo.", deck:"Numero, oras ug petsa", body:`
@@ -162,7 +162,7 @@ exports.LESSONS = [
 <h3>Tulo ka digit matag grupo</h3>
 <p>Ang comma mao ang timailhan: <b>thousand</b>, <b>million</b>, <b>billion</b>. Human sa numero, walay plural -s ang thousand ug million: <b>fifty thousand</b>, dili "fifty thousands".</p>
 <div class="tbl"><table><tr><th>Numero</th><th>Sa Bisaya</th><th>Sa Iningles</th></tr><tr><td class="k">250</td><td>dos siyentos singkuwenta</td><td>two hundred fifty</td></tr><tr><td class="k">1,500</td><td>mil kinyentos</td><td>one thousand five hundred</td></tr><tr><td class="k">10,000</td><td>diyes mil</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>singkuwenta mil</td><td>fifty thousand</td></tr><tr><td class="k">1,000,000</td><td>usa ka milyon</td><td>one million</td></tr></table></div>
-<p>Sa presyo: ₱250 = <b>two hundred fifty pesos</b>. Sa Pilipinas ug sa America, walay "and" sa tunga. Ang ₱399 kasagaran natong basahon nga "three nine nine"; sa gawas, <b>three ninety-nine</b> o <b>three hundred ninety-nine</b>.</p>
+<p>Sa presyo: ₱250 = <b>two hundred fifty pesos</b>. Sa Pilipinas ug sa Amerika, walay "and" sa tunga. Ang ₱399 kasagaran natong basahon nga "three nine nine"; sa gawas, <b>three ninety-nine</b> o <b>three hundred ninety-nine</b>.</p>
 <h3>-teen ug -ty</h3>
 <p>Sa 13 hangtod 19, ang stress naa sa <b>kataposan</b>. Sa 30, 40, 50…, naa sa <b>sinugdanan</b>. Tan-awa kon asa ang ˈ sa IPA.</p>
 {{ex:thirteen|/ˌθɜːrˈtiːn/|trese (13)}}{{ex:thirty|/ˈθɜːrti/|traynta (30)}}{{ex:fifteen / fifty|/ˌfɪfˈtiːn/ /ˈfɪfti/|kinse (15) / singkuwenta (50)}}
@@ -172,7 +172,7 @@ exports.LESSONS = [
 <h3>Presyo ug tuig</h3>
 <p>Sa dolyar, basaha nga bulag ang dolyar ug ang sentimos, o duha lang ka numero. Ang tuig basahon nga tinagduha ka digit.</p>
 {{ex:It's four ninety-nine.|/ɪts ˈfɔːr ˌnaɪnti ˈnaɪn/|4 dolyar ug 99 sentimos kini}}{{ex:That's twelve fifty.|/ˈðæts ˈtwelv ˈfɪfti/|12 dolyar ug 50 sentimos kana}}{{ex:twenty twenty-six|/ˈtwenti ˌtwenti ˈsɪks/|tuig 2026}}
-<div class="tip">Sa petsa: sa America ug sa Pilipinas, <b>bulan / adlaw</b> (5/3 = Mayo 3); sa Britain, <b>adlaw / bulan</b> (5/3 = Marso 5). Aron luwas, isulat ang bulan sa pulong: <b>May 3rd</b>. Basahon kini nga <b>May third</b>.</div>`},
+<div class="tip">Sa petsa: sa Amerika ug sa Pilipinas, <b>bulan / adlaw</b> (5/3 = Mayo 3); sa UK, <b>adlaw / bulan</b> (5/3 = Marso 5). Aron luwas, isulat ang bulan sa pulong: <b>May 3rd</b>. Basahon kini nga <b>May third</b>.</div>`},
 
 { id:"email", title:"10 · Email sa trabaho", blurb:"Pangumusta → tuyo → hangyo → panapos. Mubo ug klaro.", deck:"Trabaho ug email", body:`
 <p>Ang email sa trabaho sa Iningles <b>mubo, klaro ang tuyo, ug mahigalaon</b>. Daghan sa naandan natong pormula sa opisina sa Pilipinas ang karaan na o lahi og sabot sa gawas. Kini ang ilisan:</p>
@@ -180,15 +180,15 @@ exports.LESSONS = [
 <h3>Ang sukaranang han-ay</h3>
 <div class="tbl"><table><tr><th>Bahin</th><th>Pananglitan</th></tr><tr><td>Pangumusta</td><td class="k">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>Unang linya (kumusta, tuyo)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>Lawas (hangyo)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>Panapos</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>Panamilit</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
 <h3>Hi ang kasagarang pangumusta</h3>
-<p>Sa mga kompanya sa America, <b>Hi + first name</b> ang kasagaran bisan sa unang email. Ang Dear para sa pormal kaayo. Dili natural ang titulo ra (Dear Manager). Human sa Dear, ibutang ang <b>Mr. / Ms.</b> ug ang apelyido: <b>Dear Ms. Reyes,</b></p>
+<p>Sa mga kompanya sa Amerika, <b>Hi + first name</b> ang kasagaran bisan sa unang email. Ang Dear para sa pormal kaayo. Dili natural ang titulo ra (Dear Manager). Human sa Dear, ibutang ang <b>Mr. / Ms.</b> ug ang apelyido: <b>Dear Ms. Reyes,</b></p>
 {{ex:I hope this email finds you well.|/aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/|Hinaot nga maayo ra ka}}{{ex:I'm writing to follow up on our meeting.|/aɪm ˈraɪtɪŋ tə ˈfɑːloʊ ˈʌp ɑːn aʊər ˈmiːtɪŋ/|Nagsulat ko aron sundan ang atong miting}}
 <h3>Humok ang hangyo, klaro ang deadline</h3>
-{{ex:Could you send me the report by Thursday?|/kəd ju ˈsend mi ðə rɪˈpɔːrt baɪ ˈθɜːrzdeɪ/|Puwede nimong ipadala nako ang report hangtod sa Huwebes?}}{{ex:Thanks for your patience.|/ˈθæŋks fər jʊr ˈpeɪʃns/|Salamat sa imong pagpailob}}
+{{ex:Could you send me the report by Thursday?|/kəd ju ˈsend mi ðə rɪˈpɔːrt baɪ ˈθɜːrzdeɪ/|Puwede nimong ipadala nako ang report sa dili pa molapas ang Huwebes?}}{{ex:Thanks for your patience.|/ˈθæŋks fər jʊr ˈpeɪʃns/|Salamat sa imong pagpailob}}
 <p>Ang ASAP morag gidali nimo ang tawo. Mas maayo ang <b>by + petsa</b>.</p>
 <h3>Unsaon pagpasalamat sa kahago?</h3>
 <p>Pilia ang haom sa sitwasyon:</p>
 <ul><li>Kon nahuman ang proyekto: <b>Thanks for all your hard work!</b></li><li>Sa kataposan sa email sa Biyernes: <b>Have a great weekend!</b></li><li>Kon gitabangan ka: <b>I really appreciate your help.</b></li></ul>
-<div class="tip">Dili kinahanglan nga kanunay <b>Sorry for the late reply</b>. Ang <b>Thanks for your patience</b> matinahuron ug positibo bisan walay pagpangayo og pasaylo.</div>`},
+<div class="tip">Dili kinahanglan nga kanunay <b>Sorry for the late reply</b>. Ang <b>Thanks for your patience</b> matinahoron ug positibo bisan walay pagpangayo og pasaylo.</div>`},
 
 { id:"idioms", title:"11 · Idiom ug slang: unsaon paggamit", blurb:"Mga phrase nga lahi og sabot kon hubaron matag pulong. Kanus-a ug kang kinsa gamiton?", deck:"Mga idiom sa Iningles", body:`
 <p>Ang idiom usa ka phrase nga ang kahulogan dili makuha gikan sa matag pulong. Ang <b>a piece of cake</b> dili bahin sa cake: nagpasabot kini nga "sayon kaayo". Kinahanglan nimo kini aron masabtan ang salida ug serye nga walay subtitle.</p>
@@ -196,7 +196,7 @@ exports.LESSONS = [
 <p>Kadaghanan sa idiom sayon hinumdoman kon imong handurawon ang talan-awon.</p>
 {{ex:It's a piece of cake.|/ɪts ə ˈpiːs əv ˈkeɪk/|Sayon ra kaayo (morag pagkaon og usa ka hiwa nga cake)}}{{ex:It costs an arm and a leg.|/ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/|Mahal kaayo (morag bukton ug tiil ang ibayad)}}{{ex:I'm all ears.|/aɪm ˈɔːl ˈɪrz/|Naminaw ko pag-ayo (morag puro dalunggan)}}
 <h3>Mga idiom nga kanunay madungog</h3>
-<div class="tbl"><table><tr><th>Iningles</th><th>Kahulogan</th></tr><tr><td class="k">Speak of the devil!</td><td>Isulti kon moabot ang tawo nga gihisgotan pa lang</td></tr><tr><td class="k">Kill two birds with one stone</td><td>Duha ka tuyo ang matuman sa usa ra ka lihok</td></tr><tr><td class="k">When pigs fly</td><td>Dili gyud mahitabo</td></tr><tr><td class="k">A blessing in disguise</td><td>Morag daotan sa sinugdanan, pero maayo diay ang sangpotanan</td></tr></table></div>
+<div class="tbl"><table><tr><th>Iningles</th><th>Kahulogan</th></tr><tr><td class="k">Speak of the devil!</td><td>Isulti kon moabot ang tawo nga gihisgotan pa lang</td></tr><tr><td class="k">Kill two birds with one stone</td><td>Duha ka tuyo ang matuman sa usa ra ka lihok</td></tr><tr><td class="k">When pigs fly</td><td>Dili gyud mahitabo</td></tr><tr><td class="k">A blessing in disguise</td><td>Morag daotan sa sinugdanan, pero maayo diay ang sangpotan</td></tr></table></div>
 <h3>Idiom ug slang</h3>
 <p>Ang <b>idiom</b> dugay na nga gigamit, mao nga puwede kini sa bisan unsang edad ug sa trabaho (Let's call it a day). Ang <b>slang</b> pulong sa mga batan-on ug para ra sa mga higala (No cap, That song slaps). Paspas mausab ang slang, ug bati paminawon kon tigulang ang mogamit. Timan-i sab: sa atoa, ang "slang" usahay nagpasabot og sinultihan nga morag Amerikano. Sa Iningles, <b>accent</b> ang tawag niana.</p>
 {{ex:Let's call it a day.|/ˈlets ˈkɔːl ɪt ə ˈdeɪ/|Hunong na ta karong adlawa (puwede sab sa miting)}}{{ex:No cap, this is the best pizza ever.|/ˈnoʊ ˈkæp ˈðɪs ɪz ðə ˈbest ˈpiːtsə ˈevər/|Tinuod gyud, kini ang labing lami nga pizza (para ra sa mga higala)}}
@@ -210,7 +210,7 @@ exports.CHECKS = {
     ["Unsaon pagpangutana sa ispeling sa usa ka pulong?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "Ordinaryong verb ang \"spell\", mao nga helping verb \"do\" ang gamiton sa question, ug base form ang sunod: \"How do you spell that?\""]
   ],
   pron: [
-    ["Sa paglitok sa American nga R, asa ang tumoy sa dila?", ["Motapot sa luyo sa ngipon sa ibabaw","Mogawas taliwala sa ngipon","Dili modapat bisan asa","Modapat sa ngabil sa ubos"], 2, "Sa R, ang tumoy sa dila dili modapat bisan asa. Kon motapot kini sa luyo sa ngipon, mahimong L."],
+    ["Sa paglitok sa Amerikanong R, asa ang tumoy sa dila?", ["Motapot sa luyo sa ngipon sa ibabaw","Mogawas taliwala sa ngipon","Dili modapat bisan asa","Modapat sa ngabil sa ubos"], 2, "Sa R, ang tumoy sa dila dili modapat bisan asa. Kon motapot kini sa luyo sa ngipon, mahimong L."],
     ["Unsaon paglitok ang th sa \"think\"?", ["Ibutang ang tumoy sa dila taliwala sa ngipon ug pagawsa ang hangin","Itapot ang duha ka ngabil, unya buhii","Idapat ang ngipon sa ibabaw sa ngabil sa ubos","Ibira ang dila paingon sa luyo"], 0, "Sa TH, kinahanglan makita ang tumoy sa dila taliwala sa ngipon. Kon \"s\" ang imong isulti, mahimo kining \"sink\"."],
     ["Asa ang stress sa \"hotel\"?", ["ho (una)","walay stress","pareho ang duha","tel (ikaduha)"], 3, "ho-TEL: ang ikaduhang syllable ang mas kusog ug mas dugay. Sa IPA: /hoʊˈtel/."]
   ],
@@ -225,7 +225,7 @@ exports.CHECKS = {
     ["Unsaon pagtubag og 'dili' sa \"Are you hungry?\"", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "Be verb ang gigamit sa pangutana, mao nga be verb sab ang sa tubag: \"No, I'm not.\""]
   ],
   polite: [
-    ["Hain ang labing matinahuron nga hangyo sa tawo nga dili nimo kaila?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Ang \"Could you…?\" mao ang sukaranan sa matinahurong hangyo. Ang \"Give me\" morag mando paminawon."],
+    ["Hain ang labing matinahoron nga hangyo sa tawo nga dili nimo kaila?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Ang \"Could you…?\" mao ang sukaranan sa matinahorong hangyo. Ang \"Give me\" morag mando paminawon."],
     ["Unsay itubag sa \"Would you mind opening the window?\" kon ang buot nimong ipasabot 'Sige, ablihan nako'?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "Ang \"mind\" nagpasabot og 'dili gusto'. Ang \"No\" (dili ko maglisod) mao ang 'Sige, buhaton nako'."],
     ["Unsang porma sa verb ang sunod sa \"Would you mind\"?", ["base form (open)","to + base form (to open)","past form (opened)","~ing (opening)"], 3, "Human sa \"mind\", -ing form ang gamiton: \"Would you mind waiting?\""]
   ],
@@ -255,9 +255,9 @@ exports.CHECKS = {
     ["Unsay labing natural nga pagbasa sa $12.50?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "Ang presyo basahon nga duha ka numero: \"twelve fifty\"."]
   ],
   email: [
-    ["Unang email nimo kang Jenny Park, ang kontak sa usa ka kliyente. Hain ang labing haom nga pangumusta?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "Sa email sa trabaho sa America, \"Hi\" + first name ang labing luwas. Kon pormal kaayo: \"Dear Ms. Park,\"."],
+    ["Unang email nimo kang Jenny Park, ang kontak sa usa ka kliyente. Hain ang labing haom nga pangumusta?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "Sa email sa trabaho sa Amerika, \"Hi\" + first name ang labing luwas. Kon pormal kaayo: \"Dear Ms. Park,\"."],
     ["Nahuman ang proyekto ug gusto nimong pasalamatan ang team sa ilang kahago. Unsay isulti?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "Sa Iningles, pasalamati ang ilang paningkamot: \"Thanks for all your hard work!\""],
-    ["Hain ang matinahurong hangyo nga naay klarong deadline?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "\"Could you…?\" + \"by\" + adlaw: humok pero klaro."]
+    ["Hain ang matinahorong hangyo nga naay klarong deadline?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "\"Could you…?\" + \"by\" + adlaw: humok pero klaro."]
   ],
   idioms: [
     ["Unsay kahulogan sa \"The test was a piece of cake.\"?", ["Sayon kaayo ang eksamin","Nagkaon mi og cake samtang nag-eksamin","Lisod kaayo ang eksamin","Nahagbong ko sa eksamin"], 0, "\"a piece of cake\" = sayon kaayo."],

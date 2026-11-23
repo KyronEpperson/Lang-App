@@ -50,7 +50,7 @@ What time is it? | Excuse me, what time is it? | It's almost three. | Kadiyot la
 Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | Traynta dolyares tanan. / Pasayloa, trese o traynta?
 How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | Kumusta ang imong Sabado ug Domingo? / Nindot kaayo! Niadto ko sa baybayon. Ang imo, kumusta?
 Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | Naa kay plano karong Sabado ug Domingo? / Wala ra man. Mopahulay lang ko sa balay.
-Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | Nindot ang panahon karon, no? / Lagi! Sa wakas, naa nay adlaw.
+Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | Nindot ang panahon karon, no? / Lagi! Sa kataposan, naa nay adlaw.
 What do you do for fun? | What do you do for fun? | I play basketball and watch a lot of series. | Unsay imong buhaton kon maglingaw-lingaw ka? / Magdula ko og basketball ug motan-aw og daghang serye.
 Me neither. | I don't really like spicy food. | Me neither. | Dili kaayo ko ganahan og halang nga pagkaon. / Ako sab, dili.
 It was nice talking to you. | Well, I should get going. It was nice talking to you. | You too! See you around. | Sige, molakaw na ko. Nalipay ko nga nakaistorya ta. / Ako sab! Magkita ra ta.
@@ -94,7 +94,7 @@ I work in marketing. | I work in marketing at a game company. | Sa marketing ko 
 I like watching movies. | I like watching movies on the weekends. | Ganahan ko motan-aw og salida kada Sabado ug Domingo.
 I've been learning English for a year. | I've been learning English for a year, but speaking is still hard. | Usa na ka tuig nga nagtuon ko og Iningles, pero lisod pa gihapon ang pagsulti.
 Thanks a lot. | Thanks a lot for your help today. | Salamat kaayo sa imong tabang karon.
-I speak a little English. | Sorry, I only speak a little English. | Pasayloa, gamay ra ang akong nahibaw-an nga Iningles.
+I speak a little English. | Sorry, I only speak a little English. | Pasayloa, gamay ra ang akong nahibaloan nga Iningles.
 What does this mean? | What does this word on the sign mean? | Unsay pasabot niining pulong sa karatula?
 How much is this? | How much is this T-shirt? | Tagpila kining T-shirt?
 Can I pay by card? | Can I pay by card, or is it cash only? | Puwede ko mobayad gamit ang card, o cash ra?
@@ -152,7 +152,7 @@ Would you mind ~ing? | Matinahoron kaayo nga hangyo: "Okay ra ba nimo kon…?" A
 Can I get ~? | Sa tindahan o restawran: "Puwede mangayo og…?" Pinakakasagaran sa sinultihan sa Amerika | Can I get a large latte? | polite
 I'd like ~ | Matinahoron nga porma sa "want": "Gusto unta ko og…" | I'd like a window seat, please. | polite
 a / an + noun | Usa ka butang nga maihap ug bag-o pa nga gihisgotan. "an" kon vowel ang tingog sa sinugdanan | I have an idea. | articles
-the + noun | Ang butang nga pareho ninyong nahibaw-an kon hain. Dili tanang "ang" kay "the" | Can you open the door? | articles
+the + noun | Ang butang nga pareho ninyong nahibaloan kon hain. Dili tanang "ang" kay "the" | Can you open the door? | articles
 I am / You are / She is | be verb: "mao", "naa sa" o kahimtang. Sa Bisaya walay pulong para niini | She is a nurse. | be
 Do you ~? / Does he ~? | Pangutana nga naay laing verb gawas sa be verb. "does" kon "he", "she" o "it" ang subject | Does he live here? | be
 don't / doesn't + base form | Negative sa mga verb gawas sa be verb: "dili" o "wala" | I don't eat meat. | be
@@ -259,7 +259,7 @@ Laughter is the best medicine | Ang katawa ang pinakamaayong tambal
 Live and learn | Samtang buhi, magkat-on
 A friend in need is a friend indeed | Ang tinuod nga higala makita sa panahon sa kalisod
 It's never too late to learn | Dili gyud ulahi ang pagkat-on
-Every expert was once a beginner | Ang tanang eksperto nagsugod nga walay nahibaw-an
+Every expert was once a beginner | Ang tanang eksperto nagsugod nga walay nahibaloan
 Stay hungry, stay foolish | Padayon sa pagpangita ug ayaw kahadlok masayop
 Small steps every day | Gagmayng lakang kada adlaw
 `
@@ -267,13 +267,13 @@ Small steps every day | Gagmayng lakang kada adlaw
 
 /* idiom | kahulogan | paglitok | pasabot */
 exports.IDIOMS = `
-Break a leg | Maayong suwerte! | /ˈbreɪk ə ˈleg/ | Pagdasig sa dili pa ang pasundayag, exam o interview. Puli sa "Good luck"
+Break a leg | Maayong suwerte! | /ˈbreɪk ə ˈleg/ | Pagdasig sa dili pa ang pasundayag, eksamin o interview. Puli sa "Good luck"
 Bite the bullet | Atubangon bisan lisod | /ˈbaɪt ðə ˈbʊlɪt/ | Para sa butang nga dili nimo gusto pero dili nimo malikayan
 Cut corners | Dali-dalion ang trabaho | /ˈkʌt ˈkɔːrnərz/ | Laktawan ang angay buhaton aron makatipid og kuwarta o panahon. Negatibo ang kahulogan
 Hit the sack | Matulog na | /ˈhɪt ðə ˈsæk/ | Kaswal: "I'm tired. I'm going to hit the sack."
 Let the cat out of the bag | Mabutyag ang sekreto | /ˈlet ðə ˈkæt ˈaʊt əv ðə ˈbæg/ | Pananglitan, kon nasulti nimo ang plano sa surprise party
 Kill two birds with one stone | Duha ka tuyo sa usa ka lihok | /ˈkɪl ˈtuː ˈbɜːrdz wɪð ˈwʌn ˈstoʊn/ | Para kon duha ka butang ang masulbad sa usa ra ka buhat
-Burn the midnight oil | Magpulaw sa trabaho o pagtuon | /ˈbɜːrn ðə ˈmɪdnaɪt ˈɔɪl/ | Sa panahon sa exam o kon duol na ang deadline
+Burn the midnight oil | Magpulaw sa trabaho o pagtuon | /ˈbɜːrn ðə ˈmɪdnaɪt ˈɔɪl/ | Sa panahon sa eksamin o kon duol na ang deadline
 The best of both worlds | Naa nimo ang kaayohan sa duha | /ðə ˈbest əv ˈboʊθ ˈwɜːrldz/ | Para kon mapahimuslan nimo ang duha ka maayong butang nga dungan
 A blessing in disguise | Grasya nga nagtakoban og kalisod | /ə ˈblesɪŋ ɪn dɪsˈgaɪz/ | Daotan tan-awon sa sinugdanan, pero maayo diay ang sangpotan
 Every cloud has a silver lining | Naay maayo bisan sa kalisod | /ˈevri ˈklaʊd ˈhæz ə ˈsɪlvər ˈlaɪnɪŋ/ | Para sa paghupay sa tawo nga naglisod

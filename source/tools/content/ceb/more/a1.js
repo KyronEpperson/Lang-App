@@ -46,7 +46,7 @@ practice:[
 {{ex:Each country is different.|/ˈiːtʃ ˈkʌntri ɪz ˈdɪfrənt/|Lahi ang matag nasod}}
 <h3>my, your, his, her, our, their</h3>
 <p>Kini ang possessive: nagpakita kon kinsay tag-iya. Kon naa na kini, dili na dugangan og a o the.</p>
-{{ex:Is this your phone?|/ɪz ˈðɪs jʊr ˈfoʊn/|Imo ba kining selpon?}}{{ex:Her brothers live in Davao.|/hər ˈbrʌðərz ˈlɪv ɪn ˈdɑːvaʊ/|Ang iyang mga igsoong lalaki nagpuyo sa Davao}}
+{{ex:Is this your phone?|/ɪz ˈðɪs jʊr ˈfoʊn/|Imo ba kining telepono?}}{{ex:Her brothers live in Davao.|/hər ˈbrʌðərz ˈlɪv ɪn ˈdɑːvaʊ/|Ang iyang mga igsoong lalaki nagpuyo sa Davao}}
 <div class="tip">Human sa numero, many, these ug those, plural gyud ang noun: <b>two friend</b> ✗ → <b>two friends</b> ✓. Pero ayaw dugangi og -s ang dili maihap: <b>informations</b> ✗ → <b>information</b> ✓. Ug: <b>my a bag</b> ✗ → <b>my bag</b> ✓</div>`,
 check:[["I have two ___. Unsay sakto sa blangko?",["sister","sisters","a sister","sister's"],1,"Duha, mao nga plural: \"sisters\"."],["___ are my keys. Unsay sakto sa blangko?",["This","That","These","It"],2,"Plural ang \"keys\", mao nga \"These\"."],["'Kini ang akong bag' sa Iningles?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"Kon naa nay \"my\", dili na butangan og article."]],
 practice:[
@@ -207,7 +207,7 @@ practice:[
 ["fi","She __ a dog.","Naa siyay iro (babaye)","has","have|is|haves","Kon \"she\" ang subject, \"has\"."],
 ["ty","Puwede ko nimo tabangan?","Can you help me|Could you help me","can you · help · me — object pronoun ang gamiton","I","Human sa verb, object pronoun ang gamiton: \"me\"."],
 ["ty","Naa ka bay bolpen?","Do you have a pen","do you have · pen — gamita ang article \"a\"","the","Bisan unsang bolpen ang gipangita, mao nga article \"a\"."],
-["ty","Daghan kog higala","I have many friends|I have a lot of friends","have · many · friend — plural ang gamiton","friend","Human sa \"many\", plural ang noun: \"friends\"."]]},
+["ty","Daghan ko og higala","I have many friends|I have a lot of friends","have · many · friend — plural ang gamiton","friend","Human sa \"many\", plural ang noun: \"friends\"."]]},
 { id:"can-like", title:"can, like + -ing, I'd like: ang imong mahimo ug ang imong gusto", blurb:"Isulti kon unsay imong mahimo, unsay imong ganahan, ug unsay gusto nimo karon.", deck:"Istorya-istorya", body:`
 <p>Tulo ka sumbanan nga magamit dayon nimo sa pagpaila sa kaugalingon ug sa pag-order.</p>
 <h3>can: kamao, maka-, puwede</h3>
@@ -310,9 +310,9 @@ practice:[
 ["or","Nitan-aw ko og salida","I saw a movie","see movies","Usa ra ka salida, mao nga article \"a\" ug singular nga \"movie\". Ang past form sa \"see\" kay \"saw\"."],
 ["or","Nikaon mi og pizza","We ate pizza","eated","Ang past form sa \"eat\" kay \"ate\"."],
 ["or","Nakigkita ko sa akong mga higala","I met my friends","friend meet","Daghan sila, mao nga plural: \"friends\"."],
-["fi","I __ to Jeju last year.","Niadto ko sa Jeju sa miaging tuig","went","go|goed|gone","Ang past form sa \"go\" kay \"went\"."],
+["fi","I __ to Jeju last year.","Niadto ko sa Jeju sa niaging tuig","went","go|goed|gone","Ang past form sa \"go\" kay \"went\"."],
 ["fi","What did you __?","Unsay imong gikaon?","eat","ate|eaten|eating","Human sa \"did\", base form ang verb."],
-["fi","She __ a new phone.","Nipalit siya og bag-ong selpon (babaye)","bought","buyed|buy|buys","Ang past form sa \"buy\" kay \"bought\"."],
+["fi","She __ a new phone.","Nipalit siya og bag-ong telepono (babaye)","bought","buyed|buy|buys","Ang past form sa \"buy\" kay \"bought\"."],
 ["ty","Niadto ko sa Busan","I went to Busan","went · to · Busan — ang past form sa \"go\"","go","Ang past form sa \"go\" kay \"went\"."],
 ["ty","Nipalit ko og usa ka libro","I bought a book","bought · book — article \"a\" kay usa ra","the","Usa ra ka libro, mao nga butangan og article \"a\"."],
 ["ty","Nakigkita ko sa akong mga higala","I met my friends|I saw my friends","met · my · friend — plural kay daghan","friend","Daghan sila, mao nga plural: \"friends\"."]]},
@@ -443,14 +443,14 @@ practice:[
 <h3>Gamay nga pulong nga nailisan, ug -s nga sobra</h3>
 <p>Kini, dili na "atoa ra": sa eksamin ug sa trabaho, isipon kining sayop. Dili mailisan ang gamay nga pulong nga kauban sa verb, ug walay plural ang uncountable noun.</p>
 <div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>fill up the form</td><td class="k">fill out the form</td></tr><tr><td>based from</td><td class="k">based on</td></tr><tr><td>result to</td><td class="k">result in</td></tr><tr><td>cope up with</td><td class="k">cope with</td></tr><tr><td>discuss about the plan</td><td class="k">discuss the plan</td></tr><tr><td>informations, equipments, furnitures</td><td class="k">information, equipment, furniture</td></tr></table></div>
-{{ex:Please fill out this form.|/ˈpliːz ˈfɪl ˈaʊt ˈðɪs ˈfɔːrm/|Palihug sulati kining porma}}{{ex:I need some information.|/aɪ ˈniːd ˈsʌm ˌɪnfərˈmeɪʃn/|Kinahanglan ko og impormasyon}}{{ex:We bought new furniture.|/wi ˈbɔːt ˈnuː ˈfɜːrnɪtʃər/|Nipalit mi og bag-ong muwebles}}
+{{ex:Please fill out this form.|/ˈpliːz ˈfɪl ˈaʊt ˈðɪs ˈfɔːrm/|Palihug sulati kining form}}{{ex:I need some information.|/aɪ ˈniːd ˈsʌm ˌɪnfərˈmeɪʃn/|Kinahanglan ko og impormasyon}}{{ex:We bought new furniture.|/wi ˈbɔːt ˈnuː ˈfɜːrnɪtʃər/|Nipalit mi og bag-ong muwebles}}
 <div class="tip">Ayaw kaulaw sa Iningles sa Pinas: sakto kini dinhi sa atoa. Pangutan-a lang ang imong kaugalingon: "Pinoy ba ang akong kaistorya, o langyaw?" Kon langyaw: <b>CR</b> → <b>restroom</b> / <b>Open the light.</b> → <b>Turn on the light.</b> / <b>For a while.</b> → <b>One moment, please.</b></div>`,
 check:[["Langyaw ang imong kaistorya. Unsaon nimo pagpangutana kon asa ang CR?",["Where is the CR?","Where is the restroom?","Where is restroom?","Where is the comfort?"],1,"Sa gawas sa Pilipinas, \"restroom\" o \"bathroom\" ang gigamit, ug kinahanglan ang article \"the\"."],["Gusto nimong hulamon ang bolpen sa imong kauban. Unsay sakto nga isulti?",["Can you borrow me your pen?","Can I lend your pen?","Can you lend me your pen?","Can you borrow your pen to me?"],2,"\"Lend\" kon siya ang mohatag, \"borrow\" kon ikaw ang mokuha: \"Can you lend me …?\" o \"Can I borrow …?\""],["Hain niini ang sakto nga sentence?",["I need some information.","I need some informations.","I need an information.","I need many informations."],0,"Uncountable noun ang \"information\": walay plural -s ug walay \"an\"."]],
 practice:[
 ["mc","Langyaw ang imong kaistorya. 'Asa ang CR?' sa Iningles?","Where is the restroom?","Where is the CR?","Where is restroom?","Where is the comfort?","Sa gawas, \"restroom\" o \"bathroom\" ang gigamit, ug kinahanglan ang article \"the\"."],
 ["mc","'Puwede nimo pasigaon ang suga?' sa Iningles?","Can you turn on the light?","Can you open the light?","Can you open a light?","Can you turn the light open?","Ang suga pasigaon og \"turn on\". Ang \"open\" para sa pultahan ug bintana."],
 ["mc","Sa telepono: 'Kadiyot lang, palihug' sa Iningles?","One moment, please.","For a while, please.","Wait a while only.","A while, please.","Ang \"for a while\" nagpasabot nga dugay-dugay. Sa telepono: \"One moment, please.\""],
-["mc","Pilia ang sakto nga sentence.","Please fill out this form.","Please fill up this form.","Please fill this form.","Please fill off this form.","Ang porma sulatan og \"fill out\" o \"fill in\". Ang \"fill up\" para sa tangke o baso nga pun-on."],
+["mc","Pilia ang sakto nga sentence.","Please fill out this form.","Please fill up this form.","Please fill this form.","Please fill off this form.","Ang form sulatan og \"fill out\" o \"fill in\". Ang \"fill up\" para sa tangke o baso nga pun-on."],
 ["mc","'Wala na siya dinhi (lalaki)' sa Iningles?","He is no longer here.","He is already not here.","She is no longer here.","He is not already here.","Ang \"wala na\" kay \"no longer\", dili \"already not\". Lalaki ang gihisgotan, mao nga \"he\"."],
 ["or","Palihug pasigaa ang suga","Please turn on the light","open a","Ang suga pasigaon og \"turn on\", dili \"open\". Ang suga niining kuwartoha ang gipasabot, mao nga article \"the\", dili \"a\"."],
 ["or","Nipalit mi og bag-ong muwebles","We bought new furniture","furnitures a","Uncountable noun ang \"furniture\": walay plural -s ug walay article \"a\"."],
@@ -462,5 +462,5 @@ practice:[
 ["ty","Asa ang CR? (langyaw ang imong kaistorya)","Where is the restroom|Where's the restroom|Where is the bathroom|Where's the bathroom","where · restroom — kinahanglan ang article \"the\"","CR a","Sa gawas, \"restroom\" o \"bathroom\" ang gamiton. Ang CR niining lugara ang gipasabot, mao nga article \"the\"."],
 ["ty","Kinahanglan ko og impormasyon","I need some information|I need information","need · some · information — walay plural -s","informations an","Uncountable noun ang \"information\": walay plural -s ug walay article \"an\"."],
 ["ty","Palihug palonga ang suga","Please turn off the light|Turn off the light please|Please turn the light off|Turn the light off please|Turn off the light|Turn the light off|Can you turn off the light|Could you turn off the light|Can you turn the light off|Could you turn the light off|Can you please turn off the light|Could you please turn off the light|Please turn off the lights|Turn off the lights please|Turn off the lights","turn off · light — gamita ang article \"the\"","close","Ang suga palongon og \"turn off\", dili \"close\". Ang suga niining kuwartoha ang gipasabot, mao nga article \"the\"."],
-["ty","Wala na siya magtrabaho dinhi (babaye)","She no longer works here|She doesn't work here anymore|She doesn't work here any more|She is no longer working here|She isn't working here anymore|She's not working here anymore","no longer · work · here — dili \"already not\"","already he","Ang \"wala na\" kay \"no longer\" o \"not … anymore\", dili \"already not\". Babaye ang gihisgotan, mao nga \"she\"."]]},
+["ty","Wala na siya magtrabaho dinhi (babaye)","She no longer works here|She doesn't work here anymore|She does not work here anymore|She is not working here anymore|She doesn't work here any more|She is no longer working here|She isn't working here anymore|She's not working here anymore","no longer · work · here — dili \"already not\"","already he","Ang \"wala na\" kay \"no longer\" o \"not … anymore\", dili \"already not\". Babaye ang gihisgotan, mao nga \"she\"."]]},
 ];

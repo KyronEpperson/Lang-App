@@ -9,7 +9,7 @@ const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
   alphabet: [
-    { t: "mc", q: "Hain nga letra ang naay ngalan nga pareho og litok sa pulong nga \"see\"?", o: ["C", "S", "Z", "K"], why: "Ang ngalan sa C pareho gyud og litok sa \"see\". Ang ngalan sa S nagsugod sa vowel nga tingog, ang Z sa America \"zee\", ug ang K pareho sa kataposan sa \"OK\"." },
+    { t: "mc", q: "Hain nga letra ang naay ngalan nga pareho og litok sa pulong nga \"see\"?", o: ["C", "S", "Z", "K"], why: "Ang ngalan sa C pareho gyud og litok sa \"see\". Ang ngalan sa S nagsugod sa vowel nga tingog, ang Z sa Amerika \"zee\", ug ang K pareho sa kataposan sa \"OK\"." },
     { t: "mc", q: "Hain nga letra ang sunod dayon sa Q?", o: ["R", "P", "S", "O"], why: "Ang han-ay: …O, P, Q, R, S… Ang sunod sa Q mao ang R." },
     { t: "mc", q: "Hain ang sakto?", o: ["an M", "a M", "an B", "an U"], why: "Ang ngalan sa M nagsugod sa vowel nga tingog, mao nga article \"an\": \"an M\". Ang B \"a B\". Ang ngalan sa U pareho sa \"you\" ug nagsugod sa tingog nga y, mao nga \"a U\"." },
     { t: "mc", q: "Hain niini ang vowel nga letra?", o: ["U", "R", "S", "W"], why: "Lima ang vowel nga letra sa Iningles: A, E, I, O, U. Consonant ang R, S ug W." },
@@ -25,7 +25,7 @@ module.exports = {
 
     { t: "type", p: "Nagsugod kini sa A (ayaw kalimti ang article)", a: ["It starts with an A", "It begins with an A"], hint: "start · A — ang ngalan sa A nagsugod sa vowel nga tingog", x: ["the", "start"], why: "Ang ngalan sa A nagsugod sa vowel nga tingog, mao nga article \"an\": \"an A\". Kon \"it\" ang subject, \"starts\" nga naay -s." },
     { t: "type", p: "Unsay ispeling sa imong ngalan? (gamita ang \"you\" ug \"spell\")", a: ["How do you spell your name"], hint: "spell · your name — gamita ang helping verb \"do\"", x: ["spelling", "does"], why: "Ordinaryong verb ang \"spell\", mao nga helping verb \"do\" ang gamiton sa question. \"you\" ang subject, mao nga dili \"does\"." },
-    { t: "type", p: "Naa kini duha ka T (usa ka pulong ang gihisgotan; sugdi sa \"It\")", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "two · T — duha, mao nga plural", x: ["T", "have"], why: "Duha ka T, mao nga plural: \"Ts\" (puwede sab \"T's\"). Kon \"it\" ang subject, \"has\" ang gamiton, dili \"have\"." }
+    { t: "type", p: "Naa kiniy duha ka T (usa ka pulong ang gihisgotan; sugdi sa \"It\")", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "two · T — duha, mao nga plural", x: ["T", "have"], why: "Duha ka T, mao nga plural: \"Ts\" (puwede sab \"T's\"). Kon \"it\" ang subject, \"has\" ang gamiton, dili \"have\"." }
   ],
 
   pron: [
@@ -56,7 +56,7 @@ module.exports = {
     { t: "mc", q: "'Naa koy iro. Cute kaayo ang maong iro' sa Iningles?", o: ["I have a dog. The dog is so cute.", "I have the dog. A dog is so cute.", "I have dog. The dog is so cute.", "I have a dog. A dog is so cute."], why: "Sa unang paghisgot, article \"a\". Kon nahisgotan na, \"the\"." },
 
     { t: "order", p: "Maestra ko", a: ["I'm", "a", "teacher"], x: ["the", "an"], why: "Kinahanglan ang article \"a\" sa atubangan sa trabaho. Consonant ang sinugdanan sa \"teacher\", mao nga dili \"an\"." },
-    { t: "order", p: "Puwede nimong sirad-an ang pultahan? (ang pultahan niining kwarto)", a: ["Can", "you", "close", "the", "door"], x: ["a"], why: "Pareho ninyong nahibaloan kon hain nga pultahan, mao nga article \"the\"." },
+    { t: "order", p: "Puwede nimong sirad-an ang pultahan? (ang pultahan niining kuwartoha)", a: ["Can", "you", "close", "the", "door"], x: ["a"], why: "Pareho ninyong nahibaloan kon hain nga pultahan, mao nga article \"the\"." },
     { t: "order", p: "Dili ko moinom og kape", a: ["I", "don't", "drink", "coffee"], x: ["a", "the"], why: "Kape sa kinatibuk-an ang gihisgotan, mao nga walay article." },
 
     { t: "fill", q: "I'm __ university student.", p: "Estudyante ko sa unibersidad", a: ["a"], o: ["an", "the", "two"], why: "Ang \"university\" nagsugod sa tingog nga y, mao nga article \"a\". Ang tingog ang sundon, dili ang letra." },
@@ -90,20 +90,20 @@ module.exports = {
 
   polite: [
     { t: "mc", q: "Sa kapehan, hain ang labing natural nga pag-order og usa ka latte?", o: ["Can I get a latte, please?", "Give me latte.", "I want latte.", "Latte, give me."], why: "Sa tindahan, natural ang \"Can I get…?\". Usa ra ka latte, mao nga naay article \"a\"." },
-    { t: "mc", q: "Hain ang labing matinahuron nga pagpangayo og tabang sa tawo nga dili nimo kaila?", o: ["Could you help me?", "Help me.", "You help me.", "I want help."], why: "\"Could you…?\" ang matinahurong hangyo sa tawo nga bag-o pa nimong nakita." },
-    { t: "mc", q: "Wala nimo masabti ang giingon. Hain ang matinahurong paghangyo nga balikon kini?", o: ["Could you say that again?", "Say again.", "What you say?", "Again say, please."], why: "\"Could you say that again?\" ang matinahurong paagi sa paghangyo nga balikon ang giingon." },
-    { t: "mc", q: "Matinahuron kaayo: 'Puwede mi nimo kuhaan og litrato?' sa Iningles?", o: ["Would you mind taking a picture of us?", "Would you mind take a picture of us?", "Would you mind to take a picture of us?", "Would you mind took a picture of us?"], why: "Human sa \"mind\", -ing form ang gamiton: \"taking\"." },
-    { t: "mc", q: "Sa eroplano: 'Gusto unta ko og lingkoranan sa daplin sa bintana' sa Iningles?", o: ["I'd like a window seat.", "I'd like window seat.", "I like a window seat.", "I'd like the window seats."], why: "\"I'd like…\" ang matinahurong pagpangayo. Usa ra ka lingkoranan, mao nga article \"a\"." },
+    { t: "mc", q: "Hain ang labing matinahoron nga pagpangayo og tabang sa tawo nga dili nimo kaila?", o: ["Could you help me?", "Help me.", "You help me.", "I want help."], why: "\"Could you…?\" ang matinahorong hangyo sa tawo nga bag-o pa nimong nakita." },
+    { t: "mc", q: "Wala nimo masabti ang giingon. Hain ang matinahorong paghangyo nga balikon kini?", o: ["Could you say that again?", "Say again.", "What you say?", "Again say, please."], why: "\"Could you say that again?\" ang matinahorong paagi sa paghangyo nga balikon ang giingon." },
+    { t: "mc", q: "Matinahoron kaayo: 'Puwede mi nimo kuhaan og litrato?' sa Iningles?", o: ["Would you mind taking a picture of us?", "Would you mind take a picture of us?", "Would you mind to take a picture of us?", "Would you mind took a picture of us?"], why: "Human sa \"mind\", -ing form ang gamiton: \"taking\"." },
+    { t: "mc", q: "Sa eroplano: 'Gusto unta ko og lingkoranan sa daplin sa bintana' sa Iningles?", o: ["I'd like a window seat.", "I'd like window seat.", "I like a window seat.", "I'd like the window seats."], why: "\"I'd like…\" ang matinahorong pagpangayo. Usa ra ka lingkoranan, mao nga article \"a\"." },
 
     { t: "order", p: "Puwede ko makakuha og usa ka latte?", a: ["Can", "I", "get", "a", "latte"], x: ["the", "give"], why: "Usa ra ka latte ug karon pa nimo gihisgotan, mao nga article \"a\"." },
-    { t: "order", p: "Puwede nimong ablihan ang bintana, kon okey ra nimo? (ang bintana niining kwarto)", a: ["Would", "you", "mind", "opening", "the", "window"], x: ["open", "a"], why: "Human sa \"mind\", -ing form. Pareho ninyong nahibaloan kon hain nga bintana, mao nga article \"the\"." },
-    { t: "order", p: "Puwede ka mosulti og mas hinay-hinay?", a: ["Could", "you", "speak", "more", "slowly"], x: ["slow"], why: "\"Could you…?\" ang gamiton sa matinahurong hangyo." },
+    { t: "order", p: "Puwede nimong ablihan ang bintana, kon okay ra nimo? (ang bintana niining kuwartoha)", a: ["Would", "you", "mind", "opening", "the", "window"], x: ["open", "a"], why: "Human sa \"mind\", -ing form. Pareho ninyong nahibaloan kon hain nga bintana, mao nga article \"the\"." },
+    { t: "order", p: "Puwede ka mosulti og mas hinay-hinay?", a: ["Could", "you", "speak", "more", "slowly"], x: ["slow"], why: "\"Could you…?\" ang gamiton sa matinahorong hangyo." },
 
-    { t: "fill", q: "Would you mind __ the door?", p: "Puwede nimong sirad-an ang pultahan, kon okey ra nimo?", a: ["closing"], o: ["close", "to close", "closed"], why: "Human sa \"mind\", -ing form ang gamiton." },
+    { t: "fill", q: "Would you mind __ the door?", p: "Puwede nimong sirad-an ang pultahan, kon okay ra nimo?", a: ["closing"], o: ["close", "to close", "closed"], why: "Human sa \"mind\", -ing form ang gamiton." },
     { t: "fill", q: "Can I get __ iced coffee?", p: "Puwede ko makakuha og usa ka bugnaw nga kape?", a: ["an"], o: ["a", "two", "many"], why: "Ang \"iced\" nagsugod sa vowel nga tingog, mao nga article \"an\"." },
     { t: "fill", q: "No, not at __.", p: "(tubag sa \"Would you mind…?\") Sige, walay problema", a: ["all"], o: ["any", "one", "ever"], why: "Ang \"No, not at all\" nagpasabot nga dili gyud ka maglisod: 'Sige, buhaton nako'." },
 
-    { t: "type", p: "Puwede ko nimo tabangan? (matinahuron, sa dili kaila)", a: ["Could you help me", "Could you help me please", "Could you please help me", "Would you help me", "Would you help me please", "Would you mind helping me"], hint: "could · help — matinahurong hangyo sa dili kaila", x: ["can"], why: "Sa tawo nga dili nimo kaila, \"Could you…?\" ang gamiton." },
+    { t: "type", p: "Puwede ko nimo tabangan? (matinahoron, sa dili kaila)", a: ["Could you help me", "Could you help me please", "Could you please help me", "Would you help me", "Would you help me please", "Would you mind helping me"], hint: "could · help — matinahorong hangyo sa dili kaila", x: ["can"], why: "Sa tawo nga dili nimo kaila, \"Could you…?\" ang gamiton." },
     { t: "type", p: "Gusto unta ko og lingkoranan sa daplin sa bintana", a: pl(["I'd like a window seat", "I would like a window seat", "Can I get a window seat", "Could I get a window seat", "Can I have a window seat", "Could I have a window seat"]), hint: "I'd like · window seat — article sa atubangan sa usa ka lingkoranan", x: ["the"], why: "Usa ra ka lingkoranan ug karon pa nimo gihisgotan, mao nga article \"a\": \"a window seat\"." },
     { t: "type", p: "Duha ka kape, palihug", a: pl(["Can I get two coffees", "Could I get two coffees", "Can I have two coffees", "Could I have two coffees", "I'd like two coffees", "I would like two coffees", "Two coffees"]), hint: "two · coffee — duha ka tasa, mao nga plural", x: ["coffee"], why: "Sa pag-order, ihapon ang kape matag tasa, mao nga plural -s: \"two coffees\"." }
   ],
@@ -119,7 +119,7 @@ module.exports = {
     { t: "order", p: "Tawgan tika unya", a: ["I'll", "call", "you", "later"], x: ["calling"], why: "\"will\" ang gamiton sa saad nga gihimo karon dayon, ug base form ang sunod." },
     { t: "order", p: "Nakatan-aw ko og duha ka salida", a: ["I", "saw", "two", "movies"], x: ["movie", "see"], why: "\"saw\" ang past form sa \"see\". Human sa \"two\", plural ang noun: \"movies\"." },
 
-    { t: "fill", q: "I __ pizza last night.", p: "Nikaon ko og pizza kagabii", a: ["ate", "had"], o: ["eat", "eated", "eating"], why: "Naay \"last night\", mao nga past form: \"ate\" (kon \"have\" ang verb, \"had\")." },
+    { t: "fill", q: "I __ pizza last night.", p: "Nikaon ko og pizza gabii", a: ["ate", "had"], o: ["eat", "eated", "eating"], why: "Naay \"last night\", mao nga past form: \"ate\" (kon \"have\" ang verb, \"had\")." },
     { t: "fill", q: "__ you have fun?", p: "Nalingaw ba ka?", a: ["Did"], o: ["Does", "Are", "Were"], why: "Sa pangutana bahin sa nahuman na: \"Did\" + base form." },
     { t: "fill", q: "I'm going __ visit my parents.", p: "Mobisita ko sa akong ginikanan (plano)", a: ["to"], o: ["for", "at", "on"], why: "Plano: \"be going to\" + base form." },
 
@@ -133,10 +133,10 @@ module.exports = {
     { t: "mc", q: "'sa Mayo 3' sa Iningles?", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "\"on\" ang gamiton sa petsa." },
     { t: "mc", q: "'Naa ko sa bus (karon)' sa Iningles?", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "\"on\" ang gamiton sa pampublikong sakyanan. Naay article \"the\" kay ang bus nga imong gisakyan karon ang gipasabot." },
     { t: "mc", q: "'sa gabii' sa Iningles?", o: ["at night", "on night", "in night", "at the night"], why: "Eksepsyon ang \"night\": \"at night\", walay article." },
-    { t: "mc", q: "Hain ang sakto nga sentence?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "\"in\" ang gamiton sa siyudad, ug walay article \"the\" ang ngalan sa siyudad. Ang \"ang\" sa Bisaya dili \"the\"." },
+    { t: "mc", q: "Hain ang sakto nga sentence?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "\"in\" ang gamiton sa siyudad, ug walay article \"the\" ang ngalan sa siyudad." },
 
     { t: "order", p: "Magkita ta sa estasyon (ang estasyon nga nahibaloan nato)", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "\"at\" ang gamiton sa usa ka punto. Pareho ninyong nahibaloan kon hain nga estasyon, mao nga article \"the\"." },
-    { t: "order", p: "Naa sa ibabaw sa lamesa ang akong cellphone", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "\"on\" ang gamiton kon naa sa ibabaw sa usa ka butang. Ang lamesa nga naa sa inyong atubangan ang gipasabot, mao nga article \"the\"." },
+    { t: "order", p: "Naa sa ibabaw sa lamesa ang akong telepono", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "\"on\" ang gamiton kon naa sa ibabaw sa usa ka butang. Ang lamesa nga naa sa inyong atubangan ang gipasabot, mao nga article \"the\"." },
     { t: "order", p: "Magkita ta sa sunod semana", a: ["See", "you", "next", "week"], x: ["on"], why: "Walay preposition sa atubangan sa \"next\", bisan naay \"sa\" sa Bisaya." },
 
     { t: "fill", q: "The meeting is __ three.", p: "Alas tres ang miting", a: ["at"], o: ["on", "to", "of"], why: "\"at\" ang gamiton sa tukmang oras." },
@@ -152,7 +152,7 @@ module.exports = {
     { t: "mc", q: "Nangutana ang imong kauban sa trabaho: \"How was your weekend?\" Unsay itubag?", o: ["It was great! I went hiking.", "It is great! I go hiking.", "It will be great!", "Yes, it was."], why: "Bahin sa nahuman na ang pangutana, mao nga past form ang itubag, ug dugangi og usa ka detalye." },
     { t: "mc", q: "Unsay isulti kon mouyon ka sa \"I don't drink coffee.\" (ikaw sab dili moinom)?", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "Sa negative nga sentence, \"Me neither\" ang gamiton." },
     { t: "mc", q: "Unsaon pagtapos sa istorya nga hapsay?", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "Ang \"I should get going\" malumo nga paagi sa pagpanamilit." },
-    { t: "mc", q: "Hain ang maayong isulti sa tawo nga bag-o pa nimong nailhan?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "Ang panahon ang labing luwas nga hisgotan sa small talk. Likayi ang sweldo, kon minyo na ba, ug ang timbang." },
+    { t: "mc", q: "Hain ang maayong isulti sa tawo nga bag-o pa nimong nailhan?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "Ang panahon ang labing luwas nga hisgotan sa small talk. Likayi ang suweldo, kon minyo na ba, ug ang timbang." },
     { t: "mc", q: "Unsay itubag sa \"I went to Busan last weekend.\" aron ipakita nga interesado ka?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Ang \"Oh, really?\" ug \"That sounds fun!\" nagpakita nga interesado ka." },
 
     { t: "order", p: "Naa kay plano sa weekend?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "Plural ang \"plans\" niining pangutana, ug article \"the\" kay ang umaabot nga weekend ang gipasabot." },
@@ -212,14 +212,14 @@ module.exports = {
     { t: "mc", q: "Kon \"Dear\" ang sinugdanan, hain ang labing natural nga pangumusta?", o: ["Dear Mr. Smith,", "Dear Manager,", "Dear Smith Mr.,", "Dear Sir Smith,"], why: "Human sa \"Dear\", ibutang ang \"Mr.\" o \"Ms.\" ug ang apelyido, dili ang titulo ra." },
     { t: "mc", q: "Unsay isulti aron ipahibalo nga giuban nimo ang report sa email?", o: ["I've attached the report.", "I've attached report.", "I attaching the report.", "I've attach the report."], why: "Ang report nga madawat sa imong gisulatan ang gipasabot, mao nga naay article \"the\"." },
     { t: "mc", q: "'Kanus-a ang deadline?' sa Iningles?", o: ["What's the deadline?", "What's deadline?", "When is a deadline?", "What deadline is?"], why: "Ang deadline niining trabahoa ang gipasabot, mao nga article \"the\"." },
-    { t: "mc", q: "Nadugay ang imong tubag. Hain ang positibong isulti puli sa pagpangayo og pasaylo?", o: ["Thanks for your patience.", "Sorry, sorry, sorry.", "You waited too long.", "Thanks for your patients."], why: "Matinahuron ang \"Thanks for your patience\" bisan walay pagpangayo og pasaylo. Bantayi ang ispeling: ang \"patients\" mga pasyente." },
+    { t: "mc", q: "Nadugay ang imong tubag. Hain ang positibong isulti puli sa pagpangayo og pasaylo?", o: ["Thanks for your patience.", "Sorry, sorry, sorry.", "You waited too long.", "Thanks for your patients."], why: "Matinahoron ang \"Thanks for your patience\" bisan walay pagpangayo og pasaylo. Bantayi ang ispeling: ang \"patients\" mga pasyente." },
     { t: "mc", q: "Hain ang maayong panapos sa email sa Biyernes?", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "Usa ra ka weekend, mao nga article \"a\" ug singular ang \"weekend\"." },
 
     { t: "order", p: "Giuban nako ang report niining email", a: ["I've", "attached", "the", "report"], x: ["a"], why: "Ang report nga madawat sa imong gisulatan ang gipasabot, mao nga article \"the\"." },
     { t: "order", p: "Mag-iskedyul ta og usa ka miting", a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: "Usa ka miting nga wala pa maplano, mao nga article \"a\"." },
     { t: "order", p: "Susihon nako ug tubagon tika unya", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "\"get back to you\" = tubagon tika unya. \"to\" ang gamiton." },
 
-    { t: "fill", q: "Could you send me the file __ Friday?", p: "Puwede nimong ipadala nako ang file hangtod sa Biyernes?", a: ["by"], o: ["until", "in", "at"], why: "Sa deadline, \"by\" + adlaw ang gamiton." },
+    { t: "fill", q: "Could you send me the file __ Friday?", p: "Puwede nimong ipadala nako ang file sa dili pa molapas ang Biyernes?", a: ["by"], o: ["until", "in", "at"], why: "Sa deadline, \"by\" + adlaw ang gamiton. Ang \"until Friday\" nagpasabot nga padayon hangtod sa Biyernes." },
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "Nagsulat ko aron mangutana bahin sa iskedyul", a: ["to"], o: ["for", "about", "at"], why: "Sa tuyo: \"I'm writing to\" + base form." },
     { t: "fill", q: "Thanks for all your hard __!", p: "Salamat sa tanan ninyong kahago!", a: ["work"], o: ["works", "working", "job"], why: "Uncountable noun ang \"work\" (trabaho), mao nga walay plural -s." },
 
