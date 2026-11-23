@@ -1,0 +1,9 @@
+{
+  "lessons": {
+    "aspect-tense": "tl-only lesson (profile tl.md §8 additions, §4.3): maps the three Tagalog aspect forms (tapos na / ginagawa / gagawin pa: kumain, kumakain, kakain) and the enclitics na / pa onto the English tenses each can become, plus the two rules Tagalog lacks (the verb always carries the time; base form after did / does / will / to); placed after perfect via profile.json lessonOrder.after; linked to the deck «Kuwentuhan»; new body, check and 16-item practice set that satisfies the standing rule article-plural (§7)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["aspect-tense"],
+  "droppedLessons": []
+}
