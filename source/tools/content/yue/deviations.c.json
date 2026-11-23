@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "hk-english": "yue-only lesson (profile yue.md §8 'add', §4 items 6, 7, 12, 13, 15): Hong Kong English traps — one Cantonese verb vs several English verbs (開/熄, 睇, 帶/攞, 借, 講, 食藥), sentence shapes calqued from Cantonese (I very like, There are many people have, I am difficult to, Although…but, I go first, Wait me), local words that are fine in Hong Kong and unclear abroad (add oil, shroff, chop, lai see, sentence-final particles), and the British (school) / American (this course) word pairs; placed after smalltalk via profile.json lessonOrder.after; deck 港式英文陷阱; takes the slot of ko-en's konglish (removed from more/a1.js) and zh-en's chinglish; about half of the check and practice English is reused from zh chinglish, the rest is new; no ko-en counterpart"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["hk-english"]
+}

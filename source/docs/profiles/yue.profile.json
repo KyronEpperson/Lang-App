@@ -1,0 +1,28 @@
+{
+  "native": "yue",
+  "nativeNameEn": "Cantonese",
+  "name": {
+    "en": "English",
+    "yue": "英文"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": "[\\u3400-\\u4dbf\\u4e00-\\u9fff]",
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "冠詞|眾數"
+  },
+  "labels": {
+    "mcBlankCue": " 空格應填甚麼？",
+    "typeHintCue": " — 用這些字詞",
+    "cueTest": "[\\u3400-\\u4dbf\\u4e00-\\u9fff]"
+  },
+  "lessonOrder": {
+    "after": {
+      "hk-english": "smalltalk",
+      "articles-3": "passive"
+    }
+  },
+  "pronScript": "ˈ"
+}

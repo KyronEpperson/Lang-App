@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "articles-3": "yue-only lesson (profile yue.md §8 add, §4 item 1): articles revisited at B1, replacing the Korean course's own articles-3 from the scaffold. English side (body rows, checks, practice) converted unchanged from zh-en's articles-3: generic vs specific (no article for generic plurals, uncountables and abstract nouns: Life / Education / Time is…), the with of-/in-phrases and relative clauses, no-article fixed phrases (go to bed, go to work / school, at home / work, in class, by train / bus), the with superlatives and ordinals. Chan 2022 found article errors at every proficiency level in Hong Kong learners' writing, generic reference hardest. ko-en's articles-3 is in ko profile ownLessons, so there is no shared counterpart. Placed after passive (profile.json lessonOrder.after)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["articles-3"]
+}
