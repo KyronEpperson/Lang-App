@@ -1,7 +1,23 @@
 {
-  "lessons": {},
+  "lessons": {
+    "banglish": "bn-only lesson (profile bn.md §8 'add' / §4.11, §4.4 / §9 trap table): Bangladeshi-English traps presented as 'fine at home, say this abroad' — verbs translated word for word (give an exam, eat medicine), time phrases (this morning, last night), kinship (cousin), lakh / crore, words with a local meaning (hotel, coaching, mess), mass nouns with -s, more better, state verbs in -ing; placed after smalltalk via profile.json lessonOrder.after; deck বাংলিশ ফাঁদ; replaces the ko-only lesson konglish (no ko-en counterpart, mirrors zh chinglish / hi indian-english)",
+    "articles-3": "bn-only lesson (profile bn.md §8 add, §4.1): «কখন আর্টিকেল বসে না: the না কিছুই না?» — articles revisited at B1 with the weight on the zero article, the hardest measured article slot for Bangladeshi university students (64.5% of zero-article slots wrong against 27.4% for a/an and 20.9% for the, Arafath 2010): zero article for generic plurals, uncountables and abstract nouns (Cats sleep a lot, Time is money, Life is short), the for nouns defined by a phrase or clause (the music here, the coffee you made) and with superlatives / ordinals / unique things (body only), a / an for one-of-many nouns even with a description (an engineer who…, an interesting article), zero-article fixed phrases (go to bed, go to work / school, at home / work, by train / bus), plus a bn-specific body section «-টা / -টি দেখলেই the নয়» (আমার বইটা → my book, Dhaka, Dhaka University without the). The Korean course's own articles-3 (ko profile ownLessons) is not part of the shared side; the scaffolded copy of it was replaced. English side (check and practice) copied verbatim from the Russian course's articles-3 (tools/content/ru/more/b1.js) as the bn-D brief says, with one localisation per profile §9: Moscow → Dhaka in the engineer mc item (all four options) and the matching body row. Placed after passive via profile.json lessonOrder.after; deck «হালকা আলাপ» (deck 10, as ru/zh)."
+  },
   "items": {},
-  "decks": {},
-  "extraLessons": [],
+  "decks": {
+    "নিজের পরিচয়": "localisation per profile bn.md §9 (Minji→Rafi, Korea→Bangladesh, Seoul→Dhaka; same positions as zh / hi): cards 0 'My name is Rafi.', 4 'I'm from Bangladesh.', 5 'I live in Dhaka.'",
+    "জরুরি ইংরেজি 1": "localisation per profile bn.md §9: card 12 'Do you speak Korean?' → 'Do you speak Bangla?' (learner's own language; 'Bangla' per the lead note, and the card note says many English speakers say Bengali)",
+    "হালকা আলাপ": "localisation per profile bn.md §9: card 6 'Have you been to Korea?' → 'Have you been to Bangladesh?'",
+    "প্রশংসা ও ভালো লাগা": "localisation per profile bn.md §9: card 8 'Your Korean is really good!' → 'Your Bangla is really good!'",
+    "ফোন ও চ্যাটের সংক্ষেপ": "localisation per profile bn.md §9 (Minji→Rafi; Mr. Kim→Mr. Khan, a Bangladeshi family name the en-US voice reads unambiguously): cards 0 'Hello, this is Rafi.', 1 'Can I speak to Mr. Khan?'",
+    "ভ্রমণ (বিমানবন্দর ও হোটেল)": "localisation per profile bn.md §9: card 8 reservation name 'under Kim' → 'under Khan' (family name)",
+    "হাসপাতাল ও জরুরি অবস্থা": "localisation per profile bn.md §9: card 15 'the Korean embassy' → 'the Bangladesh embassy' (learner's own embassy)",
+    "বাংলিশ ফাঁদ": "bn-only deck (profile bn.md §9 trap table and deck-content notes, DECKNAMES row 21; 43 cards), appended last, after the shared alphabet deck. Cards 0–29 give the standard / American form for the 20 trap rows (uncountables information / advice / furniture; more better; I am knowing; lakh / crore; lift / flat / mobile; give an exam; eat medicine; drink a cigarette; today morning / yesterday night; cousin brother; good name; hotel = restaurant; current is gone; My head is paining; passed HSC; marks / result; coaching; discuss about / married with / return back; Myself Rafi; off day; bachelor / mess). Cards 30–42 are the bn-only pronunciation cards that §9 adds here instead of changing the shared pronunciation deck (zoo / Jew, vine / wine, ship / sheep, full / fool, see / she, heart / hurt, school; very, berry and hotel already exist in deck 18 and are not duplicated). Linked to the bn-only lesson banglish; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: the bn-only deck «বাংলিশ ফাঁদ» (profile bn.md §9, DECKNAMES row 21) is appended last, so bn-en has one deck more than the reference course"
+  },
+  "extraLessons": [
+    "banglish",
+    "articles-3"
+  ],
   "droppedLessons": []
 }
