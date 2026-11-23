@@ -1,0 +1,18 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "O sobie": "localisation per profile pl.md §9 (Minji→Anna, Korea→Poland, Seoul→Warsaw): cards 0 'My name is Anna.', 4 'I'm from Poland.', 5 'I live in Warsaw.'",
+    "Niezbędnik 1": "localisation per profile pl.md §9: card 12 'Do you speak Korean?' → 'Do you speak Polish?' (learner's own language)",
+    "Pogawędki": "localisation per profile pl.md §9: card 6 'Have you been to Korea?' → 'Have you been to Poland?'",
+    "Komplementy i sympatia": "localisation per profile pl.md §9: card 8 'Your Korean is really good!' → 'Your Polish is really good!'",
+    "Telefon i skróty z czatu": "localisation per profile pl.md §9 (Minji→Anna; surname only in phone / hotel scenes, Mr. Kim→Mr. Nowak): cards 0 'Hello, this is Anna.', 1 'Can I speak to Mr. Nowak?'",
+    "Podróże (lotnisko i hotel)": "localisation per profile pl.md §9: card 8 reservation name 'under Kim' → 'under Nowak' (surname)",
+    "Lekarz i nagłe wypadki": "localisation per profile pl.md §9: card 15 'the Korean embassy' → 'the Polish embassy' (learner's own embassy)",
+    "Wymowa: pułapki": "pl-only cards appended per profile pl.md §4.14 / §9 (cards 26–42): bad / bed / bat (æ vs e, final voicing), dog / dock (final voicing), ship / sheep (ɪ vs iː), hat / hut (æ vs ʌ, not Polish a twice), wine / vine (w = ł, v = w), sing / singing (ŋ without k), asked (-ed = /t/), comfortable, vegetable, camera (stress and spelling traps). think / sink, leave / live, walk / work and hotel are already in the shared cards. Original 26 cards unchanged",
+    "Fałszywi przyjaciele i kalki": "pl-only deck (profile pl.md §4.4 / §9 deck 22, DECKNAMES row 22), 30 cards: false friends (current, possibly, nice, salary, prescription, receipt, factory, tracksuit, warehouse, lettuce, special offer, complaint, rude, consistent, comprehensive, date, boss, billion), one Polish word for two English words (make a mistake, lend, teach) and calques from Polish (I'm twenty years old, this morning, at the age of twenty, I'm interested in history, Thanks in advance, take a photo, What does it look like?, a piece of advice, it for things); linked to the pl-only lesson ponglish; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: pl-only deck „Fałszywi przyjaciele i kalki” (profile pl.md §9, DECKNAMES row 22) appended last, after the shared alphabet deck"
+  },
+  "extraLessons": [],
+  "droppedLessons": []
+}
