@@ -111,7 +111,7 @@ module.exports = {
     { t: "mc", q: `'Umiinom ako ng kape ngayon mismo' sa Ingles?`, o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: `Ginagawa ngayon mismo, kaya "be" + anyong -ing. Iisa ang "umiinom" sa Tagalog, pero dito, present continuous ang kailangan.` },
     { t: "mc", q: `'Pumunta ako sa beach noong nakaraang weekend' sa Ingles?`, o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: `"Went" ang past form ng "go". Kahit may "last weekend", kailangan pa ring magbago ng verb. May article na "the" ang "the beach".` },
     { t: "mc", q: `Plano mo sa susunod na buwan: 'Pupunta ako sa Jeju.' Alin ang tama?`, o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: `Sa planong napag-isipan na, "be going to" + base form ang gamit.` },
-    { t: "mc", q: `May kumakatok sa pinto. Sasabihin mo agad: 'Ako na ang magbubukas!' Alin ang tama?`, o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: `"Will" ang gamit sa desisyong ginawa sa mismong sandali ng pagsasalita.` },
+    { t: "mc", q: `May kumakatok sa pinto. Sasabihin mo agad: 'Ako na ang magbubukas!' Alin ang tama?`, o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: `"Will" ang gamit sa pasyang ginawa sa mismong sandali ng pagsasalita.` },
     { t: "mc", q: `Ano ang past form ng "see"?`, o: ["saw", "seed", "seen", "sawed"], why: `Irregular na verb ang "see": see, saw, seen.` },
 
     { t: "order", p: `Sa bangko ako nagtatrabaho (palagi)`, a: ["I", "work", "at", "a", "bank"], x: ["the", "working"], why: `Present tense ang gamit sa palaging ginagawa. Isang bangko ito na unang beses binanggit, kaya article na "a".` },
@@ -138,7 +138,7 @@ module.exports = {
     { t: "order", p: `Nasa ibabaw ng mesa ang cellphone ko`, a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: `"On" ang gamit kapag nasa ibabaw. Ang mesang nakikita ninyo ang tinutukoy, kaya article na "the".` },
     { t: "order", p: `Kita tayo sa susunod na linggo`, a: ["See", "you", "next", "week"], x: ["on"], why: `Walang preposition bago ang "next".` },
 
-    { t: "fill", q: "The meeting is __ three.", p: `Alas-tres ang meeting`, a: ["at"], o: ["on", "to", "of"], why: `"At" ang gamit bago ang eksaktong oras.` },
+    { t: "fill", q: "The meeting is __ three.", p: `Alas-tres ang miting`, a: ["at"], o: ["on", "to", "of"], why: `"At" ang gamit bago ang eksaktong oras.` },
     { t: "fill", q: "I was born __ 1998.", p: `Ipinanganak ako noong 1998`, a: ["in"], o: ["on", "at", "to"], why: `"In" ang gamit bago ang taon.` },
     { t: "fill", q: "See you __ Friday.", p: `Kita tayo sa Biyernes`, a: ["on"], o: ["in", "at", "to"], why: `"On" ang gamit bago ang araw ng linggo.` },
 
@@ -215,10 +215,10 @@ module.exports = {
     { t: "mc", q: `Alin ang magandang pangwakas ng email tuwing Biyernes?`, o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: `Isang weekend ang tinutukoy, kaya may article na "a" at singular ang "weekend".` },
 
     { t: "order", p: `Kalakip nito ang report`, a: ["I've", "attached", "the", "report"], x: ["a"], why: `Ang report na matatanggap ng sinusulatan mo ang tinutukoy, kaya article na "the".` },
-    { t: "order", p: `Magtakda tayo ng isang meeting`, a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: `Wala pang napagkakasunduang meeting at isa lang ito, kaya article na "a".` },
+    { t: "order", p: `Magtakda tayo ng isang miting`, a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: `Wala pang napagkakasunduang miting at isa lang ito, kaya article na "a".` },
     { t: "order", p: `Aalamin ko muna, tapos babalikan kita`, a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: `"Get back to you" = sasagutin kita mamaya. "To" ang preposition dito.` },
 
-    { t: "fill", q: "Could you send me the file __ Friday?", p: `Puwede mo bang ipadala sa akin ang file hanggang Biyernes?`, a: ["by"], o: ["until", "in", "at"], why: `"By" + araw ang gamit sa deadline: hindi lalampas sa araw na iyon.` },
+    { t: "fill", q: "Could you send me the file __ Friday?", p: `Puwede mo bang ipadala sa akin ang file nang hindi lalampas sa Biyernes?`, a: ["by"], o: ["until", "in", "at"], why: `"By" + araw ang gamit sa deadline: hindi lalampas sa araw na iyon.` },
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: `Sumusulat ako para magtanong tungkol sa iskedyul`, a: ["to"], o: ["for", "about", "at"], why: `Sa pagsasabi ng pakay: "I'm writing to" + base form.` },
     { t: "fill", q: "Thanks for all your hard __!", p: `Salamat sa lahat ng pagsisikap ninyo!`, a: ["work"], o: ["works", "working", "job"], why: `Hindi nabibilang ang "work" (trabaho), kaya walang plural na -s.` },
 
@@ -230,7 +230,7 @@ module.exports = {
   idioms: [
     { t: "mc", q: `'Napakadali niyan' (idyoma) sa Ingles?`, o: ["It's a piece of cake.", "It's piece of cake.", "It's a piece of cakes.", "It's the piece of cake."], why: `Kabisaduhin nang buo ang idyoma: may article na "a" at singular ang "cake".` },
     { t: "mc", q: `'Napakamahal niyan' (idyoma) sa Ingles?`, o: ["It costs an arm and a leg.", "It costs a arm and a leg.", "It costs arm and leg.", "It costs an arm and an leg."], why: `Tunog na vowel ang simula ng "arm", kaya article na "an". Consonant ang simula ng "leg", kaya "a".` },
-    { t: "mc", q: `'Hanggang dito na lang muna tayo ngayong araw' (puwede kahit sa meeting) sa Ingles?`, o: ["Let's call it a day.", "Let's call it the day.", "Let's call a day.", "Let's call it day."], why: `Kabisaduhin nang buo ang "call it a day", kasama ang article na "a".` },
+    { t: "mc", q: `'Hanggang dito na lang muna tayo ngayong araw' (puwede kahit sa miting) sa Ingles?`, o: ["Let's call it a day.", "Let's call it the day.", "Let's call a day.", "Let's call it day."], why: `Kabisaduhin nang buo ang "call it a day", kasama ang article na "a".` },
     { t: "mc", q: `'Tuwang-tuwa ako' (idyoma) sa Ingles?`, o: ["I'm on cloud nine.", "I'm on cloud nines.", "I'm in cloud nine.", "I'm on the cloud nine."], why: `Walang article at walang plural na -s ang "on cloud nine".` },
     { t: "mc", q: `Alin ang slang na para lang sa magkakaibigan?`, o: ["No cap", "Let's call it a day", "It's a piece of cake", "I'm all ears"], why: `Slang ng mga kabataan ang "No cap" (totoo, walang biro). Mga idyoma ang iba, na puwede kahit sa trabaho.` },
 

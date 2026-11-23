@@ -62,7 +62,7 @@ It's not a big deal. | I'm so sorry I spilled your coffee! | It's not a big deal
 I love your shoes. | I love your shoes! Where did you get them? | Thanks! I got them in Cebu. | Ang ganda ng sapatos mo! Saan mo nabili? / Salamat! Sa Cebu ko nabili.
 Do you want to grab coffee sometime? | Do you want to grab coffee sometime? | Sure, I'd love to! | Gusto mo bang magkape tayo minsan? / Sige, gusto ko iyan!
 You're a lifesaver! | I brought you an extra charger. | You're a lifesaver! Thank you! | Dinalhan kita ng ekstrang charger. / Iniligtas mo ako! Salamat!
-I'll get back to you. | Can you join the meeting on Thursday? | Let me check my schedule, and I'll get back to you. | Makakasali ka ba sa miting sa Huwebes? / Titingnan ko muna ang schedule ko, tapos babalikan kita.
+I'll get back to you. | Can you join the meeting on Thursday? | Let me check my schedule, and I'll get back to you. | Makakasali ka ba sa miting sa Huwebes? / Titingnan ko muna ang iskedyul ko, tapos babalikan kita.
 I'm running late. | Where are you? The meeting starts in five minutes. | Sorry, I'm running late. I'll be there in ten. | Nasaan ka na? Limang minuto na lang at magsisimula na ang miting. / Pasensiya na, mahuhuli ako nang kaunti. Sampung minuto na lang at nandiyan na ako.
 Can we push the meeting to 3? | Can we push the meeting to 3? Something came up. | Sure, 3 works for me. | Puwede bang iurong sa alas-tres ang miting? May biglaan kasi akong aasikasuhin. / Sige, puwede ako ng alas-tres.
 What's the deadline? | What's the deadline for the proposal? | End of the day Friday. | Kailan ang deadline ng proposal? / Sa Biyernes, bago matapos ang araw.
@@ -126,7 +126,7 @@ I can't wait! | We're going to Hawaii next week. I can't wait! | Pupunta kami sa
 That color looks good on you. | That color looks good on you. You should wear it more often. | Bagay sa iyo ang kulay na iyan. Dapat mo itong isuot nang mas madalas.
 You made my day! | Thanks for the cookies. You made my day! | Salamat sa cookies. Pinasaya mo ang araw ko!
 Let me know if you have any questions. | I've attached the slides. Let me know if you have any questions. | Inilakip ko ang slides. Sabihan mo ako kung may tanong ka.
-Could you send me the file by Friday? | Could you send me the file by Friday? I need it for the presentation. | Puwede mo bang ipadala sa akin ang file hanggang Biyernes? Kailangan ko iyon para sa presentasyon.
+Could you send me the file by Friday? | Could you send me the file by Friday? I need it for the presentation. | Puwede mo bang ipadala sa akin ang file nang hindi lalampas sa Biyernes? Kailangan ko iyon para sa presentasyon.
 Let's touch base next week. | Let's touch base next week and see how things are going. | Mag-usap tayo sandali sa susunod na linggo para makita kung kumusta na ang takbo ng mga bagay.
 I'm working from home today. | I'm working from home today, so let's meet on Zoom. | Sa bahay ako nagtatrabaho ngayon, kaya sa Zoom na lang tayo mag-usap.
 Can I call you back? | I'm driving right now. Can I call you back? | Nagmamaneho ako ngayon. Puwede bang tawagan kita ulit mamaya?
@@ -152,7 +152,7 @@ Could you ~? | Magalang na hiling: "Puwede mo bang…?" Mas malumanay kaysa sa "
 Would you mind ~ing? | Napakagalang na hiling: "Ayos lang ba kung…?" Kapag payag ka, "No" ang sagot (hindi ka tututol) | Would you mind closing the window? | polite
 Can I get ~? | Pag-order sa tindahan o restawran: "Pahingi ng…" Pinakakaraniwan sa usapan sa Amerika | Can I get a large latte? | polite
 I'd like ~ | Magalang na anyo ng "want": "Gusto ko sana ng…" | I'd like a window seat, please. | polite
-a / an + noun | Isang nabibilang na bagay na unang beses binanggit. "an" bago ang tunog-vowel | I have an idea. | articles
+a / an + noun | Isang nabibilang na bagay na unang beses binanggit. "an" bago ang tunog na vowel | I have an idea. | articles
 the + noun | Ang tiyak na bagay na alam ninyong dalawa kung alin | Can you open the door? | articles
 I am / You are / She is | Ang verb na "be": kung ano, nasaan o ano ang kalagayan ng subject. Walang katumbas sa Tagalog, kaya huwag itong laktawan | She is a nurse. | be
 Do you ~? / Does he ~? | Tanong kapag may ibang verb bukod sa "be". "does" kapag he, she o it ang subject | Does he live here? | be

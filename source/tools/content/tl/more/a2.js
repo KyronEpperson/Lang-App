@@ -15,7 +15,7 @@ practice:[
 ["mc","'Nagluluto ako nang tumawag ka' sa Ingles?","I was cooking when you called.","I cooked when you were calling.","I was cook when you called.","I cooking when you called.","Past continuous ang ginagawa noon; past tense ang pangyayaring sumingit."],
 ["mc","'Ano ang ginagawa mo noon?' sa Ingles?","What were you doing?","What did you doing?","What was you doing?","What were you do?","\"Were\" ang kasama ng \"you\", at anyong -ing ang kasunod."],
 ["mc","They ___ playing soccer.","were","was","did","are","\"Were\" ang kasama ng \"they\"."],
-["mc","'Umuulan noon' sa Ingles?","It was raining.","It were raining.","It was rain.","It rained was.","\"It\" + \"was\" + anyong -ing."],
+["mc","'Umuulan noon' sa Ingles?","It was raining.","It were raining.","It was rain.","It rained was.","\"Was\" ang kasama ng \"it\", at anyong -ing ang kasunod."],
 ["or","Nagbabasa ako ng libro noon","I was reading a book","read books","Isang libro lang ang binabasa, kaya article na \"a\" at singular na \"book\"."],
 ["or","Natutulog ang mga bata noon","The kids were sleeping","kid was","Marami sila, kaya plural na \"kids\" at \"were\"."],
 ["or","Nanonood kami ng TV noon","We were watching TV","was","\"Were\" ang kasama ng \"we\"."],
@@ -35,13 +35,13 @@ practice:[
 {{ex:It'll be fine.|/ɪtl bi ˈfaɪn/|Magiging maayos iyan}}{{ex:I think it will rain.|/aɪ ˈθɪŋk ɪt wəl ˈreɪn/|Sa tingin ko, uulan}}
 <h3>will at be going to</h3>
 <div class="tbl"><table><tr><th></th><th>Kailan</th><th>Halimbawa</th></tr><tr><td class="k">will</td><td>pasya ngayon, pangako</td><td>I'll get the door.</td></tr><tr><td class="k">be going to</td><td>planong dati pa</td><td>I'm going to visit Cebu next month.</td></tr></table></div>
-<div class="tip">Madalas na mali: <b>I will to go.</b> ✗, <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ Base form lang ang kasunod ng "will".</div>`,
+<div class="tip">Madalas makalusot: <b>I will to go.</b> ✗, <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ Base form lang ang kasunod ng "will".</div>`,
 check:[["Tumutunog ang telepono. Paano mo sasabihin sa Ingles ang 'Ako na ang sasagot'?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"Ngayon lang napagpasyahan, kaya \"will\"."],["I ___ be late. (Hindi ako mahuhuli)",["won't","willn't","don't will","not will"],0,"\"Won't\" ang negatibo ng \"will\"."],["Aling pangungusap ang tungkol sa planong dati pa?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"\"Be going to\" ang gamit sa planong dati pa."]],
 practice:[
 ["mc","'Tutulungan kita' sa Ingles?","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","Base form ang kasunod ng \"will\"."],
 ["mc","Sa restawran, ngayon ka lang nakapili. 'Pasta ang sa akin' sa Ingles?","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","Ngayon lang napagpasyahan, kaya \"will\"."],
 ["mc","'Hindi ako mahuhuli' sa Ingles?","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","\"Won't\" ang pinaikling anyo ng \"will not\"."],
-["mc","'Darating ka ba?' sa Ingles?","Will you come?","Do you will come?","Will you coming?","Will come you?","\"Will\" + subject + base form."],
+["mc","'Darating ka ba?' sa Ingles?","Will you come?","Do you will come?","Will you coming?","Will come you?","Sa tanong, nasa unahan ang \"will\", saka ang subject at ang base form."],
 ["mc","Aling pangungusap ang tungkol sa planong dati pa?","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","\"Be going to\" ang gamit sa planong dati pa."],
 ["or","Tatawagan kita mamaya","I'll call you later","calling","Base form ang kasunod ng \"will\"."],
 ["or","Kape ang sa akin","I'll have a coffee","the coffees","Isang tasa ang inoorder, kaya article na \"a\"."],
@@ -63,20 +63,20 @@ practice:[
 <h3>Kapag sinabi kung kailan, past tense</h3>
 <p>Kapag may tapos nang panahon tulad ng last year, yesterday o in 2020, hindi ginagamit ang present perfect. Dito madalas madulas, dahil ang <i>na</i> ay <b>hindi laging</b> "have" + past participle: <i>Kumain na ako kahapon</i> → <b>I ate yesterday.</b></p>
 {{ex:I went to Japan last year.|/aɪ ˈwent tə dʒəˈpæn ˈlæst ˈjɪr/|Pumunta ako sa Japan noong nakaraang taon}}
-<div class="tip">Madalas na mali: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓ Hindi rin laging "already" ang <i>na</i>: <i>Nandito na ako</i> → <b>I'm here.</b> Hindi kailangan ng "already".</div>`,
-check:[["'Nakapunta ka na ba sa Japan?' sa Ingles?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Karanasan ang tinatanong: \"Have you ever\" + past participle."],["I ___ never seen that movie. Ano ang dapat ilagay sa patlang?",["am","did","have","was"],2,"\"Have\" + \"never\" + past participle."],["Alin ang tamang pangungusap?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"May tapos nang panahon (\"last year\"), kaya past tense."]],
+<div class="tip">Madalas makalusot: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓ Hindi rin laging "already" ang <i>na</i>: <i>Nandito na ako</i> → <b>I'm here.</b> Hindi kailangan ng "already".</div>`,
+check:[["'Nakapunta ka na ba sa Japan?' sa Ingles?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Karanasan ang tinatanong: \"Have you ever\" + past participle."],["I ___ never seen that movie. Ano ang dapat ilagay sa patlang?",["am","did","have","was"],2,"Ang \"hindi pa kahit kailan\" ay \"have\" + \"never\" + past participle."],["Alin ang tamang pangungusap?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"May tapos nang panahon (\"last year\"), kaya past tense."]],
 practice:[
 ["mc","'Nakapunta na ako sa Japan' sa Ingles?","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","\"Have\" + past participle na \"been\"."],
-["mc","Ano ang past participle ng \"see\"?","seen","saw","seed","seeing","see – saw – seen."],
-["mc","'Nakakain ka na ba ng kimchi?' sa Ingles?","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","\"Have you ever\" + past participle."],
-["mc","'Hindi ko pa iyon nakikita kahit kailan' sa Ingles?","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","\"Have\" + \"never\" + past participle."],
+["mc","Ano ang past participle ng \"see\"?","seen","saw","seed","seeing","Ganito ang tatlong anyo: see, saw, seen. \"Seen\" ang past participle."],
+["mc","'Nakakain ka na ba ng kimchi?' sa Ingles?","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","Karanasan ang itinatanong, kaya \"Have you ever\" + past participle ang gamit."],
+["mc","'Hindi ko pa iyon nakikita kahit kailan' sa Ingles?","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","Ang \"hindi pa kahit kailan\" ay \"have\" + \"never\" + past participle."],
 ["mc","Alin ang tamang pangungusap kapag may 'noong nakaraang taon'?","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","May tapos nang panahon, kaya past tense, kahit may \"na\" sa Tagalog."],
 ["or","Napanood ko na ang pelikulang iyon","I've seen the movie","a saw","Alam ninyong dalawa kung aling pelikula, kaya article na \"the\"."],
 ["or","Dalawang beses na akong nakapunta sa Korea","I've been to Korea twice","went","Past participle na \"been\" ang kasunod ng \"have\"."],
 ["or","Hindi pa ako nakakakita ng ahas kahit kailan","I've never seen a snake","the snakes","Kahit anong ahas, isa lang, kaya article na \"a\"."],
 ["fi","Have you ever __ to Busan?","Nakapunta ka na ba sa Busan?","been","be|went|go","Past participle na \"been\" ang kasunod ng \"have\"."],
 ["fi","I've __ eaten that.","Hindi pa ako nakakakain niyan kahit kailan","never","ever|no|not never","\"Never\" ang katumbas ng \"hindi pa kahit kailan\"."],
-["fi","She __ visited Korea twice.","Dalawang beses na siyang nakabisita sa Korea","has","have|is|did","\"Has\" ang kasama ng \"she\"."],
+["fi","She __ visited Korea twice.","Tungkol kay Ana: Dalawang beses na siyang nakabisita sa Korea","has","have|is|did","\"Has\" ang kasama ng \"she\"."],
 ["ty","Nakapunta ka na ba sa Japan?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","Karanasan ang tinatanong: \"Have you ever been to ...?\""],
 ["ty","Nabasa ko na ang librong iyon","I've read the book|I've read that book","I've · read · book — kailangan ng article","a","Alam ninyong dalawa kung aling libro, kaya article na \"the\"."],
 ["ty","Hindi pa ako nagkakaroon ng pusa kahit kailan","I've never had a cat","never · had · cat — kailangan ng article","the","Kahit anong pusa, isa lang, kaya article na \"a\"."]]},
@@ -107,12 +107,12 @@ practice:[
 ["or","Nagbabasa ng libro si Ana noon","She was reading a book","read books","Isang libro, hindi tiyak kung alin, kaya article na \"a\". Ginagawa noon, kaya \"was\" + -ing."],
 ["or","Nabasa ko na ang mga librong iyon","I've already read the books","book a","Marami at tiyak ang mga libro, kaya article na \"the\" at plural na \"books\"."],
 ["or","Kumain kami ng adobo kagabi","We ate adobo last night","eat the","Pagkain sa pangkalahatan ang \"adobo\", kaya walang article. May \"last night\", kaya \"ate\"."],
-["or","Isang oras nang naghihintay si Paolo","He's been waiting for an hour","a hours","Patinig ang unang tunog ng \"hour\" (hindi binibigkas ang h), kaya article na \"an\"."],
+["or","Isang oras nang naghihintay si Paolo","He's been waiting for an hour","a hours","Tunog na vowel ang simula ng \"hour\" (hindi binibigkas ang h), kaya article na \"an\"."],
 ["fi","I have __ seen that movie.","Napanood ko na ang pelikulang iyon","already","yet|still|ever","Sa positibong present perfect, \"already\" ang katumbas ng \"na\"."],
 ["fi","She was __ a book when I called.","Nagbabasa ng libro si Ana nang tumawag ako","reading","read|reads|to read","Ginagawa noon sa kuwentong nakaraan: \"was\" + anyong -ing."],
 ["fi","I haven't finished __.","Hindi pa ako tapos","yet","already|still|ever","Ang \"hindi pa\" ay negatibo + \"yet\" sa dulo."],
 ["ty","Kumain kami ng adobo kagabi","We ate adobo last night|Last night we ate adobo|We had adobo last night|Last night we had adobo","ate · adobo · last night — hindi kailangan ng article","the","Pagkain sa pangkalahatan ang \"adobo\", kaya walang article. Tapos na, kaya \"ate\"."],
-["ty","Isang oras na akong naghihintay","I've been waiting for an hour","have been · waiting · hour — ingat sa article","a","Patinig ang unang tunog ng \"hour\", kaya article na \"an\". May tagal at tuloy pa ngayon, kaya \"have been\" + -ing."],
+["ty","Isang oras na akong naghihintay","I've been waiting for an hour","have been · waiting · hour — ingat sa article","a","Tunog na vowel ang simula ng \"hour\", kaya article na \"an\". May tagal at tuloy pa ngayon, kaya \"have been\" + -ing."],
 ["ty","Nabili ko na ang mga tiket","I've already bought the tickets|I've bought the tickets already|I've bought the tickets|I already bought the tickets|I bought the tickets already","already · bought · ticket — plural ang kailangan","ticket","Marami at tiyak ang mga tiket, kaya article na \"the\" at plural na \"tickets\"."],
 ["ty","Ano ang sinabi sa iyo ni Ana? (gamitin ang \"she\")","What did she tell you|What did Ana tell you","what · did · she · tell — base form pagkatapos ng \"did\"","told","Pagkatapos ng \"did\", base form ang verb: \"tell\", hindi \"told\". Babae si Ana, kaya \"she\"."]]},
 { id:"modals", title:"have to, must, should, might: tungkulin at payo", blurb:"Kailangan, dapat, baka. At bakit hindi \"must not\" ang \"hindi kailangan\".", deck:"Ospital at emergency", body:`
@@ -127,18 +127,18 @@ practice:[
 {{ex:You should see a doctor.|/ju ʃəd ˈsiː ə ˈdɑːktər/|Dapat kang magpatingin sa doktor}}{{ex:You shouldn't worry.|/ju ˈʃʊdnt ˈwɜːri/|Hindi ka dapat mag-alala}}
 <h3>might: baka</h3>
 {{ex:It might rain.|/ɪt maɪt ˈreɪn/|Baka umulan}}{{ex:I might be late.|/aɪ maɪt bi ˈleɪt/|Baka mahuli ako}}
-<div class="tip">Madalas na mali: <b>You should to go.</b> ✗, <b>It might rains.</b> ✗ → <b>You should go.</b> ✓, <b>It might rain.</b> ✓ Walang "to" at walang -s pagkatapos ng should at might.</div>`,
+<div class="tip">Madalas makalusot: <b>You should to go.</b> ✗, <b>It might rains.</b> ✗ → <b>You should go.</b> ✓, <b>It might rain.</b> ✓ Walang "to" at walang -s pagkatapos ng should at might.</div>`,
 check:[["'Hindi mo kailangang pumunta' sa Ingles?",["You must not come.","You don't have to come.","You shouldn't to come.","You haven't to come."],1,"\"Don't have to\" ang katumbas ng \"hindi kailangan\". Ang \"must not\" ay bawal."],["Nagpapayo ka: You ___ see a doctor. Ano ang dapat ilagay sa patlang?",["might","have","should","must to"],2,"\"Should\" + base form ang gamit sa payo."],["She ___ to work today. Ano ang dapat ilagay sa patlang?",["have","must","should","has"],3,"\"Has to\" ang kasama ng \"she\"."]],
 practice:[
-["mc","'Kailangan kong magtrabaho bukas' sa Ingles?","I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow.","\"Have to\" + base form."],
+["mc","'Kailangan kong magtrabaho bukas' sa Ingles?","I have to work tomorrow.","I have work tomorrow.","I must to work tomorrow.","I should to work tomorrow.","Base form ang kasunod ng \"have to\"."],
 ["mc","'Hindi mo kailangang pumunta' sa Ingles?","You don't have to come.","You must not come.","You don't must come.","You haven't come to.","\"Don't have to\" ang katumbas ng \"hindi kailangan\"."],
 ["mc","'Dapat kang magpatingin sa doktor' sa Ingles?","You should see a doctor.","You should to see a doctor.","You should seeing a doctor.","You might a doctor see.","\"Should\" + base form; isang doktor, kaya article na \"a\"."],
-["mc","'Baka umulan' sa Ingles?","It might rain.","It might rains.","It might to rain.","It mights rain.","\"Might\" + base form, walang -s."],
+["mc","'Baka umulan' sa Ingles?","It might rain.","It might rains.","It might to rain.","It mights rain.","Base form ang kasunod ng \"might\", kaya walang -s."],
 ["mc","'Bawal manigarilyo rito' sa Ingles?","You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here.","\"Must not\" ang gamit sa bawal."],
 ["or","Dapat kang magpatingin sa doktor","You should see a doctor","the doctors","Kahit sinong doktor, isa lang, kaya article na \"a\"."],
 ["or","Kailangan ko nang umalis","I have to go now","going","Base form ang kasunod ng \"have to\"."],
 ["or","Kailangan mong bumili ng tiket","You have to buy a ticket","the tickets","Isang tiket lang, kaya article na \"a\" at singular na \"ticket\"."],
-["fi","She __ to study tonight.","Kailangan niyang mag-aral ngayong gabi","has","have|must|should","\"Has to\" ang kasama ng \"she\"."],
+["fi","She __ to study tonight.","Tungkol kay Ana: Kailangan niyang mag-aral ngayong gabi","has","have|must|should","\"Has to\" ang kasama ng \"she\"."],
 ["fi","You __ have to pay.","Hindi mo kailangang magbayad","don't|do not","must not|not|aren't","\"Don't have to\" ang katumbas ng \"hindi kailangan\"."],
 ["fi","It __ rain tomorrow.","Baka umulan bukas","might|may|could","must to|has to|should to","\"Might\" ang gamit sa posibilidad (\"baka\")."],
 ["ty","Kailangan kong magtrabaho","I have to work|I must work|I need to work","have to · work","should","\"Have to\" ang gamit sa tungkulin."],
@@ -153,7 +153,7 @@ practice:[
 {{ex:I enjoy cooking.|/aɪ ɪnˈdʒɔɪ ˈkʊkɪŋ/|Nasisiyahan ako sa pagluluto}}{{ex:I finished working.|/aɪ ˈfɪnɪʃt ˈwɜːrkɪŋ/|Tapos na akong magtrabaho}}{{ex:I don't mind waiting.|/aɪ ˈdoʊnt ˈmaɪnd ˈweɪtɪŋ/|Ayos lang sa akin ang maghintay}}
 <h3>Mga verb na puwede sa dalawa</h3>
 <p>Ang like, love at start ay puwedeng sundan ng "to" o ng -ing.</p>
-<div class="tip">Madalas na mali: <b>I want go.</b> ✗, <b>I enjoy to cook.</b> ✗ → <b>I want to go.</b> ✓, <b>I enjoy cooking.</b> ✓</div>`,
+<div class="tip">Madalas makalusot: <b>I want go.</b> ✗, <b>I enjoy to cook.</b> ✗ → <b>I want to go.</b> ✓, <b>I enjoy cooking.</b> ✓</div>`,
 check:[["I want ___ home. Ano ang dapat ilagay sa patlang?",["go","going","to go","to going"],2,"\"To\" + verb ang kasunod ng \"want\"."],["I enjoy ___ movies. Ano ang dapat ilagay sa patlang?",["watching","to watch","watch","to watching"],0,"Anyong -ing ang kasunod ng \"enjoy\"."],["'Gusto ko sanang umorder' sa Ingles?",["I'd like order.","I'd like ordering.","I like to ordering.","I'd like to order."],3,"\"To\" + verb ang kasunod ng \"would like\"."]],
 practice:[
 ["mc","I need ___ now.","to go","going","go","to going","\"To\" + verb ang kasunod ng \"need\"."],
@@ -165,7 +165,7 @@ practice:[
 ["or","Nasisiyahan akong manood ng mga pelikula","I enjoy watching movies","movie watch","Anyong -ing ang kasunod ng \"enjoy\"; mga pelikula sa pangkalahatan, kaya plural na \"movies\" at walang article."],
 ["or","Kailangan kong magpahinga","I need to rest","resting","\"To\" + verb ang kasunod ng \"need\"."],
 ["fi","I want __ a coffee.","Gusto kong uminom ng kape","to have|to drink|to get","have|having|drinking","\"To\" + verb ang kasunod ng \"want\"."],
-["fi","She enjoys __.","Nasisiyahan siya sa paglangoy","swimming","to swim|swim|swims","Anyong -ing ang kasunod ng \"enjoy\"."],
+["fi","She enjoys __.","Tungkol kay Ana: Nasisiyahan siya sa paglangoy","swimming","to swim|swim|swims","Anyong -ing ang kasunod ng \"enjoy\"."],
 ["fi","I decided __ English.","Nagpasya akong mag-aral ng Ingles","to study|to learn","study|studying|studied","\"To\" + verb ang kasunod ng \"decide\"."],
 ["ty","Gusto ko nang umuwi","I want to go home","want to · go · home — hindi kailangan ng article","the","\"To\" ang kasunod ng \"want\", at walang article bago ang \"home\"."],
 ["ty","Nasisiyahan akong magbasa ng mga libro (gamitin ang \"enjoy\")","I enjoy reading books|I enjoy reading","enjoy · read · book — plural ang kailangan","book","Anyong -ing ang kasunod ng \"enjoy\"; mga libro sa pangkalahatan, kaya plural na \"books\" at walang article."],
@@ -208,7 +208,7 @@ practice:[
 <h3>when: kapag siguradong mangyayari</h3>
 <p>Kapag sigurado nang mangyayari, "when" ang gamit sa halip na "if". Wala ring "will" pagkatapos nito. Sa Tagalog, <i>kapag</i> o <i>pag</i> ang madalas na katumbas ng dalawa.</p>
 {{ex:When I get home, I'll call you.|/wen aɪ ˈget ˈhoʊm aɪl ˈkɔːl ju/|Pag-uwi ko, tatawagan kita}}
-<div class="tip">Madalas na mali: <b>If it will rain, …</b> ✗ → <b>If it rains, …</b> ✓</div>`,
+<div class="tip">Madalas makalusot: <b>If it will rain, …</b> ✗ → <b>If it rains, …</b> ✓</div>`,
 check:[["If it ___ tomorrow, I'll stay home. Ano ang dapat ilagay sa patlang?",["will rain","rains","rained","raining"],1,"Present tense ang kasunod ng \"if\"."],["If you study, you ___ pass. Ano ang dapat ilagay sa patlang?",["pass will","passing","will pass","passed"],2,"Sa bahagi ng resulta, \"will\" + base form."],["Alin ang tamang pangungusap?",["If I have time, I'll call you.","If I will have time, I call you.","If I'll have time, I'll call you.","If I have time, I calling you."],0,"Present tense sa bahaging may \"if\", at \"will\" sa resulta."]],
 practice:[
 ["mc","If it ___, I'll stay home.","rains","will rain","rained","is rain","Present tense ang kasunod ng \"if\"."],
@@ -230,13 +230,13 @@ practice:[
 <h3>who para sa tao</h3>
 {{ex:I have a friend who speaks Tagalog.|/aɪ ˈhæv ə ˈfrend hu ˈspiːks təˈgɑːlɔːg/|May kaibigan akong marunong mag-Tagalog}}{{ex:the man who lives next door|/ðə ˈmæn hu ˈlɪvz ˈnekst ˈdɔːr/|ang lalaking nakatira sa katabing bahay}}
 <h3>that para sa bagay</h3>
-{{ex:the book that I bought|/ðə ˈbʊk ðət aɪ ˈbɔːt/|ang librong binili ko}}{{ex:This is the phone that I want.|/ˈðɪs ɪz ðə ˈfoʊn ðət aɪ ˈwɑːnt/|Ito ang teleponong gusto ko}}
+{{ex:the book that I bought|/ðə ˈbʊk ðət aɪ ˈbɔːt/|ang librong binili ko}}{{ex:This is the phone that I want.|/ˈðɪs ɪz ðə ˈfoʊn ðət aɪ ˈwɑːnt/|Ito ang cellphone na gusto ko}}
 <p>Puwede ring <b>which</b> para sa bagay, pero "that" ang mas karaniwan sa pagsasalita.</p>
 <h3>Madalas tanggalin ang that</h3>
 <p>Kapag subject + verb agad ang kasunod, puwedeng alisin ang "that". Sa pagsasalita, halos lagi itong inaalis.</p>
 {{ex:The movie we saw was great.|/ðə ˈmuːvi wi ˈsɔː wəz ˈgreɪt/|Napakaganda ng pelikulang pinanood namin}}
 <h3>where para sa lugar</h3>
-{{ex:the cafe where we met|/ðə kæˈfeɪ wer wi ˈmet/|ang kapihan kung saan kami nagkakilala}}
+{{ex:the cafe where we met|/ðə kæˈfeɪ wer wi ˈmet/|ang kapihan kung saan kami nagkita}}
 <div class="tip">Huwag ulitin ang pronoun: <b>the man who he lives next door</b> ✗ → <b>the man who lives next door</b> ✓ Ang "who" na mismo ang subject. Hindi rin ginagamit ang "what" dito: <b>the book what I bought</b> ✗</div>`,
 check:[["I have a friend ___ lives in Busan. Ano ang dapat ilagay sa patlang?",["which","who","what","he"],1,"\"Who\" ang gamit kapag tao ang inilalarawan."],["'ang librong binili ko' sa Ingles?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Noun muna, saka ang paglalarawang may \"that\"."],["Alin ang tamang pangungusap?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Nasa hulihan ng noun ang paglalarawan: \"the man who lives next door\"."]],
 practice:[

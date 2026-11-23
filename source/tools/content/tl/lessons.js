@@ -22,7 +22,7 @@ exports.LESSONS = [
 <h3>F at P, V at B</h3>
 <p>Sa <b>F</b> at <b>V</b>, dumidikit ang mga ngipin sa itaas sa ibabang labi. Sa <b>P</b> at <b>B</b>, nagdidikit ang dalawang labi. Puwedeng magkamali sa dalawang direksyon: <b>fan</b> na nagiging <b>pan</b>, at <b>pretty</b> na nagiging "fretty" dahil sa sobrang pag-iingat.</p>
 <div class="tbl"><table><tr><th>Tunog</th><th>Ayos ng bibig</th><th>Halimbawa</th></tr><tr><td class="k">F</td><td>Ngipin sa itaas sa ibabang labi, hangin lang</td><td>fan, coffee</td></tr><tr><td class="k">P</td><td>Magkadikit ang dalawang labi, saka bubuksan</td><td>pan, copy</td></tr><tr><td class="k">V</td><td>Ayos ng F, may ugong ng boses</td><td>very, vote</td></tr><tr><td class="k">B</td><td>Ayos ng P, may ugong ng boses</td><td>berry, boat</td></tr></table></div>
-{{ex:fan|/ˈfæn/|bentilador / tagahanga}}{{ex:pan|/ˈpæn/|kawali}}{{ex:very|/ˈveri/|napaka- / lubha}}{{ex:berry|/ˈberi/|maliit na prutas gaya ng strawberry}}{{ex:vote|/ˈvoʊt/|bumoto}}{{ex:boat|/ˈboʊt/|bangka}}
+{{ex:fan|/ˈfæn/|bentilador / tagahanga}}{{ex:pan|/ˈpæn/|kawali}}{{ex:very|/ˈveri/|talaga / napaka-}}{{ex:berry|/ˈberi/|maliit na prutas (gaya ng strawberry)}}{{ex:vote|/ˈvoʊt/|bumoto}}{{ex:boat|/ˈboʊt/|bangka}}
 <h3>TH</h3>
 <p>Ilabas nang bahagya ang dulo ng dila sa pagitan ng mga ngipin at magpalabas ng hangin. Kapag hangin lang, /θ/ ito ng <b>think</b>. Kapag may ugong ng boses, /ð/ ito ng <b>this</b>. Kapag /t/ o /d/ ang ipinalit, ibang salita ang maririnig: ang <b>three</b> ay nagiging <b>tree</b>, at ang <b>think</b> ay nagiging "tink".</p>
 {{ex:think|/ˈθɪŋk/|mag-isip}}{{ex:three|/ˈθriː/|tatlo}}{{ex:tree|/ˈtriː/|puno}}{{ex:this|/ˈðɪs/|ito}}
@@ -35,12 +35,12 @@ exports.LESSONS = [
 <p>Sa mga pantig na walang stress, kadalasang nagiging schwa /ə/ ang vowel: <b>about</b> /əˈbaʊt/, <b>banana</b> /bəˈnænə/. Huwag bigkasin nang buo ang bawat vowel gaya ng sa Tagalog.</p>
 <h3>R at L</h3>
 <p>Madali ito para sa iyo dahil may R at L na sa Tagalog. Isa lang ang babaguhin: sa R ng American English, hindi pumipitik ang dila. Umuurong ito at walang dinidikitan. Sa L, dumidikit ang dulo ng dila sa gilagid sa likod ng mga ngipin sa itaas.</p>
-{{ex:rice|/ˈraɪs/|bigas, kanin}}{{ex:lice|/ˈlaɪs/|mga kuto}}{{ex:right|/ˈraɪt/|kanan / tama}}{{ex:light|/ˈlaɪt/|ilaw / magaan}}
+{{ex:rice|/ˈraɪs/|kanin / bigas}}{{ex:lice|/ˈlaɪs/|mga kuto}}{{ex:right|/ˈraɪt/|kanan / tama}}{{ex:light|/ˈlaɪt/|ilaw / magaan}}
 <h3>Buuin ang dulo ng salita</h3>
 <p>Sa mabilis na pagsasalita, madalas mawala ang huling consonant kapag magkakasunod ang mga ito: <b>gift</b> /ˈgɪft/, <b>asked</b> /ˈæskt/, <b>works</b> /ˈwɜːrks/. Nasa dulo ang -s at ang -ed, kaya kapag nawala ang tunog, nawawala rin ang grammar. Nagpapalit din ng salita ang huling tunog: <b>bag</b> /ˈbæg/ (lalagyan) at <b>back</b> /ˈbæk/ (likod).</p>
 <h3>Stress at tono</h3>
 <p>Sa bawat salitang Ingles, may isang pantig na <b>mas malakas, mas mahaba at mas mataas</b>. Sa Tagalog, kadalasang nasa huli o pangalawa sa huling pantig ang diin, kaya doon din natin nailalagay ang stress ng mga salitang Ingles.</p>
-<div class="tbl"><table><tr><th>Salita</th><th>Stress</th><th>Bigkas (IPA)</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>/bəˈnænə/</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>/hoʊˈtel/</td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>/məkˈdɑːnəldz/</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>/ˌθɜːrˈtiːn/, /ˈθɜːrti/</td></tr><tr><td class="k">ceremony</td><td><b>CE</b>-re-mo-ny</td><td>/ˈserəmoʊni/</td></tr><tr><td class="k">comfortable</td><td><b>COM</b>-for-ta-ble</td><td>/ˈkʌmftəbl/</td></tr></table></div>
+<div class="tbl"><table><tr><th>Salita</th><th>Stress</th><th>Bigkas (IPA)</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>/bəˈnænə/</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>/hoʊˈtel/</td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>/məkˈdɑːnldz/</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>/ˌθɜːrˈtiːn/, /ˈθɜːrti/</td></tr><tr><td class="k">ceremony</td><td><b>CE</b>-re-mo-ny</td><td>/ˈserəmoʊni/</td></tr><tr><td class="k">comfortable</td><td><b>COM</b>-for-ta-ble</td><td>/ˈkʌmftəbl/</td></tr></table></div>
 <p>Sa mga tanong na nagsisimula sa question word (what, where, how), <b>bumababa</b> ang tono sa dulo: Where do you live? Tumataas lang ito sa mga tanong na masasagot ng yes o no: Do you live here?</p>
 <div class="tip">Paraan ng pagsusuri: sa F at V, dapat nakadikit ang mga ngipin sa itaas sa ibabang labi; sa TH, dapat <b>nakikita</b> ang dulo ng dila sa pagitan ng mga ngipin. Tumingin sa salamin habang nagsasanay. Sa /z/, hawakan ang lalamunan at damhin ang ugong.</div>`},
 
@@ -103,7 +103,7 @@ exports.LESSONS = [
 {{ex:I went to the beach last weekend.|/aɪ ˈwent tə ðə ˈbiːtʃ ˈlæst ˈwiːkend/|Pumunta ako sa beach noong nakaraang weekend}}{{ex:Did you have fun?|/dɪd ju ˈhæv ˈfʌn/|Nag-enjoy ka ba?}}
 <h3>Future: will at be going to</h3>
 <p>Iisa ang <i>kakain</i> o <i>pupunta</i> sa Tagalog. Sa Ingles, dalawa ang pagpipilian:</p>
-<div class="tbl"><table><tr><th></th><th>Kailan</th><th>Halimbawa</th></tr><tr><td class="k">will</td><td>desisyon sa mismong sandali ng pagsasalita, pangako</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>planong napag-isipan na</td><td>I'm going to visit Boracay next month.</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>Kailan</th><th>Halimbawa</th></tr><tr><td class="k">will</td><td>pasyang ginawa sa mismong sandali ng pagsasalita, pangako</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>planong napag-isipan na</td><td>I'm going to visit Boracay next month.</td></tr></table></div>
 {{ex:I'll call you later.|/aɪl ˈkɔːl ju ˈleɪtər/|Tatawagan kita mamaya}}{{ex:I'm going to take a cooking class.|/aɪm ˈgoʊɪŋ tə ˈteɪk ə ˈkʊkɪŋ ˈklæs/|Kukuha ako ng klase sa pagluluto (plano na)}}
 <p>Sa pagsasalita, parang <b>gonna</b> ang dinig sa going to. Sa pagsulat, going to pa rin.</p>
 <div class="tip">Sundan ang tense ng tanong. Sa "How was your weekend?", past tense ang sagot. Sa "Any plans for the weekend?", going to. Ito ang pinakamadaling paraan para hindi magkamali.</div>`},
@@ -112,7 +112,7 @@ exports.LESSONS = [
 <p>Narinig mo na siguro ang <b>on January</b> ✗ at <b>in Monday</b> ✗. Sa Tagalog, iisa ang <i>sa</i> para sa oras, lugar at direksyon: sa Enero, sa Lunes, sa alas-tres, sa Makati. Sa Ingles, tatlo ang preposition (pang-ukol) na pagpipilian. Ito ang pangkalahatang gabay: <b>habang lumalawak ang saklaw, in; habang tumitiyak, at</b>.</p>
 <h3>Oras</h3>
 <div class="tbl"><table><tr><th>Preposition</th><th>Saklaw</th><th>Halimbawa</th></tr><tr><td class="k">in</td><td>buwan, taon, panahon, bahagi ng araw</td><td>in January, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>araw ng linggo, petsa, espesyal na araw</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>eksaktong oras, maikling sandali</td><td>at 7, at noon, at night</td></tr></table></div>
-{{ex:See you on Friday.|/ˈsiː ju ɑːn ˈfraɪdeɪ/|Kita tayo sa Biyernes}}{{ex:The meeting is at three.|/ðə ˈmiːtɪŋ ɪz ət ˈθriː/|Alas-tres ang meeting}}{{ex:I was born in 1998.|/aɪ wəz ˈbɔːrn ɪn ˌnaɪnˈtiːn ˌnaɪnti ˈeɪt/|Ipinanganak ako noong 1998}}
+{{ex:See you on Friday.|/ˈsiː ju ɑːn ˈfraɪdeɪ/|Kita tayo sa Biyernes}}{{ex:The meeting is at three.|/ðə ˈmiːtɪŋ ɪz ət ˈθriː/|Alas-tres ang miting}}{{ex:I was born in 1998.|/aɪ wəz ˈbɔːrn ɪn ˌnaɪnˈtiːn ˌnaɪnti ˈeɪt/|Ipinanganak ako noong 1998}}
 <h3>Lugar</h3>
 <div class="tbl"><table><tr><th>Preposition</th><th>Larawan</th><th>Halimbawa</th></tr><tr><td class="k">in</td><td>loob ng isang espasyo; lungsod, bansa</td><td>in the car, in Makati, in the Philippines</td></tr><tr><td class="k">on</td><td>ibabaw, kalye, pampublikong sasakyan</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>isang tiyak na punto; lugar na may pakay</td><td>at the station, at work, at home</td></tr></table></div>
 {{ex:I'm on the bus.|/aɪm ɑːn ðə ˈbʌs/|Nasa bus ako}}{{ex:Let's meet at the station.|/ˈlets ˈmiːt ət ðə ˈsteɪʃn/|Magkita tayo sa istasyon}}
@@ -123,7 +123,7 @@ exports.LESSONS = [
 <div class="tip">Kabisaduhin din ang mga eksepsiyon: <b>at night</b> (sa gabi), pero <b>in the morning / afternoon / evening</b>. Sa American English, <b>on the weekend</b>; sa British English, at the weekend.</div>`},
 
 { id:"smalltalk", title:"7 · Kuwentuhan sa Ingles (small talk)", blurb:"Pagbati ang \"How are you?\", hindi tunay na tanong. Aling mga paksa ang ligtas, at alin ang iniiwasan?", deck:"Kuwentuhan", body:`
-<p>Sa Amerika, karaniwan ang maikling kuwentuhan kahit sa hindi kakilala: sa elevator, sa pila, bago magsimula ang meeting. Hindi ito malalim na usapan; <b>pampagaan lang ito ng samahan</b>. Kilala natin ito: pagbati rin sa atin ang <i>Kumain ka na?</i> at <i>Saan ka pupunta?</i> Pero huwag isalin ang mga ito nang literal. Tunay na tanong sa Ingles ang <b>Have you eaten?</b> at <b>Where are you going?</b>, kaya magtataka ang kausap mo.</p>
+<p>Sa Amerika, karaniwan ang maikling kuwentuhan kahit sa hindi kakilala: sa elevator, sa pila, bago magsimula ang miting. Hindi ito malalim na usapan; <b>pampagaan lang ito ng samahan</b>. Kilala natin ito: pagbati rin sa atin ang <i>Kumain ka na?</i> at <i>Saan ka pupunta?</i> Pero huwag isalin ang mga ito nang literal. Tunay na tanong sa Ingles ang <b>Have you eaten?</b> at <b>Where are you going?</b>, kaya magtataka ang kausap mo.</p>
 <h3>Pagbati ang How are you?</h3>
 <p>Hindi nito inaalam ang tunay mong kalagayan. Sumagot nang maikli at <b>ibalik ang tanong</b>.</p>
 {{ex:Hey, how's it going?|/ˈheɪ ˈhaʊz ɪt ˈgoʊɪŋ/|Uy, kumusta?}}{{ex:Pretty good! How about you?|/ˈprɪti ˈgʊd ‖ ˈhaʊ əbaʊt ˈjuː/|Ayos naman! Ikaw?}}
@@ -178,9 +178,9 @@ exports.LESSONS = [
 <div class="tbl"><table><tr><th>Bahagi</th><th>Halimbawa</th></tr><tr><td>Bati</td><td class="k">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>Unang linya (kumustahan, pakay)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>Katawan (hiling)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>Pangwakas</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>Pamamaalam</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
 <h3>Hi + pangalan ang karaniwang bati</h3>
 <p>Sa mga kompanyang Amerikano, ayos ang <b>Hi + unang pangalan</b> kahit unang beses kang sumusulat. Dear lang kapag napakapormal: Dear Ms. Santos. Iwasan ang "Dear Ma'am/Sir" at ang titulo lang (Dear Manager). Kapag hindi mo alam ang pangalan, ligtas ang <b>Hello,</b></p>
-{{ex:I hope this email finds you well.|/aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/|Sana ay nasa mabuti kang kalagayan}}{{ex:I'm writing to follow up on our meeting.|/aɪm ˈraɪtɪŋ tə ˈfɑːloʊ ˈʌp ɑːn aʊər ˈmiːtɪŋ/|Sumusulat ako para balikan ang napag-usapan natin sa meeting}}
+{{ex:I hope this email finds you well.|/aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/|Sana ay nasa mabuti kang kalagayan}}{{ex:I'm writing to follow up on our meeting.|/aɪm ˈraɪtɪŋ tə ˈfɑːloʊ ˈʌp ɑːn aʊər ˈmiːtɪŋ/|Sumusulat ako para balikan ang napag-usapan natin sa miting}}
 <h3>Malumanay ang hiling, malinaw ang deadline</h3>
-{{ex:Could you send me the report by Thursday?|/kəd ju ˈsend mi ðə rɪˈpɔːrt baɪ ˈθɜːrzdeɪ/|Puwede mo bang ipadala sa akin ang report hanggang Huwebes?}}{{ex:Thanks for your patience.|/ˈθæŋks fər jʊr ˈpeɪʃns/|Salamat sa paghihintay}}
+{{ex:Could you send me the report by Thursday?|/kəd ju ˈsend mi ðə rɪˈpɔːrt baɪ ˈθɜːrzdeɪ/|Puwede mo bang ipadala sa akin ang report nang hindi lalampas sa Huwebes?}}{{ex:Thanks for your patience.|/ˈθæŋks fər jʊr ˈpeɪʃns/|Salamat sa paghihintay}}
 <p>Sa halip na "Kindly send…", isulat ang <b>Could you send…?</b> May dating na nagmamadali ang ASAP; kung kaya, magbigay ng deadline gamit ang <b>by + araw</b>. Sa halip na "Please be informed that the office is closed on Monday", sabihin nang tuwiran: <b>The office is closed on Monday.</b></p>
 <h3>Mga pormulang Pinoy at ang katumbas nila</h3>
 <ul><li>Sa halip na "Good day!": <b>Hi Ana,</b> o <b>Hello,</b></li><li>Sa halip na "Thank you and God bless" o "More power!": <b>Thanks,</b> o <b>Best regards,</b></li><li>Pagkatapos ng isang proyekto: <b>Thanks for all your hard work!</b></li><li>Sa dulo ng email tuwing Biyernes: <b>Have a great weekend!</b></li><li>Kapag wala kang pasok kinabukasan: <b>I'm off tomorrow.</b></li></ul>
@@ -192,10 +192,10 @@ exports.LESSONS = [
 <p>Mas madaling matandaan ang karamihan ng idyoma kapag inilarawan mo sa isip ang eksena.</p>
 {{ex:It's a piece of cake.|/ɪts ə ˈpiːs əv ˈkeɪk/|Napakadali niyan (kasindali ng pagkain ng isang hiwa ng keyk)}}{{ex:It costs an arm and a leg.|/ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/|Napakamahal niyan (parang braso at binti ang ibabayad)}}{{ex:I'm all ears.|/aɪm ˈɔːl ˈɪrz/|Nakikinig ako nang mabuti (puro tainga ako)}}
 <h3>Mga kahawig sa Tagalog</h3>
-<div class="tbl"><table><tr><th>Ingles</th><th>Tagalog</th></tr><tr><td class="k">Speak of the devil!</td><td>Sinasabi kapag biglang dumating ang taong pinag-uusapan</td></tr><tr><td class="k">Kill two birds with one stone</td><td>Makatama ng dalawang ibon sa isang bato</td></tr><tr><td class="k">When pigs fly</td><td>Kapag pumuti na ang uwak</td></tr><tr><td class="k">A blessing in disguise</td><td>Biyayang mukhang problema sa simula</td></tr></table></div>
+<div class="tbl"><table><tr><th>Ingles</th><th>Katumbas o paliwanag sa Tagalog</th></tr><tr><td class="k">Speak of the devil!</td><td>Sinasabi kapag biglang dumating ang taong pinag-uusapan</td></tr><tr><td class="k">Kill two birds with one stone</td><td>Makatama ng dalawang ibon sa isang bato</td></tr><tr><td class="k">When pigs fly</td><td>Kapag pumuti na ang uwak</td></tr><tr><td class="k">A blessing in disguise</td><td>Biyayang mukhang problema sa simula</td></tr></table></div>
 <h3>Idyoma laban sa slang</h3>
 <p>Matagal nang ginagamit ang mga <b>idyoma</b>, kaya sinasabi ito ng lahat ng edad, kahit sa trabaho (Let's call it a day). Ang <b>slang</b> ay usong salita ng mga kabataan at para lang sa magkakaibigan (No cap, That song slaps), parang <i>charot</i> o <i>lodi</i> sa atin. Mabilis itong magbago, at nakakailang kapag ginamit sa maling lugar.</p>
-{{ex:Let's call it a day.|/ˈlets ˈkɔːl ɪt ə ˈdeɪ/|Hanggang dito na lang muna tayo ngayong araw (puwede kahit sa meeting)}}{{ex:No cap, this is the best pizza ever.|/ˈnoʊ ˈkæp ˈðɪs ɪz ðə ˈbest ˈpiːtsə ˈevər/|Totoo, ito ang pinakamasarap na pizza na natikman ko (sa magkakaibigan lang)}}
+{{ex:Let's call it a day.|/ˈlets ˈkɔːl ɪt ə ˈdeɪ/|Hanggang dito na lang muna tayo ngayong araw (puwede kahit sa miting)}}{{ex:No cap, this is the best pizza ever.|/ˈnoʊ ˈkæp ˈðɪs ɪz ðə ˈbest ˈpiːtsə ˈevər/|Totoo, ito ang pinakamasarap na pizza na natikman ko (sa magkakaibigan lang)}}
 <div class="tip">Kapag sunod-sunod ang idyoma, hindi na natural ang dating. Isa sa bawat usapan, sa tamang sandali, ay sapat na para humanga ang kausap mo sa Ingles mo.</div>`}
 ];
 
@@ -227,7 +227,7 @@ exports.CHECKS = {
   ],
   tense: [
     [`'Umiinom ako ng kape tuwing umaga' (ugali) sa Ingles?`, ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, `Present tense ang gamit sa ugali. Ang present continuous ay para sa ginagawa ngayon mismo.`],
-    [`Nakita mong walang dalang wallet ang kaibigan mo. Sasabihin mo agad: 'Ako na ang magbabayad!'`, ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, `"Will" ang gamit sa desisyong ginawa sa mismong sandali ng pagsasalita. Ang "going to" ay para sa planong napag-isipan na.`],
+    [`Nakita mong walang dalang wallet ang kaibigan mo. Sasabihin mo agad: 'Ako na ang magbabayad!'`, ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, `"Will" ang gamit sa pasyang ginawa sa mismong sandali ng pagsasalita. Ang "going to" ay para sa planong napag-isipan na.`],
     [`Ano ang past form ng "go"?`, ["goed","gone","going","went"], 3, `Irregular na verb ang "go": go, went, gone.`]
   ],
   prep: [
@@ -243,7 +243,7 @@ exports.CHECKS = {
   phrasal: [
     [`'Puwede mo bang patayin iyan?' Alin ang tamang pangungusap?`, ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, `Nasa gitna ng phrasal verb ang pronoun na "it": turn it off.`],
     [`Ano ang kahulugan ng "run out of"?`, ["tumakbo palabas","maubusan ng isang bagay","tumakas mula sa isang lugar","dumating nang huli"], 1, `We ran out of milk. = Naubusan kami ng gatas.`],
-    [`'Ipagpaliban natin ang meeting hanggang sa susunod na linggo' sa Ingles?`, ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, `"Put off" = ipagpaliban. Ang "put on" ay isuot o buksan; ang "put out" ay patayin ang apoy.`]
+    [`'Ipagpaliban natin ang miting hanggang sa susunod na linggo' sa Ingles?`, ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, `"Put off" = ipagpaliban. Ang "put on" ay isuot o buksan; ang "put out" ay patayin ang apoy.`]
   ],
   numbers: [
     [`Paano sabihin ang 50,000 sa Ingles?`, ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, `50 + thousand = fifty thousand. Walang -s ang "thousand" pagkatapos ng numero.`],

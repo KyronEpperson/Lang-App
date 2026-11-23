@@ -63,7 +63,7 @@ Can you help me? | /kən ju ˈhelp mi/ | Puwede mo ba akong tulungan? | Mas maga
 "Mahahalagang pangungusap 2": `
 Where's the restroom? | /ˈwerz ðə ˈrestruːm/ | Nasaan ang CR? / Nasaan po ang banyo? | Sa Pilipinas: "CR" o "comfort room", na hindi kilala sa Amerika. Doon: "restroom" sa pampublikong lugar, "bathroom" sa bahay. Ang "toilet" ay ang inidoro mismo.
 How much is this? | /ˈhaʊ ˈmʌtʃ ɪz ˈðɪs/ | Magkano ito? | Kapag marami: "How much are these?"
-Is there an ATM around here? | /ɪz ðer ən ˌeɪ tiː ˈem əˈraʊnd ˈhɪr/ | May ATM ba malapit dito? | "an" at hindi "a", dahil tunog-vowel ang simula ng "ATM": /ˌeɪ tiː ˈem/.
+Is there an ATM around here? | /ɪz ðer ən ˌeɪ tiː ˈem əˈraʊnd ˈhɪr/ | May ATM ba malapit dito? | "an" at hindi "a", dahil tunog na vowel ang simula ng "ATM": /ˌeɪ tiː ˈem/.
 Can I get the Wi-Fi password? | /kən aɪ ˈget ðə ˈwaɪfaɪ ˈpæswɜːrd/ | Puwede bang malaman ang password ng Wi-Fi? | Puwede ring itanong: "Is there Wi-Fi here?"
 I'm lost. | /aɪm ˈlɔːst/ | Naliligaw ako | Puwede mong ipakita ang mapa at itanong: "Where am I on this map?"
 Can I pay by card? | /kən aɪ ˈpeɪ baɪ ˈkɑːrd/ | Puwede bang card ang ibayad? | "by card", walang article; puwede ring "with a card". Halos lahat ng tindahan sa Amerika ay tumatanggap ng card, pero hindi ang mga e-wallet natin.
@@ -81,7 +81,7 @@ After you. | /ˈæftər ˈjuː/ | Mauna ka na / Kayo na po muna | Sinasabi sa pi
 Watch out! | /ˈwɑːtʃ ˈaʊt/ | Ingat! / Mag-ingat ka! | Isinisigaw kapag may panganib. Ganoon din ang "Look out!"
 `,
 "Direksyon at sasakyan": `
-How do I get to the subway station? | /ˈhaʊ də aɪ ˈget tə ðə ˈsʌbweɪ ˈsteɪʃn/ | Paano pumunta sa istasyon ng subway? | Palitan lang ang destinasyon: "How do I get to the airport?" Ang "subway" sa Amerika ay tren sa ilalim ng lupa, parang MRT o LRT natin. Sa UK: "underground" o "tube".
+How do I get to the subway station? | /ˈhaʊ də aɪ ˈget tə ðə ˈsʌbweɪ ˈsteɪʃn/ | Paano pumunta sa istasyon ng subway? | Palitan lang ang destinasyon: "How do I get to the airport?" Ang "subway" sa Amerika ay tren sa ilalim ng lupa; ang pinakamalapit dito sa atin ay ang MRT at LRT. Sa UK: "underground" o "tube".
 Is it far from here? | /ɪz ɪt ˈfɑːr frəm ˈhɪr/ | Malayo ba iyon mula rito? | Sa American English, laging binibigkas ang "r" sa dulo ng "far".
 Is it within walking distance? | /ɪz ɪt wɪðɪn ˈwɔːkɪŋ ˈdɪstəns/ | Kaya bang lakarin? | Puwede ring itanong: "Can I walk there?"
 Go straight. | /ˈgoʊ ˈstreɪt/ | Dumiretso ka lang | "Go straight for two blocks." Sa Amerika, "block" (mula isang kanto hanggang sa susunod) ang panukat ng layo.
@@ -91,12 +91,12 @@ It's across the street. | /ɪts əkrɔːs ðə ˈstriːt/ | Nasa kabilang kalye 
 It's next to the bank. | /ɪts ˈnekst tə ðə ˈbæŋk/ | Katabi iyon ng bangko | Isang /t/ lang ang naririnig sa "next to" dahil nagdudugtong ang dalawang "t".
 Which line goes downtown? | /ˈwɪtʃ ˈlaɪn ˈgoʊz ˌdaʊnˈtaʊn/ | Aling linya ang papunta sa sentro ng lungsod? | Walang "to" at walang article bago ang "downtown": "go downtown". May -s ang "goes" dahil singular ang "line".
 Where do I transfer? | /ˈwer də aɪ trænsˈfɜːr/ | Saan ako lilipat ng sasakyan? | Sa British English, "change" ang gamit: "Where do I change?"
-Does this bus go to the airport? | /dəz ˈðɪs ˈbʌs ˈgoʊ tə ði ˈerpɔːrt/ | Dumadaan ba sa airport ang bus na ito? | "Does" + base form: "go", hindi "goes". Bago ang tunog-vowel, /ði/ ang bigkas ng "the": "the airport".
+Does this bus go to the airport? | /dəz ˈðɪs ˈbʌs ˈgoʊ tə ði ˈerpɔːrt/ | Dumadaan ba sa airport ang bus na ito? | "Does" + base form: "go", hindi "goes". Bago ang tunog na vowel, /ði/ ang bigkas ng "the": "the airport".
 Which stop should I get off at? | /ˈwɪtʃ ˈstɑːp ʃəd aɪ ˈget ˈɔːf æt/ | Saang hintuan ako dapat bumaba? | "get off" ang pagbaba sa bus, tren o jeep, hindi "go down". Nasa dulo ng tanong ang "at".
 One ticket to Boston, please. | /ˈwʌn ˈtɪkɪt tə ˈbɔːstən ˈpliːz/ | Isang tiket papuntang Boston | "to" bago ang destinasyon. Kapag dalawa: "Two tickets", may plural na -s.
 Round trip or one way? | /ˈraʊnd ˈtrɪp ər ˈwʌn ˈweɪ/ | Balikan o one way lang? | Sa British English: "Return or single?"
 Can you take me to this address? | /kən ju ˈteɪk mi tə ˈðɪs ˈædres/ | Puwede mo ba akong ihatid sa address na ito? | Ipakita sa driver ang address sa telepono mo para walang kalituhan.
-Could you pull over here? | /kəd ju ˈpʊl ˈoʊvər ˈhɪr/ | Puwede bang itabi mo rito? / Para po rito | Para sa taxi o kotse kapag bababa ka na. Puwede rin: "Right here is fine." Walang katumbas ang "Para!" sa Ingles.
+Could you pull over here? | /kəd ju ˈpʊl ˈoʊvər ˈhɪr/ | Puwede bang itabi mo rito? / Para po rito | Para sa taksi o kotse kapag bababa ka na. Puwede rin: "Right here is fine." Walang katumbas ang "Para!" sa Ingles.
 How long does it take? | /ˈhaʊ ˈlɔːŋ dəz ɪt ˈteɪk/ | Gaano katagal ang biyahe? | Sagot: "About 20 minutes."
 Is this seat taken? | /ɪz ˈðɪs ˈsiːt ˈteɪkən/ | May nakaupo ba rito? | Kung wala: "No, go ahead." Mahaba at banat ang /iː/ sa "seat"; kapag maikli at maluwag, "sit" ang maririnig.
 `,
@@ -116,11 +116,11 @@ Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | Masarap ang lahat | Sagot
 Can we get the check, please? | /kən wi ˈget ðə ˈtʃek ˈpliːz/ | Puwede na pong makuha ang bill? | "check" sa Amerika, "bill" sa UK at sa atin. Sa Amerika, sa mesa ka nagbabayad, at madalas dinadala ang check kahit hindi mo pa hinihingi.
 Can we split the bill? | /kən wi ˈsplɪt ðə ˈbɪl/ | Puwede bang hati-hati kami sa bayad? | KKB sa atin. Kung kani-kaniyang resibo ang gusto ninyo: "separate checks".
 It's on me. | /ɪts ɑːn ˈmiː/ | Libre ko / Sagot ko | Ganoon din ang "My treat!"
-Can I get this to go? | /kən aɪ ˈget ˈðɪs tə ˈgoʊ/ | Puwede bang ipabalot ito? | Sa Amerika, "to go" ang sinasabi sa pag-order, hindi "take out". Para sa tirang pagkain: "Can I get a box?"
+Can I get this to go? | /kən aɪ ˈget ˈðɪs tə ˈgoʊ/ | Puwede bang ipabalot ito? | Sa Amerika, "to go" ang sinasabi sa counter kapag iuuwi ang pagkain; hindi roon sinasabi ang "take out" gaya sa atin. Para sa tirang pagkain: "Can I get a box?"
 Is the tip included? | /ɪz ðə ˈtɪp ɪnˈkluːdɪd/ | Kasama na ba ang tip? | Sa atin, kadalasan ay may service charge na o barya lang ang iniiwan. Sa mga restawran sa Amerika, inaasahan ang tip na 15% hanggang 20%.
 `,
 "Kapihan at convenience store": `
-Can I get an iced Americano? | /kən aɪ ˈget ən ˈaɪst əˌmerɪˈkɑːnoʊ/ | Isang iced Americano po | "iced", hindi "ice": mahina ang -d pero nandoon. Article na "an" dahil tunog-vowel ang simula ng "iced".
+Can I get an iced Americano? | /kən aɪ ˈget ən ˈaɪst əˌmerɪˈkɑːnoʊ/ | Isang iced Americano po | "iced", hindi "ice": mahina ang -d pero nandoon. Article na "an" dahil tunog na vowel ang simula ng "iced".
 What size would you like? | /ˈwʌt ˈsaɪz wəd ju ˈlaɪk/ | Anong size ang gusto ninyo? | Itatanong ito ng staff.
 Small, please. | /ˈsmɔːl ˈpliːz/ | Maliit lang po | Karaniwan: small, medium, large. Sa Starbucks: tall, grande, venti.
 For here or to go? | /fər ˈhɪr ər tə ˈgoʊ/ | Dito kakain o take out? | Sa atin: "Dine in or take out?" Sa British English: "Eat in or take away?"
@@ -135,7 +135,7 @@ Do you sell phone chargers? | /də ju ˈsel ˈfoʊn ˈtʃɑːrdʒərz/ | Nagtiti
 Can you heat this up? | /kən ju ˈhiːt ˈðɪs ˈʌp/ | Puwede bang painitin ito? | Pinagdudugtong ang bigkas: "heat this up".
 That's it. | /ˈðæts ˈɪt/ | Iyan lang / Wala na | Sagot kapag nagtanong ang staff ng "Anything else?"
 Here you go. | /ˈhɪr ju ˈgoʊ/ | Heto / Ito po | Sinasabi habang iniaabot ang bayad o anumang bagay.
-Keep the change. | /ˈkiːp ðə ˈtʃeɪndʒ/ | Sa iyo na ang sukli | Madalas itong pumalit sa tip sa taxi o delivery sa Amerika. Hindi nabibilang ang "change" (sukli), kaya walang "changes".
+Keep the change. | /ˈkiːp ðə ˈtʃeɪndʒ/ | Sa iyo na ang sukli | Madalas itong pumalit sa tip sa taksi o delivery sa Amerika. Hindi nabibilang ang "change" (sukli), kaya walang "changes".
 `,
 "Pamimili at pagbabayad": `
 I'm just looking, thanks. | /aɪm ˈdʒʌst ˈlʊkɪŋ ˈθæŋks/ | Tumitingin lang ako, salamat | Sagot kapag nagtanong ang staff ng "Can I help you find anything?"
@@ -234,11 +234,11 @@ That's very kind of you. | /ˈðæts ˈveri ˈkaɪnd əv ju/ | Napakabait mo nam
 `,
 "Trabaho at email": `
 I hope this email finds you well. | /aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/ | Sana ay nasa mabuti kang kalagayan | Pambungad ng pormal na email. Mas magaan: "I hope you're doing well." Simulan ang email sa "Dear Ms. Santos," o "Hi Ana,", hindi sa "Good day, Ma'am/Sir!"
-I'm writing to ask about the schedule. | /aɪm ˈraɪtɪŋ tu ˈæsk əbaʊt ðə ˈskedʒuːl/ | Sumusulat ako para magtanong tungkol sa schedule | Sabihin agad ang layunin sa unang pangungusap: "I'm writing to" + layunin.
+I'm writing to ask about the schedule. | /aɪm ˈraɪtɪŋ tu ˈæsk əbaʊt ðə ˈskedʒuːl/ | Sumusulat ako para magtanong tungkol sa iskedyul | Sabihin agad ang layunin sa unang pangungusap: "I'm writing to" + layunin.
 I've attached the report. | /aɪv əˈtætʃt ðə rɪˈpɔːrt/ | Inilakip ko ang report | Mas pormal at mas matigas ang "Please find attached…".
 Just a quick reminder about tomorrow's meeting. | /ˈdʒʌst ə ˈkwɪk rɪˈmaɪndər əbaʊt təˈmɑːroʊz ˈmiːtɪŋ/ | Paalala lang tungkol sa miting bukas | Malumanay na paraan ng pagpapaalala.
 Let me know if you have any questions. | /ˈlet mi ˈnoʊ ɪf ju ˈhæv ˈeni ˈkwestʃənz/ | Sabihan mo ako kung may tanong ka | Pinakakaraniwang pangwakas ng email. Plural ang noun pagkatapos ng "any": "any questions".
-Could you send me the file by Friday? | /kəd ju ˈsend mi ðə ˈfaɪl baɪ ˈfraɪdeɪ/ | Puwede mo bang ipadala sa akin ang file hanggang Biyernes? | "by" = hindi lalampas ng (deadline); "until" = tuloy-tuloy hanggang. Sa labas ng Pilipinas, mas karaniwan ang "Could you…?" kaysa sa "Kindly…".
+Could you send me the file by Friday? | /kəd ju ˈsend mi ðə ˈfaɪl baɪ ˈfraɪdeɪ/ | Puwede mo bang ipadala sa akin ang file nang hindi lalampas sa Biyernes? | "by" = hindi lalampas sa (deadline); "until" = tuloy-tuloy hanggang. Sa labas ng Pilipinas, mas karaniwan ang "Could you…?" kaysa sa "Kindly…".
 Sorry for the late reply. | /ˈsɑːri fər ðə ˈleɪt rɪˈplaɪ/ | Pasensiya na at ngayon lang ako nakasagot | Puwede rin: "Thanks for your patience."
 Thanks for getting back to me. | /ˈθæŋks fər ˈgetɪŋ ˈbæk tə mi/ | Salamat sa pagsagot mo | "get back to" = sumagot o bumalik sa usapan.
 Best regards, | /ˈbest rɪˈgɑːrdz/ | Lubos na gumagalang, (pangwakas ng email) | Mas kaswal: "Best," o "Thanks,". May -s ang "regards" dito, pero wala sa "with regard to".
@@ -249,7 +249,7 @@ I'll get back to you. | /aɪl ˈget ˈbæk tə ju/ | Babalikan kita tungkol diya
 Can you walk me through it? | /kən ju ˈwɔːk mi θruː ɪt/ | Puwede mo bang ipaliwanag sa akin nang isa-isa? | "walk through" = ipaliwanag nang hakbang-hakbang.
 Let's touch base next week. | /ˈlets ˈtʌtʃ ˈbeɪs ˈnekst ˈwiːk/ | Mag-usap tayo sandali sa susunod na linggo | Ibig sabihin, maikling kumustahan tungkol sa takbo ng trabaho.
 What's the deadline? | /ˈwʌts ðə ˈdedlaɪn/ | Kailan ang deadline? | Ganoon din: "When is this due?"
-I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | Sa bahay ako nagtatrabaho ngayon | Pinaikli: WFH. Walang article: "from home".
+I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | Sa bahay ako nagtatrabaho ngayong araw | Pinaikli: WFH. Walang article: "from home".
 I'm off tomorrow. | /aɪm ˈɔːf təˈmɑːroʊ/ | Wala akong pasok bukas | Kapag magli-leave ka: "I'm taking a day off tomorrow."
 Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | Salamat sa lahat ng pagsisikap mo | Hindi nabibilang ang "work" (trabaho), kaya walang "works" at walang "a". Sa pag-uwi, sapat na ang "See you tomorrow!"
 `,
@@ -262,7 +262,7 @@ Sorry, you're breaking up. | /ˈsɑːri jʊr ˈbreɪkɪŋ ˈʌp/ | Pasensiya na,
 Can I call you back? | /kən aɪ ˈkɔːl ju ˈbæk/ | Puwede bang tawagan kita ulit mamaya? | Kapag abala ka: "I'm in a meeting. Can I call you back?"
 I'll text you. | /aɪl ˈtekst ju/ | Ite-text kita | Verb din ang "text" sa Ingles, gaya sa atin.
 I'm on my way. | /aɪm ɑːn maɪ ˈweɪ/ | Papunta na ako | Sa text: OMW; OTW ang mas kilala sa atin. Sabihin lang ito kapag nakaalis ka na talaga.
-LOL | /ˌel oʊ ˈel/ | haha (laughing out loud) | Hindi talaga humahalakhak ang nag-type nito; parang "haha" o "hehe" lang sa chat.
+LOL | /ˌel oʊ ˈel/ | haha (laughing out loud) | Hindi talaga humahalakhak ang sumulat nito; parang "haha" o "hehe" lang sa chat.
 BRB | /ˌbiː ɑːr ˈbiː/ | babalik agad ako (be right back) | Kapag aalis ka sandali sa chat o laro.
 BTW | /ˌbiː tiː ˈdʌbəljuː/ | siyanga pala (by the way) | Panlipat ng paksa.
 TBH | /ˌtiː biː ˈeɪtʃ/ | sa totoo lang (to be honest) | Puwede sa unahan o sa dulo ng pangungusap.
@@ -279,7 +279,7 @@ I'm here for sightseeing. | /aɪm ˈhɪr fər ˈsaɪtsiːɪŋ/ | Nandito ako par
 I'm staying for a week. | /aɪm ˈsteɪɪŋ fər ə ˈwiːk/ | Isang linggo ako rito | Sagot sa "How long are you staying?"
 I'm staying at the Hilton. | /aɪm ˈsteɪɪŋ ət ðə ˈhɪltən/ | Sa Hilton ako tutuloy | Sagot sa "Where are you staying?" May article na "the" ang pangalan ng maraming hotel: "the Hilton".
 Window or aisle? | /ˈwɪndoʊ ər ˈaɪl/ | Sa bintana o sa pasilyo? | Hindi binibigkas ang "s" sa "aisle": /ˈaɪl/.
-I'd like an aisle seat, please. | /aɪd ˈlaɪk ən ˈaɪl ˈsiːt ˈpliːz/ | Gusto ko po sana ng upuan sa pasilyo | Article na "an" dahil tunog-vowel ang simula ng "aisle". Sa bintana: "a window seat".
+I'd like an aisle seat, please. | /aɪd ˈlaɪk ən ˈaɪl ˈsiːt ˈpliːz/ | Gusto ko po sana ng upuan sa pasilyo | Article na "an" dahil tunog na vowel ang simula ng "aisle". Sa bintana: "a window seat".
 Where is the baggage claim? | /ˈwer ɪz ðə ˈbægɪdʒ ˈkleɪm/ | Nasaan ang kuhanan ng bagahe? | Sa British English: "baggage reclaim".
 My luggage is missing. | /maɪ ˈlʌgɪdʒ ɪz ˈmɪsɪŋ/ | Nawawala ang bagahe ko | Hindi nabibilang ang "luggage" at "baggage": walang "luggages", at "is" ang verb. Kung bibilangin: "two bags" o "two pieces of luggage".
 I have a reservation under Santos. | /aɪ ˈhæv ə ˌrezərˈveɪʃn ʌndər ˈsæntoʊs/ | May reservation ako sa pangalang Santos | "under" + pangalan ng nagpareserba. Kung kailangan, baybayin: "S-A-N-T-O-S".
@@ -328,7 +328,7 @@ put off | /ˈpʊt ˈɔːf/ | ipagpaliban | Mas karaniwan sa usapan kaysa sa "pos
 show up | /ˈʃoʊ ˈʌp/ | sumipot / dumating | "He didn't show up to the party." (Hindi siya sumipot sa party.)
 hang out | /ˈhæŋ ˈaʊt/ | tumambay / gumala kasama ang mga kaibigan | Para sa matatanda, "hang out" ang gamit, hindi "play". Sa atin, "gimmick" ang tawag dito; iba ang kahulugan ng salitang iyon sa Amerika.
 check out | /ˈtʃek ˈaʊt/ | tingnan / silipin | "Check out this video!" Ginagamit din sa pag-alis sa hotel.
-work out | /ˈwɜːrk ˈaʊt/ | mag-ehersisyo / maayos | "I work out every day." at "It'll work out." (Maaayos din iyan.)
+work out | /ˈwɜːrk ˈaʊt/ | mag-ehersisyo / maging maayos (ang kinalabasan) | "I work out every day." at "It'll work out." (Maaayos din iyan.)
 come up with | /ˈkʌm ˈʌp wɪð/ | makaisip ng (ideya) | Para sa ideya, dahilan o solusyon: "She came up with a great idea."
 get along with | /ˈget əˈlɔːŋ wɪð/ | makasundo | "I get along with my coworkers." (Kasundo ko ang mga katrabaho ko.)
 calm down | /ˈkɑːm ˈdaʊn/ | kumalma / huminahon | Hindi binibigkas ang "l" sa "calm". Kapag sinabi mo ito sa taong galit, baka lalo siyang magalit.
@@ -340,7 +340,7 @@ wake up | /ˈweɪk ˈʌp/ | magising | "wake up" ang pagdilat ng mata; "get up" 
 `,
 "Ingat sa bigkas": `
 rice | /ˈraɪs/ | kanin / bigas | Kaya mo na ang R at L dahil pareho silang nasa Tagalog. Ang kaibahan: sa American na "r", hindi pumipitik ang dila at hindi ito dumidikit kahit saan.
-lice | /ˈlaɪs/ | kuto | L: dumidikit ang dulo ng dila sa likod ng mga ngipin sa itaas, gaya ng "l" natin.
+lice | /ˈlaɪs/ | mga kuto | L: dumidikit ang dulo ng dila sa likod ng mga ngipin sa itaas, gaya ng "l" natin.
 right | /ˈraɪt/ | kanan / tama | Nagsisimula sa R. Itigil ang /t/ sa dulo nang walang dagdag na vowel.
 light | /ˈlaɪt/ | ilaw / magaan | Nagsisimula sa L. /aɪ/ ang vowel, parang "ay" sa "bahay".
 fan | /ˈfæn/ | bentilador / tagahanga | F: idikit ang mga ngipin sa itaas sa ibabang labi at magpalabas ng hangin. Kapag nagdikit ang dalawang labi, "pan" ang lalabas. /æ/ ang vowel: ibuka nang maluwang ang bibig.
@@ -380,7 +380,7 @@ hiss | /ˈhɪs/ | sagitsit (ng ahas) | /s/ ang dulo, walang boses.
 It's a piece of cake. | /ɪts ə ˈpiːs əv ˈkeɪk/ | Sisiw lang iyan | Napakadali: "The test was a piece of cake."
 I'm on cloud nine. | /aɪm ɑːn ˈklaʊd ˈnaɪn/ | Nasa alapaap ako sa tuwa | Sinasabi kapag sobrang saya mo.
 It costs an arm and a leg. | /ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/ | Napakamahal niyan | Para bang braso at binti ang ibabayad mo.
-Let's call it a day. | /ˈlets ˈkɔːl ɪt ə ˈdeɪ/ | Hanggang dito na lang muna tayo ngayon | Pangwakas ng trabaho o pag-aaral sa araw na iyon. Natural din sa miting.
+Let's call it a day. | /ˈlets ˈkɔːl ɪt ə ˈdeɪ/ | Hanggang dito na lang muna tayo ngayong araw | Pangwakas ng trabaho o pag-aaral sa araw na iyon. Natural din sa miting.
 I'm feeling under the weather. | /aɪm ˈfiːlɪŋ ʌndər ðə ˈweðər/ | Medyo masama ang pakiramdam ko | Para sa bahagyang sakit, gaya ng parating na sipon. Walang kinalaman sa panahon.
 I need to hit the books. | /aɪ ˈniːd tə ˈhɪt ðə ˈbʊks/ | Kailangan ko nang magsunog ng kilay | Sinasabi bago ang exam. Hindi literal na hahampasin ang libro.
 Once in a blue moon | /ˈwʌns ɪn ə ˈbluː ˈmuːn/ | Bihirang-bihira | "I only eat fast food once in a blue moon."
@@ -426,13 +426,13 @@ D | /ˈdiː/ | titik D (maliit: d) | Gaya sa "dog". Sa telepono, madaling mapagk
 E | /ˈiː/ | titik E (maliit: e) | Gaya sa "email". /ˈiː/ ang pangalan nito, parang "i" natin; ang /ˈaɪ/ ay pangalan ng I.
 F | /ˈef/ | titik F (maliit: f) | Gaya sa "fan". Tapusin sa /f/, ngipin sa ibabang labi, hindi sa /p/. "double F" ang "ff" sa "coffee".
 G | /ˈdʒiː/ | titik G (maliit: g) | Gaya sa "go". /ˈdʒiː/ ang pangalan; huwag ipagpalit sa J, na /ˈdʒeɪ/.
-H | /ˈeɪtʃ/ | titik H (maliit: h) | Gaya sa "hotel". Tunog-vowel ang simula ng pangalan nito, kaya "an H".
+H | /ˈeɪtʃ/ | titik H (maliit: h) | Gaya sa "hotel". Tunog na vowel ang simula ng pangalan nito, kaya "an H".
 I | /ˈaɪ/ | titik I (maliit: i) | Gaya sa "idea". Katunog ng "I" (ako). Kapag "i" ng Tagalog ang sinabi mo, E ang maririnig.
 J | /ˈdʒeɪ/ | titik J (maliit: j) | Gaya sa "job". Katugma ng A at K ang pangalan nito. Madaling mapagpalit sa G.
 K | /ˈkeɪ/ | titik K (maliit: k) | Gaya sa "key". Katunog ng dulo ng "OK".
 L | /ˈel/ | titik L (maliit: l) | Gaya sa "light". "double L" ang "ll" sa "hello".
 M | /ˈem/ | titik M (maliit: m) | Gaya sa "milk". Sa telepono, madaling mapagkamalang N, kaya tiyakin: "M as in Mary".
-N | /ˈen/ | titik N (maliit: n) | Gaya sa "name". Tiyakin sa telepono: "N as in name". Tunog-vowel ang simula, kaya "an N".
+N | /ˈen/ | titik N (maliit: n) | Gaya sa "name". Tiyakin sa telepono: "N as in name". Tunog na vowel ang simula, kaya "an N".
 O | /ˈoʊ/ | titik O (maliit: o) | Gaya sa "OK". /ˈoʊ/: dumudulas mula "o" papuntang "u". Sa numero ng telepono, madalas basahing "O" ang zero.
 P | /ˈpiː/ | titik P (maliit: p) | Gaya sa "pan". Magdikit ang dalawang labi. Ihiwalay sa F kapag nagbabaybay.
 Q | /ˈkjuː/ | titik Q (maliit: q) | Gaya sa "question". Halos laging U ang kasunod nito sa mga salita.
@@ -442,7 +442,7 @@ T | /ˈtiː/ | titik T (maliit: t) | Gaya sa "taxi". Malaking titik: "capital T"
 U | /ˈjuː/ | titik U (maliit: u) | Gaya sa "university". Katunog ng "you". Nagsisimula sa /j/, kaya "a U", hindi "an U".
 V | /ˈviː/ | titik V (maliit: v) | Gaya sa "very". Ngipin sa ibabang labi, may boses. Kapag nagdikit ang mga labi, B ang maririnig.
 W | /ˈdʌbəljuː/ | titik W (maliit: w) | Gaya sa "water". "double u" ang pangalan nito (dalawang U), tatlong pantig.
-X | /ˈeks/ | titik X (maliit: x) | Gaya sa "X-ray". Tunog-vowel ang simula, kaya "an X". Mas madalas itong nasa dulo ng salita, gaya ng "box".
+X | /ˈeks/ | titik X (maliit: x) | Gaya sa "X-ray". Tunog na vowel ang simula, kaya "an X". Mas madalas itong nasa dulo ng salita, gaya ng "box".
 Y | /ˈwaɪ/ | titik Y (maliit: y) | Gaya sa "yes". Katunog ng salitang "why".
 Z | /ˈziː/ | titik Z (maliit: z) | Gaya sa "zero". "zee" sa American English, "zed" sa British English. Patunugin ang /z/ para hindi maging C.
 `,
@@ -454,7 +454,7 @@ There's a power outage. | /ðerz ə ˈpaʊər ˈaʊtɪdʒ/ | May brownout | Sa P
 It's in the fridge. | /ɪts ɪn ðə ˈfrɪdʒ/ | Nasa ref iyan | Sa Pilipinas: "ref". Sa American English: "fridge" o "refrigerator". Ang "ref" doon ay "referee", ang tagahatol sa laro.
 Can you turn on the AC? | /kən ju ˈtɜːrn ˈɑːn ði ˌeɪ ˈsiː/ | Puwede mo bang buksan ang aircon? | Sa Pilipinas: "aircon". Sa American English: "air conditioner" o "AC". Article na "the" dahil alam ninyong dalawa kung aling aircon ang tinutukoy.
 I need new sneakers. | /aɪ ˈniːd ˈnuː ˈsniːkərz/ | Kailangan ko ng bagong rubber shoes | Sa Pilipinas: "rubber shoes". Sa American English: "sneakers". Plural at walang article dahil hindi tiyak kung alin.
-I'll get off here. | /aɪl ˈget ˈɔːf ˈhɪr/ | Dito na lang ako bababa | Sa Pilipinas: "I'll go down here", mula sa "bababa ako". Sa American English: "get off" sa bus, tren at jeep; "get out of" sa kotse at taxi.
+I'll get off here. | /aɪl ˈget ˈɔːf ˈhɪr/ | Dito na lang ako bababa | Sa Pilipinas: "I'll go down here", mula sa "bababa ako". Sa American English: "get off" sa bus, tren at jeep; "get out of" sa kotse at taksi.
 There's a lot of traffic. | /ðerz ə ˈlɑːt əv ˈtræfɪk/ | Matindi ang traffic | Sa Pilipinas: "It's traffic" o "It's so traffic". Sa American English, noun ang "traffic", hindi adjective. Hindi rin ito nabibilang: walang "a traffic" at walang "traffics". Puwede rin: "Traffic is heavy."
 salvage | /ˈsælvɪdʒ/ | isalba / iligtas ang mapapakinabangan pa | Sa Pilipinas, sa balita: "salvage" = patayin nang walang paglilitis. Sa American English, halos kabaligtaran: iligtas ang isang bagay mula sa pagkasira. "They salvaged the ship."
 bold | /ˈboʊld/ | matapang / malakas ang loob | Sa Pilipinas: "bold" = malaswa o hubad ("bold movie"). Sa American English: matapang ("a bold decision") o makapal na titik ("bold text").
