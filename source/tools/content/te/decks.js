@@ -1,441 +1,484 @@
-/* TRANSLATE/ADAPT (te): scaffolded from tools/content/ko/decks.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for te speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the te point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
+/* te-en decks (learner language: Telugu). Deck names are FINAL (DECKNAMES.md). Every pron is pasted from pron_lookup.json or is pron_te.js output.
+   Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
 module.exports = {
-"인사": `
-Hello. | 헬로우 | 안녕하세요 | 가장 기본 인사예요. 언제 어디서나, 누구에게나 OK
-Hi! | 하이! | 안녕! / 안녕하세요 | Hello보다 가볍고 친근해요. 미국에선 직장 동료끼리도 Hi를 써요
-Hey! | 헤이! | 야! / 안녕! | 친구끼리 쓰는 말. 처음 보는 사람에게 쓰면 무례하게 들릴 수 있어요
-Good morning. | 굿 모닝 | 좋은 아침이에요 | 정오 전까지 써요. 줄여서 그냥 "Morning!"이라고도 해요
-Good afternoon. | 굿 애프터눈 | 안녕하세요 (오후 인사) | 낮 12시~6시쯤. 약간 격식 있는 느낌이라 가게·회사에서 자주 들려요
-Good evening. | 굿 이브닝 | 안녕하세요 (저녁 인사) | 만날 때 하는 저녁 인사예요. Good night은 헤어질 때만 써요!
-How are you? | 하우 아 유? | 잘 지내요? / 안녕하세요? | 진짜 안부라기보다 인사예요. "Good, thanks. You?"로 가볍게 받아요
-I'm good, thanks. And you? | 아임 굿, 땡스. 앤 쥬? | 잘 지내요, 고마워요. 당신은요? | "I'm fine, thank you"는 교과서 느낌. good이 훨씬 자연스러워요
-What's up? | 왓썹? | 뭐 해? / 별일 없어? | 하늘(up)을 볼 필요 없어요. 보통 "Not much."로 대답해요
-Not much. | 낫 머치 | 별일 없어 | What's up?에 대한 가장 흔한 대답. "Not much, you?"로 되물어요
-How's it going? | 하우즈 잇 고잉? | 어떻게 지내? / 잘 돼 가? | How are you?의 캐주얼 버전. "Pretty good!"으로 받아요
-Nice to meet you. | 나이스 투 미츄 | 만나서 반가워요 | 처음 만났을 때만 써요. 대답은 "Nice to meet you, too."
-Long time no see! | 롱 타임 노 씨! | 오랜만이에요! | 친한 사이에서 써요. 조금 격식 있게는 "It's been a while."
-See you later. | 씨 유 레이러 | 나중에 봐요 | 다시 만날 계획이 없어도 헤어질 때 인사로 그냥 써요
-Take care. | 테익 케어 | 잘 지내요 / 몸조심해요 | 헤어질 때 하는 따뜻한 인사. 문자 끝에도 자주 붙여요
-Have a good one! | 해버 굿 원! | 좋은 하루 보내요! | 가게 직원이 계산 후 자주 해요. "You too!"로 받으면 끝
-Bye! | 바이! | 안녕! (헤어질 때) | "Bye-bye"는 어른끼리 쓰면 조금 귀엽게(아이 말투처럼) 들릴 수 있어요
-Good night. | 굿 나잇 | 잘 자요 / 안녕히 가세요 (밤) | 밤에 헤어지거나 자러 갈 때만 써요. 만날 때는 Good evening
+"పలకరింపులు": `
+Hello. | హˈలో | నమస్కారం / హలో | అన్నిటికంటే సాధారణమైన పలకరింపు. ఎవరితోనైనా, ఎక్కడైనా వాడవచ్చు.
+Hi! | హై | హాయ్! | Hello కంటే తేలికగా, స్నేహంగా ఉంటుంది. అమెరికాలో ఆఫీసులో తోటి ఉద్యోగులతో కూడా Hi అంటారు.
+Hey! | హే | హేయ్! / ఏయ్! | స్నేహితుల మధ్య వాడే మాట. తెలియని వాళ్ళతో అంటే మర్యాద లేనట్టు వినిపించవచ్చు.
+Good morning. | గుడ్ ˈమోర్నిఙ్ | శుభోదయం | మధ్యాహ్నం 12 లోపు. చిన్నగా Morning! అని కూడా అంటారు.
+Good afternoon. | గుడ్ యాఫ్టర్ˈనూన్ | నమస్కారం (మధ్యాహ్నం పూట) | మధ్యాహ్నం 12 నుంచి సాయంత్రం 6 వరకు. కొంచెం ఫార్మల్; దుకాణాల్లో, ఆఫీసుల్లో ఎక్కువగా వినిపిస్తుంది.
+Good evening. | గుడ్ ˈఈవ఼్నిఙ్ | నమస్కారం (సాయంత్రం పూట) | సాయంత్రం కలిసినప్పుడు చెప్పే మాట. Good night వీడ్కోలు చెప్పేటప్పుడు మాత్రమే.
+How are you? | హౌ అర్ యు | ఎలా ఉన్నారు? | ఇది నిజంగా ఆరోగ్యం గురించి అడగడం కాదు, పలకరింపు. చిన్న జవాబు చాలు: Good, thanks. You?
+I'm good, thanks. And you? | ఐమ్ గుడ్ థ఼్యాంక్స్. అండ్ యూ | బాగున్నాను, ధన్యవాదాలు. మీరు? | బడిలో నేర్చుకున్న I'm fine, thank you పుస్తకాల భాషలా ఉంటుంది. I'm good సహజం.
+What's up? | వట్స్ అప్ | ఏంటి సంగతి? | స్నేహితుల మధ్య పలకరింపు. పెద్దగా విశేషం లేకపోతే జవాబు: Not much.
+Not much. | నాట్ మచ్ | పెద్దగా ఏమీ లేదు | What's up? కి అన్నిటికంటే సాధారణమైన జవాబు. తిరిగి అడగాలంటే: Not much, you?
+How's it going? | హౌజ఼్ ఇట్ ˈగోఇఙ్ | ఎలా నడుస్తోంది? | How are you? కి స్నేహితుల మధ్య వాడే రూపం. జవాబు: Pretty good!
+Nice to meet you. | నైస్ ట మీట్ యు | మిమ్మల్ని కలవడం సంతోషం | మొదటిసారి కలిసినప్పుడు మాత్రమే. జవాబు: Nice to meet you, too.
+Long time no see! | లాఙ్ టైమ్ నో సీ | చాలా రోజులైంది కలిసి! | దగ్గరి వాళ్ళతో వాడతారు. కొంచెం ఫార్మల్‌గా: It's been a while.
+See you later. | సీ యు ˈలేటర్ | మళ్ళీ కలుద్దాం | మళ్ళీ కలిసే ప్లాన్ లేకపోయినా వీడ్కోలుగా అంటారు.
+Take care. | టేక్ కెర్ | జాగ్రత్త | వీడ్కోలు చెప్పేటప్పుడు ఆప్యాయంగా అనే మాట. మెసేజ్ చివర కూడా రాస్తారు.
+Have a good one! | హ్యావ఼్ అ గుడ్ వన్ | మీ రోజు బాగా గడవాలి! | దుకాణంలో బిల్లు కట్టాక సిబ్బంది తరచూ అనే మాట. You too! అంటే చాలు.
+Bye! | బై | బై! / ఉంటాను! | ఇండియాలో Bye-bye సాధారణం; అమెరికాలో పెద్దవాళ్ళ మధ్య అది కొంచెం చిన్నపిల్లల మాటలా వినిపిస్తుంది.
+Good night. | గుడ్ నైట్ | శుభరాత్రి | రాత్రి విడిపోయేటప్పుడు లేదా పడుకోబోయే ముందు మాత్రమే. కలిసినప్పుడు Good evening.
 `,
-"자기소개": `
-My name is Minji. | 마이 네임 이즈 민지 | 제 이름은 민지예요 | 일상에서는 더 짧게 "I'm Minji."라고 많이 해요
-Please call me Jay. | 플리즈 콜 미 제이 | 제이라고 불러 주세요 | 영어 이름이 있거나 이름을 줄여 부르고 싶을 때
-What should I call you? | 왓 슈다이 콜 유? | 뭐라고 부르면 될까요? | 상대 이름 발음이 어렵거나 애칭이 궁금할 때 유용해요
-Where are you from? | 웨어 아 유 프럼? | 어디서 왔어요? / 어느 나라 사람이에요? | 외국에서 가장 먼저 듣는 질문 중 하나예요
-I'm from Korea. | 아임 프럼 코리아 | 한국에서 왔어요 | 도시까지 말하면 대화가 이어져요: "I'm from Busan, in South Korea."
-I live in Seoul. | 아이 리브 인 서울 | 서울에 살아요 | live의 v는 윗니로 아랫입술을 살짝 물고 소리 내요
-I'm a student. | 아임 어 스튜던트 | 저는 학생이에요 | 직업 앞에는 꼭 a/an! "I'm student"는 가장 흔한 실수예요
-What do you do? | 왓 두 유 두? | 무슨 일 하세요? | 직업을 묻는 표준 질문. "What's your job?"보다 부드러워요
-I work at a bank. | 아이 워크 앳 어 뱅크 | 은행에서 일해요 | 회사·장소 앞엔 at: "I work at Samsung."
-I work in marketing. | 아이 워크 인 마케팅 | 마케팅 분야에서 일해요 | 분야·부서 앞엔 in. at(회사)과 구분해요
-I'm 25 years old. | 아임 트웬티파이브 이어즈 올드 | 저는 25살이에요 | 영어권에선 만 나이로 말해요. 나이를 먼저 묻는 건 실례일 수 있어요
-I'm really into hiking. | 아임 륄리 인투 하이킹 | 등산에 푹 빠져 있어요 | "My hobby is…"보다 훨씬 자연스러운 취미 표현이에요
-I like watching movies. | 아이 라익 와칭 무비즈 | 영화 보는 걸 좋아해요 | like 뒤에 동작이 오면 ~ing 또는 to + 동사원형
-I've been learning English for a year. | 아이브 빈 러닝 잉글리시 포러 이어 | 영어를 1년째 배우고 있어요 | 지금까지 계속 해 온 일은 have been + ~ing
-I'm here on vacation. | 아임 히어 온 베이케이션 | 휴가로 왔어요 | 영국식은 "I'm here on holiday."
-I'm married. | 아임 매리드 | 결혼했어요 | 미혼이면 "I'm single." 초면에 결혼 여부를 묻는 건 피하는 게 좋아요
-I have a younger brother. | 아이 해버 영거 브라더 | 남동생이 한 명 있어요 | 영어는 형·오빠·남동생을 older/younger brother로만 구분해요
+"నా పరిచయం": `
+My name is Ravi. | మై నేమ్ ఇజ఼్ ˈరావ఼ి | నా పేరు రవి | తెలుగులో క్రియ లేకుండా "నా పేరు రవి" అంటాం; ఇంగ్లీష్‌లో is తప్పనిసరి. మామూలుగా చిన్నగా I'm Ravi అంటారు. Myself Ravi ✗ అనకండి.
+Please call me Jay. | ప్లీజ఼్ కాల్ మి జే | నన్ను జే అని పిలవండి | పేరు పొడవుగా ఉంటే, లేదా చిన్న పేరుతో పిలిపించుకోవాలంటే.
+What should I call you? | వట్ షడ్ ఐ కాల్ యు | మిమ్మల్ని ఏమని పిలవాలి? | ఎదుటివారి పేరు పలకడం కష్టంగా ఉన్నప్పుడు, లేదా వాళ్ళు ఏ పేరు ఇష్టపడతారో తెలుసుకోవడానికి.
+Where are you from? | వెర్ అర్ యు ఫ్రమ్ | మీది ఏ ఊరు? / మీరు ఎక్కడి నుంచి వచ్చారు? | విదేశాల్లో మొదట వినిపించే ప్రశ్నల్లో ఒకటి. What is your native place? అని అక్కడ అడగరు.
+I'm from India. | ఐమ్ ఫ్రమ్ ˈఇండిఅ | నేను ఇండియా నుంచి వచ్చాను | ఊరు పేరు కూడా చెబితే మాటలు సాగుతాయి: I'm from Hyderabad, in India.
+I live in Hyderabad. | ఐ లివ఼్ ఇన్ ˈహైడరబ్యాడ్ | నేను హైదరాబాద్‌లో ఉంటాను | "ఉంటాను" కి live. I stay in Hyderabad అంటే విదేశాల్లో "కొన్ని రోజులే ఉంటున్నాను" అని అర్థమవుతుంది. live చివర v కి పై పళ్ళు కింది పెదవికి తాకాలి.
+I'm a student. | ఐమ్ అ ˈస్టూడంట్ | నేను విద్యార్థిని | వృత్తి ముందు ఆర్టికల్ a / an తప్పనిసరి. I'm student ✗ చాలా సాధారణమైన తప్పు.
+What do you do? | వట్ డ యు డూ | మీరు ఏం చేస్తుంటారు? (ఉద్యోగం) | ఉద్యోగం గురించి అడిగే సాధారణ ప్రశ్న. What's your job? కంటే మృదువుగా ఉంటుంది.
+I work at a bank. | ఐ వర్క్ అట్ అ బ్యాంక్ | నేను బ్యాంకులో పని చేస్తాను | కంపెనీ లేదా పని చేసే చోటు ముందు at: I work at Google. తెలుగు "-లో" కి ప్రతిసారీ in కాదు.
+I work in marketing. | ఐ వర్క్ ఇన్ ˈమార్కిటిఙ్ | నేను మార్కెటింగ్ విభాగంలో పని చేస్తాను | రంగం లేదా విభాగం ముందు in; కంపెనీ ముందు at.
+I'm 25 years old. | ఐమ్ ట్వెంటిˈఫైవ఼్ యిర్జ఼్ ఓల్డ్ | నా వయసు 25 ఏళ్ళు | ఉత్త I'm 25 అన్నా చాలు. విదేశాల్లో మొదటి పరిచయంలోనే వయసు అడగడం మర్యాద కాదు.
+I'm really into hiking. | ఐమ్ ˈరీఅలి ఇంట ˈహైకిఙ్ | నాకు ట్రెక్కింగ్ (కొండల్లో నడక) అంటే చాలా ఇష్టం | My hobby is… కంటే చాలా సహజం. be into = బాగా ఇష్టపడటం. ఇండియాలో trekking అనేదాన్ని అమెరికాలో hiking అంటారు.
+I like watching movies. | ఐ లైక్ ˈవాచిఙ్ ˈమూవ఼ిజ఼్ | నాకు సినిమాలు చూడటం ఇష్టం | like తర్వాత పని వస్తే -ing లేదా to + V1. సాధారణంగా చెప్పేటప్పుడు బహువచనం: movies.
+I've been learning English for a year. | ఐవ఼్ బిన్ ˈలర్నిఙ్ ˈఇంగ్లిష్ ఫర్ అ యిర్ | నేను ఏడాదిగా ఇంగ్లీష్ నేర్చుకుంటున్నాను | "ఏడాదిగా" లాంటి కాల వ్యవధికి for; మొదలైన సమయానికి since. I am learning since one year ✗ కాదు.
+I'm here on vacation. | ఐమ్ హిర్ ఆన్ వ఼ేˈకేషన్ | నేను సెలవులకి ఇక్కడికి వచ్చాను | అమెరికాలో vacation; బ్రిటన్‌లో, ఇండియాలో holiday.
+I'm married. | ఐమ్ ˈమ్యారిడ్ | నాకు పెళ్ళయింది | పెళ్ళి కాకపోతే I'm single. విదేశాల్లో కొత్తవాళ్ళను పెళ్ళి గురించి అడగకపోవడం మంచిది.
+I have a younger brother. | ఐ హ్యావ఼్ అ ˈయంగర్ ˈబ్రద఼ర్ | నాకు ఒక తమ్ముడు ఉన్నాడు | ఇంగ్లీష్‌లో అన్న, తమ్ముడు రెండూ brother; తేడా older / younger తో చెబుతారు. I am having a brother ✗ కాదు.
 `,
-"생존 영어 1": `
-Excuse me. | 익스큐즈 미 | 실례합니다 / 저기요 | 사람을 부르거나 지나갈 때 써요. 부딪친 뒤에는 Sorry!
-Thank you. | 땡큐 | 감사합니다 | th는 혀끝을 이 사이에 살짝. 그래도 "땡큐"로 충분히 통해요
-Thanks a lot. | 땡스 어 랏 | 정말 고마워요 | Thank you보다 가볍고 친근해요
-You're welcome. | 유어 웰컴 | 천만에요 | 캐주얼하게는 "Sure." "No problem." "Anytime."
-No problem. | 노 프라블럼 | 별거 아니에요 | 고맙다는 말에 대한 대답으로 아주 흔해요
-I'm sorry. | 아임 쏘리 | 죄송해요 | 진짜 사과할 때. 가볍게 부딪쳤을 땐 "Sorry!" 한 마디면 돼요
-Yes, please. | 예스, 플리즈 | 네, 주세요 | "Would you like some water?" 같은 제안에 대한 대답
-No, thank you. | 노, 땡큐 | 아니요, 괜찮아요 | 거절할 때 그냥 No보다 훨씬 공손해요. 캐주얼: "I'm good, thanks."
-Sorry? | 쏘리? (끝을 올려서) | 네? 뭐라고요? | 끝을 올리면 "다시 말해 주세요"라는 뜻이 돼요. 미국에선 "Pardon?"보다 흔해요
-Could you say that again? | 쿠쥬 쎄이 댓 어게인? | 다시 말씀해 주시겠어요? | 못 알아들었을 때 당당하게 써요. 원어민도 자주 해요
-Could you speak more slowly? | 쿠쥬 스픽 모어 슬로울리? | 좀 더 천천히 말해 주시겠어요? | please를 붙이면 더 공손해요
-I don't understand. | 아이 돈 언더스탠드 | 이해가 안 돼요 | 조금 딱딱해요. 부드럽게: "Sorry, I didn't quite catch that."
-Do you speak Korean? | 두 유 스픽 코리안? | 한국어 하세요? | "Can you speak…?"보다 "Do you speak…?"가 더 자연스럽고 공손해요
-I speak a little English. | 아이 스픽 어 리를 잉글리시 | 영어를 조금 해요 | little의 tt는 "ㄹ"처럼 굴려요: 리를
-How do you say this in English? | 하우 두 유 쎄이 디스 인 잉글리시? | 이거 영어로 뭐라고 해요? | 물건을 가리키며 쓰면 단어를 바로 배울 수 있어요
-What does this mean? | 왓 더즈 디스 민? | 이게 무슨 뜻이에요? | 메뉴판·표지판을 가리키며 써요
-Can you help me? | 캔 유 헬프 미? | 좀 도와주실래요? | 더 공손하게: "Could you help me?"
+"తప్పనిసరి మాటలు 1": `
+Excuse me. | ఇక్ˈస్క్యూజ఼్ మి | ఏమండీ / కొంచెం దారి ఇస్తారా | ఎవరినైనా పిలవడానికి, దారి అడగడానికి. పొరపాటున తగిలితే Sorry!
+Thank you. | థ఼్యాంక్ యు | ధన్యవాదాలు | th కోసం నాలుక కొనను పళ్ళ మధ్య ఉంచి గాలి వదలండి; "ట" తో గానీ "థ" తో గానీ కాదు.
+Thanks a lot. | థ఼్యాంక్స్ అ లాట్ | చాలా కృతజ్ఞతలు | Thank you కంటే తేలికగా, స్నేహంగా ఉంటుంది.
+You're welcome. | యుర్ ˈవెల్కమ్ | పర్వాలేదు (ధన్యవాదాలకు జవాబు) | Thank you కి జవాబు. స్నేహితులతో: Sure. / No problem. / Anytime. ఇండియాలో అనే Mention not విదేశాల్లో వాడరు.
+No problem. | నో ˈప్రాబ్లమ్ | ఏం పర్వాలేదు | ధన్యవాదాలకు జవాబుగా చాలా సాధారణం.
+I'm sorry. | ఐమ్ ˈసారి | క్షమించండి | నిజంగా క్షమాపణ చెప్పాలనుకున్నప్పుడు. పొరపాటున తగిలితే ఉత్త Sorry! చాలు.
+Yes, please. | యెస్ ప్లీజ఼్ | అవును, ఇవ్వండి | ఏదైనా కావాలా అని అడిగినప్పుడు జవాబు: Would you like some water? Yes, please.
+No, thank you. | నో థ఼్యాంక్ యు | వద్దండి, ధన్యవాదాలు | ఉత్త No కంటే చాలా మర్యాదగా ఉంటుంది. స్నేహితులతో: I'm good, thanks.
+Sorry? | ˈసారి | ఏమన్నారు? | చివర స్వరం పైకి లేపితే "మళ్ళీ చెప్పండి" అని అర్థం. అమెరికాలో Pardon? కంటే ఇదే ఎక్కువ.
+Could you say that again? | కడ్ యు సే ద఼్యాట్ అˈగెన్ | మళ్ళీ ఒకసారి చెబుతారా? | అర్థం కానప్పుడు మొహమాటం లేకుండా అడగండి; ఇంగ్లీష్ మాతృభాషగా ఉన్నవాళ్ళు కూడా తరచూ అడుగుతారు. Repeat again ✗ అనకండి.
+Could you speak more slowly? | కడ్ యు స్పీక్ మోర్ ˈస్లోలి | కొంచెం నెమ్మదిగా మాట్లాడతారా? | చివర please కలిపితే ఇంకా మర్యాదగా ఉంటుంది.
+I don't understand. | ఐ డోంట్ అండర్ˈస్ట్యాండ్ | నాకు అర్థం కాలేదు | కొంచెం గట్టిగా వినిపిస్తుంది. మృదువుగా: Sorry, I didn't quite catch that.
+Do you speak Telugu? | డ యు స్పీక్ ˈటెలగు | మీకు తెలుగు వచ్చా? | Can you speak…? కంటే Do you speak…? సహజం, మర్యాద కూడా. తెలుగులో "వచ్చా" అన్నా ఇంగ్లీష్‌లో speak.
+I speak a little English. | ఐ స్పీక్ అ ˈలిటల్ ˈఇంగ్లిష్ | నాకు ఇంగ్లీష్ కొంచెం వచ్చు | a little = కొంచెం. ఆర్టికల్ a తీసేసి little English అంటే "దాదాపు రాదు" అని అర్థం మారుతుంది.
+How do you say this in English? | హౌ డ యు సే ద఼ిస్ ఇన్ ˈఇంగ్లిష్ | దీన్ని ఇంగ్లీష్‌లో ఏమంటారు? | వస్తువును చూపిస్తూ అడిగితే కొత్త పదం వెంటనే నేర్చుకోవచ్చు. How to say this? ✗ కాదు.
+What does this mean? | వట్ డజ఼్ ద఼ిస్ మీన్ | దీని అర్థం ఏమిటి? | మెనూ, బోర్డులు చూపిస్తూ అడగండి. What means this? ✗ కాదు; does తప్పనిసరి.
+Can you help me? | కన్ యు హెల్ప్ మి | కొంచెం సహాయం చేస్తారా? | ఇంకా మర్యాదగా: Could you help me?
 `,
-"생존 영어 2": `
-Where's the restroom? | 웨어즈 더 레스트룸? | 화장실이 어디예요? | 미국: restroom·bathroom, 영국: toilet·loo. "toilet"은 미국에선 변기 자체를 뜻해요
-How much is this? | 하우 머치 이즈 디스? | 이거 얼마예요? | 여러 개면 "How much are these?"
-Is there an ATM around here? | 이즈 데어런 에이티엠 어롸운드 히어? | 이 근처에 ATM 있어요? | 영국에선 cash machine이라고도 해요
-Can I get the Wi-Fi password? | 캔 아이 겟 더 와이파이 패스워드? | 와이파이 비밀번호 알려 주실래요? | 영어로는 "와이파이"가 맞아요. "Is there Wi-Fi here?"도 OK
-I'm lost. | 아임 로스트 | 길을 잃었어요 | 지도를 보여 주며 "Where am I on this map?"도 써 보세요
-Can I pay by card? | 캔 아이 페이 바이 카드? | 카드 돼요? | 미국은 거의 다 카드 OK. 작은 가게는 최소 금액이 있을 수 있어요
-One moment, please. | 원 모먼트, 플리즈 | 잠시만요 | 공손한 표현이라 가게·전화에서 많이 들어요
-Just a second. | 저스트 어 세컨 | 잠깐만 | 캐주얼. 더 짧게 "Just a sec."
-No worries. | 노 워리즈 | 괜찮아요 / 신경 쓰지 마요 | 호주·영국에서 특히 많이 쓰고 미국에서도 흔해요
-That's okay. | 댓츠 오케이 | 괜찮아요 (상대가 사과할 때) | 누가 사과하면 "That's okay!" 또는 "Don't worry about it."
-Of course. | 오브 코스 | 물론이죠 | 부탁을 들어줄 때. 질문에 쓰면 "당연한 걸 왜 물어?"처럼 들릴 수 있어 말투를 부드럽게
-I'm not sure. | 아임 낫 슈어 | 잘 모르겠어요 | I don't know보다 부드러워요
-I have a question. | 아이 해버 퀘스천 | 질문이 있어요 | 수업·회의에서: "Can I ask a question?"
-Can you write it down? | 캔 유 롸이릿 다운? | 적어 주실 수 있어요? | 주소·숫자·이름을 못 알아들었을 때 최고의 해결책
-Can I take a picture? | 캔 아이 테이커 픽처? | 사진 찍어도 돼요? | 박물관·가게에서 먼저 물어보는 게 매너예요
-Could you take a picture of us? | 쿠쥬 테이커 픽처 오브 어스? | 저희 사진 좀 찍어 주실래요? | 찍어 준 뒤엔 "Thank you so much!"
-After you. | 애프터 유 | 먼저 가세요 | 문 앞·엘리베이터에서 양보할 때. 영어권에선 문을 잡아 주는 게 기본 매너예요
-Watch out! | 와치 아웃! | 조심해요! | 위험할 때 크게 외쳐요. "Look out!"도 같은 뜻
+"తప్పనిసరి మాటలు 2": `
+Where's the restroom? | వెర్జ఼్ ద఼ ˈరెస్ట్రూమ్ | టాయిలెట్ ఎక్కడ ఉంది? | అమెరికాలో restroom, bathroom; ఇండియాలో washroom, toilet. అమెరికాలో toilet అంటే కమోడ్ అని అర్థం.
+How much is this? | హౌ మచ్ ఇజ఼్ ద఼ిస్ | ఇది ఎంత? | ఒకటి కంటే ఎక్కువ వస్తువులైతే బహువచనం: How much are these?
+Is there an ATM around here? | ఇజ఼్ ద఼ెర్ అన్ ఏ టీ ఎమ్ అˈరౌండ్ హిర్ | ఇక్కడ దగ్గర్లో ATM ఉందా? | తెలుగులో "ఉందా" చివర వస్తుంది; ఇంగ్లీష్‌లో Is there ముందు. ATM అచ్చు శబ్దంతో మొదలవుతుంది కాబట్టి an.
+Can I get the Wi-Fi password? | కన్ ఐ గెట్ ద఼ ˈవైఫై ˈప్యాస్వర్డ్ | Wi-Fi పాస్‌వర్డ్ చెబుతారా? | Is there Wi-Fi here? అని కూడా అడగవచ్చు.
+I'm lost. | ఐమ్ లాస్ట్ | నేను దారి తప్పాను | మ్యాప్ చూపిస్తూ Where am I on this map? అని కూడా అడగవచ్చు.
+Can I pay by card? | కన్ ఐ పే బై కార్డ్ | కార్డుతో కట్టవచ్చా? | by card, కానీ in cash. అమెరికాలో UPI లేదు; దాదాపు అన్నిచోట్లా కార్డు తీసుకుంటారు.
+One moment, please. | వన్ ˈమోమంట్ ప్లీజ఼్ | ఒక్క నిమిషం ఆగండి | మర్యాదగా ఉండే మాట; దుకాణాల్లో, ఫోన్‌లో ఎక్కువగా వినిపిస్తుంది.
+Just a second. | జస్ట్ అ ˈసెకండ్ | ఒక్క క్షణం | స్నేహితుల మధ్య. ఇంకా చిన్నగా: Just a sec.
+No worries. | నో ˈవరిజ఼్ | కంగారు పడకండి, పర్వాలేదు | ఆస్ట్రేలియా, బ్రిటన్‌లో చాలా ఎక్కువ; అమెరికాలో కూడా సాధారణం.
+That's okay. | ద఼్యాట్స్ ఓˈకే | పర్వాలేదు (క్షమాపణకు జవాబు) | ఎవరైనా Sorry అంటే: That's okay! లేదా Don't worry about it.
+Of course. | అవ఼్ కోర్స్ | తప్పకుండా | ఎవరైనా ఏదైనా చేయమని అడిగినప్పుడు "సరే, చేస్తాను" అని చెప్పడానికి. మామూలు ప్రశ్నకు జవాబుగా అంటే "ఇది కూడా అడగాలా?" అన్నట్టు వినిపించవచ్చు.
+I'm not sure. | ఐమ్ నాట్ షుర్ | నాకు సరిగ్గా తెలియదు | I don't know కంటే మృదువుగా ఉంటుంది.
+I have a question. | ఐ హ్యావ఼్ అ ˈక్వెస్చన్ | నాకు ఒక ప్రశ్న ఉంది | క్లాసులో, మీటింగ్‌లో: Can I ask a question? ఇండియాలో అనే I have a doubt విదేశాల్లో "నాకు నమ్మకం లేదు" అన్నట్టు వినిపిస్తుంది.
+Can you write it down? | కన్ యు రైట్ ఇట్ డౌన్ | అది రాసి ఇస్తారా? | అడ్రస్, నంబర్, పేరు అర్థం కానప్పుడు ఇదే మంచి దారి.
+Can I take a picture? | కన్ ఐ టేక్ అ ˈపిక్చర్ | ఫోటో తీసుకోవచ్చా? | మ్యూజియంలో, దుకాణంలో ముందు అడగడం మర్యాద. take a picture లేదా take a photo.
+Could you take a picture of us? | కడ్ యు టేక్ అ ˈపిక్చర్ అవ఼్ అస్ | మా ఫోటో ఒకటి తీస్తారా? | తీసిన తర్వాత: Thank you so much!
+After you. | ˈయాఫ్టర్ యూ | ముందు మీరు వెళ్ళండి | తలుపు దగ్గర, లిఫ్ట్ దగ్గర దారి ఇచ్చేటప్పుడు. వెనక వచ్చేవాళ్ళ కోసం తలుపు పట్టుకోవడం అక్కడ సాధారణ మర్యాద.
+Watch out! | వాచ్ ఔట్ | జాగ్రత్త! (ప్రమాదం) | ప్రమాదం ఉన్నప్పుడు గట్టిగా అరవండి. Look out! కూడా ఇదే అర్థం.
 `,
-"길 묻기·교통": `
-How do I get to the subway station? | 하우 두 아이 겟 투 더 썹웨이 스테이션? | 지하철역에 어떻게 가요? | 영국: underground / tube station. 목적지만 바꿔서 쓰면 돼요
-Is it far from here? | 이즈 잇 파 프럼 히어? | 여기서 멀어요? | far의 r은 혀를 살짝 말아요
-Is it within walking distance? | 이즈 잇 위딘 워킹 디스턴스? | 걸어갈 수 있는 거리예요? | "Can I walk there?"도 OK
-Go straight. | 고 스트레잇 | 쭉 가세요 / 직진하세요 | "Go straight for two blocks." 미국은 거리를 block으로 세요
-Turn left at the corner. | 턴 레프트 앳 더 코너 | 모퉁이에서 왼쪽으로 도세요 | 신호등에서는 "at the light"
-It's on your right. | 잇츠 온 유어 롸잇 | 오른쪽에 있어요 | right의 r은 입술을 내밀고 "(우)롸"
-It's across the street. | 잇츠 어크로스 더 스트릿 | 길 건너편에 있어요 | across from ~ = ~의 맞은편
-It's next to the bank. | 잇츠 넥스 투 더 뱅크 | 은행 옆에 있어요 | next to의 t는 하나만 살짝 발음돼요
-Which line goes downtown? | 위치 라인 고즈 다운타운? | 시내 가는 건 몇 호선이에요? | downtown 앞에는 to를 쓰지 않아요
-Where do I transfer? | 웨어 두 아이 트랜스퍼? | 어디서 갈아타요? | 영국에선 change: "Where do I change?"
-Does this bus go to the airport? | 더즈 디스 버스 고 투 디 에어포트? | 이 버스 공항 가요? | 모음 앞 the는 "디"로 발음해요
-Which stop should I get off at? | 위치 스탑 슈다이 게로프 앳? | 어느 정류장에서 내려야 해요? | get off = (버스·지하철에서) 내리다
-One ticket to Boston, please. | 원 티킷 투 보스턴, 플리즈 | 보스턴행 표 한 장 주세요 | 목적지 앞엔 to
-Round trip or one way? | 롸운드 트립 오어 원 웨이? | 왕복이에요, 편도예요? | 영국식: "Return or single?"
-Can you take me to this address? | 캔 유 테익 미 투 디스 애드레스? | 이 주소로 가 주세요 | 택시에서 화면을 보여 주며 쓰면 실수가 없어요
-Could you pull over here? | 쿠쥬 풀 오버 히어? | 여기 세워 주시겠어요? | 택시·차에서 내리고 싶을 때. "Right here is fine."도 OK
-How long does it take? | 하우 롱 더즈 잇 테익? | 얼마나 걸려요? | 대답: "About 20 minutes."
-Is this seat taken? | 이즈 디스 씻 테이큰? | 이 자리 주인 있어요? | 비어 있으면 "No, go ahead."라고 해요. seat는 길게 "씨-잇"
+"దారి, రవాణా": `
+How do I get to the subway station? | హౌ డ ఐ గెట్ ట ద఼ ˈసబ్వే ˈస్టేషన్ | మెట్రో స్టేషన్‌కి ఎలా వెళ్ళాలి? | అమెరికాలో మెట్రోని subway అంటారు; బ్రిటన్‌లో underground లేదా tube. గమ్యం పేరు మార్చి ఎక్కడైనా వాడండి.
+Is it far from here? | ఇజ఼్ ఇట్ ఫార్ ఫ్రమ్ హిర్ | ఇక్కడి నుంచి దూరమా? | అమెరికన్ ఇంగ్లీష్‌లో far చివర r పలుకుతారు.
+Is it within walking distance? | ఇజ఼్ ఇట్ విద఼ిన్ ˈవాకిఙ్ ˈడిస్టన్స్ | నడిచి వెళ్ళగలిగేంత దూరమేనా? | Can I walk there? అని కూడా అడగవచ్చు.
+Go straight. | గో స్ట్రేట్ | నేరుగా వెళ్ళండి | Go straight for two blocks. అమెరికాలో దూరాన్ని block లలో చెబుతారు: ఒక కూడలి నుంచి మరో కూడలి వరకు ఒక block.
+Turn left at the corner. | టర్న్ లెఫ్ట్ అట్ ద఼ ˈకోర్నర్ | మూల దగ్గర ఎడమవైపు తిరగండి | సిగ్నల్ దగ్గర అయితే at the light. ఇండియాలో అనే take left బదులు turn left లేదా take a left.
+It's on your right. | ఇట్స్ ఆన్ యుర్ రైట్ | అది మీ కుడివైపు ఉంటుంది | on your right / on your left; ఇక్కడ in, at కాదు.
+It's across the street. | ఇట్స్ అక్రాస్ ద఼ స్ట్రీట్ | అది రోడ్డుకు అవతలి వైపు ఉంది | across from the bank = బ్యాంకుకు ఎదురుగా. అమెరికాలో opposite to the bank కంటే ఇది సహజం.
+It's next to the bank. | ఇట్స్ నెక్స్ట్ ట ద఼ బ్యాంక్ | అది బ్యాంకు పక్కన ఉంది | next to = పక్కనే. beside కూడా సరే; besides అంటే మాత్రం "అంతేకాక".
+Which line goes downtown? | విచ్ లైన్ గోజ఼్ డౌంˈటౌన్ | సిటీ సెంటర్‌కి ఏ లైన్ వెళ్తుంది? | downtown ముందు to రాదు: go downtown.
+Where do I transfer? | వెర్ డ ఐ ట్ర్యాన్స్ˈఫర్ | నేను ఎక్కడ మారాలి? | బ్రిటన్‌లో, ఇండియాలో change: Where do I change?
+Does this bus go to the airport? | డజ఼్ ద఼ిస్ బస్ గో ట ద఼ి ˈఎర్పోర్ట్ | ఈ బస్సు ఎయిర్‌పోర్ట్‌కి వెళ్తుందా? | airport అచ్చు శబ్దంతో మొదలవుతుంది కాబట్టి దాని ముందు the చివర "ఇ" వినిపిస్తుంది. go to the airport: to, the రెండూ కావాలి.
+Which stop should I get off at? | విచ్ స్టాప్ షడ్ ఐ గెట్ ఆఫ్ యాట్ | నేను ఏ స్టాప్‌లో దిగాలి? | get off = (బస్సు, రైలు) దిగడం; ఎక్కడం get on. ఇండియాలో అనే get down from the bus అక్కడ వాడరు.
+One ticket to Boston, please. | వన్ ˈటికిట్ ట ˈబాస్టన్ ప్లీజ఼్ | బోస్టన్‌కి ఒక టికెట్ ఇవ్వండి | గమ్యం ముందు to. Give me one ticket కంటే ఇది మర్యాదగా ఉంటుంది.
+Round trip or one way? | రౌండ్ ట్రిప్ అర్ వన్ వే | రానూపోనూనా, ఒకవైపేనా? | బ్రిటన్‌లో, ఇండియాలో: Return or single?
+Can you take me to this address? | కన్ యు టేక్ మి ట ద఼ిస్ ˈయాడ్రెస్ | నన్ను ఈ అడ్రస్‌కి తీసుకెళ్తారా? | టాక్సీలో ఫోన్ స్క్రీన్ చూపిస్తూ అడిగితే పొరపాటు జరగదు.
+Could you pull over here? | కడ్ యు పుల్ ˈఓవ఼ర్ హిర్ | ఇక్కడ పక్కకు ఆపుతారా? | టాక్సీ, కారు దిగాలనుకున్నప్పుడు. Right here is fine అని కూడా అనవచ్చు.
+How long does it take? | హౌ లాఙ్ డజ఼్ ఇట్ టేక్ | ఎంత సేపు పడుతుంది? | జవాబు: About 20 minutes. How much time it will take? ✗ కాదు.
+Is this seat taken? | ఇజ఼్ ద఼ిస్ సీట్ ˈటేకన్ | ఈ సీటులో ఎవరైనా ఉన్నారా? | ఖాళీగా ఉంటే No, go ahead అంటారు. seat లో "ఈ" దీర్ఘం; sit లో హ్రస్వం.
 `,
-"식당 주문": `
-A table for two, please. | 어 테이블 포 투, 플리즈 | 두 명이요 | 미국 식당은 보통 직원이 자리를 안내해 줄 때까지 기다려요
-Do you have a reservation? | 두 유 해버 레저베이션? | 예약하셨어요? | 직원이 묻는 말. "Yes, under Kim."처럼 대답해요
-Can I see the menu? | 캔 아이 씨 더 메뉴? | 메뉴판 좀 볼 수 있을까요? | menu 강세는 앞: 메뉴
-What do you recommend? | 왓 두 유 레커멘드? | 추천해 주실 메뉴 있어요? | "What's popular here?"도 좋아요
-I'll have the steak. | 아일 해브 더 스테익 | 스테이크로 할게요 | 주문의 기본 공식: I'll have + 메뉴
-Can I get a Coke? | 캔 아이 게러 코크? | 콜라 한 잔 주실래요? | get a는 "게러"처럼 이어져요. 콜라는 보통 Coke라고 해요
-Medium rare, please. | 미디엄 레어, 플리즈 | 미디엄 레어로 주세요 | "How would you like your steak?"에 대한 대답
-No onions, please. | 노 어니언즈, 플리즈 | 양파는 빼 주세요 | "Can I get it without onions?"도 같은 뜻
-I'm allergic to peanuts. | 아임 얼러직 투 피넛츠 | 땅콩 알레르기가 있어요 | allergic 강세는 가운데 "러". 알레르기는 영어로 allergy(앨러지)
-Is it spicy? | 이즈 잇 스파이시? | 매워요? | 미국의 spicy는 한국 기준으로 안 매울 때가 많아요
-Could we get some water? | 쿳 위 겟 썸 워러? | 물 좀 주시겠어요? | 미국 식당 물은 보통 무료. water는 "워러"처럼 굴려요
-Everything was great. | 에브리띵 워즈 그레잇 | 다 맛있었어요 | 직원이 "How is everything?" 하고 물으면 이렇게 답해요
-Can we get the check, please? | 캔 위 겟 더 첵, 플리즈? | 계산서 주세요 | 영국: the bill. 미국은 보통 자리에서 계산해요
-Can we split the bill? | 캔 위 스플릿 더 빌? | 따로 계산할 수 있나요? | "separate checks"라고도 해요
-It's on me. | 잇츠 온 미 | 제가 살게요 | "My treat!"도 같은 뜻이에요
-Can I get this to go? | 캔 아이 겟 디스 투 고? | 이거 포장돼요? | 남은 음식을 싸 갈 땐 "Can I get a box?"
-Is the tip included? | 이즈 더 팁 인클루디드? | 팁 포함인가요? | 미국 식당은 보통 15~20% 팁을 따로 내요
+"రెస్టారెంట్ ఆర్డర్": `
+A table for two, please. | అ ˈటేబల్ ఫర్ టూ ప్లీజ఼్ | ఇద్దరికి టేబుల్ కావాలి | అమెరికా రెస్టారెంట్లలో సిబ్బంది టేబుల్ చూపించే వరకు గుమ్మం దగ్గర ఆగుతారు.
+Do you have a reservation? | డ యు హ్యావ఼్ అ రెజ఼ర్ˈవ఼ేషన్ | మీరు టేబుల్ బుక్ చేసుకున్నారా? | సిబ్బంది అడిగే ప్రశ్న. జవాబు: Yes, under Kumar.
+Can I see the menu? | కన్ ఐ సీ ద఼ ˈమెన్యూ | మెనూ చూపిస్తారా? | ఇండియాలో అనే menu card బదులు ఉత్త menu చాలు.
+What do you recommend? | వట్ డ యు రెకˈమెండ్ | మీరు ఏది బాగుంటుందంటారు? | What's popular here? అని కూడా అడగవచ్చు.
+I'll have the steak. | ఐల్ హ్యావ఼్ ద఼ స్టేక్ | నేను స్టేక్ తీసుకుంటాను | ఆర్డర్ చెప్పడానికి: I'll have + వంటకం పేరు. steak సాధారణంగా గొడ్డు మాంసం; వద్దనుకుంటే I'll have the chicken అనండి.
+Can I get a Coke? | కన్ ఐ గెట్ అ కోక్ | ఒక కోక్ ఇస్తారా? | Give me one Coke ✗ అంటే ఆజ్ఞాపించినట్టు ఉంటుంది. ఇక్కడ one కాదు, ఆర్టికల్ a.
+Medium rare, please. | ˈమీడిఅమ్ రెర్ ప్లీజ఼్ | మీడియం రేర్‌గా కాల్చండి | How would you like your steak? కి జవాబు. బాగా కాల్చాలంటే well done.
+No onions, please. | నో ˈఅన్యన్జ఼్ ప్లీజ఼్ | ఉల్లిపాయలు వేయకండి | Can I get it without onions? అన్నా అదే అర్థం. onions బహువచనంలో.
+I'm allergic to peanuts. | ఐమ్ అˈలర్జిక్ ట ˈపీనట్స్ | నాకు వేరుశనగ పడదు (అలర్జీ) | allergic లో ఒత్తి మధ్య భాగం మీద; allergy లో మొదటి భాగం మీద. శాకాహారులైతే: I'm vegetarian. Pure veg అంటే అక్కడ అర్థం కాదు.
+Is it spicy? | ఇజ఼్ ఇట్ ˈస్పైసి | ఇది కారంగా ఉంటుందా? | అమెరికాలో spicy అన్న వంటకం మన కారంతో పోలిస్తే చాలా తక్కువ. ఎక్కువ కావాలంటే extra spicy అని అడగండి.
+Could we get some water? | కడ్ వి గెట్ సమ్ ˈవాటర్ | కొంచెం మంచినీళ్ళు ఇస్తారా? | తెలుగులో "నీళ్ళు" బహువచనం; ఇంగ్లీష్‌లో water లెక్కించలేని నామవాచకం: waters ✗, a water ✗. అమెరికా రెస్టారెంట్లలో నీళ్ళు ఉచితం.
+Everything was great. | ˈఎవ఼్రిథ఼ిఙ్ వజ఼్ గ్రేట్ | అన్నీ చాలా బాగున్నాయి | సిబ్బంది How is everything? అని అడిగితే ఇలా చెప్పండి. everything తో was; were కాదు.
+Can we get the check, please? | కన్ వి గెట్ ద఼ చెక్ ప్లీజ఼్ | బిల్లు తెస్తారా? | అమెరికాలో check; బ్రిటన్‌లో, ఇండియాలో bill. అక్కడ సాధారణంగా టేబుల్ దగ్గరే డబ్బు కడతారు.
+Can we split the bill? | కన్ వి స్ప్లిట్ ద఼ బిల్ | బిల్లు పంచుకుని కట్టవచ్చా? | ఎవరిది వాళ్ళు విడిగా కట్టాలంటే separate checks అని అడుగుతారు.
+It's on me. | ఇట్స్ ఆన్ మీ | ఈసారి నేను కడతాను | My treat! కూడా అదే అర్థం. I will give a party ✗ అనరు.
+Can I get this to go? | కన్ ఐ గెట్ ద఼ిస్ ట గో | దీన్ని ప్యాక్ చేసి ఇస్తారా? | ఇండియాలో అనే parcel అమెరికాలో to go; బ్రిటన్‌లో takeaway. మిగిలింది తీసుకెళ్ళాలంటే: Can I get a box?
+Is the tip included? | ఇజ఼్ ద఼ టిప్ ఇన్ˈక్లూడిడ్ | టిప్ ఇందులో కలిసి ఉందా? | అమెరికా రెస్టారెంట్లలో బిల్లు మీద 15 నుంచి 20 శాతం టిప్ విడిగా ఇవ్వడం ఆనవాయితీ.
 `,
-"카페·편의점": `
-Can I get an iced Americano? | 캔 아이 게런 아이스트 아메리카노? | 아이스 아메리카노 주세요 | iced의 -d는 거의 안 들려요. 음료 주문은 Can I get ~?이 가장 흔해요
-What size would you like? | 왓 싸이즈 우쥬 라익? | 사이즈는 어떤 걸로 하시겠어요? | 직원이 묻는 말. would you는 "우쥬"
-Small, please. | 스몰, 플리즈 | 작은 걸로 주세요 | 스타벅스는 tall·grande·venti라고 말해요
-For here or to go? | 포 히어 오어 투 고? | 드시고 가세요, 가져가세요? | 영국식: "Eat in or take away?"
-Can I get oat milk instead? | 캔 아이 겟 오트 밀크 인스테드? | 귀리 우유로 바꿔 주실래요? | instead = 대신에. 추가 요금이 붙을 수 있어요
-Less ice, please. | 레스 아이스, 플리즈 | 얼음 적게 주세요 | 얼음 빼고: "No ice, please."
-Decaf, please. | 디캐프, 플리즈 | 디카페인으로 주세요 | decaffeinated의 줄임말이에요
-Can I get a name for the order? | 캔 아이 게러 네임 포 디 오더? | 주문하시는 분 성함이요? | 직원이 컵에 이름을 적으려고 물어요. 쉬운 영어 이름을 하나 정해 두면 편해요
-Do you need a bag? | 두 유 니더 백? | 봉투 필요하세요? | 필요 없으면 "No, I'm good."
-Can I get a receipt? | 캔 아이 게러 리씻? | 영수증 주세요 | receipt의 p는 소리 내지 않아요: 리씻
-Where can I find batteries? | 웨어 캔 아이 파인드 배러리즈? | 건전지 어디 있어요? | 물건 위치를 물을 때 만능 문장
-Do you sell phone chargers? | 두 유 쎌 폰 차저즈? | 휴대폰 충전기 팔아요? | "Do you have ~?"도 같은 뜻
-Can you heat this up? | 캔 유 히리썹? | 이거 데워 주실 수 있어요? | heat this up이 "히리썹"처럼 이어져요
-That's it. | 댓츠 잇 | 그게 다예요 | 직원이 "Anything else?"라고 물을 때
-Here you go. | 히어 유 고 | 여기요 | 돈이나 물건을 건넬 때 써요
-Keep the change. | 킵 더 체인지 | 잔돈은 가지세요 | 택시·배달에서 팁 대신 자주 써요
+"కేఫ్, దుకాణం": `
+Can I get an iced Americano? | కన్ ఐ గెట్ అన్ ఐస్ట్ అమెరిˈకానో | ఒక ఐస్డ్ అమెరికానో ఇస్తారా? | ఇండియాలో cold coffee అంటే పాలు, చక్కెర కలిపినది; iced Americano అంటే ఐస్ వేసిన బ్లాక్ కాఫీ. డ్రింక్ ఆర్డర్‌కి Can I get…? చాలా సాధారణం.
+What size would you like? | వట్ సైజ఼్ వడ్ యు లైక్ | ఏ సైజు కావాలి? | సిబ్బంది అడిగే ప్రశ్న. జవాబు: small, medium లేదా large.
+Small, please. | స్మాల్ ప్లీజ఼్ | చిన్నది ఇవ్వండి | Starbucks లో సైజులకు tall, grande, venti అనే పేర్లు ఉంటాయి.
+For here or to go? | ఫర్ హిర్ అర్ ట గో | ఇక్కడే తీసుకుంటారా, తీసుకెళ్తారా? | బ్రిటన్‌లో: Eat in or take away? ఇండియాలో: Dine-in or parcel?
+Can I get oat milk instead? | కన్ ఐ గెట్ ఓట్ మిల్క్ ఇన్ˈస్టెడ్ | దాని బదులు ఓట్ మిల్క్ వేస్తారా? | instead = బదులుగా; వాక్యం చివర వస్తుంది. అదనంగా డబ్బు తీసుకోవచ్చు.
+Less ice, please. | లెస్ ఐస్ ప్లీజ఼్ | ఐస్ తక్కువ వేయండి | ఐస్ అసలు వద్దంటే: No ice, please. ice లెక్కించలేని నామవాచకం కాబట్టి less; fewer కాదు.
+Decaf, please. | ˈడీక్యాఫ్ ప్లీజ఼్ | కెఫీన్ లేని కాఫీ ఇవ్వండి | decaffeinated కి చిన్న రూపం. ఒత్తి మొదటి భాగం మీద.
+Can I get a name for the order? | కన్ ఐ గెట్ అ నేమ్ ఫర్ ద఼ి ˈఓర్డర్ | ఆర్డర్ ఎవరి పేరు మీద రాయమంటారు? | కప్పు మీద పేరు రాయడానికి అడుగుతారు. పొడవైన పేరైతే చిన్న రూపం చెప్పండి, లేదా స్పెల్లింగ్ చెప్పండి.
+Do you need a bag? | డ యు నీడ్ అ బ్యాగ్ | మీకు కవర్ కావాలా? | వద్దనుకుంటే No, I'm good. ఇండియాలో cover, carry bag అంటాం; అక్కడ bag.
+Can I get a receipt? | కన్ ఐ గెట్ అ రిˈసీట్ | రసీదు ఇస్తారా? | receipt లో p పలకదు. డబ్బు కట్టాక ఇచ్చేది receipt; కట్టమని ఇచ్చేది bill.
+Where can I find batteries? | వెర్ కన్ ఐ ఫైండ్ ˈబ్యాటరిజ఼్ | బ్యాటరీలు ఎక్కడ దొరుకుతాయి? | దుకాణంలో ఏ వస్తువు ఎక్కడ ఉందో అడగడానికి పనికొచ్చే వాక్యం. batteries బహువచనంలో.
+Do you sell phone chargers? | డ యు సెల్ ఫోన్ ˈచార్జర్జ఼్ | మీరు ఫోన్ చార్జర్లు అమ్ముతారా? | Do you have…? అన్నా అదే అర్థం. సాధారణంగా అడిగేటప్పుడు బహువచనం: chargers.
+Can you heat this up? | కన్ యు హీట్ ద఼ిస్ అప్ | దీన్ని వేడి చేసి ఇస్తారా? | heat up = వేడి చేయడం. make it hot అనరు.
+That's it. | ద఼్యాట్స్ ఇట్ | అంతే, ఇంకేం వద్దు | సిబ్బంది Anything else? అని అడిగినప్పుడు. That's all అన్నా సరే.
+Here you go. | హిర్ యు గో | ఇదిగోండి | డబ్బు గానీ వస్తువు గానీ చేతికి ఇచ్చేటప్పుడు. Take it అంటే మొరటుగా ఉంటుంది.
+Keep the change. | కీప్ ద఼ చేంజ్ | చిల్లర మీరే ఉంచుకోండి | టాక్సీలో, డెలివరీ అప్పుడు టిప్‌గా తరచూ అంటారు.
 `,
-"쇼핑·계산": `
-I'm just looking, thanks. | 아임 저스트 루킹, 땡스 | 그냥 구경하는 거예요 | 직원이 "Can I help you find anything?" 할 때
-Do you have this in a medium? | 두 유 해브 디스 인 어 미디엄? | 이거 M 사이즈 있어요? | 사이즈는 small / medium / large
-Do you have it in black? | 두 유 해빗 인 블랙? | 검은색 있어요? | 색깔 앞엔 in
-Can I try this on? | 캔 아이 트라이 디스 온? | 입어 봐도 돼요? | try on = (옷·신발을) 입어 보다·신어 보다
-Where's the fitting room? | 웨어즈 더 피팅 룸? | 탈의실 어디예요? | 영국: changing room
-It's too big. | 잇츠 투 빅 | 너무 커요 | 작으면 "It's too small."
-It's a bit tight. | 잇츠 어 빗 타잇 | 조금 껴요 | 헐렁하면 "It's a bit loose."
-Is this on sale? | 이즈 디스 온 쎄일? | 이거 세일해요? | on sale = 할인 중. for sale = 판매 중. 헷갈리기 쉬워요!
-Can you give me a discount? | 캔 유 깁 미 어 디스카운트? | 좀 깎아 주실 수 있어요? | 미국 일반 매장에선 흥정을 거의 안 해요. 시장·중고 거래에서만
-I'll take it. | 아일 테이킷 | 이걸로 할게요 | 살 물건을 정했을 때. 두 개 이상이면 "I'll take them."
-Cash or card? | 캐시 오어 카드? | 현금이요, 카드요? | 계산대에서 꼭 듣는 질문
-Do you take Apple Pay? | 두 유 테익 애플 페이? | 애플페이 돼요? | take = (결제 수단을) 받다
-Can I get a refund? | 캔 아이 게러 리펀드? | 환불돼요? | 영수증을 꼭 챙기세요
-I'd like to exchange this. | 아이드 라익 투 익스체인지 디스 | 이거 교환하고 싶어요 | 이유도 덧붙여요: "It's the wrong size."
-Can you gift wrap it? | 캔 유 기프트 랩 잇? | 선물 포장해 주실 수 있어요? | wrap의 w만 소리 나요: 랩
-Does that include tax? | 더즈 댓 인클루드 택스? | 세금 포함인가요? | 미국은 가격표에 세금이 빠져 있어서 계산할 때 더 나와요
+"షాపింగ్, చెల్లింపులు": `
+I'm just looking, thanks. | ఐమ్ జస్ట్ ˈలుకిఙ్ థ఼్యాంక్స్ | ఊరికే చూస్తున్నానండి | సిబ్బంది Can I help you find anything? అని అడిగినప్పుడు. తెలుగు "ఊరికే" కి ఇక్కడ just; simply కాదు.
+Do you have this in a medium? | డ యు హ్యావ఼్ ద఼ిస్ ఇన్ అ ˈమీడిఅమ్ | ఇది M సైజులో ఉందా? | సైజులు: small, medium, large. సైజు ముందు in a.
+Do you have it in black? | డ యు హ్యావ఼్ ఇట్ ఇన్ బ్ల్యాక్ | ఇది నలుపు రంగులో ఉందా? | రంగు ముందు in. black colour అనకుండా ఉత్త black చాలు.
+Can I try this on? | కన్ ఐ ట్రై ద఼ిస్ ఆన్ | ఇది వేసుకుని చూడవచ్చా? | try on = (బట్టలు, చెప్పులు) వేసుకుని చూడటం. చాలా ఉంటే బహువచనం: Can I try these on?
+Where's the fitting room? | వెర్జ఼్ ద఼ ˈఫిటిఙ్ రూమ్ | ట్రయల్ రూమ్ ఎక్కడ ఉంది? | అమెరికాలో fitting room, బ్రిటన్‌లో changing room, ఇండియాలో trial room.
+It's too big. | ఇట్స్ టూ బిగ్ | ఇది చాలా పెద్దగా ఉంది | చిన్నదైతే It's too small. too = అవసరానికి మించి; "చాలా" కి ప్రతిసారీ too కాదు, very.
+It's a bit tight. | ఇట్స్ అ బిట్ టైట్ | ఇది కొంచెం బిగుతుగా ఉంది | వదులుగా ఉంటే It's a bit loose.
+Is this on sale? | ఇజ఼్ ద఼ిస్ ఆన్ సేల్ | దీని మీద డిస్కౌంట్ ఉందా? | on sale = తగ్గింపు ధరలో. for sale = అమ్మకానికి ఉంది. తికమక పడకండి.
+Can you give me a discount? | కన్ యు గివ఼్ మి అ ˈడిస్కౌంట్ | కొంచెం తగ్గిస్తారా? | అమెరికాలో మామూలు దుకాణాల్లో బేరం ఆడరు; సంతల్లో, పాత వస్తువులు కొనేటప్పుడు మాత్రమే. some discount కాదు, a discount.
+I'll take it. | ఐల్ టేక్ ఇట్ | ఇదే తీసుకుంటాను | కొనాలని నిర్ణయించుకున్నప్పుడు. ఒకటి కంటే ఎక్కువైతే I'll take them.
+Cash or card? | క్యాష్ అర్ కార్డ్ | క్యాషా, కార్డా? | బిల్లు కౌంటర్ దగ్గర తప్పకుండా వినిపించే ప్రశ్న.
+Do you take Apple Pay? | డ యు టేక్ ˈయాపల్ పే | Apple Pay తీసుకుంటారా? | take = (చెల్లింపు పద్ధతిని) అంగీకరించడం. అమెరికాలో UPI లేదు; ఫోన్‌తో కట్టాలంటే Apple Pay, Google Pay.
+Can I get a refund? | కన్ ఐ గెట్ అ ˈరీఫండ్ | డబ్బు వాపసు ఇస్తారా? | రసీదు జాగ్రత్తగా ఉంచుకోండి. నామవాచకం refund లో ఒత్తి మొదటి భాగం మీద.
+I'd like to exchange this. | ఐడ్ లైక్ టు ఇక్స్ˈచేంజ్ ద఼ిస్ | ఇది మార్చుకోవాలనుకుంటున్నాను | కారణం కూడా చెప్పండి: It's the wrong size.
+Can you gift wrap it? | కన్ యు గిఫ్ట్ ర్యాప్ ఇట్ | దీన్ని గిఫ్ట్ ప్యాక్ చేస్తారా? | wrap లో w పలకదు. ఇండియాలో అనే gift pack అక్కడ gift wrap.
+Does that include tax? | డజ఼్ ద఼్యాట్ ఇన్ˈక్లూడ్ ట్యాక్స్ | ఇందులో ట్యాక్స్ కలిసి ఉందా? | అమెరికాలో ధర చీటీ మీద ట్యాక్స్ ఉండదు; బిల్లు కట్టేటప్పుడు కలుపుతారు. మన MRP లా కాదు.
 `,
-"숫자·시간·날짜": `
-What time is it? | 왓 타임 이즈 잇? | 지금 몇 시예요? | 모르는 사람에게는 "Excuse me, do you have the time?"
-It's three thirty. | 잇츠 쓰리 써리 | 3시 반이에요 | "half past three"(영국식)도 같은 뜻
-It's a quarter to five. | 잇츠 어 쿼러 투 파이브 | 5시 15분 전이에요 | quarter = 15분. "four forty-five"라고 해도 돼요
-At noon | 앳 눈 | 정오에 / 낮 12시에 | 자정은 midnight. 12 a.m./p.m.보다 헷갈리지 않아요
-What's the date today? | 왓츠 더 데잇 투데이? | 오늘 며칠이에요? | 요일은 "What day is it today?"
-It's May 3rd. | 잇츠 메이 써드 | 5월 3일이에요 | 날짜는 서수로 읽어요: first, second, third, fourth…
-My birthday is in October. | 마이 버스데이 이즈 인 악토버 | 제 생일은 10월이에요 | 월 앞에는 in, 날짜 앞에는 on: on October 5th
-On Monday | 온 먼데이 | 월요일에 | 요일 앞에는 on. 매주라면 on Mondays
-Next weekend | 넥스트 위켄드 | 다음 주말 | next·last·this 앞에는 전치사를 쓰지 않아요
-The day after tomorrow | 더 데이 애프터 터마로우 | 모레 | 그저께는 the day before yesterday
-Thirteen or thirty? | 써틴 오어 써리? | 13이에요, 30이에요? | 13은 뒤(-teen)를 길게, 30은 앞을 세게. 가격 들을 때 꼭 확인해요
-Fifteen dollars | 피프틴 달러즈 | 15달러 | $15.50은 "fifteen fifty"라고 읽어요
-Two hundred and fifty | 투 헌드레드 앤 피프티 | 이백오십 (250) | 미국에선 and를 자주 생략해요: two hundred fifty
-Ten thousand | 텐 싸우전드 | 만 (10,000) | 영어에는 '만' 단위가 없어요! 세 자리씩 끊어서 10 thousand
-One million | 원 밀리언 | 백만 (1,000,000) | 천만 = ten million, 1억 = one hundred million
-Twice a week | 트와이스 어 윅 | 일주일에 두 번 | once(한 번), twice(두 번), three times(세 번)
-In ten minutes | 인 텐 미닛츠 | 10분 후에 | 미래 시간 앞의 in = ~ 후에. "10분 안에"가 아니에요
+"సంఖ్యలు, సమయం, తేదీ": `
+What time is it? | వట్ టైమ్ ఇజ఼్ ఇట్ | ఇప్పుడు టైమ్ ఎంత? | తెలియని వాళ్ళను: Excuse me, do you have the time? What is the time? కూడా సరే.
+It's three thirty. | ఇట్స్ థ఼్రీ ˈథ఼ర్టి | మూడున్నర అయింది | బ్రిటన్‌లో, ఇండియాలో half past three అని కూడా అంటారు.
+It's a quarter to five. | ఇట్స్ అ ˈక్వోర్టర్ ట ఫైవ఼్ | పావు తక్కువ ఐదు (4:45) | quarter = పావుగంట. four forty-five అన్నా సరే. a quarter: ఆర్టికల్ a తో.
+At noon | అట్ నూన్ | మధ్యాహ్నం 12 గంటలకి | అర్ధరాత్రి 12 కి midnight. 12 a.m. / 12 p.m. కంటే ఇవి స్పష్టం. సమయం ముందు at.
+What's the date today? | వట్స్ ద఼ డేట్ టˈడే | ఈరోజు తేదీ ఎంత? | వారం అడగాలంటే: What day is it today?
+It's May 3rd. | ఇట్స్ మే థ఼ర్డ్ | ఈరోజు మే 3 | తేదీని first, second, third, fourth… అని చదువుతారు. అమెరికాలో నెల ముందు రాస్తారు: 5/3 అంటే మే 3; మార్చి 5 కాదు.
+My birthday is in October. | మై ˈబర్థ఼్డే ఇజ఼్ ఇన్ ఆక్ˈటోబర్ | నా పుట్టినరోజు అక్టోబర్‌లో | నెల ముందు in, తేదీ ముందు on: on October 5th. తెలుగులో రెండిటికీ ఒకే రకం ప్రత్యయం; ఇంగ్లీష్‌లో వేరు.
+On Monday | ఆన్ ˈమండే | సోమవారం నాడు | వారం పేరు ముందు on. ప్రతి సోమవారం అయితే బహువచనం: on Mondays.
+Next weekend | నెక్స్ట్ ˈవీకెండ్ | వచ్చే వారాంతం | next, last, this ముందు ప్రిపొజిషన్ రాదు: on next weekend ✗.
+The day after tomorrow | ద఼ డే యాఫ్టర్ టˈమారో | ఎల్లుండి | మొన్న = the day before yesterday. ఇంగ్లీష్‌లో వీటికి ఒక్క పదం లేదు.
+Thirteen or thirty? | థ఼ర్ˈటీన్ అర్ ˈథ఼ర్టి | పదమూడా, ముప్పైనా? | thirteen లో ఒత్తి చివరి భాగం మీద, thirty లో మొదటి భాగం మీద. ధరలు వినేటప్పుడు అడిగి నిర్ధారించుకోండి.
+Fifteen dollars | ఫిఫ్ˈటీన్ ˈడాలర్జ఼్ | పదిహేను డాలర్లు | $15.50 ని fifteen fifty అని చదువుతారు. సంఖ్య తర్వాత బహువచనం: dollars, rupees.
+Two hundred and fifty | టూ ˈహండ్రడ్ అండ్ ˈఫిఫ్టి | రెండు వందల యాభై (250) | అమెరికాలో and తరచూ వదిలేస్తారు: two hundred fifty. సంఖ్య తర్వాత hundred కి -s రాదు: two hundreds ✗.
+Ten thousand | టెన్ ˈథ఼ౌజ఼ండ్ | పది వేలు (10,000) | thousand కి -s రాదు: ten thousands ✗. లక్ష = one hundred thousand.
+One million | వన్ ˈమిల్యన్ | పది లక్షలు (1,000,000) | విదేశాల్లో lakh, crore అర్థం కావు. కోటి = ten million; వంద కోట్లు = one billion.
+Twice a week | ట్వైస్ అ వీక్ | వారానికి రెండుసార్లు | once (ఒకసారి), twice (రెండుసార్లు), three times (మూడుసార్లు). "వారానికి" = a week; in a week కాదు.
+In ten minutes | ఇన్ టెన్ ˈమినిట్స్ | పది నిమిషాల్లో (ఇప్పటి నుంచి) | in + సమయం = ఇప్పటి నుంచి అంత సేపటి తర్వాత. ఇండియాలో అనే after ten minutes బదులు ఇదే సహజం.
 `,
-"스몰토크": `
-How was your weekend? | 하우 워즈 유어 위켄드? | 주말 어땠어요? | 월요일 단골 질문. 한두 문장으로 짧게 대답하고 되물어요
-It was pretty relaxing. | 잇 워즈 프리티 릴랙싱 | 꽤 여유로웠어요 | pretty = 꽤. "예쁜"이 아니에요
-Any plans for the weekend? | 애니 플랜즈 포 더 위켄드? | 주말에 계획 있어요? | 금요일 단골 질문. 계획 없으면 "Not really, just relaxing."
-Nice weather today, huh? | 나이스 웨더 투데이, 허? | 오늘 날씨 좋네요 | 날씨는 누구와도 할 수 있는 가장 안전한 화제예요
-It's freezing today. | 잇츠 프리징 투데이 | 오늘 엄청 춥네요 | 더울 땐 "It's boiling!" 또는 "It's so hot!"
-How long have you lived here? | 하우 롱 해뷰 리브드 히어? | 여기 산 지 얼마나 됐어요? | 대답: "About three years."
-Have you been to Korea? | 해뷰 빈 투 코리아? | 한국 가 본 적 있어요? | 경험을 물을 땐 have been to
-What do you do for fun? | 왓 두 유 두 포 펀? | 쉴 때 주로 뭐 해요? | "What's your hobby?"보다 훨씬 자연스러운 취미 질문이에요
-Have you seen any good shows lately? | 해뷰 씬 애니 굿 쇼즈 레잇리? | 요즘 재밌는 거 봤어요? | show = 드라마·예능 같은 TV 프로그램
-That sounds fun. | 댓 싸운즈 펀 | 재밌겠다 | 상대 이야기에 반응할 때. "That sounds great!"도 좋아요
-Same here. | 쎄임 히어 | 저도 그래요 | 캐주얼하게 그냥 "Same!"
-Me neither. | 미 니더 | 저도 안 그래요 | 부정문에 맞장구칠 때. "I don't like it." → "Me neither." (Me too 아님!)
-I know, right? | 아이 노우, 롸잇? | 그러니까요! / 내 말이! | 강하게 동의할 때 쓰는 캐주얼한 표현
-Oh, really? | 오, 륄리? | 아, 정말요? | 관심을 보여 주는 맞장구. 끝을 올려요
-By the way | 바이 더 웨이 | 그런데 / 그나저나 | 화제를 바꿀 때. 문자로는 BTW
-How's work? | 하우즈 워크? | 일은 어때요? | 아는 사이의 안부 질문. "Busy, but good!"처럼 대답해요
-It was nice talking to you. | 잇 워즈 나이스 토킹 투 유 | 이야기 즐거웠어요 | 대화를 자연스럽게 끝낼 때 써요
+"సరదా కబుర్లు": `
+How was your weekend? | హౌ వజ఼్ యుర్ ˈవీకెండ్ | మీ వీకెండ్ ఎలా గడిచింది? | సోమవారం తప్పకుండా వినిపించే ప్రశ్న. ఒకటి రెండు వాక్యాల్లో చెప్పి తిరిగి అడగండి.
+It was pretty relaxing. | ఇట్ వజ఼్ ˈప్రిటి రిˈల్యాక్సిఙ్ | హాయిగా, విశ్రాంతిగా గడిచింది | ఇక్కడ pretty = బాగానే, చాలానే. "అందమైన" కాదు.
+Any plans for the weekend? | ˈఎని ప్ల్యాన్జ఼్ ఫర్ ద఼ ˈవీకెండ్ | వీకెండ్‌కి ఏమైనా ప్లాన్స్ ఉన్నాయా? | శుక్రవారం తప్పకుండా వినిపించే ప్రశ్న. ఏమీ లేకపోతే: Not really, just relaxing.
+Nice weather today, huh? | నైస్ ˈవెద఼ర్ టˈడే హ | ఈరోజు వాతావరణం బాగుంది కదా? | వాతావరణం ఎవరితోనైనా మాట్లాడగలిగే విషయం. తెలుగు "కదా?" కి ఇక్కడ huh?; ప్రతిచోటా isn't it? కాదు. ఈ అర్థంలో climate కాదు, weather.
+It's freezing today. | ఇట్స్ ˈఫ్రీజ఼ిఙ్ టˈడే | ఈరోజు విపరీతమైన చలిగా ఉంది | ఎండ ఎక్కువైతే It's boiling! లేదా It's so hot! ఈ వాక్యాల్లో It's తప్పనిసరి.
+How long have you lived here? | హౌ లాఙ్ హవ఼్ యు లివ఼్డ్ హిర్ | మీరు ఇక్కడ ఎన్నాళ్ళుగా ఉంటున్నారు? | జవాబు: About three years. Since how long are you staying here? ✗ కాదు.
+Have you been to India? | హవ఼్ యు బిన్ టు ˈఇండిఅ | మీరు ఎప్పుడైనా ఇండియా వచ్చారా? | అనుభవం గురించి అడగడానికి have been to. విదేశీ స్నేహితులతో మాట కలపడానికి మంచి ప్రశ్న.
+What do you do for fun? | వట్ డ యు డూ ఫర్ ఫన్ | తీరిక దొరికితే ఏం చేస్తుంటారు? | What's your hobby? కంటే చాలా సహజమైన ప్రశ్న.
+Have you seen any good shows lately? | హవ఼్ యు సీన్ ˈఎని గుడ్ షోజ఼్ ˈలేట్లి | ఈ మధ్య మంచి సిరీస్ ఏమైనా చూశారా? | show = టీవీ ప్రోగ్రామ్, వెబ్ సిరీస్. ఇండియాలో serial అనేదాన్ని అక్కడ show లేదా series అంటారు.
+That sounds fun. | ద఼్యాట్ సౌండ్జ఼్ ఫన్ | వినడానికే సరదాగా ఉంది | ఎదుటివారి మాటకు స్పందనగా. That sounds great! కూడా బాగుంటుంది. sounds చివర -s మర్చిపోకండి.
+Same here. | సేమ్ హిర్ | నాదీ అదే మాట | స్నేహితుల మధ్య ఉత్త Same!
+Me neither. | మీ ˈనీద఼ర్ | నాకూ ఇష్టం లేదు / నేనూ కాదు | వ్యతిరేక వాక్యానికి వంత పాడటం: I don't like it. → Me neither. ఇక్కడ Me too కాదు.
+I know, right? | ఐ నో రైట్ | అవును కదా! | గట్టిగా ఏకీభవించేటప్పుడు స్నేహితుల మధ్య అనే మాట.
+Oh, really? | ఓ ˈరీఅలి | ఓహో, నిజమా? | ఆసక్తి చూపించే స్పందన. చివర స్వరం పైకి లేపండి. ఇండియాలో అనే Is it? బదులు.
+By the way | బై ద఼ వే | అన్నట్టు | మాట మార్చేటప్పుడు. మెసేజ్‌లో BTW.
+How's work? | హౌజ఼్ వర్క్ | పని ఎలా ఉంది? | తెలిసిన వాళ్ళను అడిగే పలకరింపు. జవాబు: Busy, but good!
+It was nice talking to you. | ఇట్ వజ఼్ నైస్ ˈటాకిఙ్ ట యు | మీతో మాట్లాడటం సంతోషంగా ఉంది | సంభాషణను మర్యాదగా ముగించడానికి.
 `,
-"감정·반응": `
-I'm so happy for you! | 아임 쏘 해피 포 유! | 정말 잘됐다! (축하) | 상대에게 좋은 일이 생겼을 때
-Congratulations! | 컹그래츄레이션스! | 축하해요! | 꼭 -s를 붙여요. 줄여서 "Congrats!"
-That's awesome! | 댓츠 어썸! | 대박! 멋지다! | 미국인이 정말 자주 쓰는 리액션이에요
-No way! | 노 웨이! | 말도 안 돼! / 헐! | 놀랐을 때. 거절할 때도 써요: "No way, I'm not doing that."
-Seriously? | 시리어슬리? | 진심이야? / 진짜로? | 말투에 따라 놀람 또는 짜증을 나타내요
-I'm so tired. | 아임 쏘 타이어드 | 너무 피곤해요 | 완전 지쳤을 땐 "I'm exhausted."
-I'm stressed out. | 아임 스트레스드 아웃 | 스트레스를 너무 받아요 | "I have stress"보다 자연스러워요
-I'm bored. | 아임 보어드 | 심심해요 / 지루해요 | 주의! "I'm boring"은 "나는 지루한 사람이에요"라는 뜻
-I'm excited. | 아임 익싸이티드 | 신나요 / 설레요 | 기대되는 일이 있을 때. -ed는 내가 느끼는 감정
-I'm nervous. | 아임 너버스 | 긴장돼요 | 면접·발표 전에. 상대에게: "Don't be nervous."
-That's too bad. | 댓츠 투 배드 | 아쉽네요 / 안타깝네요 | 가벼운 아쉬움. 심각한 일엔 아래 표현을 써요
-I'm sorry to hear that. | 아임 쏘리 투 히어 댓 | 그런 일이 있었다니 마음이 안 좋네요 | 사과가 아니라 위로예요. sorry = 유감스러운
-What a relief! | 와러 릴리프! | 다행이다! | "Phew!"와 함께 쓰면 더 자연스러워요
-Oh my gosh! | 오 마이 가쉬! | 세상에! | Oh my God를 순화한 표현. 문자로는 OMG
-I'm upset. | 아임 업셋 | 속상해요 / 기분이 상했어요 | 화남과 슬픔의 중간 느낌이에요
-That's so annoying. | 댓츠 쏘 어노잉 | 진짜 짜증 나 | 사람에게 "You're annoying"은 꽤 세게 들려요
-I can't wait! | 아이 캔트 웨잇! | 너무 기대돼! / 빨리 하고 싶어! | 직역하면 "못 기다리겠어"
-It's not a big deal. | 잇츠 나러 빅 딜 | 별일 아니에요 | 상대가 미안해할 때 안심시키는 말
+"భావాలు, స్పందనలు": `
+I'm so happy for you! | ఐమ్ సో ˈహ్యాపి ఫర్ యు | నీకు ఇలా జరగడం నాకు చాలా సంతోషం! | ఎదుటివారికి మంచి జరిగినప్పుడు. happy for you; happy about you కాదు.
+Congratulations! | కన్గ్ర్యాచˈలేషన్జ఼్ | అభినందనలు! | ఎప్పుడూ -s తో: Congratulation ✗. చిన్నగా Congrats!
+That's awesome! | ద఼్యాట్స్ ˈఆసమ్ | అదిరింది! / సూపర్! | అమెరికన్లు చాలా ఎక్కువగా వాడే స్పందన.
+No way! | నో వే | నమ్మలేకపోతున్నా! / అస్సలు కుదరదు! | ఆశ్చర్యపోయినప్పుడు. గట్టిగా కాదనడానికి కూడా: No way, I'm not doing that.
+Seriously? | ˈసిరిఅస్లి | నిజంగానా? | స్వరాన్ని బట్టి ఆశ్చర్యం గానీ, చిరాకు గానీ చూపిస్తుంది.
+I'm so tired. | ఐమ్ సో ˈటైఅర్డ్ | నేను చాలా అలసిపోయాను | పూర్తిగా నీరసించిపోతే I'm exhausted. తెలుగులో క్రియ లేకపోయినా ఇంగ్లీష్‌లో am ఉండాలి: I so tired ✗.
+I'm stressed out. | ఐమ్ స్ట్రెస్ట్ ఔట్ | నేను చాలా ఒత్తిడిలో ఉన్నాను | ఇండియాలో అనే I have tension బదులు I'm stressed లేదా I'm stressed out.
+I'm bored. | ఐమ్ బోర్డ్ | నాకు బోర్ కొడుతోంది | జాగ్రత్త: I'm boring అంటే "నేను బోర్ కొట్టించే మనిషిని" అని అర్థం.
+I'm excited. | ఐమ్ ఇక్ˈసైటిడ్ | నాకు చాలా ఉత్సాహంగా ఉంది | ఎదురుచూస్తున్న విషయం ఉన్నప్పుడు. -ed నాకు కలిగే భావం; -ing ఆ భావం కలిగించేది: The trip is exciting.
+I'm nervous. | ఐమ్ ˈనర్వ఼స్ | నాకు కంగారుగా ఉంది | ఇంటర్వ్యూ, ప్రజెంటేషన్ ముందు. ఎదుటివారికి: Don't be nervous.
+That's too bad. | ద఼్యాట్స్ టూ బ్యాడ్ | అయ్యో, పాపం | చిన్న విషయాలకు. పెద్ద కష్టమైతే I'm sorry to hear that అనండి.
+I'm sorry to hear that. | ఐమ్ ˈసారి ట హిర్ ద఼్యాట్ | అది విని బాధగా ఉంది | ఇది క్షమాపణ కాదు, ఓదార్పు. ఇక్కడ sorry = బాధగా ఉంది.
+What a relief! | వట్ అ రిˈలీఫ్ | హమ్మయ్య! | Phew! తో కలిపి అంటే ఇంకా సహజం. What a relief: ఆర్టికల్ a వదిలేయకండి.
+Oh my gosh! | ఓ మై గాష్ | అయ్యబాబోయ్! | Oh my God కి మృదువైన రూపం. మెసేజ్‌లో OMG.
+I'm upset. | ఐమ్ అప్ˈసెట్ | నా మనసు బాగోలేదు | కోపానికీ బాధకీ మధ్య భావం. I'm angry అంత గట్టిది కాదు.
+That's so annoying. | ద఼్యాట్స్ సో అˈనాయిఙ్ | చాలా చిరాకు తెప్పిస్తోంది | మనిషిని ఉద్దేశించి You're annoying అంటే చాలా గట్టిగా తగులుతుంది.
+I can't wait! | ఐ క్యాంట్ వేట్ | ఎప్పుడెప్పుడా అని ఉంది! | అక్షరాలా "ఆగలేను"; అర్థం "చాలా ఆత్రుతగా ఎదురుచూస్తున్నాను".
+It's not a big deal. | ఇట్స్ నాట్ అ బిగ్ డీల్ | ఇదేం పెద్ద విషయం కాదు | ఎదుటివారు బాధపడుతున్నప్పుడు ధైర్యం చెప్పే మాట. చిన్నగా: No big deal.
 `,
-"칭찬·호감 표현": `
-You look great! | 유 룩 그레잇! | 좋아 보여요! / 멋져요! | 외모 칭찬은 "You look ~"로. 아는 사이에서 자연스러워요
-I love your shoes. | 아이 러브 유어 슈즈 | 신발 너무 예뻐요 | love = 정말 마음에 든다. 처음 보는 사람에게도 가볍게 칭찬해요
-That color looks good on you. | 댓 컬러 룩스 굿 온 유 | 그 색 잘 어울려요 | look good on + 사람 = ~에게 잘 어울리다
-You have a great smile. | 유 해버 그레잇 스마일 | 미소가 정말 예뻐요 | 친해진 사이에서 쓰는 따뜻한 칭찬
-You're so funny. | 유어 쏘 퍼니 | 진짜 웃겨요 | funny = 웃긴. fun = 함께 있으면 즐거운
-Great job! | 그레잇 잡! | 잘했어요! | 직장·학교 어디서나. "Nice work!"도 같아요
-I'm proud of you. | 아임 프라우드 오브 유 | 네가 자랑스러워 | 가족·친구에게. 상사가 부하에게 쓰기도 해요
-You did it! | 유 디딧! | 해냈구나! | 목표를 이룬 사람에게
-Your Korean is really good! | 유어 코리안 이즈 륄리 굿! | 한국어 진짜 잘하시네요! | 한국어를 배우는 외국인 친구에게 해 주면 좋아해요
-You have good taste. | 유 해브 굿 테이스트 | 안목이 좋으시네요 / 센스 있어요 | 옷·음악·인테리어 취향 칭찬. "센스"는 영어로 taste예요
-I really enjoyed spending time with you. | 아이 륄리 인조이드 스펜딩 타임 위드 유 | 같이 시간 보내서 정말 즐거웠어요 | 데이트·모임이 끝날 때
-Do you want to grab coffee sometime? | 두 유 워너 그랩 커피 썸타임? | 언제 커피 한잔할래요? | want to는 "워너". grab = 가볍게 먹다·마시다
-I miss you. | 아이 미스 유 | 보고 싶어요 | 지금 떨어져 있는 사람에게. 가족·친구에게도 써요
-You mean a lot to me. | 유 민 어 랏 투 미 | 너는 나한테 정말 소중해 | 친구·연인에게 진심을 전할 때
-You're a lifesaver! | 유어러 라이프세이버! | 덕분에 살았어요! | 작은 도움에도 과장해서 고마움을 표현해요
-You made my day! | 유 메이드 마이 데이! | 덕분에 하루가 행복해졌어요! | 기분 좋은 말이나 선물을 받았을 때
-That's very kind of you. | 댓츠 베리 카인드 오브 유 | 정말 친절하시네요 | 도움이나 칭찬을 받았을 때 공손하게
+"మెచ్చుకోలు, ఇష్టాలు": `
+You look great! | యు లుక్ గ్రేట్ | చాలా బాగున్నావు! | రూపాన్ని మెచ్చుకోవడానికి You look + విశేషణం. You are looking great కంటే ఇది సహజం.
+I love your shoes. | ఐ లవ఼్ యుర్ షూజ఼్ | నీ షూస్ చాలా బాగున్నాయి | ఇక్కడ love = చాలా నచ్చింది. అమెరికాలో కొత్తవాళ్ళను కూడా ఇలా తేలికగా మెచ్చుకుంటారు.
+That color looks good on you. | ద఼్యాట్ ˈకలర్ లుక్స్ గుడ్ ఆన్ యు | ఆ రంగు నీకు బాగా నప్పింది | look good on + మనిషి = నప్పడం. suits you కూడా సరే; suits to you ✗. అమెరికాలో color, ఇండియాలో colour.
+You have a great smile. | యు హ్యావ఼్ అ గ్రేట్ స్మైల్ | నీ నవ్వు చాలా బాగుంటుంది | దగ్గరైన వాళ్ళతో అనే ఆప్యాయమైన మెచ్చుకోలు. a great smile: ఆర్టికల్ a తో.
+You're so funny. | యుర్ సో ˈఫని | నువ్వు భలే నవ్విస్తావు | funny = నవ్వు తెప్పించే. fun = కలిసి గడిపితే సరదాగా ఉండే.
+Great job! | గ్రేట్ జాబ్ | చాలా బాగా చేశావు! | ఆఫీసులో, బడిలో, ఎక్కడైనా. Nice work! కూడా అదే.
+I'm proud of you. | ఐమ్ ప్రౌడ్ అవ఼్ యు | నిన్ను చూస్తే గర్వంగా ఉంది | కుటుంబ సభ్యులకు, స్నేహితులకు. proud of you; proud on you ✗.
+You did it! | యు డిడ్ ఇట్ | సాధించావు! | లక్ష్యం చేరుకున్న వాళ్ళకు.
+Your Telugu is really good! | యుర్ ˈటెలగు ఇజ఼్ ˈరీఅలి గుడ్ | మీ తెలుగు చాలా బాగుంది! | తెలుగు నేర్చుకుంటున్న విదేశీ స్నేహితులకు చెబితే సంతోషిస్తారు. మీ ఇంగ్లీష్‌ని ఎవరైనా ఇలా మెచ్చుకుంటే No, no అనకుండా Thank you అనండి.
+You have good taste. | యు హ్యావ఼్ గుడ్ టేస్ట్ | నీ అభిరుచి బాగుంది | బట్టలు, సంగీతం, ఇంటి అలంకరణ ఎంపికను మెచ్చుకోవడానికి. ఇక్కడ taste లెక్కించలేని నామవాచకం: a good taste ✗.
+I really enjoyed spending time with you. | ఐ ˈరీఅలి ఇంˈజాయిడ్ ˈస్పెండిఙ్ టైమ్ విద఼్ యు | నీతో గడపడం చాలా సంతోషంగా అనిపించింది | కలిసి గడిపాక విడిపోయేటప్పుడు. enjoy తర్వాత -ing: enjoyed to spend ✗. ఉత్త I enjoyed ✗ అని ఆపకండి; దేన్ని enjoy చేశారో చెప్పాలి.
+Do you want to grab coffee sometime? | డ యు వాంట్ ట గ్ర్యాబ్ ˈకాఫి ˈసమ్టైమ్ | ఎప్పుడైనా కాఫీకి కలుద్దామా? | grab = తొందరగా, తేలికగా తినడం లేదా తాగడం. sometime = ఎప్పుడో ఒకప్పుడు; sometimes = అప్పుడప్పుడు.
+I miss you. | ఐ మిస్ యు | నువ్వు గుర్తొస్తున్నావు | దూరంగా ఉన్న వాళ్ళకు. కుటుంబ సభ్యులకు, స్నేహితులకు కూడా అంటారు. I am missing you కంటే I miss you సహజం.
+You mean a lot to me. | యు మీన్ అ లాట్ ట మి | నువ్వు నాకు చాలా ముఖ్యం | స్నేహితులకు, ప్రియమైన వాళ్ళకు మనసులో మాట చెప్పేటప్పుడు.
+You're a lifesaver! | యుర్ అ ˈలైఫ్సేవ఼ర్ | నువ్వు నా ప్రాణం కాపాడావు! | చిన్న సహాయానికి కూడా సరదాగా, అతిశయంగా కృతజ్ఞత చెప్పే మాట.
+You made my day! | యు మేడ్ మై డే | నీ వల్ల ఈరోజు చాలా ఆనందంగా గడిచింది! | మంచి మాట గానీ బహుమతి గానీ అందినప్పుడు.
+That's very kind of you. | ద఼్యాట్స్ ˈవ఼ెరి కైండ్ అవ఼్ యు | మీది చాలా మంచి మనసు | సహాయం గానీ మెచ్చుకోలు గానీ అందినప్పుడు మర్యాదగా. kind of you; kind from you ✗.
 `,
-"직장·이메일": `
-I hope this email finds you well. | 아이 호프 디스 이메일 파인즈 유 웰 | 잘 지내고 계시길 바랍니다 | 격식 있는 이메일 첫 인사. 조금 가볍게: "I hope you're doing well."
-I'm writing to ask about the schedule. | 아임 롸이팅 투 애스크 어바웃 더 스케줄 | 일정에 대해 여쭤보려고 연락드립니다 | 메일 목적을 첫 문장에 밝혀요. I'm writing to + 목적
-I've attached the report. | 아이브 어태치드 더 리포트 | 보고서를 첨부했습니다 | "Please find attached…"는 더 딱딱한 표현이에요
-Just a quick reminder about tomorrow's meeting. | 저스트 어 퀵 리마인더 어바웃 터마로우즈 미팅 | 내일 회의 관련해서 다시 한번 알려 드려요 | 독촉을 부드럽게 하는 표현
-Let me know if you have any questions. | 렛 미 노우 이퓨 해브 애니 퀘스천즈 | 궁금한 점 있으면 말씀해 주세요 | 이메일 마무리 단골 문장
-Could you send me the file by Friday? | 쿠쥬 쎈드 미 더 파일 바이 프라이데이? | 금요일까지 파일 보내 주실 수 있나요? | by = ~까지 (기한). until = ~까지 계속
-Sorry for the late reply. | 쏘리 포 더 레잇 리플라이 | 답장이 늦어 죄송합니다 | 조금 덜 미안하게: "Thanks for your patience."
-Thanks for getting back to me. | 땡스 포 게링 백 투 미 | 답장 주셔서 감사합니다 | get back to = 다시 연락하다
-Best regards, | 베스트 리가즈 | ~ 드림 (이메일 맺음말) | 무난한 맺음말. 가까운 사이: "Best," "Thanks,"
-Let's schedule a meeting. | 렛츠 스케줄 어 미팅 | 회의 일정을 잡읍시다 | 미국: 스케줄, 영국: 셰듈
-I'm running late. | 아임 러닝 레잇 | 조금 늦을 것 같아요 | 이동 중에 미리 연락할 때. "I'll be there in 10."
-Can we push the meeting to 3? | 캔 위 푸쉬 더 미팅 투 쓰리? | 회의를 3시로 미룰 수 있을까요? | 앞당길 땐 move up: "Can we move it up to 1?"
-I'll get back to you. | 아일 겟 백 투 유 | 확인하고 다시 연락드릴게요 | 바로 답하기 어려울 때 시간을 버는 표현
-Can you walk me through it? | 캔 유 워크 미 쓰루 잇? | 하나씩 설명해 주실래요? | walk through = 단계별로 안내하다
-Let's touch base next week. | 렛츠 터치 베이스 넥스트 윅 | 다음 주에 잠깐 얘기 나눠요 | 짧게 진행 상황을 공유하자는 뜻
-What's the deadline? | 왓츠 더 데드라인? | 마감이 언제예요? | "When is this due?"도 같은 뜻
-I'm working from home today. | 아임 워킹 프럼 홈 투데이 | 오늘 재택근무해요 | 줄여서 WFH
-I'm off tomorrow. | 아임 오프 터마로우 | 내일 쉬어요 (휴무예요) | 연차는 "I'm taking a day off tomorrow."
-Thanks for all your hard work. | 땡스 포 올 유어 하드 워크 | 그동안 정말 고생 많으셨어요 | "수고하셨습니다"에 딱 맞는 말은 없어요. 퇴근 인사는 그냥 "See you tomorrow!"
+"ఆఫీసు, ఈమెయిల్": `
+I hope this email finds you well. | ఐ హోప్ ద఼ిస్ ˈఈమేల్ ఫైండ్జ఼్ యు వెల్ | మీరు క్షేమంగా ఉన్నారని ఆశిస్తున్నాను | ఫార్మల్ ఈమెయిల్ మొదటి వాక్యం. కొంచెం తేలికగా: I hope you're doing well. ఈమెయిల్‌ని Respected Sir తో కాదు, Dear Mr. Rao లేదా Hi Ravi తో మొదలుపెడతారు.
+I'm writing to ask about the schedule. | ఐమ్ ˈరైటిఙ్ టు యాస్క్ అబౌట్ ద఼ ˈస్కెజూల్ | షెడ్యూల్ గురించి అడగడానికి రాస్తున్నాను | ఈమెయిల్ ఎందుకో మొదటి వాక్యంలోనే చెప్పండి: I'm writing to + V1.
+I've attached the report. | ఐవ఼్ అˈట్యాచ్ట్ ద఼ రిˈపోర్ట్ | రిపోర్ట్ జత చేశాను | PFA, Please find attached పాతబడిన, గట్టి మాటలు. I've attached… సహజం.
+Just a quick reminder about tomorrow's meeting. | జస్ట్ అ క్విక్ రిˈమైండర్ అబౌట్ టˈమారోజ఼్ ˈమీటిఙ్ | రేపటి మీటింగ్ గురించి ఒకసారి గుర్తు చేస్తున్నాను | మృదువుగా గుర్తు చేసే మాట. ఇండియాలో Gentle reminder ఎక్కువ; విదేశాల్లో quick reminder లేదా friendly reminder.
+Let me know if you have any questions. | లెట్ మి నో ఇఫ్ యు హ్యావ఼్ ˈఎని ˈక్వెస్చన్జ఼్ | ఏమైనా సందేహాలుంటే చెప్పండి | ఈమెయిల్ ముగింపులో తరచూ రాసే వాక్యం. ఇక్కడ doubts కాదు, questions.
+Could you send me the file by Friday? | కడ్ యు సెండ్ మి ద఼ ఫైల్ బై ˈఫ్రైడే | శుక్రవారం లోపు ఫైల్ పంపగలరా? | by = లోపు (గడువు); until = అప్పటి వరకు కొనసాగడం. Kindly send కంటే Could you send మృదువు.
+Sorry for the late reply. | ˈసారి ఫర్ ద఼ లేట్ రిˈప్లై | ఆలస్యంగా జవాబిస్తున్నందుకు క్షమించండి | క్షమాపణ బదులు ఇలా కూడా అనవచ్చు: Thanks for your patience.
+Thanks for getting back to me. | థ఼్యాంక్స్ ఫర్ ˈగెటిఙ్ బ్యాక్ ట మి | జవాబిచ్చినందుకు ధన్యవాదాలు | get back to = తిరిగి జవాబివ్వడం. ఇండియాలో అనే revert కి విదేశాల్లో ఈ అర్థం లేదు.
+Best regards, | బెస్ట్ రిˈగార్డ్జ఼్ | శుభాకాంక్షలతో (ఈమెయిల్ ముగింపు) | ఎక్కడైనా సరిపోయే ముగింపు. దగ్గరి వాళ్ళకు: Best, లేదా Thanks,. Thanking you, Yours faithfully ఈమెయిల్‌లో పాతబడ్డాయి.
+Let's schedule a meeting. | లెట్స్ ˈస్కెజూల్ అ ˈమీటిఙ్ | ఒక మీటింగ్ పెట్టుకుందాం | schedule మొదట్లో అమెరికాలో "స్క" శబ్దం, బ్రిటన్‌లో "ష" శబ్దం. ఇండియాలో అనే fix a meeting బదులు schedule లేదా set up.
+I'm running late. | ఐమ్ ˈరనిఙ్ లేట్ | నాకు కొంచెం ఆలస్యం అవుతోంది | దారిలో ఉండగా ముందే తెలియజేయడానికి: I'll be there in 10. ఇండియాలో అనే I'm getting late కంటే ఇది సహజం.
+Can we push the meeting to 3? | కన్ వి పుష్ ద఼ ˈమీటిఙ్ ట థ఼్రీ | మీటింగ్‌ని 3 గంటలకి వాయిదా వేద్దామా? | ముందుకు జరపాలంటే move up: Can we move it up to 1? prepone విదేశాల్లో అర్థం కాకపోవచ్చు.
+I'll get back to you. | ఐల్ గెట్ బ్యాక్ ట యు | చూసి మళ్ళీ చెబుతాను | వెంటనే జవాబు చెప్పలేనప్పుడు. క్లయింట్ కాల్‌లో I'll revert బదులు ఇదే అనండి.
+Can you walk me through it? | కన్ యు వాక్ మి థ఼్రూ ఇట్ | దాన్ని ఒక్కొక్కటిగా వివరిస్తారా? | walk through = అడుగు అడుగుగా చూపించడం. క్లయింట్ కాల్స్‌లో, ట్రైనింగ్‌లో తరచూ వినిపిస్తుంది.
+Let's touch base next week. | లెట్స్ టచ్ బేస్ నెక్స్ట్ వీక్ | వచ్చే వారం ఒకసారి మాట్లాడుకుందాం | పని ఎంతవరకు వచ్చిందో చిన్నగా మాట్లాడుకుందామని అర్థం.
+What's the deadline? | వట్స్ ద఼ ˈడెడ్లైన్ | గడువు ఎప్పటి వరకు? | When is this due? అన్నా అదే అర్థం. ఇండియాలో అనే last date బదులు deadline లేదా due date.
+I'm working from home today. | ఐమ్ ˈవర్కిఙ్ ఫ్రమ్ హోమ్ టˈడే | ఈరోజు ఇంటి నుంచి పని చేస్తున్నాను | చిన్నగా WFH. I'm doing work from home ✗ కాదు.
+I'm off tomorrow. | ఐమ్ ఆఫ్ టˈమారో | రేపు నాకు సెలవు | సెలవు పెడుతున్నట్టయితే: I'm taking a day off tomorrow. I'm on leave కూడా సరే; I'm in leave ✗.
+Thanks for all your hard work. | థ఼్యాంక్స్ ఫర్ ఆల్ యుర్ హార్డ్ వర్క్ | మీ కష్టానికి ధన్యవాదాలు | టీమ్ సభ్యులను మెచ్చుకోవడానికి. work లెక్కించలేని నామవాచకం: hard works ✗.
 `,
-"전화·문자 줄임말": `
-Hello, this is Minji. | 헬로우, 디스 이즈 민지 | 여보세요, 민지예요 | 전화에서는 "I'm Minji" 대신 "This is Minji"
-Can I speak to Mr. Kim? | 캔 아이 스픽 투 미스터 킴? | 김 선생님과 통화할 수 있을까요? | 더 공손하게: "May I speak to…?"
-Who's calling, please? | 후즈 콜링, 플리즈? | 누구시죠? | 전화 받는 쪽에서 묻는 말
-Hold on a second. | 홀드 온 어 세컨드 | 잠시만 기다려 주세요 | 전화·대화 중에 잠깐 기다려 달라고 할 때
-Sorry, you're breaking up. | 쏘리, 유어 브레이킹 업 | 죄송해요, 소리가 끊겨요 | break up = (전화 소리가) 끊기다. 연인이 헤어지다는 뜻도 있어요
-Can I call you back? | 캔 아이 콜 유 백? | 다시 전화드려도 될까요? | 바쁠 때: "I'm in a meeting. Can I call you back?"
-I'll text you. | 아일 텍스트 유 | 문자할게 | 미국에선 메시지 보내는 걸 text라고 해요
-I'm on my way. | 아임 온 마이 웨이 | 가는 중이야 | 문자로는 OMW
-LOL | 엘오엘 | ㅋㅋㅋ (laughing out loud) | 진짜 크게 웃기보다는 가벼운 ㅋㅋ 느낌이에요
-BRB | 비알비 | 금방 올게 (be right back) | 채팅·게임에서 잠깐 자리 비울 때
-BTW | 비티더블유 | 근데 (by the way) | 화제 전환
-TBH | 티비에이치 | 솔직히 (to be honest) | 문장 앞이나 뒤에 붙여요
-IDK | 아이디케이 | 몰라 (I don't know) | 소문자 idk로 많이 써요
-OMG | 오엠지 | 헐 / 세상에 (oh my God) | 말로도 "오엠지!"라고 해요
-ASAP | 에이에스에이피 / 에이샙 | 최대한 빨리 (as soon as possible) | 직장에서도 쓰지만 상사에게는 날짜를 주는 게 더 공손해요
-TTYL | 티티와이엘 | 나중에 얘기해 (talk to you later) | 대화를 끝낼 때
-NVM | 엔브이엠 | 아냐, 됐어 (never mind) | 질문을 취소할 때
-FYI | 에프와이아이 | 참고로 (for your information) | 업무 메일·메신저에서 많이 써요
+"ఫోన్, చాట్ షార్ట్ ఫామ్స్": `
+Hello, this is Ravi. | హˈలో ద఼ిస్ ఇజ఼్ ˈరావ఼ి | హలో, నేను రవిని మాట్లాడుతున్నాను | ఫోన్‌లో I'm Ravi బదులు This is Ravi అంటారు. Myself Ravi ✗ అనకండి.
+Can I speak to Mr. Rao? | కన్ ఐ స్పీక్ ట ˈమిస్టర్ రౌ | రావు గారితో మాట్లాడవచ్చా? | ఇంకా మర్యాదగా: May I speak to…? ఇంగ్లీష్‌లో Mr. / Ms. + ఇంటిపేరు; Rao Sir ✗, Ravi Sir ✗ అనరు.
+Who's calling, please? | హూజ఼్ ˈకాలిఙ్ ప్లీజ఼్ | ఎవరు మాట్లాడుతున్నారు? | ఫోన్ ఎత్తినవాళ్ళు అడిగే ప్రశ్న. Who is this? కొంచెం మొరటుగా ఉంటుంది.
+Hold on a second. | హోల్డ్ ఆన్ అ ˈసెకండ్ | ఒక్క క్షణం లైన్‌లో ఉండండి | ఫోన్‌లో గానీ మాటల మధ్యలో గానీ కొంచెం ఆగమనడానికి.
+Sorry, you're breaking up. | ˈసారి యుర్ ˈబ్రేకిఙ్ అప్ | క్షమించండి, మీ మాట తెగిపోతోంది | break up = (ఫోన్‌లో మాట) తెగిపోవడం. ప్రేమికులు విడిపోవడానికి కూడా ఇదే మాట.
+Can I call you back? | కన్ ఐ కాల్ యు బ్యాక్ | నేను మళ్ళీ ఫోన్ చేయనా? | పనిలో ఉన్నప్పుడు: I'm in a meeting. Can I call you back? సర్వనామం మధ్యలో: call back you ✗.
+I'll text you. | ఐల్ టెక్స్ట్ యు | నీకు మెసేజ్ పెడతాను | అమెరికాలో మెసేజ్ పంపడాన్ని text అంటారు. I'll message you కూడా సరే.
+I'm on my way. | ఐమ్ ఆన్ మై వే | దారిలో ఉన్నాను, వస్తున్నా | మెసేజ్‌లో OMW. I'm coming on the way ✗ కాదు.
+LOL | ఎల్ ఓ ఎల్ | హహహ (laughing out loud) | నిజంగా పగలబడి నవ్వడం కాదు; తేలికపాటి "హహ" లాంటిది.
+BRB | బీ ఆర్ బీ | ఇప్పుడే వస్తా (be right back) | చాట్‌లో, గేమ్‌లో కాసేపు పక్కకు వెళ్ళేటప్పుడు.
+BTW | బీ టీ ˈడబల్యూ | అన్నట్టు (by the way) | మాట మార్చేటప్పుడు.
+TBH | టీ బీ ఏచ్ | నిజం చెప్పాలంటే (to be honest) | వాక్యం మొదట్లో గానీ చివర గానీ పెడతారు.
+IDK | ఐ డీ కే | నాకు తెలీదు (I don't know) | చిన్న అక్షరాల్లో idk అని ఎక్కువగా రాస్తారు.
+OMG | ఓ ఎమ్ జీ | అయ్యబాబోయ్ (oh my God) | మాటల్లో కూడా అక్షరాలుగా O-M-G అని అంటారు.
+ASAP | ఏ ఎస్ ఏ పీ / ˈఏస్యాప్ | వీలైనంత త్వరగా (as soon as possible) | ఆఫీసులో కూడా వాడతారు; కానీ పై అధికారులకు, క్లయింట్లకు ASAP బదులు తేదీ చెప్పడం మర్యాద.
+TTYL | టీ టీ వై ఎల్ | తర్వాత మాట్లాడుకుందాం (talk to you later) | చాట్ ముగించేటప్పుడు.
+NVM | ఎన్ వ఼ీ ఎమ్ | ఏం లేదులే, వదిలేయ్ (never mind) | అడిగిన ప్రశ్నను వెనక్కి తీసుకునేటప్పుడు.
+FYI | ఎఫ్ వై ఐ | మీ సమాచారం కోసం (for your information) | ఆఫీసు ఈమెయిల్‌లో, చాట్‌లో ఎక్కువ. మాటల్లో అంటే కొంచెం చురకలా వినిపించవచ్చు.
 `,
-"여행(공항·호텔)": `
-Here's my passport. | 히어즈 마이 패스포트 | 여기 여권이요 | 체크인·입국 심사에서 건네며
-I'm here for sightseeing. | 아임 히어 포 싸잇씽 | 관광하러 왔어요 | 입국 심사 "What's the purpose of your visit?"에 대한 대답
-I'm staying for a week. | 아임 스테잉 포러 윅 | 일주일 머물 거예요 | "How long are you staying?"에 대한 대답
-I'm staying at the Hilton. | 아임 스테잉 앳 더 힐튼 | 힐튼 호텔에 묵어요 | "Where are you staying?"에 대한 대답
-Window or aisle? | 윈도우 오어 아일? | 창가석이요, 통로석이요? | aisle의 s는 묵음이에요: 아일
-I'd like an aisle seat, please. | 아이드 라익 언 아일 씻, 플리즈 | 통로 쪽 자리로 주세요 | 창가는 a window seat
-Where is the baggage claim? | 웨어리즈 더 배기지 클레임? | 짐 찾는 곳이 어디예요? | 영국에선 baggage reclaim
-My luggage is missing. | 마이 러기지 이즈 미싱 | 짐이 안 나왔어요 | luggage는 셀 수 없어요: a piece of luggage
-I have a reservation under Kim. | 아이 해버 레저베이션 언더 킴 | 김 이름으로 예약했어요 | under + 예약자 이름
-What time is check-out? | 왓 타임 이즈 체카웃? | 체크아웃은 몇 시예요? | 늦게 나가고 싶으면 "Can I get a late check-out?"
-Can I check in early? | 캔 아이 체킨 얼리? | 일찍 체크인할 수 있나요? | check in이 "체킨"처럼 이어져요
-Is breakfast included? | 이즈 브렉퍼스트 인클루디드? | 조식 포함이에요? | breakfast는 "브렉퍼스트". 브레이크가 아니에요
-The air conditioner isn't working. | 디 에어 컨디셔너 이즌트 워킹 | 에어컨이 안 돼요 | "에어컨"은 콩글리시. 줄여서 AC(에이씨)라고 해요
-Could I get some extra towels? | 쿠다이 겟 썸 엑스트라 타월즈? | 수건 좀 더 주실 수 있나요? | could I는 "쿠다이"처럼 이어져요
-Can you hold my bags until 3? | 캔 유 홀드 마이 백즈 언틸 쓰리? | 3시까지 짐 좀 맡아 주실 수 있어요? | 체크아웃 후 짐 보관 요청. hold = 맡아 두다
-My flight was delayed. | 마이 플라잇 워즈 딜레이드 | 비행기가 지연됐어요 | 결항은 canceled
-Where's gate 12? | 웨어즈 게잇 트웰브? | 12번 게이트 어디예요? | 영어는 번호를 뒤에 붙여요
-Do I need to take my laptop out? | 두 아이 니드 투 테익 마이 랩탑 아웃? | 노트북 꺼내야 해요? | 보안 검색대에서. "노트북"은 영어로 laptop이에요
+"ప్రయాణం (విమానాశ్రయం, హోటల్)": `
+Here's my passport. | హిర్జ఼్ మై ˈప్యాస్పోర్ట్ | ఇదిగో నా పాస్‌పోర్ట్ | చెక్-ఇన్ దగ్గర, ఇమిగ్రేషన్ దగ్గర చేతికిస్తూ.
+I'm here for sightseeing. | ఐమ్ హిర్ ఫర్ ˈసైట్సీఇఙ్ | నేను ఊరు చూడటానికి వచ్చాను | ఇమిగ్రేషన్‌లో What's the purpose of your visit? కి జవాబు. పని మీదైతే I'm here on business; చదువుకైతే I'm here to study.
+I'm staying for a week. | ఐమ్ ˈస్టేఇఙ్ ఫర్ అ వీక్ | నేను ఒక వారం ఉంటాను | How long are you staying? కి జవాబు. కొన్ని రోజుల బసకు stay సరైన మాట; ఇల్లు ఉన్న ఊరికి live.
+I'm staying at the Hilton. | ఐమ్ ˈస్టేఇఙ్ అట్ ద఼ ˈహిల్టన్ | నేను హిల్టన్ హోటల్‌లో ఉంటున్నాను | Where are you staying? కి జవాబు. హోటల్ పేర్ల ముందు ఆర్టికల్ the వస్తుంది.
+Window or aisle? | ˈవిండో అర్ ఐల్ | కిటికీ పక్క సీటా, నడవ పక్క సీటా? | aisle లో s పలకదు.
+I'd like an aisle seat, please. | ఐడ్ లైక్ అన్ ఐల్ సీట్ ప్లీజ఼్ | నాకు నడవ పక్క సీటు ఇవ్వండి | కిటికీ పక్కదైతే a window seat. aisle అచ్చు శబ్దంతో మొదలవుతుంది కాబట్టి an.
+Where is the baggage claim? | వెర్ ఇజ఼్ ద఼ ˈబ్యాగిజ్ క్లేమ్ | లగేజ్ తీసుకునే చోటు ఎక్కడ? | బ్రిటన్‌లో baggage reclaim. ఏ బెల్ట్ మీద వస్తుందో స్క్రీన్ మీద చూపిస్తారు.
+My luggage is missing. | మై ˈలగిజ్ ఇజ఼్ ˈమిసిఙ్ | నా లగేజ్ రాలేదు | luggage లెక్కించలేని నామవాచకం: luggages ✗. ఒకటి అని చెప్పాలంటే a piece of luggage లేదా a bag.
+I have a reservation under Kumar. | ఐ హ్యావ఼్ అ రెజ఼ర్ˈవ఼ేషన్ అండర్ కుˈమార్ | కుమార్ పేరు మీద బుకింగ్ ఉంది | under + బుక్ చేసిన వారి పేరు. హోటల్‌లో ఇంటిపేరు చెబుతారు.
+What time is check-out? | వట్ టైమ్ ఇజ఼్ ˈచెకౌట్ | చెక్-అవుట్ ఎన్ని గంటలకి? | ఆలస్యంగా ఖాళీ చేయాలంటే: Can I get a late check-out?
+Can I check in early? | కన్ ఐ చెక్ ఇన్ ˈఅర్లి | ముందుగానే చెక్-ఇన్ చేయవచ్చా? | క్రియ check in రెండు పదాలు; నామవాచకం check-in.
+Is breakfast included? | ఇజ఼్ ˈబ్రెక్ఫస్ట్ ఇన్ˈక్లూడిడ్ | బ్రేక్‌ఫాస్ట్ కూడా కలిసి ఉందా? | breakfast మొదటి అచ్చు హ్రస్వం "ఎ"; break లో లాగా దీర్ఘం కాదు. ఇండియాలో అనే tiffin అక్కడ అర్థం కాదు.
+The air conditioner isn't working. | ద఼ి ఎర్ కంˈడిషనర్ ˈఇజ఼ంట్ ˈవర్కిఙ్ | AC పని చేయడం లేదు | చిన్నగా the AC అని కూడా అంటారు. ఆర్టికల్ the, క్రియ isn't రెండూ వదిలేయకండి: AC not working ✗.
+Could I get some extra towels? | కడ్ ఐ గెట్ సమ్ ˈఎక్స్ట్ర ˈటౌఅల్జ఼్ | ఇంకొన్ని టవళ్ళు ఇస్తారా? | extra = అదనంగా. some తర్వాత బహువచనం: towels.
+Can you hold my bags until 3? | కన్ యు హోల్డ్ మై బ్యాగ్జ఼్ అంటిల్ థ఼్రీ | 3 గంటల వరకు నా బ్యాగులు ఉంచుతారా? | చెక్-అవుట్ తర్వాత లగేజ్ ఉంచమని అడగడానికి. until = అప్పటి వరకు; by = ఆ లోపు.
+My flight was delayed. | మై ఫ్లైట్ వజ఼్ డిˈలేడ్ | నా ఫ్లైట్ ఆలస్యమైంది | రద్దయితే canceled. My flight got late ✗ కాదు.
+Where's gate 12? | వెర్జ఼్ గేట్ ట్వెల్వ఼్ | 12వ గేట్ ఎక్కడ? | ఇంగ్లీష్‌లో నంబర్ వెనక వస్తుంది: gate 12, room 512. ఇక్కడ ఆర్టికల్ రాదు.
+Do I need to take my laptop out? | డ ఐ నీడ్ ట టేక్ మై ˈల్యాప్టాప్ ఔట్ | ల్యాప్‌టాప్ బయటకు తీయాలా? | సెక్యూరిటీ చెక్ దగ్గర అడిగే ప్రశ్న. take out మధ్యలో వస్తువు రావచ్చు: take my laptop out.
 `,
-"병원·긴급": `
-Help! | 헬프! | 도와주세요! | 위급할 때 크게 외쳐요
-Call 911! | 콜 나인 원 원! | 911에 전화해 주세요! | 미국 긴급번호는 911(나인 원 원), 영국은 999
-I need a doctor. | 아이 니더 닥터 | 의사가 필요해요 | 급하면 "I need an ambulance."
-I don't feel well. | 아이 돈 필 웰 | 몸이 안 좋아요 | 가장 무난한 표현이에요
-I have a headache. | 아이 해버 헤데익 | 머리가 아파요 | 아픈 곳 + ache: stomachache, toothache
-I have a fever. | 아이 해버 피버 | 열이 나요 | f는 윗니를 아랫입술에 대고 바람을 내보내요
-My stomach hurts. | 마이 스터먹 허츠 | 배가 아파요 | 아픈 부위 + hurts. stomach는 "스터먹"
-I have a sore throat. | 아이 해버 쏘어 쓰롯 | 목이 아파요 | sore = 쓰리고 아픈. 목 전체(neck)가 아니라 목구멍이에요
-I feel dizzy. | 아이 필 디지 | 어지러워요 | 메스꺼우면 "I feel sick." / "I feel nauseous."
-I sprained my ankle. | 아이 스프레인드 마이 앵클 | 발목을 삐었어요 | sprain = 삐다. 손목은 wrist
-Is there a pharmacy near here? | 이즈 데어러 파머시 니어 히어? | 이 근처에 약국 있어요? | 미국에선 drugstore(CVS 등)라고도 해요
-Do I need a prescription? | 두 아이 니더 프리스크립션? | 처방전이 필요한가요? | 미국은 처방전 없이 살 수 있는 약을 over-the-counter라고 해요
-I lost my wallet. | 아이 로스트 마이 월릿 | 지갑을 잃어버렸어요 | 휴대폰이면 phone. 분실물 센터는 lost and found
-Someone stole my phone. | 썸원 스톨 마이 폰 | 누가 제 휴대폰을 훔쳐 갔어요 | steal(훔치다)의 과거형 stole
-Where is the police station? | 웨어리즈 더 폴리스 스테이션? | 경찰서가 어디예요? | police 강세는 뒤: 폴리-스
-I need to contact the Korean embassy. | 아이 니드 투 칸택트 더 코리안 엠버시 | 한국 대사관에 연락해야 해요 | 여권 분실 시 꼭 필요한 문장이에요
-I have travel insurance. | 아이 해브 트래블 인슈어런스 | 여행자 보험이 있어요 | 병원비가 비싼 나라에선 꼭 가입하고 가세요
+"డాక్టర్, ఎమర్జెన్సీ": `
+Help! | హెల్ప్ | కాపాడండి! | అత్యవసరంలో గట్టిగా అరవండి.
+Call 911! | కాల్ నైన్ వన్ వన్ | 911 కి ఫోన్ చేయండి! | అమెరికాలో ఎమర్జెన్సీ నంబర్ 911 (nine one one); బ్రిటన్‌లో 999, ఇండియాలో 112.
+I need a doctor. | ఐ నీడ్ అ ˈడాక్టర్ | నాకు డాక్టర్ కావాలి | అత్యవసరమైతే I need an ambulance. "నాకు కావాలి" కి I need; I am needing ✗ కాదు.
+I don't feel well. | ఐ డోంట్ ఫీల్ వెల్ | నాకు ఒంట్లో బాగోలేదు | అన్నిచోట్లా సరిపోయే మాట. I'm not feeling well కూడా సరే.
+I have a headache. | ఐ హ్యావ఼్ అ ˈహెడేక్ | నాకు తలనొప్పిగా ఉంది | నొప్పి ఉన్న భాగం + ache: stomachache, toothache. ఆర్టికల్ a ఉండాలి. ఇండియాలో అనే My head is paining అక్కడ వాడరు.
+I have a fever. | ఐ హ్యావ఼్ అ ˈఫీవ఼ర్ | నాకు జ్వరంగా ఉంది | అమెరికాలో a fever, ఆర్టికల్ a తో. I am having fever ✗ కాదు.
+My stomach hurts. | మై ˈస్టమక్ హర్ట్స్ | నాకు కడుపు నొప్పిగా ఉంది | నొప్పి ఉన్న భాగం + hurts. stomach చివర ch ని k లా పలుకుతారు.
+I have a sore throat. | ఐ హ్యావ఼్ అ సోర్ థ఼్రోట్ | నాకు గొంతు నొప్పిగా ఉంది | sore = మంటగా, నొప్పిగా ఉన్న. throat = గొంతు లోపలి భాగం; neck = మెడ.
+I feel dizzy. | ఐ ఫీల్ ˈడిజ఼ి | నాకు కళ్ళు తిరుగుతున్నాయి | వాంతి వచ్చేలా ఉంటే I feel sick లేదా I feel nauseous. ఇండియాలో అనే giddy అమెరికాలో అరుదు.
+I sprained my ankle. | ఐ స్ప్రేండ్ మై ˈయాంకల్ | నా చీలమండ బెణికింది | sprain = బెణకడం. మణికట్టు wrist.
+Is there a pharmacy near here? | ఇజ఼్ ద఼ెర్ అ ˈఫార్మసి నిర్ హిర్ | ఇక్కడ దగ్గర్లో మందుల షాపు ఉందా? | అమెరికాలో pharmacy లేదా drugstore. ఇండియాలో అనే medical shop, chemist అక్కడ వాడరు.
+Do I need a prescription? | డ ఐ నీడ్ అ ప్రిˈస్క్రిప్షన్ | దీనికి డాక్టర్ చీటీ కావాలా? | చీటీ లేకుండా కొనగలిగే మందులను over-the-counter అంటారు. అమెరికాలో యాంటీబయాటిక్స్ చీటీ లేకుండా ఇవ్వరు.
+I lost my wallet. | ఐ లాస్ట్ మై ˈవాలిట్ | నా పర్సు పోయింది | ఫోన్ అయితే phone. పోయిన వస్తువులు దొరికే చోటు lost and found. I missed my wallet ✗ కాదు.
+Someone stole my phone. | ˈసమ్వన్ స్టోల్ మై ఫోన్ | ఎవరో నా ఫోన్ దొంగిలించారు | steal కి V2 stole. steal వస్తువుకి, rob మనిషికి లేదా చోటుకి: robbed my phone ✗.
+Where is the police station? | వెర్ ఇజ఼్ ద఼ పˈలీస్ ˈస్టేషన్ | పోలీస్ స్టేషన్ ఎక్కడ ఉంది? | police లో ఒత్తి చివరి భాగం మీద. ఆర్టికల్ the వదిలేయకండి.
+I need to contact the Indian embassy. | ఐ నీడ్ ట ˈకాంట్యాక్ట్ ద఼ి ˈఇండిఅన్ ˈఎంబసి | నేను భారత రాయబార కార్యాలయాన్ని సంప్రదించాలి | పాస్‌పోర్ట్ పోతే తప్పకుండా అవసరమయ్యే వాక్యం. contact తర్వాత to, with రావు.
+I have travel insurance. | ఐ హ్యావ఼్ ˈట్ర్యావ఼ల్ ఇన్ˈషురన్స్ | నాకు ట్రావెల్ ఇన్సూరెన్స్ ఉంది | వైద్యం ఖరీదైన దేశాలకు వెళ్ళే ముందు తప్పకుండా తీసుకోండి. insurance లెక్కించలేని నామవాచకం: an insurance ✗.
 `,
-"구동사": `
-pick up | 피컵 | (차로) 데리러 가다 / 줍다 | "I'll pick you up at 7." 대명사(you, it)는 가운데에 와요
-give up | 기법 | 포기하다 | "Don't give up!" 무엇을 포기하는지는 ~ing: give up smoking
-figure out | 피겨라웃 | 알아내다 / 해결하다 | "I can't figure out this app." (이 앱 어떻게 쓰는지 모르겠어)
-find out | 파인다웃 | (사실을) 알게 되다 | 정보를 알아낼 때. figure out은 머리를 써서 풀 때
-look for | 룩 포 | 찾다 (찾는 중이다) | "I'm looking for my keys." 찾아냈으면 find
-look after | 룩 애프터 | 돌보다 | "Can you look after my cat?" 미국에선 take care of도 많이 써요
-look forward to | 룩 포워드 투 | ~을 기대하다 | to 뒤에 명사나 ~ing: "I'm looking forward to seeing you."
-run out of | 러나우로브 | ~이 다 떨어지다 | 무엇이 떨어졌는지는 of 뒤에: "We ran out of milk." (우유가 다 떨어졌어)
-turn on | 터논 | 켜다 | 전기·기계를 켤 때: "Turn on the light." 대명사는 가운데: "Turn it on."
-turn off | 터노프 | 끄다 | 대명사는 가운데: "Turn it off." (turn off it X)
-turn down | 턴 다운 | 거절하다 / (소리를) 줄이다 | 두 가지 뜻 모두 자주 써요: "She turned down the offer." / "Turn it down!"
-put off | 푸로프 | 미루다 | 일상 대화에선 postpone보다 훨씬 많이 써요: "Stop putting it off!"
-show up | 쇼우 업 | 나타나다 / 오다 | 약속 장소에 나타날 때: "He didn't show up to the party." (파티에 안 왔어)
-hang out | 행아웃 | 놀다 / 어울리다 | 친구랑 노는 건 play가 아니라 hang out! (play는 아이들이나 게임·운동)
-check out | 체카웃 | 확인하다 / 한번 보다 | "Check out this video!" 호텔 체크아웃이라는 뜻도 있어요
-work out | 워카웃 | 운동하다 / 잘 풀리다 | 헬스장 운동은 exercise보다 work out: "I work out every day." / "It'll work out." (잘될 거야)
-come up with | 커멉 위드 | (아이디어를) 생각해 내다 | 아이디어·핑계·해결책을 떠올릴 때: "She came up with a great idea."
-get along with | 게럴롱 위드 | ~와 잘 지내다 | 사이가 좋을 때: "I get along with my coworkers." (동료들과 잘 지내요)
-calm down | 캄 다운 | 진정하다 | calm의 l은 소리 나지 않아요. 화난 사람에게 쓰면 더 화나게 할 수도 있어요
-set up | 쎄럽 | 설치하다 / 마련하다 | 기기 설치·회의 준비 등: "Can you help me set up my printer?"
-break up | 브레이컵 | 헤어지다 | "They broke up last month." 누구와: break up with
-fill out | 필 아웃 | (서류를) 작성하다 | "Please fill out this form." 영국식은 fill in
-grow up | 그로우 업 | 자라다 | 자란 곳을 말할 때: "I grew up in Daegu." (대구에서 자랐어요)
-wake up | 웨이컵 | 잠에서 깨다 | 깨어나는 순간은 wake up, 침대에서 나오는 건 get up
+"ఫ్రేజల్ వెర్బ్స్": `
+pick up | పిక్ అప్ | (బండిలో) వచ్చి తీసుకెళ్ళడం / కింద పడింది తీయడం | I'll pick you up at 7. సర్వనామం (you, it) మధ్యలో వస్తుంది.
+give up | గివ఼్ అప్ | ప్రయత్నం మానేయడం | Don't give up! ఏది మానేశారో చెప్పడానికి -ing: give up smoking.
+figure out | ˈఫిగ్యర్ ఔట్ | (ఆలోచించి) కనుక్కోవడం | I can't figure out this app. ఈ యాప్ ఎలా వాడాలో అర్థం కావడం లేదు.
+find out | ఫైండ్ ఔట్ | (విషయం) తెలుసుకోవడం | సమాచారం తెలిసినప్పుడు find out; బుర్ర పెట్టి పరిష్కరిస్తే figure out.
+look for | లుక్ ఫోర్ | వెతకడం | I'm looking for my keys. దొరికితే find. search my keys ✗ కాదు.
+look after | లుక్ ˈయాఫ్టర్ | బాగోగులు చూసుకోవడం | Can you look after my cat? అమెరికాలో take care of కూడా ఎక్కువ.
+look forward to | లుక్ ˈఫోర్వర్డ్ టూ | ఆత్రుతగా ఎదురుచూడటం | to తర్వాత నామవాచకం లేదా -ing: I'm looking forward to seeing you. to see ✗ కాదు.
+run out of | రన్ ఔట్ అవ఼్ | అయిపోవడం | ఏది అయిపోయిందో of తర్వాత: We ran out of milk. పాలు అయిపోయాయి. ఇండియాలో అనే Milk got over అక్కడ వాడరు.
+turn on | టర్న్ ఆన్ | ఆన్ చేయడం | Turn on the light. సర్వనామం మధ్యలో: Turn it on. On the light ✗, Open the light ✗ కాదు.
+turn off | టర్న్ ఆఫ్ | ఆఫ్ చేయడం | సర్వనామం మధ్యలో: Turn it off. Off the fan ✗, Close the light ✗ కాదు.
+turn down | టర్న్ డౌన్ | వద్దనడం / (శబ్దం) తగ్గించడం | రెండు అర్థాలూ సాధారణం: She turned down the offer. / Turn it down!
+put off | పుట్ ఆఫ్ | వాయిదా వేయడం | రోజువారీ మాటల్లో postpone కంటే ఎక్కువ: Stop putting it off!
+show up | షో అప్ | రావడం / హాజరు కావడం | He didn't show up to the party. అతను పార్టీకి రాలేదు.
+hang out | హ్యాఙ్ ఔట్ | సరదాగా కలిసి గడపడం | స్నేహితులతో కాలక్షేపానికి hang out. ఇండియాలో అనే timepass, roaming విదేశాల్లో ఈ అర్థంలో వాడరు.
+check out | చెక్ ఔట్ | ఒకసారి చూడటం / హోటల్ ఖాళీ చేయడం | Check out this video! హోటల్ గది ఖాళీ చేయడానికి కూడా ఇదే.
+work out | వర్క్ ఔట్ | వ్యాయామం చేయడం / కలిసి రావడం | జిమ్‌లో వ్యాయామానికి: I work out every day. అంతా సర్దుకుంటుందని చెప్పడానికి: It'll work out.
+come up with | కమ్ అప్ విద఼్ | (ఆలోచన, పరిష్కారం) ఆలోచించి చెప్పడం | ఆలోచన, సాకు, పరిష్కారం: She came up with a great idea.
+get along with | గెట్ అˈలాఙ్ విద఼్ | (ఒకరితో) సఖ్యంగా ఉండటం | I get along with my coworkers. తోటి ఉద్యోగులతో నాకు బాగా పడుతుంది.
+calm down | కామ్ డౌన్ | శాంతించడం | calm లో l పలకదు. కోపంగా ఉన్నవాళ్ళతో Calm down అంటే ఇంకా కోపం రావచ్చు.
+set up | సెట్ అప్ | అమర్చడం / ఏర్పాటు చేయడం | పరికరాలు అమర్చడం, మీటింగ్ ఏర్పాటు చేయడం: Can you help me set up my printer?
+break up | బ్రేక్ అప్ | విడిపోవడం (ప్రేమ బంధం) | They broke up last month. ఎవరితో అని చెప్పడానికి break up with.
+fill out | ఫిల్ ఔట్ | (ఫారం) నింపడం | Please fill out this form. ఇండియాలో fill up, బ్రిటన్‌లో fill in అంటారు.
+grow up | గ్రో అప్ | పెరిగి పెద్దవడం | పెరిగిన ఊరు చెప్పడానికి: I grew up in Guntur.
+wake up | వేక్ అప్ | నిద్ర లేవడం (మెలకువ రావడం) | మెలకువ రావడం wake up; మంచం దిగడం get up.
 `,
-"발음 주의": `
-rice | 롸이스 | 쌀 / 밥 | R: 입술을 둥글게 내밀고, 혀끝은 어디에도 닿지 않게. lice와 구분해요
-lice | 라이스 | 이 (머리에 사는 벌레) | L: 혀끝을 윗니 뒤 잇몸에 붙였다 떼요. "I like rice"를 lice로 말하면 큰일!
-right | 롸잇 | 오른쪽 / 맞는 | R로 시작. light와 구분
-light | 라잇 | 빛 / 가벼운 | L로 시작. 혀끝이 윗잇몸에 닿아요
-fan | 팬 (f) | 선풍기 / 팬 (좋아하는 사람) | F: 윗니를 아랫입술에 살짝 대고 바람을 내보내요
-pan | 팬 (p) | 프라이팬 | P: 두 입술을 붙였다가 터뜨려요
-coffee | 커피 (f) | 커피 | 가운데 f를 살려요. p로 말하면 copy(카피)처럼 들려요
-copy | 카피 | 복사하다 / 복사본 | 가운데가 p. 미국식은 "카피"에 가까워요
-think | 띵크 (th) | 생각하다 | TH: 혀끝을 윗니와 아랫니 사이에 살짝 내밀고 바람. s로 말하면 sink
-sink | 씽크 | 싱크대 / 가라앉다 | 혀가 이 뒤에 숨어 있는 s 소리
-three | 쓰리 (th) | 숫자 3 | 혀를 이 사이에! t로 말하면 tree처럼 들려요
-tree | 트리 | 나무 | tr은 "츄리"에 가깝게 들리기도 해요
-this | 디스 (th) | 이것 | 성대를 울리는 th. 혀끝을 이 사이에 두고 "드"
-very | 베리 (v) | 매우 | V: 윗니를 아랫입술에 대고 성대를 울려요. b로 말하면 berry
-berry | 베리 (b) | 베리 (딸기 같은 열매) | 두 입술을 붙였다 떼는 b
-vote | 보웃 (v) | 투표하다 | v로 시작. boat와 구분
-boat | 보웃 (b) | 배 / 보트 | b로 시작. "보트"보다 "보웃"에 가까워요
-walk | 웍 | 걷다 | l은 소리 나지 않아요. 입을 크게 벌린 "어"
-work | 워r크 | 일하다 | 혀를 뒤로 말아 r을 넣어요. walk와 헷갈리기 쉬운 짝꿍
-beach | 비-치 | 해변 | "이-"를 길게! 짧게 말하면 욕처럼 들릴 수 있어요
-leave | 리-브 | 떠나다 | 길게 "리-". 짧은 live(살다)와 구분해요
-live | 리브 (짧게) | 살다 | 짧고 힘을 빼서 "리브". leave보다 입을 덜 벌려요
-banana | 버내너 | 바나나 | 강세는 가운데 "내". "바나나"라고 또박또박 읽으면 못 알아들어요
-hotel | 호우텔 | 호텔 | 강세는 뒤 "텔". 앞을 세게 말하면 어색해요
-milk | 밀크 (크는 아주 약하게) | 우유 | 끝에 "으"를 붙이지 마요. 끝 자음은 입 모양만 살짝
-McDonald's | 먹다널즈 | 맥도날드 | 강세는 "다". 미국에서 "맥도날드"라고 하면 잘 못 알아들어요
+"ఉచ్చారణ చిక్కులు": `
+rice | రైస్ | బియ్యం / అన్నం | తెలుగులో ర, ల వేరు కాబట్టి ఈ జంట సులువు. అమెరికన్ r లో నాలుక కొన ఎక్కడా తాకదు, కొట్టుకోదు.
+lice | లైస్ | పేలు | l కోసం నాలుక కొన పై పళ్ళ వెనక చిగురుకు తాకుతుంది. చివర s తర్వాత అచ్చు కలపకండి.
+right | రైట్ | కుడి / సరైన | r తో మొదలు. gh పలకదు; చివర t తర్వాత "ఉ" కలపకండి.
+light | లైట్ | వెలుతురు / తేలికైన | l తో మొదలు. right తో తేడా మొదటి హల్లు మాత్రమే.
+fan | ఫ్యాన్ | ఫ్యాన్ / అభిమాని | f కోసం పై పళ్ళు కింది పెదవి మీద ఉంచి గాలి వదలండి. రెండు పెదవులూ కలిపి "ప + గాలి" లా కాదు.
+pan | ప్యాన్ | పెనం | p కోసం రెండు పెదవులూ కలిసి విడిపోతాయి.
+coffee | ˈకాఫి | కాఫీ | మధ్యలో f. అమెరికాలో మొదటి అచ్చు "ఆ"; చివరి "ఇ" హ్రస్వం, ఒత్తి మొదటి భాగం మీద.
+copy | ˈకాపి | కాపీ / నకలు | మధ్యలో p. coffee తో తేడా ఆ ఒక్క హల్లే.
+think | థ఼ింక్ | ఆలోచించడం / అనుకోవడం | th కోసం నాలుక కొనను పళ్ళ మధ్యకు తెచ్చి గాలి ఆపకుండా వదలండి. తెలుగు థ, త కాదు. s తో పలికితే sink అవుతుంది.
+sink | సింక్ | సింక్ / మునగడం | s కోసం నాలుక పళ్ళ వెనకే ఉంటుంది.
+three | థ఼్రీ | మూడు | నాలుక పళ్ళ మధ్య. t తో పలికితే tree లా వినిపిస్తుంది. th, r మధ్యలో అచ్చు కలపకండి.
+tree | ట్రీ | చెట్టు | t తో మొదలు. three, tree రెండూ ఒకేలా పలకడం మన సాధారణ పొరపాటు.
+this | ద఼ిస్ | ఇది | గొంతు కంపించే th: నాలుక పళ్ళ మధ్య. తెలుగు ద, డ కాదు.
+very | ˈవ఼ెరి | చాలా | v కోసం పై పళ్ళు కింది పెదవి మీద ఉంచి, గొంతు కంపిస్తూ గాలి వదలండి. తెలుగు వ కంటే రాపిడి ఎక్కువ. b తో పలికితే berry.
+berry | ˈబెరి | బెర్రీ (చిన్న పండు) | రెండు పెదవులూ కలిపి విడిచే b. తెలుగువారికి b, v తేడా సులువే; v ని w లా పలకకుండా చూసుకోండి.
+vote | వ఼ోట్ | ఓటు వేయడం | v తో మొదలు: పై పళ్ళు కింది పెదవి మీద. v వదిలేసి "ఓట్" అనకండి.
+boat | బోట్ | పడవ | b తో మొదలు. చివర t తర్వాత "ఉ" లేదు: "బోటు" కాదు.
+walk | వాక్ | నడవడం | l పలకదు. అచ్చు "ఆ"; "ఓ" తో పలికితే woke లా వినిపిస్తుంది.
+work | వర్క్ | పని చేయడం | అమెరికన్ ఇంగ్లీష్‌లో r పలుకుతారు. walk తో తికమక పడే జంట.
+beach | బీచ్ | బీచ్ / సముద్ర తీరం | "ఈ" ని దీర్ఘంగా, పెదవులు సాగదీసి పలకండి. హ్రస్వంగా పలికితే తిట్టులా వినిపిస్తుంది.
+leave | లీవ఼్ | వెళ్ళిపోవడం / వదిలి వెళ్ళడం | దీర్ఘం "ఈ". live తో తేడా పొడవులోనే కాదు, ధ్వనిలో కూడా ఉంది.
+live | లివ఼్ | నివసించడం | హ్రస్వం "ఇ", నోరు వదులుగా. తెలుగు "ఇ" కంటే కొంచెం "ఎ" వైపు ఉంటుంది.
+banana | బˈన్యాన | అరటిపండు | ఒత్తి మధ్య భాగం మీద. మొదటి, చివరి అచ్చులు బలహీన "అ". మూడు భాగాలూ సమానంగా పలికితే అర్థం కాకపోవచ్చు.
+hotel | హోˈటెల్ | హోటల్ (బస చేసే చోటు) | ఒత్తి చివరి భాగం మీద. భోజనం చేసే చోటు restaurant; hotel కాదు.
+milk | మిల్క్ | పాలు | చివర "ఉ" కలపకండి: "మిల్కు" కాదు. l, k మధ్య కూడా అచ్చు లేదు.
+McDonald's | మక్ˈడానల్డ్జ఼్ | మెక్‌డొనాల్డ్స్ | ఒత్తి మధ్య భాగం మీద; మొదటి భాగం బలహీనంగా, చిన్నగా.
+bus | బస్ | బస్సు | చివర హల్లుతో ఆగిపోండి. తెలుగులో "బస్సు" అంటాం; ఇంగ్లీష్‌లో చివర "ఉ" లేదు, s కూడా ఒక్కటే.
+bed | బెడ్ | మంచం | చివర d తర్వాత అచ్చు లేదు: "బెడ్డు" కాదు. అచ్చు హ్రస్వం "ఎ"; bad తో కలపకండి.
+film | ఫిల్మ్ | సినిమా / ఫిల్మ్ | l, m మధ్య అచ్చు లేదు: "ఫిలిం", "ఫిలం" కాదు. ఒకే భాగంగా పలకండి.
+zoo | జ఼ూ | జూ (జంతు ప్రదర్శనశాల) | z అంటే గొంతు కంపించే s; తేనెటీగ రొదలా. తెలుగు జ తో పలికితే Jew లా వినిపిస్తుంది.
+Jew | జూ | యూదు మతస్థుడు | మామూలు జ తో. zoo తో తేడా వినడానికి ఈ జంట.
+zero | ˈజ఼ిరో | సున్నా | z తో మొదలు: "జీరో" లోని జ కాదు.
+easy | ˈఈజ఼ి | సులువైన | మధ్యలో z; తెలుగు జ కాదు. is, his, dogs చివర కూడా ఇదే z.
+ship | షిప్ | ఓడ | హ్రస్వం "ఇ", నోరు వదులుగా. చివర p తర్వాత "ఉ" లేదు.
+sheep | షీప్ | గొర్రె | దీర్ఘం "ఈ", పెదవులు సాగదీసి. ship తో తేడా పొడవు మాత్రమే కాదు, ధ్వని కూడా.
+full | ఫుల్ | నిండిన | హ్రస్వం "ఉ", పెదవులు వదులుగా.
+fool | ఫూల్ | తెలివితక్కువ మనిషి | దీర్ఘం "ఊ", పెదవులు బాగా గుండ్రంగా.
+caught | కాట్ | పట్టుకున్నారు (catch కి V2, V3) | అచ్చు "ఆ". "ఓ" తో పలికితే coat అవుతుంది. gh పలకదు.
+coat | కోట్ | కోటు | అచ్చు "ఓ". caught తో తేడా ఈ అచ్చే.
+vine | వ఼ైన్ | తీగ (ద్రాక్ష తీగ) | v: పై పళ్ళు కింది పెదవి మీద, గొంతు కంపించాలి.
+wine | వైన్ | వైన్ (ద్రాక్ష మద్యం) | w: పెదవులు గుండ్రంగా, పళ్ళు పెదవికి తాకవు. తెలుగు వ ఈ రెండిటికీ మధ్యలో ఉంటుంది.
+every | ˈఎవ఼్రి | ప్రతి | నేరుగా "ఎ" తో మొదలుపెట్టండి; ముందు య కలపకండి. రెండే భాగాలు.
+only | ˈఓన్లి | మాత్రమే | నేరుగా "ఓ" తో మొదలుపెట్టండి; ముందు వ కలపకండి.
+about | అˈబౌట్ | గురించి / దాదాపు | మొదటి అచ్చు బలహీన "అ", ఒత్తి రెండో భాగం మీద. మొదట్లో "ఎ" కాదు.
+photography | ఫˈటాగ్రఫి | ఫోటోగ్రఫీ | ఒత్తి రెండో భాగం మీద. photo లో మొదటి భాగం మీద; photography లో కాదు.
 `,
-"영어 관용구": `
-It's a piece of cake. | 잇츠 어 피스 오브 케익 | 식은 죽 먹기예요 | 아주 쉬운 일. "The test was a piece of cake."
-I'm on cloud nine. | 아임 온 클라우드 나인 | 날아갈 듯 기뻐요 | 엄청 행복할 때
-It costs an arm and a leg. | 잇 코스츠 언 암 앤 어 레그 | 엄청 비싸요 | 팔다리를 내줄 만큼 비싸다는 뜻
-Let's call it a day. | 렛츠 콜 잇 어 데이 | 오늘은 여기까지 해요 | 일·공부를 마칠 때. 회의에서도 자연스러워요
-I'm feeling under the weather. | 아임 필링 언더 더 웨더 | 몸이 좀 안 좋아요 | 감기 기운처럼 가볍게 아플 때. 날씨와는 상관없어요
-I need to hit the books. | 아이 니드 투 힛 더 북스 | 공부 좀 열심히 해야 해 | 시험 전에. 책을 때리는 게 아니에요
-Once in a blue moon | 원스 인 어 블루 문 | 아주 가끔 | 아주 드문 일에: "I only eat fast food once in a blue moon."
-Better late than never. | 베러 레잇 댄 네버 | 늦더라도 안 하는 것보단 낫죠 | 늦게 시작한 사람을 격려할 때
-Don't beat around the bush. | 돈 비러롸운 더 부쉬 | 돌려 말하지 마요 | 본론을 말해 달라는 뜻
-It's not my cup of tea. | 잇츠 낫 마이 커퍼 티 | 제 취향은 아니에요 | 부드럽게 싫다고 할 때 좋아요
-Let's get the ball rolling. | 렛츠 겟 더 볼 롤링 | 자, 시작해 봅시다 | 회의·프로젝트 시작할 때
-I'll keep my fingers crossed. | 아일 킵 마이 핑거즈 크로스드 | 잘되길 빌게요 | 검지와 중지를 꼬는 제스처와 함께 써요
-Hang in there. | 행 인 데어 | 조금만 버텨 / 힘내 | 힘든 시기를 보내는 사람에게
-Speak of the devil! | 스픽 오브 더 데블! | 호랑이도 제 말 하면 온다더니! | 얘기하던 사람이 나타났을 때
-The ball is in your court. | 더 볼 이즈 인 유어 코트 | 이제 당신이 결정할 차례예요 | 테니스에서 온 표현
-My lips are sealed. | 마이 립스 아 씰드 | 비밀 지킬게요 | 입술을 봉했다는 뜻
-It's on the tip of my tongue. | 잇츠 온 더 팁 오브 마이 텅 | 혀끝에서 맴도는데… | 생각날 듯 말 듯할 때
-I'm all ears. | 아임 올 이어즈 | 잘 듣고 있어요 / 어서 말해 봐요 | 귀를 쫑긋 세우고 듣는다는 뜻
-When pigs fly. | 웬 픽스 플라이 | 해가 서쪽에서 뜨겠다 | 절대 일어나지 않을 일. "He'll clean his room when pigs fly."
+"ఇంగ్లీష్ జాతీయాలు": `
+It's a piece of cake. | ఇట్స్ అ పీస్ అవ఼్ కేక్ | అది చిటికెలో అయిపోయే పని | చాలా సులువైన పని: The test was a piece of cake.
+I'm on cloud nine. | ఐమ్ ఆన్ క్లౌడ్ నైన్ | ఆనందంతో గాల్లో తేలిపోతున్నాను | పట్టలేనంత సంతోషంగా ఉన్నప్పుడు.
+It costs an arm and a leg. | ఇట్ కాస్ట్స్ అన్ ఆర్మ్ అండ్ అ లెగ్ | దాని ధర ఆకాశాన్ని అంటుతోంది | అక్షరాలా "ఒక చెయ్యి, ఒక కాలు ఇవ్వాలి" అన్నంత ఖరీదు అని.
+Let's call it a day. | లెట్స్ కాల్ ఇట్ అ డే | ఈరోజుకి ఇక చాలిద్దాం | పని, చదువు ముగించేటప్పుడు. మీటింగ్‌లో కూడా సహజం.
+I'm feeling under the weather. | ఐమ్ ˈఫీలిఙ్ అండర్ ద఼ ˈవెద఼ర్ | నాకు ఒంట్లో కొంచెం నలతగా ఉంది | జలుబు లాంటి చిన్న అనారోగ్యానికి. వాతావరణంతో సంబంధం లేదు.
+I need to hit the books. | ఐ నీడ్ ట హిట్ ద఼ బుక్స్ | నేను పుస్తకాలు పట్టాలి (బాగా చదవాలి) | పరీక్షల ముందు. పుస్తకాలను కొట్టడం కాదు.
+Once in a blue moon | వన్స్ ఇన్ అ బ్లూ మూన్ | ఎప్పుడో ఒకసారి (చాలా అరుదుగా) | చాలా అరుదైన విషయానికి: I only eat fast food once in a blue moon.
+Better late than never. | ˈబెటర్ లేట్ ద఼న్ ˈనెవ఼ర్ | అసలు చేయకపోవడం కంటే ఆలస్యంగానైనా చేయడం మేలు | ఆలస్యంగా మొదలుపెట్టిన వాళ్ళను ప్రోత్సహించడానికి.
+Don't beat around the bush. | డోంట్ బీట్ అరౌండ్ ద఼ బుష్ | డొంకతిరుగుడు వద్దు, సూటిగా చెప్పు | అసలు విషయానికి రమ్మని చెప్పడం.
+It's not my cup of tea. | ఇట్స్ నాట్ మై కప్ అవ఼్ టీ | అది నా అభిరుచికి సరిపడదు | నచ్చలేదని మృదువుగా చెప్పడానికి. టీతో సంబంధం లేదు.
+Let's get the ball rolling. | లెట్స్ గెట్ ద఼ బాల్ ˈరోలిఙ్ | ఇక పని మొదలుపెడదాం | మీటింగ్, ప్రాజెక్ట్ మొదలుపెట్టేటప్పుడు.
+I'll keep my fingers crossed. | ఐల్ కీప్ మై ˈఫింగర్జ఼్ క్రాస్ట్ | అంతా మంచే జరగాలని కోరుకుంటాను | చూపుడు వేలు, మధ్య వేలు మెలిపెట్టే సంజ్ఞతో పాటు అంటారు.
+Hang in there. | హ్యాఙ్ ఇన్ ద఼ెర్ | ఇంకొంచెం ఓపిక పట్టు, ధైర్యంగా ఉండు | కష్టకాలంలో ఉన్నవాళ్ళకు.
+Speak of the devil! | స్పీక్ అవ఼్ ద఼ ˈడెవ఼ల్ | నూరేళ్ళాయుష్షు! (అనుకోగానే వచ్చారు) | ఎవరి గురించి మాట్లాడుతున్నామో వాళ్ళే వచ్చినప్పుడు. devil అని ఉన్నా ఇది తిట్టు కాదు.
+The ball is in your court. | ద఼ బాల్ ఇజ఼్ ఇన్ యుర్ కోర్ట్ | ఇక నిర్ణయం నీ చేతుల్లో ఉంది | టెన్నిస్ నుంచి వచ్చిన మాట: బంతి నీ వైపు ఉంది.
+My lips are sealed. | మై లిప్స్ అర్ సీల్డ్ | నేను నోరు విప్పను (రహస్యం దాస్తాను) | అక్షరాలా "నా పెదవులకు సీలు వేశాను".
+It's on the tip of my tongue. | ఇట్స్ ఆన్ ద఼ టిప్ అవ఼్ మై టఙ్ | నాలుక చివర ఉంది, గుర్తు రావడం లేదు | తెలుగులో కూడా ఇదే జాతీయం ఉంది.
+I'm all ears. | ఐమ్ ఆల్ ఇర్జ఼్ | చెప్పు, శ్రద్ధగా వింటున్నాను | అక్షరాలా "నేను మొత్తం చెవులే"; చెవులు రిక్కించి వింటున్నానని.
+When pigs fly. | వెన్ పిగ్జ఼్ ఫ్లై | అది జరిగే పని కాదు | అక్షరాలా "పందులు ఎగిరినప్పుడు". ఎప్పటికీ జరగని విషయానికి: He'll clean his room when pigs fly.
 `,
-"영화·드라마·슬랭": `
-Spill the tea. | 스필 더 티 | 썰 좀 풀어 봐 | tea = 가십·소문. 친구 사이 슬랭
-No cap. | 노 캡 | 진짜야, 거짓말 아님 | 젊은 층 슬랭. cap = 거짓말
-That song slaps. | 댓 쏭 슬랩스 | 그 노래 진짜 좋다 | slap = (음악이) 끝내주다. 음식에도 써요
-I'm dead. | 아임 데드 | 개웃겨 / 빵 터졌어 | 문자에서 💀 이모지와 함께 써요. 진짜 죽었다는 뜻 아니에요
-Low-key | 로우키 | 은근히 / 살짝 | "I low-key love this song." 반대는 high-key(대놓고)
-I'm obsessed with this song. | 아임 업세스트 위드 디스 쏭 | 이 노래에 완전 꽂혔어 | obsessed = 푹 빠진. 긍정적으로 많이 써요
-What's it about? | 왓츠 잇 어바웃? | 무슨 내용이야? | 영화·드라마 줄거리를 물을 때
-No spoilers! | 노 스포일러즈! | 스포 금지! | "Don't spoil it!"도 같은 뜻
-I binge-watched the whole season. | 아이 빈지와치트 더 홀 시즌 | 시즌 전체를 정주행했어 | binge-watch = 몰아보기
-The ending was so good. | 디 엔딩 워즈 쏘 굿 | 결말 진짜 좋았어 | 별로였으면 "The ending was disappointing."
-It's a must-watch. | 잇츠 어 머스트와치 | 꼭 봐야 하는 작품이야 | 강력 추천할 때
-Plot twist! | 플랏 트위스트! | 반전! | 일상에서 예상 못 한 일이 생겼을 때도 써요
-It's overrated. | 잇츠 오버레이티드 | 과대평가됐어 | 반대는 underrated(과소평가된)
-That scene gave me chills. | 댓 씬 게이브 미 칠즈 | 그 장면 소름 돋았어 | 감동이나 긴장으로 소름 돋을 때
-Who's your bias? | 후즈 유어 바이어스? | 최애가 누구야? | K-pop 팬덤에서 쓰는 말. 일반적으로는 "Who's your favorite member?"
-Are you kidding me? | 아 유 키딩 미? | 장난해? / 이게 말이 돼? | 드라마 단골 대사. 놀람·짜증 모두 가능
-I've got your back. | 아이브 갓 유어 백 | 내가 네 편이야 | 든든하게 지켜 주겠다는 뜻
-Gotcha. | 가차 | 알았어 / 잡았다! | got you의 줄임말. 이해했다는 뜻으로 가장 많이 써요
-Let's do this! | 렛츠 두 디스! | 가자! 해 보자! | 시작 전에 의욕을 북돋울 때
+"సినిమాలు, సిరీస్, స్లాంగ్": `
+Spill the tea. | స్పిల్ ద఼ టీ | ఆ గాసిప్ ఏంటో చెప్పు | ఇక్కడ tea = గాసిప్, పుకార్లు. స్నేహితుల మధ్య స్లాంగ్.
+No cap. | నో క్యాప్ | నిజంగా, అబద్ధం కాదు | యువత స్లాంగ్. cap = అబద్ధం. ఆఫీసులో వాడకండి.
+That song slaps. | ద఼్యాట్ సాఙ్ స్ల్యాప్స్ | ఆ పాట అదిరిపోయింది | slap = (పాట) చాలా బాగుండటం. తిండి గురించి కూడా అంటారు.
+I'm dead. | ఐమ్ డెడ్ | నవ్వి నవ్వి చచ్చాను | మెసేజ్‌లో పుర్రె ఎమోజీతో రాస్తారు. నిజంగా చనిపోయినట్టు కాదు.
+Low-key | లోˈకీ | కొంచెం, లోలోపల | I low-key love this song. వ్యతిరేకం high-key (బాహాటంగా).
+I'm obsessed with this song. | ఐమ్ అబ్ˈసెస్ట్ విద఼్ ద఼ిస్ సాఙ్ | ఈ పాట నాకు పిచ్చిగా నచ్చేసింది | obsessed = పూర్తిగా మునిగిపోయిన. మంచి అర్థంలో ఎక్కువగా వాడతారు. obsessed with; obsessed on ✗.
+What's it about? | వట్స్ ఇట్ అˈబౌట్ | దాని కథ ఏంటి? | సినిమా, సిరీస్ కథ గురించి అడగడానికి.
+No spoilers! | నో ˈస్పాయిలర్జ఼్ | కథ చెప్పేయకు! | Don't spoil it! అన్నా అదే అర్థం.
+I binge-watched the whole season. | ఐ ˈబింజ్వాచ్ట్ ద఼ హోల్ ˈసీజ఼న్ | సీజన్ మొత్తం ఒకేసారి చూసేశాను | binge-watch = ఎపిసోడ్లు వరసగా ఆపకుండా చూడటం.
+The ending was so good. | ద఼ి ˈఎండిఙ్ వజ఼్ సో గుడ్ | ముగింపు చాలా బాగుంది | నచ్చకపోతే The ending was disappointing. ఇంగ్లీష్‌లో climax అంటే ముగింపు కాదు; కథలో అత్యంత ఉత్కంఠ ఉన్న ఘట్టం.
+It's a must-watch. | ఇట్స్ అ ˈమస్ట్వాచ్ | ఇది తప్పకుండా చూడాల్సిన సినిమా | గట్టిగా సిఫార్సు చేసేటప్పుడు. ఆర్టికల్ a తో.
+Plot twist! | ప్లాట్ ట్విస్ట్ | కథలో ట్విస్ట్! | రోజువారీ జీవితంలో ఊహించనిది జరిగినప్పుడు కూడా సరదాగా అంటారు.
+It's overrated. | ఇట్స్ ఓవ఼ర్ˈరేటిడ్ | దానికి అనవసరంగా ఎక్కువ పేరొచ్చింది | వ్యతిరేకం underrated (రావలసినంత పేరు రానిది).
+That scene gave me chills. | ద఼్యాట్ సీన్ గేవ఼్ మి చిల్జ఼్ | ఆ సీన్‌కి ఒళ్ళు గగుర్పొడిచింది | భావోద్వేగంతో గానీ ఉత్కంఠతో గానీ. gave me goosebumps అన్నా అదే అర్థం.
+Who's your bias? | హూజ఼్ యుర్ ˈబైఅస్ | నీ ఫేవరెట్ మెంబర్ ఎవరు? | K-pop అభిమానుల మాట. మామూలుగా: Who's your favorite actor? ఇండియాలో అనే hero కి ఇంగ్లీష్‌లో "వీరుడు" అని అర్థం; సినిమా నటుడికి actor.
+Are you kidding me? | అర్ యు ˈకిడిఙ్ మి | జోక్ చేస్తున్నావా? | సినిమాల్లో తరచూ వినిపించే డైలాగ్. ఆశ్చర్యానికీ చిరాకుకీ రెండిటికీ.
+I've got your back. | ఐవ఼్ గాట్ యుర్ బ్యాక్ | నీకు నేనున్నాను | అండగా నిలబడతానని చెప్పడం.
+Gotcha. | ˈగాచ | అర్థమైంది / దొరికావ్! | got you కి చిన్న రూపం. "అర్థమైంది" అన్న అర్థంలో ఎక్కువ.
+Let's do this! | లెట్స్ డూ ద఼ిస్ | పదండి, మొదలుపెడదాం! | మొదలుపెట్టే ముందు ఉత్సాహం నింపడానికి.
 `,
-"알파벳": `
-A | 에이 | 글자 A (소문자 a) | apple(사과)의 A. 이름은 '아'가 아니라 '에이'예요
-B | 비 (b) | 글자 B (소문자 b) | boy의 B. 두 입술을 붙였다 떼요. V와 이름이 같게 들리지 않게 조심해요
-C | 씨 | 글자 C (소문자 c) | coffee의 C. 이름이 see(보다)와 똑같은 소리예요
-D | 디 | 글자 D (소문자 d) | dog의 D. 이름은 '디'예요. T(티)와 달리 성대를 울려 부드럽게 시작해요
-E | 이 | 글자 E (소문자 e) | email의 E. 이름은 '이'예요. '아이'는 I의 이름이에요
-F | 에프 | 글자 F (소문자 f) | fan의 F. 윗니를 아랫입술에 대고 바람을 내요. P(피)와 구분해요
-G | 지 (g) | 글자 G (소문자 g) | game의 G. 입술을 내밀어 '쥐'에 가깝게. J(제이)와 이름이 달라요
-H | 에이치 | 글자 H (소문자 h) | hotel의 H. 이름이 모음 소리 '에'로 시작해서 an H라고 해요
-I | 아이 | 글자 I (소문자 i) | idea의 I. '나'를 뜻하는 I와 같은 소리예요. E(이)와 헷갈리지 마세요
-J | 제이 | 글자 J (소문자 j) | job의 J. G(지)와 바꿔 말하기 쉬워요
-K | 케이 | 글자 K (소문자 k) | key의 K. K-pop의 그 '케이'예요
-L | 엘 | 글자 L (소문자 l) | light의 L. 혀끝을 윗잇몸에 붙이며 '엘'로 끝내요
-M | 엠 | 글자 M (소문자 m) | milk의 M. 입술을 다물며 끝내요. summer처럼 M이 두 개면 double M이라고 불러요
-N | 엔 | 글자 N (소문자 n) | name의 N. 전화로는 M과 헷갈리기 쉬워 "N as in name"처럼 확인해요
-O | 오우 | 글자 O (소문자 o) | OK의 O. 이름은 '오'가 아니라 끝을 살짝 오므린 '오우'예요
-P | 피 | 글자 P (소문자 p) | pan의 P. 두 입술을 터뜨려요. F(에프)와 구분해요
-Q | 큐 | 글자 Q (소문자 q) | question의 Q. 단어에서는 거의 항상 뒤에 U가 와요 (qu)
-R | 아r | 글자 R (소문자 r) | rice의 R. '알'이 아니라 혀를 뒤로 말아 '아r'. L(엘)과 꼭 구분해요
-S | 에스 | 글자 S (소문자 s) | sorry의 S. 이름은 '에스'예요. '씨'는 C의 이름이에요
-T | 티 | 글자 T (소문자 t) | taxi의 T. 대문자는 capital T, 두 개면 double T라고 해요
-U | 유 | 글자 U (소문자 u) | university의 U. 이름이 '유'(y 소리)로 시작해서 an U가 아니라 a U
-V | 비 (v) | 글자 V (소문자 v) | very의 V. 윗니를 아랫입술에 대고 성대를 울려요. B와 구분해요
-W | 더블유 | 글자 W (소문자 w) | water의 W. 이름은 double u, 'U 두 개'라는 뜻이에요 (double v 아님)
-X | 엑스 | 글자 X (소문자 x) | X-ray(엑스레이)의 X. 이름이 모음 소리로 시작해서 an X-ray, an X
-Y | 와이 | 글자 Y (소문자 y) | yes의 Y. 이름이 why(왜)와 똑같은 소리예요
-Z | 지 (z) | 글자 Z (소문자 z) | zoo의 Z. 미국에서는 zee예요. '제트'라고 하면 잘 못 알아들어요
+"ఇంగ్లీష్ అక్షరమాల": `
+A | ఏ | అక్షరం A (చిన్న అక్షరం a) | apple లో A. అక్షరం పేరు దీర్ఘం "ఏ"; ముందు య కలపకండి.
+B | బీ | అక్షరం B (చిన్న అక్షరం b) | boy లో B. రెండు పెదవులూ కలిపి పలకండి. V పేరుతో కలపకండి.
+C | సీ | అక్షరం C (చిన్న అక్షరం c) | coffee లో C. పేరు see (చూడటం) లాగే వినిపిస్తుంది.
+D | డీ | అక్షరం D (చిన్న అక్షరం d) | dog లో D. ఫోన్‌లో B, D, P, T కలిసిపోతాయి; D as in dog అని చెప్పి నిర్ధారించండి.
+E | ఈ | అక్షరం E (చిన్న అక్షరం e) | email లో E. పేరు దీర్ఘం "ఈ". "ఐ" అనేది I పేరు.
+F | ఎఫ్ | అక్షరం F (చిన్న అక్షరం f) | fan లో F. పేరు నేరుగా "ఎ" తో మొదలవుతుంది, ముందు య లేదు. చివర f తర్వాత అచ్చు లేదు.
+G | జీ | అక్షరం G (చిన్న అక్షరం g) | game లో G. పేరు మామూలు జ తో మొదలవుతుంది. J పేరుతో తారుమారు చేయకండి.
+H | ఏచ్ | అక్షరం H (చిన్న అక్షరం h) | hotel లో H. అమెరికాలో పేరు "ఏ" తో మొదలవుతుంది; ఇండియాలో అనే "హెచ్" కాదు. అందుకే an H.
+I | ఐ | అక్షరం I (చిన్న అక్షరం i) | idea లో I. "నేను" అనే I లాగే వినిపిస్తుంది. E పేరుతో కలపకండి.
+J | జే | అక్షరం J (చిన్న అక్షరం j) | job లో J. G, J పేర్లు తారుమారు చేయకండి.
+K | కే | అక్షరం K (చిన్న అక్షరం k) | key లో K. know, knife లో మొదటి k పలకదు.
+L | ఎల్ | అక్షరం L (చిన్న అక్షరం l) | light లో L. పేరు నేరుగా "ఎ" తో మొదలవుతుంది; ముందు య కలపకండి.
+M | ఎమ్ | అక్షరం M (చిన్న అక్షరం m) | milk లో M. పేరు "ఎ" తో మొదలు; ముందు య లేదు. summer లో లాగా రెండు ఉంటే double M అంటారు.
+N | ఎన్ | అక్షరం N (చిన్న అక్షరం n) | name లో N. ముందు య కలపకండి. ఫోన్‌లో M తో కలిసిపోతుంది: N as in name.
+O | ఓ | అక్షరం O (చిన్న అక్షరం o) | OK లో O. పేరు దీర్ఘం "ఓ"; ముందు వ కలపకండి.
+P | పీ | అక్షరం P (చిన్న అక్షరం p) | pan లో P. రెండు పెదవులతో. F పేరుతో కలపకండి.
+Q | క్యూ | అక్షరం Q (చిన్న అక్షరం q) | question లో Q. పదాల్లో దాదాపు ఎప్పుడూ తర్వాత u వస్తుంది: qu.
+R | ఆర్ | అక్షరం R (చిన్న అక్షరం r) | rice లో R. అమెరికాలో పేరు చివర r పలుకుతారు.
+S | ఎస్ | అక్షరం S (చిన్న అక్షరం s) | sorry లో S. పేరు "ఎ" తో మొదలు; ముందు య కలిపితే yes లా వినిపిస్తుంది.
+T | టీ | అక్షరం T (చిన్న అక్షరం t) | taxi లో T. పెద్ద అక్షరం capital T; రెండు ఉంటే double T.
+U | యూ | అక్షరం U (చిన్న అక్షరం u) | university లో U. పేరు య శబ్దంతో మొదలవుతుంది కాబట్టి a U; an U కాదు.
+V | వ఼ీ | అక్షరం V (చిన్న అక్షరం v) | very లో V. పై పళ్ళు కింది పెదవి మీద. B, W లతో కలపకండి.
+W | ˈడబల్యూ | అక్షరం W (చిన్న అక్షరం w) | water లో W. పేరు double u, అంటే "రెండు U లు". మూడు భాగాలు; ఒత్తి మొదటి భాగం మీద.
+X | ఎక్స్ | అక్షరం X (చిన్న అక్షరం x) | X-ray లో X. పేరు "ఎ" తో మొదలవుతుంది, ముందు య లేదు; అందుకే an X-ray.
+Y | వై | అక్షరం Y (చిన్న అక్షరం y) | yes లో Y. పేరు why (ఎందుకు) లాగే వినిపిస్తుంది.
+Z | జ఼ీ | అక్షరం Z (చిన్న అక్షరం z) | zoo లో Z. అమెరికాలో zee; ఇండియాలో, బ్రిటన్‌లో అనే zed అక్కడ అర్థం కాకపోవచ్చు. మొదటి శబ్దం తెలుగు జ కాదు, z.
+`,
+"ఇండియన్ ఇంగ్లీష్: ఇక్కడ, విదేశాల్లో": `
+Can we move the meeting up? | కన్ వి మూవ఼్ ద఼ ˈమీటిఙ్ అప్ | మీటింగ్ ముందుకు జరుపుదామా? | prepone ఇండియాలో వాడతారు; విదేశాల్లో అర్థం కాకపోవచ్చు. అక్కడ move up లేదా bring forward.
+I'm out of town this week. | ఐమ్ ఔట్ అవ఼్ టౌన్ ద఼ిస్ వీక్ | ఈ వారం నేను ఊళ్ళో లేను | out of station ఇండియాలో వాడతారు; విదేశాల్లో out of town. ఇక్కడ town ముందు ఆర్టికల్ రాదు.
+What's your name? | వట్స్ యుర్ నేమ్ | మీ పేరు ఏమిటి? | What is your good name? ఇండియాలో వాడతారు; విదేశాల్లో వింతగా ఉంటుంది. ఉత్త What's your name? చాలు.
+I graduated in 2019. | ఐ ˈగ్ర్యాజుఏటిడ్ ఇన్ ˈట్వెంటి నైంˈటీన్ | నేను 2019 లో డిగ్రీ పూర్తి చేశాను | I passed out in 2019 ఇండియాలో వాడతారు; విదేశాల్లో passed out అంటే "స్పృహ తప్పి పడిపోయాను".
+I'll get back to you by Friday. | ఐల్ గెట్ బ్యాక్ ట యు బై ˈఫ్రైడే | శుక్రవారం లోపు మీకు జవాబిస్తాను | I will revert by Friday ఇండియాలో వాడతారు; విదేశాల్లో revert అంటే "పాత స్థితికి తిరిగి వెళ్ళడం". revert back ఎక్కడైనా తప్పే.
+Please take care of it. | ప్లీజ఼్ టేక్ కెర్ అవ఼్ ఇట్ | దయచేసి ఆ పని చూసుకోండి | Please do the needful ఇండియాలో వాడతారు; విదేశాల్లో పాతకాలపు మాట. ఏం చేయాలో స్పష్టంగా చెప్పండి, లేదా take care of it అనండి.
+Sorry for the trouble. | ˈసారి ఫర్ ద఼ ˈట్రబల్ | ఇబ్బంది పెట్టినందుకు క్షమించండి | Kindly adjust ఇండియాలో వాడతారు; విదేశాల్లో అర్థం కాదు. క్షమాపణ చెప్పి, కావలసింది Could you…? తో అడగండి.
+Let's eat at a restaurant tonight. | లెట్స్ ఈట్ అట్ అ ˈరెస్టరాంట్ టˈనైట్ | ఈ రాత్రి రెస్టారెంట్‌లో తిందాం | భోజనం చేసే చోటును hotel అనడం ఇండియాలో వాడతారు; విదేశాల్లో hotel అంటే బస చేసే చోటు మాత్రమే.
+I had a light breakfast. | ఐ హ్యాడ్ అ లైట్ ˈబ్రెక్ఫస్ట్ | నేను తేలికగా టిఫిన్ చేశాను | tiffin ఇండియాలో వాడతారు; విదేశాల్లో అర్థం కాదు. ఉదయం తినేది breakfast, మధ్యలో తినేది a snack.
+Is there a gas station near here? | ఇజ఼్ ద఼ెర్ అ గ్యాస్ ˈస్టేషన్ నిర్ హిర్ | ఇక్కడ దగ్గర్లో పెట్రోల్ బంక్ ఉందా? | petrol bunk దక్షిణ ఇండియాలో వాడతారు; అమెరికాలో gas station, బ్రిటన్‌లో petrol station.
+I don't like eggplant. | ఐ డోంట్ లైక్ ˈఎగ్ప్ల్యాంట్ | నాకు వంకాయ ఇష్టం లేదు | brinjal ఇండియాలో వాడతారు; అమెరికాలో eggplant, బ్రిటన్‌లో aubergine. అలాగే ladies' finger కి okra, curd కి yogurt.
+Can you finish it today? | కన్ యు ˈఫినిష్ ఇట్ టˈడే | దీన్ని ఈరోజే పూర్తి చేయగలరా? | today itself ఇండియాలో వాడతారు; విదేశాల్లో ఉత్త today, లేదా by the end of the day. "ఈరోజే" లోని "-ఏ" కి itself అవసరం లేదు.
+I'm leaving right now. | ఐమ్ ˈలీవ఼ిఙ్ రైట్ నౌ | నేను ఇప్పుడే బయలుదేరుతున్నాను | I'm leaving now only ఇండియాలో వాడతారు; విదేశాల్లో right now. "ఇప్పుడే" లోని "-ఏ" కి only కాదు.
+We sell pens, notebooks, and so on. | వి సెల్ పెన్జ఼్ ˈనోట్బుక్స్ అండ్ సో ఆన్ | మేము పెన్నులు, నోట్‌బుక్కులు వగైరా అమ్ముతాం | pens, notebooks and all ఇండియాలో వాడతారు; విదేశాల్లో and so on లేదా and things like that.
+Let's discuss the plan. | లెట్స్ డిˈస్కస్ ద఼ ప్ల్యాన్ | ప్లాన్ గురించి మాట్లాడుకుందాం | discuss about the plan ఎక్కడైనా తప్పే: discuss తర్వాత about రాదు. "గురించి" కి about కావాలంటే talk about.
+I can't cope with the stress. | ఐ క్యాంట్ కోప్ విద఼్ ద఼ స్ట్రెస్ | ఈ ఒత్తిడి నేను తట్టుకోలేకపోతున్నాను | cope up with ఎక్కడైనా తప్పే: cope with అనాలి, up రాదు.
+This one is better. | ద఼ిస్ వన్ ఇజ఼్ ˈబెటర్ | ఇది ఇంకా బాగుంది | more better ఎక్కడైనా తప్పే. better లోనే "ఇంకా" అనే అర్థం ఉంది; నొక్కి చెప్పాలంటే much better.
+You're coming tomorrow, aren't you? | యుర్ ˈకమిఙ్ టˈమారో ఆర్న్ట్ యు | నువ్వు రేపు వస్తున్నావు కదా? | తెలుగు "కదా?" కి ప్రతి వాక్యం చివర isn't it? పెట్టడం ఎక్కడైనా తప్పే. question tag వాక్యాన్ని బట్టి మారుతుంది: you're → aren't you, you like → don't you.
+Hi, I'm Ravi. | హై ఐమ్ ˈరావ఼ి | హాయ్, నేను రవిని | Myself Ravi ఎక్కడైనా తప్పే. I'm Ravi లేదా My name is Ravi అనండి.
+I have a quick question. | ఐ హ్యావ఼్ అ క్విక్ ˈక్వెస్చన్ | నాకు ఒక చిన్న ప్రశ్న ఉంది | ప్రశ్న అనే అర్థంలో I have a doubt ఇండియాలో వాడతారు; విదేశాల్లో doubt అంటే అనుమానం, అపనమ్మకం. అడగడానికి question.
+Where do you live? | వెర్ డ యు లివ఼్ | మీరు ఎక్కడ ఉంటారు? | Where do you stay? తెలుగు "ఉండటం" నుంచి వచ్చిన అలవాటు; ఇండియాలో వాడతారు. విదేశాల్లో stay అంటే కొన్ని రోజుల బస; ఇల్లు ఉన్న చోటుకి live.
+I'll be right back. | ఐల్ బి రైట్ బ్యాక్ | ఇప్పుడే వెళ్ళొస్తాను | I'll go and come తెలుగు "వెళ్ళొస్తాను" కి అక్షరానువాదం; ఇండియాలో వాడతారు, విదేశాల్లో వింతగా ఉంటుంది. కాసేపట్లో తిరిగి వస్తే I'll be right back; వీడ్కోలైతే See you later.
+Can I borrow a pen? | కన్ ఐ ˈబారో అ పెన్ | ఒక పెన్ను ఇస్తారా? (కాసేపటికి) | Give me one pen తెలుగు "ఒక" కి అక్షరానువాదం; ఇండియాలో వాడతారు. విదేశాల్లో one pen అంటే "రెండు కాదు, ఒక్కటే" అని నొక్కి చెప్పినట్టు; మామూలుగా ఆర్టికల్ a.
+My hometown is Guntur. | మై ˈహోమ్టౌన్ ఇజ఼్ గుంˈటుర్ | మా సొంత ఊరు గుంటూరు | My native place is Guntur ఇండియాలో వాడతారు; విదేశాల్లో hometown, లేదా I'm originally from Guntur.
+I was just asking. | ఐ వజ఼్ జస్ట్ ˈయాస్కిఙ్ | ఊరికే అడిగాను | I simply asked తెలుగు "ఊరికే" కి అక్షరానువాదం; ఇండియాలో వాడతారు. విదేశాల్లో simply అంటే "సులువుగా"; "ఊరికే" కి just లేదా for no reason.
 `
 };
