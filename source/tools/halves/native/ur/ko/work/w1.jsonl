@@ -1,0 +1,1675 @@
+{"f":"course","id":"course","k":"name","src":"Korean","tgt":""}
+{"f":"groups","id":"ko.grp.foundations","k":"name","src":"Foundations","tgt":""}
+{"f":"groups","id":"ko.grp.everyday","k":"name","src":"Everyday","tgt":""}
+{"f":"groups","id":"ko.grp.vocabulary","k":"name","src":"Vocabulary","tgt":""}
+{"f":"groups","id":"ko.grp.grammar","k":"name","src":"Grammar","tgt":""}
+{"f":"groups","id":"ko.grp.social","k":"name","src":"Social","tgt":""}
+{"f":"groups","id":"ko.grp.core-words","k":"name","src":"Core words","tgt":""}
+{"f":"labels","id":"ko.t01","k":"text","src":"Sprout","tgt":""}
+{"f":"labels","id":"ko.t03","k":"text","src":"Student","tgt":""}
+{"f":"labels","id":"ko.t05","k":"text","src":"Senior","tgt":""}
+{"f":"labels","id":"ko.t08","k":"text","src":"Pro","tgt":""}
+{"f":"labels","id":"ko.t12","k":"text","src":"Master","tgt":""}
+{"f":"labels","id":"ko.t16","k":"text","src":"Sensei","tgt":""}
+{"f":"labels","id":"ko.h.night","k":"text","src":"it's late, good work","tgt":""}
+{"f":"labels","id":"ko.h.morning","k":"text","src":"good morning","tgt":""}
+{"f":"labels","id":"ko.h.afternoon","k":"text","src":"good afternoon","tgt":""}
+{"f":"labels","id":"ko.h.evening","k":"text","src":"good evening","tgt":""}
+{"f":"labels","id":"goal.travel","k":"text","src":"Travel & getting around","tgt":""}
+{"f":"labels","id":"goal.social","k":"text","src":"Dating, friends & nights out","tgt":""}
+{"f":"labels","id":"goal.drama","k":"text","src":"K-dramas & music","tgt":""}
+{"f":"labels","id":"goal.work","k":"text","src":"Work & study","tgt":""}
+{"f":"labels","id":"plan.trip","k":"text","src":"Trip to Korea","tgt":""}
+{"f":"labels","id":"plan.social","k":"text","src":"Make friends & date","tgt":""}
+{"f":"labels","id":"plan.conv","k":"text","src":"Conversational in 90 days","tgt":""}
+{"f":"labels","id":"ko.z.compliment","k":"text","src":"compliment","tgt":""}
+{"f":"labels","id":"ko.z.compliment.01","k":"text","src":"You look great / That's cool","tgt":""}
+{"f":"labels","id":"ko.z.compliment.02","k":"text","src":"You're the best","tgt":""}
+{"f":"labels","id":"ko.z.compliment.03","k":"text","src":"That's amazing","tgt":""}
+{"f":"labels","id":"ko.z.compliment.04","k":"text","src":"Well done","tgt":""}
+{"f":"labels","id":"ko.z.compliment.05","k":"text","src":"You've got great taste","tgt":""}
+{"f":"labels","id":"ko.z.compliment.06","k":"text","src":"You're so kind","tgt":""}
+{"f":"labels","id":"ko.z.compliment.07","k":"text","src":"You're smart","tgt":""}
+{"f":"labels","id":"ko.z.compliment.08","k":"text","src":"You're fun","tgt":""}
+{"f":"labels","id":"ko.z.compliment.09","k":"text","src":"Your smile is lovely","tgt":""}
+{"f":"labels","id":"ko.z.compliment.10","k":"text","src":"You have a nice voice","tgt":""}
+{"f":"labels","id":"ko.z.compliment.11","k":"text","src":"You're dependable","tgt":""}
+{"f":"labels","id":"ko.z.compliment.12","k":"text","src":"It suits you","tgt":""}
+{"f":"labels","id":"ko.z.compliment.13","k":"text","src":"I feel supported with you","tgt":""}
+{"f":"labels","id":"ko.z.compliment.14","k":"text","src":"You're awesome","tgt":""}
+{"f":"labels","id":"ko.z.compliment.15","k":"text","src":"You have a great personality","tgt":""}
+{"f":"labels","id":"ko.z.compliment.16","k":"text","src":"Your Korean is good","tgt":""}
+{"f":"labels","id":"ko.z.compliment.17","k":"text","src":"You've got a vibe","tgt":""}
+{"f":"labels","id":"ko.z.compliment.18","k":"text","src":"A warm person","tgt":""}
+{"f":"labels","id":"ko.z.compliment.19","k":"text","src":"I learn a lot from you","tgt":""}
+{"f":"labels","id":"ko.z.compliment.20","k":"text","src":"I feel at ease with you","tgt":""}
+{"f":"labels","id":"ko.z.compliment.21","k":"text","src":"You work so hard","tgt":""}
+{"f":"labels","id":"ko.z.compliment.22","k":"text","src":"You're thoughtful","tgt":""}
+{"f":"labels","id":"ko.z.expression","k":"text","src":"everyday expression","tgt":""}
+{"f":"labels","id":"ko.z.expression.01","k":"text","src":"Really?","tgt":""}
+{"f":"labels","id":"ko.z.expression.02","k":"text","src":"I see","tgt":""}
+{"f":"labels","id":"ko.z.expression.03","k":"text","src":"That's right","tgt":""}
+{"f":"labels","id":"ko.z.expression.04","k":"text","src":"Of course","tgt":""}
+{"f":"labels","id":"ko.z.expression.05","k":"text","src":"Well… I'm not sure","tgt":""}
+{"f":"labels","id":"ko.z.expression.06","k":"text","src":"Maybe","tgt":""}
+{"f":"labels","id":"ko.z.expression.07","k":"text","src":"It's okay","tgt":""}
+{"f":"labels","id":"ko.z.expression.08","k":"text","src":"Got it","tgt":""}
+{"f":"labels","id":"ko.z.expression.09","k":"text","src":"Just a moment","tgt":""}
+{"f":"labels","id":"ko.z.expression.10","k":"text","src":"Please say that again","tgt":""}
+{"f":"labels","id":"ko.z.expression.11","k":"text","src":"Oh no, what do I do","tgt":""}
+{"f":"labels","id":"ko.z.expression.12","k":"text","src":"Awesome / No way","tgt":""}
+{"f":"labels","id":"ko.z.expression.13","k":"text","src":"No wonder","tgt":""}
+{"f":"labels","id":"ko.z.expression.14","k":"text","src":"Surely not","tgt":""}
+{"f":"labels","id":"ko.z.expression.15","k":"text","src":"Obviously","tgt":""}
+{"f":"labels","id":"ko.z.expression.16","k":"text","src":"I know, right","tgt":""}
+{"f":"labels","id":"ko.z.expression.17","k":"text","src":"Oh my","tgt":""}
+{"f":"labels","id":"ko.z.expression.18","k":"text","src":"Of course","tgt":""}
+{"f":"labels","id":"ko.z.expression.19","k":"text","src":"I'm not sure","tgt":""}
+{"f":"labels","id":"ko.z.expression.20","k":"text","src":"Long time no see","tgt":""}
+{"f":"labels","id":"ko.z.expression.21","k":"text","src":"Good work today","tgt":""}
+{"f":"labels","id":"ko.z.expression.22","k":"text","src":"Thanks for the meal (before eating)","tgt":""}
+{"f":"labels","id":"ko.z.expression.23","k":"text","src":"That was delicious (after eating)","tgt":""}
+{"f":"labels","id":"ko.z.expression.24","k":"text","src":"Get home safe","tgt":""}
+{"f":"labels","id":"ko.z.expression.25","k":"text","src":"Have a good day","tgt":""}
+{"f":"labels","id":"ko.z.expression.26","k":"text","src":"What does it mean?","tgt":""}
+{"f":"labels","id":"ko.z.polite","k":"text","src":"polite basics","tgt":""}
+{"f":"labels","id":"ko.z.polite.01","k":"text","src":"Please (give me)","tgt":""}
+{"f":"labels","id":"ko.z.polite.02","k":"text","src":"Please (I'm asking a favor)","tgt":""}
+{"f":"labels","id":"ko.z.polite.03","k":"text","src":"Excuse me / Pardon me","tgt":""}
+{"f":"labels","id":"ko.z.polite.04","k":"text","src":"Excuse me (to get attention)","tgt":""}
+{"f":"labels","id":"ko.z.polite.05","k":"text","src":"Excuse me, one second","tgt":""}
+{"f":"labels","id":"ko.z.polite.06","k":"text","src":"I'm sorry","tgt":""}
+{"f":"labels","id":"ko.z.polite.07","k":"text","src":"Thank you","tgt":""}
+{"f":"labels","id":"ko.z.polite.08","k":"text","src":"Thanks","tgt":""}
+{"f":"labels","id":"ko.z.polite.09","k":"text","src":"You're welcome (lit. 'not at all')","tgt":""}
+{"f":"labels","id":"ko.z.polite.10","k":"text","src":"It's fine / No, thank you","tgt":""}
+{"f":"labels","id":"ko.z.polite.11","k":"text","src":"Hello","tgt":""}
+{"f":"labels","id":"ko.z.polite.12","k":"text","src":"Goodbye (you're staying)","tgt":""}
+{"f":"labels","id":"ko.z.polite.13","k":"text","src":"Goodbye (you're leaving)","tgt":""}
+{"f":"labels","id":"ko.z.polite.14","k":"text","src":"Please help me","tgt":""}
+{"f":"labels","id":"ko.z.polite.15","k":"text","src":"Nice to meet you (first time)","tgt":""}
+{"f":"labels","id":"ko.z.polite.16","k":"text","src":"Nice to meet you","tgt":""}
+{"f":"labels","id":"ko.z.polite.17","k":"text","src":"After you / Go ahead","tgt":""}
+{"f":"labels","id":"ko.z.polite.18","k":"text","src":"Coming through, excuse me","tgt":""}
+{"f":"labels","id":"ko.z.saying","k":"text","src":"saying","tgt":""}
+{"f":"labels","id":"ko.z.saying.01","k":"text","src":"Starting is half the battle","tgt":""}
+{"f":"labels","id":"ko.z.saying.02","k":"text","src":"Dreams come true","tgt":""}
+{"f":"labels","id":"ko.z.saying.03","k":"text","src":"If you try, you can","tgt":""}
+{"f":"labels","id":"ko.z.saying.04","k":"text","src":"Don't give up","tgt":""}
+{"f":"labels","id":"ko.z.saying.05","k":"text","src":"Little by little makes a mountain","tgt":""}
+{"f":"labels","id":"ko.z.saying.06","k":"text","src":"Of all the days! (funny timing)","tgt":""}
+{"f":"labels","id":"ko.z.saying.07","k":"text","src":"A piece of cake","tgt":""}
+{"f":"labels","id":"ko.z.saying.08","k":"text","src":"Even sightseeing comes after eating","tgt":""}
+{"f":"labels","id":"ko.z.saying.09","k":"text","src":"Smile and good luck comes","tgt":""}
+{"f":"labels","id":"ko.z.saying.10","k":"text","src":"After hardship comes joy","tgt":""}
+{"f":"labels","id":"ko.z.saying.11","k":"text","src":"A long journey starts with one step","tgt":""}
+{"f":"labels","id":"ko.z.saying.12","k":"text","src":"Old habits die hard","tgt":""}
+{"f":"labels","id":"ko.z.saying.13","k":"text","src":"Many hands make light work","tgt":""}
+{"f":"labels","id":"ko.z.saying.14","k":"text","src":"Stay strong today","tgt":""}
+{"f":"labels","id":"ko.z.saying.15","k":"text","src":"You can do it","tgt":""}
+{"f":"labels","id":"ko.z.saying.16","k":"text","src":"It's okay, it'll work out","tgt":""}
+{"f":"labels","id":"ko.z.saying.17","k":"text","src":"You only live once","tgt":""}
+{"f":"labels","id":"ko.z.saying.18","k":"text","src":"Slow is okay","tgt":""}
+{"f":"labels","id":"ko.z.saying.19","k":"text","src":"Even monkeys fall from trees","tgt":""}
+{"f":"labels","id":"ko.z.saying.20","k":"text","src":"Kind words can repay a great debt","tgt":""}
+{"f":"labels","id":"ko.i01","k":"text","src":"May all your wishes come true","tgt":""}
+{"f":"labels","id":"ko.i02","k":"text","src":"Killing two birds with one stone","tgt":""}
+{"f":"labels","id":"ko.i03","k":"text","src":"A blessing in disguise — bad luck may turn good","tgt":""}
+{"f":"labels","id":"ko.i04","k":"text","src":"Turning misfortune into good fortune","tgt":""}
+{"f":"labels","id":"ko.i05","k":"text","src":"After bitterness comes sweetness","tgt":""}
+{"f":"labels","id":"ko.i06","k":"text","src":"Great talents bloom late","tgt":""}
+{"f":"labels","id":"ko.i07","k":"text","src":"Be prepared and you'll have no worries","tgt":""}
+{"f":"labels","id":"ko.i08","k":"text","src":"Fall seven times, get up eight","tgt":""}
+{"f":"labels","id":"ko.i09","k":"text","src":"A resolution that lasts three days","tgt":""}
+{"f":"labels","id":"ko.i10","k":"text","src":"Understanding each other without words","tgt":""}
+{"f":"labels","id":"ko.i11","k":"text","src":"Sharing the hard times and the good","tgt":""}
+{"f":"labels","id":"ko.i12","k":"text","src":"Icing on the cake","tgt":""}
+{"f":"labels","id":"ko.i13","k":"text","src":"The more, the better","tgt":""}
+{"f":"labels","id":"ko.i14","k":"text","src":"Getting better day by day","tgt":""}
+{"f":"labels","id":"ko.i15","k":"text","src":"You reap what you sow","tgt":""}
+{"f":"labels","id":"ko.i16","k":"text","src":"Persistence can move mountains","tgt":""}
+{"f":"labels","id":"ko.i17","k":"text","src":"Success earned through hard study","tgt":""}
+{"f":"labels","id":"ko.i18","k":"text","src":"Learning from other people's mistakes","tgt":""}
+{"f":"labels","id":"ko.i19","k":"text","src":"Too much is as bad as too little","tgt":""}
+{"f":"labels","id":"ko.i20","k":"text","src":"Put yourself in their shoes","tgt":""}
+{"f":"labels","id":"ko.i21","k":"text","src":"A match made in heaven","tgt":""}
+{"f":"labels","id":"ko.i22","k":"text","src":"Unwavering, single-hearted devotion","tgt":""}
+{"f":"labels","id":"ko.i23","k":"text","src":"Watching for your chance like a tiger","tgt":""}
+{"f":"labels","id":"ko.i24","k":"text","src":"A friend since childhood","tgt":""}
+{"f":"labels","id":"ko.i25","k":"text","src":"Learn the new by studying the old","tgt":""}
+{"f":"labels","id":"ko.i26","k":"text","src":"Thinking it over carefully","tgt":""}
+{"f":"labels","id":"ko.i27","k":"text","src":"Good is rewarded, evil is punished","tgt":""}
+{"f":"labels","id":"ko.i28","k":"text","src":"In one ear and out the other","tgt":""}
+{"f":"labels","id":"ko.i29","k":"text","src":"Nine times out of ten","tgt":""}
+{"f":"labels","id":"ko.i30","k":"text","src":"Winning every battle","tgt":""}
+{"f":"labels","id":"ko.i31","k":"text","src":"Self-made success","tgt":""}
+{"f":"labels","id":"ko.i32","k":"text","src":"Sticking to your original goal","tgt":""}
+{"f":"labels","id":"ko.d.mydeck","k":"text","src":"Anything you add yourself.","tgt":""}
+{"f":"decks","id":"ko.d.hangul-vowels","k":"label","src":"Hangul vowels","tgt":""}
+{"f":"decks","id":"ko.d.hangul-vowels","k":"desc","src":"The 10 basic vowels — read them and you can sound out any word.","tgt":""}
+{"f":"decks","id":"ko.d.hangul-consonants","k":"label","src":"Hangul consonants","tgt":""}
+{"f":"decks","id":"ko.d.hangul-consonants","k":"desc","src":"The 14 basic consonants and how they change at the end of a syllable.","tgt":""}
+{"f":"decks","id":"ko.d.hangul-advanced","k":"label","src":"Hangul · advanced","tgt":""}
+{"f":"decks","id":"ko.d.hangul-advanced","k":"desc","src":"Tense and aspirated consonants, compound vowels, double finals.","tgt":""}
+{"f":"decks","id":"ko.d.pronunciation-tips","k":"label","src":"Pronunciation tips","tgt":""}
+{"f":"decks","id":"ko.d.pronunciation-tips","k":"desc","src":"The sound rules that make real speech differ from spelling.","tgt":""}
+{"f":"decks","id":"ko.d.survival-phrases","k":"label","src":"Survival phrases","tgt":""}
+{"f":"decks","id":"ko.d.survival-phrases","k":"desc","src":"The 12 lines that get you through a day in Korea.","tgt":""}
+{"f":"decks","id":"ko.d.introductions","k":"label","src":"Introductions","tgt":""}
+{"f":"decks","id":"ko.d.introductions","k":"desc","src":"Name, origin, age, job, hobby — the first-meeting script.","tgt":""}
+{"f":"decks","id":"ko.d.survival-phrases-2","k":"label","src":"Survival phrases 2","tgt":""}
+{"f":"decks","id":"ko.d.survival-phrases-2","k":"desc","src":"Asking for help, repeating, paying, getting un-lost.","tgt":""}
+{"f":"decks","id":"ko.d.asking-around","k":"label","src":"Asking around","tgt":""}
+{"f":"decks","id":"ko.d.asking-around","k":"desc","src":"Bathroom, exits, seats, wifi, opening hours — every where-is question.","tgt":""}
+{"f":"decks","id":"ko.d.cafe-convenience-store","k":"label","src":"Café & convenience store","tgt":""}
+{"f":"decks","id":"ko.d.cafe-convenience-store","k":"desc","src":"Sizes, hot/iced, points cards, heating food, bags.","tgt":""}
+{"f":"decks","id":"ko.d.numbers-in-the-wild","k":"label","src":"Numbers in the wild","tgt":""}
+{"f":"decks","id":"ko.d.numbers-in-the-wild","k":"desc","src":"Prices, phone numbers, floors and times as they're actually written.","tgt":""}
+{"f":"decks","id":"ko.d.counters","k":"label","src":"Counters","tgt":""}
+{"f":"decks","id":"ko.d.counters","k":"desc","src":"How to count things, people, cups, bottles, animals.","tgt":""}
+{"f":"decks","id":"ko.d.weather-feelings","k":"label","src":"Weather & feelings","tgt":""}
+{"f":"decks","id":"ko.d.weather-feelings","k":"desc","src":"Weather talk and how you feel, the two most common openers.","tgt":""}
+{"f":"decks","id":"ko.d.connectors","k":"label","src":"Connectors","tgt":""}
+{"f":"decks","id":"ko.d.connectors","k":"desc","src":"And, so, but, then — glue for telling a story.","tgt":""}
+{"f":"decks","id":"ko.d.doctor-pharmacy","k":"label","src":"Doctor & pharmacy","tgt":""}
+{"f":"decks","id":"ko.d.doctor-pharmacy","k":"desc","src":"Symptoms, medicine, allergies, prescriptions.","tgt":""}
+{"f":"decks","id":"ko.d.housing-errands","k":"label","src":"Housing & errands","tgt":""}
+{"f":"decks","id":"ko.d.housing-errands","k":"desc","src":"Rent, deposits, parcels, recycling, laundry.","tgt":""}
+{"f":"decks","id":"ko.d.honorifics","k":"label","src":"Honorifics","tgt":""}
+{"f":"decks","id":"ko.d.honorifics","k":"desc","src":"Raising the subject: 드시다, 주무시다, 계시다 and -(으)시-.","tgt":""}
+{"f":"decks","id":"ko.d.places-buildings","k":"label","src":"Places & buildings","tgt":""}
+{"f":"decks","id":"ko.d.places-buildings","k":"desc","src":"Café, gym, library, museum, house — the places you say you're going.","tgt":""}
+{"f":"decks","id":"ko.d.hobbies","k":"label","src":"Hobbies","tgt":""}
+{"f":"decks","id":"ko.d.hobbies","k":"desc","src":"Answer 취미가 뭐예요? with the real words.","tgt":""}
+{"f":"decks","id":"ko.d.food-words","k":"label","src":"Food words","tgt":""}
+{"f":"decks","id":"ko.d.food-words","k":"desc","src":"The dishes and ingredients on every menu.","tgt":""}
+{"f":"decks","id":"ko.d.drinks","k":"label","src":"Drinks","tgt":""}
+{"f":"decks","id":"ko.d.drinks","k":"desc","src":"Coffee, tea, soju, beer, and how to order one more.","tgt":""}
+{"f":"decks","id":"ko.d.activities","k":"label","src":"Activities","tgt":""}
+{"f":"decks","id":"ko.d.activities","k":"desc","src":"Everyday 'I do X' verbs in polite form.","tgt":""}
+{"f":"decks","id":"ko.d.tv-entertainment","k":"label","src":"TV & entertainment","tgt":""}
+{"f":"decks","id":"ko.d.tv-entertainment","k":"desc","src":"Dramas, variety shows, genres, episodes, binge-watching.","tgt":""}
+{"f":"decks","id":"ko.d.position-direction-words","k":"label","src":"Position & direction words","tgt":""}
+{"f":"decks","id":"ko.d.position-direction-words","k":"desc","src":"Above, beside, across, exits and floors — placing things and finding them.","tgt":""}
+{"f":"decks","id":"ko.d.core-verbs","k":"label","src":"Core verbs","tgt":""}
+{"f":"decks","id":"ko.d.core-verbs","k":"desc","src":"The 12 verbs you'll use every day, in polite form.","tgt":""}
+{"f":"decks","id":"ko.d.particles","k":"label","src":"Particles","tgt":""}
+{"f":"decks","id":"ko.d.particles","k":"desc","src":"The tags that mark topic, subject, object and place.","tgt":""}
+{"f":"decks","id":"ko.d.numbers","k":"label","src":"Numbers","tgt":""}
+{"f":"decks","id":"ko.d.numbers","k":"desc","src":"Native vs Sino-Korean numbers and when each is used.","tgt":""}
+{"f":"decks","id":"ko.d.sweet-talk","k":"label","src":"Sweet talk","tgt":""}
+{"f":"decks","id":"ko.d.sweet-talk","k":"desc","src":"Cute, pretty, miss you — for someone you're close to.","tgt":""}
+{"f":"decks","id":"ko.d.cute-things-to-say","k":"label","src":"Cute things to say","tgt":""}
+{"f":"decks","id":"ko.d.cute-things-to-say","k":"desc","src":"Compliments and caring lines that land.","tgt":""}
+{"f":"decks","id":"ko.d.flirting","k":"label","src":"Flirting","tgt":""}
+{"f":"decks","id":"ko.d.flirting","k":"desc","src":"Getting a number, asking out, saying how you feel.","tgt":""}
+{"f":"decks","id":"ko.d.casual-texting","k":"label","src":"Casual texting","tgt":""}
+{"f":"decks","id":"ko.d.casual-texting","k":"desc","src":"KakaoTalk shorthand and the lines friends actually send.","tgt":""}
+{"f":"decks","id":"ko.d.hype-cool","k":"label","src":"Hype & cool","tgt":""}
+{"f":"decks","id":"ko.d.hype-cool","k":"desc","src":"Compliments, encouragement and slang for friends.","tgt":""}
+{"f":"decks","id":"ko.d.hanging-out","k":"label","src":"Hanging out","tgt":""}
+{"f":"decks","id":"ko.d.hanging-out","k":"desc","src":"Inviting, planning where and when, wrapping up.","tgt":""}
+{"f":"decks","id":"ko.d.k-pop-fan-culture","k":"label","src":"K-pop & fan culture","tgt":""}
+{"f":"decks","id":"ko.d.k-pop-fan-culture","k":"desc","src":"Fandom vocabulary from 최애 to 떼창.","tgt":""}
+{"f":"decks","id":"ko.d.social-media-slang","k":"label","src":"Social media & slang","tgt":""}
+{"f":"decks","id":"ko.d.social-media-slang","k":"desc","src":"Instagram, memes, and the slang of the moment.","tgt":""}
+{"f":"decks","id":"ko.d.dating-deeper","k":"label","src":"Dating deeper","tgt":""}
+{"f":"decks","id":"ko.d.dating-deeper","k":"desc","src":"Defining the relationship, real compliments, apologizing, reassurance.","tgt":""}
+{"f":"decks","id":"ko.d.work-office","k":"label","src":"Work & office","tgt":""}
+{"f":"decks","id":"ko.d.work-office","k":"desc","src":"Meetings, deadlines, asking colleagues, leaving on time, 회식.","tgt":""}
+{"f":"decks","id":"ko.d.small-talk","k":"label","src":"Small talk","tgt":""}
+{"f":"decks","id":"ko.d.small-talk","k":"desc","src":"Catching up, weather, weekend plans, goodbyes done right.","tgt":""}
+{"f":"decks","id":"ko.d.food-ordering","k":"label","src":"Food & ordering","tgt":""}
+{"f":"decks","id":"ko.d.food-ordering","k":"desc","src":"Ordering, counters for food, the two meal phrases.","tgt":""}
+{"f":"decks","id":"ko.d.directions-transport","k":"label","src":"Directions & transport","tgt":""}
+{"f":"decks","id":"ko.d.directions-transport","k":"desc","src":"Left/right/straight, subway, bus, taxi lines.","tgt":""}
+{"f":"decks","id":"ko.d.time-days","k":"label","src":"Time & days","tgt":""}
+{"f":"decks","id":"ko.d.time-days","k":"desc","src":"Today/tomorrow, days of the week, what time is it.","tgt":""}
+{"f":"decks","id":"ko.d.family-people","k":"label","src":"Family & people","tgt":""}
+{"f":"decks","id":"ko.d.family-people","k":"desc","src":"Mom, dad, siblings, friends, teacher, and how age changes the word.","tgt":""}
+{"f":"decks","id":"ko.d.adjectives","k":"label","src":"Adjectives","tgt":""}
+{"f":"decks","id":"ko.d.adjectives","k":"desc","src":"Good, bad, big, small, hot, cold, busy, fun.","tgt":""}
+{"f":"decks","id":"ko.d.k-drama-phrases","k":"label","src":"K-drama phrases","tgt":""}
+{"f":"decks","id":"ko.d.k-drama-phrases","k":"desc","src":"Reactions and lines you'll hear in every episode.","tgt":""}
+{"f":"decks","id":"ko.d.top-nouns","k":"label","src":"Top nouns","tgt":""}
+{"f":"decks","id":"ko.d.top-nouns","k":"desc","src":"The most-used Korean nouns the course doesn't teach yet, most frequent first.","tgt":""}
+{"f":"decks","id":"ko.d.top-verbs","k":"label","src":"Top verbs","tgt":""}
+{"f":"decks","id":"ko.d.top-verbs","k":"desc","src":"Action verbs in dictionary form; the note gives the 해요 form and flags irregular verbs.","tgt":""}
+{"f":"decks","id":"ko.d.top-adjectives","k":"label","src":"Top adjectives","tgt":""}
+{"f":"decks","id":"ko.d.top-adjectives","k":"desc","src":"Descriptive verbs (Korean adjectives are verbs): the 해요 form and the form before a noun.","tgt":""}
+{"f":"decks","id":"ko.d.top-adverbs","k":"label","src":"Top adverbs","tgt":""}
+{"f":"decks","id":"ko.d.top-adverbs","k":"desc","src":"Time, degree, frequency and manner words: very, already, often, why, how.","tgt":""}
+{"f":"decks","id":"ko.d.top-pronouns","k":"label","src":"Top pronouns","tgt":""}
+{"f":"decks","id":"ko.d.top-pronouns","k":"desc","src":"I, you, this one, who, nobody, and why names and titles usually replace 'you'.","tgt":""}
+{"f":"decks","id":"ko.d.top-particles","k":"label","src":"Top particles","tgt":""}
+{"f":"decks","id":"ko.d.top-particles","k":"desc","src":"Korean's answer to prepositions: the particles beyond the nine in the Particles deck.","tgt":""}
+{"f":"decks","id":"ko.d.top-connectors","k":"label","src":"Top connectors","tgt":""}
+{"f":"decks","id":"ko.d.top-connectors","k":"desc","src":"Joining endings (-고, -지만, -아서, -(으)면 …) shown on a verb, plus linking words not in Connectors.","tgt":""}
+{"f":"decks","id":"ko.d.top-interjections","k":"label","src":"Top interjections","tgt":""}
+{"f":"decks","id":"ko.d.top-interjections","k":"desc","src":"What Koreans really exclaim: wow, ouch, oops, phew, ta-da, and who says each one.","tgt":""}
+{"f":"decks","id":"ko.d.top-words","k":"label","src":"Top words","tgt":""}
+{"f":"decks","id":"ko.d.top-words","k":"desc","src":"This / that / which before a noun, number forms, days and times, and ways to say yes and no.","tgt":""}
+{"f":"decks","id":"ko.d.top-counters","k":"label","src":"Top counters","tgt":""}
+{"f":"decks","id":"ko.d.top-counters","k":"desc","src":"Counters missing from the Counters deck: cars, portions, rolls, slices, minutes, months.","tgt":""}
+{"f":"decks","id":"ko.d.flirting-words","k":"label","src":"Flirting words","tgt":""}
+{"f":"decks","id":"ko.d.flirting-words","k":"desc","src":"The words Koreans flirt with, phrases built from them, and kind ways to say yes or no.","tgt":""}
+{"f":"decks","id":"ko.d.compliments","k":"label","src":"Compliments","tgt":""}
+{"f":"decks","id":"ko.d.compliments","k":"desc","src":"Everyday praise for food, work, homes and children, and the modest ways to answer it.","tgt":""}
+{"f":"decks","id":"ko.d.countries","k":"label","src":"Countries","tgt":""}
+{"f":"decks","id":"ko.d.countries","k":"desc","src":"Every country, most-asked first. Country + 에서 왔어요 = I'm from…; + 사람 = nationality; + 어 = language.","tgt":""}
+{"f":"cards","id":"ko.c0001","k":"meaning","src":"a as in father","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0001","k":"note","src":"Vertical stroke, tick to the right.","tgt":""}
+{"f":"cards","id":"ko.c0002","k":"meaning","src":"uh as in up","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0002","k":"note","src":"Tick to the left. Not 'oh'.","tgt":""}
+{"f":"cards","id":"ko.c0003","k":"meaning","src":"o as in go","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0003","k":"note","src":"Horizontal, tick up.","tgt":""}
+{"f":"cards","id":"ko.c0004","k":"meaning","src":"oo as in moon","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0004","k":"note","src":"Horizontal, tick down.","tgt":""}
+{"f":"cards","id":"ko.c0005","k":"meaning","src":"like the vowel in 'book' with lips flat","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"ko.c0005","k":"note","src":"No English match; smile and say 'oo'.","tgt":"","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0006","k":"meaning","src":"ee as in see","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0006","k":"note","src":"Single vertical stroke.","tgt":""}
+{"f":"cards","id":"ko.c0007","k":"meaning","src":"e as in bed (open; same sound as ㅔ today)","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0007","k":"note","src":"Modern Korean: sounds same as ㅔ.","tgt":""}
+{"f":"cards","id":"ko.c0008","k":"meaning","src":"e as in bed","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0008","k":"note","src":"Same sound as ㅐ in speech.","tgt":""}
+{"f":"cards","id":"ko.c0009","k":"meaning","src":"ya","tgt":""}
+{"f":"cards","id":"ko.c0009","k":"note","src":"ㅏ with an extra tick = y-glide.","tgt":""}
+{"f":"cards","id":"ko.c0010","k":"meaning","src":"yuh","tgt":""}
+{"f":"cards","id":"ko.c0010","k":"note","src":"ㅓ + y.","tgt":""}
+{"f":"cards","id":"ko.c0011","k":"meaning","src":"yo","tgt":""}
+{"f":"cards","id":"ko.c0011","k":"note","src":"ㅗ + y.","tgt":""}
+{"f":"cards","id":"ko.c0012","k":"meaning","src":"yoo","tgt":""}
+{"f":"cards","id":"ko.c0012","k":"note","src":"ㅜ + y.","tgt":""}
+{"f":"cards","id":"ko.c0013","k":"meaning","src":"g (soft) at start, k at syllable end","tgt":""}
+{"f":"cards","id":"ko.c0013","k":"note","src":"가 = ga, 악 = ak.","tgt":""}
+{"f":"cards","id":"ko.c0014","k":"meaning","src":"n","tgt":""}
+{"f":"cards","id":"ko.c0014","k":"note","src":"나 = na.","tgt":""}
+{"f":"cards","id":"ko.c0015","k":"meaning","src":"d at start, t at end","tgt":""}
+{"f":"cards","id":"ko.c0015","k":"note","src":"다 = da.","tgt":""}
+{"f":"cards","id":"ko.c0016","k":"meaning","src":"flap r between vowels, l at end","tgt":""}
+{"f":"cards","id":"ko.c0016","k":"note","src":"라 = ra, 물 = mul.","tgt":""}
+{"f":"cards","id":"ko.c0017","k":"meaning","src":"m","tgt":""}
+{"f":"cards","id":"ko.c0017","k":"note","src":"마 = ma.","tgt":""}
+{"f":"cards","id":"ko.c0018","k":"meaning","src":"b at start, p at end","tgt":""}
+{"f":"cards","id":"ko.c0018","k":"note","src":"바 = ba, 밥 = bap.","tgt":""}
+{"f":"cards","id":"ko.c0019","k":"meaning","src":"s; 'sh' before ㅣ","tgt":""}
+{"f":"cards","id":"ko.c0019","k":"note","src":"사 = sa, 시 = si (sounds like 'shee').","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0020","k":"meaning","src":"silent at start, ng at end","tgt":""}
+{"f":"cards","id":"ko.c0020","k":"note","src":"아 = a, 강 = gang.","tgt":""}
+{"f":"cards","id":"ko.c0021","k":"meaning","src":"j","tgt":""}
+{"f":"cards","id":"ko.c0021","k":"note","src":"자 = ja.","tgt":""}
+{"f":"cards","id":"ko.c0022","k":"meaning","src":"ch (aspirated ㅈ)","tgt":""}
+{"f":"cards","id":"ko.c0022","k":"note","src":"차 = cha.","tgt":""}
+{"f":"cards","id":"ko.c0023","k":"meaning","src":"k (aspirated ㄱ)","tgt":""}
+{"f":"cards","id":"ko.c0023","k":"note","src":"카 = ka.","tgt":""}
+{"f":"cards","id":"ko.c0024","k":"meaning","src":"t (aspirated ㄷ)","tgt":""}
+{"f":"cards","id":"ko.c0024","k":"note","src":"타 = ta.","tgt":""}
+{"f":"cards","id":"ko.c0025","k":"meaning","src":"p (aspirated ㅂ)","tgt":""}
+{"f":"cards","id":"ko.c0025","k":"note","src":"파 = pa.","tgt":""}
+{"f":"cards","id":"ko.c0026","k":"meaning","src":"h","tgt":""}
+{"f":"cards","id":"ko.c0026","k":"note","src":"하 = ha.","tgt":""}
+{"f":"cards","id":"ko.c0027","k":"meaning","src":"tense g/k","tgt":""}
+{"f":"cards","id":"ko.c0027","k":"note","src":"까 kka. Tight throat, no air. 꽃 = flower, 까만 = black.","tgt":""}
+{"f":"cards","id":"ko.c0028","k":"meaning","src":"tense d/t","tgt":""}
+{"f":"cards","id":"ko.c0028","k":"note","src":"따 tta. 딸 = daughter, 똑바로 = straight.","tgt":""}
+{"f":"cards","id":"ko.c0029","k":"meaning","src":"tense b/p","tgt":""}
+{"f":"cards","id":"ko.c0029","k":"note","src":"빠 ppa. 빨리 = quickly, 아빠 = dad.","tgt":""}
+{"f":"cards","id":"ko.c0030","k":"meaning","src":"tense s","tgt":""}
+{"f":"cards","id":"ko.c0030","k":"note","src":"싸 ssa. 쌀 = rice, 있어요 = there is.","tgt":""}
+{"f":"cards","id":"ko.c0031","k":"meaning","src":"tense j","tgt":""}
+{"f":"cards","id":"ko.c0031","k":"note","src":"짜 jja. 짜다 = salty, 진짜 = really.","tgt":""}
+{"f":"cards","id":"ko.c0032","k":"meaning","src":"wa","tgt":""}
+{"f":"cards","id":"ko.c0032","k":"note","src":"ㅗ + ㅏ. 과일 = fruit, 와요 = come.","tgt":""}
+{"f":"cards","id":"ko.c0033","k":"meaning","src":"wo","tgt":""}
+{"f":"cards","id":"ko.c0033","k":"note","src":"ㅜ + ㅓ. 원 = won, 뭐 = what.","tgt":""}
+{"f":"cards","id":"ko.c0034","k":"meaning","src":"we","tgt":""}
+{"f":"cards","id":"ko.c0034","k":"note","src":"ㅗ + ㅣ. 회사 = company, 외국 = foreign country.","tgt":""}
+{"f":"cards","id":"ko.c0035","k":"meaning","src":"wi","tgt":""}
+{"f":"cards","id":"ko.c0035","k":"note","src":"ㅜ + ㅣ. 귀 = ear, 위 = up / stomach.","tgt":""}
+{"f":"cards","id":"ko.c0036","k":"meaning","src":"we","tgt":""}
+{"f":"cards","id":"ko.c0036","k":"note","src":"Both sound like 'we'. 왜 = why, 웨딩 = wedding.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0037","k":"meaning","src":"ui / i / e","tgt":""}
+{"f":"cards","id":"ko.c0037","k":"note","src":"의사 = doctor (ui), 거의 = almost (i), 친구의 = friend's (e).","tgt":""}
+{"f":"cards","id":"ko.c0038","k":"meaning","src":"ye","tgt":""}
+{"f":"cards","id":"ko.c0038","k":"note","src":"Both 'ye'. 얘기 = talk/story, 예 = yes (formal).","tgt":""}
+{"f":"cards","id":"ko.c0039","k":"meaning","src":"all sound like t at the end","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0039","k":"note","src":"옷 ot, 있다 itda, 꽃 kkot, 끝 kkeut, 낮 nat.","tgt":""}
+{"f":"cards","id":"ko.c0040","k":"meaning","src":"k at the end","tgt":""}
+{"f":"cards","id":"ko.c0040","k":"note","src":"부엌 bueok (kitchen), 밖 bak (outside).","tgt":""}
+{"f":"cards","id":"ko.c0041","k":"meaning","src":"p at the end","tgt":""}
+{"f":"cards","id":"ko.c0041","k":"note","src":"앞 ap (front), 옆 yeop (side).","tgt":""}
+{"f":"cards","id":"ko.c0042","k":"meaning","src":"double finals","tgt":""}
+{"f":"cards","id":"ko.c0042","k":"note","src":"Only one sounds: 닭 dak (chicken), 값 gap (price), 읽다 ikda.","tgt":""}
+{"f":"cards","id":"ko.c0043","k":"meaning","src":"final consonant","tgt":""}
+{"f":"cards","id":"ko.c0043","k":"note","src":"Only 7 sounds survive at the end of a syllable: k, n, t, l, m, p, ng. 옷 sounds like 'ot', 꽃 like 'kkot'.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0044","k":"meaning","src":"soft s vs tense s","tgt":""}
+{"f":"cards","id":"ko.c0044","k":"note","src":"살 (sal, flesh) vs 쌀 (ssal, rice). Tense = tighter throat, no air puff.","tgt":""}
+{"f":"cards","id":"ko.c0045","k":"meaning","src":"g · kk · k (k-row: plain, tense, aspirated)","tgt":""}
+{"f":"cards","id":"ko.c0045","k":"note","src":"가 ga / 까 kka / 카 ka. Aspirated = big puff of air; tense = none, tight.","tgt":""}
+{"f":"cards","id":"ko.c0046","k":"meaning","src":"d · tt · t (t-row: plain, tense, aspirated)","tgt":""}
+{"f":"cards","id":"ko.c0046","k":"note","src":"달 dal (moon) / 딸 ttal (daughter) / 탈 tal (mask).","tgt":""}
+{"f":"cards","id":"ko.c0047","k":"meaning","src":"b · pp · p (p-row: plain, tense, aspirated)","tgt":""}
+{"f":"cards","id":"ko.c0047","k":"note","src":"불 bul (fire) / 뿔 ppul (horn) / 풀 pul (grass).","tgt":""}
+{"f":"cards","id":"ko.c0048","k":"meaning","src":"j · jj · ch (ch-row: plain, tense, aspirated)","tgt":""}
+{"f":"cards","id":"ko.c0048","k":"note","src":"자다 jada (sleep) / 짜다 jjada (salty) / 차다 chada (cold).","tgt":""}
+{"f":"cards","id":"ko.c0049","k":"meaning","src":"liaison (carry-over)","tgt":""}
+{"f":"cards","id":"ko.c0049","k":"note","src":"A final consonant jumps to the next vowel: 한국어 → 한구거 (han-gu-geo), 음악 → 으막 (eu-mak).","tgt":""}
+{"f":"cards","id":"ko.c0050","k":"meaning","src":"flap r, like Spanish 'pero'","tgt":""}
+{"f":"cards","id":"ko.c0050","k":"note","src":"머리 meori, 다리 dari. At the end: l sound, 물 mul.","tgt":""}
+{"f":"cards","id":"ko.c0051","k":"meaning","src":"double ㄹ = clear l","tgt":""}
+{"f":"cards","id":"ko.c0051","k":"note","src":"빨리 ppalli (fast), 몰라 molla.","tgt":""}
+{"f":"cards","id":"ko.c0052","k":"meaning","src":"ㅎ nearly silent between vowels","tgt":""}
+{"f":"cards","id":"ko.c0052","k":"note","src":"좋아요 → 조아요 (joayo). 많이 → 마니 (mani).","tgt":""}
+{"f":"cards","id":"ko.c0053","k":"meaning","src":"ng as in 'sing'","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0053","k":"note","src":"강 gang, 사랑 sarang. Never 'n-g' separated.","tgt":""}
+{"f":"cards","id":"ko.c0054","k":"meaning","src":"nasal assimilation","tgt":""}
+{"f":"cards","id":"ko.c0054","k":"note","src":"ㄱ/ㄷ/ㅂ before ㄴ/ㅁ turn nasal: 감사합니다 → 감사함니다, 국물 → 궁물.","tgt":""}
+{"f":"cards","id":"ko.c0055","k":"meaning","src":"three sounds for one vowel","tgt":""}
+{"f":"cards","id":"ko.c0055","k":"note","src":"의사 ui-sa (doctor) at the start; 거의 geo-i; possessive 의 → 에 (친구의 → 친구에).","tgt":""}
+{"f":"cards","id":"ko.c0056","k":"meaning","src":"same sound in modern Seoul","tgt":""}
+{"f":"cards","id":"ko.c0056","k":"note","src":"개 and 게 sound identical; context decides.","tgt":""}
+{"f":"cards","id":"ko.c0057","k":"meaning","src":"the two 'o's","tgt":""}
+{"f":"cards","id":"ko.c0057","k":"note","src":"ㅓ = jaw open, lips relaxed (uh). ㅗ = lips round (oh). 서울 vs 소울.","tgt":"","rw":"English-spelling sound hint in brackets"}
+{"f":"cards","id":"ko.c0058","k":"meaning","src":"lips flat, tongue back","tgt":""}
+{"f":"cards","id":"ko.c0058","k":"note","src":"No English match. Say 'oo' while smiling. 음, 그, 는.","tgt":"","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0059","k":"meaning","src":"questions rise, statements fall","tgt":""}
+{"f":"cards","id":"ko.c0059","k":"note","src":"가요↗ = are you going? 가요↘ = I'm going. Same word.","tgt":""}
+{"f":"cards","id":"ko.c0060","k":"meaning","src":"words are spaced, particles attach","tgt":""}
+{"f":"cards","id":"ko.c0060","k":"note","src":"저는 밥을 먹어요: 저는 / 밥을 / 먹어요. Particles never stand alone.","tgt":""}
+{"f":"cards","id":"ko.c0061","k":"meaning","src":"Hello","tgt":""}
+{"f":"cards","id":"ko.c0061","k":"note","src":"Polite default greeting, any time of day.","tgt":""}
+{"f":"cards","id":"ko.c0062","k":"meaning","src":"Thank you","tgt":""}
+{"f":"cards","id":"ko.c0062","k":"note","src":"Formal. Casual: 고마워 (gomawo).","tgt":""}
+{"f":"cards","id":"ko.c0063","k":"meaning","src":"I'm sorry","tgt":""}
+{"f":"cards","id":"ko.c0063","k":"note","src":"Formal apology. 미안해 (mianhae) = casual.","tgt":""}
+{"f":"cards","id":"ko.c0064","k":"meaning","src":"Yes / No","tgt":""}
+{"f":"cards","id":"ko.c0064","k":"note","src":"네 also works as 'okay' or 'uh-huh'.","tgt":""}
+{"f":"cards","id":"ko.c0065","k":"meaning","src":"How much is it?","tgt":""}
+{"f":"cards","id":"ko.c0065","k":"note","src":"Point at the item and ask.","tgt":""}
+{"f":"cards","id":"ko.c0066","k":"meaning","src":"Where is the bathroom?","tgt":""}
+{"f":"cards","id":"ko.c0066","k":"note","src":"어디예요 = where is.","tgt":""}
+{"f":"cards","id":"ko.c0067","k":"meaning","src":"This one, please","tgt":""}
+{"f":"cards","id":"ko.c0067","k":"note","src":"Ordering or shopping. 주세요 = please give.","tgt":""}
+{"f":"cards","id":"ko.c0068","k":"meaning","src":"(Said before eating)","tgt":""}
+{"f":"cards","id":"ko.c0068","k":"note","src":"Lit. 'I will eat well.' Thanks to the cook.","tgt":""}
+{"f":"cards","id":"ko.c0069","k":"meaning","src":"It's okay / I'm fine","tgt":""}
+{"f":"cards","id":"ko.c0069","k":"note","src":"Also used to politely refuse.","tgt":""}
+{"f":"cards","id":"ko.c0070","k":"meaning","src":"Please speak slowly","tgt":""}
+{"f":"cards","id":"ko.c0070","k":"note","src":"Lifesaver phrase.","tgt":""}
+{"f":"cards","id":"ko.c0071","k":"meaning","src":"I don't speak Korean well","tgt":""}
+{"f":"cards","id":"ko.c0071","k":"note","src":"Buys you patience.","tgt":""}
+{"f":"cards","id":"ko.c0072","k":"meaning","src":"Just a moment / excuse me","tgt":""}
+{"f":"cards","id":"ko.c0072","k":"note","src":"Squeezing past someone on the subway.","tgt":""}
+{"f":"cards","id":"ko.c0073","k":"meaning","src":"I'm ___","tgt":""}
+{"f":"cards","id":"ko.c0073","k":"note","src":"Look at the last Hangul block: 이에요 after a final consonant (저는 킴이에요), 예요 after a vowel (저는 리사예요).","tgt":""}
+{"f":"cards","id":"ko.c0074","k":"meaning","src":"What's your name?","tgt":""}
+{"f":"cards","id":"ko.c0074","k":"note","src":"Polite: 성함이 어떻게 되세요? for elders or formal settings.","tgt":""}
+{"f":"cards","id":"ko.c0075","k":"meaning","src":"Nice to meet you","tgt":""}
+{"f":"cards","id":"ko.c0075","k":"note","src":"Lit. 'glad because we met'. Formal: 반갑습니다.","tgt":""}
+{"f":"cards","id":"ko.c0076","k":"meaning","src":"Where are you from?","tgt":""}
+{"f":"cards","id":"ko.c0076","k":"note","src":"에서 = from. 어디 = where.","tgt":""}
+{"f":"cards","id":"ko.c0643","k":"meaning","src":"I'm from ___","tgt":""}
+{"f":"cards","id":"ko.c0643","k":"note","src":"Country + 에서 왔어요: 미국에서, 멕시코에서, 필리핀에서, 일본에서 왔어요. Every country is in the Countries deck.","tgt":""}
+{"f":"cards","id":"ko.c0078","k":"meaning","src":"How old are you?","tgt":""}
+{"f":"cards","id":"ko.c0078","k":"note","src":"Normal question in Korea; it decides how people speak to each other.","tgt":""}
+{"f":"cards","id":"ko.c0079","k":"meaning","src":"I'm 30","tgt":""}
+{"f":"cards","id":"ko.c0079","k":"note","src":"Native number + 살. 스물다섯 살 = 25.","tgt":""}
+{"f":"cards","id":"ko.c0080","k":"meaning","src":"What do you do?","tgt":""}
+{"f":"cards","id":"ko.c0080","k":"note","src":"일 = work. 직업이 뭐예요? also works.","tgt":""}
+{"f":"cards","id":"ko.c0081","k":"meaning","src":"I'm an office worker","tgt":""}
+{"f":"cards","id":"ko.c0081","k":"note","src":"학생 student, 선생님 teacher, 개발자 developer, 간호사 nurse.","tgt":""}
+{"f":"cards","id":"ko.c0082","k":"meaning","src":"I'm studying Korean","tgt":""}
+{"f":"cards","id":"ko.c0082","k":"note","src":"공부하다 = to study. Say this and people light up.","tgt":""}
+{"f":"cards","id":"ko.c0083","k":"meaning","src":"What's your hobby?","tgt":""}
+{"f":"cards","id":"ko.c0083","k":"note","src":"취미 = hobby. 제 취미는 운동이에요 = my hobby is working out.","tgt":""}
+{"f":"cards","id":"ko.c0084","k":"meaning","src":"Please take care of me","tgt":""}
+{"f":"cards","id":"ko.c0084","k":"note","src":"Said after introducing yourself at work or in a group. No English equivalent.","tgt":"","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0085","k":"meaning","src":"Excuse me (to get attention)","tgt":""}
+{"f":"cards","id":"ko.c0085","k":"note","src":"Call a waiter or stop a stranger. Not an apology.","tgt":""}
+{"f":"cards","id":"ko.c0086","k":"meaning","src":"Are you okay?","tgt":""}
+{"f":"cards","id":"ko.c0086","k":"note","src":"Same word as 'I'm fine' with rising tone.","tgt":""}
+{"f":"cards","id":"ko.c0087","k":"meaning","src":"Please help me","tgt":""}
+{"f":"cards","id":"ko.c0087","k":"note","src":"Emergency or just a heavy bag.","tgt":""}
+{"f":"cards","id":"ko.c0088","k":"meaning","src":"I don't know","tgt":""}
+{"f":"cards","id":"ko.c0088","k":"note","src":"모르다 → 몰라요.","tgt":"모르다 → 몰라요.","pre":1}
+{"f":"cards","id":"ko.c0089","k":"meaning","src":"I didn't understand","tgt":""}
+{"f":"cards","id":"ko.c0089","k":"note","src":"Say it, then 다시 말해 주세요.","tgt":""}
+{"f":"cards","id":"ko.c0090","k":"meaning","src":"Please say it again","tgt":""}
+{"f":"cards","id":"ko.c0090","k":"note","src":"다시 = again.","tgt":""}
+{"f":"cards","id":"ko.c0091","k":"meaning","src":"Can you speak English?","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"ko.c0091","k":"note","src":"할 수 있다 = can do.","tgt":""}
+{"f":"cards","id":"ko.c0644","k":"meaning","src":"Do you speak ___?","tgt":""}
+{"f":"cards","id":"ko.c0644","k":"note","src":"Language + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? Most languages are the country name + 어 (see the Countries deck); English is 영어.","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"ko.c0092","k":"meaning","src":"What is this?","tgt":""}
+{"f":"cards","id":"ko.c0092","k":"note","src":"Point and ask. Works for food, signs, everything.","tgt":""}
+{"f":"cards","id":"ko.c0093","k":"meaning","src":"I'm going to use the bathroom","tgt":""}
+{"f":"cards","id":"ko.c0093","k":"note","src":"좀 softens; 게요 announces.","tgt":""}
+{"f":"cards","id":"ko.c0094","k":"meaning","src":"Do you take cards?","tgt":""}
+{"f":"cards","id":"ko.c0094","k":"note","src":"돼요 = is it possible / does it work.","tgt":""}
+{"f":"cards","id":"ko.c0095","k":"meaning","src":"What's the wifi password?","tgt":""}
+{"f":"cards","id":"ko.c0095","k":"note","src":"비밀번호 = password.","tgt":""}
+{"f":"cards","id":"ko.c0096","k":"meaning","src":"Do you deliver?","tgt":""}
+{"f":"cards","id":"ko.c0096","k":"note","src":"배달 = delivery. Korea delivers everything.","tgt":""}
+{"f":"cards","id":"ko.c0097","k":"meaning","src":"I have a reservation","tgt":""}
+{"f":"cards","id":"ko.c0097","k":"note","src":"예약 = reservation. 예약 가능해요? = can I book?","tgt":""}
+{"f":"cards","id":"ko.c0098","k":"meaning","src":"I'm lost","tgt":""}
+{"f":"cards","id":"ko.c0098","k":"note","src":"길 = road/way. 잃다 = to lose.","tgt":""}
+{"f":"cards","id":"ko.c0099","k":"meaning","src":"Where is the hospital?","tgt":""}
+{"f":"cards","id":"ko.c0099","k":"note","src":"약국 (yakguk) = pharmacy. 경찰서 = police station.","tgt":""}
+{"f":"cards","id":"ko.c0100","k":"meaning","src":"Slowly, please","tgt":""}
+{"f":"cards","id":"ko.c0100","k":"note","src":"Shortest version of 천천히 말해 주세요.","tgt":""}
+{"f":"cards","id":"ko.c0101","k":"meaning","src":"Where is the bathroom?","tgt":""}
+{"f":"cards","id":"ko.c0101","k":"note","src":"Full form. Short: 화장실 어디예요? Both fine.","tgt":""}
+{"f":"cards","id":"ko.c0102","k":"meaning","src":"Is there a bathroom here?","tgt":""}
+{"f":"cards","id":"ko.c0102","k":"note","src":"Cafés and small shops often don't have one inside.","tgt":""}
+{"f":"cards","id":"ko.c0103","k":"meaning","src":"Can I use the bathroom?","tgt":""}
+{"f":"cards","id":"ko.c0103","k":"note","src":"아/어도 돼요 = is it okay if I…","tgt":""}
+{"f":"cards","id":"ko.c0104","k":"meaning","src":"What's the bathroom code?","tgt":""}
+{"f":"cards","id":"ko.c0104","k":"note","src":"Many café bathrooms have a keypad. It's printed on the receipt or ask staff.","tgt":""}
+{"f":"cards","id":"ko.c0105","k":"meaning","src":"Is there toilet paper?","tgt":""}
+{"f":"cards","id":"ko.c0105","k":"note","src":"휴지 = tissue/toilet paper. Carry some anyway.","tgt":""}
+{"f":"cards","id":"ko.c0106","k":"meaning","src":"Where's a convenience store?","tgt":""}
+{"f":"cards","id":"ko.c0106","k":"note","src":"GS25, CU, 세븐일레븐. There's always one.","tgt":""}
+{"f":"cards","id":"ko.c0107","k":"meaning","src":"Where's the nearest station?","tgt":""}
+{"f":"cards","id":"ko.c0107","k":"note","src":"제일 가까운 = the nearest.","tgt":""}
+{"f":"cards","id":"ko.c0108","k":"meaning","src":"Where's the exit?","tgt":""}
+{"f":"cards","id":"ko.c0108","k":"note","src":"입구 = entrance. 출구 = exit.","tgt":""}
+{"f":"cards","id":"ko.c0109","k":"meaning","src":"Which exit number?","tgt":""}
+{"f":"cards","id":"ko.c0109","k":"note","src":"Subway exits are numbered. 3번 출구 = exit 3.","tgt":""}
+{"f":"cards","id":"ko.c0110","k":"meaning","src":"Where is this? / Where am I?","tgt":""}
+{"f":"cards","id":"ko.c0110","k":"note","src":"Show your map and ask.","tgt":""}
+{"f":"cards","id":"ko.c0111","k":"meaning","src":"Where do I buy this?","tgt":""}
+{"f":"cards","id":"ko.c0111","k":"note","src":"사다 = to buy. 팔아요? = do you sell it?","tgt":""}
+{"f":"cards","id":"ko.c0112","k":"meaning","src":"Where's the checkout?","tgt":""}
+{"f":"cards","id":"ko.c0112","k":"note","src":"계산 = payment. 계산대 = counter.","tgt":""}
+{"f":"cards","id":"ko.c0113","k":"meaning","src":"Is there a seat / a table?","tgt":""}
+{"f":"cards","id":"ko.c0113","k":"note","src":"Walking into a restaurant or café.","tgt":""}
+{"f":"cards","id":"ko.c0114","k":"meaning","src":"Two people","tgt":""}
+{"f":"cards","id":"ko.c0114","k":"note","src":"Answer to 몇 명이세요? (how many?). 한 명이요 = one. 세 명이요 = three.","tgt":""}
+{"f":"cards","id":"ko.c0115","k":"meaning","src":"Can I sit here?","tgt":""}
+{"f":"cards","id":"ko.c0115","k":"note","src":"앉다 = to sit.","tgt":""}
+{"f":"cards","id":"ko.c0116","k":"meaning","src":"Do you have a charger?","tgt":""}
+{"f":"cards","id":"ko.c0116","k":"note","src":"Cafés often lend them. 콘센트 = outlet.","tgt":""}
+{"f":"cards","id":"ko.c0117","k":"meaning","src":"Where's an outlet?","tgt":""}
+{"f":"cards","id":"ko.c0117","k":"note","src":"콘센트 from 'concentric plug'.","tgt":""}
+{"f":"cards","id":"ko.c0118","k":"meaning","src":"Is there wifi?","tgt":""}
+{"f":"cards","id":"ko.c0118","k":"note","src":"Follow with 비밀번호가 뭐예요?","tgt":""}
+{"f":"cards","id":"ko.c0119","k":"meaning","src":"What time do you close?","tgt":""}
+{"f":"cards","id":"ko.c0119","k":"note","src":"닫다 = close. 열어요 = open.","tgt":""}
+{"f":"cards","id":"ko.c0120","k":"meaning","src":"What time do you open?","tgt":""}
+{"f":"cards","id":"ko.c0120","k":"note","src":"열다 = open.","tgt":""}
+{"f":"cards","id":"ko.c0121","k":"meaning","src":"How long do I have to wait?","tgt":""}
+{"f":"cards","id":"ko.c0121","k":"note","src":"기다리다 = wait. 아/어야 돼요 = have to.","tgt":""}
+{"f":"cards","id":"ko.c0122","k":"meaning","src":"Could you take a photo for us?","tgt":""}
+{"f":"cards","id":"ko.c0122","k":"note","src":"Extra polite with 주실래요. Hand over the phone after.","tgt":""}
+{"f":"cards","id":"ko.c0123","k":"meaning","src":"Receipt, please","tgt":""}
+{"f":"cards","id":"ko.c0123","k":"note","src":"영수증 필요하세요? = do you need a receipt? (they'll ask).","tgt":""}
+{"f":"cards","id":"ko.c0124","k":"meaning","src":"A bag, please","tgt":""}
+{"f":"cards","id":"ko.c0124","k":"note","src":"Bags cost ~100원. 봉투 필요하세요? = need a bag?","tgt":""}
+{"f":"cards","id":"ko.c0125","k":"meaning","src":"Is there a discount?","tgt":""}
+{"f":"cards","id":"ko.c0125","k":"note","src":"할인 = discount. 세일 = sale.","tgt":""}
+{"f":"cards","id":"ko.c0126","k":"meaning","src":"Can I exchange this?","tgt":""}
+{"f":"cards","id":"ko.c0126","k":"note","src":"교환 = exchange. 환불 = refund.","tgt":""}
+{"f":"cards","id":"ko.c0127","k":"meaning","src":"One iced Americano, please","tgt":""}
+{"f":"cards","id":"ko.c0127","k":"note","src":"아아 (a-a) = iced Americano slang. 뜨아 = hot Americano.","tgt":""}
+{"f":"cards","id":"ko.c0128","k":"meaning","src":"Hot one, please","tgt":""}
+{"f":"cards","id":"ko.c0128","k":"note","src":"따뜻한 = warm/hot. 차가운 거 = cold one.","tgt":""}
+{"f":"cards","id":"ko.c0129","k":"meaning","src":"What sizes do you have?","tgt":""}
+{"f":"cards","id":"ko.c0129","k":"note","src":"Most cafés: 톨 / 그란데 / 벤티 or 레귤러 / 라지.","tgt":""}
+{"f":"cards","id":"ko.c0130","k":"meaning","src":"The large one, please","tgt":""}
+{"f":"cards","id":"ko.c0130","k":"note","src":"큰 = big. 작은 거 = the small one.","tgt":""}
+{"f":"cards","id":"ko.c0131","k":"meaning","src":"Less sweet, please","tgt":""}
+{"f":"cards","id":"ko.c0131","k":"note","src":"덜 = less. 안 달게 = not sweet.","tgt":""}
+{"f":"cards","id":"ko.c0132","k":"meaning","src":"No syrup, please","tgt":""}
+{"f":"cards","id":"ko.c0132","k":"note","src":"빼다 = take out. 얼음 빼 주세요 = no ice.","tgt":""}
+{"f":"cards","id":"ko.c0133","k":"meaning","src":"For here? (they ask)","tgt":""}
+{"f":"cards","id":"ko.c0133","k":"note","src":"Answer: 네, 먹고 갈게요 (for here) / 포장이요 (to go).","tgt":""}
+{"f":"cards","id":"ko.c0134","k":"meaning","src":"To go","tgt":""}
+{"f":"cards","id":"ko.c0134","k":"note","src":"Short answer. 테이크아웃 also understood.","tgt":""}
+{"f":"cards","id":"ko.c0135","k":"meaning","src":"(Give me) the buzzer","tgt":""}
+{"f":"cards","id":"ko.c0135","k":"note","src":"They hand you a pager; it buzzes when your order is ready.","tgt":""}
+{"f":"cards","id":"ko.c0136","k":"meaning","src":"Do you have a points card? (they ask)","tgt":""}
+{"f":"cards","id":"ko.c0136","k":"note","src":"Answer: 아니요, 괜찮아요 = no thanks.","tgt":""}
+{"f":"cards","id":"ko.c0137","k":"meaning","src":"I don't have a membership","tgt":""}
+{"f":"cards","id":"ko.c0137","k":"note","src":"Convenience store cashiers ask this constantly.","tgt":""}
+{"f":"cards","id":"ko.c0138","k":"meaning","src":"Please heat it up","tgt":""}
+{"f":"cards","id":"ko.c0138","k":"note","src":"Convenience store 도시락 and 삼각김밥. 데우다 = to heat.","tgt":""}
+{"f":"cards","id":"ko.c0139","k":"meaning","src":"Where's the microwave?","tgt":""}
+{"f":"cards","id":"ko.c0139","k":"note","src":"Self-serve heating area, usually by the window seats.","tgt":""}
+{"f":"cards","id":"ko.c0140","k":"meaning","src":"Is there hot water?","tgt":""}
+{"f":"cards","id":"ko.c0140","k":"note","src":"For 컵라면 (cup noodles). It's free at every 편의점.","tgt":""}
+{"f":"cards","id":"ko.c0141","k":"meaning","src":"Do you need a bag? (they ask)","tgt":""}
+{"f":"cards","id":"ko.c0141","k":"note","src":"Answer: 네 / 아니요. Bags cost ~100원.","tgt":""}
+{"f":"cards","id":"ko.c0642","k":"meaning","src":"Is this buy one get one?","tgt":""}
+{"f":"cards","id":"ko.c0642","k":"note","src":"Korea's 1+1 / 2+1 stickers. Say 원 플러스 원.","tgt":""}
+{"f":"cards","id":"ko.c0143","k":"meaning","src":"Please bag these separately","tgt":""}
+{"f":"cards","id":"ko.c0143","k":"note","src":"따로 = separately. 담다 = put in.","tgt":""}
+{"f":"cards","id":"ko.c0144","k":"meaning","src":"I'll pay by card","tgt":""}
+{"f":"cards","id":"ko.c0144","k":"note","src":"현금으로 = by cash. Tap, no signature needed.","tgt":""}
+{"f":"cards","id":"ko.c0145","k":"meaning","src":"4,500 won","tgt":""}
+{"f":"cards","id":"ko.c0145","k":"note","src":"Sino-Korean: 사천오백. 원 = won.","tgt":""}
+{"f":"cards","id":"ko.c0146","k":"meaning","src":"12,000 won","tgt":""}
+{"f":"cards","id":"ko.c0146","k":"note","src":"만 이천 → 만이천. Big numbers group by 만 (10,000).","tgt":""}
+{"f":"cards","id":"ko.c0147","k":"meaning","src":"38,900 won","tgt":""}
+{"f":"cards","id":"ko.c0147","k":"note","src":"삼만 팔천 구백. Say it slowly; cashiers show the screen anyway.","tgt":""}
+{"f":"cards","id":"ko.c0148","k":"meaning","src":"Phone number","tgt":""}
+{"f":"cards","id":"ko.c0148","k":"note","src":"Phone digits are Sino, and 0 is 공 (gong), not 영.","tgt":""}
+{"f":"cards","id":"ko.c0149","k":"meaning","src":"3rd floor","tgt":""}
+{"f":"cards","id":"ko.c0149","k":"note","src":"층 = floor, Sino number. 지하 1층 (B1) = jiha ilcheung.","tgt":""}
+{"f":"cards","id":"ko.c0150","k":"meaning","src":"2 PM","tgt":""}
+{"f":"cards","id":"ko.c0150","k":"note","src":"Hours are native: 두 시. 오후 = PM, 오전 = AM.","tgt":""}
+{"f":"cards","id":"ko.c0151","k":"meaning","src":"9:30 AM","tgt":""}
+{"f":"cards","id":"ko.c0151","k":"note","src":"Native hour (아홉), Sino minutes (삼십).","tgt":""}
+{"f":"cards","id":"ko.c0152","k":"meaning","src":"Just 5 minutes","tgt":""}
+{"f":"cards","id":"ko.c0152","k":"note","src":"분 = minute (Sino). 만 = only.","tgt":""}
+{"f":"cards","id":"ko.c0153","k":"meaning","src":"Line 2","tgt":""}
+{"f":"cards","id":"ko.c0153","k":"note","src":"Subway lines: 호선 with Sino numbers. 9호선 = guhoseon.","tgt":""}
+{"f":"cards","id":"ko.c0154","k":"meaning","src":"Exit 4","tgt":""}
+{"f":"cards","id":"ko.c0154","k":"note","src":"번 = number. 몇 번 출구? = which exit?","tgt":""}
+{"f":"cards","id":"ko.c0155","k":"meaning","src":"2 people","tgt":""}
+{"f":"cards","id":"ko.c0155","k":"note","src":"명 = person counter, native: 한 명, 두 명, 세 명, 네 명.","tgt":""}
+{"f":"cards","id":"ko.c0156","k":"meaning","src":"3 bottles of beer","tgt":""}
+{"f":"cards","id":"ko.c0156","k":"note","src":"병 = bottle, native number. 잔 = glass.","tgt":""}
+{"f":"cards","id":"ko.c0157","k":"meaning","src":"3 (things)","tgt":""}
+{"f":"cards","id":"ko.c0157","k":"note","src":"개 = generic counter. 한 개, 두 개, 세 개, 네 개.","tgt":""}
+{"f":"cards","id":"ko.c0158","k":"meaning","src":"25 years old","tgt":""}
+{"f":"cards","id":"ko.c0158","k":"note","src":"Native. 서른 살 = 30.","tgt":""}
+{"f":"cards","id":"ko.c0159","k":"meaning","src":"November 13","tgt":""}
+{"f":"cards","id":"ko.c0159","k":"note","src":"Months and days are Sino: 십일월 십삼일.","tgt":""}
+{"f":"cards","id":"ko.c0160","k":"meaning","src":"2026","tgt":"2026","pre":1}
+{"f":"cards","id":"ko.c0160","k":"note","src":"년 = year. 이천이십육년.","tgt":""}
+{"f":"cards","id":"ko.c0161","k":"meaning","src":"50 percent","tgt":""}
+{"f":"cards","id":"ko.c0161","k":"note","src":"퍼센트 from English. 반값 = half price.","tgt":"","rw":"English loanword explanation"}
+{"f":"cards","id":"ko.c0162","k":"meaning","src":"It takes 30 minutes","tgt":""}
+{"f":"cards","id":"ko.c0162","k":"note","src":"걸리다 = to take (time).","tgt":""}
+{"f":"cards","id":"ko.c0163","k":"meaning","src":"one (thing)","tgt":""}
+{"f":"cards","id":"ko.c0163","k":"note","src":"개 = general things. 사과 한 개 = one apple.","tgt":""}
+{"f":"cards","id":"ko.c0164","k":"meaning","src":"two people","tgt":""}
+{"f":"cards","id":"ko.c0164","k":"note","src":"명 = people. 분 is the polite version: 두 분.","tgt":""}
+{"f":"cards","id":"ko.c0165","k":"meaning","src":"three cups / glasses","tgt":""}
+{"f":"cards","id":"ko.c0165","k":"note","src":"잔 = drinks in cups or glasses.","tgt":""}
+{"f":"cards","id":"ko.c0166","k":"meaning","src":"four bottles","tgt":""}
+{"f":"cards","id":"ko.c0166","k":"note","src":"병 = bottles. 소주 네 병 = four bottles of soju.","tgt":""}
+{"f":"cards","id":"ko.c0167","k":"meaning","src":"five animals","tgt":""}
+{"f":"cards","id":"ko.c0167","k":"note","src":"마리 = animals. 고양이 다섯 마리 = five cats.","tgt":""}
+{"f":"cards","id":"ko.c0168","k":"meaning","src":"six books","tgt":""}
+{"f":"cards","id":"ko.c0168","k":"note","src":"권 = books, notebooks.","tgt":""}
+{"f":"cards","id":"ko.c0169","k":"meaning","src":"seven sheets / tickets","tgt":""}
+{"f":"cards","id":"ko.c0169","k":"note","src":"장 = flat things: paper, tickets, photos.","tgt":""}
+{"f":"cards","id":"ko.c0170","k":"meaning","src":"eight years old","tgt":""}
+{"f":"cards","id":"ko.c0170","k":"note","src":"살 = age. 스물여덟 살 = 28.","tgt":""}
+{"f":"cards","id":"ko.c0171","k":"meaning","src":"two hours","tgt":""}
+{"f":"cards","id":"ko.c0171","k":"note","src":"시간 = hours of duration. 두 시 = 2 o'clock.","tgt":""}
+{"f":"cards","id":"ko.c0172","k":"meaning","src":"three times","tgt":""}
+{"f":"cards","id":"ko.c0172","k":"note","src":"번 = times (occurrences). Also 'number' for exits/buses.","tgt":""}
+{"f":"cards","id":"ko.c0173","k":"meaning","src":"one month","tgt":""}
+{"f":"cards","id":"ko.c0173","k":"note","src":"달 = months (native). 일 개월 = one month (Sino, formal).","tgt":""}
+{"f":"cards","id":"ko.c0174","k":"meaning","src":"two days","tgt":""}
+{"f":"cards","id":"ko.c0174","k":"note","src":"Special: 하루 (1 day), 이틀 (2), 사흘 (3). 일주일 = one week.","tgt":""}
+{"f":"cards","id":"ko.c0175","k":"meaning","src":"How many would you like?","tgt":""}
+{"f":"cards","id":"ko.c0175","k":"note","src":"몇 + counter = how many. Answer: 두 개요.","tgt":""}
+{"f":"cards","id":"ko.c0176","k":"meaning","src":"one bowl","tgt":""}
+{"f":"cards","id":"ko.c0176","k":"note","src":"그릇 = bowls (rice, soup). 국밥 한 그릇 주세요.","tgt":""}
+{"f":"cards","id":"ko.c0177","k":"meaning","src":"one bag (of)","tgt":""}
+{"f":"cards","id":"ko.c0177","k":"note","src":"봉지 = bag/packet of snacks or chips.","tgt":""}
+{"f":"cards","id":"ko.c0178","k":"meaning","src":"two pairs (shoes, socks)","tgt":""}
+{"f":"cards","id":"ko.c0178","k":"note","src":"켤레 = pairs of footwear.","tgt":""}
+{"f":"cards","id":"ko.c0179","k":"meaning","src":"How's the weather?","tgt":""}
+{"f":"cards","id":"ko.c0179","k":"note","src":"날씨 = weather. 어때요 = how is it.","tgt":""}
+{"f":"cards","id":"ko.c0180","k":"meaning","src":"It's so hot","tgt":""}
+{"f":"cards","id":"ko.c0180","k":"note","src":"Summer in Seoul: 덥고 습해요 = hot and humid.","tgt":""}
+{"f":"cards","id":"ko.c0181","k":"meaning","src":"The weather is cold","tgt":""}
+{"f":"cards","id":"ko.c0181","k":"note","src":"겨울 = winter. 너무 추워요 = so cold.","tgt":""}
+{"f":"cards","id":"ko.c0182","k":"meaning","src":"It's raining","tgt":""}
+{"f":"cards","id":"ko.c0182","k":"note","src":"비 = rain. 우산 있어요? = do you have an umbrella?","tgt":""}
+{"f":"cards","id":"ko.c0183","k":"meaning","src":"It's snowing","tgt":""}
+{"f":"cards","id":"ko.c0183","k":"note","src":"눈 = snow (also eye). 첫눈 = first snow, a date thing in Korea.","tgt":""}
+{"f":"cards","id":"ko.c0184","k":"meaning","src":"It's windy","tgt":""}
+{"f":"cards","id":"ko.c0184","k":"note","src":"바람 = wind. 불다 = to blow.","tgt":""}
+{"f":"cards","id":"ko.c0185","k":"meaning","src":"The fine dust is bad","tgt":""}
+{"f":"cards","id":"ko.c0185","k":"note","src":"Check the 미세먼지 level daily; people mask up when it's 나쁨.","tgt":""}
+{"f":"cards","id":"ko.c0186","k":"meaning","src":"I feel good","tgt":""}
+{"f":"cards","id":"ko.c0186","k":"note","src":"기분 = mood. 기분이 안 좋아요 = I feel bad.","tgt":""}
+{"f":"cards","id":"ko.c0187","k":"meaning","src":"I'm happy","tgt":""}
+{"f":"cards","id":"ko.c0187","k":"note","src":"행복 = happiness.","tgt":""}
+{"f":"cards","id":"ko.c0188","k":"meaning","src":"I'm sad","tgt":""}
+{"f":"cards","id":"ko.c0188","k":"note","src":"슬프다 → 슬퍼요.","tgt":"슬프다 → 슬퍼요.","pre":1}
+{"f":"cards","id":"ko.c0189","k":"meaning","src":"I'm tired","tgt":""}
+{"f":"cards","id":"ko.c0189","k":"note","src":"Most-used feeling word in Korea.","tgt":""}
+{"f":"cards","id":"ko.c0190","k":"meaning","src":"I'm nervous","tgt":""}
+{"f":"cards","id":"ko.c0190","k":"note","src":"긴장 = tension. Before a test or a date.","tgt":""}
+{"f":"cards","id":"ko.c0191","k":"meaning","src":"I'm bored","tgt":""}
+{"f":"cards","id":"ko.c0191","k":"note","src":"심심하다. 놀자! fixes it.","tgt":""}
+{"f":"cards","id":"ko.c0192","k":"meaning","src":"I'm angry","tgt":""}
+{"f":"cards","id":"ko.c0192","k":"note","src":"화 = anger. 화내지 마 = don't be mad.","tgt":""}
+{"f":"cards","id":"ko.c0193","k":"meaning","src":"I was surprised","tgt":""}
+{"f":"cards","id":"ko.c0193","k":"note","src":"놀라다. 깜짝 놀랐어요 = you startled me.","tgt":""}
+{"f":"cards","id":"ko.c0194","k":"meaning","src":"I miss you","tgt":""}
+{"f":"cards","id":"ko.c0194","k":"note","src":"Polite version. Casual 보고 싶어 is in Sweet talk.","tgt":""}
+{"f":"cards","id":"ko.c0195","k":"meaning","src":"My heart flutters","tgt":""}
+{"f":"cards","id":"ko.c0195","k":"note","src":"설레다 = the butterflies feeling. Very K-drama.","tgt":""}
+{"f":"cards","id":"ko.c0196","k":"meaning","src":"I'm annoyed","tgt":""}
+{"f":"cards","id":"ko.c0196","k":"note","src":"짜증 = irritation. 짜증 나! casual.","tgt":""}
+{"f":"cards","id":"ko.c0197","k":"meaning","src":"and (then)","tgt":""}
+{"f":"cards","id":"ko.c0197","k":"note","src":"Joins sentences. 밥 먹었어요. 그리고 커피 마셨어요.","tgt":""}
+{"f":"cards","id":"ko.c0198","k":"meaning","src":"so / therefore","tgt":""}
+{"f":"cards","id":"ko.c0198","k":"note","src":"비가 왔어요. 그래서 집에 있었어요.","tgt":"비가 왔어요. 그래서 집에 있었어요.","pre":1}
+{"f":"cards","id":"ko.c0199","k":"meaning","src":"but / by the way","tgt":""}
+{"f":"cards","id":"ko.c0199","k":"note","src":"Soft contrast or topic shift. Casual: 근데.","tgt":""}
+{"f":"cards","id":"ko.c0200","k":"meaning","src":"but / however","tgt":""}
+{"f":"cards","id":"ko.c0200","k":"note","src":"Stronger contrast than 그런데.","tgt":""}
+{"f":"cards","id":"ko.c0201","k":"meaning","src":"after that","tgt":""}
+{"f":"cards","id":"ko.c0201","k":"note","src":"그다음에 영화 봤어요.","tgt":"그다음에 영화 봤어요.","pre":1}
+{"f":"cards","id":"ko.c0202","k":"meaning","src":"first","tgt":""}
+{"f":"cards","id":"ko.c0202","k":"note","src":"먼저 손 씻어요 = wash hands first.","tgt":""}
+{"f":"cards","id":"ko.c0203","k":"meaning","src":"lastly","tgt":""}
+{"f":"cards","id":"ko.c0203","k":"note","src":"Closes a sequence.","tgt":""}
+{"f":"cards","id":"ko.c0204","k":"meaning","src":"because","tgt":""}
+{"f":"cards","id":"ko.c0204","k":"note","src":"왜냐하면 … 거든요 / 기 때문이에요.","tgt":"왜냐하면 … 거든요 / 기 때문이에요.","pre":1}
+{"f":"cards","id":"ko.c0205","k":"meaning","src":"or","tgt":""}
+{"f":"cards","id":"ko.c0205","k":"note","src":"커피 아니면 차? = coffee or tea?","tgt":""}
+{"f":"cards","id":"ko.c0206","k":"meaning","src":"then / in that case","tgt":""}
+{"f":"cards","id":"ko.c0206","k":"note","src":"그럼 내일 봐요 = then see you tomorrow.","tgt":""}
+{"f":"cards","id":"ko.c0207","k":"meaning","src":"actually","tgt":""}
+{"f":"cards","id":"ko.c0207","k":"note","src":"사실 저 한국어 못해요.","tgt":"사실 저 한국어 못해요.","pre":1}
+{"f":"cards","id":"ko.c0208","k":"meaning","src":"anyway","tgt":""}
+{"f":"cards","id":"ko.c0208","k":"note","src":"Changes the subject back.","tgt":""}
+{"f":"cards","id":"ko.c0209","k":"meaning","src":"for example","tgt":""}
+{"f":"cards","id":"ko.c0209","k":"note","src":"Formal: 예를 들어.","tgt":""}
+{"f":"cards","id":"ko.c0210","k":"meaning","src":"even so / still","tgt":""}
+{"f":"cards","id":"ko.c0210","k":"note","src":"피곤해요. 그래도 갈게요.","tgt":"피곤해요. 그래도 갈게요.","pre":1}
+{"f":"cards","id":"ko.c0211","k":"meaning","src":"Where is a pharmacy?","tgt":""}
+{"f":"cards","id":"ko.c0211","k":"note","src":"Green cross sign. Many open late; 편의점 sells basics.","tgt":""}
+{"f":"cards","id":"ko.c0212","k":"meaning","src":"I have a headache","tgt":""}
+{"f":"cards","id":"ko.c0212","k":"note","src":"아프다 = to hurt. 배가 아파요 = stomachache.","tgt":""}
+{"f":"cards","id":"ko.c0213","k":"meaning","src":"I have a fever","tgt":""}
+{"f":"cards","id":"ko.c0213","k":"note","src":"열 = fever. 열 나요 also works.","tgt":""}
+{"f":"cards","id":"ko.c0214","k":"meaning","src":"I have a cough","tgt":""}
+{"f":"cards","id":"ko.c0214","k":"note","src":"콧물이 나요 = runny nose.","tgt":""}
+{"f":"cards","id":"ko.c0215","k":"meaning","src":"My throat hurts","tgt":""}
+{"f":"cards","id":"ko.c0215","k":"note","src":"목 = neck / throat.","tgt":""}
+{"f":"cards","id":"ko.c0216","k":"meaning","src":"I caught a cold","tgt":""}
+{"f":"cards","id":"ko.c0216","k":"note","src":"감기약 주세요 = cold medicine, please.","tgt":""}
+{"f":"cards","id":"ko.c0217","k":"meaning","src":"Do you have painkillers?","tgt":""}
+{"f":"cards","id":"ko.c0217","k":"note","src":"타이레놀 is understood everywhere.","tgt":""}
+{"f":"cards","id":"ko.c0218","k":"meaning","src":"I have an allergy","tgt":""}
+{"f":"cards","id":"ko.c0218","k":"note","src":"땅콩 알레르기 = peanut allergy. Say it before ordering too.","tgt":""}
+{"f":"cards","id":"ko.c0219","k":"meaning","src":"I have a prescription","tgt":""}
+{"f":"cards","id":"ko.c0219","k":"note","src":"Pharmacies next to clinics fill them in minutes.","tgt":""}
+{"f":"cards","id":"ko.c0220","k":"meaning","src":"How many times a day do I take it?","tgt":""}
+{"f":"cards","id":"ko.c0220","k":"note","src":"식후 30분 = 30 min after meals, the usual answer.","tgt":""}
+{"f":"cards","id":"ko.c0221","k":"meaning","src":"I need to go to the hospital","tgt":""}
+{"f":"cards","id":"ko.c0221","k":"note","src":"아/어야 돼요 = have to. 응급실 = ER.","tgt":""}
+{"f":"cards","id":"ko.c0222","k":"meaning","src":"I have insurance","tgt":""}
+{"f":"cards","id":"ko.c0222","k":"note","src":"여행자 보험 = travel insurance. 영수증 for claims.","tgt":""}
+{"f":"cards","id":"ko.c0223","k":"meaning","src":"It hurts here","tgt":""}
+{"f":"cards","id":"ko.c0223","k":"note","src":"Point. 많이 아파요 = it hurts a lot.","tgt":""}
+{"f":"cards","id":"ko.c0224","k":"meaning","src":"It will get better","tgt":""}
+{"f":"cards","id":"ko.c0224","k":"note","src":"Said by doctors and friends alike.","tgt":""}
+{"f":"cards","id":"ko.c0225","k":"meaning","src":"A mask, please","tgt":""}
+{"f":"cards","id":"ko.c0225","k":"note","src":"Sold at every 편의점 and 약국.","tgt":""}
+{"f":"cards","id":"ko.c0226","k":"meaning","src":"Digestive medicine, please","tgt":""}
+{"f":"cards","id":"ko.c0226","k":"note","src":"After too much 삼겹살. 까스활명수 is the classic.","tgt":""}
+{"f":"cards","id":"ko.c0227","k":"meaning","src":"studio apartment","tgt":""}
+{"f":"cards","id":"ko.c0227","k":"note","src":"One-room. 투룸 = two rooms. 오피스텔 = officetel.","tgt":""}
+{"f":"cards","id":"ko.c0228","k":"meaning","src":"security deposit","tgt":""}
+{"f":"cards","id":"ko.c0228","k":"note","src":"Can be huge in Korea. 전세 = deposit-only lease.","tgt":""}
+{"f":"cards","id":"ko.c0229","k":"meaning","src":"monthly rent","tgt":""}
+{"f":"cards","id":"ko.c0229","k":"note","src":"월세 얼마예요? = how much is rent?","tgt":""}
+{"f":"cards","id":"ko.c0230","k":"meaning","src":"Is the maintenance fee included?","tgt":""}
+{"f":"cards","id":"ko.c0230","k":"note","src":"관리비 = building fees. 포함 = included.","tgt":""}
+{"f":"cards","id":"ko.c0231","k":"meaning","src":"A package came","tgt":""}
+{"f":"cards","id":"ko.c0231","k":"note","src":"택배 = parcel delivery. 문 앞에 놔 주세요 = leave it at the door.","tgt":""}
+{"f":"cards","id":"ko.c0232","k":"meaning","src":"recycling separation","tgt":""}
+{"f":"cards","id":"ko.c0232","k":"note","src":"Strict: 플라스틱 / 종이 / 캔 / 음식물. Fines exist.","tgt":""}
+{"f":"cards","id":"ko.c0233","k":"meaning","src":"food waste","tgt":""}
+{"f":"cards","id":"ko.c0233","k":"note","src":"Needs its own bag or card-based bin.","tgt":""}
+{"f":"cards","id":"ko.c0234","k":"meaning","src":"official trash bag","tgt":""}
+{"f":"cards","id":"ko.c0234","k":"note","src":"Buy at 편의점; must use it for general trash.","tgt":""}
+{"f":"cards","id":"ko.c0235","k":"meaning","src":"Where's a laundry / dry cleaner?","tgt":""}
+{"f":"cards","id":"ko.c0235","k":"note","src":"코인 세탁 = coin laundry, 24h.","tgt":""}
+{"f":"cards","id":"ko.c0236","k":"meaning","src":"Can you dry clean this?","tgt":""}
+{"f":"cards","id":"ko.c0236","k":"note","src":"드라이클리닝 shortened.","tgt":""}
+{"f":"cards","id":"ko.c0237","k":"meaning","src":"Please tell me the door code","tgt":""}
+{"f":"cards","id":"ko.c0237","k":"note","src":"Most doors use keypads, not keys.","tgt":""}
+{"f":"cards","id":"ko.c0238","k":"meaning","src":"wifi installation","tgt":""}
+{"f":"cards","id":"ko.c0238","k":"note","src":"설치 = installation. 기사님 = the technician.","tgt":""}
+{"f":"cards","id":"ko.c0239","k":"meaning","src":"I moved (house)","tgt":""}
+{"f":"cards","id":"ko.c0239","k":"note","src":"이사 = moving. 이삿짐센터 = movers.","tgt":""}
+{"f":"cards","id":"ko.c0240","k":"meaning","src":"landlord","tgt":""}
+{"f":"cards","id":"ko.c0240","k":"note","src":"부동산 = real-estate office, where you find rooms.","tgt":""}
+{"f":"cards","id":"ko.c0241","k":"meaning","src":"contract","tgt":""}
+{"f":"cards","id":"ko.c0241","k":"note","src":"계약 = contract. 사인하다 = to sign.","tgt":""}
+{"f":"cards","id":"ko.c0242","k":"meaning","src":"I send parcels from the convenience store","tgt":""}
+{"f":"cards","id":"ko.c0242","k":"note","src":"GS25/CU have parcel counters. Cheap and easy.","tgt":""}
+{"f":"cards","id":"ko.c0243","k":"meaning","src":"please eat (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0243","k":"note","src":"드시다 = honorific of 먹다/마시다. 맛있게 드세요 = enjoy your meal.","tgt":""}
+{"f":"cards","id":"ko.c0244","k":"meaning","src":"please sleep (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0244","k":"note","src":"주무시다 = honorific of 자다. 안녕히 주무세요 = good night (polite).","tgt":""}
+{"f":"cards","id":"ko.c0245","k":"meaning","src":"please stay / is (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0245","k":"note","src":"계시다 = honorific of 있다 (for people). 안녕히 계세요.","tgt":""}
+{"f":"cards","id":"ko.c0246","k":"meaning","src":"please speak (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0246","k":"note","src":"말씀 = honorific of 말. 말씀해 주세요 = please tell me.","tgt":""}
+{"f":"cards","id":"ko.c0247","k":"meaning","src":"What is your name? (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0247","k":"note","src":"성함 = honorific of 이름.","tgt":""}
+{"f":"cards","id":"ko.c0248","k":"meaning","src":"How old are you? (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0248","k":"note","src":"연세 = honorific of 나이. For elders.","tgt":""}
+{"f":"cards","id":"ko.c0249","k":"meaning","src":"go (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0249","k":"note","src":"가다 + 시 + 어요 → 가세요. 조심히 가세요.","tgt":"가다 + 시 + 어요 → 가세요. 조심히 가세요.","pre":1}
+{"f":"cards","id":"ko.c0250","k":"meaning","src":"Did you come? (honorific past)","tgt":""}
+{"f":"cards","id":"ko.c0250","k":"note","src":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?","tgt":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?","pre":1}
+{"f":"cards","id":"ko.c0251","k":"meaning","src":"do (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0251","k":"note","src":"안녕하세요 is literally 'are you at peace' with 시.","tgt":""}
+{"f":"cards","id":"ko.c0252","k":"meaning","src":"father / mother (someone else's, honorific)","tgt":""}
+{"f":"cards","id":"ko.c0252","k":"note","src":"님 raises 아버지/어머니. For your partner's parents.","tgt":""}
+{"f":"cards","id":"ko.c0253","k":"meaning","src":"grandmother (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0253","k":"note","src":"Someone else's grandmother, or very formal speech. Elderly strangers: 할머니 or 어르신.","tgt":""}
+{"f":"cards","id":"ko.c0254","k":"meaning","src":"customer / guest","tgt":""}
+{"f":"cards","id":"ko.c0254","k":"note","src":"손 + 님. 고객님 at shops.","tgt":""}
+{"f":"cards","id":"ko.c0255","k":"meaning","src":"Teacher, have you eaten?","tgt":""}
+{"f":"cards","id":"ko.c0255","k":"note","src":"식사 = honorific-ish 'meal'. 하셨어요 = did (honorific).","tgt":""}
+{"f":"cards","id":"ko.c0256","k":"meaning","src":"Have you been well? (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0256","k":"note","src":"지내다 + 시 + 었어요.","tgt":"지내다 + 시 + 었어요.","pre":1}
+{"f":"cards","id":"ko.c0257","k":"meaning","src":"please sit","tgt":""}
+{"f":"cards","id":"ko.c0257","k":"note","src":"앉다 + 으세요 (after consonant).","tgt":""}
+{"f":"cards","id":"ko.c0258","k":"meaning","src":"please come in","tgt":""}
+{"f":"cards","id":"ko.c0258","k":"note","src":"들어오다 + 세요.","tgt":"들어오다 + 세요.","pre":1}
+{"f":"cards","id":"ko.c0259","k":"meaning","src":"coffee shop / café","tgt":""}
+{"f":"cards","id":"ko.c0259","k":"note","src":"카페 is far more common in speech.","tgt":""}
+{"f":"cards","id":"ko.c0260","k":"meaning","src":"gym","tgt":""}
+{"f":"cards","id":"ko.c0260","k":"note","src":"Health + 장 (place). 헬스하다 = to work out.","tgt":""}
+{"f":"cards","id":"ko.c0261","k":"meaning","src":"library","tgt":""}
+{"f":"cards","id":"ko.c0261","k":"note","src":"도서 books + 관 hall.","tgt":""}
+{"f":"cards","id":"ko.c0262","k":"meaning","src":"museum","tgt":""}
+{"f":"cards","id":"ko.c0262","k":"note","src":"미술관 = art museum.","tgt":""}
+{"f":"cards","id":"ko.c0263","k":"meaning","src":"house / home","tgt":""}
+{"f":"cards","id":"ko.c0263","k":"note","src":"집에 가요 = I'm going home.","tgt":""}
+{"f":"cards","id":"ko.c0264","k":"meaning","src":"school","tgt":""}
+{"f":"cards","id":"ko.c0264","k":"note","src":"대학교 = university.","tgt":""}
+{"f":"cards","id":"ko.c0265","k":"meaning","src":"hospital","tgt":""}
+{"f":"cards","id":"ko.c0265","k":"note","src":"Also used for any doctor's clinic.","tgt":""}
+{"f":"cards","id":"ko.c0266","k":"meaning","src":"pharmacy","tgt":""}
+{"f":"cards","id":"ko.c0266","k":"note","src":"Look for the green cross sign.","tgt":""}
+{"f":"cards","id":"ko.c0267","k":"meaning","src":"bank","tgt":""}
+{"f":"cards","id":"ko.c0267","k":"note","src":"Also means ginkgo — context decides.","tgt":""}
+{"f":"cards","id":"ko.c0268","k":"meaning","src":"convenience store","tgt":""}
+{"f":"cards","id":"ko.c0268","k":"note","src":"GS25, CU, 세븐일레븐.","tgt":""}
+{"f":"cards","id":"ko.c0269","k":"meaning","src":"restaurant","tgt":""}
+{"f":"cards","id":"ko.c0269","k":"note","src":"레스토랑 = Western-style restaurant.","tgt":""}
+{"f":"cards","id":"ko.c0270","k":"meaning","src":"market","tgt":""}
+{"f":"cards","id":"ko.c0270","k":"note","src":"전통시장 = traditional market.","tgt":""}
+{"f":"cards","id":"ko.c0271","k":"meaning","src":"department store","tgt":""}
+{"f":"cards","id":"ko.c0271","k":"note","src":"Lotte, Shinsegae, Hyundai.","tgt":""}
+{"f":"cards","id":"ko.c0272","k":"meaning","src":"movie theater","tgt":""}
+{"f":"cards","id":"ko.c0272","k":"note","src":"CGV, 메가박스, 롯데시네마.","tgt":""}
+{"f":"cards","id":"ko.c0273","k":"meaning","src":"park","tgt":""}
+{"f":"cards","id":"ko.c0273","k":"note","src":"한강공원 = Han River park.","tgt":""}
+{"f":"cards","id":"ko.c0274","k":"meaning","src":"hotel","tgt":""}
+{"f":"cards","id":"ko.c0274","k":"note","src":"모텔 is cheaper; 게스트하우스 for backpackers.","tgt":""}
+{"f":"cards","id":"ko.c0275","k":"meaning","src":"church / Buddhist temple","tgt":""}
+{"f":"cards","id":"ko.c0275","k":"note","src":"성당 = Catholic cathedral.","tgt":""}
+{"f":"cards","id":"ko.c0276","k":"meaning","src":"restroom","tgt":""}
+{"f":"cards","id":"ko.c0276","k":"note","src":"Literally 'makeup room'.","tgt":""}
+{"f":"cards","id":"ko.c0277","k":"meaning","src":"hobby","tgt":""}
+{"f":"cards","id":"ko.c0277","k":"note","src":"취미가 뭐예요? = What's your hobby?","tgt":""}
+{"f":"cards","id":"ko.c0278","k":"meaning","src":"exercise / working out","tgt":""}
+{"f":"cards","id":"ko.c0278","k":"note","src":"운동해요 = I work out.","tgt":""}
+{"f":"cards","id":"ko.c0279","k":"meaning","src":"reading (books)","tgt":""}
+{"f":"cards","id":"ko.c0279","k":"note","src":"책 읽는 거 좋아해요 is more natural in speech.","tgt":""}
+{"f":"cards","id":"ko.c0280","k":"meaning","src":"cooking","tgt":""}
+{"f":"cards","id":"ko.c0280","k":"note","src":"요리해요 = I cook.","tgt":""}
+{"f":"cards","id":"ko.c0281","k":"meaning","src":"travel","tgt":""}
+{"f":"cards","id":"ko.c0281","k":"note","src":"여행 가요 = I go on a trip.","tgt":""}
+{"f":"cards","id":"ko.c0282","k":"meaning","src":"listening to music","tgt":""}
+{"f":"cards","id":"ko.c0282","k":"note","src":"음악 들어요 = I listen to music.","tgt":""}
+{"f":"cards","id":"ko.c0283","k":"meaning","src":"watching movies","tgt":""}
+{"f":"cards","id":"ko.c0283","k":"note","src":"-기 turns a verb into a noun.","tgt":""}
+{"f":"cards","id":"ko.c0284","k":"meaning","src":"gaming","tgt":""}
+{"f":"cards","id":"ko.c0284","k":"note","src":"게임해요 = I play games. PC방 = internet café.","tgt":""}
+{"f":"cards","id":"ko.c0285","k":"meaning","src":"photography","tgt":""}
+{"f":"cards","id":"ko.c0285","k":"note","src":"사진 찍어요 = I take photos.","tgt":""}
+{"f":"cards","id":"ko.c0286","k":"meaning","src":"drawing / painting","tgt":""}
+{"f":"cards","id":"ko.c0286","k":"note","src":"그림 = picture.","tgt":""}
+{"f":"cards","id":"ko.c0287","k":"meaning","src":"singing","tgt":""}
+{"f":"cards","id":"ko.c0287","k":"note","src":"노래방 = karaoke room.","tgt":""}
+{"f":"cards","id":"ko.c0288","k":"meaning","src":"dancing","tgt":""}
+{"f":"cards","id":"ko.c0288","k":"note","src":"춤 춰요 = I dance.","tgt":""}
+{"f":"cards","id":"ko.c0289","k":"meaning","src":"hiking","tgt":""}
+{"f":"cards","id":"ko.c0289","k":"note","src":"National pastime — expect full gear on easy trails.","tgt":""}
+{"f":"cards","id":"ko.c0290","k":"meaning","src":"fishing","tgt":""}
+{"f":"cards","id":"ko.c0291","k":"meaning","src":"shopping","tgt":""}
+{"f":"cards","id":"ko.c0291","k":"note","src":"쇼핑해요 = I go shopping.","tgt":""}
+{"f":"cards","id":"ko.c0292","k":"meaning","src":"camping","tgt":""}
+{"f":"cards","id":"ko.c0292","k":"note","src":"차박 = car camping.","tgt":""}
+{"f":"cards","id":"ko.c0293","k":"meaning","src":"kimchi","tgt":""}
+{"f":"cards","id":"ko.c0293","k":"note","src":"Comes free with almost every meal.","tgt":""}
+{"f":"cards","id":"ko.c0294","k":"meaning","src":"gimbap (seaweed rice roll)","tgt":""}
+{"f":"cards","id":"ko.c0294","k":"note","src":"Cheap, everywhere, ~₩3,000–5,000.","tgt":""}
+{"f":"cards","id":"ko.c0295","k":"meaning","src":"bibimbap","tgt":""}
+{"f":"cards","id":"ko.c0295","k":"note","src":"비빔 = mixed; 밥 = rice.","tgt":""}
+{"f":"cards","id":"ko.c0296","k":"meaning","src":"bulgogi (marinated beef)","tgt":""}
+{"f":"cards","id":"ko.c0297","k":"meaning","src":"pork belly BBQ","tgt":""}
+{"f":"cards","id":"ko.c0297","k":"note","src":"Three-layer meat. Wrap it in lettuce: 쌈.","tgt":""}
+{"f":"cards","id":"ko.c0298","k":"meaning","src":"(Korean fried) chicken","tgt":""}
+{"f":"cards","id":"ko.c0298","k":"note","src":"치맥 = chicken + 맥주.","tgt":""}
+{"f":"cards","id":"ko.c0299","k":"meaning","src":"spicy rice cakes","tgt":""}
+{"f":"cards","id":"ko.c0299","k":"note","src":"Street food staple.","tgt":""}
+{"f":"cards","id":"ko.c0300","k":"meaning","src":"ramyeon (instant noodles)","tgt":""}
+{"f":"cards","id":"ko.c0300","k":"note","src":"라멘 is the Japanese kind.","tgt":""}
+{"f":"cards","id":"ko.c0301","k":"meaning","src":"stew","tgt":""}
+{"f":"cards","id":"ko.c0301","k":"note","src":"김치찌개, 된장찌개, 순두부찌개.","tgt":"김치찌개, 된장찌개, 순두부찌개.","pre":1}
+{"f":"cards","id":"ko.c0302","k":"meaning","src":"soup","tgt":""}
+{"f":"cards","id":"ko.c0302","k":"note","src":"탕 is heartier (삼계탕, 갈비탕).","tgt":""}
+{"f":"cards","id":"ko.c0303","k":"meaning","src":"side dishes","tgt":""}
+{"f":"cards","id":"ko.c0303","k":"note","src":"Refills are free: 반찬 좀 더 주세요.","tgt":""}
+{"f":"cards","id":"ko.c0304","k":"meaning","src":"bread","tgt":""}
+{"f":"cards","id":"ko.c0304","k":"note","src":"빵집 = bakery.","tgt":""}
+{"f":"cards","id":"ko.c0305","k":"meaning","src":"fruit","tgt":""}
+{"f":"cards","id":"ko.c0305","k":"note","src":"사과 apple, 딸기 strawberry, 귤 tangerine.","tgt":""}
+{"f":"cards","id":"ko.c0306","k":"meaning","src":"vegetables","tgt":""}
+{"f":"cards","id":"ko.c0306","k":"note","src":"채소 is the standard word.","tgt":""}
+{"f":"cards","id":"ko.c0307","k":"meaning","src":"egg","tgt":""}
+{"f":"cards","id":"ko.c0307","k":"note","src":"달걀 is the pure-Korean word.","tgt":""}
+{"f":"cards","id":"ko.c0308","k":"meaning","src":"fish (as food)","tgt":""}
+{"f":"cards","id":"ko.c0308","k":"note","src":"물고기 = fish (alive).","tgt":""}
+{"f":"cards","id":"ko.c0309","k":"meaning","src":"seafood","tgt":""}
+{"f":"cards","id":"ko.c0309","k":"note","src":"해물파전 = seafood pancake.","tgt":""}
+{"f":"cards","id":"ko.c0310","k":"meaning","src":"dessert","tgt":""}
+{"f":"cards","id":"ko.c0310","k":"note","src":"빙수 = shaved ice; 호떡 = sweet pancake.","tgt":""}
+{"f":"cards","id":"ko.c0311","k":"meaning","src":"soft drink / beverage","tgt":""}
+{"f":"cards","id":"ko.c0311","k":"note","src":"Umbrella word for non-alcoholic drinks.","tgt":""}
+{"f":"cards","id":"ko.c0312","k":"meaning","src":"coffee","tgt":""}
+{"f":"cards","id":"ko.c0312","k":"note","src":"아메리카노, 라떼, 믹스커피 (instant).","tgt":""}
+{"f":"cards","id":"ko.c0313","k":"meaning","src":"tea","tgt":""}
+{"f":"cards","id":"ko.c0313","k":"note","src":"녹차 green, 보리차 barley, 유자차 citron.","tgt":""}
+{"f":"cards","id":"ko.c0314","k":"meaning","src":"milk","tgt":""}
+{"f":"cards","id":"ko.c0314","k":"note","src":"두유 = soy milk.","tgt":""}
+{"f":"cards","id":"ko.c0315","k":"meaning","src":"juice","tgt":""}
+{"f":"cards","id":"ko.c0315","k":"note","src":"오렌지 주스.","tgt":"오렌지 주스.","pre":1}
+{"f":"cards","id":"ko.c0316","k":"meaning","src":"cola / lemon-lime soda","tgt":""}
+{"f":"cards","id":"ko.c0316","k":"note","src":"사이다 is Sprite-style, not alcoholic cider.","tgt":""}
+{"f":"cards","id":"ko.c0317","k":"meaning","src":"bottled water","tgt":""}
+{"f":"cards","id":"ko.c0317","k":"note","src":"Ask for 물 at restaurants — it's free.","tgt":""}
+{"f":"cards","id":"ko.c0318","k":"meaning","src":"beer","tgt":""}
+{"f":"cards","id":"ko.c0318","k":"note","src":"생맥주 = draft beer. 카스, 테라, 클라우드.","tgt":""}
+{"f":"cards","id":"ko.c0319","k":"meaning","src":"soju","tgt":""}
+{"f":"cards","id":"ko.c0319","k":"note","src":"참이슬, 처음처럼. Green bottle.","tgt":""}
+{"f":"cards","id":"ko.c0320","k":"meaning","src":"makgeolli (rice wine)","tgt":""}
+{"f":"cards","id":"ko.c0320","k":"note","src":"Goes with 파전 on rainy days.","tgt":""}
+{"f":"cards","id":"ko.c0321","k":"meaning","src":"wine","tgt":""}
+{"f":"cards","id":"ko.c0322","k":"meaning","src":"cocktail","tgt":""}
+{"f":"cards","id":"ko.c0323","k":"meaning","src":"smoothie","tgt":""}
+{"f":"cards","id":"ko.c0324","k":"meaning","src":"ice","tgt":""}
+{"f":"cards","id":"ko.c0324","k":"note","src":"얼음 빼 주세요 = no ice please.","tgt":""}
+{"f":"cards","id":"ko.c0325","k":"meaning","src":"One more glass, please","tgt":""}
+{"f":"cards","id":"ko.c0325","k":"note","src":"잔 is the counter for glasses/cups.","tgt":""}
+{"f":"cards","id":"ko.c0326","k":"meaning","src":"cheers (formal vs casual)","tgt":""}
+{"f":"cards","id":"ko.c0326","k":"note","src":"짠! among friends; 건배 at dinners.","tgt":""}
+{"f":"cards","id":"ko.c0327","k":"meaning","src":"I exercise","tgt":""}
+{"f":"cards","id":"ko.c0327","k":"note","src":"운동하다.","tgt":"운동하다.","pre":1}
+{"f":"cards","id":"ko.c0328","k":"meaning","src":"I study","tgt":""}
+{"f":"cards","id":"ko.c0328","k":"note","src":"공부하다.","tgt":"공부하다.","pre":1}
+{"f":"cards","id":"ko.c0329","k":"meaning","src":"I work","tgt":""}
+{"f":"cards","id":"ko.c0329","k":"note","src":"일하다.","tgt":"일하다.","pre":1}
+{"f":"cards","id":"ko.c0330","k":"meaning","src":"I rest","tgt":""}
+{"f":"cards","id":"ko.c0330","k":"note","src":"쉬다. 주말에 쉬어요 = I rest on weekends.","tgt":""}
+{"f":"cards","id":"ko.c0331","k":"meaning","src":"I hang out / play","tgt":""}
+{"f":"cards","id":"ko.c0331","k":"note","src":"놀다. 같이 놀자 = let's hang out.","tgt":""}
+{"f":"cards","id":"ko.c0332","k":"meaning","src":"I take a walk","tgt":""}
+{"f":"cards","id":"ko.c0332","k":"note","src":"산책하다.","tgt":"산책하다.","pre":1}
+{"f":"cards","id":"ko.c0333","k":"meaning","src":"I swim","tgt":""}
+{"f":"cards","id":"ko.c0333","k":"note","src":"수영하다. 수영장 = pool.","tgt":""}
+{"f":"cards","id":"ko.c0334","k":"meaning","src":"I run","tgt":""}
+{"f":"cards","id":"ko.c0334","k":"note","src":"달리다. 러닝 is also common.","tgt":""}
+{"f":"cards","id":"ko.c0335","k":"meaning","src":"I ride a bike","tgt":""}
+{"f":"cards","id":"ko.c0335","k":"note","src":"타다 = to ride (bike, bus, horse).","tgt":""}
+{"f":"cards","id":"ko.c0336","k":"meaning","src":"I watch a movie","tgt":""}
+{"f":"cards","id":"ko.c0336","k":"note","src":"보다 → 봐요.","tgt":"보다 → 봐요.","pre":1}
+{"f":"cards","id":"ko.c0337","k":"meaning","src":"I listen to music","tgt":""}
+{"f":"cards","id":"ko.c0337","k":"note","src":"듣다 → 들어요 (ㄷ irregular).","tgt":""}
+{"f":"cards","id":"ko.c0338","k":"meaning","src":"I read a book","tgt":""}
+{"f":"cards","id":"ko.c0338","k":"note","src":"읽다 → 읽어요.","tgt":"읽다 → 읽어요.","pre":1}
+{"f":"cards","id":"ko.c0339","k":"meaning","src":"I cook","tgt":""}
+{"f":"cards","id":"ko.c0339","k":"note","src":"요리하다.","tgt":"요리하다.","pre":1}
+{"f":"cards","id":"ko.c0340","k":"meaning","src":"I clean","tgt":""}
+{"f":"cards","id":"ko.c0340","k":"note","src":"청소하다. 빨래해요 = I do laundry.","tgt":""}
+{"f":"cards","id":"ko.c0341","k":"meaning","src":"I meet a friend","tgt":""}
+{"f":"cards","id":"ko.c0341","k":"note","src":"만나다.","tgt":"만나다.","pre":1}
+{"f":"cards","id":"ko.c0342","k":"meaning","src":"I go shopping","tgt":""}
+{"f":"cards","id":"ko.c0342","k":"note","src":"쇼핑하다.","tgt":"쇼핑하다.","pre":1}
+{"f":"cards","id":"ko.c0343","k":"meaning","src":"I take photos","tgt":""}
+{"f":"cards","id":"ko.c0343","k":"note","src":"찍다 → 찍어요.","tgt":"찍다 → 찍어요.","pre":1}
+{"f":"cards","id":"ko.c0344","k":"meaning","src":"I play games","tgt":""}
+{"f":"cards","id":"ko.c0344","k":"note","src":"게임하다.","tgt":"게임하다.","pre":1}
+{"f":"cards","id":"ko.c0345","k":"meaning","src":"drama / TV series","tgt":""}
+{"f":"cards","id":"ko.c0345","k":"note","src":"K-drama = 한국 드라마 or just 드라마.","tgt":""}
+{"f":"cards","id":"ko.c0346","k":"meaning","src":"variety show","tgt":""}
+{"f":"cards","id":"ko.c0346","k":"note","src":"런닝맨, 유 퀴즈 — unscripted comedy shows.","tgt":""}
+{"f":"cards","id":"ko.c0347","k":"meaning","src":"news","tgt":""}
+{"f":"cards","id":"ko.c0348","k":"meaning","src":"movie","tgt":""}
+{"f":"cards","id":"ko.c0348","k":"note","src":"영화 보러 갈래? = wanna go see a movie?","tgt":""}
+{"f":"cards","id":"ko.c0349","k":"meaning","src":"documentary","tgt":""}
+{"f":"cards","id":"ko.c0349","k":"note","src":"Shortened to 다큐.","tgt":""}
+{"f":"cards","id":"ko.c0350","k":"meaning","src":"comics / webtoon","tgt":""}
+{"f":"cards","id":"ko.c0350","k":"note","src":"Many dramas are based on 웹툰.","tgt":""}
+{"f":"cards","id":"ko.c0351","k":"meaning","src":"animation / anime","tgt":""}
+{"f":"cards","id":"ko.c0351","k":"note","src":"Shortened to 애니.","tgt":""}
+{"f":"cards","id":"ko.c0352","k":"meaning","src":"comedy","tgt":""}
+{"f":"cards","id":"ko.c0352","k":"note","src":"개그 = gag / comedy sketch.","tgt":""}
+{"f":"cards","id":"ko.c0353","k":"meaning","src":"romance","tgt":""}
+{"f":"cards","id":"ko.c0353","k":"note","src":"로코 = romantic comedy.","tgt":""}
+{"f":"cards","id":"ko.c0354","k":"meaning","src":"thriller","tgt":""}
+{"f":"cards","id":"ko.c0355","k":"meaning","src":"horror movie","tgt":""}
+{"f":"cards","id":"ko.c0355","k":"note","src":"무서워요 = it's scary.","tgt":""}
+{"f":"cards","id":"ko.c0356","k":"meaning","src":"action","tgt":""}
+{"f":"cards","id":"ko.c0357","k":"meaning","src":"historical drama","tgt":""}
+{"f":"cards","id":"ko.c0357","k":"note","src":"Set in Joseon-era Korea.","tgt":""}
+{"f":"cards","id":"ko.c0358","k":"meaning","src":"music show","tgt":""}
+{"f":"cards","id":"ko.c0358","k":"note","src":"뮤직뱅크, 인기가요 — weekly idol stages.","tgt":""}
+{"f":"cards","id":"ko.c0359","k":"meaning","src":"audition show","tgt":""}
+{"f":"cards","id":"ko.c0359","k":"note","src":"서바이벌 = survival show.","tgt":""}
+{"f":"cards","id":"ko.c0360","k":"meaning","src":"which episode","tgt":""}
+{"f":"cards","id":"ko.c0360","k":"note","src":"화 is the counter for episodes. 3화 = episode 3.","tgt":""}
+{"f":"cards","id":"ko.c0361","k":"meaning","src":"rerun","tgt":""}
+{"f":"cards","id":"ko.c0361","k":"note","src":"본방송 = original airing; 본방사수 = watch it live.","tgt":""}
+{"f":"cards","id":"ko.c0362","k":"meaning","src":"binge-watching","tgt":""}
+{"f":"cards","id":"ko.c0362","k":"note","src":"정주행했어 = I binged it.","tgt":""}
+{"f":"cards","id":"ko.c0363","k":"meaning","src":"above / below","tgt":""}
+{"f":"cards","id":"ko.c0363","k":"note","src":"책상 위에 = on the desk.","tgt":""}
+{"f":"cards","id":"ko.c0364","k":"meaning","src":"front / behind","tgt":""}
+{"f":"cards","id":"ko.c0364","k":"note","src":"건물 앞에서 만나요 = meet in front of the building.","tgt":""}
+{"f":"cards","id":"ko.c0365","k":"meaning","src":"next to / beside","tgt":""}
+{"f":"cards","id":"ko.c0365","k":"note","src":"은행 옆에 있어요 = it's next to the bank.","tgt":""}
+{"f":"cards","id":"ko.c0366","k":"meaning","src":"inside / outside","tgt":""}
+{"f":"cards","id":"ko.c0366","k":"note","src":"안에 들어가요 = go inside.","tgt":""}
+{"f":"cards","id":"ko.c0367","k":"meaning","src":"between","tgt":""}
+{"f":"cards","id":"ko.c0367","k":"note","src":"카페와 약국 사이에 = between the café and pharmacy.","tgt":""}
+{"f":"cards","id":"ko.c0368","k":"meaning","src":"across the street","tgt":""}
+{"f":"cards","id":"ko.c0368","k":"note","src":"길 건너편에 있어요.","tgt":"길 건너편에 있어요.","pre":1}
+{"f":"cards","id":"ko.c0369","k":"meaning","src":"opposite side","tgt":""}
+{"f":"cards","id":"ko.c0369","k":"note","src":"Same meaning as 건너편.","tgt":""}
+{"f":"cards","id":"ko.c0370","k":"meaning","src":"nearby","tgt":""}
+{"f":"cards","id":"ko.c0370","k":"note","src":"이 근처에 = around here.","tgt":""}
+{"f":"cards","id":"ko.c0371","k":"meaning","src":"far / close","tgt":""}
+{"f":"cards","id":"ko.c0371","k":"note","src":"여기서 가까워요? = Is it close from here?","tgt":""}
+{"f":"cards","id":"ko.c0372","k":"meaning","src":"east / west / south / north","tgt":""}
+{"f":"cards","id":"ko.c0372","k":"note","src":"강남 = south of the river.","tgt":""}
+{"f":"cards","id":"ko.c0373","k":"meaning","src":"corner","tgt":""}
+{"f":"cards","id":"ko.c0373","k":"note","src":"코너에서 왼쪽으로 = left at the corner.","tgt":""}
+{"f":"cards","id":"ko.c0374","k":"meaning","src":"crosswalk","tgt":""}
+{"f":"cards","id":"ko.c0374","k":"note","src":"건너세요 = cross.","tgt":""}
+{"f":"cards","id":"ko.c0375","k":"meaning","src":"traffic light","tgt":""}
+{"f":"cards","id":"ko.c0375","k":"note","src":"신호등에서 우회전 = turn right at the light.","tgt":""}
+{"f":"cards","id":"ko.c0376","k":"meaning","src":"exit / entrance","tgt":""}
+{"f":"cards","id":"ko.c0376","k":"note","src":"지하철 3번 출구 = subway exit 3.","tgt":""}
+{"f":"cards","id":"ko.c0377","k":"meaning","src":"floor (of a building)","tgt":""}
+{"f":"cards","id":"ko.c0377","k":"note","src":"2층 = 2nd floor; 지하 1층 = B1.","tgt":""}
+{"f":"cards","id":"ko.c0378","k":"meaning","src":"Go back / turn around","tgt":""}
+{"f":"cards","id":"ko.c0378","k":"note","src":"돌다 = to turn.","tgt":""}
+{"f":"cards","id":"ko.c0379","k":"meaning","src":"straight ahead","tgt":""}
+{"f":"cards","id":"ko.c0379","k":"note","src":"Shorter than 똑바로 가세요; seen on signs.","tgt":""}
+{"f":"cards","id":"ko.c0380","k":"meaning","src":"right turn / left turn","tgt":""}
+{"f":"cards","id":"ko.c0380","k":"note","src":"Taxi talk: 우회전해 주세요.","tgt":""}
+{"f":"cards","id":"ko.c0381","k":"meaning","src":"am / is / are (polite)","tgt":""}
+{"f":"cards","id":"ko.c0381","k":"note","src":"이에요 after consonant, 예요 after vowel: 학생이에요, 저예요.","tgt":""}
+{"f":"cards","id":"ko.c0382","k":"meaning","src":"there is / have","tgt":""}
+{"f":"cards","id":"ko.c0382","k":"note","src":"없어요 (eopseoyo) = there isn't / don't have.","tgt":""}
+{"f":"cards","id":"ko.c0383","k":"meaning","src":"do (하다)","tgt":""}
+{"f":"cards","id":"ko.c0383","k":"note","src":"Past: 했어요. Future: 할 거예요.","tgt":""}
+{"f":"cards","id":"ko.c0384","k":"meaning","src":"go (가다)","tgt":""}
+{"f":"cards","id":"ko.c0384","k":"note","src":"Past: 갔어요. 집에 가요 = I'm going home.","tgt":""}
+{"f":"cards","id":"ko.c0385","k":"meaning","src":"come (오다)","tgt":""}
+{"f":"cards","id":"ko.c0385","k":"note","src":"Past: 왔어요.","tgt":""}
+{"f":"cards","id":"ko.c0386","k":"meaning","src":"eat (먹다)","tgt":""}
+{"f":"cards","id":"ko.c0386","k":"note","src":"Past: 먹었어요. 밥 먹었어요? = Did you eat?","tgt":""}
+{"f":"cards","id":"ko.c0387","k":"meaning","src":"drink (마시다)","tgt":""}
+{"f":"cards","id":"ko.c0387","k":"note","src":"Past: 마셨어요.","tgt":""}
+{"f":"cards","id":"ko.c0388","k":"meaning","src":"see / watch (보다)","tgt":""}
+{"f":"cards","id":"ko.c0388","k":"note","src":"Past: 봤어요. 내일 봐요 = see you tomorrow.","tgt":""}
+{"f":"cards","id":"ko.c0389","k":"meaning","src":"like (좋아하다)","tgt":""}
+{"f":"cards","id":"ko.c0389","k":"note","src":"좋아요 = it's good / I like it (adjective form).","tgt":""}
+{"f":"cards","id":"ko.c0390","k":"meaning","src":"know (알다)","tgt":""}
+{"f":"cards","id":"ko.c0390","k":"note","src":"몰라요 (mollayo) = don't know.","tgt":""}
+{"f":"cards","id":"ko.c0391","k":"meaning","src":"please give","tgt":""}
+{"f":"cards","id":"ko.c0391","k":"note","src":"Verb stem + 아/어 주세요 = please do X.","tgt":""}
+{"f":"cards","id":"ko.c0392","k":"meaning","src":"love (사랑하다)","tgt":""}
+{"f":"cards","id":"ko.c0392","k":"note","src":"Casual: 사랑해.","tgt":""}
+{"f":"cards","id":"ko.c0393","k":"meaning","src":"topic marker ('as for...')","tgt":""}
+{"f":"cards","id":"ko.c0393","k":"note","src":"은 after consonant, 는 after vowel. 저는 = as for me.","tgt":""}
+{"f":"cards","id":"ko.c0394","k":"meaning","src":"subject marker","tgt":""}
+{"f":"cards","id":"ko.c0394","k":"note","src":"이 after consonant, 가 after vowel. 비가 와요 = rain is falling.","tgt":""}
+{"f":"cards","id":"ko.c0395","k":"meaning","src":"object marker","tgt":""}
+{"f":"cards","id":"ko.c0395","k":"note","src":"을 after consonant, 를 after vowel. 밥을 먹어요.","tgt":""}
+{"f":"cards","id":"ko.c0396","k":"meaning","src":"to / at (place or time)","tgt":""}
+{"f":"cards","id":"ko.c0396","k":"note","src":"학교에 가요 = go to school. 세 시에 = at 3 o'clock.","tgt":""}
+{"f":"cards","id":"ko.c0397","k":"meaning","src":"at / in (where an action happens), from","tgt":""}
+{"f":"cards","id":"ko.c0397","k":"note","src":"집에서 먹어요 = eat at home.","tgt":""}
+{"f":"cards","id":"ko.c0398","k":"meaning","src":"also / too","tgt":""}
+{"f":"cards","id":"ko.c0398","k":"note","src":"Replaces 은/는/이/가/을/를. 저도 = me too.","tgt":""}
+{"f":"cards","id":"ko.c0399","k":"meaning","src":"possessive ('s)","tgt":""}
+{"f":"cards","id":"ko.c0399","k":"note","src":"Often pronounced 에. 친구의 책 = friend's book.","tgt":""}
+{"f":"cards","id":"ko.c0400","k":"meaning","src":"and / with","tgt":""}
+{"f":"cards","id":"ko.c0400","k":"note","src":"하고 is the safe spoken choice.","tgt":""}
+{"f":"cards","id":"ko.c0401","k":"meaning","src":"only","tgt":""}
+{"f":"cards","id":"ko.c0401","k":"note","src":"물만 주세요 = only water, please.","tgt":""}
+{"f":"cards","id":"ko.c0402","k":"meaning","src":"1, 2, 3 (native)","tgt":""}
+{"f":"cards","id":"ko.c0402","k":"note","src":"Native numbers: age, counting things, hours.","tgt":""}
+{"f":"cards","id":"ko.c0403","k":"meaning","src":"4, 5, 6 (native)","tgt":""}
+{"f":"cards","id":"ko.c0403","k":"note","src":"Before a counter, 하나→한, 둘→두, 셋→세, 넷→네.","tgt":""}
+{"f":"cards","id":"ko.c0404","k":"meaning","src":"7, 8, 9, 10 (native)","tgt":""}
+{"f":"cards","id":"ko.c0404","k":"note","src":"스물 = 20, 서른 = 30.","tgt":"스물 = 20, 서른 = 30.","pre":1}
+{"f":"cards","id":"ko.c0405","k":"meaning","src":"1 to 5 (Sino-Korean)","tgt":""}
+{"f":"cards","id":"ko.c0405","k":"note","src":"Sino numbers: money, dates, minutes, phone numbers.","tgt":""}
+{"f":"cards","id":"ko.c0406","k":"meaning","src":"6 to 10 (Sino-Korean)","tgt":""}
+{"f":"cards","id":"ko.c0406","k":"note","src":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000.","tgt":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000.","pre":1}
+{"f":"cards","id":"ko.c0407","k":"meaning","src":"10,000 won","tgt":""}
+{"f":"cards","id":"ko.c0407","k":"note","src":"Korean counts in 만 (10k). 오만 원 = 50,000 won.","tgt":""}
+{"f":"cards","id":"ko.c0408","k":"meaning","src":"3:30","tgt":"3:30","pre":1}
+{"f":"cards","id":"ko.c0408","k":"note","src":"Hours = native (세), minutes = Sino (삼십).","tgt":""}
+{"f":"cards","id":"ko.c0409","k":"meaning","src":"25 years old","tgt":""}
+{"f":"cards","id":"ko.c0409","k":"note","src":"Age uses native numbers + 살.","tgt":""}
+{"f":"cards","id":"ko.c0410","k":"meaning","src":"You're cute","tgt":""}
+{"f":"cards","id":"ko.c0410","k":"note","src":"Casual. Polite: 귀여워요.","tgt":""}
+{"f":"cards","id":"ko.c0411","k":"meaning","src":"You're pretty","tgt":""}
+{"f":"cards","id":"ko.c0411","k":"note","src":"Also for things: a pretty café.","tgt":""}
+{"f":"cards","id":"ko.c0412","k":"meaning","src":"You're handsome","tgt":""}
+{"f":"cards","id":"ko.c0412","k":"note","src":"Lit. 'came out well-formed'.","tgt":""}
+{"f":"cards","id":"ko.c0413","k":"meaning","src":"I miss you","tgt":""}
+{"f":"cards","id":"ko.c0413","k":"note","src":"Lit. 'I want to see you'.","tgt":""}
+{"f":"cards","id":"ko.c0414","k":"meaning","src":"I like you","tgt":""}
+{"f":"cards","id":"ko.c0414","k":"note","src":"The step before 사랑해.","tgt":""}
+{"f":"cards","id":"ko.c0415","k":"meaning","src":"Babe / honey","tgt":""}
+{"f":"cards","id":"ko.c0415","k":"note","src":"Common couple nickname.","tgt":""}
+{"f":"cards","id":"ko.c0416","k":"meaning","src":"Sleep well / good night","tgt":""}
+{"f":"cards","id":"ko.c0416","k":"note","src":"Casual. Polite: 잘 자요; to elders: 안녕히 주무세요.","tgt":""}
+{"f":"cards","id":"ko.c0417","k":"meaning","src":"Did you eat?","tgt":""}
+{"f":"cards","id":"ko.c0417","k":"note","src":"How Koreans say 'how are you' to people they care about.","tgt":""}
+{"f":"cards","id":"ko.c0418","k":"meaning","src":"You look pretty today","tgt":""}
+{"f":"cards","id":"ko.c0418","k":"note","src":"네요 = noticing out loud. Casual: 오늘 예쁘네.","tgt":""}
+{"f":"cards","id":"ko.c0419","k":"meaning","src":"Your eyes are so pretty","tgt":""}
+{"f":"cards","id":"ko.c0419","k":"note","src":"눈 = eyes. 웃는 모습이 예뻐요 = your smile is pretty.","tgt":""}
+{"f":"cards","id":"ko.c0420","k":"meaning","src":"The way you laugh is so cute","tgt":""}
+{"f":"cards","id":"ko.c0420","k":"note","src":"웃다 = to laugh/smile.","tgt":""}
+{"f":"cards","id":"ko.c0421","k":"meaning","src":"I missed you","tgt":""}
+{"f":"cards","id":"ko.c0421","k":"note","src":"Casual: 보고 싶었어. Say it on arrival.","tgt":""}
+{"f":"cards","id":"ko.c0422","k":"meaning","src":"I'm happy when I'm with you","tgt":""}
+{"f":"cards","id":"ko.c0422","k":"note","src":"같이 = together. 행복하다 = to be happy.","tgt":""}
+{"f":"cards","id":"ko.c0423","k":"meaning","src":"I thought about you a lot","tgt":""}
+{"f":"cards","id":"ko.c0423","k":"note","src":"Casual. 생각 = thought.","tgt":""}
+{"f":"cards","id":"ko.c0424","k":"meaning","src":"Did you eat? Make sure you eat well","tgt":""}
+{"f":"cards","id":"ko.c0424","k":"note","src":"Peak Korean affection: caring about meals.","tgt":""}
+{"f":"cards","id":"ko.c0425","k":"meaning","src":"Did you get home safe?","tgt":""}
+{"f":"cards","id":"ko.c0425","k":"note","src":"Text this after a date. Expected, not optional.","tgt":""}
+{"f":"cards","id":"ko.c0426","k":"meaning","src":"Get home safe","tgt":""}
+{"f":"cards","id":"ko.c0426","k":"note","src":"Casual. Polite: 조심히 가세요.","tgt":""}
+{"f":"cards","id":"ko.c0427","k":"meaning","src":"Sweet dreams","tgt":""}
+{"f":"cards","id":"ko.c0427","k":"note","src":"Lit. 'dream a good dream'. Pairs with 잘 자.","tgt":""}
+{"f":"cards","id":"ko.c0428","k":"meaning","src":"Only look at me","tgt":""}
+{"f":"cards","id":"ko.c0428","k":"note","src":"Playful / clingy. 만 = only.","tgt":""}
+{"f":"cards","id":"ko.c0429","k":"meaning","src":"You're the only one for me","tgt":""}
+{"f":"cards","id":"ko.c0429","k":"note","src":"Lit. 'there's no one but you'.","tgt":""}
+{"f":"cards","id":"ko.c0430","k":"meaning","src":"You made my heart skip","tgt":""}
+{"f":"cards","id":"ko.c0430","k":"note","src":"심쿵 = heart (심장) + thump (쿵). Slang.","tgt":""}
+{"f":"cards","id":"ko.c0431","k":"meaning","src":"Will you be mine?","tgt":""}
+{"f":"cards","id":"ko.c0431","k":"note","src":"Casual, playful way to ask someone out.","tgt":""}
+{"f":"cards","id":"ko.c0432","k":"meaning","src":"Do you want to go out with me?","tgt":""}
+{"f":"cards","id":"ko.c0432","k":"note","src":"사귀다 = to date. The real ask.","tgt":""}
+{"f":"cards","id":"ko.c0433","k":"meaning","src":"Stop being cute, my heart hurts","tgt":""}
+{"f":"cards","id":"ko.c0433","k":"note","src":"애교 = acting cute. Joke-flirt line.","tgt":""}
+{"f":"cards","id":"ko.c0434","k":"meaning","src":"Can I get your number?","tgt":""}
+{"f":"cards","id":"ko.c0434","k":"note","src":"좀 softens it. Polite: 번호 좀 알려 주실래요?","tgt":""}
+{"f":"cards","id":"ko.c0435","k":"meaning","src":"Do you have Instagram?","tgt":""}
+{"f":"cards","id":"ko.c0435","k":"note","src":"The modern number ask. 인스타 = Insta.","tgt":""}
+{"f":"cards","id":"ko.c0436","k":"meaning","src":"If you're free, want to grab a coffee?","tgt":""}
+{"f":"cards","id":"ko.c0436","k":"note","src":"ㄹ래요 = want to? Low-pressure ask.","tgt":""}
+{"f":"cards","id":"ko.c0437","k":"meaning","src":"Do you have a boyfriend?","tgt":""}
+{"f":"cards","id":"ko.c0437","k":"note","src":"여자친구 = girlfriend. 남친/여친 = casual short forms.","tgt":""}
+{"f":"cards","id":"ko.c0438","k":"meaning","src":"It was love at first sight","tgt":""}
+{"f":"cards","id":"ko.c0438","k":"note","src":"첫눈 = first sight (also first snow). 반하다 = fall for.","tgt":""}
+{"f":"cards","id":"ko.c0439","k":"meaning","src":"Time flies when I'm with you","tgt":""}
+{"f":"cards","id":"ko.c0439","k":"note","src":"랑 = with (casual). 빨리 = fast.","tgt":""}
+{"f":"cards","id":"ko.c0440","k":"meaning","src":"Thinking of you makes me smile","tgt":""}
+{"f":"cards","id":"ko.c0440","k":"note","src":"웃음이 나다 = a smile comes out.","tgt":""}
+{"f":"cards","id":"ko.c0441","k":"meaning","src":"I keep thinking about you","tgt":""}
+{"f":"cards","id":"ko.c0441","k":"note","src":"자꾸 = keep / over and over.","tgt":""}
+{"f":"cards","id":"ko.c0442","k":"meaning","src":"You're the prettiest","tgt":""}
+{"f":"cards","id":"ko.c0442","k":"note","src":"제일 = the most. 제일 멋있어 for guys.","tgt":""}
+{"f":"cards","id":"ko.c0443","k":"meaning","src":"Should we meet again?","tgt":""}
+{"f":"cards","id":"ko.c0443","k":"note","src":"ㄹ까 = shall we? 또 = again.","tgt":""}
+{"f":"cards","id":"ko.c0444","k":"meaning","src":"I'll walk you home","tgt":""}
+{"f":"cards","id":"ko.c0444","k":"note","src":"ㄹ게 = I'll (promise). Classic end of date.","tgt":""}
+{"f":"cards","id":"ko.c0445","k":"meaning","src":"I think I like you","tgt":""}
+{"f":"cards","id":"ko.c0445","k":"note","src":"것 같아 = I think / it seems. Softens the confession.","tgt":""}
+{"f":"cards","id":"ko.c0446","k":"meaning","src":"I don't want to go home tonight","tgt":""}
+{"f":"cards","id":"ko.c0446","k":"note","src":"기 싫다 = don't want to. Said at the end of a good date.","tgt":""}
+{"f":"cards","id":"ko.c0447","k":"meaning","src":"Let's date","tgt":""}
+{"f":"cards","id":"ko.c0447","k":"note","src":"자 = let's. More confident than 사귈래?","tgt":""}
+{"f":"cards","id":"ko.c0448","k":"meaning","src":"What are you up to?","tgt":""}
+{"f":"cards","id":"ko.c0448","k":"note","src":"The universal opener. Polite: 뭐 해요?","tgt":""}
+{"f":"cards","id":"ko.c0449","k":"meaning","src":"I'm bored","tgt":""}
+{"f":"cards","id":"ko.c0449","k":"note","src":"심심하다 = bored. 놀자 = let's hang out.","tgt":""}
+{"f":"cards","id":"ko.c0450","k":"meaning","src":"I'm tired","tgt":""}
+{"f":"cards","id":"ko.c0450","k":"note","src":"피곤하다. 졸려 = I'm sleepy.","tgt":""}
+{"f":"cards","id":"ko.c0451","k":"meaning","src":"I'm hungry","tgt":""}
+{"f":"cards","id":"ko.c0451","k":"note","src":"Casual version of 배고파요.","tgt":""}
+{"f":"cards","id":"ko.c0452","k":"meaning","src":"Where are you?","tgt":""}
+{"f":"cards","id":"ko.c0452","k":"note","src":"Casual. 어디예요? polite.","tgt":""}
+{"f":"cards","id":"ko.c0453","k":"meaning","src":"I'm on my way","tgt":""}
+{"f":"cards","id":"ko.c0453","k":"note","src":"Lit. 'I go now'. 다 왔어 = I'm almost there.","tgt":""}
+{"f":"cards","id":"ko.c0454","k":"meaning","src":"I think I'll be late","tgt":""}
+{"f":"cards","id":"ko.c0454","k":"note","src":"것 같아 = I think. 미안, 늦었어 = sorry I'm late.","tgt":""}
+{"f":"cards","id":"ko.c0455","k":"meaning","src":"lol","tgt":""}
+{"f":"cards","id":"ko.c0455","k":"note","src":"Texting only. ㅎㅎ = softer chuckle. ㅠㅠ = crying.","tgt":""}
+{"f":"cards","id":"ko.c0456","k":"meaning","src":"yeah / ok","tgt":""}
+{"f":"cards","id":"ko.c0456","k":"note","src":"Texting shorthand for 응. ㄴㄴ = no.","tgt":""}
+{"f":"cards","id":"ko.c0457","k":"meaning","src":"That's hilarious","tgt":""}
+{"f":"cards","id":"ko.c0457","k":"note","src":"웃기다 = to be funny.","tgt":""}
+{"f":"cards","id":"ko.c0458","k":"meaning","src":"Dunno","tgt":""}
+{"f":"cards","id":"ko.c0458","k":"note","src":"Casual 몰라요. 글쎄 = hmm, not sure.","tgt":""}
+{"f":"cards","id":"ko.c0459","k":"meaning","src":"Okay / sure / fine","tgt":""}
+{"f":"cards","id":"ko.c0459","k":"note","src":"Also 'is that so?' with rising tone.","tgt":""}
+{"f":"cards","id":"ko.c0460","k":"meaning","src":"See you later","tgt":""}
+{"f":"cards","id":"ko.c0460","k":"note","src":"담에 = 다음에 (next time), shortened.","tgt":""}
+{"f":"cards","id":"ko.c0461","k":"meaning","src":"Night, see you tomorrow","tgt":""}
+{"f":"cards","id":"ko.c0461","k":"note","src":"Standard sign-off text.","tgt":""}
+{"f":"cards","id":"ko.c0462","k":"meaning","src":"That's cool! / You look cool","tgt":""}
+{"f":"cards","id":"ko.c0462","k":"note","src":"Works for people, outfits, moves. Polite: 멋있어요.","tgt":""}
+{"f":"cards","id":"ko.c0463","k":"meaning","src":"Nice job!","tgt":""}
+{"f":"cards","id":"ko.c0463","k":"note","src":"잘하다 = do well. Polite: 잘했어요.","tgt":""}
+{"f":"cards","id":"ko.c0464","k":"meaning","src":"You're the best","tgt":""}
+{"f":"cards","id":"ko.c0464","k":"note","src":"최고 = the best. 네가 최고야.","tgt":""}
+{"f":"cards","id":"ko.c0465","k":"meaning","src":"Respect / fair enough","tgt":""}
+{"f":"cards","id":"ko.c0465","k":"note","src":"Lit. 'acknowledge'. Slang: ㅇㅈ in texts.","tgt":""}
+{"f":"cards","id":"ko.c0466","k":"meaning","src":"Awesome / the best","tgt":""}
+{"f":"cards","id":"ko.c0466","k":"note","src":"짱 = top. 짱 멋있어 = super cool.","tgt":""}
+{"f":"cards","id":"ko.c0467","k":"meaning","src":"Legend","tgt":""}
+{"f":"cards","id":"ko.c0467","k":"note","src":"From English. 레전드다 = that's legendary.","tgt":"","rw":"English loanword explanation"}
+{"f":"cards","id":"ko.c0468","k":"meaning","src":"Insane (good)","tgt":""}
+{"f":"cards","id":"ko.c0468","k":"note","src":"Said about a goal, a beat, a view. Casual.","tgt":""}
+{"f":"cards","id":"ko.c0469","k":"meaning","src":"That's amazing","tgt":""}
+{"f":"cards","id":"ko.c0469","k":"note","src":"Safe hype word for any crowd.","tgt":""}
+{"f":"cards","id":"ko.c0470","k":"meaning","src":"Let's go!","tgt":""}
+{"f":"cards","id":"ko.c0470","k":"note","src":"Also the pre-game shout.","tgt":""}
+{"f":"cards","id":"ko.c0471","k":"meaning","src":"Okay, deal / I'm in","tgt":""}
+{"f":"cards","id":"ko.c0471","k":"note","src":"콜 = 'call', accepting a plan.","tgt":""}
+{"f":"cards","id":"ko.c0472","k":"meaning","src":"Good work, that was tough","tgt":""}
+{"f":"cards","id":"ko.c0472","k":"note","src":"Said after effort. Polite: 고생하셨어요.","tgt":""}
+{"f":"cards","id":"ko.c0473","k":"meaning","src":"Nice work today","tgt":""}
+{"f":"cards","id":"ko.c0473","k":"note","src":"End-of-day sign-off at work or practice.","tgt":""}
+{"f":"cards","id":"ko.c0474","k":"meaning","src":"You got this / cheer up","tgt":""}
+{"f":"cards","id":"ko.c0474","k":"note","src":"힘 = strength. 힘내세요 polite.","tgt":""}
+{"f":"cards","id":"ko.c0475","k":"meaning","src":"Don't worry","tgt":""}
+{"f":"cards","id":"ko.c0475","k":"note","src":"지 마 = don't. 걱정하지 마 full form.","tgt":""}
+{"f":"cards","id":"ko.c0476","k":"meaning","src":"Wanna grab a drink?","tgt":""}
+{"f":"cards","id":"ko.c0476","k":"note","src":"한잔 = one glass. The friend-making phrase.","tgt":""}
+{"f":"cards","id":"ko.c0477","k":"meaning","src":"What do you wanna eat?","tgt":""}
+{"f":"cards","id":"ko.c0477","k":"note","src":"Everyone's favorite question.","tgt":""}
+{"f":"cards","id":"ko.c0478","k":"meaning","src":"Hey!","tgt":""}
+{"f":"cards","id":"ko.c0478","k":"note","src":"Close friends / same age only. To anyone older it's rude.","tgt":""}
+{"f":"cards","id":"ko.c0479","k":"meaning","src":"Hey, what are you doing?","tgt":""}
+{"f":"cards","id":"ko.c0479","k":"note","src":"The opener before any invite.","tgt":""}
+{"f":"cards","id":"ko.c0480","k":"meaning","src":"Let's hang out!","tgt":""}
+{"f":"cards","id":"ko.c0480","k":"note","src":"놀다 = to play / hang out. 자 = let's.","tgt":""}
+{"f":"cards","id":"ko.c0481","k":"meaning","src":"Come out (come hang)","tgt":""}
+{"f":"cards","id":"ko.c0481","k":"note","src":"Lit. 'come out'. 빨리 나와 = hurry up and come out.","tgt":""}
+{"f":"cards","id":"ko.c0482","k":"meaning","src":"You free?","tgt":""}
+{"f":"cards","id":"ko.c0482","k":"note","src":"Polite: 시간 있어요?","tgt":""}
+{"f":"cards","id":"ko.c0483","k":"meaning","src":"Are you free today?","tgt":""}
+{"f":"cards","id":"ko.c0483","k":"note","src":"돼 = is it possible / does it work.","tgt":""}
+{"f":"cards","id":"ko.c0484","k":"meaning","src":"Wanna go together?","tgt":""}
+{"f":"cards","id":"ko.c0484","k":"note","src":"같이 = together. ㄹ래 = wanna?","tgt":""}
+{"f":"cards","id":"ko.c0485","k":"meaning","src":"Wanna go eat?","tgt":""}
+{"f":"cards","id":"ko.c0485","k":"note","src":"으러 가다 = go in order to. 커피 마시러 갈래? = wanna go get coffee?","tgt":""}
+{"f":"cards","id":"ko.c0486","k":"meaning","src":"Wanna watch a movie?","tgt":""}
+{"f":"cards","id":"ko.c0486","k":"note","src":"보다 → 볼래. 게임 할래? = wanna play games?","tgt":""}
+{"f":"cards","id":"ko.c0487","k":"meaning","src":"Shall we go to a café?","tgt":""}
+{"f":"cards","id":"ko.c0487","k":"note","src":"ㄹ까 = shall we? Softer than ㄹ래.","tgt":""}
+{"f":"cards","id":"ko.c0488","k":"meaning","src":"Wanna come over?","tgt":""}
+{"f":"cards","id":"ko.c0488","k":"note","src":"우리 집 = my (our) house. Koreans say 우리 for their own home.","tgt":""}
+{"f":"cards","id":"ko.c0489","k":"meaning","src":"When should we meet?","tgt":""}
+{"f":"cards","id":"ko.c0489","k":"note","src":"언제 = when. 만나다 = to meet.","tgt":""}
+{"f":"cards","id":"ko.c0490","k":"meaning","src":"What time should we meet?","tgt":""}
+{"f":"cards","id":"ko.c0490","k":"note","src":"보다 (see) doubles as 'meet up'.","tgt":""}
+{"f":"cards","id":"ko.c0491","k":"meaning","src":"Where should we meet?","tgt":""}
+{"f":"cards","id":"ko.c0491","k":"note","src":"어디서 = 어디에서 shortened.","tgt":""}
+{"f":"cards","id":"ko.c0492","k":"meaning","src":"I'm coming now","tgt":""}
+{"f":"cards","id":"ko.c0492","k":"note","src":"ㄹ게 = I'll. 금방 갈게 = I'll be there soon.","tgt":""}
+{"f":"cards","id":"ko.c0493","k":"meaning","src":"That was fun","tgt":""}
+{"f":"cards","id":"ko.c0493","k":"note","src":"Say it at the end. Polite: 재밌었어요.","tgt":""}
+{"f":"cards","id":"ko.c0494","k":"meaning","src":"Let's hang out again","tgt":""}
+{"f":"cards","id":"ko.c0494","k":"note","src":"또 = again.","tgt":""}
+{"f":"cards","id":"ko.c0495","k":"meaning","src":"Let's meet again next time","tgt":""}
+{"f":"cards","id":"ko.c0495","k":"note","src":"담에 = 다음에. 보자 = let's see (each other).","tgt":""}
+{"f":"cards","id":"ko.c0496","k":"meaning","src":"my favorite (member)","tgt":""}
+{"f":"cards","id":"ko.c0496","k":"note","src":"최애가 누구예요? = who's your bias? 차애 = second favorite.","tgt":""}
+{"f":"cards","id":"ko.c0497","k":"meaning","src":"being a fan / fangirling","tgt":""}
+{"f":"cards","id":"ko.c0497","k":"note","src":"From 오타쿠. 덕질해요 = I'm into fandom stuff.","tgt":""}
+{"f":"cards","id":"ko.c0498","k":"meaning","src":"I became a fan","tgt":""}
+{"f":"cards","id":"ko.c0498","k":"note","src":"입덕 = entering the fandom. 탈덕 = leaving it.","tgt":""}
+{"f":"cards","id":"ko.c0499","k":"meaning","src":"comeback (new release)","tgt":""}
+{"f":"cards","id":"ko.c0499","k":"note","src":"Every new album is a 컴백. 컴백 언제예요?","tgt":""}
+{"f":"cards","id":"ko.c0500","k":"meaning","src":"stage / performance","tgt":""}
+{"f":"cards","id":"ko.c0500","k":"note","src":"무대 진짜 잘해요 = they perform really well.","tgt":""}
+{"f":"cards","id":"ko.c0501","k":"meaning","src":"I'm going to a concert","tgt":""}
+{"f":"cards","id":"ko.c0501","k":"note","src":"콘서트 티켓팅 = ticketing, a blood sport.","tgt":""}
+{"f":"cards","id":"ko.c0502","k":"meaning","src":"light stick","tgt":""}
+{"f":"cards","id":"ko.c0502","k":"note","src":"Each group has one. 응원 = cheering.","tgt":""}
+{"f":"cards","id":"ko.c0503","k":"meaning","src":"singing along as a crowd","tgt":""}
+{"f":"cards","id":"ko.c0503","k":"note","src":"떼 = flock. The crowd sings the whole song.","tgt":""}
+{"f":"cards","id":"ko.c0504","k":"meaning","src":"I'm a fan","tgt":""}
+{"f":"cards","id":"ko.c0504","k":"note","src":"저 팬이에요 = I'm a fan (of you / them).","tgt":""}
+{"f":"cards","id":"ko.c0505","k":"meaning","src":"Please sign this","tgt":""}
+{"f":"cards","id":"ko.c0505","k":"note","src":"사인 = autograph.","tgt":""}
+{"f":"cards","id":"ko.c0506","k":"meaning","src":"The song is good","tgt":""}
+{"f":"cards","id":"ko.c0506","k":"note","src":"이 노래 진짜 좋아요 = this song is so good.","tgt":""}
+{"f":"cards","id":"ko.c0507","k":"meaning","src":"The lyrics are good","tgt":""}
+{"f":"cards","id":"ko.c0507","k":"note","src":"가사 = lyrics.","tgt":""}
+{"f":"cards","id":"ko.c0508","k":"meaning","src":"choreography","tgt":""}
+{"f":"cards","id":"ko.c0508","k":"note","src":"안무 외웠어요 = I memorized the choreo.","tgt":""}
+{"f":"cards","id":"ko.c0509","k":"meaning","src":"debut","tgt":""}
+{"f":"cards","id":"ko.c0509","k":"note","src":"몇 년에 데뷔했어요? = what year did they debut?","tgt":""}
+{"f":"cards","id":"ko.c0510","k":"meaning","src":"fan meeting","tgt":""}
+{"f":"cards","id":"ko.c0510","k":"note","src":"팬싸 = fan sign event.","tgt":""}
+{"f":"cards","id":"ko.c0511","k":"meaning","src":"fancam","tgt":""}
+{"f":"cards","id":"ko.c0511","k":"note","src":"직접 + 캠. Member-focused concert video.","tgt":""}
+{"f":"cards","id":"ko.c0512","k":"meaning","src":"Instagram story","tgt":""}
+{"f":"cards","id":"ko.c0512","k":"note","src":"스토리 봤어? = did you see my story?","tgt":""}
+{"f":"cards","id":"ko.c0513","k":"meaning","src":"Hit like for me","tgt":""}
+{"f":"cards","id":"ko.c0513","k":"note","src":"누르다 = to press.","tgt":""}
+{"f":"cards","id":"ko.c0514","k":"meaning","src":"I followed you","tgt":""}
+{"f":"cards","id":"ko.c0514","k":"note","src":"맞팔 = follow back. 맞팔해요 = let's follow each other.","tgt":""}
+{"f":"cards","id":"ko.c0515","k":"meaning","src":"meme image / reaction pic","tgt":""}
+{"f":"cards","id":"ko.c0515","k":"note","src":"짤 보내 줘 = send me the meme.","tgt":""}
+{"f":"cards","id":"ko.c0516","k":"meaning","src":"sudden awkward silence","tgt":""}
+{"f":"cards","id":"ko.c0516","k":"note","src":"갑자기 분위기 싸해짐. When a joke dies.","tgt":""}
+{"f":"cards","id":"ko.c0517","k":"meaning","src":"too much info / random fact","tgt":""}
+{"f":"cards","id":"ko.c0517","k":"note","src":"Used for cute oversharing, not gross stuff.","tgt":""}
+{"f":"cards","id":"ko.c0518","k":"meaning","src":"effortlessly styled","tgt":""}
+{"f":"cards","id":"ko.c0518","k":"note","src":"꾸민 듯 안 꾸민 듯. The 'I woke up like this' look.","tgt":""}
+{"f":"cards","id":"ko.c0519","k":"meaning","src":"insanely delicious","tgt":""}
+{"f":"cards","id":"ko.c0519","k":"note","src":"Very casual slang with a vulgar origin: only with close friends. JMT in texts.","tgt":""}
+{"f":"cards","id":"ko.c0520","k":"meaning","src":"agreed / facts","tgt":""}
+{"f":"cards","id":"ko.c0520","k":"note","src":"Text shorthand for 인정.","tgt":""}
+{"f":"cards","id":"ko.c0521","k":"meaning","src":"for real","tgt":""}
+{"f":"cards","id":"ko.c0521","k":"note","src":"Text shorthand for 리얼.","tgt":""}
+{"f":"cards","id":"ko.c0522","k":"meaning","src":"super extrovert / popular","tgt":""}
+{"f":"cards","id":"ko.c0522","k":"note","src":"핵 = nuke prefix. 아싸 = outsider / introvert.","tgt":""}
+{"f":"cards","id":"ko.c0523","k":"meaning","src":"small but certain happiness","tgt":""}
+{"f":"cards","id":"ko.c0523","k":"note","src":"소소하지만 확실한 행복. Café, nap, rain.","tgt":""}
+{"f":"cards","id":"ko.c0524","k":"meaning","src":"studying hard","tgt":""}
+{"f":"cards","id":"ko.c0524","k":"note","src":"열심히 공부. 열공 중 = studying hard right now.","tgt":""}
+{"f":"cards","id":"ko.c0525","k":"meaning","src":"mental breakdown","tgt":""}
+{"f":"cards","id":"ko.c0525","k":"note","src":"멘탈 붕괴. 멘붕 왔어 = I'm losing it.","tgt":""}
+{"f":"cards","id":"ko.c0526","k":"meaning","src":"I burst out laughing","tgt":""}
+{"f":"cards","id":"ko.c0526","k":"note","src":"빵 = pop sound.","tgt":""}
+{"f":"cards","id":"ko.c0527","k":"meaning","src":"Let's take a selfie","tgt":""}
+{"f":"cards","id":"ko.c0527","k":"note","src":"셀카 = selfie. 찍다 = to take (photo).","tgt":""}
+{"f":"cards","id":"ko.c0528","k":"meaning","src":"What are we?","tgt":""}
+{"f":"cards","id":"ko.c0528","k":"note","src":"사이 = relationship between people. The DTR line.","tgt":""}
+{"f":"cards","id":"ko.c0529","k":"meaning","src":"I want to date seriously","tgt":""}
+{"f":"cards","id":"ko.c0529","k":"note","src":"진지하다 = serious.","tgt":""}
+{"f":"cards","id":"ko.c0530","k":"meaning","src":"You're really warm-hearted","tgt":""}
+{"f":"cards","id":"ko.c0530","k":"note","src":"다정하다 = affectionate, kind. Compliment beyond looks.","tgt":""}
+{"f":"cards","id":"ko.c0531","k":"meaning","src":"I like your laugh","tgt":""}
+{"f":"cards","id":"ko.c0531","k":"note","src":"웃음소리 = laughing sound.","tgt":""}
+{"f":"cards","id":"ko.c0532","k":"meaning","src":"I feel comfortable with you","tgt":""}
+{"f":"cards","id":"ko.c0532","k":"note","src":"편하다 = comfortable. High praise in Korean dating.","tgt":""}
+{"f":"cards","id":"ko.c0533","k":"meaning","src":"Sorry, it was my fault","tgt":""}
+{"f":"cards","id":"ko.c0533","k":"note","src":"잘못하다 = to do wrong. Own it.","tgt":""}
+{"f":"cards","id":"ko.c0534","k":"meaning","src":"Don't be mad anymore","tgt":""}
+{"f":"cards","id":"ko.c0534","k":"note","src":"풀다 = to untie / release. 화 풀어 줘 softer.","tgt":""}
+{"f":"cards","id":"ko.c0535","k":"meaning","src":"Don't worry, you have me","tgt":""}
+{"f":"cards","id":"ko.c0535","k":"note","src":"잖아 = 'you know'. Reassurance.","tgt":""}
+{"f":"cards","id":"ko.c0536","k":"meaning","src":"How was the date today?","tgt":""}
+{"f":"cards","id":"ko.c0536","k":"note","src":"어땠어 = how was it.","tgt":""}
+{"f":"cards","id":"ko.c0537","k":"meaning","src":"Let's take a photo together","tgt":""}
+{"f":"cards","id":"ko.c0537","k":"note","src":"Couple photo = 커플 사진.","tgt":""}
+{"f":"cards","id":"ko.c0538","k":"meaning","src":"Happy 100 days","tgt":""}
+{"f":"cards","id":"ko.c0538","k":"note","src":"Couples celebrate 100 days. Big deal.","tgt":""}
+{"f":"cards","id":"ko.c0539","k":"meaning","src":"Can I hold your hand?","tgt":""}
+{"f":"cards","id":"ko.c0539","k":"note","src":"잡다 = to hold. 아/어도 돼 = may I.","tgt":""}
+{"f":"cards","id":"ko.c0540","k":"meaning","src":"Hug me","tgt":""}
+{"f":"cards","id":"ko.c0540","k":"note","src":"안다 = to hug. 안아 줄게 = I'll hug you.","tgt":""}
+{"f":"cards","id":"ko.c0541","k":"meaning","src":"I miss you to death","tgt":""}
+{"f":"cards","id":"ko.c0541","k":"note","src":"죽겠어 = 'I'll die' intensifier. Casual, dramatic.","tgt":""}
+{"f":"cards","id":"ko.c0542","k":"meaning","src":"I have something to tell you","tgt":""}
+{"f":"cards","id":"ko.c0542","k":"note","src":"Sets up a serious talk. 한테 = to (person).","tgt":""}
+{"f":"cards","id":"ko.c0543","k":"meaning","src":"I think we're a good match","tgt":""}
+{"f":"cards","id":"ko.c0543","k":"note","src":"맞다 = to fit / match.","tgt":""}
+{"f":"cards","id":"ko.c0544","k":"meaning","src":"What time is the meeting?","tgt":""}
+{"f":"cards","id":"ko.c0544","k":"note","src":"회의 = meeting. 회의실 = meeting room.","tgt":""}
+{"f":"cards","id":"ko.c0545","k":"meaning","src":"When is the deadline?","tgt":""}
+{"f":"cards","id":"ko.c0545","k":"note","src":"마감 = deadline. 마감 지켰어요 = I made the deadline.","tgt":""}
+{"f":"cards","id":"ko.c0546","k":"meaning","src":"I'll check and get back to you","tgt":""}
+{"f":"cards","id":"ko.c0546","k":"note","src":"Formal. The email reply you'll send most.","tgt":""}
+{"f":"cards","id":"ko.c0547","k":"meaning","src":"Do you have a moment?","tgt":""}
+{"f":"cards","id":"ko.c0547","k":"note","src":"To a colleague or senior. 잠깐 = briefly.","tgt":""}
+{"f":"cards","id":"ko.c0548","k":"meaning","src":"Could you help me with this?","tgt":""}
+{"f":"cards","id":"ko.c0548","k":"note","src":"도와주시다 honorific + 수 있어요 = could you.","tgt":""}
+{"f":"cards","id":"ko.c0549","k":"meaning","src":"I'll head out first","tgt":""}
+{"f":"cards","id":"ko.c0549","k":"note","src":"퇴근 = leaving work. Say it to the room, always.","tgt":""}
+{"f":"cards","id":"ko.c0550","k":"meaning","src":"Good work today (formal)","tgt":""}
+{"f":"cards","id":"ko.c0550","k":"note","src":"To seniors when leaving. 수고하세요 to those still working.","tgt":""}
+{"f":"cards","id":"ko.c0551","k":"meaning","src":"There's a team dinner","tgt":""}
+{"f":"cards","id":"ko.c0551","k":"note","src":"회식 = company dinner. Attendance is… encouraged.","tgt":""}
+{"f":"cards","id":"ko.c0552","k":"meaning","src":"I sent the report","tgt":""}
+{"f":"cards","id":"ko.c0552","k":"note","src":"보고서 = report. 보내다 = to send.","tgt":""}
+{"f":"cards","id":"ko.c0553","k":"meaning","src":"What should we have for lunch?","tgt":""}
+{"f":"cards","id":"ko.c0553","k":"note","src":"The 11:30 question in every office.","tgt":""}
+{"f":"cards","id":"ko.c0554","k":"meaning","src":"I have to work overtime","tgt":""}
+{"f":"cards","id":"ko.c0554","k":"note","src":"야근 = night work. 아/어야 돼요 = have to.","tgt":""}
+{"f":"cards","id":"ko.c0555","k":"meaning","src":"I applied for leave","tgt":""}
+{"f":"cards","id":"ko.c0555","k":"note","src":"휴가 = vacation. 신청하다 = apply.","tgt":""}
+{"f":"cards","id":"ko.c0556","k":"meaning","src":"Did you see my email?","tgt":""}
+{"f":"cards","id":"ko.c0556","k":"note","src":"Honorific past 하셨어요.","tgt":""}
+{"f":"cards","id":"ko.c0557","k":"meaning","src":"Thank you for the feedback","tgt":""}
+{"f":"cards","id":"ko.c0557","k":"note","src":"주셔서 = for giving (honorific).","tgt":""}
+{"f":"cards","id":"ko.c0558","k":"meaning","src":"I'm presenting next week","tgt":""}
+{"f":"cards","id":"ko.c0558","k":"note","src":"발표 = presentation.","tgt":""}
+{"f":"cards","id":"ko.c0559","k":"meaning","src":"Looking forward to working with you","tgt":""}
+{"f":"cards","id":"ko.c0559","k":"note","src":"Closes work emails and first meetings.","tgt":""}
+{"f":"cards","id":"ko.c0560","k":"meaning","src":"How have you been?","tgt":""}
+{"f":"cards","id":"ko.c0560","k":"note","src":"Standard greeting for someone you haven't seen in a while.","tgt":""}
+{"f":"cards","id":"ko.c0561","k":"meaning","src":"I've been well","tgt":""}
+{"f":"cards","id":"ko.c0561","k":"note","src":"Add 덕분에 (thanks to you) to sound extra polite.","tgt":""}
+{"f":"cards","id":"ko.c0562","k":"meaning","src":"How are things lately?","tgt":""}
+{"f":"cards","id":"ko.c0562","k":"note","src":"요즘 = these days. 어때요 = how is it.","tgt":""}
+{"f":"cards","id":"ko.c0563","k":"meaning","src":"So-so","tgt":""}
+{"f":"cards","id":"ko.c0563","k":"note","src":"Lit. 'it's just like that'. Very common honest answer.","tgt":""}
+{"f":"cards","id":"ko.c0564","k":"meaning","src":"Nice weather, isn't it","tgt":""}
+{"f":"cards","id":"ko.c0564","k":"note","src":"네요 ending = noticing something out loud. 날씨가 춥네요 = it's cold, huh.","tgt":""}
+{"f":"cards","id":"ko.c0565","k":"meaning","src":"What are you doing this weekend?","tgt":""}
+{"f":"cards","id":"ko.c0565","k":"note","src":"주말 = weekend, 에 = on.","tgt":""}
+{"f":"cards","id":"ko.c0566","k":"meaning","src":"Me too","tgt":""}
+{"f":"cards","id":"ko.c0566","k":"note","src":"Casual: 나도.","tgt":""}
+{"f":"cards","id":"ko.c0567","k":"meaning","src":"Really?","tgt":""}
+{"f":"cards","id":"ko.c0567","k":"note","src":"Softer than 진짜요?. Both fine.","tgt":""}
+{"f":"cards","id":"ko.c0568","k":"meaning","src":"See you again","tgt":""}
+{"f":"cards","id":"ko.c0568","k":"note","src":"또 = again. 내일 봐요 = see you tomorrow.","tgt":""}
+{"f":"cards","id":"ko.c0569","k":"meaning","src":"Goodbye (to someone leaving)","tgt":""}
+{"f":"cards","id":"ko.c0569","k":"note","src":"가세요 = go well. Say it when THEY are leaving.","tgt":""}
+{"f":"cards","id":"ko.c0570","k":"meaning","src":"Goodbye (to someone staying)","tgt":""}
+{"f":"cards","id":"ko.c0570","k":"note","src":"계세요 = stay well. Say it when YOU are leaving.","tgt":""}
+{"f":"cards","id":"ko.c0571","k":"meaning","src":"I'll be in touch","tgt":""}
+{"f":"cards","id":"ko.c0571","k":"note","src":"ㄹ게요 = I'll (promise). 연락 = contact.","tgt":""}
+{"f":"cards","id":"ko.c0572","k":"meaning","src":"water","tgt":""}
+{"f":"cards","id":"ko.c0572","k":"note","src":"물 주세요 = water, please.","tgt":""}
+{"f":"cards","id":"ko.c0573","k":"meaning","src":"rice / a meal","tgt":""}
+{"f":"cards","id":"ko.c0573","k":"note","src":"밥 먹자 = let's eat.","tgt":""}
+{"f":"cards","id":"ko.c0574","k":"meaning","src":"meat","tgt":""}
+{"f":"cards","id":"ko.c0574","k":"note","src":"소고기 beef, 돼지고기 pork, 닭고기 chicken.","tgt":""}
+{"f":"cards","id":"ko.c0575","k":"meaning","src":"Menu, please","tgt":""}
+{"f":"cards","id":"ko.c0575","k":"note","src":"Or just raise a hand and say 저기요 (excuse me).","tgt":""}
+{"f":"cards","id":"ko.c0576","k":"meaning","src":"Not spicy, please","tgt":""}
+{"f":"cards","id":"ko.c0576","k":"note","src":"맵다 = spicy. 안 매워요? = is it not spicy?","tgt":""}
+{"f":"cards","id":"ko.c0577","k":"meaning","src":"It's delicious","tgt":""}
+{"f":"cards","id":"ko.c0577","k":"note","src":"Say it to the owner on the way out.","tgt":""}
+{"f":"cards","id":"ko.c0578","k":"meaning","src":"I'm hungry","tgt":""}
+{"f":"cards","id":"ko.c0578","k":"note","src":"배불러요 (baebulleoyo) = I'm full.","tgt":""}
+{"f":"cards","id":"ko.c0579","k":"meaning","src":"One coffee","tgt":""}
+{"f":"cards","id":"ko.c0579","k":"note","src":"잔 = cup counter. 두 잔 = two cups.","tgt":""}
+{"f":"cards","id":"ko.c0580","k":"meaning","src":"Check, please","tgt":""}
+{"f":"cards","id":"ko.c0580","k":"note","src":"You usually pay at the counter.","tgt":""}
+{"f":"cards","id":"ko.c0581","k":"meaning","src":"To go, please","tgt":""}
+{"f":"cards","id":"ko.c0581","k":"note","src":"포장 = packaging.","tgt":""}
+{"f":"cards","id":"ko.c0582","k":"meaning","src":"Cheers!","tgt":""}
+{"f":"cards","id":"ko.c0582","k":"note","src":"Clink glasses; pour for others, not yourself.","tgt":""}
+{"f":"cards","id":"ko.c0583","k":"meaning","src":"(Said after eating)","tgt":""}
+{"f":"cards","id":"ko.c0583","k":"note","src":"Lit. 'I ate well.' Pairs with 잘 먹겠습니다.","tgt":""}
+{"f":"cards","id":"ko.c0584","k":"meaning","src":"here / over there","tgt":""}
+{"f":"cards","id":"ko.c0584","k":"note","src":"거기 (geogi) = there (near you).","tgt":""}
+{"f":"cards","id":"ko.c0585","k":"meaning","src":"left","tgt":""}
+{"f":"cards","id":"ko.c0585","k":"note","src":"왼쪽으로 가세요 = go left.","tgt":""}
+{"f":"cards","id":"ko.c0586","k":"meaning","src":"right","tgt":""}
+{"f":"cards","id":"ko.c0586","k":"note","src":"오른쪽으로 = to the right.","tgt":""}
+{"f":"cards","id":"ko.c0587","k":"meaning","src":"Go straight","tgt":""}
+{"f":"cards","id":"ko.c0587","k":"note","src":"쭉 가세요 also works.","tgt":""}
+{"f":"cards","id":"ko.c0588","k":"meaning","src":"subway station","tgt":""}
+{"f":"cards","id":"ko.c0588","k":"note","src":"Seoul Metro is the easiest way around.","tgt":""}
+{"f":"cards","id":"ko.c0589","k":"meaning","src":"bus stop","tgt":""}
+{"f":"cards","id":"ko.c0589","k":"note","src":"정류장 = stop.","tgt":""}
+{"f":"cards","id":"ko.c0590","k":"meaning","src":"taxi","tgt":""}
+{"f":"cards","id":"ko.c0590","k":"note","src":"Tell the driver: ~로 가 주세요 (please go to ~).","tgt":""}
+{"f":"cards","id":"ko.c0591","k":"meaning","src":"airport","tgt":""}
+{"f":"cards","id":"ko.c0591","k":"note","src":"인천공항 = Incheon Airport.","tgt":""}
+{"f":"cards","id":"ko.c0592","k":"meaning","src":"How long does it take?","tgt":""}
+{"f":"cards","id":"ko.c0592","k":"note","src":"걸리다 = to take (time).","tgt":""}
+{"f":"cards","id":"ko.c0593","k":"meaning","src":"Please stop here","tgt":""}
+{"f":"cards","id":"ko.c0593","k":"note","src":"Taxi phrase.","tgt":""}
+{"f":"cards","id":"ko.c0594","k":"meaning","src":"T-money card","tgt":""}
+{"f":"cards","id":"ko.c0594","k":"note","src":"Tap-in transit card. Buy at any convenience store.","tgt":""}
+{"f":"cards","id":"ko.c0595","k":"meaning","src":"How do I get there?","tgt":""}
+{"f":"cards","id":"ko.c0595","k":"note","src":"Add the place + 에: 명동에 어떻게 가요?","tgt":""}
+{"f":"cards","id":"ko.c0596","k":"meaning","src":"today","tgt":""}
+{"f":"cards","id":"ko.c0596","k":"note","src":"오늘 뭐 해요? = what are you doing today?","tgt":""}
+{"f":"cards","id":"ko.c0597","k":"meaning","src":"tomorrow","tgt":""}
+{"f":"cards","id":"ko.c0597","k":"note","src":"내일 봐요 = see you tomorrow.","tgt":""}
+{"f":"cards","id":"ko.c0598","k":"meaning","src":"yesterday","tgt":""}
+{"f":"cards","id":"ko.c0598","k":"note","src":"어제 뭐 했어요? = what did you do yesterday?","tgt":""}
+{"f":"cards","id":"ko.c0599","k":"meaning","src":"now","tgt":""}
+{"f":"cards","id":"ko.c0599","k":"note","src":"지금 몇 시예요? = what time is it now?","tgt":""}
+{"f":"cards","id":"ko.c0600","k":"meaning","src":"morning / lunchtime / evening","tgt":""}
+{"f":"cards","id":"ko.c0600","k":"note","src":"Also mean breakfast / lunch / dinner.","tgt":""}
+{"f":"cards","id":"ko.c0601","k":"meaning","src":"Monday","tgt":""}
+{"f":"cards","id":"ko.c0601","k":"note","src":"요일 = day of the week.","tgt":""}
+{"f":"cards","id":"ko.c0602","k":"meaning","src":"Friday","tgt":""}
+{"f":"cards","id":"ko.c0602","k":"note","src":"불금 = 'burning Friday', Friday night out.","tgt":""}
+{"f":"cards","id":"ko.c0603","k":"meaning","src":"Saturday / Sunday","tgt":""}
+{"f":"cards","id":"ko.c0603","k":"note","src":"주말 (jumal) = weekend.","tgt":""}
+{"f":"cards","id":"ko.c0604","k":"meaning","src":"What time is it?","tgt":""}
+{"f":"cards","id":"ko.c0604","k":"note","src":"몇 = how many; 시 = o'clock.","tgt":""}
+{"f":"cards","id":"ko.c0605","k":"meaning","src":"when","tgt":""}
+{"f":"cards","id":"ko.c0605","k":"note","src":"언제 와요? = when are you coming?","tgt":""}
+{"f":"cards","id":"ko.c0606","k":"meaning","src":"every day","tgt":""}
+{"f":"cards","id":"ko.c0606","k":"note","src":"매일 공부해요 = I study every day.","tgt":""}
+{"f":"cards","id":"ko.c0607","k":"meaning","src":"Do you have time?","tgt":""}
+{"f":"cards","id":"ko.c0607","k":"note","src":"Low-key way to ask someone out.","tgt":""}
+{"f":"cards","id":"ko.c0608","k":"meaning","src":"mom / dad","tgt":""}
+{"f":"cards","id":"ko.c0608","k":"note","src":"어머니 / 아버지 = formal versions.","tgt":""}
+{"f":"cards","id":"ko.c0609","k":"meaning","src":"older brother","tgt":""}
+{"f":"cards","id":"ko.c0609","k":"note","src":"형 if you're male, 오빠 if you're female. Also used for older male friends.","tgt":""}
+{"f":"cards","id":"ko.c0610","k":"meaning","src":"older sister","tgt":""}
+{"f":"cards","id":"ko.c0610","k":"note","src":"누나 if you're male, 언니 if you're female.","tgt":""}
+{"f":"cards","id":"ko.c0611","k":"meaning","src":"younger sibling","tgt":""}
+{"f":"cards","id":"ko.c0611","k":"note","src":"남동생 = younger brother, 여동생 = younger sister.","tgt":""}
+{"f":"cards","id":"ko.c0612","k":"meaning","src":"grandma / grandpa","tgt":""}
+{"f":"cards","id":"ko.c0612","k":"note","src":"Also polite for any elderly person.","tgt":""}
+{"f":"cards","id":"ko.c0613","k":"meaning","src":"family","tgt":""}
+{"f":"cards","id":"ko.c0613","k":"note","src":"가족이 몇 명이에요? = how many in your family?","tgt":""}
+{"f":"cards","id":"ko.c0614","k":"meaning","src":"friend","tgt":""}
+{"f":"cards","id":"ko.c0614","k":"note","src":"Technically same-age friend only.","tgt":""}
+{"f":"cards","id":"ko.c0615","k":"meaning","src":"teacher","tgt":""}
+{"f":"cards","id":"ko.c0615","k":"note","src":"Also a respectful 'sir/ma'am'.","tgt":""}
+{"f":"cards","id":"ko.c0616","k":"meaning","src":"man / woman","tgt":""}
+{"f":"cards","id":"ko.c0616","k":"note","src":"남자친구 = boyfriend, 여자친구 = girlfriend.","tgt":""}
+{"f":"cards","id":"ko.c0617","k":"meaning","src":"person","tgt":""}
+{"f":"cards","id":"ko.c0617","k":"note","src":"한국 사람 = Korean person, 미국 사람 = American, 멕시코 사람 = Mexican: country + 사람.","tgt":""}
+{"f":"cards","id":"ko.c0618","k":"meaning","src":"good / I like it","tgt":""}
+{"f":"cards","id":"ko.c0618","k":"note","src":"안 좋아요 = not good.","tgt":""}
+{"f":"cards","id":"ko.c0619","k":"meaning","src":"bad","tgt":""}
+{"f":"cards","id":"ko.c0619","k":"note","src":"기분이 나빠요 = I feel bad.","tgt":""}
+{"f":"cards","id":"ko.c0620","k":"meaning","src":"big","tgt":""}
+{"f":"cards","id":"ko.c0620","k":"note","src":"크다 → 커요.","tgt":"크다 → 커요.","pre":1}
+{"f":"cards","id":"ko.c0621","k":"meaning","src":"small","tgt":""}
+{"f":"cards","id":"ko.c0621","k":"note","src":"작다 → 작아요.","tgt":"작다 → 작아요.","pre":1}
+{"f":"cards","id":"ko.c0622","k":"meaning","src":"many / a lot","tgt":""}
+{"f":"cards","id":"ko.c0622","k":"note","src":"사람이 많아요 = lots of people.","tgt":""}
+{"f":"cards","id":"ko.c0623","k":"meaning","src":"expensive","tgt":""}
+{"f":"cards","id":"ko.c0623","k":"note","src":"너무 비싸요 = too expensive.","tgt":""}
+{"f":"cards","id":"ko.c0624","k":"meaning","src":"cheap","tgt":""}
+{"f":"cards","id":"ko.c0624","k":"note","src":"싸고 좋아요 = cheap and good.","tgt":""}
+{"f":"cards","id":"ko.c0625","k":"meaning","src":"hot (weather)","tgt":""}
+{"f":"cards","id":"ko.c0625","k":"note","src":"뜨거워요 = hot (to touch).","tgt":""}
+{"f":"cards","id":"ko.c0626","k":"meaning","src":"cold (weather)","tgt":""}
+{"f":"cards","id":"ko.c0626","k":"note","src":"차가워요 = cold (to touch).","tgt":""}
+{"f":"cards","id":"ko.c0627","k":"meaning","src":"busy","tgt":""}
+{"f":"cards","id":"ko.c0627","k":"note","src":"요즘 바빠요 = busy these days.","tgt":""}
+{"f":"cards","id":"ko.c0628","k":"meaning","src":"fun / interesting","tgt":""}
+{"f":"cards","id":"ko.c0628","k":"note","src":"재미없어요 = boring.","tgt":""}
+{"f":"cards","id":"ko.c0629","k":"meaning","src":"hard / exhausting","tgt":""}
+{"f":"cards","id":"ko.c0629","k":"note","src":"Complaint of choice.","tgt":""}
+{"f":"cards","id":"ko.c0630","k":"meaning","src":"Really?","tgt":""}
+{"f":"cards","id":"ko.c0630","k":"note","src":"Also 진짜로. 정말? (jeongmal) is slightly softer.","tgt":""}
+{"f":"cards","id":"ko.c0631","k":"meaning","src":"Awesome / no way","tgt":""}
+{"f":"cards","id":"ko.c0631","k":"note","src":"Good or bad surprise. 대박 사건 = huge deal.","tgt":""}
+{"f":"cards","id":"ko.c0632","k":"meaning","src":"OMG / what","tgt":""}
+{"f":"cards","id":"ko.c0632","k":"note","src":"Stunned reaction. Mostly texting and casual speech.","tgt":""}
+{"f":"cards","id":"ko.c0633","k":"meaning","src":"Oh my / ugh","tgt":""}
+{"f":"cards","id":"ko.c0633","k":"note","src":"Sigh word for any small misfortune.","tgt":""}
+{"f":"cards","id":"ko.c0634","k":"meaning","src":"It's okay","tgt":""}
+{"f":"cards","id":"ko.c0634","k":"note","src":"Casual. Said while clearly not okay.","tgt":""}
+{"f":"cards","id":"ko.c0635","k":"meaning","src":"Are you crazy?","tgt":""}
+{"f":"cards","id":"ko.c0635","k":"note","src":"Casual, often affectionate.","tgt":""}
+{"f":"cards","id":"ko.c0636","k":"meaning","src":"Don't go","tgt":""}
+{"f":"cards","id":"ko.c0636","k":"note","src":"Verb stem + 지 마 = don't.","tgt":""}
+{"f":"cards","id":"ko.c0637","k":"meaning","src":"I missed you","tgt":""}
+{"f":"cards","id":"ko.c0637","k":"note","src":"Past of 보고 싶어.","tgt":""}
+{"f":"cards","id":"ko.c0638","k":"meaning","src":"What do I do / oh no","tgt":""}
+{"f":"cards","id":"ko.c0638","k":"note","src":"Said with hands on face.","tgt":""}
+{"f":"cards","id":"ko.c0639","k":"meaning","src":"You got this!","tgt":""}
+{"f":"cards","id":"ko.c0639","k":"note","src":"From 'fighting'. Cheer before anything hard.","tgt":""}
+{"f":"cards","id":"ko.c0640","k":"meaning","src":"Got it / okay","tgt":""}
+{"f":"cards","id":"ko.c0640","k":"note","src":"Polite: 알았어요 or 알겠습니다.","tgt":""}
+{"f":"cards","id":"ko.c0641","k":"meaning","src":"What did you say?","tgt":""}
+{"f":"cards","id":"ko.c0641","k":"note","src":"Casual. 네? (ne?) is the polite 'pardon?'","tgt":""}
+{"f":"cards","id":"ko.c0645","k":"meaning","src":"thing; the one (that…)","tgt":""}
+{"f":"cards","id":"ko.c0645","k":"note","src":"Never alone: 이것 = this thing, 좋은 것 = a good one. Spoken: 거.","tgt":""}
+{"f":"cards","id":"ko.c0646","k":"meaning","src":"way; possibility (in -ㄹ 수 있다)","tgt":""}
+{"f":"cards","id":"ko.c0646","k":"note","src":"갈 수 있어요 = I can go. Never alone.","tgt":""}
+{"f":"cards","id":"ko.c0647","k":"meaning","src":"thing (spoken form of 것)","tgt":""}
+{"f":"cards","id":"ko.c0647","k":"note","src":"이거, 제 거 = mine. What people actually say.","tgt":""}
+{"f":"cards","id":"ko.c0648","k":"meaning","src":"words; what someone says","tgt":""}
+{"f":"cards","id":"ko.c0648","k":"note","src":"말이 빨라요 = you talk fast. 말 also means horse.","tgt":""}
+{"f":"cards","id":"ko.c0649","k":"meaning","src":"work; job; matter","tgt":""}
+{"f":"cards","id":"ko.c0649","k":"note","src":"일이 많아요 = I have a lot of work. Also: day (counter), one (Sino-Korean).","tgt":""}
+{"f":"cards","id":"ko.c0650","k":"meaning","src":"time (when something happens)","tgt":""}
+{"f":"cards","id":"ko.c0650","k":"note","src":"어릴 때 = when I was little; 그때 = back then.","tgt":""}
+{"f":"cards","id":"ko.c0651","k":"meaning","src":"problem; question (on a test)","tgt":""}
+{"f":"cards","id":"ko.c0651","k":"note","src":"문제없어요 = no problem.","tgt":""}
+{"f":"cards","id":"ko.c0652","k":"meaning","src":"inside (deep in)","tgt":""}
+{"f":"cards","id":"ko.c0652","k":"note","src":"마음속 = deep in your heart; 물속 = underwater.","tgt":""}
+{"f":"cards","id":"ko.c0653","k":"meaning","src":"middle; in the middle of","tgt":""}
+{"f":"cards","id":"ko.c0653","k":"note","src":"회의 중이에요 = I'm in a meeting.","tgt":""}
+{"f":"cards","id":"ko.c0654","k":"meaning","src":"thought; idea","tgt":""}
+{"f":"cards","id":"ko.c0654","k":"note","src":"좋은 생각이에요 = good idea. Verb: 생각하다.","tgt":""}
+{"f":"cards","id":"ko.c0655","k":"meaning","src":"sound; noise","tgt":""}
+{"f":"cards","id":"ko.c0655","k":"note","src":"무슨 소리예요? = what's that noise? (also: what nonsense!)","tgt":""}
+{"f":"cards","id":"ko.c0656","k":"meaning","src":"degree; about (an amount)","tgt":""}
+{"f":"cards","id":"ko.c0656","k":"note","src":"한 시간 정도 = about an hour.","tgt":""}
+{"f":"cards","id":"ko.c0657","k":"meaning","src":"child","tgt":""}
+{"f":"cards","id":"ko.c0657","k":"note","src":"Spoken: 애. Polite for someone's child: 아드님 / 따님.","tgt":""}
+{"f":"cards","id":"ko.c0658","k":"meaning","src":"time; hours","tgt":""}
+{"f":"cards","id":"ko.c0658","k":"note","src":"시간 있어요? = are you free? Counted: 두 시간 = two hours.","tgt":""}
+{"f":"cards","id":"ko.c0659","k":"meaning","src":"mother (respectful)","tgt":""}
+{"f":"cards","id":"ko.c0659","k":"note","src":"Family talk: 엄마. Someone else's: 어머님.","tgt":""}
+{"f":"cards","id":"ko.c0660","k":"meaning","src":"next; next time","tgt":""}
+{"f":"cards","id":"ko.c0660","k":"note","src":"다음 주 = next week; 다음에 봐요 = see you next time.","tgt":""}
+{"f":"cards","id":"ko.c0661","k":"meaning","src":"place","tgt":""}
+{"f":"cards","id":"ko.c0661","k":"note","src":"좋은 곳 = a nice place. Spoken also: 데.","tgt":""}
+{"f":"cards","id":"ko.c0662","k":"meaning","src":"world","tgt":""}
+{"f":"cards","id":"ko.c0662","k":"note","src":"세계 여행 = a trip around the world.","tgt":""}
+{"f":"cards","id":"ko.c0663","k":"meaning","src":"money","tgt":""}
+{"f":"cards","id":"ko.c0663","k":"note","src":"돈이 없어요 = I'm broke.","tgt":""}
+{"f":"cards","id":"ko.c0664","k":"meaning","src":"day","tgt":""}
+{"f":"cards","id":"ko.c0664","k":"note","src":"그날 = that day; 좋은 날 = a good day.","tgt":""}
+{"f":"cards","id":"ko.c0665","k":"meaning","src":"heart; mind; feelings","tgt":""}
+{"f":"cards","id":"ko.c0665","k":"note","src":"마음에 들어요 = I like it (it pleases me).","tgt":""}
+{"f":"cards","id":"ko.c0666","k":"meaning","src":"after; later","tgt":""}
+{"f":"cards","id":"ko.c0666","k":"note","src":"밥 먹은 후에 = after eating. Same as 뒤 for time.","tgt":""}
+{"f":"cards","id":"ko.c0667","k":"meaning","src":"father (respectful)","tgt":""}
+{"f":"cards","id":"ko.c0667","k":"note","src":"Family talk: 아빠. Someone else's: 아버님.","tgt":""}
+{"f":"cards","id":"ko.c0668","k":"meaning","src":"body","tgt":""}
+{"f":"cards","id":"ko.c0668","k":"note","src":"몸이 안 좋아요 = I don't feel well.","tgt":""}
+{"f":"cards","id":"ko.c0669","k":"meaning","src":"face","tgt":""}
+{"f":"cards","id":"ko.c0669","k":"note","src":"얼굴이 빨개요 = your face is red.","tgt":""}
+{"f":"cards","id":"ko.c0670","k":"meaning","src":"appearance; how someone looks","tgt":""}
+{"f":"cards","id":"ko.c0670","k":"note","src":"웃는 모습 = the way you look when you smile.","tgt":""}
+{"f":"cards","id":"ko.c0671","k":"meaning","src":"road; way","tgt":""}
+{"f":"cards","id":"ko.c0671","k":"note","src":"길이 막혀요 = the traffic is bad.","tgt":""}
+{"f":"cards","id":"ko.c0672","k":"meaning","src":"daily life; living","tgt":""}
+{"f":"cards","id":"ko.c0672","k":"note","src":"한국 생활 = life in Korea.","tgt":""}
+{"f":"cards","id":"ko.c0673","k":"meaning","src":"way (of doing something); method","tgt":""}
+{"f":"cards","id":"ko.c0673","k":"note","src":"좋은 방법 = a good way to do it.","tgt":""}
+{"f":"cards","id":"ko.c0674","k":"meaning","src":"the first time; the beginning","tgt":""}
+{"f":"cards","id":"ko.c0674","k":"note","src":"처음이에요 = it's my first time.","tgt":""}
+{"f":"cards","id":"ko.c0675","k":"meaning","src":"hand","tgt":""}
+{"f":"cards","id":"ko.c0675","k":"note","src":"손 씻으세요 = wash your hands.","tgt":""}
+{"f":"cards","id":"ko.c0676","k":"meaning","src":"story; talk","tgt":""}
+{"f":"cards","id":"ko.c0676","k":"note","src":"Spoken: 얘기. 이야기해요 = we talk.","tgt":""}
+{"f":"cards","id":"ko.c0677","k":"meaning","src":"company; the office","tgt":""}
+{"f":"cards","id":"ko.c0677","k":"note","src":"회사에 가요 = I'm going to work.","tgt":""}
+{"f":"cards","id":"ko.c0678","k":"meaning","src":"content; what it's about","tgt":""}
+{"f":"cards","id":"ko.c0678","k":"note","src":"무슨 내용이에요? = what's it about?","tgt":""}
+{"f":"cards","id":"ko.c0679","k":"meaning","src":"book","tgt":""}
+{"f":"cards","id":"ko.c0679","k":"note","src":"책을 읽어요. Counted: 한 권.","tgt":""}
+{"f":"cards","id":"ko.c0680","k":"meaning","src":"point; aspect; dot","tgt":""}
+{"f":"cards","id":"ko.c0680","k":"note","src":"좋은 점 = a good point; 점 also = a mole on the skin.","tgt":""}
+{"f":"cards","id":"ko.c0681","k":"meaning","src":"country","tgt":""}
+{"f":"cards","id":"ko.c0681","k":"note","src":"어느 나라 사람이에요? = which country are you from?","tgt":""}
+{"f":"cards","id":"ko.c0682","k":"meaning","src":"student","tgt":""}
+{"f":"cards","id":"ko.c0682","k":"note","src":"학생이에요? = are you a student?","tgt":""}
+{"f":"cards","id":"ko.c0683","k":"meaning","src":"name","tgt":""}
+{"f":"cards","id":"ko.c0683","k":"note","src":"Polite for an elder's name: 성함.","tgt":""}
+{"f":"cards","id":"ko.c0684","k":"meaning","src":"reason","tgt":""}
+{"f":"cards","id":"ko.c0684","k":"note","src":"이유가 뭐예요? = what's the reason?","tgt":""}
+{"f":"cards","id":"ko.c0685","k":"meaning","src":"husband","tgt":""}
+{"f":"cards","id":"ko.c0685","k":"note","src":"Spouses call each other 여보 or 자기.","tgt":""}
+{"f":"cards","id":"ko.c0686","k":"meaning","src":"night","tgt":""}
+{"f":"cards","id":"ko.c0686","k":"note","src":"오늘 밤 = tonight. 밤 also means chestnut.","tgt":""}
+{"f":"cards","id":"ko.c0687","k":"meaning","src":"computer","tgt":""}
+{"f":"cards","id":"ko.c0687","k":"note","src":"컴퓨터가 고장 났어요 = the computer broke.","tgt":""}
+{"f":"cards","id":"ko.c0688","k":"meaning","src":"head; hair","tgt":""}
+{"f":"cards","id":"ko.c0688","k":"note","src":"머리가 아파요 = headache; 머리 잘랐어요 = I got a haircut.","tgt":""}
+{"f":"cards","id":"ko.c0689","k":"meaning","src":"son","tgt":""}
+{"f":"cards","id":"ko.c0689","k":"note","src":"Someone else's son (polite): 아드님.","tgt":""}
+{"f":"cards","id":"ko.c0690","k":"meaning","src":"room","tgt":""}
+{"f":"cards","id":"ko.c0690","k":"note","src":"제 방 = my room. Also -방 places: 노래방, PC방.","tgt":""}
+{"f":"cards","id":"ko.c0691","k":"meaning","src":"end","tgt":""}
+{"f":"cards","id":"ko.c0691","k":"note","src":"끝났어요 = it's over.","tgt":""}
+{"f":"cards","id":"ko.c0692","k":"meaning","src":"sky","tgt":""}
+{"f":"cards","id":"ko.c0692","k":"note","src":"하늘이 맑아요 = the sky is clear.","tgt":""}
+{"f":"cards","id":"ko.c0693","k":"meaning","src":"love (the noun)","tgt":""}
+{"f":"cards","id":"ko.c0693","k":"note","src":"첫사랑 = first love. Verb: 사랑하다.","tgt":""}
+{"f":"cards","id":"ko.c0694","k":"meaning","src":"phone call; telephone","tgt":""}
+{"f":"cards","id":"ko.c0694","k":"note","src":"전화해요 = I call; 전화 왔어요 = there's a call.","tgt":""}
+{"f":"cards","id":"ko.c0695","k":"meaning","src":"taste; flavor","tgt":""}
+{"f":"cards","id":"ko.c0695","k":"note","src":"맛이 어때요? = how does it taste?","tgt":""}
+{"f":"cards","id":"ko.c0696","k":"meaning","src":"food (a dish, cuisine)","tgt":""}
+{"f":"cards","id":"ko.c0696","k":"note","src":"한국 음식 = Korean food.","tgt":""}
+{"f":"cards","id":"ko.c0697","k":"meaning","src":"wife","tgt":""}
+{"f":"cards","id":"ko.c0697","k":"note","src":"Casual: 와이프. Someone else's: 부인.","tgt":""}
+{"f":"cards","id":"ko.c0698","k":"meaning","src":"age","tgt":""}
+{"f":"cards","id":"ko.c0698","k":"note","src":"Polite: 연세. Age decides how people talk to each other.","tgt":""}
+{"f":"cards","id":"ko.c0699","k":"meaning","src":"daughter","tgt":""}
+{"f":"cards","id":"ko.c0699","k":"note","src":"Someone else's daughter (polite): 따님.","tgt":""}
+{"f":"cards","id":"ko.c0700","k":"meaning","src":"mountain","tgt":""}
+{"f":"cards","id":"ko.c0700","k":"note","src":"Korea is two-thirds mountains: 산에 가요 = we go hiking.","tgt":""}
+{"f":"cards","id":"ko.c0701","k":"meaning","src":"door","tgt":""}
+{"f":"cards","id":"ko.c0701","k":"note","src":"문 좀 닫아 주세요.","tgt":"문 좀 닫아 주세요.","pre":1}
+{"f":"cards","id":"ko.c0702","k":"meaning","src":"song","tgt":""}
+{"f":"cards","id":"ko.c0702","k":"note","src":"노래 불러요 = I sing.","tgt":""}
+{"f":"cards","id":"ko.c0703","k":"meaning","src":"sea; beach","tgt":""}
+{"f":"cards","id":"ko.c0703","k":"note","src":"바다에 가요 = we're going to the beach.","tgt":""}
+{"f":"cards","id":"ko.c0704","k":"meaning","src":"mood; how you feel","tgt":""}
+{"f":"cards","id":"ko.c0704","k":"note","src":"기분이 어때요? = how are you feeling?","tgt":""}
+{"f":"cards","id":"ko.c0705","k":"meaning","src":"clothes","tgt":""}
+{"f":"cards","id":"ko.c0705","k":"note","src":"옷이 예뻐요. Counted: 한 벌.","tgt":""}
+{"f":"cards","id":"ko.c0706","k":"meaning","src":"dream","tgt":""}
+{"f":"cards","id":"ko.c0706","k":"note","src":"꿈을 꿔요 = I have a dream (asleep).","tgt":""}
+{"f":"cards","id":"ko.c0707","k":"meaning","src":"thing; item (an object you buy or own)","tgt":""}
+{"f":"cards","id":"ko.c0707","k":"note","src":"물건을 사요 = I buy things.","tgt":""}
+{"f":"cards","id":"ko.c0708","k":"meaning","src":"experience","tgt":""}
+{"f":"cards","id":"ko.c0708","k":"note","src":"좋은 경험이었어요 = it was a good experience.","tgt":""}
+{"f":"cards","id":"ko.c0709","k":"meaning","src":"rain","tgt":""}
+{"f":"cards","id":"ko.c0709","k":"note","src":"비가 와요 = it's raining (rain comes).","tgt":""}
+{"f":"cards","id":"ko.c0710","k":"meaning","src":"hometown","tgt":""}
+{"f":"cards","id":"ko.c0710","k":"note","src":"고향이 어디예요? = where are you from originally?","tgt":""}
+{"f":"cards","id":"ko.c0711","k":"meaning","src":"baby","tgt":""}
+{"f":"cards","id":"ko.c0711","k":"note","src":"아기가 자요 = the baby is sleeping.","tgt":""}
+{"f":"cards","id":"ko.c0712","k":"meaning","src":"middle-aged man; sir (to a stranger)","tgt":""}
+{"f":"cards","id":"ko.c0712","k":"note","src":"To taxi drivers, shopkeepers. Don't use it to a young man.","tgt":""}
+{"f":"cards","id":"ko.c0713","k":"meaning","src":"month; the moon","tgt":""}
+{"f":"cards","id":"ko.c0713","k":"note","src":"이번 달 = this month. Counted: 한 달.","tgt":""}
+{"f":"cards","id":"ko.c0714","k":"meaning","src":"the last (one)","tgt":""}
+{"f":"cards","id":"ko.c0714","k":"note","src":"마지막 기회 = the last chance.","tgt":""}

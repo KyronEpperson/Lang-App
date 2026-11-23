@@ -13,7 +13,7 @@
 {"id":"ko.g013","tr":"Maaf, tolong ulangi. / Stasiun kereta bawah tanahnya di sebelah kiri."}
 {"id":"ko.g014","tr":"Bisa bahasa Inggris? / Sedikit. Saya bicara pelan-pelan, ya."}
 {"id":"ko.g015","tr":"Ini apa? / Tteokbokki. Agak pedas."}
-{"id":"ko.g016","tr":"Bisa pakai kartu? / Ya, bisa. Tolong masukkan di sini."}
+{"id":"ko.g016","tr":"Bisa bayar pakai kartu? / Ya, bisa. Tolong masukkan di sini."}
 {"id":"ko.g017","tr":"Kata sandi wifi-nya apa? / Ada di struk."}
 {"id":"ko.g018","tr":"Saya tersesat. Ini di mana? / Ini Hongdae. Mau ke mana?"}
 {"id":"ko.g019","tr":"Siapa namamu? / Saya @@. Siapa namamu?"}
@@ -26,30 +26,30 @@
 {"id":"ko.g026","tr":"Lama tidak bertemu! Apa kabar selama ini? / Ya, baik, berkat kamu. Kamu apa kabar selama ini?"}
 {"id":"ko.g027","tr":"Bagaimana kabarmu belakangan ini? / Sibuk. Tapi seru."}
 {"id":"ko.g028","tr":"Hari ini cuacanya bagus, ya. / Ya, pas sekali untuk jalan-jalan."}
-{"id":"ko.g029","tr":"Apa rencanamu akhir pekan ini? / Saya mau mendaki gunung. Mau ikut?"}
+{"id":"ko.g029","tr":"Apa rencanamu akhir pekan ini? / Saya mau mendaki gunung. Mau ikut?","_note":"같이 갈래요? is \"Mau pergi bersama?\" on c0484; when the speaker is already going, Indonesian says \"Mau ikut?\"."}
 {"id":"ko.g030","tr":"Hari ini seru. Sampai jumpa lagi! / Ya, nanti saya hubungi, ya."}
 {"id":"ko.g031","tr":"Saya pergi duluan, ya. Selamat tinggal. / Ya, selamat jalan."}
-{"id":"ko.g032","tr":"Aku bosan. Yuk, main! / Siap! Mau bertemu di mana?"}
+{"id":"ko.g032","tr":"Aku bosan. Yuk, main! / Oke, setuju! Kita ketemu di mana?"}
 {"id":"ko.g033","tr":"Besok ada waktu? / Ada, sore. Kenapa?"}
-{"id":"ko.g034","tr":"Aku mau ke kafe, mau ikut? / Boleh, yuk!"}
+{"id":"ko.g034","tr":"Aku mau ke kafe, mau ikut? / Boleh, yuk!","_note":"같이 갈래? is \"Mau pergi bersama?\" on c0484; when the speaker is already going, Indonesian says \"mau ikut?\"."}
 {"id":"ko.g035","tr":"Lapar. Mau pergi makan? / Iya! Kita makan apa?"}
-{"id":"ko.g036","tr":"Kita kapan bertemu? / Gimana kalau Sabtu?"}
-{"id":"ko.g037","tr":"Mau bertemu di mana? / Yuk, bertemu di pintu keluar 11 Stasiun Gangnam."}
-{"id":"ko.g038","tr":"Di mana? Udah dekat? / Maaf, aku jalan sekarang. 5 menit!"}
+{"id":"ko.g036","tr":"Kapan kita ketemu? / Gimana kalau Sabtu?"}
+{"id":"ko.g037","tr":"Kita ketemu di mana? / Yuk, ketemu di pintu keluar 11 Stasiun Gangnam."}
+{"id":"ko.g038","tr":"Kamu di mana? Udah hampir sampai? / Maaf, aku ke sana sekarang, ya. 5 menit!"}
 {"id":"ko.g039","tr":"Hari ini seru sekali. / Aku juga. Yuk, main lagi!"}
-{"id":"ko.g040","tr":"Sudah siap memesan? / Minta satu iced americano."}
-{"id":"ko.g041","tr":"Untuk di sini? / Tidak, dibungkus."}
+{"id":"ko.g040","tr":"Sudah siap memesan? / Minta satu es Americano."}
+{"id":"ko.g041","tr":"Makan di sini? / Tidak, dibungkus."}
 {"id":"ko.g042","tr":"Ada ukuran apa saja? / Ada tall, grande, venti."}
-{"id":"ko.g043","tr":"Mau kumpulkan poin? / Tidak, tidak usah.","_note":"괜찮아요 here is a polite refusal ('no, thanks'): Indonesian says Tidak usah, not the fixed Tidak apa-apa."}
+{"id":"ko.g043","tr":"Punya kartu poin? / Tidak, tidak usah.","_note":"괜찮아요 here is a polite refusal ('no, thanks'): Indonesian says Tidak usah, not the fixed Tidak apa-apa."}
 {"id":"ko.g044","tr":"Tolong panaskan ini. / Ya, perlu satu menit."}
-{"id":"ko.g045","tr":"Perlu kantong? / Ya, minta satu."}
-{"id":"ko.g046","tr":"Tunai atau kartu? / Pakai kartu, ya."}
+{"id":"ko.g045","tr":"Perlu kantong plastik? / Ya, minta satu."}
+{"id":"ko.g046","tr":"Tunai atau kartu? / Saya bayar pakai kartu, ya."}
 {"id":"ko.g047","tr":"Apotek di mana? / Ada di lantai 1 gedung itu."}
 {"id":"ko.g048","tr":"Sakitnya di mana? / Kepala saya sakit. Saya juga demam."}
 {"id":"ko.g049","tr":"Ada obat pereda nyeri? / Ya, silakan minum ini sesudah makan."}
 {"id":"ko.g050","tr":"Ada alergi? / Ya, saya alergi kacang tanah."}
 {"id":"ko.g051","tr":"Sehari diminum berapa kali? / Tiga kali sehari, 30 menit sesudah makan."}
-{"id":"ko.g052","tr":"Paket! / Ya, tolong taruh di depan pintu."}
+{"id":"ko.g052","tr":"Paket! / Ya, tolong taruh di depan pintu.","_note":"택배 왔어요 is \"Paketnya sudah datang\" on the card; here the courier calls out, and Indonesian couriers shout \"Paket!\"."}
 {"id":"ko.g053","tr":"Sewa bulanannya berapa? / 500.000 won. Sudah termasuk biaya pengelolaan."}
 {"id":"ko.g054","tr":"Ini bisa di-dry clean? / Ya, silakan ambil besok sore."}
 {"id":"ko.g055","tr":"Mulai hari ini kita bekerja bersama. Mohon bantuannya. / Ya, saya juga mohon bantuannya."}
@@ -58,28 +58,28 @@
 {"id":"ko.g058","tr":"Bulan depan saya ke Korea. / Sungguh? Ke mana?"}
 {"id":"ko.g059","tr":"Saya pamit dulu, ya. Selamat tinggal. / Ya, hati-hati di jalan."}
 {"id":"ko.g060","tr":"Sampai jumpa lagi lain kali. / Ya, nanti saya hubungi, ya!"}
-{"id":"ko.g061","tr":"Hei, kamu sedang apa? / Menonton Netflix di rumah. Kenapa?"}
+{"id":"ko.g061","tr":"Hei, lagi apa? / Menonton Netflix di rumah. Kenapa?"}
 {"id":"ko.g062","tr":"Nanti malam ada waktu? / Iya, setelah jam tujuh."}
-{"id":"ko.g063","tr":"Mau main ke rumahku? Aku pesan ayam goreng, ya. / Siap! Aku bawa bir, ya."}
+{"id":"ko.g063","tr":"Mau main ke rumahku? Aku pesan ayam goreng, ya. / Oke, setuju! Aku bawa bir, ya."}
 {"id":"ko.g064","tr":"Hari ini seru sekali. Yuk, main lagi! / Oke, sampai jumpa minggu depan!"}
 {"id":"ko.g065","tr":"Boleh minta nomormu? / Iya, 010-3322-7788."}
 {"id":"ko.g066","tr":"Punya Instagram? / Ya, nanti saya beri tahu ID saya, ya."}
-{"id":"ko.g067","tr":"Hari ini menyenangkan. Gimana kalau kita bertemu lagi? / Oke. Kali ini aku yang traktir, ya."}
+{"id":"ko.g067","tr":"Hari ini menyenangkan. Gimana kalau kita ketemu lagi? / Oke. Kali ini aku yang traktir, ya."}
 {"id":"ko.g068","tr":"Sudah malam. Aku antar, ya. / Nggak apa-apa, aku naik kereta bawah tanah aja."}
 {"id":"ko.g069","tr":"Hari ini kamu cantik, ya. / Terima kasih. Saya potong rambut."}
 {"id":"ko.g070","tr":"Sudah datang? Saya rindu. / Saya juga. Lama menunggu?"}
 {"id":"ko.g071","tr":"Udah sampai rumah dengan selamat? / Iya, baru sampai. Makasih untuk hari ini."}
-{"id":"ko.g072","tr":"Aku tidur dulu, ya. Selamat tidur! / Iya, mimpi indah, ya."}
+{"id":"ko.g072","tr":"Aku tidur dulu. Tidur nyenyak, ya! / Iya, mimpi indah, ya."}
 {"id":"ko.g073","tr":"Udah makan? / Belum. Mau makan bersama?"}
-{"id":"ko.g074","tr":"Kamu sedang apa? / Aku berbaring aja. Bosan."}
-{"id":"ko.g075","tr":"Di mana? Udah dekat? / Maaf, lima menit lagi! Aku baru turun dari kereta bawah tanah."}
+{"id":"ko.g074","tr":"Lagi apa? / Aku berbaring aja. Bosan."}
+{"id":"ko.g075","tr":"Kamu di mana? Udah hampir sampai? / Maaf, lima menit lagi! Aku baru turun dari kereta bawah tanah."}
 {"id":"ko.g076","tr":"Sepertinya aku akan sedikit terlambat. / Nggak apa-apa, pelan-pelan aja. Aku di kafe, ya."}
 {"id":"ko.g077","tr":"Lihat meme ini wkwkwk / Aduh, lucu sekali wkwkwk"}
 {"id":"ko.g078","tr":"Ini aku yang buat. / Wah, keren! Gimana cara buatnya?"}
-{"id":"ko.g079","tr":"Aku lulus ujian! / Serius? Hebat!"}
-{"id":"ko.g080","tr":"Hari ini aku lembur… / Pasti lelah, ya. Istirahat yang cukup."}
+{"id":"ko.g079","tr":"Aku lulus ujian! / Serius? Bagus sekali!"}
+{"id":"ko.g080","tr":"Hari ini aku lembur… / Kamu udah berusaha keras. Istirahat yang cukup, ya."}
 {"id":"ko.g081","tr":"Pulang kerja, mau minum-minum? / Boleh! Di mana?"}
-{"id":"ko.g082","tr":"Aku gugup sekali soal wawancara. / Tetap semangat! Kamu pasti berhasil."}
+{"id":"ko.g082","tr":"Aku gugup sekali soal wawancara. / Semangat, ya! Kamu pasti berhasil."}
 {"id":"ko.g083","tr":"Besok ada rencana apa? / Besok saya libur. Kenapa?"}
 {"id":"ko.g084","tr":"Sekarang jam berapa? / Jam setengah tiga."}
 {"id":"ko.g085","tr":"Sekarang jam berapa? / Jam sembilan lewat sepuluh."}
@@ -90,12 +90,12 @@
 {"id":"ko.g090","tr":"Aku menang lotre! / Luar biasa! Berapa?"}
 {"id":"ko.g091","tr":"Dompetku hilang… / Aduh, gimana ini! Udah coba ke kantor polisi?"}
 {"id":"ko.g092","tr":"Besok aku presentasi. / Semangat! Kamu pasti bisa."}
-{"id":"ko.g093","tr":"Silakan makan yang banyak. / Ya, terima kasih, saya makan, ya!"}
+{"id":"ko.g093","tr":"Silakan makan yang banyak. / Ya, terima kasih atas makanannya!"}
 {"id":"ko.g094","tr":"Boleh tahu nama Anda? / Saya Kim Minsu."}
 {"id":"ko.g095","tr":"Silakan duduk di sini. / Terima kasih."}
 {"id":"ko.g096","tr":"Permisi, ada orang di rumah? / Ya, silakan masuk!"}
 {"id":"ko.g097","tr":"Pak/Bu Guru, apa kabar selama ini? / Ya, baik, berkat kamu. Lama tidak bertemu, ya."}
-{"id":"ko.g098","tr":"Kebetulan, bisa tolong fotokan saya? / Ya, tentu. Satu, dua, tiga!"}
+{"id":"ko.g098","tr":"Maaf, bisa tolong fotokan kami? / Ya, tentu. Satu, dua, tiga!","_note":"혹시 opens a request here; Indonesian opens a request with \"Maaf\", not \"Kebetulan\" (kebetulan stays for questions of fact: s0280, requests.02/.10)."}
 {"id":"ko.g099","tr":"Hubungan kita ini apa? / Hmm… aku suka kamu. Mau pacaran?"}
 {"id":"ko.g100","tr":"Kenapa kemarin nggak menghubungi aku? / Maaf, ya, aku yang salah. Jangan marah lagi, ya."}
 {"id":"ko.g101","tr":"Gimana rasanya kalau bersamaku? / Aku nyaman kalau bersamamu. Itu yang paling aku suka."}
@@ -107,19 +107,19 @@
 {"id":"ko.g107","tr":"Pak/Bu Manajer, ada waktu sebentar? / Ya, silakan masuk."}
 {"id":"ko.g108","tr":"Saya pamit pulang lebih dulu. / Ya, terima kasih atas kerja kerasnya."}
 {"id":"ko.g109","tr":"Hari ini ada makan malam tim. / Jam berapa dan di mana?"}
-{"id":"ko.g110","tr":"Kita makan siang apa, ya? / Bagaimana kalau sup kimchi?"}
+{"id":"ko.g110","tr":"Kita makan siang apa, ya? / Bagaimana kalau kimchi jjigae?"}
 {"id":"ko.g111","tr":"Aduh, bosan. Mau apa, ya? / Keluar sini. Yuk, makan ayam goreng!"}
-{"id":"ko.g112","tr":"Hari ini aku lelah sekali. / Tidur lebih awal. Sampai besok."}
-{"id":"ko.g113","tr":"Di mana? / Aku jalan sekarang. 10 menit!"}
+{"id":"ko.g112","tr":"Hari ini aku capek banget. / Tidur lebih awal. Sampai besok."}
+{"id":"ko.g113","tr":"Kamu di mana? / Aku jalan sekarang. 10 menit!"}
 {"id":"ko.g114","tr":"Dia kenapa? / Nggak tahu. Aku juga penasaran."}
 {"id":"ko.g115","tr":"Aku sudah ambilkan tempat duduk. / Memang kamu yang terbaik."}
 {"id":"ko.g116","tr":"Gimana kalau hari ini karaoke? / Yuk! Aku yang traktir."}
 {"id":"ko.g117","tr":"Sepertinya presentasiku akan berantakan. / Jangan khawatir. Lakukan saja seperti waktu latihan."}
 {"id":"ko.g118","tr":"Akhirnya selesai. / Kerja bagus. Mau minum bir?"}
 {"id":"ko.g119","tr":"Ini gimana? Baru beli. / Imut. Cocok untukmu."}
-{"id":"ko.g120","tr":"Aku rindu kamu. / Aku juga. Yuk, bertemu akhir pekan ini."}
+{"id":"ko.g120","tr":"Aku kangen kamu. / Aku juga. Yuk, ketemu akhir pekan ini."}
 {"id":"ko.g121","tr":"Aku suka kamu. / …Aku juga. Kenapa nggak bilang dari dulu?"}
-{"id":"ko.g122","tr":"Sayang, kamu sedang apa? / Memikirkan kamu, tentu saja."}
+{"id":"ko.g122","tr":"Sayang, lagi apa? / Memikirkan kamu, tentu saja."}
 {"id":"ko.g123","tr":"Aku pulang sekarang, ya. / Hati-hati di jalan. Kabari aku kalau sudah sampai."}
 {"id":"ko.g124","tr":"Aku mengantuk. Aku tidur, ya. / Iya, mimpi indah, ya."}
 {"id":"ko.g125","tr":"Kenapa senyum-senyum begitu? / Lihat kamu senyum barusan, jantungku langsung berdebar."}
@@ -128,7 +128,7 @@
 {"id":"ko.g128","tr":"Hubungan kita ini apa? / Yuk, kita pacaran."}
 {"id":"ko.g129","tr":"Aku lulus! / Serius? Selamat!"}
 {"id":"ko.g130","tr":"Aku pulang duluan, ya. / Jangan pergi. Tinggal sebentar lagi."}
-{"id":"ko.g131","tr":"Lama tidak bertemu. / Aku rindu kamu. Apa kabar selama ini?"}
+{"id":"ko.g131","tr":"Lama nggak ketemu. / Aku kangen kamu. Apa kabar selama ini?"}
 {"id":"ko.g132","tr":"Bias-mu siapa? / Kalau saya, main vocal-nya."}
 {"id":"ko.g133","tr":"Belakangan ini dengar lagu apa? / Saya jadi penggemar grup ini. Penampilan panggung mereka bagus sekali."}
 {"id":"ko.g134","tr":"Apa rencanamu akhir pekan ini? / Saya pergi ke konser! Saya bahkan sudah beli lightstick."}
@@ -156,10 +156,10 @@
 {"id":"ko.g156","tr":"Ini Menara Namsan. / Wuih, seluruh Seoul kelihatan!"}
 {"id":"ko.g157","tr":"Bulan depan saya menikah. / Astaga, sungguh? Selamat, ya!"}
 {"id":"ko.g158","tr":"Aduh! Tangan saya terbentur pintu. / Tidak apa-apa? Coba saya lihat."}
-{"id":"ko.g159","tr":"Wajahmu memerah! / Ih, apa-apaan, jangan lihat terus."}
+{"id":"ko.g159","tr":"Wajahmu memerah! / Aduh, jangan dilihat terus."}
 {"id":"ko.g160","tr":"Film ini kira-kira seru, nggak? / Entahlah, aku nggak tahu."}
 {"id":"ko.g161","tr":"Aku kemarin lihat BTS. / Ah, masa? Bohong!"}
-{"id":"ko.g162","tr":"Katanya hari ini tidak ada makan bersama tim. / Yes! Saya mau pulang cepat."}
+{"id":"ko.g162","tr":"Katanya hari ini tidak ada makan malam tim. / Asyik! Saya mau pulang cepat."}
 {"id":"ko.g163","tr":"Sudah jam sebelas. / Waduh, saya harus cepat-cepat!"}
 {"id":"ko.g164","tr":"Ups, kopinya tumpah! / Tidak apa-apa, biar saya yang lap, ya."}
 {"id":"ko.g165","tr":"Bawa payung? / Aduh, lupa! Ketinggalan di rumah."}
@@ -173,13 +173,13 @@
 {"id":"ko.g173","tr":"Aaah, ada serangga! / Diam saja. Biar saya yang tangkap, ya."}
 {"id":"ko.g174","tr":"Tara! Ini hadiah ulang tahunmu. / Wah, terima kasih! Apa ini?"}
 {"id":"ko.g175","tr":"Susu ini sudah kedaluwarsa. / Hoek, saya sudah minum!"}
-{"id":"ko.g176","tr":"Hari ini kamu kelihatan makin cantik. / Sungguh? Saya ganti gaya rambut sedikit."}
+{"id":"ko.g176","tr":"Hari ini kamu kelihatan makin cantik. / Serius? Saya ganti gaya rambut sedikit."}
 {"id":"ko.g177","tr":"Nama saya Haneul. / Namanya pun cantik."}
 {"id":"ko.g178","tr":"Kenapa kamu imut sekali? / Ah, jangan bercanda."}
 {"id":"ko.g179","tr":"Aslinya lebih ganteng. / Haha, sepertinya foto saya kurang bagus."}
 {"id":"ko.g180","tr":"Kamu keren waktu bekerja. / Tiba-tiba? Terima kasih."}
 {"id":"ko.g181","tr":"Senyummu cantik. / Terima kasih. Baru kali ini saya dengar itu."}
-{"id":"ko.g182","tr":"Senyum matamu cantik sekali. / Ih, apa-apaan, saya jadi malu."}
+{"id":"ko.g182","tr":"Senyum matamu cantik sekali. / Aduh, saya jadi malu."}
 {"id":"ko.g183","tr":"Tumben? Sampai menelepon segala. / Cuma ingin dengar suaramu."}
 {"id":"ko.g184","tr":"Bagaimana saya menurutmu? / Jujur, kamu benar-benar tipe saya."}
 {"id":"ko.g185","tr":"Tipe idealmu seperti apa? / Hmm… orang yang murah senyum."}
@@ -192,7 +192,7 @@
 {"id":"ko.g192","tr":"Sesudah kelas, saya traktir kopi, ya. / Kamu orang baik, tapi saya ingin kita berteman saja."}
 {"id":"ko.g193","tr":"Makanannya enak sekali. / Ah, bukan apa-apa. Silakan makan yang banyak."}
 {"id":"ko.g194","tr":"Ini cara membuatnya bagaimana? / Mudah saja. Lain kali saya ajari, ya."}
-{"id":"ko.g195","tr":"Hebat sekali. / Ah, tidak, saya masih jauh dari bisa."}
+{"id":"ko.g195","tr":"Hebat sekali. / Ah, tidak, saya masih harus banyak belajar."}
 {"id":"ko.g196","tr":"Saya sudah baca laporannya. Teliti sekali, ya. / Terima kasih sudah melihatnya dengan baik."}
 {"id":"ko.g197","tr":"Empat puluh tahun? Awet muda, ya. / Pujiannya berlebihan."}
 {"id":"ko.g198","tr":"Anaknya imut sekali. / Terima kasih. Di rumah dia anak yang nakal."}

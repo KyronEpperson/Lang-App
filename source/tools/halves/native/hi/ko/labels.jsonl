@@ -41,7 +41,7 @@
 {"id":"ko.z.expression","text":"रोज़ की बोलचाल"}
 {"id":"ko.z.expression.01","text":"सच में?"}
 {"id":"ko.z.expression.02","text":"अच्छा, ऐसा है"}
-{"id":"ko.z.expression.03","text":"सही है"}
+{"id":"ko.z.expression.03","text":"सही बात है"}
 {"id":"ko.z.expression.04","text":"बिल्कुल"}
 {"id":"ko.z.expression.05","text":"हम्म… पता नहीं"}
 {"id":"ko.z.expression.06","text":"शायद"}
@@ -57,7 +57,7 @@
 {"id":"ko.z.expression.16","text":"हाँ, वही तो"}
 {"id":"ko.z.expression.17","text":"हाय राम / उफ़"}
 {"id":"ko.z.expression.18","text":"ज़रूर"}
-{"id":"ko.z.expression.19","text":"मुझे ठीक से नहीं पता"}
+{"id":"ko.z.expression.19","text":"मुझे पक्का नहीं पता"}
 {"id":"ko.z.expression.20","text":"बहुत दिनों बाद मिले"}
 {"id":"ko.z.expression.21","text":"आज की मेहनत के लिए धन्यवाद"}
 {"id":"ko.z.expression.22","text":"खाने के लिए धन्यवाद (खाने से पहले)"}
@@ -81,7 +81,7 @@
 {"id":"ko.z.polite.13","text":"आराम से जाइए (जाने वाले से)"}
 {"id":"ko.z.polite.14","text":"मदद कीजिए"}
 {"id":"ko.z.polite.15","text":"आपसे मिलकर ख़ुशी हुई (पहली मुलाक़ात में)"}
-{"id":"ko.z.polite.16","text":"मिलकर अच्छा लगा"}
+{"id":"ko.z.polite.16","text":"मिलकर ख़ुशी हुई"}
 {"id":"ko.z.polite.17","text":"पहले आप / आगे बढ़िए"}
 {"id":"ko.z.polite.18","text":"निकलने दीजिए"}
 {"id":"ko.z.saying","text":"कहावत"}

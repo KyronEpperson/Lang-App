@@ -3,13 +3,13 @@
 {"id":"ko.g003","tr":"Tôi xin lỗi vì đến muộn. / Không sao, tôi cũng vừa mới đến."}
 {"id":"ko.g004","tr":"Cái này bao nhiêu tiền? / 12.000 won."}
 {"id":"ko.g005","tr":"Xin lỗi, cho hỏi nhà vệ sinh ở đâu? / Cứ đi thẳng lối kia là được."}
-{"id":"ko.g006","tr":"Quý khách dùng gì ạ? / Cho tôi cái này. Mang về."}
+{"id":"ko.g006","tr":"Quý khách dùng gì ạ? / Cho tôi cái này. Mang đi."}
 {"id":"ko.g007","tr":"Bạn không sao chứ? Có bị thương không? / Vâng, tôi không sao."}
 {"id":"ko.g008","tr":"Xin lỗi, nói chậm giúp tôi. / À, vâng. Tôi sẽ nói chậm lại."}
 {"id":"ko.g009","tr":"Bạn nói tiếng Hàn giỏi quá! / Không đâu, tôi vẫn còn kém lắm."}
 {"id":"ko.g010","tr":"Xin lỗi, cho tôi đi qua. / Vâng, mời đi."}
-{"id":"ko.g011","tr":"Xin lỗi, cho hỏi! Cho tôi thực đơn. / Vâng, chờ một chút."}
-{"id":"ko.g012","tr":"Xin lỗi, cho hỏi, giúp tôi một chút. / Vâng, bạn cần gì?"}
+{"id":"ko.g011","tr":"Xin lỗi! Cho tôi xem thực đơn. / Vâng, chờ một chút."}
+{"id":"ko.g012","tr":"Xin lỗi, giúp tôi một chút với. / Vâng, bạn cần gì?"}
 {"id":"ko.g013","tr":"Xin lỗi, nói lại giúp tôi. / Ga tàu điện ngầm ở bên trái."}
 {"id":"ko.g014","tr":"Bạn nói được tiếng Anh không? / Một chút. Tôi sẽ nói chậm."}
 {"id":"ko.g015","tr":"Cái này là gì? / Tteokbokki. Hơi cay."}
@@ -29,16 +29,16 @@
 {"id":"ko.g029","tr":"Cuối tuần bạn làm gì? / Tôi đi leo núi. Đi cùng không?"}
 {"id":"ko.g030","tr":"Hôm nay vui thật. Hẹn gặp lại! / Vâng, tôi sẽ liên lạc."}
 {"id":"ko.g031","tr":"Tôi xin phép về trước. Tạm biệt (nói với người ở lại). / Vâng, tạm biệt (nói với người ra về)."}
-{"id":"ko.g032","tr":"Chán quá. Đi chơi đi! / Chốt! Gặp nhau ở đâu?"}
+{"id":"ko.g032","tr":"Chán quá. Đi chơi đi! / Chốt! Gặp nhau ở đâu nhỉ?"}
 {"id":"ko.g033","tr":"Mai rảnh không? / Chiều thì rảnh. Sao thế?"}
 {"id":"ko.g034","tr":"Mình đang đi cà phê, đi cùng không? / Được, đi thôi."}
 {"id":"ko.g035","tr":"Đói quá. Đi ăn không? / Ừ! Ăn gì đây?"}
 {"id":"ko.g036","tr":"Bao giờ mình gặp nhau? / Thứ Bảy thì sao?"}
-{"id":"ko.g037","tr":"Gặp nhau ở đâu? / Gặp ở cửa số 11 ga Gangnam nhé."}
-{"id":"ko.g038","tr":"Đang ở đâu? Sắp tới chưa? / Xin lỗi nhé, đi ngay đây. 5 phút!"}
+{"id":"ko.g037","tr":"Gặp nhau ở đâu nhỉ? / Gặp ở lối ra số 11 ga Gangnam nhé."}
+{"id":"ko.g038","tr":"Đang ở đâu đấy? Sắp tới chưa? / Xin lỗi nhé, đi ngay đây. 5 phút!"}
 {"id":"ko.g039","tr":"Hôm nay vui thật sự. / Mình cũng thế. Lần sau lại đi chơi nhé!"}
-{"id":"ko.g040","tr":"Quý khách gọi món chưa ạ? / Cho tôi một cốc americano đá."}
-{"id":"ko.g041","tr":"Quý khách dùng ở đây ạ? / Không, mang về."}
+{"id":"ko.g040","tr":"Quý khách gọi món chưa ạ? / Cho tôi một cốc Americano đá."}
+{"id":"ko.g041","tr":"Quý khách dùng ở đây ạ? / Không, mang đi."}
 {"id":"ko.g042","tr":"Có những cỡ nào? / Có tall, grande, venti."}
 {"id":"ko.g043","tr":"Quý khách có tích điểm không ạ? / Không, không cần đâu."}
 {"id":"ko.g044","tr":"Hâm nóng cái này giúp tôi. / Vâng, mất một phút."}
@@ -62,17 +62,17 @@
 {"id":"ko.g062","tr":"Tối nay rảnh không? / Ừ, sau bảy giờ."}
 {"id":"ko.g063","tr":"Qua nhà mình chơi không? Mình sẽ đặt gà rán. / Chốt! Mình mua bia mang qua."}
 {"id":"ko.g064","tr":"Hôm nay vui thật sự. Lần sau lại đi chơi nhé. / Ừ, tuần sau gặp!"}
-{"id":"ko.g065","tr":"Cho mình xin số điện thoại nhé? / Ừ, 010-3322-7788."}
+{"id":"ko.g065","tr":"Cho mình xin số điện thoại được không? / Ừ, 010-3322-7788."}
 {"id":"ko.g066","tr":"Bạn có Instagram không? / Có, để tôi cho bạn ID."}
 {"id":"ko.g067","tr":"Hôm nay vui lắm. Mình gặp lại nhé? / Ừ. Lần này để mình mời."}
 {"id":"ko.g068","tr":"Muộn rồi. Để mình đưa về. / Không sao, đi tàu điện ngầm là được."}
-{"id":"ko.g069","tr":"Hôm nay bạn xinh quá. / Cảm ơn. Tôi mới cắt tóc."}
+{"id":"ko.g069","tr":"Hôm nay trông bạn xinh quá. / Cảm ơn. Tôi mới cắt tóc."}
 {"id":"ko.g070","tr":"Đến rồi à? Nhớ lắm. / Cũng nhớ lắm. Đợi lâu chưa?"}
 {"id":"ko.g071","tr":"Về đến nhà an toàn chưa? / Ừ, vừa mới tới. Hôm nay cảm ơn nhé."}
 {"id":"ko.g072","tr":"Mình đi ngủ đây. Ngủ ngon! / Ừ, mơ đẹp nhé."}
 {"id":"ko.g073","tr":"Ăn cơm chưa? / Chưa. Ăn cùng không?"}
 {"id":"ko.g074","tr":"Đang làm gì đấy? / Chỉ nằm thôi. Chán quá."}
-{"id":"ko.g075","tr":"Đang ở đâu? Sắp tới chưa? / Xin lỗi nhé, năm phút thôi! Vừa xuống tàu điện ngầm."}
+{"id":"ko.g075","tr":"Đang ở đâu đấy? Sắp tới chưa? / Xin lỗi nhé, năm phút thôi! Vừa xuống tàu điện ngầm."}
 {"id":"ko.g076","tr":"Chắc mình đến muộn một chút. / Không sao, cứ từ từ. Mình đợi ở quán cà phê."}
 {"id":"ko.g077","tr":"Xem ảnh chế này đi haha / Trời ơi buồn cười quá hahaha"}
 {"id":"ko.g078","tr":"Cái này mình tự làm đấy. / Wow, ngầu quá! Làm thế nào vậy?"}
@@ -90,8 +90,8 @@
 {"id":"ko.g090","tr":"Mình trúng xổ số rồi! / Đỉnh quá! Bao nhiêu?"}
 {"id":"ko.g091","tr":"Mình mất ví rồi… / Thôi chết! Đến đồn cảnh sát hỏi chưa?"}
 {"id":"ko.g092","tr":"Mai mình thuyết trình. / Cố lên! Làm được mà."}
-{"id":"ko.g093","tr":"Mời dùng nhiều vào. / Vâng, cảm ơn vì bữa ăn (trước khi ăn)!"}
-{"id":"ko.g094","tr":"Cho tôi hỏi quý danh ạ? / Tôi là Kim Minsu."}
+{"id":"ko.g093","tr":"Ăn nhiều vào nhé. / Vâng, cảm ơn vì bữa ăn (trước khi ăn)!"}
+{"id":"ko.g094","tr":"Xin hỏi quý danh là gì ạ? / Tôi là Kim Minsu."}
 {"id":"ko.g095","tr":"Mời ngồi đây. / Xin cảm ơn."}
 {"id":"ko.g096","tr":"Có ai ở nhà không ạ? / Có, mời vào!"}
 {"id":"ko.g097","tr":"Thầy dạo này vẫn khỏe chứ ạ? / Vâng, nhờ trời. Lâu rồi không gặp."}
@@ -101,7 +101,7 @@
 {"id":"ko.g101","tr":"Ở bên mình thấy thế nào? / Ở bên nhau thấy thoải mái. Thế là tuyệt nhất."}
 {"id":"ko.g102","tr":"Nắm tay được không? / Ừ… vì lạnh à?"}
 {"id":"ko.g103","tr":"Hôm nay là ngày thứ 100 của chúng mình đấy! / Thật á? Chúc mừng 100 ngày. Mình có chuẩn bị quà đấy."}
-{"id":"ko.g104","tr":"Có chuyện muốn nói. / Gì vậy? Có chuyện gì sao?"}
+{"id":"ko.g104","tr":"Mình có chuyện muốn nói với cậu. / Gì vậy? Có chuyện gì sao?"}
 {"id":"ko.g105","tr":"Mấy giờ họp? / Hai giờ. Phòng họp B."}
 {"id":"ko.g106","tr":"Hạn chót là khi nào? / Sáu giờ chiều thứ Sáu."}
 {"id":"ko.g107","tr":"Thưa quản lý, có rảnh một chút không ạ? / Vâng, mời vào."}
@@ -110,9 +110,9 @@
 {"id":"ko.g110","tr":"Trưa nay ăn gì nhỉ? / Canh kimchi thì sao?"}
 {"id":"ko.g111","tr":"Ôi chán quá. Làm gì bây giờ? / Ra đây. Đi ăn gà rán."}
 {"id":"ko.g112","tr":"Hôm nay mệt quá. / Ngủ sớm đi. Mai gặp."}
-{"id":"ko.g113","tr":"Đang ở đâu? / Mình đang đi đây. 10 phút!"}
+{"id":"ko.g113","tr":"Đang ở đâu đấy? / Mình đang đi đây. 10 phút!"}
 {"id":"ko.g114","tr":"Nó bị sao vậy? / Không biết. Mình cũng thắc mắc."}
-{"id":"ko.g115","tr":"Mình giữ chỗ rồi đấy. / Đúng là nhất cậu luôn."}
+{"id":"ko.g115","tr":"Mình giữ chỗ rồi đấy. / Đúng là cậu nhất luôn."}
 {"id":"ko.g116","tr":"Tối nay đi hát karaoke không? / Đi! Mình bao."}
 {"id":"ko.g117","tr":"Chắc buổi thuyết trình hỏng mất. / Đừng lo. Cứ làm như lúc tập là được."}
 {"id":"ko.g118","tr":"Cuối cùng cũng xong. / Vất vả rồi. Làm cốc bia không?"}
@@ -123,9 +123,9 @@
 {"id":"ko.g123","tr":"Mình về đây. / Về cẩn thận nhé. Tới nơi thì nhắn tin."}
 {"id":"ko.g124","tr":"Buồn ngủ. Ngủ đây. / Ừ, mơ đẹp nhé."}
 {"id":"ko.g125","tr":"Sao cười kiểu đó? / Thấy cậu cười lúc nãy, tim mình lỡ một nhịp."}
-{"id":"ko.g126","tr":"Sao lại nhắn tin? / Chẳng sao cả. Cứ nghĩ đến hoài."}
-{"id":"ko.g127","tr":"Nghe nói có chuyện muốn nói à? / Hình như mình thích cậu."}
-{"id":"ko.g128","tr":"Mình là gì của nhau? / Hẹn hò với mình nhé."}
+{"id":"ko.g126","tr":"Sao lại nhắn tin? / Chẳng sao cả. Cứ nghĩ đến cậu mãi."}
+{"id":"ko.g127","tr":"Bảo có chuyện muốn nói mà? / Hình như mình thích cậu mất rồi."}
+{"id":"ko.g128","tr":"Mình là gì của nhau? / Hẹn hò với mình đi."}
 {"id":"ko.g129","tr":"Mình đỗ rồi! / Thật á? Chúc mừng nhé!"}
 {"id":"ko.g130","tr":"Mình về trước đây. / Đừng đi. Ở lại thêm chút nữa."}
 {"id":"ko.g131","tr":"Lâu rồi không gặp. / Nhớ lắm luôn. Dạo này khỏe không?"}
@@ -152,13 +152,13 @@
 {"id":"ko.g152","tr":"Minsu ơi, mình đến rồi. / Ơ, đến rồi à? Vào đi."}
 {"id":"ko.g153","tr":"Mai đi ăn trưa cùng không? / Ừ, được. Mấy giờ?"}
 {"id":"ko.g154","tr":"Bạn muốn ăn gì? / Ừm… hôm nay thì bibimbap."}
-{"id":"ko.g155","tr":"Cái này tôi đã mua bằng tháng lương đầu tiên. / Ồ, ngầu quá!"}
+{"id":"ko.g155","tr":"Cái này tôi mua bằng tháng lương đầu tiên đấy. / Ồ, ngầu quá!"}
 {"id":"ko.g156","tr":"Đây là tháp Namsan. / Oaaa, nhìn thấy cả Seoul luôn!"}
 {"id":"ko.g157","tr":"Tháng sau tôi kết hôn. / Ôi trời, thật à? Chúc mừng nhé!"}
 {"id":"ko.g158","tr":"Ui da! Tôi đập tay vào cửa. / Có sao không? Cho tôi xem nào."}
 {"id":"ko.g159","tr":"Mặt bạn đỏ lên rồi kìa! / Ôi, thôi mà, đừng nhìn nữa."}
 {"id":"ko.g160","tr":"Phim này có hay không nhỉ? / Để xem, mình cũng không chắc."}
-{"id":"ko.g161","tr":"Hôm qua mình đã gặp BTS đấy. / Thôi đi, nói dối!"}
+{"id":"ko.g161","tr":"Hôm qua mình gặp BTS đấy. / Thôi đi, nói dối!"}
 {"id":"ko.g162","tr":"Nghe nói hôm nay không có liên hoan. / Hay quá! Về nhà sớm thôi."}
 {"id":"ko.g163","tr":"Đã mười một giờ rồi. / Chết thật, phải đi nhanh thôi!"}
 {"id":"ko.g164","tr":"Ối, tôi làm đổ cà phê rồi! / Không sao, để tôi lau."}

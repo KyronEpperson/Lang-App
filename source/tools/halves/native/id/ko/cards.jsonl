@@ -65,7 +65,7 @@
 {"id":"ko.c0065","meaning":"Berapa harganya?","note":"Tunjuk barangnya, lalu tanyakan."}
 {"id":"ko.c0066","meaning":"Toilet di mana?","note":"어디예요 = di mana."}
 {"id":"ko.c0067","meaning":"Minta yang ini","note":"Untuk memesan atau berbelanja. 주세요 = minta / tolong berikan."}
-{"id":"ko.c0068","meaning":"Terima kasih, saya makan, ya (sebelum makan)","note":"Harfiah: \"saya akan makan dengan baik\". Terima kasih kepada yang memasak atau mentraktir."}
+{"id":"ko.c0068","meaning":"Terima kasih atas makanannya (sebelum makan)","note":"Harfiah: \"saya akan makan dengan baik\". Terima kasih kepada yang memasak atau mentraktir."}
 {"id":"ko.c0069","meaning":"Tidak apa-apa / Saya baik-baik saja","note":"Juga dipakai untuk menolak dengan sopan."}
 {"id":"ko.c0070","meaning":"Tolong bicara pelan-pelan","note":"Kalimat penyelamat."}
 {"id":"ko.c0071","meaning":"Bahasa Korea saya belum lancar","note":"Dengan kalimat ini, orang jadi lebih sabar."}
@@ -73,11 +73,11 @@
 {"id":"ko.c0073","meaning":"Saya ___","note":"Lihat blok Hangul terakhir: 이에요 setelah konsonan akhir (저는 킴이에요), 예요 setelah vokal (저는 리사예요)."}
 {"id":"ko.c0074","meaning":"Siapa namamu?","note":"Lebih sopan: 성함이 어떻게 되세요?, kepada orang yang lebih tua atau dalam situasi formal."}
 {"id":"ko.c0075","meaning":"Senang bertemu","note":"Harfiah: \"senang karena bertemu\". Formal: 반갑습니다."}
-{"id":"ko.c0076","meaning":"Dari mana asalmu?","note":"에서 = dari. 어디 = mana."}
+{"id":"ko.c0076","meaning":"Dari mana?","note":"에서 = dari. 어디 = mana."}
 {"id":"ko.c0643","meaning":"Saya dari ___","note":"Negara + 에서 왔어요: 미국에서, 멕시코에서, 필리핀에서, 일본에서 왔어요. Semua negara ada di dek Negara."}
 {"id":"ko.c0078","meaning":"Umurmu berapa?","note":"Pertanyaan biasa di Korea: jawabannya menentukan cara bicara, seperti kita memilih \"Kak\" atau \"Dek\"."}
 {"id":"ko.c0079","meaning":"Umur saya 30 tahun","note":"Bilangan asli Korea + 살. 스물다섯 살 = 25 tahun."}
-{"id":"ko.c0080","meaning":"Pekerjaanmu apa?","note":"일 = pekerjaan. 직업이 뭐예요? juga bisa."}
+{"id":"ko.c0080","meaning":"Kerja apa?","note":"일 = pekerjaan. 직업이 뭐예요? juga bisa."}
 {"id":"ko.c0081","meaning":"Saya karyawan kantor","note":"학생 pelajar, 선생님 guru, 개발자 pengembang perangkat lunak, 간호사 perawat."}
 {"id":"ko.c0082","meaning":"Saya belajar bahasa Korea","note":"공부하다 = belajar. Ucapkan ini, dan lawan bicaramu akan senang sekali."}
 {"id":"ko.c0083","meaning":"Hobimu apa?","note":"취미 = hobi. 제 취미는 운동이에요 = hobi saya olahraga."}
@@ -93,13 +93,13 @@
 {"id":"ko.c0092","meaning":"Ini apa?","note":"Tunjuk, lalu tanyakan. Bisa untuk makanan, papan tanda, apa saja."}
 {"id":"ko.c0093","meaning":"Saya ke toilet sebentar, ya","note":"좀 melunakkan; 게요 memberi tahu apa yang akan kamu lakukan."}
 {"id":"ko.c0094","meaning":"Bisa bayar pakai kartu?","note":"돼요 = bisa / boleh."}
-{"id":"ko.c0095","meaning":"Kata sandi wifinya apa?","note":"비밀번호 = kata sandi."}
+{"id":"ko.c0095","meaning":"Kata sandi wifi-nya apa?","note":"비밀번호 = kata sandi."}
 {"id":"ko.c0096","meaning":"Bisa pesan antar?","note":"배달 = pesan antar. Di Korea, apa saja bisa diantar."}
 {"id":"ko.c0097","meaning":"Saya sudah reservasi","note":"예약 = reservasi. 예약 가능해요? = bisa reservasi?"}
 {"id":"ko.c0098","meaning":"Saya tersesat","note":"길 = jalan. 잃다 = kehilangan."}
 {"id":"ko.c0099","meaning":"Rumah sakit di mana?","note":"약국 (yakguk) = apotek. 경찰서 = kantor polisi."}
 {"id":"ko.c0100","meaning":"Pelan-pelan saja","note":"Versi terpendek dari 천천히 말해 주세요."}
-{"id":"ko.c0101","meaning":"Toilet ada di mana?","note":"Bentuk lengkap. Singkatnya: 화장실 어디예요? Keduanya benar."}
+{"id":"ko.c0101","meaning":"Toiletnya di mana?","note":"Bentuk lengkap. Singkatnya: 화장실 어디예요? Keduanya benar."}
 {"id":"ko.c0102","meaning":"Di sini ada toilet?","note":"Kafe dan toko kecil sering tidak punya toilet di dalam."}
 {"id":"ko.c0103","meaning":"Boleh saya pakai toiletnya?","note":"아/어도 돼요 = bolehkah saya …?"}
 {"id":"ko.c0104","meaning":"Kode toiletnya berapa?","note":"Banyak toilet kafe memakai kunci angka. Kodenya tercetak di struk, atau tanyakan ke staf."}
@@ -115,7 +115,7 @@
 {"id":"ko.c0114","meaning":"Dua orang","note":"Jawaban untuk 몇 명이세요? (berapa orang?). 한 명이요 = satu orang. 세 명이요 = tiga orang."}
 {"id":"ko.c0115","meaning":"Boleh saya duduk di sini?","note":"앉다 = duduk."}
 {"id":"ko.c0116","meaning":"Ada charger?","note":"Kafe sering meminjamkannya. 콘센트 = colokan listrik."}
-{"id":"ko.c0117","meaning":"Colokan listrik di mana?","note":"콘센트 berasal dari \"concentric plug\"."}
+{"id":"ko.c0117","meaning":"Colokan listrik di mana?","note":"콘센트 konon berasal dari \"concentric plug\"."}
 {"id":"ko.c0118","meaning":"Ada wifi?","note":"Lanjutkan dengan 비밀번호가 뭐예요?"}
 {"id":"ko.c0119","meaning":"Tutup jam berapa?","note":"닫다 = menutup. 열어요 = buka."}
 {"id":"ko.c0120","meaning":"Buka jam berapa?","note":"열다 = membuka."}
@@ -204,7 +204,7 @@
 {"id":"ko.c0203","meaning":"terakhir","note":"Menutup urutan."}
 {"id":"ko.c0204","meaning":"karena","note":"왜냐하면 … 거든요 / 기 때문이에요."}
 {"id":"ko.c0205","meaning":"atau","note":"커피 아니면 차? = kopi atau teh?"}
-{"id":"ko.c0206","meaning":"kalau begitu","note":"그럼 내일 봐요 = kalau begitu, sampai besok."}
+{"id":"ko.c0206","meaning":"kalau begitu","note":"그럼 내일 봐요 = kalau begitu, sampai jumpa besok."}
 {"id":"ko.c0207","meaning":"sebenarnya","note":"사실 저 한국어 못해요."}
 {"id":"ko.c0208","meaning":"pokoknya / bagaimanapun","note":"Untuk kembali ke topik semula."}
 {"id":"ko.c0209","meaning":"misalnya","note":"Formal: 예를 들어."}
@@ -245,7 +245,7 @@
 {"id":"ko.c0244","meaning":"silakan tidur (hormat)","note":"주무시다 = bentuk hormat dari 자다. 안녕히 주무세요 = selamat tidur (sopan)."}
 {"id":"ko.c0245","meaning":"silakan tinggal / ada (hormat)","note":"계시다 = bentuk hormat dari 있다 (untuk orang). 안녕히 계세요 = Selamat tinggal (diucapkan oleh yang pergi)."}
 {"id":"ko.c0246","meaning":"silakan bicara (hormat)","note":"말씀 = bentuk hormat dari 말. 말씀해 주세요 = tolong katakan."}
-{"id":"ko.c0247","meaning":"Siapa nama Anda? (hormat)","note":"성함 = bentuk hormat dari 이름."}
+{"id":"ko.c0247","meaning":"Boleh tahu nama Anda? (hormat)","note":"성함 = bentuk hormat dari 이름."}
 {"id":"ko.c0248","meaning":"Berapa usia Anda? (hormat)","note":"연세 = bentuk hormat dari 나이. Untuk orang yang lebih tua."}
 {"id":"ko.c0249","meaning":"pergi (hormat)","note":"가다 + 시 + 어요 → 가세요. 조심히 가세요."}
 {"id":"ko.c0250","meaning":"Sudah datang? (hormat, lampau)","note":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?"}
@@ -386,7 +386,7 @@
 {"id":"ko.c0385","meaning":"datang (오다)","note":"Lampau: 왔어요."}
 {"id":"ko.c0386","meaning":"makan (먹다)","note":"Lampau: 먹었어요. 밥 먹었어요? = Sudah makan?"}
 {"id":"ko.c0387","meaning":"minum (마시다)","note":"Lampau: 마셨어요."}
-{"id":"ko.c0388","meaning":"melihat / menonton (보다)","note":"Lampau: 봤어요. 내일 봐요 = sampai besok."}
+{"id":"ko.c0388","meaning":"melihat / menonton (보다)","note":"Lampau: 봤어요. 내일 봐요 = sampai jumpa besok."}
 {"id":"ko.c0389","meaning":"suka (좋아하다)","note":"좋아요 = bagus / saya suka (bentuk kata sifat). Keduanya bisa berarti \"suka\"."}
 {"id":"ko.c0390","meaning":"tahu (알다)","note":"몰라요 (mollayo) = tidak tahu."}
 {"id":"ko.c0391","meaning":"minta / tolong berikan","note":"Kata dasar + 아/어 주세요 = tolong lakukan X."}
@@ -411,7 +411,7 @@
 {"id":"ko.c0410","meaning":"Kamu imut","note":"Santai. Sopan: 귀여워요."}
 {"id":"ko.c0411","meaning":"Kamu cantik","note":"Juga untuk benda: kafe yang cantik."}
 {"id":"ko.c0412","meaning":"Kamu ganteng","note":"Harfiah: \"terbentuk dengan baik\"."}
-{"id":"ko.c0413","meaning":"Aku rindu kamu","note":"Harfiah: \"aku ingin bertemu denganmu\"."}
+{"id":"ko.c0413","meaning":"Aku kangen kamu","note":"Harfiah: \"aku ingin bertemu denganmu\"."}
 {"id":"ko.c0414","meaning":"Aku suka kamu","note":"Langkah sebelum 사랑해."}
 {"id":"ko.c0415","meaning":"Sayang","note":"Panggilan umum antarpasangan."}
 {"id":"ko.c0416","meaning":"Tidur nyenyak, ya","note":"Santai. Sopan: 잘 자요; kepada orang yang lebih tua: 안녕히 주무세요."}
@@ -441,14 +441,14 @@
 {"id":"ko.c0440","meaning":"Kalau ingat kamu, aku jadi senyum","note":"웃음이 나다 = senyum muncul sendiri."}
 {"id":"ko.c0441","meaning":"Aku terus memikirkanmu","note":"자꾸 = terus-menerus."}
 {"id":"ko.c0442","meaning":"Kamu yang paling cantik","note":"제일 = paling. Untuk laki-laki: 제일 멋있어."}
-{"id":"ko.c0443","meaning":"Gimana kalau kita bertemu lagi?","note":"ㄹ까 = bagaimana kalau kita…? 또 = lagi."}
+{"id":"ko.c0443","meaning":"Gimana kalau kita ketemu lagi?","note":"ㄹ까 = bagaimana kalau kita…? 또 = lagi."}
 {"id":"ko.c0444","meaning":"Aku antar pulang, ya","note":"ㄹ게 = \"…, ya\" sebagai janji. Penutup kencan yang klasik."}
 {"id":"ko.c0445","meaning":"Sepertinya aku suka kamu","note":"것 같아 = sepertinya. Melunakkan pengakuan."}
 {"id":"ko.c0446","meaning":"Hari ini aku nggak mau pulang","note":"기 싫다 = tidak mau. Diucapkan di akhir kencan yang menyenangkan."}
 {"id":"ko.c0447","meaning":"Yuk, kita pacaran!","note":"자 = yuk. Lebih percaya diri daripada 사귈래?"}
 {"id":"ko.c0448","meaning":"Lagi apa?","note":"Pembuka chat yang universal. Sopan: 뭐 해요?"}
 {"id":"ko.c0449","meaning":"Aku bosan","note":"심심하다 = bosan. 놀자 = yuk, main!"}
-{"id":"ko.c0450","meaning":"Aku lelah","note":"피곤하다. 졸려 = aku mengantuk."}
+{"id":"ko.c0450","meaning":"Aku capek","note":"피곤하다. 졸려 = aku mengantuk."}
 {"id":"ko.c0451","meaning":"Aku lapar","note":"Versi santai dari 배고파요."}
 {"id":"ko.c0452","meaning":"Kamu di mana?","note":"Santai. Sopan: 어디예요?"}
 {"id":"ko.c0453","meaning":"Aku jalan sekarang","note":"Harfiah: \"aku pergi sekarang\". 다 왔어 = aku udah hampir sampai."}
@@ -465,7 +465,7 @@
 {"id":"ko.c0464","meaning":"Kamu yang terbaik","note":"최고 = yang terbaik. 네가 최고야."}
 {"id":"ko.c0465","meaning":"Diakui! / Setuju","note":"Harfiah: \"mengakui\". Di chat: ㅇㅈ."}
 {"id":"ko.c0466","meaning":"Mantap / paling hebat","note":"짱 = yang paling hebat. 짱 멋있어 = keren sekali."}
-{"id":"ko.c0467","meaning":"Legenda","note":"Kata serapan, sama seperti \"legenda\" kita. 레전드다 = itu legendaris!"}
+{"id":"ko.c0467","meaning":"Legenda","note":"Kata serapan, mirip \"legenda\" kita. 레전드다 = itu legendaris!"}
 {"id":"ko.c0468","meaning":"Gila! (dalam arti bagus)","note":"Untuk gol, lagu, pemandangan. Santai."}
 {"id":"ko.c0469","meaning":"Luar biasa!","note":"Kata seru yang aman untuk siapa saja."}
 {"id":"ko.c0470","meaning":"Yuk, berangkat!","note":"Juga teriakan sebelum bertanding."}
@@ -487,13 +487,13 @@
 {"id":"ko.c0486","meaning":"Mau menonton film?","note":"보다 → 볼래. 게임 할래? = mau main game?"}
 {"id":"ko.c0487","meaning":"Gimana kalau kita ke kafe?","note":"ㄹ까 = bagaimana kalau kita…? Lebih halus daripada ㄹ래."}
 {"id":"ko.c0488","meaning":"Mau main ke rumahku?","note":"우리 집 = rumahku (harfiah: \"rumah kami\"). Orang Korea memakai 우리 untuk rumah sendiri."}
-{"id":"ko.c0489","meaning":"Kapan kita bertemu?","note":"언제 = kapan. 만나다 = bertemu."}
-{"id":"ko.c0490","meaning":"Jam berapa kita bertemu?","note":"보다 (melihat) juga berarti \"bertemu\"."}
-{"id":"ko.c0491","meaning":"Kita bertemu di mana?","note":"어디서 = singkatan dari 어디에서."}
+{"id":"ko.c0489","meaning":"Kapan kita ketemu?","note":"언제 = kapan. 만나다 = bertemu."}
+{"id":"ko.c0490","meaning":"Jam berapa kita ketemu?","note":"보다 (melihat) juga berarti \"bertemu\"."}
+{"id":"ko.c0491","meaning":"Kita ketemu di mana?","note":"어디서 = singkatan dari 어디에서."}
 {"id":"ko.c0492","meaning":"Aku ke sana sekarang, ya","note":"ㄹ게 = \"…, ya\" sebagai janji. 금방 갈게 = aku segera datang."}
 {"id":"ko.c0493","meaning":"Tadi seru","note":"Ucapkan di akhir acara. Sopan: 재밌었어요."}
 {"id":"ko.c0494","meaning":"Yuk, main lagi!","note":"또 = lagi."}
-{"id":"ko.c0495","meaning":"Yuk, lain kali jumpa lagi!","note":"담에 = 다음에. 보자 = yuk, bertemu (harfiah 'mari saling melihat')."}
+{"id":"ko.c0495","meaning":"Yuk, lain kali jumpa lagi!","note":"담에 = 다음에. 보자 = yuk, ketemu (harfiah 'mari saling melihat')."}
 {"id":"ko.c0496","meaning":"favorit utama (member)","note":"최애가 누구예요? = bias-mu siapa? 차애 = favorit kedua."}
 {"id":"ko.c0497","meaning":"kegiatan fandom / fangirling","note":"Dari 오타쿠 (otaku). 덕질해요 = saya aktif di fandom."}
 {"id":"ko.c0498","meaning":"Saya jadi penggemar","note":"입덕 = masuk fandom. 탈덕 = keluar dari fandom."}
@@ -539,14 +539,14 @@
 {"id":"ko.c0538","meaning":"Selamat 100 hari","note":"Pasangan merayakan hari ke-100. Ini acara besar."}
 {"id":"ko.c0539","meaning":"Boleh aku pegang tanganmu?","note":"잡다 = memegang. 아/어도 돼 = boleh?"}
 {"id":"ko.c0540","meaning":"Peluk aku","note":"안다 = memeluk. 안아 줄게 = sini, aku peluk, ya."}
-{"id":"ko.c0541","meaning":"Aku rindu setengah mati","note":"죽겠어 = 'rasanya mau mati', sebagai penguat. Santai dan dramatis."}
+{"id":"ko.c0541","meaning":"Aku kangen setengah mati","note":"죽겠어 = 'rasanya mau mati', sebagai penguat. Santai dan dramatis."}
 {"id":"ko.c0542","meaning":"Ada yang ingin aku bicarakan denganmu","note":"Pembuka obrolan serius. 한테 = kepada (orang)."}
 {"id":"ko.c0543","meaning":"Sepertinya kita cocok","note":"맞다 = pas, cocok."}
 {"id":"ko.c0544","meaning":"Rapatnya jam berapa?","note":"회의 = rapat. 회의실 = ruang rapat."}
 {"id":"ko.c0545","meaning":"Tenggatnya kapan?","note":"마감 = tenggat (deadline). 마감 지켰어요 = saya berhasil memenuhi tenggat."}
 {"id":"ko.c0546","meaning":"Akan saya cek dulu, nanti saya kabari","note":"Formal. Balasan email yang paling sering akan kamu kirim."}
 {"id":"ko.c0547","meaning":"Ada waktu sebentar?","note":"Kepada rekan kerja atau atasan. 잠깐 = sebentar."}
-{"id":"ko.c0548","meaning":"Bisakah Anda membantu saya dengan ini?","note":"도와주시다 bentuk hormat + 수 있어요 = bisakah Anda."}
+{"id":"ko.c0548","meaning":"Bisa tolong bantu saya soal ini?","note":"도와주시다 bentuk hormat + 수 있어요 = bisa (tolong) …?"}
 {"id":"ko.c0549","meaning":"Saya pamit pulang lebih dulu","note":"퇴근 = pulang kerja. Ucapkan ke seisi ruangan, selalu."}
 {"id":"ko.c0550","meaning":"Terima kasih atas kerja kerasnya (formal)","note":"Kepada atasan saat pulang. 수고하세요 untuk orang yang masih bekerja."}
 {"id":"ko.c0551","meaning":"Ada makan malam tim","note":"회식 = makan malam kantor. Hadir itu… 'dianjurkan'."}
@@ -554,7 +554,7 @@
 {"id":"ko.c0553","meaning":"Kita makan siang apa, ya?","note":"Pertanyaan jam 11.30 di setiap kantor."}
 {"id":"ko.c0554","meaning":"Saya harus lembur","note":"야근 = kerja malam. 아/어야 돼요 = harus."}
 {"id":"ko.c0555","meaning":"Saya sudah mengajukan cuti","note":"휴가 = cuti, liburan. 신청하다 = mengajukan."}
-{"id":"ko.c0556","meaning":"Sudahkah Anda membaca email saya?","note":"Bentuk hormat lampau: 하셨어요."}
+{"id":"ko.c0556","meaning":"Sudah baca email saya?","note":"Bentuk hormat lampau: 하셨어요."}
 {"id":"ko.c0557","meaning":"Terima kasih atas masukan Anda","note":"주셔서 = karena (Anda) telah memberi (bentuk hormat)."}
 {"id":"ko.c0558","meaning":"Saya presentasi minggu depan","note":"발표 = presentasi."}
 {"id":"ko.c0559","meaning":"Mohon kerja samanya","note":"Penutup email kerja dan pertemuan pertama. Di luar kantor: Mohon bantuannya.","_note":"잘 부탁드립니다 is glossed Mohon bantuannya elsewhere; profile id-ko §3.7 allows Mohon kerja samanya on this work-email card."}
@@ -578,7 +578,7 @@
 {"id":"ko.c0577","meaning":"Enak","note":"Ucapkan ke pemilik saat kamu keluar."}
 {"id":"ko.c0578","meaning":"Saya lapar","note":"배불러요 (baebulleoyo) = saya kenyang."}
 {"id":"ko.c0579","meaning":"Segelas kopi","note":"잔 = kata penggolong untuk gelas atau cangkir. 두 잔 = dua gelas."}
-{"id":"ko.c0580","meaning":"Tolong dihitung","note":"Biasanya kamu membayar di kasir."}
+{"id":"ko.c0580","meaning":"Tolong dihitung","note":"Biasanya kamu membayar di kasir. Di restoran Indonesia, kita biasanya bilang \"Minta bonnya\"."}
 {"id":"ko.c0581","meaning":"Tolong dibungkus","note":"포장 = kemasan, bungkus."}
 {"id":"ko.c0582","meaning":"Bersulang!","note":"Benturkan gelas; tuangkan untuk orang lain, bukan untuk diri sendiri."}
 {"id":"ko.c0583","meaning":"Terima kasih, makanannya enak (setelah makan)","note":"Harfiah: 'Saya sudah makan dengan baik.' Pasangan dari 잘 먹겠습니다."}
@@ -635,7 +635,7 @@
 {"id":"ko.c0634","meaning":"Nggak apa-apa","note":"Santai. Sering diucapkan saat jelas-jelas sedang tidak baik-baik saja."}
 {"id":"ko.c0635","meaning":"Kamu gila?","note":"Santai, sering dengan nada sayang."}
 {"id":"ko.c0636","meaning":"Jangan pergi","note":"Kata dasar + 지 마 = jangan."}
-{"id":"ko.c0637","meaning":"Aku rindu kamu","note":"Bentuk lampau dari 보고 싶어."}
+{"id":"ko.c0637","meaning":"Aku kangen kamu","note":"Bentuk lampau dari 보고 싶어."}
 {"id":"ko.c0638","meaning":"Aduh, gimana ini?","note":"Diucapkan sambil memegang wajah."}
 {"id":"ko.c0639","meaning":"Semangat!","note":"Dari kata Inggris 'fighting'. Seruan dukungan sebelum menghadapi hal yang berat."}
 {"id":"ko.c0640","meaning":"Oke, aku paham","note":"Sopan: 알았어요 atau 알겠습니다."}
@@ -677,7 +677,7 @@
 {"id":"ko.c0679","meaning":"buku","note":"책을 읽어요. Dihitung: 한 권."}
 {"id":"ko.c0680","meaning":"poin; sisi; titik","note":"좋은 점 = sisi baiknya; 점 juga = tahi lalat."}
 {"id":"ko.c0681","meaning":"negara","note":"어느 나라 사람이에요? = kamu dari negara mana?"}
-{"id":"ko.c0682","meaning":"pelajar; mahasiswa","note":"학생이에요? = kamu mahasiswa?"}
+{"id":"ko.c0682","meaning":"pelajar (siswa atau mahasiswa)","note":"학생이에요? = kamu pelajar?"}
 {"id":"ko.c0683","meaning":"nama","note":"Sopan untuk nama orang yang lebih tua: 성함."}
 {"id":"ko.c0684","meaning":"alasan","note":"이유가 뭐예요? = apa alasannya?"}
 {"id":"ko.c0685","meaning":"suami","note":"Suami istri saling memanggil 여보 atau 자기."}
@@ -884,7 +884,7 @@
 {"id":"ko.c0886","meaning":"tidak (penyangkal pendek)","note":"Tepat sebelum kata kerja: 안 가요. Dengan kata kerja 하다: 공부 안 해요."}
 {"id":"ko.c0887","meaning":"lagi; lebih","note":"더 주세요 = minta lagi; 조금 더 = sedikit lagi."}
 {"id":"ko.c0888","meaning":"dengan baik","note":"잘 자요 = tidur yang nyenyak; 잘 몰라요 = saya kurang tahu."}
-{"id":"ko.c0889","meaning":"lagi (sekali lagi terjadi); juga","note":"또 봐요 = sampai jumpa lagi; 또 늦었어요? = telat lagi?"}
+{"id":"ko.c0889","meaning":"lagi (sekali lagi terjadi); juga","note":"또 봐요 = sampai jumpa lagi; 또 늦었어요? = terlambat lagi?"}
 {"id":"ko.c0890","meaning":"bagaimana (caranya)","note":"어떻게 가요? = bagaimana cara ke sana? 어떡해 = aduh, gimana ini (dari 어떻게 해)."}
 {"id":"ko.c0891","meaning":"sekali lagi; ulang","note":"다시 한번 = sekali lagi."}
 {"id":"ko.c0892","meaning":"semua; semuanya","note":"다 먹었어요 = semuanya sudah saya makan; 다 왔어요 = kita hampir sampai."}
@@ -1001,7 +1001,7 @@
 {"id":"ko.c1003","meaning":"(mulai) dari (tempat)","note":"집에서부터 걸어왔어요 = saya jalan kaki jauh-jauh dari rumah."}
 {"id":"ko.c1004","meaning":"makan dan (lalu) (-고)","note":"-고 menyambung dua tindakan atau fakta. Sama setelah vokal dan konsonan: 가고, 먹고."}
 {"id":"ko.c1005","meaning":"pergi lalu (-아서/어서)","note":"-아서/어서: satu tindakan berlanjut ke tindakan berikutnya. 가서 먹어요 = saya ke sana lalu makan."}
-{"id":"ko.c1006","meaning":"karena saya capek (-아서/어서)","note":"-아서/어서 = karena. Tidak pernah dengan -(으)세요 atau -(으)ㄹ까요."}
+{"id":"ko.c1006","meaning":"karena saya lelah (-아서/어서)","note":"-아서/어서 = karena. Tidak pernah dengan -(으)세요 atau -(으)ㄹ까요."}
 {"id":"ko.c1007","meaning":"kalau (saya) pergi (-(으)면)","note":"Kata dasar berakhir vokal: -면 (가면); konsonan: -으면 (먹으면)."}
 {"id":"ko.c1008","meaning":"saya sibuk, jadi / tapi (-(으)ㄴ데 / -는데)","note":"Memberi latar: 바쁜데 나중에 얘기해요. Kata kerja: 가는데; kata sifat: 바쁜데."}
 {"id":"ko.c1009","meaning":"mahal, tapi (-지만)","note":"-지만 = tapi. Sama setelah kata dasar apa pun: 좋지만, 비싸지만."}
@@ -1046,7 +1046,7 @@
 {"id":"ko.c1048","meaning":"ups!; eh!","note":"Kaget kecil atau salah sedikit. Santai."}
 {"id":"ko.c1049","meaning":"aduh, lupa!","note":"Saat teringat kesalahan: 아차, 지갑! Santai."}
 {"id":"ko.c1050","meaning":"aduh, kaget aku!","note":"Saat terkejut. Santai; sopan: 깜짝 놀랐어요."}
-{"id":"ko.c1051","meaning":"ih, apa-apaan (malu-malu)","note":"Malu atau sedikit kesal, sering bercanda. Biasanya perempuan."}
+{"id":"ko.c1051","meaning":"aduh, ih (malu atau pura-pura kesal)","note":"Malu atau sedikit kesal, sering bercanda. Biasanya perempuan."}
 {"id":"ko.c1052","meaning":"yes!; asyik!","note":"Kemenangan kecil pribadi. Juga ditulis 앗싸. Santai, agak main-main."}
 {"id":"ko.c1053","meaning":"sst","note":"Minta diam. Siapa saja boleh mengucapkannya."}
 {"id":"ko.c1054","meaning":"aaah!","note":"Teriakan: serangga, kaget, bencana. Santai."}
@@ -1200,7 +1200,7 @@
 {"id":"ko.c1202","meaning":"Saya belajar banyak","note":"Pujian paling aman untuk senior, guru, atau atasan."}
 {"id":"ko.c1203","meaning":"Terima kasih atas kerja kerasnya","note":"Memuji usaha. Wajar antarrekan kerja; sebagian senior menganggap 수고 dari junior lancang, jadi kepada atasan 감사합니다 lebih aman."}
 {"id":"ko.c1204","meaning":"Ah, tidak juga","note":"Refleks pertama setelah dipuji: mengelak, walaupun senang."}
-{"id":"ko.c1205","meaning":"Ah, tidak, saya masih jauh dari bisa","note":"Jawaban rendah hati yang baku, terutama tentang bahasa Korea-mu."}
+{"id":"ko.c1205","meaning":"Ah, tidak, saya masih harus banyak belajar","note":"Jawaban rendah hati yang baku, terutama tentang bahasa Korea-mu."}
 {"id":"ko.c1206","meaning":"Ah, Anda terlalu baik","note":"Sopan dan agak formal. Kepada orang yang lebih tua dan di kantor."}
 {"id":"ko.c1207","meaning":"Pujiannya berlebihan","note":"Harfiah: \"pujiannya terlalu banyak\". Sopan, agak formal."}
 {"id":"ko.c1208","meaning":"Terima kasih atas pujiannya","note":"Menerima dengan hangat. Lebih umum di kalangan anak muda."}
@@ -1226,7 +1226,7 @@
 {"id":"ko.c1228","meaning":"Meksiko","note":"멕시코 사람. Bahasanya 스페인어."}
 {"id":"ko.c1229","meaning":"Filipina","note":"필리핀 사람 = orang Filipina; 필리핀어 atau 타갈로그어 = bahasa Filipino, Tagalog."}
 {"id":"ko.c1230","meaning":"Vietnam","note":"베트남 사람; 베트남어 = bahasa Vietnam."}
-{"id":"ko.c1231","meaning":"Inggris (Britania Raya)","note":"영국 사람 = orang Inggris; 영어 = bahasa Inggris (pengecualian: bukan 영국어)."}
+{"id":"ko.c1231","meaning":"Britania Raya (Inggris)","note":"영국 사람 = orang Inggris; 영어 = bahasa Inggris (pengecualian: bukan 영국어)."}
 {"id":"ko.c1232","meaning":"Kanada","note":"캐나다 사람. Bahasanya 영어 dan 프랑스어."}
 {"id":"ko.c1233","meaning":"Australia","note":"호주 사람 = orang Australia. 호주 berasal dari aksara Tionghoa; 오스트레일리아 juga benar."}
 {"id":"ko.c1234","meaning":"Jerman","note":"독일 사람; 독일어 = bahasa Jerman."}
@@ -1302,7 +1302,7 @@
 {"id":"ko.c1304","meaning":"Uruguay","note":""}
 {"id":"ko.c1305","meaning":"Guyana","note":""}
 {"id":"ko.c1306","meaning":"Suriname","note":""}
-{"id":"ko.c1307","meaning":"England","note":"Salah satu dari empat negara di dalam Britania Raya (영국)."}
+{"id":"ko.c1307","meaning":"Inggris (England)","note":"Salah satu dari empat negara di dalam Britania Raya (영국). Sehari-hari, orang Indonesia menyebut keduanya \"Inggris\"."}
 {"id":"ko.c1308","meaning":"Skotlandia","note":""}
 {"id":"ko.c1309","meaning":"Wales","note":""}
 {"id":"ko.c1310","meaning":"Irlandia","note":""}

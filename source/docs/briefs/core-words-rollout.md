@@ -18,3 +18,13 @@ Launch w1..w4 as slots free (priority over the waiting deck writers). Launched: 
 - Finished since, not yet shipped as final: sv te nl da.
 - Running: tl ur pa kn bn no pl cs ptpt.
 - ceb-ko shipped in 2.68.0 (hand-tuned). tl/ja/zh halves merged, cold reviews running. Profiles for vi/th/id/hi → Korean running; writers launch after the Korean content merge (mk_native.js <lang>).
+
+## Queue 2026-11-23 ~04:00
+- bn-ko: w1 w2 launched; w3 w4 WAITING for a slot.
+- Waiting for profiles: yue kn ur pa (then mk_native + 4 writers each).
+- nan-ko: on hold (owner to choose Traditional Chinese vs written Taiwanese).
+- th id vi hi: cold reviews + ui.json running; then assemble + kograde + ship.
+- te mr: writers running; then merge (mk_native <l> --merge ONCE), validate, cold review (docs/briefs/x-ko-review.md), ui.json (copy 14 uiKeys from dictionary + 'English meaning' override), ship.
+
+- 04:20: bn w4 WAITING; yue-ko profile done, work files made: yue w1..w4 WAITING for slots.
+- 04:30: bn w4 launched. WAITING: yue w1-4, ur w1-4 (profile + work files ready).

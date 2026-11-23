@@ -5,7 +5,7 @@
 {"id":"noun-modifiers.k2","q":"“món ăn ngon” =","why":"Từ có 있다 thì thêm 는."}
 {"id":"noun-modifiers.k3","q":"“món ăn cay” =","why":"Gốc tận cùng bằng ㅂ: 맵다 → 매운."}
 {"id":"joining.k1","q":"“Đắt nhưng ngon” =","why":"-지만 = nhưng."}
-{"id":"joining.k2","q":"“Tôi bận nên đã không đi” =","why":"-아/어서 không bao giờ đi với quá khứ; thì quá khứ nằm ở động từ cuối câu."}
+{"id":"joining.k2","q":"“Hôm đó tôi bận nên không đi” =","why":"-아/어서 không bao giờ đi với quá khứ; thì quá khứ nằm ở động từ cuối câu."}
 {"id":"joining.k3","q":"“Rẻ và ngon” =","why":"Gốc + 고 = và."}
 {"id":"have-to.k1","q":"“(Tôi) phải đi” =","why":"가요 → 가 + 야 해요."}
 {"id":"have-to.k2","q":"먹다 → “phải ăn” =","why":"먹어요 → 먹어 + 야 해요."}
@@ -23,12 +23,12 @@
 {"id":"future.k2","q":"“Cuối tuần bạn sẽ làm gì?” =","why":"하 + ㄹ 거예요 → 할 거예요."}
 {"id":"future.k3","q":"“(Tôi) sẽ không đi” =","why":"안 đứng trước động từ."}
 {"id":"past.k1","q":"가다 ở thì quá khứ =","why":"가요 → bỏ 요 → 갔어요."}
-{"id":"past.k2","q":"“(Tôi) đã từng là học sinh” =","why":"Tận cùng bằng phụ âm → 이었어요."}
+{"id":"past.k2","q":"“(Tôi) đã từng là sinh viên” =","why":"Tận cùng bằng phụ âm → 이었어요."}
 {"id":"past.k3","q":"“Hôm qua bạn đã làm gì?” =","why":"해요 → 했어요; từ chỉ thời gian đứng đầu."}
 {"id":"verbs.k1","q":"먹다 ở thì hiện tại lịch sự =","why":"Nguyên âm cuối là ㅓ (không phải ㅏ/ㅗ) → 어요."}
 {"id":"verbs.k2","q":"보다 ở thì hiện tại lịch sự =","why":"Gốc có ㅗ + 아요; 보 + 아 hòa thành 봐."}
 {"id":"verbs.k3","q":"“Bạn về nhà à?” =","why":"Vẫn là dạng 요; chỉ cần lên giọng ở cuối."}
-{"id":"nouns.k1","q":"“Tôi là học sinh” =","why":"저 tận cùng bằng nguyên âm → 는; 학생 tận cùng bằng phụ âm → 이에요."}
+{"id":"nouns.k1","q":"“Tôi là sinh viên” =","why":"저 tận cùng bằng nguyên âm → 는; 학생 tận cùng bằng phụ âm → 이에요."}
 {"id":"nouns.k2","q":"“Tòa nhà kia” =","why":"이 = này, 그 = đó (gần người nghe), 저 = kia (xa cả hai người)."}
 {"id":"nouns.k3","q":"“Tên tôi là Minsu” =","why":"이름 tận cùng bằng phụ âm → 은; 민수 tận cùng bằng nguyên âm → 예요."}
 {"id":"isseoyo.k1","q":"“Tôi đang ở nhà” =","why":"Ở một nơi nào đó → nơi chốn + 에 + 있어요."}
@@ -41,7 +41,7 @@
 {"id":"particles.k2","q":"“Tôi học ở quán cà phê” =","why":"Nơi hành động diễn ra → 에서."}
 {"id":"particles.k3","q":"“Con mèo ở nhà” =","why":"있어요 đi với 에, không đi với 에서."}
 {"id":"negation.k1","q":"“Tôi không học” =","why":"Với danh từ + 하다, 안 đứng trước 해요."}
-{"id":"negation.k2","q":"“Tôi không phải là học sinh” =","why":"Danh từ được phủ định bằng 이/가 아니에요."}
+{"id":"negation.k2","q":"“Tôi không phải là sinh viên” =","why":"Danh từ được phủ định bằng 이/가 아니에요."}
 {"id":"negation.k3","q":"“Tôi không có thời gian” =","why":"Phủ định của 있어요 là 없어요."}
 {"id":"do-man.k1","q":"“Tôi cũng vậy” =","why":"도 thay cho 은/는, không bao giờ chồng lên nó."}
 {"id":"do-man.k2","q":"“Cho tôi nước thôi” =","why":"만 = chỉ; nó thay cho 을/를."}
@@ -80,7 +80,7 @@
 {"id":"texting.k2","q":"“Ừ” thân mật khi nhắn tin:","why":"ㅇㅇ = 응응."}
 {"id":"texting.k3","q":"Nhắn tin cho đồng nghiệp lớn tuổi hơn, bạn nên:","o":["giữ 요 và dùng 네/넵","dùng ㅇㅇ","bỏ hết trợ từ và 요","chỉ gửi ㅋㅋ"],"why":"Viết tắt là để dành cho bạn bè; với người trên vẫn giữ phép lịch sự."}
 {"id":"hangul.k1","q":"Nguyên âm nằm ngang nào đọc là “u”, như trong “thu”?","why":"ㅜ: nét ngang, vạch nhỏ hướng xuống = u."}
-{"id":"hangul.k2","q":"ㅇ ở ĐẦU khối chữ đọc thế nào?","o":["Câm (không đọc)","ng","h","g"],"why":"ㅇ đầu khối chỉ giữ chỗ; ㅇ cuối khối đọc là ng."}
+{"id":"hangul.k2","q":"ㅇ ở ĐẦU khối chữ đọc thế nào?","o":["Câm (không đọc)","âm ng","âm h","âm g"],"why":"ㅇ đầu khối chỉ giữ chỗ; ㅇ cuối khối đọc là ng."}
 {"id":"hangul.k3","q":"Khối chữ nào là 'han'?","why":"ㅎ + ㅏ + ㄴ (cuối) = 한."}
 {"id":"polite.k1","q":"Bạn đang gọi đồ ở quán cà phê. Dùng dạng nào?","why":"Dạng 요 là lựa chọn mặc định với người lạ và nhân viên phục vụ."}
 {"id":"polite.k2","q":"Bỏ 요 đi thì câu nói trở thành…","o":["thân mật (반말)","lịch sự hơn","trang trọng","câu hỏi"],"why":"반말 = cách nói thân mật với bạn thân và người nhỏ tuổi hơn."}
@@ -91,7 +91,7 @@
 {"id":"numbers.k1","q":"Tiền dùng hệ số nào?","o":["Số Hán Hàn (일, 이, 삼)","Số thuần Hàn (하나, 둘, 셋)","Cả hai","Không hệ nào"],"why":"Tiền, ngày tháng, phút, số điện thoại → số Hán Hàn."}
 {"id":"numbers.k2","q":"“3 giờ” =","why":"Giờ dùng số thuần Hàn; 셋 → 세 trước đơn vị đếm."}
 {"id":"numbers.k3","q":"50.000 won =","why":"Tiếng Hàn nhóm số theo 만 (10.000), như “vạn”: 5 × 만 = 오만."}
-{"id":"food.k1","q":"Để gọi nhân viên phục vụ, bạn nói:","why":"저기요 = “xin lỗi, cho hỏi” (để gọi ai đó). 야 là bất lịch sự với nhân viên."}
+{"id":"food.k1","q":"Để gọi nhân viên phục vụ, bạn nói:","why":"저기요 = “xin lỗi!”, để gọi ai đó (ở quán Việt là “Em ơi!”). 야 là bất lịch sự với nhân viên."}
 {"id":"food.k2","q":"“Cho tôi hai cuộn gimbap” =","why":"Số thuần Hàn 둘 → 두 trước đơn vị đếm 개 (đồ vật)."}
 {"id":"food.k3","q":"Câu nói SAU khi ăn:","why":"먹었 = quá khứ (đã ăn ngon). 먹겠 = tương lai (sẽ ăn ngon)."}
 {"id":"getting-around.k1","q":"“Đi thẳng” =","why":"똑바로 = thẳng."}

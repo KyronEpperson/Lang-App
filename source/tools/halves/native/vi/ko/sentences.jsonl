@@ -35,11 +35,11 @@
 {"id":"ko.s0035","gloss":"tòa nhà kia"}
 {"id":"ko.s0036","gloss":"nhà bạn (tôi)"}
 {"id":"ko.s0037","gloss":"tên tôi"}
-{"id":"ko.s0038","gloss":"(Tôi) là học sinh"}
+{"id":"ko.s0038","gloss":"(Tôi) là sinh viên"}
 {"id":"ko.s0039","gloss":"(Cô ấy) là bác sĩ"}
-{"id":"ko.s0040","gloss":"(Tôi) không phải là học sinh"}
+{"id":"ko.s0040","gloss":"(Tôi) không phải là sinh viên"}
 {"id":"ko.s0041","gloss":"Đây là cái gì?"}
-{"id":"ko.s0042","gloss":"Tôi là học sinh (nói về tôi thì: học sinh)"}
+{"id":"ko.s0042","gloss":"Tôi là sinh viên (nói về tôi thì: sinh viên)"}
 {"id":"ko.s0043","gloss":"Tên tôi là Minsu"}
 {"id":"ko.s0044","gloss":"Quyển sách này là sách của tôi"}
 {"id":"ko.s0045","gloss":"Bạn tôi là bác sĩ"}
@@ -56,10 +56,10 @@
 {"id":"ko.s0056","gloss":"Con mèo ở nhà"}
 {"id":"ko.s0057","gloss":"Nhà vệ sinh ở đâu?"}
 {"id":"ko.s0058","gloss":"Bạn tôi đang ở trường"}
-{"id":"ko.s0059","gloss":"Tôi là học sinh"}
+{"id":"ko.s0059","gloss":"Tôi là sinh viên"}
 {"id":"ko.s0060","gloss":"nhà tôi (nghĩa đen: nhà chúng tôi)"}
 {"id":"ko.s0061","gloss":"mẹ tôi"}
-{"id":"ko.s0062","gloss":"Minsu là học sinh phải không?"}
+{"id":"ko.s0062","gloss":"Minsu là sinh viên phải không?"}
 {"id":"ko.s0063","gloss":"Vị này là giáo viên"}
 {"id":"ko.s0064","gloss":"Ở đằng kia"}
 {"id":"ko.s0065","gloss":"Người kia là ai?"}
@@ -87,14 +87,14 @@
 {"id":"ko.s0087","gloss":"đã đi"}
 {"id":"ko.s0088","gloss":"đã ăn"}
 {"id":"ko.s0089","gloss":"đã học"}
-{"id":"ko.s0090","gloss":"(Nó) đã rất tốt"}
+{"id":"ko.s0090","gloss":"(Lúc đó) tốt lắm"}
 {"id":"ko.s0091","gloss":"Hôm qua (tôi) đã ở nhà"}
-{"id":"ko.s0092","gloss":"(Tôi) đã không có thời gian"}
-{"id":"ko.s0093","gloss":"(Tôi) đã từng là học sinh"}
+{"id":"ko.s0092","gloss":"(Lúc đó tôi) không có thời gian"}
+{"id":"ko.s0093","gloss":"(Tôi) đã từng là sinh viên"}
 {"id":"ko.s0094","gloss":"(Cô ấy) đã từng là bác sĩ"}
 {"id":"ko.s0095","gloss":"Hôm qua bạn tôi đã đến"}
 {"id":"ko.s0096","gloss":"Hôm qua bạn đã làm gì?"}
-{"id":"ko.s0097","gloss":"(Tôi) đã không đi"}
+{"id":"ko.s0097","gloss":"(Hôm đó tôi) không đi"}
 {"id":"ko.s0098","gloss":"sẽ đi"}
 {"id":"ko.s0099","gloss":"sẽ xem"}
 {"id":"ko.s0100","gloss":"sẽ làm"}
@@ -125,22 +125,22 @@
 {"id":"ko.s0125","gloss":"(Tôi) nghỉ ở nhà"}
 {"id":"ko.s0126","gloss":"(Tôi) học ở quán cà phê"}
 {"id":"ko.s0299","gloss":"(Tôi) đến từ Canada"}
-{"id":"ko.s0128","gloss":"Nói về tôi thì, tôi là học sinh"}
+{"id":"ko.s0128","gloss":"Nói về tôi thì, tôi là sinh viên"}
 {"id":"ko.s0129","gloss":"Ai đã đến? Bạn tôi đã đến (thông tin mới → 가)"}
 {"id":"ko.s0130","gloss":"(Tôi) không đi"}
 {"id":"ko.s0131","gloss":"(Tôi) không uống cà phê"}
-{"id":"ko.s0132","gloss":"(Tôi) đã không ăn"}
+{"id":"ko.s0132","gloss":"(Hôm đó tôi) không ăn"}
 {"id":"ko.s0133","gloss":"Thời tiết không đẹp"}
 {"id":"ko.s0134","gloss":"(Tôi) không học"}
 {"id":"ko.s0135","gloss":"Cuối tuần (tôi) không tập thể dục"}
 {"id":"ko.s0136","gloss":"(Tôi) không thích cà phê"}
 {"id":"ko.s0137","gloss":"(Tôi) không đi"}
 {"id":"ko.s0138","gloss":"(Tôi) không ăn thịt"}
-{"id":"ko.s0139","gloss":"(Tôi) đã không học"}
-{"id":"ko.s0140","gloss":"Tôi không phải là học sinh"}
+{"id":"ko.s0139","gloss":"(Hôm đó tôi) không học"}
+{"id":"ko.s0140","gloss":"Tôi không phải là sinh viên"}
 {"id":"ko.s0141","gloss":"(Cô ấy) không phải là bác sĩ"}
 {"id":"ko.s0142","gloss":"(Tôi) không có thời gian"}
-{"id":"ko.s0143","gloss":"Tôi cũng là học sinh"}
+{"id":"ko.s0143","gloss":"Tôi cũng là sinh viên"}
 {"id":"ko.s0144","gloss":"Tôi cũng vậy"}
 {"id":"ko.s0145","gloss":"(Tôi) có cả mèo nữa"}
 {"id":"ko.s0146","gloss":"nói về tôi thì → tôi cũng"}
@@ -178,7 +178,7 @@
 {"id":"ko.s0178","gloss":"Giá 5.000 won (số Hán Hàn)"}
 {"id":"ko.s0179","gloss":"2 giờ 30 phút (giờ: số thuần Hàn, phút: số Hán Hàn)"}
 {"id":"ko.s0180","gloss":"Tôi 25 tuổi (số thuần Hàn + 살)"}
-{"id":"ko.s0181","gloss":"Xin lỗi, cho hỏi! (gọi nhân viên)"}
+{"id":"ko.s0181","gloss":"Xin lỗi! (gọi nhân viên)"}
 {"id":"ko.s0182","gloss":"Cho tôi cái này (chỉ vào thực đơn)"}
 {"id":"ko.s0183","gloss":"Cho tôi nước"}
 {"id":"ko.s0184","gloss":"Tính tiền giúp tôi"}
@@ -219,12 +219,12 @@
 {"id":"ko.s0219","gloss":"Tôi đói nên đã ăn cơm"}
 {"id":"ko.s0220","gloss":"(Tôi) đến quán cà phê rồi học (ở đó)"}
 {"id":"ko.s0221","gloss":"(Tôi) đã về nhà rồi nghỉ ngơi"}
-{"id":"ko.s0222","gloss":"Tôi bận nên đã không đi"}
+{"id":"ko.s0222","gloss":"Hôm đó tôi bận nên không đi"}
 {"id":"ko.s0223","gloss":"Hôm qua tôi đã gặp một người bạn"}
 {"id":"ko.s0224","gloss":"Trước tiên, chúng tôi đã đến quán cà phê"}
 {"id":"ko.s0225","gloss":"Và chúng tôi đã uống cà phê"}
 {"id":"ko.s0226","gloss":"Sau đó, chúng tôi đã xem phim"}
-{"id":"ko.s0227","gloss":"Nhưng bộ phim đã dài quá"}
+{"id":"ko.s0227","gloss":"Nhưng bộ phim dài quá"}
 {"id":"ko.s0228","gloss":"Vì vậy tôi đã về nhà muộn"}
 {"id":"ko.s0229","gloss":"Cuối tuần trước bạn đã làm gì?"}
 {"id":"ko.s0230","gloss":"Lúc nãy tôi đã ăn trưa rồi"}
@@ -289,6 +289,6 @@
 {"id":"ko.s0300","gloss":"Xin chào, tôi là @@, nhóm Marketing"}
 {"id":"ko.s0290","gloss":"Tôi xin liên hệ về bản báo cáo"}
 {"id":"ko.s0291","gloss":"Xin vui lòng kiểm tra giúp"}
-{"id":"ko.s0301","gloss":"Xin cảm ơn. @@ kính thư"}
+{"id":"ko.s0301","gloss":"Xin cảm ơn. Trân trọng, @@"}
 {"id":"ko.s0293","gloss":"Mời uống một ly ạ (khi rót rượu cho cấp trên)"}
 {"id":"ko.s0294","gloss":"Tôi phải lái xe nên (xin phép không uống)"}

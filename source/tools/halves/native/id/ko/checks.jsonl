@@ -23,12 +23,12 @@
 {"id":"future.k2","q":"'Apa yang akan kamu lakukan pada akhir pekan?' =","why":"하 + ㄹ 거예요 → 할 거예요."}
 {"id":"future.k3","q":"'(Saya) tidak akan pergi' =","why":"안 di depan kata kerja."}
 {"id":"past.k1","q":"가다 dalam bentuk lampau =","why":"가요 → buang 요 → 갔어요."}
-{"id":"past.k2","q":"'(Dulu saya) mahasiswa' =","why":"Berakhir dengan konsonan → 이었어요."}
+{"id":"past.k2","q":"'(Dulu saya) pelajar' =","why":"Berakhir dengan konsonan → 이었어요."}
 {"id":"past.k3","q":"'Apa yang kamu lakukan kemarin?' =","why":"해요 → 했어요; kata waktunya di depan."}
 {"id":"verbs.k1","q":"먹다 dalam bentuk sekarang yang sopan =","why":"Vokal terakhirnya ㅓ (bukan ㅏ/ㅗ) → 어요."}
 {"id":"verbs.k2","q":"보다 dalam bentuk sekarang yang sopan =","why":"Kata dasar ㅗ + 아요; 보 + 아 melebur menjadi 봐."}
 {"id":"verbs.k3","q":"'Pulang ke rumah?' =","why":"Bentuk 요-nya sama; hanya nadanya yang naik."}
-{"id":"nouns.k1","q":"'Saya mahasiswa' =","why":"저 berakhir dengan vokal → 는; 학생 berakhir dengan konsonan → 이에요."}
+{"id":"nouns.k1","q":"'Saya pelajar' =","why":"저 berakhir dengan vokal → 는; 학생 berakhir dengan konsonan → 이에요."}
 {"id":"nouns.k2","q":"'Gedung itu (di sana)' =","why":"이 = ini (sini), 그 = itu (situ, dekat lawan bicara), 저 = itu (sana)."}
 {"id":"nouns.k3","q":"'Nama saya Minsu' =","why":"이름 berakhir dengan konsonan → 은; 민수 berakhir dengan vokal → 예요."}
 {"id":"isseoyo.k1","q":"'Saya ada di rumah' =","why":"Berada di suatu tempat → tempat + 에 + 있어요."}
@@ -41,7 +41,7 @@
 {"id":"particles.k2","q":"'Saya belajar di kafe' =","why":"Tempat kegiatan → 에서."}
 {"id":"particles.k3","q":"'Kucingnya ada di rumah' =","why":"있어요 memakai 에, bukan 에서."}
 {"id":"negation.k1","q":"'Saya tidak belajar' =","why":"Pada kata benda + 하다, 안 masuk sebelum 해요."}
-{"id":"negation.k2","q":"'Saya bukan mahasiswa' =","why":"Kata benda disangkal dengan 이/가 아니에요, seperti \"bukan\"."}
+{"id":"negation.k2","q":"'Saya bukan pelajar' =","why":"Kata benda disangkal dengan 이/가 아니에요, seperti \"bukan\"."}
 {"id":"negation.k3","q":"'Saya tidak punya waktu' =","why":"Lawan 있어요 adalah 없어요, seperti \"ada\" dan \"tidak ada\"."}
 {"id":"do-man.k1","q":"'Saya juga' =","why":"도 menggantikan 은/는 — tidak pernah menumpuk di atasnya."}
 {"id":"do-man.k2","q":"'Minta air saja' =","why":"만 = hanya / saja; ia menggantikan 을/를."}

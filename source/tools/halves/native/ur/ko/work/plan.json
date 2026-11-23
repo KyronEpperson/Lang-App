@@ -1,0 +1,77 @@
+[
+ {
+  "name": "w1",
+  "desc": "course/groups/labels/decks; cards ko.c0001–ko.c0714 (712)",
+  "rows": 1675,
+  "pre": 32,
+  "rw": 21,
+  "words": 6235,
+  "bodyWords": 0,
+  "lessons": []
+ },
+ {
+  "name": "w2",
+  "desc": "cards ko.c0715–ko.c1415 (701); dialog",
+  "rows": 1415,
+  "pre": 57,
+  "rw": 6,
+  "words": 6243,
+  "bodyWords": 0,
+  "lessons": []
+ },
+ {
+  "name": "w3",
+  "desc": "dialog/examples/patterns; lessons 1–13 (hangul … particles): bodies + titles + example glosses + checks + practice",
+  "rows": 956,
+  "pre": 28,
+  "rw": 7,
+  "words": 6237,
+  "bodyWords": 1985,
+  "lessons": [
+   "hangul",
+   "polite",
+   "meet",
+   "sound-changes",
+   "nouns",
+   "isseoyo",
+   "pronouns-questions",
+   "verbbasics",
+   "verbs",
+   "past",
+   "future",
+   "sov",
+   "particles"
+  ]
+ },
+ {
+  "name": "w4",
+  "desc": "lessons 14–33 (negation … office): bodies + titles + example glosses + checks + practice",
+  "rows": 913,
+  "pre": 38,
+  "rw": 2,
+  "words": 6114,
+  "bodyWords": 2038,
+  "lessons": [
+   "negation",
+   "do-man",
+   "sentences",
+   "want-like",
+   "numbers",
+   "food",
+   "getting-around",
+   "titles",
+   "plans",
+   "texting",
+   "counters",
+   "joining",
+   "story",
+   "noun-modifiers",
+   "compare",
+   "cant",
+   "have-to",
+   "honorific",
+   "requests",
+   "office"
+  ]
+ }
+]

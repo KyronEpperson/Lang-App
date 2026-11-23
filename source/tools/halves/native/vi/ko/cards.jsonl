@@ -78,7 +78,7 @@
 {"id":"ko.c0078","meaning":"Bạn bao nhiêu tuổi?","note":"Ở Hàn Quốc hỏi tuổi là bình thường: tuổi quyết định cách xưng hô, giống tiếng Việt."}
 {"id":"ko.c0079","meaning":"Tôi 30 tuổi","note":"Số thuần Hàn + 살. 스물다섯 살 = 25 tuổi."}
 {"id":"ko.c0080","meaning":"Bạn làm nghề gì?","note":"일 = công việc. Cũng có thể hỏi 직업이 뭐예요?"}
-{"id":"ko.c0081","meaning":"Tôi là nhân viên văn phòng","note":"학생 học sinh (cùng gốc Hán), 선생님 giáo viên, 개발자 lập trình viên, 간호사 y tá."}
+{"id":"ko.c0081","meaning":"Tôi là nhân viên văn phòng","note":"학생 học sinh, sinh viên (cùng gốc Hán với “học sinh”), 선생님 giáo viên, 개발자 lập trình viên, 간호사 y tá."}
 {"id":"ko.c0082","meaning":"Tôi học tiếng Hàn","note":"공부하다 = học. Nói câu này là người Hàn sẽ vui ra mặt."}
 {"id":"ko.c0083","meaning":"Sở thích của bạn là gì?","note":"취미 = sở thích. 제 취미는 운동이에요 = sở thích của tôi là tập thể dục."}
 {"id":"ko.c0084","meaning":"Rất mong được giúp đỡ","note":"Nói sau khi tự giới thiệu ở chỗ làm hay trong nhóm, giống “mong mọi người giúp đỡ” trong tiếng Việt."}
@@ -115,7 +115,7 @@
 {"id":"ko.c0114","meaning":"Hai người","note":"Câu trả lời cho 몇 명이세요? (mấy người ạ?). 한 명이요 = một người. 세 명이요 = ba người."}
 {"id":"ko.c0115","meaning":"Tôi ngồi đây được không?","note":"앉다 = ngồi."}
 {"id":"ko.c0116","meaning":"Có cục sạc không?","note":"Quán cà phê thường cho mượn. 콘센트 = ổ cắm điện."}
-{"id":"ko.c0117","meaning":"Ổ cắm điện ở đâu?","note":"콘센트 bắt nguồn từ “concentric plug”."}
+{"id":"ko.c0117","meaning":"Ổ cắm điện ở đâu?","note":"콘센트 thường được cho là bắt nguồn từ “concentric plug”."}
 {"id":"ko.c0118","meaning":"Có wifi không?","note":"Hỏi tiếp: 비밀번호가 뭐예요?"}
 {"id":"ko.c0119","meaning":"Mấy giờ đóng cửa?","note":"닫다 = đóng. 열어요 = mở cửa."}
 {"id":"ko.c0120","meaning":"Mấy giờ mở cửa?","note":"열다 = mở."}
@@ -191,7 +191,7 @@
 {"id":"ko.c0190","meaning":"Tôi hồi hộp","note":"긴장 = căng thẳng (cùng gốc với “khẩn trương” nhưng khác nghĩa). Dùng trước kỳ thi hay buổi hẹn."}
 {"id":"ko.c0191","meaning":"Tôi chán","note":"심심하다. Một câu 놀자! là hết chán."}
 {"id":"ko.c0192","meaning":"Tôi giận rồi","note":"화 = cơn giận. 화내지 마 = đừng giận."}
-{"id":"ko.c0193","meaning":"Tôi giật mình","note":"놀라다. 깜짝 놀랐어요 = làm tôi giật cả mình."}
+{"id":"ko.c0193","meaning":"Tôi giật mình","note":"놀라다. 깜짝 놀랐어요 = tôi giật cả mình."}
 {"id":"ko.c0194","meaning":"Tôi nhớ bạn","note":"Dạng lịch sự. Dạng thân mật 보고 싶어 có trong bộ “Lời ngọt ngào”."}
 {"id":"ko.c0195","meaning":"Tim tôi rộn ràng","note":"설레다 = cảm giác bồi hồi, xao xuyến. Rất “phim Hàn”."}
 {"id":"ko.c0196","meaning":"Bực mình quá","note":"짜증 = sự bực bội. 짜증 나! là thân mật."}
@@ -245,7 +245,7 @@
 {"id":"ko.c0244","meaning":"xin mời đi nghỉ ạ (kính ngữ)","note":"주무시다 = kính ngữ của 자다. 안녕히 주무세요 = chúc ngủ ngon (lịch sự)."}
 {"id":"ko.c0245","meaning":"xin ở lại ạ / có mặt (kính ngữ)","note":"계시다 = kính ngữ của 있다 (dùng cho người). 안녕히 계세요."}
 {"id":"ko.c0246","meaning":"xin mời nói ạ (kính ngữ)","note":"말씀 = kính ngữ của 말. 말씀해 주세요 = xin hãy nói cho tôi biết."}
-{"id":"ko.c0247","meaning":"Xin hỏi tên là gì ạ? (kính ngữ)","note":"성함 = kính ngữ của 이름."}
+{"id":"ko.c0247","meaning":"Xin hỏi quý danh là gì ạ? (kính ngữ)","note":"성함 = kính ngữ của 이름."}
 {"id":"ko.c0248","meaning":"Xin hỏi năm nay bao nhiêu tuổi ạ? (kính ngữ)","note":"연세 = kính ngữ của 나이. Dùng với người lớn tuổi."}
 {"id":"ko.c0249","meaning":"đi ạ (kính ngữ)","note":"가다 + 시 + 어요 → 가세요. 조심히 가세요."}
 {"id":"ko.c0250","meaning":"Đã đến rồi ạ? (kính ngữ, quá khứ)","note":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?"}
@@ -412,40 +412,40 @@
 {"id":"ko.c0411","meaning":"Xinh quá","note":"Cũng dùng cho đồ vật: một quán cà phê xinh."}
 {"id":"ko.c0412","meaning":"Đẹp trai quá","note":"Nghĩa đen: “sinh ra đẹp”."}
 {"id":"ko.c0413","meaning":"Nhớ quá","note":"Nghĩa đen: “muốn gặp”."}
-{"id":"ko.c0414","meaning":"Thích lắm","note":"Bước trước 사랑해."}
+{"id":"ko.c0414","meaning":"Mình thích cậu","note":"Bước trước 사랑해."}
 {"id":"ko.c0415","meaning":"Cưng ơi / Mình ơi","note":"Cách gọi phổ biến giữa các cặp đôi."}
 {"id":"ko.c0416","meaning":"Ngủ ngon nhé","note":"Thân mật. Lịch sự: 잘 자요; với người lớn tuổi: 안녕히 주무세요."}
 {"id":"ko.c0417","meaning":"Ăn cơm chưa?","note":"Cách người Hàn hỏi thăm người mình quan tâm, giống “ăn cơm chưa?” của người Việt."}
-{"id":"ko.c0418","meaning":"Hôm nay trông xinh quá","note":"네요 = nói ra điều mình vừa nhận thấy. Thân mật: 오늘 예쁘네."}
+{"id":"ko.c0418","meaning":"Hôm nay trông bạn xinh quá","note":"네요 = nói ra điều mình vừa nhận thấy. Thân mật: 오늘 예쁘네."}
 {"id":"ko.c0419","meaning":"Mắt bạn đẹp quá","note":"눈 = mắt. 웃는 모습이 예뻐요 = nụ cười của bạn đẹp lắm."}
 {"id":"ko.c0420","meaning":"Bạn cười dễ thương quá","note":"웃다 = cười."}
-{"id":"ko.c0421","meaning":"Tôi đã nhớ bạn lắm","note":"Thân mật: 보고 싶었어. Nói ngay khi gặp lại."}
+{"id":"ko.c0421","meaning":"Thời gian qua tôi nhớ bạn lắm","note":"Thân mật: 보고 싶었어. Nói ngay khi gặp lại."}
 {"id":"ko.c0422","meaning":"Ở bên bạn tôi thấy hạnh phúc","note":"같이 = cùng nhau. 행복하다 = hạnh phúc."}
-{"id":"ko.c0423","meaning":"Nghĩ đến nhiều lắm đấy","note":"Thân mật. 생각 = suy nghĩ."}
+{"id":"ko.c0423","meaning":"Mình nghĩ về cậu nhiều lắm đấy","note":"Thân mật. 생각 = suy nghĩ."}
 {"id":"ko.c0424","meaning":"Ăn cơm chưa? Nhớ ăn uống đầy đủ nhé","note":"Đỉnh cao của sự quan tâm kiểu Hàn: lo cho bữa ăn của người kia."}
 {"id":"ko.c0425","meaning":"Về đến nhà an toàn chưa?","note":"Nhắn câu này sau buổi hẹn: đây là điều được mong đợi, không phải tùy ý."}
 {"id":"ko.c0426","meaning":"Về cẩn thận nhé","note":"Thân mật. Lịch sự: 조심히 가세요."}
 {"id":"ko.c0427","meaning":"Mơ đẹp nhé","note":"Nghĩa đen: “mơ một giấc mơ đẹp”. Đi kèm với 잘 자."}
 {"id":"ko.c0428","meaning":"Chỉ được nhìn mình thôi","note":"Đùa, hơi nhõng nhẽo. 만 = chỉ."}
-{"id":"ko.c0429","meaning":"Trong lòng chỉ có một người thôi","note":"Nghĩa đen: “ngoài người ấy ra, không còn ai”."}
+{"id":"ko.c0429","meaning":"Mình chỉ có cậu thôi","note":"Nghĩa đen: “ngoài cậu ra, không còn ai”."}
 {"id":"ko.c0430","meaning":"Tim đập thình thịch rồi","note":"심쿵 = tim (심장) + thịch (쿵). Tiếng lóng."}
 {"id":"ko.c0431","meaning":"Làm người yêu nhé?","note":"Cách tỏ tình thân mật, tinh nghịch."}
 {"id":"ko.c0432","meaning":"Hẹn hò với nhau nhé?","note":"사귀다 = hẹn hò, yêu nhau. Đây là lời tỏ tình thật sự."}
 {"id":"ko.c0433","meaning":"Đừng làm nũng nữa, đau tim quá","note":"애교 = làm nũng, làm dáng dễ thương. Câu tán tỉnh kiểu đùa."}
-{"id":"ko.c0434","meaning":"Cho xin số được không?","note":"좀 làm câu mềm hơn. Lịch sự: 번호 좀 알려 주실래요?"}
+{"id":"ko.c0434","meaning":"Cho mình xin số điện thoại được không?","note":"좀 làm câu mềm hơn. Lịch sự: 번호 좀 알려 주실래요?"}
 {"id":"ko.c0435","meaning":"Bạn có Instagram không?","note":"Cách xin số thời nay. 인스타 = Insta."}
 {"id":"ko.c0436","meaning":"Nếu bạn rảnh, đi uống cà phê không?","note":"ㄹ래요 = có muốn… không? Lời mời nhẹ nhàng, không ép."}
 {"id":"ko.c0437","meaning":"Bạn có bạn trai chưa?","note":"여자친구 = bạn gái. 남친/여친 = dạng rút gọn thân mật."}
 {"id":"ko.c0438","meaning":"Yêu từ cái nhìn đầu tiên","note":"첫눈 = cái nhìn đầu tiên (cũng là tuyết đầu mùa). 반하다 = phải lòng."}
 {"id":"ko.c0439","meaning":"Ở bên nhau thời gian trôi nhanh quá","note":"랑 = với (thân mật). 빨리 = nhanh."}
-{"id":"ko.c0440","meaning":"Cứ nghĩ đến là lại mỉm cười","note":"웃음이 나다 = bật cười, nở nụ cười."}
-{"id":"ko.c0441","meaning":"Cứ nghĩ đến mãi thôi","note":"자꾸 = cứ, hoài."}
+{"id":"ko.c0440","meaning":"Cứ nghĩ đến cậu là mình lại mỉm cười","note":"웃음이 나다 = bật cười, nở nụ cười."}
+{"id":"ko.c0441","meaning":"Cứ nghĩ đến cậu mãi thôi","note":"자꾸 = cứ, hoài."}
 {"id":"ko.c0442","meaning":"Xinh nhất luôn","note":"제일 = nhất. Với con trai: 제일 멋있어."}
 {"id":"ko.c0443","meaning":"Lần sau lại gặp nhé?","note":"ㄹ까 = … nhé? 또 = lại, nữa."}
 {"id":"ko.c0444","meaning":"Để đưa về tận nhà nhé","note":"ㄹ게 = sẽ… (như một lời hứa). Cái kết kinh điển của buổi hẹn."}
-{"id":"ko.c0445","meaning":"Hình như thích mất rồi","note":"것 같아 = hình như. Làm lời tỏ tình nhẹ đi."}
+{"id":"ko.c0445","meaning":"Hình như mình thích cậu mất rồi","note":"것 같아 = hình như. Làm lời tỏ tình nhẹ đi."}
 {"id":"ko.c0446","meaning":"Hôm nay không muốn về nhà","note":"기 싫다 = không muốn. Nói khi kết thúc một buổi hẹn vui."}
-{"id":"ko.c0447","meaning":"Yêu nhau đi","note":"자 = … đi. Tự tin hơn 사귈래?"}
+{"id":"ko.c0447","meaning":"Hẹn hò với mình đi","note":"자 = … đi. Tự tin hơn 사귈래?"}
 {"id":"ko.c0448","meaning":"Đang làm gì đấy?","note":"Câu mở đầu quen thuộc. Lịch sự: 뭐 해요?"}
 {"id":"ko.c0449","meaning":"Chán quá","note":"심심하다 = chán. 놀자 = đi chơi đi."}
 {"id":"ko.c0450","meaning":"Mệt quá","note":"피곤하다. 졸려 = buồn ngủ."}
@@ -528,7 +528,7 @@
 {"id":"ko.c0527","meaning":"Chụp selfie đi","note":"셀카 = ảnh selfie. 찍다 = chụp (ảnh)."}
 {"id":"ko.c0528","meaning":"Mình là gì của nhau?","note":"사이 = mối quan hệ giữa hai người. Câu hỏi để xác định mối quan hệ."}
 {"id":"ko.c0529","meaning":"Muốn hẹn hò nghiêm túc","note":"진지하다 = nghiêm túc."}
-{"id":"ko.c0530","meaning":"Thật sự rất dịu dàng","note":"다정하다 = tình cảm, chu đáo. Lời khen không chỉ về ngoại hình."}
+{"id":"ko.c0530","meaning":"Cậu dịu dàng thật đấy","note":"다정하다 = tình cảm, chu đáo. Lời khen không chỉ về ngoại hình."}
 {"id":"ko.c0531","meaning":"Thích tiếng cười của cậu","note":"웃음소리 = tiếng cười."}
 {"id":"ko.c0532","meaning":"Ở bên nhau thấy thoải mái","note":"편하다 = thoải mái. Một lời khen lớn khi hẹn hò ở Hàn."}
 {"id":"ko.c0533","meaning":"Xin lỗi nhé, là lỗi của mình","note":"잘못하다 = làm sai. Hãy nhận lỗi."}
@@ -540,7 +540,7 @@
 {"id":"ko.c0539","meaning":"Nắm tay được không?","note":"잡다 = nắm. 아/어도 돼 = … được không."}
 {"id":"ko.c0540","meaning":"Ôm một cái đi","note":"안다 = ôm. 안아 줄게 = để mình ôm nào."}
 {"id":"ko.c0541","meaning":"Nhớ muốn chết","note":"죽겠어 = “chết mất”, từ nhấn mạnh. Thân mật, cường điệu."}
-{"id":"ko.c0542","meaning":"Có chuyện muốn nói","note":"Mở đầu một cuộc nói chuyện nghiêm túc. 한테 = với, cho (người)."}
+{"id":"ko.c0542","meaning":"Mình có chuyện muốn nói với cậu","note":"Mở đầu một cuộc nói chuyện nghiêm túc. 한테 = với, cho (người)."}
 {"id":"ko.c0543","meaning":"Hình như chúng mình rất hợp nhau","note":"맞다 = hợp, khớp."}
 {"id":"ko.c0544","meaning":"Mấy giờ họp?","note":"회의 = cuộc họp: cùng gốc Hán với “hội nghị” nhưng dùng cho mọi cuộc họp. 회의실 = phòng họp."}
 {"id":"ko.c0545","meaning":"Hạn chót là khi nào?","note":"마감 = hạn chót, deadline. 마감 지켰어요 = tôi nộp đúng hạn rồi."}
@@ -573,7 +573,7 @@
 {"id":"ko.c0572","meaning":"nước","note":"물 주세요 = cho tôi nước."}
 {"id":"ko.c0573","meaning":"cơm / bữa ăn","note":"밥 먹자 = đi ăn thôi."}
 {"id":"ko.c0574","meaning":"thịt","note":"소고기 thịt bò, 돼지고기 thịt lợn, 닭고기 thịt gà."}
-{"id":"ko.c0575","meaning":"Cho tôi xem thực đơn","note":"Hoặc chỉ cần giơ tay và nói 저기요 (xin lỗi, cho hỏi)."}
+{"id":"ko.c0575","meaning":"Cho tôi xem thực đơn","note":"Hoặc chỉ cần giơ tay và nói 저기요 (xin lỗi!, như “Em ơi!” ở quán Việt)."}
 {"id":"ko.c0576","meaning":"Làm không cay giúp tôi","note":"맵다 = cay. 안 매워요? = không cay à?"}
 {"id":"ko.c0577","meaning":"Ngon lắm","note":"Nói với chủ quán lúc ra về."}
 {"id":"ko.c0578","meaning":"Tôi đói","note":"배불러요 (baebulleoyo) = tôi no rồi."}
@@ -995,7 +995,7 @@
 {"id":"ko.c0997","meaning":"cho (người được kính trọng)","note":"Kính ngữ của 에게: 할머니께 드려요."}
 {"id":"ko.c0998","meaning":"từ (một người, văn nói)","note":"친구한테서 받았어요. Thường rút gọn thành 한테."}
 {"id":"ko.c0999","meaning":"mỗi (người, lần) một","note":"하나씩 = mỗi người một cái; 조금씩 = từng chút một."}
-{"id":"ko.c1000","meaning":"ít ra; hay là… gì đó","note":"커피라도 마실래요? = ít ra mình đi uống cà phê nhé?"}
+{"id":"ko.c1000","meaning":"ít ra; hay là… gì đó","note":"커피라도 마실래요? = hay là mình đi uống cà phê nhé?"}
 {"id":"ko.c1001","meaning":"tên là; rằng (trích một từ)","note":"민수라고 해요 = tôi tên là Minsu."}
 {"id":"ko.c1002","meaning":"theo; như","note":"마음대로 = tùy ý bạn; 말한 대로 = như tôi đã nói."}
 {"id":"ko.c1003","meaning":"(bắt đầu) từ (một nơi)","note":"집에서부터 걸어왔어요 = tôi đi bộ suốt từ nhà đến đây."}
@@ -1042,7 +1042,7 @@
 {"id":"ko.c1044","meaning":"ui da","note":"Đau bất chợt. Ngắn hơn: 아! Trẻ con nói 아야야."}
 {"id":"ko.c1045","meaning":"haiz; thôi đành vậy","note":"Mệt mỏi, cam chịu. Có thể nghe cáu kỉnh; cẩn thận với người lớn tuổi."}
 {"id":"ko.c1046","meaning":"ôi trời!; trời ơi!","note":"Chủ yếu phụ nữ và người lớn tuổi nói. 어머나 mạnh hơn."}
-{"id":"ko.c1047","meaning":"hự!; chết thật","note":"Sốc, cũng hay gõ khi nhắn tin. Thân mật."}
+{"id":"ko.c1047","meaning":"trời!; chết thật","note":"Sốc, cũng hay gõ khi nhắn tin. Thân mật."}
 {"id":"ko.c1048","meaning":"ối!; á!","note":"Bất ngờ nhỏ hoặc lỡ tay. Thân mật."}
 {"id":"ko.c1049","meaning":"chết, quên mất!","note":"Khi chợt nhớ ra mình sơ suất: 아차, 지갑! Thân mật."}
 {"id":"ko.c1050","meaning":"giật cả mình!","note":"Khi bị giật mình. Thân mật; lịch sự: 깜짝 놀랐어요."}

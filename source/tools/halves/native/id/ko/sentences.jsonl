@@ -35,11 +35,11 @@
 {"id":"ko.s0035","gloss":"gedung itu (di sana)"}
 {"id":"ko.s0036","gloss":"rumah teman (saya)"}
 {"id":"ko.s0037","gloss":"nama saya"}
-{"id":"ko.s0038","gloss":"(Saya) mahasiswa"}
+{"id":"ko.s0038","gloss":"(Saya) pelajar"}
 {"id":"ko.s0039","gloss":"(Dia) dokter"}
-{"id":"ko.s0040","gloss":"(Saya) bukan mahasiswa"}
+{"id":"ko.s0040","gloss":"(Saya) bukan pelajar"}
 {"id":"ko.s0041","gloss":"Ini apa?"}
-{"id":"ko.s0042","gloss":"Saya mahasiswa (kalau saya: mahasiswa)"}
+{"id":"ko.s0042","gloss":"Saya pelajar (kalau saya: pelajar)"}
 {"id":"ko.s0043","gloss":"Nama saya Minsu"}
 {"id":"ko.s0044","gloss":"Buku ini buku saya"}
 {"id":"ko.s0045","gloss":"Teman saya dokter"}
@@ -56,10 +56,10 @@
 {"id":"ko.s0056","gloss":"Kucingnya ada di rumah"}
 {"id":"ko.s0057","gloss":"Toiletnya di mana?"}
 {"id":"ko.s0058","gloss":"Teman saya ada di sekolah"}
-{"id":"ko.s0059","gloss":"Saya mahasiswa"}
+{"id":"ko.s0059","gloss":"Saya pelajar"}
 {"id":"ko.s0060","gloss":"rumah saya (rumah kami)"}
 {"id":"ko.s0061","gloss":"ibu saya"}
-{"id":"ko.s0062","gloss":"Minsu mahasiswa?"}
+{"id":"ko.s0062","gloss":"Minsu pelajar?"}
 {"id":"ko.s0063","gloss":"Beliau ini guru"}
 {"id":"ko.s0064","gloss":"Ada di sana"}
 {"id":"ko.s0065","gloss":"Orang itu siapa?"}
@@ -90,7 +90,7 @@
 {"id":"ko.s0090","gloss":"(Itu) bagus (lampau)"}
 {"id":"ko.s0091","gloss":"Kemarin (saya) ada di rumah"}
 {"id":"ko.s0092","gloss":"(Saya) tidak punya waktu (lampau)"}
-{"id":"ko.s0093","gloss":"(Dulu saya) mahasiswa"}
+{"id":"ko.s0093","gloss":"(Dulu saya) pelajar"}
 {"id":"ko.s0094","gloss":"(Dulu dia) dokter"}
 {"id":"ko.s0095","gloss":"Kemarin teman saya datang"}
 {"id":"ko.s0096","gloss":"Apa yang kamu lakukan kemarin?"}
@@ -125,7 +125,7 @@
 {"id":"ko.s0125","gloss":"(Saya) beristirahat di rumah"}
 {"id":"ko.s0126","gloss":"(Saya) belajar di kafe"}
 {"id":"ko.s0299","gloss":"(Saya) dari Kanada"}
-{"id":"ko.s0128","gloss":"Kalau saya, mahasiswa"}
+{"id":"ko.s0128","gloss":"Kalau saya, pelajar"}
 {"id":"ko.s0129","gloss":"Siapa yang datang? Teman saya yang datang (info baru → 가)"}
 {"id":"ko.s0130","gloss":"(Saya) tidak pergi"}
 {"id":"ko.s0131","gloss":"(Saya) tidak minum kopi"}
@@ -137,10 +137,10 @@
 {"id":"ko.s0137","gloss":"(Saya) tidak pergi"}
 {"id":"ko.s0138","gloss":"(Saya) tidak makan daging"}
 {"id":"ko.s0139","gloss":"(Saya) tidak belajar (lampau)"}
-{"id":"ko.s0140","gloss":"Saya bukan mahasiswa"}
+{"id":"ko.s0140","gloss":"Saya bukan pelajar"}
 {"id":"ko.s0141","gloss":"(Dia) bukan dokter"}
 {"id":"ko.s0142","gloss":"(Saya) tidak punya waktu"}
-{"id":"ko.s0143","gloss":"Saya juga mahasiswa"}
+{"id":"ko.s0143","gloss":"Saya juga pelajar"}
 {"id":"ko.s0144","gloss":"Saya juga"}
 {"id":"ko.s0145","gloss":"(Saya) juga punya kucing"}
 {"id":"ko.s0146","gloss":"kalau saya → saya juga"}
@@ -184,7 +184,7 @@
 {"id":"ko.s0184","gloss":"Tolong dihitung (minta tagihan)"}
 {"id":"ko.s0185","gloss":"Minta dua gimbap"}
 {"id":"ko.s0186","gloss":"Minta tiga gelas bir"}
-{"id":"ko.s0187","gloss":"Sebelum makan: Terima kasih, saya makan, ya (harfiah: \"saya akan makan dengan baik\")"}
+{"id":"ko.s0187","gloss":"Sebelum makan: Terima kasih atas makanannya (harfiah: \"saya akan makan dengan baik\")"}
 {"id":"ko.s0188","gloss":"Sesudah makan: Terima kasih, makanannya enak (harfiah: \"saya sudah makan dengan baik\")"}
 {"id":"ko.s0189","gloss":"Stasiun kereta bawah tanah di mana?"}
 {"id":"ko.s0190","gloss":"Jalan lurus saja"}
@@ -194,12 +194,12 @@
 {"id":"ko.s0194","gloss":"Stasiun berikutnya adalah Gangnam"}
 {"id":"ko.s0195","gloss":"Pak/Bu (kepada pemilik), tolong dihitung"}
 {"id":"ko.s0196","gloss":"Minsu, ada waktu?"}
-{"id":"ko.s0197","gloss":"(perempuan kepada laki-laki yang lebih tua) Kak, sedang apa?"}
+{"id":"ko.s0197","gloss":"(perempuan kepada laki-laki yang lebih tua) Kak, lagi apa?"}
 {"id":"ko.s0198","gloss":"Akhir pekan ini enaknya kita melakukan apa?"}
 {"id":"ko.s0199","gloss":"Mau makan malam bersama?"}
 {"id":"ko.s0200","gloss":"Boleh, enaknya kita bertemu jam berapa?"}
 {"id":"ko.s0201","gloss":"Sampai jumpa jam 7 di pintu keluar 2 Stasiun Universitas Hongik"}
-{"id":"ko.s0202","gloss":"Boleh / Oke, jadi!"}
+{"id":"ko.s0202","gloss":"Boleh / Oke, setuju!"}
 {"id":"ko.s0203","gloss":"Maaf, ya, hari itu aku ada janji"}
 {"id":"ko.s0204","gloss":"Lain kali kita pasti pergi"}
 {"id":"ko.s0205","gloss":"(Kamu) di mana sekarang?"}

@@ -1,0 +1,1415 @@
+{"f": "cards", "id": "ko.c0715", "k": "meaning", "src": "health", "tgt": "ఆరోగ్యం"}
+{"f": "cards", "id": "ko.c0715", "k": "note", "src": "건강하세요 = stay healthy (a common goodbye to elders).", "tgt": "건강하세요 = ఆరోగ్యంగా ఉండండి (పెద్దవారికి చెప్పే సాధారణ వీడ్కోలు)."}
+{"f": "cards", "id": "ko.c0716", "k": "meaning", "src": "bus", "tgt": "బస్సు"}
+{"f": "cards", "id": "ko.c0716", "k": "note", "src": "버스 타요 = I take the bus.", "tgt": "버스 타요 = నేను బస్సు ఎక్కుతాను."}
+{"f": "cards", "id": "ko.c0717", "k": "meaning", "src": "photo", "tgt": "ఫోటో"}
+{"f": "cards", "id": "ko.c0717", "k": "note", "src": "사진 찍어도 돼요? = may I take a photo?", "tgt": "사진 찍어도 돼요? = ఫోటో తీయవచ్చా?"}
+{"f": "cards", "id": "ko.c0718", "k": "meaning", "src": "meaning", "tgt": "అర్థం"}
+{"f": "cards", "id": "ko.c0718", "k": "note", "src": "이게 무슨 뜻이에요? = what does this mean?", "tgt": "이게 무슨 뜻이에요? = దీని అర్థం ఏమిటి?"}
+{"f": "cards", "id": "ko.c0719", "k": "meaning", "src": "car", "tgt": "కారు"}
+{"f": "cards", "id": "ko.c0719", "k": "note", "src": "Everyday: 차, which also means tea.", "tgt": "మామూలుగా: 차, దీనికి \"టీ\" అనే అర్థం కూడా ఉంది."}
+{"f": "cards", "id": "ko.c0720", "k": "meaning", "src": "half; class (at school)", "tgt": "సగం; క్లాసు (బడిలో)"}
+{"f": "cards", "id": "ko.c0720", "k": "note", "src": "한 시 반 = half past one; 우리 반 = our class.", "tgt": "한 시 반 = ఒకటిన్నర; 우리 반 = మా క్లాసు."}
+{"f": "cards", "id": "ko.c0721", "k": "meaning", "src": "price", "tgt": "ధర"}
+{"f": "cards", "id": "ko.c0721", "k": "note", "src": "Spoken also: 값. 가격이 얼마예요?", "tgt": "మాటల్లో 값 కూడా. 가격이 얼마예요?"}
+{"f": "cards", "id": "ko.c0722", "k": "meaning", "src": "mobile phone", "tgt": "మొబైల్ ఫోన్"}
+{"f": "cards", "id": "ko.c0722", "k": "note", "src": "Also 휴대폰; casual 폰.", "tgt": "휴대폰 కూడా; సాధారణంగా 폰."}
+{"f": "cards", "id": "ko.c0723", "k": "meaning", "src": "neighborhood", "tgt": "ఏరియా; ఇరుగుపొరుగు"}
+{"f": "cards", "id": "ko.c0723", "k": "note", "src": "우리 동네 = my neighborhood.", "tgt": "우리 동네 = మా ఏరియా."}
+{"f": "cards", "id": "ko.c0724", "k": "meaning", "src": "English (the language)", "tgt": "ఇంగ్లీష్ (భాష)", "rw": "mentions English"}
+{"f": "cards", "id": "ko.c0724", "k": "note", "src": "영어 선생님 = English teacher.", "tgt": "영어 선생님 = ఇంగ్లీష్ టీచర్.", "rw": "mentions English"}
+{"f": "cards", "id": "ko.c0725", "k": "meaning", "src": "question", "tgt": "ప్రశ్న"}
+{"f": "cards", "id": "ko.c0725", "k": "note", "src": "질문 있어요 = I have a question.", "tgt": "질문 있어요 = నాకు ఒక ప్రశ్న ఉంది."}
+{"f": "cards", "id": "ko.c0726", "k": "meaning", "src": "parents", "tgt": "తల్లిదండ్రులు"}
+{"f": "cards", "id": "ko.c0726", "k": "note", "src": "Always with 님, even your own.", "tgt": "మీ సొంత తల్లిదండ్రులైనా ఎప్పుడూ 님 తో."}
+{"f": "cards", "id": "ko.c0727", "k": "meaning", "src": "shop; store", "tgt": "షాపు; దుకాణం"}
+{"f": "cards", "id": "ko.c0727", "k": "note", "src": "작은 가게 = a small shop.", "tgt": "작은 가게 = చిన్న షాపు."}
+{"f": "cards", "id": "ko.c0728", "k": "meaning", "src": "weather", "tgt": "వాతావరణం"}
+{"f": "cards", "id": "ko.c0728", "k": "note", "src": "날씨가 좋네요.", "tgt": "날씨가 좋네요.", "pre": 1}
+{"f": "cards", "id": "ko.c0729", "k": "meaning", "src": "doctor", "tgt": "డాక్టర్"}
+{"f": "cards", "id": "ko.c0729", "k": "note", "src": "Address one as 선생님.", "tgt": "డాక్టర్ని 선생님 అని పిలుస్తారు."}
+{"f": "cards", "id": "ko.c0730", "k": "meaning", "src": "answer; reply", "tgt": "జవాబు"}
+{"f": "cards", "id": "ko.c0730", "k": "note", "src": "대답해 주세요 = please answer.", "tgt": "대답해 주세요 = జవాబు చెప్పి పెట్టండి."}
+{"f": "cards", "id": "ko.c0731", "k": "meaning", "src": "start; beginning", "tgt": "మొదలు; ప్రారంభం"}
+{"f": "cards", "id": "ko.c0731", "k": "note", "src": "시작이 반이다 = starting is half the job.", "tgt": "시작이 반이다 = మొదలుపెడితే సగం పని అయినట్టే."}
+{"f": "cards", "id": "ko.c0732", "k": "meaning", "src": "homework", "tgt": "హోంవర్క్"}
+{"f": "cards", "id": "ko.c0732", "k": "note", "src": "숙제 다 했어요? = did you finish your homework?", "tgt": "숙제 다 했어요? = హోంవర్క్ అంతా చేశారా?"}
+{"f": "cards", "id": "ko.c0733", "k": "meaning", "src": "ticket", "tgt": "టికెట్"}
+{"f": "cards", "id": "ko.c0733", "k": "note", "src": "표 두 장 = two tickets.", "tgt": "표 두 장 = రెండు టికెట్లు."}
+{"f": "cards", "id": "ko.c0734", "k": "meaning", "src": "puppy; dog (everyday)", "tgt": "కుక్కపిల్ల; కుక్క (మామూలుగా)"}
+{"f": "cards", "id": "ko.c0734", "k": "note", "src": "개 is the plain word but also a swear prefix; 강아지 is safe.", "tgt": "개 అసలు పదం, కానీ తిట్లలో కూడా వస్తుంది; 강아지 సురక్షితం."}
+{"f": "cards", "id": "ko.c0735", "k": "meaning", "src": "gift", "tgt": "బహుమతి"}
+{"f": "cards", "id": "ko.c0735", "k": "note", "src": "선물이에요 = it's a present for you.", "tgt": "선물이에요 = ఇది మీకు బహుమతి."}
+{"f": "cards", "id": "ko.c0736", "k": "meaning", "src": "subway", "tgt": "మెట్రో రైలు"}
+{"f": "cards", "id": "ko.c0736", "k": "note", "src": "지하철로 가요 = I go by subway.", "tgt": "지하철로 가요 = నేను మెట్రోలో వెళ్తాను."}
+{"f": "cards", "id": "ko.c0737", "k": "meaning", "src": "weekend", "tgt": "వారాంతం"}
+{"f": "cards", "id": "ko.c0737", "k": "note", "src": "주말 잘 보내세요 = have a good weekend.", "tgt": "주말 잘 보내세요 = వారాంతం బాగా గడపండి."}
+{"f": "cards", "id": "ko.c0738", "k": "meaning", "src": "birthday", "tgt": "పుట్టినరోజు"}
+{"f": "cards", "id": "ko.c0738", "k": "note", "src": "생일 축하해요 = happy birthday.", "tgt": "생일 축하해요 = పుట్టినరోజు శుభాకాంక్షలు."}
+{"f": "cards", "id": "ko.c0739", "k": "meaning", "src": "cat", "tgt": "పిల్లి"}
+{"f": "cards", "id": "ko.c0739", "k": "note", "src": "고양이 키워요 = I have a cat.", "tgt": "고양이 키워요 = నేను పిల్లిని పెంచుతున్నాను."}
+{"f": "cards", "id": "ko.c0740", "k": "meaning", "src": "medicine", "tgt": "మందు"}
+{"f": "cards", "id": "ko.c0740", "k": "note", "src": "약 먹어요 = I take medicine (eat medicine).", "tgt": "약 먹어요 = నేను మందు వేసుకుంటాను (అక్షరాలా \"తింటాను\")."}
+{"f": "cards", "id": "ko.c0741", "k": "meaning", "src": "middle-aged woman (casual)", "tgt": "మధ్యవయసు స్త్రీ (సాధారణ)"}
+{"f": "cards", "id": "ko.c0741", "k": "note", "src": "Can sound rude. Politer: 아주머니, or in a shop 사장님.", "tgt": "మొరటుగా వినిపించవచ్చు. మర్యాదగా: 아주머니, షాపులో 사장님."}
+{"f": "cards", "id": "ko.c0742", "k": "meaning", "src": "week", "tgt": "వారం"}
+{"f": "cards", "id": "ko.c0742", "k": "note", "src": "이번 주 = this week; 다음 주 = next week.", "tgt": "이번 주 = ఈ వారం; 다음 주 = వచ్చే వారం."}
+{"f": "cards", "id": "ko.c0743", "k": "meaning", "src": "Korean (the language)", "tgt": "కొరియన్ (భాష)"}
+{"f": "cards", "id": "ko.c0743", "k": "note", "src": "Spoken: 한국말.", "tgt": "మాటల్లో: 한국말."}
+{"f": "cards", "id": "ko.c0744", "k": "meaning", "src": "there isn't; not to have", "tgt": "లేకపోవడం"}
+{"f": "cards", "id": "ko.c0744", "k": "note", "src": "없어요. The opposite of 있다. 시간이 없어요 = I have no time.", "tgt": "없어요. 있다 కి వ్యతిరేకం. 시간이 없어요 = నాకు టైం లేదు."}
+{"f": "cards", "id": "ko.c0745", "k": "meaning", "src": "to become; to work out; to be OK", "tgt": "అవడం; కుదరడం; సరిపోవడం"}
+{"f": "cards", "id": "ko.c0745", "k": "note", "src": "돼요. 돼요? = is that OK? 안 돼요 = no, you can't.", "tgt": "돼요. 돼요? = పర్వాలేదా? 안 돼요 = కుదరదు."}
+{"f": "cards", "id": "ko.c0746", "k": "meaning", "src": "to speak; to say", "tgt": "మాట్లాడటం; చెప్పడం"}
+{"f": "cards", "id": "ko.c0746", "k": "note", "src": "말해요. To an elder: 말씀하세요.", "tgt": "말해요. పెద్దవారికి: 말씀하세요."}
+{"f": "cards", "id": "ko.c0747", "k": "meaning", "src": "to receive; to get", "tgt": "తీసుకోవడం; అందుకోవడం"}
+{"f": "cards", "id": "ko.c0747", "k": "note", "src": "받아요. 전화 받아요 = I answer the phone.", "tgt": "받아요. 전화 받아요 = నేను ఫోన్ ఎత్తుతాను."}
+{"f": "cards", "id": "ko.c0748", "k": "meaning", "src": "to come out", "tgt": "బయటికి రావడం"}
+{"f": "cards", "id": "ko.c0748", "k": "note", "src": "나와요. 결과가 나왔어요 = the results are out.", "tgt": "나와요. 결과가 나왔어요 = ఫలితాలు వచ్చాయి."}
+{"f": "cards", "id": "ko.c0749", "k": "meaning", "src": "to live", "tgt": "జీవించడం; నివసించడం"}
+{"f": "cards", "id": "ko.c0749", "k": "note", "src": "살아요. ㄹ drops before ㄴ/ㅂ/ㅅ: 사세요, 사는 곳.", "tgt": "살아요. ㄴ/ㅂ/ㅅ ముందు ㄹ పోతుంది: 사세요, 사는 곳."}
+{"f": "cards", "id": "ko.c0750", "k": "meaning", "src": "to think", "tgt": "ఆలోచించడం"}
+{"f": "cards", "id": "ko.c0750", "k": "note", "src": "생각해요. 그렇게 생각해요 = I think so.", "tgt": "생각해요. 그렇게 생각해요 = నేనూ అలాగే అనుకుంటున్నాను."}
+{"f": "cards", "id": "ko.c0751", "k": "meaning", "src": "to make", "tgt": "తయారుచేయడం"}
+{"f": "cards", "id": "ko.c0751", "k": "note", "src": "만들어요. ㄹ drops: 만드세요, 만드는 법.", "tgt": "만들어요. ㄹ పోతుంది: 만드세요, 만드는 법."}
+{"f": "cards", "id": "ko.c0752", "k": "meaning", "src": "to want to (after -고)", "tgt": "-ఆలని ఉండటం (-고 తర్వాత)"}
+{"f": "cards", "id": "ko.c0752", "k": "note", "src": "싶어요. 먹고 싶어요 = I want to eat. Never alone.", "tgt": "싶어요. 먹고 싶어요 = నాకు తినాలని ఉంది. ఒంటరిగా రాదు."}
+{"f": "cards", "id": "ko.c0753", "k": "meaning", "src": "to be seen; to look (like)", "tgt": "కనిపించడం; అనిపించడం"}
+{"f": "cards", "id": "ko.c0753", "k": "note", "src": "보여요. 잘 보여요 = I can see well.", "tgt": "보여요. 잘 보여요 = నాకు బాగా కనిపిస్తోంది."}
+{"f": "cards", "id": "ko.c0754", "k": "meaning", "src": "to have; to take (own)", "tgt": "కలిగి ఉండటం; దగ్గర పెట్టుకోవడం"}
+{"f": "cards", "id": "ko.c0754", "k": "note", "src": "가져요. 가지고 가요 = I'll take it with me.", "tgt": "가져요. 가지고 가요 = నాతో తీసుకెళ్తాను."}
+{"f": "cards", "id": "ko.c0755", "k": "meaning", "src": "to pass (by); time goes by", "tgt": "దాటడం; సమయం గడవడం"}
+{"f": "cards", "id": "ko.c0755", "k": "note", "src": "지나요. 시간이 빨리 지나요.", "tgt": "지나요. 시간이 빨리 지나요.", "pre": 1}
+{"f": "cards", "id": "ko.c0756", "k": "meaning", "src": "to hold; to lift; to cost", "tgt": "చేతిలో పట్టుకోవడం; ఎత్తడం; ఖర్చవడం"}
+{"f": "cards", "id": "ko.c0756", "k": "note", "src": "들어요. ㄹ drops: 드세요 (but 드세요 also = please eat).", "tgt": "들어요. ㄹ పోతుంది: 드세요 (కానీ 드세요 అంటే \"తినండి\" కూడా)."}
+{"f": "cards", "id": "ko.c0757", "k": "meaning", "src": "to throw away", "tgt": "పారేయడం"}
+{"f": "cards", "id": "ko.c0757", "k": "note", "src": "버려요. After -아/어: 다 먹어 버렸어요 = I ate it all (oops).", "tgt": "버려요. -아/어 తర్వాత: 다 먹어 버렸어요 = అంతా తినేశాను (అయ్యో)."}
+{"f": "cards", "id": "ko.c0758", "k": "meaning", "src": "to start", "tgt": "మొదలుపెట్టడం"}
+{"f": "cards", "id": "ko.c0758", "k": "note", "src": "시작해요. 영화가 시작해요.", "tgt": "시작해요. 영화가 시작해요.", "pre": 1}
+{"f": "cards", "id": "ko.c0759", "k": "meaning", "src": "to go in; to enter", "tgt": "లోపలికి వెళ్ళడం"}
+{"f": "cards", "id": "ko.c0759", "k": "note", "src": "들어가요. 집에 들어가요 = I'm heading home.", "tgt": "들어가요. 집에 들어가요 = ఇంటికి వెళ్తున్నాను."}
+{"f": "cards", "id": "ko.c0760", "k": "meaning", "src": "to put; to place", "tgt": "పెట్టడం; ఉంచడం"}
+{"f": "cards", "id": "ko.c0760", "k": "note", "src": "놓아요 / 놔요. 여기 놓으세요.", "tgt": "놓아요 / 놔요. 여기 놓으세요.", "pre": 1}
+{"f": "cards", "id": "ko.c0761", "k": "meaning", "src": "to meet", "tgt": "కలవడం"}
+{"f": "cards", "id": "ko.c0761", "k": "note", "src": "만나요. Note: 친구를 만나요 (을/를, not \"with\").", "tgt": "만나요. గమనించండి: 친구를 만나요 (을/를, \"-తో\" కాదు)."}
+{"f": "cards", "id": "ko.c0762", "k": "meaning", "src": "to put out; to pay", "tgt": "బయట పెట్టడం; చెల్లించడం"}
+{"f": "cards", "id": "ko.c0762", "k": "note", "src": "내요. 제가 낼게요 = I'll pay.", "tgt": "내요. 제가 낼게요 = నేను కడతాను."}
+{"f": "cards", "id": "ko.c0763", "k": "meaning", "src": "to write; to use", "tgt": "రాయడం; వాడటం"}
+{"f": "cards", "id": "ko.c0763", "k": "note", "src": "써요 (ㅡ drops). Also: to wear (a hat), to taste bitter.", "tgt": "써요 (ㅡ పోతుంది). టోపీ పెట్టుకోవడం, చేదుగా ఉండటం అని కూడా."}
+{"f": "cards", "id": "ko.c0764", "k": "meaning", "src": "to listen; to hear", "tgt": "వినడం"}
+{"f": "cards", "id": "ko.c0764", "k": "note", "src": "들어요. ㄷ irregular: ㄷ → ㄹ before a vowel.", "tgt": "들어요. ㄷ క్రమరహితం: అచ్చు ముందు ㄷ → ㄹ."}
+{"f": "cards", "id": "ko.c0765", "k": "meaning", "src": "to look for; to find", "tgt": "వెతకడం; కనుక్కోవడం"}
+{"f": "cards", "id": "ko.c0765", "k": "note", "src": "찾아요. 돈 찾아요 = I withdraw money.", "tgt": "찾아요. 돈 찾아요 = నేను డబ్బు డ్రా చేస్తాను."}
+{"f": "cards", "id": "ko.c0766", "k": "meaning", "src": "to go out; to leave", "tgt": "బయటికి వెళ్ళడం"}
+{"f": "cards", "id": "ko.c0766", "k": "note", "src": "나가요. 오늘 나가요? = going out today?", "tgt": "나가요. 오늘 나가요? = ఈరోజు బయటికి వెళ్తున్నారా?"}
+{"f": "cards", "id": "ko.c0767", "k": "meaning", "src": "to buy", "tgt": "కొనడం"}
+{"f": "cards", "id": "ko.c0767", "k": "note", "src": "사요. 제가 살게요 = it's on me.", "tgt": "사요. 제가 살게요 = నేను ఇప్పిస్తాను."}
+{"f": "cards", "id": "ko.c0768", "k": "meaning", "src": "to catch; to hold; to grab", "tgt": "పట్టుకోవడం; ఆపడం (టాక్సీ); ఒడిసిపట్టడం"}
+{"f": "cards", "id": "ko.c0768", "k": "note", "src": "잡아요. 택시를 잡아요 = I hail a taxi.", "tgt": "잡아요. 택시를 잡아요 = నేను టాక్సీ ఆపుతాను."}
+{"f": "cards", "id": "ko.c0769", "k": "meaning", "src": "to stand; to stop", "tgt": "నిలబడటం; ఆగడం"}
+{"f": "cards", "id": "ko.c0769", "k": "note", "src": "서요. 줄을 서요 = I stand in line.", "tgt": "서요. 줄을 서요 = నేను లైన్లో నిలబడతాను."}
+{"f": "cards", "id": "ko.c0770", "k": "meaning", "src": "to read", "tgt": "చదవడం"}
+{"f": "cards", "id": "ko.c0770", "k": "note", "src": "읽어요. Said [익따]; 책 읽어요.", "tgt": "읽어요. పలకడం [익따]; 책 읽어요."}
+{"f": "cards", "id": "ko.c0771", "k": "meaning", "src": "to get up; to wake up", "tgt": "లేవడం; నిద్ర లేవడం"}
+{"f": "cards", "id": "ko.c0771", "k": "note", "src": "일어나요. 일곱 시에 일어나요.", "tgt": "일어나요. 일곱 시에 일어나요.", "pre": 1}
+{"f": "cards", "id": "ko.c0772", "k": "meaning", "src": "to put in", "tgt": "లోపల వేయడం"}
+{"f": "cards", "id": "ko.c0772", "k": "note", "src": "넣어요. 설탕 넣어 주세요.", "tgt": "넣어요. 설탕 넣어 주세요.", "pre": 1}
+{"f": "cards", "id": "ko.c0773", "k": "meaning", "src": "to feel", "tgt": "అనుభూతి చెందడం"}
+{"f": "cards", "id": "ko.c0773", "k": "note", "src": "느껴요. 행복을 느껴요.", "tgt": "느껴요. 행복을 느껴요.", "pre": 1}
+{"f": "cards", "id": "ko.c0774", "k": "meaning", "src": "to call; to sing", "tgt": "పిలవడం; పాడటం"}
+{"f": "cards", "id": "ko.c0774", "k": "note", "src": "불러요. 르 irregular: 르 → ㄹㄹ before 아/어.", "tgt": "불러요. 르 క్రమరహితం: 아/어 ముందు 르 → ㄹㄹ."}
+{"f": "cards", "id": "ko.c0775", "k": "meaning", "src": "to die", "tgt": "చనిపోవడం"}
+{"f": "cards", "id": "ko.c0775", "k": "note", "src": "죽어요. Polite about people: 돌아가시다. Also slang: 배고파 죽겠어 = starving.", "tgt": "죽어요. మనుషుల గురించి మర్యాదగా: 돌아가시다. స్లాంగ్: 배고파 죽겠어 = ఆకలితో చచ్చిపోతున్నాను."}
+{"f": "cards", "id": "ko.c0776", "k": "meaning", "src": "to get off; to come down (rain, snow)", "tgt": "దిగడం; పడటం (వాన, మంచు)"}
+{"f": "cards", "id": "ko.c0776", "k": "note", "src": "내려요. 다음 역에서 내려요.", "tgt": "내려요. 다음 역에서 내려요.", "pre": 1}
+{"f": "cards", "id": "ko.c0777", "k": "meaning", "src": "to build; to make (a name, rice)", "tgt": "కట్టడం (ఇల్లు); పెట్టడం (పేరు), వండటం (అన్నం)"}
+{"f": "cards", "id": "ko.c0777", "k": "note", "src": "지어요. ㅅ irregular: ㅅ drops before a vowel.", "tgt": "지어요. ㅅ క్రమరహితం: అచ్చు ముందు ㅅ పోతుంది."}
+{"f": "cards", "id": "ko.c0778", "k": "meaning", "src": "to use", "tgt": "ఉపయోగించడం"}
+{"f": "cards", "id": "ko.c0778", "k": "note", "src": "사용해요. Everyday speech prefers 쓰다.", "tgt": "사용해요. రోజువారీ మాటల్లో 쓰다 ఎక్కువ."}
+{"f": "cards", "id": "ko.c0779", "k": "meaning", "src": "to ride; to get on", "tgt": "ఎక్కడం (వాహనం)"}
+{"f": "cards", "id": "ko.c0779", "k": "note", "src": "타요. 버스를 타요 (을/를).", "tgt": "타요. 버스를 타요 (을/를).", "pre": 1}
+{"f": "cards", "id": "ko.c0780", "k": "meaning", "src": "to send; to spend (time)", "tgt": "పంపడం; గడపడం (సమయం)"}
+{"f": "cards", "id": "ko.c0780", "k": "note", "src": "보내요. 주말 잘 보내세요 = have a good weekend.", "tgt": "보내요. 주말 잘 보내세요 = వారాంతం బాగా గడపండి."}
+{"f": "cards", "id": "ko.c0781", "k": "meaning", "src": "to go regularly; to attend", "tgt": "క్రమం తప్పకుండా వెళ్ళడం"}
+{"f": "cards", "id": "ko.c0781", "k": "note", "src": "다녀요. 회사에 다녀요 = I work at a company.", "tgt": "다녀요. 회사에 다녀요 = నేను ఒక కంపెనీలో పని చేస్తాను."}
+{"f": "cards", "id": "ko.c0782", "k": "meaning", "src": "to open", "tgt": "తెరవడం"}
+{"f": "cards", "id": "ko.c0782", "k": "note", "src": "열어요. ㄹ drops: 여세요, 여는 시간.", "tgt": "열어요. ㄹ పోతుంది: 여세요, 여는 시간."}
+{"f": "cards", "id": "ko.c0783", "k": "meaning", "src": "to come back", "tgt": "తిరిగి రావడం"}
+{"f": "cards", "id": "ko.c0783", "k": "note", "src": "돌아와요. 언제 돌아와요?", "tgt": "돌아와요. 언제 돌아와요?", "pre": 1}
+{"f": "cards", "id": "ko.c0784", "k": "meaning", "src": "to ask", "tgt": "అడగడం"}
+{"f": "cards", "id": "ko.c0784", "k": "note", "src": "물어요. ㄷ irregular. 길을 물어봐요 = I ask the way.", "tgt": "물어요. ㄷ క్రమరహితం. 길을 물어봐요 = నేను దారి అడుగుతాను."}
+{"f": "cards", "id": "ko.c0785", "k": "meaning", "src": "to be left over; to remain", "tgt": "మిగలడం"}
+{"f": "cards", "id": "ko.c0785", "k": "note", "src": "남아요. 시간이 좀 남았어요.", "tgt": "남아요. 시간이 좀 남았어요.", "pre": 1}
+{"f": "cards", "id": "ko.c0786", "k": "meaning", "src": "to come out; to break out (happen)", "tgt": "వెలువడటం; కలగడం (జరగడం)"}
+{"f": "cards", "id": "ko.c0786", "k": "note", "src": "나요. 생각이 나요 = it comes to mind; 냄새가 나요 = it smells.", "tgt": "나요. 생각이 나요 = గుర్తొస్తుంది; 냄새가 나요 = వాసన వస్తోంది."}
+{"f": "cards", "id": "ko.c0787", "k": "meaning", "src": "to laugh; to smile", "tgt": "నవ్వడం"}
+{"f": "cards", "id": "ko.c0787", "k": "note", "src": "웃어요. Regular (not ㅅ irregular).", "tgt": "웃어요. క్రమమైనది (ㅅ క్రమరహితం కాదు)."}
+{"f": "cards", "id": "ko.c0788", "k": "meaning", "src": "to wait", "tgt": "ఎదురుచూడటం"}
+{"f": "cards", "id": "ko.c0788", "k": "note", "src": "기다려요. 잠깐만 기다려 주세요.", "tgt": "기다려요. 잠깐만 기다려 주세요.", "pre": 1}
+{"f": "cards", "id": "ko.c0789", "k": "meaning", "src": "to wear (clothes)", "tgt": "వేసుకోవడం (బట్టలు)"}
+{"f": "cards", "id": "ko.c0789", "k": "note", "src": "입어요. Regular (not ㅂ irregular). Hats: 쓰다; shoes: 신다.", "tgt": "입어요. క్రమమైనది (ㅂ క్రమరహితం కాదు). టోపీ: 쓰다; చెప్పులు: 신다."}
+{"f": "cards", "id": "ko.c0790", "k": "meaning", "src": "to end; to finish", "tgt": "ముగియడం; అయిపోవడం"}
+{"f": "cards", "id": "ko.c0790", "k": "note", "src": "끝나요. 수업이 끝났어요.", "tgt": "끝나요. 수업이 끝났어요.", "pre": 1}
+{"f": "cards", "id": "ko.c0791", "k": "meaning", "src": "to take (time); to catch (a cold)", "tgt": "పట్టడం (సమయం); రావడం (జలుబు)"}
+{"f": "cards", "id": "ko.c0791", "k": "note", "src": "걸려요. 감기에 걸렸어요.", "tgt": "걸려요. 감기에 걸렸어요.", "pre": 1}
+{"f": "cards", "id": "ko.c0792", "k": "meaning", "src": "to go up; to rise", "tgt": "పైకి వెళ్ళడం; పెరగడం"}
+{"f": "cards", "id": "ko.c0792", "k": "note", "src": "올라요. 르 irregular. 가격이 올랐어요.", "tgt": "올라요. 르 క్రమరహితం. 가격이 올랐어요."}
+{"f": "cards", "id": "ko.c0793", "k": "meaning", "src": "to believe; to trust", "tgt": "నమ్మడం"}
+{"f": "cards", "id": "ko.c0793", "k": "note", "src": "믿어요. 저를 믿으세요.", "tgt": "믿어요. 저를 믿으세요.", "pre": 1}
+{"f": "cards", "id": "ko.c0794", "k": "meaning", "src": "to change; to exchange", "tgt": "మార్చడం; మార్చుకోవడం"}
+{"f": "cards", "id": "ko.c0794", "k": "note", "src": "바꿔요. 자리 바꿀까요? = shall we swap seats?", "tgt": "바꿔요. 자리 바꿀까요? = సీట్లు మార్చుకుందామా?"}
+{"f": "cards", "id": "ko.c0795", "k": "meaning", "src": "to learn", "tgt": "నేర్చుకోవడం"}
+{"f": "cards", "id": "ko.c0795", "k": "note", "src": "배워요. 한국어를 배워요.", "tgt": "배워요. 한국어를 배워요.", "pre": 1}
+{"f": "cards", "id": "ko.c0796", "k": "meaning", "src": "to help", "tgt": "సహాయం చేయడం"}
+{"f": "cards", "id": "ko.c0796", "k": "note", "src": "도와요. ㅂ irregular (ㅂ → 오 here). Asking: 도와주세요.", "tgt": "도와요. ㅂ క్రమరహితం (ఇక్కడ ㅂ → 오). అడగాలంటే: 도와주세요."}
+{"f": "cards", "id": "ko.c0797", "k": "meaning", "src": "to talk; to chat", "tgt": "మాట్లాడుకోవడం; కబుర్లు చెప్పడం"}
+{"f": "cards", "id": "ko.c0797", "k": "note", "src": "이야기해요. Spoken: 얘기해요.", "tgt": "이야기해요. మాటల్లో: 얘기해요."}
+{"f": "cards", "id": "ko.c0798", "k": "meaning", "src": "to sleep", "tgt": "నిద్రపోవడం"}
+{"f": "cards", "id": "ko.c0798", "k": "note", "src": "자요. To an elder: 주무세요.", "tgt": "자요. పెద్దవారికి: 주무세요."}
+{"f": "cards", "id": "ko.c0799", "k": "meaning", "src": "to walk", "tgt": "నడవడం"}
+{"f": "cards", "id": "ko.c0799", "k": "note", "src": "걸어요. ㄷ irregular: ㄷ → ㄹ before a vowel.", "tgt": "걸어요. ㄷ క్రమరహితం: అచ్చు ముందు ㄷ → ㄹ."}
+{"f": "cards", "id": "ko.c0800", "k": "meaning", "src": "to cry", "tgt": "ఏడవడం"}
+{"f": "cards", "id": "ko.c0800", "k": "note", "src": "울어요. ㄹ drops: 우세요, 우는 아이.", "tgt": "울어요. ㄹ పోతుంది: 우세요, 우는 아이."}
+{"f": "cards", "id": "ko.c0801", "k": "meaning", "src": "to get along; to spend days", "tgt": "ఉండటం; రోజులు గడపడం"}
+{"f": "cards", "id": "ko.c0801", "k": "note", "src": "지내요. 잘 지냈어요? = how have you been?", "tgt": "지내요. 잘 지냈어요? = ఎలా ఉన్నారు ఇన్ని రోజులు?"}
+{"f": "cards", "id": "ko.c0802", "k": "meaning", "src": "to sell", "tgt": "అమ్మడం"}
+{"f": "cards", "id": "ko.c0802", "k": "note", "src": "팔아요. ㄹ drops: 파세요, 파는 곳.", "tgt": "팔아요. ㄹ పోతుంది: 파세요, 파는 곳."}
+{"f": "cards", "id": "ko.c0803", "k": "meaning", "src": "to be born", "tgt": "పుట్టడం"}
+{"f": "cards", "id": "ko.c0803", "k": "note", "src": "태어나요. 서울에서 태어났어요.", "tgt": "태어나요. 서울에서 태어났어요.", "pre": 1}
+{"f": "cards", "id": "ko.c0804", "k": "meaning", "src": "to teach", "tgt": "నేర్పించడం"}
+{"f": "cards", "id": "ko.c0804", "k": "note", "src": "가르쳐요. 영어를 가르쳐요.", "tgt": "가르쳐요. 영어를 가르쳐요.", "pre": 1}
+{"f": "cards", "id": "ko.c0805", "k": "meaning", "src": "to order (food); to make someone do", "tgt": "ఆర్డర్ చేయడం (ఆహారం); చేయించడం"}
+{"f": "cards", "id": "ko.c0805", "k": "note", "src": "시켜요. 치킨 시킬까요? = shall we order chicken?", "tgt": "시켜요. 치킨 시킬까요? = చికెన్ ఆర్డర్ చేద్దామా?"}
+{"f": "cards", "id": "ko.c0806", "k": "meaning", "src": "to want; to wish for", "tgt": "కోరుకోవడం"}
+{"f": "cards", "id": "ko.c0806", "k": "note", "src": "원해요. Formal; day to day use -고 싶다.", "tgt": "원해요. అధికారికం; రోజూ -고 싶다 వాడతారు."}
+{"f": "cards", "id": "ko.c0807", "k": "meaning", "src": "to forget", "tgt": "మర్చిపోవడం"}
+{"f": "cards", "id": "ko.c0807", "k": "note", "src": "잊어요. Spoken more: 잊어버리다.", "tgt": "잊어요. మాటల్లో 잊어버리다 ఎక్కువ."}
+{"f": "cards", "id": "ko.c0808", "k": "meaning", "src": "to make an effort; to try hard", "tgt": "ప్రయత్నించడం; కష్టపడటం"}
+{"f": "cards", "id": "ko.c0808", "k": "note", "src": "노력해요. 더 노력할게요.", "tgt": "노력해요. 더 노력할게요.", "pre": 1}
+{"f": "cards", "id": "ko.c0809", "k": "meaning", "src": "to wash (yourself, food)", "tgt": "కడగడం (ఒంటిని, ఆహారాన్ని)"}
+{"f": "cards", "id": "ko.c0809", "k": "note", "src": "씻어요. 손 씻어요.", "tgt": "씻어요. 손 씻어요.", "pre": 1}
+{"f": "cards", "id": "ko.c0810", "k": "meaning", "src": "to fight; to argue", "tgt": "గొడవపడటం; వాదించడం"}
+{"f": "cards", "id": "ko.c0810", "k": "note", "src": "싸워요. 친구랑 싸웠어요.", "tgt": "싸워요. 친구랑 싸웠어요.", "pre": 1}
+{"f": "cards", "id": "ko.c0811", "k": "meaning", "src": "to call (phone)", "tgt": "ఫోన్ చేయడం"}
+{"f": "cards", "id": "ko.c0811", "k": "note", "src": "전화해요. 이따 전화할게요 = I'll call you later.", "tgt": "전화해요. 이따 전화할게요 = తర్వాత ఫోన్ చేస్తాను."}
+{"f": "cards", "id": "ko.c0812", "k": "meaning", "src": "to prepare; to get ready", "tgt": "సిద్ధం చేయడం; తయారవడం"}
+{"f": "cards", "id": "ko.c0812", "k": "note", "src": "준비해요. 준비됐어요? = are you ready?", "tgt": "준비해요. 준비됐어요? = రెడీనా?"}
+{"f": "cards", "id": "ko.c0813", "k": "meaning", "src": "to marry; to get married", "tgt": "పెళ్ళి చేసుకోవడం"}
+{"f": "cards", "id": "ko.c0813", "k": "note", "src": "결혼해요. 결혼했어요? = are you married?", "tgt": "결혼해요. 결혼했어요? = మీకు పెళ్ళయిందా?"}
+{"f": "cards", "id": "ko.c0814", "k": "meaning", "src": "to take (a photo); to stamp", "tgt": "తీయడం (ఫోటో); ముద్ర వేయడం"}
+{"f": "cards", "id": "ko.c0814", "k": "note", "src": "찍어요. 사진 찍어 주세요.", "tgt": "찍어요. 사진 찍어 주세요.", "pre": 1}
+{"f": "cards", "id": "ko.c0815", "k": "meaning", "src": "to arrive", "tgt": "చేరుకోవడం"}
+{"f": "cards", "id": "ko.c0815", "k": "note", "src": "도착해요. 몇 시에 도착해요?", "tgt": "도착해요. 몇 시에 도착해요?", "pre": 1}
+{"f": "cards", "id": "ko.c0816", "k": "meaning", "src": "to borrow; to rent", "tgt": "అరువు తీసుకోవడం; అద్దెకు తీసుకోవడం"}
+{"f": "cards", "id": "ko.c0816", "k": "note", "src": "빌려요. 책 빌려도 돼요? To lend: 빌려주다.", "tgt": "빌려요. 책 빌려도 돼요? అరువు ఇవ్వడం: 빌려주다."}
+{"f": "cards", "id": "ko.c0817", "k": "meaning", "src": "to choose; to pick", "tgt": "ఎంచుకోవడం"}
+{"f": "cards", "id": "ko.c0817", "k": "note", "src": "골라요. 르 irregular.", "tgt": "골라요. 르 క్రమరహితం."}
+{"f": "cards", "id": "ko.c0818", "k": "meaning", "src": "to get better (recover)", "tgt": "కోలుకోవడం"}
+{"f": "cards", "id": "ko.c0818", "k": "note", "src": "나아요. ㅅ irregular. 빨리 나으세요 = get well soon.", "tgt": "나아요. ㅅ క్రమరహితం. 빨리 나으세요 = త్వరగా కోలుకోండి."}
+{"f": "cards", "id": "ko.c0819", "k": "meaning", "src": "to remember", "tgt": "గుర్తుంచుకోవడం"}
+{"f": "cards", "id": "ko.c0819", "k": "note", "src": "기억해요. 저 기억하세요? = do you remember me?", "tgt": "기억해요. 저 기억하세요? = నేను గుర్తున్నానా?"}
+{"f": "cards", "id": "ko.c0820", "k": "meaning", "src": "to close", "tgt": "మూయడం"}
+{"f": "cards", "id": "ko.c0820", "k": "note", "src": "닫아요. Regular, unlike 듣다 / 걷다.", "tgt": "닫아요. 듣다 / 걷다 లాగా కాదు, క్రమమైనది."}
+{"f": "cards", "id": "ko.c0821", "k": "meaning", "src": "to leave; to depart", "tgt": "బయలుదేరడం"}
+{"f": "cards", "id": "ko.c0821", "k": "note", "src": "출발해요. 지금 출발해요.", "tgt": "출발해요. 지금 출발해요.", "pre": 1}
+{"f": "cards", "id": "ko.c0822", "k": "meaning", "src": "to turn on", "tgt": "ఆన్ చేయడం"}
+{"f": "cards", "id": "ko.c0822", "k": "note", "src": "켜요. 불 좀 켜 주세요 = turn the light on.", "tgt": "켜요. 불 좀 켜 주세요 = కొంచెం లైట్ వేసి పెట్టండి."}
+{"f": "cards", "id": "ko.c0823", "k": "meaning", "src": "to turn off", "tgt": "ఆఫ్ చేయడం"}
+{"f": "cards", "id": "ko.c0823", "k": "note", "src": "꺼요 (ㅡ drops). 핸드폰 꺼 주세요.", "tgt": "꺼요 (ㅡ పోతుంది). 핸드폰 꺼 주세요."}
+{"f": "cards", "id": "ko.c0824", "k": "meaning", "src": "to get better; to improve", "tgt": "మెరుగవడం"}
+{"f": "cards", "id": "ko.c0824", "k": "note", "src": "좋아져요. 날씨가 좋아졌어요.", "tgt": "좋아져요. 날씨가 좋아졌어요.", "pre": 1}
+{"f": "cards", "id": "ko.c0825", "k": "meaning", "src": "to be the same; to be like", "tgt": "ఒకేలా ఉండటం; లాగా ఉండటం"}
+{"f": "cards", "id": "ko.c0825", "k": "note", "src": "같아요 · before a noun: 같은. 같은 반 = the same class.", "tgt": "같아요 · నామవాచకం ముందు: 같은. 같은 반 = ఒకే క్లాసు."}
+{"f": "cards", "id": "ko.c0826", "k": "meaning", "src": "to be so; to be like that", "tgt": "అలా ఉండటం"}
+{"f": "cards", "id": "ko.c0826", "k": "note", "src": "그래요 · 그런 (ㅎ irregular). 그래요? = really?", "tgt": "그래요 · 그런 (ㅎ క్రమరహితం). 그래요? = అవునా?"}
+{"f": "cards", "id": "ko.c0827", "k": "meaning", "src": "to be how (what is it like?)", "tgt": "ఎలా ఉండటం (ఎలా ఉంది?)"}
+{"f": "cards", "id": "ko.c0827", "k": "note", "src": "어때요? · 어떤 (ㅎ irregular). 날씨 어때요?", "tgt": "어때요? · 어떤 (ㅎ క్రమరహితం). 날씨 어때요?"}
+{"f": "cards", "id": "ko.c0828", "k": "meaning", "src": "to be like this", "tgt": "ఇలా ఉండటం"}
+{"f": "cards", "id": "ko.c0828", "k": "note", "src": "이래요 · 이런 (ㅎ irregular). 왜 이래요? = what's wrong with you?", "tgt": "이래요 · 이런 (ㅎ క్రమరహితం). 왜 이래요? = మీకేమైంది?"}
+{"f": "cards", "id": "ko.c0829", "k": "meaning", "src": "to be different", "tgt": "వేరుగా ఉండటం"}
+{"f": "cards", "id": "ko.c0829", "k": "note", "src": "달라요 · 다른 (르 irregular).", "tgt": "달라요 · 다른 (르 క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0830", "k": "meaning", "src": "to be new; to be fresh (feel new)", "tgt": "కొత్తగా ఉండటం; కొత్తగా అనిపించడం"}
+{"f": "cards", "id": "ko.c0830", "k": "note", "src": "새로워요 · 새로운 (ㅂ irregular). For things: 새 (new).", "tgt": "새로워요 · 새로운 (ㅂ క్రమరహితం). వస్తువులకు: 새 (కొత్త)."}
+{"f": "cards", "id": "ko.c0831", "k": "meaning", "src": "to be important", "tgt": "ముఖ్యంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0831", "k": "note", "src": "중요해요 · 중요한.", "tgt": "중요해요 · 중요한.", "pre": 1}
+{"f": "cards", "id": "ko.c0832", "k": "meaning", "src": "to be difficult", "tgt": "కష్టంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0832", "k": "note", "src": "어려워요 · 어려운 (ㅂ irregular). 한국어 어려워요?", "tgt": "어려워요 · 어려운 (ㅂ క్రమరహితం). 한국어 어려워요?"}
+{"f": "cards", "id": "ko.c0833", "k": "meaning", "src": "to be easy", "tgt": "సులువుగా ఉండటం"}
+{"f": "cards", "id": "ko.c0833", "k": "note", "src": "쉬워요 · 쉬운 (ㅂ irregular).", "tgt": "쉬워요 · 쉬운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0834", "k": "meaning", "src": "to be needed; to need", "tgt": "అవసరం అవడం"}
+{"f": "cards", "id": "ko.c0834", "k": "note", "src": "필요해요 · 필요한. 뭐가 필요해요? = what do you need?", "tgt": "필요해요 · 필요한. 뭐가 필요해요? = మీకు ఏం కావాలి?"}
+{"f": "cards", "id": "ko.c0835", "k": "meaning", "src": "to be high; to be tall (buildings)", "tgt": "ఎత్తుగా ఉండటం (భవనాలు)"}
+{"f": "cards", "id": "ko.c0835", "k": "note", "src": "높아요 · 높은. People are 키가 커요, not 높아요.", "tgt": "높아요 · 높은. మనుషులు 키가 커요, 높아요 కాదు."}
+{"f": "cards", "id": "ko.c0836", "k": "meaning", "src": "to be long", "tgt": "పొడవుగా ఉండటం"}
+{"f": "cards", "id": "ko.c0836", "k": "note", "src": "길어요 · 긴 (ㄹ drops).", "tgt": "길어요 · 긴 (ㄹ పోతుంది)."}
+{"f": "cards", "id": "ko.c0837", "k": "meaning", "src": "to be young", "tgt": "యవ్వనంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0837", "k": "note", "src": "젊어요 · 젊은. Said [점따].", "tgt": "젊어요 · 젊은. పలకడం [점따]."}
+{"f": "cards", "id": "ko.c0838", "k": "meaning", "src": "to be sick; to hurt", "tgt": "ఒంట్లో బాగోకపోవడం; నొప్పిగా ఉండటం"}
+{"f": "cards", "id": "ko.c0838", "k": "note", "src": "아파요 · 아픈 (ㅡ drops). 어디 아파요?", "tgt": "아파요 · 아픈 (ㅡ పోతుంది). 어디 아파요?"}
+{"f": "cards", "id": "ko.c0839", "k": "meaning", "src": "to be few; to be little", "tgt": "తక్కువగా ఉండటం"}
+{"f": "cards", "id": "ko.c0839", "k": "note", "src": "적어요 · 적은. Opposite of 많다.", "tgt": "적어요 · 적은. 많다 కి వ్యతిరేకం."}
+{"f": "cards", "id": "ko.c0840", "k": "meaning", "src": "to be fast", "tgt": "వేగంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0840", "k": "note", "src": "빨라요 · 빠른 (르 irregular).", "tgt": "빨라요 · 빠른 (르 క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0841", "k": "meaning", "src": "to be wide; to be spacious", "tgt": "వెడల్పుగా ఉండటం; విశాలంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0841", "k": "note", "src": "넓어요 · 넓은. Said [널따].", "tgt": "넓어요 · 넓은. పలకడం [널따]."}
+{"f": "cards", "id": "ko.c0842", "k": "meaning", "src": "to be strange; to be weird", "tgt": "వింతగా ఉండటం"}
+{"f": "cards", "id": "ko.c0842", "k": "note", "src": "이상해요 · 이상한.", "tgt": "이상해요 · 이상한.", "pre": 1}
+{"f": "cards", "id": "ko.c0843", "k": "meaning", "src": "to be similar", "tgt": "దాదాపు ఒకేలా ఉండటం"}
+{"f": "cards", "id": "ko.c0843", "k": "note", "src": "비슷해요 · 비슷한.", "tgt": "비슷해요 · 비슷한.", "pre": 1}
+{"f": "cards", "id": "ko.c0844", "k": "meaning", "src": "to be short (length, time)", "tgt": "పొట్టిగా ఉండటం (పొడవు, సమయం)"}
+{"f": "cards", "id": "ko.c0844", "k": "note", "src": "짧아요 · 짧은. Short people: 키가 작아요.", "tgt": "짧아요 · 짧은. పొట్టి మనుషులు: 키가 작아요."}
+{"f": "cards", "id": "ko.c0845", "k": "meaning", "src": "to be thankful", "tgt": "కృతజ్ఞతగా ఉండటం"}
+{"f": "cards", "id": "ko.c0845", "k": "note", "src": "고마워요 · 고마운 (ㅂ irregular). Warmer, less formal than 감사합니다.", "tgt": "고마워요 · 고마운 (ㅂ క్రమరహితం). 감사합니다 కంటే ఆప్యాయంగా, తక్కువ అధికారికంగా."}
+{"f": "cards", "id": "ko.c0846", "k": "meaning", "src": "to be warm", "tgt": "వెచ్చగా ఉండటం"}
+{"f": "cards", "id": "ko.c0846", "k": "note", "src": "따뜻해요 · 따뜻한. Also for people: a warm person.", "tgt": "따뜻해요 · 따뜻한. మనుషులకు కూడా: మంచి మనసున్న వ్యక్తి."}
+{"f": "cards", "id": "ko.c0847", "k": "meaning", "src": "to be low", "tgt": "తక్కువ ఎత్తులో ఉండటం"}
+{"f": "cards", "id": "ko.c0847", "k": "note", "src": "낮아요 · 낮은.", "tgt": "낮아요 · 낮은.", "pre": 1}
+{"f": "cards", "id": "ko.c0848", "k": "meaning", "src": "to be fun; to be enjoyable", "tgt": "సరదాగా ఉండటం; ఆనందంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0848", "k": "note", "src": "즐거워요 · 즐거운 (ㅂ irregular). 즐거운 주말 보내세요.", "tgt": "즐거워요 · 즐거운 (ㅂ క్రమరహితం). 즐거운 주말 보내세요."}
+{"f": "cards", "id": "ko.c0849", "k": "meaning", "src": "to be scary; to be scared", "tgt": "భయంకరంగా ఉండటం; భయపడటం"}
+{"f": "cards", "id": "ko.c0849", "k": "note", "src": "무서워요 · 무서운 (ㅂ irregular).", "tgt": "무서워요 · 무서운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0850", "k": "meaning", "src": "to be light (weight)", "tgt": "తేలికగా ఉండటం (బరువు)"}
+{"f": "cards", "id": "ko.c0850", "k": "note", "src": "가벼워요 · 가벼운 (ㅂ irregular).", "tgt": "가벼워요 · 가벼운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0851", "k": "meaning", "src": "to be healthy", "tgt": "ఆరోగ్యంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0851", "k": "note", "src": "건강해요 · 건강한.", "tgt": "건강해요 · 건강한.", "pre": 1}
+{"f": "cards", "id": "ko.c0852", "k": "meaning", "src": "to be bright", "tgt": "ప్రకాశవంతంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0852", "k": "note", "src": "밝아요 · 밝은. Said [박따]. Also: cheerful (a person).", "tgt": "밝아요 · 밝은. పలకడం [박따]. వ్యక్తికి: హుషారుగా."}
+{"f": "cards", "id": "ko.c0853", "k": "meaning", "src": "to be comfortable; to be convenient", "tgt": "సౌకర్యంగా ఉండటం; అనుకూలంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0853", "k": "note", "src": "편해요 · 편한.", "tgt": "편해요 · 편한.", "pre": 1}
+{"f": "cards", "id": "ko.c0854", "k": "meaning", "src": "to be clean", "tgt": "శుభ్రంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0854", "k": "note", "src": "깨끗해요 · 깨끗한.", "tgt": "깨끗해요 · 깨끗한.", "pre": 1}
+{"f": "cards", "id": "ko.c0855", "k": "meaning", "src": "to be dark", "tgt": "చీకటిగా ఉండటం"}
+{"f": "cards", "id": "ko.c0855", "k": "note", "src": "어두워요 · 어두운 (ㅂ irregular).", "tgt": "어두워요 · 어두운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0856", "k": "meaning", "src": "to be sorry", "tgt": "సారీగా అనిపించడం"}
+{"f": "cards", "id": "ko.c0856", "k": "note", "src": "미안해요 · 미안한. Formal apology: 죄송합니다.", "tgt": "미안해요 · 미안한. అధికారిక క్షమాపణ: 죄송합니다."}
+{"f": "cards", "id": "ko.c0857", "k": "meaning", "src": "to be famous", "tgt": "ప్రసిద్ధంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0857", "k": "note", "src": "유명해요 · 유명한.", "tgt": "유명해요 · 유명한.", "pre": 1}
+{"f": "cards", "id": "ko.c0858", "k": "meaning", "src": "to be glad; to be joyful", "tgt": "సంతోషంగా ఉండటం; సంబరంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0858", "k": "note", "src": "기뻐요 · 기쁜 (ㅡ drops).", "tgt": "기뻐요 · 기쁜 (ㅡ పోతుంది)."}
+{"f": "cards", "id": "ko.c0859", "k": "meaning", "src": "to be heavy", "tgt": "బరువుగా ఉండటం"}
+{"f": "cards", "id": "ko.c0859", "k": "note", "src": "무거워요 · 무거운 (ㅂ irregular).", "tgt": "무거워요 · 무거운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0860", "k": "meaning", "src": "to be special", "tgt": "ప్రత్యేకంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0860", "k": "note", "src": "특별해요 · 특별한.", "tgt": "특별해요 · 특별한.", "pre": 1}
+{"f": "cards", "id": "ko.c0861", "k": "meaning", "src": "to be hot (to the touch)", "tgt": "వేడిగా ఉండటం (తాకితే)"}
+{"f": "cards", "id": "ko.c0861", "k": "note", "src": "뜨거워요 · 뜨거운 (ㅂ irregular). Hot weather is 덥다.", "tgt": "뜨거워요 · 뜨거운 (ㅂ క్రమరహితం). వేడి వాతావరణం: 덥다."}
+{"f": "cards", "id": "ko.c0862", "k": "meaning", "src": "to be kind (helpful)", "tgt": "దయగా ఉండటం (సహాయం చేసేలా)"}
+{"f": "cards", "id": "ko.c0862", "k": "note", "src": "친절해요 · 친절한. For staff, strangers.", "tgt": "친절해요 · 친절한. సిబ్బంది, తెలియనివారి గురించి."}
+{"f": "cards", "id": "ko.c0863", "k": "meaning", "src": "to be narrow; to be cramped", "tgt": "ఇరుకుగా ఉండటం"}
+{"f": "cards", "id": "ko.c0863", "k": "note", "src": "좁아요 · 좁은.", "tgt": "좁아요 · 좁은.", "pre": 1}
+{"f": "cards", "id": "ko.c0864", "k": "meaning", "src": "to be uncomfortable; to be inconvenient", "tgt": "అసౌకర్యంగా ఉండటం; ఇబ్బందిగా ఉండటం"}
+{"f": "cards", "id": "ko.c0864", "k": "note", "src": "불편해요 · 불편한.", "tgt": "불편해요 · 불편한.", "pre": 1}
+{"f": "cards", "id": "ko.c0865", "k": "meaning", "src": "to be cool; to be refreshing", "tgt": "చల్లగా హాయిగా ఉండటం; సేదతీర్చడం"}
+{"f": "cards", "id": "ko.c0865", "k": "note", "src": "시원해요 · 시원한. Also said of hot soup: \"ah, that hits the spot\".", "tgt": "시원해요 · 시원한. వేడి సూప్ తాగినప్పుడు కూడా అంటారు: \"ఆహా, హాయిగా ఉంది\"."}
+{"f": "cards", "id": "ko.c0866", "k": "meaning", "src": "to be glad (to see someone)", "tgt": "కలిసినందుకు సంతోషంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0866", "k": "note", "src": "반가워요 · 반가운 (ㅂ irregular).", "tgt": "반가워요 · 반가운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0867", "k": "meaning", "src": "to be cold (to the touch)", "tgt": "చల్లగా ఉండటం (తాకితే)"}
+{"f": "cards", "id": "ko.c0867", "k": "note", "src": "차가워요 · 차가운 (ㅂ irregular). Cold weather is 춥다.", "tgt": "차가워요 · 차가운 (ㅂ క్రమరహితం). చలి వాతావరణం: 춥다."}
+{"f": "cards", "id": "ko.c0868", "k": "meaning", "src": "to be spicy", "tgt": "కారంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0868", "k": "note", "src": "매워요 · 매운 (ㅂ irregular).", "tgt": "매워요 · 매운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0869", "k": "meaning", "src": "to be sweet (taste)", "tgt": "తియ్యగా ఉండటం (రుచి)"}
+{"f": "cards", "id": "ko.c0869", "k": "note", "src": "달아요 · 단 (ㄹ drops).", "tgt": "달아요 · 단 (ㄹ పోతుంది)."}
+{"f": "cards", "id": "ko.c0870", "k": "meaning", "src": "to be slow", "tgt": "నెమ్మదిగా ఉండటం"}
+{"f": "cards", "id": "ko.c0870", "k": "note", "src": "느려요 · 느린.", "tgt": "느려요 · 느린.", "pre": 1}
+{"f": "cards", "id": "ko.c0871", "k": "meaning", "src": "to be dirty", "tgt": "మురికిగా ఉండటం"}
+{"f": "cards", "id": "ko.c0871", "k": "note", "src": "더러워요 · 더러운 (ㅂ irregular).", "tgt": "더러워요 · 더러운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0872", "k": "meaning", "src": "to be noisy", "tgt": "గోలగా ఉండటం"}
+{"f": "cards", "id": "ko.c0872", "k": "note", "src": "시끄러워요 · 시끄러운 (ㅂ irregular).", "tgt": "시끄러워요 · 시끄러운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0873", "k": "meaning", "src": "to be white", "tgt": "తెల్లగా ఉండటం"}
+{"f": "cards", "id": "ko.c0873", "k": "note", "src": "하얘요 · 하얀 (ㅎ irregular).", "tgt": "하얘요 · 하얀 (ㅎ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0874", "k": "meaning", "src": "to be salty", "tgt": "ఉప్పగా ఉండటం"}
+{"f": "cards", "id": "ko.c0874", "k": "note", "src": "짜요 · 짠.", "tgt": "짜요 · 짠.", "pre": 1}
+{"f": "cards", "id": "ko.c0875", "k": "meaning", "src": "to be quiet", "tgt": "నిశ్శబ్దంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0875", "k": "note", "src": "조용해요 · 조용한.", "tgt": "조용해요 · 조용한.", "pre": 1}
+{"f": "cards", "id": "ko.c0876", "k": "meaning", "src": "to be envious (of)", "tgt": "అసూయగా ఉండటం (ఒకరిని చూసి)"}
+{"f": "cards", "id": "ko.c0876", "k": "note", "src": "부러워요 · 부러운 (ㅂ irregular). 부러워요! = lucky you!", "tgt": "부러워요 · 부러운 (ㅂ క్రమరహితం). 부러워요! = మీ అదృష్టం!"}
+{"f": "cards", "id": "ko.c0877", "k": "meaning", "src": "to be red", "tgt": "ఎర్రగా ఉండటం"}
+{"f": "cards", "id": "ko.c0877", "k": "note", "src": "빨개요 · 빨간 (ㅎ irregular).", "tgt": "빨개요 · 빨간 (ㅎ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0878", "k": "meaning", "src": "to be full (after eating)", "tgt": "కడుపు నిండటం (తిన్నాక)"}
+{"f": "cards", "id": "ko.c0878", "k": "note", "src": "배불러요 · 배부른 (르 irregular).", "tgt": "배불러요 · 배부른 (르 క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0879", "k": "meaning", "src": "to be boring; not fun", "tgt": "బోరుగా ఉండటం; సరదాగా లేకపోవడం"}
+{"f": "cards", "id": "ko.c0879", "k": "note", "src": "재미없어요 · 재미없는 (있다/없다 take -는).", "tgt": "재미없어요 · 재미없는 (있다/없다 -는 తీసుకుంటాయి)."}
+{"f": "cards", "id": "ko.c0880", "k": "meaning", "src": "to be yellow", "tgt": "పసుపుగా ఉండటం"}
+{"f": "cards", "id": "ko.c0880", "k": "note", "src": "노래요 · 노란 (ㅎ irregular). 노래요 also = it's a song.", "tgt": "노래요 · 노란 (ㅎ క్రమరహితం). 노래요 అంటే \"అది పాట\" అని కూడా."}
+{"f": "cards", "id": "ko.c0881", "k": "meaning", "src": "to taste bad", "tgt": "రుచిగా లేకపోవడం"}
+{"f": "cards", "id": "ko.c0881", "k": "note", "src": "맛없어요 · 맛없는. Said [마덥따].", "tgt": "맛없어요 · 맛없는. పలకడం [마덥따]."}
+{"f": "cards", "id": "ko.c0882", "k": "meaning", "src": "to be black", "tgt": "నల్లగా ఉండటం"}
+{"f": "cards", "id": "ko.c0882", "k": "note", "src": "까매요 · 까만 (ㅎ irregular).", "tgt": "까매요 · 까만 (ㅎ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0883", "k": "meaning", "src": "to be lonely", "tgt": "ఒంటరితనంగా అనిపించడం"}
+{"f": "cards", "id": "ko.c0883", "k": "note", "src": "외로워요 · 외로운 (ㅂ irregular).", "tgt": "외로워요 · 외로운 (ㅂ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0884", "k": "meaning", "src": "to be blue", "tgt": "నీలంగా ఉండటం"}
+{"f": "cards", "id": "ko.c0884", "k": "note", "src": "파래요 · 파란 (ㅎ irregular).", "tgt": "파래요 · 파란 (ㅎ క్రమరహితం)."}
+{"f": "cards", "id": "ko.c0885", "k": "meaning", "src": "to be a hassle; can't be bothered", "tgt": "విసుగ్గా ఉండటం; ఓపిక లేకపోవడం"}
+{"f": "cards", "id": "ko.c0885", "k": "note", "src": "귀찮아요 · 귀찮은. Very common in speech.", "tgt": "귀찮아요 · 귀찮은. మాటల్లో చాలా ఎక్కువగా వాడతారు."}
+{"f": "cards", "id": "ko.c0886", "k": "meaning", "src": "not (short negation)", "tgt": "-అను (చిన్న వ్యతిరేక పదం)"}
+{"f": "cards", "id": "ko.c0886", "k": "note", "src": "Right before the verb: 안 가요. With 하다 verbs: 공부 안 해요.", "tgt": "క్రియకు సరిగ్గా ముందు: 안 가요 (వెళ్ళను). 하다-క్రియలతో: 공부 안 해요."}
+{"f": "cards", "id": "ko.c0887", "k": "meaning", "src": "more", "tgt": "మరికొంత; ఎక్కువ"}
+{"f": "cards", "id": "ko.c0887", "k": "note", "src": "더 주세요 = more, please; 조금 더 = a bit more.", "tgt": "더 주세요 = ఇంకా ఇవ్వండి; 조금 더 = ఇంకొంచెం."}
+{"f": "cards", "id": "ko.c0888", "k": "meaning", "src": "well", "tgt": "బాగా"}
+{"f": "cards", "id": "ko.c0888", "k": "note", "src": "잘 자요 = sleep well; 잘 몰라요 = I don't really know.", "tgt": "잘 자요 = బాగా నిద్రపోండి; 잘 몰라요 = నాకు సరిగ్గా తెలియదు."}
+{"f": "cards", "id": "ko.c0889", "k": "meaning", "src": "again; also", "tgt": "మళ్ళీ (ఇంకోసారి); అదీ కాక"}
+{"f": "cards", "id": "ko.c0889", "k": "note", "src": "또 봐요 = see you again; 또 늦었어요? = late again?", "tgt": "또 봐요 = మళ్ళీ కలుద్దాం; 또 늦었어요? = మళ్ళీ ఆలస్యమా?"}
+{"f": "cards", "id": "ko.c0890", "k": "meaning", "src": "how", "tgt": "ఎలా"}
+{"f": "cards", "id": "ko.c0890", "k": "note", "src": "어떻게 가요? = how do I get there? 어떡해 = oh no (from 어떻게 해).", "tgt": "어떻게 가요? = అక్కడికి ఎలా వెళ్ళాలి? 어떡해 = అయ్యో, ఇప్పుడెలా (어떻게 해 నుంచి)."}
+{"f": "cards", "id": "ko.c0891", "k": "meaning", "src": "again", "tgt": "మళ్ళీ (తిరిగి)"}
+{"f": "cards", "id": "ko.c0891", "k": "note", "src": "다시 한번 = once more.", "tgt": "다시 한번 = ఇంకొక్కసారి."}
+{"f": "cards", "id": "ko.c0892", "k": "meaning", "src": "all; everything", "tgt": "అంతా; అన్నీ"}
+{"f": "cards", "id": "ko.c0892", "k": "note", "src": "다 먹었어요 = I ate it all; 다 왔어요 = we're almost there.", "tgt": "다 먹었어요 = అంతా తినేశాను; 다 왔어요 = దాదాపు వచ్చేశాం."}
+{"f": "cards", "id": "ko.c0893", "k": "meaning", "src": "a little; please (softener)", "tgt": "కొంచెం (మెత్తబరిచే పదం)"}
+{"f": "cards", "id": "ko.c0893", "k": "note", "src": "좀 도와주세요 sounds softer than 도와주세요. Short for 조금.", "tgt": "좀 도와주세요 అనేది 도와주세요 కంటే మెత్తగా ఉంటుంది. 조금 కి చిన్న రూపం."}
+{"f": "cards", "id": "ko.c0894", "k": "meaning", "src": "together (a bit formal)", "tgt": "కలిసి (కొంచెం అధికారికంగా)"}
+{"f": "cards", "id": "ko.c0894", "k": "note", "src": "Everyday: 같이. 함께해요 = let's do it together.", "tgt": "రోజూ: 같이. 함께해요 = కలిసి చేద్దాం."}
+{"f": "cards", "id": "ko.c0895", "k": "meaning", "src": "a lot; much", "tgt": "ఎక్కువగా; బోలెడు"}
+{"f": "cards", "id": "ko.c0895", "k": "note", "src": "많이 드세요 = eat plenty (said by a host).", "tgt": "많이 드세요 = బాగా తినండి (ఆతిథ్యం ఇచ్చేవారు అంటారు)."}
+{"f": "cards", "id": "ko.c0896", "k": "meaning", "src": "most (the …-est)", "tgt": "అత్యంత (అన్నిటికంటే)"}
+{"f": "cards", "id": "ko.c0896", "k": "note", "src": "가장 좋아하는 = my favorite. Spoken more: 제일.", "tgt": "가장 좋아하는 = నాకు అన్నిటికంటే ఇష్టమైన. మాటల్లో: 제일."}
+{"f": "cards", "id": "ko.c0897", "k": "meaning", "src": "right (away); exactly", "tgt": "తక్షణమే; సరిగ్గా"}
+{"f": "cards", "id": "ko.c0897", "k": "note", "src": "바로 앞 = right in front; 바로 갈게요 = I'll come right away.", "tgt": "바로 앞 = సరిగ్గా ఎదురుగా; 바로 갈게요 = వెంటనే వస్తాను."}
+{"f": "cards", "id": "ko.c0898", "k": "meaning", "src": "all; everyone", "tgt": "అందరూ; మొత్తం"}
+{"f": "cards", "id": "ko.c0898", "k": "note", "src": "모두 같이 = all together.", "tgt": "모두 같이 = అందరూ కలిసి."}
+{"f": "cards", "id": "ko.c0899", "k": "meaning", "src": "why", "tgt": "ఎందుకు"}
+{"f": "cards", "id": "ko.c0899", "k": "note", "src": "왜요? = why? Sounds blunt alone; add 혹시 to soften.", "tgt": "왜요? = ఎందుకు? ఒక్కటే అంటే మొరటుగా ఉంటుంది; మెత్తగా చేయడానికి 혹시 చేర్చండి."}
+{"f": "cards", "id": "ko.c0900", "k": "meaning", "src": "especially", "tgt": "ముఖ్యంగా"}
+{"f": "cards", "id": "ko.c0900", "k": "note", "src": "특히 김치를 좋아해요.", "tgt": "특히 김치를 좋아해요.", "pre": 1}
+{"f": "cards", "id": "ko.c0901", "k": "meaning", "src": "yet; still", "tgt": "ఇంకా"}
+{"f": "cards", "id": "ko.c0901", "k": "note", "src": "아직 안 먹었어요 = I haven't eaten yet.", "tgt": "아직 안 먹었어요 = నేను ఇంకా తినలేదు."}
+{"f": "cards", "id": "ko.c0902", "k": "meaning", "src": "together", "tgt": "కలిసి; తో పాటు"}
+{"f": "cards", "id": "ko.c0902", "k": "note", "src": "같이 가요 = let's go together. After a noun it is a particle: 꽃같이 = like a flower.", "tgt": "같이 가요 = కలిసి వెళ్దాం. నామవాచకం తర్వాత పార్టికల్ అవుతుంది: 꽃같이 = పువ్వులాగా."}
+{"f": "cards", "id": "ko.c0903", "k": "meaning", "src": "can't", "tgt": "-లేను (చేయలేకపోవడం)"}
+{"f": "cards", "id": "ko.c0903", "k": "note", "src": "Right before the verb: 못 가요 = I can't go. 수영 못 해요.", "tgt": "క్రియకు సరిగ్గా ముందు: 못 가요 = నేను వెళ్ళలేను. 수영 못 해요."}
+{"f": "cards", "id": "ko.c0904", "k": "meaning", "src": "too; so (very)", "tgt": "మరీ; చాలా ఎక్కువగా"}
+{"f": "cards", "id": "ko.c0904", "k": "note", "src": "너무 비싸요 = too expensive; 너무 좋아요 = I love it.", "tgt": "너무 비싸요 = మరీ ఖరీదు; 너무 좋아요 = నాకు చాలా నచ్చింది."}
+{"f": "cards", "id": "ko.c0905", "k": "meaning", "src": "already (done earlier)", "tgt": "ఇదివరకే (ముందే అయిపోయింది)"}
+{"f": "cards", "id": "ko.c0905", "k": "note", "src": "이미 끝났어요 = it's already over.", "tgt": "이미 끝났어요 = అది ఇదివరకే అయిపోయింది."}
+{"f": "cards", "id": "ko.c0906", "k": "meaning", "src": "very", "tgt": "చాలా"}
+{"f": "cards", "id": "ko.c0906", "k": "note", "src": "Neutral. Spoken more: 정말, 진짜, 너무.", "tgt": "తటస్థం. మాటల్లో ఎక్కువ: 정말, 진짜, 너무."}
+{"f": "cards", "id": "ko.c0907", "k": "meaning", "src": "just; for no reason", "tgt": "ఊరికే; కారణం లేకుండా"}
+{"f": "cards", "id": "ko.c0907", "k": "note", "src": "그냥요 = no reason; 그냥 그래요 = so-so.", "tgt": "그냥요 = ఊరికే; 그냥 그래요 = పర్వాలేదు, అంతంత మాత్రం."}
+{"f": "cards", "id": "ko.c0908", "k": "meaning", "src": "almost; hardly", "tgt": "దాదాపు; అరుదుగా"}
+{"f": "cards", "id": "ko.c0908", "k": "note", "src": "거의 다 왔어요 = almost there; 거의 안 먹어요 = I hardly eat.", "tgt": "거의 다 왔어요 = దాదాపు వచ్చేశాం; 거의 안 먹어요 = నేను అరుదుగా తింటాను."}
+{"f": "cards", "id": "ko.c0909", "k": "meaning", "src": "soon", "tgt": "త్వరలో"}
+{"f": "cards", "id": "ko.c0909", "k": "note", "src": "곧 도착해요 = arriving soon.", "tgt": "곧 도착해요 = త్వరలో చేరుకుంటాం."}
+{"f": "cards", "id": "ko.c0910", "k": "meaning", "src": "each other", "tgt": "ఒకరినొకరు"}
+{"f": "cards", "id": "ko.c0910", "k": "note", "src": "서로 도와요 = we help each other.", "tgt": "서로 도와요 = మేము ఒకరికొకరు సహాయం చేసుకుంటాం."}
+{"f": "cards", "id": "ko.c0911", "k": "meaning", "src": "really; truly", "tgt": "నిజంగా; నిజమే"}
+{"f": "cards", "id": "ko.c0911", "k": "note", "src": "정말 맛있어요. 정말요? = really?", "tgt": "정말 맛있어요. 정말요? = నిజంగా?"}
+{"f": "cards", "id": "ko.c0912", "k": "meaning", "src": "alone; by yourself", "tgt": "ఒంటరిగా; ఒక్కరే"}
+{"f": "cards", "id": "ko.c0912", "k": "note", "src": "혼자 왔어요 = I came alone.", "tgt": "혼자 왔어요 = నేను ఒక్కడినే/ఒక్కదాన్నే వచ్చాను."}
+{"f": "cards", "id": "ko.c0913", "k": "meaning", "src": "now (from now on); finally", "tgt": "ఇక ఇప్పుడు; ఎట్టకేలకు"}
+{"f": "cards", "id": "ko.c0913", "k": "note", "src": "이제 가요 = I'm going now; 이제 알겠어요 = now I get it.", "tgt": "이제 가요 = ఇక వెళ్తున్నాను; 이제 알겠어요 = ఇప్పుడు అర్థమైంది."}
+{"f": "cards", "id": "ko.c0914", "k": "meaning", "src": "surely; be sure to", "tgt": "తప్పకుండా; మరచిపోకుండా"}
+{"f": "cards", "id": "ko.c0914", "k": "note", "src": "꼭 오세요 = be sure to come.", "tgt": "꼭 오세요 = తప్పకుండా రండి."}
+{"f": "cards", "id": "ko.c0915", "k": "meaning", "src": "these days; lately", "tgt": "ఈ మధ్య; ఈ రోజుల్లో"}
+{"f": "cards", "id": "ko.c0915", "k": "note", "src": "요즘 바빠요?", "tgt": "요즘 바빠요?", "pre": 1}
+{"f": "cards", "id": "ko.c0916", "k": "meaning", "src": "continuously; keep (…ing)", "tgt": "ఆగకుండా; అలాగే (చేస్తూ ఉండటం)"}
+{"f": "cards", "id": "ko.c0916", "k": "note", "src": "계속 생각나요 = I keep thinking about it.", "tgt": "계속 생각나요 = అదే పదే పదే గుర్తొస్తోంది."}
+{"f": "cards", "id": "ko.c0917", "k": "meaning", "src": "suddenly", "tgt": "అకస్మాత్తుగా"}
+{"f": "cards", "id": "ko.c0917", "k": "note", "src": "갑자기 비가 와요.", "tgt": "갑자기 비가 와요.", "pre": 1}
+{"f": "cards", "id": "ko.c0918", "k": "meaning", "src": "not at all", "tgt": "అస్సలు (కాదు)"}
+{"f": "cards", "id": "ko.c0918", "k": "note", "src": "With a negative: 전혀 몰라요.", "tgt": "వ్యతిరేకంతో: 전혀 몰라요."}
+{"f": "cards", "id": "ko.c0919", "k": "meaning", "src": "quickly; fast", "tgt": "త్వరగా; వేగంగా"}
+{"f": "cards", "id": "ko.c0919", "k": "note", "src": "빨리 와요 = come quickly.", "tgt": "빨리 와요 = త్వరగా రండి."}
+{"f": "cards", "id": "ko.c0920", "k": "meaning", "src": "much (more)", "tgt": "ఇంకా చాలా (ఎక్కువ)"}
+{"f": "cards", "id": "ko.c0920", "k": "note", "src": "With comparisons: 훨씬 더 좋아요.", "tgt": "పోలికలతో: 훨씬 더 좋아요."}
+{"f": "cards", "id": "ko.c0921", "k": "meaning", "src": "hard; diligently", "tgt": "కష్టపడి; శ్రద్ధగా"}
+{"f": "cards", "id": "ko.c0921", "k": "note", "src": "열심히 공부해요.", "tgt": "열심히 공부해요.", "pre": 1}
+{"f": "cards", "id": "ko.c0922", "k": "meaning", "src": "often", "tgt": "తరచుగా"}
+{"f": "cards", "id": "ko.c0922", "k": "note", "src": "자주 와요? = do you come here often?", "tgt": "자주 와요? = మీరు ఇక్కడికి తరచుగా వస్తుంటారా?"}
+{"f": "cards", "id": "ko.c0923", "k": "meaning", "src": "already (sooner than expected)", "tgt": "అప్పుడే (అనుకున్నదానికంటే ముందే)"}
+{"f": "cards", "id": "ko.c0923", "k": "note", "src": "벌써 열 시예요? = it's ten already?", "tgt": "벌써 열 시예요? = అప్పుడే పది అయిందా?"}
+{"f": "cards", "id": "ko.c0924", "k": "meaning", "src": "the most; number one", "tgt": "అన్నిటికంటే ఎక్కువ; నంబర్ వన్"}
+{"f": "cards", "id": "ko.c0924", "k": "note", "src": "제일 좋아요 = it's the best.", "tgt": "제일 좋아요 = ఇదే అన్నిటికంటే బెస్ట్."}
+{"f": "cards", "id": "ko.c0925", "k": "meaning", "src": "probably; maybe", "tgt": "బహుశా"}
+{"f": "cards", "id": "ko.c0925", "k": "note", "src": "Often with -(으)ㄹ 거예요: 아마 비가 올 거예요.", "tgt": "తరచూ -(으)ㄹ 거예요 తో: 아마 비가 올 거예요."}
+{"f": "cards", "id": "ko.c0926", "k": "meaning", "src": "a little; a bit", "tgt": "కొద్దిగా; కాస్త"}
+{"f": "cards", "id": "ko.c0926", "k": "note", "src": "Spoken short form: 좀.", "tgt": "మాటల్లో చిన్న రూపం: 좀."}
+{"f": "cards", "id": "ko.c0927", "k": "meaning", "src": "always", "tgt": "ఎప్పుడూ"}
+{"f": "cards", "id": "ko.c0927", "k": "note", "src": "Spoken also: 늘, 언제나.", "tgt": "మాటల్లో 늘, 언제나 కూడా."}
+{"f": "cards", "id": "ko.c0928", "k": "meaning", "src": "later", "tgt": "తర్వాత"}
+{"f": "cards", "id": "ko.c0928", "k": "note", "src": "나중에 연락할게요.", "tgt": "나중에 연락할게요.", "pre": 1}
+{"f": "cards", "id": "ko.c0929", "k": "meaning", "src": "not really; not particularly", "tgt": "అంతగా (కాదు); పెద్దగా (లేదు)"}
+{"f": "cards", "id": "ko.c0929", "k": "note", "src": "With a negative: 별로 안 좋아해요. 별로예요 = it's meh.", "tgt": "వ్యతిరేకంతో: 별로 안 좋아해요. 별로예요 = అంత బాలేదు."}
+{"f": "cards", "id": "ko.c0930", "k": "meaning", "src": "sometimes", "tgt": "అప్పుడప్పుడు"}
+{"f": "cards", "id": "ko.c0930", "k": "note", "src": "가끔 만나요.", "tgt": "가끔 만나요.", "pre": 1}
+{"f": "cards", "id": "ko.c0931", "k": "meaning", "src": "early", "tgt": "తొందరగా (ముందుగానే)"}
+{"f": "cards", "id": "ko.c0931", "k": "note", "src": "일찍 일어나요.", "tgt": "일찍 일어나요.", "pre": 1}
+{"f": "cards", "id": "ko.c0932", "k": "meaning", "src": "originally; normally (it's always like that)", "tgt": "అసలు; మామూలుగానే (ఎప్పుడూ అంతే)"}
+{"f": "cards", "id": "ko.c0932", "k": "note", "src": "원래 그래요 = it's always like that.", "tgt": "원래 그래요 = అది ఎప్పుడూ అంతే."}
+{"f": "cards", "id": "ko.c0933", "k": "meaning", "src": "late", "tgt": "ఆలస్యంగా"}
+{"f": "cards", "id": "ko.c0933", "k": "note", "src": "늦게 자요 = I go to bed late.", "tgt": "늦게 자요 = నేను ఆలస్యంగా పడుకుంటాను."}
+{"f": "cards", "id": "ko.c0934", "k": "meaning", "src": "usually", "tgt": "సాధారణంగా"}
+{"f": "cards", "id": "ko.c0934", "k": "note", "src": "보통 몇 시에 자요? Also a noun: regular size.", "tgt": "보통 몇 시에 자요? నామవాచకంగా కూడా: రెగ్యులర్ సైజు."}
+{"f": "cards", "id": "ko.c0935", "k": "meaning", "src": "by any chance", "tgt": "ఏమైనా (ప్రశ్నలో); ఒకవేళ"}
+{"f": "cards", "id": "ko.c0935", "k": "note", "src": "Softens a question: 혹시 한국 사람이에요?", "tgt": "ప్రశ్నను మెత్తబరుస్తుంది: 혹시 한국 사람이에요? = మీరు ఏమైనా కొరియన్ వారా?"}
+{"f": "cards", "id": "ko.c0936", "k": "meaning", "src": "really; so (spoken)", "tgt": "భలే; చాలా (మాటల్లో)"}
+{"f": "cards", "id": "ko.c0936", "k": "note", "src": "Casual: 되게 맛있어. Not in writing.", "tgt": "సాధారణ: 되게 맛있어. రాతలో వాడరు."}
+{"f": "cards", "id": "ko.c0937", "k": "meaning", "src": "in a moment; right away", "tgt": "క్షణంలో; ఒక్క నిమిషంలో"}
+{"f": "cards", "id": "ko.c0937", "k": "note", "src": "금방 갈게요 = I'll be right there.", "tgt": "금방 갈게요 = ఒక్క నిమిషంలో వస్తాను."}
+{"f": "cards", "id": "ko.c0938", "k": "meaning", "src": "for real; seriously", "tgt": "నిజంగానే; సీరియస్గా"}
+{"f": "cards", "id": "ko.c0938", "k": "note", "src": "Stronger, more casual than 정말.", "tgt": "정말 కంటే బలంగా, ఎక్కువ సాధారణంగా."}
+{"f": "cards", "id": "ko.c0939", "k": "meaning", "src": "slowly", "tgt": "నెమ్మదిగా"}
+{"f": "cards", "id": "ko.c0939", "k": "note", "src": "천천히 드세요 = take your time eating.", "tgt": "천천히 드세요 = నెమ్మదిగా తినండి, తొందరేం లేదు."}
+{"f": "cards", "id": "ko.c0940", "k": "meaning", "src": "just now", "tgt": "ఇప్పుడే (కొద్దిసేపటి క్రితం)"}
+{"f": "cards", "id": "ko.c0940", "k": "note", "src": "방금 왔어요 = I just got here.", "tgt": "방금 왔어요 = నేను ఇప్పుడే వచ్చాను."}
+{"f": "cards", "id": "ko.c0941", "k": "meaning", "src": "I; me (casual)", "tgt": "నేను (సాధారణ)"}
+{"f": "cards", "id": "ko.c0941", "k": "note", "src": "To friends and younger people. With 가: 내가. My: 내.", "tgt": "ఫ్రెండ్స్తో, చిన్నవారితో. 가 తో: 내가. నా: 내."}
+{"f": "cards", "id": "ko.c0942", "k": "meaning", "src": "we; us; our", "tgt": "మనం; మేము; మా"}
+{"f": "cards", "id": "ko.c0942", "k": "note", "src": "Also \"my\" for family and home: 우리 엄마, 우리 집.", "tgt": "కుటుంబం, ఇంటికి \"నా\" బదులు కూడా: 우리 엄마, 우리 집."}
+{"f": "cards", "id": "ko.c0943", "k": "meaning", "src": "Mr. / Ms. (after a full or given name)", "tgt": "గారు (పూర్తి పేరు లేదా పేరు తర్వాత)"}
+{"f": "cards", "id": "ko.c0943", "k": "note", "src": "Names replace \"you\": 민수 씨, 어디 가요? Never after your own name or a surname alone.", "tgt": "\"మీరు\" బదులు పేరు: 민수 씨, 어디 가요? మీ సొంత పేరుకు, ఇంటిపేరుకు మాత్రమే ఎప్పుడూ కాదు."}
+{"f": "cards", "id": "ko.c0944", "k": "meaning", "src": "that (thing, near you or mentioned)", "tgt": "అది (మీ దగ్గర ఉన్నది, లేదా చెప్పినది)"}
+{"f": "cards", "id": "ko.c0944", "k": "note", "src": "Spoken: 그거. With 이: 그게.", "tgt": "మాటల్లో: 그거. 이 తో: 그게."}
+{"f": "cards", "id": "ko.c0945", "k": "meaning", "src": "I; me (polite, humble)", "tgt": "నేను (మర్యాద, వినయంగా)"}
+{"f": "cards", "id": "ko.c0945", "k": "note", "src": "The default with strangers. With 가: 제가. My: 제.", "tgt": "తెలియనివారితో ఇదే మామూలు. 가 తో: 제가. నా: 제."}
+{"f": "cards", "id": "ko.c0946", "k": "meaning", "src": "my (polite)", "tgt": "నా (మర్యాద)"}
+{"f": "cards", "id": "ko.c0946", "k": "note", "src": "저 + 의. 제 이름은 … = my name is …", "tgt": "저 + 의. 제 이름은 … = నా పేరు …"}
+{"f": "cards", "id": "ko.c0947", "k": "meaning", "src": "oneself; self", "tgt": "తనను తాను; స్వయం"}
+{"f": "cards", "id": "ko.c0947", "k": "note", "src": "자신 있어요 = I'm confident. 자신을 사랑하세요.", "tgt": "자신 있어요 = నాకు నమ్మకం ఉంది. 자신을 사랑하세요."}
+{"f": "cards", "id": "ko.c0948", "k": "meaning", "src": "you (casual, to a friend or a child)", "tgt": "నువ్వు (సాధారణ, ఫ్రెండ్కి లేదా పిల్లలకు)"}
+{"f": "cards", "id": "ko.c0948", "k": "note", "src": "Only to close friends or younger people. With 가: 네가 (said 니가).", "tgt": "దగ్గరి ఫ్రెండ్స్కి, చిన్నవారికి మాత్రమే. 가 తో: 네가 (పలికేది 니가)."}
+{"f": "cards", "id": "ko.c0949", "k": "meaning", "src": "what (spoken)", "tgt": "ఏమిటి (మాటల్లో)"}
+{"f": "cards", "id": "ko.c0949", "k": "note", "src": "뭐 해요? = what are you doing? Formal: 무엇.", "tgt": "뭐 해요? = ఏం చేస్తున్నారు? అధికారికం: 무엇."}
+{"f": "cards", "id": "ko.c0950", "k": "meaning", "src": "who", "tgt": "ఎవరు"}
+{"f": "cards", "id": "ko.c0950", "k": "note", "src": "누구예요? With 가: 누가 왔어요? = who came?", "tgt": "누구예요? 가 తో: 누가 왔어요? = ఎవరు వచ్చారు?"}
+{"f": "cards", "id": "ko.c0951", "k": "meaning", "src": "oneself; honey (between couples)", "tgt": "తాను; డార్లింగ్ (ప్రేమికుల మధ్య)"}
+{"f": "cards", "id": "ko.c0951", "k": "note", "src": "자기 일 = one's own business. 자기야 = honey.", "tgt": "자기 일 = తన సొంత పని. 자기야 = డార్లింగ్."}
+{"f": "cards", "id": "ko.c0952", "k": "meaning", "src": "what (written, formal)", "tgt": "ఏది (రాతలో, అధికారిక)"}
+{"f": "cards", "id": "ko.c0952", "k": "note", "src": "무엇을 도와드릴까요? = how may I help you?", "tgt": "무엇을 도와드릴까요? = మీకు ఏం సహాయం చేయగలను?"}
+{"f": "cards", "id": "ko.c0953", "k": "meaning", "src": "that one (spoken)", "tgt": "అది (మాటల్లో)"}
+{"f": "cards", "id": "ko.c0953", "k": "note", "src": "그거 좋네요 = that's a good one / good idea.", "tgt": "그거 좋네요 = అది బాగుంది / మంచి ఐడియా."}
+{"f": "cards", "id": "ko.c0954", "k": "meaning", "src": "where; what place", "tgt": "ఎక్కడ; ఏ చోటు"}
+{"f": "cards", "id": "ko.c0954", "k": "note", "src": "어디 가요? (often just a greeting: where are you off to?)", "tgt": "어디 가요? (తరచూ ఒక పలకరింపే: ఎక్కడికి బయలుదేరారు?)"}
+{"f": "cards", "id": "ko.c0955", "k": "meaning", "src": "this (thing)", "tgt": "ఇది (వస్తువు)"}
+{"f": "cards", "id": "ko.c0955", "k": "note", "src": "Spoken: 이거. With 이: 이게.", "tgt": "మాటల్లో: 이거. 이 తో: 이게."}
+{"f": "cards", "id": "ko.c0956", "k": "meaning", "src": "you (spouses, songs, ads)", "tgt": "మీరు (దంపతుల మధ్య, పాటల్లో, యాడ్లలో)"}
+{"f": "cards", "id": "ko.c0956", "k": "note", "src": "Rarely used face to face: it can sound cold or start a fight. Use the person's name or title instead.", "tgt": "ఎదురుగా అరుదుగా వాడతారు: చల్లగా వినిపించవచ్చు, గొడవకు దారి తీయవచ్చు. బదులుగా పేరు లేదా హోదా వాడండి."}
+{"f": "cards", "id": "ko.c0957", "k": "meaning", "src": "there (near you, or the place we mentioned)", "tgt": "అక్కడ (మీ దగ్గర, లేదా మనం చెప్పిన చోటు)"}
+{"f": "cards", "id": "ko.c0957", "k": "note", "src": "거기 어디예요? = where is that place? Pairs with 여기 / 저기.", "tgt": "거기 어디예요? = ఆ చోటు ఎక్కడ? 여기 / 저기 తో జత."}
+{"f": "cards", "id": "ko.c0958", "k": "meaning", "src": "this one (spoken)", "tgt": "ఇది (మాటల్లో)"}
+{"f": "cards", "id": "ko.c0958", "k": "note", "src": "이거 얼마예요? Point and say 이거 주세요.", "tgt": "이거 얼마예요? చూపించి 이거 주세요 అనండి."}
+{"f": "cards", "id": "ko.c0959", "k": "meaning", "src": "my (casual)", "tgt": "నా (సాధారణ)"}
+{"f": "cards", "id": "ko.c0959", "k": "note", "src": "나 + 의. 내 친구 = my friend.", "tgt": "나 + 의. 내 친구 = నా ఫ్రెండ్."}
+{"f": "cards", "id": "ko.c0960", "k": "meaning", "src": "any; anyone (+ particle)", "tgt": "ఏదైనా; ఎవరైనా (+ పార్టికల్)"}
+{"f": "cards", "id": "ko.c0960", "k": "note", "src": "아무나 = anyone at all; 아무 때나 = any time.", "tgt": "아무나 = ఎవరైనా సరే; 아무 때나 = ఎప్పుడైనా."}
+{"f": "cards", "id": "ko.c0961", "k": "meaning", "src": "nobody (with a negative)", "tgt": "ఎవరూ (వ్యతిరేకంతో)"}
+{"f": "cards", "id": "ko.c0961", "k": "note", "src": "아무도 없어요 = there's nobody here.", "tgt": "아무도 없어요 = ఇక్కడ ఎవరూ లేరు."}
+{"f": "cards", "id": "ko.c0962", "k": "meaning", "src": "that one over there (spoken)", "tgt": ""}
+{"f": "cards", "id": "ko.c0962", "k": "note", "src": "저거 뭐예요?", "tgt": "저거 뭐예요?", "pre": 1}
+{"f": "cards", "id": "ko.c0963", "k": "meaning", "src": "nothing (with a negative)", "tgt": "ఏమీ (వ్యతిరేకంతో)"}
+{"f": "cards", "id": "ko.c0963", "k": "note", "src": "아무것도 몰라요 = I don't know anything.", "tgt": "아무것도 몰라요 = నాకు ఏమీ తెలియదు."}
+{"f": "cards", "id": "ko.c0964", "k": "meaning", "src": "something", "tgt": "ఏదో"}
+{"f": "cards", "id": "ko.c0964", "k": "note", "src": "뭔가 이상해요 = something's off.", "tgt": "뭔가 이상해요 = ఏదో తేడాగా ఉంది."}
+{"f": "cards", "id": "ko.c0965", "k": "meaning", "src": "we; us (humble)", "tgt": "మేము; మా (వినయంగా)"}
+{"f": "cards", "id": "ko.c0965", "k": "note", "src": "To customers, elders, at work. It lowers your side, so it never includes the listener.", "tgt": "కస్టమర్లతో, పెద్దవారితో, ఆఫీసులో. మీ వైపును తగ్గించి చెబుతుంది, కాబట్టి వినేవారిని ఎప్పుడూ కలుపుకోదు (మేము లాగా)."}
+{"f": "cards", "id": "ko.c0966", "k": "meaning", "src": "everyone (you all)", "tgt": "మీరందరూ"}
+{"f": "cards", "id": "ko.c0966", "k": "note", "src": "Addressing a group: 여러분, 안녕하세요!", "tgt": "గుంపును పిలవడం: 여러분, 안녕하세요!"}
+{"f": "cards", "id": "ko.c0967", "k": "meaning", "src": "someone", "tgt": "ఎవరో ఒకరు"}
+{"f": "cards", "id": "ko.c0967", "k": "note", "src": "누군가 왔어요 = someone came. Spoken: 누가.", "tgt": "누군가 왔어요 = ఎవరో వచ్చారు. మాటల్లో: 누가."}
+{"f": "cards", "id": "ko.c0968", "k": "meaning", "src": "that (thing, over there)", "tgt": "అది (అక్కడ దూరంగా ఉన్న వస్తువు)"}
+{"f": "cards", "id": "ko.c0968", "k": "note", "src": "Spoken: 저거. With 이: 저게.", "tgt": "మాటల్లో: 저거. 이 తో: 저게."}
+{"f": "cards", "id": "ko.c0969", "k": "meaning", "src": "this person (honorific)", "tgt": "ఈయన/ఈవిడ (గౌరవ)"}
+{"f": "cards", "id": "ko.c0969", "k": "note", "src": "Introducing someone: 이분은 김 선생님이세요.", "tgt": "ఒకరిని పరిచయం చేయడం: 이분은 김 선생님이세요."}
+{"f": "cards", "id": "ko.c0970", "k": "meaning", "src": "this kid; this person (casual)", "tgt": "ఇతను/ఈమె; ఈ పిల్ల (సాధారణ)"}
+{"f": "cards", "id": "ko.c0970", "k": "note", "src": "From 이 아이. About a friend standing next to you: 얘는 제 친구예요.", "tgt": "이 아이 నుంచి. పక్కన నిలబడిన ఫ్రెండ్ గురించి: 얘는 제 친구예요."}
+{"f": "cards", "id": "ko.c0971", "k": "meaning", "src": "this way; this person (introducing)", "tgt": "ఈ వైపు; ఈ వ్యక్తి (పరిచయంలో)"}
+{"f": "cards", "id": "ko.c0971", "k": "note", "src": "이쪽으로 오세요 = come this way. 이쪽은 제 동생이에요.", "tgt": "이쪽으로 오세요 = ఇటు రండి. 이쪽은 제 동생이에요."}
+{"f": "cards", "id": "ko.c0972", "k": "meaning", "src": "that kid; he / she (casual)", "tgt": "అతను/ఆమె; ఆ పిల్ల (సాధారణ)"}
+{"f": "cards", "id": "ko.c0972", "k": "note", "src": "From 그 아이. Common way to say \"he/she\" among friends.", "tgt": "그 아이 నుంచి. ఫ్రెండ్స్ మధ్య \"అతను/ఆమె\" అనడానికి మామూలు మాట."}
+{"f": "cards", "id": "ko.c0973", "k": "meaning", "src": "you (to a stranger, lit. that side)", "tgt": "మీరు (తెలియనివారితో, అక్షరాలా \"ఆ వైపు\")"}
+{"f": "cards", "id": "ko.c0973", "k": "note", "src": "A way around saying 너 or 당신 to someone whose name you don't know. Can sound distant or a little cheeky.", "tgt": "పేరు తెలియనివారికి 너 లేదా 당신 అనకుండా తప్పించుకునే మార్గం. దూరంగా లేదా కొంచెం పొగరుగా వినిపించవచ్చు."}
+{"f": "cards", "id": "ko.c0974", "k": "meaning", "src": "over that way", "tgt": "అటు వైపు (దూరంగా)"}
+{"f": "cards", "id": "ko.c0974", "k": "note", "src": "저쪽에 있어요 = it's over there.", "tgt": "저쪽에 있어요 = అది అటు వైపు ఉంది."}
+{"f": "cards", "id": "ko.c0975", "k": "meaning", "src": "that person over there (honorific)", "tgt": ""}
+{"f": "cards", "id": "ko.c0975", "k": "note", "src": "저분이 누구세요?", "tgt": "저분이 누구세요?", "pre": 1}
+{"f": "cards", "id": "ko.c0976", "k": "meaning", "src": "that kid over there (casual)", "tgt": "అదిగో ఆ పిల్ల (సాధారణ)"}
+{"f": "cards", "id": "ko.c0976", "k": "note", "src": "From 저 아이. Don't use it about elders.", "tgt": "저 아이 నుంచి. పెద్దవారి గురించి వాడకండి."}
+{"f": "cards", "id": "ko.c0977", "k": "meaning", "src": "somewhere", "tgt": "ఎక్కడో"}
+{"f": "cards", "id": "ko.c0977", "k": "note", "src": "어딘가에 있을 거예요 = it must be somewhere.", "tgt": "어딘가에 있을 거예요 = ఎక్కడో ఉండే ఉంటుంది."}
+{"f": "cards", "id": "ko.c0978", "k": "meaning", "src": "that person; he / she (honorific)", "tgt": "ఆయన/ఆవిడ (గౌరవ)"}
+{"f": "cards", "id": "ko.c0978", "k": "note", "src": "For someone respected: 그분이 오셨어요.", "tgt": "గౌరవించేవారి గురించి: 그분이 오셨어요."}
+{"f": "cards", "id": "ko.c0979", "k": "meaning", "src": "he (in writing)", "tgt": "అతను (రాతలో)"}
+{"f": "cards", "id": "ko.c0979", "k": "note", "src": "Speech uses the person's name or 그 사람, 걔. 그 also = that (before a noun).", "tgt": "మాటల్లో పేరు లేదా 그 사람, 걔 వాడతారు. 그 అంటే (నామవాచకం ముందు) \"ఆ\" కూడా."}
+{"f": "cards", "id": "ko.c0980", "k": "meaning", "src": "she (in writing)", "tgt": "ఆమె (రాతలో)"}
+{"f": "cards", "id": "ko.c0980", "k": "note", "src": "Almost never spoken. Use the name, 그 사람 or 걔.", "tgt": "మాటల్లో దాదాపు ఎప్పుడూ రాదు. పేరు, 그 사람 లేదా 걔 వాడండి."}
+{"f": "cards", "id": "ko.c0981", "k": "meaning", "src": "by (means); toward; as", "tgt": "ద్వారా (సాధనం); వైపు; గా"}
+{"f": "cards", "id": "ko.c0981", "k": "note", "src": "After a vowel or ㄹ: 로 (버스로, 지하철로); after a consonant: 으로 (손으로).", "tgt": "అచ్చు లేదా ㄹ తర్వాత: 로 (버스로, 지하철로); హల్లు తర్వాత: 으로 (손으로)."}
+{"f": "cards", "id": "ko.c0982", "k": "meaning", "src": "until; to (an end point); even", "tgt": "వరకు; దాకా; కూడా"}
+{"f": "cards", "id": "ko.c0982", "k": "note", "src": "Same after vowels and consonants: 세 시까지, 서울까지.", "tgt": "అచ్చు, హల్లు తర్వాత ఒకటే: 세 시까지, 서울까지."}
+{"f": "cards", "id": "ko.c0983", "k": "meaning", "src": "from (a starting time or point)", "tgt": "నుంచి (మొదలయ్యే సమయం లేదా చోటు)"}
+{"f": "cards", "id": "ko.c0983", "k": "note", "src": "아홉 시부터 = from nine. Pairs with 까지.", "tgt": "아홉 시부터 = తొమ్మిది నుంచి. 까지 తో జత."}
+{"f": "cards", "id": "ko.c0984", "k": "meaning", "src": "polite marker (after any word)", "tgt": "మర్యాద గుర్తు (ఏ పదం తర్వాతైనా)"}
+{"f": "cards", "id": "ko.c0984", "k": "note", "src": "Makes a bare word polite: 저도요, 커피요, 왜요?", "tgt": "ఒంటి పదాన్ని మర్యాదగా చేస్తుంది: 저도요, 커피요, 왜요? (-అండి లాగా)."}
+{"f": "cards", "id": "ko.c0985", "k": "meaning", "src": "to (a person, spoken)", "tgt": "-కి (వ్యక్తికి, మాటల్లో)"}
+{"f": "cards", "id": "ko.c0985", "k": "note", "src": "친구한테 줘요. Only for people and animals; places take 에.", "tgt": "친구한테 줘요. మనుషులు, జంతువులకు మాత్రమే; చోట్లకు 에."}
+{"f": "cards", "id": "ko.c0986", "k": "meaning", "src": "than", "tgt": "కంటే"}
+{"f": "cards", "id": "ko.c0986", "k": "note", "src": "Goes after the thing you compare against: 버스보다 빨라요 = faster than the bus.", "tgt": "దేనితో పోలుస్తున్నారో దాని తర్వాత, కంటే లాగానే: 버스보다 빨라요 = బస్సు కంటే వేగం."}
+{"f": "cards", "id": "ko.c0987", "k": "meaning", "src": "plural marker (-s)", "tgt": "బహువచన గుర్తు (-లు)"}
+{"f": "cards", "id": "ko.c0987", "k": "note", "src": "친구들 = friends. Often left out: Korean doesn't need a plural.", "tgt": "친구들 = ఫ్రెండ్స్. తరచూ వదిలేస్తారు: తెలుగు -లు లాగా కొరియన్లో బహువచనం తప్పనిసరి కాదు."}
+{"f": "cards", "id": "ko.c0988", "k": "meaning", "src": "and; with (casual)", "tgt": "మరియు; -తో (సాధారణ)"}
+{"f": "cards", "id": "ko.c0988", "k": "note", "src": "Vowel: 랑 (친구랑); consonant: 이랑 (동생이랑). Spoken version of 하고.", "tgt": "అచ్చు: 랑 (친구랑); హల్లు: 이랑 (동생이랑). 하고 కి మాటల రూపం."}
+{"f": "cards", "id": "ko.c0989", "k": "meaning", "src": "or; as many as", "tgt": "లేదా; ఏకంగా (అంత ఎక్కువ)"}
+{"f": "cards", "id": "ko.c0989", "k": "note", "src": "Vowel: 나 (커피나 차); consonant: 이나 (빵이나 밥). 두 시간이나 = a whole two hours.", "tgt": "అచ్చు: 나 (커피나 차); హల్లు: 이나 (빵이나 밥). 두 시간이나 = ఏకంగా రెండు గంటలు."}
+{"f": "cards", "id": "ko.c0990", "k": "meaning", "src": "to (a person, written or careful)", "tgt": "-కి (వ్యక్తికి, రాతలో లేదా జాగ్రత్తగా)"}
+{"f": "cards", "id": "ko.c0990", "k": "note", "src": "Same as 한테, a bit more formal: 선생님에게.", "tgt": "한테 లాగే, కొంచెం అధికారికంగా: 선생님에게."}
+{"f": "cards", "id": "ko.c0991", "k": "meaning", "src": "like; as (similar to)", "tgt": "లాగా; మాదిరిగా"}
+{"f": "cards", "id": "ko.c0991", "k": "note", "src": "한국 사람처럼 말해요 = you talk like a Korean.", "tgt": "한국 사람처럼 말해요 = మీరు కొరియన్లాగా మాట్లాడుతున్నారు."}
+{"f": "cards", "id": "ko.c0992", "k": "meaning", "src": "only; nothing but (with a negative)", "tgt": "తప్ప (వ్యతిరేకంతో); మాత్రమే"}
+{"f": "cards", "id": "ko.c0992", "k": "note", "src": "천 원밖에 없어요 = I only have 1,000 won. The verb must be negative.", "tgt": "천 원밖에 없어요 = నా దగ్గర 1,000 వొన్ తప్ప లేదు. క్రియ వ్యతిరేకంలోనే ఉండాలి, \"తప్ప లేదు\" లాగా."}
+{"f": "cards", "id": "ko.c0993", "k": "meaning", "src": "about; around (a time or amount)", "tgt": "సుమారు; దాదాపు (సమయం లేదా మొత్తం)"}
+{"f": "cards", "id": "ko.c0993", "k": "note", "src": "세 시쯤 = around three; 얼마쯤 = about how much.", "tgt": "세 시쯤 = సుమారు మూడింటికి; 얼마쯤 = సుమారు ఎంత."}
+{"f": "cards", "id": "ko.c0994", "k": "meaning", "src": "every; each", "tgt": "ప్రతి"}
+{"f": "cards", "id": "ko.c0994", "k": "note", "src": "날마다 = every day; 주말마다 = every weekend.", "tgt": "날마다 = ప్రతిరోజూ; 주말마다 = ప్రతి వారాంతం."}
+{"f": "cards", "id": "ko.c0995", "k": "meaning", "src": "hey (after a name, casual)", "tgt": "ఓయ్ (పేరు తర్వాత, సాధారణ)"}
+{"f": "cards", "id": "ko.c0995", "k": "note", "src": "Consonant: 아 (민정아); vowel: 야 (지수야). Only to friends and younger people.", "tgt": "హల్లు: 아 (민정아); అచ్చు: 야 (지수야). ఫ్రెండ్స్కి, చిన్నవారికి మాత్రమే."}
+{"f": "cards", "id": "ko.c0996", "k": "meaning", "src": "subject marker (honorific)", "tgt": "కర్త పార్టికల్ (గౌరవ)"}
+{"f": "cards", "id": "ko.c0996", "k": "note", "src": "Replaces 이/가 for elders: 할아버지께서 오셨어요.", "tgt": "పెద్దవారికి 이/가 బదులు: 할아버지께서 오셨어요."}
+{"f": "cards", "id": "ko.c0997", "k": "meaning", "src": "to (an honored person)", "tgt": "-కి (గౌరవనీయులకు)"}
+{"f": "cards", "id": "ko.c0997", "k": "note", "src": "Honorific 에게: 할머니께 드려요.", "tgt": "에게 కి గౌరవ రూపం: 할머니께 드려요."}
+{"f": "cards", "id": "ko.c0998", "k": "meaning", "src": "from (a person, spoken)", "tgt": "నుంచి (వ్యక్తి నుంచి, మాటల్లో)"}
+{"f": "cards", "id": "ko.c0998", "k": "note", "src": "친구한테서 받았어요. Often shortened to 한테.", "tgt": "친구한테서 받았어요. తరచూ 한테 గా కుదిస్తారు."}
+{"f": "cards", "id": "ko.c0999", "k": "meaning", "src": "each; at a time", "tgt": "ఒక్కొక్కటి; చొప్పున"}
+{"f": "cards", "id": "ko.c0999", "k": "note", "src": "하나씩 = one each; 조금씩 = little by little.", "tgt": "하나씩 = ఒక్కొక్కటి; 조금씩 = కొంచెం కొంచెంగా."}
+{"f": "cards", "id": "ko.c1000", "k": "meaning", "src": "at least; or something", "tgt": "కనీసం…అయినా; లాంటిదేదైనా"}
+{"f": "cards", "id": "ko.c1000", "k": "note", "src": "커피라도 마실래요? = want to at least grab a coffee?", "tgt": "커피라도 마실래요? = కనీసం కాఫీ అయినా తాగుతారా?"}
+{"f": "cards", "id": "ko.c1001", "k": "meaning", "src": "called; saying (quotes a word)", "tgt": "అని (పేరు లేదా మాటను ఉటంకిస్తూ)"}
+{"f": "cards", "id": "ko.c1001", "k": "note", "src": "민수라고 해요 = I'm called Minsu.", "tgt": "민수라고 해요 = నా పేరు మిన్సు (అక్షరాలా \"మిన్సు అని అంటారు\")."}
+{"f": "cards", "id": "ko.c1002", "k": "meaning", "src": "as; in accordance with", "tgt": "ప్రకారం; ఎలాగో అలాగే"}
+{"f": "cards", "id": "ko.c1002", "k": "note", "src": "마음대로 = as you like; 말한 대로 = as I said.", "tgt": "마음대로 = మీ ఇష్టం వచ్చినట్టు; 말한 대로 = నేను చెప్పినట్టే."}
+{"f": "cards", "id": "ko.c1003", "k": "meaning", "src": "(starting) from (a place)", "tgt": "(మొదలుకొని) నుంచి (చోటు)"}
+{"f": "cards", "id": "ko.c1003", "k": "note", "src": "집에서부터 걸어왔어요 = I walked all the way from home.", "tgt": "집에서부터 걸어왔어요 = ఇంటి నుంచి ఇక్కడిదాకా నడిచి వచ్చాను."}
+{"f": "cards", "id": "ko.c1004", "k": "meaning", "src": "eat and (then) (-고)", "tgt": "తిని (ఆ తర్వాత) (-고)"}
+{"f": "cards", "id": "ko.c1004", "k": "note", "src": "-고 joins two actions or facts. Same after vowels and consonants: 가고, 먹고.", "tgt": "-고 రెండు పనులను లేదా విషయాలను కలుపుతుంది, తెలుగు -ఇ రూపంలాగా. అచ్చు, హల్లు తర్వాత ఒకటే: 가고, 먹고."}
+{"f": "cards", "id": "ko.c1005", "k": "meaning", "src": "go and (then) (-아서/어서)", "tgt": "వెళ్ళి (అక్కడ) (-아서/어서)"}
+{"f": "cards", "id": "ko.c1005", "k": "note", "src": "-아서/어서: one action leads to the next. 가서 먹어요 = I'll go there and eat.", "tgt": "-아서/어서: ఒక పని తర్వాతి పనికి దారి తీస్తుంది. 가서 먹어요 = అక్కడికి వెళ్ళి తింటాను."}
+{"f": "cards", "id": "ko.c1006", "k": "meaning", "src": "because I'm tired (-아서/어서)", "tgt": "అలసిపోయాను కాబట్టి (-아서/어서)"}
+{"f": "cards", "id": "ko.c1006", "k": "note", "src": "-아서/어서 = because. Never with -(으)세요 or -(으)ㄹ까요.", "tgt": "-아서/어서 = కాబట్టి. -(으)세요 లేదా -(으)ㄹ까요 తో ఎప్పుడూ రాదు."}
+{"f": "cards", "id": "ko.c1007", "k": "meaning", "src": "if (I) go (-(으)면)", "tgt": "వెళ్తే (-(으)면)"}
+{"f": "cards", "id": "ko.c1007", "k": "note", "src": "Vowel stem: -면 (가면); consonant: -으면 (먹으면).", "tgt": "అచ్చుతో ముగిసే ధాతువు: -면 (가면); హల్లు: -으면 (먹으면). తెలుగు -తే లాగా."}
+{"f": "cards", "id": "ko.c1008", "k": "meaning", "src": "I'm busy, but / so (-(으)ㄴ데 / -는데)", "tgt": "బిజీగా ఉన్నాను, కానీ / అందుకే (-(으)ㄴ데 / -는데)"}
+{"f": "cards", "id": "ko.c1008", "k": "note", "src": "Sets the scene: 바쁜데 나중에 얘기해요. Verbs: 가는데; adjectives: 바쁜데.", "tgt": "నేపథ్యం చెబుతుంది: 바쁜데 나중에 얘기해요. క్రియలు: 가는데; విశేషణాలు: 바쁜데."}
+{"f": "cards", "id": "ko.c1009", "k": "meaning", "src": "it's expensive, but (-지만)", "tgt": "ఖరీదే, కానీ (-지만)"}
+{"f": "cards", "id": "ko.c1009", "k": "note", "src": "-지만 = but. Same after any stem: 좋지만, 비싸지만.", "tgt": "-지만 = కానీ. ఏ ధాతువు తర్వాతైనా ఒకటే: 좋지만, 비싸지만."}
+{"f": "cards", "id": "ko.c1010", "k": "meaning", "src": "when (I) go (-(으)ㄹ 때)", "tgt": "వెళ్ళేటప్పుడు (-(으)ㄹ 때)"}
+{"f": "cards", "id": "ko.c1010", "k": "note", "src": "Vowel: 갈 때; consonant: 먹을 때. 어릴 때 = when I was little.", "tgt": "అచ్చు: 갈 때; హల్లు: 먹을 때. 어릴 때 = నేను చిన్నప్పుడు."}
+{"f": "cards", "id": "ko.c1011", "k": "meaning", "src": "since it's raining (-(으)니까)", "tgt": "వాన పడుతోంది కాబట్టి (-(으)니까)"}
+{"f": "cards", "id": "ko.c1011", "k": "note", "src": "-(으)니까 = because, and works with requests: 비가 오니까 우산 가져가세요.", "tgt": "-(으)니까 = కాబట్టి; అభ్యర్థనలతో కూడా వస్తుంది: 비가 오니까 우산 가져가세요."}
+{"f": "cards", "id": "ko.c1012", "k": "meaning", "src": "even if it's expensive (-아도/어도)", "tgt": "ఖరీదైనా సరే (-아도/어도)"}
+{"f": "cards", "id": "ko.c1012", "k": "note", "src": "비싸도 사고 싶어요.", "tgt": "비싸도 사고 싶어요.", "pre": 1}
+{"f": "cards", "id": "ko.c1013", "k": "meaning", "src": "intending to go (-(으)려고)", "tgt": "వెళ్ళాలని (-(으)려고)"}
+{"f": "cards", "id": "ko.c1013", "k": "note", "src": "한국에 가려고 한국어를 배워요.", "tgt": "한국에 가려고 한국어를 배워요.", "pre": 1}
+{"f": "cards", "id": "ko.c1014", "k": "meaning", "src": "while walking (-(으)면서)", "tgt": "నడుస్తూ (-(으)면서)"}
+{"f": "cards", "id": "ko.c1014", "k": "note", "src": "Two things at once, same person: 음악 들으면서 걸어요.", "tgt": "ఒకే వ్యక్తి, ఒకేసారి రెండు పనులు: 음악 들으면서 걸어요."}
+{"f": "cards", "id": "ko.c1015", "k": "meaning", "src": "(go) in order to eat (-(으)러)", "tgt": "తినడానికి (వెళ్ళడం) (-(으)러)"}
+{"f": "cards", "id": "ko.c1015", "k": "note", "src": "Only with go / come: 먹으러 가요, 놀러 와요.", "tgt": "వెళ్ళడం / రావడంతో మాత్రమే: 먹으러 가요, 놀러 와요."}
+{"f": "cards", "id": "ko.c1016", "k": "meaning", "src": "while going, then (-다가)", "tgt": "వెళ్తూ ఉండగా, మధ్యలో (-다가)"}
+{"f": "cards", "id": "ko.c1016", "k": "note", "src": "One action is interrupted: 집에 가다가 친구를 만났어요.", "tgt": "ఒక పని మధ్యలో ఆగిపోతుంది: 집에 가다가 친구를 만났어요."}
+{"f": "cards", "id": "ko.c1017", "k": "meaning", "src": "sleep or (-거나)", "tgt": "నిద్రపోవడం లేదా (-거나)"}
+{"f": "cards", "id": "ko.c1017", "k": "note", "src": "-거나 = or, between actions: 주말에 자거나 영화 봐요.", "tgt": "-거나 = లేదా, పనుల మధ్య: 주말에 자거나 영화 봐요."}
+{"f": "cards", "id": "ko.c1018", "k": "meaning", "src": "after eating (-(으)ㄴ 후에)", "tgt": "తిన్న తర్వాత (-(으)ㄴ 후에)"}
+{"f": "cards", "id": "ko.c1018", "k": "note", "src": "Vowel: 간 후에; consonant: 먹은 후에. Also -고 나서.", "tgt": "అచ్చు: 간 후에; హల్లు: 먹은 후에. -고 나서 కూడా."}
+{"f": "cards", "id": "ko.c1019", "k": "meaning", "src": "before sleeping (-기 전에)", "tgt": "నిద్రపోయే ముందు (-기 전에)"}
+{"f": "cards", "id": "ko.c1019", "k": "note", "src": "Verb + 기 전에: 먹기 전에 = before eating.", "tgt": "క్రియ + 기 전에: 먹기 전에 = తినే ముందు."}
+{"f": "cards", "id": "ko.c1020", "k": "meaning", "src": "as soon as (I) arrive (-자마자)", "tgt": "చేరుకోగానే (-자마자)"}
+{"f": "cards", "id": "ko.c1020", "k": "note", "src": "집에 도착하자마자 잤어요.", "tgt": "집에 도착하자마자 잤어요.", "pre": 1}
+{"f": "cards", "id": "ko.c1021", "k": "meaning", "src": "however (written)", "tgt": "అయినప్పటికీ (రాతలో)"}
+{"f": "cards", "id": "ko.c1021", "k": "note", "src": "Books and news. In speech: 그런데, 하지만.", "tgt": "పుస్తకాలు, వార్తలు. మాటల్లో: 그런데, 하지만."}
+{"f": "cards", "id": "ko.c1022", "k": "meaning", "src": "that is; namely", "tgt": "అంటే; అనగా"}
+{"f": "cards", "id": "ko.c1022", "k": "note", "src": "Written, formal.", "tgt": "రాతలో, అధికారికం."}
+{"f": "cards", "id": "ko.c1023", "k": "meaning", "src": "but; by the way (spoken)", "tgt": "కానీ; అన్నట్టు (మాటల్లో)"}
+{"f": "cards", "id": "ko.c1023", "k": "note", "src": "The spoken short form of 그런데. Starts a new topic too: 근데 밥 먹었어?", "tgt": "그런데 కి మాటల్లో చిన్న రూపం. కొత్త విషయం మొదలుపెట్టడానికి కూడా: 근데 밥 먹었어?"}
+{"f": "cards", "id": "ko.c1024", "k": "meaning", "src": "therefore (written)", "tgt": "అందుచేత (రాతలో)"}
+{"f": "cards", "id": "ko.c1024", "k": "note", "src": "Formal 그래서.", "tgt": "అధికారిక 그래서."}
+{"f": "cards", "id": "ko.c1025", "k": "meaning", "src": "or (between nouns, formal)", "tgt": "లేదా (నామవాచకాల మధ్య, అధికారిక)"}
+{"f": "cards", "id": "ko.c1025", "k": "note", "src": "카드 또는 현금 = card or cash. Speech: 아니면, (이)나.", "tgt": "카드 또는 현금 = కార్డు లేదా క్యాష్. మాటల్లో: 아니면, (이)나."}
+{"f": "cards", "id": "ko.c1026", "k": "meaning", "src": "so; that's why; I mean", "tgt": "అందుకే; అదే కదా; అంటే నా ఉద్దేశం"}
+{"f": "cards", "id": "ko.c1026", "k": "note", "src": "Also \"exactly!\": 그러니까요! Spoken short: 그니까.", "tgt": "\"అదే కదా!\" అని కూడా: 그러니까요! మాటల్లో చిన్న రూపం: 그니까."}
+{"f": "cards", "id": "ko.c1027", "k": "meaning", "src": "but; nevertheless", "tgt": "అయితే; అయినా సరే"}
+{"f": "cards", "id": "ko.c1027", "k": "note", "src": "Between 그런데 and 하지만 in tone.", "tgt": "స్వరంలో 그런데, 하지만 మధ్యలో ఉంటుంది."}
+{"f": "cards", "id": "ko.c1028", "k": "meaning", "src": "if so; in that case", "tgt": "అలా అయితే; ఆ సందర్భంలో"}
+{"f": "cards", "id": "ko.c1028", "k": "note", "src": "A bit more formal than 그럼.", "tgt": "그럼 కంటే కొంచెం అధికారికం."}
+{"f": "cards", "id": "ko.c1029", "k": "meaning", "src": "and then (while doing that)", "tgt": "ఆ తర్వాత (అది చేస్తూ ఉండగా)"}
+{"f": "cards", "id": "ko.c1029", "k": "note", "src": "텔레비전을 봤어요. 그러다가 잠들었어요.", "tgt": "텔레비전을 봤어요. 그러다가 잠들었어요.", "pre": 1}
+{"f": "cards", "id": "ko.c1030", "k": "meaning", "src": "besides; on top of that", "tgt": "దానికి తోడు; పైగా"}
+{"f": "cards", "id": "ko.c1030", "k": "note", "src": "비싸요. 게다가 맛도 없어요.", "tgt": "비싸요. 게다가 맛도 없어요.", "pre": 1}
+{"f": "cards", "id": "ko.c1031", "k": "meaning", "src": "ah; oh (I see)", "tgt": "ఆ; అలాగా (అర్థమైంది)"}
+{"f": "cards", "id": "ko.c1031", "k": "note", "src": "The all-purpose reaction: 아, 그래요? Also a sigh.", "tgt": "అన్నిటికీ పనికొచ్చే స్పందన: 아, 그래요? నిట్టూర్పు కూడా."}
+{"f": "cards", "id": "ko.c1032", "k": "meaning", "src": "uh; huh?", "tgt": "ఆ…; ఏంటి?"}
+{"f": "cards", "id": "ko.c1032", "k": "note", "src": "Surprise or a casual \"yeah\": 어, 왔어? Casual.", "tgt": "ఆశ్చర్యం లేదా సాధారణ \"ఆ, అవును\": 어, 왔어? సాధారణ."}
+{"f": "cards", "id": "ko.c1033", "k": "meaning", "src": "wow", "tgt": "వావ్"}
+{"f": "cards", "id": "ko.c1033", "k": "note", "src": "Neutral, anyone can say it. Longer = more impressed: 와아.", "tgt": "తటస్థం, ఎవరైనా అనవచ్చు. ఎంత పొడవుగా అంటే అంత ఆశ్చర్యం: 와아."}
+{"f": "cards", "id": "ko.c1034", "k": "meaning", "src": "oh!; ooh", "tgt": "ఓ!; ఓహో"}
+{"f": "cards", "id": "ko.c1034", "k": "note", "src": "Pleasantly surprised: 오, 멋있다! Also spelled like 오 (five).", "tgt": "సంతోషకరమైన ఆశ్చర్యం: 오, 멋있다! 오 (ఐదు) లాగే రాస్తారు."}
+{"f": "cards", "id": "ko.c1035", "k": "meaning", "src": "yeah; uh-huh (casual)", "tgt": "అవును; ఊఁ (సాధారణ)"}
+{"f": "cards", "id": "ko.c1035", "k": "note", "src": "Casual \"yes\" to friends. To elders: 네.", "tgt": "ఫ్రెండ్స్కి సాధారణ \"అవును\". పెద్దవారికి: 네."}
+{"f": "cards", "id": "ko.c1036", "k": "meaning", "src": "right, then; here you go", "tgt": "సరే మరి; ఇదిగోండి"}
+{"f": "cards", "id": "ko.c1036", "k": "note", "src": "Getting started or handing something over: 자, 시작할까요?", "tgt": "మొదలుపెట్టేటప్పుడు లేదా ఏదైనా అందిస్తూ: 자, 시작할까요?"}
+{"f": "cards", "id": "ko.c1037", "k": "meaning", "src": "hmm", "tgt": "హ్మ్ (ఆలోచిస్తూ)"}
+{"f": "cards", "id": "ko.c1037", "k": "note", "src": "Thinking before you answer. Fine in any register.", "tgt": "జవాబు చెప్పే ముందు ఆలోచిస్తూ. ఏ స్థాయిలోనైనా పర్వాలేదు."}
+{"f": "cards", "id": "ko.c1038", "k": "meaning", "src": "whoa; wooow", "tgt": "అబ్బో; వావ్వ్వ్"}
+{"f": "cards", "id": "ko.c1038", "k": "note", "src": "Bigger, more childlike than 와.", "tgt": "와 కంటే పెద్దది, పిల్లల్లాగా."}
+{"f": "cards", "id": "ko.c1039", "k": "meaning", "src": "hello? (on the phone)", "tgt": "హలో? (ఫోన్లో)"}
+{"f": "cards", "id": "ko.c1039", "k": "note", "src": "Only on the phone, or to check if someone hears you. Not a greeting in person.", "tgt": "ఫోన్లో, లేదా అవతలివారికి వినిపిస్తోందా అని చూడటానికి మాత్రమే. ఎదురుగా కలిసినప్పుడు పలకరింపు కాదు."}
+{"f": "cards", "id": "ko.c1040", "k": "meaning", "src": "well…; I'm not sure", "tgt": "ఏమో…; నాకు తెలియదు మరి"}
+{"f": "cards", "id": "ko.c1040", "k": "note", "src": "Polite: 글쎄요. Buys time or softens a \"no\".", "tgt": "మర్యాద: 글쎄요. టైం తీసుకోవడానికి లేదా \"కాదు\"ని మెత్తబరచడానికి."}
+{"f": "cards", "id": "ko.c1041", "k": "meaning", "src": "aw, come on; no way", "tgt": "అబ్బా, ఊరుకో; అస్సలు కాదు"}
+{"f": "cards", "id": "ko.c1041", "k": "note", "src": "Light disbelief or teasing: 에이, 거짓말! Casual.", "tgt": "కొంచెం నమ్మకపోవడం లేదా ఆటపట్టించడం: 에이, 거짓말! సాధారణ."}
+{"f": "cards", "id": "ko.c1042", "k": "meaning", "src": "oh my god (lit. in the world)", "tgt": "అమ్మో, దేవుడా (అక్షరాలా \"ప్రపంచంలో\")"}
+{"f": "cards", "id": "ko.c1042", "k": "note", "src": "Amazement or shock. Common with older speakers: 세상에, 이게 뭐야!", "tgt": "ఆశ్చర్యం లేదా షాక్. పెద్దవారు ఎక్కువగా అంటారు: 세상에, 이게 뭐야!"}
+{"f": "cards", "id": "ko.c1043", "k": "meaning", "src": "phew", "tgt": "హమ్మయ్య"}
+{"f": "cards", "id": "ko.c1043", "k": "note", "src": "Relief. Also a sigh.", "tgt": "ఊరట. నిట్టూర్పు కూడా."}
+{"f": "cards", "id": "ko.c1044", "k": "meaning", "src": "ouch", "tgt": "అమ్మా! (నొప్పితో)"}
+{"f": "cards", "id": "ko.c1044", "k": "note", "src": "Sudden pain. Shorter: 아! Children say 아야야.", "tgt": "హఠాత్తు నొప్పి. చిన్నగా: 아! పిల్లలు 아야야 అంటారు."}
+{"f": "cards", "id": "ko.c1045", "k": "meaning", "src": "sigh; oh well", "tgt": "హుఁ (నిట్టూర్పు); పోనీలే"}
+{"f": "cards", "id": "ko.c1045", "k": "note", "src": "Tired resignation. Can sound grumpy; be careful with elders.", "tgt": "అలసిపోయి సర్దుకుపోవడం. చిరాకుగా వినిపించవచ్చు; పెద్దవారి ముందు జాగ్రత్త."}
+{"f": "cards", "id": "ko.c1046", "k": "meaning", "src": "oh my!; goodness!", "tgt": "అమ్మో!; అయ్యబాబోయ్!"}
+{"f": "cards", "id": "ko.c1046", "k": "note", "src": "Mostly women and older speakers. 어머나 is stronger.", "tgt": "ఎక్కువగా ఆడవాళ్ళు, పెద్దవారు. 어머나 ఇంకా బలంగా."}
+{"f": "cards", "id": "ko.c1047", "k": "meaning", "src": "gasp!; yikes", "tgt": "హా! (ఉలిక్కిపాటు); బాబోయ్"}
+{"f": "cards", "id": "ko.c1047", "k": "note", "src": "Shock, also typed in chats. Casual.", "tgt": "షాక్; చాటింగ్లో కూడా టైప్ చేస్తారు. సాధారణ."}
+{"f": "cards", "id": "ko.c1048", "k": "meaning", "src": "oops!; oh!", "tgt": "అరె!; అయ్యయ్యో (చిన్న తప్పు)"}
+{"f": "cards", "id": "ko.c1048", "k": "note", "src": "Sudden small surprise or mistake. Casual.", "tgt": "చిన్న హఠాత్ ఆశ్చర్యం లేదా తప్పు. సాధారణ."}
+{"f": "cards", "id": "ko.c1049", "k": "meaning", "src": "oh no, I forgot!", "tgt": "అరెరే, మర్చిపోయాను!"}
+{"f": "cards", "id": "ko.c1049", "k": "note", "src": "When you remember a mistake: 아차, 지갑! Casual.", "tgt": "తప్పు గుర్తొచ్చినప్పుడు: 아차, 지갑! సాధారణ."}
+{"f": "cards", "id": "ko.c1050", "k": "meaning", "src": "you scared me!", "tgt": "భయపెట్టేశావు!"}
+{"f": "cards", "id": "ko.c1050", "k": "note", "src": "When startled. Casual; polite: 깜짝 놀랐어요.", "tgt": "ఉలిక్కిపడినప్పుడు. సాధారణ; మర్యాద: 깜짝 놀랐어요."}
+{"f": "cards", "id": "ko.c1051", "k": "meaning", "src": "oh, come on (embarrassed, coy)", "tgt": "ఛ, పో (సిగ్గుగా, గారంగా)"}
+{"f": "cards", "id": "ko.c1051", "k": "note", "src": "Shy or mildly annoyed, often playful. Usually women.", "tgt": "సిగ్గు లేదా కొంచెం చిరాకు, తరచూ ఆటగా. ఎక్కువగా ఆడవాళ్ళు."}
+{"f": "cards", "id": "ko.c1052", "k": "meaning", "src": "yes!; yay!", "tgt": "యస్!; హుర్రే!"}
+{"f": "cards", "id": "ko.c1052", "k": "note", "src": "Small personal victory. Also written 앗싸. Casual, a bit playful.", "tgt": "చిన్న సొంత విజయం. 앗싸 అని కూడా రాస్తారు. సాధారణ, కొంచెం ఆటగా."}
+{"f": "cards", "id": "ko.c1053", "k": "meaning", "src": "shh", "tgt": "ష్ష్"}
+{"f": "cards", "id": "ko.c1053", "k": "note", "src": "Asking for quiet. Anyone can say it.", "tgt": "నిశ్శబ్దం అడగడం. ఎవరైనా అనవచ్చు."}
+{"f": "cards", "id": "ko.c1054", "k": "meaning", "src": "aaah!", "tgt": "ఆఆఆ!"}
+{"f": "cards", "id": "ko.c1054", "k": "note", "src": "A scream: a bug, a fright, a disaster. Casual.", "tgt": "కేక: పురుగు, భయం, ఏదైనా ప్రమాదం. సాధారణ."}
+{"f": "cards", "id": "ko.c1055", "k": "meaning", "src": "ta-da!", "tgt": "టా-డా!"}
+{"f": "cards", "id": "ko.c1055", "k": "note", "src": "Showing off a surprise or a gift. Playful.", "tgt": "సర్ప్రైజ్ లేదా బహుమతి చూపిస్తూ. ఆటగా."}
+{"f": "cards", "id": "ko.c1056", "k": "meaning", "src": "yuck; ew", "tgt": "యాక్; ఛీ"}
+{"f": "cards", "id": "ko.c1056", "k": "note", "src": "Disgust, especially at food. Casual; rude to say about someone's cooking.", "tgt": "అసహ్యం, ముఖ్యంగా ఆహారం మీద. సాధారణ; ఎవరైనా వండినదాని గురించి అంటే మొరటు."}
+{"f": "cards", "id": "ko.c1057", "k": "meaning", "src": "this / that / that (over there) (before a noun)", "tgt": "ఈ / ఆ / అదిగో ఆ (నామవాచకం ముందు)"}
+{"f": "cards", "id": "ko.c1057", "k": "note", "src": "이 사람, 그 책, 저 건물. 그 = near you or already mentioned; 저 = far from both.", "tgt": "이 사람, 그 책, 저 건물. 그 = మీ దగ్గర లేదా ఇదివరకే చెప్పినది; 저 = ఇద్దరికీ దూరం. తెలుగులో ఈ / ఆ రెండే, కొరియన్లో మూడు."}
+{"f": "cards", "id": "ko.c1058", "k": "meaning", "src": "one, two, three, four (before a counter)", "tgt": ""}
+{"f": "cards", "id": "ko.c1058", "k": "note", "src": "하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명.", "tgt": "하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명.", "pre": 1}
+{"f": "cards", "id": "ko.c1059", "k": "meaning", "src": "this kind of / that kind of / that kind of (over there)", "tgt": "ఇలాంటి / అలాంటి / అలాంటి (అక్కడ)"}
+{"f": "cards", "id": "ko.c1059", "k": "note", "src": "이런 날 = a day like this. 그런 거 아니에요 = it's not like that.", "tgt": "이런 날 = ఇలాంటి రోజు. 그런 거 아니에요 = అలాంటిదేమీ కాదు."}
+{"f": "cards", "id": "ko.c1060", "k": "meaning", "src": "what kind of; some (before a noun)", "tgt": "ఎలాంటి; ఏదో ఒక (నామవాచకం ముందు)"}
+{"f": "cards", "id": "ko.c1060", "k": "note", "src": "어떤 음식 좋아해요? From 어떻다.", "tgt": "어떤 음식 좋아해요? 어떻다 నుంచి."}
+{"f": "cards", "id": "ko.c1061", "k": "meaning", "src": "other; another; different", "tgt": "వేరే; ఇంకో; భిన్నమైన"}
+{"f": "cards", "id": "ko.c1061", "k": "note", "src": "다른 거 있어요? = do you have another one?", "tgt": "다른 거 있어요? = వేరేది ఏమైనా ఉందా?"}
+{"f": "cards", "id": "ko.c1062", "k": "meaning", "src": "various; several", "tgt": "రకరకాల; అనేక"}
+{"f": "cards", "id": "ko.c1062", "k": "note", "src": "여러 번 = many times; 여러 가지 = all sorts.", "tgt": "여러 번 = చాలాసార్లు; 여러 가지 = రకరకాలు."}
+{"f": "cards", "id": "ko.c1063", "k": "meaning", "src": "which (before a noun)", "tgt": "ఏ (నామవాచకం ముందు)"}
+{"f": "cards", "id": "ko.c1063", "k": "note", "src": "어느 나라 = which country; 어느 쪽 = which way.", "tgt": "어느 나라 = ఏ దేశం; 어느 쪽 = ఏ వైపు."}
+{"f": "cards", "id": "ko.c1064", "k": "meaning", "src": "every; all (before a noun)", "tgt": "అన్ని; ప్రతి (నామవాచకం ముందు)"}
+{"f": "cards", "id": "ko.c1064", "k": "note", "src": "모든 사람 = everyone.", "tgt": "모든 사람 = అందరూ."}
+{"f": "cards", "id": "ko.c1065", "k": "meaning", "src": "this (time); this coming", "tgt": "ఈ (సారి); రాబోయే"}
+{"f": "cards", "id": "ko.c1065", "k": "note", "src": "이번 주말 = this weekend; 이번이 처음이에요.", "tgt": "이번 주말 = ఈ వారాంతం; 이번이 처음이에요."}
+{"f": "cards", "id": "ko.c1066", "k": "meaning", "src": "how many; a few", "tgt": "ఎన్ని; కొన్ని"}
+{"f": "cards", "id": "ko.c1066", "k": "note", "src": "몇 개? = how many? 몇 명 = a few people.", "tgt": "몇 개? = ఎన్ని? 몇 명 = కొంతమంది."}
+{"f": "cards", "id": "ko.c1067", "k": "meaning", "src": "what (kind of) (before a noun)", "tgt": "ఏ రకమైన (నామవాచకం ముందు)"}
+{"f": "cards", "id": "ko.c1067", "k": "note", "src": "무슨 일 있어요? = is something wrong?", "tgt": "무슨 일 있어요? = ఏమైనా సమస్యా?"}
+{"f": "cards", "id": "ko.c1068", "k": "meaning", "src": "last; past (before a noun)", "tgt": "పోయిన; గత (నామవాచకం ముందు)"}
+{"f": "cards", "id": "ko.c1068", "k": "note", "src": "지난 주말 = last weekend; 지난달 = last month.", "tgt": "지난 주말 = పోయిన వారాంతం; 지난달 = పోయిన నెల."}
+{"f": "cards", "id": "ko.c1069", "k": "meaning", "src": "new (before a noun)", "tgt": "కొత్త (నామవాచకం ముందు)"}
+{"f": "cards", "id": "ko.c1069", "k": "note", "src": "새 옷 = new clothes; 새해 = New Year.", "tgt": "새 옷 = కొత్త బట్టలు; 새해 = కొత్త సంవత్సరం."}
+{"f": "cards", "id": "ko.c1070", "k": "meaning", "src": "that's right", "tgt": "అవును, నిజమే"}
+{"f": "cards", "id": "ko.c1070", "k": "note", "src": "Agreeing: 네, 맞아요. Casual: 맞아.", "tgt": "ఒప్పుకుంటూ: 네, 맞아요. సాధారణ: 맞아."}
+{"f": "cards", "id": "ko.c1071", "k": "meaning", "src": "yes (formal)", "tgt": "అవునండి (మరింత అధికారిక)"}
+{"f": "cards", "id": "ko.c1071", "k": "note", "src": "More formal than 네; heard in offices and from older people.", "tgt": "네 కంటే అధికారికం; ఆఫీసుల్లో, పెద్దవారి నోట వినిపిస్తుంది."}
+{"f": "cards", "id": "ko.c1072", "k": "meaning", "src": "afternoon; p.m.", "tgt": "మధ్యాహ్నం (12 తర్వాత)"}
+{"f": "cards", "id": "ko.c1072", "k": "note", "src": "오후 세 시 = 3 p.m.", "tgt": "오후 세 시 = మధ్యాహ్నం 3 గంటలు."}
+{"f": "cards", "id": "ko.c1073", "k": "meaning", "src": "first (before a noun)", "tgt": "మొదటి (నామవాచకం ముందు)"}
+{"f": "cards", "id": "ko.c1073", "k": "note", "src": "첫눈 = the first snow; 첫 데이트 = a first date.", "tgt": "첫눈 = ఆ ఏడాది మొదటి మంచు; 첫 데이트 = మొదటి డేట్."}
+{"f": "cards", "id": "ko.c1074", "k": "meaning", "src": "this year", "tgt": ""}
+{"f": "cards", "id": "ko.c1074", "k": "note", "src": "올해 몇 살이에요?", "tgt": "올해 몇 살이에요?", "pre": 1}
+{"f": "cards", "id": "ko.c1075", "k": "meaning", "src": "no (casual); no wait", "tgt": "లేదు (సాధారణ); అది కాదు…"}
+{"f": "cards", "id": "ko.c1075", "k": "note", "src": "To friends. Also starts a protest: 아니, 그게 아니라…", "tgt": "ఫ్రెండ్స్కి. అభ్యంతరం మొదలుపెట్టడానికి కూడా: 아니, 그게 아니라…"}
+{"f": "cards", "id": "ko.c1076", "k": "meaning", "src": "thousand", "tgt": "వెయ్యి"}
+{"f": "cards", "id": "ko.c1076", "k": "note", "src": "천 원 = 1,000 won; 삼천 = 3,000.", "tgt": "천 원 = 1,000 వొన్; 삼천 = 3,000."}
+{"f": "cards", "id": "ko.c1077", "k": "meaning", "src": "zero", "tgt": "సున్నా"}
+{"f": "cards", "id": "ko.c1077", "k": "note", "src": "영 in maths and scores; 공 in phone numbers: 공일공 = 010.", "tgt": "లెక్కల్లో, స్కోర్లలో 영; ఫోన్ నంబర్లలో 공: 공일공 = 010."}
+{"f": "cards", "id": "ko.c1078", "k": "meaning", "src": "last year", "tgt": "పోయిన సంవత్సరం"}
+{"f": "cards", "id": "ko.c1078", "k": "note", "src": "Also 지난해.", "tgt": "지난해 కూడా."}
+{"f": "cards", "id": "ko.c1079", "k": "meaning", "src": "hi; bye (casual)", "tgt": "హాయ్; బై (సాధారణ)"}
+{"f": "cards", "id": "ko.c1079", "k": "note", "src": "To friends and children, both hello and goodbye.", "tgt": "ఫ్రెండ్స్కి, పిల్లలకు; పలకరింపుకీ వీడ్కోలుకీ."}
+{"f": "cards", "id": "ko.c1080", "k": "meaning", "src": "daytime", "tgt": "పగలు"}
+{"f": "cards", "id": "ko.c1080", "k": "note", "src": "낮에는 더워요 = it's hot during the day.", "tgt": "낮에는 더워요 = పగలు వేడిగా ఉంటుంది."}
+{"f": "cards", "id": "ko.c1081", "k": "meaning", "src": "morning; a.m.", "tgt": "ఉదయం (12 లోపు)"}
+{"f": "cards", "id": "ko.c1081", "k": "note", "src": "오전 열 시 = 10 a.m.", "tgt": "오전 열 시 = ఉదయం 10 గంటలు."}
+{"f": "cards", "id": "ko.c1082", "k": "meaning", "src": "early morning; small hours", "tgt": "తెల్లవారుజాము; అర్ధరాత్రి దాటాక"}
+{"f": "cards", "id": "ko.c1082", "k": "note", "src": "새벽 두 시 = 2 a.m.", "tgt": "새벽 두 시 = తెల్లవారుజామున 2 గంటలు."}
+{"f": "cards", "id": "ko.c1083", "k": "meaning", "src": "last week", "tgt": "పోయిన వారం"}
+{"f": "cards", "id": "ko.c1083", "k": "note", "src": "One word, no space.", "tgt": "ఒకే పదం, మధ్యలో ఖాళీ లేదు."}
+{"f": "cards", "id": "ko.c1084", "k": "meaning", "src": "no (spoken)", "tgt": "లేదండి (మాటల్లో)"}
+{"f": "cards", "id": "ko.c1084", "k": "note", "src": "Short form of 아니요; softer and more common in speech.", "tgt": "아니요 కి చిన్న రూపం; మాటల్లో ఇంకా మెత్తగా, ఎక్కువగా."}
+{"f": "cards", "id": "ko.c1085", "k": "meaning", "src": "twenty (before a counter)", "tgt": "ఇరవై (కౌంటర్ ముందు)"}
+{"f": "cards", "id": "ko.c1085", "k": "note", "src": "스물 → 스무: 스무 살 = twenty years old.", "tgt": "스물 → 스무: 스무 살 = ఇరవై ఏళ్ళు."}
+{"f": "cards", "id": "ko.c1086", "k": "meaning", "src": "Tuesday", "tgt": "మంగళవారం"}
+{"f": "cards", "id": "ko.c1086", "k": "note", "src": "화 = fire. 월화수목금토일.", "tgt": "화 = నిప్పు. 월화수목금토일."}
+{"f": "cards", "id": "ko.c1087", "k": "meaning", "src": "Wednesday", "tgt": "బుధవారం"}
+{"f": "cards", "id": "ko.c1087", "k": "note", "src": "수 = water.", "tgt": "수 = నీరు."}
+{"f": "cards", "id": "ko.c1088", "k": "meaning", "src": "Thursday", "tgt": "గురువారం"}
+{"f": "cards", "id": "ko.c1088", "k": "note", "src": "목 = wood.", "tgt": "목 = చెట్టు (కలప)."}
+{"f": "cards", "id": "ko.c1089", "k": "meaning", "src": "20 (native)", "tgt": "20 (అచ్చ కొరియన్)"}
+{"f": "cards", "id": "ko.c1089", "k": "note", "src": "Before a counter: 스무.", "tgt": "కౌంటర్ ముందు: 스무."}
+{"f": "cards", "id": "ko.c1090", "k": "meaning", "src": "next year", "tgt": ""}
+{"f": "cards", "id": "ko.c1090", "k": "note", "src": "내년에 한국에 가요.", "tgt": "내년에 한국에 가요.", "pre": 1}
+{"f": "cards", "id": "ko.c1091", "k": "meaning", "src": "30, 40, 50 (native)", "tgt": "30, 40, 50 (అచ్చ కొరియన్)"}
+{"f": "cards", "id": "ko.c1091", "k": "note", "src": "Mostly for age: 서른 살. Sino-Korean 삼십 is used for money and minutes.", "tgt": "ఎక్కువగా వయసుకు: 서른 살. డబ్బు, నిమిషాలకు సైనో-కొరియన్ 삼십."}
+{"f": "cards", "id": "ko.c1092", "k": "meaning", "src": "hundred", "tgt": "వంద"}
+{"f": "cards", "id": "ko.c1092", "k": "note", "src": "백 원; 이백 = 200. Not 일백.", "tgt": "백 원; 이백 = 200. 일백 అనరు."}
+{"f": "cards", "id": "ko.c1093", "k": "meaning", "src": "11, 12 (native)", "tgt": "11, 12 (అచ్చ కొరియన్)"}
+{"f": "cards", "id": "ko.c1093", "k": "note", "src": "열 + 하나: 열한 시 = 11 o'clock.", "tgt": "열 + 하나: 열한 시 = 11 గంటలు."}
+{"f": "cards", "id": "ko.c1094", "k": "meaning", "src": "the day after tomorrow", "tgt": "ఎల్లుండి"}
+{"f": "cards", "id": "ko.c1094", "k": "note", "src": "내일모레 = in a couple of days.", "tgt": "내일모레 = రెండు మూడు రోజుల్లో."}
+{"f": "cards", "id": "ko.c1095", "k": "meaning", "src": "the day before yesterday", "tgt": "మొన్న"}
+{"f": "cards", "id": "ko.c1095", "k": "note", "src": "Also 그제.", "tgt": "그제 కూడా."}
+{"f": "cards", "id": "ko.c1096", "k": "meaning", "src": "one (car, machine)", "tgt": "ఒకటి (కారు, యంత్రం)"}
+{"f": "cards", "id": "ko.c1096", "k": "note", "src": "대 counts vehicles and machines: 차 두 대, 컴퓨터 한 대.", "tgt": "వాహనాలు, యంత్రాలను 대 తో లెక్కిస్తారు: 차 두 대, 컴퓨터 한 대."}
+{"f": "cards", "id": "ko.c1097", "k": "meaning", "src": "two people (honorific)", "tgt": "ఇద్దరు (గౌరవ)"}
+{"f": "cards", "id": "ko.c1097", "k": "note", "src": "분 is the polite 명: 몇 분이세요? = how many in your party?", "tgt": "분 అనేది 명 కి మర్యాద రూపం: 몇 분이세요? = మీరు ఎంతమంది?"}
+{"f": "cards", "id": "ko.c1098", "k": "meaning", "src": "one outfit; one suit", "tgt": "ఒక జత బట్టలు; ఒక సూట్"}
+{"f": "cards", "id": "ko.c1098", "k": "note", "src": "벌 counts sets of clothes: 옷 한 벌.", "tgt": "బట్టల సెట్లను 벌 తో లెక్కిస్తారు: 옷 한 벌."}
+{"f": "cards", "id": "ko.c1099", "k": "meaning", "src": "one flower; one bunch (of grapes)", "tgt": "ఒక పువ్వు; ఒక గుత్తి (ద్రాక్ష)"}
+{"f": "cards", "id": "ko.c1099", "k": "note", "src": "장미 한 송이 = one rose.", "tgt": "장미 한 송이 = ఒక గులాబీ."}
+{"f": "cards", "id": "ko.c1100", "k": "meaning", "src": "one roll; one line", "tgt": "ఒక రోల్; ఒక వరుస"}
+{"f": "cards", "id": "ko.c1100", "k": "note", "src": "김밥 한 줄 = one gimbap roll; 한 줄로 = in a line.", "tgt": "김밥 한 줄 = ఒక కింబాప్ రోల్; 한 줄로 = ఒకే వరుసలో."}
+{"f": "cards", "id": "ko.c1101", "k": "meaning", "src": "one plate (of)", "tgt": "ఒక ప్లేటు"}
+{"f": "cards", "id": "ko.c1101", "k": "note", "src": "만두 한 접시 = a plate of dumplings.", "tgt": "만두 한 접시 = ఒక ప్లేటు డంప్లింగ్స్ (మండు)."}
+{"f": "cards", "id": "ko.c1102", "k": "meaning", "src": "one slice; one piece", "tgt": ""}
+{"f": "cards", "id": "ko.c1102", "k": "note", "src": "피자 한 조각, 케이크 한 조각.", "tgt": "피자 한 조각, 케이크 한 조각.", "pre": 1}
+{"f": "cards", "id": "ko.c1103", "k": "meaning", "src": "one kind; one thing", "tgt": "ఒక రకం; ఒక విషయం"}
+{"f": "cards", "id": "ko.c1103", "k": "note", "src": "한 가지 더 = one more thing; 여러 가지 = all kinds.", "tgt": "한 가지 더 = ఇంకొక్క విషయం; 여러 가지 = రకరకాలు."}
+{"f": "cards", "id": "ko.c1104", "k": "meaning", "src": "one place", "tgt": "ఒక చోటు"}
+{"f": "cards", "id": "ko.c1104", "k": "note", "src": "두 군데 = two places. Spoken, everyday.", "tgt": "두 군데 = రెండు చోట్లు. మాటల్లో, రోజువారీ."}
+{"f": "cards", "id": "ko.c1105", "k": "meaning", "src": "one song", "tgt": "ఒక పాట"}
+{"f": "cards", "id": "ko.c1105", "k": "note", "src": "노래 한 곡 = one song (at karaoke).", "tgt": "노래 한 곡 = ఒక పాట (కరోకేలో)."}
+{"f": "cards", "id": "ko.c1106", "k": "meaning", "src": "one (film, story)", "tgt": "ఒకటి (సినిమా, కథ)"}
+{"f": "cards", "id": "ko.c1106", "k": "note", "src": "영화 한 편 봐요 = we watch a movie.", "tgt": "영화 한 편 봐요 = మనం ఒక సినిమా చూద్దాం."}
+{"f": "cards", "id": "ko.c1107", "k": "meaning", "src": "one pill; one small round thing", "tgt": "ఒక మాత్ర; ఒక చిన్న గుండ్రటి వస్తువు"}
+{"f": "cards", "id": "ko.c1107", "k": "note", "src": "약 한 알 = one pill.", "tgt": "약 한 알 = ఒక మాత్ర."}
+{"f": "cards", "id": "ko.c1108", "k": "meaning", "src": "one can", "tgt": "ఒక డబ్బా (క్యాన్)"}
+{"f": "cards", "id": "ko.c1108", "k": "note", "src": "맥주 한 캔 = a can of beer.", "tgt": "맥주 한 캔 = ఒక బీర్ క్యాన్."}
+{"f": "cards", "id": "ko.c1109", "k": "meaning", "src": "one game; one round; one tray", "tgt": "ఒక ఆట; ఒక రౌండ్; ఒక ట్రే"}
+{"f": "cards", "id": "ko.c1109", "k": "note", "src": "게임 한 판 = one round; 계란 한 판 = a tray of 30 eggs.", "tgt": "게임 한 판 = ఒక రౌండ్; 계란 한 판 = 30 గుడ్ల ట్రే."}
+{"f": "cards", "id": "ko.c1110", "k": "meaning", "src": "one o'clock", "tgt": "ఒంటి గంట"}
+{"f": "cards", "id": "ko.c1110", "k": "note", "src": "Hours use native numbers: 한 시, 두 시 … 열두 시.", "tgt": "గంటలకు అచ్చ కొరియన్ సంఖ్యలు: 한 시, 두 시 … 열두 시."}
+{"f": "cards", "id": "ko.c1111", "k": "meaning", "src": "five minutes", "tgt": "ఐదు నిమిషాలు"}
+{"f": "cards", "id": "ko.c1111", "k": "note", "src": "Minutes use Sino-Korean numbers: 오 분, 십 분, 삼십 분.", "tgt": "నిమిషాలకు సైనో-కొరియన్ సంఖ్యలు: 오 분, 십 분, 삼십 분."}
+{"f": "cards", "id": "ko.c1112", "k": "meaning", "src": "one year", "tgt": "ఒక సంవత్సరం"}
+{"f": "cards", "id": "ko.c1112", "k": "note", "src": "Years use Sino-Korean: 일 년, 이 년. Native: 한 해.", "tgt": "సంవత్సరాలకు సైనో-కొరియన్: 일 년, 이 년. అచ్చ కొరియన్: 한 해."}
+{"f": "cards", "id": "ko.c1113", "k": "meaning", "src": "three months", "tgt": "మూడు నెలలు"}
+{"f": "cards", "id": "ko.c1113", "k": "note", "src": "Sino-Korean months: 삼 개월. Native: 석 달.", "tgt": "సైనో-కొరియన్ నెలలు: 삼 개월. అచ్చ కొరియన్: 석 달."}
+{"f": "cards", "id": "ko.c1114", "k": "meaning", "src": "two portions (servings)", "tgt": "రెండు పోర్షన్లు (ప్లేట్లు)"}
+{"f": "cards", "id": "ko.c1114", "k": "note", "src": "Korean BBQ is ordered by portion: 삼겹살 이 인분 = pork belly for two.", "tgt": "కొరియన్ బార్బెక్యూ పోర్షన్ల లెక్కన ఆర్డర్ చేస్తారు: 삼겹살 이 인분 = ఇద్దరికి సరిపడా పోర్క్ బెల్లీ."}
+{"f": "cards", "id": "ko.c1115", "k": "meaning", "src": "the first (one)", "tgt": "మొదటిది"}
+{"f": "cards", "id": "ko.c1115", "k": "note", "src": "번째 makes ordinals: 두 번째 = second, 세 번째 = third.", "tgt": "번째 వరుస సంఖ్యలు చేస్తుంది: 두 번째 = రెండోది, 세 번째 = మూడోది."}
+{"f": "cards", "id": "ko.c1116", "k": "meaning", "src": "to be pretty", "tgt": "అందంగా ఉండటం"}
+{"f": "cards", "id": "ko.c1116", "k": "note", "src": "예뻐요. Mostly to women, also to kids and things. Mild; everyone hears it. No gender forms in Korean.", "tgt": "예뻐요. ఎక్కువగా ఆడవాళ్ళకు, పిల్లలకు, వస్తువులకు కూడా. తేలికపాటిది; అందరూ వింటుంటారు. కొరియన్లో లింగ రూపాలు లేవు."}
+{"f": "cards", "id": "ko.c1117", "k": "meaning", "src": "to be cute", "tgt": "ముద్దుగా ఉండటం"}
+{"f": "cards", "id": "ko.c1117", "k": "note", "src": "귀여워요 (ㅂ irregular). To anyone, men included. Mild and playful.", "tgt": "귀여워요 (ㅂ క్రమరహితం). ఎవరికైనా, మగవాళ్ళకు కూడా. తేలికగా, ఆటగా."}
+{"f": "cards", "id": "ko.c1118", "k": "meaning", "src": "to be handsome; good-looking", "tgt": "అందగాడిలా ఉండటం; చూడచక్కగా ఉండటం"}
+{"f": "cards", "id": "ko.c1118", "k": "note", "src": "Said in the past tense: 잘생겼어요. Mostly to men. Warm.", "tgt": "భూతకాలంలో అంటారు: 잘생겼어요. ఎక్కువగా మగవాళ్ళకు. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1119", "k": "meaning", "src": "to be beautiful", "tgt": "చాలా అందంగా ఉండటం"}
+{"f": "cards", "id": "ko.c1119", "k": "note", "src": "아름다워요 (ㅂ irregular). Strong and a bit poetic: for scenery, or a very sincere compliment. Bold.", "tgt": "아름다워요 (ㅂ క్రమరహితం). బలమైనది, కొంచెం కవితాత్మకం: ప్రకృతి దృశ్యాలకు, లేదా మనస్ఫూర్తి పొగడ్తకు. ధైర్యమైనది."}
+{"f": "cards", "id": "ko.c1120", "k": "meaning", "src": "to be lovely; adorable", "tgt": "ముద్దొచ్చేలా ఉండటం; ప్రేమ పుట్టించేలా ఉండటం"}
+{"f": "cards", "id": "ko.c1120", "k": "note", "src": "사랑스러워요 (ㅂ irregular). Tender, more for couples. Warm.", "tgt": "사랑스러워요 (ㅂ క్రమరహితం). సున్నితమైనది, ఎక్కువగా జంటల మధ్య. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1121", "k": "meaning", "src": "charm; appeal", "tgt": "ఆకర్షణ; చార్మ్"}
+{"f": "cards", "id": "ko.c1121", "k": "note", "src": "매력 있어요 = you're attractive. Safe and common. Mild to warm.", "tgt": "매력 있어요 = మీలో ఆకర్షణ ఉంది. సురక్షితం, సాధారణం. తేలిక నుంచి ఆప్యాయం."}
+{"f": "cards", "id": "ko.c1122", "k": "meaning", "src": "to be attractive; charming", "tgt": "ఆకర్షణీయంగా ఉండటం"}
+{"f": "cards", "id": "ko.c1122", "k": "note", "src": "매력적이에요. A notch more serious than 매력 있어요. Warm.", "tgt": "매력적이에요. 매력 있어요 కంటే కొంచెం సీరియస్. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1123", "k": "meaning", "src": "to be smart", "tgt": "తెలివిగా ఉండటం"}
+{"f": "cards", "id": "ko.c1123", "k": "note", "src": "똑똑해요. To anyone. Mild. To an elder, praise their knowledge instead.", "tgt": "똑똑해요. ఎవరికైనా. తేలికపాటిది. పెద్దవారికి అయితే వారి జ్ఞానాన్ని పొగడండి."}
+{"f": "cards", "id": "ko.c1124", "k": "meaning", "src": "to be kind-hearted; nice", "tgt": "మంచి మనసుతో ఉండటం"}
+{"f": "cards", "id": "ko.c1124", "k": "note", "src": "착해요. Big compliment from a partner's family; to equals or juniors only. Mild.", "tgt": "착해요. భాగస్వామి కుటుంబం నుంచి పెద్ద పొగడ్త; సమానులకు లేదా చిన్నవారికి మాత్రమే. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1125", "k": "meaning", "src": "to be affectionate; sweet and caring", "tgt": "ఆప్యాయంగా ఉండటం; ప్రేమగా చూసుకోవడం"}
+{"f": "cards", "id": "ko.c1125", "k": "note", "src": "다정해요. A top quality in a partner. Warm.", "tgt": "다정해요. భాగస్వామిలో అత్యుత్తమ గుణం. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1126", "k": "meaning", "src": "smile", "tgt": "చిరునవ్వు"}
+{"f": "cards", "id": "ko.c1126", "k": "note", "src": "미소가 예뻐요. A little literary; speech also uses 웃는 모습. Mild.", "tgt": "미소가 예뻐요. కొంచెం సాహిత్యపరం; మాటల్లో 웃는 모습 కూడా. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1127", "k": "meaning", "src": "eyes", "tgt": "కళ్ళు"}
+{"f": "cards", "id": "ko.c1127", "k": "note", "src": "눈이 예뻐요. Praising eyes is safe and common. (눈 also = snow.) Mild to warm.", "tgt": "눈이 예뻐요. కళ్ళను పొగడటం సురక్షితం, సాధారణం. (눈 అంటే మంచు కూడా.) తేలిక నుంచి ఆప్యాయం."}
+{"f": "cards", "id": "ko.c1128", "k": "meaning", "src": "eye smile; smiling eyes", "tgt": "కళ్ళతో నవ్వు; నవ్వే కళ్ళు"}
+{"f": "cards", "id": "ko.c1128", "k": "note", "src": "A Korean favourite: eyes curving into crescents when you smile. Warm.", "tgt": "కొరియన్లకు చాలా ఇష్టం: నవ్వినప్పుడు కళ్ళు నెలవంకలా వంగడం. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1129", "k": "meaning", "src": "dimple", "tgt": "సొట్ట (బుగ్గ మీద)"}
+{"f": "cards", "id": "ko.c1129", "k": "note", "src": "보조개가 귀여워요. A classic Korean compliment. Mild.", "tgt": "보조개가 귀여워요. కొరియన్లో క్లాసిక్ పొగడ్త. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1130", "k": "meaning", "src": "voice", "tgt": "గొంతు; స్వరం"}
+{"f": "cards", "id": "ko.c1130", "k": "note", "src": "목소리가 좋아요. Safe, very common, especially on the phone. Mild.", "tgt": "목소리가 좋아요. సురక్షితం, చాలా సాధారణం, ముఖ్యంగా ఫోన్లో. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1131", "k": "meaning", "src": "laugh; laughter", "tgt": "నవ్వు"}
+{"f": "cards", "id": "ko.c1131", "k": "note", "src": "웃음이 많아요 = you laugh a lot (a good thing). Mild.", "tgt": "웃음이 많아요 = మీరు బాగా నవ్వుతారు (మంచి విషయం). తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1132", "k": "meaning", "src": "vibe; aura; atmosphere", "tgt": "వైబ్; ప్రత్యేక ఆకర్షణ; వాతావరణం"}
+{"f": "cards", "id": "ko.c1132", "k": "note", "src": "분위기 있어요 = you have a certain charm. Very Korean compliment. Warm.", "tgt": "분위기 있어요 = మీలో ఏదో ప్రత్యేకత ఉంది. చాలా కొరియన్ పొగడ్త. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1133", "k": "meaning", "src": "style; type", "tgt": "స్టైల్; టైప్"}
+{"f": "cards", "id": "ko.c1133", "k": "note", "src": "제 스타일이에요 = you're my type. Mild alone; warm in that phrase.", "tgt": "제 스타일이에요 = మీరు నా టైప్. ఒంటరిగా తేలిక; ఈ వాక్యంలో ఆప్యాయం."}
+{"f": "cards", "id": "ko.c1134", "k": "meaning", "src": "personality", "tgt": "స్వభావం"}
+{"f": "cards", "id": "ko.c1134", "k": "note", "src": "성격 좋아요 is high praise. Mild.", "tgt": "성격 좋아요 = చాలా పెద్ద పొగడ్త (మంచి స్వభావం). తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1135", "k": "meaning", "src": "good taste; tact", "tgt": "మంచి అభిరుచి; సమయస్ఫూర్తి"}
+{"f": "cards", "id": "ko.c1135", "k": "note", "src": "센스 있어요 = you've got taste / you're thoughtful. Mild.", "tgt": "센스 있어요 = మీకు మంచి టేస్ట్ ఉంది / మీరు బాగా ఆలోచిస్తారు. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1136", "k": "meaning", "src": "ideal type", "tgt": "ఆదర్శ వ్యక్తి (నచ్చే టైప్)"}
+{"f": "cards", "id": "ko.c1136", "k": "note", "src": "Koreans ask 이상형이 뭐예요? on first dates and in interviews. Mild as a question.", "tgt": "మొదటి డేట్లలో, ఇంటర్వ్యూలలో కొరియన్లు 이상형이 뭐예요? అని అడుగుతారు. ప్రశ్నగా తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1137", "k": "meaning", "src": "first impression", "tgt": "మొదటి అభిప్రాయం"}
+{"f": "cards", "id": "ko.c1137", "k": "note", "src": "첫인상이 좋았어요 = I liked you from the start. Warm.", "tgt": "첫인상이 좋았어요 = మొదటి నుంచే మీరు నాకు నచ్చారు. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1138", "k": "meaning", "src": "good-looking, warm-vibe guy", "tgt": "మంచి వైబ్ ఉన్న అందగాడు"}
+{"f": "cards", "id": "ko.c1138", "k": "note", "src": "Slang, from 훈훈한 남자. For women: 훈녀. Mild, friendly.", "tgt": "స్లాంగ్, 훈훈한 남자 నుంచి. ఆడవారికి: 훈녀. తేలికగా, స్నేహంగా."}
+{"f": "cards", "id": "ko.c1139", "k": "meaning", "src": "heart skipping a beat", "tgt": "గుండె ఒక్కసారి ఆగినట్టు అవడం"}
+{"f": "cards", "id": "ko.c1139", "k": "note", "src": "Slang: 심장이 쿵. 심쿵했어요 = you made my heart skip. Warm, playful.", "tgt": "స్లాంగ్: 심장이 쿵. 심쿵했어요 = మీరు నా గుండె ఝల్లుమనిపించారు. ఆప్యాయంగా, ఆటగా."}
+{"f": "cards", "id": "ko.c1140", "k": "meaning", "src": "You look even prettier today", "tgt": "ఈరోజు మీరు ఇంకా అందంగా ఉన్నారు"}
+{"f": "cards", "id": "ko.c1140", "k": "note", "src": "To a woman you know. 오늘따라 = today especially. Warm.", "tgt": "తెలిసిన అమ్మాయికి. 오늘따라 = ముఖ్యంగా ఈరోజు. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1141", "k": "meaning", "src": "Even your name is pretty", "tgt": "మీ పేరు కూడా అందంగా ఉంది"}
+{"f": "cards", "id": "ko.c1141", "k": "note", "src": "Right after learning a name. Mild, sweet.", "tgt": "పేరు తెలిసిన వెంటనే. తేలికగా, తియ్యగా."}
+{"f": "cards", "id": "ko.c1142", "k": "meaning", "src": "You must hear that you're pretty a lot", "tgt": "మీరు అందంగా ఉన్నారని చాలామంది అంటుంటారు కదా"}
+{"f": "cards", "id": "ko.c1142", "k": "note", "src": "Indirect and smooth. To a woman. Warm.", "tgt": "పరోక్షంగా, నాజూకుగా. అమ్మాయికి. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1143", "k": "meaning", "src": "Why are you so cute?", "tgt": "మీరు ఇంత ముద్దుగా ఎందుకు ఉన్నారు?"}
+{"f": "cards", "id": "ko.c1143", "k": "note", "src": "Teasing, to anyone. Warm.", "tgt": "ఆటపట్టిస్తూ, ఎవరికైనా. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1144", "k": "meaning", "src": "Everything you do is cute", "tgt": "మీరు ఏం చేసినా ముద్దుగానే ఉంటుంది"}
+{"f": "cards", "id": "ko.c1144", "k": "note", "src": "To someone you know well. 짓 = little actions. Warm, playful.", "tgt": "బాగా తెలిసినవారికి. 짓 = చిన్న చిన్న చేష్టలు. ఆప్యాయంగా, ఆటగా."}
+{"f": "cards", "id": "ko.c1145", "k": "meaning", "src": "You're very handsome", "tgt": "మీరు చాలా అందంగా ఉన్నారు"}
+{"f": "cards", "id": "ko.c1145", "k": "note", "src": "Polite -시-; to a man you don't know well. Mild to warm.", "tgt": "మర్యాద -시-; అంతగా పరిచయం లేని అబ్బాయికి. తేలిక నుంచి ఆప్యాయం."}
+{"f": "cards", "id": "ko.c1146", "k": "meaning", "src": "You're even better-looking in person", "tgt": "మీరు ఫోటోల కంటే ఎదురుగా ఇంకా బాగున్నారు"}
+{"f": "cards", "id": "ko.c1146", "k": "note", "src": "After seeing photos first (dating app, a friend's phone). Warm.", "tgt": "ముందు ఫోటోలు చూశాక (డేటింగ్ యాప్, ఫ్రెండ్ ఫోన్). ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1147", "k": "meaning", "src": "You look great today", "tgt": "ఈరోజు మీరు సూపర్గా ఉన్నారు"}
+{"f": "cards", "id": "ko.c1147", "k": "note", "src": "To anyone dressed up. Mild.", "tgt": "బాగా తయారైన ఎవరికైనా. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1148", "k": "meaning", "src": "You look cool when you're working", "tgt": "మీరు పని చేస్తుంటే భలే ఉంటారు"}
+{"f": "cards", "id": "ko.c1148", "k": "note", "src": "Classic office or café crush line. Warm.", "tgt": "ఆఫీసు లేదా కేఫ్ క్రష్కి క్లాసిక్ లైన్. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1149", "k": "meaning", "src": "You're really smart", "tgt": "మీరు నిజంగా తెలివైనవారు"}
+{"f": "cards", "id": "ko.c1149", "k": "note", "src": "To someone your age or younger. Mild.", "tgt": "మీ వయసు వారికి లేదా చిన్నవారికి. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1150", "k": "meaning", "src": "You're attractive / You have charm", "tgt": "మీలో ఆకర్షణ ఉంది / మీకు చార్మ్ ఉంది"}
+{"f": "cards", "id": "ko.c1150", "k": "note", "src": "Safe on a date or between friends. Mild to warm.", "tgt": "డేట్లో లేదా ఫ్రెండ్స్ మధ్య సురక్షితం. తేలిక నుంచి ఆప్యాయం."}
+{"f": "cards", "id": "ko.c1151", "k": "meaning", "src": "You're full of charm", "tgt": "మీలో ఆకర్షణ పొంగిపొర్లుతోంది"}
+{"f": "cards", "id": "ko.c1151", "k": "note", "src": "Polite and playful. Warm.", "tgt": "మర్యాదగా, ఆటగా. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1152", "k": "meaning", "src": "You have a pretty smile", "tgt": "మీ చిరునవ్వు అందంగా ఉంది"}
+{"f": "cards", "id": "ko.c1152", "k": "note", "src": "Safe on a first meeting. Mild.", "tgt": "మొదటి పరిచయంలో సురక్షితం. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1153", "k": "meaning", "src": "Your eye smile is really pretty", "tgt": "మీ కళ్ళ నవ్వు నిజంగా అందంగా ఉంది"}
+{"f": "cards", "id": "ko.c1153", "k": "note", "src": "Very Korean compliment. Warm.", "tgt": "చాలా కొరియన్ పొగడ్త. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1154", "k": "meaning", "src": "Your dimples are so cute", "tgt": "మీ సొట్టలు చాలా ముద్దుగా ఉన్నాయి"}
+{"f": "cards", "id": "ko.c1154", "k": "note", "src": "Mild, sweet.", "tgt": "తేలికగా, తియ్యగా."}
+{"f": "cards", "id": "ko.c1155", "k": "meaning", "src": "You have a really nice voice", "tgt": "మీ గొంతు నిజంగా బాగుంది"}
+{"f": "cards", "id": "ko.c1155", "k": "note", "src": "Often on the phone or after karaoke. Mild.", "tgt": "తరచూ ఫోన్లో లేదా కరోకే తర్వాత. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1156", "k": "meaning", "src": "I wanted to hear your voice", "tgt": "మీ గొంతు వినాలనిపించింది"}
+{"f": "cards", "id": "ko.c1156", "k": "note", "src": "Why you called. To someone you're dating. Warm to bold.", "tgt": "ఫోన్ ఎందుకు చేశారో చెప్పడానికి. డేటింగ్లో ఉన్నవారికి. ఆప్యాయం నుంచి ధైర్యం."}
+{"f": "cards", "id": "ko.c1157", "k": "meaning", "src": "You have a certain charm about you", "tgt": "మీలో ఏదో ప్రత్యేక ఆకర్షణ ఉంది"}
+{"f": "cards", "id": "ko.c1157", "k": "note", "src": "A refined compliment to men or women. Warm.", "tgt": "అబ్బాయిలకు, అమ్మాయిలకు ఇద్దరికీ నాజూకైన పొగడ్త. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1158", "k": "meaning", "src": "You have great style", "tgt": "మీ స్టైల్ చాలా బాగుంది"}
+{"f": "cards", "id": "ko.c1158", "k": "note", "src": "Mild; works with near-strangers.", "tgt": "తేలికపాటిది; దాదాపు తెలియనివారితో కూడా పనికొస్తుంది."}
+{"f": "cards", "id": "ko.c1159", "k": "meaning", "src": "You're my type", "tgt": "మీరు నా టైప్"}
+{"f": "cards", "id": "ko.c1159", "k": "note", "src": "Light and direct. Warm.", "tgt": "తేలికగా, సూటిగా. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1160", "k": "meaning", "src": "You're totally my ideal type", "tgt": "మీరు పూర్తిగా నా ఆదర్శ టైప్"}
+{"f": "cards", "id": "ko.c1160", "k": "note", "src": "Bold and playful. Usually after a few dates.", "tgt": "ధైర్యంగా, ఆటగా. సాధారణంగా కొన్ని డేట్ల తర్వాత."}
+{"f": "cards", "id": "ko.c1161", "k": "meaning", "src": "What's your ideal type?", "tgt": "మీకు ఎలాంటివారు నచ్చుతారు?"}
+{"f": "cards", "id": "ko.c1161", "k": "note", "src": "The classic first-date question. Mild.", "tgt": "మొదటి డేట్లో క్లాసిక్ ప్రశ్న. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1162", "k": "meaning", "src": "I liked my first impression of you", "tgt": "మొదటిసారి చూసినప్పుడే మీరు నచ్చారు"}
+{"f": "cards", "id": "ko.c1162", "k": "note", "src": "On a second date. Warm.", "tgt": "రెండో డేట్లో. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1163", "k": "meaning", "src": "And you have a great personality too", "tgt": "మీ స్వభావం కూడా చాలా మంచిది"}
+{"f": "cards", "id": "ko.c1163", "k": "note", "src": "도 = on top of being good-looking. Warm.", "tgt": "도 = అందంతో పాటు అదనంగా. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1164", "k": "meaning", "src": "You're so sweet and caring", "tgt": "మీరు చాలా ఆప్యాయంగా చూసుకుంటారు"}
+{"f": "cards", "id": "ko.c1164", "k": "note", "src": "After a kind gesture. Warm.", "tgt": "ఏదైనా మంచి పని చేశాక. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1165", "k": "meaning", "src": "Have you eaten? (I care about you)", "tgt": "భోజనం చేశారా? (మీ గురించి ఆలోచిస్తున్నాను)"}
+{"f": "cards", "id": "ko.c1165", "k": "note", "src": "Korean's indirect \"I'm thinking of you\". Polite form of the casual 밥 먹었어? Mild.", "tgt": "\"మీరు గుర్తొస్తున్నారు\" అని కొరియన్లో పరోక్షంగా చెప్పే మాట, తెలుగులో \"అన్నం తిన్నావా?\" లాగే. సాధారణ 밥 먹었어? కి మర్యాద రూపం. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1166", "k": "meaning", "src": "Let's grab a meal sometime", "tgt": "ఎప్పుడైనా కలిసి భోజనం చేద్దాం"}
+{"f": "cards", "id": "ko.c1166", "k": "note", "src": "Often polite filler; when meant, it opens a date. Ask \"when?\" to show you mean it. Mild.", "tgt": "తరచూ మర్యాదకి అనే మాటే; నిజంగా అంటే డేట్కి మొదలు. నిజమని చూపించాలంటే \"ఎప్పుడు?\" అని అడగండి. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1167", "k": "meaning", "src": "Want to have dinner together?", "tgt": "కలిసి భోజనానికి వెళ్దామా?"}
+{"f": "cards", "id": "ko.c1167", "k": "note", "src": "The real invitation. Warm.", "tgt": "నిజమైన ఆహ్వానం. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1168", "k": "meaning", "src": "I'll buy you a coffee", "tgt": "నేను మీకు కాఫీ ఇప్పిస్తాను"}
+{"f": "cards", "id": "ko.c1168", "k": "note", "src": "Easy opener after class or work. Mild.", "tgt": "క్లాస్ లేదా ఆఫీస్ తర్వాత సులువైన మొదలు. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1169", "k": "meaning", "src": "Is it OK if I contact you?", "tgt": "మీకు మెసేజ్ చేయవచ్చా?"}
+{"f": "cards", "id": "ko.c1169", "k": "note", "src": "Polite way to ask for KakaoTalk. Mild.", "tgt": "కకావోటాక్ ఐడీ అడగడానికి మర్యాదైన మార్గం. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1170", "k": "meaning", "src": "Can I see you again?", "tgt": "మిమ్మల్ని మళ్ళీ కలవవచ్చా?"}
+{"f": "cards", "id": "ko.c1170", "k": "note", "src": "At the end of a first meeting. Warm.", "tgt": "మొదటి కలయిక చివర్లో. ఆప్యాయమైనది."}
+{"f": "cards", "id": "ko.c1171", "k": "meaning", "src": "Want to come up for some ramyeon? (joke line)", "tgt": "రామ్యన్ తిని వెళ్తారా? (జోక్ లైన్)"}
+{"f": "cards", "id": "ko.c1171", "k": "note", "src": "From the film One Fine Spring Day (2001), where the line is 라면 먹을래요?; this meme version means an invitation inside. Joke only, never a real move.", "tgt": "2001 నాటి \"వన్ ఫైన్ స్ప్రింగ్ డే\" సినిమా నుంచి; అందులో మాట 라면 먹을래요?. ఈ మీమ్ రూపం అంటే ఇంట్లోకి ఆహ్వానం. జోక్ మాత్రమే, నిజంగా ఎప్పుడూ వాడకండి."}
+{"f": "cards", "id": "ko.c1172", "k": "meaning", "src": "Come on, you're joking, right?", "tgt": "అబ్బా, జోక్ చేస్తున్నారు కదా?"}
+{"f": "cards", "id": "ko.c1172", "k": "note", "src": "Playful deflection, shy but not a no. Casual and friendly.", "tgt": "ఆటగా తప్పించుకోవడం, సిగ్గుగా, కానీ \"కాదు\" కాదు. సాధారణంగా, స్నేహంగా."}
+{"f": "cards", "id": "ko.c1173", "k": "meaning", "src": "You're quite the smooth talker", "tgt": "మీరు భలే మాటకారి"}
+{"f": "cards", "id": "ko.c1173", "k": "note", "src": "Teasing deflection; smiling = interested, flat = not. Mild.", "tgt": "ఆటపట్టిస్తూ తప్పించుకోవడం; నవ్వుతూ అంటే ఆసక్తి, ముఖం మామూలుగా పెడితే లేదు. తేలికపాటిది."}
+{"f": "cards", "id": "ko.c1174", "k": "meaning", "src": "Sure, when shall we meet?", "tgt": "సరే, ఎప్పుడు కలుద్దాం?"}
+{"f": "cards", "id": "ko.c1174", "k": "note", "src": "A warm yes to an invitation.", "tgt": "ఆహ్వానానికి ఆప్యాయమైన \"సరే\"."}
+{"f": "cards", "id": "ko.c1175", "k": "meaning", "src": "Thanks for the thought, but I'm fine", "tgt": "మీ ఆలోచనకు థాంక్సండి, కానీ పర్వాలేదు"}
+{"f": "cards", "id": "ko.c1175", "k": "note", "src": "Kind, clear no. Works for a drink or a number.", "tgt": "దయగా, స్పష్టంగా \"వద్దు\". డ్రింక్కైనా, ఫోన్ నంబర్కైనా పనికొస్తుంది."}
+{"f": "cards", "id": "ko.c1176", "k": "meaning", "src": "Sorry, but I'm seeing someone", "tgt": "క్షమించండి, నేను ఇంకొకరితో రిలేషన్లో ఉన్నాను"}
+{"f": "cards", "id": "ko.c1176", "k": "note", "src": "Clear no; nobody will push after this.", "tgt": "స్పష్టమైన \"వద్దు\"; దీని తర్వాత ఎవరూ బలవంతం చేయరు."}
+{"f": "cards", "id": "ko.c1177", "k": "meaning", "src": "You're a lovely person, but I'd like to stay friends", "tgt": "మీరు చాలా మంచివారు, కానీ మనం ఫ్రెండ్స్గా ఉందాం"}
+{"f": "cards", "id": "ko.c1177", "k": "note", "src": "Gentle no to someone you know. 분 keeps it respectful.", "tgt": "తెలిసినవారికి మెత్తని \"వద్దు\". 분 వల్ల గౌరవంగా ఉంటుంది."}
+{"f": "cards", "id": "ko.c1178", "k": "meaning", "src": "I'm not looking to date right now", "tgt": "ఇప్పుడు నాకు ప్రేమలో పడే ఆలోచన లేదు"}
+{"f": "cards", "id": "ko.c1178", "k": "note", "src": "Firm but not personal.", "tgt": "గట్టిగా, కానీ వ్యక్తిగతంగా కాదు."}
+{"f": "cards", "id": "ko.c1179", "k": "meaning", "src": "The food is really delicious", "tgt": "భోజనం నిజంగా చాలా రుచిగా ఉంది"}
+{"f": "cards", "id": "ko.c1179", "k": "note", "src": "-네요 = noticing out loud. Say it to the host or cook during the meal.", "tgt": "-네요 = గమనించి పైకి అనడం. భోజనం చేస్తూనే ఆతిథ్యం ఇచ్చినవారికి లేదా వండినవారికి చెప్పండి."}
+{"f": "cards", "id": "ko.c1180", "k": "meaning", "src": "You're a really good cook", "tgt": "మీరు నిజంగా చాలా బాగా వండుతారు"}
+{"f": "cards", "id": "ko.c1180", "k": "note", "src": "솜씨 = skill with your hands. Polite -시-; fine to elders.", "tgt": "솜씨 = చేతి నైపుణ్యం. మర్యాద -시-; పెద్దవారికి కూడా పర్వాలేదు."}
+{"f": "cards", "id": "ko.c1181", "k": "meaning", "src": "How did you make this?", "tgt": "ఇది ఎలా చేశారు?"}
+{"f": "cards", "id": "ko.c1181", "k": "note", "src": "Asking for the recipe is praise in itself.", "tgt": "రెసిపీ అడగడమే ఒక పొగడ్త."}
+{"f": "cards", "id": "ko.c1182", "k": "meaning", "src": "You're really good at this", "tgt": "మీరు దీన్ని నిజంగా బాగా చేస్తారు"}
+{"f": "cards", "id": "ko.c1182", "k": "note", "src": "For any skill. To elders, praise with -시- and no grading words.", "tgt": "ఏ నైపుణ్యానికైనా. పెద్దవారికి -시- తో, మార్కులు వేసే మాటలు లేకుండా పొగడండి."}
+{"f": "cards", "id": "ko.c1183", "k": "meaning", "src": "That's a good idea", "tgt": "మంచి ఐడియా"}
+{"f": "cards", "id": "ko.c1183", "k": "note", "src": "To colleagues and friends. To a boss: 좋은 생각이신 것 같아요.", "tgt": "సహోద్యోగులకు, ఫ్రెండ్స్కి. బాస్కి: 좋은 생각이신 것 같아요."}
+{"f": "cards", "id": "ko.c1184", "k": "meaning", "src": "You're so thorough", "tgt": "మీరు ఎంత జాగ్రత్తగా చేస్తారో"}
+{"f": "cards", "id": "ko.c1184", "k": "note", "src": "A big compliment at work.", "tgt": "ఆఫీసులో పెద్ద పొగడ్త."}
+{"f": "cards", "id": "ko.c1185", "k": "meaning", "src": "You're so good-hearted", "tgt": "మీది నిజంగా చాలా మంచి మనసు"}
+{"f": "cards", "id": "ko.c1185", "k": "note", "src": "To equals or juniors. It sounds odd said to a much older person.", "tgt": "సమానులకు లేదా చిన్నవారికి. చాలా పెద్దవారికి అంటే వింతగా ఉంటుంది."}
+{"f": "cards", "id": "ko.c1186", "k": "meaning", "src": "You have a great sense of humor", "tgt": "మీకు మంచి హాస్యప్రియత్వం ఉంది"}
+{"f": "cards", "id": "ko.c1186", "k": "note", "src": "Polite; to anyone.", "tgt": "మర్యాదగా; ఎవరికైనా."}
+{"f": "cards", "id": "ko.c1187", "k": "meaning", "src": "You're very considerate", "tgt": "మీరు ఇతరుల గురించి చాలా ఆలోచిస్తారు"}
+{"f": "cards", "id": "ko.c1187", "k": "note", "src": "배려 = thinking of others. Highly valued.", "tgt": "배려 = ఇతరుల గురించి ఆలోచించడం. చాలా విలువైన గుణం."}
+{"f": "cards", "id": "ko.c1188", "k": "meaning", "src": "You're so diligent", "tgt": "మీరు నిజంగా చాలా చురుకైనవారు"}
+{"f": "cards", "id": "ko.c1188", "k": "note", "src": "Always busy and on time. Different from 열심히 하시네요 (works hard at it).", "tgt": "ఎప్పుడూ పనిలో, సమయానికి ఉంటారు. 열심히 하시네요 (ఆ పనిని కష్టపడి చేస్తారు) కి భిన్నం."}
+{"f": "cards", "id": "ko.c1189", "k": "meaning", "src": "Your skin looks great", "tgt": "మీ చర్మం చాలా బాగుంది"}
+{"f": "cards", "id": "ko.c1189", "k": "note", "src": "A very common, friendly compliment in Korea, to men and women alike.", "tgt": "కొరియాలో చాలా సాధారణమైన, స్నేహపూర్వక పొగడ్త, ఆడవారికీ మగవారికీ."}
+{"f": "cards", "id": "ko.c1190", "k": "meaning", "src": "You look so young for your age", "tgt": "మీరు వయసు కంటే చాలా చిన్నగా కనిపిస్తారు"}
+{"f": "cards", "id": "ko.c1190", "k": "note", "src": "A favorite compliment, especially to people over 30.", "tgt": "చాలా ఇష్టమైన పొగడ్త, ముఖ్యంగా 30 దాటినవారికి."}
+{"f": "cards", "id": "ko.c1191", "k": "meaning", "src": "You have a kind face", "tgt": "మీ ముఖం చాలా ప్రశాంతంగా ఉంది"}
+{"f": "cards", "id": "ko.c1191", "k": "note", "src": "Literally \"your impression is good\". Said on first meeting.", "tgt": "అక్షరాలా \"మీ ముద్ర బాగుంది\". మొదటి పరిచయంలో అంటారు."}
+{"f": "cards", "id": "ko.c1192", "k": "meaning", "src": "Your home is lovely", "tgt": "మీ ఇల్లు చాలా అందంగా ఉంది"}
+{"f": "cards", "id": "ko.c1192", "k": "note", "src": "Said on a first visit, often with a gift (휴지, fruit).", "tgt": "మొదటిసారి వెళ్ళినప్పుడు, తరచూ ఏదైనా బహుమతితో (휴지, పండ్లు)."}
+{"f": "cards", "id": "ko.c1193", "k": "meaning", "src": "Your child is so cute", "tgt": "మీ పిల్లలు ఎంత ముద్దుగా ఉన్నారో"}
+{"f": "cards", "id": "ko.c1193", "k": "note", "src": "Parents will usually deflect: 아니에요, 말썽꾸러기예요.", "tgt": "తల్లిదండ్రులు సాధారణంగా తోసిపుచ్చుతారు: 아니에요, 말썽꾸러기예요."}
+{"f": "cards", "id": "ko.c1194", "k": "meaning", "src": "Your child is so polite", "tgt": "మీ పిల్లలు ఎంత మర్యాదగా ఉన్నారో"}
+{"f": "cards", "id": "ko.c1194", "k": "note", "src": "A compliment to the parents too. Very welcome.", "tgt": "తల్లిదండ్రులకు కూడా పొగడ్తే. చాలా సంతోషిస్తారు."}
+{"f": "cards", "id": "ko.c1195", "k": "meaning", "src": "That's a nice photo", "tgt": "ఫోటో బాగా వచ్చింది"}
+{"f": "cards", "id": "ko.c1195", "k": "note", "src": "Literally \"the photo came out well\".", "tgt": "అక్షరాలా \"ఫోటో బాగా వచ్చింది\", తెలుగులో లాగే."}
+{"f": "cards", "id": "ko.c1196", "k": "meaning", "src": "That outfit suits you", "tgt": "ఆ బట్టలు మీకు బాగా నప్పాయి"}
+{"f": "cards", "id": "ko.c1196", "k": "note", "src": "Polite -세요; to anyone, including elders.", "tgt": "మర్యాద -세요; పెద్దవారితో సహా ఎవరికైనా."}
+{"f": "cards", "id": "ko.c1197", "k": "meaning", "src": "Your pronunciation is really good", "tgt": "మీ ఉచ్చారణ నిజంగా చాలా బాగుంది"}
+{"f": "cards", "id": "ko.c1197", "k": "note", "src": "What learners hear right after 한국어 잘하시네요.", "tgt": "한국어 잘하시네요 తర్వాత నేర్చుకునేవారు వినే మాట."}
+{"f": "cards", "id": "ko.c1198", "k": "meaning", "src": "I thought you were Korean!", "tgt": "మీరు కొరియన్ అనుకున్నాను!"}
+{"f": "cards", "id": "ko.c1198", "k": "note", "src": "Friendly exaggeration to a learner.", "tgt": "నేర్చుకునేవారితో స్నేహపూర్వక అతిశయోక్తి."}
+{"f": "cards", "id": "ko.c1199", "k": "meaning", "src": "Where did you learn Korean?", "tgt": "కొరియన్ ఎక్కడ నేర్చుకున్నారు?"}
+{"f": "cards", "id": "ko.c1199", "k": "note", "src": "Usually follows the compliment; itself a compliment.", "tgt": "సాధారణంగా పొగడ్త తర్వాత వస్తుంది; ఇదే ఒక పొగడ్త."}
+{"f": "cards", "id": "ko.c1200", "k": "meaning", "src": "You've improved a lot", "tgt": "బాగా మెరుగయ్యారు"}
+{"f": "cards", "id": "ko.c1200", "k": "note", "src": "To a friend or junior. To an elder it sounds like grading.", "tgt": "ఫ్రెండ్కి లేదా చిన్నవారికి. పెద్దవారికి అంటే, తెలుగులో టీచర్తో \"మీరు బాగా మెరుగయ్యారు\" అన్నట్టు, మార్కులు వేస్తున్నట్టు వినిపిస్తుంది.", "rw": "English sound comparison (\"sounds like …\")"}
+{"f": "cards", "id": "ko.c1201", "k": "meaning", "src": "I enjoyed your presentation", "tgt": "మీ ప్రెజెంటేషన్ బాగా విన్నాను"}
+{"f": "cards", "id": "ko.c1201", "k": "note", "src": "The polite way to praise a boss: you report your experience, you don't grade them.", "tgt": "బాస్ని పొగిడే మర్యాద మార్గం: మీ అనుభవం చెబుతారు, వారికి మార్కులు వేయరు."}
+{"f": "cards", "id": "ko.c1202", "k": "meaning", "src": "I learned a lot (from you)", "tgt": "(మీ దగ్గర) చాలా నేర్చుకున్నాను"}
+{"f": "cards", "id": "ko.c1202", "k": "note", "src": "The safest praise for a senior, teacher or boss.", "tgt": "సీనియర్, టీచర్ లేదా బాస్కి అత్యంత సురక్షితమైన పొగడ్త."}
+{"f": "cards", "id": "ko.c1203", "k": "meaning", "src": "Thank you for all your hard work", "tgt": "మీరు చాలా కష్టపడ్డారు, ధన్యవాదాలు"}
+{"f": "cards", "id": "ko.c1203", "k": "note", "src": "Praises effort. Fine among colleagues; some seniors find 수고 from a junior presumptuous, so to a boss 감사합니다 is safer.", "tgt": "కష్టాన్ని పొగుడుతుంది. సహోద్యోగుల మధ్య పర్వాలేదు; చిన్నవారు 수고 అంటే కొందరు సీనియర్లకు అతిగా అనిపిస్తుంది, కాబట్టి బాస్కి 감사합니다 సురక్షితం."}
+{"f": "cards", "id": "ko.c1204", "k": "meaning", "src": "Oh no, not at all", "tgt": "అయ్యో, అదేం లేదండి"}
+{"f": "cards", "id": "ko.c1204", "k": "note", "src": "The first reflex after any compliment: deflect, even if you're pleased.", "tgt": "ఏ పొగడ్తకైనా మొదటి స్పందన: సంతోషంగా ఉన్నా తోసిపుచ్చండి."}
+{"f": "cards", "id": "ko.c1205", "k": "meaning", "src": "Oh no, I still have a long way to go", "tgt": "అయ్యో, నేను ఇంకా చాలా నేర్చుకోవాలి"}
+{"f": "cards", "id": "ko.c1205", "k": "note", "src": "The standard modest reply, especially about your Korean.", "tgt": "సాధారణమైన వినయపు జవాబు, ముఖ్యంగా మీ కొరియన్ గురించి."}
+{"f": "cards", "id": "ko.c1206", "k": "meaning", "src": "Don't mention it; you're too kind", "tgt": "అయ్యో, అదేం మాట; మీరు మరీ మంచివారు"}
+{"f": "cards", "id": "ko.c1206", "k": "note", "src": "Polite and a little formal. To elders and at work.", "tgt": "మర్యాదగా, కొంచెం అధికారికంగా. పెద్దవారితో, ఆఫీసులో."}
+{"f": "cards", "id": "ko.c1207", "k": "meaning", "src": "You're praising me too much", "tgt": "మీరు నన్ను మరీ ఎక్కువగా పొగుడుతున్నారు"}
+{"f": "cards", "id": "ko.c1207", "k": "note", "src": "Literally \"that's too much praise\". Polite, a bit formal.", "tgt": "అక్షరాలా \"అది అతి పొగడ్త\". మర్యాదగా, కొంచెం అధికారికంగా."}
+{"f": "cards", "id": "ko.c1208", "k": "meaning", "src": "Thank you for the compliment", "tgt": "పొగిడినందుకు ధన్యవాదాలు"}
+{"f": "cards", "id": "ko.c1208", "k": "note", "src": "Accepting warmly. More common among younger people.", "tgt": "ఆప్యాయంగా స్వీకరించడం. యువతలో ఎక్కువ."}
+{"f": "cards", "id": "ko.c1209", "k": "meaning", "src": "Thanks for seeing it that way", "tgt": "అలా మంచిగా చూసినందుకు ధన్యవాదాలు"}
+{"f": "cards", "id": "ko.c1209", "k": "note", "src": "Modest and grateful at once.", "tgt": "ఒకేసారి వినయం, కృతజ్ఞత."}
+{"f": "cards", "id": "ko.c1210", "k": "meaning", "src": "Oh, it's nothing special", "tgt": "అయ్యో, అదేం పెద్ద విషయం కాదు"}
+{"f": "cards", "id": "ko.c1210", "k": "note", "src": "The host's answer to praise for food or a gift.", "tgt": "ఆహారం లేదా బహుమతిని పొగిడితే ఆతిథ్యం ఇచ్చినవారి జవాబు."}
+{"f": "cards", "id": "ko.c1211", "k": "meaning", "src": "It's all thanks to you", "tgt": "అంతా మీ వల్లే"}
+{"f": "cards", "id": "ko.c1211", "k": "note", "src": "Turns the praise back onto the other person. Warm and humble.", "tgt": "పొగడ్తను అవతలివారి వైపు తిప్పుతుంది. ఆప్యాయంగా, వినయంగా."}
+{"f": "cards", "id": "ko.c1212", "k": "meaning", "src": "South Korea", "tgt": "దక్షిణ కొరియా"}
+{"f": "cards", "id": "ko.c1212", "k": "note", "src": "한국 is everyday speech; the official name is 대한민국. 한국 사람 = Korean (person); 한국어 or 한국말 = Korean.", "tgt": "రోజువారీ మాటల్లో 한국; అధికారిక పేరు 대한민국. 한국 사람 = కొరియన్ (వ్యక్తి); 한국어 లేదా 한국말 = కొరియన్ భాష."}
+{"f": "cards", "id": "ko.c1213", "k": "meaning", "src": "North Korea", "tgt": "ఉత్తర కొరియా"}
+{"f": "cards", "id": "ko.c1213", "k": "note", "src": "South Korean usage. The official name is 조선민주주의인민공화국.", "tgt": "దక్షిణ కొరియా వాడుక. అధికారిక పేరు 조선민주주의인민공화국."}
+{"f": "cards", "id": "ko.c1214", "k": "meaning", "src": "Japan", "tgt": "జపాన్"}
+{"f": "cards", "id": "ko.c1214", "k": "note", "src": "일본 사람 = Japanese (person); 일본어 = Japanese.", "tgt": "일본 사람 = జపనీస్ (వ్యక్తి); 일본어 = జపనీస్ భాష."}
+{"f": "cards", "id": "ko.c1215", "k": "meaning", "src": "China", "tgt": "చైనా"}
+{"f": "cards", "id": "ko.c1215", "k": "note", "src": "중국 사람 = Chinese (person); 중국어 = Chinese.", "tgt": "중국 사람 = చైనీస్ (వ్యక్తి); 중국어 = చైనీస్ భాష."}
+{"f": "cards", "id": "ko.c1216", "k": "meaning", "src": "Taiwan", "tgt": "తైవాన్"}
+{"f": "cards", "id": "ko.c1216", "k": "note", "src": "대만 사람 = Taiwanese (person). People speak 중국어.", "tgt": "대만 사람 = తైవానీస్ (వ్యక్తి). అక్కడ 중국어 మాట్లాడతారు."}
+{"f": "cards", "id": "ko.c1217", "k": "meaning", "src": "Hong Kong", "tgt": "హాంకాంగ్"}
+{"f": "cards", "id": "ko.c1217", "k": "note", "src": "홍콩 사람. 광둥어 = Cantonese.", "tgt": "홍콩 사람. 광둥어 = కాంటోనీస్."}
+{"f": "cards", "id": "ko.c1218", "k": "meaning", "src": "Macao", "tgt": "మకావు"}
+{"f": "cards", "id": "ko.c1219", "k": "meaning", "src": "Mongolia", "tgt": "మంగోలియా"}
+{"f": "cards", "id": "ko.c1219", "k": "note", "src": "몽골 사람; 몽골어 = Mongolian.", "tgt": "몽골 사람; 몽골어 = మంగోలియన్."}
+{"f": "cards", "id": "ko.c1220", "k": "meaning", "src": "Russia", "tgt": "రష్యా"}
+{"f": "cards", "id": "ko.c1220", "k": "note", "src": "러시아 사람; 러시아어 = Russian.", "tgt": "러시아 사람; 러시아어 = రష్యన్."}
+{"f": "cards", "id": "ko.c1221", "k": "meaning", "src": "United States", "tgt": "అమెరికా (సంయుక్త రాష్ట్రాలు)"}
+{"f": "cards", "id": "ko.c1221", "k": "note", "src": "미국 사람 = American. The language is 영어 (English); there is no 미국어.", "tgt": "미국 사람 = అమెరికన్. భాష 영어 (ఇంగ్లీష్); తెలుగులో \"అమెరికన్ భాష\" అననట్టే, 미국어 అనే పదం లేదు.", "rw": "mentions English"}
+{"f": "cards", "id": "ko.c1222", "k": "meaning", "src": "India", "tgt": "భారతదేశం (ఇండియా)"}
+{"f": "cards", "id": "ko.c1222", "k": "note", "src": "인도 사람; 힌디어 = Hindi.", "tgt": "인도 사람; 힌디어 = హిందీ."}
+{"f": "cards", "id": "ko.c1223", "k": "meaning", "src": "Indonesia", "tgt": "ఇండోనేషియా"}
+{"f": "cards", "id": "ko.c1223", "k": "note", "src": "인도네시아 사람; 인도네시아어 = Indonesian.", "tgt": "인도네시아 사람; 인도네시아어 = ఇండోనేషియన్."}
+{"f": "cards", "id": "ko.c1224", "k": "meaning", "src": "Brazil", "tgt": "బ్రెజిల్"}
+{"f": "cards", "id": "ko.c1224", "k": "note", "src": "브라질 사람. People speak 포르투갈어.", "tgt": "브라질 사람. అక్కడ 포르투갈어 మాట్లాడతారు."}
+{"f": "cards", "id": "ko.c1225", "k": "meaning", "src": "Pakistan", "tgt": "పాకిస్తాన్"}
+{"f": "cards", "id": "ko.c1226", "k": "meaning", "src": "Nigeria", "tgt": "నైజీరియా"}
+{"f": "cards", "id": "ko.c1227", "k": "meaning", "src": "Bangladesh", "tgt": "బంగ్లాదేశ్"}
+{"f": "cards", "id": "ko.c1228", "k": "meaning", "src": "Mexico", "tgt": "మెక్సికో"}
+{"f": "cards", "id": "ko.c1228", "k": "note", "src": "멕시코 사람. People speak 스페인어.", "tgt": "멕시코 사람. అక్కడ 스페인어 మాట్లాడతారు."}
+{"f": "cards", "id": "ko.c1229", "k": "meaning", "src": "Philippines", "tgt": "ఫిలిప్పీన్స్"}
+{"f": "cards", "id": "ko.c1229", "k": "note", "src": "필리핀 사람 = Filipino (person); 필리핀어 or 타갈로그어 = Filipino, Tagalog.", "tgt": "필리핀 사람 = ఫిలిపినో (వ్యక్తి); 필리핀어 లేదా 타갈로그어 = ఫిలిపినో, తగలోగ్."}
+{"f": "cards", "id": "ko.c1230", "k": "meaning", "src": "Vietnam", "tgt": "వియత్నాం"}
+{"f": "cards", "id": "ko.c1230", "k": "note", "src": "베트남 사람; 베트남어 = Vietnamese.", "tgt": "베트남 사람; 베트남어 = వియత్నామీస్."}
+{"f": "cards", "id": "ko.c1231", "k": "meaning", "src": "United Kingdom", "tgt": "బ్రిటన్ (యునైటెడ్ కింగ్డమ్)"}
+{"f": "cards", "id": "ko.c1231", "k": "note", "src": "영국 사람 = British (person); 영어 = English (irregular: not 영국어).", "tgt": "영국 사람 = బ్రిటిష్ వ్యక్తి; 영어 = ఇంగ్లీష్ (క్రమరహితం: 영국어 కాదు).", "rw": "mentions English"}
+{"f": "cards", "id": "ko.c1232", "k": "meaning", "src": "Canada", "tgt": "కెనడా"}
+{"f": "cards", "id": "ko.c1232", "k": "note", "src": "캐나다 사람. People speak 영어 and 프랑스어.", "tgt": "캐나다 사람. అక్కడ 영어, 프랑스어 మాట్లాడతారు."}
+{"f": "cards", "id": "ko.c1233", "k": "meaning", "src": "Australia", "tgt": "ఆస్ట్రేలియా"}
+{"f": "cards", "id": "ko.c1233", "k": "note", "src": "호주 사람 = Australian. 호주 is from the Chinese characters; 오스트레일리아 is also correct.", "tgt": "호주 사람 = ఆస్ట్రేలియన్. 호주 చైనీస్ అక్షరాల నుంచి వచ్చిన పేరు; 오스트레일리아 కూడా సరైనదే."}
+{"f": "cards", "id": "ko.c1234", "k": "meaning", "src": "Germany", "tgt": "జర్మనీ"}
+{"f": "cards", "id": "ko.c1234", "k": "note", "src": "독일 사람; 독일어 = German.", "tgt": "독일 사람; 독일어 = జర్మన్."}
+{"f": "cards", "id": "ko.c1235", "k": "meaning", "src": "France", "tgt": "ఫ్రాన్స్"}
+{"f": "cards", "id": "ko.c1235", "k": "note", "src": "프랑스 사람; 프랑스어 = French.", "tgt": "프랑스 사람; 프랑스어 = ఫ్రెంచ్."}
+{"f": "cards", "id": "ko.c1236", "k": "meaning", "src": "Spain", "tgt": "స్పెయిన్"}
+{"f": "cards", "id": "ko.c1236", "k": "note", "src": "스페인 사람; 스페인어 = Spanish.", "tgt": "스페인 사람; 스페인어 = స్పానిష్."}
+{"f": "cards", "id": "ko.c1237", "k": "meaning", "src": "Italy", "tgt": "ఇటలీ"}
+{"f": "cards", "id": "ko.c1237", "k": "note", "src": "이탈리아 사람; 이탈리아어 = Italian.", "tgt": "이탈리아 사람; 이탈리아어 = ఇటాలియన్."}
+{"f": "cards", "id": "ko.c1238", "k": "meaning", "src": "Thailand", "tgt": "థాయిలాండ్"}
+{"f": "cards", "id": "ko.c1238", "k": "note", "src": "태국 사람; 태국어 = Thai.", "tgt": "태국 사람; 태국어 = థాయ్."}
+{"f": "cards", "id": "ko.c1239", "k": "meaning", "src": "Malaysia", "tgt": "మలేషియా"}
+{"f": "cards", "id": "ko.c1240", "k": "meaning", "src": "Singapore", "tgt": "సింగపూర్"}
+{"f": "cards", "id": "ko.c1241", "k": "meaning", "src": "Myanmar", "tgt": "మయన్మార్"}
+{"f": "cards", "id": "ko.c1242", "k": "meaning", "src": "Cambodia", "tgt": "కంబోడియా"}
+{"f": "cards", "id": "ko.c1243", "k": "meaning", "src": "Laos", "tgt": "లావోస్"}
+{"f": "cards", "id": "ko.c1244", "k": "meaning", "src": "Brunei", "tgt": "బ్రూనై"}
+{"f": "cards", "id": "ko.c1245", "k": "meaning", "src": "Timor-Leste", "tgt": "తూర్పు తిమోర్"}
+{"f": "cards", "id": "ko.c1246", "k": "meaning", "src": "Nepal", "tgt": "నేపాల్"}
+{"f": "cards", "id": "ko.c1247", "k": "meaning", "src": "Sri Lanka", "tgt": "శ్రీలంక"}
+{"f": "cards", "id": "ko.c1248", "k": "meaning", "src": "Bhutan", "tgt": "భూటాన్"}
+{"f": "cards", "id": "ko.c1249", "k": "meaning", "src": "Maldives", "tgt": "మాల్దీవులు"}
+{"f": "cards", "id": "ko.c1250", "k": "meaning", "src": "Afghanistan", "tgt": "ఆఫ్ఘనిస్తాన్"}
+{"f": "cards", "id": "ko.c1251", "k": "meaning", "src": "Kazakhstan", "tgt": "కజకిస్తాన్"}
+{"f": "cards", "id": "ko.c1252", "k": "meaning", "src": "Uzbekistan", "tgt": "ఉజ్బెకిస్తాన్"}
+{"f": "cards", "id": "ko.c1253", "k": "meaning", "src": "Kyrgyzstan", "tgt": "కిర్గిజిస్తాన్"}
+{"f": "cards", "id": "ko.c1254", "k": "meaning", "src": "Tajikistan", "tgt": "తజికిస్తాన్"}
+{"f": "cards", "id": "ko.c1255", "k": "meaning", "src": "Turkmenistan", "tgt": "తుర్క్మెనిస్తాన్"}
+{"f": "cards", "id": "ko.c1256", "k": "meaning", "src": "Türkiye", "tgt": "తుర్కియే (టర్కీ)"}
+{"f": "cards", "id": "ko.c1256", "k": "note", "src": "The official Korean name since 2022; the older 터키 is still common. 튀르키예어 = Turkish.", "tgt": "2022 నుంచి అధికారిక కొరియన్ పేరు; పాత 터키 ఇప్పటికీ వాడుకలో ఉంది. 튀르키예어 = టర్కిష్."}
+{"f": "cards", "id": "ko.c1257", "k": "meaning", "src": "Iran", "tgt": "ఇరాన్"}
+{"f": "cards", "id": "ko.c1258", "k": "meaning", "src": "Iraq", "tgt": "ఇరాక్"}
+{"f": "cards", "id": "ko.c1259", "k": "meaning", "src": "Saudi Arabia", "tgt": "సౌదీ అరేబియా"}
+{"f": "cards", "id": "ko.c1259", "k": "note", "src": "아랍어 = Arabic.", "tgt": "아랍어 = అరబిక్."}
+{"f": "cards", "id": "ko.c1260", "k": "meaning", "src": "United Arab Emirates", "tgt": "యునైటెడ్ అరబ్ ఎమిరేట్స్"}
+{"f": "cards", "id": "ko.c1261", "k": "meaning", "src": "Qatar", "tgt": "ఖతార్"}
+{"f": "cards", "id": "ko.c1262", "k": "meaning", "src": "Kuwait", "tgt": "కువైట్"}
+{"f": "cards", "id": "ko.c1263", "k": "meaning", "src": "Bahrain", "tgt": "బహ్రెయిన్"}
+{"f": "cards", "id": "ko.c1264", "k": "meaning", "src": "Oman", "tgt": "ఒమన్"}
+{"f": "cards", "id": "ko.c1265", "k": "meaning", "src": "Yemen", "tgt": "యెమెన్"}
+{"f": "cards", "id": "ko.c1266", "k": "meaning", "src": "Jordan", "tgt": "జోర్డాన్"}
+{"f": "cards", "id": "ko.c1267", "k": "meaning", "src": "Lebanon", "tgt": "లెబనాన్"}
+{"f": "cards", "id": "ko.c1268", "k": "meaning", "src": "Syria", "tgt": "సిరియా"}
+{"f": "cards", "id": "ko.c1269", "k": "meaning", "src": "Israel", "tgt": "ఇజ్రాయెల్"}
+{"f": "cards", "id": "ko.c1270", "k": "meaning", "src": "Palestine", "tgt": "పాలస్తీనా"}
+{"f": "cards", "id": "ko.c1271", "k": "meaning", "src": "Cyprus", "tgt": "సైప్రస్"}
+{"f": "cards", "id": "ko.c1272", "k": "meaning", "src": "Georgia", "tgt": "జార్జియా"}
+{"f": "cards", "id": "ko.c1272", "k": "note", "src": "The country. The US state is also 조지아.", "tgt": "ఆ దేశం. అమెరికాలోని రాష్ట్రాన్ని కూడా 조지아 అంటారు."}
+{"f": "cards", "id": "ko.c1273", "k": "meaning", "src": "Armenia", "tgt": "ఆర్మేనియా"}
+{"f": "cards", "id": "ko.c1274", "k": "meaning", "src": "Azerbaijan", "tgt": "అజర్బైజాన్"}
+{"f": "cards", "id": "ko.c1275", "k": "meaning", "src": "Guatemala", "tgt": "గ్వాటెమాల"}
+{"f": "cards", "id": "ko.c1276", "k": "meaning", "src": "Belize", "tgt": "బెలీజ్"}
+{"f": "cards", "id": "ko.c1277", "k": "meaning", "src": "El Salvador", "tgt": "ఎల్ సాల్వడార్"}
+{"f": "cards", "id": "ko.c1278", "k": "meaning", "src": "Honduras", "tgt": "హోండురాస్"}
+{"f": "cards", "id": "ko.c1279", "k": "meaning", "src": "Nicaragua", "tgt": "నికరాగ్వా"}
+{"f": "cards", "id": "ko.c1280", "k": "meaning", "src": "Costa Rica", "tgt": "కోస్టారికా"}
+{"f": "cards", "id": "ko.c1281", "k": "meaning", "src": "Panama", "tgt": "పనామా"}
+{"f": "cards", "id": "ko.c1282", "k": "meaning", "src": "Cuba", "tgt": "క్యూబా"}
+{"f": "cards", "id": "ko.c1283", "k": "meaning", "src": "Jamaica", "tgt": "జమైకా"}
+{"f": "cards", "id": "ko.c1284", "k": "meaning", "src": "Haiti", "tgt": "హైతీ"}
+{"f": "cards", "id": "ko.c1285", "k": "meaning", "src": "Dominican Republic", "tgt": "డొమినికన్ రిపబ్లిక్"}
+{"f": "cards", "id": "ko.c1285", "k": "note", "src": "Not the island country Dominica (도미니카 연방).", "tgt": "ద్వీప దేశం డొమినికా (도미니카 연방) కాదు."}
+{"f": "cards", "id": "ko.c1286", "k": "meaning", "src": "Puerto Rico", "tgt": "ప్యూర్టో రికో"}
+{"f": "cards", "id": "ko.c1287", "k": "meaning", "src": "Bahamas", "tgt": "బహామాస్"}
+{"f": "cards", "id": "ko.c1288", "k": "meaning", "src": "Barbados", "tgt": "బార్బడోస్"}
+{"f": "cards", "id": "ko.c1289", "k": "meaning", "src": "Trinidad and Tobago", "tgt": "ట్రినిడాడ్ అండ్ టొబాగో"}
+{"f": "cards", "id": "ko.c1290", "k": "meaning", "src": "Dominica", "tgt": "డొమినికా"}
+{"f": "cards", "id": "ko.c1291", "k": "meaning", "src": "Grenada", "tgt": "గ్రెనడా"}
+{"f": "cards", "id": "ko.c1292", "k": "meaning", "src": "Saint Lucia", "tgt": "సెయింట్ లూసియా"}
+{"f": "cards", "id": "ko.c1293", "k": "meaning", "src": "Saint Vincent and the Grenadines", "tgt": "సెయింట్ విన్సెంట్ అండ్ ది గ్రెనడీన్స్"}
+{"f": "cards", "id": "ko.c1294", "k": "meaning", "src": "Saint Kitts and Nevis", "tgt": "సెయింట్ కిట్స్ అండ్ నెవిస్"}
+{"f": "cards", "id": "ko.c1295", "k": "meaning", "src": "Antigua and Barbuda", "tgt": "ఆంటిగ్వా అండ్ బార్బుడా"}
+{"f": "cards", "id": "ko.c1296", "k": "meaning", "src": "Argentina", "tgt": "అర్జెంటీనా"}
+{"f": "cards", "id": "ko.c1297", "k": "meaning", "src": "Colombia", "tgt": "కొలంబియా"}
+{"f": "cards", "id": "ko.c1298", "k": "meaning", "src": "Peru", "tgt": "పెరూ"}
+{"f": "cards", "id": "ko.c1299", "k": "meaning", "src": "Venezuela", "tgt": "వెనిజులా"}
+{"f": "cards", "id": "ko.c1300", "k": "meaning", "src": "Chile", "tgt": "చిలీ"}
+{"f": "cards", "id": "ko.c1301", "k": "meaning", "src": "Ecuador", "tgt": "ఈక్వెడార్"}
+{"f": "cards", "id": "ko.c1302", "k": "meaning", "src": "Bolivia", "tgt": "బొలీవియా"}
+{"f": "cards", "id": "ko.c1303", "k": "meaning", "src": "Paraguay", "tgt": "పరాగ్వే"}
+{"f": "cards", "id": "ko.c1304", "k": "meaning", "src": "Uruguay", "tgt": "ఉరుగ్వే"}
+{"f": "cards", "id": "ko.c1305", "k": "meaning", "src": "Guyana", "tgt": "గయానా"}
+{"f": "cards", "id": "ko.c1306", "k": "meaning", "src": "Suriname", "tgt": "సురినామ్"}
+{"f": "cards", "id": "ko.c1307", "k": "meaning", "src": "England", "tgt": "ఇంగ్లాండ్"}
+{"f": "cards", "id": "ko.c1307", "k": "note", "src": "One of the four nations of the United Kingdom (영국).", "tgt": "యునైటెడ్ కింగ్డమ్ (영국) లోని నాలుగు దేశాల్లో ఒకటి."}
+{"f": "cards", "id": "ko.c1308", "k": "meaning", "src": "Scotland", "tgt": "స్కాట్లాండ్"}
+{"f": "cards", "id": "ko.c1309", "k": "meaning", "src": "Wales", "tgt": "వేల్స్"}
+{"f": "cards", "id": "ko.c1310", "k": "meaning", "src": "Ireland", "tgt": "ఐర్లాండ్"}
+{"f": "cards", "id": "ko.c1311", "k": "meaning", "src": "Portugal", "tgt": "పోర్చుగల్"}
+{"f": "cards", "id": "ko.c1311", "k": "note", "src": "포르투갈 사람; 포르투갈어 = Portuguese.", "tgt": "포르투갈 사람; 포르투갈어 = పోర్చుగీస్."}
+{"f": "cards", "id": "ko.c1312", "k": "meaning", "src": "Netherlands", "tgt": "నెదర్లాండ్స్"}
+{"f": "cards", "id": "ko.c1312", "k": "note", "src": "네덜란드 사람; 네덜란드어 = Dutch.", "tgt": "네덜란드 사람; 네덜란드어 = డచ్."}
+{"f": "cards", "id": "ko.c1313", "k": "meaning", "src": "Belgium", "tgt": "బెల్జియం"}
+{"f": "cards", "id": "ko.c1314", "k": "meaning", "src": "Luxembourg", "tgt": "లక్సెంబర్గ్"}
+{"f": "cards", "id": "ko.c1315", "k": "meaning", "src": "Switzerland", "tgt": "స్విట్జర్లాండ్"}
+{"f": "cards", "id": "ko.c1316", "k": "meaning", "src": "Austria", "tgt": "ఆస్ట్రియా"}
+{"f": "cards", "id": "ko.c1317", "k": "meaning", "src": "Denmark", "tgt": "డెన్మార్క్"}
+{"f": "cards", "id": "ko.c1318", "k": "meaning", "src": "Norway", "tgt": "నార్వే"}
+{"f": "cards", "id": "ko.c1319", "k": "meaning", "src": "Sweden", "tgt": "స్వీడన్"}
+{"f": "cards", "id": "ko.c1320", "k": "meaning", "src": "Finland", "tgt": "ఫిన్లాండ్"}
+{"f": "cards", "id": "ko.c1321", "k": "meaning", "src": "Iceland", "tgt": "ఐస్లాండ్"}
+{"f": "cards", "id": "ko.c1322", "k": "meaning", "src": "Poland", "tgt": "పోలండ్"}
+{"f": "cards", "id": "ko.c1322", "k": "note", "src": "폴란드 사람; 폴란드어 = Polish.", "tgt": "폴란드 사람; 폴란드어 = పోలిష్."}
+{"f": "cards", "id": "ko.c1323", "k": "meaning", "src": "Czechia", "tgt": "చెకియా"}
+{"f": "cards", "id": "ko.c1324", "k": "meaning", "src": "Slovakia", "tgt": "స్లొవేకియా"}
+{"f": "cards", "id": "ko.c1325", "k": "meaning", "src": "Hungary", "tgt": "హంగేరీ"}
+{"f": "cards", "id": "ko.c1326", "k": "meaning", "src": "Romania", "tgt": "రొమేనియా"}
+{"f": "cards", "id": "ko.c1327", "k": "meaning", "src": "Bulgaria", "tgt": "బల్గేరియా"}
+{"f": "cards", "id": "ko.c1328", "k": "meaning", "src": "Greece", "tgt": "గ్రీస్"}
+{"f": "cards", "id": "ko.c1329", "k": "meaning", "src": "Ukraine", "tgt": "ఉక్రెయిన్"}
+{"f": "cards", "id": "ko.c1329", "k": "note", "src": "우크라이나 사람; 우크라이나어 = Ukrainian.", "tgt": "우크라이나 사람; 우크라이나어 = ఉక్రేనియన్."}
+{"f": "cards", "id": "ko.c1330", "k": "meaning", "src": "Belarus", "tgt": "బెలారస్"}
+{"f": "cards", "id": "ko.c1331", "k": "meaning", "src": "Moldova", "tgt": "మాల్డోవా"}
+{"f": "cards", "id": "ko.c1332", "k": "meaning", "src": "Lithuania", "tgt": "లిథువేనియా"}
+{"f": "cards", "id": "ko.c1333", "k": "meaning", "src": "Latvia", "tgt": "లాట్వియా"}
+{"f": "cards", "id": "ko.c1334", "k": "meaning", "src": "Estonia", "tgt": "ఎస్టోనియా"}
+{"f": "cards", "id": "ko.c1335", "k": "meaning", "src": "Serbia", "tgt": "సెర్బియా"}
+{"f": "cards", "id": "ko.c1336", "k": "meaning", "src": "Croatia", "tgt": "క్రొయేషియా"}
+{"f": "cards", "id": "ko.c1337", "k": "meaning", "src": "Slovenia", "tgt": "స్లొవేనియా"}
+{"f": "cards", "id": "ko.c1338", "k": "meaning", "src": "Bosnia and Herzegovina", "tgt": "బోస్నియా అండ్ హెర్జెగోవినా"}
+{"f": "cards", "id": "ko.c1339", "k": "meaning", "src": "Montenegro", "tgt": "మాంటెనెగ్రో"}
+{"f": "cards", "id": "ko.c1340", "k": "meaning", "src": "North Macedonia", "tgt": "ఉత్తర మాసిడోనియా"}
+{"f": "cards", "id": "ko.c1341", "k": "meaning", "src": "Albania", "tgt": "అల్బేనియా"}
+{"f": "cards", "id": "ko.c1342", "k": "meaning", "src": "Kosovo", "tgt": "కొసోవో"}
+{"f": "cards", "id": "ko.c1343", "k": "meaning", "src": "Malta", "tgt": "మాల్టా"}
+{"f": "cards", "id": "ko.c1344", "k": "meaning", "src": "Monaco", "tgt": "మొనాకో"}
+{"f": "cards", "id": "ko.c1345", "k": "meaning", "src": "Liechtenstein", "tgt": "లిక్టెన్స్టైన్"}
+{"f": "cards", "id": "ko.c1346", "k": "meaning", "src": "Andorra", "tgt": "అండోరా"}
+{"f": "cards", "id": "ko.c1347", "k": "meaning", "src": "San Marino", "tgt": "శాన్ మారినో"}
+{"f": "cards", "id": "ko.c1348", "k": "meaning", "src": "Vatican City", "tgt": "వాటికన్ సిటీ"}
+{"f": "cards", "id": "ko.c1349", "k": "meaning", "src": "Egypt", "tgt": "ఈజిప్ట్"}
+{"f": "cards", "id": "ko.c1350", "k": "meaning", "src": "Ethiopia", "tgt": "ఇథియోపియా"}
+{"f": "cards", "id": "ko.c1351", "k": "meaning", "src": "South Africa", "tgt": "దక్షిణాఫ్రికా"}
+{"f": "cards", "id": "ko.c1351", "k": "note", "src": "Often shortened to 남아공.", "tgt": "తరచూ 남아공 అని కుదిస్తారు."}
+{"f": "cards", "id": "ko.c1352", "k": "meaning", "src": "Kenya", "tgt": "కెన్యా"}
+{"f": "cards", "id": "ko.c1353", "k": "meaning", "src": "Morocco", "tgt": "మొరాకో"}
+{"f": "cards", "id": "ko.c1354", "k": "meaning", "src": "Algeria", "tgt": "అల్జీరియా"}
+{"f": "cards", "id": "ko.c1355", "k": "meaning", "src": "Tunisia", "tgt": "ట్యునీషియా"}
+{"f": "cards", "id": "ko.c1356", "k": "meaning", "src": "Libya", "tgt": "లిబియా"}
+{"f": "cards", "id": "ko.c1357", "k": "meaning", "src": "Sudan", "tgt": "సూడాన్"}
+{"f": "cards", "id": "ko.c1358", "k": "meaning", "src": "South Sudan", "tgt": "దక్షిణ సూడాన్"}
+{"f": "cards", "id": "ko.c1359", "k": "meaning", "src": "Ghana", "tgt": "ఘనా"}
+{"f": "cards", "id": "ko.c1360", "k": "meaning", "src": "Côte d'Ivoire", "tgt": "ఐవరీ కోస్ట్ (కోట్ డి ఐవోర్)"}
+{"f": "cards", "id": "ko.c1361", "k": "meaning", "src": "Senegal", "tgt": "సెనెగల్"}
+{"f": "cards", "id": "ko.c1362", "k": "meaning", "src": "Cameroon", "tgt": "కామెరూన్"}
+{"f": "cards", "id": "ko.c1363", "k": "meaning", "src": "Democratic Republic of the Congo", "tgt": "కాంగో ప్రజాస్వామ్య గణతంత్రం"}
+{"f": "cards", "id": "ko.c1364", "k": "meaning", "src": "Republic of the Congo", "tgt": "కాంగో గణతంత్రం"}
+{"f": "cards", "id": "ko.c1365", "k": "meaning", "src": "Angola", "tgt": "అంగోలా"}
+{"f": "cards", "id": "ko.c1366", "k": "meaning", "src": "Tanzania", "tgt": "టాంజానియా"}
+{"f": "cards", "id": "ko.c1367", "k": "meaning", "src": "Uganda", "tgt": "ఉగాండా"}
+{"f": "cards", "id": "ko.c1368", "k": "meaning", "src": "Rwanda", "tgt": "రువాండా"}
+{"f": "cards", "id": "ko.c1369", "k": "meaning", "src": "Burundi", "tgt": "బురుండి"}
+{"f": "cards", "id": "ko.c1370", "k": "meaning", "src": "Somalia", "tgt": "సోమాలియా"}
+{"f": "cards", "id": "ko.c1371", "k": "meaning", "src": "Djibouti", "tgt": "జిబౌటి"}
+{"f": "cards", "id": "ko.c1372", "k": "meaning", "src": "Eritrea", "tgt": "ఎరిత్రియా"}
+{"f": "cards", "id": "ko.c1373", "k": "meaning", "src": "Mozambique", "tgt": "మొజాంబిక్"}
+{"f": "cards", "id": "ko.c1374", "k": "meaning", "src": "Madagascar", "tgt": "మడగాస్కర్"}
+{"f": "cards", "id": "ko.c1375", "k": "meaning", "src": "Zimbabwe", "tgt": "జింబాబ్వే"}
+{"f": "cards", "id": "ko.c1376", "k": "meaning", "src": "Zambia", "tgt": "జాంబియా"}
+{"f": "cards", "id": "ko.c1377", "k": "meaning", "src": "Malawi", "tgt": "మలావి"}
+{"f": "cards", "id": "ko.c1378", "k": "meaning", "src": "Botswana", "tgt": "బోట్స్వానా"}
+{"f": "cards", "id": "ko.c1379", "k": "meaning", "src": "Namibia", "tgt": "నమీబియా"}
+{"f": "cards", "id": "ko.c1380", "k": "meaning", "src": "Lesotho", "tgt": "లెసోతో"}
+{"f": "cards", "id": "ko.c1381", "k": "meaning", "src": "Eswatini", "tgt": "ఎస్వాటిని"}
+{"f": "cards", "id": "ko.c1382", "k": "meaning", "src": "Mauritius", "tgt": "మారిషస్"}
+{"f": "cards", "id": "ko.c1383", "k": "meaning", "src": "Seychelles", "tgt": "సీషెల్స్"}
+{"f": "cards", "id": "ko.c1384", "k": "meaning", "src": "Comoros", "tgt": "కొమొరోస్"}
+{"f": "cards", "id": "ko.c1385", "k": "meaning", "src": "Cabo Verde", "tgt": "కాబో వెర్డే"}
+{"f": "cards", "id": "ko.c1386", "k": "meaning", "src": "Guinea", "tgt": "గినియా"}
+{"f": "cards", "id": "ko.c1387", "k": "meaning", "src": "Guinea-Bissau", "tgt": "గినియా-బిస్సావు"}
+{"f": "cards", "id": "ko.c1388", "k": "meaning", "src": "Equatorial Guinea", "tgt": "ఈక్వటోరియల్ గినియా"}
+{"f": "cards", "id": "ko.c1389", "k": "meaning", "src": "Sierra Leone", "tgt": "సియెర్రా లియోన్"}
+{"f": "cards", "id": "ko.c1390", "k": "meaning", "src": "Liberia", "tgt": "లైబీరియా"}
+{"f": "cards", "id": "ko.c1391", "k": "meaning", "src": "Togo", "tgt": "టోగో"}
+{"f": "cards", "id": "ko.c1392", "k": "meaning", "src": "Benin", "tgt": "బెనిన్"}
+{"f": "cards", "id": "ko.c1393", "k": "meaning", "src": "Burkina Faso", "tgt": "బుర్కినా ఫాసో"}
+{"f": "cards", "id": "ko.c1394", "k": "meaning", "src": "Mali", "tgt": "మాలి"}
+{"f": "cards", "id": "ko.c1395", "k": "meaning", "src": "Niger", "tgt": "నైజర్"}
+{"f": "cards", "id": "ko.c1396", "k": "meaning", "src": "Chad", "tgt": "చాద్"}
+{"f": "cards", "id": "ko.c1397", "k": "meaning", "src": "Central African Republic", "tgt": "సెంట్రల్ ఆఫ్రికన్ రిపబ్లిక్"}
+{"f": "cards", "id": "ko.c1398", "k": "meaning", "src": "Gabon", "tgt": "గబాన్"}
+{"f": "cards", "id": "ko.c1399", "k": "meaning", "src": "Gambia", "tgt": "గాంబియా"}
+{"f": "cards", "id": "ko.c1400", "k": "meaning", "src": "Mauritania", "tgt": "మౌరిటానియా"}
+{"f": "cards", "id": "ko.c1401", "k": "meaning", "src": "São Tomé and Príncipe", "tgt": "సావో టోమ్ అండ్ ప్రిన్సిపే"}
+{"f": "cards", "id": "ko.c1402", "k": "meaning", "src": "New Zealand", "tgt": "న్యూజిలాండ్"}
+{"f": "cards", "id": "ko.c1403", "k": "meaning", "src": "Fiji", "tgt": "ఫిజీ"}
+{"f": "cards", "id": "ko.c1404", "k": "meaning", "src": "Papua New Guinea", "tgt": "పాపువా న్యూ గినియా"}
+{"f": "cards", "id": "ko.c1405", "k": "meaning", "src": "Solomon Islands", "tgt": "సోలమన్ దీవులు"}
+{"f": "cards", "id": "ko.c1406", "k": "meaning", "src": "Vanuatu", "tgt": "వనువాటు"}
+{"f": "cards", "id": "ko.c1407", "k": "meaning", "src": "Samoa", "tgt": "సమోవా"}
+{"f": "cards", "id": "ko.c1408", "k": "meaning", "src": "Tonga", "tgt": "టోంగా"}
+{"f": "cards", "id": "ko.c1409", "k": "meaning", "src": "Kiribati", "tgt": "కిరిబాటి"}
+{"f": "cards", "id": "ko.c1410", "k": "meaning", "src": "Tuvalu", "tgt": "టువాలు"}
+{"f": "cards", "id": "ko.c1411", "k": "meaning", "src": "Nauru", "tgt": "నౌరూ"}
+{"f": "cards", "id": "ko.c1412", "k": "meaning", "src": "Marshall Islands", "tgt": "మార్షల్ దీవులు"}
+{"f": "cards", "id": "ko.c1413", "k": "meaning", "src": "Micronesia", "tgt": "మైక్రోనేషియా"}
+{"f": "cards", "id": "ko.c1414", "k": "meaning", "src": "Palau", "tgt": "పలావు"}
+{"f": "cards", "id": "ko.c1415", "k": "meaning", "src": "Guam", "tgt": "గ్వామ్"}
+{"f": "dialog", "id": "ko.g001", "k": "tr", "src": "Hello, nice to meet you for the first time. / Hi! Nice to meet you.", "tgt": ""}
+{"f": "dialog", "id": "ko.g002", "k": "tr", "src": "Thank you for helping. / Not at all.", "tgt": ""}
+{"f": "dialog", "id": "ko.g003", "k": "tr", "src": "Sorry I'm late. / It's fine, I just got here too.", "tgt": ""}
+{"f": "dialog", "id": "ko.g004", "k": "tr", "src": "How much is this? / 12,000 won.", "tgt": ""}
+{"f": "dialog", "id": "ko.g005", "k": "tr", "src": "Excuse me, where's the bathroom? / Go straight that way.", "tgt": ""}
+{"f": "dialog", "id": "ko.g006", "k": "tr", "src": "What can I get you? / This one, to go.", "tgt": ""}
+{"f": "dialog", "id": "ko.g007", "k": "tr", "src": "Are you okay? Hurt? / Yes, I'm fine.", "tgt": ""}
+{"f": "dialog", "id": "ko.g008", "k": "tr", "src": "Sorry, please speak slowly. / Ah, sure, I'll slow down.", "tgt": ""}
+{"f": "dialog", "id": "ko.g009", "k": "tr", "src": "Your Korean is good! / No, I'm still not good.", "tgt": ""}
+{"f": "dialog", "id": "ko.g010", "k": "tr", "src": "Excuse me, coming through. / Go ahead.", "tgt": ""}
+{"f": "dialog", "id": "ko.g011", "k": "tr", "src": "Excuse me! The menu, please. / Yes, one moment.", "tgt": ""}
+{"f": "dialog", "id": "ko.g012", "k": "tr", "src": "Excuse me, please help me. / Sure, what do you need?", "tgt": ""}
+{"f": "dialog", "id": "ko.g013", "k": "tr", "src": "Sorry, say that again please. / The subway station is on the left.", "tgt": ""}
+{"f": "dialog", "id": "ko.g014", "k": "tr", "src": "Can you speak English? / A little. I'll speak slowly.", "tgt": "", "rw": "mentions English"}
+{"f": "dialog", "id": "ko.g015", "k": "tr", "src": "What is this? / Tteokbokki. It's a bit spicy.", "tgt": ""}
+{"f": "dialog", "id": "ko.g016", "k": "tr", "src": "Do you take cards? / Yes. Insert it here.", "tgt": ""}
+{"f": "dialog", "id": "ko.g017", "k": "tr", "src": "What's the wifi password? / It's on the receipt.", "tgt": ""}
+{"f": "dialog", "id": "ko.g018", "k": "tr", "src": "I'm lost. Where is this? / This is Hongdae. Where are you going?", "tgt": ""}
+{"f": "dialog", "id": "ko.g019", "k": "tr", "src": "What's your name? / I'm @@. What's yours?", "tgt": ""}
+{"f": "dialog", "id": "ko.g020", "k": "tr", "src": "Nice to meet you. / Nice to meet you too.", "tgt": ""}
+{"f": "dialog", "id": "ko.g021", "k": "tr", "src": "Where are you from? / From the Philippines. Cebu.", "tgt": ""}
+{"f": "dialog", "id": "ko.g022", "k": "tr", "src": "Excuse me, how old are you? / 28. And you?", "tgt": ""}
+{"f": "dialog", "id": "ko.g023", "k": "tr", "src": "What do you do? / I work at an IT company.", "tgt": ""}
+{"f": "dialog", "id": "ko.g024", "k": "tr", "src": "Do you study Korean? / Yes, a little every day.", "tgt": ""}
+{"f": "dialog", "id": "ko.g025", "k": "tr", "src": "What's your hobby? / Running and music.", "tgt": ""}
+{"f": "dialog", "id": "ko.g026", "k": "tr", "src": "Long time no see! How've you been? / Good, thanks. You?", "tgt": ""}
+{"f": "dialog", "id": "ko.g027", "k": "tr", "src": "How are things lately? / Busy. But fun.", "tgt": ""}
+{"f": "dialog", "id": "ko.g028", "k": "tr", "src": "Nice weather today. / Yes, perfect for a walk.", "tgt": ""}
+{"f": "dialog", "id": "ko.g029", "k": "tr", "src": "What are you doing this weekend? / Going hiking. Want to come?", "tgt": ""}
+{"f": "dialog", "id": "ko.g030", "k": "tr", "src": "Today was fun. See you again! / Yes, I'll be in touch.", "tgt": ""}
+{"f": "dialog", "id": "ko.g031", "k": "tr", "src": "I'll head out first. Goodbye (stay well). / Bye (go well).", "tgt": ""}
+{"f": "dialog", "id": "ko.g032", "k": "tr", "src": "I'm bored. Let's hang out! / Deal! Where should we meet?", "tgt": ""}
+{"f": "dialog", "id": "ko.g033", "k": "tr", "src": "Are you free tomorrow? / In the afternoon. Why?", "tgt": ""}
+{"f": "dialog", "id": "ko.g034", "k": "tr", "src": "I'm going to a café, wanna come? / Sure, let's go.", "tgt": ""}
+{"f": "dialog", "id": "ko.g035", "k": "tr", "src": "I'm hungry. Wanna go eat? / Yes! What should we eat?", "tgt": ""}
+{"f": "dialog", "id": "ko.g036", "k": "tr", "src": "When should we meet? / How about Saturday?", "tgt": ""}
+{"f": "dialog", "id": "ko.g037", "k": "tr", "src": "Where should we meet? / Let's meet at Gangnam station exit 11.", "tgt": ""}
+{"f": "dialog", "id": "ko.g038", "k": "tr", "src": "Where are you? Almost here? / Sorry, coming now. 5 minutes!", "tgt": ""}
+{"f": "dialog", "id": "ko.g039", "k": "tr", "src": "Today was really fun. / Me too. Let's hang out again!", "tgt": ""}
+{"f": "dialog", "id": "ko.g040", "k": "tr", "src": "Ready to order? / One iced Americano, please.", "tgt": ""}
+{"f": "dialog", "id": "ko.g041", "k": "tr", "src": "For here? / No, to go.", "tgt": ""}
+{"f": "dialog", "id": "ko.g042", "k": "tr", "src": "What sizes do you have? / Tall, grande, venti.", "tgt": ""}
+{"f": "dialog", "id": "ko.g043", "k": "tr", "src": "Do you have a points card? / No, that's okay.", "tgt": ""}
+{"f": "dialog", "id": "ko.g044", "k": "tr", "src": "Please heat this up. / Sure, it takes a minute.", "tgt": ""}
+{"f": "dialog", "id": "ko.g045", "k": "tr", "src": "Do you need a bag? / Yes, one please.", "tgt": ""}
+{"f": "dialog", "id": "ko.g046", "k": "tr", "src": "Cash or card? / Card.", "tgt": ""}
+{"f": "dialog", "id": "ko.g047", "k": "tr", "src": "Where is a pharmacy? / On the first floor of that building.", "tgt": ""}
+{"f": "dialog", "id": "ko.g048", "k": "tr", "src": "Where does it hurt? / My head hurts. I have a fever too.", "tgt": ""}
+{"f": "dialog", "id": "ko.g049", "k": "tr", "src": "Do you have painkillers? / Yes, take these after a meal.", "tgt": ""}
+{"f": "dialog", "id": "ko.g050", "k": "tr", "src": "Do you have allergies? / Yes, I'm allergic to peanuts.", "tgt": ""}
+{"f": "dialog", "id": "ko.g051", "k": "tr", "src": "How many times a day? / Three times, 30 minutes after meals.", "tgt": ""}
+{"f": "dialog", "id": "ko.g052", "k": "tr", "src": "Package! / Please leave it at the door.", "tgt": ""}
+{"f": "dialog", "id": "ko.g053", "k": "tr", "src": "How much is rent? / 500,000 won, maintenance included.", "tgt": ""}
+{"f": "dialog", "id": "ko.g054", "k": "tr", "src": "Can you dry clean this? / Yes, pick it up tomorrow afternoon.", "tgt": ""}
+{"f": "dialog", "id": "ko.g055", "k": "tr", "src": "I'm starting work with you today. Please take care of me. / Likewise.", "tgt": ""}
+{"f": "dialog", "id": "ko.g056", "k": "tr", "src": "How are things? / So-so. Just busy.", "tgt": ""}
+{"f": "dialog", "id": "ko.g057", "k": "tr", "src": "I'm a coffee addict. / Me too! At least three cups a day.", "tgt": ""}
+{"f": "dialog", "id": "ko.g058", "k": "tr", "src": "I'm going to Korea next month. / Really? Where to?", "tgt": ""}
+{"f": "dialog", "id": "ko.g059", "k": "tr", "src": "I should get going. Goodbye. / Okay, get home safe.", "tgt": ""}
+{"f": "dialog", "id": "ko.g060", "k": "tr", "src": "See you next time. / Yes, I'll be in touch!", "tgt": ""}
+{"f": "dialog", "id": "ko.g061", "k": "tr", "src": "Hey, what are you doing? / Watching Netflix at home. Why?", "tgt": ""}
+{"f": "dialog", "id": "ko.g062", "k": "tr", "src": "Are you free tonight? / Yeah, after seven.", "tgt": ""}
+{"f": "dialog", "id": "ko.g063", "k": "tr", "src": "Wanna come over? I'll order chicken. / Deal! I'll bring beer.", "tgt": ""}
+{"f": "dialog", "id": "ko.g064", "k": "tr", "src": "Today was so fun. Let's hang again. / Sure, see you next week!", "tgt": ""}
+{"f": "dialog", "id": "ko.g065", "k": "tr", "src": "Can I get your number? / Sure, 010-3322-7788.", "tgt": ""}
+{"f": "dialog", "id": "ko.g066", "k": "tr", "src": "Do you have Instagram? / Yes, I'll give you my handle.", "tgt": ""}
+{"f": "dialog", "id": "ko.g067", "k": "tr", "src": "Today was lovely. Shall we meet again? / Sure. This time it's on me.", "tgt": ""}
+{"f": "dialog", "id": "ko.g068", "k": "tr", "src": "It's late. I'll walk you home. / It's fine, I can take the subway.", "tgt": ""}
+{"f": "dialog", "id": "ko.g069", "k": "tr", "src": "You look pretty today. / Thanks. I got a haircut.", "tgt": ""}
+{"f": "dialog", "id": "ko.g070", "k": "tr", "src": "You're here! I missed you. / Me too. Did you wait long?", "tgt": ""}
+{"f": "dialog", "id": "ko.g071", "k": "tr", "src": "Did you get home safe? / Yeah, just got in. Thanks for today.", "tgt": ""}
+{"f": "dialog", "id": "ko.g072", "k": "tr", "src": "I'm going to sleep. Night! / Okay, sweet dreams.", "tgt": ""}
+{"f": "dialog", "id": "ko.g073", "k": "tr", "src": "Did you eat? / Not yet. Wanna eat together?", "tgt": ""}
+{"f": "dialog", "id": "ko.g074", "k": "tr", "src": "What are you up to? / Just lying around. Bored.", "tgt": ""}
+{"f": "dialog", "id": "ko.g075", "k": "tr", "src": "Where are you? Almost here? / Sorry, five minutes! Just got off the subway.", "tgt": ""}
+{"f": "dialog", "id": "ko.g076", "k": "tr", "src": "I think I'll be late. / No worries, take your time. I'll be at the café.", "tgt": ""}
+{"f": "dialog", "id": "ko.g077", "k": "tr", "src": "Look at this meme lol / That's hilarious lol", "tgt": ""}
+{"f": "dialog", "id": "ko.g078", "k": "tr", "src": "I made this. / Wow, that's cool! How did you make it?", "tgt": ""}
+{"f": "dialog", "id": "ko.g079", "k": "tr", "src": "I passed the exam! / Really? Nice job!", "tgt": ""}
+{"f": "dialog", "id": "ko.g080", "k": "tr", "src": "I worked overtime today… / You worked hard. Get some rest.", "tgt": ""}
+{"f": "dialog", "id": "ko.g081", "k": "tr", "src": "Wanna grab a drink after work? / Love to! Where?", "tgt": ""}
+{"f": "dialog", "id": "ko.g082", "k": "tr", "src": "I'm so nervous about the interview. / You got this! You'll do great.", "tgt": ""}
+{"f": "dialog", "id": "ko.g083", "k": "tr", "src": "What are you doing tomorrow? / I'm off tomorrow. Why?", "tgt": ""}
+{"f": "dialog", "id": "ko.g084", "k": "tr", "src": "What time is it now? / Half past two.", "tgt": ""}
+{"f": "dialog", "id": "ko.g085", "k": "tr", "src": "What time is it? / 9:10.", "tgt": ""}
+{"f": "dialog", "id": "ko.g086", "k": "tr", "src": "How's the weather in Seoul? / Cold today, and the fine dust is bad.", "tgt": ""}
+{"f": "dialog", "id": "ko.g087", "k": "tr", "src": "Is it raining outside? / Yes, take an umbrella.", "tgt": ""}
+{"f": "dialog", "id": "ko.g088", "k": "tr", "src": "You look tired. / Yeah, I couldn't sleep last night.", "tgt": ""}
+{"f": "dialog", "id": "ko.g089", "k": "tr", "src": "I'm bored. / Then shall we watch a movie?", "tgt": ""}
+{"f": "dialog", "id": "ko.g090", "k": "tr", "src": "I won the lottery! / No way! How much?", "tgt": ""}
+{"f": "dialog", "id": "ko.g091", "k": "tr", "src": "I lost my wallet… / Oh no! Did you check with the police?", "tgt": ""}
+{"f": "dialog", "id": "ko.g092", "k": "tr", "src": "My presentation is tomorrow. / You got this! You can do it.", "tgt": ""}
+{"f": "dialog", "id": "ko.g093", "k": "tr", "src": "Please eat plenty. / Thank you, I will!", "tgt": ""}
+{"f": "dialog", "id": "ko.g094", "k": "tr", "src": "May I have your name? / I'm Kim Minsu.", "tgt": ""}
+{"f": "dialog", "id": "ko.g095", "k": "tr", "src": "Please sit here. / Thank you.", "tgt": ""}
+{"f": "dialog", "id": "ko.g096", "k": "tr", "src": "Anyone home? / Yes, come in!", "tgt": ""}
+{"f": "dialog", "id": "ko.g097", "k": "tr", "src": "Teacher, have you been well? / Yes, thanks to you. Long time no see.", "tgt": ""}
+{"f": "dialog", "id": "ko.g098", "k": "tr", "src": "Would you mind taking a photo? / Of course. One, two, three!", "tgt": ""}
+{"f": "dialog", "id": "ko.g099", "k": "tr", "src": "What are we? / Hmm… I like you. Want to go out?", "tgt": ""}
+{"f": "dialog", "id": "ko.g100", "k": "tr", "src": "Why didn't you text yesterday? / Sorry, my fault. Don't be mad.", "tgt": ""}
+{"f": "dialog", "id": "ko.g101", "k": "tr", "src": "How is it being with me? / I feel comfortable. That's the best part.", "tgt": ""}
+{"f": "dialog", "id": "ko.g102", "k": "tr", "src": "Can I hold your hand? / Yeah… is it because you're cold?", "tgt": ""}
+{"f": "dialog", "id": "ko.g103", "k": "tr", "src": "It's our 100th day today! / Really? Happy 100 days. I got you something.", "tgt": ""}
+{"f": "dialog", "id": "ko.g104", "k": "tr", "src": "I have something to tell you. / What is it? Is something wrong?", "tgt": ""}
+{"f": "dialog", "id": "ko.g105", "k": "tr", "src": "What time is the meeting? / Two. Meeting room B.", "tgt": ""}
+{"f": "dialog", "id": "ko.g106", "k": "tr", "src": "When is the deadline? / Friday, 6 PM.", "tgt": ""}
+{"f": "dialog", "id": "ko.g107", "k": "tr", "src": "Manager, do you have a moment? / Yes, come in.", "tgt": ""}
+{"f": "dialog", "id": "ko.g108", "k": "tr", "src": "I'll head out first. / Okay, good work today.", "tgt": ""}
+{"f": "dialog", "id": "ko.g109", "k": "tr", "src": "There's a team dinner today. / What time and where?", "tgt": ""}
+{"f": "dialog", "id": "ko.g110", "k": "tr", "src": "What should we have for lunch? / How about kimchi stew?", "tgt": ""}
+{"f": "dialog", "id": "ko.g111", "k": "tr", "src": "Ugh, I'm bored. What should I do? / Come out. Let's get chicken.", "tgt": ""}
+{"f": "dialog", "id": "ko.g112", "k": "tr", "src": "I'm so tired today. / Sleep early. See you tomorrow.", "tgt": ""}
+{"f": "dialog", "id": "ko.g113", "k": "tr", "src": "Where are you? / On my way. 10 minutes!", "tgt": ""}
+{"f": "dialog", "id": "ko.g114", "k": "tr", "src": "What's with him? / Dunno. I'm curious too.", "tgt": ""}
+{"f": "dialog", "id": "ko.g115", "k": "tr", "src": "I saved us seats. / You really are the best.", "tgt": ""}
+{"f": "dialog", "id": "ko.g116", "k": "tr", "src": "Karaoke tonight? / Let's go! My treat.", "tgt": ""}
+{"f": "dialog", "id": "ko.g117", "k": "tr", "src": "I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.", "tgt": ""}
+{"f": "dialog", "id": "ko.g118", "k": "tr", "src": "Finally done. / Nice work. A beer?", "tgt": ""}
+{"f": "dialog", "id": "ko.g119", "k": "tr", "src": "How's this? Just bought it. / Cute. It suits you.", "tgt": ""}
+{"f": "dialog", "id": "ko.g120", "k": "tr", "src": "I miss you. / Me too. Let's meet this weekend.", "tgt": ""}
+{"f": "dialog", "id": "ko.g121", "k": "tr", "src": "I like you. / …Me too. You should've said sooner.", "tgt": ""}
+{"f": "dialog", "id": "ko.g122", "k": "tr", "src": "Babe, what are you doing? / Thinking about you, obviously.", "tgt": ""}
+{"f": "dialog", "id": "ko.g123", "k": "tr", "src": "I'm heading out now. / Get home safe. Text me when you arrive.", "tgt": ""}
+{"f": "dialog", "id": "ko.g124", "k": "tr", "src": "Sleepy. Going to bed. / Okay, sweet dreams.", "tgt": ""}
+{"f": "dialog", "id": "ko.g125", "k": "tr", "src": "Why are you smiling like that? / Your smile just now made my heart skip.", "tgt": ""}
+{"f": "dialog", "id": "ko.g126", "k": "tr", "src": "Why'd you text? / No reason. I keep thinking about you.", "tgt": ""}
+{"f": "dialog", "id": "ko.g127", "k": "tr", "src": "You said you had something to say? / I think I like you.", "tgt": ""}
+{"f": "dialog", "id": "ko.g128", "k": "tr", "src": "What are we? / Let's date.", "tgt": ""}
+{"f": "dialog", "id": "ko.g129", "k": "tr", "src": "I passed! / Really? Congrats!", "tgt": ""}
+{"f": "dialog", "id": "ko.g130", "k": "tr", "src": "I'll go first. / Don't go. Stay a little longer.", "tgt": ""}
+{"f": "dialog", "id": "ko.g131", "k": "tr", "src": "Long time no see. / I missed you. Been well?", "tgt": ""}
+{"f": "dialog", "id": "ko.g132", "k": "tr", "src": "Who's your bias? / The main vocalist.", "tgt": ""}
+{"f": "dialog", "id": "ko.g133", "k": "tr", "src": "What are you listening to lately? / I became a fan of this group. Their stage is amazing.", "tgt": ""}
+{"f": "dialog", "id": "ko.g134", "k": "tr", "src": "What are you doing this weekend? / Going to a concert! I even bought a light stick.", "tgt": ""}
+{"f": "dialog", "id": "ko.g135", "k": "tr", "src": "I'm a fan! Please sign this. / Sure, thanks. What's your name?", "tgt": ""}
+{"f": "dialog", "id": "ko.g136", "k": "tr", "src": "They're making a comeback this month. / Really? Did you see the teaser?", "tgt": ""}
+{"f": "dialog", "id": "ko.g137", "k": "tr", "src": "How was the concert? / Got goosebumps during the singalong.", "tgt": ""}
+{"f": "dialog", "id": "ko.g138", "k": "tr", "src": "Are you on Instagram? / Yes, I just followed you.", "tgt": ""}
+{"f": "dialog", "id": "ko.g139", "k": "tr", "src": "Posted a photo. Hit like for me. / Already did.", "tgt": ""}
+{"f": "dialog", "id": "ko.g140", "k": "tr", "src": "Why did nobody laugh at my joke earlier? / It killed the mood…", "tgt": ""}
+{"f": "dialog", "id": "ko.g141", "k": "tr", "src": "How's the tteokbokki here? / Insanely good. I'm coming back.", "tgt": ""}
+{"f": "dialog", "id": "ko.g142", "k": "tr", "src": "This song is addictive. / For real, been listening all day.", "tgt": ""}
+{"f": "dialog", "id": "ko.g143", "k": "tr", "src": "What should I wear today? / Go effortless. Jeans and a white tee.", "tgt": ""}
+{"f": "dialog", "id": "ko.g144", "k": "tr", "src": "What are you doing this weekend? / Having a meal with family.", "tgt": ""}
+{"f": "dialog", "id": "ko.g145", "k": "tr", "src": "Who did you come with? / With a friend.", "tgt": ""}
+{"f": "dialog", "id": "ko.g146", "k": "tr", "src": "Who's that? / That's my older brother.", "tgt": ""}
+{"f": "dialog", "id": "ko.g147", "k": "tr", "src": "Unni, how's this? / It suits you. Buy it.", "tgt": ""}
+{"f": "dialog", "id": "ko.g148", "k": "tr", "src": "Do you have siblings? / Yes, one younger sibling.", "tgt": ""}
+{"f": "dialog", "id": "ko.g149", "k": "tr", "src": "Teacher, I have a question. / Yes, go ahead.", "tgt": ""}
+{"f": "dialog", "id": "ko.g150", "k": "tr", "src": "That restaurant is closed on Mondays. / Ah, really? Then let's go on Tuesday.", "tgt": ""}
+{"f": "dialog", "id": "ko.g151", "k": "tr", "src": "This is a cake I made. / Wow, it's really pretty!", "tgt": ""}
+{"f": "dialog", "id": "ko.g152", "k": "tr", "src": "Minsu, I'm here. / Oh, you're here? Come in.", "tgt": ""}
+{"f": "dialog", "id": "ko.g153", "k": "tr", "src": "Want to have lunch tomorrow? / Yeah, sure. What time?", "tgt": ""}
+{"f": "dialog", "id": "ko.g154", "k": "tr", "src": "What do you want to eat? / Hmm… bibimbap today.", "tgt": ""}
+{"f": "dialog", "id": "ko.g155", "k": "tr", "src": "I bought this with my first paycheck. / Oh, nice!", "tgt": ""}
+{"f": "dialog", "id": "ko.g156", "k": "tr", "src": "This is Namsan Tower. / Whoa, you can see all of Seoul!", "tgt": ""}
+{"f": "dialog", "id": "ko.g157", "k": "tr", "src": "I'm getting married next month. / Oh my, really? Congratulations!", "tgt": ""}
+{"f": "dialog", "id": "ko.g158", "k": "tr", "src": "Ouch! I banged my hand on the door. / Are you OK? Let me see.", "tgt": ""}
+{"f": "dialog", "id": "ko.g159", "k": "tr", "src": "Your face has gone red! / Oh, come on, stop looking.", "tgt": ""}
+{"f": "dialog", "id": "ko.g160", "k": "tr", "src": "Do you think this movie will be good? / Well, I'm not sure.", "tgt": ""}
+{"f": "dialog", "id": "ko.g161", "k": "tr", "src": "I saw BTS yesterday. / Come on, no way!", "tgt": ""}
+{"f": "dialog", "id": "ko.g162", "k": "tr", "src": "They say there's no team dinner today. / Yes! I'm going home early.", "tgt": ""}
+{"f": "dialog", "id": "ko.g163", "k": "tr", "src": "It's already eleven. / Yikes, I have to hurry!", "tgt": ""}
+{"f": "dialog", "id": "ko.g164", "k": "tr", "src": "Oops, I spilled the coffee! / It's fine, I'll wipe it up.", "tgt": ""}
+{"f": "dialog", "id": "ko.g165", "k": "tr", "src": "Did you bring an umbrella? / Oh no, I left it at home.", "tgt": ""}
+{"f": "dialog", "id": "ko.g166", "k": "tr", "src": "Is your exam over? / Yes, phew, now I need some rest.", "tgt": ""}
+{"f": "dialog", "id": "ko.g167", "k": "tr", "src": "Overtime again today? / Sigh, yes. There's too much work.", "tgt": ""}
+{"f": "dialog", "id": "ko.g168", "k": "tr", "src": "Shh, the baby is sleeping. / Oh, sorry. I'll be quiet.", "tgt": ""}
+{"f": "dialog", "id": "ko.g169", "k": "tr", "src": "Right, shall we start now? / Yes, let's start!", "tgt": ""}
+{"f": "dialog", "id": "ko.g170", "k": "tr", "src": "Hello? Is that Minji? / Yes, it's me. What's up?", "tgt": ""}
+{"f": "dialog", "id": "ko.g171", "k": "tr", "src": "This bag is a million won. / Oh my god, that's way too expensive!", "tgt": ""}
+{"f": "dialog", "id": "ko.g172", "k": "tr", "src": "Boo! / Ah, you scared me! That made me jump.", "tgt": ""}
+{"f": "dialog", "id": "ko.g173", "k": "tr", "src": "Aaah, a bug! / Stay still. I'll get it.", "tgt": ""}
+{"f": "dialog", "id": "ko.g174", "k": "tr", "src": "Ta-da! It's your birthday present. / Wow, thank you! What is it?", "tgt": ""}
+{"f": "dialog", "id": "ko.g175", "k": "tr", "src": "This milk is past its date. / Yuck, I already drank some!", "tgt": ""}
+{"f": "dialog", "id": "ko.g176", "k": "tr", "src": "You look even prettier today. / Really? I changed my hair a bit.", "tgt": ""}
+{"f": "dialog", "id": "ko.g177", "k": "tr", "src": "My name is Haneul. / Even your name is pretty.", "tgt": ""}
+{"f": "dialog", "id": "ko.g178", "k": "tr", "src": "Why are you so cute? / Oh, stop joking.", "tgt": ""}
+{"f": "dialog", "id": "ko.g179", "k": "tr", "src": "You're even better-looking in person. / Haha, I guess my photos don't do me justice.", "tgt": ""}
+{"f": "dialog", "id": "ko.g180", "k": "tr", "src": "You look cool when you're working. / Out of nowhere? Thank you.", "tgt": ""}
+{"f": "dialog", "id": "ko.g181", "k": "tr", "src": "You have a pretty smile. / Thank you. That's the first time I've heard that.", "tgt": ""}
+{"f": "dialog", "id": "ko.g182", "k": "tr", "src": "Your eye smile is really pretty. / Oh, come on, I'm embarrassed.", "tgt": ""}
+{"f": "dialog", "id": "ko.g183", "k": "tr", "src": "What's the occasion? You actually called. / I just wanted to hear your voice.", "tgt": ""}
+{"f": "dialog", "id": "ko.g184", "k": "tr", "src": "What do you think of me? / Honestly, you're totally my type.", "tgt": ""}
