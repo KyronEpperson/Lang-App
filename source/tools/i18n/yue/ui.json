@@ -498,13 +498,13 @@
    "where": "html <button> text"
   },
   "How a block is built": {
-   "t": "英文字是怎樣拼成的",
+   "t": "英文字的串法",
    "ko": "글자는 이렇게 만들어져요",
    "kind": "sentence",
    "where": "html <h3> text"
   },
   "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": {
-   "t": "(han)。英文的拼寫不一定反映發音：聽一聽聲音，留意重音落在哪個音節。",
+   "t": "(han)。英文的串法不一定反映發音：聽一聽聲音，留意重音落在哪個音節。",
    "ko": "(han). 세로 모음(ㅏㅓㅣ)은 자음 오른쪽에, 가로 모음(ㅗㅜㅡ)은 자음 아래에 와요. 받침은 항상 맨 아래에 들어가요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4068,14 +4068,14 @@
    "where": "js TITLES()"
   },
   "Beginner": {
-   "t": "入門",
+   "t": "新手",
    "ko": "입문",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Talker": {
-   "t": "話匣子",
+   "t": "健談",
    "ko": "수다쟁이",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",

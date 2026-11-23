@@ -77,7 +77,7 @@ practice:[
 <p>現在式 (present tense) 表示經常做的事和不變的事實。否定句在動詞前加 <b>don't</b>。</p>
 {{ex:I don't eat meat.|/aɪ ˈdoʊnt ˈiːt ˈmiːt/|我不吃肉}}
 <h3>頻率副詞：always、usually、sometimes、never</h3>
-<p>這些字放在一般動詞（be 以外的動詞）<b>前面</b>、be 動詞<b>後面</b>。always 和 never 不放在句首，也不放在動詞後面：<b>I go always.</b> ✗ <b>Always I go.</b> ✗ → <b>I always go.</b> ✓。every day、at seven 這類時間短語則放在句末。</p>
+<p>這些字放在一般動詞（be 以外的動詞）<b>前面</b>、be 動詞<b>後面</b>。always 和 never 不放在句首，也不放在動詞後面：<b>I go always.</b> ✗ <b>Always I go.</b> ✗ → <b>I always go.</b> ✓。every day、at seven 這類表示時間的字詞則放在句末。</p>
 {{ex:I usually get up at seven.|/aɪ ˈjuːʒuəli ˈget ˈʌp ət ˈsevn/|我通常七點起床}}{{ex:I never drink coffee at night.|/aɪ ˈnevər ˈdrɪŋk ˈkɔːfi ət ˈnaɪt/|我晚上從不喝咖啡}}{{ex:She's always late.|/ʃiz ˈɔːlweɪz ˈleɪt/|她總是遲到}}
 <div class="tip">按中文語序逐字翻譯就會出錯：<b>I every day study English.</b> ✗ → <b>I study English every day.</b> ✓。先說主語和動詞，時間放到最後。</div>`,
 check:[["「我喝咖啡」的正確語序是？",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"語序是主語 + 動詞 + 賓語。"],["I ___ eat meat.（不吃）",["not","am not","no","don't"],3,"一般動詞的否定用 don't。"],["always 放在哪裏才正確？",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"頻率副詞放在一般動詞前面。"]],
@@ -99,7 +99,7 @@ practice:[
 { id:"questions", title:"疑問句：Do you …? 和疑問詞", blurb:"不能只把語調升高。Do 放句首，疑問詞放在最前面。", deck:"求生英文 2", body:`
 <p>廣東話在句末加「呀」「嗎」「呢」，或者把語調升高，就成了疑問句，疑問詞也留在原位：「你去邊度呀？」。英文沒有這類句末助詞，要改變<b>語序</b>：助動詞或 be 動詞放到主語前面，疑問詞放在句首。</p>
 <h3>be 動詞：和主語對調位置</h3>
-{{ex:Are you okay?|/ər ju oʊˈkeɪ/|你沒事吧？}}{{ex:Is this your bag?|/ɪz ˈðɪs jʊr ˈbæg/|這是你的袋嗎？}}
+{{ex:Are you okay?|/ər ju oʊˈkeɪ/|你還好嗎？}}{{ex:Is this your bag?|/ɪz ˈðɪs jʊr ˈbæg/|這是你的袋嗎？}}
 <h3>一般動詞：句首加 Do</h3>
 <p>句子裏的動詞不是 be 時，在句首加 <b>Do</b>，其餘語序不變。</p>
 {{ex:Do you like coffee?|/də ju ˈlaɪk ˈkɔːfi/|你喜歡咖啡嗎？}}{{ex:Do you speak English?|/də ju ˈspiːk ˈɪŋglɪʃ/|你會說英文嗎？}}
@@ -198,14 +198,14 @@ practice:[
 {{ex:I have two brothers.|/aɪ ˈhæv ˈtuː ˈbrʌðərz/|我有兩個兄弟}}{{ex:Do you have a pen?|/də ju ˈhæv ə ˈpen/|你有筆嗎？}}{{ex:I don't have time.|/aɪ ˈdoʊnt ˈhæv ˈtaɪm/|我沒有時間}}
 <h3>have：吃、喝</h3>
 <p>三餐的名稱前面不加冠詞。</p>
-{{ex:Let's have lunch.|/ˈlets ˈhæv ˈlʌntʃ/|我們去吃午飯吧}}{{ex:I have coffee every morning.|/aɪ ˈhæv ˈkɔːfi ˈevri ˈmɔːrnɪŋ/|我每天早上喝咖啡}}
+{{ex:Let's have lunch.|/ˈlets ˈhæv ˈlʌntʃ/|我們吃午飯吧}}{{ex:I have coffee every morning.|/aɪ ˈhæv ˈkɔːfi ˈevri ˈmɔːrnɪŋ/|我每天早上喝咖啡}}
 <div class="tip">最常見的錯誤：<b>She knows I.</b> ✗ → <b>She knows me.</b> ✓，說姐姐時用 <b>He works at night.</b> ✗ → <b>She works at night.</b> ✓</div>`,
 check:[["I like ___.（他）",["he","his","him","he's"],2,"動詞後面用賓格 him。"],["Can you help ___?（我們）",["us","we","our","ours"],0,"動詞後面用賓格 us。"],["「你有筆嗎？」用英文怎樣說？",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have 是一般動詞，疑問句用 Do。"]],
 practice:[
 ["mc","She knows ___.（我）","me","I","my","mine","動詞後面用賓格 me。"],
 ["mc","I like ___.（他們）","them","they","their","theirs","動詞後面用賓格 them。"],
 ["mc","「你可以幫幫我們嗎？」=","Can you help us?","Can you help we?","Can you help our?","Can us help you?","動詞後面用 us。"],
-["mc","「我們去吃午飯吧」=","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","三餐的名稱前面不加冠詞。"],
+["mc","「我們吃午飯吧」=","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","三餐的名稱前面不加冠詞。"],
 ["mc","「我有兩個兄弟」=","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","家人用 have 來說；兩個兄弟用眾數。"],
 ["or","你有筆嗎？","Do you have a pen","the pens","隨便哪一支筆都可以，用冠詞 a 和單數 pen。"],
 ["or","我喜歡她","I like her","she","動詞後面用賓格 her。"],
@@ -281,7 +281,7 @@ practice:[
 {{ex:I worked yesterday.|/aɪ ˈwɜːrkt ˈjestərdeɪ/|我昨天上班了}}{{ex:We watched a movie.|/wi ˈwɑːtʃt ə ˈmuːvi/|我們看了一齣電影}}{{ex:She called me.|/ʃi ˈkɔːld mi/|她打了電話給我}}
 <h3>把 -ed 讀出來</h3>
 <p>-ed 有三種讀法：worked、walked 讀 /t/，called、enjoyed 讀 /d/，wanted、needed 讀 /ɪd/。字尾的輔音就是「過去」的標記，一定要讀出來，但不要多加音節：walked 只有一個音節，enjoyed 的字尾只有一個 /d/，不是 "enjoyded"。</p>
-{{ex:walked|/ˈwɔːkt/|走路（過去式）}}{{ex:enjoyed|/ɪnˈdʒɔɪd/|享受（過去式）}}{{ex:wanted|/ˈwɑːntɪd/|想要（過去式）}}
+{{ex:walked|/ˈwɔːkt/|走了（walk 的過去式）}}{{ex:enjoyed|/ɪnˈdʒɔɪd/|享受（過去式）}}{{ex:wanted|/ˈwɑːntɪd/|想要（want 的過去式）}}
 <h3>否定和疑問用 did</h3>
 <p>用了 <b>didn't</b> 或 <b>Did</b>，後面的動詞變回原形。</p>
 {{ex:I didn't work yesterday.|/aɪ ˈdɪdnt ˈwɜːrk ˈjestərdeɪ/|我昨天沒有上班}}{{ex:Did you call me?|/dɪd ju ˈkɔːl mi/|你打過電話給我嗎？}}
@@ -373,7 +373,7 @@ practice:[
 {{ex:This is the best restaurant here.|/ˈðɪs ɪz ðə ˈbest ˈrestərɑːnt ˈhɪr/|這是這裏最好的餐廳}}{{ex:Which is the cheapest?|/ˈwɪtʃ ɪz ðə ˈtʃiːpɪst/|哪個最便宜？}}
 <h3>-ed 還是 -ing：bored / boring</h3>
 <p>說人的感受用 -ed，說令人有這種感受的事物用 -ing。</p>
-{{ex:I'm bored.|/aɪm ˈbɔːrd/|我覺得很悶}}{{ex:This movie is boring.|/ˈðɪs ˈmuːvi ɪz ˈbɔːrɪŋ/|這齣電影很悶}}
+{{ex:I'm bored.|/aɪm ˈbɔːrd/|我很悶}}{{ex:This movie is boring.|/ˈðɪs ˈmuːvi ɪz ˈbɔːrɪŋ/|這齣電影很悶}}
 <div class="tip">最常見的錯誤：<b>more cheaper</b>、<b>more better</b> ✗ → <b>cheaper</b>、<b>better</b> ✓。-er 和 more 不能一起用。</div>`,
 check:[["big 的比較級是？",["more big","biger","bigger","most big"],2,"big 是短的字，加 -er；它以「一個元音字母 + 一個輔音字母」結尾，所以要重複 g：bigger。"],["This is ___ expensive than that. 空格應填甚麼？",["more","most","much","very"],0,"長的字，比較級在前面加 more。"],["good 的最高級是？",["the goodest","the most good","the better","the best"],3,"good 的最高級是 the best：good – better – the best。"]],
 practice:[
@@ -417,8 +417,8 @@ practice:[
 ["ty","我打算看一齣電影（用 movie）","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — 冠詞 a","the","隨便一齣電影，用冠詞 a。"],
 ["ty","你打算做甚麼？","What are you going to do","what · going to · do","will","問計劃用 be going to。"],
 ["ty","我準備去見朋友們","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — 眾數","friend","朋友不止一個，用眾數 friends。"]]},
-{ id:"joining", title:"連接句子：and、but、or、so、because", blurb:"把兩個短句連成一句。because 和 so 只用一個，不能成對使用。", deck:"情緒與反應", body:`
-<p>只說短句會顯得生硬。用這五個連接詞把句子連起來，聽起來自然得多。</p>
+{ id:"joining", title:"連接句子：and、but、or、so、because", blurb:"把兩個簡短的句子連成一句。because 和 so 只用一個，不能成對使用。", deck:"情緒與反應", body:`
+<p>只說簡短的句子會顯得生硬。用這五個連接詞把句子連起來，聽起來自然得多。</p>
 <h3>and、but、or</h3>
 {{ex:I like coffee and tea.|/aɪ ˈlaɪk ˈkɔːfi ənd ˈtiː/|我喜歡咖啡和茶}}{{ex:I'm tired but happy.|/aɪm ˈtaɪərd bət ˈhæpi/|我很累，但很開心}}{{ex:Coffee or tea?|/ˈkɔːfi ər ˈtiː/|咖啡還是茶？}}
 <h3>so：所以</h3>
@@ -461,12 +461,12 @@ practice:[
 <h3>本地用法：香港通用，外地人未必明白</h3>
 <div class="tbl"><table><tr><th>本地用法</th><th>對外地人可以說</th></tr><tr><td>add oil（加油）</td><td class="k">Good luck! / You can do it! / Go for it!</td></tr><tr><td>shroff（繳費處）</td><td class="k">cashier / payment office</td></tr><tr><td>chop（印章）</td><td class="k">stamp</td></tr><tr><td>lai see（利是）</td><td>可以照用，再補一句解釋</td></tr><tr><td>OK la、sorry ar、no need lor</td><td>不加句末助詞：OK、sorry、no need</td></tr></table></div>
 <p>add oil 在 2018 年已收入《牛津英語詞典》，詞典註明它源自香港英文。句末加 la、ar、lor 是香港人之間傳短訊的寫法，朋友之間沒有問題；考試、工作和對不懂廣東話的人，就不要加。</p>
-{{ex:Good luck!|/ˈgʊd ˈlʌk/|加油！／祝你好運！}}{{ex:You can do it!|/ju kən ˈduː ɪt/|你做得到的！}}{{ex:Where's the cashier?|/ˈwerz ðə kæˈʃɪr/|收銀處在哪裏？}}{{ex:I need a stamp on this form.|/aɪ ˈniːd ə ˈstæmp ɑːn ˈðɪs ˈfɔːrm/|這份表格要蓋印}}
+{{ex:Good luck!|/ˈgʊd ˈlʌk/|加油！/ 祝你好運！}}{{ex:You can do it!|/ju kən ˈduː ɪt/|你做得到的！}}{{ex:Where's the cashier?|/ˈwerz ðə kæˈʃɪr/|收銀處在哪裏？}}{{ex:I need a stamp on this form.|/aɪ ˈniːd ə ˈstæmp ɑːn ˈðɪs ˈfɔːrm/|這份表格要蓋印}}
 <h3>學校教英式，這個課程用美式</h3>
 <p>香港學校教的是英式英文，這個課程的英文和聲音是美式。兩種都正確，只是在美國會聽到右邊的說法。</p>
 <div class="tbl"><table><tr><th>中文</th><th>英式（香港學校）</th><th>美式（這個課程）</th></tr><tr><td>升降機</td><td>lift</td><td class="k">elevator</td></tr><tr><td>住宅單位</td><td>flat</td><td class="k">apartment</td></tr><tr><td>洗手間</td><td>toilet</td><td class="k">restroom</td></tr><tr><td>足球</td><td>football</td><td class="k">soccer</td></tr><tr><td>電影</td><td>film</td><td class="k">movie</td></tr><tr><td>手提電話</td><td>mobile (phone)</td><td class="k">cell phone</td></tr><tr><td>排隊的隊伍</td><td>queue</td><td class="k">line</td></tr><tr><td>垃圾</td><td>rubbish</td><td class="k">trash</td></tr><tr><td>帳單</td><td>bill</td><td class="k">check</td></tr><tr><td>地下 (G/F)</td><td>ground floor</td><td class="k">first floor</td></tr><tr><td>假期</td><td>holiday</td><td class="k">vacation</td></tr></table></div>
-{{ex:Where's the restroom?|/ˈwerz ðə ˈrestruːm/|洗手間在哪裏？}}{{ex:Take the elevator to the first floor.|/ˈteɪk ði ˈelɪveɪtər tə ðə ˈfɜːrst ˈflɔːr/|乘升降機到地下}}{{ex:I live in an apartment.|/aɪ ˈlɪv ɪn ən əˈpɑːrtmənt/|我住在一個住宅單位}}
-<div class="tip">記住三點：直譯的句子要改（<b>open the light</b> ✗ → <b>turn on the light</b> ✓）；本地用法在香港照用，出外換個說法（<b>Add oil!</b> → <b>Good luck!</b>）；英式和美式兩種都對（<b>lift</b> / <b>elevator</b>）。</div>`,
+{{ex:Where's the restroom?|/ˈwerz ðə ˈrestruːm/|洗手間在哪裏？}}{{ex:Take the elevator to the first floor.|/ˈteɪk ði ˈelɪveɪtər tə ðə ˈfɜːrst ˈflɔːr/|搭升降機到地下}}{{ex:I live in an apartment.|/aɪ ˈlɪv ɪn ən əˈpɑːrtmənt/|我住在一個住宅單位}}
+<div class="tip">記住三點：直譯的句子要改 (<b>open the light</b> ✗ → <b>turn on the light</b> ✓)；本地用法在香港照用，出外換個說法 (<b>Add oil!</b> → <b>Good luck!</b>)；英式和美式兩種都對 (<b>lift</b> / <b>elevator</b>)。</div>`,
 check:[["「可以開燈嗎？」用英文怎樣說？",["Can you open the light?","Can you turn on the light?","Can you open light?","Can you turn open the light?"],1,"開燈、開電視用 turn on，open 只用於門、窗這類可以打開的東西；指房間裏那盞燈，用冠詞 the。"],["想對不懂廣東話的外國同事說「加油」，哪一句最容易明白？",["Add oil!","Add gas!","Good luck!","Put oil!"],2,"Add oil 是香港的本地用法，香港人之間沒有問題；外地人未必明白，可以說 Good luck! 或 You can do it!"],["「我很喜歡廣東菜」用英文怎樣說？",["I really like Cantonese food.","I very like Cantonese food.","I like very Cantonese food.","I like very much Cantonese food."],0,"very 不能直接修飾動詞。「很喜歡」說 really like 或 like … very much。"]],
 practice:[
 ["mc","「開燈」=","turn on the light","open the light","open a light","turn the light open","開燈用 turn on，open 用於門和窗。"],

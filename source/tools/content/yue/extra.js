@@ -15,7 +15,7 @@ I'm here on vacation. | Are you here for work? | No, I'm here on vacation. | 你
 Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | 請問這是排隊買票的隊伍嗎？ / 是的，隊尾在那邊。
 Thank you. | Here, let me get the door for you. | Oh, thank you! | 來，我替你開門。 / 啊，謝謝！
 Sorry? | Your total is twenty-three fifty. | Sorry? Could you say that again? | 一共二十三元五角。 / 甚麼？可以再說一次嗎？
-Could you speak more slowly? | Take the B line to Central, then transfer to the red line and... | Sorry, could you speak more slowly? | 乘 B 綫到 Central 站，然後轉紅綫，再…… / 不好意思，可以說慢一點嗎？
+Could you speak more slowly? | Take the B line to Central, then transfer to the red line and... | Sorry, could you speak more slowly? | 乘 B 線到 Central 站，然後轉紅線，再…… / 不好意思，可以說慢一點嗎？
 How do you say this in English? | How do you say this in English? | That's a whisk. | 這個用英文怎樣說？ / 那個叫 whisk（打蛋器）。
 Can you help me? | Excuse me, can you help me? I'm looking for this hotel. | Sure! It's just around the corner. | 不好意思，可以幫我一下嗎？我在找這間酒店。 / 沒問題！轉個彎就到了。
 No, thank you. | Would you like a bag? | No, thank you. I have one. | 需要袋嗎？ / 不用了，謝謝，我自己有。
@@ -257,7 +257,7 @@ Honesty is the best policy | 誠實為上策
 Seeing is believing | 百聞不如一見
 Out of sight, out of mind | 眼不見，心不念
 Laughter is the best medicine | 笑是最好的良藥
-Live and learn | 活到老，學到老
+Live and learn | 經一事，長一智
 A friend in need is a friend indeed | 患難見真情
 It's never too late to learn | 學習永遠不嫌遲
 Every expert was once a beginner | 每個專家都曾經是新手
@@ -271,13 +271,13 @@ exports.IDIOMS = `
 Break a leg | 祝你演出成功！ | /ˈbreɪk ə ˈleg/ | 演出、考試、面試前的祝福，用來代替 Good luck。
 Bite the bullet | 咬緊牙關硬着頭皮去做 | /ˈbaɪt ðə ˈbʊlɪt/ | 不想做卻避不開的事，下定決心去做時用。
 Cut corners | 偷工減料 / 走捷徑 | /ˈkʌt ˈkɔːrnərz/ | 為了省錢、省時間而省掉應做的步驟（貶義）。
-Hit the sack | 上牀睡覺 | /ˈhɪt ðə ˈsæk/ | 口語說法：I'm tired. I'm going to hit the sack.
+Hit the sack | 上床睡覺 | /ˈhɪt ðə ˈsæk/ | 口語說法：I'm tired. I'm going to hit the sack.
 Let the cat out of the bag | 說漏了嘴 | /ˈlet ðə ˈkæt ˈaʊt əv ðə ˈbæg/ | 不小心把驚喜派對之類的秘密說了出來。
 Kill two birds with one stone | 一石二鳥 / 一舉兩得 | /ˈkɪl ˈtuː ˈbɜːrdz wɪð ˈwʌn ˈstoʊn/ | 一次過解決兩件事。
 Burn the midnight oil | 挑燈夜戰 | /ˈbɜːrn ðə ˈmɪdnaɪt ˈɔɪl/ | 考試前、限期前熬夜趕工。
 The best of both worlds | 兩全其美 | /ðə ˈbest əv ˈboʊθ ˈwɜːrldz/ | 兩邊的好處都可以享受到。
 A blessing in disguise | 塞翁失馬，焉知非福 | /ə ˈblesɪŋ ɪn dɪsˈgaɪz/ | 起初看來是壞事，最後卻變成好事。
-Every cloud has a silver lining | 黑暗中總有一綫光明 | /ˈevri ˈklaʊd ˈhæz ə ˈsɪlvər ˈlaɪnɪŋ/ | 安慰正在經歷困難的人。
+Every cloud has a silver lining | 黑暗中總有一線光明 | /ˈevri ˈklaʊd ˈhæz ə ˈsɪlvər ˈlaɪnɪŋ/ | 安慰正在經歷困難的人。
 Get cold feet | 臨陣退縮 | /ˈget ˈkoʊld ˈfiːt/ | 婚禮、重大決定前猶豫害怕。
 Hit the nail on the head | 一針見血 | /ˈhɪt ðə ˈneɪl ɑːn ðə ˈhed/ | 說得正中要害。
 In the same boat | 處境相同 | /ɪn ðə ˈseɪm ˈboʊt/ | 安慰一起吃苦的人：Don't worry, we're all in the same boat.

@@ -55,7 +55,7 @@ practice:[
 ["fi","I was sleeping __ you called.","你打電話來的時候，我在睡覺","when","than|so|had","「……的時候」用 when。"],
 ["fi","The bus had already __.","巴士已經開走了","left|gone","leave|leaving|leaves","had 後面接過去分詞。"],
 ["fi","First we ate. __ we watched a movie.","我們先吃了飯，然後看了一齣電影","Then|After that|Next","Than|Because|When","「然後」用 then。"],
-["ty","（我到的時候）電影已經開始了","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — 冠詞 the","a","要看的就是那齣電影，用冠詞 the。"],
+["ty","（我到的時候）電影已經開始了（用 movie）","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — 冠詞 the","a","要看的就是那齣電影，用冠詞 the。"],
 ["ty","我碰到了一個老朋友","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — 冠詞 an","a","old 以元音開頭，用冠詞 an。"],
 ["ty","我當時正走路回家","I was walking home","was · walking · home","had","背景用過去進行式。"]]},
 { id:"conditionals", title:"假設語氣：與現在和過去的事實相反", blurb:"與現在的事實相反用 would，後悔過去的事用 would have。", deck:"情緒與反應", body:`
@@ -177,5 +177,5 @@ practice:[
 ["fi","She asked __ I was okay.","她問我有沒有事","if|whether","that|what|did","是非問句用 if 轉述。"],
 ["ty","他說他很忙","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","轉述的內容，時態往過去退一步。"],
 ["ty","她說她有一輛車","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — 冠詞 a","the","第一次提到的一輛車，用冠詞 a。"],
-["ty","他說他看過那齣電影","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — 冠詞 the","a","雙方都知道的那齣電影，用冠詞 the。"]]},
+["ty","他說他看過那齣電影（用 movie）","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — 冠詞 the","a","雙方都知道的那齣電影，用冠詞 the。"]]},
 ];

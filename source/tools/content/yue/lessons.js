@@ -15,10 +15,10 @@ exports.LESSONS = [
 <h3>字母名稱前用 a 還是 an</h3>
 <p>冠詞 (articles) 看字母名稱的<b>第一個音</b>，不看字母本身。F、H、L、M、N、R、S、X 的名稱都以元音開頭，所以說 <b>an F</b>、<b>an H</b>、<b>an L</b>、<b>an M</b>、<b>an N</b>、<b>an R</b>、<b>an S</b>、<b>an X</b>。</p>
 <p>U 雖然是元音字母，名稱卻和 you 一樣以 /j/ 開頭，所以是 <b>a U</b>，道理和 a university 相同。</p>
-<div class="tip">報電郵地址的說法：大寫字母說 <b>capital T</b>，兩個相同的字母連在一起說 <b>double L</b>，@ 讀 <b>at</b>，點（.）讀 <b>dot</b>。例如 amy.chan@mail.com 讀作 <b>A-M-Y dot C-H-A-N at mail dot com</b>。</div>`},
+<div class="tip">報電郵地址的說法：大寫字母說 <b>capital T</b>，兩個相同的字母連在一起說 <b>double L</b>，@ 讀 <b>at</b>，點 (.) 讀 <b>dot</b>。例如 amy.chan@mail.com 讀作 <b>A-M-Y dot C-H-A-N at mail dot com</b>。</div>`},
 
 { id:"pron", title:"1 · 發音陷阱：N / L、字尾輔音、V、TH", blurb:"先看懂音標，再處理說廣東話的人最常遇到的發音問題：n / l、字尾輔音、輔音連綴、v、z、TH 和重音。", deck:"發音易錯", body:`
-<p>這個課程的卡片和例句都標了<b>音標（國際音標）</b>。音標不是拼音 (phonics)：一個符號只有一個讀法。符號和學校、字典用的是同一套，但標的是<b>美式發音</b>，因為這個課程的聲音是美式的。每個音標旁邊都有聲音，邊聽邊看就可以了；不想看音標時，可以關掉「顯示音標」。</p>
+<p>這個課程的卡片和例句都標了<b>音標（國際音標）</b>。音標不是拼音 (phonics)：一個符號只有一個讀法。符號和學校、字典用的是同一套，但標的是<b>美式發音</b>，因為這個課程的聲音是美式的。每個音標旁邊都有聲音，邊聽邊看就可以了；不想看音標時，可以用「Aa 音標」開關或設定裏的「練習時顯示音標」把它關掉。</p>
 <h3>音標符號表</h3>
 <div class="tbl"><table><tr><th>符號</th><th>例字</th><th>符號</th><th>例字</th></tr><tr><td class="k">iː</td><td>see</td><td class="k">ɪ</td><td>sit</td></tr><tr><td class="k">uː</td><td>food</td><td class="k">ʊ</td><td>foot</td></tr><tr><td class="k">e</td><td>bed</td><td class="k">æ</td><td>bad</td></tr><tr><td class="k">ʌ</td><td>cup</td><td class="k">ə</td><td><b>a</b>bout</td></tr><tr><td class="k">ɑː</td><td>hot、father</td><td class="k">ɔː</td><td>law、walk</td></tr><tr><td class="k">ɜːr</td><td>bird</td><td class="k">ər</td><td>teach<b>er</b></td></tr><tr><td class="k">eɪ</td><td>day</td><td class="k">oʊ</td><td>go</td></tr><tr><td class="k">aɪ</td><td>my</td><td class="k">aʊ</td><td>now</td></tr><tr><td class="k">ɔɪ</td><td>boy</td><td class="k">ŋ</td><td>si<b>ng</b></td></tr><tr><td class="k">θ</td><td><b>th</b>ink</td><td class="k">ð</td><td><b>th</b>is</td></tr><tr><td class="k">ʃ</td><td><b>sh</b>e</td><td class="k">ʒ</td><td>u<b>s</b>ually</td></tr><tr><td class="k">tʃ</td><td><b>ch</b>air</td><td class="k">dʒ</td><td><b>j</b>ob</td></tr><tr><td class="k">ˈ</td><td>重音符號，標在重讀音節前面</td><td class="k">ː</td><td>長元音</td></tr></table></div>
 <p>這個課程連單音節的實詞也標 <b>ˈ</b>；沒有 ˈ 的 a、the、to、can 等字要讀得又輕又快（弱讀）。</p>
@@ -27,31 +27,31 @@ exports.LESSONS = [
 <p>英式讀法同樣正確，不用改。知道這幾處分別，就不會覺得音標和聲音「不對」。</p>
 <h3>N 和 L</h3>
 <p>廣東話日常說話時，n 開頭的字常常讀成 l（例如「你」），大家都聽得明白。英文卻靠 n 和 l 分辨字義：night（夜晚）讀成 l 就是 light（光）。讀 <b>n</b> 時舌尖抵住上齒齦，氣<b>從鼻出</b>；讀 <b>l</b> 時氣從舌頭兩邊出。</p>
-{{ex:night|/ˈnaɪt/|夜晚}}{{ex:light|/ˈlaɪt/|光 / 輕}}{{ex:know|/ˈnoʊ/|知道}}{{ex:low|/ˈloʊ/|低}}
+{{ex:night|/ˈnaɪt/|夜晚}}{{ex:light|/ˈlaɪt/|光 / 燈 / 輕的}}{{ex:know|/ˈnoʊ/|知道}}{{ex:low|/ˈloʊ/|低的}}
 <h3>R 和 L，還有字首的輔音連綴</h3>
 <p>讀 <b>L</b> 時舌尖抵住上齒齦再放開；讀 <b>R</b> 時舌尖<b>不碰任何地方</b>，稍向後縮，嘴唇略圓。rice（飯）讀成 L 就成了 lice（蝨子）。兩三個輔音連在一起（輔音連綴）時，l 和 r 最容易漏掉或互換：place 讀成 "pace"，bring 讀成 "bling"。每個輔音都要讀出來，中間不加元音。</p>
-{{ex:rice|/ˈraɪs/|米 / 飯}}{{ex:lice|/ˈlaɪs/|蝨子}}{{ex:right|/ˈraɪt/|右邊 / 對}}{{ex:place|/ˈpleɪs/|地方}}{{ex:pace|/ˈpeɪs/|步伐}}{{ex:bring|/ˈbrɪŋ/|帶來}}
+{{ex:rice|/ˈraɪs/|米 / 飯}}{{ex:lice|/ˈlaɪs/|蝨子}}{{ex:right|/ˈraɪt/|右邊 / 正確的}}{{ex:place|/ˈpleɪs/|地方}}{{ex:pace|/ˈpeɪs/|步伐 / 速度}}{{ex:bring|/ˈbrɪŋ/|帶來}}
 <h3>字尾輔音：要讀出來，b、d、g 要保持濁音</h3>
 <p>廣東話的音節只以元音、m / n / ng，或者收住不放的 p / t / k 結尾（例如「六」）。所以英文字尾的輔音很容易讀得聽不見，b、d、g 也容易變成 p、t、k：bag（袋）聽起來像 back（背部）。英文的字尾輔音要<b>輕輕讀出來</b>；b、d、g 是濁音，聲帶要振動，前面的元音也稍為拉長。</p>
 {{ex:bag|/ˈbæg/|袋}}{{ex:back|/ˈbæk/|背部 / 後面}}{{ex:bed|/ˈbed/|床}}{{ex:bet|/ˈbet/|打賭}}
 <h3>字尾的輔音連綴：-s 和 -ed 都在這裏</h3>
 <p>cold 讀成 "code"、list 讀成 "lis"，都是少了一個輔音。眾數 (plural) 的 -s、第三身單數的 -s 和過去式的 -ed 全都在字尾；吞掉了，聽的人就當是文法錯誤。</p>
-{{ex:cold|/ˈkoʊld/|冷}}{{ex:code|/ˈkoʊd/|密碼 / 代碼}}{{ex:friends|/ˈfrendz/|朋友（眾數）}}{{ex:asked|/ˈæskt/|問了（ask 的過去式）}}
+{{ex:cold|/ˈkoʊld/|冷的}}{{ex:code|/ˈkoʊd/|密碼 / 代碼}}{{ex:friends|/ˈfrendz/|朋友（眾數）}}{{ex:asked|/ˈæskt/|問了（ask 的過去式）}}
 <h3>V、Z 和 F</h3>
 <p><b>V</b> 是上齒輕觸下唇，聲帶振動。字首不要讀成圓唇的 w：very 會變成 wary（謹慎）；字尾不要讀成 f：five、live 的結尾聲帶仍要振動。V 也不是雙唇閉合的 B：vote（投票）和 boat（船）是兩個字。<b>F</b> 的口形和 V 一樣，但聲帶不振動；雙唇閉合就成了 P：fan（風扇）/ pan（平底鑊）。<b>Z</b> 是聲帶振動的 s：zip（拉鏈）不振動就成了 sip（喝一小口）。</p>
-{{ex:very|/ˈveri/|非常}}{{ex:wary|/ˈweri/|謹慎}}{{ex:vote|/ˈvoʊt/|投票}}{{ex:boat|/ˈboʊt/|船}}{{ex:zip|/ˈzɪp/|拉鏈}}{{ex:sip|/ˈsɪp/|喝一小口}}
+{{ex:very|/ˈveri/|非常}}{{ex:wary|/ˈweri/|謹慎的}}{{ex:vote|/ˈvoʊt/|投票}}{{ex:boat|/ˈboʊt/|船}}{{ex:zip|/ˈzɪp/|拉鏈 / 拉上}}{{ex:sip|/ˈsɪp/|小口地喝}}
 <h3>TH：舌尖放在上下齒之間</h3>
 <p>廣東話沒有 TH 的音。把舌尖<b>輕輕伸到上下齒之間</b>送氣：只送氣是 think 的 /θ/，聲帶振動是 this 的 /ð/。最常見的代替音是 f 和 d：three 變成 free（免費），they 變成 day（日子）。用 s 代替也不對：think 會變成 sink（洗滌盆）。</p>
-{{ex:think|/ˈθɪŋk/|想 / 認為}}{{ex:sink|/ˈsɪŋk/|洗滌盆 / 下沉}}{{ex:three|/ˈθriː/|數字 3}}{{ex:free|/ˈfriː/|免費 / 自由}}{{ex:this|/ˈðɪs/|這個}}
+{{ex:think|/ˈθɪŋk/|想 / 認為}}{{ex:sink|/ˈsɪŋk/|洗滌盆 / 下沉}}{{ex:three|/ˈθriː/|三}}{{ex:free|/ˈfriː/|自由的 / 免費的}}{{ex:this|/ˈðɪs/|這個}}
 <h3>長短元音，還有 /æ/ 和 /e/</h3>
 <p>/iː/ 和 /ɪ/ 不只是長短不同，口形也不同：leave（離開）/ live（居住）。/uː/ 和 /ʊ/ 也是一對：fool（傻瓜）/ full（滿）。/æ/ 的嘴比 /e/ 張得更大：bad（壞）/ bed（床）。</p>
-{{ex:leave|/ˈliːv/|離開}}{{ex:live|/ˈlɪv/|居住 / 生活}}{{ex:fool|/ˈfuːl/|傻瓜}}{{ex:full|/ˈfʊl/|滿}}{{ex:bad|/ˈbæd/|壞}}
+{{ex:leave|/ˈliːv/|離開}}{{ex:live|/ˈlɪv/|住 / 生活}}{{ex:fool|/ˈfuːl/|傻瓜}}{{ex:full|/ˈfʊl/|滿的 / 飽的}}{{ex:bad|/ˈbæd/|壞的}}
 <h3>雙元音後面的輔音，還有字尾的 l</h3>
 <p>廣東話沒有「雙元音 + 輔音」的音節，所以 time、like、game 的字尾輔音容易不見，或者元音被讀短（game 讀成 "gem"）。先把 /aɪ/、/eɪ/ 讀完整，再讀出 m 或 k。字尾的 l 也要用舌尖抵住上齒齦，不要讀成元音：feel、will。</p>
-{{ex:time|/ˈtaɪm/|時間}}{{ex:like|/ˈlaɪk/|喜歡}}{{ex:game|/ˈgeɪm/|遊戲 / 比賽}}{{ex:feel|/ˈfiːl/|感覺}}
+{{ex:time|/ˈtaɪm/|時間}}{{ex:like|/ˈlaɪk/|喜歡 / 好像}}{{ex:game|/ˈgeɪm/|遊戲 / 比賽}}{{ex:feel|/ˈfiːl/|感覺}}
 <h3>重音和弱讀決定對方能不能聽懂</h3>
 <p>廣東話每個字的分量差不多，沒有弱讀的音節。英文的多音節字裏卻總有一個音節讀得<b>又重、又長、又高</b>，其他音節弱讀，元音常常變成 /ə/：about 是 /əˈbaʊt/，開頭不是清楚的 a。重音錯了，其他音再準，對方也可能聽不懂。</p>
-<div class="tbl"><table><tr><th>生字</th><th>重音</th><th>音標</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>/bəˈnænə/</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>/hoʊˈtel/</td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>/məkˈdɑːnəldz/</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>/ˌθɜːrˈtiːn/、/ˈθɜːrti/</td></tr></table></div>
+<div class="tbl"><table><tr><th>生字</th><th>重音</th><th>音標</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>/bəˈnænə/</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>/hoʊˈtel/</td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>/məkˈdɑːnldz/</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>/ˌθɜːrˈtiːn/、/ˈθɜːrti/</td></tr></table></div>
 <div class="tip">自我檢查：讀 F、V 時上齒要碰到下唇，讀 TH 時舌尖要露在齒間，<b>照鏡能看見</b>就對了。讀到字尾時，記得把最後一個輔音讀出來。帶一點口音不要緊，目標是讓人聽得明白。</div>`},
 
 { id:"articles", title:"2 · a 和 the：冠詞入門", blurb:"中文沒有冠詞，a 和 the 最容易漏掉，也最容易亂加。記住三種情況就夠了。", deck:"自我介紹", body:`
@@ -102,13 +102,13 @@ exports.LESSONS = [
 { id:"tense", title:"5 · 時態一覽：現在、過去、將來", blurb:"習慣用現在式，正在做的事用現在進行式，計劃用 be going to。", deck:"閒談", body:`
 <p>廣東話的動詞不變形，時間靠「琴日、聽日」這類字詞，或者「咗、過、緊」這類助詞來表示。英文卻必須<b>改變動詞</b>：句子裏有了 yesterday，動詞照樣要用過去式 (past tense)。閒談時最常用的是下面五種形式。</p>
 <h3>廣東話的助詞 ≠ 英文的時態 (tense)</h3>
-<div class="tbl"><table><tr><th>廣東話</th><th>常見對應</th><th>留意</th></tr><tr><td class="k">緊（做緊）</td><td>現在進行式 be + -ing</td><td>只表示「正在做」</td></tr><tr><td class="k">咗（做咗）</td><td>多數是過去式</td><td>「咗」表示完成，不等於過去：「我聽日食咗飯先走」說的是明天</td></tr><tr><td class="k">過（去過）</td><td>現在完成式</td><td>表示經驗：I've been to…</td></tr><tr><td class="k">會 / 打算</td><td>will / be going to</td><td>事先定好的計劃用 going to</td></tr></table></div>
+<div class="tbl"><table><tr><th>廣東話</th><th>常見對應</th><th>留意</th></tr><tr><td class="k">「緊」（「做緊」）</td><td>現在進行式 be + -ing</td><td>只表示「正在做」</td></tr><tr><td class="k">「咗」（「做咗」）</td><td>多數是過去式</td><td>「咗」表示完成，不等於過去：「我聽日食咗飯先走」說的是明天</td></tr><tr><td class="k">「過」（「去過」）</td><td>現在完成式</td><td>表示經驗：I've been to…</td></tr><tr><td class="k">「會」 / 「打算」</td><td>will / be going to</td><td>事先定好的計劃用 going to</td></tr></table></div>
 <h3>現在式和現在進行式</h3>
 <div class="tbl"><table><tr><th>形式</th><th>意思</th><th>例句</th></tr><tr><td class="k">現在式</td><td>習慣、一向如此的事實</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + -ing</td><td>正在做 / 已經定好的近期安排</td><td>I'm drinking coffee right now.</td></tr></table></div>
 {{ex:I work at a bank.|/aɪ ˈwɜːrk ət ə ˈbæŋk/|我在銀行工作（一向如此）}}{{ex:I'm working from home today.|/aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/|我今天在家工作}}
 <h3>過去式</h3>
 <p>規則動詞加 <b>-ed</b>，但最常用的動詞大多是不規則的：go → went、eat → ate、see → saw、have → had、get → got。</p>
-{{ex:I went to the beach last weekend.|/aɪ ˈwent tə ðə ˈbiːtʃ ˈlæst ˈwiːkend/|我上個週末去了海灘}}{{ex:Did you have fun?|/dɪd ju ˈhæv ˈfʌn/|玩得開心嗎？}}
+{{ex:I went to the beach last weekend.|/aɪ ˈwent tə ðə ˈbiːtʃ ˈlæst ˈwiːkend/|我上個週末去了沙灘}}{{ex:Did you have fun?|/dɪd ju ˈhæv ˈfʌn/|玩得開心嗎？}}
 <h3>將來：will 和 be going to</h3>
 <div class="tbl"><table><tr><th></th><th>甚麼時候用</th><th>例句</th></tr><tr><td class="k">will</td><td>說話時即時決定、承諾</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>事先定好的計劃</td><td>I'm going to visit Macau next month.</td></tr></table></div>
 {{ex:I'll call you later.|/aɪl ˈkɔːl ju ˈleɪtər/|我稍後打電話給你}}{{ex:I'm going to take a cooking class.|/aɪm ˈgoʊɪŋ tə ˈteɪk ə ˈkʊkɪŋ ˈklæs/|我打算去上烹飪班}}
@@ -136,14 +136,14 @@ exports.LESSONS = [
 <p>對方並不是真的想知道你過得怎樣，就像廣東話的「食咗飯未？」不是真的在問你吃了飯沒有。簡單回答，再<b>反問一句</b>才有禮貌。反過來，把「食咗飯未？」直譯成 Have you eaten? 在英文裏不是問候，對方可能以為你想請他吃飯。</p>
 {{ex:Hey, how's it going?|/ˈheɪ ˈhaʊz ɪt ˈgoʊɪŋ/|嗨，最近怎樣？}}{{ex:Pretty good! How about you?|/ˈprɪti ˈgʊd ‖ ˈhaʊ əbaʊt ˈjuː/|很好！你呢？}}
 <h3>安全話題和要避開的話題</h3>
-<div class="tbl"><table><tr><th>安全</th><th>初次見面最好避開</th></tr><tr><td>天氣、週末和假期計劃</td><td>年齡、婚姻狀況</td></tr><tr><td>美食、餐廳、旅行</td><td>體重和外表（「你是不是胖了？」）</td></tr><tr><td>電視劇、電影、運動</td><td>薪金、租金、樓價</td></tr><tr><td>工作（輕鬆地談）、住在哪一區</td><td>政治、宗教</td></tr></table></div>
+<div class="tbl"><table><tr><th>安全</th><th>初次見面最好避開</th></tr><tr><td>天氣、週末和假期計劃</td><td>年齡、婚姻狀況</td></tr><tr><td>美食、餐廳、旅行</td><td>體重和外表（「你是不是胖了？」）</td></tr><tr><td>劇集、電影、運動</td><td>薪金、租金、樓價</td></tr><tr><td>工作（輕鬆地談）、住在哪一區</td><td>政治、宗教</td></tr></table></div>
 <p>在香港，熟人之間問薪金、租金或年齡，有時是關心的表現；在英語國家，初次見面問這些會令人覺得冒犯。</p>
 <h3>讓對話繼續下去的技巧</h3>
 <p>回答 + <b>多說一點資料</b> + <b>反問</b>。有這三步，對話就不會冷場。</p>
 {{ex:It was great! I went hiking. What about you?|/ɪt wəz ˈgreɪt ‖ aɪ ˈwent ˈhaɪkɪŋ ‖ ˈwʌt əbaʊt ˈjuː/|很好！我去了行山。你呢？}}
 <p>附和也很重要：<b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
 <h3>自然地結束</h3>
-{{ex:Well, I should get going.|/ˈwel aɪ ʃəd ˈget ˈgoʊɪŋ/|那麼我先走了}}{{ex:It was nice talking to you.|/ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/|和你聊天很愉快}}
+{{ex:Well, I should get going.|/ˈwel aɪ ʃəd ˈget ˈgoʊɪŋ/|那麼我先走了}}{{ex:It was nice talking to you.|/ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/|跟你聊天很開心}}
 <div class="tip">附和否定句要用 <b>Me neither</b>：I don't like horror movies. → Me neither. 這裏不能用 Me too 回答。美式口語也會聽到 Me either，但標準說法是 Me neither。</div>`},
 
 { id:"phrasal", title:"8 · 片語動詞入門", blurb:"動詞 + 一個短字 = 全新的意思。以英文為母語的人日常說話少不了它。", deck:"片語動詞", body:`
@@ -200,7 +200,7 @@ exports.LESSONS = [
 {{ex:It's a piece of cake.|/ɪts ə ˈpiːs əv ˈkeɪk/|易如反掌（像吃一件蛋糕那樣容易）}}{{ex:It costs an arm and a leg.|/ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/|貴得要命（要拿一隻手和一條腿來換）}}{{ex:I'm all ears.|/aɪm ˈɔːl ˈɪrz/|洗耳恭聽（全身都是耳朵）}}
 <h3>和中文相似的說法</h3>
 <div class="tbl"><table><tr><th>英文</th><th>中文</th></tr><tr><td class="k">Speak of the devil!</td><td>一說曹操，曹操就到</td></tr><tr><td class="k">Kill two birds with one stone</td><td>一石二鳥</td></tr><tr><td class="k">When pigs fly</td><td>除非太陽從西邊出來</td></tr><tr><td class="k">A blessing in disguise</td><td>塞翁失馬，焉知非福</td></tr></table></div>
-<p>有些來自中文的說法已經被英文接受，例如 long time no see（很久不見）、lose face（丟臉）。add oil（加油）也收進了《牛津英語詞典》，但香港以外的人未必明白，詳見「港式英文陷阱」一課。</p>
+<p>有些來自中文的說法已經被英文接受，例如 long time no see（很久不見）、lose face（丟臉）。add oil（加油）也收進了《牛津英語詞典》，但香港以外的人未必明白，詳見「港式英文陷阱：在香港通用，出外要換個說法」一課。</p>
 <h3>習語和俚語</h3>
 <p><b>習語</b>歷史悠久，不分年齡，工作場合也能用 (Let's call it a day)。<b>俚語</b>是年輕人的潮流用語，只在朋友之間用（No cap、That song slaps）。俚語變化很快，年紀較大的人用起來可能有點彆扭。</p>
 {{ex:Let's call it a day.|/ˈlets ˈkɔːl ɪt ə ˈdeɪ/|今天到此為止吧（開會時也能用）}}{{ex:No cap, this is the best pizza ever.|/ˈnoʊ ˈkæp ˈðɪs ɪz ðə ˈbest ˈpiːtsə ˈevər/|說真的，這是我吃過最好吃的薄餅（只限朋友之間）}}

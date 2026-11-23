@@ -20,7 +20,7 @@ See you later. | /ˈsiː ju ˈleɪtər/ | 遲些見 | 即使沒有再見面的�
 Take care. | /ˈteɪk ˈker/ | 保重 | 溫暖的道別語，也常放在訊息結尾。
 Have a good one! | /ˈhæv ə ˈgʊd ˈwʌn/ | 祝你今天愉快！ | 店員收錢後常說。回一句 You too! 就可以了。
 Bye! | /ˈbaɪ/ | 再見！ | 香港人常說「拜拜」，但在英文裏，成年人之間說 Bye-bye 會顯得有點孩子氣，說 Bye! 就夠了。
-Good night. | /ˈgʊd ˈnaɪt/ | 晚安 | 只在晚上道別或去睡覺時用。見面打招呼要說 Good evening。night 的 n 不要讀成 l（light）。
+Good night. | /ˈgʊd ˈnaɪt/ | 晚安 | 只在晚上道別或去睡覺時用。見面打招呼要說 Good evening。night 的 n 不要讀成 l (light)。
 `,
 "自我介紹": `
 My name is Amy. | /maɪ ˈneɪm ɪz ˈeɪmi/ | 我叫 Amy | 日常更常說 I'm Amy. 說全名時英文名在前、姓氏在後：Amy Chan。name 的 n 不要讀成 l。
@@ -28,7 +28,7 @@ Please call me Jay. | /ˈpliːz ˈkɔːl mi ˈdʒeɪ/ | 叫我 Jay 就可以 | �
 What should I call you? | /ˈwʌt ʃəd aɪ ˈkɔːl ju/ | 我應該怎樣稱呼你？ | 對方的名字不好讀，或想知道對方的暱稱時很有用。
 Where are you from? | /ˈwer ər ju frʌm/ | 你是哪裏人？/ 你從哪裏來？ | 在外國最先被問到的問題之一。
 I'm from Hong Kong. | /aɪm frəm ˌhɑːŋ ˈkɑːŋ/ | 我來自香港 | Hong Kong 前面不加冠詞 the。from 的 r 要讀出來，不要讀成 "fom"。
-I live in Kowloon. | /aɪ ˈlɪv ɪn ˌkaʊˈluːn/ | 我住在九龍 | live 的 v 要用上齒輕碰下唇，聲帶震動，不要讀成 f；元音是短的 /ɪ/，讀長了就變成 leave。
+I live in Kowloon. | /aɪ ˈlɪv ɪn ˌkaʊˈluːn/ | 我住在九龍 | live 的 v 要用上齒輕碰下唇，聲帶振動，不要讀成 f；元音是短的 /ɪ/，讀長了就變成 leave。
 I'm a student. | /aɪm ə ˈstuːdnt/ | 我是學生 | 職業前一定要加冠詞 a / an。I'm student. ✗ 是最常見的錯誤。
 What do you do? | /ˈwʌt də ju ˈduː/ | 你做甚麼工作？ | 問職業的標準說法，比 What's your job? 委婉。
 I work at a bank. | /aɪ ˈwɜːrk ət ə ˈbæŋk/ | 我在銀行工作 | 公司、地點前用 at：I work at Google.
@@ -37,7 +37,7 @@ I'm 25 years old. | /aɪm ˌtwentiˈfaɪv ˈjɪrz ˈoʊld/ | 我 25 歲 | years 
 I'm really into hiking. | /aɪm ˈriːəli ɪntə ˈhaɪkɪŋ/ | 我很喜歡行山 | 說興趣時，比 My hobby is… 自然得多。
 I like watching movies. | /aɪ ˈlaɪk ˈwɑːtʃɪŋ ˈmuːviz/ | 我喜歡看電影 | like 後面接動作，用 -ing 形式或 to + 動詞原形。香港學校教的是 film；美國說 movie。
 I've been learning English for a year. | /aɪv bɪn ˈlɜːrnɪŋ ˈɪŋglɪʃ fər ə ˈjɪr/ | 我學了一年英文 | 由過去一直持續到現在的事，用 have been + -ing（現在完成進行式）。中文說「學了一年」動詞不變，英文要靠動詞形式。
-I'm here on vacation. | /aɪm ˈhɪr ɑːn veɪˈkeɪʃn/ | 我來度假 | 香港學校教的是 holiday（I'm here on holiday.）；美國說 vacation。
+I'm here on vacation. | /aɪm ˈhɪr ɑːn veɪˈkeɪʃn/ | 我來度假 | 香港學校教的是 holiday (I'm here on holiday.)；美國說 vacation。
 I'm married. | /aɪm ˈmærid/ | 我已婚 | 單身就說 I'm single. 初次見面最好不要問對方是否已婚。
 I have a younger brother. | /aɪ ˈhæv ə ˈjʌŋgər ˈbrʌðər/ | 我有一個弟弟 | 英文不分「哥哥」和「弟弟」，只用 older / younger brother 區分。
 `,
@@ -89,7 +89,7 @@ Turn left at the corner. | /ˈtɜːrn ˈleft ət ðə ˈkɔːrnər/ | 在街角�
 It's on your right. | /ɪts ɑːn jʊr ˈraɪt/ | 在你的右邊 | right 開頭是 r，嘴唇微微收圓，舌尖不碰上顎；不要讀成 light 或 white。
 It's across the street. | /ɪts əkrɔːs ðə ˈstriːt/ | 在馬路對面 | across from… = 在……的對面。
 It's next to the bank. | /ɪts ˈnekst tə ðə ˈbæŋk/ | 在銀行旁邊 | next to 裏兩個 t 連在一起，只讀一個；但 next 的 /ks/ 不能省。
-Which line goes downtown? | /ˈwɪtʃ ˈlaɪn ˈgoʊz ˌdaʊnˈtaʊn/ | 哪條綫去市中心？ | downtown 前面不加 to。line 字尾的 n 要讀出來。
+Which line goes downtown? | /ˈwɪtʃ ˈlaɪn ˈgoʊz ˌdaʊnˈtaʊn/ | 哪條線去市中心？ | downtown 前面不加 to。line 字尾的 n 要讀出來。
 Where do I transfer? | /ˈwer də aɪ trænsˈfɜːr/ | 在哪裏轉車？ | 英式說 change：Where do I change?
 Does this bus go to the airport? | /dəz ˈðɪs ˈbʌs ˈgoʊ tə ði ˈerpɔːrt/ | 這班巴士去機場嗎？ | 元音前的 the 讀 /ði/。
 Which stop should I get off at? | /ˈwɪtʃ ˈstɑːp ʃəd aɪ ˈget ˈɔːf æt/ | 我應該在哪一站下車？ | get off = 下車（巴士、地鐵）。介詞 at 放在句尾。
@@ -161,7 +161,7 @@ It's three thirty. | /ɪts ˈθriː ˈθɜːrti/ | 三點半 | 香港學校教�
 It's a quarter to five. | /ɪts ə ˈkwɔːrtər tə ˈfaɪv/ | 四點四十五分 | quarter = 15 分鐘（廣東話說「三個字」）。也可以說 four forty-five。
 At noon | /ət ˈnuːn/ | 中午 12 點 | 午夜是 midnight，比 12 a.m. / 12 p.m. 更不容易弄錯。
 What's the date today? | /ˈwʌts ðə ˈdeɪt təˈdeɪ/ | 今天是幾號？ | 問星期幾：What day is it today? 美國寫日期先月後日，5/3 是 5 月 3 日；香港和英國先日後月。
-It's May 3rd. | /ɪts ˈmeɪ ˈθɜːrd/ | 5 月 3 日 | 日期用序數詞讀：first, second, third, fourth… 樓層也用序數詞：美國的 first floor 是香港的地下（G/F），second floor 才是香港的一樓。
+It's May 3rd. | /ɪts ˈmeɪ ˈθɜːrd/ | 5 月 3 日 | 日期用序數詞讀：first, second, third, fourth… 樓層也用序數詞：美國的 first floor 是香港的地下 (G/F)，second floor 才是香港的一樓。
 My birthday is in October. | /maɪ ˈbɜːrθdeɪ ɪz ɪn ɑːkˈtoʊbər/ | 我的生日在 10 月 | 月份前用 in，具體日期前用 on：on October 5th。
 On Monday | /ɑːn ˈmʌndeɪ/ | 在星期一 | 星期前用 on。每逢星期一：on Mondays。
 Next weekend | /ˈnekst ˈwiːkend/ | 下個週末 | next / last / this 前面不加介詞。
@@ -216,7 +216,7 @@ It's not a big deal. | /ɪts ˈnɑːt ə ˈbɪg ˈdiːl/ | 沒甚麼大不了 | 
 "讚美與好感": `
 You look great! | /ju ˈlʊk ˈgreɪt/ | 你看起來很好！ | 稱讚外表用 You look…，熟人之間很自然。
 I love your shoes. | /aɪ ˈlʌv jʊr ˈʃuːz/ | 你的鞋很好看 | love = 非常喜歡。對陌生人也可以隨口稱讚一句。
-That color looks good on you. | /ˈðæt ˈkʌlər ˈlʊks ˈgʊd ɑːn ju/ | 這個顏色很適合你 | look good on + 人 = 穿在某人身上好看。美式拼法是 color，香港學校教的英式拼法是 colour。
+That color looks good on you. | /ˈðæt ˈkʌlər ˈlʊks ˈgʊd ɑːn ju/ | 這個顏色很適合你 | look good on + 人 = 穿在某人身上好看。美式串法是 color，香港學校教的英式串法是 colour。
 You have a great smile. | /ju ˈhæv ə ˈgreɪt ˈsmaɪl/ | 你的笑容很好看 | 熟絡以後才用的溫暖讚美。
 You're so funny. | /jʊr ˈsoʊ ˈfʌni/ | 你真搞笑 | funny = 好笑的；fun = 令人開心、好玩的。
 Great job! | /ˈgreɪt ˈdʒɑːb/ | 做得好！ | 職場、學校都可以用。Nice work! 也一樣。
@@ -282,14 +282,14 @@ Window or aisle? | /ˈwɪndoʊ ər ˈaɪl/ | 靠窗還是靠通道？ | aisle �
 I'd like an aisle seat, please. | /aɪd ˈlaɪk ən ˈaɪl ˈsiːt ˈpliːz/ | 我想要靠通道的座位 | 靠窗：a window seat。
 Where is the baggage claim? | /ˈwer ɪz ðə ˈbægɪdʒ ˈkleɪm/ | 行李認領處在哪裏？ | 英國說 baggage reclaim。claim 的 l 和字尾的 m 都要讀出來。
 My luggage is missing. | /maɪ ˈlʌgɪdʒ ɪz ˈmɪsɪŋ/ | 我的行李不見了 | luggage 是不可數名詞，沒有眾數：a piece of luggage。
-I have a reservation under Chan. | /aɪ ˈhæv ə ˌrezərˈveɪʃn ʌndər ˈtʃæn/ | 我用「陳」這個姓氏訂了房 | under + 訂房人的姓名。說姓氏就可以，有需要時逐個字母拼出來：C-H-A-N。
+I have a reservation under Chan. | /aɪ ˈhæv ə ˌrezərˈveɪʃn ʌndər ˈtʃæn/ | 我用「陳」這個姓氏訂了房 | under + 訂房人的姓名。說姓氏就可以，有需要時逐個字母串出來：C-H-A-N。
 What time is check-out? | /ˈwʌt ˈtaɪm ɪz ˈtʃekaʊt/ | 幾點退房？ | 想遲一點走：Can I get a late check-out?
 Can I check in early? | /kən aɪ ˈtʃek ˈɪn ˈɜːrli/ | 可以提早入住嗎？ | check in 要連讀。
 Is breakfast included? | /ɪz ˈbrekfəst ɪnˈkluːdɪd/ | 包早餐嗎？ | breakfast 讀 /ˈbrekfəst/，不是 break + fast。
 The air conditioner isn't working. | /ði ˈer kənˈdɪʃənər ˈɪznt ˈwɜːrkɪŋ/ | 冷氣壞了 | 口語簡稱 AC。
 Could I get some extra towels? | /kəd aɪ ˈget ˈsʌm ˈekstrə ˈtaʊəlz/ | 可以多給我幾條毛巾嗎？ | could I 要連讀。towels 是眾數，字尾的 /z/ 要讀出來。
 Can you hold my bags until 3? | /kən ju ˈhoʊld maɪ ˈbægz əntɪl ˈθriː/ | 可以替我保管行李到 3 點嗎？ | 退房後寄存行李。hold = 代為保管。
-My flight was delayed. | /maɪ ˈflaɪt wəz dɪˈleɪd/ | 我的航班延誤了 | 取消是 canceled（英式拼法 cancelled）。flight 的 l 要讀出來，不要讀成 fight。
+My flight was delayed. | /maɪ ˈflaɪt wəz dɪˈleɪd/ | 我的航班延誤了 | 取消是 canceled（英式串法 cancelled）。flight 的 l 要讀出來，不要讀成 fight。
 Where's gate 12? | /ˈwerz ˈgeɪt ˈtwelv/ | 12 號閘口在哪裏？ | 英文把號碼放在後面：gate 12、room 305。
 Do I need to take my laptop out? | /də aɪ ˈniːd tə ˈteɪk maɪ ˈlæptɑːp ˈaʊt/ | 需要把手提電腦拿出來嗎？ | 過保安檢查時問。
 `,
@@ -299,7 +299,7 @@ Call 911! | /ˈkɔːl ˈnaɪn ˈwʌn ˈwʌn/ | 快打 911！ | 美國的緊急�
 I need a doctor. | /aɪ ˈniːd ə ˈdɑːktər/ | 我要看醫生 | 情況緊急：I need an ambulance.
 I don't feel well. | /aɪ ˈdoʊnt ˈfiːl ˈwel/ | 我不太舒服 | 最常用的說法。
 I have a headache. | /aɪ ˈhæv ə ˈhedeɪk/ | 我頭痛 | 痛的部位 + ache：stomachache, toothache。headache 是可數名詞，前面要加冠詞 a。
-I have a fever. | /aɪ ˈhæv ə ˈfiːvər/ | 我發燒了 | fever 中間的 v 要震動聲帶，不要讀成 f 或 w。
+I have a fever. | /aɪ ˈhæv ə ˈfiːvər/ | 我發燒了 | fever 中間的 v 要振動聲帶，不要讀成 f 或 w。
 My stomach hurts. | /maɪ ˈstʌmək ˈhɜːrts/ | 我肚子痛 | 部位 + hurts。hurts 字尾的 /ts/ 要讀出來。
 I have a sore throat. | /aɪ ˈhæv ə ˈsɔːr ˈθroʊt/ | 我喉嚨痛 | throat 是喉嚨，不是頸 (neck)。開頭是 th 加 r，不要讀成 "froat"。
 I feel dizzy. | /aɪ ˈfiːl ˈdɪzi/ | 我頭暈 | 想吐：I feel sick. / I feel nauseous. dizzy 中間是帶聲的 /z/，不是 /s/。
@@ -336,7 +336,7 @@ set up | /ˈset ˈʌp/ | 安裝 / 設定 / 安排 | 安裝器材、準備會議�
 break up | /ˈbreɪk ˈʌp/ | 分手 | They broke up last month. 和誰分手：break up with。
 fill out | /ˈfɪl ˈaʊt/ | 填寫（表格） | Please fill out this form. 英式說 fill in。
 grow up | /ˈgroʊ ˈʌp/ | 長大 | 說在哪裏長大：I grew up in Kowloon.（我在九龍長大）
-wake up | /ˈweɪk ˈʌp/ | 醒來 | 醒過來是 wake up，起牀是 get up。
+wake up | /ˈweɪk ˈʌp/ | 醒來 | 醒過來是 wake up，起床是 get up。
 `,
 "發音易錯": `
 rice | /ˈraɪs/ | 米 / 飯 | r：嘴唇微微收圓，舌尖向後捲，不碰口腔任何地方。讀成 l 就變成 lice，也不要讀成 w。
@@ -348,11 +348,11 @@ pan | /ˈpæn/ | 平底鑊 | 和 pen 分清楚：pan 的 /æ/ 嘴巴張得比 pe
 coffee | /ˈkɔːfi/ | 咖啡 | 美式的第一個元音是 /ɔː/，英式較短。重音在前，第二個音節輕而短。
 copy | /ˈkɑːpi/ | 影印 / 副本 | 美式的元音是 /ɑː/，嘴巴張開，不收圓。中間是 p，和 coffee 的 f 分清楚。
 think | /ˈθɪŋk/ | 想 / 認為 | /θ/：舌尖輕放在上下齒之間送氣。讀成 f 就變成 "fink"。字尾的 /ŋk/ 也要讀出來。
-sink | /ˈsɪŋk/ | 洗手盆 / 下沉 | 開頭是 s，舌尖在牙齒後面。和 think 是一對。
+sink | /ˈsɪŋk/ | 洗滌盆 / 下沉 | 開頭是 s，舌尖在牙齒後面。和 think 是一對。
 three | /ˈθriː/ | 三 | th 加 r：舌尖先放在齒間，再向後捲。讀成 f 就變成 free，讀成 t 就像 tree。
 tree | /ˈtriː/ | 樹 | /tr/ 連在一起讀，中間不加元音，r 也不能省。
-this | /ˈðɪs/ | 這個 | 帶聲的 /ð/：舌尖放在齒間，聲帶震動，不要讀成 d（"dis"）。
-very | /ˈveri/ | 非常 | v：上齒輕碰下唇，聲帶震動。不要讀成 w（wary）。
+this | /ˈðɪs/ | 這個 | 帶聲的 /ð/：舌尖放在齒間，聲帶振動，不要讀成 d ("dis")。
+very | /ˈveri/ | 非常 | v：上齒輕碰下唇，聲帶振動。不要讀成 w (wary)。
 berry | /ˈberi/ | 漿果 | b：雙唇合上再放開。和 very 分清楚。
 vote | /ˈvoʊt/ | 投票 | v 開頭，不是 w，也不是 b。字尾的 t 輕輕收住。
 boat | /ˈboʊt/ | 船 | b 開頭。雙元音 /oʊ/ 之後還有 t，不要把 t 吞掉。
@@ -360,7 +360,7 @@ walk | /ˈwɔːk/ | 走路 | l 不發音，元音是嘴巴張開的 /ɔː/，字
 work | /ˈwɜːrk/ | 工作 | 美式是捲舌的 /ɜːr/。和 walk 是很容易混淆的一對。
 beach | /ˈbiːtʃ/ | 沙灘 | /iː/ 是長音，嘴角向兩邊拉緊。讀成短而放鬆的 /ɪ/ 會變成罵人的字。
 leave | /ˈliːv/ | 離開 | 長音 /iː/，字尾的 v 帶聲。和短音的 live（住）分清楚。
-live | /ˈlɪv/ | 住 / 生活 | 短而放鬆的 /ɪ/。字尾的 v 要震動聲帶，不要讀成 f。
+live | /ˈlɪv/ | 住 / 生活 | 短而放鬆的 /ɪ/。字尾的 v 要振動聲帶，不要讀成 f。
 banana | /bəˈnænə/ | 香蕉 | 重音在中間，前後兩個 a 都弱讀成 /ə/。廣東話每個音節一樣重，英文不是。
 hotel | /hoʊˈtel/ | 酒店 | 重音在後面的 tel。字尾的 l 舌尖要碰上去，不要讀成元音。
 milk | /ˈmɪlk/ | 牛奶 | l 之後緊接 k：舌尖先碰上齒後面，再輕輕讀出 k，兩個音都不能省。
@@ -369,19 +369,19 @@ night | /ˈnaɪt/ | 夜晚 | n：舌尖抵住上齒後面，氣從鼻出。讀�
 know | /ˈnoʊ/ | 知道 | k 不發音。n 開頭，讀成 l 就變成 low。
 low | /ˈloʊ/ | 低的 | l 開頭，舌尖抵住上齒後面，氣從舌頭兩邊出。
 free | /ˈfriː/ | 自由的 / 免費的 | f：上齒輕碰下唇。和 three 是一對：three 的舌尖在齒間。
-they | /ˈðeɪ/ | 他們 | /ð/：舌尖放在齒間，聲帶震動。讀成 d 就變成 day。
+they | /ˈðeɪ/ | 他們 | /ð/：舌尖放在齒間，聲帶振動。讀成 d 就變成 day。
 day | /ˈdeɪ/ | 日子 / 一天 | d 開頭，舌尖在上齒後面，不伸到齒間。和 they 是一對。
 wary | /ˈweri/ | 謹慎的 | w：雙唇收圓，不碰牙齒。和 very 分清楚。
 vest | /ˈvest/ | 背心 | v 開頭，上齒碰下唇。讀成 w 就變成 west。字尾的 /st/ 要讀全。
 west | /ˈwest/ | 西方 / 西面 | w 開頭，嘴唇收圓，牙齒不碰嘴唇。
-zip | /ˈzɪp/ | 拉鏈 / 拉上 | /z/ 的口形和 s 一樣，但聲帶要震動。不帶聲就變成 sip。
+zip | /ˈzɪp/ | 拉鏈 / 拉上 | /z/ 的口形和 s 一樣，但聲帶要振動。不帶聲就變成 sip。
 sip | /ˈsɪp/ | 小口地喝 | 開頭是不帶聲的 s。和 zip 是一對。
 show | /ˈʃoʊ/ | 表演 / 展示 | /ʃ/：嘴唇向前收圓，舌頭比 s 稍後。讀成 s 就變成 so。
 so | /ˈsoʊ/ | 所以 / 這麼 | 開頭是 s，嘴唇不用向前突。和 show 是一對。
 full | /ˈfʊl/ | 滿的 / 飽的 | 短而放鬆的 /ʊ/。讀得太長太緊就變成 fool。
 fool | /ˈfuːl/ | 傻瓜 | 長音 /uː/，嘴唇收得更圓更緊。字尾的 l 舌尖要碰上去。
 bad | /ˈbæd/ | 壞的 | /æ/ 嘴巴張大。張得不夠就變成 bed。
-bed | /ˈbed/ | 牀 | /e/ 嘴巴張得比 /æ/ 小。字尾的 d 帶聲，不要讀成 bet。
+bed | /ˈbed/ | 床 | /e/ 嘴巴張得比 /æ/ 小。字尾的 d 帶聲，不要讀成 bet。
 `,
 "英文習語": `
 It's a piece of cake. | /ɪts ə ˈpiːs əv ˈkeɪk/ | 易如反掌 | 非常容易：The test was a piece of cake.
@@ -429,7 +429,7 @@ Let's do this! | /ˈlets ˈduː ˈðɪs/ | 來，開始吧！ | 開始前為大�
 A | /ˈeɪ/ | 字母 A（小楷 a） | apple 的 A。名稱是 /ˈeɪ/，和 day 的元音一樣。
 B | /ˈbiː/ | 字母 B（小楷 b） | bag 的 B。雙唇合上再放開。電話裏容易和 P、D 聽錯，可以說 B as in boy。
 C | /ˈsiː/ | 字母 C（小楷 c） | coffee 的 C。名稱和 see 同音，開頭是 /s/，不是 /ʃ/。
-D | /ˈdiː/ | 字母 D（小楷 d） | dog 的 D。和 T 只差聲帶震動，電話裏容易聽錯。
+D | /ˈdiː/ | 字母 D（小楷 d） | dog 的 D。和 T 只差聲帶振動，電話裏容易聽錯。
 E | /ˈiː/ | 字母 E（小楷 e） | email 的 E。名稱是長音 /ˈiː/；/ˈaɪ/ 是 I 的名稱。
 F | /ˈef/ | 字母 F（小楷 f） | fan 的 F。名稱只有一個音節：上齒輕碰下唇就收住，後面不加元音。coffee 裏的 ff 說 double F。
 G | /ˈdʒiː/ | 字母 G（小楷 g） | go 的 G。名稱是 /ˈdʒiː/，J 才是 /ˈdʒeɪ/，不要把兩個對調。
@@ -447,7 +447,7 @@ R | /ˈɑːr/ | 字母 R（小楷 r） | rice 的 R。美式名稱是 /ˈɑːr/�
 S | /ˈes/ | 字母 S（小楷 s） | sorry 的 S。名稱只有一個音節，以 /s/ 收住，後面不加元音。/ˈsiː/ 是 C 的名稱。class 裏的 ss 說 double S。
 T | /ˈtiː/ | 字母 T（小楷 t） | taxi 的 T。大楷說 capital T，兩個 T 連在一起說 double T。
 U | /ˈjuː/ | 字母 U（小楷 u） | university 的 U。名稱和 you 同音，以 /j/ 開頭，所以說 a U。
-V | /ˈviː/ | 字母 V（小楷 v） | very 的 V。上齒輕碰下唇，聲帶震動。名稱是 /ˈviː/，不要讀成 "wee"。
+V | /ˈviː/ | 字母 V（小楷 v） | very 的 V。上齒輕碰下唇，聲帶振動。名稱是 /ˈviː/，不要讀成 "wee"。
 W | /ˈdʌbəljuː/ | 字母 W（小楷 w） | water 的 W。名稱是 double u（兩個 U），三個音節都要讀出來。
 X | /ˈeks/ | 字母 X（小楷 x） | X-ray（X 光）的 X，不過 X 更常出現在字尾，例如 box。名稱由元音開頭，所以說 an X；只有一個音節，/ks/ 之後不加元音。
 Y | /ˈwaɪ/ | 字母 Y（小楷 y） | yes 的 Y。名稱和 why 同音。
@@ -458,7 +458,7 @@ Turn on the light. | /ˈtɜːrn ˈɑːn ðə ˈlaɪt/ | 開燈 | 港式英文：
 Turn off the TV. | /ˈtɜːrn ˈɔːf ðə ˌtiː ˈviː/ | 關電視 | 港式英文：「熄電視」不是 close the TV ✗。電器用 turn off，門窗才用 close。
 I'll take you to the station. | /aɪl ˈteɪk ju tə ðə ˈsteɪʃn/ | 我帶你去車站 | 一字多義：中文的「帶」在英文分兩個字。把人或物帶去別處用 take；帶到說話人這裏才用 bring。
 Can you bring me some water? | /kən ju ˈbrɪŋ mi ˈsʌm ˈwɔːtər/ | 可以拿些水給我嗎？ | 一字多義：「拿來、帶來」（朝說話人的方向）用 bring，和 take 的方向相反。
-Can you lend me a pen? | /kən ju ˈlend mi ə ˈpen/ | 可以借一枝筆給我嗎？ | 一字多義：中文的「借」不分方向。借給別人用 lend。Can you borrow me a pen? ✗
+Can you lend me a pen? | /kən ju ˈlend mi ə ˈpen/ | 可以借一支筆給我嗎？ | 一字多義：中文的「借」不分方向。借給別人用 lend。Can you borrow me a pen? ✗
 Can I borrow your charger? | /kən aɪ ˈbɑːroʊ jʊr ˈtʃɑːrdʒər/ | 我可以借用你的充電器嗎？ | 一字多義：向別人借來用是 borrow。記住：lend 是借出，borrow 是借入。
 I'm reading a book. | /aɪm ˈriːdɪŋ ə ˈbʊk/ | 我在看書 | 一字多義：廣東話的「睇」在英文分幾個字。「睇書」用 read，不說 see a book ✗ 或 look a book ✗。
 I'm watching TV. | /aɪm ˈwɑːtʃɪŋ ˌtiː ˈviː/ | 我在看電視 | 一字多義：看電視、看比賽這種持續地看用 watch。watch TV 是固定說法，TV 前不加冠詞；指某一部電視機時才說 the TV：Turn off the TV.
@@ -478,7 +478,7 @@ Let's discuss the plan. | /ˈlets dɪˈskʌs ðə ˈplæn/ | 我們討論一下�
 Good luck! | /ˈgʊd ˈlʌk/ | 加油！/ 祝你好運！ | 港式英文：Add oil! 已收進《牛津英語詞典》，香港人之間可以用，但外地人未必明白。對外國人說 Good luck! / You can do it! / Go for it!
 Where's the cashier? | /ˈwerz ðə kæˈʃɪr/ | 收銀處在哪裏？ | 港式英文：停車場和醫院的 shroff（繳費處）是香港本地用字，外地人未必明白。在外國說 cashier 或 payment office。
 I need a company stamp. | /aɪ ˈniːd ə ˈkʌmpəni ˈstæmp/ | 我需要公司印章 | 港式英文：香港把印章叫 chop，在本地沒有問題，外地人卻未必明白。說 stamp 就清楚了。
-I'm waiting in line. | /aɪm ˈweɪtɪŋ ɪn ˈlaɪn/ | 我在排隊 | 英式 / 美式：香港學校教的是 queue（I'm queuing.）；美國說 wait in line。兩個都對。
+I'm waiting in line. | /aɪm ˈweɪtɪŋ ɪn ˈlaɪn/ | 我在排隊 | 英式 / 美式：香港學校教的是 queue (I'm queuing.)；美國說 wait in line。兩個都對。
 Take the elevator to the first floor. | /ˈteɪk ði ˈelɪveɪtər tə ðə ˈfɜːrst ˈflɔːr/ | 搭升降機到地下 | 英式 / 美式：香港說 lift 和 ground floor (G/F)；美國說 elevator，first floor 就是地下。
 I live in an apartment. | /aɪ ˈlɪv ɪn ən əˈpɑːrtmənt/ | 我住在一個住宅單位 | 英式 / 美式：香港說 flat；美國說 apartment。
 Where's the trash can? | /ˈwerz ðə ˈtræʃ ˈkæn/ | 垃圾桶在哪裏？ | 英式 / 美式：香港說 rubbish bin；美國說 trash can 或 garbage can。
@@ -507,7 +507,7 @@ time | /ˈtaɪm/ | 時間 | 雙元音 /aɪ/ 之後要合上雙唇讀出 m。廣�
 like | /ˈlaɪk/ | 喜歡 / 好像 | /aɪ/ 之後還有 k，不要讀成 "lai"。
 game | /ˈgeɪm/ | 遊戲 / 比賽 | /eɪ/ 要讀足，再合上雙唇讀 m，不要縮短成 "gem"。
 nine | /ˈnaɪn/ | 九 | 開頭和字尾都是 n。字尾的 n 不要吞掉，開頭的 n 不要讀成 l。
-line | /ˈlaɪn/ | 綫 / 隊伍 | l 開頭，n 收尾。和 nine 只差第一個音。
+line | /ˈlaɪn/ | 線 / 隊伍 | l 開頭，n 收尾。和 nine 只差第一個音。
 place | /ˈpleɪs/ | 地方 | 開頭 /pl/ 兩個輔音連在一起，l 不能省，否則變成 pace。
 pace | /ˈpeɪs/ | 步伐 / 速度 | p 之後直接是元音，沒有 l。和 place 是一對。
 bring | /ˈbrɪŋ/ | 帶來 | 開頭是 /br/，r 不要讀成 l（"bling"），也不要省掉。

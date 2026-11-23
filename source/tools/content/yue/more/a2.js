@@ -25,7 +25,7 @@ practice:[
 ["fi","What __ you doing?","你當時在做甚麼？","were","was|did|does","主語 you 用 were。"],
 ["fi","I was sleeping __ you called.","你打電話來的時候，我在睡覺","when","so|than|or","「……的時候」用 when。"],
 ["ty","我當時在工作","I was working","was · work — -ing 形式","were","主語 I 用 was，再加 -ing 形式。"],
-["ty","我當時在看電影","I was watching a movie","was · watching · movie — 冠詞 a","the","沒有特指哪一齣電影，用冠詞 a。"],
+["ty","我當時在看電影（用 movie）","I was watching a movie","was · watching · movie — 冠詞 a","the","沒有特指哪一齣電影，用冠詞 a。"],
 ["ty","孩子們當時在玩耍","The kids were playing|The children were playing","kids · were · playing — 眾數","kid","孩子不止一個，用眾數 kids 和 were。"]]},
 { id:"will", title:"will：即場決定、承諾、預測", blurb:"即場決定用 will，事先計劃好用 be going to。", deck:"閒談", body:`
 <p><b>will + 動詞原形</b>。口語裏幾乎總是縮寫成 <b>I'll、you'll、it'll</b>，否定是 <b>won't</b>。</p>
@@ -33,7 +33,7 @@ practice:[
 <h3>即場決定</h3>
 {{ex:I'll have the pasta.|/aɪl ˈhæv ðə ˈpɑːstə/|我要意大利粉}}{{ex:I'll get it.|/aɪl ˈget ɪt/|我來接（電話）/ 我去開門}}
 <h3>承諾和提議</h3>
-{{ex:I'll help you.|/aɪl ˈhelp ju/|我來幫你}}{{ex:I'll call you later.|/aɪl ˈkɔːl ju ˈleɪtər/|我晚一點打電話給你}}{{ex:I won't be late.|/aɪ ˈwoʊnt bi ˈleɪt/|我不會遲到的}}
+{{ex:I'll help you.|/aɪl ˈhelp ju/|我來幫你}}{{ex:I'll call you later.|/aɪl ˈkɔːl ju ˈleɪtər/|我稍後打電話給你}}{{ex:I won't be late.|/aɪ ˈwoʊnt bi ˈleɪt/|我不會遲到的}}
 <h3>預測</h3>
 {{ex:It'll be fine.|/ɪtl bi ˈfaɪn/|會沒事的}}{{ex:I think it will rain.|/aɪ ˈθɪŋk ɪt wəl ˈreɪn/|我覺得會下雨}}
 <h3>will 和 be going to</h3>
@@ -46,7 +46,7 @@ practice:[
 ["mc","「我不會遲到的」=","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","will not 縮寫成 won't。"],
 ["mc","「你會來嗎？」=","Will you come?","Do you will come?","Will you coming?","Will come you?","Will + 主語 + 動詞原形。"],
 ["mc","哪一句說的是事先定好的計劃？","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","事先定好的計劃用 be going to。"],
-["or","我晚一點打電話給你","I'll call you later","calling","will 後面接動詞原形。"],
+["or","我稍後打電話給你","I'll call you later","calling","will 後面接動詞原形。"],
 ["or","我要一杯咖啡","I'll have a coffee","the coffees","點的是一杯，用冠詞 a。"],
 ["or","我去開門","I'll open the door","a doors","就是這扇門，用冠詞 the。"],
 ["fi","I __ call you tomorrow.","我明天打電話給你","will","am|going|do","承諾用 will。"],
@@ -230,5 +230,5 @@ practice:[
 ["fi","the cafe __ we met","我們見面的那間咖啡店","where","who|what|it","修飾地點用 where。"],
 ["ty","這是我買的書","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — 冠詞 the","a","就是我買的那本書，用冠詞 the。"],
 ["ty","我有個會說韓文的朋友","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — 冠詞 a","the","第一次提到的一位朋友，用冠詞 a。"],
-["ty","我們看的那齣電影很好看","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","名詞在前，說明在後。"]]},
+["ty","我們看的那齣電影很好看（用 movie）","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","名詞在前，說明在後。"]]},
 ];

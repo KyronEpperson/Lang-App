@@ -110,7 +110,7 @@ module.exports = {
 
   tense: [
     { t: "mc", q: "「我現在正在喝咖啡」=", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "正在做的事用 be + -ing，be 不能省。" },
-    { t: "mc", q: "「我上個週末去了海灘」=", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go 的過去式是 went，有 last weekend 也要用過去式。海灘要加冠詞 the：the beach。" },
+    { t: "mc", q: "「我上個週末去了沙灘」=", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go 的過去式是 went，有 last weekend 也要用過去式。沙灘要加冠詞 the：the beach。" },
     { t: "mc", q: "說下個月的計劃：「我會去濟州」", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "事先定好的計劃用 be going to + 動詞原形。" },
     { t: "mc", q: "門鐘響了，即時說：「我去開門！」", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "說話時即時決定的事用 will。" },
     { t: "mc", q: "see 的過去式是？", o: ["saw", "seed", "seen", "sawed"], why: "see 是不規則動詞：see - saw - seen。" },
@@ -124,7 +124,7 @@ module.exports = {
     { t: "fill", q: "I'm going __ visit my parents.", p: "我打算去探望父母", a: ["to"], o: ["for", "at", "on"], why: "計劃用 be going to + 動詞原形。" },
 
     { t: "type", p: "我今天在家工作", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — 正在進行", x: ["work"], why: "今天正在做的事用 be + -ing。" },
-    { t: "type", p: "我上個週末去了海灘", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — 過去式和冠詞", x: ["a"], why: "go 的過去式是 went；海灘要加冠詞 the：the beach。" },
+    { t: "type", p: "我上個週末去了沙灘", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — 過去式和冠詞", x: ["a"], why: "go 的過去式是 went；沙灘要加冠詞 the：the beach。" },
     { t: "type", p: "我打算去上一個烹飪班（計劃）", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — 一個班前面的冠詞", x: ["the"], why: "事先定好的計劃用 going to；第一次提到一個班，用冠詞 a。" }
   ],
 
@@ -156,7 +156,7 @@ module.exports = {
     { t: "mc", q: "對方說 I went to Busan last weekend. 時，表示有興趣的附和是？", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "用 Oh, really? 和 That sounds fun! 表示有興趣。" },
 
     { t: "order", p: "週末有甚麼計劃嗎？", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "這個問法用眾數 plans；指這個週末，用冠詞 the。" },
-    { t: "order", p: "和你聊天很愉快", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "結束對話時的客套話。nice 後面接 talking。" },
+    { t: "order", p: "跟你聊天很開心", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "結束對話時的客套話。nice 後面接 talking。" },
     { t: "order", p: "我不喜歡恐怖片", a: ["I", "don't", "like", "horror", "movies"], x: ["movie", "the"], why: "泛指電影，不加冠詞，用眾數 movies。" },
 
     { t: "fill", q: "Pretty good! How __ you?", p: "很好！你呢？", a: ["about"], o: ["for", "with", "of"], why: "簡單回答，再用 How about you? 反問，才有禮貌。" },
