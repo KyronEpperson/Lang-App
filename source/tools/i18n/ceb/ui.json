@@ -770,7 +770,7 @@
    "where": "html <span> text"
   },
   "Text size": {
-   "t": "Gidak-on sa letra",
+   "t": "Letra",
    "ko": "글자 크기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3367,7 +3367,7 @@
    "where": "js GROUPS()"
   },
   "Drills": {
-   "t": "Mga drill",
+   "t": "Drill",
    "ko": "훈련",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
