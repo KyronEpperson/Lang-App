@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "czenglish": "cs-only lesson (profile cs.md §8 'add' / §4.9 / §9): Czenglish traps — false friends (actual/current, eventually/possibly, sympathetic/nice, control/check-up, concrete/specific, gymnasium/high school, novel/novella, billion/trillion), one Czech word vs two English words (teach/learn, say/tell, lend/borrow, do/make, fun/funny) and calques (How is it called?, Can I have a question?, He is 22 years, everything what, basic school, I'm from Czech); placed after smalltalk via profile.json lessonOrder.after; deck «Falešní přátelé a čechismy»; no ko-en counterpart (mirrors zh chinglish, ru runglish; replaces ko's own konglish in more/a1.js); its practice set meets the article-plural rule on its own (order 4/4, type 3/4)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["czenglish"]
+}

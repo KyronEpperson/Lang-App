@@ -1,0 +1,29 @@
+{
+  "native": "cs",
+  "nativeNameEn": "Czech",
+  "name": {
+    "en": "English",
+    "cs": "Angličtina"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "pronScript": "ˈ",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "člen(?!k|ov|stv|sk|it|ěn)|množn|počitateln",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Co patří na vynechané místo?",
+    "typeHintCue": " – použij tato slova",
+    "cueTest": "[áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]|\\b(?:[Aa]nglicky|[Ss]lovo|[Ss]lova|[Tt]var|[Vv]yber|[Oo]prav|[Cc]hyba|[Nn]ebo|[Jj]ak|[Kk]de|[Kk]dy|[Bb]ez|[Pp]odle|[Ss]loveso|[Jj]eden|[Jj]edna)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "czenglish": "smalltalk",
+      "perfect-3": "perfect-2"
+    }
+  }
+}
