@@ -772,7 +772,11 @@ LANGAPP_PACKS.i18n.vi = {
     "Category": "Loại",
     "⚙ More options": "⚙ Thêm tùy chọn",
     "⚙ Fewer options": "⚙ Ẩn bớt tùy chọn",
-    "Show all options on every screen": "Hiện mọi tùy chọn trên mọi màn hình"
+    "Show all options on every screen": "Hiện mọi tùy chọn trên mọi màn hình",
+    "Hand-tuned for speakers of your language": "Soạn riêng cho người nói ngôn ngữ của bạn",
+    "Go to the next card automatically": "Tự động chuyển sang thẻ tiếp theo",
+    "Extra practice": "Luyện thêm",
+    "New card": "Thẻ mới"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],
@@ -1046,7 +1050,10 @@ LANGAPP_PACKS.i18n.vi = {
     ["^Learn (.+), 5 minutes a day$", "$1 · 5 phút mỗi ngày"],
     ["^Coming soon · (\\d+) lessons planned$", "Sắp ra mắt · dự kiến $1 bài học"],
     ["^day (\\d+) 🔥$", "ngày $1 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "Lên cấp! Cấp $1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "Lên cấp! Cấp $1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Luyện thêm · đã học $1/$2"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "Thẻ mới · đã học $1/$2"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 cần ôn · đã học $2/$3"]
   ],
   road: {
     "Standard (Seoul) Korean": "Tiếng Hàn chuẩn (Seoul)",

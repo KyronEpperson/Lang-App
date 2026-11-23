@@ -772,7 +772,11 @@ LANGAPP_PACKS.i18n.pt = {
     "Category": "Categoria",
     "⚙ More options": "⚙ Mais opções",
     "⚙ Fewer options": "⚙ Menos opções",
-    "Show all options on every screen": "Mostrar todas as opções em cada tela"
+    "Show all options on every screen": "Mostrar todas as opções em cada tela",
+    "Hand-tuned for speakers of your language": "Feito sob medida para quem fala seu idioma",
+    "Go to the next card automatically": "Ir para o próximo cartão automaticamente",
+    "Extra practice": "Prática extra",
+    "New card": "Cartão novo"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Treino"],
@@ -1046,7 +1050,10 @@ LANGAPP_PACKS.i18n.pt = {
     ["^Learn (.+), 5 minutes a day$", "Aprenda $1, 5 minutos por dia"],
     ["^Coming soon · (\\d+) lessons planned$", "Em breve · lições planejadas: $1"],
     ["^day (\\d+) 🔥$", "dia $1 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "Você subiu de nível! Nível $1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "Você subiu de nível! Nível $1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Prática extra · $1/$2 aprendidos"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "Cartão novo · $1/$2 aprendidos"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Para revisar: $1 · $2/$3 aprendidos"]
   ],
   road: {
     "Standard (Seoul) Korean": "Coreano padrão (de Seul)",

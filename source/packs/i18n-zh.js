@@ -772,7 +772,11 @@ LANGAPP_PACKS.i18n.zh = {
     "Category": "类别",
     "⚙ More options": "⚙ 更多选项",
     "⚙ Fewer options": "⚙ 收起选项",
-    "Show all options on every screen": "在所有页面显示全部选项"
+    "Show all options on every screen": "在所有页面显示全部选项",
+    "Hand-tuned for speakers of your language": "专为你的母语使用者定制",
+    "Go to the next card automatically": "自动跳到下一张卡片",
+    "Extra practice": "额外练习",
+    "New card": "新卡片"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],
@@ -1046,7 +1050,10 @@ LANGAPP_PACKS.i18n.zh = {
     ["^Learn (.+), 5 minutes a day$", "每天 5 分钟，学$1"],
     ["^Coming soon · (\\d+) lessons planned$", "即将推出 · 计划 $1 节课"],
     ["^day (\\d+) 🔥$", "第 $1 天 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "升级了！等级 $1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "升级了！等级 $1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "额外练习 · 已学会 $1/$2"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "新卡片 · 已学会 $1/$2"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 张待复习 · 已学会 $2/$3"]
   ],
   road: {
     "Standard (Seoul) Korean": "标准韩语（首尔）",

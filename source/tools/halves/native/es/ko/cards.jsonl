@@ -1,0 +1,641 @@
+{"id":"ko.c0001","meaning":"a, como en «casa»","note":"Trazo vertical con una rayita a la derecha."}
+{"id":"ko.c0002","meaning":"o abierta, con los labios relajados","note":"Rayita a la izquierda. No es nuestra «o»: abre la boca y no redondees los labios."}
+{"id":"ko.c0003","meaning":"o, como en «sol» (labios redondos)","note":"Trazo horizontal, rayita hacia arriba."}
+{"id":"ko.c0004","meaning":"u, como en «luna»","note":"Trazo horizontal, rayita hacia abajo."}
+{"id":"ko.c0005","meaning":"u con los labios estirados, sin redondear","note":"No existe en español: sonríe y di «u»."}
+{"id":"ko.c0006","meaning":"i, como en «sí»","note":"Un solo trazo vertical."}
+{"id":"ko.c0007","meaning":"e, como en «mesa» (hoy suena igual que ㅔ)","note":"En el coreano actual suena igual que ㅔ."}
+{"id":"ko.c0008","meaning":"e, como en «mesa»","note":"Al hablar suena igual que ㅐ."}
+{"id":"ko.c0009","meaning":"ia, como en «piano»","note":"ㅏ con una rayita extra: se le antepone el sonido «i»."}
+{"id":"ko.c0010","meaning":"io, con la o abierta","note":"ㅓ + «i»."}
+{"id":"ko.c0011","meaning":"io, como en «radio»","note":"ㅗ + «i»."}
+{"id":"ko.c0012","meaning":"iu, como en «ciudad»","note":"ㅜ + «i»."}
+{"id":"ko.c0013","meaning":"g suave al inicio, k al final","note":"가 = ga, 악 = ak."}
+{"id":"ko.c0014","meaning":"n","note":"나 = na."}
+{"id":"ko.c0015","meaning":"d al inicio, t al final","note":"다 = da."}
+{"id":"ko.c0016","meaning":"r suave entre vocales (como en «pero»), l al final","note":"라 = ra, 물 = mul."}
+{"id":"ko.c0017","meaning":"m","note":"마 = ma."}
+{"id":"ko.c0018","meaning":"b al inicio, p al final","note":"바 = ba, 밥 = bap."}
+{"id":"ko.c0019","meaning":"s; antes de ㅣ suena casi «sh», como en «Shakira»","note":"사 = sa, 시 = shi."}
+{"id":"ko.c0020","meaning":"muda al inicio, «ng» al final (como la n de «tengo»)","note":"아 = a, 강 = gang."}
+{"id":"ko.c0021","meaning":"j: una «y» enfática, como en «¡yo!», casi una «ch» suave; nunca jota","note":"자 = ja: suena casi «cha» suave, nunca como el «ja» de «jamón»."}
+{"id":"ko.c0022","meaning":"ch con soplo de aire (ㅈ aspirada)","note":"차 = cha."}
+{"id":"ko.c0023","meaning":"k con soplo de aire (ㄱ aspirada)","note":"카 = ka."}
+{"id":"ko.c0024","meaning":"t con soplo de aire (ㄷ aspirada)","note":"타 = ta."}
+{"id":"ko.c0025","meaning":"p con soplo de aire (ㅂ aspirada)","note":"파 = pa."}
+{"id":"ko.c0026","meaning":"h: un soplo suave, como una jota muy ligera; nunca muda","note":"하 = ha."}
+{"id":"ko.c0027","meaning":"g/k tensa","note":"까 kka. Garganta tensa, sin soltar aire. 꽃 = flor, 까만 = negro."}
+{"id":"ko.c0028","meaning":"d/t tensa","note":"따 tta. 딸 = hija, 똑바로 = derecho, recto."}
+{"id":"ko.c0029","meaning":"b/p tensa","note":"빠 ppa. 빨리 = rápido, 아빠 = papá."}
+{"id":"ko.c0030","meaning":"s tensa","note":"싸 ssa. 쌀 = arroz (crudo), 있어요 = hay."}
+{"id":"ko.c0031","meaning":"j tensa (casi una «ch» seca)","note":"짜 jja. 짜다 = salado, 진짜 = de verdad."}
+{"id":"ko.c0032","meaning":"ua, como en «agua»","note":"ㅗ + ㅏ. 과일 = fruta, 와요 = viene."}
+{"id":"ko.c0033","meaning":"uo, con la o abierta","note":"ㅜ + ㅓ. 원 = won, 뭐 = qué."}
+{"id":"ko.c0034","meaning":"ue, como en «bueno»","note":"ㅗ + ㅣ. 회사 = empresa, 외국 = el extranjero."}
+{"id":"ko.c0035","meaning":"ui, como en «cuidado»","note":"ㅜ + ㅣ. 귀 = oreja, 위 = arriba / estómago."}
+{"id":"ko.c0036","meaning":"ue (las dos letras)","note":"Las dos suenan «ue». 왜 = por qué, 웨딩 = boda."}
+{"id":"ko.c0037","meaning":"ui / i / e","note":"의사 = médico (ui), 거의 = casi (i), 친구의 = del amigo (e)."}
+{"id":"ko.c0038","meaning":"ie (las dos letras)","note":"Las dos suenan «ie». 얘기 = conversación / historia, 예 = sí (formal)."}
+{"id":"ko.c0039","meaning":"al final, todas suenan como una t cortada","note":"옷 ot, 있다 itda, 꽃 kkot, 끝 kkeut, 낮 nat."}
+{"id":"ko.c0040","meaning":"k al final","note":"부엌 bueok (cocina), 밖 bak (afuera)."}
+{"id":"ko.c0041","meaning":"p al final","note":"앞 ap (frente), 옆 yeop (lado)."}
+{"id":"ko.c0042","meaning":"consonantes finales dobles","note":"Solo suena una: 닭 dak (pollo), 값 gap (precio), 읽다 ikda."}
+{"id":"ko.c0043","meaning":"consonante final de sílaba","note":"Al final de sílaba solo quedan 7 sonidos: k, n, t, l, m, p, ng. 옷 suena «ot» y 꽃 suena «kkot»."}
+{"id":"ko.c0044","meaning":"s suave vs. s tensa","note":"살 (sal, carne) vs. 쌀 (ssal, arroz). La tensa se dice con la garganta apretada y sin soplo de aire."}
+{"id":"ko.c0045","meaning":"g · kk · k (serie k: simple, tensa, aspirada)","note":"가 ga / 까 kka / 카 ka. Aspirada: con soplo de aire; tensa: apretada y sin aire, más parecida a nuestra «k»."}
+{"id":"ko.c0046","meaning":"d · tt · t (serie t: simple, tensa, aspirada)","note":"달 dal (luna) / 딸 ttal (hija) / 탈 tal (máscara)."}
+{"id":"ko.c0047","meaning":"b · pp · p (serie p: simple, tensa, aspirada)","note":"불 bul (fuego) / 뿔 ppul (cuerno) / 풀 pul (pasto)."}
+{"id":"ko.c0048","meaning":"j · jj · ch (serie ch: simple, tensa, aspirada)","note":"자다 jada (dormir) / 짜다 jjada (salado) / 차다 chada (frío al tacto)."}
+{"id":"ko.c0049","meaning":"enlace (la consonante pasa a la vocal)","note":"Como «los otros» → «lo-so-tros»: 한국어 → 한구거 (han-gu-geo), 음악 → 으막 (eu-mak)."}
+{"id":"ko.c0050","meaning":"r suave, como en «pero»","note":"머리 meori, 다리 dari. Al final suena «l»: 물 mul."}
+{"id":"ko.c0051","meaning":"doble ㄹ = l clara y larga","note":"빨리 ppalli (rápido), 몰라 molla. Ojo: esta «ll» no es la de «llave»."}
+{"id":"ko.c0052","meaning":"ㅎ casi muda entre vocales","note":"좋아요 → 조아요 (joayo). 많이 → 마니 (mani)."}
+{"id":"ko.c0053","meaning":"ng, como la n de «tengo»","note":"강 gang, 사랑 sarang. Nunca «n» y «g» por separado."}
+{"id":"ko.c0054","meaning":"asimilación nasal","note":"ㄱ/ㄷ/ㅂ antes de ㄴ/ㅁ se vuelven nasales: 감사합니다 → 감사함니다, 국물 → 궁물."}
+{"id":"ko.c0055","meaning":"una vocal con tres sonidos","note":"의사 ui-sa (médico) al inicio; 거의 geo-i; el posesivo 의 → 에 (친구의 → 친구에)."}
+{"id":"ko.c0056","meaning":"el mismo sonido en el Seúl actual","note":"개 y 게 suenan igual; el contexto decide."}
+{"id":"ko.c0057","meaning":"las dos «o»: abierta y redonda","note":"ㅓ = boca abierta, labios relajados. ㅗ = labios redondos, como la «o» de «sol». 서울 vs. 소울."}
+{"id":"ko.c0058","meaning":"labios estirados, lengua atrás","note":"No existe en español: di «u» sonriendo. 음, 그, 는."}
+{"id":"ko.c0059","meaning":"las preguntas suben, las afirmaciones bajan","note":"Igual que en español: 가요↗ = ¿vas? 가요↘ = voy. La misma palabra."}
+{"id":"ko.c0060","meaning":"espacios entre palabras; las partículas van pegadas","note":"저는 밥을 먹어요: 저는 / 밥을 / 먹어요. Las partículas nunca van solas."}
+{"id":"ko.c0061","meaning":"Hola (cortés)","note":"El saludo cortés de siempre, a cualquier hora del día."}
+{"id":"ko.c0062","meaning":"Gracias (formal)","note":"Formal. Informal: 고마워 (gomawo)."}
+{"id":"ko.c0063","meaning":"Lo siento (formal)","note":"Disculpa formal. 미안해 (mianhae) = informal."}
+{"id":"ko.c0064","meaning":"Sí / No","note":"네 también sirve para decir «ok» o «ajá»."}
+{"id":"ko.c0065","meaning":"¿Cuánto cuesta?","note":"Señala el artículo y pregunta."}
+{"id":"ko.c0066","meaning":"¿Dónde está el baño?","note":"어디예요 = ¿dónde está?"}
+{"id":"ko.c0067","meaning":"Esto, por favor","note":"Para pedir o comprar. 주세요 = «deme», por favor."}
+{"id":"ko.c0068","meaning":"(Se dice antes de comer)","note":"Lit. «comeré bien»: es un gracias a quien cocinó o invita."}
+{"id":"ko.c0069","meaning":"Está bien / Estoy bien","note":"También sirve para rechazar algo con cortesía."}
+{"id":"ko.c0070","meaning":"Hable más despacio, por favor","note":"Una frase salvavidas."}
+{"id":"ko.c0071","meaning":"No hablo bien coreano","note":"Con esto, la gente te tendrá paciencia."}
+{"id":"ko.c0072","meaning":"Un momento / con permiso","note":"Para abrirte paso en el metro."}
+{"id":"ko.c0073","meaning":"Soy ___","note":"이에요 tras consonante (저는 Kim이에요), 예요 tras vocal (저는 Lisa예요)."}
+{"id":"ko.c0074","meaning":"¿Cómo te llamas?","note":"Más cortés: 성함이 어떻게 되세요?, con mayores o en situaciones formales."}
+{"id":"ko.c0075","meaning":"Mucho gusto","note":"Lit. «me alegro porque nos conocimos». Formal: 반갑습니다."}
+{"id":"ko.c0076","meaning":"¿De dónde eres?","note":"에서 = de. 어디 = dónde."}
+{"id":"ko.c0077","meaning":"Soy de Estados Unidos","note":"미국 = Estados Unidos. 한국 Corea, 영국 Reino Unido, 캐나다 Canadá, 멕시코 México."}
+{"id":"ko.c0078","meaning":"¿Cuántos años tienes?","note":"Es normal preguntarlo en Corea: decide cómo se habla cada quien."}
+{"id":"ko.c0079","meaning":"Tengo 30 años","note":"Número nativo + 살. 스물다섯 살 = 25."}
+{"id":"ko.c0080","meaning":"¿A qué te dedicas?","note":"일 = trabajo. 직업이 뭐예요? también sirve."}
+{"id":"ko.c0081","meaning":"Soy oficinista","note":"학생 estudiante, 선생님 profesor/a, 개발자 programador/a, 간호사 enfermero/a."}
+{"id":"ko.c0082","meaning":"Estudio coreano","note":"공부하다 = estudiar. Dilo y verás cómo se le ilumina la cara a la gente."}
+{"id":"ko.c0083","meaning":"¿Cuál es tu pasatiempo?","note":"취미 = pasatiempo. 제 취미는 운동이에요 = mi pasatiempo es hacer ejercicio."}
+{"id":"ko.c0084","meaning":"Cuento con ustedes (al presentarte)","note":"Se dice al presentarte en el trabajo o en un grupo; algo como «espero que nos llevemos bien»."}
+{"id":"ko.c0085","meaning":"Disculpe (para llamar la atención)","note":"Para llamar al mesero o detener a alguien en la calle. No es una disculpa."}
+{"id":"ko.c0086","meaning":"¿Estás bien?","note":"Es la misma palabra que «estoy bien», con entonación de pregunta."}
+{"id":"ko.c0087","meaning":"¡Ayúdeme, por favor!","note":"Para una emergencia o solo para una maleta pesada."}
+{"id":"ko.c0088","meaning":"No sé","note":"모르다 → 몰라요."}
+{"id":"ko.c0089","meaning":"No entendí","note":"Dilo y luego pide: 다시 말해 주세요."}
+{"id":"ko.c0090","meaning":"¿Puede repetirlo, por favor?","note":"다시 = otra vez."}
+{"id":"ko.c0091","meaning":"¿Puedes hablar inglés?","note":"할 수 있다 = poder (hacer algo). Útil cuando el coreano no alcanza."}
+{"id":"ko.c0092","meaning":"¿Qué es esto?","note":"Señala y pregunta. Sirve para comida, letreros, para todo."}
+{"id":"ko.c0093","meaning":"Voy a usar el baño","note":"좀 suaviza; 게요 anuncia lo que vas a hacer."}
+{"id":"ko.c0094","meaning":"¿Aceptan tarjeta?","note":"돼요 = ¿se puede? / ¿funciona?"}
+{"id":"ko.c0095","meaning":"¿Cuál es la contraseña del wifi?","note":"비밀번호 = contraseña."}
+{"id":"ko.c0096","meaning":"¿Tienen servicio a domicilio?","note":"배달 = entrega a domicilio. En Corea te llevan de todo."}
+{"id":"ko.c0097","meaning":"Tengo una reservación","note":"예약 = reservación. 예약 가능해요? = ¿puedo reservar?"}
+{"id":"ko.c0098","meaning":"Me perdí","note":"길 = camino. 잃다 = perder."}
+{"id":"ko.c0099","meaning":"¿Dónde está el hospital?","note":"약국 (yakguk) = farmacia. 경찰서 = estación de policía."}
+{"id":"ko.c0100","meaning":"Despacio, por favor","note":"La versión más corta de 천천히 말해 주세요."}
+{"id":"ko.c0101","meaning":"¿Dónde está el baño? (forma completa)","note":"Forma completa. Corta: 화장실 어디예요? Las dos están bien."}
+{"id":"ko.c0102","meaning":"¿Hay baño aquí?","note":"Muchos cafés y tiendas pequeñas no tienen baño adentro."}
+{"id":"ko.c0103","meaning":"¿Puedo usar el baño?","note":"아/어도 돼요 = ¿está bien si…?"}
+{"id":"ko.c0104","meaning":"¿Cuál es el código del baño?","note":"Muchos baños de cafés tienen teclado; el código viene en el recibo, o pregúntalo."}
+{"id":"ko.c0105","meaning":"¿Hay papel higiénico?","note":"휴지 = pañuelos / papel higiénico. Lleva siempre un poco."}
+{"id":"ko.c0106","meaning":"¿Dónde hay una tienda de conveniencia?","note":"GS25, CU, 세븐일레븐. Siempre hay una cerca."}
+{"id":"ko.c0107","meaning":"¿Dónde está la estación más cercana?","note":"제일 가까운 = el/la más cercano/a."}
+{"id":"ko.c0108","meaning":"¿Dónde está la salida?","note":"입구 = entrada. 출구 = salida."}
+{"id":"ko.c0109","meaning":"¿Qué número de salida?","note":"Las salidas del metro están numeradas. 3번 출구 = salida 3."}
+{"id":"ko.c0110","meaning":"¿Qué lugar es este? / ¿Dónde estoy?","note":"Enseña tu mapa y pregunta."}
+{"id":"ko.c0111","meaning":"¿Dónde compro esto?","note":"사다 = comprar. 팔아요? = ¿lo venden?"}
+{"id":"ko.c0112","meaning":"¿Dónde está la caja?","note":"계산 = pago. 계산대 = caja."}
+{"id":"ko.c0113","meaning":"¿Hay lugar? / ¿Hay mesa?","note":"Al entrar a un restaurante o café."}
+{"id":"ko.c0114","meaning":"Somos dos","note":"Respuesta a 몇 명이세요? (¿cuántos son?). 한 명이요 = uno. 세 명이요 = tres."}
+{"id":"ko.c0115","meaning":"¿Me puedo sentar aquí?","note":"앉다 = sentarse."}
+{"id":"ko.c0116","meaning":"¿Tienen cargador?","note":"En los cafés a menudo te lo prestan. 콘센트 = enchufe."}
+{"id":"ko.c0117","meaning":"¿Dónde hay un enchufe?","note":"콘센트 viene de «concentric plug», un término inglés que pasó por el japonés."}
+{"id":"ko.c0118","meaning":"¿Hay wifi?","note":"Sigue con 비밀번호가 뭐예요?"}
+{"id":"ko.c0119","meaning":"¿A qué hora cierran?","note":"닫다 = cerrar. 열어요 = abren."}
+{"id":"ko.c0120","meaning":"¿A qué hora abren?","note":"열다 = abrir."}
+{"id":"ko.c0121","meaning":"¿Cuánto tengo que esperar?","note":"기다리다 = esperar. 아/어야 돼요 = tener que."}
+{"id":"ko.c0122","meaning":"¿Nos podría tomar una foto?","note":"주실래요 lo hace muy cortés. Después pásale el celular."}
+{"id":"ko.c0123","meaning":"El recibo, por favor","note":"영수증 필요하세요? = ¿necesita recibo? (te lo van a preguntar)."}
+{"id":"ko.c0124","meaning":"Una bolsa, por favor","note":"Las bolsas cuestan unos 100원. 봉투 필요하세요? = ¿necesita bolsa?"}
+{"id":"ko.c0125","meaning":"¿Hay descuento?","note":"할인 = descuento. 세일 = rebaja."}
+{"id":"ko.c0126","meaning":"¿Puedo cambiar esto?","note":"교환 = cambio. 환불 = reembolso."}
+{"id":"ko.c0127","meaning":"Un americano con hielo, por favor","note":"아아 (a-a) = americano con hielo, en jerga. 뜨아 = americano caliente."}
+{"id":"ko.c0128","meaning":"Uno caliente, por favor","note":"따뜻한 = tibio / caliente. 차가운 거 = uno frío."}
+{"id":"ko.c0129","meaning":"¿Qué tamaños tienen?","note":"En casi todos los cafés: 톨 / 그란데 / 벤티 o 레귤러 / 라지."}
+{"id":"ko.c0130","meaning":"El grande, por favor","note":"큰 = grande. 작은 거 = el pequeño."}
+{"id":"ko.c0131","meaning":"Menos dulce, por favor","note":"덜 = menos. 안 달게 = que no sea dulce."}
+{"id":"ko.c0132","meaning":"Sin jarabe, por favor","note":"빼다 = quitar. 얼음 빼 주세요 = sin hielo."}
+{"id":"ko.c0133","meaning":"¿Para tomar aquí? (te preguntan)","note":"Respuesta: 네, 먹고 갈게요 (para aquí) / 포장이요 (para llevar)."}
+{"id":"ko.c0134","meaning":"Para llevar","note":"Respuesta corta. 테이크아웃 también se entiende."}
+{"id":"ko.c0135","meaning":"(Deme) el localizador","note":"Te dan un aparatito que vibra cuando tu pedido está listo."}
+{"id":"ko.c0136","meaning":"¿Tiene tarjeta de puntos? (te preguntan)","note":"Respuesta: 아니요, 괜찮아요 = no, gracias."}
+{"id":"ko.c0137","meaning":"No tengo membresía","note":"En las tiendas de conveniencia te lo preguntan todo el tiempo."}
+{"id":"ko.c0138","meaning":"Caliéntelo, por favor","note":"Para el 도시락 y el 삼각김밥 de la tienda. 데우다 = calentar."}
+{"id":"ko.c0139","meaning":"¿Dónde está el microondas?","note":"Zona para calentar tú mismo, casi siempre junto a las mesas de la ventana."}
+{"id":"ko.c0140","meaning":"¿Hay agua caliente?","note":"Para el 컵라면 (sopa instantánea). Es gratis en todos los 편의점."}
+{"id":"ko.c0141","meaning":"¿Necesita bolsa? (te preguntan)","note":"Respuesta: 네 / 아니요. Las bolsas cuestan unos 100원."}
+{"id":"ko.c0142","meaning":"¿Esto es 2x1?","note":"Las etiquetas 1+1 / 2+1 de Corea. Se dice 원 플러스 원."}
+{"id":"ko.c0143","meaning":"Póngalos en bolsas separadas","note":"따로 = por separado. 담다 = meter."}
+{"id":"ko.c0144","meaning":"Pago con tarjeta","note":"현금으로 = en efectivo. Solo acercas la tarjeta, sin firmar."}
+{"id":"ko.c0145","meaning":"4,500 wones","note":"Sinocoreano: 사천오백. 원 = won."}
+{"id":"ko.c0146","meaning":"12,000 wones","note":"만 이천 → 만이천. Los números grandes se agrupan por 만 (10,000)."}
+{"id":"ko.c0147","meaning":"38,900 wones","note":"삼만 팔천 구백. Dilo despacio; de todos modos el cajero te enseña la pantalla."}
+{"id":"ko.c0148","meaning":"Número de teléfono","note":"Los dígitos del teléfono son sinocoreanos, y el 0 es 공 (gong), no 영."}
+{"id":"ko.c0149","meaning":"Piso 3","note":"층 = piso, con número sinocoreano. 지하 1층 (B1) = jiha ilcheung, sótano 1."}
+{"id":"ko.c0150","meaning":"2 p. m.","note":"Las horas son nativas: 두 시. 오후 = p. m., 오전 = a. m."}
+{"id":"ko.c0151","meaning":"9:30 a. m.","note":"Hora nativa (아홉), minutos sinocoreanos (삼십)."}
+{"id":"ko.c0152","meaning":"Solo 5 minutos","note":"분 = minuto (sinocoreano). 만 = solo."}
+{"id":"ko.c0153","meaning":"Línea 2","note":"Líneas del metro: 호선 con números sinocoreanos. 9호선 = guhoseon."}
+{"id":"ko.c0154","meaning":"Salida 4","note":"번 = número. 몇 번 출구? = ¿qué salida?"}
+{"id":"ko.c0155","meaning":"2 personas","note":"명 = contador de personas, con número nativo: 한 명, 두 명, 세 명, 네 명."}
+{"id":"ko.c0156","meaning":"3 botellas de cerveza","note":"병 = botella, con número nativo. 잔 = vaso."}
+{"id":"ko.c0157","meaning":"3 (cosas)","note":"개 = contador general. 한 개, 두 개, 세 개, 네 개."}
+{"id":"ko.c0158","meaning":"25 años (de edad)","note":"Número nativo. 서른 살 = 30."}
+{"id":"ko.c0159","meaning":"13 de noviembre","note":"Los meses y los días son sinocoreanos: 십일월 십삼일."}
+{"id":"ko.c0160","meaning":"2026","note":"년 = año. 이천이십육년."}
+{"id":"ko.c0161","meaning":"50 por ciento","note":"퍼센트 = por ciento, préstamo del inglés. 반값 = a mitad de precio."}
+{"id":"ko.c0162","meaning":"Se tarda 30 minutos","note":"걸리다 = tardar (tiempo)."}
+{"id":"ko.c0163","meaning":"una (cosa)","note":"개 = cosas en general. 사과 한 개 = una manzana."}
+{"id":"ko.c0164","meaning":"dos personas","note":"명 = personas. 분 es la forma cortés: 두 분."}
+{"id":"ko.c0165","meaning":"tres tazas / vasos","note":"잔 = bebidas en taza o vaso."}
+{"id":"ko.c0166","meaning":"cuatro botellas","note":"병 = botellas. 소주 네 병 = cuatro botellas de soju."}
+{"id":"ko.c0167","meaning":"cinco animales","note":"마리 = animales. 고양이 다섯 마리 = cinco gatos."}
+{"id":"ko.c0168","meaning":"seis libros","note":"권 = libros, cuadernos."}
+{"id":"ko.c0169","meaning":"siete hojas / boletos","note":"장 = cosas planas: papel, boletos, fotos."}
+{"id":"ko.c0170","meaning":"ocho años (de edad)","note":"살 = edad. 스물여덟 살 = 28."}
+{"id":"ko.c0171","meaning":"dos horas","note":"시간 = horas de duración. 두 시 = las dos en punto."}
+{"id":"ko.c0172","meaning":"tres veces","note":"번 = veces. También «número», para salidas y autobuses."}
+{"id":"ko.c0173","meaning":"un mes","note":"달 = meses (nativo). 일 개월 = un mes (sinocoreano, formal)."}
+{"id":"ko.c0174","meaning":"dos días","note":"Especiales: 하루 (1 día), 이틀 (2), 사흘 (3). 일주일 = una semana."}
+{"id":"ko.c0175","meaning":"¿Cuántos le doy?","note":"몇 + contador = cuántos. Respuesta: 두 개요."}
+{"id":"ko.c0176","meaning":"un tazón","note":"그릇 = tazones (arroz, sopa). 국밥 한 그릇 주세요."}
+{"id":"ko.c0177","meaning":"una bolsa (de)","note":"봉지 = bolsa o paquete de snacks o papas fritas."}
+{"id":"ko.c0178","meaning":"dos pares (zapatos, calcetines)","note":"켤레 = pares de calzado."}
+{"id":"ko.c0179","meaning":"¿Cómo está el clima?","note":"날씨 = clima. 어때요 = ¿cómo está?"}
+{"id":"ko.c0180","meaning":"Hace muchísimo calor","note":"Verano en Seúl: 덥고 습해요 = hace calor y hay humedad."}
+{"id":"ko.c0181","meaning":"Hace frío","note":"겨울 = invierno. 너무 추워요 = hace muchísimo frío."}
+{"id":"ko.c0182","meaning":"Está lloviendo","note":"비 = lluvia. 우산 있어요? = ¿tienes paraguas?"}
+{"id":"ko.c0183","meaning":"Está nevando","note":"눈 = nieve (y también «ojo»). 첫눈 = la primera nevada, un plan romántico en Corea."}
+{"id":"ko.c0184","meaning":"Hace viento","note":"바람 = viento. 불다 = soplar."}
+{"id":"ko.c0185","meaning":"Hay mucho polvo fino","note":"Revisa el nivel de 미세먼지 cada día; si marca 나쁨, la gente usa mascarilla."}
+{"id":"ko.c0186","meaning":"Me siento bien","note":"기분 = ánimo. 기분이 안 좋아요 = me siento mal."}
+{"id":"ko.c0187","meaning":"Estoy feliz","note":"행복 = felicidad."}
+{"id":"ko.c0188","meaning":"Estoy triste","note":"슬프다 → 슬퍼요."}
+{"id":"ko.c0189","meaning":"Estoy cansado/a","note":"La palabra de estado de ánimo más usada en Corea."}
+{"id":"ko.c0190","meaning":"Estoy nervioso/a","note":"긴장 = tensión. Antes de un examen o de una cita."}
+{"id":"ko.c0191","meaning":"Estoy aburrido/a","note":"심심하다. 놀자! lo arregla."}
+{"id":"ko.c0192","meaning":"Estoy enojado/a","note":"화 = enojo. 화내지 마 = no te enojes."}
+{"id":"ko.c0193","meaning":"Me sorprendí","note":"놀라다. 깜짝 놀랐어요 = ¡qué susto me diste!"}
+{"id":"ko.c0194","meaning":"Te extraño (cortés)","note":"Versión cortés. La informal, 보고 싶어, está en «Palabras dulces»."}
+{"id":"ko.c0195","meaning":"Siento mariposas","note":"설레다 = sentir mariposas en el estómago. Muy de K-drama."}
+{"id":"ko.c0196","meaning":"Qué fastidio / estoy harto/a","note":"짜증 = fastidio. 짜증 나! es informal."}
+{"id":"ko.c0197","meaning":"y (además)","note":"Une oraciones. 밥 먹었어요. 그리고 커피 마셨어요."}
+{"id":"ko.c0198","meaning":"así que / por eso","note":"비가 왔어요. 그래서 집에 있었어요."}
+{"id":"ko.c0199","meaning":"pero (suave) / por cierto","note":"Contraste suave o cambio de tema. Informal: 근데."}
+{"id":"ko.c0200","meaning":"pero / sin embargo","note":"Contraste más fuerte que 그런데."}
+{"id":"ko.c0201","meaning":"después de eso","note":"그다음에 영화 봤어요."}
+{"id":"ko.c0202","meaning":"primero","note":"먼저 손 씻어요 = primero lávate las manos."}
+{"id":"ko.c0203","meaning":"por último","note":"Cierra una secuencia."}
+{"id":"ko.c0204","meaning":"porque","note":"왜냐하면 … 거든요 / 기 때문이에요."}
+{"id":"ko.c0205","meaning":"o","note":"커피 아니면 차? = ¿café o té?"}
+{"id":"ko.c0206","meaning":"entonces / en ese caso","note":"그럼 내일 봐요 = entonces nos vemos mañana."}
+{"id":"ko.c0207","meaning":"en realidad","note":"사실 저 한국어 못해요."}
+{"id":"ko.c0208","meaning":"en fin / bueno","note":"Para volver al tema."}
+{"id":"ko.c0209","meaning":"por ejemplo","note":"Formal: 예를 들어."}
+{"id":"ko.c0210","meaning":"aun así","note":"피곤해요. 그래도 갈게요."}
+{"id":"ko.c0211","meaning":"¿Dónde hay una farmacia?","note":"Busca la cruz verde. Muchas abren hasta tarde; el 편의점 vende lo básico."}
+{"id":"ko.c0212","meaning":"Me duele la cabeza","note":"아프다 = doler. 배가 아파요 = me duele el estómago."}
+{"id":"ko.c0213","meaning":"Tengo fiebre","note":"열 = fiebre. 열 나요 también sirve."}
+{"id":"ko.c0214","meaning":"Tengo tos","note":"콧물이 나요 = tengo mocos."}
+{"id":"ko.c0215","meaning":"Me duele la garganta","note":"목 = cuello / garganta."}
+{"id":"ko.c0216","meaning":"Me resfrié","note":"감기약 주세요 = medicina para el resfriado, por favor."}
+{"id":"ko.c0217","meaning":"¿Tienen analgésicos?","note":"타이레놀 se entiende en todas partes."}
+{"id":"ko.c0218","meaning":"Tengo una alergia","note":"땅콩 알레르기 = alergia al maní. Dilo también antes de pedir comida."}
+{"id":"ko.c0219","meaning":"Tengo receta","note":"Las farmacias junto a las clínicas te la preparan en minutos."}
+{"id":"ko.c0220","meaning":"¿Cuántas veces al día lo tomo?","note":"식후 30분 = 30 min después de comer, la respuesta típica."}
+{"id":"ko.c0221","meaning":"Tengo que ir al hospital","note":"아/어야 돼요 = tener que. 응급실 = urgencias."}
+{"id":"ko.c0222","meaning":"Tengo seguro","note":"여행자 보험 = seguro de viaje. Guarda el 영수증 para reclamar."}
+{"id":"ko.c0223","meaning":"Me duele aquí","note":"Señala. 많이 아파요 = me duele mucho."}
+{"id":"ko.c0224","meaning":"Ya te vas a sentir mejor","note":"Lo dicen por igual médicos y amigos."}
+{"id":"ko.c0225","meaning":"Una mascarilla, por favor","note":"Se vende en todos los 편의점 y 약국."}
+{"id":"ko.c0226","meaning":"Algo para la digestión, por favor","note":"Después de mucho 삼겹살. 까스활명수 es el clásico."}
+{"id":"ko.c0227","meaning":"estudio (departamento de un cuarto)","note":"Del inglés «one room»: un solo cuarto. 투룸 = dos cuartos. 오피스텔 = oficina-vivienda."}
+{"id":"ko.c0228","meaning":"depósito de garantía","note":"En Corea puede ser enorme. 전세 = renta pagando solo un gran depósito."}
+{"id":"ko.c0229","meaning":"renta mensual","note":"월세 얼마예요? = ¿cuánto es la renta?"}
+{"id":"ko.c0230","meaning":"¿Incluye el mantenimiento?","note":"관리비 = cuota de mantenimiento del edificio. 포함 = incluido."}
+{"id":"ko.c0231","meaning":"Llegó un paquete","note":"택배 = paquetería. 문 앞에 놔 주세요 = déjelo en la puerta."}
+{"id":"ko.c0232","meaning":"separación de reciclaje","note":"Es estricta: 플라스틱 / 종이 / 캔 / 음식물. Hay multas."}
+{"id":"ko.c0233","meaning":"residuos de comida","note":"Necesitan su propia bolsa o un contenedor que se abre con tarjeta."}
+{"id":"ko.c0234","meaning":"bolsa de basura oficial","note":"Se compra en el 편의점; es obligatoria para la basura general."}
+{"id":"ko.c0235","meaning":"¿Dónde hay una lavandería / tintorería?","note":"코인 세탁 = lavandería de monedas, abierta 24 h."}
+{"id":"ko.c0236","meaning":"¿Lavan en seco?","note":"Abreviatura de 드라이클리닝, del inglés «dry cleaning»."}
+{"id":"ko.c0237","meaning":"Dígame el código de la puerta, por favor","note":"Casi todas las puertas usan teclado, no llave."}
+{"id":"ko.c0238","meaning":"instalación de wifi","note":"설치 = instalación. 기사님 = el técnico."}
+{"id":"ko.c0239","meaning":"Me mudé","note":"이사 = mudanza. 이삿짐센터 = empresa de mudanzas."}
+{"id":"ko.c0240","meaning":"casero/a (arrendador)","note":"부동산 = inmobiliaria, donde buscas cuarto."}
+{"id":"ko.c0241","meaning":"contrato","note":"계약 = contrato. 사인하다 = firmar."}
+{"id":"ko.c0242","meaning":"Mando paquetes desde la tienda de conveniencia","note":"GS25 y CU tienen mostrador de paquetería. Barato y fácil."}
+{"id":"ko.c0243","meaning":"coma / beba, por favor (honorífico)","note":"드시다 = honorífico de 먹다/마시다. 맛있게 드세요 = ¡buen provecho!"}
+{"id":"ko.c0244","meaning":"duerma, por favor (honorífico)","note":"주무시다 = honorífico de 자다. 안녕히 주무세요 = buenas noches (cortés)."}
+{"id":"ko.c0245","meaning":"quédese / está (honorífico)","note":"계시다 = honorífico de 있다 (para personas). 안녕히 계세요."}
+{"id":"ko.c0246","meaning":"hable, por favor (honorífico)","note":"말씀 = honorífico de 말. 말씀해 주세요 = dígame, por favor."}
+{"id":"ko.c0247","meaning":"¿Cuál es su nombre? (honorífico)","note":"성함 = honorífico de 이름."}
+{"id":"ko.c0248","meaning":"¿Qué edad tiene? (honorífico)","note":"연세 = honorífico de 나이. Para personas mayores."}
+{"id":"ko.c0249","meaning":"vaya (honorífico)","note":"가다 + 시 + 어요 → 가세요. 조심히 가세요."}
+{"id":"ko.c0250","meaning":"¿Ya llegó? (honorífico, pasado)","note":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?"}
+{"id":"ko.c0251","meaning":"haga (honorífico)","note":"안녕하세요 es literalmente «¿está usted en paz?», con 시."}
+{"id":"ko.c0252","meaning":"padre / madre (de otra persona, honorífico)","note":"님 eleva a 아버지/어머니. Para los padres de tu pareja."}
+{"id":"ko.c0253","meaning":"abuela (honorífico)","note":"También para señoras mayores que no conoces."}
+{"id":"ko.c0254","meaning":"cliente / invitado","note":"손 + 님. En las tiendas: 고객님."}
+{"id":"ko.c0255","meaning":"Profesor/a, ¿ya comió?","note":"식사 = «comida», casi honorífico. 하셨어요 = hizo (honorífico)."}
+{"id":"ko.c0256","meaning":"¿Cómo ha estado? (honorífico)","note":"지내다 + 시 + 었어요."}
+{"id":"ko.c0257","meaning":"siéntese, por favor","note":"앉다 + 으세요 (tras consonante)."}
+{"id":"ko.c0258","meaning":"pase, por favor","note":"들어오다 + 세요."}
+{"id":"ko.c0259","meaning":"cafetería / café","note":"카페 es mucho más común al hablar."}
+{"id":"ko.c0260","meaning":"gimnasio","note":"Del inglés «health» (salud) + 장 (lugar). 헬스하다 = entrenar en el gimnasio."}
+{"id":"ko.c0261","meaning":"biblioteca","note":"도서 libros + 관 edificio."}
+{"id":"ko.c0262","meaning":"museo","note":"미술관 = museo de arte."}
+{"id":"ko.c0263","meaning":"casa / hogar","note":"집에 가요 = me voy a casa."}
+{"id":"ko.c0264","meaning":"escuela","note":"대학교 = universidad."}
+{"id":"ko.c0265","meaning":"hospital","note":"También se usa para cualquier consultorio médico."}
+{"id":"ko.c0266","meaning":"farmacia","note":"Busca la cruz verde."}
+{"id":"ko.c0267","meaning":"banco","note":"También significa «ginkgo»: el contexto decide."}
+{"id":"ko.c0268","meaning":"tienda de conveniencia","note":"GS25, CU, 세븐일레븐."}
+{"id":"ko.c0269","meaning":"restaurante","note":"레스토랑 = restaurante de estilo occidental."}
+{"id":"ko.c0270","meaning":"mercado","note":"전통시장 = mercado tradicional."}
+{"id":"ko.c0271","meaning":"tienda por departamentos","note":"Lotte, Shinsegae, Hyundai."}
+{"id":"ko.c0272","meaning":"cine","note":"CGV, 메가박스, 롯데시네마."}
+{"id":"ko.c0273","meaning":"parque","note":"한강공원 = parque del río Han."}
+{"id":"ko.c0274","meaning":"hotel","note":"El 모텔 es más barato; 게스트하우스 para mochileros."}
+{"id":"ko.c0275","meaning":"iglesia / templo budista","note":"성당 = iglesia católica."}
+{"id":"ko.c0276","meaning":"baño (sanitario)","note":"Literalmente «cuarto de maquillaje»."}
+{"id":"ko.c0277","meaning":"pasatiempo","note":"취미가 뭐예요? = ¿Cuál es tu pasatiempo?"}
+{"id":"ko.c0278","meaning":"ejercicio / entrenar","note":"운동해요 = hago ejercicio."}
+{"id":"ko.c0279","meaning":"lectura","note":"Al hablar suena más natural 책 읽는 거 좋아해요."}
+{"id":"ko.c0280","meaning":"cocinar","note":"요리해요 = cocino."}
+{"id":"ko.c0281","meaning":"viajar","note":"여행 가요 = me voy de viaje."}
+{"id":"ko.c0282","meaning":"escuchar música","note":"음악 들어요 = escucho música."}
+{"id":"ko.c0283","meaning":"ver películas","note":"-기 convierte un verbo en sustantivo."}
+{"id":"ko.c0284","meaning":"videojuegos","note":"게임해요 = juego videojuegos. PC방 = cibercafé."}
+{"id":"ko.c0285","meaning":"fotografía","note":"사진 찍어요 = tomo fotos."}
+{"id":"ko.c0286","meaning":"dibujar / pintar","note":"그림 = dibujo, cuadro."}
+{"id":"ko.c0287","meaning":"cantar","note":"노래방 = karaoke en cabina privada."}
+{"id":"ko.c0288","meaning":"bailar","note":"춤 춰요 = bailo."}
+{"id":"ko.c0289","meaning":"senderismo","note":"Pasatiempo nacional: verás equipo completo hasta en rutas fáciles."}
+{"id":"ko.c0290","meaning":"pesca","note":""}
+{"id":"ko.c0291","meaning":"ir de compras","note":"쇼핑해요 = voy de compras."}
+{"id":"ko.c0292","meaning":"acampar","note":"차박 = acampar dentro del coche."}
+{"id":"ko.c0293","meaning":"kimchi","note":"Viene gratis con casi cualquier comida."}
+{"id":"ko.c0294","meaning":"gimbap (rollo de arroz con alga)","note":"Barato y en todas partes, ~₩3,000–5,000."}
+{"id":"ko.c0295","meaning":"bibimbap","note":"비빔 = mezclado; 밥 = arroz."}
+{"id":"ko.c0296","meaning":"bulgogi (res marinada)","note":""}
+{"id":"ko.c0297","meaning":"panceta de cerdo a la parrilla","note":"Carne de tres capas. Envuélvela en lechuga: 쌈."}
+{"id":"ko.c0298","meaning":"pollo frito (coreano)","note":"치맥 = pollo + 맥주."}
+{"id":"ko.c0299","meaning":"tteokbokki (pasta de arroz picante)","note":"Un clásico de la comida callejera."}
+{"id":"ko.c0300","meaning":"ramyeon (fideos instantáneos)","note":"라멘 es la versión japonesa."}
+{"id":"ko.c0301","meaning":"jjigae (guiso)","note":"김치찌개, 된장찌개, 순두부찌개."}
+{"id":"ko.c0302","meaning":"sopa","note":"탕 es más sustanciosa (삼계탕, 갈비탕)."}
+{"id":"ko.c0303","meaning":"acompañamientos (banchan)","note":"Te los rellenan gratis: 반찬 좀 더 주세요."}
+{"id":"ko.c0304","meaning":"pan","note":"빵집 = panadería. Viene del portugués «pão» (a través del japonés), pariente de nuestro «pan»."}
+{"id":"ko.c0305","meaning":"fruta","note":"사과 manzana, 딸기 fresa, 귤 mandarina."}
+{"id":"ko.c0306","meaning":"verduras","note":"채소 es la palabra estándar."}
+{"id":"ko.c0307","meaning":"huevo","note":"달걀 es la palabra puramente coreana."}
+{"id":"ko.c0308","meaning":"pescado (como comida)","note":"Como en español: 물고기 = pez (vivo)."}
+{"id":"ko.c0309","meaning":"mariscos","note":"해물파전 = tortita de mariscos."}
+{"id":"ko.c0310","meaning":"postre","note":"빙수 = hielo raspado; 호떡 = tortita dulce."}
+{"id":"ko.c0311","meaning":"bebida (sin alcohol)","note":"Término general para bebidas sin alcohol."}
+{"id":"ko.c0312","meaning":"café","note":"아메리카노, 라떼, 믹스커피 (instantáneo)."}
+{"id":"ko.c0313","meaning":"té","note":"녹차 verde, 보리차 de cebada, 유자차 de yuzu."}
+{"id":"ko.c0314","meaning":"leche","note":"두유 = leche de soya."}
+{"id":"ko.c0315","meaning":"jugo","note":"오렌지 주스."}
+{"id":"ko.c0316","meaning":"refresco de cola / refresco de lima-limón","note":"Ojo: 사이다 es tipo Sprite, no sidra."}
+{"id":"ko.c0317","meaning":"agua embotellada","note":"En los restaurantes pide 물: es gratis."}
+{"id":"ko.c0318","meaning":"cerveza","note":"생맥주 = cerveza de barril. 카스, 테라, 클라우드."}
+{"id":"ko.c0319","meaning":"soju","note":"참이슬, 처음처럼. Botella verde."}
+{"id":"ko.c0320","meaning":"makgeolli (vino de arroz)","note":"Va con 파전 en los días de lluvia."}
+{"id":"ko.c0321","meaning":"vino","note":""}
+{"id":"ko.c0322","meaning":"cóctel","note":""}
+{"id":"ko.c0323","meaning":"smoothie / licuado","note":""}
+{"id":"ko.c0324","meaning":"hielo","note":"얼음 빼 주세요 = sin hielo, por favor."}
+{"id":"ko.c0325","meaning":"Otra copa, por favor","note":"잔 es el contador de vasos y tazas."}
+{"id":"ko.c0326","meaning":"¡salud! (formal vs. informal)","note":"짠! entre amigos; 건배 en las cenas."}
+{"id":"ko.c0327","meaning":"Hago ejercicio","note":"운동하다."}
+{"id":"ko.c0328","meaning":"Estudio","note":"공부하다."}
+{"id":"ko.c0329","meaning":"Trabajo","note":"일하다."}
+{"id":"ko.c0330","meaning":"Descanso","note":"쉬다. 주말에 쉬어요 = descanso los fines de semana."}
+{"id":"ko.c0331","meaning":"Salgo con amigos / juego","note":"놀다. 같이 놀자 = ¡vamos a juntarnos!"}
+{"id":"ko.c0332","meaning":"Salgo a caminar","note":"산책하다."}
+{"id":"ko.c0333","meaning":"Nado","note":"수영하다. 수영장 = piscina."}
+{"id":"ko.c0334","meaning":"Corro","note":"달리다. 러닝 también es común."}
+{"id":"ko.c0335","meaning":"Ando en bici","note":"타다 = subirse / montar (bici, autobús, caballo)."}
+{"id":"ko.c0336","meaning":"Veo una película","note":"보다 → 봐요."}
+{"id":"ko.c0337","meaning":"Escucho música","note":"듣다 → 들어요 (irregular en ㄷ)."}
+{"id":"ko.c0338","meaning":"Leo un libro","note":"읽다 → 읽어요."}
+{"id":"ko.c0339","meaning":"Cocino","note":"요리하다."}
+{"id":"ko.c0340","meaning":"Hago la limpieza","note":"청소하다. 빨래해요 = lavo la ropa."}
+{"id":"ko.c0341","meaning":"Me veo con un amigo","note":"만나다."}
+{"id":"ko.c0342","meaning":"Voy de compras","note":"쇼핑하다."}
+{"id":"ko.c0343","meaning":"Tomo fotos","note":"찍다 → 찍어요."}
+{"id":"ko.c0344","meaning":"Juego videojuegos","note":"게임하다."}
+{"id":"ko.c0345","meaning":"drama / serie","note":"K-drama = 한국 드라마 o simplemente 드라마."}
+{"id":"ko.c0346","meaning":"programa de variedades","note":"런닝맨, 유 퀴즈: comedia sin guion."}
+{"id":"ko.c0347","meaning":"noticias","note":""}
+{"id":"ko.c0348","meaning":"película","note":"영화 보러 갈래? = ¿vamos al cine?"}
+{"id":"ko.c0349","meaning":"documental","note":"Se abrevia 다큐."}
+{"id":"ko.c0350","meaning":"cómic / webtoon","note":"Muchos dramas se basan en un 웹툰."}
+{"id":"ko.c0351","meaning":"animación / anime","note":"Se abrevia 애니."}
+{"id":"ko.c0352","meaning":"comedia","note":"개그 = sketch cómico."}
+{"id":"ko.c0353","meaning":"romance","note":"로코 = comedia romántica."}
+{"id":"ko.c0354","meaning":"thriller / suspenso","note":""}
+{"id":"ko.c0355","meaning":"película de terror","note":"무서워요 = da miedo."}
+{"id":"ko.c0356","meaning":"acción","note":""}
+{"id":"ko.c0357","meaning":"drama histórico","note":"Ambientado en la Corea de la dinastía Joseon."}
+{"id":"ko.c0358","meaning":"programa musical","note":"뮤직뱅크, 인기가요: presentaciones semanales de idols."}
+{"id":"ko.c0359","meaning":"programa de audiciones","note":"서바이벌 = programa de eliminación."}
+{"id":"ko.c0360","meaning":"qué capítulo","note":"화 es el contador de capítulos. 3화 = capítulo 3."}
+{"id":"ko.c0361","meaning":"retransmisión","note":"본방송 = emisión original; 본방사수 = verlo en vivo sí o sí."}
+{"id":"ko.c0362","meaning":"maratón de series","note":"정주행했어 = me la vi de corrido."}
+{"id":"ko.c0363","meaning":"arriba / abajo","note":"책상 위에 = sobre el escritorio."}
+{"id":"ko.c0364","meaning":"delante / detrás","note":"건물 앞에서 만나요 = nos vemos frente al edificio."}
+{"id":"ko.c0365","meaning":"al lado","note":"은행 옆에 있어요 = está al lado del banco."}
+{"id":"ko.c0366","meaning":"dentro / fuera","note":"안에 들어가요 = entro."}
+{"id":"ko.c0367","meaning":"entre","note":"카페와 약국 사이에 = entre el café y la farmacia."}
+{"id":"ko.c0368","meaning":"cruzando la calle","note":"길 건너편에 있어요."}
+{"id":"ko.c0369","meaning":"del lado opuesto, enfrente","note":"Significa lo mismo que 건너편."}
+{"id":"ko.c0370","meaning":"cerca, por los alrededores","note":"이 근처에 = por aquí cerca."}
+{"id":"ko.c0371","meaning":"lejos / cerca (distancia)","note":"여기서 가까워요? = ¿Está cerca de aquí?"}
+{"id":"ko.c0372","meaning":"este / oeste / sur / norte","note":"강남 = al sur del río."}
+{"id":"ko.c0373","meaning":"esquina","note":"코너에서 왼쪽으로 = a la izquierda en la esquina."}
+{"id":"ko.c0374","meaning":"paso peatonal","note":"건너세요 = cruce."}
+{"id":"ko.c0375","meaning":"semáforo","note":"신호등에서 우회전 = vuelta a la derecha en el semáforo."}
+{"id":"ko.c0376","meaning":"salida / entrada","note":"지하철 3번 출구 = salida 3 del metro."}
+{"id":"ko.c0377","meaning":"piso (de un edificio)","note":"2층 = 2.º piso; 지하 1층 = sótano 1."}
+{"id":"ko.c0378","meaning":"Regrese / dé la vuelta","note":"돌다 = girar."}
+{"id":"ko.c0379","meaning":"todo recto","note":"Más corto que 똑바로 가세요; aparece en letreros."}
+{"id":"ko.c0380","meaning":"vuelta a la derecha / vuelta a la izquierda","note":"En el taxi: 우회전해 주세요."}
+{"id":"ko.c0381","meaning":"ser (soy / es / eres), cortés","note":"Es el «ser» de identidad: 이에요 tras consonante, 예요 tras vocal: 학생이에요, 저예요."}
+{"id":"ko.c0382","meaning":"hay / tener / estar (en un lugar)","note":"없어요 (eopseoyo) = no hay / no tener / no estar."}
+{"id":"ko.c0383","meaning":"hacer (하다)","note":"Pasado: 했어요. Futuro: 할 거예요."}
+{"id":"ko.c0384","meaning":"ir (가다)","note":"Pasado: 갔어요. 집에 가요 = me voy a casa."}
+{"id":"ko.c0385","meaning":"venir (오다)","note":"Pasado: 왔어요."}
+{"id":"ko.c0386","meaning":"comer (먹다)","note":"Pasado: 먹었어요. 밥 먹었어요? = ¿Ya comiste?"}
+{"id":"ko.c0387","meaning":"beber (마시다)","note":"Pasado: 마셨어요."}
+{"id":"ko.c0388","meaning":"ver / mirar (보다)","note":"Pasado: 봤어요. 내일 봐요 = nos vemos mañana."}
+{"id":"ko.c0389","meaning":"gustar (좋아하다)","note":"Ojo: al revés que «gustar», aquí quien siente el gusto es el sujeto. 좋아요 = está bien / me gusta (forma de adjetivo)."}
+{"id":"ko.c0390","meaning":"saber / conocer (알다)","note":"몰라요 (mollayo) = no sé."}
+{"id":"ko.c0391","meaning":"deme, por favor","note":"Raíz + 아/어 주세요 = por favor, haz X."}
+{"id":"ko.c0392","meaning":"amar (사랑하다)","note":"Informal: 사랑해."}
+{"id":"ko.c0393","meaning":"marcador de tema («en cuanto a…»)","note":"은 tras consonante, 는 tras vocal. 저는 = en cuanto a mí, yo."}
+{"id":"ko.c0394","meaning":"marcador de sujeto","note":"이 tras consonante, 가 tras vocal. 비가 와요 = llueve."}
+{"id":"ko.c0395","meaning":"marcador de objeto","note":"을 tras consonante, 를 tras vocal. 밥을 먹어요."}
+{"id":"ko.c0396","meaning":"a / en (destino, lugar o momento)","note":"학교에 가요 = voy a la escuela. 세 시에 = a las 3."}
+{"id":"ko.c0397","meaning":"en (donde ocurre la acción) / desde","note":"집에서 먹어요 = como en casa."}
+{"id":"ko.c0398","meaning":"también","note":"Sustituye a 은/는/이/가/을/를. 저도 = yo también."}
+{"id":"ko.c0399","meaning":"posesivo («de»), va antes de lo poseído","note":"Suele pronunciarse 에. 친구의 책 = el libro del amigo."}
+{"id":"ko.c0400","meaning":"y / con","note":"하고 es la opción segura al hablar."}
+{"id":"ko.c0401","meaning":"solo","note":"물만 주세요 = solo agua, por favor."}
+{"id":"ko.c0402","meaning":"1, 2, 3 (nativos)","note":"Números nativos: edad, contar cosas, horas."}
+{"id":"ko.c0403","meaning":"4, 5, 6 (nativos)","note":"Antes de un contador: 하나→한, 둘→두, 셋→세, 넷→네."}
+{"id":"ko.c0404","meaning":"7, 8, 9, 10 (nativos)","note":"스물 = 20, 서른 = 30."}
+{"id":"ko.c0405","meaning":"1 a 5 (sinocoreanos)","note":"Números sinocoreanos: dinero, fechas, minutos, teléfonos."}
+{"id":"ko.c0406","meaning":"6 a 10 (sinocoreanos)","note":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000."}
+{"id":"ko.c0407","meaning":"10,000 wones","note":"El coreano cuenta por 만 (10 mil). 오만 원 = 50,000 wones."}
+{"id":"ko.c0408","meaning":"3:30","note":"Horas = nativo (세), minutos = sinocoreano (삼십)."}
+{"id":"ko.c0409","meaning":"25 años (de edad)","note":"La edad usa números nativos + 살."}
+{"id":"ko.c0410","meaning":"Eres tierno/a","note":"Informal. Cortés: 귀여워요."}
+{"id":"ko.c0411","meaning":"Eres bonita / qué bonito","note":"También para cosas: un café bonito."}
+{"id":"ko.c0412","meaning":"Eres guapo","note":"Lit. «saliste bien hecho»."}
+{"id":"ko.c0413","meaning":"Te extraño (informal)","note":"Lit. «quiero verte»."}
+{"id":"ko.c0414","meaning":"Me gustas","note":"El paso antes de 사랑해."}
+{"id":"ko.c0415","meaning":"Amor / cariño","note":"Apodo común entre parejas."}
+{"id":"ko.c0416","meaning":"Duerme bien / buenas noches","note":"Informal. Cortés: 안녕히 주무세요."}
+{"id":"ko.c0417","meaning":"¿Ya comiste?","note":"Así preguntan los coreanos «¿cómo estás?» a quien quieren."}
+{"id":"ko.c0418","meaning":"Hoy te ves bonita","note":"네요 = notar algo en voz alta. Informal: 오늘 예쁘네."}
+{"id":"ko.c0419","meaning":"Tus ojos son preciosos","note":"눈 = ojos. 웃는 모습이 예뻐요 = tu sonrisa es bonita."}
+{"id":"ko.c0420","meaning":"Tu risa es tan linda","note":"웃다 = reír / sonreír."}
+{"id":"ko.c0421","meaning":"Te extrañé","note":"Informal: 보고 싶었어. Dilo al llegar."}
+{"id":"ko.c0422","meaning":"Soy feliz cuando estoy contigo","note":"같이 = juntos. 행복하다 = ser feliz."}
+{"id":"ko.c0423","meaning":"Pensé mucho en ti","note":"Informal. 생각 = pensamiento."}
+{"id":"ko.c0424","meaning":"¿Ya comiste? Come bien, ¿eh?","note":"El colmo del cariño coreano: preocuparse por tus comidas."}
+{"id":"ko.c0425","meaning":"¿Llegaste bien a casa?","note":"Mándalo después de una cita. Se espera, no es opcional."}
+{"id":"ko.c0426","meaning":"Cuídate en el camino","note":"Informal. Cortés: 조심히 가세요."}
+{"id":"ko.c0427","meaning":"Dulces sueños","note":"Lit. «sueña un sueño bonito». Va con 잘 자."}
+{"id":"ko.c0428","meaning":"Mírame solo a mí","note":"Juguetón y un poco celoso. 만 = solo."}
+{"id":"ko.c0429","meaning":"Eres la única persona para mí","note":"Lit. «no hay nadie más que tú»."}
+{"id":"ko.c0430","meaning":"Se me aceleró el corazón","note":"심쿵 = corazón (심장) + ¡pum! (쿵). Jerga."}
+{"id":"ko.c0431","meaning":"¿Quieres ser mío/mía?","note":"Forma informal y juguetona de pedirle a alguien que sea tu pareja."}
+{"id":"ko.c0432","meaning":"¿Quieres ser mi novio/a?","note":"사귀다 = andar con alguien. La pregunta en serio."}
+{"id":"ko.c0433","meaning":"Ya no te hagas el/la tierno/a, me duele el corazón","note":"애교 = hacerse el tierno. Frase de broma para coquetear."}
+{"id":"ko.c0434","meaning":"¿Me pasas tu número?","note":"좀 lo suaviza. Cortés: 번호 좀 알려 주실래요?"}
+{"id":"ko.c0435","meaning":"¿Tienes Instagram?","note":"La forma moderna de pedir el número. 인스타 = Insta."}
+{"id":"ko.c0436","meaning":"Si tienes tiempo, ¿vamos por un café?","note":"ㄹ래요 = ¿quieres…? Una invitación sin presión."}
+{"id":"ko.c0437","meaning":"¿Tienes novio?","note":"여자친구 = novia. 남친/여친 = formas cortas informales."}
+{"id":"ko.c0438","meaning":"Fue amor a primera vista","note":"첫눈 = primera vista (y también primera nevada). 반하다 = enamorarse."}
+{"id":"ko.c0439","meaning":"El tiempo vuela cuando estoy contigo","note":"랑 = con (informal). 빨리 = rápido."}
+{"id":"ko.c0440","meaning":"Pensar en ti me hace sonreír","note":"웃음이 나다 = que se te escape una sonrisa."}
+{"id":"ko.c0441","meaning":"No dejo de pensar en ti","note":"자꾸 = una y otra vez."}
+{"id":"ko.c0442","meaning":"Eres la más bonita","note":"제일 = el/la más. Para chicos: 제일 멋있어."}
+{"id":"ko.c0443","meaning":"¿Nos vemos otra vez?","note":"ㄹ까 = ¿y si…? 또 = otra vez."}
+{"id":"ko.c0444","meaning":"Te acompaño a tu casa","note":"ㄹ게 = voy a… (como promesa). El final clásico de una cita."}
+{"id":"ko.c0445","meaning":"Creo que me gustas","note":"것 같아 = creo que / parece. Suaviza la confesión."}
+{"id":"ko.c0446","meaning":"Hoy no quiero irme a casa","note":"기 싫다 = no querer. Se dice al final de una buena cita."}
+{"id":"ko.c0447","meaning":"Seamos novios","note":"자 = vamos a… Más seguro que 사귈래?"}
+{"id":"ko.c0448","meaning":"¿Qué haces?","note":"El saludo universal. Cortés: 뭐 해요?"}
+{"id":"ko.c0449","meaning":"Estoy aburrido/a (informal)","note":"심심하다 = aburrirse. 놀자 = ¡vamos a salir!"}
+{"id":"ko.c0450","meaning":"Estoy cansado/a (informal)","note":"피곤하다. 졸려 = tengo sueño."}
+{"id":"ko.c0451","meaning":"Tengo hambre","note":"Versión informal de 배고파요."}
+{"id":"ko.c0452","meaning":"¿Dónde estás?","note":"Informal. 어디예요? es la forma cortés."}
+{"id":"ko.c0453","meaning":"Ya voy para allá","note":"Lit. «voy ahora». 다 왔어 = ya casi llego."}
+{"id":"ko.c0454","meaning":"Creo que voy a llegar tarde","note":"것 같아 = creo que. 미안, 늦었어 = perdón, llegué tarde."}
+{"id":"ko.c0455","meaning":"jajaja","note":"Solo por escrito. ㅎㅎ = risita más suave. ㅠㅠ = llorando."}
+{"id":"ko.c0456","meaning":"sí / ok","note":"Abreviatura escrita de 응. ㄴㄴ = no."}
+{"id":"ko.c0457","meaning":"Qué risa","note":"웃기다 = ser chistoso."}
+{"id":"ko.c0458","meaning":"Ni idea","note":"Forma informal de 몰라요. 글쎄 = mmm, no sé."}
+{"id":"ko.c0459","meaning":"Ok / va / está bien","note":"Con tono de pregunta también es «¿ah, sí?»."}
+{"id":"ko.c0460","meaning":"Nos vemos","note":"담에 = 다음에 (la próxima), abreviado."}
+{"id":"ko.c0461","meaning":"Buenas noches, nos vemos mañana","note":"La despedida estándar por mensaje."}
+{"id":"ko.c0462","meaning":"¡Qué genial! / Te ves muy bien","note":"Para personas, ropa, movimientos. Cortés: 멋있어요."}
+{"id":"ko.c0463","meaning":"¡Bien hecho!","note":"잘하다 = hacer bien. Cortés: 잘했어요."}
+{"id":"ko.c0464","meaning":"Eres el/la mejor","note":"최고 = lo mejor. 네가 최고야."}
+{"id":"ko.c0465","meaning":"Respeto / tienes razón","note":"Lit. «reconocer». En mensajes: ㅇㅈ."}
+{"id":"ko.c0466","meaning":"¡Lo máximo!","note":"짱 = lo top. 짱 멋있어 = súper genial."}
+{"id":"ko.c0467","meaning":"Leyenda","note":"Como nuestro «leyenda», pero tomado del inglés «legend». 레전드다 = ¡eso es legendario!"}
+{"id":"ko.c0468","meaning":"¡Una locura! (en el buen sentido)","note":"Para un gol, una canción, una vista. Informal."}
+{"id":"ko.c0469","meaning":"¡Increíble!","note":"La palabra de emoción segura con cualquier público."}
+{"id":"ko.c0470","meaning":"¡Vamos!","note":"También es el grito antes del partido."}
+{"id":"ko.c0471","meaning":"Ok, va / me apunto","note":"콜 = «voy», como en el póquer (del inglés «call»): aceptas el plan."}
+{"id":"ko.c0472","meaning":"Te esforzaste mucho","note":"Se dice tras un esfuerzo. Cortés: 고생하셨어요."}
+{"id":"ko.c0473","meaning":"Buen trabajo hoy (al terminar)","note":"Despedida al final del día, en el trabajo o el entrenamiento."}
+{"id":"ko.c0474","meaning":"¡Tú puedes! / ¡ánimo!","note":"힘 = fuerza. Cortés: 힘내세요."}
+{"id":"ko.c0475","meaning":"No te preocupes","note":"지 마 = no hagas… Forma completa: 걱정하지 마."}
+{"id":"ko.c0476","meaning":"¿Vamos por un trago?","note":"한잔 = un vaso. La frase para hacer amigos."}
+{"id":"ko.c0477","meaning":"¿Qué quieres comer?","note":"La pregunta favorita de todos."}
+{"id":"ko.c0478","meaning":"¡Oye!","note":"Solo con amigos cercanos o de tu edad. Con alguien mayor es grosero."}
+{"id":"ko.c0479","meaning":"Oye, ¿qué haces?","note":"La entrada antes de cualquier invitación."}
+{"id":"ko.c0480","meaning":"¡Salgamos!","note":"놀다 = jugar / pasar el rato. 자 = vamos a…"}
+{"id":"ko.c0481","meaning":"Sal (ven a vernos)","note":"Lit. «sal». 빨리 나와 = sal ya, apúrate."}
+{"id":"ko.c0482","meaning":"¿Tienes tiempo?","note":"Cortés: 시간 있어요?"}
+{"id":"ko.c0483","meaning":"¿Puedes hoy?","note":"돼 = ¿se puede? / ¿te funciona?"}
+{"id":"ko.c0484","meaning":"¿Vamos juntos?","note":"같이 = juntos. ㄹ래 = ¿quieres…?"}
+{"id":"ko.c0485","meaning":"¿Vamos a comer?","note":"으러 가다 = ir a (hacer algo). 커피 마시러 갈래? = ¿vamos por un café?"}
+{"id":"ko.c0486","meaning":"¿Vemos una película?","note":"보다 → 볼래. 게임 할래? = ¿jugamos videojuegos?"}
+{"id":"ko.c0487","meaning":"¿Y si vamos a un café?","note":"ㄹ까 = ¿y si…? Más suave que ㄹ래."}
+{"id":"ko.c0488","meaning":"¿Vienes a mi casa?","note":"우리 집 = mi (nuestra) casa. Los coreanos dicen 우리 para su propio hogar."}
+{"id":"ko.c0489","meaning":"¿Cuándo nos vemos?","note":"언제 = cuándo. 만나다 = verse, encontrarse."}
+{"id":"ko.c0490","meaning":"¿A qué hora nos vemos?","note":"보다 (ver) también sirve para «verse con alguien»."}
+{"id":"ko.c0491","meaning":"¿Dónde nos vemos?","note":"어디서 = 어디에서 abreviado."}
+{"id":"ko.c0492","meaning":"Ya voy","note":"ㄹ게 = voy a… (te lo prometo). 금방 갈게 = ya casi llego."}
+{"id":"ko.c0493","meaning":"Estuvo divertido","note":"Se dice al despedirse. Cortés: 재밌었어요."}
+{"id":"ko.c0494","meaning":"Salgamos otra vez","note":"또 = otra vez."}
+{"id":"ko.c0495","meaning":"Nos vemos la próxima","note":"담에 = 다음에. 보자 = veámonos."}
+{"id":"ko.c0496","meaning":"mi favorito (del grupo)","note":"최애가 누구예요? = ¿quién es tu favorito? 차애 = el segundo favorito."}
+{"id":"ko.c0497","meaning":"ser fan / fanatismo","note":"Viene de 오타쿠. 덕질해요 = ando metido en lo del fandom."}
+{"id":"ko.c0498","meaning":"Me hice fan","note":"입덕 = entrar al fandom. 탈덕 = salirse."}
+{"id":"ko.c0499","meaning":"comeback (nuevo lanzamiento)","note":"Cada álbum nuevo es un 컴백. 컴백 언제예요?"}
+{"id":"ko.c0500","meaning":"escenario / presentación","note":"무대 진짜 잘해요 = en el escenario son buenísimos."}
+{"id":"ko.c0501","meaning":"Voy a un concierto","note":"콘서트 티켓팅 = conseguir boletos, un deporte de alto riesgo."}
+{"id":"ko.c0502","meaning":"lightstick (barra de luz)","note":"Cada grupo tiene el suyo. 응원 = apoyo, ánimos."}
+{"id":"ko.c0503","meaning":"el público cantando a coro","note":"떼 = multitud. El público canta la canción entera."}
+{"id":"ko.c0504","meaning":"Soy fan","note":"저 팬이에요 = soy tu fan (o su fan)."}
+{"id":"ko.c0505","meaning":"¿Me firma esto, por favor?","note":"사인 = autógrafo."}
+{"id":"ko.c0506","meaning":"La canción está buena","note":"이 노래 진짜 좋아요 = esta canción está buenísima."}
+{"id":"ko.c0507","meaning":"La letra está buena","note":"가사 = letra (de canción)."}
+{"id":"ko.c0508","meaning":"coreografía","note":"안무 외웠어요 = me aprendí la coreo."}
+{"id":"ko.c0509","meaning":"debut (primer lanzamiento)","note":"데뷔 몇 년이에요? = ¿en qué año debutaron?"}
+{"id":"ko.c0510","meaning":"fan meeting (encuentro con fans)","note":"팬싸 = firma de autógrafos para fans."}
+{"id":"ko.c0511","meaning":"fancam (video de un fan)","note":"직접 + 캠. Video de concierto centrado en un solo integrante."}
+{"id":"ko.c0512","meaning":"historia de Instagram","note":"스토리 봤어? = ¿viste mi historia?"}
+{"id":"ko.c0513","meaning":"Dame like","note":"누르다 = presionar, tocar."}
+{"id":"ko.c0514","meaning":"Te seguí","note":"맞팔 = seguirse mutuamente. 맞팔해요 = sigámonos."}
+{"id":"ko.c0515","meaning":"meme / imagen de reacción","note":"짤 보내 줘 = mándame el meme."}
+{"id":"ko.c0516","meaning":"silencio incómodo de repente","note":"갑자기 분위기 싸해짐. Cuando un chiste no le da risa a nadie."}
+{"id":"ko.c0517","meaning":"demasiada información / dato random","note":"Para contar de más algo tierno, no algo asqueroso."}
+{"id":"ko.c0518","meaning":"arreglado sin parecerlo","note":"꾸민 듯 안 꾸민 듯. El look de «me levanté así»."}
+{"id":"ko.c0519","meaning":"riquísimo, delicioso a morir","note":"Muy coloquial. En mensajes: JMT."}
+{"id":"ko.c0520","meaning":"de acuerdo / es verdad","note":"Abreviatura escrita de 인정."}
+{"id":"ko.c0521","meaning":"de verdad, en serio","note":"Abreviatura escrita de 리얼."}
+{"id":"ko.c0522","meaning":"superpopular / muy sociable","note":"핵 = prefijo «nuclear», súper. 아싸 = el que no encaja / introvertido."}
+{"id":"ko.c0523","meaning":"pequeña felicidad segura","note":"소소하지만 확실한 행복. Un café, una siesta, la lluvia."}
+{"id":"ko.c0524","meaning":"estudiar duro","note":"열심히 공부. 열공 중 = estoy estudiando a fondo ahora."}
+{"id":"ko.c0525","meaning":"crisis mental, colapso","note":"멘탈 붕괴. 멘붕 왔어 = ya no puedo más."}
+{"id":"ko.c0526","meaning":"Me morí de risa","note":"빵 = ¡pum!, sonido de explosión."}
+{"id":"ko.c0527","meaning":"Tomémonos una selfie","note":"셀카 = selfie. 찍다 = tomar (una foto)."}
+{"id":"ko.c0528","meaning":"¿Qué somos?","note":"사이 = relación entre dos personas. La pregunta para definir la relación."}
+{"id":"ko.c0529","meaning":"Quiero una relación en serio","note":"진지하다 = ser serio."}
+{"id":"ko.c0530","meaning":"Eres muy cariñoso","note":"다정하다 = cariñoso, atento. Un halago que va más allá del físico."}
+{"id":"ko.c0531","meaning":"Me gusta tu risa","note":"웃음소리 = el sonido de la risa."}
+{"id":"ko.c0532","meaning":"Contigo me siento a gusto","note":"편하다 = estar cómodo. Un gran halago en una relación coreana."}
+{"id":"ko.c0533","meaning":"Perdón, fue mi culpa","note":"잘못하다 = hacer algo mal. Acepta tu error."}
+{"id":"ko.c0534","meaning":"Ya no te enojes","note":"풀다 = desatar, soltar. 화 풀어 줘 es más suave."}
+{"id":"ko.c0535","meaning":"No te preocupes, me tienes a mí","note":"잖아 = «ya sabes». Para dar tranquilidad."}
+{"id":"ko.c0536","meaning":"¿Qué tal la cita de hoy?","note":"어땠어 = ¿qué tal estuvo?"}
+{"id":"ko.c0537","meaning":"Tomémonos una foto juntos","note":"Foto de pareja = 커플 사진."}
+{"id":"ko.c0538","meaning":"Feliz día 100","note":"Las parejas celebran sus primeros 100 días. Es algo importante."}
+{"id":"ko.c0539","meaning":"¿Te puedo tomar de la mano?","note":"잡다 = tomar, agarrar. 아/어도 돼 = ¿puedo…?"}
+{"id":"ko.c0540","meaning":"Abrázame","note":"안다 = abrazar. 안아 줄게 = te abrazo."}
+{"id":"ko.c0541","meaning":"Te extraño muchísimo","note":"죽겠어 = «me muero», intensificador. Coloquial y dramático."}
+{"id":"ko.c0542","meaning":"Tengo algo que decirte","note":"Anuncia una conversación seria. 한테 = a (una persona)."}
+{"id":"ko.c0543","meaning":"Creo que hacemos buena pareja","note":"맞다 = encajar, coincidir."}
+{"id":"ko.c0544","meaning":"¿A qué hora es la reunión?","note":"회의 = reunión. 회의실 = sala de reuniones."}
+{"id":"ko.c0545","meaning":"¿Cuándo es la fecha límite?","note":"마감 = fecha límite. 마감 지켰어요 = entregué a tiempo."}
+{"id":"ko.c0546","meaning":"Lo reviso y le aviso","note":"Formal. La respuesta de correo que más vas a enviar."}
+{"id":"ko.c0547","meaning":"¿Tiene un momento?","note":"A un compañero o a un superior. 잠깐 = un momento."}
+{"id":"ko.c0548","meaning":"¿Me podría ayudar con esto?","note":"도와주시다 honorífico + 수 있어요 = ¿podría…?"}
+{"id":"ko.c0549","meaning":"Me retiro primero","note":"퇴근 = salir del trabajo. Díselo a todos en la oficina, siempre."}
+{"id":"ko.c0550","meaning":"Gracias por su trabajo de hoy (formal)","note":"A los superiores al irte. A quienes siguen trabajando: 수고하세요 (ánimo con el trabajo)."}
+{"id":"ko.c0551","meaning":"Hay cena de equipo","note":"회식 = cena de la empresa. La asistencia es… muy recomendable."}
+{"id":"ko.c0552","meaning":"Ya mandé el informe","note":"보고서 = informe. 보내다 = enviar."}
+{"id":"ko.c0553","meaning":"¿Qué almorzamos?","note":"La pregunta de las 11:30 en toda oficina."}
+{"id":"ko.c0554","meaning":"Tengo que quedarme a trabajar tarde","note":"야근 = trabajo nocturno, horas extra. 아/어야 돼요 = tener que."}
+{"id":"ko.c0555","meaning":"Pedí vacaciones","note":"휴가 = vacaciones. 신청하다 = solicitar."}
+{"id":"ko.c0556","meaning":"¿Vio mi correo?","note":"Pasado honorífico: 하셨어요."}
+{"id":"ko.c0557","meaning":"Gracias por sus comentarios","note":"주셔서 = por darme (honorífico)."}
+{"id":"ko.c0558","meaning":"Presento la próxima semana","note":"발표 = presentación."}
+{"id":"ko.c0559","meaning":"Será un gusto trabajar con usted","note":"Cierra correos de trabajo y primeras reuniones."}
+{"id":"ko.c0560","meaning":"¿Cómo has estado?","note":"Saludo típico para alguien a quien no ves desde hace tiempo."}
+{"id":"ko.c0561","meaning":"He estado bien","note":"Agrega 덕분에 (gracias a ti) para sonar todavía más amable."}
+{"id":"ko.c0562","meaning":"¿Qué tal todo últimamente?","note":"요즘 = estos días. 어때요 = ¿qué tal está?"}
+{"id":"ko.c0563","meaning":"Más o menos","note":"Lit. «es así, sin más». Una respuesta sincera muy común."}
+{"id":"ko.c0564","meaning":"Qué buen clima, ¿no?","note":"La terminación 네요 = notar algo en voz alta. 날씨가 춥네요 = qué frío hace, ¿eh?"}
+{"id":"ko.c0565","meaning":"¿Qué haces este fin de semana?","note":"주말 = fin de semana, 에 = en."}
+{"id":"ko.c0566","meaning":"Yo también","note":"Informal: 나도."}
+{"id":"ko.c0567","meaning":"¿De veras?","note":"Más suave que 진짜요?. Los dos están bien."}
+{"id":"ko.c0568","meaning":"Nos vemos","note":"또 = otra vez. 내일 봐요 = nos vemos mañana."}
+{"id":"ko.c0569","meaning":"Adiós (a quien se va)","note":"가세요 = vaya en paz. Dilo cuando la OTRA persona se va."}
+{"id":"ko.c0570","meaning":"Adiós (a quien se queda)","note":"계세요 = quédese en paz. Dilo cuando TÚ te vas."}
+{"id":"ko.c0571","meaning":"Te escribo / estamos en contacto","note":"ㄹ게요 = voy a… (como promesa). 연락 = contacto."}
+{"id":"ko.c0572","meaning":"agua","note":"물 주세요 = agua, por favor."}
+{"id":"ko.c0573","meaning":"arroz / comida","note":"밥 먹자 = vamos a comer."}
+{"id":"ko.c0574","meaning":"carne","note":"소고기 res, 돼지고기 cerdo, 닭고기 pollo."}
+{"id":"ko.c0575","meaning":"El menú, por favor","note":"O simplemente levanta la mano y di 저기요 (disculpe)."}
+{"id":"ko.c0576","meaning":"Sin picante, por favor","note":"맵다 = picar (ser picante). 안 매워요? = ¿no pica?"}
+{"id":"ko.c0577","meaning":"Está delicioso","note":"Díselo al dueño al salir."}
+{"id":"ko.c0578","meaning":"Tengo hambre","note":"배불러요 (baebulleoyo) = estoy lleno."}
+{"id":"ko.c0579","meaning":"Un café","note":"잔 = contador de tazas. 두 잔 = dos tazas."}
+{"id":"ko.c0580","meaning":"La cuenta, por favor","note":"Normalmente se paga en la caja."}
+{"id":"ko.c0581","meaning":"Para llevar, por favor","note":"포장 = empaque."}
+{"id":"ko.c0582","meaning":"¡Salud!","note":"Choca las copas; sirve a los demás, no a ti mismo."}
+{"id":"ko.c0583","meaning":"(Se dice después de comer)","note":"Lit. «comí bien». Va en pareja con 잘 먹겠습니다."}
+{"id":"ko.c0584","meaning":"aquí / allá","note":"거기 (geogi) = ahí (cerca de ti)."}
+{"id":"ko.c0585","meaning":"izquierda","note":"왼쪽으로 가세요 = vaya a la izquierda."}
+{"id":"ko.c0586","meaning":"derecha","note":"오른쪽으로 = a la derecha."}
+{"id":"ko.c0587","meaning":"Siga derecho","note":"También sirve 쭉 가세요."}
+{"id":"ko.c0588","meaning":"estación de metro","note":"El metro de Seúl es la forma más fácil de moverse."}
+{"id":"ko.c0589","meaning":"parada de autobús","note":"정류장 = parada."}
+{"id":"ko.c0590","meaning":"taxi","note":"Dile al chofer: ~로 가 주세요 (lléveme a ~, por favor)."}
+{"id":"ko.c0591","meaning":"aeropuerto","note":"인천공항 = aeropuerto de Incheon."}
+{"id":"ko.c0592","meaning":"¿Cuánto se tarda?","note":"걸리다 = tardar (tiempo)."}
+{"id":"ko.c0593","meaning":"Pare aquí, por favor","note":"Frase para el taxi."}
+{"id":"ko.c0594","meaning":"tarjeta T-money","note":"Tarjeta de transporte que se pasa por el lector. Se compra en cualquier tienda de conveniencia."}
+{"id":"ko.c0595","meaning":"¿Cómo llego?","note":"Agrega el lugar + 에: 명동에 어떻게 가요?"}
+{"id":"ko.c0596","meaning":"hoy","note":"오늘 뭐 해요? = ¿qué haces hoy?"}
+{"id":"ko.c0597","meaning":"mañana (el día siguiente)","note":"내일 봐요 = nos vemos mañana."}
+{"id":"ko.c0598","meaning":"ayer","note":"어제 뭐 했어요? = ¿qué hiciste ayer?"}
+{"id":"ko.c0599","meaning":"ahora","note":"지금 몇 시예요? = ¿qué hora es ahora?"}
+{"id":"ko.c0600","meaning":"la mañana / el mediodía / la noche","note":"También significan desayuno / almuerzo / cena."}
+{"id":"ko.c0601","meaning":"lunes","note":"요일 = día de la semana."}
+{"id":"ko.c0602","meaning":"viernes","note":"불금 = «viernes en llamas», salir el viernes en la noche."}
+{"id":"ko.c0603","meaning":"sábado / domingo","note":"주말 (jumal) = fin de semana."}
+{"id":"ko.c0604","meaning":"¿Qué hora es?","note":"몇 = cuántos; 시 = hora (en punto)."}
+{"id":"ko.c0605","meaning":"cuándo","note":"언제 와요? = ¿cuándo vienes?"}
+{"id":"ko.c0606","meaning":"todos los días","note":"매일 공부해요 = estudio todos los días."}
+{"id":"ko.c0607","meaning":"¿Tienes tiempo?","note":"Una forma discreta de invitar a salir."}
+{"id":"ko.c0608","meaning":"mamá / papá","note":"어머니 / 아버지 = versiones formales."}
+{"id":"ko.c0609","meaning":"hermano mayor","note":"형 si eres hombre, 오빠 si eres mujer. También para amigos hombres mayores que tú."}
+{"id":"ko.c0610","meaning":"hermana mayor","note":"누나 si eres hombre, 언니 si eres mujer."}
+{"id":"ko.c0611","meaning":"hermano o hermana menor","note":"남동생 = hermano menor, 여동생 = hermana menor."}
+{"id":"ko.c0612","meaning":"abuela / abuelo","note":"También es cortés para cualquier persona mayor."}
+{"id":"ko.c0613","meaning":"familia","note":"가족이 몇 명이에요? = ¿cuántos son en tu familia?"}
+{"id":"ko.c0614","meaning":"amigo, amiga","note":"En sentido estricto, solo amigos de tu misma edad."}
+{"id":"ko.c0615","meaning":"profesor, profesora","note":"También sirve como un respetuoso «señor/señora»."}
+{"id":"ko.c0616","meaning":"hombre / mujer","note":"남자친구 = novio, 여자친구 = novia."}
+{"id":"ko.c0617","meaning":"persona","note":"한국 사람 = coreano (persona). 미국 사람 = estadounidense."}
+{"id":"ko.c0618","meaning":"bueno / me gusta","note":"안 좋아요 = no es bueno."}
+{"id":"ko.c0619","meaning":"malo","note":"기분이 나빠요 = me siento mal."}
+{"id":"ko.c0620","meaning":"grande","note":"크다 → 커요."}
+{"id":"ko.c0621","meaning":"pequeño","note":"작다 → 작아요."}
+{"id":"ko.c0622","meaning":"mucho / muchos","note":"사람이 많아요 = hay mucha gente."}
+{"id":"ko.c0623","meaning":"caro","note":"너무 비싸요 = demasiado caro."}
+{"id":"ko.c0624","meaning":"barato","note":"싸고 좋아요 = bueno y barato."}
+{"id":"ko.c0625","meaning":"hace calor (clima)","note":"뜨거워요 = está caliente (al tacto)."}
+{"id":"ko.c0626","meaning":"hace frío (clima)","note":"차가워요 = está frío (al tacto)."}
+{"id":"ko.c0627","meaning":"ocupado","note":"요즘 바빠요 = ando ocupado estos días."}
+{"id":"ko.c0628","meaning":"divertido / interesante","note":"재미없어요 = es aburrido."}
+{"id":"ko.c0629","meaning":"difícil / agotador","note":"La queja favorita."}
+{"id":"ko.c0630","meaning":"¿En serio?","note":"También 진짜로. 정말? (jeongmal) es un poco más suave."}
+{"id":"ko.c0631","meaning":"¡Increíble! / ¡no puede ser!","note":"Sorpresa buena o mala. 대박 사건 = algo enorme."}
+{"id":"ko.c0632","meaning":"¡¿Qué?! / ¡Dios mío!","note":"Reacción de asombro. Sobre todo en mensajes y habla informal."}
+{"id":"ko.c0633","meaning":"¡Ay! / uf","note":"Suspiro para cualquier pequeña desgracia."}
+{"id":"ko.c0634","meaning":"Estoy bien","note":"Informal. Se dice cuando claramente no estás bien."}
+{"id":"ko.c0635","meaning":"¿Estás loco?","note":"Informal, muchas veces cariñoso."}
+{"id":"ko.c0636","meaning":"No te vayas","note":"Raíz del verbo + 지 마 = no (hagas)."}
+{"id":"ko.c0637","meaning":"Te extrañé","note":"Pasado de 보고 싶어."}
+{"id":"ko.c0638","meaning":"¿Qué hago? / ¡ay, no!","note":"Se dice con las manos en la cara."}
+{"id":"ko.c0639","meaning":"¡Tú puedes!","note":"Viene del inglés «fighting» (¡a luchar!). Ánimo antes de algo difícil."}
+{"id":"ko.c0640","meaning":"Entendido / de acuerdo","note":"Cortés: 알았어요 o 알겠습니다."}
+{"id":"ko.c0641","meaning":"¿Qué dijiste?","note":"Informal. 네? (ne?) es el «¿perdón?» cortés."}

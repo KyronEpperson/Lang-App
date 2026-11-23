@@ -772,7 +772,11 @@ LANGAPP_PACKS.i18n.ru = {
     "Category": "Категория",
     "⚙ More options": "⚙ Ещё настройки",
     "⚙ Fewer options": "⚙ Скрыть настройки",
-    "Show all options on every screen": "Показывать все настройки на каждом экране"
+    "Show all options on every screen": "Показывать все настройки на каждом экране",
+    "Hand-tuned for speakers of your language": "Специально для носителей твоего языка",
+    "Go to the next card automatically": "Автоматически переходить к следующей карточке",
+    "Extra practice": "Доп. практика",
+    "New card": "Новая карточка"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Тренажёр"],
@@ -1046,7 +1050,10 @@ LANGAPP_PACKS.i18n.ru = {
     ["^Learn (.+), 5 minutes a day$", "$1 — по 5 минут в день"],
     ["^Coming soon · (\\d+) lessons planned$", "Скоро · запланировано уроков: $1"],
     ["^day (\\d+) 🔥$", "день $1 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "Новый уровень! Уровень $1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "Новый уровень! Уровень $1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Доп. практика · выучено: $1/$2"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "Новая карточка · выучено: $1/$2"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "К повторению: $1 · выучено: $2/$3"]
   ],
   road: {
     "Standard (Seoul) Korean": "Стандартный (сеульский) корейский",

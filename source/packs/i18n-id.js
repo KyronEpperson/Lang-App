@@ -772,7 +772,11 @@ LANGAPP_PACKS.i18n.id = {
     "Category": "Kategori",
     "⚙ More options": "⚙ Opsi lainnya",
     "⚙ Fewer options": "⚙ Sembunyikan opsi",
-    "Show all options on every screen": "Tampilkan semua opsi di setiap layar"
+    "Show all options on every screen": "Tampilkan semua opsi di setiap layar",
+    "Hand-tuned for speakers of your language": "Disusun khusus untuk penutur bahasamu",
+    "Go to the next card automatically": "Otomatis lanjut ke kartu berikutnya",
+    "Extra practice": "Latihan tambahan",
+    "New card": "Kartu baru"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],
@@ -1046,7 +1050,10 @@ LANGAPP_PACKS.i18n.id = {
     ["^Learn (.+), 5 minutes a day$", "Belajar bahasa $1, 5 menit sehari"],
     ["^Coming soon · (\\d+) lessons planned$", "Segera hadir · $1 pelajaran direncanakan"],
     ["^day (\\d+) 🔥$", "hari ke-$1 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "Naik level! Level $1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "Naik level! Level $1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Latihan tambahan · $1/$2 dipelajari"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "Kartu baru · $1/$2 dipelajari"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 perlu diulang · $2/$3 dipelajari"]
   ],
   road: {
     "Standard (Seoul) Korean": "Bahasa Korea standar (Seoul)",

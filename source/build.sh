@@ -26,7 +26,7 @@ for f in sorted(glob.glob('packs/*.js')):
     name=os.path.basename(f)[:-3]; js=open(f,encoding='utf8').read(); wrapped='/* pack: '+name+'.js */\n;(function(){\n'+js+'\n})();'
     if not re.match(r'(course|i18n)-',name): inline.append(wrapped); continue
     fn='packs/%s.%s.js'%(name,hashlib.sha256(wrapped.encode('utf8')).hexdigest()[:8]); open('korean-site/'+fn,'w',encoding='utf8').write(wrapped+'\n')
-    probe=subprocess.run(['node','-e','var LANGAPP_PACKS={course:{},i18n:{}};new Function("LANGAPP_PACKS",require("fs").readFileSync(process.argv[1],"utf8"))(LANGAPP_PACKS);var c=LANGAPP_PACKS.course,o={c:Object.keys(c).map(function(k){return {id:c[k].id,native:c[k].native,target:c[k].target,name:c[k].name||null}}),i:Object.keys(LANGAPP_PACKS.i18n)};console.log(JSON.stringify(o))',f],capture_output=True,text=True)
+    probe=subprocess.run(['node','-e','var LANGAPP_PACKS={course:{},i18n:{}};new Function("LANGAPP_PACKS",require("fs").readFileSync(process.argv[1],"utf8"))(LANGAPP_PACKS);var c=LANGAPP_PACKS.course,o={c:Object.keys(c).map(function(k){return c[k].standard?{id:c[k].id,native:c[k].native,target:c[k].target,name:c[k].name||null,standard:1}:{id:c[k].id,native:c[k].native,target:c[k].target,name:c[k].name||null}}),i:Object.keys(LANGAPP_PACKS.i18n)};console.log(JSON.stringify(o))',f],capture_output=True,text=True)
     if probe.returncode: sys.exit('pack probe failed: '+f+' '+probe.stderr[-300:])
     o=json.loads(probe.stdout)
     for c in o['c']: c['file']=fn; man['courses'][c['id']]=c

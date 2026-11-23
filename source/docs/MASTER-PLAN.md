@@ -42,7 +42,15 @@ Any pair = target half + native half (+ pair layer). 61 + 61 pieces of work cove
 
 1. **Label:** hand-tuned courses carry a small asterisk-style mark in the "language to learn" picker, with a one-line legend ("hand-tuned for speakers of your language"). Standard courses carry no mark.
 2. **Pilot:** Spanish → Korean is the assembled (standard) pilot. Japanese → Korean is hand-tuned and comes after the pilot.
-3. **Timing:** engine change starts after the usage reset (about 2026-11-24), not before.
+3. **Timing:** started 2026-11-22 (Kii upgraded the plan and asked for more sub-agents).
+
+## 0.4 Status (2026-11-22, evening)
+
+- **Engine:** shipped in 2.63.0. A pack may carry `UI` (its own interface strings); a Korean pack course greets from its pack and shows Korean pause words. `tools/tests/esko.js` (a tiny Spanish → Korean course through every screen) is part of every release. Stroke-order tokens (`{{strokes:ㄱ}}`) and the hand-tuned mark in the picker are built, shipping with the pilot.
+- **Format:** `docs/HALVES-SPEC.md`. Korean target half in `tools/halves/target/ko`, exported by script from the built-in course; `assemble.js en ko` reproduces the built-in course with 0 differences. Native halves: `tools/halves/native/<lang>/ko`.
+- **Pilot es-ko:** Spanish half written by four writers (17.8k words), merged, validator 0 errors; cold review running. First version ships WITHOUT Korean's trainers (Hangul, numbers, conjugation, sound drills): they read English from the engine and are a separate job.
+- **Korean half review:** `docs/reviews/ko-target-half-review.md`, 52 findings (6 wrong, 6 unnatural, 14 ambiguous items, 26 nits). To be applied to the Korean half and to every native half in one pass after the Spanish review; also improves the live en-ko course.
+- **Not converted, on purpose:** the 31 en-X courses stay hand-written packs. Converting them to halves is only needed when their language becomes a target for non-English speakers.
 4. **Next block after the pilot (Kii, 2026-11-22): every Asian language → Korean.** 16 pairs, in Kii's order:
    1. **Bisaya / Cebuano: HAND-TUNED** (a friend asked for it). Needs a Cebuano native half first (interface dictionary and meanings). Research the mistakes Cebuano speakers make in Korean; ask the friend to check it before launch.
    2. **Tagalog** (needs a native half; reuses much of the Cebuano research on Philippine-language speakers).

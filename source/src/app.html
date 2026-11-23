@@ -383,6 +383,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 .langhome .lh-name b{font:700 1.2rem var(--display)}
 .langhome .lh-name span{font-size:.82rem;color:var(--muted);overflow-wrap:anywhere}
 .langhome .lh-go{font-size:1.6rem;line-height:1;color:var(--accent);flex:none}
+.langhome .lh-tuned{color:var(--accent,#c2402f);font-weight:700}.langhome .lh-legend{margin:6px 2px 0;font:500 .78rem var(--body);color:var(--muted)}
 .langhome .lh-soon{margin:10px 0 -4px;font:700 .72rem var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .langhome .lh-locked{display:flex;flex-wrap:wrap;gap:8px}
 .langhome .lh-lock{display:grid;place-items:center;width:44px;height:44px;border:1px dashed var(--line);border-radius:12px;font-size:1.25rem;line-height:1;opacity:.5;cursor:not-allowed;user-select:none;-webkit-user-select:none}
@@ -561,7 +562,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.63.0 · 2026-11-22';
+const APP_VERSION='2.64.0 · 2026-11-22';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1201,7 +1202,9 @@ function setCourseTables(c){ const rt=courseRT(c); DECKS=rt.DECKS; GROUPS=rt.GRO
 function cleanLessonHTML(h){ return String(h==null?'':h).replace(/<\/?(script|iframe|object|embed|style|link|meta|form|input|img|svg)\b[^>]*>/gi,'').replace(/\son[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi,'').replace(/javascript:/gi,''); }
 function escT(s){ return String(s==null?'':s).trim().replace(/&(?!(amp|lt|gt|quot|#39);)/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function expandEx(html){ return String(html||'').replace(/\{\{ex:([^}]*)\}\}/g,(m,inner)=>{ const p=inner.split('|'); return ex(escT(p[0]),escT(p[1]),escT(p.slice(2).join('|'))); }); }
-function lessonBody(l){ return COURSE.builtin?l.body:'<div class="lbody" data-noi18n>'+expandEx(l.body)+'</div>'; }
+/* {{strokes:ㄱ}} in a pack lesson (Korean target only) becomes the stroke-order cell the built-in Hangul lesson draws; it is expanded here, after the pack's HTML was cleaned, because the cleaner removes svg */
+function strokeTok(h){ return COURSE.target!=='ko'?h:String(h).replace(/\{\{strokes:([^}]*)\}\}/g,(m,ch)=>STROKES[ch]?'<div class="sgl" data-replay="1"><div class="k">'+escT(ch)+'</div>'+strokeSVG(ch).replace(/<button[^>]*>.*?<\/button>/,'')+'</div>':''); }
+function lessonBody(l){ return COURSE.builtin?l.body:'<div class="lbody" data-noi18n>'+strokeTok(expandEx(l.body))+'</div>'; }
 function initMeta(){ let m=null; try{ m=JSON.parse(localStorage.getItem('la-meta')||'null'); }catch(e){ m=null; }
   if(!m||typeof m!=='object'||m.v!==1){ let had=false; try{ had=!!(localStorage.getItem('ko-app2')||localStorage.getItem('ko-app')); }catch(e){}
     META=had?{v:1,native:'en',course:'en-ko',picked:1,prefs:{},migrated:1}:{v:1,native:null,course:'en-ko',picked:0,prefs:{}}; saveMeta(); }
@@ -1300,7 +1303,8 @@ function showLangHome(opts){ opts=opts||{}; closeSheet(); const old=$('langHome'
     const nm=c=>(c.name&&c.name[n])||langName(c.target,n), cmp=(a,b)=>String(a).localeCompare(String(b),n); live.sort((a,b)=>cmp(nm(a),nm(b))); soon.sort((a,b)=>cmp(langName(a,n),langName(b,n))); /* both lists alphabetical in the learner's language */
     w.innerHTML=`<div class="wbox" lang="${hLang(n)}"><div class="lh-top"><button class="ghost lh-back" type="button">${tr('← Back','← 뒤로')}</button>${xBtn(n)}</div><div><h1 class="lh-q">${tr('What do you want to learn?','무엇을 배우고 싶으세요?')}</h1></div>
       <div class="lh-list" role="list">${live.map(c=>{ const cur=META.picked&&c.id===COURSE.id;
-        return `<div role="listitem"><button class="lh-row${cur?' on':''}" type="button" data-course="${c.id}"><span class="lh-flag" aria-hidden="true">${FLG(c.target)}</span><span class="lh-name"><b>${escT((c.name&&c.name[n])||langName(c.target,n))}</b>${cur?`<span>${tr('Current course','현재 코스')}</span>`:''}</span><span class="lh-go" aria-hidden="true">›</span></button></div>`; }).join('')}</div>
+        return `<div role="listitem"><button class="lh-row${cur?' on':''}" type="button" data-course="${c.id}"><span class="lh-flag" aria-hidden="true">${FLG(c.target)}</span><span class="lh-name"><b>${escT((c.name&&c.name[n])||langName(c.target,n))}${c.standard?'':`<span class="lh-tuned" title="${tr('Hand-tuned for speakers of your language','이 언어 사용자에 맞춰 만든 코스')}" aria-label="${tr('Hand-tuned for speakers of your language','이 언어 사용자에 맞춰 만든 코스')}"> ✦</span>`}</b>${cur?`<span>${tr('Current course','현재 코스')}</span>`:''}</span><span class="lh-go" aria-hidden="true">›</span></button></div>`; }).join('')}</div>
+      ${live.some(c=>!c.standard)?`<p class="lh-legend"><span class="lh-tuned" aria-hidden="true">✦</span> ${tr('Hand-tuned for speakers of your language','이 언어 사용자에 맞춰 만든 코스')}</p>`:''}
       ${soon.length?`<p class="lh-soon">🔒 ${tr('Coming soon · tap to preview','출시 예정 · 눌러서 미리 보기')}</p><div class="lh-locked" role="list" aria-label="${tr('Coming soon','출시 예정')}">${soon.map(k=>lock(FLG(k),langName(k,n),tr('Coming soon','출시 예정'),k)).join('')}</div>`:''}</div>`; focus(); };
   const onKey=e=>{ if(e.key==='Escape'&&opts.closable&&document.getElementById('langHome')===w) close(); };
   w.addEventListener('click',e=>{ const rd=e.target.closest('[data-road]'); if(rd&&native){ step3(rd.dataset.road,native); return; } const b2=e.target.closest('.lh-back2'); if(b2){ step2(native); return; } const lk=e.target.closest('.lh-lock'); if(lk){ const ln=lk.dataset.ln||''; toast(native==='ko'?ln+' · 출시 예정':native==='en'?ln+' · coming soon':native?ln+' · '+LLin(native,'Coming soon'):soonT2(ln)); return; } const b=e.target.closest('button'); if(!b) return;

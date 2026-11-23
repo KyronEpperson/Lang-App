@@ -10,9 +10,9 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 772,
-  "patterns": 272,
-  "distinctPatternTemplates": 271
+  "exact": 776,
+  "patterns": 275,
+  "distinctPatternTemplates": 274
  },
  "exact": [
   {
@@ -5336,6 +5336,34 @@
    "kind": "sentence",
    "section": "added",
    "where": "html <input> text"
+  },
+  {
+   "key": "Hand-tuned for speakers of your language",
+   "kind": "sentence",
+   "section": "flashcard / review",
+   "where": "js cur() <span>",
+   "context": "legend under the course list (language home): a small ✦ next to a course means its lessons were written specifically for speakers of the learner's language, not a standard course assembled from shared material"
+  },
+  {
+   "key": "Go to the next card automatically",
+   "kind": "sentence",
+   "section": "flashcard / review",
+   "where": "html <input> text",
+   "context": "settings checkbox on the Progress tab: after an answer, Review moves on to the next card without a Next button"
+  },
+  {
+   "key": "Extra practice",
+   "kind": "label",
+   "section": "flashcard / review",
+   "where": "js cur()",
+   "context": "review status line (above the card): the current card is extra practice, not due; may be followed by \" · 2/6 learned\"; short UI label; keep it short"
+  },
+  {
+   "key": "New card",
+   "kind": "label",
+   "section": "flashcard / review",
+   "where": "html <label> text",
+   "context": "review status line (above the card): the current card is new; may be followed by \" · 0/6 learned\"; short UI label; keep it short"
   }
  ],
  "patterns": [
@@ -9745,6 +9773,64 @@
    "example": "Level up! Level 5 · Hello there 🎉",
    "section": "engine (LL helper)",
    "context": "{0} = level; {1} = level title from the course pack's TITLES (<English> <native>) — Level-up toast for non-Korean courses (DOM translator; Korean side keeps ^레벨 업! Level …) (DOM translator (JS-built text))"
+  },
+  {
+   "id": "Extra practice · {n}/{n} learned",
+   "template": "Extra practice · {n}/{n} learned",
+   "slots": [
+    {
+     "n": 1,
+     "type": "n"
+    },
+    {
+     "n": 2,
+     "type": "n"
+    }
+   ],
+   "regex": "^Extra practice · (\\d+)\\/(\\d+) learned$",
+   "example": "Extra practice · 5/2 learned",
+   "section": "flashcard / review",
+   "context": "review status line: current card is extra practice · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
+  },
+  {
+   "id": "New card · {n}/{n} learned",
+   "template": "New card · {n}/{n} learned",
+   "slots": [
+    {
+     "n": 1,
+     "type": "n"
+    },
+    {
+     "n": 2,
+     "type": "n"
+    }
+   ],
+   "regex": "^New card · (\\d+)\\/(\\d+) learned$",
+   "example": "New card · 5/2 learned",
+   "section": "flashcard / review",
+   "context": "review status line: current card is new · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
+  },
+  {
+   "id": "{n} due · {n}/{n} learned",
+   "template": "{n} due · {n}/{n} learned",
+   "slots": [
+    {
+     "n": 1,
+     "type": "n"
+    },
+    {
+     "n": 2,
+     "type": "n"
+    },
+    {
+     "n": 3,
+     "type": "n"
+    }
+   ],
+   "regex": "^(\\d+) due · (\\d+)\\/(\\d+) learned$",
+   "example": "5 due · 2/3 learned",
+   "section": "flashcard / review",
+   "context": "review status line: cards still due in this queue · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
   }
  ]
 }

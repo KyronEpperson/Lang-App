@@ -1,0 +1,140 @@
+{"id":"ko.t01","text":"Sprout"}
+{"id":"ko.t03","text":"Student"}
+{"id":"ko.t05","text":"Senior"}
+{"id":"ko.t08","text":"Pro"}
+{"id":"ko.t12","text":"Master"}
+{"id":"ko.t16","text":"Sensei"}
+{"id":"ko.h.night","text":"it's late, good work"}
+{"id":"ko.h.morning","text":"good morning"}
+{"id":"ko.h.afternoon","text":"good afternoon"}
+{"id":"ko.h.evening","text":"good evening"}
+{"id":"goal.travel","text":"Travel & getting around"}
+{"id":"goal.social","text":"Dating, friends & nights out"}
+{"id":"goal.drama","text":"K-dramas & music"}
+{"id":"goal.work","text":"Work & study"}
+{"id":"plan.trip","text":"Trip to Korea"}
+{"id":"plan.social","text":"Make friends & date"}
+{"id":"plan.conv","text":"Conversational in 90 days"}
+{"id":"ko.z.compliment","text":"compliment"}
+{"id":"ko.z.compliment.01","text":"You look great / That's cool"}
+{"id":"ko.z.compliment.02","text":"You're the best"}
+{"id":"ko.z.compliment.03","text":"That's amazing"}
+{"id":"ko.z.compliment.04","text":"Well done"}
+{"id":"ko.z.compliment.05","text":"You've got great taste"}
+{"id":"ko.z.compliment.06","text":"You're so kind"}
+{"id":"ko.z.compliment.07","text":"You're smart"}
+{"id":"ko.z.compliment.08","text":"You're fun"}
+{"id":"ko.z.compliment.09","text":"Your smile is lovely"}
+{"id":"ko.z.compliment.10","text":"You have a nice voice"}
+{"id":"ko.z.compliment.11","text":"You're dependable"}
+{"id":"ko.z.compliment.12","text":"It suits you"}
+{"id":"ko.z.compliment.13","text":"I feel supported with you"}
+{"id":"ko.z.compliment.14","text":"You're awesome"}
+{"id":"ko.z.compliment.15","text":"You have a great personality"}
+{"id":"ko.z.compliment.16","text":"Your Korean is good"}
+{"id":"ko.z.compliment.17","text":"You've got a vibe"}
+{"id":"ko.z.compliment.18","text":"A warm person"}
+{"id":"ko.z.compliment.19","text":"I learn a lot from you"}
+{"id":"ko.z.compliment.20","text":"I feel at ease with you"}
+{"id":"ko.z.compliment.21","text":"You work so hard"}
+{"id":"ko.z.compliment.22","text":"You're thoughtful"}
+{"id":"ko.z.expression","text":"everyday expression"}
+{"id":"ko.z.expression.01","text":"Really?"}
+{"id":"ko.z.expression.02","text":"I see"}
+{"id":"ko.z.expression.03","text":"That's right"}
+{"id":"ko.z.expression.04","text":"Of course"}
+{"id":"ko.z.expression.05","text":"Well… I'm not sure"}
+{"id":"ko.z.expression.06","text":"Maybe"}
+{"id":"ko.z.expression.07","text":"It's okay"}
+{"id":"ko.z.expression.08","text":"Got it"}
+{"id":"ko.z.expression.09","text":"Just a moment"}
+{"id":"ko.z.expression.10","text":"Please say that again"}
+{"id":"ko.z.expression.11","text":"Oh no, what do I do"}
+{"id":"ko.z.expression.12","text":"Awesome / No way"}
+{"id":"ko.z.expression.13","text":"No wonder"}
+{"id":"ko.z.expression.14","text":"Surely not"}
+{"id":"ko.z.expression.15","text":"Obviously"}
+{"id":"ko.z.expression.16","text":"I know, right"}
+{"id":"ko.z.expression.17","text":"Oh my"}
+{"id":"ko.z.expression.18","text":"Of course"}
+{"id":"ko.z.expression.19","text":"I'm not sure"}
+{"id":"ko.z.expression.20","text":"Long time no see"}
+{"id":"ko.z.expression.21","text":"Good work today"}
+{"id":"ko.z.expression.22","text":"Thanks for the meal (before eating)"}
+{"id":"ko.z.expression.23","text":"That was delicious (after eating)"}
+{"id":"ko.z.expression.24","text":"Get home safe"}
+{"id":"ko.z.expression.25","text":"Have a good day"}
+{"id":"ko.z.expression.26","text":"What does it mean?"}
+{"id":"ko.z.polite","text":"polite basics"}
+{"id":"ko.z.polite.01","text":"Please (give me)"}
+{"id":"ko.z.polite.02","text":"Please (I'm asking a favor)"}
+{"id":"ko.z.polite.03","text":"Excuse me / Pardon me"}
+{"id":"ko.z.polite.04","text":"Excuse me (to get attention)"}
+{"id":"ko.z.polite.05","text":"Excuse me, one second"}
+{"id":"ko.z.polite.06","text":"I'm sorry"}
+{"id":"ko.z.polite.07","text":"Thank you"}
+{"id":"ko.z.polite.08","text":"Thanks"}
+{"id":"ko.z.polite.09","text":"You're welcome"}
+{"id":"ko.z.polite.10","text":"It's fine / No, thank you"}
+{"id":"ko.z.polite.11","text":"Hello"}
+{"id":"ko.z.polite.12","text":"Goodbye (you're staying)"}
+{"id":"ko.z.polite.13","text":"Goodbye (you're leaving)"}
+{"id":"ko.z.polite.14","text":"Please help me"}
+{"id":"ko.z.polite.15","text":"Nice to meet you (first time)"}
+{"id":"ko.z.polite.16","text":"Nice to meet you"}
+{"id":"ko.z.polite.17","text":"After you / Go ahead"}
+{"id":"ko.z.polite.18","text":"Coming through, excuse me"}
+{"id":"ko.z.saying","text":"saying"}
+{"id":"ko.z.saying.01","text":"Starting is half the battle"}
+{"id":"ko.z.saying.02","text":"Dreams come true"}
+{"id":"ko.z.saying.03","text":"If you try, you can"}
+{"id":"ko.z.saying.04","text":"Don't give up"}
+{"id":"ko.z.saying.05","text":"Little by little makes a mountain"}
+{"id":"ko.z.saying.06","text":"Of all the days! (funny timing)"}
+{"id":"ko.z.saying.07","text":"A piece of cake"}
+{"id":"ko.z.saying.08","text":"Even sightseeing comes after eating"}
+{"id":"ko.z.saying.09","text":"Smile and good luck comes"}
+{"id":"ko.z.saying.10","text":"After hardship comes joy"}
+{"id":"ko.z.saying.11","text":"A long journey starts with one step"}
+{"id":"ko.z.saying.12","text":"Old habits die hard"}
+{"id":"ko.z.saying.13","text":"Many hands make light work"}
+{"id":"ko.z.saying.14","text":"Stay strong today"}
+{"id":"ko.z.saying.15","text":"You can do it"}
+{"id":"ko.z.saying.16","text":"It's okay, it'll work out"}
+{"id":"ko.z.saying.17","text":"You only live once"}
+{"id":"ko.z.saying.18","text":"Slow is okay"}
+{"id":"ko.z.saying.19","text":"Even monkeys fall from trees"}
+{"id":"ko.z.saying.20","text":"Kind words can repay a great debt"}
+{"id":"ko.i01","text":"May all your wishes come true"}
+{"id":"ko.i02","text":"Killing two birds with one stone"}
+{"id":"ko.i03","text":"A blessing in disguise — bad luck may turn good"}
+{"id":"ko.i04","text":"Turning misfortune into good fortune"}
+{"id":"ko.i05","text":"After bitterness comes sweetness"}
+{"id":"ko.i06","text":"Great talents bloom late"}
+{"id":"ko.i07","text":"Be prepared and you'll have no worries"}
+{"id":"ko.i08","text":"Fall seven times, get up eight"}
+{"id":"ko.i09","text":"A resolution that lasts three days"}
+{"id":"ko.i10","text":"Understanding each other without words"}
+{"id":"ko.i11","text":"Sharing the hard times and the good"}
+{"id":"ko.i12","text":"Icing on the cake"}
+{"id":"ko.i13","text":"The more, the better"}
+{"id":"ko.i14","text":"Getting better day by day"}
+{"id":"ko.i15","text":"You reap what you sow"}
+{"id":"ko.i16","text":"Persistence can move mountains"}
+{"id":"ko.i17","text":"Success earned through hard study"}
+{"id":"ko.i18","text":"Learning from other people's mistakes"}
+{"id":"ko.i19","text":"Too much is as bad as too little"}
+{"id":"ko.i20","text":"Put yourself in their shoes"}
+{"id":"ko.i21","text":"A match made in heaven"}
+{"id":"ko.i22","text":"Unwavering, single-hearted devotion"}
+{"id":"ko.i23","text":"Watching for your chance like a tiger"}
+{"id":"ko.i24","text":"A friend since childhood"}
+{"id":"ko.i25","text":"Learn the new by studying the old"}
+{"id":"ko.i26","text":"Thinking it over carefully"}
+{"id":"ko.i27","text":"Good is rewarded, evil is punished"}
+{"id":"ko.i28","text":"In one ear and out the other"}
+{"id":"ko.i29","text":"Nine times out of ten"}
+{"id":"ko.i30","text":"Winning every battle"}
+{"id":"ko.i31","text":"Self-made success"}
+{"id":"ko.i32","text":"Sticking to your original goal"}
+{"id":"ko.d.mydeck","text":"Anything you add yourself."}

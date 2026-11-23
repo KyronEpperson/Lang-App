@@ -1,0 +1,33 @@
+{"id":"hangul","title":"1 · El hangul en una sentada","blurb":"El alfabeto: 14 consonantes, 10 vocales y cómo se forman los bloques.","_waive":["hangul"],"_note":"Body adds the single letter ㄹ (only present in the English body inside {{strokes:ㄹ}}, which the check strips) so the reading guide can explain ㄹ as the tap of Spanish «pero» / final l."}
+{"id":"polite","title":"2 · Niveles de cortesía","blurb":"Por qué cada verbo tiene dos terminaciones y cuál usar."}
+{"id":"meet","title":"3 · Conocer gente","blurb":"Preséntate, haz las cuatro preguntas de siempre y despídete como se debe."}
+{"id":"sound-changes","title":"4 · Cambios de sonido: por qué 감사합니다 suena distinto","blurb":"Cuatro hábitos que hacen que el coreano hablado no suene como se escribe. Aprende a esperarlos."}
+{"id":"nouns","title":"5 · Sustantivos y 은/는","blurb":"Nombres de cosas, este/ese, 이에요/예요 y el marcador de tema 은/는."}
+{"id":"isseoyo","title":"6 · 있어요 y 없어요","blurb":"Hay / no hay, tener / no tener, el marcador de sujeto 이/가 y dónde está algo con 에."}
+{"id":"pronouns-questions","title":"7 · Pronombres y palabras interrogativas","blurb":"Yo, nosotros, esto, eso, aquí, allí y las siete palabras interrogativas que abren conversaciones reales."}
+{"id":"verbbasics","title":"8 · Verbos","blurb":"Todo verbo termina en 다, no cambia para yo/tú/ella, y los adjetivos también son verbos."}
+{"id":"verbs","title":"9 · Presente: la forma en 요","blurb":"Convierte cualquier verbo de diccionario en presente cortés: 아요, 어요 o 해요."}
+{"id":"past","title":"10 · Pasado: 았어요 / 었어요","blurb":"Toma la forma en 요, cambia 요 por ㅆ어요 y ya hablas de ayer."}
+{"id":"future","title":"11 · Futuro y planes: -(으)ㄹ 거예요","blurb":"Di lo que vas a hacer y adivina lo que probablemente pasará."}
+{"id":"sov","title":"12 · Orden de palabras y 을/를","blurb":"Sujeto · Objeto · Verbo, el marcador de objeto 을/를 y cuándo se omite."}
+{"id":"particles","title":"13 · 에 y 에서, y el mapa de partículas","blurb":"에 para adónde vas, dónde está algo y cuándo; 에서 para dónde haces algo y de dónde vienes."}
+{"id":"negation","title":"14 · Decir que no: 안 y -지 않아요","blurb":"안 + verbo, 공부 안 해요, -지 않아요, 아니에요 para sustantivos y 없어요."}
+{"id":"do-man","title":"15 · 도 y 만: también y solo","blurb":"도 (también) y 만 (solo) reemplazan a 은/는, 이/가, 을/를, pero se suman después de 에 y 에서."}
+{"id":"sentences","title":"16 · Juntar sustantivos y verbos","blurb":"Cuatro moldes de oración que cubren casi todo lo que dirás, y cómo hacerlos crecer."}
+{"id":"want-like","title":"17 · Querer y gustar: -고 싶어요, 좋아해요","blurb":"Di lo que quieres hacer y lo que te gusta. Dos patrones que usarás a diario."}
+{"id":"numbers","title":"18 · Dos sistemas de números","blurb":"Nativos para contar y para la edad; sinocoreanos para dinero y minutos."}
+{"id":"food","title":"19 · Comer fuera","blurb":"Pedir, contar platos y bebidas, y las dos frases que todos dicen en la mesa."}
+{"id":"getting-around","title":"20 · Moverse por la ciudad","blurb":"Preguntar dónde está algo, entender la respuesta, taxis y metro."}
+{"id":"titles","title":"21 · Títulos y tratamientos","blurb":"씨, 님, 오빠/언니: cómo llamar a cada quien y cuándo usar solo el nombre es grosero."}
+{"id":"plans","title":"22 · Hacer planes","blurb":"Sugerir, invitar, aceptar: ㄹ까요 / ㄹ래요 / 자, y 같이."}
+{"id":"texting","title":"23 · Mensajes como un local","blurb":"ㅋㅋ, ㅠㅠ, partículas que desaparecen y las abreviaturas que todos usan en KakaoTalk."}
+{"id":"counters","title":"24 · Contadores","blurb":"No puedes decir «dos cafés» sin uno. Los diez contadores que cubren el día a día."}
+{"id":"joining","title":"25 · Unir oraciones: -고, -지만, -아/어서","blurb":"Y, pero, así que. Tres terminaciones que convierten dos frases cortas en una sola, natural."}
+{"id":"story","title":"26 · Contar una historia en pasado","blurb":"Encadena oraciones en pasado con 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로."}
+{"id":"noun-modifiers","title":"27 · Describir sustantivos: 좋은 날씨, 큰 가방","blurb":"En coreano el adjetivo va delante del sustantivo: una bolsa grande, buen clima, comida picante."}
+{"id":"compare","title":"28 · Comparar: 보다, 더, 제일","blurb":"Más barato que, más, menos, el mejor. Todo lo que necesitas para comparar y elegir."}
+{"id":"cant","title":"29 · No poder, poder y no saber","blurb":"못 vs 안, -(으)ㄹ 수 있어요 / 없어요, y 몰라요 vs 모르겠어요."}
+{"id":"have-to","title":"30 · Tener que: -아/어야 해요","blurb":"Di lo que tienes que hacer, pregunta si tienes que hacerlo y di cuándo no hace falta."}
+{"id":"honorific","title":"31 · Verbos honoríficos","blurb":"-(으)시- y los verbos especiales: 드시다, 주무시다, 계시다, 말씀하시다."}
+{"id":"requests","title":"32 · Pedir cosas con cortesía","blurb":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요?: los suavizadores que consiguen un sí."}
+{"id":"office","title":"33 · Coreano para la oficina","blurb":"Cargos, la familia de 수고, cómo empezar y cerrar un correo, y cómo sobrevivir al 회식."}

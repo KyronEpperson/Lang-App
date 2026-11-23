@@ -1,0 +1,43 @@
+{"id":"ko.d.hangul-vowels","label":"Vocales del hangul","desc":"Las 10 vocales básicas: con ellas ya puedes leer cualquier palabra. En la romanización, eo es una sola vocal, una «o» abierta con los labios relajados; eu es una «u» con los labios estirados; y ae y e suenan igual, como nuestra «e»."}
+{"id":"ko.d.hangul-consonants","label":"Consonantes del hangul","desc":"Las 14 consonantes básicas y cómo cambian al final de sílaba. En la romanización, la j nunca es jota (es una «y» enfática, como en «¡yo!», casi una «ch» suave); la g siempre suena como en «gato»; la ch es la de «chico»; la h es un soplo, nunca muda; y la r es la de «pero»."}
+{"id":"ko.d.hangul-advanced","label":"Letras avanzadas del hangul","desc":"Consonantes tensas y aspiradas, vocales compuestas, finales dobles. En la romanización, las letras dobles kk, tt, pp, ss y jj son sonidos tensos, no largos: sin soltar aire y con la garganta apretada."}
+{"id":"ko.d.pronunciation-tips","label":"Claves de pronunciación","desc":"Las reglas de sonido que hacen que el habla real no suene igual a como se escribe."}
+{"id":"ko.d.survival-phrases","label":"Frases de supervivencia","desc":"Las 12 frases que te sacan de apuros en un día en Corea."}
+{"id":"ko.d.introductions","label":"Presentaciones","desc":"Nombre, origen, edad, trabajo, pasatiempo: el guion para conocer a alguien."}
+{"id":"ko.d.survival-phrases-2","label":"Frases de supervivencia 2","desc":"Pedir ayuda, pedir que repitan, pagar, encontrar el camino."}
+{"id":"ko.d.asking-around","label":"Preguntar dónde","desc":"Baño, salidas, lugares, wifi, horarios: todas las preguntas de «¿dónde está…?»."}
+{"id":"ko.d.cafe-convenience-store","label":"Café y tienda de conveniencia","desc":"Tamaños, caliente o con hielo, tarjeta de puntos, calentar comida, bolsas."}
+{"id":"ko.d.numbers-in-the-wild","label":"Números en la calle","desc":"Precios, teléfonos, pisos y horas tal como se escriben de verdad."}
+{"id":"ko.d.counters","label":"Contadores","desc":"Cómo contar cosas, personas, tazas, botellas y animales."}
+{"id":"ko.d.weather-feelings","label":"Clima y emociones","desc":"El clima y cómo te sientes: las dos formas más comunes de empezar una conversación."}
+{"id":"ko.d.connectors","label":"Conectores","desc":"Y, así que, pero, después: el pegamento para contar una historia."}
+{"id":"ko.d.doctor-pharmacy","label":"Médico y farmacia","desc":"Síntomas, medicinas, alergias, recetas."}
+{"id":"ko.d.housing-errands","label":"Vivienda y trámites","desc":"Renta, depósitos, paquetes, reciclaje, lavandería."}
+{"id":"ko.d.honorifics","label":"Honoríficos","desc":"Elevar al sujeto: 드시다, 주무시다, 계시다 y -(으)시-."}
+{"id":"ko.d.places-buildings","label":"Lugares y edificios","desc":"Café, gimnasio, biblioteca, museo, casa: los lugares a los que dices que vas."}
+{"id":"ko.d.hobbies","label":"Pasatiempos","desc":"Responde 취미가 뭐예요? con las palabras de verdad."}
+{"id":"ko.d.food-words","label":"Vocabulario de comida","desc":"Los platos e ingredientes de cualquier menú."}
+{"id":"ko.d.drinks","label":"Bebidas","desc":"Café, té, soju, cerveza y cómo pedir otra."}
+{"id":"ko.d.activities","label":"Actividades","desc":"Verbos de todos los días («hago X») en forma cortés."}
+{"id":"ko.d.tv-entertainment","label":"Tele y entretenimiento","desc":"Dramas, programas de variedades, géneros, capítulos, maratones."}
+{"id":"ko.d.position-direction-words","label":"Posición y dirección","desc":"Arriba, al lado, enfrente, salidas y pisos: para ubicar cosas y encontrarlas."}
+{"id":"ko.d.core-verbs","label":"Verbos básicos","desc":"Los 12 verbos que usarás a diario, en forma cortés."}
+{"id":"ko.d.particles","label":"Partículas","desc":"Las etiquetas que marcan tema, sujeto, objeto y lugar."}
+{"id":"ko.d.numbers","label":"Números","desc":"Números nativos y sinocoreanos, y cuándo se usa cada uno."}
+{"id":"ko.d.sweet-talk","label":"Palabras dulces","desc":"Tierno, bonita, te extraño: para alguien cercano."}
+{"id":"ko.d.cute-things-to-say","label":"Frases tiernas","desc":"Cumplidos y frases cariñosas que llegan al corazón."}
+{"id":"ko.d.flirting","label":"Coqueteo","desc":"Pedir el número, invitar a salir, decir lo que sientes."}
+{"id":"ko.d.casual-texting","label":"Mensajes informales","desc":"Abreviaturas de KakaoTalk y lo que de verdad se mandan los amigos."}
+{"id":"ko.d.hype-cool","label":"Ánimo y buena onda","desc":"Cumplidos, ánimos y jerga entre amigos."}
+{"id":"ko.d.hanging-out","label":"Salir con amigos","desc":"Invitar, decidir dónde y cuándo, despedirse."}
+{"id":"ko.d.k-pop-fan-culture","label":"K-pop y fandom","desc":"Vocabulario de fandom, de 최애 a 떼창."}
+{"id":"ko.d.social-media-slang","label":"Redes y jerga","desc":"Instagram, memes y la jerga del momento."}
+{"id":"ko.d.dating-deeper","label":"Noviazgo","desc":"Formalizar la relación, cumplidos sinceros, pedir perdón, dar seguridad."}
+{"id":"ko.d.work-office","label":"Trabajo y oficina","desc":"Reuniones, fechas límite, pedir algo a compañeros, salir a tiempo, 회식."}
+{"id":"ko.d.small-talk","label":"Charla informal","desc":"Ponerse al día, el clima, planes del fin de semana, despedirse bien."}
+{"id":"ko.d.food-ordering","label":"Pedir comida","desc":"Pedir, contadores para comida, las dos frases de la mesa."}
+{"id":"ko.d.directions-transport","label":"Indicaciones y transporte","desc":"Izquierda, derecha, todo recto; metro, autobús, taxi."}
+{"id":"ko.d.time-days","label":"Horas y días","desc":"Hoy, mañana, días de la semana, qué hora es."}
+{"id":"ko.d.family-people","label":"Familia y gente","desc":"Mamá, papá, hermanos, amigos, profe, y cómo la edad cambia la palabra."}
+{"id":"ko.d.adjectives","label":"Adjetivos","desc":"Bueno, malo, grande, pequeño, caliente, frío, ocupado, divertido."}
+{"id":"ko.d.k-drama-phrases","label":"Frases de K-drama","desc":"Reacciones y frases que oirás en cada capítulo."}

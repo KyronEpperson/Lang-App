@@ -721,7 +721,11 @@
   "Category": "분류",
   "⚙ More options": "⚙ 옵션 더 보기",
   "⚙ Fewer options": "⚙ 옵션 접기",
-  "Show all options on every screen": "모든 화면에서 옵션 전체 표시"
+  "Show all options on every screen": "모든 화면에서 옵션 전체 표시",
+  "Hand-tuned for speakers of your language": "이 언어 사용자에 맞춰 만든 코스",
+  "Go to the next card automatically": "다음 카드로 자동으로 넘어가기",
+  "Extra practice": "추가 연습",
+  "New card": "새 카드"
  },
  "patterns": {
   "{n}/{n} · Drills": "{1}/{2} · 훈련",
@@ -978,6 +982,9 @@
   "Listen: {x}": "듣기: {1}",
   "{n} decks · {n} cards mastered to 80%+ · all lesson checks passed": "덱 {1}개 · 카드 {2}장 80% 이상 마스터 · 확인 문제 모두 통과",
   "Merged into {x}. {n} cards of progress were new.": "{1} 코스에 합쳤어요. 카드 {2}장의 진도가 새로 추가됐어요.",
-  "{x} progress": "{1} 진도"
+  "{x} progress": "{1} 진도",
+  "Extra practice · {n}/{n} learned": "추가 연습 · {1}/{2} 익힘",
+  "New card · {n}/{n} learned": "새 카드 · {1}/{2} 익힘",
+  "{n} due · {n}/{n} learned": "복습 대기 {1} · {2}/{3} 익힘"
  }
 }

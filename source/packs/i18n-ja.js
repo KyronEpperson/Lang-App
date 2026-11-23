@@ -772,7 +772,11 @@ LANGAPP_PACKS.i18n.ja = {
     "Category": "カテゴリ",
     "⚙ More options": "⚙ その他のオプション",
     "⚙ Fewer options": "⚙ オプションを閉じる",
-    "Show all options on every screen": "すべての画面で全オプションを表示"
+    "Show all options on every screen": "すべての画面で全オプションを表示",
+    "Hand-tuned for speakers of your language": "あなたの母語に合わせて作ったコース",
+    "Go to the next card automatically": "自動で次のカードへ進む",
+    "Extra practice": "追加練習",
+    "New card": "新しいカード"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],
@@ -1046,7 +1050,10 @@ LANGAPP_PACKS.i18n.ja = {
     ["^Learn (.+), 5 minutes a day$", "1日5分、$1を学びましょう"],
     ["^Coming soon · (\\d+) lessons planned$", "近日公開 · $1レッスンを予定"],
     ["^day (\\d+) 🔥$", "$1日連続 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "レベルアップ！レベル$1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "レベルアップ！レベル$1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "追加練習 · $1/$2枚を覚えた"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "新しいカード · $1/$2枚を覚えた"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "復習予定$1枚 · $2/$3枚を覚えた"]
   ],
   road: {
     "Standard (Seoul) Korean": "標準語（ソウル）の韓国語",
