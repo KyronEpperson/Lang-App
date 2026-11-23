@@ -1,0 +1,10 @@
+{
+  "lessons": {
+    "articles-3": "pl-only lesson (profile pl.md §8 add, §4.1): „Przedimki: powtórka i podsumowanie” — articles revisited at B1. Body leads with omission, the main Polish error (missing the 37% + missing a 18% of article errors, Rozovskaya & Roth 2010): a / an before a singular count noun even with a description (an engineer who…, an interesting article), the for a noun defined by a phrase or clause, for the one in the room and with superlatives (the music in this cafe, the coffee you made, Can you open the window?, the best movie); then the shorter half on withholding it: generic plurals, uncountable and abstract nouns (Cats sleep a lot, Time is money, Life is short), city names, zero-article fixed phrases (go to bed, go to work / school, at home / work, by train / bus). English side (check and practice) copied verbatim from ru articles-3 (itself ja's set) as profile §8 says, with one localisation per profile §9: Moscow → Warsaw in the engineer mc item (all four options) and the matching body row. Replaces the Korean course's own articles-3 (ko ownLessons), which the scaffold copied. Placed after passive via profile.json lessonOrder.after; deck „Pogawędki” (deck 10, as ru and zh). The optional swap of two zero-article items for omission items (profile §8, the lead's call) was not made."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": [
+    "articles-3"
+  ]
+}
