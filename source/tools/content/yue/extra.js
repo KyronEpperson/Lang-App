@@ -1,7 +1,7 @@
 /* DIALOG: key | A | B | 譯文 ;  EXAMPLES: key | sentence | 譯文
    English lines localised per docs/profiles/yue.md §9 (Amy, Hong Kong, Kowloon, Central, Macau, dim sum); keys equal card targets in decks.js. Translations are written Cantonese (docs/briefs/yue-en-cantonese-rewrite.md). */
 exports.DIALOG = `
-How are you? | Hi, Jake! How are you? | Good, thanks! How about you? | 嗨，Jake！近排點呀？ / 幾好，多謝！你呢？
+How are you? | Hi, Jake! How are you? | Good, thanks! How about you? | 嗨，Jake！你點呀？ / 幾好，多謝！你呢？
 What's up? | Hey, what's up? | Not much. Just getting some coffee. | 喂，做緊乜呀？ / 冇乜嘢，去買杯咖啡啫。
 Nice to meet you. | Hi, I'm Amy. Nice to meet you. | Nice to meet you, too. I'm Ryan. | 你好，我係 Amy，好開心識到你。 / 我都好開心識到你，我叫 Ryan。
 Long time no see! | Long time no see! How have you been? | I've been great! You look good! | 好耐冇見！近排點呀？ / 我好好！你氣色唔錯喎！
@@ -14,9 +14,9 @@ I'm really into hiking. | What do you do on weekends? | I'm really into hiking. 
 I'm here on vacation. | Are you here for work? | No, I'm here on vacation. | 你嚟公幹㗎？ / 唔係，我嚟度假。
 Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | 唔該，呢度係咪排隊買飛？ / 係呀，隊尾喺嗰邊。
 Thank you. | Here, let me get the door for you. | Oh, thank you! | 嚟，我幫你開門。 / 啊，唔該晒！
-Sorry? | Your total is twenty-three fifty. | Sorry? Could you say that again? | 一共二十三蚊五毫。 / 吓？可唔可以再講多次？
+Sorry? | Your total is twenty-three fifty. | Sorry? Could you say that again? | 一共二十三蚊五毫。 / 吓？可唔可以講多次？
 Could you speak more slowly? | Take the B line to Central, then transfer to the red line and... | Sorry, could you speak more slowly? | 搭港島綫去中環，然後轉紅綫，再…… / 唔好意思，可唔可以講慢啲？
-How do you say this in English? | How do you say this in English? | That's a whisk. | 呢個英文點講？ / 嗰個叫 whisk（打蛋器）。
+How do you say this in English? | How do you say this in English? | That's a whisk. | 呢個用英文點講？ / 嗰個叫 whisk（打蛋器）。
 Can you help me? | Excuse me, can you help me? I'm looking for this hotel. | Sure! It's just around the corner. | 唔好意思，可唔可以幫吓我？我搵緊呢間酒店。 / 冇問題！轉個彎就到。
 No, thank you. | Would you like a bag? | No, thank you. I have one. | 要唔要袋？ / 唔使喇，唔該，我自己有。
 Where's the restroom? | Excuse me, where's the restroom? | It's down the hall, on the left. | 唔該，洗手間喺邊度？ / 沿住走廊一直行，喺左手邊。
@@ -49,9 +49,9 @@ I'll take it. | It fits perfectly! I'll take it. | Great! I can ring you up over
 Cash or card? | Cash or card? | Card, please. | 現金定信用卡？ / 信用卡，唔該。
 What time is it? | Excuse me, what time is it? | It's almost three. | 唔該，而家幾點？ / 差唔多三點喇。
 Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | 一共 30 蚊。 / 唔好意思，係 13 定 30？
-How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | 週末過成點？ / 好好呀！我去咗沙灘。你呢？
+How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | 週末過得點呀？ / 好好呀！我去咗沙灘。你呢？
 Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | 週末有冇咩計劃？ / 冇乜計劃，淨係喺屋企休息吓。
-Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | 今日天氣真係好好。 / 係呀！終於出太陽喇。
+Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | 今日天氣幾好喎。 / 係呀！終於出太陽喇。
 What do you do for fun? | What do you do for fun? | I play basketball and watch a lot of Hong Kong movies. | 你平時有咩消遣？ / 打籃球，仲有睇好多港產片。
 Me neither. | I don't really like spicy food. | Me neither. | 我唔係好鍾意食辣。 / 我都唔鍾意。
 It was nice talking to you. | Well, I should get going. It was nice talking to you. | You too! See you around. | 我要走喇，同你傾偈好開心。 / 我都係！下次見。
@@ -64,14 +64,14 @@ Do you want to grab coffee sometime? | Do you want to grab coffee sometime? | Su
 You're a lifesaver! | I brought you an extra charger. | You're a lifesaver! Thank you! | 我帶多咗個充電器畀你。 / 你真係救咗我！多謝！
 I'll get back to you. | Can you join the meeting on Thursday? | Let me check my schedule, and I'll get back to you. | 星期四個會你可唔可以出席？ / 我睇吓個日程先，再覆你。
 I'm running late. | Where are you? The meeting starts in five minutes. | Sorry, I'm running late. I'll be there in ten. | 你喺邊？仲有 5 分鐘就開會喇。 / 唔好意思，我會遲少少，10 分鐘後到。
-Can we push the meeting to 3? | Can we push the meeting to 3? Something came up. | Sure, 3 works for me. | 個會可唔可以推遲到 3 點？我臨時有啲事。 / 得，3 點我冇問題。
+Can we push the meeting to 3? | Can we push the meeting to 3? Something came up. | Sure, 3 works for me. | 個會可唔可以延到 3 點？我臨時有啲事。 / 得，3 點我冇問題。
 What's the deadline? | What's the deadline for the proposal? | End of the day Friday. | 計劃書幾時截止？ / 星期五放工前。
 Who's calling, please? | Hi, can I speak to Ms. Wong? | Sure. Who's calling, please? | 你好，請問黃小姐喺唔喺度？ / 喺，請問你係邊位？
 Sorry, you're breaking up. | Can you hear me now? | Sorry, you're breaking up. I'll call you back. | 而家聽唔聽到？ / 唔好意思，收得唔好，我再打畀你。
 I'm on my way. | Are you almost here? | Yeah, I'm on my way! | 就快到未？ / 係呀，我嚟緊喇！
 I'm here for sightseeing. | What's the purpose of your visit? | I'm here for sightseeing. | 你今次嚟嘅目的係咩？ / 我嚟觀光。
 I'm staying for a week. | How long are you staying? | I'm staying for a week. | 你打算留幾耐？ / 一個星期。
-Window or aisle? | Window or aisle? | Aisle, please. | 靠窗定靠走廊？ / 靠走廊，唔該。
+Window or aisle? | Window or aisle? | Aisle, please. | 窗口位定走廊位？ / 走廊位，唔該。
 I have a reservation under Chan. | Hi, are you checking in? | Yes, I have a reservation under Chan. | 你好，係咪辦理入住？ / 係，我用「陳」呢個姓訂咗房。
 The air conditioner isn't working. | Front desk. How can I help you? | Hi, the air conditioner isn't working in room 512. | 呢度係接待處，有咩可以幫到你？ / 你好，512 號房部冷氣壞咗。
 My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I see your baggage tag? | 我啲行李唔見咗。 / 好抱歉，可唔可以睇吓你嘅行李牌？
@@ -120,7 +120,7 @@ Twice a week | I go to the gym twice a week. | 我一個星期去兩次健身室
 It was pretty relaxing. | It was pretty relaxing. I just read and slept. | 過得好輕鬆，淨係睇書同瞓覺。
 Have you been to Hong Kong? | Have you been to Hong Kong? You should try the dim sum. | 你去過香港未？一定要試吓點心。
 By the way | By the way, did you see the game last night? | 係呢，你有冇睇尋晚場比賽？
-I'm bored. | I'm bored. Do you want to go for a walk? | 我好悶，要唔要去散下步？
+I'm bored. | I'm bored. Do you want to go for a walk? | 我好悶，要唔要去散吓步？
 I'm nervous. | I'm nervous about my job interview tomorrow. | 聽日要見工，我好緊張。
 I can't wait! | We're going to Hawaii next week. I can't wait! | 我哋下個星期去夏威夷，我等唔切喇！
 That color looks good on you. | That color looks good on you. You should wear it more often. | 呢隻顏色好襯你，你應該多啲著。

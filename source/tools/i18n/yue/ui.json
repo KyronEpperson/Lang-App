@@ -1001,7 +1001,7 @@
    "where": "html <button> text"
   },
   "Tell us what you think": {
-   "t": "講下你點睇",
+   "t": "講吓你點睇",
    "ko": "의견을 들려주세요",
    "kind": "sentence",
    "where": "html <h3> text"

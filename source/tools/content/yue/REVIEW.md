@@ -117,7 +117,7 @@ pron checker      903 pairs · 0 phrase conflicts · 1 allowed word pair · 3 ex
   - Proof: validate passes, parity uses every `decks:` deviation under the new name, lint reports 0 missing deck links, and link_roadmap passes.
 - **One spelling or term per concept (36 edits, 11 of them in the interface dictionary):**
   - 噉 → 咁 (12, lessons.js). 咁 is now used for both senses everywhere.
-  - "A bit" after a verb is written **吓** (睇吓, 試吓, 幫吓, 問吓, 諗吓, 聯絡吓; 13 in the course, 8 in ui.json).
+  - "A bit" after a verb is written **吓** (睇吓, 試吓, 幫吓, 問吓, 諗吓, 聯絡吓, 散吓步, 用吓; 16 in the course, 9 in ui.json).
   - Pronoun cues are （佢 = he / she） everywhere: be#11 and be#13 no longer use （用 he）.
   - mcBlankCue and the hand-typed cue are both 空格應該填咩？ (profile.json and lessons.js). The pack has 0 填乜嘢.
   - 疑問句 is the grammar term (一般動詞嘅問句 → 疑問句). 是非問句 and 間接問句 stay as distinct terms.
@@ -125,13 +125,13 @@ pron checker      903 pairs · 0 phrase conflicts · 1 allowed word pair · 3 ex
   - 綫 is used only for MTR lines; "line" in general is 線.
   - 睇戲 / 齣戲 for films (套 and 睇電影 removed from glosses; 電影 stays as a noun in explanations).
   - 食晏 for lunch. 地鐵 means a subway abroad and 港鐵 means the MTR.
-  - The hint 注意冠詞 → 留意冠詞.
+  - The hint 注意冠詞 → 留意冠詞, and 正在進行 → 現在進行式. The roadmap term 代詞 → 代名詞.
   - Lesson text cites the buttons exactly as ui.json shows them: 「Aa 音標：開」 / 「Aa 音標：關」, 「練習時顯示音標」.
   - Already consistent, nothing to change: 尋日, 而家, 畀, 鍾意, 鎖匙, 影相, 眾數, 第三身, 現在式, 串字, and the level titles (meta.js TITLES = ui.json = NOTES.md: 新手 · 學員 · 健談 · 旅行者 · 本地通 · 高手 · 大師).
-- **Same English, same gloss:** 44 edits, mostly practice prompts brought into line with the card meaning.
+- **Same English, same gloss:** 44 edits, mostly practice prompts brought into line with the card meaning, plus 11 DIALOG / card alignments (你點呀？, 週末過得點呀？, 今日天氣幾好喎, 窗口位定走廊位？, 延到 3 點, 呢個用英文點講？, 唔係嘛！, 我隨便睇吓, 攞走 for 拎走).
   - Examples: 週末有冇咩計劃？, 幾時截止？, 我確認咗再覆你, 一講曹操，曹操就到！, 可唔可以閂埋度門？, 我想要窗口位, 如果我係你，我就會去.
-  - The editor's own map (cards, {{ex}}, EXAMPLES, order / fill / type / mc prompts, cues stripped) went from 44 English sentences with more than one gloss to 7. lint "meaning variants" went from 12 to 8.
-  - What remains is teaching remarks: 「(I am live ✗)」, 「（泛指）」, 「（開會都用得）」, the smalltalk#10 fill that also accepts movies, and the prep#12 type item that accepts "now".
+  - The editor's own map (cards, {{ex}}, EXAMPLES, order / fill / type / mc prompts, cues stripped) went from 44 English sentences with more than one gloss to 8. lint "meaning variants" went from 12 to 8. DIALOG lines that differ from the card only in context (早唞 for Good night, 我都唔鍾意 for Me neither) were kept.
+  - What remains is teaching remarks: 「(I am live ✗)」, 「（泛指）」, 「（開會都用得）」, the smalltalk#10 fill that also accepts movies, the prep#12 type item that accepts "now", and the tense#13 prompt 上一個烹飪班, which keeps 一個 to cue the article.
 - **Register (17 edits):**
   - Stiff glosses replaced:
     - 午安 / 晚上好 → 你好（下晝見面）/ 你好（夜晚見面）, and the Today greetings in ui.json → 你好;
@@ -145,8 +145,8 @@ pron checker      903 pairs · 0 phrase conflicts · 1 allowed word pair · 3 ex
   - Kept as the normal words: 碌卡, 叮熱, 凍到震, 貴到離譜, 好正呀 (dialogue).
   - Other fixes: 最近好嗎 removed; ui.json 被封鎖 → 封鎖咗.
   - The stale English headers ("Hong Kong written Chinese" and similar) now say written Cantonese (6 files).
-- **Leftovers:** after the five rewriters, standard-written-Chinese function words outside 「」 were already near zero: 的 0, 這 0, 那 0, 他 0, 們 0, 沒 0, 什麼 0, 很 0, 也 0, 還 0, 給 0, 看 0, 吃 0, 喝 0.
-  - The rest is legitimate: set phrases (大不了, 不勞無獲, 眼不見心不念, 猶豫不決, 熟能生巧, 唔得了), 是非問句, 附和 / 柔和, 難在, 說話, 讓路, 把聲, 被動式, 現在式, 不可數, 跟 (follow), 知道, 可能.
+- **Leftovers:** after the five rewriters, standard-written-Chinese function words outside 「」 were already near zero. The rescan masked only whole terms that are the same in Cantonese (現在式, 不過, 不如, 不可數, 被動式, 的士 …). Results: 的 0, 這 0, 那 0, 他 0, 們 0, 沒 0, 嗎 0, 什麼 0, 很 0, 也 0, 還 0, 給 0, 看 0, 吃 0, 喝 0, 但是 0, 不能 0, 為了 0, 除了 0, 也許 0. There is also none of 番 (for return), 鐘意, 揾, 黎, 既, 野 or 俾.
+  - The rest is legitimate: set phrases (大不了, 不勞無獲, 眼不見心不念, 人不可以貌相, 猶豫不決, 熟能生巧, 唔得了, 把握, 不定詞, 不滿, 毫不掩飾), 是非問句, 附和 / 柔和, 難在, 說話, 讓路, 把聲, 被動式, 現在式, 不可數, 跟 (follow), 知道, 可能.
   - ui.json 「會被隱藏」 (forum rules) was left as it is.
 - **Localisation (36 English lines, plus 1 card and its dialogue):**
   - Places: Seoul → Hong Kong / Kowloon / Tokyo / Taipei; Busan → Macau / Tokyo / Taipei; Jeju → Macau / Tokyo; Daegu → Kowloon; Korea → Japan, or Canada where the why says 國家.
@@ -155,8 +155,8 @@ pron checker      903 pairs · 0 phrase conflicts · 1 allowed word pair · 3 ex
   - The bias card "Who's your bias?" → "Who's your favorite singer?" (new IPA). The DIALOG key was renamed and its B line is "Definitely Eason Chan." (梗係陳奕迅啦).
   - The Cantonese prompts changed with the English. The pack has 0 Korean-setting strings on either side.
 - **Typed-answer pass:** all 127 type items were listed from the pack and read.
-  - **Prompts cued or aligned:** articles-3#13 （用 by）; first-conditional#13 now says 你; past#11 我嗰陣好攰（用 was）; tense#13 and others aligned with their card gloss.
-  - **Answers added (18 items):**
+  - **Prompts cued or aligned:** first-conditional#13 now says 你; past#11 我嗰陣好攰（用 was）; others aligned with their card gloss.
+  - **Answers added (20 items):**
     - 好 + adjective: very / really variants (it-there#11, past#11, joining#12, articles-2#13, reported#11);
     - 返屋企: back home (to-ing#11, narrative#13);
     - will#12: get / order a salad;
@@ -166,10 +166,13 @@ pron checker      903 pairs · 0 phrase conflicts · 1 allowed word pair · 3 ex
     - articles-2#11: the USA;
     - perfect-2#13: that book;
     - passive#12: got cancelled;
+    - articles-3#13: take a train to work;
+    - third-s#11: He's got a car (British; articles#11 already accepts I've got);
     - reported#13: that / he'd seen / had watched.
   - **Answers trimmed to the prompt's subject (2):** modals#13 and first-conditional#13.
   - **Full forms:** a script checked every contracted answer in the pack, and 0 lack the full form.
-  - **Deviations:** 47 item entries and 1 deck entry in deviations.review.json, merged into deviations.json. An old-vs-new diff of the English side shows exactly these 49 changes (47 items, 1 card, 1 dialogue).
+  - **Deviations:** 48 item entries and 1 deck entry in deviations.review.json, merged into deviations.json. articles-3#13 is covered by its lesson-level deviation.
+  - **Verification:** an old-vs-new diff of the pack's English side, and a CJK-stripped diff of every source line, show only these intended changes (practice items, checks, 1 card, 1 dialogue, header comments). The email#check1 why now also explains that work takes no -s and no a.
 
 ### For a native speaker (check first)
 
@@ -206,6 +209,10 @@ pron checker      903 pairs · 0 phrase conflicts · 1 allowed word pair · 3 ex
 
 ### Not done
 
+- §5 above ("Deck names were not renamed", "Korean-flavoured shared English") is superseded by this section.
+- be#13 still does not accept "Has she got a cat": its x list marks has as the error.
+- ui.json 「會被隱藏」 (forum rules) was kept.
+
 - relative#11 does not accept "which", because its cue says （用 that）.
 - The stale copy under lang-app/source/ still has the old deck names. It is outside this pass's scope.
 - The shared English of the minimal pairs (rice / lice and others) is unchanged; the yue-only pairs were added earlier.
@@ -213,7 +220,7 @@ pron checker      903 pairs · 0 phrase conflicts · 1 allowed word pair · 3 ex
 ### Checks (finishing pass)
 
 ```
-gen.js yue            wrote /home/claude/packs/course-yue-en.js 253228 bytes
+gen.js yue            wrote /home/claude/packs/course-yue-en.js 253321 bytes
 validate.js yue       PASS: all checks OK
 parity.js yue         WARN unused deviations (stale?): lessons:hk-english, lessons:articles-3   (expected)
                       PASS: shared English side matches ko-en

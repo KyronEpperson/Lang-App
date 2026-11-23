@@ -116,14 +116,14 @@ Everything was great. | /ˈevriθɪŋ wəz ˈgreɪt/ | 樣樣都好好食 | 侍�
 Can we get the check, please? | /kən wi ˈget ðə ˈtʃek ˈpliːz/ | 唔該埋單 | 香港同英國講 the bill；美國講 the check。美國餐廳一般坐喺位度畀錢。
 Can we split the bill? | /kən wi ˈsplɪt ðə ˈbɪl/ | 可唔可以分開埋單？ | 亦講 separate checks。split 開頭三個輔音 /spl/ 連埋一齊，中間唔加元音。
 It's on me. | /ɪts ɑːn ˈmiː/ | 我請 | My treat! 意思一樣。
-Can I get this to go? | /kən aɪ ˈget ˈðɪs tə ˈgoʊ/ | 呢個可唔可以拎走？ | to go 即係外賣（口語講「拎走」），英式講 take away。食剩想帶走，亦可以講 Can I get a box?
+Can I get this to go? | /kən aɪ ˈget ˈðɪs tə ˈgoʊ/ | 呢個可唔可以攞走？ | to go 即係外賣（口語講「攞走」），英式講 take away。食剩想帶走，亦可以講 Can I get a box?
 Is the tip included? | /ɪz ðə ˈtɪp ɪnˈkluːdɪd/ | 包唔包小費？ | 香港餐廳多數收加一服務費；美國餐廳一般要另外畀 15% 至 20% 小費。
 `,
 "咖啡店同便利店": `
 Can I get an iced Americano? | /kən aɪ ˈget ən ˈaɪst əˌmerɪˈkɑːnoʊ/ | 我要一杯凍美式 | 點飲品最常用 Can I get…? iced 字尾係 /st/，t 好輕，但唔好成個省咗。
 What size would you like? | /ˈwʌt ˈsaɪz wəd ju ˈlaɪk/ | 要咩大細？ | 店員會咁問。
 Small, please. | /ˈsmɔːl ˈpliːz/ | 細杯，唔該 | 星巴克用 tall / grande / venti。
-For here or to go? | /fər ˈhɪr ər tə ˈgoʊ/ | 喺度飲定拎走？ | 英式：Eat in or take away? to go 即係茶餐廳講嘅「拎走」。
+For here or to go? | /fər ˈhɪr ər tə ˈgoʊ/ | 喺度飲定攞走？ | 英式：Eat in or take away? to go 即係茶餐廳講嘅「攞走」。
 Can I get oat milk instead? | /kən aɪ ˈget ˈoʊt ˈmɪlk ɪnˈsted/ | 可唔可以轉燕麥奶？ | instead = 代替。可能要加錢。milk 嘅 l 同 k 都要讀出嚟。
 Less ice, please. | /ˈles ˈaɪs ˈpliːz/ | 少冰，唔該 | 唔要冰（「走冰」）：No ice, please.
 Decaf, please. | /ˈdiːkæf ˈpliːz/ | 要低咖啡因嘅，唔該 | decaffeinated 嘅簡稱。
@@ -138,7 +138,7 @@ Here you go. | /ˈhɪr ju ˈgoʊ/ | 畀你 | 遞錢或者遞嘢嗰陣講。
 Keep the change. | /ˈkiːp ðə ˈtʃeɪndʒ/ | 唔使找 | 喺美國搭的士、收外賣嗰陣成日用嚟代替小費。
 `,
 "購物同付款": `
-I'm just looking, thanks. | /aɪm ˈdʒʌst ˈlʊkɪŋ ˈθæŋks/ | 我隨便睇睇，唔該 | 店員問 Can I help you find anything? 嗰陣用。
+I'm just looking, thanks. | /aɪm ˈdʒʌst ˈlʊkɪŋ ˈθæŋks/ | 我隨便睇吓，唔該 | 店員問 Can I help you find anything? 嗰陣用。
 Do you have this in a medium? | /də ju ˈhæv ˈðɪs ɪn ə ˈmiːdiəm/ | 呢件有冇中碼？ | 尺碼：small / medium / large。
 Do you have it in black? | /də ju ˈhæv ɪt ɪn ˈblæk/ | 有冇黑色？ | 顏色前面用 in。black 嘅 l 要讀出嚟，唔好讀成 "back"。
 Can I try this on? | /kən aɪ ˈtraɪ ˈðɪs ˈɑːn/ | 可唔可以試身？ | try on = 試（衫、鞋）。
@@ -197,7 +197,7 @@ It was nice talking to you. | /ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/ | 同你傾
 I'm so happy for you! | /aɪm ˈsoʊ ˈhæpi fər ju/ | 真係替你開心！ | 對方有好事嗰陣講。
 Congratulations! | /kənˌgrætʃəˈleɪʃnz/ | 恭喜！ | 一定要加 -s，字尾嘅 /nz/ 都要讀出嚟。簡稱 Congrats!
 That's awesome! | /ˈðæts ˈɔːsəm/ | 太好喇！ | 美國人極常用嘅反應。
-No way! | /ˈnoʊ ˈweɪ/ | 唔係啩！ | 好驚訝嗰陣講。亦可以表示拒絕：No way, I'm not doing that.
+No way! | /ˈnoʊ ˈweɪ/ | 唔係嘛！ | 好驚訝嗰陣講。亦可以表示拒絕：No way, I'm not doing that.
 Seriously? | /ˈsɪriəsli/ | 真㗎？/ 認真？ | 睇語氣，可以表示驚訝，亦可以表示唔耐煩。
 I'm so tired. | /aɪm ˈsoʊ ˈtaɪərd/ | 我好攰 | 攰到死：I'm exhausted.
 I'm stressed out. | /aɪm ˈstrest ˈaʊt/ | 我好大壓力 | 比 I have stress 自然。

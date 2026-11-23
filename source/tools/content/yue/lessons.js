@@ -260,7 +260,7 @@ exports.CHECKS = {
   ],
   email: [
     ["第一次聯絡客戶公司嘅負責人 Jenny Brown，最得體嘅稱呼係？", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "美國嘅工作電郵用 Hi + 名最穩陣。非常正式先用 Dear Ms. Brown。"],
-    ["項目完成之後，想同團隊講「辛苦晒」，應該點講？", ["Thanks for all your hard works.","Thanks for all your hard work!","You did a hard work.","Please work harder."], 1, "英文冇同「辛苦晒」完全對應嘅講法，要用多謝對方付出嘅方式嚟表達。"],
+    ["項目完成之後，想同團隊講「辛苦晒」，應該點講？", ["Thanks for all your hard works.","Thanks for all your hard work!","You did a hard work.","Please work harder."], 1, "英文冇同「辛苦晒」完全對應嘅講法，要用多謝對方付出嘅方式嚟表達。work 解「工作、付出」嗰陣係不可數名詞，唔加 -s，前面亦唔加 a。"],
     ["邊句可以有禮貌咁講出期限？", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "用 Could you…? 加 by + 日期，婉轉又清楚。"]
   ],
   idioms: [

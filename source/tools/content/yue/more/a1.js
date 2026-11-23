@@ -153,7 +153,7 @@ practice:[
 ["fi","He __ soccer.","佢鍾意足球","likes","like|liking|is like","主語係 he，用第三身單數 likes。"],
 ["fi","__ she speak English?","佢識唔識講英文？","Does","Do|Is|Are","主語係 she，疑問句用 Does。"],
 ["fi","She __ to work at eight.","佢八點返工","goes","go|going|gos","go 嘅第三身單數係 goes。"],
-["ty","佢有架車（佢 = he）","He has a car","has · car — 冠詞 a","have","主語係 he，用 has；一架車，加冠詞 a。"],
+["ty","佢有架車（佢 = he）","He has a car|He's got a car","has · car — 冠詞 a","have","主語係 he，用 has；一架車，加冠詞 a。"],
 ["ty","佢鍾意貓（佢 = she）","She likes cats|She loves cats","likes · cat — 眾數","cat","主語係 she，用第三身單數 likes；泛指貓用眾數 cats。"],
 ["ty","佢唔住喺呢度（佢 = he）","He doesn't live here","doesn't · live · here","lives","doesn't 後面用動詞原形。"]]},
 { id:"countable", title:"可數名詞同不可數名詞：some、any、much、many", blurb:"water 前面唔可以加 a，後面亦唔可以加 -s。可數用 many，不可數用 much。", deck:"餐廳點餐", body:`
@@ -453,7 +453,7 @@ practice:[
 <p>香港人日日都用英文，好多講法喺本地個個都明。<b>港式英文唔係錯，只係外地人未必明白。</b>呢一課分開四類：由廣東話直譯過嚟、文法或者用字有問題嘅講法標 ✗，要改；本地字詞標「本地用法」，喺香港可以照用，出外換個講法就得；英式同美式就兩種都啱。</p>
 <h3>一個中文動詞，幾個英文動詞</h3>
 <div class="tbl"><table><tr><th>廣東話</th><th>英文</th><th>點樣分</th></tr><tr><td>「開」「熄」「閂」（燈、電視）</td><td class="k">turn on / turn off</td><td>電器用 turn on / off；門、窗先至用 open / close</td></tr><tr><td>「睇」</td><td class="k">look at / see / watch / read</td><td>望一望 look at，睇到 see，睇電視、睇波 watch，睇書 read</td></tr><tr><td>「帶」「攞」</td><td class="k">bring / take</td><td>帶嚟講嘢嘅人呢度 bring，帶去第度 take</td></tr><tr><td>「借」</td><td class="k">borrow / lend</td><td>問人借 borrow，借畀人 lend</td></tr><tr><td>「講」</td><td class="k">say / tell / speak / talk</td><td>講咗咩 say，話畀某人知 tell，講某種語言 speak，傾偈 talk</td></tr><tr><td>「食藥」</td><td class="k">take medicine</td><td>藥唔係 eat，用 take</td></tr></table></div>
-{{ex:Can you turn on the light?|/kən ju ˈtɜːrn ˈɑːn ðə ˈlaɪt/|可唔可以開燈？}}{{ex:I'm reading a book.|/aɪm ˈriːdɪŋ ə ˈbʊk/|我睇緊書}}{{ex:Can you lend me a pen?|/kən ju ˈlend mi ə ˈpen/|可唔可以借支筆畀我？}}{{ex:Can I borrow your pen?|/kən aɪ ˈbɑːroʊ jʊr ˈpen/|我可唔可以借你支筆用下？}}{{ex:I'll take you to the station.|/aɪl ˈteɪk ju tə ðə ˈsteɪʃn/|我帶你去車站}}{{ex:Take this medicine three times a day.|/ˈteɪk ˈðɪs ˈmedɪsn ˈθriː ˈtaɪmz ə ˈdeɪ/|呢隻藥每日食三次}}
+{{ex:Can you turn on the light?|/kən ju ˈtɜːrn ˈɑːn ðə ˈlaɪt/|可唔可以開燈？}}{{ex:I'm reading a book.|/aɪm ˈriːdɪŋ ə ˈbʊk/|我睇緊書}}{{ex:Can you lend me a pen?|/kən ju ˈlend mi ə ˈpen/|可唔可以借支筆畀我？}}{{ex:Can I borrow your pen?|/kən aɪ ˈbɑːroʊ jʊr ˈpen/|我可唔可以借你支筆用吓？}}{{ex:I'll take you to the station.|/aɪl ˈteɪk ju tə ðə ˈsteɪʃn/|我帶你去車站}}{{ex:Take this medicine three times a day.|/ˈteɪk ˈðɪs ˈmedɪsn ˈθriː ˈtaɪmz ə ˈdeɪ/|呢隻藥每日食三次}}
 <p>動詞揀啱咗，後面嘅名詞都唔好唔記得冠詞：turn on <b>the</b> light，read <b>a</b> book，lend me <b>a</b> pen。take medicine 嘅 medicine 泛指藥物，唔加 a。</p>
 <h3>由廣東話直譯過嚟嘅句式</h3>
 <div class="tbl"><table><tr><th>廣東話</th><th>直譯 ✗</th><th>英文講法 ✓</th></tr><tr><td>「我好鍾意」</td><td>I very like it.</td><td class="k">I really like it. / I like it very much.</td></tr><tr><td>「有好多人養寵物」</td><td>There are many people have pets.</td><td class="k">Many people have pets.</td></tr><tr><td>「我好難學識英文」</td><td>I am difficult to learn English.</td><td class="k">It's difficult for me to learn English.</td></tr><tr><td>「雖然……但係……」</td><td>Although it rained, but we went.</td><td class="k">Although it rained, we went.</td></tr><tr><td>「我走先」</td><td>I go first.</td><td class="k">I'm leaving now.</td></tr><tr><td>「等我」</td><td>Wait me.</td><td class="k">Wait for me.</td></tr></table></div>
@@ -479,7 +479,7 @@ practice:[
 ["or","我每日食藥","I take medicine every day","eat a","食藥用 take；medicine 喺呢度泛指藥物，唔加冠詞 a。"],
 ["or","我好鍾意","I really like it","very","very 唔可以直接擺喺動詞前面；「好鍾意」講 really like。"],
 ["fi","Can you turn __ the TV?","可唔可以開電視？","on","open|at|to","開電視用 turn on。"],
-["fi","Can I __ your pen?","我可唔可以借你支筆用下？","borrow","lend|loan|rent","問人借嚟用係 borrow，借畀人係 lend。"],
+["fi","Can I __ your pen?","我可唔可以借你支筆用吓？","borrow","lend|loan|rent","問人借嚟用係 borrow，借畀人係 lend。"],
 ["fi","It's difficult __ me to learn English.","學英文對我嚟講好難","for","to|at|of","「對某人嚟講好難」係 It's difficult for + 人 + to + 動詞。"],
 ["ty","唔該開燈","Turn on the light please|Please turn on the light|Can you turn on the light|Could you turn on the light|Turn on the lights please|Please turn on the lights|Turn the light on please|Please turn the light on|Can you turn the light on|Could you turn the light on|Turn on the light|Turn the light on","turn on · light — 冠詞 the","open","開燈用 turn on，唔用 open；指房入面嗰盞燈，要加冠詞 the。"],
 ["ty","洗手間喺邊度？（美式：restroom）","Where is the restroom|Where's the restroom|Where is the bathroom|Where's the bathroom","where · restroom — 冠詞 the","a","美式英文講 restroom，英式嘅 toilet 都冇錯；大家都知係邊個洗手間，用冠詞 the。"],

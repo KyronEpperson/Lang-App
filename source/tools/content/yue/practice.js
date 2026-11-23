@@ -123,9 +123,9 @@ module.exports = {
     { t: "fill", q: "__ you have fun?", p: "玩得開唔開心？", a: ["Did"], o: ["Does", "Are", "Were"], why: "問過去嘅事用 Did + 動詞原形。" },
     { t: "fill", q: "I'm going __ visit my parents.", p: "我打算去探我爸爸媽媽", a: ["to"], o: ["for", "at", "on"], why: "計劃用 be going to + 動詞原形。" },
 
-    { t: "type", p: "我今日喺屋企做嘢（用現在進行式）", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — 正在進行", x: ["work"], why: "今日做緊嘅事用 be + -ing。" },
+    { t: "type", p: "我今日喺屋企做嘢（用現在進行式）", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — 現在進行式", x: ["work"], why: "今日做緊嘅事用 be + -ing。" },
     { t: "type", p: "我上個週末去咗沙灘", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — 過去式同冠詞", x: ["a"], why: "go 嘅過去式係 went；沙灘要加冠詞 the：the beach。" },
-    { t: "type", p: "我打算去上烹飪班（用 going to）", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — 一個班前面嘅冠詞", x: ["the"], why: "預先定好嘅計劃用 going to；第一次提到一個班，用冠詞 a。" }
+    { t: "type", p: "我打算去上一個烹飪班（用 going to）", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — 一個班前面嘅冠詞", x: ["the"], why: "預先定好嘅計劃用 going to；第一次提到一個班，用冠詞 a。" }
   ],
 
   prep: [

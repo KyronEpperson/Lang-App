@@ -47,7 +47,8 @@
   "articles-2#11": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'I'm from the USA' accepted (keeps the article point)",
   "perfect-2#13": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): bare-classifier 本書: 'that book' accepted, as perfect#12 already does",
   "passive#12": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'The meeting got cancelled' (British spelling) accepted beside 'got canceled'",
-  "reported#13": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'that he saw', 'he'd seen' and 'had watched' accepted"
+  "reported#13": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'that he saw', 'he'd seen' and 'had watched' accepted",
+  "third-s#11": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'He's got a car' (British, as Hong Kong schools teach) accepted; articles#11 already accepts 'I've got'"
  },
  "decks": {
   "影視同俚語": "localisation (written-Cantonese finishing pass 2026-11-23): Korean setting replaced with the learner's own (Hong Kong), grammar point unchanged: card 14 'Who's your bias?' (K-pop fandom) → 'Who's your favorite singer?' (Cantopop; DIALOG entry renamed with it, B line 'Definitely Eason Chan.')"

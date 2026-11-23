@@ -149,7 +149,7 @@ practice:[
 ["fi","This is __ first time I've been here.","呢次係我第一次嚟呢度","the|my","a|an|one","序數詞 first 前面要加 the（都可以用 my）。"],
 ["ty","我好早就瞓咗（用 bed）","I went to bed early|I went to bed very early|I went to bed really early","went to · bed · early — 唔加冠詞","the","go to bed 係唔加冠詞嘅固定搭配。"],
 ["ty","教育好重要（泛指）","Education is important|Education is very important|Education is really important|Education is so important","education · important — 唔加冠詞","The","泛指抽象概念，唔加冠詞。"],
-["ty","我搭火車返工（用 by）","I go to work by train|I commute by train|I take the train to work","go to work · by train — 唔加冠詞","the","go to work 同 by train 都係唔加冠詞嘅固定搭配。"]]},
+["ty","我搭火車返工","I go to work by train|I commute by train|I take the train to work|I take a train to work","go to work · by train — 唔加冠詞","the","go to work 同 by train 都係唔加冠詞嘅固定搭配。"]]},
 { id:"reported", title:"間接引述：轉述人哋講過嘅嘢", blurb:"She said she was tired. 時態向過去退一步，tell 後面要接人。", deck:"電話同短訊縮寫", body:`
 <p>轉述人哋講過嘅嘢嗰陣用，即係間接引述 (reported speech)。廣東話「佢話佢好攰」可以照搬原話，英文就要將轉述內容嘅<b>時態向過去退一步</b>。另外，「佢」唔分男女，英文就要揀 he 定 she。</p>
 <div class="tbl"><table><tr><th>原話</th><th>轉述</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>

@@ -50,7 +50,8 @@
     "articles-2#11": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'I'm from the USA' accepted (keeps the article point)",
     "perfect-2#13": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): bare-classifier 本書: 'that book' accepted, as perfect#12 already does",
     "passive#12": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'The meeting got cancelled' (British spelling) accepted beside 'got canceled'",
-    "reported#13": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'that he saw', 'he'd seen' and 'had watched' accepted"
+    "reported#13": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'that he saw', 'he'd seen' and 'had watched' accepted",
+    "third-s#11": "typed-answer pass (written-Cantonese finishing pass 2026-11-23): 'He's got a car' (British, as Hong Kong schools teach) accepted; articles#11 already accepts 'I've got'"
   },
   "decks": {
     "自我介紹": "localisation per profile yue.md §9 (Minji→Amy, Korea→Hong Kong, Seoul→Kowloon): cards 0 'My name is Amy.', 4 'I'm from Hong Kong.', 5 'I live in Kowloon.'",
