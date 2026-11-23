@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "indian-english": "te-only lesson (profile te.md §8 'add' / §4.11 / §9): Indian English usages that are normal in India but puzzle listeners abroad (prepone, out of station, good name, passed out, revert, years back, hotel for restaurant), forms wrong in any variety (Myself Ravi, discuss about, I have a doubt for a question) and Telugu calques (Where do you stay?, I'll go and come, native place, simply); English side reused from hi-en's lesson of the same id, localised (Rahul→Ravi, Delhi→Hyderabad), with the Hindi calques replaced by the Telugu ones of te.md §8 (check 3, mc 5, type items 3–4 are new English); placed after smalltalk via profile.json lessonOrder.after; deck 22 «ఇండియన్ ఇంగ్లీష్: ఇక్కడ, విదేశాల్లో»; no ko-en counterpart (replaces the Korean-only konglish of the scaffold; mirrors zh chinglish, hi indian-english)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["indian-english"]
+}
