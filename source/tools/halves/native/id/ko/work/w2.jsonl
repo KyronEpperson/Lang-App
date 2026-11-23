@@ -1,0 +1,756 @@
+{"f":"cards","id":"ko.c0493","k":"meaning","src":"That was fun","tgt":"Tadi seru"}
+{"f":"cards","id":"ko.c0493","k":"note","src":"Say it at the end. Polite: 재밌었어요.","tgt":"Ucapkan di akhir acara. Sopan: 재밌었어요."}
+{"f":"cards","id":"ko.c0494","k":"meaning","src":"Let's hang out again","tgt":"Yuk, main lagi!"}
+{"f":"cards","id":"ko.c0494","k":"note","src":"또 = again.","tgt":"또 = lagi."}
+{"f":"cards","id":"ko.c0495","k":"meaning","src":"Let's meet again next time","tgt":"Yuk, lain kali jumpa lagi!"}
+{"f":"cards","id":"ko.c0495","k":"note","src":"담에 = 다음에. 보자 = let's see (each other).","tgt":"담에 = 다음에. 보자 = yuk, bertemu (harfiah 'mari saling melihat')."}
+{"f":"cards","id":"ko.c0496","k":"meaning","src":"my favorite (member)","tgt":"favorit utama (member)"}
+{"f":"cards","id":"ko.c0496","k":"note","src":"최애가 누구예요? = who's your bias? 차애 = second favorite.","tgt":"최애가 누구예요? = bias-mu siapa? 차애 = favorit kedua."}
+{"f":"cards","id":"ko.c0497","k":"meaning","src":"being a fan / fangirling","tgt":"kegiatan fandom / fangirling"}
+{"f":"cards","id":"ko.c0497","k":"note","src":"From 오타쿠. 덕질해요 = I'm into fandom stuff.","tgt":"Dari 오타쿠 (otaku). 덕질해요 = saya aktif di fandom."}
+{"f":"cards","id":"ko.c0498","k":"meaning","src":"I became a fan","tgt":"Saya jadi penggemar"}
+{"f":"cards","id":"ko.c0498","k":"note","src":"입덕 = entering the fandom. 탈덕 = leaving it.","tgt":"입덕 = masuk fandom. 탈덕 = keluar dari fandom."}
+{"f":"cards","id":"ko.c0499","k":"meaning","src":"comeback (new release)","tgt":"comeback (rilisan baru)"}
+{"f":"cards","id":"ko.c0499","k":"note","src":"Every new album is a 컴백. 컴백 언제예요?","tgt":"Setiap album baru disebut 컴백. 컴백 언제예요? = comeback-nya kapan?"}
+{"f":"cards","id":"ko.c0500","k":"meaning","src":"stage / performance","tgt":"panggung / penampilan"}
+{"f":"cards","id":"ko.c0500","k":"note","src":"무대 진짜 잘해요 = they perform really well.","tgt":"무대 진짜 잘해요 = penampilan panggung mereka bagus sekali."}
+{"f":"cards","id":"ko.c0501","k":"meaning","src":"I'm going to a concert","tgt":"Saya pergi ke konser"}
+{"f":"cards","id":"ko.c0501","k":"note","src":"콘서트 티켓팅 = ticketing, a blood sport.","tgt":"콘서트 티켓팅 = berburu tiket konser, alias war tiket."}
+{"f":"cards","id":"ko.c0502","k":"meaning","src":"light stick","tgt":"lightstick"}
+{"f":"cards","id":"ko.c0502","k":"note","src":"Each group has one. 응원 = cheering.","tgt":"Setiap grup punya lightstick sendiri. 응원 = dukungan, sorakan."}
+{"f":"cards","id":"ko.c0503","k":"meaning","src":"singing along as a crowd","tgt":"bernyanyi bersama satu penonton"}
+{"f":"cards","id":"ko.c0503","k":"note","src":"떼 = flock. The crowd sings the whole song.","tgt":"떼 = kawanan. Penonton menyanyikan seluruh lagu."}
+{"f":"cards","id":"ko.c0504","k":"meaning","src":"I'm a fan","tgt":"Saya penggemar"}
+{"f":"cards","id":"ko.c0504","k":"note","src":"저 팬이에요 = I'm a fan (of you / them).","tgt":"저 팬이에요 = saya penggemarmu (atau penggemar mereka)."}
+{"f":"cards","id":"ko.c0505","k":"meaning","src":"Please sign this","tgt":"Tolong tanda tangani ini"}
+{"f":"cards","id":"ko.c0505","k":"note","src":"사인 = autograph.","tgt":"사인 = tanda tangan, autograf."}
+{"f":"cards","id":"ko.c0506","k":"meaning","src":"The song is good","tgt":"Lagunya bagus"}
+{"f":"cards","id":"ko.c0506","k":"note","src":"이 노래 진짜 좋아요 = this song is so good.","tgt":"이 노래 진짜 좋아요 = lagu ini bagus sekali."}
+{"f":"cards","id":"ko.c0507","k":"meaning","src":"The lyrics are good","tgt":"Liriknya bagus"}
+{"f":"cards","id":"ko.c0507","k":"note","src":"가사 = lyrics.","tgt":"가사 = lirik."}
+{"f":"cards","id":"ko.c0508","k":"meaning","src":"choreography","tgt":"koreografi"}
+{"f":"cards","id":"ko.c0508","k":"note","src":"안무 외웠어요 = I memorized the choreo.","tgt":"안무 외웠어요 = saya sudah hafal koreonya."}
+{"f":"cards","id":"ko.c0509","k":"meaning","src":"debut","tgt":"debut"}
+{"f":"cards","id":"ko.c0509","k":"note","src":"몇 년에 데뷔했어요? = what year did they debut?","tgt":"몇 년에 데뷔했어요? = debut tahun berapa?"}
+{"f":"cards","id":"ko.c0510","k":"meaning","src":"fan meeting","tgt":"fan meeting"}
+{"f":"cards","id":"ko.c0510","k":"note","src":"팬싸 = fan sign event.","tgt":"팬싸 = acara fansign."}
+{"f":"cards","id":"ko.c0511","k":"meaning","src":"fancam","tgt":"fancam"}
+{"f":"cards","id":"ko.c0511","k":"note","src":"직접 + 캠. Member-focused concert video.","tgt":"직접 + 캠. Video konser yang fokus pada satu member."}
+{"f":"cards","id":"ko.c0512","k":"meaning","src":"Instagram story","tgt":"Instastory (story Instagram)"}
+{"f":"cards","id":"ko.c0512","k":"note","src":"스토리 봤어? = did you see my story?","tgt":"스토리 봤어? = udah lihat story-ku?"}
+{"f":"cards","id":"ko.c0513","k":"meaning","src":"Hit like for me","tgt":"Tolong klik like, ya"}
+{"f":"cards","id":"ko.c0513","k":"note","src":"누르다 = to press.","tgt":"누르다 = menekan."}
+{"f":"cards","id":"ko.c0514","k":"meaning","src":"I followed you","tgt":"Saya sudah follow kamu"}
+{"f":"cards","id":"ko.c0514","k":"note","src":"맞팔 = follow back. 맞팔해요 = let's follow each other.","tgt":"맞팔 = saling follow (folbek). 맞팔해요 = mari saling follow."}
+{"f":"cards","id":"ko.c0515","k":"meaning","src":"meme image / reaction pic","tgt":"meme / gambar reaksi"}
+{"f":"cards","id":"ko.c0515","k":"note","src":"짤 보내 줘 = send me the meme.","tgt":"짤 보내 줘 = tolong kirim meme-nya, ya."}
+{"f":"cards","id":"ko.c0516","k":"meaning","src":"sudden awkward silence","tgt":"suasana mendadak canggung"}
+{"f":"cards","id":"ko.c0516","k":"note","src":"갑자기 분위기 싸해짐. When a joke dies.","tgt":"갑자기 분위기 싸해짐. Saat lelucon jadi garing."}
+{"f":"cards","id":"ko.c0517","k":"meaning","src":"too much info / random fact","tgt":"info kebanyakan / fakta random"}
+{"f":"cards","id":"ko.c0517","k":"note","src":"Used for cute oversharing, not gross stuff.","tgt":"Untuk berbagi hal kecil yang lucu, bukan hal yang menjijikkan."}
+{"f":"cards","id":"ko.c0518","k":"meaning","src":"effortlessly styled","tgt":"gaya effortless"}
+{"f":"cards","id":"ko.c0518","k":"note","src":"꾸민 듯 안 꾸민 듯. The 'I woke up like this' look.","tgt":"꾸민 듯 안 꾸민 듯: seperti dandan, seperti tidak. Gaya 'bangun tidur langsung begini'."}
+{"f":"cards","id":"ko.c0519","k":"meaning","src":"insanely delicious","tgt":"luar biasa enak"}
+{"f":"cards","id":"ko.c0519","k":"note","src":"Very casual slang with a vulgar origin: only with close friends. JMT in texts.","tgt":"Slang sangat santai yang asalnya kasar: hanya dengan teman dekat. Di chat: JMT."}
+{"f":"cards","id":"ko.c0520","k":"meaning","src":"agreed / facts","tgt":"setuju / fakta"}
+{"f":"cards","id":"ko.c0520","k":"note","src":"Text shorthand for 인정.","tgt":"Singkatan chat untuk 인정."}
+{"f":"cards","id":"ko.c0521","k":"meaning","src":"for real","tgt":"sungguhan"}
+{"f":"cards","id":"ko.c0521","k":"note","src":"Text shorthand for 리얼.","tgt":"Singkatan chat untuk 리얼."}
+{"f":"cards","id":"ko.c0522","k":"meaning","src":"super extrovert / popular","tgt":"orang super gaul / populer"}
+{"f":"cards","id":"ko.c0522","k":"note","src":"핵 = nuke prefix. 아싸 = outsider / introvert.","tgt":"핵 = awalan 'nuklir', sebagai penguat. 아싸 = orang yang menyendiri, introver."}
+{"f":"cards","id":"ko.c0523","k":"meaning","src":"small but certain happiness","tgt":"kebahagiaan kecil yang pasti"}
+{"f":"cards","id":"ko.c0523","k":"note","src":"소소하지만 확실한 행복. Café, nap, rain.","tgt":"소소하지만 확실한 행복. Kafe, tidur siang, hujan."}
+{"f":"cards","id":"ko.c0524","k":"meaning","src":"studying hard","tgt":"belajar giat"}
+{"f":"cards","id":"ko.c0524","k":"note","src":"열심히 공부. 열공 중 = studying hard right now.","tgt":"열심히 공부. 열공 중 = sedang belajar giat."}
+{"f":"cards","id":"ko.c0525","k":"meaning","src":"mental breakdown","tgt":"panik total (mental runtuh)"}
+{"f":"cards","id":"ko.c0525","k":"note","src":"멘탈 붕괴. 멘붕 왔어 = I'm losing it.","tgt":"멘탈 붕괴. 멘붕 왔어 = aku udah nggak kuat."}
+{"f":"cards","id":"ko.c0526","k":"meaning","src":"I burst out laughing","tgt":"Aku tertawa terbahak-bahak"}
+{"f":"cards","id":"ko.c0526","k":"note","src":"빵 = pop sound.","tgt":"빵 = bunyi letupan."}
+{"f":"cards","id":"ko.c0527","k":"meaning","src":"Let's take a selfie","tgt":"Yuk, selfie!"}
+{"f":"cards","id":"ko.c0527","k":"note","src":"셀카 = selfie. 찍다 = to take (photo).","tgt":"셀카 = selfie (swafoto). 찍다 = memotret."}
+{"f":"cards","id":"ko.c0528","k":"meaning","src":"What are we?","tgt":"Hubungan kita ini apa?"}
+{"f":"cards","id":"ko.c0528","k":"note","src":"사이 = relationship between people. The DTR line.","tgt":"사이 = hubungan antara dua orang. Pertanyaan untuk memperjelas status."}
+{"f":"cards","id":"ko.c0529","k":"meaning","src":"I want to date seriously","tgt":"Aku ingin menjalin hubungan serius"}
+{"f":"cards","id":"ko.c0529","k":"note","src":"진지하다 = serious.","tgt":"진지하다 = serius."}
+{"f":"cards","id":"ko.c0530","k":"meaning","src":"You're really warm-hearted","tgt":"Kamu perhatian sekali"}
+{"f":"cards","id":"ko.c0530","k":"note","src":"다정하다 = affectionate, kind. Compliment beyond looks.","tgt":"다정하다 = penuh kasih, perhatian. Pujian di luar penampilan."}
+{"f":"cards","id":"ko.c0531","k":"meaning","src":"I like your laugh","tgt":"Aku suka suara tawamu"}
+{"f":"cards","id":"ko.c0531","k":"note","src":"웃음소리 = laughing sound.","tgt":"웃음소리 = suara tawa."}
+{"f":"cards","id":"ko.c0532","k":"meaning","src":"I feel comfortable with you","tgt":"Aku nyaman kalau bersamamu"}
+{"f":"cards","id":"ko.c0532","k":"note","src":"편하다 = comfortable. High praise in Korean dating.","tgt":"편하다 = nyaman. Pujian besar dalam pacaran ala Korea."}
+{"f":"cards","id":"ko.c0533","k":"meaning","src":"Sorry, it was my fault","tgt":"Maaf, ya, aku yang salah"}
+{"f":"cards","id":"ko.c0533","k":"note","src":"잘못하다 = to do wrong. Own it.","tgt":"잘못하다 = berbuat salah. Akui saja."}
+{"f":"cards","id":"ko.c0534","k":"meaning","src":"Don't be mad anymore","tgt":"Jangan marah lagi, ya"}
+{"f":"cards","id":"ko.c0534","k":"note","src":"풀다 = to untie / release. 화 풀어 줘 softer.","tgt":"풀다 = melepas ikatan. 화 풀어 줘 lebih lembut."}
+{"f":"cards","id":"ko.c0535","k":"meaning","src":"Don't worry, you have me","tgt":"Jangan khawatir, kan ada aku"}
+{"f":"cards","id":"ko.c0535","k":"note","src":"잖아 = 'you know'. Reassurance.","tgt":"잖아 = 'kan'. Untuk menenangkan."}
+{"f":"cards","id":"ko.c0536","k":"meaning","src":"How was the date today?","tgt":"Gimana kencan kita hari ini?"}
+{"f":"cards","id":"ko.c0536","k":"note","src":"어땠어 = how was it.","tgt":"어땠어 = gimana tadi?"}
+{"f":"cards","id":"ko.c0537","k":"meaning","src":"Let's take a photo together","tgt":"Yuk, foto berdua!"}
+{"f":"cards","id":"ko.c0537","k":"note","src":"Couple photo = 커플 사진.","tgt":"Foto pasangan = 커플 사진."}
+{"f":"cards","id":"ko.c0538","k":"meaning","src":"Happy 100 days","tgt":"Selamat 100 hari"}
+{"f":"cards","id":"ko.c0538","k":"note","src":"Couples celebrate 100 days. Big deal.","tgt":"Pasangan merayakan hari ke-100. Ini acara besar."}
+{"f":"cards","id":"ko.c0539","k":"meaning","src":"Can I hold your hand?","tgt":"Boleh aku pegang tanganmu?"}
+{"f":"cards","id":"ko.c0539","k":"note","src":"잡다 = to hold. 아/어도 돼 = may I.","tgt":"잡다 = memegang. 아/어도 돼 = boleh?"}
+{"f":"cards","id":"ko.c0540","k":"meaning","src":"Hug me","tgt":"Peluk aku"}
+{"f":"cards","id":"ko.c0540","k":"note","src":"안다 = to hug. 안아 줄게 = I'll hug you.","tgt":"안다 = memeluk. 안아 줄게 = sini, aku peluk, ya."}
+{"f":"cards","id":"ko.c0541","k":"meaning","src":"I miss you to death","tgt":"Aku kangen setengah mati"}
+{"f":"cards","id":"ko.c0541","k":"note","src":"죽겠어 = 'I'll die' intensifier. Casual, dramatic.","tgt":"죽겠어 = 'rasanya mau mati', sebagai penguat. Santai dan dramatis."}
+{"f":"cards","id":"ko.c0542","k":"meaning","src":"I have something to tell you","tgt":"Ada yang ingin aku bicarakan denganmu"}
+{"f":"cards","id":"ko.c0542","k":"note","src":"Sets up a serious talk. 한테 = to (person).","tgt":"Pembuka obrolan serius. 한테 = kepada (orang)."}
+{"f":"cards","id":"ko.c0543","k":"meaning","src":"I think we're a good match","tgt":"Sepertinya kita cocok"}
+{"f":"cards","id":"ko.c0543","k":"note","src":"맞다 = to fit / match.","tgt":"맞다 = pas, cocok."}
+{"f":"cards","id":"ko.c0544","k":"meaning","src":"What time is the meeting?","tgt":"Rapatnya jam berapa?"}
+{"f":"cards","id":"ko.c0544","k":"note","src":"회의 = meeting. 회의실 = meeting room.","tgt":"회의 = rapat. 회의실 = ruang rapat."}
+{"f":"cards","id":"ko.c0545","k":"meaning","src":"When is the deadline?","tgt":"Tenggatnya kapan?"}
+{"f":"cards","id":"ko.c0545","k":"note","src":"마감 = deadline. 마감 지켰어요 = I made the deadline.","tgt":"마감 = tenggat (deadline). 마감 지켰어요 = saya berhasil memenuhi tenggat."}
+{"f":"cards","id":"ko.c0546","k":"meaning","src":"I'll check and get back to you","tgt":"Akan saya cek dulu, nanti saya kabari"}
+{"f":"cards","id":"ko.c0546","k":"note","src":"Formal. The email reply you'll send most.","tgt":"Formal. Balasan email yang paling sering akan kamu kirim."}
+{"f":"cards","id":"ko.c0547","k":"meaning","src":"Do you have a moment?","tgt":"Ada waktu sebentar?"}
+{"f":"cards","id":"ko.c0547","k":"note","src":"To a colleague or senior. 잠깐 = briefly.","tgt":"Kepada rekan kerja atau atasan. 잠깐 = sebentar."}
+{"f":"cards","id":"ko.c0548","k":"meaning","src":"Could you help me with this?","tgt":"Bisakah Anda membantu saya dengan ini?"}
+{"f":"cards","id":"ko.c0548","k":"note","src":"도와주시다 honorific + 수 있어요 = could you.","tgt":"도와주시다 bentuk hormat + 수 있어요 = bisakah Anda."}
+{"f":"cards","id":"ko.c0549","k":"meaning","src":"I'll head out first","tgt":"Saya pamit pulang lebih dulu"}
+{"f":"cards","id":"ko.c0549","k":"note","src":"퇴근 = leaving work. Say it to the room, always.","tgt":"퇴근 = pulang kerja. Ucapkan ke seisi ruangan, selalu."}
+{"f":"cards","id":"ko.c0550","k":"meaning","src":"Good work today (formal)","tgt":"Terima kasih atas kerja kerasnya (formal)"}
+{"f":"cards","id":"ko.c0550","k":"note","src":"To seniors when leaving. 수고하세요 to those still working.","tgt":"Kepada atasan saat pulang. 수고하세요 untuk orang yang masih bekerja."}
+{"f":"cards","id":"ko.c0551","k":"meaning","src":"There's a team dinner","tgt":"Ada makan malam tim"}
+{"f":"cards","id":"ko.c0551","k":"note","src":"회식 = company dinner. Attendance is… encouraged.","tgt":"회식 = makan malam kantor. Hadir itu… 'dianjurkan'."}
+{"f":"cards","id":"ko.c0552","k":"meaning","src":"I sent the report","tgt":"Saya sudah kirim laporannya"}
+{"f":"cards","id":"ko.c0552","k":"note","src":"보고서 = report. 보내다 = to send.","tgt":"보고서 = laporan. 보내다 = mengirim."}
+{"f":"cards","id":"ko.c0553","k":"meaning","src":"What should we have for lunch?","tgt":"Kita makan siang apa, ya?"}
+{"f":"cards","id":"ko.c0553","k":"note","src":"The 11:30 question in every office.","tgt":"Pertanyaan jam 11.30 di setiap kantor."}
+{"f":"cards","id":"ko.c0554","k":"meaning","src":"I have to work overtime","tgt":"Saya harus lembur"}
+{"f":"cards","id":"ko.c0554","k":"note","src":"야근 = night work. 아/어야 돼요 = have to.","tgt":"야근 = kerja malam. 아/어야 돼요 = harus."}
+{"f":"cards","id":"ko.c0555","k":"meaning","src":"I applied for leave","tgt":"Saya sudah mengajukan cuti"}
+{"f":"cards","id":"ko.c0555","k":"note","src":"휴가 = vacation. 신청하다 = apply.","tgt":"휴가 = cuti, liburan. 신청하다 = mengajukan."}
+{"f":"cards","id":"ko.c0556","k":"meaning","src":"Did you see my email?","tgt":"Sudahkah Anda membaca email saya?"}
+{"f":"cards","id":"ko.c0556","k":"note","src":"Honorific past 하셨어요.","tgt":"Bentuk hormat lampau: 하셨어요."}
+{"f":"cards","id":"ko.c0557","k":"meaning","src":"Thank you for the feedback","tgt":"Terima kasih atas masukan Anda"}
+{"f":"cards","id":"ko.c0557","k":"note","src":"주셔서 = for giving (honorific).","tgt":"주셔서 = karena (Anda) telah memberi (bentuk hormat)."}
+{"f":"cards","id":"ko.c0558","k":"meaning","src":"I'm presenting next week","tgt":"Saya presentasi minggu depan"}
+{"f":"cards","id":"ko.c0558","k":"note","src":"발표 = presentation.","tgt":"발표 = presentasi."}
+{"f":"cards","id":"ko.c0559","k":"meaning","src":"Looking forward to working with you","tgt":"Mohon kerja samanya","_note":"잘 부탁드립니다 is glossed Mohon bantuannya elsewhere; profile id-ko §3.7 allows Mohon kerja samanya on this work-email card."}
+{"f":"cards","id":"ko.c0559","k":"note","src":"Closes work emails and first meetings.","tgt":"Penutup email kerja dan pertemuan pertama. Di luar kantor: Mohon bantuannya."}
+{"f":"cards","id":"ko.c0560","k":"meaning","src":"How have you been?","tgt":"Apa kabar selama ini?"}
+{"f":"cards","id":"ko.c0560","k":"note","src":"Standard greeting for someone you haven't seen in a while.","tgt":"Salam biasa untuk orang yang sudah lama tidak kamu temui."}
+{"f":"cards","id":"ko.c0561","k":"meaning","src":"I've been well","tgt":"Ya, kabar saya baik"}
+{"f":"cards","id":"ko.c0561","k":"note","src":"Add 덕분에 (thanks to you) to sound extra polite.","tgt":"Tambahkan 덕분에 (berkat kamu) supaya terdengar lebih sopan."}
+{"f":"cards","id":"ko.c0562","k":"meaning","src":"How are things lately?","tgt":"Bagaimana kabarmu belakangan ini?"}
+{"f":"cards","id":"ko.c0562","k":"note","src":"요즘 = these days. 어때요 = how is it.","tgt":"요즘 = belakangan ini. 어때요 = bagaimana."}
+{"f":"cards","id":"ko.c0563","k":"meaning","src":"So-so","tgt":"Biasa saja"}
+{"f":"cards","id":"ko.c0563","k":"note","src":"Lit. 'it's just like that'. Very common honest answer.","tgt":"Harfiah: 'ya begitu saja'. Jawaban jujur yang sangat umum."}
+{"f":"cards","id":"ko.c0564","k":"meaning","src":"Nice weather, isn't it","tgt":"Cuacanya bagus, ya"}
+{"f":"cards","id":"ko.c0564","k":"note","src":"네요 ending = noticing something out loud. 날씨가 춥네요 = it's cold, huh.","tgt":"Akhiran 네요 = mengomentari sesuatu yang baru disadari. 날씨가 춥네요 = dingin, ya."}
+{"f":"cards","id":"ko.c0565","k":"meaning","src":"What are you doing this weekend?","tgt":"Apa rencanamu akhir pekan ini?"}
+{"f":"cards","id":"ko.c0565","k":"note","src":"주말 = weekend, 에 = on.","tgt":"주말 = akhir pekan, 에 = pada."}
+{"f":"cards","id":"ko.c0566","k":"meaning","src":"Me too","tgt":"Saya juga"}
+{"f":"cards","id":"ko.c0566","k":"note","src":"Casual: 나도.","tgt":"Santai: 나도."}
+{"f":"cards","id":"ko.c0567","k":"meaning","src":"Really?","tgt":"Sungguh?"}
+{"f":"cards","id":"ko.c0567","k":"note","src":"Softer than 진짜요?. Both fine.","tgt":"Lebih lembut daripada 진짜요?. Keduanya boleh."}
+{"f":"cards","id":"ko.c0568","k":"meaning","src":"See you again","tgt":"Sampai jumpa lagi"}
+{"f":"cards","id":"ko.c0568","k":"note","src":"또 = again. 내일 봐요 = see you tomorrow.","tgt":"또 = lagi. 내일 봐요 = sampai jumpa besok."}
+{"f":"cards","id":"ko.c0569","k":"meaning","src":"Goodbye (to someone leaving)","tgt":"Selamat jalan (kepada yang pergi)"}
+{"f":"cards","id":"ko.c0569","k":"note","src":"가세요 = go well. Say it when THEY are leaving.","tgt":"Harfiah 'pergilah dengan tenang' (가세요 = pergi, bentuk hormat). Ucapkan saat DIA yang pergi."}
+{"f":"cards","id":"ko.c0570","k":"meaning","src":"Goodbye (to someone staying)","tgt":"Selamat tinggal (kepada yang tinggal)"}
+{"f":"cards","id":"ko.c0570","k":"note","src":"계세요 = stay well. Say it when YOU are leaving.","tgt":"Harfiah 'tinggallah dengan tenang' (계세요 = tinggal, bentuk hormat). Ucapkan saat KAMU yang pergi."}
+{"f":"cards","id":"ko.c0571","k":"meaning","src":"I'll be in touch","tgt":"Nanti saya hubungi, ya"}
+{"f":"cards","id":"ko.c0571","k":"note","src":"ㄹ게요 = I'll (promise). 연락 = contact.","tgt":"ㄹ게요 = janji: 'nanti saya …, ya'. 연락 = kabar, kontak."}
+{"f":"cards","id":"ko.c0572","k":"meaning","src":"water","tgt":"air"}
+{"f":"cards","id":"ko.c0572","k":"note","src":"물 주세요 = water, please.","tgt":"물 주세요 = minta air."}
+{"f":"cards","id":"ko.c0573","k":"meaning","src":"rice / a meal","tgt":"nasi / makan"}
+{"f":"cards","id":"ko.c0573","k":"note","src":"밥 먹자 = let's eat.","tgt":"밥 먹자 = yuk, makan!"}
+{"f":"cards","id":"ko.c0574","k":"meaning","src":"meat","tgt":"daging"}
+{"f":"cards","id":"ko.c0574","k":"note","src":"소고기 beef, 돼지고기 pork, 닭고기 chicken.","tgt":"소고기 sapi, 돼지고기 babi, 닭고기 ayam."}
+{"f":"cards","id":"ko.c0575","k":"meaning","src":"Menu, please","tgt":"Minta menunya"}
+{"f":"cards","id":"ko.c0575","k":"note","src":"Or just raise a hand and say 저기요 (excuse me).","tgt":"Atau angkat tangan dan bilang 저기요 (permisi)."}
+{"f":"cards","id":"ko.c0576","k":"meaning","src":"Not spicy, please","tgt":"Tolong dibuat tidak pedas"}
+{"f":"cards","id":"ko.c0576","k":"note","src":"맵다 = spicy. 안 매워요? = is it not spicy?","tgt":"맵다 = pedas. 안 매워요? = tidak pedas?"}
+{"f":"cards","id":"ko.c0577","k":"meaning","src":"It's delicious","tgt":"Enak"}
+{"f":"cards","id":"ko.c0577","k":"note","src":"Say it to the owner on the way out.","tgt":"Ucapkan ke pemilik saat kamu keluar."}
+{"f":"cards","id":"ko.c0578","k":"meaning","src":"I'm hungry","tgt":"Saya lapar"}
+{"f":"cards","id":"ko.c0578","k":"note","src":"배불러요 (baebulleoyo) = I'm full.","tgt":"배불러요 (baebulleoyo) = saya kenyang."}
+{"f":"cards","id":"ko.c0579","k":"meaning","src":"One coffee","tgt":"Secangkir kopi"}
+{"f":"cards","id":"ko.c0579","k":"note","src":"잔 = cup counter. 두 잔 = two cups.","tgt":"잔 = kata penggolong untuk cangkir atau gelas. 두 잔 = dua cangkir."}
+{"f":"cards","id":"ko.c0580","k":"meaning","src":"Check, please","tgt":"Tolong dihitung"}
+{"f":"cards","id":"ko.c0580","k":"note","src":"You usually pay at the counter.","tgt":"Biasanya kamu membayar di kasir."}
+{"f":"cards","id":"ko.c0581","k":"meaning","src":"To go, please","tgt":"Tolong dibungkus"}
+{"f":"cards","id":"ko.c0581","k":"note","src":"포장 = packaging.","tgt":"포장 = kemasan, bungkus."}
+{"f":"cards","id":"ko.c0582","k":"meaning","src":"Cheers!","tgt":"Bersulang!"}
+{"f":"cards","id":"ko.c0582","k":"note","src":"Clink glasses; pour for others, not yourself.","tgt":"Benturkan gelas; tuangkan untuk orang lain, bukan untuk diri sendiri."}
+{"f":"cards","id":"ko.c0583","k":"meaning","src":"(Said after eating)","tgt":"Terima kasih, makanannya enak (setelah makan)"}
+{"f":"cards","id":"ko.c0583","k":"note","src":"Lit. 'I ate well.' Pairs with 잘 먹겠습니다.","tgt":"Harfiah: 'Saya sudah makan dengan baik.' Pasangan dari 잘 먹겠습니다."}
+{"f":"cards","id":"ko.c0584","k":"meaning","src":"here / over there","tgt":"sini / sana"}
+{"f":"cards","id":"ko.c0584","k":"note","src":"거기 (geogi) = there (near you).","tgt":"거기 (geogi) = situ (dekat lawan bicara)."}
+{"f":"cards","id":"ko.c0585","k":"meaning","src":"left","tgt":"kiri"}
+{"f":"cards","id":"ko.c0585","k":"note","src":"왼쪽으로 가세요 = go left.","tgt":"왼쪽으로 가세요 = ke kiri saja."}
+{"f":"cards","id":"ko.c0586","k":"meaning","src":"right","tgt":"kanan"}
+{"f":"cards","id":"ko.c0586","k":"note","src":"오른쪽으로 = to the right.","tgt":"오른쪽으로 = ke kanan."}
+{"f":"cards","id":"ko.c0587","k":"meaning","src":"Go straight","tgt":"Jalan lurus saja"}
+{"f":"cards","id":"ko.c0587","k":"note","src":"쭉 가세요 also works.","tgt":"쭉 가세요 juga bisa."}
+{"f":"cards","id":"ko.c0588","k":"meaning","src":"subway station","tgt":"stasiun kereta bawah tanah"}
+{"f":"cards","id":"ko.c0588","k":"note","src":"Seoul Metro is the easiest way around.","tgt":"Seperti MRT: Seoul Metro adalah cara paling mudah untuk berkeliling."}
+{"f":"cards","id":"ko.c0589","k":"meaning","src":"bus stop","tgt":"halte bus"}
+{"f":"cards","id":"ko.c0589","k":"note","src":"정류장 = stop.","tgt":"정류장 = halte, tempat berhenti."}
+{"f":"cards","id":"ko.c0590","k":"meaning","src":"taxi","tgt":"taksi"}
+{"f":"cards","id":"ko.c0590","k":"note","src":"Tell the driver: ~로 가 주세요 (please go to ~).","tgt":"Bilang ke sopir: ~로 가 주세요 (tolong ke ~)."}
+{"f":"cards","id":"ko.c0591","k":"meaning","src":"airport","tgt":"bandara"}
+{"f":"cards","id":"ko.c0591","k":"note","src":"인천공항 = Incheon Airport.","tgt":"인천공항 = Bandara Incheon."}
+{"f":"cards","id":"ko.c0592","k":"meaning","src":"How long does it take?","tgt":"Berapa lama?"}
+{"f":"cards","id":"ko.c0592","k":"note","src":"걸리다 = to take (time).","tgt":"걸리다 = memakan (waktu)."}
+{"f":"cards","id":"ko.c0593","k":"meaning","src":"Please stop here","tgt":"Tolong berhenti di sini"}
+{"f":"cards","id":"ko.c0593","k":"note","src":"Taxi phrase.","tgt":"Kalimat di taksi. Ucapkan lengkap dan sopan, bukan sekadar 'Kiri!'."}
+{"f":"cards","id":"ko.c0594","k":"meaning","src":"T-money card","tgt":"kartu T-money"}
+{"f":"cards","id":"ko.c0594","k":"note","src":"Tap-in transit card. Buy at any convenience store.","tgt":"Kartu transportasi yang di-tap, seperti kartu uang elektronik. Bisa dibeli di minimarket mana pun."}
+{"f":"cards","id":"ko.c0595","k":"meaning","src":"How do I get there?","tgt":"Bagaimana cara ke sana?"}
+{"f":"cards","id":"ko.c0595","k":"note","src":"Add the place + 에: 명동에 어떻게 가요?","tgt":"Tambahkan tempat + 에: 명동에 어떻게 가요?"}
+{"f":"cards","id":"ko.c0596","k":"meaning","src":"today","tgt":"hari ini"}
+{"f":"cards","id":"ko.c0596","k":"note","src":"오늘 뭐 해요? = what are you doing today?","tgt":"오늘 뭐 해요? = hari ini ada rencana apa?"}
+{"f":"cards","id":"ko.c0597","k":"meaning","src":"tomorrow","tgt":"besok"}
+{"f":"cards","id":"ko.c0597","k":"note","src":"내일 봐요 = see you tomorrow.","tgt":"내일 봐요 = sampai jumpa besok."}
+{"f":"cards","id":"ko.c0598","k":"meaning","src":"yesterday","tgt":"kemarin"}
+{"f":"cards","id":"ko.c0598","k":"note","src":"어제 뭐 했어요? = what did you do yesterday?","tgt":"어제 뭐 했어요? = apa yang kamu lakukan kemarin?"}
+{"f":"cards","id":"ko.c0599","k":"meaning","src":"now","tgt":"sekarang"}
+{"f":"cards","id":"ko.c0599","k":"note","src":"지금 몇 시예요? = what time is it now?","tgt":"지금 몇 시예요? = sekarang jam berapa?"}
+{"f":"cards","id":"ko.c0600","k":"meaning","src":"morning / lunchtime / evening","tgt":"pagi / siang / malam"}
+{"f":"cards","id":"ko.c0600","k":"note","src":"Also mean breakfast / lunch / dinner.","tgt":"Juga berarti sarapan / makan siang / makan malam."}
+{"f":"cards","id":"ko.c0601","k":"meaning","src":"Monday","tgt":"Senin"}
+{"f":"cards","id":"ko.c0601","k":"note","src":"요일 = day of the week.","tgt":"요일 = hari (dalam seminggu)."}
+{"f":"cards","id":"ko.c0602","k":"meaning","src":"Friday","tgt":"Jumat"}
+{"f":"cards","id":"ko.c0602","k":"note","src":"불금 = 'burning Friday', Friday night out.","tgt":"불금 = 'Jumat membara', Jumat malam untuk bersenang-senang."}
+{"f":"cards","id":"ko.c0603","k":"meaning","src":"Saturday / Sunday","tgt":"Sabtu / Minggu"}
+{"f":"cards","id":"ko.c0603","k":"note","src":"주말 (jumal) = weekend.","tgt":"주말 (jumal) = akhir pekan."}
+{"f":"cards","id":"ko.c0604","k":"meaning","src":"What time is it?","tgt":"Jam berapa?"}
+{"f":"cards","id":"ko.c0604","k":"note","src":"몇 = how many; 시 = o'clock.","tgt":"몇 = berapa; 시 = jam (pukul)."}
+{"f":"cards","id":"ko.c0605","k":"meaning","src":"when","tgt":"kapan"}
+{"f":"cards","id":"ko.c0605","k":"note","src":"언제 와요? = when are you coming?","tgt":"언제 와요? = kapan kamu datang?"}
+{"f":"cards","id":"ko.c0606","k":"meaning","src":"every day","tgt":"setiap hari"}
+{"f":"cards","id":"ko.c0606","k":"note","src":"매일 공부해요 = I study every day.","tgt":"매일 공부해요 = saya belajar setiap hari."}
+{"f":"cards","id":"ko.c0607","k":"meaning","src":"Do you have time?","tgt":"Ada waktu?"}
+{"f":"cards","id":"ko.c0607","k":"note","src":"Low-key way to ask someone out.","tgt":"Cara halus untuk mengajak seseorang kencan."}
+{"f":"cards","id":"ko.c0608","k":"meaning","src":"mom / dad","tgt":"mama / papa"}
+{"f":"cards","id":"ko.c0608","k":"note","src":"어머니 / 아버지 = formal versions.","tgt":"어머니 / 아버지 = versi yang lebih formal."}
+{"f":"cards","id":"ko.c0609","k":"meaning","src":"older brother","tgt":"kakak laki-laki"}
+{"f":"cards","id":"ko.c0609","k":"note","src":"형 if you're male, 오빠 if you're female. Also used for older male friends.","tgt":"형 kalau kamu laki-laki, 오빠 kalau kamu perempuan. Juga dipakai untuk teman laki-laki yang lebih tua."}
+{"f":"cards","id":"ko.c0610","k":"meaning","src":"older sister","tgt":"kakak perempuan"}
+{"f":"cards","id":"ko.c0610","k":"note","src":"누나 if you're male, 언니 if you're female.","tgt":"누나 kalau kamu laki-laki, 언니 kalau kamu perempuan."}
+{"f":"cards","id":"ko.c0611","k":"meaning","src":"younger sibling","tgt":"adik"}
+{"f":"cards","id":"ko.c0611","k":"note","src":"남동생 = younger brother, 여동생 = younger sister.","tgt":"남동생 = adik laki-laki, 여동생 = adik perempuan."}
+{"f":"cards","id":"ko.c0612","k":"meaning","src":"grandma / grandpa","tgt":"nenek / kakek"}
+{"f":"cards","id":"ko.c0612","k":"note","src":"Also polite for any elderly person.","tgt":"Juga sapaan sopan untuk orang lanjut usia mana pun."}
+{"f":"cards","id":"ko.c0613","k":"meaning","src":"family","tgt":"keluarga"}
+{"f":"cards","id":"ko.c0613","k":"note","src":"가족이 몇 명이에요? = how many in your family?","tgt":"가족이 몇 명이에요? = keluargamu berapa orang?"}
+{"f":"cards","id":"ko.c0614","k":"meaning","src":"friend","tgt":"teman"}
+{"f":"cards","id":"ko.c0614","k":"note","src":"Technically same-age friend only.","tgt":"Sebenarnya hanya untuk teman yang seumur."}
+{"f":"cards","id":"ko.c0615","k":"meaning","src":"teacher","tgt":"guru"}
+{"f":"cards","id":"ko.c0615","k":"note","src":"Also a respectful 'sir/ma'am'.","tgt":"Juga sapaan hormat, seperti 'Pak' atau 'Bu'."}
+{"f":"cards","id":"ko.c0616","k":"meaning","src":"man / woman","tgt":"laki-laki / perempuan"}
+{"f":"cards","id":"ko.c0616","k":"note","src":"남자친구 = boyfriend, 여자친구 = girlfriend.","tgt":"남자친구 = pacar (laki-laki), 여자친구 = pacar (perempuan)."}
+{"f":"cards","id":"ko.c0617","k":"meaning","src":"person","tgt":"orang"}
+{"f":"cards","id":"ko.c0617","k":"note","src":"한국 사람 = Korean person. 미국 사람 = American.","tgt":"한국 사람 = orang Korea. 미국 사람 = orang Amerika."}
+{"f":"cards","id":"ko.c0618","k":"meaning","src":"good / I like it","tgt":"bagus / saya suka"}
+{"f":"cards","id":"ko.c0618","k":"note","src":"안 좋아요 = not good.","tgt":"안 좋아요 = tidak bagus."}
+{"f":"cards","id":"ko.c0619","k":"meaning","src":"bad","tgt":"buruk"}
+{"f":"cards","id":"ko.c0619","k":"note","src":"기분이 나빠요 = I feel bad.","tgt":"기분이 나빠요 = suasana hati saya buruk."}
+{"f":"cards","id":"ko.c0620","k":"meaning","src":"big","tgt":"besar"}
+{"f":"cards","id":"ko.c0620","k":"note","src":"크다 → 커요.","tgt":"크다 → 커요.","pre":1}
+{"f":"cards","id":"ko.c0621","k":"meaning","src":"small","tgt":"kecil"}
+{"f":"cards","id":"ko.c0621","k":"note","src":"작다 → 작아요.","tgt":"작다 → 작아요.","pre":1}
+{"f":"cards","id":"ko.c0622","k":"meaning","src":"many / a lot","tgt":"banyak"}
+{"f":"cards","id":"ko.c0622","k":"note","src":"사람이 많아요 = lots of people.","tgt":"사람이 많아요 = orangnya banyak sekali."}
+{"f":"cards","id":"ko.c0623","k":"meaning","src":"expensive","tgt":"mahal"}
+{"f":"cards","id":"ko.c0623","k":"note","src":"너무 비싸요 = too expensive.","tgt":"너무 비싸요 = terlalu mahal."}
+{"f":"cards","id":"ko.c0624","k":"meaning","src":"cheap","tgt":"murah"}
+{"f":"cards","id":"ko.c0624","k":"note","src":"싸고 좋아요 = cheap and good.","tgt":"싸고 좋아요 = murah dan bagus."}
+{"f":"cards","id":"ko.c0625","k":"meaning","src":"hot (weather)","tgt":"panas (cuaca)"}
+{"f":"cards","id":"ko.c0625","k":"note","src":"뜨거워요 = hot (to touch).","tgt":"뜨거워요 = panas (saat disentuh)."}
+{"f":"cards","id":"ko.c0626","k":"meaning","src":"cold (weather)","tgt":"dingin (cuaca)"}
+{"f":"cards","id":"ko.c0626","k":"note","src":"차가워요 = cold (to touch).","tgt":"차가워요 = dingin (saat disentuh)."}
+{"f":"cards","id":"ko.c0627","k":"meaning","src":"busy","tgt":"sibuk"}
+{"f":"cards","id":"ko.c0627","k":"note","src":"요즘 바빠요 = busy these days.","tgt":"요즘 바빠요 = belakangan ini saya sibuk."}
+{"f":"cards","id":"ko.c0628","k":"meaning","src":"fun / interesting","tgt":"seru / menarik"}
+{"f":"cards","id":"ko.c0628","k":"note","src":"재미없어요 = boring.","tgt":"재미없어요 = membosankan."}
+{"f":"cards","id":"ko.c0629","k":"meaning","src":"hard / exhausting","tgt":"berat / melelahkan"}
+{"f":"cards","id":"ko.c0629","k":"note","src":"Complaint of choice.","tgt":"Keluhan favorit."}
+{"f":"cards","id":"ko.c0630","k":"meaning","src":"Really?","tgt":"Serius?"}
+{"f":"cards","id":"ko.c0630","k":"note","src":"Also 진짜로. 정말? (jeongmal) is slightly softer.","tgt":"Bisa juga 진짜로. 정말? (jeongmal) sedikit lebih lembut."}
+{"f":"cards","id":"ko.c0631","k":"meaning","src":"Awesome / no way","tgt":"Luar biasa! / Masa?"}
+{"f":"cards","id":"ko.c0631","k":"note","src":"Good or bad surprise. 대박 사건 = huge deal.","tgt":"Untuk kejutan baik atau buruk. 대박 사건 = kejadian besar."}
+{"f":"cards","id":"ko.c0632","k":"meaning","src":"OMG / what","tgt":"Hah?! / Astaga"}
+{"f":"cards","id":"ko.c0632","k":"note","src":"Stunned reaction. Mostly texting and casual speech.","tgt":"Reaksi terperangah. Kebanyakan di chat dan obrolan santai."}
+{"f":"cards","id":"ko.c0633","k":"meaning","src":"Oh my / ugh","tgt":"Aduh / Ya ampun"}
+{"f":"cards","id":"ko.c0633","k":"note","src":"Sigh word for any small misfortune.","tgt":"Keluhan untuk kesialan kecil apa pun."}
+{"f":"cards","id":"ko.c0634","k":"meaning","src":"It's okay","tgt":"Nggak apa-apa"}
+{"f":"cards","id":"ko.c0634","k":"note","src":"Casual. Said while clearly not okay.","tgt":"Santai. Sering diucapkan saat jelas-jelas sedang tidak baik-baik saja."}
+{"f":"cards","id":"ko.c0635","k":"meaning","src":"Are you crazy?","tgt":"Kamu gila?"}
+{"f":"cards","id":"ko.c0635","k":"note","src":"Casual, often affectionate.","tgt":"Santai, sering dengan nada sayang."}
+{"f":"cards","id":"ko.c0636","k":"meaning","src":"Don't go","tgt":"Jangan pergi"}
+{"f":"cards","id":"ko.c0636","k":"note","src":"Verb stem + 지 마 = don't.","tgt":"Kata dasar + 지 마 = jangan."}
+{"f":"cards","id":"ko.c0637","k":"meaning","src":"I missed you","tgt":"Aku kangen kamu"}
+{"f":"cards","id":"ko.c0637","k":"note","src":"Past of 보고 싶어.","tgt":"Bentuk lampau dari 보고 싶어."}
+{"f":"cards","id":"ko.c0638","k":"meaning","src":"What do I do / oh no","tgt":"Aduh, gimana ini?"}
+{"f":"cards","id":"ko.c0638","k":"note","src":"Said with hands on face.","tgt":"Diucapkan sambil memegang wajah."}
+{"f":"cards","id":"ko.c0639","k":"meaning","src":"You got this!","tgt":"Semangat!"}
+{"f":"cards","id":"ko.c0639","k":"note","src":"From 'fighting'. Cheer before anything hard.","tgt":"Dari kata Inggris 'fighting'. Seruan dukungan sebelum menghadapi hal yang berat."}
+{"f":"cards","id":"ko.c0640","k":"meaning","src":"Got it / okay","tgt":"Oke, aku paham"}
+{"f":"cards","id":"ko.c0640","k":"note","src":"Polite: 알았어요 or 알겠습니다.","tgt":"Sopan: 알았어요 atau 알겠습니다."}
+{"f":"cards","id":"ko.c0641","k":"meaning","src":"What did you say?","tgt":"Apa katamu?"}
+{"f":"cards","id":"ko.c0641","k":"note","src":"Casual. 네? (ne?) is the polite 'pardon?'","tgt":"Santai. Untuk 'Maaf, apa?' yang sopan, pakai 네? (ne?)."}
+{"f":"dialog","id":"ko.g001","k":"tr","src":"Hello, nice to meet you for the first time. / Hi! Nice to meet you.","tgt":"Halo, salam kenal. / Ya, halo! Senang bertemu dengan Anda."}
+{"f":"dialog","id":"ko.g002","k":"tr","src":"Thank you for helping. / Not at all.","tgt":"Terima kasih atas bantuan Anda. / Ah, bukan apa-apa."}
+{"f":"dialog","id":"ko.g003","k":"tr","src":"Sorry I'm late. / It's fine, I just got here too.","tgt":"Mohon maaf, saya terlambat. / Tidak apa-apa, saya juga baru datang."}
+{"f":"dialog","id":"ko.g004","k":"tr","src":"How much is this? / 12,000 won.","tgt":"Ini berapa? / 12.000 won."}
+{"f":"dialog","id":"ko.g005","k":"tr","src":"Excuse me, where's the bathroom? / Go straight that way.","tgt":"Permisi, toiletnya di mana? / Jalan lurus saja ke arah sana."}
+{"f":"dialog","id":"ko.g006","k":"tr","src":"What can I get you? / This one, to go.","tgt":"Mau pesan apa? / Minta yang ini. Dibungkus, ya."}
+{"f":"dialog","id":"ko.g007","k":"tr","src":"Are you okay? Hurt? / Yes, I'm fine.","tgt":"Tidak apa-apa? Ada yang terluka? / Ya, saya tidak apa-apa."}
+{"f":"dialog","id":"ko.g008","k":"tr","src":"Sorry, please speak slowly. / Ah, sure, I'll slow down.","tgt":"Maaf, tolong bicara pelan-pelan. / Ah, baik. Saya bicara pelan-pelan, ya."}
+{"f":"dialog","id":"ko.g009","k":"tr","src":"Your Korean is good! / No, I'm still not good.","tgt":"Bahasa Korea Anda bagus sekali! / Ah, tidak, saya masih belum lancar."}
+{"f":"dialog","id":"ko.g010","k":"tr","src":"Excuse me, coming through. / Go ahead.","tgt":"Permisi, saya mau lewat. / Ya, silakan."}
+{"f":"dialog","id":"ko.g011","k":"tr","src":"Excuse me! The menu, please. / Yes, one moment.","tgt":"Permisi! Minta menunya, ya. / Ya, sebentar."}
+{"f":"dialog","id":"ko.g012","k":"tr","src":"Excuse me, please help me. / Sure, what do you need?","tgt":"Permisi, tolong bantu saya. / Ya, ada yang bisa dibantu?"}
+{"f":"dialog","id":"ko.g013","k":"tr","src":"Sorry, say that again please. / The subway station is on the left.","tgt":"Maaf, tolong ulangi. / Stasiun kereta bawah tanahnya di sebelah kiri."}
+{"f":"dialog","id":"ko.g014","k":"tr","src":"Can you speak English? / A little. I'll speak slowly.","tgt":"Bisa bahasa Inggris? / Sedikit. Saya bicara pelan-pelan, ya.","rw":"mentions English"}
+{"f":"dialog","id":"ko.g015","k":"tr","src":"What is this? / Tteokbokki. It's a bit spicy.","tgt":"Ini apa? / Tteokbokki. Agak pedas."}
+{"f":"dialog","id":"ko.g016","k":"tr","src":"Do you take cards? / Yes. Insert it here.","tgt":"Bisa pakai kartu? / Ya, bisa. Tolong masukkan di sini."}
+{"f":"dialog","id":"ko.g017","k":"tr","src":"What's the wifi password? / It's on the receipt.","tgt":"Kata sandi wifi-nya apa? / Ada di struk."}
+{"f":"dialog","id":"ko.g018","k":"tr","src":"I'm lost. Where is this? / This is Hongdae. Where are you going?","tgt":"Saya tersesat. Ini di mana? / Ini Hongdae. Mau ke mana?"}
+{"f":"dialog","id":"ko.g019","k":"tr","src":"What's your name? / I'm Kii. What's yours?","tgt":"Siapa namamu? / Saya Kii. Siapa namamu?"}
+{"f":"dialog","id":"ko.g020","k":"tr","src":"Nice to meet you. / Nice to meet you too.","tgt":"Senang bertemu denganmu. / Saya juga senang bertemu."}
+{"f":"dialog","id":"ko.g021","k":"tr","src":"Where are you from? / From the US. Oklahoma.","tgt":"Asalmu dari mana? / Dari Amerika Serikat. Oklahoma."}
+{"f":"dialog","id":"ko.g022","k":"tr","src":"Excuse me, how old are you? / 28. And you?","tgt":"Maaf, boleh tahu umur Anda? / 28. Kalau Anda?"}
+{"f":"dialog","id":"ko.g023","k":"tr","src":"What do you do? / I work at an IT company.","tgt":"Kerja apa? / Saya bekerja di perusahaan IT."}
+{"f":"dialog","id":"ko.g024","k":"tr","src":"Do you study Korean? / Yes, a little every day.","tgt":"Kamu belajar bahasa Korea? / Ya, sedikit-sedikit setiap hari."}
+{"f":"dialog","id":"ko.g025","k":"tr","src":"What's your hobby? / Running and music.","tgt":"Hobimu apa? / Lari dan musik."}
+{"f":"dialog","id":"ko.g026","k":"tr","src":"Long time no see! How've you been? / Good, thanks. You?","tgt":"Lama tidak bertemu! Apa kabar selama ini? / Baik, berkat kamu. Kamu apa kabar selama ini?"}
+{"f":"dialog","id":"ko.g027","k":"tr","src":"How are things lately? / Busy. But fun.","tgt":"Bagaimana kabarmu belakangan ini? / Sibuk. Tapi seru."}
+{"f":"dialog","id":"ko.g028","k":"tr","src":"Nice weather today. / Yes, perfect for a walk.","tgt":"Hari ini cuacanya bagus, ya. / Ya, pas sekali untuk jalan-jalan."}
+{"f":"dialog","id":"ko.g029","k":"tr","src":"What are you doing this weekend? / Going hiking. Want to come?","tgt":"Apa rencanamu akhir pekan ini? / Saya mau mendaki gunung. Mau ikut?"}
+{"f":"dialog","id":"ko.g030","k":"tr","src":"Today was fun. See you again! / Yes, I'll be in touch.","tgt":"Hari ini seru. Sampai jumpa lagi! / Ya, nanti saya hubungi, ya."}
+{"f":"dialog","id":"ko.g031","k":"tr","src":"I'll head out first. Goodbye (stay well). / Bye (go well).","tgt":"Saya pergi duluan, ya. Selamat tinggal. / Ya, selamat jalan."}
+{"f":"dialog","id":"ko.g032","k":"tr","src":"I'm bored. Let's hang out! / Deal! Where should we meet?","tgt":"Aku bosan. Yuk, main! / Siap! Mau bertemu di mana?"}
+{"f":"dialog","id":"ko.g033","k":"tr","src":"Are you free tomorrow? / In the afternoon. Why?","tgt":"Besok ada waktu? / Ada, sore. Kenapa?"}
+{"f":"dialog","id":"ko.g034","k":"tr","src":"I'm going to a café, wanna come? / Sure, let's go.","tgt":"Aku mau ke kafe, mau ikut? / Boleh, yuk!"}
+{"f":"dialog","id":"ko.g035","k":"tr","src":"I'm hungry. Wanna go eat? / Yes! What should we eat?","tgt":"Lapar. Mau pergi makan? / Iya! Kita makan apa?"}
+{"f":"dialog","id":"ko.g036","k":"tr","src":"When should we meet? / How about Saturday?","tgt":"Kita kapan bertemu? / Gimana kalau Sabtu?"}
+{"f":"dialog","id":"ko.g037","k":"tr","src":"Where should we meet? / Let's meet at Gangnam station exit 11.","tgt":"Mau bertemu di mana? / Yuk, bertemu di pintu keluar 11 Stasiun Gangnam."}
+{"f":"dialog","id":"ko.g038","k":"tr","src":"Where are you? Almost here? / Sorry, coming now. 5 minutes!","tgt":"Di mana? Udah dekat? / Maaf, aku jalan sekarang. 5 menit!"}
+{"f":"dialog","id":"ko.g039","k":"tr","src":"Today was really fun. / Me too. Let's hang out again!","tgt":"Hari ini seru sekali. / Aku juga. Yuk, main lagi!"}
+{"f":"dialog","id":"ko.g040","k":"tr","src":"Ready to order? / One iced Americano, please.","tgt":"Sudah siap memesan? / Minta satu iced americano."}
+{"f":"dialog","id":"ko.g041","k":"tr","src":"For here? / No, to go.","tgt":"Untuk di sini? / Tidak, dibungkus."}
+{"f":"dialog","id":"ko.g042","k":"tr","src":"What sizes do you have? / Tall, grande, venti.","tgt":"Ada ukuran apa saja? / Ada tall, grande, venti."}
+{"f":"dialog","id":"ko.g043","k":"tr","src":"Do you have a points card? / No, that's okay.","tgt":"Mau kumpulkan poin? / Tidak, tidak usah.","_note":"괜찮아요 here is a polite refusal ('no, thanks'): Indonesian says Tidak usah, not the fixed Tidak apa-apa."}
+{"f":"dialog","id":"ko.g044","k":"tr","src":"Please heat this up. / Sure, it takes a minute.","tgt":"Tolong panaskan ini. / Baik, perlu satu menit."}
+{"f":"dialog","id":"ko.g045","k":"tr","src":"Do you need a bag? / Yes, one please.","tgt":"Perlu kantong? / Ya, minta satu."}
+{"f":"dialog","id":"ko.g046","k":"tr","src":"Cash or card? / Card.","tgt":"Tunai atau kartu? / Pakai kartu, ya."}
+{"f":"dialog","id":"ko.g047","k":"tr","src":"Where is a pharmacy? / On the first floor of that building.","tgt":"Apotek di mana? / Ada di lantai 1 gedung itu."}
+{"f":"dialog","id":"ko.g048","k":"tr","src":"Where does it hurt? / My head hurts. I have a fever too.","tgt":"Sakitnya di mana? / Kepala saya sakit. Saya juga demam."}
+{"f":"dialog","id":"ko.g049","k":"tr","src":"Do you have painkillers? / Yes, take these after a meal.","tgt":"Ada obat pereda nyeri? / Ada, silakan minum ini sesudah makan."}
+{"f":"dialog","id":"ko.g050","k":"tr","src":"Do you have allergies? / Yes, I'm allergic to peanuts.","tgt":"Ada alergi? / Ya, saya alergi kacang tanah."}
+{"f":"dialog","id":"ko.g051","k":"tr","src":"How many times a day? / Three times, 30 minutes after meals.","tgt":"Sehari diminum berapa kali? / Tiga kali sehari, 30 menit sesudah makan."}
+{"f":"dialog","id":"ko.g052","k":"tr","src":"Package! / Please leave it at the door.","tgt":"Paket! / Ya, tolong taruh di depan pintu."}
+{"f":"dialog","id":"ko.g053","k":"tr","src":"How much is rent? / 500,000 won, maintenance included.","tgt":"Sewa bulanannya berapa? / 500.000 won. Sudah termasuk biaya pengelolaan."}
+{"f":"dialog","id":"ko.g054","k":"tr","src":"Can you dry clean this? / Yes, pick it up tomorrow afternoon.","tgt":"Ini bisa di-dry clean? / Bisa, silakan ambil besok sore."}
+{"f":"dialog","id":"ko.g055","k":"tr","src":"I'm starting work with you today. Please take care of me. / Likewise.","tgt":"Mulai hari ini kita bekerja bersama. Mohon bantuannya. / Ya, saya juga mohon bantuannya."}
+{"f":"dialog","id":"ko.g056","k":"tr","src":"How are things? / So-so. Just busy.","tgt":"Bagaimana kabarmu belakangan ini? / Biasa saja. Sibuk terus."}
+{"f":"dialog","id":"ko.g057","k":"tr","src":"I'm a coffee addict. / Me too! At least three cups a day.","tgt":"Saya kecanduan kopi. / Saya juga! Sehari minimal tiga cangkir."}
+{"f":"dialog","id":"ko.g058","k":"tr","src":"I'm going to Korea next month. / Really? Where to?","tgt":"Bulan depan saya ke Korea. / Sungguh? Ke mana?"}
+{"f":"dialog","id":"ko.g059","k":"tr","src":"I should get going. Goodbye. / Okay, get home safe.","tgt":"Saya pamit dulu, ya. Selamat tinggal. / Ya, hati-hati di jalan."}
+{"f":"dialog","id":"ko.g060","k":"tr","src":"See you next time. / Yes, I'll be in touch!","tgt":"Sampai jumpa lagi lain kali. / Ya, nanti saya hubungi, ya!"}
+{"f":"dialog","id":"ko.g061","k":"tr","src":"Hey, what are you doing? / Watching Netflix at home. Why?","tgt":"Hei, kamu sedang apa? / Nonton Netflix di rumah. Kenapa?"}
+{"f":"dialog","id":"ko.g062","k":"tr","src":"Are you free tonight? / Yeah, after seven.","tgt":"Nanti malam ada waktu? / Iya, setelah jam tujuh."}
+{"f":"dialog","id":"ko.g063","k":"tr","src":"Wanna come over? I'll order chicken. / Deal! I'll bring beer.","tgt":"Mau main ke rumahku? Aku pesan ayam goreng, ya. / Siap! Aku bawa bir, ya."}
+{"f":"dialog","id":"ko.g064","k":"tr","src":"Today was so fun. Let's hang again. / Sure, see you next week!","tgt":"Hari ini seru sekali. Yuk, main lagi! / Oke, sampai jumpa minggu depan!"}
+{"f":"dialog","id":"ko.g065","k":"tr","src":"Can I get your number? / Sure, 010-3322-7788.","tgt":"Boleh minta nomormu? / Iya, 010-3322-7788."}
+{"f":"dialog","id":"ko.g066","k":"tr","src":"Do you have Instagram? / Yes, I'll give you my handle.","tgt":"Punya Instagram? / Ya, nanti saya kasih tahu ID saya, ya."}
+{"f":"dialog","id":"ko.g067","k":"tr","src":"Today was lovely. Shall we meet again? / Sure. This time it's on me.","tgt":"Hari ini menyenangkan. Gimana kalau kita bertemu lagi? / Oke. Kali ini aku yang traktir, ya."}
+{"f":"dialog","id":"ko.g068","k":"tr","src":"It's late. I'll walk you home. / It's fine, I can take the subway.","tgt":"Sudah malam. Aku antar, ya. / Nggak apa-apa, aku naik kereta aja."}
+{"f":"dialog","id":"ko.g069","k":"tr","src":"You look pretty today. / Thanks. I got a haircut.","tgt":"Hari ini kamu cantik, ya. / Terima kasih. Saya potong rambut."}
+{"f":"dialog","id":"ko.g070","k":"tr","src":"You're here! I missed you. / Me too. Did you wait long?","tgt":"Sudah datang? Saya kangen. / Saya juga. Lama menunggu?"}
+{"f":"dialog","id":"ko.g071","k":"tr","src":"Did you get home safe? / Yeah, just got in. Thanks for today.","tgt":"Udah sampai rumah dengan selamat? / Iya, baru sampai. Makasih untuk hari ini."}
+{"f":"dialog","id":"ko.g072","k":"tr","src":"I'm going to sleep. Night! / Okay, sweet dreams.","tgt":"Aku tidur dulu, ya. Selamat tidur! / Iya, mimpi indah, ya."}
+{"f":"dialog","id":"ko.g073","k":"tr","src":"Did you eat? / Not yet. Wanna eat together?","tgt":"Udah makan? / Belum. Mau makan bersama?"}
+{"f":"dialog","id":"ko.g074","k":"tr","src":"What are you up to? / Just lying around. Bored.","tgt":"Kamu sedang apa? / Cuma rebahan. Bosan."}
+{"f":"dialog","id":"ko.g075","k":"tr","src":"Where are you? Almost here? / Sorry, five minutes! Just got off the subway.","tgt":"Di mana? Udah dekat? / Maaf, lima menit lagi! Aku baru turun dari kereta."}
+{"f":"dialog","id":"ko.g076","k":"tr","src":"I think I'll be late. / No worries, take your time. I'll be at the café.","tgt":"Sepertinya aku akan sedikit terlambat. / Nggak apa-apa, pelan-pelan aja. Aku di kafe, ya."}
+{"f":"dialog","id":"ko.g077","k":"tr","src":"Look at this meme lol / That's hilarious lol","tgt":"Lihat meme ini wkwkwk / Aduh, lucu sekali wkwkwk"}
+{"f":"dialog","id":"ko.g078","k":"tr","src":"I made this. / Wow, that's cool! How did you make it?","tgt":"Ini aku yang buat. / Wah, keren! Gimana cara buatnya?"}
+{"f":"dialog","id":"ko.g079","k":"tr","src":"I passed the exam! / Really? Nice job!","tgt":"Aku lulus ujian! / Serius? Hebat!"}
+{"f":"dialog","id":"ko.g080","k":"tr","src":"I worked overtime today… / You worked hard. Get some rest.","tgt":"Hari ini aku lembur… / Pasti capek, ya. Istirahat yang cukup."}
+{"f":"dialog","id":"ko.g081","k":"tr","src":"Wanna grab a drink after work? / Love to! Where?","tgt":"Pulang kerja, mau minum-minum? / Boleh! Di mana?"}
+{"f":"dialog","id":"ko.g082","k":"tr","src":"I'm so nervous about the interview. / You got this! You'll do great.","tgt":"Aku gugup sekali soal wawancara. / Tetap semangat! Kamu pasti berhasil."}
+{"f":"dialog","id":"ko.g083","k":"tr","src":"What are you doing tomorrow? / I'm off tomorrow. Why?","tgt":"Besok ada rencana apa? / Besok saya libur. Kenapa?"}
+{"f":"dialog","id":"ko.g084","k":"tr","src":"What time is it now? / Half past two.","tgt":"Sekarang jam berapa? / Jam setengah tiga."}
+{"f":"dialog","id":"ko.g085","k":"tr","src":"What time is it? / 9:10.","tgt":"Sekarang jam berapa? / Jam sembilan lewat sepuluh."}
+{"f":"dialog","id":"ko.g086","k":"tr","src":"How's the weather in Seoul? / Cold today, and the fine dust is bad.","tgt":"Bagaimana cuaca di Seoul? / Hari ini dingin, dan debu halusnya parah."}
+{"f":"dialog","id":"ko.g087","k":"tr","src":"Is it raining outside? / Yes, take an umbrella.","tgt":"Di luar hujan? / Ya, bawalah payung."}
+{"f":"dialog","id":"ko.g088","k":"tr","src":"You look tired. / Yeah, I couldn't sleep last night.","tgt":"Kamu kelihatan capek. / Ya, semalam saya tidak bisa tidur."}
+{"f":"dialog","id":"ko.g089","k":"tr","src":"I'm bored. / Then shall we watch a movie?","tgt":"Saya bosan. / Kalau begitu, bagaimana kalau kita nonton film?"}
+{"f":"dialog","id":"ko.g090","k":"tr","src":"I won the lottery! / No way! How much?","tgt":"Aku menang lotre! / Luar biasa! Berapa?"}
+{"f":"dialog","id":"ko.g091","k":"tr","src":"I lost my wallet… / Oh no! Did you check with the police?","tgt":"Dompetku hilang… / Aduh, gimana ini! Udah coba ke kantor polisi?"}
+{"f":"dialog","id":"ko.g092","k":"tr","src":"My presentation is tomorrow. / You got this! You can do it.","tgt":"Besok aku presentasi. / Semangat! Kamu pasti bisa."}
+{"f":"dialog","id":"ko.g093","k":"tr","src":"Please eat plenty. / Thank you, I will!","tgt":"Silakan makan yang banyak. / Baik, terima kasih, saya makan, ya!"}
+{"f":"dialog","id":"ko.g094","k":"tr","src":"May I have your name? / I'm Kim Minsu.","tgt":"Boleh tahu nama Anda? / Saya Kim Minsu."}
+{"f":"dialog","id":"ko.g095","k":"tr","src":"Please sit here. / Thank you.","tgt":"Silakan duduk di sini. / Terima kasih."}
+{"f":"dialog","id":"ko.g096","k":"tr","src":"Anyone home? / Yes, come in!","tgt":"Permisi, ada orang di rumah? / Ya, silakan masuk!"}
+{"f":"dialog","id":"ko.g097","k":"tr","src":"Teacher, have you been well? / Yes, thanks to you. Long time no see.","tgt":"Pak/Bu Guru, apa kabar selama ini? / Baik, berkat kamu. Lama tidak bertemu, ya."}
+{"f":"dialog","id":"ko.g098","k":"tr","src":"Would you mind taking a photo? / Of course. One, two, three!","tgt":"Maaf, kalau boleh, bisa tolong fotokan saya? / Ya, tentu. Satu, dua, tiga!"}
+{"f":"dialog","id":"ko.g099","k":"tr","src":"What are we? / Hmm… I like you. Want to go out?","tgt":"Hubungan kita ini apa? / Hmm… aku suka kamu. Mau pacaran?"}
+{"f":"dialog","id":"ko.g100","k":"tr","src":"Why didn't you text yesterday? / Sorry, my fault. Don't be mad.","tgt":"Kenapa kemarin nggak menghubungi aku? / Maaf, ya, aku yang salah. Jangan marah lagi, ya."}
+{"f":"dialog","id":"ko.g101","k":"tr","src":"How is it being with me? / I feel comfortable. That's the best part.","tgt":"Gimana rasanya kalau bersamaku? / Aku nyaman kalau bersamamu. Itu yang paling aku suka."}
+{"f":"dialog","id":"ko.g102","k":"tr","src":"Can I hold your hand? / Yeah… is it because you're cold?","tgt":"Boleh aku pegang tanganmu? / Iya… karena kamu kedinginan?"}
+{"f":"dialog","id":"ko.g103","k":"tr","src":"It's our 100th day today! / Really? Happy 100 days. I got you something.","tgt":"Hari ini 100 hari kita! / Serius? Selamat 100 hari. Aku sudah siapkan hadiah."}
+{"f":"dialog","id":"ko.g104","k":"tr","src":"I have something to tell you. / What is it? Is something wrong?","tgt":"Ada yang ingin aku bicarakan denganmu. / Apa? Ada masalah?"}
+{"f":"dialog","id":"ko.g105","k":"tr","src":"What time is the meeting? / Two. Meeting room B.","tgt":"Rapatnya jam berapa? / Jam dua. Di ruang rapat B."}
+{"f":"dialog","id":"ko.g106","k":"tr","src":"When is the deadline? / Friday, 6 PM.","tgt":"Tenggatnya kapan? / Jumat, jam enam sore."}
+{"f":"dialog","id":"ko.g107","k":"tr","src":"Manager, do you have a moment? / Yes, come in.","tgt":"Pak/Bu Manajer, ada waktu sebentar? / Ya, silakan masuk."}
+{"f":"dialog","id":"ko.g108","k":"tr","src":"I'll head out first. / Okay, good work today.","tgt":"Saya pamit pulang lebih dulu. / Ya, terima kasih atas kerja kerasnya."}
+{"f":"dialog","id":"ko.g109","k":"tr","src":"There's a team dinner today. / What time and where?","tgt":"Hari ini ada makan malam tim. / Jam berapa dan di mana?"}
+{"f":"dialog","id":"ko.g110","k":"tr","src":"What should we have for lunch? / How about kimchi stew?","tgt":"Kita makan siang apa, ya? / Bagaimana kalau sup kimchi?"}
+{"f":"dialog","id":"ko.g111","k":"tr","src":"Ugh, I'm bored. What should I do? / Come out. Let's get chicken.","tgt":"Aduh, bosan. Mau apa, ya? / Keluar sini. Yuk, makan ayam goreng!"}
+{"f":"dialog","id":"ko.g112","k":"tr","src":"I'm so tired today. / Sleep early. See you tomorrow.","tgt":"Hari ini aku capek sekali. / Tidur lebih awal. Sampai besok."}
+{"f":"dialog","id":"ko.g113","k":"tr","src":"Where are you? / On my way. 10 minutes!","tgt":"Di mana? / Aku jalan sekarang. 10 menit!"}
+{"f":"dialog","id":"ko.g114","k":"tr","src":"What's with him? / Dunno. I'm curious too.","tgt":"Dia kenapa? / Nggak tahu. Aku juga penasaran."}
+{"f":"dialog","id":"ko.g115","k":"tr","src":"I saved us seats. / You really are the best.","tgt":"Aku sudah ambilkan tempat duduk. / Memang kamu yang terbaik."}
+{"f":"dialog","id":"ko.g116","k":"tr","src":"Karaoke tonight? / Let's go! My treat.","tgt":"Gimana kalau hari ini karaoke? / Yuk! Aku yang traktir."}
+{"f":"dialog","id":"ko.g117","k":"tr","src":"I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.","tgt":"Sepertinya presentasiku akan berantakan. / Jangan khawatir. Lakukan saja seperti waktu latihan."}
+{"f":"dialog","id":"ko.g118","k":"tr","src":"Finally done. / Nice work. A beer?","tgt":"Akhirnya selesai. / Kerja bagus. Mau minum bir?"}
+{"f":"dialog","id":"ko.g119","k":"tr","src":"How's this? Just bought it. / Cute. It suits you.","tgt":"Ini gimana? Baru beli. / Lucu. Cocok untukmu."}
+{"f":"dialog","id":"ko.g120","k":"tr","src":"I miss you. / Me too. Let's meet this weekend.","tgt":"Aku kangen kamu. / Aku juga. Yuk, bertemu akhir pekan ini."}
+{"f":"dialog","id":"ko.g121","k":"tr","src":"I like you. / …Me too. You should've said sooner.","tgt":"Aku suka kamu. / …Aku juga. Kenapa nggak bilang dari dulu?"}
+{"f":"dialog","id":"ko.g122","k":"tr","src":"Babe, what are you doing? / Thinking about you, obviously.","tgt":"Sayang, kamu sedang apa? / Memikirkan kamu, tentu saja."}
+{"f":"dialog","id":"ko.g123","k":"tr","src":"I'm heading out now. / Get home safe. Text me when you arrive.","tgt":"Aku pulang sekarang, ya. / Hati-hati di jalan. Kabari aku kalau sudah sampai."}
+{"f":"dialog","id":"ko.g124","k":"tr","src":"Sleepy. Going to bed. / Okay, sweet dreams.","tgt":"Aku mengantuk. Aku tidur, ya. / Iya, mimpi indah, ya."}
+{"f":"dialog","id":"ko.g125","k":"tr","src":"Why are you smiling like that? / Your smile just now made my heart skip.","tgt":"Kenapa senyum-senyum begitu? / Lihat kamu senyum barusan, jantungku langsung berdebar."}
+{"f":"dialog","id":"ko.g126","k":"tr","src":"Why'd you text? / No reason. I keep thinking about you.","tgt":"Kenapa menghubungi aku? / Iseng aja. Aku terus teringat kamu."}
+{"f":"dialog","id":"ko.g127","k":"tr","src":"You said you had something to say? / I think I like you.","tgt":"Katanya ada yang mau kamu bilang? / Sepertinya aku suka kamu."}
+{"f":"dialog","id":"ko.g128","k":"tr","src":"What are we? / Let's date.","tgt":"Hubungan kita ini apa? / Yuk, kita pacaran."}
+{"f":"dialog","id":"ko.g129","k":"tr","src":"I passed! / Really? Congrats!","tgt":"Aku lulus! / Serius? Selamat!"}
+{"f":"dialog","id":"ko.g130","k":"tr","src":"I'll go first. / Don't go. Stay a little longer.","tgt":"Aku pulang duluan, ya. / Jangan pergi. Tinggal sebentar lagi."}
+{"f":"dialog","id":"ko.g131","k":"tr","src":"Long time no see. / I missed you. Been well?","tgt":"Lama tidak bertemu. / Aku kangen kamu. Apa kabar selama ini?"}
+{"f":"dialog","id":"ko.g132","k":"tr","src":"Who's your bias? / The main vocalist.","tgt":"Bias-mu siapa? / Kalau saya, main vocal-nya."}
+{"f":"dialog","id":"ko.g133","k":"tr","src":"What are you listening to lately? / I became a fan of this group. Their stage is amazing.","tgt":"Belakangan ini dengar lagu apa? / Saya jadi penggemar grup ini. Penampilan panggung mereka bagus sekali."}
+{"f":"dialog","id":"ko.g134","k":"tr","src":"What are you doing this weekend? / Going to a concert! I even bought a light stick.","tgt":"Apa rencanamu akhir pekan ini? / Saya pergi ke konser! Saya bahkan sudah beli lightstick."}
+{"f":"dialog","id":"ko.g135","k":"tr","src":"I'm a fan! Please sign this. / Sure, thanks. What's your name?","tgt":"Saya penggemar! Tolong tanda tangani ini. / Ya, terima kasih. Siapa namamu?"}
+{"f":"dialog","id":"ko.g136","k":"tr","src":"They're making a comeback this month. / Really? Did you see the teaser?","tgt":"Katanya bulan ini mereka comeback. / Serius? Udah lihat teaser-nya?"}
+{"f":"dialog","id":"ko.g137","k":"tr","src":"How was the concert? / Got goosebumps during the singalong.","tgt":"Gimana konsernya? / Aku merinding waktu semua penonton bernyanyi bersama."}
+{"f":"dialog","id":"ko.g138","k":"tr","src":"Are you on Instagram? / Yes, I just followed you.","tgt":"Main Instagram? / Ya, barusan saya follow kamu."}
+{"f":"dialog","id":"ko.g139","k":"tr","src":"Posted a photo. Hit like for me. / Already did.","tgt":"Aku sudah unggah foto. Tolong klik like, ya. / Udah aku klik dari tadi."}
+{"f":"dialog","id":"ko.g140","k":"tr","src":"Why did nobody laugh at my joke earlier? / It killed the mood…","tgt":"Kenapa tadi nggak ada yang tertawa dengar leluconku? / Suasananya mendadak canggung…"}
+{"f":"dialog","id":"ko.g141","k":"tr","src":"How's the tteokbokki here? / Insanely good. I'm coming back.","tgt":"Gimana tteokbokki di sini? / Luar biasa enak. Aku mau datang lagi."}
+{"f":"dialog","id":"ko.g142","k":"tr","src":"This song is addictive. / For real, been listening all day.","tgt":"Lagu ini membuat ketagihan. / Sungguhan, aku dengar seharian."}
+{"f":"dialog","id":"ko.g143","k":"tr","src":"What should I wear today? / Go effortless. Jeans and a white tee.","tgt":"Hari ini pakai baju apa, ya? / Gaya effortless aja. Jins dan kaus putih."}
+{"f":"dialog","id":"ko.g144","k":"tr","src":"What are you doing this weekend? / Having a meal with family.","tgt":"Apa rencanamu akhir pekan ini? / Makan bersama keluarga."}
+{"f":"dialog","id":"ko.g145","k":"tr","src":"Who did you come with? / With a friend.","tgt":"Datang dengan siapa? / Dengan teman."}
+{"f":"dialog","id":"ko.g146","k":"tr","src":"Who's that? / That's my older brother.","tgt":"Orang itu siapa? / Itu kakak laki-laki saya."}
+{"f":"dialog","id":"ko.g147","k":"tr","src":"Unni, how's this? / It suits you. Buy it.","tgt":"Kak, ini bagaimana? / Cocok untukmu. Beli saja."}
+{"f":"dialog","id":"ko.g148","k":"tr","src":"Do you have siblings? / Yes, one younger sibling.","tgt":"Punya saudara kandung? / Ya, saya punya satu adik."}
+{"f":"dialog","id":"ko.g149","k":"tr","src":"Teacher, I have a question. / Yes, go ahead.","tgt":"Pak/Bu Guru, saya ada pertanyaan. / Ya, silakan."}
+{"f":"examples","id":"ko.e001","k":"tr","src":"A glass of water, please.","tgt":"Minta segelas air."}
+{"f":"examples","id":"ko.e002","k":"tr","src":"Have you eaten?","tgt":"Sudah makan?"}
+{"f":"examples","id":"ko.e003","k":"tr","src":"Do you like meat?","tgt":"Suka daging?"}
+{"f":"examples","id":"ko.e004","k":"tr","src":"This is really delicious.","tgt":"Ini enak sekali."}
+{"f":"examples","id":"ko.e005","k":"tr","src":"I'm hungry. What shall we eat?","tgt":"Saya lapar. Kita makan apa, ya?"}
+{"f":"examples","id":"ko.e006","k":"tr","src":"Okay, cheers!","tgt":"Nah, bersulang!"}
+{"f":"examples","id":"ko.e007","k":"tr","src":"The weather is nice today.","tgt":"Hari ini cuacanya bagus, ya."}
+{"f":"examples","id":"ko.e008","k":"tr","src":"Are you free tomorrow?","tgt":"Besok ada waktu?"}
+{"f":"examples","id":"ko.e009","k":"tr","src":"I went to bed late yesterday.","tgt":"Kemarin saya tidur larut."}
+{"f":"examples","id":"ko.e010","k":"tr","src":"I'm going now!","tgt":"Saya berangkat sekarang!"}
+{"f":"examples","id":"ko.e011","k":"tr","src":"Mondays are always busy.","tgt":"Hari Senin selalu sibuk."}
+{"f":"examples","id":"ko.e012","k":"tr","src":"See you on Friday.","tgt":"Sampai jumpa hari Jumat."}
+{"f":"examples","id":"ko.e013","k":"tr","src":"When did you come to Korea?","tgt":"Kapan kamu datang ke Korea?"}
+{"f":"examples","id":"ko.e014","k":"tr","src":"I exercise every day.","tgt":"Saya olahraga setiap hari."}
+{"f":"examples","id":"ko.e015","k":"tr","src":"It's so hot today.","tgt":"Hari ini panas sekali."}
+{"f":"examples","id":"ko.e016","k":"tr","src":"It's cold outside. Dress warm.","tgt":"Di luar dingin. Pakai baju yang hangat."}
+{"f":"examples","id":"ko.e017","k":"tr","src":"It's raining. Do you have an umbrella?","tgt":"Hujan. Ada payung?"}
+{"f":"examples","id":"ko.e018","k":"tr","src":"Wow, it's snowing!","tgt":"Wah, turun salju!"}
+{"f":"examples","id":"ko.e019","k":"tr","src":"I feel good today.","tgt":"Hari ini suasana hati saya bagus."}
+{"f":"examples","id":"ko.e020","k":"tr","src":"I'm happy because we're together.","tgt":"Saya bahagia karena kita bersama."}
+{"f":"examples","id":"ko.e021","k":"tr","src":"The movie is so sad.","tgt":"Filmnya sedih sekali."}
+{"f":"examples","id":"ko.e022","k":"tr","src":"I'm nervous because of the interview.","tgt":"Saya gugup karena wawancara."}
+{"f":"examples","id":"ko.e023","k":"tr","src":"Why are you angry?","tgt":"Kenapa marah?"}
+{"f":"examples","id":"ko.e024","k":"tr","src":"I'm excited because my trip is tomorrow.","tgt":"Saya tidak sabar karena besok saya berangkat jalan-jalan."}
+{"f":"examples","id":"ko.e025","k":"tr","src":"My mom cooks well.","tgt":"Mama saya pintar memasak."}
+{"f":"examples","id":"ko.e026","k":"tr","src":"Oppa, what is this?","tgt":"Kak, ini apa?"}
+{"f":"examples","id":"ko.e027","k":"tr","src":"Your (older sister's) clothes are pretty.","tgt":"Baju Kakak cantik."}
+{"f":"examples","id":"ko.e028","k":"tr","src":"I have two younger siblings.","tgt":"Saya punya dua adik."}
+{"f":"examples","id":"ko.e029","k":"tr","src":"I'm going to grandma's house.","tgt":"Saya pergi ke rumah nenek."}
+{"f":"examples","id":"ko.e030","k":"tr","src":"I miss my family.","tgt":"Saya kangen keluarga."}
+{"f":"examples","id":"ko.e031","k":"tr","src":"I watched a movie with a friend.","tgt":"Saya menonton film dengan teman."}
+{"f":"examples","id":"ko.e032","k":"tr","src":"Teacher, I have a question.","tgt":"Pak/Bu Guru, saya ada pertanyaan."}
+{"f":"examples","id":"ko.e033","k":"tr","src":"Who is that woman?","tgt":"Perempuan itu siapa?"}
+{"f":"examples","id":"ko.e034","k":"tr","src":"There are many people here.","tgt":"Di sini orangnya banyak."}
+{"f":"examples","id":"ko.e035","k":"tr","src":"One apple, please.","tgt":"Minta satu buah apel."}
+{"f":"examples","id":"ko.e036","k":"tr","src":"Two people.","tgt":"Dua orang."}
+{"f":"examples","id":"ko.e037","k":"tr","src":"Three coffees, please.","tgt":"Minta tiga cangkir kopi."}
+{"f":"examples","id":"ko.e038","k":"tr","src":"I bought four bottles of beer.","tgt":"Saya membeli empat botol bir."}
+{"f":"examples","id":"ko.e039","k":"tr","src":"I have five cats.","tgt":"Saya memelihara lima ekor kucing."}
+{"f":"examples","id":"ko.e040","k":"tr","src":"I read six books.","tgt":"Saya sudah membaca enam buku."}
+{"f":"examples","id":"ko.e041","k":"tr","src":"I have seven tickets.","tgt":"Saya punya tujuh lembar tiket."}
+{"f":"examples","id":"ko.e042","k":"tr","src":"I waited two hours.","tgt":"Saya menunggu dua jam."}
+{"f":"examples","id":"ko.e043","k":"tr","src":"I called three times.","tgt":"Saya menelepon tiga kali."}
+{"f":"examples","id":"ko.e044","k":"tr","src":"I'm in Korea for a month.","tgt":"Saya di Korea selama sebulan."}
+{"f":"examples","id":"ko.e045","k":"tr","src":"I ate. And then I drank coffee.","tgt":"Saya sudah makan. Lalu saya minum kopi."}
+{"f":"examples","id":"ko.e046","k":"tr","src":"I'm tired. So I'll sleep early.","tgt":"Saya capek. Jadi saya akan tidur lebih awal."}
+{"f":"examples","id":"ko.e047","k":"tr","src":"It's tasty. But a bit expensive.","tgt":"Enak. Tapi agak mahal."}
+{"f":"examples","id":"ko.e048","k":"tr","src":"It's hard. But it's fun.","tgt":"Susah. Tetapi seru."}
+{"f":"examples","id":"ko.e049","k":"tr","src":"What did you do after that?","tgt":"Setelah itu, kamu melakukan apa?"}
+{"f":"examples","id":"ko.e050","k":"tr","src":"You go first.","tgt":"Silakan duluan."}
+{"f":"examples","id":"ko.e051","k":"tr","src":"Because I don't have time.","tgt":"Karena saya tidak punya waktu."}
+{"f":"examples","id":"ko.e052","k":"tr","src":"Coffee or tea?","tgt":"Kopi atau teh?"}
+{"f":"examples","id":"ko.e053","k":"tr","src":"Then see you tomorrow.","tgt":"Kalau begitu, sampai jumpa besok."}
+{"f":"examples","id":"ko.e054","k":"tr","src":"Actually, my Korean isn't good.","tgt":"Sebenarnya bahasa Korea saya belum lancar."}
+{"f":"examples","id":"ko.e055","k":"tr","src":"I like this song.","tgt":"Saya suka lagu ini."}
+{"f":"examples","id":"ko.e056","k":"tr","src":"The weather is bad.","tgt":"Cuacanya buruk."}
+{"f":"examples","id":"ko.e057","k":"tr","src":"The house is big.","tgt":"Rumahnya besar."}
+{"f":"examples","id":"ko.e058","k":"tr","src":"The room is small.","tgt":"Kamarnya kecil."}
+{"f":"examples","id":"ko.e059","k":"tr","src":"I have a lot to do.","tgt":"Banyak yang harus saya kerjakan."}
+{"f":"examples","id":"ko.e060","k":"tr","src":"This is too expensive.","tgt":"Ini terlalu mahal."}
+{"f":"examples","id":"ko.e061","k":"tr","src":"It's cheap here.","tgt":"Kalau di sini, murah."}
+{"f":"examples","id":"ko.e062","k":"tr","src":"Are you busy these days?","tgt":"Belakangan ini sibuk?"}
+{"f":"examples","id":"ko.e063","k":"tr","src":"Studying Korean is fun.","tgt":"Belajar bahasa Korea itu seru."}
+{"f":"examples","id":"ko.e064","k":"tr","src":"Today is really tough.","tgt":"Hari ini benar-benar berat."}
+{"f":"examples","id":"ko.e065","k":"tr","src":"Be honest. What are we?","tgt":"Jujur saja. Hubungan kita ini apa?"}
+{"f":"examples","id":"ko.e066","k":"tr","src":"I'm not joking. I want to date you seriously.","tgt":"Aku nggak bercanda. Aku ingin menjalin hubungan serius."}
+{"f":"examples","id":"ko.e067","k":"tr","src":"I'll buy dinner. Stop being mad.","tgt":"Makan malam aku yang traktir, ya. Jangan marah lagi, ya."}
+{"f":"examples","id":"ko.e068","k":"tr","src":"It's already 100 days. Happy 100th!","tgt":"Sudah 100 hari. Selamat 100 hari!"}
+{"f":"examples","id":"ko.e069","k":"tr","src":"Same taste. I think we're a good match.","tgt":"Selera kita sama, ya. Sepertinya kita cocok."}
+{"f":"examples","id":"ko.e070","k":"tr","src":"What time is tomorrow's meeting? It's not on the calendar.","tgt":"Rapat besok jam berapa? Tidak ada di kalender."}
+{"f":"examples","id":"ko.e071","k":"tr","src":"When is this report due?","tgt":"Tenggat laporan ini kapan?"}
+{"f":"examples","id":"ko.e072","k":"tr","src":"Manager, do you have a moment?","tgt":"Pak/Bu Manajer, ada waktu sebentar?"}
+{"f":"examples","id":"ko.e073","k":"tr","src":"I'll head out first.","tgt":"Saya pamit pulang lebih dulu."}
+{"f":"examples","id":"ko.e074","k":"tr","src":"I have to work late today. Next time for the team dinner.","tgt":"Hari ini saya harus lembur. Makan malam timnya lain kali saja."}
+{"f":"patterns","id":"ko.p001","k":"meaning","src":"topic marker: 'as for…'; contrast, general statements","tgt":"penanda topik: 'kalau…'; kontras, pernyataan umum"}
+{"f":"patterns","id":"ko.p002","k":"meaning","src":"subject marker: who/what specifically; new information","tgt":"penanda subjek: 'yang…', siapa atau apa tepatnya; informasi baru"}
+{"f":"patterns","id":"ko.p003","k":"meaning","src":"object marker","tgt":"penanda objek"}
+{"f":"patterns","id":"ko.p004","k":"meaning","src":"to / at (destination, time)","tgt":"ke (tujuan), pada (waktu), di (dengan ada / tidak ada)"}
+{"f":"patterns","id":"ko.p005","k":"meaning","src":"at (where an action happens) / from","tgt":"di (tempat kegiatan) / dari"}
+{"f":"patterns","id":"ko.p006","k":"meaning","src":"also / too (replaces 은/는/이/가/을/를)","tgt":"juga (menggantikan 은/는/이/가/을/를)"}
+{"f":"patterns","id":"ko.p007","k":"meaning","src":"possessive; often pronounced 에","tgt":"penanda milik; sering dibaca 에"}
+{"f":"patterns","id":"ko.p008","k":"meaning","src":"and / with","tgt":"dan / dengan"}
+{"f":"patterns","id":"ko.p009","k":"meaning","src":"only","tgt":"hanya, saja"}
+{"f":"patterns","id":"ko.p010","k":"meaning","src":"toward / by means of","tgt":"ke arah / dengan (alat, sarana)"}
+{"f":"patterns","id":"ko.p011","k":"meaning","src":"polite present (ㅏ/ㅗ stems → 아요, others → 어요, 하다 → 해요)","tgt":"bentuk sekarang sopan (kata dasar ㅏ/ㅗ → 아요, lainnya → 어요, 하다 → 해요)"}
+{"f":"patterns","id":"ko.p012","k":"meaning","src":"polite past","tgt":"bentuk lampau sopan"}
+{"f":"patterns","id":"ko.p013","k":"meaning","src":"future / intention","tgt":"bentuk masa depan / niat"}
+{"f":"patterns","id":"ko.p014","k":"meaning","src":"don't / not (choice)","tgt":"tidak (karena memilih)"}
+{"f":"patterns","id":"ko.p015","k":"meaning","src":"can't (ability, circumstance)","tgt":"tidak bisa (kemampuan, keadaan)"}
+{"f":"patterns","id":"ko.p016","k":"meaning","src":"don't (slightly formal 안)","tgt":"tidak (안 yang sedikit lebih formal)"}
+{"f":"patterns","id":"ko.p017","k":"meaning","src":"can / cannot","tgt":"bisa / tidak bisa"}
+{"f":"patterns","id":"ko.p018","k":"meaning","src":"shall we…? (suggestion)","tgt":"bagaimana kalau kita…? (ajakan)"}
+{"f":"patterns","id":"ko.p019","k":"meaning","src":"do you want to…?","tgt":"mau…? (menawarkan)"}
+{"f":"patterns","id":"ko.p020","k":"meaning","src":"let's (casual)","tgt":"yuk, …! (santai)"}
+{"f":"patterns","id":"ko.p021","k":"meaning","src":"I will (promise, speaker's intent)","tgt":"…, ya (janji, niat pembicara)"}
+{"f":"patterns","id":"ko.p022","k":"meaning","src":"polite request / honorific present","tgt":"silakan (permintaan sopan) / bentuk hormat sekarang"}
+{"f":"patterns","id":"ko.p023","k":"meaning","src":"please do (for me)","tgt":"tolong … (untuk saya)"}
+{"f":"patterns","id":"ko.p024","k":"meaning","src":"don't (command)","tgt":"jangan (perintah)"}
+{"f":"patterns","id":"ko.p025","k":"meaning","src":"noticing / mild surprise","tgt":"menyadari sesuatu / sedikit kaget: '…, ya'"}
+{"f":"patterns","id":"ko.p026","k":"meaning","src":"soft contrast, background info","tgt":"kontras halus, info latar"}
+{"f":"patterns","id":"ko.p027","k":"meaning","src":"is (after consonant / after vowel)","tgt":"A = B, seperti 'adalah' yang biasanya tidak diucapkan (setelah konsonan / setelah vokal)"}
+{"f":"patterns","id":"ko.p028","k":"meaning","src":"there is, have / there isn't","tgt":"ada, punya / tidak ada"}
+{"f":"patterns","id":"ko.p029","k":"meaning","src":"go in order to","tgt":"pergi untuk (melakukan sesuatu)"}
+{"f":"patterns","id":"ko.p030","k":"meaning","src":"want to","tgt":"ingin (+ kata kerja)"}
+{"f":"patterns","id":"ko.p031","k":"meaning","src":"I think / it seems","tgt":"sepertinya / rasanya"}
+{"f":"patterns","id":"ko.p032","k":"meaning","src":"if / when","tgt":"kalau / jika"}
+{"f":"patterns","id":"ko.p033","k":"meaning","src":"things, people, cups, age, hours","tgt":"barang, orang, cangkir, umur, jam"}
+{"f":"patterns","id":"ko.p034","k":"meaning","src":"money, dates, minutes, phone, floors","tgt":"uang, tanggal, menit, telepon, lantai"}
+{"f":"patterns","id":"ko.p035","k":"meaning","src":"and then / so / but","tgt":"dan / jadi / tapi"}
+{"f":"patterns","id":"ko.p036","k":"meaning","src":"address forms: polite name, title, casual call","tgt":"sapaan: nama (sopan), jabatan, panggilan santai"}
+{"f":"patterns","id":"ko.p037","k":"meaning","src":"honorific: raises the subject (elders, customers)","tgt":"bentuk hormat: meninggikan subjek (orang yang lebih tua, pelanggan)"}
+{"f":"patterns","id":"ko.p038","k":"meaning","src":"honorific replacements for 먹다·마시다 / 자다 / 있다","tgt":"kata kerja hormat pengganti 먹다·마시다 / 자다 / 있다"}
+{"f":"patterns","id":"ko.p039","k":"meaning","src":"softener: 'a bit' / 'please'","tgt":"pelunak: 'sedikit' / '…, ya'"}
+{"f":"patterns","id":"ko.p040","k":"meaning","src":"'by any chance' — opens a polite question","tgt":"'kebetulan' — pembuka pertanyaan yang sopan"}
+{"f":"patterns","id":"ko.p041","k":"meaning","src":"'would you mind…?' (very polite request)","tgt":"'bisa tolong…?' (permintaan sangat sopan)"}
+{"f":"patterns","id":"ko.p042","k":"meaning","src":"'would it be okay if…?' (permission)","tgt":"'apa tidak boleh kalau…?' (minta izin)"}
+{"f":"patterns","id":"ko.p043","k":"meaning","src":"'may I…?'","tgt":"'boleh saya…?'"}
+{"f":"patterns","id":"ko.p044","k":"meaning","src":"address colleagues by title, never bare name","tgt":"panggil rekan kerja dengan jabatannya, jangan dengan nama saja"}
+{"f":"patterns","id":"ko.p045","k":"meaning","src":"work sign-offs: to those staying / to seniors after work","tgt":"salam di kantor: untuk yang masih bekerja / untuk atasan setelah jam kerja"}
+{"f":"patterns","id":"ko.p046","k":"meaning","src":"email opener: 'the reason I'm writing is…'","tgt":"pembuka email: 'saya menghubungi Anda karena…'"}
+{"f":"patterns","id":"ko.p047","k":"meaning","src":"polite request closer (humble)","tgt":"penutup permintaan yang sopan (merendah), seperti 'mohon…'"}
+{"f":"lessons","id":"hangul","k":"title","src":"1 · Hangul in one sitting","tgt":"1 · Hangul dalam sekali duduk"}
+{"f":"lessons","id":"hangul","k":"blurb","src":"The alphabet: 14 consonants, 10 vowels, how blocks stack.","tgt":"Alfabetnya: 14 konsonan, 10 vokal, dan cara blok disusun."}
+{"f":"sentences","id":"ko.s0001","k":"gloss","src":"ㄴ + ㅏ side by side","tgt":"ㄴ + ㅏ berdampingan"}
+{"f":"sentences","id":"ko.s0002","k":"gloss","src":"ㄴ + ㅗ stacked","tgt":"ㄴ + ㅗ bertumpuk"}
+{"f":"sentences","id":"ko.s0003","k":"gloss","src":"ㅎ + ㅏ + ㄴ final","tgt":"ㅎ + ㅏ + ㄴ di akhir"}
+{"f":"sentences","id":"ko.s0004","k":"gloss","src":"ㅅ+ㅓ, ㅇ(silent)+ㅜ+ㄹ","tgt":"ㅅ+ㅓ, ㅇ(tidak berbunyi)+ㅜ+ㄹ"}
+{"f":"checks","id":"hangul.k1","k":"q","src":"Which vowel is the horizontal 'u' (oo) sound?","tgt":"Vokal mendatar mana yang berbunyi u, dengan bibir dibulatkan penuh?","rw":"English-spelling sound hint in brackets"}
+{"f":"checks","id":"hangul.k1","k":"why","src":"ㅜ: horizontal stick, tick down = u.","tgt":"ㅜ: garis mendatar, coretan ke bawah = u."}
+{"f":"checks","id":"hangul.k2","k":"q","src":"What does ㅇ sound like at the START of a block?","tgt":"Bagaimana bunyi ㅇ di AWAL blok?","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"checks","id":"hangul.k2","k":"o[0]","src":"Silent","tgt":"Tidak berbunyi"}
+{"f":"checks","id":"hangul.k2","k":"o[1]","src":"ng","tgt":"ng"}
+{"f":"checks","id":"hangul.k2","k":"o[2]","src":"h","tgt":"h"}
+{"f":"checks","id":"hangul.k2","k":"o[3]","src":"g","tgt":"g"}
+{"f":"checks","id":"hangul.k2","k":"why","src":"Initial ㅇ is a placeholder; final ㅇ is ng.","tgt":"ㅇ di awal hanya pengisi tempat; ㅇ di akhir dibaca ng."}
+{"f":"checks","id":"hangul.k3","k":"q","src":"Which block is 'han'?","tgt":"Blok mana yang dibaca 'han'?"}
+{"f":"checks","id":"hangul.k3","k":"why","src":"ㅎ + ㅏ + ㄴ (final) = 한.","tgt":"ㅎ + ㅏ + ㄴ (di akhir) = 한."}
+{"f":"practice","id":"hangul.01","k":"q","src":"Which letter is the 'a' sound, as in father?","tgt":"Huruf mana yang berbunyi \"a\", seperti a pada \"apa\"?","rw":"English sound comparison (\"as in …\")"}
+{"f":"practice","id":"hangul.01","k":"why","src":"ㅏ: vertical stick, tick to the right.","tgt":"ㅏ: garis tegak, coretan ke kanan."}
+{"f":"practice","id":"hangul.02","k":"q","src":"Which letter is silent at the start of a block?","tgt":"Huruf mana yang tidak berbunyi di awal blok?"}
+{"f":"practice","id":"hangul.02","k":"why","src":"Initial ㅇ only holds the vowel's place; at the end it is ng.","tgt":"ㅇ di awal hanya menjaga tempat vokal; di akhir dibaca ng."}
+{"f":"practice","id":"hangul.03","k":"q","src":"Which block reads 'no'?","tgt":"Blok mana yang dibaca 'no'?"}
+{"f":"practice","id":"hangul.03","k":"why","src":"ㄴ + ㅗ, with the horizontal vowel stacked below.","tgt":"ㄴ + ㅗ, vokal mendatar ditumpuk di bawah."}
+{"f":"practice","id":"hangul.04","k":"q","src":"Which block reads 'gang'?","tgt":"Blok mana yang dibaca 'gang'?"}
+{"f":"practice","id":"hangul.04","k":"why","src":"ㄱ + ㅏ + final ㅇ (ng).","tgt":"ㄱ + ㅏ + ㅇ akhir (ng)."}
+{"f":"practice","id":"hangul.05","k":"q","src":"Which word reads 'seoul'?","tgt":"Kata mana yang dibaca 'seoul'?"}
+{"f":"practice","id":"hangul.05","k":"why","src":"ㅅ+ㅓ = seo, silent ㅇ+ㅜ+ㄹ = ul.","tgt":"ㅅ+ㅓ = seo (satu vokal), ㅇ tidak berbunyi+ㅜ+ㄹ = ul."}
+{"f":"practice","id":"hangul.06","k":"p","src":"Seoul (seo-ul)","tgt":"Seoul (seo-ul)"}
+{"f":"practice","id":"hangul.06","k":"why","src":"seo = ㅅ+ㅓ, ul = ㅇ+ㅜ+ㄹ.","tgt":"seo = ㅅ+ㅓ, ul = ㅇ+ㅜ+ㄹ."}
+{"f":"practice","id":"hangul.07","k":"p","src":"Korean language (han-gu-geo)","tgt":"bahasa Korea (han-gu-geo)"}
+{"f":"practice","id":"hangul.07","k":"why","src":"han + guk + eo; the ㄱ of 국 links into 어 when spoken.","tgt":"han + guk + eo; saat diucapkan, ㄱ dari 국 pindah ke 어, tanpa hentian."}
+{"f":"practice","id":"hangul.08","k":"p","src":"friend (chin-gu)","tgt":"teman (chin-gu)"}
+{"f":"practice","id":"hangul.08","k":"why","src":"ㅊ is ch; ㅈ is j.","tgt":"ㅊ = ch, dengan embusan napas; ㅈ = j."}
+{"f":"practice","id":"hangul.09","k":"p","src":"Seoul (seoul)","tgt":"Seoul (seoul)"}
+{"f":"practice","id":"hangul.09","k":"why","src":"ㅜ (u) sits below the ㅇ: 울.","tgt":"ㅜ (u) ada di bawah ㅇ: 울."}
+{"f":"practice","id":"hangul.10","k":"p","src":"Korean language (hangugeo)","tgt":"bahasa Korea (hangugeo)"}
+{"f":"practice","id":"hangul.10","k":"why","src":"h = ㅎ, a = ㅏ, final n = ㄴ: 한.","tgt":"h = ㅎ, a = ㅏ, n akhir = ㄴ: 한."}
+{"f":"practice","id":"hangul.11","k":"p","src":"banana (banana)","tgt":"pisang (banana)"}
+{"f":"practice","id":"hangul.11","k":"why","src":"na = ㄴ + ㅏ, side by side.","tgt":"na = ㄴ + ㅏ, berdampingan."}
+{"f":"practice","id":"hangul.12","k":"p","src":"Type 'gang' — river","tgt":"Ketik 'gang' — sungai"}
+{"f":"practice","id":"hangul.12","k":"why","src":"Final ㅇ sounds like ng.","tgt":"ㅇ di akhir dibaca ng, seperti ng pada \"datang\".","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"practice","id":"hangul.13","k":"p","src":"Type 'seoul' — Seoul","tgt":"Ketik 'seoul' — Seoul"}
+{"f":"practice","id":"hangul.13","k":"why","src":"Two blocks: 서 + 울.","tgt":"Dua blok: 서 + 울."}
+{"f":"practice","id":"hangul.14","k":"p","src":"Type 'hangugeo' — Korean language","tgt":"Ketik 'hangugeo' — bahasa Korea"}
+{"f":"practice","id":"hangul.14","k":"why","src":"Three blocks: 한 + 국 + 어.","tgt":"Tiga blok: 한 + 국 + 어."}
+{"f":"lessons","id":"polite","k":"title","src":"2 · Politeness levels","tgt":"2 · Tingkat kesopanan"}
+{"f":"lessons","id":"polite","k":"blurb","src":"Why every verb has two endings, and which one to use.","tgt":"Kenapa setiap kata kerja punya dua akhiran, dan mana yang harus dipakai."}
+{"f":"sentences","id":"ko.s0005","k":"gloss","src":"Thanks (polite)","tgt":"Terima kasih (sopan)"}
+{"f":"sentences","id":"ko.s0006","k":"gloss","src":"Thanks (casual)","tgt":"Makasih (santai)"}
+{"f":"sentences","id":"ko.s0007","k":"gloss","src":"You're cute (polite)","tgt":"Kamu imut (sopan)"}
+{"f":"sentences","id":"ko.s0008","k":"gloss","src":"You're cute (casual)","tgt":"Kamu imut (santai)"}
+{"f":"checks","id":"polite.k1","k":"q","src":"You're ordering at a café. Which form?","tgt":"Kamu memesan di kafe. Bentuk yang mana?"}
+{"f":"checks","id":"polite.k1","k":"why","src":"요-form is the default with strangers and staff.","tgt":"Bentuk 요 adalah pilihan utama dengan orang asing dan pelayan."}
+{"f":"checks","id":"polite.k2","k":"q","src":"Dropping the 요 makes speech…","tgt":"Kalau 요 dihilangkan, ucapanmu menjadi…"}
+{"f":"checks","id":"polite.k2","k":"o[0]","src":"casual (반말)","tgt":"santai (반말)"}
+{"f":"checks","id":"polite.k2","k":"o[1]","src":"more polite","tgt":"lebih sopan"}
+{"f":"checks","id":"polite.k2","k":"o[2]","src":"formal","tgt":"formal"}
+{"f":"checks","id":"polite.k2","k":"o[3]","src":"a question","tgt":"pertanyaan"}
+{"f":"checks","id":"polite.k2","k":"why","src":"반말 = casual speech for close friends and younger people.","tgt":"반말 = bahasa santai untuk teman dekat dan orang yang lebih muda."}
+{"f":"checks","id":"polite.k3","k":"q","src":"감사합니다 is which level?","tgt":"감사합니다 termasuk tingkat yang mana?"}
+{"f":"checks","id":"polite.k3","k":"o[0]","src":"formal","tgt":"formal"}
+{"f":"checks","id":"polite.k3","k":"o[1]","src":"casual","tgt":"santai"}
+{"f":"checks","id":"polite.k3","k":"o[2]","src":"polite 요-form","tgt":"bentuk 요 (sopan)"}
+{"f":"checks","id":"polite.k3","k":"o[3]","src":"slang","tgt":"bahasa gaul"}
+{"f":"checks","id":"polite.k3","k":"why","src":"-습니다 / -ㅂ니다 is the formal level.","tgt":"-습니다 / -ㅂ니다 adalah bentuk formal."}
+{"f":"practice","id":"polite.01","k":"q","src":"'Thanks' to a close friend (casual):","tgt":"'Makasih' kepada teman dekat (santai):"}
+{"f":"practice","id":"polite.01","k":"why","src":"Casual speech drops 요.","tgt":"Bahasa santai menghilangkan 요."}
+{"f":"practice","id":"polite.02","k":"q","src":"'Thank you' to a shop clerk you've never met:","tgt":"'Terima kasih' kepada pegawai toko yang belum pernah kamu temui:"}
+{"f":"practice","id":"polite.02","k":"why","src":"With strangers use a polite or formal form.","tgt":"Dengan orang asing, pakai bentuk sopan atau formal."}
+{"f":"practice","id":"polite.03","k":"q","src":"Which one is the formal level?","tgt":"Mana yang bentuk formal?"}
+{"f":"practice","id":"polite.03","k":"why","src":"-습니다 / -ㅂ니다 is the formal level.","tgt":"-습니다 / -ㅂ니다 adalah bentuk formal."}
+{"f":"practice","id":"polite.04","k":"q","src":"'Sorry' to a close friend (casual):","tgt":"'Maaf, ya' kepada teman dekat (santai):"}
+{"f":"practice","id":"polite.04","k":"why","src":"미안해 is the casual form; 미안해요 is polite.","tgt":"미안해 adalah bentuk santai; 미안해요 bentuk sopan."}
+{"f":"practice","id":"polite.05","k":"q","src":"'You're cute' (polite):","tgt":"'Kamu imut' (sopan):"}
+{"f":"practice","id":"polite.05","k":"why","src":"귀여워 + 요 = polite.","tgt":"귀여워 + 요 = sopan."}
+{"f":"practice","id":"polite.06","k":"p","src":"This one, please (polite)","tgt":"Minta yang ini (sopan)"}
+{"f":"practice","id":"polite.06","k":"why","src":"주세요 is the polite 'please give'.","tgt":"주세요 adalah 'minta' yang sopan."}
+{"f":"practice","id":"polite.07","k":"p","src":"Yes, thanks (polite)","tgt":"Ya, terima kasih (sopan)"}
+{"f":"practice","id":"polite.07","k":"why","src":"Keep 요 with people you don't know well.","tgt":"Tetap pakai 요 dengan orang yang belum kamu kenal baik, walaupun seumur."}
+{"f":"practice","id":"polite.08","k":"p","src":"No, it's okay (polite)","tgt":"Tidak, tidak apa-apa (sopan)"}
+{"f":"practice","id":"polite.08","k":"why","src":"괜찮아 without 요 is casual.","tgt":"괜찮아 tanpa 요 adalah bentuk santai."}
+{"f":"practice","id":"polite.09","k":"p","src":"Thanks (polite)","tgt":"Terima kasih (sopan)"}
+{"f":"practice","id":"polite.09","k":"why","src":"Add 요 to make it polite.","tgt":"Tambahkan 요 supaya sopan."}
+{"f":"practice","id":"polite.10","k":"p","src":"Sorry (casual)","tgt":"Maaf, ya (santai)"}
+{"f":"practice","id":"polite.10","k":"why","src":"Casual = the 요-form without 요: 미안해.","tgt":"Santai = bentuk 요 tanpa 요: 미안해."}
+{"f":"practice","id":"polite.11","k":"p","src":"I'm sorry (formal)","tgt":"Mohon maaf (formal)"}
+{"f":"practice","id":"polite.11","k":"why","src":"Formal level ends in -ㅂ니다.","tgt":"Bentuk formal berakhir dengan -ㅂ니다."}
+{"f":"practice","id":"polite.12","k":"p","src":"Yes, thanks (polite 요-form)","tgt":"Ya, terima kasih (sopan, bentuk 요)"}
+{"f":"practice","id":"polite.12","k":"why","src":"Polite = casual form + 요.","tgt":"Sopan = bentuk santai + 요."}
+{"f":"practice","id":"polite.13","k":"p","src":"Yes, I'm sorry (formal)","tgt":"Ya, mohon maaf (formal)"}
+{"f":"practice","id":"polite.13","k":"why","src":"죄송합니다 is the safe apology to strangers.","tgt":"죄송합니다 adalah permintaan maaf yang aman kepada orang asing."}
+{"f":"practice","id":"polite.14","k":"p","src":"No, it's okay (casual)","tgt":"Nggak, nggak apa-apa (santai)"}
+{"f":"practice","id":"polite.14","k":"hint","src":"drop the 요","tgt":"hilangkan 요"}
+{"f":"practice","id":"polite.14","k":"why","src":"Casual drops the 요.","tgt":"Bahasa santai menghilangkan 요."}
+{"f":"lessons","id":"meet","k":"title","src":"3 · Meeting people","tgt":"3 · Berkenalan"}
+{"f":"lessons","id":"meet","k":"blurb","src":"Introduce yourself, ask the four standard questions, say goodbye correctly.","tgt":"Perkenalkan dirimu, ajukan empat pertanyaan wajib, dan berpamitan dengan benar."}
+{"f":"sentences","id":"ko.s0295","k":"gloss","src":"Hello. I'm Kii.","tgt":"Halo. Saya Kii."}
+{"f":"sentences","id":"ko.s0010","k":"gloss","src":"Nice to meet you","tgt":"Senang bertemu denganmu"}
+{"f":"sentences","id":"ko.s0011","k":"gloss","src":"Where are you from?","tgt":"Asalmu dari mana?"}
+{"f":"sentences","id":"ko.s0012","k":"gloss","src":"I'm from the US","tgt":"Saya dari Amerika Serikat"}
+{"f":"sentences","id":"ko.s0013","k":"gloss","src":"What do you do?","tgt":"Kerja apa?"}
+{"f":"sentences","id":"ko.s0014","k":"gloss","src":"I'm studying Korean","tgt":"Saya belajar bahasa Korea"}
+{"f":"sentences","id":"ko.s0015","k":"gloss","src":"How old are you?","tgt":"Umurmu berapa?"}
+{"f":"sentences","id":"ko.s0016","k":"gloss","src":"I'm 28","tgt":"Umur saya 28 tahun"}
+{"f":"sentences","id":"ko.s0017","k":"gloss","src":"Go well (they are leaving)","tgt":"Selamat jalan (dia yang pergi)"}
+{"f":"sentences","id":"ko.s0018","k":"gloss","src":"Stay well (you are leaving)","tgt":"Selamat tinggal (kamu yang pergi)"}
+{"f":"checks","id":"meet.k1","k":"q","src":"'I'm Lisa' — in Hangul 리사, and the last block 사 ends in a vowel, so:","tgt":"'Saya Lisa': dalam Hangul 리사, dan blok terakhir 사 berakhir dengan vokal, jadi:"}
+{"f":"checks","id":"meet.k1","k":"why","src":"Go by the last Hangul block: no final consonant → 예요; a final consonant → 이에요.","tgt":"Lihat blok Hangul terakhir: tanpa konsonan akhir → 예요; dengan konsonan akhir → 이에요."}
+{"f":"checks","id":"meet.k2","k":"q","src":"Someone is leaving and you are staying. You say:","tgt":"Seseorang pergi dan kamu tetap tinggal. Kamu bilang:"}
+{"f":"checks","id":"meet.k2","k":"why","src":"가세요 = go well (to the one leaving).","tgt":"가세요 = untuk orang yang pergi ('selamat jalan')."}
+{"f":"checks","id":"meet.k3","k":"q","src":"'Where are you from?'","tgt":"'Asalmu dari mana?'"}
+{"f":"checks","id":"meet.k3","k":"why","src":"에서 왔어요 = came from.","tgt":"에서 왔어요 = datang dari."}
+{"f":"practice","id":"meet.01","k":"q","src":"'I'm Minsu' — 민수 ends in a vowel, so:","tgt":"'Saya Minsu': 민수 berakhir dengan vokal, jadi:"}
+{"f":"practice","id":"meet.01","k":"why","src":"예요 after a vowel, 이에요 after a consonant.","tgt":"예요 setelah vokal, 이에요 setelah konsonan."}
+{"f":"practice","id":"meet.02","k":"q","src":"'Nice to meet you' =","tgt":"'Senang bertemu denganmu' ="}
+{"f":"practice","id":"meet.02","k":"why","src":"만나서 반가워요 = glad because we met.","tgt":"만나서 반가워요 = senang karena kita bertemu."}
+{"f":"practice","id":"meet.03","k":"q","src":"You leave a shop; the owner stays. You say:","tgt":"Kamu keluar dari toko; pemiliknya tetap di sana. Kamu bilang:"}
+{"f":"practice","id":"meet.03","k":"why","src":"계세요 = stay well, said by the one leaving.","tgt":"계세요 = 'tinggallah dengan tenang', diucapkan oleh orang yang pergi."}
+{"f":"practice","id":"meet.04","k":"q","src":"'Where are you from?' =","tgt":"'Asalmu dari mana?' ="}
+{"f":"practice","id":"meet.04","k":"why","src":"에서 왔어요 = came from.","tgt":"에서 왔어요 = datang dari."}
+{"f":"practice","id":"meet.05","k":"q","src":"'I'm a student' =","tgt":"'Saya mahasiswa' ="}
+{"f":"practice","id":"meet.05","k":"why","src":"학생 ends in a consonant → 이에요.","tgt":"학생 berakhir dengan konsonan → 이에요."}
+{"f":"practice","id":"meet.06","k":"p","src":"I'm from the US","tgt":"Saya dari Amerika Serikat"}
+{"f":"practice","id":"meet.06","k":"why","src":"Place + 에서 왔어요 = came from.","tgt":"Tempat + 에서 왔어요 = datang dari."}
+{"f":"practice","id":"meet.07","k":"p","src":"I'm studying Korean","tgt":"Saya belajar bahasa Korea"}
+{"f":"practice","id":"meet.07","k":"why","src":"한국어 = Korean language; 한국 = Korea.","tgt":"한국어 = bahasa Korea; 한국 = Korea."}
+{"f":"practice","id":"meet.08","k":"p","src":"Hello, I'm Minsu","tgt":"Halo, saya Minsu"}
+{"f":"practice","id":"meet.08","k":"why","src":"민수 ends in a vowel → 예요.","tgt":"민수 berakhir dengan vokal → 예요."}
+{"f":"practice","id":"meet.09","k":"p","src":"I'm a student","tgt":"Saya mahasiswa"}
+{"f":"practice","id":"meet.09","k":"why","src":"Consonant ending → 이에요.","tgt":"Berakhir dengan konsonan → 이에요."}
+{"f":"practice","id":"meet.10","k":"p","src":"I'm Minsu","tgt":"Saya Minsu"}
+{"f":"practice","id":"meet.10","k":"why","src":"Vowel ending → 예요.","tgt":"Berakhir dengan vokal → 예요."}
+{"f":"practice","id":"meet.11","k":"p","src":"Goodbye (you are leaving, they stay)","tgt":"Selamat tinggal (kamu yang pergi, mereka tetap tinggal)"}
+{"f":"practice","id":"meet.11","k":"why","src":"The one leaving says 계세요 (stay well).","tgt":"Orang yang pergi mengucapkan 계세요 ('tinggallah dengan tenang')."}
+{"f":"practice","id":"meet.12","k":"p","src":"Nice to meet you","tgt":"Senang bertemu denganmu"}
+{"f":"practice","id":"meet.12","k":"why","src":"The standard first-meeting phrase.","tgt":"Kalimat standar saat pertama kali bertemu."}
+{"f":"practice","id":"meet.13","k":"p","src":"Where are you from?","tgt":"Asalmu dari mana?"}
+{"f":"practice","id":"meet.13","k":"why","src":"Lit. 'from where did you come?'","tgt":"Harfiah: 'datang dari mana?'"}
+{"f":"practice","id":"meet.14","k":"p","src":"How old are you?","tgt":"Umurmu berapa?"}
+{"f":"practice","id":"meet.14","k":"why","src":"몇 = how many, 살 = years of age.","tgt":"몇 = berapa, 살 = tahun (umur)."}
+{"f":"lessons","id":"sound-changes","k":"title","src":"4 · Sound changes: why 감사합니다 sounds different","tgt":"4 · Perubahan bunyi: mengapa 감사합니다 terdengar berbeda"}
+{"f":"lessons","id":"sound-changes","k":"blurb","src":"Four habits that make spoken Korean differ from its spelling. Learn to expect them.","tgt":"Empat kebiasaan yang membuat bahasa Korea lisan berbeda dari ejaannya. Belajarlah mengantisipasinya."}
+{"f":"sentences","id":"ko.s0019","k":"gloss","src":"Korean language · sounds like 한구거","tgt":"bahasa Korea · terdengar seperti 한구거"}
+{"f":"sentences","id":"ko.s0020","k":"gloss","src":"music · sounds like 으막","tgt":"musik · terdengar seperti 으막"}
+{"f":"sentences","id":"ko.s0021","k":"gloss","src":"there is · sounds like 이써요","tgt":"ada · terdengar seperti 이써요"}
+{"f":"sentences","id":"ko.s0022","k":"gloss","src":"thank you · sounds like 감사함니다","tgt":"terima kasih · terdengar seperti 감사함니다"}
+{"f":"sentences","id":"ko.s0023","k":"gloss","src":"nice to meet you · sounds like 반갑씀니다","tgt":"senang bertemu · terdengar seperti 반갑씀니다"}
+{"f":"sentences","id":"ko.s0024","k":"gloss","src":"Korean (speech) · sounds like 한궁말","tgt":"bahasa Korea (lisan) · terdengar seperti 한궁말"}
+{"f":"sentences","id":"ko.s0025","k":"gloss","src":"to be good · sounds like 조타","tgt":"baik (bentuk kamus) · terdengar seperti 조타"}
+{"f":"sentences","id":"ko.s0026","k":"gloss","src":"congratulations · sounds like 추카","tgt":"ucapan selamat · terdengar seperti 추카"}
+{"f":"sentences","id":"ko.s0027","k":"gloss","src":"it's good · sounds like 조아요","tgt":"bagus · terdengar seperti 조아요"}
+{"f":"sentences","id":"ko.s0028","k":"gloss","src":"contact · sounds like 열락","tgt":"kontak, kabar · terdengar seperti 열락"}
+{"f":"sentences","id":"ko.s0029","k":"gloss","src":"Lunar New Year · sounds like 설랄","tgt":"Tahun Baru Imlek · terdengar seperti 설랄"}
+{"f":"checks","id":"sound-changes.k1","k":"q","src":"감사합니다 sounds like:","tgt":"감사합니다 terdengar seperti:"}
+{"f":"checks","id":"sound-changes.k1","k":"o[1]","src":"감사합니다, exactly as spelled","tgt":"감사합니다, persis seperti ejaannya"}
+{"f":"checks","id":"sound-changes.k1","k":"why","src":"ㅂ before ㄴ softens to ㅁ.","tgt":"ㅂ sebelum ㄴ melunak menjadi ㅁ."}
+{"f":"checks","id":"sound-changes.k2","k":"q","src":"한국어 sounds like:","tgt":"한국어 terdengar seperti:"}
+{"f":"checks","id":"sound-changes.k2","k":"o[1]","src":"한국 어, with a pause","tgt":"한국 어, dengan jeda (hentian)"}
+{"f":"checks","id":"sound-changes.k2","k":"why","src":"The final ㄱ slides into the empty ㅇ seat.","tgt":"ㄱ akhir pindah ke tempat kosong ㅇ."}
+{"f":"checks","id":"sound-changes.k3","k":"q","src":"좋아요 sounds like:","tgt":"좋아요 terdengar seperti:"}
+{"f":"checks","id":"sound-changes.k3","k":"why","src":"ㅎ between vowels goes silent.","tgt":"ㅎ di antara vokal tidak berbunyi."}
+{"f":"practice","id":"sound-changes.01","k":"q","src":"감사합니다 sounds like:","tgt":"감사합니다 terdengar seperti:"}
+{"f":"practice","id":"sound-changes.01","k":"why","src":"ㅂ before ㄴ softens to ㅁ.","tgt":"ㅂ sebelum ㄴ melunak menjadi ㅁ."}
+{"f":"practice","id":"sound-changes.02","k":"q","src":"한국어 sounds like:","tgt":"한국어 terdengar seperti:"}
+{"f":"practice","id":"sound-changes.02","k":"why","src":"Final ㄱ links into the next block.","tgt":"ㄱ akhir pindah ke blok berikutnya."}
+{"f":"practice","id":"sound-changes.03","k":"q","src":"좋아요 sounds like:","tgt":"좋아요 terdengar seperti:"}
+{"f":"practice","id":"sound-changes.03","k":"why","src":"ㅎ between vowels goes silent.","tgt":"ㅎ di antara vokal tidak berbunyi."}
+{"f":"practice","id":"sound-changes.04","k":"q","src":"연락 (contact) sounds like:","tgt":"연락 (kontak) terdengar seperti:"}
+{"f":"practice","id":"sound-changes.04","k":"why","src":"ㄴ + ㄹ → ㄹㄹ.","tgt":"ㄴ + ㄹ → ㄹㄹ.","pre":1}
+{"f":"practice","id":"sound-changes.05","k":"q","src":"축하 (congratulations) sounds like:","tgt":"축하 (ucapan selamat) terdengar seperti:"}
+{"f":"practice","id":"sound-changes.05","k":"why","src":"ㄱ + ㅎ → ㅋ.","tgt":"ㄱ + ㅎ → ㅋ.","pre":1}
+{"f":"practice","id":"sound-changes.06","k":"p","src":"Build how 한국어 SOUNDS","tgt":"Susun 한국어 sesuai BUNYINYA"}
+{"f":"practice","id":"sound-changes.06","k":"why","src":"ㄱ moves to the next block.","tgt":"ㄱ pindah ke blok berikutnya."}
+{"f":"practice","id":"sound-changes.07","k":"p","src":"Build how 음악 SOUNDS","tgt":"Susun 음악 sesuai BUNYINYA"}
+{"f":"practice","id":"sound-changes.07","k":"why","src":"ㅁ moves to the next block.","tgt":"ㅁ pindah ke blok berikutnya."}
+{"f":"practice","id":"sound-changes.08","k":"p","src":"Build how 한국말 SOUNDS","tgt":"Susun 한국말 sesuai BUNYINYA"}
+{"f":"practice","id":"sound-changes.08","k":"why","src":"ㄱ before ㅁ → ㅇ.","tgt":"ㄱ sebelum ㅁ → ㅇ."}
+{"f":"practice","id":"sound-changes.09","k":"p","src":"Thank you — write the block as it SOUNDS","tgt":"Terima kasih — tulis bloknya sesuai BUNYINYA"}
+{"f":"practice","id":"sound-changes.09","k":"why","src":"ㅂ + ㄴ → ㅁ + ㄴ.","tgt":"ㅂ + ㄴ → ㅁ + ㄴ.","pre":1}
+{"f":"practice","id":"sound-changes.10","k":"p","src":"It's good — how 좋아요 SOUNDS","tgt":"Bagus — BUNYI 좋아요"}
+{"f":"practice","id":"sound-changes.10","k":"why","src":"The ㅎ is silent between vowels.","tgt":"ㅎ tidak berbunyi di antara vokal."}
+{"f":"practice","id":"sound-changes.11","k":"p","src":"Contact — how 연락 SOUNDS","tgt":"Kontak — BUNYI 연락"}
+{"f":"practice","id":"sound-changes.11","k":"why","src":"ㄴ + ㄹ → ㄹㄹ.","tgt":"ㄴ + ㄹ → ㄹㄹ.","pre":1}
+{"f":"practice","id":"sound-changes.12","k":"p","src":"Type the real SPELLING of the word that sounds like 한구거 (Korean language)","tgt":"Ketik EJAAN asli kata yang terdengar seperti 한구거 (bahasa Korea)"}
+{"f":"practice","id":"sound-changes.12","k":"why","src":"Spelling keeps the ㄱ under 국.","tgt":"Ejaannya tetap menyimpan ㄱ di bawah 국."}
+{"f":"practice","id":"sound-changes.13","k":"p","src":"Type the real SPELLING of the word that sounds like 조아요 (it's good)","tgt":"Ketik EJAAN asli kata yang terdengar seperti 조아요 (bagus)"}
+{"f":"practice","id":"sound-changes.13","k":"why","src":"The silent ㅎ is still written.","tgt":"ㅎ yang tidak berbunyi tetap ditulis."}
+{"f":"practice","id":"sound-changes.14","k":"p","src":"Type the real SPELLING of the word that sounds like 이써요 (there is)","tgt":"Ketik EJAAN asli kata yang terdengar seperti 이써요 (ada)"}
+{"f":"practice","id":"sound-changes.14","k":"why","src":"ㅆ is written under 있.","tgt":"ㅆ ditulis di bawah 있."}

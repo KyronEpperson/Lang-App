@@ -125,7 +125,7 @@ counts['lessons/*.html'] = { target: t.lessons.length, native: files.length, com
 const nc = n.course;
 if (!nc.name || !String(nc.name).trim()) err('course.json', 'name (the course name in the learner language) is empty');
 if (nc.native && nc.native !== nat) err('course.json', 'native is "' + nc.native + '", expected "' + nat + '"');
-Object.keys(nc).forEach(k => { if (!['native', 'name', 'brand', '_note'].includes(k)) err('course.json', 'unknown field ' + k); });
+Object.keys(nc).forEach(k => { if (!['native', 'name', 'brand', 'tuned', '_note'].includes(k)) err('course.json', 'unknown field ' + k); });
 if (n.ui && (typeof n.ui !== 'object' || Array.isArray(n.ui))) err('ui.json', 'must be an object {"English UI string": "translation"}');
 else Object.entries(n.ui || {}).forEach(([k, v]) => { if (typeof v !== 'string' || !v.trim()) err('ui.json', 'empty value for "' + k + '"'); });
 let pack = null;

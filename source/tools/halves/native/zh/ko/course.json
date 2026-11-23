@@ -1,5 +1,6 @@
 {
  "native": "zh",
  "name": "韩语",
- "brand": "한글"
+ "brand": "한글",
+ "tuned": true
 }

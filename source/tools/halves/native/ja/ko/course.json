@@ -1,5 +1,6 @@
 {
  "native": "ja",
  "name": "韓国語",
- "brand": "한글"
+ "brand": "한글",
+ "tuned": true
 }

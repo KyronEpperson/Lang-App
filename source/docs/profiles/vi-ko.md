@@ -21,7 +21,7 @@ Untagged rules are design decisions.
 2. **Terms:** the closed list in §3.3. Tabs as in `tools/i18n/vi/ui.json`: **Hôm nay, Luyện, Ôn tập, Bài học, Tiến độ**.
 3. **Glosses:** the English tag alone carries politeness: (trang trọng) / (lịch sự) / (thân mật) / (kính ngữ).
    - Pronouns are *tôi / bạn*; casual lines use no pronoun, or *mình / cậu*.
-   - **ạ** appears only on honorific or humble lines (§3.2).
+   - **ạ** only where the English tags (honorific) or names an elder, superior or customer, plus the fixed glosses (§3.2).
 4. **Hán-Việt is the big bridge** (59.8% of Sino-Korean words have a Vietnamese Sino counterpart: Kim 2008, in Phan 2026 [research, secondary]).
    - Codas correspond: ㄱ↔c/ch, ㄴ↔n, ㄹ↔t, ㅁ↔m, ㅂ↔p, ㅇ↔ng/nh.
    - Readings come **only from the §5.1 whitelist**, with false friends taught alongside.
@@ -70,12 +70,13 @@ Untagged rules are design decisions.
 | -습니다 set phrases | *xin* where natural; no *ạ* | 감사합니다 → «Xin cảm ơn» |
 | 반말 | no pronoun, else *mình / cậu*; *nhé* allowed | 고마워 → «Cảm ơn nhé» |
 | romantic 반말 (sweet talk, flirting, dating) | no pronoun (*anh / em* would invent genders) | 보고 싶어 → «Nhớ quá» |
-| -시-, honorific verbs or 드리다 said **to** an elder, superior or customer | no *bạn*; drop "you" or use the Korean's role noun (손님 *quý khách*, 할머니 *bà*, 선생님 *thầy*); final **ạ** allowed | 어디 가세요? → «Đi đâu ạ?»; 앉으세요 → «Mời ngồi ạ» |
+| a line the English tags (honorific), or whose English names the addressee as an elder, superior, teacher or customer being served | no *bạn*; drop "you" or use the Korean's role noun (손님 *quý khách*, 할머니 *bà*, 선생님 *thầy*); end with **ạ** | 어디 가세요? ("To an elder") → «Đi đâu ạ?» |
 | -시- **about** a third person | neutral, with Vietnamese honorific verbs where they exist (*dùng, nghỉ*) | 할머니가 주무세요 → «Bà đang nghỉ.» |
 
 - **Departure from the house profiles.** `vi.md` §2 (service dialogues with *anh / chị* + *ạ*) and `en-vi.md` §2.3 (kinship pairs by relationship) do **not** apply to non-honorific lines.
   - A Korean 요 line carries no age or gender.
   - *ạ* on every 요 line would teach "요 = *ạ*" (§5.6).
+- ***ạ* is mechanical:** only in the row type above, and in the fixed glosses that show it. **Never** on 주세요, -아/어 주세요, 안녕하세요, 안녕히 가세요, 감사합니다 or any other line, even though they contain -시- or -습니다.
 - **Practice:** the tag is the only politeness cue (§8).
 - **No slash inside a gloss** (*thầy*, not *thầy/cô*): dialogue glosses are split on " / ".
 
@@ -92,6 +93,7 @@ Untagged rules are design decisions.
 | 잘 부탁드립니다 | Rất mong được giúp đỡ |
 | 수고하셨습니다 / 수고했어(요) / 수고하세요 / 고생했어 | Hôm nay đã vất vả rồi ạ / Vất vả rồi / Chúc làm việc tốt ạ / Vất vả nhiều rồi |
 | 화이팅, 힘내 | Cố lên! |
+| N 주세요 / V-아/어 주세요 | Cho tôi N / V giúp tôi (도와주세요 «Giúp tôi với»; 앉으세요 «Mời ngồi») |
 | 혹시 / 좀 / 저기요 | không biết…, liệu… (hỏi khéo) / một chút, giúp / Xin lỗi, cho hỏi |
 | 오빠 / 형 / 언니 / 누나 / 동생 | anh (con gái gọi) / anh (con trai gọi) / chị (con gái gọi) / chị (con trai gọi) / em |
 | 선생님 / 사장님 / 손님 | thầy, giáo viên / ông chủ, giám đốc / quý khách |
@@ -218,15 +220,7 @@ Nguyên âm (Hangul) · Phụ âm (Hangul) · Nâng cao (Hangul) · Mẹo phát 
 
 ## 4. Reading guide
 
-Vietnamese facts are from [Wikiwand, *Vietnamese phonology*] [reference]:
-- *th* [tʰ] is aspirated; *t, ch / tr* (Hanoi [tɕ]) are unaspirated; *kh* = [x].
-- *b, đ* are preglottalised voiced.
-- *p* occurs initially only in a few loans.
-- In Hanoi, *d, gi, r* = [z] and *s* = *x* = [s].
-- Codas are only p t k m n ng (+ glides), and final stops are unreleased.
-- A p/t/k-final syllable takes only *sắc* or *nặng*.
-- Northern speech puts a glottal stop before vowel-initial words.
-- *-c / -ng* after rounded vowels are said with closed lips.
+Vietnamese facts (aspiration, Hanoi values of *d / gi / r / s / ch*, codas, unreleased stops, *sắc / nặng* on stop-final syllables, the Northern glottal onset, lip closure after rounded vowels) are from [Wikiwand, *Vietnamese phonology*] [reference].
 
 ### 4.1 Korean sound → Vietnamese anchor
 
@@ -284,7 +278,7 @@ Anchor words are toneless (*ngang*). No toneless word ends in p/t/c, so those ar
 > - **Nối âm**: phụ âm cuối chuyển sang khối sau nếu khối đó bắt đầu bằng ㅇ câm. Không ngắt hơi trước nguyên âm.
 
 - `sound-changes` repeats the lines on linking, tones and final ㄹ.
-- The three Hangul deck descriptions repeat their own lines verbatim.
+- The three Hangul deck descriptions repeat their own lines **without the jamo in brackets** (the English descriptions hold no Hangul).
 - The jamo cards ko.c0001–c0060 use the §4.1 anchors.
 - **Never compare with English sounds.**
 
@@ -292,51 +286,50 @@ Anchor words are toneless (*ngang*). No toneless word ends in p/t/c, so those ar
 
 ### 5.1 Sino-Korean ↔ Hán-Việt: the closed whitelist
 
-**Rules:**
-- Cite a reading only for a listed word, and only where the row or body already has that Hangul ("where"). "illus." words are absent from the Korean half: use them only in prose without the Hangul.
-- No other etymology (no «*cái* ← 個»). **F** = on a fetched page (Phan 2026); everything else is [author].
-- Wording: «학생 (haksaeng) cùng gốc Hán với *học sinh*».
+**Rules** (the validator compares whole Hangul *runs* (`HANGUL_RX`, `tools/halves/lib.js`), not substrings):
+- **Card note** (column "card"): give the reading **without reprinting Hangul**. The card shows its Korean, and the English note rarely holds the run: «Cùng gốc Hán với *ngân hàng*.» For a longer card (안녕하세요, 공부해요), name the part by its romanization: «Phần *annyeong* cùng gốc với *an ninh*…».
+- **Lesson body** (column "body"): only where the English body has that exact run. Never print a shorter run (감사 from 감사합니다, 사장 from 사장님).
+- **illus.:** no usable row; mention only in prose, without Hangul.
+- **No other etymology** (no «*cái* ← 個»). **F** = confirmed on a fetched page (Phan 2026); everything else is [author].
+- As in tl-ko: the Hangul in this profile's tables and per-lesson notes is for the writers' understanding, never a licence to add it.
 
 **Same meaning:**
 
-| Korean | Hán-Việt | where |
-|---|---|---|
-| 학생 | học sinh | nouns, past, negation bodies |
-| 시간 | thời gian | isseoyo, counters bodies |
-| 한국(어) | Hàn Quốc (F) (ngữ) | cant body, s0014 |
-| 감사 | cảm tạ | polite, sound-changes bodies; c0062 |
-| 준비 | chuẩn bị | g103 |
-| 은행 · 병원 · 공원 | ngân hàng · bệnh viện · công viên | c0267 · c0265 · c0273 |
-| 생일 · 행복 | sinh nhật · hạnh phúc | s0066 · c0187 |
-| 여행 · 운동 | lữ hành (everyday: *du lịch*) · vận động | c0281 · c0278 |
-| 형제 · 연습 | huynh đệ · luyện tập | g148 · g117 |
-| 층 · 호선 | tầng · 호 hiệu + 선 tuyến | c0149 · c0153 |
-| 백화점 · 해산물 | bách hóa (+ store) · hải sản (+ 물) | c0271 · c0309 |
-| 무대 · 사실 · 신호(등) | vũ đài · sự thật · tín hiệu | c0500 · c0207 · c0375 |
-| 음식 | ẩm thực (VN: cuisine) | noun-modifiers body |
-| 매일 · 제일 | 매 = mỗi, 일 = nhật · đệ nhất | c0606 · compare body |
-| 권 | quyển (also a Vietnamese classifier) | counters body |
-| 주의 · 문화 · 경제 · 역사 · 감동 · 기념 | chú ý · văn hóa · kinh tế · lịch sử · cảm động · kỷ niệm (all F) | illus. |
-| 전화 · 언어 · 결혼 · 안전 · 위험 · 동의 · 부모 | điện thoại · ngôn ngữ · kết hôn · an toàn · nguy hiểm · đồng ý · phụ mẫu | illus. |
+| Korean | Hán-Việt | card | body |
+|---|---|---|---|
+| 학생 | học sinh | ko.c0081 | nouns, negation |
+| 시간 | thời gian | ko.c0171 | isseoyo, counters, plans |
+| 한국어 | Hàn Quốc (F) + ngữ | ko.c0071 | cant |
+| 감사합니다 | 감사 = cảm tạ | ko.c0062 | polite, sound-changes |
+| 은행 · 병원 · 공원 | ngân hàng · bệnh viện · công viên | ko.c0267 · c0265 · c0273 | |
+| 행복해요 · 여행 · 운동 | hạnh phúc · lữ hành (everyday *du lịch*) · vận động | ko.c0187 · c0281 · c0278 | |
+| 층 · 호선 | tầng · hiệu + tuyến ("tuyến số 2") | ko.c0149 · c0153 | |
+| 백화점 · 해산물 | bách hóa (+ store) · hải sản (+ 물) | ko.c0271 · c0309 | |
+| 무대 · 사실 · 신호등 | vũ đài · sự thật · tín hiệu (+ đèn) | ko.c0500 · c0207 · c0375 | |
+| 매일 | mỗi + nhật ("mỗi ngày") | ko.c0606 | |
+| 음식 | ẩm thực (VN: cuisine) | | noun-modifiers |
+| 제일 | đệ nhất | ko.c0107 | compare |
+| 권 | quyển (also a Vietnamese classifier) | ko.c0168 | counters |
+| 준비 · 생일 · 형제 · 연습 · 주의 | chuẩn bị · sinh nhật · huynh đệ · luyện tập · chú ý (F) | illus. | |
+| 문화 · 경제 · 역사 · 감동 · 기념 | văn hóa · kinh tế · lịch sử · cảm động · kỷ niệm (F) | illus. | |
+| 전화 · 언어 · 결혼 · 안전 · 위험 · 동의 · 부모 | điện thoại · ngôn ngữ · kết hôn · an toàn · nguy hiểm · đồng ý · phụ mẫu | illus. | |
 
 **Same characters, different meaning (từ dễ nhầm)**, taught alongside the cognates:
 
-| Korean (KO meaning) | Hán-Việt (VN meaning) | where |
-|---|---|---|
-| 공부 (study) | công phu (painstaking effort) (F) | verbs, negation, particles bodies |
-| 시험 (exam) | thí nghiệm (experiment) | g079 |
-| 취미 (hobby) | thú vị (interesting) | c0277 |
-| 긴장 (nervous) | khẩn trương (urgent) | c0190 |
-| 안녕 (peace; hello) | an ninh (security) | meet body |
-| 질문 (question) | chất vấn (interrogate) | e032 |
-| 계산 (paying the bill) | kế toán (accounting) | c0112, s0184 |
-| 사장 (boss) / 부장 (department head) | xã trưởng (village head) / bộ trưởng (minister) | titles, office bodies |
-| 시장 (marketplace) | thị trường (economic market; a marketplace is *chợ*) | c0270 |
-| 가족 (family) | gia tộc (clan) | c0613 |
-| 회의 (any meeting) / 최고 (the best) | hội nghị (conference) / tối cao (supreme) | c0544 / c0464 |
-| 화장실 (화장 = makeup) | hóa trang (makeup, costume) | requests body |
-| 편의점 (편의 = convenience) | tiện nghi (amenities); the shop is *cửa hàng tiện lợi* | getting-around body |
-| 환경 · 자신 · 국어 | hoàn cảnh · tự tin · quốc ngữ (F) | illus. |
+| Korean (KO meaning) | Hán-Việt (VN meaning) | card | body |
+|---|---|---|---|
+| 공부 (study) | công phu (painstaking effort) (F) | ko.c0328 | as 공부 only in cant, negation |
+| 취미 (hobby) | thú vị (interesting) | ko.c0277 | |
+| 긴장 (nervous) | khẩn trương (urgent) | ko.c0190 | |
+| 안녕 (peace; hello) | an ninh (security) | ko.c0061 (by romanization) | |
+| 계산 (paying the bill) | kế toán (accounting) | ko.c0112, c0580 | |
+| 사장님 (boss) / 부장님 (department head) | xã trưởng (village head) / bộ trưởng (minister) | | titles, office (as 사장님 / 부장님) |
+| 시장 (marketplace) | thị trường (economic market; a marketplace is *chợ*) | ko.c0270 | |
+| 가족 (family) | gia tộc (clan) | ko.c0613 | |
+| 회의 (any meeting) / 최고 (the best) | hội nghị (conference) / tối cao (supreme) | ko.c0544 / c0464 | |
+| 화장실 (화장 = makeup) | hóa trang (makeup, costume) | ko.c0066 | requests |
+| 편의점 (편의 = convenience) | tiện nghi (amenities); the shop is *cửa hàng tiện lợi* | ko.c0268 | getting-around |
+| 시험 · 질문 · 환경 · 국어 | thí nghiệm · chất vấn · hoàn cảnh (F) · quốc ngữ (F) | illus. | |
 
 **Other patterns:**
 - **Reversed order** (illus.): 소개 / *giới thiệu*, 평화 / *hòa bình* [author]; 민주주의 / *chủ nghĩa dân chủ* (F).
@@ -445,14 +438,15 @@ Anchor words are toneless (*ngang*). No toneless word ends in p/t/c, so those ar
    - Perception test with 8 beginners: 75% / 62.5% / 50% correct for plain / tense / aspirated; the top error was aspirated heard as plain.
    - ㅈ ㅉ ㅊ and ㅅ ㅆ are also confused (Pham 2024) [research].
 2. **Final ㄹ → ㄴ** (35.3% named it hardest; 6 of 8 said [선날]) [research].
-3. **Romanization read in Vietnamese spelling** (§4.2) [inference].
-4. **Noun phrase in Vietnamese order**, counters before the noun [inference].
-5. **Particles dropped; 에 / 에서 merged** [inference].
-6. **Tense omitted; *chưa*** [inference].
-7. **Level errors** (반말 with a same-age stranger, -시- on oneself) [inference].
-8. **Linking blocked; tones on stop-final syllables** [research, secondary / inference].
-9. **Sino false friends** [author].
-10. **Hours in Sino-Korean; grouping by 1,000** [inference].
+3. **Then [inference]:**
+   - romanization read with Vietnamese spelling;
+   - the noun phrase in Vietnamese order;
+   - particles dropped, 에 / 에서 merged;
+   - tense omitted, *chưa*;
+   - level errors;
+   - blocked linking and tones (secondary);
+   - false friends;
+   - hours in Sino-Korean.
 
 ## 7. Per-lesson notes (ids in `target/ko/lessons.jsonl` order)
 
@@ -460,7 +454,7 @@ Anchor words are toneless (*ngang*). No toneless word ends in p/t/c, so those ar
 |---|---|---|
 | 1 | hangul | §4.4 guide (waiver). ㅡ = "ư", the glides are easy wins, ㅗ = "ô". Rewrite the English vowel sounds; keep the replay line. |
 | 2 | polite | *ạ / vâng / dạ* as the bridge, then the four breaks (§5.6). Headers *Trang trọng / Lịch sự / Thân mật*. |
-| 3 | meet | Vietnamese also asks age (to choose *anh / em*). 안녕 ≠ *an ninh*. One *tạm biệt* vs 가세요 / 계세요. |
+| 3 | meet | Vietnamese also asks age (to choose *anh / em*). One *tạm biệt* vs 가세요 / 계세요. (*an ninh*: card note ko.c0061 only.) |
 | 4 | sound-changes | Linking without a glottal stop; level pitch; ㄹ as the exception among the finals. Respellings → RR + syllable breaks. Drop the Read-drill line. |
 | 5 | nouns | No articles; optional plural (*các* / 들); contrastive *thì* ≈ 은/는. |
 | 6 | isseoyo | Rebuild the "is" opening and table on §5.3. |
@@ -476,9 +470,9 @@ Anchor words are toneless (*ngang*). No toneless word ends in p/t/c, so those ar
 | 16 | sentences | The four shapes against *là*, a bare tính từ, *có*, SVO. |
 | 17 | want-like | *muốn* + verb vs -고 싶어요 after; *thích* X → X을/를 좋아해요. |
 | 18 | numbers | §5.5; "like English digits" → «như ghép Hán Việt: *nhị thập ngũ* = 이십오». |
-| 19 | food | Classifiers are already known; 잘 먹겠습니다 vs the pre-meal *mời*: both rituals, but the Korean one thanks [inference]; 계산 ≠ *kế toán*. |
-| 20 | getting-around | 층 = *tầng*, 호선 ≈ *tuyến*. No US comparisons. |
-| 21 | titles | 오빠 / 형 / 언니 / 누나 ≈ *anh / chị*, but chosen by the speaker's gender; 사장 ≠ *xã trưởng*; "(you female / male)" → «nếu bạn là nữ / nam». |
+| 19 | food | Classifiers are already known; 잘 먹겠습니다 vs the pre-meal *mời*: both rituals, but the Korean one thanks [inference]; 계산 ≠ *kế toán* goes in card notes (ko.c0112), not the body. |
+| 20 | getting-around | 편의점 note (§5.1); 층 / 호선 readings in card notes only. No US comparisons. |
+| 21 | titles | 오빠 / 형 / 언니 / 누나 ≈ *anh / chị*, but chosen by the speaker's gender; 사장님 ≠ *xã trưởng*; "(you female / male)" → «nếu bạn là nữ / nam». |
 | 22 | plans | -자 ≈ *… đi!*; -(으)ㄹ까요? ≈ *… nhé?*; -(으)ㄹ래요? ≈ *Bạn có muốn … không?* |
 | 23 | texting | ㅋㅋ ≈ *haha*; 네 / 응 ≈ *vâng / ừ*; KakaoTalk vs Zalo [inference]. |
 | 24 | counters | §5.5 pairs; 권 = *quyển*; the order flips (*hai cốc cà phê* / 커피 두 잔). |
@@ -489,8 +483,8 @@ Anchor words are toneless (*ngang*). No toneless word ends in p/t/c, so those ar
 | 29 | cant | *không … được* ≈ 못 / -(으)ㄹ 수 없어요; *không biết* ≈ 몰라요 / 모르겠어요. |
 | 30 | have-to | *phải* before the verb vs -아/어야 해요 after the stem. Cross-reference → «bài 32, “Nhờ vả lịch sự”». |
 | 31 | honorific | -시- for the doer, never oneself; *dùng / mời* as parallels. |
-| 32 | requests | 좀 ≈ *giúp*; 혹시 ≈ *không biết…*; -아/어 주시겠어요? ≈ *… giúp tôi được không ạ?* |
-| 33 | office | Title + 님 ≈ *anh / chị* + name or *sếp* in function; 부장 ≠ *bộ trưởng*; 회의 ≠ *hội nghị*; 수고 ≈ *vất vả*. "Roughly" column → the §3.2 office titles. |
+| 32 | requests | 좀 ≈ *giúp*; 혹시 ≈ *không biết…*; -아/어 주시겠어요? ≈ *… giúp tôi được không?* |
+| 33 | office | Title + 님 ≈ *anh / chị* + name or *sếp* in function; 부장님 ≠ *bộ trưởng*; 수고 ≈ *vất vả*; 회의 ≠ *hội nghị* in card note ko.c0544. "Roughly" column → the §3.2 office titles. |
 
 ## 8. Glosses and practice prompts
 

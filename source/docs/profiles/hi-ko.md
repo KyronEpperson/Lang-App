@@ -15,9 +15,7 @@ This profile is the writers' authority. It follows the plan of `tl-ko.md`, and i
 1. **No English in Latin script.** Loans are written in Devanagari. Latin is allowed only for RR and its letters (*gang*, *eo*).
 2. **An unspaced gender pair is allowed** in prompts as a last resort (§2.4).
 
-**Wording already on screen:**
-- tab names come from `tools/i18n/hi/ui.json`;
-- terms come from the Hindi Korean roadmap, `tools/i18n/hi/roadmap.json`: हंगुल, स्टेम, काउंटर, सम्मानसूचक, 요-रूप, ध्वनि-बदलाव.
+**Wording already on screen** (tabs from `tools/i18n/hi/ui.json`, terms from `tools/i18n/hi/roadmap.json`) is reused in §3.
 
 **Evidence tags:**
 - **[research]**: a study opened for this profile, with its sample named;
@@ -44,10 +42,7 @@ This profile is the writers' authority. It follows the plan of `tl-ko.md`, and i
    - **listening:** Hindi listeners hear ㄱ like ㅋ;
    - **reading RR the Indian-English way:** *k t p* come out unaspirated, which Koreans hear as ㄲ ㄸ ㅃ (§5).
 6. **Devanagari compares single sounds only.** It never respells words (§6).
-7. **Learners:**
-   - K-pop and K-drama fans: Korean ranked fifth among Duolingo languages for Indians aged 17–25 (2021, via Wikipedia);
-   - school students: Korean is an elective in the revised education policy, with 2,342 school learners in 2022 ([Wikipedia](https://en.wikipedia.org/wiki/Korean_language_education_in_India));
-   - university students (JNU) and job seekers [inference].
+7. **Learners:** K-pop and K-drama fans (Korean was fifth on Duolingo for Indians aged 17–25 in 2021); school students (2,342 in 2022, mostly grades 6–8) ([Wikipedia](https://en.wikipedia.org/wiki/Korean_language_education_in_India)); university students and job seekers [inference].
 
 ## 2. Register, glosses, gender
 
@@ -90,6 +85,7 @@ This profile is the writers' authority. It follows the plan of `tl-ko.md`, and i
 | 수고하셨습니다 | आज की मेहनत के लिए धन्यवाद | 수고했어(요) | बढ़िया काम किया |
 | 수고하세요 | आपका काम अच्छा चले | 잘 부탁드립니다 | आपके सहयोग की उम्मीद है |
 | 좀 | ज़रा | 혹시 | शायद / कहीं |
+| 괜찮아요 | कोई बात नहीं / ठीक है | ㄹ게(요) / -자 | …करूँगा/करूँगी (वादा) / चलो …! |
 | 선생님 | टीचर (सर / मैम) | 사장님 | मालिक |
 | 과장님 / 팀장님 | मैनेजर / टीम लीडर | 오빠·형 / 언니·누나 | भैया / दीदी (§4.6) |
 
@@ -114,6 +110,7 @@ This profile is the writers' authority. It follows the plan of `tl-ko.md`, and i
 - An English he / she, or a named speaker, also decides.
 
 **3. Otherwise, the unspaced pair, masculine first, on the inflected word only:** (मैं) घर जाता/जाती हूँ.
+- **Scope:** every Hindi "I" line in every field, lesson-prose examples included. Bare masculine forms in §4 and §7 (पीता, जाऊँगा) are shorthand for the pair.
 - **Never a spaced ` / `**: that is the dialogue and alternatives separator.
 - Why this rule rather than `hi.md`'s:
   - the answer is Korean, which has no gender;
@@ -152,11 +149,11 @@ This profile is the writers' authority. It follows the plan of `tl-ko.md`, and i
 - **Tabs:** आज · पाठ · अभ्यास · दोहराव · प्रगति.
 - **Buttons:** पता है · फिर से · जाँचें · 📖 ब्राउज़ · मेरे वाक्य.
 - **Never named:** the Read tab (पढ़ना), any trainer or drill.
-- **`hangul`, "Tap a letter to replay":** keep it, because the stroke cells work (spec §8, §10.4).
+- **`hangul`, "Tap a letter to replay":** keep it, as es-ko did: the stroke cells are always on (spec §10.4).
 - **`sound-changes`, the Read-tab drill line:** drop it, and point to पाठ / अभ्यास / दोहराव instead.
 
 **For the lead.** The Hindi interface pack was written for hi-en, so in it "Korean" → अंग्रेज़ी and "romanization" → उच्चारण.
-- `native/hi/ko/ui.json` must override at least the 31 keys of `native/es/ko/ui.json`.
+- `native/hi/ko/ui.json` must override at least the 31 keys of `native/es/ko/ui.json`, plus any other string found by grepping `tools/i18n/hi/ui.json` for अंग्रेज़ी / उच्चारण.
 - Use कोरियाई / हंगुल / रोमन, for example क्या आप हंगुल पढ़ सकते हैं?, Aa रोमन: चालू.
 
 ### 3.3 Labels (w1; progress keys, so they are final once written)
@@ -186,7 +183,7 @@ Stored as "N · title". Each keeps the English title's Hangul. Cross-references 
 
 ## 4. Grammar bridges and breaks
 
-The Hindi facts below are general grammar knowledge, including the NCERT-style कारक table; no textbook was opened, so read them as [convention, not opened]. The Hangul in this section is for the writers' understanding. A lesson may use it only if the English lesson has the same Hangul, or under `_waive`.
+The Hindi facts below are general grammar knowledge, including the NCERT-style कारक table; no textbook was opened, so read them as [convention, not opened]. The Hangul in §4, §6.1 and §7 is for the writers' understanding. A field may use it only if its English has the same Hangul runs, or under `_waive`. Jamo comparisons such as "य + ㅓ" fit only where the English field has that jamo, usually the note rather than the meaning.
 
 ### 4.1 SOV and the कारक map
 
@@ -202,16 +199,16 @@ The Hindi facts below are general grammar knowledge, including the NCERT-style �
 | कारक | Hindi | Korean | Note |
 |---|---|---|---|
 | कर्ता | — / ने | 이/가, topic 은/는 | ने depends on tense and verb; the Korean particle never does |
-| कर्म | को (definite or animate objects) | 을/를 (every object) | चाय पीता हूँ has no को, but 차를 마셔요 |
+| कर्म | को (definite or animate objects) | 을/를 (every object) | चाय पीता/पीती हूँ has no को, but 차를 마셔요 |
 | संप्रदान | को / के लिए | 에게 / 한테 | one sentence at most |
 | experiencer | मुझे भूख लगी है | 저는 + 이/가 | 저에게 배고파요 ✗ |
 | अधिकरण | में / पर | 에 (be, go, time) or 에서 (do) | one में for both: घर में हूँ = 집에 있어요; घर में आराम = 집에서 쉬어요; सोमवार को = 월요일에 |
-| अपादान · करण | से | 에서 (from) · (으)로 (by) | |
+| अपादान · करण | से | 에서 (from a place), 부터 (from a time) · (으)로 (by) | |
 | comparison | से | 보다 | exact match (§4.7) |
 | संबंध | का / की / के | 의, usually dropped (제) | no agreement |
 | संबोधन | अरे … | 아/야 | 민수야! |
 
-Hindi drops the postposition with जाना (घर जाता हूँ). Korean wants 에 (집에 가요), though casual 집 가요 also exists, so this error costs little.
+Hindi drops the postposition with जाना (घर जाता/जाती हूँ). Korean wants 에 (집에 가요), though casual 집 가요 also exists, so this error costs little.
 
 ### 4.2 भी, ही, तो
 
@@ -240,13 +237,13 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
 - **Dictionary form and stem.** 다 ≈ -ना (먹다 ≈ खाना); स्टेम 먹 ≈ the धातु खा.
 - **No agreement.** Korean verbs do not change for person, gender or number. Stress this.
 - **Describing verbs.** Hindi अच्छा है is one Korean word, 좋아요 (좋아이에요 ✗).
-- **하다 verbs.** 하다 ≈ करना: पढ़ाई (नहीं) करता = 공부 (안) 해요. The split works the same way.
+- **하다 verbs.** 하다 ≈ करना: पढ़ाई (नहीं) करता/करती = 공부 (안) 해요. The split works the same way.
 - **Present.** One form covers जाता हूँ, जा रहा हूँ, and a question by tone.
-- **Past.** खाया, खाया है and खा चुका all = 먹었어요, with no ने and no gender. अभी तक नहीं खाया = 아직 안 먹었어요, past in both languages, so no trap.
-- **Future.** जाऊँगा ≈ 갈 거예요. The presumptive (महँगा होगा) = the guessing use (비쌀 거예요).
+- **Past.** खाया, खाया है and खा चुका/चुकी all = 먹었어요, with no ने and no gender. अभी तक नहीं गया/गई is past in both languages (안 갔어요), so no trap.
+- **Future.** जाऊँगा/जाऊँगी ≈ 갈 거예요. The presumptive (महँगा होगा) = the "probably" use with describing verbs.
 - **Negation.** नहीं before the verb = 안 before the verb (커피를 안 마셔요). Also:
   - मत ≈ -지 마세요;
-  - नहीं करूँगा / नहीं कर सकता ≈ 안 / 못;
+  - नहीं करूँगा/करूँगी / नहीं कर सकता/सकती ≈ 안 / 못;
   - सकना ≈ -(으)ㄹ 수 있어요;
   - मुझे नहीं पता = 몰라요.
 
@@ -270,7 +267,7 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
 - **-시- = the respect plural**, a strong bridge.
   - पिताजी घर पर हैं ≈ 계세요.
   - आपका शुभ नाम ≈ 성함.
-  - लीजिए ≈ 드세요.
+  - लीजिए ≈ 드시다.
   - **Breaks:** Hindi uses one plural for both the listener and a third person; Korean splits them into 요 and -시-. Never use -시- for yourself (저는 가세요 ✗).
 - **Address terms.**
   - name + जी ≈ name + 씨 / 님. 씨 is for peers only; neither is used with your own name.
@@ -286,7 +283,7 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
   - Korean has no जो: everything goes before the noun.
   - The bridge is the -ने वाला phrase.
 - **Joining.**
-  - -कर ≈ -고 / -아서 for a sequence; neither takes a tense.
+  - -कर ≈ -고 / -아/어서 for a sequence; neither takes a tense.
   - क्योंकि puts the reason second. Korean puts it first (바빠서), like …था, इसलिए.
   - Story words: पहले, और फिर, उसके बाद, इसलिए, लेकिन, आख़िर में.
 - **Numbers.**
@@ -313,7 +310,7 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
   - breathy → aspirated, 87%.
 - **[research] Hindi learners:** Park & Narang 2019, 5 JNU learners from Bihar.
   - Word-initial VOT was native-like.
-  - Learners voiced medial stops.
+  - Learners voiced medial stops. The authors advise voiceless onsets, against the ग द ब ज call below.
 - **[research chain] Reading RR:** Indian English p and k are unaspirated (Narkar & Staroverov 2023; 102 speakers; p and k only).
   - So RR *k t p ch* read the Indian way → heard as ㄲ ㄸ ㅃ ㅉ.
   - That *t* and *ch* behave the same way is [inference].
@@ -339,11 +336,15 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
 
 ## 6. Reading guide
 
+Voicing is never contrastive in Korean: there is no ग / घ or क / ग pair, only plain / tense / aspirated.
+
 **Policy: comparisons, not readings.** Devanagari is used only for **one sound** (ㅏ ≈ आ) or one syllable with explicit signs and a halant (옷 ≈ "ओत्"), together with लगभग or a mouth description. The reasons:
 1. Schwa deletion makes word respellings unpredictable, and the inherent अ is itself nearly ㅓ.
 2. Devanagari has no letter for ㅡ, and no separate one for ㅓ.
 3. Press spellings (सियोल) fix wrong readings.
 4. Hangul is the goal.
+
+Name and loan spellings in glosses (मिनसू, किमची) are labels, not readings, and are allowed (§8.3).
 
 ### 6.1 Sound table (card notes ko.c0001–c0060, the `hangul` table, deck descriptions)
 
@@ -352,6 +353,7 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
 | ㅏ a | आ (short) | not अ |
 | ㅓ eo | between अ and ऑ: jaw open, lips **not** rounded | not ओ / यो |
 | ㅗ · ㅜ · ㅣ | ओ (rounded) · उ / ऊ · इ / ई; length does not matter | |
+| ㅑ ㅛ ㅠ · ㅘ · ㅟ | या यो यू · वा · वी | |
 | ㅡ eu | उ with the lips spread | no Hindi letter |
 | ㅐ = ㅔ | ए | not "आए" / "अइ" |
 | ㅕ · ㅝ · ㅚ ㅙ ㅞ · ㅢ | य + ㅓ · व + ㅓ · about वे · ㅡ + ई | *yeo* ≠ यो; *wo* ≠ वो |
@@ -362,7 +364,7 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
 | ㄷ ㅌ ㄸ | the त / द family, **not** ट / ड; Korean has no retroflex ("nearer dental" is [inference]; Wikipedia says alveolar) | |
 | final ㅇ | ङ as in रंग, without the ग | 강 ≠ "गांग" |
 | ㄹ | a single-tap र between vowels; ल at the end; ㄹㄹ = the ल्ल of दिल्ली | a final ㄹ is not र |
-| final ㄴ · ㅎ | a full न, not ँ · ह, often silent between vowels | |
+| ㄴ ㅁ · ㅎ | न म (final ㄴ a full न, not ँ) · ह, often silent between vowels | |
 | finals | क् त् प्, unreleased; ㅅ ㅈ ㅊ ㅌ ㅎ → त् (옷 ≈ "ओत्") | not "ओस" |
 
 **Script bridge:** Hangul draws mouth shapes, as क ख ग घ ङ is ordered by mouth position; one **ब्लॉक** = one **अक्षर**. Breaks: vowels are full letters, not मात्रा; the final consonant sits inside the block; reading block by block stops linking.
@@ -387,17 +389,17 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
 | 1 | `hangul` | B: ब्लॉक ≈ अक्षर; §6.2. R: vowel-table glosses → §6.1; keep "tap a letter"; `_waive` |
 | 2 | `polite` | B: आप / तुम ≈ 요 / 반말; the four breaks (§4.6); धन्यवाद / शुक्रिया / थैंक्स; 네 = जी. R: table headers औपचारिक / विनम्र / अनौपचारिक |
 | 3 | `meet` | B: नमस्ते at any hour; age sets address in both cultures; Hindi has no "who leaves" goodbye. R: keep माइक / हुआन; an Indian name (라훌) only under `_waive` |
-| 4 | `sound-changes` | B: 비음화 ≈ school संधि जगत् + नाथ = जगन्नाथ [not opened]; ㄹㄹ ≈ दिल्ली. R: drop the drill line |
+| 4 | `sound-changes` | B: the nasal rule ≈ school संधि जगत् + नाथ = जगन्नाथ [not opened]; ㄹㄹ ≈ दिल्ली. R: drop the drill line |
 | 5 | `nouns` | B: no articles in either language, no gender, मेरा घर = 제 집, 학교 / 학생 like विद्यालय / विद्यार्थी (analogy only). Trap: two-way यह / वह; 들 |
 | 6 | `isseoyo` | R: the "English 'is'" opening → §4.3 |
 | 7 | `pronouns-questions` | B: question words stay in place; क्या has two jobs; हमारे पापा ≈ 우리 엄마; आप ≠ 당신 |
 | 8 | `verbbasics` | B: -ना, धातु, no agreement, विशेषण-क्रिया without है, करना. R: the "to …" framing |
-| 9 | `verbs` | B: one form = जाता हूँ + जा रहा हूँ + question |
-| 10 | `past` | B: one past, no ने or gender; अभी तक नहीं = 아직 안 + past. R: "I ate / have eaten" → the Hindi trio |
-| 11 | `future` | B: -ऊँगा; presumptive होगा. R: "kkeoyeyo" → "कसा क" |
+| 9 | `verbs` | B: one form = जाता/जाती हूँ + जा रहा/रही हूँ + question |
+| 10 | `past` | B: one past, no ने or gender; अभी तक नहीं गया/गई = 안 갔어요 (past). R: "I ate / have eaten" → the Hindi trio |
+| 11 | `future` | B: -ऊँगा/-ऊँगी; presumptive होगा = "probably" (no new Hangul). R: "kkeoyeyo" → "कसा क" |
 | 12 | `sov` | B: SOV in both languages; 을/를 vs को. R: every "English is SVO" line |
 | 13 | `particles` | B: में → 에 / 에서; से = from; tip: "ने, को, से, में की तरह — पर 에 और 에서 दोनों 'में'". R: "English 'at'" |
-| 14 | `negation` | B: नहीं before the verb = 안; पढ़ाई नहीं करता = 공부 안 해요; नहीं है → 없어요 / 아니에요 |
+| 14 | `negation` | B: नहीं before the verb = 안; पढ़ाई नहीं करता/करती = 공부 안 해요; नहीं है → 없어요 / 아니에요 |
 | 15 | `do-man` | B: §4.2; भी + नहीं |
 | 16 | `sentences` | B: same frame and order as Hindi; Korean drops है. R: the "English order" mistakes |
 | 17 | `want-like` | B: §4.5 |
@@ -405,17 +407,17 @@ Hindi drops the postposition with जाना (घर जाता हूँ). 
 | 19 | `food` | B: दो कप चाय vs 차 두 잔. Optional prose tip: many dishes, even kimchi, contain fish or meat |
 | 20 | `getting-around` | B: Delhi Metro ≈ Seoul subway (two-language announcements; metro card ≈ टी-मनी) |
 | 21 | `titles` | B: §4.6; अरे … ≈ 아/야. R: "(you female / male)" → "अगर आप महिला / पुरुष हैं" |
-| 22 | `plans` | B: चलो खाते हैं ≈ 먹자; चलें? ≈ -ㄹ까요?; चलोगे? ≈ -ㄹ래?; exits ≈ Metro "गेट नंबर" |
+| 22 | `plans` | B: चलो खाते हैं ≈ 먹자; चलें? ≈ -(으)ㄹ까요?; चलोगे? ≈ -(으)ㄹ래요?; exits ≈ Metro "गेट नंबर" |
 | 23 | `texting` | B: ㅋㅋ ≈ हाहा; 읽씹 ≈ व्हाट्सऐप blue ticks with no reply |
 | 24 | `counters` | B: the number comes first in Hindi, last in Korean; लोग ≈ 명 |
 | 25 | `joining` | B: -कर; reason first with इसलिए. R: "and / but / so" → और / लेकिन / इसलिए |
 | 26 | `story` | B: the story words (§4.7) |
 | 27 | `noun-modifiers` | B: -ने वाला. R: "no that / which" → "कोरियाई में 'जो' नहीं" |
 | 28 | `compare` | B: से = 보다, in the same place |
-| 29 | `cant` | B: नहीं करूँगा / नहीं कर सकता ≈ 안 / 못; spicy food is an easy win for Indian learners |
+| 29 | `cant` | B: नहीं करूँगा/करूँगी / नहीं कर सकता/सकती ≈ 안 / 못; spicy food is an easy win for Indian learners |
 | 30 | `have-to` | B: मुझे … है / पड़ेगा; ज़रूरत नहीं = 안 가도 돼요. R: cross-reference → पाठ 32, «विनम्रता से चीज़ें माँगना» |
-| 31 | `honorific` | B: respect plural = -시-; शुभ नाम = 성함; लीजिए = 드세요 |
-| 32 | `requests` | B: 좀 = ज़रा; -इएगा ≈ 주시겠어요; "बैठ जाऊँ तो चलेगा?" ≈ -면 안 돼요?; "ले लूँ?" ≈ -아도 돼요? |
+| 31 | `honorific` | B: respect plural = -시-; शुभ नाम = 성함; लीजिए ≈ 드시다 |
+| 32 | `requests` | B: 좀 = ज़रा; -इएगा ≈ 주시겠어요; "बैठ जाऊँ तो चलेगा?" ≈ -(으)면 안 돼요?; "ले लूँ?" ≈ -아/어도 돼요? |
 | 33 | `office` | B: a title alone ≈ "सर"; Indian job titles (§2.3); 회식 ≈ टीम डिनर; the 운전해야 돼요 excuse for non-drinkers |
 
 ## 8. Row conventions
@@ -439,7 +441,7 @@ Read `target/ko/practice.jsonl` (`a`, `x`, `hint`) first.
 - **Tense.**
   - Present: habitual -ता है (-रहा है only if the English is progressive).
   - Past: perfective.
-  - Future: -ऊँगा / -एगा (never -ने वाला).
+  - Future: -ऊँगा/-ऊँगी, -एगा (never -ने वाला).
   - Have-to: मुझे … है.
   - Want: मन है.
 - **Other cues.**
@@ -451,6 +453,10 @@ Read `target/ko/practice.jsonl` (`a`, `x`, `hint`) first.
 
 - **People:** Kii कीई, 민수 मिनसू, 리사 लिसा, Mike माइक, Juan हुआन, 지은 जीउन.
 - **Places:** कोरिया, सियोल, बुसान, म्योंगदोंग, ओक्लाहोमा.
+- **Other Korean names and loans** (dishes, places, fandom words):
+  - Use the established Indian spelling if one exists (किमची, सोजू, के-पॉप).
+  - Otherwise transcribe the RR letter by letter: g ग · k / kk क · d द · t / tt त · b ब · p / pp प · j / jj ज · ch च · s / ss स · h ह · n न · m म · ng ंग · r र · l ल · a आ · eo / o ओ · u ऊ · eu उ · i ई · ae / e ए; y- य, w- व (홍대 होंगदे, 비빔밥 बिबिमबाप).
+  - These are labels, not pronunciation, so ㅓ → ओ (the press habit) is fine here only.
 - **"The US": follow the row as given.**
   - 미국에서 왔어요 → मैं अमेरिका से हूँ.
   - When the Korean half moves to "I'm from ___" plus a Countries deck, gloss what the rows say (मैं ___ से हूँ). Never swap in India.
@@ -465,7 +471,7 @@ Read `target/ko/practice.jsonl` (`a`, `x`, `hint`) first.
 - No invented etymologies.
   - 살 / साल is a labelled coincidence; विद्यालय / 학교 is only an analogy.
   - No etymology beyond what the English says.
-- No whole-word Devanagari respellings, and no comparisons with English sounds.
+- No whole-word Devanagari respellings (name labels excepted, §8.3), and no comparisons with English sounds.
 - No तू. No mixing आप and तुम towards the learner. No कृपया with plain 주세요. No added जी.
 - No silent gender choice, and no spaced gender slash.
 - Never name the Read tab, a trainer or a drill.
@@ -478,8 +484,7 @@ Read `target/ko/practice.jsonl` (`a`, `x`, `hint`) first.
 2. Is the pair जाता/जाती acceptable, and is मन है right for -고 싶어요?
 3. Do आराम से जाइए / रहिए, आपका काम अच्छा चले and आपके सहयोग की उम्मीद है sound natural?
 4. Are विषय / कर्ता / कर्म पार्टिकल and अनौपचारिक clear?
-5. Is ㅓ "between अ and ऑ" a fair description? Is ㄲ ≈ क्क? Does 혹시 = शायद / कहीं work?
-6. Are the deck labels and level titles natural?
+5. ㅓ "between अ and ऑ"; ㄲ ≈ क्क; 혹시 = शायद / कहीं; the deck labels and level titles?
 
 **Limits of the evidence:**
 - The four studies are small (§5.1 gives their limits).
