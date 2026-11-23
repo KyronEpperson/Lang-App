@@ -1,242 +1,263 @@
-/* TRANSLATE/ADAPT (tl): scaffolded from tools/content/ko/lessons.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for tl speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the tl point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
 exports.LESSONS = [
-{ id:"alphabet", title:"1 · 알파벳: 글자 이름과 철자 불러 주기", blurb:"글자는 읽을 줄 알아도 영어 이름은 헷갈리죠? 이름·이메일 철자를 영어로 또박또박 불러 봐요.", deck:"알파벳", body:`
-<p>호텔 예약, 전화 상담, 카페 주문에서 꼭 듣는 말이 있어요. "철자가 어떻게 돼요?" 내 이름, 이메일 주소, 예약 번호를 불러 주려면 글자마다 <b>영어 이름</b>을 알아야 해요. 한국에서 배운 읽는 법(제트, 알 등)과 다른 이름도 있어서, 한 번 정리해 두면 훨씬 편해요.</p>
-<h3>글자 26개의 이름</h3>
-<p>굵은 글자 다섯 개 <b>A E I O U</b>가 모음이에요. 나머지는 자음이에요.</p>
-<div class="tbl"><table><tr><td class="k"><b>A</b> 에이</td><td class="k">B 비 (b)</td><td class="k">C 씨</td><td class="k">D 디</td><td class="k"><b>E</b> 이</td></tr><tr><td class="k">F 에프</td><td class="k">G 지 (g)</td><td class="k">H 에이치</td><td class="k"><b>I</b> 아이</td><td class="k">J 제이</td></tr><tr><td class="k">K 케이</td><td class="k">L 엘</td><td class="k">M 엠</td><td class="k">N 엔</td><td class="k"><b>O</b> 오우</td></tr><tr><td class="k">P 피</td><td class="k">Q 큐</td><td class="k">R 아r</td><td class="k">S 에스</td><td class="k">T 티</td></tr><tr><td class="k"><b>U</b> 유</td><td class="k">V 비 (v)</td><td class="k">W 더블유</td><td class="k">X 엑스</td><td class="k">Y 와이</td></tr><tr><td class="k">Z 지 (z)</td><td></td><td></td><td></td><td></td></tr></table></div>
-<h3>한국 사람이 자주 헷갈리는 이름</h3>
-<div class="tbl"><table><tr><th>글자</th><th>영어 이름</th><th>주의할 점</th></tr><tr><td class="k">G / J / Z</td><td>지 (g) / 제이 / 지 (z)</td><td>G는 '쥐'에 가까운 '지', Z는 성대를 울리는 z 소리의 zee예요. 미국에서 '제트'는 안 통해요</td></tr><tr><td class="k">E / I</td><td>이 / 아이</td><td>E가 '이', I가 '아이'예요. 이메일 주소에서 특히 많이 틀려요</td></tr><tr><td class="k">B / V</td><td>비 (b) / 비 (v)</td><td>B는 두 입술, V는 윗니를 아랫입술에 대요</td></tr><tr><td class="k">P / F</td><td>피 / 에프</td><td>F는 '에프' 끝에서 윗니를 아랫입술에 대요</td></tr><tr><td class="k">L / R</td><td>엘 / 아r</td><td>R은 '알'이 아니에요. 혀를 뒤로 말고 어디에도 닿지 않게 해요</td></tr><tr><td class="k">W</td><td>더블유</td><td>double u, 'U 두 개'라는 뜻이에요. 세 음절을 다 말해요</td></tr></table></div>
-<h3>철자 묻고 불러 주기</h3>
-<p>잘 안 들리는 글자는 <b>"B as in boy"</b>처럼 그 글자로 시작하는 쉬운 단어를 붙여서 확인해요.</p>
-{{ex:How do you spell that?|하우 두 유 스펠 댓?|철자가 어떻게 돼요?}}{{ex:How do you spell your last name?|하우 두 유 스펠 유어 래스트 네임?|성은 철자가 어떻게 돼요?}}{{ex:Can you spell that, please?|캔 유 스펠 댓, 플리즈?|철자 좀 불러 주시겠어요?}}{{ex:It starts with a capital T.|잇 스타츠 위드 어 캐피털 티|대문자 T로 시작해요}}{{ex:B as in boy.|비 애즈 인 보이|boy의 B요}}{{ex:Is that M as in Mary?|이즈 댓 엠 애즈 인 메리?|Mary의 M 맞아요?}}{{ex:There are two Ls in hello.|데어 아 투 엘즈 인 헬로우|hello에는 L이 두 개 있어요}}
-<h3>글자 이름 앞의 a와 an</h3>
-<p>관사는 철자가 아니라 <b>이름의 첫소리</b>로 정해요. F(에프), H(에이치), L(엘), M(엠), N(엔), R(아r), S(에스), X(엑스)는 이름이 모음 소리로 시작해서 <b>an F, an H, an L, an M, an N, an R, an S, an X</b>예요.</p>
-<p>반대로 U는 모음 글자지만 이름이 y 소리 '유'로 시작해서 <b>a U</b>예요. a university와 같은 원리예요.</p>
-<div class="tip">이메일 불러 주기 공식: 대문자는 <b>capital T</b>, 같은 글자 두 개는 <b>double L</b>, @는 <b>at</b>, 점(.)은 <b>dot</b>이에요. 예: jay.park@mail.com → "jay dot park at mail dot com".</div>`},
+{ id:"alphabet", title:"1 · Alpabeto: pangalan ng mga titik at pagbaybay", blurb:"Kabisado mo na ang mga titik. Ang sasanayin dito: ang Z, ang C laban sa Z, at ang mabilis na pagbaybay ng pangalan at email sa Ingles.", deck:"Alpabeto", body:`
+<p>Sa hotel, sa telepono at sa counter, madalas mong marinig ang tanong na <b>How do you spell that?</b> Kailangan mong sabihin ang pangalan mo, ang email address mo o ang booking code nang <b>isa-isang titik</b>. Magandang balita: galing na sa Ingles ang mga pangalan ng titik sa alpabetong Filipino (ey, bi, si, di…), kaya halos lahat ay alam mo na. Ang sasanayin na lang ay ang ilang pangalang madalas magkapalit sa pandinig ng kausap, at ang bilis.</p>
+<h3>Ang 26 na titik at ang pangalan nila</h3>
+<p>Ang limang titik na makapal ang sulat, <b>A E I O U</b>, ang mga vowel (patinig). Consonant (katinig) ang iba. Ang nasa pagitan ng mga guhit na pahilis ay ang bigkas (IPA) ng <b>pangalan</b> ng titik. Walang Ñ at NG sa alpabetong Ingles.</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> /ˈeɪ/</td><td class="k">B /ˈbiː/</td><td class="k">C /ˈsiː/</td><td class="k">D /ˈdiː/</td><td class="k"><b>E</b> /ˈiː/</td></tr><tr><td class="k">F /ˈef/</td><td class="k">G /ˈdʒiː/</td><td class="k">H /ˈeɪtʃ/</td><td class="k"><b>I</b> /ˈaɪ/</td><td class="k">J /ˈdʒeɪ/</td></tr><tr><td class="k">K /ˈkeɪ/</td><td class="k">L /ˈel/</td><td class="k">M /ˈem/</td><td class="k">N /ˈen/</td><td class="k"><b>O</b> /ˈoʊ/</td></tr><tr><td class="k">P /ˈpiː/</td><td class="k">Q /ˈkjuː/</td><td class="k">R /ˈɑːr/</td><td class="k">S /ˈes/</td><td class="k">T /ˈtiː/</td></tr><tr><td class="k"><b>U</b> /ˈjuː/</td><td class="k">V /ˈviː/</td><td class="k">W /ˈdʌbəljuː/</td><td class="k">X /ˈeks/</td><td class="k">Y /ˈwaɪ/</td></tr><tr><td class="k">Z /ˈziː/</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>Mga pangalang madalas magkapalit</h3>
+<div class="tbl"><table><tr><th>Titik</th><th>Pangalan sa Ingles</th><th>Tandaan</th></tr><tr><td class="k">Z</td><td>/ˈziː/</td><td>"Zi" sa American English, hindi "zed". Dapat marinig ang ugong ng boses sa /z/. Kapag /s/ ang lumabas, C ang maririnig ng kausap mo</td></tr><tr><td class="k">C / S</td><td>/ˈsiː/ / /ˈes/</td><td>Katunog ng salitang see ang C. Sa S, vowel ang unang tunog</td></tr><tr><td class="k">F / P</td><td>/ˈef/ / /ˈpiː/</td><td>Sa dulo ng F, dumidikit ang mga ngipin sa itaas sa ibabang labi. Hindi ito "ep"</td></tr><tr><td class="k">V / B</td><td>/ˈviː/ / /ˈbiː/</td><td>Sa V, ngipin at ibabang labi; sa B, dalawang labi. Kapag pareho ang bigkas mo sa dalawa, B ang maririnig</td></tr><tr><td class="k">E / I</td><td>/ˈiː/ / /ˈaɪ/</td><td>Sa Tagalog, "i" ang basa sa titik na I. Sa Ingles, /iː/ ang pangalan ng E at /aɪ/ ang pangalan ng I. Madalas itong magkapalit sa email address</td></tr><tr><td class="k">G / J</td><td>/ˈdʒiː/ / /ˈdʒeɪ/</td><td>Pareho ang simula. /iː/ ang dulo ng G, /eɪ/ ang dulo ng J</td></tr><tr><td class="k">R</td><td>/ˈɑːr/</td><td>Hindi pumipitik ang dila gaya ng <i>r</i> sa Tagalog. Umuurong ito at walang dinidikitan</td></tr><tr><td class="k">W</td><td>/ˈdʌbəljuː/</td><td>Double u, ibig sabihin ay "dalawang U". Bigkasin ang tatlong pantig</td></tr></table></div>
+<h3>Pagtatanong at pagsasabi ng baybay</h3>
+<p>Kapag hindi malinaw ang isang titik, dugtungan ito ng madaling salitang nagsisimula sa titik na iyon: <b>B as in boy</b>. Ang <b>last name</b> ay apelyido.</p>
+{{ex:How do you spell that?|/ˈhaʊ də ju ˈspel ˈðæt/|Paano iyan binabaybay?}}{{ex:How do you spell your last name?|/ˈhaʊ də ju ˈspel jʊr ˈlæst ˈneɪm/|Paano binabaybay ang apelyido mo?}}{{ex:Can you spell that, please?|/kən ju ˈspel ˈðæt ˈpliːz/|Puwede mo bang baybayin iyan?}}{{ex:It starts with a capital T.|/ɪt ˈstɑːrts wɪð ə ˈkæpɪtl ˈtiː/|Nagsisimula ito sa malaking titik na T}}{{ex:B as in boy.|/ˈbiː əz ɪn ˈbɔɪ/|B, gaya ng sa "boy"}}{{ex:Is that M as in Mary?|/ɪz ˈðæt ˈem əz ɪn ˈmeri/|M ba iyan, gaya ng sa "Mary"?}}{{ex:There are two Ls in hello.|/ðer ər ˈtuː ˈelz ɪn həˈloʊ/|May dalawang L sa "hello"}}
+<h3>"a" o "an" bago ang pangalan ng titik</h3>
+<p>Ang article ay sumusunod sa <b>unang tunog ng pangalan</b> ng titik, hindi sa titik mismo. Tunog na vowel ang simula ng pangalan ng F, H, L, M, N, R, S at X, kaya <b>an F, an H, an L, an M, an N, an R, an S, an X</b>.</p>
+<p>Vowel na titik ang U, pero /j/ (ang tunog ng <i>y</i> sa Tagalog) ang simula ng pangalan nito, kaya <b>a U</b>. Ganito rin ang <b>a university</b>.</p>
+<div class="tip">Sa pagsasabi ng email: <b>capital T</b> ang malaking titik, <b>double L</b> ang dalawang magkasunod na L, <b>at</b> ang @, at <b>dot</b> ang tuldok. Halimbawa: ana.santos@mail.com → <b>A-N-A dot S-A-N-T-O-S at mail dot com</b>.</div>`},
 
-{ id:"pron", title:"1 · 발음 함정: R/L·F/P·TH·V/B", blurb:"한국어에 없는 소리 다섯 가지와 강세 — 이것만 잡아도 알아듣는 사람이 확 늘어요.", deck:"발음 주의", body:`
-<p>영어에는 한국어에 없는 소리가 몇 개 있어요. 원어민은 이 소리로 단어를 구분하기 때문에, 조금만 신경 써도 훨씬 잘 통해요. 핵심은 <b>입 모양</b>이에요. 거울을 보면서 연습해 보세요.</p>
-<h3>R과 L</h3>
-<p><b>L</b>은 혀끝을 윗니 뒤 잇몸에 <b>붙였다 떼요</b>. <b>R</b>은 혀끝이 <b>어디에도 닿지 않아요</b>. 입술을 살짝 둥글게 내밀고 혀를 뒤로 당긴 채 "(우)롸" 하듯 시작해요.</p>
-{{ex:rice|롸이스|쌀, 밥}}{{ex:lice|라이스|이 (벌레)}}{{ex:right|롸잇|오른쪽, 맞는}}{{ex:light|라잇|빛, 가벼운}}
-<h3>F·V와 P·B</h3>
-<div class="tbl"><table><tr><th>소리</th><th>입 모양</th><th>예</th></tr><tr><td class="k">F</td><td>윗니를 아랫입술에 대고 바람만</td><td>fan, coffee</td></tr><tr><td class="k">P</td><td>두 입술을 붙였다 터뜨림</td><td>pan, copy</td></tr><tr><td class="k">V</td><td>F 입 모양 + 성대 울림</td><td>very, vote</td></tr><tr><td class="k">B</td><td>P 입 모양 + 성대 울림</td><td>berry, boat</td></tr></table></div>
-{{ex:fan|팬 (f)|선풍기}}{{ex:pan|팬 (p)|프라이팬}}{{ex:very|베리 (v)|매우}}{{ex:berry|베리 (b)|딸기류 열매}}
+{ id:"pron", title:"1 · Bigkas: F/P, V/B, TH, Z/S at mga vowel", blurb:"Ayos lang ang puntong Pinoy. Ito ang mga tunog at stress na nagpapalit ng salita, kaya sulit sanayin.", deck:"Ingat sa bigkas", body:`
+<p>Malinaw at naiintindihan ang Ingles ng mga Pilipino, at hindi mo kailangang burahin ang punto mo. May ilang tunog lang na kapag napalitan ay <b>ibang salita na</b> ang naririnig: <b>fan</b> at <b>pan</b>, <b>ship</b> at <b>sheep</b>. Iyon ang sasanayin dito. Ipinapakita rin ng araling ito kung paano basahin ang bigkas (IPA) na nakasulat sa mga card at halimbawa. Kung ayaw mo itong makita, puwede mo itong itago sa settings.</p>
+<h3>Paano basahin ang bigkas (IPA)</h3>
+<div class="tbl"><table><tr><th>Simbolo</th><th>Halimbawa</th><th>Tandaan</th></tr><tr><td class="k">iː / ɪ</td><td>leave /ˈliːv/, live /ˈlɪv/</td><td>Iisa ang <i>i</i> sa Tagalog. Mas maikli at mas maluwag ang /ɪ/</td></tr><tr><td class="k">uː / ʊ</td><td>food /ˈfuːd/, book /ˈbʊk/</td><td>Iisa rin ang <i>u</i> sa Tagalog</td></tr><tr><td class="k">æ / ʌ / ɑː</td><td>cat /ˈkæt/, cut /ˈkʌt/, hot /ˈhɑːt/</td><td>Tatlong magkaibang tunog na sakop lahat ng <i>a</i> sa Tagalog. Sa /æ/, mas ibuka ang bibig</td></tr><tr><td class="k">ə</td><td>about /əˈbaʊt/</td><td>Schwa: mahina at maikling "uh". Walang ganitong tunog sa Tagalog</td></tr><tr><td class="k">oʊ / ɔː</td><td>go /ˈgoʊ/, talk /ˈtɔːk/</td><td>Dumudulas papuntang "u" ang /oʊ/; hindi ito payak na <i>o</i></td></tr><tr><td class="k">θ / ð</td><td>think /ˈθɪŋk/, this /ˈðɪs/</td><td>Ang dalawang tunog ng TH</td></tr><tr><td class="k">ʃ / tʃ / dʒ</td><td>shop /ˈʃɑːp/, teacher /ˈtiːtʃər/, job /ˈdʒɑːb/</td><td>/tʃ/ ang <i>ts</i> sa "tsinelas"; /dʒ/ ang <i>dy</i> sa "dyip"</td></tr><tr><td class="k">ŋ / j</td><td>sing /ˈsɪŋ/, yes /ˈjes/</td><td>/ŋ/ ang <i>ng</i> sa "ngayon"; /j/ ang <i>y</i> sa "yelo"</td></tr></table></div>
+<p>Ang <b>ˈ</b> ay marka ng stress (diin): nasa unahan ito ng pantig na binibigyang-diin. Sa kursong ito, may ˈ kahit ang mga salitang iisa ang pantig. Ang maliliit na salitang walang ˈ (a, the, to, can) ay mahina at mabilis ang bigkas.</p>
+<h3>F at P, V at B</h3>
+<p>Sa <b>F</b> at <b>V</b>, dumidikit ang mga ngipin sa itaas sa ibabang labi. Sa <b>P</b> at <b>B</b>, nagdidikit ang dalawang labi. Puwedeng magkamali sa dalawang direksyon: <b>fan</b> na nagiging <b>pan</b>, at <b>pretty</b> na nagiging "fretty" dahil sa sobrang pag-iingat.</p>
+<div class="tbl"><table><tr><th>Tunog</th><th>Ayos ng bibig</th><th>Halimbawa</th></tr><tr><td class="k">F</td><td>Ngipin sa itaas sa ibabang labi, hangin lang</td><td>fan, coffee</td></tr><tr><td class="k">P</td><td>Magkadikit ang dalawang labi, saka bubuksan</td><td>pan, copy</td></tr><tr><td class="k">V</td><td>Ayos ng F, may ugong ng boses</td><td>very, vote</td></tr><tr><td class="k">B</td><td>Ayos ng P, may ugong ng boses</td><td>berry, boat</td></tr></table></div>
+{{ex:fan|/ˈfæn/|bentilador / tagahanga}}{{ex:pan|/ˈpæn/|kawali}}{{ex:very|/ˈveri/|napaka- / lubha}}{{ex:berry|/ˈberi/|maliit na prutas gaya ng strawberry}}{{ex:vote|/ˈvoʊt/|bumoto}}{{ex:boat|/ˈboʊt/|bangka}}
 <h3>TH</h3>
-<p>혀끝을 윗니와 아랫니 사이로 <b>살짝 내밀고</b> 바람을 내보내요. 바람만 나가면 <i>think</i>의 th, 성대가 울리면 <i>this</i>의 th예요. ㅆ이나 ㄸ으로 바꾸면 <i>sink</i>, <i>tree</i>처럼 다른 단어로 들려요.</p>
-{{ex:think|띵크 (th)|생각하다}}{{ex:three|쓰리 (th)|숫자 3}}{{ex:this|디스 (th)|이것}}
-<h3>끝 자음에 '으'를 붙이지 마세요</h3>
-<p>한국어 습관대로 milk를 "밀크으", bus를 "버스으"처럼 말하면 음절이 하나 더 생겨요. 영어의 끝 자음은 <b>모음 없이 짧게</b> 끝나요. 끝소리가 뜻을 바꾸기도 해요: bag(가방) / back(등), cab(택시) / cap(모자).</p>
-<h3>강세가 생명이에요</h3>
-<p>영어는 단어마다 한 음절을 <b>세고, 길고, 높게</b> 말해요. 발음이 정확해도 강세가 틀리면 못 알아들어요.</p>
-<div class="tbl"><table><tr><th>단어</th><th>강세</th><th>한글 느낌</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>버<b>내</b>너</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>호우<b>텔</b></td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>먹<b>다</b>널즈</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>써<b>틴</b> / <b>써</b>리</td></tr></table></div>
-<div class="tip">체크 방법: F·V는 윗니가 아랫입술에, TH는 혀끝이 이 사이에 <b>보여야</b> 해요. 거울에 보이면 맞게 하고 있는 거예요!</div>`},
+<p>Ilabas nang bahagya ang dulo ng dila sa pagitan ng mga ngipin at magpalabas ng hangin. Kapag hangin lang, /θ/ ito ng <b>think</b>. Kapag may ugong ng boses, /ð/ ito ng <b>this</b>. Kapag /t/ o /d/ ang ipinalit, ibang salita ang maririnig: ang <b>three</b> ay nagiging <b>tree</b>, at ang <b>think</b> ay nagiging "tink".</p>
+{{ex:think|/ˈθɪŋk/|mag-isip}}{{ex:three|/ˈθriː/|tatlo}}{{ex:tree|/ˈtriː/|puno}}{{ex:this|/ˈðɪs/|ito}}
+<h3>Z at S</h3>
+<p>Ang /z/ ay /s/ na may ugong ng boses. Ipatong ang daliri sa lalamunan: dapat itong manginig. Pinakamadalas itong mawala sa dulo ng salita: /z/ ang dulo ng <b>his</b>, at /z/ rin ang plural na -s ng <b>dogs</b> /ˈdɔːgz/.</p>
+{{ex:zoo / Sue|/ˈzuː/ /ˈsuː/|zoo (pasyalang may mga hayop) / Sue (pangalan ng babae)}}{{ex:his / hiss|/ˈhɪz/ /ˈhɪs/|kaniya (lalaki) / sagitsit ng ahas}}
+<h3>Mga vowel: maikli at mahaba, at ang tatlong "a"</h3>
+<p>Lima ang vowel sa Tagalog; mas marami sa Ingles. Kaya may mga pares na magkatunog sa pandinig natin pero magkaibang salita.</p>
+{{ex:ship / sheep|/ˈʃɪp/ /ˈʃiːp/|barko / tupa}}{{ex:full / fool|/ˈfʊl/ /ˈfuːl/|puno, busog / hangal}}{{ex:cat / cut / cot|/ˈkæt/ /ˈkʌt/ /ˈkɑːt/|pusa / hiwa / maliit na higaan}}
+<p>Sa mga pantig na walang stress, kadalasang nagiging schwa /ə/ ang vowel: <b>about</b> /əˈbaʊt/, <b>banana</b> /bəˈnænə/. Huwag bigkasin nang buo ang bawat vowel gaya ng sa Tagalog.</p>
+<h3>R at L</h3>
+<p>Madali ito para sa iyo dahil may R at L na sa Tagalog. Isa lang ang babaguhin: sa R ng American English, hindi pumipitik ang dila. Umuurong ito at walang dinidikitan. Sa L, dumidikit ang dulo ng dila sa gilagid sa likod ng mga ngipin sa itaas.</p>
+{{ex:rice|/ˈraɪs/|bigas, kanin}}{{ex:lice|/ˈlaɪs/|mga kuto}}{{ex:right|/ˈraɪt/|kanan / tama}}{{ex:light|/ˈlaɪt/|ilaw / magaan}}
+<h3>Buuin ang dulo ng salita</h3>
+<p>Sa mabilis na pagsasalita, madalas mawala ang huling consonant kapag magkakasunod ang mga ito: <b>gift</b> /ˈgɪft/, <b>asked</b> /ˈæskt/, <b>works</b> /ˈwɜːrks/. Nasa dulo ang -s at ang -ed, kaya kapag nawala ang tunog, nawawala rin ang grammar. Nagpapalit din ng salita ang huling tunog: <b>bag</b> /ˈbæg/ (lalagyan) at <b>back</b> /ˈbæk/ (likod).</p>
+<h3>Stress at tono</h3>
+<p>Sa bawat salitang Ingles, may isang pantig na <b>mas malakas, mas mahaba at mas mataas</b>. Sa Tagalog, kadalasang nasa huli o pangalawa sa huling pantig ang diin, kaya doon din natin nailalagay ang stress ng mga salitang Ingles.</p>
+<div class="tbl"><table><tr><th>Salita</th><th>Stress</th><th>Bigkas (IPA)</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>/bəˈnænə/</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>/hoʊˈtel/</td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>/məkˈdɑːnəldz/</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>/ˌθɜːrˈtiːn/, /ˈθɜːrti/</td></tr><tr><td class="k">ceremony</td><td><b>CE</b>-re-mo-ny</td><td>/ˈserəmoʊni/</td></tr><tr><td class="k">comfortable</td><td><b>COM</b>-for-ta-ble</td><td>/ˈkʌmftəbl/</td></tr></table></div>
+<p>Sa mga tanong na nagsisimula sa question word (what, where, how), <b>bumababa</b> ang tono sa dulo: Where do you live? Tumataas lang ito sa mga tanong na masasagot ng yes o no: Do you live here?</p>
+<div class="tip">Paraan ng pagsusuri: sa F at V, dapat nakadikit ang mga ngipin sa itaas sa ibabang labi; sa TH, dapat <b>nakikita</b> ang dulo ng dila sa pagitan ng mga ngipin. Tumingin sa salamin habang nagsasanay. Sa /z/, hawakan ang lalamunan at damhin ang ugong.</div>`},
 
-{ id:"articles", title:"2 · a와 the: 관사 감 잡기", blurb:"한국어에 없는 관사, 세 가지 경우만 기억하면 돼요.", deck:"자기소개", body:`
-<p>한국어에는 관사가 없어서 가장 많이 틀리는 부분이에요. 완벽하지 않아도 대화는 통하지만, 기본 세 가지만 알면 훨씬 자연스러워져요.</p>
-<h3>a / an — 처음 말하는 '하나'</h3>
-<p>셀 수 있는 명사 하나를 <b>처음</b> 말할 때 써요. 직업 앞에도 꼭 붙여요.</p>
-{{ex:I'm a student.|아임 어 스튜던트|저는 학생이에요}}{{ex:I have a dog.|아이 해버 독|개를 한 마리 키워요}}
-<p><b>an</b>은 철자가 아니라 <b>소리</b>로 정해요. 모음 소리로 시작하면 an이에요.</p>
-<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university (유-)</td><td class="k">an hour (아워 — h 묵음)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket (원-)</td><td class="k">an MBA (엠-)</td></tr></table></div>
-<h3>the — 서로 아는 '그것'</h3>
-<p>이미 말했거나, 상황상 무엇인지 둘 다 아는 것에 써요. 하나뿐인 것(the sun, the internet)에도 써요.</p>
-{{ex:I have a dog. The dog is so cute.|아이 해버 독. 더 독 이즈 쏘 큐트|개를 키워요. 그 개가 정말 귀여워요}}{{ex:Can you close the door?|캔 유 클로즈 더 도어?|문 좀 닫아 줄래요? (이 방의 그 문)}}
-<h3>관사 없음 — 일반적인 이야기</h3>
-<p>'~라는 것 전체'를 말할 때는 복수형이나 셀 수 없는 명사를 관사 없이 써요. 식사 이름, 언어, 운동도 관사가 없어요.</p>
-{{ex:I love dogs.|아이 러브 독즈|저는 개를 좋아해요 (개라는 동물 전체)}}{{ex:I don't drink coffee.|아이 돈 드링크 커피|저는 커피를 안 마셔요}}{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}
-<div class="tip">가장 흔한 실수 1위: <b>I'm teacher.</b> (X) → <b>I'm a teacher.</b> (O). 직업 앞의 a는 절대 빼먹지 마세요!</div>`},
+{ id:"articles", title:"2 · a, an, the — at kailan walang article", blurb:"Hindi lahat ng \"ang\" ay \"the\". Kailan \"a\", kailan \"the\", at kailan wala talaga?", deck:"Pagpapakilala", body:`
+<p>Ito ang detalyeng pinakamadalas makalusot kahit sa mahuhusay mag-Ingles: <b>I love the nature.</b> ✗ → <b>I love nature.</b> ✓ Sa Tagalog, halos bawat noun (pangngalan) ay may maliit na salita sa unahan (<i>ang, ng, sa</i>), kaya nakasanayan nating maglagay ng <b>the</b> kahit hindi kailangan. Pero hindi <b>the</b> ang <i>ang</i>. Ipinapakita ng <i>ang</i> ang papel ng noun sa pangungusap. Ang article (pantukoy sa Ingles: <b>a, an, the</b>) naman ay nagsasabi kung alam na ng kausap mo kung alin ang tinutukoy. Tatlo ang pagpipilian, at ang pangatlo ay <b>walang article</b>.</p>
+<h3>a / an: isa, at unang banggit</h3>
+<p>Gamitin sa isang noun na nabibilang kapag <b>unang beses</b> itong binanggit. Kahawig ito ng <i>isang</i>, pero sa Tagalog puwedeng wala ang <i>isang</i>; sa Ingles, hindi puwedeng tanggalin ang <b>a</b>. Kaya ang <i>Guro ako</i> ay <b>I'm a teacher</b>: may article bago ang trabaho.</p>
+{{ex:I'm a student.|/aɪm ə ˈstuːdnt/|Estudyante ako}}{{ex:I have a dog.|/aɪ ˈhæv ə ˈdɔːg/|May aso ako}}
+<p>Tunog, hindi baybay, ang batayan ng <b>an</b>: kapag tunog na vowel ang simula ng kasunod na salita, <b>an</b> ang gamit.</p>
+<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university (tunog ng <i>y</i> ang simula)</td><td class="k">an hour (hindi binibigkas ang h)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket (tunog ng <i>w</i> ang simula)</td><td class="k">an MBA ("em" ang simula)</td></tr></table></div>
+<h3>the: iyong alam na ninyong dalawa</h3>
+<p>Gamitin kapag nabanggit na ito, o kapag malinaw sa sitwasyon kung alin ang tinutukoy. Mas malapit ito sa <i>iyong</i> ("yung") kaysa sa <i>ang</i>. Ginagamit din ito sa mga bagay na nag-iisa (the sun, the internet) at sa ilang bansang plural (maramihan) ang pangalan: <b>the Philippines</b>, <b>the United States</b>.</p>
+{{ex:I have a dog. The dog is so cute.|/aɪ ˈhæv ə ˈdɔːg ‖ ðə ˈdɔːg ɪz ˈsoʊ ˈkjuːt/|May aso ako. Ang cute ng asong iyon}}{{ex:Can you close the door?|/kən ju ˈkloʊz ðə ˈdɔːr/|Puwede mo bang isara ang pinto? (ang pinto ng kuwartong ito)}}
+<h3>Walang article: kapag pangkalahatan ang sinasabi</h3>
+<p>Kapag ang buong uri ang tinutukoy at hindi isang tiyak na bagay, gamitin ang plural o ang noun na hindi nabibilang nang <b>walang article</b>. Wala ring article bago ang breakfast, lunch at dinner, bago ang mga wika at laro, at bago ang karamihan ng pangalan ng tao, lungsod at bansa.</p>
+{{ex:I love dogs.|/aɪ ˈlʌv ˈdɔːgz/|Mahilig ako sa aso (lahat ng aso, hindi isang tiyak na aso)}}{{ex:I don't drink coffee.|/aɪ ˈdoʊnt ˈdrɪŋk ˈkɔːfi/|Hindi ako umiinom ng kape}}{{ex:Let's have lunch.|/ˈlets ˈhæv ˈlʌntʃ/|Mananghalian tayo}}
+<div class="tbl"><table><tr><th>May sobrang article ✗</th><th>Tama ✓</th></tr><tr><td class="k">I love the nature.</td><td class="k">I love nature.</td></tr><tr><td class="k">The life is hard.</td><td class="k">Life is hard.</td></tr><tr><td class="k">I live in the Manila.</td><td class="k">I live in Manila.</td></tr><tr><td class="k">We have a friends.</td><td class="k">We have friends.</td></tr></table></div>
+<div class="tip">Dalawang tanong bago maglagay ng article. Una: alam na ba ng kausap mo kung alin ang tinutukoy? Kung oo, <b>the</b>. Pangalawa: isa lang ba ito, nabibilang at unang banggit? Kung oo, <b>a / an</b>. Kung pangkalahatan ang sinasabi mo, walang article. At huwag kalimutan ang kabaligtaran: <b>I'm teacher.</b> ✗ → <b>I'm a teacher.</b> ✓</div>`},
 
-{ id:"be", title:"3 · be동사와 일반동사", blurb:"am/is/are와 do/does — 섞어 쓰지 않는 게 핵심이에요.", deck:"자기소개", body:`
-<p>영어 문장에는 동사가 꼭 하나 있어요. 그 동사가 <b>be동사</b>인지 <b>일반동사</b>인지에 따라 부정문·의문문 만드는 법이 달라져요.</p>
-<h3>두 종류의 동사</h3>
-<div class="tbl"><table><tr><th></th><th>be동사</th><th>일반동사</th></tr><tr><td>뜻</td><td>~이다, ~에 있다, ~한 상태다</td><td>행동·습관 (먹다, 살다, 좋아하다)</td></tr><tr><td>예</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>부정</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>질문</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
-<p>be동사는 주어에 따라 모양이 바뀌어요: <b>I am</b> / <b>you·we·they are</b> / <b>he·she·it is</b>. 말할 때는 거의 항상 줄여요: I'm, you're, she's.</p>
-{{ex:I'm hungry.|아임 헝그리|배고파요}}{{ex:She's at work.|쉬즈 앳 워크|그녀는 회사에 있어요}}{{ex:Are you okay?|아 유 오케이?|괜찮아요?}}
-<h3>절대 같이 쓰지 마세요</h3>
-<p>한국어 "저는 ~해요"를 옮기다 보면 be동사와 일반동사를 겹쳐 쓰기 쉬워요.</p>
-{{ex:I like K-pop.|아이 라익 케이팝|케이팝을 좋아해요 (O — I am like X)}}{{ex:I live in Busan.|아이 리브 인 부산|부산에 살아요 (O — I am live X)}}
-<h3>he·she·it에는 -s</h3>
-<p>주어가 한 사람(나·너 제외)이면 현재형 일반동사에 <b>-s</b>를 붙이고, 부정·질문에는 <b>does</b>를 써요. does를 쓰면 동사의 -s는 빠져요.</p>
-{{ex:My brother works in Seoul.|마이 브라더 웍스 인 서울|우리 형은 서울에서 일해요}}{{ex:Does he speak English?|더즈 히 스픽 잉글리시?|그는 영어를 해요?}}{{ex:She doesn't eat meat.|쉬 더즌트 잇 밋|그녀는 고기를 안 먹어요}}
-<div class="tip">헷갈리면 이렇게 물어보세요: "이 문장에 be 말고 <b>다른 동사</b>(like, live, want, go…)가 있나?" 있으면 do/does, 없으면(상태·정체·위치) be동사예요.</div>`},
+{ id:"be", title:"3 · Ang verb na \"be\" at ang ibang verb", blurb:"Walang \"be\" sa Tagalog, kaya madali itong makalimutan o madoble. am / is / are laban sa do / does.", deck:"Pagpapakilala", body:`
+<p>Sa Tagalog, buo na ang pangungusap na <i>Guro siya</i> o <i>Pagod ako</i> kahit walang verb (pandiwa). Sa Ingles, kailangan ng verb ang bawat pangungusap, kaya dito pumapasok ang verb na <b>be</b> (<b>am, is, are</b>): <b>She is a teacher.</b> <b>I am tired.</b> Hindi ito katumbas ng <i>ay</i>: binabaligtad lang ng <i>ay</i> ang ayos ng mga salita, samantalang kailangan ang <b>be</b> anuman ang ayos. May isa pang bago: iisa ang <i>siya</i> sa Tagalog, pero sa Ingles kailangan mong pumili. <b>He</b> para sa lalaki, <b>she</b> para sa babae.</p>
+{{ex:Ana is a nurse. She works in Cebu.|/ˈɑːnə ɪz ə ˈnɜːrs ‖ ʃi ˈwɜːrks ɪn seˈbuː/|Nars si Ana. Sa Cebu siya nagtatrabaho}}{{ex:Paolo is my brother. He's a teacher.|/ˈpaʊloʊ ɪz maɪ ˈbrʌðər ‖ hiz ə ˈtiːtʃər/|Kapatid ko si Paolo. Guro siya}}
+<h3>Dalawang uri ng verb</h3>
+<div class="tbl"><table><tr><th></th><th>be</th><th>ibang verb</th></tr><tr><td>Gamit</td><td>kung ano, nasaan o ano ang kalagayan</td><td>kilos, ugali, gusto (eat, live, like)</td></tr><tr><td>Halimbawa</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>Negatibo</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>Tanong</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
+<p>Nagbabago ang <b>be</b> ayon sa subject: <b>I am</b> / <b>you, we, they are</b> / <b>he, she, it is</b>. Sa pagsasalita, halos laging pinaikling anyo ang gamit: I'm, you're, she's.</p>
+{{ex:I'm hungry.|/aɪm ˈhʌŋgri/|Gutom ako}}{{ex:She's at work.|/ʃiz ət ˈwɜːrk/|Nasa trabaho siya (babae ang tinutukoy)}}{{ex:Are you okay?|/ər ju oʊˈkeɪ/|Ayos ka lang ba?}}
+<h3>Huwag pagsabayin ang be at ang ibang verb</h3>
+<p>Kapag may ibang verb na ang pangungusap, hindi na kailangan ng <b>be</b>. Madalas itong madoble kapag isinasalin ang <i>ay</i> o kapag nag-iingat nang sobra.</p>
+{{ex:I agree.|/aɪ əˈgriː/|Sang-ayon ako (I am agree ✗)}}{{ex:I like basketball.|/aɪ ˈlaɪk ˈbæskɪtbɔːl/|Mahilig ako sa basketball (I am like ✗)}}{{ex:I live in Cebu.|/aɪ ˈlɪv ɪn seˈbuː/|Nakatira ako sa Cebu (I am live ✗)}}
+<h3>-s kapag he, she o it</h3>
+<p>Kapag he, she o it ang subject (isang tao o bagay na hindi ikaw at hindi ako), dagdagan ng <b>-s</b> ang verb sa present tense. Sa negatibo at tanong, <b>does</b> ang gamit, at bumabalik sa base form ang verb.</p>
+{{ex:My brother works in Manila.|/maɪ ˈbrʌðər ˈwɜːrks ɪn məˈnɪlə/|Sa Maynila nagtatrabaho ang kuya ko}}{{ex:Does he speak English?|/dəz hi ˈspiːk ˈɪŋglɪʃ/|Nagsasalita ba siya ng Ingles? (lalaki ang tinutukoy)}}{{ex:She doesn't eat meat.|/ʃi ˈdʌznt ˈiːt ˈmiːt/|Hindi siya kumakain ng karne (babae ang tinutukoy)}}
+<div class="tip">Kapag nalilito, itanong sa sarili: may <b>ibang verb</b> ba sa pangungusap bukod sa be (like, live, want, go…)? Kung mayroon, do / does ang gamit sa negatibo at tanong. Kung wala (kalagayan, kung ano, kung nasaan), be ang gamit.</div>`},
 
-{ id:"polite", title:"4 · 공손하게 부탁하기", blurb:"Can you → Could you → Would you mind. 'Give me'는 이제 그만!", deck:"생존 영어 1", body:`
-<p>영어에는 존댓말 어미가 없지만, <b>부탁하는 방식</b>으로 공손함을 표현해요. 같은 내용도 문장 틀에 따라 무례하게도, 정중하게도 들려요.</p>
-<h3>공손함의 계단</h3>
-<div class="tbl"><table><tr><th>표현</th><th>느낌</th><th>쓰는 곳</th></tr><tr><td class="k">Give me ~.</td><td>명령. 무례하게 들려요</td><td>쓰지 마세요</td></tr><tr><td class="k">Can you ~?</td><td>캐주얼한 부탁</td><td>친구, 가게</td></tr><tr><td class="k">Could you ~?</td><td>공손한 부탁</td><td>처음 보는 사람, 직장</td></tr><tr><td class="k">Would you mind ~ing?</td><td>아주 공손함</td><td>큰 부탁, 윗사람</td></tr></table></div>
-{{ex:Could you help me?|쿠쥬 헬프 미?|도와주시겠어요?}}{{ex:Could you say that again?|쿠쥬 쎄이 댓 어게인?|다시 말씀해 주시겠어요?}}{{ex:Would you mind taking a picture of us?|우쥬 마인드 테이킹 어 픽처 오브 어스?|저희 사진 좀 찍어 주셔도 괜찮을까요?}}
-<h3>주문할 때는 Can I get ~? / I'd like ~</h3>
-<p>"I want ~"는 아이가 조르는 것처럼 들릴 수 있어요. 가게에서는 이렇게 말해요.</p>
-{{ex:Can I get a latte, please?|캔 아이 게러 라테이, 플리즈?|라테 한 잔 주세요}}{{ex:I'd like a window seat.|아이드 라익 어 윈도우 씻|창가 자리로 주세요}}
-<h3>Would you mind…?의 함정</h3>
-<p>mind는 '꺼리다'라는 뜻이에요. 그래서 <b>"No"가 OK</b>라는 뜻이 돼요!</p>
-{{ex:Would you mind opening the window?|우쥬 마인드 오프닝 더 윈도우?|창문 좀 열어 주셔도 될까요?}}{{ex:No, not at all.|노, 낫 앳 올|네, 그럼요 (전혀 안 꺼려요)}}
-<div class="tip">마법의 단어 <b>please</b>와 <b>thank you</b>는 아무리 많이 써도 지나치지 않아요. 문장 끝에 please만 붙여도 훨씬 부드러워져요. 억양도 중요해요: 끝을 살짝 올리면 부탁, 내리면 명령처럼 들려요.</div>`},
+{ id:"polite", title:"4 · Magalang na pakiusap: walang \"po\" sa Ingles", blurb:"Can you → Could you → Would you mind. Dito nakalagay ang galang, hindi sa \"sir\" at \"ma'am\".", deck:"Mahahalagang pangungusap 1", body:`
+<p>Walang salita ang Ingles para sa <i>po</i>, at wala rin itong magalang na <i>kayo</i>. Hindi ibig sabihin nito na walang galang sa Ingles. Nasa <b>anyo ng pakiusap</b> ang galang: sa could, would, please at thank you, at sa tono. Ang parehong hiling ay puwedeng tunog utos o tunog magalang depende sa pangungusap na pipiliin mo.</p>
+<h3>Ang hagdan ng paggalang</h3>
+<div class="tbl"><table><tr><th>Anyo</th><th>Dating</th><th>Saan gagamitin</th></tr><tr><td class="k">Give me ~.</td><td>Utos. Bastos ang dating</td><td>Iwasan</td></tr><tr><td class="k">Can you ~?</td><td>Karaniwang pakiusap</td><td>Sa kaibigan, sa tindahan</td></tr><tr><td class="k">Could you ~?</td><td>Magalang na pakiusap</td><td>Sa hindi kakilala, sa trabaho</td></tr><tr><td class="k">Would you mind ~ing?</td><td>Napakagalang</td><td>Malaking pabor, sa nakatataas</td></tr></table></div>
+{{ex:Could you help me?|/kəd ju ˈhelp mi/|Puwede po ba ninyo akong tulungan?}}{{ex:Could you say that again?|/kəd ju ˈseɪ ˈðæt əˈgen/|Puwede po bang pakiulit?}}{{ex:Would you mind taking a picture of us?|/wəd ju ˈmaɪnd ˈteɪkɪŋ ə ˈpɪktʃər əv əs/|Puwede po ba kaming magpakuha ng litrato sa inyo?}}
+<p>Ang <i>paki-</i> sa Tagalog ay malapit sa please + verb: <i>Pakisara ang pinto</i> → <b>Please close the door.</b> Mas magalang pa: <b>Could you close the door, please?</b></p>
+<h3>Sa pag-order: Can I get ~? / I'd like ~</h3>
+<p>Sa Tagalog, magalang na ang "Gusto ko po ng kape." Sa Ingles, parang batang nagpupumilit ang <b>I want coffee.</b> Sa tindahan at restawran, ganito ang sinasabi:</p>
+{{ex:Can I get a latte, please?|/kən aɪ ˈget ə ˈlɑːteɪ ˈpliːz/|Isang latte nga po}}{{ex:I'd like a window seat.|/aɪd ˈlaɪk ə ˈwɪndoʊ ˈsiːt/|Gusto ko po sana ng upuan sa tabi ng bintana}}
+<h3>Sir, ma'am at kindly</h3>
+<p>Sa American English, ang nagsisilbi ang nagsasabi ng <b>sir</b> at <b>ma'am</b> sa customer. Hindi ito idinadagdag sa bawat pangungusap, at hindi ito ginagamit sa katrabaho. Sa trabaho, unang pangalan ang karaniwan (Hi Sarah), o <b>Mr. / Ms.</b> + apelyido kapag pormal. Ang <b>Kindly send the file.</b> ay tunog matigas sa American English; mas natural ang <b>Could you send the file?</b></p>
+<h3>Ang bitag ng Would you mind…?</h3>
+<p>Ang ibig sabihin ng mind ay "masamain". Kaya <b>"No" ang pagpayag</b>!</p>
+{{ex:Would you mind opening the window?|/wəd ju ˈmaɪnd ˈoʊpənɪŋ ðə ˈwɪndoʊ/|Puwede po bang pakibukas ng bintana?}}{{ex:No, not at all.|/ˈnoʊ ˈnɑːt ət ˈɔːl/|Sige po, walang problema (hindi ko minamasama)}}
+<div class="tip">Hindi kailanman sobra ang <b>please</b> at <b>thank you</b>. Lumalambot agad ang pangungusap kapag may please sa dulo. Mahalaga rin ang tono: kapag bahagyang tumaas sa dulo, pakiusap ang dating; kapag bumaba, parang utos.</div>`},
 
-{ id:"tense", title:"5 · 시제 한눈에 정리: 현재·과거·미래", blurb:"습관은 현재, 지금은 진행형, 계획은 going to.", deck:"스몰토크", body:`
-<p>한국어는 "먹어요" 하나로 습관도, 지금 하는 일도, 가까운 미래도 말할 수 있어요. 영어는 이걸 나눠서 말해요. 스몰토크에 꼭 필요한 다섯 가지만 익혀요.</p>
-<h3>현재형 vs 현재진행형</h3>
-<div class="tbl"><table><tr><th>형태</th><th>뜻</th><th>예</th></tr><tr><td class="k">현재형</td><td>습관, 늘 그런 사실</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + ~ing</td><td>지금 하는 중 / 정해 둔 가까운 일정</td><td>I'm drinking coffee right now.</td></tr></table></div>
-{{ex:I work at a bank.|아이 워크 앳 어 뱅크|은행에서 일해요 (늘)}}{{ex:I'm working from home today.|아임 워킹 프럼 홈 투데이|오늘은 재택근무 중이에요}}
-<h3>과거형</h3>
-<p>규칙 동사는 <b>-ed</b>, 자주 쓰는 동사는 대부분 불규칙이에요: go → went, eat → ate, see → saw, have → had, get → got.</p>
-{{ex:I went to the beach last weekend.|아이 웬 투 더 비-치 래스트 위켄드|지난 주말에 바닷가에 갔어요}}{{ex:Did you have fun?|디쥬 해브 펀?|재밌었어요?}}
-<h3>미래: will vs be going to</h3>
-<div class="tbl"><table><tr><th></th><th>언제</th><th>예</th></tr><tr><td class="k">will</td><td>말하는 순간 결정, 약속</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>미리 세운 계획</td><td>I'm going to visit Jeju next month.</td></tr></table></div>
-{{ex:I'll call you later.|아일 콜 유 레이러|나중에 전화할게}}{{ex:I'm going to take a cooking class.|아임 고잉 투 테이커 쿠킹 클래스|요리 수업 들을 거예요}}
-<p>말할 때 going to는 <b>gonna(거나)</b>처럼 들려요. 글로 쓸 때는 going to로 써요.</p>
-<div class="tip">"How was your weekend?"엔 과거형, "Any plans for the weekend?"엔 going to로 대답하면 돼요. 질문의 시제를 그대로 따라 하는 게 가장 쉬운 방법이에요.</div>`},
+{ id:"tense", title:"5 · Mga tense sa isang tingin: present, past, future", blurb:"Iisa ang \"kumakain\" sa Tagalog, pero dalawa ito sa Ingles. Ugali: present tense. Ngayon mismo: be + -ing. Plano: going to.", deck:"Kuwentuhan", body:`
+<p>Sa Tagalog, ang anyo ng verb ang nagsasabi kung tapos na, ginagawa pa o gagawin pa ang kilos: <i>kumain, kumakain, kakain</i>. Sa Ingles, tense ang pinipili, at hindi laging magkatugma ang dalawa. Halimbawa, dalawa ang puwedeng maging Ingles ng <i>kumakain</i>:</p>
+{{ex:I eat vegetables.|/aɪ ˈiːt ˈvedʒtəblz/|Kumakain ako ng gulay (ugali)}}{{ex:I'm eating right now.|/aɪm ˈiːtɪŋ ˈraɪt ˈnaʊ/|Kumakain ako ngayon (sa sandaling ito)}}
+<p>Balikan natin ang limang anyong pinakakailangan sa kuwentuhan.</p>
+<h3>Present tense at present continuous</h3>
+<div class="tbl"><table><tr><th>Anyo</th><th>Gamit</th><th>Halimbawa</th></tr><tr><td class="k">present tense</td><td>ugali, bagay na laging totoo</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + -ing</td><td>ginagawa ngayon mismo / nakatakda nang gawin</td><td>I'm drinking coffee right now.</td></tr></table></div>
+{{ex:I work at a bank.|/aɪ ˈwɜːrk ət ə ˈbæŋk/|Sa bangko ako nagtatrabaho (palagi)}}{{ex:I'm working from home today.|/aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/|Sa bahay ako nagtatrabaho ngayong araw}}
+<h3>Past tense</h3>
+<p>Kapag tapos na ang kilos, nagbabago ang verb <b>kahit may</b> yesterday o last week na sa pangungusap. <b>-ed</b> ang dagdag sa regular na verb. Irregular ang karamihan ng madalas gamitin: go → went, eat → ate, see → saw, have → had, get → got. Pagkatapos ng <b>did</b>, base form ulit ang verb: <b>Did you have fun?</b>, hindi "Did you had fun?"</p>
+{{ex:I went to the beach last weekend.|/aɪ ˈwent tə ðə ˈbiːtʃ ˈlæst ˈwiːkend/|Pumunta ako sa beach noong nakaraang weekend}}{{ex:Did you have fun?|/dɪd ju ˈhæv ˈfʌn/|Nag-enjoy ka ba?}}
+<h3>Future: will at be going to</h3>
+<p>Iisa ang <i>kakain</i> o <i>pupunta</i> sa Tagalog. Sa Ingles, dalawa ang pagpipilian:</p>
+<div class="tbl"><table><tr><th></th><th>Kailan</th><th>Halimbawa</th></tr><tr><td class="k">will</td><td>desisyon sa mismong sandali ng pagsasalita, pangako</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>planong napag-isipan na</td><td>I'm going to visit Boracay next month.</td></tr></table></div>
+{{ex:I'll call you later.|/aɪl ˈkɔːl ju ˈleɪtər/|Tatawagan kita mamaya}}{{ex:I'm going to take a cooking class.|/aɪm ˈgoʊɪŋ tə ˈteɪk ə ˈkʊkɪŋ ˈklæs/|Kukuha ako ng klase sa pagluluto (plano na)}}
+<p>Sa pagsasalita, parang <b>gonna</b> ang dinig sa going to. Sa pagsulat, going to pa rin.</p>
+<div class="tip">Sundan ang tense ng tanong. Sa "How was your weekend?", past tense ang sagot. Sa "Any plans for the weekend?", going to. Ito ang pinakamadaling paraan para hindi magkamali.</div>`},
 
-{ id:"prep", title:"6 · 전치사 in / on / at", blurb:"넓으면 in, 하루면 on, 한 점이면 at.", deck:"숫자·시간·날짜", body:`
-<p>in, on, at은 시간과 장소 모두에 쓰여요. <b>범위가 넓을수록 in, 좁을수록 at</b>이라고 기억하면 대부분 맞아요.</p>
-<h3>시간</h3>
-<div class="tbl"><table><tr><th>전치사</th><th>범위</th><th>예</th></tr><tr><td class="k">in</td><td>월·연도·계절·하루 중 때</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>요일·날짜·특정한 날</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>정확한 시각·짧은 순간</td><td>at 7, at noon, at night</td></tr></table></div>
-{{ex:See you on Friday.|씨 유 온 프라이데이|금요일에 봐요}}{{ex:The meeting is at three.|더 미팅 이즈 앳 쓰리|회의는 3시예요}}{{ex:I was born in 1998.|아이 워즈 본 인 나인틴 나인티에잇|1998년에 태어났어요}}
-<h3>장소</h3>
-<div class="tbl"><table><tr><th>전치사</th><th>느낌</th><th>예</th></tr><tr><td class="k">in</td><td>공간 안, 도시·나라</td><td>in the car, in Seoul, in Korea</td></tr><tr><td class="k">on</td><td>표면 위, 거리, 대중교통</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>한 지점, 장소를 '목적'으로</td><td>at the station, at work, at home</td></tr></table></div>
-{{ex:I'm on the bus.|아임 온 더 버스|버스 타고 있어요}}{{ex:Let's meet at the station.|렛츠 밋 앳 더 스테이션|역에서 만나요}}
-<h3>전치사를 쓰지 않는 경우</h3>
-<p><b>next, last, this, every, tomorrow, yesterday</b> 앞에는 전치사를 쓰지 않아요.</p>
-{{ex:See you next week.|씨 유 넥스트 윅|다음 주에 봐요 (on next week X)}}
-<div class="tip">예외도 외워 두세요: <b>at night</b>(밤에), <b>in the morning / afternoon / evening</b>. 주말은 미국 <b>on the weekend</b>, 영국 <b>at the weekend</b>예요.</div>`},
+{ id:"prep", title:"6 · in / on / at: tatlo ang katumbas ng \"sa\"", blurb:"Sa Tagalog, \"sa\" lang. Sa Ingles: in kapag malawak, on kapag araw, at kapag eksaktong oras o lugar.", deck:"Numero, oras at petsa", body:`
+<p>Narinig mo na siguro ang <b>on January</b> ✗ at <b>in Monday</b> ✗. Sa Tagalog, iisa ang <i>sa</i> para sa oras, lugar at direksyon: sa Enero, sa Lunes, sa alas-tres, sa Makati. Sa Ingles, tatlo ang preposition (pang-ukol) na pagpipilian. Ito ang pangkalahatang gabay: <b>habang lumalawak ang saklaw, in; habang tumitiyak, at</b>.</p>
+<h3>Oras</h3>
+<div class="tbl"><table><tr><th>Preposition</th><th>Saklaw</th><th>Halimbawa</th></tr><tr><td class="k">in</td><td>buwan, taon, panahon, bahagi ng araw</td><td>in January, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>araw ng linggo, petsa, espesyal na araw</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>eksaktong oras, maikling sandali</td><td>at 7, at noon, at night</td></tr></table></div>
+{{ex:See you on Friday.|/ˈsiː ju ɑːn ˈfraɪdeɪ/|Kita tayo sa Biyernes}}{{ex:The meeting is at three.|/ðə ˈmiːtɪŋ ɪz ət ˈθriː/|Alas-tres ang meeting}}{{ex:I was born in 1998.|/aɪ wəz ˈbɔːrn ɪn ˌnaɪnˈtiːn ˌnaɪnti ˈeɪt/|Ipinanganak ako noong 1998}}
+<h3>Lugar</h3>
+<div class="tbl"><table><tr><th>Preposition</th><th>Larawan</th><th>Halimbawa</th></tr><tr><td class="k">in</td><td>loob ng isang espasyo; lungsod, bansa</td><td>in the car, in Makati, in the Philippines</td></tr><tr><td class="k">on</td><td>ibabaw, kalye, pampublikong sasakyan</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>isang tiyak na punto; lugar na may pakay</td><td>at the station, at work, at home</td></tr></table></div>
+{{ex:I'm on the bus.|/aɪm ɑːn ðə ˈbʌs/|Nasa bus ako}}{{ex:Let's meet at the station.|/ˈlets ˈmiːt ət ðə ˈsteɪʃn/|Magkita tayo sa istasyon}}
+<p>Lungsod ang Makati, kaya <b>in Makati</b>: I'm in the office <b>in</b> Makati, hindi "at Makati". Ang <i>nasa bahay</i> ay <b>at home</b>.</p>
+<h3>Kapag walang preposition</h3>
+<p>Walang preposition bago ang <b>next, last, this, every, tomorrow, yesterday</b>. Wala ring to bago ang home: <b>I'm going home</b>, hindi "going to home".</p>
+{{ex:See you next week.|/ˈsiː ju ˈnekst ˈwiːk/|Kita tayo sa susunod na linggo (on next week ✗)}}
+<div class="tip">Kabisaduhin din ang mga eksepsiyon: <b>at night</b> (sa gabi), pero <b>in the morning / afternoon / evening</b>. Sa American English, <b>on the weekend</b>; sa British English, at the weekend.</div>`},
 
-{ id:"smalltalk", title:"7 · 스몰토크 문화", blurb:"How are you?는 질문이 아니라 인사예요. 안전한 주제와 피할 주제.", deck:"스몰토크", body:`
-<p>영어권에서는 엘리베이터, 계산대, 회의 시작 전에 처음 보는 사람과도 가볍게 이야기를 나눠요. 깊은 대화가 아니라 <b>분위기를 부드럽게 하는 짧은 대화</b>예요.</p>
-<h3>How are you?는 인사예요</h3>
-<p>진짜 컨디션을 묻는 게 아니에요. 짧게 대답하고 <b>되물어 주는 것</b>이 매너예요.</p>
-{{ex:Hey, how's it going?|헤이, 하우즈 잇 고잉?|안녕, 잘 지내?}}{{ex:Pretty good! How about you?|프리티 굿! 하우 어바웃 유?|잘 지내! 너는?}}
-<h3>안전한 주제 vs 피할 주제</h3>
-<div class="tbl"><table><tr><th>안전해요</th><th>초면엔 피해요</th></tr><tr><td>날씨, 주말·휴가 계획</td><td>나이, 결혼·연애 여부</td></tr><tr><td>음식, 맛집, 여행</td><td>체중·외모 평가 ("살쪘어요?")</td></tr><tr><td>드라마·영화·스포츠</td><td>연봉, 집값</td></tr><tr><td>일 (가볍게), 동네</td><td>정치, 종교</td></tr></table></div>
-<p>한국에서는 나이를 먼저 묻는 게 자연스럽지만, 영어권에서는 실례가 될 수 있어요.</p>
-<h3>대화를 이어 가는 기술</h3>
-<p>대답 + <b>정보 하나 더</b> + <b>되묻기</b>. 이 세 박자면 대화가 끊기지 않아요.</p>
-{{ex:It was great! I went hiking. What about you?|잇 워즈 그레잇! 아이 웬 하이킹. 왓 어바웃 유?|좋았어요! 등산 갔었어요. 당신은요?}}
-<p>맞장구도 중요해요: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
-<h3>자연스럽게 끝내기</h3>
-{{ex:Well, I should get going.|웰, 아이 슈드 겟 고잉|그럼 이만 가 볼게요}}{{ex:It was nice talking to you.|잇 워즈 나이스 토킹 투 유|이야기 즐거웠어요}}
-<div class="tip">부정문에 맞장구칠 때는 <b>Me neither</b>예요. "I don't like horror movies." → "Me neither." (Me too X). 미국 구어에서는 Me either도 들리지만 Me neither가 표준이에요.</div>`},
+{ id:"smalltalk", title:"7 · Kuwentuhan sa Ingles (small talk)", blurb:"Pagbati ang \"How are you?\", hindi tunay na tanong. Aling mga paksa ang ligtas, at alin ang iniiwasan?", deck:"Kuwentuhan", body:`
+<p>Sa Amerika, karaniwan ang maikling kuwentuhan kahit sa hindi kakilala: sa elevator, sa pila, bago magsimula ang meeting. Hindi ito malalim na usapan; <b>pampagaan lang ito ng samahan</b>. Kilala natin ito: pagbati rin sa atin ang <i>Kumain ka na?</i> at <i>Saan ka pupunta?</i> Pero huwag isalin ang mga ito nang literal. Tunay na tanong sa Ingles ang <b>Have you eaten?</b> at <b>Where are you going?</b>, kaya magtataka ang kausap mo.</p>
+<h3>Pagbati ang How are you?</h3>
+<p>Hindi nito inaalam ang tunay mong kalagayan. Sumagot nang maikli at <b>ibalik ang tanong</b>.</p>
+{{ex:Hey, how's it going?|/ˈheɪ ˈhaʊz ɪt ˈgoʊɪŋ/|Uy, kumusta?}}{{ex:Pretty good! How about you?|/ˈprɪti ˈgʊd ‖ ˈhaʊ əbaʊt ˈjuː/|Ayos naman! Ikaw?}}
+<h3>Ligtas na paksa at paksang iniiwasan</h3>
+<div class="tbl"><table><tr><th>Ligtas</th><th>Iwasan sa unang pagkikita</th></tr><tr><td>Panahon, plano sa weekend o bakasyon</td><td>Edad, kung may asawa o kasintahan</td></tr><tr><td>Pagkain, masasarap na kainan, biyahe</td><td>Timbang at itsura ("Tumaba ka!")</td></tr><tr><td>Serye, pelikula, sports</td><td>Suweldo, presyo ng bahay</td></tr><tr><td>Trabaho (magaan lang), lugar na tinitirhan</td><td>Pulitika, relihiyon</td></tr></table></div>
+<p>Sa atin, malasakit o biro ang "Tumaba ka!" at "Bakit wala ka pang asawa?" Sa Amerika, pakikialam ang dating ng mga ito.</p>
+<h3>Paano pahabain ang usapan</h3>
+<p>Sagot + <b>isa pang detalye</b> + <b>balik-tanong</b>. Sa tatlong hakbang na ito, hindi mapuputol ang usapan.</p>
+{{ex:It was great! I went hiking. What about you?|/ɪt wəz ˈgreɪt ‖ aɪ ˈwent ˈhaɪkɪŋ ‖ ˈwʌt əbaʊt ˈjuː/|Ang saya! Umakyat ako ng bundok. Ikaw?}}
+<p>Mahalaga rin ang maiikling reaksyon: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
+<h3>Maayos na pagtatapos</h3>
+<p>Ang <i>Mauna na ako</i> ay <b>I should get going</b>. Sa Pilipinas lang karaniwan ang "I'll go ahead" sa ganitong gamit.</p>
+{{ex:Well, I should get going.|/ˈwel aɪ ʃəd ˈget ˈgoʊɪŋ/|O sige, mauna na ako}}{{ex:It was nice talking to you.|/ɪt wəz ˈnaɪs ˈtɔːkɪŋ tə ju/|Natuwa akong makausap ka}}
+<div class="tip">Kapag sumasang-ayon ka sa negatibong pangungusap, <b>Me neither</b> ang sagot. "I don't like horror movies." → "Me neither." (Me too ✗). Naririnig din ang Me either sa usapang Amerikano, pero Me neither ang pamantayan.</div>`},
 
-{ id:"phrasal", title:"8 · 구동사 입문", blurb:"동사 + 작은 단어 = 완전히 새로운 뜻. 원어민 대화의 절반이에요.", deck:"구동사", body:`
-<p>구동사(phrasal verb)는 <b>동사 + up/out/off/on 같은 작은 단어</b>가 합쳐져 새로운 뜻을 만든 거예요. 교과서식 단어(postpone, discover)보다 일상 대화에서 훨씬 많이 들려요.</p>
-<div class="tbl"><table><tr><th>딱딱한 단어</th><th>구동사 (일상)</th><th>뜻</th></tr><tr><td>postpone</td><td class="k">put off</td><td>미루다</td></tr><tr><td>discover</td><td class="k">find out</td><td>알게 되다</td></tr><tr><td>exercise</td><td class="k">work out</td><td>운동하다</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>참다</td></tr></table></div>
-<h3>작은 단어에 힌트가 있어요</h3>
-<p><b>up</b>은 '완전히·위로', <b>out</b>은 '밖으로·끝까지', <b>off</b>는 '떨어져·멈춤', <b>on</b>은 '붙어서·계속'이라는 느낌이 있어요.</p>
-{{ex:I grew up in Daegu.|아이 그루 업 인 대구|대구에서 자랐어요}}{{ex:We ran out of milk.|위 래나우로브 밀크|우유가 다 떨어졌어요}}{{ex:Turn off your phone, please.|터노프 유어 폰, 플리즈|휴대폰 꺼 주세요}}
-<h3>대명사는 가운데에!</h3>
-<p>목적어를 받는 구동사 중 많은 것은 둘로 나눌 수 있어요. 명사는 앞뒤 어디든 괜찮지만, <b>it·them·me 같은 대명사는 반드시 가운데</b>에 와요.</p>
-{{ex:Turn on the light. / Turn the light on.|턴 온 더 라잇 / 턴 더 라잇 온|불 켜 줘 (둘 다 O)}}{{ex:Turn it on.|터니론|그거 켜 줘 (turn on it X)}}{{ex:I'll pick you up at seven.|아일 픽 유 업 앳 쎄븐|7시에 데리러 갈게}}
-<h3>나눌 수 없는 구동사</h3>
-<p>look after, look for, get along with처럼 전치사가 붙는 것은 나누지 않아요: <i>look after my cat</i>, <i>look after her</i>.</p>
-<div class="tip">구동사는 단어처럼 <b>통째로</b> 외우세요. 예문과 함께 외우면 대명사 위치도 자연스럽게 익혀져요. 하루에 세 개씩만 실제로 써 보세요!</div>`},
+{ id:"phrasal", title:"8 · Panimula sa mga phrasal verb", blurb:"Verb + maliit na salita = bagong kahulugan. Ito ang kalahati ng araw-araw na usapan sa Ingles.", deck:"Mga phrasal verb", body:`
+<p>Ang phrasal verb ay <b>verb + maliit na salitang gaya ng up, out, off, on</b> na magkasamang bumubuo ng bagong kahulugan. Sa paaralan at opisina, sanay tayo sa mga pormal na salita (postpone, discover). Sa araw-araw na usapan ng mga Amerikano, phrasal verb ang mas madalas marinig.</p>
+<div class="tbl"><table><tr><th>Pormal na salita</th><th>Phrasal verb (araw-araw)</th><th>Kahulugan</th></tr><tr><td>postpone</td><td class="k">put off</td><td>ipagpaliban</td></tr><tr><td>discover</td><td class="k">find out</td><td>malaman</td></tr><tr><td>exercise</td><td class="k">work out</td><td>mag-ehersisyo</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>pagtiisan</td></tr></table></div>
+<h3>May pahiwatig ang maliit na salita</h3>
+<p>Ang <b>up</b> ay "pataas" o "nang lubusan"; ang <b>out</b> ay "palabas" o "hanggang maubos"; ang <b>off</b> ay "hiwalay" o "tigil"; ang <b>on</b> ay "nakakabit" o "tuloy".</p>
+{{ex:I grew up in Cebu.|/aɪ ˈgruː ˈʌp ɪn seˈbuː/|Sa Cebu ako lumaki}}{{ex:We ran out of milk.|/wi ˈræn ˈaʊt əv ˈmɪlk/|Naubusan kami ng gatas}}{{ex:Turn off your phone, please.|/ˈtɜːrn ˈɔːf jʊr ˈfoʊn ˈpliːz/|Pakipatay po ang cellphone ninyo}}
+<h3>Nasa gitna ang pronoun!</h3>
+<p>Maraming phrasal verb na may object ang puwedeng hatiin. Puwede sa gitna o sa dulo ang noun, pero ang pronoun (panghalip) gaya ng <b>it, them, me</b> ay <b>laging nasa gitna</b>.</p>
+{{ex:Turn on the light. / Turn the light on.|/ˈtɜːrn ˈɑːn ðə ˈlaɪt/ /ˈtɜːrn ðə ˈlaɪt ˈɑːn/|Buksan mo ang ilaw (parehong tama)}}{{ex:Turn it on.|/ˈtɜːrn ɪt ˈɑːn/|Buksan mo iyan (turn on it ✗)}}{{ex:I'll pick you up at seven.|/aɪl ˈpɪk ju ˈʌp ət ˈsevn/|Susunduin kita nang alas-siyete}}
+<p>Pansinin: <i>Buksan ang ilaw</i> ay <b>turn on the light</b>. Sa Pilipinas lang naririnig ang "open the light".</p>
+<h3>Mga phrasal verb na hindi nahahati</h3>
+<p>Hindi hinahati ang mga may kasamang preposition gaya ng look after, look for at get along with: <b>look after my cat</b>, <b>look after her</b>.</p>
+<p>May ilang anyong sa Pilipinas lang karaniwan, gaya ng "fill up a form" (fill out a form) at "cope up with" (cope with). Tatalakayin ang mga iyon sa aralin tungkol sa Ingles-Pinoy.</p>
+<div class="tip">Kabisaduhin ang phrasal verb nang <b>buo</b>, parang iisang salita, at laging may kasamang halimbawang pangungusap para kusang matandaan ang lugar ng pronoun. Subukan mong gumamit ng tatlo bawat araw!</div>`},
 
-{ id:"numbers", title:"9 · 숫자·시간·가격 말하기", blurb:"'만'이 없는 영어 숫자, 13과 30 구분, 가격 읽는 법.", deck:"숫자·시간·날짜", body:`
-<p>숫자는 여행과 일에서 바로 쓰이는데, 한국어와 단위가 달라서 실수가 많아요.</p>
-<h3>세 자리씩 끊어요</h3>
-<p>한국어는 네 자리(만, 억), 영어는 <b>세 자리(thousand, million, billion)</b>로 끊어요. 쉼표 위치가 바로 단위예요.</p>
-<div class="tbl"><table><tr><th>숫자</th><th>한국어</th><th>영어</th></tr><tr><td class="k">10,000</td><td>만</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>오만</td><td>fifty thousand</td></tr><tr><td class="k">100,000</td><td>십만</td><td>one hundred thousand</td></tr><tr><td class="k">1,000,000</td><td>백만</td><td>one million</td></tr><tr><td class="k">100,000,000</td><td>일억</td><td>one hundred million</td></tr></table></div>
-<h3>-teen과 -ty</h3>
-<p>13~19는 <b>뒤</b>를, 30·40·50…은 <b>앞</b>을 세게 말해요. 미국식 thirty는 t가 굴러서 "써리"처럼 들려요.</p>
-{{ex:thirteen|써틴|숫자 13}}{{ex:thirty|써리|숫자 30}}{{ex:fifteen / fifty|피프틴 / 피프티|숫자 15 / 50}}
-<h3>시간</h3>
-<p>가장 쉬운 방법은 시와 분을 그대로 읽는 거예요. 1~9분은 "oh"를 붙여요.</p>
-{{ex:It's seven fifteen.|잇츠 쎄븐 피프틴|7시 15분이에요}}{{ex:It's nine oh five.|잇츠 나인 오 파이브|9시 5분이에요}}{{ex:It's a quarter past ten.|잇츠 어 쿼러 패스트 텐|10시 15분이에요}}
-<h3>가격과 연도</h3>
-<p>가격은 달러와 센트를 따로 읽거나, 그냥 숫자 두 개로 읽어요. 연도는 두 자리씩 끊어요.</p>
-{{ex:It's four ninety-nine.|잇츠 포 나인티나인|4달러 99센트예요}}{{ex:That's twelve fifty.|댓츠 트웰브 피프티|12달러 50센트입니다}}{{ex:twenty twenty-six|트웬티 트웬티식스|2026년}}
-<div class="tip">날짜 표기 주의! 미국은 <b>월/일</b>(5/3 = 5월 3일), 영국은 <b>일/월</b>(5/3 = 3월 5일)이에요. 헷갈리면 May 3rd처럼 월을 글자로 쓰는 게 안전해요.</div>`},
+{ id:"numbers", title:"9 · Numero, oras at presyo", blurb:"Thirteen o thirty? January first, hindi \"January one\". At kung paano basahin ang oras at presyo gaya ng mga Amerikano.", deck:"Numero, oras at petsa", body:`
+<p>Sanay na tayong magbilang ng pera at magsabi ng oras sa Ingles, at pareho pa ang pagsulat ng numero sa Filipino at sa Ingles (1,500.50). Kaya hindi ang mga numero mismo ang sasanayin dito kundi ang ilang detalyeng madalas makalusot: ang stress ng -teen at -ty, ang basa sa oras at presyo, at ang petsa.</p>
+<h3>Malalaking numero</h3>
+<p>May pangalan ang bawat kuwit: <b>thousand, million, billion</b>. Pagkatapos ng numero, walang plural na -s ang mga ito: <b>fifty thousand</b>, hindi "fifty thousands".</p>
+<div class="tbl"><table><tr><th>Numero</th><th>Filipino</th><th>Ingles</th></tr><tr><td class="k">10,000</td><td>sampung libo</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>limampung libo</td><td>fifty thousand</td></tr><tr><td class="k">100,000</td><td>sandaang libo</td><td>one hundred thousand</td></tr><tr><td class="k">1,000,000</td><td>isang milyon</td><td>one million</td></tr><tr><td class="k">100,000,000</td><td>sandaang milyon</td><td>one hundred million</td></tr></table></div>
+<h3>-teen at -ty</h3>
+<p>Sa 13 hanggang 19, nasa <b>huli</b> ang stress. Sa 30, 40, 50…, nasa <b>una</b>. Sa American English, parang malambot na d ang t ng thirty. Tingnan kung nasaan ang ˈ sa bigkas.</p>
+{{ex:thirteen|/ˌθɜːrˈtiːn/|labintatlo (13)}}{{ex:thirty|/ˈθɜːrti/|tatlumpu (30)}}{{ex:fifteen / fifty|/ˌfɪfˈtiːn/ /ˈfɪfti/|labinlima (15) / limampu (50)}}
+<h3>Oras</h3>
+<p>Pinakamadali ang basahin nang magkasunod ang oras at ang minuto. Sa 1 hanggang 9 na minuto, may "oh" sa unahan. Ang <i>alas-tres y medya</i> ay <b>three thirty</b> o <b>half past three</b>.</p>
+{{ex:It's seven fifteen.|/ɪts ˈsevn ˌfɪfˈtiːn/|Alas-siyete kinse na}}{{ex:It's nine oh five.|/ɪts ˈnaɪn ˈoʊ ˈfaɪv/|Alas-nuwebe singko na}}{{ex:It's a quarter past ten.|/ɪts ə ˈkwɔːrtər pæst ˈten/|Labinlimang minuto makalipas ang alas-diyes}}{{ex:It's three thirty.|/ɪts ˈθriː ˈθɜːrti/|Alas-tres y medya na}}
+<h3>Presyo, decimal at taon</h3>
+<p>Sa presyo, puwedeng banggitin ang dollars at cents, o basahin na lang bilang dalawang numero. Sa piso, sabihin ang <b>pesos</b>. Isa-isang binabasa ang mga digit pagkatapos ng point: 3.99 → <b>three point nine nine</b>, hindi "point ninety-nine". Dalawahan ang basa sa taon.</p>
+{{ex:It's four ninety-nine.|/ɪts ˈfɔːr ˌnaɪnti ˈnaɪn/|4 na dolyar at 99 na sentimo iyan}}{{ex:That's twelve fifty.|/ˈðæts ˈtwelv ˈfɪfti/|12 dolyar at 50 sentimo iyan}}{{ex:It's fifty pesos.|/ɪts ˈfɪfti ˈpeɪsoʊz/|Limampung piso iyan}}{{ex:twenty twenty-six|/ˈtwenti ˌtwenti ˈsɪks/|taong 2026}}
+<h3>Petsa</h3>
+<p>Ordinal ang basa sa petsa: January 1 → <b>January first</b>, hindi "January one"; May 3 → <b>May third</b>.</p>
+<div class="tip">Sa Amerika, <b>buwan/araw</b> ang ayos ng petsa (5/3 = Mayo 3), gaya ng nakasanayan natin. Sa Britain, <b>araw/buwan</b> (5/3 = Marso 5). Kapag may alinlangan, isulat ang buwan bilang salita: May 3rd.</div>`},
 
-{ id:"email", title:"10 · 이메일 영어", blurb:"인사 → 목적 → 요청 → 마무리. 짧고 분명하게.", deck:"직장·이메일", body:`
-<p>영어 업무 이메일은 <b>짧고, 목적이 분명하고, 친절하게</b>가 원칙이에요. 한국식으로 길게 사과하거나 겸손을 표현하면 오히려 요점이 흐려져요.</p>
-<h3>기본 구조</h3>
-<div class="tbl"><table><tr><th>부분</th><th>예시</th></tr><tr><td>인사</td><td class="k">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>첫 줄 (안부·목적)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>본문 (요청)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>마무리</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>맺음말</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
-<h3>인사는 Hi가 기본</h3>
-<p>미국 회사에서는 처음 연락하는 사람에게도 <b>Hi + 이름</b>이 무난해요. 아주 격식 있는 경우에만 Dear를 써요. 이름 대신 직함만 쓰는 건(Dear Manager) 어색해요.</p>
-{{ex:I hope this email finds you well.|아이 호프 디스 이메일 파인즈 유 웰|잘 지내고 계시길 바랍니다}}{{ex:I'm writing to follow up on our meeting.|아임 롸이팅 투 팔로우 업 온 아워 미팅|지난 회의 관련해서 후속으로 연락드립니다}}
-<h3>요청은 부드럽게, 기한은 분명하게</h3>
-{{ex:Could you send me the report by Thursday?|쿠쥬 쎈드 미 더 리포트 바이 써즈데이?|목요일까지 보고서 보내 주실 수 있나요?}}{{ex:Thanks for your patience.|땡스 포 유어 페이션스|기다려 주셔서 감사합니다}}
-<p>ASAP는 상대를 재촉하는 느낌이 있어요. 가능하면 <b>by + 날짜</b>로 기한을 주세요.</p>
-<h3>"수고하셨습니다"는?</h3>
-<p>영어에 딱 맞는 말은 없어요. 상황에 맞게 바꿔 말해요.</p>
-<ul><li>프로젝트가 끝났을 때: <b>Thanks for all your hard work!</b></li><li>금요일 이메일 끝: <b>Have a great weekend!</b></li><li>도움을 받았을 때: <b>I really appreciate your help.</b></li></ul>
-<div class="tip">"Sorry for the late reply"를 매번 쓸 필요는 없어요. 대신 <b>Thanks for your patience</b>를 쓰면 사과 없이도 예의 바르고 긍정적으로 들려요.</div>`},
+{ id:"email", title:"10 · Email sa Ingles", blurb:"Bati → pakay → hiling → pangwakas. Maikli at malinaw, at walang \"Good day, Ma'am/Sir!\"", deck:"Trabaho at email", body:`
+<p>Tatlo ang tuntunin ng email sa trabaho sa American English: <b>maikli, malinaw ang pakay, at magiliw</b>. May sariling mga pormula ang email sa opisina sa Pilipinas: Good day!, Kindly…, Please be informed that…, More power! Hindi mali ang mga ito sa atin, pero luma o sobrang pormal ang dating ng mga ito sa kliyente o katrabahong Amerikano.</p>
+<h3>Karaniwang ayos</h3>
+<div class="tbl"><table><tr><th>Bahagi</th><th>Halimbawa</th></tr><tr><td>Bati</td><td class="k">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>Unang linya (kumustahan, pakay)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>Katawan (hiling)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>Pangwakas</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>Pamamaalam</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
+<h3>Hi + pangalan ang karaniwang bati</h3>
+<p>Sa mga kompanyang Amerikano, ayos ang <b>Hi + unang pangalan</b> kahit unang beses kang sumusulat. Dear lang kapag napakapormal: Dear Ms. Santos. Iwasan ang "Dear Ma'am/Sir" at ang titulo lang (Dear Manager). Kapag hindi mo alam ang pangalan, ligtas ang <b>Hello,</b></p>
+{{ex:I hope this email finds you well.|/aɪ ˈhoʊp ˈðɪs ˈiːmeɪl ˈfaɪndz ju ˈwel/|Sana ay nasa mabuti kang kalagayan}}{{ex:I'm writing to follow up on our meeting.|/aɪm ˈraɪtɪŋ tə ˈfɑːloʊ ˈʌp ɑːn aʊər ˈmiːtɪŋ/|Sumusulat ako para balikan ang napag-usapan natin sa meeting}}
+<h3>Malumanay ang hiling, malinaw ang deadline</h3>
+{{ex:Could you send me the report by Thursday?|/kəd ju ˈsend mi ðə rɪˈpɔːrt baɪ ˈθɜːrzdeɪ/|Puwede mo bang ipadala sa akin ang report hanggang Huwebes?}}{{ex:Thanks for your patience.|/ˈθæŋks fər jʊr ˈpeɪʃns/|Salamat sa paghihintay}}
+<p>Sa halip na "Kindly send…", isulat ang <b>Could you send…?</b> May dating na nagmamadali ang ASAP; kung kaya, magbigay ng deadline gamit ang <b>by + araw</b>. Sa halip na "Please be informed that the office is closed on Monday", sabihin nang tuwiran: <b>The office is closed on Monday.</b></p>
+<h3>Mga pormulang Pinoy at ang katumbas nila</h3>
+<ul><li>Sa halip na "Good day!": <b>Hi Ana,</b> o <b>Hello,</b></li><li>Sa halip na "Thank you and God bless" o "More power!": <b>Thanks,</b> o <b>Best regards,</b></li><li>Pagkatapos ng isang proyekto: <b>Thanks for all your hard work!</b></li><li>Sa dulo ng email tuwing Biyernes: <b>Have a great weekend!</b></li><li>Kapag wala kang pasok kinabukasan: <b>I'm off tomorrow.</b></li></ul>
+<div class="tip">Hindi kailangang isulat ang "Sorry for the late reply" sa bawat email. Subukan ang <b>Thanks for your patience</b>: magalang at positibo ang dating nito kahit walang paghingi ng paumanhin.</div>`},
 
-{ id:"idioms", title:"11 · 관용구와 슬랭 쓰는 법", blurb:"직역하면 이상한 표현들. 언제, 누구에게 써야 할까요?", deck:"영어 관용구", body:`
-<p>관용구(idiom)는 단어 뜻을 합쳐도 전체 뜻이 나오지 않는 표현이에요. "a piece of cake"는 케이크 이야기가 아니라 "아주 쉽다"는 뜻이죠. 영화·드라마를 자막 없이 보려면 꼭 알아야 해요.</p>
-<h3>그림으로 기억하세요</h3>
-<p>대부분의 관용구는 머릿속에 장면을 그리면 쉽게 외워져요.</p>
-{{ex:It's a piece of cake.|잇츠 어 피스 오브 케익|식은 죽 먹기예요 (케이크 한 조각 먹듯 쉽다)}}{{ex:It costs an arm and a leg.|잇 코스츠 언 암 앤 어 레그|엄청 비싸요 (팔다리를 줘야 할 만큼)}}{{ex:I'm all ears.|아임 올 이어즈|잘 듣고 있어요 (온몸이 귀)}}
-<h3>한국어와 비슷한 표현</h3>
-<div class="tbl"><table><tr><th>영어</th><th>한국어</th></tr><tr><td class="k">Speak of the devil!</td><td>호랑이도 제 말 하면 온다</td></tr><tr><td class="k">Kill two birds with one stone</td><td>일석이조</td></tr><tr><td class="k">When pigs fly</td><td>해가 서쪽에서 뜨면</td></tr><tr><td class="k">A blessing in disguise</td><td>전화위복</td></tr></table></div>
-<h3>관용구 vs 슬랭</h3>
-<p><b>관용구</b>는 오래된 표현이라 나이와 상관없이, 직장에서도 써요(Let's call it a day). <b>슬랭</b>은 젊은 층의 유행어라 친구끼리만 써요(No cap, That song slaps). 슬랭은 빨리 바뀌고, 어른이 쓰면 어색하게 들릴 수도 있어요.</p>
-{{ex:Let's call it a day.|렛츠 콜 잇 어 데이|오늘은 여기까지 해요 (회의에서도 OK)}}{{ex:No cap, this is the best pizza ever.|노 캡, 디스 이즈 더 베스트 핏자 에버|진짜로, 이거 인생 피자야 (친구끼리만)}}
-<div class="tip">관용구는 너무 많이 넣으면 오히려 부자연스러워요. 대화 한 번에 하나 정도, 상황에 딱 맞을 때 쓰면 "영어 잘한다!"는 인상을 줄 수 있어요.</div>`}
+{ id:"idioms", title:"11 · Mga idyoma at slang: paano gamitin", blurb:"Mga pananalitang kakaiba kapag isinalin nang literal. Kailan at kanino mo puwedeng sabihin ang mga ito?", deck:"Mga idyoma sa Ingles", body:`
+<p>Ang idyoma (idiom) ay pananalitang hindi makukuha ang kahulugan sa pagsasama-sama ng mga salita nito. Hindi tungkol sa keyk ang <b>a piece of cake</b>; "napakadali" ang ibig sabihin nito. May ganito rin sa Tagalog: hindi tungkol sa sibuyas ang <i>balat-sibuyas</i>. Kailangan ang mga idyoma para masundan ang mga pelikula at serye nang walang subtitle.</p>
+<h3>Tandaan sa pamamagitan ng larawan</h3>
+<p>Mas madaling matandaan ang karamihan ng idyoma kapag inilarawan mo sa isip ang eksena.</p>
+{{ex:It's a piece of cake.|/ɪts ə ˈpiːs əv ˈkeɪk/|Napakadali niyan (kasindali ng pagkain ng isang hiwa ng keyk)}}{{ex:It costs an arm and a leg.|/ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/|Napakamahal niyan (parang braso at binti ang ibabayad)}}{{ex:I'm all ears.|/aɪm ˈɔːl ˈɪrz/|Nakikinig ako nang mabuti (puro tainga ako)}}
+<h3>Mga kahawig sa Tagalog</h3>
+<div class="tbl"><table><tr><th>Ingles</th><th>Tagalog</th></tr><tr><td class="k">Speak of the devil!</td><td>Sinasabi kapag biglang dumating ang taong pinag-uusapan</td></tr><tr><td class="k">Kill two birds with one stone</td><td>Makatama ng dalawang ibon sa isang bato</td></tr><tr><td class="k">When pigs fly</td><td>Kapag pumuti na ang uwak</td></tr><tr><td class="k">A blessing in disguise</td><td>Biyayang mukhang problema sa simula</td></tr></table></div>
+<h3>Idyoma laban sa slang</h3>
+<p>Matagal nang ginagamit ang mga <b>idyoma</b>, kaya sinasabi ito ng lahat ng edad, kahit sa trabaho (Let's call it a day). Ang <b>slang</b> ay usong salita ng mga kabataan at para lang sa magkakaibigan (No cap, That song slaps), parang <i>charot</i> o <i>lodi</i> sa atin. Mabilis itong magbago, at nakakailang kapag ginamit sa maling lugar.</p>
+{{ex:Let's call it a day.|/ˈlets ˈkɔːl ɪt ə ˈdeɪ/|Hanggang dito na lang muna tayo ngayong araw (puwede kahit sa meeting)}}{{ex:No cap, this is the best pizza ever.|/ˈnoʊ ˈkæp ˈðɪs ɪz ðə ˈbest ˈpiːtsə ˈevər/|Totoo, ito ang pinakamasarap na pizza na natikman ko (sa magkakaibigan lang)}}
+<div class="tip">Kapag sunod-sunod ang idyoma, hindi na natural ang dating. Isa sa bawat usapan, sa tamang sandali, ay sapat na para humanga ang kausap mo sa Ingles mo.</div>`}
 ];
 
 exports.CHECKS = {
   alphabet: [
-    ["영어 이름이 '지'인 글자는? (z 소리가 아니라 입술을 내민 '쥐'에 가까운 소리예요)", ["J","G","Z","C"], 1, "G의 이름은 '지'예요. J는 '제이', Z는 z 소리의 zee(지 (z)), C는 '씨'예요."],
-    ["올바른 것은?", ["a F","an U","a M","an F"], 3, "F의 이름 '에프'는 모음 소리로 시작해서 an F예요. M(엠)도 an M, U(유)는 y 소리라서 a U예요."],
-    ["단어의 철자를 물어볼 때 쓰는 말은?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "do 뒤에는 동사원형 spell이 와요: How do you spell that?"]
+    [`Aling titik ang may pangalang /ˈdʒiː/? (Pareho ang simula nito sa "job", at /iː/ ang dulo.)`, ["J","G","Z","C"], 1, `/ˈdʒiː/ ang pangalan ng G. Ang J ay /ˈdʒeɪ/, ang Z ay /ˈziː/ at ang C ay /ˈsiː/.`],
+    [`Alin ang tama?`, ["a F","an U","a M","an F"], 3, `Tunog na vowel ang simula ng pangalan ng F (/ef/), kaya "an F". Ganito rin ang M (/em/): "an M". Sa U (/juː/), tunog ng y ang simula, kaya "a U".`],
+    [`Paano mo itatanong kung paano binabaybay ang isang salita?`, ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, `Pagkatapos ng "do", base form ang verb: How do you spell that?`]
   ],
   pron: [
-    ["R 소리를 낼 때 혀끝은 어디에 있나요?", ["윗니 뒤 잇몸에 붙인다","이 사이로 내민다","어디에도 닿지 않는다","아랫입술에 댄다"], 2, "R은 혀끝이 아무 데도 닿지 않아요. 붙이면 L이 돼요."],
-    ["think의 th를 바르게 내는 방법은?", ["혀끝을 이 사이로 살짝 내밀고 바람을 낸다","두 입술을 붙였다 뗀다","윗니를 아랫입술에 댄다","혀를 뒤로 만다"], 0, "TH는 혀끝이 이 사이에 보여야 해요. s로 말하면 sink가 돼요."],
-    ["hotel의 강세는 어디에 있나요?", ["ho (앞)","강세가 없다","둘 다 똑같이","tel (뒤)"], 3, "ho-TEL. 뒤를 세고 길게 말해요: 호우텔."]
+    [`Nasaan ang dulo ng dila kapag binibigkas ang R ng American English?`, ["Nakadikit sa gilagid sa likod ng mga ngipin sa itaas","Nakalabas sa pagitan ng mga ngipin","Walang dinidikitan","Nakadikit sa ibabang labi"], 2, `Sa R ng American English, walang dinidikitan ang dulo ng dila at hindi ito pumipitik. Kapag idinikit sa gilagid, L na ang lalabas.`],
+    [`Paano binibigkas nang tama ang th ng "think"?`, ["Ilabas nang bahagya ang dulo ng dila sa pagitan ng mga ngipin at magpalabas ng hangin","Pagdikitin ang dalawang labi, saka buksan","Idikit ang mga ngipin sa itaas sa ibabang labi","Iurong ang dila"], 0, `Sa TH, dapat nakikita ang dulo ng dila sa pagitan ng mga ngipin. Kapag /t/ ang ipinalit, "tink" ang maririnig; kapag /s/, "sink".`],
+    [`Saan ang stress ng "hotel"?`, ["ho (una)","walang stress","pareho ang dalawang pantig","tel (huli)"], 3, `ho-TEL: mas malakas at mas mahaba ang huling pantig. Ang bigkas (IPA) ay /hoʊˈtel/.`]
   ],
   articles: [
-    ["I'm ___ engineer. 빈칸에 알맞은 것은?", ["a","an","the","(없음)"], 1, "engineer는 모음 소리(엔)로 시작하므로 an이에요. 직업 앞에는 꼭 관사를 붙여요."],
-    ["식당에 앉아서 직원에게: Can I see ___ menu?", ["the","a","an","(없음)"], 0, "이 식당의 바로 그 메뉴판이니까 the예요."],
-    ["'저는 고양이를 좋아해요' (고양이라는 동물 전체)", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "일반적인 대상을 말할 땐 관사 없이 복수형을 써요. a cat은 '고양이 한 마리', the cat은 '그 고양이'예요."]
+    [`I'm ___ engineer. Ano ang dapat ilagay sa patlang?`, ["a","an","the","(wala)"], 1, `Tunog na vowel ang simula ng "engineer", kaya "an". Kailangan ng article bago ang trabaho.`],
+    [`Nakaupo ka sa restawran at kausap mo ang waiter: Can I see ___ menu?`, ["the","a","an","(wala)"], 0, `Ang menu ng restawrang iyon mismo ang tinutukoy at alam ito ng waiter, kaya "the".`],
+    [`'Mahilig ako sa pusa' (lahat ng pusa, pangkalahatan) sa Ingles?`, ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, `Kapag pangkalahatan ang sinasabi, plural ang noun at walang article. Ang "a cat" ay isang pusa; ang "the cat" ay ang pusang alam na ninyong dalawa.`]
   ],
   be: [
-    ["올바른 문장은?", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "like는 일반동사라 be동사(am)와 같이 쓰지 않아요."],
-    ["'우리 언니는 서울에 살아요' =", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "주어가 she(3인칭 단수)라서 동사에 -s를 붙여요: lives."],
-    ["Are you hungry?에 '아니요'라고 대답할 때", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "be동사로 물었으니 be동사로 대답해요: No, I'm not."]
+    [`Alin ang tamang pangungusap?`, ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, `May verb na ang pangungusap ("like"), kaya hindi na ito sinasamahan ng "am".`],
+    [`'Nakatira sa Seoul ang ate ko' sa Ingles?`, ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, `"She" ang katumbas ng "ang ate ko", kaya may -s ang verb: "lives".`],
+    [`Paano sasagot ng 'hindi' sa tanong na "Are you hungry?"`, ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, `"Be" ang ginamit sa tanong, kaya "be" rin sa sagot: No, I'm not.`]
   ],
   polite: [
-    ["처음 보는 사람에게 가장 공손한 부탁은?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Could you ~?가 공손한 부탁의 기본이에요. Give me는 명령처럼 들려요."],
-    ["Would you mind opening the window?에 '네, 열어 드릴게요'라는 뜻의 대답은?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "mind = 꺼리다. 'No(안 꺼려요)'가 '해 드릴게요'라는 뜻이에요."],
-    ["Would you mind 뒤에 오는 동사 형태는?", ["동사원형 (open)","to + 동사원형 (to open)","과거형 (opened)","~ing (opening)"], 3, "mind 뒤에는 ~ing가 와요: Would you mind waiting?"]
+    [`Alin ang pinakamagalang na pakiusap sa taong hindi mo kakilala?`, ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, `"Could you ~?" ang karaniwang anyo ng magalang na pakiusap. Parang utos ang "Give me".`],
+    [`Tanong: "Would you mind opening the window?" Aling sagot ang ibig sabihin ay 'Sige, bubuksan ko'?`, ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, `"Masamain" ang ibig sabihin ng "mind". Kaya ang "No" (hindi ko minamasama) ang pagpayag.`],
+    [`Anong anyo ng verb ang kasunod ng "Would you mind"?`, ["base form (open)","to + verb (to open)","past form (opened)","~ing (opening)"], 3, `Anyong -ing ang kasunod ng "mind": Would you mind waiting?`]
   ],
   tense: [
-    ["'저 매일 아침 커피 마셔요' (습관)", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "습관은 현재형이에요. 진행형은 '지금 마시는 중'이에요."],
-    ["친구 지갑이 없는 걸 보고 그 자리에서: '내가 낼게!'", ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, "말하는 순간 결정한 일은 will이에요. going to는 미리 세운 계획이에요."],
-    ["go의 과거형은?", ["goed","gone","going","went"], 3, "go는 불규칙 동사예요: go - went - gone."]
+    [`'Umiinom ako ng kape tuwing umaga' (ugali) sa Ingles?`, ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, `Present tense ang gamit sa ugali. Ang present continuous ay para sa ginagawa ngayon mismo.`],
+    [`Nakita mong walang dalang wallet ang kaibigan mo. Sasabihin mo agad: 'Ako na ang magbabayad!'`, ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, `"Will" ang gamit sa desisyong ginawa sa mismong sandali ng pagsasalita. Ang "going to" ay para sa planong napag-isipan na.`],
+    [`Ano ang past form ng "go"?`, ["goed","gone","going","went"], 3, `Irregular na verb ang "go": go, went, gone.`]
   ],
   prep: [
-    ["'7시에 만나요' = Let's meet ___ 7.", ["in","at","on","to"], 1, "정확한 시각 앞에는 at이에요."],
-    ["'월요일에' = ___ Monday", ["on","in","at","by"], 0, "요일과 날짜 앞에는 on이에요."],
-    ["올바른 문장은?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every 앞에는 전치사를 쓰지 않아요."]
+    [`'Magkita tayo nang alas-siyete' → Let's meet ___ 7.`, ["in","at","on","to"], 1, `"At" ang gamit bago ang eksaktong oras.`],
+    [`'sa Lunes' → ___ Monday`, ["on","in","at","by"], 0, `"On" ang gamit bago ang araw ng linggo at petsa.`],
+    [`Alin ang tamang pangungusap?`, ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, `Walang preposition bago ang next, last, this at every.`]
   ],
   smalltalk: [
-    ["카페 직원이 How are you today?라고 할 때 가장 자연스러운 대답은?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "How are you?는 인사예요. 짧게 대답하고 되물어 주면 완벽해요."],
-    ["초면에 피하는 게 좋은 질문은?", ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, "영어권에서는 나이를 먼저 묻는 게 실례가 될 수 있어요."],
-    ["I don't like horror movies.에 동의할 때", ["Me too.","So do I.","Me neither.","Me also."], 2, "부정문에 맞장구칠 땐 Me neither(또는 Neither do I)예요."]
+    [`Sabi ng barista sa iyo: "How are you today?" Alin ang pinakanatural na sagot?`, ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, `Pagbati ang "How are you?" Sumagot nang maikli at ibalik ang tanong.`],
+    [`Aling tanong ang mas mabuting iwasan sa unang pagkikita?`, ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, `Sa Amerika, hindi magandang itanong agad ang edad ng bagong kakilala.`],
+    [`Paano ka sasang-ayon sa "I don't like horror movies."?`, ["Me too.","So do I.","Me neither.","Me also."], 2, `Kapag sumasang-ayon sa negatibong pangungusap, "Me neither" (o "Neither do I") ang sagot.`]
   ],
   phrasal: [
-    ["'그거 좀 꺼 줄래?' 올바른 문장은?", ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, "대명사(it)는 구동사 가운데에 와요: turn it off."],
-    ["run out of의 뜻은?", ["밖으로 뛰어나가다","~이 다 떨어지다","~에서 도망치다","늦게 도착하다"], 1, "We ran out of milk. = 우유가 다 떨어졌어요."],
-    ["'회의를 다음 주로 미루자' =", ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, "put off = 미루다. put on은 '입다·켜다', put out은 '(불을) 끄다'예요."]
+    [`'Puwede mo bang patayin iyan?' Alin ang tamang pangungusap?`, ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, `Nasa gitna ng phrasal verb ang pronoun na "it": turn it off.`],
+    [`Ano ang kahulugan ng "run out of"?`, ["tumakbo palabas","maubusan ng isang bagay","tumakas mula sa isang lugar","dumating nang huli"], 1, `We ran out of milk. = Naubusan kami ng gatas.`],
+    [`'Ipagpaliban natin ang meeting hanggang sa susunod na linggo' sa Ingles?`, ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, `"Put off" = ipagpaliban. Ang "put on" ay isuot o buksan; ang "put out" ay patayin ang apoy.`]
   ],
   numbers: [
-    ["50,000(오만)을 영어로 하면?", ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, "영어는 세 자리씩 끊어요: 50 + thousand = fifty thousand."],
-    ["thirteen은 어디를 세게 말하나요?", ["thir (앞)","teen (뒤)","둘 다 똑같이","강세가 없다"], 1, "-teen 숫자는 뒤에 강세가 있어요. thirty는 앞이에요."],
-    ["$12.50을 가장 자연스럽게 읽으면?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "가격은 숫자 두 덩어리로 읽어요: twelve fifty."]
+    [`Paano sabihin ang 50,000 sa Ingles?`, ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, `50 + thousand = fifty thousand. Walang -s ang "thousand" pagkatapos ng numero.`],
+    [`Saan ang stress ng "thirteen"?`, ["thir (una)","teen (huli)","pareho ang dalawang pantig","walang stress"], 1, `Nasa huli ang stress ng mga numerong may -teen. Sa "thirty", nasa una.`],
+    [`Ano ang pinakanatural na basa sa $12.50?`, ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, `Binabasa ang presyo bilang dalawang numero: twelve fifty.`]
   ],
   email: [
-    ["처음 연락하는 거래처 담당자 Jenny Park에게 가장 무난한 인사는?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "미국 업무 이메일에선 Hi + 이름이 가장 무난해요. 아주 격식 있을 땐 Dear Ms. Park,"],
-    ["프로젝트를 마친 팀에게 '수고하셨습니다'를 전하려면?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "영어엔 수고하셨습니다에 딱 맞는 말이 없어요. 노력에 고마움을 표현해요."],
-    ["기한을 정중하게 요청하는 문장은?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you ~? + by + 날짜로 부드럽지만 분명하게 요청해요."]
+    [`Unang beses kang susulat kay Jenny Park, ang kausap mo sa isang kliyenteng kompanya. Alin ang pinakaligtas na bati?`, ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, `Sa email sa trabaho sa Amerika, "Hi" + unang pangalan ang pinakaligtas. Kapag napakapormal: Dear Ms. Park,`],
+    [`Tapos na ang proyekto at gusto mong pasalamatan ang team sa pagod nila. Alin ang isusulat mo?`, ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, `Pasalamatan ang pagsisikap nila: Thanks for all your hard work!`],
+    [`Aling pangungusap ang magalang na humihiling at may malinaw na deadline?`, ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, `"Could you ~?" + "by" + araw: malumanay ang hiling pero malinaw ang deadline.`]
   ],
   idioms: [
-    ["The test was a piece of cake.의 뜻은?", ["시험이 아주 쉬웠어요","시험 중에 케이크를 먹었어요","시험이 아주 어려웠어요","시험을 망쳤어요"], 0, "a piece of cake = 식은 죽 먹기."],
-    ["I'm feeling under the weather.의 뜻은?", ["날씨가 나빠요","밖에 있어요","몸이 좀 안 좋아요","비를 맞았어요"], 2, "날씨와 상관없이 '컨디션이 안 좋다'는 뜻이에요."],
-    ["회사 상사에게 보고할 때 쓰기에 가장 어색한 것은?", ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, "No cap, slaps는 친구끼리 쓰는 슬랭이에요. 관용구는 직장에서도 써요."]
+    [`Ano ang ibig sabihin ng "The test was a piece of cake."?`, ["Napakadali ng test","Kumain ng keyk habang may test","Napakahirap ng test","Bumagsak sa test"], 0, `"A piece of cake" = napakadali.`],
+    [`Ano ang ibig sabihin ng "I'm feeling under the weather."?`, ["Masama ang panahon","Nasa labas ako","Medyo masama ang pakiramdam ko","Naulanan ako"], 2, `Walang kinalaman sa panahon ang idyomang ito: hindi maganda ang pakiramdam ng nagsasalita.`],
+    [`Alin ang pinakahindi bagay sabihin kapag nag-uulat ka sa boss mo?`, ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, `Slang ng magkakaibigan ang "No cap" at "slaps". Ang mga idyoma ay puwede kahit sa trabaho.`]
   ]
 };
