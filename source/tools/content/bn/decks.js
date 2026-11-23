@@ -1,441 +1,482 @@
-/* TRANSLATE/ADAPT (bn): scaffolded from tools/content/ko/decks.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for bn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the bn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
 /* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
 module.exports = {
-"인사": `
-Hello. | 헬로우 | 안녕하세요 | 가장 기본 인사예요. 언제 어디서나, 누구에게나 OK
-Hi! | 하이! | 안녕! / 안녕하세요 | Hello보다 가볍고 친근해요. 미국에선 직장 동료끼리도 Hi를 써요
-Hey! | 헤이! | 야! / 안녕! | 친구끼리 쓰는 말. 처음 보는 사람에게 쓰면 무례하게 들릴 수 있어요
-Good morning. | 굿 모닝 | 좋은 아침이에요 | 정오 전까지 써요. 줄여서 그냥 "Morning!"이라고도 해요
-Good afternoon. | 굿 애프터눈 | 안녕하세요 (오후 인사) | 낮 12시~6시쯤. 약간 격식 있는 느낌이라 가게·회사에서 자주 들려요
-Good evening. | 굿 이브닝 | 안녕하세요 (저녁 인사) | 만날 때 하는 저녁 인사예요. Good night은 헤어질 때만 써요!
-How are you? | 하우 아 유? | 잘 지내요? / 안녕하세요? | 진짜 안부라기보다 인사예요. "Good, thanks. You?"로 가볍게 받아요
-I'm good, thanks. And you? | 아임 굿, 땡스. 앤 쥬? | 잘 지내요, 고마워요. 당신은요? | "I'm fine, thank you"는 교과서 느낌. good이 훨씬 자연스러워요
-What's up? | 왓썹? | 뭐 해? / 별일 없어? | 하늘(up)을 볼 필요 없어요. 보통 "Not much."로 대답해요
-Not much. | 낫 머치 | 별일 없어 | What's up?에 대한 가장 흔한 대답. "Not much, you?"로 되물어요
-How's it going? | 하우즈 잇 고잉? | 어떻게 지내? / 잘 돼 가? | How are you?의 캐주얼 버전. "Pretty good!"으로 받아요
-Nice to meet you. | 나이스 투 미츄 | 만나서 반가워요 | 처음 만났을 때만 써요. 대답은 "Nice to meet you, too."
-Long time no see! | 롱 타임 노 씨! | 오랜만이에요! | 친한 사이에서 써요. 조금 격식 있게는 "It's been a while."
-See you later. | 씨 유 레이러 | 나중에 봐요 | 다시 만날 계획이 없어도 헤어질 때 인사로 그냥 써요
-Take care. | 테익 케어 | 잘 지내요 / 몸조심해요 | 헤어질 때 하는 따뜻한 인사. 문자 끝에도 자주 붙여요
-Have a good one! | 해버 굿 원! | 좋은 하루 보내요! | 가게 직원이 계산 후 자주 해요. "You too!"로 받으면 끝
-Bye! | 바이! | 안녕! (헤어질 때) | "Bye-bye"는 어른끼리 쓰면 조금 귀엽게(아이 말투처럼) 들릴 수 있어요
-Good night. | 굿 나잇 | 잘 자요 / 안녕히 가세요 (밤) | 밤에 헤어지거나 자러 갈 때만 써요. 만날 때는 Good evening
+"শুভেচ্ছা বিনিময়": `
+Hello. | হাˈলৌ | হ্যালো / আসসালামু আলাইকুম | সবচেয়ে সাধারণ সম্ভাষণ। যেকোনো সময়, যে কাউকে বলা যায়।
+Hi! | ˈহাই | হাই! | Hello-র চেয়ে হালকা ও আন্তরিক। আমেরিকায় অফিসের সহকর্মীদেরও Hi বলা হয়।
+Hey! | ˈহেই | এই! / এই যে! | বন্ধুদের মধ্যে চলে। অপরিচিত কাউকে বললে অভদ্র শোনাতে পারে।
+Good morning. | ˈগুড ˈমর্নিং | শুভ সকাল | দুপুর 12টার আগে পর্যন্ত। ছোট করে শুধু Morning! বলাও চলে।
+Good afternoon. | ˈগুড অ্যাফ্টার্ˈনূন | শুভ বিকেল (দুপুর ও বিকেলের সম্ভাষণ) | দুপুর 12টা থেকে সন্ধ্যা 6টার মতো। একটু আনুষ্ঠানিক; দোকানে আর অফিসে বেশি শোনা যায়।
+Good evening. | ˈগুড ˈঈভ়্নিং | শুভ সন্ধ্যা | সন্ধ্যায় দেখা হলে বলা হয়। Good night শুধু বিদায়ের সময়; দেখা হওয়ামাত্র Good night বলবেন না।
+How are you? | ˈহাউ আর ইউ | কেমন আছেন? / কেমন আছ? | এটা আসলে সম্ভাষণ, বিস্তারিত খবর জানতে চাওয়া নয়। ছোট উত্তর দিন: Good, thanks. You?
+I'm good, thanks. And you? | আইম ˈগুড ˈথ়্যাংক্স। আন্ড ˈইঊ | ভালো আছি, ধন্যবাদ। আপনি? | স্কুলে শেখা I'm fine, thank you একটু বইয়ের ভাষার মতো শোনায়; I'm good অনেক বেশি স্বাভাবিক।
+What's up? | ˈওয়াট্স ˈআপ | কী খবর? / কী অবস্থা? | বন্ধুদের মধ্যে খুব চলতি, আমাদের "কী খবর?"-এর মতোই। লম্বা উত্তর লাগে না; সাধারণ উত্তর: Not much.
+Not much. | ˈনাːট ˈমাচ | তেমন কিছু না / এই তো চলছে | What's up?-এর সবচেয়ে চলতি উত্তর। পাল্টা জিজ্ঞেস করুন: Not much, you?
+How's it going? | ˈহাউজ় ইট ˈগৌইং | কেমন চলছে? | How are you?-এর ঘরোয়া রূপ। উত্তর: Pretty good!
+Nice to meet you. | ˈনাইস টা ˈমীট ইউ | পরিচিত হয়ে ভালো লাগল | শুধু প্রথম পরিচয়ের সময়। উত্তর: Nice to meet you, too. আগে থেকে চেনা কাউকে বলুন: Nice to see you.
+Long time no see! | ˈলং ˈটাইম ˈনৌ ˈসী | অনেক দিন পর দেখা! | কাছের মানুষদের বলা হয়। একটু আনুষ্ঠানিকভাবে: It's been a while.
+See you later. | ˈসী ইউ ˈলেইটার | পরে দেখা হবে | আবার কবে দেখা হবে ঠিক না থাকলেও বিদায়ের সময় বলা যায়।
+Take care. | ˈটেইক ˈকের | ভালো থাকবেন / ভালো থেকো | বিদায়ের আন্তরিক কথা। মেসেজের শেষেও লেখা হয়।
+Have a good one! | ˈহ্যাভ় আ ˈগুড ˈওয়ান | দিনটা ভালো কাটুক! | দোকানের কর্মীরা বিল নেওয়ার পর প্রায়ই বলেন। উত্তর: You too!
+Bye! | ˈবাই | আসি! / বিদায়! | বড়দের মুখে Bye-bye একটু শিশুসুলভ শোনাতে পারে; শুধু Bye বলাই ভালো।
+Good night. | ˈগুড ˈনাইট | শুভ রাত্রি | রাতে বিদায় নেওয়ার বা ঘুমাতে যাওয়ার সময়। রাতে দেখা হলে বলুন Good evening।
 `,
-"자기소개": `
-My name is Minji. | 마이 네임 이즈 민지 | 제 이름은 민지예요 | 일상에서는 더 짧게 "I'm Minji."라고 많이 해요
-Please call me Jay. | 플리즈 콜 미 제이 | 제이라고 불러 주세요 | 영어 이름이 있거나 이름을 줄여 부르고 싶을 때
-What should I call you? | 왓 슈다이 콜 유? | 뭐라고 부르면 될까요? | 상대 이름 발음이 어렵거나 애칭이 궁금할 때 유용해요
-Where are you from? | 웨어 아 유 프럼? | 어디서 왔어요? / 어느 나라 사람이에요? | 외국에서 가장 먼저 듣는 질문 중 하나예요
-I'm from Korea. | 아임 프럼 코리아 | 한국에서 왔어요 | 도시까지 말하면 대화가 이어져요: "I'm from Busan, in South Korea."
-I live in Seoul. | 아이 리브 인 서울 | 서울에 살아요 | live의 v는 윗니로 아랫입술을 살짝 물고 소리 내요
-I'm a student. | 아임 어 스튜던트 | 저는 학생이에요 | 직업 앞에는 꼭 a/an! "I'm student"는 가장 흔한 실수예요
-What do you do? | 왓 두 유 두? | 무슨 일 하세요? | 직업을 묻는 표준 질문. "What's your job?"보다 부드러워요
-I work at a bank. | 아이 워크 앳 어 뱅크 | 은행에서 일해요 | 회사·장소 앞엔 at: "I work at Samsung."
-I work in marketing. | 아이 워크 인 마케팅 | 마케팅 분야에서 일해요 | 분야·부서 앞엔 in. at(회사)과 구분해요
-I'm 25 years old. | 아임 트웬티파이브 이어즈 올드 | 저는 25살이에요 | 영어권에선 만 나이로 말해요. 나이를 먼저 묻는 건 실례일 수 있어요
-I'm really into hiking. | 아임 륄리 인투 하이킹 | 등산에 푹 빠져 있어요 | "My hobby is…"보다 훨씬 자연스러운 취미 표현이에요
-I like watching movies. | 아이 라익 와칭 무비즈 | 영화 보는 걸 좋아해요 | like 뒤에 동작이 오면 ~ing 또는 to + 동사원형
-I've been learning English for a year. | 아이브 빈 러닝 잉글리시 포러 이어 | 영어를 1년째 배우고 있어요 | 지금까지 계속 해 온 일은 have been + ~ing
-I'm here on vacation. | 아임 히어 온 베이케이션 | 휴가로 왔어요 | 영국식은 "I'm here on holiday."
-I'm married. | 아임 매리드 | 결혼했어요 | 미혼이면 "I'm single." 초면에 결혼 여부를 묻는 건 피하는 게 좋아요
-I have a younger brother. | 아이 해버 영거 브라더 | 남동생이 한 명 있어요 | 영어는 형·오빠·남동생을 older/younger brother로만 구분해요
+"নিজের পরিচয়": `
+My name is Rafi. | মাই ˈনেইম ইজ় ˈরাːফি | আমার নাম রাফি | রোজকার কথায় ছোট করে I'm Rafi. বেশি চলে। Myself Rafi বলবেন না।
+Please call me Jay. | ˈপ্লীজ় ˈকল মি ˈজেই | আমাকে জে বলে ডাকবেন | ডাকনাম বা ছোট নামে ডাকতে বলার সময়। বিদেশে কাজ করলে সহজে উচ্চারণ করা যায় এমন একটা ছোট নাম ঠিক করে রাখতে পারেন।
+What should I call you? | ˈওয়াট শাড আই ˈকল ইউ | আপনাকে কী বলে ডাকব? | নামের উচ্চারণ কঠিন লাগলে বা ডাকনাম জানতে চাইলে কাজে লাগে। ইংরেজিতে "ভাই" বা "আপা" জুড়ে ডাকার চল নেই; শুধু নাম ধরে ডাকা হয়।
+Where are you from? | ˈওয়ের আর ইউ ফ্রাম | আপনি কোথা থেকে এসেছেন? / আপনার দেশ কোথায়? | বিদেশে সবার আগে শোনা প্রশ্নগুলোর একটি।
+I'm from Bangladesh. | আইম ফ্রাম বাːংগ্লাˈডেশ | আমি বাংলাদেশ থেকে এসেছি | শহরের নামও বললে আলাপ এগোয়: I'm from Sylhet, in Bangladesh. দেশের নামের আগে the বসে না।
+I live in Dhaka. | আই ˈলিভ় ইন ˈডাːকা | আমি ঢাকায় থাকি | "ঢাকায়"-এর -য় শব্দের পরে বসে, ইংরেজিতে in বসে আগে। live-এর শেষে v: উপরের দাঁত নিচের ঠোঁটে ছুঁইয়ে বলুন, "ব" বা "ভ" নয়।
+I'm a student. | আইম আ ˈস্টূডান্ট | আমি ছাত্র / আমি ছাত্রী | "আমি ছাত্র" বাক্যে ক্রিয়াও নেই, আর্টিকেলও নেই; ইংরেজিতে am আর a দুটোই লাগে। I student বা I'm student ভুল।
+What do you do? | ˈওয়াট ডা ইউ ˈডূ | আপনি কী করেন? (পেশা) | পেশা জানার প্রচলিত প্রশ্ন। What's your job?-এর চেয়ে নরম শোনায়।
+I work at a bank. | আই ˈওয়ার্ক আট আ ˈব্যাংক | আমি একটা ব্যাংকে চাকরি করি | প্রতিষ্ঠান বা জায়গার আগে at: I work at a hospital.
+I work in marketing. | আই ˈওয়ার্ক ইন ˈমাːর্কিটিং | আমি মার্কেটিংয়ে কাজ করি | বিভাগ বা কাজের ক্ষেত্রের আগে in; প্রতিষ্ঠানের আগে at।
+I'm 25 years old. | আইম ট্ওয়েন্টিˈফাইভ় ˈইয়ির্জ় ˈঔল্ড | আমার বয়স 25 বছর | বাংলায় "আমার বয়স", ইংরেজিতে be ক্রিয়া: I'm 25. My age is 25 শুনতে আড়ষ্ট। অল্প পরিচয়ে বয়স জিজ্ঞেস করা সেখানে অভদ্রতা।
+I'm really into hiking. | আইম ˈরীআলি ইন্টা ˈহাইকিং | পাহাড়ে হাঁটতে (হাইকিং) আমার দারুণ লাগে | My hobby is…-এর চেয়ে অনেক স্বাভাবিক। be into = কোনো কিছু খুব পছন্দ করা।
+I like watching movies. | আই ˈলাইক ˈওয়াːচিং ˈমূভ়িজ় | আমি সিনেমা দেখতে পছন্দ করি | like-এর পরে কোনো কাজ এলে -ing রূপ বা to + ক্রিয়া: like watching / like to watch.
+I've been learning English for a year. | আইভ় বিন ˈলার্নিং ˈইংগ্লিশ ফার আ ˈইয়ির | আমি এক বছর ধরে ইংরেজি শিখছি | "ধরে" = for. আগে শুরু হয়ে এখনো চলছে এমন কাজে have been + -ing; I am learning English for a year ভুল।
+I'm here on vacation. | আইম ˈহির আːন ভ়েইˈকেইশান | আমি এখানে ছুটি কাটাতে এসেছি | ব্রিটিশ ইংরেজিতে: on holiday.
+I'm married. | আইম ˈম্যারিড | আমি বিবাহিত | অবিবাহিত হলে: I'm single. কার সঙ্গে বিয়ে হয়েছে বলতে married to, with নয়।
+I have a younger brother. | আই ˈহ্যাভ় আ ˈইয়াংগার ˈব্রাদ়ার | আমার একটা ছোট ভাই আছে | "আমার … আছে" = I have …; There is my brother নয়। বড় ভাই = older brother; "ভাইয়া"-র মতো আলাদা শব্দ নেই।
 `,
-"생존 영어 1": `
-Excuse me. | 익스큐즈 미 | 실례합니다 / 저기요 | 사람을 부르거나 지나갈 때 써요. 부딪친 뒤에는 Sorry!
-Thank you. | 땡큐 | 감사합니다 | th는 혀끝을 이 사이에 살짝. 그래도 "땡큐"로 충분히 통해요
-Thanks a lot. | 땡스 어 랏 | 정말 고마워요 | Thank you보다 가볍고 친근해요
-You're welcome. | 유어 웰컴 | 천만에요 | 캐주얼하게는 "Sure." "No problem." "Anytime."
-No problem. | 노 프라블럼 | 별거 아니에요 | 고맙다는 말에 대한 대답으로 아주 흔해요
-I'm sorry. | 아임 쏘리 | 죄송해요 | 진짜 사과할 때. 가볍게 부딪쳤을 땐 "Sorry!" 한 마디면 돼요
-Yes, please. | 예스, 플리즈 | 네, 주세요 | "Would you like some water?" 같은 제안에 대한 대답
-No, thank you. | 노, 땡큐 | 아니요, 괜찮아요 | 거절할 때 그냥 No보다 훨씬 공손해요. 캐주얼: "I'm good, thanks."
-Sorry? | 쏘리? (끝을 올려서) | 네? 뭐라고요? | 끝을 올리면 "다시 말해 주세요"라는 뜻이 돼요. 미국에선 "Pardon?"보다 흔해요
-Could you say that again? | 쿠쥬 쎄이 댓 어게인? | 다시 말씀해 주시겠어요? | 못 알아들었을 때 당당하게 써요. 원어민도 자주 해요
-Could you speak more slowly? | 쿠쥬 스픽 모어 슬로울리? | 좀 더 천천히 말해 주시겠어요? | please를 붙이면 더 공손해요
-I don't understand. | 아이 돈 언더스탠드 | 이해가 안 돼요 | 조금 딱딱해요. 부드럽게: "Sorry, I didn't quite catch that."
-Do you speak Korean? | 두 유 스픽 코리안? | 한국어 하세요? | "Can you speak…?"보다 "Do you speak…?"가 더 자연스럽고 공손해요
-I speak a little English. | 아이 스픽 어 리를 잉글리시 | 영어를 조금 해요 | little의 tt는 "ㄹ"처럼 굴려요: 리를
-How do you say this in English? | 하우 두 유 쎄이 디스 인 잉글리시? | 이거 영어로 뭐라고 해요? | 물건을 가리키며 쓰면 단어를 바로 배울 수 있어요
-What does this mean? | 왓 더즈 디스 민? | 이게 무슨 뜻이에요? | 메뉴판·표지판을 가리키며 써요
-Can you help me? | 캔 유 헬프 미? | 좀 도와주실래요? | 더 공손하게: "Could you help me?"
+"জরুরি ইংরেজি 1": `
+Excuse me. | ইক্ˈস্কিঊজ় মি | মাফ করবেন / একটু শুনবেন? | কাউকে ডাকতে বা পাশ কাটিয়ে যেতে। ধাক্কা লেগে গেলে বলুন: Sorry!
+Thank you. | ˈথ়্যাংক ইউ | ধন্যবাদ | শুরুর th: জিভের ডগা দুই পাটি দাঁতের মাঝে রেখে বাতাস ছাড়ুন; বাংলার "থ" বা "ট" নয়।
+Thanks a lot. | ˈথ়্যাংক্স আ ˈলাːট | অনেক ধন্যবাদ | Thank you-র চেয়ে হালকা ও আন্তরিক।
+You're welcome. | ইউর ˈওয়েল্কাম | ও কিছু না (ধন্যবাদের উত্তরে) | ঘরোয়াভাবে: Sure. / No problem. / Anytime. শুধু Welcome বললে "স্বাগতম" বোঝায়, তাই পুরোটা বলুন।
+No problem. | ˈনৌ ˈপ্রাːব্লাম | কোনো সমস্যা নেই | ধন্যবাদের উত্তরে খুব চলতি।
+I'm sorry. | আইম ˈসাːরি | আমি দুঃখিত | সত্যি ক্ষমা চাইতে। হালকা ধাক্কা লাগলে শুধু Sorry! যথেষ্ট।
+Yes, please. | ˈইয়েস ˈপ্লীজ় | জি, দিন | Would you like some water? জাতীয় প্রস্তাবে রাজি হতে। শুধু Yes একটু রুক্ষ শোনায়।
+No, thank you. | ˈনৌ ˈথ়্যাংক ইউ | না, ধন্যবাদ / না, লাগবে না | শুধু No-র চেয়ে অনেক ভদ্র। ঘরোয়াভাবে: I'm good, thanks.
+Sorry? | ˈসাːরি | জি? / কী বললেন? | শেষে সুর তুললে মানে হয় "আবার বলুন"। আমেরিকায় Pardon?-এর চেয়ে বেশি চলে।
+Could you say that again? | কাড ইউ ˈসেই ˈদ়্যাট আˈগেন | আরেকবার বলবেন? | বুঝতে না পারলে নিঃসংকোচে বলুন; ইংরেজিভাষীরাও প্রায়ই বলেন।
+Could you speak more slowly? | কাড ইউ ˈস্পীক ˈমর ˈস্লৌলি | একটু আস্তে আস্তে বলবেন? | please যোগ করলে আরও ভদ্র শোনায়।
+I don't understand. | আই ˈডৌন্ট আন্ডার্ˈস্ট্যান্ড | আমি বুঝতে পারছি না | একটু কাঠখোট্টা। নরম করে: Sorry, I didn't quite catch that. "বুঝতে পারছি না" ভেবে I am not understanding বলবেন না।
+Do you speak Bangla? | ডা ইউ ˈস্পীক ˈবাːংগ্লা | আপনি কি বাংলা বলতে পারেন? | আমরা ইংরেজিতে ভাষাটিকে Bangla বলি; অনেক ইংরেজিভাষী বলেন Bengali, দুটোই ঠিক। Can you speak…?-এর চেয়ে Do you speak…? স্বাভাবিক।
+I speak a little English. | আই ˈস্পীক আ ˈলিটাল ˈইংগ্লিশ | আমি অল্প ইংরেজি বলতে পারি | a little = অল্প হলেও কিছুটা। a বাদ দিলে little English মানে দাঁড়ায় "প্রায় পারিই না"।
+How do you say this in English? | ˈহাউ ডা ইউ ˈসেই ˈদ়িস ইন ˈইংগ্লিশ | এটাকে ইংরেজিতে কী বলে? | জিনিসটা দেখিয়ে জিজ্ঞেস করলে সঙ্গে সঙ্গে শব্দটা শেখা হয়ে যায়।
+What does this mean? | ˈওয়াট ডাজ় ˈদ়িস ˈমীন | এর মানে কী? | মেনু বা সাইনবোর্ড দেখিয়ে জিজ্ঞেস করুন। প্রশ্নে does লাগে: What means this? ভুল।
+Can you help me? | কান ইউ ˈহেল্প মি | আমাকে একটু সাহায্য করবেন? | আরও ভদ্রভাবে: Could you help me?
 `,
-"생존 영어 2": `
-Where's the restroom? | 웨어즈 더 레스트룸? | 화장실이 어디예요? | 미국: restroom·bathroom, 영국: toilet·loo. "toilet"은 미국에선 변기 자체를 뜻해요
-How much is this? | 하우 머치 이즈 디스? | 이거 얼마예요? | 여러 개면 "How much are these?"
-Is there an ATM around here? | 이즈 데어런 에이티엠 어롸운드 히어? | 이 근처에 ATM 있어요? | 영국에선 cash machine이라고도 해요
-Can I get the Wi-Fi password? | 캔 아이 겟 더 와이파이 패스워드? | 와이파이 비밀번호 알려 주실래요? | 영어로는 "와이파이"가 맞아요. "Is there Wi-Fi here?"도 OK
-I'm lost. | 아임 로스트 | 길을 잃었어요 | 지도를 보여 주며 "Where am I on this map?"도 써 보세요
-Can I pay by card? | 캔 아이 페이 바이 카드? | 카드 돼요? | 미국은 거의 다 카드 OK. 작은 가게는 최소 금액이 있을 수 있어요
-One moment, please. | 원 모먼트, 플리즈 | 잠시만요 | 공손한 표현이라 가게·전화에서 많이 들어요
-Just a second. | 저스트 어 세컨 | 잠깐만 | 캐주얼. 더 짧게 "Just a sec."
-No worries. | 노 워리즈 | 괜찮아요 / 신경 쓰지 마요 | 호주·영국에서 특히 많이 쓰고 미국에서도 흔해요
-That's okay. | 댓츠 오케이 | 괜찮아요 (상대가 사과할 때) | 누가 사과하면 "That's okay!" 또는 "Don't worry about it."
-Of course. | 오브 코스 | 물론이죠 | 부탁을 들어줄 때. 질문에 쓰면 "당연한 걸 왜 물어?"처럼 들릴 수 있어 말투를 부드럽게
-I'm not sure. | 아임 낫 슈어 | 잘 모르겠어요 | I don't know보다 부드러워요
-I have a question. | 아이 해버 퀘스천 | 질문이 있어요 | 수업·회의에서: "Can I ask a question?"
-Can you write it down? | 캔 유 롸이릿 다운? | 적어 주실 수 있어요? | 주소·숫자·이름을 못 알아들었을 때 최고의 해결책
-Can I take a picture? | 캔 아이 테이커 픽처? | 사진 찍어도 돼요? | 박물관·가게에서 먼저 물어보는 게 매너예요
-Could you take a picture of us? | 쿠쥬 테이커 픽처 오브 어스? | 저희 사진 좀 찍어 주실래요? | 찍어 준 뒤엔 "Thank you so much!"
-After you. | 애프터 유 | 먼저 가세요 | 문 앞·엘리베이터에서 양보할 때. 영어권에선 문을 잡아 주는 게 기본 매너예요
-Watch out! | 와치 아웃! | 조심해요! | 위험할 때 크게 외쳐요. "Look out!"도 같은 뜻
+"জরুরি ইংরেজি 2": `
+Where's the restroom? | ˈওয়ের্জ় দ়া ˈরেস্ট্রূম | টয়লেট কোথায়? | আমেরিকায় restroom বা bathroom বলাই ভদ্র; সেখানে toilet বলতে কমোডটাই বোঝায়। ব্রিটিশ ইংরেজিতে: toilet.
+How much is this? | ˈহাউ ˈমাচ ইজ় ˈদ়িস | এটার দাম কত? | কয়েকটা জিনিস হলে: How much are these?
+Is there an ATM around here? | ইজ় দ়ের আন এই টী ˈএম আˈরাউন্ড ˈহির | আশপাশে কি কোনো এটিএম আছে? | "আছে" = there is. ATM-এর নাম স্বরধ্বনি দিয়ে শুরু হয়, তাই an ATM।
+Can I get the Wi-Fi password? | কান আই ˈগেট দ়া ˈওয়াইফাই ˈপ্যাস্ওয়ার্ড | ওয়াই-ফাই পাসওয়ার্ডটা পেতে পারি? | Is there Wi-Fi here? দিয়েও শুরু করা যায়।
+I'm lost. | আইম ˈলস্ট | আমি পথ হারিয়ে ফেলেছি | ম্যাপ দেখিয়ে জিজ্ঞেস করতে পারেন: Where am I on this map?
+Can I pay by card? | কান আই ˈপেই বাই ˈকাːর্ড | কার্ডে দাম দেওয়া যাবে? | আমেরিকায় প্রায় সবখানে কার্ড চলে। ছোট দোকানে কার্ডের জন্য ন্যূনতম অঙ্ক থাকতে পারে।
+One moment, please. | ˈওয়ান ˈমৌমান্ট ˈপ্লীজ় | একটু অপেক্ষা করুন, প্লিজ | ভদ্র কথা; দোকানে আর ফোনে প্রায়ই শোনা যায়।
+Just a second. | ˈজাস্ট আ ˈসেকান্ড | এক সেকেন্ড / একটু দাঁড়াও | ঘরোয়া। আরও ছোট করে: Just a sec.
+No worries. | ˈনৌ ˈওয়ারিজ় | কোনো ব্যাপার না / চিন্তা নেই | অস্ট্রেলিয়া ও ব্রিটেনে বেশি চলে, আমেরিকাতেও চলতি।
+That's okay. | ˈদ়্যাট্স ঔˈকেই | ঠিক আছে, সমস্যা নেই (কেউ ক্ষমা চাইলে) | কেউ Sorry বললে উত্তর: That's okay! বা Don't worry about it.
+Of course. | আভ় ˈকর্স | অবশ্যই | অনুরোধে রাজি হতে। সাধারণ প্রশ্নের উত্তরে বললে "এটা আবার জিজ্ঞেস করার কী আছে?" শোনাতে পারে, তাই নরম সুরে বলুন।
+I'm not sure. | আইম ˈনাːট ˈশুর | আমি নিশ্চিত নই / ঠিক জানি না | I don't know-র চেয়ে নরম।
+I have a question. | আই ˈহ্যাভ় আ ˈক্ওয়েস্চান | আমার একটা প্রশ্ন আছে | ক্লাসে বা মিটিংয়ে: Can I ask a question? বাংলায় "একটা" বাদ দেওয়া যায়, ইংরেজিতে a বাদ যায় না।
+Can you write it down? | কান ইউ ˈরাইট ইট ˈডাউন | এটা একটু লিখে দেবেন? | ঠিকানা, সংখ্যা বা নাম ধরতে না পারলে সবচেয়ে সহজ সমাধান।
+Can I take a picture? | কান আই ˈটেইক আ ˈপিক্চার | আমি কি একটা ছবি তুলতে পারি? | জাদুঘরে বা দোকানে আগে জিজ্ঞেস করাই ভদ্রতা। ছবি "তোলা" = take a picture.
+Could you take a picture of us? | কাড ইউ ˈটেইক আ ˈপিক্চার আভ় আস | আমাদের একটা ছবি তুলে দেবেন? | তুলে দেওয়ার পর বলুন: Thank you so much!
+After you. | ˈঅ্যাফ্টার ˈইঊ | আপনি আগে যান | দরজা বা লিফটের সামনে অন্যকে আগে যেতে দিতে। পেছনের মানুষের জন্য দরজা ধরে রাখা সেখানে সাধারণ ভদ্রতা।
+Watch out! | ˈওয়াːচ ˈআউট | সাবধান! | বিপদ দেখলে জোরে বলুন। Look out! একই অর্থ।
 `,
-"길 묻기·교통": `
-How do I get to the subway station? | 하우 두 아이 겟 투 더 썹웨이 스테이션? | 지하철역에 어떻게 가요? | 영국: underground / tube station. 목적지만 바꿔서 쓰면 돼요
-Is it far from here? | 이즈 잇 파 프럼 히어? | 여기서 멀어요? | far의 r은 혀를 살짝 말아요
-Is it within walking distance? | 이즈 잇 위딘 워킹 디스턴스? | 걸어갈 수 있는 거리예요? | "Can I walk there?"도 OK
-Go straight. | 고 스트레잇 | 쭉 가세요 / 직진하세요 | "Go straight for two blocks." 미국은 거리를 block으로 세요
-Turn left at the corner. | 턴 레프트 앳 더 코너 | 모퉁이에서 왼쪽으로 도세요 | 신호등에서는 "at the light"
-It's on your right. | 잇츠 온 유어 롸잇 | 오른쪽에 있어요 | right의 r은 입술을 내밀고 "(우)롸"
-It's across the street. | 잇츠 어크로스 더 스트릿 | 길 건너편에 있어요 | across from ~ = ~의 맞은편
-It's next to the bank. | 잇츠 넥스 투 더 뱅크 | 은행 옆에 있어요 | next to의 t는 하나만 살짝 발음돼요
-Which line goes downtown? | 위치 라인 고즈 다운타운? | 시내 가는 건 몇 호선이에요? | downtown 앞에는 to를 쓰지 않아요
-Where do I transfer? | 웨어 두 아이 트랜스퍼? | 어디서 갈아타요? | 영국에선 change: "Where do I change?"
-Does this bus go to the airport? | 더즈 디스 버스 고 투 디 에어포트? | 이 버스 공항 가요? | 모음 앞 the는 "디"로 발음해요
-Which stop should I get off at? | 위치 스탑 슈다이 게로프 앳? | 어느 정류장에서 내려야 해요? | get off = (버스·지하철에서) 내리다
-One ticket to Boston, please. | 원 티킷 투 보스턴, 플리즈 | 보스턴행 표 한 장 주세요 | 목적지 앞엔 to
-Round trip or one way? | 롸운드 트립 오어 원 웨이? | 왕복이에요, 편도예요? | 영국식: "Return or single?"
-Can you take me to this address? | 캔 유 테익 미 투 디스 애드레스? | 이 주소로 가 주세요 | 택시에서 화면을 보여 주며 쓰면 실수가 없어요
-Could you pull over here? | 쿠쥬 풀 오버 히어? | 여기 세워 주시겠어요? | 택시·차에서 내리고 싶을 때. "Right here is fine."도 OK
-How long does it take? | 하우 롱 더즈 잇 테익? | 얼마나 걸려요? | 대답: "About 20 minutes."
-Is this seat taken? | 이즈 디스 씻 테이큰? | 이 자리 주인 있어요? | 비어 있으면 "No, go ahead."라고 해요. seat는 길게 "씨-잇"
+"পথ জিজ্ঞাসা ও যাতায়াত": `
+How do I get to the subway station? | ˈহাউ ডা আই ˈগেট টা দ়া ˈসাব্ওয়েই ˈস্টেইশান | সাবওয়ে (মেট্রো) স্টেশনে কীভাবে যাব? | আমেরিকায় মেট্রোরেলকে subway বলে; ব্রিটিশ ইংরেজিতে: underground / tube. গন্তব্য বদলে সবখানে ব্যবহার করুন।
+Is it far from here? | ইজ় ইট ˈফাːর ফ্রাম ˈহির | এখান থেকে কি দূরে? | "এখান থেকে" = from here: বাংলায় "থেকে" পরে বসে, ইংরেজিতে from আগে।
+Is it within walking distance? | ইজ় ইট ওয়িদ়িন ˈওয়কিং ˈডিস্টান্স | হেঁটে যাওয়া যাবে? | Can I walk there? বললেও চলে।
+Go straight. | ˈগৌ ˈস্ট্রেইট | সোজা যান | Go straight for two blocks. আমেরিকায় দূরত্ব block (দুই মোড়ের মাঝের অংশ) দিয়ে বলা হয়।
+Turn left at the corner. | ˈটার্ন ˈলেফ্ট আট দ়া ˈকর্নার | মোড়ে গিয়ে বাঁয়ে যান | ট্রাফিক সিগন্যালে হলে: at the light.
+It's on your right. | ইট্স আːন ইউর ˈরাইট | এটা আপনার ডান পাশে | on your right / on your left. এখানে in বা at বসে না।
+It's across the street. | ইট্স আক্রস দ়া ˈস্ট্রীট | এটা রাস্তার ওপারে | across from the bank = ব্যাংকের উল্টো দিকে।
+It's next to the bank. | ইট্স ˈনেক্স্ট টা দ়া ˈব্যাংক | এটা ব্যাংকের পাশে | next to = একদম পাশে। near মানে কাছাকাছি; গায়ে লাগানো না-ও হতে পারে।
+Which line goes downtown? | ˈওয়িচ ˈলাইন ˈগৌজ় ডাউন্ˈটাউন | কোন লাইন শহরের কেন্দ্রে যায়? | downtown-এর আগে to বসে না: go downtown.
+Where do I transfer? | ˈওয়ের ডা আই ট্র‍্যান্স্ˈফার | কোথায় লাইন বদলাতে হবে? | ব্রিটিশ ইংরেজিতে: Where do I change?
+Does this bus go to the airport? | ডাজ় ˈদ়িস ˈবাস ˈগৌ টা দ়ি ˈএর্পর্ট | এই বাস কি বিমানবন্দরে যায়? | প্রশ্নে Does এলে ক্রিয়ায় আর -s বসে না: Does it go; goes নয়। airport স্বরধ্বনি দিয়ে শুরু বলে এখানে the-র উচ্চারণ দ়ি।
+Which stop should I get off at? | ˈওয়িচ ˈস্টাːপ শাড আই ˈগেট ˈঅফ অ্যাট | কোন স্টপে নামতে হবে? | get off = (বাস, ট্রেন থেকে) নামা; get on = ওঠা।
+One ticket to Boston, please. | ˈওয়ান ˈটিকিট টা ˈবস্টান ˈপ্লীজ় | বোস্টনের একটা টিকিট দিন | গন্তব্যের আগে to।
+Round trip or one way? | ˈরাউন্ড ˈট্রিপ আর ˈওয়ান ˈওয়েই | যাওয়া-আসা, না শুধু যাওয়া? | ব্রিটিশ ইংরেজিতে: Return or single?
+Can you take me to this address? | কান ইউ ˈটেইক মি টা ˈদ়িস ˈঅ্যাড্রেস | আমাকে এই ঠিকানায় নিয়ে যাবেন? | ট্যাক্সিতে ফোনের স্ক্রিনে ঠিকানাটা দেখিয়ে বললে ভুল হয় না।
+Could you pull over here? | কাড ইউ ˈপুল ˈঔভ়ার ˈহির | এখানে একটু থামাবেন? | ট্যাক্সি বা গাড়ি থেকে নামতে চাইলে। Right here is fine. বলাও চলে।
+How long does it take? | ˈহাউ ˈলং ডাজ় ইট ˈটেইক | কতক্ষণ লাগে? | উত্তর: About 20 minutes.
+Is this seat taken? | ইজ় ˈদ়িস ˈসীট ˈটেইকান | এই সিটে কি কেউ আছে? | খালি থাকলে উত্তর: No, go ahead. seat-এর স্বর লম্বা; ছোট করলে sit শোনায়।
 `,
-"식당 주문": `
-A table for two, please. | 어 테이블 포 투, 플리즈 | 두 명이요 | 미국 식당은 보통 직원이 자리를 안내해 줄 때까지 기다려요
-Do you have a reservation? | 두 유 해버 레저베이션? | 예약하셨어요? | 직원이 묻는 말. "Yes, under Kim."처럼 대답해요
-Can I see the menu? | 캔 아이 씨 더 메뉴? | 메뉴판 좀 볼 수 있을까요? | menu 강세는 앞: 메뉴
-What do you recommend? | 왓 두 유 레커멘드? | 추천해 주실 메뉴 있어요? | "What's popular here?"도 좋아요
-I'll have the steak. | 아일 해브 더 스테익 | 스테이크로 할게요 | 주문의 기본 공식: I'll have + 메뉴
-Can I get a Coke? | 캔 아이 게러 코크? | 콜라 한 잔 주실래요? | get a는 "게러"처럼 이어져요. 콜라는 보통 Coke라고 해요
-Medium rare, please. | 미디엄 레어, 플리즈 | 미디엄 레어로 주세요 | "How would you like your steak?"에 대한 대답
-No onions, please. | 노 어니언즈, 플리즈 | 양파는 빼 주세요 | "Can I get it without onions?"도 같은 뜻
-I'm allergic to peanuts. | 아임 얼러직 투 피넛츠 | 땅콩 알레르기가 있어요 | allergic 강세는 가운데 "러". 알레르기는 영어로 allergy(앨러지)
-Is it spicy? | 이즈 잇 스파이시? | 매워요? | 미국의 spicy는 한국 기준으로 안 매울 때가 많아요
-Could we get some water? | 쿳 위 겟 썸 워러? | 물 좀 주시겠어요? | 미국 식당 물은 보통 무료. water는 "워러"처럼 굴려요
-Everything was great. | 에브리띵 워즈 그레잇 | 다 맛있었어요 | 직원이 "How is everything?" 하고 물으면 이렇게 답해요
-Can we get the check, please? | 캔 위 겟 더 첵, 플리즈? | 계산서 주세요 | 영국: the bill. 미국은 보통 자리에서 계산해요
-Can we split the bill? | 캔 위 스플릿 더 빌? | 따로 계산할 수 있나요? | "separate checks"라고도 해요
-It's on me. | 잇츠 온 미 | 제가 살게요 | "My treat!"도 같은 뜻이에요
-Can I get this to go? | 캔 아이 겟 디스 투 고? | 이거 포장돼요? | 남은 음식을 싸 갈 땐 "Can I get a box?"
-Is the tip included? | 이즈 더 팁 인클루디드? | 팁 포함인가요? | 미국 식당은 보통 15~20% 팁을 따로 내요
+"রেস্টুরেন্টে অর্ডার": `
+A table for two, please. | আ ˈটেইবাল ফার ˈটূ ˈপ্লীজ় | দুজনের জন্য একটা টেবিল দিন | আমেরিকার রেস্টুরেন্টে সাধারণত কর্মী এসে বসার জায়গা দেখিয়ে দেন; ততক্ষণ দরজার কাছে অপেক্ষা করুন।
+Do you have a reservation? | ডা ইউ ˈহ্যাভ় আ রেজ়ার্ˈভ়েইশান | আপনার কি বুকিং দেওয়া আছে? | কর্মীর প্রশ্ন। উত্তর: Yes, under Khan.
+Can I see the menu? | কান আই ˈসী দ়া ˈমেনিঊ | মেনুটা একটু দেখতে পারি? | menu-র জোর প্রথম অংশে।
+What do you recommend? | ˈওয়াট ডা ইউ রেকাˈমেন্ড | আপনি কোনটা নিতে বলবেন? | What's popular here? জিজ্ঞেস করাও ভালো।
+I'll have the steak. | আইল ˈহ্যাভ় দ়া ˈস্টেইক | আমি স্টেক নেব | অর্ডারের সহজ ছক: I'll have + খাবারের নাম। Give me… রুক্ষ শোনায়।
+Can I get a Coke? | কান আই ˈগেট আ ˈকৌক | একটা কোক দেবেন? | রেস্টুরেন্ট আর দোকানে কিছু চাইতে Can I get…? সবচেয়ে চলতি। এক গ্লাস বা এক বোতল বোঝাতে a Coke।
+Medium rare, please. | ˈমীডিআম ˈরের ˈপ্লীজ় | মিডিয়াম রেয়ার করে দিন | How would you like your steak? প্রশ্নের উত্তর। ভালো করে সেদ্ধ চাইলে: Well done, please.
+No onions, please. | ˈনৌ ˈআনিয়ান্জ় ˈপ্লীজ় | পেঁয়াজ দেবেন না, প্লিজ | Can I get it without onions? একই অর্থ।
+I'm allergic to peanuts. | আইম আˈলার্জিক টা ˈপীনাট্স | চিনাবাদামে আমার অ্যালার্জি আছে | allergic to + খাবার। হালাল কি না জানতে: Is this halal? অ্যালকোহল এড়াতে: No alcohol, please.
+Is it spicy? | ইজ় ইট ˈস্পাইসি | এটা কি ঝাল? | আমেরিকায় spicy লেখা খাবারও আমাদের হিসাবে প্রায়ই কম ঝাল। বেশি ঝাল চাইলে: Extra spicy, please.
+Could we get some water? | কাড ওয়ি ˈগেট ˈসাম ˈওয়টার | আমাদের একটু পানি দেবেন? | আমেরিকার রেস্টুরেন্টে পানি সাধারণত বিনা পয়সায় দেয়। (কলকাতায়: জল)
+Everything was great. | ˈএভ়্রিথ়িং ওয়াজ় ˈগ্রেইট | সবকিছু দারুণ ছিল | কর্মী How is everything? জিজ্ঞেস করলে এভাবে উত্তর দিন।
+Can we get the check, please? | কান ওয়ি ˈগেট দ়া ˈচেক ˈপ্লীজ় | বিলটা দেবেন? | আমেরিকায় রেস্টুরেন্টের বিল = check; ব্রিটিশ ইংরেজিতে: bill.
+Can we split the bill? | কান ওয়ি ˈস্প্লিট দ়া ˈবিল | বিলটা ভাগ করে দেওয়া যাবে? | আলাদা আলাদা বিল চাইলে: separate checks.
+It's on me. | ইট্স আːন ˈমী | আজ আমি খাওয়াচ্ছি | My treat! একই অর্থ।
+Can I get this to go? | কান আই ˈগেট ˈদ়িস টা ˈগৌ | এটা পার্সেল করে দেবেন? | আমাদের "পার্সেল" সেখানে to go; ব্রিটিশ ইংরেজিতে: takeaway. বেঁচে যাওয়া খাবার নিতে: Can I get a box?
+Is the tip included? | ইজ় দ়া ˈটিপ ইন্ˈক্লূডিড | বকশিশ কি বিলের মধ্যে ধরা আছে? | দেশে বকশিশ না দিলেও চলে, কিন্তু আমেরিকার রেস্টুরেন্টে বিলের 15–20% tip দেওয়াই নিয়ম।
 `,
-"카페·편의점": `
-Can I get an iced Americano? | 캔 아이 게런 아이스트 아메리카노? | 아이스 아메리카노 주세요 | iced의 -d는 거의 안 들려요. 음료 주문은 Can I get ~?이 가장 흔해요
-What size would you like? | 왓 싸이즈 우쥬 라익? | 사이즈는 어떤 걸로 하시겠어요? | 직원이 묻는 말. would you는 "우쥬"
-Small, please. | 스몰, 플리즈 | 작은 걸로 주세요 | 스타벅스는 tall·grande·venti라고 말해요
-For here or to go? | 포 히어 오어 투 고? | 드시고 가세요, 가져가세요? | 영국식: "Eat in or take away?"
-Can I get oat milk instead? | 캔 아이 겟 오트 밀크 인스테드? | 귀리 우유로 바꿔 주실래요? | instead = 대신에. 추가 요금이 붙을 수 있어요
-Less ice, please. | 레스 아이스, 플리즈 | 얼음 적게 주세요 | 얼음 빼고: "No ice, please."
-Decaf, please. | 디캐프, 플리즈 | 디카페인으로 주세요 | decaffeinated의 줄임말이에요
-Can I get a name for the order? | 캔 아이 게러 네임 포 디 오더? | 주문하시는 분 성함이요? | 직원이 컵에 이름을 적으려고 물어요. 쉬운 영어 이름을 하나 정해 두면 편해요
-Do you need a bag? | 두 유 니더 백? | 봉투 필요하세요? | 필요 없으면 "No, I'm good."
-Can I get a receipt? | 캔 아이 게러 리씻? | 영수증 주세요 | receipt의 p는 소리 내지 않아요: 리씻
-Where can I find batteries? | 웨어 캔 아이 파인드 배러리즈? | 건전지 어디 있어요? | 물건 위치를 물을 때 만능 문장
-Do you sell phone chargers? | 두 유 쎌 폰 차저즈? | 휴대폰 충전기 팔아요? | "Do you have ~?"도 같은 뜻
-Can you heat this up? | 캔 유 히리썹? | 이거 데워 주실 수 있어요? | heat this up이 "히리썹"처럼 이어져요
-That's it. | 댓츠 잇 | 그게 다예요 | 직원이 "Anything else?"라고 물을 때
-Here you go. | 히어 유 고 | 여기요 | 돈이나 물건을 건넬 때 써요
-Keep the change. | 킵 더 체인지 | 잔돈은 가지세요 | 택시·배달에서 팁 대신 자주 써요
+"ক্যাফে ও দোকান": `
+Can I get an iced Americano? | কান আই ˈগেট আন ˈআইস্ট আমেরিˈকাːনৌ | একটা আইসড আমেরিকানো দেবেন? | iced স্বরধ্বনি দিয়ে শুরু, তাই an। পানীয় অর্ডারে Can I get…? সবচেয়ে চলতি।
+What size would you like? | ˈওয়াট ˈসাইজ় ওয়াড ইউ ˈলাইক | কোন সাইজ নেবেন? | কর্মীর প্রশ্ন। উত্তর: Small / Medium / Large, please.
+Small, please. | ˈস্মল ˈপ্লীজ় | ছোটটা দিন | কিছু কফির দোকানে সাইজের নাম আলাদা: tall, grande, venti.
+For here or to go? | ফার ˈহির আর টা ˈগৌ | এখানে বসে খাবেন, না নিয়ে যাবেন? | ব্রিটিশ ইংরেজিতে: Eat in or take away?
+Can I get oat milk instead? | কান আই ˈগেট ˈঔট ˈমিল্ক ইন্ˈস্টেড | এর বদলে ওট মিল্ক দেওয়া যাবে? | instead = এর বদলে। বাড়তি টাকা লাগতে পারে।
+Less ice, please. | ˈলেস ˈআইস ˈপ্লীজ় | বরফ কম দিন | বরফ একদম না চাইলে: No ice, please. ice গোনা যায় না, তাই less; fewer নয়।
+Decaf, please. | ˈডীক্যাফ ˈপ্লীজ় | ক্যাফেইন ছাড়া কফি দিন | decaffeinated-এর ছোট রূপ।
+Can I get a name for the order? | কান আই ˈগেট আ ˈনেইম ফার দ়ি ˈঅর্ডার | অর্ডারটা কার নামে হবে? | কর্মী কাপে নাম লিখবেন বলে জিজ্ঞেস করেন। নাম বানান করে বলার জন্য তৈরি থাকুন: R-A-F-I.
+Do you need a bag? | ডা ইউ ˈনীড আ ˈব্যাগ | ব্যাগ লাগবে? | না লাগলে: No, I'm good.
+Can I get a receipt? | কান আই ˈগেট আ রিˈসীট | রসিদটা দেবেন? | receipt-এর p উচ্চারণ হয় না।
+Where can I find batteries? | ˈওয়ের কান আই ˈফাইন্ড ˈব্যাটারিজ় | ব্যাটারি কোথায় পাব? | দোকানে যেকোনো জিনিস খুঁজতে এই ছকটাই কাজে লাগে। বাংলায় শুধু "ব্যাটারি", ইংরেজিতে বহুবচন batteries।
+Do you sell phone chargers? | ডা ইউ ˈসেল ˈফৌন ˈচাːর্জার্জ় | আপনারা কি ফোনের চার্জার বিক্রি করেন? | Do you have…? একই অর্থ।
+Can you heat this up? | কান ইউ ˈহীট ˈদ়িস ˈআপ | এটা একটু গরম করে দেবেন? | heat up = গরম করা। this মাঝখানে বসে: heat this up.
+That's it. | ˈদ়্যাট্স ˈইট | এটুকুই, আর কিছু না | কর্মী Anything else? জিজ্ঞেস করলে।
+Here you go. | ˈহির ইউ ˈগৌ | এই নিন | টাকা বা জিনিস হাতে দেওয়ার সময়।
+Keep the change. | ˈকীপ দ়া ˈচেইন্জ | খুচরাটা রেখে দিন | ট্যাক্সি বা ডেলিভারিতে বকশিশ হিসেবে প্রায়ই বলা হয়।
 `,
-"쇼핑·계산": `
-I'm just looking, thanks. | 아임 저스트 루킹, 땡스 | 그냥 구경하는 거예요 | 직원이 "Can I help you find anything?" 할 때
-Do you have this in a medium? | 두 유 해브 디스 인 어 미디엄? | 이거 M 사이즈 있어요? | 사이즈는 small / medium / large
-Do you have it in black? | 두 유 해빗 인 블랙? | 검은색 있어요? | 색깔 앞엔 in
-Can I try this on? | 캔 아이 트라이 디스 온? | 입어 봐도 돼요? | try on = (옷·신발을) 입어 보다·신어 보다
-Where's the fitting room? | 웨어즈 더 피팅 룸? | 탈의실 어디예요? | 영국: changing room
-It's too big. | 잇츠 투 빅 | 너무 커요 | 작으면 "It's too small."
-It's a bit tight. | 잇츠 어 빗 타잇 | 조금 껴요 | 헐렁하면 "It's a bit loose."
-Is this on sale? | 이즈 디스 온 쎄일? | 이거 세일해요? | on sale = 할인 중. for sale = 판매 중. 헷갈리기 쉬워요!
-Can you give me a discount? | 캔 유 깁 미 어 디스카운트? | 좀 깎아 주실 수 있어요? | 미국 일반 매장에선 흥정을 거의 안 해요. 시장·중고 거래에서만
-I'll take it. | 아일 테이킷 | 이걸로 할게요 | 살 물건을 정했을 때. 두 개 이상이면 "I'll take them."
-Cash or card? | 캐시 오어 카드? | 현금이요, 카드요? | 계산대에서 꼭 듣는 질문
-Do you take Apple Pay? | 두 유 테익 애플 페이? | 애플페이 돼요? | take = (결제 수단을) 받다
-Can I get a refund? | 캔 아이 게러 리펀드? | 환불돼요? | 영수증을 꼭 챙기세요
-I'd like to exchange this. | 아이드 라익 투 익스체인지 디스 | 이거 교환하고 싶어요 | 이유도 덧붙여요: "It's the wrong size."
-Can you gift wrap it? | 캔 유 기프트 랩 잇? | 선물 포장해 주실 수 있어요? | wrap의 w만 소리 나요: 랩
-Does that include tax? | 더즈 댓 인클루드 택스? | 세금 포함인가요? | 미국은 가격표에 세금이 빠져 있어서 계산할 때 더 나와요
+"কেনাকাটা ও বিল": `
+I'm just looking, thanks. | আইম ˈজাস্ট ˈলুকিং ˈথ়্যাংক্স | শুধু দেখছি, ধন্যবাদ | কর্মী Can I help you find anything? জিজ্ঞেস করলে।
+Do you have this in a medium? | ডা ইউ ˈহ্যাভ় ˈদ়িস ইন আ ˈমীডিআম | এটার মিডিয়াম সাইজ আছে? | সাইজ: small / medium / large.
+Do you have it in black? | ডা ইউ ˈহ্যাভ় ইট ইন ˈব্ল্যাক | এটা কালো রঙে আছে? | রঙের আগে in।
+Can I try this on? | কান আই ˈট্রাই ˈদ়িস ˈআːন | এটা পরে দেখতে পারি? | try on = (কাপড়, জুতা) পরে দেখা।
+Where's the fitting room? | ˈওয়ের্জ় দ়া ˈফিটিং ˈরূম | ট্রায়াল রুম কোথায়? | আমাদের "ট্রায়াল রুম" আমেরিকায় fitting room; ব্রিটিশ ইংরেজিতে: changing room.
+It's too big. | ইট্স ˈটূ ˈবিগ | এটা বেশি বড় | too = দরকারের চেয়ে বেশি, সমস্যা বোঝায়; very শুধু "খুব"। ছোট হলে: It's too small.
+It's a bit tight. | ইট্স আ ˈবিট ˈটাইট | একটু আঁটসাঁট লাগছে | ঢিলা হলে: It's a bit loose.
+Is this on sale? | ইজ় ˈদ়িস আːন ˈসেইল | এটাতে কি ছাড় চলছে? | on sale = ছাড়ে বিক্রি হচ্ছে; for sale = বিক্রির জন্য রাখা। গুলিয়ে ফেলবেন না।
+Can you give me a discount? | কান ইউ ˈগিভ় মি আ ˈডিস্কাউন্ট | একটু কম রাখা যাবে? | আমেরিকার সাধারণ দোকানে দরদাম হয় না; খোলা বাজারে বা পুরোনো জিনিস কেনার সময়েই চলে।
+I'll take it. | আইল ˈটেইক ইট | এটাই নেব | কেনার সিদ্ধান্ত নিলে। একাধিক জিনিস হলে: I'll take them.
+Cash or card? | ˈক্যাশ আর ˈকাːর্ড | ক্যাশ, না কার্ড? | কাউন্টারে প্রায় সব সময় শোনা প্রশ্ন।
+Do you take Apple Pay? | ডা ইউ ˈটেইক ˈঅ্যাপাল ˈপেই | অ্যাপল পে চলে? | take = (কোনো পেমেন্ট পদ্ধতি) গ্রহণ করা।
+Can I get a refund? | কান আই ˈগেট আ ˈরীফান্ড | টাকা ফেরত পাওয়া যাবে? | রসিদটা অবশ্যই রেখে দিন।
+I'd like to exchange this. | আইড ˈলাইক টু ইক্স্ˈচেইন্জ ˈদ়িস | এটা বদলে নিতে চাই | কারণটাও বলুন: It's the wrong size.
+Can you gift wrap it? | কান ইউ ˈগিফ্ট ˈর‍্যাপ ইট | এটা উপহারের কাগজে মুড়ে দেবেন? | wrap-এর w উচ্চারণ হয় না।
+Does that include tax? | ডাজ় ˈদ়্যাট ইন্ˈক্লূড ˈট্যাক্স | এর মধ্যে কি ট্যাক্স ধরা আছে? | আমেরিকায় দামের ট্যাগে ট্যাক্স ধরা থাকে না; কাউন্টারে গিয়ে যোগ হয়।
 `,
-"숫자·시간·날짜": `
-What time is it? | 왓 타임 이즈 잇? | 지금 몇 시예요? | 모르는 사람에게는 "Excuse me, do you have the time?"
-It's three thirty. | 잇츠 쓰리 써리 | 3시 반이에요 | "half past three"(영국식)도 같은 뜻
-It's a quarter to five. | 잇츠 어 쿼러 투 파이브 | 5시 15분 전이에요 | quarter = 15분. "four forty-five"라고 해도 돼요
-At noon | 앳 눈 | 정오에 / 낮 12시에 | 자정은 midnight. 12 a.m./p.m.보다 헷갈리지 않아요
-What's the date today? | 왓츠 더 데잇 투데이? | 오늘 며칠이에요? | 요일은 "What day is it today?"
-It's May 3rd. | 잇츠 메이 써드 | 5월 3일이에요 | 날짜는 서수로 읽어요: first, second, third, fourth…
-My birthday is in October. | 마이 버스데이 이즈 인 악토버 | 제 생일은 10월이에요 | 월 앞에는 in, 날짜 앞에는 on: on October 5th
-On Monday | 온 먼데이 | 월요일에 | 요일 앞에는 on. 매주라면 on Mondays
-Next weekend | 넥스트 위켄드 | 다음 주말 | next·last·this 앞에는 전치사를 쓰지 않아요
-The day after tomorrow | 더 데이 애프터 터마로우 | 모레 | 그저께는 the day before yesterday
-Thirteen or thirty? | 써틴 오어 써리? | 13이에요, 30이에요? | 13은 뒤(-teen)를 길게, 30은 앞을 세게. 가격 들을 때 꼭 확인해요
-Fifteen dollars | 피프틴 달러즈 | 15달러 | $15.50은 "fifteen fifty"라고 읽어요
-Two hundred and fifty | 투 헌드레드 앤 피프티 | 이백오십 (250) | 미국에선 and를 자주 생략해요: two hundred fifty
-Ten thousand | 텐 싸우전드 | 만 (10,000) | 영어에는 '만' 단위가 없어요! 세 자리씩 끊어서 10 thousand
-One million | 원 밀리언 | 백만 (1,000,000) | 천만 = ten million, 1억 = one hundred million
-Twice a week | 트와이스 어 윅 | 일주일에 두 번 | once(한 번), twice(두 번), three times(세 번)
-In ten minutes | 인 텐 미닛츠 | 10분 후에 | 미래 시간 앞의 in = ~ 후에. "10분 안에"가 아니에요
+"সংখ্যা, সময় ও তারিখ": `
+What time is it? | ˈওয়াট ˈটাইম ইজ় ইট | এখন কয়টা বাজে? | অপরিচিত কাউকে: Excuse me, do you have the time?
+It's three thirty. | ইট্স ˈথ়্রী ˈথ়ার্টি | সাড়ে তিনটা বাজে | "সাড়ে"-র জন্য আলাদা শব্দ লাগে না: three thirty. ব্রিটিশ ইংরেজিতে: half past three.
+It's a quarter to five. | ইট্স আ ˈক্ওয়র্টার টা ˈফাইভ় | পৌনে পাঁচটা বাজে | quarter = 15 মিনিট। "পৌনে পাঁচটা" = a quarter to five; "সোয়া পাঁচটা" = a quarter past five.
+At noon | আট ˈনূন | দুপুর 12টায় | রাত 12টা = midnight. 12 a.m. / 12 p.m.-এর চেয়ে কম গোলমেলে।
+What's the date today? | ˈওয়াট্স দ়া ˈডেইট টাˈডেই | আজ কত তারিখ? | বার জানতে: What day is it today?
+It's May 3rd. | ইট্স ˈমেই ˈথ়ার্ড | আজ 3 মে | তারিখ ক্রমবাচক সংখ্যায় পড়া হয়: first, second, third, fourth… আমেরিকায় মাস আগে, তারিখ পরে।
+My birthday is in October. | মাই ˈবার্থ়্ডেই ইজ় ইন আːক্ˈটৌবার | আমার জন্মদিন অক্টোবরে | মাসের আগে in, তারিখের আগে on: on October 5th.
+On Monday | আːন ˈমান্ডেই | সোমবারে | বারের আগে on। প্রতি সোমবার বোঝাতে: on Mondays.
+Next weekend | ˈনেক্স্ট ˈওয়ীকেন্ড | আগামী উইকেন্ডে (সপ্তাহ শেষের ছুটিতে) | next, last, this-এর আগে preposition বসে না। ইংরেজিভাষী দেশে weekend মানে শনি ও রবিবার।
+The day after tomorrow | দ়া ˈডেই অ্যাফ্টার টাˈমাːরৌ | আগামী পরশু | বাংলার "পরশু" আগে-পরে দুই দিকেই চলে; ইংরেজিতে গত পরশু = the day before yesterday.
+Thirteen or thirty? | থ়ার্ˈটীন আর ˈথ়ার্টি | তেরো, না ত্রিশ? | thirteen-এ জোর শেষ অংশে, thirty-তে প্রথম অংশে। দাম শোনার সময় মিলিয়ে নিন।
+Fifteen dollars | ফিফ্ˈটীন ˈডাːলার্জ় | 15 ডলার | $15.50 পড়া হয়: fifteen fifty. সংখ্যার পরে বহুবচন dollars; taka অবশ্য বহুবচনেও taka।
+Two hundred and fifty | ˈটূ ˈহান্ড্রাড আন্ড ˈফিফ্টি | দুইশ পঞ্চাশ (250) | আমেরিকায় and প্রায়ই বাদ পড়ে: two hundred fifty. সংখ্যার পরে hundred-এ -s বসে না।
+Ten thousand | ˈটেন ˈথ়াউজ়ান্ড | দশ হাজার (10,000) | এক লাখ = one hundred thousand. ইংরেজিতে কমা বসে তিন ঘর পরপর: 100,000; 1,00,000 নয়।
+One million | ˈওয়ান ˈমিলিয়ান | দশ লাখ (1,000,000) | এক কোটি = ten million. lakh আর crore দেশের বাইরে প্রায় কেউ বোঝে না।
+Twice a week | ˈট্ওয়াইস আ ˈওয়ীক | সপ্তাহে দুইবার | once (একবার), twice (দুইবার), three times (তিনবার)। "সপ্তাহে" = a week; in week নয়।
+In ten minutes | ইন ˈটেন ˈমিনিট্স | দশ মিনিট পরে | ভবিষ্যতের সময়ের আগে in = "… পরে"। "দশ মিনিটের মধ্যে" বোঝাতে: within ten minutes.
 `,
-"스몰토크": `
-How was your weekend? | 하우 워즈 유어 위켄드? | 주말 어땠어요? | 월요일 단골 질문. 한두 문장으로 짧게 대답하고 되물어요
-It was pretty relaxing. | 잇 워즈 프리티 릴랙싱 | 꽤 여유로웠어요 | pretty = 꽤. "예쁜"이 아니에요
-Any plans for the weekend? | 애니 플랜즈 포 더 위켄드? | 주말에 계획 있어요? | 금요일 단골 질문. 계획 없으면 "Not really, just relaxing."
-Nice weather today, huh? | 나이스 웨더 투데이, 허? | 오늘 날씨 좋네요 | 날씨는 누구와도 할 수 있는 가장 안전한 화제예요
-It's freezing today. | 잇츠 프리징 투데이 | 오늘 엄청 춥네요 | 더울 땐 "It's boiling!" 또는 "It's so hot!"
-How long have you lived here? | 하우 롱 해뷰 리브드 히어? | 여기 산 지 얼마나 됐어요? | 대답: "About three years."
-Have you been to Korea? | 해뷰 빈 투 코리아? | 한국 가 본 적 있어요? | 경험을 물을 땐 have been to
-What do you do for fun? | 왓 두 유 두 포 펀? | 쉴 때 주로 뭐 해요? | "What's your hobby?"보다 훨씬 자연스러운 취미 질문이에요
-Have you seen any good shows lately? | 해뷰 씬 애니 굿 쇼즈 레잇리? | 요즘 재밌는 거 봤어요? | show = 드라마·예능 같은 TV 프로그램
-That sounds fun. | 댓 싸운즈 펀 | 재밌겠다 | 상대 이야기에 반응할 때. "That sounds great!"도 좋아요
-Same here. | 쎄임 히어 | 저도 그래요 | 캐주얼하게 그냥 "Same!"
-Me neither. | 미 니더 | 저도 안 그래요 | 부정문에 맞장구칠 때. "I don't like it." → "Me neither." (Me too 아님!)
-I know, right? | 아이 노우, 롸잇? | 그러니까요! / 내 말이! | 강하게 동의할 때 쓰는 캐주얼한 표현
-Oh, really? | 오, 륄리? | 아, 정말요? | 관심을 보여 주는 맞장구. 끝을 올려요
-By the way | 바이 더 웨이 | 그런데 / 그나저나 | 화제를 바꿀 때. 문자로는 BTW
-How's work? | 하우즈 워크? | 일은 어때요? | 아는 사이의 안부 질문. "Busy, but good!"처럼 대답해요
-It was nice talking to you. | 잇 워즈 나이스 토킹 투 유 | 이야기 즐거웠어요 | 대화를 자연스럽게 끝낼 때 써요
+"হালকা আলাপ": `
+How was your weekend? | ˈহাউ ওয়াজ় ইউর ˈওয়ীকেন্ড | ছুটির দিনগুলো কেমন কাটল? | সোমবারের চেনা প্রশ্ন। এক-দুই বাক্যে উত্তর দিয়ে পাল্টা জিজ্ঞেস করুন।
+It was pretty relaxing. | ইট ওয়াজ় ˈপ্রিটি রিˈল্যাক্সিং | বেশ আরামে কেটেছে | এখানে pretty = বেশ; "সুন্দর" নয়।
+Any plans for the weekend? | ˈএনি ˈপ্ল্যান্জ় ফার দ়া ˈওয়ীকেন্ড | ছুটির দিনে কোনো পরিকল্পনা আছে? | শুক্রবারের চেনা প্রশ্ন। কিছু ঠিক না থাকলে: Not really, just relaxing.
+Nice weather today, huh? | ˈনাইস ˈওয়েদ়ার টাˈডেই ˈহা | আজ আবহাওয়াটা সুন্দর, তাই না? | আবহাওয়া যে কারও সঙ্গে আলাপ শুরুর সবচেয়ে নিরাপদ বিষয়। বেতন, বয়স, বিয়ে বা ধর্ম নিয়ে শুরুতেই প্রশ্ন করবেন না।
+It's freezing today. | ইট্স ˈফ্রীজ়িং টাˈডেই | আজ হাড়কাঁপানো শীত | গরমে: It's so hot! ভ্যাপসা গরমে: It's so humid today.
+How long have you lived here? | ˈহাউ ˈলং হাভ় ইউ ˈলিভ়্ড ˈহির | আপনি এখানে কত দিন ধরে আছেন? | "কত দিন ধরে" = How long + have…; উত্তর: About three years.
+Have you been to Bangladesh? | হাভ় ইউ বিন টা বাːংগ্লাˈডেশ | আপনি কি কখনো বাংলাদেশে গিয়েছেন? | অভিজ্ঞতা জিজ্ঞেস করতে have been to। উত্তর শুনে কক্সবাজার বা সুন্দরবনের কথা বলে আলাপ জমাতে পারেন।
+What do you do for fun? | ˈওয়াট ডা ইউ ˈডূ ফার ˈফান | অবসরে কী করতে ভালো লাগে? | What's your hobby?-এর চেয়ে অনেক স্বাভাবিক প্রশ্ন।
+Have you seen any good shows lately? | হাভ় ইউ ˈসীন ˈএনি ˈগুড ˈশৌজ় ˈলেইট্লি | ইদানীং ভালো কোনো সিরিজ বা অনুষ্ঠান দেখেছেন? | show = টিভি বা স্ট্রিমিংয়ের সিরিজ, নাটক বা অনুষ্ঠান।
+That sounds fun. | ˈদ়্যাট ˈসাউন্ড্জ় ˈফান | শুনে তো মজার মনে হচ্ছে | অন্যের কথায় সাড়া দিতে। That sounds great! বলাও চলে।
+Same here. | ˈসেইম ˈহির | আমারও একই অবস্থা / আমিও | ঘরোয়াভাবে শুধু Same!
+Me neither. | ˈমী ˈনীদ়ার | আমিও না | না-বাচক কথায় সায় দিতে: I don't like it. → Me neither. এখানে Me too বসে না।
+I know, right? | আই ˈনৌ ˈরাইট | তাই না? / একদম! | জোর দিয়ে একমত হওয়ার ঘরোয়া কথা।
+Oh, really? | ˈঔ ˈরীআলি | ও, তাই নাকি? | আগ্রহ দেখানোর সাড়া। শেষে সুর তুলুন।
+By the way | বাই দ়া ˈওয়েই | ভালো কথা / আচ্ছা শোনো | প্রসঙ্গ বদলাতে। মেসেজে: BTW.
+How's work? | ˈহাউজ় ˈওয়ার্ক | কাজকর্ম কেমন চলছে? | পরিচিতদের কুশল প্রশ্ন। উত্তর: Busy, but good!
+It was nice talking to you. | ইট ওয়াজ় ˈনাইস ˈটকিং টা ইউ | আপনার সঙ্গে কথা বলে ভালো লাগল | আলাপ সুন্দরভাবে শেষ করতে।
 `,
-"감정·반응": `
-I'm so happy for you! | 아임 쏘 해피 포 유! | 정말 잘됐다! (축하) | 상대에게 좋은 일이 생겼을 때
-Congratulations! | 컹그래츄레이션스! | 축하해요! | 꼭 -s를 붙여요. 줄여서 "Congrats!"
-That's awesome! | 댓츠 어썸! | 대박! 멋지다! | 미국인이 정말 자주 쓰는 리액션이에요
-No way! | 노 웨이! | 말도 안 돼! / 헐! | 놀랐을 때. 거절할 때도 써요: "No way, I'm not doing that."
-Seriously? | 시리어슬리? | 진심이야? / 진짜로? | 말투에 따라 놀람 또는 짜증을 나타내요
-I'm so tired. | 아임 쏘 타이어드 | 너무 피곤해요 | 완전 지쳤을 땐 "I'm exhausted."
-I'm stressed out. | 아임 스트레스드 아웃 | 스트레스를 너무 받아요 | "I have stress"보다 자연스러워요
-I'm bored. | 아임 보어드 | 심심해요 / 지루해요 | 주의! "I'm boring"은 "나는 지루한 사람이에요"라는 뜻
-I'm excited. | 아임 익싸이티드 | 신나요 / 설레요 | 기대되는 일이 있을 때. -ed는 내가 느끼는 감정
-I'm nervous. | 아임 너버스 | 긴장돼요 | 면접·발표 전에. 상대에게: "Don't be nervous."
-That's too bad. | 댓츠 투 배드 | 아쉽네요 / 안타깝네요 | 가벼운 아쉬움. 심각한 일엔 아래 표현을 써요
-I'm sorry to hear that. | 아임 쏘리 투 히어 댓 | 그런 일이 있었다니 마음이 안 좋네요 | 사과가 아니라 위로예요. sorry = 유감스러운
-What a relief! | 와러 릴리프! | 다행이다! | "Phew!"와 함께 쓰면 더 자연스러워요
-Oh my gosh! | 오 마이 가쉬! | 세상에! | Oh my God를 순화한 표현. 문자로는 OMG
-I'm upset. | 아임 업셋 | 속상해요 / 기분이 상했어요 | 화남과 슬픔의 중간 느낌이에요
-That's so annoying. | 댓츠 쏘 어노잉 | 진짜 짜증 나 | 사람에게 "You're annoying"은 꽤 세게 들려요
-I can't wait! | 아이 캔트 웨잇! | 너무 기대돼! / 빨리 하고 싶어! | 직역하면 "못 기다리겠어"
-It's not a big deal. | 잇츠 나러 빅 딜 | 별일 아니에요 | 상대가 미안해할 때 안심시키는 말
+"অনুভূতি ও প্রতিক্রিয়া": `
+I'm so happy for you! | আইম ˈসৌ ˈহ্যাপি ফার ইউ | তোমার জন্য খুব ভালো লাগছে! | অন্যের ভালো খবর শুনে।
+Congratulations! | কান্গ্র‍্যাচাˈলেইশান্জ় | অভিনন্দন! | সব সময় -s সহ। ছোট করে: Congrats!
+That's awesome! | ˈদ়্যাট্স ˈঅসাম | দারুণ ব্যাপার! | আমেরিকানদের খুব প্রিয় প্রতিক্রিয়া।
+No way! | ˈনৌ ˈওয়েই | কী বলো! / অসম্ভব! | অবাক হলে। সাফ মানা করতেও বলা হয়: No way, I'm not doing that.
+Seriously? | ˈসিরিআস্লি | সত্যি? / সিরিয়াসলি? | সুর অনুযায়ী বিস্ময় বা বিরক্তি, দুটোই বোঝাতে পারে।
+I'm so tired. | আইম ˈসৌ ˈটাইআর্ড | আমি খুব ক্লান্ত | একেবারে কাহিল হলে: I'm exhausted. "ক্লান্ত লাগছে" বলতেও am লাগে; I so tired ভুল।
+I'm stressed out. | আইম ˈস্ট্রেস্ট ˈআউট | আমি খুব চাপে আছি | I have stress-এর চেয়ে স্বাভাবিক। "টেনশনে আছি"-র সরাসরি অনুবাদ I'm in tension দেশের বাইরে চলে না।
+I'm bored. | আইম ˈবর্ড | আমার একঘেয়ে লাগছে / বোর লাগছে | সাবধান: I'm boring মানে "আমি একঘেয়ে মানুষ"। -ed = নিজের অনুভূতি, -ing = যা সেই অনুভূতি জাগায়।
+I'm excited. | আইম ইক্ˈসাইটিড | আমার দারুণ উত্তেজনা হচ্ছে | সামনে আনন্দের কিছু থাকলে। -ed রূপ নিজের অনুভূতি বোঝায়।
+I'm nervous. | আইম ˈনার্ভ়াস | আমার নার্ভাস লাগছে | ইন্টারভিউ বা প্রেজেন্টেশনের আগে। অন্যকে সাহস দিতে: Don't be nervous.
+That's too bad. | ˈদ়্যাট্স ˈটূ ˈব্যাড | আহা, খারাপ লাগল শুনে | ছোটখাটো আফসোসে। গুরুতর ব্যাপারে বলুন: I'm sorry to hear that.
+I'm sorry to hear that. | আইম ˈসাːরি টা ˈহির ˈদ়্যাট | শুনে খুব কষ্ট পেলাম | এটা ক্ষমা চাওয়া নয়, সহানুভূতি জানানো। এখানে sorry = দুঃখিত, ব্যথিত।
+What a relief! | ˈওয়াট আ রিˈলীফ | যাক, বাঁচা গেল! | Phew! সহ বললে আরও স্বাভাবিক শোনায়।
+Oh my gosh! | ˈঔ মাই ˈগাːশ | ও মা! / হায় আল্লাহ! | Oh my God-এর নরম রূপ; অনেকে God শব্দটা এড়াতে gosh বলেন। মেসেজে: OMG.
+I'm upset. | আইম আপ্ˈসেট | আমার মন খারাপ | রাগ আর কষ্টের মাঝামাঝি অনুভূতি।
+That's so annoying. | ˈদ়্যাট্স ˈসৌ আˈনইইং | খুবই বিরক্তিকর | মানুষকে সরাসরি You're annoying বললে বেশ কড়া শোনায়।
+I can't wait! | আই ˈক্যান্ট ˈওয়েইট | আর তর সইছে না! | আক্ষরিক অর্থ "অপেক্ষা করতে পারছি না"; মানে খুব আগ্রহ নিয়ে অপেক্ষা করছি।
+It's not a big deal. | ইট্স ˈনাːট আ ˈবিগ ˈডীল | এটা বড় কোনো ব্যাপার না | কেউ বারবার দুঃখ প্রকাশ করলে আশ্বস্ত করতে।
 `,
-"칭찬·호감 표현": `
-You look great! | 유 룩 그레잇! | 좋아 보여요! / 멋져요! | 외모 칭찬은 "You look ~"로. 아는 사이에서 자연스러워요
-I love your shoes. | 아이 러브 유어 슈즈 | 신발 너무 예뻐요 | love = 정말 마음에 든다. 처음 보는 사람에게도 가볍게 칭찬해요
-That color looks good on you. | 댓 컬러 룩스 굿 온 유 | 그 색 잘 어울려요 | look good on + 사람 = ~에게 잘 어울리다
-You have a great smile. | 유 해버 그레잇 스마일 | 미소가 정말 예뻐요 | 친해진 사이에서 쓰는 따뜻한 칭찬
-You're so funny. | 유어 쏘 퍼니 | 진짜 웃겨요 | funny = 웃긴. fun = 함께 있으면 즐거운
-Great job! | 그레잇 잡! | 잘했어요! | 직장·학교 어디서나. "Nice work!"도 같아요
-I'm proud of you. | 아임 프라우드 오브 유 | 네가 자랑스러워 | 가족·친구에게. 상사가 부하에게 쓰기도 해요
-You did it! | 유 디딧! | 해냈구나! | 목표를 이룬 사람에게
-Your Korean is really good! | 유어 코리안 이즈 륄리 굿! | 한국어 진짜 잘하시네요! | 한국어를 배우는 외국인 친구에게 해 주면 좋아해요
-You have good taste. | 유 해브 굿 테이스트 | 안목이 좋으시네요 / 센스 있어요 | 옷·음악·인테리어 취향 칭찬. "센스"는 영어로 taste예요
-I really enjoyed spending time with you. | 아이 륄리 인조이드 스펜딩 타임 위드 유 | 같이 시간 보내서 정말 즐거웠어요 | 데이트·모임이 끝날 때
-Do you want to grab coffee sometime? | 두 유 워너 그랩 커피 썸타임? | 언제 커피 한잔할래요? | want to는 "워너". grab = 가볍게 먹다·마시다
-I miss you. | 아이 미스 유 | 보고 싶어요 | 지금 떨어져 있는 사람에게. 가족·친구에게도 써요
-You mean a lot to me. | 유 민 어 랏 투 미 | 너는 나한테 정말 소중해 | 친구·연인에게 진심을 전할 때
-You're a lifesaver! | 유어러 라이프세이버! | 덕분에 살았어요! | 작은 도움에도 과장해서 고마움을 표현해요
-You made my day! | 유 메이드 마이 데이! | 덕분에 하루가 행복해졌어요! | 기분 좋은 말이나 선물을 받았을 때
-That's very kind of you. | 댓츠 베리 카인드 오브 유 | 정말 친절하시네요 | 도움이나 칭찬을 받았을 때 공손하게
+"প্রশংসা ও ভালো লাগা": `
+You look great! | ইউ ˈলুক ˈগ্রেইট | তোমাকে দারুণ লাগছে! | চেহারা বা সাজের প্রশংসা You look… দিয়ে। পরিচিতদের মধ্যে স্বাভাবিক।
+I love your shoes. | আই ˈলাভ় ইউর ˈশূজ় | তোমার জুতাটা খুব সুন্দর | এখানে love = খুব পছন্দ হওয়া। অপরিচিতকেও হালকা প্রশংসা করা চলে। এক জোড়া বলে shoes বহুবচন।
+That color looks good on you. | ˈদ়্যাট ˈকালার ˈলুক্স ˈগুড আːন ইউ | রংটা তোমাকে মানিয়েছে | look good on + মানুষ = কাউকে মানানো। ব্রিটিশ বানান: colour.
+You have a great smile. | ইউ ˈহ্যাভ় আ ˈগ্রেইট ˈস্মাইল | তোমার হাসিটা খুব সুন্দর | ঘনিষ্ঠ হওয়ার পর বলার মতো আন্তরিক প্রশংসা।
+You're so funny. | ইউর ˈসৌ ˈফানি | তুমি খুব মজার মানুষ | funny = যে হাসায়; fun = যার সঙ্গে সময় ভালো কাটে।
+Great job! | ˈগ্রেইট ˈজাːব | দারুণ করেছ! | অফিসে, ক্লাসে সবখানে চলে। Nice work! একই অর্থ।
+I'm proud of you. | আইম ˈপ্রাউড আভ় ইউ | তোমাকে নিয়ে আমি গর্বিত | পরিবার ও বন্ধুদের বলা হয়। proud of; proud for নয়।
+You did it! | ইউ ˈডিড ইট | তুমি পেরেছ! | কেউ লক্ষ্যে পৌঁছালে।
+Your Bangla is really good! | ইউর ˈবাːংগ্লা ইজ় ˈরীআলি ˈগুড | আপনি তো খুব ভালো বাংলা বলেন! | বাংলা শিখছেন এমন বিদেশি বন্ধুকে বললে খুব খুশি হন।
+You have good taste. | ইউ ˈহ্যাভ় ˈগুড ˈটেইস্ট | তোমার রুচি ভালো | পোশাক, গান বা ঘর সাজানোর পছন্দের প্রশংসা। এখানে taste = রুচি; খাবারের স্বাদ নয়।
+I really enjoyed spending time with you. | আই ˈরীআলি ইন্ˈজইড ˈস্পেন্ডিং ˈটাইম ওয়িদ় ইউ | তোমার সঙ্গে সময়টা খুব ভালো কাটল | দেখা-সাক্ষাৎ বা আড্ডার শেষে। enjoy-এর পরে -ing রূপ বসে।
+Do you want to grab coffee sometime? | ডা ইউ ˈওয়াːন্ট টা ˈগ্র‍্যাব ˈকফি ˈসাম্টাইম | কোনো একদিন একসঙ্গে কফি খাবে? | grab = চট করে কিছু খাওয়া বা নেওয়া। চা-কফি "খাওয়া" ইংরেজিতে drink বা have; eat নয়।
+I miss you. | আই ˈমিস ইউ | তোমার কথা খুব মনে পড়ে | দূরে থাকা মানুষকে। পরিবার ও বন্ধুদেরও বলা যায়।
+You mean a lot to me. | ইউ ˈমীন আ ˈলাːট টা মি | তুমি আমার কাছে অনেক কিছু | বন্ধু বা প্রিয়জনকে মনের কথা জানাতে।
+You're a lifesaver! | ইউর আ ˈলাইফ্সেইভ়ার | তুমি তো আমাকে বাঁচিয়ে দিলে! | ছোট উপকারেও একটু বাড়িয়ে কৃতজ্ঞতা জানানো হয়।
+You made my day! | ইউ ˈমেইড মাই ˈডেই | তুমি আমার দিনটাই ভালো করে দিলে! | ভালো কথা শুনলে বা উপহার পেলে।
+That's very kind of you. | ˈদ়্যাট্স ˈভ়েরি ˈকাইন্ড আভ় ইউ | আপনার অনেক দয়া | সাহায্য বা প্রশংসা পেলে ভদ্র উত্তর। very-র শুরুতে v: উপরের দাঁত নিচের ঠোঁটে; "ব" বা "ভ" নয়।
 `,
-"직장·이메일": `
-I hope this email finds you well. | 아이 호프 디스 이메일 파인즈 유 웰 | 잘 지내고 계시길 바랍니다 | 격식 있는 이메일 첫 인사. 조금 가볍게: "I hope you're doing well."
-I'm writing to ask about the schedule. | 아임 롸이팅 투 애스크 어바웃 더 스케줄 | 일정에 대해 여쭤보려고 연락드립니다 | 메일 목적을 첫 문장에 밝혀요. I'm writing to + 목적
-I've attached the report. | 아이브 어태치드 더 리포트 | 보고서를 첨부했습니다 | "Please find attached…"는 더 딱딱한 표현이에요
-Just a quick reminder about tomorrow's meeting. | 저스트 어 퀵 리마인더 어바웃 터마로우즈 미팅 | 내일 회의 관련해서 다시 한번 알려 드려요 | 독촉을 부드럽게 하는 표현
-Let me know if you have any questions. | 렛 미 노우 이퓨 해브 애니 퀘스천즈 | 궁금한 점 있으면 말씀해 주세요 | 이메일 마무리 단골 문장
-Could you send me the file by Friday? | 쿠쥬 쎈드 미 더 파일 바이 프라이데이? | 금요일까지 파일 보내 주실 수 있나요? | by = ~까지 (기한). until = ~까지 계속
-Sorry for the late reply. | 쏘리 포 더 레잇 리플라이 | 답장이 늦어 죄송합니다 | 조금 덜 미안하게: "Thanks for your patience."
-Thanks for getting back to me. | 땡스 포 게링 백 투 미 | 답장 주셔서 감사합니다 | get back to = 다시 연락하다
-Best regards, | 베스트 리가즈 | ~ 드림 (이메일 맺음말) | 무난한 맺음말. 가까운 사이: "Best," "Thanks,"
-Let's schedule a meeting. | 렛츠 스케줄 어 미팅 | 회의 일정을 잡읍시다 | 미국: 스케줄, 영국: 셰듈
-I'm running late. | 아임 러닝 레잇 | 조금 늦을 것 같아요 | 이동 중에 미리 연락할 때. "I'll be there in 10."
-Can we push the meeting to 3? | 캔 위 푸쉬 더 미팅 투 쓰리? | 회의를 3시로 미룰 수 있을까요? | 앞당길 땐 move up: "Can we move it up to 1?"
-I'll get back to you. | 아일 겟 백 투 유 | 확인하고 다시 연락드릴게요 | 바로 답하기 어려울 때 시간을 버는 표현
-Can you walk me through it? | 캔 유 워크 미 쓰루 잇? | 하나씩 설명해 주실래요? | walk through = 단계별로 안내하다
-Let's touch base next week. | 렛츠 터치 베이스 넥스트 윅 | 다음 주에 잠깐 얘기 나눠요 | 짧게 진행 상황을 공유하자는 뜻
-What's the deadline? | 왓츠 더 데드라인? | 마감이 언제예요? | "When is this due?"도 같은 뜻
-I'm working from home today. | 아임 워킹 프럼 홈 투데이 | 오늘 재택근무해요 | 줄여서 WFH
-I'm off tomorrow. | 아임 오프 터마로우 | 내일 쉬어요 (휴무예요) | 연차는 "I'm taking a day off tomorrow."
-Thanks for all your hard work. | 땡스 포 올 유어 하드 워크 | 그동안 정말 고생 많으셨어요 | "수고하셨습니다"에 딱 맞는 말은 없어요. 퇴근 인사는 그냥 "See you tomorrow!"
+"অফিস ও ইমেইল": `
+I hope this email finds you well. | আই ˈহৌপ ˈদ়িস ˈঈমেইল ˈফাইন্ড্জ় ইউ ˈওয়েল | আশা করি ভালো আছেন | আনুষ্ঠানিক ইমেইলের শুরু। একটু হালকা: I hope you're doing well. সম্বোধনে Respected Sir নয়; লিখুন Dear Mr. Khan.
+I'm writing to ask about the schedule. | আইম ˈরাইটিং টু ˈঅ্যাস্ক আবাউট দ়া ˈস্কেজূল | সময়সূচি সম্পর্কে জানতে লিখছি | ইমেইলের উদ্দেশ্য প্রথম বাক্যেই বলুন: I'm writing to + উদ্দেশ্য। With due respect I beg to state that… ধাঁচের ভূমিকা লাগে না।
+I've attached the report. | আইভ় আˈট্যাচ্ট দ়া রিˈপর্ট | রিপোর্টটা সংযুক্ত করে দিলাম | Please find attached… আরও আনুষ্ঠানিক ও পুরোনো ধাঁচের।
+Just a quick reminder about tomorrow's meeting. | ˈজাস্ট আ ˈক্ওয়িক রিˈমাইন্ডার আবাউট টাˈমাːরৌজ় ˈমীটিং | আগামীকালের মিটিংয়ের কথা একটু মনে করিয়ে দিচ্ছি | তাগাদা নরম করে দেওয়ার উপায়।
+Let me know if you have any questions. | ˈলেট মি ˈনৌ ইফ ইউ ˈহ্যাভ় ˈএনি ˈক্ওয়েস্চান্জ় | কোনো প্রশ্ন থাকলে জানাবেন | ইমেইলের শেষের চেনা বাক্য। any-র পরে questions বহুবচন।
+Could you send me the file by Friday? | কাড ইউ ˈসেন্ড মি দ়া ˈফাইল বাই ˈফ্রাইডেই | শুক্রবারের মধ্যে ফাইলটা পাঠাতে পারবেন? | by = … এর মধ্যে (শেষ সময়); until = … পর্যন্ত একটানা। Kindly do the needful-এর বদলে এভাবে নির্দিষ্ট করে অনুরোধ করুন।
+Sorry for the late reply. | ˈসাːরি ফার দ়া ˈলেইট রিˈপ্লাই | দেরিতে উত্তর দেওয়ার জন্য দুঃখিত | একটু কম ক্ষমাপ্রার্থী সুরে: Thanks for your patience.
+Thanks for getting back to me. | ˈথ়্যাংক্স ফার ˈগেটিং ˈব্যাক টা মি | উত্তর দেওয়ার জন্য ধন্যবাদ | get back to = পরে উত্তর দেওয়া বা আবার যোগাযোগ করা।
+Best regards, | ˈবেস্ট রিˈগাːর্ড্জ় | শুভেচ্ছান্তে (ইমেইলের শেষে) | সবখানে মানানসই সমাপ্তি; Yours obediently-র দরকার নেই। কাছের মানুষকে: Best, / Thanks,
+Let's schedule a meeting. | ˈলেট্স ˈস্কেজূল আ ˈমীটিং | চলুন একটা মিটিংয়ের সময় ঠিক করি | schedule-এর আমেরিকান উচ্চারণ sk ধ্বনি দিয়ে শুরু; দেশে চলতি "শিডিউল" ব্রিটিশ উচ্চারণ থেকে এসেছে।
+I'm running late. | আইম ˈরানিং ˈলেইট | আমার একটু দেরি হচ্ছে | পথে থাকতেই আগে জানিয়ে দিতে। সঙ্গে বলুন: I'll be there in 10.
+Can we push the meeting to 3? | কান ওয়ি ˈপুশ দ়া ˈমীটিং টা ˈথ়্রী | মিটিংটা পিছিয়ে 3টায় নেওয়া যায়? | এগিয়ে আনতে move up: Can we move it up to 1?
+I'll get back to you. | আইল ˈগেট ˈব্যাক টা ইউ | দেখে আপনাকে জানাচ্ছি | সঙ্গে সঙ্গে উত্তর দিতে না পারলে সময় চেয়ে নেওয়ার উপায়।
+Can you walk me through it? | কান ইউ ˈওয়ক মি থ়্রূ ইট | ধাপে ধাপে বুঝিয়ে দেবেন? | walk through = এক এক ধাপ করে দেখিয়ে দেওয়া।
+Let's touch base next week. | ˈলেট্স ˈটাচ ˈবেইস ˈনেক্স্ট ˈওয়ীক | আগামী সপ্তাহে একটু কথা বলে নিই | অল্প সময়ে কাজের অগ্রগতি জেনে নেওয়ার অফিসি কথা।
+What's the deadline? | ˈওয়াট্স দ়া ˈডেড্লাইন | শেষ সময় কবে? / ডেডলাইন কবে? | When is this due? একই অর্থ।
+I'm working from home today. | আইম ˈওয়ার্কিং ফ্রাম ˈহৌম টাˈডেই | আজ বাসা থেকে কাজ করছি | ছোট করে: WFH.
+I'm off tomorrow. | আইম ˈঅফ টাˈমাːরৌ | কাল আমার ছুটি | ছুটি নিলে: I'm taking a day off tomorrow. ছুটির দিন = day off; দেশে বলা off day নয়।
+Thanks for all your hard work. | ˈথ়্যাংক্স ফার ˈঅল ইউর ˈহাːর্ড ˈওয়ার্ক | এত পরিশ্রমের জন্য ধন্যবাদ | কাজ শেষে দলকে ধন্যবাদ দিতে। অফিস ছাড়ার সময় শুধু See you tomorrow! বলাই যথেষ্ট।
 `,
-"전화·문자 줄임말": `
-Hello, this is Minji. | 헬로우, 디스 이즈 민지 | 여보세요, 민지예요 | 전화에서는 "I'm Minji" 대신 "This is Minji"
-Can I speak to Mr. Kim? | 캔 아이 스픽 투 미스터 킴? | 김 선생님과 통화할 수 있을까요? | 더 공손하게: "May I speak to…?"
-Who's calling, please? | 후즈 콜링, 플리즈? | 누구시죠? | 전화 받는 쪽에서 묻는 말
-Hold on a second. | 홀드 온 어 세컨드 | 잠시만 기다려 주세요 | 전화·대화 중에 잠깐 기다려 달라고 할 때
-Sorry, you're breaking up. | 쏘리, 유어 브레이킹 업 | 죄송해요, 소리가 끊겨요 | break up = (전화 소리가) 끊기다. 연인이 헤어지다는 뜻도 있어요
-Can I call you back? | 캔 아이 콜 유 백? | 다시 전화드려도 될까요? | 바쁠 때: "I'm in a meeting. Can I call you back?"
-I'll text you. | 아일 텍스트 유 | 문자할게 | 미국에선 메시지 보내는 걸 text라고 해요
-I'm on my way. | 아임 온 마이 웨이 | 가는 중이야 | 문자로는 OMW
-LOL | 엘오엘 | ㅋㅋㅋ (laughing out loud) | 진짜 크게 웃기보다는 가벼운 ㅋㅋ 느낌이에요
-BRB | 비알비 | 금방 올게 (be right back) | 채팅·게임에서 잠깐 자리 비울 때
-BTW | 비티더블유 | 근데 (by the way) | 화제 전환
-TBH | 티비에이치 | 솔직히 (to be honest) | 문장 앞이나 뒤에 붙여요
-IDK | 아이디케이 | 몰라 (I don't know) | 소문자 idk로 많이 써요
-OMG | 오엠지 | 헐 / 세상에 (oh my God) | 말로도 "오엠지!"라고 해요
-ASAP | 에이에스에이피 / 에이샙 | 최대한 빨리 (as soon as possible) | 직장에서도 쓰지만 상사에게는 날짜를 주는 게 더 공손해요
-TTYL | 티티와이엘 | 나중에 얘기해 (talk to you later) | 대화를 끝낼 때
-NVM | 엔브이엠 | 아냐, 됐어 (never mind) | 질문을 취소할 때
-FYI | 에프와이아이 | 참고로 (for your information) | 업무 메일·메신저에서 많이 써요
+"ফোন ও চ্যাটের সংক্ষেপ": `
+Hello, this is Rafi. | হাˈলৌ ˈদ়িস ইজ় ˈরাːফি | হ্যালো, আমি রাফি বলছি | ফোনে I'm Rafi বা Myself Rafi নয়; বলুন This is Rafi.
+Can I speak to Mr. Khan? | কান আই ˈস্পীক টা ˈমিস্টার ˈকাːন | খান সাহেবের সঙ্গে কথা বলা যাবে? | Mr. / Ms.-এর পরে বংশনাম বসে: Mr. Khan; Khan Sir বা Rafi Sir নয়। আরও ভদ্রভাবে: May I speak to…?
+Who's calling, please? | ˈহূজ় ˈকলিং ˈপ্লীজ় | কে বলছেন, প্লিজ? | ফোন যিনি ধরেন তিনি জিজ্ঞেস করেন।
+Hold on a second. | ˈহৌল্ড ˈআːন আ ˈসেকান্ড | একটু ধরুন | ফোনে বা কথার মাঝে একটু অপেক্ষা করতে বলতে।
+Sorry, you're breaking up. | ˈসাːরি ইউর ˈব্রেইকিং ˈআপ | দুঃখিত, আপনার কথা কেটে কেটে যাচ্ছে | break up = (ফোনের শব্দ) কেটে যাওয়া। প্রেমের সম্পর্ক ভেঙে যাওয়াও break up।
+Can I call you back? | কান আই ˈকল ইউ ˈব্যাক | আমি কি একটু পরে ফোন দিতে পারি? | ব্যস্ত থাকলে: I'm in a meeting. Can I call you back?
+I'll text you. | আইল ˈটেক্স্ট ইউ | তোমাকে মেসেজ দেব | আমেরিকায় মেসেজ পাঠানোকে text বলে; শব্দটা ক্রিয়া হিসেবেও চলে।
+I'm on my way. | আইম আːন মাই ˈওয়েই | আমি রাস্তায় আছি, আসছি | মেসেজে: OMW.
+LOL | এল ঔ ˈএল | হা হা (laughing out loud) | সত্যি জোরে হাসা নয়; হালকা "হা হা"-র মতো।
+BRB | বী আːর ˈবী | এখনই আসছি (be right back) | চ্যাট বা গেমের মাঝে একটু উঠে গেলে।
+BTW | বী টী ˈডাবালিঊ | ভালো কথা (by the way) | প্রসঙ্গ বদলাতে।
+TBH | টী বী ˈএইচ | সত্যি বলতে (to be honest) | বাক্যের শুরুতে বা শেষে বসে।
+IDK | আই ডী ˈকেই | জানি না (I don't know) | ছোট হাতের idk বেশি লেখা হয়।
+OMG | ঔ এম ˈজী | ও মা! (oh my God) | মুখেও অক্ষর ধরে ধরে বলা হয়।
+ASAP | এই এস এই ˈপী / ˈএইস্যাপ | যত তাড়াতাড়ি সম্ভব (as soon as possible) | অফিসেও চলে, তবে ঊর্ধ্বতন কাউকে নির্দিষ্ট তারিখ বলাই ভদ্র। অক্ষর ধরে ধরে বা এক শব্দের মতো, দুভাবেই পড়া হয়।
+TTYL | টী টী ওয়াই ˈএল | পরে কথা হবে (talk to you later) | আলাপ শেষ করতে।
+NVM | এন ভ়ী ˈএম | থাক, বাদ দাও (never mind) | প্রশ্ন বা কথা ফিরিয়ে নিতে।
+FYI | এফ ওয়াই ˈআই | জেনে রাখার জন্য (for your information) | অফিসের ইমেইল ও চ্যাটে খুব চলে।
 `,
-"여행(공항·호텔)": `
-Here's my passport. | 히어즈 마이 패스포트 | 여기 여권이요 | 체크인·입국 심사에서 건네며
-I'm here for sightseeing. | 아임 히어 포 싸잇씽 | 관광하러 왔어요 | 입국 심사 "What's the purpose of your visit?"에 대한 대답
-I'm staying for a week. | 아임 스테잉 포러 윅 | 일주일 머물 거예요 | "How long are you staying?"에 대한 대답
-I'm staying at the Hilton. | 아임 스테잉 앳 더 힐튼 | 힐튼 호텔에 묵어요 | "Where are you staying?"에 대한 대답
-Window or aisle? | 윈도우 오어 아일? | 창가석이요, 통로석이요? | aisle의 s는 묵음이에요: 아일
-I'd like an aisle seat, please. | 아이드 라익 언 아일 씻, 플리즈 | 통로 쪽 자리로 주세요 | 창가는 a window seat
-Where is the baggage claim? | 웨어리즈 더 배기지 클레임? | 짐 찾는 곳이 어디예요? | 영국에선 baggage reclaim
-My luggage is missing. | 마이 러기지 이즈 미싱 | 짐이 안 나왔어요 | luggage는 셀 수 없어요: a piece of luggage
-I have a reservation under Kim. | 아이 해버 레저베이션 언더 킴 | 김 이름으로 예약했어요 | under + 예약자 이름
-What time is check-out? | 왓 타임 이즈 체카웃? | 체크아웃은 몇 시예요? | 늦게 나가고 싶으면 "Can I get a late check-out?"
-Can I check in early? | 캔 아이 체킨 얼리? | 일찍 체크인할 수 있나요? | check in이 "체킨"처럼 이어져요
-Is breakfast included? | 이즈 브렉퍼스트 인클루디드? | 조식 포함이에요? | breakfast는 "브렉퍼스트". 브레이크가 아니에요
-The air conditioner isn't working. | 디 에어 컨디셔너 이즌트 워킹 | 에어컨이 안 돼요 | "에어컨"은 콩글리시. 줄여서 AC(에이씨)라고 해요
-Could I get some extra towels? | 쿠다이 겟 썸 엑스트라 타월즈? | 수건 좀 더 주실 수 있나요? | could I는 "쿠다이"처럼 이어져요
-Can you hold my bags until 3? | 캔 유 홀드 마이 백즈 언틸 쓰리? | 3시까지 짐 좀 맡아 주실 수 있어요? | 체크아웃 후 짐 보관 요청. hold = 맡아 두다
-My flight was delayed. | 마이 플라잇 워즈 딜레이드 | 비행기가 지연됐어요 | 결항은 canceled
-Where's gate 12? | 웨어즈 게잇 트웰브? | 12번 게이트 어디예요? | 영어는 번호를 뒤에 붙여요
-Do I need to take my laptop out? | 두 아이 니드 투 테익 마이 랩탑 아웃? | 노트북 꺼내야 해요? | 보안 검색대에서. "노트북"은 영어로 laptop이에요
+"ভ্রমণ (বিমানবন্দর ও হোটেল)": `
+Here's my passport. | ˈহির্জ় মাই ˈপ্যাস্পর্ট | এই যে আমার পাসপোর্ট | চেক-ইন বা ইমিগ্রেশনে হাতে দেওয়ার সময়।
+I'm here for sightseeing. | আইম ˈহির ফার ˈসাইট্সীইং | আমি বেড়াতে এসেছি | ইমিগ্রেশনের প্রশ্ন What's the purpose of your visit?-এর উত্তর। দরকার হলে যোগ করুন: I have a tourist visa.
+I'm staying for a week. | আইম ˈস্টেইইং ফার আ ˈওয়ীক | আমি এক সপ্তাহ থাকব | How long are you staying?-এর উত্তর।
+I'm staying at the Hilton. | আইম ˈস্টেইইং আট দ়া ˈহিল্টান | আমি হিলটন হোটেলে উঠেছি | Where are you staying?-এর উত্তর। হোটেলের নামের আগে the বসে।
+Window or aisle? | ˈওয়িন্ডৌ আর ˈআইল | জানালার পাশে, না হাঁটার পথের পাশে? | aisle-এর s উচ্চারণ হয় না।
+I'd like an aisle seat, please. | আইড ˈলাইক আন ˈআইল ˈসীট ˈপ্লীজ় | আমাকে হাঁটার পথের পাশের সিট দিন | জানালার পাশের সিট: a window seat.
+Where is the baggage claim? | ˈওয়ের ইজ় দ়া ˈব্যাগিজ ˈক্লেইম | লাগেজ কোথা থেকে নিতে হবে? | ব্রিটিশ ইংরেজিতে: baggage reclaim. ট্রানজিট থাকলে জিজ্ঞেস করুন: Where do I go for my connecting flight?
+My luggage is missing. | মাই ˈলাগিজ ইজ় ˈমিসিং | আমার লাগেজ পাচ্ছি না | luggage গণনাযোগ্য নয়: luggages হয় না। একটা বোঝাতে a bag বা a piece of luggage.
+I have a reservation under Khan. | আই ˈহ্যাভ় আ রেজ়ার্ˈভ়েইশান আন্ডার ˈকাːন | খান নামে আমার একটা বুকিং আছে | under + যার নামে বুকিং। সাধারণত বংশনাম বলা হয়।
+What time is check-out? | ˈওয়াট ˈটাইম ইজ় ˈচেকাউট | চেক-আউট কয়টায়? | দেরিতে বের হতে চাইলে: Can I get a late check-out?
+Can I check in early? | কান আই ˈচেক ˈইন ˈআর্লি | আগে আগে চেক-ইন করা যাবে? | check in ক্রিয়া হলে দুই শব্দ; বিশেষ্য হলে check-in.
+Is breakfast included? | ইজ় ˈব্রেক্ফাস্ট ইন্ˈক্লূডিড | সকালের নাশতা কি ভাড়ার মধ্যে ধরা? | breakfast-এর প্রথম স্বর ছোট "এ"; break শব্দের মতো গড়ানো "এই" নয়। (কলকাতায়: জলখাবার)
+The air conditioner isn't working. | দ়ি ˈএর কান্ˈডিশানার ˈইজ়ান্ট ˈওয়ার্কিং | এসি কাজ করছে না | আমাদের মতোই ছোট করে AC বলা হয়; A/C লেখাও চলে।
+Could I get some extra towels? | কাড আই ˈগেট ˈসাম ˈএক্স্ট্রা ˈটাউআল্জ় | আরও কয়েকটা তোয়ালে পেতে পারি? | Could I…? = ভদ্র অনুরোধ। some-এর পরে towels বহুবচন।
+Can you hold my bags until 3? | কান ইউ ˈহৌল্ড মাই ˈব্যাগ্জ় আন্টিল ˈথ়্রী | 3টা পর্যন্ত আমার ব্যাগগুলো রাখবেন? | চেক-আউটের পর ব্যাগ জমা রাখার অনুরোধ। hold = রেখে দেওয়া; until = … পর্যন্ত।
+My flight was delayed. | মাই ˈফ্লাইট ওয়াজ় ডিˈলেইড | আমার ফ্লাইট দেরি করেছে | বাতিল হলে: My flight was canceled.
+Where's gate 12? | ˈওয়ের্জ় ˈগেইট ˈট্ওয়েল্ভ় | 12 নম্বর গেট কোথায়? | ইংরেজিতে নম্বর পরে বসে: gate 12; 12 number gate নয়।
+Do I need to take my laptop out? | ডা আই ˈনীড টা ˈটেইক মাই ˈল্যাপ্টাːপ ˈআউট | ল্যাপটপটা কি বের করতে হবে? | সিকিউরিটি চেকের সময়। take out-এর মাঝখানে জিনিসটার নাম বসতে পারে।
 `,
-"병원·긴급": `
-Help! | 헬프! | 도와주세요! | 위급할 때 크게 외쳐요
-Call 911! | 콜 나인 원 원! | 911에 전화해 주세요! | 미국 긴급번호는 911(나인 원 원), 영국은 999
-I need a doctor. | 아이 니더 닥터 | 의사가 필요해요 | 급하면 "I need an ambulance."
-I don't feel well. | 아이 돈 필 웰 | 몸이 안 좋아요 | 가장 무난한 표현이에요
-I have a headache. | 아이 해버 헤데익 | 머리가 아파요 | 아픈 곳 + ache: stomachache, toothache
-I have a fever. | 아이 해버 피버 | 열이 나요 | f는 윗니를 아랫입술에 대고 바람을 내보내요
-My stomach hurts. | 마이 스터먹 허츠 | 배가 아파요 | 아픈 부위 + hurts. stomach는 "스터먹"
-I have a sore throat. | 아이 해버 쏘어 쓰롯 | 목이 아파요 | sore = 쓰리고 아픈. 목 전체(neck)가 아니라 목구멍이에요
-I feel dizzy. | 아이 필 디지 | 어지러워요 | 메스꺼우면 "I feel sick." / "I feel nauseous."
-I sprained my ankle. | 아이 스프레인드 마이 앵클 | 발목을 삐었어요 | sprain = 삐다. 손목은 wrist
-Is there a pharmacy near here? | 이즈 데어러 파머시 니어 히어? | 이 근처에 약국 있어요? | 미국에선 drugstore(CVS 등)라고도 해요
-Do I need a prescription? | 두 아이 니더 프리스크립션? | 처방전이 필요한가요? | 미국은 처방전 없이 살 수 있는 약을 over-the-counter라고 해요
-I lost my wallet. | 아이 로스트 마이 월릿 | 지갑을 잃어버렸어요 | 휴대폰이면 phone. 분실물 센터는 lost and found
-Someone stole my phone. | 썸원 스톨 마이 폰 | 누가 제 휴대폰을 훔쳐 갔어요 | steal(훔치다)의 과거형 stole
-Where is the police station? | 웨어리즈 더 폴리스 스테이션? | 경찰서가 어디예요? | police 강세는 뒤: 폴리-스
-I need to contact the Korean embassy. | 아이 니드 투 칸택트 더 코리안 엠버시 | 한국 대사관에 연락해야 해요 | 여권 분실 시 꼭 필요한 문장이에요
-I have travel insurance. | 아이 해브 트래블 인슈어런스 | 여행자 보험이 있어요 | 병원비가 비싼 나라에선 꼭 가입하고 가세요
+"হাসপাতাল ও জরুরি অবস্থা": `
+Help! | ˈহেল্প | বাঁচাও! / সাহায্য করুন! | বিপদে জোরে চিৎকার করে বলুন।
+Call 911! | ˈকল ˈনাইন ˈওয়ান ˈওয়ান | 911-এ ফোন করুন! | আমেরিকার জরুরি নম্বর 911, পড়া হয় nine one one; দেশের 999-এর মতো।
+I need a doctor. | আই ˈনীড আ ˈডাːক্টার | আমার একজন ডাক্তার দরকার | খুব জরুরি হলে: I need an ambulance.
+I don't feel well. | আই ˈডৌন্ট ˈফীল ˈওয়েল | আমার শরীর ভালো লাগছে না | অসুস্থ লাগলে সবচেয়ে সাধারণ, নিরাপদ কথা।
+I have a headache. | আই ˈহ্যাভ় আ ˈহেডেইক | আমার মাথা ব্যথা করছে | My head is paining নয়। ব্যথার জায়গা + ache: stomachache, toothache. সামনে a লাগে।
+I have a fever. | আই ˈহ্যাভ় আ ˈফীভ়ার | আমার জ্বর হয়েছে | আমেরিকান ইংরেজিতে a লাগে: a fever; I have fever নয়।
+My stomach hurts. | মাই ˈস্টামাক ˈহার্ট্স | আমার পেট ব্যথা করছে | ব্যথার জায়গা + hurts. stomach-এর শেষ ধ্বনি k।
+I have a sore throat. | আই ˈহ্যাভ় আ ˈসর ˈথ়্রৌট | আমার গলা ব্যথা করছে | sore = জ্বালা করা ব্যথা। throat = গলার ভেতরটা; বাইরের ঘাড়-গলা neck।
+I feel dizzy. | আই ˈফীল ˈডিজ়ি | আমার মাথা ঘুরছে | বমি বমি লাগলে: I feel sick. / I feel nauseous. dizzy-র মাঝে z ধ্বনি; বাংলার "জ" নয়।
+I sprained my ankle. | আই ˈস্প্রেইন্ড মাই ˈঅ্যাংকাল | আমার গোড়ালি মচকে গেছে | sprain = মচকানো। কবজি = wrist.
+Is there a pharmacy near here? | ইজ় দ়ের আ ˈফাːর্মাসি নির ˈহির | কাছাকাছি কোনো ফার্মেসি আছে? | আমেরিকায় drugstore-ও বলে; ব্রিটিশ ইংরেজিতে: chemist.
+Do I need a prescription? | ডা আই ˈনীড আ প্রিˈস্ক্রিপ্শান | প্রেসক্রিপশন কি লাগবে? | প্রেসক্রিপশন ছাড়া কেনা যায় এমন ওষুধ = over-the-counter. ওষুধ "খাওয়া" = take medicine; eat নয়।
+I lost my wallet. | আই ˈলস্ট মাই ˈওয়াːলিট | আমার মানিব্যাগ হারিয়ে গেছে | আমাদের "মানিব্যাগ" ইংরেজিতে wallet. হারানো জিনিস জমা থাকে lost and found-এ।
+Someone stole my phone. | ˈসাম্ওয়ান ˈস্টৌল মাই ˈফৌন | কেউ আমার ফোন চুরি করেছে | steal-এর past রূপ stole.
+Where is the police station? | ˈওয়ের ইজ় দ়া পাˈলীস ˈস্টেইশান | থানা কোথায়? | police-এর জোর শেষ অংশে। "থানা" = police station; thana শব্দটা দেশের বাইরে কেউ বোঝে না।
+I need to contact the Bangladesh embassy. | আই ˈনীড টা ˈকাːন্ট্যাক্ট দ়া বাːংগ্লাˈডেশ ˈএম্বাসি | আমাকে বাংলাদেশ দূতাবাসে যোগাযোগ করতে হবে | পাসপোর্ট হারালে সবার আগে দরকারি বাক্য। contact-এর পরে with বসে না।
+I have travel insurance. | আই ˈহ্যাভ় ˈট্র‍্যাভ়াল ইন্ˈশুরান্স | আমার ট্রাভেল ইনস্যুরেন্স আছে | যেসব দেশে চিকিৎসার খরচ বেশি, সেখানে যাওয়ার আগে অবশ্যই করে নিন।
 `,
-"구동사": `
-pick up | 피컵 | (차로) 데리러 가다 / 줍다 | "I'll pick you up at 7." 대명사(you, it)는 가운데에 와요
-give up | 기법 | 포기하다 | "Don't give up!" 무엇을 포기하는지는 ~ing: give up smoking
-figure out | 피겨라웃 | 알아내다 / 해결하다 | "I can't figure out this app." (이 앱 어떻게 쓰는지 모르겠어)
-find out | 파인다웃 | (사실을) 알게 되다 | 정보를 알아낼 때. figure out은 머리를 써서 풀 때
-look for | 룩 포 | 찾다 (찾는 중이다) | "I'm looking for my keys." 찾아냈으면 find
-look after | 룩 애프터 | 돌보다 | "Can you look after my cat?" 미국에선 take care of도 많이 써요
-look forward to | 룩 포워드 투 | ~을 기대하다 | to 뒤에 명사나 ~ing: "I'm looking forward to seeing you."
-run out of | 러나우로브 | ~이 다 떨어지다 | 무엇이 떨어졌는지는 of 뒤에: "We ran out of milk." (우유가 다 떨어졌어)
-turn on | 터논 | 켜다 | 전기·기계를 켤 때: "Turn on the light." 대명사는 가운데: "Turn it on."
-turn off | 터노프 | 끄다 | 대명사는 가운데: "Turn it off." (turn off it X)
-turn down | 턴 다운 | 거절하다 / (소리를) 줄이다 | 두 가지 뜻 모두 자주 써요: "She turned down the offer." / "Turn it down!"
-put off | 푸로프 | 미루다 | 일상 대화에선 postpone보다 훨씬 많이 써요: "Stop putting it off!"
-show up | 쇼우 업 | 나타나다 / 오다 | 약속 장소에 나타날 때: "He didn't show up to the party." (파티에 안 왔어)
-hang out | 행아웃 | 놀다 / 어울리다 | 친구랑 노는 건 play가 아니라 hang out! (play는 아이들이나 게임·운동)
-check out | 체카웃 | 확인하다 / 한번 보다 | "Check out this video!" 호텔 체크아웃이라는 뜻도 있어요
-work out | 워카웃 | 운동하다 / 잘 풀리다 | 헬스장 운동은 exercise보다 work out: "I work out every day." / "It'll work out." (잘될 거야)
-come up with | 커멉 위드 | (아이디어를) 생각해 내다 | 아이디어·핑계·해결책을 떠올릴 때: "She came up with a great idea."
-get along with | 게럴롱 위드 | ~와 잘 지내다 | 사이가 좋을 때: "I get along with my coworkers." (동료들과 잘 지내요)
-calm down | 캄 다운 | 진정하다 | calm의 l은 소리 나지 않아요. 화난 사람에게 쓰면 더 화나게 할 수도 있어요
-set up | 쎄럽 | 설치하다 / 마련하다 | 기기 설치·회의 준비 등: "Can you help me set up my printer?"
-break up | 브레이컵 | 헤어지다 | "They broke up last month." 누구와: break up with
-fill out | 필 아웃 | (서류를) 작성하다 | "Please fill out this form." 영국식은 fill in
-grow up | 그로우 업 | 자라다 | 자란 곳을 말할 때: "I grew up in Daegu." (대구에서 자랐어요)
-wake up | 웨이컵 | 잠에서 깨다 | 깨어나는 순간은 wake up, 침대에서 나오는 건 get up
+"ফ্রেজাল ভার্ব": `
+pick up | ˈপিক ˈআপ | (গাড়িতে) তুলে নেওয়া / কুড়িয়ে তোলা | I'll pick you up at 7. you, it-এর মতো সর্বনাম মাঝখানে বসে।
+give up | ˈগিভ় ˈআপ | হাল ছেড়ে দেওয়া | Don't give up! কী ছাড়ছেন তা -ing রূপে বলা হয়: give up smoking.
+figure out | ˈফিগিয়ার ˈআউট | ভেবে বের করা / সমাধান করা | I can't figure out this app. = অ্যাপটা কীভাবে চলে বুঝে উঠতে পারছি না।
+find out | ˈফাইন্ড ˈআউট | (খবর বা তথ্য) জানতে পারা | তথ্য জানা গেলে find out; মাথা খাটিয়ে বের করলে figure out.
+look for | ˈলুক ফর | খোঁজা | I'm looking for my keys. খুঁজে পেলে find.
+look after | ˈলুক ˈঅ্যাফ্টার | দেখাশোনা করা | Can you look after my cat? আমেরিকায় take care of-ও খুব চলে।
+look forward to | ˈলুক ˈফর্ওয়ার্ড টূ | (কিছুর) অপেক্ষায় থাকা | to-র পরে বিশেষ্য বা -ing রূপ: I'm looking forward to seeing you. এখানে to see ভুল।
+run out of | ˈরান ˈআউট আভ় | (কিছু) ফুরিয়ে যাওয়া | কী ফুরিয়েছে তা of-এর পরে: We ran out of milk. = দুধ শেষ হয়ে গেছে।
+turn on | ˈটার্ন ˈআːন | চালু করা / জ্বালানো | Turn on the light. সর্বনাম মাঝখানে: Turn it on. "লাইট অন করো" ভেবে শুধু on the light বললে হয় না।
+turn off | ˈটার্ন ˈঅফ | বন্ধ করা / নেভানো | সর্বনাম মাঝখানে: Turn it off. "ফ্যান অফ করো" = Turn off the fan.
+turn down | ˈটার্ন ˈডাউন | ফিরিয়ে দেওয়া / (শব্দ) কমানো | দুই অর্থই চলতি: She turned down the offer. / Turn it down!
+put off | ˈপুট ˈঅফ | পিছিয়ে দেওয়া / ফেলে রাখা | রোজকার কথায় postpone-এর চেয়ে বেশি চলে: Stop putting it off!
+show up | ˈশৌ ˈআপ | হাজির হওয়া / আসা | He didn't show up to the party. = সে পার্টিতে আসেনি।
+hang out | ˈহ্যাং ˈআউট | আড্ডা দেওয়া / একসঙ্গে সময় কাটানো | বন্ধুদের সঙ্গে আড্ডা = hang out. play বলা হয় শিশুদের খেলা, গেম বা খেলাধুলার বেলায়।
+check out | ˈচেক ˈআউট | একবার দেখা / দেখে নেওয়া | Check out this video! হোটেল ছেড়ে যাওয়াও check out।
+work out | ˈওয়ার্ক ˈআউট | ব্যায়াম করা / ঠিকঠাক হয়ে যাওয়া | জিমে ব্যায়াম: I work out every day. আরেক অর্থ: It'll work out. = সব ঠিক হয়ে যাবে।
+come up with | ˈকাম ˈআপ ওয়িদ় | (বুদ্ধি বা উপায়) বের করা | নতুন আইডিয়া, অজুহাত বা সমাধান মাথায় এলে: She came up with a great idea.
+get along with | ˈগেট আˈলং ওয়িদ় | (কারও সঙ্গে) মিলেমিশে থাকা | I get along with my coworkers. = সহকর্মীদের সঙ্গে আমার সম্পর্ক ভালো।
+calm down | ˈকাːম ˈডাউন | শান্ত হওয়া | calm-এর l উচ্চারণ হয় না। রেগে থাকা মানুষকে বললে আরও রেগে যেতে পারেন।
+set up | ˈসেট ˈআপ | বসানো / ব্যবস্থা করা | যন্ত্র বসানো বা মিটিংয়ের আয়োজন: Can you help me set up my printer?
+break up | ˈব্রেইক ˈআপ | সম্পর্ক ভেঙে যাওয়া | They broke up last month. কার সঙ্গে: break up with.
+fill out | ˈফিল ˈআউট | (ফরম) পূরণ করা | Please fill out this form. ব্রিটিশ ইংরেজিতে: fill in. দেশে বলা fill up the form আমেরিকায় চলে না; fill up = ট্যাংক বা গ্লাস ভরা।
+grow up | ˈগ্রৌ ˈআপ | বড় হওয়া | কোথায় বড় হয়েছেন বলতে: I grew up in Sylhet.
+wake up | ˈওয়েইক ˈআপ | ঘুম ভাঙা / জেগে ওঠা | ঘুম ভাঙার মুহূর্ত wake up; বিছানা ছেড়ে ওঠা get up.
 `,
-"발음 주의": `
-rice | 롸이스 | 쌀 / 밥 | R: 입술을 둥글게 내밀고, 혀끝은 어디에도 닿지 않게. lice와 구분해요
-lice | 라이스 | 이 (머리에 사는 벌레) | L: 혀끝을 윗니 뒤 잇몸에 붙였다 떼요. "I like rice"를 lice로 말하면 큰일!
-right | 롸잇 | 오른쪽 / 맞는 | R로 시작. light와 구분
-light | 라잇 | 빛 / 가벼운 | L로 시작. 혀끝이 윗잇몸에 닿아요
-fan | 팬 (f) | 선풍기 / 팬 (좋아하는 사람) | F: 윗니를 아랫입술에 살짝 대고 바람을 내보내요
-pan | 팬 (p) | 프라이팬 | P: 두 입술을 붙였다가 터뜨려요
-coffee | 커피 (f) | 커피 | 가운데 f를 살려요. p로 말하면 copy(카피)처럼 들려요
-copy | 카피 | 복사하다 / 복사본 | 가운데가 p. 미국식은 "카피"에 가까워요
-think | 띵크 (th) | 생각하다 | TH: 혀끝을 윗니와 아랫니 사이에 살짝 내밀고 바람. s로 말하면 sink
-sink | 씽크 | 싱크대 / 가라앉다 | 혀가 이 뒤에 숨어 있는 s 소리
-three | 쓰리 (th) | 숫자 3 | 혀를 이 사이에! t로 말하면 tree처럼 들려요
-tree | 트리 | 나무 | tr은 "츄리"에 가깝게 들리기도 해요
-this | 디스 (th) | 이것 | 성대를 울리는 th. 혀끝을 이 사이에 두고 "드"
-very | 베리 (v) | 매우 | V: 윗니를 아랫입술에 대고 성대를 울려요. b로 말하면 berry
-berry | 베리 (b) | 베리 (딸기 같은 열매) | 두 입술을 붙였다 떼는 b
-vote | 보웃 (v) | 투표하다 | v로 시작. boat와 구분
-boat | 보웃 (b) | 배 / 보트 | b로 시작. "보트"보다 "보웃"에 가까워요
-walk | 웍 | 걷다 | l은 소리 나지 않아요. 입을 크게 벌린 "어"
-work | 워r크 | 일하다 | 혀를 뒤로 말아 r을 넣어요. walk와 헷갈리기 쉬운 짝꿍
-beach | 비-치 | 해변 | "이-"를 길게! 짧게 말하면 욕처럼 들릴 수 있어요
-leave | 리-브 | 떠나다 | 길게 "리-". 짧은 live(살다)와 구분해요
-live | 리브 (짧게) | 살다 | 짧고 힘을 빼서 "리브". leave보다 입을 덜 벌려요
-banana | 버내너 | 바나나 | 강세는 가운데 "내". "바나나"라고 또박또박 읽으면 못 알아들어요
-hotel | 호우텔 | 호텔 | 강세는 뒤 "텔". 앞을 세게 말하면 어색해요
-milk | 밀크 (크는 아주 약하게) | 우유 | 끝에 "으"를 붙이지 마요. 끝 자음은 입 모양만 살짝
-McDonald's | 먹다널즈 | 맥도날드 | 강세는 "다". 미국에서 "맥도날드"라고 하면 잘 못 알아들어요
+"উচ্চারণে সাবধান": `
+rice | ˈরাইস | চাল / ভাত | বাংলায় "র" আর "ল" দুটোই আছে, তাই এই জোড়া সহজ। শুধু খেয়াল রাখুন: আমেরিকান r-এ জিভ কোথাও ছোঁয় না, ঠোঁট একটু গোল হয়।
+lice | ˈলাইস | উকুন (বহুবচন) | l-এ জিভের ডগা উপরের মাড়িতে লাগে। I like rice বলতে গিয়ে lice বললে মানে দাঁড়ায় "আমার উকুন পছন্দ"।
+right | ˈরাইট | ডান / ঠিক | r দিয়ে শুরু; gh উচ্চারণ হয় না। light থেকে আলাদা।
+light | ˈলাইট | আলো / হালকা | l দিয়ে শুরু; জিভের ডগা উপরের মাড়িতে লাগে।
+fan | ˈফ্যান | পাখা / ভক্ত | f: উপরের দাঁত নিচের ঠোঁটে, দুই ঠোঁট বন্ধ হয় না। স্বরটা "অ্যা", মুখ বড় করে খুলুন।
+pan | ˈপ্যান | কড়াই / প্যান | p: দুই ঠোঁট বন্ধ করে খুলুন, সঙ্গে হালকা বাতাসের ঝাপটা।
+coffee | ˈকফি | কফি | মাঝখানে f; দুই ঠোঁট বন্ধ হয় না। আমেরিকান উচ্চারণে প্রথম স্বর বাংলার "কফি"-র "অ"-এর মতোই।
+copy | ˈকাːপি | কপি করা / প্রতিলিপি | মাঝখানে p। আমেরিকান উচ্চারণে প্রথম স্বর মুখ বেশি খোলা, টানা "আ" (ː চিহ্ন দেখুন); বাংলার "কপি"-র "অ" নয়।
+think | ˈথ়িংক | ভাবা / মনে করা | th: জিভের ডগা দুই পাটি দাঁতের মাঝে, বাতাস বেরোতে থাকে। বাংলার "থ" বা "ট" নয়; "স" বললে sink শোনায়।
+sink | ˈসিংক | সিংক / ডুবে যাওয়া | s-এ জিভ দাঁতের পেছনে থাকে; "বাস"-এর শেষ ধ্বনির মতো, "শ" নয়।
+three | ˈথ়্রী | তিন (3) | জিভ দাঁতের মাঝে আনুন। "ট" বললে tree শোনায়; বাংলার "থ" বললেও ঠিক হয় না।
+tree | ˈট্রী | গাছ | t দিয়ে শুরু; জিভ দাঁতের মাঝে আসে না। শেষের স্বর লম্বা।
+this | ˈদ়িস | এটা / এই | th-এর ঘোষ রূপ: জিভের ডগা দাঁতের মাঝে, গলায় কাঁপন। বাংলার "দ" বা "ড" নয়।
+very | ˈভ়েরি | খুব | v: উপরের দাঁত নিচের ঠোঁটে রেখে গুনগুন শব্দ। বাংলার "ভ" (ঠোঁট বন্ধ) বা "ব" বললে berry শোনায়।
+berry | ˈবেরি | বেরি (ছোট রসালো ফল) | b: দুই ঠোঁট বন্ধ করে খুলুন; বাংলার "ব"।
+vote | ˈভ়ৌট | ভোট দেওয়া | v দিয়ে শুরু, দাঁত ঠোঁটে। স্বরটা "ও" থেকে "উ"-র দিকে গড়ায়; বাংলার "ভোট"-এর সোজা "ও" নয়।
+boat | ˈবৌট | নৌকা | b দিয়ে শুরু। স্বরটা vote-এর মতোই গড়ানো, "নৌকা"-র "ঔ"-এর কাছাকাছি।
+walk | ˈওয়ক | হাঁটা | l উচ্চারণ হয় না। স্বরটা মুখ খোলা "অ"।
+work | ˈওয়ার্ক | কাজ করা | স্বরটা "আ"-র কাছাকাছি, সঙ্গে r; walk-এর "অ" নয়। দুটো গুলিয়ে ফেলা খুব সহজ।
+beach | ˈবীচ | সমুদ্রসৈকত | স্বরটা লম্বা করে টানুন। ছোট করলে একটা গালির মতো শোনায়।
+leave | ˈলীভ় | চলে যাওয়া / ছেড়ে যাওয়া | লম্বা স্বর। ছোট স্বরের live (থাকা) থেকে আলাদা; শেষে v।
+live | ˈলিভ় | থাকা / বাস করা | ছোট, ঢিলেঢালা স্বর। বাংলায় "ই" আর "ঈ" একই শোনায়, কিন্তু ইংরেজিতে এতে অর্থ বদলায়: live / leave.
+banana | বাˈন্যানা | কলা | জোর মাঝের অংশে; প্রথম ও শেষ a হালকা ও ছোট।
+hotel | হৌˈটেল | হোটেল (থাকার জায়গা) | জোর শেষ অংশে। ইংরেজিতে hotel-এ শুধু থাকা যায়; ভাত খাওয়ার "হোটেল" হলো restaurant।
+milk | ˈমিল্ক | দুধ | শেষে l আর k পরপর; মাঝে বা শেষে কোনো স্বর জুড়বেন না।
+McDonald's | মাক্ˈডাːনাল্ড্জ় | ম্যাকডোনাল্ডস | জোর মাঝের অংশ Don-এ, আর প্রথম অংশ খুব হালকা; দেশে চলতি উচ্চারণ থেকে বেশ আলাদা।
 `,
-"영어 관용구": `
-It's a piece of cake. | 잇츠 어 피스 오브 케익 | 식은 죽 먹기예요 | 아주 쉬운 일. "The test was a piece of cake."
-I'm on cloud nine. | 아임 온 클라우드 나인 | 날아갈 듯 기뻐요 | 엄청 행복할 때
-It costs an arm and a leg. | 잇 코스츠 언 암 앤 어 레그 | 엄청 비싸요 | 팔다리를 내줄 만큼 비싸다는 뜻
-Let's call it a day. | 렛츠 콜 잇 어 데이 | 오늘은 여기까지 해요 | 일·공부를 마칠 때. 회의에서도 자연스러워요
-I'm feeling under the weather. | 아임 필링 언더 더 웨더 | 몸이 좀 안 좋아요 | 감기 기운처럼 가볍게 아플 때. 날씨와는 상관없어요
-I need to hit the books. | 아이 니드 투 힛 더 북스 | 공부 좀 열심히 해야 해 | 시험 전에. 책을 때리는 게 아니에요
-Once in a blue moon | 원스 인 어 블루 문 | 아주 가끔 | 아주 드문 일에: "I only eat fast food once in a blue moon."
-Better late than never. | 베러 레잇 댄 네버 | 늦더라도 안 하는 것보단 낫죠 | 늦게 시작한 사람을 격려할 때
-Don't beat around the bush. | 돈 비러롸운 더 부쉬 | 돌려 말하지 마요 | 본론을 말해 달라는 뜻
-It's not my cup of tea. | 잇츠 낫 마이 커퍼 티 | 제 취향은 아니에요 | 부드럽게 싫다고 할 때 좋아요
-Let's get the ball rolling. | 렛츠 겟 더 볼 롤링 | 자, 시작해 봅시다 | 회의·프로젝트 시작할 때
-I'll keep my fingers crossed. | 아일 킵 마이 핑거즈 크로스드 | 잘되길 빌게요 | 검지와 중지를 꼬는 제스처와 함께 써요
-Hang in there. | 행 인 데어 | 조금만 버텨 / 힘내 | 힘든 시기를 보내는 사람에게
-Speak of the devil! | 스픽 오브 더 데블! | 호랑이도 제 말 하면 온다더니! | 얘기하던 사람이 나타났을 때
-The ball is in your court. | 더 볼 이즈 인 유어 코트 | 이제 당신이 결정할 차례예요 | 테니스에서 온 표현
-My lips are sealed. | 마이 립스 아 씰드 | 비밀 지킬게요 | 입술을 봉했다는 뜻
-It's on the tip of my tongue. | 잇츠 온 더 팁 오브 마이 텅 | 혀끝에서 맴도는데… | 생각날 듯 말 듯할 때
-I'm all ears. | 아임 올 이어즈 | 잘 듣고 있어요 / 어서 말해 봐요 | 귀를 쫑긋 세우고 듣는다는 뜻
-When pigs fly. | 웬 픽스 플라이 | 해가 서쪽에서 뜨겠다 | 절대 일어나지 않을 일. "He'll clean his room when pigs fly."
+"ইংরেজি বাগধারা": `
+It's a piece of cake. | ইট্স আ ˈপীস আভ় ˈকেইক | এটা পানির মতো সহজ | খুব সহজ কাজ বোঝাতে: The test was a piece of cake.
+I'm on cloud nine. | আইম আːন ˈক্লাউড ˈনাইন | আমি আনন্দে আটখানা | ভীষণ খুশি হলে।
+It costs an arm and a leg. | ইট ˈকস্ট্স আন ˈআːর্ম আন্ড আ ˈলেগ | এটার দাম আকাশছোঁয়া | আক্ষরিক অর্থ "একটা হাত আর একটা পা লাগে"; মানে ভীষণ দামি।
+Let's call it a day. | ˈলেট্স ˈকল ইট আ ˈডেই | আজ এ পর্যন্তই থাক | কাজ বা পড়া শেষ করার সময়। মিটিংয়েও স্বাভাবিক।
+I'm feeling under the weather. | আইম ˈফীলিং আন্ডার দ়া ˈওয়েদ়ার | শরীরটা একটু ম্যাজম্যাজ করছে | সর্দি-জ্বরের মতো হালকা অসুস্থতায়। আবহাওয়ার সঙ্গে সম্পর্ক নেই।
+I need to hit the books. | আই ˈনীড টা ˈহিট দ়া ˈবুক্স | আমাকে পড়তে বসতে হবে | পরীক্ষার আগে। বইকে মারা নয়, মন দিয়ে পড়া।
+Once in a blue moon | ˈওয়ান্স ইন আ ˈব্লূ ˈমূন | কালেভদ্রে | খুব কম ঘটে এমন কিছুতে: I only eat fast food once in a blue moon.
+Better late than never. | ˈবেটার ˈলেইট দ়ান ˈনেভ়ার | একেবারে না হওয়ার চেয়ে দেরিতে হওয়াও ভালো | দেরিতে শুরু করা কাউকে উৎসাহ দিতে।
+Don't beat around the bush. | ˈডৌন্ট ˈবীট আরাউন্ড দ়া ˈবুশ | ঘুরিয়ে-পেঁচিয়ে বোলো না | আসল কথাটা সরাসরি বলতে বলা।
+It's not my cup of tea. | ইট্স ˈনাːট মাই ˈকাপ আভ় ˈটী | এটা ঠিক আমার পছন্দের জিনিস না | কোনো কিছু ভালো লাগে না, এটা নরম করে বলার উপায়।
+Let's get the ball rolling. | ˈলেট্স ˈগেট দ়া ˈবল ˈরৌলিং | চলুন, শুরু করা যাক | মিটিং বা প্রজেক্ট শুরুর সময়।
+I'll keep my fingers crossed. | আইল ˈকীপ মাই ˈফিংগার্জ় ˈক্রস্ট | দোয়া করি যেন ভালো হয় | তর্জনী আর মধ্যমা আঙুল পেঁচিয়ে শুভকামনা জানানোর ভঙ্গি থেকে এসেছে।
+Hang in there. | ˈহ্যাং ˈইন ˈদ়ের | আরেকটু ধৈর্য ধরো / হাল ছেড়ো না | কঠিন সময় পার করছে এমন কাউকে।
+Speak of the devil! | ˈস্পীক আভ় দ়া ˈডেভ়াল | নাম নিতেই হাজির! | যার কথা হচ্ছিল সে-ই এসে পড়লে, ঠাট্টার সুরে।
+The ball is in your court. | দ়া ˈবল ইজ় ইন ইউর ˈকর্ট | এবার সিদ্ধান্ত আপনার হাতে | টেনিস খেলা থেকে আসা কথা।
+My lips are sealed. | মাই ˈলিপ্স আর ˈসীল্ড | কাউকে বলব না, কথা দিলাম | আক্ষরিক অর্থ "আমার ঠোঁট সিল করা"; গোপন কথা গোপন রাখার প্রতিশ্রুতি।
+It's on the tip of my tongue. | ইট্স আːন দ়া ˈটিপ আভ় মাই ˈটাং | পেটে আসছে, মুখে আসছে না | মনে পড়ি পড়ি করেও পড়ছে না এমন অবস্থায়। আক্ষরিক অর্থ "জিভের ডগায় আছে"।
+I'm all ears. | আইম ˈঅল ˈইর্জ় | বলো, মন দিয়ে শুনছি | আক্ষরিক অর্থ "আমি পুরোটাই কান"; পূর্ণ মনোযোগ দিয়ে শোনা।
+When pigs fly. | ওয়েন ˈপিগ্জ় ˈফ্লাই | কস্মিনকালেও না | যা কখনো ঘটবে না: He'll clean his room when pigs fly. আক্ষরিক অর্থ "শূকর যেদিন উড়বে"।
 `,
-"영화·드라마·슬랭": `
-Spill the tea. | 스필 더 티 | 썰 좀 풀어 봐 | tea = 가십·소문. 친구 사이 슬랭
-No cap. | 노 캡 | 진짜야, 거짓말 아님 | 젊은 층 슬랭. cap = 거짓말
-That song slaps. | 댓 쏭 슬랩스 | 그 노래 진짜 좋다 | slap = (음악이) 끝내주다. 음식에도 써요
-I'm dead. | 아임 데드 | 개웃겨 / 빵 터졌어 | 문자에서 💀 이모지와 함께 써요. 진짜 죽었다는 뜻 아니에요
-Low-key | 로우키 | 은근히 / 살짝 | "I low-key love this song." 반대는 high-key(대놓고)
-I'm obsessed with this song. | 아임 업세스트 위드 디스 쏭 | 이 노래에 완전 꽂혔어 | obsessed = 푹 빠진. 긍정적으로 많이 써요
-What's it about? | 왓츠 잇 어바웃? | 무슨 내용이야? | 영화·드라마 줄거리를 물을 때
-No spoilers! | 노 스포일러즈! | 스포 금지! | "Don't spoil it!"도 같은 뜻
-I binge-watched the whole season. | 아이 빈지와치트 더 홀 시즌 | 시즌 전체를 정주행했어 | binge-watch = 몰아보기
-The ending was so good. | 디 엔딩 워즈 쏘 굿 | 결말 진짜 좋았어 | 별로였으면 "The ending was disappointing."
-It's a must-watch. | 잇츠 어 머스트와치 | 꼭 봐야 하는 작품이야 | 강력 추천할 때
-Plot twist! | 플랏 트위스트! | 반전! | 일상에서 예상 못 한 일이 생겼을 때도 써요
-It's overrated. | 잇츠 오버레이티드 | 과대평가됐어 | 반대는 underrated(과소평가된)
-That scene gave me chills. | 댓 씬 게이브 미 칠즈 | 그 장면 소름 돋았어 | 감동이나 긴장으로 소름 돋을 때
-Who's your bias? | 후즈 유어 바이어스? | 최애가 누구야? | K-pop 팬덤에서 쓰는 말. 일반적으로는 "Who's your favorite member?"
-Are you kidding me? | 아 유 키딩 미? | 장난해? / 이게 말이 돼? | 드라마 단골 대사. 놀람·짜증 모두 가능
-I've got your back. | 아이브 갓 유어 백 | 내가 네 편이야 | 든든하게 지켜 주겠다는 뜻
-Gotcha. | 가차 | 알았어 / 잡았다! | got you의 줄임말. 이해했다는 뜻으로 가장 많이 써요
-Let's do this! | 렛츠 두 디스! | 가자! 해 보자! | 시작 전에 의욕을 북돋울 때
+"সিনেমা, সিরিজ ও স্ল্যাং": `
+Spill the tea. | ˈস্পিল দ়া ˈটী | কাহিনিটা খুলে বলো তো | এখানে tea = গুজব বা মুখরোচক খবর। বন্ধুদের মধ্যের স্ল্যাং।
+No cap. | ˈনৌ ˈক্যাপ | সত্যি বলছি, বানিয়ে বলছি না | তরুণদের স্ল্যাং। cap = মিথ্যা।
+That song slaps. | ˈদ়্যাট ˈসং ˈস্ল্যাপ্স | গানটা সেই রকম ভালো | slap = (গান) দারুণ লাগা। খাবার নিয়েও বলা হয়।
+I'm dead. | আইম ˈডেড | হাসতে হাসতে শেষ | মেসেজে 💀 ইমোজির সঙ্গে লেখা হয়। সত্যি মরে যাওয়া বোঝায় না।
+Low-key | লৌˈকী | ভেতরে ভেতরে / একটু একটু | I low-key love this song. উল্টোটা high-key (খোলাখুলি)।
+I'm obsessed with this song. | আইম আব্ˈসেস্ট ওয়িদ় ˈদ়িস ˈসং | এই গানটার নেশায় পড়ে গেছি | obsessed = কিছুতে পুরো ডুবে থাকা; ভালো অর্থেই বেশি চলে। পরে with বসে।
+What's it about? | ˈওয়াট্স ইট আˈবাউট | এটার কাহিনি কী? | সিনেমা, সিরিজ বা বইয়ের গল্প জানতে।
+No spoilers! | ˈনৌ ˈস্পইলার্জ় | কাহিনি বলে দিয়ো না! | Don't spoil it! একই অর্থ। আমরাও "স্পয়লার" বলি।
+I binge-watched the whole season. | আই ˈবিন্জ্ওয়াːচ্ট দ়া ˈহৌল ˈসীজ়ান | পুরো সিজন এক টানা দেখে ফেলেছি | binge-watch = অনেক পর্ব একসঙ্গে দেখা।
+The ending was so good. | দ়ি ˈএন্ডিং ওয়াজ় ˈসৌ ˈগুড | শেষটা দারুণ ছিল | ভালো না লাগলে: The ending was disappointing.
+It's a must-watch. | ইট্স আ ˈমাস্ট্ওয়াːচ | এটা না দেখলেই নয় | জোরালো সুপারিশ করতে।
+Plot twist! | ˈপ্লাːট ˈট্ওয়িস্ট | কাহিনিতে নতুন মোড়! | রোজকার জীবনে অপ্রত্যাশিত কিছু ঘটলেও বলা হয়।
+It's overrated. | ইট্স ঔভ়ার্ˈরেইটিড | এটা নিয়ে যত মাতামাতি, তত ভালো না | উল্টোটা underrated = যা প্রাপ্য কদর পায়নি।
+That scene gave me chills. | ˈদ়্যাট ˈসীন ˈগেইভ় মি ˈচিল্জ় | দৃশ্যটা দেখে গায়ে কাঁটা দিয়েছে | আবেগে বা উত্তেজনায় গা শিউরে উঠলে।
+Who's your bias? | ˈহূজ় ইউর ˈবাইআস | দলে তোমার সবচেয়ে প্রিয় কে? | গানের দলের ভক্তরা নিজেদের মধ্যে জিজ্ঞেস করে। সাধারণ কথায়: Who's your favorite member?
+Are you kidding me? | আর ইউ ˈকিডিং মি | মজা করছ নাকি? | সিনেমা-সিরিজের চেনা সংলাপ। বিস্ময় বা বিরক্তি, দুটোই বোঝায়।
+I've got your back. | আইভ় ˈগাːট ইউর ˈব্যাক | আমি তোমার পাশে আছি | বিপদে পাশে থাকার আশ্বাস।
+Gotcha. | ˈগাːচা | বুঝেছি / ধরে ফেলেছি! | got you-র ছোট রূপ। "বুঝেছি" অর্থেই বেশি চলে।
+Let's do this! | ˈলেট্স ˈডূ ˈদ়িস | চলো, শুরু করি! | কাজ শুরুর আগে উৎসাহ জোগাতে।
 `,
-"알파벳": `
-A | 에이 | 글자 A (소문자 a) | apple(사과)의 A. 이름은 '아'가 아니라 '에이'예요
-B | 비 (b) | 글자 B (소문자 b) | boy의 B. 두 입술을 붙였다 떼요. V와 이름이 같게 들리지 않게 조심해요
-C | 씨 | 글자 C (소문자 c) | coffee의 C. 이름이 see(보다)와 똑같은 소리예요
-D | 디 | 글자 D (소문자 d) | dog의 D. 이름은 '디'예요. T(티)와 달리 성대를 울려 부드럽게 시작해요
-E | 이 | 글자 E (소문자 e) | email의 E. 이름은 '이'예요. '아이'는 I의 이름이에요
-F | 에프 | 글자 F (소문자 f) | fan의 F. 윗니를 아랫입술에 대고 바람을 내요. P(피)와 구분해요
-G | 지 (g) | 글자 G (소문자 g) | game의 G. 입술을 내밀어 '쥐'에 가깝게. J(제이)와 이름이 달라요
-H | 에이치 | 글자 H (소문자 h) | hotel의 H. 이름이 모음 소리 '에'로 시작해서 an H라고 해요
-I | 아이 | 글자 I (소문자 i) | idea의 I. '나'를 뜻하는 I와 같은 소리예요. E(이)와 헷갈리지 마세요
-J | 제이 | 글자 J (소문자 j) | job의 J. G(지)와 바꿔 말하기 쉬워요
-K | 케이 | 글자 K (소문자 k) | key의 K. K-pop의 그 '케이'예요
-L | 엘 | 글자 L (소문자 l) | light의 L. 혀끝을 윗잇몸에 붙이며 '엘'로 끝내요
-M | 엠 | 글자 M (소문자 m) | milk의 M. 입술을 다물며 끝내요. summer처럼 M이 두 개면 double M이라고 불러요
-N | 엔 | 글자 N (소문자 n) | name의 N. 전화로는 M과 헷갈리기 쉬워 "N as in name"처럼 확인해요
-O | 오우 | 글자 O (소문자 o) | OK의 O. 이름은 '오'가 아니라 끝을 살짝 오므린 '오우'예요
-P | 피 | 글자 P (소문자 p) | pan의 P. 두 입술을 터뜨려요. F(에프)와 구분해요
-Q | 큐 | 글자 Q (소문자 q) | question의 Q. 단어에서는 거의 항상 뒤에 U가 와요 (qu)
-R | 아r | 글자 R (소문자 r) | rice의 R. '알'이 아니라 혀를 뒤로 말아 '아r'. L(엘)과 꼭 구분해요
-S | 에스 | 글자 S (소문자 s) | sorry의 S. 이름은 '에스'예요. '씨'는 C의 이름이에요
-T | 티 | 글자 T (소문자 t) | taxi의 T. 대문자는 capital T, 두 개면 double T라고 해요
-U | 유 | 글자 U (소문자 u) | university의 U. 이름이 '유'(y 소리)로 시작해서 an U가 아니라 a U
-V | 비 (v) | 글자 V (소문자 v) | very의 V. 윗니를 아랫입술에 대고 성대를 울려요. B와 구분해요
-W | 더블유 | 글자 W (소문자 w) | water의 W. 이름은 double u, 'U 두 개'라는 뜻이에요 (double v 아님)
-X | 엑스 | 글자 X (소문자 x) | X-ray(엑스레이)의 X. 이름이 모음 소리로 시작해서 an X-ray, an X
-Y | 와이 | 글자 Y (소문자 y) | yes의 Y. 이름이 why(왜)와 똑같은 소리예요
-Z | 지 (z) | 글자 Z (소문자 z) | zoo의 Z. 미국에서는 zee예요. '제트'라고 하면 잘 못 알아들어요
+"ইংরেজি বর্ণমালা": `
+A | ˈএই | A অক্ষর (ছোট হাতের a) | apple-এর A. নামটা সোজা "এ" নয়; গড়িয়ে "এই"।
+B | ˈবী | B অক্ষর (ছোট হাতের b) | boy-এর B. দুই ঠোঁট বন্ধ করে বলুন; V-এর নামের সঙ্গে যেন মিলে না যায়।
+C | ˈসী | C অক্ষর (ছোট হাতের c) | coffee-র C. নামটা see (দেখা) শব্দের মতোই শোনায়; শুরুতে s, "শ" নয়।
+D | ˈডী | D অক্ষর (ছোট হাতের d) | dog-এর D. ফোনে B, D, P, T গুলিয়ে যায়, তাই বলুন: D as in dog.
+E | ˈঈ | E অক্ষর (ছোট হাতের e) | email-এর E. নাম লম্বা "ঈ"। ইমেইল ঠিকানা বলার সময় E আর I যেন উল্টে না যায়।
+F | ˈএফ | F অক্ষর (ছোট হাতের f) | fan-এর F. নাম স্বরধ্বনি দিয়ে শুরু, তাই an F. শেষের f-এ দুই ঠোঁট বন্ধ হয় না।
+G | ˈজী | G অক্ষর (ছোট হাতের g) | game-এর G. নামের শুরুতে বাংলার "জ"। Z-এর নাম (z ধ্বনি দিয়ে) আর J-এর নাম থেকে আলাদা রাখুন।
+H | ˈএইচ | H অক্ষর (ছোট হাতের h) | hotel-এর H. নামের শুরুতে h ধ্বনি নেই; "হেইচ" নয়। স্বরধ্বনি দিয়ে শুরু বলে an H.
+I | ˈআই | I অক্ষর (ছোট হাতের i) | idea-র I. "আমি" অর্থের I-এর মতোই শোনায়।
+J | ˈজেই | J অক্ষর (ছোট হাতের j) | job-এর J. নামের স্বর গড়িয়ে "এই" হয়; সোজা "জে" নয়। G-এর সঙ্গে প্রায়ই গুলিয়ে যায়।
+K | ˈকেই | K অক্ষর (ছোট হাতের k) | key-র K. শব্দের শুরুতে n-এর আগে k উচ্চারণ হয় না: know, knife.
+L | ˈএল | L অক্ষর (ছোট হাতের l) | light-এর L. পাশাপাশি দুইটা থাকলে বলা হয় double L, যেমন hello-তে।
+M | ˈএম | M অক্ষর (ছোট হাতের m) | milk-এর M. নাম স্বরধ্বনি দিয়ে শুরু, তাই an M.
+N | ˈএন | N অক্ষর (ছোট হাতের n) | name-এর N. ফোনে M-এর সঙ্গে গুলিয়ে যায়, তাই বলুন: N as in name.
+O | ˈঔ | O অক্ষর (ছোট হাতের o) | OK-র O. নামটা সোজা "ও" নয়; শেষে ঠোঁট গোল হয়ে "উ"-র দিকে গড়ায়। ফোন নম্বরে শূন্যকেও oh বলা হয়।
+P | ˈপী | P অক্ষর (ছোট হাতের p) | pan-এর P. দুই ঠোঁট বন্ধ করে খুলুন; F-এর সঙ্গে গুলিয়ে ফেলবেন না।
+Q | ˈকিঊ | Q অক্ষর (ছোট হাতের q) | question-এর Q. শব্দে এর পরে প্রায় সব সময় u থাকে: qu.
+R | ˈআːর | R অক্ষর (ছোট হাতের r) | rice-এর R. টানা "আ"-র পরে আমেরিকান r; জিভ কোথাও ছোঁয় না।
+S | ˈএস | S অক্ষর (ছোট হাতের s) | sorry-র S. নাম স্বরধ্বনি দিয়ে শুরু, তাই an S. শেষের ধ্বনি s; "শ" নয়।
+T | ˈটী | T অক্ষর (ছোট হাতের t) | taxi-র T. বড় হাতের হলে capital T; পরপর দুইটা হলে double T.
+U | ˈইঊ | U অক্ষর (ছোট হাতের u) | university-র U. নাম y ধ্বনি দিয়ে শুরু, তাই a U; an U নয়।
+V | ˈভ়ী | V অক্ষর (ছোট হাতের v) | very-র V. উপরের দাঁত নিচের ঠোঁটে; বাংলার "ভি" নয়, B-এর নামের মতোও নয়।
+W | ˈডাবালিঊ | W অক্ষর (ছোট হাতের w) | water-এর W. নামের মানে double u, অর্থাৎ "দুইটা U"। নামে তিনটা অংশ, জোর প্রথম অংশে।
+X | ˈএক্স | X অক্ষর (ছোট হাতের x) | X-ray-র X. নাম স্বরধ্বনি দিয়ে শুরু, তাই an X-ray, an X.
+Y | ˈওয়াই | Y অক্ষর (ছোট হাতের y) | yes-এর Y. নামটা why (কেন) শব্দের মতোই শোনায়।
+Z | ˈজ়ী | Z অক্ষর (ছোট হাতের z) | zoo-র Z. আমেরিকায় নাম zee; স্কুলে শেখা ব্রিটিশ নাম zed নয়। শুরুতে z ধ্বনি; বাংলার "জ" বললে G শোনায়।
+`,
+"বাংলিশ ফাঁদ": `
+I need some information. | আই ˈনীড ˈসাম ইন্ফার্ˈমেইশান | আমার কিছু তথ্য দরকার | information গণনাযোগ্য নয়। দেশে প্রচলিত informations বাইরে ভুল ধরা হয়। একটা তথ্য = a piece of information.
+Can you give me some advice? | কান ইউ ˈগিভ় মি ˈসাম আড্ˈভ়াইস | আমাকে কিছু পরামর্শ দেবেন? | advice-এ কখনো -s বসে না; an advice বা advices হয় না। একটা পরামর্শ = a piece of advice.
+We bought new furniture. | ওয়ি ˈবট ˈনূ ˈফার্নিচার | আমরা নতুন আসবাব কিনেছি | furniture আর equipment-এও -s বসে না; furnitures হয় না। একটা হলে a piece of furniture.
+This one is better. | ˈদ়িস ˈওয়ান ইজ় ˈবেটার | এটা আরও ভালো | সরাসরি বাংলা থেকে: "আরও ভালো" ভেবে more better বলা হয়। better নিজেই তুলনার রূপ, তাই more লাগে না; more easier নয়, easier.
+I know the answer. | আই ˈনৌ দ়ি ˈঅ্যান্সার | আমি উত্তরটা জানি | সরাসরি বাংলা থেকে: "জানি" বা "চাই" বলতে I am knowing / I am wanting বলা হয়। know, want, understand-এ -ing রূপ চলে না।
+A hundred thousand taka | আ ˈহান্ড্রাড ˈথ়াউজ়ান্ড ˈটাːকা | এক লাখ টাকা | lakh দক্ষিণ এশিয়ায় চলে; এর বাইরে প্রায় কেউ বোঝে না। দশ লাখ = one million.
+Ten million people | ˈটেন ˈমিলিয়ান ˈপীপাল | এক কোটি মানুষ | crore-ও দেশের বাইরে অচেনা। two crore = twenty million. ইংরেজিতে কমা বসে তিন ঘর পরপর: 10,000,000.
+Let's take the elevator. | ˈলেট্স ˈটেইক দ়ি ˈএলিভ়েইটার | চলুন, লিফটে যাই | lift ব্রিটিশ ইংরেজি, ভুল নয়; আমেরিকায় বলে elevator.
+I live in an apartment. | আই ˈলিভ় ইন আন আˈপাːর্ট্মান্ট | আমি একটা ফ্ল্যাটে থাকি | flat ব্রিটিশ ইংরেজি; আমেরিকায় apartment. শব্দটা স্বরধ্বনি দিয়ে শুরু, তাই an.
+Where's my cell phone? | ˈওয়ের্জ় মাই ˈসেল ˈফৌন | আমার মোবাইলটা কোথায়? | দেশে mobile; আমেরিকায় cell phone বা শুধু phone. একইভাবে torch → flashlight, biscuit → cookie, petrol → gas.
+I'm taking an exam tomorrow. | আইম ˈটেইকিং আন ইগ্ˈজ়্যাম টাˈমাːরৌ | কাল আমি পরীক্ষা দেব | সরাসরি বাংলা থেকে: "পরীক্ষা দেওয়া" ভেবে give an exam বলা হয়। ইংরেজিতে ছাত্র take করে; give an exam করেন শিক্ষক।
+Did you take your medicine? | ডিড ইউ ˈটেইক ইউর ˈমেডিসান | ওষুধ খেয়েছ? | সরাসরি বাংলা থেকে: "ওষুধ খাওয়া" ভেবে eat medicine বলা হয়। ইংরেজিতে ওষুধ take করা হয়।
+He doesn't smoke. | হি ˈডাজ়ান্ট ˈস্মৌক | সে সিগারেট খায় না | সরাসরি বাংলা থেকে: "সিগারেট খাওয়া" ভেবে eat বা drink cigarettes বলা হয়। ইংরেজিতে ক্রিয়াটাই smoke.
+I woke up early this morning. | আই ˈওয়ৌক ˈআপ ˈআর্লি ˈদ়িস ˈমর্নিং | আজ সকালে আমার তাড়াতাড়ি ঘুম ভেঙেছে | সরাসরি বাংলা থেকে: "আজ সকালে" ভেবে today morning বলা হয়। ইংরেজিতে this morning, this evening.
+I couldn't sleep last night. | আই ˈকুডান্ট ˈস্লীপ ˈল্যাস্ট ˈনাইট | কাল রাতে ঘুমাতে পারিনি | সরাসরি বাংলা থেকে: "কাল রাতে" ভেবে yesterday night বলা হয়। ইংরেজিতে last night; তবে yesterday morning ঠিক আছে।
+He's my cousin. | হিজ় মাই ˈকাজ়ান | সে আমার চাচাতো ভাই (বা মামাতো, খালাতো, ফুফাতো ভাই) | cousin brother / cousin sister দক্ষিণ এশিয়ায় চলে; বাইরে শুধু cousin. ছেলে না মেয়ে, তা he / she থেকেই বোঝা যায়।
+What's your full name? | ˈওয়াট্স ইউর ˈফুল ˈনেইম | আপনার পুরো নাম কী? | সরাসরি বাংলা থেকে: "ভালো নাম" ভেবে good name বলা হয়; দেশের বাইরে এটা কেউ বোঝে না। বলুন What's your name? বা full name.
+Let's eat at a restaurant. | ˈলেট্স ˈঈট আট আ ˈরেস্টারাːন্ট | চলো রেস্টুরেন্টে খাই | দেশের বাইরে অন্য অর্থ: hotel মানে শুধু রাত কাটানোর জায়গা। খাওয়ার "হোটেল" = restaurant.
+The power is out. | দ়া ˈপাউআর ইজ় ˈআউট | কারেন্ট চলে গেছে | সরাসরি বাংলা থেকে: current is gone. load-shedding শব্দটাও দেশের বাইরে অচেনা; বলুন The power is out. বা There's a power outage.
+My head hurts. | মাই ˈহেড ˈহার্ট্স | আমার মাথায় ব্যথা করছে | My head is paining দক্ষিণ এশিয়ায় চলে; বাইরে pain এভাবে ক্রিয়া হিসেবে বসে না। বলুন My head hurts. বা I have a headache.
+I finished high school in 2020. | আই ˈফিনিশ্ট ˈহাই ˈস্কূল ইন ˈট্ওয়েন্টি ˈট্ওয়েন্টি | আমি 2020 সালে এইচএসসি পাস করেছি | HSC, SSC দেশের বাইরে অচেনা। বলুন finished high school বা graduated from high school.
+I got good grades. | আই ˈগাːট ˈগুড ˈগ্রেইড্জ় | আমার রেজাল্ট ভালো হয়েছে | দেশে marks আর result; আমেরিকায় grades, আর পরীক্ষার নম্বর score. My result is good-এর বদলে I got good grades.
+I'm taking a prep course. | আইম ˈটেইকিং আ ˈপ্রেপ ˈকর্স | আমি কোচিং করছি | দেশের বাইরে অন্য অর্থ: coaching বলতে মূলত খেলার প্রশিক্ষণ বোঝায়। পরীক্ষার কোচিং = a prep course; প্রাইভেট পড়া = tutoring.
+We need to discuss the plan. | ওয়ি ˈনীড টা ডিˈস্কাস দ়া ˈপ্ল্যান | পরিকল্পনাটা নিয়ে আমাদের আলোচনা করা দরকার | সরাসরি বাংলা থেকে: "নিয়ে" ভেবে discuss about বলা হয়। discuss-এর পরে about বসে না।
+She's married to a doctor. | শিজ় ˈম্যারিড টু আ ˈডাːক্টার | তার বিয়ে হয়েছে একজন ডাক্তারের সঙ্গে | সরাসরি বাংলা থেকে: "সঙ্গে" ভেবে married with বলা হয়। ইংরেজিতে married to.
+I'll return on Friday. | আইল রিˈটার্ন আːন ˈফ্রাইডেই | আমি শুক্রবার ফিরব | return মানেই ফিরে আসা, তাই return back-এ back বাড়তি। বলুন return বা come back.
+I'm Rafi. | আইম ˈরাːফি | আমি রাফি | Myself Rafi দক্ষিণ এশিয়ায় খুব শোনা যায়; দেশের বাইরে ভুল ধরা হয়। পরিচয় দিতে বলুন I'm Rafi. বা My name is Rafi.
+Tomorrow is my day off. | টাˈমাːরৌ ইজ় মাই ˈডেই ˈঅফ | আগামীকাল আমার ছুটি | দেশে off day; বাইরে শব্দ দুটো উল্টো ক্রমে বসে: day off. বাইরে an off day মানে "যেদিন কিছুই ঠিকমতো হচ্ছে না"।
+I'm single. | আইম ˈসিংগাল | আমি অবিবাহিত | দেশের বাইরে অন্য অর্থ: bachelor শব্দটা সেকেলে শোনায়, আর "ব্যাচেলর ভাড়াটিয়া" অর্থে চলে না। বলুন I'm single.
+I share an apartment with two friends. | আই ˈশের আন আˈপাːর্ট্মান্ট ওয়িদ় ˈটূ ˈফ্রেন্ড্জ় | আমি দুই বন্ধুর সঙ্গে মেসে থাকি | দেশের বাইরে অন্য অর্থ: mess মানে অগোছালো অবস্থা। ভাগাভাগি করে থাকা = share an apartment; সঙ্গীরা roommates.
+zoo | ˈজ়ূ | চিড়িয়াখানা | z: জিভ কোথাও না ছুঁইয়ে গুনগুন শব্দ (উচ্চারণ-সহায়কে নিচে ফোঁটা দেওয়া অক্ষর)। বাংলার "জ" বললে Jew শোনায়।
+Jew | ˈজূ | ইহুদি | বাংলার "জ" দিয়ে শুরু। zoo-র সঙ্গে মিলিয়ে শুনুন: শুধু প্রথম ধ্বনিটা আলাদা।
+vine | ˈভ়াইন | আঙুরলতা / লতা | v: উপরের দাঁত নিচের ঠোঁটে। wine থেকে আলাদা করে শোনার সেরা জোড়া।
+wine | ˈওয়াইন | ওয়াইন (আঙুরের মদ) | w: ঠোঁট গোল, দাঁত ঠোঁট ছোঁয় না। vine-এর সঙ্গে মিলিয়ে শুনুন।
+ship | ˈশিপ | জাহাজ | ছোট, ঢিলেঢালা স্বর। লম্বা করলে sheep শোনায়।
+sheep | ˈশীপ | ভেড়া | লম্বা স্বর, ঠোঁট দুই পাশে টেনে। বহুবচনেও sheep; -s বসে না।
+full | ˈফুল | ভরা / পূর্ণ | ছোট স্বর। fool-এর লম্বা স্বর থেকে আলাদা।
+fool | ˈফূল | বোকা | লম্বা স্বর; ঠোঁট গোল করে টানুন।
+see | ˈসী | দেখা | s: "বাস"-এর শেষ ধ্বনির মতো। বাংলার "শ" বললে she শোনায়।
+she | ˈশী | সে (মেয়ে) / তিনি (নারী) | sh: বাংলার "শ"। বাংলায় "সে" ছেলে-মেয়ে দুজনকেই বোঝায়; ইংরেজিতে মেয়ে হলে she, ছেলে হলে he.
+heart | ˈহাːর্ট | হৃদয় / হার্ট | মুখ বেশি খুলে টানা "আ" (ː চিহ্ন), তারপর r। hurt থেকে আলাদা।
+hurt | ˈহার্ট | ব্যথা দেওয়া / ব্যথা করা | মুখ অল্প খুলে বলা স্বর, তারপর r। heart-এর মতো মুখ বেশি খুলবেন না।
+school | ˈস্কূল | স্কুল | শুরুতে কোনো স্বর জুড়বেন না; "ইস্কুল" নয়। s-এর পরে সরাসরি k।
 `
 };

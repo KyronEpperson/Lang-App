@@ -1,300 +1,296 @@
-/* TRANSLATE/ADAPT (bn): scaffolded from tools/content/ko/extra.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for bn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the bn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* DIALOG: key | A | B | 번역 ;  EXAMPLES: key | sentence | 번역 */
+/* DIALOG: key | A | B | অনুবাদ ;  EXAMPLES: key | sentence | অনুবাদ */
 exports.DIALOG = `
-How are you? | Hi, Jake! How are you? | Good, thanks! How about you? | 안녕, 제이크! 잘 지내? / 잘 지내, 고마워! 너는?
-What's up? | Hey, what's up? | Not much. Just getting some coffee. | 야, 뭐 해? / 별거 없어. 그냥 커피 사러 가.
-Nice to meet you. | Hi, I'm Minji. Nice to meet you. | Nice to meet you, too. I'm Ryan. | 안녕하세요, 민지예요. 만나서 반가워요. / 저도 반가워요. 라이언이에요.
-Long time no see! | Long time no see! How have you been? | I've been great! You look good! | 오랜만이야! 어떻게 지냈어? / 잘 지냈지! 너 좋아 보인다!
-Have a good one! | Here's your receipt. Have a good one! | Thanks, you too! | 영수증 여기 있습니다. 좋은 하루 보내세요! / 감사합니다, 그쪽도요!
-Good night. | I'm going to bed. Good night! | Good night! Sleep well. | 나 잘게. 잘 자! / 잘 자! 푹 자.
-Where are you from? | So, where are you from? | I'm from Korea. Seoul, actually. | 그래서 어디서 왔어요? / 한국이요. 서울이에요.
-What do you do? | What do you do? | I'm a designer. I work at a small startup. | 무슨 일 하세요? / 디자이너예요. 작은 스타트업에서 일해요.
-What should I call you? | What should I call you? | Just call me Jay. Everyone does. | 뭐라고 부르면 될까요? / 그냥 제이라고 불러요. 다들 그렇게 불러요.
-I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | 주말엔 뭐 해요? / 등산에 푹 빠졌어요. 거의 매주 토요일에 가요.
-I'm here on vacation. | Are you here for work? | No, I'm here on vacation. | 일 때문에 오셨어요? / 아뇨, 휴가로 왔어요.
-Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | 저기요, 여기가 표 사는 줄인가요? / 네, 맞아요. 줄 끝은 저쪽이에요.
-Thank you. | Here, let me get the door for you. | Oh, thank you! | 제가 문 잡아 드릴게요. / 아, 감사합니다!
-Sorry? | Your total is twenty-three fifty. | Sorry? Could you say that again? | 총 23달러 50센트입니다. / 네? 다시 말씀해 주시겠어요?
-Could you speak more slowly? | Take the B line to Central, then transfer to the red line and... | Sorry, could you speak more slowly? | B선을 타고 센트럴까지 가서 빨간 선으로 갈아타고… / 죄송한데, 좀 더 천천히 말해 주시겠어요?
-How do you say this in English? | How do you say this in English? | That's a whisk. | 이거 영어로 뭐라고 해요? / 그건 whisk(거품기)예요.
-Can you help me? | Excuse me, can you help me? I'm looking for this hotel. | Sure! It's just around the corner. | 실례지만 좀 도와주실래요? 이 호텔을 찾고 있어요. / 그럼요! 바로 모퉁이 돌면 있어요.
-No, thank you. | Would you like a bag? | No, thank you. I have one. | 봉투 드릴까요? / 아니요, 괜찮아요. 있어요.
-Where's the restroom? | Excuse me, where's the restroom? | It's down the hall, on the left. | 실례지만, 화장실이 어디예요? / 복도 끝 왼쪽에 있어요.
-Can I get the Wi-Fi password? | Can I get the Wi-Fi password? | Sure, it's on the back of your receipt. | 와이파이 비밀번호 알려 주실래요? / 네, 영수증 뒷면에 있어요.
-Could you take a picture of us? | Excuse me, could you take a picture of us? | Of course! Say cheese! | 실례지만, 저희 사진 좀 찍어 주실래요? / 물론이죠! 치즈 하세요!
-Can you write it down? | The address is 1428 Elm Street. | Sorry, can you write it down? | 주소는 엘름 스트리트 1428번지예요. / 죄송한데, 적어 주실 수 있어요?
-No worries. | Sorry I'm a little late! | No worries. I just got here, too. | 미안, 조금 늦었어! / 괜찮아. 나도 방금 왔어.
-How do I get to the subway station? | How do I get to the subway station? | Go straight two blocks and turn right. You can't miss it. | 지하철역에 어떻게 가요? / 두 블록 직진해서 오른쪽으로 도세요. 바로 보여요.
-Is it within walking distance? | Is the museum within walking distance? | Yeah, it's about a ten-minute walk. | 박물관까지 걸어갈 수 있어요? / 네, 걸어서 10분 정도예요.
-Does this bus go to the airport? | Does this bus go to the airport? | No, you need the 42. It stops across the street. | 이 버스 공항 가요? / 아뇨, 42번을 타셔야 해요. 길 건너편에 서요.
-Which stop should I get off at? | Which stop should I get off at for the museum? | Get off at Park Street. It's three stops from here. | 박물관 가려면 어느 정류장에서 내려야 해요? / 파크 스트리트에서 내리세요. 여기서 세 정거장이에요.
-Can you take me to this address? | Can you take me to this address? | Sure. It'll take about twenty minutes. | 이 주소로 가 주실 수 있어요? / 네. 20분 정도 걸려요.
-How long does it take? | How long does it take to get downtown? | About fifteen minutes by subway. | 시내까지 얼마나 걸려요? / 지하철로 15분쯤이요.
-Is this seat taken? | Excuse me, is this seat taken? | No, go ahead. | 실례지만, 이 자리 주인 있어요? / 아뇨, 앉으세요.
-A table for two, please. | Hi! How many? | A table for two, please. | 안녕하세요! 몇 분이세요? / 두 명이요.
-What do you recommend? | What do you recommend? | The salmon is really popular. | 추천해 주실 메뉴 있어요? / 연어 요리가 정말 인기 많아요.
-I'll have the steak. | Are you ready to order? | Yes, I'll have the steak, please. | 주문하시겠어요? / 네, 스테이크로 할게요.
-Medium rare, please. | How would you like your steak? | Medium rare, please. | 스테이크 굽기는 어떻게 해 드릴까요? / 미디엄 레어로 주세요.
-I'm allergic to peanuts. | Does this have nuts in it? I'm allergic to peanuts. | Let me check with the kitchen. | 이거 견과류 들어가요? 땅콩 알레르기가 있어서요. / 주방에 확인해 볼게요.
-Everything was great. | How was everything? | Everything was great, thank you! | 식사 어떠셨어요? / 다 맛있었어요, 감사합니다!
-Can we get the check, please? | Can we get the check, please? | Sure, I'll be right back with it. | 계산서 좀 주시겠어요? / 네, 바로 가져다드릴게요.
-It's on me. | Let's split it. | No, no. It's on me today. | 반반 내자. / 아냐, 아냐. 오늘은 내가 살게.
-Can I get an iced Americano? | Hi, what can I get for you? | Can I get an iced Americano? | 안녕하세요, 뭐 드릴까요? / 아이스 아메리카노 주세요.
-For here or to go? | For here or to go? | To go, please. | 드시고 가세요, 가져가세요? / 가져갈게요.
-Can I get a name for the order? | Can I get a name for the order? | It's Jay. J-A-Y. | 주문하시는 분 성함이요? / 제이요. J-A-Y.
-That's it. | Anything else? | No, that's it. Thanks! | 더 필요한 거 있으세요? / 아뇨, 그게 다예요. 감사합니다!
-I'm just looking, thanks. | Can I help you find anything? | I'm just looking, thanks. | 찾으시는 거 있으세요? / 그냥 구경하는 거예요, 감사합니다.
-Can I try this on? | Can I try this on? | Sure, the fitting rooms are in the back. | 이거 입어 봐도 돼요? / 그럼요, 탈의실은 안쪽에 있어요.
-I'll take it. | It fits perfectly! I'll take it. | Great! I can ring you up over here. | 딱 맞아요! 이걸로 할게요. / 좋아요! 이쪽에서 계산해 드릴게요.
-Cash or card? | Cash or card? | Card, please. | 현금이요, 카드요? / 카드로 할게요.
-What time is it? | Excuse me, what time is it? | It's almost three. | 실례지만 지금 몇 시예요? / 거의 3시예요.
-Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | 30달러입니다. / 죄송한데, 13이에요, 30이에요?
-How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | 주말 어땠어요? / 좋았어요! 바닷가 다녀왔어요. 당신은요?
-Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | 주말에 계획 있어요? / 딱히요. 그냥 집에서 쉬려고요.
-Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | 오늘 날씨 좋네요? / 그러니까요! 드디어 해가 났네요.
-What do you do for fun? | What do you do for fun? | I play basketball and watch a lot of K-dramas. | 쉴 때 주로 뭐 해요? / 농구도 하고 한국 드라마도 많이 봐요.
-Me neither. | I don't really like spicy food. | Me neither. | 난 매운 음식 별로 안 좋아해. / 나도.
-It was nice talking to you. | Well, I should get going. It was nice talking to you. | You too! See you around. | 이제 가 봐야겠어요. 이야기 즐거웠어요. / 저도요! 또 봐요.
-Congratulations! | I got the job! | Congratulations! I'm so happy for you! | 나 합격했어! / 축하해! 정말 잘됐다!
-No way! | I met BTS at the airport yesterday. | No way! Did you get a picture? | 어제 공항에서 BTS 만났어. / 말도 안 돼! 사진 찍었어?
-I'm sorry to hear that. | My grandma is in the hospital. | Oh, I'm sorry to hear that. I hope she feels better soon. | 할머니가 병원에 계셔. / 아, 마음이 안 좋네. 빨리 나으시길 바랄게.
-It's not a big deal. | I'm so sorry I spilled your coffee! | It's not a big deal. Don't worry about it. | 커피 쏟아서 정말 미안해! / 별일 아니야. 신경 쓰지 마.
-I love your shoes. | I love your shoes! Where did you get them? | Thanks! I got them in Seoul. | 신발 너무 예쁘다! 어디서 샀어? / 고마워! 서울에서 샀어.
-Do you want to grab coffee sometime? | Do you want to grab coffee sometime? | Sure, I'd love to! | 언제 커피 한잔할래요? / 좋아요, 꼭 해요!
-You're a lifesaver! | I brought you an extra charger. | You're a lifesaver! Thank you! | 여분 충전기 가져왔어. / 덕분에 살았다! 고마워!
-I'll get back to you. | Can you join the meeting on Thursday? | Let me check my schedule, and I'll get back to you. | 목요일 회의에 참석하실 수 있나요? / 일정 확인해 보고 다시 연락드릴게요.
-I'm running late. | Where are you? The meeting starts in five minutes. | Sorry, I'm running late. I'll be there in ten. | 어디예요? 회의 5분 후에 시작해요. / 죄송해요, 좀 늦을 것 같아요. 10분 뒤에 도착해요.
-Can we push the meeting to 3? | Can we push the meeting to 3? Something came up. | Sure, 3 works for me. | 회의를 3시로 미룰 수 있을까요? 일이 좀 생겨서요. / 네, 3시 괜찮아요.
-What's the deadline? | What's the deadline for the proposal? | End of the day Friday. | 제안서 마감이 언제예요? / 금요일 업무 끝날 때까지요.
-Who's calling, please? | Hi, can I speak to Ms. Lee? | Sure. Who's calling, please? | 안녕하세요, 이 선생님과 통화할 수 있을까요? / 네. 누구시죠?
-Sorry, you're breaking up. | Can you hear me now? | Sorry, you're breaking up. I'll call you back. | 지금 들려요? / 죄송해요, 소리가 끊겨요. 다시 걸게요.
-I'm on my way. | Are you almost here? | Yeah, I'm on my way! | 거의 다 왔어? / 응, 가는 중이야!
-I'm here for sightseeing. | What's the purpose of your visit? | I'm here for sightseeing. | 방문 목적이 무엇인가요? / 관광하러 왔어요.
-I'm staying for a week. | How long are you staying? | I'm staying for a week. | 얼마나 머무르실 건가요? / 일주일 머물 거예요.
-Window or aisle? | Window or aisle? | Aisle, please. | 창가석이요, 통로석이요? / 통로석으로 주세요.
-I have a reservation under Kim. | Hi, are you checking in? | Yes, I have a reservation under Kim. | 안녕하세요, 체크인하시나요? / 네, 김 이름으로 예약했어요.
-The air conditioner isn't working. | Front desk. How can I help you? | Hi, the air conditioner isn't working in room 512. | 프런트입니다. 무엇을 도와드릴까요? / 안녕하세요, 512호 에어컨이 안 돼요.
-My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I see your baggage tag? | 짐이 안 나왔어요. / 불편을 드려 죄송합니다. 수하물 표 좀 보여 주시겠어요?
-I don't feel well. | Are you okay? You look pale. | I don't feel well. I think I need to sit down. | 괜찮아요? 얼굴이 창백해요. / 몸이 안 좋아요. 좀 앉아야 할 것 같아요.
-I have a sore throat. | What seems to be the problem? | I have a sore throat and a slight fever. | 어디가 불편하세요? / 목이 아프고 열이 조금 나요.
-I lost my wallet. | I lost my wallet. I think I left it on the bus. | Let's call the bus company's lost and found. | 지갑을 잃어버렸어요. 버스에 두고 내린 것 같아요. / 버스 회사 분실물 센터에 전화해 봐요.
-hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | 이번 주말에 같이 놀래? / 좋아! 영화 보러 가자.
-pick up | Can you pick me up at the airport? | Of course. What time does your flight land? | 공항으로 데리러 와 줄 수 있어? / 당연하지. 비행기 몇 시에 도착해?
-work out | You look great! Do you work out? | Yeah, I go to the gym three times a week. | 너 좋아 보인다! 운동해? / 응, 일주일에 세 번 헬스장 가.
-It's not my cup of tea. | Do you want to go to the jazz concert? | Thanks, but honestly, it's not my cup of tea. | 재즈 콘서트 갈래? / 고맙지만, 솔직히 내 취향은 아니야.
-Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he comes. | 오늘 마크 봤어? / 호랑이도 제 말 하면 온다더니! 저기 오네.
-I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | 오늘 밤 파티 와? / 못 갈 것 같아. 몸이 좀 안 좋아.
-Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | 젠이랑 마이크에 대해 대박인 얘기 들었어. / 잠깐, 뭔데? 썰 좀 풀어 봐!
-No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | 그 드라마 다 봤어? 결말이… / 스포 금지! 나 아직 3화야.
-Who's your bias? | Who's your bias? | Definitely Jimin. What about you? | 최애가 누구야? / 당연히 지민이지. 너는?
+How are you? | Hi, Jake! How are you? | Good, thanks! How about you? | হাই, জেক! কেমন আছ? / ভালো, ধন্যবাদ! তুমি কেমন আছ?
+What's up? | Hey, what's up? | Not much. Just getting some coffee. | এই, কী খবর? / তেমন কিছু না। একটু কফি নিতে যাচ্ছি।
+Nice to meet you. | Hi, I'm Nadia. Nice to meet you. | Nice to meet you, too. I'm Ryan. | হাই, আমি নাদিয়া। পরিচিত হয়ে ভালো লাগল। / আমারও ভালো লাগল। আমি রায়ান।
+Long time no see! | Long time no see! How have you been? | I've been great! You look good! | অনেক দিন পর দেখা! কেমন ছিলে এত দিন? / খুব ভালো ছিলাম! তোমাকে তো দারুণ লাগছে!
+Have a good one! | Here's your receipt. Have a good one! | Thanks, you too! | এই যে আপনার রসিদ। দিনটা ভালো কাটুক! / ধন্যবাদ, আপনারও!
+Good night. | I'm going to bed. Good night! | Good night! Sleep well. | আমি ঘুমাতে যাচ্ছি। শুভ রাত্রি! / শুভ রাত্রি! ভালো করে ঘুমিয়ো।
+Where are you from? | So, where are you from? | I'm from Bangladesh. Dhaka, actually. | তা, আপনি কোথা থেকে এসেছেন? / বাংলাদেশ থেকে। ঢাকা থেকেই।
+What do you do? | What do you do? | I'm a designer. I work at a small startup. | আপনি কী করেন? / আমি ডিজাইনার। ছোট একটা স্টার্টআপে কাজ করি।
+What should I call you? | What should I call you? | Just call me Jay. Everyone does. | আপনাকে কী বলে ডাকব? / শুধু জে বলবেন। সবাই তা-ই ডাকে।
+I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | ছুটির দিনে কী করেন? / পাহাড়ে হাঁটতে আমার দারুণ লাগে। প্রায় প্রতি শনিবারই যাই।
+I'm here on vacation. | Are you here for work? | No, I'm here on vacation. | আপনি কি কাজে এসেছেন? / না, ছুটি কাটাতে এসেছি।
+Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | মাফ করবেন, এটা কি টিকিটের লাইন? / জি, এটাই। লাইনের শেষ ওই দিকে।
+Thank you. | Here, let me get the door for you. | Oh, thank you! | দাঁড়ান, দরজাটা আমি ধরছি। / ও, ধন্যবাদ!
+Sorry? | Your total is twenty-three fifty. | Sorry? Could you say that again? | আপনার মোট বিল 23 ডলার 50 সেন্ট। / জি? আরেকবার বলবেন?
+Could you speak more slowly? | Take the B line to Central, then transfer to the red line and... | Sorry, could you speak more slowly? | বি লাইনে সেন্ট্রাল পর্যন্ত যান, তারপর রেড লাইনে উঠে… / দুঃখিত, একটু আস্তে আস্তে বলবেন?
+How do you say this in English? | How do you say this in English? | That's a whisk. | এটাকে ইংরেজিতে কী বলে? / ওটা whisk, ডিম ফেটানোর কাঁটা।
+Can you help me? | Excuse me, can you help me? I'm looking for this hotel. | Sure! It's just around the corner. | মাফ করবেন, একটু সাহায্য করবেন? আমি এই হোটেলটা খুঁজছি। / অবশ্যই! মোড় ঘুরলেই পাবেন।
+No, thank you. | Would you like a bag? | No, thank you. I have one. | ব্যাগ দেব? / না, ধন্যবাদ। আমার কাছে আছে।
+Where's the restroom? | Excuse me, where's the restroom? | It's down the hall, on the left. | মাফ করবেন, টয়লেট কোথায়? / করিডর ধরে সোজা গিয়ে বাঁ দিকে।
+Can I get the Wi-Fi password? | Can I get the Wi-Fi password? | Sure, it's on the back of your receipt. | ওয়াই-ফাই পাসওয়ার্ডটা পেতে পারি? / অবশ্যই, আপনার রসিদের পেছনে লেখা আছে।
+Could you take a picture of us? | Excuse me, could you take a picture of us? | Of course! Say cheese! | মাফ করবেন, আমাদের একটা ছবি তুলে দেবেন? / অবশ্যই! সবাই হাসুন!
+Can you write it down? | The address is 1428 Elm Street. | Sorry, can you write it down? | ঠিকানা হলো 1428 এলম স্ট্রিট। / দুঃখিত, একটু লিখে দেবেন?
+No worries. | Sorry I'm a little late! | No worries. I just got here, too. | সরি, একটু দেরি হয়ে গেল! / কোনো ব্যাপার না। আমিও মাত্র এলাম।
+How do I get to the subway station? | How do I get to the subway station? | Go straight two blocks and turn right. You can't miss it. | সাবওয়ে স্টেশনে কীভাবে যাব? / দুই ব্লক সোজা গিয়ে ডানে যান। সামনেই চোখে পড়বে।
+Is it within walking distance? | Is the museum within walking distance? | Yeah, it's about a ten-minute walk. | জাদুঘরে কি হেঁটে যাওয়া যাবে? / হ্যাঁ, হেঁটে মিনিট দশেক লাগে।
+Does this bus go to the airport? | Does this bus go to the airport? | No, you need the 42. It stops across the street. | এই বাস কি বিমানবন্দরে যায়? / না, আপনাকে 42 নম্বর বাসে উঠতে হবে। ওটা রাস্তার ওপারে থামে।
+Which stop should I get off at? | Which stop should I get off at for the museum? | Get off at Park Street. It's three stops from here. | জাদুঘরে যেতে কোন স্টপে নামতে হবে? / পার্ক স্ট্রিটে নামবেন। এখান থেকে তিন স্টপ।
+Can you take me to this address? | Can you take me to this address? | Sure. It'll take about twenty minutes. | আমাকে এই ঠিকানায় নিয়ে যাবেন? / অবশ্যই। মিনিট বিশেক লাগবে।
+How long does it take? | How long does it take to get downtown? | About fifteen minutes by subway. | শহরের কেন্দ্রে যেতে কতক্ষণ লাগে? / সাবওয়েতে প্রায় পনেরো মিনিট।
+Is this seat taken? | Excuse me, is this seat taken? | No, go ahead. | মাফ করবেন, এই সিটে কি কেউ আছে? / না, বসুন।
+A table for two, please. | Hi! How many? | A table for two, please. | হাই! কয়জন? / দুজনের জন্য একটা টেবিল দিন।
+What do you recommend? | What do you recommend? | The salmon is really popular. | আপনি কোনটা নিতে বলবেন? / স্যামন মাছটা খুব চলে।
+I'll have the steak. | Are you ready to order? | Yes, I'll have the steak, please. | অর্ডার দেবেন? / জি, আমি স্টেক নেব।
+Medium rare, please. | How would you like your steak? | Medium rare, please. | স্টেকটা কেমন করে দেব? / মিডিয়াম রেয়ার করে দিন।
+I'm allergic to peanuts. | Does this have nuts in it? I'm allergic to peanuts. | Let me check with the kitchen. | এতে কি বাদাম আছে? চিনাবাদামে আমার অ্যালার্জি। / রান্নাঘরে জিজ্ঞেস করে জানাচ্ছি।
+Everything was great. | How was everything? | Everything was great, thank you! | খাবার কেমন লাগল? / সবকিছু দারুণ ছিল, ধন্যবাদ!
+Can we get the check, please? | Can we get the check, please? | Sure, I'll be right back with it. | বিলটা দেবেন? / অবশ্যই, এখনই নিয়ে আসছি।
+It's on me. | Let's split it. | No, no. It's on me today. | চলো, ভাগ করে দিই। / না, না। আজ আমি খাওয়াচ্ছি।
+Can I get an iced Americano? | Hi, what can I get for you? | Can I get an iced Americano? | হাই, কী দেব আপনাকে? / একটা আইসড আমেরিকানো দেবেন?
+For here or to go? | For here or to go? | To go, please. | এখানে বসে খাবেন, না নিয়ে যাবেন? / নিয়ে যাব।
+Can I get a name for the order? | Can I get a name for the order? | It's Jay. J-A-Y. | অর্ডারটা কার নামে হবে? / জে। J-A-Y.
+That's it. | Anything else? | No, that's it. Thanks! | আর কিছু লাগবে? / না, এটুকুই। ধন্যবাদ!
+I'm just looking, thanks. | Can I help you find anything? | I'm just looking, thanks. | কিছু খুঁজে দেব? / শুধু দেখছি, ধন্যবাদ।
+Can I try this on? | Can I try this on? | Sure, the fitting rooms are in the back. | এটা পরে দেখতে পারি? / অবশ্যই, ট্রায়াল রুম পেছনের দিকে।
+I'll take it. | It fits perfectly! I'll take it. | Great! I can ring you up over here. | একদম মাপমতো হয়েছে! এটাই নেব। / চমৎকার! এদিকে আসুন, বিল করে দিচ্ছি।
+Cash or card? | Cash or card? | Card, please. | ক্যাশ, না কার্ড? / কার্ডে দেব।
+What time is it? | Excuse me, what time is it? | It's almost three. | মাফ করবেন, এখন কয়টা বাজে? / প্রায় তিনটা।
+Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | ত্রিশ ডলার হয়েছে। / দুঃখিত, তেরো, না ত্রিশ?
+How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | ছুটির দিনগুলো কেমন কাটল? / দারুণ! সমুদ্রের ধারে গিয়েছিলাম। আপনার কেমন কাটল?
+Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | ছুটির দিনে কোনো পরিকল্পনা আছে? / তেমন কিছু না। বাসায় বসে আরাম করব।
+Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | আজ আবহাওয়াটা সুন্দর, তাই না? / একদম! অবশেষে একটু রোদ উঠল।
+What do you do for fun? | What do you do for fun? | I play cricket and watch a lot of TV series. | অবসরে কী করতে ভালো লাগে? / আমি ক্রিকেট খেলি আর প্রচুর সিরিজ দেখি।
+Me neither. | I don't really like spicy food. | Me neither. | ঝাল খাবার আমার তেমন ভালো লাগে না। / আমারও না।
+It was nice talking to you. | Well, I should get going. It was nice talking to you. | You too! See you around. | আচ্ছা, এবার উঠি। আপনার সঙ্গে কথা বলে ভালো লাগল। / আমারও! আবার দেখা হবে।
+Congratulations! | I got the job! | Congratulations! I'm so happy for you! | চাকরিটা আমার হয়ে গেছে! / অভিনন্দন! তোমার জন্য খুব ভালো লাগছে!
+No way! | I saw my favorite cricketer at the airport yesterday. | No way! Did you get a picture? | কাল এয়ারপোর্টে আমার প্রিয় ক্রিকেটারকে দেখেছি। / কী বলো! ছবি তুলেছ?
+I'm sorry to hear that. | My grandma is in the hospital. | Oh, I'm sorry to hear that. I hope she feels better soon. | আমার দাদি হাসপাতালে। / আহা, শুনে খুব কষ্ট পেলাম। উনি যেন তাড়াতাড়ি সুস্থ হয়ে ওঠেন।
+It's not a big deal. | I'm so sorry I spilled your coffee! | It's not a big deal. Don't worry about it. | তোমার কফিটা ফেলে দিলাম, খুবই দুঃখিত! / এটা বড় কোনো ব্যাপার না। চিন্তা কোরো না।
+I love your shoes. | I love your shoes! Where did you get them? | Thanks! I got them in Dhaka. | তোমার জুতাটা খুব সুন্দর! কোথা থেকে কিনেছ? / ধন্যবাদ! ঢাকা থেকে কিনেছি।
+Do you want to grab coffee sometime? | Do you want to grab coffee sometime? | Sure, I'd love to! | কোনো একদিন একসঙ্গে কফি খাবে? / অবশ্যই, খুব ভালো লাগবে!
+You're a lifesaver! | I brought you an extra charger. | You're a lifesaver! Thank you! | তোমার জন্য বাড়তি একটা চার্জার এনেছি। / তুমি তো আমাকে বাঁচিয়ে দিলে! ধন্যবাদ!
+I'll get back to you. | Can you join the meeting on Thursday? | Let me check my schedule, and I'll get back to you. | বৃহস্পতিবারের মিটিংয়ে থাকতে পারবেন? / আমার সময়সূচিটা দেখে আপনাকে জানাচ্ছি।
+I'm running late. | Where are you? The meeting starts in five minutes. | Sorry, I'm running late. I'll be there in ten. | আপনি কোথায়? পাঁচ মিনিট পরে মিটিং শুরু। / দুঃখিত, আমার একটু দেরি হচ্ছে। দশ মিনিটে পৌঁছে যাব।
+Can we push the meeting to 3? | Can we push the meeting to 3? Something came up. | Sure, 3 works for me. | মিটিংটা পিছিয়ে 3টায় নেওয়া যায়? হঠাৎ একটা কাজ পড়ে গেছে। / অবশ্যই, 3টায় আমার অসুবিধা নেই।
+What's the deadline? | What's the deadline for the proposal? | End of the day Friday. | প্রস্তাবটা জমা দেওয়ার শেষ সময় কবে? / শুক্রবার অফিস শেষ হওয়ার আগে।
+Who's calling, please? | Hi, can I speak to Ms. Lee? | Sure. Who's calling, please? | হাই, মিস লি-র সঙ্গে কথা বলা যাবে? / অবশ্যই। কে বলছেন, প্লিজ?
+Sorry, you're breaking up. | Can you hear me now? | Sorry, you're breaking up. I'll call you back. | এখন শুনতে পাচ্ছেন? / দুঃখিত, আপনার কথা কেটে কেটে যাচ্ছে। আমি আবার ফোন দিচ্ছি।
+I'm on my way. | Are you almost here? | Yeah, I'm on my way! | প্রায় চলে এসেছ? / হ্যাঁ, রাস্তায় আছি, আসছি!
+I'm here for sightseeing. | What's the purpose of your visit? | I'm here for sightseeing. | আপনি কী উদ্দেশ্যে এসেছেন? / আমি বেড়াতে এসেছি।
+I'm staying for a week. | How long are you staying? | I'm staying for a week. | কত দিন থাকবেন? / আমি এক সপ্তাহ থাকব।
+Window or aisle? | Window or aisle? | Aisle, please. | জানালার পাশে, না হাঁটার পথের পাশে? / হাঁটার পথের পাশে দিন।
+I have a reservation under Khan. | Hi, are you checking in? | Yes, I have a reservation under Khan. | হাই, চেক-ইন করবেন? / জি, খান নামে আমার একটা বুকিং আছে।
+The air conditioner isn't working. | Front desk. How can I help you? | Hi, the air conditioner isn't working in room 512. | ফ্রন্ট ডেস্ক। কীভাবে সাহায্য করতে পারি? / হাই, 512 নম্বর রুমের এসি কাজ করছে না।
+My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I see your baggage tag? | আমার লাগেজ পাচ্ছি না। / এর জন্য দুঃখিত। আপনার লাগেজের ট্যাগটা দেখাবেন?
+I don't feel well. | Are you okay? You look pale. | I don't feel well. I think I need to sit down. | আপনি ঠিক আছেন? মুখটা ফ্যাকাশে লাগছে। / আমার শরীর ভালো লাগছে না। মনে হয় একটু বসতে হবে।
+I have a sore throat. | What seems to be the problem? | I have a sore throat and a slight fever. | কী সমস্যা হচ্ছে? / আমার গলা ব্যথা করছে, সঙ্গে হালকা জ্বর।
+I lost my wallet. | I lost my wallet. I think I left it on the bus. | Let's call the bus company's lost and found. | আমার মানিব্যাগ হারিয়ে গেছে। মনে হয় বাসে ফেলে এসেছি। / চলুন, বাস কোম্পানির হারানো জিনিসের বিভাগে ফোন করি।
+hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | এই ছুটির দিনে একসঙ্গে ঘুরবে? / অবশ্যই! চলো, একটা সিনেমা দেখি।
+pick up | Can you pick me up at the airport? | Of course. What time does your flight land? | এয়ারপোর্ট থেকে আমাকে নিয়ে আসতে পারবে? / অবশ্যই। তোমার ফ্লাইট কয়টায় নামবে?
+work out | You look great! Do you work out? | Yeah, I go to the gym three times a week. | তোমাকে দারুণ লাগছে! ব্যায়াম করো নাকি? / হ্যাঁ, সপ্তাহে তিন দিন জিমে যাই।
+It's not my cup of tea. | Do you want to go to the jazz concert? | Thanks, but honestly, it's not my cup of tea. | জ্যাজ কনসার্টে যাবে? / ধন্যবাদ, তবে সত্যি বলতে এটা ঠিক আমার পছন্দের জিনিস না।
+Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he comes. | আজ মার্ককে দেখেছ? / নাম নিতেই হাজির! ওই যে আসছে।
+I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | আজ রাতে পার্টিতে আসছ? / মনে হয় না। শরীরটা একটু ম্যাজম্যাজ করছে।
+Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | জেন আর মাইককে নিয়ে একটা অবিশ্বাস্য কথা শুনলাম। / দাঁড়াও, কী? কাহিনিটা খুলে বলো তো!
+No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | সিরিজটা শেষ করেছ? শেষে কিন্তু… / কাহিনি বলে দিয়ো না! আমি মাত্র 3 নম্বর পর্বে।
+Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | দলে তোমার সবচেয়ে প্রিয় কে? / অবশ্যই মূল গায়ক। তোমার?
 `;
 
 exports.EXAMPLES = `
-I'm a student. | I'm a student at Seoul National University. | 저는 서울대학교 학생이에요.
-I work in marketing. | I work in marketing at a game company. | 게임 회사에서 마케팅 일을 해요.
-I like watching movies. | I like watching movies on the weekends. | 주말에 영화 보는 걸 좋아해요.
-I've been learning English for a year. | I've been learning English for a year, but speaking is still hard. | 영어를 1년째 배우고 있는데 말하기는 아직 어려워요.
-Thanks a lot. | Thanks a lot for your help today. | 오늘 도와줘서 정말 고마워요.
-I speak a little English. | Sorry, I only speak a little English. | 죄송해요, 영어를 조금밖에 못 해요.
-What does this mean? | What does this word on the sign mean? | 표지판에 있는 이 단어는 무슨 뜻이에요?
-How much is this? | How much is this T-shirt? | 이 티셔츠 얼마예요?
-Can I pay by card? | Can I pay by card, or is it cash only? | 카드 되나요, 아니면 현금만 돼요?
-Just a second. | Just a second, I'm almost done. | 잠깐만, 거의 다 했어.
-I'm not sure. | I'm not sure, but I think it's on the second floor. | 잘 모르겠지만 2층인 것 같아요.
-It's next to the bank. | The café is next to the bank on Main Street. | 카페는 메인 스트리트에 있는 은행 옆에 있어요.
-Turn left at the corner. | Turn left at the corner, and you'll see the station. | 모퉁이에서 왼쪽으로 돌면 역이 보일 거예요.
-Where do I transfer? | Where do I transfer to get to Gangnam? | 강남 가려면 어디서 갈아타요?
-Can I get a Coke? | Can I get a Coke with no ice? | 얼음 없이 콜라 한 잔 주실래요?
-Is it spicy? | Is it spicy? I can't handle spicy food. | 매워요? 저 매운 걸 잘 못 먹어요.
-Can we split the bill? | Can we split the bill three ways? | 셋이서 나눠서 계산할 수 있을까요?
-Can I get this to go? | I can't finish this. Can I get this to go? | 다 못 먹겠어요. 이거 포장돼요?
-Less ice, please. | Can I get a large iced latte? Less ice, please. | 아이스 라테 큰 사이즈로 주세요. 얼음은 적게요.
-Can I get a receipt? | Can I get a receipt? It's for work. | 영수증 주시겠어요? 회사에 제출해야 해서요.
-Is this on sale? | Is this jacket on sale? | 이 재킷 세일해요?
-I'd like to exchange this. | I'd like to exchange this for a smaller size. | 이거 더 작은 사이즈로 교환하고 싶어요.
-It's a bit tight. | These jeans are a bit tight. | 이 청바지 조금 껴요.
-It's three thirty. | It's three thirty. We have half an hour left. | 3시 반이에요. 30분 남았어요.
-My birthday is in October. | My birthday is in October, so I'm a Libra. | 제 생일은 10월이라 천칭자리예요.
-In ten minutes | The train leaves in ten minutes. | 기차가 10분 후에 출발해요.
-Twice a week | I go to the gym twice a week. | 일주일에 두 번 헬스장에 가요.
-It was pretty relaxing. | It was pretty relaxing. I just read and slept. | 꽤 여유로웠어요. 책 읽고 잠만 잤어요.
-Have you been to Korea? | Have you been to Korea? You should try the street food. | 한국 가 본 적 있어요? 길거리 음식 꼭 먹어 봐요.
-By the way | By the way, did you see the game last night? | 그나저나 어젯밤 경기 봤어요?
-I'm bored. | I'm bored. Do you want to go for a walk? | 심심해. 산책 갈래?
-I'm nervous. | I'm nervous about my job interview tomorrow. | 내일 면접 때문에 긴장돼요.
-I can't wait! | We're going to Hawaii next week. I can't wait! | 다음 주에 하와이 가요. 너무 기대돼요!
-That color looks good on you. | That color looks good on you. You should wear it more often. | 그 색 잘 어울려요. 더 자주 입어요.
-You made my day! | Thanks for the cookies. You made my day! | 쿠키 고마워요. 덕분에 하루가 행복해졌어요!
-Let me know if you have any questions. | I've attached the slides. Let me know if you have any questions. | 슬라이드를 첨부했어요. 궁금한 점 있으면 말씀해 주세요.
-Could you send me the file by Friday? | Could you send me the file by Friday? I need it for the presentation. | 금요일까지 파일 보내 주실 수 있나요? 발표에 필요해서요.
-Let's touch base next week. | Let's touch base next week and see how things are going. | 다음 주에 잠깐 얘기 나누면서 진행 상황을 봐요.
-I'm working from home today. | I'm working from home today, so let's meet on Zoom. | 오늘 재택근무라 줌으로 만나요.
-Can I call you back? | I'm driving right now. Can I call you back? | 지금 운전 중이라서요. 다시 전화드려도 될까요?
-Is breakfast included? | Is breakfast included, or is it extra? | 조식 포함이에요, 아니면 추가 요금이 있나요?
-My flight was delayed. | My flight was delayed by three hours. | 비행기가 세 시간 지연됐어요.
-I have a headache. | I have a headache. Do you have any painkillers? | 머리가 아파요. 진통제 있어요?
-figure out | I can't figure out how to use this machine. | 이 기계를 어떻게 쓰는지 모르겠어요.
-run out of | We ran out of coffee, so I'm going to the store. | 커피가 다 떨어져서 가게에 다녀올게요.
-look forward to | I'm looking forward to seeing you next week. | 다음 주에 만나기를 기대하고 있어요.
-put off | Stop putting off your homework! | 숙제 좀 그만 미뤄!
-get along with | I get along with my roommate really well. | 룸메이트랑 정말 잘 지내요.
-It costs an arm and a leg. | Living in New York costs an arm and a leg. | 뉴욕에서 사는 건 돈이 엄청 들어요.
-Once in a blue moon | I only drink soda once in a blue moon. | 탄산음료는 아주 가끔만 마셔요.
-Low-key | I low-key want to dye my hair pink. | 나 은근히 머리를 핑크로 염색하고 싶어.
-I binge-watched the whole season. | I binge-watched the whole season in one weekend. | 주말 동안 시즌 전체를 정주행했어.
-rice | I had rice and kimchi for lunch. | 점심으로 밥이랑 김치 먹었어요.
-think | I think so, too. | 저도 그렇게 생각해요.
+I'm a student. | I'm a student at a university in Dhaka. | আমি ঢাকার একটা বিশ্ববিদ্যালয়ে পড়ি।
+I work in marketing. | I work in marketing at a game company. | আমি একটা গেম কোম্পানির মার্কেটিংয়ে কাজ করি।
+I like watching movies. | I like watching movies on the weekends. | ছুটির দিনে আমি সিনেমা দেখতে পছন্দ করি।
+I've been learning English for a year. | I've been learning English for a year, but speaking is still hard. | আমি এক বছর ধরে ইংরেজি শিখছি, কিন্তু বলতে এখনো কষ্ট হয়।
+Thanks a lot. | Thanks a lot for your help today. | আজ সাহায্য করার জন্য অনেক ধন্যবাদ।
+I speak a little English. | Sorry, I only speak a little English. | দুঃখিত, আমি অল্পই ইংরেজি বলতে পারি।
+What does this mean? | What does this word on the sign mean? | সাইনবোর্ডের এই শব্দটার মানে কী?
+How much is this? | How much is this T-shirt? | এই টি-শার্টের দাম কত?
+Can I pay by card? | Can I pay by card, or is it cash only? | কার্ডে দেওয়া যাবে, নাকি শুধু ক্যাশ?
+Just a second. | Just a second, I'm almost done. | এক সেকেন্ড, প্রায় হয়ে গেছে।
+I'm not sure. | I'm not sure, but I think it's on the second floor. | ঠিক জানি না, তবে মনে হয় দোতলায়।
+It's next to the bank. | The café is next to the bank on Main Street. | ক্যাফেটা মেইন স্ট্রিটে, ব্যাংকের পাশে।
+Turn left at the corner. | Turn left at the corner, and you'll see the station. | মোড়ে গিয়ে বাঁয়ে গেলেই স্টেশনটা দেখতে পাবেন।
+Where do I transfer? | Where do I transfer to get to the airport? | বিমানবন্দরে যেতে কোথায় লাইন বদলাতে হবে?
+Can I get a Coke? | Can I get a Coke with no ice? | বরফ ছাড়া একটা কোক দেবেন?
+Is it spicy? | Is it spicy? I can't handle spicy food. | এটা কি ঝাল? আমি ঝাল খেতে পারি না।
+Can we split the bill? | Can we split the bill three ways? | বিলটা তিন ভাগ করে দেওয়া যাবে?
+Can I get this to go? | I can't finish this. Can I get this to go? | এটা শেষ করতে পারছি না। পার্সেল করে দেবেন?
+Less ice, please. | Can I get a large iced latte? Less ice, please. | একটা বড় আইসড লাতে দেবেন? বরফ কম দিন।
+Can I get a receipt? | Can I get a receipt? It's for work. | রসিদটা দেবেন? অফিসে জমা দিতে হবে।
+Is this on sale? | Is this jacket on sale? | এই জ্যাকেটে কি ছাড় চলছে?
+I'd like to exchange this. | I'd like to exchange this for a smaller size. | এটা বদলে আরেকটু ছোট সাইজ নিতে চাই।
+It's a bit tight. | These jeans are a bit tight. | এই জিন্সটা একটু আঁটসাঁট।
+It's three thirty. | It's three thirty. We have half an hour left. | সাড়ে তিনটা বাজে। আমাদের হাতে আর আধঘণ্টা আছে।
+My birthday is in October. | My birthday is in October, so I'm a Libra. | আমার জন্মদিন অক্টোবরে, তাই আমার রাশি তুলা।
+In ten minutes | The train leaves in ten minutes. | ট্রেন দশ মিনিট পরে ছাড়বে।
+Twice a week | I go to the gym twice a week. | আমি সপ্তাহে দুইবার জিমে যাই।
+It was pretty relaxing. | It was pretty relaxing. I just read and slept. | বেশ আরামে কেটেছে। শুধু বই পড়েছি আর ঘুমিয়েছি।
+Have you been to Bangladesh? | Have you been to Bangladesh? You should try the street food. | আপনি কি কখনো বাংলাদেশে গিয়েছেন? ওখানকার রাস্তার খাবার একবার খেয়ে দেখবেন।
+By the way | By the way, did you see the game last night? | ভালো কথা, কাল রাতের খেলাটা দেখেছ?
+I'm bored. | I'm bored. Do you want to go for a walk? | একঘেয়ে লাগছে। একটু হাঁটতে যাবে?
+I'm nervous. | I'm nervous about my job interview tomorrow. | কালকের চাকরির ইন্টারভিউ নিয়ে নার্ভাস লাগছে।
+I can't wait! | We're going to Cox's Bazar next week. I can't wait! | আগামী সপ্তাহে আমরা কক্সবাজার যাচ্ছি। আর তর সইছে না!
+That color looks good on you. | That color looks good on you. You should wear it more often. | রংটা তোমাকে মানিয়েছে। এটা আরও বেশি বেশি পরা উচিত।
+You made my day! | Thanks for the cookies. You made my day! | কুকিগুলোর জন্য ধন্যবাদ। তুমি আমার দিনটাই ভালো করে দিলে!
+Let me know if you have any questions. | I've attached the slides. Let me know if you have any questions. | স্লাইডগুলো সংযুক্ত করে দিলাম। কোনো প্রশ্ন থাকলে জানাবেন।
+Could you send me the file by Friday? | Could you send me the file by Friday? I need it for the presentation. | শুক্রবারের মধ্যে ফাইলটা পাঠাতে পারবেন? প্রেজেন্টেশনের জন্য লাগবে।
+Let's touch base next week. | Let's touch base next week and see how things are going. | আগামী সপ্তাহে একটু কথা বলে দেখি কাজ কত দূর এগোল।
+I'm working from home today. | I'm working from home today, so let's meet on Zoom. | আজ বাসা থেকে কাজ করছি, তাই চলুন জুমে বসি।
+Can I call you back? | I'm driving right now. Can I call you back? | এখন গাড়ি চালাচ্ছি। একটু পরে ফোন দিতে পারি?
+Is breakfast included? | Is breakfast included, or is it extra? | সকালের নাশতা কি ভাড়ার মধ্যে ধরা, নাকি আলাদা টাকা লাগবে?
+My flight was delayed. | My flight was delayed by three hours. | আমার ফ্লাইট তিন ঘণ্টা দেরি করেছে।
+I have a headache. | I have a headache. Do you have any painkillers? | আমার মাথা ব্যথা করছে। ব্যথার কোনো ওষুধ আছে?
+figure out | I can't figure out how to use this machine. | এই মেশিনটা কীভাবে চালাতে হয় বুঝে উঠতে পারছি না।
+run out of | We ran out of coffee, so I'm going to the store. | কফি ফুরিয়ে গেছে, তাই দোকানে যাচ্ছি।
+look forward to | I'm looking forward to seeing you next week. | আগামী সপ্তাহে তোমার সঙ্গে দেখা হবে, সেই অপেক্ষায় আছি।
+put off | Stop putting off your homework! | বাড়ির কাজ আর ফেলে রেখো না!
+get along with | I get along with my roommate really well. | রুমমেটের সঙ্গে আমার খুব ভালো বনিবনা।
+It costs an arm and a leg. | Living in New York costs an arm and a leg. | নিউইয়র্কে থাকার খরচ আকাশছোঁয়া।
+Once in a blue moon | I only drink soda once in a blue moon. | আমি কোমল পানীয় খাই কালেভদ্রে।
+Low-key | I low-key want to dye my hair pink. | ভেতরে ভেতরে আমার চুল গোলাপি রং করার ইচ্ছা আছে।
+I binge-watched the whole season. | I binge-watched the whole season in one weekend. | এক ছুটিতেই পুরো সিজন এক টানা দেখে ফেলেছি।
+rice | I had rice and dal for lunch. | দুপুরে ডাল-ভাত খেয়েছি।
+think | I think so, too. | আমারও তা-ই মনে হয়।
 `;
 
-/* pattern | 설명 | example | lesson id */
+/* pattern | ব্যাখ্যা | example | lesson id */
 exports.PATTERNS = `
-Could you ~? | 공손한 부탁 "~해 주시겠어요?" Can you보다 부드러워요 | Could you help me with this? | polite
-Would you mind ~ing? | 아주 공손한 부탁 "~해도 괜찮을까요?" 대답 No는 "괜찮아요, 해 드릴게요" | Would you mind closing the window? | polite
-Can I get ~? | 가게·식당에서 "~ 주세요" (미국 구어에서 가장 흔함) | Can I get a large latte? | polite
-I'd like ~ | want의 공손한 버전 "~로 하고 싶어요 / ~ 주세요" | I'd like a window seat, please. | polite
-a / an + 명사 | 처음 말하는 셀 수 있는 것 하나. 모음 '소리' 앞엔 an | I have an idea. | articles
-the + 명사 | 서로 알고 있는 바로 그것 | Can you open the door? | articles
-I am / You are / She is | be동사: "~이다 / ~에 있다 / ~한 상태다" | She is a nurse. | be
-Do you ~? / Does he ~? | 일반동사 의문문. 3인칭 단수는 does | Does he live here? | be
-don't / doesn't + 동사원형 | 일반동사 부정문 | I don't eat meat. | be
-3인칭 단수 + 동사-s | he·she·it 뒤 현재형 동사엔 -s | My sister works at a hospital. | be
-be + ~ing | 지금 하고 있는 일 / 정해 둔 가까운 미래 | I'm meeting Jake tonight. | tense
-동사-ed / 불규칙 과거 | 이미 끝난 일 (went, ate, saw…) | I went to Busan last week. | tense
-will + 동사원형 | 말하는 순간 정한 일 / 약속 / 예측 | I'll call you later. | tense
-be going to + 동사원형 | 미리 계획해 둔 일 | I'm going to visit my parents this weekend. | tense
-Have you ever ~? | 경험 묻기 "~해 본 적 있어요?" | Have you ever tried kimchi? | tense
-in + 월·연도·계절 | 넓은 시간 범위 | My birthday is in June. | prep
-on + 요일·날짜 | 하루 단위 | The party is on Saturday. | prep
-at + 시각·지점 | 정확한 시각이나 한 지점 | Let's meet at 7 at the station. | prep
-How about ~ing? | 제안 "~하는 건 어때요?" | How about getting lunch together? | smalltalk
-So do I / Neither do I | 맞장구 "저도요" (긍정 / 부정). 캐주얼하게는 Me too / Me neither | I love this song. / So do I. | smalltalk
-동사 + it + 부사 | 구동사의 목적어가 대명사면 가운데에 | Can you turn it down? | phrasal
-look forward to + ~ing | to가 전치사라서 뒤에 ~ing | I'm looking forward to hearing from you. | phrasal
-It's + 시각 | 시간 말하기. 시와 분을 그대로 읽어요 | It's ten fifteen. | numbers
-I'm writing to ~ | 이메일 첫 문장에서 목적 밝히기 | I'm writing to confirm our meeting. | email
-Let me know if ~ | "~하면 알려 주세요" 이메일 마무리 | Let me know if you need anything else. | email
+Could you ~? | ভদ্র অনুরোধ: "… করবেন?" Can you-র চেয়ে নরম। | Could you help me with this? | polite
+Would you mind ~ing? | খুব ভদ্র অনুরোধ: "… করলে কি অসুবিধা হবে?" উত্তরে No মানে "অসুবিধা নেই, করছি"। | Would you mind closing the window? | polite
+Can I get ~? | দোকানে বা রেস্টুরেন্টে "… দেবেন?" আমেরিকায় মুখের কথায় সবচেয়ে চলতি। | Can I get a large latte? | polite
+I'd like ~ | want-এর ভদ্র রূপ: "আমি … নিতে চাই"। | I'd like a window seat, please. | polite
+a / an + বিশেষ্য | প্রথমবার বলা, গোনা যায় এমন একটা জিনিস। স্বরধ্বনির আগে an। বাংলায় "একটা" বাদ গেলেও ইংরেজিতে a / an বাদ যায় না। | I have an idea. | articles
+the + বিশেষ্য | দুজনেই জানেন কোনটার কথা হচ্ছে; বাংলার -টা / -টি-র কাছাকাছি। | Can you open the door? | articles
+I am / You are / She is | be ক্রিয়া: "… হই", "… আছি", "… অবস্থায় আছি"। বাংলায় "আমি ছাত্র"-তে ক্রিয়া লাগে না, ইংরেজিতে লাগে। | She is a nurse. | be
+Do you ~? / Does he ~? | be ছাড়া অন্য ক্রিয়ার প্রশ্ন। he / she / it-এর সঙ্গে does, আর তখন ক্রিয়ায় -s বসে না। | Does he live here? | be
+don't / doesn't + মূল রূপ | be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্য। | I don't eat meat. | be
+he / she / it + ক্রিয়া-s | Present Simple-এ he / she / it-এর সঙ্গে ক্রিয়ায় -s বসে। | My sister works at a hospital. | be
+be + ~ing | এই মুহূর্তে চলছে এমন কাজ, বা ঠিক করে রাখা নিকট ভবিষ্যৎ। | I'm meeting Jake tonight. | tense
+ক্রিয়া-ed / অনিয়মিত past রূপ | শেষ হয়ে যাওয়া কাজ (went, ate, saw…)। | I went to Sylhet last week. | tense
+will + মূল রূপ | কথা বলার মুহূর্তে নেওয়া সিদ্ধান্ত, প্রতিশ্রুতি বা অনুমান। | I'll call you later. | tense
+be going to + মূল রূপ | আগে থেকে ঠিক করা পরিকল্পনা। | I'm going to visit my parents this weekend. | tense
+Have you ever ~? | অভিজ্ঞতা জিজ্ঞেস করা: "কখনো … করেছেন?" | Have you ever tried biryani? | tense
+in + মাস / বছর / ঋতু | সময়ের বড় পরিসর। | My birthday is in June. | prep
+on + বার / তারিখ | নির্দিষ্ট একটা দিন। | The party is on Saturday. | prep
+at + ঘড়ির সময় / নির্দিষ্ট জায়গা | ঠিক একটা সময় বা একটা বিন্দু। | Let's meet at 7 at the station. | prep
+How about ~ing? | প্রস্তাব: "… করলে কেমন হয়?" | How about getting lunch together? | smalltalk
+So do I / Neither do I | সায় দেওয়া: "আমিও" (হ্যাঁ-বাচক / না-বাচক)। ঘরোয়াভাবে Me too / Me neither. | I love this song. / So do I. | smalltalk
+ক্রিয়া + it + ছোট শব্দ | ফ্রেজাল ভার্বের কর্ম (object) সর্বনাম হলে মাঝখানে বসে। | Can you turn it down? | phrasal
+look forward to + ~ing | এখানে to একটা preposition, তাই পরে -ing রূপ বসে। | I'm looking forward to hearing from you. | phrasal
+It's + ঘড়ির সময় | সময় বলা: ঘণ্টা আর মিনিট পরপর পড়ুন। | It's ten fifteen. | numbers
+I'm writing to ~ | ইমেইলের প্রথম বাক্যে উদ্দেশ্য জানানো। | I'm writing to confirm our meeting. | email
+Let me know if ~ | ইমেইলের শেষে: "… হলে জানাবেন"। | Let me know if you need anything else. | email
 `;
 
 exports.PAUSE = {
 compliment: `
-You're amazing | 정말 대단해요
-You nailed it | 완벽하게 해냈어요
-You're a natural | 타고났네요
-Looking sharp! | 오늘 멋지네요!
-You're so thoughtful | 정말 사려 깊어요
-You have a great sense of humor | 유머 감각이 최고예요
-You're one of a kind | 당신 같은 사람은 없어요
-You light up the room | 당신이 있으면 분위기가 환해져요
-I admire you | 당신을 존경해요
-You inspire me | 당신 덕분에 자극받아요
-You're really talented | 정말 재능 있어요
-You're a great listener | 이야기를 정말 잘 들어 줘요
-You've got this | 넌 할 수 있어
-That's brilliant | 기가 막힌 생각이에요
-You're so easy to talk to | 당신이랑은 대화가 정말 편해요
-You always know what to say | 당신은 늘 딱 맞는 말을 해 줘요
-You're a good friend | 넌 정말 좋은 친구야
-Your hard work shows | 노력한 게 다 보여요
-You're glowing | 얼굴이 환하게 빛나요
-Well said | 정말 좋은 말이에요
+You're amazing | আপনি অসাধারণ
+You nailed it | একদম ফাটিয়ে দিয়েছ
+You're a natural | এটা তোমার সহজাত গুণ
+Looking sharp! | আজ তো দারুণ লাগছে!
+You're so thoughtful | তুমি অন্যের কথা খুব ভাবো
+You have a great sense of humor | তোমার রসবোধ দারুণ
+You're one of a kind | তোমার মতো আর কেউ নেই
+You light up the room | তুমি এলে আসর জমে ওঠে
+I admire you | আমি আপনাকে শ্রদ্ধা করি
+You inspire me | তোমাকে দেখে আমি প্রেরণা পাই
+You're really talented | তুমি সত্যিই প্রতিভাবান
+You're a great listener | তুমি খুব মন দিয়ে কথা শোনো
+You've got this | তুমি পারবে
+That's brilliant | দারুণ বুদ্ধি
+You're so easy to talk to | তোমার সঙ্গে খুব সহজে কথা বলা যায়
+You always know what to say | কখন কী বলতে হয়, তুমি ঠিক জানো
+You're a good friend | তুমি খুব ভালো বন্ধু
+Your hard work shows | তোমার পরিশ্রমটা বোঝা যাচ্ছে
+You're glowing | তোমার চেহারায় খুশির আভা
+Well said | চমৎকার বলেছেন
 `,
 expression: `
-Sounds good | 좋아요
-Fair enough | 그럴 만하네요 / 일리 있어요
-Makes sense | 말 되네요 / 이해돼요
-Got it | 알겠어요
-I see | 그렇군요
-No kidding | 정말? / 그러게 말이야
-Good point | 좋은 지적이에요
-Exactly | 바로 그거예요
-Totally | 완전 / 전적으로
-Never mind | 아니에요, 신경 쓰지 마요
-My bad | 내 잘못이야
-It depends | 상황에 따라 달라요
-Whatever works | 편한 대로 해요
-Let me think | 생각 좀 해 볼게요
-Here we go | 자, 시작이다
-Hang on | 잠깐만
-Fingers crossed | 잘되길 빌어요
-You bet | 물론이지
-Count me in | 나도 낄게
-Sort of | 어느 정도는 / 약간
+Sounds good | ঠিক আছে, ভালোই তো
+Fair enough | তা ঠিক / মানলাম
+Makes sense | হ্যাঁ, যুক্তি আছে
+Got it | বুঝেছি
+I see | ও আচ্ছা
+No kidding | সত্যি? / তা আর বলতে!
+Good point | কথাটা ঠিক বলেছ
+Exactly | একদম তা-ই
+Totally | পুরোপুরি একমত
+Never mind | থাক, বাদ দাও
+My bad | ভুলটা আমার
+It depends | সেটা পরিস্থিতির ওপর নির্ভর করে
+Whatever works | যেভাবে সুবিধা হয়
+Let me think | একটু ভেবে দেখি
+Here we go | এই শুরু হলো
+Hang on | একটু দাঁড়াও
+Fingers crossed | দোয়া করি যেন হয়
+You bet | অবশ্যই!
+Count me in | আমিও আছি
+Sort of | অনেকটা তা-ই / একটু একটু
 `,
 polite: `
-Please | 부탁해요 / ~해 주세요
-Thank you so much | 정말 감사합니다
-Pardon me | 실례합니다
-Go ahead | 먼저 하세요 / 그러세요
-May I come in? | 들어가도 될까요?
-Sorry to bother you | 귀찮게 해서 죄송해요
-I appreciate it | 감사하게 생각해요
-Bless you | (재채기한 사람에게) 몸조심하세요
-Have a nice day | 좋은 하루 보내세요
-Nice to see you | 만나서 반가워요 (아는 사이)
-If you don't mind | 괜찮으시다면
-Would you like some? | 좀 드실래요?
-Help yourself | 마음껏 드세요
-It's my pleasure | 제가 더 기쁘죠
-Sorry I'm late | 늦어서 죄송해요
-Thank you for your time | 시간 내 주셔서 감사합니다
-I beg your pardon? | 뭐라고 하셨죠? (정중하게)
-Don't mention it | 별말씀을요
-Cheers | 고마워요 (영국식) / 건배
-Excuse me, coming through | 실례합니다, 좀 지나갈게요
+Please | প্লিজ / দয়া করে
+Thank you so much | অসংখ্য ধন্যবাদ
+Pardon me | মাফ করবেন
+Go ahead | জি, করুন / বলুন
+May I come in? | ভেতরে আসতে পারি?
+Sorry to bother you | বিরক্ত করার জন্য দুঃখিত
+I appreciate it | আমি সত্যিই কৃতজ্ঞ
+Bless you | (কেউ হাঁচি দিলে বলা হয়) সুস্থ থাকুন
+Have a nice day | দিনটা ভালো কাটুক
+Nice to see you | দেখা হয়ে ভালো লাগল (চেনা কাউকে)
+If you don't mind | আপনার আপত্তি না থাকলে
+Would you like some? | একটু নেবেন?
+Help yourself | নিজে নিয়ে খান, সংকোচ করবেন না
+It's my pleasure | এ তো আমারই আনন্দ
+Sorry I'm late | দেরি করার জন্য দুঃখিত
+Thank you for your time | সময় দেওয়ার জন্য ধন্যবাদ
+I beg your pardon? | মাফ করবেন, কী বললেন? (খুব ভদ্রভাবে)
+Don't mention it | ও কিছু না, বলতে হবে না
+Cheers | ধন্যবাদ (ব্রিটিশ কথ্য ভাষায়)
+Excuse me, coming through | মাফ করবেন, একটু যেতে দিন
 `,
 saying: `
-Practice makes perfect | 연습이 완벽을 만든다
-Where there's a will, there's a way | 뜻이 있는 곳에 길이 있다
-Rome wasn't built in a day | 로마는 하루아침에 이루어지지 않았다
-Time is money | 시간은 금이다
-Better safe than sorry | 나중에 후회하는 것보다 조심하는 게 낫다
-Two heads are better than one | 백지장도 맞들면 낫다
-Don't judge a book by its cover | 겉모습만 보고 판단하지 마라
-When in Rome, do as the Romans do | 로마에 가면 로마법을 따르라
-Slow and steady wins the race | 천천히 꾸준히 하는 사람이 이긴다
-Knowledge is power | 아는 것이 힘이다
-Honesty is the best policy | 정직이 최선의 방책이다
-Seeing is believing | 백문이 불여일견
-Out of sight, out of mind | 눈에서 멀어지면 마음도 멀어진다
-Laughter is the best medicine | 웃음이 최고의 약이다
-Live and learn | 살면서 배운다
-A friend in need is a friend indeed | 어려울 때 친구가 진짜 친구다
-It's never too late to learn | 배우기에 늦은 때란 없다
-Every expert was once a beginner | 모든 전문가도 한때는 초보였다
-Stay hungry, stay foolish | 늘 갈망하고, 우직하게 나아가라
-Small steps every day | 매일 조금씩
+Practice makes perfect | গাইতে গাইতে গায়েন
+Where there's a will, there's a way | ইচ্ছা থাকলে উপায় হয়
+Rome wasn't built in a day | রোম এক দিনে গড়ে ওঠেনি
+Time is money | সময়ই অর্থ
+Better safe than sorry | পরে পস্তানোর চেয়ে আগে সাবধান হওয়া ভালো
+Two heads are better than one | একজনের চেয়ে দুজনের বুদ্ধি ভালো
+Don't judge a book by its cover | মলাট দেখে বই বিচার কোরো না
+When in Rome, do as the Romans do | যস্মিন দেশে যদাচার
+Slow and steady wins the race | ধীরে, কিন্তু লেগে থাকলে জয় হয়
+Knowledge is power | জ্ঞানই শক্তি
+Honesty is the best policy | সততাই সর্বোৎকৃষ্ট পন্থা
+Seeing is believing | নিজের চোখে দেখলেই বিশ্বাস হয়
+Out of sight, out of mind | চোখের আড়াল হলেই মনের আড়াল
+Laughter is the best medicine | হাসিই সেরা ওষুধ
+Live and learn | মানুষ ঠেকে শেখে
+A friend in need is a friend indeed | বিপদের বন্ধুই প্রকৃত বন্ধু
+It's never too late to learn | শেখার কোনো বয়স নেই
+Every expert was once a beginner | সব ওস্তাদই একদিন নতুন ছিলেন
+Stay hungry, stay foolish | জানার ক্ষুধা রাখো, বোকা হতে ভয় পেয়ো না
+Small steps every day | প্রতিদিন একটু একটু করে
 `
 };
 
-/* idiom | 뜻 | 발음 | 설명 */
+/* idiom | অর্থ | উচ্চারণ | ব্যাখ্যা */
 exports.IDIOMS = `
-Break a leg | 행운을 빌어! | 브레이크 어 레그 | 공연·시험·면접 전에 하는 응원. "Good luck"을 대신해요
-Bite the bullet | 이를 악물고 하다 | 바잇 더 불릿 | 싫지만 피할 수 없는 일을 결심하고 할 때
-Cut corners | 대충 하다 / 절차를 건너뛰다 | 컷 코너즈 | 돈·시간을 아끼려고 해야 할 일을 빼먹을 때 (부정적)
-Hit the sack | 자러 가다 | 힛 더 쌕 | 캐주얼한 표현: "I'm tired. I'm going to hit the sack."
-Let the cat out of the bag | 비밀을 누설하다 | 렛 더 캣 아웃 오브 더 백 | 깜짝 파티 계획을 실수로 말해 버렸을 때
-Kill two birds with one stone | 일석이조 | 킬 투 버즈 위드 원 스톤 | 한 번에 두 가지를 해결할 때
-Burn the midnight oil | 밤늦게까지 일하다·공부하다 | 번 더 미드나잇 오일 | 시험 기간·마감 전에
-The best of both worlds | 두 마리 토끼를 다 잡은 상황 | 더 베스트 오브 보스 월즈 | 두 가지 장점을 모두 누릴 때
-A blessing in disguise | 전화위복 | 어 블레싱 인 디스가이즈 | 처음엔 나빠 보였는데 결국 좋은 일이 된 것
-Every cloud has a silver lining | 괴로움 속에도 희망은 있다 | 에브리 클라우드 해즈 어 실버 라이닝 | 힘든 일을 겪는 사람을 위로할 때
-Get cold feet | 막판에 겁먹다 | 겟 콜드 핏 | 결혼식·큰 결정 직전에 망설일 때
-Hit the nail on the head | 정곡을 찌르다 | 힛 더 네일 온 더 헤드 | 딱 맞는 말을 했을 때
-In the same boat | 같은 처지인 | 인 더 쎄임 보웃 | 함께 어려움을 겪는 사람을 위로할 때: "Don't worry, we're all in the same boat."
-Miss the boat | 기회를 놓치다 | 미스 더 보웃 | 좋은 기회가 지나가 버렸을 때
-No pain, no gain | 고생 없이 얻는 것도 없다 | 노 페인, 노 게인 | 운동·공부할 때 자주 하는 말
-On the fence | 결정을 못 하고 망설이는 | 온 더 펜스 | 담장 위에서 어느 쪽으로도 못 내려오는 모습: "I'm still on the fence about the job offer."
-Pull someone's leg | 놀리다 / 농담하다 | 풀 썸원즈 레그 | 장난으로 거짓말할 때: "Relax, I'm just pulling your leg!"
-Sit tight | 가만히 기다리다 | 씻 타잇 | 결과가 나올 때까지 기다리라는 뜻
-The last straw | 더는 못 참게 만든 마지막 일 | 더 래스트 스트로 | 참고 참다가 결국 폭발하게 만든 일
-Throw in the towel | 포기하다 / 손들다 | 쓰로우 인 더 타월 | 권투에서 수건을 던져 패배를 인정하는 데서 왔어요
-Actions speak louder than words | 말보다 행동이 중요하다 | 액션즈 스픽 라우더 댄 워즈 | 말만 하지 말고 보여 주라는 뜻
-Easier said than done | 말이야 쉽지 | 이지어 쎄드 댄 던 | 실제로 하기는 어렵다는 뜻
-Go the extra mile | 기대 이상으로 노력하다 | 고 디 엑스트라 마일 | 칭찬할 때 자주 써요: "She always goes the extra mile."
-Get out of hand | 걷잡을 수 없게 되다 | 게라우로브 핸드 | 상황이 통제를 벗어났을 때
-Take a rain check | 다음 기회로 미루다 | 테이커 레인 첵 | 초대를 거절할 때 부드럽게: "Can I take a rain check?"
-The early bird catches the worm | 일찍 일어나는 새가 벌레를 잡는다 | 디 얼리 버드 캐치즈 더 웜 | 부지런한 사람이 기회를 잡는다
+Break a leg | শুভকামনা! দারুণ করো! | ˈব্রেইক আ ˈলেগ | অনুষ্ঠান, পরীক্ষা বা ইন্টারভিউয়ের আগে Good luck-এর বদলে বলা হয়। আক্ষরিক অর্থ "পা ভাঙো", কিন্তু মানে ঠিক উল্টো।
+Bite the bullet | দাঁতে দাঁত চেপে কাজটা করে ফেলা | ˈবাইট দ়া ˈবুলিট | অপছন্দের কিন্তু এড়ানো যায় না এমন কাজ মন শক্ত করে করার সময়।
+Cut corners | ফাঁকি দিয়ে কাজ সারা | ˈকাট ˈকর্নার্জ় | টাকা বা সময় বাঁচাতে দরকারি ধাপ বাদ দেওয়া; খারাপ অর্থে বলা হয়।
+Hit the sack | ঘুমাতে যাওয়া | ˈহিট দ়া ˈস্যাক | ঘরোয়া কথা: I'm tired. I'm going to hit the sack.
+Let the cat out of the bag | গোপন কথা ফাঁস করে ফেলা | ˈলেট দ়া ˈক্যাট ˈআউট আভ় দ়া ˈব্যাগ | যেমন সারপ্রাইজ পার্টির কথা ভুল করে বলে ফেললে।
+Kill two birds with one stone | এক ঢিলে দুই পাখি মারা | ˈকিল ˈটূ ˈবার্ড্জ় ওয়িদ় ˈওয়ান ˈস্টৌন | এক কাজে দুই উদ্দেশ্য পূরণ হলে। বাংলার প্রবাদটার সঙ্গে হুবহু মেলে।
+Burn the midnight oil | রাত জেগে কাজ করা বা পড়া | ˈবার্ন দ়া ˈমিড্নাইট ˈঅইল | পরীক্ষার সময় বা ডেডলাইনের আগে।
+The best of both worlds | দুই দিকের সুবিধাই পাওয়া | দ়া ˈবেস্ট আভ় ˈবৌথ় ˈওয়ার্ল্ড্জ় | দুটো ভালো জিনিস একসঙ্গে পেলে।
+A blessing in disguise | শাপে বর | আ ˈব্লেসিং ইন ডিস্ˈগাইজ় | শুরুতে খারাপ মনে হলেও শেষে যা ভালো হয়ে দাঁড়ায়।
+Every cloud has a silver lining | দুঃখের পরে সুখ আসে | ˈএভ়্রি ˈক্লাউড ˈহ্যাজ় আ ˈসিল্ভ়ার ˈলাইনিং | কঠিন সময়ে কাউকে সান্ত্বনা দিতে। আক্ষরিক অর্থ "প্রতিটা মেঘের কিনারে রুপালি রেখা থাকে"।
+Get cold feet | শেষ মুহূর্তে ভয় পেয়ে পিছিয়ে যাওয়া | ˈগেট ˈকৌল্ড ˈফীট | বিয়ে বা বড় সিদ্ধান্তের ঠিক আগে দ্বিধায় পড়লে।
+Hit the nail on the head | একদম ঠিক কথাটা বলা | ˈহিট দ়া ˈনেইল আːন দ়া ˈহেড | কেউ সমস্যার আসল জায়গাটা ধরে ফেললে।
+In the same boat | একই অবস্থায় থাকা | ইন দ়া ˈসেইম ˈবৌট | একই সমস্যায় পড়া মানুষকে সান্ত্বনা দিতে: Don't worry, we're all in the same boat.
+Miss the boat | সুযোগ হাতছাড়া করা | ˈমিস দ়া ˈবৌট | ভালো সুযোগ পেরিয়ে গেলে।
+No pain, no gain | পরিশ্রম ছাড়া সাফল্য আসে না | ˈনৌ ˈপেইন ˈনৌ ˈগেইন | ব্যায়াম বা পড়াশোনার সময় প্রায়ই বলা হয়।
+On the fence | দোটানায় থাকা | আːন দ়া ˈফেন্স | বেড়ার ওপর বসে কোনো দিকেই নামতে না পারার ছবি: I'm still on the fence about the job offer.
+Pull someone's leg | ঠাট্টা করে বোকা বানানো | ˈপুল ˈসাম্ওয়ান্জ় ˈলেগ | মজা করে মিথ্যা বললে: Relax, I'm just pulling your leg!
+Sit tight | ধৈর্য ধরে অপেক্ষা করা | ˈসিট ˈটাইট | ফল না আসা পর্যন্ত কিছু না করে অপেক্ষা করতে বলা।
+The last straw | সহ্যের শেষ সীমা | দ়া ˈল্যাস্ট ˈস্ট্র | সয়ে সয়ে শেষে যে ছোট ঘটনায় ধৈর্যের বাঁধ ভাঙে।
+Throw in the towel | হার মেনে নেওয়া | ˈথ়্রৌ ˈইন দ়া ˈটাউআল | বক্সিংয়ে তোয়ালে ছুড়ে হার স্বীকার করা থেকে এসেছে।
+Actions speak louder than words | কথার চেয়ে কাজ বড় | ˈঅ্যাক্শান্জ় ˈস্পীক ˈলাউডার দ়ান ˈওয়ার্ড্জ় | শুধু মুখে না বলে কাজে দেখাতে বলা।
+Easier said than done | বলা সহজ, করা কঠিন | ˈঈজ়িআর ˈসেড দ়ান ˈডান | কাজটা আসলে কঠিন, এটা বোঝাতে।
+Go the extra mile | প্রত্যাশার চেয়েও বেশি খাটা | ˈগৌ দ়ি ˈএক্স্ট্রা ˈমাইল | প্রশংসায় প্রায়ই বলা হয়: She always goes the extra mile.
+Get out of hand | নিয়ন্ত্রণের বাইরে চলে যাওয়া | ˈগেট ˈআউট আভ় ˈহ্যান্ড | পরিস্থিতি সামলানো না গেলে।
+Take a rain check | পরে আরেক দিনের জন্য তুলে রাখা | ˈটেইক আ ˈরেইন ˈচেক | দাওয়াত নরম করে ফিরিয়ে দিতে: Can I take a rain check?
+The early bird catches the worm | যে আগে আসে, সে-ই সুযোগ পায় | দ়ি ˈআর্লি ˈবার্ড ˈক্যাচিজ় দ়া ˈওয়ার্ম | আক্ষরিক অর্থ "ভোরের পাখিই পোকা পায়"; পরিশ্রমী ও সময়নিষ্ঠ মানুষ সুযোগ পায়।
 `;
