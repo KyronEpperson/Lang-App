@@ -1,0 +1,9 @@
+hmong	english	pos_or_classifier	note	source
+mov nplaum	sticky rice	n	HMN-LEAD stage 1: profile §9 localisation (sticky rice); MDH meal plan, Rice and grains: "Mov dawb, mov nplaum" = White rice, sticky rice	https://www.health.mn.gov/diseases/diabetes/docs/mymealhmo.pdf
+mov dawb	white rice	n	HMN-LEAD stage 1: same MDH line as mov nplaum	https://www.health.mn.gov/diseases/diabetes/docs/mymealhmo.pdf
+txiv taub ntoos	green papaya (the fruit; NOT papaya salad, which stays English)	n	HMN-LEAD stage 1: MDH meal plan, Fruit: "Txiv taub ntoos" = Green papaya	https://www.health.mn.gov/diseases/diabetes/docs/mymealhmo.pdf
+txiv av paum	apple	n	HMN-LEAD stage 1: MDH meal plan, Fruit: "Txiv av paum, txiv tsawb" = Apple, banana	https://www.health.mn.gov/diseases/diabetes/docs/mymealhmo.pdf
+xib fwb	teacher	n	HMN-LEAD stage 1: Washington OSPI Hmong brochure: "tus xib fwb qhia ntawv" (the teacher), "cov xib fwb qhia ntawv" (teachers)	https://ospi.k12.wa.us/sites/default/files/2024-11/needtoknowbrochure_hmong.pdf
+tsev kawm ntawv	school (building / institution)	n	HMN-LEAD stage 1: same brochure: "lub tsev kawm ntawv tshiab" (the new school)	https://ospi.k12.wa.us/sites/default/files/2024-11/needtoknowbrochure_hmong.pdf
+hloov	to change	v	HMN-LEAD stage 1: same brochure: "hloov pauv tsev kawm ntawv" (change schools); profile §2 voice sentence «go hloov ua went»	https://ospi.k12.wa.us/sites/default/files/2024-11/needtoknowbrochure_hmong.pdf
+chav kawm	class, classroom	n	HMN-LEAD stage 1: same brochure: "hauv chav kawm" (in the classroom)	https://ospi.k12.wa.us/sites/default/files/2024-11/needtoknowbrochure_hmong.pdf

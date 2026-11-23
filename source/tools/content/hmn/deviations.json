@@ -1,0 +1,18 @@
+{
+  "lessons": {
+    "final-sounds": "hmn-en extra lesson (profile hmn.md §8 'add', §4 zone 1): final consonants, clusters, -s as /s z ɪz/, -ed as /t d ɪd/; a Hmong syllable ends in a vowel and the final RPA letter is a tone mark (RPAW), McCurdy's 15 adult Hmong learners deleted final /d g v/ (MCC); English side copied unchanged from vi-en's final-sounds; placed after third-s via profile.json lessonOrder.after; deck 22 «Final sounds: -s, -ed»; no ko-en counterpart",
+    "he-she-it": "hmn-en extra lesson (profile hmn.md §8 'add', §4 zone 5): Hmong nws = he / she / it and pronouns do not change for object or possessor (W-KK, BIL 'He hit he'), so he / she / it, him / her, his / her / its, they / them / their are taught on their own; English side written new (no other course has it); placed after object-have via profile.json lessonOrder.after; deck 23 «Kuv thiab kuv tsev neeg»; no ko-en counterpart"
+  },
+  "items": {},
+  "decks": {
+    "count": "deck count 25 vs ko-en 21: four hmn-en decks appended last (DECKNAMES.md rows 22-25): «Final sounds: -s, -ed» (final-sounds), «Kuv thiab kuv tsev neeg» (he-she-it), «Lus Hmoob thiab lus Askiv» (profile §4 error zones), «Nyob hauv Amelika» (profile §5 learners, §9 localisation)",
+    "21": "hmn-en deck 22 «Final sounds: -s, -ed» for the extra lesson final-sounds (profile hmn.md §8): copied from vi-en's final-sounds deck (its deck 22) (final-consonant minimal pairs, -s and -ed triples, clusters), English targets and IPA unchanged; no ko-en counterpart",
+    "22": "hmn-en deck 23 «Kuv thiab kuv tsev neeg» for the extra lesson he-she-it (profile hmn.md §8: 'a new kinship-and-people deck'): people, kinship and pronoun cards; no ko-en counterpart",
+    "23": "hmn-en deck 24 «Lus Hmoob thiab lus Askiv» (profile hmn.md §4 zones 2-12, the model is vi-en's calque deck): correct English for the errors Hmong grammar invites (adjective after the noun, missing be, one pronoun nws, no plural -s, questions without do), each note naming the Hmong habit; no ko-en counterpart",
+    "24": "hmn-en deck 25 «Nyob hauv Amelika» (profile hmn.md §5 learner starting point, §9 localisation): everyday US life for adult immigrant and elder learners (interpreter, clinic appointment, school, county office, bus, Hmong New Year); no ko-en counterpart"
+  },
+  "extraLessons": [
+    "final-sounds"
+  ],
+  "droppedLessons": []
+}

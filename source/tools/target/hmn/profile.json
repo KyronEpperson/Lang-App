@@ -1,0 +1,272 @@
+{
+  "target": "hmn",
+  "nameEn": "Hmong",
+  "self": "Hmoob",
+  "ttsLang": "hmn",
+  "brand": "Hmoob",
+  "accents": false,
+  "keys": "",
+  "greet": [
+    [
+      "Pw zoo os",
+      "Good night (sleep well)"
+    ],
+    [
+      "Nyob zoo",
+      "Hello (any time of day)"
+    ],
+    [
+      "Nyob zoo",
+      "Hello (any time of day)"
+    ],
+    [
+      "Nyob zoo",
+      "Hello (any time of day)"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?:high|falling|rising|mid|low|falling-breathy|creaky|rising-final|—)(?: · (?:high|falling|rising|mid|low|falling-breathy|creaky|rising-final|—))*$",
+  "targetScript": "[A-Za-z]",
+  "standingRule": {
+    "keywords": "\\bclassifiers?\\b|\\btus\\b|\\blub\\b|\\bdaim\\b|\\brab\\b|\\btxoj\\b|\\bphau\\b|\\bzaj\\b|\\btsob\\b|\\bnkawm\\b|\\bcov\\b|\\bafter the noun\\b|\\btone letters?\\b|\\b(?:high|falling|rising|mid|low|breathy|creaky) tone\\b|\\bpre-?nasali[sz]ed\\b|\\baspirated\\b",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "tones",
+      "title": "Tones: the silent last letter",
+      "deck": "Tones"
+    },
+    {
+      "id": "consonants-1",
+      "title": "Letters that sound different: x, s, z, r, c, q, w",
+      "deck": "Consonants and vowels"
+    },
+    {
+      "id": "consonants-2",
+      "title": "n- and h- sounds: npua, ntawv, hmo, hnub",
+      "deck": "Consonants and vowels"
+    },
+    {
+      "id": "greetings",
+      "title": "Nyob zoo, ua tsaug, sib ntsib dua",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "pronouns",
+      "title": "kuv, koj, nws, and \"the two of us\"",
+      "deck": "About me"
+    },
+    {
+      "id": "yog-nyob",
+      "title": "Two ways to say \"is\": yog and nyob",
+      "deck": "About me"
+    },
+    {
+      "id": "questions",
+      "title": "puas, los, dab tsi, leej twg, qhov twg",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "negation",
+      "title": "tsis and tsis txhob",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "intro",
+      "title": "Koj lub npe hu li cas?",
+      "deck": "About me"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers and money",
+      "deck": "Numbers and money"
+    },
+    {
+      "id": "classifiers",
+      "title": "tus, lub, daim, rab: counting words",
+      "deck": "Things and classifiers"
+    },
+    {
+      "id": "noun-phrase",
+      "title": "lub tsheb liab: describing words come after",
+      "deck": "Things and classifiers"
+    },
+    {
+      "id": "family",
+      "title": "Family: who is speaking?",
+      "deck": "Family and kinship"
+    },
+    {
+      "id": "time",
+      "title": "Days, times and \"when\"",
+      "deck": "Time and days"
+    },
+    {
+      "id": "aspect",
+      "title": "Done, doing, going to: lawm, tab tom, yuav",
+      "deck": "Time and days"
+    },
+    {
+      "id": "places",
+      "title": "pem, nram, tom, tim: up, down, over there",
+      "deck": "Getting around"
+    },
+    {
+      "id": "food",
+      "title": "Noj mov: food and eating",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "serial-verbs",
+      "title": "Verbs in a row: mus yuav, los noj",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "requests",
+      "title": "Please and may I: thov, puas tau",
+      "deck": "Health and help"
+    },
+    {
+      "id": "feelings-weather",
+      "title": "Zoo siab, tu siab, kub, no",
+      "deck": "Feelings and weather"
+    },
+    {
+      "id": "shopping",
+      "title": "Pes tsawg? Shopping and prices",
+      "deck": "Shopping and money"
+    },
+    {
+      "id": "health",
+      "title": "At the clinic",
+      "deck": "Health and help"
+    },
+    {
+      "id": "compare",
+      "title": "More than: tshaj",
+      "deck": "Shopping and money"
+    },
+    {
+      "id": "elders",
+      "title": "Talking with grandparents",
+      "deck": "Talking with elders"
+    },
+    {
+      "id": "new-year",
+      "title": "Noj peb caug: Hmong New Year",
+      "deck": "New Year and celebrations"
+    },
+    {
+      "id": "family-events",
+      "title": "Family events and blessings",
+      "deck": "Family events"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Tones",
+      "group": "Sounds and spelling",
+      "desc": "The silent tone letter: pob, poj, pov, po, pos, pog, pom, and common words for each of the eight tone spellings"
+    },
+    {
+      "name": "Consonants and vowels",
+      "group": "Sounds and spelling",
+      "desc": "RPA letters English reads wrong (x, s, z, r, c, q, w), puffs of air (ph, th, kh), nasal starts (np, nt, nk), breathy nasals (hm, hn), and the vowels ee, oo, ia, ua"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Nyob zoo, ua tsaug, thov txim, sib ntsib dua: hello, thanks, sorry and goodbye the way Hmong Americans say them"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "I, you, he and she (and the \"two of us\" words), your name, where you are from, your clan, your languages, work and school"
+    },
+    {
+      "name": "Family and kinship",
+      "group": "First steps",
+      "desc": "Parents, children, brothers and sisters (the word depends on who is speaking), grandparents, uncles, aunts and in-laws"
+    },
+    {
+      "name": "Numbers and money",
+      "group": "First steps",
+      "desc": "Counting from one to a million, caug and caum for the tens, puas and pua for the hundreds, dollars and \"how many?\""
+    },
+    {
+      "name": "Things and classifiers",
+      "group": "Everyday life",
+      "desc": "Everyday things with their counting word: lub tsev, daim ntawv, rab riam, txoj hlua, phau ntawv, nkawm khau"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday life",
+      "desc": "Rice, vegetables, meat, fish, eggs, noodles, chili, water, tea and coffee; noj for eating and haus for drinking"
+    },
+    {
+      "name": "Time and days",
+      "group": "Everyday life",
+      "desc": "Today, yesterday, tomorrow, morning to night, days and months, clock hours, years, and every day"
+    },
+    {
+      "name": "Feelings and weather",
+      "group": "Everyday life",
+      "desc": "Happy, sad, angry, lonely, scared, shy and tired; rain, wind, hot, cold and warm"
+    },
+    {
+      "name": "Getting around",
+      "group": "Out and about",
+      "desc": "Up there, down there, over there, inside, outside, left and right, near and far, cars, planes and roads"
+    },
+    {
+      "name": "Shopping and money",
+      "group": "Out and about",
+      "desc": "The market, prices, expensive and cheap, paying, buying, selling, discounts, and saying \"more than\""
+    },
+    {
+      "name": "Health and help",
+      "group": "Out and about",
+      "desc": "Feeling sick, the doctor, the clinic and the pharmacy, fever and cough, medicine, appointments, interpreters, and asking for help"
+    },
+    {
+      "name": "Talking with elders",
+      "group": "Heritage",
+      "desc": "Greeting grandparents when they arrive and leave, \"have you eaten?\", respectful address, and the soft os"
+    },
+    {
+      "name": "New Year and celebrations",
+      "group": "Heritage",
+      "desc": "Noj peb caug: the ball toss, the qeej, paj ntaub, the silver sash, new clothes, songs, and happy birthday"
+    },
+    {
+      "name": "Family events",
+      "group": "Heritage",
+      "desc": "Clan, weddings and family gatherings, blessings and the wrist-string tie, and how families celebrate together"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "What, who, where, when, how many, why, the puas and los questions, and the words for and, but, because and or"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Conversation",
+      "desc": "Tone twins (pob, pov, pog), the right counting word, no \"is\" before an adjective, peb or wb, and who says nus or kwv"
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Reader",
+    "Listener",
+    "Speaker",
+    "Neighbor",
+    "Storyteller",
+    "Master"
+  ],
+  "tilesDefault": true,
+  "noAudio": true,
+  "voiceMatch": "^(hmn|mww)(-|_|$)"
+}

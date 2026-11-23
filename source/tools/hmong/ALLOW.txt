@@ -1,0 +1,76 @@
+# Words that may appear in Hmong text without being White Hmong RPA. Used by rpa_check.js and coverage.js.
+# One entry per line, case-insensitive; multi-word entries (St. Paul) are matched before the text is split into words. # starts a comment.
+# Add: names in English spelling, place names, English/Lao/Thai loans written as such, brand names. Do NOT add misspelled Hmong.
+
+# Clan names in their usual English spelling (the RPA forms Vaj, Xyooj, Lis, Lauj, Yaj, Thoj, Muas, Hawj, Vwj, Tsab, Tsheej, Faj, Khab, Koo, Kwm, Phab are RPA and need no entry)
+Vang
+Xiong
+Lee
+Ly
+Lor
+Yang
+Thao
+Moua
+Her
+Vue
+Chang
+Cheng
+Fang
+Hang
+Khang
+Kong
+Kue
+Pha
+Lo
+
+# Places
+St. Paul
+Saint Paul
+Minneapolis
+Minnesota
+Wisconsin
+Milwaukee
+Michigan
+Detroit
+California
+Fresno
+Sacramento
+Merced
+North Carolina
+Hickory
+Laos
+Thailand
+Vietnam
+China
+America
+Ban Vinai
+
+# English words kept in Hmong text (RPA.md §6 starting list: US agency usage, e.g. hnub Monday txog hnub Friday, mob cancer)
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+cancer
+AIDS
+HIV
+TB
+
+# Loans and brands (extend with care)
+Facebook
+YouTube
+TikTok
+email
+OK
+
+# Added by the en-hmn stage-1 lead (2026-11-23): the rest of RPA.md §6's starting list of English words kept in US Hmong text (MDH; GLOSSARY.tsv rows marked "English kept")
+asthma
+Medical Assistance
+cheese
+pizza
+hamburger
+sandwich
+orange
+# en-hmn writers: append a loan or name here ONLY with >> and a trailing comment naming the source URL you opened, e.g.  Walmart  # en-hmn A https://...

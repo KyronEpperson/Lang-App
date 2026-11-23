@@ -1,0 +1,120 @@
+# hmn-en only: English words that may stand inside the course's Hmong text (explanations, why, hints, notes, meanings, interface).
+# Read with tools/hmong/ALLOW.txt, never instead of it. Check commands merge the two files:
+#   cat tools/hmong/ALLOW.txt tools/content/hmn/ALLOW.txt > $S/hmn-allow.txt   then pass  --allow $S/hmn-allow.txt  to rpa_check.js and coverage.js
+# One entry per line, case-insensitive; multi-word entries are matched first. # starts a comment.
+# Writers: append ONLY with >> and a trailing comment (role + why), e.g.  echo 'gerund  # HMN-D to-ing lesson, profile §3 rule' >> tools/content/hmn/ALLOW.txt
+# Never add a misspelled Hmong word or an RPA respelling of English. Hmong words go in tools/content/hmn/NEW-WORDS.tsv with a source URL.
+
+# Grammar terms kept in English (profile hmn.md §3: no attested Hmong term; never coin). Introduced once with the EnglishConnect phrase, then used alone.
+article
+articles
+plural
+singular
+noun
+nouns
+verb
+verbs
+adjective
+adjectives
+adverb
+adverbs
+pronoun
+pronouns
+preposition
+prepositions
+tense
+past tense
+present tense
+future
+Simple Present
+Simple Past
+Present Continuous
+Past Continuous
+Present Perfect
+Past Perfect
+continuous
+perfect
+infinitive
+gerund
+phrasal verb
+phrasal verbs
+modal
+modals
+passive
+conditional
+relative clause
+countable
+uncountable
+classifier
+consonant
+consonants
+vowel
+vowels
+syllable
+contraction
+question tag
+sentence
+sentences
+subject
+object
+pronunciation
+stress
+IPA
+-s
+-es
+-ed
+-ing
+-er
+-est
+# the same endings as rpa_check sees them after it splits on the hyphen
+ed
+es
+ing
+er
+est
+
+# App words kept in English (profile hmn.md §3 "UI words with no Hmong term", §10 tab bar)
+streak
+sync
+quiz
+deck
+decks
+card
+cards
+level
+XP
+settings
+email
+password
+sign in
+app
+online
+audio
+Review
+Lessons
+Progress
+Feedback
+Start
+Save
+Next
+
+# Given names used in the course (profile hmn.md §9; English spelling in both languages). Clan names are in tools/hmong/ALLOW.txt.
+Mai
+Tou
+Pa
+Kia
+Nou
+Chue
+
+# Places not yet in tools/hmong/ALLOW.txt (profile §5, §9)
+Wausau
+
+# English words in deck names where no attested Hmong name exists (DECKNAMES.md)
+Final sounds
+Phrasal verbs
+Movies
+TV
+slang
+
+# Names used by the localisation map (docs/briefs/hmn-*.md, HMONG RULES §4)
+Kao Kalia Yang

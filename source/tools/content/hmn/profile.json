@@ -1,0 +1,28 @@
+{
+  "native": "hmn",
+  "nativeNameEn": "White Hmong",
+  "name": {
+    "en": "English",
+    "hmn": "lus Askiv"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?!.*əʊ)/[a-bd-pr-vwzæɑɔəɚɝɪʊʌθðʃʒŋˈˌː‿ ]+/(?:(?: | / )/[a-bd-pr-vwzæɑɔəɚɝɪʊʌθðʃʒŋˈˌː‿ ]+/)*$",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "\\barticle|\\bplural",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Lo lus twg raug?",
+    "typeHintCue": " — siv cov lo lus no",
+    "cueTest": "\\b(?:[Kk]uv|[Kk]oj|[Nn]ws|[Pp]eb|[Ll]awv|[Nn]ej|[Ww]b|[Nn]eb|[Nn]kawd|[Yy]og|[Tt]sis|[Pp]uas|[Ll]us|[Mm]uaj|[Nn]yob|[Tt]hiab|[Nn]tawm|[Hh]auv|[Rr]au|[Tt]xog|[Ii]b|[Oo]b|[Tt]us|[Ll]ub|[Cc]ov|[Tt]wg|[Ss]iv|[Ss]au|[Tt]eb|[Nn]ug|[Hh]ais|[Uu]a|[Tt]xhais|[Hh]nub|[Qq]hov|[Rr]aug|[Tt]xhaum|[Nn]yeem|[Mm]loog|[Kk]awm|[Xx]aiv|[Nn]tawv|[Aa]skiv|[Hh]moob|[Ll]awm|[Yy]uav|[Tt]au|[Tt]hov|[Mm]us|[Nn]oj|[Nn]yiam|[Xx]av|[Nn]eeg|[Nn]iam|[Tt]xiv|[Pp]om|[Tt]xhua|[Dd]ua|[Nn]tau|[Tt]shaj|[Ll]i cas|[Dd]ab tsi|[Nn]ag hmo|[Tt]ag kis|[Tt]am sim no)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "final-sounds": "third-s",
+      "he-she-it": "object-have"
+    }
+  }
+}

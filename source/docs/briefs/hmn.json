@@ -1,0 +1,15 @@
+{
+ "LANG": "White Hmong",
+ "NATIVE": "White Hmong (Hmoob Dawb) in the RPA, as US Hmong agencies and the EnglishConnect Hmong edition write it",
+ "UP": "HMN",
+ "register": "koj (singular you) to the learner, never a kinship term for the learner; bare verbs for instructions and buttons (Nyeem, Sau, Mloog, Teb, Xaiv); politeness through thov, … puas tau? and final os; grammar terms stay in ENGLISH (article, plural, singular, noun, verb, adjective, adverb, pronoun, preposition, tense, past tense, Simple Present, Present Perfect, -s, -ed, -ing, sentence, IPA, stress, question tag), introduced once with the EnglishConnect phrase of §3 and explained with plain glossary words, never coined; syllable-spaced RPA (me nyuam, poj niam, hauj lwm), ASCII only, Western digits and punctuation; English words inside Hmong text plain (in lesson HTML in <b>)",
+ "pron": "IPA between slashes, the Vietnamese course's conventions (profile.json pronPattern = vi's; tools/content/vi/PRON-RULES.md binds); never an RPA respelling of English",
+ "kw": "article|plural (the English terms, used inside Hmong `why` lines; never cov)",
+ "copy_note": "for every English string that already exists in the Vietnamese course (cards, idioms, {{ex:}} rows) paste its IPA from `tools/content/hmn/pron_lookup.json` (763 entries taken from vi-en) byte for byte; for a new or localised string write IPA by `tools/content/vi/PRON-RULES.md` and run `node tools/content/hmn/pron_check.js summary`. Never copy pron from the Chinese, Kannada or Korean course (the zh IPA fails this pattern in 68 rows). The Vietnamese course (`tools/content/vi/`) is also the closest course for WHAT to explain (tonal, analytic, classifier language, adjective after the noun, no tense marking); never translate its Vietnamese, explain from Hmong (profile §4, §8).",
+ "script_note": "`nativeScript` is null (RPA is Latin script), so the validator only checks that native text is non-empty and differs from its English counterpart, and it recognises mc questions and type hints by `labels.cueTest` (a list of frequent Hmong glossary words: kuv, koj, nws, yog, tsis, puas, lus, muaj, nyob, thiab, ib, ob, tus, lub, cov, twg, siv, sau, teb, nug, hais, ua, li cas, dab tsi, nag hmo, tag kis …; tested: 0 hits in 2,496 English strings of the reference pack). Write every mc question and type hint so it contains real Hmong from that list (frames built only from glossary words: «'…' — lus Askiv twg raug?», «Lo lus twg raug?»; copy a sister-course pattern where one fits), otherwise the DSL silently appends « Lo lus twg raug?» / « — siv cov lo lus no». The validator does NOT check that a `why` is Hmong: `tools/content/hmn/check.js` does (E2).",
+ "a_extra": "",
+ "c_extra": "",
+ "d_extra": "",
+ "i_extra": "",
+ "r_extra": ""
+}

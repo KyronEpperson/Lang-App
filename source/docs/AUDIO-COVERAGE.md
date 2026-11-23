@@ -1,18 +1,18 @@
-# Audio coverage (as of release 2.83.0)
+# Audio coverage (as of release 2.84.0)
 
 **7703 sentences have no recorded clip yet** (about 206080 characters to generate over all voices); they are spoken by the device voice until the clips are made.
 
 | Language | Sentences | Woman: missing (chars) | Man: missing (chars) | Unused clips | List changed (+new −gone) |
 |---|---|---|---|---|---|
-| ar | 1543 | 846 (16485) | 846 (16485) | 0 | +846 −0 |
+| ar | 1543 | 846 (16485) | 846 (16485) | 0 | +0 −0 |
 | es | 1647 | complete | complete | 0 | +0 −0 |
-| fr | 1867 | 1186 (21607) | 1174 (21280) | 0 | +1076 −0 |
-| it | 1786 | 1094 (18824) | 1088 (18689) | 0 | +1041 −0 |
-| ko | 2581 | 1105 (7747) | 1105 (7747) | 23 | +1105 −23 |
-| pt | 1596 | 919 (13784) | 919 (13784) | 0 | +919 −0 |
-| th | 1519 | 752 (7625) | 752 (7625) | 0 | +752 −0 |
-| vi | 1678 | 914 (12774) | 914 (12774) | 0 | +914 −0 |
-| zh | 1629 | 887 (4425) | 887 (4425) | 0 | +887 −0 |
+| fr | 1867 | 1186 (21607) | 1174 (21280) | 0 | +0 −0 |
+| it | 1786 | 1094 (18824) | 1088 (18689) | 0 | +0 −0 |
+| ko | 2581 | 1105 (7747) | 1105 (7747) | 23 | +0 −0 |
+| pt | 1596 | 919 (13784) | 919 (13784) | 0 | +0 −0 |
+| th | 1519 | 752 (7625) | 752 (7625) | 0 | +0 −0 |
+| vi | 1678 | 914 (12774) | 914 (12774) | 0 | +0 −0 |
+| zh | 1629 | 887 (4425) | 887 (4425) | 0 | +0 −0 |
 
 "Missing" = sentences the current courses can speak that have no clip in that voice. "Unused clips" = clips on disk whose sentence no course speaks any more (safe to delete). The sentence lists (`audio/<lang>/manifest.json`) were refreshed for this release, so `node source/tools/audio/gen_elevenlabs.js <lang> --gender=f` (and `m`) makes exactly the missing clips; add `--dry` first to see the count and the credits.
 
