@@ -4,14 +4,14 @@ module.exports = [
 <p>Lus Hmoob hais <b>Los nag</b> thiab <b>Muaj ib lub khw nyob ze</b>: tsis muaj subject. Lus Askiv yuav tsum muaj subject. Yog tsis muaj, lus Askiv siv <b>it</b> los yog <b>there</b>.</p>
 <h3>Huab cua thiab sij hawm: It</h3>
 <p>It no tsis yog nws (khoom). It nyob qhov subject xwb.</p>
-{{ex:It's cold today.|/ɪts koʊld təˈdeɪ/|Hnub no no.}}{{ex:It's three o'clock.|/ɪts θriː əˈklɑːk/|Tam sim no peb teev.}}{{ex:It's raining.|/ɪts ˈreɪnɪŋ/|Los nag.}}
+{{ex:It's cold today.|/ɪts koʊld təˈdeɪ/|Hnub no no.}}{{ex:It's three o'clock.|/ɪts θriː əˈklɑːk/|Tam sim no 3 teev.}}{{ex:It's raining.|/ɪts ˈreɪnɪŋ/|Los nag.}}
 <h3>Muaj: There is / There are</h3>
 <p>Ib yam: <b>There is a …</b>. Ntau yam: <b>There are … -s</b>. Thaum hais lus, There is luv ua There's.</p>
 {{ex:There's a cafe near here.|/ðerz‿ə kæˈfeɪ nɪr hɪr/|Muaj ib lub khw kav fes nyob ze qhov no.}}{{ex:There are two rooms.|/ðer ɑːr tuː ruːmz/|Muaj ob chav pw.}}
 <h3>Nug thiab tsis muaj</h3>
-{{ex:Is there a bathroom here?|/ɪz ðer ə ˈbæθruːm hɪr/|Qhov no puas muaj chav dej?}}{{ex:Are there any seats?|/ɑːr ðer ˈeni siːts/|Puas muaj rooj?}}{{ex:There isn't a bus today.|/ðer ˈɪzənt‿ə bʌs təˈdeɪ/|Hnub no tsis muaj tsheb ntiav.}}
+{{ex:Is there a bathroom here?|/ɪz ðer ə ˈbæθruːm hɪr/|Qhov no puas muaj chav dej?}}{{ex:Are there any seats?|/ɑːr ðer ˈeni siːts/|Puas muaj qhov chaw zaum?}}{{ex:There isn't a bus today.|/ðer ˈɪzənt‿ə bʌs təˈdeɪ/|Hnub no tsis muaj tsheb ntiav.}}
 <h3>Muaj: have los yog there is?</h3>
-<p>Hauv lus Hmoob, <b>muaj</b> yog have thiab yog there is. Lus Askiv siv ob lo lus: ib tug neeg muaj = <b>have</b>; muaj nyob ib qho chaw = <b>there is</b>.</p>
+<p>Hauv lus Hmoob, <b>muaj</b> yog have thiab yog there is. Lus Askiv siv ob lo lus: ib tug neeg muaj = <b>have</b>; muaj ib yam nyob ib qhov chaw = <b>there is</b>.</p>
 {{ex:I have a car.|/aɪ hæv‿ə kɑːr/|Kuv muaj ib lub tsheb.}}{{ex:There's a car outside.|/ðerz‿ə kɑːr aʊtˈsaɪd/|Muaj ib lub tsheb nyob nraum.}}
 <div class="tip">Nco ntsoov: <b>Is cold.</b> ✗ → <b>It's cold.</b> ✓ / <b>Have a cafe here.</b> ✗ → <b>There's a cafe here.</b> ✓</div>`,
 check:[["'Hnub no kub.' — lus Askiv twg raug?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"Huab cua: it yog subject."],["There ___ three people. Lo lus twg raug?",["is","are","have","be"],1,"Peb tug neeg yog plural: there are."],["'Qhov no puas muaj chav dej?' — lus Askiv twg raug?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"Nug tias puas muaj: Is there a …?"]],
@@ -19,16 +19,16 @@ practice:[
 ["mc","'Los nag.' — lus Askiv twg raug?","It's raining.","Is raining.","There is raining.","Rain is.","Huab cua: it yog subject."],
 ["mc","'Muaj ib lub khw kav fes nyob ze qhov no.' — lus Askiv twg raug?","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","Muaj … nyob ze: there is. Ib lub khw: article a."],
 ["mc","There ___ two rooms. Lo lus twg raug?","are","is","have","has","Rooms yog plural: are."],
-["mc","'Tam sim no peb teev.' — lus Askiv twg raug?","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","Sij hawm kuj siv it."],
+["mc","'Tam sim no 3 teev.' — lus Askiv twg raug?","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","Sij hawm kuj siv it."],
 ["mc","'Kuv muaj ib lub tsheb.' — lus Askiv twg raug?","I have a car.","There is a car me.","I am a car.","It's a car me.","Kuv muaj = I have (tsis yog there is)."],
 ["or","Hnub no no","It's cold today","There's","Huab cua: it yog subject."],
 ["or","Muaj ib lub tsheb nyob nraum","There's a car outside","cars","Ib lub tsheb: article a thiab car (singular)."],
-["or","Muaj ob lub rooj","There are two seats","seat is","Ob lub yog plural: are thiab seats."],
+["or","Muaj ob qhov chaw zaum","There are two seats","seat is","Ob lub yog plural: are thiab seats."],
 ["fi","__ cold today.","Hnub no no.","It's|It is","Is|There's|This","It nyob qhov subject."],
 ["fi","There __ a bank near here.","Muaj ib lub tsev bank nyob ze.","is","are|have|be","Ib lub tsev bank xwb: is."],
 ["fi","__ there any seats?","Puas muaj rooj?","Are","Is|Do|Have","Seats yog plural: Are."],
 ["ty","Hnub no kub","It's hot today","it · hot · today — huab cua siv it","There's","Huab cua: it yog subject."],
-["ty","Qhov no puas muaj chav dej?","Is there a bathroom here|Is there a restroom here","is there · bathroom — siv article a","the","Ib chav dej: article a."],
+["ty","Qhov no puas muaj chav dej? (a)","Is there a bathroom here|Is there a restroom here|Is there a washroom here","is there · bathroom — siv article a","the","Ib chav dej: article a."],
 ["ty","Muaj ob chav pw (rooms)","There are two rooms","there are · two · room — siv plural","room","Ob chav yog plural: rooms."]]},
 
 { id:"plurals", title:"Plural -s, this / these thiab my / your", blurb:"Ntau tshaj ib: noun muaj -s. This yog ib yam, these yog ntau yam.", deck:"Mus kav khw", body:`
@@ -58,7 +58,7 @@ practice:[
 ["fi","__ is my friend.","Nov yog kuv tus phooj ywg.","This","These|Those|They","Ib tug xwb: this."],
 ["fi","Two __, please.","Thov ob khob kav fes.","coffees","coffee|a coffee|coffee's","Ob khob yog plural: coffees."],
 ["ty","Cov no yog kuv cov ntawv (books)","These are my books","these · my · book — siv plural","book","Ntau yam: these thiab plural books."],
-["ty","Kuv muaj ob tug muam (txiv neej hais)","I have two sisters","have · two · sister — siv plural","sister","Ob tug yog plural: sisters."],
+["ty","Kuv muaj ob tug muam (txiv neej hais)","I have two sisters|I've got two sisters|I have got two sisters","have · two · sister — siv plural","sister","Ob tug yog plural: sisters."],
 ["ty","Nov yog kuv lub hnab","This is my bag","this · my · bag — tsis siv article","a","Muaj my lawm: tsis siv article a."]]},
 { id:"present", title:"Simple Present: subject + verb + object", blurb:"Subject + verb + object nkaus li lus Hmoob. Kuv tsis noj = I don't eat.", deck:"Kuv tus kheej", body:`
 <p><b>Kuv haus kav fes</b> = <b>I drink coffee</b>. Lus Hmoob thiab lus Askiv: subject (kuv, I), verb (tej lus txog kev ua li cas: haus, drink), object (kav fes, coffee). Qhov no yooj yim rau koj.</p>
@@ -66,11 +66,11 @@ practice:[
 {{ex:I drink coffee.|/aɪ drɪŋk ˈkɑːfi/|Kuv haus kav fes.}}{{ex:I study English.|/aɪ ˈstʌdi ˈɪŋglɪʃ/|Kuv kawm lus Askiv.}}
 <h3>Chaw thiab sij hawm nyob tom qab</h3>
 <p>Tom qab verb, hais chaw ua ntej thiab sij hawm tom qab: <b>in St. Paul</b>, <b>every day</b>.</p>
-{{ex:We live in St. Paul.|/wi lɪv‿ɪn seɪnt pɑːl/|Peb nyob St. Paul.}}{{ex:I study English every day.|/aɪ ˈstʌdi ˈɪŋglɪʃ‿ˈevri deɪ/|Kuv kawm lus Askiv txhua hnub.}}{{ex:They work on weekends.|/ðeɪ wɝːk‿ɑːn ˈwiːkendz/|Lawv ua hauj lwm hnub Saturday thiab hnub Sunday.}}
+{{ex:We live in St. Paul.|/wi lɪv‿ɪn seɪnt pɑːl/|Peb nyob St. Paul.}}{{ex:I study English every day.|/aɪ ˈstʌdi ˈɪŋglɪʃ‿ˈevri deɪ/|Kuv kawm lus Askiv txhua hnub.}}{{ex:They work on weekends.|/ðeɪ wɝːk‿ɑːn ˈwiːkendz/|Lawv ua hauj lwm hnub so.}}
 <h3>Simple Present: tej yam koj ua txhua hnub</h3>
 <p>Simple Present yog tej yam koj ua txhua hnub thiab tej yam muaj tseeb. Lus Hmoob hais <b>tsis</b> ua ntej verb. Lus Askiv tsis hais <b>I not eat</b>: siv <b>don't</b> ua ntej verb.</p>
 {{ex:I don't eat meat.|/aɪ doʊnt‿iːt miːt/|Kuv tsis noj nqaij.}}
-<h3>always, usually, sometimes, never</h3>
+<h3>always, usually, never: ua ntej verb</h3>
 <p>Cov adverb (tej lus piav yus ua zoo li cas) no nyob ua ntej verb.</p>
 {{ex:I usually get up at seven.|/aɪ ˈjuːʒuəli get‿ʌp‿ət ˈsevən/|Txhua hnub kuv sawv 7 teev.}}{{ex:I never drink coffee at night.|/aɪ ˈnevɚ drɪŋk ˈkɑːfi ət naɪt/|Kuv tsis haus kav fes thaum tsaus ntuj.}}
 <div class="tip">Nco ntsoov: <b>I not eat meat.</b> ✗ → <b>I don't eat meat.</b> ✓ / <b>I drink always tea.</b> ✗ → <b>I always drink tea.</b> ✓ / <b>I am live in Fresno.</b> ✗ → <b>I live in Fresno.</b> ✓</div>`,
@@ -83,12 +83,12 @@ practice:[
 ["mc","Koj ua txhua hnub: lus Askiv twg raug?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","Tej yam ua txhua hnub: Simple Present."],
 ["or","Kuv haus kav fes txhua hnub","I drink coffee every day","the am","Txhua hnub: Simple Present. Coffee tsis siv article."],
 ["or","Kuv nyeem ntau phau ntawv","I read many books","book","Ntau phau ntawv: many thiab plural books."],
-["or","Peb ua hauj lwm hnub Saturday thiab hnub Sunday","We work on weekends","are","Muaj work lawm: tsis siv are."],
+["or","Peb ua hauj lwm hnub so","We work on weekends","are","Muaj work lawm: tsis siv are."],
 ["fi","I __ like fish.","Kuv tsis nyiam ntses.","don't|do not","not|am not|no","Tsis = don't."],
 ["fi","I __ English every day.","Kuv kawm lus Askiv txhua hnub.","study","am study|studying|to study","Simple Present: verb tsis hloov."],
 ["fi","They live __ Fresno.","Lawv nyob Fresno.","in","at|on|to","Ua ntej lub nroog: in."],
 ["ty","Kuv haus tshuaj yej","I drink tea","drink · tea — tsis siv article","a","Tshuaj yej, kav fes, dej: tsis siv article a."],
-["ty","Kuv nyiam miv","I like cats","like · cat — siv plural","cat","Txhua tus miv: plural cats."],
+["ty","Kuv nyiam miv","I like cats|I love cats","like · cat — siv plural","cat","Txhua tus miv: plural cats."],
 ["ty","Kuv tsis noj nqaij","I don't eat meat","don't · eat · meat — tsis = don't","am","Tsis = don't."]]},
 { id:"questions", title:"Lo lus nug: Do you …? thiab what, where", blurb:"Lus Hmoob siv puas. Lus Askiv: Do, Are los yog Is nyob ua ntej subject.", deck:"Lus Askiv txhua hnub 2", body:`
 <p>Lus Hmoob nug nrog <b>puas</b> ua ntej verb, thiab tsis hloov dab tsi: <b>Koj puas hais lus Askiv?</b> Lus Askiv yuav tsum hloov: <b>Do you speak English?</b> Tsis txhob hais <b>You speak English?</b> xwb.</p>
@@ -118,7 +118,7 @@ practice:[
 ["fi","__ do you live?","Koj nyob qhov twg?","Where","What|Who|When","Qhov twg = where."],
 ["fi","What time __ it?","Tam sim no pes tsawg teev?","is","do|does|are","Sij hawm: nug nrog be (is)."],
 ["ty","Koj puas hais lus Askiv?","Do you speak English|Can you speak English","do · speak · English — nug nrog do","Are","Speak tsis yog be: Do nyob ua ntej."],
-["ty","Chav dej nyob qhov twg?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — siv article the","a","Chav dej hauv qhov no: article the."],
+["ty","Chav dej nyob qhov twg?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom|Where is the washroom|Where's the washroom","where · bathroom — siv article the","a","Chav dej hauv qhov no: article the."],
 ["ty","Koj puas nyiam dev?","Do you like dogs","do · like · dog — siv plural","dog","Txhua tus dev: plural dogs."]]},
 { id:"third-s", title:"-s tom qab he, she, it: does / doesn't", blurb:"Ib tug neeg los yog ib yam: verb muaj -s. Nug thiab tsis: siv does.", deck:"Kuv tus kheej", body:`
 <p>Lus Hmoob verb tsis hloov: <b>kuv ua hauj lwm</b>, <b>nws ua hauj lwm</b>. Hauv Simple Present lus Askiv, thaum subject yog <b>he, she, it</b> los yog ib tug neeg, ib yam khoom, verb muaj <b>-s</b>. Thaum hais lus, nco ntsoov hais -s: /s/ (works), /z/ (lives) los yog /ɪz/ (watches).</p>
@@ -143,11 +143,11 @@ practice:[
 ["fi","He __ soccer.","Nws (txiv neej) nyiam ua si soccer.","likes","like|liking|is like","He siv likes."],
 ["fi","__ she speak English?","Nws (poj niam) puas hais lus Askiv?","Does","Do|Is|Are","She: nug nrog Does."],
 ["fi","She __ to work at eight.","Nws (poj niam) mus ua hauj lwm 8 teev.","goes","go|going|gos","Go hloov ua goes."],
-["ty","Nws (txiv neej) muaj ib lub tsheb","He has a car","has · car — siv article a","have","He: has. Ib lub tsheb: article a."],
-["ty","Nws (poj niam) nyiam miv","She likes cats","likes · cat — siv plural","cat","She: likes. Txhua tus miv: plural cats."],
-["ty","Nws (txiv neej) tsis nyob qhov no","He doesn't live here","doesn't · live · here — tsis siv -s","lives","Tom qab doesn't, verb tsis muaj -s."]]},
+["ty","Nws (txiv neej) muaj ib lub tsheb","He has a car|He's got a car|He has got a car","has · car — siv article a","have","He: has. Ib lub tsheb: article a."],
+["ty","Nws (poj niam) nyiam miv","She likes cats|She loves cats","likes · cat — siv plural","cat","She: likes. Txhua tus miv: plural cats."],
+["ty","Nws (txiv neej) tsis nyob qhov no (live)","He doesn't live here","doesn't · live · here — tsis siv -s","lives","Tom qab doesn't, verb tsis muaj -s."]]},
 { id:"final-sounds", title:"Hais consonant kawg: -s thiab -ed", blurb:"Lus Askiv hais txhua consonant kawg. -s thiab -ed qhia plural thiab past tense.", deck:"Final sounds: -s, -ed", body:`
-<p>Hauv lus Hmoob, tus tsiaj ntawv kawg yog cim (tone): <b>Hmoob</b>, koj tsis hais b. Lo lus Hmoob tsis muaj consonant ntawm qhov kawg. Hauv lus Askiv, koj yuav tsum hais tus kawg: <b>book</b> /bʊk/, koj hais /k/. Ntau zaus muaj ob peb tus consonant ib txhij: /ks/, /st/, /nts/. Yog koj tsis hais tus kawg, lawv tsis paub tias yog <b>book</b> los yog <b>books</b>, <b>work</b> los yog <b>worked</b>.</p>
+<p>Hauv lus Hmoob, tus tsiaj ntawv kawg yog cim: <b>Hmoob</b>, koj tsis hais b. Lo lus Hmoob tsis muaj consonant ntawm qhov kawg. Hauv lus Askiv, koj yuav tsum hais tus kawg: <b>book</b> /bʊk/, koj hais /k/. Ntau zaus muaj ob peb tus consonant ib txhij: /ks/, /st/, /nts/. Yog koj tsis hais tus kawg, lawv tsis paub tias yog <b>book</b> los yog <b>books</b>, <b>work</b> los yog <b>worked</b>.</p>
 <h3>-s: /s/, /z/ los yog /ɪz/</h3>
 <p>Peb yam no siv rau plural -s, rau -s tom qab he / she / it, thiab rau 's.</p>
 <div class="tbl"><table><tr><th>Hais li cas</th><th>Thaum twg</th><th>Lus Askiv</th></tr><tr><td>/s/</td><td>tom qab /p t k f/</td><td class="k">books, works</td></tr><tr><td>/z/</td><td>tom qab vowel thiab lwm tus consonant</td><td class="k">dogs, plays</td></tr><tr><td>/ɪz/</td><td>tom qab /s z ʃ tʃ dʒ/</td><td class="k">buses, watches</td></tr></table></div>
@@ -183,7 +183,7 @@ practice:[
 ["fi","I need two __.","Kuv xav tau ob lub box.","boxes","box|boxs|a box","Muaj two: plural. Tom qab x, -es hais /ɪz/."],
 ["ty","rau tus tub kawm ntawv","six students","six · student — siv plural","student","Muaj six: plural students, hais /nts/."],
 ["ty","Nws (txiv neej) muaj ob lub hnab","He has two bags","has · two · bag — siv plural","bag","Muaj two: plural bags. -s hais /z/."],
-["ty","Kuv niam ua mov qab heev","My mom cooks well|My mother cooks well|My mom cooks really well|My mother cooks really well|My mom cooks very well|My mother cooks very well","mom · cook · well — siv -s","cook","My mom yog ib tug neeg: cooks. Hais /ks/."]]},
+["ty","Kuv niam ua mov qab heev (cook)","My mom cooks well|My mother cooks well|My mom cooks really well|My mother cooks really well|My mom cooks very well|My mother cooks very well","mom · cook · well — siv -s","cook","My mom yog ib tug neeg: cooks. Hais /ks/."]]},
 { id:"countable", title:"Countable thiab uncountable: some, any, much, many", blurb:"Water tsis siv a, tsis muaj -s. Many rau yam suav tau, much rau yam suav tsis tau.", deck:"Mus noj mov", body:`
 <p>Lus Hmoob muaj classifier: <b>ib lub tsev</b>, <b>ib daim ntawv</b>, <b>ib txoj kev</b>. Lus Askiv tsis muaj classifier, tab sis noun muaj ob yam: yam <b>suav tau</b> (countable) thiab yam <b>suav tsis tau</b> (uncountable).</p>
 <div class="tbl"><table><tr><th>Suav tau</th><th>Suav tsis tau</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, two, three …, -s: siv tau</td><td>a / an, two, three …, -s: siv tsis tau</td></tr></table></div>
@@ -211,8 +211,8 @@ practice:[
 ["fi","I don't have __ questions.","Kuv tsis muaj lo lus nug.","any","some|much|a","Tsis muaj: any."],
 ["fi","a cup __ coffee","ib khob kav fes","of","for|in|a","Suav kav fes: siv a cup of."],
 ["ty","Kuv thov dej haus puas tau?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — tsis siv article","a","Water suav tsis tau: siv some, tsis siv article a."],
-["ty","Koj puas muaj lo lus nug?","Do you have any questions","any · question — siv plural","question","Tom qab any, noun suav tau: plural questions."],
-["ty","Muaj pes tsawg tus neeg?","How many people","how many · people — neeg suav tau","much","Neeg suav tau: many."]]},
+["ty","Koj puas muaj lo lus nug? (siv any)","Do you have any questions","any · question — siv plural","question","Tom qab any, noun suav tau: plural questions."],
+["ty","Muaj pes tsawg tus neeg?","How many people|How many people are there","how many · people — neeg suav tau","much","Neeg suav tau: many."]]},
 { id:"object-have", title:"me, him, her thiab have", blurb:"Tom qab verb siv me, tsis yog I. Thiab have: muaj, noj, haus.", deck:"Kuv tus kheej", body:`
 <p>Lus Hmoob pronoun (tej lus pauv lub npe) tsis hloov: <b>kuv</b> = I, me thiab my. <b>Nws paub kuv</b>: kuv tsis hloov. Lus Askiv pronoun hloov: tom qab verb los yog preposition (tej lus txog kev nyob qhov twg), siv <b>me, him, her, us, them</b>.</p>
 <p>Lus Hmoob <b>nws</b> = he, she thiab him, her. Koj yuav kawm ntau dua tom qab, hauv he-she-it.</p>
@@ -232,15 +232,15 @@ practice:[
 ["mc","'Pab peb puas tau?' — lus Askiv twg raug?","Can you help us?","Can you help we?","Can you help our?","Can us help you?","Tom qab verb siv us."],
 ["mc","'Wb mus noj su.' — lus Askiv twg raug?","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","Lunch tsis siv article."],
 ["mc","'Kuv muaj ob tug nus.' (poj niam hais) — lus Askiv twg raug?","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","Tsev neeg: have. Ob tug yog plural."],
-["or","Koj puas muaj cwj mem?","Do you have a pen","the pens","Ib tus cwj mem: article a thiab pen (singular)."],
+["or","Koj puas muaj cwj mem?","Do you have a pen","the pens","Ib tug cwj mem: article a thiab pen (singular)."],
 ["or","Kuv nyiam nws (poj niam)","I like her","she","Tom qab verb siv her."],
 ["or","Kuv muaj ob tug muam (txiv neej hais)","I have two sisters","sister a","Ob tug yog plural: sisters. Tsis siv article a."],
-["fi","Call __ tonight.","Tsaus ntuj no hu rau kuv.","me","I|my|mine","Tom qab verb siv me."],
+["fi","Call __ tonight.","Hmo no hu rau kuv.","me","I|my|mine","Tom qab verb siv me."],
 ["fi","I work with __.","Kuv ua hauj lwm nrog nws (txiv neej).","him","he|his|he's","Tom qab preposition (with) kuj siv him."],
 ["fi","She __ a dog.","Nws (poj niam) muaj ib tug dev.","has","have|is|haves","She siv has."],
 ["ty","Pab kuv puas tau?","Can you help me|Could you help me","can you · help · me — tsis siv I","I","Tom qab verb siv me."],
-["ty","Koj puas muaj cwj mem?","Do you have a pen","do you have · pen — siv article a","the","Ib tus cwj mem: article a."],
-["ty","Kuv muaj ntau tus phooj ywg","I have many friends|I have a lot of friends","have · many · friend — siv plural","friend","Tom qab many siv plural friends."]]},
+["ty","Koj puas muaj cwj mem? (a)","Do you have a pen|Have you got a pen","do you have · pen — siv article a","the","Ib tug cwj mem: article a."],
+["ty","Kuv muaj ntau tus phooj ywg","I have many friends|I have a lot of friends|I have lots of friends|I've got a lot of friends|I have got a lot of friends|I've got lots of friends|I have got lots of friends|I've got many friends|I have got many friends","have · many · friend — siv plural","friend","Tom qab many siv plural friends."]]},
 { id:"can-like", title:"can, like + -ing, I'd like: koj ua tau dab tsi thiab xav tau dab tsi", blurb:"Hais tias koj ua tau dab tsi, nyiam dab tsi, thiab tam sim no xav tau dab tsi.", deck:"Sib tham", body:`
 <p>Peb yam no pab koj qhia koj tus kheej thiab thov ib yam.</p>
 <h3>can: ua tau</h3>
@@ -266,8 +266,8 @@ practice:[
 ["fi","I can't __.","Kuv ua luam dej tsis tau.","swim","swimming|swims|to swim","Tom qab can't: verb tsis hloov."],
 ["fi","I like __ music.","Kuv nyiam mloog nkauj.","listening to","listen to|listen|to listening","Tom qab like siv -ing."],
 ["fi","__ like a sandwich, please.","Thov ib lub sandwich.","I'd|I would","I|I'm|I can","Thov: I'd like."],
-["ty","Kuv nyiam ua mov","I like cooking|I love cooking|I like to cook","like · cook — siv -ing","cook","Tom qab like siv -ing."],
-["ty","Thov ib lub sandwich","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — siv article a","the","Ib lub sandwich: article a."],
+["ty","Kuv nyiam ua mov (cook)","I like cooking|I love cooking|I like to cook|I love to cook","like · cook — siv -ing","cook","Tom qab like siv -ing."],
+["ty","Thov ib lub sandwich","A sandwich please|I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — siv article a","the","Ib lub sandwich: article a."],
 ["ty","Kuv nyiam dev","I like dogs|I love dogs","like · dog — siv plural","dog","Txhua tus dev: plural dogs."]]},
 { id:"continuous", title:"Tam sim no: be + -ing", blurb:"Ua txhua hnub: Simple Present. Tam sim no tab tom ua: be + -ing.", deck:"Sib tham", body:`
 <p>Lus Hmoob <b>tab tom</b> qhia tias tam sim no tab tom ua: <b>Kuv tab tom noj mov</b>. Tab sis lus Hmoob tsis siv tab tom txhua zaus. Lus Askiv yuav tsum siv <b>be + verb-ing</b> txhua zaus: <b>I'm working</b>.</p>
@@ -293,8 +293,8 @@ practice:[
 ["fi","I'm __ TV.","Kuv tab tom saib TV.","watching","watch|watches|to watch","Tom qab be siv -ing."],
 ["fi","What __ you doing?","Koj tab tom ua dab tsi?","are","do|is|does","You siv are."],
 ["fi","She __ working today.","Hnub no nws (poj niam) tsis ua hauj lwm.","isn't|is not","doesn't|don't|not","Be + -ing tsis: isn't."],
-["ty","Tam sim no kuv tab tom ua mov","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook · now — siv -ing","cook","Tam sim no: be + -ing."],
-["ty","Kuv tab tom saib movie (a)","I'm watching a movie","I'm · watching · movie — siv article a","the","Ib yam movie: article a."],
+["ty","Tam sim no kuv tab tom ua mov (cook)","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook · now — siv -ing","cook","Tam sim no: be + -ing."],
+["ty","Kuv tab tom saib movie (a)","I'm watching a movie|I'm watching a film|I am watching a film","I'm · watching · movie — siv article a","the","Ib zaj movie: article a."],
 ["ty","Cov me nyuam tab tom pw tsaug zog","The kids are sleeping|The children are sleeping","kids · are · sleeping — siv plural","kid","Cov me nyuam: plural kids thiab are."]]},
 { id:"past", title:"Past tense: was / were thiab -ed", blurb:"Be hloov ua was, were. Lwm verb muaj -ed. Nug thiab tsis: siv did.", deck:"Sib tham", body:`
 <p>Lus Hmoob verb tsis hloov: <b>Nag hmo kuv mus tom khw</b>. <b>Nag hmo</b> qhia sij hawm. <b>Tau</b> thiab <b>lawm</b> muaj tau, tsis muaj kuj tau. Lus Askiv verb yuav tsum hloov txhua zaus: <b>Yesterday I went to the store</b>. Muaj yesterday lawm, verb tseem yuav tsum hloov.</p>
@@ -315,14 +315,14 @@ practice:[
 ["mc","'Nag hmo koj puas hu?' — lus Askiv twg raug?","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Tom qab Did: lo lus qub."],
 ["mc","'Zoo kawg.' (past tense) — lus Askiv twg raug?","It was fun.","It were fun.","It did fun.","It funned.","It siv was."],
 ["mc","'Koj puas tsis khoom?' (past tense) — lus Askiv twg raug?","Were you busy?","Did you busy?","Was you busy?","Were you busied?","Busy tsis yog verb: nug nrog be (were)."],
-["or","Peb saib movie (a, past tense)","We watched a movie","watch movies","Ib yam movie: article a thiab movie (singular)."],
+["or","Peb saib movie (a, past tense)","We watched a movie","watch movies","Ib zaj movie: article a thiab movie (singular)."],
 ["or","Kuv ua si nrog kuv cov phooj ywg (past tense)","I played with my friends","friend play","Cov phooj ywg: plural friends."],
 ["or","Nag hmo kuv tsis ua hauj lwm","I didn't work yesterday","worked","Tom qab didn't: lo lus qub."],
 ["fi","We __ at home last night.","Nag hmo tsaus ntuj peb nyob tsev.","were","was|did|are","We siv were."],
 ["fi","I __ soccer yesterday.","Nag hmo kuv ua si soccer.","played","play|playing|was play","Past tense siv -ed."],
 ["fi","__ you work yesterday?","Nag hmo koj puas ua hauj lwm?","Did","Were|Do|Was","Nug past tense: Did."],
-["ty","Kuv nkees (past tense)","I was tired","was · tired — I: was","were","I siv was."],
-["ty","Kuv saib movie (a, past tense)","I watched a movie","watched · movie — siv article a","the","Ib yam movie: article a."],
+["ty","Kuv nkees (past tense)","I was tired","was · tired — I siv was","were","I siv was."],
+["ty","Kuv saib movie (a, past tense)","I watched a movie|I watched a film","watched · movie — siv article a","the","Ib zaj movie: article a."],
 ["ty","Kuv hu rau kuv cov phooj ywg (past tense)","I called my friends","called · my · friend — siv plural","friend","Cov phooj ywg: plural friends."]]},
 { id:"irregular-past", title:"Past tense tsis muaj -ed: went, ate, saw", blurb:"Ntau lo lus koj siv txhua hnub tsis muaj -ed. Nco ntsoov 12 lo lus no ua ntej.", deck:"Sib tham", body:`
 <p>Cov verb koj siv txhua hnub tsis muaj -ed hauv past tense. Tsis muaj txoj cai: nco ntsoov ob lo lus ib txhij (go, went).</p>
@@ -339,14 +339,14 @@ practice:[
 ["mc","'Kuv yuav ib phau ntawv.' (past tense) — lus Askiv twg raug?","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","Buy hloov ua bought. Ib phau: article a."],
 ["mc","See: past tense yog dab tsi?","saw","seed","seen","sawed","See hloov ua saw."],
 ["mc","'Kuv tsis tau mus.' — lus Askiv twg raug?","I didn't go.","I didn't went.","I wasn't go.","I not went.","Tom qab didn't: lo lus qub."],
-["or","Kuv pom movie (a, past tense)","I saw a movie","see movies","Ib yam movie: article a thiab movie (singular). See hloov ua saw."],
+["or","Kuv pom movie (a, past tense)","I saw a movie","see movies","Ib zaj movie: article a thiab movie (singular). See hloov ua saw."],
 ["or","Peb noj pizza (past tense)","We ate pizza","eated","Eat hloov ua ate."],
 ["or","Kuv ntsib kuv cov phooj ywg (past tense)","I met my friends","friend meet","Cov phooj ywg: plural friends."],
 ["fi","I __ to Thailand last year.","Tsaib no kuv mus Thaib teb.","went","go|goed|gone","Go hloov ua went."],
 ["fi","What did you __?","Koj noj dab tsi? (past tense)","eat","ate|eaten|eating","Tom qab did: lo lus qub."],
 ["fi","She __ a new phone.","Nws (poj niam) yuav ib lub xov tooj tshiab. (past tense)","bought","buyed|buy|buys","Buy hloov ua bought."],
 ["ty","Kuv mus Fresno (past tense)","I went to Fresno","went · to · Fresno — go hloov ua went","go","Go hloov ua went."],
-["ty","Kuv yuav ib phau ntawv (past tense)","I bought a book","bought · book — siv article a","the","Ib phau ntawv: article a."],
+["ty","Kuv yuav ib phau ntawv (buy, past tense)","I bought a book","bought · book — siv article a","the","Ib phau ntawv: article a."],
 ["ty","Kuv ntsib kuv cov phooj ywg (past tense)","I met my friends|I saw my friends","met · my · friend — siv plural","friend","Cov phooj ywg: plural friends."]]},
 { id:"the", title:"Saib the dua: a ua ntej, the tom qab", blurb:"Thaum koj hais ua ntej: a. Thaum nej ob tug twb paub lawm: the.", deck:"Nug kev thiab caij tsheb", body:`
 <p>Lus Hmoob tsis muaj article. Tej zaum classifier xwb (<b>tus dev</b>) yog <b>the dog</b>, thiab <b>ib tug dev</b> yog <b>a dog</b>. Lus Askiv yuav tsum muaj article txhua zaus. Qhov no koj xyaum thaum twg siv <b>the</b> thiab thaum twg tsis siv article.</p>
@@ -355,7 +355,7 @@ practice:[
 {{ex:I bought a shirt. The shirt is blue.|/aɪ bɑːt‿ə ʃɝːt/ /ðə ʃɝːt‿ɪz bluː/|Kuv yuav ib lub tsho. Lub tsho xiav.}}
 <h3>Nej paub tias yog lub twg: the</h3>
 <p>Lub qhov rais hauv lub tsev no, lub hnub saum ntuj: koj paub tias yog lub twg, siv <b>the</b>.</p>
-{{ex:Can you open the window?|/kən ju ˈoʊpən ðə ˈwɪndoʊ/|Qhib lub qhov rais puas tau?}}{{ex:Where's the bus station?|/werz ðə bʌs ˈsteɪʃən/|Lub tsev station tsheb ntiav nyob qhov twg?}}{{ex:The sun is hot today.|/ðə sʌn‿ɪz hɑːt təˈdeɪ/|Hnub no tshav ntuj kub.}}
+{{ex:Can you open the window?|/kən ju ˈoʊpən ðə ˈwɪndoʊ/|Qhib lub qhov rais puas tau?}}{{ex:Where's the bus station?|/werz ðə bʌs ˈsteɪʃən/|Lub station tsheb ntiav nyob qhov twg?}}{{ex:The sun is hot today.|/ðə sʌn‿ɪz hɑːt təˈdeɪ/|Hnub no tshav ntuj kub.}}
 <h3>Tsis siv article</h3>
 <p>Cov lus no txog chaw, tsheb thiab mus pw tsis siv article. Nco ntsoov lawv.</p>
 {{ex:I go to work by bus.|/aɪ goʊ tə wɝːk baɪ bʌs/|Kuv caij tsheb ntiav mus ua hauj lwm.}}{{ex:I'm at home.|/aɪm‿ət hoʊm/|Kuv nyob tsev.}}{{ex:I go to bed at eleven.|/aɪ goʊ tə bed‿ət‿ɪˈlevən/|Kuv mus pw 11 teev.}}
@@ -363,7 +363,7 @@ practice:[
 check:[["I have a cat. ___ cat is white. Lo lus twg raug?",["A","An","The","(tsis muaj)"],2,"Tus miv koj nyuam qhuav hais: the."],["I go to ___ work by bus. Lo lus twg raug?",["a","the","an","(tsis muaj)"],3,"Go to work tsis siv article."],["Thov qhib lub qhov rais hauv lub tsev no: lus Askiv twg raug?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"Nej ob tug paub tias yog lub qhov rais twg: the."]],
 practice:[
 ["mc","I bought a shirt. ___ shirt is blue. Lo lus twg raug?","The","A","An","Some","Lub tsho koj nyuam qhuav hais: the."],
-["mc","'Lub tsev station nyob qhov twg?' — lus Askiv twg raug?","Where's the station?","Where's a station?","Where's station?","Where the station?","Lub tsev station ze qhov no: the."],
+["mc","'Lub station nyob qhov twg?' — lus Askiv twg raug?","Where's the station?","Where's a station?","Where's station?","Where the station?","Lub station ze qhov no: the."],
 ["mc","Lus Askiv twg raug?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","Go to work thiab by bus tsis siv article."],
 ["mc","'Tshav ntuj kub.' (the sun) — lus Askiv twg raug?","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","Muaj ib lub hnub xwb: the."],
 ["mc","'Kuv nyob tsev.' — lus Askiv twg raug?","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","At home tsis siv article."],
@@ -373,9 +373,9 @@ practice:[
 ["fi","I saw a movie. __ movie was great.","Kuv saib movie. Movie ntawd zoo heev.","The","A|An|Some","Movie koj nyuam qhuav hais: the."],
 ["fi","Where's __ bathroom?","Chav dej nyob qhov twg?","the","a|an|some","Chav dej hauv lub tsev no: the."],
 ["fi","I have __ idea.","Kuv muaj ib txoj kev xav.","an","a|the|some","Ib yam xwb, thiab idea muaj vowel ua ntej: an."],
-["ty","Kaw lub qhov rooj puas tau?","Can you close the door|Could you close the door","can you · close · door — siv article the","a","Nej ob tug paub tias yog lub qhov rooj twg: article the."],
-["ty","Lub tsev station nyob qhov twg?","Where is the station|Where's the station","where · station — siv article the","a","Lub tsev station ze qhov no: article the."],
-["ty","Kuv nyob tsev","I'm at home|I'm home","I'm · at · home — tsis siv article","the","Home tsis siv article."]]},
+["ty","Kaw lub qhov rooj puas tau?","Can you close the door|Could you close the door|Can you shut the door|Could you shut the door","can you · close · door — siv article the","a","Nej ob tug paub tias yog lub qhov rooj twg: article the."],
+["ty","Lub station nyob qhov twg?","Where is the station|Where's the station","where · station — siv article the","a","Lub station ze qhov no: article the."],
+["ty","Tam sim no kuv nyob tsev","I'm at home|I'm home|I'm at home now|I am at home now|I'm home now|I am home now","I'm · at · home — tsis siv article","the","Home tsis siv article."]]},
 { id:"adjectives", title:"Adjective thiab tshaj: bigger, more expensive, the best", blurb:"Adjective nyob ua ntej noun. Tshaj: -er los yog more. Zoo tshaj: the -est los yog the most.", deck:"Mus kav khw", body:`
 <p>Lus Hmoob adjective (tej lus piav txog tej yam yus ua) nyob tom qab noun: <b>lub hnab loj</b>. Lus Askiv adjective nyob <b>ua ntej</b> noun: <b>a big bag</b>, los yog tom qab be: <b>This bag is big.</b></p>
 {{ex:a big bag|/ə bɪg bæg/|ib lub hnab loj}}{{ex:This bag is big.|/ðɪs bæg‿ɪz bɪg/|Lub hnab no loj.}}{{ex:It's too small.|/ɪts tuː smɑːl/|Nws me heev, tsis zoo.}}
@@ -387,33 +387,33 @@ practice:[
 <p>Hauv lus Hmoob, tshaj tsis muaj dab tsi tom qab = the -est, the most. Lus Askiv siv <b>the</b>.</p>
 {{ex:This is the best restaurant here.|/ðɪs‿ɪz ðə best ˈrestərɑːnt hɪr/|Qhov no, lub tsev restaurant no zoo tshaj.}}{{ex:Which is the cheapest?|/wɪtʃ‿ɪz ðə ˈtʃiːpɪst/|Lub twg pheej yig tshaj?}}
 <div class="tip">Nco ntsoov: <b>dress blue</b> ✗ → <b>blue dress</b> ✓ / <b>more cheaper</b>, <b>more good</b> ✗ → <b>cheaper</b>, <b>better</b> ✓. Tsis siv -er thiab more ib txhij.</div>`,
-check:[["Big: lo lus tshaj yog dab tsi?",["more big","biger","bigger","most big"],2,"Lo lus luv: -er. Sau g ob zaug."],["This is ___ expensive than that. Lo lus twg raug?",["more","most","much","very"],0,"Lo lus ntev: more."],["Good: zoo tshaj (the …) yog dab tsi?",["the goodest","the most good","the better","the best"],3,"Good hloov ua better thiab the best."]],
+check:[["Big → ___ than. Lo lus twg raug?",["more big","biger","bigger","most big"],2,"Lo lus luv: -er. Sau g ob zaug."],["This is ___ expensive than that. Lo lus twg raug?",["more","most","much","very"],0,"Lo lus ntev: more."],["Good: zoo tshaj (the …) yog dab tsi?",["the goodest","the most good","the better","the best"],3,"Good hloov ua better thiab the best."]],
 practice:[
-["mc","Cheap: lo lus tshaj yog dab tsi?","cheaper","more cheap","cheapper","most cheap","Lo lus luv: -er."],
+["mc","Cheap → ___ than. Lo lus twg raug?","cheaper","more cheap","cheapper","most cheap","Lo lus luv: -er."],
 ["mc","'Lub no kim dua.' — lus Askiv twg raug?","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","Lo lus ntev: more."],
 ["mc","'Koj puas muaj size loj dua?' — lus Askiv twg raug?","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","Article + adjective + noun: adjective nyob ua ntej noun."],
-["mc","Good: lo lus tshaj yog dab tsi?","better","gooder","more good","best","Good hloov ua better."],
+["mc","Good → ___ than. Lo lus twg raug?","better","gooder","more good","best","Good hloov ua better."],
 ["mc","'Lub tsev restaurant no zoo tshaj.' — lus Askiv twg raug?","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","Ua ntej best: the."],
-["or","Koj puas muaj size loj dua?","Do you have a bigger size","the sizes","Koj nug ib qho size: article a."],
+["or","Koj puas muaj size loj dua?","Do you have a bigger size","the sizes","Koj nug ib yam size: article a."],
 ["or","Lub no pheej yig tshaj","This is the cheapest","a cheaper","Ua ntej cheapest: article the."],
 ["or","Lub no pheej yig tshaj lub ntawd","This is cheaper than that","more","Cheaper twb muaj -er: tsis siv more."],
 ["fi","It's __ small.","Nws me heev, tsis zoo.","too","much|more|most","Me heev thiab tsis zoo: too."],
 ["fi","This is cheaper __ that one.","Lub no pheej yig tshaj lub ntawd.","than","then|that|more","Tshaj lub ntawd: than."],
 ["fi","It's the __ expensive one.","Lub no kim tshaj.","most","more|much|very","Lo lus ntev, kim tshaj: the most."],
-["ty","Koj puas muaj size me dua?","Do you have a smaller size","smaller · size — siv article a","the","Koj nug ib qho size: article a."],
+["ty","Koj puas muaj size me dua? (a)","Do you have a smaller size","smaller · size — siv article a","the","Koj nug ib yam size: article a."],
 ["ty","Lub no zoo tshaj","This is the best|This one is the best","the · best — siv article the","a","Zoo tshaj: article the thiab best."],
 ["ty","Lub no pheej yig dua","This is cheaper|This one is cheaper","cheap — siv -er","more","Lo lus luv: -er."]]},
 { id:"going-to", title:"be going to: yam koj yuav ua", blurb:"Yam koj twb npaj lawm tias yuav ua: be going to + verb.", deck:"Sib tham", body:`
 <p>Lus Hmoob <b>yuav</b> = will, going to thiab want. Lus Askiv siv <b>be + going to + verb</b> thaum koj twb npaj lawm.</p>
 {{ex:I'm going to visit Fresno.|/aɪm ˈgoʊɪŋ tə ˈvɪzɪt ˈfreznoʊ/|Kuv yuav mus xyuas Fresno.}}{{ex:She's going to buy a car.|/ʃiz ˈgoʊɪŋ tə baɪ ə kɑːr/|Nws (poj niam) yuav mus yuav ib lub tsheb.}}{{ex:We're going to have dinner.|/wɪr ˈgoʊɪŋ tə hæv ˈdɪnɚ/|Peb yuav noj hmo.}}
 <h3>Tsis thiab nug</h3>
-{{ex:I'm not going to go.|/aɪm nɑːt ˈgoʊɪŋ tə goʊ/|Kuv yuav tsis mus.}}{{ex:Are you going to come?|/ɑːr ju ˈgoʊɪŋ tə kʌm/|Koj puas yuav tuaj?}}{{ex:What are you going to do this weekend?|/wʌt‿ɑːr ju ˈgoʊɪŋ tə duː ðɪs ˈwiːkend/|Hnub Saturday thiab hnub Sunday no koj yuav ua dab tsi?}}
+{{ex:I'm not going to go.|/aɪm nɑːt ˈgoʊɪŋ tə goʊ/|Kuv yuav tsis mus.}}{{ex:Are you going to come?|/ɑːr ju ˈgoʊɪŋ tə kʌm/|Koj puas yuav tuaj?}}{{ex:What are you going to do this weekend?|/wʌt‿ɑːr ju ˈgoʊɪŋ tə duː ðɪs ˈwiːkend/|Hnub so no koj yuav ua dab tsi?}}
 <h3>Koj pom tias yuav los nag: going to</h3>
 {{ex:It's going to rain.|/ɪts ˈgoʊɪŋ tə reɪn/|Yuav los nag.}}
 <h3>Lo lus sij hawm</h3>
 <p>tomorrow (tag kis), tonight, this weekend, next week nyob qhov kawg.</p>
 <div class="tip">Thaum hais lus, going to hais nkaus li <b>gonna</b>. Nco ntsoov be: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
-check:[["'Tag kis kuv yuav mus ntsib kuv tus phooj ywg.' (use going to) — lus Askiv twg raug?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"Siv be + going to + verb."],["She ___ going to study. Lo lus twg raug?",["am","are","is","be"],2,"She siv is."],["'Hnub Saturday thiab hnub Sunday no koj yuav ua dab tsi?' — lus Askiv twg raug?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Nug: What + be + subject + going to."]],
+check:[["'Tag kis kuv yuav mus ntsib kuv tus phooj ywg.' (use going to) — lus Askiv twg raug?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"Siv be + going to + verb."],["She ___ going to study. Lo lus twg raug?",["am","are","is","be"],2,"She siv is."],["'Hnub so no koj yuav ua dab tsi?' — lus Askiv twg raug?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Nug: What + be + subject + going to."]],
 practice:[
 ["mc","'Kuv yuav mus Fresno.' — lus Askiv twg raug?","I'm going to go to Fresno.","I going to go to Fresno.","I'm going go to Fresno.","I'm go to Fresno going.","Siv be + going to + verb."],
 ["mc","They ___ going to come. Lo lus twg raug?","are","is","am","be","They siv are."],
@@ -423,10 +423,10 @@ practice:[
 ["or","Nws (poj niam) yuav mus yuav ib lub tsheb","She's going to buy a car","the cars","Ib lub tsheb: article a thiab car (singular)."],
 ["or","Kuv yuav mus ntsib kuv cov phooj ywg","I'm going to meet my friends","friend","Cov phooj ywg: plural friends."],
 ["or","Peb yuav noj hmo","We're going to have dinner","a","Dinner tsis siv article."],
-["fi","I'm going __ study tonight.","Tsaus ntuj no kuv yuav kawm ntawv.","to","for|at|will","Siv going to + verb."],
+["fi","I'm going __ study tonight.","Hmo no kuv yuav kawm ntawv.","to","for|at|will","Siv going to + verb."],
 ["fi","__ you going to come?","Koj puas yuav tuaj?","Are","Do|Is|Will","You siv Are."],
 ["fi","It's going to __ tomorrow.","Tag kis yuav los nag.","rain","rains|raining|rained","Tom qab going to: verb tsis hloov."],
-["ty","Kuv yuav saib movie (a, use going to)","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — siv article a","the","Ib yam movie: article a."],
+["ty","Kuv yuav saib movie (a, use going to)","I'm going to watch a movie|I'm going to see a movie|I'm going to watch a film|I am going to watch a film|I'm going to see a film|I am going to see a film","going to · watch · movie — siv article a","the","Ib zaj movie: article a."],
 ["ty","Koj yuav ua dab tsi? (use going to)","What are you going to do","what · going to · do — siv be going to","will","Nug yam koj npaj lawm: be going to."],
 ["ty","Kuv yuav mus ntsib kuv cov phooj ywg (use going to)","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — siv plural","friend","Cov phooj ywg: plural friends."]]},
 { id:"joining", title:"and, but, or, so, because: thiab, tab sis, los yog, thiaj li, vim", blurb:"Lus Hmoob thiab, tab sis, vim, thiaj li = and, but, because, so. Tsis txhob siv so thiab because ib txhij.", deck:"Zoo siab thiab tu siab", body:`
@@ -434,7 +434,7 @@ practice:[
 <h3>and, but, or</h3>
 {{ex:I like coffee and tea.|/aɪ laɪk ˈkɑːfi ən tiː/|Kuv nyiam kav fes thiab tshuaj yej.}}{{ex:I'm tired but happy.|/aɪm ˈtaɪɚd bʌt ˈhæpi/|Kuv nkees tab sis kuv zoo siab.}}{{ex:Coffee or tea?|/ˈkɑːfi ɔːr tiː/|Kav fes los yog tshuaj yej?}}
 <h3>so: thiaj li</h3>
-<p><b>so</b> nyob nruab nrab, nkaus li <b>thiaj li</b>: <b>Kuv nkees, kuv thiaj li mus tsev</b> = I was tired, <b>so</b> I went home.</p>
+<p>Lus Askiv: <b>so</b> nyob ua ntej subject: I was tired, <b>so I</b> went home. Tsis txhob hais <b>I so went</b> ✗. Lus Hmoob <b>thiaj li</b> nyob tom qab kuv: <b>Kuv nkees, kuv thiaj li mus tsev.</b></p>
 {{ex:I was tired, so I went home.|/aɪ wəz ˈtaɪɚd soʊ aɪ went hoʊm/|Kuv nkees, kuv thiaj li mus tsev.}}
 <h3>because: vim</h3>
 <p><b>because</b> nkaus li <b>vim</b>: <b>Kuv mus tsev vim kuv nkees</b> = I went home <b>because</b> I was tired.</p>
@@ -455,7 +455,7 @@ practice:[
 ["fi","I'm tired __ happy.","Kuv nkees tab sis kuv zoo siab.","but","so|because|or","Tab sis yog but."],
 ["fi","I stayed home __ it was raining.","Kuv nyob tsev vim los nag.","because","so|but|or","Vim yog because."],
 ["fi","Coffee __ tea?","Kav fes los yog tshuaj yej?","or","so|but|because","Los yog = or."],
-["ty","Kuv nyiam kav fes thiab tshuaj yej","I like coffee and tea","like · coffee · and · tea — tsis siv article","a","Kav fes, tshuaj yej: tsis siv article."],
+["ty","Kuv nyiam kav fes thiab tshuaj yej","I like coffee and tea|I love coffee and tea","like · coffee · and · tea — tsis siv article","a","Kav fes, tshuaj yej: tsis siv article."],
 ["ty","Kuv nkees tab sis kuv zoo siab","I'm tired but happy|I'm tired but I'm happy","tired · but · happy — tab sis yog but","so","Tab sis yog but."],
-["ty","Kuv nyiam dev thiab miv","I like dogs and cats|I like cats and dogs","dog · and · cat — siv plural","dog","Txhua tus dev thiab miv: plural dogs, cats."]]},
+["ty","Kuv nyiam dev thiab miv","I like dogs and cats|I like cats and dogs|I love dogs and cats|I love cats and dogs","dog · and · cat — siv plural","dog","Txhua tus dev thiab miv: plural dogs, cats."]]},
 ];

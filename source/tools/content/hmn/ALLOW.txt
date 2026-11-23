@@ -129,7 +129,7 @@ station  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning 
 size  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
 restaurant  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
 idea  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
-RPA  # HMN-C more/a1.js: English noun kept inside a Hmong prompt or meaning line (no glossary or sourced Hmong word; HMONG RULES §3.2)
+RPA  # name of the Hmong writing system (Romanized Popular Alphabet), used in card notes and lesson prose (decks.js, lessons.js) when comparing English letters with Hmong spelling; an acronym, not a loanword (comment corrected by HMN-R)
 
 # HMN-I interface (tools/i18n/hmn/ui.json): app and web words kept in English (no attested Hmong term; list and reasons in tools/i18n/hmn/NOTES.md)
 account  # HMN-I ui.json: UW Extension Hmong Zoom sheet keeps it ("tsim tus zoom account dawb")
@@ -206,3 +206,57 @@ dʒ  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and w
 sh  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
 ies  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
 gonna  # HMN-C more/a1.js: English spelling or IPA quoted inside Hmong prose and why lines (final-sounds, plurals, third-s, past, going-to: -s as /ɪz/, -ed as /ɪd/, s·x·ch·sh, -ies, gonna); English being taught, not Hmong
+tone  # HMN-B pron and alphabet lessons: «cim (tone)», the English term beside cim (profile §3 tone mark row; §8 final-sounds sample line)
+rich  # HMN-D conditionals check 0: English sentence quoted in a Hmong mc question (If I ___ rich, I would travel.)
+rang  # HMN-D narrative practice 1: English sentence quoted in a Hmong mc question (when the phone rang)
+idiom  # HMN-B idioms lesson: the English term named once beside paj lug (profile §3 rule: English term kept, never coined)
+# HMN-A decks.js / extra.js: English kept after a Hmong head noun (HMONG RULES §3.2) where the glossary has no word; names in the shared English side
+bank  # HMN-A deck 2/5 «lub tsev bank»: no glossary word for bank
+ATM  # HMN-A deck 4 «tshuab ATM» (tshuab = machine)
+Wi-Fi  # HMN-A deck 4 card «Wi-Fi password»: app/tech word, no Hmong word
+Coke  # HMN-A deck 6 «dej Coke» (brand name kept, head noun dej)
+tip  # HMN-A deck 6 «nyiaj tip» (head noun nyiaj): no glossary word for a gratuity
+decaf  # HMN-A deck 7 «kav fes decaf» (head noun kav fes)
+oat milk  # HMN-A deck 7 card target quoted in the meaning: no Hmong word
+batteries  # HMN-A deck 7 «cov batteries»: no glossary word
+chargers  # HMN-A deck 7 «cov chargers rau xov tooj»: no glossary word
+Apple Pay  # HMN-A deck 8 brand name
+passport  # HMN-A deck 15 «daim ntawv passport» (head noun ntawv = document)
+hotel  # HMN-A deck 15/18 «tsev hotel» (head noun tsev, as HMONG RULES §3.2 hotel → tsev hotel)
+Hilton  # HMN-A deck 15 hotel name in the shared English card
+laptop  # HMN-A deck 15 «lub tshuab laptop» (head noun tshuab = machine)
+airport  # HMN-A deck 5 and DIALOG: no attested Hmong word (en-hmn decisions §5 gap list)
+McDonald's  # HMN-A deck 18 «Khw McDonald's» (HMONG RULES §3.2 example)
+Boston  # HMN-A deck 5 place name in the shared English card
+Jay  # HMN-A deck 2 given name in the shared English card (Please call me Jay.)
+Mr.  # HMN-A deck 14 title kept with the clan name (Mr. Vang), as the brief's localisation map writes it
+Ms.  # HMN-A DIALOG title kept with the clan name (Ms. Yang)
+website  # HMN-I ui.json: "the website version" of the app (no attested Hmong word used; DHS respells it vas sab, not used)
+Lang App  # HMN-I ui.json: product name
+Enter  # HMN-I ui.json: keyboard key name
+Esc  # HMN-I ui.json: keyboard key name
+Ctrl  # HMN-I ui.json: keyboard key name (Ctrl+K)
+# HMN-A deck 14: English full forms of text abbreviations, quoted in the card notes (HMONG RULES §3.3: the full form goes in the note)
+laughing out loud  # LOL
+be right back  # BRB
+to be honest  # TBH
+oh my God  # OMG
+as soon as possible  # ASAP
+talk to you later  # TTYL
+never mind  # NVM
+for your information  # FYI
+# HMN-A deck 21 alphabet notes (letter names and example words, alphabet-spec.md §B)
+double u  # name of W
+sneeze  # HMN-A PAUSE polite «Bless you»: the English word quoted, no glossary word for sneeze
+tel  # HMN-R lessons.js CHECKS pron: English syllable of hotel (ho-TEL) quoted in a check option; not Hmong
+directions  # HMN-R lessons.js CHECKS polite: English answer option (Could you give me directions?)
+patients  # HMN-R practice.js email: English distractor (patients vs patience) quoted in the why line
+attach  # HMN-R practice.js email: English verb named in a type prompt cue and hint (siv attach)
+white  # HMN-R CHECKS the: English sentence quoted in a check question (… cat is white.)
+Thu  # HMN-R ui.json weekday header (Sun Mon Tue Wed Thu Fri Sat kept in English, like the other six); legal RPA shape but not a Hmong word here
+A  # HMN-R ui.json: the letter A as a speaker label (A thiab B tham) and in the font-size buttons A− / A+
+dot  # HMN-R lessons.js alphabet tip: English word read aloud in an email address (mai dot vang at example dot com)
+double  # HMN-R lessons.js alphabet tip: English word for spelling double letters (double L)
+hill  # HMN-R lessons.js prep: English sentence quoted in prose (They're up on the hill)
+zee  # HMN-R lessons.js alphabet table: the American name of the letter Z, quoted; not a Hmong word
+example dot com  # HMN-R lessons.js alphabet tip: an email address read aloud in English (mai dot vang at example dot com)

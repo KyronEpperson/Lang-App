@@ -1,0 +1,32 @@
+{
+  "lessons": {},
+  "items": {
+    "articles#13": "typed-answer pass (hmn-en review): 'Let's go eat / have / for lunch' accepted (the Hmong says mus, go)",
+    "phrasal#13": "typed-answer pass (hmn-en review): wrong-person variants (I ran out of milk / I'm out of milk) removed: the Hmong prompt says peb (we)",
+    "plurals#12": "typed-answer pass (hmn-en review): 'I've got two sisters' / 'I have got two sisters' accepted (articles#11 accepts have got)",
+    "present#12": "typed-answer pass (hmn-en review): 'I love cats' accepted (nyiam = like / love; articles#12 accepts 'I love dogs')",
+    "third-s#11": "typed-answer pass (hmn-en review): 'He's got a car' / 'He has got a car' accepted",
+    "third-s#12": "typed-answer pass (hmn-en review): 'She loves cats' accepted (nyiam = like / love)",
+    "countable#13": "typed-answer pass (hmn-en review): 'How many people are there' accepted (full question for Muaj pes tsawg tus neeg?)",
+    "object-have#12": "typed-answer pass (hmn-en review): 'Have you got a pen' accepted",
+    "object-have#13": "typed-answer pass (hmn-en review): have got and 'lots of friends' accepted",
+    "can-like#11": "typed-answer pass (hmn-en review): 'I love to cook' accepted (the item accepts love cooking and like to cook)",
+    "continuous#12": "typed-answer pass (hmn-en review): 'film' accepted for movie",
+    "past#12": "typed-answer pass (hmn-en review): 'film' accepted for movie",
+    "the#11": "typed-answer pass (hmn-en review): 'shut the door' accepted (will#13 accepts it)",
+    "going-to#11": "typed-answer pass (hmn-en review): 'film' accepted for movie",
+    "joining#11": "typed-answer pass (hmn-en review): 'I love coffee and tea' accepted (nyiam = like / love)",
+    "joining#13": "typed-answer pass (hmn-en review): love variants accepted for nyiam",
+    "it-there#12": "typed-answer pass (hmn-en review): 'washroom' accepted beside bathroom / restroom for chav dej",
+    "questions#12": "typed-answer pass (hmn-en review): 'washroom' accepted, as it-there#12",
+    "past-continuous#12": "typed-answer pass (hmn-en review): 'film' accepted for movie",
+    "modals#13": "typed-answer pass (hmn-en review): wrong-person variants 'I have to buy a ticket' / 'We have to buy a ticket' removed: the Hmong prompt says koj (you)",
+    "first-conditional#13": "typed-answer pass (hmn-en review): wrong-person variants (We'll / I'll miss the bus) removed: the Hmong prompt says koj (you)",
+    "relative#11": "typed-answer pass (hmn-en review): which variants accepted (the lesson teaches which for things)",
+    "relative#13": "typed-answer pass (hmn-en review): which variants and 'film' accepted",
+    "narrative#11": "typed-answer pass (hmn-en review): 'film' accepted for movie",
+    "reported#13": "typed-answer pass (hmn-en review): 'that' variants, 'he'd seen' and 'film' accepted",
+    "can-like#12": "typed-answer pass (hmn-en review): 'A sandwich please' accepted (polite#13 accepts 'Two coffees please')",
+    "the#13": "typed-answer pass (hmn-en review): the Hmong prompt now starts with Tam sim no (Kuv nyob tsev alone also reads 'I live at home'), so the 'now' forms are accepted as prep#12 accepts them"
+  }
+}

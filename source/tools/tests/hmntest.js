@@ -35,7 +35,7 @@ let fail = 0; const ok = (n, c, d) => { console.log((c ? 'PASS ' : 'FAIL ') + n 
     ok('picker keeps alphabetical order by self name', i > 0 && names[i - 1].localeCompare('Hmoob', 'en', { sensitivity: 'base' }) < 0 && (i === names.length - 1 || names[i + 1].localeCompare('Hmoob', 'en', { sensitivity: 'base' }) > 0), names);
     ok('Hmoob not under Coming soon (t:1)', !pk.locked);
     const noStub = await (async () => { const q = await page(); const v = await q.p.evaluate(() => ({ live: liveNatives().includes('hmn'), soon: Object.keys(LANGS).filter(k => !LANGS[k].t).includes('hmn') })); await q.ctx.close(); return v; })();
-    ok('without an hmn-en course hmn is neither live nor coming soon', !noStub.live && !noStub.soon, noStub);
+    ok('with the hmn-en course released, Hmong is a live native language', noStub.live && !noStub.soon, noStub);
     const s2 = await p.evaluate(async () => { const b = document.querySelector('#langHome .lh-row[data-native="en"]'); if (!b) return 'no en row'; b.click(); await new Promise(r => setTimeout(r, 300)); const h = document.getElementById('langHome'); return { txt: h ? h.textContent : '', rm: !!roadmapOf('hmn') }; });
     ok('step 2 (English speaker): Hmong is offered as a target now that the en-hmn course exists', s2 && /Hmong|Hmoob/.test(s2.txt), s2 && s2.rm);
     ok('no page errors', !errs.length, errs);
@@ -45,7 +45,7 @@ let fail = 0; const ok = (n, c, d) => { console.log((c ? 'PASS ' : 'FAIL ') + n 
     const { p, ctx } = await page(lang);
     const r = await p.evaluate(stub => { const before = preLang(); new Function(stub)(); return { before, after: preLang() }; }, '(' + stub.toString() + ')()');
     ok('preLang ' + lang + ' -> ' + want + ' (live hmn native + hmn interface pack)', r.after === want, r);
-    ok('preLang ' + lang + ' -> en while no hmn interface exists', r.before === 'en', r);
+    ok('preLang ' + lang + ' -> ' + (lang === 'hmong' ? 'en (not a language code)' : 'hmn now that the Hmong interface exists'), r.before === (lang === 'hmong' ? 'en' : 'hmn'), r);
     await ctx.close(); }
 
   { const { p, ctx, errs } = await page();

@@ -319,7 +319,7 @@
    "where": "html <b> text"
   },
   ": every card × 3 passes. Mixed = read, listen, recall.": {
-   "t": ": txhua card × 3 zaug. Xyaw = nyeem, mloog, nco.",
+   "t": ": txhua card × 3 zaus. Xyaw = nyeem, mloog, nco.",
    "ko": ": 모든 카드를 3번씩 풀어요. 섞어서 = 읽기, 듣기, 떠올리기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -368,14 +368,14 @@
    "where": "html <button> text"
   },
   "⌨️ Type 한": {
-   "t": "⌨ Sau EN",
+   "t": "⌨️ Sau EN",
    "ko": "⌨️ 영어 입력",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "🎚️ Polite ↔ casual drill · 10": {
-   "t": "🎚 Hais zoo ↔ yooj yim · 10",
+   "t": "🎚️ Hais zoo ↔ yooj yim · 10",
    "ko": "🎚️ 존댓말 ↔ 반말 훈련 · 10",
    "kind": "sentence",
    "where": "html <button> text"
@@ -440,7 +440,7 @@
    "where": "html <button> text"
   },
   "⌨️ Type it": {
-   "t": "⌨ Sau",
+   "t": "⌨️ Sau",
    "ko": "⌨️ 입력하기",
    "kind": "label",
    "where": "html <button> text"
@@ -459,7 +459,7 @@
    "where": "html <button> text"
   },
   "🎚️ Polite ↔ casual": {
-   "t": "🎚 Hais zoo ↔ yooj yim",
+   "t": "🎚️ Hais zoo ↔ yooj yim",
    "ko": "🎚️ 존댓말 ↔ 반말",
    "kind": "label",
    "where": "html <button> text"
@@ -596,7 +596,7 @@
    "where": "html <label> text"
   },
   "Share your streak": {
-   "t": "Qhia koj tus streak rau luag",
+   "t": "Qhia koj streak rau luag",
    "ko": "연속 학습 자랑하기",
    "kind": "label",
    "where": "html <h3> text"
@@ -707,7 +707,7 @@
    "where": "html <button> text"
   },
   "Export = your whole progress as text. Use it to move between devices when account sync is off.": {
-   "t": "Export = koj cov Progress huv si ua ntawv. Siv nws mus rau lwm lub cuab yeej siv thaum account sync kaw.",
+   "t": "Export = koj cov Progress huv si ua ntawv. Siv nws mus rau lwm cuab yeej siv thaum account sync kaw.",
    "ko": "내보내기 = 전체 진도를 텍스트로 저장해요. 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -839,7 +839,7 @@
    "where": "html <h3> text"
   },
   "On your device": {
-   "t": "Ntawm koj lub cuab yeej siv",
+   "t": "Ntawm koj cuab yeej siv",
    "ko": "내 기기",
    "kind": "label",
    "where": "html <b> text"
@@ -857,7 +857,7 @@
    "where": "html <b> text"
   },
   ": your email address and a copy of your progress, kept in our database (Supabase) so it syncs across devices. Only you can read your row.": {
-   "t": ": koj tus email thiab koj cov Progress, kaw cia hauv peb lub database (Supabase) kom sync rau txhua lub cuab yeej siv. Lwm tus nyeem tsis tau.",
+   "t": ": koj tus email thiab koj cov Progress, kaw cia hauv peb database (Supabase) kom sync rau txhua cuab yeej siv. Lwm tus nyeem tsis tau.",
    "ko": ": 이메일 주소와 진도 사본을 데이터베이스(Supabase)에 보관해 여러 기기에서 동기화해요. 내 데이터는 나만 읽을 수 있어요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -884,7 +884,7 @@
    "where": "html <b> text"
   },
   "to all users. Your name is shown only if you tick \"Show my name\". We also store the page you posted from, the app version and your browser type (never shown publicly) to help fix bugs.": {
-   "t": "pom tau. Koj lub npe tshwm sim thaum koj xaiv \"Qhia kuv lub npe\" xwb. Peb kuj kaw cia nplooj ntawv uas koj sau, app version thiab koj lub browser (tsis qhia rau sawvdaws) kom kho tau bug.",
+   "t": "pom tau. Koj lub npe tshwm sim thaum koj xaiv \"Qhia kuv lub npe\" xwb. Peb kuj kaw cia nplooj ntawv uas koj sau, app version thiab koj browser (tsis qhia rau sawvdaws) kom kho tau bug.",
    "ko": "로 모든 사용자에게 보여요. 이름은 \"내 이름 표시\"를 체크했을 때만 보여요. 버그 수정을 위해 글을 올린 페이지, 앱 버전, 브라우저 종류도 저장해요(공개되지 않아요).",
    "kind": "sentence",
    "where": "html text"
@@ -910,14 +910,14 @@
    "where": "html <b> text"
   },
   ": if the app crashes, a short technical error message is recorded (no progress data, no email) so it can be fixed.": {
-   "t": ": yog app tsis ua hauj lwm, peb kaw cia ib qhov error luv luv (tsis muaj Progress, tsis muaj email) kom kho tau.",
+   "t": ": yog app tsis ua hauj lwm, peb kaw cia error luv luv (tsis muaj Progress, tsis muaj email) kom kho tau.",
    "ko": ": 앱에 오류가 나면 고칠 수 있도록 짧은 기술 오류 메시지만 기록해요(진도 데이터나 이메일은 포함하지 않아요).",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Your controls": {
-   "t": "Koj ua tau li no",
+   "t": "Koj xaiv tau",
    "ko": "내가 할 수 있는 것",
    "kind": "label",
    "where": "html <h3> text"
@@ -929,7 +929,7 @@
    "where": "html <b> text"
   },
   ": Progress → Backup → Share file or Copy export; Import on any device.": {
-   "t": ": Progress → Backup → Qhia ntaub ntawv rau luag los yog Theej export; Import rau txhua lub cuab yeej siv.",
+   "t": ": Progress → Backup → Qhia ntaub ntawv rau luag los yog Theej export; Import rau txhua cuab yeej siv.",
    "ko": ": 진도 → 백업 → 파일 공유 또는 내보내기 복사, 다른 기기에서 가져오기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -969,7 +969,7 @@
    "where": "html <h3> text"
   },
   "Be kind, stay on topic, no spam, no personal information (yours or anyone else's). Posts that break these may be hidden. Don't post passwords, phone numbers or addresses.": {
-   "t": "Siab zoo, sau txog Lang App xwb, tsis txhob spam, tsis txhob sau ntaub ntawv txog koj los yog lwm tus. Yam uas ua txhaum txoj cai, tej zaum sawvdaws yuav tsis pom. Tsis txhob sau lo lus zais, xov tooj los yog chaw nyob.",
+   "t": "Siab zoo, sau txog Lang App xwb, tsis txhob spam, tsis txhob sau ntaub ntawv txog koj los yog lwm tus. Yam uas ua txhaum txoj cai, tej zaum sawvdaws yuav tsis pom. Tsis txhob sau lo lus zais, tus xov tooj los yog chaw nyob.",
    "ko": "친절하게, 주제에 맞게 써 주세요. 스팸이나 개인정보(본인 것이든 남의 것이든)는 안 돼요. 규칙을 어긴 글은 숨겨질 수 있어요. 비밀번호, 전화번호, 주소는 올리지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -988,7 +988,7 @@
    "where": "html <p> text"
   },
   "Lang App is a free learning tool provided as-is. Last updated Nov 2026.": {
-   "t": "Lang App yog ib qhov app kawm dawb, muab li no xwb. Hloov zaum kawg: kaum ib hlis ntuj 2026.",
+   "t": "Lang App yog app kawm dawb. Hloov zaus kawg: kaum ib hlis ntuj 2026.",
    "ko": "Lang App은 있는 그대로 제공되는 무료 학습 도구예요. 최종 업데이트: 2026년 11월.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1040,7 +1040,7 @@
    "where": "html <button> text"
   },
   "❤️ Love it": {
-   "t": "❤ Nyiam heev",
+   "t": "❤️ Nyiam heev",
    "ko": "❤️ 좋아요",
    "kind": "label",
    "where": "html <button> text"
@@ -1064,7 +1064,7 @@
    "where": "html text"
   },
   "Your post appears on the public board below. Don't include passwords, phone numbers or addresses.": {
-   "t": "Koj tej lus yuav tshwm sim rau hauv qab no, sawvdaws pom tau. Tsis txhob sau lo lus zais, xov tooj los yog chaw nyob.",
+   "t": "Koj tej lus yuav tshwm sim rau hauv qab no, sawvdaws pom tau. Tsis txhob sau lo lus zais, tus xov tooj los yog chaw nyob.",
    "ko": "글은 아래 공개 게시판에 올라가요. 비밀번호, 전화번호, 주소는 적지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1107,7 +1107,7 @@
    "where": "html <span> text"
   },
   "The community board lives on the website version of the app.": {
-   "t": "Feedback ntawm sawvdaws tsuas muaj nyob hauv website xwb.",
+   "t": "Feedback ntawm sawvdaws nyob hauv website xwb.",
    "ko": "커뮤니티 게시판은 웹사이트 버전에서 볼 수 있어요.",
    "kind": "sentence",
    "where": "js box() <div>"
@@ -1140,7 +1140,7 @@
    "where": "js who()"
   },
   "❤️ loved by the dev": {
-   "t": "❤ tus ua app nyiam",
+   "t": "❤️ tus ua app nyiam",
    "ko": "❤️ 개발자가 좋아해요",
    "kind": "sentence",
    "where": "js badges() <span>"
@@ -1259,7 +1259,7 @@
    "where": "js last()"
   },
   "Feedback sending works on the website version.": {
-   "t": "Xa Feedback tsuas ua tau hauv website xwb.",
+   "t": "Xa Feedback ua tau hauv website xwb.",
    "ko": "피드백 보내기는 웹사이트 버전에서 할 수 있어요.",
    "kind": "sentence",
    "where": "js last()"
@@ -1326,7 +1326,7 @@
    "where": "js d() <input> @aria-label"
   },
   "Or type the 6-digit code from the email (works inside the home-screen app):": {
-   "t": "Los yog sau tus code 6 zauv uas nyob hauv email (siv tau hauv app ntawm home screen):",
+   "t": "Los yog sau code 6 zauv uas nyob hauv email (siv tau hauv app ntawm home screen):",
    "ko": "또는 이메일로 받은 6자리 코드를 입력하세요 (홈 화면 앱에서도 돼요):",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1346,7 +1346,7 @@
    "where": "js d() <button>"
   },
   "New email sent — use the newest code.": {
-   "t": "Xa email tshiab lawm: siv tus code tshiab tshaj.",
+   "t": "Xa email tshiab lawm: siv code tshiab tshaj.",
    "ko": "새 이메일을 보냈어요 — 가장 최근 코드를 쓰세요.",
    "kind": "sentence",
    "where": "js st()"
@@ -1358,7 +1358,7 @@
    "where": "js inp()"
   },
   "Enter the 6-digit code from the email.": {
-   "t": "Sau tus code 6 zauv uas nyob hauv email.",
+   "t": "Sau code 6 zauv uas nyob hauv email.",
    "ko": "이메일로 받은 6자리 코드를 입력하세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1394,7 +1394,7 @@
    "where": "js msg()"
   },
   "Email limit reached — wait a minute, or use the last code you got.": {
-   "t": "Xa email ntau dhau lawm: tos ib feeb, los yog siv tus code kawg uas koj tau.",
+   "t": "Xa email ntau dhau lawm: tos ib feeb, los yog siv code kawg uas koj tau.",
    "ko": "이메일 발송 한도에 도달했어요 — 1분 기다리거나 마지막으로 받은 코드를 쓰세요.",
    "kind": "sentence",
    "where": "js j()"
@@ -1452,7 +1452,7 @@
    "where": "js sh() <span>"
   },
   "Signed out and cleared this device.": {
-   "t": "Kaw tawm thiab tshem tawm ntawm cuab yeej siv no lawm.",
+   "t": "Kaw tawm lawm, thiab tshem tawm Progress ntawm cuab yeej siv no lawm.",
    "ko": "로그아웃하고 이 기기의 데이터를 지웠어요.",
    "kind": "sentence",
    "where": "js out()"
@@ -1470,13 +1470,13 @@
    "where": "js sh() <input> @placeholder"
   },
   "Sync across devices": {
-   "t": "Sync rau txhua lub cuab yeej siv",
+   "t": "Sync rau txhua cuab yeej siv",
    "ko": "여러 기기에서 동기화",
    "kind": "label",
    "where": "js sh() <h3>"
   },
   "Enter your email and we'll send a sign-in link and a 6-digit code. No password. Your progress merges with what's already on this device.": {
-   "t": "Sau koj tus email thiab peb yuav xa ib tug link nkag mus thiab ib tug code 6 zauv. Tsis siv lo lus zais. Koj cov Progress yuav xyaw nrog tej uas twb nyob ntawm cuab yeej siv no.",
+   "t": "Sau koj tus email thiab peb yuav xa link nkag mus thiab code 6 zauv. Tsis siv lo lus zais. Koj cov Progress yuav xyaw nrog tej uas twb nyob ntawm cuab yeej siv no.",
    "ko": "이메일을 입력하면 로그인 링크와 6자리 코드를 보내 드려요. 비밀번호는 필요 없어요. 진도는 이 기기에 있는 기록과 합쳐져요.",
    "kind": "sentence",
    "where": "js sh() <p>"
@@ -1507,7 +1507,7 @@
    "where": "js em() <b>"
   },
   "Tap the link, or enter the code below.": {
-   "t": "Nias tus link, los yog sau tus code hauv qab no.",
+   "t": "Nias link, los yog sau code hauv qab no.",
    "ko": "링크를 누르거나 아래에 코드를 입력하세요.",
    "kind": "sentence",
    "where": "js em()"
@@ -1532,13 +1532,13 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "📧 Email — save across devices": {
-   "t": "📧 Email: kaw cia rau txhua lub cuab yeej siv",
+   "t": "📧 Email: kaw cia rau txhua cuab yeej siv",
    "ko": "📧 이메일 — 여러 기기에 저장",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "We email you a sign-in link + 6-digit code. No password. Your progress follows you to any phone or laptop.": {
-   "t": "Peb xa ib tug link nkag mus + code 6 zauv rau koj tus email. Tsis siv lo lus zais. Koj cov Progress mus nrog koj rau txhua lub xov tooj los yog computer.",
+   "t": "Peb xa link nkag mus + code 6 zauv rau koj tus email. Tsis siv lo lus zais. Koj cov Progress mus nrog koj rau txhua lub xov tooj los yog computer.",
    "ko": "로그인 링크와 6자리 코드를 이메일로 보내 드려요. 비밀번호는 필요 없어요. 어떤 폰이나 노트북에서도 진도가 이어져요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1574,7 +1574,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Save across devices": {
-   "t": "Kaw cia rau txhua lub cuab yeej siv",
+   "t": "Kaw cia rau txhua cuab yeej siv",
    "ko": "여러 기기에 저장",
    "kind": "label",
    "where": "js step2() <h1>"
@@ -1648,7 +1648,7 @@
    "where": "js msg()"
   },
   "Account deleted. This device was cleared.": {
-   "t": "Tshem tawm account lawm. Cuab yeej siv no kuj tshem tawm lawm.",
+   "t": "Tshem tawm account lawm. Progress ntawm cuab yeej siv no kuj tshem tawm lawm.",
    "ko": "계정을 삭제했어요. 이 기기의 데이터도 지웠어요.",
    "kind": "sentence",
    "where": "js r()"
@@ -1729,7 +1729,7 @@
    "where": "js (top level)"
   },
   "🔊 dialogue": {
-   "t": "🔊 kev tham",
+   "t": "🔊 A thiab B tham",
    "ko": "🔊 대화",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1742,7 +1742,7 @@
    "where": "js boxTxt() <button>"
   },
   "Plays 3 times with pauses — repeat out loud": {
-   "t": "Mloog 3 zaug, muaj sij hawm nres: hais dua",
+   "t": "Mloog 3 zaus, muaj sij hawm nres: hais dua",
    "ko": "잠깐씩 쉬며 3번 들려줘요 — 소리 내어 따라 하세요",
    "kind": "sentence",
    "where": "js boxTxt() <button> @title"
@@ -1995,7 +1995,7 @@
    "where": "js deleteCustom()"
   },
   "last quiz scores": {
-   "t": "quiz zaum kawg",
+   "t": "quiz zaus kawg",
    "ko": "최근 퀴즈 점수",
    "kind": "label",
    "where": "js spark() <svg> @aria-label"
@@ -2008,7 +2008,7 @@
    "where": "js lb()"
   },
   "Copy a link that opens this deck": {
-   "t": "Theej ib tug link uas qhib deck no",
+   "t": "Theej link uas qhib deck no",
    "ko": "이 덱을 여는 링크 복사",
    "kind": "sentence",
    "where": "js lb() @title"
@@ -2069,7 +2069,7 @@
    "where": "html <div> text"
   },
   "which one is it?": {
-   "t": "yog qhov twg?",
+   "t": "yog lo lus twg?",
    "ko": "어느 쪽일까요?",
    "kind": "sentence",
    "where": "js romT() <div>"
@@ -2399,7 +2399,7 @@
    "where": "js o() <button>"
   },
   "Which one did you hear?": {
-   "t": "Koj hnov qhov twg?",
+   "t": "Koj hnov lo lus twg?",
    "ko": "어떤 걸 들었나요?",
    "kind": "sentence",
    "where": "js o() <div>"
@@ -2457,7 +2457,7 @@
    "where": "js type()"
   },
   "🎧 Listen to the dialogue": {
-   "t": "🎧 Mloog kev tham",
+   "t": "🎧 Mloog A thiab B tham",
    "ko": "🎧 대화를 들어 보세요",
    "kind": "sentence",
    "where": "js say() <div>"
@@ -2541,7 +2541,7 @@
    "where": "js old()"
   },
   "type the sound, e.g. ga": {
-   "t": "sau lub suab, piv txwv ga",
+   "t": "sau lub suab",
    "ko": "소리를 입력하세요, 예: ga",
    "kind": "sentence",
    "where": "js it() <input> @placeholder"
@@ -2645,7 +2645,7 @@
    "where": "js hangulNext()"
   },
   "Learn again from the start": {
-   "t": "Kawm dua txij thaum pib",
+   "t": "Pib kawm dua",
    "ko": "처음부터 다시 배우기",
    "kind": "sentence",
    "where": "js pos()"
@@ -3108,7 +3108,7 @@
    "where": "js pl()"
   },
   "Make one": {
-   "t": "Tsim ib qhov",
+   "t": "Tsim plan",
    "ko": "만들기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3155,13 +3155,13 @@
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "Mus ncig teb chaws",
+   "t": "Npaj mus ncig",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Make friends & date": {
-   "t": "Nrhiav phooj ywg",
+   "t": "Tham nrog phooj ywg",
    "ko": "친구 사귀기 & 데이트",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
@@ -3278,7 +3278,7 @@
    "where": "js ov() <button>"
   },
   "One button, one session. Due reviews, new cards, a quick quiz and drills, mixed for you.": {
-   "t": "Ib lub pob, ib session. Card yuav Review, card tshiab, ib qhov quiz nrawm thiab drill, muab xyaw rau koj.",
+   "t": "Ib lub pob, ib session. Card yuav Review, card tshiab, quiz nrawm thiab drill, muab xyaw rau koj.",
    "ko": "버튼 하나로 학습 한 번. 복습할 카드, 새 카드, 빠른 퀴즈와 훈련을 알아서 섞어 드려요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3296,7 +3296,7 @@
    "where": "js TOUR()"
   },
   "Reading, listening, sentence building, role-play, numbers, polite ↔ casual — pick a drill.": {
-   "t": "Nyeem, mloog, ua sentence, tham, zauv, hais zoo ↔ yooj yim: xaiv ib qhov drill.",
+   "t": "Nyeem, mloog, ua sentence, tham, zauv, hais zoo ↔ yooj yim: xaiv drill.",
    "ko": "읽기, 듣기, 문장 만들기, 역할극, 숫자, 존댓말 ↔ 반말 — 훈련을 골라 보세요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3322,14 +3322,14 @@
    "where": "html <button> text"
   },
   "⌨️ Type": {
-   "t": "⌨ Sau",
+   "t": "⌨️ Sau",
    "ko": "⌨️ 입력",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "🎚️ Polite↔casual": {
-   "t": "🎚 Hais zoo↔yooj yim",
+   "t": "🎚️ Hais zoo↔yooj yim",
    "ko": "🎚️ 존댓말↔반말",
    "kind": "label",
    "where": "js QUICK()"
@@ -3444,7 +3444,7 @@
    "where": "js b()"
   },
   "· lesson counts as done when both are passed (+25 XP)": {
-   "t": "· lesson tiav thaum dhau ob qhov (+25 XP)",
+   "t": "· lesson tiav thaum dhau ob yam (+25 XP)",
    "ko": "· 둘 다 통과하면 레슨 완료 (+25 XP)",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -3464,13 +3464,13 @@
    "where": "js STR()"
   },
   "Then 5 cards from": {
-   "t": "Ces 5 card ntawm",
+   "t": "Mam li 5 card ntawm",
    "ko": "그다음 카드 5장:",
    "kind": "label",
    "where": "js b() <p>"
   },
   "Mini drill: 5 cards": {
-   "t": "Xyaum me ntsis: 5 card",
+   "t": "Xyaum mentsis: 5 card",
    "ko": "미니 훈련: 카드 5장",
    "kind": "label",
    "where": "js STR()"
@@ -3530,7 +3530,7 @@
    "where": "js step() <a>"
   },
   "Enter a dictionary form ending in 다.": {
-   "t": "Sau ib lo verb (piv txwv go).",
+   "t": "Sau ib lo verb.",
    "ko": "다로 끝나는 기본형을 입력하세요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3575,7 +3575,7 @@
    "where": "js l() <p>"
   },
   "dictionary form, e.g. 먹다": {
-   "t": "verb, piv txwv go",
+   "t": "verb",
    "ko": "기본형, 예: 먹다",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3596,13 +3596,13 @@
    "where": "js rows() <button>"
   },
   "Words from dialogues": {
-   "t": "Lo lus hauv kev tham",
+   "t": "Lo lus thaum A thiab B tham",
    "ko": "대화에 나온 단어",
    "kind": "label",
    "where": "js rows() <b>"
   },
   "· vocabulary that appears in dialogues but has no card yet": {
-   "t": "· lo lus uas muaj hauv kev tham tab sis tseem tsis tau muaj card",
+   "t": "· lo lus uas A thiab B hais tab sis tseem tsis tau muaj card",
    "ko": "· 대화에는 나오지만 아직 카드가 없는 단어",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -3616,7 +3616,7 @@
    "where": "js rows() <button>"
   },
   "Try 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다": {
-   "t": "Sim ib lo verb, piv txwv go",
+   "t": "Sim ib lo verb",
    "ko": "가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다 를 넣어 보세요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3684,7 +3684,7 @@
    "where": "js stem()"
   },
   "don't (지 마)": {
-   "t": "tsis txhob (txwv)",
+   "t": "tsis txhob",
    "ko": "~하지 마 (지 마)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3780,7 +3780,7 @@
    "where": "js (top level)"
   },
   "Finish a deck of the week to earn one.": {
-   "t": "Kawm Deck lim tiam no kom tiav kom tau ib qhov badge.",
+   "t": "Kawm Deck lim tiam no kom tiav, koj yuav tau badge.",
    "ko": "이번 주의 덱을 끝내면 받을 수 있어요.",
    "kind": "sentence",
    "where": "js ws() <p>"
@@ -4033,7 +4033,7 @@
    "where": "js TITLES()"
   },
   "Student": {
-   "t": "Neeg kawm",
+   "t": "Neeg kawm ntawv",
    "ko": "학생",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4137,7 +4137,7 @@
    "where": "js skip()"
   },
   "tap anywhere to continue": {
-   "t": "nias qhov twg kom mus ntxiv",
+   "t": "nias kom mus ntxiv",
    "ko": "아무 곳이나 탭해서 계속하기",
    "kind": "label",
    "where": "js eTag()"
@@ -4478,7 +4478,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "· lesson counts as done when both are passed (+25 XP).": {
-   "t": "· lesson tiav thaum dhau ob qhov (+25 XP).",
+   "t": "· lesson tiav thaum dhau ob yam (+25 XP).",
    "ko": "· 둘 다 통과하면 레슨 완료 (+25 XP).",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -4512,7 +4512,7 @@
    "where": "js stats()"
   },
   "Export = this course's progress as text (other courses are exported separately). Use it to move between devices when account sync is off.": {
-   "t": "Export = Progress ntawm chav kawm no ua ntawv (lwm chav kawm tsis nrog). Siv nws mus rau lwm lub cuab yeej siv thaum account sync kaw.",
+   "t": "Export = Progress ntawm chav kawm no ua ntawv (lwm chav kawm tsis nrog). Siv nws mus rau lwm cuab yeej siv thaum account sync kaw.",
    "ko": "내보내기 = 이 코스의 진도를 텍스트로 저장해요 (다른 코스는 따로 내보내요). 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -4542,7 +4542,7 @@
    "where": "js g()"
   },
   "Listening, typing, role-play and saying it out loud — pick a drill.": {
-   "t": "Mloog, sau, tham thiab hais: xaiv ib qhov drill.",
+   "t": "Mloog, sau, tham thiab hais: xaiv drill.",
    "ko": "듣기, 입력, 역할극, 소리 내어 말하기 — 훈련을 골라 보세요.",
    "kind": "sentence",
    "where": "js u()"
@@ -4582,7 +4582,7 @@
    ]
   },
   "Some basics": {
-   "t": "Kuv paub me ntsis",
+   "t": "Kuv paub mentsis",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding",
@@ -4592,7 +4592,7 @@
    ]
   },
   "I get by": {
-   "t": "Kuv hais tau me ntsis",
+   "t": "Kuv hais tau mentsis",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding",
@@ -4712,7 +4712,7 @@
    ]
   },
   "(second try)": {
-   "t": "(zaum ob)",
+   "t": "(zaus ob)",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner feedback",
@@ -4912,7 +4912,7 @@
    ]
   },
   "First-try score": {
-   "t": "Zaum ib raug",
+   "t": "Zaus ib raug",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen (followed by  · 80% · )",
@@ -4932,7 +4932,7 @@
    ]
   },
   "Missed on the first try": {
-   "t": "Zaum ib tsis raug",
+   "t": "Zaus ib tsis raug",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen",
@@ -4942,7 +4942,7 @@
    ]
   },
   "Every item right on the first try.": {
-   "t": "Txhua yam raug zaum ib.",
+   "t": "Txhua yam raug zaus ib.",
    "ko": null,
    "kind": "sentence",
    "context": "LL — Practice end screen",
@@ -5042,7 +5042,7 @@
    ]
   },
   "Saves across all your devices": {
-   "t": "Kaw cia rau txhua lub cuab yeej siv",
+   "t": "Kaw cia rau txhua cuab yeej siv",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1",
@@ -5384,14 +5384,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)": {
-   "t": "Review zaum kawg: {1} · raug {2}% · {3}s ib card · teev zoo tshaj {4}:00 ({5}%)",
+   "t": "Review zaus kawg: {1} · raug {2}% · {3}s ib card · teev zoo tshaj {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=f, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 1.5s per card · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card": {
-   "t": "Review zaum kawg: {1} · raug {2}% · {3}s ib card",
+   "t": "Review zaus kawg: {1} · raug {2}% · {3}s ib card",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=f",
    "example": "Last 5 reviews · 2% correct · 1.5s per card",
@@ -5620,14 +5620,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quiz · last {n}%": {
-   "t": "Quiz: {1} · zaum kawg {2}%",
+   "t": "Quiz: {1} · zaus kawg {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quiz · last 2%",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quizzes · last {n}%": {
-   "t": "Quiz: {1} · zaum kawg {2}%",
+   "t": "Quiz: {1} · zaus kawg {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quizzes · last 2%",
@@ -5839,37 +5839,37 @@
    "example": "5 / 2 · 3%"
   },
   "New 5 · {n}/{n} · pass {n}/3 · read": {
-   "t": "5 tshiab · {1}/{2} · zaum {3}/3 · nyeem",
+   "t": "5 tshiab · {1}/{2} · zaus {3}/3 · nyeem",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · read"
   },
   "Mix · {n}/{n} · pass {n}/3 · read": {
-   "t": "Xyaw · {1}/{2} · zaum {3}/3 · nyeem",
+   "t": "Xyaw · {1}/{2} · zaus {3}/3 · nyeem",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · read"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · read": {
-   "t": "Qhov nyuaj · {1}/{2} · zaum {3}/3 · nyeem",
+   "t": "Qhov nyuaj · {1}/{2} · zaus {3}/3 · nyeem",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · read"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · read": {
-   "t": "Card nyuaj tshaj · {1}/{2} · zaum {3}/3 · nyeem",
+   "t": "Card nyuaj tshaj · {1}/{2} · zaus {3}/3 · nyeem",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · read"
   },
   "Missed · {n}/{n} · pass {n}/3 · read": {
-   "t": "Tsis raug · {1}/{2} · zaum {3}/3 · nyeem",
+   "t": "Tsis raug · {1}/{2} · zaus {3}/3 · nyeem",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · read"
   },
   "{x} · {n}/{n} · pass {n}/3 · read": {
-   "t": "{1} · {2}/{3} · zaum {4}/3 · nyeem",
+   "t": "{1} · {2}/{3} · zaus {4}/3 · nyeem",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 읽기",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · read"
@@ -5894,37 +5894,37 @@
    "example": "📝 Exam · 5/25 · read"
   },
   "New 5 · {n}/{n} · pass {n}/3 · recall": {
-   "t": "5 tshiab · {1}/{2} · zaum {3}/3 · nco",
+   "t": "5 tshiab · {1}/{2} · zaus {3}/3 · nco",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · recall"
   },
   "Mix · {n}/{n} · pass {n}/3 · recall": {
-   "t": "Xyaw · {1}/{2} · zaum {3}/3 · nco",
+   "t": "Xyaw · {1}/{2} · zaus {3}/3 · nco",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · recall"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · recall": {
-   "t": "Qhov nyuaj · {1}/{2} · zaum {3}/3 · nco",
+   "t": "Qhov nyuaj · {1}/{2} · zaus {3}/3 · nco",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · recall"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · recall": {
-   "t": "Card nyuaj tshaj · {1}/{2} · zaum {3}/3 · nco",
+   "t": "Card nyuaj tshaj · {1}/{2} · zaus {3}/3 · nco",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · recall"
   },
   "Missed · {n}/{n} · pass {n}/3 · recall": {
-   "t": "Tsis raug · {1}/{2} · zaum {3}/3 · nco",
+   "t": "Tsis raug · {1}/{2} · zaus {3}/3 · nco",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · recall"
   },
   "{x} · {n}/{n} · pass {n}/3 · recall": {
-   "t": "{1} · {2}/{3} · zaum {4}/3 · nco",
+   "t": "{1} · {2}/{3} · zaus {4}/3 · nco",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 떠올리기",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · recall"
@@ -5949,37 +5949,37 @@
    "example": "📝 Exam · 5/25 · recall"
   },
   "New 5 · {n}/{n} · pass {n}/3 · listen": {
-   "t": "5 tshiab · {1}/{2} · zaum {3}/3 · mloog",
+   "t": "5 tshiab · {1}/{2} · zaus {3}/3 · mloog",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · listen"
   },
   "Mix · {n}/{n} · pass {n}/3 · listen": {
-   "t": "Xyaw · {1}/{2} · zaum {3}/3 · mloog",
+   "t": "Xyaw · {1}/{2} · zaus {3}/3 · mloog",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · listen"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · listen": {
-   "t": "Qhov nyuaj · {1}/{2} · zaum {3}/3 · mloog",
+   "t": "Qhov nyuaj · {1}/{2} · zaus {3}/3 · mloog",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · listen"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · listen": {
-   "t": "Card nyuaj tshaj · {1}/{2} · zaum {3}/3 · mloog",
+   "t": "Card nyuaj tshaj · {1}/{2} · zaus {3}/3 · mloog",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · listen"
   },
   "Missed · {n}/{n} · pass {n}/3 · listen": {
-   "t": "Tsis raug · {1}/{2} · zaum {3}/3 · mloog",
+   "t": "Tsis raug · {1}/{2} · zaus {3}/3 · mloog",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · listen"
   },
   "{x} · {n}/{n} · pass {n}/3 · listen": {
-   "t": "{1} · {2}/{3} · zaum {4}/3 · mloog",
+   "t": "{1} · {2}/{3} · zaus {4}/3 · mloog",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 듣기",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · listen"
@@ -6004,37 +6004,37 @@
    "example": "📝 Exam · 5/25 · listen"
   },
   "New 5 · {n}/{n} · pass {n}/3 · type": {
-   "t": "5 tshiab · {1}/{2} · zaum {3}/3 · sau",
+   "t": "5 tshiab · {1}/{2} · zaus {3}/3 · sau",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · type"
   },
   "Mix · {n}/{n} · pass {n}/3 · type": {
-   "t": "Xyaw · {1}/{2} · zaum {3}/3 · sau",
+   "t": "Xyaw · {1}/{2} · zaus {3}/3 · sau",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · type"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · type": {
-   "t": "Qhov nyuaj · {1}/{2} · zaum {3}/3 · sau",
+   "t": "Qhov nyuaj · {1}/{2} · zaus {3}/3 · sau",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · type"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · type": {
-   "t": "Card nyuaj tshaj · {1}/{2} · zaum {3}/3 · sau",
+   "t": "Card nyuaj tshaj · {1}/{2} · zaus {3}/3 · sau",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · type"
   },
   "Missed · {n}/{n} · pass {n}/3 · type": {
-   "t": "Tsis raug · {1}/{2} · zaum {3}/3 · sau",
+   "t": "Tsis raug · {1}/{2} · zaus {3}/3 · sau",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · type"
   },
   "{x} · {n}/{n} · pass {n}/3 · type": {
-   "t": "{1} · {2}/{3} · zaum {4}/3 · sau",
+   "t": "{1} · {2}/{3} · zaus {4}/3 · sau",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 입력",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · type"
@@ -6059,37 +6059,37 @@
    "example": "📝 Exam · 5/25 · type"
   },
   "New 5 · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "5 tshiab · {1}/{2} · zaum {3}/3 · xyaw",
+   "t": "5 tshiab · {1}/{2} · zaus {3}/3 · xyaw",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · mixed"
   },
   "Mix · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "Xyaw · {1}/{2} · zaum {3}/3 · xyaw",
+   "t": "Xyaw · {1}/{2} · zaus {3}/3 · xyaw",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · mixed"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "Qhov nyuaj · {1}/{2} · zaum {3}/3 · xyaw",
+   "t": "Qhov nyuaj · {1}/{2} · zaus {3}/3 · xyaw",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · mixed"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "Card nyuaj tshaj · {1}/{2} · zaum {3}/3 · xyaw",
+   "t": "Card nyuaj tshaj · {1}/{2} · zaus {3}/3 · xyaw",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · mixed"
   },
   "Missed · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "Tsis raug · {1}/{2} · zaum {3}/3 · xyaw",
+   "t": "Tsis raug · {1}/{2} · zaus {3}/3 · xyaw",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · mixed"
   },
   "{x} · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "{1} · {2}/{3} · zaum {4}/3 · xyaw",
+   "t": "{1} · {2}/{3} · zaus {4}/3 · xyaw",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 섞어서",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · mixed"
@@ -6128,14 +6128,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Round {n} of {n} · passed": {
-   "t": "Zaum {1} / {2} · dhau lawm",
+   "t": "Zaus {1} / {2} · dhau lawm",
    "ko": "라운드 {1}/{2} · 통과",
    "slots": "{1}=n, {2}=n",
    "example": "Round 5 of 2 · passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Round {n} of {n} · 80% to pass": {
-   "t": "Zaum {1} / {2} · yuav tsum raug 80%",
+   "t": "Zaus {1} / {2} · yuav tsum raug 80%",
    "ko": "라운드 {1}/{2} · 80% 이상이면 통과",
    "slots": "{1}=n, {2}=n",
    "example": "Round 5 of 2 · 80% to pass",
@@ -6214,7 +6214,7 @@
    "example": "Re-drill missed (5)"
   },
   "📝 Exams (last {n})": {
-   "t": "📝 Xeem (zaum kawg: {1})",
+   "t": "📝 Xeem (zaus kawg: {1})",
    "ko": "📝 시험 (최근 {1}회)",
    "slots": "{1}=n",
    "example": "📝 Exams (last 5)"
@@ -6281,7 +6281,7 @@
    "example": "✨ New card · Hello there"
   },
   "{x} · which one is it?": {
-   "t": "{1} · yog qhov twg?",
+   "t": "{1} · yog lo lus twg?",
    "ko": "{1} · 어느 쪽일까요?",
    "slots": "{1}=x",
    "example": "Hello there · which one is it?"
@@ -6331,14 +6331,14 @@
    "example": "레벨 업! Level 5 · Greetings 🎉"
   },
   "🛡️ Streak shield used for yesterday. {n} left.": {
-   "t": "🛡 Siv ib qhov streak shield rau nag hmo lawm. Tseem muaj: {1}.",
+   "t": "🛡️ Siv streak shield rau nag hmo lawm. Tseem muaj: {1}.",
    "ko": "🛡️ 어제 연속 학습 보호막을 썼어요. {1}개 남았어요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield used for yesterday. 5 left.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shield earned ({n}/2). A missed day won't break your streak.": {
-   "t": "🛡 Tau ib qhov streak shield ({1}/2). Yog koj tsis kawm ib hnub, koj tus streak tseem nyob.",
+   "t": "🛡️ Tau streak shield ({1}/2). Yog koj tsis kawm ib hnub, koj streak tseem nyob.",
    "ko": "🛡️ 연속 학습 보호막을 얻었어요 ({1}/2). 하루 빠져도 연속 학습이 끊기지 않아요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield earned (5/2). A missed day won't break your streak."
@@ -6514,7 +6514,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} decks · {n} lessons · {n} weeks · {n} new cards/day": {
-   "t": "Deck: {1} · Lesson: {2} · Lim tiam: {3} · card tshiab ib hnub: {4}",
+   "t": "Deck: {1} · Lessons: {2} · Lim tiam: {3} · card tshiab ib hnub: {4}",
    "ko": "덱 {1}개 · 레슨 {2}개 · {3}주 · 하루 새 카드 {4}장",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5 decks · 2 lessons · 3 weeks · 4 new cards/day",
@@ -6603,48 +6603,48 @@
    "example": "irregular: Hello there"
   },
   "{s} · {n} decks · {n} cards · {n} lessons · {n} dialogues": {
-   "t": "{1} · Deck: {2} · Card: {3} · Lesson: {4} · Kev tham: {5}",
+   "t": "{1} · Deck: {2} · Card: {3} · Lessons: {4} · A thiab B tham: {5}",
    "ko": "{1} · 덱 {2}개 · 카드 {3}장 · 레슨 {4}개 · 대화 {5}개",
    "slots": "{1}=s, {2}=n, {3}=n, {4}=n, {5}=n",
    "example": "Greetings · 5 decks · 2 cards · 3 lessons · 4 dialogues",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shields: {n}/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak.": {
-   "t": "🛡 Streak shield: {1}/2 · tau ib qhov txhua 7 hnub streak; yog tsis kawm ib hnub, siv ib qhov thiab koj tus streak tseem nyob.",
+   "t": "🛡️ Streak shield: {1}/2 · txhua 7 hnub streak koj tau streak shield; yog tsis kawm ib hnub, siv streak shield thiab koj streak tseem nyob.",
    "ko": "🛡️ 연속 학습 보호막: {1}/2 · 7일 연속 학습할 때마다 하나씩 얻어요. 하루 빠지면 연속 학습 대신 보호막이 하나 쓰여요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shields: 5/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak."
   },
   "Last 8 weeks · {n} active days · {n} active weeks · green = goal met, amber = some study": {
-   "t": "8 lim tiam kawg · hnub kawm: {1} · lim tiam kawm: {2} · ntsuab = txog hom phiaj, daj = kawm me ntsis",
+   "t": "8 lim tiam kawg · hnub kawm: {1} · lim tiam kawm: {2} · ntsuab = txog hom phiaj, daj = kawm mentsis",
    "ko": "최근 8주 · 학습한 날 {1}일 · 학습한 주 {2}주 · 초록 = 목표 달성, 주황 = 조금 학습",
    "slots": "{1}=n, {2}=n",
    "example": "Last 8 weeks · 5 active days · 2 active weeks · green = goal met, amber = some study",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card · best hour {n}:00 ({n}%)": {
-   "t": "Review zaum kawg: {1} · raug {2}% · {3}s ib card · teev zoo tshaj {4}:00 ({5}%)",
+   "t": "Review zaus kawg: {1} · raug {2}% · {3}s ib card · teev zoo tshaj {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card · best hour 4:00 (6%)",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card": {
-   "t": "Review zaum kawg: {1} · raug {2}% · {3}s ib card",
+   "t": "Review zaus kawg: {1} · raug {2}% · {3}s ib card",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · best hour {n}:00 ({n}%)": {
-   "t": "Review zaum kawg: {1} · raug {2}% · teev zoo tshaj {3}:00 ({4}%)",
+   "t": "Review zaus kawg: {1} · raug {2}% · teev zoo tshaj {3}:00 ({4}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 가장 잘되는 시간 {3}시 ({4}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "Last 5 reviews · 2% correct · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct": {
-   "t": "Review zaum kawg: {1} · raug {2}%",
+   "t": "Review zaus kawg: {1} · raug {2}%",
    "ko": "최근 복습 {1}번 · 정답률 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "Last 5 reviews · 2% correct",
@@ -6670,7 +6670,7 @@
    "example": "Hello there · 6 = mastered"
   },
   "{n} predictions · when you said \"yes\" you were right {n}% of the time ({n}/{n}) · when \"not sure\", you still got {n}% ({n}/{n}) · {n} overconfident cards go first in Weak spots": {
-   "t": "Zaum koj xav ua ntej: {1} · thaum koj teb \"Paub\" koj raug {2}% ({3}/{4}) · thaum \"Tsis paub tseeb\" koj tseem raug {5}% ({6}/{7}) · card koj ntseeg dhau: {8}, cov no mus ua ntej hauv Qhov nyuaj",
+   "t": "Zaus koj xav ua ntej: {1} · thaum koj teb \"Paub\" koj raug {2}% ({3}/{4}) · thaum \"Tsis paub tseeb\" koj tseem raug {5}% ({6}/{7}) · card koj ntseeg dhau: {8}, cov no mus ua ntej hauv Qhov nyuaj",
    "ko": "예측 {1}번 · \"네\"라고 했을 때 {2}% 맞혔어요 ({3}/{4}) · \"잘 모르겠어요\"라고 했을 때도 {5}% 맞혔어요 ({6}/{7}) · 과신한 카드 {8}장은 약점 공략에 먼저 나와요",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n, {6}=n, {7}=n, {8}=n",
    "example": "5 predictions · when you said \"yes\" you were right 2% of the time (3/4) · when \"not sure\", you still got 6% (7/8) · 9 overconfident cards go first in Weak spots",
@@ -7034,14 +7034,14 @@
    "context": "{0} = count (always ≥ 1; English uses the plural form even for 1) — Lessons list: planned roadmap heading (LL)"
   },
   "Best first try {n}% · last {n}% · 1 run": {
-   "t": "Zaum ib zoo tshaj {1}% · zaum kawg {2}% · 1 zaug",
+   "t": "Zaus ib zoo tshaj {1}% · zaus kawg {2}% · ib zaug",
    "ko": null,
    "slots": "{1}=n, {2}=n",
    "example": "Best first try 5% · last 2% · 1 run",
    "context": "{0},{1} = percent 0–100 — Lesson practice entry, after a run (singular) (LL)"
   },
   "Best first try {n}% · last {n}% · {n} runs": {
-   "t": "Zaum ib zoo tshaj {1}% · zaum kawg {2}% · zaug: {3}",
+   "t": "Zaus ib zoo tshaj {1}% · zaus kawg {2}% · zaus: {3}",
    "ko": null,
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Best first try 5% · last 2% · 3 runs",

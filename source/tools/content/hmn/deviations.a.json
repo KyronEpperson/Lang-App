@@ -1,0 +1,17 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "1": "localisation (hmn-en, profile hmn.md §9; HMONG RULES §4): Korean setting replaced with the learner's own, the point of each card unchanged: cards 0 'My name is Minji.' → 'My name is Mai.', 4 'I'm from Korea.' → 'I'm from Minnesota.' (not Laos: profile §9, many learners were born in the US or Thailand), 5 'I live in Seoul.' → 'I live in St. Paul.'",
+    "2": "localisation (hmn-en, profile hmn.md §9): card 12 'Do you speak Korean?' → 'Do you speak Hmong?' (the learner's own language)",
+    "4": "localisation (hmn-en, profile hmn.md §9: most US Hmong areas are bus- and car-based, no subway): card 0 'How do I get to the subway station?' → 'How do I get to the bus station?'",
+    "5": "localisation (hmn-en, profile hmn.md §9 food): cards 4 'I'll have the steak.' → 'I'll have the chicken.' (nqaij qaib) and 6 'Medium rare, please.' (a steak order) → 'Not too spicy, please.' (still a short polite restaurant request with please)",
+    "9": "localisation (hmn-en, profile hmn.md §9): card 6 'Have you been to Korea?' → 'Have you been to Laos?' (Nplog teb; a question to someone else, so it does not make Laos the learner's default origin)",
+    "11": "localisation (hmn-en, profile hmn.md §9; HMONG RULES §4 table): card 8 'Your Korean is really good!' → 'Your English is really good!' (the compliment a Hmong learner of English actually hears; same pattern, same point)",
+    "13": "localisation (hmn-en, profile hmn.md §9 names): cards 0 'Hello, this is Minji.' → 'Hello, this is Mai.', 1 'Can I speak to Mr. Kim?' → 'Can I speak to Mr. Vang?'",
+    "14": "localisation (hmn-en, profile hmn.md §9 names): card 8 'I have a reservation under Kim.' → 'I have a reservation under Vang.' (surname)",
+    "15": "localisation (hmn-en, profile hmn.md §5, §9): card 15 'I need to contact the Korean embassy.' → 'I need a Hmong interpreter.' (neeg txhais lus, MDH: the help a Hmong-speaking patient actually asks for in a US clinic; the learner has no embassy to call)",
+    "17": "hmn-en cards appended to «Pronunciation: hais ua tib zoo» per profile hmn.md §4 zone 10 and §6 (cards 26-41): thank (th, not RPA th), she / see (sh vs s = RPA x), ship / sheep / sip (sh and i vs ee), chair / share (ch = RPA ts vs sh), zoo (English z is not RPA z), bee (b and g are not the pre-nasalised RPA np / nk), red (English r is not RPA r), we (English w is a consonant, RPA w a vowel), bed / bad, cut / cot (vowels Hmong lacks). IPA of thank, she, see, ship, sheep, sip, chair, share, bee from vi-en (pron_lookup.json); zoo, red, we, bed, bad, cut, cot written by tools/content/vi/PRON-RULES.md. Targets unique across all 25 decks (deck 22 already holds six, sick, bag, back, dog …). Original 26 cards unchanged",
+    "19": "localisation (hmn-en, profile hmn.md §9: no K-pop fandom): card 14 'Who's your bias?' → 'Who's your favorite player?' (school sports, profile §9); the DIALOG key is renamed with it"
+  }
+}

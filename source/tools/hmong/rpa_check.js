@@ -74,6 +74,19 @@ function loadAllow(file) {
   if (fs.existsSync(f)) fs.readFileSync(f, 'utf8').split('\n').forEach(l => { l = l.replace(/#.*/, '').trim(); if (!l) return; if (/[\s.]/.test(l.replace(/\.$/, '')) || /\s/.test(l)) phrases.push(l); else words.add(l.toLowerCase().replace(/\.$/, '')); });
   phrases.sort((a, b) => b.length - a.length); const r = { words, phrases, file: f }; if (!file) ALLOW_CACHE = r; return r;
 }
+/* tools/hmong/ALLOW.txt + a course's own ALLOW.txt (tools/content/<x>/ALLOW.txt), used when no --allow FILE is given and the input is that course's source
+   folder, its interface (tools/i18n/<x>/) or its built packs (packs/course-<x>-en.js, packs/i18n-<x>.js); --allow FILE still replaces both */
+function loadAllowWith(extra) {
+  const base = loadAllow(); if (!extra || !fs.existsSync(extra)) return base; const add = loadAllow(extra);
+  const phrases = [...new Set([...base.phrases, ...add.phrases])].sort((a, b) => b.length - a.length);
+  return { words: new Set([...base.words, ...add.words]), phrases, file: base.file + ' + ' + path.relative(ROOT, extra) };
+}
+function courseAllowFor(target) {
+  const rel = path.relative(ROOT, path.resolve(target)).split(path.sep); let x = null;
+  if (rel[0] === 'tools' && (rel[1] === 'content' || rel[1] === 'i18n') && rel[2]) x = rel[2];
+  else if (rel[0] === 'packs' && rel.length === 2) { const m = rel[1].match(/^course-([a-z]+)-en\.js$|^i18n-([a-z]+)\.js$/); if (m) x = m[1] || m[2]; }
+  if (!x || x !== HM) return null; const f = path.join(ROOT, 'tools', 'content', x, 'ALLOW.txt'); return fs.existsSync(f) ? f : null;
+}
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 /* checkToken(token, opts) -> { token, ok, kind, reason?, parse? }
@@ -114,7 +127,10 @@ function why(low) {
    Removes ALLOW phrases first, then {{…}} tokens' braces, HTML tags and entities; splits on anything that is not a letter, digit, apostrophe or hyphen; hyphenated words are checked part by part. */
 function tokenize(text, opts) {
   opts = opts || {}; let s = String(text == null ? '' : text); const allow = opts.allowList || loadAllow();
+  s = s.replace(/[\uFE0E\uFE0F\u200D]/g, ' '); /* emoji variation selectors and the zero-width joiner belong to the emoji before them: not letters */
   s = s.replace(/<[^>]*>/g, m => ' '.repeat(m.length)).replace(/&[a-z]+;|&#\d+;/gi, m => ' '.repeat(m.length));
+  s = s.replace(/(^|[^\p{L}\p{M}\d\/])(\/[^\s\/<>]{1,40}\/)(?=$|[^\p{L}\p{M}\d\/])/gu, (m, a, ipa) => a + ' '.repeat(ipa.length)); /* an IPA transcription between slashes (/θ/, /ˈdʌbəljuː/, /tɝːn‿ɪt/) is pron, not Hmong; kuv/koj and tus / tug are still read */
+  s = s.replace(/[\u02C8\u02CC\u02D0\u02D1\u203F]/g, ' '); /* IPA stress / length / linking marks (ˈ ˌ ː ˑ ‿) quoted on their own: not letters */
   for (const ph of allow.phrases) s = s.replace(new RegExp('(^|[^\\p{L}])' + esc(ph) + '(?=$|[^\\p{L}])', 'giu'), (m, a) => a + ' '.repeat(m.length - a.length));
   const out = []; const re = /[\p{L}\p{M}\d]+(?:['’][\p{L}]+)*/gu; let m;
   while ((m = re.exec(s))) {
@@ -198,8 +214,8 @@ function collect(target, opts) {
     if (rel[0] === 'tools' && (rel[1] === 'target' || rel[1] === 'content') && rel[2]) {
       const out = path.join(tmp, 'pack.js'); const r = cp.spawnSync('node', [path.join(ROOT, 'tools', rel[1], 'gen.js'), rel[2], out], { cwd: ROOT, encoding: 'utf8' });
       if (r.status) throw new Error('could not generate the pack from ' + target + ': ' + (r.stderr || r.stdout).slice(-600));
-      const sub = collect(out, opts); sub.info.kind = 'source folder ' + path.relative(ROOT, abs) + ' -> ' + sub.info.kind; return sub; }
-    if (rel[0] === 'tools' && rel[1] === 'i18n' && rel[2] && fs.existsSync(path.join(abs, 'ui.json'))) return collect(path.join(abs, 'ui.json'), opts);
+      const sub = collect(out, opts); sub.info.kind = 'source folder ' + path.relative(ROOT, abs) + ' -> ' + sub.info.kind; sub.info.courseAllow = courseAllowFor(abs); return sub; }
+    if (rel[0] === 'tools' && rel[1] === 'i18n' && rel[2] && fs.existsSync(path.join(abs, 'ui.json'))) { const sub = collect(path.join(abs, 'ui.json'), opts); sub.info.courseAllow = courseAllowFor(abs); return sub; }
     const files = fs.readdirSync(abs).filter(f => /\.(js|json|tsv|txt)$/.test(f) && !/^(rpa_check|coverage)\.js$/.test(f)).map(f => path.join(abs, f));
     files.forEach(f => { try { const sub = collect(f, opts); sub.items.forEach(x => { x.file = path.basename(f); items.push(x); }); } catch (e) { items.push({ text: '', path: path.basename(f), lang: 'unmapped', error: e.message }); } });
     return { items, info: { kind: 'folder', id: target } };
@@ -209,9 +225,9 @@ function collect(target, opts) {
     const pk = loadPackFile(target);
     if (pk.course) { const c = pk.course; info = { kind: c.native === HM ? c.id + ' (Hmong = learner language)' : c.target === HM ? c.id + ' (Hmong = target)' : c.id + ' (no Hmong side: smoke run)', id: c.id, native: c.native, target: c.target }; walkPack(c, sink); }
     else if (pk.i18n) { info = { kind: 'interface pack ' + pk.i18n[0], id: pk.i18n[0] }; walkI18n(pk.i18n[0], pk.i18n[1], sink); }
-    return { items, info };
+    info.courseAllow = courseAllowFor(target); return { items, info };
   }
-  if (ext === '.json') { const j = JSON.parse(src); if (j && j.exact) { const code = j.lang || (path.basename(path.dirname(target)) === 'hmn' ? 'hmn' : 'hmn'); info = { kind: 'ui.json (' + code + ')', id: target }; walkI18n(HM, j, sink); return { items, info }; } }
+  if (ext === '.json') { const j = JSON.parse(src); if (j && j.exact) { const code = j.lang || (path.basename(path.dirname(target)) === 'hmn' ? 'hmn' : 'hmn'); info = { kind: 'ui.json (' + code + ')', id: target }; walkI18n(HM, j, sink); info.courseAllow = courseAllowFor(target); return { items, info }; } }
   if (ext === '.tsv') {
     const rows = src.split('\n').filter(l => l.trim() && !/^#/.test(l)).map(l => l.split('\t')); const head = rows[0].map(h => h.trim().toLowerCase());
     let col = opts.fields && opts.fields.length ? head.indexOf(opts.fields[0].toLowerCase()) : head.findIndex(h => /^(hmn|hmong|rpa|word|headword|hmoob|hmong \(rpa\))$/.test(h));
@@ -242,7 +258,7 @@ function englishCorpus() {
 }
 /* tokens of the Hmong side of an input, with what checkToken says about each */
 function hmongTokens(target, opts) {
-  opts = opts || {}; const { items, info } = collect(target, opts); const english = englishVocab(items); const allowList = loadAllow(opts.allowFile);
+  opts = opts || {}; const { items, info } = collect(target, opts); const english = englishVocab(items); const allowList = opts.allowFile ? loadAllow(opts.allowFile) : loadAllowWith(info.courseAllow);
   if (info.target === 'en' && !opts.noCorpus) englishCorpus().forEach(w => english.add(w)); /* hmn-en: the learner's prose quotes English */
   const fields = (opts.fields || []).map(f => f.toLowerCase()); const out = [], unmapped = []; let seqNo = 0; /* seq: which string a token came from (coverage joins neighbours) */
   for (const it of items) {
@@ -263,7 +279,7 @@ function hmongTokens(target, opts) {
       if (it.distractor && !opts.distractors && t.ok) return;
       out.push(Object.assign(t, { path: (it.file ? it.file + ' › ' : '') + it.path, distractor: !!it.distractor, text: it.text, role: it.role, seq: seqNo })); }); seqNo++;
   }
-  return { tokens: out, unmapped, info, english };
+  info.allowFile = allowList.file; return { tokens: out, unmapped, info, english };
 }
 
 function report(target, opts) {
@@ -271,7 +287,7 @@ function report(target, opts) {
   const errs = tokens.filter(t => !t.ok && !t.distractor), dis = tokens.filter(t => !t.ok && t.distractor);
   const by = k => { const m = new Map(); tokens.filter(t => t.kind === k).forEach(t => { const e = m.get(t.token) || { n: 0, at: [] }; e.n++; if (e.at.length < 3) e.at.push(t.path); m.set(t.token, e); }); return [...m.entries()].sort((a, b) => b[1].n - a[1].n); };
   if (opts.json) { console.log(JSON.stringify({ input: target, kind: info.kind, tokens: tokens.length, errors: errs, distractors: dis, joined: by('joined'), names: by('name'), unmapped: unmapped.map(u => u.path + (u.error ? ' ' + u.error : '')) }, null, 1)); return errs.length || unmapped.length ? 1 : 0; }
-  console.log('rpa_check · ' + target + ' · ' + info.kind + ' · ' + tokens.length + ' Hmong tokens checked' + (fs.existsSync(path.join(__dirname, 'ALLOW.txt')) ? '' : ' · (no ALLOW.txt)'));
+  console.log('rpa_check · ' + target + ' · ' + info.kind + ' · ' + tokens.length + ' Hmong tokens checked' + (fs.existsSync(path.join(__dirname, 'ALLOW.txt')) ? ' · allow: ' + path.relative(ROOT, String(info.allowFile || '')).replace(/^\.\.\/.*\/(?=[^/]+$)/, '') : ' · (no ALLOW.txt)'));
   const grp = list => { const m = new Map(); list.forEach(t => { const k = t.token + '\u0000' + (t.reason || t.kind); const e = m.get(k) || { t, n: 0, at: [] }; e.n++; if (e.at.length < 4) e.at.push(t.path); m.set(k, e); }); return [...m.values()].sort((a, b) => b.n - a.n); };
   if (unmapped.length) { console.log('\nUNMAPPED pack paths (this tool does not know what language they hold; teach walkPack):'); unmapped.slice(0, 40).forEach(u => console.log('  ' + u.path + (u.error ? ' :: ' + u.error : ''))); }
   if (errs.length) { console.log('\nERRORS (' + errs.length + '):'); grp(errs).forEach(e => console.log('  ' + e.t.token.padEnd(14) + ' ×' + e.n + '  ' + (e.t.kind === 'green' ? 'GREEN ' : '') + (e.t.reason || '') + '\n      at ' + e.at.join(' · '))); }
@@ -327,6 +343,10 @@ function selftest() {
   t(tx.errors.length === 0 && tx.tokens.some(x => x.kind === 'joined' && x.token === 'menyuam'), 'checkText sentence with allow phrase, numeral, run-together word: ' + JSON.stringify(tx.errors.map(e => e.token)));
   const t2 = checkText('Nws hais tias "hello" thiab mus tsev.', { allow: new Set() }); t(t2.errors.length === 1 && t2.errors[0].token === 'hello', 'checkText finds the one illegal token');
   const t3 = checkText('niam-txiv <b>zoo</b> &amp; Hmoob', { allow: new Set() }); t(t3.errors.length === 0 && t3.tokens.length === 4, 'hyphen parts + HTML stripped: ' + JSON.stringify(t3.tokens.map(x => x.token)));
+  /* emoji selectors and IPA between slashes are not Hmong; slashes between Hmong words still are */
+  t(checkText('\u2328\uFE0F Ntaus \u2764\uFE0F \u{1F468}\u200D\u{1F469} \u02C8 nyob ua ntej', { allow: new Set() }).errors.length === 0, 'U+FE0F / U+200D after an emoji and a lone stress mark ignored');
+  const ip = checkText('Nrog lub qa: /\u00F0/ hauv this; /\u02C8d\u028Cb\u0259lju\u02D0/, /t\u025D\u02D0n\u203F\u026At/, /ks/: six', { allow: new Set(), english: new Set(['this', 'six']) }); t(ip.errors.length === 0 && !ip.tokens.some(x => x.token === 'ks'), 'IPA spans skipped: ' + JSON.stringify(ip.errors.map(e => e.token)));
+  const sl = checkText('kuv/kun/nws thiab tus / tuug', { allow: new Set() }); t(JSON.stringify(sl.errors.map(e => e.token)) === '["kun","tuug"]', 'slashes between Hmong words still read: ' + JSON.stringify(sl.errors.map(e => e.token)));
   /* the field map on the two fixture packs (one per direction): exactly the planted errors, English inside Hmong prose tolerated, distractors never errors */
   const fx = f => hmongTokens(path.join(__dirname, 'fixtures', f), { noCorpus: false });
   const A = fx('course-en-hmn.sample.js'), AE = A.tokens.filter(x => !x.ok && !x.distractor).map(x => x.token).sort();

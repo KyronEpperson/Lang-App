@@ -10,12 +10,12 @@ module.exports = [
 {{ex:What were you doing?|/wʌt wɝː ju ˈduːɪŋ/|Thaum ntawd koj tab tom ua dab tsi?}}{{ex:Were you working at nine?|/wɝː ju ˈwɝːkɪŋ‿ət naɪn/|Cuaj teev koj puas tab tom ua hauj lwm?}}
 <h3>Nrog when</h3>
 <p><b>Past Continuous</b> = yam koj tab tom ua. <b>Simple Past</b> = yam tuaj nruab nrab: <b>when you called</b>.</p>
-{{ex:I was cooking when you called.|/aɪ wəz ˈkʊkɪŋ wen ju kɑːld/|Thaum koj hu, kuv tab tom npaj mov.}}{{ex:I was walking home when it started to rain.|/aɪ wəz ˈwɑːkɪŋ hoʊm wen‿ɪt ˈstɑːrtɪd tə reɪn/|Thaum kuv tab tom taug kev mus tsev, pib los nag.}}
-<div class="tip">Nco ntsoov: <b>I cooked when you called.</b> txawv: koj hu tas, kuv mam li pib npaj mov. Yog koj tab tom npaj mov ua ntej, hais <b>I was cooking when you called.</b></div>`,
+{{ex:I was cooking when you called.|/aɪ wəz ˈkʊkɪŋ wen ju kɑːld/|Thaum koj hu, kuv tab tom ua mov.}}{{ex:I was walking home when it started to rain.|/aɪ wəz ˈwɑːkɪŋ hoʊm wen‿ɪt ˈstɑːrtɪd tə reɪn/|Thaum kuv tab tom taug kev mus tsev, pib los nag.}}
+<div class="tip">Nco ntsoov: <b>I cooked when you called.</b> txawv: koj hu tas, kuv mam li pib ua mov. Yog koj tab tom ua mov ua ntej, hais <b>I was cooking when you called.</b></div>`,
 check:[["'Cuaj teev koj tab tom ua dab tsi?' — lus Askiv twg raug?",["What did you doing at nine?","What were you doing at nine?","What was you doing at nine?","What were you do at nine?"],1,"you (koj) siv were, thiab verb + -ing."],["I was cooking ___ you called. Lo lus twg raug?",["when","so","or","than"],0,"when = thaum: Thaum koj hu."],["They ___ watching TV. Lo lus twg raug?",["was","did","were","are being"],2,"they (lawv) siv were."]],
 practice:[
 ["mc","I ___ sleeping at ten. Lo lus twg raug?","was","were","did","am","I (kuv) siv was."],
-["mc","'Thaum koj hu, kuv tab tom npaj mov.' — lus Askiv twg raug?","I was cooking when you called.","I cooked when you were calling.","I was cook when you called.","I cooking when you called.","Yam koj tab tom ua: was + -ing. Yam tuaj nruab nrab: Simple Past."],
+["mc","'Thaum koj hu, kuv tab tom ua mov.' — lus Askiv twg raug?","I was cooking when you called.","I cooked when you were calling.","I was cook when you called.","I cooking when you called.","Yam koj tab tom ua: was + -ing. Yam tuaj nruab nrab: Simple Past."],
 ["mc","'Thaum ntawd koj tab tom ua dab tsi?' — lus Askiv twg raug?","What were you doing?","What did you doing?","What was you doing?","What were you do?","you (koj) siv were, thiab verb + -ing."],
 ["mc","They ___ playing soccer. Lo lus twg raug?","were","was","did","are","they (lawv) siv were."],
 ["mc","'Thaum ntawd tab tom los nag.' — lus Askiv twg raug?","It was raining.","It were raining.","It was rain.","It rained was.","it siv was + -ing (raining)."],
@@ -26,7 +26,7 @@ practice:[
 ["fi","What __ you doing?","Thaum ntawd koj tab tom ua dab tsi?","were","was|did|does","you (koj) siv were."],
 ["fi","I was sleeping __ you called.","Thaum koj hu, kuv tab tom pw tsaug zog.","when","so|than|or","when = thaum: Thaum koj hu."],
 ["ty","Kuv tab tom ua hauj lwm (Past Continuous)","I was working","was · work — siv -ing","were","I (kuv) siv was + -ing."],
-["ty","Kuv tab tom saib ib zaj movie (Past Continuous)","I was watching a movie","was · watching · movie — siv article a","the","Ib zaj movie = a movie: article a."],
+["ty","Kuv tab tom saib ib zaj movie (Past Continuous)","I was watching a movie|I was watching a film","was · watching · movie — siv article a","the","Ib zaj movie = a movie: article a."],
 ["ty","Cov me nyuam tab tom ua si (Past Continuous)","The kids were playing|The children were playing","kids · were · playing — siv plural","kid","Cov me nyuam = plural kids, thiab siv were."]]},
 { id:"will", title:"will: Kuv yuav pab koj (I'll help you)", blurb:"Koj txiav tam sim no: will. Koj npaj ua ntej lawm: going to.", deck:"Sib tham", body:`
 <p>Lus Hmoob siv <b>yuav</b> rau ob yam, thiab <b>mam li</b> rau yam ua tom qab. Lus Askiv muaj ob lo lus: <b>will</b> thiab <b>be going to</b>.</p>
@@ -54,8 +54,8 @@ practice:[
 ["fi","I __ forget.","Kuv yuav nco ntsoov.","won't|will not","don't|not|willn't","will + tsis = won't (I won't forget)."],
 ["fi","__ you help me?","Koj pab kuv puas tau?","Will|Can|Could|Would","Do|Are|Is","Thov ib tug neeg pab: Will you …? (los yog Can, Could, Would)."],
 ["ty","Kuv yuav pab koj (use will)","I'll help you|I'll help","I'll · help · you — siv will","helping","Tom qab will, verb tsis hloov."],
-["ty","Kuv yuav noj xalas (use will)","I'll have a salad|I'll have the salad","I'll have · salad — siv article","salads","Koj xaiv ib yam: article a (los yog the)."],
-["ty","Kuv yuav kaw qhov rooj (use will)","I'll close the door|I'll shut the door","I'll · close · door — siv article the","a","Peb paub qhov rooj twg: article the."]]},
+["ty","Kuv yuav noj xalas (use will: I'll have)","I'll have a salad|I'll have the salad","I'll have · salad — siv article","salads","Koj xaiv ib yam: article a (los yog the)."],
+["ty","Kuv yuav kaw qhov rooj (the; use will)","I'll close the door|I'll shut the door","I'll · close · door — siv article the","a","Peb paub qhov rooj twg: article the."]]},
 { id:"perfect", title:"Present Perfect: twb … lawm (have been, have eaten)", blurb:"have + past participle: yam koj twb ua lawm. Muaj nag hmo los yog tsaib no? Siv Simple Past.", deck:"Mus ncig teb chaws", body:`
 <p>Lus Hmoob hais <b>twb … lawm</b>: Kuv twb noj mov lawm. Lus Askiv siv <b>have + past participle</b> (been, eaten, seen): <b>I've eaten.</b> Siv nws thaum koj tsis hais thaum twg.</p>
 {{ex:I've been to Japan.|/aɪv bɪn tə dʒəˈpæn/|Kuv twb mus Japan lawm.}}{{ex:She has visited Laos twice.|/ʃi hæz ˈvɪzɪtɪd laʊs twaɪs/|Nws (poj niam) twb mus xyuas Nplog teb ob zaug lawm.}}
@@ -66,7 +66,7 @@ practice:[
 <p>Ib txhia past participle nkaus li Simple Past (tried). Ib txhia txawv (eaten, seen).</p>
 <div class="tbl"><table><tr><th>verb</th><th>Simple Past</th><th>past participle</th></tr><tr><td class="k">be</td><td class="k">was</td><td class="k">been</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">eaten</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">seen</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">done</td></tr><tr><td class="k">try</td><td class="k">tried</td><td class="k">tried</td></tr></table></div>
 <h3>Hais thaum twg: Simple Past</h3>
-<p>Muaj <b>last year, yesterday, in 2020</b>? Siv Simple Past, tsis txhob siv Present Perfect. Lus Hmoob hais tau "Tsaib no kuv twb mus lawm", tab sis lus Askiv tsis tau.</p>
+<p>Muaj <b>last year, yesterday, in 2020</b>? Siv Simple Past, tsis txhob siv Present Perfect. Lus Hmoob hais tau "Tsaib no kuv twb mus lawm", tab sis lus Askiv hais tsis tau.</p>
 {{ex:I went to Japan last year.|/aɪ went tə dʒəˈpæn læst jɪr/|Tsaib no kuv mus Japan.}}
 <div class="tip">Nco ntsoov: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓</div>`,
 check:[["'Koj puas tau mus Japan?' — lus Askiv twg raug?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Nug: Have you ever + past participle (been)."],["I ___ never seen that movie. Lo lus twg raug?",["am","did","have","was"],2,"Siv have + never + past participle."],["Sentence twg raug?",["I went to Thailand last year.","I've been to Thailand last year.","I have go to Thailand last year.","I've went to Thailand."],0,"Muaj last year (tsaib no): siv Simple Past."]],
@@ -82,18 +82,18 @@ practice:[
 ["fi","Have you ever __ to Fresno?","Koj puas tau mus Fresno?","been","be|went|go","Tom qab have, siv past participle been."],
 ["fi","I've __ eaten that.","Kuv tsis tau noj yam ntawd.","never","ever|no|not never","Kuv tsis tau noj = I've never eaten."],
 ["fi","She __ visited Laos twice.","Nws (poj niam) twb mus xyuas Nplog teb ob zaug lawm.","has","have|is|did","she (nws) siv has."],
-["ty","Koj puas tau mus Japan? (Present Perfect)","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan — siv been","went","Nug: Have you ever been to …?"],
+["ty","Koj puas tau mus Japan? (Present Perfect: been)","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan — siv been","went","Nug: Have you ever been to …?"],
 ["ty","Kuv twb nyeem phau ntawv ntawd lawm (Present Perfect)","I've read the book|I've read that book","I've · read · book — siv article the","a","Peb paub phau ntawv twg: article the."],
-["ty","Kuv tsis tau muaj ib tug miv (Present Perfect)","I've never had a cat","never · had · cat — siv article a","the","Ib tug miv = a cat: article a."]]},
+["ty","Kuv tsis tau muaj ib tug miv (Present Perfect: never)","I've never had a cat","never · had · cat — siv article a","the","Ib tug miv = a cat: article a."]]},
 { id:"modals", title:"have to, must, should, might: yuav tsum, tsis txhob, tej zaum", blurb:"Yuav tsum: have to. Tsis txhob: must not. Tej zaum: might.", deck:"Tsev kho mob thiab kev pab", body:`
 <p>Lus Hmoob muaj <b>yuav tsum</b> (have to, must) thiab <b>tsis txhob</b> (don't, must not). Lus Askiv muaj plaub lo lus. Tom qab plaub lo lus no, verb tsis hloov.</p>
 <h3>have to: yuav tsum</h3>
 <p>Lus Askiv siv have to ntau tshaj. he, she: <b>has to</b>.</p>
 {{ex:I have to work tomorrow.|/aɪ hæv tə wɝːk təˈmɑːroʊ/|Tag kis kuv yuav tsum ua hauj lwm.}}{{ex:She has to go now.|/ʃi hæz tə goʊ naʊ/|Nws (poj niam) yuav tsum mus tam sim no.}}
 <h3>don't have to thiab must not txawv</h3>
-<div class="tbl"><table><tr><th>lus Askiv</th><th>lus Hmoob</th></tr><tr><td class="k">You don't have to come.</td><td>Koj tsis tuaj los tsis ua li cas.</td></tr><tr><td class="k">You must not smoke here.</td><td>Tsis txhob ncho qhov no.</td></tr></table></div>
+<div class="tbl"><table><tr><th>lus Askiv</th><th>lus Hmoob</th></tr><tr><td class="k">You don't have to come.</td><td>Koj tsis tuaj los tsis ua li cas.</td></tr><tr><td class="k">You must not smoke here.</td><td>Tsis txhob ncho ntawm no.</td></tr></table></div>
 <h3>should: kuv qhia koj</h3>
-<p>should = kuv qhia koj xwb, tsis yog yuav tsum. Hauv lus Hmoob, hais os.</p>
+<p>should = kuv qhia koj xwb, tsis yog yuav tsum.</p>
 {{ex:You should see a doctor.|/ju ʃʊd siː ə ˈdɑːktɚ/|Koj mus ntsib kws kho mob os.}}{{ex:You shouldn't worry.|/ju ˈʃʊdənt ˈwɝːi/|Koj tsis txhob txhawj os.}}
 <h3>might: tej zaum</h3>
 {{ex:It might rain.|/ɪt maɪt reɪn/|Tej zaum yuav los nag.}}{{ex:I might be late.|/aɪ maɪt biː leɪt/|Tej zaum kuv yuav mus lig.}}
@@ -104,7 +104,7 @@ practice:[
 ["mc","'Koj tsis tuaj los tsis ua li cas.' — lus Askiv twg raug?","You don't have to come.","You must not come.","You don't must come.","You haven't come to.","Koj tsis ua los tsis ua li cas: don't have to."],
 ["mc","'Koj mus ntsib kws kho mob os.' — lus Askiv twg raug?","You should see a doctor.","You should to see a doctor.","You should seeing a doctor.","You might a doctor see.","should + verb; ib tug kws kho mob = a doctor: article a."],
 ["mc","'Tej zaum yuav los nag.' — lus Askiv twg raug?","It might rain.","It might rains.","It might to rain.","It mights rain.","might + verb tsis hloov."],
-["mc","'Tsis txhob ncho qhov no.' — lus Askiv twg raug?","You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here.","Tsis txhob = must not."],
+["mc","'Tsis txhob ncho ntawm no.' — lus Askiv twg raug?","You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here.","Tsis txhob = must not."],
 ["or","Koj mus ntsib kws kho mob os","You should see a doctor","the doctors","Ib tug kws kho mob = a doctor: article a."],
 ["or","Kuv yuav tsum mus tam sim no","I have to go now","going","Tom qab have to, verb tsis hloov."],
 ["or","Koj yuav tsum yuav ib daim ticket","You have to buy a ticket","the tickets","Ib daim ticket = a ticket: article a, singular."],
@@ -113,14 +113,14 @@ practice:[
 ["fi","It __ rain tomorrow.","Tag kis tej zaum yuav los nag.","might|may|could","must to|has to|should to","tej zaum = might (los yog may, could)."],
 ["ty","Kuv yuav tsum ua hauj lwm (use have to)","I have to work|I must work|I need to work","have to · work — siv verb tsis hloov","should","yuav tsum = have to."],
 ["ty","Koj mus ntsib kws kho mob os (use should)","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","should · see · doctor — siv article a","the","Ib tug kws kho mob = a doctor: article a."],
-["ty","Koj yuav tsum yuav ib daim ticket (use have to)","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","have to · buy · ticket — siv article a","the","Ib daim ticket = a ticket: article a."]]},
+["ty","Koj yuav tsum yuav ib daim ticket (use have to)","You have to buy a ticket","have to · buy · ticket — siv article a","the","Ib daim ticket = a ticket: article a."]]},
 { id:"to-ing", title:"want to, enjoy -ing: verb tom qab verb", blurb:"Tom qab want: to. Tom qab enjoy: -ing. Txhua verb muaj nws txoj cai.", deck:"Sib tham", body:`
 <p>Lus Hmoob hais <b>Kuv xav mus tsev</b>: ob lo verb, tsis muaj lo lus nruab nrab. Lus Askiv yuav tsum muaj <b>to</b> los yog <b>-ing</b>: I want <b>to</b> go home. Verb thawj qhia koj siv to los yog -ing. Kawm cov verb siv ntau ua ntej.</p>
 <div class="tbl"><table><tr><th>Tom qab: to</th><th>Tom qab: -ing</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
 <h3>to + verb: yam koj yuav ua</h3>
 {{ex:I want to go home.|/aɪ wɑːnt tə goʊ hoʊm/|Kuv xav mus tsev.}}{{ex:I need to study.|/aɪ niːd tə ˈstʌdi/|Kuv yuav tsum kawm ntawv.}}{{ex:I'd like to order.|/aɪd laɪk tu ˈɔːrdɚ/|Kuv xav hais kuv yuav noj dab tsi.}}{{ex:I decided to learn English.|/aɪ dɪˈsaɪdɪd tə lɝːn‿ˈɪŋglɪʃ/|Kuv txiav tias kuv yuav kawm lus Askiv.}}
 <h3>enjoy, finish, mind: -ing</h3>
-{{ex:I enjoy cooking.|/aɪ ɪnˈdʒɔɪ ˈkʊkɪŋ/|Kuv nyiam npaj mov.}}{{ex:I finished working.|/aɪ ˈfɪnɪʃt ˈwɝːkɪŋ/|Kuv ua hauj lwm tas lawm.}}{{ex:I don't mind waiting.|/aɪ doʊnt maɪnd ˈweɪtɪŋ/|Kuv tos los tsis ua li cas.}}
+{{ex:I enjoy cooking.|/aɪ ɪnˈdʒɔɪ ˈkʊkɪŋ/|Kuv nyiam ua mov.}}{{ex:I finished working.|/aɪ ˈfɪnɪʃt ˈwɝːkɪŋ/|Kuv ua hauj lwm tas lawm.}}{{ex:I don't mind waiting.|/aɪ doʊnt maɪnd ˈweɪtɪŋ/|Kuv tos los tsis ua li cas.}}
 <h3>like, love, start</h3>
 <p>Tom qab like, love, start: siv tau to los yog -ing.</p>
 <h3>verb + -ing ua ntej noun</h3>
@@ -142,14 +142,14 @@ practice:[
 ["fi","I decided __ English.","Kuv txiav tias kuv yuav kawm lus Askiv.","to study|to learn","study|studying|studied","Tom qab decide siv to + verb."],
 ["ty","Kuv xav mus tsev","I want to go home","want to · go · home — tsis muaj article","the","Tom qab want siv to. home tsis muaj article."],
 ["ty","Kuv nyiam nyeem ntawv (use enjoy)","I enjoy reading books|I enjoy reading","enjoy · read · book — siv plural","book","Tom qab enjoy siv -ing. Tsis yog ib phau xwb: plural books."],
-["ty","Kuv xav hais kuv yuav noj dab tsi (use would like)","I'd like to order|I want to order","I'd like · to · order — siv to","ordering","Tom qab would like siv to + verb."]]},
+["ty","Kuv xav hais kuv yuav noj dab tsi (use would like: order)","I'd like to order|I want to order","I'd like · to · order — siv to","ordering","Tom qab would like siv to + verb."]]},
 { id:"articles-2", title:"the los yog tsis muaj article: the piano, soccer, Laos", blurb:"Siv the: the piano, the United States. Tsis siv article: soccer, Laos, dogs (txhua tus dev).", deck:"Mus ncig teb chaws", body:`
 <p>Lus Hmoob tsis muaj article. Nov yog cov cai rau <b>the</b>: thaum twg siv, thaum twg tsis siv.</p>
 <h3>Siv the</h3>
 <div class="tbl"><table><tr><th>thaum twg?</th><th>piv txwv</th></tr><tr><td>muaj ib yam xwb</td><td class="k">the sun, the internet</td></tr><tr><td>piano, guitar</td><td class="k">play the piano</td></tr><tr><td>tus dej, hiav txwv</td><td class="k">the Mississippi, the Pacific</td></tr><tr><td>teb chaws muaj -s los yog States</td><td class="k">the United States, the Philippines</td></tr></table></div>
 {{ex:I play the piano.|/aɪ pleɪ ðə piˈænoʊ/|Kuv ntaus piano.}}{{ex:She's from the United States.|/ʃiz frəm ðə juˈnaɪtɪd steɪts/|Nws (poj niam) tuaj Amelikas teb chaws tuaj.}}{{ex:I found it on the internet.|/aɪ faʊnd‿ɪt‿ɑːn ði ˈɪntɚnet/|Kuv nrhiav tau hauv internet.}}
 <h3>Tsis siv article</h3>
-<div class="tbl"><table><tr><th>thaum twg?</th><th>piv txwv</th></tr><tr><td>ntau lub teb chaws, xeev thiab nroog</td><td class="k">Laos, Minnesota, St. Paul</td></tr><tr><td>ua si, lus, pluas mov</td><td class="k">play soccer, speak English, have lunch</td></tr><tr><td>txhua tus, txhua yam</td><td class="k">Dogs are cute. I love music.</td></tr></table></div>
+<div class="tbl"><table><tr><th>thaum twg?</th><th>piv txwv</th></tr><tr><td>ntau lub teb chaws, xeev thiab lub nroog</td><td class="k">Laos, Minnesota, St. Paul</td></tr><tr><td>ua si, lus, pluas mov</td><td class="k">play soccer, speak English, have lunch</td></tr><tr><td>txhua tus, txhua yam</td><td class="k">Dogs are cute. I love music.</td></tr></table></div>
 {{ex:I live in Minnesota.|/aɪ lɪv‿ɪn ˌmɪnəˈsoʊtə/|Kuv nyob xeev Minnesota.}}{{ex:I play soccer.|/aɪ pleɪ ˈsɑːkɚ/|Kuv ua si soccer.}}{{ex:Dogs are cute.|/dɑːgz‿ɑːr kjuːt/|Dev zoo nkauj (txhua tus dev).}}
 <h3>Txhua tus, los yog cov no xwb?</h3>
 {{ex:I like dogs.|/aɪ laɪk dɑːgz/|Kuv nyiam dev (txhua tus dev).}}{{ex:The dogs in this park are cute.|/ðə dɑːgz‿ɪn ðɪs pɑːrk‿ɑːr kjuːt/|Cov dev hauv lub vaj no zoo nkauj (cov dev no xwb).}}
@@ -169,7 +169,7 @@ practice:[
 ["fi","I love __.","Kuv nyiam nkauj heev.","music","the musics|a music|musics","Txhua yam nkauj (music): tsis muaj article, tsis muaj -s."],
 ["ty","Kuv tuaj Amelikas teb chaws tuaj","I'm from the United States|I'm from the US|I'm from America","I'm from · United States — siv article the","a","United States: siv article the."],
 ["ty","Kuv ntaus guitar","I play the guitar|I play guitar","play · guitar — siv article the","a","guitar: siv article the."],
-["ty","Miv zoo nkauj (txhua tus miv)","Cats are cute","cat · cute — tsis muaj article, siv plural","The cat","Txhua tus miv: tsis muaj article, plural cats."]]},
+["ty","Miv zoo nkauj (cute; txhua tus miv)","Cats are cute","cat · cute — tsis muaj article, siv plural","The cat","Txhua tus miv: tsis muaj article, plural cats."]]},
 { id:"first-conditional", title:"If + Simple Present, will (yog = if)", blurb:"Yog los nag, kuv yuav nyob tsev. Tom qab if, tsis txhob siv will.", deck:"Hauj lwm thiab email", body:`
 <p>Hauv lus Hmoob, <b>yog</b> = if (yog kuj = am, is, are). Lus Askiv hais yam uas yuav muaj tau: <b>If + Simple Present, will + verb</b>. Yam ntawd yog tag kis, tab sis tom qab if siv <b>Simple Present</b>.</p>
 {{ex:If it rains, I'll stay home.|/ɪf‿ɪt reɪnz aɪl steɪ hoʊm/|Yog los nag, kuv yuav nyob tsev.}}{{ex:If you don't hurry, you'll miss the bus.|/ɪf ju doʊnt ˈhɝːi juːl mɪs ðə bʌs/|Yog koj tsis mus ceev, koj yuav tsis tau caij tsheb ntiav.}}
@@ -197,35 +197,35 @@ practice:[
 ["fi","__ you need help, call me.","Yog koj xav tau kev pab, hu kuv.","If|When","So|But|Because","yog = if (los yog when)."],
 ["ty","Kuv yuav pab koj yog kuv muaj sij hawm (use will)","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time — siv if","will","Tom qab if, tsis txhob siv will."],
 ["ty","Yog los nag, kuv yuav caij ib lub tsheb taxi (use will)","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi — siv article a","the","Ib lub tsheb taxi = a taxi: article a."],
-["ty","Koj yuav tsis tau caij lub tsheb ntiav (use will)","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus — siv article the","a","Lub tsheb ntiav uas koj xav caij: article the."]]},
+["ty","Koj yuav tsis tau caij lub tsheb ntiav (use will: miss)","You'll miss the bus","miss · bus — siv article the","a","Lub tsheb ntiav uas koj xav caij: article the."]]},
 { id:"relative", title:"who / that: piav ib tug neeg los yog ib yam khoom", blurb:"Lus Hmoob thiab lus Askiv piav tom qab noun: tus txiv neej uas … = the man who …", deck:"Mus kav khw", body:`
-<p>Hauv lus Hmoob, lo lus piav nyob tom qab noun: <b>lub tsheb liab</b>, <b>phau ntawv uas kuv yuav</b>. Hauv lus Askiv, who / that kuj nyob tom qab noun: the book <b>that I bought</b>. <b>uas</b> ≈ <b>who</b> / <b>that</b>.</p>
+<p>Hauv lus Hmoob, lo lus piav nyob tom qab noun: <b>lub tsheb liab</b>, <b>phau ntawv uas kuv yuav lawm</b>. Hauv lus Askiv, who / that kuj nyob tom qab noun: the book <b>that I bought</b>. <b>uas</b> ≈ <b>who</b> / <b>that</b>.</p>
 <h3>Neeg: who</h3>
 {{ex:I have a friend who speaks Chinese.|/aɪ hæv‿ə frend huː spiːks tʃaɪˈniːz/|Kuv muaj ib tug phooj ywg uas hais lus Suav.}}{{ex:the man who lives next door|/ðə mæn huː lɪvz nekst dɔːr/|tus txiv neej uas nyob ntawm ib sab}}
 <h3>Khoom: that</h3>
-{{ex:the book that I bought|/ðə bʊk ðæt‿aɪ bɑːt/|phau ntawv uas kuv yuav}}{{ex:This is the phone that I want.|/ðɪs‿ɪz ðə foʊn ðæt‿aɪ wɑːnt/|Nov yog lub xov tooj uas kuv xav tau.}}
+{{ex:the book that I bought|/ðə bʊk ðæt‿aɪ bɑːt/|phau ntawv uas kuv yuav lawm}}{{ex:This is the phone that I want.|/ðɪs‿ɪz ðə foʊn ðæt‿aɪ wɑːnt/|Nov yog lub xov tooj uas kuv xav tau.}}
 <h3>Tsis muaj that los tsis ua li cas</h3>
 <p>Yog subject + verb nyob tom qab (we saw), tsis muaj that los tsis ua li cas. Thaum hais lus, ntau tus neeg tsis hais that.</p>
 {{ex:The movie we saw was great.|/ðə ˈmuːvi wi sɑː wəz greɪt/|Zaj movie uas wb saib zoo heev.}}
 <h3>Chaw: where</h3>
 {{ex:the cafe where we met|/ðə kæˈfeɪ wer wi met/|lub khw kav fes uas wb sib ntsib}}
 <div class="tip">Nco ntsoov: noun ua ntej, lo lus piav tom qab, nkaus li lus Hmoob. Tsis txhob siv what: <b>the book what I bought</b> ✗ → <b>the book (that) I bought</b> ✓</div>`,
-check:[["I have a friend ___ lives in Fresno. Lo lus twg raug?",["which","who","what","he"],1,"Piav ib tug neeg: who."],["'phau ntawv uas kuv yuav' — lus Askiv twg raug?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Noun ua ntej, that thiab lo lus piav tom qab."],["Sentence twg raug?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Lo lus piav nyob tom qab noun."]],
+check:[["I have a friend ___ lives in Fresno. Lo lus twg raug?",["which","who","what","he"],1,"Piav ib tug neeg: who."],["'phau ntawv uas kuv yuav lawm' — lus Askiv twg raug?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"Noun ua ntej, that thiab lo lus piav tom qab."],["Sentence twg raug?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"Lo lus piav nyob tom qab noun."]],
 practice:[
 ["mc","I have a friend ___ speaks English. Lo lus twg raug?","who","which","what","she","Piav ib tug neeg: who."],
-["mc","'phau ntawv uas kuv yuav' — lus Askiv twg raug?","the book that I bought","the I bought book","the book what I bought","the bought I book","Noun ua ntej, lo lus piav tom qab."],
+["mc","'phau ntawv uas kuv yuav lawm' — lus Askiv twg raug?","the book that I bought","the I bought book","the book what I bought","the bought I book","Noun ua ntej, lo lus piav tom qab."],
 ["mc","'tus txiv neej uas nyob ntawm ib sab' — lus Askiv twg raug?","the man who lives next door","the lives next door man","the man lives who next door","the man what lives next door","Piav ib tug neeg: who."],
 ["mc","This is the phone ___ I want. Lo lus twg raug?","that","who","what","it","Piav ib yam khoom: that."],
 ["mc","'zaj movie uas wb saib' — lus Askiv twg raug?","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","Tsis muaj that los tsis ua li cas."],
-["or","Nov yog phau ntawv uas kuv yuav","This is the book I bought","a what","Peb paub phau ntawv twg: article the."],
-["or","Kuv muaj ib tug phooj ywg uas npaj mov","I have a friend who cooks","the which","Ib tug phooj ywg = a friend: article a."],
+["or","Nov yog phau ntawv uas kuv yuav lawm","This is the book I bought","a what","Peb paub phau ntawv twg: article the."],
+["or","Kuv muaj ib tug phooj ywg uas ua mov","I have a friend who cooks","the which","Ib tug phooj ywg = a friend: article a."],
 ["or","Zaj movie uas wb saib zoo heev","The movie we saw was great","A movies","Peb paub zaj movie twg: article the."],
 ["fi","the man __ lives here","tus txiv neej uas nyob ntawm no","who|that","what|he|which","Piav ib tug neeg: who (los yog that)."],
 ["fi","the book __ I read","phau ntawv uas kuv nyeem","that|which","who|what|it","Piav ib yam khoom: that (los yog which)."],
 ["fi","the cafe __ we met","lub khw kav fes uas wb sib ntsib","where","who|what|it","Piav ib qhov chaw: where."],
-["ty","Nov yog phau ntawv uas kuv yuav (past tense)","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — siv article the","a","Peb paub phau ntawv twg: article the."],
+["ty","Nov yog phau ntawv uas kuv yuav lawm (past tense)","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought|This is the book which I bought|It's the book which I bought|It is the book which I bought","the book · I bought — siv article the","a","Peb paub phau ntawv twg: article the."],
 ["ty","Kuv muaj ib tug phooj ywg uas hais lus Suav","I have a friend who speaks Chinese|I have a friend that speaks Chinese","a friend · who · speaks Chinese — siv article a","the","Ib tug phooj ywg = a friend: article a."],
-["ty","Zaj movie uas wb saib zoo heev (past tense)","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great — siv was","what","Noun ua ntej, lo lus piav tom qab."]]},
+["ty","Zaj movie uas wb saib zoo heev (past tense)","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good|The movie which we saw was great|The movie which we saw was good|The film we saw was great|The film we saw was good|The film that we saw was great|The film that we saw was good","the movie · we saw · was great — siv was","what","Noun ua ntej, lo lus piav tom qab."]]},
 { id:"he-she-it", title:"he, she, it — him, her: nws ib lo lus xwb", blurb:"Lus Hmoob siv nws xwb. Lus Askiv muaj he, she, it, thiab him, her, his, its.", deck:"Kuv thiab kuv tsev neeg", body:`
 <p>Lus Hmoob muaj ib lo lus <b>nws</b> rau txhua tus: txiv neej, poj niam, tsiaj thiab khoom. Lus Askiv muaj peb lo lus. Cov lo lus no yog <b>pronoun</b> (tej lus pauv lub npe).</p>
 <div class="tbl"><table><tr><th>nws yog leej twg?</th><th>lus Askiv</th></tr><tr><td>ib tug txiv neej</td><td class="k">he</td></tr><tr><td>ib tug poj niam</td><td class="k">she</td></tr><tr><td>ib yam khoom, ib tug tsiaj</td><td class="k">it</td></tr></table></div>
