@@ -1,242 +1,263 @@
-/* TRANSLATE/ADAPT (te): scaffolded from tools/content/ko/lessons.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for te speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the te point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
 exports.LESSONS = [
-{ id:"alphabet", title:"1 · 알파벳: 글자 이름과 철자 불러 주기", blurb:"글자는 읽을 줄 알아도 영어 이름은 헷갈리죠? 이름·이메일 철자를 영어로 또박또박 불러 봐요.", deck:"알파벳", body:`
-<p>호텔 예약, 전화 상담, 카페 주문에서 꼭 듣는 말이 있어요. "철자가 어떻게 돼요?" 내 이름, 이메일 주소, 예약 번호를 불러 주려면 글자마다 <b>영어 이름</b>을 알아야 해요. 한국에서 배운 읽는 법(제트, 알 등)과 다른 이름도 있어서, 한 번 정리해 두면 훨씬 편해요.</p>
-<h3>글자 26개의 이름</h3>
-<p>굵은 글자 다섯 개 <b>A E I O U</b>가 모음이에요. 나머지는 자음이에요.</p>
-<div class="tbl"><table><tr><td class="k"><b>A</b> 에이</td><td class="k">B 비 (b)</td><td class="k">C 씨</td><td class="k">D 디</td><td class="k"><b>E</b> 이</td></tr><tr><td class="k">F 에프</td><td class="k">G 지 (g)</td><td class="k">H 에이치</td><td class="k"><b>I</b> 아이</td><td class="k">J 제이</td></tr><tr><td class="k">K 케이</td><td class="k">L 엘</td><td class="k">M 엠</td><td class="k">N 엔</td><td class="k"><b>O</b> 오우</td></tr><tr><td class="k">P 피</td><td class="k">Q 큐</td><td class="k">R 아r</td><td class="k">S 에스</td><td class="k">T 티</td></tr><tr><td class="k"><b>U</b> 유</td><td class="k">V 비 (v)</td><td class="k">W 더블유</td><td class="k">X 엑스</td><td class="k">Y 와이</td></tr><tr><td class="k">Z 지 (z)</td><td></td><td></td><td></td><td></td></tr></table></div>
-<h3>한국 사람이 자주 헷갈리는 이름</h3>
-<div class="tbl"><table><tr><th>글자</th><th>영어 이름</th><th>주의할 점</th></tr><tr><td class="k">G / J / Z</td><td>지 (g) / 제이 / 지 (z)</td><td>G는 '쥐'에 가까운 '지', Z는 성대를 울리는 z 소리의 zee예요. 미국에서 '제트'는 안 통해요</td></tr><tr><td class="k">E / I</td><td>이 / 아이</td><td>E가 '이', I가 '아이'예요. 이메일 주소에서 특히 많이 틀려요</td></tr><tr><td class="k">B / V</td><td>비 (b) / 비 (v)</td><td>B는 두 입술, V는 윗니를 아랫입술에 대요</td></tr><tr><td class="k">P / F</td><td>피 / 에프</td><td>F는 '에프' 끝에서 윗니를 아랫입술에 대요</td></tr><tr><td class="k">L / R</td><td>엘 / 아r</td><td>R은 '알'이 아니에요. 혀를 뒤로 말고 어디에도 닿지 않게 해요</td></tr><tr><td class="k">W</td><td>더블유</td><td>double u, 'U 두 개'라는 뜻이에요. 세 음절을 다 말해요</td></tr></table></div>
-<h3>철자 묻고 불러 주기</h3>
-<p>잘 안 들리는 글자는 <b>"B as in boy"</b>처럼 그 글자로 시작하는 쉬운 단어를 붙여서 확인해요.</p>
-{{ex:How do you spell that?|하우 두 유 스펠 댓?|철자가 어떻게 돼요?}}{{ex:How do you spell your last name?|하우 두 유 스펠 유어 래스트 네임?|성은 철자가 어떻게 돼요?}}{{ex:Can you spell that, please?|캔 유 스펠 댓, 플리즈?|철자 좀 불러 주시겠어요?}}{{ex:It starts with a capital T.|잇 스타츠 위드 어 캐피털 티|대문자 T로 시작해요}}{{ex:B as in boy.|비 애즈 인 보이|boy의 B요}}{{ex:Is that M as in Mary?|이즈 댓 엠 애즈 인 메리?|Mary의 M 맞아요?}}{{ex:There are two Ls in hello.|데어 아 투 엘즈 인 헬로우|hello에는 L이 두 개 있어요}}
-<h3>글자 이름 앞의 a와 an</h3>
-<p>관사는 철자가 아니라 <b>이름의 첫소리</b>로 정해요. F(에프), H(에이치), L(엘), M(엠), N(엔), R(아r), S(에스), X(엑스)는 이름이 모음 소리로 시작해서 <b>an F, an H, an L, an M, an N, an R, an S, an X</b>예요.</p>
-<p>반대로 U는 모음 글자지만 이름이 y 소리 '유'로 시작해서 <b>a U</b>예요. a university와 같은 원리예요.</p>
-<div class="tip">이메일 불러 주기 공식: 대문자는 <b>capital T</b>, 같은 글자 두 개는 <b>double L</b>, @는 <b>at</b>, 점(.)은 <b>dot</b>이에요. 예: jay.park@mail.com → "jay dot park at mail dot com".</div>`},
+{ id:"alphabet", title:"1 · ఇంగ్లీష్ అక్షరమాల: అక్షరాల పేర్లు, స్పెల్లింగ్ చెప్పడం", blurb:"A, B, C లు తెలుసు. కానీ ఫోన్‌లో మీ పేరు, ఈమెయిల్ స్పెల్లింగ్ ఇంగ్లీష్‌లో స్పష్టంగా చెప్పగలరా? అక్షరాల ఇంగ్లీష్ పేర్లు ఒకసారి సరిచూసుకోండి.", deck:"ఇంగ్లీష్ అక్షరమాల", body:`
+<p>హోటల్ బుకింగ్‌లో, కస్టమర్ కేర్ కాల్‌లో, విమానాశ్రయం కౌంటర్ దగ్గర తరచూ వినిపించే ప్రశ్న: <b>How do you spell that?</b> మీ పేరు, ఈమెయిల్ అడ్రస్, బుకింగ్ నంబర్ చెప్పాలంటే ప్రతి అక్షరం <b>ఇంగ్లీష్ పేరు</b> స్పష్టంగా పలకాలి. అక్షరాలు మనకు చిన్నప్పటి నుంచీ తెలుసు. కానీ కొన్ని పేర్లను ఇండియాలో ఒకలా, అమెరికాలో మరోలా పలుకుతారు (H, Z). ఒకసారి సరిచూసుకుంటే ఫోన్‌లో స్పెల్లింగ్ చెప్పడం తేలిక అవుతుంది.</p>
+<h3>26 అక్షరాలు, వాటి పేర్లు</h3>
+<p>లావుగా ఉన్న ఐదు అక్షరాలు <b>A E I O U</b> అచ్చులు. మిగతావి హల్లులు. ప్రతి అక్షరం పక్కన దాని పేరు తెలుగు లిపిలో ఉంది. కింద చుక్క ఉన్న అక్షరం (వ఼, జ఼) తెలుగులో లేని శబ్దం; ˈ గుర్తు తర్వాత వచ్చే భాగాన్ని ఒత్తి పలకాలి. ఈ గుర్తుల గురించి తర్వాతి పాఠంలో వివరంగా ఉంది.</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> ఏ</td><td class="k">B బీ</td><td class="k">C సీ</td><td class="k">D డీ</td><td class="k"><b>E</b> ఈ</td></tr><tr><td class="k">F ఎఫ్</td><td class="k">G జీ</td><td class="k">H ఏచ్</td><td class="k"><b>I</b> ఐ</td><td class="k">J జే</td></tr><tr><td class="k">K కే</td><td class="k">L ఎల్</td><td class="k">M ఎమ్</td><td class="k">N ఎన్</td><td class="k"><b>O</b> ఓ</td></tr><tr><td class="k">P పీ</td><td class="k">Q క్యూ</td><td class="k">R ఆర్</td><td class="k">S ఎస్</td><td class="k">T టీ</td></tr><tr><td class="k"><b>U</b> యూ</td><td class="k">V వ఼ీ</td><td class="k">W ˈడబల్యూ</td><td class="k">X ఎక్స్</td><td class="k">Y వై</td></tr><tr><td class="k">Z జ఼ీ</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>జాగ్రత్తగా పలకాల్సిన పేర్లు</h3>
+<div class="tbl"><table><tr><th>అక్షరం</th><th>అమెరికన్ పేరు</th><th>గమనించండి</th></tr><tr><td class="k">H</td><td>ఏచ్</td><td>ఇండియాలో చాలామంది "హెచ్" అంటారు. అమెరికాలో ముందు హ లేకుండా పలుకుతారు</td></tr><tr><td class="k">Z</td><td>జ఼ీ</td><td>ఇండియాలో, బ్రిటన్‌లో "జెడ్" (zed) అంటారు, అక్కడ అదే సరైనది. అమెరికాలో zee. ఇది జ కాదు: గొంతు మోగుతూ ఝుమ్మనే "స"</td></tr><tr><td class="k">F, L, M, N, S, X</td><td>ఎఫ్, ఎల్, ఎమ్, ఎన్, ఎస్, ఎక్స్</td><td>ముందు "య" చేర్చకండి ("యెఫ్", "యెమ్" కాదు). చివర అచ్చు చేర్చకండి ("ఎమ్ము", "ఎల్లు" కాదు)</td></tr><tr><td class="k">G / J</td><td>జీ / జే</td><td>ఫోన్‌లో ఈ రెండూ తారుమారవుతాయి. G చివర "ఈ", J చివర "ఏ"</td></tr><tr><td class="k">E / I</td><td>ఈ / ఐ</td><td>ఈమెయిల్ అడ్రస్ చెప్పేటప్పుడు ఈ రెండిటినీ కలిపేయకండి</td></tr><tr><td class="k">V / W</td><td>వ఼ీ / ˈడబల్యూ</td><td>V లో పై పళ్ళు కింది పెదవిని తాకాలి. W పేరు double u, అంటే "రెండు U లు"; మూడు భాగాలూ పలకండి</td></tr></table></div>
+<h3>స్పెల్లింగ్ అడగడం, చెప్పడం</h3>
+<p>సరిగ్గా వినిపించని అక్షరానికి, అదే అక్షరంతో మొదలయ్యే తేలిక పదం జోడించండి: <b>B as in boy</b>. ఇండియాలో <b>B for boy</b> అంటారు, అదీ అర్థమవుతుంది; అమెరికాలో as in ఎక్కువ. తెలుగు పేర్లలో ఇంటిపేరు పొడి అక్షరంగా ముందు వస్తుంది (K. Ravi). విదేశాల్లో ఫారాలు first name, last name అడుగుతాయి: last name అంటే ఇంటిపేరు, దాన్ని పూర్తిగా స్పెల్ చేయాల్సి వస్తుంది.</p>
+{{ex:How do you spell that?|హౌ డ యు స్పెల్ ద఼్యాట్|దాని స్పెల్లింగ్ ఏమిటి?}}{{ex:How do you spell your last name?|హౌ డ యు స్పెల్ యుర్ ల్యాస్ట్ నేమ్|మీ ఇంటిపేరు స్పెల్లింగ్ ఏమిటి?}}{{ex:Can you spell that, please?|కన్ యు స్పెల్ ద఼్యాట్ ప్లీజ఼్|దాని స్పెల్లింగ్ చెప్పగలరా?}}{{ex:It starts with a capital T.|ఇట్ స్టార్ట్స్ విద఼్ అ ˈక్యాపిటల్ టీ|అది పెద్ద అక్షరం T తో మొదలవుతుంది}}{{ex:B as in boy.|బీ అజ఼్ ఇన్ బాయ్|boy లోని B}}{{ex:Is that M as in Mary?|ఇజ఼్ ద఼్యాట్ ఎమ్ అజ఼్ ఇన్ ˈమెరి|అది Mary లోని M, అంతేనా?}}{{ex:There are two Ls in hello.|ద఼ెర్ అర్ టూ ఎల్జ఼్ ఇన్ హˈలో|hello లో రెండు L లు ఉన్నాయి}}
+<h3>అక్షరం పేరు ముందు a లేదా an</h3>
+<p>ఆర్టికల్ a రావాలా, an రావాలా అనేది అక్షరాన్ని బట్టి కాదు, దాని <b>పేరులోని మొదటి శబ్దాన్ని</b> బట్టి ఉంటుంది. F, H, L, M, N, R, S, X పేర్లు అచ్చు శబ్దంతో మొదలవుతాయి, అందుకే <b>an F, an H, an L, an M, an N, an R, an S, an X</b>.</p>
+<p>U అచ్చు అక్షరమే, కానీ దాని పేరు "యూ", అంటే య శబ్దంతో మొదలవుతుంది. అందుకే <b>a U</b>. a university లో ఉన్న నియమమే ఇది. H ని "హెచ్" అని పలికేవారు a H అంటారు; అమెరికన్ పేరు అచ్చుతో మొదలవుతుంది కాబట్టి an H.</p>
+<div class="tip">ఈమెయిల్ అడ్రస్ చెప్పే పద్ధతి: పెద్ద అక్షరం = <b>capital T</b>, ఒకే అక్షరం రెండుసార్లు = <b>double L</b>, @ = <b>at</b>, చుక్క (.) = <b>dot</b>. ఉదాహరణ: ravi.kumar@mail.com → <b>ravi dot kumar at mail dot com</b>. ఇండియాలో @ ని "at the rate" అంటారు; విదేశాల్లో at చాలు.</div>`},
 
-{ id:"pron", title:"1 · 발음 함정: R/L·F/P·TH·V/B", blurb:"한국어에 없는 소리 다섯 가지와 강세 — 이것만 잡아도 알아듣는 사람이 확 늘어요.", deck:"발음 주의", body:`
-<p>영어에는 한국어에 없는 소리가 몇 개 있어요. 원어민은 이 소리로 단어를 구분하기 때문에, 조금만 신경 써도 훨씬 잘 통해요. 핵심은 <b>입 모양</b>이에요. 거울을 보면서 연습해 보세요.</p>
-<h3>R과 L</h3>
-<p><b>L</b>은 혀끝을 윗니 뒤 잇몸에 <b>붙였다 떼요</b>. <b>R</b>은 혀끝이 <b>어디에도 닿지 않아요</b>. 입술을 살짝 둥글게 내밀고 혀를 뒤로 당긴 채 "(우)롸" 하듯 시작해요.</p>
-{{ex:rice|롸이스|쌀, 밥}}{{ex:lice|라이스|이 (벌레)}}{{ex:right|롸잇|오른쪽, 맞는}}{{ex:light|라잇|빛, 가벼운}}
-<h3>F·V와 P·B</h3>
-<div class="tbl"><table><tr><th>소리</th><th>입 모양</th><th>예</th></tr><tr><td class="k">F</td><td>윗니를 아랫입술에 대고 바람만</td><td>fan, coffee</td></tr><tr><td class="k">P</td><td>두 입술을 붙였다 터뜨림</td><td>pan, copy</td></tr><tr><td class="k">V</td><td>F 입 모양 + 성대 울림</td><td>very, vote</td></tr><tr><td class="k">B</td><td>P 입 모양 + 성대 울림</td><td>berry, boat</td></tr></table></div>
-{{ex:fan|팬 (f)|선풍기}}{{ex:pan|팬 (p)|프라이팬}}{{ex:very|베리 (v)|매우}}{{ex:berry|베리 (b)|딸기류 열매}}
-<h3>TH</h3>
-<p>혀끝을 윗니와 아랫니 사이로 <b>살짝 내밀고</b> 바람을 내보내요. 바람만 나가면 <i>think</i>의 th, 성대가 울리면 <i>this</i>의 th예요. ㅆ이나 ㄸ으로 바꾸면 <i>sink</i>, <i>tree</i>처럼 다른 단어로 들려요.</p>
-{{ex:think|띵크 (th)|생각하다}}{{ex:three|쓰리 (th)|숫자 3}}{{ex:this|디스 (th)|이것}}
-<h3>끝 자음에 '으'를 붙이지 마세요</h3>
-<p>한국어 습관대로 milk를 "밀크으", bus를 "버스으"처럼 말하면 음절이 하나 더 생겨요. 영어의 끝 자음은 <b>모음 없이 짧게</b> 끝나요. 끝소리가 뜻을 바꾸기도 해요: bag(가방) / back(등), cab(택시) / cap(모자).</p>
-<h3>강세가 생명이에요</h3>
-<p>영어는 단어마다 한 음절을 <b>세고, 길고, 높게</b> 말해요. 발음이 정확해도 강세가 틀리면 못 알아들어요.</p>
-<div class="tbl"><table><tr><th>단어</th><th>강세</th><th>한글 느낌</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>버<b>내</b>너</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>호우<b>텔</b></td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>먹<b>다</b>널즈</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>써<b>틴</b> / <b>써</b>리</td></tr></table></div>
-<div class="tip">체크 방법: F·V는 윗니가 아랫입술에, TH는 혀끝이 이 사이에 <b>보여야</b> 해요. 거울에 보이면 맞게 하고 있는 거예요!</div>`},
+{ id:"pron", title:"1 · ఉచ్చారణ చిక్కులు: చివరి హల్లు, TH, Z, V/W", blurb:"ముందు ఉచ్చారణ గుర్తులు చదవడం నేర్చుకోండి: పొల్లు, చుక్క, ఒత్తిడి గుర్తు. తర్వాత తెలుగువాళ్ళకు ఎక్కువగా అడ్డొచ్చే శబ్దాలు.", deck:"ఉచ్చారణ చిక్కులు", body:`
+<p>ఇండియన్ ఇంగ్లీష్ ఉచ్చారణ చాలా చోట్ల అర్థమవుతుంది; దాన్ని పూర్తిగా మార్చుకోవాల్సిన పని లేదు. కానీ కొన్ని శబ్దాలు మారితే పదమే మారిపోతుంది: zoo / Jew, three / tree, ship / sheep. ఈ పాఠం వాటి గురించే. ముందుగా, ఈ కోర్సులో ప్రతి పదం పక్కన కనిపించే <b>ఉచ్చారణ (తెలుగు లిపిలో)</b> ఎలా చదవాలో చూద్దాం.</p>
+<h3>తెలుగు లిపిలో ఉచ్చారణ ఎలా చదవాలి</h3>
+<div class="tbl"><table><tr><th>గుర్తు</th><th>అర్థం</th><th>ఉదాహరణ</th></tr><tr><td class="k">పొల్లు (్)</td><td>పొల్లు ఉన్న అక్షరం తర్వాత అచ్చు లేదు. హల్లు దగ్గరే ఆపండి</td><td>bus = బస్ ("బస్సు" కాదు)</td></tr><tr><td class="k">కింద చుక్క: వ఼ థ఼ ద఼ జ఼ ఝ఼</td><td>తెలుగులో లేని శబ్దం. చుక్క లేని అక్షరంలా పలకకండి</td><td>very = ˈవ఼ెరి, zoo = జ఼ూ</td></tr><tr><td class="k">ˈ</td><td>ఒత్తిడి గుర్తు. దీని తర్వాత వచ్చే భాగాన్ని ఒత్తి పలకండి; మిగతా భాగాలు తేలికగా, చిన్నగా</td><td>hotel = హోˈటెల్</td></tr><tr><td class="k">ఆ</td><td>hot, job, stop లో, అలాగే talk, walk, coffee లో అమెరికన్‌లు పలికే "ఆ"</td><td>hot = హాట్, talk = టాక్</td></tr></table></div>
+<p>ఉచ్చారణలో ఫ ఎప్పుడూ f (పై పళ్ళు కింది పెదవి మీద), చ ఎప్పుడూ check లోని ch, జ ఎప్పుడూ job లోని j. ఒకే భాగం ఉన్న పదాలకు ఒత్తిడి గుర్తు ఉండదు. ఉచ్చారణ కనిపించకూడదనుకుంటే "ఉచ్చారణ చూపించండి" స్విచ్ ఆపేయవచ్చు.</p>
+<h3>చివరి హల్లు తర్వాత అచ్చు వద్దు</h3>
+<p>తెలుగు పదాలు దాదాపు ఎప్పుడూ అచ్చుతో ముగుస్తాయి. అందుకే ఇంగ్లీష్ పదాలను మనం బస్సు, బెడ్డు, స్కూలు అని రాస్తాం, అలాగే పలుకుతాం. ఇంగ్లీష్‌లో చివరి హల్లు <b>అచ్చు లేకుండా, చిన్నగా</b> ఆగిపోతుంది. హల్లులు వరుసగా వచ్చినప్పుడు మధ్యలో కూడా అచ్చు చేర్చకండి: film "ఫిలిం" కాదు, school "ఇస్కూలు" కాదు. చివరి శబ్దం మారితే అర్థమూ మారుతుంది: bag (సంచి) / back (వీపు). బహువచనం -s, past -ed కూడా పదం చివరే ఉంటాయి; వాటిని మింగేస్తే వ్యాకరణమే తప్పవుతుంది.</p>
+{{ex:bus|బస్|బస్సు}}{{ex:bed|బెడ్|మంచం}}{{ex:school|స్కూల్|బడి}}{{ex:film|ఫిల్మ్|సినిమా}}{{ex:friends|ఫ్రెండ్జ఼్|స్నేహితులు}}{{ex:asked|యాస్క్ట్|అడిగాను (ask కి past)}}{{ex:bag|బ్యాగ్|సంచి}}{{ex:back|బ్యాక్|వీపు / వెనుక}}
+<h3>TH: థ఼, ద఼</h3>
+<p>నాలుక కొనను పై పళ్ళకూ కింది పళ్ళకూ మధ్య <b>కొంచెం బయటికి</b> పెట్టి గాలి వదలండి. గాలి మాత్రమే వస్తే think లోని థ఼; గొంతు కూడా మోగితే this లోని ద఼. తెలుగు థ, ద అలా కాదు: వాటిలో నాలుక పళ్ళ వెనుక తాకి గాలిని ఆపుతుంది. థ లేదా ట అంటే three కాస్తా tree (చెట్టు) లా వినిపిస్తుంది; స అంటే think కాస్తా sink అవుతుంది.</p>
+{{ex:think|థ఼ింక్|ఆలోచించడం / అనుకోవడం}}{{ex:sink|సింక్|సింక్ / మునిగిపోవడం}}{{ex:three|థ఼్రీ|మూడు}}{{ex:tree|ట్రీ|చెట్టు}}{{ex:this|ద఼ిస్|ఇది}}
+<h3>Z: జ఼</h3>
+<p>Z అంటే గొంతు మోగుతూ ఝుమ్మనే "స". జ కాదు: zoo ని "జూ" అంటే <b>Jew</b> (యూదుడు) అని వినిపిస్తుంది. ఈ శబ్దం Z అక్షరంలోనే కాదు, is, easy, dogs లాంటి పదాల్లో s అని రాసిన చోట కూడా ఉంటుంది.</p>
+{{ex:zoo|జ఼ూ|జంతు ప్రదర్శనశాల}}{{ex:Jew|జూ|యూదుడు}}{{ex:easy|ˈఈజ఼ి|తేలిక}}
+<h3>V, W: వ఼, వ</h3>
+<p>తెలుగు వ ఈ రెండిటికీ మధ్యలో ఉంటుంది. <b>V (వ఼)</b>: పై పళ్ళు కింది పెదవిని తాకాలి, గొంతు మోగుతూ ఝుమ్మనే శబ్దాన్ని సాగదీయగలగాలి. <b>W (వ)</b>: పెదవులు గుండ్రంగా ముందుకు వస్తాయి, పళ్ళు పెదవిని తాకవు. F కూడా V లాగే, కానీ గాలి మాత్రమే వస్తుంది: fan ని రెండు పెదవులూ మూసి పలికితే pan (పెనం) అవుతుంది. V ని పెదవులు మూసి పలికితే B అవుతుంది: vote (ఓటు వేయడం) / boat (పడవ).</p>
+{{ex:vine|వ఼ైన్|ద్రాక్ష తీగ}}{{ex:wine|వైన్|వైన్}}{{ex:very|ˈవ఼ెరి|చాలా}}{{ex:wary|ˈవెరి|జాగ్రత్తగా ఉండే}}{{ex:vest|వ఼ెస్ట్|చేతుల్లేని కోటు}}{{ex:west|వెస్ట్|పడమర}}{{ex:vote|వ఼ోట్|ఓటు వేయడం}}{{ex:boat|బోట్|పడవ}}{{ex:fan|ఫ్యాన్|ఫ్యాన్}}{{ex:pan|ప్యాన్|పెనం}}{{ex:coffee|ˈకాఫి|కాఫీ}}{{ex:copy|ˈకాపి|నకలు}}
+<h3>పొట్టి ఇ, ఉ: పొడవు ఒక్కటే తేడా కాదు</h3>
+<p>తెలుగులో హ్రస్వం, దీర్ఘం ఉన్నాయి కాబట్టి ship / sheep లో పొడవు తేడా మనకు తేలిక. కానీ ఇంగ్లీష్‌లో పొట్టి అచ్చును <b>నోరు వదులుగా</b> ఉంచి పలుకుతారు: ship లోని "ఇ" కొంచెం "ఎ" వైపు, full లోని "ఉ" కొంచెం "ఒ" వైపు జరుగుతాయి. sheep, fool లో నోరు బిగువుగా ఉంటుంది. caught, talk, walk లో అమెరికన్‌లు "ఆ" అంటారు, "ఓ" కాదు: caught = కాట్, coat = కోట్.</p>
+{{ex:ship|షిప్|ఓడ}}{{ex:sheep|షీప్|గొర్రె}}{{ex:live|లివ఼్|నివసించడం}}{{ex:leave|లీవ఼్|వెళ్ళిపోవడం}}{{ex:full|ఫుల్|నిండిన}}{{ex:fool|ఫూల్|మూర్ఖుడు}}
+<h3>అచ్చు ముందు య, వ చేర్చకండి</h3>
+<p>తెలుగు అలవాటు ప్రకారం పదం మొదట్లో "ఎ" ముందు య, "ఒ / ఓ" ముందు వ దూరిపోతాయి: every "యెవ్రీ", end "యెండ్", only "వోన్లీ", అక్షరాలు M, N, S "యెమ్, యెన్, యెస్". ఇంగ్లీష్‌లో ఈ పదాలు నేరుగా అచ్చుతోనే మొదలవుతాయి.</p>
+{{ex:every|ˈఎవ఼్రి|ప్రతి}}{{ex:only|ˈఓన్లి|మాత్రమే}}
+<h3>R, L: ఇది సులభం</h3>
+<p>ర, ల తెలుగులో కూడా వేరు వేరు శబ్దాలు, కాబట్టి rice / lice, right / light మీకు తేలిక. ఒక్కటే తేడా: L లో నాలుక కొన పై పళ్ళ వెనుక చిగురును తాకుతుంది; అమెరికన్ <b>R</b> లో నాలుక కొన <b>ఎక్కడా తాకదు</b>, కొంచెం వెనక్కి ముడుచుకుంటుంది. car, work, four లో అచ్చు తర్వాత వచ్చే r ని కూడా అమెరికన్‌లు పలుకుతారు.</p>
+{{ex:rice|రైస్|బియ్యం / అన్నం}}{{ex:lice|లైస్|పేలు}}{{ex:right|రైట్|కుడి / సరైన}}{{ex:light|లైట్|వెలుతురు / తేలికైన}}
+<h3>ఒత్తి పలకడం</h3>
+<p>తెలుగులో పదంలోని అన్ని భాగాలనూ దాదాపు సమానంగా పలుకుతాం. ఇంగ్లీష్‌లో రెండు, అంతకంటే ఎక్కువ భాగాలున్న ప్రతి పదంలో <b>ఒక్క భాగాన్ని గట్టిగా, పొడుగ్గా, ఎత్తుగా</b> పలుకుతారు; మిగతావి చిన్నగా, బలహీన "అ" తో వస్తాయి. శబ్దాలన్నీ సరిగ్గా ఉన్నా ఒత్తిడి తప్పు చోట పడితే పదాన్ని గుర్తుపట్టడం కష్టం.</p>
+<div class="tbl"><table><tr><th>పదం</th><th>ఒత్తిడి</th><th>ఉచ్చారణ</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>బˈన్యాన</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>హోˈటెల్</td></tr><tr><td class="k">about</td><td>a-<b>BOUT</b></td><td>అˈబౌట్</td></tr><tr><td class="k">photography</td><td>pho-<b>TO</b>-gra-phy</td><td>ఫˈటాగ్రఫి</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>థ఼ర్ˈటీన్ / ˈథ఼ర్టి</td></tr></table></div>
+{{ex:about|అˈబౌట్|గురించి}}{{ex:photography|ఫˈటాగ్రఫి|ఫోటోగ్రఫీ}}
+<div class="tip">సరిచూసుకునే పద్ధతి: అద్దంలో చూడండి. F, V లో పై పళ్ళు కింది పెదవి మీద, TH లో నాలుక కొన పళ్ళ మధ్య <b>కనిపించాలి</b>; W లో పళ్ళు కనిపించవు. ఇండియన్ ఇంగ్లీష్ ట, డ ఎక్కడైనా అర్థమవుతాయి; శ్రమంతా పైన చెప్పిన శబ్దాల మీద పెట్టండి. అమెరికన్‌లు మన పేర్లను వాళ్ళ పద్ధతిలో పలుకుతారు (Ravi = ˈరావ఼ి); ఉచ్చారణలో పేర్లు అలాగే రాసి ఉంటాయి.</div>`},
 
-{ id:"articles", title:"2 · a와 the: 관사 감 잡기", blurb:"한국어에 없는 관사, 세 가지 경우만 기억하면 돼요.", deck:"자기소개", body:`
-<p>한국어에는 관사가 없어서 가장 많이 틀리는 부분이에요. 완벽하지 않아도 대화는 통하지만, 기본 세 가지만 알면 훨씬 자연스러워져요.</p>
-<h3>a / an — 처음 말하는 '하나'</h3>
-<p>셀 수 있는 명사 하나를 <b>처음</b> 말할 때 써요. 직업 앞에도 꼭 붙여요.</p>
-{{ex:I'm a student.|아임 어 스튜던트|저는 학생이에요}}{{ex:I have a dog.|아이 해버 독|개를 한 마리 키워요}}
-<p><b>an</b>은 철자가 아니라 <b>소리</b>로 정해요. 모음 소리로 시작하면 an이에요.</p>
-<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university (유-)</td><td class="k">an hour (아워 — h 묵음)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket (원-)</td><td class="k">an MBA (엠-)</td></tr></table></div>
-<h3>the — 서로 아는 '그것'</h3>
-<p>이미 말했거나, 상황상 무엇인지 둘 다 아는 것에 써요. 하나뿐인 것(the sun, the internet)에도 써요.</p>
-{{ex:I have a dog. The dog is so cute.|아이 해버 독. 더 독 이즈 쏘 큐트|개를 키워요. 그 개가 정말 귀여워요}}{{ex:Can you close the door?|캔 유 클로즈 더 도어?|문 좀 닫아 줄래요? (이 방의 그 문)}}
-<h3>관사 없음 — 일반적인 이야기</h3>
-<p>'~라는 것 전체'를 말할 때는 복수형이나 셀 수 없는 명사를 관사 없이 써요. 식사 이름, 언어, 운동도 관사가 없어요.</p>
-{{ex:I love dogs.|아이 러브 독즈|저는 개를 좋아해요 (개라는 동물 전체)}}{{ex:I don't drink coffee.|아이 돈 드링크 커피|저는 커피를 안 마셔요}}{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}
-<div class="tip">가장 흔한 실수 1위: <b>I'm teacher.</b> (X) → <b>I'm a teacher.</b> (O). 직업 앞의 a는 절대 빼먹지 마세요!</div>`},
+{ id:"articles", title:"2 · a, the: ఆర్టికల్స్ మొదటి అడుగు", blurb:"తెలుగులో ఆర్టికల్స్ లేవు. అందుకే a, the వదిలేస్తాం, లేదా అవసరం లేని చోట పెడతాం. మూడు నియమాలు గుర్తుపెట్టుకోండి, చాలు.", deck:"నా పరిచయం", body:`
+<p>తెలుగులో ఆర్టికల్స్ లేవు. అందుకే ఇంగ్లీష్ మాట్లాడేటప్పుడు a, the వదిలేస్తాం (<b>Give me pen</b> ✗), లేదా అవసరం లేని చోట పెడతాం (<b>The life is hard</b> ✗). "ఒక" ప్రతిసారీ a కాదు; "ఆ / ఈ" ప్రతిసారీ the కాదు. "నేను విద్యార్థిని" లో "ఒక" లేదు, అయినా ఇంగ్లీష్‌లో a కావాలి: I'm <b>a</b> student. ఆర్టికల్ తప్పినా మాట అర్థమవుతుంది; కానీ ఈ మూడు నియమాలు తెలిస్తే మీ ఇంగ్లీష్ చాలా సహజంగా వినిపిస్తుంది.</p>
+<h3>a / an: మొదటిసారి చెప్పే "ఒకటి"</h3>
+<p>లెక్కించదగిన నామవాచకం (ఒకటి, రెండు అని లెక్కపెట్టగలిగేది) ఒక్కటే ఉండి, దాన్ని <b>మొదటిసారి</b> చెబుతుంటే a / an వస్తుంది. ఉద్యోగం పేరు ముందు ఇది తప్పనిసరి.</p>
+{{ex:I'm a student.|ఐమ్ అ ˈస్టూడంట్|నేను విద్యార్థిని}}{{ex:I have a dog.|ఐ హ్యావ఼్ అ డాగ్|నాకు ఒక కుక్క ఉంది}}
+<p>"ఒక్కటే" అని నొక్కి చెప్పాలనుకున్నప్పుడే one; మామూలుగా a. <b>I have one doubt</b> ✗ → <b>I have a question</b> ✓</p>
+{{ex:I have a question.|ఐ హ్యావ఼్ అ ˈక్వెస్చన్|నాకు ఒక ప్రశ్న ఉంది}}
+<p>a రావాలా, an రావాలా అనేది స్పెల్లింగ్‌ను బట్టి కాదు, <b>శబ్దాన్ని</b> బట్టి ఉంటుంది. అచ్చు శబ్దంతో మొదలైతే an.</p>
+<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university ("యూ" తో మొదలు)</td><td class="k">an hour (h పలకరు)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket ("వ" తో మొదలు)</td><td class="k">an MBA ("ఎమ్" తో మొదలు)</td></tr></table></div>
+<h3>the: ఇద్దరికీ తెలిసిన "అది"</h3>
+<p>ముందే చెప్పినదానికి, లేదా ఏది అనేది ఇద్దరికీ తెలిసినదానికి the వస్తుంది. లోకంలో ఒక్కటే ఉన్నవాటికి కూడా the: the sun, the internet.</p>
+{{ex:I have a dog. The dog is so cute.|ఐ హ్యావ఼్ అ డాగ్. ద఼ డాగ్ ఇజ఼్ సో క్యూట్|నాకు ఒక కుక్క ఉంది. ఆ కుక్క చాలా ముద్దుగా ఉంటుంది}}{{ex:Can you close the door?|కన్ యు క్లోజ఼్ ద఼ డోర్|తలుపు వేస్తావా? (ఈ గది తలుపు)}}
+<h3>ఆర్టికల్ లేదు: మామూలుగా, మొత్తంగా చెప్పేటప్పుడు</h3>
+<p>ఒక జాతి మొత్తం గురించి మామూలుగా చెప్పేటప్పుడు బహువచనం లేదా లెక్కించలేని నామవాచకం <b>ఆర్టికల్ లేకుండా</b> వస్తుంది. ఇక్కడ the పెట్టడం మరో తరచు తప్పు: <b>I like the music</b> ✗ → <b>I like music</b> ✓ భోజనాల పేర్లు, భాషలు, ఆటల ముందు కూడా ఆర్టికల్ రాదు.</p>
+{{ex:I love dogs.|ఐ లవ఼్ డాగ్జ఼్|నాకు కుక్కలంటే చాలా ఇష్టం (కుక్కలన్నీ)}}{{ex:I don't drink coffee.|ఐ డోంట్ డ్రింక్ ˈకాఫి|నేను కాఫీ తాగను}}{{ex:Let's have lunch.|లెట్స్ హ్యావ఼్ లంచ్|మధ్యాహ్న భోజనం చేద్దాం}}{{ex:Life is short.|లైఫ్ ఇజ఼్ షోర్ట్|జీవితం చిన్నది}}
+<div class="tip">అన్నిటికంటే తరచుగా జరిగే తప్పు: <b>I'm teacher.</b> ✗ → <b>I'm a teacher.</b> ✓ ఉద్యోగం పేరు ముందు a ని ఎప్పుడూ వదిలేయకండి.</div>`},
 
-{ id:"be", title:"3 · be동사와 일반동사", blurb:"am/is/are와 do/does — 섞어 쓰지 않는 게 핵심이에요.", deck:"자기소개", body:`
-<p>영어 문장에는 동사가 꼭 하나 있어요. 그 동사가 <b>be동사</b>인지 <b>일반동사</b>인지에 따라 부정문·의문문 만드는 법이 달라져요.</p>
-<h3>두 종류의 동사</h3>
-<div class="tbl"><table><tr><th></th><th>be동사</th><th>일반동사</th></tr><tr><td>뜻</td><td>~이다, ~에 있다, ~한 상태다</td><td>행동·습관 (먹다, 살다, 좋아하다)</td></tr><tr><td>예</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>부정</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>질문</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
-<p>be동사는 주어에 따라 모양이 바뀌어요: <b>I am</b> / <b>you·we·they are</b> / <b>he·she·it is</b>. 말할 때는 거의 항상 줄여요: I'm, you're, she's.</p>
-{{ex:I'm hungry.|아임 헝그리|배고파요}}{{ex:She's at work.|쉬즈 앳 워크|그녀는 회사에 있어요}}{{ex:Are you okay?|아 유 오케이?|괜찮아요?}}
-<h3>절대 같이 쓰지 마세요</h3>
-<p>한국어 "저는 ~해요"를 옮기다 보면 be동사와 일반동사를 겹쳐 쓰기 쉬워요.</p>
-{{ex:I like K-pop.|아이 라익 케이팝|케이팝을 좋아해요 (O — I am like X)}}{{ex:I live in Busan.|아이 리브 인 부산|부산에 살아요 (O — I am live X)}}
-<h3>he·she·it에는 -s</h3>
-<p>주어가 한 사람(나·너 제외)이면 현재형 일반동사에 <b>-s</b>를 붙이고, 부정·질문에는 <b>does</b>를 써요. does를 쓰면 동사의 -s는 빠져요.</p>
-{{ex:My brother works in Seoul.|마이 브라더 웍스 인 서울|우리 형은 서울에서 일해요}}{{ex:Does he speak English?|더즈 히 스픽 잉글리시?|그는 영어를 해요?}}{{ex:She doesn't eat meat.|쉬 더즌트 잇 밋|그녀는 고기를 안 먹어요}}
-<div class="tip">헷갈리면 이렇게 물어보세요: "이 문장에 be 말고 <b>다른 동사</b>(like, live, want, go…)가 있나?" 있으면 do/does, 없으면(상태·정체·위치) be동사예요.</div>`},
+{ id:"be", title:"3 · be (am, is, are), మిగతా క్రియలు", blurb:"తెలుగులో \"నా పేరు రవి\" అంటే సరిపోతుంది. ఇంగ్లీష్‌లో is తప్పనిసరి. am / is / are ఎప్పుడు, do / does ఎప్పుడు?", deck:"నా పరిచయం", body:`
+<p>తెలుగులో "నా పేరు రవి", "ఆమె డాక్టర్" లాంటి వాక్యాల్లో క్రియ ఉండదు. ఇంగ్లీష్ వాక్యంలో క్రియ తప్పనిసరి, కాబట్టి ఇక్కడ <b>be (am, is, are)</b> రావాలి: <b>My name Ravi</b> ✗ → <b>My name is Ravi</b> ✓ వాక్యంలో ఉన్నది be అయితే ఒకలా, <b>వేరే క్రియ</b> (like, live, work…) అయితే మరోలా వ్యతిరేక వాక్యం, ప్రశ్న తయారవుతాయి.</p>
+<h3>be ని వదిలేయకండి</h3>
+<p>ఎవరు, ఏమిటి, ఎక్కడ, ఏ స్థితిలో అని చెప్పే ప్రతి వాక్యంలో be ఉండాలి. దాని రూపం కర్త (subject) ని బట్టి మారుతుంది: <b>I am</b> / <b>you, we, they are</b> / <b>he, she, it is</b>. మాట్లాడేటప్పుడు దాదాపు ఎప్పుడూ కుదించి పలుకుతారు: I'm, you're, she's.</p>
+{{ex:My name is Ravi.|మై నేమ్ ఇజ఼్ ˈరావ఼ి|నా పేరు రవి (My name Ravi ✗)}}{{ex:She's a doctor.|షిజ఼్ అ ˈడాక్టర్|ఆమె డాక్టర్ (She doctor ✗)}}{{ex:She's very tired.|షిజ఼్ ˈవ఼ెరి ˈటైఅర్డ్|ఆమె చాలా అలసిపోయింది (She very tired ✗)}}{{ex:I'm hungry.|ఐమ్ ˈహంగ్రి|నాకు ఆకలిగా ఉంది}}{{ex:She's at work.|షిజ఼్ అట్ వర్క్|ఆమె ఆఫీసులో ఉంది}}{{ex:Are you okay?|అర్ యు ఓˈకే|నువ్వు బాగానే ఉన్నావా?}}
+<p>తెలుగులో ఆమె, అది రెండిటికీ క్రియ ఒకటే (వచ్చింది). ఇంగ్లీష్‌లో మగవారికి <b>he</b>, ఆడవారికి <b>she</b>, వస్తువులకు <b>it</b>: My sister is a doctor. <b>She</b> works in Vizag.</p>
+<h3>రెండు రకాల క్రియలు</h3>
+<div class="tbl"><table><tr><th></th><th>be</th><th>వేరే క్రియ</th></tr><tr><td>పని</td><td>ఎవరు, ఎక్కడ, ఏ స్థితిలో (తెలుగులో తరచూ క్రియే ఉండదు)</td><td>మిగతావన్నీ: ఇష్టపడటం, నివసించడం, తినడం, ఒప్పుకోవడం</td></tr><tr><td>ఉదాహరణ</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>వ్యతిరేక వాక్యం</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>ప్రశ్న</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
+<h3>be, వేరే క్రియ కలిపి వాడకండి</h3>
+<p>ఇది పై తప్పుకు వ్యతిరేకమైనది: వాక్యంలో ఇప్పటికే వేరే క్రియ ఉంటే be చేర్చకండి. "నేను ఒప్పుకుంటున్నాను" → <b>I am agree</b> ✗ → <b>I agree</b> ✓</p>
+{{ex:I agree.|ఐ అˈగ్రీ|నేను ఒప్పుకుంటున్నాను (I am agree ✗)}}{{ex:I like cricket.|ఐ లైక్ ˈక్రికిట్|నాకు క్రికెట్ ఇష్టం (I am like ✗)}}{{ex:I live in Vijayawada.|ఐ లివ఼్ ఇన్ వ఼ిజయˈవాడ|నేను విజయవాడలో ఉంటాను (I am live ✗)}}
+<h3>he, she, it తో -s</h3>
+<p>కర్త ఒక్క వ్యక్తి లేదా ఒక్క వస్తువు అయితే (he, she, it; I, you కాదు) Simple Present లో క్రియకు <b>-s</b> చేరుతుంది. వ్యతిరేక వాక్యంలో, ప్రశ్నలో సహాయక క్రియ <b>does</b> వస్తుంది; does వచ్చాక క్రియ -s లేని V1 అవుతుంది.</p>
+{{ex:My brother works in Hyderabad.|మై ˈబ్రద఼ర్ వర్క్స్ ఇన్ ˈహైడరబ్యాడ్|మా అన్నయ్య హైదరాబాద్‌లో పని చేస్తాడు}}{{ex:Does he speak English?|డజ఼్ హి స్పీక్ ˈఇంగ్లిష్|అతను ఇంగ్లీష్ మాట్లాడతాడా?}}{{ex:She doesn't eat meat.|షి ˈడజ఼ంట్ ఈట్ మీట్|ఆమె మాంసం తినదు}}
+<div class="tip">అనుమానం వస్తే ఇలా అడగండి: "ఈ వాక్యంలో be కాకుండా <b>వేరే క్రియ</b> (like, live, want, go…) ఉందా?" ఉంటే do / does; లేకపోతే (ఎవరు, ఎక్కడ, ఏ స్థితి) be. చిన్న జవాబులూ అలాగే: Are you tired? Yes, I am. / Do you like tea? Yes, I do.</div>`},
 
-{ id:"polite", title:"4 · 공손하게 부탁하기", blurb:"Can you → Could you → Would you mind. 'Give me'는 이제 그만!", deck:"생존 영어 1", body:`
-<p>영어에는 존댓말 어미가 없지만, <b>부탁하는 방식</b>으로 공손함을 표현해요. 같은 내용도 문장 틀에 따라 무례하게도, 정중하게도 들려요.</p>
-<h3>공손함의 계단</h3>
-<div class="tbl"><table><tr><th>표현</th><th>느낌</th><th>쓰는 곳</th></tr><tr><td class="k">Give me ~.</td><td>명령. 무례하게 들려요</td><td>쓰지 마세요</td></tr><tr><td class="k">Can you ~?</td><td>캐주얼한 부탁</td><td>친구, 가게</td></tr><tr><td class="k">Could you ~?</td><td>공손한 부탁</td><td>처음 보는 사람, 직장</td></tr><tr><td class="k">Would you mind ~ing?</td><td>아주 공손함</td><td>큰 부탁, 윗사람</td></tr></table></div>
-{{ex:Could you help me?|쿠쥬 헬프 미?|도와주시겠어요?}}{{ex:Could you say that again?|쿠쥬 쎄이 댓 어게인?|다시 말씀해 주시겠어요?}}{{ex:Would you mind taking a picture of us?|우쥬 마인드 테이킹 어 픽처 오브 어스?|저희 사진 좀 찍어 주셔도 괜찮을까요?}}
-<h3>주문할 때는 Can I get ~? / I'd like ~</h3>
-<p>"I want ~"는 아이가 조르는 것처럼 들릴 수 있어요. 가게에서는 이렇게 말해요.</p>
-{{ex:Can I get a latte, please?|캔 아이 게러 라테이, 플리즈?|라테 한 잔 주세요}}{{ex:I'd like a window seat.|아이드 라익 어 윈도우 씻|창가 자리로 주세요}}
-<h3>Would you mind…?의 함정</h3>
-<p>mind는 '꺼리다'라는 뜻이에요. 그래서 <b>"No"가 OK</b>라는 뜻이 돼요!</p>
-{{ex:Would you mind opening the window?|우쥬 마인드 오프닝 더 윈도우?|창문 좀 열어 주셔도 될까요?}}{{ex:No, not at all.|노, 낫 앳 올|네, 그럼요 (전혀 안 꺼려요)}}
-<div class="tip">마법의 단어 <b>please</b>와 <b>thank you</b>는 아무리 많이 써도 지나치지 않아요. 문장 끝에 please만 붙여도 훨씬 부드러워져요. 억양도 중요해요: 끝을 살짝 올리면 부탁, 내리면 명령처럼 들려요.</div>`},
+{ id:"polite", title:"4 · మర్యాదగా అడగడం", blurb:"Can you → Could you → Would you mind. \"Give me\" ఇక వద్దు!", deck:"తప్పనిసరి మాటలు 1", body:`
+<p>తెలుగులో మర్యాద "మీరు" లో, "-ండి" లో ఉంటుంది: ఇవ్వు → ఇవ్వండి. ఇంగ్లీష్‌లో you ఒక్కటే, క్రియకు మర్యాద రూపం లేదు. అక్కడ మర్యాద <b>అడిగే పద్ధతిలో</b> ఉంటుంది: could, would, please. "ఒక కాఫీ ఇవ్వండి" ని మాటకు మాట మారిస్తే <b>Give me one coffee</b> అవుతుంది; అది ఆజ్ఞలా వినిపిస్తుంది.</p>
+<h3>మర్యాద మెట్లు</h3>
+<div class="tbl"><table><tr><th>వాక్యం</th><th>ఎలా వినిపిస్తుంది</th><th>ఎక్కడ</th></tr><tr><td class="k">Give me ~.</td><td>ఆజ్ఞ. మొరటుగా వినిపిస్తుంది</td><td>వాడకండి</td></tr><tr><td class="k">Can you ~?</td><td>మామూలుగా అడగడం</td><td>స్నేహితులు, దుకాణం</td></tr><tr><td class="k">Could you ~?</td><td>మర్యాదగా అడగడం</td><td>కొత్తవాళ్ళు, ఆఫీసు</td></tr><tr><td class="k">Would you mind ~ing?</td><td>చాలా మర్యాదగా</td><td>పెద్ద సహాయం, పై అధికారులు</td></tr></table></div>
+{{ex:Could you help me?|కడ్ యు హెల్ప్ మి|నాకు సహాయం చేయగలరా?}}{{ex:Could you say that again?|కడ్ యు సే ద఼్యాట్ అˈగెన్|మళ్ళీ ఒకసారి చెప్పగలరా?}}{{ex:Would you mind taking a picture of us?|వడ్ యు మైండ్ ˈటేకిఙ్ అ ˈపిక్చర్ అవ఼్ అస్|మా ఫోటో ఒకటి తీస్తారా?}}
+<h3>ఆర్డర్ చేసేటప్పుడు: Can I get ~? / I'd like ~</h3>
+<p>"I want ~" పిల్లలు మారాం చేస్తున్నట్టు వినిపించవచ్చు. దుకాణంలో, రెస్టారెంట్‌లో ఇలా అడగండి. ఒక కప్పు అయినా one కాదు, ఆర్టికల్ a: <b>Could I have a coffee?</b></p>
+{{ex:Can I get a latte, please?|కన్ ఐ గెట్ అ ˈలాటే ప్లీజ఼్|ఒక లాటే ఇస్తారా?}}{{ex:I'd like a window seat.|ఐడ్ లైక్ అ ˈవిండో సీట్|నాకు కిటికీ పక్క సీటు కావాలి}}{{ex:I'd like a coffee, please.|ఐడ్ లైక్ అ ˈకాఫి ప్లీజ఼్|నాకు ఒక కాఫీ ఇవ్వండి}}
+<h3>Would you mind…? లో చిక్కు</h3>
+<p>mind అంటే "అభ్యంతరం ఉండటం". కాబట్టి ఇక్కడ <b>"No" అంటేనే సరే</b> అని అర్థం!</p>
+{{ex:Would you mind opening the window?|వడ్ యు మైండ్ ˈఓపనిఙ్ ద఼ ˈవిండో|కిటికీ తెరుస్తారా? (మీకు అభ్యంతరమా?)}}{{ex:No, not at all.|నో నాట్ అట్ ఆల్|అలాగే, తప్పకుండా (అభ్యంతరం ఏమీ లేదు)}}
+<p>ఇండియన్ ఆఫీసు ఈమెయిల్‌లో కనిపించే <b>Kindly</b> + ఆజ్ఞ (Kindly send the file) విదేశాల్లో బిగుసుకుపోయినట్టు వినిపిస్తుంది; <b>Could you please send the file?</b> సహజం. Thank you కి జవాబు <b>You're welcome</b>.</p>
+<div class="tip"><b>please</b>, <b>thank you</b> ఎన్నిసార్లు అన్నా ఎక్కువ కాదు. వాక్యం చివర please చేర్చినా చాలు, మాట మెత్తబడుతుంది. గొంతు కూడా ముఖ్యం: చివర కొంచెం పైకి లేపితే అభ్యర్థన, కిందికి దించితే ఆజ్ఞలా వినిపిస్తుంది.</div>`},
 
-{ id:"tense", title:"5 · 시제 한눈에 정리: 현재·과거·미래", blurb:"습관은 현재, 지금은 진행형, 계획은 going to.", deck:"스몰토크", body:`
-<p>한국어는 "먹어요" 하나로 습관도, 지금 하는 일도, 가까운 미래도 말할 수 있어요. 영어는 이걸 나눠서 말해요. 스몰토크에 꼭 필요한 다섯 가지만 익혀요.</p>
-<h3>현재형 vs 현재진행형</h3>
-<div class="tbl"><table><tr><th>형태</th><th>뜻</th><th>예</th></tr><tr><td class="k">현재형</td><td>습관, 늘 그런 사실</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + ~ing</td><td>지금 하는 중 / 정해 둔 가까운 일정</td><td>I'm drinking coffee right now.</td></tr></table></div>
-{{ex:I work at a bank.|아이 워크 앳 어 뱅크|은행에서 일해요 (늘)}}{{ex:I'm working from home today.|아임 워킹 프럼 홈 투데이|오늘은 재택근무 중이에요}}
-<h3>과거형</h3>
-<p>규칙 동사는 <b>-ed</b>, 자주 쓰는 동사는 대부분 불규칙이에요: go → went, eat → ate, see → saw, have → had, get → got.</p>
-{{ex:I went to the beach last weekend.|아이 웬 투 더 비-치 래스트 위켄드|지난 주말에 바닷가에 갔어요}}{{ex:Did you have fun?|디쥬 해브 펀?|재밌었어요?}}
-<h3>미래: will vs be going to</h3>
-<div class="tbl"><table><tr><th></th><th>언제</th><th>예</th></tr><tr><td class="k">will</td><td>말하는 순간 결정, 약속</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>미리 세운 계획</td><td>I'm going to visit Jeju next month.</td></tr></table></div>
-{{ex:I'll call you later.|아일 콜 유 레이러|나중에 전화할게}}{{ex:I'm going to take a cooking class.|아임 고잉 투 테이커 쿠킹 클래스|요리 수업 들을 거예요}}
-<p>말할 때 going to는 <b>gonna(거나)</b>처럼 들려요. 글로 쓸 때는 going to로 써요.</p>
-<div class="tip">"How was your weekend?"엔 과거형, "Any plans for the weekend?"엔 going to로 대답하면 돼요. 질문의 시제를 그대로 따라 하는 게 가장 쉬운 방법이에요.</div>`},
+{ id:"tense", title:"5 · టెన్స్‌లు ఒకే చోట: present, past, future", blurb:"అలవాటుకు Simple Present, ఇప్పుడు జరుగుతున్నదానికి -ing, ముందే వేసుకున్న ప్లాన్‌కు going to.", deck:"సరదా కబుర్లు", body:`
+<p>టెన్స్ (కాలం) విషయంలో తెలుగు, ఇంగ్లీష్ ఒకదానికొకటి సరిగ్గా సరిపోవు. తెలుగులో "చేస్తాను" అనే ఒక్క రూపం అలవాటునూ చెబుతుంది, రాబోయే పనినీ చెబుతుంది. ఇంగ్లీష్ ఈ రెండిటినీ విడదీస్తుంది. ముందు ఈ పట్టిక చూడండి.</p>
+<div class="tbl"><table><tr><th>తెలుగు</th><th>ఇంగ్లీష్</th><th>ఉదాహరణ</th></tr><tr><td>చేస్తాను (అలవాటు)</td><td class="k">Simple Present</td><td>I work at a bank.</td></tr><tr><td>చేస్తాను (రేపు, తర్వాత)</td><td class="k">will / be going to</td><td>I'll call you later.</td></tr><tr><td>చేస్తున్నాను</td><td class="k">Present Continuous (be + -ing)</td><td>I'm working from home today.</td></tr><tr><td>చేశాను</td><td class="k">Simple Past (కొన్నిసార్లు Present Perfect; అది తర్వాతి పాఠాల్లో)</td><td>I went to the beach last weekend.</td></tr></table></div>
+<h3>Simple Present, Present Continuous</h3>
+<p>Simple Present (వర్తమాన కాలం) అలవాట్లకు, ఎప్పుడూ నిజమైన విషయాలకు. "నేను రోజూ ఆఫీసుకి వెళ్తాను" అలవాటు, కాబట్టి will కాదు: <b>I will go to office daily</b> ✗ → <b>I go to the office every day</b> ✓ ఇప్పుడు జరుగుతున్న పనికి, ఇప్పటికే ఖాయమైన దగ్గరి ప్లాన్‌కు be + -ing.</p>
+{{ex:I work at a bank.|ఐ వర్క్ అట్ అ బ్యాంక్|నేను బ్యాంకులో పని చేస్తాను (ఎప్పుడూ)}}{{ex:I'm working from home today.|ఐమ్ ˈవర్కిఙ్ ఫ్రమ్ హోమ్ టˈడే|ఈరోజు ఇంటి నుంచి పని చేస్తున్నాను}}{{ex:I study English every day.|ఐ ˈస్టడి ˈఇంగ్లిష్ ˈఎవ఼్రి డే|నేను రోజూ ఇంగ్లీష్ చదువుతాను (అలవాటు: will రాదు)}}
+<h3>Simple Past</h3>
+<p>రెగ్యులర్ క్రియలకు <b>-ed</b> చేరుతుంది; తరచూ వాడే క్రియలు చాలావరకు ఇర్రెగ్యులర్: go → went, eat → ate, see → saw, have → had, get → got. ప్రశ్నలో, వ్యతిరేక వాక్యంలో did వస్తే క్రియ మళ్ళీ V1 అవుతుంది: <b>I didn't went</b> ✗ → <b>I didn't go</b> ✓</p>
+{{ex:I went to the beach last weekend.|ఐ వెంట్ ట ద఼ బీచ్ ల్యాస్ట్ ˈవీకెండ్|పోయిన వారాంతం బీచ్‌కి వెళ్ళాను}}{{ex:Did you have fun?|డిడ్ యు హ్యావ఼్ ఫన్|సరదాగా గడిచిందా?}}
+<h3>రాబోయేది: will, be going to</h3>
+<div class="tbl"><table><tr><th></th><th>ఎప్పుడు</th><th>ఉదాహరణ</th></tr><tr><td class="k">will</td><td>మాట్లాడుతున్న క్షణంలో తీసుకున్న నిర్ణయం, ఇచ్చే మాట</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>ముందే వేసుకున్న ప్లాన్</td><td>I'm going to visit Vizag next month.</td></tr></table></div>
+{{ex:I'll call you later.|ఐల్ కాల్ యు ˈలేటర్|తర్వాత ఫోన్ చేస్తాను}}{{ex:I'm going to take a cooking class.|ఐమ్ ˈగోఇఙ్ ట టేక్ అ ˈకుకిఙ్ క్ల్యాస్|నేను వంట క్లాసులో చేరబోతున్నాను}}
+<p>మాట్లాడేటప్పుడు going to అనేది <b>gonna</b> లా వినిపిస్తుంది. రాసేటప్పుడు going to అనే రాయండి.</p>
+<div class="tip">"How was your weekend?" కి Simple Past లో, "Any plans for the weekend?" కి going to తో జవాబివ్వండి. ప్రశ్నలో ఉన్న టెన్స్‌నే జవాబులో వాడటం అన్నిటికంటే తేలిక దారి. yesterday, every day, tomorrow లాంటి సమయ పదాలు సాయపడతాయి, కానీ టెన్స్‌ను అవి ఒక్కటే నిర్ణయించవు.</div>`},
 
-{ id:"prep", title:"6 · 전치사 in / on / at", blurb:"넓으면 in, 하루면 on, 한 점이면 at.", deck:"숫자·시간·날짜", body:`
-<p>in, on, at은 시간과 장소 모두에 쓰여요. <b>범위가 넓을수록 in, 좁을수록 at</b>이라고 기억하면 대부분 맞아요.</p>
-<h3>시간</h3>
-<div class="tbl"><table><tr><th>전치사</th><th>범위</th><th>예</th></tr><tr><td class="k">in</td><td>월·연도·계절·하루 중 때</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>요일·날짜·특정한 날</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>정확한 시각·짧은 순간</td><td>at 7, at noon, at night</td></tr></table></div>
-{{ex:See you on Friday.|씨 유 온 프라이데이|금요일에 봐요}}{{ex:The meeting is at three.|더 미팅 이즈 앳 쓰리|회의는 3시예요}}{{ex:I was born in 1998.|아이 워즈 본 인 나인틴 나인티에잇|1998년에 태어났어요}}
-<h3>장소</h3>
-<div class="tbl"><table><tr><th>전치사</th><th>느낌</th><th>예</th></tr><tr><td class="k">in</td><td>공간 안, 도시·나라</td><td>in the car, in Seoul, in Korea</td></tr><tr><td class="k">on</td><td>표면 위, 거리, 대중교통</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>한 지점, 장소를 '목적'으로</td><td>at the station, at work, at home</td></tr></table></div>
-{{ex:I'm on the bus.|아임 온 더 버스|버스 타고 있어요}}{{ex:Let's meet at the station.|렛츠 밋 앳 더 스테이션|역에서 만나요}}
-<h3>전치사를 쓰지 않는 경우</h3>
-<p><b>next, last, this, every, tomorrow, yesterday</b> 앞에는 전치사를 쓰지 않아요.</p>
-{{ex:See you next week.|씨 유 넥스트 윅|다음 주에 봐요 (on next week X)}}
-<div class="tip">예외도 외워 두세요: <b>at night</b>(밤에), <b>in the morning / afternoon / evening</b>. 주말은 미국 <b>on the weekend</b>, 영국 <b>at the weekend</b>예요.</div>`},
+{ id:"prep", title:"6 · ప్రిపొజిషన్‌లు: in / on / at", blurb:"తెలుగులో \"-లో\" ఒక్కటే. ఇంగ్లీష్‌లో పెద్ద పరిధికి in, ఒక రోజుకు on, ఒక బిందువుకు at.", deck:"సంఖ్యలు, సమయం, తేదీ", body:`
+<p>తెలుగులో "-లో", "-కి", "-తో" లాంటి విభక్తి ప్రత్యయాలు పదం తర్వాత వస్తాయి (ఇంట్లో). ఇంగ్లీష్‌లో ప్రిపొజిషన్ పదం ముందు, విడిగా వస్తుంది (in the house). పైగా ఒక్క "-లో" కి ఇంగ్లీష్‌లో in, on, at మూడూ వస్తాయి. ఇలా గుర్తుపెట్టుకోండి: <b>పరిధి పెద్దదైతే in, చిన్నదైతే at</b>.</p>
+<h3>సమయం</h3>
+<div class="tbl"><table><tr><th>ప్రిపొజిషన్</th><th>పరిధి</th><th>ఉదాహరణ</th></tr><tr><td class="k">in</td><td>నెల, సంవత్సరం, ఋతువు, రోజులో ఒక పూట</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>వారంలో రోజు, తేదీ, ప్రత్యేకమైన రోజు</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>కచ్చితమైన టైమ్, చిన్న క్షణం</td><td>at 7, at noon, at night</td></tr></table></div>
+{{ex:See you on Friday.|సీ యు ఆన్ ˈఫ్రైడే|శుక్రవారం కలుద్దాం}}{{ex:The meeting is at three.|ద఼ ˈమీటిఙ్ ఇజ఼్ అట్ థ఼్రీ|మీటింగ్ మూడు గంటలకు}}{{ex:I was born in 1998.|ఐ వజ఼్ బోర్న్ ఇన్ నైంˈటీన్ నైంటి ఏట్|నేను 1998లో పుట్టాను}}
+<p>"మూడు గంటలకి" లోని "-కి" ఇక్కడ to కాదు, at: at three.</p>
+<h3>చోటు</h3>
+<div class="tbl"><table><tr><th>ప్రిపొజిషన్</th><th>భావం</th><th>ఉదాహరణ</th></tr><tr><td class="k">in</td><td>లోపల; ఊరు, దేశం</td><td>in the car, in Hyderabad, in India</td></tr><tr><td class="k">on</td><td>ఉపరితలం మీద; వీధి; బస్సు, రైలు</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>ఒక బిందువు; ఒక పని కోసం ఉండే చోటు</td><td>at the station, at work, at home</td></tr></table></div>
+{{ex:I'm on the bus.|ఐమ్ ఆన్ ద఼ బస్|నేను బస్సులో ఉన్నాను}}{{ex:Let's meet at the station.|లెట్స్ మీట్ అట్ ద఼ ˈస్టేషన్|స్టేషన్ దగ్గర కలుద్దాం}}{{ex:I go to work by bus.|ఐ గో ట వర్క్ బై బస్|నేను ఆఫీసుకి బస్సులో వెళ్తాను (in bus ✗)}}
+<p>"బస్సులో వెళ్తాను" అన్నప్పుడు ఏ వాహనంలో అనేది చెబుతున్నాం, కాబట్టి <b>by bus</b>; "బస్సులో ఉన్నాను" అన్నప్పుడు <b>on the bus</b>.</p>
+<h3>ప్రిపొజిషన్ రాని చోట్లు, మారే చోట్లు</h3>
+<p><b>next, last, this, every, tomorrow, yesterday</b> ముందు ప్రిపొజిషన్ రాదు.</p>
+{{ex:See you next week.|సీ యు నెక్స్ట్ వీక్|వచ్చే వారం కలుద్దాం (on next week ✗)}}
+<p>తెలుగు ప్రత్యయాన్ని మాటకు మాట మారిస్తే వచ్చే తప్పులు: "అతని మీద కోపం" → <b>angry on him</b> ✗ → <b>angry with him</b> ✓; "దాని గురించి చర్చించాం" → <b>discussed about it</b> ✗ → <b>discussed it</b> ✓; "అతనితో పెళ్ళయింది" → <b>married with him</b> ✗ → <b>married to him</b> ✓</p>
+<div class="tip">మినహాయింపులు కూడా గుర్తుపెట్టుకోండి: <b>at night</b> (రాత్రి పూట), <b>in the morning / afternoon / evening</b>. వారాంతానికి అమెరికాలో <b>on the weekend</b>, బ్రిటన్‌లో <b>at the weekend</b>.</div>`},
 
-{ id:"smalltalk", title:"7 · 스몰토크 문화", blurb:"How are you?는 질문이 아니라 인사예요. 안전한 주제와 피할 주제.", deck:"스몰토크", body:`
-<p>영어권에서는 엘리베이터, 계산대, 회의 시작 전에 처음 보는 사람과도 가볍게 이야기를 나눠요. 깊은 대화가 아니라 <b>분위기를 부드럽게 하는 짧은 대화</b>예요.</p>
-<h3>How are you?는 인사예요</h3>
-<p>진짜 컨디션을 묻는 게 아니에요. 짧게 대답하고 <b>되물어 주는 것</b>이 매너예요.</p>
-{{ex:Hey, how's it going?|헤이, 하우즈 잇 고잉?|안녕, 잘 지내?}}{{ex:Pretty good! How about you?|프리티 굿! 하우 어바웃 유?|잘 지내! 너는?}}
-<h3>안전한 주제 vs 피할 주제</h3>
-<div class="tbl"><table><tr><th>안전해요</th><th>초면엔 피해요</th></tr><tr><td>날씨, 주말·휴가 계획</td><td>나이, 결혼·연애 여부</td></tr><tr><td>음식, 맛집, 여행</td><td>체중·외모 평가 ("살쪘어요?")</td></tr><tr><td>드라마·영화·스포츠</td><td>연봉, 집값</td></tr><tr><td>일 (가볍게), 동네</td><td>정치, 종교</td></tr></table></div>
-<p>한국에서는 나이를 먼저 묻는 게 자연스럽지만, 영어권에서는 실례가 될 수 있어요.</p>
-<h3>대화를 이어 가는 기술</h3>
-<p>대답 + <b>정보 하나 더</b> + <b>되묻기</b>. 이 세 박자면 대화가 끊기지 않아요.</p>
-{{ex:It was great! I went hiking. What about you?|잇 워즈 그레잇! 아이 웬 하이킹. 왓 어바웃 유?|좋았어요! 등산 갔었어요. 당신은요?}}
-<p>맞장구도 중요해요: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
-<h3>자연스럽게 끝내기</h3>
-{{ex:Well, I should get going.|웰, 아이 슈드 겟 고잉|그럼 이만 가 볼게요}}{{ex:It was nice talking to you.|잇 워즈 나이스 토킹 투 유|이야기 즐거웠어요}}
-<div class="tip">부정문에 맞장구칠 때는 <b>Me neither</b>예요. "I don't like horror movies." → "Me neither." (Me too X). 미국 구어에서는 Me either도 들리지만 Me neither가 표준이에요.</div>`},
+{ id:"smalltalk", title:"7 · సరదా కబుర్లు: small talk పద్ధతి", blurb:"How are you? ప్రశ్న కాదు, పలకరింపు. ఏ విషయాలు మాట్లాడవచ్చు, ఏవి వద్దు.", deck:"సరదా కబుర్లు", body:`
+<p>అమెరికా లాంటి దేశాల్లో లిఫ్ట్‌లో, బిల్లు కౌంటర్ దగ్గర, మీటింగ్ మొదలయ్యే ముందు కొత్తవాళ్ళతో కూడా రెండు మాటలు మాట్లాడతారు. దీన్నే small talk అంటారు: లోతైన సంభాషణ కాదు, <b>వాతావరణాన్ని తేలిక చేసే చిన్న కబుర్లు</b>.</p>
+<h3>How are you? ఒక పలకరింపు</h3>
+<p>ఇది నిజంగా ఆరోగ్యం గురించి అడగడం కాదు; మన "బాగున్నారా?" లాంటిదే. చిన్నగా జవాబిచ్చి <b>తిరిగి అడగడం</b> మర్యాద.</p>
+{{ex:Hey, how's it going?|హే హౌజ఼్ ఇట్ ˈగోఇఙ్|హాయ్, ఎలా ఉన్నావు?}}{{ex:Pretty good! How about you?|ˈప్రిటి గుడ్. హౌ అబౌట్ యూ|బాగున్నాను! నువ్వు?}}
+<h3>మాట్లాడదగిన విషయాలు, మొదట్లో వద్దనుకోవాల్సినవి</h3>
+<div class="tbl"><table><tr><th>మాట్లాడవచ్చు</th><th>మొదటి పరిచయంలో వద్దు</th></tr><tr><td>వాతావరణం, వారాంతం / సెలవుల ప్లాన్‌లు</td><td>వయసు, పెళ్ళి, పిల్లలు</td></tr><tr><td>భోజనం, మంచి రెస్టారెంట్‌లు, ప్రయాణాలు</td><td>బరువు, రూపం మీద వ్యాఖ్యలు ("లావయ్యారు")</td></tr><tr><td>సినిమాలు, సిరీస్, క్రికెట్</td><td>జీతం, ఇంటి అద్దె</td></tr><tr><td>ఉద్యోగం (పైపైన), ఉండే ఊరు</td><td>రాజకీయాలు, మతం</td></tr></table></div>
+<p>మన దగ్గర "జీతం ఎంత?", "పెళ్ళయిందా?", "భోజనం అయిందా?" అని అడగడం ఆప్యాయత. విదేశాల్లో మొదటి రెండూ చాలా వ్యక్తిగతమైన ప్రశ్నలు; మూడోది భోజనానికి పిలుస్తున్నట్టు అనిపించవచ్చు. పరిచయంలో వాడే మాటలూ వేరు: <b>What is your good name?</b> కాదు, <b>What's your name?</b>; <b>Where do you stay?</b> కాదు, <b>Where do you live?</b></p>
+{{ex:Where do you live?|వెర్ డ యు లివ఼్|మీరు ఎక్కడ ఉంటారు?}}{{ex:I'm from Vijayawada.|ఐమ్ ఫ్రమ్ వ఼ిజయˈవాడ|మాది విజయవాడ}}
+<h3>మాటలు కొనసాగించే పద్ధతి</h3>
+<p>జవాబు + <b>ఇంకొక్క విషయం</b> + <b>తిరిగి ప్రశ్న</b>. ఈ మూడూ ఉంటే సంభాషణ ఆగిపోదు.</p>
+{{ex:It was great! I went hiking. What about you?|ఇట్ వజ఼్ గ్రేట్. ఐ వెంట్ ˈహైకిఙ్. వట్ అబౌట్ యూ|చాలా బాగా గడిచింది! కొండలెక్కడానికి వెళ్ళాను. మీ సంగతి?}}
+<p>ఊ కొట్టడం కూడా ముఖ్యం: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
+<h3>మర్యాదగా ముగించడం</h3>
+{{ex:Well, I should get going.|వెల్ ఐ షడ్ గెట్ ˈగోఇఙ్|సరే, ఇక నేను బయలుదేరాలి}}{{ex:It was nice talking to you.|ఇట్ వజ఼్ నైస్ ˈటాకిఙ్ ట యు|మీతో మాట్లాడటం సంతోషంగా ఉంది}}
+<div class="tip">వ్యతిరేక వాక్యానికి "నేనూ అంతే" అనాలంటే <b>Me neither</b>. "I don't like horror movies." → "Me neither." (Me too ✗) అమెరికన్‌ల మాటల్లో Me either కూడా వినిపిస్తుంది, కానీ Me neither ప్రామాణికం.</div>`},
 
-{ id:"phrasal", title:"8 · 구동사 입문", blurb:"동사 + 작은 단어 = 완전히 새로운 뜻. 원어민 대화의 절반이에요.", deck:"구동사", body:`
-<p>구동사(phrasal verb)는 <b>동사 + up/out/off/on 같은 작은 단어</b>가 합쳐져 새로운 뜻을 만든 거예요. 교과서식 단어(postpone, discover)보다 일상 대화에서 훨씬 많이 들려요.</p>
-<div class="tbl"><table><tr><th>딱딱한 단어</th><th>구동사 (일상)</th><th>뜻</th></tr><tr><td>postpone</td><td class="k">put off</td><td>미루다</td></tr><tr><td>discover</td><td class="k">find out</td><td>알게 되다</td></tr><tr><td>exercise</td><td class="k">work out</td><td>운동하다</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>참다</td></tr></table></div>
-<h3>작은 단어에 힌트가 있어요</h3>
-<p><b>up</b>은 '완전히·위로', <b>out</b>은 '밖으로·끝까지', <b>off</b>는 '떨어져·멈춤', <b>on</b>은 '붙어서·계속'이라는 느낌이 있어요.</p>
-{{ex:I grew up in Daegu.|아이 그루 업 인 대구|대구에서 자랐어요}}{{ex:We ran out of milk.|위 래나우로브 밀크|우유가 다 떨어졌어요}}{{ex:Turn off your phone, please.|터노프 유어 폰, 플리즈|휴대폰 꺼 주세요}}
-<h3>대명사는 가운데에!</h3>
-<p>목적어를 받는 구동사 중 많은 것은 둘로 나눌 수 있어요. 명사는 앞뒤 어디든 괜찮지만, <b>it·them·me 같은 대명사는 반드시 가운데</b>에 와요.</p>
-{{ex:Turn on the light. / Turn the light on.|턴 온 더 라잇 / 턴 더 라잇 온|불 켜 줘 (둘 다 O)}}{{ex:Turn it on.|터니론|그거 켜 줘 (turn on it X)}}{{ex:I'll pick you up at seven.|아일 픽 유 업 앳 쎄븐|7시에 데리러 갈게}}
-<h3>나눌 수 없는 구동사</h3>
-<p>look after, look for, get along with처럼 전치사가 붙는 것은 나누지 않아요: <i>look after my cat</i>, <i>look after her</i>.</p>
-<div class="tip">구동사는 단어처럼 <b>통째로</b> 외우세요. 예문과 함께 외우면 대명사 위치도 자연스럽게 익혀져요. 하루에 세 개씩만 실제로 써 보세요!</div>`},
+{ id:"phrasal", title:"8 · ఫ్రేజల్ వెర్బ్‌లు: మొదటి పరిచయం", blurb:"క్రియ + చిన్న పదం = పూర్తిగా కొత్త అర్థం. రోజువారీ ఇంగ్లీష్ మాటల్లో సగం ఇవే.", deck:"ఫ్రేజల్ వెర్బ్స్", body:`
+<p>ఫ్రేజల్ వెర్బ్ (phrasal verb) అంటే <b>క్రియ + up / out / off / on లాంటి చిన్న పదం</b> కలిసి కొత్త అర్థం ఇవ్వడం. బడిలో నేర్చుకున్న పుస్తక పదాల (postpone, discover) కంటే రోజువారీ మాటల్లో ఇవే ఎక్కువ వినిపిస్తాయి.</p>
+<div class="tbl"><table><tr><th>పుస్తక పదం</th><th>ఫ్రేజల్ వెర్బ్ (రోజువారీ)</th><th>అర్థం</th></tr><tr><td>postpone</td><td class="k">put off</td><td>వాయిదా వేయడం</td></tr><tr><td>discover</td><td class="k">find out</td><td>తెలుసుకోవడం</td></tr><tr><td>exercise</td><td class="k">work out</td><td>వ్యాయామం చేయడం</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>భరించడం</td></tr></table></div>
+<h3>చిన్న పదంలోనే సూచన ఉంటుంది</h3>
+<p><b>up</b> లో "పూర్తిగా, పైకి", <b>out</b> లో "బయటికి, చివరిదాకా", <b>off</b> లో "విడిపోయి, ఆగిపోయి", <b>on</b> లో "అంటుకుని, కొనసాగుతూ" అనే భావం ఉంటుంది.</p>
+{{ex:I grew up in Hyderabad.|ఐ గ్రూ అప్ ఇన్ ˈహైడరబ్యాడ్|నేను హైదరాబాద్‌లో పెరిగాను}}{{ex:We ran out of milk.|వి ర్యాన్ ఔట్ అవ఼్ మిల్క్|పాలు అయిపోయాయి}}{{ex:Turn off your phone, please.|టర్న్ ఆఫ్ యుర్ ఫోన్ ప్లీజ఼్|దయచేసి మీ ఫోన్ ఆఫ్ చేయండి}}
+<h3>సర్వనామం మధ్యలోనే!</h3>
+<p>కర్మ (object) తీసుకునే ఫ్రేజల్ వెర్బ్‌లలో చాలావాటిని రెండుగా విడదీయవచ్చు. నామవాచకం ముందైనా, వెనకైనా రావచ్చు; కానీ <b>it, them, me లాంటి సర్వనామం తప్పకుండా మధ్యలోనే</b> రావాలి.</p>
+{{ex:Turn on the light. / Turn the light on.|టర్న్ ఆన్ ద఼ లైట్ / టర్న్ ద఼ లైట్ ఆన్|లైట్ వెయ్యి (రెండూ ✓)}}{{ex:Turn it on.|టర్న్ ఇట్ ఆన్|అది వెయ్యి (turn on it ✗)}}{{ex:I'll pick you up at seven.|ఐల్ పిక్ యు అప్ అట్ ˈసెవ఼న్|ఏడు గంటలకు వచ్చి నిన్ను తీసుకెళ్తాను}}
+<h3>విడదీయలేని ఫ్రేజల్ వెర్బ్‌లు</h3>
+<p>look after, look for, get along with లాంటి, ప్రిపొజిషన్‌తో ముగిసేవాటిని విడదీయకూడదు: <i>look after my cat</i>, <i>look after her</i>.</p>
+<div class="tip">ఫ్రేజల్ వెర్బ్‌ను ఒకే పదంలా <b>మొత్తంగా</b> గుర్తుపెట్టుకోండి. ఉదాహరణ వాక్యంతో కలిపి నేర్చుకుంటే సర్వనామం స్థానం కూడా అలవాటవుతుంది. రోజుకు మూడు చొప్పున నిజంగా వాడి చూడండి!</div>`},
 
-{ id:"numbers", title:"9 · 숫자·시간·가격 말하기", blurb:"'만'이 없는 영어 숫자, 13과 30 구분, 가격 읽는 법.", deck:"숫자·시간·날짜", body:`
-<p>숫자는 여행과 일에서 바로 쓰이는데, 한국어와 단위가 달라서 실수가 많아요.</p>
-<h3>세 자리씩 끊어요</h3>
-<p>한국어는 네 자리(만, 억), 영어는 <b>세 자리(thousand, million, billion)</b>로 끊어요. 쉼표 위치가 바로 단위예요.</p>
-<div class="tbl"><table><tr><th>숫자</th><th>한국어</th><th>영어</th></tr><tr><td class="k">10,000</td><td>만</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>오만</td><td>fifty thousand</td></tr><tr><td class="k">100,000</td><td>십만</td><td>one hundred thousand</td></tr><tr><td class="k">1,000,000</td><td>백만</td><td>one million</td></tr><tr><td class="k">100,000,000</td><td>일억</td><td>one hundred million</td></tr></table></div>
-<h3>-teen과 -ty</h3>
-<p>13~19는 <b>뒤</b>를, 30·40·50…은 <b>앞</b>을 세게 말해요. 미국식 thirty는 t가 굴러서 "써리"처럼 들려요.</p>
-{{ex:thirteen|써틴|숫자 13}}{{ex:thirty|써리|숫자 30}}{{ex:fifteen / fifty|피프틴 / 피프티|숫자 15 / 50}}
-<h3>시간</h3>
-<p>가장 쉬운 방법은 시와 분을 그대로 읽는 거예요. 1~9분은 "oh"를 붙여요.</p>
-{{ex:It's seven fifteen.|잇츠 쎄븐 피프틴|7시 15분이에요}}{{ex:It's nine oh five.|잇츠 나인 오 파이브|9시 5분이에요}}{{ex:It's a quarter past ten.|잇츠 어 쿼러 패스트 텐|10시 15분이에요}}
-<h3>가격과 연도</h3>
-<p>가격은 달러와 센트를 따로 읽거나, 그냥 숫자 두 개로 읽어요. 연도는 두 자리씩 끊어요.</p>
-{{ex:It's four ninety-nine.|잇츠 포 나인티나인|4달러 99센트예요}}{{ex:That's twelve fifty.|댓츠 트웰브 피프티|12달러 50센트입니다}}{{ex:twenty twenty-six|트웬티 트웬티식스|2026년}}
-<div class="tip">날짜 표기 주의! 미국은 <b>월/일</b>(5/3 = 5월 3일), 영국은 <b>일/월</b>(5/3 = 3월 5일)이에요. 헷갈리면 May 3rd처럼 월을 글자로 쓰는 게 안전해요.</div>`},
+{ id:"numbers", title:"9 · సంఖ్యలు, సమయం, ధరలు చెప్పడం", blurb:"లక్ష, కోటి ఇంగ్లీష్‌లో ఎలా చెప్పాలి, 13కీ 30కీ తేడా, ధరలు చదివే పద్ధతి.", deck:"సంఖ్యలు, సమయం, తేదీ", body:`
+<p>ప్రయాణంలో, ఆఫీసులో సంఖ్యలు వెంటనే అవసరమవుతాయి. కానీ మన లెక్క (వేలు, లక్షలు, కోట్లు) విదేశాల లెక్కతో సరిపోదు, అందుకే ఇక్కడ తప్పులు ఎక్కువ.</p>
+<h3>మూడేసి అంకెలుగా విడదీయండి</h3>
+<p>ఇండియాలో మొదట మూడు అంకెలు, తర్వాత రెండేసి చొప్పున విడదీస్తాం: 1,00,000 (లక్ష), 1,00,00,000 (కోటి). ఇంగ్లీష్‌లో ఎప్పుడూ <b>మూడేసి</b>: 100,000. కామా ఉన్న చోటే పేరు మారుతుంది: thousand, million, billion. lakh, crore ఇండియన్ ఇంగ్లీష్‌లో సరైనవే, కానీ విదేశాల్లో చాలామందికి అర్థం కావు.</p>
+<div class="tbl"><table><tr><th>ఇండియాలో రాసేది</th><th>తెలుగు</th><th>ఇంగ్లీష్</th></tr><tr><td class="k">10,000</td><td>పది వేలు</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>యాభై వేలు</td><td>fifty thousand</td></tr><tr><td class="k">1,00,000</td><td>లక్ష</td><td>one hundred thousand (100,000)</td></tr><tr><td class="k">10,00,000</td><td>పది లక్షలు</td><td>one million (1,000,000)</td></tr><tr><td class="k">1,00,00,000</td><td>కోటి</td><td>ten million (10,000,000)</td></tr></table></div>
+<h3>-teen, -ty</h3>
+<p>13 నుంచి 19 వరకు <b>చివరి</b> భాగాన్ని, 30, 40, 50… లలో <b>మొదటి</b> భాగాన్ని ఒత్తి పలకండి. అమెరికన్ thirty లో మధ్య t తేలికగా, దాదాపు "డ" లా వినిపిస్తుంది.</p>
+{{ex:thirteen|థ఼ర్ˈటీన్|పదమూడు (13)}}{{ex:thirty|ˈథ఼ర్టి|ముప్పై (30)}}{{ex:fifteen / fifty|ఫిఫ్ˈటీన్ / ˈఫిఫ్టి|పదిహేను / యాభై (15 / 50)}}
+<h3>సమయం</h3>
+<p>అన్నిటికంటే తేలిక పద్ధతి: గంట, నిమిషాలు వరుసగా చదవడం. 1 నుంచి 9 నిమిషాలైతే మధ్యలో <b>oh</b> చేర్చండి.</p>
+{{ex:It's seven fifteen.|ఇట్స్ ˈసెవ఼న్ ఫిఫ్ˈటీన్|ఏడు గంటల పదిహేను నిమిషాలు అయింది}}{{ex:It's nine oh five.|ఇట్స్ నైన్ ఓ ఫైవ఼్|తొమ్మిది గంటల ఐదు నిమిషాలు అయింది}}{{ex:It's a quarter past ten.|ఇట్స్ అ ˈక్వోర్టర్ ప్యాస్ట్ టెన్|పది గంటల పదిహేను నిమిషాలు అయింది}}
+<h3>ధరలు, సంవత్సరాలు</h3>
+<p>డాలర్ ధరను డాలర్‌లు, సెంట్‌లు విడిగా, లేదా రెండు సంఖ్యలుగా చదువుతారు. రూపాయల్లో అయితే మొత్తం సంఖ్య చెబుతారు: five hundred rupees. సంవత్సరాన్ని రెండేసి అంకెలుగా చదవండి.</p>
+{{ex:It's four ninety-nine.|ఇట్స్ ఫోర్ నైంటి నైన్|ఇది 4 డాలర్‌ల 99 సెంట్‌లు}}{{ex:That's twelve fifty.|ద఼్యాట్స్ ట్వెల్వ఼్ ˈఫిఫ్టి|మొత్తం 12 డాలర్‌ల 50 సెంట్‌లు}}{{ex:Five hundred rupees.|ఫైవ఼్ ˈహండ్రడ్ రూˈపీజ఼్|ఐదు వందల రూపాయలు}}{{ex:twenty twenty-six|ˈట్వెంటి ట్వెంటి సిక్స్|2026వ సంవత్సరం}}
+<div class="tip">తేదీల్లో జాగ్రత్త! ఇండియాలో, బ్రిటన్‌లో <b>రోజు/నెల</b> (5/3 = మార్చి 5), అమెరికాలో <b>నెల/రోజు</b> (5/3 = మే 3). అనుమానం రాకుండా ఉండాలంటే నెల పేరు అక్షరాల్లో రాయండి: May 3rd.</div>`},
 
-{ id:"email", title:"10 · 이메일 영어", blurb:"인사 → 목적 → 요청 → 마무리. 짧고 분명하게.", deck:"직장·이메일", body:`
-<p>영어 업무 이메일은 <b>짧고, 목적이 분명하고, 친절하게</b>가 원칙이에요. 한국식으로 길게 사과하거나 겸손을 표현하면 오히려 요점이 흐려져요.</p>
-<h3>기본 구조</h3>
-<div class="tbl"><table><tr><th>부분</th><th>예시</th></tr><tr><td>인사</td><td class="k">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>첫 줄 (안부·목적)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>본문 (요청)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>마무리</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>맺음말</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
-<h3>인사는 Hi가 기본</h3>
-<p>미국 회사에서는 처음 연락하는 사람에게도 <b>Hi + 이름</b>이 무난해요. 아주 격식 있는 경우에만 Dear를 써요. 이름 대신 직함만 쓰는 건(Dear Manager) 어색해요.</p>
-{{ex:I hope this email finds you well.|아이 호프 디스 이메일 파인즈 유 웰|잘 지내고 계시길 바랍니다}}{{ex:I'm writing to follow up on our meeting.|아임 롸이팅 투 팔로우 업 온 아워 미팅|지난 회의 관련해서 후속으로 연락드립니다}}
-<h3>요청은 부드럽게, 기한은 분명하게</h3>
-{{ex:Could you send me the report by Thursday?|쿠쥬 쎈드 미 더 리포트 바이 써즈데이?|목요일까지 보고서 보내 주실 수 있나요?}}{{ex:Thanks for your patience.|땡스 포 유어 페이션스|기다려 주셔서 감사합니다}}
-<p>ASAP는 상대를 재촉하는 느낌이 있어요. 가능하면 <b>by + 날짜</b>로 기한을 주세요.</p>
-<h3>"수고하셨습니다"는?</h3>
-<p>영어에 딱 맞는 말은 없어요. 상황에 맞게 바꿔 말해요.</p>
-<ul><li>프로젝트가 끝났을 때: <b>Thanks for all your hard work!</b></li><li>금요일 이메일 끝: <b>Have a great weekend!</b></li><li>도움을 받았을 때: <b>I really appreciate your help.</b></li></ul>
-<div class="tip">"Sorry for the late reply"를 매번 쓸 필요는 없어요. 대신 <b>Thanks for your patience</b>를 쓰면 사과 없이도 예의 바르고 긍정적으로 들려요.</div>`},
+{ id:"email", title:"10 · ఈమెయిల్ ఇంగ్లీష్", blurb:"పలకరింపు → ఉద్దేశం → అభ్యర్థన → ముగింపు. చిన్నగా, స్పష్టంగా.", deck:"ఆఫీసు, ఈమెయిల్", body:`
+<p>ఇంగ్లీష్ ఆఫీసు ఈమెయిల్ సూత్రం: <b>చిన్నగా, ఉద్దేశం స్పష్టంగా, స్నేహంగా</b>. మన ఆఫీసుల్లో అలవాటైన Respected Sir, Kindly do the needful, PFA, Please revert లాంటి మాటలు విదేశాల్లో పాతకాలపు మాటల్లా అనిపిస్తాయి, కొన్ని అర్థం కూడా కావు.</p>
+<h3>మూల నిర్మాణం</h3>
+<div class="tbl"><table><tr><th>భాగం</th><th>ఉదాహరణ</th></tr><tr><td>పలకరింపు</td><td class="k">Hi Divya, / Dear Mr. Rao,</td></tr><tr><td>మొదటి వాక్యం (కుశలం, ఉద్దేశం)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>అసలు విషయం (అభ్యర్థన)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>ముగింపు</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>చివరి మాట</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
+<h3>పలకరింపు: Hi + పేరు</h3>
+<p>అమెరికన్ ఆఫీసుల్లో మొదటిసారి రాస్తున్నవారికి కూడా <b>Hi + పేరు</b> సరిపోతుంది. చాలా ఫార్మల్ సందర్భంలోనే Dear. ఇంగ్లీష్‌లో <b>Mr. / Ms. + ఇంటిపేరు</b> (Dear Mr. Rao), లేదా పేరు ఒక్కటే (Hi Divya) రాస్తారు; <b>Ravi Sir</b>, <b>Divya Madam</b>, <b>Respected Sir</b> అని రాయరు. పేరు లేకుండా హోదా మాత్రమే రాయడం (Dear Manager) కూడా ఎబ్బెట్టుగా ఉంటుంది.</p>
+{{ex:I hope this email finds you well.|ఐ హోప్ ద఼ిస్ ˈఈమేల్ ఫైండ్జ఼్ యు వెల్|మీరు క్షేమంగా ఉన్నారని ఆశిస్తున్నాను}}{{ex:I'm writing to follow up on our meeting.|ఐమ్ ˈరైటిఙ్ ట ˈఫాలో అప్ ఆన్ ఔఅర్ ˈమీటిఙ్|మన మీటింగ్‌కు కొనసాగింపుగా రాస్తున్నాను}}
+<h3>అభ్యర్థన మెత్తగా, గడువు స్పష్టంగా</h3>
+{{ex:Could you send me the report by Thursday?|కడ్ యు సెండ్ మి ద఼ రిˈపోర్ట్ బై ˈథ఼ర్జ఼్డే|గురువారం లోపల రిపోర్ట్ పంపగలరా?}}{{ex:Thanks for your patience.|థ఼్యాంక్స్ ఫర్ యుర్ ˈపేషన్స్|ఓపికగా ఎదురుచూసినందుకు ధన్యవాదాలు}}
+<p>ASAP తొందరపెడుతున్నట్టు వినిపిస్తుంది. వీలైతే <b>by + తేదీ</b> తో గడువు చెప్పండి.</p>
+<h3>ఇండియన్ ఆఫీసు మాటలకు బదులు</h3>
+<ul><li>Kindly do the needful → <b>Could you please take care of this?</b></li><li>PFA / Please find attached → <b>I've attached the report.</b></li><li>Please revert / I will revert back → <b>Please reply.</b> / <b>I'll get back to you.</b></li><li>ప్రాజెక్ట్ పూర్తయినప్పుడు టీమ్‌కి: <b>Thanks for all your hard work!</b></li><li>శుక్రవారం ఈమెయిల్ చివర: <b>Have a great weekend!</b></li></ul>
+{{ex:I've attached the report.|ఐవ఼్ అˈట్యాచ్ట్ ద఼ రిˈపోర్ట్|రిపోర్ట్ జత చేశాను}}{{ex:I'll get back to you.|ఐల్ గెట్ బ్యాక్ ట యు|చూసి మళ్ళీ మీకు చెబుతాను}}
+<div class="tip">ప్రతిసారీ "Sorry for the late reply" అనాల్సిన పని లేదు. దానికి బదులు <b>Thanks for your patience</b> అంటే క్షమాపణ లేకుండానే మర్యాదగా, సానుకూలంగా వినిపిస్తుంది.</div>`},
 
-{ id:"idioms", title:"11 · 관용구와 슬랭 쓰는 법", blurb:"직역하면 이상한 표현들. 언제, 누구에게 써야 할까요?", deck:"영어 관용구", body:`
-<p>관용구(idiom)는 단어 뜻을 합쳐도 전체 뜻이 나오지 않는 표현이에요. "a piece of cake"는 케이크 이야기가 아니라 "아주 쉽다"는 뜻이죠. 영화·드라마를 자막 없이 보려면 꼭 알아야 해요.</p>
-<h3>그림으로 기억하세요</h3>
-<p>대부분의 관용구는 머릿속에 장면을 그리면 쉽게 외워져요.</p>
-{{ex:It's a piece of cake.|잇츠 어 피스 오브 케익|식은 죽 먹기예요 (케이크 한 조각 먹듯 쉽다)}}{{ex:It costs an arm and a leg.|잇 코스츠 언 암 앤 어 레그|엄청 비싸요 (팔다리를 줘야 할 만큼)}}{{ex:I'm all ears.|아임 올 이어즈|잘 듣고 있어요 (온몸이 귀)}}
-<h3>한국어와 비슷한 표현</h3>
-<div class="tbl"><table><tr><th>영어</th><th>한국어</th></tr><tr><td class="k">Speak of the devil!</td><td>호랑이도 제 말 하면 온다</td></tr><tr><td class="k">Kill two birds with one stone</td><td>일석이조</td></tr><tr><td class="k">When pigs fly</td><td>해가 서쪽에서 뜨면</td></tr><tr><td class="k">A blessing in disguise</td><td>전화위복</td></tr></table></div>
-<h3>관용구 vs 슬랭</h3>
-<p><b>관용구</b>는 오래된 표현이라 나이와 상관없이, 직장에서도 써요(Let's call it a day). <b>슬랭</b>은 젊은 층의 유행어라 친구끼리만 써요(No cap, That song slaps). 슬랭은 빨리 바뀌고, 어른이 쓰면 어색하게 들릴 수도 있어요.</p>
-{{ex:Let's call it a day.|렛츠 콜 잇 어 데이|오늘은 여기까지 해요 (회의에서도 OK)}}{{ex:No cap, this is the best pizza ever.|노 캡, 디스 이즈 더 베스트 핏자 에버|진짜로, 이거 인생 피자야 (친구끼리만)}}
-<div class="tip">관용구는 너무 많이 넣으면 오히려 부자연스러워요. 대화 한 번에 하나 정도, 상황에 딱 맞을 때 쓰면 "영어 잘한다!"는 인상을 줄 수 있어요.</div>`}
+{ id:"idioms", title:"11 · జాతీయాలు, స్లాంగ్ ఎలా వాడాలి", blurb:"మాటకు మాట మారిస్తే వింతగా ఉండే మాటలు. ఎప్పుడు, ఎవరితో వాడాలి?", deck:"ఇంగ్లీష్ జాతీయాలు", body:`
+<p>జాతీయం (idiom) అంటే పదాల అర్థాలు కలిపితే అసలు అర్థం రాని మాట. "a piece of cake" కేక్ గురించి కాదు; "చాలా తేలిక" అని అర్థం, మన "నల్లేరు మీద నడక" లాగ. ఇంగ్లీష్ సినిమాలు, సిరీస్ నేరుగా అర్థం కావాలంటే ఇవి తెలియాలి.</p>
+<h3>బొమ్మలా ఊహించుకోండి</h3>
+<p>చాలా జాతీయాలను మనసులో ఒక దృశ్యంగా ఊహించుకుంటే తేలిగ్గా గుర్తుంటాయి.</p>
+{{ex:It's a piece of cake.|ఇట్స్ అ పీస్ అవ఼్ కేక్|ఇది చాలా తేలిక (కేక్ ముక్క తిన్నంత తేలిక)}}{{ex:It costs an arm and a leg.|ఇట్ కాస్ట్స్ అన్ ఆర్మ్ అండ్ అ లెగ్|ఇది చాలా ఖరీదు (చెయ్యి, కాలు ఇవ్వాల్సినంత)}}{{ex:I'm all ears.|ఐమ్ ఆల్ ఇర్జ఼్|శ్రద్ధగా వింటున్నాను (ఒళ్ళంతా చెవులే)}}
+<h3>తెలుగులో దగ్గరి మాటలు</h3>
+<div class="tbl"><table><tr><th>ఇంగ్లీష్</th><th>తెలుగు</th></tr><tr><td class="k">Speak of the devil!</td><td>నీకు నూరేళ్ళు ఆయుష్షు! (అనుకుంటుండగానే వచ్చావు)</td></tr><tr><td class="k">Kill two birds with one stone</td><td>ఒక్క దెబ్బకు రెండు పిట్టలు</td></tr><tr><td class="k">A piece of cake</td><td>నల్లేరు మీద నడక</td></tr><tr><td class="k">When pigs fly</td><td>సూర్యుడు పడమర ఉదయించినప్పుడు (అంటే ఎప్పటికీ జరగదు)</td></tr></table></div>
+<p>తెలుగు జాతీయాలను మాటకు మాట ఇంగ్లీష్‌లోకి మార్చకూడదు: "నా తల తినకు" → <b>Don't eat my head</b> ✗ → <b>Stop bugging me</b> ✓ <b>It's like that only</b> ఇండియన్ ఇంగ్లీష్; విదేశాల్లో <b>That's just how it is</b> అంటారు.</p>
+<h3>జాతీయం, స్లాంగ్: తేడా</h3>
+<p><b>జాతీయాలు</b> పాత మాటలు; ఏ వయసువారైనా, ఆఫీసులో కూడా వాడతారు (Let's call it a day). <b>స్లాంగ్</b> యువత వాడే కొత్త మాటలు; స్నేహితుల మధ్యే వాడతారు (No cap, That song slaps). స్లాంగ్ త్వరగా మారిపోతుంది; పెద్దవాళ్ళు వాడితే ఎబ్బెట్టుగా వినిపించవచ్చు.</p>
+{{ex:Let's call it a day.|లెట్స్ కాల్ ఇట్ అ డే|ఈరోజుకు ఇక్కడితో ఆపేద్దాం (మీటింగ్‌లో కూడా సరే)}}{{ex:No cap, this is the best pizza ever.|నో క్యాప్ ద఼ిస్ ఇజ఼్ ద఼ బెస్ట్ ˈపీట్స ˈఎవ఼ర్|నిజంగా, నేను తిన్నవాటిలో ఇదే బెస్ట్ పిజ్జా (స్నేహితుల మధ్యే)}}
+<div class="tip">జాతీయాలు మరీ ఎక్కువ వాడితే కృత్రిమంగా ఉంటుంది. ఒక సంభాషణలో ఒకటి, అదీ సందర్భానికి సరిగ్గా సరిపోయినప్పుడు వాడితే చాలు.</div>`}
 ];
 
 exports.CHECKS = {
   alphabet: [
-    ["영어 이름이 '지'인 글자는? (z 소리가 아니라 입술을 내민 '쥐'에 가까운 소리예요)", ["J","G","Z","C"], 1, "G의 이름은 '지'예요. J는 '제이', Z는 z 소리의 zee(지 (z)), C는 '씨'예요."],
-    ["올바른 것은?", ["a F","an U","a M","an F"], 3, "F의 이름 '에프'는 모음 소리로 시작해서 an F예요. M(엠)도 an M, U(유)는 y 소리라서 a U예요."],
-    ["단어의 철자를 물어볼 때 쓰는 말은?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "do 뒤에는 동사원형 spell이 와요: How do you spell that?"]
+    ["\"జీ\" అనే పేరున్న అక్షరం ఏది? (చుక్క లేని జ: job లోని మొదటి శబ్దం)", ["J","G","Z","C"], 1, "G పేరు జీ. J పేరు జే, Z పేరు జ఼ీ (ఝుమ్మనే శబ్దం), C పేరు సీ."],
+    ["సరైనది ఏది?", ["a F","an U","a M","an F"], 3, "F పేరు అచ్చు శబ్దంతో మొదలవుతుంది, అందుకే ఆర్టికల్ an: an F. M కి కూడా an M. U పేరు య శబ్దంతో మొదలవుతుంది కాబట్టి a U."],
+    ["ఒక పదం స్పెల్లింగ్ అడగడానికి ఏమంటారు?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "ప్రశ్నలో సహాయక క్రియ do వస్తుంది, దాని తర్వాత V1: How do you spell that?"]
   ],
   pron: [
-    ["R 소리를 낼 때 혀끝은 어디에 있나요?", ["윗니 뒤 잇몸에 붙인다","이 사이로 내민다","어디에도 닿지 않는다","아랫입술에 댄다"], 2, "R은 혀끝이 아무 데도 닿지 않아요. 붙이면 L이 돼요."],
-    ["think의 th를 바르게 내는 방법은?", ["혀끝을 이 사이로 살짝 내밀고 바람을 낸다","두 입술을 붙였다 뗀다","윗니를 아랫입술에 댄다","혀를 뒤로 만다"], 0, "TH는 혀끝이 이 사이에 보여야 해요. s로 말하면 sink가 돼요."],
-    ["hotel의 강세는 어디에 있나요?", ["ho (앞)","강세가 없다","둘 다 똑같이","tel (뒤)"], 3, "ho-TEL. 뒤를 세고 길게 말해요: 호우텔."]
+    ["అమెరికన్ R పలికేటప్పుడు నాలుక కొన ఎక్కడ ఉంటుంది?", ["పై పళ్ళ వెనుక చిగురును తాకుతుంది","పళ్ళ మధ్య నుంచి బయటికి వస్తుంది","ఎక్కడా తాకదు","కింది పెదవిని తాకుతుంది"], 2, "R లో నాలుక కొన ఎక్కడా తాకదు; చిగురును తాకితే L అవుతుంది. తెలుగు ర లో నాలుక ఒకసారి తాకి వస్తుంది; అమెరికన్ R అలా కాదు."],
+    ["think లోని th ని సరిగ్గా ఎలా పలకాలి?", ["నాలుక కొనను పళ్ళ మధ్య కొంచెం బయటికి పెట్టి గాలి వదలాలి","రెండు పెదవులూ మూసి తెరవాలి","పై పళ్ళను కింది పెదవికి తాకించాలి","నాలుకను వెనక్కి ముడవాలి"], 0, "TH లో నాలుక కొన పళ్ళ మధ్య కనిపించాలి. తెలుగు థ అంటే tink లా, స అంటే sink లా వినిపిస్తుంది."],
+    ["hotel లో ఏ భాగాన్ని ఒత్తి పలకాలి?", ["ho (మొదటి భాగం)","ఒత్తిడి లేదు","రెండూ సమానంగా","tel (రెండో భాగం)"], 3, "ho-TEL: రెండో భాగాన్ని గట్టిగా, పొడుగ్గా పలకండి. చివరి l తర్వాత అచ్చు చేర్చకండి."]
   ],
   articles: [
-    ["I'm ___ engineer. 빈칸에 알맞은 것은?", ["a","an","the","(없음)"], 1, "engineer는 모음 소리(엔)로 시작하므로 an이에요. 직업 앞에는 꼭 관사를 붙여요."],
-    ["식당에 앉아서 직원에게: Can I see ___ menu?", ["the","a","an","(없음)"], 0, "이 식당의 바로 그 메뉴판이니까 the예요."],
-    ["'저는 고양이를 좋아해요' (고양이라는 동물 전체)", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "일반적인 대상을 말할 땐 관사 없이 복수형을 써요. a cat은 '고양이 한 마리', the cat은 '그 고양이'예요."]
+    ["I'm ___ engineer. ఖాళీలో ఏది సరిపోతుంది?", ["a","an","the","(ఏదీ రాదు)"], 1, "engineer అచ్చు శబ్దంతో (ఎ) మొదలవుతుంది, అందుకే an. ఉద్యోగం పేరు ముందు ఆర్టికల్ తప్పనిసరి."],
+    ["రెస్టారెంట్‌లో కూర్చుని వెయిటర్‌తో: Can I see ___ menu?", ["the","a","an","(ఏదీ రాదు)"], 0, "ఈ రెస్టారెంట్ మెనూ, ఏదో ఇద్దరికీ తెలుసు, అందుకే the."],
+    ["\"నాకు పిల్లులంటే ఇష్టం\" (పిల్లులన్నీ, మామూలుగా)", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "మొత్తం జాతి గురించి చెప్పేటప్పుడు ఆర్టికల్ లేకుండా బహువచనం: cats. a cat అంటే ఏదో ఒక పిల్లి, the cat అంటే ఆ ఫలానా పిల్లి."]
   ],
   be: [
-    ["올바른 문장은?", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "like는 일반동사라 be동사(am)와 같이 쓰지 않아요."],
-    ["'우리 언니는 서울에 살아요' =", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "주어가 she(3인칭 단수)라서 동사에 -s를 붙여요: lives."],
-    ["Are you hungry?에 '아니요'라고 대답할 때", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "be동사로 물었으니 be동사로 대답해요: No, I'm not."]
+    ["సరైన వాక్యం ఏది?", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "like దానికదే క్రియ, కాబట్టి దానితో be (am) రాదు."],
+    ["\"మా అక్క సియోల్‌లో ఉంటుంది\" ఇంగ్లీష్‌లో?", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "కర్త she (ఒక్క వ్యక్తి) కాబట్టి క్రియకు -s: lives. వేరే క్రియ ఉంది కాబట్టి is రాదు."],
+    ["Are you hungry? కి \"లేదు\" అని జవాబు ఎలా చెబుతారు?", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "be తో అడిగారు కాబట్టి be తోనే జవాబు: No, I'm not."]
   ],
   polite: [
-    ["처음 보는 사람에게 가장 공손한 부탁은?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Could you ~?가 공손한 부탁의 기본이에요. Give me는 명령처럼 들려요."],
-    ["Would you mind opening the window?에 '네, 열어 드릴게요'라는 뜻의 대답은?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "mind = 꺼리다. 'No(안 꺼려요)'가 '해 드릴게요'라는 뜻이에요."],
-    ["Would you mind 뒤에 오는 동사 형태는?", ["동사원형 (open)","to + 동사원형 (to open)","과거형 (opened)","~ing (opening)"], 3, "mind 뒤에는 ~ing가 와요: Would you mind waiting?"]
+    ["కొత్త వ్యక్తిని దారి అడగడానికి అన్నిటికంటే మర్యాదైన వాక్యం ఏది?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Could you ~? మర్యాదగా అడగడానికి మూల రూపం. Give me ఆజ్ఞలా వినిపిస్తుంది."],
+    ["Would you mind opening the window? కి \"అలాగే, తెరుస్తాను\" అనే అర్థం ఇచ్చే జవాబు ఏది?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "mind = అభ్యంతరం ఉండటం. No (అభ్యంతరం లేదు) అంటే \"అలాగే, చేస్తాను\" అని అర్థం."],
+    ["Would you mind తర్వాత క్రియ ఏ రూపంలో వస్తుంది?", ["V1 రూపం (open)","to + V1 రూపం (to open)","V2 రూపం (opened)","~ing (opening)"], 3, "mind తర్వాత -ing రూపం వస్తుంది: Would you mind waiting?"]
   ],
   tense: [
-    ["'저 매일 아침 커피 마셔요' (습관)", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "습관은 현재형이에요. 진행형은 '지금 마시는 중'이에요."],
-    ["친구 지갑이 없는 걸 보고 그 자리에서: '내가 낼게!'", ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, "말하는 순간 결정한 일은 will이에요. going to는 미리 세운 계획이에요."],
-    ["go의 과거형은?", ["goed","gone","going","went"], 3, "go는 불규칙 동사예요: go - went - gone."]
+    ["\"నేను రోజూ ఉదయం కాఫీ తాగుతాను\" (అలవాటు)", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "అలవాటు = Simple Present; will కాదు. be + -ing అంటే \"ఇప్పుడు తాగుతున్నాను\"."],
+    ["స్నేహితుడి దగ్గర పర్సు లేదని గమనించి, అప్పటికప్పుడు: \"నేను కడతాను!\"", ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, "మాట్లాడుతున్న క్షణంలో తీసుకున్న నిర్ణయానికి will. going to ముందే వేసుకున్న ప్లాన్‌కు."],
+    ["go కి V2 (past) ఏది?", ["goed","gone","going","went"], 3, "go ఇర్రెగ్యులర్ క్రియ: go, went, gone."]
   ],
   prep: [
-    ["'7시에 만나요' = Let's meet ___ 7.", ["in","at","on","to"], 1, "정확한 시각 앞에는 at이에요."],
-    ["'월요일에' = ___ Monday", ["on","in","at","by"], 0, "요일과 날짜 앞에는 on이에요."],
-    ["올바른 문장은?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every 앞에는 전치사를 쓰지 않아요."]
+    ["\"7 గంటలకు కలుద్దాం\" = Let's meet ___ 7.", ["in","at","on","to"], 1, "కచ్చితమైన టైమ్ ముందు at. తెలుగు \"-కి\" ఇక్కడ to కాదు."],
+    ["\"సోమవారం నాడు\" = ___ Monday", ["on","in","at","by"], 0, "వారంలో రోజు, తేదీ ముందు on."],
+    ["సరైన వాక్యం ఏది?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every ముందు ప్రిపొజిషన్ రాదు."]
   ],
   smalltalk: [
-    ["카페 직원이 How are you today?라고 할 때 가장 자연스러운 대답은?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "How are you?는 인사예요. 짧게 대답하고 되물어 주면 완벽해요."],
-    ["초면에 피하는 게 좋은 질문은?", ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, "영어권에서는 나이를 먼저 묻는 게 실례가 될 수 있어요."],
-    ["I don't like horror movies.에 동의할 때", ["Me too.","So do I.","Me neither.","Me also."], 2, "부정문에 맞장구칠 땐 Me neither(또는 Neither do I)예요."]
+    ["కేఫ్‌లో పనిచేసే వ్యక్తి How are you today? అని అడిగితే అన్నిటికంటే సహజమైన జవాబు ఏది?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "How are you? ఒక పలకరింపు. చిన్నగా జవాబిచ్చి తిరిగి అడిగితే చాలు."],
+    ["మొదటి పరిచయంలో అడగకపోవడం మంచిదైన ప్రశ్న ఏది?", ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, "విదేశాల్లో మొదటి పరిచయంలోనే వయసు అడగడం వ్యక్తిగత విషయాల్లోకి వెళ్ళడం అనిపించవచ్చు."],
+    ["I don't like horror movies. తో ఏకీభవించాలంటే ఏమంటారు?", ["Me too.","So do I.","Me neither.","Me also."], 2, "వ్యతిరేక వాక్యానికి ఊ కొట్టేటప్పుడు Me neither (లేదా Neither do I)."]
   ],
   phrasal: [
-    ["'그거 좀 꺼 줄래?' 올바른 문장은?", ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, "대명사(it)는 구동사 가운데에 와요: turn it off."],
-    ["run out of의 뜻은?", ["밖으로 뛰어나가다","~이 다 떨어지다","~에서 도망치다","늦게 도착하다"], 1, "We ran out of milk. = 우유가 다 떨어졌어요."],
-    ["'회의를 다음 주로 미루자' =", ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, "put off = 미루다. put on은 '입다·켜다', put out은 '(불을) 끄다'예요."]
+    ["\"అది కొంచెం ఆఫ్ చేస్తావా?\" సరైన వాక్యం ఏది?", ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, "సర్వనామం (it) ఫ్రేజల్ వెర్బ్ మధ్యలో వస్తుంది: turn it off."],
+    ["run out of అంటే అర్థం ఏమిటి?", ["బయటికి పరుగెత్తడం","(ఏదైనా) అయిపోవడం","(ఎక్కడి నుంచో) పారిపోవడం","ఆలస్యంగా చేరుకోవడం"], 1, "We ran out of milk. = పాలు అయిపోయాయి."],
+    ["\"మీటింగ్‌ను వచ్చే వారానికి వాయిదా వేద్దాం\" ఇంగ్లీష్‌లో?", ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, "put off = వాయిదా వేయడం. put on = వేసుకోవడం / ఆన్ చేయడం, put out = (మంట) ఆర్పడం."]
   ],
   numbers: [
-    ["50,000(오만)을 영어로 하면?", ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, "영어는 세 자리씩 끊어요: 50 + thousand = fifty thousand."],
-    ["thirteen은 어디를 세게 말하나요?", ["thir (앞)","teen (뒤)","둘 다 똑같이","강세가 없다"], 1, "-teen 숫자는 뒤에 강세가 있어요. thirty는 앞이에요."],
-    ["$12.50을 가장 자연스럽게 읽으면?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "가격은 숫자 두 덩어리로 읽어요: twelve fifty."]
+    ["50,000 (యాభై వేలు) ఇంగ్లీష్‌లో?", ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, "ఇంగ్లీష్‌లో మూడేసి అంకెలు: 50 + thousand = fifty thousand."],
+    ["thirteen లో ఏ భాగాన్ని ఒత్తి పలకాలి?", ["thir (మొదటి భాగం)","teen (చివరి భాగం)","రెండూ సమానంగా","ఒత్తిడి లేదు"], 1, "-teen సంఖ్యల్లో చివరి భాగం మీద ఒత్తిడి; thirty లో మొదటి భాగం మీద."],
+    ["$12.50 ని అన్నిటికంటే సహజంగా ఎలా చదువుతారు?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "ధరను రెండు సంఖ్యలుగా చదువుతారు: twelve fifty."]
   ],
   email: [
-    ["처음 연락하는 거래처 담당자 Jenny Park에게 가장 무난한 인사는?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "미국 업무 이메일에선 Hi + 이름이 가장 무난해요. 아주 격식 있을 땐 Dear Ms. Park,"],
-    ["프로젝트를 마친 팀에게 '수고하셨습니다'를 전하려면?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "영어엔 수고하셨습니다에 딱 맞는 말이 없어요. 노력에 고마움을 표현해요."],
-    ["기한을 정중하게 요청하는 문장은?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you ~? + by + 날짜로 부드럽지만 분명하게 요청해요."]
+    ["మొదటిసారి రాస్తున్న క్లయింట్ పేరు Jenny Park. అన్నిటికంటే సురక్షితమైన పలకరింపు ఏది?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "అమెరికన్ ఆఫీసు ఈమెయిల్‌లో Hi + పేరు సురక్షితం. చాలా ఫార్మల్ సందర్భంలో Dear Ms. Park,"],
+    ["ప్రాజెక్ట్ పూర్తి చేసిన టీమ్‌కి, వాళ్ళ కష్టానికి ధన్యవాదాలు ఎలా చెబుతారు?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "కష్టానికి కృతజ్ఞత: Thanks for all your hard work! You suffered a lot, Good suffering ఇంగ్లీష్‌లో ధన్యవాదాలు కావు."],
+    ["గడువును మర్యాదగా అడిగే వాక్యం ఏది?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you ~? + by + రోజు: మెత్తగా, కానీ స్పష్టంగా."]
   ],
   idioms: [
-    ["The test was a piece of cake.의 뜻은?", ["시험이 아주 쉬웠어요","시험 중에 케이크를 먹었어요","시험이 아주 어려웠어요","시험을 망쳤어요"], 0, "a piece of cake = 식은 죽 먹기."],
-    ["I'm feeling under the weather.의 뜻은?", ["날씨가 나빠요","밖에 있어요","몸이 좀 안 좋아요","비를 맞았어요"], 2, "날씨와 상관없이 '컨디션이 안 좋다'는 뜻이에요."],
-    ["회사 상사에게 보고할 때 쓰기에 가장 어색한 것은?", ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, "No cap, slaps는 친구끼리 쓰는 슬랭이에요. 관용구는 직장에서도 써요."]
+    ["The test was a piece of cake. అంటే అర్థం ఏమిటి?", ["పరీక్ష చాలా తేలికగా ఉంది","పరీక్షలో కేక్ తిన్నాను","పరీక్ష చాలా కష్టంగా ఉంది","పరీక్ష పాడైపోయింది"], 0, "a piece of cake = చాలా తేలిక, నల్లేరు మీద నడక."],
+    ["I'm feeling under the weather. అంటే అర్థం ఏమిటి?", ["వాతావరణం బాగాలేదు","నేను బయట ఉన్నాను","నా ఒంట్లో కొంచెం బాగాలేదు","నేను వానలో తడిశాను"], 2, "వాతావరణంతో సంబంధం లేదు; \"ఒంట్లో బాగాలేదు\" అని అర్థం."],
+    ["మేనేజర్‌కి రిపోర్ట్ చెబుతున్నప్పుడు అన్నిటికంటే ఎబ్బెట్టుగా వినిపించేది ఏది?", ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, "No cap, slaps స్నేహితుల మధ్య వాడే స్లాంగ్. జాతీయాలు ఆఫీసులో కూడా వాడవచ్చు."]
   ]
 };
