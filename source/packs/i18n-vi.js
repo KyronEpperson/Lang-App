@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.vi = {
     "Hand-tuned for speakers of your language": "Soạn riêng cho người nói ngôn ngữ của bạn",
     "Go to the next card automatically": "Tự động chuyển sang thẻ tiếp theo",
     "Extra practice": "Luyện thêm",
-    "New card": "Thẻ mới"
+    "New card": "Thẻ mới",
+    "Woman's voice": "Giọng nữ",
+    "Man's voice": "Giọng nam",
+    "Which voice do you want to hear?": "Bạn muốn nghe giọng nào?",
+    "Voice: woman. Switch to man's voice": "Giọng: nữ. Chuyển sang giọng nam",
+    "Voice: man. Switch to woman's voice": "Giọng: nam. Chuyển sang giọng nữ",
+    "Voice: woman": "Giọng: nữ",
+    "Voice: man": "Giọng: nam",
+    "Voice": "Giọng"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],

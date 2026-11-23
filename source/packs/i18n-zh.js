@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.zh = {
     "Hand-tuned for speakers of your language": "专为你的母语使用者定制",
     "Go to the next card automatically": "自动跳到下一张卡片",
     "Extra practice": "额外练习",
-    "New card": "新卡片"
+    "New card": "新卡片",
+    "Woman's voice": "女声",
+    "Man's voice": "男声",
+    "Which voice do you want to hear?": "你想听哪种声音？",
+    "Voice: woman. Switch to man's voice": "声音：女声。切换为男声",
+    "Voice: man. Switch to woman's voice": "声音：男声。切换为女声",
+    "Voice: woman": "声音：女声",
+    "Voice: man": "声音：男声",
+    "Voice": "声音"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],

@@ -711,7 +711,15 @@ LANGAPP_PACKS.i18n.ko = {
     "Hand-tuned for speakers of your language": "이 언어 사용자에 맞춰 만든 코스",
     "Go to the next card automatically": "다음 카드로 자동으로 넘어가기",
     "Extra practice": "추가 연습",
-    "New card": "새 카드"
+    "New card": "새 카드",
+    "Woman's voice": "여자 목소리",
+    "Man's voice": "남자 목소리",
+    "Which voice do you want to hear?": "어떤 목소리로 들을까요?",
+    "Voice: woman. Switch to man's voice": "목소리: 여자. 남자 목소리로 바꾸기",
+    "Voice: man. Switch to woman's voice": "목소리: 남자. 여자 목소리로 바꾸기",
+    "Voice: woman": "목소리: 여자",
+    "Voice: man": "목소리: 남자",
+    "Voice": "목소리"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 훈련"],

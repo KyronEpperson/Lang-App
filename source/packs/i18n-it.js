@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.it = {
     "Hand-tuned for speakers of your language": "Pensato per chi parla la tua lingua",
     "Go to the next card automatically": "Passa automaticamente alla carta successiva",
     "Extra practice": "Pratica extra",
-    "New card": "Carta nuova"
+    "New card": "Carta nuova",
+    "Woman's voice": "Voce femminile",
+    "Man's voice": "Voce maschile",
+    "Which voice do you want to hear?": "Quale voce vuoi ascoltare?",
+    "Voice: woman. Switch to man's voice": "Voce: donna. Passa alla voce maschile",
+    "Voice: man. Switch to woman's voice": "Voce: uomo. Passa alla voce femminile",
+    "Voice: woman": "Voce: donna",
+    "Voice: man": "Voce: uomo",
+    "Voice": "Voce"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Esercizi"],

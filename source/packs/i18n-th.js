@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.th = {
     "Hand-tuned for speakers of your language": "ทำมาเพื่อผู้พูดภาษาของคุณโดยเฉพาะ",
     "Go to the next card automatically": "ไปการ์ดถัดไปอัตโนมัติ",
     "Extra practice": "ฝึกเพิ่มเติม",
-    "New card": "การ์ดใหม่"
+    "New card": "การ์ดใหม่",
+    "Woman's voice": "เสียงผู้หญิง",
+    "Man's voice": "เสียงผู้ชาย",
+    "Which voice do you want to hear?": "อยากฟังเสียงแบบไหน",
+    "Voice: woman. Switch to man's voice": "เสียง: ผู้หญิง เปลี่ยนเป็นเสียงผู้ชาย",
+    "Voice: man. Switch to woman's voice": "เสียง: ผู้ชาย เปลี่ยนเป็นเสียงผู้หญิง",
+    "Voice: woman": "เสียง: ผู้หญิง",
+    "Voice: man": "เสียง: ผู้ชาย",
+    "Voice": "เสียง"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],

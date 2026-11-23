@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 776,
+  "exact": 784,
   "patterns": 275,
   "distinctPatternTemplates": 274
  },
@@ -5364,6 +5364,62 @@
    "section": "flashcard / review",
    "where": "html <label> text",
    "context": "review status line (above the card): the current card is new; may be followed by \" · 0/6 learned\"; short UI label; keep it short"
+  },
+  {
+   "key": "Woman's voice",
+   "kind": "label",
+   "section": "added",
+   "where": "js v() <button>",
+   "context": "choice chip: hear the audio recordings spoken by a woman (which recorded voice to play, not the learner's gender)"
+  },
+  {
+   "key": "Man's voice",
+   "kind": "label",
+   "section": "added",
+   "where": "js v() <button>",
+   "context": "choice chip: hear the audio recordings spoken by a man (which recorded voice to play, not the learner's gender)"
+  },
+  {
+   "key": "Which voice do you want to hear?",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js voiceAskHtml() <b>",
+   "context": "question in the setup card / Today card: choose the woman's or the man's recorded voice for audio"
+  },
+  {
+   "key": "Voice: woman. Switch to man's voice",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js lab()",
+   "context": "accessible name and tooltip of the top-bar voice button (shows 👩): the woman's voice is on; pressing switches to the man's voice"
+  },
+  {
+   "key": "Voice: man. Switch to woman's voice",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js lab()",
+   "context": "accessible name and tooltip of the top-bar voice button (shows 👨): the man's voice is on; pressing switches to the woman's voice"
+  },
+  {
+   "key": "Voice: woman",
+   "kind": "label",
+   "section": "added",
+   "where": "js lab()",
+   "context": "toast after switching: the audio now uses the woman's recorded voice"
+  },
+  {
+   "key": "Voice: man",
+   "kind": "label",
+   "section": "added",
+   "where": "js lab()",
+   "context": "toast after switching: the audio now uses the man's recorded voice"
+  },
+  {
+   "key": "Voice",
+   "kind": "label",
+   "section": "added",
+   "where": "js id()",
+   "context": "settings label (Progress options) in front of the Woman's voice / Man's voice chips: which recorded voice plays"
   }
  ],
  "patterns": [

@@ -774,7 +774,19 @@ LANGAPP_PACKS.i18n.ar = {
     "Category": "الفئة",
     "⚙ More options": "⚙ خيارات أكثر",
     "⚙ Fewer options": "⚙ خيارات أقل",
-    "Show all options on every screen": "إظهار كل الخيارات في كل شاشة"
+    "Show all options on every screen": "إظهار كل الخيارات في كل شاشة",
+    "Hand-tuned for speakers of your language": "مصمَّمة خصيصًا لمتحدثي لغتك",
+    "Go to the next card automatically": "الانتقال إلى البطاقة التالية تلقائيًا",
+    "Extra practice": "تمرين إضافي",
+    "New card": "بطاقة جديدة",
+    "Woman's voice": "صوت امرأة",
+    "Man's voice": "صوت رجل",
+    "Which voice do you want to hear?": "أي صوت تريد أن تسمع؟",
+    "Voice: woman. Switch to man's voice": "الصوت: امرأة. التبديل إلى صوت رجل",
+    "Voice: man. Switch to woman's voice": "الصوت: رجل. التبديل إلى صوت امرأة",
+    "Voice: woman": "الصوت: امرأة",
+    "Voice: man": "الصوت: رجل",
+    "Voice": "الصوت"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مهارات"],
@@ -1048,7 +1060,10 @@ LANGAPP_PACKS.i18n.ar = {
     ["^Learn (.+), 5 minutes a day$", "اللغة $1: 5 دقائق يوميا"],
     ["^Coming soon · (\\d+) lessons planned$", "قريبا · الدروس المخططة: $1"],
     ["^day (\\d+) 🔥$", "الأيام المتتالية: $1 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "ارتفع المستوى! المستوى $1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "ارتفع المستوى! المستوى $1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "تمرين إضافي · المحفوظ: $1/$2"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "بطاقة جديدة · المحفوظ: $1/$2"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "المستحق: $1 · المحفوظ: $2/$3"]
   ],
   road: {
     "Standard (Seoul) Korean": "الكورية المعيارية (سول)",

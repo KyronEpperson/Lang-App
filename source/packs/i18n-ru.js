@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.ru = {
     "Hand-tuned for speakers of your language": "Специально для носителей твоего языка",
     "Go to the next card automatically": "Автоматически переходить к следующей карточке",
     "Extra practice": "Доп. практика",
-    "New card": "Новая карточка"
+    "New card": "Новая карточка",
+    "Woman's voice": "Женский голос",
+    "Man's voice": "Мужской голос",
+    "Which voice do you want to hear?": "Какой голос ты хочешь слышать?",
+    "Voice: woman. Switch to man's voice": "Голос: женский. Переключить на мужской",
+    "Voice: man. Switch to woman's voice": "Голос: мужской. Переключить на женский",
+    "Voice: woman": "Голос: женский",
+    "Voice: man": "Голос: мужской",
+    "Voice": "Голос"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Тренажёр"],

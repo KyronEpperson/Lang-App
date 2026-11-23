@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.hi = {
     "Hand-tuned for speakers of your language": "आपकी भाषा बोलने वालों के लिए ख़ास तैयार",
     "Go to the next card automatically": "अपने आप अगले कार्ड पर जाएँ",
     "Extra practice": "अतिरिक्त अभ्यास",
-    "New card": "नया कार्ड"
+    "New card": "नया कार्ड",
+    "Woman's voice": "महिला की आवाज़",
+    "Man's voice": "पुरुष की आवाज़",
+    "Which voice do you want to hear?": "आप कौन-सी आवाज़ सुनना चाहते हैं?",
+    "Voice: woman. Switch to man's voice": "आवाज़: महिला। पुरुष की आवाज़ पर जाएँ",
+    "Voice: man. Switch to woman's voice": "आवाज़: पुरुष। महिला की आवाज़ पर जाएँ",
+    "Voice: woman": "आवाज़: महिला",
+    "Voice: man": "आवाज़: पुरुष",
+    "Voice": "आवाज़"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ड्रिल"],

@@ -5289,6 +5289,62 @@
    "kind": "label",
    "context": "review status line (above the card): the current card is new; may be followed by \" · 0/6 learned\"; short UI label; keep it short",
    "where": "html <label> text"
+  },
+  "Woman's voice": {
+   "t": "เสียงผู้หญิง",
+   "ko": "여자 목소리",
+   "kind": "label",
+   "context": "choice chip: hear the audio recordings spoken by a woman (which recorded voice to play, not the learner's gender)",
+   "where": "js v() <button>"
+  },
+  "Man's voice": {
+   "t": "เสียงผู้ชาย",
+   "ko": "남자 목소리",
+   "kind": "label",
+   "context": "choice chip: hear the audio recordings spoken by a man (which recorded voice to play, not the learner's gender)",
+   "where": "js v() <button>"
+  },
+  "Which voice do you want to hear?": {
+   "t": "อยากฟังเสียงแบบไหน",
+   "ko": "어떤 목소리로 들을까요?",
+   "kind": "sentence",
+   "context": "question in the setup card / Today card: choose the woman's or the man's recorded voice for audio",
+   "where": "js voiceAskHtml() <b>"
+  },
+  "Voice: woman. Switch to man's voice": {
+   "t": "เสียง: ผู้หญิง เปลี่ยนเป็นเสียงผู้ชาย",
+   "ko": "목소리: 여자. 남자 목소리로 바꾸기",
+   "kind": "sentence",
+   "context": "accessible name and tooltip of the top-bar voice button (shows 👩): the woman's voice is on; pressing switches to the man's voice",
+   "where": "js lab()"
+  },
+  "Voice: man. Switch to woman's voice": {
+   "t": "เสียง: ผู้ชาย เปลี่ยนเป็นเสียงผู้หญิง",
+   "ko": "목소리: 남자. 여자 목소리로 바꾸기",
+   "kind": "sentence",
+   "context": "accessible name and tooltip of the top-bar voice button (shows 👨): the man's voice is on; pressing switches to the woman's voice",
+   "where": "js lab()"
+  },
+  "Voice: woman": {
+   "t": "เสียง: ผู้หญิง",
+   "ko": "목소리: 여자",
+   "kind": "label",
+   "context": "toast after switching: the audio now uses the woman's recorded voice",
+   "where": "js lab()"
+  },
+  "Voice: man": {
+   "t": "เสียง: ผู้ชาย",
+   "ko": "목소리: 남자",
+   "kind": "label",
+   "context": "toast after switching: the audio now uses the man's recorded voice",
+   "where": "js lab()"
+  },
+  "Voice": {
+   "t": "เสียง",
+   "ko": "목소리",
+   "kind": "label",
+   "context": "settings label (Progress options) in front of the Woman's voice / Man's voice chips: which recorded voice plays",
+   "where": "js id()"
   }
  },
  "patterns": {

@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.ar = {
     "Hand-tuned for speakers of your language": "مصمَّمة خصيصًا لمتحدثي لغتك",
     "Go to the next card automatically": "الانتقال إلى البطاقة التالية تلقائيًا",
     "Extra practice": "تمرين إضافي",
-    "New card": "بطاقة جديدة"
+    "New card": "بطاقة جديدة",
+    "Woman's voice": "صوت امرأة",
+    "Man's voice": "صوت رجل",
+    "Which voice do you want to hear?": "أي صوت تريد أن تسمع؟",
+    "Voice: woman. Switch to man's voice": "الصوت: امرأة. التبديل إلى صوت رجل",
+    "Voice: man. Switch to woman's voice": "الصوت: رجل. التبديل إلى صوت امرأة",
+    "Voice: woman": "الصوت: امرأة",
+    "Voice: man": "الصوت: رجل",
+    "Voice": "الصوت"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مهارات"],

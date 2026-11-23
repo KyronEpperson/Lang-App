@@ -774,7 +774,19 @@ LANGAPP_PACKS.i18n.th = {
     "Category": "หมวดหมู่",
     "⚙ More options": "⚙ ตัวเลือกเพิ่มเติม",
     "⚙ Fewer options": "⚙ ซ่อนตัวเลือก",
-    "Show all options on every screen": "แสดงตัวเลือกทั้งหมดในทุกหน้าจอ"
+    "Show all options on every screen": "แสดงตัวเลือกทั้งหมดในทุกหน้าจอ",
+    "Hand-tuned for speakers of your language": "ทำมาเพื่อผู้พูดภาษาของคุณโดยเฉพาะ",
+    "Go to the next card automatically": "ไปการ์ดถัดไปอัตโนมัติ",
+    "Extra practice": "ฝึกเพิ่มเติม",
+    "New card": "การ์ดใหม่",
+    "Woman's voice": "เสียงผู้หญิง",
+    "Man's voice": "เสียงผู้ชาย",
+    "Which voice do you want to hear?": "อยากฟังเสียงแบบไหน",
+    "Voice: woman. Switch to man's voice": "เสียง: ผู้หญิง เปลี่ยนเป็นเสียงผู้ชาย",
+    "Voice: man. Switch to woman's voice": "เสียง: ผู้ชาย เปลี่ยนเป็นเสียงผู้หญิง",
+    "Voice: woman": "เสียง: ผู้หญิง",
+    "Voice: man": "เสียง: ผู้ชาย",
+    "Voice": "เสียง"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],
@@ -1048,7 +1060,10 @@ LANGAPP_PACKS.i18n.th = {
     ["^Learn (.+), 5 minutes a day$", "$1: เรียนวันละ 5 นาที"],
     ["^Coming soon · (\\d+) lessons planned$", "เร็ว ๆ นี้ · วางแผนไว้ $1 บท"],
     ["^day (\\d+) 🔥$", "วันที่ $1 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "เลเวลอัป! เลเวล $1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "เลเวลอัป! เลเวล $1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "ฝึกเพิ่มเติม · เรียนแล้ว $1/$2 ใบ"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "การ์ดใหม่ · เรียนแล้ว $1/$2 ใบ"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ถึงกำหนด $1 ใบ · เรียนแล้ว $2/$3 ใบ"]
   ],
   road: {
     "Standard (Seoul) Korean": "ภาษาเกาหลีมาตรฐาน (โซล)",

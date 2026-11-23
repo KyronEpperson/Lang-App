@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.id = {
     "Hand-tuned for speakers of your language": "Disusun khusus untuk penutur bahasamu",
     "Go to the next card automatically": "Otomatis lanjut ke kartu berikutnya",
     "Extra practice": "Latihan tambahan",
-    "New card": "Kartu baru"
+    "New card": "Kartu baru",
+    "Woman's voice": "Suara wanita",
+    "Man's voice": "Suara pria",
+    "Which voice do you want to hear?": "Kamu ingin mendengar suara yang mana?",
+    "Voice: woman. Switch to man's voice": "Suara: wanita. Ganti ke suara pria",
+    "Voice: man. Switch to woman's voice": "Suara: pria. Ganti ke suara wanita",
+    "Voice: woman": "Suara: wanita",
+    "Voice: man": "Suara: pria",
+    "Voice": "Suara"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],

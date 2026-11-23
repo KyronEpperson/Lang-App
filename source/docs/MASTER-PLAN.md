@@ -44,6 +44,15 @@ Any pair = target half + native half (+ pair layer). 61 + 61 pieces of work cove
 2. **Pilot:** Spanish → Korean is the assembled (standard) pilot. Japanese → Korean is hand-tuned and comes after the pilot.
 3. **Timing:** started 2026-11-22 (Kii upgraded the plan and asked for more sub-agents).
 
+## 0.5 Dialects as their own courses (Kii, 2026-11-22: "give each dialect its own course")
+
+Today one Spanish course (Mexico-leaning Latin American) carries a "Caribbean and Dominican Spanish" deck and a `caribbean` lesson, and the picker shows a Spain flag for Spanish. Proposal, not started:
+- A dialect course = the shared language base + a dialect layer (pronunciation aid and voice, vocabulary swaps, forms of address such as vosotros / vos / tú-usted, a traps deck, regional phrases). Same idea as the two halves: the base is written once.
+- Precedent in the app: Portuguese (Brazil) and Portuguese (Portugal) are separate courses.
+- Candidates: Spanish (Mexico), Spanish (Dominican / Caribbean), Spanish (Spain), Spanish (Rioplatense); later Arabic (Egyptian / Levantine / Gulf), Chinese varieties already separate, English (US / UK) for learners of English.
+- Each dialect course carries its own flag in the picker; the learner's own language (step 1) stays one entry per language.
+- To decide: which dialects first (suggested: Dominican, since the deck already exists and Kii studies it), and whether progress carries between dialect courses of one language.
+
 ## 0.4 Status (2026-11-22, evening)
 
 - **Engine:** shipped in 2.63.0. A pack may carry `UI` (its own interface strings); a Korean pack course greets from its pack and shows Korean pause words. `tools/tests/esko.js` (a tiny Spanish → Korean course through every screen) is part of every release. Stroke-order tokens (`{{strokes:ㄱ}}`) and the hand-tuned mark in the picker are built, shipping with the pilot.

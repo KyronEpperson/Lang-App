@@ -776,7 +776,15 @@ LANGAPP_PACKS.i18n.ja = {
     "Hand-tuned for speakers of your language": "あなたの母語に合わせて作ったコース",
     "Go to the next card automatically": "自動で次のカードへ進む",
     "Extra practice": "追加練習",
-    "New card": "新しいカード"
+    "New card": "新しいカード",
+    "Woman's voice": "女性の声",
+    "Man's voice": "男性の声",
+    "Which voice do you want to hear?": "どちらの声で聞きますか？",
+    "Voice: woman. Switch to man's voice": "声：女性。男性の声に切り替える",
+    "Voice: man. Switch to woman's voice": "声：男性。女性の声に切り替える",
+    "Voice: woman": "声：女性",
+    "Voice: man": "声：男性",
+    "Voice": "声"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],

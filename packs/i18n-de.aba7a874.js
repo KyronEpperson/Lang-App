@@ -774,7 +774,19 @@ LANGAPP_PACKS.i18n.de = {
     "Category": "Kategorie",
     "⚙ More options": "⚙ Mehr Optionen",
     "⚙ Fewer options": "⚙ Weniger Optionen",
-    "Show all options on every screen": "Alle Optionen auf jedem Bildschirm anzeigen"
+    "Show all options on every screen": "Alle Optionen auf jedem Bildschirm anzeigen",
+    "Hand-tuned for speakers of your language": "Speziell für Sprecher deiner Sprache",
+    "Go to the next card automatically": "Automatisch zur nächsten Karte wechseln",
+    "Extra practice": "Zusatzübung",
+    "New card": "Neue Karte",
+    "Woman's voice": "Frauenstimme",
+    "Man's voice": "Männerstimme",
+    "Which voice do you want to hear?": "Welche Stimme möchtest du hören?",
+    "Voice: woman. Switch to man's voice": "Stimme: Frau. Zur Männerstimme wechseln",
+    "Voice: man. Switch to woman's voice": "Stimme: Mann. Zur Frauenstimme wechseln",
+    "Voice: woman": "Stimme: Frau",
+    "Voice: man": "Stimme: Mann",
+    "Voice": "Stimme"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Training"],
@@ -1048,7 +1060,10 @@ LANGAPP_PACKS.i18n.de = {
     ["^Learn (.+), 5 minutes a day$", "$1 lernen, 5 Minuten am Tag"],
     ["^Coming soon · (\\d+) lessons planned$", "Bald verfügbar · geplante Lektionen: $1"],
     ["^day (\\d+) 🔥$", "Tag $1 🔥"],
-    ["^Level up! Level (\\d+) · (.+) 🎉$", "Neue Stufe! Stufe $1 · $2 🎉"]
+    ["^Level up! Level (\\d+) · (.+) 🎉$", "Neue Stufe! Stufe $1 · $2 🎉"],
+    ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Zusatzübung · gelernt: $1/$2"],
+    ["^New card · (\\d+)\\/(\\d+) learned$", "Neue Karte · gelernt: $1/$2"],
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Fällig: $1 · gelernt: $2/$3"]
   ],
   road: {
     "Standard (Seoul) Korean": "Standardkoreanisch (Seoul)",
