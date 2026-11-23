@@ -99,8 +99,8 @@ function assemble(nat, tgt, opts) {
   return { pack, missing: miss };
 }
 
-/* features whose engine renderers read COURSE.TRAINER today (src/app.html TRAINER_WIRED); WP2–WP6 add numbers, sound, register, conj as their renderers land */
-const WIRED = { script: true, pron: true, strokes: true, numbers: false, sound: false, register: false, conj: false };
+/* features whose engine renderers read COURSE.TRAINER (src/app.html TRAINER_WIRED; all since WP2–WP6). The Build drill / breakdown is a mode, not a flag: the app enables it when gloss + build are complete */
+const WIRED = { script: true, pron: true, strokes: true, numbers: true, sound: true, register: true, conj: true };
 const PAIRS_LEN = tc => (tc.pairs || []).length;
 const isObj = x => x && typeof x === 'object' && !Array.isArray(x);
 /* the native trainer.json without its _notes; build.extra keyed by the Korean of target build[] (only those sentences, in target order) */

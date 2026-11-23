@@ -48,6 +48,15 @@ const cases = [
   ['trainer: orphan PART key', d => editJ(d, 'trainer.json', o => { o.gloss.PART['께서'] = 'ES honorific subject'; }), /orphan key/],
   ['trainer: Hangul changed in a gloss', d => editJ(d, 'trainer.json', o => { o.register.toPolite = o.register.toPolite.replace('요', '죠'); }), /Hangul differs/],
   ['trainer: rewrite regex that does not compile', d => editJ(d, 'trainer.json', o => { o.hangul.alt.input.rewrite.push(['qu(', 'k']); }), /does not compile/],
+  ['trainer: a numbers counter label dropped', d => editJ(d, 'trainer.json', o => { delete o.numbers.counter['잔']; }), /numbers\.counter\.잔: missing/],
+  ['trainer: the %1 slot lost from a sound rule', d => editJ(d, 'trainer.json', o => { o.sound.rules['받침 → %1'] = o.sound.rules['받침 → %1'].replace('%1', 'x'); }), /slots none differ/],
+  ['trainer: sound.showGloss not a boolean', d => editJ(d, 'trainer.json', o => { o.sound.showGloss = 'yes'; }), /must be true or false/],
+  ['trainer: 요 dropped from a register prompt', d => editJ(d, 'trainer.json', o => { o.register.whyCasual = o.register.whyCasual.replace('요', ''); }), /register\.whyCasual: Hangul differs/],
+  ['trainer: conjugator irregular tag altered', d => editJ(d, 'trainer.json', o => { o.conj.irregular['ㄷ→ㄹ'] = 'ㄷ→ㅅ'; }), /conj\.irregular\.ㄷ→ㄹ: Hangul differs/],
+  ['trainer: gloss template with braces', d => editJ(d, 'trainer.json', o => { o.gloss.tpl.verb = 'ES verb · {%1}'; }), /braces are not allowed/],
+  ['trainer: HTML in a conjugator label', d => editJ(d, 'trainer.json', o => { o.conj.labels.future = '<i>ES future</i>'; }), /HTML is not allowed/],
+  ['trainer: Build gloss for a sentence the target does not have', d => editJ(d, 'trainer.json', o => { o.build.extra['없는 문장이에요'] = 'ES nope'; }), /not a target Build sentence/],
+  ['trainer: a COUNT gloss emptied', d => editJ(d, 'trainer.json', o => { o.gloss.COUNT['권'] = ' '; }), /gloss\.COUNT\.권: empty/],
   ['trainer.json absent still validates (trainers off)', d => fs.rmSync(path.join(N(d), 'trainer.json')), null],
   ['blank placeholder removed', d => edit(d, 'patterns.jsonl', rows => { const x = rows.find(r => /__/.test(r.meaning)) || rows[0]; x.meaning = x.meaning.replace(/_{2,}/, '…') + (/__/.test(x.meaning) ? '' : ' ___'); return rows; }), /placeholder/]
 ];
@@ -65,6 +74,16 @@ cases.forEach(([name, mut, want]) => {
   const x = rows.find(r => r.f === 'cards' && r.k === 'note' && /[가-힣]/.test(r.src) && !r.pre); x.tgt = x.tgt.replace(/[가-힣]+/, '추가'); x._waive = ['hangul']; x._note = 'test'; L.writeJSONL(path.join(wd, wf), rows);
   run('mk_native.js', ['es', '--merge'], d); const v = run('validate.js', ['es', 'ko'], d);
   const ok = v.status === 0 && /warn .*Hangul differs/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'work-row _waive survives merge and downgrades to a warning');
+}
+/* the trainer work file (wT.jsonl) round-trips through --merge into a trainer.json that validates; with no filled rows the merge leaves trainer.json alone */
+{
+  const d = path.join(tmp, 'trwork'); fs.cpSync(base, d, { recursive: true }); const wt = path.join(N(d), 'work', 'wT.jsonl'); const before = fs.readFileSync(path.join(N(d), 'trainer.json'), 'utf8');
+  run('mk_native.js', ['es', '--merge'], d); const kept = fs.readFileSync(path.join(N(d), 'trainer.json'), 'utf8') === before;
+  fs.rmSync(path.join(N(d), 'trainer.json')); L.writeJSONL(wt, L.readJSONL(wt).map(x => Object.assign(x, { tgt: x.pre ? x.tgt : 'ES ' + x.src })));
+  const m = run('mk_native.js', ['es', '--merge'], d); const tj = L.readJSON(path.join(N(d), 'trainer.json')); tj.hangul.alt = { V: {}, L: {}, T: {}, sh: [] }; L.writeJSON(path.join(N(d), 'trainer.json'), tj);
+  const v = run('validate.js', ['es', 'ko'], d);
+  const ok = fs.existsSync(wt) && kept && m.status === 0 && v.status === 0 && tj.sound.showGloss === true && /^ES /.test(tj.gloss.CONN['그래서']) && /11 section\(s\), 11 complete/.test(v.stdout); if (!ok) fail++;
+  console.log((ok ? 'ok   ' : 'FAIL ') + 'trainer work file round-trips through --merge (and an empty one leaves trainer.json alone)' + (ok ? '' : '\n' + [m.stdout, m.stderr, v.stdout.split('\n').filter(l => /ERROR|trainer/.test(l)).slice(0, 5).join('\n')].join('\n')));
 }
 /* export refuses when a positional check/practice id would now hold different Korean */
 {

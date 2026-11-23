@@ -45,10 +45,13 @@ const BAD=/\b(English|Korean \(required\)|Hangul|Survival phrases|good morning|g
 async function trainerTests(b,ok,PACK,BAD){
   const page=async(locale)=>{ const ctx=await b.newContext({locale:locale||'es-MX',viewport:{width:390,height:800}}); const p=await ctx.newPage(); const errs=[]; p.on('pageerror',e=>errs.push(String(e).slice(0,200)));
     await p.route('**/fonts.googleapis.com/**',r=>r.fulfill({body:'',contentType:'text/css'})); await p.route('**/*.supabase.co/**',r=>r.fulfill({status:200,body:'[]',contentType:'application/json'}));
-    await p.goto('file://'+(process.env.ESKO_SRC||path.resolve(__dirname,'../../korean-flashcards.html'))); await p.waitForTimeout(900); return {ctx,p,errs}; };
+    await p.goto('file://'+(process.env.ESKO_SRC||path.resolve(__dirname,'../../korean-flashcards.html'))); await p.waitForTimeout(900);
+    /* the built file has no <meta charset>: Chromium now and then sniffs a file:// load as windows-1252 and the script fails to parse; reload until the app is up */
+    const up=()=>p.waitForFunction(()=>{ try{ return typeof META!=='undefined'&&typeof applyCourse==='function'; }catch(e){ return false; } },null,{timeout:8000}).then(()=>true,()=>false);
+    for(let k=0;k<3&&!(await up());k++){ errs.length=0; await p.reload(); await p.waitForTimeout(900); } return {ctx,p,errs}; };
   const visText=p=>p.evaluate(()=>{ const vis=e=>{ const s=getComputedStyle(e); return s.display!=='none'&&s.visibility!=='hidden'; }; const out=[]; const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT); let n; while(n=w.nextNode()){ const e=n.parentElement; if(!e||/SCRIPT|STYLE|TEMPLATE/.test(e.tagName)) continue; let x=e,v=true; while(x&&x!==document.body){ if(!vis(x)||x.hidden){v=false;break;} x=x.parentElement; } const s=n.textContent.trim(); if(v&&s) out.push(s); } document.querySelectorAll('input[placeholder],textarea[placeholder]').forEach(i=>{ if(i.offsetParent) out.push('[ph] '+i.placeholder); }); document.querySelectorAll('[aria-label],[title]').forEach(i=>{ if(i.offsetParent&&!i.closest('#nav,header')){ if(i.getAttribute('aria-label')) out.push('[aria] '+i.getAttribute('aria-label')); if(i.title) out.push('[title] '+i.title); } }); return out; });
   /* Korean card content may legitimately say «inglés» (영어 = English); UI chrome may not */
-  const DRILL_EN=/type the sound|English letters|Which one did you hear|\bsyllable\b|^word$|Two quick questions|Can you already|^Not yet$|^Slowly$|Yes, fluently|How much time|Set up\. Start|stroke order|^Why: |Show rule/; /* the trainers' own English literals */
+  const DRILL_EN=/type the sound|English letters|Which one did you hear|\bsyllable\b|^word$|Two quick questions|Can you already|^Not yet$|^Slowly$|Yes, fluently|How much time|Set up\. Start|stroke order|^Why: |Show rule|Listen and type the number|^digits$|price in won|\bSino\b|How is this actually said|Make it (polite|casual)|casual → polite|polite → casual|Verb conjugator|dictionary form|^Conjugate$|polite (present|past)|tap the words in order|question word|noun \/ word|^verb · |^Not quite$|^Answer$/; /* the trainers' own English literals */
   const leaks=(t,allow)=>t.filter(s=>(BAD.test(s)||DRILL_EN.test(s))&&!(allow||[]).some(a=>s===a)); /* allow: exact text nodes only (e.g. the meaning «inglés» of 영어) */
   const apply=(p,id)=>p.evaluate(id=>{ const w=document.getElementById('welcome'); if(w) w.remove(); META.native='es'; META.picked=1; META.seenHome=1; applyCourse(id); S.onboard={skipped:1}; S.hintSeen=1; S.tourDone=1; return {id:COURSE.id,script:CF('script'),kinds:!!COURSE.KINDS,tr:COURSE.TRAINER?Object.keys(COURSE.TRAINER):null}; },id);
 
@@ -57,7 +60,8 @@ async function trainerTests(b,ok,PACK,BAD){
     const r=await apply(p,'es-ko'); ok('H0 real es-ko pack: script on, KINDS + TRAINER present',r.id==='es-ko'&&r.script&&r.kinds&&r.tr&&r.tr.includes('hangul'),JSON.stringify(r));
     /* mode chips: only the modes this pack has data for */
     const chips=await p.evaluate(()=>{ location.hash='#read'; route(); return [...document.querySelectorAll('#hModes .chip')].filter(b=>!b.hidden).map(b=>b.dataset.hm); });
-    ok('H1 read tab offers type + listen&pick, not build/register/numbers/sound',chips.includes('type')&&chips.includes('pick')&&!['build','register','numbers','sound'].some(m=>chips.includes(m)),chips.join(','));
+    const mo=await p.evaluate(()=>['build','register','numbers','sound'].filter(m=>modeOk(m)));
+    ok('H1 read tab offers type + listen&pick, and exactly the other drills this pack has data for',chips.includes('type')&&chips.includes('pick')&&['build','register','numbers','sound'].every(m=>chips.includes(m)===mo.includes(m)),chips.join(',')+' vs '+mo.join(','));
     /* the Hangul drill with fixed items: grade typed romanisation */
     const grade=await p.evaluate(()=>{ const real=hangulItem; const res={}; const st=$('hangulStage'); S.drillMode='type';
       const one=(w,typed)=>{ hangulItem=()=>Object.assign({ch:w},answersFor(w)); if(cleanup){cleanup();cleanup=null;} cleanup=renderHangulQ(st,2,()=>{}); const inp=st.querySelector('input.ans'); const ui={ph:inp.placeholder,aria:inp.getAttribute('aria-label'),lang:inp.lang,im:inp.getAttribute('inputmode'),lvl:st.querySelector('.row .stat').textContent}; inp.value=typed; st.querySelector('form').dispatchEvent(new Event('submit',{cancelable:true})); return {ok:inp.classList.contains('right'),bad:inp.classList.contains('wrong'),fb:st.querySelector('.fb').innerHTML,ui}; };
@@ -107,7 +111,8 @@ async function trainerTests(b,ok,PACK,BAD){
 
   /* ---- E12: a stale drill mode from another course never renders a drill this pack has no data for ---- */
   { const {ctx,p,errs}=await page();
-    await apply(p,'es-ko'); const st=await p.evaluate(()=>{ S.drillMode='sound'; resetCourseRuntime(); const m1=S.drillMode; S.drillMode='numbers'; location.hash='#read'; route(); hangulNext(); const t=$('hangulStage'); return {m1,input:!!t.querySelector('input.ans[aria-label="Romanización"]'),number:/🔢|digits/.test(t.innerHTML)}; });
+    await apply(p,'es-ko'); await p.evaluate(()=>{ const P=JSON.parse(JSON.stringify(COURSES['es-ko'],(k,v)=>k==='_rt'?undefined:v)); delete P.TRAINER.sound; delete P.TRAINER.numbers; P.id='es-kz'; COURSES['es-kz']=P; applyCourse('es-kz'); S.onboard={skipped:1}; }); /* the real pack minus its sound / numbers sections */
+    const st=await p.evaluate(()=>{ S.drillMode='sound'; resetCourseRuntime(); const m1=S.drillMode; S.drillMode='numbers'; location.hash='#read'; route(); hangulNext(); const t=$('hangulStage'); return {m1,input:!!t.querySelector('input.ans[aria-label="Romanización"]'),number:/🔢|digits/.test(t.innerHTML)}; });
     ok('E12 stale drillMode sound/numbers on a pack without them: reset to type, renders the Hangul type drill',st.m1==='type'&&st.input&&!st.number,JSON.stringify(st)); await ctx.close(); }
 
   /* ---- E13: a pack with features.script=true but no TRAINER: no Hangul modes, no English ---- */
@@ -122,4 +127,115 @@ async function trainerTests(b,ok,PACK,BAD){
     const r=await p.evaluate(P0=>{ const P=JSON.parse(JSON.stringify(P0)); P.id='war-ko'; P.native='war'; P.UI={'Korean (required)':'Koreano (kailangan)','Change course':'Palitan ang kurso'}; if(LANGAPP_PACKS.i18n.war) return 'war pack exists: pick another language for this test'; COURSES['war-ko']=P; const w=document.getElementById('welcome'); if(w) w.remove(); META.native='tl'; META.picked=1; META.seenHome=1; applyCourse('war-ko'); location.hash='#settings'; route(); return {ui:uiLang(),ph:$('acKo').placeholder,btn:($('courseChg')||{}).textContent}; },PACK);
     ok('B11 course UI strings apply with no interface pack (war)',r&&r.ui==='war'&&r.ph==='Koreano (kailangan)'&&r.btn==='Palitan ang kurso',JSON.stringify(r));
     ok('B11 no page errors',errs.length===0,errs.join(' ¦ ')); await ctx.close(); }
+  await drillTests({b,ok,page,apply,visText,leaks});
+}
+
+/* ---- WP2–WP6 (docs/TRAINERS-PLAN.md): each trainer on the REAL es-ko pack (Spanish prompts and feedback, a right answer accepted, a wrong one
+   rejected, no English on the screen, a 390px screenshot in review-shots/), plus a clone with that TRAINER section removed (flag on, no data: no trainer) ---- */
+async function drillTests({b,ok,page,apply,visText,leaks}){
+  const fs=require('fs'); const shots=path.resolve(__dirname,'../../review-shots'); fs.mkdirSync(shots,{recursive:true});
+  const shot=async(p,name)=>{ await p.waitForTimeout(300); await p.screenshot({path:path.join(shots,name),fullPage:false}); };
+  const without=(p,secs)=>p.evaluate(secs=>{ const P=JSON.parse(JSON.stringify(COURSES['es-ko'],(k,v)=>k==='_rt'?undefined:v)); secs.forEach(s=>delete P.TRAINER[s]); P.id='es-kn'; COURSES['es-kn']=P; applyCourse('es-kn'); S.onboard={skipped:1}; location.hash='#read'; route();
+    return {features:P.features,chips:[...document.querySelectorAll('#hModes .chip')].filter(x=>!x.hidden).map(x=>x.dataset.hm),quick:QUICK.read.map(x=>x[2]),reg:!$('regStart').hidden,sess:sessSize(),modes:['build','register','numbers','sound'].filter(m=>modeOk(m)),conj:CF('conj')}; },secs);
+  const seeded=()=>{ let a=11; Math.random=()=>{ a=(a*1103515245+12345)%2147483648; return a/2147483648; }; };
+
+  /* ---- WP2 numbers ---- */
+  { const {ctx,p,errs}=await page(); await apply(p,'es-ko');
+    const r=await p.evaluate(s=>{ const real=Math.random; (new Function(s))(); const hints=[]; for(let i=0;i<30;i++) hints.push(numItem().hint); Math.random=real; return {on:CF('numbers'),mode:modeOk('numbers'),hints}; },'('+seeded.toString()+')()');
+    const EN=/\b(price|won|Sino|native|hour|minutes|phone|number|digits|floor|basement|count|things|people|cups|bottles|animals|sheets|age|type like)\b/;
+    ok('N1 es-ko: numbers drill on (flag + data)',r.on&&r.mode,JSON.stringify(r).slice(0,200));
+    ok('N2 30 seeded number hints are Spanish (no English token)',r.hints.length===30&&r.hints.every(h=>typeof h==='string'&&!!h&&!EN.test(h)),r.hints.filter(h=>!h||EN.test(h)).slice(0,4).join(' ¦ '));
+    const g=await p.evaluate(()=>{ location.hash='#read'; route(); S.drillMode='numbers'; const real=numItem; const one=typed=>{ const it=real(); numItem=()=>it; hangulNext(); numItem=real; const st=$('hangulStage'); const inp=st.querySelector('input.ans'); const ui={prompt:st.querySelector('.stat').textContent,ph:inp.placeholder}; inp.value=typed(it); st.querySelector('form').dispatchEvent(new Event('submit',{cancelable:true})); return {ok:inp.classList.contains('right'),bad:inp.classList.contains('wrong'),ui,fb:st.querySelector('.fb').innerText}; };
+      return {right:one(it=>it.answer),wrong:one(it=>it.answer==='7'?'8':'7')}; });
+    ok('N3 number prompt and placeholder in Spanish',/^🔢 Escucha y escribe el número · \S/.test(g.right.ui.prompt)&&!EN.test(g.right.ui.prompt)&&g.right.ui.ph==='dígitos',JSON.stringify(g.right.ui));
+    ok('N4 a correct number is accepted, a wrong one rejected',g.right.ok&&!g.right.bad&&g.wrong.bad&&!g.wrong.ok,JSON.stringify([g.right.ok,g.wrong.bad,g.wrong.fb]));
+    await p.evaluate(()=>{ const real=numItem; numItem=()=>{ const it=real(); return it.hint.includes('cantidad')?it:numItem(); }; S.drillMode='numbers'; hangulNext(); numItem=real; $('hangulStage').querySelector('input.ans').value='3'; }); await shot(p,'es-ko-numbers-390.png');
+    const t=await visText(p); ok('N5 numbers screen: no English / inglés',leaks(t).length===0,leaks(t).slice(0,6).join(' ¦ '));
+    ok('N6 no page errors (numbers)',errs.length===0,errs.join(' ¦ '));
+    const nd=await without(p,['numbers']); ok('N7 flag on but no numbers data: no numbers chip, read item or session item',nd.features.numbers&&!nd.chips.includes('numbers')&&!nd.quick.includes('numbers')&&!nd.modes.includes('numbers')&&!nd.sess.numbers,JSON.stringify(nd));
+    await ctx.close(); }
+  /* ---- WP3 sound changes ---- */
+  { const {ctx,p,errs}=await page(); await apply(p,'es-ko');
+    const r=await p.evaluate(()=>{ location.hash='#read'; route(); S.drillMode='sound'; hangulNext(); const pool=soundPool.slice(); const it=pool.find(x=>/연음/.test(x[2])&&/비음화|받침/.test(x[2]))||pool.find(x=>/연음/.test(x[2]))||pool[0]; soundPool=[it];
+      const one=right=>{ hangulNext(); const st=$('hangulStage'); const prompt=st.querySelector('.stat').textContent, mean=st.querySelectorAll('.stat')[1].textContent; const o=[...st.querySelectorAll('.opt')].find(b=>(b.dataset.o===it[1])===right); o.click(); return {prompt,mean,ok:o.classList.contains('right'),bad:o.classList.contains('wrong'),fb:st.querySelector('.fb').innerText}; };
+      const res={on:CF('sound'),it,right:one(true),wrong:one(false),pool:pool.length};
+      let c=null; for(const d of names){ if(KIND('sounds',d)) continue; c=DECKS[d].find(x=>pronNote(x[0])); if(c) break; } const h=document.createElement('div'); h.innerHTML=c?pronNote(c[0]):''; const pn=h.firstChild; res.note=pn?{title:pn.title,text:pn.textContent}:null; return res; });
+    ok('S1 es-ko: sound-change drill on (flag + data)',r.on&&r.pool>10,JSON.stringify({on:r.on,pool:r.pool}));
+    ok('S2 sound prompt in Spanish, card meaning in Spanish',r.right.prompt==='¿Cómo se pronuncia en realidad?'&&!!r.right.mean.trim()&&r.right.mean===r.it[3],JSON.stringify([r.right.prompt,r.right.mean]));
+    ok('S3 the right pronunciation is accepted, a wrong one rejected',r.right.ok&&r.wrong.bad&&!r.wrong.ok,JSON.stringify([r.right.ok,r.wrong.bad]));
+    ok('S4 feedback: Korean rule name + Spanish explanation',/연음 · enlace: la consonante final pasa a la sílaba siguiente/.test(r.wrong.fb)&&!/linking|final consonant/.test(r.wrong.fb),r.wrong.fb);
+    const sr=await p.evaluate(()=>[soundRule('받침 → ㄷ'),soundRule('연음')]); ok('S4b a rule key with a slot (받침 → %1) is matched and filled',sr[0]==='받침 → ㄷ · la consonante final se pronuncia ㄷ (al final solo suenan 7 consonantes)'&&/^연음 · enlace/.test(sr[1]),JSON.stringify(sr));
+    ok('S5 card pronunciation note: tooltip carries the Spanish rule explanation',!!r.note&&/ · /.test(r.note.title)&&!/\b(linking|consonant|nasal|silent|tense|said)\b/.test(r.note.title),JSON.stringify(r.note));
+    await p.evaluate(()=>{ hangulNext(); const st=$('hangulStage'); [...st.querySelectorAll('.opt')].find(b=>b.dataset.o!==soundPool[0][1]).click(); }); await shot(p,'es-ko-sound-390.png');
+    const t=await visText(p); ok('S6 sound screen: no English / inglés',leaks(t).length===0,leaks(t).slice(0,6).join(' ¦ '));
+    ok('S7 no page errors (sound)',errs.length===0,errs.join(' ¦ '));
+    const nd=await without(p,['sound']); ok('S8 flag on but no sound data: no sound chip, no pronunciation note',nd.features.sound&&!nd.chips.includes('sound')&&!nd.modes.includes('sound')&&await p.evaluate(()=>pronNote('맛있어요')===''),JSON.stringify(nd));
+    await ctx.close(); }
+  /* ---- WP4 polite ↔ casual ---- */
+  { const {ctx,p,errs}=await page(); await apply(p,'es-ko');
+    const r=await p.evaluate(()=>{ location.hash='#read'; route(); S.drillMode='register'; const real=Math.random; const one=(rnd,right)=>{ Math.random=()=>rnd; hangulNext(); Math.random=real; const st=$('hangulStage'); const prompt=st.querySelector('.stat').textContent, q=st.querySelector('.q').textContent; const pr=PAIRS.find(x=>x[0]===q||x[1]===q); const want=pr[0]===q?pr[1]:pr[0]; const o=[...st.querySelectorAll('.opt')].find(b=>(b.dataset.o===want)===right); o.click(); return {prompt,q,want,ok:o.classList.contains('right'),bad:o.classList.contains('wrong'),fb:st.querySelector('.fb').innerText}; };
+      return {on:CF('register'),polite:one(0.1,true),casual:one(0.9,false)}; });
+    ok('R1 es-ko: polite ↔ casual drill on (flag + data)',r.on,JSON.stringify(r).slice(0,160));
+    ok('R2 prompts in Spanish with the Korean rule word (요 / 반말)',r.polite.prompt==='Pásalo a cortés (forma con 요)'&&r.casual.prompt==='Pásalo a informal (반말)',JSON.stringify([r.polite.prompt,r.casual.prompt]));
+    ok('R3 the right form is accepted, a wrong one rejected',r.polite.ok&&r.casual.bad&&!r.casual.ok,JSON.stringify([r.polite.ok,r.casual.bad]));
+    ok('R4 feedback in Spanish, keeps 요',/informal → cortés: añade 요/.test(r.polite.fb)&&/cortés → informal: quita el 요/.test(r.casual.fb)&&!/casual|polite|drop/.test(r.polite.fb+r.casual.fb),JSON.stringify([r.polite.fb,r.casual.fb]));
+    await p.evaluate(()=>{ const real=Math.random; Math.random=()=>0.1; hangulNext(); Math.random=real; const st=$('hangulStage'); st.querySelectorAll('.opt')[1].click(); }); await shot(p,'es-ko-register-390.png');
+    const t=await visText(p); ok('R5 register drill screen: no English / inglés',leaks(t).length===0,leaks(t).slice(0,6).join(' ¦ '));
+    const label=await p.evaluate(()=>{ location.hash='#practice'; route(); const b=$('regStart'); const l=b.hidden?null:b.textContent.trim(); b.click(); return l; }); await p.waitForTimeout(500);
+    const pr=await p.evaluate(label=>({label,head:$('quizRun').querySelector('.stat').textContent,prompt:$('quizRun').querySelector('.qbody .stat').textContent}),label);
+    ok('R6 Practice: the 10-item drill is labelled and runs in Spanish (cortés ↔ informal)',/Ejercicio cortés ↔ informal · 10/.test(pr.label)&&/^Registro · 1\/10$/.test(pr.head)&&/^Pásalo a /.test(pr.prompt),JSON.stringify(pr));
+    const t2=await visText(p); ok('R7 Practice register run: no English / inglés',leaks(t2).length===0,leaks(t2).slice(0,6).join(' ¦ '));
+    for(let i=0;i<10;i++){ await p.evaluate(()=>{ const o=$('quizRun').querySelector('.opt:not([disabled])'); if(o) o.click(); }); await p.waitForTimeout(2400); if(await p.evaluate(()=>!!$('quizRun').querySelector('.done'))) break; }
+    await p.waitForTimeout(400); const res=await p.evaluate(()=>{ const d=$('quizRun').querySelector('.done .note'); return d?d.textContent:null; });
+    ok('R7b the 10-item run ends on a Spanish result line (Cortés ↔ informal · …)',!!res&&/^Cortés ↔ informal · (aprobado|80% para aprobar)$/.test(res),String(res));
+    ok('R8 no page errors (register)',errs.length===0,errs.join(' ¦ '));
+    const nd=await without(p,['register']); ok('R9 flag on but no register data: no chip, no Practice button, no session item',nd.features.register&&!nd.chips.includes('register')&&!nd.reg&&!nd.modes.includes('register')&&!nd.sess.register,JSON.stringify(nd));
+    await ctx.close(); }
+  /* ---- WP5 verb conjugator ---- */
+  { const {ctx,p,errs}=await page(); await apply(p,'es-ko');
+    const openG=()=>p.evaluate(()=>{ location.hash='#lessons'; route(); openLesson=null; showGrammar=false; renderLessonHome(); $('gOpen').click(); const f=$('cjForm'); return f?{title:f.closest('.panel').querySelector('h3').textContent,ph:$('cjIn').placeholder,btn:f.querySelector('button').textContent,out:$('cjOut').innerText}:null; });
+    const conjFor=v=>p.evaluate(v=>{ $('cjIn').value=v; $('cjForm').dispatchEvent(new Event('submit',{cancelable:true})); return $('cjOut').innerText; },v);
+    const g=await openG(); ok('C1 es-ko: conjugator panel in Spanish (title, placeholder with 먹다, button, try line)',!!g&&g.title==='Conjugador de verbos'&&g.ph==='forma de diccionario, p. ej., 먹다'&&g.btn==='Conjugar'&&/^Prueba con 가다 · 먹다/.test(g.out),JSON.stringify(g));
+    const deut=await conjFor('듣다'), yeppeu=await conjFor('예쁘다'), bad=await conjFor('eat');
+    ok('C2 듣다 → 들어요 with Spanish labels and the irregular tag',/irregular: ㄷ→ㄹ/.test(deut)&&/presente cortés\s*들어요/.test(deut)&&/pasado cortés\s*들었어요/.test(deut)&&/negativo/.test(deut)&&!/polite|negative|future/.test(deut),deut.replace(/\n/g,' | '));
+    ok('C3 예쁘다: the ㅡ-drop tag is Spanish',/irregular: se cae la ㅡ/.test(yeppeu)&&/예뻐요/.test(yeppeu),yeppeu.replace(/\n/g,' | '));
+    ok('C4 a non-dictionary form is refused with a Spanish hint',bad==='Escribe una forma de diccionario terminada en 다.',bad);
+    await conjFor('듣다'); await p.evaluate(()=>{ window.scrollTo(0,$('cjForm').closest('.panel').getBoundingClientRect().top+scrollY-64); }); await shot(p,'es-ko-conjugator-390.png');
+    const t=await visText(p), aw=['Sino numbers']; /* aw: target-half pattern ko.p034 has an English "Korean" field (content, like B10), not trainer text */
+    ok('C5 grammar screen with the conjugator: no English / inglés',leaks(t,aw).length===0,leaks(t,aw).slice(0,6).join(' ¦ '));
+    ok('C6 no page errors (conjugator)',errs.length===0,errs.join(' ¦ '));
+    const nd=await without(p,['conj']); const g2=await openG(); ok('C7 flag on but no conj data: no conjugator panel',nd.features.conj&&!nd.conj&&g2===null,JSON.stringify({nd:nd.conj,g2}));
+    await ctx.close(); }
+  /* ---- WP6 sentence breakdown + Build drill ---- */
+  { const {ctx,p,errs}=await page(); await apply(p,'es-ko');
+    const GEN=/\b(topic|subject|object|verb|polite|noun|word|question|counter|number|possessive|also|honorific|present|past|until|from)\b/; /* «formal» is Spanish too */
+    const bd=await p.evaluate(()=>{ let d=null,c=null; for(const dn of names){ c=DECKS[dn].find(x=>DIALOG[x[0]]&&/요/.test(DIALOG[x[0]][0]+DIALOG[x[0]][1])&&/[은는이가을를에]\s/.test(DIALOG[x[0]][0]+' '+DIALOG[x[0]][1])); if(c){ d=dn; break; } }
+      location.hash='#review'; route(); const st=document.createElement('div'); document.body.appendChild(st); renderFlashcard(st,d,c,()=>{}); const b=st.querySelector('.bdbtn'); if(!b){ st.remove(); return {btn:null}; } b.click(); const out=st.querySelector('.bdout'); const r={btn:b.textContent,noi18n:!!out.querySelector('.bd[data-noi18n]'),rows:[...out.querySelectorAll('.bd > div')].map(x=>[x.querySelector('b').textContent,x.querySelector('span').textContent]),line:DIALOG[c[0]][0]+' '+DIALOG[c[0]][1]}; st.remove(); return r; });
+    ok('G1 es-ko: break-it-down button on a dialogue card (build data present), labelled in Spanish',bd.btn==='🔍 desglosar'&&bd.rows.length>=3,JSON.stringify(bd).slice(0,300));
+    ok('G2 breakdown glosses are Spanish, Korean particles / endings intact',bd.rows.every(([w,r])=>!!r&&!GEN.test(r))&&bd.rows.some(([w,r])=>/ \+ (은|는|이|가|을|를|에|에서|도) = /.test(r)||/^verbo · /.test(r))&&bd.noi18n,JSON.stringify(bd.rows));
+    const all=await p.evaluate(()=>{ SENTS=null; const ss=buildSentences(); const bad=[]; ss.forEach(s=>breakdown(s.ko).forEach(([w,r])=>{ if(!r) bad.push(w+':empty'); })); const ex=COURSE.TRAINER.build.extra; return {n:ss.length,bad:bad.slice(0,5),extra:Object.keys(ex).filter(k=>ss.some(s=>s.ko===k&&s.en===ex[k])).length,inPool:Object.keys(ex).filter(k=>k.split(' ').length<3||ss.some(s=>s.ko===k)).length, /* buildSentences keeps 3–7 words */extraN:Object.keys(ex).length,glosses:[...new Set(ss.flatMap(s=>breakdown(s.ko).map(x=>x[1])))]}; });
+    ok('G3 every Build sentence breaks down with a gloss; the 18 extra sentences are in the pool (Spanish gloss, or an earlier card / dialogue line with the same Korean)',all.n>50&&!all.bad.length&&all.extraN===18&&all.inPool===18&&all.extra>=12,JSON.stringify({n:all.n,bad:all.bad,extra:all.extra,inPool:all.inPool}));
+    const genHits=all.glosses.filter(g=>GEN.test(g)); ok('G4 no English gloss over the whole Build pool',genHits.length===0,genHits.slice(0,6).join(' ¦ '));
+    const bq=await p.evaluate(()=>{ location.hash='#read'; route(); S.drillMode='build'; const real=Math.random; let a=5; Math.random=()=>{ a=(a*1103515245+12345)%2147483648; return a/2147483648; };
+      const one=right=>{ hangulNext(); const st=$('hangulStage'); const s=st.querySelector('.q').textContent, prompt=st.querySelectorAll('.stat')[0].textContent; const n=st.querySelectorAll('.pool [data-w]').length; const order=[...Array(n).keys()]; if(!right) order.reverse(); order.forEach(i=>st.querySelector('.pool [data-w="'+i+'"]').click()); st.querySelector('.chk').click(); const fb=st.querySelector('.fb'); return {s,prompt,fb:fb.innerText,head:fb.querySelector('b').textContent,bd:fb.querySelectorAll('.bd > div').length}; };
+      const r={on:modeOk('build'),right:one(true),wrong:one(false)}; Math.random=real; return r; });
+    ok('G5 Build drill: Spanish prompt line and sentence',bq.on&&bq.right.prompt==='toca las palabras en orden'&&!!bq.right.s,JSON.stringify([bq.right.prompt,bq.right.s]));
+    ok('G6 the right word order is accepted, a wrong one rejected with Spanish feedback + breakdown',bq.right.head!=='No del todo'&&bq.wrong.head==='No del todo'&&bq.right.bd>=3&&!GEN.test(bq.wrong.fb.split('\n').slice(1).join(' ')),JSON.stringify([bq.right.head,bq.wrong.head,bq.wrong.fb.slice(0,200)]));
+    await p.evaluate(()=>{ const real=Math.random; let a=9; Math.random=()=>{ a=(a*1103515245+12345)%2147483648; return a/2147483648; }; hangulNext(); Math.random=real; const st=$('hangulStage'); st.querySelector('.skip').click(); }); await shot(p,'es-ko-build-390.png');
+    const t=await visText(p); ok('G7 Build drill screen: no English / inglés',leaks(t).length===0,leaks(t).slice(0,6).join(' ¦ '));
+    const wd=await p.evaluate(()=>{ location.hash='#lessons'; route(); openLesson=null; showGrammar=false; renderLessonHome(); $('gOpen').click(); const det=[...document.querySelectorAll('#lessonHome details')].find(x=>x.querySelector('.gidx')); if(!det) return null; det.open=true; return {n:det.querySelectorAll('.gidx > div').length,first:det.querySelector('.gidx > div').innerText}; });
+    ok('G8 Words from dialogues lists Korean words with Spanish context',!!wd&&wd.n>10&&/[가-힣]/.test(wd.first),JSON.stringify(wd));
+    await p.waitForTimeout(400); const t2=await visText(p), aw=['Sino numbers']; ok('G9 grammar screen with Words from dialogues: no English / inglés',leaks(t2,aw).length===0,leaks(t2,aw).slice(0,6).join(' ¦ '));
+    await p.evaluate(()=>{ location.hash='#review'; route(); const d=names.find(dn=>DECKS[dn].some(x=>DIALOG[x[0]])); const c=DECKS[d].find(x=>DIALOG[x[0]]); const st=$('v-review')||document.body; const box=document.createElement('div'); box.id='bdShot'; box.style.cssText='position:fixed;inset:60px 8px auto 8px;z-index:50;background:var(--bg);padding:8px;border-radius:12px;max-height:80vh;overflow:auto'; document.body.appendChild(box); renderFlashcard(box,d,c,()=>{}); const card=box.querySelector('.card,.flash,.fc'); if(card) card.classList.add('flipped'); box.querySelector('.bdbtn').click(); box.querySelector('.bdout').scrollIntoView(); }); await shot(p,'es-ko-breakdown-390.png'); await p.evaluate(()=>{ const x=$('bdShot'); if(x) x.remove(); });
+    ok('G10 no page errors (breakdown / build)',errs.length===0,errs.join(' ¦ '));
+    for(const sec of ['gloss','build']){ const nd=await without(p,[sec]); const card=await p.evaluate(()=>{ const d=names.find(dn=>DECKS[dn].some(x=>DIALOG[x[0]])); const c=DECKS[d].find(x=>DIALOG[x[0]]); const st=document.createElement('div'); renderFlashcard(st,d,c,()=>{}); return {btn:!!st.querySelector('.bdbtn'),words:/Words from dialogues|Palabras de los diálogos/.test(renderGrammar())}; });
+      ok('G11 flag on but no '+sec+' data: no Build chip, session item, breakdown button or Words from dialogues',nd.features.script&&!nd.chips.includes('build')&&!nd.quick.includes('build')&&!nd.modes.includes('build')&&!nd.sess.build&&!card.btn&&!card.words,JSON.stringify({nd,card})); }
+    await ctx.close(); }
+  /* ---- read-tab tour step: names only the drills the pack has ---- */
+  { const {ctx,p,errs}=await page(); await apply(p,'es-ko');
+    const full=await p.evaluate(()=>{ tourStep(3); const box=document.querySelector('.tour .tourbox'); const r={key:TOUR[3][2],shown:t(TOUR[3][2])}; tourStep(99); return r; });
+    ok('T1 es-ko tour (read tab): all drills, in Spanish, polite = cortés',/^Reading, listening, sentence building/.test(full.key)&&/^Lectura de hangul, .*cortés ↔ informal y cambios de sonido: elige un ejercicio\.$/.test(full.shown),JSON.stringify(full));
+    await without(p,['numbers']); const part=await p.evaluate(()=>({key:TOUR[3][2],shown:t(TOUR[3][2])}));
+    ok('T2 a pack without the numbers drill: tour names only the drills every course has',/^Listening, typing, role-play/.test(part.key)&&!/números/.test(part.shown),JSON.stringify(part));
+    ok('T3 no page errors (tour)',errs.length===0,errs.join(' ¦ ')); await ctx.close(); }
 }

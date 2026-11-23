@@ -1,6 +1,6 @@
 # Two halves: on-disk format for teaching Korean to any learner language
 
-Status: **frozen v1** (2026-11-22), **v1.1** (2026-11-23: Korean trainers — `roles` / `kinds` / `build` in the target `course.json`, `target/ko/trainer.json`, `native/<n>/ko/trainer.json`, pack fields `ROLES` / `KINDS` / `TRAINER`, features from readiness; see §10). Exported from `src/app.html` sha256 `abc284e5db93332b…` (`target/ko/course.json` `exportedFrom` always holds the current hash). Tools: `tools/halves/` (`export_ko.js`, `assemble.js`, `proof.js`, `validate.js`, `mk_native.js`, `selftest.js`).
+Status: **frozen v1** (2026-11-22), **v1.1** (2026-11-23: Korean trainers — `roles` / `kinds` / `build` in the target `course.json`, `target/ko/trainer.json`, `native/<n>/ko/trainer.json`, pack fields `ROLES` / `KINDS` / `TRAINER`, features from readiness; see §10), **v1.2** (2026-11-23: every trainer wired for packs; `mk_native.js` writes the trainer work file `wT.jsonl`, §9). Exported from `src/app.html` sha256 `abc284e5db93332b…` (`target/ko/course.json` `exportedFrom` always holds the current hash). Tools: `tools/halves/` (`export_ko.js`, `assemble.js`, `proof.js`, `validate.js`, `mk_native.js`, `selftest.js`).
 
 A Korean course is stored as two halves, and `assemble.js` joins them into an ordinary course pack (`LANGAPP_PACKS.course['<n>-ko']`). The runtime needs almost no change.
 
@@ -176,7 +176,7 @@ The validator reports counts per file and **words remaining**: the English words
 The default outfile is `<tmpdir>/course-<n>-ko.js`, never `packs/`. Assembly writes `LANGAPP_PACKS.course['<n>-ko'] = {…}` in the existing pack shape:
 
 * `id`, `native`, `target:'ko'`, `ttsLang:'ko-KR'`, `name`, `brand` and `introWord`;
-* `features` from readiness (§10.4): `pron` and `strokes` always true for Korean, `script` true when `trainer.json` has complete `hangul.mean` / `hangul.ui` / `onboard`; `numbers` / `sound` / `register` / `conj` stay false until their renderers are wired (WP2–WP5);
+* `features` from readiness (§10.4): `pron` and `strokes` always true for Korean, `script` true when `trainer.json` has complete `hangul.mean` / `hangul.ui` / `onboard`; `numbers` / `sound` / `register` / `conj` true when that section is complete (all renderers are wired since WP2–WP5);
 * `GREET`, `TITLES` (`[level, Korean, native]`, as en-ko), `DECKS` (`[ko, rom, meaning, note]` under native deck labels), `GROUPS`, `TAGS` and `DESC` (plus `DESC['My phrases']`);
 * `DIALOG` and `EXAMPLES`, keyed by card Korean;
 * `PATTERNS`, as `[pattern, meaning, example, lessonId]`, the en-ko shape;
@@ -204,7 +204,7 @@ The output passes `node --check`, contains no `</script`, defines exactly one co
 ```
 node tools/halves/export_ko.js            # only when the built-in en-ko changes; ids stay stable
 node tools/halves/proof.js                # must print 0 / 0 differences
-node tools/halves/mk_native.js es         # native/es/ko/work/: w1..w4 + README (what to REWRITE, not translate)
+node tools/halves/mk_native.js es         # native/es/ko/work/: w1..w4 + wT (trainer text) + README (what to REWRITE, not translate)
 …writers fill wN.jsonl "tgt" and wN/lessons/<id>.html…
 node tools/halves/mk_native.js es --merge
 node tools/halves/validate.js es ko       # 0 errors, 0 words remaining
@@ -212,7 +212,7 @@ node tools/halves/assemble.js es ko packs/course-es-ko.js   # the lead decides w
 node tools/halves/selftest.js             # the validator and proof still detect breakage
 ```
 
-`trainer.json` is not split into the `wN.jsonl` work files yet (`mk_native.js` is unchanged while writers are mid-flight on the existing split). Write `native/<n>/ko/trainer.json` directly, section by section, starting from `native/en/ko/trainer.json`; never via `--merge`.
+`mk_native.js` also writes `work/wT.jsonl`: `native/en/ko/trainer.json` flattened, one row per string (`{"f":"trainer","id":"gloss.CONN.그래서","src","tgt"}`; `_` notes, `hangul.alt`, `hangul.defaultMode` and booleans are left out). `--merge` nests the filled rows into `native/<n>/ko/trainer.json` and sets `sound.showGloss: true`; with no filled row it leaves an existing `trainer.json` untouched. `hangul.alt` is authored in `trainer.json` directly (§10.2). Halves whose writers started before this split (es, ceb) keep writing `trainer.json` by hand and never run `--merge` for it.
 
 ## 10 · Korean trainers (`ROLES`, `KINDS`, `TRAINER`)
 
@@ -229,7 +229,7 @@ TRAINER: { hangul:{ mean:{word:gloss…}, alt:{V,L,T,sh,input}, ui:{placeholder,
 ```
 
 * Engine helpers: `TR('a.b')` (value or undefined), `TRF(path, …slots)` (fills `%1`…`%9`), `ROLE(r)` (label only when that deck exists), `roleList('weekGroups')`, `KIND(k, deck)`.
-* Engine readers today: `ROLES` / `KINDS` at every former English deck-name site; `TRAINER.hangul` (drill text, meanings, alternates), `onboard`, `quiz` (the "why" line on `KINDS.grammar` decks), `koui` (tooltip = `romanize(ko) + ' · ' + gloss`), `strokes.replay` (card-back button; none when absent). `gloss` / `build` / `numbers` / `sound` / `register` / `conj` are carried as data; their renderers are wired by WP2–WP6.
+* Engine readers: `ROLES` / `KINDS` at every former English deck-name site; `TRAINER.hangul` (drill text, meanings, alternates), `onboard`, `quiz` (the "why" line on `KINDS.grammar` decks), `koui` (tooltip = `romanize(ko) + ' · ' + gloss`), `strokes.replay` (card-back button; none when absent), `numbers` (hints, counter labels, prompt, placeholder), `sound` (prompt; with `showGloss: true` each rule shows as `name · gloss` in the drill feedback and the card-note tooltip), `register` (prompts and feedback), `conj` (labels, irregular tags, grammar-panel text), `gloss` (the 🔍 sentence breakdown, Build feedback; templates `%1 + %2 = %3` …) and `build` (`extra` sentences, drill text).
 * Slots are positional `%1`…`%9` (braces are forbidden in native text). Keys are the Korean text where the engine table is keyed by Korean (`mean`, `PART`, `CONN`, `koui`, `build.extra`, sound-rule names), otherwise a fixed English slug.
 
 ### 10.2 `native/<n>/ko/trainer.json`
@@ -246,4 +246,4 @@ The shape of `TRAINER`, plus `_about` / `_src` / `_note` / `_new` meta fields th
 
 ### 10.4 Features from readiness
 
-`CF(f)` in the engine is `features[f] && READY[f]()` for a Korean target, and a non-built-in course only gets features whose renderers read `TRAINER` (`TRAINER_WIRED`: today `script`, `pron`, `strokes`; the `build` mode is also gated). Assembly mirrors this (`WIRED` in `assemble.js`), so a pack never ships a flag whose screen would show English. `modeOk(mode)` gates each drill mode (`pick` needs `script`, `build` needs `script` + `gloss` + `build`, `register` / `numbers` / `sound` need their flag).
+`CF(f)` in the engine is `features[f] && READY[f]()` for a Korean target, and a non-built-in course only gets features whose renderers read `TRAINER` (`TRAINER_WIRED`, mirrored by `WIRED` in `assemble.js`: since WP2–WP6 every feature). `READY` requires the whole section (the same key lists as `assemble.js readiness()`), so a pack with a flag but an incomplete section shows no trainer and never English. `modeOk(mode)` gates each drill mode (`pick` needs `script`, `build` needs `script` + `READY.build`, i.e. every `gloss` key and template plus `build.ui` / `build.extra`; `register` / `numbers` / `sound` need their flag). The read-tab tour names the full drill list only when the pack has build, numbers and register.

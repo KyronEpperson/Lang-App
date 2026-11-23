@@ -13,10 +13,10 @@ LANGAPP_PACKS.course['es-ko'] = {
  "features": {
   "script": true,
   "pron": true,
-  "conj": false,
-  "register": false,
-  "numbers": false,
-  "sound": false,
+  "conj": true,
+  "register": true,
+  "numbers": true,
+  "sound": true,
   "strokes": true
  },
  "standard": true,
@@ -13871,7 +13871,15 @@ LANGAPP_PACKS.course['es-ko'] = {
   "Blur romanization in Browse": "Difuminar romanización en Explorar",
   "Show romanization in practice": "Mostrar romanización al practicar",
   "Aa romanization: on": "Aa romanización: activada",
-  "Aa romanization: off": "Aa romanización: desactivada"
+  "Aa romanization: off": "Aa romanización: desactivada",
+  "🎚️ Polite ↔ casual": "🎚️ Cortés ↔ informal",
+  "Polite ↔ casual": "Cortés ↔ informal",
+  "🎚️ Polite ↔ casual drill · 10": "🎚️ Ejercicio cortés ↔ informal · 10",
+  "Reading, listening, sentence building, role-play, numbers, polite ↔ casual — pick a drill.": "Lectura de hangul, comprensión auditiva, construir oraciones, diálogos, números, cortés ↔ informal y cambios de sonido: elige un ejercicio.",
+  "Polite ↔ casual · passed": "Cortés ↔ informal · aprobado",
+  "Polite ↔ casual · 80% to pass": "Cortés ↔ informal · 80% para aprobar",
+  "🎚️ Polite↔casual": "🎚️ Cortés↔informal",
+  "polite↔casual": "cortés↔informal"
  },
  "ROLES": {
   "hangulVowels": "Vocales del hangul",
@@ -14101,6 +14109,247 @@ LANGAPP_PACKS.course['es-ko'] = {
   },
   "strokes": {
    "replay": "↻ orden de trazos"
+  },
+  "numbers": {
+   "hint": {
+    "price": "precio en wones (sinocoreano)",
+    "time": "hora (la hora en nativo, los minutos en sinocoreano): escribe así, 3:30",
+    "phone": "número de teléfono (dígitos, 0 = 공)",
+    "floor": "piso (sinocoreano): B para el sótano",
+    "count": "cantidad (nativo + %1 %2)",
+    "age": "edad (nativo + 살)",
+    "minutes": "minutos (sinocoreano + 분)"
+   },
+   "counter": {
+    "개": "cosas",
+    "명": "personas",
+    "잔": "vasos",
+    "병": "botellas",
+    "마리": "animales",
+    "장": "hojas"
+   },
+   "ui": {
+    "prompt": "🔢 Escucha y escribe el número · %1",
+    "placeholder": "dígitos"
+   }
+  },
+  "sound": {
+   "rules": {
+    "받침 → %1": "la consonante final se pronuncia %1 (al final solo suenan 7 consonantes)",
+    "ㄴ 첨가 → ㄹㄹ": "se añade una ㄴ, que se vuelve ㄹ junto a la otra ㄹ",
+    "ㅎ 탈락": "la ㅎ no se pronuncia entre vocales",
+    "연음": "enlace: la consonante final pasa a la sílaba siguiente",
+    "구개음화": "ㄷ / ㅌ delante de 이 se pronuncian ㅈ / ㅊ",
+    "격음화": "la ㅎ junto a ㄱ ㄷ ㅂ ㅈ las vuelve aspiradas: ㅋ ㅌ ㅍ ㅊ",
+    "경음화": "la consonante siguiente se vuelve tensa",
+    "비음화": "nasalización: ㅂ ㄷ ㄱ se vuelven ㅁ ㄴ ㅇ delante de ㄴ / ㅁ",
+    "유음화": "ㄴ junto a ㄹ: las dos se pronuncian ㄹ",
+    "받침 중화": "la consonante final se reduce a su sonido básico",
+    "ㅢ → 이": "ㅢ que no está al inicio de la palabra se pronuncia 이"
+   },
+   "showGloss": true,
+   "ui": {
+    "prompt": "¿Cómo se pronuncia en realidad?"
+   }
+  },
+  "register": {
+   "toPolite": "Pásalo a cortés (forma con 요)",
+   "toCasual": "Pásalo a informal (반말)",
+   "whyPolite": "informal → cortés: añade 요 (o usa el verbo honorífico)",
+   "whyCasual": "cortés → informal: quita el 요"
+  },
+  "conj": {
+   "labels": {
+    "polite": "presente cortés",
+    "past": "pasado cortés",
+    "future": "futuro",
+    "casual": "informal",
+    "formal": "formal",
+    "kkayo": "¿lo hacemos? (propuesta)",
+    "want": "querer (hacer algo)",
+    "dontDo": "no lo hagas (petición)",
+    "neg": "negativo"
+   },
+   "irregular": {
+    "ㄷ→ㄹ": "ㄷ→ㄹ",
+    "ㅂ→우": "ㅂ→우",
+    "ㅡ drop": "se cae la ㅡ",
+    "르": "르"
+   },
+   "ui": {
+    "empty": "Escribe una forma de diccionario terminada en 다.",
+    "irregular": "irregular: %1",
+    "title": "Conjugador de verbos",
+    "placeholder": "forma de diccionario, p. ej., 먹다",
+    "button": "Conjugar",
+    "tryLine": "Prueba con 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다"
+   }
+  },
+  "gloss": {
+   "PART": {
+    "에서": "en (lugar de la acción) / desde",
+    "하고": "y / con",
+    "한테": "a (persona)",
+    "에게": "a (persona)",
+    "으로": "hacia / por medio de",
+    "까지": "hasta",
+    "부터": "desde (tiempo)",
+    "보다": "que (al comparar)",
+    "처럼": "como",
+    "은": "marcador de tema",
+    "는": "marcador de tema",
+    "이": "marcador de sujeto",
+    "가": "marcador de sujeto",
+    "을": "marcador de objeto",
+    "를": "marcador de objeto",
+    "에": "a / en",
+    "도": "también",
+    "로": "hacia / por medio de",
+    "와": "y / con",
+    "과": "y / con",
+    "만": "solo",
+    "의": "posesivo («de»)",
+    "랑": "con (informal)"
+   },
+   "ENDS": {
+    "주시겠어요": "¿podría…? (petición muy cortés)",
+    "셨어요": "pasado honorífico (-시-)",
+    "으세요": "honorífico / petición cortés",
+    "주세요": "petición: «por favor»",
+    "드립니다": "formal humilde (doy / hago para usted)",
+    "세요": "petición cortés / honorífico",
+    "게요": "voy a… (como promesa)",
+    "까요": "¿lo hacemos? (propuesta)",
+    "래요": "¿quieres…?",
+    "겠습니다": "futuro formal / voluntad",
+    "습니다": "formal",
+    "입니다": "formal «es»",
+    "ㅂ니다": "formal",
+    "네요": "darse cuenta (ligera sorpresa)",
+    "예요": "es (tras vocal)",
+    "이에요": "es (tras consonante)",
+    "해요": "presente cortés (하다)",
+    "어요": "presente cortés",
+    "아요": "presente cortés",
+    "자": "¡vamos a…!",
+    "요": "terminación cortés"
+   },
+   "QW": {
+    "뭐": "qué",
+    "뭐예요": "qué es",
+    "어디": "dónde",
+    "언제": "cuándo",
+    "누구": "quién",
+    "왜": "por qué",
+    "어떻게": "cómo",
+    "얼마": "cuánto",
+    "몇": "cuántos",
+    "어느": "cuál"
+   },
+   "CONN": {
+    "그리고": "y luego",
+    "그래서": "así que",
+    "그런데": "pero",
+    "근데": "pero (informal)",
+    "하지만": "pero",
+    "먼저": "primero",
+    "그다음에": "después",
+    "마지막으로": "por último",
+    "아니면": "o",
+    "그럼": "entonces",
+    "그러면": "entonces",
+    "네": "sí",
+    "아니요": "no",
+    "저는": "en cuanto a mí (저 + 는)",
+    "저": "yo (humilde)",
+    "나": "yo (informal)",
+    "너": "tú (informal)",
+    "우리": "nosotros / nuestro",
+    "같이": "juntos",
+    "너무": "demasiado / muy",
+    "진짜": "de verdad",
+    "정말": "de verdad",
+    "조금": "un poco",
+    "좀": "un poco / por favor",
+    "지금": "ahora",
+    "오늘": "hoy",
+    "내일": "mañana",
+    "어제": "ayer",
+    "안": "no",
+    "못": "no poder",
+    "잘": "bien",
+    "또": "otra vez",
+    "늦게": "tarde",
+    "빨리": "rápido",
+    "다": "todo",
+    "많이": "mucho",
+    "아직": "todavía / aún",
+    "이거": "esto",
+    "그거": "eso",
+    "저거": "aquello (lejos)",
+    "여기": "aquí",
+    "거기": "ahí",
+    "저기": "allá"
+   },
+   "COUNT": {
+    "개": "cosas",
+    "명": "personas",
+    "잔": "vasos",
+    "병": "botellas",
+    "마리": "animales",
+    "권": "libros",
+    "장": "hojas",
+    "살": "años (de edad)",
+    "시간": "horas",
+    "번": "veces",
+    "분": "minutos / personas (cortés)",
+    "시": "hora (en punto)",
+    "원": "wones"
+   },
+   "tpl": {
+    "question": "%1 (palabra interrogativa)",
+    "counter": "contador · %1",
+    "number": "número %1",
+    "jiMa": "no lo hagas (지 마)",
+    "adoDwaeyo": "¿se puede? (-아/어도 돼요)",
+    "myeonAnDwaeyo": "no se puede (-(으)면 안 돼요)",
+    "doEvenIf": "verbo + 도 (aunque)",
+    "jiStem": "raíz verbal + 지",
+    "past": "verbo · pasado (았/었어요)",
+    "particleYo": "%1 + %2 = %3 + 요",
+    "questionYo": "%1 + 요 (cortés)",
+    "verb": "verbo · %1",
+    "particle": "%1 + %2 = %3",
+    "digits": "número",
+    "word": "sustantivo / palabra"
+   }
+  },
+  "build": {
+   "extra": {
+    "어제 친구를 만났어요": "Ayer me vi con un amigo",
+    "먼저 카페에 갔어요": "Primero fuimos a un café",
+    "그리고 커피를 마셨어요": "Y tomamos café",
+    "그다음에 영화를 봤어요": "Después vimos una película",
+    "그래서 집에 늦게 왔어요": "Así que llegué tarde a casa",
+    "지난 주말에 뭐 했어요": "¿Qué hiciste el fin de semana pasado?",
+    "아까 점심 먹었어요": "Hace un rato almorcé",
+    "그런데 영화가 너무 길었어요": "Pero la película fue demasiado larga",
+    "매운 거 안 먹어요": "No como comida picante",
+    "매운 거 못 먹어요": "No puedo comer picante",
+    "한국어 할 수 있어요": "¿Sabes hablar coreano?",
+    "조금 할 수 있어요": "Un poco, sí",
+    "오늘은 못 가요": "Hoy no puedo ir",
+    "오늘 운동 안 해요": "Hoy no hago ejercicio",
+    "잘 모르겠어요": "No sé bien",
+    "길을 몰라요": "No sé el camino",
+    "지금 갈 수 없어요": "Ahora no puedo ir",
+    "커피 안 마셔요": "No tomo café"
+   },
+   "ui": {
+    "prompt": "toca las palabras en orden",
+    "answer": "Respuesta",
+    "notQuite": "No del todo"
+   }
   }
  }
 };

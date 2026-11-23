@@ -289,6 +289,56 @@
       "name": "Compliments",
       "group": "Watch out",
       "desc": "Parabéns, muito bem, and the informal fixe."
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Words people flirt with in Portugal, phrases built from them, asking someone out, and kind ways to say no."
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with o or a."
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the eu form."
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used describing words, with the feminine form."
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: now, here, always, very."
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "I, you, me, this, which, nobody: the useful set, tu first."
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "de, em, a, para, com, por, and the multi-word ones."
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "Joining words: if, while, so, than, as soon as."
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What people in Portugal really exclaim: pronto, pois é, ai, boa."
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Articles and determiners, numbers, days and months."
     }
   ],
   "titles": [

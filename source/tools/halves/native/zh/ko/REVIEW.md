@@ -77,7 +77,7 @@ These words appear with their hanja: 化妆室 화장실, 工夫 공부, 豫约 
 5. 안녕히 계세요: is 「再见（对留下的人说）」 natural enough, and is the hedged 请留步 aid in meet.html acceptable?
 6. 미세먼지 = 雾霾: acceptable for Mainland readers?
 7. texting.html: are 233 / QAQ / 呜呜 dated? (The table uses 哈哈, 嘿嘿 and 呜呜.) Is 「微信不显示对方读没读」 phrased well?
-8. office.html titles: 대리 = 资深职员（一般是第一级管理职，各公司不同）, 차장 / 부장 = 副总监 / 部门负责人, 과장 = 经理. Would a Chinese office worker put it this way?
+8. office.html titles and the new false-friend sentence (代理 / 部长 hanja): 대리 = 资深职员（一般是第一级管理职，各公司不同）, 차장 / 부장 = 副总监 / 部门负责人, 과장 = 经理. Would a Chinese office worker put it this way?
 9. Work email: 您好 / 这次联系您 / 麻烦您确认一下 / Kii 敬上. Is this the right register?
 10. The 수고 family glosses: all 辛苦了 with role notes. Is 수고하세요 = 辛苦了 natural when *you* are the one leaving?
 11. 礼貌体 / 正式体 / 半语 / 尊敬形, and the new table headers 「正式 / 尊敬」 (meet) and 「更客气（尊敬形）」 (plans).

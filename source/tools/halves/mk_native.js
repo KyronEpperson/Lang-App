@@ -9,6 +9,8 @@
                     "rw" = written for an English reader (sound comparisons, English grammar contrasts): REWRITE for the new reader, do not translate.
      wN/lessons/<id>.src.html   the English lesson body to work from;   wN/lessons/<id>.html   your body (starts empty)
      README.md      what to rewrite rather than translate, the rules every writer keeps, and who has what (with word counts).
+     wT.jsonl       the Korean trainers' text (native/en/ko/trainer.json flattened, one writer): {"f":"trainer","id":"gloss.CONN.그래서","src":English,"tgt":""}; --merge nests the
+                    filled rows into native/<n>/ko/trainer.json (only when at least one row is filled; hangul.alt is authored there directly).
    HALVES_DIR=<dir> works on another copy. Format: docs/HALVES-SPEC.md */
 'use strict';
 const fs = require('fs'), path = require('path');
@@ -33,7 +35,7 @@ const RW = [
   [/\blike (the )?['"‘“]?[a-z]+['"’”]? in ['"‘“]?[a-z]/i, 'English sound comparison ("like the x in …")'],
   [/\b(sounds?|said|pronounced) like ['"‘“]?[a-z]+['"’”]?(\W|$)/i, 'English sound comparison ("sounds like …")'],
   [/\((uh|oo|ee|ah|eh|ay|aw)\)/, 'English-spelling sound hint in brackets'],
-  [/\b(drill|trainer|conjugator|stroke order|Tap a letter|replay)\b/i, 'points at an app feature this course turns off (Hangul/number/conjugation trainers, drills)'],
+  [/\b(drill|trainer|conjugator|stroke order|Tap a letter|replay)\b/i, 'points at an app trainer or drill: these exist only once the trainer text (wT.jsonl) is written; check the feature is on before keeping the mention'],
   [/\b(a|an|the)\b.{0,20}\bno (articles|a\/the)|\bno a\/the\b/i, 'English article contrast']
 ];
 const REWRITE_LESSONS = { hangul: 'vowel/consonant table glossed with English sounds (eo (uh), u (oo), i (ee))', 'sound-changes': 'explains spelling vs sound with English respellings', nouns: 'built on "no a/the, no plural -s"', isseoyo: 'the "is" table contrasts English be with 이에요/있어요', verbbasics: 'English infinitive "to …" framing of the dictionary form', sov: '"English is SVO" contrast throughout', particles: 'particles explained against English prepositions/word order', numbers: 'English counting comparisons', 'pronouns-questions': 'English pronoun/question-word contrasts' };
@@ -78,13 +80,16 @@ function make() {
       ls.length ? 'lessons ' + ls[0].n + '–' + ls[ls.length - 1].n + ' (' + ls[0].lesson + ' … ' + ls[ls.length - 1].lesson + '): bodies + titles + example glosses + checks + practice' : null, us.some(u => u.name.startsWith('sentence ')) ? 'unused example glosses' : null].filter(Boolean).join('; ');
     plan.push({ name, desc, rows: rows.length, pre: rows.filter(r => r.pre).length, rw: rows.filter(r => r.rw).length, words: us.reduce((x, u) => x + u.words, 0), bodyWords: us.reduce((x, u) => x + (u.bodyWords || 0), 0), lessons });
   });
+  /* Korean trainers: native/en/ko/trainer.json flattened into its own work file (one writer); hangul.alt / defaultMode are authored, not translated, and booleans stay as in English */
+  const trRows = trainerRows(); if (trRows.length) L.writeJSONL(path.join(WK, 'wT.jsonl'), trRows);
   /* skeleton native half: course.json + empty ui.json (rows arrive with --merge) */
   if (!fs.existsSync(path.join(N, 'course.json'))) L.writeJSON(path.join(N, 'course.json'), { native: nat, name: '', brand: en.course.brand });
   if (!fs.existsSync(path.join(N, 'ui.json'))) L.writeJSON(path.join(N, 'ui.json'), {});
-  fs.writeFileSync(path.join(WK, 'README.md'), readme(plan));
+  fs.writeFileSync(path.join(WK, 'README.md'), readme(plan) + trainerReadme(trRows));
   L.writeJSON(path.join(WK, 'plan.json'), plan);
   console.log('work files in ' + path.relative(L.ROOT, WK));
   plan.forEach(p => console.log('  ' + p.name + '  ' + String(p.words).padStart(5) + ' words (' + p.bodyWords + ' in lesson bodies)  ' + String(p.rows).padStart(4) + ' rows, ' + p.pre + ' prefilled, ' + p.rw + ' rewrite-flagged  · ' + p.desc));
+  if (trRows.length) console.log('  wT  ' + String(trRows.reduce((a, r) => a + (r.pre ? 0 : L.words(r.src)), 0)).padStart(5) + ' words  ' + String(trRows.length).padStart(4) + ' rows, ' + trRows.filter(r => r.pre).length + ' prefilled  · Korean trainers (trainer.json)');
 }
 
 function merge() {
@@ -109,6 +114,7 @@ function merge() {
   L.writeJSON(path.join(N, 'course.json'), course);
   fs.readdirSync(WK).filter(f => /^w\d+$/.test(f)).forEach(w => { const d = path.join(WK, w, 'lessons'); if (!fs.existsSync(d)) return; fs.readdirSync(d).filter(f => f.endsWith('.html') && !f.endsWith('.src.html')).forEach(f => { const h = fs.readFileSync(path.join(d, f), 'utf8'); if (!h.trim()) return; fs.mkdirSync(path.join(N, 'lessons'), { recursive: true }); fs.writeFileSync(path.join(N, 'lessons', f), h); bodies++; }); });
   console.log('merged into ' + path.relative(L.ROOT, N) + ': ' + filled + ' fields filled, ' + empty + ' still empty, ' + bodies + ' lesson bodies' + (bad.length ? '\n  ' + bad.join('\n  ') : ''));
+  mergeTrainer();
   console.log('next: node tools/halves/validate.js ' + nat + ' ko');
 }
 
@@ -148,12 +154,50 @@ These were built on English. A ${lang} reader needs the point made from **their*
 * **Loanwords "from English"** (컴퓨터, 커피, 아이스 아메리카노 …): say what the word comes from in terms a ${lang} reader knows. "Konglish" jokes need a new angle.
 * **Lesson passages built on English contrasts:**
 ${Object.entries(REWRITE_LESSONS).map(([id, why]) => `  * \`${id}\`: ${why}.`).join('\n')}
-  * Mentions of app features this course does not have (all trainers are off: no Hangul, number or conjugation trainer, no sound-change drill): ${featureRefs().map(x => '`' + x + '`').join(', ') || 'none found'}. Drop them or point to Lessons / Practice / Review instead. Name app tabs with the words the ${lang} interface uses.
+  * Mentions of app trainers (Hangul, number and conjugation trainers, sound-change, polite ↔ casual and Build drills): ${featureRefs().map(x => '`' + x + '`').join(', ') || 'none found'}. They exist only when the trainer text (\`wT.jsonl\`, below) is written for this course; until then drop them or point to Lessons / Practice / Review instead. Name app tabs with the words the ${lang} interface uses.
   * Also: any \`<td>\` that glosses a vowel with an English spelling (\`eo (uh)\`, \`u (oo)\`, \`i (ee)\`), and the rows flagged \`rw\` in your file.
 * **Grammar contrasts:** "English is SVO", "Korean has no a/the and no plural -s", "English uses 'is' for both" (이에요 vs 있어요), "to + verb" for the dictionary form, and English prepositions as the model for particles. Restate each against ${lang} grammar. Where ${lang} works like Korean (for example verb-final order, no articles, or topic marking), say so: that helps the learner.
 * **Romanisation caveat (Revised Romanization).** The romanisation under every Korean line is the official Revised Romanization, written for English-style reading. It is shared by every course and you cannot change it. Readers of other languages misread some letters, so the first lessons must say how to read them **in ${lang}**:
   * For Spanish readers: **j** is like the English *j* (or the *y* of Rioplatense *yo*), never the Spanish *jota*. **h** is a light breath, never silent. **eo** is one open vowel (close to the *o* of Spanish *por*, said with relaxed lips). **eu** is one vowel, said like *u* with the lips spread. **ae** and **e** both sound like the Spanish *e*. **ch** is like Spanish *ch*. Doubled letters (**kk, tt, pp, ss, jj**) are tense sounds, not long ones.
   * Put this in the \`hangul\` and \`sound-changes\` bodies, and in the Hangul deck descriptions.
 * **Culture and examples:** names and places (Kii, 미국 "the US", 미국에서 왔어요 "I'm from the US") stay in the Korean half. Your gloss may say "I'm from the US" exactly. If a lesson tells the learner to substitute their own country, name a country that fits a ${lang} reader in the prose only.
+`;
+}
+
+/* ---------- Korean trainers: native/en/ko/trainer.json <-> work/wT.jsonl (docs/TRAINERS-PLAN.md §5.4, HALVES-SPEC §10.2) ---------- */
+/* one row per English trainer string; the id is the dotted key path (the validator addresses trainer keys the same way). Skipped: _notes, hangul.alt and hangul.defaultMode (authored per language), booleans (sound.showGloss: merge sets it true) */
+function trainerRows() {
+  const ET = en.trainer; if (!ET || typeof ET !== 'object') return [];
+  const out = [];
+  const walk = (o, p) => Object.keys(o).forEach(k => { if (k[0] === '_') return; const q = p ? p + '.' + k : k; if (q === 'hangul.alt' || q === 'hangul.defaultMode') return; const v = o[k];
+    if (v && typeof v === 'object' && !Array.isArray(v)) return walk(v, q);
+    if (typeof v !== 'string') return;
+    if (k.includes('.')) throw new Error('mk_native: trainer key with a dot cannot be addressed: ' + q);
+    const r = { f: 'trainer', id: q, src: v, tgt: '' }; if (!/[A-Za-z]/.test(v)) { r.tgt = v; r.pre = 1; } out.push(r); });
+  walk(ET, ''); return out;
+}
+/* fold filled wT rows into native/<n>/ko/trainer.json: nothing is written when no row is filled (an existing trainer.json stays as it is) */
+function mergeTrainer() {
+  const f = path.join(WK, 'wT.jsonl'); if (!fs.existsSync(f)) return;
+  const rows = L.readJSONL(f).filter(r => r.f === 'trainer' && r.tgt != null && String(r.tgt).trim());
+  if (!rows.some(r => !r.pre)) { console.log('trainer: wT.jsonl has no filled rows; ' + path.relative(L.ROOT, path.join(N, 'trainer.json')) + ' left as it is'); return; }
+  const F = path.join(N, 'trainer.json'), T = fs.existsSync(F) ? L.readJSON(F) : {}; let n = 0; const bad = [];
+  rows.forEach(r => { const ks = String(r.id).split('.'); let ref = en.trainer; for (const k of ks) ref = ref && typeof ref === 'object' ? ref[k] : undefined; if (typeof ref !== 'string') { bad.push('unknown trainer key ' + r.id); return; }
+    let o = T; ks.slice(0, -1).forEach(k => { if (!o[k] || typeof o[k] !== 'object') o[k] = {}; o = o[k]; }); o[ks[ks.length - 1]] = String(r.tgt); n++;
+    if (Array.isArray(r._waive)) o._waive = [...new Set((o._waive || []).concat(r._waive))]; if (r._note) o._note = r._note; });
+  if (T.sound && typeof T.sound === 'object' && typeof T.sound.showGloss !== 'boolean') T.sound.showGloss = true; /* packs show the rule glosses (en-ko keeps the Korean names only) */
+  L.writeJSON(F, T);
+  console.log('trainer: ' + n + ' strings merged into ' + path.relative(L.ROOT, F) + (bad.length ? '\n  ' + bad.join('\n  ') : '') + ' (author hangul.alt there directly; a section with any key missing fails validate.js)');
+}
+function trainerReadme(rows) {
+  if (!rows.length) return '';
+  return `
+## Trainer text (\`wT.jsonl\`, one writer, ${rows.reduce((a, r) => a + (r.pre ? 0 : L.words(r.src)), 0)} words)
+The Korean trainers (Hangul drill, onboarding, numbers, sound changes, polite ↔ casual, conjugator, sentence breakdown, Build drill) show these strings. \`id\` is the key path in \`native/en/ko/trainer.json\`; fill \`tgt\` like the other work files.
+* \`%1\`…\`%9\` are slots the app fills (a word, a gloss, a number). Keep every slot; you may move it. Never use braces.
+* Keep every Korean piece exactly (\`요\`, \`반말\`, \`-아/어도 돼요\`, rule names such as \`연음\`).
+* \`hangul.mean.*\` is the meaning of each Hangul drill word; \`gloss.*\` are the short labels of the 🔍 sentence breakdown; \`build.extra.*\` glosses one Build-drill sentence each.
+* Each section switches its trainer on only when **every** string in it is filled; a half-filled section fails \`validate.js\`.
+* Not in this file: \`hangul.alt\` (the spellings your learners type for Korean sounds, authored by the lead in \`trainer.json\`; see HALVES-SPEC §10.2) and \`sound.showGloss\` (set to true by the merge).
 `;
 }

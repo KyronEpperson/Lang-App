@@ -72,8 +72,9 @@ const FILE = path.resolve(process.argv[2] || path.join(__dirname, '../../korean-
     out.ctr = C.map(([inp, acc, want]) => [inp, pracMatch(inp, acc) === !!want]).filter(x => !x[1]).map(x => x[0]);
     out.loose = pracMatch('저 학생이에요', ['저는 학생이에요'], false, true) && !pracMatch('저 학생이에요', ['저는 학생이에요'], false, false);
     /* romanize */
-    const R = { '스물여덟': 'seumullyeodeol', '꽃잎': 'kkonnip', '색연필': 'saengnyeonpil', '한여름': 'hannyeoreum', '십육': 'simnyuk', '맛없어요': 'madeopseoyo', '맛없다': 'madeopda', '밟다': 'bapda', '밟아요': 'balbayo', '맛있어요': 'masisseoyo', '감사합니다': 'gamsahamnida', '한국어': 'hangugeo', '백화점': 'baekwajeom' };
+    const R = { '스물여덟': 'seumullyeodeol', '꽃잎': 'kkonnip', '색연필': 'saengnyeonpil', '한여름': 'hannyeoreum', '십육': 'simnyuk', '맛없어요': 'madeopseoyo', '맛없다': 'madeopda', '밟다': 'bapda', '밟아요': 'balbayo', '맛있어요': 'masisseoyo', '감사합니다': 'gamsahamnida', '한국어': 'hangugeo', '백화점': 'baekwajeom', '괜찮습니다': 'gwaenchanseumnida', '좋습니다': 'joseumnida', '괜찮아요': 'gwaenchanayo' }; /* RR writes no tensing (WP7): ㅎ + ㅅ stays s */
     out.rom = Object.entries(R).filter(([k, v]) => romanize(k) !== v).map(([k, v]) => k + ' ' + romanize(k) + ' ≠ ' + v);
+    if (pronounce('괜찮습니다')[0] !== '괜찬씀니다') out.rom.push('pronounce(괜찮습니다) must keep the tensing [괜찬씀니다] for the pronunciation note: ' + pronounce('괜찮습니다')[0]);
     /* sound drill */
     soundPool = null; renderSoundQ(document.createElement('div'), 1, () => {}); const pool = new Map(soundPool.map(x => [x[0], x[1]]));
     const want = { '미쳤다': '미쳗따', '진짜 웃겨': '진짜 욷껴', '학교': '학꾜', '잘 먹겠습니다': '잘 먹껟씀니다', '괜찮아요': '괜차나요', '정말요': '정말료' };

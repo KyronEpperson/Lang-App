@@ -1,6 +1,6 @@
 # Korean trainers for every learner language: plan
 
-Status: **WP0a, WP0b, WP0c, WP0d and WP1 done** (2026-11-23); WP2–WP8 open. What is built, and what the open packages can rely on: see **Done** at the end. The design below is unchanged; line numbers in it are from the 2026-11-22 snapshot.
+Status: **WP0a–WP0d, WP1–WP6 done, WP7 remainder done** (2026-11-23); WP8 open. What is built: see the two **Done** sections at the end. The design below is unchanged; line numbers in it are from the 2026-11-22 snapshot.
 
 Sources read:
 - `src/app.html`, snapshot sha256 `38ad6749…`. Line numbers below are **≈** values from that snapshot, because another agent is editing the file. Code is quoted so each spot can be found by search.
@@ -676,7 +676,7 @@ Seeded mulberry32 per item, frozen clock (2026-11-20 10:00 UTC), en-US, fresh st
 
 ### Left open
 
-* WP2–WP8.
+* WP2–WP8 (since done except WP8: see the next section).
 * es-reviewer confirmation of the alternates and of the 101 meanings. 영어 is «inglés» by meaning; the esko scans allow that word only as card or drill content.
 * The `trainer.json` split in `mk_native.js`.
 * B9 (en ㅓ `u`) and B10 (English fronts in the target half), as planned.
@@ -686,3 +686,38 @@ Seeded mulberry32 per item, frozen clock (2026-11-20 10:00 UTC), en-US, fresh st
   * Existing learners who went through the generic onboarding have no `read` answer. `canRead` withholds their reading and listening session items until lesson 1 is done or 8 consonants are learned, as for en-ko.
   * `TOUR[3]` (a translated key) still names the numbers and polite↔casual drills, which es-ko gets only with WP2 / WP4.
 
+
+## Done (2026-11-23): WP2–WP6, the WP7 remainder, and the foundation leftovers
+
+All five trainers run for packs. `src/app.html` `TRAINER_WIRED` and `assemble.js` `WIRED` now list every feature (`build` is a mode, not a flag: `modeOk('build')` needs `script` + `READY.build`). On the final build: `node tools/tests/trainers-golden.js` **identical** after every package (never re-recorded), `node tools/halves/proof.js` 0 / 0, `validate.js es ko` and `en ko` 0 errors, `./build.sh` verify_build OK, harness 100 guards, `esko.js` (100 checks), `kograde.js`, `voicetest.js`, `flagcheck.js`, `site/lazy.js`, `halves/selftest.js` (36 cases). es-ko ships `features` script, pron, conj, register, numbers, sound, strokes, plus the Build drill.
+
+### Engine (`src/app.html`)
+* Helpers next to `TRF`: `trHas(path, keys)` (a section has a non-empty string for every key) and `trH(s)` (trainer text into HTML; escapes `&` and `<` only, so en-ko output is byte-identical).
+* `READY` is as strict as `assemble.js readiness()`: numbers = 7 hints + 6 counters + ui; sound = `ui.prompt` and, when `showGloss`, all 11 rule glosses; register = 4 strings + ≥ 4 pairs; conj = 9 labels + 4 irregular tags + 6 ui strings; new `READY.build` = every `PART` / `ENDS` / `QW` / `CONN` / `COUNT` key, the 15 templates, `build.ui` and `build.extra` (memoised per gloss object).
+* **WP2 numbers:** `numItem` hints `TRF('numbers.hint.<kind>')`, the counter label from `TRAINER.numbers.counter` (same `Math.random` use: one pick over the same 6 counters); `renderNumberQ` prompt `TRF('numbers.ui.prompt', hint)` and placeholder.
+* **WP3 sound:** new `soundRule(name)` (rule name + ` · ` + gloss when `TRAINER.sound.showGloss`; keys with `%1` such as `받침 → %1` are matched as patterns). `renderSoundQ` prompt and feedback, and the `pronNote` tooltip use it; the card note itself keeps the Korean names. en-ko has `showGloss:false`, so nothing changes there.
+* **WP4 register:** `renderRegisterQ` prompt and feedback from `TRAINER.register`. The Practice button, run header and result title are interface keys (es overrides in `ui.json`, below).
+* **WP5 conjugator:** `cjHTML` labels, irregular tags (`TRAINER.conj.irregular` maps the engine tag) and the empty hint; `renderGrammar` draws the conjugator panel only when `CF('conj')`, with title, placeholder, button and try line from `TRAINER.conj.ui`.
+* **WP6 breakdown + Build:** new `breakdownTok(sentence)` returns `{w, k (kind), b (dictionary base, null = not listed), r (gloss)}`; matching still uses the engine tables, the text comes from `TRAINER.gloss` templates. `breakdown()` keeps its `[word, gloss]` shape (the golden records it). `breakdownHTML` marks `.bd` `data-noi18n` on packs. `dialogVocab` reads `k` / `b` and no longer parses gloss text (B3; the en-ko list is unchanged). `buildSentences` takes the extra sentences from `TRAINER.build.extra`; `renderBuildQ` prompt / Answer / Not quite from `TRAINER.build.ui`. The dialogue block's `🔊 dialogue` and `🔍 break it down` buttons go through `i18nT` (they sit inside `.dlg`, which the DOM translator skips).
+* **Tour leftover:** `applyCourseUi` gives a pack the full read-tab tour text only when it has build, numbers and register; otherwise the text that names only the drills every course has.
+* **WP7 remainder:** `koRespell()` already covered ㄴ-insertion (스물여덟, 꽃잎, 색연필, 한여름, 십육), 맛없/멋없 and 밟-. What remained: `pronounce` tensed ㅎ / ㄶ / ㅀ + ㅅ unconditionally, so `romanize('괜찮습니다')` gave `gwaenchansseumnida`. New 4th argument `rr` (romanisation mode) keeps ㅅ; only `romanize` passes it, so `pronNote` and the sound drill still say [괜찬씀니다]. No card front contains the pattern, so the golden did not change (`kograde.js` checks 괜찮습니다 / 좋습니다 / 괜찮아요 and that `pronounce` keeps the tensing).
+
+### Halves
+* `assemble.js`: `WIRED` all true.
+* `mk_native.js`: `native/en/ko/trainer.json` is flattened into its own work file `work/wT.jsonl` (`{"f":"trainer","id":"gloss.CONN.그래서","src","tgt"}`; skips `_` notes, `hangul.alt`, `hangul.defaultMode` and booleans; strings without Latin letters are prefilled), with a README section. `--merge` nests the filled rows into `trainer.json` (sets `sound.showGloss: true`), and leaves an existing `trainer.json` alone when no row is filled. Not run for es or ceb.
+* `selftest.js`: 9 new breakage cases (counter dropped, `%1` lost in a sound rule, `showGloss` not boolean, 요 dropped from a register line, irregular tag altered, braces in a template, HTML in a label, unknown Build sentence, emptied COUNT gloss) and a `wT.jsonl` round-trip case.
+
+### Spanish (`tools/halves/native/es/ko/`)
+* `trainer.json` gained `numbers`, `sound` (`showGloss: true`), `register`, `conj`, `gloss` and `build` (≈450 words). 11 of 11 sections complete; the 9 "words remaining" are strings equal to the English (*formal*, *no*, *irregular: %1*).
+* `ui.json` gained 8 overrides, because the dictionary says *formal ↔ informal* and the course glossary says polite = *cortés*: `🎚️ Polite ↔ casual`, `🎚️ Polite↔casual`, `Polite ↔ casual`, `polite↔casual`, `🎚️ Polite ↔ casual drill · 10`, `Polite ↔ casual · passed`, `Polite ↔ casual · 80% to pass`, and the read-tab tour line (which also adds *cambios de sonido*).
+
+### Tests
+* `esko.js`: H1 now expects exactly the drills the pack has data for; E12 runs on a clone without `sound` / `numbers`; `DRILL_EN` lists the trainers' English literals; `page()` reloads when Chromium sniffs the charset-less file:// build as windows-1252 (a pre-existing flake). New `drillTests`: N1–N7 numbers, S1–S8 sound (S4b: a `%1` rule key), R1–R9 register (incl. the 10-item Practice run to its result line), C1–C7 conjugator, G1–G11 breakdown / Build / Words from dialogues, T1–T3 tour. Each checks Spanish prompts and feedback, a right answer accepted and a wrong one rejected, no English on screen, and a clone with that section removed shows no trainer. Screenshots (390 px): `review-shots/es-ko-{numbers,sound,register,conjugator,build,breakdown}-390.png`.
+
+### Left open
+* **WP8** (phrase-level `pronounce`, tensing after -ㄹ modifiers, ㄴ-insertion before 요, station names such as 강남역 in `romanize`): needs native-speaker review. `soundSafe()` keeps such phrases out of the **drill pool** only. The card-back `pronNote` (now on in es-ko: 214 of 641 cards show one) calls `pronounce()` per word without `koRespell`, tensing or that filter, so es-ko card backs show the same known-wrong notes as en-ko (e.g. 잘 먹겠습니다 without 경음화). Fixing it re-records the golden.
+* `export_ko.js` was not re-run (it rewrites files the content agent regenerates), so `target/ko/course.json` `exportedFrom` still names the previous `src/app.html` hash; run it after the merge.
+* The built file has no `<meta charset>`; Chromium now and then reads a file:// load as windows-1252 (`Invalid regular expression … Range out of order`). Only esko's `page()` reloads on it; in other Playwright tests that error means rerun, not regression.
+* es-reviewer pass over the new Spanish (numbers hints, rule explanations, breakdown labels, Build glosses).
+* The run header `Register · {n}/10` is an interface pattern (es: *Registro*); `UI` overrides only exact strings.
+* Found, not fixed (content, outside the trainers): target patterns `ko.p034` ("Sino numbers") and "native numbers + counter" have English in their Korean field (they show in the es-ko grammar index and search); `buildSentences` keeps card fronts such as `아버님 / 어머님`, so `/` becomes a Build tile (en-ko too; fixing it changes the golden); the grammar search replaces the first `.gidx`, which is the Words-from-dialogues list when that panel shows (en-ko too).
