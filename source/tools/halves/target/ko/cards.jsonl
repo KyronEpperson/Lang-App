@@ -68,7 +68,7 @@
 {"id":"ko.c0068","deck":"ko.d.survival-phrases","ko":"잘 먹겠습니다","rom":"jal meokgetseumnida"}
 {"id":"ko.c0069","deck":"ko.d.survival-phrases","ko":"괜찮아요","rom":"gwaenchanayo"}
 {"id":"ko.c0070","deck":"ko.d.survival-phrases","ko":"천천히 말해 주세요","rom":"cheoncheonhi malhae juseyo"}
-{"id":"ko.c0071","deck":"ko.d.survival-phrases","ko":"한국어 잘 못해요","rom":"hangugeo jal mothaeyo"}
+{"id":"ko.c0071","deck":"ko.d.survival-phrases","ko":"한국어 잘 못해요","rom":"hangugeo jal motaeyo"}
 {"id":"ko.c0072","deck":"ko.d.survival-phrases","ko":"잠시만요","rom":"jamsimanyo"}
 {"id":"ko.c0073","deck":"ko.d.introductions","ko":"저는 ___이에요 / 예요","rom":"jeoneun ___ ieyo / yeyo"}
 {"id":"ko.c0074","deck":"ko.d.introductions","ko":"이름이 뭐예요?","rom":"ireumi mwoyeyo?"}
@@ -139,7 +139,7 @@
 {"id":"ko.c0139","deck":"ko.d.cafe-convenience-store","ko":"전자레인지 어디 있어요?","rom":"jeonjareinji eodi isseoyo?"}
 {"id":"ko.c0140","deck":"ko.d.cafe-convenience-store","ko":"뜨거운 물 있어요?","rom":"tteugeoun mul isseoyo?"}
 {"id":"ko.c0141","deck":"ko.d.cafe-convenience-store","ko":"봉투 필요하세요?","rom":"bongtu piryohaseyo?"}
-{"id":"ko.c0142","deck":"ko.d.cafe-convenience-store","ko":"1+1 이에요?","rom":"il peureoseu il ieyo?"}
+{"id":"ko.c0642","deck":"ko.d.cafe-convenience-store","ko":"1+1이에요?","rom":"won peulleoseu wonieyo?"}
 {"id":"ko.c0143","deck":"ko.d.cafe-convenience-store","ko":"따로 담아 주세요","rom":"ttaro dama juseyo"}
 {"id":"ko.c0144","deck":"ko.d.cafe-convenience-store","ko":"카드로 할게요","rom":"kadeuro halgeyo"}
 {"id":"ko.c0145","deck":"ko.d.numbers-in-the-wild","ko":"4,500원","rom":"sacheonobaek won"}
@@ -150,7 +150,7 @@
 {"id":"ko.c0150","deck":"ko.d.numbers-in-the-wild","ko":"오후 2시","rom":"ohu du si"}
 {"id":"ko.c0151","deck":"ko.d.numbers-in-the-wild","ko":"오전 9시 30분","rom":"ojeon ahop si samsip bun"}
 {"id":"ko.c0152","deck":"ko.d.numbers-in-the-wild","ko":"5분만요","rom":"obunmanyo"}
-{"id":"ko.c0153","deck":"ko.d.numbers-in-the-wild","ko":"2호선","rom":"iho seon"}
+{"id":"ko.c0153","deck":"ko.d.numbers-in-the-wild","ko":"2호선","rom":"ihoseon"}
 {"id":"ko.c0154","deck":"ko.d.numbers-in-the-wild","ko":"4번 출구","rom":"sabeon chulgu"}
 {"id":"ko.c0155","deck":"ko.d.numbers-in-the-wild","ko":"2명이요","rom":"du myeongiyo"}
 {"id":"ko.c0156","deck":"ko.d.numbers-in-the-wild","ko":"맥주 3병","rom":"maekju se byeong"}
@@ -530,7 +530,7 @@
 {"id":"ko.c0530","deck":"ko.d.dating-deeper","ko":"너 되게 다정해","rom":"neo doege dajeonghae"}
 {"id":"ko.c0531","deck":"ko.d.dating-deeper","ko":"네 웃음소리가 좋아","rom":"ne useumsoriga joa"}
 {"id":"ko.c0532","deck":"ko.d.dating-deeper","ko":"같이 있으면 편해","rom":"gachi isseumyeon pyeonhae"}
-{"id":"ko.c0533","deck":"ko.d.dating-deeper","ko":"미안해, 내가 잘못했어","rom":"mianhae, naega jalmothaesseo"}
+{"id":"ko.c0533","deck":"ko.d.dating-deeper","ko":"미안해, 내가 잘못했어","rom":"mianhae, naega jalmotaesseo"}
 {"id":"ko.c0534","deck":"ko.d.dating-deeper","ko":"화 풀어","rom":"hwa pureo"}
 {"id":"ko.c0535","deck":"ko.d.dating-deeper","ko":"걱정하지 마, 내가 있잖아","rom":"geokjeonghaji ma, naega itjana"}
 {"id":"ko.c0536","deck":"ko.d.dating-deeper","ko":"오늘 데이트 어땠어?","rom":"oneul deiteu eottaesseo?"}
@@ -568,7 +568,7 @@
 {"id":"ko.c0568","deck":"ko.d.small-talk","ko":"또 봐요","rom":"tto bwayo"}
 {"id":"ko.c0569","deck":"ko.d.small-talk","ko":"안녕히 가세요","rom":"annyeonghi gaseyo"}
 {"id":"ko.c0570","deck":"ko.d.small-talk","ko":"안녕히 계세요","rom":"annyeonghi gyeseyo"}
-{"id":"ko.c0571","deck":"ko.d.small-talk","ko":"연락할게요","rom":"yeollakhalgeyo"}
+{"id":"ko.c0571","deck":"ko.d.small-talk","ko":"연락할게요","rom":"yeollakalgeyo"}
 {"id":"ko.c0572","deck":"ko.d.food-ordering","ko":"물","rom":"mul"}
 {"id":"ko.c0573","deck":"ko.d.food-ordering","ko":"밥","rom":"bap"}
 {"id":"ko.c0574","deck":"ko.d.food-ordering","ko":"고기","rom":"gogi"}

@@ -55,7 +55,7 @@
 {"id":"sentences.k1","q":"«Tomo café en una cafetería» =","why":"Lugar de la acción → 에서; verbo al final."}
 {"id":"sentences.k2","q":"«El café está rico» =","why":"Los verbos descriptivos llevan 이/가, no 을/를."}
 {"id":"sentences.k3","q":"¿Orden habitual?","o":["quién · cuándo · dónde · qué · verbo","verbo · qué · dónde · quién","quién · verbo · qué · dónde","qué · quién · verbo · cuándo"],"why":"Todo se acomoda delante del verbo."}
-{"id":"office.k1","q":"Te vas y tu gerente sigue trabajando. Dices:","why":"수고하세요 = ánimo con el trabajo (la otra persona se queda)."}
+{"id":"office.k1","q":"Te vas y un compañero de tu mismo nivel sigue trabajando. Dices:","why":"수고하세요 = ánimo con el trabajo (la otra persona se queda)."}
 {"id":"office.k2","q":"A un gerente llamado 김민수 lo llamas:","why":"Cargo + 님, no el nombre."}
 {"id":"office.k3","q":"Para rechazar con cortesía una copa en el 회식:","why":"Da una razón; 운전 es la universal."}
 {"id":"honorific.k1","q":"«Buen provecho» a un cliente:","why":"드시다 reemplaza a 먹다 en el habla honorífica."}
@@ -85,7 +85,7 @@
 {"id":"polite.k1","q":"Estás pidiendo en un café. ¿Qué forma usas?","why":"La forma con 요 es la opción por defecto con desconocidos y con el personal."}
 {"id":"polite.k2","q":"Quitar el 요 hace que el habla sea…","o":["informal (반말)","más cortés","formal","una pregunta"],"why":"반말 = habla informal, para amigos cercanos y personas más jóvenes."}
 {"id":"polite.k3","q":"¿De qué nivel es 감사합니다?","o":["formal","informal","cortés, con 요","jerga"],"why":"-습니다 / -ㅂ니다 es el nivel formal."}
-{"id":"meet.k1","q":"«Soy Lisa»: Lisa termina en vocal, así que:","why":"예요 después de vocal, 이에요 después de consonante."}
+{"id":"meet.k1","q":"«Soy Lisa»: en hangul es 리사, y el último bloque, 사, termina en vocal, así que:","why":"Fíjate en el último bloque en hangul: sin consonante final → 예요; con consonante final → 이에요."}
 {"id":"meet.k2","q":"Alguien se va y tú te quedas. Dices:","why":"가세요 = vaya en paz (a quien se va)."}
 {"id":"meet.k3","q":"«¿De dónde eres?»","why":"에서 왔어요 = vine de."}
 {"id":"numbers.k1","q":"¿Qué sistema se usa para el dinero?","o":["Sinocoreano (일, 이, 삼)","Nativo (하나, 둘, 셋)","Cualquiera de los dos","Ninguno"],"why":"Dinero, fechas, minutos, teléfonos → sinocoreano."}

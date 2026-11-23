@@ -1,0 +1,543 @@
+{
+ "_about": "DRAFT native-side trainer text for the Korean course, English learner (native/en/ko/trainer.draft.json). Extracted by script from the built app (globals + fn.toString()) and round-tripped against the live tables. Only two parts are authored, and both are marked: sound.rules (\"_new\": text the engine does not have) and the split of the V alternates into native (alt.V = the trailing English spellings) versus engine-neutral (alt._engineNeutral). Becomes native/<n>/ko/trainer.json; plan: docs/TRAINERS-PLAN.md. Keys are stable: Korean text where the engine table is keyed by Korean, else a fixed English slug. Slots are %1..%9 (positional; braces are forbidden in native text by validate.js). Fields starting with _ are notes, ignored by assembly.",
+ "_meta": {
+  "native": "en",
+  "target": "ko",
+  "format": "trainer/1-draft",
+  "extractedFrom": "korean-flashcards.html 2.65.0 · 2026-11-22 sha256 45366842d228e81d",
+  "extractedAt": "2026-11-23"
+ },
+ "hangul": {
+  "_src": "Hangul reading drill (features.script). app.html: \"// Hangul drill word lists\" (const WORDS_CV / MEAN_ADD / MEAN / WORDS_F), \"// Hangul drill\" (const L / V / T, answersFor, hangulItem), renderHangulQ, renderHangulPick.",
+  "mean": {
+   "_src": "MEAN (incl. MEAN_ADD), keyed by the Korean drill word, in WORDS_CV then WORDS_F order. Shown after each answer as \" · <b>gloss</b>\". Every WORDS_CV/WORDS_F word has one.",
+   "나무": "tree",
+   "바다": "sea",
+   "가수": "singer",
+   "구두": "dress shoes",
+   "고기": "meat",
+   "모자": "hat",
+   "바지": "pants",
+   "지도": "map",
+   "하나": "one",
+   "어머니": "mother",
+   "아버지": "father",
+   "머리": "head / hair",
+   "다리": "leg / bridge",
+   "소리": "sound",
+   "노래": "song",
+   "피자": "pizza",
+   "커피": "coffee",
+   "치마": "skirt",
+   "토마토": "tomato",
+   "포도": "grape",
+   "기차": "train",
+   "하루": "one day",
+   "이모": "aunt (mom's side)",
+   "누나": "older sister (male speaker)",
+   "야구": "baseball",
+   "여자": "woman",
+   "요리": "cooking",
+   "유리": "glass",
+   "우유": "milk",
+   "아이": "child",
+   "오이": "cucumber",
+   "나비": "butterfly",
+   "부자": "rich person",
+   "주소": "address",
+   "비누": "soap",
+   "가게": "shop",
+   "해": "sun / year",
+   "배": "boat / pear / belly",
+   "개": "dog",
+   "나라": "country",
+   "서울": "Seoul",
+   "한국": "Korea",
+   "사람": "person",
+   "물": "water",
+   "밥": "rice / meal",
+   "김치": "kimchi",
+   "집": "house",
+   "산": "mountain",
+   "강": "river",
+   "눈": "eye / snow",
+   "문": "door",
+   "손": "hand",
+   "발": "foot",
+   "책": "book",
+   "달": "moon / month",
+   "별": "star",
+   "밤": "night / chestnut",
+   "공": "ball",
+   "방": "room",
+   "돈": "money",
+   "술": "alcohol",
+   "말": "word / horse",
+   "길": "road",
+   "봄": "spring",
+   "감": "persimmon",
+   "입": "mouth",
+   "친구": "friend",
+   "선생님": "teacher",
+   "학생": "student",
+   "사랑": "love",
+   "안녕": "hi / bye",
+   "감사": "thanks",
+   "한글": "Hangul",
+   "시간": "time",
+   "음악": "music",
+   "영어": "English",
+   "생일": "birthday",
+   "운동": "exercise",
+   "이름": "name",
+   "얼굴": "face",
+   "꽃": "flower",
+   "딸": "daughter",
+   "빨리": "quickly",
+   "쌀": "rice (uncooked)",
+   "진짜": "really",
+   "과일": "fruit",
+   "원": "won",
+   "회사": "company",
+   "귀": "ear",
+   "왜": "why",
+   "의사": "doctor",
+   "얘기": "talk / story",
+   "옷": "clothes",
+   "부엌": "kitchen",
+   "앞": "front",
+   "닭": "chicken",
+   "값": "price",
+   "뭐": "what",
+   "외국": "foreign country",
+   "위": "up / stomach",
+   "끝": "end"
+  },
+  "alt": {
+   "_src": "typed-answer alternates appended after the engine's canonical RR + neutral variants (const V [2] trailing items; answersFor li.push('sh')). Order is significant: [canonical, ...engine neutral, ...these].",
+   "V": {
+    "ㅓ": [
+     "uh",
+     "u"
+    ],
+    "ㅕ": [
+     "yuh"
+    ],
+    "ㅜ": [
+     "oo"
+    ],
+    "ㅣ": [
+     "ee"
+    ]
+   },
+   "L": {},
+   "T": {},
+   "sh": [
+    "sh"
+   ],
+   "_engineNeutral": {
+    "_note": "NOT native data: what stays in the engine tables (for reference; validate.js rejects a native alternate that equals another jamo's canonical spelling in the same slot, except these merger cases)",
+    "V": {
+     "ㅐ": [
+      "e"
+     ],
+     "ㅒ": [
+      "ye"
+     ],
+     "ㅔ": [
+      "ae"
+     ],
+     "ㅖ": [
+      "yae"
+     ],
+     "ㅙ": [
+      "we"
+     ],
+     "ㅚ": [
+      "we"
+     ],
+     "ㅝ": [
+      "weo"
+     ],
+     "ㅢ": [
+      "ei"
+     ]
+    },
+    "L": {
+     "ㄱ": [
+      "k"
+     ],
+     "ㄲ": [
+      "gg"
+     ],
+     "ㄷ": [
+      "t"
+     ],
+     "ㄸ": [
+      "dd"
+     ],
+     "ㄹ": [
+      "l"
+     ],
+     "ㅂ": [
+      "p"
+     ],
+     "ㅃ": [
+      "bb"
+     ]
+    },
+    "T": {
+     "ㄱ": [
+      "g"
+     ],
+     "ㄲ": [
+      "kk"
+     ],
+     "ㄷ": [
+      "d"
+     ],
+     "ㄹ": [
+      "r"
+     ],
+     "ㄺ": [
+      "l"
+     ],
+     "ㄼ": [
+      "p"
+     ],
+     "ㅂ": [
+      "b"
+     ],
+     "ㅅ": [
+      "s"
+     ],
+     "ㅆ": [
+      "ss"
+     ],
+     "ㅈ": [
+      "j"
+     ],
+     "ㅊ": [
+      "ch"
+     ],
+     "ㅎ": [
+      "h"
+     ]
+    }
+   }
+  },
+  "ui": {
+   "_src": "renderHangulQ / renderHangulPick literals. Bare words and the HTML hint are concatenated into the DOM, so they live here, not in the i18n keys.",
+   "placeholder": "type the sound, e.g. ga",
+   "ariaLabel": "Romanization",
+   "levelSyllable": "syllable",
+   "levelWord": "word",
+   "empty": "Type the sound in English letters (e.g. <b>ga</b>), or type the Hangul itself.",
+   "pickPrompt": "Which one did you hear?"
+  }
+ },
+ "gloss": {
+  "_src": "Sentence breakdown (🔍 break it down, Build drill feedback, Words from dialogues). app.html \"// rule-based breakdown of a Korean sentence\": const PART / ENDS / QW / CONN / COUNT and the literals inside breakdown(). PART and ENDS ORDER is match logic and stays in the engine (target half); native files are keyed maps. NUMS (digits) is language-neutral.",
+  "PART": {
+   "에서": "at / from (action place)",
+   "하고": "and / with",
+   "한테": "to (person)",
+   "에게": "to (person)",
+   "으로": "toward / by",
+   "까지": "until / up to",
+   "부터": "from (time)",
+   "보다": "than",
+   "처럼": "like",
+   "은": "topic",
+   "는": "topic",
+   "이": "subject",
+   "가": "subject",
+   "을": "object",
+   "를": "object",
+   "에": "to / at",
+   "도": "also",
+   "로": "toward / by",
+   "와": "and / with",
+   "과": "and / with",
+   "만": "only",
+   "의": "possessive",
+   "랑": "with (casual)"
+  },
+  "ENDS": {
+   "주시겠어요": "would you mind (very polite request)",
+   "셨어요": "honorific past (-시-)",
+   "으세요": "honorific / polite request",
+   "주세요": "please do",
+   "드립니다": "formal humble (I give/do for you)",
+   "세요": "polite request / honorific",
+   "게요": "I will (promise)",
+   "까요": "shall we?",
+   "래요": "want to?",
+   "겠습니다": "formal future / will",
+   "습니다": "formal",
+   "입니다": "formal \"is\"",
+   "ㅂ니다": "formal",
+   "네요": "noticing",
+   "예요": "is (after vowel)",
+   "이에요": "is (after consonant)",
+   "해요": "polite present (하다)",
+   "어요": "polite present",
+   "아요": "polite present",
+   "자": "let's",
+   "요": "polite ending"
+  },
+  "QW": {
+   "뭐": "what",
+   "뭐예요": "what is",
+   "어디": "where",
+   "언제": "when",
+   "누구": "who",
+   "왜": "why",
+   "어떻게": "how",
+   "얼마": "how much",
+   "몇": "how many",
+   "어느": "which"
+  },
+  "CONN": {
+   "그리고": "and then",
+   "그래서": "so",
+   "그런데": "but",
+   "근데": "but (casual)",
+   "하지만": "but",
+   "먼저": "first",
+   "그다음에": "after that",
+   "마지막으로": "lastly",
+   "아니면": "or",
+   "그럼": "then",
+   "그러면": "then",
+   "네": "yes",
+   "아니요": "no",
+   "저는": "as for me (저 + 는)",
+   "저": "I (humble)",
+   "나": "I (casual)",
+   "너": "you (casual)",
+   "우리": "we / our",
+   "같이": "together",
+   "너무": "too / very",
+   "진짜": "really",
+   "정말": "really",
+   "조금": "a little",
+   "좀": "a bit / please",
+   "지금": "now",
+   "오늘": "today",
+   "내일": "tomorrow",
+   "어제": "yesterday",
+   "안": "not",
+   "못": "can't",
+   "잘": "well",
+   "또": "again",
+   "늦게": "late",
+   "빨리": "quickly",
+   "다": "all",
+   "많이": "a lot",
+   "아직": "yet / still",
+   "이거": "this one",
+   "그거": "that one",
+   "저거": "that one (far)",
+   "여기": "here",
+   "거기": "there",
+   "저기": "over there"
+  },
+  "COUNT": {
+   "개": "things",
+   "명": "people",
+   "잔": "cups",
+   "병": "bottles",
+   "마리": "animals",
+   "권": "books",
+   "장": "sheets",
+   "살": "years old",
+   "시간": "hours",
+   "번": "times",
+   "분": "minutes / people (polite)",
+   "시": "o'clock",
+   "원": "won"
+  },
+  "tpl": {
+   "_src": "breakdown() inline strings; %1.. = Korean stem / particle / gloss in the order the engine passes them",
+   "question": "%1 (question word)",
+   "counter": "counter · %1",
+   "number": "number %1",
+   "jiMa": "don't (지 마)",
+   "adoDwaeyo": "is it okay? (-아/어도 돼요)",
+   "myeonAnDwaeyo": "not okay? (-(으)면 안 돼요)",
+   "doEvenIf": "verb + 도 (even if)",
+   "jiStem": "verb stem + 지",
+   "past": "verb · past (았/었어요)",
+   "particleYo": "%1 + %2 = %3 + 요",
+   "questionYo": "%1 + 요 (polite)",
+   "verb": "verb · %1",
+   "particle": "%1 + %2 = %3",
+   "digits": "number",
+   "word": "noun / word"
+  }
+ },
+ "build": {
+  "_src": "Build drill (features.script today; gloss-gated in the plan). buildSentences() hard-coded story/negation pairs (Korean → English), renderBuildQ literals. The Korean moves to target/ko (course.json build[]); the gloss stays native.",
+  "extra": {
+   "어제 친구를 만났어요": "Yesterday I met a friend",
+   "먼저 카페에 갔어요": "First we went to a café",
+   "그리고 커피를 마셨어요": "And we drank coffee",
+   "그다음에 영화를 봤어요": "After that we watched a movie",
+   "그래서 집에 늦게 왔어요": "So I got home late",
+   "지난 주말에 뭐 했어요": "What did you do last weekend",
+   "아까 점심 먹었어요": "I had lunch a while ago",
+   "그런데 영화가 너무 길었어요": "But the movie was too long",
+   "매운 거 안 먹어요": "I don't eat spicy food",
+   "매운 거 못 먹어요": "I can't eat spicy food",
+   "한국어 할 수 있어요": "Can you speak Korean",
+   "조금 할 수 있어요": "I can, a little",
+   "오늘은 못 가요": "I can't go today",
+   "오늘 운동 안 해요": "I'm not working out today",
+   "잘 모르겠어요": "I'm not sure",
+   "길을 몰라요": "I don't know the way",
+   "지금 갈 수 없어요": "I can't go now",
+   "커피 안 마셔요": "I don't drink coffee"
+  },
+  "ui": {
+   "prompt": "tap the words in order",
+   "answer": "Answer",
+   "notQuite": "Not quite"
+  }
+ },
+ "numbers": {
+  "_src": "Numbers drill (features.numbers). numItem() hint literals, its counter pick list, renderNumberQ literals. Kinds: price,price,time,phone,floor,count,age,minutes",
+  "hint": {
+   "price": "price in won (Sino)",
+   "time": "time (native hour, Sino minutes) — type like 3:30",
+   "phone": "phone number (digits, 0 = 공)",
+   "floor": "floor (Sino) — B for basement",
+   "count": "count (native + %1 %2)",
+   "age": "age (native + 살)",
+   "minutes": "minutes (Sino + 분)"
+  },
+  "counter": {
+   "개": "things",
+   "명": "people",
+   "잔": "cups",
+   "병": "bottles",
+   "마리": "animals",
+   "장": "sheets"
+  },
+  "ui": {
+   "prompt": "🔢 Listen and type the number · %1",
+   "placeholder": "digits"
+  }
+ },
+ "sound": {
+  "_src": "Sound-change drill + card pronunciation note (features.sound). pronounce() rules.add(...) names are KOREAN and are what the engine shows today; the engine has no explanation text. The \"gloss\" values below are NEW (not in the engine), condensed from lesson sound-changes (native/en/ko/lessons/sound-changes.html) so translators have a source; sound.showGloss=false keeps en-ko rendering the Korean name only (byte-identical); packs set it true; WP8 decides for en-ko.",
+  "rules": {
+   "받침 → %1": "final consonant said as %1 (only 7 finals survive)",
+   "ㄴ 첨가 → ㄹㄹ": "ㄴ is added, then becomes ㄹ next to ㄹ",
+   "ㅎ 탈락": "ㅎ goes silent between vowels",
+   "연음": "linking: the final consonant slides into the next syllable",
+   "구개음화": "ㄷ / ㅌ before 이 are said ㅈ / ㅊ",
+   "격음화": "ㅎ next to ㄱ ㄷ ㅂ ㅈ makes them airy ㅋ ㅌ ㅍ ㅊ",
+   "경음화": "the next consonant becomes tense",
+   "비음화": "nasal: ㅂ ㄷ ㄱ soften to ㅁ ㄴ ㅇ before ㄴ / ㅁ",
+   "유음화": "ㄴ meets ㄹ: both become ㄹ",
+   "받침 중화": "final consonant neutralised to its basic sound",
+   "ㅢ → 이": "ㅢ not at the start of a word is said 이",
+   "_new": true
+  },
+  "showGloss": false,
+  "ui": {
+   "prompt": "How is this actually said?"
+  }
+ },
+ "register": {
+  "_src": "Polite ↔ casual drill (features.register). renderRegisterQ() literals; the pairs themselves are target-side (course.json pairs, 36).",
+  "toPolite": "Make it polite (요-form)",
+  "toCasual": "Make it casual (반말)",
+  "whyPolite": "casual → polite: add 요 (or the honorific verb)",
+  "whyCasual": "polite → casual: drop 요"
+ },
+ "conj": {
+  "_src": "Verb conjugator (features.conj). cjHTML() row labels keyed by conj() result field, conj() irregular.push() tags, renderGrammar() panel literals.",
+  "labels": {
+   "polite": "polite present",
+   "past": "polite past",
+   "future": "future",
+   "casual": "casual",
+   "formal": "formal",
+   "kkayo": "shall we?",
+   "want": "want to",
+   "dontDo": "don't (request)",
+   "neg": "negative"
+  },
+  "irregular": {
+   "ㄷ→ㄹ": "ㄷ→ㄹ",
+   "ㅂ→우": "ㅂ→우",
+   "ㅡ drop": "ㅡ drop",
+   "르": "르"
+  },
+  "ui": {
+   "empty": "Enter a dictionary form ending in 다.",
+   "irregular": "irregular: %1",
+   "title": "Verb conjugator",
+   "placeholder": "dictionary form, e.g. 먹다",
+   "button": "Conjugate",
+   "tryLine": "Try 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다"
+  }
+ },
+ "quiz": {
+  "_src": "renderQuizQ: the \"Why\" line shown on a wrong answer in grammar-kind decks (deck regex → KINDS.grammar in the plan).",
+  "why": "Why: %1",
+  "rule": "Show rule ↗"
+ },
+ "koui": {
+  "_src": "const KOUI (\"rom · gloss\" tooltips that koTips() puts on Korean UI words). The romanisation is target-side (computed or stored in target/ko); only the gloss is native.",
+  "수고했어요": "good work",
+  "다음에 봐요": "see you next time",
+  "잘했어요": "well done",
+  "대박": "amazing",
+  "좋아요": "good",
+  "다시 해 봐요": "try again",
+  "맞아요": "correct",
+  "완벽해요": "perfect",
+  "다 했어요": "all done",
+  "목표 달성": "goal reached",
+  "레벨 업": "level up",
+  "내 표현": "my phrases",
+  "모두 열렸어요": "everything unlocked",
+  "한글": "the Korean alphabet"
+ },
+ "onboard": {
+  "_src": "renderOnboard() (Korean-script onboarding, shown when features.script). Rendered by a trainer function, so it lives in TRAINER.onboard (plan §2.6); started = toast with the first deck label as %1.",
+  "title": "안녕하세요 👋 Two quick questions",
+  "read": "Can you already read Hangul?",
+  "readNo": "Not yet",
+  "readSlow": "Slowly",
+  "readYes": "Yes, fluently",
+  "goal": "What do you want Korean for?",
+  "time": "How much time a day?",
+  "started": "Set up. Start with %1."
+ },
+ "strokes": {
+  "_src": "strokeSVG() replay button, drawn on card backs in every course (STROKES paths are language-neutral; features.strokes is never read by the engine).",
+  "replay": "↻ stroke order"
+ },
+ "ui": {
+  "_src": "NOT TRAINER data. Static page text (read-tab panel, add-card form, grammar search) whose i18n dictionary translation was written for learning English. These go to native/<n>/ko/ui.json (pack UI override, keyed by the English string); listed here so a translator sees every Korean-specific line in one place. English value = the key.",
+  "_route": "native ui.json",
+  "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.",
+  "How a block is built": "How a block is built",
+  "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.",
+  "Hangul drill": "Hangul drill",
+  "type it in Hangul": "type it in Hangul",
+  "Type the Korean, or tap Check again to give up.": "Type the Korean, or tap Check again to give up.",
+  "Search a pattern, e.g. 에서 or 'want'": "Search a pattern, e.g. 에서 or 'want'",
+  "Romanization (auto if blank)": "Romanization (auto if blank)",
+  "Hide romanization": "Hide romanization",
+  "Blur romanization in Browse": "Blur romanization in Browse",
+  "Show romanization in practice": "Show romanization in practice",
+  "Aa romanization: on": "Aa romanization: on",
+  "Aa romanization: off": "Aa romanization: off",
+  "Romanization": "Romanization"
+ }
+}

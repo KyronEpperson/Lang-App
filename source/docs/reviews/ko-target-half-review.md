@@ -128,3 +128,84 @@ Of the 87 card rows that differ from `romanize()`, five are real: the four ㅎ-p
 | E6 | Not English-specific (keep) | 홍대, 강남역, 명동, 티머니, Starbucks sizes 톨/그란데/벤티, 바나나 (hangul#11), 피자/커피/토마토 (WORDS_CV) | Korea-real or international; fine for every course. |
 
 Artifacts: `/tmp/claude-0/-home-claude/d98f3bd7-8852-52e0-916f-9f67ac9e0f17/scratchpad/koreview/` (dump.json, cards.txt, dialog.txt, examples.txt, checks.txt, lessons.txt, practice.txt, romdiff.txt, dump3.json).
+
+## Applied 2026-11-22
+
+All edits are in `src/app.html` (built-in en-ko). The halves were re-exported with `export_ko.js --accept-moved`. I checked the 45 moved check and practice ids by hand; all are in-place edits and none was removed or renumbered. `proof.js` gives 0 raw and 0 runtime-path differences. The Spanish half was updated row by row, and `packs/course-es-ko.js` was reassembled.
+
+**Tally:** wrong 6/6 applied · unnatural 6/6 applied (U4 in part) · ambiguous-item 14/14 applied (A5 in part) · nit 18/26 applied, 8 not applied. Of the 22 NS rows, 16 were applied in full or in part, always taking the safer reading: wider acceptance, a contestable distractor removed, or a doubtful claim replaced by one that is true in both readings. These still deserve a native check: U1, U2, U3, U5, U6, A3, A4, A5, A7, N0, N6, N7, N8, N23, and the parts of U4 and N3 that were applied.
+
+### Wrong
+
+| ID | Status |
+|---|---|
+| W1 | **Applied.** Card target `1+1 이에요?` → `1+1이에요?`. The rom is now `won peulleoseu wonieyo?`, and the TTS reading-map key was renamed with it. **Card target changed** (progress key; card id ko.c0142 → ko.c0642; this affects en-ko and es-ko). |
+| W2 | **Applied.** 아까 내 농담에 왜 아무도 안 웃었어? |
+| W3 | **Applied.** 왜냐하면 시간이 없거든요. |
+| W5 | **Applied.** `koRespell()` runs before `pronounce()` inside `romanize()`. It handles 스물여-, 열여(덟/섯), 꽃잎, 색연필, 한여름, 십육, 맛없-/멋없- (절음), and 밟- before a consonant. Of the 641 card targets, 0 changed romanisation. In a corpus of every Hangul string in the app (3,581 strings), only the intended words changed (스물여덟…, 이십육 년). The lesson row 스물여덟 already had the right stored rom. |
+| W7 | **Applied.** The card note, the meet lesson rule and table, and check meet#1 now say "look at the last Hangul block". The examples use Hangul names: 킴이에요, 리사예요, 마이크예요, 후안이에요. |
+| W8 | **Applied differently.** The drill now calls `pronounce(…, false, true)`, which adds 경음화 after an obstruent final (and ㄳ/ㅄ + vowel → ㅆ). A new `soundSafe()` filter drops any phrase that the rules cannot get right: sonorant + ㄱㄷㅂㅅㅈ inside a word (lexical or -ㄹ tensing), ㄴ-insertion before ㅑㅕㅛㅠㅒㅖ, clusters before a consonant, and any sound change across a space. The pool went from 162 to 123 entries: 58 removed (몇 화, 다섯 마리, 몇 살이에요, 늦을 것 같아, 연락할게요, 잠시만요 …), 11 corrected (미쳤다 [미쳗따], 진짜 웃겨 [진짜 욷껴], 떡볶이 [떡뽀끼] …) and 19 added (학교 [학꾜], 식당 [식땅] …). I read every remaining item. 잘 먹겠습니다 is now [잘 먹껟씀니다], the standard-pronunciation form; the review's [먹께씀니다] is the casual reduction. `pronNote()` on cards still uses the untensed rules (see below). |
+
+### Unnatural
+
+| ID | Status |
+|---|---|
+| U1 | **Applied.** B: 괜찮아요, 저도 방금 왔어요. (the review's second option). |
+| U2 | **Applied.** 내일 여행이라서 설레요. |
+| U3 | **Applied.** Note: 몇 년에 데뷔했어요? |
+| U4 | **Applied in part.** EXAMPLES [먼저 퇴근하겠습니다] → 저 먼저 퇴근하겠습니다. (수고하세요 dropped), and check office#1 changed via A7. **Not applied:** PATTERNS #45 (its example still pairs 퇴근하겠습니다 with 수고하세요; changing it re-keys the pattern id) and the office lesson. Both are left for a native speaker. |
+| U5 | **Applied.** Pause polite: 천만에요 → 아니에요 ("You're welcome (lit. 'not at all')"). |
+| U6 | **Applied.** Note: someone else's grandmother or very formal speech; elderly strangers are 할머니 / 어르신. |
+
+### Ambiguous-item
+
+| ID | Status |
+|---|---|
+| A1 | **Applied.** New engine field `alt`, with the alternatives the review names: past#6, story#6, particles#8, sentences#8, future#6 (학교에 내일 갈 거예요), texting#8, and titles#6/#7/#8 with the vocative at the end. The `why` lines that said "time word first" / "title first" now say "usually" / "opens (or closes)", in English and Spanish. |
+| A2 | **Applied in the engine.** `koCtr()` inside `pracMatch()`: 전/저는, 난/나는, 넌/너는, 뭘/무엇을/뭐를, 이건/이것은/이거는, 이게/이것이, 이걸/이것을, the same for 그-/저-, and 이것→이거. A leading 저/나 without its particle is accepted in type items only. The rule applies only when both strings contain Hangul. |
+| A3 | **Applied.** The 학교예요 / 집이에요 distractors became 학교를 있어요 / 집을 (practice isseoyo#1, #6; check isseoyo#1). The lesson ✗ is now "the full form is 저는 학교에 있어요; you also hear 지금 학교예요". |
+| A4 | **Applied.** In check counters#1, the distractor 커피 두 개 → 커피 두 명. The lesson now says 잔 is the textbook counter and 개 is common at cafés. |
+| A5 | **Applied in part.** In check food#2, the distractor 김밥 둘 주세요 → 김밥 둘 개 주세요, and food#13 accepts 김밥 세 줄 주세요. **Not applied:** teaching 줄 instead of 개 (food#3, food#6, the lesson). That rewrites taught Korean, so it waits for a native check. |
+| A6 | **Applied.** The distractor 날씨가 좋다 / 좋다 became 좋다요 (verbbasics#5, #6, #14). The lesson now says that describing verbs in 다 form work as exclamations. |
+| A7 | **Applied.** Check office#1: "a coworker at your level is still working". |
+| A8–A12 | **Applied.** The listed variants were added: 반갑습니다; 몇 살이세요 / 나이가 어떻게 되세요; 오셨어요; 어디예요; 키워요 (isseoyo#12, counters#13). |
+| A13 | **Applied.** verbbasics#13 now accepts 한국어를 공부해요, and nouns#13 accepts 이것은 / 이것이 뭐예요. |
+| A14 | **Applied by adding answers.** getting-around#10 어디 (에) 있어요; sov#10 는; 입니다 for meet#9, isseoyo#11 and nouns#11; 해 for verbs#10 and verbbasics#10; office#9 부탁드려요; food#10 먹었어요; story#10 봤어요; the 입니다 forms for numbers#12–14, nouns#12 and past#13. No prompt was changed, and the short answer 스물여덟이요 was not added. |
+
+### Nit
+
+| ID | Status |
+|---|---|
+| N0 | **Applied.** 말 한마디에 천 냥 빚도 갚는다 (the wording in the 국립국어원 newsletter 새국어소식, korean.go.kr/nkview/nknews/200409/74_6.html). |
+| N1 | **Applied, sound-based.** Card roms motaeyo, jalmotaesseo, yeollakalgeyo. 백화점 keeps baekhwajeom (RR noun rule). romanize() and the lesson 4 `chuka` are unchanged. |
+| N2 | **Applied.** 시 = si (sounds like 'shee') |
+| N3 | **Applied in part.** The claim now reads "mostly follows how words sound (tensed consonants are not shown)". romanize('괜찮습니다') = gwaenchansseumnida was left alone (NS). |
+| N4, N5 | **Not applied.** NS, and both would change card targets (progress keys). |
+| N6 | **Applied.** Meet tip: "On the phone, people often say 안녕히 계세요 or 들어가세요." |
+| N7 | **Applied.** 사원 is not used to address anyone (say name + 씨). The default is now "ask a colleague; in chat, name + 님". |
+| N8 | **Applied.** Cant lesson row: 수영 못해요 · suyeong motaeyo. The sentence id changed: ko.s0256 → ko.s0296. |
+| N9 | **Not applied.** NS, and it would change the taught answer of want-like#4. |
+| N10 | **Applied.** Pair 잘 자 ↔ 잘 자요; the card note adds 안녕히 주무세요 for elders. |
+| N11 | **Applied differently.** #27 → 이거 먹어도 돼? ↔ 이거 먹어도 돼요?, because 같이 갈래? is already pair #14. #35 → 나 먼저 갈게 ↔ 저 먼저 갈게요. |
+| N12, N13, N14 | **Applied.** |
+| N15 | **Applied differently.** There is no register field, so the card note now says "slang with a vulgar origin: only with close friends". |
+| N16, N17 | **Not applied.** Both change card targets (progress keys). N16 also needs the TTS reading map re-keyed, and N17 is NS. |
+| N18, N19 | **Not applied.** Both need different tiles, and `alt` only reorders the same tiles. N18 is NS. |
+| N20 | **Applied.** 잘될 거야 |
+| N21 | **Applied.** 미안합니다 \| 미안해요 \| 미안해, with a note that 죄송합니다 is the humbler choice. |
+| N22, N23, N24 | **Applied.** |
+| N25 | **Not applied.** NS. |
+
+### Learner-specific (E1–E6)
+
+Not localised, because the owner has not decided. Only the learner name was unified: the meet lesson row now uses 키이예요 (ko.s0009 → ko.s0295), and E4's Latin names became Hangul (W7).
+
+### Same pattern, not in the review (left as is)
+
+- isseoyo type item "My friend is at school": the tile 학교예요 and the why line "not 이에요".
+- verbbasics order item "The bag is big": the tile 크다.
+
+Both are the A3 / A6 pattern: colloquially acceptable Korean that is offered as the wrong tile. They are left for a native check.
+
+**Test:** `tools/tests/kograde.js` covers every practice item of en-ko and es-ko, the alt orders through the tile UI, contractions, romanize() cases and the sound drill.
+

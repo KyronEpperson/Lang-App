@@ -30,5 +30,16 @@
  "kn": {
   "voice": "kn-IN-SapnaNeural",
   "locale": "kn-IN"
+ },
+ "elevenlabs": {
+  "ko": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "uyVNoMrnUku1dZyVEXwD"
+   },
+   "m": {
+    "voice_id": "PDoCXqBQFGsvfO0hNkEs"
+   }
+  }
  }
 }

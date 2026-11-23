@@ -102,14 +102,14 @@ const STROKE_RX = /<div class="sgl" data-replay="1"><div class="k">([^<]+)<\/div
     tChk.push({ id, lesson: lid, o: ko, a: c[2] });
     const n = { id, q: c[0] }; if (nat.some(x => x != null)) n.o = nat; n.why = c[3]; nChk.push(n);
   }));
-  const tPr = [], nPr = [], KNOWN = new Set(['t', 'q', 'p', 'o', 'a', 'x', 'why', 'hint']);
+  const tPr = [], nPr = [], KNOWN = new Set(['t', 'q', 'p', 'o', 'a', 'x', 'alt', 'why', 'hint']);
   Object.entries(d.PRACTICE).forEach(([lid, list]) => list.forEach((it, i) => {
     Object.keys(it).forEach(k => { if (!KNOWN.has(k)) throw new Error('practice field ' + k + ' not mapped (' + lid + ')'); });
     const id = lid + '.' + pad(i + 1, 2), t = { id, lesson: lid, t: it.t }, n = { id };
     if (it.t === 'fill') { t.q = it.q; } else if (it.q != null) n.q = it.q;           /* fill.q is the Korean sentence with the gap; other q are prompts */
     if (it.p != null) n.p = it.p;
     if (it.o) { if (it.t === 'mc') { t.o = it.o.map(o => L.isKoreanValue(o) ? o : null); if (it.o.some(o => !L.isKoreanValue(o))) n.o = it.o.map(o => L.isKoreanValue(o) ? null : o); } else t.o = it.o; }
-    if (it.a) t.a = it.a; if (it.x) t.x = it.x;
+    if (it.a) t.a = it.a; if (it.x) t.x = it.x; if (it.alt) t.alt = it.alt; /* order items: other accepted tile orders (target-side) */
     if (it.hint != null) { const s = splitKo(it.hint); if (s && !s.note) t.hint = { ko: s.ko }; else if (s) { t.hint = { ko: s.ko, sep: s.sep }; n.hint = s.note; } else n.hint = it.hint; }
     if (it.why != null) n.why = it.why;
     tPr.push(t); nPr.push(n);

@@ -6,7 +6,7 @@
 {"id":"ko.s0006","ko":"고마워","rom":"gomawo"}
 {"id":"ko.s0007","ko":"귀여워요","rom":"gwiyeowoyo"}
 {"id":"ko.s0008","ko":"귀여워","rom":"gwiyeowo"}
-{"id":"ko.s0009","ko":"안녕하세요. 저는 Kii예요","rom":"annyeonghaseyo. jeoneun Kii-yeyo"}
+{"id":"ko.s0295","ko":"안녕하세요. 저는 키이예요","rom":"annyeonghaseyo. jeoneun kiiyeyo"}
 {"id":"ko.s0010","ko":"만나서 반가워요","rom":"mannaseo bangawoyo"}
 {"id":"ko.s0011","ko":"어디에서 왔어요?","rom":"eodieseo wasseoyo?"}
 {"id":"ko.s0012","ko":"미국에서 왔어요","rom":"migugeseo wasseoyo"}
@@ -253,7 +253,7 @@
 {"id":"ko.s0253","ko":"매운 거 안 먹어요","rom":"maeun geo an meogeoyo"}
 {"id":"ko.s0254","ko":"매운 거 못 먹어요","rom":"maeun geo mot meogeoyo"}
 {"id":"ko.s0255","ko":"오늘은 못 가요","rom":"oneureun mot gayo"}
-{"id":"ko.s0256","ko":"수영 못 해요","rom":"suyeong mot haeyo"}
+{"id":"ko.s0296","ko":"수영 못해요","rom":"suyeong motaeyo"}
 {"id":"ko.s0257","ko":"오늘 운동 못 해요","rom":"oneul undong mot haeyo"}
 {"id":"ko.s0258","ko":"한국어 할 수 있어요?","rom":"hangugeo hal su isseoyo?"}
 {"id":"ko.s0259","ko":"조금 할 수 있어요","rom":"jogeum hal su isseoyo"}

@@ -58,12 +58,12 @@ function assemble(nat, tgt, opts) {
     if (p.t === 'fill') o.q = p.q; else if (x.q != null) o.q = x.q;
     if (x.p != null) o.p = x.p;
     if (p.o) o.o = p.t === 'mc' ? merge(p.o, x.o) : p.o;
-    if (p.a) o.a = p.a; if (p.x) o.x = p.x;
+    if (p.a) o.a = p.a; if (p.x) o.x = p.x; if (p.alt) o.alt = p.alt;
     if (p.hint) o.hint = p.hint.ko + (p.hint.sep ? p.hint.sep + (x.hint || '') : ''); else if (x.hint != null) o.hint = x.hint;
     if (x.why != null) o.why = x.why;
     if (p.strict) o.strict = true; if (p.xr) o.xr = p.xr;
-    /* practice keys in the order the built-in data uses: t q o p a x hint why */
-    const ord = {}; ['t', 'q', 'o', 'p', 'a', 'x', 'hint', 'why', 'strict', 'xr'].forEach(k => { if (o[k] !== undefined) ord[k] = o[k]; });
+    /* practice keys in the order the built-in data uses: t q o p a x alt hint why */
+    const ord = {}; ['t', 'q', 'o', 'p', 'a', 'x', 'alt', 'hint', 'why', 'strict', 'xr'].forEach(k => { if (o[k] !== undefined) ord[k] = o[k]; });
     (PRACTICE[p.lesson] = PRACTICE[p.lesson] || []).push(ord);
   });
   const TITLES = (t.course.titles || []).map(x => [x.level, x.ko, label(x.id)]);

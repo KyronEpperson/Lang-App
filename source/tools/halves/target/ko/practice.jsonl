@@ -25,7 +25,7 @@
 {"id":"polite.11","lesson":"polite","t":"fill","q":"죄송__","o":["해","해요","요"],"a":["합니다"]}
 {"id":"polite.12","lesson":"polite","t":"type","a":["네 고마워요","네 감사해요","네 감사합니다"],"x":["고마워"],"hint":{"ko":"네 · 고마워요"}}
 {"id":"polite.13","lesson":"polite","t":"type","a":["네 죄송합니다","네 미안합니다"],"x":["미안해"],"hint":{"ko":"네 · 죄송합니다"}}
-{"id":"polite.14","lesson":"polite","t":"type","a":["아니 괜찮아","아니야 괜찮아"],"x":["괜찮아요"],"hint":{"ko":"아니요 · 괜찮아요","sep":" — "}}
+{"id":"polite.14","lesson":"polite","t":"type","a":["아니 괜찮아","아니야 괜찮아","아냐 괜찮아","괜찮아"],"x":["괜찮아요"],"hint":{"ko":"아니요 · 괜찮아요","sep":" — "}}
 {"id":"meet.01","lesson":"meet","t":"mc","o":["저는 민수예요","저는 민수이에요","저은 민수예요","저는 민수 해요"]}
 {"id":"meet.02","lesson":"meet","t":"mc","o":["만나서 반가워요","안녕히 가세요","어디에서 왔어요?","무슨 일 해요?"]}
 {"id":"meet.03","lesson":"meet","t":"mc","o":["안녕히 계세요","안녕히 가세요","만나서 반가워요","고마워"]}
@@ -34,12 +34,12 @@
 {"id":"meet.06","lesson":"meet","t":"order","a":["미국에서","왔어요"],"x":["미국"]}
 {"id":"meet.07","lesson":"meet","t":"order","a":["한국어","공부해요"],"x":["한국"]}
 {"id":"meet.08","lesson":"meet","t":"order","a":["안녕하세요","저는","민수예요"],"x":["민수이에요"]}
-{"id":"meet.09","lesson":"meet","t":"fill","q":"학생__","o":["예요","요","해요"],"a":["이에요"]}
+{"id":"meet.09","lesson":"meet","t":"fill","q":"학생__","o":["예요","요","해요"],"a":["이에요","입니다"]}
 {"id":"meet.10","lesson":"meet","t":"fill","q":"저는 민수__","o":["이에요","해요","요"],"a":["예요"]}
 {"id":"meet.11","lesson":"meet","t":"fill","q":"안녕히 __","o":["가세요","하세요","주세요"],"a":["계세요"]}
-{"id":"meet.12","lesson":"meet","t":"type","a":["만나서 반가워요","반가워요"],"hint":{"ko":"만나서 · 반가워요"}}
-{"id":"meet.13","lesson":"meet","t":"type","a":["어디에서 왔어요","어디서 왔어요"],"hint":{"ko":"어디에서 · 왔어요"}}
-{"id":"meet.14","lesson":"meet","t":"type","a":["몇 살이에요"],"hint":{"ko":"몇 · 살이에요"}}
+{"id":"meet.12","lesson":"meet","t":"type","a":["만나서 반가워요","반가워요","만나서 반갑습니다","반갑습니다"],"hint":{"ko":"만나서 · 반가워요"}}
+{"id":"meet.13","lesson":"meet","t":"type","a":["어디에서 왔어요","어디서 왔어요","어디서 오셨어요","어디에서 오셨어요"],"hint":{"ko":"어디에서 · 왔어요"}}
+{"id":"meet.14","lesson":"meet","t":"type","a":["몇 살이에요","몇 살이세요","나이가 어떻게 되세요"],"hint":{"ko":"몇 · 살이에요"}}
 {"id":"sound-changes.01","lesson":"sound-changes","t":"mc","o":["감사함니다","감사합니다","감사하니다","감사합미다"]}
 {"id":"sound-changes.02","lesson":"sound-changes","t":"mc","o":["한구거","한국어","한궁어","하구거"]}
 {"id":"sound-changes.03","lesson":"sound-changes","t":"mc","o":["조아요","조하요","조타요","좋하요"]}
@@ -64,22 +64,22 @@
 {"id":"nouns.08","lesson":"nouns","t":"order","a":["그","사람은","의사예요"],"x":["사람는"]}
 {"id":"nouns.09","lesson":"nouns","t":"fill","q":"저__ 학생이에요","o":["은","를","이"],"a":["는"]}
 {"id":"nouns.10","lesson":"nouns","t":"fill","q":"제 이름__ 민수예요","o":["는","를","예요"],"a":["은","이"]}
-{"id":"nouns.11","lesson":"nouns","t":"fill","q":"의사__","o":["이에요","는","아니에요"],"a":["예요"]}
-{"id":"nouns.12","lesson":"nouns","t":"type","a":["저는 학생이에요","학생이에요"],"hint":{"ko":"저는 · 학생이에요"}}
-{"id":"nouns.13","lesson":"nouns","t":"type","a":["이거 뭐예요","이게 뭐예요","이건 뭐예요"],"hint":{"ko":"이거 · 뭐예요"}}
+{"id":"nouns.11","lesson":"nouns","t":"fill","q":"의사__","o":["이에요","는","아니에요"],"a":["예요","입니다"]}
+{"id":"nouns.12","lesson":"nouns","t":"type","a":["저는 학생이에요","학생이에요","저는 학생입니다","학생입니다"],"hint":{"ko":"저는 · 학생이에요"}}
+{"id":"nouns.13","lesson":"nouns","t":"type","a":["이거 뭐예요","이게 뭐예요","이건 뭐예요","이것은 뭐예요","이것이 뭐예요"],"hint":{"ko":"이거 · 뭐예요"}}
 {"id":"nouns.14","lesson":"nouns","t":"type","a":["저는 학생이 아니에요","학생이 아니에요","저는 학생 아니에요","학생 아니에요"],"hint":{"ko":"학생이 · 아니에요"}}
-{"id":"isseoyo.01","lesson":"isseoyo","t":"mc","o":["학교에 있어요","학교예요","학교가 있어요","학교에 이에요"]}
+{"id":"isseoyo.01","lesson":"isseoyo","t":"mc","o":["학교에 있어요","학교를 있어요","학교가 있어요","학교에 이에요"]}
 {"id":"isseoyo.02","lesson":"isseoyo","t":"mc","o":["화장실 있어요?","화장실이에요?","화장실에 있어요?","화장실이 아니에요?"]}
 {"id":"isseoyo.03","lesson":"isseoyo","t":"mc","o":["고양이가","고양이이","고양이에","고양이예요"]}
 {"id":"isseoyo.04","lesson":"isseoyo","t":"mc","o":["돈이 없어요","돈가 없어요","돈이 아니에요","돈에 없어요"]}
 {"id":"isseoyo.05","lesson":"isseoyo","t":"mc","o":["여기는 학교예요","여기에 학교가 있어요","여기는 학교에 있어요","여기에 학교가 없어요"]}
-{"id":"isseoyo.06","lesson":"isseoyo","t":"order","a":["집에","있어요"],"x":["집이에요"]}
+{"id":"isseoyo.06","lesson":"isseoyo","t":"order","a":["집에","있어요"],"x":["집을"]}
 {"id":"isseoyo.07","lesson":"isseoyo","t":"order","a":["저는","동생이","있어요"],"x":["동생이에요"]}
 {"id":"isseoyo.08","lesson":"isseoyo","t":"order","a":["화장실","있어요"],"x":["화장실이에요"]}
 {"id":"isseoyo.09","lesson":"isseoyo","t":"fill","q":"시간__ 있어요","o":["가","에","을"],"a":["이","은"]}
 {"id":"isseoyo.10","lesson":"isseoyo","t":"fill","q":"고양이가 집__ 있어요","o":["을","가","예요"],"a":["에"]}
-{"id":"isseoyo.11","lesson":"isseoyo","t":"fill","q":"저는 학생__","o":["있어요","예요","이 있어요"],"a":["이에요"]}
-{"id":"isseoyo.12","lesson":"isseoyo","t":"type","a":["고양이가 있어요","저는 고양이가 있어요","고양이 있어요","저는 고양이 있어요"],"x":["고양이예요"],"hint":{"ko":"고양이 · 있어요"}}
+{"id":"isseoyo.11","lesson":"isseoyo","t":"fill","q":"저는 학생__","o":["있어요","예요","이 있어요"],"a":["이에요","입니다"]}
+{"id":"isseoyo.12","lesson":"isseoyo","t":"type","a":["고양이가 있어요","저는 고양이가 있어요","고양이 있어요","저는 고양이 있어요","고양이 키워요","고양이를 키워요","저는 고양이 키워요","저는 고양이를 키워요"],"x":["고양이예요"],"hint":{"ko":"고양이 · 있어요"}}
 {"id":"isseoyo.13","lesson":"isseoyo","t":"type","a":["친구가 학교에 있어요","친구는 학교에 있어요"],"x":["학교예요"],"hint":{"ko":"친구 · 학교 · 있어요"}}
 {"id":"isseoyo.14","lesson":"isseoyo","t":"type","a":["시간이 없어요","저는 시간이 없어요","시간 없어요","저는 시간 없어요"],"x":["시간이에요"],"hint":{"ko":"시간 · 없어요"}}
 {"id":"pronouns-questions.01","lesson":"pronouns-questions","t":"mc","o":["누구","뭐","어디","언제"]}
@@ -94,22 +94,22 @@
 {"id":"pronouns-questions.10","lesson":"pronouns-questions","t":"fill","q":"__가 있어요?","o":["누구","뭐","저"],"a":["누"]}
 {"id":"pronouns-questions.11","lesson":"pronouns-questions","t":"fill","q":"화장실이 __에 있어요?","o":["언제","누구","얼마"],"a":["어디"]}
 {"id":"pronouns-questions.12","lesson":"pronouns-questions","t":"type","a":["이거 뭐예요","이게 뭐예요","이건 뭐예요","이것은 뭐예요","이것이 뭐예요"],"x":["누구예요"],"hint":{"ko":"이거 · 뭐"}}
-{"id":"pronouns-questions.13","lesson":"pronouns-questions","t":"type","a":["어디에 있어요","어디 있어요"],"x":["언제"],"hint":{"ko":"어디 · 있어요"}}
+{"id":"pronouns-questions.13","lesson":"pronouns-questions","t":"type","a":["어디에 있어요","어디 있어요","어디예요"],"x":["언제"],"hint":{"ko":"어디 · 있어요"}}
 {"id":"pronouns-questions.14","lesson":"pronouns-questions","t":"type","a":["그 사람 누구예요","그 사람은 누구예요","저 사람 누구예요","저 사람은 누구예요","그 사람이 누구예요","저 사람이 누구예요"],"x":["뭐예요"],"hint":{"ko":"사람 · 누구"}}
 {"id":"verbbasics.01","lesson":"verbbasics","t":"mc","o":["가","가다","가요","다"]}
 {"id":"verbbasics.02","lesson":"verbbasics","t":"mc","o":["가방이 커요","가방이 커다","가방이 커예요","가방이 크이에요"]}
 {"id":"verbbasics.03","lesson":"verbbasics","t":"mc","o":["해요","하요","하다요","하어요"]}
 {"id":"verbbasics.04","lesson":"verbbasics","t":"mc","o":["운동해요","운동이에요","운동 있어요","운동하다"]}
-{"id":"verbbasics.05","lesson":"verbbasics","t":"mc","o":["날씨가 좋아요","날씨가 좋다","날씨가 좋아 이에요","날씨예요 좋아요"]}
-{"id":"verbbasics.06","lesson":"verbbasics","t":"order","a":["날씨가","좋아요"],"x":["좋다"]}
+{"id":"verbbasics.05","lesson":"verbbasics","t":"mc","o":["날씨가 좋아요","날씨가 좋다요","날씨가 좋아 이에요","날씨예요 좋아요"]}
+{"id":"verbbasics.06","lesson":"verbbasics","t":"order","a":["날씨가","좋아요"],"x":["좋다요"]}
 {"id":"verbbasics.07","lesson":"verbbasics","t":"order","a":["시간이","있어요"],"x":["시간이에요"]}
 {"id":"verbbasics.08","lesson":"verbbasics","t":"order","a":["가방이","커요"],"x":["크다"]}
 {"id":"verbbasics.09","lesson":"verbbasics","t":"fill","q":"먹__","o":["아요","다","해요"],"a":["어요"]}
-{"id":"verbbasics.10","lesson":"verbbasics","t":"fill","q":"공부__","o":["하요","이에요","다요"],"a":["해요"]}
+{"id":"verbbasics.10","lesson":"verbbasics","t":"fill","q":"공부__","o":["하요","이에요","다요"],"a":["해요","해"]}
 {"id":"verbbasics.11","lesson":"verbbasics","t":"fill","q":"돈__ 없어요","o":["가","에","예요"],"a":["이","은"]}
 {"id":"verbbasics.12","lesson":"verbbasics","t":"type","a":["집에 가요","저는 집에 가요"],"x":["가다"],"hint":{"ko":"집에 · 가다 → 가요"}}
-{"id":"verbbasics.13","lesson":"verbbasics","t":"type","a":["한국어 공부해요","저는 한국어 공부해요"],"x":["공부하다"],"hint":{"ko":"한국어 · 공부 · 해요"}}
-{"id":"verbbasics.14","lesson":"verbbasics","t":"type","a":["날씨가 좋아요","날씨 좋아요"],"x":["좋다"],"hint":{"ko":"날씨 · 좋아요"}}
+{"id":"verbbasics.13","lesson":"verbbasics","t":"type","a":["한국어 공부해요","저는 한국어 공부해요","한국어를 공부해요","저는 한국어를 공부해요"],"x":["공부하다"],"hint":{"ko":"한국어 · 공부 · 해요"}}
+{"id":"verbbasics.14","lesson":"verbbasics","t":"type","a":["날씨가 좋아요","날씨 좋아요"],"x":["좋다요"],"hint":{"ko":"날씨 · 좋아요"}}
 {"id":"verbs.01","lesson":"verbs","t":"mc","o":["봐요","보어요","바요","보요"]}
 {"id":"verbs.02","lesson":"verbs","t":"mc","o":["마셔요","마시아요","마시요","마사요"]}
 {"id":"verbs.03","lesson":"verbs","t":"mc","o":["먹어요","먹아요","먹해요","먹요"]}
@@ -119,7 +119,7 @@
 {"id":"verbs.07","lesson":"verbs","t":"order","a":["저는","학교에","가요"],"x":["가다"]}
 {"id":"verbs.08","lesson":"verbs","t":"order","a":["지금","뭐","해요"],"x":["하다"]}
 {"id":"verbs.09","lesson":"verbs","t":"fill","q":"먹__요","o":["아","해","으"],"a":["어"]}
-{"id":"verbs.10","lesson":"verbs","t":"fill","q":"사랑__","o":["하요","하어요","아요"],"a":["해요"]}
+{"id":"verbs.10","lesson":"verbs","t":"fill","q":"사랑__","o":["하요","하어요","아요"],"a":["해요","해"]}
 {"id":"verbs.11","lesson":"verbs","t":"fill","q":"__ 가요","o":["않","아니","없"],"a":["안"]}
 {"id":"verbs.12","lesson":"verbs","t":"type","a":["집에 가요","저는 집에 가요"],"x":["가다"],"hint":{"ko":"집에 · 가다"}}
 {"id":"verbs.13","lesson":"verbs","t":"type","a":["친구가 먹어요","친구는 먹어요"],"x":["먹아요"],"hint":{"ko":"친구 · 먹다"}}
@@ -129,21 +129,21 @@
 {"id":"past.03","lesson":"past","t":"mc","o":["했어요","하었어요","해었어요","하았어요"]}
 {"id":"past.04","lesson":"past","t":"mc","o":["좋았어요","좋었어요","좋아었어요","좋했어요"]}
 {"id":"past.05","lesson":"past","t":"mc","o":["안 갔어요","갔어요 안","안 가요","안 갔아요"]}
-{"id":"past.06","lesson":"past","t":"order","a":["어제","친구가","왔어요"],"x":["와요"]}
+{"id":"past.06","lesson":"past","t":"order","a":["어제","친구가","왔어요"],"x":["와요"],"alt":[["친구가","어제","왔어요"]]}
 {"id":"past.07","lesson":"past","t":"order","a":["어제","집에","있었어요"],"x":["있어요"]}
 {"id":"past.08","lesson":"past","t":"order","a":["뭐","했어요"],"x":["해요"]}
 {"id":"past.09","lesson":"past","t":"fill","q":"먹__어요","o":["았","했","였"],"a":["었"]}
 {"id":"past.10","lesson":"past","t":"fill","q":"공부__어요","o":["하았","었","았"],"a":["했"]}
 {"id":"past.11","lesson":"past","t":"fill","q":"의사__어요","o":["했","았","었"],"a":["였"]}
 {"id":"past.12","lesson":"past","t":"type","a":["집에 갔어요","저는 집에 갔어요"],"x":["가요"],"hint":{"ko":"집에 · 가다","sep":" · "}}
-{"id":"past.13","lesson":"past","t":"type","a":["저는 학생이었어요","학생이었어요"],"x":["학생이에요"],"hint":{"ko":"저 · 학생 · 이었어요"}}
+{"id":"past.13","lesson":"past","t":"type","a":["저는 학생이었어요","학생이었어요","저는 학생이었습니다","학생이었습니다"],"x":["학생이에요"],"hint":{"ko":"저 · 학생 · 이었어요"}}
 {"id":"past.14","lesson":"past","t":"type","a":["어제 안 먹었어요","저는 어제 안 먹었어요"],"x":["먹어요"],"hint":{"ko":"어제 · 안 · 먹다"}}
 {"id":"future.01","lesson":"future","t":"mc","o":["갈 거예요","가을 거예요","갔어요","가 거예요"]}
 {"id":"future.02","lesson":"future","t":"mc","o":["먹을 거예요","먹를 거예요","먹었어요","먹 거예요"]}
 {"id":"future.03","lesson":"future","t":"mc","o":["할 거예요","하을 거예요","했어요","해 거예요"]}
 {"id":"future.04","lesson":"future","t":"mc","o":["내일","어제","지금","아까"]}
 {"id":"future.05","lesson":"future","t":"mc","o":["안 갈 거예요","갈 안 거예요","안 갔어요","갈 거 안 예요"]}
-{"id":"future.06","lesson":"future","t":"order","a":["내일","학교에","갈","거예요"],"x":["갔어요"]}
+{"id":"future.06","lesson":"future","t":"order","a":["내일","학교에","갈","거예요"],"x":["갔어요"],"alt":[["학교에","내일","갈","거예요"]]}
 {"id":"future.07","lesson":"future","t":"order","a":["주말에","뭐","할","거예요"],"x":["했어요"]}
 {"id":"future.08","lesson":"future","t":"order","a":["집에","있을","거예요"],"x":["있었어요"]}
 {"id":"future.09","lesson":"future","t":"fill","q":"갈 __","o":["어요","었어요","이에요"],"a":["거예요"]}
@@ -161,7 +161,7 @@
 {"id":"sov.07","lesson":"sov","t":"order","a":["한국어를","공부해요"],"x":["한국어가"]}
 {"id":"sov.08","lesson":"sov","t":"order","a":["친구가","책을","봐요"],"x":["책이"]}
 {"id":"sov.09","lesson":"sov","t":"fill","q":"밥__ 먹어요","o":["를","이","가"],"a":["을","은"]}
-{"id":"sov.10","lesson":"sov","t":"fill","q":"커피__ 마셔요","o":["을","가","이"],"a":["를"]}
+{"id":"sov.10","lesson":"sov","t":"fill","q":"커피__ 마셔요","o":["을","가","이"],"a":["를","는"]}
 {"id":"sov.11","lesson":"sov","t":"fill","q":"가방__ 커요","o":["을","를","가"],"a":["이","은"]}
 {"id":"sov.12","lesson":"sov","t":"type","a":["밥을 먹어요","저는 밥을 먹어요","밥 먹어요","저는 밥 먹어요"],"x":["밥를"],"hint":{"ko":"밥 · 먹어요"}}
 {"id":"sov.13","lesson":"sov","t":"type","a":["한국어를 공부해요","저는 한국어를 공부해요","한국어 공부해요","저는 한국어 공부해요"],"x":["한국어가"],"hint":{"ko":"한국어 · 공부해요"}}
@@ -173,7 +173,7 @@
 {"id":"particles.05","lesson":"particles","t":"mc","o":["친구가 왔어요","친구는 왔어요","친구를 왔어요","친구에 왔어요"]}
 {"id":"particles.06","lesson":"particles","t":"order","a":["카페에서","공부해요"],"x":["카페에"]}
 {"id":"particles.07","lesson":"particles","t":"order","a":["집에","가요"],"x":["집에서"]}
-{"id":"particles.08","lesson":"particles","t":"order","a":["아침에","커피를","마셔요"],"x":["아침에서"]}
+{"id":"particles.08","lesson":"particles","t":"order","a":["아침에","커피를","마셔요"],"x":["아침에서"],"alt":[["커피를","아침에","마셔요"]]}
 {"id":"particles.09","lesson":"particles","t":"fill","q":"카페__ 공부해요","o":["에","를","가"],"a":["에서"]}
 {"id":"particles.10","lesson":"particles","t":"fill","q":"학교__ 가요","o":["에서","이","은"],"a":["에"]}
 {"id":"particles.11","lesson":"particles","t":"fill","q":"고양이가 집__ 있어요","o":["에서","을","이"],"a":["에"]}
@@ -215,7 +215,7 @@
 {"id":"sentences.05","lesson":"sentences","t":"mc","o":["커피 마셔요?","커피 마셔요 까?","마셔요 커피?","커피 마셔요 뭐?"]}
 {"id":"sentences.06","lesson":"sentences","t":"order","a":["물을","마셔요"],"x":["물이"]}
 {"id":"sentences.07","lesson":"sentences","t":"order","a":["커피를","사요"],"x":["커피가"]}
-{"id":"sentences.08","lesson":"sentences","t":"order","a":["오늘","친구하고","커피를","마셔요"],"x":["커피가"]}
+{"id":"sentences.08","lesson":"sentences","t":"order","a":["오늘","친구하고","커피를","마셔요"],"x":["커피가"],"alt":[["친구하고","오늘","커피를","마셔요"]]}
 {"id":"sentences.09","lesson":"sentences","t":"fill","q":"커피__ 맛있어요","o":["를","을","에서"],"a":["가","는"]}
 {"id":"sentences.10","lesson":"sentences","t":"fill","q":"카페__ 가요","o":["에서","이","은"],"a":["에"]}
 {"id":"sentences.11","lesson":"sentences","t":"fill","q":"친구__ 카페에서 공부해요","o":["를","에","에서"],"a":["하고","와","랑"]}
@@ -228,7 +228,7 @@
 {"id":"want-like.04","lesson":"want-like","t":"mc","o":["안 가고 싶어요","가고 싶어요","안 갔어요","가지 싶어요"]}
 {"id":"want-like.05","lesson":"want-like","t":"mc","o":["보고 싶어요","보다 싶어요","봐요 싶어요","보고 좋아요"]}
 {"id":"want-like.06","lesson":"want-like","t":"order","a":["커피를","마시고","싶어요"],"x":["마셔요"]}
-{"id":"want-like.07","lesson":"want-like","t":"order","a":["한국에","가고","싶어요"],"x":["한국을"]}
+{"id":"want-like.07","lesson":"want-like","t":"order","a":["한국에","가고","싶어요"],"x":["한국이"]}
 {"id":"want-like.08","lesson":"want-like","t":"order","a":["영화를","좋아해요"],"x":["영화가"]}
 {"id":"want-like.09","lesson":"want-like","t":"fill","q":"먹__ 싶어요","o":["어","다","을"],"a":["고"]}
 {"id":"want-like.10","lesson":"want-like","t":"fill","q":"커피__ 좋아해요","o":["가","에","에서"],"a":["를","는"]}
@@ -247,9 +247,9 @@
 {"id":"numbers.09","lesson":"numbers","t":"fill","q":"커피 __ 잔 주세요","o":["하나","일","이"],"a":["한"]}
 {"id":"numbers.10","lesson":"numbers","t":"fill","q":"__ 시예요","o":["사","넷","다섯"],"a":["네"]}
 {"id":"numbers.11","lesson":"numbers","t":"fill","q":"세 시 __ 분","o":["서른","셋십","세"],"a":["삼십"]}
-{"id":"numbers.12","lesson":"numbers","t":"type","a":["스물여덟 살이에요","저는 스물여덟 살이에요","스물 여덟 살이에요","저는 스물 여덟 살이에요","스물여덟살이에요","저는 스물여덟살이에요"],"x":["이십팔"],"hint":{"ko":"스물여덟 · 살"}}
-{"id":"numbers.13","lesson":"numbers","t":"type","a":["두 시예요","지금 두 시예요","두시예요","지금 두시예요"],"x":["이"],"hint":{"ko":"두 · 시"}}
-{"id":"numbers.14","lesson":"numbers","t":"type","a":["삼천 원이에요","삼천원이에요"],"x":["세"],"hint":{"ko":"삼천 · 원"}}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["스물여덟 살이에요","저는 스물여덟 살이에요","스물 여덟 살이에요","저는 스물 여덟 살이에요","스물여덟살이에요","저는 스물여덟살이에요","스물여덟 살입니다","저는 스물여덟 살입니다"],"x":["이십팔"],"hint":{"ko":"스물여덟 · 살"}}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["두 시예요","지금 두 시예요","두시예요","지금 두시예요","두 시입니다","지금 두 시입니다"],"x":["이"],"hint":{"ko":"두 · 시"}}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["삼천 원이에요","삼천원이에요","삼천 원입니다"],"x":["세"],"hint":{"ko":"삼천 · 원"}}
 {"id":"food.01","lesson":"food","t":"mc","o":["저기요!","잘 먹겠습니다!","건배!","계산해요!"]}
 {"id":"food.02","lesson":"food","t":"mc","o":["잘 먹겠습니다","잘 먹었습니다","맛있어요","배고파요"]}
 {"id":"food.03","lesson":"food","t":"mc","o":["김밥 두 개 주세요","김밥 둘 개 주세요","김밥 두 잔 주세요","김밥 이 개 주세요"]}
@@ -259,10 +259,10 @@
 {"id":"food.07","lesson":"food","t":"order","a":["커피","한","잔","주세요"],"x":["하나"]}
 {"id":"food.08","lesson":"food","t":"order","a":["맵지","않게","해","주세요"],"x":["안"]}
 {"id":"food.09","lesson":"food","t":"fill","q":"맥주 두 __ 주세요","o":["살","원","시"],"a":["잔"]}
-{"id":"food.10","lesson":"food","t":"fill","q":"잘 __","o":["먹겠습니다","먹어요","먹을 거예요"],"a":["먹었습니다"]}
+{"id":"food.10","lesson":"food","t":"fill","q":"잘 __","o":["먹겠습니다","먹어요","먹을 거예요"],"a":["먹었습니다","먹었어요"]}
 {"id":"food.11","lesson":"food","t":"fill","q":"계산__ 주세요","o":["하","해요","했어"],"a":["해"]}
 {"id":"food.12","lesson":"food","t":"type","a":["물 주세요","저기요 물 주세요","물 좀 주세요"],"hint":{"ko":"물 · 주세요"}}
-{"id":"food.13","lesson":"food","t":"type","a":["김밥 세 개 주세요","김밥 세개 주세요"],"x":["셋"],"hint":{"ko":"김밥 · 세 · 개 · 주세요"}}
+{"id":"food.13","lesson":"food","t":"type","a":["김밥 세 개 주세요","김밥 세개 주세요","김밥 세 줄 주세요","김밥 세줄 주세요"],"x":["셋"],"hint":{"ko":"김밥 · 세 · 개 · 주세요"}}
 {"id":"food.14","lesson":"food","t":"type","a":["커피 한 잔 주세요","커피 한잔 주세요"],"x":["일"],"hint":{"ko":"커피 · 한 · 잔 · 주세요"}}
 {"id":"getting-around.01","lesson":"getting-around","t":"mc","o":["지하철역 어디예요?","지하철역 어디 가요?","지하철역에서 어디예요?","지하철역을 어디예요?"]}
 {"id":"getting-around.02","lesson":"getting-around","t":"mc","o":["왼쪽으로 가세요","오른쪽으로 가세요","왼쪽을 가세요","똑바로 가세요"]}
@@ -273,19 +273,19 @@
 {"id":"getting-around.07","lesson":"getting-around","t":"order","a":["여기서","세워","주세요"],"x":["여기를"]}
 {"id":"getting-around.08","lesson":"getting-around","t":"order","a":["버스","정류장","어디예요"],"x":["어디에서"]}
 {"id":"getting-around.09","lesson":"getting-around","t":"fill","q":"왼쪽__ 가세요","o":["로","에서","을"],"a":["으로"]}
-{"id":"getting-around.10","lesson":"getting-around","t":"fill","q":"지하철역 __?","o":["뭐예요","언제예요","누구예요"],"a":["어디예요"]}
+{"id":"getting-around.10","lesson":"getting-around","t":"fill","q":"지하철역 __?","o":["뭐예요","언제예요","누구예요"],"a":["어디예요","어디 있어요","어디에 있어요"]}
 {"id":"getting-around.11","lesson":"getting-around","t":"fill","q":"공항__ 가 주세요","o":["로","에서","는"],"a":["으로","에"]}
 {"id":"getting-around.12","lesson":"getting-around","t":"type","a":["지하철역 어디예요","지하철역이 어디예요","지하철역 어디에 있어요","지하철역이 어디에 있어요","지하철역 어디 있어요","지하철역이 어디 있어요","지하철역은 어디예요"],"hint":{"ko":"지하철역 · 어디예요"}}
-{"id":"getting-around.13","lesson":"getting-around","t":"type","a":["똑바로 가세요","쭉 가세요"],"hint":{"ko":"똑바로 · 가세요"}}
+{"id":"getting-around.13","lesson":"getting-around","t":"type","a":["똑바로 가세요","쭉 가세요","직진하세요"],"hint":{"ko":"똑바로 · 가세요"}}
 {"id":"getting-around.14","lesson":"getting-around","t":"type","a":["공항으로 가 주세요","공항에 가 주세요","공항 가 주세요","공항으로 가주세요","공항에 가주세요","공항 가주세요"],"x":["공항에서"],"hint":{"ko":"공항 · 가 주세요"}}
 {"id":"titles.01","lesson":"titles","t":"mc","o":["민수 씨","민수야","씨 민수","민수 님씨"]}
 {"id":"titles.02","lesson":"titles","t":"mc","o":["민수 오빠","민수 형","민수 언니","민수 누나"]}
 {"id":"titles.03","lesson":"titles","t":"mc","o":["지은 누나","지은 언니","지은 오빠","지은 형"]}
 {"id":"titles.04","lesson":"titles","t":"mc","o":["지은아!","지은야!","지은 씨야!","지은님아!"]}
 {"id":"titles.05","lesson":"titles","t":"mc","o":["사장님","사장 씨","사장아","사장"]}
-{"id":"titles.06","lesson":"titles","t":"order","a":["사장님","계산해","주세요"],"x":["사장아"]}
-{"id":"titles.07","lesson":"titles","t":"order","a":["민수","씨","시간","있어요"],"x":["민수야"]}
-{"id":"titles.08","lesson":"titles","t":"order","a":["오빠","뭐","해"],"x":["형"]}
+{"id":"titles.06","lesson":"titles","t":"order","a":["사장님","계산해","주세요"],"x":["사장아"],"alt":[["계산해","주세요","사장님"]]}
+{"id":"titles.07","lesson":"titles","t":"order","a":["민수","씨","시간","있어요"],"x":["민수야"],"alt":[["시간","있어요","민수","씨"]]}
+{"id":"titles.08","lesson":"titles","t":"order","a":["오빠","뭐","해"],"x":["형"],"alt":[["뭐","해","오빠"]]}
 {"id":"titles.09","lesson":"titles","t":"fill","q":"민수__! 뭐 해?","o":["아","씨","님"],"a":["야"]}
 {"id":"titles.10","lesson":"titles","t":"fill","q":"지은__! 밥 먹었어?","o":["야","씨","님"],"a":["아"]}
 {"id":"titles.11","lesson":"titles","t":"fill","q":"선생__, 안녕하세요","o":["씨","아","야"],"a":["님"]}
@@ -313,7 +313,7 @@
 {"id":"texting.05","lesson":"texting","t":"mc","o":["ㅠㅠ","ㅎㅎ","ㅇㅇ","ㄱㅅ"]}
 {"id":"texting.06","lesson":"texting","t":"order","a":["나","다","왔어"],"x":["저는"]}
 {"id":"texting.07","lesson":"texting","t":"order","a":["배고파","뭐","먹지"],"x":["배고파요"]}
-{"id":"texting.08","lesson":"texting","t":"order","a":["잘","자","내일","봐"],"x":["봐요"]}
+{"id":"texting.08","lesson":"texting","t":"order","a":["잘","자","내일","봐"],"x":["봐요"],"alt":[["내일","봐","잘","자"]]}
 {"id":"texting.09","lesson":"texting","t":"fill","q":"지금 __?","o":["누구","뭐","언제"],"a":["어디","어디야"]}
 {"id":"texting.10","lesson":"texting","t":"fill","q":"나 다 __","o":["갔어","와요","먹었어"],"a":["왔어"]}
 {"id":"texting.11","lesson":"texting","t":"fill","q":"ㅇㅋ, 내일 __","o":["와","가","해"],"a":["봐","보자"]}
@@ -332,7 +332,7 @@
 {"id":"counters.10","lesson":"counters","t":"fill","q":"커피 __ 잔 주세요","o":["둘","이","하나"],"a":["두"]}
 {"id":"counters.11","lesson":"counters","t":"fill","q":"몇 __이세요?","o":["개","잔","마리"],"a":["명","분"]}
 {"id":"counters.12","lesson":"counters","t":"type","a":["표 두 장 주세요","표 두장 주세요"],"x":["권"],"hint":{"ko":"표 · 두 · 장 · 주세요"}}
-{"id":"counters.13","lesson":"counters","t":"type","a":["고양이 세 마리 있어요","고양이가 세 마리 있어요","저는 고양이 세 마리 있어요","저는 고양이가 세 마리 있어요","고양이 세마리 있어요","고양이 세 마리가 있어요","저는 고양이 세 마리가 있어요"],"x":["명"],"hint":{"ko":"고양이 · 세 · 마리 · 있어요"}}
+{"id":"counters.13","lesson":"counters","t":"type","a":["고양이 세 마리 있어요","고양이가 세 마리 있어요","저는 고양이 세 마리 있어요","저는 고양이가 세 마리 있어요","고양이 세마리 있어요","고양이 세 마리가 있어요","저는 고양이 세 마리가 있어요","고양이 세 마리 키워요","고양이를 세 마리 키워요","저는 고양이 세 마리 키워요","저는 고양이를 세 마리 키워요"],"x":["명"],"hint":{"ko":"고양이 · 세 · 마리 · 있어요"}}
 {"id":"counters.14","lesson":"counters","t":"type","a":["두 시간 공부했어요","저는 두 시간 공부했어요","두시간 공부했어요","저는 두시간 공부했어요"],"x":["이"],"hint":{"ko":"두 · 시간 · 공부했어요"}}
 {"id":"joining.01","lesson":"joining","t":"mc","o":["비싸지만 맛있어요","비싸고 맛있어요","비싸서 맛있어요","비싸요지만 맛있어요"]}
 {"id":"joining.02","lesson":"joining","t":"mc","o":["바빠서 안 갔어요","바빴어서 안 갔어요","바쁘고 안 갔어요","바쁘지만 안 갔어요"]}
@@ -353,11 +353,11 @@
 {"id":"story.03","lesson":"story","t":"mc","o":["그런데 영화가 너무 길었어요","그래서 영화가 너무 길었어요","그런데 영화를 너무 길었어요","그런데 영화가 너무 길어요"]}
 {"id":"story.04","lesson":"story","t":"mc","o":["봤어요","봐요","볼 거예요","보았요"]}
 {"id":"story.05","lesson":"story","t":"mc","o":["마지막으로","먼저","그다음에","아까"]}
-{"id":"story.06","lesson":"story","t":"order","a":["어제","친구를","만났어요"],"x":["만나요"]}
+{"id":"story.06","lesson":"story","t":"order","a":["어제","친구를","만났어요"],"x":["만나요"],"alt":[["친구를","어제","만났어요"]]}
 {"id":"story.07","lesson":"story","t":"order","a":["그다음에","영화를","봤어요"],"x":["영화가"]}
 {"id":"story.08","lesson":"story","t":"order","a":["먼저","카페에","갔어요"],"x":["카페에서"]}
 {"id":"story.09","lesson":"story","t":"fill","q":"__ 커피를 마셨어요","o":["그런데","그래서","마지막으로"],"a":["그리고"]}
-{"id":"story.10","lesson":"story","t":"fill","q":"어제 친구를 __","o":["만나요","만날 거예요","만나았어요"],"a":["만났어요"]}
+{"id":"story.10","lesson":"story","t":"fill","q":"어제 친구를 __","o":["만나요","만날 거예요","만나았어요"],"a":["만났어요","봤어요"]}
 {"id":"story.11","lesson":"story","t":"fill","q":"지난 주말__ 뭐 했어요?","o":["에서","을","이"],"a":["에"]}
 {"id":"story.12","lesson":"story","t":"type","a":["아까 점심 먹었어요","아까 점심을 먹었어요","저는 아까 점심 먹었어요","저는 아까 점심을 먹었어요"],"hint":{"ko":"아까 · 점심 · 먹었어요"}}
 {"id":"story.13","lesson":"story","t":"type","a":["그래서 집에서 쉬었어요","그래서 저는 집에서 쉬었어요"],"x":["집에"],"hint":{"ko":"그래서 · 집 · 쉬었어요"}}
@@ -389,7 +389,7 @@
 {"id":"compare.11","lesson":"compare","t":"fill","q":"__ 주세요","o":["덜","제일","보다"],"a":["더"]}
 {"id":"compare.12","lesson":"compare","t":"type","a":["버스가 택시보다 싸요","버스가 택시보다 더 싸요","택시보다 버스가 싸요","택시보다 버스가 더 싸요","버스는 택시보다 싸요","버스는 택시보다 더 싸요"],"x":["택시가"],"hint":{"ko":"버스 · 택시보다 · 싸요"}}
 {"id":"compare.13","lesson":"compare","t":"type","a":["이게 제일 맛있어요","이게 가장 맛있어요","이것이 제일 맛있어요","이거 제일 맛있어요","이거 가장 맛있어요","이것이 가장 맛있어요"],"x":["더"],"hint":{"ko":"이게 · 제일 · 맛있어요"}}
-{"id":"compare.14","lesson":"compare","t":"type","a":["더 주세요"],"x":["덜"],"hint":{"ko":"더 · 주세요"}}
+{"id":"compare.14","lesson":"compare","t":"type","a":["더 주세요","좀 더 주세요"],"x":["덜"],"hint":{"ko":"더 · 주세요"}}
 {"id":"cant.01","lesson":"cant","t":"mc","o":["매운 거 못 먹어요","매운 거 안 먹어요","매운 거 먹어요 못","못 매운 거 먹어요"]}
 {"id":"cant.02","lesson":"cant","t":"mc","o":["할 수 있어요","할 수 없어요","하 수 있어요","해 수 있어요"]}
 {"id":"cant.03","lesson":"cant","t":"mc","o":["운동 못 해요","못 운동해요","운동해요 못","운동 해요 못"]}
@@ -454,7 +454,7 @@
 {"id":"office.06","lesson":"office","t":"order","a":["먼저","퇴근하겠습니다"],"x":["퇴근했어요"]}
 {"id":"office.07","lesson":"office","t":"order","a":["회의","몇","시예요"],"x":["언제"]}
 {"id":"office.08","lesson":"office","t":"order","a":["안녕하세요","마케팅팀","키이입니다"],"x":["키이님"]}
-{"id":"office.09","lesson":"office","t":"fill","q":"확인 __","o":["부탁해","했습니다","주세요요"],"a":["부탁드립니다","부탁 드립니다"]}
+{"id":"office.09","lesson":"office","t":"fill","q":"확인 __","o":["부탁해","했습니다","주세요요"],"a":["부탁드립니다","부탁 드립니다","부탁드려요"]}
 {"id":"office.10","lesson":"office","t":"fill","q":"수고__","o":["했어","해","합니다"],"a":["하셨습니다","하셨어요"]}
 {"id":"office.11","lesson":"office","t":"fill","q":"과장__, 이거 확인해 주시겠어요?","o":["씨","아","야"],"a":["님"]}
 {"id":"office.12","lesson":"office","t":"type","a":["팀장님 수고하셨습니다","팀장님 오늘 수고하셨습니다","오늘 수고하셨습니다 팀장님","수고하셨습니다 팀장님","팀장님 수고하셨어요","팀장님 오늘 수고하셨어요"],"x":["수고했어요"],"hint":{"ko":"팀장님 · 수고하셨습니다"}}

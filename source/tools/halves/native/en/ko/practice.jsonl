@@ -101,7 +101,7 @@
 {"id":"verbbasics.03","q":"Polite form of 하다 =","why":"하다 is special: 해요."}
 {"id":"verbbasics.04","q":"'I exercise' =","why":"Noun + 하다 makes a verb: 운동해요."}
 {"id":"verbbasics.05","q":"'The weather is good' =","why":"Describing verbs need no separate 'is'."}
-{"id":"verbbasics.06","p":"The weather is good","why":"Say the 요-form, not the dictionary form."}
+{"id":"verbbasics.06","p":"The weather is good","why":"좋다요 is not a form: the polite form is 좋아요."}
 {"id":"verbbasics.07","p":"I have time","why":"있어요 = have."}
 {"id":"verbbasics.08","p":"The bag is big","why":"커요 = is big."}
 {"id":"verbbasics.09","p":"(I) eat","why":"Spoken form is 먹어요; 먹다 is for dictionaries."}
@@ -129,7 +129,7 @@
 {"id":"past.03","q":"하다 in the past =","why":"해요 → 했어요."}
 {"id":"past.04","q":"'(It) was good' =","why":"좋아요 → 좋았어요."}
 {"id":"past.05","q":"'(I) didn't go' =","why":"안 before the verb; 갔어요 is the past."}
-{"id":"past.06","p":"My friend came yesterday","why":"Time word first, past verb last."}
+{"id":"past.06","p":"My friend came yesterday","why":"Time words usually come first; the past verb always comes last."}
 {"id":"past.07","p":"(I) was at home yesterday","why":"있어요 → 있었어요."}
 {"id":"past.08","p":"What did you do?","why":"해요 → 했어요."}
 {"id":"past.09","p":"(I) ate","why":"먹어요 → 먹었어요."}
@@ -143,7 +143,7 @@
 {"id":"future.03","q":"하다 in the future =","why":"하 + ㄹ → 할 거예요."}
 {"id":"future.04","q":"Which word means 'tomorrow'?","why":"내일 = tomorrow; 어제 = yesterday."}
 {"id":"future.05","q":"'(I) won't go' =","why":"안 goes before the verb."}
-{"id":"future.06","p":"I'll go to school tomorrow","why":"Time first; 갈 거예요 = will go."}
+{"id":"future.06","p":"I'll go to school tomorrow","why":"Time usually first; 갈 거예요 = will go."}
 {"id":"future.07","p":"What will you do on the weekend?","why":"할 거예요 = will do."}
 {"id":"future.08","p":"(I) will be at home","why":"있 + 을 거예요."}
 {"id":"future.09","p":"(I) will go","why":"Stem + ㄹ + 거예요."}
@@ -173,7 +173,7 @@
 {"id":"particles.05","q":"Answering 누가 왔어요? (Who came?): 'My friend came' =","why":"The answer to 'who?' is new info → 이/가."}
 {"id":"particles.06","p":"I study at a café","why":"Action location → 에서."}
 {"id":"particles.07","p":"I'm going home","why":"Destination → 에."}
-{"id":"particles.08","p":"I drink coffee in the morning","why":"Time → 에; time words go first."}
+{"id":"particles.08","p":"I drink coffee in the morning","why":"Time → 에; time words usually go first."}
 {"id":"particles.09","p":"I study at a café","why":"Action location → 에서."}
 {"id":"particles.10","p":"I go to school","why":"Destination → 에."}
 {"id":"particles.11","p":"The cat is at home","why":"있어요 takes 에, not 에서."}
@@ -215,7 +215,7 @@
 {"id":"sentences.05","q":"'Do you drink coffee?' (spoken) =","why":"Same words, rising tone."}
 {"id":"sentences.06","p":"(I) drink water","why":"Object + 을, verb last."}
 {"id":"sentences.07","p":"(I) buy coffee","why":"Buying is done to the coffee → 를."}
-{"id":"sentences.08","p":"Today I drink coffee with a friend","why":"when · with whom · what · verb."}
+{"id":"sentences.08","p":"Today I drink coffee with a friend","why":"Usually when · with whom · what · verb; the verb is always last."}
 {"id":"sentences.09","p":"The coffee is tasty","why":"Describing verb → 이/가; 커피 ends in a vowel → 가."}
 {"id":"sentences.10","p":"(I) go to a café","why":"Destination → 에."}
 {"id":"sentences.11","p":"(I) study at a café with a friend","why":"하고 = with / and."}
@@ -283,8 +283,8 @@
 {"id":"titles.03","q":"A man calling his older female friend 지은:","why":"Men say 누나 to older women; women say 언니."}
 {"id":"titles.04","q":"Calling your close friend 지은 by name:","why":"지은 ends in a consonant → 아."}
 {"id":"titles.05","q":"Calling the restaurant owner:","why":"A role takes 님: 사장님."}
-{"id":"titles.06","p":"Boss (owner), the check please","why":"Title first, then the request."}
-{"id":"titles.07","p":"Minsu, are you free? (to a coworker)","why":"Name + 씨 for a coworker, then the question."}
+{"id":"titles.06","p":"Boss (owner), the check please","why":"The title opens (or closes) the request."}
+{"id":"titles.07","p":"Minsu, are you free? (to a coworker)","why":"Name + 씨 for a coworker; it opens (or closes) the question."}
 {"id":"titles.08","p":"(a girl to an older guy) What are you doing?","why":"A girl calls an older guy 오빠."}
 {"id":"titles.09","p":"Minsu! What are you doing? (close friend)","why":"민수 ends in a vowel → 야."}
 {"id":"titles.10","p":"Jieun! Did you eat? (close friend)","why":"지은 ends in a consonant → 아."}
@@ -353,7 +353,7 @@
 {"id":"story.03","q":"'But the movie was too long' =","why":"그런데 = but; a describing verb takes 이/가; past 길었어요."}
 {"id":"story.04","q":"Past tense of 보다 (요-form):","why":"보 + 았어요 merges to 봤어요."}
 {"id":"story.05","q":"'Lastly' =","why":"마지막으로 closes a sequence."}
-{"id":"story.06","p":"Yesterday I met a friend","why":"Time word first, past tense last."}
+{"id":"story.06","p":"Yesterday I met a friend","why":"Time words usually come first; the past tense always comes last."}
 {"id":"story.07","p":"After that, we watched a movie","why":"Connector first; a movie is what you watch → 를."}
 {"id":"story.08","p":"First we went to a café","why":"Going to a place → 에."}
 {"id":"story.09","p":"And we drank coffee","why":"그리고 = and (then)."}

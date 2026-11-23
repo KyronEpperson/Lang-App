@@ -31,7 +31,7 @@
 {"id":"nouns.k1","lesson":"nouns","o":["저는 학생이에요","저는 학생예요","저은 학생이에요","저가 학생이에요"],"a":0}
 {"id":"nouns.k2","lesson":"nouns","o":["저 건물","이 건물","그 건물","건물 저"],"a":0}
 {"id":"nouns.k3","lesson":"nouns","o":["제 이름은 민수예요","제 이름는 민수예요","제 이름은 민수이에요","이름 제 민수예요"],"a":0}
-{"id":"isseoyo.k1","lesson":"isseoyo","o":["집에 있어요","집이에요","집이 있어요","집에 이에요"],"a":0}
+{"id":"isseoyo.k1","lesson":"isseoyo","o":["집에 있어요","집을 있어요","집이 있어요","집에 이에요"],"a":0}
 {"id":"isseoyo.k2","lesson":"isseoyo","o":["고양이가 있어요","고양이예요","고양이에 있어요","고양이이 있어요"],"a":0}
 {"id":"isseoyo.k3","lesson":"isseoyo","o":["시간이 없어요","시간이 아니에요","시간가 없어요","시간에 없어요"],"a":0}
 {"id":"sov.k1","lesson":"sov","o":[null,null,null,null],"a":0}
@@ -67,7 +67,7 @@
 {"id":"story.k1","lesson":"story","o":["그래서 집에 늦게 왔어요","그런데 집에 늦게 왔어요","먼저 집에 늦게 왔어요","아니면 집에 늦게 왔어요"],"a":0}
 {"id":"story.k2","lesson":"story","o":["그런데","그리고","그다음에","마지막으로"],"a":0}
 {"id":"story.k3","lesson":"story","o":[null,null,null,null],"a":0}
-{"id":"counters.k1","lesson":"counters","o":["커피 두 잔 주세요","커피 둘 잔 주세요","커피 이 잔 주세요","커피 두 개 주세요"],"a":0}
+{"id":"counters.k1","lesson":"counters","o":["커피 두 잔 주세요","커피 둘 잔 주세요","커피 이 잔 주세요","커피 두 명 주세요"],"a":0}
 {"id":"counters.k2","lesson":"counters","o":["분","명","개","마리"],"a":0}
 {"id":"counters.k3","lesson":"counters","o":[null,null,null,null],"a":0}
 {"id":"titles.k1","lesson":"titles","o":["민수 씨","민수야","민수","민수님"],"a":0}
@@ -92,7 +92,7 @@
 {"id":"numbers.k2","lesson":"numbers","o":["세 시","삼 시","셋 시","삼 시간"],"a":0}
 {"id":"numbers.k3","lesson":"numbers","o":["오만 원","오십천 원","오천 원","오백 원"],"a":0}
 {"id":"food.k1","lesson":"food","o":["저기요!","야!","여보세요!","안녕!"],"a":0}
-{"id":"food.k2","lesson":"food","o":["김밥 두 개 주세요","김밥 이 개 주세요","김밥 둘 주세요","김밥 두 잔 주세요"],"a":0}
+{"id":"food.k2","lesson":"food","o":["김밥 두 개 주세요","김밥 이 개 주세요","김밥 둘 개 주세요","김밥 두 잔 주세요"],"a":0}
 {"id":"food.k3","lesson":"food","o":["잘 먹었습니다","잘 먹겠습니다","맛있어요","건배"],"a":0}
 {"id":"getting-around.k1","lesson":"getting-around","o":["똑바로 가세요","왼쪽으로 가세요","오른쪽이에요","여기서 세워 주세요"],"a":0}
 {"id":"getting-around.k2","lesson":"getting-around","o":["명동으로 가 주세요","명동 어디예요?","명동에서 왔어요","명동 주세요"],"a":0}

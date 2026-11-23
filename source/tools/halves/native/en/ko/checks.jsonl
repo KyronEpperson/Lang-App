@@ -55,7 +55,7 @@
 {"id":"sentences.k1","q":"'I drink coffee at a café' =","why":"Place of action → 에서; verb last."}
 {"id":"sentences.k2","q":"'The coffee is tasty' =","why":"Describing verbs take 이/가, not 을/를."}
 {"id":"sentences.k3","q":"Usual order?","o":["who · when · where · what · verb","verb · what · where · who","who · verb · what · where","what · who · verb · when"],"why":"Everything stacks up in front of the verb."}
-{"id":"office.k1","q":"You're leaving; your manager is still working. You say:","why":"수고하세요 = keep up the good work (they stay)."}
+{"id":"office.k1","q":"You're leaving; a coworker at your level is still working. You say:","why":"수고하세요 = keep up the good work (they stay)."}
 {"id":"office.k2","q":"Address a manager named 김민수 as:","why":"Title + 님, not the name."}
 {"id":"office.k3","q":"Politely declining a drink at 회식:","why":"Give a reason; 운전 is the universal one."}
 {"id":"honorific.k1","q":"'Enjoy your meal' to a customer:","why":"드시다 replaces 먹다 in honorific speech."}
@@ -85,7 +85,7 @@
 {"id":"polite.k1","q":"You're ordering at a café. Which form?","why":"요-form is the default with strangers and staff."}
 {"id":"polite.k2","q":"Dropping the 요 makes speech…","o":["casual (반말)","more polite","formal","a question"],"why":"반말 = casual speech for close friends and younger people."}
 {"id":"polite.k3","q":"감사합니다 is which level?","o":["formal","casual","polite 요-form","slang"],"why":"-습니다 / -ㅂ니다 is the formal level."}
-{"id":"meet.k1","q":"'I'm Lisa' — Lisa ends in a vowel, so:","why":"예요 after a vowel, 이에요 after a consonant."}
+{"id":"meet.k1","q":"'I'm Lisa' — in Hangul 리사, and the last block 사 ends in a vowel, so:","why":"Go by the last Hangul block: no final consonant → 예요; a final consonant → 이에요."}
 {"id":"meet.k2","q":"Someone is leaving and you are staying. You say:","why":"가세요 = go well (to the one leaving)."}
 {"id":"meet.k3","q":"'Where are you from?'","why":"에서 왔어요 = came from."}
 {"id":"numbers.k1","q":"Which number system for money?","o":["Sino-Korean (일, 이, 삼)","Native (하나, 둘, 셋)","Either","Neither"],"why":"Money, dates, minutes, phone numbers → Sino."}

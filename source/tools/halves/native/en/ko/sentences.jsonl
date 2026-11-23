@@ -6,7 +6,7 @@
 {"id":"ko.s0006","gloss":"Thanks (casual)"}
 {"id":"ko.s0007","gloss":"You're cute (polite)"}
 {"id":"ko.s0008","gloss":"You're cute (casual)"}
-{"id":"ko.s0009","gloss":"Hello. I'm Kii."}
+{"id":"ko.s0295","gloss":"Hello. I'm Kii."}
 {"id":"ko.s0010","gloss":"Nice to meet you"}
 {"id":"ko.s0011","gloss":"Where are you from?"}
 {"id":"ko.s0012","gloss":"I'm from the US"}
@@ -253,7 +253,7 @@
 {"id":"ko.s0253","gloss":"I don't eat spicy food (by choice)"}
 {"id":"ko.s0254","gloss":"I can't eat spicy food (it's too much)"}
 {"id":"ko.s0255","gloss":"I can't go today"}
-{"id":"ko.s0256","gloss":"I can't swim"}
+{"id":"ko.s0296","gloss":"I can't swim (no skill: 못해요, one word)"}
 {"id":"ko.s0257","gloss":"I can't work out today"}
 {"id":"ko.s0258","gloss":"Can you speak Korean?"}
 {"id":"ko.s0259","gloss":"I can, a little"}

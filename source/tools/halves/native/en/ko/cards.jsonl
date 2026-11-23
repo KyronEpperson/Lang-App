@@ -16,7 +16,7 @@
 {"id":"ko.c0016","meaning":"flap r between vowels, l at end","note":"라 = ra, 물 = mul."}
 {"id":"ko.c0017","meaning":"m","note":"마 = ma."}
 {"id":"ko.c0018","meaning":"b at start, p at end","note":"바 = ba, 밥 = bap."}
-{"id":"ko.c0019","meaning":"s; 'sh' before ㅣ","note":"사 = sa, 시 = shi."}
+{"id":"ko.c0019","meaning":"s; 'sh' before ㅣ","note":"사 = sa, 시 = si (sounds like 'shee')."}
 {"id":"ko.c0020","meaning":"silent at start, ng at end","note":"아 = a, 강 = gang."}
 {"id":"ko.c0021","meaning":"j","note":"자 = ja."}
 {"id":"ko.c0022","meaning":"ch (aspirated ㅈ)","note":"차 = cha."}
@@ -70,7 +70,7 @@
 {"id":"ko.c0070","meaning":"Please speak slowly","note":"Lifesaver phrase."}
 {"id":"ko.c0071","meaning":"I don't speak Korean well","note":"Buys you patience."}
 {"id":"ko.c0072","meaning":"Just a moment / excuse me","note":"Squeezing past someone on the subway."}
-{"id":"ko.c0073","meaning":"I'm ___","note":"이에요 after a consonant (저는 Kim이에요), 예요 after a vowel (저는 Lisa예요)."}
+{"id":"ko.c0073","meaning":"I'm ___","note":"Look at the last Hangul block: 이에요 after a final consonant (저는 킴이에요), 예요 after a vowel (저는 리사예요)."}
 {"id":"ko.c0074","meaning":"What's your name?","note":"Polite: 성함이 어떻게 되세요? for elders or formal settings."}
 {"id":"ko.c0075","meaning":"Nice to meet you","note":"Lit. 'glad because we met'. Formal: 반갑습니다."}
 {"id":"ko.c0076","meaning":"Where are you from?","note":"에서 = from. 어디 = where."}
@@ -139,7 +139,7 @@
 {"id":"ko.c0139","meaning":"Where's the microwave?","note":"Self-serve heating area, usually by the window seats."}
 {"id":"ko.c0140","meaning":"Is there hot water?","note":"For 컵라면 (cup noodles). It's free at every 편의점."}
 {"id":"ko.c0141","meaning":"Do you need a bag? (they ask)","note":"Answer: 네 / 아니요. Bags cost ~100원."}
-{"id":"ko.c0142","meaning":"Is this buy one get one?","note":"Korea's 1+1 / 2+1 stickers. Say 원 플러스 원."}
+{"id":"ko.c0642","meaning":"Is this buy one get one?","note":"Korea's 1+1 / 2+1 stickers. Say 원 플러스 원."}
 {"id":"ko.c0143","meaning":"Please bag these separately","note":"따로 = separately. 담다 = put in."}
 {"id":"ko.c0144","meaning":"I'll pay by card","note":"현금으로 = by cash. Tap, no signature needed."}
 {"id":"ko.c0145","meaning":"4,500 won","note":"Sino-Korean: 사천오백. 원 = won."}
@@ -250,7 +250,7 @@
 {"id":"ko.c0250","meaning":"Did you come? (honorific past)","note":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?"}
 {"id":"ko.c0251","meaning":"do (honorific)","note":"안녕하세요 is literally 'are you at peace' with 시."}
 {"id":"ko.c0252","meaning":"father / mother (someone else's, honorific)","note":"님 raises 아버지/어머니. For your partner's parents."}
-{"id":"ko.c0253","meaning":"grandmother (honorific)","note":"Used for elderly strangers too."}
+{"id":"ko.c0253","meaning":"grandmother (honorific)","note":"Someone else's grandmother, or very formal speech. Elderly strangers: 할머니 or 어르신."}
 {"id":"ko.c0254","meaning":"customer / guest","note":"손 + 님. 고객님 at shops."}
 {"id":"ko.c0255","meaning":"Teacher, have you eaten?","note":"식사 = honorific-ish 'meal'. 하셨어요 = did (honorific)."}
 {"id":"ko.c0256","meaning":"Have you been well? (honorific)","note":"지내다 + 시 + 었어요."}
@@ -413,7 +413,7 @@
 {"id":"ko.c0413","meaning":"I miss you","note":"Lit. 'I want to see you'."}
 {"id":"ko.c0414","meaning":"I like you","note":"The step before 사랑해."}
 {"id":"ko.c0415","meaning":"Babe / honey","note":"Common couple nickname."}
-{"id":"ko.c0416","meaning":"Sleep well / good night","note":"Casual. Polite: 안녕히 주무세요."}
+{"id":"ko.c0416","meaning":"Sleep well / good night","note":"Casual. Polite: 잘 자요; to elders: 안녕히 주무세요."}
 {"id":"ko.c0417","meaning":"Did you eat?","note":"How Koreans say 'how are you' to people they care about."}
 {"id":"ko.c0418","meaning":"You look pretty today","note":"네요 = noticing out loud. Casual: 오늘 예쁘네."}
 {"id":"ko.c0419","meaning":"Your eyes are so pretty","note":"눈 = eyes. 웃는 모습이 예뻐요 = your smile is pretty."}
@@ -506,7 +506,7 @@
 {"id":"ko.c0506","meaning":"The song is good","note":"이 노래 진짜 좋아요 = this song is so good."}
 {"id":"ko.c0507","meaning":"The lyrics are good","note":"가사 = lyrics."}
 {"id":"ko.c0508","meaning":"choreography","note":"안무 외웠어요 = I memorized the choreo."}
-{"id":"ko.c0509","meaning":"debut","note":"데뷔 몇 년이에요? = what year did they debut?"}
+{"id":"ko.c0509","meaning":"debut","note":"몇 년에 데뷔했어요? = what year did they debut?"}
 {"id":"ko.c0510","meaning":"fan meeting","note":"팬싸 = fan sign event."}
 {"id":"ko.c0511","meaning":"fancam","note":"직접 + 캠. Member-focused concert video."}
 {"id":"ko.c0512","meaning":"Instagram story","note":"스토리 봤어? = did you see my story?"}
@@ -516,7 +516,7 @@
 {"id":"ko.c0516","meaning":"sudden awkward silence","note":"갑자기 분위기 싸해짐. When a joke dies."}
 {"id":"ko.c0517","meaning":"too much info / random fact","note":"Used for cute oversharing, not gross stuff."}
 {"id":"ko.c0518","meaning":"effortlessly styled","note":"꾸민 듯 안 꾸민 듯. The 'I woke up like this' look."}
-{"id":"ko.c0519","meaning":"insanely delicious","note":"Very casual. JMT in texts."}
+{"id":"ko.c0519","meaning":"insanely delicious","note":"Very casual slang with a vulgar origin: only with close friends. JMT in texts."}
 {"id":"ko.c0520","meaning":"agreed / facts","note":"Text shorthand for 인정."}
 {"id":"ko.c0521","meaning":"for real","note":"Text shorthand for 리얼."}
 {"id":"ko.c0522","meaning":"super extrovert / popular","note":"핵 = nuke prefix. 아싸 = outsider / introvert."}
