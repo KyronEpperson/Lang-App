@@ -1,7 +1,24 @@
 {
-  "lessons": {},
+  "lessons": {
+    "pinoy-english": "tl-only lesson (profile tl.md §8 'add' / §4.8 / §2 classes A, C, D / §9 Ingles-Pinoy list): Philippine English usages that mislead abroad (CR, open the light, for a while, go down, It's traffic, brownout, ref, aircon, commute, salvage, gimmick, bold), small grammar habits (fill out, cope with, result in, based on, share with, in my opinion, make a mistake, uncountable luggage / furniture / advice) and local words that are fine (jeepney, barangay, sari-sari store, pasalubong); placed after smalltalk via profile.json lessonOrder.after; deck Mga bitag ng Ingles-Pinoy; no ko-en counterpart (replaces the ko-only konglish lesson in more/a1.js; mirrors zh chinglish, ja katakana-english, id indo-english)",
+    "aspect-tense": "tl-only lesson (profile tl.md §8 additions, §4.3): maps the three Tagalog aspect forms (tapos na / ginagawa / gagawin pa: kumain, kumakain, kakain) and the enclitics na / pa onto the English tenses each can become, plus the two rules Tagalog lacks (the verb always carries the time; base form after did / does / will / to); placed after perfect via profile.json lessonOrder.after; linked to the deck «Kuwentuhan»; new body, check and 16-item practice set that satisfies the standing rule article-plural (§7)"
+  },
   "items": {},
-  "decks": {},
-  "extraLessons": [],
+  "decks": {
+    "Pagpapakilala": "localisation per profile tl.md §9 (Minji→Ana, Korea→the Philippines, Seoul→Manila): cards 0 'My name is Ana.', 4 'I'm from the Philippines.', 5 'I live in Manila.'",
+    "Mahahalagang pangungusap 1": "localisation per profile tl.md §9: card 12 'Do you speak Korean?' → 'Do you speak Tagalog?' (learner's own language)",
+    "Kuwentuhan": "localisation per profile tl.md §9: card 6 'Have you been to Korea?' → 'Have you been to the Philippines?'",
+    "Papuri at paghanga": "localisation per profile tl.md §9: card 8 'Your Korean is really good!' → 'Your Tagalog is really good!'",
+    "Tawag, text at mga daglat": "localisation per profile tl.md §9 (Minji→Ana; Mr. Kim→Mr. Santos): cards 0 'Hello, this is Ana.', 1 'Can I speak to Mr. Santos?'",
+    "Biyahe (airport at hotel)": "localisation per profile tl.md §9: card 8 reservation name 'under Kim' → 'under Santos'",
+    "Ospital at emergency": "localisation per profile tl.md §9: card 15 'the Korean embassy' → 'the Philippine embassy' (learner's own embassy)",
+    "Ingat sa bigkas": "tl-only cards appended per profile tl.md §4.10 / §9 (cards 26–35): ship, sheep (ɪ / iː), full, fool (ʊ / uː), cat, cut (æ / ʌ), zoo, Sue, his, hiss (z / s). Original 26 cards unchanged; the think / 'tink' contrast is named in the note of 'think' and shown in the pron lesson body only",
+    "Mga bitag ng Ingles-Pinoy": "tl-only deck (profile tl.md §2 classes C–D, §4.8, §9 Ingles-Pinoy list): 34 cards whose target is the American form (bathroom for CR, turn on / off, power outage, fridge, AC, sneakers, get off, a lot of traffic, salvage, bold, go out for gimmick, make a copy, prepaid minutes, take the bus, bottled water, marker, bunk bed, fast, graduated the same year, main dish, make a mistake, in my opinion, better, luggage, regarding, share with, in January, just a moment, heading out, cope with, result in, based on, fill out); linked to the tl-only lesson pinoy-english; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en: tl-only deck Mga bitag ng Ingles-Pinoy (profile tl.md §9) appended last, after the shared alphabet deck"
+  },
+  "extraLessons": [
+    "pinoy-english",
+    "aspect-tense"
+  ],
   "droppedLessons": []
 }
