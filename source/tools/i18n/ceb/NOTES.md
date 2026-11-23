@@ -1,9 +1,9 @@
 # Cebuano (ceb) interface dictionary: notes
 
-Files: `ui.json` (784 exact keys, 274 pattern templates), `roadmap.json` (40 Korean-roadmap titles filled, the rest empty so they fall back to English), generated pack `packs/i18n-ceb.js`.
+Files: `ui.json` (784 exact keys, 274 pattern templates), `roadmap.json` (40 Korean-roadmap titles and, since 2026-11-23, the 39 English-roadmap titles filled; the rest empty so they fall back to English), generated pack `packs/i18n-ceb.js`.
 Build: `python3 tools/i18n/gen.py ceb && node tools/i18n/validate.js ceb` (PASS; 2 warning classes, the same classes as `es`: 18 labels that may overflow, 48 strings identical to English because they are kept loanwords or grammar terms).
 
-The only course this interface serves is **ceb-ko** (Korean for Cebuano speakers). Every key that says Korean, Hangul or romanization is therefore translated **literally for Korean**: *Koreano*, *Hangul*, *romanization*, with all Hangul and 🇰🇷 kept. The es and id dictionaries rewrote these keys for English, so they were not used as models. The generic "English" keys are translated literally too (*Iningles*). They are only shown in an English course, which Cebuano speakers do not have.
+This interface serves **two courses**: **ceb-ko** (Korean for Cebuano speakers, the first one) and, since 2026-11-23, **ceb-en** (English for Cebuano speakers). Every key that says Korean, Hangul or romanization is translated **literally for Korean**: *Koreano*, *Hangul*, *romanization*, with all Hangul and 🇰🇷 kept, because ceb-ko is live and shows them. The es and id dictionaries rewrote these keys for English, so they were not used as models. The generic "English" keys are translated literally too (*Iningles*, *paglitok*); these are the ones ceb-en shows. A Korean-worded key that ceb-en can reach needs a per-course override (`COURSE.UI`), see §6.
 
 Author: not a native speaker. Everything here needs the Bisaya-speaking friend's check (§4).
 
@@ -22,6 +22,14 @@ Author: not a native speaker. Everything here needs the Bisaya-speaking friend's
 - Commands use the plain Cebuano form (*Pilia, Ablihi, Tangtanga, Sulayi, Kopyaha, Paminawa*). English verbs take the *i-* prefix the way Cebuanos write them (*i-tap, i-save, i-share, i-type, i-delete, i-review*).
 - Counts use *ka* (`{1} ka card`), which reads correctly at 1 and at 2+, so singular and plural templates share one text.
 - Grammar terms follow the closed English list in `docs/profiles/ceb-ko.md` §3.4: *verb, noun, stem, dictionary form, ending, particle, counter, question word, polite, casual, honorific, 요-form, romanization, block, vowel, consonant, final, sound change, past, present*.
+- **English course (ceb-en) grammar terms**, the closed list of `docs/profiles/ceb.md` §3. They are written in English, lower-case, never respelled, with Cebuano markers and no Cebuano affixes (*ang verb, sa plural, og article, mga noun*); they are known loanwords for the linter, like the Korean-course list above:
+  - *article* (article "a / an", article "the", walay article), *noun, countable noun, uncountable noun, singular, plural, plural -s, pronoun, subject pronoun, object pronoun, possessive, subject, object*;
+  - *verb, be verb, helping verb, modal, base form, past form, past participle, -s sa verb, subject-verb agreement, regular verb, irregular verb, -ing form*;
+  - *tense, simple present tense, present progressive, simple past tense, past progressive, present perfect, present perfect progressive, past perfect, aspect, time word*;
+  - *passive voice, active voice, conditional* (first, second, third), *relative clause, reported speech, direct speech*;
+  - *preposition, conjunction, adjective, adverb, comparative, superlative, question word, statement, negative, question, sentence, word order, contraction, phrasal verb, particle* (phrasal-verb lesson only), *idiom, IPA, stress, syllable, vowel, consonant*.
+  - Cebuano words used as terms in that course: *paglitok* (pronunciation), *kahulogan* (meaning), *pananglitan* (example), *pulong* (word), *blangko* (blank), *lit-ag* (trap, false friend), *sakto / sayop*.
+  - Not used: *artikulo, pantukoy, pangngalan, pandiwa, berbo, panghalip, pang-ukol, pang-uri, auxiliary, present simple, present continuous, future tense, V1 / V2 / V3, gerund, romanization* (the IPA line is «ang paglitok»), *panultihon* for idiom, *husto, tama*.
 
 ## 2. Loanwords kept in English (closed list)
 
@@ -35,7 +43,7 @@ Product name: Lang App. Code words: DELETE (never translated; the engine compare
 
 Real Cebuano is used for ordinary words, for example:
 - Karon, Leksyon, Praktis, Pag-uswag, Basa (tabs);
-- kahulugan (meaning), nota (note), pananglitan (example);
+- kahulogan (meaning), nota (note), pananglitan (example);
 - pulong (word), tingog (voice, sound), katulin (speed);
 - kahon (SRS box), tumong (goal), pahinumdom (reminder);
 - angga (nickname), kolor (accent colour), sertipiko;
@@ -54,11 +62,12 @@ Real Cebuano is used for ordinary words, for example:
 | Lessons | **Leksyon** | 7 | Lecciones |
 | Practice | **Praktis** | 7 | Práctica |
 | Review | **Review** | 6 | Repaso |
-| Progress | **Pag-uswag** | 9 | Progreso |
-| Read (advanced) | Basa | 4 | Leer |
+| Progress | **Uswag** | 5 | Progreso |
+| Read (advanced, script courses) | Basa | 4 | Leer |
+| Drills (same tab in courses without a script, e.g. ceb-en) | **Drill** | 5 | |
 | Feedback | Feedback | 8 | Opinión |
 
-In-text references use the same names, for example *Pag-uswag → Backup → I-share ang file*.
+In-text references use the same names, for example *Uswag → Backup → I-share ang file*. Changed 2026-11-23 for the 8-character cap of the seven-label bar (`docs/profiles/ceb.md` §10): the tab was *Pag-uswag* (9) and *Mga drill* (9). The noun in sentences is still *pag-uswag* (*ang imong pag-uswag*, *Pag-uswag sa Koreano*); only strings that name the tab say *Uswag*.
 
 ## 4. 30 strings to check first (for the Bisaya-speaking friend)
 
@@ -140,3 +149,50 @@ The Intl result was observed in Node (full ICU): `new Intl.DisplayNames(['ceb'],
 **Given in the task (use):** ko Koreano · en Iningles · es Kinatsila · ja Hinapon · zh Insik (Mandarin) · tl Tinagalog · ceb Binisaya.
 **Unverified candidates (from recall; friend to confirm, else use the English name):** hil Hiligaynon · war Winaray · fr Pranses · de Aleman · it Italyano · pt Portuges · ru Ruso · ar Arabiko · yue Insik (Cantonese).
 **All other codes:** the English name.
+
+## 6. Second course: ceb-en (added 2026-11-23)
+
+**Changed in `ui.json` (16 keys, none Korean-specific, so ceb-ko shows them too):**
+- `Progress` (tab) *Pag-uswag* → **Uswag**, and the 10 strings that name that tab: the two Privacy paths (`: Progress → Backup → …`, `: Progress → Account → …`), `You can add an email later in Progress.`, `Saved in this browser only. …`, `Suspended. Restore it from Progress.`, `🩹 Marked as a leech … Manage it in Progress.`, `Settings · Progress`, `This device only — … Add an email later in Progress.`, and the patterns `Progress · quick actions`, `{n}/{n} · Progress`.
+- `Drills` (the label of the Read tab in courses without a script) *Mga drill* → **Drill**. `{n}/{n} · Mga drill` and the canvas `MGA DRILL` are unchanged.
+- `Text size` *Gidak-on sa letra* (17) → **Letra** (5); it sits beside the A− / A+ buttons.
+
+**Left literal for Korean (per-course override needed for ceb-en; put the English wording in the ceb-en course's `COURSE.UI`).** Suggested ceb-en wording after each key:
+
+| Key | In the pack (ceb-ko) | Suggested for ceb-en |
+|---|---|---|
+| Korean starter | Sugod sa Koreano | Sugod sa Iningles |
+| KOREAN STARTER | SUGOD SA KOREANO | SUGOD SA ININGLES |
+| Korean (required) | Koreano (kinahanglan) | Iningles (kinahanglan) |
+| Romanization | Romanization | Paglitok |
+| Romanization (auto if blank) | Romanization (awtomatiko kon blangko) | Paglitok (awtomatiko kon blangko) |
+| Korean, romanization, meaning, note — one per line (romanization/note optional) | Koreano, romanization, kahulogan, nota — … | Iningles, paglitok, kahulogan, nota — usa matag linya (opsyonal ang paglitok/nota) |
+| Blur romanization in Browse | I-blur ang romanization sa Tan-awa | I-blur ang paglitok sa Tan-awa |
+| Show romanization in practice | Ipakita ang romanization sa praktis | Ipakita ang paglitok sa praktis |
+| Hide romanization | Itago ang romanization | Itago ang paglitok |
+| Aa romanization: on / off | Aa romanization: on / off | Aa paglitok: on / off |
+| Read 한→en | Basa 한→ceb | Basa en→ceb |
+| Recall en→한 | Hinumdom ceb→한 | Hinumdom ceb→en |
+| ⌨️ Type 한 | ⌨️ I-type ang 한 | ⌨️ I-type |
+| Type the romanization. Hangul blocks stack … | I-type ang romanization. Ang Hangul nga block … | I-type ang paglitok. Ang imong level diri gamiton sab sa mga session. |
+| Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — … | Hangul, mga flashcard … | Mga flashcard nga naay tingog, quiz ug 5 ka minuto nga session matag adlaw. Una ka magsugod — unsaon namo pagtipig ang imong pag-uswag? |
+| Learning Korean 5 minutes a day with Lang App 🇰🇷 | Nagtuon og Koreano … 🇰🇷 | Nagtuon og Iningles 5 ka minuto matag adlaw sa Lang App 🇺🇸 |
+| Learn Korean, 5 minutes a day | Tun-i ang Koreano, 5 ka minuto matag adlaw | Tun-i ang Iningles, 5 ka minuto matag adlaw |
+| type it in Hangul | i-type kini sa Hangul | i-type kini sa Iningles |
+| Type the Korean, or tap Check again to give up. | I-type ang Koreano, o i-tap usab ang I-check aron mo-give up. | I-type ang Iningles, o i-tap usab ang I-check aron mo-give up. |
+| ), or type the Hangul itself. | ), o i-type mismo ang Hangul. | ), o i-type mismo ang pulong sa Iningles. |
+| Hangul drill | Drill sa Hangul | Drill sa pagbasa |
+| Can you already read Hangul? | Kabalo ka na mobasa og Hangul? | Kabalo ka na mobasa og Iningles? |
+| What do you want Korean for? | Para asa nimo gamiton ang Koreano? | Para asa nimo gamiton ang Iningles? |
+| Korean progress | Pag-uswag sa Koreano | Pag-uswag sa Iningles |
+| Trip to Korea | Biyahe sa Korea | Biyahe sa gawas sa nasod |
+
+Mixed Hangul keys that keep their Korean text and would look wrong in ceb-en if reachable: `안녕하세요 👋 Two quick questions`, `안녕하세요, {x}!`, `레벨 업! Level {n} · {s} 🎉`, `목표 달성! Daily goal reached 🎉`, `모두 열렸어요 · Everything unlocked`, `Language · 언어`, `한국어 UI (menu labels in Korean)`, `사자성어 · four-character idiom`, and the Korean-grammar tool keys (`Make it polite (요-form)`, `Make it casual (반말)`, `casual → polite: add 요 …`, `polite → casual: drop 요`, `Enter a dictionary form ending in 다.`, `dictionary form, e.g. 먹다`, `Search a pattern, e.g. 에서 or 'want'`, `Try 가다 · …`, `verb stem + 지`, `verb + 도 (even if)`, `+ 요 (polite)`, `verb · past (았/었어요)`, `don't (지 마)`, `is it okay? (-아/어도 돼요)`, `not okay? (-(으)면 안 돼요)`). The lead should grep the built ceb-en app for *Koreano, Hangul, romanization* and Hangul characters.
+
+**Roadmap.** The 39 strings first used by the `en` roadmap are filled with the ceb.md §3 terms (*simple present tense, present progressive, past form, be verb, article, plural*). `road.py check ceb` cannot run: the script only accepts 2-letter codes (§5 item 1), and 1,743 strings of the other 61 roadmaps are still empty by design (English fallback).
+
+**For the ceb-ko prose:** lesson text in `tools/halves/native/ceb/ko/` that names the tab *Pag-uswag* should now say *Uswag*.
+
+## Lead note (ceb-en build, 2026-11-23)
+
+The «Pag-uswag» → «Uswag» tab rename proposed in the ceb-en profile was NOT applied: the live Cebuano → Korean lesson prose names the tab «Pag-uswag», so the rename belongs to the main build, in one pass with that prose. Where this file says the tab is «Uswag», read «Pag-uswag» until then.

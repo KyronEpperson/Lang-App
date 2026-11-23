@@ -1,0 +1,23 @@
+{
+  "lessons": {
+    "pinoy-english": "ceb-only lesson (profile ceb.md §8 'add', §4.10): «Iningles sa Pinas» — local words and their international partners, direct translations, swapped particles, uncountables with -s, na / pa calques; placed after smalltalk via profile.json lessonOrder.after; linked to the ceb-only deck «Mga lit-ag para sa Bisaya»; no ko-en counterpart (parallel to ja katakana-english, zh chinglish, id indo-english). Written by CONTENT (a1.js owner); recorded here as the brief asks.",
+    "aspect-tense": "ceb-only lesson (profile ceb.md §8 'add', §4.1 and §4.9): from Bisaya aspect (nag-, ni-, mo-, na, pa, wala pa, wala na, sukad) to English tense — one table from Bisaya forms to English choices, then the two rules Bisaya lacks (a time word does not replace the verb form; with no time word English still has to choose a tense). Placed after perfect via profile.json lessonOrder.after; linked to deck 10 «Istorya-istorya»; no ko-en counterpart. Verb forms are the largest counted error in both Visayan samples and the standing rule does not cover them."
+  },
+  "items": {},
+  "decks": {
+    "Pagpaila sa kaugalingon": "localisation per profile ceb.md §9 (Minji→Ana, Korea→the Philippines, Seoul→Cebu): cards 0 'My name is Ana.', 4 'I'm from the Philippines.', 5 'I live in Cebu.'",
+    "Importanteng phrase 1": "localisation per profile ceb.md §9: card 12 'Do you speak Korean?' → 'Do you speak Cebuano?' (learner's own language)",
+    "Istorya-istorya": "localisation per profile ceb.md §9: card 6 'Have you been to Korea?' → 'Have you been to the Philippines?'",
+    "Pagdayeg ug pagkagusto": "localisation per profile ceb.md §9: card 8 'Your Korean is really good!' → 'Your Cebuano is really good!'",
+    "Tawag, text ug chat": "localisation per profile ceb.md §9: card 0 'Hello, this is Minji.' → 'Hello, this is Ana.'",
+    "Ospital ug emerhensiya": "localisation per profile ceb.md §9: card 15 'the Korean embassy' → 'the Philippine embassy' (learner's own embassy)",
+    "Bantayi ang paglitok": "ceb-only cards appended per profile ceb.md §4.8 / §9 (cards 26–40): ship, sheep, full, fool, bad, bed, bud, Sue, zoo, bus, buzz, day, they, attract, ceremony — the vowel (ɪ / iː, ʊ / uː, æ / e / ʌ), s / z, d / ð, final-cluster and stress points measured for Cebuano speakers. live / leave already exist as shared cards. Original 26 cards unchanged",
+    "Mga lit-ag para sa Bisaya": "ceb-only deck (profile ceb.md §4.10 / §9 trap table, 26 cards): Philippine English words and direct translations with the form to use abroad; linked to the ceb-only lesson pinoy-english; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: ceb-only deck «Mga lit-ag para sa Bisaya» (profile ceb.md §9) appended last, after the shared alphabet deck"
+  },
+  "extraLessons": [
+    "pinoy-english",
+    "aspect-tense"
+  ],
+  "droppedLessons": []
+}

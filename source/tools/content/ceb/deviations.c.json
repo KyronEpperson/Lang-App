@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "pinoy-english": "ceb-only lesson (profile ceb.md §8 'add' / §4.10 / §2 three-tone policy / §9 trap table): Philippine-English words and their international partners (CR → restroom, open the light → turn on the light, brownout → power outage, ref, aircon, rubber shoes, course, batchmate, traffic, commute, load, salvage, high blood, dialect), direct translations (borrow / lend, for a while, go down → get off, I'll go ahead, already not → no longer, until now → still), swapped particles (fill out, based on, result in, cope with, discuss), uncountables with -s (information, equipment, furniture) and the he / she slip; placed after smalltalk via profile.json lessonOrder.after; deck «Mga lit-ag para sa Bisaya»; no ko-en counterpart (takes the slot of ko's own konglish; mirrors ja katakana-english, zh chinglish, id indo-english)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["pinoy-english"]
+}

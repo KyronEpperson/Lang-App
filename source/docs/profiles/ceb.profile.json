@@ -1,0 +1,29 @@
+{
+  "native": "ceb",
+  "nativeNameEn": "Cebuano",
+  "name": {
+    "en": "English",
+    "ceb": "Iningles"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "pronScript": "ˈ",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "\\barticle|\\bplural",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Unsay sakto sa blangko?",
+    "typeHintCue": " — gamita kining mga pulong",
+    "cueTest": "\\b([Aa]ng|[Nn]ga|[Mm]ga|[Oo]g|[Uu]g|[Kk]ay|[Kk]on|[Ss]a|[Uu]nsa|[Uu]nsay|[Aa]sa|[Hh]ain|[Kk]insa|[Kk]anus-a|[Nn]gano|[Pp]ila|[Dd]ili|[Ww]ala|[Ww]alay|[Nn]aa|[Nn]aay|[Kk]ini|[Kk]ana|[Kk]ining|[Kk]anang|[Nn]iini|[Aa]ko|[Aa]kong|[Nn]ako|[Ii]kaw|[Ii]mong|[Nn]imo|[Ss]iya|[Ii]yang|[Nn]iya|[Ss]ila|[Kk]ita|[Kk]ami|[Pp]ara|[Gg]amita|[Gg]amiton|[Pp]ilia|[Ii]sulat|[Ii]-type|[Hh]an-aya|[Pp]un-a|[Tt]ubaga|[Tt]ubag|[Ss]akto|[Ss]ayop|[Bb]langko|[Pp]ulong|[Ll]inya|Iningles|[Uu]sa|[Dd]uha|[Dd]aghan|[Kk]ahulogan|[Pp]orma|[Pp]angutana|[Ll]alaki|[Bb]abaye|[Gg]ahapon|[Kk]aron|[Uu]gma|[Kk]anunay|[Aa]ron|[Pp]ero|[Kk]inahanglan|[Pp]alihug|[Aa]yaw|[Mm]ao|[Pp]areho|[Ss]unod|[Uu]na|[Bb]utang|[Tt]awo|[Ll]ugar|[Aa]dlaw|[Oo]ras|[Nn]umero|[Nn]galan|[Bb]ahin|[Ss]ulod|[Gg]awas|[Gg]ikan|[Nn]gadto|[Nn]iining|[Aa]dtong)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "pinoy-english": "smalltalk",
+      "aspect-tense": "perfect"
+    }
+  }
+}
