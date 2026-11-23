@@ -41,3 +41,16 @@
 {"id":"ko.d.family-people","label":"Pamilya at mga tao","desc":"Nanay, tatay, kapatid, kaibigan, guro, at kung paano binabago ng edad ang salita."}
 {"id":"ko.d.adjectives","label":"Mga salitang naglalarawan","desc":"Mabuti, masama, malaki, maliit, mainit, malamig, busy, masaya. Sa Koreano, describing verb ang mga ito."}
 {"id":"ko.d.k-drama-phrases","label":"Mga linya sa K-drama","desc":"Mga reaksyon at linyang maririnig mo sa bawat episode."}
+{"id":"ko.d.top-nouns","label":"Karaniwang noun","desc":"Ang mga pinakaginagamit na noun sa Koreano na hindi pa itinuturo ng course, mula sa pinakamadalas."}
+{"id":"ko.d.top-verbs","label":"Karaniwang verb","desc":"Mga action verb sa dictionary form; ibinibigay ng note ang 해요 na anyo at minamarkahan ang irregular na verb."}
+{"id":"ko.d.top-adjectives","label":"Karaniwang describing verb","desc":"Mga describing verb (verb ang adjective sa Koreano): ang 해요 na anyo at ang anyo bago ang noun."}
+{"id":"ko.d.top-adverbs","label":"Karaniwang adverb","desc":"Mga salita ng oras, antas, dalas at paraan: napaka, na, madalas, bakit, paano."}
+{"id":"ko.d.top-pronouns","label":"Karaniwang pronoun","desc":"Ako, ikaw, ito, sino, walang sinuman, at kung bakit pangalan at title ang kadalasang pumapalit sa \"ikaw\"."}
+{"id":"ko.d.top-particles","label":"Dagdag na particle","desc":"Ang katapat ng preposition sa Koreano: ang mga particle bukod sa siyam sa deck na Mga particle."}
+{"id":"ko.d.top-connectors","label":"Dagdag na connector","desc":"Mga ending na pandugtong (-고, -지만, -아서, -(으)면 …) na ipinapakita sa verb, at mga pandugtong na salitang wala sa Mga connector."}
+{"id":"ko.d.top-interjections","label":"Mga bulalas","desc":"Ang talagang ibinubulalas ng mga Koreano: wow, aray, oops, hay salamat, ta-da, at kung sino ang nagsasabi ng bawat isa."}
+{"id":"ko.d.top-words","label":"Mga kapaki-pakinabang na salita","desc":"Ito / iyan / alin bago ang noun, mga anyo ng numero, mga araw at oras, at mga paraan ng pagsabi ng oo at hindi."}
+{"id":"ko.d.top-counters","label":"Dagdag na counter","desc":"Mga counter na wala sa deck na Mga counter: kotse, serving, rolyo, slice, minuto, buwan."}
+{"id":"ko.d.flirting-words","label":"Mga salita sa pagpapacute","desc":"Ang mga salitang ginagamit ng mga Koreano sa pagpapacute, mga phrase mula rito, at mabait na paraan ng pagsabi ng oo o hindi."}
+{"id":"ko.d.compliments","label":"Mga papuri","desc":"Pang-araw-araw na papuri sa pagkain, trabaho, bahay at bata, at ang mapagpakumbabang paraan ng pagsagot."}
+{"id":"ko.d.countries","label":"Mga bansa","desc":"Lahat ng bansa, ang pinakamadalas itanong muna. Bansa + 에서 왔어요 = taga-… ako; + 사람 = nasyonalidad; + 어 = wika."}

@@ -31,7 +31,7 @@
 {"id":"meet.03","q":"Aalis ka sa tindahan; maiiwan ang may-ari. Sasabihin mo:","why":"계세요 = 'manatili nang mapayapa', sinasabi ng aalis."}
 {"id":"meet.04","q":"'Taga-saan ka?' =","why":"에서 왔어요 = galing sa."}
 {"id":"meet.05","q":"'Estudyante ako' =","why":"Nagtatapos sa consonant ang 학생 → 이에요."}
-{"id":"meet.06","p":"Taga-Amerika ako","why":"Lugar + 에서 왔어요 = galing sa."}
+{"id":"meet.06","p":"Taga-Mexico ako","why":"Lugar + 에서 왔어요 = galing sa."}
 {"id":"meet.07","p":"Nag-aaral ako ng Koreano","why":"한국어 = wikang Koreano; 한국 = Korea."}
 {"id":"meet.08","p":"Hello, ako si Minsu","why":"Nagtatapos sa vowel ang 민수 → 예요."}
 {"id":"meet.09","p":"Estudyante ako","why":"Nagtatapos sa consonant → 이에요."}
@@ -168,7 +168,7 @@
 {"id":"sov.14","p":"Ano ang kinakain mo?","why":"Nasa puwesto ng sagot ang question word, at pataas ang tono."}
 {"id":"particles.01","q":"'Pumapasok ako sa paaralan' =","why":"Pupuntahan kasama ng 가요 → 에."}
 {"id":"particles.02","q":"'Nagpapahinga ako sa bahay' =","why":"Lugar kung saan may ginagawa → 에서."}
-{"id":"particles.03","q":"'Galing ako sa Amerika' =","why":"에서 = galing sa; ang 미국에 왔어요 = dumating sa Amerika."}
+{"id":"particles.03","q":"'Galing ako sa Hapon' =","why":"에서 = galing sa; ang 일본에 왔어요 = dumating sa Hapon."}
 {"id":"particles.04","q":"'Sa weekend' =","why":"May 에 ang mga time word."}
 {"id":"particles.05","q":"Sagot sa 누가 왔어요? (Sino ang dumating?): 'Ang kaibigan ko ang dumating' =","why":"Bagong impormasyon ang sagot sa \"sino?\" → 이/가."}
 {"id":"particles.06","p":"Nag-aaral ako sa café","why":"Lugar ng ginagawa → 에서."}
@@ -450,10 +450,10 @@
 {"id":"office.02","q":"Sa manager mo, sa pagtatapos ng araw:","why":"Para sa junior o kapantay ang 수고했어요; 수고하셨습니다 ang para sa mga senior."}
 {"id":"office.03","q":"Paano mo tatawagin ang manager mo (과장)?","why":"Laging may 님 ang title."}
 {"id":"office.04","q":"Ang karaniwang pansara ng email na 'Pakitingnan po':","why":"부탁드립니다 = mapagpakumbaba kong hinihiling."}
-{"id":"office.05","q":"Pagpirma sa email bilang 키이:","why":"Sa likod ng sarili mong pangalan ang 드림; hindi kailanman 씨 o 님 para sa sarili mo."}
+{"id":"office.05","q":"Pagpirma sa email bilang @@:","why":"Sa likod ng sarili mong pangalan ang 드림; hindi kailanman 씨 o 님 para sa sarili mo."}
 {"id":"office.06","p":"Mauuna na po ako (sa lahat ng nasa opisina)","why":"먼저 퇴근하겠습니다 ang set phrase."}
 {"id":"office.07","p":"Anong oras ang meeting?","why":"몇 시예요? = anong oras?"}
-{"id":"office.08","p":"Magandang araw po, si Kii ito ng marketing team","why":"Team, tapos ang pangalan mo + 입니다. Walang 님 para sa sarili."}
+{"id":"office.08","p":"Magandang araw po, si @@ ito ng marketing team","why":"Team, tapos ang pangalan mo + 입니다. Walang 님 para sa sarili."}
 {"id":"office.09","p":"Pakitingnan po (email)","why":"부탁드립니다 = mapagpakumbaba kong hinihiling."}
 {"id":"office.10","p":"Salamat po sa sipag ninyo ngayong araw (sa senior, pagkatapos ng trabaho)","why":"Honorific na past ang para sa senior: 수고하셨습니다."}
 {"id":"office.11","p":"Manager, paki-check po ito","why":"Laging may 님 ang title."}

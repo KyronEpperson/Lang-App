@@ -6,10 +6,10 @@
 {"id":"ko.s0006","gloss":"Salamat (casual)"}
 {"id":"ko.s0007","gloss":"Ang cute mo (polite)"}
 {"id":"ko.s0008","gloss":"Ang cute mo (casual)"}
-{"id":"ko.s0295","gloss":"Hello. Ako si Kii."}
+{"id":"ko.s0297","gloss":"Hello. Ako si @@."}
 {"id":"ko.s0010","gloss":"Ikinagagalak kitang makilala"}
 {"id":"ko.s0011","gloss":"Taga-saan ka?"}
-{"id":"ko.s0012","gloss":"Taga-Amerika ako"}
+{"id":"ko.s0298","gloss":"Taga-Mexico ako"}
 {"id":"ko.s0013","gloss":"Ano ang trabaho mo?"}
 {"id":"ko.s0014","gloss":"Nag-aaral ako ng Koreano"}
 {"id":"ko.s0015","gloss":"Ilang taon ka na?"}
@@ -124,7 +124,7 @@
 {"id":"ko.s0124","gloss":"Umiinom (ako) ng kape sa umaga"}
 {"id":"ko.s0125","gloss":"Nagpapahinga (ako) sa bahay"}
 {"id":"ko.s0126","gloss":"Nag-aaral (ako) sa café"}
-{"id":"ko.s0127","gloss":"Galing (ako) sa Amerika"}
+{"id":"ko.s0299","gloss":"Galing (ako) sa Canada"}
 {"id":"ko.s0128","gloss":"Tungkol sa akin, estudyante ako"}
 {"id":"ko.s0129","gloss":"Sino ang dumating? Ang kaibigan ko ang dumating (bagong impormasyon → 가)"}
 {"id":"ko.s0130","gloss":"Hindi (ako) pupunta"}
@@ -286,9 +286,9 @@
 {"id":"ko.s0286","gloss":"Sige, laban lang sa trabaho (sa naiiwan pang nagtatrabaho, habang paalis ka; lit. 'magpakahirap ka')"}
 {"id":"ko.s0287","gloss":"Salamat po sa sipag ninyo ngayong araw (sa senior, pagkatapos ng trabaho)"}
 {"id":"ko.s0288","gloss":"Good job (sa junior o kapantay)"}
-{"id":"ko.s0289","gloss":"Magandang araw po, si Kii ito ng marketing team"}
+{"id":"ko.s0300","gloss":"Magandang araw po, si @@ ito ng marketing team"}
 {"id":"ko.s0290","gloss":"Sumusulat po ako tungkol sa report"}
 {"id":"ko.s0291","gloss":"Pakitingnan po"}
-{"id":"ko.s0292","gloss":"Salamat po. Kii"}
+{"id":"ko.s0301","gloss":"Salamat po. @@"}
 {"id":"ko.s0293","gloss":"Isang baso po para sa inyo (habang sinasalinan mo ang senior)"}
 {"id":"ko.s0294","gloss":"Kailangan ko kasing magmaneho (kaya huwag na lang)"}

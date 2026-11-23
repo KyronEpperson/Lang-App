@@ -1,0 +1,33 @@
+{"id":"hangul","title":"1 · Hangul trong một buổi","blurb":"Bảng chữ cái: 14 phụ âm, 10 nguyên âm và cách ghép khối chữ.","_waive":["hangul"],"_note":"Body adds ㄹ (outside {{strokes:ㄹ}}, which the check strips) and the tense letters ㄲ ㄸ ㅃ ㅉ ㅆ, for the Vietnamese reading guide of profile vi-ko §4.4 (finals, tense vs aspirated, ㄹ as tap / final l)."}
+{"id":"polite","title":"2 · Các mức lịch sự","blurb":"Vì sao mỗi động từ có hai đuôi, và nên dùng đuôi nào."}
+{"id":"meet","title":"3 · Gặp gỡ làm quen","blurb":"Tự giới thiệu, hỏi bốn câu quen thuộc và chào tạm biệt cho đúng."}
+{"id":"sound-changes","title":"4 · Biến âm: vì sao 감사합니다 đọc khác đi","blurb":"Bốn thói quen khiến tiếng Hàn nói khác với chữ viết. Hãy chuẩn bị trước cho chúng."}
+{"id":"nouns","title":"5 · Danh từ và 은/는","blurb":"Tên gọi sự vật, này / đó, 이에요/예요 và trợ từ chủ đề 은/는."}
+{"id":"isseoyo","title":"6 · 있어요 và 없어요","blurb":"Có / không có (tồn tại và sở hữu), trợ từ chủ ngữ 이/가, và vị trí của vật với 에."}
+{"id":"pronouns-questions","title":"7 · Đại từ và từ để hỏi","blurb":"Tôi, chúng tôi, cái này, cái đó, ở đây, ở đó, và bảy từ để hỏi giúp bạn trò chuyện thật sự."}
+{"id":"verbbasics","title":"8 · Động từ","blurb":"Mọi động từ đều tận cùng bằng 다, không đổi theo ngôi, và tính từ cũng chia như động từ."}
+{"id":"verbs","title":"9 · Thì hiện tại: dạng 요","blurb":"Biến mọi động từ nguyên mẫu thành thì hiện tại lịch sự: 아요, 어요 hoặc 해요."}
+{"id":"past","title":"10 · Thì quá khứ: 았어요 / 었어요","blurb":"Lấy dạng 요 ở hiện tại, đổi 요 thành ㅆ어요, và bạn đã kể được chuyện hôm qua."}
+{"id":"future","title":"11 · Tương lai và dự định: -(으)ㄹ 거예요","blurb":"Nói điều bạn sẽ làm, và đoán điều có lẽ sẽ xảy ra."}
+{"id":"sov","title":"12 · Trật tự từ và 을/를","blurb":"Chủ ngữ · Tân ngữ · Động từ, trợ từ tân ngữ 을/를, và khi nào nó bị lược."}
+{"id":"particles","title":"13 · 에 và 에서, cùng bản đồ trợ từ","blurb":"에 cho nơi bạn đến, nơi vật ở và thời điểm; 에서 cho nơi bạn làm việc gì đó và nơi bạn đến từ."}
+{"id":"negation","title":"14 · Nói không: 안 và -지 않아요","blurb":"안 + động từ, 공부 안 해요, -지 않아요, 아니에요 cho danh từ, và 없어요."}
+{"id":"do-man","title":"15 · 도 và 만: cũng và chỉ","blurb":"도 (cũng) và 만 (chỉ) thay cho 은/는, 이/가, 을/를, nhưng đứng sau 에 và 에서."}
+{"id":"sentences","title":"16 · Ghép danh từ với động từ","blurb":"Bốn khuôn câu đủ cho hầu hết những gì bạn sẽ nói, rồi cách mở rộng chúng."}
+{"id":"want-like","title":"17 · Muốn và thích: -고 싶어요, 좋아해요","blurb":"Nói điều bạn muốn làm và điều bạn thích. Hai mẫu câu bạn sẽ dùng mỗi ngày."}
+{"id":"numbers","title":"18 · Hai hệ thống số","blurb":"Số thuần Hàn để đếm và nói tuổi, số Hán Hàn cho tiền, ngày tháng và phút."}
+{"id":"food","title":"19 · Đi ăn ngoài","blurb":"Gọi món, đơn vị đếm và hai câu ai cũng nói trong bữa ăn."}
+{"id":"getting-around","title":"20 · Đi lại","blurb":"Hỏi chỗ, hiểu câu trả lời, đi taxi và tàu điện ngầm."}
+{"id":"titles","title":"21 · Danh xưng và kính ngữ","blurb":"씨, 님, 오빠/언니: gọi người khác thế nào, và khi nào gọi trống không tên là bất lịch sự."}
+{"id":"plans","title":"22 · Lên kế hoạch","blurb":"Gợi ý, rủ rê, đồng ý: ㄹ까요 / ㄹ래요 / 자, và 같이."}
+{"id":"texting","title":"23 · Nhắn tin như người Hàn","blurb":"ㅋㅋ, ㅠㅠ, lược bỏ trợ từ và những kiểu viết tắt ai cũng dùng trên KakaoTalk."}
+{"id":"counters","title":"24 · Đơn vị đếm","blurb":"Không có đơn vị đếm thì không nói được “hai cốc cà phê”. Mười đơn vị đếm đủ cho đời sống hằng ngày."}
+{"id":"joining","title":"25 · Nối câu: -고, -지만, -아/어서","blurb":"Và, nhưng, nên. Ba đuôi nối biến hai câu ngắn thành một câu tự nhiên."}
+{"id":"story","title":"26 · Kể chuyện trong quá khứ","blurb":"Nối các câu quá khứ bằng 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로."}
+{"id":"noun-modifiers","title":"27 · Bổ nghĩa cho danh từ: 좋은 날씨, 큰 가방","blurb":"Đặt tính từ trước danh từ: túi to, thời tiết đẹp, món cay."}
+{"id":"compare","title":"28 · So sánh: 보다, 더, 제일","blurb":"Rẻ hơn, hơn, kém hơn, nhất. Mọi thứ bạn cần để so sánh và lựa chọn."}
+{"id":"cant","title":"29 · Không thể, có thể và không biết","blurb":"못 và 안, -(으)ㄹ 수 있어요 / 없어요, và 몰라요 với 모르겠어요."}
+{"id":"have-to","title":"30 · Phải: -아/어야 해요","blurb":"Nói việc phải làm, hỏi có phải làm không, và nói khi nào không cần."}
+{"id":"honorific","title":"31 · Động từ kính ngữ","blurb":"-(으)시- và các động từ đặc biệt: 드시다, 주무시다, 계시다, 말씀하시다."}
+{"id":"requests","title":"32 · Nhờ vả lịch sự","blurb":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요?: những từ làm mềm câu giúp bạn được đồng ý."}
+{"id":"office","title":"33 · Tiếng Hàn công sở","blurb":"Chức danh, nhóm từ 수고, câu mở đầu và kết thúc email, và cách sống sót qua 회식."}

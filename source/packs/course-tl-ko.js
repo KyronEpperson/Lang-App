@@ -11,12 +11,12 @@ LANGAPP_PACKS.course['tl-ko'] = {
  "brand": "한글",
  "introWord": "한글",
  "features": {
-  "script": false,
+  "script": true,
   "pron": true,
-  "conj": false,
-  "register": false,
-  "numbers": false,
-  "sound": false,
+  "conj": true,
+  "register": true,
+  "numbers": true,
+  "sound": true,
   "strokes": true
  },
  "standard": true,
@@ -539,10 +539,10 @@ LANGAPP_PACKS.course['tl-ko'] = {
     "에서 = mula sa. 어디 = saan."
    ],
    [
-    "미국에서 왔어요",
-    "migugeseo wasseoyo",
-    "Taga-Amerika ako",
-    "미국 = Amerika (USA). 한국 Korea, 영국 UK, 캐나다 Canada, 멕시코 Mexico."
+    "___에서 왔어요",
+    "___eseo wasseoyo",
+    "Taga-___ ako",
+    "Bansa + 에서 왔어요: 미국에서, 멕시코에서, 필리핀에서, 일본에서 왔어요. Nasa deck na Mga bansa ang lahat ng bansa."
    ],
    [
     "몇 살이에요?",
@@ -629,6 +629,12 @@ LANGAPP_PACKS.course['tl-ko'] = {
     "yeongeo hal su isseoyo?",
     "Marunong ka bang mag-English?",
     "할 수 있다 = kaya, marunong. Kapaki-pakinabang kapag kulang pa ang Koreano mo."
+   ],
+   [
+    "___ 할 수 있어요?",
+    "___ hal su isseoyo?",
+    "Marunong ka bang mag-___?",
+    "Wika + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? Kadalasan, ang wika ay pangalan ng bansa + 어 (tingnan ang deck na Mga bansa); ang English ay 영어."
    ],
    [
     "이게 뭐예요?",
@@ -3852,7 +3858,7 @@ LANGAPP_PACKS.course['tl-ko'] = {
     "사람",
     "saram",
     "tao",
-    "한국 사람 = Koreano. 미국 사람 = Amerikano."
+    "한국 사람 = Koreano, 미국 사람 = Amerikano, 멕시코 사람 = Mexicano: bansa + 사람."
    ]
   ],
   "Mga salitang naglalarawan": [
@@ -4002,6 +4008,4658 @@ LANGAPP_PACKS.course['tl-ko'] = {
     "Ano kamo?",
     "Casual. Ang 네? (ne?) ang magalang na 'Ano iyon?'"
    ]
+  ],
+  "Karaniwang noun": [
+   [
+    "것",
+    "geot",
+    "bagay; ang (…na iyon)",
+    "Hindi nag-iisa: 이것 = itong bagay, 좋은 것 = isang magandang bagay. Sa salita: 거."
+   ],
+   [
+    "수",
+    "su",
+    "paraan; posibilidad (sa -ㄹ 수 있다)",
+    "갈 수 있어요 = kaya kong pumunta. Hindi nag-iisa."
+   ],
+   [
+    "거",
+    "geo",
+    "bagay (pasalitang anyo ng 것)",
+    "이거, 제 거 = akin. Ito ang talagang sinasabi ng mga tao."
+   ],
+   [
+    "말",
+    "mal",
+    "salita; ang sinasabi ng isang tao",
+    "말이 빨라요 = ang bilis mong magsalita. Ang 말 ay kabayo rin."
+   ],
+   [
+    "일",
+    "il",
+    "trabaho; gawain; bagay-bagay",
+    "일이 많아요 = marami akong trabaho. Ibig sabihin din: araw (counter), isa (Sino-Korean)."
+   ],
+   [
+    "때",
+    "ttae",
+    "panahon (kung kailan nangyari)",
+    "어릴 때 = noong bata ako; 그때 = noon."
+   ],
+   [
+    "문제",
+    "munje",
+    "problema; tanong (sa test)",
+    "문제없어요 = walang problema."
+   ],
+   [
+    "속",
+    "sok",
+    "loob (kaibuturan)",
+    "마음속 = sa kaibuturan ng puso; 물속 = sa ilalim ng tubig."
+   ],
+   [
+    "중",
+    "jung",
+    "gitna; habang nasa gitna ng",
+    "회의 중이에요 = nasa meeting ako."
+   ],
+   [
+    "생각",
+    "saenggak",
+    "isip; ideya",
+    "좋은 생각이에요 = magandang ideya. Verb: 생각하다."
+   ],
+   [
+    "소리",
+    "sori",
+    "tunog; ingay",
+    "무슨 소리예요? = anong ingay iyon? (o kaya: anong kalokohan iyan!)"
+   ],
+   [
+    "정도",
+    "jeongdo",
+    "antas; mga (tantiyang dami)",
+    "한 시간 정도 = mga isang oras."
+   ],
+   [
+    "아이",
+    "ai",
+    "bata",
+    "Sa salita: 애. Magalang para sa anak ng iba: 아드님 / 따님."
+   ],
+   [
+    "시간",
+    "sigan",
+    "oras; tagal",
+    "시간 있어요? = libre ka ba? Pagbilang: 두 시간 = dalawang oras."
+   ],
+   [
+    "어머니",
+    "eomeoni",
+    "ina (magalang)",
+    "Sa pamilya: 엄마. Ina ng iba: 어머님."
+   ],
+   [
+    "다음",
+    "daeum",
+    "susunod; sa susunod",
+    "다음 주 = sa susunod na linggo; 다음에 봐요 = kita tayo sa susunod."
+   ],
+   [
+    "곳",
+    "got",
+    "lugar",
+    "좋은 곳 = magandang lugar. Sa salita rin: 데."
+   ],
+   [
+    "세계",
+    "segye",
+    "mundo",
+    "세계 여행 = paglalakbay sa buong mundo."
+   ],
+   [
+    "돈",
+    "don",
+    "pera",
+    "돈이 없어요 = wala akong pera (gipit ako)."
+   ],
+   [
+    "날",
+    "nal",
+    "araw",
+    "그날 = nang araw na iyon; 좋은 날 = magandang araw."
+   ],
+   [
+    "마음",
+    "maeum",
+    "puso; isip; damdamin",
+    "마음에 들어요 = gusto ko ito (natutuwa ako rito)."
+   ],
+   [
+    "후",
+    "hu",
+    "pagkatapos; mamaya",
+    "밥 먹은 후에 = pagkatapos kumain. Kapareho ng 뒤 para sa oras."
+   ],
+   [
+    "아버지",
+    "abeoji",
+    "ama (magalang)",
+    "Sa pamilya: 아빠. Ama ng iba: 아버님."
+   ],
+   [
+    "몸",
+    "mom",
+    "katawan",
+    "몸이 안 좋아요 = masama ang pakiramdam ko."
+   ],
+   [
+    "얼굴",
+    "eolgul",
+    "mukha",
+    "얼굴이 빨개요 = namumula ang mukha mo."
+   ],
+   [
+    "모습",
+    "moseup",
+    "itsura; anyo ng isang tao",
+    "웃는 모습 = ang itsura mo kapag nakangiti."
+   ],
+   [
+    "길",
+    "gil",
+    "daan; kalsada",
+    "길이 막혀요 = matindi ang traffic."
+   ],
+   [
+    "생활",
+    "saenghwal",
+    "pang-araw-araw na buhay; pamumuhay",
+    "한국 생활 = buhay sa Korea."
+   ],
+   [
+    "방법",
+    "bangbeop",
+    "paraan (ng paggawa); method",
+    "좋은 방법 = magandang paraan para gawin ito."
+   ],
+   [
+    "처음",
+    "cheoeum",
+    "unang beses; simula",
+    "처음이에요 = first time ko ito."
+   ],
+   [
+    "손",
+    "son",
+    "kamay",
+    "손 씻으세요 = maghugas ka ng kamay."
+   ],
+   [
+    "이야기",
+    "iyagi",
+    "kuwento; usapan",
+    "Sa salita: 얘기. 이야기해요 = nag-uusap kami."
+   ],
+   [
+    "회사",
+    "hoesa",
+    "kompanya; opisina",
+    "회사에 가요 = papasok ako sa trabaho."
+   ],
+   [
+    "내용",
+    "naeyong",
+    "nilalaman; kung tungkol saan",
+    "무슨 내용이에요? = tungkol saan ito?"
+   ],
+   [
+    "책",
+    "chaek",
+    "libro",
+    "책을 읽어요. Pagbilang: 한 권."
+   ],
+   [
+    "점",
+    "jeom",
+    "punto; aspeto; tuldok",
+    "좋은 점 = magandang punto; ang 점 ay nunal din sa balat."
+   ],
+   [
+    "나라",
+    "nara",
+    "bansa",
+    "어느 나라 사람이에요? = taga-saang bansa ka?"
+   ],
+   [
+    "학생",
+    "haksaeng",
+    "estudyante",
+    "학생이에요? = estudyante ka ba?"
+   ],
+   [
+    "이름",
+    "ireum",
+    "pangalan",
+    "Magalang para sa pangalan ng nakatatanda: 성함."
+   ],
+   [
+    "이유",
+    "iyu",
+    "dahilan",
+    "이유가 뭐예요? = ano ang dahilan?"
+   ],
+   [
+    "남편",
+    "nampyeon",
+    "asawang lalaki",
+    "Tinatawag ng mag-asawa ang isa't isa na 여보 o 자기."
+   ],
+   [
+    "밤",
+    "bam",
+    "gabi",
+    "오늘 밤 = mamayang gabi. Ang 밤 ay kastanyas din."
+   ],
+   [
+    "컴퓨터",
+    "keompyuteo",
+    "computer",
+    "컴퓨터가 고장 났어요 = nasira ang computer."
+   ],
+   [
+    "머리",
+    "meori",
+    "ulo; buhok",
+    "머리가 아파요 = masakit ang ulo ko; 머리 잘랐어요 = nagpagupit ako."
+   ],
+   [
+    "아들",
+    "adeul",
+    "anak na lalaki",
+    "Anak na lalaki ng iba (magalang): 아드님."
+   ],
+   [
+    "방",
+    "bang",
+    "kuwarto",
+    "제 방 = kuwarto ko. May mga lugar din na -방: 노래방, PC방."
+   ],
+   [
+    "끝",
+    "kkeut",
+    "dulo; katapusan",
+    "끝났어요 = tapos na."
+   ],
+   [
+    "하늘",
+    "haneul",
+    "langit",
+    "하늘이 맑아요 = maaliwalas ang langit."
+   ],
+   [
+    "사랑",
+    "sarang",
+    "pag-ibig (noun)",
+    "첫사랑 = unang pag-ibig. Verb: 사랑하다."
+   ],
+   [
+    "전화",
+    "jeonhwa",
+    "tawag sa telepono; telepono",
+    "전화해요 = tumatawag ako; 전화 왔어요 = may tumatawag."
+   ],
+   [
+    "맛",
+    "mat",
+    "lasa",
+    "맛이 어때요? = kumusta ang lasa?"
+   ],
+   [
+    "음식",
+    "eumsik",
+    "pagkain (putahe, lutuin)",
+    "한국 음식 = pagkaing Koreano."
+   ],
+   [
+    "아내",
+    "anae",
+    "asawang babae",
+    "Casual: 와이프. Asawa ng iba: 부인."
+   ],
+   [
+    "나이",
+    "nai",
+    "edad",
+    "Magalang: 연세. Edad ang nagtatakda kung paano mag-usap ang dalawang tao."
+   ],
+   [
+    "딸",
+    "ttal",
+    "anak na babae",
+    "Anak na babae ng iba (magalang): 따님."
+   ],
+   [
+    "산",
+    "san",
+    "bundok",
+    "Dalawang-katlo ng Korea ay bundok: 산에 가요 = magha-hiking kami."
+   ],
+   [
+    "문",
+    "mun",
+    "pinto",
+    "문 좀 닫아 주세요."
+   ],
+   [
+    "노래",
+    "norae",
+    "kanta",
+    "노래 불러요 = kumakanta ako."
+   ],
+   [
+    "바다",
+    "bada",
+    "dagat; beach",
+    "바다에 가요 = pupunta kami sa beach."
+   ],
+   [
+    "기분",
+    "gibun",
+    "mood; pakiramdam",
+    "기분이 어때요? = kumusta ang pakiramdam mo?"
+   ],
+   [
+    "옷",
+    "ot",
+    "damit",
+    "옷이 예뻐요. Pagbilang: 한 벌."
+   ],
+   [
+    "꿈",
+    "kkum",
+    "panaginip; pangarap",
+    "꿈을 꿔요 = nananaginip ako (habang tulog)."
+   ],
+   [
+    "물건",
+    "mulgeon",
+    "gamit; bagay (binibili o pag-aari)",
+    "물건을 사요 = bumibili ako ng mga gamit."
+   ],
+   [
+    "경험",
+    "gyeongheom",
+    "karanasan",
+    "좋은 경험이었어요 = magandang karanasan iyon."
+   ],
+   [
+    "비",
+    "bi",
+    "ulan",
+    "비가 와요 = umuulan (dumarating ang ulan)."
+   ],
+   [
+    "고향",
+    "gohyang",
+    "sariling bayan; probinsya",
+    "고향이 어디예요? = taga-saan ka talaga?"
+   ],
+   [
+    "아기",
+    "agi",
+    "sanggol; baby",
+    "아기가 자요 = natutulog ang baby."
+   ],
+   [
+    "아저씨",
+    "ajeossi",
+    "lalaking may edad; manong (sa hindi kakilala)",
+    "Sa taxi driver at may-ari ng tindahan. Huwag gamitin sa binata."
+   ],
+   [
+    "달",
+    "dal",
+    "buwan (sa kalendaryo at sa langit)",
+    "이번 달 = ngayong buwan. Pagbilang: 한 달."
+   ],
+   [
+    "마지막",
+    "majimak",
+    "huli (ang huling isa)",
+    "마지막 기회 = huling pagkakataon."
+   ],
+   [
+    "건강",
+    "geongang",
+    "kalusugan",
+    "건강하세요 = ingat sa kalusugan (karaniwang paalam sa nakatatanda)."
+   ],
+   [
+    "버스",
+    "beoseu",
+    "bus",
+    "버스 타요 = sumasakay ako ng bus."
+   ],
+   [
+    "사진",
+    "sajin",
+    "litrato",
+    "사진 찍어도 돼요? = puwede bang kumuha ng litrato?"
+   ],
+   [
+    "뜻",
+    "tteut",
+    "kahulugan",
+    "이게 무슨 뜻이에요? = ano ang ibig sabihin nito?"
+   ],
+   [
+    "자동차",
+    "jadongcha",
+    "kotse",
+    "Sa araw-araw: 차, na tsaa rin ang ibig sabihin."
+   ],
+   [
+    "반",
+    "ban",
+    "kalahati; klase (sa paaralan)",
+    "한 시 반 = ala-una y medya; 우리 반 = klase namin."
+   ],
+   [
+    "가격",
+    "gagyeok",
+    "presyo",
+    "Sa salita rin: 값. 가격이 얼마예요?"
+   ],
+   [
+    "핸드폰",
+    "haendeupon",
+    "cellphone",
+    "휴대폰 din; casual 폰."
+   ],
+   [
+    "동네",
+    "dongne",
+    "lugar na tinitirhan; kapitbahayan",
+    "우리 동네 = sa lugar namin."
+   ],
+   [
+    "영어",
+    "yeongeo",
+    "English (wika)",
+    "영어 선생님 = teacher sa English."
+   ],
+   [
+    "질문",
+    "jilmun",
+    "tanong",
+    "질문 있어요 = may tanong ako."
+   ],
+   [
+    "부모님",
+    "bumonim",
+    "mga magulang",
+    "Laging may 님, kahit sarili mong magulang."
+   ],
+   [
+    "가게",
+    "gage",
+    "tindahan",
+    "작은 가게 = maliit na tindahan."
+   ],
+   [
+    "날씨",
+    "nalssi",
+    "panahon (weather)",
+    "날씨가 좋네요."
+   ],
+   [
+    "의사",
+    "uisa",
+    "doktor",
+    "Tawagin siyang 선생님."
+   ],
+   [
+    "대답",
+    "daedap",
+    "sagot",
+    "대답해 주세요 = pakisagot."
+   ],
+   [
+    "시작",
+    "sijak",
+    "simula; umpisa",
+    "시작이 반이다 = ang pagsisimula ay kalahati na ng trabaho."
+   ],
+   [
+    "숙제",
+    "sukje",
+    "homework",
+    "숙제 다 했어요? = tapos mo na ba ang homework mo?"
+   ],
+   [
+    "표",
+    "pyo",
+    "ticket",
+    "표 두 장 = dalawang ticket."
+   ],
+   [
+    "강아지",
+    "gangaji",
+    "tuta; aso (pang-araw-araw)",
+    "Ang 개 ang karaniwang salita pero ginagamit din sa mura; ligtas ang 강아지."
+   ],
+   [
+    "선물",
+    "seonmul",
+    "regalo",
+    "선물이에요 = regalo ko ito sa iyo."
+   ],
+   [
+    "지하철",
+    "jihacheol",
+    "subway",
+    "지하철로 가요 = sasakay ako ng subway."
+   ],
+   [
+    "주말",
+    "jumal",
+    "weekend",
+    "주말 잘 보내세요 = enjoy sa weekend."
+   ],
+   [
+    "생일",
+    "saengil",
+    "kaarawan; birthday",
+    "생일 축하해요 = maligayang kaarawan."
+   ],
+   [
+    "고양이",
+    "goyangi",
+    "pusa",
+    "고양이 키워요 = may alaga akong pusa."
+   ],
+   [
+    "약",
+    "yak",
+    "gamot",
+    "약 먹어요 = umiinom ako ng gamot (\"kumakain\" ng gamot)."
+   ],
+   [
+    "아줌마",
+    "ajumma",
+    "babaeng may edad (casual)",
+    "Puwedeng bastos ang dating. Mas magalang: 아주머니, o sa tindahan, 사장님."
+   ],
+   [
+    "주",
+    "ju",
+    "linggo (pitong araw)",
+    "이번 주 = ngayong linggo; 다음 주 = sa susunod na linggo."
+   ],
+   [
+    "한국어",
+    "hangugeo",
+    "Koreano (wika)",
+    "Sa salita: 한국말."
+   ]
+  ],
+  "Karaniwang verb": [
+   [
+    "없다",
+    "eopda",
+    "wala; walang (pag-aari)",
+    "없어요. Kabaligtaran ng 있다. 시간이 없어요 = wala akong oras."
+   ],
+   [
+    "되다",
+    "doeda",
+    "maging; matuloy; puwede",
+    "돼요. 돼요? = puwede ba? 안 돼요 = hindi puwede."
+   ],
+   [
+    "말하다",
+    "malhada",
+    "magsalita; magsabi",
+    "말해요. Sa nakatatanda: 말씀하세요."
+   ],
+   [
+    "받다",
+    "batda",
+    "tumanggap; makakuha",
+    "받아요. 전화 받아요 = sinasagot ko ang telepono."
+   ],
+   [
+    "나오다",
+    "naoda",
+    "lumabas (papunta rito)",
+    "나와요. 결과가 나왔어요 = lumabas na ang resulta."
+   ],
+   [
+    "살다",
+    "salda",
+    "tumira; mabuhay",
+    "살아요. Nawawala ang ㄹ bago ang ㄴ/ㅂ/ㅅ: 사세요, 사는 곳."
+   ],
+   [
+    "생각하다",
+    "saenggakada",
+    "mag-isip",
+    "생각해요. 그렇게 생각해요 = sa tingin ko, oo."
+   ],
+   [
+    "만들다",
+    "mandeulda",
+    "gumawa",
+    "만들어요. Nawawala ang ㄹ: 만드세요, 만드는 법."
+   ],
+   [
+    "싶다",
+    "sipda",
+    "gustong (pagkatapos ng -고)",
+    "싶어요. 먹고 싶어요 = gusto kong kumain. Hindi nag-iisa."
+   ],
+   [
+    "보이다",
+    "boida",
+    "makita; magmukhang",
+    "보여요. 잘 보여요 = kitang-kita ko."
+   ],
+   [
+    "가지다",
+    "gajida",
+    "magkaroon; dalhin (mag-ari)",
+    "가져요. 가지고 가요 = dadalhin ko."
+   ],
+   [
+    "지나다",
+    "jinada",
+    "dumaan; lumipas ang oras",
+    "지나요. 시간이 빨리 지나요."
+   ],
+   [
+    "들다",
+    "deulda",
+    "humawak; magbuhat; magkahalaga",
+    "들어요. Nawawala ang ㄹ: 드세요 (pero ang 드세요 ay \"kumain po kayo\" rin)."
+   ],
+   [
+    "버리다",
+    "beorida",
+    "itapon",
+    "버려요. Pagkatapos ng -아/어: 다 먹어 버렸어요 = naubos ko lahat (oops)."
+   ],
+   [
+    "시작하다",
+    "sijakada",
+    "magsimula",
+    "시작해요. 영화가 시작해요."
+   ],
+   [
+    "들어가다",
+    "deureogada",
+    "pumasok",
+    "들어가요. 집에 들어가요 = uuwi na ako."
+   ],
+   [
+    "놓다",
+    "nota",
+    "ilagay; ipatong",
+    "놓아요 / 놔요. 여기 놓으세요."
+   ],
+   [
+    "만나다",
+    "mannada",
+    "makipagkita; makilala",
+    "만나요. Pansinin: 친구를 만나요 (을/를, hindi \"kasama\")."
+   ],
+   [
+    "내다",
+    "naeda",
+    "ilabas; magbayad",
+    "내요. 제가 낼게요 = ako ang magbabayad."
+   ],
+   [
+    "쓰다",
+    "sseuda",
+    "magsulat; gumamit",
+    "써요 (nawawala ang ㅡ). Ibig sabihin din: magsuot (ng sombrero), mapait ang lasa."
+   ],
+   [
+    "듣다",
+    "deutda",
+    "makinig; makarinig",
+    "들어요. Irregular ang ㄷ: ㄷ → ㄹ bago ang vowel."
+   ],
+   [
+    "찾다",
+    "chatda",
+    "maghanap; makahanap",
+    "찾아요. 돈 찾아요 = magwi-withdraw ako ng pera."
+   ],
+   [
+    "나가다",
+    "nagada",
+    "lumabas (paalis); umalis",
+    "나가요. 오늘 나가요? = lalabas ka ba ngayon?"
+   ],
+   [
+    "사다",
+    "sada",
+    "bumili",
+    "사요. 제가 살게요 = libre ko."
+   ],
+   [
+    "잡다",
+    "japda",
+    "humuli; humawak; dumampot",
+    "잡아요. 택시를 잡아요 = pumapara ako ng taxi."
+   ],
+   [
+    "서다",
+    "seoda",
+    "tumayo; huminto",
+    "서요. 줄을 서요 = pumipila ako."
+   ],
+   [
+    "읽다",
+    "ikda",
+    "magbasa",
+    "읽어요. Binibigkas na [익따]; 책 읽어요."
+   ],
+   [
+    "일어나다",
+    "ireonada",
+    "bumangon; gumising",
+    "일어나요. 일곱 시에 일어나요."
+   ],
+   [
+    "넣다",
+    "neota",
+    "ilagay sa loob",
+    "넣어요. 설탕 넣어 주세요."
+   ],
+   [
+    "느끼다",
+    "neukkida",
+    "makaramdam",
+    "느껴요. 행복을 느껴요."
+   ],
+   [
+    "부르다",
+    "bureuda",
+    "tumawag; kumanta",
+    "불러요. Irregular ang 르: 르 → ㄹㄹ bago ang 아/어."
+   ],
+   [
+    "죽다",
+    "jukda",
+    "mamatay",
+    "죽어요. Magalang tungkol sa tao: 돌아가시다. Slang din: 배고파 죽겠어 = gutom na gutom na ako."
+   ],
+   [
+    "내리다",
+    "naerida",
+    "bumaba; pumatak (ulan, niyebe)",
+    "내려요. 다음 역에서 내려요."
+   ],
+   [
+    "짓다",
+    "jitda",
+    "magtayo; gumawa (ng pangalan, kanin)",
+    "지어요. Irregular ang ㅅ: nawawala ang ㅅ bago ang vowel."
+   ],
+   [
+    "사용하다",
+    "sayonghada",
+    "gumamit",
+    "사용해요. Mas gusto ng pang-araw-araw na salita ang 쓰다."
+   ],
+   [
+    "타다",
+    "tada",
+    "sumakay",
+    "타요. 버스를 타요 (을/를)."
+   ],
+   [
+    "보내다",
+    "bonaeda",
+    "magpadala; magpalipas (ng oras)",
+    "보내요. 주말 잘 보내세요 = enjoy sa weekend."
+   ],
+   [
+    "다니다",
+    "danida",
+    "regular na pumunta; pumasok",
+    "다녀요. 회사에 다녀요 = nagtatrabaho ako sa isang kompanya."
+   ],
+   [
+    "열다",
+    "yeolda",
+    "buksan (pinto, tindahan)",
+    "열어요. Nawawala ang ㄹ: 여세요, 여는 시간."
+   ],
+   [
+    "돌아오다",
+    "doraoda",
+    "bumalik",
+    "돌아와요. 언제 돌아와요?"
+   ],
+   [
+    "묻다",
+    "mutda",
+    "magtanong",
+    "물어요. Irregular ang ㄷ. 길을 물어봐요 = nagtatanong ako ng daan."
+   ],
+   [
+    "남다",
+    "namda",
+    "matira; manatili",
+    "남아요. 시간이 좀 남았어요."
+   ],
+   [
+    "나다",
+    "nada",
+    "lumitaw; sumiklab (mangyari)",
+    "나요. 생각이 나요 = naaalala ko; 냄새가 나요 = may amoy."
+   ],
+   [
+    "웃다",
+    "utda",
+    "tumawa; ngumiti",
+    "웃어요. Regular (hindi irregular ang ㅅ)."
+   ],
+   [
+    "기다리다",
+    "gidarida",
+    "maghintay",
+    "기다려요. 잠깐만 기다려 주세요."
+   ],
+   [
+    "입다",
+    "ipda",
+    "magsuot (ng damit)",
+    "입어요. Regular (hindi irregular ang ㅂ). Sombrero: 쓰다; sapatos: 신다."
+   ],
+   [
+    "끝나다",
+    "kkeunnada",
+    "matapos",
+    "끝나요. 수업이 끝났어요."
+   ],
+   [
+    "걸리다",
+    "geollida",
+    "tumagal (oras); tamaan (ng sipon)",
+    "걸려요. 감기에 걸렸어요."
+   ],
+   [
+    "오르다",
+    "oreuda",
+    "umakyat; tumaas",
+    "올라요. Irregular ang 르. 가격이 올랐어요."
+   ],
+   [
+    "믿다",
+    "mitda",
+    "maniwala; magtiwala",
+    "믿어요. 저를 믿으세요."
+   ],
+   [
+    "바꾸다",
+    "bakkuda",
+    "magpalit; ipagpalit",
+    "바꿔요. 자리 바꿀까요? = magpalit kaya tayo ng upuan?"
+   ],
+   [
+    "배우다",
+    "baeuda",
+    "matuto",
+    "배워요. 한국어를 배워요."
+   ],
+   [
+    "돕다",
+    "dopda",
+    "tumulong",
+    "도와요. Irregular ang ㅂ (ㅂ → 오 dito). Paghingi ng tulong: 도와주세요."
+   ],
+   [
+    "이야기하다",
+    "iyagihada",
+    "mag-usap; magkuwentuhan",
+    "이야기해요. Sa salita: 얘기해요."
+   ],
+   [
+    "자다",
+    "jada",
+    "matulog",
+    "자요. Sa nakatatanda: 주무세요."
+   ],
+   [
+    "걷다",
+    "geotda",
+    "maglakad",
+    "걸어요. Irregular ang ㄷ: ㄷ → ㄹ bago ang vowel."
+   ],
+   [
+    "울다",
+    "ulda",
+    "umiyak",
+    "울어요. Nawawala ang ㄹ: 우세요, 우는 아이."
+   ],
+   [
+    "지내다",
+    "jinaeda",
+    "mamuhay; magpalipas ng mga araw",
+    "지내요. 잘 지냈어요? = kumusta ka na?"
+   ],
+   [
+    "팔다",
+    "palda",
+    "magbenta",
+    "팔아요. Nawawala ang ㄹ: 파세요, 파는 곳."
+   ],
+   [
+    "태어나다",
+    "taeeonada",
+    "ipanganak",
+    "태어나요. 서울에서 태어났어요."
+   ],
+   [
+    "가르치다",
+    "gareuchida",
+    "magturo",
+    "가르쳐요. 영어를 가르쳐요."
+   ],
+   [
+    "시키다",
+    "sikida",
+    "umorder (ng pagkain); magpagawa",
+    "시켜요. 치킨 시킬까요? = order tayo ng chicken?"
+   ],
+   [
+    "원하다",
+    "wonhada",
+    "naisin; hangarin",
+    "원해요. Pormal; sa araw-araw, -고 싶다 ang gamit."
+   ],
+   [
+    "잊다",
+    "itda",
+    "makalimot",
+    "잊어요. Mas madalas sa salita: 잊어버리다."
+   ],
+   [
+    "노력하다",
+    "noryeokada",
+    "magsikap",
+    "노력해요. 더 노력할게요."
+   ],
+   [
+    "씻다",
+    "ssitda",
+    "maghugas (ng sarili, ng pagkain)",
+    "씻어요. 손 씻어요."
+   ],
+   [
+    "싸우다",
+    "ssauda",
+    "mag-away; magtalo",
+    "싸워요. 친구랑 싸웠어요."
+   ],
+   [
+    "전화하다",
+    "jeonhwahada",
+    "tumawag (sa telepono)",
+    "전화해요. 이따 전화할게요 = tatawagan kita mamaya."
+   ],
+   [
+    "준비하다",
+    "junbihada",
+    "maghanda",
+    "준비해요. 준비됐어요? = handa ka na ba?"
+   ],
+   [
+    "결혼하다",
+    "gyeolhonhada",
+    "magpakasal",
+    "결혼해요. 결혼했어요? = kasal ka na ba?"
+   ],
+   [
+    "찍다",
+    "jjikda",
+    "kumuha (ng litrato); magtatak",
+    "찍어요. 사진 찍어 주세요."
+   ],
+   [
+    "도착하다",
+    "dochakada",
+    "dumating",
+    "도착해요. 몇 시에 도착해요?"
+   ],
+   [
+    "빌리다",
+    "billida",
+    "humiram; umupa",
+    "빌려요. 책 빌려도 돼요? Magpahiram: 빌려주다."
+   ],
+   [
+    "고르다",
+    "goreuda",
+    "pumili",
+    "골라요. Irregular ang 르."
+   ],
+   [
+    "낫다",
+    "natda",
+    "gumaling",
+    "나아요. Irregular ang ㅅ. 빨리 나으세요 = get well soon."
+   ],
+   [
+    "기억하다",
+    "gieokada",
+    "maalala; tandaan",
+    "기억해요. 저 기억하세요? = naaalala mo pa ba ako?"
+   ],
+   [
+    "닫다",
+    "datda",
+    "isara",
+    "닫아요. Regular, hindi gaya ng 듣다 / 걷다."
+   ],
+   [
+    "출발하다",
+    "chulbalhada",
+    "umalis; bumiyahe",
+    "출발해요. 지금 출발해요."
+   ],
+   [
+    "켜다",
+    "kyeoda",
+    "buksan (ilaw, gamit)",
+    "켜요. 불 좀 켜 주세요 = pakibukas ng ilaw."
+   ],
+   [
+    "끄다",
+    "kkeuda",
+    "patayin (ilaw, gamit)",
+    "꺼요 (nawawala ang ㅡ). 핸드폰 꺼 주세요."
+   ],
+   [
+    "좋아지다",
+    "joajida",
+    "bumuti; gumanda",
+    "좋아져요. 날씨가 좋아졌어요."
+   ]
+  ],
+  "Karaniwang describing verb": [
+   [
+    "같다",
+    "gatda",
+    "pareho; kagaya",
+    "같아요 · bago ang noun: 같은. 같은 반 = magkaklase."
+   ],
+   [
+    "그렇다",
+    "geureota",
+    "ganoon",
+    "그래요 · 그런 (irregular ang ㅎ). 그래요? = talaga?"
+   ],
+   [
+    "어떻다",
+    "eotteota",
+    "paano; kumusta (ano ang itsura?)",
+    "어때요? · 어떤 (irregular ang ㅎ). 날씨 어때요?"
+   ],
+   [
+    "이렇다",
+    "ireota",
+    "ganito",
+    "이래요 · 이런 (irregular ang ㅎ). 왜 이래요? = ano ba ang problema mo?"
+   ],
+   [
+    "다르다",
+    "dareuda",
+    "iba; magkaiba",
+    "달라요 · 다른 (irregular ang 르)."
+   ],
+   [
+    "새롭다",
+    "saeropda",
+    "bago; sariwa (pakiramdam na bago)",
+    "새로워요 · 새로운 (irregular ang ㅂ). Para sa bagay: 새 (bago)."
+   ],
+   [
+    "중요하다",
+    "jungyohada",
+    "mahalaga",
+    "중요해요 · 중요한."
+   ],
+   [
+    "어렵다",
+    "eoryeopda",
+    "mahirap",
+    "어려워요 · 어려운 (irregular ang ㅂ). 한국어 어려워요?"
+   ],
+   [
+    "쉽다",
+    "swipda",
+    "madali",
+    "쉬워요 · 쉬운 (irregular ang ㅂ)."
+   ],
+   [
+    "필요하다",
+    "piryohada",
+    "kailangan",
+    "필요해요 · 필요한. 뭐가 필요해요? = ano ang kailangan mo?"
+   ],
+   [
+    "높다",
+    "nopda",
+    "mataas (gusali)",
+    "높아요 · 높은. Sa tao: 키가 커요, hindi 높아요."
+   ],
+   [
+    "길다",
+    "gilda",
+    "mahaba",
+    "길어요 · 긴 (nawawala ang ㄹ)."
+   ],
+   [
+    "젊다",
+    "jeomda",
+    "bata (sa edad)",
+    "젊어요 · 젊은. Binibigkas na [점따]."
+   ],
+   [
+    "아프다",
+    "apeuda",
+    "may sakit; masakit",
+    "아파요 · 아픈 (nawawala ang ㅡ). 어디 아파요?"
+   ],
+   [
+    "적다",
+    "jeokda",
+    "kaunti",
+    "적어요 · 적은. Kabaligtaran ng 많다."
+   ],
+   [
+    "빠르다",
+    "ppareuda",
+    "mabilis",
+    "빨라요 · 빠른 (irregular ang 르)."
+   ],
+   [
+    "넓다",
+    "neolda",
+    "malawak; maluwag",
+    "넓어요 · 넓은. Binibigkas na [널따]."
+   ],
+   [
+    "이상하다",
+    "isanghada",
+    "kakaiba; weird",
+    "이상해요 · 이상한."
+   ],
+   [
+    "비슷하다",
+    "biseutada",
+    "magkahawig; halos pareho",
+    "비슷해요 · 비슷한."
+   ],
+   [
+    "짧다",
+    "jjalda",
+    "maikli (haba, oras)",
+    "짧아요 · 짧은. Sa pandak: 키가 작아요."
+   ],
+   [
+    "고맙다",
+    "gomapda",
+    "nagpapasalamat",
+    "고마워요 · 고마운 (irregular ang ㅂ). Mas malambing at hindi gaanong pormal kaysa 감사합니다."
+   ],
+   [
+    "따뜻하다",
+    "ttatteutada",
+    "mainit-init",
+    "따뜻해요 · 따뜻한. Para rin sa tao: mabait at malambing."
+   ],
+   [
+    "낮다",
+    "natda",
+    "mababa",
+    "낮아요 · 낮은."
+   ],
+   [
+    "즐겁다",
+    "jeulgeopda",
+    "masaya; nakakatuwa",
+    "즐거워요 · 즐거운 (irregular ang ㅂ). 즐거운 주말 보내세요."
+   ],
+   [
+    "무섭다",
+    "museopda",
+    "nakakatakot; takot",
+    "무서워요 · 무서운 (irregular ang ㅂ)."
+   ],
+   [
+    "가볍다",
+    "gabyeopda",
+    "magaan",
+    "가벼워요 · 가벼운 (irregular ang ㅂ)."
+   ],
+   [
+    "건강하다",
+    "geonganghada",
+    "malusog",
+    "건강해요 · 건강한."
+   ],
+   [
+    "밝다",
+    "bakda",
+    "maliwanag",
+    "밝아요 · 밝은. Binibigkas na [박따]. Ibig sabihin din: masayahin (tao)."
+   ],
+   [
+    "편하다",
+    "pyeonhada",
+    "komportable; maginhawa",
+    "편해요 · 편한."
+   ],
+   [
+    "깨끗하다",
+    "kkaekkeutada",
+    "malinis",
+    "깨끗해요 · 깨끗한."
+   ],
+   [
+    "어둡다",
+    "eodupda",
+    "madilim",
+    "어두워요 · 어두운 (irregular ang ㅂ)."
+   ],
+   [
+    "미안하다",
+    "mianhada",
+    "nagsisisi; sorry",
+    "미안해요 · 미안한. Pormal na paghingi ng tawad: 죄송합니다."
+   ],
+   [
+    "유명하다",
+    "yumyeonghada",
+    "sikat",
+    "유명해요 · 유명한."
+   ],
+   [
+    "기쁘다",
+    "gippeuda",
+    "maligaya; natutuwa",
+    "기뻐요 · 기쁜 (nawawala ang ㅡ)."
+   ],
+   [
+    "무겁다",
+    "mugeopda",
+    "mabigat",
+    "무거워요 · 무거운 (irregular ang ㅂ)."
+   ],
+   [
+    "특별하다",
+    "teukbyeolhada",
+    "espesyal",
+    "특별해요 · 특별한."
+   ],
+   [
+    "뜨겁다",
+    "tteugeopda",
+    "mainit (sa hipo)",
+    "뜨거워요 · 뜨거운 (irregular ang ㅂ). Ang mainit na panahon ay 덥다."
+   ],
+   [
+    "친절하다",
+    "chinjeolhada",
+    "mabait (matulungin)",
+    "친절해요 · 친절한. Para sa staff, sa hindi kakilala."
+   ],
+   [
+    "좁다",
+    "jopda",
+    "makitid; masikip",
+    "좁아요 · 좁은."
+   ],
+   [
+    "불편하다",
+    "bulpyeonhada",
+    "hindi komportable; abala",
+    "불편해요 · 불편한."
+   ],
+   [
+    "시원하다",
+    "siwonhada",
+    "presko; nakakaginhawa",
+    "시원해요 · 시원한. Sinasabi rin sa mainit na sabaw: \"ahh, ang sarap sa pakiramdam\"."
+   ],
+   [
+    "반갑다",
+    "bangapda",
+    "natutuwang makita (ang isang tao)",
+    "반가워요 · 반가운 (irregular ang ㅂ)."
+   ],
+   [
+    "차갑다",
+    "chagapda",
+    "malamig (sa hipo)",
+    "차가워요 · 차가운 (irregular ang ㅂ). Ang malamig na panahon ay 춥다."
+   ],
+   [
+    "맵다",
+    "maepda",
+    "maanghang",
+    "매워요 · 매운 (irregular ang ㅂ)."
+   ],
+   [
+    "달다",
+    "dalda",
+    "matamis",
+    "달아요 · 단 (nawawala ang ㄹ)."
+   ],
+   [
+    "느리다",
+    "neurida",
+    "mabagal",
+    "느려요 · 느린."
+   ],
+   [
+    "더럽다",
+    "deoreopda",
+    "marumi",
+    "더러워요 · 더러운 (irregular ang ㅂ)."
+   ],
+   [
+    "시끄럽다",
+    "sikkeureopda",
+    "maingay",
+    "시끄러워요 · 시끄러운 (irregular ang ㅂ)."
+   ],
+   [
+    "하얗다",
+    "hayata",
+    "puti",
+    "하얘요 · 하얀 (irregular ang ㅎ)."
+   ],
+   [
+    "짜다",
+    "jjada",
+    "maalat",
+    "짜요 · 짠."
+   ],
+   [
+    "조용하다",
+    "joyonghada",
+    "tahimik",
+    "조용해요 · 조용한."
+   ],
+   [
+    "부럽다",
+    "bureopda",
+    "naiinggit",
+    "부러워요 · 부러운 (irregular ang ㅂ). 부러워요! = sana all!"
+   ],
+   [
+    "빨갛다",
+    "ppalgata",
+    "pula",
+    "빨개요 · 빨간 (irregular ang ㅎ)."
+   ],
+   [
+    "배부르다",
+    "baebureuda",
+    "busog",
+    "배불러요 · 배부른 (irregular ang 르)."
+   ],
+   [
+    "재미없다",
+    "jaemieopda",
+    "nakakabagot; hindi masaya",
+    "재미없어요 · 재미없는 (-는 ang kasunod ng 있다/없다)."
+   ],
+   [
+    "노랗다",
+    "norata",
+    "dilaw",
+    "노래요 · 노란 (irregular ang ㅎ). Ang 노래요 ay \"kanta ito\" rin."
+   ],
+   [
+    "맛없다",
+    "madeopda",
+    "hindi masarap",
+    "맛없어요 · 맛없는. Binibigkas na [마덥따]."
+   ],
+   [
+    "까맣다",
+    "kkamata",
+    "itim",
+    "까매요 · 까만 (irregular ang ㅎ)."
+   ],
+   [
+    "외롭다",
+    "oeropda",
+    "malungkot (nag-iisa)",
+    "외로워요 · 외로운 (irregular ang ㅂ)."
+   ],
+   [
+    "파랗다",
+    "parata",
+    "asul",
+    "파래요 · 파란 (irregular ang ㅎ)."
+   ],
+   [
+    "귀찮다",
+    "gwichanta",
+    "nakakatamad; tinatamad",
+    "귀찮아요 · 귀찮은. Napakadalas sa usapan."
+   ]
+  ],
+  "Karaniwang adverb": [
+   [
+    "안",
+    "an",
+    "hindi (maikling negative)",
+    "Kaagad bago ang verb: 안 가요. Sa 하다 verb: 공부 안 해요."
+   ],
+   [
+    "더",
+    "deo",
+    "mas; dagdag pa",
+    "더 주세요 = pahingi pa; 조금 더 = kaunti pa."
+   ],
+   [
+    "잘",
+    "jal",
+    "mahusay; nang maayos",
+    "잘 자요 = matulog ka nang mahimbing; 잘 몰라요 = hindi ko masyadong alam."
+   ],
+   [
+    "또",
+    "tto",
+    "na naman; at saka",
+    "또 봐요 = kita ulit tayo; 또 늦었어요? = late ka na naman?"
+   ],
+   [
+    "어떻게",
+    "eotteoke",
+    "paano",
+    "어떻게 가요? = paano pumunta roon? 어떡해 = naku, paano na (mula sa 어떻게 해)."
+   ],
+   [
+    "다시",
+    "dasi",
+    "ulit",
+    "다시 한번 = isa pang beses."
+   ],
+   [
+    "다",
+    "da",
+    "lahat",
+    "다 먹었어요 = naubos ko lahat; 다 왔어요 = malapit na tayo."
+   ],
+   [
+    "좀",
+    "jom",
+    "kaunti; paki- (softener)",
+    "Mas malambot ang 좀 도와주세요 kaysa sa 도와주세요. Maikli ito para sa 조금."
+   ],
+   [
+    "함께",
+    "hamkke",
+    "magkasama (medyo pormal)",
+    "Sa araw-araw: 같이. 함께해요 = sabay-sabay nating gawin."
+   ],
+   [
+    "많이",
+    "mani",
+    "marami; madami",
+    "많이 드세요 = kumain po kayo nang marami (sinasabi ng host)."
+   ],
+   [
+    "가장",
+    "gajang",
+    "pinaka-",
+    "가장 좋아하는 = paborito ko. Mas madalas sa salita: 제일."
+   ],
+   [
+    "바로",
+    "baro",
+    "agad; mismo",
+    "바로 앞 = mismong harapan; 바로 갈게요 = pupunta ako agad."
+   ],
+   [
+    "모두",
+    "modu",
+    "lahat; lahat ng tao",
+    "모두 같이 = sabay-sabay lahat."
+   ],
+   [
+    "왜",
+    "wae",
+    "bakit",
+    "왜요? = bakit? Medyo bastos ang dating kung nag-iisa; idagdag ang 혹시 para lumambot."
+   ],
+   [
+    "특히",
+    "teuki",
+    "lalo na",
+    "특히 김치를 좋아해요."
+   ],
+   [
+    "아직",
+    "ajik",
+    "hindi pa; pa rin",
+    "아직 안 먹었어요 = hindi pa ako kumakain."
+   ],
+   [
+    "같이",
+    "gachi",
+    "sabay; magkasama",
+    "같이 가요 = sabay tayong pumunta. Pagkatapos ng noun, particle ito: 꽃같이 = parang bulaklak."
+   ],
+   [
+    "못",
+    "mot",
+    "hindi kaya",
+    "Kaagad bago ang verb: 못 가요 = hindi ako makakapunta. 수영 못 해요."
+   ],
+   [
+    "너무",
+    "neomu",
+    "sobra; napaka-",
+    "너무 비싸요 = sobrang mahal; 너무 좋아요 = gustong-gusto ko."
+   ],
+   [
+    "이미",
+    "imi",
+    "na (nagawa na noon pa)",
+    "이미 끝났어요 = tapos na iyon."
+   ],
+   [
+    "아주",
+    "aju",
+    "lubha; napaka (neutral)",
+    "Neutral. Mas madalas sa salita: 정말, 진짜, 너무."
+   ],
+   [
+    "그냥",
+    "geunyang",
+    "basta; wala lang",
+    "그냥요 = wala lang; 그냥 그래요 = ayos lang naman."
+   ],
+   [
+    "거의",
+    "geoui",
+    "halos; bihira",
+    "거의 다 왔어요 = malapit na; 거의 안 먹어요 = halos hindi ako kumakain."
+   ],
+   [
+    "곧",
+    "got",
+    "malapit na; maya-maya",
+    "곧 도착해요 = malapit nang dumating."
+   ],
+   [
+    "서로",
+    "seoro",
+    "isa't isa",
+    "서로 도와요 = nagtutulungan kami."
+   ],
+   [
+    "정말",
+    "jeongmal",
+    "talaga; totoo",
+    "정말 맛있어요. 정말요? = talaga?"
+   ],
+   [
+    "혼자",
+    "honja",
+    "mag-isa",
+    "혼자 왔어요 = mag-isa akong pumunta."
+   ],
+   [
+    "이제",
+    "ije",
+    "ngayon (simula ngayon); sa wakas",
+    "이제 가요 = aalis na ako; 이제 알겠어요 = gets ko na."
+   ],
+   [
+    "꼭",
+    "kkok",
+    "siguradong; huwag kalimutang",
+    "꼭 오세요 = siguraduhin mong pumunta ka."
+   ],
+   [
+    "요즘",
+    "yojeum",
+    "ngayong mga araw; lately",
+    "요즘 바빠요?"
+   ],
+   [
+    "계속",
+    "gyesok",
+    "tuloy-tuloy; patuloy na",
+    "계속 생각나요 = paulit-ulit kong naiisip."
+   ],
+   [
+    "갑자기",
+    "gapjagi",
+    "biglang",
+    "갑자기 비가 와요."
+   ],
+   [
+    "전혀",
+    "jeonhyeo",
+    "hindi talaga",
+    "Kasama ang negative: 전혀 몰라요."
+   ],
+   [
+    "빨리",
+    "ppalli",
+    "mabilis; dali",
+    "빨리 와요 = bilisan mo."
+   ],
+   [
+    "훨씬",
+    "hwolssin",
+    "mas lalo (malayo)",
+    "Sa paghahambing: 훨씬 더 좋아요."
+   ],
+   [
+    "열심히",
+    "yeolsimhi",
+    "masipag; nang husto",
+    "열심히 공부해요."
+   ],
+   [
+    "자주",
+    "jaju",
+    "madalas",
+    "자주 와요? = madalas ka ba rito?"
+   ],
+   [
+    "벌써",
+    "beolsseo",
+    "na agad (mas maaga sa inaasahan)",
+    "벌써 열 시예요? = alas-diyes na agad?"
+   ],
+   [
+    "제일",
+    "jeil",
+    "pinaka; numero uno",
+    "제일 좋아요 = ito ang pinakamaganda."
+   ],
+   [
+    "아마",
+    "ama",
+    "siguro; malamang",
+    "Madalas kasama ang -(으)ㄹ 거예요: 아마 비가 올 거예요."
+   ],
+   [
+    "조금",
+    "jogeum",
+    "kaunti; medyo",
+    "Maikling anyo sa salita: 좀."
+   ],
+   [
+    "항상",
+    "hangsang",
+    "palagi",
+    "Sa salita rin: 늘, 언제나."
+   ],
+   [
+    "나중에",
+    "najunge",
+    "mamaya; sa ibang araw",
+    "나중에 연락할게요."
+   ],
+   [
+    "별로",
+    "byeollo",
+    "hindi masyado",
+    "Kasama ang negative: 별로 안 좋아해요. 별로예요 = hindi ganoon kaganda / meh."
+   ],
+   [
+    "가끔",
+    "gakkeum",
+    "paminsan-minsan",
+    "가끔 만나요."
+   ],
+   [
+    "일찍",
+    "iljjik",
+    "maaga",
+    "일찍 일어나요."
+   ],
+   [
+    "원래",
+    "wollae",
+    "talaga namang; dati pa (ganyan na talaga)",
+    "원래 그래요 = ganyan na talaga iyan."
+   ],
+   [
+    "늦게",
+    "neutge",
+    "late; gabi na",
+    "늦게 자요 = late na ako natutulog."
+   ],
+   [
+    "보통",
+    "botong",
+    "karaniwan",
+    "보통 몇 시에 자요? Noun din: regular na size."
+   ],
+   [
+    "혹시",
+    "hoksi",
+    "baka sakali",
+    "Pinalalambot ang tanong: 혹시 한국 사람이에요?"
+   ],
+   [
+    "되게",
+    "doege",
+    "sobrang; ang (sa salita)",
+    "Casual: 되게 맛있어. Hindi sa pagsusulat."
+   ],
+   [
+    "금방",
+    "geumbang",
+    "sandali lang; agad-agad",
+    "금방 갈게요 = nandiyan na ako agad."
+   ],
+   [
+    "진짜로",
+    "jinjjaro",
+    "seryoso; totoo talaga",
+    "Mas malakas at mas casual kaysa 정말."
+   ],
+   [
+    "천천히",
+    "cheoncheonhi",
+    "dahan-dahan",
+    "천천히 드세요 = dahan-dahan lang po kayo sa pagkain."
+   ],
+   [
+    "방금",
+    "banggeum",
+    "kani-kanina lang",
+    "방금 왔어요 = kararating ko lang."
+   ]
+  ],
+  "Karaniwang pronoun": [
+   [
+    "나",
+    "na",
+    "ako (casual)",
+    "Sa kaibigan at mas bata. Kasama ang 가: 내가. Ko / aking: 내."
+   ],
+   [
+    "우리",
+    "uri",
+    "kami; tayo; atin",
+    "Ginagamit din bilang \"ko\" para sa pamilya at bahay: 우리 엄마, 우리 집."
+   ],
+   [
+    "씨",
+    "ssi",
+    "Mr. / Ms. (pagkatapos ng buong pangalan o first name)",
+    "Pangalan ang pumapalit sa \"ikaw\": 민수 씨, 어디 가요? Hindi kailanman sa sarili mong pangalan o sa apelyido lang."
+   ],
+   [
+    "그것",
+    "geugeot",
+    "iyan (bagay na malapit sa iyo o nabanggit na)",
+    "Sa salita: 그거. Kasama ang 이: 그게."
+   ],
+   [
+    "저",
+    "jeo",
+    "ako (polite, mapagpakumbaba)",
+    "Ang default sa hindi kakilala. Kasama ang 가: 제가. Ko / aking: 제."
+   ],
+   [
+    "제",
+    "je",
+    "aking (polite)",
+    "저 + 의. 제 이름은 … = ang pangalan ko ay …"
+   ],
+   [
+    "자신",
+    "jasin",
+    "sarili",
+    "자신 있어요 = kumpiyansa ako. 자신을 사랑하세요."
+   ],
+   [
+    "너",
+    "neo",
+    "ikaw (casual, sa kaibigan o bata)",
+    "Sa malapit na kaibigan o mas bata lang. Kasama ang 가: 네가 (binibigkas na 니가)."
+   ],
+   [
+    "뭐",
+    "mwo",
+    "ano (sa salita)",
+    "뭐 해요? = ano ang ginagawa mo? Pormal: 무엇."
+   ],
+   [
+    "누구",
+    "nugu",
+    "sino",
+    "누구예요? Kasama ang 가: 누가 왔어요? = sino ang dumating?"
+   ],
+   [
+    "자기",
+    "jagi",
+    "sarili; mahal (sa magkasintahan)",
+    "자기 일 = sariling gawain. 자기야 = mahal / babe."
+   ],
+   [
+    "무엇",
+    "mueot",
+    "ano (pasulat, pormal)",
+    "무엇을 도와드릴까요? = ano po ang maitutulong ko?"
+   ],
+   [
+    "그거",
+    "geugeo",
+    "iyan (sa salita)",
+    "그거 좋네요 = maganda iyan / magandang ideya."
+   ],
+   [
+    "어디",
+    "eodi",
+    "saan; anong lugar",
+    "어디 가요? (madalas pagbati lang: saan ang punta mo?)"
+   ],
+   [
+    "이것",
+    "igeot",
+    "ito (bagay)",
+    "Sa salita: 이거. Kasama ang 이: 이게."
+   ],
+   [
+    "당신",
+    "dangsin",
+    "ikaw (mag-asawa, kanta, ads)",
+    "Bihirang gamitin nang harapan: puwedeng malamig ang dating o pagsimulan ng away. Gamitin ang pangalan o title ng tao."
+   ],
+   [
+    "거기",
+    "geogi",
+    "diyan (malapit sa iyo, o ang lugar na nabanggit)",
+    "거기 어디예요? = saan ang lugar na iyan? Kapares ng 여기 / 저기."
+   ],
+   [
+    "이거",
+    "igeo",
+    "ito (sa salita)",
+    "이거 얼마예요? Ituro at sabihing 이거 주세요."
+   ],
+   [
+    "내",
+    "nae",
+    "aking (casual)",
+    "나 + 의. 내 친구 = kaibigan ko."
+   ],
+   [
+    "아무",
+    "amu",
+    "kahit ano; kahit sino (+ particle)",
+    "아무나 = kahit sino; 아무 때나 = kahit kailan."
+   ],
+   [
+    "아무도",
+    "amudo",
+    "walang sinuman (kasama ang negative)",
+    "아무도 없어요 = walang tao rito."
+   ],
+   [
+    "저거",
+    "jeogeo",
+    "iyon (sa salita, malayo)",
+    "저거 뭐예요?"
+   ],
+   [
+    "아무것도",
+    "amugeotdo",
+    "wala kahit ano (kasama ang negative)",
+    "아무것도 몰라요 = wala akong alam."
+   ],
+   [
+    "뭔가",
+    "mwonga",
+    "may kung ano",
+    "뭔가 이상해요 = parang may mali."
+   ],
+   [
+    "저희",
+    "jeohui",
+    "kami (mapagpakumbaba)",
+    "Sa customer, nakatatanda, sa trabaho. Ibinababa nito ang panig mo, kaya hindi kailanman kasama ang kausap."
+   ],
+   [
+    "여러분",
+    "yeoreobun",
+    "kayong lahat",
+    "Sa isang grupo: 여러분, 안녕하세요!"
+   ],
+   [
+    "누군가",
+    "nugunga",
+    "may isang tao; kung sino",
+    "누군가 왔어요 = may dumating. Sa salita: 누가."
+   ],
+   [
+    "저것",
+    "jeogeot",
+    "iyon (bagay na malayo)",
+    "Sa salita: 저거. Kasama ang 이: 저게."
+   ],
+   [
+    "이분",
+    "ibun",
+    "ang taong ito (honorific)",
+    "Sa pagpapakilala: 이분은 김 선생님이세요."
+   ],
+   [
+    "얘",
+    "yae",
+    "ang batang ito; ang taong ito (casual)",
+    "Mula sa 이 아이. Tungkol sa kaibigang katabi mo: 얘는 제 친구예요."
+   ],
+   [
+    "이쪽",
+    "ijjok",
+    "dito; ito (sa pagpapakilala)",
+    "이쪽으로 오세요 = dito ka dumaan. 이쪽은 제 동생이에요."
+   ],
+   [
+    "걔",
+    "gyae",
+    "ang batang iyan; siya (casual)",
+    "Mula sa 그 아이. Karaniwang paraan ng pagsabi ng \"siya\" sa magkakaibigan."
+   ],
+   [
+    "그쪽",
+    "geujjok",
+    "ikaw (sa hindi kakilala, lit. ang panig na iyan)",
+    "Paraan para iwasan ang 너 o 당신 sa taong hindi mo alam ang pangalan. Puwedeng malayo o medyo pilyo ang dating."
+   ],
+   [
+    "저쪽",
+    "jeojjok",
+    "doon sa banda roon",
+    "저쪽에 있어요 = nandoon iyon."
+   ],
+   [
+    "저분",
+    "jeobun",
+    "ang taong iyon doon (honorific)",
+    "저분이 누구세요?"
+   ],
+   [
+    "쟤",
+    "jyae",
+    "ang batang iyon doon (casual)",
+    "Mula sa 저 아이. Huwag gamitin tungkol sa nakatatanda."
+   ],
+   [
+    "어딘가",
+    "eodinga",
+    "kung saan",
+    "어딘가에 있을 거예요 = nandiyan lang iyan kung saan."
+   ],
+   [
+    "그분",
+    "geubun",
+    "ang taong iyan; siya (honorific)",
+    "Para sa iginagalang na tao: 그분이 오셨어요."
+   ],
+   [
+    "그",
+    "geu",
+    "siya, lalaki (sa pagsusulat)",
+    "Sa salita, pangalan o 그 사람, 걔 ang gamit. Ang 그 ay \"iyan\" din (bago ang noun)."
+   ],
+   [
+    "그녀",
+    "geunyeo",
+    "siya, babae (sa pagsusulat)",
+    "Halos hindi sinasabi. Gamitin ang pangalan, 그 사람 o 걔."
+   ]
+  ],
+  "Dagdag na particle": [
+   [
+    "(으)로",
+    "(eu)ro",
+    "sa pamamagitan ng; papunta sa; bilang",
+    "Pagkatapos ng vowel o ㄹ: 로 (버스로, 지하철로); pagkatapos ng consonant: 으로 (손으로)."
+   ],
+   [
+    "까지",
+    "kkaji",
+    "hanggang; kahit",
+    "Pareho pagkatapos ng vowel at consonant: 세 시까지, 서울까지."
+   ],
+   [
+    "부터",
+    "buteo",
+    "mula (sa oras o simula)",
+    "아홉 시부터 = mula alas-nuwebe. Kapares ng 까지."
+   ],
+   [
+    "요",
+    "yo",
+    "polite marker (pagkatapos ng kahit anong salita)",
+    "Ginagawang polite ang isang salita: 저도요, 커피요, 왜요?"
+   ],
+   [
+    "한테",
+    "hante",
+    "kay (sa tao, sa salita)",
+    "친구한테 줘요. Para lang sa tao at hayop; 에 ang para sa lugar."
+   ],
+   [
+    "보다",
+    "boda",
+    "kaysa",
+    "Nasa likod ng bagay na pinaghahambingan: 버스보다 빨라요 = mas mabilis kaysa sa bus."
+   ],
+   [
+    "들",
+    "deul",
+    "plural marker (mga)",
+    "친구들 = mga kaibigan. Madalas tinatanggal: hindi kailangan ng plural sa Koreano."
+   ],
+   [
+    "이랑 / 랑",
+    "irang / rang",
+    "at; kasama (casual)",
+    "Vowel: 랑 (친구랑); consonant: 이랑 (동생이랑). Pasalitang bersyon ng 하고."
+   ],
+   [
+    "이나 / 나",
+    "ina / na",
+    "o; umabot ng",
+    "Vowel: 나 (커피나 차); consonant: 이나 (빵이나 밥). 두 시간이나 = dalawang oras talaga."
+   ],
+   [
+    "에게",
+    "ege",
+    "kay (sa tao, pasulat o maingat)",
+    "Kapareho ng 한테, medyo mas pormal: 선생님에게."
+   ],
+   [
+    "처럼",
+    "cheoreom",
+    "parang; tulad ng",
+    "한국 사람처럼 말해요 = parang Koreano kang magsalita."
+   ],
+   [
+    "밖에",
+    "bakke",
+    "lang; wala kundi (kasama ang negative)",
+    "천 원밖에 없어요 = 1,000 won lang ang pera ko. Dapat negative ang verb."
+   ],
+   [
+    "쯤",
+    "jjeum",
+    "mga; bandang (oras o dami)",
+    "세 시쯤 = bandang alas-tres; 얼마쯤 = mga magkano."
+   ],
+   [
+    "마다",
+    "mada",
+    "tuwing; bawat",
+    "날마다 = araw-araw; 주말마다 = tuwing weekend."
+   ],
+   [
+    "아 / 야",
+    "a / ya",
+    "uy (pagkatapos ng pangalan, casual)",
+    "Consonant: 아 (민정아); vowel: 야 (지수야). Sa kaibigan at mas bata lang."
+   ],
+   [
+    "께서",
+    "kkeseo",
+    "subject marker (honorific)",
+    "Pumapalit sa 이/가 para sa nakatatanda: 할아버지께서 오셨어요."
+   ],
+   [
+    "께",
+    "kke",
+    "kay (sa iginagalang na tao)",
+    "Honorific na 에게: 할머니께 드려요."
+   ],
+   [
+    "한테서",
+    "hanteseo",
+    "mula kay (sa tao, sa salita)",
+    "친구한테서 받았어요. Madalas pinaiikli sa 한테."
+   ],
+   [
+    "씩",
+    "ssik",
+    "bawat isa; tig-",
+    "하나씩 = tig-isa; 조금씩 = paunti-unti."
+   ],
+   [
+    "(이)라도",
+    "(i)rado",
+    "kahit man lang; o kung ano",
+    "커피라도 마실래요? = kape man lang, gusto mo?"
+   ],
+   [
+    "(이)라고",
+    "(i)rago",
+    "tinatawag na; sinasabing (sinisipi ang salita)",
+    "민수라고 해요 = Minsu ang tawag sa akin."
+   ],
+   [
+    "대로",
+    "daero",
+    "ayon sa; gaya ng",
+    "마음대로 = kung ano ang gusto mo; 말한 대로 = gaya ng sinabi ko."
+   ],
+   [
+    "에서부터",
+    "eseobuteo",
+    "(simula) mula sa (lugar)",
+    "집에서부터 걸어왔어요 = naglakad ako mula pa sa bahay."
+   ]
+  ],
+  "Dagdag na connector": [
+   [
+    "먹고",
+    "meokgo",
+    "kumain at (saka) (-고)",
+    "Pinagdudugtong ng -고 ang dalawang kilos o bagay. Pareho pagkatapos ng vowel at consonant: 가고, 먹고."
+   ],
+   [
+    "가서",
+    "gaseo",
+    "pumunta at (doon) (-아서/어서)",
+    "-아서/어서: humahantong ang isang kilos sa susunod. 가서 먹어요 = pupunta ako roon at doon kakain."
+   ],
+   [
+    "피곤해서",
+    "pigonhaeseo",
+    "kasi pagod ako (-아서/어서)",
+    "-아서/어서 = kasi. Hindi kailanman kasama ang -(으)세요 o -(으)ㄹ까요."
+   ],
+   [
+    "가면",
+    "gamyeon",
+    "kung pupunta (-(으)면)",
+    "Sa vowel stem: -면 (가면); sa consonant stem: -으면 (먹으면)."
+   ],
+   [
+    "바쁜데",
+    "bappeunde",
+    "busy ako, kaya / pero (-(으)ㄴ데 / -는데)",
+    "Naglalatag ng sitwasyon: 바쁜데 나중에 얘기해요. Verb: 가는데; describing verb: 바쁜데."
+   ],
+   [
+    "비싸지만",
+    "bissajiman",
+    "mahal, pero (-지만)",
+    "-지만 = pero. Pareho sa kahit anong stem: 좋지만, 비싸지만."
+   ],
+   [
+    "갈 때",
+    "gal ttae",
+    "kapag pupunta (-(으)ㄹ 때)",
+    "Vowel: 갈 때; consonant: 먹을 때. 어릴 때 = noong bata ako."
+   ],
+   [
+    "비가 오니까",
+    "biga onikka",
+    "dahil umuulan (-(으)니까)",
+    "-(으)니까 = dahil, at puwede ito sa utos at pakiusap: 비가 오니까 우산 가져가세요."
+   ],
+   [
+    "비싸도",
+    "bissado",
+    "kahit mahal (-아도/어도)",
+    "비싸도 사고 싶어요."
+   ],
+   [
+    "가려고",
+    "garyeogo",
+    "balak pumunta (-(으)려고)",
+    "한국에 가려고 한국어를 배워요."
+   ],
+   [
+    "걸으면서",
+    "georeumyeonseo",
+    "habang naglalakad (-(으)면서)",
+    "Dalawang bagay nang sabay, iisang tao: 음악 들으면서 걸어요."
+   ],
+   [
+    "먹으러",
+    "meogeureo",
+    "(pumunta) para kumain (-(으)러)",
+    "Kasama lang ng pumunta / pumarito: 먹으러 가요, 놀러 와요."
+   ],
+   [
+    "가다가",
+    "gadaga",
+    "habang papunta, tapos (-다가)",
+    "Naputol ang isang kilos: 집에 가다가 친구를 만났어요."
+   ],
+   [
+    "자거나",
+    "jageona",
+    "matulog o (-거나)",
+    "-거나 = o, sa pagitan ng mga kilos: 주말에 자거나 영화 봐요."
+   ],
+   [
+    "먹은 후에",
+    "meogeun hue",
+    "pagkatapos kumain (-(으)ㄴ 후에)",
+    "Vowel: 간 후에; consonant: 먹은 후에. Puwede rin: -고 나서."
+   ],
+   [
+    "자기 전에",
+    "jagi jeone",
+    "bago matulog (-기 전에)",
+    "Verb + 기 전에: 먹기 전에 = bago kumain."
+   ],
+   [
+    "도착하자마자",
+    "dochakajamaja",
+    "pagkarating na pagkarating (-자마자)",
+    "집에 도착하자마자 잤어요."
+   ],
+   [
+    "그러나",
+    "geureona",
+    "gayunman (pasulat)",
+    "Sa libro at balita. Sa salita: 그런데, 하지만."
+   ],
+   [
+    "즉",
+    "jeuk",
+    "ibig sabihin; alalaong baga",
+    "Pasulat, pormal."
+   ],
+   [
+    "근데",
+    "geunde",
+    "pero; siyanga pala (sa salita)",
+    "Pasalitang maikling anyo ng 그런데. Nagsisimula rin ng bagong paksa: 근데 밥 먹었어?"
+   ],
+   [
+    "따라서",
+    "ttaraseo",
+    "samakatuwid (pasulat)",
+    "Pormal na 그래서."
+   ],
+   [
+    "또는",
+    "ttoneun",
+    "o (sa pagitan ng noun, pormal)",
+    "카드 또는 현금 = card o cash. Sa salita: 아니면, (이)나."
+   ],
+   [
+    "그러니까",
+    "geureonikka",
+    "kaya; kaya nga; ibig kong sabihin",
+    "\"Mismo!\" din: 그러니까요! Maikli sa salita: 그니까."
+   ],
+   [
+    "그렇지만",
+    "geureochiman",
+    "pero; gayunpaman",
+    "Nasa pagitan ng 그런데 at 하지만 ang tono."
+   ],
+   [
+    "그렇다면",
+    "geureotamyeon",
+    "kung ganoon; kung gayon",
+    "Medyo mas pormal kaysa 그럼."
+   ],
+   [
+    "그러다가",
+    "geureodaga",
+    "tapos (habang ginagawa iyon)",
+    "텔레비전을 봤어요. 그러다가 잠들었어요."
+   ],
+   [
+    "게다가",
+    "gedaga",
+    "bukod pa riyan; dagdag pa",
+    "비싸요. 게다가 맛도 없어요."
+   ]
+  ],
+  "Mga bulalas": [
+   [
+    "아",
+    "a",
+    "ah; oh (gets ko)",
+    "Ang reaksyon para sa lahat: 아, 그래요? Buntong-hininga rin."
+   ],
+   [
+    "어",
+    "eo",
+    "uh; ha?",
+    "Gulat o casual na \"oo\": 어, 왔어? Casual."
+   ],
+   [
+    "와",
+    "wa",
+    "wow",
+    "Neutral, kahit sino puwedeng magsabi. Mas mahaba = mas namangha: 와아."
+   ],
+   [
+    "오",
+    "o",
+    "oh!; uy",
+    "Natuwa sa gulat: 오, 멋있다! Kapareho ang baybay ng 오 (lima)."
+   ],
+   [
+    "응",
+    "eung",
+    "oo; uh-huh (casual)",
+    "Casual na \"oo\" sa kaibigan. Sa nakatatanda: 네."
+   ],
+   [
+    "자",
+    "ja",
+    "o sige; heto",
+    "Sa pagsisimula o pag-abot ng bagay: 자, 시작할까요?"
+   ],
+   [
+    "음",
+    "eum",
+    "hmm",
+    "Nag-iisip bago sumagot. Puwede sa kahit anong politeness level."
+   ],
+   [
+    "우와",
+    "uwa",
+    "whoa; wooow",
+    "Mas malaki at mas parang bata kaysa 와."
+   ],
+   [
+    "여보세요",
+    "yeoboseyo",
+    "hello? (sa telepono)",
+    "Sa telepono lang, o para tingnan kung naririnig ka. Hindi pagbati nang harapan."
+   ],
+   [
+    "글쎄",
+    "geulsse",
+    "hmm, ewan…; hindi ako sigurado",
+    "Polite: 글쎄요. Pambili ng oras o pampalambot ng \"hindi\"."
+   ],
+   [
+    "에이",
+    "ei",
+    "ay, sus; hindi nga",
+    "Mahinang pagdududa o pang-aasar: 에이, 거짓말! Casual."
+   ],
+   [
+    "세상에",
+    "sesange",
+    "Diyos ko (lit. sa mundo)",
+    "Pagkamangha o pagkagulat. Karaniwan sa mas matatanda: 세상에, 이게 뭐야!"
+   ],
+   [
+    "휴",
+    "hyu",
+    "hay, salamat",
+    "Ginhawa. Buntong-hininga rin."
+   ],
+   [
+    "아야",
+    "aya",
+    "aray",
+    "Biglang sakit. Mas maikli: 아! Sinasabi ng mga bata ang 아야야."
+   ],
+   [
+    "에휴",
+    "ehyu",
+    "haay (pagod na)",
+    "Pagod na pagsuko. Puwedeng masungit ang dating; mag-ingat sa nakatatanda."
+   ],
+   [
+    "어머",
+    "eomeo",
+    "ay!; naku!",
+    "Kadalasan babae at mas matatanda. Mas malakas ang 어머나."
+   ],
+   [
+    "헉",
+    "heok",
+    "hala!; yikes",
+    "Pagkagulat, tina-type din sa chat. Casual."
+   ],
+   [
+    "앗",
+    "at",
+    "oops!; ay, mali!",
+    "Biglang maliit na gulat o pagkakamali. Casual."
+   ],
+   [
+    "아차",
+    "acha",
+    "naku, nakalimutan ko!",
+    "Kapag naalala mo ang pagkakamali: 아차, 지갑! Casual."
+   ],
+   [
+    "깜짝이야",
+    "kkamjjagiya",
+    "ginulat mo ako!",
+    "Kapag nagulat. Casual; polite: 깜짝 놀랐어요."
+   ],
+   [
+    "아이참",
+    "aicham",
+    "ay, ano ba (nahihiya, pa-cute)",
+    "Nahihiya o medyo inis, madalas pabiro. Kadalasan babae."
+   ],
+   [
+    "아싸",
+    "assa",
+    "yes!; yehey!",
+    "Maliit na tagumpay. Isinusulat din na 앗싸. Casual, medyo pabiro."
+   ],
+   [
+    "쉿",
+    "swit",
+    "shh",
+    "Pagpapatahimik. Kahit sino puwedeng magsabi."
+   ],
+   [
+    "으악",
+    "euak",
+    "aaah!",
+    "Sigaw: insekto, gulat, sakuna. Casual."
+   ],
+   [
+    "짜잔",
+    "jjajan",
+    "ta-da!",
+    "Pagpapakita ng sorpresa o regalo. Pabiro."
+   ],
+   [
+    "웩",
+    "wek",
+    "yuck; kadiri",
+    "Pandidiri, lalo na sa pagkain. Casual; bastos kung tungkol sa luto ng iba."
+   ]
+  ],
+  "Mga kapaki-pakinabang na salita": [
+   [
+    "이 / 그 / 저",
+    "i / geu / jeo",
+    "ito / iyan / iyon (bago ang noun)",
+    "이 사람, 그 책, 저 건물. 그 = malapit sa iyo o nabanggit na; 저 = malayo sa inyong dalawa."
+   ],
+   [
+    "한, 두, 세, 네",
+    "han du se ne",
+    "isa, dalawa, tatlo, apat (bago ang counter)",
+    "하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명."
+   ],
+   [
+    "이런 / 그런 / 저런",
+    "ireon / geureon / jeoreon",
+    "ganito / ganyan / ganoon",
+    "이런 날 = ganitong araw. 그런 거 아니에요 = hindi ganoon iyon."
+   ],
+   [
+    "어떤",
+    "eotteon",
+    "anong klaseng; ilang (bago ang noun)",
+    "어떤 음식 좋아해요? Mula sa 어떻다."
+   ],
+   [
+    "다른",
+    "dareun",
+    "iba; isa pa",
+    "다른 거 있어요? = may iba pa ba kayo?"
+   ],
+   [
+    "여러",
+    "yeoreo",
+    "iba't ibang; marami",
+    "여러 번 = maraming beses; 여러 가지 = sari-sari."
+   ],
+   [
+    "어느",
+    "eoneu",
+    "alin (bago ang noun)",
+    "어느 나라 = aling bansa; 어느 쪽 = saang banda."
+   ],
+   [
+    "모든",
+    "modeun",
+    "lahat ng; bawat (bago ang noun)",
+    "모든 사람 = lahat ng tao."
+   ],
+   [
+    "이번",
+    "ibeon",
+    "ito (ngayong pagkakataon); darating na",
+    "이번 주말 = ngayong weekend; 이번이 처음이에요."
+   ],
+   [
+    "몇",
+    "myeot",
+    "ilan; ilang",
+    "몇 개? = ilan? 몇 명 = ilang tao."
+   ],
+   [
+    "무슨",
+    "museun",
+    "ano / anong (bago ang noun)",
+    "무슨 일 있어요? = may problema ba?"
+   ],
+   [
+    "지난",
+    "jinan",
+    "nakaraang (bago ang noun)",
+    "지난 주말 = nakaraang weekend; 지난달 = nakaraang buwan."
+   ],
+   [
+    "새",
+    "sae",
+    "bagong (bago ang noun)",
+    "새 옷 = bagong damit; 새해 = Bagong Taon."
+   ],
+   [
+    "맞아요",
+    "majayo",
+    "tama",
+    "Pagsang-ayon: 네, 맞아요. Casual: 맞아."
+   ],
+   [
+    "예",
+    "ye",
+    "oo (pormal)",
+    "Mas pormal kaysa 네; naririnig sa opisina at sa mas matatanda."
+   ],
+   [
+    "오후",
+    "ohu",
+    "hapon; p.m.",
+    "오후 세 시 = 3 p.m."
+   ],
+   [
+    "첫",
+    "cheot",
+    "unang (bago ang noun)",
+    "첫눈 = unang niyebe; 첫 데이트 = unang date."
+   ],
+   [
+    "올해",
+    "olhae",
+    "ngayong taon",
+    "올해 몇 살이에요?"
+   ],
+   [
+    "아니",
+    "ani",
+    "hindi (casual); teka",
+    "Sa kaibigan. Nagsisimula rin ng pagtutol: 아니, 그게 아니라…"
+   ],
+   [
+    "천",
+    "cheon",
+    "libo",
+    "천 원 = 1,000 won; 삼천 = 3,000."
+   ],
+   [
+    "영 / 공",
+    "yeong / gong",
+    "sero; zero",
+    "영 sa math at iskor; 공 sa phone number: 공일공 = 010."
+   ],
+   [
+    "작년",
+    "jangnyeon",
+    "noong isang taon",
+    "지난해 din."
+   ],
+   [
+    "안녕",
+    "annyeong",
+    "hi; babay (casual)",
+    "Sa kaibigan at bata, pang-hello at pang-goodbye."
+   ],
+   [
+    "낮",
+    "nat",
+    "araw (daytime)",
+    "낮에는 더워요 = mainit kapag araw."
+   ],
+   [
+    "오전",
+    "ojeon",
+    "umaga; a.m.",
+    "오전 열 시 = 10 a.m."
+   ],
+   [
+    "새벽",
+    "saebyeok",
+    "madaling-araw",
+    "새벽 두 시 = 2 a.m."
+   ],
+   [
+    "지난주",
+    "jinanju",
+    "noong isang linggo",
+    "Isang salita, walang espasyo."
+   ],
+   [
+    "아뇨",
+    "anyo",
+    "hindi (sa salita)",
+    "Maikling anyo ng 아니요; mas malambot at mas karaniwan sa usapan."
+   ],
+   [
+    "스무",
+    "seumu",
+    "dalawampu (bago ang counter)",
+    "스물 → 스무: 스무 살 = dalawampung taong gulang."
+   ],
+   [
+    "화요일",
+    "hwayoil",
+    "Martes",
+    "화 = apoy. 월화수목금토일."
+   ],
+   [
+    "수요일",
+    "suyoil",
+    "Miyerkoles",
+    "수 = tubig."
+   ],
+   [
+    "목요일",
+    "mogyoil",
+    "Huwebes",
+    "목 = kahoy."
+   ],
+   [
+    "스물",
+    "seumul",
+    "20 (native)",
+    "Bago ang counter: 스무."
+   ],
+   [
+    "내년",
+    "naenyeon",
+    "sa susunod na taon",
+    "내년에 한국에 가요."
+   ],
+   [
+    "서른, 마흔, 쉰",
+    "seoreun maheun swin",
+    "30, 40, 50 (native)",
+    "Kadalasan para sa edad: 서른 살. Ang Sino-Korean na 삼십 ay para sa pera at minuto."
+   ],
+   [
+    "백",
+    "baek",
+    "sandaan (100)",
+    "백 원; 이백 = 200. Hindi 일백."
+   ],
+   [
+    "열하나, 열둘",
+    "yeolhana yeoldul",
+    "11, 12 (native)",
+    "열 + 하나: 열한 시 = alas-onse."
+   ],
+   [
+    "모레",
+    "more",
+    "sa makalawa",
+    "내일모레 = sa loob ng dalawang araw."
+   ],
+   [
+    "그저께",
+    "geujeokke",
+    "kamakalawa",
+    "그제 din."
+   ]
+  ],
+  "Dagdag na counter": [
+   [
+    "한 대",
+    "han dae",
+    "isa (kotse, makina)",
+    "Binibilang ng 대 ang sasakyan at makina: 차 두 대, 컴퓨터 한 대."
+   ],
+   [
+    "두 분",
+    "du bun",
+    "dalawang tao (honorific)",
+    "Ang 분 ay ang magalang na 명: 몇 분이세요? = ilan po kayo?"
+   ],
+   [
+    "한 벌",
+    "han beol",
+    "isang terno; isang suit",
+    "Binibilang ng 벌 ang set ng damit: 옷 한 벌."
+   ],
+   [
+    "한 송이",
+    "han songi",
+    "isang bulaklak; isang kumpol (ng ubas)",
+    "장미 한 송이 = isang rosas."
+   ],
+   [
+    "한 줄",
+    "han jul",
+    "isang rolyo; isang linya",
+    "김밥 한 줄 = isang rolyo ng gimbap; 한 줄로 = nakahanay sa isang linya."
+   ],
+   [
+    "한 접시",
+    "han jeopsi",
+    "isang plato (ng)",
+    "만두 한 접시 = isang platong dumpling."
+   ],
+   [
+    "한 조각",
+    "han jogak",
+    "isang slice; isang piraso",
+    "피자 한 조각, 케이크 한 조각."
+   ],
+   [
+    "한 가지",
+    "han gaji",
+    "isang klase; isang bagay",
+    "한 가지 더 = isa pang bagay; 여러 가지 = sari-sari."
+   ],
+   [
+    "한 군데",
+    "han gunde",
+    "isang lugar",
+    "두 군데 = dalawang lugar. Pasalita, pang-araw-araw."
+   ],
+   [
+    "한 곡",
+    "han gok",
+    "isang kanta",
+    "노래 한 곡 = isang kanta (sa karaoke)."
+   ],
+   [
+    "한 편",
+    "han pyeon",
+    "isang (pelikula, kuwento)",
+    "영화 한 편 봐요 = manonood kami ng isang pelikula."
+   ],
+   [
+    "한 알",
+    "han al",
+    "isang tableta; isang maliit na bilog na bagay",
+    "약 한 알 = isang tableta."
+   ],
+   [
+    "한 캔",
+    "han kaen",
+    "isang lata",
+    "맥주 한 캔 = isang latang beer."
+   ],
+   [
+    "한 판",
+    "han pan",
+    "isang laro; isang round; isang tray",
+    "게임 한 판 = isang round; 계란 한 판 = isang tray ng 30 itlog."
+   ],
+   [
+    "한 시",
+    "han si",
+    "ala-una",
+    "Native numbers ang oras: 한 시, 두 시 … 열두 시."
+   ],
+   [
+    "오 분",
+    "o bun",
+    "limang minuto",
+    "Sino-Korean numbers ang minuto: 오 분, 십 분, 삼십 분."
+   ],
+   [
+    "일 년",
+    "il nyeon",
+    "isang taon",
+    "Sino-Korean ang taon: 일 년, 이 년. Native: 한 해."
+   ],
+   [
+    "삼 개월",
+    "sam gaewol",
+    "tatlong buwan",
+    "Sino-Korean na buwan: 삼 개월. Native: 석 달."
+   ],
+   [
+    "이 인분",
+    "i inbun",
+    "dalawang serving",
+    "Sa Korean BBQ, umoorder ayon sa serving: 삼겹살 이 인분 = samgyeopsal para sa dalawa."
+   ],
+   [
+    "첫 번째",
+    "cheot beonjjae",
+    "ang una",
+    "Ang 번째 ang gumagawa ng ordinal: 두 번째 = pangalawa, 세 번째 = pangatlo."
+   ]
+  ],
+  "Mga salita sa pagpapacute": [
+   [
+    "예쁘다",
+    "yeppeuda",
+    "maganda",
+    "예뻐요. Kadalasan sa babae, pati sa bata at bagay. Magaan; naririnig ng lahat. Walang anyong pambabae o panlalaki sa Koreano."
+   ],
+   [
+    "귀엽다",
+    "gwiyeopda",
+    "cute",
+    "귀여워요 (irregular ang ㅂ). Sa kahit sino, pati lalaki. Magaan at pabiro."
+   ],
+   [
+    "잘생기다",
+    "jalsaenggida",
+    "guwapo; magandang lalaki",
+    "Sinasabi sa past tense: 잘생겼어요. Kadalasan sa lalaki. Malambing."
+   ],
+   [
+    "아름답다",
+    "areumdapda",
+    "napakaganda; marikit",
+    "아름다워요 (irregular ang ㅂ). Malakas at medyo makata: para sa tanawin, o sa napakataos na papuri. Matapang."
+   ],
+   [
+    "사랑스럽다",
+    "sarangseureopda",
+    "kaibig-ibig",
+    "사랑스러워요 (irregular ang ㅂ). Malambot, mas para sa magkasintahan. Malambing."
+   ],
+   [
+    "매력",
+    "maeryeok",
+    "karisma; appeal",
+    "매력 있어요 = may dating ka. Ligtas at karaniwan. Magaan hanggang malambing."
+   ],
+   [
+    "매력적이다",
+    "maeryeokjeogida",
+    "kaakit-akit; charming",
+    "매력적이에요. Mas seryoso nang kaunti kaysa 매력 있어요. Malambing."
+   ],
+   [
+    "똑똑하다",
+    "ttokttokada",
+    "matalino",
+    "똑똑해요. Sa kahit sino. Magaan. Sa nakatatanda, purihin na lang ang kaalaman nila."
+   ],
+   [
+    "착하다",
+    "chakada",
+    "mabait; mabuti ang loob",
+    "착해요. Malaking papuri mula sa pamilya ng partner; sa kapantay o mas bata lang. Magaan."
+   ],
+   [
+    "다정하다",
+    "dajeonghada",
+    "maalaga at mapagmahal",
+    "다정해요. Isa sa pinakahinahanap sa partner. Malambing."
+   ],
+   [
+    "미소",
+    "miso",
+    "ngiti",
+    "미소가 예뻐요. Medyo pampanitikan; sa salita, 웃는 모습 din. Magaan."
+   ],
+   [
+    "눈",
+    "nun",
+    "mata",
+    "눈이 예뻐요. Ligtas at karaniwan ang pagpuri sa mata. (Ang 눈 ay niyebe rin.) Magaan hanggang malambing."
+   ],
+   [
+    "눈웃음",
+    "nunuseum",
+    "eye smile; nakangiting mata",
+    "Paborito ng Koreano: kumukurba na parang crescent ang mata kapag ngumingiti. Malambing."
+   ],
+   [
+    "보조개",
+    "bojogae",
+    "biloy (dimple)",
+    "보조개가 귀여워요. Klasikong papuri sa Korea. Magaan."
+   ],
+   [
+    "목소리",
+    "moksori",
+    "boses",
+    "목소리가 좋아요. Ligtas, napakakaraniwan, lalo na sa telepono. Magaan."
+   ],
+   [
+    "웃음",
+    "useum",
+    "tawa",
+    "웃음이 많아요 = palatawa ka (magandang bagay). Magaan."
+   ],
+   [
+    "분위기",
+    "bunwigi",
+    "vibe; dating; atmosphere",
+    "분위기 있어요 = may kakaiba kang dating. Papuring Koreanong-Koreano. Malambing."
+   ],
+   [
+    "스타일",
+    "seutail",
+    "style; tipo",
+    "제 스타일이에요 = type kita. Magaan kung mag-isa; malambing sa phrase na iyan."
+   ],
+   [
+    "성격",
+    "seonggyeok",
+    "ugali; personality",
+    "Mataas na papuri ang 성격 좋아요. Magaan."
+   ],
+   [
+    "센스",
+    "senseu",
+    "magandang panlasa; pagkamaalalahanin",
+    "센스 있어요 = may taste ka / maalalahanin ka. Magaan."
+   ],
+   [
+    "이상형",
+    "isanghyeong",
+    "ideal type",
+    "Itinatanong ng mga Koreano ang 이상형이 뭐예요? sa unang date at sa interview. Magaan bilang tanong."
+   ],
+   [
+    "첫인상",
+    "cheosinsang",
+    "unang impresyon",
+    "첫인상이 좋았어요 = gusto na kita mula pa sa simula. Malambing."
+   ],
+   [
+    "훈남",
+    "hunnam",
+    "guwapong may magaang dating",
+    "Slang, mula sa 훈훈한 남자. Para sa babae: 훈녀. Magaan, palakaibigan."
+   ],
+   [
+    "심쿵",
+    "simkung",
+    "biglang kumabog ang puso",
+    "Slang: 심장이 쿵. 심쿵했어요 = pinakabog mo ang puso ko. Malambing, pabiro."
+   ],
+   [
+    "오늘따라 더 예뻐요",
+    "oneulttara deo yeppeoyo",
+    "Mas maganda ka ngayon",
+    "Sa babaeng kilala mo. 오늘따라 = lalo na ngayong araw. Malambing."
+   ],
+   [
+    "이름도 예쁘네요",
+    "ireumdo yeppeuneyo",
+    "Pati pangalan mo, maganda",
+    "Pagkatapos malaman ang pangalan. Magaan, sweet."
+   ],
+   [
+    "예쁘다는 말 많이 듣죠?",
+    "yeppeudaneun mal mani deutjyo?",
+    "Siguro lagi mong naririnig na maganda ka",
+    "Hindi direkta at smooth. Sa babae. Malambing."
+   ],
+   [
+    "왜 이렇게 귀여워요?",
+    "wae ireoke gwiyeowoyo?",
+    "Bakit ang cute mo?",
+    "Pang-aasar, sa kahit sino. Malambing."
+   ],
+   [
+    "하는 짓이 다 귀여워요",
+    "haneun jisi da gwiyeowoyo",
+    "Lahat ng ginagawa mo, cute",
+    "Sa taong kilala mo nang husto. 짓 = maliliit na kilos. Malambing, pabiro."
+   ],
+   [
+    "잘생기셨네요",
+    "jalsaenggisyeonneyo",
+    "Ang guwapo mo pala",
+    "Polite na -시-; sa lalaking hindi mo masyadong kilala. Magaan hanggang malambing."
+   ],
+   [
+    "실물이 더 잘생겼어요",
+    "silmuri deo jalsaenggyeosseoyo",
+    "Mas guwapo ka sa personal",
+    "Pagkatapos makita muna ang litrato (dating app, phone ng kaibigan). Malambing."
+   ],
+   [
+    "오늘 멋있네요",
+    "oneul meosinneyo",
+    "Ang porma mo ngayon",
+    "Sa kahit sinong nakaayos. Magaan."
+   ],
+   [
+    "일하는 모습이 멋있어요",
+    "ilhaneun moseubi meosisseoyo",
+    "Ang astig mo kapag nagtatrabaho",
+    "Klasikong linya ng crush sa opisina o café. Malambing."
+   ],
+   [
+    "진짜 똑똑하네요",
+    "jinjja ttokttokaneyo",
+    "Ang talino mo talaga",
+    "Sa kaedad o mas bata. Magaan."
+   ],
+   [
+    "매력 있어요",
+    "maeryeok isseoyo",
+    "May dating ka / May karisma ka",
+    "Ligtas sa date o sa magkaibigan. Magaan hanggang malambing."
+   ],
+   [
+    "매력이 넘치시네요",
+    "maeryeogi neomchisineyo",
+    "Umaapaw ang karisma mo",
+    "Polite at pabiro. Malambing."
+   ],
+   [
+    "미소가 예뻐요",
+    "misoga yeppeoyo",
+    "Ang ganda ng ngiti mo",
+    "Ligtas sa unang pagkikita. Magaan."
+   ],
+   [
+    "눈웃음이 정말 예뻐요",
+    "nunuseumi jeongmal yeppeoyo",
+    "Ang ganda talaga ng eye smile mo",
+    "Papuring Koreanong-Koreano. Malambing."
+   ],
+   [
+    "보조개가 너무 귀여워요",
+    "bojogaega neomu gwiyeowoyo",
+    "Ang cute ng biloy mo",
+    "Magaan, sweet."
+   ],
+   [
+    "목소리가 정말 좋네요",
+    "moksoriga jeongmal jonneyo",
+    "Ang ganda talaga ng boses mo",
+    "Madalas sa telepono o pagkatapos ng karaoke. Magaan."
+   ],
+   [
+    "목소리 듣고 싶었어요",
+    "moksori deutgo sipeosseoyo",
+    "Gusto kong marinig ang boses mo",
+    "Ang dahilan ng tawag mo. Sa taong dine-date mo. Malambing hanggang matapang."
+   ],
+   [
+    "분위기 있으시네요",
+    "bunwigi isseusineyo",
+    "May kakaiba kang dating",
+    "Pinong papuri sa lalaki o babae. Malambing."
+   ],
+   [
+    "스타일 좋으시네요",
+    "seutail joeusineyo",
+    "Ang ganda ng style mo",
+    "Magaan; puwede sa halos hindi kakilala."
+   ],
+   [
+    "제 스타일이에요",
+    "je seutairieyo",
+    "Type kita",
+    "Magaan at direkta. Malambing."
+   ],
+   [
+    "완전 제 이상형이에요",
+    "wanjeon je isanghyeongieyo",
+    "Ikaw talaga ang ideal type ko",
+    "Matapang at pabiro. Kadalasan pagkatapos ng ilang date."
+   ],
+   [
+    "이상형이 뭐예요?",
+    "isanghyeongi mwoyeyo?",
+    "Ano ang ideal type mo?",
+    "Ang klasikong tanong sa unang date. Magaan."
+   ],
+   [
+    "첫인상이 좋았어요",
+    "cheosinsangi joasseoyo",
+    "Maganda ang unang impresyon ko sa iyo",
+    "Sa pangalawang date. Malambing."
+   ],
+   [
+    "성격도 좋으시네요",
+    "seonggyeokdo joeusineyo",
+    "Ang ganda pa ng ugali mo",
+    "도 = bukod sa itsura. Malambing."
+   ],
+   [
+    "다정하시네요",
+    "dajeonghasineyo",
+    "Ang maalaga at malambing mo",
+    "Pagkatapos ng mabait na kilos. Malambing."
+   ],
+   [
+    "밥 먹었어요?",
+    "bap meogeosseoyo?",
+    "Kumain ka na ba? (concerned ako sa iyo)",
+    "Ang hindi direktang \"iniisip kita\" ng Koreano. Polite na anyo ng casual na 밥 먹었어? Magaan."
+   ],
+   [
+    "언제 밥 한번 먹어요",
+    "eonje bap hanbeon meogeoyo",
+    "Kain tayo minsan",
+    "Madalas pampalubag-loob lang; kapag seryoso, simula ito ng date. Itanong ang \"kailan?\" para ipakitang seryoso ka. Magaan."
+   ],
+   [
+    "같이 밥 먹을래요?",
+    "gachi bap meogeullaeyo?",
+    "Gusto mo bang kumain tayo nang sabay?",
+    "Ang totoong imbitasyon. Malambing."
+   ],
+   [
+    "제가 커피 살게요",
+    "jega keopi salgeyo",
+    "Ililibre kita ng kape",
+    "Madaling simula pagkatapos ng klase o trabaho. Magaan."
+   ],
+   [
+    "연락해도 돼요?",
+    "yeollakaedo dwaeyo?",
+    "Puwede ba kitang i-message?",
+    "Magalang na paraan ng paghingi ng KakaoTalk. Magaan."
+   ],
+   [
+    "다음에 또 볼 수 있어요?",
+    "daeume tto bol su isseoyo?",
+    "Puwede ba ulit tayong magkita?",
+    "Sa dulo ng unang pagkikita. Malambing."
+   ],
+   [
+    "라면 먹고 갈래요?",
+    "ramyeon meokgo gallaeyo?",
+    "Gusto mo bang umakyat para mag-ramyeon? (biro)",
+    "Mula sa pelikulang One Fine Spring Day (2001), kung saan ang linya ay 라면 먹을래요?; ang meme na bersyong ito ay imbitasyong pumasok sa bahay. Biro lang, hindi totoong diskarte."
+   ],
+   [
+    "에이, 농담이죠?",
+    "ei nongdamijyo?",
+    "Ay sus, nagbibiro ka lang, ano?",
+    "Pabirong pag-iwas, nahihiya pero hindi pagtanggi. Casual at palakaibigan."
+   ],
+   [
+    "말도 참 잘하시네요",
+    "maldo cham jalhasineyo",
+    "Ang galing mo talagang mambola",
+    "Pabirong pag-iwas; nakangiti = interesado, walang ekspresyon = hindi. Magaan."
+   ],
+   [
+    "좋아요, 언제 만날까요?",
+    "joayo eonje mannalkkayo?",
+    "Sige, kailan tayo magkikita?",
+    "Masayang oo sa imbitasyon."
+   ],
+   [
+    "마음은 고맙지만 괜찮아요",
+    "maeumeun gomapjiman gwaenchanayo",
+    "Salamat sa alok, pero okay lang ako",
+    "Mabait at malinaw na hindi. Puwede sa inuman o sa number."
+   ],
+   [
+    "죄송하지만 만나는 사람이 있어요",
+    "joesonghajiman mannaneun sarami isseoyo",
+    "Sorry, pero may karelasyon na ako",
+    "Malinaw na hindi; wala nang mamimilit pagkatapos nito."
+   ],
+   [
+    "좋은 분인데, 친구로 지내고 싶어요",
+    "joeun buninde chinguro jinaego sipeoyo",
+    "Mabuti kang tao, pero gusto kong magkaibigan lang tayo",
+    "Malumanay na hindi sa taong kilala mo. Pinananatiling magalang ng 분."
+   ],
+   [
+    "지금은 연애할 생각이 없어요",
+    "jigeumeun yeonaehal saenggagi eopseoyo",
+    "Wala akong balak makipagrelasyon ngayon",
+    "Matatag pero hindi personal."
+   ]
+  ],
+  "Mga papuri": [
+   [
+    "음식이 정말 맛있네요",
+    "eumsigi jeongmal masinneyo",
+    "Ang sarap talaga ng pagkain",
+    "-네요 = pagsasabi nang malakas ng napansin mo. Sabihin sa host o sa nagluto habang kumakain."
+   ],
+   [
+    "요리 솜씨가 정말 좋으시네요",
+    "yori somssiga jeongmal joeusineyo",
+    "Ang galing mo talagang magluto",
+    "솜씨 = galing ng kamay. Polite na -시-; puwede sa nakatatanda."
+   ],
+   [
+    "이거 어떻게 만드셨어요?",
+    "igeo eotteoke mandeusyeosseoyo?",
+    "Paano mo ito ginawa?",
+    "Papuri na mismo ang paghingi ng recipe."
+   ],
+   [
+    "정말 잘하시네요",
+    "jeongmal jalhasineyo",
+    "Ang galing mo talaga rito",
+    "Para sa kahit anong kakayahan. Sa nakatatanda, pumuri gamit ang -시- at walang salitang parang nagbibigay ng grado."
+   ],
+   [
+    "좋은 생각이에요",
+    "joeun saenggagieyo",
+    "Magandang ideya iyan",
+    "Sa katrabaho at kaibigan. Sa boss: 좋은 생각이신 것 같아요."
+   ],
+   [
+    "꼼꼼하시네요",
+    "kkomkkomhasineyo",
+    "Ang metikuloso mo",
+    "Malaking papuri sa trabaho."
+   ],
+   [
+    "정말 착하시네요",
+    "jeongmal chakasineyo",
+    "Ang buti talaga ng loob mo",
+    "Sa kapantay o mas bata. Kakaiba ang dating kapag sa mas matanda."
+   ],
+   [
+    "유머 감각이 있으시네요",
+    "yumeo gamgagi isseusineyo",
+    "Ang galing ng sense of humor mo",
+    "Polite; sa kahit sino."
+   ],
+   [
+    "배려심이 많으시네요",
+    "baeryeosimi maneusineyo",
+    "Ang maalalahanin mo",
+    "배려 = pag-iisip sa kapwa. Napakahalaga nito sa Korea."
+   ],
+   [
+    "정말 부지런하시네요",
+    "jeongmal bujireonhasineyo",
+    "Ang sipag mo talaga",
+    "Laging abala at nasa oras. Iba sa 열심히 하시네요 (masigasig sa ginagawa)."
+   ],
+   [
+    "피부가 정말 좋으시네요",
+    "pibuga jeongmal joeusineyo",
+    "Ang ganda ng kutis mo",
+    "Napakakaraniwan at palakaibigang papuri sa Korea, sa lalaki at babae."
+   ],
+   [
+    "동안이시네요",
+    "donganisineyo",
+    "Ang bata mong tingnan para sa edad mo",
+    "Paboritong papuri, lalo na sa lampas 30."
+   ],
+   [
+    "인상이 좋으세요",
+    "insangi joeuseyo",
+    "Ang amo ng mukha mo",
+    "Literal na \"maganda ang impresyon mo\". Sinasabi sa unang pagkikita."
+   ],
+   [
+    "집이 정말 예쁘네요",
+    "jibi jeongmal yeppeuneyo",
+    "Ang ganda ng bahay mo",
+    "Sinasabi sa unang bisita, madalas may dalang regalo (휴지, prutas)."
+   ],
+   [
+    "아이가 정말 귀엽네요",
+    "aiga jeongmal gwiyeomneyo",
+    "Ang cute ng anak mo",
+    "Kadalasang iiwas ang magulang: 아니에요, 말썽꾸러기예요."
+   ],
+   [
+    "아이가 참 예의 바르네요",
+    "aiga cham yeui bareuneyo",
+    "Ang galang ng anak mo",
+    "Papuri rin sa magulang. Gustong-gusto ito."
+   ],
+   [
+    "사진 잘 나왔네요",
+    "sajin jal nawanneyo",
+    "Ang ganda ng litrato",
+    "Literal na \"lumabas nang maganda ang litrato\"."
+   ],
+   [
+    "그 옷 잘 어울리세요",
+    "geu ot jal eoulliseyo",
+    "Bagay sa iyo ang damit na iyan",
+    "Polite na -세요; sa kahit sino, pati nakatatanda."
+   ],
+   [
+    "발음이 정말 좋으시네요",
+    "bareumi jeongmal joeusineyo",
+    "Ang galing ng pronunciation mo",
+    "Ito ang naririnig ng nag-aaral pagkatapos ng 한국어 잘하시네요."
+   ],
+   [
+    "한국 사람인 줄 알았어요",
+    "hanguk saramin jul arasseoyo",
+    "Akala ko Koreano ka!",
+    "Palakaibigang pagmamalabis sa nag-aaral."
+   ],
+   [
+    "한국어 어디서 배우셨어요?",
+    "hangugeo eodiseo baeusyeosseoyo?",
+    "Saan ka natuto ng Koreano?",
+    "Kadalasang kasunod ng papuri; papuri na rin ito."
+   ],
+   [
+    "많이 늘었어요",
+    "mani neureosseoyo",
+    "Ang laki ng inihusay mo",
+    "Sa kaibigan o mas bata. Sa nakatatanda, parang nagbibigay ka ng grado."
+   ],
+   [
+    "발표 잘 들었습니다",
+    "balpyo jal deureotseumnida",
+    "Nag-enjoy po ako sa presentation ninyo",
+    "Ang magalang na paraan ng pagpuri sa boss: ikinukuwento mo ang karanasan mo, hindi mo siya binibigyan ng grado."
+   ],
+   [
+    "많이 배웠습니다",
+    "mani baewotseumnida",
+    "Marami po akong natutunan (sa inyo)",
+    "Ang pinakaligtas na papuri sa senior, teacher o boss."
+   ],
+   [
+    "수고 많으셨어요",
+    "sugo maneusyeosseoyo",
+    "Salamat sa lahat ng sipag mo",
+    "Pinupuri ang pagod. Puwede sa magkakatrabaho; may senior na nababastusan kapag galing sa junior ang 수고, kaya mas ligtas ang 감사합니다 sa boss."
+   ],
+   [
+    "아니에요",
+    "anieyo",
+    "Naku, hindi naman",
+    "Ang unang reaksyon sa kahit anong papuri: umiwas, kahit natutuwa ka."
+   ],
+   [
+    "아니에요, 아직 멀었어요",
+    "anieyo ajik meoreosseoyo",
+    "Naku, malayo pa ako",
+    "Ang karaniwang mapagpakumbabang sagot, lalo na tungkol sa Koreano mo."
+   ],
+   [
+    "별말씀을요",
+    "byeolmalsseumeullyo",
+    "Naku, wala iyon; masyado kang mabait",
+    "Magalang at medyo pormal. Sa nakatatanda at sa trabaho."
+   ],
+   [
+    "과찬이세요",
+    "gwachaniseyo",
+    "Sobra naman ang papuri mo",
+    "Literal na \"sobrang papuri iyan\". Magalang, medyo pormal."
+   ],
+   [
+    "칭찬해 주셔서 감사해요",
+    "chingchanhae jusyeoseo gamsahaeyo",
+    "Salamat sa papuri",
+    "Mainit na pagtanggap. Mas karaniwan sa mas bata."
+   ],
+   [
+    "좋게 봐 주셔서 감사해요",
+    "joke bwa jusyeoseo gamsahaeyo",
+    "Salamat sa magandang tingin mo",
+    "Mapagpakumbaba at nagpapasalamat nang sabay."
+   ],
+   [
+    "별거 아니에요",
+    "byeolgeo anieyo",
+    "Naku, wala lang iyan",
+    "Sagot ng host kapag pinuri ang pagkain o regalo."
+   ],
+   [
+    "덕분이에요",
+    "deokbunieyo",
+    "Dahil sa iyo ito",
+    "Ibinabalik ang papuri sa kausap. Mainit at mapagpakumbaba."
+   ]
+  ],
+  "Mga bansa": [
+   [
+    "한국",
+    "hanguk",
+    "Timog Korea",
+    "Ang 한국 sa araw-araw; ang opisyal na pangalan ay 대한민국. 한국 사람 = Koreano / Koreana; 한국어 o 한국말 = wikang Koreano."
+   ],
+   [
+    "북한",
+    "bukan",
+    "Hilagang Korea",
+    "Gamit sa South Korea. Ang opisyal na pangalan ay 조선민주주의인민공화국."
+   ],
+   [
+    "일본",
+    "ilbon",
+    "Hapon",
+    "일본 사람 = Hapones (tao); 일본어 = wikang Hapon."
+   ],
+   [
+    "중국",
+    "jungguk",
+    "Tsina",
+    "중국 사람 = Tsino (tao); 중국어 = wikang Tsino."
+   ],
+   [
+    "대만",
+    "daeman",
+    "Taiwan",
+    "대만 사람 = Taiwanese (tao). 중국어 ang wika roon."
+   ],
+   [
+    "홍콩",
+    "hongkong",
+    "Hong Kong",
+    "홍콩 사람. 광둥어 = wikang Cantonese."
+   ],
+   [
+    "마카오",
+    "makao",
+    "Macau",
+    ""
+   ],
+   [
+    "몽골",
+    "monggol",
+    "Mongolia",
+    "몽골 사람; 몽골어 = wikang Mongolian."
+   ],
+   [
+    "러시아",
+    "reosia",
+    "Rusya",
+    "러시아 사람; 러시아어 = wikang Ruso."
+   ],
+   [
+    "미국",
+    "miguk",
+    "Amerika (Estados Unidos)",
+    "미국 사람 = Amerikano. Ang wika ay 영어 (English); walang 미국어."
+   ],
+   [
+    "인도",
+    "indo",
+    "India",
+    "인도 사람; 힌디어 = wikang Hindi."
+   ],
+   [
+    "인도네시아",
+    "indonesia",
+    "Indonesia",
+    "인도네시아 사람; 인도네시아어 = wikang Indonesian."
+   ],
+   [
+    "브라질",
+    "beurajil",
+    "Brazil",
+    "브라질 사람. 포르투갈어 ang wika roon."
+   ],
+   [
+    "파키스탄",
+    "pakiseutan",
+    "Pakistan",
+    ""
+   ],
+   [
+    "나이지리아",
+    "naijiria",
+    "Nigeria",
+    ""
+   ],
+   [
+    "방글라데시",
+    "banggeulladesi",
+    "Bangladesh",
+    ""
+   ],
+   [
+    "멕시코",
+    "meksiko",
+    "Mexico",
+    "멕시코 사람. 스페인어 ang wika roon."
+   ],
+   [
+    "필리핀",
+    "pillipin",
+    "Pilipinas",
+    "필리핀 사람 = Pilipino (tao); 필리핀어 o 타갈로그어 = Filipino, Tagalog."
+   ],
+   [
+    "베트남",
+    "beteunam",
+    "Vietnam",
+    "베트남 사람; 베트남어 = wikang Vietnamese."
+   ],
+   [
+    "영국",
+    "yeongguk",
+    "United Kingdom (Britanya)",
+    "영국 사람 = British (tao); 영어 = English (irregular: hindi 영국어)."
+   ],
+   [
+    "캐나다",
+    "kaenada",
+    "Canada",
+    "캐나다 사람. 영어 at 프랑스어 ang wika roon."
+   ],
+   [
+    "호주",
+    "hoju",
+    "Australia",
+    "호주 사람 = Australyano. Mula sa Chinese characters ang 호주; tama rin ang 오스트레일리아."
+   ],
+   [
+    "독일",
+    "dogil",
+    "Alemanya",
+    "독일 사람; 독일어 = wikang Aleman."
+   ],
+   [
+    "프랑스",
+    "peurangseu",
+    "Pransiya",
+    "프랑스 사람; 프랑스어 = wikang Pranses."
+   ],
+   [
+    "스페인",
+    "seupein",
+    "Espanya",
+    "스페인 사람; 스페인어 = wikang Espanyol."
+   ],
+   [
+    "이탈리아",
+    "itallia",
+    "Italya",
+    "이탈리아 사람; 이탈리아어 = wikang Italyano."
+   ],
+   [
+    "태국",
+    "taeguk",
+    "Thailand",
+    "태국 사람; 태국어 = wikang Thai."
+   ],
+   [
+    "말레이시아",
+    "malleisia",
+    "Malaysia",
+    ""
+   ],
+   [
+    "싱가포르",
+    "singgaporeu",
+    "Singapore",
+    ""
+   ],
+   [
+    "미얀마",
+    "miyanma",
+    "Myanmar",
+    ""
+   ],
+   [
+    "캄보디아",
+    "kambodia",
+    "Cambodia",
+    ""
+   ],
+   [
+    "라오스",
+    "raoseu",
+    "Laos",
+    ""
+   ],
+   [
+    "브루나이",
+    "beurunai",
+    "Brunei",
+    ""
+   ],
+   [
+    "동티모르",
+    "dongtimoreu",
+    "Timor-Leste",
+    ""
+   ],
+   [
+    "네팔",
+    "nepal",
+    "Nepal",
+    ""
+   ],
+   [
+    "스리랑카",
+    "seurirangka",
+    "Sri Lanka",
+    ""
+   ],
+   [
+    "부탄",
+    "butan",
+    "Bhutan",
+    ""
+   ],
+   [
+    "몰디브",
+    "moldibeu",
+    "Maldives",
+    ""
+   ],
+   [
+    "아프가니스탄",
+    "apeuganiseutan",
+    "Afghanistan",
+    ""
+   ],
+   [
+    "카자흐스탄",
+    "kajaheuseutan",
+    "Kazakhstan",
+    ""
+   ],
+   [
+    "우즈베키스탄",
+    "ujeubekiseutan",
+    "Uzbekistan",
+    ""
+   ],
+   [
+    "키르기스스탄",
+    "kireugiseuseutan",
+    "Kyrgyzstan",
+    ""
+   ],
+   [
+    "타지키스탄",
+    "tajikiseutan",
+    "Tajikistan",
+    ""
+   ],
+   [
+    "투르크메니스탄",
+    "tureukeumeniseutan",
+    "Turkmenistan",
+    ""
+   ],
+   [
+    "튀르키예",
+    "twireukiye",
+    "Turkiye (Turkey)",
+    "Opisyal na pangalan sa Koreano mula 2022; karaniwan pa rin ang lumang 터키. 튀르키예어 = wikang Turko."
+   ],
+   [
+    "이란",
+    "iran",
+    "Iran",
+    ""
+   ],
+   [
+    "이라크",
+    "irakeu",
+    "Iraq",
+    ""
+   ],
+   [
+    "사우디아라비아",
+    "saudiarabia",
+    "Saudi Arabia",
+    "아랍어 = wikang Arabe."
+   ],
+   [
+    "아랍에미리트",
+    "arabemiriteu",
+    "United Arab Emirates (UAE)",
+    ""
+   ],
+   [
+    "카타르",
+    "katareu",
+    "Qatar",
+    ""
+   ],
+   [
+    "쿠웨이트",
+    "kuweiteu",
+    "Kuwait",
+    ""
+   ],
+   [
+    "바레인",
+    "barein",
+    "Bahrain",
+    ""
+   ],
+   [
+    "오만",
+    "oman",
+    "Oman",
+    ""
+   ],
+   [
+    "예멘",
+    "yemen",
+    "Yemen",
+    ""
+   ],
+   [
+    "요르단",
+    "yoreudan",
+    "Jordan",
+    ""
+   ],
+   [
+    "레바논",
+    "rebanon",
+    "Lebanon",
+    ""
+   ],
+   [
+    "시리아",
+    "siria",
+    "Syria",
+    ""
+   ],
+   [
+    "이스라엘",
+    "iseurael",
+    "Israel",
+    ""
+   ],
+   [
+    "팔레스타인",
+    "palleseutain",
+    "Palestina",
+    ""
+   ],
+   [
+    "키프로스",
+    "kipeuroseu",
+    "Cyprus",
+    ""
+   ],
+   [
+    "조지아",
+    "jojia",
+    "Georgia",
+    "Ang bansa. Ang estado sa Amerika ay 조지아 rin."
+   ],
+   [
+    "아르메니아",
+    "areumenia",
+    "Armenia",
+    ""
+   ],
+   [
+    "아제르바이잔",
+    "ajereubaijan",
+    "Azerbaijan",
+    ""
+   ],
+   [
+    "과테말라",
+    "gwatemalla",
+    "Guatemala",
+    ""
+   ],
+   [
+    "벨리즈",
+    "bellijeu",
+    "Belize",
+    ""
+   ],
+   [
+    "엘살바도르",
+    "elsalbadoreu",
+    "El Salvador",
+    ""
+   ],
+   [
+    "온두라스",
+    "onduraseu",
+    "Honduras",
+    ""
+   ],
+   [
+    "니카라과",
+    "nikaragwa",
+    "Nicaragua",
+    ""
+   ],
+   [
+    "코스타리카",
+    "koseutarika",
+    "Costa Rica",
+    ""
+   ],
+   [
+    "파나마",
+    "panama",
+    "Panama",
+    ""
+   ],
+   [
+    "쿠바",
+    "kuba",
+    "Cuba",
+    ""
+   ],
+   [
+    "자메이카",
+    "jameika",
+    "Jamaica",
+    ""
+   ],
+   [
+    "아이티",
+    "aiti",
+    "Haiti",
+    ""
+   ],
+   [
+    "도미니카 공화국",
+    "dominika gonghwaguk",
+    "Dominican Republic",
+    "Hindi ang islang bansang Dominica (도미니카 연방)."
+   ],
+   [
+    "푸에르토리코",
+    "puereutoriko",
+    "Puerto Rico",
+    ""
+   ],
+   [
+    "바하마",
+    "bahama",
+    "Bahamas",
+    ""
+   ],
+   [
+    "바베이도스",
+    "babeidoseu",
+    "Barbados",
+    ""
+   ],
+   [
+    "트리니다드 토바고",
+    "teurinidadeu tobago",
+    "Trinidad at Tobago",
+    ""
+   ],
+   [
+    "도미니카 연방",
+    "dominika yeonbang",
+    "Dominica",
+    ""
+   ],
+   [
+    "그레나다",
+    "geurenada",
+    "Grenada",
+    ""
+   ],
+   [
+    "세인트루시아",
+    "seinteurusia",
+    "Saint Lucia",
+    ""
+   ],
+   [
+    "세인트빈센트 그레나딘",
+    "seinteubinsenteu geurenadin",
+    "Saint Vincent at ang Grenadines",
+    ""
+   ],
+   [
+    "세인트키츠 네비스",
+    "seinteukicheu nebiseu",
+    "Saint Kitts at Nevis",
+    ""
+   ],
+   [
+    "앤티가 바부다",
+    "aentiga babuda",
+    "Antigua at Barbuda",
+    ""
+   ],
+   [
+    "아르헨티나",
+    "areuhentina",
+    "Argentina",
+    ""
+   ],
+   [
+    "콜롬비아",
+    "kollombia",
+    "Colombia",
+    ""
+   ],
+   [
+    "페루",
+    "peru",
+    "Peru",
+    ""
+   ],
+   [
+    "베네수엘라",
+    "benesuella",
+    "Venezuela",
+    ""
+   ],
+   [
+    "칠레",
+    "chille",
+    "Chile",
+    ""
+   ],
+   [
+    "에콰도르",
+    "ekwadoreu",
+    "Ecuador",
+    ""
+   ],
+   [
+    "볼리비아",
+    "bollibia",
+    "Bolivia",
+    ""
+   ],
+   [
+    "파라과이",
+    "paragwai",
+    "Paraguay",
+    ""
+   ],
+   [
+    "우루과이",
+    "urugwai",
+    "Uruguay",
+    ""
+   ],
+   [
+    "가이아나",
+    "gaiana",
+    "Guyana",
+    ""
+   ],
+   [
+    "수리남",
+    "surinam",
+    "Suriname",
+    ""
+   ],
+   [
+    "잉글랜드",
+    "inggeullaendeu",
+    "Inglatera (England)",
+    "Isa sa apat na bansa ng United Kingdom (영국)."
+   ],
+   [
+    "스코틀랜드",
+    "seukoteullaendeu",
+    "Scotland",
+    ""
+   ],
+   [
+    "웨일스",
+    "weilseu",
+    "Wales",
+    ""
+   ],
+   [
+    "아일랜드",
+    "aillaendeu",
+    "Ireland",
+    ""
+   ],
+   [
+    "포르투갈",
+    "poreutugal",
+    "Portugal",
+    "포르투갈 사람; 포르투갈어 = wikang Portuges."
+   ],
+   [
+    "네덜란드",
+    "nedeollandeu",
+    "Netherlands (Olanda)",
+    "네덜란드 사람; 네덜란드어 = wikang Dutch."
+   ],
+   [
+    "벨기에",
+    "belgie",
+    "Belgium",
+    ""
+   ],
+   [
+    "룩셈부르크",
+    "ruksembureukeu",
+    "Luxembourg",
+    ""
+   ],
+   [
+    "스위스",
+    "seuwiseu",
+    "Switzerland",
+    ""
+   ],
+   [
+    "오스트리아",
+    "oseuteuria",
+    "Austria",
+    ""
+   ],
+   [
+    "덴마크",
+    "denmakeu",
+    "Denmark",
+    ""
+   ],
+   [
+    "노르웨이",
+    "noreuwei",
+    "Norway",
+    ""
+   ],
+   [
+    "스웨덴",
+    "seuweden",
+    "Sweden",
+    ""
+   ],
+   [
+    "핀란드",
+    "pillandeu",
+    "Finland",
+    ""
+   ],
+   [
+    "아이슬란드",
+    "aiseullandeu",
+    "Iceland",
+    ""
+   ],
+   [
+    "폴란드",
+    "pollandeu",
+    "Poland",
+    "폴란드 사람; 폴란드어 = wikang Polish."
+   ],
+   [
+    "체코",
+    "cheko",
+    "Czechia",
+    ""
+   ],
+   [
+    "슬로바키아",
+    "seullobakia",
+    "Slovakia",
+    ""
+   ],
+   [
+    "헝가리",
+    "heonggari",
+    "Hungary",
+    ""
+   ],
+   [
+    "루마니아",
+    "rumania",
+    "Romania",
+    ""
+   ],
+   [
+    "불가리아",
+    "bulgaria",
+    "Bulgaria",
+    ""
+   ],
+   [
+    "그리스",
+    "geuriseu",
+    "Gresya",
+    ""
+   ],
+   [
+    "우크라이나",
+    "ukeuraina",
+    "Ukraine",
+    "우크라이나 사람; 우크라이나어 = wikang Ukrainian."
+   ],
+   [
+    "벨라루스",
+    "bellaruseu",
+    "Belarus",
+    ""
+   ],
+   [
+    "몰도바",
+    "moldoba",
+    "Moldova",
+    ""
+   ],
+   [
+    "리투아니아",
+    "rituania",
+    "Lithuania",
+    ""
+   ],
+   [
+    "라트비아",
+    "rateubia",
+    "Latvia",
+    ""
+   ],
+   [
+    "에스토니아",
+    "eseutonia",
+    "Estonia",
+    ""
+   ],
+   [
+    "세르비아",
+    "sereubia",
+    "Serbia",
+    ""
+   ],
+   [
+    "크로아티아",
+    "keuroatia",
+    "Croatia",
+    ""
+   ],
+   [
+    "슬로베니아",
+    "seullobenia",
+    "Slovenia",
+    ""
+   ],
+   [
+    "보스니아 헤르체고비나",
+    "boseunia hereuchegobina",
+    "Bosnia at Herzegovina",
+    ""
+   ],
+   [
+    "몬테네그로",
+    "montenegeuro",
+    "Montenegro",
+    ""
+   ],
+   [
+    "북마케도니아",
+    "bungmakedonia",
+    "North Macedonia",
+    ""
+   ],
+   [
+    "알바니아",
+    "albania",
+    "Albania",
+    ""
+   ],
+   [
+    "코소보",
+    "kosobo",
+    "Kosovo",
+    ""
+   ],
+   [
+    "몰타",
+    "molta",
+    "Malta",
+    ""
+   ],
+   [
+    "모나코",
+    "monako",
+    "Monaco",
+    ""
+   ],
+   [
+    "리히텐슈타인",
+    "rihitensyutain",
+    "Liechtenstein",
+    ""
+   ],
+   [
+    "안도라",
+    "andora",
+    "Andorra",
+    ""
+   ],
+   [
+    "산마리노",
+    "sanmarino",
+    "San Marino",
+    ""
+   ],
+   [
+    "바티칸",
+    "batikan",
+    "Vatican City",
+    ""
+   ],
+   [
+    "이집트",
+    "ijipteu",
+    "Ehipto",
+    ""
+   ],
+   [
+    "에티오피아",
+    "etiopia",
+    "Ethiopia",
+    ""
+   ],
+   [
+    "남아프리카 공화국",
+    "namapeurika gonghwaguk",
+    "South Africa",
+    "Madalas pinaiikli sa 남아공."
+   ],
+   [
+    "케냐",
+    "kenya",
+    "Kenya",
+    ""
+   ],
+   [
+    "모로코",
+    "moroko",
+    "Morocco",
+    ""
+   ],
+   [
+    "알제리",
+    "aljeri",
+    "Algeria",
+    ""
+   ],
+   [
+    "튀니지",
+    "twiniji",
+    "Tunisia",
+    ""
+   ],
+   [
+    "리비아",
+    "ribia",
+    "Libya",
+    ""
+   ],
+   [
+    "수단",
+    "sudan",
+    "Sudan",
+    ""
+   ],
+   [
+    "남수단",
+    "namsudan",
+    "South Sudan",
+    ""
+   ],
+   [
+    "가나",
+    "gana",
+    "Ghana",
+    ""
+   ],
+   [
+    "코트디부아르",
+    "koteudibuareu",
+    "Cote d'Ivoire",
+    ""
+   ],
+   [
+    "세네갈",
+    "senegal",
+    "Senegal",
+    ""
+   ],
+   [
+    "카메룬",
+    "kamerun",
+    "Cameroon",
+    ""
+   ],
+   [
+    "콩고 민주 공화국",
+    "konggo minju gonghwaguk",
+    "Democratic Republic of the Congo",
+    ""
+   ],
+   [
+    "콩고 공화국",
+    "konggo gonghwaguk",
+    "Republic of the Congo",
+    ""
+   ],
+   [
+    "앙골라",
+    "anggolla",
+    "Angola",
+    ""
+   ],
+   [
+    "탄자니아",
+    "tanjania",
+    "Tanzania",
+    ""
+   ],
+   [
+    "우간다",
+    "uganda",
+    "Uganda",
+    ""
+   ],
+   [
+    "르완다",
+    "reuwanda",
+    "Rwanda",
+    ""
+   ],
+   [
+    "부룬디",
+    "burundi",
+    "Burundi",
+    ""
+   ],
+   [
+    "소말리아",
+    "somallia",
+    "Somalia",
+    ""
+   ],
+   [
+    "지부티",
+    "jibuti",
+    "Djibouti",
+    ""
+   ],
+   [
+    "에리트레아",
+    "eriteurea",
+    "Eritrea",
+    ""
+   ],
+   [
+    "모잠비크",
+    "mojambikeu",
+    "Mozambique",
+    ""
+   ],
+   [
+    "마다가스카르",
+    "madagaseukareu",
+    "Madagascar",
+    ""
+   ],
+   [
+    "짐바브웨",
+    "jimbabeuwe",
+    "Zimbabwe",
+    ""
+   ],
+   [
+    "잠비아",
+    "jambia",
+    "Zambia",
+    ""
+   ],
+   [
+    "말라위",
+    "mallawi",
+    "Malawi",
+    ""
+   ],
+   [
+    "보츠와나",
+    "bocheuwana",
+    "Botswana",
+    ""
+   ],
+   [
+    "나미비아",
+    "namibia",
+    "Namibia",
+    ""
+   ],
+   [
+    "레소토",
+    "resoto",
+    "Lesotho",
+    ""
+   ],
+   [
+    "에스와티니",
+    "eseuwatini",
+    "Eswatini",
+    ""
+   ],
+   [
+    "모리셔스",
+    "morisyeoseu",
+    "Mauritius",
+    ""
+   ],
+   [
+    "세이셸",
+    "seisyel",
+    "Seychelles",
+    ""
+   ],
+   [
+    "코모로",
+    "komoro",
+    "Comoros",
+    ""
+   ],
+   [
+    "카보베르데",
+    "kabobereude",
+    "Cabo Verde",
+    ""
+   ],
+   [
+    "기니",
+    "gini",
+    "Guinea",
+    ""
+   ],
+   [
+    "기니비사우",
+    "ginibisau",
+    "Guinea-Bissau",
+    ""
+   ],
+   [
+    "적도 기니",
+    "jeokdo gini",
+    "Equatorial Guinea",
+    ""
+   ],
+   [
+    "시에라리온",
+    "sierarion",
+    "Sierra Leone",
+    ""
+   ],
+   [
+    "라이베리아",
+    "raiberia",
+    "Liberia",
+    ""
+   ],
+   [
+    "토고",
+    "togo",
+    "Togo",
+    ""
+   ],
+   [
+    "베냉",
+    "benaeng",
+    "Benin",
+    ""
+   ],
+   [
+    "부르키나파소",
+    "bureukinapaso",
+    "Burkina Faso",
+    ""
+   ],
+   [
+    "말리",
+    "malli",
+    "Mali",
+    ""
+   ],
+   [
+    "니제르",
+    "nijereu",
+    "Niger",
+    ""
+   ],
+   [
+    "차드",
+    "chadeu",
+    "Chad",
+    ""
+   ],
+   [
+    "중앙아프리카 공화국",
+    "jungangapeurika gonghwaguk",
+    "Central African Republic",
+    ""
+   ],
+   [
+    "가봉",
+    "gabong",
+    "Gabon",
+    ""
+   ],
+   [
+    "감비아",
+    "gambia",
+    "Gambia",
+    ""
+   ],
+   [
+    "모리타니",
+    "moritani",
+    "Mauritania",
+    ""
+   ],
+   [
+    "상투메 프린시페",
+    "sangtume peurinsipe",
+    "Sao Tome at Principe",
+    ""
+   ],
+   [
+    "뉴질랜드",
+    "nyujillaendeu",
+    "New Zealand",
+    ""
+   ],
+   [
+    "피지",
+    "piji",
+    "Fiji",
+    ""
+   ],
+   [
+    "파푸아뉴기니",
+    "papuanyugini",
+    "Papua New Guinea",
+    ""
+   ],
+   [
+    "솔로몬 제도",
+    "sollomon jedo",
+    "Kapuluang Solomon",
+    ""
+   ],
+   [
+    "바누아투",
+    "banuatu",
+    "Vanuatu",
+    ""
+   ],
+   [
+    "사모아",
+    "samoa",
+    "Samoa",
+    ""
+   ],
+   [
+    "통가",
+    "tongga",
+    "Tonga",
+    ""
+   ],
+   [
+    "키리바시",
+    "kiribasi",
+    "Kiribati",
+    ""
+   ],
+   [
+    "투발루",
+    "tuballu",
+    "Tuvalu",
+    ""
+   ],
+   [
+    "나우루",
+    "nauru",
+    "Nauru",
+    ""
+   ],
+   [
+    "마셜 제도",
+    "masyeol jedo",
+    "Kapuluang Marshall",
+    ""
+   ],
+   [
+    "미크로네시아",
+    "mikeuronesia",
+    "Micronesia",
+    ""
+   ],
+   [
+    "팔라우",
+    "pallau",
+    "Palau",
+    ""
+   ],
+   [
+    "괌",
+    "gwam",
+    "Guam",
+    ""
+   ]
   ]
  },
  "GROUPS": [
@@ -4070,7 +8728,25 @@ LANGAPP_PACKS.course['tl-ko'] = {
     "Mga linya sa K-drama",
     "K-pop at fan culture",
     "Social media at slang",
-    "Pamilya at mga tao"
+    "Pamilya at mga tao",
+    "Mga salita sa pagpapacute",
+    "Mga papuri"
+   ]
+  ],
+  [
+   "Mga pangunahing salita",
+   [
+    "Karaniwang noun",
+    "Karaniwang verb",
+    "Karaniwang describing verb",
+    "Karaniwang adverb",
+    "Karaniwang pronoun",
+    "Dagdag na particle",
+    "Dagdag na connector",
+    "Mga bulalas",
+    "Mga kapaki-pakinabang na salita",
+    "Dagdag na counter",
+    "Mga bansa"
    ]
   ]
  ],
@@ -4093,7 +8769,8 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "Pagpapacute",
    "Gala at tambay",
    "Kuwentuhan",
-   "Mas seryosong relasyon"
+   "Mas seryosong relasyon",
+   "Mga salita sa pagpapacute"
   ],
   "work": [
    "Pagpapakilala",
@@ -4125,7 +8802,8 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "Doktor at botika",
    "Tirahan at mga lakad",
    "Mga honorific",
-   "Trabaho at opisina"
+   "Trabaho at opisina",
+   "Mga papuri"
   ],
   "casual": [
    "Text sa barkada",
@@ -4151,7 +8829,10 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "Mga connector",
    "Mga salitang naglalarawan",
    "Mga numero",
-   "Mga honorific"
+   "Mga honorific",
+   "Dagdag na particle",
+   "Dagdag na connector",
+   "Dagdag na counter"
   ],
   "reading": [
    "Mga vowel (Hangul)",
@@ -4183,7 +8864,15 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "Mga inumin",
    "Mga gawain",
    "TV at libangan",
-   "Posisyon at direksyon"
+   "Posisyon at direksyon",
+   "Karaniwang noun",
+   "Karaniwang verb",
+   "Karaniwang describing verb",
+   "Karaniwang adverb",
+   "Karaniwang pronoun",
+   "Mga bulalas",
+   "Mga kapaki-pakinabang na salita",
+   "Mga bansa"
   ]
  },
  "DESC": {
@@ -4230,6 +8919,19 @@ LANGAPP_PACKS.course['tl-ko'] = {
   "Pamilya at mga tao": "Nanay, tatay, kapatid, kaibigan, guro, at kung paano binabago ng edad ang salita.",
   "Mga salitang naglalarawan": "Mabuti, masama, malaki, maliit, mainit, malamig, busy, masaya. Sa Koreano, describing verb ang mga ito.",
   "Mga linya sa K-drama": "Mga reaksyon at linyang maririnig mo sa bawat episode.",
+  "Karaniwang noun": "Ang mga pinakaginagamit na noun sa Koreano na hindi pa itinuturo ng course, mula sa pinakamadalas.",
+  "Karaniwang verb": "Mga action verb sa dictionary form; ibinibigay ng note ang 해요 na anyo at minamarkahan ang irregular na verb.",
+  "Karaniwang describing verb": "Mga describing verb (verb ang adjective sa Koreano): ang 해요 na anyo at ang anyo bago ang noun.",
+  "Karaniwang adverb": "Mga salita ng oras, antas, dalas at paraan: napaka, na, madalas, bakit, paano.",
+  "Karaniwang pronoun": "Ako, ikaw, ito, sino, walang sinuman, at kung bakit pangalan at title ang kadalasang pumapalit sa \"ikaw\".",
+  "Dagdag na particle": "Ang katapat ng preposition sa Koreano: ang mga particle bukod sa siyam sa deck na Mga particle.",
+  "Dagdag na connector": "Mga ending na pandugtong (-고, -지만, -아서, -(으)면 …) na ipinapakita sa verb, at mga pandugtong na salitang wala sa Mga connector.",
+  "Mga bulalas": "Ang talagang ibinubulalas ng mga Koreano: wow, aray, oops, hay salamat, ta-da, at kung sino ang nagsasabi ng bawat isa.",
+  "Mga kapaki-pakinabang na salita": "Ito / iyan / alin bago ang noun, mga anyo ng numero, mga araw at oras, at mga paraan ng pagsabi ng oo at hindi.",
+  "Dagdag na counter": "Mga counter na wala sa deck na Mga counter: kotse, serving, rolyo, slice, minuto, buwan.",
+  "Mga salita sa pagpapacute": "Ang mga salitang ginagamit ng mga Koreano sa pagpapacute, mga phrase mula rito, at mabait na paraan ng pagsabi ng oo o hindi.",
+  "Mga papuri": "Pang-araw-araw na papuri sa pagkain, trabaho, bahay at bata, at ang mapagpakumbabang paraan ng pagsagot.",
+  "Mga bansa": "Lahat ng bansa, ang pinakamadalas itanong muna. Bansa + 에서 왔어요 = taga-… ako; + 사람 = nasyonalidad; + 어 = wika.",
   "My phrases": "Lahat ng idinagdag mo mismo."
  },
  "DIALOG": {
@@ -4325,8 +9027,8 @@ LANGAPP_PACKS.course['tl-ko'] = {
   ],
   "이름이 뭐예요?": [
    "이름이 뭐예요?",
-   "저는 키이예요. 이름이 뭐예요?",
-   "Ano ang pangalan mo? / Ako si Kii. Ikaw?"
+   "저는 @@입니다. 이름이 뭐예요?",
+   "Ano ang pangalan mo? / Ako si @@. Ikaw?"
   ],
   "만나서 반가워요": [
    "만나서 반가워요.",
@@ -4335,8 +9037,8 @@ LANGAPP_PACKS.course['tl-ko'] = {
   ],
   "어디에서 왔어요?": [
    "어디에서 왔어요?",
-   "미국에서 왔어요. 오클라호마요.",
-   "Taga-saan ka? / Taga-Amerika. Sa Oklahoma."
+   "필리핀에서 왔어요. 세부요.",
+   "Taga-saan ka? / Taga-Pilipinas. Sa Cebu."
   ],
   "몇 살이에요?": [
    "실례지만 나이가 어떻게 되세요?",
@@ -4977,6 +9679,266 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "선생님, 질문 있어요.",
    "네, 말해 보세요.",
    "Teacher, may tanong po ako. / Oo, sige, sabihin mo."
+  ],
+  "아": [
+   "그 식당 월요일에 닫아요.",
+   "아, 그래요? 그럼 화요일에 가요.",
+   "Sarado ang restawran na iyon tuwing Lunes. / Ah, talaga? E di sa Martes na tayo pumunta."
+  ],
+  "와": [
+   "이거 제가 만든 케이크예요.",
+   "와, 진짜 예뻐요!",
+   "Ako ang gumawa ng cake na ito. / Wow, ang ganda talaga!"
+  ],
+  "어": [
+   "민수야, 나 왔어.",
+   "어, 왔어? 들어와.",
+   "Minsu, nandito na ako. / O, nandiyan ka na? Pasok ka."
+  ],
+  "응": [
+   "내일 같이 점심 먹을래?",
+   "응, 좋아. 몇 시?",
+   "Gusto mo bang mananghalian tayo bukas? / Oo, sige. Anong oras?"
+  ],
+  "음": [
+   "뭐 먹고 싶어요?",
+   "음… 오늘은 비빔밥이요.",
+   "Ano ang gusto mong kainin? / Hmm… bibimbap ngayon."
+  ],
+  "오": [
+   "이거 제 첫 월급으로 샀어요.",
+   "오, 멋있다!",
+   "Binili ko ito gamit ang una kong sahod. / Uy, ang astig!"
+  ],
+  "우와": [
+   "여기가 남산타워예요.",
+   "우와, 서울이 다 보여요!",
+   "Ito ang Namsan Tower. / Whoa, kita ang buong Seoul!"
+  ],
+  "어머": [
+   "저 다음 달에 결혼해요.",
+   "어머, 정말요? 축하해요!",
+   "Ikakasal na ako sa susunod na buwan. / Ay, talaga? Congratulations!"
+  ],
+  "아야": [
+   "아야! 문에 손을 부딪쳤어요.",
+   "괜찮아요? 어디 봐요.",
+   "Aray! Nauntog ang kamay ko sa pinto. / Okay ka lang? Patingin."
+  ],
+  "아이참": [
+   "얼굴 빨개졌어요!",
+   "아이참, 그만 봐요.",
+   "Namumula ang mukha mo! / Ay, ano ba, huwag mo na akong tingnan."
+  ],
+  "글쎄": [
+   "이 영화 재미있을까?",
+   "글쎄, 잘 모르겠어.",
+   "Maganda kaya ang pelikulang ito? / Hmm, ewan, hindi ako sigurado."
+  ],
+  "에이": [
+   "나 어제 BTS 봤어.",
+   "에이, 거짓말!",
+   "Nakita ko ang BTS kahapon. / Ay sus, hindi nga!"
+  ],
+  "아싸": [
+   "오늘 회식 없대요.",
+   "아싸! 집에 일찍 가야지.",
+   "Wala raw team dinner ngayon. / Yes! Uuwi ako nang maaga."
+  ],
+  "헉": [
+   "벌써 열한 시예요.",
+   "헉, 빨리 가야 돼요!",
+   "Alas-onse na. / Hala, kailangan ko nang magmadali!"
+  ],
+  "앗": [
+   "앗, 커피 쏟았어요!",
+   "괜찮아요, 제가 닦을게요.",
+   "Oops, natapon ko ang kape! / Okay lang, ako na ang magpupunas."
+  ],
+  "아차": [
+   "우산 가져왔어요?",
+   "아차, 집에 두고 왔어요.",
+   "Nagdala ka ba ng payong? / Naku, naiwan ko sa bahay."
+  ],
+  "휴": [
+   "시험 끝났어요?",
+   "네, 휴, 이제 좀 쉬어야겠어요.",
+   "Tapos na ang exam mo? / Oo, hay salamat, kailangan ko nang magpahinga."
+  ],
+  "에휴": [
+   "오늘도 야근이에요?",
+   "에휴, 네. 일이 너무 많아요.",
+   "Overtime ka na naman ngayon? / Haay, oo. Sobrang dami ng trabaho."
+  ],
+  "쉿": [
+   "쉿, 아기 자요.",
+   "아, 미안해요. 조용히 할게요.",
+   "Shh, natutulog ang baby. / Ay, sorry. Tatahimik ako."
+  ],
+  "자": [
+   "자, 이제 시작할까요?",
+   "네, 시작해요!",
+   "O sige, simulan na ba natin? / Oo, simulan na natin!"
+  ],
+  "여보세요": [
+   "여보세요? 민지 씨예요?",
+   "네, 저예요. 무슨 일이에요?",
+   "Hello? Si Minji ba ito? / Oo, ako ito. Bakit?"
+  ],
+  "세상에": [
+   "이 가방이 백만 원이에요.",
+   "세상에, 너무 비싸요!",
+   "Isang milyong won ang bag na ito. / Diyos ko, sobrang mahal!"
+  ],
+  "깜짝이야": [
+   "왁!",
+   "아, 깜짝이야! 놀랐잖아.",
+   "Bulaga! / Ay, ginulat mo ako! Napatalon tuloy ako."
+  ],
+  "으악": [
+   "으악, 벌레다!",
+   "가만히 있어요. 제가 잡을게요.",
+   "Aaah, may insekto! / Huwag kang gagalaw. Ako na ang huhuli."
+  ],
+  "짜잔": [
+   "짜잔! 생일 선물이에요.",
+   "와, 고마워요! 뭐예요?",
+   "Ta-da! Regalo ko sa birthday mo. / Wow, salamat! Ano ito?"
+  ],
+  "웩": [
+   "이 우유 날짜 지났어요.",
+   "웩, 벌써 마셨는데!",
+   "Expired na ang gatas na ito. / Yuck, nakainom na ako!"
+  ],
+  "오늘따라 더 예뻐요": [
+   "오늘따라 더 예뻐요.",
+   "진짜요? 머리 좀 바꿨어요.",
+   "Mas maganda ka ngayon. / Talaga? Medyo nagpaayos ako ng buhok."
+  ],
+  "이름도 예쁘네요": [
+   "제 이름은 하늘이에요.",
+   "이름도 예쁘네요.",
+   "Haneul ang pangalan ko. / Pati pangalan mo, maganda."
+  ],
+  "왜 이렇게 귀여워요?": [
+   "왜 이렇게 귀여워요?",
+   "에이, 농담하지 마세요.",
+   "Bakit ang cute mo? / Ay sus, huwag ka ngang magbiro."
+  ],
+  "실물이 더 잘생겼어요": [
+   "실물이 더 잘생겼어요.",
+   "하하, 사진이 잘 안 나왔나 봐요.",
+   "Mas guwapo ka sa personal. / Haha, siguro hindi lang maganda ang kuha ng mga litrato ko."
+  ],
+  "일하는 모습이 멋있어요": [
+   "일하는 모습이 멋있어요.",
+   "갑자기요? 고마워요.",
+   "Ang astig mo kapag nagtatrabaho. / Bigla-bigla? Salamat."
+  ],
+  "미소가 예뻐요": [
+   "미소가 예뻐요.",
+   "감사합니다. 그런 말 처음 들어요.",
+   "Ang ganda ng ngiti mo. / Salamat. Ngayon ko lang narinig iyan."
+  ],
+  "눈웃음이 정말 예뻐요": [
+   "눈웃음이 정말 예뻐요.",
+   "아이참, 부끄러워요.",
+   "Ang ganda talaga ng eye smile mo. / Ay, ano ba, nakakahiya."
+  ],
+  "목소리 듣고 싶었어요": [
+   "웬일이에요? 전화를 다 하고.",
+   "그냥, 목소리 듣고 싶었어요.",
+   "Anong meron? Tumawag ka pa talaga. / Wala lang, gusto ko lang marinig ang boses mo."
+  ],
+  "제 스타일이에요": [
+   "저 어때요?",
+   "솔직히, 완전 제 스타일이에요.",
+   "Ano ang tingin mo sa akin? / Totoo lang, type na type kita."
+  ],
+  "이상형이 뭐예요?": [
+   "이상형이 뭐예요?",
+   "음… 웃음이 많은 사람이요.",
+   "Ano ang ideal type mo? / Hmm… isang taong palatawa."
+  ],
+  "첫인상이 좋았어요": [
+   "첫인상이 좋았어요.",
+   "저도요. 처음부터 편했어요.",
+   "Maganda ang unang impresyon ko sa iyo. / Ako rin. Komportable na ako sa iyo mula pa sa simula."
+  ],
+  "밥 먹었어요?": [
+   "밥 먹었어요?",
+   "아직이요. 같이 먹을래요?",
+   "Kumain ka na ba? / Hindi pa. Sabay tayong kumain?"
+  ],
+  "라면 먹고 갈래요?": [
+   "라면 먹고 갈래요?",
+   "하하, 그 영화 대사죠? 오늘은 집에 갈게요.",
+   "Gusto mo bang umakyat para mag-ramyeon? / Haha, linya iyan sa pelikula, ano? Uuwi na ako ngayong gabi."
+  ],
+  "같이 밥 먹을래요?": [
+   "이번 주말에 같이 밥 먹을래요?",
+   "좋아요, 언제 만날까요?",
+   "Gusto mo bang kumain tayo nang sabay ngayong weekend? / Sige, kailan tayo magkikita?"
+  ],
+  "연락해도 돼요?": [
+   "오늘 즐거웠어요. 연락해도 돼요?",
+   "마음은 고맙지만 괜찮아요.",
+   "Ang saya ko ngayong araw. Puwede ba kitang i-message? / Salamat sa alok, pero okay lang ako."
+  ],
+  "다음에 또 볼 수 있어요?": [
+   "다음에 또 볼 수 있어요?",
+   "죄송하지만 만나는 사람이 있어요.",
+   "Puwede ba ulit tayong magkita? / Sorry, pero may karelasyon na ako."
+  ],
+  "제가 커피 살게요": [
+   "수업 끝나고 제가 커피 살게요.",
+   "좋은 분인데, 친구로 지내고 싶어요.",
+   "Pagkatapos ng klase, ililibre kita ng kape. / Mabuti kang tao, pero gusto kong magkaibigan lang tayo."
+  ],
+  "음식이 정말 맛있네요": [
+   "음식이 정말 맛있네요.",
+   "별거 아니에요. 많이 드세요.",
+   "Ang sarap talaga ng pagkain. / Naku, wala lang iyan. Kumain po kayo nang marami."
+  ],
+  "이거 어떻게 만드셨어요?": [
+   "이거 어떻게 만드셨어요?",
+   "간단해요. 다음에 알려 드릴게요.",
+   "Paano mo ito ginawa? / Madali lang. Ituturo ko sa iyo sa susunod."
+  ],
+  "정말 잘하시네요": [
+   "정말 잘하시네요.",
+   "아니에요, 아직 멀었어요.",
+   "Ang galing mo talaga rito. / Naku, malayo pa ako."
+  ],
+  "꼼꼼하시네요": [
+   "보고서 봤어요. 꼼꼼하시네요.",
+   "좋게 봐 주셔서 감사해요.",
+   "Nabasa ko ang report mo. Ang metikuloso mo. / Salamat sa magandang tingin mo."
+  ],
+  "동안이시네요": [
+   "마흔이에요? 동안이시네요.",
+   "과찬이세요.",
+   "Kuwarenta ka na? Ang bata mong tingnan para sa edad mo. / Sobra naman ang papuri mo."
+  ],
+  "아이가 정말 귀엽네요": [
+   "아이가 정말 귀엽네요.",
+   "감사해요. 집에서는 말썽꾸러기예요.",
+   "Ang cute ng anak mo. / Salamat. Pero sa bahay, napakakulit niyan."
+  ],
+  "그 옷 잘 어울리세요": [
+   "그 옷 잘 어울리세요.",
+   "칭찬해 주셔서 감사해요.",
+   "Bagay sa iyo ang damit na iyan. / Salamat sa papuri."
+  ],
+  "발음이 정말 좋으시네요": [
+   "발음이 정말 좋으시네요.",
+   "아니에요. 선생님 덕분이에요.",
+   "Ang galing ng pronunciation mo. / Naku, hindi naman. Dahil iyan sa teacher ko."
+  ],
+  "많이 배웠습니다": [
+   "오늘 발표에서 많이 배웠습니다.",
+   "별말씀을요. 들어 줘서 고마워요.",
+   "Marami po akong natutunan sa presentation ninyo ngayon. / Naku, wala iyon. Salamat sa pakikinig mo."
   ]
  },
  "EXAMPLES": {
@@ -5275,6 +10237,810 @@ LANGAPP_PACKS.course['tl-ko'] = {
   "야근해야 돼요": [
    "오늘 야근해야 돼요. 회식은 다음에요.",
    "Kailangan kong mag-overtime ngayon. Sa susunod na lang ako sasama sa team dinner."
+  ],
+  "없다": [
+   "오늘은 시간이 없어요.",
+   "Wala akong oras ngayon."
+  ],
+  "되다": [
+   "여기서 사진 찍어도 돼요?",
+   "Puwede bang kumuha ng litrato rito?"
+  ],
+  "말하다": [
+   "한국어로 말해 주세요.",
+   "Pakisabi sa Koreano."
+  ],
+  "받다": [
+   "생일에 선물을 많이 받았어요.",
+   "Ang dami kong natanggap na regalo noong birthday ko."
+  ],
+  "나오다": [
+   "지하철역에서 나오면 바로 앞이에요.",
+   "Paglabas mo ng istasyon, nasa tapat na mismo."
+  ],
+  "살다": [
+   "저는 서울에 살아요.",
+   "Nakatira ako sa Seoul."
+  ],
+  "만들다": [
+   "엄마가 김밥을 만들었어요.",
+   "Gumawa ng gimbap si Mama."
+  ],
+  "생각하다": [
+   "저도 그렇게 생각해요.",
+   "Ganyan din ang tingin ko."
+  ],
+  "싶다": [
+   "한국에 가고 싶어요.",
+   "Gusto kong pumunta sa Korea."
+  ],
+  "보이다": [
+   "여기서 바다가 보여요.",
+   "Tanaw ang dagat mula rito."
+  ],
+  "만나다": [
+   "주말에 친구를 만나요.",
+   "Makikipagkita ako sa kaibigan ngayong weekend."
+  ],
+  "내다": [
+   "오늘은 제가 낼게요.",
+   "Libre ko ngayon."
+  ],
+  "쓰다": [
+   "이름을 여기에 써 주세요.",
+   "Pakisulat ang pangalan mo rito."
+  ],
+  "들다": [
+   "이 가방 좀 들어 주세요.",
+   "Pakihawak naman itong bag."
+  ],
+  "시작하다": [
+   "영화가 일곱 시에 시작해요.",
+   "Alas-siyete magsisimula ang pelikula."
+  ],
+  "듣다": [
+   "매일 한국 노래를 들어요.",
+   "Nakikinig ako ng mga kantang Koreano araw-araw."
+  ],
+  "들어가다": [
+   "먼저 들어가세요.",
+   "Mauna ka nang pumasok."
+  ],
+  "나가다": [
+   "오늘 저녁에 나가요?",
+   "Lalabas ka ba mamayang gabi?"
+  ],
+  "일어나다": [
+   "보통 일곱 시에 일어나요.",
+   "Karaniwan, alas-siyete ako gumigising."
+  ],
+  "기다리다": [
+   "잠깐만 기다려 주세요.",
+   "Sandali lang, pakihintay."
+  ],
+  "찾다": [
+   "화장실을 찾고 있어요.",
+   "Hinahanap ko ang CR."
+  ],
+  "걷다": [
+   "집까지 걸어서 가요.",
+   "Naglalakad ako pauwi."
+  ],
+  "읽다": [
+   "지하철에서 책을 읽어요.",
+   "Nagbabasa ako ng libro sa subway."
+  ],
+  "열다": [
+   "편의점은 밤에도 열어요.",
+   "Bukas ang convenience store kahit gabi."
+  ],
+  "닫다": [
+   "문 좀 닫아 주세요.",
+   "Pakisara naman ang pinto."
+  ],
+  "웃다": [
+   "그 사람은 항상 웃어요.",
+   "Laging nakangiti ang taong iyon."
+  ],
+  "배우다": [
+   "요즘 한국어를 배워요.",
+   "Nag-aaral ako ng Koreano ngayon."
+  ],
+  "가르치다": [
+   "친구가 영어를 가르쳐요.",
+   "Nagtuturo ng English ang kaibigan ko."
+  ],
+  "사다": [
+   "시장에서 과일을 샀어요.",
+   "Bumili ako ng prutas sa palengke."
+  ],
+  "자다": [
+   "어제 늦게 잤어요.",
+   "Late na ako natulog kahapon."
+  ],
+  "입다": [
+   "오늘 따뜻한 옷을 입으세요.",
+   "Magsuot ka ng makapal na damit ngayon."
+  ],
+  "타다": [
+   "버스를 타고 학교에 가요.",
+   "Nagbu-bus ako papuntang paaralan."
+  ],
+  "내리다": [
+   "다음 역에서 내려요.",
+   "Bababa ako sa susunod na istasyon."
+  ],
+  "돌아오다": [
+   "언제 한국에 돌아와요?",
+   "Kailan ka babalik sa Korea?"
+  ],
+  "보내다": [
+   "사진을 친구에게 보냈어요.",
+   "Ipinadala ko ang mga litrato sa kaibigan ko."
+  ],
+  "부르다": [
+   "노래방에서 노래를 불렀어요.",
+   "Kumanta kami sa karaoke."
+  ],
+  "끝나다": [
+   "회의가 다섯 시에 끝나요.",
+   "Alas-singko matatapos ang meeting."
+  ],
+  "시키다": [
+   "치킨 시킬까요?",
+   "Order tayo ng chicken?"
+  ],
+  "믿다": [
+   "저를 믿어 주세요.",
+   "Magtiwala ka sa akin."
+  ],
+  "잊다": [
+   "우산을 잊지 마세요.",
+   "Huwag mong kalimutan ang payong mo."
+  ],
+  "씻다": [
+   "밥 먹기 전에 손을 씻어요.",
+   "Naghuhugas ako ng kamay bago kumain."
+  ],
+  "돕다": [
+   "친구가 이사를 도와줬어요.",
+   "Tinulungan ako ng kaibigan ko sa paglipat ng bahay."
+  ],
+  "묻다": [
+   "길을 몰라서 물어봤어요.",
+   "Hindi ko alam ang daan, kaya nagtanong ako."
+  ],
+  "고르다": [
+   "하나만 골라 주세요.",
+   "Pakipili ng isa lang."
+  ],
+  "바꾸다": [
+   "자리를 바꿔도 돼요?",
+   "Puwede bang magpalit tayo ng upuan?"
+  ],
+  "걸리다": [
+   "감기에 걸렸어요.",
+   "Nagkasipon ako."
+  ],
+  "켜다": [
+   "불 좀 켜 주세요.",
+   "Pakibukas naman ng ilaw."
+  ],
+  "지내다": [
+   "요즘 잘 지내요?",
+   "Ayos ka lang ba ngayong mga araw?"
+  ],
+  "다니다": [
+   "저는 회사에 다녀요.",
+   "Nagtatrabaho ako sa isang kompanya."
+  ],
+  "낫다": [
+   "빨리 나으세요.",
+   "Sana gumaling ka agad."
+  ],
+  "도착하다": [
+   "몇 시에 공항에 도착해요?",
+   "Anong oras ka darating sa airport?"
+  ],
+  "찍다": [
+   "여기서 사진 찍을까요?",
+   "Picture tayo rito?"
+  ],
+  "같다": [
+   "우리는 같은 학교에 다녀요.",
+   "Pareho kami ng paaralang pinapasukan."
+  ],
+  "그렇다": [
+   "아, 그래요? 몰랐어요.",
+   "Ay, talaga? Hindi ko alam."
+  ],
+  "어떻다": [
+   "한국 음식 어때요?",
+   "Kumusta ang pagkaing Koreano para sa iyo?"
+  ],
+  "다르다": [
+   "한국어와 영어는 많이 달라요.",
+   "Ibang-iba ang Koreano at ang English."
+  ],
+  "쉽다": [
+   "한글은 생각보다 쉬워요.",
+   "Mas madali ang Hangul kaysa sa inaakala mo."
+  ],
+  "어렵다": [
+   "한국어 발음이 어려워요.",
+   "Mahirap ang pagbigkas sa Koreano."
+  ],
+  "높다": [
+   "저 산이 제일 높아요.",
+   "Iyong bundok na iyon ang pinakamataas."
+  ],
+  "길다": [
+   "머리가 길어요.",
+   "Mahaba ang buhok niya."
+  ],
+  "빠르다": [
+   "지하철이 버스보다 빨라요.",
+   "Mas mabilis ang subway kaysa sa bus."
+  ],
+  "젊다": [
+   "할머니가 정말 젊어 보이세요.",
+   "Ang bata talagang tingnan ng lola mo."
+  ],
+  "중요하다": [
+   "건강이 제일 중요해요.",
+   "Kalusugan ang pinakamahalaga."
+  ],
+  "필요하다": [
+   "뭐가 필요해요?",
+   "Ano ang kailangan mo?"
+  ],
+  "깨끗하다": [
+   "방이 정말 깨끗해요.",
+   "Ang linis talaga ng kuwarto."
+  ],
+  "무섭다": [
+   "공포 영화는 너무 무서워요.",
+   "Sobrang nakakatakot ang mga horror movie."
+  ],
+  "아프다": [
+   "어디가 아파요?",
+   "Saan masakit?"
+  ],
+  "즐겁다": [
+   "즐거운 주말 보내세요.",
+   "Sana masaya ang weekend mo."
+  ],
+  "반갑다": [
+   "다시 만나서 반가워요.",
+   "Natutuwa akong makita ka ulit."
+  ],
+  "고맙다": [
+   "와 줘서 고마워요.",
+   "Salamat sa pagpunta mo."
+  ],
+  "미안하다": [
+   "늦어서 미안해요.",
+   "Sorry, late ako."
+  ],
+  "맵다": [
+   "이 떡볶이는 너무 매워요.",
+   "Sobrang anghang nitong tteokbokki."
+  ],
+  "뜨겁다": [
+   "국이 뜨거우니까 조심하세요.",
+   "Mainit ang sabaw, kaya mag-ingat ka."
+  ],
+  "따뜻하다": [
+   "오늘은 날씨가 따뜻해요.",
+   "Mainit-init ang panahon ngayon."
+  ],
+  "시원하다": [
+   "바람이 시원해요.",
+   "Ang presko ng hangin."
+  ],
+  "조용하다": [
+   "도서관은 조용해요.",
+   "Tahimik sa library."
+  ],
+  "편하다": [
+   "집이 제일 편해요.",
+   "Bahay pa rin ang pinakakomportable."
+  ],
+  "친절하다": [
+   "가게 사장님이 친절해요.",
+   "Mabait ang may-ari ng tindahan."
+  ],
+  "유명하다": [
+   "이 식당은 비빔밥으로 유명해요.",
+   "Sikat ang restawran na ito sa bibimbap."
+  ],
+  "무겁다": [
+   "가방이 너무 무거워요.",
+   "Sobrang bigat ng bag."
+  ],
+  "비슷하다": [
+   "두 사람은 얼굴이 비슷해요.",
+   "Magkamukha ang dalawa."
+  ],
+  "이상하다": [
+   "맛이 좀 이상해요.",
+   "Medyo kakaiba ang lasa."
+  ],
+  "귀찮다": [
+   "오늘은 요리하기 귀찮아요.",
+   "Tinatamad akong magluto ngayon."
+  ],
+  "부럽다": [
+   "한국에 가요? 부러워요!",
+   "Pupunta ka ng Korea? Sana all!"
+  ],
+  "배부르다": [
+   "많이 먹어서 배불러요.",
+   "Ang dami kong kinain, kaya busog na ako."
+  ],
+  "빨갛다": [
+   "빨간 옷이 잘 어울려요.",
+   "Bagay sa iyo ang pulang damit."
+  ],
+  "안": [
+   "저는 커피를 안 마셔요.",
+   "Hindi ako umiinom ng kape."
+  ],
+  "더": [
+   "김치 좀 더 주세요.",
+   "Pahingi pa ng kaunting kimchi."
+  ],
+  "못": [
+   "저는 수영 못 해요.",
+   "Hindi ako marunong lumangoy."
+  ],
+  "잘": [
+   "한국 음식 잘 먹어요.",
+   "Kaya kong kumain ng pagkaing Koreano nang walang problema."
+  ],
+  "다": [
+   "숙제 다 했어요.",
+   "Tapos ko na lahat ng homework ko."
+  ],
+  "좀": [
+   "이것 좀 도와주세요.",
+   "Pakitulungan mo naman ako rito."
+  ],
+  "다시": [
+   "다시 한번 말해 주세요.",
+   "Pakiulit nga."
+  ],
+  "많이": [
+   "많이 드세요.",
+   "Kumain po kayo nang marami."
+  ],
+  "같이": [
+   "같이 점심 먹어요.",
+   "Sabay tayong mananghalian."
+  ],
+  "바로": [
+   "은행은 바로 옆에 있어요.",
+   "Nasa tabi lang ang bangko."
+  ],
+  "제일": [
+   "저는 김치찌개를 제일 좋아해요.",
+   "Pinakamahilig ako sa kimchi jjigae."
+  ],
+  "정말": [
+   "오늘 정말 즐거웠어요.",
+   "Ang saya-saya ko talaga ngayong araw."
+  ],
+  "너무": [
+   "이 가방은 너무 비싸요.",
+   "Sobrang mahal ng bag na ito."
+  ],
+  "아직": [
+   "아직 밥 안 먹었어요.",
+   "Hindi pa ako kumakain."
+  ],
+  "벌써": [
+   "벌써 열두 시예요?",
+   "Alas-dose na agad?"
+  ],
+  "곧": [
+   "버스가 곧 와요.",
+   "Darating na ang bus."
+  ],
+  "빨리": [
+   "빨리 오세요!",
+   "Bilis, halika na!"
+  ],
+  "자주": [
+   "여기 자주 와요?",
+   "Madalas ka ba rito?"
+  ],
+  "가끔": [
+   "가끔 혼자 영화를 봐요.",
+   "Paminsan-minsan, nanonood ako ng sine nang mag-isa."
+  ],
+  "항상": [
+   "엄마는 항상 일찍 일어나요.",
+   "Laging maagang gumigising si Mama."
+  ],
+  "계속": [
+   "계속 비가 와요.",
+   "Tuloy-tuloy ang ulan."
+  ],
+  "또": [
+   "내일 또 만나요.",
+   "Kita ulit tayo bukas."
+  ],
+  "별로": [
+   "저는 매운 음식을 별로 안 좋아해요.",
+   "Hindi ako masyadong mahilig sa maanghang."
+  ],
+  "전혀": [
+   "일본어는 전혀 몰라요.",
+   "Wala talaga akong alam sa wikang Hapon."
+  ],
+  "꼭": [
+   "다음에 꼭 오세요.",
+   "Siguraduhin mong pumunta sa susunod."
+  ],
+  "아마": [
+   "아마 내일 비가 올 거예요.",
+   "Malamang uulan bukas."
+  ],
+  "혹시": [
+   "혹시 영어 할 수 있어요?",
+   "Baka sakaling marunong kang mag-English?"
+  ],
+  "거의": [
+   "거의 다 왔어요.",
+   "Malapit na tayo."
+  ],
+  "이제": [
+   "이제 집에 가요.",
+   "Uuwi na ako."
+  ],
+  "방금": [
+   "방금 도착했어요.",
+   "Kararating ko lang."
+  ],
+  "나중에": [
+   "나중에 전화할게요.",
+   "Tatawagan kita mamaya."
+  ],
+  "요즘": [
+   "요즘 뭐 해요?",
+   "Ano ang pinagkakaabalahan mo ngayon?"
+  ],
+  "갑자기": [
+   "갑자기 비가 왔어요.",
+   "Biglang umulan."
+  ],
+  "열심히": [
+   "한국어를 열심히 공부해요.",
+   "Masipag akong nag-aaral ng Koreano."
+  ],
+  "그냥": [
+   "그냥 물 주세요.",
+   "Pahingi na lang ng tubig."
+  ],
+  "혼자": [
+   "혼자 여행했어요.",
+   "Mag-isa akong nagbiyahe."
+  ],
+  "왜": [
+   "왜 안 왔어요?",
+   "Bakit hindi ka pumunta?"
+  ],
+  "어떻게": [
+   "명동에 어떻게 가요?",
+   "Paano pumunta sa Myeongdong?"
+  ],
+  "나": [
+   "나도 그거 좋아해.",
+   "Mahilig din ako diyan. (casual)"
+  ],
+  "저": [
+   "저는 멕시코 사람이에요.",
+   "Mexicano ako."
+  ],
+  "너": [
+   "너 오늘 뭐 해?",
+   "Ano ang gagawin mo ngayon? (casual)"
+  ],
+  "우리": [
+   "우리 같이 가요.",
+   "Sabay tayong pumunta."
+  ],
+  "저희": [
+   "저희 가게에 오신 걸 환영합니다.",
+   "Maligayang pagdating po sa aming tindahan."
+  ],
+  "내": [
+   "이거 내 거야.",
+   "Akin ito. (casual)"
+  ],
+  "제": [
+   "제 이름은 민준이에요.",
+   "Minjun ang pangalan ko."
+  ],
+  "그": [
+   "그는 아무 말도 하지 않았다.",
+   "Wala siyang sinabi kahit isang salita. (pasulat)"
+  ],
+  "그녀": [
+   "그녀는 웃으면서 대답했다.",
+   "Sumagot siya nang nakangiti. (pasulat)"
+  ],
+  "당신": [
+   "당신을 사랑해요.",
+   "Mahal kita. (linya sa kanta, o sa matagal nang mag-asawa)"
+  ],
+  "자기": [
+   "자기 일은 자기가 하세요.",
+   "Gawin mo nang mag-isa ang sarili mong trabaho."
+  ],
+  "여러분": [
+   "여러분, 안녕하세요!",
+   "Magandang araw sa inyong lahat!"
+  ],
+  "씨": [
+   "지수 씨, 커피 마실래요?",
+   "Jisu, gusto mo ba ng kape?"
+  ],
+  "그쪽": [
+   "그쪽은 이름이 뭐예요?",
+   "E ikaw, ano ang pangalan mo?"
+  ],
+  "누구": [
+   "저 사람은 누구예요?",
+   "Sino ang taong iyon?"
+  ],
+  "뭐": [
+   "주말에 뭐 했어요?",
+   "Ano ang ginawa mo noong weekend?"
+  ],
+  "무엇": [
+   "무엇을 도와드릴까요?",
+   "Ano po ang maitutulong ko?"
+  ],
+  "어디": [
+   "어디 살아요?",
+   "Saan ka nakatira?"
+  ],
+  "이것": [
+   "이것은 제 책이에요.",
+   "Libro ko ito."
+  ],
+  "그것": [
+   "그것도 좋은 생각이에요.",
+   "Magandang ideya rin iyan."
+  ],
+  "저것": [
+   "저것은 뭐예요?",
+   "Ano iyon doon?"
+  ],
+  "이거": [
+   "이거 얼마예요?",
+   "Magkano ito?"
+  ],
+  "그거": [
+   "그거 맛있어요?",
+   "Masarap ba iyan?"
+  ],
+  "저거": [
+   "저거 주세요.",
+   "Iyong nandoon nga."
+  ],
+  "거기": [
+   "거기 몇 시까지 해요?",
+   "Hanggang anong oras bukas doon?"
+  ],
+  "이분": [
+   "이분은 제 선생님이세요.",
+   "Siya ang teacher ko."
+  ],
+  "그분": [
+   "그분은 정말 친절하세요.",
+   "Napakabait talaga ng taong iyan."
+  ],
+  "저분": [
+   "저분이 사장님이세요?",
+   "Siya ba ang may-ari, iyong nandoon?"
+  ],
+  "얘": [
+   "얘는 제 동생이에요.",
+   "Nakababatang kapatid ko ito."
+  ],
+  "걔": [
+   "걔 요즘 바빠요.",
+   "Busy siya ngayon. (tungkol sa kaibigan)"
+  ],
+  "쟤": [
+   "쟤 누구야?",
+   "Sino iyon? (casual)"
+  ],
+  "이쪽": [
+   "이쪽으로 오세요.",
+   "Dito ka dumaan."
+  ],
+  "저쪽": [
+   "화장실은 저쪽에 있어요.",
+   "Nandoon ang CR."
+  ],
+  "아무": [
+   "아무 때나 연락하세요.",
+   "Mag-message ka kahit kailan."
+  ],
+  "아무도": [
+   "집에 아무도 없어요.",
+   "Walang tao sa bahay."
+  ],
+  "아무것도": [
+   "아침에 아무것도 안 먹었어요.",
+   "Wala akong kinain kaninang umaga."
+  ],
+  "누군가": [
+   "누군가 문을 열었어요.",
+   "May nagbukas ng pinto."
+  ],
+  "뭔가": [
+   "뭔가 이상해요.",
+   "Parang may mali."
+  ],
+  "어딘가": [
+   "핸드폰이 집 어딘가에 있을 거예요.",
+   "Nandiyan lang sa bahay ang cellphone ko, kung saan man."
+  ],
+  "자신": [
+   "자신을 믿으세요.",
+   "Maniwala ka sa sarili mo."
+  ],
+  "(으)로": [
+   "지하철로 가요.",
+   "Nagsu-subway ako."
+  ],
+  "까지": [
+   "몇 시까지 열어요?",
+   "Hanggang anong oras kayo bukas?"
+  ],
+  "부터": [
+   "수업은 아홉 시부터예요.",
+   "Alas-nuwebe nagsisimula ang klase."
+  ],
+  "한테": [
+   "친구한테 선물을 줬어요.",
+   "Nagbigay ako ng regalo sa kaibigan ko."
+  ],
+  "에게": [
+   "선생님에게 이메일을 보냈어요.",
+   "Nag-email ako sa teacher."
+  ],
+  "께": [
+   "할머니께 전화했어요.",
+   "Tinawagan ko si Lola."
+  ],
+  "한테서": [
+   "언니한테서 문자가 왔어요.",
+   "Nag-text sa akin ang ate ko."
+  ],
+  "보다": [
+   "오늘이 어제보다 추워요.",
+   "Mas malamig ngayon kaysa kahapon."
+  ],
+  "처럼": [
+   "한국 사람처럼 말해요.",
+   "Parang Koreano kang magsalita."
+  ],
+  "마다": [
+   "주말마다 등산해요.",
+   "Nagha-hiking ako tuwing weekend."
+  ],
+  "밖에": [
+   "천 원밖에 없어요.",
+   "Isang libong won lang ang pera ko."
+  ],
+  "이나 / 나": [
+   "커피나 차 마실래요?",
+   "Gusto mo ba ng kape o tsaa?"
+  ],
+  "이랑 / 랑": [
+   "친구랑 영화 봤어요.",
+   "Nanood ako ng sine kasama ang kaibigan ko."
+  ],
+  "께서": [
+   "할아버지께서 오셨어요.",
+   "Dumating na si Lolo."
+  ],
+  "쯤": [
+   "세 시쯤 만나요.",
+   "Kita tayo bandang alas-tres."
+  ],
+  "씩": [
+   "한 사람에 하나씩 가져가세요.",
+   "Tig-iisa lang ang kunin ng bawat tao."
+  ],
+  "근데": [
+   "근데 내일 시간 있어요?",
+   "Siyanga pala, libre ka ba bukas?"
+  ],
+  "그러니까": [
+   "비가 와요. 그러니까 우산 가져가세요.",
+   "Umuulan. Kaya magdala ka ng payong."
+  ],
+  "그렇지만": [
+   "비싸요. 그렇지만 맛있어요.",
+   "Mahal. Pero masarap."
+  ],
+  "게다가": [
+   "이 집은 싸요. 게다가 맛있어요.",
+   "Mura rito. Bukod pa riyan, masarap."
+  ],
+  "먹고": [
+   "밥 먹고 커피 마셔요.",
+   "Kumakain ako, tapos nagkakape."
+  ],
+  "비싸지만": [
+   "비싸지만 맛있어요.",
+   "Mahal pero masarap."
+  ],
+  "가서": [
+   "시장에 가서 과일을 샀어요.",
+   "Pumunta ako sa palengke at bumili ng prutas."
+  ],
+  "피곤해서": [
+   "피곤해서 일찍 잤어요.",
+   "Pagod ako, kaya maaga akong natulog."
+  ],
+  "가면": [
+   "한국에 가면 뭐 하고 싶어요?",
+   "Kung pupunta ka sa Korea, ano ang gusto mong gawin?"
+  ],
+  "비가 오니까": [
+   "비가 오니까 택시 타요.",
+   "Umuulan, kaya mag-taxi na tayo."
+  ],
+  "바쁜데": [
+   "지금 바쁜데 이따 전화할게요.",
+   "Busy ako ngayon, kaya tatawagan kita mamaya."
+  ],
+  "먹으러": [
+   "점심 먹으러 가요.",
+   "Tara, kain tayo ng tanghalian."
+  ],
+  "걸으면서": [
+   "걸으면서 음악을 들어요.",
+   "Nakikinig ako ng musika habang naglalakad."
+  ],
+  "가다가": [
+   "학교에 가다가 친구를 만났어요.",
+   "Habang papunta ako sa paaralan, nakasalubong ko ang kaibigan ko."
+  ],
+  "자거나": [
+   "주말에는 자거나 영화를 봐요.",
+   "Kapag weekend, natutulog ako o nanonood ng sine."
+  ],
+  "비싸도": [
+   "비싸도 사고 싶어요.",
+   "Kahit mahal, gusto ko pa rin itong bilhin."
+  ],
+  "자기 전에": [
+   "자기 전에 책을 읽어요.",
+   "Nagbabasa ako bago matulog."
+  ],
+  "먹은 후에": [
+   "밥 먹은 후에 산책해요.",
+   "Pagkatapos kumain, naglalakad-lakad ako."
+  ],
+  "갈 때": [
+   "한국에 갈 때 선물을 사요.",
+   "Bumibili ako ng pasalubong kapag pumupunta ako sa Korea."
+  ],
+  "도착하자마자": [
+   "집에 도착하자마자 잤어요.",
+   "Pagkarating ko sa bahay, natulog agad ako."
+  ],
+  "일": [
+   "오늘은 일이 너무 많아요.",
+   "Ang dami kong trabaho ngayon."
   ]
  },
  "PATTERNS": [
@@ -5581,7 +11347,7 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "title": "3 · Pakikipagkilala",
    "blurb": "Ipakilala ang sarili, itanong ang apat na karaniwang tanong, at magpaalam nang tama.",
    "deck": "Pagpapakilala",
-   "body": "\n<p>Pare-pareho ang takbo ng bawat unang usapan sa Korea. Kapag natutunan mo ang script, kaya mo na ito sa unang araw pa lang.</p>\n<h3>Ang script</h3>\n{{ex:안녕하세요. 저는 키이예요|annyeonghaseyo. jeoneun kiiyeyo|Hello. Ako si Kii.}}{{ex:만나서 반가워요|mannaseo bangawoyo|Ikinagagalak kitang makilala}}{{ex:어디에서 왔어요?|eodieseo wasseoyo?|Taga-saan ka?}}{{ex:미국에서 왔어요|migugeseo wasseoyo|Taga-Amerika ako}}{{ex:무슨 일 해요?|museun il haeyo?|Ano ang trabaho mo?}}{{ex:한국어 공부해요|hangugeo gongbuhaeyo|Nag-aaral ako ng Koreano}}\n<p>Sa halip na Amerika, sabihin ang lugar mo: 필리핀에서 왔어요 (pillipineseo wasseoyo, Taga-Pilipinas ako) o 마닐라에서 왔어요 (manillaeseo wasseoyo, Taga-Maynila ako). Ang pangalan lang ng lugar ang papalitan; pareho ang ibang bahagi ng sentence.</p>\n<h3>이에요 o 예요</h3><p>Alam mo na ito sa Tagalog: pinipili ang anyo ayon sa dulo ng salita, gaya ng <i>magandang</i> (vowel) at <i>mabait na</i> (consonant). Ganyan din sa Koreano. Ang \"Ako si ___\" o \"Estudyante ako\" ay gumagamit ng <b>이에요</b> pagkatapos ng final consonant at ng <b>예요</b> pagkatapos ng vowel. Sinusunod ng pangalan ang baybay nito sa Hangul, hindi ang tunog nito sa wika mo, kaya tingnan ang huling block sa Hangul: Mike = 마이크 → 마이크예요, Juan = 후안 → 후안이에요.</p>\n<div class=\"tbl\"><table><tr><th>Nagtatapos sa</th><th>Gamitin</th><th>Halimbawa</th></tr><tr><td>consonant</td><td class=\"k\">이에요</td><td>학생이에요 · 킴이에요</td></tr><tr><td>vowel</td><td class=\"k\">예요</td><td>저예요 · 리사예요</td></tr></table></div>\n<h3>Normal na tanong ang edad</h3><p>Nagtatanong din ng edad ang mga Pilipino, para malaman kung <i>kuya</i> o <i>ate</i> ang itatawag. Ganyan din sa Korea: maaga nilang itinatanong ang 몇 살이에요? dahil ang edad ang nagtatakda ng politeness level ninyong dalawa. Sumagot gamit ang native number + 살. Kung <i>dalawampu't walong taon</i> ang sinasabi mo, tama ang kutob mo; kung <i>bente otso anyos</i>, mag-ingat: native number ang edad sa Koreano, hindi ang Sino-Korean number na ginagamit sa pera.</p>\n{{ex:몇 살이에요?|myeot sarieyo?|Ilang taon ka na?}}{{ex:스물여덟 살이에요|seumullyeodeol sarieyo|28 taong gulang ako}}\n<h3>Dalawang paalam</h3><p>Depende kung sino ang aalis. Kapag ikaw ang aalis (gaya ng <i>Mauna na ako</i>), ang sinasabi mo sa maiiwan ay literal na \"manatili nang mapayapa\". Kapag siya ang aalis, ang sinasabi mo ay literal na \"umalis nang mapayapa\", parang <i>Sige, ingat</i>. Walang ganitong pares sa Tagalog, kaya isipin lang kung sino ang aalis.</p>\n{{ex:안녕히 가세요|annyeonghi gaseyo|Ingat (sa taong aalis)}}{{ex:안녕히 계세요|annyeonghi gyeseyo|Paalam (sa taong maiiwan; ikaw ang aalis)}}\n<div class=\"tip\">Kayong dalawa ang aalis (halimbawa, sa labas ng café)? Pareho kayong magsasabi ng 안녕히 가세요. Sa telepono, madalas sinasabi ang 안녕히 계세요 o 들어가세요.</div>\n<h3>Sabihin sa 3 paraan</h3><div class=\"tbl\"><table><tr><th>Formal / honorific</th><th>Polite</th><th>Casual</th><th></th></tr><tr><td class=\"k\">만나서 반갑습니다</td><td class=\"k\">만나서 반가워요</td><td class=\"k\">반가워</td><td>ikinagagalak kitang makilala</td></tr><tr><td class=\"k\">성함이 어떻게 되세요?</td><td class=\"k\">이름이 뭐예요?</td><td class=\"k\">이름이 뭐야?</td><td>ano ang pangalan mo</td></tr></table></div>\n"
+   "body": "\n<p>Pare-pareho ang takbo ng bawat unang usapan sa Korea. Kapag natutunan mo ang script, kaya mo na ito sa unang araw pa lang.</p>\n<h3>Ang script</h3>\n{{ex:안녕하세요. 저는 @@입니다|annyeonghaseyo. jeoneun @@imnida|Hello. Ako si @@.}}{{ex:만나서 반가워요|mannaseo bangawoyo|Ikinagagalak kitang makilala}}{{ex:어디에서 왔어요?|eodieseo wasseoyo?|Taga-saan ka?}}{{ex:멕시코에서 왔어요|meksikoeseo wasseoyo|Taga-Mexico ako}}{{ex:무슨 일 해요?|museun il haeyo?|Ano ang trabaho mo?}}{{ex:한국어 공부해요|hangugeo gongbuhaeyo|Nag-aaral ako ng Koreano}}\n<div class=\"tip\">Ganito rin sa kahit anong bansa: 미국에서, 필리핀에서, 일본에서 왔어요. Kung taga-Maynila ka: 마닐라에서 왔어요 (manillaeseo wasseoyo, Taga-Maynila ako). Nasa deck na Mga bansa ang lahat ng bansa.</div>\n<h3>이에요 o 예요</h3><p>Alam mo na ito sa Tagalog: pinipili ang anyo ayon sa dulo ng salita, gaya ng <i>magandang</i> (vowel) at <i>mabait na</i> (consonant). Ganyan din sa Koreano. Ang \"Ako si ___\" o \"Estudyante ako\" ay gumagamit ng <b>이에요</b> pagkatapos ng final consonant at ng <b>예요</b> pagkatapos ng vowel. Sinusunod ng pangalan ang baybay nito sa Hangul, hindi ang tunog nito sa wika mo, kaya tingnan ang huling block sa Hangul: Mike = 마이크 → 마이크예요, Juan = 후안 → 후안이에요.</p>\n<div class=\"tbl\"><table><tr><th>Nagtatapos sa</th><th>Gamitin</th><th>Halimbawa</th></tr><tr><td>consonant</td><td class=\"k\">이에요</td><td>학생이에요 · 킴이에요</td></tr><tr><td>vowel</td><td class=\"k\">예요</td><td>저예요 · 리사예요</td></tr></table></div>\n<h3>Normal na tanong ang edad</h3><p>Nagtatanong din ng edad ang mga Pilipino, para malaman kung <i>kuya</i> o <i>ate</i> ang itatawag. Ganyan din sa Korea: maaga nilang itinatanong ang 몇 살이에요? dahil ang edad ang nagtatakda ng politeness level ninyong dalawa. Sumagot gamit ang native number + 살. Kung <i>dalawampu't walong taon</i> ang sinasabi mo, tama ang kutob mo; kung <i>bente otso anyos</i>, mag-ingat: native number ang edad sa Koreano, hindi ang Sino-Korean number na ginagamit sa pera.</p>\n{{ex:몇 살이에요?|myeot sarieyo?|Ilang taon ka na?}}{{ex:스물여덟 살이에요|seumullyeodeol sarieyo|28 taong gulang ako}}\n<h3>Dalawang paalam</h3><p>Depende kung sino ang aalis. Kapag ikaw ang aalis (gaya ng <i>Mauna na ako</i>), ang sinasabi mo sa maiiwan ay literal na \"manatili nang mapayapa\". Kapag siya ang aalis, ang sinasabi mo ay literal na \"umalis nang mapayapa\", parang <i>Sige, ingat</i>. Walang ganitong pares sa Tagalog, kaya isipin lang kung sino ang aalis.</p>\n{{ex:안녕히 가세요|annyeonghi gaseyo|Ingat (sa taong aalis)}}{{ex:안녕히 계세요|annyeonghi gyeseyo|Paalam (sa taong maiiwan; ikaw ang aalis)}}\n<div class=\"tip\">Kayong dalawa ang aalis (halimbawa, sa labas ng café)? Pareho kayong magsasabi ng 안녕히 가세요. Sa telepono, madalas sinasabi ang 안녕히 계세요 o 들어가세요.</div>\n<h3>Sabihin sa 3 paraan</h3><div class=\"tbl\"><table><tr><th>Formal / honorific</th><th>Polite</th><th>Casual</th><th></th></tr><tr><td class=\"k\">만나서 반갑습니다</td><td class=\"k\">만나서 반가워요</td><td class=\"k\">반가워</td><td>ikinagagalak kitang makilala</td></tr><tr><td class=\"k\">성함이 어떻게 되세요?</td><td class=\"k\">이름이 뭐예요?</td><td class=\"k\">이름이 뭐야?</td><td>ano ang pangalan mo</td></tr></table></div>\n"
   },
   {
    "id": "sound-changes",
@@ -5651,7 +11417,7 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "title": "13 · 에 at 에서, at ang mapa ng mga particle",
    "blurb": "에 para sa pupuntahan mo, kung nasaan ang bagay at kung kailan; 에서 para sa kung saan mo ginagawa ang isang bagay at kung saan ka galing.",
    "deck": "Mga particle",
-   "body": "\n<p>Parehong dumidikit sa lugar ang <b>에</b> at <b>에서</b>, at sa Tagalog, iisang <i>sa</i> lang ang ginagamit para sa dalawa. Kaya madalas itong pagpalitin ng mga Pilipinong nag-aaral ng Koreano. Ang verb ang nagpapasya. Ang <b>에</b> ay para sa pagpunta, pagdating at pagiging nasa isang lugar — at para sa oras. Ang <b>에서</b> ay para sa paggawa ng isang bagay sa isang lugar, at para sa \"galing sa\".</p>\n<h3>에: kung saan ka pupunta</h3><p>Pupuntahan + 에, kasama ng 가요 (pumunta) at 와요 (dumating).</p>\n{{ex:집에 가요|jibe gayo|Uuwi (ako)}}{{ex:학교에 가요|hakgyoe gayo|Pumapasok (ako) sa paaralan}}{{ex:친구가 카페에 와요|chinguga kapee wayo|Darating sa café ang kaibigan ko}}\n<h3>에: kung nasaan ang bagay, at kung kailan</h3><p>Lugar + 에 kasama ng 있어요 / 없어요 (<i>nasa</i>, <i>wala sa</i>), at time word + 에: 주말에 (sa weekend), 아침에 (sa umaga).</p>\n{{ex:고양이가 집에 있어요|goyangiga jibe isseoyo|Nasa bahay ang pusa}}{{ex:주말에 학교에 가요|jumare hakgyoe gayo|Pumapasok (ako) sa paaralan kapag weekend}}{{ex:아침에 커피를 마셔요|achime keopireul masyeoyo|Umiinom (ako) ng kape sa umaga}}\n<h3>에서: kung saan mo ginagawa, at \"galing sa\"</h3><p>Lugar + 에서 kapag may kilos na nangyayari roon: kumakain, nag-aaral, nagpapahinga, nagtatrabaho. \"Galing sa\" rin, kasama ng 왔어요.</p>\n{{ex:집에서 쉬어요|jibeseo swieoyo|Nagpapahinga (ako) sa bahay}}{{ex:카페에서 공부해요|kapeeseo gongbuhaeyo|Nag-aaral (ako) sa café}}{{ex:미국에서 왔어요|migugeseo wasseoyo|Galing (ako) sa Amerika}}\n<h3>Topic at subject, maikli lang</h3><p>Ang <b>은/는</b> ay nagtatakda ng frame (\"tungkol sa akin…\"); itinuturo ng <b>이/가</b> ang isang tiyak na bagay, lalo na ang bagong impormasyon o ang sagot sa \"sino?\". Ihambing: <i>Sino ang dumating? Ang kaibigan ko ang dumating.</i></p>\n{{ex:저는 학생이에요|jeoneun haksaengieyo|Tungkol sa akin, estudyante ako}}{{ex:누가 왔어요? 친구가 왔어요|nuga wasseoyo? chinguga wasseoyo|Sino ang dumating? Ang kaibigan ko ang dumating (bagong impormasyon → 가)}}\n<h3>Ang mapa ng mga particle sa ngayon</h3>\n<div class=\"tbl\"><table><tr><th>Trabaho</th><th>Pagkatapos ng consonant</th><th>Pagkatapos ng vowel</th><th>Halimbawa</th></tr><tr><td>Topic</td><td class=\"k\">은</td><td class=\"k\">는</td><td>저는 (tungkol sa akin)</td></tr><tr><td>Subject</td><td class=\"k\">이</td><td class=\"k\">가</td><td>고양이가 (isang pusa)</td></tr><tr><td>Object</td><td class=\"k\">을</td><td class=\"k\">를</td><td>밥을 (kanin)</td></tr><tr><td>Papunta sa / nasa / oras</td><td class=\"k\" colspan=\"2\">에</td><td>집에 가요 · 주말에</td></tr><tr><td>Sa (may ginagawa) / galing sa</td><td class=\"k\" colspan=\"2\">에서</td><td>집에서 쉬어요</td></tr><tr><td>Rin / din</td><td class=\"k\" colspan=\"2\">도</td><td>저도 (ako rin) — susunod na</td></tr></table></div>\n<div class=\"tip\">Mabilisang test: tingnan ang verb. 가요, 와요, 있어요, 없어요 → 에. Anumang aktibong ginagawa mo roon (먹어요, 공부해요, 쉬어요) → 에서. Tandaan din: sa Tagalog, nasa harap ng noun ang marker (<i>sa bahay</i>); sa Koreano, nasa likod. At kung tao ang pupuntahan, alam mo na ang pagkakaiba: <i>kay Mina</i>, hindi <i>sa Mina</i>. Ganoon din sa Koreano: may hiwalay na particle para sa tao, pero hindi pa natin ito kailangan.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Karaniwang mali</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>에서 para sa pupuntahan — 집에서 가요 ✗ → 집에 가요 ✓</li><li>에 para sa kilos — 카페에 공부해요 ✗ → 카페에서 공부해요 ✓</li><li>에서 kasama ng 있어요 — 집에서 있어요 ✗ → 집에 있어요 ✓</li><li>Particle sa harap ng noun, gaya ng <i>sa bahay</i> — 에 집 ✗ → 집에 ✓</li></ul></div>\n"
+   "body": "\n<p>Parehong dumidikit sa lugar ang <b>에</b> at <b>에서</b>, at sa Tagalog, iisang <i>sa</i> lang ang ginagamit para sa dalawa. Kaya madalas itong pagpalitin ng mga Pilipinong nag-aaral ng Koreano. Ang verb ang nagpapasya. Ang <b>에</b> ay para sa pagpunta, pagdating at pagiging nasa isang lugar — at para sa oras. Ang <b>에서</b> ay para sa paggawa ng isang bagay sa isang lugar, at para sa \"galing sa\".</p>\n<h3>에: kung saan ka pupunta</h3><p>Pupuntahan + 에, kasama ng 가요 (pumunta) at 와요 (dumating).</p>\n{{ex:집에 가요|jibe gayo|Uuwi (ako)}}{{ex:학교에 가요|hakgyoe gayo|Pumapasok (ako) sa paaralan}}{{ex:친구가 카페에 와요|chinguga kapee wayo|Darating sa café ang kaibigan ko}}\n<h3>에: kung nasaan ang bagay, at kung kailan</h3><p>Lugar + 에 kasama ng 있어요 / 없어요 (<i>nasa</i>, <i>wala sa</i>), at time word + 에: 주말에 (sa weekend), 아침에 (sa umaga).</p>\n{{ex:고양이가 집에 있어요|goyangiga jibe isseoyo|Nasa bahay ang pusa}}{{ex:주말에 학교에 가요|jumare hakgyoe gayo|Pumapasok (ako) sa paaralan kapag weekend}}{{ex:아침에 커피를 마셔요|achime keopireul masyeoyo|Umiinom (ako) ng kape sa umaga}}\n<h3>에서: kung saan mo ginagawa, at \"galing sa\"</h3><p>Lugar + 에서 kapag may kilos na nangyayari roon: kumakain, nag-aaral, nagpapahinga, nagtatrabaho. \"Galing sa\" rin, kasama ng 왔어요.</p>\n{{ex:집에서 쉬어요|jibeseo swieoyo|Nagpapahinga (ako) sa bahay}}{{ex:카페에서 공부해요|kapeeseo gongbuhaeyo|Nag-aaral (ako) sa café}}{{ex:캐나다에서 왔어요|kaenadaeseo wasseoyo|Galing (ako) sa Canada}}\n<h3>Topic at subject, maikli lang</h3><p>Ang <b>은/는</b> ay nagtatakda ng frame (\"tungkol sa akin…\"); itinuturo ng <b>이/가</b> ang isang tiyak na bagay, lalo na ang bagong impormasyon o ang sagot sa \"sino?\". Ihambing: <i>Sino ang dumating? Ang kaibigan ko ang dumating.</i></p>\n{{ex:저는 학생이에요|jeoneun haksaengieyo|Tungkol sa akin, estudyante ako}}{{ex:누가 왔어요? 친구가 왔어요|nuga wasseoyo? chinguga wasseoyo|Sino ang dumating? Ang kaibigan ko ang dumating (bagong impormasyon → 가)}}\n<h3>Ang mapa ng mga particle sa ngayon</h3>\n<div class=\"tbl\"><table><tr><th>Trabaho</th><th>Pagkatapos ng consonant</th><th>Pagkatapos ng vowel</th><th>Halimbawa</th></tr><tr><td>Topic</td><td class=\"k\">은</td><td class=\"k\">는</td><td>저는 (tungkol sa akin)</td></tr><tr><td>Subject</td><td class=\"k\">이</td><td class=\"k\">가</td><td>고양이가 (isang pusa)</td></tr><tr><td>Object</td><td class=\"k\">을</td><td class=\"k\">를</td><td>밥을 (kanin)</td></tr><tr><td>Papunta sa / nasa / oras</td><td class=\"k\" colspan=\"2\">에</td><td>집에 가요 · 주말에</td></tr><tr><td>Sa (may ginagawa) / galing sa</td><td class=\"k\" colspan=\"2\">에서</td><td>집에서 쉬어요</td></tr><tr><td>Rin / din</td><td class=\"k\" colspan=\"2\">도</td><td>저도 (ako rin) — susunod na</td></tr></table></div>\n<div class=\"tip\">Mabilisang test: tingnan ang verb. 가요, 와요, 있어요, 없어요 → 에. Anumang aktibong ginagawa mo roon (먹어요, 공부해요, 쉬어요) → 에서. Tandaan din: sa Tagalog, nasa harap ng noun ang marker (<i>sa bahay</i>); sa Koreano, nasa likod. At kung tao ang pupuntahan, alam mo na ang pagkakaiba: <i>kay Mina</i>, hindi <i>sa Mina</i>. Ganoon din sa Koreano: may hiwalay na particle para sa tao, pero hindi pa natin ito kailangan.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Karaniwang mali</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>에서 para sa pupuntahan — 집에서 가요 ✗ → 집에 가요 ✓</li><li>에 para sa kilos — 카페에 공부해요 ✗ → 카페에서 공부해요 ✓</li><li>에서 kasama ng 있어요 — 집에서 있어요 ✗ → 집에 있어요 ✓</li><li>Particle sa harap ng noun, gaya ng <i>sa bahay</i> — 에 집 ✗ → 집에 ✓</li></ul></div>\n"
   },
   {
    "id": "negation",
@@ -5791,7 +11557,7 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "title": "33 · Koreano sa opisina",
    "blurb": "Mga title, ang pamilya ng 수고, pambungad at pansara ng email, at pag-survive sa 회식.",
    "deck": "Trabaho at opisina",
-   "body": "<p>Tumatakbo ang mga opisina sa Korea sa mga title at set phrase. Alamin ang mga set phrase at para kang matagal na roon mula sa unang araw. Pansinin ang formal na ending ng marami sa kanila: parang <i>po</i> ito ng opisina, pero ang sitwasyon ang minamarkahan nito, hindi ang edad ng kausap.</p>\n<h3>Mga title (laging + 님)</h3>\n<div class=\"tbl\"><table><tr><th>Title</th><th>Katumbas sa opisina sa Pilipinas (humigit-kumulang)</th></tr><tr><td class=\"k\">사원</td><td>staff (hindi ginagamit pantawag: pangalan + 씨)</td></tr><tr><td class=\"k\">대리님</td><td>assistant manager</td></tr><tr><td class=\"k\">과장님</td><td>manager</td></tr><tr><td class=\"k\">차장님 / 부장님</td><td>senior manager / department head</td></tr><tr><td class=\"k\">팀장님</td><td>team leader</td></tr><tr><td class=\"k\">사장님 / 대표님</td><td>CEO o presidente</td></tr></table></div>\n<p>Tawagin ang tao sa title niya, hindi sa pangalan: 과장님, 이거 확인해 주시겠어요? Iba ito sa Pilipinas, kung saan <i>Sir</i> o <i>Ma'am</i> + pangalan ang gamit: sa Korea, title lang. Kung hindi ka sigurado sa title ng isang tao, magtanong sa katrabaho; sa chat, ligtas ang pangalan + 님. Ganito rin sa pabrika at sa kahit anong trabaho.</p>\n<h3>Ang pamilya ng 수고</h3>\n{{ex:수고하세요|sugohaseyo|Sige, laban lang sa trabaho (sa naiiwan pang nagtatrabaho, habang paalis ka; lit. 'magpakahirap ka')}}{{ex:수고하셨습니다|sugohasyeotseumnida|Salamat po sa sipag ninyo ngayong araw (sa senior, pagkatapos ng trabaho)}}{{ex:수고했어요|sugohaesseoyo|Good job (sa junior o kapantay)}}\n<h3>Email sa apat na linya</h3>\n{{ex:안녕하세요, 마케팅팀 키이입니다|annyeonghaseyo, maketingtim kiiimnida|Magandang araw po, si Kii ito ng marketing team}}{{ex:다름이 아니라 보고서 관련해서 연락드립니다|dareumi anira bogoseo gwallyeonhaeseo yeollakdeurimnida|Sumusulat po ako tungkol sa report}}{{ex:확인 부탁드립니다|hwagin butakdeurimnida|Pakitingnan po}}{{ex:감사합니다. 키이 드림|gamsahamnida. kii deurim|Salamat po. Kii}}\n<h3>Mga tuntunin sa 회식 (inuman o hapunan ng kompanya)</h3><p>Salinan ang iba gamit ang dalawang kamay, tumanggap gamit ang dalawang kamay, tumalikod nang kaunti sa mga senior kapag umiinom ka, at huwag kailanman salinan ang sarili mo. Tinatanggap ang 한 잔만 할게요 (isang baso lang); tinatapos ng 운전해야 돼요 (kailangan kong magmaneho) ang pamimilit.</p>\n{{ex:한 잔 받으세요|han jan badeuseyo|Isang baso po para sa inyo (habang sinasalinan mo ang senior)}}{{ex:저는 운전해야 돼서요|jeoneun unjeonhaeya dwaeseoyo|Kailangan ko kasing magmaneho (kaya huwag na lang)}}\n<div class=\"tip\">Dati, bawal umuwi nang mas maaga sa boss mo. Ngayon, karaniwan na ang 먼저 퇴근하겠습니다 na sinasabi nang malinaw sa lahat, parang <i>Mauuna na po ako</i>. Sabihin, yumuko nang kaunti, at umalis.</div>\n"
+   "body": "<p>Tumatakbo ang mga opisina sa Korea sa mga title at set phrase. Alamin ang mga set phrase at para kang matagal na roon mula sa unang araw. Pansinin ang formal na ending ng marami sa kanila: parang <i>po</i> ito ng opisina, pero ang sitwasyon ang minamarkahan nito, hindi ang edad ng kausap.</p>\n<h3>Mga title (laging + 님)</h3>\n<div class=\"tbl\"><table><tr><th>Title</th><th>Katumbas sa opisina sa Pilipinas (humigit-kumulang)</th></tr><tr><td class=\"k\">사원</td><td>staff (hindi ginagamit pantawag: pangalan + 씨)</td></tr><tr><td class=\"k\">대리님</td><td>assistant manager</td></tr><tr><td class=\"k\">과장님</td><td>manager</td></tr><tr><td class=\"k\">차장님 / 부장님</td><td>senior manager / department head</td></tr><tr><td class=\"k\">팀장님</td><td>team leader</td></tr><tr><td class=\"k\">사장님 / 대표님</td><td>CEO o presidente</td></tr></table></div>\n<p>Tawagin ang tao sa title niya, hindi sa pangalan: 과장님, 이거 확인해 주시겠어요? Iba ito sa Pilipinas, kung saan <i>Sir</i> o <i>Ma'am</i> + pangalan ang gamit: sa Korea, title lang. Kung hindi ka sigurado sa title ng isang tao, magtanong sa katrabaho; sa chat, ligtas ang pangalan + 님. Ganito rin sa pabrika at sa kahit anong trabaho.</p>\n<h3>Ang pamilya ng 수고</h3>\n{{ex:수고하세요|sugohaseyo|Sige, laban lang sa trabaho (sa naiiwan pang nagtatrabaho, habang paalis ka; lit. 'magpakahirap ka')}}{{ex:수고하셨습니다|sugohasyeotseumnida|Salamat po sa sipag ninyo ngayong araw (sa senior, pagkatapos ng trabaho)}}{{ex:수고했어요|sugohaesseoyo|Good job (sa junior o kapantay)}}\n<h3>Email sa apat na linya</h3>\n{{ex:안녕하세요, 마케팅팀 @@입니다|annyeonghaseyo, maketingtim @@imnida|Magandang araw po, si @@ ito ng marketing team}}{{ex:다름이 아니라 보고서 관련해서 연락드립니다|dareumi anira bogoseo gwallyeonhaeseo yeollakdeurimnida|Sumusulat po ako tungkol sa report}}{{ex:확인 부탁드립니다|hwagin butakdeurimnida|Pakitingnan po}}{{ex:감사합니다. @@ 드림|gamsahamnida. @@ deurim|Salamat po. @@}}\n<h3>Mga tuntunin sa 회식 (inuman o hapunan ng kompanya)</h3><p>Salinan ang iba gamit ang dalawang kamay, tumanggap gamit ang dalawang kamay, tumalikod nang kaunti sa mga senior kapag umiinom ka, at huwag kailanman salinan ang sarili mo. Tinatanggap ang 한 잔만 할게요 (isang baso lang); tinatapos ng 운전해야 돼요 (kailangan kong magmaneho) ang pamimilit.</p>\n{{ex:한 잔 받으세요|han jan badeuseyo|Isang baso po para sa inyo (habang sinasalinan mo ang senior)}}{{ex:저는 운전해야 돼서요|jeoneun unjeonhaeya dwaeseoyo|Kailangan ko kasing magmaneho (kaya huwag na lang)}}\n<div class=\"tip\">Dati, bawal umuwi nang mas maaga sa boss mo. Ngayon, karaniwan na ang 먼저 퇴근하겠습니다 na sinasabi nang malinaw sa lahat, parang <i>Mauuna na po ako</i>. Sabihin, yumuko nang kaunti, at umalis.</div>\n"
   }
  ],
  "CHECKS": {
@@ -7359,13 +13125,13 @@ LANGAPP_PACKS.course['tl-ko'] = {
    },
    {
     "t": "order",
-    "p": "Taga-Amerika ako",
+    "p": "Taga-Mexico ako",
     "a": [
-     "미국에서",
+     "멕시코에서",
      "왔어요"
     ],
     "x": [
-     "미국"
+     "멕시코"
     ],
     "why": "Lugar + 에서 왔어요 = galing sa."
    },
@@ -9124,14 +14890,14 @@ LANGAPP_PACKS.course['tl-ko'] = {
    },
    {
     "t": "mc",
-    "q": "'Galing ako sa Amerika' =",
+    "q": "'Galing ako sa Hapon' =",
     "o": [
-     "미국에서 왔어요",
-     "미국에 왔어요",
-     "미국을 왔어요",
-     "미국이 왔어요"
+     "일본에서 왔어요",
+     "일본에 왔어요",
+     "일본을 왔어요",
+     "일본이 왔어요"
     ],
-    "why": "에서 = galing sa; ang 미국에 왔어요 = dumating sa Amerika."
+    "why": "에서 = galing sa; ang 일본에 왔어요 = dumating sa Hapon."
    },
    {
     "t": "mc",
@@ -12816,12 +18582,12 @@ LANGAPP_PACKS.course['tl-ko'] = {
    },
    {
     "t": "mc",
-    "q": "Pagpirma sa email bilang 키이:",
+    "q": "Pagpirma sa email bilang @@:",
     "o": [
-     "키이 드림",
-     "키이 씨",
-     "키이 님",
-     "키이야"
+     "@@ 드림",
+     "@@ 씨",
+     "@@ 님",
+     "@@ 선배"
     ],
     "why": "Sa likod ng sarili mong pangalan ang 드림; hindi kailanman 씨 o 님 para sa sarili mo."
    },
@@ -12852,14 +18618,14 @@ LANGAPP_PACKS.course['tl-ko'] = {
    },
    {
     "t": "order",
-    "p": "Magandang araw po, si Kii ito ng marketing team",
+    "p": "Magandang araw po, si @@ ito ng marketing team",
     "a": [
      "안녕하세요",
      "마케팅팀",
-     "키이입니다"
+     "@@입니다"
     ],
     "x": [
-     "키이님"
+     "@@님"
     ],
     "why": "Team, tapos ang pangalan mo + 입니다. Walang 님 para sa sarili."
    },
@@ -13093,7 +18859,20 @@ LANGAPP_PACKS.course['tl-ko'] = {
     "Mga linya sa K-drama",
     "K-pop at fan culture",
     "Social media at slang",
-    "Pamilya at mga tao"
+    "Pamilya at mga tao",
+    "Mga salita sa pagpapacute",
+    "Mga papuri",
+    "Karaniwang noun",
+    "Karaniwang verb",
+    "Karaniwang describing verb",
+    "Karaniwang adverb",
+    "Karaniwang pronoun",
+    "Dagdag na particle",
+    "Dagdag na connector",
+    "Mga bulalas",
+    "Mga kapaki-pakinabang na salita",
+    "Dagdag na counter",
+    "Mga bansa"
    ],
    "lessons": [
     "hangul",
@@ -13873,7 +19652,434 @@ LANGAPP_PACKS.course['tl-ko'] = {
    "Mga counter",
    "Mga numero",
    "Mga connector",
-   "Mga salitang naglalarawan"
+   "Mga salitang naglalarawan",
+   "Karaniwang noun",
+   "Karaniwang verb",
+   "Karaniwang describing verb",
+   "Karaniwang adverb",
+   "Karaniwang pronoun",
+   "Dagdag na particle",
+   "Dagdag na connector",
+   "Mga bulalas",
+   "Mga kapaki-pakinabang na salita",
+   "Dagdag na counter",
+   "Mga bansa"
   ]
+ },
+ "TRAINER": {
+  "hangul": {
+   "mean": {
+    "나무": "puno",
+    "바다": "dagat",
+    "가수": "mang-aawit",
+    "구두": "sapatos na pormal",
+    "고기": "karne",
+    "모자": "sumbrero",
+    "바지": "pantalon",
+    "지도": "mapa",
+    "하나": "isa",
+    "어머니": "ina",
+    "아버지": "ama",
+    "머리": "ulo / buhok",
+    "다리": "binti / tulay",
+    "소리": "tunog",
+    "노래": "kanta",
+    "피자": "pizza",
+    "커피": "kape",
+    "치마": "palda",
+    "토마토": "kamatis",
+    "포도": "ubas",
+    "기차": "tren",
+    "하루": "isang araw",
+    "이모": "tita (kapatid ni nanay)",
+    "누나": "ate (kung lalaki ka)",
+    "야구": "beysbol",
+    "여자": "babae",
+    "요리": "pagluluto",
+    "유리": "salamin (bubog)",
+    "우유": "gatas",
+    "아이": "bata",
+    "오이": "pipino",
+    "나비": "paru-paro",
+    "부자": "mayaman",
+    "주소": "tirahan (address)",
+    "비누": "sabon",
+    "가게": "tindahan",
+    "해": "araw / taon",
+    "배": "bangka / peras / tiyan",
+    "개": "aso",
+    "나라": "bansa",
+    "서울": "Seoul",
+    "한국": "Korea",
+    "사람": "tao",
+    "물": "tubig",
+    "밥": "kanin / pagkain",
+    "김치": "kimchi",
+    "집": "bahay",
+    "산": "bundok",
+    "강": "ilog",
+    "눈": "mata / niyebe",
+    "문": "pinto",
+    "손": "kamay",
+    "발": "paa",
+    "책": "libro",
+    "달": "buwan (sa langit / sa kalendaryo)",
+    "별": "bituin",
+    "밤": "gabi / kastanyas",
+    "공": "bola",
+    "방": "kuwarto",
+    "돈": "pera",
+    "술": "alak",
+    "말": "salita / kabayo",
+    "길": "daan",
+    "봄": "tagsibol",
+    "감": "kaki (prutas)",
+    "입": "bibig",
+    "친구": "kaibigan",
+    "선생님": "guro",
+    "학생": "estudyante",
+    "사랑": "pag-ibig",
+    "안녕": "hi / babay",
+    "감사": "pasasalamat",
+    "한글": "Hangul",
+    "시간": "oras / panahon",
+    "음악": "musika",
+    "영어": "Ingles",
+    "생일": "kaarawan",
+    "운동": "ehersisyo",
+    "이름": "pangalan",
+    "얼굴": "mukha",
+    "꽃": "bulaklak",
+    "딸": "anak na babae",
+    "빨리": "mabilis",
+    "쌀": "bigas",
+    "진짜": "totoo talaga",
+    "과일": "prutas",
+    "원": "won",
+    "회사": "kompanya",
+    "귀": "tainga",
+    "왜": "bakit",
+    "의사": "doktor",
+    "얘기": "kuwento / usapan",
+    "옷": "damit",
+    "부엌": "kusina",
+    "앞": "harap",
+    "닭": "manok",
+    "값": "presyo",
+    "뭐": "ano",
+    "외국": "ibang bansa",
+    "위": "itaas / sikmura",
+    "끝": "katapusan"
+   },
+   "alt": {
+    "V": {},
+    "L": {},
+    "T": {},
+    "sh": [
+     "sh"
+    ],
+    "input": {
+     "fold": true,
+     "map": [
+      [
+       "ñ",
+       "ny"
+      ]
+     ],
+     "rewrite": [
+      [
+       "ts",
+       "ch"
+      ],
+      [
+       "dy",
+       "j"
+      ]
+     ]
+    }
+   },
+   "ui": {
+    "placeholder": "i-type ang tunog, halimbawa ga",
+    "ariaLabel": "Romanization",
+    "levelSyllable": "syllable",
+    "levelWord": "salita",
+    "empty": "I-type ang tunog sa letrang Latin (halimbawa <b>ga</b>), o i-type mismo ang Hangul.",
+    "pickPrompt": "Alin ang narinig mo?"
+   }
+  },
+  "onboard": {
+   "title": "안녕하세요 👋 Dalawang mabilis na tanong",
+   "read": "Marunong ka na bang magbasa ng Hangul?",
+   "readNo": "Hindi pa",
+   "readSlow": "Dahan-dahan",
+   "readYes": "Oo, matatas na",
+   "goal": "Para saan mo kailangan ang Koreano?",
+   "time": "Gaano katagal bawat araw?",
+   "started": "Handa na. Magsimula sa %1."
+  },
+  "gloss": {
+   "PART": {
+    "에서": "sa (kung saan ginagawa) / mula sa",
+    "하고": "at / kasama",
+    "한테": "kay / sa (tao)",
+    "에게": "kay / sa (tao)",
+    "으로": "papunta sa / sa pamamagitan ng",
+    "까지": "hanggang",
+    "부터": "mula (oras)",
+    "보다": "kaysa",
+    "처럼": "gaya ng",
+    "은": "topic marker",
+    "는": "topic marker",
+    "이": "subject marker",
+    "가": "subject marker",
+    "을": "object marker",
+    "를": "object marker",
+    "에": "sa (pupuntahan / oras)",
+    "도": "rin / din",
+    "로": "papunta sa / sa pamamagitan ng",
+    "와": "at / kasama",
+    "과": "at / kasama",
+    "만": "lang",
+    "의": "possessive (ng)",
+    "랑": "kasama (casual)"
+   },
+   "ENDS": {
+    "주시겠어요": "puwede po ba ninyong…? (napakagalang na pakiusap)",
+    "셨어요": "honorific na past (-시-)",
+    "으세요": "honorific / magalang na pakiusap",
+    "주세요": "pakigawa (para sa akin)",
+    "드립니다": "formal, mapagpakumbaba (ibinibigay / ginagawa ko para sa iyo)",
+    "세요": "magalang na pakiusap / honorific",
+    "게요": "gagawin ko (pangako)",
+    "까요": "ano kaya kung…? (mungkahi)",
+    "래요": "gusto mo bang…?",
+    "겠습니다": "formal na future / balak",
+    "습니다": "formal",
+    "입니다": "formal na A = B",
+    "ㅂ니다": "formal",
+    "네요": "pagpansin (kaunting gulat)",
+    "예요": "A = B (pagkatapos ng vowel)",
+    "이에요": "A = B (pagkatapos ng consonant)",
+    "해요": "polite na present (하다)",
+    "어요": "polite na present",
+    "아요": "polite na present",
+    "자": "tara, -tayo (casual)",
+    "요": "polite na ending"
+   },
+   "QW": {
+    "뭐": "ano",
+    "뭐예요": "ano ito",
+    "어디": "saan",
+    "언제": "kailan",
+    "누구": "sino",
+    "왜": "bakit",
+    "어떻게": "paano",
+    "얼마": "magkano",
+    "몇": "ilan",
+    "어느": "alin"
+   },
+   "CONN": {
+    "그리고": "at (tapos)",
+    "그래서": "kaya",
+    "그런데": "pero / siyanga pala",
+    "근데": "pero (casual)",
+    "하지만": "pero / gayunman",
+    "먼저": "una",
+    "그다음에": "pagkatapos noon",
+    "마지막으로": "sa huli",
+    "아니면": "o",
+    "그럼": "kung ganoon",
+    "그러면": "kung ganoon",
+    "네": "oo",
+    "아니요": "hindi",
+    "저는": "ako naman (저 + 는)",
+    "저": "ako (mapagpakumbaba)",
+    "나": "ako (casual)",
+    "너": "ikaw (casual)",
+    "우리": "tayo / kami / atin",
+    "같이": "magkasama",
+    "너무": "sobra / masyado",
+    "진짜": "totoo talaga",
+    "정말": "talaga",
+    "조금": "kaunti",
+    "좀": "kaunti / paki-",
+    "지금": "ngayon",
+    "오늘": "ngayong araw",
+    "내일": "bukas",
+    "어제": "kahapon",
+    "안": "hindi",
+    "못": "hindi kaya",
+    "잘": "mabuti / magaling",
+    "또": "ulit",
+    "늦게": "nang huli",
+    "빨리": "mabilis",
+    "다": "lahat",
+    "많이": "marami",
+    "아직": "pa / hindi pa",
+    "이거": "ito",
+    "그거": "iyan",
+    "저거": "iyon (malayo)",
+    "여기": "dito",
+    "거기": "diyan",
+    "저기": "doon"
+   },
+   "COUNT": {
+    "개": "bagay",
+    "명": "tao",
+    "잔": "tasa",
+    "병": "bote",
+    "마리": "hayop",
+    "권": "libro",
+    "장": "pirasong papel",
+    "살": "taong gulang",
+    "시간": "oras (tagal)",
+    "번": "beses",
+    "분": "minuto / tao (magalang)",
+    "시": "alas- (oras)",
+    "원": "won"
+   },
+   "tpl": {
+    "question": "%1 (question word)",
+    "counter": "counter · %1",
+    "number": "numero %1",
+    "jiMa": "huwag (지 마)",
+    "adoDwaeyo": "puwede ba? (-아/어도 돼요)",
+    "myeonAnDwaeyo": "hindi puwede? (-(으)면 안 돼요)",
+    "doEvenIf": "verb + 도 (kahit na)",
+    "jiStem": "verb stem + 지",
+    "past": "verb · past (았/었어요)",
+    "particleYo": "%1 + %2 = %3 + 요",
+    "questionYo": "%1 + 요 (polite)",
+    "verb": "verb · %1",
+    "particle": "%1 + %2 = %3",
+    "digits": "numero",
+    "word": "noun / salita"
+   }
+  },
+  "build": {
+   "extra": {
+    "어제 친구를 만났어요": "Kahapon, nakipagkita ako sa isang kaibigan",
+    "먼저 카페에 갔어요": "Una, pumunta kami sa isang café",
+    "그리고 커피를 마셨어요": "At uminom kami ng kape",
+    "그다음에 영화를 봤어요": "Pagkatapos, nanood kami ng sine",
+    "그래서 집에 늦게 왔어요": "Kaya gabi na ako nakauwi",
+    "지난 주말에 뭐 했어요": "Ano ang ginawa mo noong nakaraang weekend?",
+    "아까 점심 먹었어요": "Nananghalian ako kanina",
+    "그런데 영화가 너무 길었어요": "Pero sobrang haba ng sine",
+    "매운 거 안 먹어요": "Hindi ako kumakain ng maanghang",
+    "매운 거 못 먹어요": "Hindi ako makakain ng maanghang",
+    "한국어 할 수 있어요": "Kaya mo bang magsalita ng Koreano?",
+    "조금 할 수 있어요": "Kaya ko, kaunti lang",
+    "오늘은 못 가요": "Hindi ako makakapunta ngayong araw",
+    "오늘 운동 안 해요": "Hindi ako nag-eehersisyo ngayong araw",
+    "잘 모르겠어요": "Hindi ako sigurado",
+    "길을 몰라요": "Hindi ko alam ang daan",
+    "지금 갈 수 없어요": "Hindi ako puwedeng pumunta ngayon",
+    "커피 안 마셔요": "Hindi ako umiinom ng kape"
+   },
+   "ui": {
+    "prompt": "i-tap ang mga salita nang sunod-sunod",
+    "answer": "Sagot",
+    "notQuite": "Hindi pa tama"
+   }
+  },
+  "numbers": {
+   "hint": {
+    "price": "presyo sa won (Sino-Korean)",
+    "time": "oras (native ang oras, Sino-Korean ang minuto): i-type gaya ng 3:30",
+    "phone": "numero ng telepono (isa-isang numero, 0 = 공)",
+    "floor": "palapag (Sino-Korean): B para sa basement",
+    "count": "bilang (native + %1 %2)",
+    "age": "edad (native + 살)",
+    "minutes": "minuto (Sino-Korean + 분)"
+   },
+   "counter": {
+    "개": "bagay",
+    "명": "tao",
+    "잔": "tasa",
+    "병": "bote",
+    "마리": "hayop",
+    "장": "pirasong papel"
+   },
+   "ui": {
+    "prompt": "🔢 Makinig at i-type ang numero · %1",
+    "placeholder": "numero"
+   }
+  },
+  "sound": {
+   "rules": {
+    "받침 → %1": "binibigkas na %1 ang final consonant (7 final lang ang natitira)",
+    "ㄴ 첨가 → ㄹㄹ": "nadaragdagan ng ㄴ, saka nagiging ㄹ katabi ng ㄹ",
+    "ㅎ 탈락": "nawawala ang tunog ng ㅎ sa pagitan ng dalawang vowel",
+    "연음": "linking: lumilipat ang final consonant sa susunod na syllable",
+    "구개음화": "binibigkas na ㅈ / ㅊ ang ㄷ / ㅌ bago ang 이",
+    "격음화": "nagiging ㅋ ㅌ ㅍ ㅊ ang ㄱ ㄷ ㅂ ㅈ na katabi ng ㅎ, may buga ng hangin",
+    "경음화": "nagiging tense consonant ang susunod na consonant",
+    "비음화": "nasal sound change: nagiging ㅁ ㄴ ㅇ ang ㅂ ㄷ ㄱ bago ang ㄴ / ㅁ",
+    "유음화": "nagkita ang ㄴ at ㄹ: binibigkas na ㄹ ang dalawa",
+    "받침 중화": "bumabalik sa pangunahing tunog nito ang final consonant",
+    "ㅢ → 이": "binibigkas na 이 ang ㅢ na wala sa simula ng salita"
+   },
+   "showGloss": true,
+   "ui": {
+    "prompt": "Paano ba talaga ito binibigkas?"
+   }
+  },
+  "register": {
+   "toPolite": "Gawing polite (요-form)",
+   "toCasual": "Gawing casual (반말)",
+   "whyPolite": "casual → polite: idagdag ang 요 (o ang honorific na verb)",
+   "whyCasual": "polite → casual: alisin ang 요"
+  },
+  "conj": {
+   "labels": {
+    "polite": "polite na present",
+    "past": "polite na past",
+    "future": "future",
+    "casual": "casual",
+    "formal": "formal",
+    "kkayo": "ano kaya kung…?",
+    "want": "gusto (+ verb)",
+    "dontDo": "huwag (pakiusap)",
+    "neg": "negative"
+   },
+   "irregular": {
+    "ㄷ→ㄹ": "ㄷ→ㄹ",
+    "ㅂ→우": "ㅂ→우",
+    "ㅡ drop": "nawawala ang ㅡ",
+    "르": "르"
+   },
+   "ui": {
+    "empty": "Maglagay ng dictionary form na nagtatapos sa 다.",
+    "irregular": "irregular: %1",
+    "title": "Conjugator ng verb",
+    "placeholder": "dictionary form, halimbawa 먹다",
+    "button": "I-conjugate",
+    "tryLine": "Subukan ang 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다"
+   }
+  },
+  "quiz": {
+   "why": "Bakit: %1",
+   "rule": "Ang tuntunin ↗"
+  },
+  "koui": {
+   "수고했어요": "good job",
+   "다음에 봐요": "kita tayo sa susunod",
+   "잘했어요": "magaling",
+   "대박": "grabe",
+   "좋아요": "ayos",
+   "다시 해 봐요": "subukan ulit",
+   "맞아요": "tama",
+   "완벽해요": "perpekto",
+   "다 했어요": "tapos lahat",
+   "목표 달성": "naabot ang layunin",
+   "레벨 업": "tumaas ang level",
+   "내 표현": "mga phrase ko",
+   "모두 열렸어요": "bukas na lahat",
+   "한글": "ang alpabeto ng Koreano"
+  },
+  "strokes": {
+   "replay": "↻ pagkakasunod ng guhit"
+  }
  }
 };

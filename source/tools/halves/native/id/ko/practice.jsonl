@@ -1,0 +1,462 @@
+{"id":"hangul.01","q":"Huruf mana yang berbunyi \"a\", seperti a pada \"apa\"?","why":"ㅏ: garis tegak, coretan ke kanan."}
+{"id":"hangul.02","q":"Huruf mana yang tidak berbunyi di awal blok?","why":"ㅇ di awal hanya menjaga tempat vokal; di akhir dibaca ng."}
+{"id":"hangul.03","q":"Blok mana yang dibaca 'no'?","why":"ㄴ + ㅗ, vokal mendatar ditumpuk di bawah."}
+{"id":"hangul.04","q":"Blok mana yang dibaca 'gang'?","why":"ㄱ + ㅏ + ㅇ akhir (ng)."}
+{"id":"hangul.05","q":"Kata mana yang dibaca 'seoul'?","why":"ㅅ+ㅓ = seo (satu vokal), ㅇ tidak berbunyi+ㅜ+ㄹ = ul."}
+{"id":"hangul.06","p":"Seoul (seo-ul)","why":"seo = ㅅ+ㅓ, ul = ㅇ+ㅜ+ㄹ."}
+{"id":"hangul.07","p":"bahasa Korea (han-gu-geo)","why":"han + guk + eo; saat diucapkan, ㄱ dari 국 pindah ke 어, tanpa hentian."}
+{"id":"hangul.08","p":"teman (chin-gu)","why":"ㅊ = ch, dengan embusan napas; ㅈ = j."}
+{"id":"hangul.09","p":"Seoul (seoul)","why":"ㅜ (u) ada di bawah ㅇ: 울."}
+{"id":"hangul.10","p":"bahasa Korea (hangugeo)","why":"h = ㅎ, a = ㅏ, n akhir = ㄴ: 한."}
+{"id":"hangul.11","p":"pisang (banana)","why":"na = ㄴ + ㅏ, berdampingan."}
+{"id":"hangul.12","p":"Ketik 'gang' — sungai","why":"ㅇ di akhir dibaca ng, seperti ng pada \"datang\"."}
+{"id":"hangul.13","p":"Ketik 'seoul' — Seoul","why":"Dua blok: 서 + 울."}
+{"id":"hangul.14","p":"Ketik 'hangugeo' — bahasa Korea","why":"Tiga blok: 한 + 국 + 어."}
+{"id":"polite.01","q":"'Makasih' kepada teman dekat (santai):","why":"Bahasa santai menghilangkan 요."}
+{"id":"polite.02","q":"'Terima kasih' kepada pegawai toko yang belum pernah kamu temui:","why":"Dengan orang yang belum dikenal, pakai bentuk sopan atau formal."}
+{"id":"polite.03","q":"Mana yang bentuk formal?","why":"-습니다 / -ㅂ니다 adalah bentuk formal."}
+{"id":"polite.04","q":"'Maaf, ya' kepada teman dekat (santai):","why":"미안해 adalah bentuk santai; 미안해요 bentuk sopan."}
+{"id":"polite.05","q":"'Kamu imut' (sopan):","why":"귀여워 + 요 = sopan."}
+{"id":"polite.06","p":"Minta yang ini (sopan)","why":"주세요 adalah 'minta' yang sopan."}
+{"id":"polite.07","p":"Ya, terima kasih (sopan)","why":"Tetap pakai 요 dengan orang yang belum kamu kenal baik, walaupun seumur."}
+{"id":"polite.08","p":"Tidak, tidak apa-apa (sopan)","why":"괜찮아 tanpa 요 adalah bentuk santai."}
+{"id":"polite.09","p":"Terima kasih (sopan)","why":"Tambahkan 요 supaya sopan."}
+{"id":"polite.10","p":"Maaf, ya (santai)","why":"Santai = bentuk 요 tanpa 요: 미안해."}
+{"id":"polite.11","p":"Mohon maaf (formal)","why":"Bentuk formal berakhir dengan -ㅂ니다."}
+{"id":"polite.12","p":"Ya, terima kasih (sopan, bentuk 요)","why":"Sopan = bentuk santai + 요."}
+{"id":"polite.13","p":"Ya, mohon maaf (formal)","why":"죄송합니다 adalah permintaan maaf yang aman kepada orang yang belum dikenal."}
+{"id":"polite.14","p":"Nggak, nggak apa-apa (santai)","hint":"hilangkan 요","why":"Bahasa santai menghilangkan 요."}
+{"id":"meet.01","q":"'Saya Minsu': 민수 berakhir dengan vokal, jadi:","why":"예요 setelah vokal, 이에요 setelah konsonan."}
+{"id":"meet.02","q":"'Senang bertemu' =","why":"만나서 반가워요 = senang karena kita bertemu."}
+{"id":"meet.03","q":"Kamu keluar dari toko; pemiliknya tetap di sana. Kamu bilang:","why":"계세요 = 'tinggallah dengan tenang', diucapkan oleh orang yang pergi."}
+{"id":"meet.04","q":"'Dari mana?' =","why":"에서 왔어요 = datang dari."}
+{"id":"meet.05","q":"'Saya mahasiswa' =","why":"학생 berakhir dengan konsonan → 이에요."}
+{"id":"meet.06","p":"Saya dari Meksiko","why":"Tempat + 에서 왔어요 = datang dari."}
+{"id":"meet.07","p":"Saya belajar bahasa Korea","why":"한국어 = bahasa Korea; 한국 = Korea."}
+{"id":"meet.08","p":"Halo, saya Minsu","why":"민수 berakhir dengan vokal → 예요."}
+{"id":"meet.09","p":"Saya mahasiswa","why":"Berakhir dengan konsonan → 이에요."}
+{"id":"meet.10","p":"Saya Minsu","why":"Berakhir dengan vokal → 예요."}
+{"id":"meet.11","p":"Selamat tinggal (kamu yang pergi, mereka tetap tinggal)","why":"Orang yang pergi mengucapkan 계세요 ('tinggallah dengan tenang')."}
+{"id":"meet.12","p":"Senang bertemu","why":"Kalimat standar saat pertama kali bertemu."}
+{"id":"meet.13","p":"Dari mana?","why":"Harfiah: 'datang dari mana?'"}
+{"id":"meet.14","p":"Umurmu berapa?","why":"몇 = berapa, 살 = tahun (umur)."}
+{"id":"sound-changes.01","q":"감사합니다 terdengar seperti:","why":"ㅂ sebelum ㄴ melunak menjadi ㅁ."}
+{"id":"sound-changes.02","q":"한국어 terdengar seperti:","why":"ㄱ akhir pindah ke blok berikutnya."}
+{"id":"sound-changes.03","q":"좋아요 terdengar seperti:","why":"ㅎ di antara vokal tidak berbunyi."}
+{"id":"sound-changes.04","q":"연락 (kontak) terdengar seperti:","why":"ㄴ + ㄹ → ㄹㄹ."}
+{"id":"sound-changes.05","q":"축하 (ucapan selamat) terdengar seperti:","why":"ㄱ + ㅎ → ㅋ."}
+{"id":"sound-changes.06","p":"Susun 한국어 sesuai BUNYINYA","why":"ㄱ pindah ke blok berikutnya."}
+{"id":"sound-changes.07","p":"Susun 음악 sesuai BUNYINYA","why":"ㅁ pindah ke blok berikutnya."}
+{"id":"sound-changes.08","p":"Susun 한국말 sesuai BUNYINYA","why":"ㄱ sebelum ㅁ → ㅇ."}
+{"id":"sound-changes.09","p":"Terima kasih — tulis bloknya sesuai BUNYINYA","why":"ㅂ + ㄴ → ㅁ + ㄴ."}
+{"id":"sound-changes.10","p":"Bagus — BUNYI 좋아요","why":"ㅎ tidak berbunyi di antara vokal."}
+{"id":"sound-changes.11","p":"Kontak — BUNYI 연락","why":"ㄴ + ㄹ → ㄹㄹ."}
+{"id":"sound-changes.12","p":"Ketik EJAAN asli kata yang terdengar seperti 한구거 (bahasa Korea)","why":"Ejaannya tetap menyimpan ㄱ di bawah 국."}
+{"id":"sound-changes.13","p":"Ketik EJAAN asli kata yang terdengar seperti 조아요 (bagus)","why":"ㅎ yang tidak berbunyi tetap ditulis."}
+{"id":"sound-changes.14","p":"Ketik EJAAN asli kata yang terdengar seperti 이써요 (ada)","why":"ㅆ ditulis di bawah 있."}
+{"id":"nouns.01","q":"'Buku ini' =","why":"이 = ini, tetapi letaknya di depan kata benda."}
+{"id":"nouns.02","q":"'Saya dokter' =","why":"저 + 는 (vokal); 의사 + 예요 (vokal)."}
+{"id":"nouns.03","q":"'Rumah teman saya' =","why":"Pemiliknya dulu, baru bendanya: kebalikan dari bahasa Indonesia."}
+{"id":"nouns.04","q":"Mana yang benar?","why":"선생님 berakhir dengan konsonan → 이에요."}
+{"id":"nouns.05","q":"'Buku ini buku saya' =","why":"책 berakhir dengan konsonan → 은 dan 이에요."}
+{"id":"nouns.06","p":"Saya mahasiswa","why":"저 berakhir dengan vokal → 는."}
+{"id":"nouns.07","p":"Nama saya Minsu","why":"이름 berakhir dengan konsonan → 은."}
+{"id":"nouns.08","p":"Orang itu (dekat lawan bicara) dokter","why":"그 = itu, dekat lawan bicara; 사람 + 은."}
+{"id":"nouns.09","p":"Saya mahasiswa","why":"Penanda topik 는 setelah vokal."}
+{"id":"nouns.10","p":"Nama saya Minsu","why":"이름 berakhir dengan konsonan → 은."}
+{"id":"nouns.11","p":"(Dia) dokter","why":"의사 berakhir dengan vokal → 예요."}
+{"id":"nouns.12","p":"Saya mahasiswa","why":"Penanda topik 는, lalu kata benda + 이에요."}
+{"id":"nouns.13","p":"Ini apa?","why":"뭐 berakhir dengan vokal → 예요."}
+{"id":"nouns.14","p":"Saya bukan mahasiswa","why":"\"Bukan\" = 이/가 아니에요."}
+{"id":"isseoyo.01","q":"'Saya ada di sekolah' =","why":"Berada di suatu tempat → tempat + 에 + 있어요."}
+{"id":"isseoyo.02","q":"'Ada toilet?' =","why":"있어요? = ada?"}
+{"id":"isseoyo.03","q":"Penanda subjek setelah 고양이:","why":"고양이 berakhir dengan vokal → 가."}
+{"id":"isseoyo.04","q":"'Saya tidak punya uang' =","why":"없어요 = tidak punya; 돈 berakhir dengan konsonan → 이."}
+{"id":"isseoyo.05","q":"'Ini sekolah' (di sini = sekolah) =","why":"A = B → 이에요/예요. 학교가 있어요 = ada sekolah."}
+{"id":"isseoyo.06","p":"(Saya) ada di rumah","why":"Tempat + 에 + 있어요."}
+{"id":"isseoyo.07","p":"Saya punya adik","why":"Punya = pemilik 은/는, bendanya 이/가 + 있어요."}
+{"id":"isseoyo.08","p":"Ada toilet?","why":"Keberadaan → 있어요, bukan 이에요."}
+{"id":"isseoyo.09","p":"Saya punya waktu","why":"시간 berakhir dengan konsonan → 이."}
+{"id":"isseoyo.10","p":"Kucingnya ada di rumah","why":"Letak dengan 있어요 → 에."}
+{"id":"isseoyo.11","p":"Saya mahasiswa","why":"A = B → 이에요, bukan 있어요."}
+{"id":"isseoyo.12","p":"Saya punya kucing","why":"Harfiahnya \"ada kucing (pada saya)\", mirip bahasa lisan \"Saya ada kucing\"."}
+{"id":"isseoyo.13","p":"Teman saya ada di sekolah","why":"Letak → 에 + 있어요, bukan 이에요."}
+{"id":"isseoyo.14","p":"Saya tidak punya waktu","why":"없어요 adalah lawan dari 있어요."}
+{"id":"pronouns-questions.01","q":"Kata mana yang berarti \"siapa\"?","why":"누구 = siapa."}
+{"id":"pronouns-questions.02","q":"'Ini berapa (harganya)?' =","why":"얼마 = berapa (harga)."}
+{"id":"pronouns-questions.03","q":"'Di sana' (jauh dari kita berdua) =","why":"저 = jauh; 저기 = tempat di sana."}
+{"id":"pronouns-questions.04","q":"Kata untuk \"saya\" yang sopan =","why":"저 itu sopan, seperti \"saya\"; 나 untuk teman akrab, seperti \"aku\"."}
+{"id":"pronouns-questions.05","q":"'Rumah saya', dengan cara yang wajar =","why":"Untuk rumah dan keluarga dipakai 우리, seperti \"rumah kami\"."}
+{"id":"pronouns-questions.06","p":"Toiletnya di mana?","why":"어디에 있어요 = ada di mana."}
+{"id":"pronouns-questions.07","p":"Orang itu (di sana) siapa?","why":"누구 = siapa."}
+{"id":"pronouns-questions.08","p":"Ulang tahunnya kapan?","why":"언제 = kapan."}
+{"id":"pronouns-questions.09","p":"Ini apa?","why":"뭐 = apa."}
+{"id":"pronouns-questions.10","p":"Ada siapa?","why":"누구 + 가 → 누가."}
+{"id":"pronouns-questions.11","p":"Toiletnya di mana?","why":"어디 = (di) mana."}
+{"id":"pronouns-questions.12","p":"Ini apa?","why":"Kata tanya ada di tempat jawabannya, sama seperti dalam bahasa Indonesia."}
+{"id":"pronouns-questions.13","p":"Ada di mana?","why":"어디에 있어요."}
+{"id":"pronouns-questions.14","p":"Orang itu siapa?","why":"누구예요 = (itu) siapa."}
+{"id":"verbbasics.01","q":"Kata dasar 가다 =","why":"Buang 다, dan yang tersisa adalah kata dasarnya."}
+{"id":"verbbasics.02","q":"'Tasnya besar' =","why":"커요 sudah berarti \"besar\"."}
+{"id":"verbbasics.03","q":"Bentuk sopan 하다 =","why":"하다 istimewa: 해요."}
+{"id":"verbbasics.04","q":"'Saya berolahraga' =","why":"Kata benda + 하다 menjadi kata kerja: 운동해요, mirip \"olahraga\" → \"berolahraga\"."}
+{"id":"verbbasics.05","q":"'Cuacanya bagus' =","why":"Kata sifat tidak perlu kata \"adalah\" yang terpisah."}
+{"id":"verbbasics.06","p":"Cuacanya bagus","why":"좋다요 tidak ada; bentuk sopannya 좋아요."}
+{"id":"verbbasics.07","p":"Saya punya waktu","why":"있어요 = punya."}
+{"id":"verbbasics.08","p":"Tasnya besar","why":"커요 = besar."}
+{"id":"verbbasics.09","p":"(Saya) makan","why":"Yang diucapkan 먹어요; 먹다 untuk kamus."}
+{"id":"verbbasics.10","p":"(Saya) belajar","why":"공부 + 하다 → 공부해요."}
+{"id":"verbbasics.11","p":"Saya tidak punya uang","why":"돈 berakhir dengan konsonan → 이."}
+{"id":"verbbasics.12","p":"(Saya) pulang ke rumah","why":"Ucapkan bentuk 요, bukan bentuk kamus."}
+{"id":"verbbasics.13","p":"(Saya) belajar bahasa Korea","why":"Kata benda + 해요."}
+{"id":"verbbasics.14","p":"Cuacanya bagus","why":"좋아요 sudah berarti \"bagus\"."}
+{"id":"verbs.01","q":"보다 dalam bentuk sekarang yang sopan =","why":"Kata dasar ㅗ + 아요; 보 + 아 melebur menjadi 봐."}
+{"id":"verbs.02","q":"마시다 dalam bentuk sekarang yang sopan =","why":"Kata dasar ㅣ + 어요; 시 + 어 melebur menjadi 셔."}
+{"id":"verbs.03","q":"먹다 dalam bentuk sekarang yang sopan =","why":"Kata dasar ㅓ → 어요."}
+{"id":"verbs.04","q":"공부하다 dalam bentuk sekarang yang sopan =","why":"Kata kerja 하다 → 해요."}
+{"id":"verbs.05","q":"'(Saya) tidak pergi' =","why":"안 diletakkan tepat sebelum kata kerja, seperti \"tidak\"."}
+{"id":"verbs.06","p":"Teman saya datang","why":"오 + 아요 melebur menjadi 와요."}
+{"id":"verbs.07","p":"Saya pergi ke sekolah","why":"Ucapkan bentuk 요, bukan bentuk kamus."}
+{"id":"verbs.08","p":"Sekarang (kamu) sedang apa?","why":"하다 → 해요."}
+{"id":"verbs.09","p":"(Saya) makan","why":"Kata dasar ㅓ → 어요."}
+{"id":"verbs.10","p":"(Saya) cinta (kamu)","why":"Kata kerja 하다 → 해요."}
+{"id":"verbs.11","p":"(Saya) tidak pergi","why":"안 diletakkan tepat sebelum kata kerja, seperti \"tidak\"."}
+{"id":"verbs.12","p":"(Saya) pulang ke rumah","why":"가 + 아요 → 가요."}
+{"id":"verbs.13","p":"Teman saya makan","why":"먹 + 어요."}
+{"id":"verbs.14","p":"(Saya) tidak pulang ke rumah","why":"안 ada tepat sebelum kata kerja."}
+{"id":"past.01","q":"먹다 dalam bentuk lampau =","why":"먹어요 → 먹었어요."}
+{"id":"past.02","q":"오다 dalam bentuk lampau =","why":"와요 → 왔어요."}
+{"id":"past.03","q":"하다 dalam bentuk lampau =","why":"해요 → 했어요."}
+{"id":"past.04","q":"'(Itu) bagus (lampau)' =","why":"좋아요 → 좋았어요."}
+{"id":"past.05","q":"'(Saya) tidak pergi (lampau)' =","why":"안 sebelum kata kerja; 갔어요 adalah bentuk lampau."}
+{"id":"past.06","p":"Kemarin teman saya datang","why":"Kata waktu biasanya di depan; kata kerja lampau selalu di akhir."}
+{"id":"past.07","p":"Kemarin (saya) ada di rumah","why":"있어요 → 있었어요."}
+{"id":"past.08","p":"Apa yang sudah kamu lakukan?","why":"해요 → 했어요."}
+{"id":"past.09","p":"(Saya) sudah makan","why":"먹어요 → 먹었어요."}
+{"id":"past.10","p":"(Saya) sudah belajar","why":"해요 → 했어요."}
+{"id":"past.11","p":"(Dia) dokter (lampau)","why":"Berakhir dengan vokal → 였어요."}
+{"id":"past.12","p":"(Saya) sudah pulang ke rumah","hint":"lampau","why":"가요 → 갔어요."}
+{"id":"past.13","p":"Saya mahasiswa (lampau)","why":"이에요 → 이었어요."}
+{"id":"past.14","p":"(Saya) tidak makan kemarin","why":"안 + kata kerja lampau."}
+{"id":"future.01","q":"가다 dalam bentuk masa depan =","why":"Kata dasar berakhiran vokal + ㄹ 거예요."}
+{"id":"future.02","q":"먹다 dalam bentuk masa depan =","why":"Kata dasar berakhiran konsonan + 을 거예요."}
+{"id":"future.03","q":"하다 dalam bentuk masa depan =","why":"하 + ㄹ → 할 거예요."}
+{"id":"future.04","q":"Kata mana yang berarti \"besok\"?","why":"내일 = besok; 어제 = kemarin."}
+{"id":"future.05","q":"'(Saya) tidak akan pergi' =","why":"안 di depan kata kerja."}
+{"id":"future.06","p":"Besok saya akan pergi ke sekolah","why":"Waktu biasanya di depan; 갈 거예요 = akan pergi."}
+{"id":"future.07","p":"Apa yang akan kamu lakukan pada akhir pekan?","why":"할 거예요 = akan melakukan."}
+{"id":"future.08","p":"(Saya) akan ada di rumah","why":"있 + 을 거예요."}
+{"id":"future.09","p":"(Saya) akan pergi","why":"Kata dasar + ㄹ + 거예요."}
+{"id":"future.10","p":"(Saya) akan makan","why":"Kata dasar berakhiran konsonan → 을 거예요."}
+{"id":"future.11","p":"Besok teman saya akan datang","why":"오 + ㄹ → 올 거예요."}
+{"id":"future.12","p":"Besok (saya) akan pergi","why":"가 + ㄹ 거예요."}
+{"id":"future.13","p":"Teman saya akan makan","why":"먹 + 을 거예요."}
+{"id":"future.14","p":"(Saya) tidak akan pergi","why":"안 + 갈 거예요."}
+{"id":"sov.01","q":"'Saya makan nasi' =","why":"Objek + 을, kata kerja di akhir."}
+{"id":"sov.02","q":"Penanda objek setelah 커피:","why":"커피 berakhir dengan vokal → 를."}
+{"id":"sov.03","q":"Penanda objek setelah 책:","why":"책 berakhir dengan konsonan → 을."}
+{"id":"sov.04","q":"'Cuacanya bagus' =","why":"Kata sifat memakai 이/가, bukan 을/를."}
+{"id":"sov.05","q":"'Mau ke mana?' =","why":"어디 = (ke) mana; letaknya di tempat jawabannya nanti."}
+{"id":"sov.06","p":"Saya minum kopi","why":"Objek + 를, kata kerja di akhir."}
+{"id":"sov.07","p":"(Saya) belajar bahasa Korea","why":"한국어 adalah objeknya → 를."}
+{"id":"sov.08","p":"Teman saya sedang membaca buku","why":"Subjek, objek, kata kerja."}
+{"id":"sov.09","p":"(Saya) makan nasi","why":"밥 berakhir dengan konsonan → 을."}
+{"id":"sov.10","p":"(Saya) minum kopi","why":"커피 berakhir dengan vokal → 를."}
+{"id":"sov.11","p":"Tasnya besar","why":"Kata sifat → 이/가; 가방 berakhir dengan konsonan → 이."}
+{"id":"sov.12","p":"Saya makan nasi","why":"Objek + 을, kata kerja di akhir."}
+{"id":"sov.13","p":"Saya belajar bahasa Korea","why":"Objek + 를, kata kerja di akhir."}
+{"id":"sov.14","p":"(Kamu) makan apa?","why":"Kata tanya di tempat jawabannya, nada naik."}
+{"id":"particles.01","q":"'Saya pergi ke sekolah' =","why":"Tujuan dengan 가요 → 에."}
+{"id":"particles.02","q":"'Saya beristirahat di rumah' =","why":"Tempat kegiatan → 에서."}
+{"id":"particles.03","q":"'Saya dari Jepang' =","why":"에서 = dari; 일본에 왔어요 = datang ke Jepang."}
+{"id":"particles.04","q":"'Pada akhir pekan' =","why":"Kata waktu memakai 에."}
+{"id":"particles.05","q":"Menjawab 누가 왔어요? (Siapa yang datang?): 'Teman saya yang datang' =","why":"Jawaban untuk \"siapa?\" adalah info baru → 이/가."}
+{"id":"particles.06","p":"Saya belajar di kafe","why":"Tempat kegiatan → 에서."}
+{"id":"particles.07","p":"(Saya) pulang ke rumah","why":"Tujuan → 에."}
+{"id":"particles.08","p":"(Saya) minum kopi pada pagi hari","why":"Waktu → 에; kata waktu biasanya di depan."}
+{"id":"particles.09","p":"(Saya) belajar di kafe","why":"Tempat kegiatan → 에서."}
+{"id":"particles.10","p":"(Saya) pergi ke sekolah","why":"Tujuan → 에."}
+{"id":"particles.11","p":"Kucingnya ada di rumah","why":"있어요 memakai 에, bukan 에서."}
+{"id":"particles.12","p":"Saya beristirahat di rumah","why":"Beristirahat itu kegiatan → 에서."}
+{"id":"particles.13","p":"Saya pergi ke sekolah pada akhir pekan","why":"Waktu + 에, tujuan + 에."}
+{"id":"particles.14","p":"Saya belajar bahasa Korea di sekolah","why":"Tempat kegiatan + 에서, objek + 를."}
+{"id":"negation.01","q":"'(Saya) tidak minum kopi' =","why":"안 tepat sebelum kata kerja."}
+{"id":"negation.02","q":"'(Saya) tidak berolahraga' =","why":"Pada kata benda + 하다, 안 masuk sebelum 해요."}
+{"id":"negation.03","q":"'(Dia) bukan dokter' =","why":"Kata benda memakai 이/가 아니에요."}
+{"id":"negation.04","q":"'Saya tidak punya uang' =","why":"Lawan 있어요 adalah 없어요."}
+{"id":"negation.05","q":"Artinya sama dengan 안 가요:","why":"Kata dasar + 지 않아요 = 안 + kata kerja."}
+{"id":"negation.06","p":"(Saya) tidak belajar","why":"Kata benda + 안 + 해요."}
+{"id":"negation.07","p":"(Saya) tidak minum kopi","why":"Objek, 안, kata kerja."}
+{"id":"negation.08","p":"Saya bukan mahasiswa","why":"Kata benda: 이/가 아니에요."}
+{"id":"negation.09","p":"(Saya) tidak minum kopi","why":"안 langsung sebelum kata kerja."}
+{"id":"negation.10","p":"(Saya) tidak makan","why":"Kata dasar + 지 않아요."}
+{"id":"negation.11","p":"Saya tidak punya waktu","why":"Jangan 안 있어요; pakai 없어요."}
+{"id":"negation.12","p":"(Saya) tidak pergi","why":"안 + kata kerja."}
+{"id":"negation.13","p":"(Saya) tidak belajar","why":"안 diletakkan di antara 공부 dan 해요."}
+{"id":"negation.14","p":"Saya bukan dokter","why":"Kata benda: 이/가 아니에요."}
+{"id":"do-man.01","q":"'Saya juga' =","why":"도 menggantikan 은/는 — tidak pernah menumpuk."}
+{"id":"do-man.02","q":"'(Saya) hanya minum kopi' =","why":"만 = hanya / saja; ia menggantikan 을/를."}
+{"id":"do-man.03","q":"'(Saya) juga punya kucing' =","why":"도 menggantikan 이/가."}
+{"id":"do-man.04","q":"'Di rumah juga ada' =","why":"에 tetap; 도 menyusul di belakangnya. 집도 있어요 = saya juga punya rumah."}
+{"id":"do-man.05","q":"'(Saya) hanya berolahraga pada akhir pekan' =","why":"에 + 만, dengan urutan itu."}
+{"id":"do-man.06","p":"Minta air saja","why":"만 = hanya / saja."}
+{"id":"do-man.07","p":"Teman saya juga sudah datang","why":"도 menggantikan 가."}
+{"id":"do-man.08","p":"(Saya) belajar di sekolah juga","why":"에서 tetap; 도 menyusul di belakangnya."}
+{"id":"do-man.09","p":"Saya juga mahasiswa","why":"\"Juga\" → 도, menggantikan 는."}
+{"id":"do-man.10","p":"(Saya) hanya minum kopi","why":"\"Hanya\" → 만, menggantikan 를."}
+{"id":"do-man.11","p":"Di rumah juga ada","why":"에 + 도 = di rumah juga."}
+{"id":"do-man.12","p":"Saya juga mahasiswa","why":"저는 → 저도."}
+{"id":"do-man.13","p":"Minta ini saja","why":"만 menggantikan 을/를."}
+{"id":"do-man.14","p":"Saya juga tidak pergi","why":"도 + kalimat negatif = \"juga tidak\"."}
+{"id":"sentences.01","q":"'Kopinya enak' =","why":"Kata sifat memakai 이/가."}
+{"id":"sentences.02","q":"'(Saya) minum kopi di kafe' =","why":"Tempat kegiatan → 에서; objek → 를; kata kerja di akhir."}
+{"id":"sentences.03","q":"Mana yang mengikuti urutan biasa (siapa · kapan · di mana · apa · kata kerja)?","why":"Semuanya bertumpuk di depan kata kerja."}
+{"id":"sentences.04","q":"'(Saya) membeli kopi' =","why":"Yang dibeli adalah kopi → 를."}
+{"id":"sentences.05","q":"'Minum kopi?' (lisan) =","why":"Kata-katanya sama, nadanya naik."}
+{"id":"sentences.06","p":"(Saya) minum air","why":"Objek + 을, kata kerja di akhir."}
+{"id":"sentences.07","p":"(Saya) membeli kopi","why":"Yang dibeli adalah kopi → 를."}
+{"id":"sentences.08","p":"Hari ini (saya) minum kopi bersama teman","why":"Biasanya kapan · dengan siapa · apa · kata kerja; kata kerja selalu di akhir."}
+{"id":"sentences.09","p":"Kopinya enak","why":"Kata sifat → 이/가; 커피 berakhir dengan vokal → 가."}
+{"id":"sentences.10","p":"(Saya) pergi ke kafe","why":"Tujuan → 에."}
+{"id":"sentences.11","p":"(Saya) belajar di kafe bersama teman","why":"하고 = dengan / dan."}
+{"id":"sentences.12","p":"(Saya) minum kopi di kafe","why":"Tempat kegiatan + 에서, objek + 를, kata kerja di akhir."}
+{"id":"sentences.13","p":"Kopinya enak","why":"Kata sifat memakai 이/가."}
+{"id":"sentences.14","p":"(Saya) tidak minum kopi","why":"안 tepat sebelum kata kerja."}
+{"id":"want-like.01","q":"'(Saya) ingin pergi' =","why":"Kata dasar + 고 싶어요."}
+{"id":"want-like.02","q":"'(Saya) suka kopi' =","why":"좋아해요 memakai 을/를."}
+{"id":"want-like.03","q":"'Mau makan apa?' =","why":"먹 + 고 싶어요."}
+{"id":"want-like.04","q":"'(Saya) tidak ingin pergi' =","why":"안 di depan kata kerja."}
+{"id":"want-like.05","q":"'Saya rindu kamu' =","why":"Harfiahnya \"saya ingin melihat (kamu)\"."}
+{"id":"want-like.06","p":"(Saya) ingin minum kopi","why":"마시 + 고 싶어요."}
+{"id":"want-like.07","p":"(Saya) ingin pergi ke Korea","why":"Tujuan memakai 에."}
+{"id":"want-like.08","p":"(Saya) suka film","why":"좋아해요 memakai 을/를."}
+{"id":"want-like.09","p":"(Saya) ingin makan","why":"Kata dasar + 고 싶어요."}
+{"id":"want-like.10","p":"(Saya) suka kopi","why":"좋아해요 adalah kata kerja → 를."}
+{"id":"want-like.11","p":"Filmnya bagus","why":"이/가 berpasangan dengan kata sifat 좋아요."}
+{"id":"want-like.12","p":"(Saya) ingin pulang ke rumah","why":"가 + 고 싶어요."}
+{"id":"want-like.13","p":"(Saya) suka kopi","why":"커피를 좋아해요, atau 커피가 좋아요."}
+{"id":"want-like.14","p":"Mau makan apa?","why":"먹 + 고 싶어요."}
+{"id":"numbers.01","q":"'Minta dua gelas kopi' =","why":"Menghitung benda memakai bilangan asli Korea, dan 둘 memendek menjadi 두 sebelum kata penggolong."}
+{"id":"numbers.02","q":"'Harganya 5.000 won' =","why":"Uang memakai bilangan Sino-Korea: 오 (5) + 천 (1.000)."}
+{"id":"numbers.03","q":"'Jam 3' =","why":"Jam memakai bilangan asli Korea, dan 셋 memendek menjadi 세."}
+{"id":"numbers.04","q":"'Umur saya 25 tahun' =","why":"Umur memakai bilangan asli Korea + 살."}
+{"id":"numbers.05","q":"'50.000 won' =","why":"Bahasa Korea mengelompokkan bilangan besar per 만 (10.000): 50.000 adalah lima 만."}
+{"id":"numbers.06","p":"Jam 2.30 (jam dua lewat tiga puluh menit)","why":"Jam dengan bilangan asli (두 시), menit dengan Sino-Korea (삼십 분)."}
+{"id":"numbers.07","p":"Minta dua gelas kopi","why":"Kata benda, bilangan, kata penggolong, lalu kata kerja: kebalikan dari \"dua gelas kopi\"."}
+{"id":"numbers.08","p":"Ini 50.000 won","why":"50.000 = 오만: bahasa Korea menghitung per 만."}
+{"id":"numbers.09","p":"Minta segelas kopi","why":"하나 memendek menjadi 한 sebelum kata penggolong, seperti \"se-\" pada \"segelas\"."}
+{"id":"numbers.10","p":"Jam 4","why":"Jam memakai bilangan asli, dan 넷 memendek menjadi 네."}
+{"id":"numbers.11","p":"Jam 3.30 (tulis menitnya dengan Hangul)","why":"Menit memakai bilangan Sino-Korea: 삼십 = 30."}
+{"id":"numbers.12","p":"Umur saya 28 tahun (tulis angkanya dengan Hangul)","why":"Umur = bilangan asli Korea + 살."}
+{"id":"numbers.13","p":"Jam 2 (tulis angkanya dengan Hangul)","why":"Jam memakai bilangan asli: 둘 → 두 시."}
+{"id":"numbers.14","p":"Harganya 3.000 won (tulis angkanya dengan Hangul)","why":"Uang memakai Sino-Korea: 삼천 원. Bilangan asli 세 untuk jam dan benda yang dihitung."}
+{"id":"food.01","q":"Untuk memanggil pelayan ke mejamu, kamu bilang:","why":"저기요 = \"permisi\", untuk menarik perhatian orang."}
+{"id":"food.02","q":"Sebelum mulai makan, kamu bilang:","why":"먹겠습니다 = \"saya akan makan (dengan baik)\"; 먹었습니다 bentuk lampau, untuk sesudah makan."}
+{"id":"food.03","q":"\"Minta dua gimbap\" =","why":"Kata benda + bilangan asli + 개 untuk benda; 둘 → 두."}
+{"id":"food.04","q":"\"Minta tiga gelas bir\" =","why":"Gelas memakai 잔, dengan bilangan asli 세 di depannya."}
+{"id":"food.05","q":"\"Tolong dihitung (minta tagihan)\" =","why":"계산 = membayar tagihan; 해 주세요 = tolong lakukan."}
+{"id":"food.06","p":"Minta dua gimbap","why":"Kata benda + bilangan + kata penggolong + 주세요. Urutannya terbalik dari \"dua gimbap\"."}
+{"id":"food.07","p":"Minta segelas kopi","why":"하나 → 한 sebelum kata penggolong 잔, seperti se- pada \"segelas\"."}
+{"id":"food.08","p":"Tolong dibuat tidak pedas","why":"맵지 않게 = tidak pedas; 해 주세요 = tolong buatkan."}
+{"id":"food.09","p":"Minta dua gelas bir","why":"Cangkir dan gelas → 잔."}
+{"id":"food.10","p":"Saya sudah makan dengan baik (diucapkan sesudah makan)","why":"Sesudah makan berarti lampau: 잘 먹었습니다."}
+{"id":"food.11","p":"Tolong dihitung (minta tagihan)","why":"하다 → 해 sebelum 주세요: 계산해 주세요."}
+{"id":"food.12","p":"Minta air","why":"Kata benda + 주세요 bisa dipakai untuk memesan apa saja."}
+{"id":"food.13","p":"Minta tiga gimbap (tulis angkanya dengan Hangul)","why":"셋 menjadi 세 sebelum 개."}
+{"id":"food.14","p":"Minta segelas kopi (tulis angkanya dengan Hangul)","why":"Menghitung gelas memakai bilangan asli (한 잔), bukan Sino-Korea 일."}
+{"id":"getting-around.01","q":"\"Stasiun kereta bawah tanah di mana?\" =","why":"Tempat + 어디예요? = \"(tempat) di mana?\" Urutannya sama dengan bahasa Indonesia: tempat dulu, \"di mana\" di akhir."}
+{"id":"getting-around.02","q":"\"Belok kiri saja\" =","why":"왼쪽 = kiri, 으로 = ke arah."}
+{"id":"getting-around.03","q":"Di taksi: \"Tolong ke Myeongdong\" =","why":"Tujuan + (으)로 + 가 주세요."}
+{"id":"getting-around.04","q":"\"Tolong berhenti di sini\" =","why":"여기서 = di sini; 세워 주세요 = tolong berhenti."}
+{"id":"getting-around.05","q":"Di kereta bawah tanah, \"stasiun berikutnya\" =","why":"다음 = berikutnya, 역 = stasiun. 이번 역 = stasiun ini."}
+{"id":"getting-around.06","p":"Tolong ke Myeongdong","why":"Tujuan + 으로, lalu 가 주세요."}
+{"id":"getting-around.07","p":"Tolong berhenti di sini","why":"Tempat dulu, lalu 세워 주세요."}
+{"id":"getting-around.08","p":"Halte bus di mana?","why":"Tempat + 어디예요?"}
+{"id":"getting-around.09","p":"Belok kiri saja","why":"Ke arah tertentu → (으)로; 왼쪽 berakhir dengan konsonan, jadi 으로."}
+{"id":"getting-around.10","p":"Stasiun kereta bawah tanah di mana?","why":"어디 = di mana."}
+{"id":"getting-around.11","p":"Tolong ke bandara","why":"Tujuan → 으로 (setelah konsonan) atau 에, tidak pernah 에서."}
+{"id":"getting-around.12","p":"Stasiun kereta bawah tanah di mana?","why":"Tempat + 어디예요?"}
+{"id":"getting-around.13","p":"Jalan lurus saja (memberi petunjuk arah)","why":"똑바로 = lurus; 가세요 = silakan jalan."}
+{"id":"getting-around.14","p":"Tolong ke bandara (kepada sopir taksi)","why":"Tujuan memakai 으로 atau 에. 에서 untuk tempat terjadinya kegiatan."}
+{"id":"titles.01","q":"Memanggil rekan kerjamu 민수 dengan sopan:","why":"Nama + 씨 adalah sapaan sopan yang biasa untuk orang setara dan rekan kerja."}
+{"id":"titles.02","q":"Perempuan memanggil teman laki-lakinya yang lebih tua, 민수:","why":"Perempuan memanggil laki-laki yang lebih tua 오빠; laki-laki memanggilnya 형. Dalam bahasa Indonesia, keduanya cukup \"Kak\"."}
+{"id":"titles.03","q":"Laki-laki memanggil teman perempuannya yang lebih tua, 지은:","why":"Laki-laki memanggil perempuan yang lebih tua 누나; perempuan memanggilnya 언니."}
+{"id":"titles.04","q":"Memanggil teman dekatmu 지은 dengan namanya:","why":"지은 berakhir dengan konsonan → 아."}
+{"id":"titles.05","q":"Memanggil pemilik restoran:","why":"Jabatan atau peran memakai 님: 사장님."}
+{"id":"titles.06","p":"Pak/Bu (kepada pemilik), tolong dihitung","why":"Sapaannya membuka (atau menutup) permintaan."}
+{"id":"titles.07","p":"Minsu, ada waktu? (kepada rekan kerja)","why":"Nama + 씨 untuk rekan kerja; sapaan ini membuka (atau menutup) pertanyaan."}
+{"id":"titles.08","p":"(perempuan kepada laki-laki yang lebih tua) Kak, sedang apa?","why":"Perempuan memanggil laki-laki yang lebih tua 오빠."}
+{"id":"titles.09","p":"Minsu! Sedang apa? (teman dekat)","why":"민수 berakhir dengan vokal → 야."}
+{"id":"titles.10","p":"Jieun! Udah makan? (teman dekat)","why":"지은 berakhir dengan konsonan → 아."}
+{"id":"titles.11","p":"Halo, Pak/Bu Guru","why":"Peran atau jabatan memakai 님: 선생님."}
+{"id":"titles.12","p":"Kepada teman dekatmu 민수: \"Minsu, sedang apa?\" (santai)","why":"Nama berakhiran vokal + 야, lalu 뭐 해 yang santai."}
+{"id":"titles.13","p":"Kepada rekan kerja 지은: \"Jieun, ada waktu?\" (sopan)","why":"Rekan kerja dipanggil nama + 씨, dan 요 tetap dipakai."}
+{"id":"titles.14","p":"Kepada gurumu: \"Halo, Pak/Bu Guru!\"","why":"Guru dipanggil 선생님, tidak pernah dengan nama atau 씨."}
+{"id":"plans.01","q":"\"Bagaimana kalau kita minum kopi?\" (ajakan halus) =","why":"Kata dasar berakhiran vokal 마시 + ㄹ까요 = 마실까요."}
+{"id":"plans.02","q":"Menanyakan keinginan lawan bicara: \"Mau pergi bersama?\" =","why":"Kata dasar berakhiran vokal 가 + ㄹ래요 = 갈래요."}
+{"id":"plans.03","q":"Kepada teman dekat: \"Yuk, makan!\" =","why":"-자 langsung menempel pada kata dasar: 먹 + 자."}
+{"id":"plans.04","q":"먹다 + -(으)ㄹ까요 =","why":"Kata dasar berakhiran konsonan → 을까요."}
+{"id":"plans.05","q":"Menerima ajakan dengan antusias:","why":"좋아요 = boleh, setuju; pilihan lainnya menolak."}
+{"id":"plans.06","p":"Akhir pekan ini enaknya kita melakukan apa?","why":"Waktu + 에, lalu 뭐 + 할까요."}
+{"id":"plans.07","p":"Enaknya kita bertemu jam berapa?","why":"몇 시에 = jam berapa; 보다 juga berarti \"bertemu\"."}
+{"id":"plans.08","p":"Bagaimana kalau kita ke kafe?","why":"Tujuan + 에 dengan 가다."}
+{"id":"plans.09","p":"Mau menonton film?","why":"Kata dasar berakhiran vokal 보 + ㄹ래요 = 볼래요."}
+{"id":"plans.10","p":"Akhir pekan ini enaknya kita melakukan apa?","why":"하 + ㄹ까요 = 할까요."}
+{"id":"plans.11","p":"Yuk, main bersama! (kepada teman)","why":"-자 langsung menempel pada kata dasar: 놀 + 자."}
+{"id":"plans.12","p":"Bagaimana kalau kita minum kopi? (pakai -(으)ㄹ까요)","why":"마시 + ㄹ까요 = 마실까요."}
+{"id":"plans.13","p":"Mau makan bersama? (sopan, pakai -(으)ㄹ래요)","why":"Kata dasar berakhiran konsonan 먹 + 을래요."}
+{"id":"plans.14","p":"Kepada teman: \"Yuk, bertemu di kafe!\" (pakai -자)","why":"Bertemu terjadi di suatu tempat → 에서; 만나 + 자."}
+{"id":"texting.01","q":"Bagaimana menulis \"wkwk\" dalam pesan?","why":"ㅋ adalah bunyi tawa; makin banyak ㅋ, makin lucu."}
+{"id":"texting.02","q":"\"Iya\" santai dalam pesan:","why":"ㅇㅇ adalah singkatan 응 (iya). ㄴㄴ = nggak."}
+{"id":"texting.03","q":"Berkirim pesan kepada atasanmu: \"Siap, sudah saya cek\":","why":"Kepada senior, tetap sopan; 넵 adalah \"ya\" yang ramah di kantor."}
+{"id":"texting.04","q":"Berkirim pesan kepada teman: \"(Kamu) di mana sekarang?\":","why":"Antara teman, buang semua yang tidak wajib: 지금 어디?"}
+{"id":"texting.05","q":"Bagaimana menulis \"nangis\" atau \"huhu\" dalam pesan?","why":"ㅠㅠ: vokalnya terlihat seperti air mata."}
+{"id":"texting.06","p":"Aku udah hampir sampai","why":"나 yang santai, tanpa partikel: 나 다 왔어."}
+{"id":"texting.07","p":"Lapar, makan apa, ya","why":"Antara teman, 요 dibuang; 뭐 먹지 = makan apa, ya."}
+{"id":"texting.08","p":"Selamat tidur, sampai jumpa besok","why":"Salam penutup santai yang paling umum."}
+{"id":"texting.09","p":"Kamu di mana sekarang? (kepada teman)","why":"어디 = di mana; dalam pesan, sisanya dibuang."}
+{"id":"texting.10","p":"Aku udah hampir sampai","why":"다 왔어 = (aku) udah hampir sampai."}
+{"id":"texting.11","p":"Oke, sampai jumpa besok","why":"내일 봐 = sampai jumpa besok (santai)."}
+{"id":"texting.12","p":"Kirim pesan ke teman: \"Sedang apa?\"","why":"Pembuka obrolan santai yang dipakai semua orang."}
+{"id":"texting.13","p":"Kirim pesan ke teman: \"Aku berangkat sekarang\"","why":"Santai: tanpa 요, tanpa partikel."}
+{"id":"texting.14","p":"Kirim pesan ke rekan kerja senior: \"Siap, sudah saya cek\" (sopan, akrab)","why":"Kesopanan tetap ada: kepada senior, 넵 atau 네, tidak pernah ㅇㅇ."}
+{"id":"counters.01","q":"\"Tiga orang\" =","why":"Orang memakai 명, dengan bilangan asli 세."}
+{"id":"counters.02","q":"\"Minta dua lembar tiket\" =","why":"Tiket termasuk benda tipis → 장; kata benda + bilangan + kata penggolong."}
+{"id":"counters.03","q":"\"Saya punya tiga ekor kucing\" =","why":"Hewan memakai 마리 (seperti \"ekor\"), dengan bilangan asli 세."}
+{"id":"counters.04","q":"\"Dua botol bir\" =","why":"Botol → 병, dan 둘 → 두."}
+{"id":"counters.05","q":"\"Umur saya 20 tahun\" =","why":"스물 menjadi 스무 sebelum kata penggolong."}
+{"id":"counters.06","p":"Saya sudah minum dua botol bir","why":"Kata benda + bilangan + kata penggolong, dan partikelnya di belakang kata penggolong."}
+{"id":"counters.07","p":"Empat orang (menjawab \"Berapa orang?\")","why":"Bilangan asli 넷 → 네 sebelum 명."}
+{"id":"counters.08","p":"Minta tiga buku","why":"Buku → 권."}
+{"id":"counters.09","p":"Saya punya seekor anak anjing","why":"Hewan → 마리."}
+{"id":"counters.10","p":"Minta dua gelas kopi","why":"Bilangan asli 둘 menjadi 두 sebelum kata penggolong."}
+{"id":"counters.11","p":"Untuk berapa orang?","why":"Orang → 명 (hormat: 분)."}
+{"id":"counters.12","p":"Minta dua lembar tiket (tulis angkanya dengan Hangul)","why":"Tiket → 장; 둘 → 두."}
+{"id":"counters.13","p":"Saya punya tiga ekor kucing (tulis angkanya dengan Hangul)","why":"Hewan → 마리; kata benda + bilangan + kata penggolong."}
+{"id":"counters.14","p":"Saya belajar selama dua jam (lampau; tulis angkanya dengan Hangul)","why":"Lamanya waktu = bilangan asli + 시간 (두 시간). 두 시 saja berarti jam 2 (pukul dua)."}
+{"id":"joining.01","q":"\"Mahal, tapi enak\" =","why":"-지만 = tapi."}
+{"id":"joining.02","q":"\"Saya sibuk, jadi tidak jadi pergi\" =","why":"Alasan + 서; tidak ada bentuk lampau sebelum 서."}
+{"id":"joining.03","q":"\"Murah dan enak\" =","why":"Kata dasar + 고."}
+{"id":"joining.04","q":"\"(Saya) pergi ke kafe, lalu belajar (di sana)\" =","why":"가서 menghubungkan dua langkah dalam satu perjalanan."}
+{"id":"joining.05","q":"Akhiran mana yang berarti \"tapi\"?","why":"-지만 = tapi."}
+{"id":"joining.06","p":"(Saya) makan, lalu minum kopi","why":"먹 + 고 = dan (lalu)."}
+{"id":"joining.07","p":"Mahal, tapi bagus","why":"-지만 = tapi."}
+{"id":"joining.08","p":"Saya sedang sibuk, jadi tidak pergi","why":"바빠요 → 바빠서."}
+{"id":"joining.09","p":"Murah dan enak","why":"Kata dasar + 고 = dan."}
+{"id":"joining.10","p":"Mahal, tapi enak","why":"Kata dasar + 지만 = tapi."}
+{"id":"joining.11","p":"Saya lapar, jadi saya makan","why":"Bentuk 요 tanpa 요 + 서."}
+{"id":"joining.12","p":"Murah dan enak","why":"싸 + 고."}
+{"id":"joining.13","p":"Mahal, tapi enak","why":"비싸 + 지만."}
+{"id":"joining.14","p":"Saya sedang sibuk, jadi tidak pergi","why":"바빠 + 서."}
+{"id":"story.01","q":"Kata sambung mana yang berarti \"pertama\"?","why":"먼저 = pertama; 마지막으로 = terakhir."}
+{"id":"story.02","q":"\"Jadi saya pulang larut\" (lampau) =","why":"그래서 = jadi; pulang ke rumah = 집에, dalam bentuk lampau: 왔어요."}
+{"id":"story.03","q":"\"Tapi filmnya terlalu panjang\" (lampau) =","why":"그런데 = tapi; kata sifat memakai 이/가; bentuk lampau 길었어요."}
+{"id":"story.04","q":"Bentuk lampau 보다 (bentuk 요):","why":"보 + 았어요 menyatu menjadi 봤어요."}
+{"id":"story.05","q":"\"Terakhir\" =","why":"마지막으로 menutup urutan cerita."}
+{"id":"story.06","p":"Kemarin saya bertemu teman","why":"Kata waktu biasanya di depan; kata kerja lampau selalu di akhir."}
+{"id":"story.07","p":"Setelah itu, kami menonton film","why":"Kata sambung dulu; film adalah yang ditonton → 를."}
+{"id":"story.08","p":"Pertama, kami pergi ke kafe","why":"Pergi ke suatu tempat → 에."}
+{"id":"story.09","p":"Dan kami minum kopi","why":"그리고 = dan (lalu)."}
+{"id":"story.10","p":"Kemarin saya bertemu teman","why":"어제 menuntut bentuk lampau: 만나 + 았어요 → 만났어요."}
+{"id":"story.11","p":"Apa yang kamu lakukan akhir pekan lalu?","why":"Kata waktu memakai 에."}
+{"id":"story.12","p":"Tadi saya makan siang","why":"Kata waktu dulu, lalu bentuk lampau."}
+{"id":"story.13","p":"Jadi saya beristirahat di rumah (lampau)","why":"Beristirahat terjadi di rumah → 집에서; 쉬 + 었어요."}
+{"id":"story.14","p":"Tapi saya tidak minum kopi (lampau, pakai 안)","why":"안 tepat di depan kata kerja, juga dalam bentuk lampau."}
+{"id":"noun-modifiers.01","q":"\"tas besar\" =","why":"크 + ㄴ → 큰."}
+{"id":"noun-modifiers.02","q":"\"makanan enak\" =","why":"Kata dengan 있다 memakai 는."}
+{"id":"noun-modifiers.03","q":"\"makanan pedas\" =","why":"ㅂ → 우 + ㄴ."}
+{"id":"noun-modifiers.04","q":"\"cuaca bagus\" =","why":"Kata dasar berakhiran konsonan + 은."}
+{"id":"noun-modifiers.05","q":"\"film panjang\" =","why":"ㄹ hilang: 길다 → 긴."}
+{"id":"noun-modifiers.06","p":"(Saya) punya tas besar","why":"큰 + kata benda; partikelnya menempel pada kata benda."}
+{"id":"noun-modifiers.07","p":"(Saya) suka makanan pedas","why":"맵다 → 매운."}
+{"id":"noun-modifiers.08","p":"Ini film seru","why":"Kata dengan 있다 memakai 는."}
+{"id":"noun-modifiers.09","p":"cuaca bagus","why":"Kata dasar berakhiran konsonan + 은."}
+{"id":"noun-modifiers.10","p":"makanan enak","why":"Kata dengan 있다 memakai 는."}
+{"id":"noun-modifiers.11","p":"rumah kecil","why":"작 + 은."}
+{"id":"noun-modifiers.12","p":"Ini rumah besar","why":"크 + ㄴ → 큰 집."}
+{"id":"noun-modifiers.13","p":"(Saya) suka makanan pedas","why":"맵다 → 매운."}
+{"id":"noun-modifiers.14","p":"Semoga harimu menyenangkan","why":"좋 + 은 → 좋은 하루."}
+{"id":"compare.01","q":"\"Bus lebih murah daripada taksi\" =","why":"보다 menandai pembandingnya, seperti \"daripada\", tetapi letaknya di belakang kata benda."}
+{"id":"compare.02","q":"\"Ini yang paling enak\" =","why":"제일 = paling."}
+{"id":"compare.03","q":"\"Minta lagi\" =","why":"더 = lebih, lagi."}
+{"id":"compare.04","q":"\"Hari ini lebih dingin daripada kemarin\" =","why":"어제보다 = daripada kemarin."}
+{"id":"compare.05","q":"\"Pedasnya lebih ringan\" =","why":"덜 = kurang, lebih sedikit."}
+{"id":"compare.06","p":"Bus lebih murah daripada taksi (mulai dengan bus)","why":"택시보다 = daripada taksi."}
+{"id":"compare.07","p":"Ini yang paling enak","why":"제일 di depan kata sifat."}
+{"id":"compare.08","p":"Mana yang lebih bagus?","why":"더 = lebih."}
+{"id":"compare.09","p":"Bus lebih murah daripada taksi","why":"보다 = daripada."}
+{"id":"compare.10","p":"Ini yang paling enak","why":"제일 / 가장 = paling."}
+{"id":"compare.11","p":"Minta lagi","why":"더 = lebih, lagi."}
+{"id":"compare.12","p":"Bus lebih murah daripada taksi","why":"보다 menempel pada 택시."}
+{"id":"compare.13","p":"Ini yang paling enak","why":"제일 = paling."}
+{"id":"compare.14","p":"Minta lagi","why":"더 = lebih, lagi."}
+{"id":"cant.01","q":"\"Saya tidak bisa makan yang pedas\" (tidak kuat) =","why":"못 = tidak bisa, tepat di depan kata kerja. 안 = tidak (karena pilihan)."}
+{"id":"cant.02","q":"\"Saya bisa melakukannya\" =","why":"Kata dasar berakhiran vokal 하 + ㄹ 수 있어요."}
+{"id":"cant.03","q":"\"Saya tidak bisa berolahraga\": di mana letak 못?","why":"Pada kata kerja dengan 하다, 못 diletakkan di antara kata benda dan 해요."}
+{"id":"cant.04","q":"Kamu ditanya sesuatu dan kamu tidak yakin. Jawaban yang halus dan umum:","why":"모르겠어요 = saya kurang tahu; 몰라요 adalah \"saya tidak tahu\" yang datar."}
+{"id":"cant.05","q":"\"Saya tidak bisa pergi\" dengan -(으)ㄹ 수 없어요 =","why":"Kata dasar berakhiran vokal 가 + ㄹ 수 없어요."}
+{"id":"cant.06","p":"Hari ini saya tidak bisa pergi","why":"못 tepat di depan kata kerja = tidak bisa."}
+{"id":"cant.07","p":"Bisa berbahasa Korea?","why":"할 수 있어요 = bisa melakukan; 한국어 하다 = berbahasa Korea."}
+{"id":"cant.08","p":"Saya tidak tahu jalannya","why":"\"Tidak tahu\" punya kata kerja sendiri, 몰라요; tidak pernah 안 알아요."}
+{"id":"cant.09","p":"Saya tidak bisa makan yang pedas","why":"Tidak bisa → 못."}
+{"id":"cant.10","p":"Bisa, sedikit","why":"-(으)ㄹ 수 있어요 = bisa."}
+{"id":"cant.11","p":"Saya tidak bisa memakannya","why":"-(으)ㄹ 수 없어요 = tidak bisa."}
+{"id":"cant.12","p":"Saya bisa sedikit berbahasa Korea (pakai -(으)ㄹ 수 있어요)","why":"하 + ㄹ 수 있어요 = bisa melakukan."}
+{"id":"cant.13","p":"Hari ini saya tidak bisa pergi (pakai 못)","why":"Keadaan menghalangimu → 못."}
+{"id":"cant.14","p":"Saya tidak makan daging (karena pilihan, pakai 안)","why":"Pilihan → 안. 못 berarti kamu tidak bisa."}
+{"id":"have-to.01","q":"\"(Saya) harus pergi\" =","why":"가 + 야 해요."}
+{"id":"have-to.02","q":"먹다 → \"harus makan\" =","why":"먹어 + 야 해요."}
+{"id":"have-to.03","q":"하다 → \"harus melakukan\" =","why":"해 + 야 해요."}
+{"id":"have-to.04","q":"\"(Kamu) tidak usah pergi\" =","why":"안 … 도 돼요."}
+{"id":"have-to.05","q":"\"(Saya) harus pergi\" (lampau) =","why":"Hanya 해요 yang berubah menjadi bentuk lampau."}
+{"id":"have-to.06","p":"(Saya) harus pergi sekarang","why":"가야 해요."}
+{"id":"have-to.07","p":"(Saya) harus bekerja besok","why":"일해 + 야 돼요."}
+{"id":"have-to.08","p":"(Saya) harus makan","why":"먹어 + 야 해요."}
+{"id":"have-to.09","p":"(Saya) harus pergi","why":"Bentuk 요 tanpa 요 + 야 해요."}
+{"id":"have-to.10","p":"(Saya) harus belajar","why":"공부해 + 야 돼요."}
+{"id":"have-to.11","p":"(Kamu) tidak usah pergi","why":"안 가도 돼요."}
+{"id":"have-to.12","p":"(Saya) harus pulang","why":"가 + 야 해요 / 돼요."}
+{"id":"have-to.13","p":"(Saya) harus belajar hari ini","why":"공부해 + 야 해요."}
+{"id":"have-to.14","p":"(Kamu) tidak usah pergi","why":"안 가도 돼요."}
+{"id":"honorific.01","q":"Kepada orang yang lebih tua: \"Mau ke mana?\" =","why":"Orang yang lebih tua menjadi subjek → 가 + 세요. 가요 biasa tidak memakai bentuk hormat."}
+{"id":"honorific.02","q":"Kata kerja hormat untuk 먹다 / 마시다:","why":"드시다 = makan / minum (hormat)."}
+{"id":"honorific.03","q":"\"Pemiliknya ada di tempat?\" =","why":"Untuk orang yang berada di suatu tempat, 있다 menjadi 계시다 → 계세요."}
+{"id":"honorific.04","q":"Mengatakan bahwa kamu pergi (tentang dirimu sendiri):","why":"Jangan pernah memakai 시 untuk dirimu sendiri."}
+{"id":"honorific.05","q":"\"Kapan Anda tiba?\" (lampau, hormat) =","why":"오 + 시 + 었어요 → 오셨어요."}
+{"id":"honorific.06","p":"Siapa nama Anda? (hormat)","why":"성함 adalah kata hormat untuk 이름."}
+{"id":"honorific.07","p":"Selamat tidur (kepada orang yang lebih tua)","why":"자다 diganti seluruhnya menjadi 주무시다."}
+{"id":"honorific.08","p":"Silakan duduk di sini","why":"Kata dasar berakhiran konsonan 앉 + 으세요."}
+{"id":"honorific.09","p":"Silakan duduk di sini (kepada orang yang lebih tua)","why":"Setelah kata dasar berakhiran konsonan: -으세요."}
+{"id":"honorific.10","p":"Nenek ada? (hormat)","why":"Orang yang dihormati berada di suatu tempat → 계세요."}
+{"id":"honorific.11","p":"Kapan Anda tiba? (lampau, kepada orang yang lebih tua)","why":"Bentuk lampau hormat: 오셨어요."}
+{"id":"honorific.12","p":"Kepada orang yang lebih tua: \"Selamat makan\"","why":"Untuk orang yang lebih tua, makan adalah 드시다 → 드세요."}
+{"id":"honorific.13","p":"Kepada orang yang lebih tua: \"Mau ke mana?\"","why":"가 + 세요: orang yang lebih tua itulah yang pergi."}
+{"id":"honorific.14","p":"Tentang dirimu sendiri: \"Saya pulang\"","why":"Tidak ada 시 untuk dirimu sendiri, dan tujuan memakai 에."}
+{"id":"requests.01","q":"Buat \"Minta air\" lebih halus:","why":"좀 diselipkan setelah kata benda dan melunakkan permintaan."}
+{"id":"requests.02","q":"\"Kebetulan ada menu bahasa Inggris?\" =","why":"혹시 membuka pertanyaan; 있어요? = ada?"}
+{"id":"requests.03","q":"Kepada orang yang tidak dikenal: \"Bisa tolong fotokan (kami)?\" =","why":"-아/어 주시겠어요 meminta orang itu melakukannya; -아/어도 돼요 bertanya apakah kamu boleh."}
+{"id":"requests.04","q":"\"Boleh saya mengecas (HP) di sini?\" =","why":"Boleh saya…? → -아/어도 돼요; 하다 → 해도."}
+{"id":"requests.05","q":"Menolak dengan sopan: \"Mohon maaf, tapi tidak bisa\" =","why":"안 돼요 = tidak bisa. Ejaannya 돼요, tidak pernah 되요."}
+{"id":"requests.06","p":"Bisa tolong bicara pelan-pelan?","why":"Kata keterangan dulu, lalu kata kerja + 주시겠어요."}
+{"id":"requests.07","p":"Boleh saya duduk di sini?","why":"앉 + 아도 돼요 = boleh saya duduk."}
+{"id":"requests.08","p":"Kalau saya duduk di sini, boleh?","why":"Kata dasar berakhiran konsonan + 으면 안 돼요?"}
+{"id":"requests.09","p":"Bisa tolong fotokan (kami)?","why":"찍어 + 주시겠어요 = bisa tolong fotokan (untuk saya)?"}
+{"id":"requests.10","p":"Kebetulan ada toilet?","why":"혹시 = kebetulan; kata ini membuka pertanyaan."}
+{"id":"requests.11","p":"Boleh saya mengecas di sini?","why":"-아/어도 돼요 = boleh saya…?"}
+{"id":"requests.12","p":"Minta air, ya (lunakkan dengan 좀)","why":"좀 tepat setelah kata benda."}
+{"id":"requests.13","p":"Boleh saya ambil foto? (pakai -아/어도 돼요)","why":"찍 + 어도 돼요."}
+{"id":"requests.14","p":"Kalau saya duduk di sini, boleh? (pakai -(으)면 안 돼요)","why":"Kata dasar berakhiran konsonan 앉 + 으면 안 돼요. 안 di sini bagian dari ungkapan tetap, bukan \"tidak\" biasa."}
+{"id":"office.01","q":"Kamu pulang, sementara seorang rekan kerja masih bekerja. Kamu bilang:","why":"수고하세요 = selamat bekerja, kepada orang yang masih tinggal."}
+{"id":"office.02","q":"Kepada manajermu di akhir hari kerja:","why":"수고했어요 untuk junior atau rekan setara; kepada atasan, 수고하셨습니다."}
+{"id":"office.03","q":"Bagaimana kamu memanggil manajermu (과장)?","why":"Jabatan selalu memakai 님."}
+{"id":"office.04","q":"Penutup email yang baku, \"Mohon dicek\":","why":"부탁드립니다 = dengan rendah hati saya mohon."}
+{"id":"office.05","q":"Menandatangani email sebagai @@:","why":"드림 ditaruh setelah namamu sendiri; jangan pernah 씨 atau 님 untuk dirimu sendiri."}
+{"id":"office.06","p":"Saya pamit pulang lebih dulu (kepada semua orang di ruangan)","why":"먼저 퇴근하겠습니다 adalah ungkapan tetap."}
+{"id":"office.07","p":"Rapatnya jam berapa?","why":"몇 시예요? = jam berapa?"}
+{"id":"office.08","p":"Halo, saya @@ dari tim pemasaran","why":"Tim dulu, lalu namamu + 입니다. Tidak ada 님 untuk dirimu sendiri."}
+{"id":"office.09","p":"Mohon dicek (email)","why":"부탁드립니다 = dengan rendah hati saya mohon."}
+{"id":"office.10","p":"Terima kasih atas kerja kerasnya (kepada atasan, sesudah jam kerja)","why":"Kepada atasan dipakai bentuk lampau hormat: 수고하셨습니다."}
+{"id":"office.11","p":"Pak/Bu Manajer, bisa tolong cek ini?","why":"Jabatan selalu memakai 님."}
+{"id":"office.12","p":"Kepada ketua timmu sesudah jam kerja: \"Pak/Bu Ketua Tim, terima kasih atas kerja kerasnya\"","why":"Jabatan + 님, lalu bentuk untuk atasan, 수고하셨습니다."}
+{"id":"office.13","p":"Pulang lebih dulu daripada atasanmu: \"Saya pamit pulang lebih dulu\"","why":"Ucapkan dengan jelas kepada semua orang di ruangan."}
+{"id":"office.14","p":"Pak/Bu Manajer, bisa tolong cek ini? (sangat sopan)","why":"Jabatan + 님, lalu -아/어 주시겠어요 dari pelajaran 32, \"Meminta dengan sopan\"."}

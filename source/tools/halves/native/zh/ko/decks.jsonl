@@ -41,3 +41,16 @@
 {"id":"ko.d.family-people","label":"家人与称呼","desc":"妈妈、爸爸、兄弟姐妹、朋友、老师，以及年龄怎样改变称呼。"}
 {"id":"ko.d.adjectives","label":"形容词","desc":"好、坏、大、小、热、冷、忙、有意思。"}
 {"id":"ko.d.k-drama-phrases","label":"韩剧台词","desc":"每集都能听到的反应和台词。"}
+{"id":"ko.d.top-nouns","label":"常用名词","desc":"课程里还没教的最常用韩语名词，按使用频率排列。"}
+{"id":"ko.d.top-verbs","label":"常用动词","desc":"动作动词，用基本形；注释给出 해요 形式，并标出不规则动词。"}
+{"id":"ko.d.top-adjectives","label":"常用形容词","desc":"韩语形容词像动词一样变形：注释给出 해요 形式和修饰名词时的形式。"}
+{"id":"ko.d.top-adverbs","label":"常用副词","desc":"说时间、程度、频率和方式的词：很、已经、经常、为什么、怎么。"}
+{"id":"ko.d.top-pronouns","label":"常用代词","desc":"我、你、这个、谁、没有人，以及为什么通常用名字和职位代替“你”。"}
+{"id":"ko.d.top-particles","label":"更多助词","desc":"韩语用助词表达介词的意思：“助词”卡组九个之外的助词。"}
+{"id":"ko.d.top-connectors","label":"更多连接词","desc":"连接词尾（-고、-지만、-아서、-(으)면……）放在动词上展示，外加“连接词”卡组里没有的连接词。"}
+{"id":"ko.d.top-interjections","label":"常用感叹词","desc":"韩国人真正会喊的话：哇、哎哟、哎呀、呼、当当当，以及各是谁在说。"}
+{"id":"ko.d.top-words","label":"实用小词","desc":"名词前的这 / 那 / 哪个、数字的各种形式、日子和时间，以及说“是”和“不”的各种方式。"}
+{"id":"ko.d.top-counters","label":"更多量词","desc":"“量词”卡组里没有的量词：车辆、份、条、片、分钟、月。"}
+{"id":"ko.d.flirting-words","label":"恋爱词汇","desc":"韩国人示好时用的词、由这些词组成的句子，以及委婉地答应或拒绝。"}
+{"id":"ko.d.compliments","label":"日常夸奖","desc":"夸饭菜、工作、家和孩子的日常说法，以及谦虚的回应。"}
+{"id":"ko.d.countries","label":"国家和地区","desc":"所有国家和地区，最常被问到的排在前面。国名 + 에서 왔어요 = 我来自……；+ 사람 = 国籍；+ 어 = 语言。"}

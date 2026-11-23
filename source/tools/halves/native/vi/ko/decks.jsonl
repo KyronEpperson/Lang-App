@@ -1,0 +1,56 @@
+{"id":"ko.d.hangul-vowels","label":"Nguyên âm (Hangul)","desc":"10 nguyên âm cơ bản: đọc được chúng là bạn đánh vần được mọi từ. Trong phiên âm Latinh, o = “ô”; eo gần “ơ”, môi không tròn; eu = “ư”; ae và e là một âm, giữa “e” và “ê”."}
+{"id":"ko.d.hangul-consonants","label":"Phụ âm (Hangul)","desc":"14 phụ âm cơ bản và cách chúng đổi âm ở cuối âm tiết. Trong phiên âm Latinh, k, t, p, ch bật hơi mạnh như “th”, không phải “kh” hay “ph”; g, d, b, j nhẹ: d không phải “d” tiếng Việt, j là “ch” nhẹ; r là chạm nhẹ đầu lưỡi một lần, cuối âm tiết là l, đừng đọc thành “n”; s = “x”."}
+{"id":"ko.d.hangul-advanced","label":"Nâng cao (Hangul)","desc":"Phụ âm căng và bật hơi, nguyên âm ghép, phụ âm cuối kép. Trong phiên âm Latinh, kk, tt, pp, jj, ss căng và ngắn như “c, t, p, ch, x” tiếng Việt, không kéo dài; wa, wo, wi = “oa, uơ, uy”; oe = “uê”; ui = “ưi”."}
+{"id":"ko.d.pronunciation-tips","label":"Mẹo phát âm","desc":"Các quy tắc biến âm khiến lời nói thật khác với chữ viết. Tiếng Hàn không có thanh điệu, và phụ âm cuối nối sang âm tiết sau mà không ngắt hơi."}
+{"id":"ko.d.survival-phrases","label":"Câu sinh tồn","desc":"12 câu giúp bạn xoay xở trọn một ngày ở Hàn Quốc."}
+{"id":"ko.d.introductions","label":"Giới thiệu bản thân","desc":"Tên, quê quán, tuổi, công việc, sở thích: kịch bản cho lần gặp đầu tiên."}
+{"id":"ko.d.survival-phrases-2","label":"Câu sinh tồn 2","desc":"Nhờ giúp đỡ, nhờ nói lại, trả tiền, tìm đường khi bị lạc."}
+{"id":"ko.d.asking-around","label":"Hỏi chỗ, hỏi đường","desc":"Nhà vệ sinh, lối ra, chỗ ngồi, wifi, giờ mở cửa: mọi câu hỏi “… ở đâu?”."}
+{"id":"ko.d.cafe-convenience-store","label":"Quán cà phê & cửa hàng tiện lợi","desc":"Cỡ cốc, nóng hay đá, thẻ tích điểm, hâm nóng đồ ăn, túi đựng."}
+{"id":"ko.d.numbers-in-the-wild","label":"Con số ngoài đời","desc":"Giá tiền, số điện thoại, số tầng và giờ giấc như người ta viết thật."}
+{"id":"ko.d.counters","label":"Đơn vị đếm","desc":"Cách đếm đồ vật, người, cốc, chai, con vật. Giống “hai cốc cà phê” trong tiếng Việt, nhưng số và đơn vị đếm đứng sau danh từ."}
+{"id":"ko.d.weather-feelings","label":"Thời tiết & cảm xúc","desc":"Chuyện thời tiết và cảm xúc của bạn: hai cách mở lời phổ biến nhất."}
+{"id":"ko.d.connectors","label":"Từ nối","desc":"Và, nên, nhưng, rồi: chất keo để kể một câu chuyện."}
+{"id":"ko.d.doctor-pharmacy","label":"Bác sĩ & hiệu thuốc","desc":"Triệu chứng, thuốc, dị ứng, đơn thuốc."}
+{"id":"ko.d.housing-errands","label":"Nhà ở & việc vặt","desc":"Tiền thuê, tiền đặt cọc, bưu kiện, phân loại rác, giặt giũ."}
+{"id":"ko.d.honorifics","label":"Kính ngữ","desc":"Tôn trọng chủ ngữ: 드시다, 주무시다, 계시다 và -(으)시-."}
+{"id":"ko.d.places-buildings","label":"Địa điểm & tòa nhà","desc":"Quán cà phê, phòng gym, thư viện, bảo tàng, nhà: những nơi bạn nói mình sẽ đến."}
+{"id":"ko.d.hobbies","label":"Sở thích","desc":"Trả lời câu 취미가 뭐예요? bằng những từ thật sự dùng."}
+{"id":"ko.d.food-words","label":"Món ăn","desc":"Các món và nguyên liệu có trong mọi thực đơn."}
+{"id":"ko.d.drinks","label":"Đồ uống","desc":"Cà phê, trà, soju, bia, và cách gọi thêm một cốc."}
+{"id":"ko.d.activities","label":"Hoạt động","desc":"Động từ hằng ngày kiểu “tôi làm X”, ở dạng lịch sự."}
+{"id":"ko.d.tv-entertainment","label":"Phim ảnh & giải trí","desc":"Phim truyền hình, chương trình giải trí, thể loại, tập phim, cày phim."}
+{"id":"ko.d.position-direction-words","label":"Vị trí & phương hướng","desc":"Trên, bên cạnh, đối diện, lối ra và tầng: để đặt đồ vật và tìm chúng."}
+{"id":"ko.d.core-verbs","label":"Động từ cơ bản","desc":"12 động từ bạn sẽ dùng mỗi ngày, ở dạng lịch sự."}
+{"id":"ko.d.particles","label":"Trợ từ","desc":"Những từ nhỏ đánh dấu chủ đề, chủ ngữ, tân ngữ và nơi chốn. Tiếng Việt đặt giới từ trước (ở nhà); tiếng Hàn đặt trợ từ sau danh từ."}
+{"id":"ko.d.numbers","label":"Số","desc":"Số thuần Hàn và số Hán Hàn, và khi nào dùng loại nào."}
+{"id":"ko.d.sweet-talk","label":"Lời ngọt ngào","desc":"Dễ thương, xinh, nhớ: dành cho người thân thiết với bạn."}
+{"id":"ko.d.cute-things-to-say","label":"Câu nói dễ thương","desc":"Những lời khen và lời quan tâm chạm đến tim."}
+{"id":"ko.d.flirting","label":"Tán tỉnh","desc":"Xin số điện thoại, rủ đi chơi, nói ra cảm xúc."}
+{"id":"ko.d.casual-texting","label":"Nhắn tin thân mật","desc":"Kiểu viết tắt trên KakaoTalk và những câu bạn bè thật sự nhắn cho nhau."}
+{"id":"ko.d.hype-cool","label":"Khen & cổ vũ","desc":"Lời khen, lời động viên và tiếng lóng giữa bạn bè."}
+{"id":"ko.d.hanging-out","label":"Đi chơi","desc":"Rủ rê, hẹn ở đâu và lúc mấy giờ, kết thúc buổi đi chơi."}
+{"id":"ko.d.k-pop-fan-culture","label":"K-pop & văn hóa fan","desc":"Từ vựng của fandom, từ 최애 đến 떼창."}
+{"id":"ko.d.social-media-slang","label":"Mạng xã hội & tiếng lóng","desc":"Instagram, meme và tiếng lóng đang thịnh hành."}
+{"id":"ko.d.dating-deeper","label":"Hẹn hò nghiêm túc","desc":"Xác định mối quan hệ, lời khen thật lòng, xin lỗi, trấn an."}
+{"id":"ko.d.work-office","label":"Công việc & văn phòng","desc":"Họp, hạn chót, nhờ đồng nghiệp, tan làm đúng giờ, 회식."}
+{"id":"ko.d.small-talk","label":"Chuyện phiếm","desc":"Hỏi han tình hình, thời tiết, kế hoạch cuối tuần, chào tạm biệt cho đúng cách."}
+{"id":"ko.d.food-ordering","label":"Gọi món","desc":"Gọi món, đơn vị đếm cho đồ ăn, hai câu nói trong bữa ăn."}
+{"id":"ko.d.directions-transport","label":"Chỉ đường & giao thông","desc":"Trái, phải, đi thẳng; những câu dùng khi đi tàu điện ngầm, xe buýt, taxi."}
+{"id":"ko.d.time-days","label":"Thời gian & ngày tháng","desc":"Hôm nay, ngày mai, các thứ trong tuần, mấy giờ rồi."}
+{"id":"ko.d.family-people","label":"Gia đình & mọi người","desc":"Mẹ, bố, anh chị em, bạn bè, thầy cô, và cách tuổi tác làm đổi từ xưng hô."}
+{"id":"ko.d.adjectives","label":"Tính từ","desc":"Tốt, tệ, to, nhỏ, nóng, lạnh, bận, vui. Tính từ tiếng Hàn chia đuôi như động từ."}
+{"id":"ko.d.k-drama-phrases","label":"Câu thoại phim Hàn","desc":"Những câu cảm thán và câu thoại bạn sẽ nghe trong mọi tập phim."}
+{"id":"ko.d.top-nouns","label":"Danh từ thông dụng","desc":"Những danh từ tiếng Hàn dùng nhiều nhất mà khóa học chưa dạy, từ thường gặp nhất trở xuống."}
+{"id":"ko.d.top-verbs","label":"Động từ thông dụng","desc":"Động từ chỉ hành động ở dạng nguyên mẫu; phần ghi chú cho dạng 해요 và đánh dấu động từ bất quy tắc."}
+{"id":"ko.d.top-adjectives","label":"Tính từ thông dụng","desc":"Tính từ (trong tiếng Hàn, tính từ chia như động từ): dạng 해요 và dạng định ngữ đứng trước danh từ."}
+{"id":"ko.d.top-adverbs","label":"Trạng từ thông dụng","desc":"Từ chỉ thời gian, mức độ, tần suất và cách thức: rất, đã, thường, tại sao, thế nào."}
+{"id":"ko.d.top-pronouns","label":"Đại từ thông dụng","desc":"Tôi, bạn, cái này, ai, không ai, và vì sao tên hoặc chức danh thường thay cho “bạn”."}
+{"id":"ko.d.top-particles","label":"Trợ từ mở rộng","desc":"Thứ tiếng Hàn dùng thay giới từ: các trợ từ ngoài chín trợ từ trong bộ thẻ Trợ từ."}
+{"id":"ko.d.top-connectors","label":"Từ nối mở rộng","desc":"Đuôi nối (-고, -지만, -아서, -(으)면 …) gắn trên một động từ, cùng các từ nối chưa có trong bộ thẻ Từ nối."}
+{"id":"ko.d.top-interjections","label":"Từ cảm thán thông dụng","desc":"Những tiếng cảm thán người Hàn thật sự hay thốt ra: oa, ui da, ối, phù, tèn ten, và ai hay nói câu nào."}
+{"id":"ko.d.top-words","label":"Từ hữu ích","desc":"Này / đó / nào trước danh từ, các dạng số, ngày và giờ, và các cách nói có và không."}
+{"id":"ko.d.top-counters","label":"Đơn vị đếm mở rộng","desc":"Các đơn vị đếm chưa có trong bộ thẻ Đơn vị đếm: xe cộ, suất ăn, cuộn, lát, phút, tháng."}
+{"id":"ko.d.flirting-words","label":"Từ ngữ tán tỉnh","desc":"Những từ người Hàn dùng khi tán tỉnh, các câu ghép từ chúng, và cách nhận lời hay từ chối một cách tử tế."}
+{"id":"ko.d.compliments","label":"Lời khen hằng ngày","desc":"Lời khen hằng ngày về đồ ăn, công việc, nhà cửa và con cái, cùng những cách đáp lại khiêm tốn."}
+{"id":"ko.d.countries","label":"Các quốc gia","desc":"Mọi quốc gia, nước hay được hỏi nhất đứng trước. Tên nước + 에서 왔어요 = tôi đến từ…; + 사람 = quốc tịch; + 어 = ngôn ngữ."}

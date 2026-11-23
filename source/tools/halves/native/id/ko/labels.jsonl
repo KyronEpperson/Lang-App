@@ -1,0 +1,140 @@
+{"id":"ko.t01","text":"Tunas"}
+{"id":"ko.t03","text":"Pelajar"}
+{"id":"ko.t05","text":"Senior"}
+{"id":"ko.t08","text":"Mahir"}
+{"id":"ko.t12","text":"Ahli"}
+{"id":"ko.t16","text":"Suhu"}
+{"id":"ko.h.night","text":"sudah larut, kerja bagus"}
+{"id":"ko.h.morning","text":"selamat pagi"}
+{"id":"ko.h.afternoon","text":"selamat siang"}
+{"id":"ko.h.evening","text":"selamat malam"}
+{"id":"goal.travel","text":"Wisata & transportasi"}
+{"id":"goal.social","text":"Kencan, teman & jalan malam"}
+{"id":"goal.drama","text":"Drakor & musik"}
+{"id":"goal.work","text":"Kerja & studi"}
+{"id":"plan.trip","text":"Liburan ke Korea"}
+{"id":"plan.social","text":"Berteman & berkencan"}
+{"id":"plan.conv","text":"Lancar bercakap dalam 90 hari"}
+{"id":"ko.z.compliment","text":"pujian"}
+{"id":"ko.z.compliment.01","text":"Penampilanmu keren / Mantap!"}
+{"id":"ko.z.compliment.02","text":"Kamu yang terbaik"}
+{"id":"ko.z.compliment.03","text":"Luar biasa"}
+{"id":"ko.z.compliment.04","text":"Bagus sekali"}
+{"id":"ko.z.compliment.05","text":"Seleramu bagus"}
+{"id":"ko.z.compliment.06","text":"Anda baik sekali"}
+{"id":"ko.z.compliment.07","text":"Kamu pintar"}
+{"id":"ko.z.compliment.08","text":"Kamu orangnya asyik"}
+{"id":"ko.z.compliment.09","text":"Senyummu manis"}
+{"id":"ko.z.compliment.10","text":"Suaramu bagus"}
+{"id":"ko.z.compliment.11","text":"Kamu bisa diandalkan"}
+{"id":"ko.z.compliment.12","text":"Cocok sekali untukmu"}
+{"id":"ko.z.compliment.13","text":"Ada kamu, saya merasa tenang"}
+{"id":"ko.z.compliment.14","text":"Kamu keren sekali"}
+{"id":"ko.z.compliment.15","text":"Sifatmu baik"}
+{"id":"ko.z.compliment.16","text":"Bahasa Korea Anda bagus sekali"}
+{"id":"ko.z.compliment.17","text":"Kamu punya aura sendiri"}
+{"id":"ko.z.compliment.18","text":"Orang yang hangat"}
+{"id":"ko.z.compliment.19","text":"Saya banyak belajar darimu"}
+{"id":"ko.z.compliment.20","text":"Bersamamu saya merasa nyaman"}
+{"id":"ko.z.compliment.21","text":"Anda rajin sekali"}
+{"id":"ko.z.compliment.22","text":"Pikiranmu dalam"}
+{"id":"ko.z.expression","text":"ungkapan sehari-hari"}
+{"id":"ko.z.expression.01","text":"Serius?"}
+{"id":"ko.z.expression.02","text":"Oh, begitu"}
+{"id":"ko.z.expression.03","text":"Betul"}
+{"id":"ko.z.expression.04","text":"Ya, tentu"}
+{"id":"ko.z.expression.05","text":"Hmm… entahlah"}
+{"id":"ko.z.expression.06","text":"Mungkin"}
+{"id":"ko.z.expression.07","text":"Tidak apa-apa"}
+{"id":"ko.z.expression.08","text":"Baik, saya mengerti"}
+{"id":"ko.z.expression.09","text":"Sebentar"}
+{"id":"ko.z.expression.10","text":"Tolong ulangi lagi"}
+{"id":"ko.z.expression.11","text":"Aduh, gimana ini"}
+{"id":"ko.z.expression.12","text":"Luar biasa! / Yang benar saja!"}
+{"id":"ko.z.expression.13","text":"Pantas saja"}
+{"id":"ko.z.expression.14","text":"Ah, masa?"}
+{"id":"ko.z.expression.15","text":"Sudah jelas"}
+{"id":"ko.z.expression.16","text":"Iya, ya"}
+{"id":"ko.z.expression.17","text":"Ya ampun"}
+{"id":"ko.z.expression.18","text":"Tentu saja"}
+{"id":"ko.z.expression.19","text":"Saya kurang tahu"}
+{"id":"ko.z.expression.20","text":"Lama tidak bertemu"}
+{"id":"ko.z.expression.21","text":"Terima kasih atas kerja kerasnya"}
+{"id":"ko.z.expression.22","text":"Terima kasih, saya makan, ya (sebelum makan)"}
+{"id":"ko.z.expression.23","text":"Terima kasih, makanannya enak (sesudah makan)"}
+{"id":"ko.z.expression.24","text":"Hati-hati di jalan"}
+{"id":"ko.z.expression.25","text":"Semoga harimu menyenangkan"}
+{"id":"ko.z.expression.26","text":"Apa artinya?"}
+{"id":"ko.z.polite","text":"sopan santun dasar"}
+{"id":"ko.z.polite.01","text":"Minta… (berikan kepada saya)"}
+{"id":"ko.z.polite.02","text":"Saya minta tolong"}
+{"id":"ko.z.polite.03","text":"Permisi, maaf mengganggu"}
+{"id":"ko.z.polite.04","text":"Permisi (untuk memanggil)"}
+{"id":"ko.z.polite.05","text":"Tunggu sebentar"}
+{"id":"ko.z.polite.06","text":"Mohon maaf"}
+{"id":"ko.z.polite.07","text":"Terima kasih (formal)"}
+{"id":"ko.z.polite.08","text":"Terima kasih (sopan)"}
+{"id":"ko.z.polite.09","text":"Sama-sama (harfiah: \"bukan apa-apa\")"}
+{"id":"ko.z.polite.10","text":"Tidak apa-apa / Tidak usah, terima kasih"}
+{"id":"ko.z.polite.11","text":"Halo"}
+{"id":"ko.z.polite.12","text":"Selamat tinggal (kepada yang tinggal)"}
+{"id":"ko.z.polite.13","text":"Selamat jalan (kepada yang pergi)"}
+{"id":"ko.z.polite.14","text":"Tolong bantu saya"}
+{"id":"ko.z.polite.15","text":"Salam kenal (pertemuan pertama)"}
+{"id":"ko.z.polite.16","text":"Senang bertemu"}
+{"id":"ko.z.polite.17","text":"Silakan duluan"}
+{"id":"ko.z.polite.18","text":"Permisi, saya mau lewat"}
+{"id":"ko.z.saying","text":"peribahasa"}
+{"id":"ko.z.saying.01","text":"Memulai adalah separuh jalan"}
+{"id":"ko.z.saying.02","text":"Mimpi akan jadi nyata"}
+{"id":"ko.z.saying.03","text":"Kalau dicoba, pasti bisa"}
+{"id":"ko.z.saying.04","text":"Jangan menyerah"}
+{"id":"ko.z.saying.05","text":"Sedikit demi sedikit, lama-lama menjadi bukit"}
+{"id":"ko.z.saying.06","text":"Kok pas sekali harinya! (waktu yang lucu)"}
+{"id":"ko.z.saying.07","text":"Semudah membalik telapak tangan"}
+{"id":"ko.z.saying.08","text":"Kenyang dulu, baru jalan-jalan"}
+{"id":"ko.z.saying.09","text":"Tersenyumlah, keberuntungan akan datang"}
+{"id":"ko.z.saying.10","text":"Bersakit-sakit dahulu, bersenang-senang kemudian"}
+{"id":"ko.z.saying.11","text":"Perjalanan jauh dimulai dari satu langkah"}
+{"id":"ko.z.saying.12","text":"Kebiasaan sejak kecil terbawa sampai tua"}
+{"id":"ko.z.saying.13","text":"Berat sama dipikul, ringan sama dijinjing"}
+{"id":"ko.z.saying.14","text":"Hari ini juga semangat, ya!"}
+{"id":"ko.z.saying.15","text":"Kamu pasti bisa"}
+{"id":"ko.z.saying.16","text":"Nggak apa-apa, semua akan beres"}
+{"id":"ko.z.saying.17","text":"Hidup hanya sekali"}
+{"id":"ko.z.saying.18","text":"Pelan-pelan juga nggak apa-apa"}
+{"id":"ko.z.saying.19","text":"Sepandai-pandai tupai melompat, sekali waktu jatuh juga"}
+{"id":"ko.z.saying.20","text":"Satu kata yang baik bisa melunasi utang besar"}
+{"id":"ko.i01","text":"Semoga semua keinginanmu terkabul"}
+{"id":"ko.i02","text":"Sekali mendayung, dua tiga pulau terlampaui"}
+{"id":"ko.i03","text":"Ada hikmah di balik musibah"}
+{"id":"ko.i04","text":"Mengubah musibah menjadi berkah"}
+{"id":"ko.i05","text":"Sesudah pahit, datang manis"}
+{"id":"ko.i06","text":"Bakat besar mekar belakangan"}
+{"id":"ko.i07","text":"Sedia payung sebelum hujan"}
+{"id":"ko.i08","text":"Jatuh tujuh kali, bangkit delapan kali"}
+{"id":"ko.i09","text":"Tekad yang hanya bertahan tiga hari"}
+{"id":"ko.i10","text":"Saling mengerti tanpa kata-kata"}
+{"id":"ko.i11","text":"Berbagi suka dan duka"}
+{"id":"ko.i12","text":"Sudah baik, makin sempurna"}
+{"id":"ko.i13","text":"Makin banyak, makin baik"}
+{"id":"ko.i14","text":"Makin hari makin maju"}
+{"id":"ko.i15","text":"Siapa menanam, dia menuai"}
+{"id":"ko.i16","text":"Ketekunan bisa memindahkan gunung"}
+{"id":"ko.i17","text":"Sukses berkat belajar keras"}
+{"id":"ko.i18","text":"Belajar dari kesalahan orang lain"}
+{"id":"ko.i19","text":"Berlebihan sama buruknya dengan kekurangan"}
+{"id":"ko.i20","text":"Menempatkan diri di posisi orang lain"}
+{"id":"ko.i21","text":"Pasangan yang ditakdirkan"}
+{"id":"ko.i22","text":"Kesetiaan yang tak tergoyahkan"}
+{"id":"ko.i23","text":"Menunggu kesempatan seperti harimau"}
+{"id":"ko.i24","text":"Teman sejak kecil"}
+{"id":"ko.i25","text":"Belajar hal baru dengan mendalami yang lama"}
+{"id":"ko.i26","text":"Memikirkannya dengan matang"}
+{"id":"ko.i27","text":"Yang baik dibalas baik, yang jahat dihukum"}
+{"id":"ko.i28","text":"Masuk telinga kanan, keluar telinga kiri"}
+{"id":"ko.i29","text":"Sembilan dari sepuluh kali"}
+{"id":"ko.i30","text":"Selalu menang dalam setiap pertempuran"}
+{"id":"ko.i31","text":"Sukses berkat usaha sendiri"}
+{"id":"ko.i32","text":"Tetap setia pada tujuan awal"}
+{"id":"ko.d.mydeck","text":"Semua yang kamu tambahkan sendiri."}

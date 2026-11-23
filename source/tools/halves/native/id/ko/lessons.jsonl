@@ -1,0 +1,33 @@
+{"id":"hangul","title":"1 · Hangul dalam sekali duduk","blurb":"Alfabetnya: 14 konsonan, 10 vokal, dan cara blok disusun.","_waive":["hangul"],"_note":"Body adds the jamo ㅢ ㅚ ㄹ ㄲ ㄸ ㅃ ㅉ ㅆ and the words 한글, 커피, 감사합니다 for the Indonesian reading guide (profile id-ko §6.1): the eo/eu/ui/oe vowels, the r/l letter, the three-way dasar / berembus / tegang stops, the hangeul = han-geul trap and the spelling-vs-sound rule."}
+{"id":"polite","title":"2 · Tingkat kesopanan","blurb":"Kenapa setiap kata kerja punya dua akhiran, dan mana yang harus dipakai."}
+{"id":"meet","title":"3 · Berkenalan","blurb":"Perkenalkan dirimu, ajukan empat pertanyaan wajib, dan berpamitan dengan benar."}
+{"id":"sound-changes","title":"4 · Perubahan bunyi: mengapa 감사합니다 terdengar berbeda","blurb":"Empat kebiasaan yang membuat bahasa Korea lisan berbeda dari ejaannya. Belajarlah mengantisipasinya."}
+{"id":"nouns","title":"5 · Kata benda dan 은/는","blurb":"Nama benda, ini/itu, 이에요/예요, dan penanda topik 은/는."}
+{"id":"isseoyo","title":"6 · 있어요 dan 없어요","blurb":"Ada / tidak ada, punya / tidak punya, penanda subjek 이/가, dan letak benda dengan 에."}
+{"id":"pronouns-questions","title":"7 · Kata ganti dan kata tanya","blurb":"Saya, kami, ini, itu, sini, sana, dan tujuh kata tanya untuk percakapan sungguhan."}
+{"id":"verbbasics","title":"8 · Kata kerja","blurb":"Setiap kata kerja berakhir dengan 다, tidak berubah untuk saya/kamu/dia, dan kata sifat pun berubah seperti kata kerja."}
+{"id":"verbs","title":"9 · Bentuk sekarang: bentuk 요","blurb":"Ubah kata kerja bentuk kamus apa pun menjadi bentuk sekarang yang sopan: 아요, 어요 atau 해요."}
+{"id":"past","title":"10 · Bentuk lampau: 았어요 / 었어요","blurb":"Ambil bentuk 요, ganti 요 dengan ㅆ어요, dan kamu sudah bisa bercerita tentang kemarin."}
+{"id":"future","title":"11 · Masa depan dan rencana: -(으)ㄹ 거예요","blurb":"Katakan apa yang akan kamu lakukan, dan tebak apa yang mungkin terjadi."}
+{"id":"sov","title":"12 · Urutan kata dan 을/를","blurb":"Subjek · Objek · Kata kerja, penanda objek 을/를, dan kapan ia boleh hilang."}
+{"id":"particles","title":"13 · 에 dan 에서, plus peta partikel","blurb":"에 untuk tempat tujuan, letak benda, dan waktu; 에서 untuk tempat kegiatan dan asal."}
+{"id":"negation","title":"14 · Menyangkal: 안 dan -지 않아요","blurb":"안 + kata kerja, 공부 안 해요, -지 않아요, 아니에요 untuk kata benda, dan 없어요."}
+{"id":"do-man","title":"15 · 도 dan 만: juga dan hanya","blurb":"도 (juga) dan 만 (hanya) menggantikan 은/는, 이/가, 을/를, tetapi menumpuk di belakang 에 dan 에서."}
+{"id":"sentences","title":"16 · Menyusun kata benda dan kata kerja","blurb":"Empat pola kalimat yang mencakup sebagian besar ucapanmu, lalu cara mengembangkannya."}
+{"id":"want-like","title":"17 · Ingin dan suka: -고 싶어요, 좋아해요","blurb":"Katakan apa yang ingin kamu lakukan dan apa yang kamu sukai. Dua pola yang akan kamu pakai setiap hari."}
+{"id":"numbers","title":"18 · Dua sistem bilangan","blurb":"Bilangan asli Korea untuk menghitung, umur, dan jam; bilangan Sino-Korea untuk uang dan menit."}
+{"id":"food","title":"19 · Makan di luar","blurb":"Memesan, kata penggolong, dan dua ucapan yang selalu dikatakan semua orang saat makan."}
+{"id":"getting-around","title":"20 · Bepergian","blurb":"Bertanya di mana, memahami jawabannya, naik taksi dan kereta bawah tanah."}
+{"id":"titles","title":"21 · Sapaan gelar dan bentuk hormat","blurb":"씨, 님, 오빠/언니: cara memanggil orang, dan kapan nama saja terdengar kasar."}
+{"id":"plans","title":"22 · Membuat rencana","blurb":"Mengusulkan, mengajak, menyetujui: ㄹ까요 / ㄹ래요 / 자, dan 같이."}
+{"id":"texting","title":"23 · Berkirim pesan ala orang Korea","blurb":"ㅋㅋ, ㅠㅠ, partikel yang hilang, dan singkatan yang dipakai semua orang di KakaoTalk."}
+{"id":"counters","title":"24 · Kata penggolong","blurb":"Kamu tidak bisa bilang \"dua kopi\" tanpa kata penggolong. Inilah sepuluh kata penggolong untuk sehari-hari."}
+{"id":"joining","title":"25 · Menggabungkan kalimat: -고, -지만, -아/어서","blurb":"Dan, tapi, jadi. Tiga akhiran yang mengubah dua kalimat pendek menjadi satu kalimat yang wajar."}
+{"id":"story","title":"26 · Bercerita tentang masa lalu","blurb":"Rangkai kalimat lampau dengan 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로."}
+{"id":"noun-modifiers","title":"27 · Menjelaskan kata benda: 좋은 날씨, 큰 가방","blurb":"Taruh kata sifat di depan kata benda: tas besar, cuaca bagus, makanan pedas."}
+{"id":"compare","title":"28 · Membandingkan: 보다, 더, 제일","blurb":"Lebih murah daripada, lebih, kurang, paling. Semua yang kamu perlukan untuk membandingkan dan memilih."}
+{"id":"cant","title":"29 · Tidak bisa, bisa, dan tidak tahu","blurb":"못 vs 안, -(으)ㄹ 수 있어요 / 없어요, dan 몰라요 vs 모르겠어요."}
+{"id":"have-to","title":"30 · Harus: -아/어야 해요","blurb":"Katakan apa yang harus kamu lakukan, tanyakan apakah harus, dan katakan kalau tidak usah."}
+{"id":"honorific","title":"31 · Kata kerja bentuk hormat","blurb":"-(으)시- dan kata kerja khusus: 드시다, 주무시다, 계시다, 말씀하시다."}
+{"id":"requests","title":"32 · Meminta dengan sopan","blurb":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요?: pelunak yang membuat orang mau bilang \"ya\"."}
+{"id":"office","title":"33 · Bahasa Korea di kantor","blurb":"Jabatan, keluarga 수고, pembuka dan penutup email, dan cara bertahan di 회식."}

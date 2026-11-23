@@ -1,0 +1,294 @@
+{"id":"ko.s0001","gloss":"ㄴ + ㅏ đứng cạnh nhau"}
+{"id":"ko.s0002","gloss":"ㄴ + ㅗ xếp chồng lên nhau"}
+{"id":"ko.s0003","gloss":"ㅎ + ㅏ + ㄴ ở cuối"}
+{"id":"ko.s0004","gloss":"ㅅ+ㅓ, ㅇ(câm)+ㅜ+ㄹ"}
+{"id":"ko.s0005","gloss":"Cảm ơn (lịch sự)"}
+{"id":"ko.s0006","gloss":"Cảm ơn nhé (thân mật)"}
+{"id":"ko.s0007","gloss":"Bạn dễ thương quá (lịch sự)"}
+{"id":"ko.s0008","gloss":"Dễ thương quá (thân mật)"}
+{"id":"ko.s0297","gloss":"Xin chào. Tôi là @@."}
+{"id":"ko.s0010","gloss":"Rất vui được gặp bạn"}
+{"id":"ko.s0011","gloss":"Bạn đến từ đâu?"}
+{"id":"ko.s0298","gloss":"Tôi đến từ Mexico"}
+{"id":"ko.s0013","gloss":"Bạn làm nghề gì?"}
+{"id":"ko.s0014","gloss":"Tôi học tiếng Hàn"}
+{"id":"ko.s0015","gloss":"Bạn bao nhiêu tuổi?"}
+{"id":"ko.s0016","gloss":"Tôi 28 tuổi"}
+{"id":"ko.s0017","gloss":"Tạm biệt (nói với người ra về; nghĩa đen: “đi bình an”)"}
+{"id":"ko.s0018","gloss":"Tạm biệt (nói với người ở lại; nghĩa đen: “ở lại bình an”)"}
+{"id":"ko.s0019","gloss":"tiếng Hàn · đọc như 한구거"}
+{"id":"ko.s0020","gloss":"âm nhạc · đọc như 으막"}
+{"id":"ko.s0021","gloss":"có · đọc như 이써요"}
+{"id":"ko.s0022","gloss":"xin cảm ơn · đọc như 감사함니다"}
+{"id":"ko.s0023","gloss":"rất vui được gặp · đọc như 반갑씀니다"}
+{"id":"ko.s0024","gloss":"tiếng Hàn (lời nói) · đọc như 한궁말"}
+{"id":"ko.s0025","gloss":"tốt (dạng nguyên mẫu) · đọc như 조타"}
+{"id":"ko.s0026","gloss":"chúc mừng · đọc như 추카"}
+{"id":"ko.s0027","gloss":"tốt, thích · đọc như 조아요"}
+{"id":"ko.s0028","gloss":"liên lạc · đọc như 열락"}
+{"id":"ko.s0029","gloss":"Tết âm lịch · đọc như 설랄"}
+{"id":"ko.s0030","gloss":"một quyển sách / quyển sách đó / những quyển sách"}
+{"id":"ko.s0031","gloss":"bạn / các bạn"}
+{"id":"ko.s0032","gloss":"các bạn (rõ ràng là nhiều người)"}
+{"id":"ko.s0033","gloss":"quyển sách này"}
+{"id":"ko.s0034","gloss":"người đó"}
+{"id":"ko.s0035","gloss":"tòa nhà kia"}
+{"id":"ko.s0036","gloss":"nhà bạn (tôi)"}
+{"id":"ko.s0037","gloss":"tên tôi"}
+{"id":"ko.s0038","gloss":"(Tôi) là học sinh"}
+{"id":"ko.s0039","gloss":"(Cô ấy) là bác sĩ"}
+{"id":"ko.s0040","gloss":"(Tôi) không phải là học sinh"}
+{"id":"ko.s0041","gloss":"Đây là cái gì?"}
+{"id":"ko.s0042","gloss":"Tôi là học sinh (nói về tôi thì: học sinh)"}
+{"id":"ko.s0043","gloss":"Tên tôi là Minsu"}
+{"id":"ko.s0044","gloss":"Quyển sách này là sách của tôi"}
+{"id":"ko.s0045","gloss":"Bạn tôi là bác sĩ"}
+{"id":"ko.s0046","gloss":"Có nhà vệ sinh không?"}
+{"id":"ko.s0047","gloss":"Vâng, có"}
+{"id":"ko.s0048","gloss":"Không, không có"}
+{"id":"ko.s0049","gloss":"(Tôi) có thời gian"}
+{"id":"ko.s0050","gloss":"Có một con mèo"}
+{"id":"ko.s0051","gloss":"(Tôi) không có tiền"}
+{"id":"ko.s0052","gloss":"Tôi có một con mèo"}
+{"id":"ko.s0053","gloss":"Bạn có em trai hay em gái không?"}
+{"id":"ko.s0054","gloss":"Tôi không có thời gian"}
+{"id":"ko.s0055","gloss":"(Tôi) đang ở nhà"}
+{"id":"ko.s0056","gloss":"Con mèo ở nhà"}
+{"id":"ko.s0057","gloss":"Nhà vệ sinh ở đâu?"}
+{"id":"ko.s0058","gloss":"Bạn tôi đang ở trường"}
+{"id":"ko.s0059","gloss":"Tôi là học sinh"}
+{"id":"ko.s0060","gloss":"nhà tôi (nghĩa đen: nhà chúng tôi)"}
+{"id":"ko.s0061","gloss":"mẹ tôi"}
+{"id":"ko.s0062","gloss":"Minsu là học sinh phải không?"}
+{"id":"ko.s0063","gloss":"Vị này là giáo viên"}
+{"id":"ko.s0064","gloss":"Ở đằng kia"}
+{"id":"ko.s0065","gloss":"Người kia là ai?"}
+{"id":"ko.s0066","gloss":"Sinh nhật bạn là khi nào?"}
+{"id":"ko.s0067","gloss":"Cái này bao nhiêu tiền?"}
+{"id":"ko.s0068","gloss":"Ai ở đó?"}
+{"id":"ko.s0069","gloss":"tôi đi / bạn đi / cô ấy đi / chúng tôi đi"}
+{"id":"ko.s0070","gloss":"ăn"}
+{"id":"ko.s0071","gloss":"uống"}
+{"id":"ko.s0072","gloss":"Thời tiết đẹp"}
+{"id":"ko.s0073","gloss":"Cái túi to"}
+{"id":"ko.s0074","gloss":"việc học (danh từ) → (tôi) học"}
+{"id":"ko.s0075","gloss":"(Tôi) tập thể dục"}
+{"id":"ko.s0076","gloss":"(Tôi) có thời gian"}
+{"id":"ko.s0077","gloss":"(Tôi) không có tiền"}
+{"id":"ko.s0078","gloss":"đi"}
+{"id":"ko.s0079","gloss":"đến"}
+{"id":"ko.s0080","gloss":"nhìn, xem"}
+{"id":"ko.s0081","gloss":"đọc"}
+{"id":"ko.s0082","gloss":"có (tồn tại, sở hữu)"}
+{"id":"ko.s0083","gloss":"Tôi đi đến trường / Tôi đang đi đến trường"}
+{"id":"ko.s0084","gloss":"Bạn về nhà à?"}
+{"id":"ko.s0085","gloss":"Bây giờ bạn đang làm gì?"}
+{"id":"ko.s0086","gloss":"Bạn tôi đang đến"}
+{"id":"ko.s0087","gloss":"đã đi"}
+{"id":"ko.s0088","gloss":"đã ăn"}
+{"id":"ko.s0089","gloss":"đã học"}
+{"id":"ko.s0090","gloss":"(Nó) đã rất tốt"}
+{"id":"ko.s0091","gloss":"Hôm qua (tôi) đã ở nhà"}
+{"id":"ko.s0092","gloss":"(Tôi) đã không có thời gian"}
+{"id":"ko.s0093","gloss":"(Tôi) đã từng là học sinh"}
+{"id":"ko.s0094","gloss":"(Cô ấy) đã từng là bác sĩ"}
+{"id":"ko.s0095","gloss":"Hôm qua bạn tôi đã đến"}
+{"id":"ko.s0096","gloss":"Hôm qua bạn đã làm gì?"}
+{"id":"ko.s0097","gloss":"(Tôi) đã không đi"}
+{"id":"ko.s0098","gloss":"sẽ đi"}
+{"id":"ko.s0099","gloss":"sẽ xem"}
+{"id":"ko.s0100","gloss":"sẽ làm"}
+{"id":"ko.s0101","gloss":"sẽ ăn"}
+{"id":"ko.s0102","gloss":"sẽ ở (đó)"}
+{"id":"ko.s0103","gloss":"Ngày mai tôi sẽ đi đến trường"}
+{"id":"ko.s0104","gloss":"Cuối tuần bạn sẽ làm gì?"}
+{"id":"ko.s0105","gloss":"Tôi sẽ ở nhà"}
+{"id":"ko.s0106","gloss":"Tôi sẽ không đi"}
+{"id":"ko.s0107","gloss":"Chắc sẽ ngon"}
+{"id":"ko.s0108","gloss":"Ngày mai chắc sẽ lạnh"}
+{"id":"ko.s0109","gloss":"Tôi (chủ đề) cơm (tân ngữ) ăn"}
+{"id":"ko.s0110","gloss":"Bạn (chủ ngữ) cà phê (tân ngữ) uống"}
+{"id":"ko.s0111","gloss":"(Tôi) đọc sách, xem sách"}
+{"id":"ko.s0112","gloss":"(Tôi) uống cà phê"}
+{"id":"ko.s0113","gloss":"(Tôi) học tiếng Hàn"}
+{"id":"ko.s0114","gloss":"(Bạn) ăn cơm chưa?"}
+{"id":"ko.s0115","gloss":"Vâng, (tôi) ăn rồi"}
+{"id":"ko.s0116","gloss":"(Tôi) uống cà phê — lược 를"}
+{"id":"ko.s0117","gloss":"(Tôi) đi đây. / (Bạn) đi à?"}
+{"id":"ko.s0118","gloss":"(Bạn) đi đâu?"}
+{"id":"ko.s0119","gloss":"(Bạn) đang ăn gì?"}
+{"id":"ko.s0120","gloss":"(Tôi) về nhà"}
+{"id":"ko.s0121","gloss":"(Tôi) đi đến trường"}
+{"id":"ko.s0122","gloss":"Bạn tôi đang đến quán cà phê"}
+{"id":"ko.s0123","gloss":"Cuối tuần (tôi) đi đến trường"}
+{"id":"ko.s0124","gloss":"Buổi sáng (tôi) uống cà phê"}
+{"id":"ko.s0125","gloss":"(Tôi) nghỉ ở nhà"}
+{"id":"ko.s0126","gloss":"(Tôi) học ở quán cà phê"}
+{"id":"ko.s0299","gloss":"(Tôi) đến từ Canada"}
+{"id":"ko.s0128","gloss":"Nói về tôi thì, tôi là học sinh"}
+{"id":"ko.s0129","gloss":"Ai đã đến? Bạn tôi đã đến (thông tin mới → 가)"}
+{"id":"ko.s0130","gloss":"(Tôi) không đi"}
+{"id":"ko.s0131","gloss":"(Tôi) không uống cà phê"}
+{"id":"ko.s0132","gloss":"(Tôi) đã không ăn"}
+{"id":"ko.s0133","gloss":"Thời tiết không đẹp"}
+{"id":"ko.s0134","gloss":"(Tôi) không học"}
+{"id":"ko.s0135","gloss":"Cuối tuần (tôi) không tập thể dục"}
+{"id":"ko.s0136","gloss":"(Tôi) không thích cà phê"}
+{"id":"ko.s0137","gloss":"(Tôi) không đi"}
+{"id":"ko.s0138","gloss":"(Tôi) không ăn thịt"}
+{"id":"ko.s0139","gloss":"(Tôi) đã không học"}
+{"id":"ko.s0140","gloss":"Tôi không phải là học sinh"}
+{"id":"ko.s0141","gloss":"(Cô ấy) không phải là bác sĩ"}
+{"id":"ko.s0142","gloss":"(Tôi) không có thời gian"}
+{"id":"ko.s0143","gloss":"Tôi cũng là học sinh"}
+{"id":"ko.s0144","gloss":"Tôi cũng vậy"}
+{"id":"ko.s0145","gloss":"(Tôi) có cả mèo nữa"}
+{"id":"ko.s0146","gloss":"nói về tôi thì → tôi cũng"}
+{"id":"ko.s0147","gloss":"Bạn tôi cũng đã đến (친구가 → 친구도)"}
+{"id":"ko.s0148","gloss":"(Tôi) đã ăn cả cơm nữa (밥을 → 밥도)"}
+{"id":"ko.s0149","gloss":"(Tôi) chỉ uống cà phê thôi"}
+{"id":"ko.s0150","gloss":"Cho tôi cái này thôi"}
+{"id":"ko.s0151","gloss":"Cho tôi nước thôi"}
+{"id":"ko.s0152","gloss":"(Tôi) chỉ ăn cơm thôi"}
+{"id":"ko.s0153","gloss":"Ở nhà cũng có"}
+{"id":"ko.s0154","gloss":"Ở trường (tôi) cũng học"}
+{"id":"ko.s0155","gloss":"(Tôi) chỉ tập thể dục vào cuối tuần"}
+{"id":"ko.s0156","gloss":"Cà phê ngon"}
+{"id":"ko.s0157","gloss":"(Tôi) đi đến quán cà phê"}
+{"id":"ko.s0158","gloss":"(Tôi) uống"}
+{"id":"ko.s0159","gloss":"(Tôi) uống cà phê ở quán cà phê"}
+{"id":"ko.s0160","gloss":"Hôm nay tôi uống cà phê ở quán cà phê với bạn"}
+{"id":"ko.s0161","gloss":"(Tôi) uống nước — danh từ mới"}
+{"id":"ko.s0162","gloss":"(Tôi) mua cà phê — động từ mới"}
+{"id":"ko.s0163","gloss":"(Tôi) không uống cà phê — 안 trước động từ"}
+{"id":"ko.s0164","gloss":"Bạn có uống cà phê không? — cùng các từ đó, lên giọng"}
+{"id":"ko.s0165","gloss":"(Tôi) muốn đi"}
+{"id":"ko.s0166","gloss":"(Tôi) muốn ăn"}
+{"id":"ko.s0167","gloss":"(Tôi) muốn xem (nó) / Tôi nhớ bạn"}
+{"id":"ko.s0168","gloss":"(Tôi) muốn uống cà phê"}
+{"id":"ko.s0169","gloss":"(Tôi) muốn đi Hàn Quốc"}
+{"id":"ko.s0170","gloss":"Bạn muốn ăn gì?"}
+{"id":"ko.s0171","gloss":"(Tôi) không muốn đi"}
+{"id":"ko.s0172","gloss":"(Tôi) đã muốn đi"}
+{"id":"ko.s0173","gloss":"(Tôi) thích cà phê"}
+{"id":"ko.s0174","gloss":"(Tôi) thích phim ảnh"}
+{"id":"ko.s0175","gloss":"Cà phê ngon / Tôi thích cà phê"}
+{"id":"ko.s0176","gloss":"Bạn thích gì?"}
+{"id":"ko.s0177","gloss":"Cho tôi hai cốc cà phê (số thuần Hàn + đơn vị đếm 잔)"}
+{"id":"ko.s0178","gloss":"Giá 5.000 won (số Hán Hàn)"}
+{"id":"ko.s0179","gloss":"2 giờ 30 phút (giờ: số thuần Hàn, phút: số Hán Hàn)"}
+{"id":"ko.s0180","gloss":"Tôi 25 tuổi (số thuần Hàn + 살)"}
+{"id":"ko.s0181","gloss":"Xin lỗi, cho hỏi! (gọi nhân viên)"}
+{"id":"ko.s0182","gloss":"Cho tôi cái này (chỉ vào thực đơn)"}
+{"id":"ko.s0183","gloss":"Cho tôi nước"}
+{"id":"ko.s0184","gloss":"Tính tiền giúp tôi"}
+{"id":"ko.s0185","gloss":"Cho tôi hai cuộn gimbap"}
+{"id":"ko.s0186","gloss":"Cho tôi ba cốc bia"}
+{"id":"ko.s0187","gloss":"Cảm ơn vì bữa ăn (trước khi ăn) – nghĩa đen: “tôi sẽ ăn ngon”"}
+{"id":"ko.s0188","gloss":"Cảm ơn vì bữa ăn ngon (sau khi ăn) – nghĩa đen: “tôi đã ăn ngon”"}
+{"id":"ko.s0189","gloss":"Ga tàu điện ngầm ở đâu?"}
+{"id":"ko.s0190","gloss":"Đi thẳng"}
+{"id":"ko.s0191","gloss":"Đi về bên trái (으로 = về phía)"}
+{"id":"ko.s0192","gloss":"Cho tôi đi Myeongdong"}
+{"id":"ko.s0193","gloss":"Dừng ở đây giúp tôi"}
+{"id":"ko.s0194","gloss":"Ga tiếp theo là ga Gangnam"}
+{"id":"ko.s0195","gloss":"Ông chủ ơi, tính tiền giúp tôi"}
+{"id":"ko.s0196","gloss":"Minsu, bạn có rảnh không?"}
+{"id":"ko.s0197","gloss":"(con gái nói với chàng trai lớn tuổi hơn) Anh ơi, đang làm gì thế?"}
+{"id":"ko.s0198","gloss":"Cuối tuần chúng ta làm gì nhỉ?"}
+{"id":"ko.s0199","gloss":"Bạn có muốn ăn tối cùng không?"}
+{"id":"ko.s0200","gloss":"Được đấy, mấy giờ chúng ta gặp nhé?"}
+{"id":"ko.s0201","gloss":"Gặp nhau lúc 7 giờ ở cửa ra số 2 ga Đại học Hongik nhé"}
+{"id":"ko.s0202","gloss":"Được đấy / Chốt!"}
+{"id":"ko.s0203","gloss":"Xin lỗi nhé, hôm đó mình có hẹn rồi"}
+{"id":"ko.s0204","gloss":"Lần sau nhất định đi nhé"}
+{"id":"ko.s0205","gloss":"Giờ đang ở đâu?"}
+{"id":"ko.s0206","gloss":"Mình gần đến rồi"}
+{"id":"ko.s0207","gloss":"Ok, 5 phút nữa"}
+{"id":"ko.s0208","gloss":"Đói quá ㅠㅠ ăn gì đây"}
+{"id":"ko.s0209","gloss":"Vâng, tôi đã xác nhận (nhắn tin công việc)"}
+{"id":"ko.s0210","gloss":"Cho tôi hai cốc cà phê"}
+{"id":"ko.s0211","gloss":"Đi mấy người? Bốn người"}
+{"id":"ko.s0212","gloss":"Cho tôi hai vé"}
+{"id":"ko.s0213","gloss":"Tôi có ba con mèo"}
+{"id":"ko.s0214","gloss":"Rẻ và ngon"}
+{"id":"ko.s0215","gloss":"(Tôi) ăn cơm rồi uống cà phê"}
+{"id":"ko.s0216","gloss":"Đắt nhưng ngon"}
+{"id":"ko.s0217","gloss":"(Tôi) muốn đi nhưng không có thời gian"}
+{"id":"ko.s0218","gloss":"Tôi bận nên không đi"}
+{"id":"ko.s0219","gloss":"Tôi đói nên đã ăn cơm"}
+{"id":"ko.s0220","gloss":"(Tôi) đến quán cà phê rồi học (ở đó)"}
+{"id":"ko.s0221","gloss":"(Tôi) đã về nhà rồi nghỉ ngơi"}
+{"id":"ko.s0222","gloss":"Tôi bận nên đã không đi"}
+{"id":"ko.s0223","gloss":"Hôm qua tôi đã gặp một người bạn"}
+{"id":"ko.s0224","gloss":"Trước tiên, chúng tôi đã đến quán cà phê"}
+{"id":"ko.s0225","gloss":"Và chúng tôi đã uống cà phê"}
+{"id":"ko.s0226","gloss":"Sau đó, chúng tôi đã xem phim"}
+{"id":"ko.s0227","gloss":"Nhưng bộ phim đã dài quá"}
+{"id":"ko.s0228","gloss":"Vì vậy tôi đã về nhà muộn"}
+{"id":"ko.s0229","gloss":"Cuối tuần trước bạn đã làm gì?"}
+{"id":"ko.s0230","gloss":"Lúc nãy tôi đã ăn trưa rồi"}
+{"id":"ko.s0231","gloss":"cái túi to (크다)"}
+{"id":"ko.s0232","gloss":"bông hoa đẹp (예쁘다)"}
+{"id":"ko.s0233","gloss":"thời tiết đẹp (좋다)"}
+{"id":"ko.s0234","gloss":"ngôi nhà nhỏ (작다)"}
+{"id":"ko.s0235","gloss":"món ăn ngon"}
+{"id":"ko.s0236","gloss":"bộ phim hay"}
+{"id":"ko.s0237","gloss":"món ăn cay (맵다)"}
+{"id":"ko.s0238","gloss":"thời tiết lạnh (춥다)"}
+{"id":"ko.s0239","gloss":"bộ phim dài (길다)"}
+{"id":"ko.s0240","gloss":"(Tôi) có một cái túi to"}
+{"id":"ko.s0241","gloss":"(Tôi) thích món ăn cay"}
+{"id":"ko.s0242","gloss":"Chúc bạn một ngày tốt lành"}
+{"id":"ko.s0243","gloss":"Xe buýt rẻ hơn taxi"}
+{"id":"ko.s0244","gloss":"Hôm nay lạnh hơn hôm qua"}
+{"id":"ko.s0245","gloss":"Xe buýt rẻ hơn taxi (cùng nghĩa)"}
+{"id":"ko.s0246","gloss":"Cho tôi thêm"}
+{"id":"ko.s0247","gloss":"Có túi nào to hơn không?"}
+{"id":"ko.s0248","gloss":"Ít cay hơn"}
+{"id":"ko.s0249","gloss":"Cái này ngon nhất"}
+{"id":"ko.s0250","gloss":"Món ăn bạn thích nhất là gì?"}
+{"id":"ko.s0251","gloss":"Cái nào tốt hơn?"}
+{"id":"ko.s0252","gloss":"Chỗ nào rẻ nhất?"}
+{"id":"ko.s0253","gloss":"Tôi không ăn đồ cay (vì không muốn)"}
+{"id":"ko.s0254","gloss":"Tôi không ăn được đồ cay (cay quá)"}
+{"id":"ko.s0255","gloss":"Hôm nay tôi không đi được"}
+{"id":"ko.s0296","gloss":"Tôi không biết bơi (không có khả năng: 못해요, viết liền)"}
+{"id":"ko.s0257","gloss":"Hôm nay tôi không tập thể dục được"}
+{"id":"ko.s0258","gloss":"Bạn nói được tiếng Hàn không?"}
+{"id":"ko.s0259","gloss":"Tôi nói được một chút"}
+{"id":"ko.s0260","gloss":"Tôi ăn được kimchi"}
+{"id":"ko.s0261","gloss":"Ngày mai tôi không thể đi"}
+{"id":"ko.s0262","gloss":"Tôi không chắc lắm"}
+{"id":"ko.s0263","gloss":"Tôi không biết đường"}
+{"id":"ko.s0264","gloss":"Tôi cũng không biết"}
+{"id":"ko.s0265","gloss":"(Tôi) phải đi bây giờ"}
+{"id":"ko.s0266","gloss":"(Tôi) phải ăn cơm"}
+{"id":"ko.s0267","gloss":"Ngày mai (tôi) phải làm việc"}
+{"id":"ko.s0268","gloss":"(Tôi) phải học"}
+{"id":"ko.s0269","gloss":"Tôi có phải đi bây giờ không?"}
+{"id":"ko.s0270","gloss":"Tôi phải làm gì?"}
+{"id":"ko.s0271","gloss":"Hôm qua (tôi) đã phải làm việc"}
+{"id":"ko.s0272","gloss":"(Bạn) không đi cũng được"}
+{"id":"ko.s0273","gloss":"(Bạn) không ăn cũng được"}
+{"id":"ko.s0274","gloss":"Đi đâu ạ? (nói với người lớn tuổi)"}
+{"id":"ko.s0275","gloss":"Đã đến từ bao giờ ạ? (kính ngữ)"}
+{"id":"ko.s0276","gloss":"Mời ngồi đây"}
+{"id":"ko.s0277","gloss":"Chúc ngon miệng (nghĩa đen: “xin dùng cho ngon”)"}
+{"id":"ko.s0278","gloss":"Chúc ngủ ngon ạ (nói với người lớn tuổi)"}
+{"id":"ko.s0279","gloss":"Ông chủ có ở đây không?"}
+{"id":"ko.s0280","gloss":"Không biết ở đây có thực đơn tiếng Anh không?"}
+{"id":"ko.s0281","gloss":"Nói chậm giúp tôi được không?"}
+{"id":"ko.s0282","gloss":"Đổi cho chúng tôi sang chỗ cạnh cửa sổ được không?"}
+{"id":"ko.s0283","gloss":"Tôi sạc pin ở đây được không?"}
+{"id":"ko.s0284","gloss":"Tôi xin lỗi, nhưng không được"}
+{"id":"ko.s0285","gloss":"Không sao, không cần đâu"}
+{"id":"ko.s0286","gloss":"Chúc làm việc tốt ạ (nói với người còn ở lại làm việc khi bạn ra về)"}
+{"id":"ko.s0287","gloss":"Hôm nay đã vất vả rồi ạ (nói với cấp trên, sau giờ làm)"}
+{"id":"ko.s0288","gloss":"Vất vả rồi (nói với cấp dưới hoặc người ngang hàng)"}
+{"id":"ko.s0300","gloss":"Xin chào, tôi là @@, nhóm Marketing"}
+{"id":"ko.s0290","gloss":"Tôi xin liên hệ về bản báo cáo"}
+{"id":"ko.s0291","gloss":"Xin vui lòng kiểm tra giúp"}
+{"id":"ko.s0301","gloss":"Xin cảm ơn. @@ kính thư"}
+{"id":"ko.s0293","gloss":"Mời uống một ly ạ (khi rót rượu cho cấp trên)"}
+{"id":"ko.s0294","gloss":"Tôi phải lái xe nên (xin phép không uống)"}

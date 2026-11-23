@@ -1,0 +1,56 @@
+{"id":"ko.d.hangul-vowels","label":"Vokal (Hangul)","desc":"10 vokal dasar: kuasai ini, dan kamu bisa membunyikan kata apa pun. eo, eu dan ae masing-masing satu vokal. eo bukan o; eu = u sambil tersenyum; ae dan e = e pada \"sate\"."}
+{"id":"ko.d.hangul-consonants","label":"Konsonan (Hangul)","desc":"14 konsonan dasar dan perubahannya di akhir suku kata. g, d, b, j seperti bahasa Indonesia; k, t, p, ch dengan embusan; r tidak digetarkan; di akhir suku kata dibaca l."}
+{"id":"ko.d.hangul-advanced","label":"Lanjutan (Hangul)","desc":"Konsonan tegang dan berembus, vokal gabungan, konsonan akhir ganda. kk, tt, pp, ss, jj: tegang, bukan panjang; seperti k, t, p Indonesia tetapi lebih kencang."}
+{"id":"ko.d.pronunciation-tips","label":"Tips pelafalan","desc":"Aturan bunyi yang membuat ucapan sehari-hari berbeda dari ejaannya."}
+{"id":"ko.d.survival-phrases","label":"Frasa penting","desc":"12 kalimat yang membantumu melewati satu hari di Korea."}
+{"id":"ko.d.introductions","label":"Perkenalan","desc":"Nama, asal, umur, pekerjaan, hobi: naskah untuk pertemuan pertama."}
+{"id":"ko.d.survival-phrases-2","label":"Frasa penting 2","desc":"Minta bantuan, minta diulang, membayar, menemukan jalan lagi."}
+{"id":"ko.d.asking-around","label":"Tanya tempat","desc":"Toilet, pintu keluar, tempat duduk, wifi, jam buka: semua pertanyaan \"di mana\"."}
+{"id":"ko.d.cafe-convenience-store","label":"Kafe & minimarket","desc":"Ukuran, panas atau dingin, kartu poin, menghangatkan makanan, kantong plastik."}
+{"id":"ko.d.numbers-in-the-wild","label":"Angka sehari-hari","desc":"Harga, nomor telepon, lantai dan jam, seperti yang benar-benar tertulis."}
+{"id":"ko.d.counters","label":"Kata penggolong","desc":"Cara menghitung barang, orang, gelas, botol, dan hewan."}
+{"id":"ko.d.weather-feelings","label":"Cuaca & perasaan","desc":"Cuaca dan perasaanmu, dua pembuka obrolan yang paling umum."}
+{"id":"ko.d.connectors","label":"Kata sambung","desc":"Dan, jadi, tapi, lalu: perekat untuk bercerita."}
+{"id":"ko.d.doctor-pharmacy","label":"Dokter & apotek","desc":"Gejala, obat, alergi, resep."}
+{"id":"ko.d.housing-errands","label":"Tempat tinggal & urusan","desc":"Sewa, uang jaminan, paket, daur ulang, cucian."}
+{"id":"ko.d.honorifics","label":"Bentuk hormat","desc":"Meninggikan subjek: 드시다, 주무시다, 계시다 dan -(으)시-."}
+{"id":"ko.d.places-buildings","label":"Tempat & gedung","desc":"Kafe, pusat kebugaran, perpustakaan, museum, rumah: tempat-tempat yang kamu tuju."}
+{"id":"ko.d.hobbies","label":"Hobi","desc":"Jawab 취미가 뭐예요? dengan kata-kata yang tepat."}
+{"id":"ko.d.food-words","label":"Makanan","desc":"Hidangan dan bahan yang ada di setiap menu."}
+{"id":"ko.d.drinks","label":"Minuman","desc":"Kopi, teh, soju, bir, dan cara memesan satu lagi."}
+{"id":"ko.d.activities","label":"Kegiatan","desc":"Kata kerja sehari-hari \"saya melakukan X\" dalam bentuk sopan."}
+{"id":"ko.d.tv-entertainment","label":"TV & hiburan","desc":"Drama, acara varietas, genre, episode, maraton menonton."}
+{"id":"ko.d.position-direction-words","label":"Posisi & arah","desc":"Atas, samping, seberang, pintu keluar, lantai: menaruh dan menemukan barang."}
+{"id":"ko.d.core-verbs","label":"Kata kerja inti","desc":"12 kata kerja yang kamu pakai setiap hari, dalam bentuk sopan."}
+{"id":"ko.d.particles","label":"Partikel","desc":"Kata kecil yang menandai topik, subjek, objek, dan tempat."}
+{"id":"ko.d.numbers","label":"Bilangan","desc":"Bilangan asli Korea dan bilangan Sino-Korea, dan kapan memakai masing-masing."}
+{"id":"ko.d.sweet-talk","label":"Kata-kata manis","desc":"Imut, cantik, rindu: untuk orang yang dekat denganmu."}
+{"id":"ko.d.cute-things-to-say","label":"Ucapan imut","desc":"Pujian dan kalimat perhatian yang mengena."}
+{"id":"ko.d.flirting","label":"Pendekatan","desc":"Minta nomor, mengajak kencan, mengungkapkan perasaan."}
+{"id":"ko.d.casual-texting","label":"Chat santai","desc":"Singkatan KakaoTalk dan kalimat yang benar-benar dikirim antarteman."}
+{"id":"ko.d.hype-cool","label":"Keren & semangat","desc":"Pujian, penyemangat, dan bahasa gaul antarteman."}
+{"id":"ko.d.hanging-out","label":"Nongkrong","desc":"Mengajak, menentukan tempat dan waktu, lalu pamit."}
+{"id":"ko.d.k-pop-fan-culture","label":"K-pop & fandom","desc":"Kosakata fandom dari 최애 sampai 떼창."}
+{"id":"ko.d.social-media-slang","label":"Medsos & bahasa gaul","desc":"Instagram, meme, dan bahasa gaul terkini."}
+{"id":"ko.d.dating-deeper","label":"Hubungan lebih serius","desc":"Memperjelas hubungan, pujian yang tulus, minta maaf, menenangkan pasangan."}
+{"id":"ko.d.work-office","label":"Kerja & kantor","desc":"Rapat, tenggat, minta bantuan rekan, pulang tepat waktu, 회식."}
+{"id":"ko.d.small-talk","label":"Basa-basi","desc":"Kabar terbaru, cuaca, rencana akhir pekan, cara pamit yang benar."}
+{"id":"ko.d.food-ordering","label":"Memesan makanan","desc":"Memesan, kata penggolong untuk makanan, dua ungkapan saat makan."}
+{"id":"ko.d.directions-transport","label":"Arah & transportasi","desc":"Kiri, kanan, lurus; kereta bawah tanah, bus, taksi."}
+{"id":"ko.d.time-days","label":"Waktu & hari","desc":"Hari ini, besok, nama-nama hari, jam berapa sekarang."}
+{"id":"ko.d.family-people","label":"Keluarga & orang","desc":"Ibu, ayah, saudara, teman, guru, dan bagaimana usia mengubah sapaannya."}
+{"id":"ko.d.adjectives","label":"Kata sifat","desc":"Bagus, jelek, besar, kecil, panas, dingin, sibuk, seru."}
+{"id":"ko.d.k-drama-phrases","label":"Frasa drakor","desc":"Reaksi dan kalimat yang kamu dengar di setiap episode."}
+{"id":"ko.d.top-nouns","label":"Kata benda utama","desc":"Kata benda Korea yang paling sering dipakai dan belum diajarkan di kursus ini, mulai dari yang paling sering."}
+{"id":"ko.d.top-verbs","label":"Kata kerja utama","desc":"Kata kerja tindakan dalam bentuk kamus; catatannya memberi bentuk 해요 dan menandai kata kerja tak beraturan."}
+{"id":"ko.d.top-adjectives","label":"Kata sifat utama","desc":"Kata sifat (kata sifat Korea berubah seperti kata kerja): bentuk 해요 dan bentuk sebelum kata benda."}
+{"id":"ko.d.top-adverbs","label":"Kata keterangan utama","desc":"Kata keterangan waktu, kadar, frekuensi, dan cara: sangat, sudah, sering, kenapa, bagaimana."}
+{"id":"ko.d.top-pronouns","label":"Kata ganti utama","desc":"Saya, kamu, yang ini, siapa, tidak seorang pun, dan mengapa nama dan jabatan biasanya menggantikan \"kamu\"."}
+{"id":"ko.d.top-particles","label":"Partikel tambahan","desc":"Padanan kata depan dalam bahasa Korea: partikel di luar sembilan partikel di dek Partikel."}
+{"id":"ko.d.top-connectors","label":"Kata sambung tambahan","desc":"Akhiran penyambung (-고, -지만, -아서, -(으)면 …) yang dipasang pada kata kerja, plus kata sambung yang tidak ada di dek Kata sambung."}
+{"id":"ko.d.top-interjections","label":"Kata seru utama","desc":"Seruan orang Korea yang sebenarnya: wah, aduh, ups, fiuh, tara, dan siapa yang mengucapkan masing-masing."}
+{"id":"ko.d.top-words","label":"Kata-kata berguna","desc":"Ini / itu / yang mana sebelum kata benda, bentuk bilangan, hari dan waktu, dan cara bilang ya dan tidak."}
+{"id":"ko.d.top-counters","label":"Kata penggolong tambahan","desc":"Kata penggolong yang tidak ada di dek Kata penggolong: mobil, porsi, gulungan, potongan, menit, bulan."}
+{"id":"ko.d.flirting-words","label":"Kosakata pendekatan","desc":"Kata-kata yang dipakai orang Korea untuk merayu, kalimat yang dibentuk darinya, dan cara halus untuk bilang ya atau tidak."}
+{"id":"ko.d.compliments","label":"Pujian","desc":"Pujian sehari-hari untuk makanan, pekerjaan, rumah, dan anak, serta cara rendah hati untuk menjawabnya."}
+{"id":"ko.d.countries","label":"Negara","desc":"Semua negara, yang paling sering ditanyakan lebih dulu. Negara + 에서 왔어요 = saya dari…; + 사람 = kewarganegaraan; + 어 = bahasa."}

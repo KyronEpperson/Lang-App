@@ -51,7 +51,7 @@
 {"f": "cards", "id": "ko.c0518", "k": "meaning", "src": "effortlessly styled", "tgt": "बिना मेहनत के स्टाइलिश"}
 {"f": "cards", "id": "ko.c0518", "k": "note", "src": "꾸민 듯 안 꾸민 듯. The 'I woke up like this' look.", "tgt": "꾸민 듯 안 꾸민 듯 (सजा भी, नहीं भी)। \"सुबह उठते ही ऐसा\" वाला लुक।"}
 {"f": "cards", "id": "ko.c0519", "k": "meaning", "src": "insanely delicious", "tgt": "हद से ज़्यादा टेस्टी"}
-{"f": "cards", "id": "ko.c0519", "k": "note", "src": "Very casual slang with a vulgar origin: only with close friends. JMT in texts.", "tgt": "बहुत कैज़ुअल स्लैंग, जिसकी जड़ एक अश्लील शब्द है: सिर्फ़ पक्के दोस्तों के साथ। मैसेज में JMT।"}
+{"f": "cards", "id": "ko.c0519", "k": "note", "src": "Very casual slang with a vulgar origin: only with close friends. JMT in texts.", "tgt": "बहुत अनौपचारिक स्लैंग, जिसकी जड़ एक अश्लील शब्द है: सिर्फ़ पक्के दोस्तों के साथ। मैसेज में JMT।"}
 {"f": "cards", "id": "ko.c0520", "k": "meaning", "src": "agreed / facts", "tgt": "सहमत / सही बात"}
 {"f": "cards", "id": "ko.c0520", "k": "note", "src": "Text shorthand for 인정.", "tgt": "인정 (सही बात) का छोटा रूप, मैसेज में।"}
 {"f": "cards", "id": "ko.c0521", "k": "meaning", "src": "for real", "tgt": "सच में"}
@@ -82,7 +82,7 @@
 {"f": "cards", "id": "ko.c0533", "k": "note", "src": "잘못하다 = to do wrong. Own it.", "tgt": "잘못하다 = ग़लती करना। ग़लती मान लें।"}
 {"f": "cards", "id": "ko.c0534", "k": "meaning", "src": "Don't be mad anymore", "tgt": "अब ग़ुस्सा छोड़ो"}
 {"f": "cards", "id": "ko.c0534", "k": "note", "src": "풀다 = to untie / release. 화 풀어 줘 softer.", "tgt": "풀다 = खोलना / छोड़ना। 화 풀어 줘 ज़्यादा नरम है।"}
-{"f": "cards", "id": "ko.c0535", "k": "meaning", "src": "Don't worry, you have me", "tgt": "फ़िक्र मत करो, मैं हूँ ना"}
+{"f": "cards", "id": "ko.c0535", "k": "meaning", "src": "Don't worry, you have me", "tgt": "चिंता मत करो, मैं हूँ ना"}
 {"f": "cards", "id": "ko.c0535", "k": "note", "src": "잖아 = 'you know'. Reassurance.", "tgt": "잖아 = \"है ना\"। तसल्ली देने के लिए।"}
 {"f": "cards", "id": "ko.c0536", "k": "meaning", "src": "How was the date today?", "tgt": "आज की डेट कैसी रही?"}
 {"f": "cards", "id": "ko.c0536", "k": "note", "src": "어땠어 = how was it.", "tgt": "어땠어 = कैसा रहा।"}
@@ -95,7 +95,7 @@
 {"f": "cards", "id": "ko.c0540", "k": "meaning", "src": "Hug me", "tgt": "मुझे गले लगा लो"}
 {"f": "cards", "id": "ko.c0540", "k": "note", "src": "안다 = to hug. 안아 줄게 = I'll hug you.", "tgt": "안다 = गले लगाना। 안아 줄게 = मैं तुम्हें गले लगाऊँगा/लगाऊँगी।"}
 {"f": "cards", "id": "ko.c0541", "k": "meaning", "src": "I miss you to death", "tgt": "तुम्हारी याद में जान निकल रही है"}
-{"f": "cards", "id": "ko.c0541", "k": "note", "src": "죽겠어 = 'I'll die' intensifier. Casual, dramatic.", "tgt": "죽겠어 = \"मर जाऊँगा/जाऊँगी\" वाला ज़ोर। कैज़ुअल और ड्रामेटिक।"}
+{"f": "cards", "id": "ko.c0541", "k": "note", "src": "죽겠어 = 'I'll die' intensifier. Casual, dramatic.", "tgt": "죽겠어 = \"मर जाऊँगा/जाऊँगी\" वाला ज़ोर। अनौपचारिक और ड्रामेटिक।"}
 {"f": "cards", "id": "ko.c0542", "k": "meaning", "src": "I have something to tell you", "tgt": "मुझे तुमसे कुछ कहना है"}
 {"f": "cards", "id": "ko.c0542", "k": "note", "src": "Sets up a serious talk. 한테 = to (person).", "tgt": "गंभीर बात की शुरुआत। 한테 = को (किसी व्यक्ति को)।"}
 {"f": "cards", "id": "ko.c0543", "k": "meaning", "src": "I think we're a good match", "tgt": "मुझे लगता है हमारी अच्छी जमती है"}
@@ -277,7 +277,7 @@
 {"f": "cards", "id": "ko.c0631", "k": "meaning", "src": "Awesome / no way", "tgt": "ज़बरदस्त / क्या बात है"}
 {"f": "cards", "id": "ko.c0631", "k": "note", "src": "Good or bad surprise. 대박 사건 = huge deal.", "tgt": "अच्छा या बुरा, कोई भी सरप्राइज़। 대박 사건 = बहुत बड़ी बात।"}
 {"f": "cards", "id": "ko.c0632", "k": "meaning", "src": "OMG / what", "tgt": "अरे बाप रे / क्या!"}
-{"f": "cards", "id": "ko.c0632", "k": "note", "src": "Stunned reaction. Mostly texting and casual speech.", "tgt": "हैरानी वाला रिएक्शन। ज़्यादातर मैसेज और कैज़ुअल बातचीत में।"}
+{"f": "cards", "id": "ko.c0632", "k": "note", "src": "Stunned reaction. Mostly texting and casual speech.", "tgt": "हैरानी वाला रिएक्शन। ज़्यादातर मैसेज और अनौपचारिक बातचीत में।"}
 {"f": "cards", "id": "ko.c0633", "k": "meaning", "src": "Oh my / ugh", "tgt": "हाय राम / उफ़"}
 {"f": "cards", "id": "ko.c0633", "k": "note", "src": "Sigh word for any small misfortune.", "tgt": "किसी भी छोटी मुसीबत पर निकलने वाली आह।"}
 {"f": "cards", "id": "ko.c0634", "k": "meaning", "src": "It's okay", "tgt": "ठीक है"}
@@ -341,7 +341,7 @@
 {"f": "dialog", "id": "ko.g043", "k": "tr", "src": "Do you have a points card? / No, that's okay.", "tgt": "आपके पास पॉइंट्स कार्ड है? / जी नहीं, ठीक है।"}
 {"f": "dialog", "id": "ko.g044", "k": "tr", "src": "Please heat this up. / Sure, it takes a minute.", "tgt": "इसे गरम कर दीजिए। / जी, 1 मिनट लगेगा।"}
 {"f": "dialog", "id": "ko.g045", "k": "tr", "src": "Do you need a bag? / Yes, one please.", "tgt": "आपको थैली चाहिए? / जी, एक दीजिए।"}
-{"f": "dialog", "id": "ko.g046", "k": "tr", "src": "Cash or card? / Card.", "tgt": "कैश या कार्ड? / कार्ड से दूँगा/दूँगी।"}
+{"f": "dialog", "id": "ko.g046", "k": "tr", "src": "Cash or card? / Card.", "tgt": "कैश या कार्ड? / कार्ड से पेमेंट करूँगा/करूँगी।"}
 {"f": "dialog", "id": "ko.g047", "k": "tr", "src": "Where is a pharmacy? / On the first floor of that building.", "tgt": "फ़ार्मेसी कहाँ है? / उस बिल्डिंग के ग्राउंड फ़्लोर पर है।"}
 {"f": "dialog", "id": "ko.g048", "k": "tr", "src": "Where does it hurt? / My head hurts. I have a fever too.", "tgt": "आपको कहाँ दर्द है? / सिर में दर्द है। बुख़ार भी है।"}
 {"f": "dialog", "id": "ko.g049", "k": "tr", "src": "Do you have painkillers? / Yes, take these after a meal.", "tgt": "दर्द की दवा है? / जी, यह खाने के बाद लीजिए।"}
@@ -393,8 +393,8 @@
 {"f": "dialog", "id": "ko.g095", "k": "tr", "src": "Please sit here. / Thank you.", "tgt": "यहाँ बैठिए। / धन्यवाद।"}
 {"f": "dialog", "id": "ko.g096", "k": "tr", "src": "Anyone home? / Yes, come in!", "tgt": "कोई है घर पर? / जी, अंदर आइए!"}
 {"f": "dialog", "id": "ko.g097", "k": "tr", "src": "Teacher, have you been well? / Yes, thanks to you. Long time no see.", "tgt": "टीचर, इतने दिन आप कैसे रहे? / जी, आपकी दुआ से। बहुत दिनों बाद मिले।"}
-{"f": "dialog", "id": "ko.g098", "k": "tr", "src": "Would you mind taking a photo? / Of course. One, two, three!", "tgt": "आप ज़रा एक फ़ोटो खींच दीजिएगा? / जी, ज़रूर। एक, दो, तीन!"}
-{"f": "dialog", "id": "ko.g099", "k": "tr", "src": "What are we? / Hmm… I like you. Want to go out?", "tgt": "हमारे बीच क्या है? / हम्म… मुझे तुम पसंद हो। मेरे साथ डेट करोगे?"}
+{"f": "dialog", "id": "ko.g098", "k": "tr", "src": "Would you mind taking a photo? / Of course. One, two, three!", "tgt": "कहीं आप ज़रा एक फ़ोटो खींच दीजिएगा? / जी, ज़रूर। एक, दो, तीन!"}
+{"f": "dialog", "id": "ko.g099", "k": "tr", "src": "What are we? / Hmm… I like you. Want to go out?", "tgt": "हमारे बीच क्या है? / हम्म… तुम मुझे पसंद हो। मेरे साथ डेट करोगे?"}
 {"f": "dialog", "id": "ko.g100", "k": "tr", "src": "Why didn't you text yesterday? / Sorry, my fault. Don't be mad.", "tgt": "कल मैसेज क्यों नहीं किया? / सॉरी, ग़लती मेरी थी। अब ग़ुस्सा छोड़ो।"}
 {"f": "dialog", "id": "ko.g101", "k": "tr", "src": "How is it being with me? / I feel comfortable. That's the best part.", "tgt": "मेरे साथ रहकर कैसा लगता है? / तुम्हारे साथ मुझे सुकून मिलता है। वही सबसे अच्छा है।"}
 {"f": "dialog", "id": "ko.g102", "k": "tr", "src": "Can I hold your hand? / Yeah… is it because you're cold?", "tgt": "तुम्हारा हाथ पकड़ लूँ? / हाँ… ठंड लग रही है क्या?"}
@@ -412,18 +412,18 @@
 {"f": "dialog", "id": "ko.g114", "k": "tr", "src": "What's with him? / Dunno. I'm curious too.", "tgt": "उसे क्या हुआ है? / पता नहीं। मुझे भी जानना है।"}
 {"f": "dialog", "id": "ko.g115", "k": "tr", "src": "I saved us seats. / You really are the best.", "tgt": "मैंने हमारे लिए जगह रख ली है। / तुम सच में सबसे बढ़िया हो।"}
 {"f": "dialog", "id": "ko.g116", "k": "tr", "src": "Karaoke tonight? / Let's go! My treat.", "tgt": "आज कराओके कैसा रहेगा? / चलो! मेरी तरफ़ से।"}
-{"f": "dialog", "id": "ko.g117", "k": "tr", "src": "I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.", "tgt": "लगता है मेरा प्रेज़ेंटेशन बिगड़ जाएगा। / फ़िक्र मत करो। बस जैसी प्रैक्टिस की है, वैसा ही करो।"}
+{"f": "dialog", "id": "ko.g117", "k": "tr", "src": "I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.", "tgt": "लगता है मेरा प्रेज़ेंटेशन बिगड़ जाएगा। / चिंता मत करो। बस जैसी प्रैक्टिस की है, वैसा ही करो।"}
 {"f": "dialog", "id": "ko.g118", "k": "tr", "src": "Finally done. / Nice work. A beer?", "tgt": "आख़िरकार ख़त्म हुआ। / बढ़िया काम किया। एक बियर?"}
 {"f": "dialog", "id": "ko.g119", "k": "tr", "src": "How's this? Just bought it. / Cute. It suits you.", "tgt": "यह कैसा है? अभी ख़रीदा। / क्यूट है। तुम पर बहुत जँच रहा है।"}
 {"f": "dialog", "id": "ko.g120", "k": "tr", "src": "I miss you. / Me too. Let's meet this weekend.", "tgt": "तुम्हारी याद आ रही है। / मुझे भी। वीकेंड पर मिलते हैं।"}
-{"f": "dialog", "id": "ko.g121", "k": "tr", "src": "I like you. / …Me too. You should've said sooner.", "tgt": "मुझे तुम पसंद हो। / …मुझे भी। पहले क्यों नहीं बताया?"}
+{"f": "dialog", "id": "ko.g121", "k": "tr", "src": "I like you. / …Me too. You should've said sooner.", "tgt": "तुम मुझे पसंद हो। / …मुझे भी। पहले क्यों नहीं बताया?"}
 {"f": "dialog", "id": "ko.g122", "k": "tr", "src": "Babe, what are you doing? / Thinking about you, obviously.", "tgt": "जान, क्या कर रहे हो? / तुम्हारा ही ख़याल आ रहा था।"}
 {"f": "dialog", "id": "ko.g123", "k": "tr", "src": "I'm heading out now. / Get home safe. Text me when you arrive.", "tgt": "अब मैं चलता/चलती हूँ। / ध्यान से जाना। पहुँचकर मैसेज करना।"}
 {"f": "dialog", "id": "ko.g124", "k": "tr", "src": "Sleepy. Going to bed. / Okay, sweet dreams.", "tgt": "नींद आ रही है। अब सोता/सोती हूँ। / हाँ, अच्छे सपने देखना।"}
 {"f": "dialog", "id": "ko.g125", "k": "tr", "src": "Why are you smiling like that? / Your smile just now made my heart skip.", "tgt": "ऐसे क्यों मुस्कुरा रहे हो? / अभी तुम्हें मुस्कुराते देखकर दिल धड़क गया।"}
 {"f": "dialog", "id": "ko.g126", "k": "tr", "src": "Why'd you text? / No reason. I keep thinking about you.", "tgt": "मैसेज क्यों किया? / बस ऐसे ही। बार-बार तुम्हारी याद आ रही थी।"}
-{"f": "dialog", "id": "ko.g127", "k": "tr", "src": "You said you had something to say? / I think I like you.", "tgt": "तुम कह रहे थे कुछ कहना है? / लगता है मुझे तुम पसंद हो।"}
-{"f": "dialog", "id": "ko.g128", "k": "tr", "src": "What are we? / Let's date.", "tgt": "हमारे बीच क्या है? / चलो, एक-दूसरे को डेट करते हैं।"}
+{"f": "dialog", "id": "ko.g127", "k": "tr", "src": "You said you had something to say? / I think I like you.", "tgt": "तुम कह रहे थे कुछ कहना है? / लगता है तुम मुझे पसंद हो।"}
+{"f": "dialog", "id": "ko.g128", "k": "tr", "src": "What are we? / Let's date.", "tgt": "हमारे बीच क्या है? / चलो, रिलेशनशिप शुरू करते हैं।"}
 {"f": "dialog", "id": "ko.g129", "k": "tr", "src": "I passed! / Really? Congrats!", "tgt": "मैं पास हो गया/गई! / सच में? बधाई हो!"}
 {"f": "dialog", "id": "ko.g130", "k": "tr", "src": "I'll go first. / Don't go. Stay a little longer.", "tgt": "मैं पहले चलता/चलती हूँ। / मत जाओ। थोड़ी देर और रुको।"}
 {"f": "dialog", "id": "ko.g131", "k": "tr", "src": "Long time no see. / I missed you. Been well?", "tgt": "बहुत दिनों बाद! / तुम्हारी याद आई। कैसे रहे?"}
@@ -441,7 +441,7 @@
 {"f": "dialog", "id": "ko.g143", "k": "tr", "src": "What should I wear today? / Go effortless. Jeans and a white tee.", "tgt": "आज क्या पहनूँ? / बिना मेहनत वाला स्टाइलिश लुक रखो। जींस और सफ़ेद टी-शर्ट।"}
 {"f": "dialog", "id": "ko.g144", "k": "tr", "src": "What are you doing this weekend? / Having a meal with family.", "tgt": "आप वीकेंड पर क्या कर रहे हैं? / परिवार के साथ खाने का प्रोग्राम है।"}
 {"f": "dialog", "id": "ko.g145", "k": "tr", "src": "Who did you come with? / With a friend.", "tgt": "आप किसके साथ आए हैं? / दोस्त के साथ।"}
-{"f": "dialog", "id": "ko.g146", "k": "tr", "src": "Who's that? / That's my older brother.", "tgt": "वह कौन है? / मेरे भैया हैं।"}
+{"f": "dialog", "id": "ko.g146", "k": "tr", "src": "Who's that? / That's my older brother.", "tgt": "वह व्यक्ति कौन है? / मेरे भैया हैं।"}
 {"f": "dialog", "id": "ko.g147", "k": "tr", "src": "Unni, how's this? / It suits you. Buy it.", "tgt": "दीदी, यह कैसा है? / तुम पर अच्छा लग रहा है। ले लो।"}
 {"f": "dialog", "id": "ko.g148", "k": "tr", "src": "Do you have siblings? / Yes, one younger sibling.", "tgt": "आपके भाई-बहन हैं? / जी, एक छोटा भाई-बहन है।"}
 {"f": "dialog", "id": "ko.g149", "k": "tr", "src": "Teacher, I have a question. / Yes, go ahead.", "tgt": "टीचर, मेरा एक सवाल है। / जी, बोलिए।"}
@@ -455,7 +455,7 @@
 {"f": "examples", "id": "ko.e008", "k": "tr", "src": "Are you free tomorrow?", "tgt": "कल आपके पास समय है?"}
 {"f": "examples", "id": "ko.e009", "k": "tr", "src": "I went to bed late yesterday.", "tgt": "कल सोने में देर हो गई।"}
 {"f": "examples", "id": "ko.e010", "k": "tr", "src": "I'm going now!", "tgt": "अभी जा रहा/रही हूँ!"}
-{"f": "examples", "id": "ko.e011", "k": "tr", "src": "Mondays are always busy.", "tgt": "सोमवार हमेशा व्यस्त रहते हैं।"}
+{"f": "examples", "id": "ko.e011", "k": "tr", "src": "Mondays are always busy.", "tgt": "सोमवार को हमेशा बहुत काम रहता है।"}
 {"f": "examples", "id": "ko.e012", "k": "tr", "src": "See you on Friday.", "tgt": "शुक्रवार को मिलते हैं।"}
 {"f": "examples", "id": "ko.e013", "k": "tr", "src": "When did you come to Korea?", "tgt": "आप कोरिया कब आए?"}
 {"f": "examples", "id": "ko.e014", "k": "tr", "src": "I exercise every day.", "tgt": "मैं रोज़ एक्सरसाइज़ करता/करती हूँ।"}

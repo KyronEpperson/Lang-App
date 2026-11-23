@@ -16,9 +16,9 @@
 {"id":"ko.g016","tr":"Puwede ang card? / Oo. Pakipasok dito."}
 {"id":"ko.g017","tr":"Ano ang password ng wifi? / Nasa resibo."}
 {"id":"ko.g018","tr":"Naliligaw ako. Nasaan ako? / Hongdae ito. Saan ka pupunta?"}
-{"id":"ko.g019","tr":"Ano ang pangalan mo? / Ako si Kii. Ikaw?"}
+{"id":"ko.g019","tr":"Ano ang pangalan mo? / Ako si @@. Ikaw?"}
 {"id":"ko.g020","tr":"Ikinagagalak kitang makilala. / Ikinagagalak din kitang makilala."}
-{"id":"ko.g021","tr":"Taga-saan ka? / Taga-Amerika. Sa Oklahoma."}
+{"id":"ko.g021","tr":"Taga-saan ka? / Taga-Pilipinas. Sa Cebu."}
 {"id":"ko.g022","tr":"Excuse me, ilang taon ka na? / 28. Ikaw?"}
 {"id":"ko.g023","tr":"Ano ang trabaho mo? / Nagtatrabaho ako sa isang IT company."}
 {"id":"ko.g024","tr":"Nag-aaral ka ba ng Koreano? / Oo, kaunti araw-araw."}
@@ -147,3 +147,55 @@
 {"id":"ko.g147","tr":"Ate, okay ba ito? / Bagay sa iyo. Bilhin mo."}
 {"id":"ko.g148","tr":"May kapatid ka ba? / Oo, isang nakababatang kapatid."}
 {"id":"ko.g149","tr":"Teacher, may tanong po ako. / Oo, sige, sabihin mo."}
+{"id":"ko.g150","tr":"Sarado ang restawran na iyon tuwing Lunes. / Ah, talaga? E di sa Martes na tayo pumunta."}
+{"id":"ko.g151","tr":"Ako ang gumawa ng cake na ito. / Wow, ang ganda talaga!"}
+{"id":"ko.g152","tr":"Minsu, nandito na ako. / O, nandiyan ka na? Pasok ka."}
+{"id":"ko.g153","tr":"Gusto mo bang mananghalian tayo bukas? / Oo, sige. Anong oras?"}
+{"id":"ko.g154","tr":"Ano ang gusto mong kainin? / Hmm… bibimbap ngayon."}
+{"id":"ko.g155","tr":"Binili ko ito gamit ang una kong sahod. / Uy, ang astig!"}
+{"id":"ko.g156","tr":"Ito ang Namsan Tower. / Whoa, kita ang buong Seoul!"}
+{"id":"ko.g157","tr":"Ikakasal na ako sa susunod na buwan. / Ay, talaga? Congratulations!"}
+{"id":"ko.g158","tr":"Aray! Nauntog ang kamay ko sa pinto. / Okay ka lang? Patingin."}
+{"id":"ko.g159","tr":"Namumula ang mukha mo! / Ay, ano ba, huwag mo na akong tingnan."}
+{"id":"ko.g160","tr":"Maganda kaya ang pelikulang ito? / Hmm, ewan, hindi ako sigurado."}
+{"id":"ko.g161","tr":"Nakita ko ang BTS kahapon. / Ay sus, hindi nga!"}
+{"id":"ko.g162","tr":"Wala raw team dinner ngayon. / Yes! Uuwi ako nang maaga."}
+{"id":"ko.g163","tr":"Alas-onse na. / Hala, kailangan ko nang magmadali!"}
+{"id":"ko.g164","tr":"Oops, natapon ko ang kape! / Okay lang, ako na ang magpupunas."}
+{"id":"ko.g165","tr":"Nagdala ka ba ng payong? / Naku, naiwan ko sa bahay."}
+{"id":"ko.g166","tr":"Tapos na ang exam mo? / Oo, hay salamat, kailangan ko nang magpahinga."}
+{"id":"ko.g167","tr":"Overtime ka na naman ngayon? / Haay, oo. Sobrang dami ng trabaho."}
+{"id":"ko.g168","tr":"Shh, natutulog ang baby. / Ay, sorry. Tatahimik ako."}
+{"id":"ko.g169","tr":"O sige, simulan na ba natin? / Oo, simulan na natin!"}
+{"id":"ko.g170","tr":"Hello? Si Minji ba ito? / Oo, ako ito. Bakit?"}
+{"id":"ko.g171","tr":"Isang milyong won ang bag na ito. / Diyos ko, sobrang mahal!"}
+{"id":"ko.g172","tr":"Bulaga! / Ay, ginulat mo ako! Napatalon tuloy ako."}
+{"id":"ko.g173","tr":"Aaah, may insekto! / Huwag kang gagalaw. Ako na ang huhuli."}
+{"id":"ko.g174","tr":"Ta-da! Regalo ko sa birthday mo. / Wow, salamat! Ano ito?"}
+{"id":"ko.g175","tr":"Expired na ang gatas na ito. / Yuck, nakainom na ako!"}
+{"id":"ko.g176","tr":"Mas maganda ka ngayon. / Talaga? Medyo nagpaayos ako ng buhok."}
+{"id":"ko.g177","tr":"Haneul ang pangalan ko. / Pati pangalan mo, maganda."}
+{"id":"ko.g178","tr":"Bakit ang cute mo? / Ay sus, huwag ka ngang magbiro."}
+{"id":"ko.g179","tr":"Mas guwapo ka sa personal. / Haha, siguro hindi lang maganda ang kuha ng mga litrato ko."}
+{"id":"ko.g180","tr":"Ang astig mo kapag nagtatrabaho. / Bigla-bigla? Salamat."}
+{"id":"ko.g181","tr":"Ang ganda ng ngiti mo. / Salamat. Ngayon ko lang narinig iyan."}
+{"id":"ko.g182","tr":"Ang ganda talaga ng eye smile mo. / Ay, ano ba, nakakahiya."}
+{"id":"ko.g183","tr":"Anong meron? Tumawag ka pa talaga. / Wala lang, gusto ko lang marinig ang boses mo."}
+{"id":"ko.g184","tr":"Ano ang tingin mo sa akin? / Totoo lang, type na type kita."}
+{"id":"ko.g185","tr":"Ano ang ideal type mo? / Hmm… isang taong palatawa."}
+{"id":"ko.g186","tr":"Maganda ang unang impresyon ko sa iyo. / Ako rin. Komportable na ako sa iyo mula pa sa simula."}
+{"id":"ko.g187","tr":"Kumain ka na ba? / Hindi pa. Sabay tayong kumain?"}
+{"id":"ko.g188","tr":"Gusto mo bang umakyat para mag-ramyeon? / Haha, linya iyan sa pelikula, ano? Uuwi na ako ngayong gabi."}
+{"id":"ko.g189","tr":"Gusto mo bang kumain tayo nang sabay ngayong weekend? / Sige, kailan tayo magkikita?"}
+{"id":"ko.g190","tr":"Ang saya ko ngayong araw. Puwede ba kitang i-message? / Salamat sa alok, pero okay lang ako."}
+{"id":"ko.g191","tr":"Puwede ba ulit tayong magkita? / Sorry, pero may karelasyon na ako."}
+{"id":"ko.g192","tr":"Pagkatapos ng klase, ililibre kita ng kape. / Mabuti kang tao, pero gusto kong magkaibigan lang tayo."}
+{"id":"ko.g193","tr":"Ang sarap talaga ng pagkain. / Naku, wala lang iyan. Kumain po kayo nang marami."}
+{"id":"ko.g194","tr":"Paano mo ito ginawa? / Madali lang. Ituturo ko sa iyo sa susunod."}
+{"id":"ko.g195","tr":"Ang galing mo talaga rito. / Naku, malayo pa ako."}
+{"id":"ko.g196","tr":"Nabasa ko ang report mo. Ang metikuloso mo. / Salamat sa magandang tingin mo."}
+{"id":"ko.g197","tr":"Kuwarenta ka na? Ang bata mong tingnan para sa edad mo. / Sobra naman ang papuri mo."}
+{"id":"ko.g198","tr":"Ang cute ng anak mo. / Salamat. Pero sa bahay, napakakulit niyan."}
+{"id":"ko.g199","tr":"Bagay sa iyo ang damit na iyan. / Salamat sa papuri."}
+{"id":"ko.g200","tr":"Ang galing ng pronunciation mo. / Naku, hindi naman. Dahil iyan sa teacher ko."}
+{"id":"ko.g201","tr":"Marami po akong natutunan sa presentation ninyo ngayon. / Naku, wala iyon. Salamat sa pakikinig mo."}
