@@ -746,12 +746,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"多謝 (thank you) in Jyutping","a":["do1","ze6"],"x":["ze2"],"why":"Check the tone number: 謝 is ze6, tone 6, low and level.","strict":true},
       {"t":"order","p":"早晨 (good morning) in Jyutping","a":["zou2","san4"],"x":["san1"],"why":"晨 has tone 4, low and falling: zou2 san4.","strict":true},
       {"t":"order","p":"One milk tea, please. (start with 唔該)","a":["唔該","一","杯","奶茶"],"x":["個"],"why":"Milk tea in a cup takes the classifier 杯: 一杯奶茶."},
-      {"t":"fill","q":"__，一杯奶茶。","p":"One milk tea, please.","a":["唔該","m4 goi1"],"o":["多謝","對唔住","早晨"],"why":"To ask for something, start with 唔該."},
-      {"t":"fill","q":"__晒！","p":"Thanks so much! (for a gift)","a":["多謝","do1 ze6"],"o":["唔該","對唔住","早抖"],"why":"For a gift, thank with 多謝; 晒 makes it stronger."},
-      {"t":"fill","q":"唔使__。","p":"You're welcome.","a":["客氣","多謝","唔該","haak3 hei3","do1 ze6","m4 goi1"],"o":["好意思","早晨","拜拜"],"why":"唔使客氣 answers thanks: literally, no need to be polite. 唔使多謝 and 唔使唔該 (no need to thank me) work too."},
-      {"t":"type","p":"Thank you! (for a gift)","a":["多謝","多謝 晒","do1 ze6","do1 ze6 saai3"],"hint":"多謝 · for gifts and kind words","x":["唔該"],"why":"Gifts and kind words take 多謝; 唔該 is for a service."},
+      {"t":"fill","q":"__，一杯奶茶。","p":"One milk tea, please.","a":["唔該","m4 goi1"],"o":["多謝","對唔住","早晨"],"why":"To ask for something, start with 唔該.","xr":["do1 ze6","deoi3 m4 zyu6","zou2 san4"]},
+      {"t":"fill","q":"__晒！","p":"Thanks so much! (for a gift)","a":["多謝","do1 ze6"],"o":["唔該","對唔住","早抖"],"why":"For a gift, thank with 多謝; 晒 makes it stronger.","xr":["m4 goi1","deoi3 m4 zyu6","zou2 dau2"]},
+      {"t":"fill","q":"唔使__。","p":"You're welcome.","a":["客氣","多謝","唔該","haak3 hei3","do1 ze6","m4 goi1"],"o":["好意思","早晨","拜拜"],"why":"唔使客氣 answers thanks: literally, no need to be polite. 唔使多謝 and 唔使唔該 (no need to thank me) work too.","xr":["hou2 ji3 si1","zou2 san4","baai1 baai3"]},
+      {"t":"type","p":"Thank you! (for a gift)","a":["多謝","多謝 晒","do1 ze6","do1 ze6 saai3"],"hint":"多謝 · for gifts and kind words","x":["唔該"],"why":"Gifts and kind words take 多謝; 唔該 is for a service.","xr":["m4 goi1"]},
       {"t":"type","p":"Type the Jyutping of 唔該 (thanks for a service)","a":["m4 goi1"],"hint":"two syllables · 唔 is a hum · tone 4, then tone 1","x":["goi3"],"why":"唔該 is m4 goi1: tone 4, then tone 1.","strict":true},
-      {"t":"type","p":"One coffee, please. (start with 唔該)","a":["唔該 一 杯 咖啡","m4 goi1 jat1 bui1 gaa3 fe1"],"hint":"唔該 · 一 · 杯 · 咖啡 (coffee)","x":["個"],"why":"Coffee in a cup takes the classifier 杯, between 一 and 咖啡."}
+      {"t":"type","p":"One coffee, please. (start with 唔該)","a":["唔該 一 杯 咖啡","m4 goi1 jat1 bui1 gaa3 fe1"],"hint":"唔該 · 一 · 杯 · 咖啡 (coffee)","x":["個"],"why":"Coffee in a cup takes the classifier 杯, between 一 and 咖啡.","xr":["go3"]}
     ],
     "characters": [
       {"t":"mc","q":"日 (sun) + 月 (moon) make…","o":["明","林","休","好"],"why":"The sun and the moon together make 明, bright."},
@@ -762,11 +762,11 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"a good person (in characters)","a":["好","人"],"x":["係"],"why":"The describer goes before the noun: 好人, a good person."},
       {"t":"order","p":"好人 (a good person) in Jyutping","a":["hou2","jan4"],"x":["hou3"],"why":"好 is hou2, tone 2; 人 is jan4, tone 4.","strict":true},
       {"t":"order","p":"a big mountain (in characters; 大 = big)","a":["大","山"],"x":["係"],"why":"The describer goes before the noun: 大山, a big mountain."},
-      {"t":"fill","q":"人 + 木 = __","p":"person + tree = to rest","a":["休","jau1"],"o":["林","明","本"],"why":"A person leaning on a tree makes 休, to rest."},
-      {"t":"fill","q":"木 + 木 = __","p":"tree + tree = woods","a":["林","lam4"],"o":["休","明","山"],"why":"Two trees make 林, woods."},
-      {"t":"fill","q":"女 + 子 = __","p":"woman + child = good","a":["好","hou2"],"o":["明","林","休"],"why":"A woman and a child make 好, good."},
+      {"t":"fill","q":"人 + 木 = __","p":"person + tree = to rest","a":["休","jau1"],"o":["林","明","本"],"why":"A person leaning on a tree makes 休, to rest.","xr":["lam4","ming4","bun2"]},
+      {"t":"fill","q":"木 + 木 = __","p":"tree + tree = woods","a":["林","lam4"],"o":["休","明","山"],"why":"Two trees make 林, woods.","xr":["jau1","ming4","saan1"]},
+      {"t":"fill","q":"女 + 子 = __","p":"woman + child = good","a":["好","hou2"],"o":["明","林","休"],"why":"A woman and a child make 好, good.","xr":["ming4","lam4","jau1"]},
       {"t":"type","p":"Type the Jyutping of 好 (good)","a":["hou2"],"hint":"tone 2 · it rises from the middle","x":["hou3"],"why":"好 (good) has tone 2: hou2.","strict":true},
-      {"t":"type","p":"a good person (in characters)","a":["好 人","hou2 jan4"],"hint":"好 · 人 · the describer comes first","x":["係"],"why":"The describer goes before the noun: 好人."},
+      {"t":"type","p":"a good person (in characters)","a":["好 人","hou2 jan4"],"hint":"好 · 人 · the describer comes first","x":["係"],"why":"The describer goes before the noun: 好人.","xr":["hai6"]},
       {"t":"type","p":"Type the Jyutping of 人 (person)","a":["jan4"],"hint":"j sounds like y · tone 4","x":["jan6"],"why":"人 has tone 4, low and falling: jan4.","strict":true}
     ],
     "hai": [
@@ -778,12 +778,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"He is my friend. (start with 佢)","a":["佢","係","我","朋友"],"x":["喺"],"why":"The owner goes before the noun: 我朋友, my friend."},
       {"t":"order","p":"We are students too. (都 = also)","a":["我哋","都","係","學生"],"x":["喺"],"why":"都 goes before the verb, not at the end like English too."},
       {"t":"order","p":"They are not teachers.","a":["佢哋","唔","係","老師"],"x":["喺"],"why":"唔 goes right before 係: 唔係 means are not."},
-      {"t":"fill","q":"我__學生。","p":"I'm a student.","a":["係","hai6"],"o":["好","喺","唔"],"why":"係 (hai6) joins two nouns; 喺 (hai2) means at.","strict":true},
-      {"t":"fill","q":"佢__老師。","p":"She isn't a teacher.","a":["唔係","m4 hai6"],"o":["係","好","唔好"],"why":"唔係 means is not: 唔 comes right before 係."},
-      {"t":"fill","q":"佢__攰。","p":"He's tired.","a":["好","hou2"],"o":["係","唔係","哋"],"why":"Adjectives take 好, not 係: 佢好攰。"},
-      {"t":"type","p":"She is my friend.","a":["佢 係 我 朋友","佢 係 我 嘅 朋友","keoi5 hai6 ngo5 pang4 jau5","keoi5 hai6 ngo5 ge3 pang4 jau5"],"hint":"佢 · 係 · 我 · 朋友 · the owner comes first","x":["喺"],"why":"The owner goes before the noun: 我朋友, my friend."},
-      {"t":"type","p":"I am a student too. (都 = also)","a":["我 都 係 學生","ngo5 dou1 hai6 hok6 saang1"],"hint":"我 · 都 · 係 · 學生","x":["喺"],"why":"都 goes before the verb: 我都係學生."},
-      {"t":"type","p":"They are teachers.","a":["佢哋 係 老師","keoi5 dei6 hai6 lou5 si1"],"hint":"佢哋 · 係 · 老師","x":["喺"],"why":"係 joins two nouns: 佢哋係老師, with no word for a."}
+      {"t":"fill","q":"我__學生。","p":"I'm a student.","a":["係","hai6"],"o":["好","喺","唔"],"why":"係 (hai6) joins two nouns; 喺 (hai2) means at.","strict":true,"xr":["hou2","hai2","m4"]},
+      {"t":"fill","q":"佢__老師。","p":"She isn't a teacher.","a":["唔係","m4 hai6"],"o":["係","好","唔好"],"why":"唔係 means is not: 唔 comes right before 係.","xr":["hai6","hou2","m4 hou2"]},
+      {"t":"fill","q":"佢__攰。","p":"He's tired.","a":["好","hou2"],"o":["係","唔係","哋"],"why":"Adjectives take 好, not 係: 佢好攰。","xr":["hai6","m4 hai6","dei6"]},
+      {"t":"type","p":"She is my friend.","a":["佢 係 我 朋友","佢 係 我 嘅 朋友","keoi5 hai6 ngo5 pang4 jau5","keoi5 hai6 ngo5 ge3 pang4 jau5"],"hint":"佢 · 係 · 我 · 朋友 · the owner comes first","x":["喺"],"why":"The owner goes before the noun: 我朋友, my friend.","xr":["hai2"]},
+      {"t":"type","p":"I am a student too. (都 = also)","a":["我 都 係 學生","ngo5 dou1 hai6 hok6 saang1"],"hint":"我 · 都 · 係 · 學生","x":["喺"],"why":"都 goes before the verb: 我都係學生.","xr":["hai2"]},
+      {"t":"type","p":"They are teachers.","a":["佢哋 係 老師","keoi5 dei6 hai6 lou5 si1"],"hint":"佢哋 · 係 · 老師","x":["喺"],"why":"係 joins two nouns: 佢哋係老師, with no word for a.","xr":["hai2"]}
     ],
     "intro": [
       {"t":"mc","q":"What's your name? =","o":["你叫咩名呀？","咩你叫名呀？","你叫名咩呀？","咩名你叫呀？"],"why":"The question word stays where the answer goes: 你叫咩名呀？"},
@@ -794,12 +794,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"She is my Cantonese teacher. (start with 佢)","a":["佢","係","我","廣東話","老師"],"x":["喺"],"why":"The describers go before the noun: 我廣東話老師, my Cantonese teacher."},
       {"t":"order","p":"I am American too.","a":["我","都","係","美國人"],"x":["喺"],"why":"都 goes before the verb: 我都係美國人."},
       {"t":"order","p":"What is your name? (with 呀)","a":["你","叫","咩","名","呀"],"x":["係"],"why":"The question word 咩 stays where the answer goes."},
-      {"t":"fill","q":"我__安娜。","p":"My name is Anna.","a":["叫","giu3"],"o":["名","住","講"],"why":"叫 means to be called: 我叫 + your name."},
-      {"t":"fill","q":"我__陳。","p":"My family name is Chan.","a":["姓","sing3"],"o":["叫","名","住"],"why":"Use 姓 for your family name: 我姓陳."},
-      {"t":"fill","q":"我住__三藩市。","p":"I live in San Francisco.","a":["喺","hai2"],"o":["係","嚟","去"],"why":"住喺 + place: 喺 (hai2) means at, in; 係 (hai6) is to be.","strict":true},
-      {"t":"type","p":"She is my Cantonese teacher.","a":["佢 係 我 廣東話 老師","佢 係 我 嘅 廣東話 老師","keoi5 hai6 ngo5 gwong2 dung1 waa2 lou5 si1","keoi5 hai6 ngo5 ge3 gwong2 dung1 waa2 lou5 si1"],"hint":"佢 · 係 · 我 · 廣東話 · 老師 · the describers come first","x":["喺"],"why":"The describers go before the noun: 我廣東話老師, my Cantonese teacher."},
-      {"t":"type","p":"We are from Hong Kong too. (都 = also)","a":["我哋 都 係 香港人","ngo5 dei6 dou1 hai6 hoeng1 gong2 jan4"],"hint":"我哋 · 都 · 係 · 香港人","x":["喺"],"why":"都 goes before the verb: 我哋都係香港人."},
-      {"t":"type","p":"What's your name? (friendly)","a":["你 叫 咩 名 呀","你 叫 咩 名","nei5 giu3 me1 meng2 aa3","nei5 giu3 me1 meng2"],"hint":"叫 · 咩 · 名 · 呀 makes it friendly","x":["係"],"why":"The question word 咩 stays where the answer goes: 你叫咩名呀？"}
+      {"t":"fill","q":"我__安娜。","p":"My name is Anna.","a":["叫","giu3"],"o":["名","住","講"],"why":"叫 means to be called: 我叫 + your name.","xr":["meng2","zyu6","gong2"]},
+      {"t":"fill","q":"我__陳。","p":"My family name is Chan.","a":["姓","sing3"],"o":["叫","名","住"],"why":"Use 姓 for your family name: 我姓陳.","xr":["giu3","meng2","zyu6"]},
+      {"t":"fill","q":"我住__三藩市。","p":"I live in San Francisco.","a":["喺","hai2"],"o":["係","嚟","去"],"why":"住喺 + place: 喺 (hai2) means at, in; 係 (hai6) is to be.","strict":true,"xr":["hai6","lei4","heoi3"]},
+      {"t":"type","p":"She is my Cantonese teacher.","a":["佢 係 我 廣東話 老師","佢 係 我 嘅 廣東話 老師","keoi5 hai6 ngo5 gwong2 dung1 waa2 lou5 si1","keoi5 hai6 ngo5 ge3 gwong2 dung1 waa2 lou5 si1"],"hint":"佢 · 係 · 我 · 廣東話 · 老師 · the describers come first","x":["喺"],"why":"The describers go before the noun: 我廣東話老師, my Cantonese teacher.","xr":["hai2"]},
+      {"t":"type","p":"We are from Hong Kong too. (都 = also)","a":["我哋 都 係 香港人","ngo5 dei6 dou1 hai6 hoeng1 gong2 jan4"],"hint":"我哋 · 都 · 係 · 香港人","x":["喺"],"why":"都 goes before the verb: 我哋都係香港人.","xr":["hai2"]},
+      {"t":"type","p":"What's your name? (friendly)","a":["你 叫 咩 名 呀","你 叫 咩 名","nei5 giu3 me1 meng2 aa3","nei5 giu3 me1 meng2"],"hint":"叫 · 咩 · 名 · 呀 makes it friendly","x":["係"],"why":"The question word 咩 stays where the answer goes: 你叫咩名呀？","xr":["hai6"]}
     ],
     "m": [
       {"t":"mc","q":"Are you going? =","o":["你去唔去呀？","你唔去去呀？","去你唔去呀？","唔去你去呀？"],"why":"Verb, 唔, verb: 去唔去."},
@@ -810,12 +810,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I am not going either. (都 = also)","a":["我","都","唔","去"],"x":["你"],"why":"都 goes before the verb, and 唔 comes right before 去."},
       {"t":"order","p":"Is she your teacher? (start with 佢)","a":["佢","係唔係","你","老師"],"x":["喺"],"why":"The owner goes before the noun: 你老師, your teacher."},
       {"t":"order","p":"Is it expensive?","a":["貴","唔","貴","呀"],"x":["係"],"why":"Say the adjective, then 唔, then the adjective again: 貴唔貴."},
-      {"t":"fill","q":"你去__去呀？","p":"Are you going?","a":["唔","m4"],"o":["係","好","有"],"why":"Verb + 唔 + verb makes a yes/no question: 去唔去."},
-      {"t":"fill","q":"你係唔係學生呀？__，我係學生。","p":"Are you a student? Yes, I'm a student.","a":["係","hai6"],"o":["好","有","去"],"why":"To a 係 question, answer 係 (yes) or 唔係 (no)."},
-      {"t":"fill","q":"佢__食。","p":"He doesn't eat it. (食 = eat)","a":["唔","m4"],"o":["係","喺","你"],"why":"唔 goes right before the verb: 佢唔食."},
-      {"t":"type","p":"I am not a student either. (都 = also)","a":["我 都 唔 係 學生","ngo5 dou1 m4 hai6 hok6 saang1"],"hint":"我 · 都 · 唔 · 係 · 學生","x":["喺"],"why":"都 goes before the verb: 我都唔係學生."},
-      {"t":"type","p":"Is he your friend?","a":["佢 係 唔 係 你 朋友 呀","佢 係 唔 係 你 朋友","佢 係咪 你 朋友 呀","佢 係咪 你 朋友","佢 係 唔 係 你 嘅 朋友 呀","佢 係 唔 係 你 嘅 朋友","keoi5 hai6 m4 hai6 nei5 pang4 jau5 aa3","keoi5 hai6 m4 hai6 nei5 pang4 jau5","keoi5 hai6 mai6 nei5 pang4 jau5 aa3","keoi5 hai6 mai6 nei5 pang4 jau5","keoi5 hai6 m4 hai6 nei5 ge3 pang4 jau5 aa3","keoi5 hai6 m4 hai6 nei5 ge3 pang4 jau5"],"hint":"佢 · 係唔係 · 你 · 朋友","x":["喺"],"why":"The owner goes before the noun: 你朋友, your friend."},
-      {"t":"type","p":"Are you going? (use 去)","a":["你 去 唔 去 呀","你 去 唔 去","去 唔 去 呀","去 唔 去","nei5 heoi3 m4 heoi3 aa3","nei5 heoi3 m4 heoi3","heoi3 m4 heoi3 aa3","heoi3 m4 heoi3"],"hint":"去 · 唔 · 去 · 呀","x":["係"],"why":"Say the verb, then 唔, then the verb again: 去唔去."}
+      {"t":"fill","q":"你去__去呀？","p":"Are you going?","a":["唔","m4"],"o":["係","好","有"],"why":"Verb + 唔 + verb makes a yes/no question: 去唔去.","xr":["hai6","hou2","jau5"]},
+      {"t":"fill","q":"你係唔係學生呀？__，我係學生。","p":"Are you a student? Yes, I'm a student.","a":["係","hai6"],"o":["好","有","去"],"why":"To a 係 question, answer 係 (yes) or 唔係 (no).","xr":["hou2","jau5","heoi3"]},
+      {"t":"fill","q":"佢__食。","p":"He doesn't eat it. (食 = eat)","a":["唔","m4"],"o":["係","喺","你"],"why":"唔 goes right before the verb: 佢唔食.","xr":["hai6","hai2","nei5"]},
+      {"t":"type","p":"I am not a student either. (都 = also)","a":["我 都 唔 係 學生","ngo5 dou1 m4 hai6 hok6 saang1"],"hint":"我 · 都 · 唔 · 係 · 學生","x":["喺"],"why":"都 goes before the verb: 我都唔係學生.","xr":["hai2"]},
+      {"t":"type","p":"Is he your friend?","a":["佢 係 唔 係 你 朋友 呀","佢 係 唔 係 你 朋友","佢 係咪 你 朋友 呀","佢 係咪 你 朋友","佢 係 唔 係 你 嘅 朋友 呀","佢 係 唔 係 你 嘅 朋友","keoi5 hai6 m4 hai6 nei5 pang4 jau5 aa3","keoi5 hai6 m4 hai6 nei5 pang4 jau5","keoi5 hai6 mai6 nei5 pang4 jau5 aa3","keoi5 hai6 mai6 nei5 pang4 jau5","keoi5 hai6 m4 hai6 nei5 ge3 pang4 jau5 aa3","keoi5 hai6 m4 hai6 nei5 ge3 pang4 jau5"],"hint":"佢 · 係唔係 · 你 · 朋友","x":["喺"],"why":"The owner goes before the noun: 你朋友, your friend.","xr":["hai2"]},
+      {"t":"type","p":"Are you going? (use 去)","a":["你 去 唔 去 呀","你 去 唔 去","去 唔 去 呀","去 唔 去","nei5 heoi3 m4 heoi3 aa3","nei5 heoi3 m4 heoi3","heoi3 m4 heoi3 aa3","heoi3 m4 heoi3"],"hint":"去 · 唔 · 去 · 呀","x":["係"],"why":"Say the verb, then 唔, then the verb again: 去唔去.","xr":["hai6"]}
     ],
     "questions": [
       {"t":"mc","q":"Where do you live? =","o":["你住喺邊度呀？","邊度你住喺呀？","你邊度住喺呀？","喺邊度你住呀？"],"why":"The question word stays where the answer goes."},
@@ -826,12 +826,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"Where are you going tomorrow? (start with 你; 聽日 = tomorrow)","a":["你","聽日","去","邊度","呀"],"x":["咩"],"why":"Time goes before the verb: 你聽日去邊度呀？"},
       {"t":"order","p":"When are you going to Hong Kong? (start with 你)","a":["你","幾時","去","香港","呀"],"x":["邊度"],"why":"幾時 is a time word, so it goes before the verb."},
       {"t":"order","p":"Who is he? (start with 佢)","a":["佢","係","邊個","呀"],"x":["咩"],"why":"The question word stays where the answer goes: 佢係邊個呀？"},
-      {"t":"fill","q":"你食__呀？","p":"What are you having?","a":["咩","me1"],"o":["邊個","邊度","幾時"],"why":"咩 asks what: it sits where the food would go."},
-      {"t":"fill","q":"你住喺__呀？","p":"Where do you live?","a":["邊度","bin1 dou6"],"o":["咩","邊個","幾時"],"why":"邊度 asks where: it sits where the place would go."},
-      {"t":"fill","q":"__你唔去呀？","p":"Why aren't you going?","a":["點解","dim2 gaai2"],"o":["咩","邊度","幾多"],"why":"點解 asks why and comes first, or right after 你."},
-      {"t":"type","p":"Where do you work? (做嘢 = to work)","a":["你 喺 邊度 做嘢 呀","你 喺 邊度 做嘢","你 喺 邊度 做嘢 呢","nei5 hai2 bin1 dou6 zou6 je5 aa3","nei5 hai2 bin1 dou6 zou6 je5","nei5 hai2 bin1 dou6 zou6 je5 ne1"],"hint":"喺 · 邊度 · 做嘢 · the place comes first","x":["係"],"why":"The place goes before the verb: 你喺邊度做嘢呀？"},
-      {"t":"type","p":"When is he going to New York?","a":["佢 幾時 去 紐約 呀","佢 幾時 去 紐約","佢 幾時 去 紐約 呢","keoi5 gei2 si4 heoi3 nau2 joek3 aa3","keoi5 gei2 si4 heoi3 nau2 joek3","keoi5 gei2 si4 heoi3 nau2 joek3 ne1"],"hint":"佢 · 幾時 · 去 · 紐約","x":["邊度"],"why":"幾時 is a time word, so it goes before the verb: 佢幾時去紐約呀？"},
-      {"t":"type","p":"What are you having? (食 = to eat)","a":["你 食 咩 呀","你 食 咩","你 食 咩 呢","食 咩 呀","食 咩","nei5 sik6 me1 aa3","nei5 sik6 me1","nei5 sik6 me1 ne1","sik6 me1 aa3","sik6 me1"],"hint":"食 · 咩","x":["邊個"],"why":"The question word stays where the answer goes: 你食咩呀？"}
+      {"t":"fill","q":"你食__呀？","p":"What are you having?","a":["咩","me1"],"o":["邊個","邊度","幾時"],"why":"咩 asks what: it sits where the food would go.","xr":["bin1 go3","bin1 dou6","gei2 si4"]},
+      {"t":"fill","q":"你住喺__呀？","p":"Where do you live?","a":["邊度","bin1 dou6"],"o":["咩","邊個","幾時"],"why":"邊度 asks where: it sits where the place would go.","xr":["me1","bin1 go3","gei2 si4"]},
+      {"t":"fill","q":"__你唔去呀？","p":"Why aren't you going?","a":["點解","dim2 gaai2"],"o":["咩","邊度","幾多"],"why":"點解 asks why and comes first, or right after 你.","xr":["me1","bin1 dou6","gei2 do1"]},
+      {"t":"type","p":"Where do you work? (做嘢 = to work)","a":["你 喺 邊度 做嘢 呀","你 喺 邊度 做嘢","你 喺 邊度 做嘢 呢","nei5 hai2 bin1 dou6 zou6 je5 aa3","nei5 hai2 bin1 dou6 zou6 je5","nei5 hai2 bin1 dou6 zou6 je5 ne1"],"hint":"喺 · 邊度 · 做嘢 · the place comes first","x":["係"],"why":"The place goes before the verb: 你喺邊度做嘢呀？","xr":["hai6"]},
+      {"t":"type","p":"When is he going to New York?","a":["佢 幾時 去 紐約 呀","佢 幾時 去 紐約","佢 幾時 去 紐約 呢","keoi5 gei2 si4 heoi3 nau2 joek3 aa3","keoi5 gei2 si4 heoi3 nau2 joek3","keoi5 gei2 si4 heoi3 nau2 joek3 ne1"],"hint":"佢 · 幾時 · 去 · 紐約","x":["邊度"],"why":"幾時 is a time word, so it goes before the verb: 佢幾時去紐約呀？","xr":["bin1 dou6"]},
+      {"t":"type","p":"What are you having? (食 = to eat)","a":["你 食 咩 呀","你 食 咩","你 食 咩 呢","食 咩 呀","食 咩","nei5 sik6 me1 aa3","nei5 sik6 me1","nei5 sik6 me1 ne1","sik6 me1 aa3","sik6 me1"],"hint":"食 · 咩","x":["邊個"],"why":"The question word stays where the answer goes: 你食咩呀？","xr":["bin1 go3"]}
     ],
     "numbers": [
       {"t":"mc","q":"two people =","o":["兩個人","二個人","兩人個","個兩人"],"why":"Before a classifier, two is 兩: 兩個人."},
@@ -842,12 +842,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"two people","a":["兩","個","人"],"x":["二"],"why":"兩, not 二, goes before a classifier: 兩個人."},
       {"t":"order","p":"twenty people","a":["二十","個","人"],"x":["兩"],"why":"二十 is twenty, and the classifier 個 goes before the noun: 二十個人."},
       {"t":"order","p":"105 (one hundred and five)","a":["一百","零","五"],"x":["十"],"why":"An empty tens place takes 零: 一百零五."},
-      {"t":"fill","q":"__個人","p":"two people","a":["兩","loeng5"],"o":["二","二十","十二"],"why":"兩, not 二, goes right before 個."},
-      {"t":"fill","q":"一百__五","p":"105","a":["零","ling4"],"o":["十","百","千"],"why":"零 fills the empty tens place: 一百零五."},
-      {"t":"fill","q":"十__","p":"100,000","a":["萬","maan6"],"o":["千","百","零"],"why":"Cantonese counts in 萬 (10,000): 100,000 is 十萬."},
-      {"t":"type","p":"two cups of milk tea","a":["兩 杯 奶茶","loeng5 bui1 naai5 caa4"],"hint":"兩 · 杯 · 奶茶","x":["二"],"why":"兩, not 二, before a classifier: 兩杯奶茶."},
-      {"t":"type","p":"twelve people","a":["十二 個 人","sap6 ji6 go3 jan4"],"hint":"十二 · 個 · 人","x":["兩"],"why":"A number needs a classifier before the noun: 十二個人."},
-      {"t":"type","p":"150 (a hundred and fifty)","a":["一百 五","一百 五十","jat1 baak3 ng5","jat1 baak3 ng5 sap6"],"hint":"一百 · 五 · the last 十 can be dropped","x":["零"],"why":"一百五 is short for 一百五十; 一百零五 would be 105."}
+      {"t":"fill","q":"__個人","p":"two people","a":["兩","loeng5"],"o":["二","二十","十二"],"why":"兩, not 二, goes right before 個.","xr":["ji6","ji6 sap6","sap6 ji6"]},
+      {"t":"fill","q":"一百__五","p":"105","a":["零","ling4"],"o":["十","百","千"],"why":"零 fills the empty tens place: 一百零五.","xr":["sap6","baak3","cin1"]},
+      {"t":"fill","q":"十__","p":"100,000","a":["萬","maan6"],"o":["千","百","零"],"why":"Cantonese counts in 萬 (10,000): 100,000 is 十萬.","xr":["cin1","baak3","ling4"]},
+      {"t":"type","p":"two cups of milk tea","a":["兩 杯 奶茶","loeng5 bui1 naai5 caa4"],"hint":"兩 · 杯 · 奶茶","x":["二"],"why":"兩, not 二, before a classifier: 兩杯奶茶.","xr":["ji6"]},
+      {"t":"type","p":"twelve people","a":["十二 個 人","sap6 ji6 go3 jan4"],"hint":"十二 · 個 · 人","x":["兩"],"why":"A number needs a classifier before the noun: 十二個人.","xr":["loeng5"]},
+      {"t":"type","p":"150 (a hundred and fifty)","a":["一百 五","一百 五十","jat1 baak3 ng5","jat1 baak3 ng5 sap6"],"hint":"一百 · 五 · the last 十 can be dropped","x":["零"],"why":"一百五 is short for 一百五十; 一百零五 would be 105.","xr":["ling4"]}
     ],
     "classifiers": [
       {"t":"mc","q":"Which is the Jyutping of 本 (the classifier for books)?","o":["bun2","bun1","bun3","bun6"],"why":"本 is bun2, with tone 2, rising from the middle.","strict":true},
@@ -858,12 +858,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"three books","a":["三","本","書"],"x":["個"],"why":"Books take the classifier 本: 三本書."},
       {"t":"order","p":"this cat","a":["呢","隻","貓"],"x":["本"],"why":"呢 + classifier + noun, and cats take the classifier 隻: 呢隻貓."},
       {"t":"order","p":"Where's my phone?","a":["我","部","手機","喺","邊度","呀"],"x":["本"],"why":"Owner + classifier + noun means my: 我部手機, with the classifier 部 for machines."},
-      {"t":"fill","q":"嗰__人係邊個呀？","p":"Who is that person?","a":["個","go3"],"o":["本","杯","隻"],"why":"People take 個: 嗰個人."},
-      {"t":"fill","q":"唔該，一__奶茶。","p":"A milk tea, please.","a":["杯","bui1"],"o":["本","張","條"],"why":"A drink in a cup takes 杯: 一杯奶茶."},
-      {"t":"fill","q":"我__書喺邊度呀？","p":"Where's my book? (use a classifier)","a":["本","bun2"],"o":["杯","張","隻"],"why":"Owner + 本 + 書 means \"my book\"."},
-      {"t":"type","p":"two cups of coffee","a":["兩 杯 咖啡","loeng5 bui1 gaa3 fe1"],"hint":"兩 · 杯 · 咖啡 · two before a classifier is 兩","x":["二","本"],"why":"A number needs a classifier before the noun: 兩杯咖啡, with 兩 for two."},
-      {"t":"type","p":"that cat","a":["嗰 隻 貓","go2 zek3 maau1"],"hint":"嗰 · 隻 · 貓","x":["本","張"],"why":"嗰 + classifier + noun: 嗰隻貓, with the classifier 隻 for animals."},
-      {"t":"type","p":"Where's my book? (no 嘅)","a":["我 本 書 喺 邊度 呀","我 本 書 喺 邊度","ngo5 bun2 syu1 hai2 bin1 dou6 aa3","ngo5 bun2 syu1 hai2 bin1 dou6"],"hint":"我 · 本 · 書 · 喺邊度","x":["張","杯"],"why":"Owner + classifier + noun means my: 我本書."}
+      {"t":"fill","q":"嗰__人係邊個呀？","p":"Who is that person?","a":["個","go3"],"o":["本","杯","隻"],"why":"People take 個: 嗰個人.","xr":["bun2","bui1","zek3"]},
+      {"t":"fill","q":"唔該，一__奶茶。","p":"A milk tea, please.","a":["杯","bui1"],"o":["本","張","條"],"why":"A drink in a cup takes 杯: 一杯奶茶.","xr":["bun2","zoeng1","tiu4"]},
+      {"t":"fill","q":"我__書喺邊度呀？","p":"Where's my book? (use a classifier)","a":["本","bun2"],"o":["杯","張","隻"],"why":"Owner + 本 + 書 means \"my book\".","xr":["bui1","zoeng1","zek3"]},
+      {"t":"type","p":"two cups of coffee","a":["兩 杯 咖啡","loeng5 bui1 gaa3 fe1"],"hint":"兩 · 杯 · 咖啡 · two before a classifier is 兩","x":["二","本"],"why":"A number needs a classifier before the noun: 兩杯咖啡, with 兩 for two.","xr":["ji6","bun2"]},
+      {"t":"type","p":"that cat","a":["嗰 隻 貓","go2 zek3 maau1"],"hint":"嗰 · 隻 · 貓","x":["本","張"],"why":"嗰 + classifier + noun: 嗰隻貓, with the classifier 隻 for animals.","xr":["bun2","zoeng1"]},
+      {"t":"type","p":"Where's my book? (no 嘅)","a":["我 本 書 喺 邊度 呀","我 本 書 喺 邊度","ngo5 bun2 syu1 hai2 bin1 dou6 aa3","ngo5 bun2 syu1 hai2 bin1 dou6"],"hint":"我 · 本 · 書 · 喺邊度","x":["張","杯"],"why":"Owner + classifier + noun means my: 我本書.","xr":["zoeng1","bui1"]}
     ],
     "ge": [
       {"t":"mc","q":"Which is the Jyutping of 嘅?","o":["ge3","ge2","ge1","ge6"],"why":"嘅 is ge3, with tone 3: mid and level.","strict":true},
@@ -874,12 +874,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"my friend's book","a":["我","朋友","嘅","書"],"x":["係"],"why":"The owner goes before the noun, linked by 嘅: 我朋友嘅書."},
       {"t":"order","p":"This phone is mine.","a":["呢","部","手機","係","我","嘅"],"x":["本"],"why":"呢 + the classifier 部 before the noun, then 係我嘅 for \"mine\"."},
       {"t":"order","p":"Where's the teacher's book?","a":["老師","嘅","書","喺","邊度","呀"],"x":["係"],"why":"The owner goes before the noun: 老師嘅書."},
-      {"t":"fill","q":"呢本書係__嘅。","p":"This book is yours.","a":["你","nei5"],"o":["我","佢","邊個"],"why":"Yours is 你嘅: the owner + 嘅 at the end."},
-      {"t":"fill","q":"老師__手機喺邊度呀？","p":"Where's the teacher's phone?","a":["嘅","部","ge3","bou6"],"o":["係","喺","呀"],"why":"Owner + 嘅 + thing, or owner + classifier + thing: 老師嘅手機 or 老師部手機."},
-      {"t":"fill","q":"我__係老師。","p":"My mom is a teacher.","a":["媽媽","maa4 maa1"],"o":["嘅","爸爸","你"],"why":"With family there is usually no 嘅: 我媽媽."},
-      {"t":"type","p":"my friend's phone","a":["我 朋友 嘅 手機","我 朋友 部 手機","ngo5 pang4 jau5 ge3 sau2 gei1","ngo5 pang4 jau5 bou6 sau2 gei1"],"hint":"我 · 朋友 · 嘅 · 手機","x":["係","本"],"why":"The owner goes before the noun: 我朋友嘅手機."},
-      {"t":"type","p":"This book is mine.","a":["呢 本 書 係 我 嘅","ni1 bun2 syu1 hai6 ngo5 ge3"],"hint":"呢 · 本 · 書 · 係 · 我嘅","x":["個","張"],"why":"呢 + the classifier 本 before the noun, and 係我嘅 at the end for \"mine\"."},
-      {"t":"type","p":"the teacher's book","a":["老師 嘅 書","老師 本 書","lou5 si1 ge3 syu1","lou5 si1 bun2 syu1"],"hint":"老師 · 嘅 · 書","x":["係","個"],"why":"The owner goes before the noun: 老師嘅書, or with the classifier, 老師本書."}
+      {"t":"fill","q":"呢本書係__嘅。","p":"This book is yours.","a":["你","nei5"],"o":["我","佢","邊個"],"why":"Yours is 你嘅: the owner + 嘅 at the end.","xr":["ngo5","keoi5","bin1 go3"]},
+      {"t":"fill","q":"老師__手機喺邊度呀？","p":"Where's the teacher's phone?","a":["嘅","部","ge3","bou6"],"o":["係","喺","呀"],"why":"Owner + 嘅 + thing, or owner + classifier + thing: 老師嘅手機 or 老師部手機.","xr":["hai6","hai2","aa3"]},
+      {"t":"fill","q":"我__係老師。","p":"My mom is a teacher.","a":["媽媽","maa4 maa1"],"o":["嘅","爸爸","你"],"why":"With family there is usually no 嘅: 我媽媽.","xr":["ge3","baa4 baa1","nei5"]},
+      {"t":"type","p":"my friend's phone","a":["我 朋友 嘅 手機","我 朋友 部 手機","ngo5 pang4 jau5 ge3 sau2 gei1","ngo5 pang4 jau5 bou6 sau2 gei1"],"hint":"我 · 朋友 · 嘅 · 手機","x":["係","本"],"why":"The owner goes before the noun: 我朋友嘅手機.","xr":["hai6","bun2"]},
+      {"t":"type","p":"This book is mine.","a":["呢 本 書 係 我 嘅","ni1 bun2 syu1 hai6 ngo5 ge3"],"hint":"呢 · 本 · 書 · 係 · 我嘅","x":["個","張"],"why":"呢 + the classifier 本 before the noun, and 係我嘅 at the end for \"mine\".","xr":["go3","zoeng1"]},
+      {"t":"type","p":"the teacher's book","a":["老師 嘅 書","老師 本 書","lou5 si1 ge3 syu1","lou5 si1 bun2 syu1"],"hint":"老師 · 嘅 · 書","x":["係","個"],"why":"The owner goes before the noun: 老師嘅書, or with the classifier, 老師本書.","xr":["hai6","go3"]}
     ],
     "family": [
       {"t":"mc","q":"Which is the Jyutping of 媽媽 (mom)?","o":["maa4 maa1","maa5 maa1","maa4 maa4","maa1 maa4"],"why":"Changed tone: the second syllable of 媽媽 rises to tone 1.","strict":true},
@@ -890,12 +890,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I have two older sisters.","a":["我","有","兩","個","家姐"],"x":["二"],"why":"兩 + the classifier 個 before the noun: 兩個家姐."},
       {"t":"order","p":"There are five people in my family.","a":["我","屋企","有","五","個","人"],"x":["本"],"why":"A number needs a classifier before the noun: 五個人."},
       {"t":"order","p":"I'm thirty this year. (start with 我)","a":["我","今年","三十","歲"],"x":["係"],"why":"Age needs no 係: 我今年三十歲."},
-      {"t":"fill","q":"我有一__細佬。","p":"I have a younger brother.","a":["個","go3"],"o":["本","隻","張"],"why":"Family members take 個: 一個細佬."},
-      {"t":"fill","q":"佢今年二十__。","p":"She's twenty this year.","a":["歲","seoi3"],"o":["個","係","號"],"why":"Number + 歲 gives an age, with no 係."},
-      {"t":"fill","q":"我__係香港人。","p":"My grandma (my mom's mom) is from Hong Kong.","a":["婆婆","po4 po2"],"o":["嫲嫲","公公","爺爺"],"why":"Your mother's mother is 婆婆."},
-      {"t":"type","p":"two younger sisters","a":["兩 個 細妹","loeng5 go3 sai3 mui2"],"hint":"兩 · 個 · 細妹","x":["二","本"],"why":"兩 + the classifier 個 before the noun: 兩個細妹."},
-      {"t":"type","p":"There are four people in my family. (start with 我屋企)","a":["我 屋企 有 四 個 人","ngo5 uk1 kei2 jau5 sei3 go3 jan4"],"hint":"我屋企 · 有 · 四 · 個 · 人","x":["本","二"],"why":"A number needs a classifier before the noun: 四個人."},
-      {"t":"type","p":"I'm twenty-five this year. (start with 我)","a":["我 今年 二十五 歲","我 今年 廿五 歲","ngo5 gam1 nin2 ji6 sap6 ng5 seoi3","ngo5 gam1 nin2 jaa6 ng5 seoi3"],"hint":"我 · 今年 · 二十五 · 歲","x":["係"],"why":"Age needs no 係: 我今年二十五歲."}
+      {"t":"fill","q":"我有一__細佬。","p":"I have a younger brother.","a":["個","go3"],"o":["本","隻","張"],"why":"Family members take 個: 一個細佬.","xr":["bun2","zek3","zoeng1"]},
+      {"t":"fill","q":"佢今年二十__。","p":"She's twenty this year.","a":["歲","seoi3"],"o":["個","係","號"],"why":"Number + 歲 gives an age, with no 係.","xr":["go3","hai6","hou6"]},
+      {"t":"fill","q":"我__係香港人。","p":"My grandma (my mom's mom) is from Hong Kong.","a":["婆婆","po4 po2"],"o":["嫲嫲","公公","爺爺"],"why":"Your mother's mother is 婆婆.","xr":["maa4 maa4","gung4 gung1","je4 je2"]},
+      {"t":"type","p":"two younger sisters","a":["兩 個 細妹","loeng5 go3 sai3 mui2"],"hint":"兩 · 個 · 細妹","x":["二","本"],"why":"兩 + the classifier 個 before the noun: 兩個細妹.","xr":["ji6","bun2"]},
+      {"t":"type","p":"There are four people in my family. (start with 我屋企)","a":["我 屋企 有 四 個 人","ngo5 uk1 kei2 jau5 sei3 go3 jan4"],"hint":"我屋企 · 有 · 四 · 個 · 人","x":["本","二"],"why":"A number needs a classifier before the noun: 四個人.","xr":["bun2","ji6"]},
+      {"t":"type","p":"I'm twenty-five this year. (start with 我)","a":["我 今年 二十五 歲","我 今年 廿五 歲","ngo5 gam1 nin2 ji6 sap6 ng5 seoi3","ngo5 gam1 nin2 jaa6 ng5 seoi3"],"hint":"我 · 今年 · 二十五 · 歲","x":["係"],"why":"Age needs no 係: 我今年二十五歲.","xr":["hai6"]}
     ],
     "hai2": [
       {"t":"mc","q":"Which word is hai2 (at, in)?","o":["喺","係","嚟","去"],"why":"喺 is hai2, with tone 2; its tone twin 係 is hai6, to be.","strict":true},
@@ -906,12 +906,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I work at a bank.","a":["我","喺","銀行","做嘢"],"x":["係"],"why":"Place with 喺 goes before the verb: 我喺銀行做嘢."},
       {"t":"order","p":"The book is on the table.","a":["本","書","喺","枱","上面"],"x":["係"],"why":"Classifier + noun is \"the book\", and the place word follows its noun: 枱上面."},
       {"t":"order","p":"My phone is at home.","a":["我","部","手機","喺","屋企"],"x":["本"],"why":"Owner + classifier + noun is \"my phone\": 我部手機, with 部 for machines."},
-      {"t":"fill","q":"我__香港。","p":"I'm in Hong Kong.","a":["喺","hai2"],"o":["係","嘅","呀"],"why":"喺 (hai2), tone 2, is at or in; 係 (hai6), tone 6, is to be.","strict":true},
-      {"t":"fill","q":"銀行喺超市__。","p":"The bank is next to the supermarket.","a":["隔籬","gaak3 lei4"],"o":["入面","上面","係"],"why":"隔籬 is next to, and it comes after its noun: 超市隔籬."},
-      {"t":"fill","q":"我住__九龍。","p":"I live in Kowloon.","a":["喺","hai2"],"o":["係","嘅","有"],"why":"With 住 the place comes after: 住喺九龍."},
-      {"t":"type","p":"I work at a bank.","a":["我 喺 銀行 做嘢","ngo5 hai2 ngan4 hong4 zou6 je5"],"hint":"喺 · 銀行 · 做嘢 · where comes first","x":["係"],"why":"Place with 喺 goes before the verb: 我喺銀行做嘢."},
-      {"t":"type","p":"I study at home.","a":["我 喺 屋企 讀書","ngo5 hai2 uk1 kei2 duk6 syu1"],"hint":"喺 · 屋企 · 讀書 (study)","x":["係"],"why":"Place with 喺 goes before the verb: 我喺屋企讀書."},
-      {"t":"type","p":"Where's the restroom?","a":["洗手間 喺 邊度 呀","洗手間 喺 邊度","sai2 sau2 gaan1 hai2 bin1 dou6 aa3","sai2 sau2 gaan1 hai2 bin1 dou6"],"hint":"洗手間 · 喺 · 邊度","x":["係"],"why":"喺 (hai2), tone 2, asks where something is; 係 with tone 6 means to be.","strict":true}
+      {"t":"fill","q":"我__香港。","p":"I'm in Hong Kong.","a":["喺","hai2"],"o":["係","嘅","呀"],"why":"喺 (hai2), tone 2, is at or in; 係 (hai6), tone 6, is to be.","strict":true,"xr":["hai6","ge3","aa3"]},
+      {"t":"fill","q":"銀行喺超市__。","p":"The bank is next to the supermarket.","a":["隔籬","gaak3 lei4"],"o":["入面","上面","係"],"why":"隔籬 is next to, and it comes after its noun: 超市隔籬.","xr":["jap6 min6","soeng6 min6","hai6"]},
+      {"t":"fill","q":"我住__九龍。","p":"I live in Kowloon.","a":["喺","hai2"],"o":["係","嘅","有"],"why":"With 住 the place comes after: 住喺九龍.","xr":["hai6","ge3","jau5"]},
+      {"t":"type","p":"I work at a bank.","a":["我 喺 銀行 做嘢","ngo5 hai2 ngan4 hong4 zou6 je5"],"hint":"喺 · 銀行 · 做嘢 · where comes first","x":["係"],"why":"Place with 喺 goes before the verb: 我喺銀行做嘢.","xr":["hai6"]},
+      {"t":"type","p":"I study at home.","a":["我 喺 屋企 讀書","ngo5 hai2 uk1 kei2 duk6 syu1"],"hint":"喺 · 屋企 · 讀書 (study)","x":["係"],"why":"Place with 喺 goes before the verb: 我喺屋企讀書.","xr":["hai6"]},
+      {"t":"type","p":"Where's the restroom?","a":["洗手間 喺 邊度 呀","洗手間 喺 邊度","sai2 sau2 gaan1 hai2 bin1 dou6 aa3","sai2 sau2 gaan1 hai2 bin1 dou6"],"hint":"洗手間 · 喺 · 邊度","x":["係"],"why":"喺 (hai2), tone 2, asks where something is; 係 with tone 6 means to be.","strict":true,"xr":["hai6"]}
     ],
     "jau-mou": [
       {"t":"mc","q":"Which is the Jyutping of 冇 (not have)?","o":["mou5","mou6","mou4","mou2"],"why":"冇 is mou5, with tone 5: low, rising a little.","strict":true},
@@ -922,12 +922,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"There's a supermarket nearby.","a":["附近","有","間","超市"],"x":["係"],"why":"The place goes first, before the verb 有: 附近有間超市."},
       {"t":"order","p":"I have two phones.","a":["我","有","兩","部","手機"],"x":["本"],"why":"兩 + the classifier 部 before the noun: 兩部手機."},
       {"t":"order","p":"Is there an MTR station nearby?","a":["附近","有冇","地鐵站","呀"],"x":["唔有"],"why":"The place goes before the verb: 附近有冇地鐵站呀？"},
-      {"t":"fill","q":"我__錢。","p":"I don't have any money.","a":["冇","mou5"],"o":["唔","唔係","未"],"why":"冇 is the negative of 有: never 唔有."},
-      {"t":"fill","q":"附近__冇超市呀？","p":"Is there a supermarket nearby?","a":["有","jau5"],"o":["係","喺","唔"],"why":"The question form of 有 is 有冇."},
-      {"t":"fill","q":"我有一__車。","p":"I have a car.","a":["架","部","gaa3","bou6"],"o":["本","張","隻"],"why":"Cars take 架 (部 is also heard): 一架車."},
-      {"t":"type","p":"I don't have any older brothers.","a":["我 冇 哥哥","ngo5 mou5 go4 go1"],"hint":"冇 · 哥哥","x":["唔"],"why":"冇 is the only negative of 有: 我冇哥哥."},
-      {"t":"type","p":"There's a bank nearby.","a":["附近 有 間 銀行","附近 有 一 間 銀行","fu6 gan6 jau5 gaan1 ngan4 hong4","fu6 gan6 jau5 jat1 gaan1 ngan4 hong4"],"hint":"附近 · 有 · 間 · 銀行 · place first","x":["本","係"],"why":"The place goes before the verb 有, and banks take the classifier 間."},
-      {"t":"type","p":"I have two cats.","a":["我 有 兩 隻 貓","ngo5 jau5 loeng5 zek3 maau1"],"hint":"兩 · 隻 · 貓","x":["二","本"],"why":"兩 + the classifier 隻 before the noun: 兩隻貓."}
+      {"t":"fill","q":"我__錢。","p":"I don't have any money.","a":["冇","mou5"],"o":["唔","唔係","未"],"why":"冇 is the negative of 有: never 唔有.","xr":["m4","m4 hai6","mei6"]},
+      {"t":"fill","q":"附近__冇超市呀？","p":"Is there a supermarket nearby?","a":["有","jau5"],"o":["係","喺","唔"],"why":"The question form of 有 is 有冇.","xr":["hai6","hai2","m4"]},
+      {"t":"fill","q":"我有一__車。","p":"I have a car.","a":["架","部","gaa3","bou6"],"o":["本","張","隻"],"why":"Cars take 架 (部 is also heard): 一架車.","xr":["bun2","zoeng1","zek3"]},
+      {"t":"type","p":"I don't have any older brothers.","a":["我 冇 哥哥","ngo5 mou5 go4 go1"],"hint":"冇 · 哥哥","x":["唔"],"why":"冇 is the only negative of 有: 我冇哥哥.","xr":["m4"]},
+      {"t":"type","p":"There's a bank nearby.","a":["附近 有 間 銀行","附近 有 一 間 銀行","fu6 gan6 jau5 gaan1 ngan4 hong4","fu6 gan6 jau5 jat1 gaan1 ngan4 hong4"],"hint":"附近 · 有 · 間 · 銀行 · place first","x":["本","係"],"why":"The place goes before the verb 有, and banks take the classifier 間.","xr":["bun2","hai6"]},
+      {"t":"type","p":"I have two cats.","a":["我 有 兩 隻 貓","ngo5 jau5 loeng5 zek3 maau1"],"hint":"兩 · 隻 · 貓","x":["二","本"],"why":"兩 + the classifier 隻 before the noun: 兩隻貓.","xr":["ji6","bun2"]}
     ],
     "particles": [
       {"t":"mc","q":"Which is the Jyutping of 啦 (the particle for requests)?","o":["laa1","laa3","laa4","laa6"],"why":"啦 is laa1, with tone 1: high and level.","strict":true},
@@ -938,12 +938,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"Where do you work?","a":["你","喺","邊度","做嘢","呀"],"x":["係"],"why":"Place with 喺 goes before the verb, even in a question: 你喺邊度做嘢呀？"},
       {"t":"order","p":"Have a cup of tea!","a":["飲","杯","茶","吖"],"x":["本"],"why":"杯 is the classifier for a cup: 飲杯茶吖, with 吖 for an offer."},
       {"t":"order","p":"Let's go together!","a":["一齊","去","吖"],"x":["咩"],"why":"吖 turns it into an invitation: 一齊去吖！"},
-      {"t":"fill","q":"一齊去__！","p":"Let's go together!","a":["吖","啦","aa1","laa1"],"o":["咩","呢","嗎"],"why":"吖 makes an invitation."},
-      {"t":"fill","q":"我係美國人，你__？","p":"I'm American. And you?","a":["呢","ne1"],"o":["吖","啦","咩"],"why":"呢 asks the same question back."},
-      {"t":"fill","q":"唔該快啲__。","p":"Hurry up, please.","a":["啦","laa1"],"o":["呢","咩","嗎"],"why":"啦 goes on requests and urging: 快啲啦."},
-      {"t":"type","p":"Where do you study? (end with 呀)","a":["你 喺 邊度 讀書 呀","nei5 hai2 bin1 dou6 duk6 syu1 aa3"],"hint":"喺 · 邊度 · 讀書 (study) · end with 呀","x":["係"],"why":"Place with 喺 goes before the verb, even in a question: 你喺邊度讀書呀？"},
-      {"t":"type","p":"Have a cup of milk tea! (an offer)","a":["飲 杯 奶茶 吖","飲 一 杯 奶茶 吖","jam2 bui1 naai5 caa4 aa1","jam2 jat1 bui1 naai5 caa4 aa1"],"hint":"飲 · 杯 · 奶茶 · 吖","x":["本","呀"],"why":"杯 is the classifier for a cup, and 吖 makes it an offer."},
-      {"t":"type","p":"And you?","a":["你 呢","nei5 ne1"],"hint":"你 · 呢","x":["吖"],"why":"呢 asks the same question back: 你呢？"}
+      {"t":"fill","q":"一齊去__！","p":"Let's go together!","a":["吖","啦","aa1","laa1"],"o":["咩","呢","嗎"],"why":"吖 makes an invitation.","xr":["me1","ne1","maa3"]},
+      {"t":"fill","q":"我係美國人，你__？","p":"I'm American. And you?","a":["呢","ne1"],"o":["吖","啦","咩"],"why":"呢 asks the same question back.","xr":["aa1","laa1","me1"]},
+      {"t":"fill","q":"唔該快啲__。","p":"Hurry up, please.","a":["啦","laa1"],"o":["呢","咩","嗎"],"why":"啦 goes on requests and urging: 快啲啦.","xr":["ne1","me1","maa3"]},
+      {"t":"type","p":"Where do you study? (end with 呀)","a":["你 喺 邊度 讀書 呀","nei5 hai2 bin1 dou6 duk6 syu1 aa3"],"hint":"喺 · 邊度 · 讀書 (study) · end with 呀","x":["係"],"why":"Place with 喺 goes before the verb, even in a question: 你喺邊度讀書呀？","xr":["hai6"]},
+      {"t":"type","p":"Have a cup of milk tea! (an offer)","a":["飲 杯 奶茶 吖","飲 一 杯 奶茶 吖","jam2 bui1 naai5 caa4 aa1","jam2 jat1 bui1 naai5 caa4 aa1"],"hint":"飲 · 杯 · 奶茶 · 吖","x":["本","呀"],"why":"杯 is the classifier for a cup, and 吖 makes it an offer.","xr":["bun2","aa3"]},
+      {"t":"type","p":"And you?","a":["你 呢","nei5 ne1"],"hint":"你 · 呢","x":["吖"],"why":"呢 asks the same question back: 你呢？","xr":["aa1"]}
     ],
     "prices": [
       {"t":"mc","q":"Which is the Jyutping of 錢 (money) in the question 幾多錢呀？","o":["cin2","cin4","cin1","cin6"],"why":"In 幾多錢 the word for money has a changed tone: cin2.","strict":true},
@@ -954,12 +954,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"How much is this top?","a":["呢","件","衫","幾多錢","呀"],"x":["本"],"why":"呢 + the classifier 件 before the noun: 呢件衫."},
       {"t":"order","p":"I have a hundred dollars.","a":["我","有","一百","蚊"],"x":["個"],"why":"蚊 works like a classifier straight after the number: 一百蚊."},
       {"t":"order","p":"Could you make it a bit cheaper?","a":["平啲","得","唔","得","呀"],"x":["貴啲"],"why":"平啲 is a bit cheaper, and 得唔得 asks if that's OK."},
-      {"t":"fill","q":"呢件衫幾多__呀？","p":"How much is this top?","a":["錢","cin2"],"o":["蚊","毫","個"],"why":"幾多錢 asks the price."},
-      {"t":"fill","q":"三十五__。","p":"Thirty-five dollars.","a":["蚊","man1"],"o":["毫","個","錢"],"why":"In speech, dollars are 蚊: 三十五蚊."},
-      {"t":"fill","q":"呢個__蚊。","p":"This one is two dollars.","a":["兩","loeng5"],"o":["二","一","個"],"why":"Two straight before 蚊 is 兩, not 二."},
-      {"t":"type","p":"How much is this book?","a":["呢 本 書 幾多錢 呀","呢 本 書 幾多錢","ni1 bun2 syu1 gei2 do1 cin2 aa3","ni1 bun2 syu1 gei2 do1 cin2"],"hint":"呢 · 本 · 書 · 幾多錢","x":["個","張"],"why":"呢 + the classifier 本 before the noun: 呢本書幾多錢呀？"},
-      {"t":"type","p":"two dollars","a":["兩 蚊","loeng5 man1"],"hint":"兩 · 蚊","x":["二"],"why":"蚊 works like a classifier, so two is 兩: 兩蚊."},
-      {"t":"type","p":"That's too expensive!","a":["太 貴 喇","太 貴 啦","太 貴","taai3 gwai3 laa3","taai3 gwai3 laa1","taai3 gwai3"],"hint":"太 · 貴 · 喇","x":["平"],"why":"貴 is expensive: 太貴喇！"}
+      {"t":"fill","q":"呢件衫幾多__呀？","p":"How much is this top?","a":["錢","cin2"],"o":["蚊","毫","個"],"why":"幾多錢 asks the price.","xr":["man1","hou4","go3"]},
+      {"t":"fill","q":"三十五__。","p":"Thirty-five dollars.","a":["蚊","man1"],"o":["毫","個","錢"],"why":"In speech, dollars are 蚊: 三十五蚊.","xr":["hou4","go3","cin2"]},
+      {"t":"fill","q":"呢個__蚊。","p":"This one is two dollars.","a":["兩","loeng5"],"o":["二","一","個"],"why":"Two straight before 蚊 is 兩, not 二.","xr":["ji6","jat1","go3"]},
+      {"t":"type","p":"How much is this book?","a":["呢 本 書 幾多錢 呀","呢 本 書 幾多錢","ni1 bun2 syu1 gei2 do1 cin2 aa3","ni1 bun2 syu1 gei2 do1 cin2"],"hint":"呢 · 本 · 書 · 幾多錢","x":["個","張"],"why":"呢 + the classifier 本 before the noun: 呢本書幾多錢呀？","xr":["go3","zoeng1"]},
+      {"t":"type","p":"two dollars","a":["兩 蚊","loeng5 man1"],"hint":"兩 · 蚊","x":["二"],"why":"蚊 works like a classifier, so two is 兩: 兩蚊.","xr":["ji6"]},
+      {"t":"type","p":"That's too expensive!","a":["太 貴 喇","太 貴 啦","太 貴","taai3 gwai3 laa3","taai3 gwai3 laa1","taai3 gwai3"],"hint":"太 · 貴 · 喇","x":["平"],"why":"貴 is expensive: 太貴喇！","xr":["peng4"]}
     ],
     "food": [
       {"t":"mc","q":"Which is the Jyutping of 碗 (bowl)?","o":["wun2","wun5","wun3","wun1"],"why":"碗 is wun2, with tone 2, rising from the middle.","strict":true},
@@ -970,12 +970,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I'll have a bowl of wonton noodles.","a":["我","要","一","碗","雲吞麵"],"x":["杯"],"why":"Noodles in a bowl take the classifier 碗 before the noun."},
       {"t":"order","p":"two plates of fried rice","a":["兩","碟","炒飯"],"x":["二"],"why":"兩 + the classifier 碟 before the noun: 兩碟炒飯."},
       {"t":"order","p":"A milk tea, no ice, please. (start with 唔該)","a":["唔該","一","杯","奶茶","走冰"],"x":["請"],"why":"Order with 唔該, not 請: 唔該，一杯奶茶走冰."},
-      {"t":"fill","q":"唔該，我要一__雲吞麵。","p":"A bowl of wonton noodles, please.","a":["碗","wun2"],"o":["杯","本","張"],"why":"Noodles in a bowl take 碗."},
-      {"t":"fill","q":"唔該__！","p":"Check, please!","a":["埋單","maai4 daan1"],"o":["走冰","飲茶","多謝"],"why":"埋單 is the check."},
-      {"t":"fill","q":"我要一__蝦餃。","p":"I'll have a basket of shrimp dumplings.","a":["籠","lung4"],"o":["杯","本","張"],"why":"Dim sum in a steamer basket takes 籠."},
-      {"t":"type","p":"An iced milk tea, please. (start with 唔該)","a":["唔該 一 杯 凍奶茶","唔該 我 要 一 杯 凍奶茶","唔該 要 一 杯 凍奶茶","m4 goi1 jat1 bui1 dung3 naai5 caa4","m4 goi1 ngo5 jiu3 jat1 bui1 dung3 naai5 caa4","m4 goi1 jiu3 jat1 bui1 dung3 naai5 caa4"],"hint":"唔該 · 一 · 杯 · 凍奶茶","x":["本","請"],"why":"A drink in a cup takes the classifier 杯 before the noun: 一杯凍奶茶."},
-      {"t":"type","p":"two baskets of shrimp dumplings","a":["兩 籠 蝦餃","loeng5 lung4 haa1 gaau2"],"hint":"兩 · 籠 · 蝦餃","x":["二","杯"],"why":"兩 + the classifier 籠 before the noun: 兩籠蝦餃."},
-      {"t":"type","p":"Check, please!","a":["唔該 埋單","埋單 唔該","m4 goi1 maai4 daan1","maai4 daan1 m4 goi1"],"hint":"唔該 · 埋單","x":["多謝"],"why":"唔該 is the thanks for a service: 唔該埋單！"}
+      {"t":"fill","q":"唔該，我要一__雲吞麵。","p":"A bowl of wonton noodles, please.","a":["碗","wun2"],"o":["杯","本","張"],"why":"Noodles in a bowl take 碗.","xr":["bui1","bun2","zoeng1"]},
+      {"t":"fill","q":"唔該__！","p":"Check, please!","a":["埋單","maai4 daan1"],"o":["走冰","飲茶","多謝"],"why":"埋單 is the check.","xr":["zau2 bing1","jam2 caa4","do1 ze6"]},
+      {"t":"fill","q":"我要一__蝦餃。","p":"I'll have a basket of shrimp dumplings.","a":["籠","lung4"],"o":["杯","本","張"],"why":"Dim sum in a steamer basket takes 籠.","xr":["bui1","bun2","zoeng1"]},
+      {"t":"type","p":"An iced milk tea, please. (start with 唔該)","a":["唔該 一 杯 凍奶茶","唔該 我 要 一 杯 凍奶茶","唔該 要 一 杯 凍奶茶","m4 goi1 jat1 bui1 dung3 naai5 caa4","m4 goi1 ngo5 jiu3 jat1 bui1 dung3 naai5 caa4","m4 goi1 jiu3 jat1 bui1 dung3 naai5 caa4"],"hint":"唔該 · 一 · 杯 · 凍奶茶","x":["本","請"],"why":"A drink in a cup takes the classifier 杯 before the noun: 一杯凍奶茶.","xr":["bun2","cing2"]},
+      {"t":"type","p":"two baskets of shrimp dumplings","a":["兩 籠 蝦餃","loeng5 lung4 haa1 gaau2"],"hint":"兩 · 籠 · 蝦餃","x":["二","杯"],"why":"兩 + the classifier 籠 before the noun: 兩籠蝦餃.","xr":["ji6","bui1"]},
+      {"t":"type","p":"Check, please!","a":["唔該 埋單","埋單 唔該","m4 goi1 maai4 daan1","maai4 daan1 m4 goi1"],"hint":"唔該 · 埋單","x":["多謝"],"why":"唔該 is the thanks for a service: 唔該埋單！","xr":["do1 ze6"]}
     ],
     "time": [
       {"t":"mc","q":"Which is the Jyutping of 聽日 (tomorrow)?","o":["ting1 jat6","teng1 jat6","ting1 jat1","ting4 jat6"],"why":"聽日 is ting1 jat6: tone 1, then tone 6.","strict":true},
@@ -986,12 +986,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I'm going to Hong Kong tomorrow. (start with 我)","a":["我","聽日","去","香港"],"x":["係"],"why":"Time goes before the verb: 我聽日去香港."},
       {"t":"order","p":"We're having dim sum on Saturday. (start with 我哋)","a":["我哋","星期六","飲茶"],"x":["係"],"why":"The time word goes before the verb: 我哋星期六飲茶."},
       {"t":"order","p":"December 3","a":["十二","月","三","號"],"x":["星期"],"why":"Month first, then day: 十二月三號."},
-      {"t":"fill","q":"而家三__半。","p":"It's half past three.","a":["點","dim2"],"o":["號","月","分"],"why":"點 is o'clock: 三點半."},
-      {"t":"fill","q":"我__去香港。","p":"I'm going to Hong Kong tomorrow.","a":["聽日","ting1 jat6"],"o":["琴日","星期","號"],"why":"聽日 is tomorrow, and it goes before the verb."},
-      {"t":"fill","q":"今日係十二月三__。","p":"Today is December 3.","a":["號","hou6"],"o":["點","分","歲"],"why":"號 is the day of the month: 十二月三號."},
-      {"t":"type","p":"I'm going to Hong Kong tomorrow.","a":["我 聽日 去 香港","聽日 我 去 香港","ngo5 ting1 jat6 heoi3 hoeng1 gong2","ting1 jat6 ngo5 heoi3 hoeng1 gong2"],"hint":"聽日 · 去 · 香港","x":["係"],"why":"Time goes before the verb: 我聽日去香港."},
-      {"t":"type","p":"I'm having dim sum on Sunday.","a":["我 星期日 飲茶","我 禮拜日 飲茶","星期日 我 飲茶","禮拜日 我 飲茶","ngo5 sing1 kei4 jat6 jam2 caa4","ngo5 lai5 baai3 jat6 jam2 caa4","sing1 kei4 jat6 ngo5 jam2 caa4","lai5 baai3 jat6 ngo5 jam2 caa4"],"hint":"星期日 · 飲茶","x":["號"],"why":"The time word goes before the verb: 我星期日飲茶."},
-      {"t":"type","p":"What time is it now?","a":["而家 幾點 呀","而家 幾點","而家 幾點鐘 呀","而家 幾點鐘","ji4 gaa1 gei2 dim2 aa3","ji4 gaa1 gei2 dim2","ji4 gaa1 gei2 dim2 zung1 aa3","ji4 gaa1 gei2 dim2 zung1"],"hint":"而家 · 幾點","x":["號"],"why":"而家 (now) comes first, then 幾點."}
+      {"t":"fill","q":"而家三__半。","p":"It's half past three.","a":["點","dim2"],"o":["號","月","分"],"why":"點 is o'clock: 三點半.","xr":["hou6","jyut6","fan1"]},
+      {"t":"fill","q":"我__去香港。","p":"I'm going to Hong Kong tomorrow.","a":["聽日","ting1 jat6"],"o":["琴日","星期","號"],"why":"聽日 is tomorrow, and it goes before the verb.","xr":["kam4 jat6","sing1 kei4","hou6"]},
+      {"t":"fill","q":"今日係十二月三__。","p":"Today is December 3.","a":["號","hou6"],"o":["點","分","歲"],"why":"號 is the day of the month: 十二月三號.","xr":["dim2","fan1","seoi3"]},
+      {"t":"type","p":"I'm going to Hong Kong tomorrow.","a":["我 聽日 去 香港","聽日 我 去 香港","ngo5 ting1 jat6 heoi3 hoeng1 gong2","ting1 jat6 ngo5 heoi3 hoeng1 gong2"],"hint":"聽日 · 去 · 香港","x":["係"],"why":"Time goes before the verb: 我聽日去香港.","xr":["hai6"]},
+      {"t":"type","p":"I'm having dim sum on Sunday.","a":["我 星期日 飲茶","我 禮拜日 飲茶","星期日 我 飲茶","禮拜日 我 飲茶","ngo5 sing1 kei4 jat6 jam2 caa4","ngo5 lai5 baai3 jat6 jam2 caa4","sing1 kei4 jat6 ngo5 jam2 caa4","lai5 baai3 jat6 ngo5 jam2 caa4"],"hint":"星期日 · 飲茶","x":["號"],"why":"The time word goes before the verb: 我星期日飲茶.","xr":["hou6"]},
+      {"t":"type","p":"What time is it now?","a":["而家 幾點 呀","而家 幾點","而家 幾點鐘 呀","而家 幾點鐘","ji4 gaa1 gei2 dim2 aa3","ji4 gaa1 gei2 dim2","ji4 gaa1 gei2 dim2 zung1 aa3","ji4 gaa1 gei2 dim2 zung1"],"hint":"而家 · 幾點","x":["號"],"why":"而家 (now) comes first, then 幾點.","xr":["hou6"]}
     ],
     "routine": [
       {"t":"mc","q":"Which is the Jyutping of 瞓 (to sleep)?","o":["fan3","fan2","fan6","fan1"],"why":"瞓 is fan3, tone 3: mid and level.","strict":true},
@@ -1002,12 +1002,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I take the MTR to work in the morning (start with 我)","a":["我","朝早","搭","地鐵","返工"],"x":["喺"],"why":"When and how both go before the verb: 朝早 + 搭地鐵 + 返工."},
       {"t":"order","p":"I eat at home in the evening (start with 我)","a":["我","夜晚","喺","屋企","食飯"],"x":["係"],"why":"Time and place go before the verb: 夜晚 + 喺屋企 + 食飯. The place word is 喺, not 係."},
       {"t":"order","p":"What time do you go to bed?","a":["你","幾點","瞓覺","呀"],"x":["邊度"],"why":"幾點 takes the time slot, before the verb 瞓覺."},
-      {"t":"fill","q":"我__屋企食飯。","p":"I eat at home.","a":["喺","hai2"],"o":["係","有","嘅"],"why":"喺 (at, in) brings in the place, and the place comes before 食飯."},
-      {"t":"fill","q":"我__搭地鐵返工。","p":"I sometimes take the MTR to work.","a":["有時","jau5 si4"],"o":["每日","成日","朝早"],"why":"有時 means sometimes; 每日 is every day and 成日 is often."},
-      {"t":"fill","q":"你幾點__呀？","p":"What time do you get off work?","a":["放工","fong3 gung1"],"o":["返工","食晏","瞓覺"],"why":"放工 is to get off work; 返工 is to go to work."},
-      {"t":"type","p":"I take the MTR to work (use 搭)","a":["我 搭 地鐵 返工","搭 地鐵 返工","ngo5 daap3 dei6 tit3 faan1 gung1","daap3 dei6 tit3 faan1 gung1"],"hint":"搭 · 地鐵 · 返工 · how you travel comes first","x":["喺"],"why":"How you travel goes before the verb: 搭地鐵 + 返工."},
-      {"t":"type","p":"I eat at home in the evening","a":["我 夜晚 喺 屋企 食飯","夜晚 我 喺 屋企 食飯","夜晚 喺 屋企 食飯","ngo5 je6 maan5 hai2 uk1 kei2 sik6 faan6","je6 maan5 ngo5 hai2 uk1 kei2 sik6 faan6","je6 maan5 hai2 uk1 kei2 sik6 faan6"],"hint":"夜晚 · 喺 · 屋企 · 食飯","x":["係"],"why":"When and where both go before the verb: 夜晚 + 喺屋企 + 食飯."},
-      {"t":"type","p":"I get up at seven in the morning","a":["我 朝早 七點 起身","朝早 七點 我 起身","朝早 七點 起身","ngo5 ziu1 zou2 cat1 dim2 hei2 san1","ziu1 zou2 cat1 dim2 ngo5 hei2 san1","ziu1 zou2 cat1 dim2 hei2 san1"],"hint":"朝早 · 七點 · 起身 · no word for \"at\"","x":["嘅"],"why":"The time goes before the verb: 朝早七點 + 起身."}
+      {"t":"fill","q":"我__屋企食飯。","p":"I eat at home.","a":["喺","hai2"],"o":["係","有","嘅"],"why":"喺 (at, in) brings in the place, and the place comes before 食飯.","xr":["hai6","jau5","ge3"]},
+      {"t":"fill","q":"我__搭地鐵返工。","p":"I sometimes take the MTR to work.","a":["有時","jau5 si4"],"o":["每日","成日","朝早"],"why":"有時 means sometimes; 每日 is every day and 成日 is often.","xr":["mui5 jat6","seng4 jat6","ziu1 zou2"]},
+      {"t":"fill","q":"你幾點__呀？","p":"What time do you get off work?","a":["放工","fong3 gung1"],"o":["返工","食晏","瞓覺"],"why":"放工 is to get off work; 返工 is to go to work.","xr":["faan1 gung1","sik6 aan3","fan3 gaau3"]},
+      {"t":"type","p":"I take the MTR to work (use 搭)","a":["我 搭 地鐵 返工","搭 地鐵 返工","ngo5 daap3 dei6 tit3 faan1 gung1","daap3 dei6 tit3 faan1 gung1"],"hint":"搭 · 地鐵 · 返工 · how you travel comes first","x":["喺"],"why":"How you travel goes before the verb: 搭地鐵 + 返工.","xr":["hai2"]},
+      {"t":"type","p":"I eat at home in the evening","a":["我 夜晚 喺 屋企 食飯","夜晚 我 喺 屋企 食飯","夜晚 喺 屋企 食飯","ngo5 je6 maan5 hai2 uk1 kei2 sik6 faan6","je6 maan5 ngo5 hai2 uk1 kei2 sik6 faan6","je6 maan5 hai2 uk1 kei2 sik6 faan6"],"hint":"夜晚 · 喺 · 屋企 · 食飯","x":["係"],"why":"When and where both go before the verb: 夜晚 + 喺屋企 + 食飯.","xr":["hai6"]},
+      {"t":"type","p":"I get up at seven in the morning","a":["我 朝早 七點 起身","朝早 七點 我 起身","朝早 七點 起身","ngo5 ziu1 zou2 cat1 dim2 hei2 san1","ziu1 zou2 cat1 dim2 ngo5 hei2 san1","ziu1 zou2 cat1 dim2 hei2 san1"],"hint":"朝早 · 七點 · 起身 · no word for \"at\"","x":["嘅"],"why":"The time goes before the verb: 朝早七點 + 起身.","xr":["ge3"]}
     ],
     "modals": [
       {"t":"mc","q":"Which is the Jyutping of 識 (to know how)?","o":["sik1","sik6","sik3","sik2"],"why":"識 is sik1, tone 1; sik6 with tone 6 is 食 (to eat).","strict":true},
@@ -1018,12 +1018,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I want to work in Hong Kong (start with 我)","a":["我","想","喺","香港","做嘢"],"x":["係"],"why":"The place with 喺 goes before the verb: 想 + 喺香港 + 做嘢."},
       {"t":"order","p":"I'd like a coffee","a":["我","想","飲","杯","咖啡"],"x":["個"],"why":"Coffee in a cup takes the classifier 杯: 飲杯咖啡."},
       {"t":"order","p":"I can't swim (I never learned)","a":["我","唔","識","游水"],"x":["可以"],"why":"唔識 means you never learned how; 唔可以 means you are not allowed."},
-      {"t":"fill","q":"我__講廣東話。","p":"I can speak Cantonese. (I learned it.)","a":["識","sik1"],"o":["可以","係","喺"],"why":"識 is for a learned skill like a language."},
-      {"t":"fill","q":"我好__食點心。","p":"I really like dim sum.","a":["鍾意","zung1 ji3"],"o":["識","可以","會"],"why":"鍾意 means like; 好鍾意 is really like."},
-      {"t":"fill","q":"你__畀錢。","p":"You don't need to pay.","a":["唔使","m4 sai2"],"o":["唔要","唔可以","唔識"],"why":"唔使 means no need; 唔要 means you do not want something."},
-      {"t":"type","p":"I'd like to buy two books","a":["我 想 買 兩 本 書","想 買 兩 本 書","ngo5 soeng2 maai5 loeng5 bun2 syu1","soeng2 maai5 loeng5 bun2 syu1"],"hint":"想 · 買 · 兩 · 本 · 書","x":["個"],"why":"Books take the classifier 本: 兩本書, after 想買."},
-      {"t":"type","p":"I have to go to work at nine tomorrow","a":["我 聽日 九點 要 返工","聽日 九點 我 要 返工","聽日 九點 要 返工","我 聽日 要 九點 返工","ngo5 ting1 jat6 gau2 dim2 jiu3 faan1 gung1","ting1 jat6 gau2 dim2 ngo5 jiu3 faan1 gung1","ting1 jat6 gau2 dim2 jiu3 faan1 gung1","ngo5 ting1 jat6 jiu3 gau2 dim2 faan1 gung1"],"hint":"聽日 · 九點 · 要 · 返工 · no word for \"at\"","x":["嘅"],"why":"The time goes before the verb: 聽日九點 + 要返工."},
-      {"t":"type","p":"I can speak Cantonese (use 識)","a":["我 識 講 廣東話","識 講 廣東話","ngo5 sik1 gong2 gwong2 dung1 waa2","sik1 gong2 gwong2 dung1 waa2"],"hint":"識 · 講 · 廣東話","x":["可以"],"why":"識 is for a skill you learned; 可以 is for permission."}
+      {"t":"fill","q":"我__講廣東話。","p":"I can speak Cantonese. (I learned it.)","a":["識","sik1"],"o":["可以","係","喺"],"why":"識 is for a learned skill like a language.","xr":["ho2 ji5","hai6","hai2"]},
+      {"t":"fill","q":"我好__食點心。","p":"I really like dim sum.","a":["鍾意","zung1 ji3"],"o":["識","可以","會"],"why":"鍾意 means like; 好鍾意 is really like.","xr":["sik1","ho2 ji5","wui5"]},
+      {"t":"fill","q":"你__畀錢。","p":"You don't need to pay.","a":["唔使","m4 sai2"],"o":["唔要","唔可以","唔識"],"why":"唔使 means no need; 唔要 means you do not want something.","xr":["m4 jiu3","m4 ho2 ji5","m4 sik1"]},
+      {"t":"type","p":"I'd like to buy two books","a":["我 想 買 兩 本 書","想 買 兩 本 書","ngo5 soeng2 maai5 loeng5 bun2 syu1","soeng2 maai5 loeng5 bun2 syu1"],"hint":"想 · 買 · 兩 · 本 · 書","x":["個"],"why":"Books take the classifier 本: 兩本書, after 想買.","xr":["go3"]},
+      {"t":"type","p":"I have to go to work at nine tomorrow","a":["我 聽日 九點 要 返工","聽日 九點 我 要 返工","聽日 九點 要 返工","我 聽日 要 九點 返工","ngo5 ting1 jat6 gau2 dim2 jiu3 faan1 gung1","ting1 jat6 gau2 dim2 ngo5 jiu3 faan1 gung1","ting1 jat6 gau2 dim2 jiu3 faan1 gung1","ngo5 ting1 jat6 jiu3 gau2 dim2 faan1 gung1"],"hint":"聽日 · 九點 · 要 · 返工 · no word for \"at\"","x":["嘅"],"why":"The time goes before the verb: 聽日九點 + 要返工.","xr":["ge3"]},
+      {"t":"type","p":"I can speak Cantonese (use 識)","a":["我 識 講 廣東話","識 講 廣東話","ngo5 sik1 gong2 gwong2 dung1 waa2","sik1 gong2 gwong2 dung1 waa2"],"hint":"識 · 講 · 廣東話","x":["可以"],"why":"識 is for a skill you learned; 可以 is for permission.","xr":["ho2 ji5"]}
     ],
     "ding-dou": [
       {"t":"mc","q":"Which is the Jyutping of 凍 (iced, cold)?","o":["dung3","dung6","dung1","dung2"],"why":"凍 is dung3, tone 3: mid and level.","strict":true},
@@ -1034,12 +1034,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I like milk tea too (start with 我)","a":["我","都","鍾意","飲","奶茶"],"x":["同"],"why":"都 goes before the verb, not at the end like English too."},
       {"t":"order","p":"We're all going (start with 我哋)","a":["我哋","都","去"],"x":["定"],"why":"With a group, 都 often means all, and it goes before the verb: 我哋都去."},
       {"t":"order","p":"Are you going or not?","a":["你","去","定","唔","去","呀"],"x":["或者"],"why":"定 offers the choice in a question; 或者 is only for statements."},
-      {"t":"fill","q":"凍__熱呀？","p":"Iced or hot?","a":["定","ding6"],"o":["或者","同","都"],"why":"In a question that offers a choice, \"or\" is 定."},
-      {"t":"fill","q":"我__係美國人。","p":"I'm American too.","a":["都","dou1"],"o":["定","同","或者"],"why":"都 means also and sits right after the person."},
-      {"t":"fill","q":"我聽日__後日去。","p":"I'll go tomorrow or the day after.","a":["或者","waak6 ze2"],"o":["定","同","都"],"why":"In a statement, \"or\" is 或者."},
-      {"t":"type","p":"I like dim sum too","a":["我 都 鍾意 點心","我 都 鍾意 食 點心","ngo5 dou1 zung1 ji3 dim2 sam1","ngo5 dou1 zung1 ji3 sik6 dim2 sam1"],"hint":"都 · 鍾意 · 點心","x":["同"],"why":"都 goes before the verb, not at the end like English too."},
-      {"t":"type","p":"I'm going to Hong Kong too","a":["我 都 去 香港","ngo5 dou1 heoi3 hoeng1 gong2"],"hint":"都 · 去 · 香港","x":["定"],"why":"都 goes before the verb: 我都去香港."},
-      {"t":"type","p":"two cups of tea and a cup of coffee","a":["兩 杯 茶 同 一 杯 咖啡","兩 杯 茶 同埋 一 杯 咖啡","loeng5 bui1 caa4 tung4 jat1 bui1 gaa3 fe1","loeng5 bui1 caa4 tung4 maai4 jat1 bui1 gaa3 fe1"],"hint":"兩 · 杯 · 茶 · 同 · 一 · 咖啡","x":["個"],"why":"Drinks in cups take the classifier 杯, and 同 joins the two things."}
+      {"t":"fill","q":"凍__熱呀？","p":"Iced or hot?","a":["定","ding6"],"o":["或者","同","都"],"why":"In a question that offers a choice, \"or\" is 定.","xr":["waak6 ze2","tung4","dou1"]},
+      {"t":"fill","q":"我__係美國人。","p":"I'm American too.","a":["都","dou1"],"o":["定","同","或者"],"why":"都 means also and sits right after the person.","xr":["ding6","tung4","waak6 ze2"]},
+      {"t":"fill","q":"我聽日__後日去。","p":"I'll go tomorrow or the day after.","a":["或者","waak6 ze2"],"o":["定","同","都"],"why":"In a statement, \"or\" is 或者.","xr":["ding6","tung4","dou1"]},
+      {"t":"type","p":"I like dim sum too","a":["我 都 鍾意 點心","我 都 鍾意 食 點心","ngo5 dou1 zung1 ji3 dim2 sam1","ngo5 dou1 zung1 ji3 sik6 dim2 sam1"],"hint":"都 · 鍾意 · 點心","x":["同"],"why":"都 goes before the verb, not at the end like English too.","xr":["tung4"]},
+      {"t":"type","p":"I'm going to Hong Kong too","a":["我 都 去 香港","ngo5 dou1 heoi3 hoeng1 gong2"],"hint":"都 · 去 · 香港","x":["定"],"why":"都 goes before the verb: 我都去香港.","xr":["ding6"]},
+      {"t":"type","p":"two cups of tea and a cup of coffee","a":["兩 杯 茶 同 一 杯 咖啡","兩 杯 茶 同埋 一 杯 咖啡","loeng5 bui1 caa4 tung4 jat1 bui1 gaa3 fe1","loeng5 bui1 caa4 tung4 maai4 jat1 bui1 gaa3 fe1"],"hint":"兩 · 杯 · 茶 · 同 · 一 · 咖啡","x":["個"],"why":"Drinks in cups take the classifier 杯, and 同 joins the two things.","xr":["go3"]}
     ],
     "describing": [
       {"t":"mc","q":"Which is the Jyutping of 貴 (expensive)?","o":["gwai3","gwai2","gwai6","gwai1"],"why":"貴 is gwai3, tone 3; gwai2 with tone 2 is 鬼 (ghost).","strict":true},
@@ -1050,12 +1050,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"a really cheap restaurant","a":["一","間","好","平","嘅","餐廳"],"x":["本"],"why":"The describer with 嘅 goes before the noun, and restaurants take the classifier 間."},
       {"t":"order","p":"This top is really cheap","a":["呢","件","衫","好","平"],"x":["係"],"why":"呢 + classifier + noun: 呢件衫, then 好平 with no 係."},
       {"t":"order","p":"It's hotter today than yesterday","a":["今日","熱","過","琴日"],"x":["係"],"why":"Adjective + 過 + what you compare with: 熱過琴日."},
-      {"t":"fill","q":"佢__高。","p":"He's tall.","a":["好","hou2"],"o":["係","過","嘅"],"why":"An adjective takes 好 in front, never 係."},
-      {"t":"fill","q":"佢高__我。","p":"She's taller than me.","a":["過","gwo3"],"o":["係","好","嘅"],"why":"過 after the adjective means than: 高過我."},
-      {"t":"fill","q":"呢杯咖啡__甜。","p":"This coffee is too sweet.","a":["太","taai3"],"o":["係","過","嘅"],"why":"太 means too: 太甜."},
-      {"t":"type","p":"This top is really cheap","a":["呢 件 衫 好 平","ni1 gin6 saam1 hou2 peng4"],"hint":"呢 · 件 · 衫 · 好平","x":["係"],"why":"呢 + classifier + noun: 呢件衫, then 好平 with no 係."},
-      {"t":"type","p":"a really nice top","a":["一 件 好 靚 嘅 衫","jat1 gin6 hou2 leng3 ge3 saam1"],"hint":"一 · 件 · 好靚 · 嘅 · 衫","x":["本"],"why":"The describer with 嘅 goes before the noun: 好靚嘅衫, after the classifier 件."},
-      {"t":"type","p":"She's taller than me","a":["佢 高 過 我","keoi5 gou1 gwo3 ngo5"],"hint":"佢 · 高 · 過 · 我","x":["係"],"why":"Adjective + 過 + the other person: 佢高過我."}
+      {"t":"fill","q":"佢__高。","p":"He's tall.","a":["好","hou2"],"o":["係","過","嘅"],"why":"An adjective takes 好 in front, never 係.","xr":["hai6","gwo3","ge3"]},
+      {"t":"fill","q":"佢高__我。","p":"She's taller than me.","a":["過","gwo3"],"o":["係","好","嘅"],"why":"過 after the adjective means than: 高過我.","xr":["hai6","hou2","ge3"]},
+      {"t":"fill","q":"呢杯咖啡__甜。","p":"This coffee is too sweet.","a":["太","taai3"],"o":["係","過","嘅"],"why":"太 means too: 太甜.","xr":["hai6","gwo3","ge3"]},
+      {"t":"type","p":"This top is really cheap","a":["呢 件 衫 好 平","ni1 gin6 saam1 hou2 peng4"],"hint":"呢 · 件 · 衫 · 好平","x":["係"],"why":"呢 + classifier + noun: 呢件衫, then 好平 with no 係.","xr":["hai6"]},
+      {"t":"type","p":"a really nice top","a":["一 件 好 靚 嘅 衫","jat1 gin6 hou2 leng3 ge3 saam1"],"hint":"一 · 件 · 好靚 · 嘅 · 衫","x":["本"],"why":"The describer with 嘅 goes before the noun: 好靚嘅衫, after the classifier 件.","xr":["bun2"]},
+      {"t":"type","p":"She's taller than me","a":["佢 高 過 我","keoi5 gou1 gwo3 ngo5"],"hint":"佢 · 高 · 過 · 我","x":["係"],"why":"Adjective + 過 + the other person: 佢高過我.","xr":["hai6"]}
     ],
     "zo": [
       {"t":"mc","q":"Which is the Jyutping of 未 (not yet)?","o":["mei6","mei5","mei4","mei2"],"why":"未 is mei6, tone 6: low and level; 美國 (mei5 gwok3) starts with tone 5.","strict":true},
@@ -1066,12 +1066,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I bought two books","a":["我","買","咗","兩","本","書"],"x":["個"],"why":"Books take the classifier 本: 買咗兩本書."},
       {"t":"order","p":"I went to the doctor yesterday (start with 我)","a":["我","琴日","睇","咗","醫生"],"x":["係"],"why":"Time goes before the verb: 琴日 + 睇咗醫生."},
       {"t":"order","p":"I haven't taken my medicine yet","a":["我","未","食","藥"],"x":["咗"],"why":"未 means not yet, and it never takes 咗."},
-      {"t":"fill","q":"我感冒__。","p":"I've caught a cold.","a":["咗","zo2"],"o":["未","冇","唔"],"why":"咗 shows the change has happened: 我感冒咗."},
-      {"t":"fill","q":"我琴日__去。","p":"I didn't go yesterday.","a":["冇","mou5"],"o":["唔","未","咗"],"why":"冇 + verb is for what did not happen."},
-      {"t":"fill","q":"你食咗飯__呀？","p":"Have you eaten yet?","a":["未","mei6"],"o":["唔","咗","嘅"],"why":"…咗…未呀？ asks \"have you … yet?\"."},
-      {"t":"type","p":"I bought two books yesterday","a":["我 琴日 買 咗 兩 本 書","琴日 我 買 咗 兩 本 書","琴日 買 咗 兩 本 書","ngo5 kam4 jat6 maai5 zo2 loeng5 bun2 syu1","kam4 jat6 ngo5 maai5 zo2 loeng5 bun2 syu1","kam4 jat6 maai5 zo2 loeng5 bun2 syu1"],"hint":"琴日 · 買 · 咗 · 兩 · 本 · 書","x":["個"],"why":"Time goes before the verb, and books take the classifier 本."},
-      {"t":"type","p":"I didn't go yesterday","a":["我 琴日 冇 去","琴日 我 冇 去","琴日 冇 去","ngo5 kam4 jat6 mou5 heoi3","kam4 jat6 ngo5 mou5 heoi3","kam4 jat6 mou5 heoi3"],"hint":"琴日 · 冇 · 去","x":["唔"],"why":"冇 + verb for what did not happen, with the time before the verb: 琴日冇去."},
-      {"t":"type","p":"I haven't eaten yet","a":["我 未 食","我 未 食飯","未 食","未 食飯","ngo5 mei6 sik6","ngo5 mei6 sik6 faan6","mei6 sik6","mei6 sik6 faan6"],"hint":"未 · 食","x":["冇"],"why":"未 means not yet; 冇 means didn't."}
+      {"t":"fill","q":"我感冒__。","p":"I've caught a cold.","a":["咗","zo2"],"o":["未","冇","唔"],"why":"咗 shows the change has happened: 我感冒咗.","xr":["mei6","mou5","m4"]},
+      {"t":"fill","q":"我琴日__去。","p":"I didn't go yesterday.","a":["冇","mou5"],"o":["唔","未","咗"],"why":"冇 + verb is for what did not happen.","xr":["m4","mei6","zo2"]},
+      {"t":"fill","q":"你食咗飯__呀？","p":"Have you eaten yet?","a":["未","mei6"],"o":["唔","咗","嘅"],"why":"…咗…未呀？ asks \"have you … yet?\".","xr":["m4","zo2","ge3"]},
+      {"t":"type","p":"I bought two books yesterday","a":["我 琴日 買 咗 兩 本 書","琴日 我 買 咗 兩 本 書","琴日 買 咗 兩 本 書","ngo5 kam4 jat6 maai5 zo2 loeng5 bun2 syu1","kam4 jat6 ngo5 maai5 zo2 loeng5 bun2 syu1","kam4 jat6 maai5 zo2 loeng5 bun2 syu1"],"hint":"琴日 · 買 · 咗 · 兩 · 本 · 書","x":["個"],"why":"Time goes before the verb, and books take the classifier 本.","xr":["go3"]},
+      {"t":"type","p":"I didn't go yesterday","a":["我 琴日 冇 去","琴日 我 冇 去","琴日 冇 去","ngo5 kam4 jat6 mou5 heoi3","kam4 jat6 ngo5 mou5 heoi3","kam4 jat6 mou5 heoi3"],"hint":"琴日 · 冇 · 去","x":["唔"],"why":"冇 + verb for what did not happen, with the time before the verb: 琴日冇去.","xr":["m4"]},
+      {"t":"type","p":"I haven't eaten yet","a":["我 未 食","我 未 食飯","未 食","未 食飯","ngo5 mei6 sik6","ngo5 mei6 sik6 faan6","mei6 sik6","mei6 sik6 faan6"],"hint":"未 · 食","x":["冇"],"why":"未 means not yet; 冇 means didn't.","xr":["mou5"]}
     ],
     "gan-gwo": [
       {"t":"mc","q":"Which is the Jyutping of 緊 (in the middle of)?","o":["gan2","gan6","gan3","gan1"],"why":"緊 is gan2, tone 2: it rises from the middle.","strict":true},
@@ -1082,12 +1082,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I'm eating now (start with 我)","a":["我","而家","食","緊","飯"],"x":["係"],"why":"Time goes before the verb: 而家 + 食緊飯, with no 係."},
       {"t":"order","p":"I went to Macau last week (start with 我)","a":["我","上個禮拜","去","咗","澳門"],"x":["緊"],"why":"Time goes before the verb: 上個禮拜 + 去咗澳門."},
       {"t":"order","p":"Have you ever been to Macau?","a":["你","去","過","澳門","未","呀"],"x":["咗"],"why":"過 after the verb asks about experience; 未 at the end makes it a question."},
-      {"t":"fill","q":"我而家食__飯。","p":"I'm eating now.","a":["緊","gan2"],"o":["過","咗","係"],"why":"緊 after the verb means you are in the middle of it."},
-      {"t":"fill","q":"你去__香港未呀？","p":"Have you ever been to Hong Kong?","a":["過","gwo3"],"o":["緊","咗","係"],"why":"過 asks about experience: 去過 = have been."},
-      {"t":"fill","q":"佢冇去__澳門。","p":"He's never been to Macau.","a":["過","gwo3"],"o":["緊","咗","未"],"why":"冇 + verb + 過 means never."},
-      {"t":"type","p":"I'm eating now","a":["我 而家 食 緊 飯","而家 我 食 緊 飯","而家 食 緊 飯","ngo5 ji4 gaa1 sik6 gan2 faan6","ji4 gaa1 ngo5 sik6 gan2 faan6","ji4 gaa1 sik6 gan2 faan6"],"hint":"而家 · 食 · 緊 · 飯","x":["係"],"why":"Time goes before the verb: 而家 + 食緊飯, with no 係."},
-      {"t":"type","p":"I went to Macau last week","a":["我 上個禮拜 去 咗 澳門","上個禮拜 我 去 咗 澳門","上個禮拜 去 咗 澳門","我 上個星期 去 咗 澳門","上個星期 我 去 咗 澳門","上個星期 去 咗 澳門","ngo5 soeng6 go3 lai5 baai3 heoi3 zo2 ou3 mun2","soeng6 go3 lai5 baai3 ngo5 heoi3 zo2 ou3 mun2","soeng6 go3 lai5 baai3 heoi3 zo2 ou3 mun2","ngo5 soeng6 go3 sing1 kei4 heoi3 zo2 ou3 mun2","soeng6 go3 sing1 kei4 ngo5 heoi3 zo2 ou3 mun2","soeng6 go3 sing1 kei4 heoi3 zo2 ou3 mun2"],"hint":"上個禮拜 · 去 · 咗 · 澳門","x":["緊"],"why":"Time goes before the verb: 上個禮拜 + 去咗澳門."},
-      {"t":"type","p":"I've never been to Hong Kong","a":["我 未 去 過 香港","我 冇 去 過 香港","未 去 過 香港","冇 去 過 香港","ngo5 mei6 heoi3 gwo3 hoeng1 gong2","ngo5 mou5 heoi3 gwo3 hoeng1 gong2","mei6 heoi3 gwo3 hoeng1 gong2","mou5 heoi3 gwo3 hoeng1 gong2"],"hint":"未 · 去 · 過 · 香港","x":["咗"],"why":"未 or 冇 before the verb and 過 after it mean never."}
+      {"t":"fill","q":"我而家食__飯。","p":"I'm eating now.","a":["緊","gan2"],"o":["過","咗","係"],"why":"緊 after the verb means you are in the middle of it.","xr":["gwo3","zo2","hai6"]},
+      {"t":"fill","q":"你去__香港未呀？","p":"Have you ever been to Hong Kong?","a":["過","gwo3"],"o":["緊","咗","係"],"why":"過 asks about experience: 去過 = have been.","xr":["gan2","zo2","hai6"]},
+      {"t":"fill","q":"佢冇去__澳門。","p":"He's never been to Macau.","a":["過","gwo3"],"o":["緊","咗","未"],"why":"冇 + verb + 過 means never.","xr":["gan2","zo2","mei6"]},
+      {"t":"type","p":"I'm eating now","a":["我 而家 食 緊 飯","而家 我 食 緊 飯","而家 食 緊 飯","ngo5 ji4 gaa1 sik6 gan2 faan6","ji4 gaa1 ngo5 sik6 gan2 faan6","ji4 gaa1 sik6 gan2 faan6"],"hint":"而家 · 食 · 緊 · 飯","x":["係"],"why":"Time goes before the verb: 而家 + 食緊飯, with no 係.","xr":["hai6"]},
+      {"t":"type","p":"I went to Macau last week","a":["我 上個禮拜 去 咗 澳門","上個禮拜 我 去 咗 澳門","上個禮拜 去 咗 澳門","我 上個星期 去 咗 澳門","上個星期 我 去 咗 澳門","上個星期 去 咗 澳門","ngo5 soeng6 go3 lai5 baai3 heoi3 zo2 ou3 mun2","soeng6 go3 lai5 baai3 ngo5 heoi3 zo2 ou3 mun2","soeng6 go3 lai5 baai3 heoi3 zo2 ou3 mun2","ngo5 soeng6 go3 sing1 kei4 heoi3 zo2 ou3 mun2","soeng6 go3 sing1 kei4 ngo5 heoi3 zo2 ou3 mun2","soeng6 go3 sing1 kei4 heoi3 zo2 ou3 mun2"],"hint":"上個禮拜 · 去 · 咗 · 澳門","x":["緊"],"why":"Time goes before the verb: 上個禮拜 + 去咗澳門.","xr":["gan2"]},
+      {"t":"type","p":"I've never been to Hong Kong","a":["我 未 去 過 香港","我 冇 去 過 香港","未 去 過 香港","冇 去 過 香港","ngo5 mei6 heoi3 gwo3 hoeng1 gong2","ngo5 mou5 heoi3 gwo3 hoeng1 gong2","mei6 heoi3 gwo3 hoeng1 gong2","mou5 heoi3 gwo3 hoeng1 gong2"],"hint":"未 · 去 · 過 · 香港","x":["咗"],"why":"未 or 冇 before the verb and 過 after it mean never.","xr":["zo2"]}
     ],
     "go-come": [
       {"t":"mc","q":"Which is the Jyutping of 嚟 (to come)?","o":["lei4","lei5","lei6","lei2"],"why":"嚟 is lei4, tone 4: low and falling.","strict":true},
@@ -1098,12 +1098,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I take the MTR to Central (start with 我)","a":["我","搭","地鐵","去","中環"],"x":["係"],"why":"How you travel goes before the verb: 搭地鐵 + 去中環."},
       {"t":"order","p":"I go to work by bus (start with 我)","a":["我","坐","巴士","返工"],"x":["喺"],"why":"How you travel goes before the verb: 坐巴士 + 返工."},
       {"t":"order","p":"Come over to my place for dinner!","a":["嚟","我","屋企","食飯","吖"],"x":["係"],"why":"嚟 is come, toward the speaker, and 吖 makes it an invitation."},
-      {"t":"fill","q":"我搭地鐵__中環。","p":"I take the MTR to Central.","a":["去","heoi3"],"o":["喺","係","嘅"],"why":"去 + place, with no word for \"to\"."},
-      {"t":"fill","q":"我六點__屋企。","p":"I go home at six.","a":["返","faan1"],"o":["嚟","係","過"],"why":"返 is for going back to your own place: 返屋企."},
-      {"t":"fill","q":"我喺中環__車。","p":"I get off at Central.","a":["落","lok6"],"o":["上","去","嚟"],"why":"落車 is to get off; 上車 is to get on."},
-      {"t":"type","p":"I take the MTR to Central","a":["我 搭 地鐵 去 中環","我 坐 地鐵 去 中環","搭 地鐵 去 中環","坐 地鐵 去 中環","ngo5 daap3 dei6 tit3 heoi3 zung1 waan4","ngo5 co5 dei6 tit3 heoi3 zung1 waan4","daap3 dei6 tit3 heoi3 zung1 waan4","co5 dei6 tit3 heoi3 zung1 waan4"],"hint":"搭 · 地鐵 · 去 · 中環","x":["喺"],"why":"How you travel goes before the verb: 搭地鐵 + 去中環."},
-      {"t":"type","p":"I walk to work","a":["我 行路 返工","行路 返工","ngo5 haang4 lou6 faan1 gung1","haang4 lou6 faan1 gung1"],"hint":"行路 · 返工","x":["喺"],"why":"How you travel goes before the verb: 行路 + 返工."},
-      {"t":"type","p":"I'm going home by taxi","a":["我 搭 的士 返屋企","我 坐 的士 返屋企","搭 的士 返屋企","坐 的士 返屋企","ngo5 daap3 dik1 si2 faan1 uk1 kei2","ngo5 co5 dik1 si2 faan1 uk1 kei2","daap3 dik1 si2 faan1 uk1 kei2","co5 dik1 si2 faan1 uk1 kei2"],"hint":"搭 · 的士 · 返屋企","x":["喺"],"why":"How you travel goes before the verb: 搭的士 + 返屋企."}
+      {"t":"fill","q":"我搭地鐵__中環。","p":"I take the MTR to Central.","a":["去","heoi3"],"o":["喺","係","嘅"],"why":"去 + place, with no word for \"to\".","xr":["hai2","hai6","ge3"]},
+      {"t":"fill","q":"我六點__屋企。","p":"I go home at six.","a":["返","faan1"],"o":["嚟","係","過"],"why":"返 is for going back to your own place: 返屋企.","xr":["lei4","hai6","gwo3"]},
+      {"t":"fill","q":"我喺中環__車。","p":"I get off at Central.","a":["落","lok6"],"o":["上","去","嚟"],"why":"落車 is to get off; 上車 is to get on.","xr":["soeng6","heoi3","lei4"]},
+      {"t":"type","p":"I take the MTR to Central","a":["我 搭 地鐵 去 中環","我 坐 地鐵 去 中環","搭 地鐵 去 中環","坐 地鐵 去 中環","ngo5 daap3 dei6 tit3 heoi3 zung1 waan4","ngo5 co5 dei6 tit3 heoi3 zung1 waan4","daap3 dei6 tit3 heoi3 zung1 waan4","co5 dei6 tit3 heoi3 zung1 waan4"],"hint":"搭 · 地鐵 · 去 · 中環","x":["喺"],"why":"How you travel goes before the verb: 搭地鐵 + 去中環.","xr":["hai2"]},
+      {"t":"type","p":"I walk to work","a":["我 行路 返工","行路 返工","ngo5 haang4 lou6 faan1 gung1","haang4 lou6 faan1 gung1"],"hint":"行路 · 返工","x":["喺"],"why":"How you travel goes before the verb: 行路 + 返工.","xr":["hai2"]},
+      {"t":"type","p":"I'm going home by taxi","a":["我 搭 的士 返屋企","我 坐 的士 返屋企","搭 的士 返屋企","坐 的士 返屋企","ngo5 daap3 dik1 si2 faan1 uk1 kei2","ngo5 co5 dik1 si2 faan1 uk1 kei2","daap3 dik1 si2 faan1 uk1 kei2","co5 dik1 si2 faan1 uk1 kei2"],"hint":"搭 · 的士 · 返屋企","x":["喺"],"why":"How you travel goes before the verb: 搭的士 + 返屋企.","xr":["hai2"]}
     ],
     "directions": [
       {"t":"mc","q":"Which word is hai2 (at, in)?","o":["喺","係","嚟","去"],"why":"喺 is hai2, tone 2; 係 is hai6, tone 6 (to be).","strict":true},
@@ -1114,12 +1114,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"I'll wait for you across from the bank (start with 我)","a":["我","喺","銀行","對面","等","你"],"x":["係"],"why":"The place goes before the verb: 喺銀行對面 + 等你."},
       {"t":"order","p":"That bank is across the road","a":["嗰","間","銀行","喺","對面"],"x":["本"],"why":"嗰 + classifier + noun: banks take the classifier 間."},
       {"t":"order","p":"Is it far?","a":["遠","唔","遠","呀"],"x":["係"],"why":"A verb-not-verb question asks if it is far: 遠唔遠呀？"},
-      {"t":"fill","q":"地鐵站喺銀行__。","p":"The MTR station is across from the bank.","a":["對面","deoi3 min6"],"o":["隔籬","後面","左邊"],"why":"對面 is across from; it comes after the landmark 銀行."},
-      {"t":"fill","q":"請問，洗手間__邊度呀？","p":"Excuse me, where's the restroom?","a":["喺","hai2"],"o":["係","嚟","去"],"why":"喺 (hai2) means at or in; 係 (hai6) means to be."},
-      {"t":"fill","q":"直行，去到紅綠燈__右。","p":"Go straight, and turn right at the traffic lights.","a":["轉","zyun3"],"o":["過","落","嚟"],"why":"轉右 is turn right."},
-      {"t":"type","p":"I'll wait for you across from the bank","a":["我 喺 銀行 對面 等 你","喺 銀行 對面 等 你","ngo5 hai2 ngan4 hong4 deoi3 min6 dang2 nei5","hai2 ngan4 hong4 deoi3 min6 dang2 nei5"],"hint":"喺 · 銀行 · 對面 · 等 · 你","x":["係"],"why":"The place goes before the verb: 喺銀行對面 + 等你."},
-      {"t":"type","p":"That restaurant is next to the bank","a":["嗰 間 餐廳 喺 銀行 隔籬","go2 gaan1 caan1 teng1 hai2 ngan4 hong4 gaak3 lei4"],"hint":"嗰 · 間 · 餐廳 · 喺 · 銀行 · 隔籬","x":["本"],"why":"嗰 + classifier + noun: restaurants take the classifier 間."},
-      {"t":"type","p":"Excuse me, where's the MTR station?","a":["請問 地鐵站 喺 邊度 呀","請問 地鐵站 喺 邊度","cing2 man6 dei6 tit3 zaam6 hai2 bin1 dou6 aa3","cing2 man6 dei6 tit3 zaam6 hai2 bin1 dou6"],"hint":"請問 · 地鐵站 · 喺 · 邊度","x":["係"],"why":"Thing + 喺 + 邊度, with 喺 (at), not 係."}
+      {"t":"fill","q":"地鐵站喺銀行__。","p":"The MTR station is across from the bank.","a":["對面","deoi3 min6"],"o":["隔籬","後面","左邊"],"why":"對面 is across from; it comes after the landmark 銀行.","xr":["gaak3 lei4","hau6 min6","zo2 bin1"]},
+      {"t":"fill","q":"請問，洗手間__邊度呀？","p":"Excuse me, where's the restroom?","a":["喺","hai2"],"o":["係","嚟","去"],"why":"喺 (hai2) means at or in; 係 (hai6) means to be.","xr":["hai6","lei4","heoi3"]},
+      {"t":"fill","q":"直行，去到紅綠燈__右。","p":"Go straight, and turn right at the traffic lights.","a":["轉","zyun3"],"o":["過","落","嚟"],"why":"轉右 is turn right.","xr":["gwo3","lok6","lei4"]},
+      {"t":"type","p":"I'll wait for you across from the bank","a":["我 喺 銀行 對面 等 你","喺 銀行 對面 等 你","ngo5 hai2 ngan4 hong4 deoi3 min6 dang2 nei5","hai2 ngan4 hong4 deoi3 min6 dang2 nei5"],"hint":"喺 · 銀行 · 對面 · 等 · 你","x":["係"],"why":"The place goes before the verb: 喺銀行對面 + 等你.","xr":["hai6"]},
+      {"t":"type","p":"That restaurant is next to the bank","a":["嗰 間 餐廳 喺 銀行 隔籬","go2 gaan1 caan1 teng1 hai2 ngan4 hong4 gaak3 lei4"],"hint":"嗰 · 間 · 餐廳 · 喺 · 銀行 · 隔籬","x":["本"],"why":"嗰 + classifier + noun: restaurants take the classifier 間.","xr":["bun2"]},
+      {"t":"type","p":"Excuse me, where's the MTR station?","a":["請問 地鐵站 喺 邊度 呀","請問 地鐵站 喺 邊度","cing2 man6 dei6 tit3 zaam6 hai2 bin1 dou6 aa3","cing2 man6 dei6 tit3 zaam6 hai2 bin1 dou6"],"hint":"請問 · 地鐵站 · 喺 · 邊度","x":["係"],"why":"Thing + 喺 + 邊度, with 喺 (at), not 係.","xr":["hai6"]}
     ],
     "suggest": [
       {"t":"mc","q":"Which is the Jyutping of 吖 (the invitation particle)?","o":["aa1","aa3","aa4","aa2"],"why":"吖 is aa1, tone 1: high; 呀 is aa3, tone 3.","strict":true},
@@ -1130,12 +1130,12 @@ LANGAPP_PACKS.course['en-yue'] = {
       {"t":"order","p":"How about going for dim sum tomorrow? (start with 不如)","a":["不如","聽日","去","飲茶","吖"],"x":["喺"],"why":"Time goes before the verb: 聽日 + 去飲茶."},
       {"t":"order","p":"Let's eat together! (start with 我哋)","a":["我哋","一齊","食飯","吖"],"x":["同"],"why":"一齊 (together) goes before the verb: 一齊食飯."},
       {"t":"order","p":"Don't worry","a":["唔好","擔心"],"x":["冇"],"why":"唔好 + verb means don't; 冇 is for what did not happen."},
-      {"t":"fill","q":"不如去飲茶__？","p":"How about going for dim sum?","a":["吖","啦","aa1","laa1"],"o":["咗","過","嘅"],"why":"吖 (or 啦) at the end makes it a friendly suggestion."},
-      {"t":"fill","q":"我哋__食飯吖！","p":"Let's eat together!","a":["一齊","jat1 cai4"],"o":["都","同","定"],"why":"一齊 means together and sits before the verb."},
-      {"t":"fill","q":"__擔心。","p":"Don't worry.","a":["唔好","唔使","m4 hou2","m4 sai2"],"o":["冇","未","唔要"],"why":"唔好 + verb means don't; 唔使擔心 (no need to worry) also works."},
-      {"t":"type","p":"How about going for dim sum tomorrow?","a":["不如 聽日 去 飲茶 吖","聽日 不如 去 飲茶 吖","不如 聽日 去 飲茶 啦","聽日 不如 去 飲茶 啦","不如 聽日 飲茶 吖","不如 聽日 飲茶 啦","bat1 jyu4 ting1 jat6 heoi3 jam2 caa4 aa1","ting1 jat6 bat1 jyu4 heoi3 jam2 caa4 aa1","bat1 jyu4 ting1 jat6 heoi3 jam2 caa4 laa1","ting1 jat6 bat1 jyu4 heoi3 jam2 caa4 laa1","bat1 jyu4 ting1 jat6 jam2 caa4 aa1","bat1 jyu4 ting1 jat6 jam2 caa4 laa1"],"hint":"不如 · 聽日 · 去 · 飲茶 · 吖","x":["喺"],"why":"Time goes before the verb: 不如 + 聽日 + 去飲茶."},
-      {"t":"type","p":"How about taking a taxi there? (use 不如)","a":["不如 搭 的士 去 吖","不如 坐 的士 去 吖","不如 搭 的士 去 啦","不如 坐 的士 去 啦","bat1 jyu4 daap3 dik1 si2 heoi3 aa1","bat1 jyu4 co5 dik1 si2 heoi3 aa1","bat1 jyu4 daap3 dik1 si2 heoi3 laa1","bat1 jyu4 co5 dik1 si2 heoi3 laa1"],"hint":"不如 · 搭 · 的士 · 去 · 吖","x":["喺"],"why":"How you travel goes before the verb: 搭的士 + 去."},
-      {"t":"type","p":"Let's go together! (an invitation)","a":["一齊 去 吖","我哋 一齊 去 吖","一齊 去 啦","我哋 一齊 去 啦","jat1 cai4 heoi3 aa1","ngo5 dei6 jat1 cai4 heoi3 aa1","jat1 cai4 heoi3 laa1","ngo5 dei6 jat1 cai4 heoi3 laa1"],"hint":"一齊 · 去 · 吖","x":["咗"],"why":"一齊 goes before the verb, and 吖 makes it an invitation."}
+      {"t":"fill","q":"不如去飲茶__？","p":"How about going for dim sum?","a":["吖","啦","aa1","laa1"],"o":["咗","過","嘅"],"why":"吖 (or 啦) at the end makes it a friendly suggestion.","xr":["zo2","gwo3","ge3"]},
+      {"t":"fill","q":"我哋__食飯吖！","p":"Let's eat together!","a":["一齊","jat1 cai4"],"o":["都","同","定"],"why":"一齊 means together and sits before the verb.","xr":["dou1","tung4","ding6"]},
+      {"t":"fill","q":"__擔心。","p":"Don't worry.","a":["唔好","唔使","m4 hou2","m4 sai2"],"o":["冇","未","唔要"],"why":"唔好 + verb means don't; 唔使擔心 (no need to worry) also works.","xr":["mou5","mei6","m4 jiu3"]},
+      {"t":"type","p":"How about going for dim sum tomorrow?","a":["不如 聽日 去 飲茶 吖","聽日 不如 去 飲茶 吖","不如 聽日 去 飲茶 啦","聽日 不如 去 飲茶 啦","不如 聽日 飲茶 吖","不如 聽日 飲茶 啦","bat1 jyu4 ting1 jat6 heoi3 jam2 caa4 aa1","ting1 jat6 bat1 jyu4 heoi3 jam2 caa4 aa1","bat1 jyu4 ting1 jat6 heoi3 jam2 caa4 laa1","ting1 jat6 bat1 jyu4 heoi3 jam2 caa4 laa1","bat1 jyu4 ting1 jat6 jam2 caa4 aa1","bat1 jyu4 ting1 jat6 jam2 caa4 laa1"],"hint":"不如 · 聽日 · 去 · 飲茶 · 吖","x":["喺"],"why":"Time goes before the verb: 不如 + 聽日 + 去飲茶.","xr":["hai2"]},
+      {"t":"type","p":"How about taking a taxi there? (use 不如)","a":["不如 搭 的士 去 吖","不如 坐 的士 去 吖","不如 搭 的士 去 啦","不如 坐 的士 去 啦","bat1 jyu4 daap3 dik1 si2 heoi3 aa1","bat1 jyu4 co5 dik1 si2 heoi3 aa1","bat1 jyu4 daap3 dik1 si2 heoi3 laa1","bat1 jyu4 co5 dik1 si2 heoi3 laa1"],"hint":"不如 · 搭 · 的士 · 去 · 吖","x":["喺"],"why":"How you travel goes before the verb: 搭的士 + 去.","xr":["hai2"]},
+      {"t":"type","p":"Let's go together! (an invitation)","a":["一齊 去 吖","我哋 一齊 去 吖","一齊 去 啦","我哋 一齊 去 啦","jat1 cai4 heoi3 aa1","ngo5 dei6 jat1 cai4 heoi3 aa1","jat1 cai4 heoi3 laa1","ngo5 dei6 jat1 cai4 heoi3 laa1"],"hint":"一齊 · 去 · 吖","x":["咗"],"why":"一齊 goes before the verb, and 吖 makes it an invitation.","xr":["zo2"]}
     ]
   },
   PATTERNS: [

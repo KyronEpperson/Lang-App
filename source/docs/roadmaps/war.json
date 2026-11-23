@@ -1,0 +1,63 @@
+{
+ "code": "war",
+ "name": "Waray (Waray-Waray)", "self": "Winaray",
+ "variant": "Waray of Leyte and Samar as spoken in Tacloban, the dialect called standard and used in broadcasting and education; h- forms of the markers and pronouns (hi, han, ha, hiya, hira, hin-o), with the s- forms (si, san, sa, siya, sira) heard elsewhere mentioned once; modern spelling without accent marks, hyphen for a glottal stop inside a word",
+ "voice": "war-PH",
+ "script": "Latin (Filipino alphabet; c, f, j, ñ, q, v, x, z only in loanwords; e and o mostly in loans and spelling); glottal stop inside a word written with a hyphen; left to right",
+ "basis": "No Waray syllabus or textbook could be opened: lesson order follows Lang App's Cebuano plan (itself from Bunye and Yap, Cebuano for Beginners, UH Press 1971, whose contents I opened) and common course practice, with every Waray form taken from Tramp's 1991 Waray grammar and dictionary, English Wikipedia, Wikibooks and Romualdez's 1908 Samar-Leyte grammar; 27 A1 lessons",
+ "src": [
+  "George Dewey Tramp Jr., Waray-Waray (Leyte-Samar) dictionary with grammar (preface dated 1991), PDF on zorc.net: read through a fetch tool's extracts of the first 100,000 of about 1.77 million characters only: contents, numbers, grammar paragraphs 1-33 (pronoun table ako, ikaw / ka, hiya / siya, kita, kami, kamo, hira / sira with genitive nakon / ko, nimo / mo, niya and preposed akon, imo, iya, aton, amon, ira; demonstratives adi, ini, iton, adto; markers hi / ni / kan, an / han / ha; verb affixes -um-, mag- / nag-, -in- / gin-, -an, i-; the palit conjugation table, partly garbled in the text (nagpalit, ginpalit, ginpalitan, papaliton, palita!, makakapalit); maka- / naka- for 'can'; diri for present and future, waray for past and 'there isn't'; gusto / karuyag, kinahanglan; mas and labi; ada / aada 'there is'; ala / alas with Spanish numbers (alas dosi); aga; actor-focus future ma- for -um- verbs and mag- with a doubled syllable, present na- and nag- with a doubled syllable (paragraphs 5, 9, 27, 31, read from garbled tables)), and the Samar (Catbalogan) dialect section heading. The dictionary entries were not read",
+  "English Wikipedia, Waray language (current page and a 2021 archived copy whose grammar section is empty): names (Waray, Waray-Waray, Winaray, Binisaya), about 3.6 million native speakers (2015 census), Tacloban as the standard dialect, other dialects (Northern Samar, Calbayog, Catbalogan, Abuyog, Culaba-Biliran), ISO war, KWF orthography, case-marker table (an, an mga, han / san, ha / sa, hi / si, ni, kan; hira / sira, nira, kira), demonstrative and question-word lists (ano, hin-o, diin, san-o, kay ano), numbers usa ... napulo and Spanish numbers from 11 up",
+  "Wikibooks, Wikijunior: Languages/Waray: greetings (Kumusta?, Maupay man, salamat; Maupay nga aga, Maupay udto, Maupay nga kulop, Maupay nga gabii), Damo nga salamat, Waray sapayan, oo / diri, numbers",
+  "Norberto Romualdez, Bisayan Grammar and Notes on Bisayan Rhetoric and Poetics and Filipino Dialectology (1908; Project Gutenberg ebook 69603): read through a fetch-tool extract of the first 100,000 of about 189,000 characters: it describes the Samar and part-Leyte ('Samareño') dialect; active voice future ma- (másurat), present na- (násurat), past -inm- (inmurát); direct passive sinúsurat, sinurát, susuratón; pronouns acó, icáo / ca, hiyá / siyá, quitá, camí, camó, hirá / sirá; articles an, in, hi / si, ni, han / san, mg̃a. 1908 spelling, respelled in the titles",
+  "Swarthmore College LING073 student wiki, Waray and English / Contrastive Grammar: a student project, but the only source I read for the question particle ba (Maampo ba hi Bong?) and for nag- with a doubled first syllable in modern spelling (nag-aaram); also nga, mga, hiya, hira, ini, iton",
+  "Wilmo Orejola, Learning Waray vol. 1, sample on academia.edu: iton and amo standing for 'is' (Wilmo iton akon ngaran), kita / kami, verb affixes listed without paradigms",
+  "Omniglot, Waray-Waray page: where spoken, dialect list, Tacloban dialect as the standard used in media and education",
+  "Wiktionary, Appendix: Cebuano-Waray-Waray relations: pronouns ako, kami, kita, ikaw, kamo, imo, inyo; waray 'none'",
+  "Not opened or not usable: Ethnologue / SIL entry for war, Wikivoyage Waray phrasebook (fetch failed), ABVD Waray word list (blocked), the Peace Corps Waray tapes and Madeja's reference grammar (seen only as search-result titles), a Cornell eCommons PDF from the search results (not opened), Ehnis 2025 on the g- prefix (opened; no paradigm)"
+ ],
+ "note": "No beginner course or syllabus for Waray was opened, so the order is my own, modelled on the Cebuano plan (a close relative) and on common course practice; only the forms come from the sources. From the sources: markers, pronouns, demonstratives, question words, numbers, greetings, actor-focus ma- / na- (Romualdez, Tramp, Swarthmore's maampo) and nag- / mag- with the doubled syllable (Tramp, Swarthmore), gin- / -on / gin-...-an with palit and surat, palita!, maka- / naka-, diri / waray, ada / aada, gusto / karuyag, kinahanglan, mas / labi, alas dosi, aga / udto / kulop / gabii, iton / amo as 'is'. The modern spellings masurat, nasurat, susuraton are my respelling of Romualdez's 1908 forms, and the exact use of ma- against mag- verbs in today's Tacloban speech must be checked with a speaker. Tramp marks mas as Spanish and dialectal and gives the native comparative infix -ru- (maupay > mauruupay); the course teaches mas as the easier form and writers may add -ru-. Own knowledge, not in what I read: the family words (nanay, tatay, bugto, anak), the drinking-water word tubig, didi (here; Wikipedia lists didi among 'here' forms but I took the pairing with didto from my own knowledge), pesos, and using 'pira' for prices (Tramp glosses pira only as 'how many'). Deliberately left out because no source I read confirmed them: may-ada / mayda, Tagpira?, Taga-diin ka?, the words for left and right, a word for 'please', and ayaw for negative commands (Tramp lists ayaw only as an interjection). The Wikibooks phrase 'Asa ka gikan?' was not used (it looks Cebuano). The pronoun ak: Tramp's table lists it as a short possessive but his own example (kun pumalit ak) uses it as 'I', as Tacloban speech does in my knowledge; writers must confirm. The Tramp conjugation extract is garbled in places, so only clearly labelled forms were used. Variant: h- forms throughout, following Tramp's main column and Wikipedia's first-listed forms; whether Tacloban itself prefers h- or s- forms in every case must be checked with a speaker. Voice: war-PH is the BCP-47 shape; no device voice was checked and probably none exists. Writers must check every Waray word with a first-language speaker from Leyte.",
+ "hardest": [
+  "Verb focus and aspect: actor-focus ma- / na- and mag- / nag- against goal-focus -on / gin- (masurat, nagpalit; papaliton, ginpalit), with a doubled first syllable for 'is doing' and 'will' (nag-aaram, papaliton)",
+  "Three pronoun sets (ako, nakon / ko, akon) and the markers an / hi, han / ni, ha / kan",
+  "Two words for 'not': diri for now and later, waray for the past and for 'there isn't' (Waray, the language's name, means 'none')",
+  "Spanish numbers from 11 up and for the clock (alas dosi) next to native usa, duha, tulo"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["war-sounds", "Sounds and spelling: three vowel sounds (a, i, u; e and o in loans), ng, the glottal stop"],
+   ["war-greetings", "Greetings: Maupay nga aga, Maupay udto, Maupay nga kulop, Maupay nga gabii, Kumusta?, Maupay man"],
+   ["war-thanks", "Thanks, yes and no: Damo nga salamat, Waray sapayan, oo, diri"],
+   ["war-this-that", "adi, ini, iton, adto: this and that; Ano ini?"],
+   ["war-ako", "Pronouns ako / ak, ikaw / ka, hiya and the markers an and hi"],
+   ["war-intro", "Introducing yourself: akon ngaran, iton and amo for 'is' (… iton akon ngaran)"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["war-questions", "Question words: ano, hin-o, diin, san-o, pira, kay ano; yes-no questions with ba"],
+   ["war-plural", "We, you all, they: kita and kami, kamo, hira; mga for more than one"],
+   ["war-possession", "Possession: akon, imo, iya before the noun, nakon / ko, nimo / mo, niya after it; han and ni"],
+   ["war-nga", "Describing words and the linker nga: maupay nga aga, damo nga salamat"],
+   ["war-ada", "There is and there isn't: ada / aada and waray"],
+   ["war-numbers", "Numbers: usa, duha, tulo … napulo, and the Spanish numbers used from 11 up"],
+   ["war-prices", "Prices and buying: pira, pesos, and the verb palit (buy)"],
+   ["war-family", "Family: nanay, tatay, bugto, anak"]
+  ]},
+  {"en": "Verbs and daily life", "items": [
+   ["war-ma", "Actor-focus verbs 1: ma- (will) and na- (does, is doing): masurat, nasurat; Maampo ba hi Bong?"],
+   ["war-mag", "Actor-focus verbs 2: nag- (did), and nag- / mag- with the first syllable doubled (is doing, will do): nagpalit, nag-aaram"],
+   ["war-negation", "diri and waray: not (now, later) and did not"],
+   ["war-time", "Times of day and the clock: aga, udto, kulop, gabii; alas dosi"],
+   ["war-want", "gusto / karuyag and kinahanglan: want and need"],
+   ["war-food", "Eating and drinking: kaon, inom, tubig"],
+   ["war-places", "Where things are: ha (at, in), diin; didi, didto"],
+   ["war-going", "Going places: ngain? (where to?), ha, adto"]
+  ]},
+  {"en": "More verbs and comparing", "items": [
+   ["war-goal", "Goal-focus verbs: gin- (did) and a doubled syllable + -on (will): ginpalit, papaliton, susuraton"],
+   ["war-an", "-an verbs: ginpalitan (bought from or for someone)"],
+   ["war-commands", "Commands: palita! (buy it!) and pagpalit"],
+   ["war-compare", "Comparing: mas maupay, and labi ka- for 'most' (labi kahalaba)"],
+   ["war-maka", "Can: maka- / naka-; diri maka- (cannot), waray maka- (could not)"]
+  ]}
+ ]
+}

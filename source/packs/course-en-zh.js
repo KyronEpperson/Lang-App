@@ -743,7 +743,7 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"fill","q":"y__qǐ (一起, together)","p":"together","a":["ì"],"o":["í","ī","ǐ"],"why":"Before a third tone (qǐ), 一 is said yì: yìqǐ.","strict":true},
       {"t":"fill","q":"dì__ (第一, first)","p":"first","a":["yī"],"o":["yí","yì","yǐ"],"why":"After 第, 一 keeps its first tone: dìyī.","strict":true},
       {"t":"type","p":"Type the pinyin of 不客气 (you're welcome)","a":["bú kèqi"],"hint":"two words · 不 changes before a fourth tone","x":["bù"],"why":"Tone change: 不 before a fourth tone is bú, so bú kèqi.","strict":true},
-      {"t":"type","p":"one person (in characters)","a":["一 个 人","yí ge rén"],"hint":"一 · 个 · 人 · 个 goes between the number and the noun","x":["二"],"why":"A number needs a measure word before the noun: 一个人."},
+      {"t":"type","p":"one person (in characters)","a":["一 个 人","yí ge rén"],"hint":"一 · 个 · 人 · 个 goes between the number and the noun","x":["二"],"why":"A number needs a measure word before the noun: 一个人.","xr":["èr"]},
       {"t":"type","p":"Type the pinyin of 你好 (hello), the way it is written","a":["nǐ hǎo"],"hint":"two words · pinyin writes the dictionary tones","x":["ní"],"why":"Pinyin writes the third tone mark on both: nǐ hǎo, though you say ní hǎo.","strict":true}
     ],
     "characters": [
@@ -755,11 +755,11 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"a good person (in characters)","a":["好","人"],"x":["是"],"why":"The describer goes before the noun: 好人, good person."},
       {"t":"order","p":"好人 (a good person) in pinyin","a":["hǎo","rén"],"x":["hào"],"why":"好 has the third tone mark: hǎo rén."},
       {"t":"order","p":"a big mountain (in characters; 大 = big)","a":["大","山"],"x":["是"],"why":"The describer goes before the noun: 大山, big mountain."},
-      {"t":"fill","q":"日 + 月 = __","p":"sun + moon = bright","a":["明","míng"],"o":["林","休","好"],"why":"The sun and the moon together make 明, bright."},
-      {"t":"fill","q":"木 + 木 = __","p":"tree + tree = woods","a":["林","lín"],"o":["森","休","本"],"why":"Two trees make 林 (woods); three trees make 森 (forest)."},
-      {"t":"fill","q":"女 + 子 = __","p":"woman + child = good","a":["好","hǎo"],"o":["妈","字","安"],"why":"女 (woman) and 子 (child) make 好, good."},
+      {"t":"fill","q":"日 + 月 = __","p":"sun + moon = bright","a":["明","míng"],"o":["林","休","好"],"why":"The sun and the moon together make 明, bright.","xr":["lín","xiū","hǎo"]},
+      {"t":"fill","q":"木 + 木 = __","p":"tree + tree = woods","a":["林","lín"],"o":["森","休","本"],"why":"Two trees make 林 (woods); three trees make 森 (forest).","xr":["sēn","xiū","běn"]},
+      {"t":"fill","q":"女 + 子 = __","p":"woman + child = good","a":["好","hǎo"],"o":["妈","字","安"],"why":"女 (woman) and 子 (child) make 好, good.","xr":["mā","zì"]},
       {"t":"type","p":"Type the pinyin of 好 (good)","a":["hǎo"],"hint":"third tone · use the accent bar","x":["hào"],"why":"好 has the third tone mark: hǎo.","strict":true},
-      {"t":"type","p":"a good person (in characters)","a":["好 人","一 个 好 人","hǎo rén","yí ge hǎo rén"],"hint":"好 · 人 · the describer comes first","x":["是"],"why":"The describer goes before the noun: 好人."},
+      {"t":"type","p":"a good person (in characters)","a":["好 人","一 个 好 人","hǎo rén","yí ge hǎo rén"],"hint":"好 · 人 · the describer comes first","x":["是"],"why":"The describer goes before the noun: 好人.","xr":["shì"]},
       {"t":"type","p":"Type the pinyin of 人 (person)","a":["rén"],"hint":"second tone · use the accent bar","x":["rèn"],"why":"人 has the second tone: it rises, rén.","strict":true}
     ],
     "greetings": [
@@ -771,12 +771,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"您好 (hello, polite) in pinyin","a":["nín","hǎo"],"x":["nīn"],"why":"您 has the second tone: it rises, nín hǎo."},
       {"t":"order","p":"a Chinese teacher (a teacher of Chinese)","a":["中文","老师"],"x":["是"],"why":"The describer goes before the noun: 中文老师."},
       {"t":"order","p":"My name is Wang Ming.","a":["我","叫","王明"],"x":["是"],"why":"叫 means to be called: 我叫 + your name."},
-      {"t":"fill","q":"我__王。","p":"My last name is Wang.","a":["姓","xìng"],"o":["贵","您","问"],"why":"Answer with 姓; 贵 is only for the other person's name."},
-      {"t":"fill","q":"__问，您贵姓？","p":"Excuse me, what's your last name?","a":["请","qǐng"],"o":["谢","对","不"],"why":"请问 (may I ask) opens a polite question."},
-      {"t":"fill","q":"__关系。","p":"That's OK.","a":["没","méi"],"o":["不","很","是"],"why":"没关系 (that's OK) answers sorry; 不客气 answers thank you."},
+      {"t":"fill","q":"我__王。","p":"My last name is Wang.","a":["姓","xìng"],"o":["贵","您","问"],"why":"Answer with 姓; 贵 is only for the other person's name.","xr":["guì","nín","wèn"]},
+      {"t":"fill","q":"__问，您贵姓？","p":"Excuse me, what's your last name?","a":["请","qǐng"],"o":["谢","对","不"],"why":"请问 (may I ask) opens a polite question.","xr":["xiè","duì","bù"]},
+      {"t":"fill","q":"__关系。","p":"That's OK.","a":["没","méi"],"o":["不","很","是"],"why":"没关系 (that's OK) answers sorry; 不客气 answers thank you.","xr":["bù","hěn","shì"]},
       {"t":"type","p":"Type the pinyin of 再见 (goodbye)","a":["zàijiàn"],"hint":"fourth tone + fourth tone · one word","x":["zǎijiàn"],"why":"再见 is two fourth tones: zàijiàn.","strict":true},
-      {"t":"type","p":"an American teacher (美国 = America)","a":["美国 老师","一 个 美国 老师","Měiguó lǎoshī","yí ge Měiguó lǎoshī"],"hint":"美国 · 老师 · the describer comes first","x":["是"],"why":"The describer goes before the noun: 美国老师."},
-      {"t":"type","p":"My last name is Li. (answering 您贵姓？)","a":["我 姓 李","wǒ xìng Lǐ"],"hint":"姓 · 李","x":["贵"],"why":"Answer with 我姓 + surname; 贵 is only for the person you ask."}
+      {"t":"type","p":"an American teacher (美国 = America)","a":["美国 老师","一 个 美国 老师","Měiguó lǎoshī","yí ge Měiguó lǎoshī"],"hint":"美国 · 老师 · the describer comes first","x":["是"],"why":"The describer goes before the noun: 美国老师.","xr":["shì"]},
+      {"t":"type","p":"My last name is Li. (answering 您贵姓？)","a":["我 姓 李","wǒ xìng Lǐ"],"hint":"姓 · 李","x":["贵"],"why":"Answer with 我姓 + surname; 贵 is only for the person you ask.","xr":["guì"]}
     ],
     "pronouns": [
       {"t":"mc","q":"Which is the pinyin of 他 (he)?","o":["tā","tá","tǎ","tà"],"why":"他 has the first tone: high and level, tā."},
@@ -787,12 +787,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"their teacher","a":["他们","的","老师"],"x":["是"],"why":"The owner goes before the noun: 他们的老师."},
       {"t":"order","p":"five students (五 = five)","a":["五","个","学生"],"x":["们"],"why":"A number needs a measure word before the noun, and no 们: 五个学生."},
       {"t":"order","p":"His name is Wang Ming.","a":["他","叫","王明"],"x":["姓"],"why":"叫 gives the full name; 姓 gives only the last name."},
-      {"t":"fill","q":"__们好！","p":"Hello, everyone! (to a group of friends)","a":["你","nǐ"],"o":["我","它","个"],"why":"你 + 们 is you all: 你们好."},
-      {"t":"fill","q":"五__学生","p":"five students","a":["个","ge"],"o":["们","的","是"],"why":"A number takes 个 before the noun: 五个学生."},
-      {"t":"fill","q":"__的老师姓王。","p":"Our teacher's last name is Wang.","a":["我们","咱们","wǒmen","zánmen"],"o":["我","你们","他们"],"why":"我们 is we or us; with 的, our."},
-      {"t":"type","p":"five students (五 = five)","a":["五 个 学生","wǔ ge xuésheng"],"hint":"五 · 个 · 学生 · no 们 after a number","x":["们"],"why":"A number needs a measure word before the noun, and no 们: 五个学生."},
-      {"t":"type","p":"my friend","a":["我 的 朋友","我 朋友","wǒ de péngyou","wǒ péngyou"],"hint":"我 · 朋友 · the owner comes first","x":["是"],"why":"The owner goes before the noun: 我的朋友, or 我朋友 for a close friend."},
-      {"t":"type","p":"Hello, everyone! (to a group)","a":["你们 好","大家 好","nǐmen hǎo","dàjiā hǎo"],"hint":"你们 · 好","x":["您"],"why":"们 makes you plural: 你们好. 大家好 works too."}
+      {"t":"fill","q":"__们好！","p":"Hello, everyone! (to a group of friends)","a":["你","nǐ"],"o":["我","它","个"],"why":"你 + 们 is you all: 你们好.","xr":["wǒ","tā","ge"]},
+      {"t":"fill","q":"五__学生","p":"five students","a":["个","ge"],"o":["们","的","是"],"why":"A number takes 个 before the noun: 五个学生.","xr":["men","de","shì"]},
+      {"t":"fill","q":"__的老师姓王。","p":"Our teacher's last name is Wang.","a":["我们","咱们","wǒmen","zánmen"],"o":["我","你们","他们"],"why":"我们 is we or us; with 的, our.","xr":["wǒ","nǐmen","tāmen"]},
+      {"t":"type","p":"five students (五 = five)","a":["五 个 学生","wǔ ge xuésheng"],"hint":"五 · 个 · 学生 · no 们 after a number","x":["们"],"why":"A number needs a measure word before the noun, and no 们: 五个学生.","xr":["men"]},
+      {"t":"type","p":"my friend","a":["我 的 朋友","我 朋友","wǒ de péngyou","wǒ péngyou"],"hint":"我 · 朋友 · the owner comes first","x":["是"],"why":"The owner goes before the noun: 我的朋友, or 我朋友 for a close friend.","xr":["shì"]},
+      {"t":"type","p":"Hello, everyone! (to a group)","a":["你们 好","大家 好","nǐmen hǎo","dàjiā hǎo"],"hint":"你们 · 好","x":["您"],"why":"们 makes you plural: 你们好. 大家好 works too.","xr":["nín"]}
     ],
     "shi": [
       {"t":"mc","q":"Which is the pinyin of 是 (to be)?","o":["shì","shí","shǐ","shī"],"why":"是 has the fourth tone: it falls, shì."},
@@ -803,12 +803,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I'm a student too.","a":["我","也","是","学生"],"x":["很"],"why":"也 goes before the verb, not at the end like English too."},
       {"t":"order","p":"He's an American student. (start with he)","a":["他","是","美国","学生"],"x":["很"],"why":"The describer goes before the noun: 美国学生."},
       {"t":"order","p":"She isn't Chinese.","a":["她","不","是","中国人"],"x":["没"],"why":"是 is negated with 不, never with 没."},
-      {"t":"fill","q":"我__美国人。","p":"I'm American.","a":["是","shì"],"o":["很","在","叫"],"why":"是 joins two nouns: I = American."},
-      {"t":"fill","q":"他__是老师。","p":"He isn't a teacher.","a":["不","bù"],"o":["没","很","了"],"why":"Is not is 不是; 没 never goes with 是."},
-      {"t":"fill","q":"王明是中国__。","p":"Wang Ming is Chinese.","a":["人","rén"],"o":["文","国","们"],"why":"Country + 人 is a person from there; 中文 is the language."},
-      {"t":"type","p":"I'm a student too.","a":["我 也 是 学生","wǒ yě shì xuésheng"],"hint":"也 · 是 · 学生 · also goes before 是","x":["了"],"why":"也 goes before the verb: 我也是学生."},
-      {"t":"type","p":"She's an English teacher. (a teacher of English)","a":["她 是 英语 老师","她 是 英文 老师","tā shì Yīngyǔ lǎoshī","tā shì Yīngwén lǎoshī"],"hint":"英语 (English) · 老师","x":["很"],"why":"The describer goes before the noun: 英语老师."},
-      {"t":"type","p":"I'm not American.","a":["我 不 是 美国人","wǒ bú shì Měiguórén"],"hint":"不是 · 美国人","x":["没"],"why":"Use 不 with 是; 没 never goes with 是."}
+      {"t":"fill","q":"我__美国人。","p":"I'm American.","a":["是","shì"],"o":["很","在","叫"],"why":"是 joins two nouns: I = American.","xr":["hěn","zài","jiào"]},
+      {"t":"fill","q":"他__是老师。","p":"He isn't a teacher.","a":["不","bù"],"o":["没","很","了"],"why":"Is not is 不是; 没 never goes with 是.","xr":["méi","hěn","le"]},
+      {"t":"fill","q":"王明是中国__。","p":"Wang Ming is Chinese.","a":["人","rén"],"o":["文","国","们"],"why":"Country + 人 is a person from there; 中文 is the language.","xr":["guó","men"]},
+      {"t":"type","p":"I'm a student too.","a":["我 也 是 学生","wǒ yě shì xuésheng"],"hint":"也 · 是 · 学生 · also goes before 是","x":["了"],"why":"也 goes before the verb: 我也是学生.","xr":["le"]},
+      {"t":"type","p":"She's an English teacher. (a teacher of English)","a":["她 是 英语 老师","她 是 英文 老师","tā shì Yīngyǔ lǎoshī","tā shì Yīngwén lǎoshī"],"hint":"英语 (English) · 老师","x":["很"],"why":"The describer goes before the noun: 英语老师.","xr":["hěn"]},
+      {"t":"type","p":"I'm not American.","a":["我 不 是 美国人","wǒ bú shì Měiguórén"],"hint":"不是 · 美国人","x":["没"],"why":"Use 不 with 是; 没 never goes with 是.","xr":["méi"]}
     ],
     "adj": [
       {"t":"mc","q":"Which is the pinyin of 很 (very)?","o":["hěn","hèn","hén","hēn"],"why":"很 has the third tone: low, hěn."},
@@ -819,12 +819,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"He's tall.","a":["他","很","高"],"x":["是"],"why":"很 goes before the verb, and an adjective works like a verb: 他很高, no 是."},
       {"t":"order","p":"a good friend","a":["好","朋友"],"x":["是"],"why":"The describer goes before the noun: 好朋友."},
       {"t":"order","p":"That's too expensive!","a":["太","贵","了"],"x":["是"],"why":"Too is 太 + adjective + 了, with no 是."},
-      {"t":"fill","q":"我__累。","p":"I'm tired.","a":["很","好","真","hěn","hǎo","zhēn"],"o":["是","的","个"],"why":"Adjectives take 很, not 是: 我很累."},
-      {"t":"fill","q":"咖啡__贵。","p":"The coffee isn't expensive.","a":["不","bù"],"o":["没","是","不是"],"why":"Put 不 right before the adjective: 不贵."},
-      {"t":"fill","q":"太贵__！","p":"That's too expensive!","a":["了","le"],"o":["是","的","很"],"why":"太 … 了 means too: 太贵了."},
-      {"t":"type","p":"I'm very busy.","a":["我 很 忙","我 非常 忙","我 好 忙","wǒ hěn máng","wǒ fēicháng máng","wǒ hǎo máng"],"hint":"很 · 忙 · no 是","x":["是"],"why":"很 goes before the verb, and 忙 works like a verb: 我很忙, no 是."},
-      {"t":"type","p":"a good friend","a":["好 朋友","一 个 好 朋友","hǎo péngyou","yí ge hǎo péngyou"],"hint":"好 · 朋友 · the describer comes first","x":["是"],"why":"The describer goes before the noun: 好朋友."},
-      {"t":"type","p":"She isn't tall. (use 不 + adjective)","a":["她 不 高","tā bù gāo"],"hint":"不 · 高","x":["是"],"why":"不 goes right before the adjective, with no 是."}
+      {"t":"fill","q":"我__累。","p":"I'm tired.","a":["很","好","真","hěn","hǎo","zhēn"],"o":["是","的","个"],"why":"Adjectives take 很, not 是: 我很累.","xr":["shì","de","ge"]},
+      {"t":"fill","q":"咖啡__贵。","p":"The coffee isn't expensive.","a":["不","bù"],"o":["没","是","不是"],"why":"Put 不 right before the adjective: 不贵.","xr":["méi","shì","bú shì"]},
+      {"t":"fill","q":"太贵__！","p":"That's too expensive!","a":["了","le"],"o":["是","的","很"],"why":"太 … 了 means too: 太贵了.","xr":["shì","de","hěn"]},
+      {"t":"type","p":"I'm very busy.","a":["我 很 忙","我 非常 忙","我 好 忙","wǒ hěn máng","wǒ fēicháng máng","wǒ hǎo máng"],"hint":"很 · 忙 · no 是","x":["是"],"why":"很 goes before the verb, and 忙 works like a verb: 我很忙, no 是.","xr":["shì"]},
+      {"t":"type","p":"a good friend","a":["好 朋友","一 个 好 朋友","hǎo péngyou","yí ge hǎo péngyou"],"hint":"好 · 朋友 · the describer comes first","x":["是"],"why":"The describer goes before the noun: 好朋友.","xr":["shì"]},
+      {"t":"type","p":"She isn't tall. (use 不 + adjective)","a":["她 不 高","tā bù gāo"],"hint":"不 · 高","x":["是"],"why":"不 goes right before the adjective, with no 是.","xr":["shì"]}
     ],
     "ma": [
       {"t":"mc","q":"Which is the pinyin of 吗?","o":["ma, with no tone mark","mā","má","mǎ"],"why":"吗 has the neutral tone: short and light, with no mark."},
@@ -835,12 +835,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"Are you a student too?","a":["你","也","是","学生","吗"],"x":["呢"],"why":"也 goes before the verb: 你也是学生吗？"},
       {"t":"order","p":"Is he an American student? (start with he)","a":["他","是","美国","学生","吗"],"x":["很"],"why":"The describer goes before the noun: 美国学生, then 吗 at the end."},
       {"t":"order","p":"Are you busy?","a":["你","忙","吗"],"x":["是"],"why":"No 是 before an adjective; 吗 at the end asks the question."},
-      {"t":"fill","q":"你是美国人__？","p":"Are you American?","a":["吗","ma"],"o":["呢","了","是"],"why":"吗 at the end turns a statement into a yes/no question."},
-      {"t":"fill","q":"我很忙，你__？","p":"I'm busy. And you?","a":["呢","ne"],"o":["吗","了","是"],"why":"呢 after a person asks the same question back."},
-      {"t":"fill","q":"你忙吗？我不__。","p":"Are you busy? I'm not.","a":["忙","máng"],"o":["是","吗","很"],"why":"Answer with the adjective itself: 不忙."},
-      {"t":"type","p":"Are you going tomorrow? (明天 = tomorrow, 去 = go)","a":["你 明天 去 吗","明天 你 去 吗","您 明天 去 吗","明天 您 去 吗","nǐ míngtiān qù ma","míngtiān nǐ qù ma","nín míngtiān qù ma","míngtiān nín qù ma"],"hint":"明天 · 去 · 吗 · the time word comes before 去","x":["了"],"why":"Time goes before the verb: 你明天去吗？"},
-      {"t":"type","p":"Is she a teacher too?","a":["她 也 是 老师 吗","tā yě shì lǎoshī ma"],"hint":"也 · 是 · 老师 · 吗","x":["了"],"why":"也 goes before the verb: 她也是老师吗？"},
-      {"t":"type","p":"Are you a teacher?","a":["你 是 老师 吗","您 是 老师 吗","nǐ shì lǎoshī ma","nín shì lǎoshī ma"],"hint":"是 · 老师 · 吗","x":["呢"],"why":"Add 吗 to the statement to ask a yes/no question."}
+      {"t":"fill","q":"你是美国人__？","p":"Are you American?","a":["吗","ma"],"o":["呢","了","是"],"why":"吗 at the end turns a statement into a yes/no question.","xr":["ne","le","shì"]},
+      {"t":"fill","q":"我很忙，你__？","p":"I'm busy. And you?","a":["呢","ne"],"o":["吗","了","是"],"why":"呢 after a person asks the same question back.","xr":["ma","le","shì"]},
+      {"t":"fill","q":"你忙吗？我不__。","p":"Are you busy? I'm not.","a":["忙","máng"],"o":["是","吗","很"],"why":"Answer with the adjective itself: 不忙.","xr":["shì","ma","hěn"]},
+      {"t":"type","p":"Are you going tomorrow? (明天 = tomorrow, 去 = go)","a":["你 明天 去 吗","明天 你 去 吗","您 明天 去 吗","明天 您 去 吗","nǐ míngtiān qù ma","míngtiān nǐ qù ma","nín míngtiān qù ma","míngtiān nín qù ma"],"hint":"明天 · 去 · 吗 · the time word comes before 去","x":["了"],"why":"Time goes before the verb: 你明天去吗？","xr":["le"]},
+      {"t":"type","p":"Is she a teacher too?","a":["她 也 是 老师 吗","tā yě shì lǎoshī ma"],"hint":"也 · 是 · 老师 · 吗","x":["了"],"why":"也 goes before the verb: 她也是老师吗？","xr":["le"]},
+      {"t":"type","p":"Are you a teacher?","a":["你 是 老师 吗","您 是 老师 吗","nǐ shì lǎoshī ma","nín shì lǎoshī ma"],"hint":"是 · 老师 · 吗","x":["呢"],"why":"Add 吗 to the statement to ask a yes/no question.","xr":["ne"]}
     ],
     "question-words": [
       {"t":"mc","q":"Which is the pinyin of 几 (how many)?","o":["jǐ","jí","jī","jì"],"why":"几 has the third tone: low, jǐ."},
@@ -851,12 +851,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"Where do you work? (在 = at, 工作 = to work)","a":["你","在","哪儿","工作"],"x":["是"],"why":"Where it happens comes before the verb: 你在哪儿工作？"},
       {"t":"order","p":"How many older brothers do you have? (哥哥 = older brother)","a":["你","有","几","个","哥哥"],"x":["们"],"why":"几 needs a measure word before the noun: 几个哥哥."},
       {"t":"order","p":"What's your name?","a":["你","叫","什么","名字"],"x":["吗"],"why":"什么 stays where the answer goes, and a question word takes no 吗."},
-      {"t":"fill","q":"他是__？","p":"Who is he?","a":["谁","shéi"],"o":["什么","哪儿","吗"],"why":"谁 asks who; it goes where the answer would be."},
-      {"t":"fill","q":"你住__？","p":"Where do you live?","a":["哪儿","哪里","在哪儿","在哪里","nǎr","nǎlǐ","zài nǎr","zài nǎlǐ"],"o":["什么","谁","吗"],"why":"哪儿 asks where."},
-      {"t":"fill","q":"你是__国人？","p":"What country are you from?","a":["哪","nǎ"],"o":["什么","谁","几"],"why":"哪国人 asks which country someone is from."},
-      {"t":"type","p":"Where do you work? (在 = at, 工作 = to work)","a":["你 在 哪儿 工作","你 在 哪里 工作","您 在 哪儿 工作","您 在 哪里 工作","nǐ zài nǎr gōngzuò","nǐ zài nǎlǐ gōngzuò","nín zài nǎr gōngzuò","nín zài nǎlǐ gōngzuò"],"hint":"在 · 哪儿 · 工作 · where comes first","x":["是"],"why":"Where it happens goes before the verb: 你在哪儿工作？"},
-      {"t":"type","p":"How many older brothers do you have? (哥哥 = older brother)","a":["你 有 几 个 哥哥","您 有 几 个 哥哥","nǐ yǒu jǐ ge gēge","nín yǒu jǐ ge gēge"],"hint":"有 · 几 · 个 · 哥哥","x":["们"],"why":"几 takes a measure word before the noun: 几个哥哥."},
-      {"t":"type","p":"What's your name? (to a friend)","a":["你 叫 什么 名字","你 叫 什么","nǐ jiào shénme míngzi","nǐ jiào shénme"],"hint":"叫 · 什么 · 名字 · no 吗","x":["吗"],"why":"The question word stays where the answer goes, with no 吗."}
+      {"t":"fill","q":"他是__？","p":"Who is he?","a":["谁","shéi"],"o":["什么","哪儿","吗"],"why":"谁 asks who; it goes where the answer would be.","xr":["shénme","nǎr","ma"]},
+      {"t":"fill","q":"你住__？","p":"Where do you live?","a":["哪儿","哪里","在哪儿","在哪里","nǎr","nǎlǐ","zài nǎr","zài nǎlǐ"],"o":["什么","谁","吗"],"why":"哪儿 asks where.","xr":["shénme","shéi","ma"]},
+      {"t":"fill","q":"你是__国人？","p":"What country are you from?","a":["哪","nǎ"],"o":["什么","谁","几"],"why":"哪国人 asks which country someone is from.","xr":["shénme","shéi","jǐ"]},
+      {"t":"type","p":"Where do you work? (在 = at, 工作 = to work)","a":["你 在 哪儿 工作","你 在 哪里 工作","您 在 哪儿 工作","您 在 哪里 工作","nǐ zài nǎr gōngzuò","nǐ zài nǎlǐ gōngzuò","nín zài nǎr gōngzuò","nín zài nǎlǐ gōngzuò"],"hint":"在 · 哪儿 · 工作 · where comes first","x":["是"],"why":"Where it happens goes before the verb: 你在哪儿工作？","xr":["shì"]},
+      {"t":"type","p":"How many older brothers do you have? (哥哥 = older brother)","a":["你 有 几 个 哥哥","您 有 几 个 哥哥","nǐ yǒu jǐ ge gēge","nín yǒu jǐ ge gēge"],"hint":"有 · 几 · 个 · 哥哥","x":["们"],"why":"几 takes a measure word before the noun: 几个哥哥.","xr":["men"]},
+      {"t":"type","p":"What's your name? (to a friend)","a":["你 叫 什么 名字","你 叫 什么","nǐ jiào shénme míngzi","nǐ jiào shénme"],"hint":"叫 · 什么 · 名字 · no 吗","x":["吗"],"why":"The question word stays where the answer goes, with no 吗.","xr":["ma"]}
     ],
     "bu-mei": [
       {"t":"mc","q":"Which is the pinyin of 不是 (is not)?","o":["bú shì","bù shì","bū shì","bǔ shì"],"why":"Tone change: 不 before a fourth tone takes the second tone, bú shì."},
@@ -867,12 +867,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"He didn't come yesterday (start with 他)","a":["他","昨天","没","来"],"x":["了"],"why":"The time word and 没 both go before the verb, and 没 never takes 了."},
       {"t":"order","p":"I don't drink tea","a":["我","不","喝","茶"],"x":["没"],"why":"A habit takes 不, and 不 goes before the verb: 我不喝茶."},
       {"t":"order","p":"She doesn't have a phone","a":["她","没有","手机"],"x":["不"],"why":"有 is negated with 没, never with 不."},
-      {"t":"fill","q":"我__有钱。","p":"I don't have money.","a":["没","méi"],"o":["不","是","很"],"why":"Only 没 negates 有: 没有."},
-      {"t":"fill","q":"我昨天__去。","p":"I didn't go yesterday.","a":["没","没有","méi","méiyǒu"],"o":["不","是","很"],"why":"Yesterday's action did not happen, so 没."},
-      {"t":"fill","q":"我__喝酒。","p":"I don't drink alcohol.","a":["不","bù"],"o":["没","没有","是"],"why":"A habit or a choice takes 不."},
-      {"t":"type","p":"I'm not going tomorrow.","a":["我 明天 不 去","明天 我 不 去","wǒ míngtiān bú qù","míngtiān wǒ bú qù"],"hint":"明天 (tomorrow) · 去 · a plan takes 不","x":["没"],"why":"Tomorrow and 不 both go before the verb: 我明天不去."},
-      {"t":"type","p":"I didn't go yesterday.","a":["我 昨天 没 去","昨天 我 没 去","我 昨天 没有 去","昨天 我 没有 去","wǒ zuótiān méi qù","zuótiān wǒ méi qù","wǒ zuótiān méiyǒu qù","zuótiān wǒ méiyǒu qù"],"hint":"昨天 (yesterday) · 去","x":["了"],"why":"Yesterday and 没 go before the verb, and 没 takes no 了: 我昨天没去."},
-      {"t":"type","p":"I don't have a phone.","a":["我 没有 手机","我 没 手机","wǒ méiyǒu shǒujī","wǒ méi shǒujī"],"hint":"没有 · 手机 (phone)","x":["不"],"why":"有 is negated only with 没: 我没有手机."}
+      {"t":"fill","q":"我__有钱。","p":"I don't have money.","a":["没","méi"],"o":["不","是","很"],"why":"Only 没 negates 有: 没有.","xr":["bù","shì","hěn"]},
+      {"t":"fill","q":"我昨天__去。","p":"I didn't go yesterday.","a":["没","没有","méi","méiyǒu"],"o":["不","是","很"],"why":"Yesterday's action did not happen, so 没.","xr":["bù","shì","hěn"]},
+      {"t":"fill","q":"我__喝酒。","p":"I don't drink alcohol.","a":["不","bù"],"o":["没","没有","是"],"why":"A habit or a choice takes 不.","xr":["méi","méiyǒu","shì"]},
+      {"t":"type","p":"I'm not going tomorrow.","a":["我 明天 不 去","明天 我 不 去","wǒ míngtiān bú qù","míngtiān wǒ bú qù"],"hint":"明天 (tomorrow) · 去 · a plan takes 不","x":["没"],"why":"Tomorrow and 不 both go before the verb: 我明天不去.","xr":["méi"]},
+      {"t":"type","p":"I didn't go yesterday.","a":["我 昨天 没 去","昨天 我 没 去","我 昨天 没有 去","昨天 我 没有 去","wǒ zuótiān méi qù","zuótiān wǒ méi qù","wǒ zuótiān méiyǒu qù","zuótiān wǒ méiyǒu qù"],"hint":"昨天 (yesterday) · 去","x":["了"],"why":"Yesterday and 没 go before the verb, and 没 takes no 了: 我昨天没去.","xr":["le"]},
+      {"t":"type","p":"I don't have a phone.","a":["我 没有 手机","我 没 手机","wǒ méiyǒu shǒujī","wǒ méi shǒujī"],"hint":"没有 · 手机 (phone)","x":["不"],"why":"有 is negated only with 没: 我没有手机.","xr":["bù"]}
     ],
     "de": [
       {"t":"mc","q":"Which is the pinyin of 书 (book)?","o":["shū","shú","shǔ","shù"],"why":"书 has the first tone: high and level."},
@@ -883,12 +883,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"my teacher's book","a":["我","老师","的","书"],"x":["是"],"why":"The owner goes before the noun, joined by 的: 我老师的书."},
       {"t":"order","p":"a red car","a":["红色","的","车"],"x":["是"],"why":"The describer goes before the noun: 红色的车."},
       {"t":"order","p":"This is my mom's phone","a":["这","是","我","妈妈","的","手机"],"x":["有"],"why":"Owner, then 的, then the thing: the owner goes before the noun."},
-      {"t":"fill","q":"这是我__书。","p":"This is my book.","a":["的","de"],"o":["是","很","有"],"why":"的 joins the owner to the thing: 我的书."},
-      {"t":"fill","q":"她是我__朋友。","p":"She's my good friend.","a":["好","hǎo"],"o":["很","是","不"],"why":"A one-syllable adjective can join the noun directly: 好朋友."},
-      {"t":"fill","q":"老师__手机很贵。","p":"The teacher's phone is expensive.","a":["的","de"],"o":["是","有","很"],"why":"Owner + 的 + thing: 老师的手机."},
-      {"t":"type","p":"my Chinese teacher","a":["我 的 中文 老师","我 中文 老师","wǒ de Zhōngwén lǎoshī","wǒ Zhōngwén lǎoshī"],"hint":"中文 · 老师 · the describers come first","x":["是"],"why":"Both describers go before the noun: 我的中文老师."},
-      {"t":"type","p":"a very expensive car","a":["很 贵 的 车","hěn guì de chē"],"hint":"很 · 贵 · 车 (car)","x":["是"],"why":"A describer with 很 goes before the noun, joined by 的: 很贵的车."},
-      {"t":"type","p":"My mom doesn't have a phone.","a":["我 妈妈 没有 手机","我 妈妈 没 手机","我 的 妈妈 没有 手机","我 的 妈妈 没 手机","wǒ māma méiyǒu shǒujī","wǒ māma méi shǒujī","wǒ de māma méiyǒu shǒujī","wǒ de māma méi shǒujī"],"hint":"妈妈 · 没有 · 手机","x":["不"],"why":"Family words need no 的, and 有 is negated with 没: 我妈妈没有手机."}
+      {"t":"fill","q":"这是我__书。","p":"This is my book.","a":["的","de"],"o":["是","很","有"],"why":"的 joins the owner to the thing: 我的书.","xr":["shì","hěn","yǒu"]},
+      {"t":"fill","q":"她是我__朋友。","p":"She's my good friend.","a":["好","hǎo"],"o":["很","是","不"],"why":"A one-syllable adjective can join the noun directly: 好朋友.","xr":["hěn","shì","bù"]},
+      {"t":"fill","q":"老师__手机很贵。","p":"The teacher's phone is expensive.","a":["的","de"],"o":["是","有","很"],"why":"Owner + 的 + thing: 老师的手机.","xr":["shì","yǒu","hěn"]},
+      {"t":"type","p":"my Chinese teacher","a":["我 的 中文 老师","我 中文 老师","wǒ de Zhōngwén lǎoshī","wǒ Zhōngwén lǎoshī"],"hint":"中文 · 老师 · the describers come first","x":["是"],"why":"Both describers go before the noun: 我的中文老师.","xr":["shì"]},
+      {"t":"type","p":"a very expensive car","a":["很 贵 的 车","hěn guì de chē"],"hint":"很 · 贵 · 车 (car)","x":["是"],"why":"A describer with 很 goes before the noun, joined by 的: 很贵的车.","xr":["shì"]},
+      {"t":"type","p":"My mom doesn't have a phone.","a":["我 妈妈 没有 手机","我 妈妈 没 手机","我 的 妈妈 没有 手机","我 的 妈妈 没 手机","wǒ māma méiyǒu shǒujī","wǒ māma méi shǒujī","wǒ de māma méiyǒu shǒujī","wǒ de māma méi shǒujī"],"hint":"妈妈 · 没有 · 手机","x":["不"],"why":"Family words need no 的, and 有 is negated with 没: 我妈妈没有手机.","xr":["bù"]}
     ],
     "you": [
       {"t":"mc","q":"Which is the pinyin of 买 (to buy)?","o":["mǎi","mài","mái","māi"],"why":"买 has the third tone; mài with the fourth tone is 卖, to sell."},
@@ -899,12 +899,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"There's a bank nearby","a":["附近","有","银行"],"x":["在"],"why":"The place goes before the verb 有: 附近有银行."},
       {"t":"order","p":"There's a book on the table","a":["桌子","上","有","一","本","书"],"x":["在"],"why":"The place goes before the verb, and 一本 goes before the noun: 桌子上有一本书."},
       {"t":"order","p":"Do you have coffee? (to a shop)","a":["你们","有","咖啡","吗"],"x":["不"],"why":"Statement + 吗 makes the question: 你们有咖啡吗？"},
-      {"t":"fill","q":"附近__银行吗？","p":"Is there a bank nearby?","a":["有","yǒu"],"o":["是","在","很"],"why":"\"There is\" is 有, after the place."},
-      {"t":"fill","q":"我__有车。","p":"I don't have a car.","a":["没","méi"],"o":["不","是","很"],"why":"Only 没 negates 有: 没有."},
-      {"t":"fill","q":"桌子上__一本书。","p":"There's a book on the table.","a":["有","yǒu"],"o":["在","很","不"],"why":"Place + 有 + thing: \"the table has a book\"."},
-      {"t":"type","p":"There's a supermarket nearby.","a":["附近 有 超市","附近 有 一 个 超市","fùjìn yǒu chāoshì","fùjìn yǒu yí ge chāoshì"],"hint":"附近 (nearby) · 超市 (supermarket) · the place comes first","x":["在"],"why":"The place goes before the verb 有: 附近有超市."},
-      {"t":"type","p":"Is there a bank nearby?","a":["附近 有 银行 吗","附近 有 一 个 银行 吗","fùjìn yǒu yínháng ma","fùjìn yǒu yí ge yínháng ma"],"hint":"附近 · 银行 (bank) · 吗","x":["在"],"why":"Nearby goes before the verb 有, and 吗 goes at the end: 附近有银行吗？"},
-      {"t":"type","p":"I don't have a car.","a":["我 没有 车","我 没 车","wǒ méiyǒu chē","wǒ méi chē"],"hint":"没有 · 车 (car)","x":["不"],"why":"有 is negated only with 没: 我没有车."}
+      {"t":"fill","q":"附近__银行吗？","p":"Is there a bank nearby?","a":["有","yǒu"],"o":["是","在","很"],"why":"\"There is\" is 有, after the place.","xr":["shì","zài","hěn"]},
+      {"t":"fill","q":"我__有车。","p":"I don't have a car.","a":["没","méi"],"o":["不","是","很"],"why":"Only 没 negates 有: 没有.","xr":["bù","shì","hěn"]},
+      {"t":"fill","q":"桌子上__一本书。","p":"There's a book on the table.","a":["有","yǒu"],"o":["在","很","不"],"why":"Place + 有 + thing: \"the table has a book\".","xr":["zài","hěn","bù"]},
+      {"t":"type","p":"There's a supermarket nearby.","a":["附近 有 超市","附近 有 一 个 超市","fùjìn yǒu chāoshì","fùjìn yǒu yí ge chāoshì"],"hint":"附近 (nearby) · 超市 (supermarket) · the place comes first","x":["在"],"why":"The place goes before the verb 有: 附近有超市.","xr":["zài"]},
+      {"t":"type","p":"Is there a bank nearby?","a":["附近 有 银行 吗","附近 有 一 个 银行 吗","fùjìn yǒu yínháng ma","fùjìn yǒu yí ge yínháng ma"],"hint":"附近 · 银行 (bank) · 吗","x":["在"],"why":"Nearby goes before the verb 有, and 吗 goes at the end: 附近有银行吗？","xr":["zài"]},
+      {"t":"type","p":"I don't have a car.","a":["我 没有 车","我 没 车","wǒ méiyǒu chē","wǒ méi chē"],"hint":"没有 · 车 (car)","x":["不"],"why":"有 is negated only with 没: 我没有车.","xr":["bù"]}
     ],
     "numbers": [
       {"t":"mc","q":"Which is the pinyin of 四 (four)?","o":["sì","sī","sí","sǐ"],"why":"四 has the fourth tone: it falls. With the third tone, sǐ means to die."},
@@ -915,12 +915,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"two people","a":["两","个","人"],"x":["二"],"why":"Two before a measure word is 两: 两个人."},
       {"t":"order","p":"This one is twenty-five yuan","a":["这个","二十五","块"],"x":["个"],"why":"块 works like a measure word: it comes right after the number, 二十五块."},
       {"t":"order","p":"How much is this?","a":["这个","多少","钱"],"x":["几"],"why":"多少 asks for any number, so it fits a price."},
-      {"t":"fill","q":"我有__个中文老师。","p":"I have two Chinese teachers.","a":["两","liǎng"],"o":["二","双","个"],"why":"Before the measure word 个, two is 两."},
-      {"t":"fill","q":"一百__五","p":"105","a":["零","líng"],"o":["十","一","和"],"why":"An empty place in the middle of a number is 零."},
-      {"t":"fill","q":"这个二十五__。","p":"This one is 25 yuan.","a":["块","元","kuài","yuán"],"o":["个","钱","点"],"why":"Money: the number, then 块 (or 元 in writing)."},
-      {"t":"type","p":"two people","a":["两 个 人","liǎng ge rén"],"hint":"两 or 二? · 个 · 人","x":["二"],"why":"Two before a measure word is 两: 两个人."},
-      {"t":"type","p":"fifteen yuan (say it out loud)","a":["十五 块","十五 元","十五 块 钱","shíwǔ kuài","shíwǔ yuán","shíwǔ kuài qián"],"hint":"十五 · 块","x":["个"],"why":"块 is the measure word for money, right after the number: 十五块."},
-      {"t":"type","p":"How much is this?","a":["这个 多少 钱","这个 是 多少 钱","zhège duōshao qián","zhège shì duōshao qián"],"hint":"这个 · 多少 · 钱","x":["几"],"why":"多少 asks for any number, such as a price: 这个多少钱？"}
+      {"t":"fill","q":"我有__个中文老师。","p":"I have two Chinese teachers.","a":["两","liǎng"],"o":["二","双","个"],"why":"Before the measure word 个, two is 两.","xr":["èr","shuāng","ge"]},
+      {"t":"fill","q":"一百__五","p":"105","a":["零","líng"],"o":["十","一","和"],"why":"An empty place in the middle of a number is 零.","xr":["shí","yī","hé"]},
+      {"t":"fill","q":"这个二十五__。","p":"This one is 25 yuan.","a":["块","元","kuài","yuán"],"o":["个","钱","点"],"why":"Money: the number, then 块 (or 元 in writing).","xr":["ge","qián","diǎn"]},
+      {"t":"type","p":"two people","a":["两 个 人","liǎng ge rén"],"hint":"两 or 二? · 个 · 人","x":["二"],"why":"Two before a measure word is 两: 两个人.","xr":["èr"]},
+      {"t":"type","p":"fifteen yuan (say it out loud)","a":["十五 块","十五 元","十五 块 钱","shíwǔ kuài","shíwǔ yuán","shíwǔ kuài qián"],"hint":"十五 · 块","x":["个"],"why":"块 is the measure word for money, right after the number: 十五块.","xr":["ge"]},
+      {"t":"type","p":"How much is this?","a":["这个 多少 钱","这个 是 多少 钱","zhège duōshao qián","zhège shì duōshao qián"],"hint":"这个 · 多少 · 钱","x":["几"],"why":"多少 asks for any number, such as a price: 这个多少钱？","xr":["jǐ"]}
     ],
     "measure": [
       {"t":"mc","q":"Which is the pinyin of 杯 (cup)?","o":["bēi","béi","běi","bèi"],"why":"杯 has the first tone: high and level."},
@@ -931,12 +931,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"three books","a":["三","本","书"],"x":["个"],"why":"Books take the measure word 本: 三本书."},
       {"t":"order","p":"this cup of tea","a":["这","杯","茶"],"x":["个"],"why":"这 + measure word + noun: 这杯茶."},
       {"t":"order","p":"That cat is very small","a":["那","只","猫","很","小"],"x":["本"],"why":"那 + measure word + noun: 那只猫, with 只 for animals."},
-      {"t":"fill","q":"我有三__书。","p":"I have three books.","a":["本","běn"],"o":["个","杯","张"],"why":"Books take 本."},
-      {"t":"fill","q":"两__咖啡","p":"two cups of coffee","a":["杯","bēi"],"o":["本","张","只"],"why":"A cup of a drink takes 杯."},
-      {"t":"fill","q":"这__票多少钱？","p":"How much is this ticket?","a":["张","zhāng"],"o":["本","杯","只"],"why":"Tickets are flat, so they take 张."},
-      {"t":"type","p":"two cups of tea","a":["两 杯 茶","liǎng bēi chá"],"hint":"两 · 杯 · 茶 (tea)","x":["个","二"],"why":"Tea in a cup takes the measure word 杯, and two before a measure word is 两."},
-      {"t":"type","p":"this book","a":["这 本 书","zhè běn shū"],"hint":"这 · 本 · 书","x":["个"],"why":"这 + measure word + noun: 这本书."},
-      {"t":"type","p":"I don't have that book.","a":["我 没有 那 本 书","我 没 那 本 书","wǒ méiyǒu nà běn shū","wǒ méi nà běn shū"],"hint":"没有 · 那 · 本 · 书","x":["不"],"why":"那 + measure word + noun, and 有 takes 没: 我没有那本书."}
+      {"t":"fill","q":"我有三__书。","p":"I have three books.","a":["本","běn"],"o":["个","杯","张"],"why":"Books take 本.","xr":["ge","bēi","zhāng"]},
+      {"t":"fill","q":"两__咖啡","p":"two cups of coffee","a":["杯","bēi"],"o":["本","张","只"],"why":"A cup of a drink takes 杯.","xr":["běn","zhāng","zhǐ"]},
+      {"t":"fill","q":"这__票多少钱？","p":"How much is this ticket?","a":["张","zhāng"],"o":["本","杯","只"],"why":"Tickets are flat, so they take 张.","xr":["běn","bēi","zhǐ"]},
+      {"t":"type","p":"two cups of tea","a":["两 杯 茶","liǎng bēi chá"],"hint":"两 · 杯 · 茶 (tea)","x":["个","二"],"why":"Tea in a cup takes the measure word 杯, and two before a measure word is 两.","xr":["ge","èr"]},
+      {"t":"type","p":"this book","a":["这 本 书","zhè běn shū"],"hint":"这 · 本 · 书","x":["个"],"why":"这 + measure word + noun: 这本书.","xr":["ge"]},
+      {"t":"type","p":"I don't have that book.","a":["我 没有 那 本 书","我 没 那 本 书","wǒ méiyǒu nà běn shū","wǒ méi nà běn shū"],"hint":"没有 · 那 · 本 · 书","x":["不"],"why":"那 + measure word + noun, and 有 takes 没: 我没有那本书.","xr":["bù"]}
     ],
     "food": [
       {"t":"mc","q":"Which is the pinyin of 汤 (soup)?","o":["tāng","táng","tǎng","tàng"],"why":"汤 has the first tone; táng with the second tone is 糖, sugar."},
@@ -947,12 +947,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I'd like a bowl of noodles","a":["我","要","一","碗","面条"],"x":["个"],"why":"A bowl takes the measure word 碗, before the noun: 一碗面条."},
       {"t":"order","p":"Two milk teas, please (start with 来)","a":["来","两","杯","奶茶"],"x":["二"],"why":"Two before a measure word is 两: 两杯奶茶."},
       {"t":"order","p":"Check, please! (to the server)","a":["服务员","买单"],"x":["老师"],"why":"Call 服务员 first, then say 买单; 老师 is for a teacher."},
-      {"t":"fill","q":"我要一__面条。","p":"I'd like a bowl of noodles.","a":["碗","wǎn"],"o":["本","张","只"],"why":"A bowl of something takes 碗."},
-      {"t":"fill","q":"请给我一__水。","p":"Could I have a glass of water, please?","a":["杯","bēi"],"o":["本","张","件"],"why":"A glass of a drink takes 杯."},
-      {"t":"fill","q":"不要__的。","p":"Not spicy, please.","a":["辣","là"],"o":["很","是","没"],"why":"辣 is spicy: 不要辣的, not the spicy kind."},
-      {"t":"type","p":"I'd like a cup of coffee.","a":["我 要 一 杯 咖啡","来 一 杯 咖啡","请 给 我 一 杯 咖啡","给 我 一 杯 咖啡","一 杯 咖啡","wǒ yào yì bēi kāfēi","lái yì bēi kāfēi","qǐng gěi wǒ yì bēi kāfēi","gěi wǒ yì bēi kāfēi","yì bēi kāfēi"],"hint":"要 · 一 · 杯 · 咖啡","x":["个"],"why":"A cup of coffee takes the measure word 杯: 一杯咖啡."},
-      {"t":"type","p":"two bowls of noodles","a":["两 碗 面条","liǎng wǎn miàntiáo"],"hint":"两 · 碗 · 面条","x":["个","二"],"why":"Two before a measure word is 两, and noodles in a bowl take 碗."},
-      {"t":"type","p":"Not spicy, please.","a":["不 要 辣 的","我 不 要 辣 的","不 要 辣","我 不 要 辣","bú yào là de","wǒ bú yào là de","bú yào là","wǒ bú yào là"],"hint":"不要 · 辣 · 的","x":["没"],"why":"要 (want) is negated with 不, not 没: 不要辣的."}
+      {"t":"fill","q":"我要一__面条。","p":"I'd like a bowl of noodles.","a":["碗","wǎn"],"o":["本","张","只"],"why":"A bowl of something takes 碗.","xr":["běn","zhāng","zhǐ"]},
+      {"t":"fill","q":"请给我一__水。","p":"Could I have a glass of water, please?","a":["杯","bēi"],"o":["本","张","件"],"why":"A glass of a drink takes 杯.","xr":["běn","zhāng","jiàn"]},
+      {"t":"fill","q":"不要__的。","p":"Not spicy, please.","a":["辣","là"],"o":["很","是","没"],"why":"辣 is spicy: 不要辣的, not the spicy kind.","xr":["hěn","shì","méi"]},
+      {"t":"type","p":"I'd like a cup of coffee.","a":["我 要 一 杯 咖啡","来 一 杯 咖啡","请 给 我 一 杯 咖啡","给 我 一 杯 咖啡","一 杯 咖啡","wǒ yào yì bēi kāfēi","lái yì bēi kāfēi","qǐng gěi wǒ yì bēi kāfēi","gěi wǒ yì bēi kāfēi","yì bēi kāfēi"],"hint":"要 · 一 · 杯 · 咖啡","x":["个"],"why":"A cup of coffee takes the measure word 杯: 一杯咖啡.","xr":["ge"]},
+      {"t":"type","p":"two bowls of noodles","a":["两 碗 面条","liǎng wǎn miàntiáo"],"hint":"两 · 碗 · 面条","x":["个","二"],"why":"Two before a measure word is 两, and noodles in a bowl take 碗.","xr":["ge","èr"]},
+      {"t":"type","p":"Not spicy, please.","a":["不 要 辣 的","我 不 要 辣 的","不 要 辣","我 不 要 辣","bú yào là de","wǒ bú yào là de","bú yào là","wǒ bú yào là"],"hint":"不要 · 辣 · 的","x":["没"],"why":"要 (want) is negated with 不, not 没: 不要辣的.","xr":["méi"]}
     ],
     "family": [
       {"t":"mc","q":"Which is the pinyin of 妈妈 (mom)?","o":["māma","mǎmǎ","māmā","màma"],"why":"The first 妈 has the first tone, and the second has the neutral tone: māma."},
@@ -963,12 +963,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I have an older brother","a":["我","有","一","个","哥哥"],"x":["本"],"why":"A number needs a measure word before the noun: 一个哥哥."},
       {"t":"order","p":"I have two younger sisters","a":["我","有","两","个","妹妹"],"x":["二"],"why":"Two before a measure word is 两: 两个妹妹."},
       {"t":"order","p":"How many people are in your family? (to a friend)","a":["你","家","有","几","口","人"],"x":["吗"],"why":"The question word 几 already asks, so no 吗."},
-      {"t":"fill","q":"我家有四__人。","p":"There are four people in my family.","a":["口","个","kǒu","ge"],"o":["本","只","张"],"why":"Family members are counted with 口 (个 is also heard)."},
-      {"t":"fill","q":"我有两个__。","p":"I have two younger brothers.","a":["弟弟","dìdi"],"o":["哥哥","姐姐","妹妹"],"why":"Younger brother is 弟弟."},
-      {"t":"fill","q":"我今年二十五__。","p":"I'm 25 this year.","a":["岁","suì"],"o":["个","口","块"],"why":"Age is the number + 岁."},
-      {"t":"type","p":"I have two older brothers.","a":["我 有 两 个 哥哥","wǒ yǒu liǎng ge gēge"],"hint":"两 · 个 · 哥哥","x":["二"],"why":"Two before a measure word is 两: 两个哥哥."},
-      {"t":"type","p":"There are three people in my family.","a":["我 家 有 三 口 人","我 家 有 三 个 人","我们 家 有 三 口 人","我们 家 有 三 个 人","wǒ jiā yǒu sān kǒu rén","wǒ jiā yǒu sān ge rén","wǒmen jiā yǒu sān kǒu rén","wǒmen jiā yǒu sān ge rén"],"hint":"家 · 有 · 三 · 口 · 人","x":["本"],"why":"口 is the measure word for family members: 三口人."},
-      {"t":"type","p":"My dad isn't a teacher.","a":["我 爸爸 不 是 老师","我 的 爸爸 不 是 老师","wǒ bàba bú shì lǎoshī","wǒ de bàba bú shì lǎoshī"],"hint":"爸爸 · 不是 · 老师","x":["没"],"why":"是 is negated with 不, never 没, and 爸爸 needs no 的."}
+      {"t":"fill","q":"我家有四__人。","p":"There are four people in my family.","a":["口","个","kǒu","ge"],"o":["本","只","张"],"why":"Family members are counted with 口 (个 is also heard).","xr":["běn","zhǐ","zhāng"]},
+      {"t":"fill","q":"我有两个__。","p":"I have two younger brothers.","a":["弟弟","dìdi"],"o":["哥哥","姐姐","妹妹"],"why":"Younger brother is 弟弟.","xr":["gēge","jiějie","mèimei"]},
+      {"t":"fill","q":"我今年二十五__。","p":"I'm 25 this year.","a":["岁","suì"],"o":["个","口","块"],"why":"Age is the number + 岁.","xr":["ge","kǒu","kuài"]},
+      {"t":"type","p":"I have two older brothers.","a":["我 有 两 个 哥哥","wǒ yǒu liǎng ge gēge"],"hint":"两 · 个 · 哥哥","x":["二"],"why":"Two before a measure word is 两: 两个哥哥.","xr":["èr"]},
+      {"t":"type","p":"There are three people in my family.","a":["我 家 有 三 口 人","我 家 有 三 个 人","我们 家 有 三 口 人","我们 家 有 三 个 人","wǒ jiā yǒu sān kǒu rén","wǒ jiā yǒu sān ge rén","wǒmen jiā yǒu sān kǒu rén","wǒmen jiā yǒu sān ge rén"],"hint":"家 · 有 · 三 · 口 · 人","x":["本"],"why":"口 is the measure word for family members: 三口人.","xr":["běn"]},
+      {"t":"type","p":"My dad isn't a teacher.","a":["我 爸爸 不 是 老师","我 的 爸爸 不 是 老师","wǒ bàba bú shì lǎoshī","wǒ de bàba bú shì lǎoshī"],"hint":"爸爸 · 不是 · 老师","x":["没"],"why":"是 is negated with 不, never 没, and 爸爸 needs no 的.","xr":["méi"]}
     ],
     "time": [
       {"t":"mc","q":"Which is the pinyin of 号 (day of the month)?","o":["hào","háo","hǎo","hāo"],"why":"号 has the fourth tone; hǎo with the third tone is 好, good."},
@@ -979,12 +979,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I'm going to Beijing tomorrow (start with 我)","a":["我","明天","去","北京"],"x":["了"],"why":"Time goes before the verb: 我明天去北京."},
       {"t":"order","p":"December 3","a":["十二月","三","号"],"x":["点"],"why":"Big to small: the month, then the day."},
       {"t":"order","p":"I don't work on Saturdays (start with 我)","a":["我","星期六","不","工作"],"x":["没"],"why":"The day and 不 both go before the verb: 我星期六不工作."},
-      {"t":"fill","q":"现在__点？","p":"What time is it now?","a":["几","jǐ"],"o":["什么","多少","哪"],"why":"Ask the hour with 几: 几点."},
-      {"t":"fill","q":"今天十二月三__。","p":"Today is December 3.","a":["号","日","hào","rì"],"o":["点","天","岁"],"why":"The day of the month is the number + 号."},
-      {"t":"fill","q":"现在__点半。","p":"It's half past two.","a":["两","liǎng"],"o":["二","个","第二"],"why":"Two o'clock is 两点, so half past two is 两点半."},
-      {"t":"type","p":"I'm going tomorrow.","a":["我 明天 去","明天 我 去","wǒ míngtiān qù","míngtiān wǒ qù"],"hint":"明天 · 去 · when comes first","x":["了"],"why":"Time goes before the verb: 我明天去."},
-      {"t":"type","p":"I don't work on Saturdays.","a":["我 星期六 不 工作","星期六 我 不 工作","我 星期六 不 上班","星期六 我 不 上班","wǒ xīngqīliù bù gōngzuò","xīngqīliù wǒ bù gōngzuò","wǒ xīngqīliù bú shàngbān","xīngqīliù wǒ bú shàngbān"],"hint":"星期六 (Saturday) · 不 · 工作","x":["没"],"why":"The day goes before the verb, and so does 不: 我星期六不工作."},
-      {"t":"type","p":"It's two o'clock now.","a":["现在 两 点","现在 是 两 点","现在 两 点钟","现在 是 两 点钟","xiànzài liǎng diǎn","xiànzài shì liǎng diǎn","xiànzài liǎng diǎnzhōng","xiànzài shì liǎng diǎnzhōng"],"hint":"现在 · 两 · 点","x":["二"],"why":"Two o'clock is 两点, and 现在 goes first."}
+      {"t":"fill","q":"现在__点？","p":"What time is it now?","a":["几","jǐ"],"o":["什么","多少","哪"],"why":"Ask the hour with 几: 几点.","xr":["shénme","duōshao","nǎ"]},
+      {"t":"fill","q":"今天十二月三__。","p":"Today is December 3.","a":["号","日","hào","rì"],"o":["点","天","岁"],"why":"The day of the month is the number + 号.","xr":["diǎn","tiān","suì"]},
+      {"t":"fill","q":"现在__点半。","p":"It's half past two.","a":["两","liǎng"],"o":["二","个","第二"],"why":"Two o'clock is 两点, so half past two is 两点半.","xr":["èr","ge","dì'èr"]},
+      {"t":"type","p":"I'm going tomorrow.","a":["我 明天 去","明天 我 去","wǒ míngtiān qù","míngtiān wǒ qù"],"hint":"明天 · 去 · when comes first","x":["了"],"why":"Time goes before the verb: 我明天去.","xr":["le"]},
+      {"t":"type","p":"I don't work on Saturdays.","a":["我 星期六 不 工作","星期六 我 不 工作","我 星期六 不 上班","星期六 我 不 上班","wǒ xīngqīliù bù gōngzuò","xīngqīliù wǒ bù gōngzuò","wǒ xīngqīliù bú shàngbān","xīngqīliù wǒ bú shàngbān"],"hint":"星期六 (Saturday) · 不 · 工作","x":["没"],"why":"The day goes before the verb, and so does 不: 我星期六不工作.","xr":["méi"]},
+      {"t":"type","p":"It's two o'clock now.","a":["现在 两 点","现在 是 两 点","现在 两 点钟","现在 是 两 点钟","xiànzài liǎng diǎn","xiànzài shì liǎng diǎn","xiànzài liǎng diǎnzhōng","xiànzài shì liǎng diǎnzhōng"],"hint":"现在 · 两 · 点","x":["二"],"why":"Two o'clock is 两点, and 现在 goes first.","xr":["èr"]}
     ],
     "zai": [
       {"t":"mc","q":"Which is the pinyin of 在 (to be at)?","o":["zài","zāi","zái","zǎi"],"why":"在 has the fourth tone: it falls."},
@@ -995,12 +995,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I work at a bank","a":["我","在","银行","工作"],"x":["上"],"why":"Where it happens goes before the verb: 我在银行工作."},
       {"t":"order","p":"The phone is in the room","a":["手机","在","房间","里"],"x":["上"],"why":"The location word comes after the noun: 房间里, in the room."},
       {"t":"order","p":"He eats at home","a":["他","在","家","吃饭"],"x":["上"],"why":"The place with 在 goes before the verb: 他在家吃饭."},
-      {"t":"fill","q":"银行__哪儿？","p":"Where's the bank?","a":["在","zài"],"o":["有","很","的"],"why":"Where something is: thing + 在 + place."},
-      {"t":"fill","q":"手机在桌子__。","p":"The phone is on the table.","a":["上","shàng"],"o":["在","的","有"],"why":"On the table: 桌子上, with the location word after the noun."},
-      {"t":"fill","q":"我__银行工作。","p":"I work at a bank.","a":["在","zài"],"o":["是","有","很"],"why":"在 + place, before the verb."},
-      {"t":"type","p":"I work at a bank.","a":["我 在 银行 工作","我 在 银行 上班","wǒ zài yínháng gōngzuò","wǒ zài yínháng shàngbān"],"hint":"在 · 银行 · 工作 · where comes first","x":["是"],"why":"Where it happens goes before the verb: 我在银行工作."},
-      {"t":"type","p":"We eat at home.","a":["我们 在 家 吃饭","我们 在 家 里 吃饭","wǒmen zài jiā chīfàn","wǒmen zài jiāli chīfàn"],"hint":"在 · 家 · 吃饭","x":["上"],"why":"The place with 在 goes before the verb: 我们在家吃饭."},
-      {"t":"type","p":"Where's the restroom?","a":["洗手间 在 哪儿","洗手间 在 哪里","厕所 在 哪儿","厕所 在 哪里","xǐshǒujiān zài nǎr","xǐshǒujiān zài nǎlǐ","cèsuǒ zài nǎr","cèsuǒ zài nǎlǐ"],"hint":"洗手间 (restroom) · 在 · 哪儿","x":["是"],"why":"Thing + 在 + 哪儿: the question word sits in the place slot."}
+      {"t":"fill","q":"银行__哪儿？","p":"Where's the bank?","a":["在","zài"],"o":["有","很","的"],"why":"Where something is: thing + 在 + place.","xr":["yǒu","hěn","de"]},
+      {"t":"fill","q":"手机在桌子__。","p":"The phone is on the table.","a":["上","shàng"],"o":["在","的","有"],"why":"On the table: 桌子上, with the location word after the noun.","xr":["zài","de","yǒu"]},
+      {"t":"fill","q":"我__银行工作。","p":"I work at a bank.","a":["在","zài"],"o":["是","有","很"],"why":"在 + place, before the verb.","xr":["shì","yǒu","hěn"]},
+      {"t":"type","p":"I work at a bank.","a":["我 在 银行 工作","我 在 银行 上班","wǒ zài yínháng gōngzuò","wǒ zài yínháng shàngbān"],"hint":"在 · 银行 · 工作 · where comes first","x":["是"],"why":"Where it happens goes before the verb: 我在银行工作.","xr":["shì"]},
+      {"t":"type","p":"We eat at home.","a":["我们 在 家 吃饭","我们 在 家 里 吃饭","wǒmen zài jiā chīfàn","wǒmen zài jiāli chīfàn"],"hint":"在 · 家 · 吃饭","x":["上"],"why":"The place with 在 goes before the verb: 我们在家吃饭.","xr":["shàng"]},
+      {"t":"type","p":"Where's the restroom?","a":["洗手间 在 哪儿","洗手间 在 哪里","厕所 在 哪儿","厕所 在 哪里","xǐshǒujiān zài nǎr","xǐshǒujiān zài nǎlǐ","cèsuǒ zài nǎr","cèsuǒ zài nǎlǐ"],"hint":"洗手间 (restroom) · 在 · 哪儿","x":["是"],"why":"Thing + 在 + 哪儿: the question word sits in the place slot.","xr":["shì"]}
     ],
     "word-order": [
       {"t":"mc","q":"I'm working at home today =","o":["我今天在家工作。","我在家工作今天。","我今天工作在家。","我工作今天在家。"],"why":"When and where both go before the verb: 我今天在家工作."},
@@ -1011,12 +1011,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I'm going to Beijing tomorrow (begin with 我)","a":["我","明天","去","北京"],"x":["在"],"why":"Time goes before the verb: 我明天去北京."},
       {"t":"order","p":"We study at the library","a":["我们","在","图书馆","学习"],"x":["吗"],"why":"Where it happens goes before the verb: 在图书馆学习."},
       {"t":"order","p":"I'm eating at home tomorrow (begin with 我)","a":["我","明天","在","家","吃饭"],"x":["吗"],"why":"When comes first, then where, and both go before the verb."},
-      {"t":"fill","q":"我明天__家吃饭。","p":"I'm eating at home tomorrow.","a":["在","zài"],"o":["是","有","很"],"why":"在 + place says where it happens: 在家吃饭."},
-      {"t":"fill","q":"我每天__地铁去上班。","p":"I take the subway to work every day.","a":["坐","zuò"],"o":["是","在","很"],"why":"坐 (to ride, literally to sit) is how you take the subway: 坐地铁."},
-      {"t":"fill","q":"我住__北京。","p":"I live in Beijing.","a":["在","zài"],"o":["是","有","去"],"why":"住 is followed by 在 + place: 我住在北京."},
-      {"t":"type","p":"I work at a bank","a":["我 在 银行 工作","我 在 银行 上班","wǒ zài yínháng gōngzuò","wǒ zài yínháng shàngbān"],"hint":"在 · 银行 · 工作 · where comes first","x":["是"],"why":"Where it happens goes before the verb: 我在银行工作."},
-      {"t":"type","p":"I'm going to Shanghai tomorrow","a":["我 明天 去 上海","明天 我 去 上海","wǒ míngtiān qù Shànghǎi","míngtiān wǒ qù Shànghǎi"],"hint":"明天 · 去 · 上海","x":["了"],"why":"Time goes before the verb, never at the end: 我明天去上海."},
-      {"t":"type","p":"We have class at two o'clock on Monday","a":["我们 星期一 两 点 上课","星期一 两 点 我们 上课","星期一 我们 两 点 上课","我们 星期一 两 点钟 上课","wǒmen xīngqīyī liǎng diǎn shàngkè","xīngqīyī liǎng diǎn wǒmen shàngkè","xīngqīyī wǒmen liǎng diǎn shàngkè","wǒmen xīngqīyī liǎng diǎnzhōng shàngkè"],"hint":"星期一 · 两点 · 上课 · big before small","x":["二"],"why":"Big before small, and the time goes before the verb: 星期一两点上课."}
+      {"t":"fill","q":"我明天__家吃饭。","p":"I'm eating at home tomorrow.","a":["在","zài"],"o":["是","有","很"],"why":"在 + place says where it happens: 在家吃饭.","xr":["shì","yǒu","hěn"]},
+      {"t":"fill","q":"我每天__地铁去上班。","p":"I take the subway to work every day.","a":["坐","zuò"],"o":["是","在","很"],"why":"坐 (to ride, literally to sit) is how you take the subway: 坐地铁.","xr":["shì","zài","hěn"]},
+      {"t":"fill","q":"我住__北京。","p":"I live in Beijing.","a":["在","zài"],"o":["是","有","去"],"why":"住 is followed by 在 + place: 我住在北京.","xr":["shì","yǒu","qù"]},
+      {"t":"type","p":"I work at a bank","a":["我 在 银行 工作","我 在 银行 上班","wǒ zài yínháng gōngzuò","wǒ zài yínháng shàngbān"],"hint":"在 · 银行 · 工作 · where comes first","x":["是"],"why":"Where it happens goes before the verb: 我在银行工作.","xr":["shì"]},
+      {"t":"type","p":"I'm going to Shanghai tomorrow","a":["我 明天 去 上海","明天 我 去 上海","wǒ míngtiān qù Shànghǎi","míngtiān wǒ qù Shànghǎi"],"hint":"明天 · 去 · 上海","x":["了"],"why":"Time goes before the verb, never at the end: 我明天去上海.","xr":["le"]},
+      {"t":"type","p":"We have class at two o'clock on Monday","a":["我们 星期一 两 点 上课","星期一 两 点 我们 上课","星期一 我们 两 点 上课","我们 星期一 两 点钟 上课","wǒmen xīngqīyī liǎng diǎn shàngkè","xīngqīyī liǎng diǎn wǒmen shàngkè","xīngqīyī wǒmen liǎng diǎn shàngkè","wǒmen xīngqīyī liǎng diǎnzhōng shàngkè"],"hint":"星期一 · 两点 · 上课 · big before small","x":["二"],"why":"Big before small, and the time goes before the verb: 星期一两点上课.","xr":["èr"]}
     ],
     "want-can": [
       {"t":"mc","q":"Which word means \"know how to\" (a skill you learned)?","o":["会","想","要","在"],"why":"会 is for skills you learned: 我会游泳."},
@@ -1027,12 +1027,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I'd like to drink a cup of tea","a":["我","想","喝","一","杯","茶"],"x":["个"],"why":"Tea in a cup takes the measure word 杯: 一杯茶."},
       {"t":"order","p":"I want to study at the library","a":["我","想","在","图书馆","学习"],"x":["吗"],"why":"Where it happens goes before the verb: 想在图书馆学习."},
       {"t":"order","p":"I can speak a little Chinese","a":["我","会","说","一点儿","中文"],"x":["是"],"why":"会 is for a skill you learned, like a language; 是 is not \"can\"."},
-      {"t":"fill","q":"你__进来。","p":"You may come in.","a":["可以","能","kěyǐ","néng"],"o":["会","想","是"],"why":"可以 gives permission: 你可以进来."},
-      {"t":"fill","q":"我不__开车。","p":"I can't drive (I never learned).","a":["会","huì"],"o":["是","要","在"],"why":"A skill you never learned takes 不会."},
-      {"t":"fill","q":"服务员，我__一碗面条。","p":"Waiter, I'd like a bowl of noodles.","a":["要","想要","yào","xiǎng yào"],"o":["会","能","在"],"why":"With a thing and no verb, want is 要 (or 想要)."},
-      {"t":"type","p":"I'd like two cups of coffee","a":["我 要 两 杯 咖啡","我 想 要 两 杯 咖啡","要 两 杯 咖啡","我 想 喝 两 杯 咖啡","来 两 杯 咖啡","wǒ yào liǎng bēi kāfēi","wǒ xiǎng yào liǎng bēi kāfēi","yào liǎng bēi kāfēi","wǒ xiǎng hē liǎng bēi kāfēi","lái liǎng bēi kāfēi"],"hint":"要 · 两 · 杯 · 咖啡","x":["个","二"],"why":"Coffee in a cup takes the measure word 杯, and two before it is 两."},
-      {"t":"type","p":"I'd like to eat at home (use 想)","a":["我 想 在 家 吃饭","wǒ xiǎng zài jiā chīfàn"],"hint":"想 · 在 · 家 · 吃饭","x":["是"],"why":"Where it happens goes before the verb: 想在家吃饭."},
-      {"t":"type","p":"I can't swim (I never learned)","a":["我 不 会 游泳","wǒ bú huì yóuyǒng"],"hint":"会 · 游泳 · say no with 不","x":["没"],"why":"A skill takes 会, and its no is 不会, not 没."}
+      {"t":"fill","q":"你__进来。","p":"You may come in.","a":["可以","能","kěyǐ","néng"],"o":["会","想","是"],"why":"可以 gives permission: 你可以进来.","xr":["huì","xiǎng","shì"]},
+      {"t":"fill","q":"我不__开车。","p":"I can't drive (I never learned).","a":["会","huì"],"o":["是","要","在"],"why":"A skill you never learned takes 不会.","xr":["shì","yào","zài"]},
+      {"t":"fill","q":"服务员，我__一碗面条。","p":"Waiter, I'd like a bowl of noodles.","a":["要","想要","yào","xiǎng yào"],"o":["会","能","在"],"why":"With a thing and no verb, want is 要 (or 想要).","xr":["huì","néng","zài"]},
+      {"t":"type","p":"I'd like two cups of coffee","a":["我 要 两 杯 咖啡","我 想 要 两 杯 咖啡","要 两 杯 咖啡","我 想 喝 两 杯 咖啡","来 两 杯 咖啡","wǒ yào liǎng bēi kāfēi","wǒ xiǎng yào liǎng bēi kāfēi","yào liǎng bēi kāfēi","wǒ xiǎng hē liǎng bēi kāfēi","lái liǎng bēi kāfēi"],"hint":"要 · 两 · 杯 · 咖啡","x":["个","二"],"why":"Coffee in a cup takes the measure word 杯, and two before it is 两.","xr":["ge","èr"]},
+      {"t":"type","p":"I'd like to eat at home (use 想)","a":["我 想 在 家 吃饭","wǒ xiǎng zài jiā chīfàn"],"hint":"想 · 在 · 家 · 吃饭","x":["是"],"why":"Where it happens goes before the verb: 想在家吃饭.","xr":["shì"]},
+      {"t":"type","p":"I can't swim (I never learned)","a":["我 不 会 游泳","wǒ bú huì yóuyǒng"],"hint":"会 · 游泳 · say no with 不","x":["没"],"why":"A skill takes 会, and its no is 不会, not 没.","xr":["méi"]}
     ],
     "le": [
       {"t":"mc","q":"I bought three tickets =","o":["我买了三张票。","我了买三张票。","我买三张了票。","我买三了张票。"],"why":"了 goes right after the verb: 买了三张票."},
@@ -1043,12 +1043,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I didn't go to work yesterday (begin with 我)","a":["我","昨天","没","去","上班"],"x":["了"],"why":"Time goes before the verb, and after 没 there is no 了."},
       {"t":"order","p":"I bought three apples","a":["我","买了","三","个","苹果"],"x":["本"],"why":"Apples take the measure word 个: 三个苹果."},
       {"t":"order","p":"It's gotten cold","a":["天气","冷","了"],"x":["在"],"why":"了 at the end shows a change, and 冷 needs no 是."},
-      {"t":"fill","q":"我买__三个苹果。","p":"I bought three apples.","a":["了","le"],"o":["吗","呢","的"],"why":"了 right after the verb shows the buying is done."},
-      {"t":"fill","q":"我昨天__去。","p":"I didn't go yesterday.","a":["没","没有","méi","méiyǒu"],"o":["不","是","了"],"why":"For something that did not happen, use 没, not 不."},
-      {"t":"fill","q":"我饿__。","p":"I'm hungry (now).","a":["了","le"],"o":["是","在","们"],"why":"了 at the end shows a change: 我饿了."},
-      {"t":"type","p":"I bought two tickets","a":["我 买 了 两 张 票","wǒ mǎi le liǎng zhāng piào"],"hint":"买 · 两 · 张 · 票","x":["个","二"],"why":"Tickets take the measure word 张, and two before it is 两."},
-      {"t":"type","p":"I didn't go to the bank yesterday","a":["我 昨天 没 去 银行","昨天 我 没 去 银行","我 昨天 没有 去 银行","昨天 我 没有 去 银行","wǒ zuótiān méi qù yínháng","zuótiān wǒ méi qù yínháng","wǒ zuótiān méiyǒu qù yínháng","zuótiān wǒ méiyǒu qù yínháng"],"hint":"昨天 · 没 · 去 · 银行","x":["了"],"why":"Time goes before the verb, and after 没 there is no 了."},
-      {"t":"type","p":"It's gotten cold","a":["天气 冷 了","天 冷 了","tiānqì lěng le","tiān lěng le"],"hint":"天气 · 冷 · a change","x":["是"],"why":"了 at the end shows a change, and adjectives take no 是."}
+      {"t":"fill","q":"我买__三个苹果。","p":"I bought three apples.","a":["了","le"],"o":["吗","呢","的"],"why":"了 right after the verb shows the buying is done.","xr":["ma","ne","de"]},
+      {"t":"fill","q":"我昨天__去。","p":"I didn't go yesterday.","a":["没","没有","méi","méiyǒu"],"o":["不","是","了"],"why":"For something that did not happen, use 没, not 不.","xr":["bù","shì","le"]},
+      {"t":"fill","q":"我饿__。","p":"I'm hungry (now).","a":["了","le"],"o":["是","在","们"],"why":"了 at the end shows a change: 我饿了.","xr":["shì","zài","men"]},
+      {"t":"type","p":"I bought two tickets","a":["我 买 了 两 张 票","wǒ mǎi le liǎng zhāng piào"],"hint":"买 · 两 · 张 · 票","x":["个","二"],"why":"Tickets take the measure word 张, and two before it is 两.","xr":["ge","èr"]},
+      {"t":"type","p":"I didn't go to the bank yesterday","a":["我 昨天 没 去 银行","昨天 我 没 去 银行","我 昨天 没有 去 银行","昨天 我 没有 去 银行","wǒ zuótiān méi qù yínháng","zuótiān wǒ méi qù yínháng","wǒ zuótiān méiyǒu qù yínháng","zuótiān wǒ méiyǒu qù yínháng"],"hint":"昨天 · 没 · 去 · 银行","x":["了"],"why":"Time goes before the verb, and after 没 there is no 了.","xr":["le"]},
+      {"t":"type","p":"It's gotten cold","a":["天气 冷 了","天 冷 了","tiānqì lěng le","tiān lěng le"],"hint":"天气 · 冷 · a change","x":["是"],"why":"了 at the end shows a change, and adjectives take no 是.","xr":["shì"]}
     ],
     "progress": [
       {"t":"mc","q":"I'm eating =","o":["我在吃饭。","我是吃饭。","我吃饭在。","我在是吃饭。"],"why":"在 before the verb means in the middle of; 是 is not \"am\"."},
@@ -1059,12 +1059,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I'm watching TV at home right now","a":["我","在","家","看","电视","呢"],"x":["了"],"why":"Where it happens goes before the verb, and 呢 goes at the end."},
       {"t":"order","p":"We're having class right now (use 正在)","a":["我们","正在","上课"],"x":["了"],"why":"正在 goes before the verb: 我们正在上课."},
       {"t":"order","p":"What are you doing?","a":["你","在","做","什么"],"x":["了"],"why":"Chinese has no -ing: 在 + verb, and 是 is not \"are\"."},
-      {"t":"fill","q":"他__看电视。","p":"He's watching TV.","a":["在","正在","zài","zhèngzài"],"o":["是","很","了"],"why":"在 or 正在 before the verb shows the action is going on."},
-      {"t":"fill","q":"我正在吃饭__。","p":"I'm eating right now.","a":["呢","ne"],"o":["吗","了","的"],"why":"呢 at the end goes with 正在 for right now."},
-      {"t":"fill","q":"妈妈__厨房打电话。","p":"Mom is on the phone in the kitchen.","a":["在","zài"],"o":["是","有","很"],"why":"在 + place says where it is happening: 在厨房."},
-      {"t":"type","p":"He's watching TV","a":["他 在 看 电视","他 正在 看 电视","他 在 看 电视 呢","他 正在 看 电视 呢","他 看 电视 呢","tā zài kàn diànshì","tā zhèngzài kàn diànshì","tā zài kàn diànshì ne","tā zhèngzài kàn diànshì ne","tā kàn diànshì ne"],"hint":"在 · 看 · 电视","x":["是"],"why":"Chinese has no -ing: 在 or 正在 goes before the verb."},
-      {"t":"type","p":"I'm studying at the library","a":["我 在 图书馆 学习","我 正在 图书馆 学习","我 在 图书馆 学习 呢","我 正在 图书馆 学习 呢","wǒ zài túshūguǎn xuéxí","wǒ zhèngzài túshūguǎn xuéxí","wǒ zài túshūguǎn xuéxí ne","wǒ zhèngzài túshūguǎn xuéxí ne"],"hint":"在 · 图书馆 · 学习","x":["是"],"why":"Where it happens goes before the verb: 在图书馆学习."},
-      {"t":"type","p":"What are you doing? (to a friend)","a":["你 在 做 什么","你 正在 做 什么","你 在 做 什么 呢","你 正在 做 什么 呢","nǐ zài zuò shénme","nǐ zhèngzài zuò shénme","nǐ zài zuò shénme ne","nǐ zhèngzài zuò shénme ne"],"hint":"在 · 做 · 什么","x":["是"],"why":"什么 stays where the answer goes, after 在 + verb."}
+      {"t":"fill","q":"他__看电视。","p":"He's watching TV.","a":["在","正在","zài","zhèngzài"],"o":["是","很","了"],"why":"在 or 正在 before the verb shows the action is going on.","xr":["shì","hěn","le"]},
+      {"t":"fill","q":"我正在吃饭__。","p":"I'm eating right now.","a":["呢","ne"],"o":["吗","了","的"],"why":"呢 at the end goes with 正在 for right now.","xr":["ma","le","de"]},
+      {"t":"fill","q":"妈妈__厨房打电话。","p":"Mom is on the phone in the kitchen.","a":["在","zài"],"o":["是","有","很"],"why":"在 + place says where it is happening: 在厨房.","xr":["shì","yǒu","hěn"]},
+      {"t":"type","p":"He's watching TV","a":["他 在 看 电视","他 正在 看 电视","他 在 看 电视 呢","他 正在 看 电视 呢","他 看 电视 呢","tā zài kàn diànshì","tā zhèngzài kàn diànshì","tā zài kàn diànshì ne","tā zhèngzài kàn diànshì ne","tā kàn diànshì ne"],"hint":"在 · 看 · 电视","x":["是"],"why":"Chinese has no -ing: 在 or 正在 goes before the verb.","xr":["shì"]},
+      {"t":"type","p":"I'm studying at the library","a":["我 在 图书馆 学习","我 正在 图书馆 学习","我 在 图书馆 学习 呢","我 正在 图书馆 学习 呢","wǒ zài túshūguǎn xuéxí","wǒ zhèngzài túshūguǎn xuéxí","wǒ zài túshūguǎn xuéxí ne","wǒ zhèngzài túshūguǎn xuéxí ne"],"hint":"在 · 图书馆 · 学习","x":["是"],"why":"Where it happens goes before the verb: 在图书馆学习.","xr":["shì"]},
+      {"t":"type","p":"What are you doing? (to a friend)","a":["你 在 做 什么","你 正在 做 什么","你 在 做 什么 呢","你 正在 做 什么 呢","nǐ zài zuò shénme","nǐ zhèngzài zuò shénme","nǐ zài zuò shénme ne","nǐ zhèngzài zuò shénme ne"],"hint":"在 · 做 · 什么","x":["是"],"why":"什么 stays where the answer goes, after 在 + verb.","xr":["shì"]}
     ],
     "serial": [
       {"t":"mc","q":"I'm going to the bank to change money =","o":["我去银行换钱。","我去换钱在银行。","我换钱去在银行。","我在去银行换钱。"],"why":"Go to the place first, then what you do there: 去银行换钱."},
@@ -1075,12 +1075,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"I'm going to the supermarket to buy things","a":["我","去","超市","买","东西"],"x":["卖"],"why":"Where you go comes before the verb of what you do there: 去超市买东西."},
       {"t":"order","p":"I go to school by subway","a":["我","坐","地铁","去","学校"],"x":["骑"],"why":"How you go comes before the verb 去: 坐地铁去学校."},
       {"t":"order","p":"Tomorrow I'm going to Beijing to see the Great Wall (begin with 我)","a":["我","明天","去","北京","看","长城"],"x":["在"],"why":"Time goes before both verbs: 我明天去北京看长城."},
-      {"t":"fill","q":"我去超市__东西。","p":"I'm going to the supermarket to buy things.","a":["买","mǎi"],"o":["卖","在","是"],"why":"买 (mǎi) is buy; 卖 (mài) is sell."},
-      {"t":"fill","q":"我__自行车去上班。","p":"I ride my bike to work.","a":["骑","qí"],"o":["坐","是","在"],"why":"You ride a bike astride: 骑自行车."},
-      {"t":"fill","q":"他__我家吃饭。","p":"He's coming to my place for dinner.","a":["来","lái"],"o":["是","有","很"],"why":"来 + place: he comes to my place, then eats."},
-      {"t":"type","p":"I'm going to the bank to change money","a":["我 去 银行 换 钱","我 要 去 银行 换 钱","wǒ qù yínháng huàn qián","wǒ yào qù yínháng huàn qián"],"hint":"去 · 银行 · 换钱","x":["在"],"why":"Where you go comes before the verb of what you do there: 去银行换钱."},
-      {"t":"type","p":"I take the subway to work","a":["我 坐 地铁 去 上班","我 坐 地铁 上班","wǒ zuò dìtiě qù shàngbān","wǒ zuò dìtiě shàngbān"],"hint":"坐 · 地铁 · 去 · 上班","x":["在"],"why":"How you go comes before the verb: 坐地铁去上班."},
-      {"t":"type","p":"I'm going to the store to buy two bottles of water","a":["我 去 商店 买 两 瓶 水","我 要 去 商店 买 两 瓶 水","wǒ qù shāngdiàn mǎi liǎng píng shuǐ","wǒ yào qù shāngdiàn mǎi liǎng píng shuǐ"],"hint":"商店 (store) · 买 · 两 · 瓶 · 水","x":["个","二"],"why":"Water in a bottle takes the measure word 瓶, and two before it is 两."}
+      {"t":"fill","q":"我去超市__东西。","p":"I'm going to the supermarket to buy things.","a":["买","mǎi"],"o":["卖","在","是"],"why":"买 (mǎi) is buy; 卖 (mài) is sell.","xr":["mài","zài","shì"]},
+      {"t":"fill","q":"我__自行车去上班。","p":"I ride my bike to work.","a":["骑","qí"],"o":["坐","是","在"],"why":"You ride a bike astride: 骑自行车.","xr":["zuò","shì","zài"]},
+      {"t":"fill","q":"他__我家吃饭。","p":"He's coming to my place for dinner.","a":["来","lái"],"o":["是","有","很"],"why":"来 + place: he comes to my place, then eats.","xr":["shì","yǒu","hěn"]},
+      {"t":"type","p":"I'm going to the bank to change money","a":["我 去 银行 换 钱","我 要 去 银行 换 钱","wǒ qù yínháng huàn qián","wǒ yào qù yínháng huàn qián"],"hint":"去 · 银行 · 换钱","x":["在"],"why":"Where you go comes before the verb of what you do there: 去银行换钱.","xr":["zài"]},
+      {"t":"type","p":"I take the subway to work","a":["我 坐 地铁 去 上班","我 坐 地铁 上班","wǒ zuò dìtiě qù shàngbān","wǒ zuò dìtiě shàngbān"],"hint":"坐 · 地铁 · 去 · 上班","x":["在"],"why":"How you go comes before the verb: 坐地铁去上班.","xr":["zài"]},
+      {"t":"type","p":"I'm going to the store to buy two bottles of water","a":["我 去 商店 买 两 瓶 水","我 要 去 商店 买 两 瓶 水","wǒ qù shāngdiàn mǎi liǎng píng shuǐ","wǒ yào qù shāngdiàn mǎi liǎng píng shuǐ"],"hint":"商店 (store) · 买 · 两 · 瓶 · 水","x":["个","二"],"why":"Water in a bottle takes the measure word 瓶, and two before it is 两.","xr":["ge","èr"]}
     ],
     "a-not-a": [
       {"t":"mc","q":"Are you busy? =","o":["你忙不忙？","你很忙不忙？","你忙不忙吗？","你忙吗不忙？"],"why":"No 很 and no 吗: just 忙不忙."},
@@ -1091,12 +1091,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"Are you coming tomorrow? (begin with 你)","a":["你","明天","来","不","来"],"x":["吗"],"why":"Time goes before the verb, even in a question: 你明天来不来？"},
       {"t":"order","p":"Is this book expensive?","a":["这","本","书","贵","不","贵"],"x":["个"],"why":"Books take the measure word 本: 这本书贵不贵？"},
       {"t":"order","p":"Do you have an older brother?","a":["你","有","没有","哥哥"],"x":["吗"],"why":"有 takes 没, so the question is 有没有, with no 吗."},
-      {"t":"fill","q":"你去__去？","p":"Are you going?","a":["不","bù"],"o":["是","吗","很"],"why":"Verb + 不 + verb makes the question: 去不去."},
-      {"t":"fill","q":"你有__有中文书？","p":"Do you have a Chinese book?","a":["没","méi"],"o":["是","吗","很"],"why":"有 is negated only with 没: 有没有."},
-      {"t":"fill","q":"你喜欢不__茶？","p":"Do you like tea?","a":["喜欢","xǐhuan"],"o":["有","是","吗"],"why":"Say the whole verb again after 不: 喜欢不喜欢."},
-      {"t":"type","p":"Are you coming tomorrow? (to a friend, use verb-not-verb)","a":["你 明天 来 不 来","明天 你 来 不 来","nǐ míngtiān lái bu lái","míngtiān nǐ lái bu lái"],"hint":"明天 · 来 · 不","x":["吗"],"why":"Time goes before the verb: 你明天来不来？"},
-      {"t":"type","p":"Do you want this cup of tea? (to a friend, use verb-not-verb)","a":["你 要 不 要 这 杯 茶","这 杯 茶 你 要 不 要","nǐ yào bu yào zhè bēi chá","zhè bēi chá nǐ yào bu yào"],"hint":"要 · 这 · 杯 · 茶","x":["本"],"why":"A cup of something takes the measure word 杯: 这杯茶."},
-      {"t":"type","p":"Is your older brother a teacher? (to a friend, use verb-not-verb)","a":["你 哥哥 是 不 是 老师","你 的 哥哥 是 不 是 老师","nǐ gēge shì bu shì lǎoshī","nǐ de gēge shì bu shì lǎoshī"],"hint":"哥哥 · 是 · 不 · 老师","x":["吗"],"why":"是不是 already asks the question, so there is no 吗."}
+      {"t":"fill","q":"你去__去？","p":"Are you going?","a":["不","bù"],"o":["是","吗","很"],"why":"Verb + 不 + verb makes the question: 去不去.","xr":["shì","ma","hěn"]},
+      {"t":"fill","q":"你有__有中文书？","p":"Do you have a Chinese book?","a":["没","méi"],"o":["是","吗","很"],"why":"有 is negated only with 没: 有没有.","xr":["shì","ma","hěn"]},
+      {"t":"fill","q":"你喜欢不__茶？","p":"Do you like tea?","a":["喜欢","xǐhuan"],"o":["有","是","吗"],"why":"Say the whole verb again after 不: 喜欢不喜欢.","xr":["yǒu","shì","ma"]},
+      {"t":"type","p":"Are you coming tomorrow? (to a friend, use verb-not-verb)","a":["你 明天 来 不 来","明天 你 来 不 来","nǐ míngtiān lái bu lái","míngtiān nǐ lái bu lái"],"hint":"明天 · 来 · 不","x":["吗"],"why":"Time goes before the verb: 你明天来不来？","xr":["ma"]},
+      {"t":"type","p":"Do you want this cup of tea? (to a friend, use verb-not-verb)","a":["你 要 不 要 这 杯 茶","这 杯 茶 你 要 不 要","nǐ yào bu yào zhè bēi chá","zhè bēi chá nǐ yào bu yào"],"hint":"要 · 这 · 杯 · 茶","x":["本"],"why":"A cup of something takes the measure word 杯: 这杯茶.","xr":["běn"]},
+      {"t":"type","p":"Is your older brother a teacher? (to a friend, use verb-not-verb)","a":["你 哥哥 是 不 是 老师","你 的 哥哥 是 不 是 老师","nǐ gēge shì bu shì lǎoshī","nǐ de gēge shì bu shì lǎoshī"],"hint":"哥哥 · 是 · 不 · 老师","x":["吗"],"why":"是不是 already asks the question, so there is no 吗.","xr":["ma"]}
     ],
     "ye-dou": [
       {"t":"mc","q":"I'm a student too =","o":["我也是学生。","我是学生也。","也我是学生。","我是也学生。"],"why":"也 goes after the subject and before the verb."},
@@ -1107,12 +1107,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"My dad is a teacher too","a":["我","爸爸","也","是","老师"],"x":["很"],"why":"也 goes before the verb, never at the end like English too."},
       {"t":"order","p":"We all like to drink tea","a":["我们","都","喜欢","喝","茶"],"x":["吗"],"why":"都 goes after 我们 and before the verb: 我们都喜欢喝茶."},
       {"t":"order","p":"They're all at home","a":["他们","都","在","家"],"x":["去"],"why":"都 goes before the verb 在: 他们都在家."},
-      {"t":"fill","q":"她__是美国人。","p":"She's American too.","a":["也","yě"],"o":["都","很","太"],"why":"也 (also) goes before 是: 她也是美国人."},
-      {"t":"fill","q":"我们__是学生。","p":"We're all students.","a":["都","dōu"],"o":["的","很","太"],"why":"都 (all) looks back at 我们: 我们都是学生."},
-      {"t":"fill","q":"我__没吃饭。","p":"I haven't eaten yet.","a":["还","hái"],"o":["太","都","很"],"why":"还没 means not yet."},
-      {"t":"type","p":"I'm American too","a":["我 也 是 美国人","wǒ yě shì Měiguórén"],"hint":"也 · 是 · 美国人","x":["很"],"why":"也 goes before the verb, not at the end like English too."},
-      {"t":"type","p":"We both have a cat","a":["我们 都 有 一 只 猫","我们 两 个 都 有 一 只 猫","我们 都 有 猫","wǒmen dōu yǒu yì zhī māo","wǒmen liǎng ge dōu yǒu yì zhī māo","wǒmen dōu yǒu māo"],"hint":"都 · 有 · 一 · 只 · 猫","x":["个"],"why":"都 goes before the verb, and cats take the measure word 只."},
-      {"t":"type","p":"My mom and dad are both busy","a":["我 爸爸 妈妈 都 很 忙","爸爸 妈妈 都 很 忙","我 妈妈 爸爸 都 很 忙","妈妈 爸爸 都 很 忙","我 爸爸 和 妈妈 都 很 忙","爸爸 和 妈妈 都 很 忙","我 妈妈 和 爸爸 都 很 忙","妈妈 和 爸爸 都 很 忙","wǒ bàba māma dōu hěn máng","bàba māma dōu hěn máng","wǒ māma bàba dōu hěn máng","māma bàba dōu hěn máng","wǒ bàba hé māma dōu hěn máng","bàba hé māma dōu hěn máng","wǒ māma hé bàba dōu hěn máng","māma hé bàba dōu hěn máng"],"hint":"爸爸 · 妈妈 · 都 · 很 · 忙","x":["是"],"why":"都 goes before the verb or adjective, and adjectives take 很, not 是."}
+      {"t":"fill","q":"她__是美国人。","p":"She's American too.","a":["也","yě"],"o":["都","很","太"],"why":"也 (also) goes before 是: 她也是美国人.","xr":["dōu","hěn","tài"]},
+      {"t":"fill","q":"我们__是学生。","p":"We're all students.","a":["都","dōu"],"o":["的","很","太"],"why":"都 (all) looks back at 我们: 我们都是学生.","xr":["de","hěn","tài"]},
+      {"t":"fill","q":"我__没吃饭。","p":"I haven't eaten yet.","a":["还","hái"],"o":["太","都","很"],"why":"还没 means not yet.","xr":["tài","dōu","hěn"]},
+      {"t":"type","p":"I'm American too","a":["我 也 是 美国人","wǒ yě shì Měiguórén"],"hint":"也 · 是 · 美国人","x":["很"],"why":"也 goes before the verb, not at the end like English too.","xr":["hěn"]},
+      {"t":"type","p":"We both have a cat","a":["我们 都 有 一 只 猫","我们 两 个 都 有 一 只 猫","我们 都 有 猫","wǒmen dōu yǒu yì zhī māo","wǒmen liǎng ge dōu yǒu yì zhī māo","wǒmen dōu yǒu māo"],"hint":"都 · 有 · 一 · 只 · 猫","x":["个"],"why":"都 goes before the verb, and cats take the measure word 只.","xr":["ge"]},
+      {"t":"type","p":"My mom and dad are both busy","a":["我 爸爸 妈妈 都 很 忙","爸爸 妈妈 都 很 忙","我 妈妈 爸爸 都 很 忙","妈妈 爸爸 都 很 忙","我 爸爸 和 妈妈 都 很 忙","爸爸 和 妈妈 都 很 忙","我 妈妈 和 爸爸 都 很 忙","妈妈 和 爸爸 都 很 忙","wǒ bàba māma dōu hěn máng","bàba māma dōu hěn máng","wǒ māma bàba dōu hěn máng","māma bàba dōu hěn máng","wǒ bàba hé māma dōu hěn máng","bàba hé māma dōu hěn máng","wǒ māma hé bàba dōu hěn máng","māma hé bàba dōu hěn máng"],"hint":"爸爸 · 妈妈 · 都 · 很 · 忙","x":["是"],"why":"都 goes before the verb or adjective, and adjectives take 很, not 是.","xr":["shì"]}
     ],
     "ba-bie": [
       {"t":"mc","q":"Let's go =","o":["我们走吧。","我们走吗？","吧我们走。","我们吧走。"],"why":"吧 at the end of a 我们 sentence means let's."},
@@ -1123,12 +1123,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"Let's eat at home (begin with 我们)","a":["我们","在","家","吃饭","吧"],"x":["吗"],"why":"Where it happens goes before the verb, and 吧 goes at the end."},
       {"t":"order","p":"Let's go to the hospital tomorrow (begin with 我们)","a":["我们","明天","去","医院","吧"],"x":["吗"],"why":"Time goes before the verb: 我们明天去医院吧."},
       {"t":"order","p":"Please don't worry","a":["请","别","担心"],"x":["不"],"why":"请 goes first, then 别 + verb for don't: 请别担心."},
-      {"t":"fill","q":"我们走__。","p":"Let's go.","a":["吧","ba"],"o":["吗","呢","是"],"why":"吧 at the end makes it a suggestion: let's."},
-      {"t":"fill","q":"__担心。","p":"Don't worry.","a":["别","不要","bié","bú yào"],"o":["不","没","很"],"why":"别 or 不要 + verb means don't."},
-      {"t":"fill","q":"__坐。","p":"Please have a seat.","a":["请","qǐng"],"o":["吧","吗","很"],"why":"请 goes before the verb: 请坐."},
-      {"t":"type","p":"Let's go to the supermarket tomorrow","a":["我们 明天 去 超市 吧","明天 我们 去 超市 吧","wǒmen míngtiān qù chāoshì ba","míngtiān wǒmen qù chāoshì ba"],"hint":"明天 · 去 · 超市 · 吧","x":["了"],"why":"Time goes before the verb, and 吧 at the end makes it let's."},
-      {"t":"type","p":"Let's buy two bottles of water","a":["我们 买 两 瓶 水 吧","wǒmen mǎi liǎng píng shuǐ ba"],"hint":"买 · 两 · 瓶 · 水 · 吧","x":["个","二"],"why":"Water in a bottle takes the measure word 瓶, and two before it is 两."},
-      {"t":"type","p":"Don't drink coffee (to a friend)","a":["别 喝 咖啡","不要 喝 咖啡","你 别 喝 咖啡","你 不要 喝 咖啡","bié hē kāfēi","bú yào hē kāfēi","nǐ bié hē kāfēi","nǐ bú yào hē kāfēi"],"hint":"别 · 喝 · 咖啡","x":["没"],"why":"别 or 不要 + verb means don't; 没 is for what didn't happen."}
+      {"t":"fill","q":"我们走__。","p":"Let's go.","a":["吧","ba"],"o":["吗","呢","是"],"why":"吧 at the end makes it a suggestion: let's.","xr":["ma","ne","shì"]},
+      {"t":"fill","q":"__担心。","p":"Don't worry.","a":["别","不要","bié","bú yào"],"o":["不","没","很"],"why":"别 or 不要 + verb means don't.","xr":["bù","méi","hěn"]},
+      {"t":"fill","q":"__坐。","p":"Please have a seat.","a":["请","qǐng"],"o":["吧","吗","很"],"why":"请 goes before the verb: 请坐.","xr":["ba","ma","hěn"]},
+      {"t":"type","p":"Let's go to the supermarket tomorrow","a":["我们 明天 去 超市 吧","明天 我们 去 超市 吧","wǒmen míngtiān qù chāoshì ba","míngtiān wǒmen qù chāoshì ba"],"hint":"明天 · 去 · 超市 · 吧","x":["了"],"why":"Time goes before the verb, and 吧 at the end makes it let's.","xr":["le"]},
+      {"t":"type","p":"Let's buy two bottles of water","a":["我们 买 两 瓶 水 吧","wǒmen mǎi liǎng píng shuǐ ba"],"hint":"买 · 两 · 瓶 · 水 · 吧","x":["个","二"],"why":"Water in a bottle takes the measure word 瓶, and two before it is 两.","xr":["ge","èr"]},
+      {"t":"type","p":"Don't drink coffee (to a friend)","a":["别 喝 咖啡","不要 喝 咖啡","你 别 喝 咖啡","你 不要 喝 咖啡","bié hē kāfēi","bú yào hē kāfēi","nǐ bié hē kāfēi","nǐ bú yào hē kāfēi"],"hint":"别 · 喝 · 咖啡","x":["没"],"why":"别 or 不要 + verb means don't; 没 is for what didn't happen.","xr":["méi"]}
     ],
     "and-or": [
       {"t":"mc","q":"tea and coffee =","o":["茶和咖啡","茶还是咖啡","茶或者咖啡","和茶咖啡"],"why":"和 joins two nouns: 茶和咖啡."},
@@ -1139,12 +1139,12 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"order","p":"Wang Ming and I are going together (begin with 我)","a":["我","和","王明","一起","去"],"x":["吗"],"why":"一起 goes before the verb: 我和王明一起去."},
       {"t":"order","p":"I'll go on Saturday or Sunday (begin with 我)","a":["我","星期六","或者星期天","去"],"x":["还是星期天"],"why":"Time goes before the verb, and in a statement or is 或者."},
       {"t":"order","p":"Do you want this one or that one?","a":["你","要","这个","还是那个"],"x":["和那个"],"why":"In a question that asks someone to choose, or is 还是; 和 is and."},
-      {"t":"fill","q":"你要茶__咖啡？","p":"Would you like tea or coffee?","a":["还是","háishi"],"o":["是","和","也"],"why":"In a question, or is 还是."},
-      {"t":"fill","q":"我__我妈妈一起去。","p":"My mom and I are going together.","a":["和","跟","hé","gēn"],"o":["还是","或者","也"],"why":"和 joins two people: 我和我妈妈."},
-      {"t":"fill","q":"我星期六__星期天去。","p":"I'll go on Saturday or Sunday.","a":["或者","huòzhě"],"o":["还是","和","也"],"why":"In a statement, or is 或者."},
-      {"t":"type","p":"My mom and I are going to the supermarket together","a":["我 和 我 妈妈 一起 去 超市","我 和 妈妈 一起 去 超市","我 跟 我 妈妈 一起 去 超市","我 跟 妈妈 一起 去 超市","我 妈妈 和 我 一起 去 超市","妈妈 和 我 一起 去 超市","wǒ hé wǒ māma yìqǐ qù chāoshì","wǒ hé māma yìqǐ qù chāoshì","wǒ gēn wǒ māma yìqǐ qù chāoshì","wǒ gēn māma yìqǐ qù chāoshì","wǒ māma hé wǒ yìqǐ qù chāoshì","māma hé wǒ yìqǐ qù chāoshì"],"hint":"和 · 妈妈 · 一起 · 去 · 超市","x":["还是"],"why":"一起 goes before the verb: 一起去超市."},
-      {"t":"type","p":"Would you like tea or coffee? (to a customer)","a":["您 要 茶 还是 咖啡","您 想 要 茶 还是 咖啡","您 喝 茶 还是 咖啡","您 要 喝 茶 还是 咖啡","您 想 喝 茶 还是 咖啡","nín yào chá háishi kāfēi","nín xiǎng yào chá háishi kāfēi","nín hē chá háishi kāfēi","nín yào hē chá háishi kāfēi","nín xiǎng hē chá háishi kāfēi"],"hint":"您 · 要 · 茶 · 还是 · 咖啡","x":["和"],"why":"In a question, or is 还是."},
-      {"t":"type","p":"I'd like a bowl of noodles and a cup of tea (use 要)","a":["我 要 一 碗 面条 和 一 杯 茶","wǒ yào yì wǎn miàntiáo hé yì bēi chá"],"hint":"要 · 碗 · 面条 · 和 · 杯 · 茶","x":["个"],"why":"Noodles in a bowl take the measure word 碗, and tea in a cup takes 杯."}
+      {"t":"fill","q":"你要茶__咖啡？","p":"Would you like tea or coffee?","a":["还是","háishi"],"o":["是","和","也"],"why":"In a question, or is 还是.","xr":["shì","hé","yě"]},
+      {"t":"fill","q":"我__我妈妈一起去。","p":"My mom and I are going together.","a":["和","跟","hé","gēn"],"o":["还是","或者","也"],"why":"和 joins two people: 我和我妈妈.","xr":["háishi","huòzhě","yě"]},
+      {"t":"fill","q":"我星期六__星期天去。","p":"I'll go on Saturday or Sunday.","a":["或者","huòzhě"],"o":["还是","和","也"],"why":"In a statement, or is 或者.","xr":["háishi","hé","yě"]},
+      {"t":"type","p":"My mom and I are going to the supermarket together","a":["我 和 我 妈妈 一起 去 超市","我 和 妈妈 一起 去 超市","我 跟 我 妈妈 一起 去 超市","我 跟 妈妈 一起 去 超市","我 妈妈 和 我 一起 去 超市","妈妈 和 我 一起 去 超市","wǒ hé wǒ māma yìqǐ qù chāoshì","wǒ hé māma yìqǐ qù chāoshì","wǒ gēn wǒ māma yìqǐ qù chāoshì","wǒ gēn māma yìqǐ qù chāoshì","wǒ māma hé wǒ yìqǐ qù chāoshì","māma hé wǒ yìqǐ qù chāoshì"],"hint":"和 · 妈妈 · 一起 · 去 · 超市","x":["还是"],"why":"一起 goes before the verb: 一起去超市.","xr":["háishi"]},
+      {"t":"type","p":"Would you like tea or coffee? (to a customer)","a":["您 要 茶 还是 咖啡","您 想 要 茶 还是 咖啡","您 喝 茶 还是 咖啡","您 要 喝 茶 还是 咖啡","您 想 喝 茶 还是 咖啡","nín yào chá háishi kāfēi","nín xiǎng yào chá háishi kāfēi","nín hē chá háishi kāfēi","nín yào hē chá háishi kāfēi","nín xiǎng hē chá háishi kāfēi"],"hint":"您 · 要 · 茶 · 还是 · 咖啡","x":["和"],"why":"In a question, or is 还是.","xr":["hé"]},
+      {"t":"type","p":"I'd like a bowl of noodles and a cup of tea (use 要)","a":["我 要 一 碗 面条 和 一 杯 茶","wǒ yào yì wǎn miàntiáo hé yì bēi chá"],"hint":"要 · 碗 · 面条 · 和 · 杯 · 茶","x":["个"],"why":"Noodles in a bowl take the measure word 碗, and tea in a cup takes 杯.","xr":["ge"]}
     ]
   },
   PATTERNS: [

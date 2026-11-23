@@ -654,12 +654,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"a big car","a":["سَيَّارَة","كَبِيرَة"],"x":["كَبِير"],"why":"سَيَّارَة ends in ة, so it is feminine and the adjective agrees: كَبِيرَة."},
       {"t":"order","p":"a big house","a":["بَيْت","كَبِير"],"x":["كَبِيرَة"],"why":"بَيْت is masculine, so the adjective is masculine too: no ة."},
       {"t":"order","p":"a big school","a":["مَدْرَسَة","كَبِيرَة"],"x":["كَبِير"],"why":"مَدْرَسَة is feminine (ة), so the adjective after it agrees: كَبِيرَة."},
-      {"t":"fill","q":"هٰذِهِ __","p":"This is a car.","a":["سَيَّارَة","sayyāra"],"o":["كِتَاب","بَيْت","بَاب"],"why":"هٰذِهِ is the feminine 'this', and سَيَّارَة is the word that means car."},
-      {"t":"fill","q":"هٰذَا __","p":"This is a book.","a":["كِتَاب","kitāb"],"o":["سَيَّارَة","مَدْرَسَة","طَالِبَة"],"why":"هٰذَا is the masculine 'this'; words ending in ة need هٰذِهِ."},
-      {"t":"fill","q":"مَدْرَسَة __","p":"a big school","a":["كَبِيرَة","kabīra"],"o":["كَبِير","بَيْت","بِنْت"],"why":"مَدْرَسَة ends in ة, so 'big' takes ة too: كَبِيرَة."},
-      {"t":"type","p":"This is a book.","a":["هٰذَا كِتَاب","hādhā kitāb"],"hint":"هٰذَا · كِتَاب · 'this' comes first","x":["هٰذِهِ"],"why":"كِتَاب is masculine: هٰذَا, not the feminine هٰذِهِ."},
-      {"t":"type","p":"This is a car.","a":["هٰذِهِ سَيَّارَة","hādhihi sayyāra"],"hint":"هٰذِهِ · سَيَّارَة · 'this' comes first","x":["هٰذَا"],"why":"سَيَّارَة is feminine (taa marbuta): هٰذِهِ."},
-      {"t":"type","p":"a big house","a":["بَيْت كَبِير","bayt kabīr"],"hint":"بَيْت · كَبِير · the describing word comes second","x":["كَبِيرَة"],"why":"بَيْت has no ة: it is masculine, so كَبِير agrees without ة."}
+      {"t":"fill","q":"هٰذِهِ __","p":"This is a car.","a":["سَيَّارَة","sayyāra"],"o":["كِتَاب","بَيْت","بَاب"],"why":"هٰذِهِ is the feminine 'this', and سَيَّارَة is the word that means car.","xr":["kitāb","bayt","bāb"]},
+      {"t":"fill","q":"هٰذَا __","p":"This is a book.","a":["كِتَاب","kitāb"],"o":["سَيَّارَة","مَدْرَسَة","طَالِبَة"],"why":"هٰذَا is the masculine 'this'; words ending in ة need هٰذِهِ.","xr":["sayyāra","madrasa","ṭāliba"]},
+      {"t":"fill","q":"مَدْرَسَة __","p":"a big school","a":["كَبِيرَة","kabīra"],"o":["كَبِير","بَيْت","بِنْت"],"why":"مَدْرَسَة ends in ة, so 'big' takes ة too: كَبِيرَة.","xr":["kabīr","bayt","bint"]},
+      {"t":"type","p":"This is a book.","a":["هٰذَا كِتَاب","hādhā kitāb"],"hint":"هٰذَا · كِتَاب · 'this' comes first","x":["هٰذِهِ"],"why":"كِتَاب is masculine: هٰذَا, not the feminine هٰذِهِ.","xr":["hādhihi"]},
+      {"t":"type","p":"This is a car.","a":["هٰذِهِ سَيَّارَة","hādhihi sayyāra"],"hint":"هٰذِهِ · سَيَّارَة · 'this' comes first","x":["هٰذَا"],"why":"سَيَّارَة is feminine (taa marbuta): هٰذِهِ.","xr":["hādhā"]},
+      {"t":"type","p":"a big house","a":["بَيْت كَبِير","bayt kabīr"],"hint":"بَيْت · كَبِير · the describing word comes second","x":["كَبِيرَة"],"why":"بَيْت has no ة: it is masculine, so كَبِير agrees without ة.","xr":["kabīra"]}
     ],
     "sounds": [
       {"t":"mc","q":"Which word means 'heart'?","o":["قَلْب","كَلْب","قَلَم","كِتَاب"],"why":"قَلْب starts with the deep ق; كَلْب, with plain ك, is 'dog'."},
@@ -670,12 +670,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"a small car","a":["سَيَّارَة","صَغِيرَة"],"x":["صَغِير"],"why":"Feminine noun, feminine adjective: صَغِيرَة agrees with سَيَّارَة."},
       {"t":"order","p":"She is a student.","a":["هِيَ","طَالِبَة"],"x":["طَالِب","هُوَ"],"why":"A woman: the feminine طَالِبَة agrees with هِيَ."},
       {"t":"order","p":"a small pen","a":["قَلَم","صَغِير"],"x":["صَغِيرَة"],"why":"قَلَم has no ة: it is masculine, so صَغِير agrees without ة."},
-      {"t":"fill","q":"هٰذَا __","p":"This is a pen.","a":["قَلَم","qalam"],"o":["كَلْب","قَلْب","سَيْف"],"why":"قَلَم 'pen' starts with the deep q; كَلْب is 'dog' and قَلْب is 'heart'."},
-      {"t":"fill","q":"هٰذِهِ __","p":"This is a student (a woman).","a":["طَالِبَة","ṭāliba"],"o":["طَالِب","كَلْب","قَلَم"],"why":"هٰذِهِ is feminine, so the student is طَالِبَة, with ة."},
-      {"t":"fill","q":"كِتَاب __","p":"a small book","a":["صَغِير","ṣaghīr"],"o":["صَغِيرَة","سَيْف","صَيْف"],"why":"كِتَاب is masculine, so صَغِير has no ة; it starts with the heavy ص."},
-      {"t":"type","p":"She is a student.","a":["هِيَ طَالِبَة","hiya ṭāliba"],"hint":"هِيَ · طَالِبَة","x":["طَالِب"],"why":"A woman: the feminine طَالِبَة agrees with هِيَ."},
-      {"t":"type","p":"a small car","a":["سَيَّارَة صَغِيرَة","sayyāra ṣaghīra"],"hint":"سَيَّارَة · صَغِير · the describing word comes second","x":["صَغِير"],"why":"سَيَّارَة is feminine, so the adjective agrees: صَغِيرَة."},
-      {"t":"type","p":"This is a pen.","a":["هٰذَا قَلَم","hādhā qalam"],"hint":"هٰذَا · قَلَم · a deep q, not k","x":["هٰذِهِ"],"why":"قَلَم is masculine: هٰذَا agrees, not the feminine هٰذِهِ."}
+      {"t":"fill","q":"هٰذَا __","p":"This is a pen.","a":["قَلَم","qalam"],"o":["كَلْب","قَلْب","سَيْف"],"why":"قَلَم 'pen' starts with the deep q; كَلْب is 'dog' and قَلْب is 'heart'.","xr":["kalb","qalb","sayf"]},
+      {"t":"fill","q":"هٰذِهِ __","p":"This is a student (a woman).","a":["طَالِبَة","ṭāliba"],"o":["طَالِب","كَلْب","قَلَم"],"why":"هٰذِهِ is feminine, so the student is طَالِبَة, with ة.","xr":["ṭālib","kalb","qalam"]},
+      {"t":"fill","q":"كِتَاب __","p":"a small book","a":["صَغِير","ṣaghīr"],"o":["صَغِيرَة","سَيْف","صَيْف"],"why":"كِتَاب is masculine, so صَغِير has no ة; it starts with the heavy ص.","xr":["ṣaghīra","sayf","ṣayf"]},
+      {"t":"type","p":"She is a student.","a":["هِيَ طَالِبَة","hiya ṭāliba"],"hint":"هِيَ · طَالِبَة","x":["طَالِب"],"why":"A woman: the feminine طَالِبَة agrees with هِيَ.","xr":["ṭālib"]},
+      {"t":"type","p":"a small car","a":["سَيَّارَة صَغِيرَة","sayyāra ṣaghīra"],"hint":"سَيَّارَة · صَغِير · the describing word comes second","x":["صَغِير"],"why":"سَيَّارَة is feminine, so the adjective agrees: صَغِيرَة.","xr":["ṣaghīr"]},
+      {"t":"type","p":"This is a pen.","a":["هٰذَا قَلَم","hādhā qalam"],"hint":"هٰذَا · قَلَم · a deep q, not k","x":["هٰذِهِ"],"why":"قَلَم is masculine: هٰذَا agrees, not the feminine هٰذِهِ.","xr":["hādhihi"]}
     ],
     "vowels": [
       {"t":"mc","q":"Which word has a long ā?","o":["بَاب","بِنْت","قَلَم","وَلَد"],"why":"Fatha followed by ا is the long ā: بَاب."},
@@ -686,12 +686,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"a beautiful girl","a":["بِنْت","جَمِيلَة"],"x":["جَمِيل"],"why":"A girl is feminine even without ة, so the adjective agrees: جَمِيلَة."},
       {"t":"order","p":"a new teacher (a man)","a":["مُدَرِّس","جَدِيد"],"x":["جَدِيدَة"],"why":"A man is masculine, so جَدِيد agrees with مُدَرِّس without ة."},
       {"t":"order","p":"This is a big door.","a":["هٰذَا","بَاب","كَبِير"],"x":["هٰذِهِ","كَبِيرَة"],"why":"بَاب is masculine: هٰذَا and كَبِير agree with it."},
-      {"t":"fill","q":"وَلَد __","p":"a small boy","a":["صَغِير","ṣaghīr"],"o":["صَغِيرَة","جَمِيلَة","كَبِيرَة"],"why":"A boy is masculine, so 'small' has no ة: صَغِير."},
-      {"t":"fill","q":"هٰذِهِ __","p":"This is a school.","a":["مَدْرَسَة","madrasa"],"o":["كِتَاب","بَاب","قَلَم"],"why":"هٰذِهِ is feminine, so it goes with the ة word مَدْرَسَة."},
-      {"t":"fill","q":"__ طَالِبَة","p":"She is a student.","a":["هِيَ","hiya"],"o":["هُوَ","هٰذَا","وَلَد"],"why":"هِيَ is 'she'; its final vowel is part of the word, so it is written."},
-      {"t":"type","p":"a beautiful girl","a":["بِنْت جَمِيلَة","bint jamīla"],"hint":"بِنْت · جَمِيل · the describing word comes second","x":["جَمِيل"],"why":"بِنْت is feminine, so the adjective agrees: جَمِيلَة."},
-      {"t":"type","p":"This is a door.","a":["هٰذَا بَاب","hādhā bāb"],"hint":"هٰذَا · بَاب","x":["هٰذِهِ"],"why":"بَاب is masculine: هٰذَا, not the feminine هٰذِهِ."},
-      {"t":"type","p":"a new book","a":["كِتَاب جَدِيد","kitāb jadīd"],"hint":"كِتَاب · جَدِيد · the describing word comes second","x":["جَدِيدَة"],"why":"كِتَاب is masculine, so جَدِيد agrees without ة."}
+      {"t":"fill","q":"وَلَد __","p":"a small boy","a":["صَغِير","ṣaghīr"],"o":["صَغِيرَة","جَمِيلَة","كَبِيرَة"],"why":"A boy is masculine, so 'small' has no ة: صَغِير.","xr":["ṣaghīra","jamīla","kabīra"]},
+      {"t":"fill","q":"هٰذِهِ __","p":"This is a school.","a":["مَدْرَسَة","madrasa"],"o":["كِتَاب","بَاب","قَلَم"],"why":"هٰذِهِ is feminine, so it goes with the ة word مَدْرَسَة.","xr":["kitāb","bāb","qalam"]},
+      {"t":"fill","q":"__ طَالِبَة","p":"She is a student.","a":["هِيَ","hiya"],"o":["هُوَ","هٰذَا","وَلَد"],"why":"هِيَ is 'she'; its final vowel is part of the word, so it is written.","xr":["huwa","hādhā","walad"]},
+      {"t":"type","p":"a beautiful girl","a":["بِنْت جَمِيلَة","bint jamīla"],"hint":"بِنْت · جَمِيل · the describing word comes second","x":["جَمِيل"],"why":"بِنْت is feminine, so the adjective agrees: جَمِيلَة.","xr":["jamīl"]},
+      {"t":"type","p":"This is a door.","a":["هٰذَا بَاب","hādhā bāb"],"hint":"هٰذَا · بَاب","x":["هٰذِهِ"],"why":"بَاب is masculine: هٰذَا, not the feminine هٰذِهِ.","xr":["hādhihi"]},
+      {"t":"type","p":"a new book","a":["كِتَاب جَدِيد","kitāb jadīd"],"hint":"كِتَاب · جَدِيد · the describing word comes second","x":["جَدِيدَة"],"why":"كِتَاب is masculine, so جَدِيد agrees without ة.","xr":["jadīda"]}
     ],
     "shapes": [
       {"t":"mc","q":"Which letter never joins to the letter after it?","o":["د","ب","س","ل"],"why":"د is a non-joining letter, like ا ذ ر ز و."},
@@ -702,12 +702,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"a big school","a":["مَدْرَسَة","كَبِيرَة"],"x":["كَبِير"],"why":"مَدْرَسَة is feminine (ة), so the adjective agrees: كَبِيرَة."},
       {"t":"order","p":"a beautiful car","a":["سَيَّارَة","جَمِيلَة"],"x":["جَمِيل"],"why":"سَيَّارَة is feminine, so جَمِيلَة agrees with it."},
       {"t":"order","p":"He is a new teacher.","a":["هُوَ","مُدَرِّس","جَدِيد"],"x":["جَدِيدَة","هِيَ"],"why":"A man: masculine هُوَ, and جَدِيد agrees with مُدَرِّس without ة."},
-      {"t":"fill","q":"هٰذَا وَلَد __","p":"This is a small boy.","a":["صَغِير","ṣaghīr"],"o":["صَغِيرَة","جَمِيلَة","لَا"],"why":"A boy is masculine, so 'small' has no ة: صَغِير."},
-      {"t":"fill","q":"هٰذِهِ بِنْت __","p":"This is a beautiful girl.","a":["جَمِيلَة","jamīla"],"o":["جَمِيل","كَبِير","صَغِير"],"why":"A girl is feminine, so 'beautiful' takes ة: جَمِيلَة."},
-      {"t":"fill","q":"__ مُدَرِّس","p":"He is a teacher.","a":["هُوَ","huwa"],"o":["هِيَ","هٰذِهِ","لَا"],"why":"هُوَ is 'he'; هِيَ and هٰذِهِ are feminine."},
-      {"t":"type","p":"a new school","a":["مَدْرَسَة جَدِيدَة","madrasa jadīda"],"hint":"مَدْرَسَة · جَدِيد · the describing word comes second","x":["جَدِيد"],"why":"مَدْرَسَة is feminine, so the adjective agrees: جَدِيدَة."},
-      {"t":"type","p":"He is a teacher.","a":["هُوَ مُدَرِّس","huwa mudarris"],"hint":"هُوَ · مُدَرِّس","x":["مُدَرِّسَة"],"why":"A man: the masculine مُدَرِّس agrees with هُوَ; مُدَرِّسَة is a woman."},
-      {"t":"type","p":"This is a big car.","a":["هٰذِهِ سَيَّارَة كَبِيرَة","hādhihi sayyāra kabīra"],"hint":"هٰذِهِ · سَيَّارَة · كَبِير","x":["كَبِير"],"why":"سَيَّارَة is feminine, so كَبِيرَة agrees with it."}
+      {"t":"fill","q":"هٰذَا وَلَد __","p":"This is a small boy.","a":["صَغِير","ṣaghīr"],"o":["صَغِيرَة","جَمِيلَة","لَا"],"why":"A boy is masculine, so 'small' has no ة: صَغِير.","xr":["ṣaghīra","jamīla","lā"]},
+      {"t":"fill","q":"هٰذِهِ بِنْت __","p":"This is a beautiful girl.","a":["جَمِيلَة","jamīla"],"o":["جَمِيل","كَبِير","صَغِير"],"why":"A girl is feminine, so 'beautiful' takes ة: جَمِيلَة.","xr":["jamīl","kabīr","ṣaghīr"]},
+      {"t":"fill","q":"__ مُدَرِّس","p":"He is a teacher.","a":["هُوَ","huwa"],"o":["هِيَ","هٰذِهِ","لَا"],"why":"هُوَ is 'he'; هِيَ and هٰذِهِ are feminine.","xr":["hiya","hādhihi","lā"]},
+      {"t":"type","p":"a new school","a":["مَدْرَسَة جَدِيدَة","madrasa jadīda"],"hint":"مَدْرَسَة · جَدِيد · the describing word comes second","x":["جَدِيد"],"why":"مَدْرَسَة is feminine, so the adjective agrees: جَدِيدَة.","xr":["jadīd"]},
+      {"t":"type","p":"He is a teacher.","a":["هُوَ مُدَرِّس","huwa mudarris"],"hint":"هُوَ · مُدَرِّس","x":["مُدَرِّسَة"],"why":"A man: the masculine مُدَرِّس agrees with هُوَ; مُدَرِّسَة is a woman.","xr":["mudarrisa"]},
+      {"t":"type","p":"This is a big car.","a":["هٰذِهِ سَيَّارَة كَبِيرَة","hādhihi sayyāra kabīra"],"hint":"هٰذِهِ · سَيَّارَة · كَبِير","x":["كَبِير"],"why":"سَيَّارَة is feminine, so كَبِيرَة agrees with it.","xr":["kabīr"]}
     ],
     "sukun-shadda": [
       {"t":"mc","q":"Which word has a shadda?","o":["سَيَّارَة","مَدْرَسَة","كِتَاب","بَيْت"],"why":"The w-shaped sign on ي in سَيَّارَة doubles it: the y is held."},
@@ -718,12 +718,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"a big office","a":["مَكْتَب","كَبِير"],"x":["كَبِيرَة"],"why":"مَكْتَب has no ة: masculine, so كَبِير agrees without ة."},
       {"t":"order","p":"a new car","a":["سَيَّارَة","جَدِيدَة"],"x":["جَدِيد"],"why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة."},
       {"t":"order","p":"This is a teacher (a woman).","a":["هٰذِهِ","مُدَرِّسَة"],"x":["هٰذَا"],"why":"A woman: the feminine هٰذِهِ agrees with مُدَرِّسَة."},
-      {"t":"fill","q":"هُوَ __","p":"He is a teacher.","a":["مُدَرِّس","mudarris"],"o":["مُدَرِّسَة","مَكْتَب","بَيْت"],"why":"هُوَ is a man, so the teacher is مُدَرِّس, without ة."},
-      {"t":"fill","q":"مُدَرِّسَة __","p":"a new teacher (a woman)","a":["جَدِيدَة","jadīda"],"o":["جَدِيد","كَبِير","صَغِير"],"why":"مُدَرِّسَة is feminine, so 'new' takes ة: جَدِيدَة."},
-      {"t":"fill","q":"هٰذَا __ جَمِيل","p":"This is a beautiful house.","a":["بَيْت","bayt"],"o":["بِنْت","سَيَّارَة","مَدْرَسَة"],"why":"هٰذَا and جَمِيل are masculine, like بَيْت with its gliding ay."},
-      {"t":"type","p":"a new office","a":["مَكْتَب جَدِيد","maktab jadīd"],"hint":"مَكْتَب · جَدِيد · the describing word comes second","x":["جَدِيدَة"],"why":"مَكْتَب is masculine, so جَدِيد agrees without ة."},
-      {"t":"type","p":"She is a teacher.","a":["هِيَ مُدَرِّسَة","hiya mudarrisa"],"hint":"هِيَ · مُدَرِّسَة","x":["مُدَرِّس"],"why":"A woman: the feminine مُدَرِّسَة agrees with هِيَ."},
-      {"t":"type","p":"a beautiful car","a":["سَيَّارَة جَمِيلَة","sayyāra jamīla"],"hint":"سَيَّارَة · جَمِيل · the describing word comes second","x":["جَمِيل"],"why":"سَيَّارَة is feminine, so جَمِيلَة agrees with it."}
+      {"t":"fill","q":"هُوَ __","p":"He is a teacher.","a":["مُدَرِّس","mudarris"],"o":["مُدَرِّسَة","مَكْتَب","بَيْت"],"why":"هُوَ is a man, so the teacher is مُدَرِّس, without ة.","xr":["mudarrisa","maktab","bayt"]},
+      {"t":"fill","q":"مُدَرِّسَة __","p":"a new teacher (a woman)","a":["جَدِيدَة","jadīda"],"o":["جَدِيد","كَبِير","صَغِير"],"why":"مُدَرِّسَة is feminine, so 'new' takes ة: جَدِيدَة.","xr":["jadīd","kabīr","ṣaghīr"]},
+      {"t":"fill","q":"هٰذَا __ جَمِيل","p":"This is a beautiful house.","a":["بَيْت","bayt"],"o":["بِنْت","سَيَّارَة","مَدْرَسَة"],"why":"هٰذَا and جَمِيل are masculine, like بَيْت with its gliding ay.","xr":["bint","sayyāra","madrasa"]},
+      {"t":"type","p":"a new office","a":["مَكْتَب جَدِيد","maktab jadīd"],"hint":"مَكْتَب · جَدِيد · the describing word comes second","x":["جَدِيدَة"],"why":"مَكْتَب is masculine, so جَدِيد agrees without ة.","xr":["jadīda"]},
+      {"t":"type","p":"She is a teacher.","a":["هِيَ مُدَرِّسَة","hiya mudarrisa"],"hint":"هِيَ · مُدَرِّسَة","x":["مُدَرِّس"],"why":"A woman: the feminine مُدَرِّسَة agrees with هِيَ.","xr":["mudarris"]},
+      {"t":"type","p":"a beautiful car","a":["سَيَّارَة جَمِيلَة","sayyāra jamīla"],"hint":"سَيَّارَة · جَمِيل · the describing word comes second","x":["جَمِيل"],"why":"سَيَّارَة is feminine, so جَمِيلَة agrees with it.","xr":["jamīl"]}
     ],
     "hamza": [
       {"t":"mc","q":"Which word ends in alif maqsura, said ā?","o":["عَلَى","عَلِيّ","هِيَ","كَبِيرَة"],"why":"ى without dots is ā; عَلِيّ, the name Ali, ends in ي with dots, said ī."},
@@ -734,12 +734,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"a new question","a":["سُؤَال","جَدِيد"],"x":["جَدِيدَة"],"why":"سُؤَال has no ة: it is masculine, so جَدِيد agrees without ة."},
       {"t":"order","p":"a very big house","a":["بَيْت","كَبِير","جِدًّا"],"x":["كَبِيرَة"],"why":"بَيْت is masculine, so كَبِير agrees; جِدًّا comes after it."},
       {"t":"order","p":"a very beautiful car","a":["سَيَّارَة","جَمِيلَة","جِدًّا"],"x":["جَمِيل"],"why":"سَيَّارَة is feminine, so جَمِيلَة agrees; جِدًّا comes last."},
-      {"t":"fill","q":"هٰذَا سُؤَال __","p":"This is a new question.","a":["جَدِيد","jadīd"],"o":["جَدِيدَة","كَبِيرَة","جِدًّا"],"why":"سُؤَال is masculine, so 'new' has no ة: جَدِيد."},
-      {"t":"fill","q":"هِيَ __","p":"She is a student.","a":["طَالِبَة","ṭāliba"],"o":["طَالِبَه","طَالِب","كِتَاب"],"why":"The feminine ending is ة, with two dots: طَالِبَة, never طَالِبَه.","strict":true},
-      {"t":"fill","q":"__ سُؤَال","p":"This is a question.","a":["هٰذَا","hādhā"],"o":["هٰذِهِ","هِيَ","أَنَا"],"why":"سُؤَال is masculine, so 'this' is هٰذَا."},
-      {"t":"type","p":"I'm a student. (a woman speaking)","a":["أَنَا طَالِبَة","anā ṭāliba"],"hint":"أَنَا · طَالِبَة · spell the hamza and the ة","x":["طَالِب"],"why":"A woman speaking: the feminine طَالِبَة agrees with her; أَنَا starts with أ.","strict":true},
-      {"t":"type","p":"This is a hospital.","a":["هٰذَا مُسْتَشْفَى","hādhā mustashfā"],"hint":"هٰذَا · مُسْتَشْفَى","x":["هٰذِهِ"],"why":"مُسْتَشْفَى ends in ى, not ة: it is masculine, so هٰذَا agrees."},
-      {"t":"type","p":"a new school","a":["مَدْرَسَة جَدِيدَة","madrasa jadīda"],"hint":"مَدْرَسَة · جَدِيد · the describing word comes second","x":["جَدِيد"],"why":"مَدْرَسَة is feminine (taa marbuta), so جَدِيدَة agrees."}
+      {"t":"fill","q":"هٰذَا سُؤَال __","p":"This is a new question.","a":["جَدِيد","jadīd"],"o":["جَدِيدَة","كَبِيرَة","جِدًّا"],"why":"سُؤَال is masculine, so 'new' has no ة: جَدِيد.","xr":["jadīda","kabīra","jiddan"]},
+      {"t":"fill","q":"هِيَ __","p":"She is a student.","a":["طَالِبَة","ṭāliba"],"o":["طَالِبَه","طَالِب","كِتَاب"],"why":"The feminine ending is ة, with two dots: طَالِبَة, never طَالِبَه.","strict":true,"xr":["ṭālibah","ṭālib","kitāb"]},
+      {"t":"fill","q":"__ سُؤَال","p":"This is a question.","a":["هٰذَا","hādhā"],"o":["هٰذِهِ","هِيَ","أَنَا"],"why":"سُؤَال is masculine, so 'this' is هٰذَا.","xr":["hādhihi","hiya","anā"]},
+      {"t":"type","p":"I'm a student. (a woman speaking)","a":["أَنَا طَالِبَة","anā ṭāliba"],"hint":"أَنَا · طَالِبَة · spell the hamza and the ة","x":["طَالِب"],"why":"A woman speaking: the feminine طَالِبَة agrees with her; أَنَا starts with أ.","strict":true,"xr":["ṭālib"]},
+      {"t":"type","p":"This is a hospital.","a":["هٰذَا مُسْتَشْفَى","hādhā mustashfā"],"hint":"هٰذَا · مُسْتَشْفَى","x":["هٰذِهِ"],"why":"مُسْتَشْفَى ends in ى, not ة: it is masculine, so هٰذَا agrees.","xr":["hādhihi"]},
+      {"t":"type","p":"a new school","a":["مَدْرَسَة جَدِيدَة","madrasa jadīda"],"hint":"مَدْرَسَة · جَدِيد · the describing word comes second","x":["جَدِيد"],"why":"مَدْرَسَة is feminine (taa marbuta), so جَدِيدَة agrees.","xr":["jadīd"]}
     ],
     "al": [
       {"t":"mc","q":"In which word is the l of ال not said?","o":["السَّيَّارَة","الْبَيْت","الْكِتَاب","الْقَمَر"],"why":"س is a sun letter: it swallows the l and takes a shadda."},
@@ -750,12 +750,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"the big house","a":["الْبَيْت","الْكَبِير"],"x":["كَبِير"],"why":"Both words take the article: الْبَيْت الْكَبِير."},
       {"t":"order","p":"The house is big.","a":["الْبَيْت","كَبِير"],"x":["هُوَ","الْكَبِير"],"why":"No \"is\" in Arabic: the two words side by side, with no article on كَبِير."},
       {"t":"order","p":"the new car","a":["السَّيَّارَة","الْجَدِيدَة"],"x":["جَدِيدَة","الْجَدِيد"],"why":"Both words take the article, and الْجَدِيدَة is feminine to agree with السَّيَّارَة."},
-      {"t":"fill","q":"الْبَيْت __","p":"the big house","a":["الْكَبِير","al-kabīr"],"o":["كَبِير","الْكَبِيرَة","كَبِيرَة"],"why":"'the big house': the describing word takes the article too, الْكَبِير."},
-      {"t":"fill","q":"الْبَيْت __","p":"The house is big.","a":["كَبِير","kabīr"],"o":["الْكَبِير","كَبِيرَة","الْكَبِيرَة"],"why":"A sentence: no article on the describing word, كَبِير."},
-      {"t":"fill","q":"__ الْجَدِيدَة","p":"the new school","a":["الْمَدْرَسَة","al-madrasa"],"o":["مَدْرَسَة","الْكِتَاب","الْبَيْت"],"why":"The noun needs the article too, and it must be feminine like الْجَدِيدَة."},
-      {"t":"type","p":"The house is big.","a":["الْبَيْت كَبِير","al-bayt kabīr"],"hint":"بَيْت · كَبِير · no word for 'is'","x":["الْكَبِير"],"why":"No article on كَبِير: with the article it would mean 'the big house'."},
-      {"t":"type","p":"the new car","a":["السَّيَّارَة الْجَدِيدَة","as-sayyāra al-jadīda"],"hint":"سَيَّارَة · جَدِيدَة · 'the' on both words","x":["جَدِيدَة"],"why":"Both words take the article; the sun letter س swallows the ل."},
-      {"t":"type","p":"The girl is beautiful.","a":["الْبِنْت جَمِيلَة","al-bint jamīla"],"hint":"بِنْت · جَمِيل · no word for 'is'","x":["الْجَمِيلَة","جَمِيل"],"why":"No article on the describing word, and جَمِيلَة is feminine to agree with الْبِنْت."}
+      {"t":"fill","q":"الْبَيْت __","p":"the big house","a":["الْكَبِير","al-kabīr"],"o":["كَبِير","الْكَبِيرَة","كَبِيرَة"],"why":"'the big house': the describing word takes the article too, الْكَبِير.","xr":["kabīr","al-kabīra","kabīra"]},
+      {"t":"fill","q":"الْبَيْت __","p":"The house is big.","a":["كَبِير","kabīr"],"o":["الْكَبِير","كَبِيرَة","الْكَبِيرَة"],"why":"A sentence: no article on the describing word, كَبِير.","xr":["al-kabīr","kabīra","al-kabīra"]},
+      {"t":"fill","q":"__ الْجَدِيدَة","p":"the new school","a":["الْمَدْرَسَة","al-madrasa"],"o":["مَدْرَسَة","الْكِتَاب","الْبَيْت"],"why":"The noun needs the article too, and it must be feminine like الْجَدِيدَة.","xr":["madrasa","al-kitāb","al-bayt"]},
+      {"t":"type","p":"The house is big.","a":["الْبَيْت كَبِير","al-bayt kabīr"],"hint":"بَيْت · كَبِير · no word for 'is'","x":["الْكَبِير"],"why":"No article on كَبِير: with the article it would mean 'the big house'.","xr":["al-kabīr"]},
+      {"t":"type","p":"the new car","a":["السَّيَّارَة الْجَدِيدَة","as-sayyāra al-jadīda"],"hint":"سَيَّارَة · جَدِيدَة · 'the' on both words","x":["جَدِيدَة"],"why":"Both words take the article; the sun letter س swallows the ل.","xr":["jadīda"]},
+      {"t":"type","p":"The girl is beautiful.","a":["الْبِنْت جَمِيلَة","al-bint jamīla"],"hint":"بِنْت · جَمِيل · no word for 'is'","x":["الْجَمِيلَة","جَمِيل"],"why":"No article on the describing word, and جَمِيلَة is feminine to agree with الْبِنْت.","xr":["al-jamīla","jamīl"]}
     ],
     "greetings": [
       {"t":"mc","q":"Someone says شُكْرًا. You answer:","o":["عَفْوًا","صَبَاح النُّور","مَسَاء الْخَيْر","وَعَلَيْكُم السَّلَام"],"why":"عَفْوًا is 'you're welcome', the answer to شُكْرًا."},
@@ -766,12 +766,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"Good morning","a":["صَبَاح","الْخَيْر"],"x":["الصَّبَاح"],"why":"The first word of an iḍāfa takes no article: صَبَاح الْخَيْر."},
       {"t":"order","p":"I'm sorry. (a woman speaking)","a":["أَنَا","آسِفَة"],"x":["آسِف"],"why":"A woman speaking: the feminine آسِفَة agrees with her."},
       {"t":"order","p":"How are you? (to a woman)","a":["كَيْفَ","حَالُكِ"],"x":["حَالُكَ"],"why":"To a woman: حَالُكِ, with kasra; حَالُكَ is for a man."},
-      {"t":"fill","q":"وَعَلَيْكُم __","p":"And upon you peace. (the reply)","a":["السَّلَام","as-salām"],"o":["سَلَام","السَّلَامَة","الْخَيْر"],"why":"The reply ends with السَّلَام, with the article."},
-      {"t":"fill","q":"مَعَ __","p":"Goodbye.","a":["السَّلَامَة","as-salāma"],"o":["سَلَامَة","الْخَيْر","النُّور"],"why":"مَعَ السَّلَامَة, 'with safety': السَّلَامَة takes the article."},
-      {"t":"fill","q":"الْحَمْدُ __","p":"Fine, thank God.","a":["لِلّٰه","lillāh"],"o":["اللّٰه","الْخَيْر","النُّور"],"why":"الْحَمْدُ لِلّٰه: 'praise be to God', the everyday 'fine, thanks'."},
-      {"t":"type","p":"Good evening","a":["مَسَاء الْخَيْر","masāʾ al-khayr"],"hint":"مَسَاء · الْخَيْر · 'evening of the good'","x":["الْمَسَاء"],"why":"Iḍāfa: no article on the first word, مَسَاء."},
-      {"t":"type","p":"I'm sorry. (a woman speaking)","a":["أَنَا آسِفَة","آسِفَة","anā āsifa","āsifa"],"hint":"أَنَا · آسِف","x":["آسِف"],"why":"A woman speaking: the feminine آسِفَة agrees with her."},
-      {"t":"type","p":"Good morning (the reply)","a":["صَبَاح النُّور","ṣabāḥ an-nūr"],"hint":"صَبَاح · النُّور · 'morning of the light'","x":["الصَّبَاح"],"why":"Iḍāfa: صَبَاح has no article; only النُّور takes it."}
+      {"t":"fill","q":"وَعَلَيْكُم __","p":"And upon you peace. (the reply)","a":["السَّلَام","as-salām"],"o":["سَلَام","السَّلَامَة","الْخَيْر"],"why":"The reply ends with السَّلَام, with the article.","xr":["salām","as-salāma","al-khayr"]},
+      {"t":"fill","q":"مَعَ __","p":"Goodbye.","a":["السَّلَامَة","as-salāma"],"o":["سَلَامَة","الْخَيْر","النُّور"],"why":"مَعَ السَّلَامَة, 'with safety': السَّلَامَة takes the article.","xr":["salāma","al-khayr","an-nūr"]},
+      {"t":"fill","q":"الْحَمْدُ __","p":"Fine, thank God.","a":["لِلّٰه","lillāh"],"o":["اللّٰه","الْخَيْر","النُّور"],"why":"الْحَمْدُ لِلّٰه: 'praise be to God', the everyday 'fine, thanks'.","xr":["allāh","al-khayr","an-nūr"]},
+      {"t":"type","p":"Good evening","a":["مَسَاء الْخَيْر","masāʾ al-khayr"],"hint":"مَسَاء · الْخَيْر · 'evening of the good'","x":["الْمَسَاء"],"why":"Iḍāfa: no article on the first word, مَسَاء.","xr":["al-masāʾ"]},
+      {"t":"type","p":"I'm sorry. (a woman speaking)","a":["أَنَا آسِفَة","آسِفَة","anā āsifa","āsifa"],"hint":"أَنَا · آسِف","x":["آسِف"],"why":"A woman speaking: the feminine آسِفَة agrees with her.","xr":["āsif"]},
+      {"t":"type","p":"Good morning (the reply)","a":["صَبَاح النُّور","ṣabāḥ an-nūr"],"hint":"صَبَاح · النُّور · 'morning of the light'","x":["الصَّبَاح"],"why":"Iḍāfa: صَبَاح has no article; only النُّور takes it.","xr":["aṣ-ṣabāḥ"]}
     ],
     "gender": [
       {"t":"mc","q":"Which word is feminine?","o":["سَيَّارَة","بَيْت","كِتَاب","قَلَم"],"why":"سَيَّارَة ends in ة, the feminine sign."},
@@ -782,12 +782,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"This is a big car.","a":["هٰذِهِ","سَيَّارَة","كَبِيرَة"],"x":["هٰذَا","كَبِير"],"why":"سَيَّارَة is feminine: هٰذِهِ and كَبِيرَة agree with it."},
       {"t":"order","p":"a new teacher (a woman)","a":["مُدَرِّسَة","جَدِيدَة"],"x":["جَدِيد"],"why":"A woman: the feminine جَدِيدَة agrees with مُدَرِّسَة."},
       {"t":"order","p":"The girl is small.","a":["الْبِنْت","صَغِيرَة"],"x":["صَغِير","الصَّغِيرَة"],"why":"بِنْت is feminine, so صَغِيرَة agrees; no article on it, because this is a sentence."},
-      {"t":"fill","q":"هٰذَا __","p":"This is a man.","a":["رَجُل","rajul"],"o":["اِمْرَأَة","بِنْت","أُمّ"],"why":"هٰذَا is masculine; اِمْرَأَة, بِنْت and أُمّ are feminine."},
-      {"t":"fill","q":"بِنْت __","p":"a small girl","a":["صَغِيرَة","ṣaghīra"],"o":["صَغِير","كَبِير","جَدِيد"],"why":"بِنْت is feminine without ة, but the describing word still takes ة."},
-      {"t":"fill","q":"هِيَ __","p":"She is a teacher.","a":["مُدَرِّسَة","mudarrisa"],"o":["مُدَرِّس","رَجُل","أَب"],"why":"She is a woman, so the teacher is مُدَرِّسَة, with ة."},
-      {"t":"type","p":"This is a woman.","a":["هٰذِهِ اِمْرَأَة","hādhihi imraʾa"],"hint":"هٰذِهِ · اِمْرَأَة","x":["هٰذَا"],"why":"اِمْرَأَة is feminine: هٰذِهِ agrees, not هٰذَا."},
-      {"t":"type","p":"a new car","a":["سَيَّارَة جَدِيدَة","sayyāra jadīda"],"hint":"سَيَّارَة · جَدِيد · the describing word comes second","x":["جَدِيد"],"why":"سَيَّارَة is feminine, so جَدِيدَة agrees with it."},
-      {"t":"type","p":"The school is new.","a":["الْمَدْرَسَة جَدِيدَة","al-madrasa jadīda"],"hint":"مَدْرَسَة · جَدِيد · no word for 'is'","x":["جَدِيد","الْجَدِيدَة"],"why":"Feminine noun, feminine جَدِيدَة; no article on it, because the sentence has no 'is'."}
+      {"t":"fill","q":"هٰذَا __","p":"This is a man.","a":["رَجُل","rajul"],"o":["اِمْرَأَة","بِنْت","أُمّ"],"why":"هٰذَا is masculine; اِمْرَأَة, بِنْت and أُمّ are feminine.","xr":["imraʾa","bint","umm"]},
+      {"t":"fill","q":"بِنْت __","p":"a small girl","a":["صَغِيرَة","ṣaghīra"],"o":["صَغِير","كَبِير","جَدِيد"],"why":"بِنْت is feminine without ة, but the describing word still takes ة.","xr":["ṣaghīr","kabīr","jadīd"]},
+      {"t":"fill","q":"هِيَ __","p":"She is a teacher.","a":["مُدَرِّسَة","mudarrisa"],"o":["مُدَرِّس","رَجُل","أَب"],"why":"She is a woman, so the teacher is مُدَرِّسَة, with ة.","xr":["mudarris","rajul","ab"]},
+      {"t":"type","p":"This is a woman.","a":["هٰذِهِ اِمْرَأَة","hādhihi imraʾa"],"hint":"هٰذِهِ · اِمْرَأَة","x":["هٰذَا"],"why":"اِمْرَأَة is feminine: هٰذِهِ agrees, not هٰذَا.","xr":["hādhā"]},
+      {"t":"type","p":"a new car","a":["سَيَّارَة جَدِيدَة","sayyāra jadīda"],"hint":"سَيَّارَة · جَدِيد · the describing word comes second","x":["جَدِيد"],"why":"سَيَّارَة is feminine, so جَدِيدَة agrees with it.","xr":["jadīd"]},
+      {"t":"type","p":"The school is new.","a":["الْمَدْرَسَة جَدِيدَة","al-madrasa jadīda"],"hint":"مَدْرَسَة · جَدِيد · no word for 'is'","x":["جَدِيد","الْجَدِيدَة"],"why":"Feminine noun, feminine جَدِيدَة; no article on it, because the sentence has no 'is'.","xr":["jadīd","al-jadīda"]}
     ],
     "pronouns": [
       {"t":"mc","q":"You're a student. (to a woman)","o":["أَنْتِ طَالِبَة","أَنْتَ طَالِبَة","أَنْتَ طَالِب","هِيَ طَالِبَة"],"why":"To a woman: أَنْتِ, and طَالِبَة agrees with her."},
@@ -798,12 +798,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"You're a student. (to a woman)","a":["أَنْتِ","طَالِبَة"],"x":["أَنْتَ"],"why":"To a woman: the feminine أَنْتِ and طَالِبَة agree."},
       {"t":"order","p":"You're a new student. (to a man)","a":["أَنْتَ","طَالِب","جَدِيد"],"x":["أَنْتِ","جَدِيدَة"],"why":"To a man: أَنْتَ, and the masculine جَدِيد agrees with طَالِب."},
       {"t":"order","p":"It's new. (the car)","a":["هِيَ","جَدِيدَة"],"x":["هُوَ","جَدِيد"],"why":"A car is feminine: 'it' is هِيَ, and جَدِيدَة agrees."},
-      {"t":"fill","q":"__ مِن شِيكَاغُو","p":"We're from Chicago.","a":["نَحْنُ","naḥnu"],"o":["هُم","هُوَ","أَنَا"],"why":"'We' is نَحْنُ."},
-      {"t":"fill","q":"__ مِن تِكْسَاس","p":"They're from Texas.","a":["هُم","hum"],"o":["هُوَ","هِيَ","أَنَا"],"why":"'They' is هُم; هُوَ is only one man."},
-      {"t":"fill","q":"__ كَبِير","p":"It's big. (the house)","a":["هُوَ","huwa"],"o":["هِيَ","نَحْنُ","هُم"],"why":"بَيْت is masculine, so 'it' is هُوَ, and كَبِير has no ة."},
-      {"t":"type","p":"She's a student.","a":["هِيَ طَالِبَة","hiya ṭāliba"],"hint":"هِيَ · طَالِبَة","x":["طَالِب"],"why":"A woman: the feminine طَالِبَة agrees with هِيَ."},
-      {"t":"type","p":"I'm an engineer. (a woman speaking)","a":["أَنَا مُهَنْدِسَة","anā muhandisa"],"hint":"أَنَا · مُهَنْدِسَة","x":["مُهَنْدِس"],"why":"A woman speaking: the feminine مُهَنْدِسَة agrees with her."},
-      {"t":"type","p":"He's an engineer.","a":["هُوَ مُهَنْدِس","huwa muhandis"],"hint":"هُوَ · مُهَنْدِس","x":["مُهَنْدِسَة"],"why":"A man: the masculine مُهَنْدِس agrees with هُوَ."}
+      {"t":"fill","q":"__ مِن شِيكَاغُو","p":"We're from Chicago.","a":["نَحْنُ","naḥnu"],"o":["هُم","هُوَ","أَنَا"],"why":"'We' is نَحْنُ.","xr":["hum","huwa","anā"]},
+      {"t":"fill","q":"__ مِن تِكْسَاس","p":"They're from Texas.","a":["هُم","hum"],"o":["هُوَ","هِيَ","أَنَا"],"why":"'They' is هُم; هُوَ is only one man.","xr":["huwa","hiya","anā"]},
+      {"t":"fill","q":"__ كَبِير","p":"It's big. (the house)","a":["هُوَ","huwa"],"o":["هِيَ","نَحْنُ","هُم"],"why":"بَيْت is masculine, so 'it' is هُوَ, and كَبِير has no ة.","xr":["hiya","naḥnu","hum"]},
+      {"t":"type","p":"She's a student.","a":["هِيَ طَالِبَة","hiya ṭāliba"],"hint":"هِيَ · طَالِبَة","x":["طَالِب"],"why":"A woman: the feminine طَالِبَة agrees with هِيَ.","xr":["ṭālib"]},
+      {"t":"type","p":"I'm an engineer. (a woman speaking)","a":["أَنَا مُهَنْدِسَة","anā muhandisa"],"hint":"أَنَا · مُهَنْدِسَة","x":["مُهَنْدِس"],"why":"A woman speaking: the feminine مُهَنْدِسَة agrees with her.","xr":["muhandis"]},
+      {"t":"type","p":"He's an engineer.","a":["هُوَ مُهَنْدِس","huwa muhandis"],"hint":"هُوَ · مُهَنْدِس","x":["مُهَنْدِسَة"],"why":"A man: the masculine مُهَنْدِس agrees with هُوَ.","xr":["muhandisa"]}
     ],
     "nominal": [
       {"t":"mc","q":"'I'm a teacher' (a man speaking) =","o":["أَنَا مُدَرِّس","أَنَا هُوَ مُدَرِّس","أَنَا أَكُون مُدَرِّس","أَنَا مُدَرِّسَة"],"why":"No word for \"am\", and a man speaking uses مُدَرِّس without ة."},
@@ -814,12 +814,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"The house is big.","a":["الْبَيْت","كَبِير"],"x":["هُوَ"],"why":"No 'is' in Arabic: الْبَيْت and كَبِير simply stand side by side."},
       {"t":"order","p":"The car is new.","a":["السَّيَّارَة","جَدِيدَة"],"x":["جَدِيد"],"why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة."},
       {"t":"order","p":"The teacher (a woman) is at school.","a":["الْمُدَرِّسَة","فِي","الْمَدْرَسَة"],"x":["الْمُدَرِّس","هِيَ"],"why":"A woman: the feminine الْمُدَرِّسَة, and no 'is' before فِي."},
-      {"t":"fill","q":"الْبَيْت __","p":"The house is small.","a":["صَغِير","ṣaghīr"],"o":["الصَّغِير","صَغِيرَة","هُوَ"],"why":"The predicate takes no article and agrees with the masculine بَيْت: صَغِير."},
-      {"t":"fill","q":"السَّيَّارَة __","p":"The car is beautiful.","a":["جَمِيلَة","jamīla"],"o":["جَمِيل","الْجَمِيلَة","هِيَ"],"why":"No article on the predicate, and it agrees with the feminine سَيَّارَة: جَمِيلَة."},
-      {"t":"fill","q":"أَنَا __ الْبَيْت","p":"I'm at home.","a":["فِي","fī"],"o":["هُوَ","أَكُون","مِن"],"why":"No \"am\": أَنَا فِي الْبَيْت. فِي means in or at."},
-      {"t":"type","p":"The house is new.","a":["الْبَيْت جَدِيد","al-bayt jadīd"],"hint":"بَيْت (house) · جَدِيد (new) · the house","x":["الْجَدِيد"],"why":"Without the article, جَدِيد says \"is new\"; with the article, الْجَدِيد would make it \"the new house\"."},
-      {"t":"type","p":"She's busy.","a":["هِيَ مَشْغُولَة","hiya mashghūla"],"hint":"هِيَ · مَشْغُول (busy)","x":["مَشْغُول"],"why":"هِيَ is feminine, so the adjective agrees: مَشْغُولَة."},
-      {"t":"type","p":"I'm a teacher. (a woman speaking)","a":["أَنَا مُدَرِّسَة","anā mudarrisa"],"hint":"أَنَا · مُدَرِّس (teacher)","x":["مُدَرِّس","هُوَ"],"why":"No 'am' in Arabic, and a woman speaking uses the feminine مُدَرِّسَة."}
+      {"t":"fill","q":"الْبَيْت __","p":"The house is small.","a":["صَغِير","ṣaghīr"],"o":["الصَّغِير","صَغِيرَة","هُوَ"],"why":"The predicate takes no article and agrees with the masculine بَيْت: صَغِير.","xr":["aṣ-ṣaghīr","ṣaghīra","huwa"]},
+      {"t":"fill","q":"السَّيَّارَة __","p":"The car is beautiful.","a":["جَمِيلَة","jamīla"],"o":["جَمِيل","الْجَمِيلَة","هِيَ"],"why":"No article on the predicate, and it agrees with the feminine سَيَّارَة: جَمِيلَة.","xr":["jamīl","al-jamīla","hiya"]},
+      {"t":"fill","q":"أَنَا __ الْبَيْت","p":"I'm at home.","a":["فِي","fī"],"o":["هُوَ","أَكُون","مِن"],"why":"No \"am\": أَنَا فِي الْبَيْت. فِي means in or at.","xr":["huwa","akūn","min"]},
+      {"t":"type","p":"The house is new.","a":["الْبَيْت جَدِيد","al-bayt jadīd"],"hint":"بَيْت (house) · جَدِيد (new) · the house","x":["الْجَدِيد"],"why":"Without the article, جَدِيد says \"is new\"; with the article, الْجَدِيد would make it \"the new house\".","xr":["al-jadīd"]},
+      {"t":"type","p":"She's busy.","a":["هِيَ مَشْغُولَة","hiya mashghūla"],"hint":"هِيَ · مَشْغُول (busy)","x":["مَشْغُول"],"why":"هِيَ is feminine, so the adjective agrees: مَشْغُولَة.","xr":["mashghūl"]},
+      {"t":"type","p":"I'm a teacher. (a woman speaking)","a":["أَنَا مُدَرِّسَة","anā mudarrisa"],"hint":"أَنَا · مُدَرِّس (teacher)","x":["مُدَرِّس","هُوَ"],"why":"No 'am' in Arabic, and a woman speaking uses the feminine مُدَرِّسَة.","xr":["mudarris","huwa"]}
     ],
     "definite": [
       {"t":"mc","q":"How do you say 'a phone'?","o":["هَاتِف","الْهَاتِف","وَاحِد هَاتِف","هٰذَا هَاتِف"],"why":"No word for \"a\": هَاتِف alone is \"a phone\"; الْهَاتِف is \"the phone\"."},
@@ -830,12 +830,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"the new apartment","a":["الشَّقَّة","الْجَدِيدَة"],"x":["جَدِيدَة"],"why":"Both words take the article: الشَّقَّة الْجَدِيدَة."},
       {"t":"order","p":"The room is big.","a":["الْغُرْفَة","كَبِيرَة"],"x":["الْكَبِيرَة"],"why":"No 'is', and the predicate has no article; الْكَبِيرَة would make it 'the big room'."},
       {"t":"order","p":"I like Arabic.","a":["أُحِبّ","الْعَرَبِيَّة"],"x":["عَرَبِيَّة"],"why":"Names of languages take the article: الْعَرَبِيَّة."},
-      {"t":"fill","q":"أُحِبّ __","p":"I like tea. (tea in general)","a":["الشَّاي","ash-shāy"],"o":["شَاي","هُوَ","فِي"],"why":"Tea in general takes the article: الشَّاي."},
-      {"t":"fill","q":"الْبَيْت __","p":"the beautiful house","a":["الْجَمِيل","al-jamīl"],"o":["جَمِيل","جَمِيلَة","الْجَمِيلَة"],"why":"A phrase: the adjective takes the article too, and agrees with the masculine بَيْت."},
-      {"t":"fill","q":"__ الْجَدِيد","p":"the new key","a":["الْمِفْتَاح","al-miftāḥ"],"o":["مِفْتَاح","غُرْفَة","هُوَ"],"why":"Both words of the phrase take the article: الْمِفْتَاح الْجَدِيد."},
-      {"t":"type","p":"the big room","a":["الْغُرْفَة الْكَبِيرَة","al-ghurfa al-kabīra"],"hint":"غُرْفَة (room) · كَبِير","x":["كَبِيرَة"],"why":"Both words take the article, and the adjective agrees with the feminine غُرْفَة."},
-      {"t":"type","p":"The apartment is new.","a":["الشَّقَّة جَدِيدَة","ash-shaqqa jadīda"],"hint":"شَقَّة (apartment) · جَدِيد","x":["الْجَدِيدَة"],"why":"No 'is' and no ال on the predicate; with the article, الْجَدِيدَة would mean 'the new apartment'."},
-      {"t":"type","p":"I like coffee. (coffee in general)","a":["أُحِبّ الْقَهْوَة","أَنَا أُحِبّ الْقَهْوَة","uḥibb al-qahwa","anā uḥibb al-qahwa"],"hint":"أُحِبّ (I like) · قَهْوَة","x":["قَهْوَة"],"why":"A general statement takes the article: الْقَهْوَة."}
+      {"t":"fill","q":"أُحِبّ __","p":"I like tea. (tea in general)","a":["الشَّاي","ash-shāy"],"o":["شَاي","هُوَ","فِي"],"why":"Tea in general takes the article: الشَّاي.","xr":["shāy","huwa","fī"]},
+      {"t":"fill","q":"الْبَيْت __","p":"the beautiful house","a":["الْجَمِيل","al-jamīl"],"o":["جَمِيل","جَمِيلَة","الْجَمِيلَة"],"why":"A phrase: the adjective takes the article too, and agrees with the masculine بَيْت.","xr":["jamīl","jamīla","al-jamīla"]},
+      {"t":"fill","q":"__ الْجَدِيد","p":"the new key","a":["الْمِفْتَاح","al-miftāḥ"],"o":["مِفْتَاح","غُرْفَة","هُوَ"],"why":"Both words of the phrase take the article: الْمِفْتَاح الْجَدِيد.","xr":["miftāḥ","ghurfa","huwa"]},
+      {"t":"type","p":"the big room","a":["الْغُرْفَة الْكَبِيرَة","al-ghurfa al-kabīra"],"hint":"غُرْفَة (room) · كَبِير","x":["كَبِيرَة"],"why":"Both words take the article, and the adjective agrees with the feminine غُرْفَة.","xr":["kabīra"]},
+      {"t":"type","p":"The apartment is new.","a":["الشَّقَّة جَدِيدَة","ash-shaqqa jadīda"],"hint":"شَقَّة (apartment) · جَدِيد","x":["الْجَدِيدَة"],"why":"No 'is' and no ال on the predicate; with the article, الْجَدِيدَة would mean 'the new apartment'.","xr":["al-jadīda"]},
+      {"t":"type","p":"I like coffee. (coffee in general)","a":["أُحِبّ الْقَهْوَة","أَنَا أُحِبّ الْقَهْوَة","uḥibb al-qahwa","anā uḥibb al-qahwa"],"hint":"أُحِبّ (I like) · قَهْوَة","x":["قَهْوَة"],"why":"A general statement takes the article: الْقَهْوَة.","xr":["qahwa"]}
     ],
     "nisba": [
       {"t":"mc","q":"'She's Egyptian' =","o":["هِيَ مِصْرِيَّة","هِيَ مِصْرِيّ","هِيَ الْمِصْرِيَّة","هِيَ مِصْر"],"why":"A woman: the feminine nisba مِصْرِيَّة, with no article on the predicate."},
@@ -846,12 +846,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"She's Lebanese.","a":["هِيَ","لُبْنَانِيَّة"],"x":["لُبْنَانِيّ"],"why":"هِيَ is feminine, so the nisba agrees: لُبْنَانِيَّة."},
       {"t":"order","p":"He's Moroccan.","a":["هُوَ","مَغْرِبِيّ"],"x":["الْمَغْرِبِيّ"],"why":"No 'is', and the predicate drops the article: مَغْرِبِيّ, even though the country is الْمَغْرِب."},
       {"t":"order","p":"I'm studying Arabic.","a":["أَدْرُس","الْعَرَبِيَّة"],"x":["عَرَبِيَّة"],"why":"Names of languages take the article: الْعَرَبِيَّة."},
-      {"t":"fill","q":"أَنَا __","p":"I'm American. (a woman speaking)","a":["أَمْرِيكِيَّة","amrīkiyya"],"o":["أَمْرِيكِيّ","أَمْرِيكَا","الْأَمْرِيكِيَّة"],"why":"A woman speaking: the feminine nisba, with no article on the predicate."},
-      {"t":"fill","q":"هُوَ مِن __","p":"He's from Egypt.","a":["مِصْر","miṣr"],"o":["مِصْرِيّ","مِصْرِيَّة","الْمِصْرِيّ"],"why":"After مِن comes the country itself; مِصْرِيّ is the word for \"Egyptian\"."},
-      {"t":"fill","q":"أَدْرُس __","p":"I'm studying French.","a":["الْفَرَنْسِيَّة","al-faransiyya"],"o":["فَرَنْسِيَّة","فَرَنْسِيّ","الْفَرَنْسِيّ"],"why":"A language is the feminine nisba with the article: الْفَرَنْسِيَّة."},
-      {"t":"type","p":"He's Lebanese. (use the nisba)","a":["هُوَ لُبْنَانِيّ","huwa lubnānī"],"hint":"هُوَ · لُبْنَان (Lebanon)","x":["لُبْنَانِيَّة"],"why":"هُوَ is masculine, so the nisba agrees: -ī with no ة."},
-      {"t":"type","p":"She's Moroccan. (use the nisba)","a":["هِيَ مَغْرِبِيَّة","hiya maghribiyya"],"hint":"هِيَ · الْمَغْرِب (Morocco)","x":["الْمَغْرِبِيَّة"],"why":"The nisba drops the article of الْمَغْرِب, and it is feminine to agree with هِيَ."},
-      {"t":"type","p":"I'm from New York.","a":["أَنَا مِن نِيُويُورْك","anā min niyūyūrk"],"hint":"مِن (from) · نِيُويُورْك","x":["هُوَ"],"why":"No 'am' in Arabic: أَنَا مِن نِيُويُورْك."}
+      {"t":"fill","q":"أَنَا __","p":"I'm American. (a woman speaking)","a":["أَمْرِيكِيَّة","amrīkiyya"],"o":["أَمْرِيكِيّ","أَمْرِيكَا","الْأَمْرِيكِيَّة"],"why":"A woman speaking: the feminine nisba, with no article on the predicate.","xr":["amrīkī","amrīkā","al-amrīkiyya"]},
+      {"t":"fill","q":"هُوَ مِن __","p":"He's from Egypt.","a":["مِصْر","miṣr"],"o":["مِصْرِيّ","مِصْرِيَّة","الْمِصْرِيّ"],"why":"After مِن comes the country itself; مِصْرِيّ is the word for \"Egyptian\".","xr":["miṣrī","miṣriyya","al-miṣrī"]},
+      {"t":"fill","q":"أَدْرُس __","p":"I'm studying French.","a":["الْفَرَنْسِيَّة","al-faransiyya"],"o":["فَرَنْسِيَّة","فَرَنْسِيّ","الْفَرَنْسِيّ"],"why":"A language is the feminine nisba with the article: الْفَرَنْسِيَّة.","xr":["faransiyya","faransī","al-faransī"]},
+      {"t":"type","p":"He's Lebanese. (use the nisba)","a":["هُوَ لُبْنَانِيّ","huwa lubnānī"],"hint":"هُوَ · لُبْنَان (Lebanon)","x":["لُبْنَانِيَّة"],"why":"هُوَ is masculine, so the nisba agrees: -ī with no ة.","xr":["lubnāniyya"]},
+      {"t":"type","p":"She's Moroccan. (use the nisba)","a":["هِيَ مَغْرِبِيَّة","hiya maghribiyya"],"hint":"هِيَ · الْمَغْرِب (Morocco)","x":["الْمَغْرِبِيَّة"],"why":"The nisba drops the article of الْمَغْرِب, and it is feminine to agree with هِيَ.","xr":["al-maghribiyya"]},
+      {"t":"type","p":"I'm from New York.","a":["أَنَا مِن نِيُويُورْك","anā min niyūyūrk"],"hint":"مِن (from) · نِيُويُورْك","x":["هُوَ"],"why":"No 'am' in Arabic: أَنَا مِن نِيُويُورْك.","xr":["huwa"]}
     ],
     "questions": [
       {"t":"mc","q":"Which word asks 'where'?","o":["أَيْنَ","مَتَى","مَن","كَيْفَ"],"why":"أَيْنَ is where; مَتَى is when, مَن is who, كَيْفَ is how."},
@@ -862,12 +862,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"Where's the new school?","a":["أَيْنَ","الْمَدْرَسَة","الْجَدِيدَة"],"x":["جَدِيدَة"],"why":"Both words take the article: الْمَدْرَسَة الْجَدِيدَة, after the question word."},
       {"t":"order","p":"Is the car new?","a":["هَل","السَّيَّارَة","جَدِيدَة"],"x":["جَدِيد"],"why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة."},
       {"t":"order","p":"Who is the teacher? (a woman)","a":["مَن","الْمُدَرِّسَة"],"x":["الْمُدَرِّس","مَاذَا"],"why":"The teacher is a woman: the feminine الْمُدَرِّسَة, after مَن."},
-      {"t":"fill","q":"__ الْمَطْعَم؟","p":"Where's the restaurant?","a":["أَيْنَ","ayna"],"o":["مَتَى","مَن","مَاذَا"],"why":"أَيْنَ asks where, and it comes first."},
-      {"t":"fill","q":"__ اِسْمُكَ؟","p":"What's your name? (to a man)","a":["مَا","mā"],"o":["مَاذَا","مَن","كَيْفَ"],"why":"A noun follows, so \"what\" is مَا, not مَاذَا."},
-      {"t":"fill","q":"هَل الْغُرْفَة __؟","p":"Is the room big?","a":["كَبِيرَة","kabīra"],"o":["كَبِير","الْكَبِيرَة","هِيَ"],"why":"هَل keeps the sentence as it is: no article on the predicate, which agrees with the feminine غُرْفَة."},
-      {"t":"type","p":"Where's the big house?","a":["أَيْنَ الْبَيْت الْكَبِير؟","أَيْنَ هُوَ الْبَيْت الْكَبِير؟","ayna al-bayt al-kabīr?","ayna huwa al-bayt al-kabīr?"],"hint":"أَيْنَ · بَيْت · كَبِير","x":["كَبِير"],"why":"Both words take the article: الْبَيْت الْكَبِير."},
-      {"t":"type","p":"Is she Egyptian?","a":["هَل هِيَ مِصْرِيَّة؟","هِيَ مِصْرِيَّة؟","hal hiya miṣriyya?","hiya miṣriyya?"],"hint":"هَل · هِيَ · مِصْرِيّ","x":["مِصْرِيّ"],"why":"هِيَ is feminine, so the nisba agrees: مِصْرِيَّة."},
-      {"t":"type","p":"When is the class?","a":["مَتَى الدَّرْس؟","matā ad-dars?"],"hint":"مَتَى · دَرْس (class)","x":["مَاذَا"],"why":"مَتَى asks when; it comes first and the class takes the article."}
+      {"t":"fill","q":"__ الْمَطْعَم؟","p":"Where's the restaurant?","a":["أَيْنَ","ayna"],"o":["مَتَى","مَن","مَاذَا"],"why":"أَيْنَ asks where, and it comes first.","xr":["matā","man","mādhā"]},
+      {"t":"fill","q":"__ اِسْمُكَ؟","p":"What's your name? (to a man)","a":["مَا","mā"],"o":["مَاذَا","مَن","كَيْفَ"],"why":"A noun follows, so \"what\" is مَا, not مَاذَا.","xr":["mādhā","man","kayfa"]},
+      {"t":"fill","q":"هَل الْغُرْفَة __؟","p":"Is the room big?","a":["كَبِيرَة","kabīra"],"o":["كَبِير","الْكَبِيرَة","هِيَ"],"why":"هَل keeps the sentence as it is: no article on the predicate, which agrees with the feminine غُرْفَة.","xr":["kabīr","al-kabīra","hiya"]},
+      {"t":"type","p":"Where's the big house?","a":["أَيْنَ الْبَيْت الْكَبِير؟","أَيْنَ هُوَ الْبَيْت الْكَبِير؟","ayna al-bayt al-kabīr?","ayna huwa al-bayt al-kabīr?"],"hint":"أَيْنَ · بَيْت · كَبِير","x":["كَبِير"],"why":"Both words take the article: الْبَيْت الْكَبِير.","xr":["kabīr"]},
+      {"t":"type","p":"Is she Egyptian?","a":["هَل هِيَ مِصْرِيَّة؟","هِيَ مِصْرِيَّة؟","hal hiya miṣriyya?","hiya miṣriyya?"],"hint":"هَل · هِيَ · مِصْرِيّ","x":["مِصْرِيّ"],"why":"هِيَ is feminine, so the nisba agrees: مِصْرِيَّة.","xr":["miṣrī"]},
+      {"t":"type","p":"When is the class?","a":["مَتَى الدَّرْس؟","matā ad-dars?"],"hint":"مَتَى · دَرْس (class)","x":["مَاذَا"],"why":"مَتَى asks when; it comes first and the class takes the article.","xr":["mādhā"]}
     ],
     "numbers": [
       {"t":"mc","q":"Which one is 25?","o":["٢٥","٥٢","٣٥","٢٤"],"why":"Digits run left to right, as in English: ٢ then ٥ is 25."},
@@ -878,12 +878,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"one book","a":["كِتَاب","وَاحِد"],"x":["وَاحِدَة"],"why":"كِتَاب is masculine, so \"one\" agrees: وَاحِد, with no ة."},
       {"t":"order","p":"The price is forty.","a":["الثَّمَن","أَرْبَعُون"],"x":["هُوَ"],"why":"No 'is': الثَّمَن and the number stand side by side."},
       {"t":"order","p":"thirty-five","a":["خَمْسَة","وَثَلَاثُون"],"x":["ثَلَاثُون"],"why":"Units first, then the ten joined by وَ: \"five and thirty\"."},
-      {"t":"fill","q":"سَيَّارَة __","p":"one car","a":["وَاحِدَة","wāḥida"],"o":["وَاحِد","اِثْنَان","الْوَاحِدَة"],"why":"سَيَّارَة is feminine (taa marbuta), so \"one\" agrees: وَاحِدَة."},
-      {"t":"fill","q":"خَمْسَة __","p":"fifty-five","a":["وَخَمْسُون","wakhamsūn"],"o":["خَمْسُون","وَخَمْسَة","وَعِشْرُون"],"why":"After the unit comes وَ joined to the ten: خَمْسَة وَخَمْسُون."},
-      {"t":"fill","q":"الثَّمَن __","p":"The price is ninety.","a":["تِسْعُون","tisʿūn"],"o":["تِسْعَة","التِّسْعُون","تِسْعَة عَشَر"],"why":"Ninety is تِسْعُون; as the predicate it takes no article."},
-      {"t":"type","p":"one car","a":["سَيَّارَة وَاحِدَة","sayyāra wāḥida"],"hint":"سَيَّارَة · one","x":["وَاحِد"],"why":"\"One\" agrees with the feminine سَيَّارَة: وَاحِدَة."},
-      {"t":"type","p":"The price is twenty.","a":["الثَّمَن عِشْرُون","ath-thaman ʿishrūn"],"hint":"ثَمَن (price) · 20","x":["هُوَ"],"why":"No 'is': الثَّمَن عِشْرُون."},
-      {"t":"type","p":"twenty-five","a":["خَمْسَة وَعِشْرُون","khamsa waʿishrūn"],"hint":"خَمْسَة (5) · عِشْرُون (20)","x":["عِشْرُون"],"why":"Units first, then وَ and the tens: \"five and twenty\"."}
+      {"t":"fill","q":"سَيَّارَة __","p":"one car","a":["وَاحِدَة","wāḥida"],"o":["وَاحِد","اِثْنَان","الْوَاحِدَة"],"why":"سَيَّارَة is feminine (taa marbuta), so \"one\" agrees: وَاحِدَة.","xr":["wāḥid","ithnān","al-wāḥida"]},
+      {"t":"fill","q":"خَمْسَة __","p":"fifty-five","a":["وَخَمْسُون","wakhamsūn"],"o":["خَمْسُون","وَخَمْسَة","وَعِشْرُون"],"why":"After the unit comes وَ joined to the ten: خَمْسَة وَخَمْسُون.","xr":["khamsūn","wakhamsa","waʿishrūn"]},
+      {"t":"fill","q":"الثَّمَن __","p":"The price is ninety.","a":["تِسْعُون","tisʿūn"],"o":["تِسْعَة","التِّسْعُون","تِسْعَة عَشَر"],"why":"Ninety is تِسْعُون; as the predicate it takes no article.","xr":["tisʿa","at-tisʿūn","tisʿa ʿashar"]},
+      {"t":"type","p":"one car","a":["سَيَّارَة وَاحِدَة","sayyāra wāḥida"],"hint":"سَيَّارَة · one","x":["وَاحِد"],"why":"\"One\" agrees with the feminine سَيَّارَة: وَاحِدَة.","xr":["wāḥid"]},
+      {"t":"type","p":"The price is twenty.","a":["الثَّمَن عِشْرُون","ath-thaman ʿishrūn"],"hint":"ثَمَن (price) · 20","x":["هُوَ"],"why":"No 'is': الثَّمَن عِشْرُون.","xr":["huwa"]},
+      {"t":"type","p":"twenty-five","a":["خَمْسَة وَعِشْرُون","khamsa waʿishrūn"],"hint":"خَمْسَة (5) · عِشْرُون (20)","x":["عِشْرُون"],"why":"Units first, then وَ and the tens: \"five and twenty\".","xr":["ʿishrūn"]}
     ],
     "ordering": [
       {"t":"mc","q":"'The check, please' (to a woman) =","o":["الْحِسَاب مِن فَضْلِكِ","الْحِسَاب مِن فَضْلِكَ","بِكَم مِن فَضْلِكِ","أَيْنَ الْحِسَاب؟"],"why":"To a woman: مِن فَضْلِكِ, with a kasra; the check is الْحِسَاب."},
@@ -894,12 +894,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"The coffee is delicious.","a":["الْقَهْوَة","لَذِيذَة"],"x":["لَذِيذ"],"why":"قَهْوَة is feminine, so the adjective agrees: لَذِيذَة."},
       {"t":"order","p":"I'd like the Arabic coffee.","a":["أُرِيد","الْقَهْوَة","الْعَرَبِيَّة"],"x":["عَرَبِيَّة"],"why":"Both words take the article: الْقَهْوَة الْعَرَبِيَّة."},
       {"t":"order","p":"The food is delicious.","a":["الطَّعَام","لَذِيذ"],"x":["اللَّذِيذ"],"why":"No 'is', and no article on the predicate: الطَّعَام لَذِيذ."},
-      {"t":"fill","q":"بِكَم __؟","p":"How much is this? (a car)","a":["هٰذِهِ","hādhihi"],"o":["هٰذَا","هُوَ","مَا"],"why":"سَيَّارَة is feminine, so \"this\" is هٰذِهِ."},
-      {"t":"fill","q":"__ مِن فَضْلِكِ","p":"The check, please. (to a woman)","a":["الْحِسَاب","al-ḥisāb"],"o":["بِكَم","أَيْنَ","أَنَا"],"why":"Name what you want, the check, with the article: الْحِسَاب."},
-      {"t":"fill","q":"الشَّاي __","p":"The tea is hot.","a":["حَارّ","ḥārr"],"o":["حَارَّة","الْحَارّ","هُوَ"],"why":"No article on the predicate, and شَاي is masculine: حَارّ."},
-      {"t":"type","p":"I'd like a coffee. (use أُرِيد)","a":["أُرِيد قَهْوَة","أَنَا أُرِيد قَهْوَة","أُرِيد فِنْجَان قَهْوَة","urīd qahwa","anā urīd qahwa","urīd finjān qahwa"],"hint":"أُرِيد (I want) · قَهْوَة","x":["شَاي"],"why":"أُرِيد and then the thing; قَهْوَة ends in ة, so it needs no extra ending."},
-      {"t":"type","p":"The coffee is delicious.","a":["الْقَهْوَة لَذِيذَة","al-qahwa ladhīdha"],"hint":"قَهْوَة · لَذِيذ (delicious)","x":["لَذِيذ"],"why":"قَهْوَة is feminine (taa marbuta), so the adjective agrees: لَذِيذَة."},
-      {"t":"type","p":"How much is this? (a bag)","a":["بِكَم هٰذِهِ؟","بِكَم هٰذِهِ الْحَقِيبَة؟","bikam hādhihi?","bikam hādhihi al-ḥaqība?"],"hint":"بِكَم · حَقِيبَة (bag)","x":["هٰذَا"],"why":"حَقِيبَة is feminine, so \"this\" agrees: هٰذِهِ."}
+      {"t":"fill","q":"بِكَم __؟","p":"How much is this? (a car)","a":["هٰذِهِ","hādhihi"],"o":["هٰذَا","هُوَ","مَا"],"why":"سَيَّارَة is feminine, so \"this\" is هٰذِهِ.","xr":["hādhā","huwa","mā"]},
+      {"t":"fill","q":"__ مِن فَضْلِكِ","p":"The check, please. (to a woman)","a":["الْحِسَاب","al-ḥisāb"],"o":["بِكَم","أَيْنَ","أَنَا"],"why":"Name what you want, the check, with the article: الْحِسَاب.","xr":["bikam","ayna","anā"]},
+      {"t":"fill","q":"الشَّاي __","p":"The tea is hot.","a":["حَارّ","ḥārr"],"o":["حَارَّة","الْحَارّ","هُوَ"],"why":"No article on the predicate, and شَاي is masculine: حَارّ.","xr":["ḥārra","al-ḥārr","huwa"]},
+      {"t":"type","p":"I'd like a coffee. (use أُرِيد)","a":["أُرِيد قَهْوَة","أَنَا أُرِيد قَهْوَة","أُرِيد فِنْجَان قَهْوَة","urīd qahwa","anā urīd qahwa","urīd finjān qahwa"],"hint":"أُرِيد (I want) · قَهْوَة","x":["شَاي"],"why":"أُرِيد and then the thing; قَهْوَة ends in ة, so it needs no extra ending.","xr":["shāy"]},
+      {"t":"type","p":"The coffee is delicious.","a":["الْقَهْوَة لَذِيذَة","al-qahwa ladhīdha"],"hint":"قَهْوَة · لَذِيذ (delicious)","x":["لَذِيذ"],"why":"قَهْوَة is feminine (taa marbuta), so the adjective agrees: لَذِيذَة.","xr":["ladhīdh"]},
+      {"t":"type","p":"How much is this? (a bag)","a":["بِكَم هٰذِهِ؟","بِكَم هٰذِهِ الْحَقِيبَة؟","bikam hādhihi?","bikam hādhihi al-ḥaqība?"],"hint":"بِكَم · حَقِيبَة (bag)","x":["هٰذَا"],"why":"حَقِيبَة is feminine, so \"this\" agrees: هٰذِهِ.","xr":["hādhā"]}
     ],
     "adjectives": [
       {"t":"mc","q":"'a new car' =","o":["سَيَّارَة جَدِيدَة","جَدِيدَة سَيَّارَة","سَيَّارَة جَدِيد","سَيَّارَة الْجَدِيدَة"],"why":"The adjective follows the noun, agrees with the feminine سَيَّارَة, and has no ال because سَيَّارَة has none."},
@@ -910,12 +910,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"the small car","a":["السَّيَّارَة","الصَّغِيرَة"],"x":["صَغِيرَة"],"why":"Both words take the article: السَّيَّارَة الصَّغِيرَة."},
       {"t":"order","p":"a tall man","a":["رَجُل","طَوِيل"],"x":["طَوِيلَة"],"why":"رَجُل is masculine, so the adjective is masculine too: no ة."},
       {"t":"order","p":"The new teacher (a woman) is from Egypt.","a":["الْمُدَرِّسَة","الْجَدِيدَة","مِن","مِصْر"],"x":["جَدِيدَة"],"why":"\"The new teacher\" takes the article on both words; مِن مِصْر is the predicate."},
-      {"t":"fill","q":"سَيَّارَة __","p":"a cheap car","a":["رَخِيصَة","rakhīṣa"],"o":["رَخِيص","الرَّخِيصَة","هِيَ"],"why":"سَيَّارَة is feminine and has no ال, so the adjective is رَخِيصَة."},
-      {"t":"fill","q":"الطَّالِب __","p":"the new student (a man)","a":["الْجَدِيد","al-jadīd"],"o":["جَدِيد","الْجَدِيدَة","جَدِيدَة"],"why":"A definite noun takes a definite adjective: الْجَدِيد, masculine for a man."},
-      {"t":"fill","q":"الْكِتَاب الْجَدِيد __","p":"The new book is easy.","a":["سَهْل","sahl"],"o":["السَّهْل","سَهْلَة","هُوَ"],"why":"The predicate has no article and agrees with the masculine كِتَاب: سَهْل."},
-      {"t":"type","p":"a beautiful city","a":["مَدِينَة جَمِيلَة","madīna jamīla"],"hint":"مَدِينَة (city) · جَمِيل","x":["جَمِيل"],"why":"مَدِينَة is feminine (taa marbuta), so the adjective agrees: جَمِيلَة."},
-      {"t":"type","p":"the big house","a":["الْبَيْت الْكَبِير","al-bayt al-kabīr"],"hint":"بَيْت · كَبِير","x":["كَبِير"],"why":"Both words take the article: الْبَيْت الْكَبِير."},
-      {"t":"type","p":"The old car is cheap.","a":["السَّيَّارَة الْقَدِيمَة رَخِيصَة","as-sayyāra al-qadīma rakhīṣa"],"hint":"سَيَّارَة · قَدِيم (old) · رَخِيص (cheap)","x":["الرَّخِيصَة"],"why":"\"The old car\" has the article on both words; the predicate رَخِيصَة has none, and both adjectives agree with the feminine سَيَّارَة."}
+      {"t":"fill","q":"سَيَّارَة __","p":"a cheap car","a":["رَخِيصَة","rakhīṣa"],"o":["رَخِيص","الرَّخِيصَة","هِيَ"],"why":"سَيَّارَة is feminine and has no ال, so the adjective is رَخِيصَة.","xr":["rakhīṣ","ar-rakhīṣa","hiya"]},
+      {"t":"fill","q":"الطَّالِب __","p":"the new student (a man)","a":["الْجَدِيد","al-jadīd"],"o":["جَدِيد","الْجَدِيدَة","جَدِيدَة"],"why":"A definite noun takes a definite adjective: الْجَدِيد, masculine for a man.","xr":["jadīd","al-jadīda","jadīda"]},
+      {"t":"fill","q":"الْكِتَاب الْجَدِيد __","p":"The new book is easy.","a":["سَهْل","sahl"],"o":["السَّهْل","سَهْلَة","هُوَ"],"why":"The predicate has no article and agrees with the masculine كِتَاب: سَهْل.","xr":["as-sahl","sahla","huwa"]},
+      {"t":"type","p":"a beautiful city","a":["مَدِينَة جَمِيلَة","madīna jamīla"],"hint":"مَدِينَة (city) · جَمِيل","x":["جَمِيل"],"why":"مَدِينَة is feminine (taa marbuta), so the adjective agrees: جَمِيلَة.","xr":["jamīl"]},
+      {"t":"type","p":"the big house","a":["الْبَيْت الْكَبِير","al-bayt al-kabīr"],"hint":"بَيْت · كَبِير","x":["كَبِير"],"why":"Both words take the article: الْبَيْت الْكَبِير.","xr":["kabīr"]},
+      {"t":"type","p":"The old car is cheap.","a":["السَّيَّارَة الْقَدِيمَة رَخِيصَة","as-sayyāra al-qadīma rakhīṣa"],"hint":"سَيَّارَة · قَدِيم (old) · رَخِيص (cheap)","x":["الرَّخِيصَة"],"why":"\"The old car\" has the article on both words; the predicate رَخِيصَة has none, and both adjectives agree with the feminine سَيَّارَة.","xr":["ar-rakhīṣa"]}
     ],
     "idafa": [
       {"t":"mc","q":"'the student's book' =","o":["كِتَاب الطَّالِب","الْكِتَاب الطَّالِب","الطَّالِب كِتَاب","الْكِتَاب طَالِب"],"why":"Owned thing first, with no article; owner second, with the article."},
@@ -926,12 +926,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"the door of the house","a":["بَاب","الْبَيْت"],"x":["الْبَاب"],"why":"First word of an iḍāfa: no article."},
       {"t":"order","p":"the train station","a":["مَحَطَّةْ","الْقِطَار"],"x":["الْمَحَطَّة"],"why":"Iḍāfa: no article on the first word, and its ة is said -at."},
       {"t":"order","p":"Where's the teacher's car?","a":["أَيْنَ","سَيَّارَةْ","الْمُدَرِّس"],"x":["السَّيَّارَة"],"why":"The owned thing comes first in the iḍāfa and takes no article: سَيَّارَةْ الْمُدَرِّس."},
-      {"t":"fill","q":"__ الطَّالِب","p":"the student's book","a":["كِتَاب","kitāb"],"o":["الْكِتَاب","الطَّالِب","هٰذَا"],"why":"The first word of an iḍāfa takes no article: كِتَاب الطَّالِب."},
-      {"t":"fill","q":"مِفْتَاح __","p":"the room key","a":["الْغُرْفَة","al-ghurfa"],"o":["غُرْفَة","الْبَيْت","الْمِفْتَاح"],"why":"The owner comes second, with the article: مِفْتَاح الْغُرْفَة."},
-      {"t":"fill","q":"أَيْنَ __ السَّفَر؟","p":"Where's the passport?","a":["جَوَاز","jawāz"],"o":["الْجَوَاز","سَفَر","هُوَ"],"why":"جَوَاز is the first word of the iḍāfa, so it takes no article."},
-      {"t":"type","p":"the student's book","a":["كِتَاب الطَّالِب","كِتَاب الطَّالِبَة","kitāb aṭ-ṭālib","kitāb aṭ-ṭāliba"],"hint":"كِتَاب · طَالِب","x":["الْكِتَاب"],"why":"First word of an iḍāfa: no article."},
-      {"t":"type","p":"the University of Tulsa","a":["جَامِعَةْ تُولْسَا","jāmiʿat tūlsā"],"hint":"جَامِعَة (university) · تُولْسَا","x":["الْجَامِعَة"],"why":"Iḍāfa with a name: no article on جَامِعَة, and its ة is said -at."},
-      {"t":"type","p":"the door of the car","a":["بَاب السَّيَّارَة","bāb as-sayyāra"],"hint":"بَاب · سَيَّارَة","x":["الْبَاب"],"why":"Iḍāfa: the door comes first with no article; السَّيَّارَة keeps the article."}
+      {"t":"fill","q":"__ الطَّالِب","p":"the student's book","a":["كِتَاب","kitāb"],"o":["الْكِتَاب","الطَّالِب","هٰذَا"],"why":"The first word of an iḍāfa takes no article: كِتَاب الطَّالِب.","xr":["al-kitāb","aṭ-ṭālib","hādhā"]},
+      {"t":"fill","q":"مِفْتَاح __","p":"the room key","a":["الْغُرْفَة","al-ghurfa"],"o":["غُرْفَة","الْبَيْت","الْمِفْتَاح"],"why":"The owner comes second, with the article: مِفْتَاح الْغُرْفَة.","xr":["ghurfa","al-bayt","al-miftāḥ"]},
+      {"t":"fill","q":"أَيْنَ __ السَّفَر؟","p":"Where's the passport?","a":["جَوَاز","jawāz"],"o":["الْجَوَاز","سَفَر","هُوَ"],"why":"جَوَاز is the first word of the iḍāfa, so it takes no article.","xr":["al-jawāz","safar","huwa"]},
+      {"t":"type","p":"the student's book","a":["كِتَاب الطَّالِب","كِتَاب الطَّالِبَة","kitāb aṭ-ṭālib","kitāb aṭ-ṭāliba"],"hint":"كِتَاب · طَالِب","x":["الْكِتَاب"],"why":"First word of an iḍāfa: no article.","xr":["al-kitāb"]},
+      {"t":"type","p":"the University of Tulsa","a":["جَامِعَةْ تُولْسَا","jāmiʿat tūlsā"],"hint":"جَامِعَة (university) · تُولْسَا","x":["الْجَامِعَة"],"why":"Iḍāfa with a name: no article on جَامِعَة, and its ة is said -at.","xr":["al-jāmiʿa"]},
+      {"t":"type","p":"the door of the car","a":["بَاب السَّيَّارَة","bāb as-sayyāra"],"hint":"بَاب · سَيَّارَة","x":["الْبَاب"],"why":"Iḍāfa: the door comes first with no article; السَّيَّارَة keeps the article.","xr":["al-bāb"]}
     ],
     "possessive": [
       {"t":"mc","q":"'my house' =","o":["بَيْتِي","الْبَيْتِي","بَيْت أَنَا","الْبَيْت أَنَا"],"why":"بَيْتِي is \"my house\": the ending makes the noun definite, so no ال and no أَنَا."},
@@ -942,12 +942,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"My house is big.","a":["بَيْتِي","كَبِير"],"x":["الْبَيْت","أَنَا"],"why":"A possessive ending makes the noun definite: بَيْتِي, with no article and no أَنَا."},
       {"t":"order","p":"Her family is big.","a":["عَائِلَتُهَا","كَبِيرَة"],"x":["كَبِير"],"why":"عَائِلَة is feminine, so the adjective agrees: كَبِيرَة."},
       {"t":"order","p":"My friend (a woman) is from Lebanon.","a":["صَدِيقَتِي","مِن","لُبْنَان"],"x":["صَدِيقِي"],"why":"A woman friend: the feminine صَدِيقَتِي, with its ة turned into ت."},
-      {"t":"fill","q":"__ مُدَرِّسَة","p":"My mother is a teacher.","a":["أُمِّي","ummī"],"o":["الْأُمّ","أُمّ","أُمُّهَا"],"why":"\"My mother\" is أُمِّي: an ending, with no article."},
-      {"t":"fill","q":"بَيْتُهُ __","p":"His house is new.","a":["جَدِيد","jadīd"],"o":["الْجَدِيد","جَدِيدَة","هُوَ"],"why":"The predicate has no article and agrees with the masculine بَيْت: جَدِيد."},
-      {"t":"fill","q":"مَدِينَتُنَا __","p":"Our city is small.","a":["صَغِيرَة","ṣaghīra"],"o":["صَغِير","الصَّغِيرَة","هِيَ"],"why":"The predicate has no article and agrees with the feminine مَدِينَة: صَغِيرَة."},
-      {"t":"type","p":"My car is new.","a":["سَيَّارَتِي جَدِيدَة","sayyāratī jadīda"],"hint":"سَيَّارَة · جَدِيد · ة becomes ت","x":["جَدِيد"],"why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة."},
-      {"t":"type","p":"Her house is beautiful.","a":["بَيْتُهَا جَمِيل","baytuhā jamīl"],"hint":"بَيْت · جَمِيل · her = هَا at the end","x":["الْبَيْت"],"why":"A possessive ending makes بَيْت definite, so it takes no article."},
-      {"t":"type","p":"My friend (a man) is tall.","a":["صَدِيقِي طَوِيل","ṣadīqī ṭawīl"],"hint":"صَدِيق (friend) · طَوِيل (tall)","x":["طَوِيلَة"],"why":"A man friend: the masculine صَدِيقِي, and the adjective agrees: طَوِيل, with no ة."}
+      {"t":"fill","q":"__ مُدَرِّسَة","p":"My mother is a teacher.","a":["أُمِّي","ummī"],"o":["الْأُمّ","أُمّ","أُمُّهَا"],"why":"\"My mother\" is أُمِّي: an ending, with no article.","xr":["al-umm","umm","ummuhā"]},
+      {"t":"fill","q":"بَيْتُهُ __","p":"His house is new.","a":["جَدِيد","jadīd"],"o":["الْجَدِيد","جَدِيدَة","هُوَ"],"why":"The predicate has no article and agrees with the masculine بَيْت: جَدِيد.","xr":["al-jadīd","jadīda","huwa"]},
+      {"t":"fill","q":"مَدِينَتُنَا __","p":"Our city is small.","a":["صَغِيرَة","ṣaghīra"],"o":["صَغِير","الصَّغِيرَة","هِيَ"],"why":"The predicate has no article and agrees with the feminine مَدِينَة: صَغِيرَة.","xr":["ṣaghīr","aṣ-ṣaghīra","hiya"]},
+      {"t":"type","p":"My car is new.","a":["سَيَّارَتِي جَدِيدَة","sayyāratī jadīda"],"hint":"سَيَّارَة · جَدِيد · ة becomes ت","x":["جَدِيد"],"why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة.","xr":["jadīd"]},
+      {"t":"type","p":"Her house is beautiful.","a":["بَيْتُهَا جَمِيل","baytuhā jamīl"],"hint":"بَيْت · جَمِيل · her = هَا at the end","x":["الْبَيْت"],"why":"A possessive ending makes بَيْت definite, so it takes no article.","xr":["al-bayt"]},
+      {"t":"type","p":"My friend (a man) is tall.","a":["صَدِيقِي طَوِيل","ṣadīqī ṭawīl"],"hint":"صَدِيق (friend) · طَوِيل (tall)","x":["طَوِيلَة"],"why":"A man friend: the masculine صَدِيقِي, and the adjective agrees: طَوِيل, with no ة.","xr":["ṭawīla"]}
     ],
     "have": [
       {"t":"mc","q":"I have a car.","o":["عِنْدِي سَيَّارَة","عِنْدَ أَنَا سَيَّارَة","أَنَا سَيَّارَة","عِنْدَهُ سَيَّارَة"],"why":"عِنْدِي = with me: its ending says \"I\"; there is no separate word for \"have\"."},
@@ -958,12 +958,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"I have a new car.","a":["عِنْدِي","سَيَّارَة","جَدِيدَة"],"x":["جَدِيد"],"why":"سَيَّارَة ends in taa marbuta, so it is feminine and the adjective agrees: جَدِيدَة."},
       {"t":"order","p":"He has a big house.","a":["عِنْدَهُ","بَيْت","كَبِير"],"x":["الْكَبِير","كَبِيرَة"],"why":"An indefinite noun takes an indefinite adjective: بَيْت كَبِير, with no article, and masculine like بَيْت."},
       {"t":"order","p":"Do you have a question? (to a man)","a":["هَل","عِنْدَكَ","سُؤَال"],"x":["عِنْدَكِ"],"why":"To a man the last letter takes a fatha: عِنْدَكَ."},
-      {"t":"fill","q":"__ سَيَّارَة","p":"He has a car.","a":["عِنْدَهُ","ʿindahu"],"o":["عِنْدَهَا","عِنْدِي","عِنْدَنَا"],"why":"عِنْدَهُ ends in the ending for \"him\": he has."},
-      {"t":"fill","q":"لَيْسَ __ وَقْت","p":"We don't have time.","a":["عِنْدَنَا","ʿindanā"],"o":["عِنْدِي","عِنْدَهُ","عِنْدَهَا"],"why":"We have is عِنْدَنَا: لَيْسَ عِنْدَنَا وَقْت."},
-      {"t":"fill","q":"عِنْدَهَا شَقَّة __","p":"She has a beautiful apartment.","a":["جَمِيلَة","jamīla"],"o":["جَمِيل","الْجَمِيلَة","الْجَمِيل"],"why":"شَقَّة is feminine and has no article, so the adjective is feminine with no article: جَمِيلَة."},
-      {"t":"type","p":"I have a small room.","a":["عِنْدِي غُرْفَة صَغِيرَة","أَنَا عِنْدِي غُرْفَة صَغِيرَة","ʿindī ghurfa ṣaghīra","anā ʿindī ghurfa ṣaghīra"],"hint":"غُرْفَة (room) · صَغِير (small)","x":["صَغِير"],"why":"غُرْفَة is feminine (taa marbuta), so the adjective agrees: صَغِيرَة."},
-      {"t":"type","p":"She has a new car.","a":["عِنْدَهَا سَيَّارَة جَدِيدَة","هِيَ عِنْدَهَا سَيَّارَة جَدِيدَة","ʿindahā sayyāra jadīda","hiya ʿindahā sayyāra jadīda"],"hint":"she · سَيَّارَة (car) · جَدِيد (new)","x":["الْجَدِيدَة"],"why":"An indefinite noun takes an indefinite adjective: سَيَّارَة جَدِيدَة, no article on either word."},
-      {"t":"type","p":"I don't have a car.","a":["لَيْسَ عِنْدِي سَيَّارَة","laysa ʿindī sayyāra"],"hint":"لَيْسَ (not) · عِنْدِي · سَيَّارَة","x":["لَا"],"why":"عِنْدِي is not a verb, so it is made negative with لَيْسَ, never لَا."}
+      {"t":"fill","q":"__ سَيَّارَة","p":"He has a car.","a":["عِنْدَهُ","ʿindahu"],"o":["عِنْدَهَا","عِنْدِي","عِنْدَنَا"],"why":"عِنْدَهُ ends in the ending for \"him\": he has.","xr":["ʿindahā","ʿindī","ʿindanā"]},
+      {"t":"fill","q":"لَيْسَ __ وَقْت","p":"We don't have time.","a":["عِنْدَنَا","ʿindanā"],"o":["عِنْدِي","عِنْدَهُ","عِنْدَهَا"],"why":"We have is عِنْدَنَا: لَيْسَ عِنْدَنَا وَقْت.","xr":["ʿindī","ʿindahu","ʿindahā"]},
+      {"t":"fill","q":"عِنْدَهَا شَقَّة __","p":"She has a beautiful apartment.","a":["جَمِيلَة","jamīla"],"o":["جَمِيل","الْجَمِيلَة","الْجَمِيل"],"why":"شَقَّة is feminine and has no article, so the adjective is feminine with no article: جَمِيلَة.","xr":["jamīl","al-jamīla","al-jamīl"]},
+      {"t":"type","p":"I have a small room.","a":["عِنْدِي غُرْفَة صَغِيرَة","أَنَا عِنْدِي غُرْفَة صَغِيرَة","ʿindī ghurfa ṣaghīra","anā ʿindī ghurfa ṣaghīra"],"hint":"غُرْفَة (room) · صَغِير (small)","x":["صَغِير"],"why":"غُرْفَة is feminine (taa marbuta), so the adjective agrees: صَغِيرَة.","xr":["ṣaghīr"]},
+      {"t":"type","p":"She has a new car.","a":["عِنْدَهَا سَيَّارَة جَدِيدَة","هِيَ عِنْدَهَا سَيَّارَة جَدِيدَة","ʿindahā sayyāra jadīda","hiya ʿindahā sayyāra jadīda"],"hint":"she · سَيَّارَة (car) · جَدِيد (new)","x":["الْجَدِيدَة"],"why":"An indefinite noun takes an indefinite adjective: سَيَّارَة جَدِيدَة, no article on either word.","xr":["al-jadīda"]},
+      {"t":"type","p":"I don't have a car.","a":["لَيْسَ عِنْدِي سَيَّارَة","laysa ʿindī sayyāra"],"hint":"لَيْسَ (not) · عِنْدِي · سَيَّارَة","x":["لَا"],"why":"عِنْدِي is not a verb, so it is made negative with لَيْسَ, never لَا.","xr":["lā"]}
     ],
     "plurals": [
       {"t":"mc","q":"teachers (men) =","o":["مُدَرِّسُون","مُدَرِّسَات","مُدَرِّس","مُدَرِّسَة"],"why":"A group of men takes the sound plural -ūn: مُدَرِّسُون."},
@@ -974,12 +974,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"the new cars","a":["السَّيَّارَات","الْجَدِيدَة"],"x":["جَدِيدَة","جَدِيدُون"],"why":"Both words take the article, and a plural of things takes a feminine adjective: الْجَدِيدَة."},
       {"t":"order","p":"The books are big.","a":["الْكُتُب","كَبِيرَة"],"x":["كَبِيرُون","هِيَ"],"why":"No \"is\" in Arabic, and a plural of things takes a feminine singular adjective: كَبِيرَة."},
       {"t":"order","p":"The teachers (women) are at the school.","a":["الْمُدَرِّسَات","فِي","الْمَدْرَسَة"],"x":["الْمُدَرِّسُون"],"why":"A group of women takes the feminine plural -āt: الْمُدَرِّسَات."},
-      {"t":"fill","q":"هٰذِهِ __ جَدِيدَة","p":"These are new books.","a":["كُتُب","kutub"],"o":["كِتَاب","كِتَابُون","كُتُبُون"],"why":"The plural of كِتَاب is the broken plural كُتُب; -ūn is only for people."},
-      {"t":"fill","q":"__ فِي الْمَكْتَب","p":"The teachers (women) are in the office.","a":["الْمُدَرِّسَات","al-mudarrisāt"],"o":["الْمُدَرِّسُون","مُدَرِّسَات","الْمُدَرِّسَة"],"why":"Women: the feminine plural -āt, with the article for \"the teachers\"."},
-      {"t":"fill","q":"السَّيَّارَات __","p":"The cars are cheap.","a":["رَخِيصَة","rakhīṣa"],"o":["رَخِيصُون","رَخِيص","الرَّخِيصَة"],"why":"A plural of things takes a feminine singular adjective: رَخِيصَة, with no article."},
-      {"t":"type","p":"the new books","a":["الْكُتُب الْجَدِيدَة","al-kutub al-jadīda"],"hint":"كِتَاب (plural كُتُب) · جَدِيد (new)","x":["جَدِيدَة"],"why":"Both words take the article, and the adjective is feminine because كُتُب is a plural of things."},
-      {"t":"type","p":"The cars are big.","a":["السَّيَّارَات كَبِيرَة","as-sayyārāt kabīra"],"hint":"سَيَّارَة (plural سَيَّارَات) · كَبِير (big)","x":["كَبِير","الْكَبِيرَة"],"why":"A plural of things takes a feminine adjective: كَبِيرَة agrees, with no article on the predicate."},
-      {"t":"type","p":"The teachers (women) are here.","a":["الْمُدَرِّسَات هُنَا","al-mudarrisāt hunā"],"hint":"مُدَرِّسَة (plural -āt) · هُنَا (here)","x":["الْمُدَرِّسُون"],"why":"A group of women takes the feminine plural: الْمُدَرِّسَات."}
+      {"t":"fill","q":"هٰذِهِ __ جَدِيدَة","p":"These are new books.","a":["كُتُب","kutub"],"o":["كِتَاب","كِتَابُون","كُتُبُون"],"why":"The plural of كِتَاب is the broken plural كُتُب; -ūn is only for people.","xr":["kitāb","kitābūn","kutubūn"]},
+      {"t":"fill","q":"__ فِي الْمَكْتَب","p":"The teachers (women) are in the office.","a":["الْمُدَرِّسَات","al-mudarrisāt"],"o":["الْمُدَرِّسُون","مُدَرِّسَات","الْمُدَرِّسَة"],"why":"Women: the feminine plural -āt, with the article for \"the teachers\".","xr":["al-mudarrisūn","mudarrisāt","al-mudarrisa"]},
+      {"t":"fill","q":"السَّيَّارَات __","p":"The cars are cheap.","a":["رَخِيصَة","rakhīṣa"],"o":["رَخِيصُون","رَخِيص","الرَّخِيصَة"],"why":"A plural of things takes a feminine singular adjective: رَخِيصَة, with no article.","xr":["rakhīṣūn","rakhīṣ","ar-rakhīṣa"]},
+      {"t":"type","p":"the new books","a":["الْكُتُب الْجَدِيدَة","al-kutub al-jadīda"],"hint":"كِتَاب (plural كُتُب) · جَدِيد (new)","x":["جَدِيدَة"],"why":"Both words take the article, and the adjective is feminine because كُتُب is a plural of things.","xr":["jadīda"]},
+      {"t":"type","p":"The cars are big.","a":["السَّيَّارَات كَبِيرَة","as-sayyārāt kabīra"],"hint":"سَيَّارَة (plural سَيَّارَات) · كَبِير (big)","x":["كَبِير","الْكَبِيرَة"],"why":"A plural of things takes a feminine adjective: كَبِيرَة agrees, with no article on the predicate.","xr":["kabīr","al-kabīra"]},
+      {"t":"type","p":"The teachers (women) are here.","a":["الْمُدَرِّسَات هُنَا","al-mudarrisāt hunā"],"hint":"مُدَرِّسَة (plural -āt) · هُنَا (here)","x":["الْمُدَرِّسُون"],"why":"A group of women takes the feminine plural: الْمُدَرِّسَات.","xr":["al-mudarrisūn"]}
     ],
     "roots": [
       {"t":"mc","q":"Which word comes from the same root as كِتَاب (book)?","o":["مَكْتَب","قَلَم","بَيْت","دَرْس"],"why":"مَكْتَب keeps the root letters ك ت ب; it is the place of writing."},
@@ -990,12 +990,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"the big library","a":["الْمَكْتَبَة","الْكَبِيرَة"],"x":["كَبِيرَة","الْكَبِير"],"why":"Both words take the article, and مَكْتَبَة is feminine (taa marbuta), so the adjective agrees."},
       {"t":"order","p":"My father is a writer.","a":["أَبِي","كَاتِب"],"x":["هُوَ","كِتَاب"],"why":"No \"is\" in Arabic: أَبِي كَاتِب. كَاتِب is the person, كِتَاب the book."},
       {"t":"order","p":"a new school","a":["مَدْرَسَة","جَدِيدَة"],"x":["جَدِيد"],"why":"مَدْرَسَة is feminine, so the adjective agrees: جَدِيدَة."},
-      {"t":"fill","q":"أَبِي __","p":"My father is a writer.","a":["كَاتِب","kātib"],"o":["مَكْتَب","كِتَاب","الْكَاتِب"],"why":"The person pattern: كَاتِب, with no article in an \"is\" sentence."},
-      {"t":"fill","q":"الْمُدَرِّسَة فِي __","p":"The teacher (a woman) is in the office.","a":["الْمَكْتَب","al-maktab"],"o":["الْكِتَاب","الْكَاتِب","الْمَكْتَبَة"],"why":"The office is the place of writing: الْمَكْتَب. مَكْتَبَة is a library."},
-      {"t":"fill","q":"هٰذِهِ __ كَبِيرَة","p":"This is a big school.","a":["مَدْرَسَة","madrasa"],"o":["دَرْس","مُدَرِّس","مَكْتَب"],"why":"هٰذِهِ and كَبِيرَة are feminine, so the noun is the feminine مَدْرَسَة."},
-      {"t":"type","p":"The library is big.","a":["الْمَكْتَبَة كَبِيرَة","al-maktaba kabīra"],"hint":"مَكْتَبَة (library) · كَبِير (big)","x":["كَبِير","الْكَبِيرَة"],"why":"مَكْتَبَة is feminine, so كَبِيرَة agrees; no article on the predicate."},
-      {"t":"type","p":"the new restaurant","a":["الْمَطْعَم الْجَدِيد","al-maṭʿam al-jadīd"],"hint":"مَطْعَم (restaurant) · جَدِيد (new)","x":["جَدِيد"],"why":"Both words take the article: الْمَطْعَم الْجَدِيد."},
-      {"t":"type","p":"The lesson is easy.","a":["الدَّرْس سَهْل","ad-dars sahl"],"hint":"دَرْس (lesson) · سَهْل (easy)","x":["السَّهْل"],"why":"No \"is\" in Arabic, and no article on سَهْل: with it, the phrase would mean \"the easy lesson\"."}
+      {"t":"fill","q":"أَبِي __","p":"My father is a writer.","a":["كَاتِب","kātib"],"o":["مَكْتَب","كِتَاب","الْكَاتِب"],"why":"The person pattern: كَاتِب, with no article in an \"is\" sentence.","xr":["maktab","kitāb","al-kātib"]},
+      {"t":"fill","q":"الْمُدَرِّسَة فِي __","p":"The teacher (a woman) is in the office.","a":["الْمَكْتَب","al-maktab"],"o":["الْكِتَاب","الْكَاتِب","الْمَكْتَبَة"],"why":"The office is the place of writing: الْمَكْتَب. مَكْتَبَة is a library.","xr":["al-kitāb","al-kātib","al-maktaba"]},
+      {"t":"fill","q":"هٰذِهِ __ كَبِيرَة","p":"This is a big school.","a":["مَدْرَسَة","madrasa"],"o":["دَرْس","مُدَرِّس","مَكْتَب"],"why":"هٰذِهِ and كَبِيرَة are feminine, so the noun is the feminine مَدْرَسَة.","xr":["dars","mudarris","maktab"]},
+      {"t":"type","p":"The library is big.","a":["الْمَكْتَبَة كَبِيرَة","al-maktaba kabīra"],"hint":"مَكْتَبَة (library) · كَبِير (big)","x":["كَبِير","الْكَبِيرَة"],"why":"مَكْتَبَة is feminine, so كَبِيرَة agrees; no article on the predicate.","xr":["kabīr","al-kabīra"]},
+      {"t":"type","p":"the new restaurant","a":["الْمَطْعَم الْجَدِيد","al-maṭʿam al-jadīd"],"hint":"مَطْعَم (restaurant) · جَدِيد (new)","x":["جَدِيد"],"why":"Both words take the article: الْمَطْعَم الْجَدِيد.","xr":["jadīd"]},
+      {"t":"type","p":"The lesson is easy.","a":["الدَّرْس سَهْل","ad-dars sahl"],"hint":"دَرْس (lesson) · سَهْل (easy)","x":["السَّهْل"],"why":"No \"is\" in Arabic, and no article on سَهْل: with it, the phrase would mean \"the easy lesson\".","xr":["as-sahl"]}
     ],
     "present": [
       {"t":"mc","q":"She studies.","o":["هِيَ تَدْرُس","هِيَ يَدْرُس","هِيَ أَدْرُس","هِيَ تَدْرُسِين"],"why":"She takes the same prefix as \"you\" to a man: تَدْرُس."},
@@ -1006,12 +1006,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"She drinks tea.","a":["هِيَ","تَشْرَب","الشَّاي"],"x":["يَشْرَب"],"why":"The verb agrees with a feminine subject: هِيَ تَشْرَب, not the \"he\" form."},
       {"t":"order","p":"You speak Arabic. (to a woman)","a":["أَنْتِ","تَتَكَلَّمِين","الْعَرَبِيَّة"],"x":["تَتَكَلَّم","عَرَبِيَّة"],"why":"To a woman the verb adds -īn, and languages take the article: الْعَرَبِيَّة."},
       {"t":"order","p":"We live in a big house.","a":["نَسْكُن","فِي","بَيْت","كَبِير"],"x":["كَبِيرَة"],"why":"بَيْت is masculine, so the adjective agrees: كَبِير, with no ة."},
-      {"t":"fill","q":"هِيَ __ فِي مَكْتَب","p":"She works in an office.","a":["تَعْمَل","taʿmal"],"o":["يَعْمَل","أَعْمَل","تَعْمَلِين"],"why":"She takes the prefix تَ and no ending: تَعْمَل."},
-      {"t":"fill","q":"هُم __ فِي الْجَامِعَة","p":"They study at the university.","a":["يَدْرُسُون","yadrusūn"],"o":["يَدْرُس","نَدْرُس","تَدْرُسِين"],"why":"They = يَ in front and -ūn at the end: يَدْرُسُون."},
-      {"t":"fill","q":"__ الْقَهْوَة","p":"I like coffee.","a":["أُحِبّ","uḥibb"],"o":["يُحِبّ","تُحِبّ","نُحِبّ"],"why":"The prefix أُ says \"I\": أُحِبّ."},
-      {"t":"type","p":"She works in Chicago.","a":["تَعْمَل فِي شِيكَاغُو","هِيَ تَعْمَل فِي شِيكَاغُو","taʿmal fī shīkāghū","hiya taʿmal fī shīkāghū"],"hint":"أَعْمَل (I work) · she · شِيكَاغُو","x":["يَعْمَل"],"why":"She: the feminine prefix agrees with the subject, تَعْمَل."},
-      {"t":"type","p":"I study Arabic.","a":["أَدْرُس الْعَرَبِيَّة","أَنَا أَدْرُس الْعَرَبِيَّة","adrus al-ʿarabiyya","anā adrus al-ʿarabiyya"],"hint":"أَدْرُس (I study) · عَرَبِيَّة (Arabic)","x":["عَرَبِيَّة"],"why":"Languages take the article: الْعَرَبِيَّة."},
-      {"t":"type","p":"They live in Cairo.","a":["يَسْكُنُون فِي الْقَاهِرَة","هُم يَسْكُنُون فِي الْقَاهِرَة","yaskunūn fī al-qāhira","hum yaskunūn fī al-qāhira"],"hint":"أَسْكُن (I live) · they · الْقَاهِرَة (Cairo)","x":["يَسْكُن"],"why":"They = the \"he\" form plus -ūn: يَسْكُنُون."}
+      {"t":"fill","q":"هِيَ __ فِي مَكْتَب","p":"She works in an office.","a":["تَعْمَل","taʿmal"],"o":["يَعْمَل","أَعْمَل","تَعْمَلِين"],"why":"She takes the prefix تَ and no ending: تَعْمَل.","xr":["yaʿmal","aʿmal","taʿmalīn"]},
+      {"t":"fill","q":"هُم __ فِي الْجَامِعَة","p":"They study at the university.","a":["يَدْرُسُون","yadrusūn"],"o":["يَدْرُس","نَدْرُس","تَدْرُسِين"],"why":"They = يَ in front and -ūn at the end: يَدْرُسُون.","xr":["yadrus","nadrus","tadrusīn"]},
+      {"t":"fill","q":"__ الْقَهْوَة","p":"I like coffee.","a":["أُحِبّ","uḥibb"],"o":["يُحِبّ","تُحِبّ","نُحِبّ"],"why":"The prefix أُ says \"I\": أُحِبّ.","xr":["yuḥibb","tuḥibb","nuḥibb"]},
+      {"t":"type","p":"She works in Chicago.","a":["تَعْمَل فِي شِيكَاغُو","هِيَ تَعْمَل فِي شِيكَاغُو","taʿmal fī shīkāghū","hiya taʿmal fī shīkāghū"],"hint":"أَعْمَل (I work) · she · شِيكَاغُو","x":["يَعْمَل"],"why":"She: the feminine prefix agrees with the subject, تَعْمَل.","xr":["yaʿmal"]},
+      {"t":"type","p":"I study Arabic.","a":["أَدْرُس الْعَرَبِيَّة","أَنَا أَدْرُس الْعَرَبِيَّة","adrus al-ʿarabiyya","anā adrus al-ʿarabiyya"],"hint":"أَدْرُس (I study) · عَرَبِيَّة (Arabic)","x":["عَرَبِيَّة"],"why":"Languages take the article: الْعَرَبِيَّة.","xr":["ʿarabiyya"]},
+      {"t":"type","p":"They live in Cairo.","a":["يَسْكُنُون فِي الْقَاهِرَة","هُم يَسْكُنُون فِي الْقَاهِرَة","yaskunūn fī al-qāhira","hum yaskunūn fī al-qāhira"],"hint":"أَسْكُن (I live) · they · الْقَاهِرَة (Cairo)","x":["يَسْكُن"],"why":"They = the \"he\" form plus -ūn: يَسْكُنُون.","xr":["yaskun"]}
     ],
     "verb-sentences": [
       {"t":"mc","q":"What does يَشْرَب أَحْمَد الشَّاي mean?","o":["Ahmad drinks tea.","Does Ahmad drink tea?","Drink tea, Ahmad!","Ahmad doesn't drink tea."],"why":"Verb first is a normal statement in Arabic, not a question."},
@@ -1022,12 +1022,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"Sara studies Arabic. (verb, then the name)","a":["تَدْرُس","سَارَة","الْعَرَبِيَّة"],"x":["يَدْرُس"],"why":"Sara is a woman: the feminine prefix agrees with her, even when the verb comes first."},
       {"t":"order","p":"Fatima reads the new book. (start with the name)","a":["فَاطِمَة","تَقْرَأ","الْكِتَاب","الْجَدِيد"],"x":["جَدِيد"],"why":"Both words take the article: الْكِتَاب الْجَدِيد."},
       {"t":"order","p":"Maryam lives in a small apartment. (verb, then the name)","a":["تَسْكُن","مَرْيَم","فِي","شَقَّة","صَغِيرَة"],"x":["صَغِير"],"why":"شَقَّة is feminine (taa marbuta), so the adjective agrees: صَغِيرَة."},
-      {"t":"fill","q":"__ سَارَة فِي مَكْتَب","p":"Sara works in an office.","a":["تَعْمَل","taʿmal"],"o":["يَعْمَل","تَعْمَلِين","يَعْمَلُون"],"why":"Sara is a woman: the \"she\" form تَعْمَل, even before her name."},
-      {"t":"fill","q":"تَدْرُس فَاطِمَة __","p":"Fatima studies Arabic.","a":["الْعَرَبِيَّة","al-ʿarabiyya"],"o":["عَرَبِيَّة","الْعَرَبِيّ","عَرَبِيّ"],"why":"Languages take the article: الْعَرَبِيَّة."},
-      {"t":"fill","q":"هَل __ عُمَر فِي الْبَيْت؟","p":"Does Omar work at home?","a":["يَعْمَل","yaʿmal"],"o":["تَعْمَل","أَعْمَل","يَعْمَلُون"],"why":"Omar is one man: the \"he\" form يَعْمَل after هَل."},
-      {"t":"type","p":"Sara studies Arabic.","a":["تَدْرُس سَارَة الْعَرَبِيَّة","سَارَة تَدْرُس الْعَرَبِيَّة","tadrus sāra al-ʿarabiyya","sāra tadrus al-ʿarabiyya"],"hint":"أَدْرُس (I study) · سَارَة","x":["يَدْرُس"],"why":"Sara is a woman: the feminine prefix agrees with her in either order."},
-      {"t":"type","p":"Omar likes Arabic coffee.","a":["يُحِبّ عُمَر الْقَهْوَة الْعَرَبِيَّة","عُمَر يُحِبّ الْقَهْوَة الْعَرَبِيَّة","yuḥibb ʿumar al-qahwa al-ʿarabiyya","ʿumar yuḥibb al-qahwa al-ʿarabiyya"],"hint":"أُحِبّ (I like) · عُمَر · قَهْوَة عَرَبِيَّة","x":["عَرَبِيَّة"],"why":"Coffee in general takes the article, and so does its adjective: الْقَهْوَة الْعَرَبِيَّة."},
-      {"t":"type","p":"Maryam lives in Amman.","a":["تَسْكُن مَرْيَم فِي عَمَّان","مَرْيَم تَسْكُن فِي عَمَّان","taskun maryam fī ʿammān","maryam taskun fī ʿammān"],"hint":"أَسْكُن (I live) · مَرْيَم · عَمَّان (Amman)","x":["يَسْكُن"],"why":"Maryam is a woman, so the verb agrees: the feminine تَسْكُن."}
+      {"t":"fill","q":"__ سَارَة فِي مَكْتَب","p":"Sara works in an office.","a":["تَعْمَل","taʿmal"],"o":["يَعْمَل","تَعْمَلِين","يَعْمَلُون"],"why":"Sara is a woman: the \"she\" form تَعْمَل, even before her name.","xr":["yaʿmal","taʿmalīn","yaʿmalūn"]},
+      {"t":"fill","q":"تَدْرُس فَاطِمَة __","p":"Fatima studies Arabic.","a":["الْعَرَبِيَّة","al-ʿarabiyya"],"o":["عَرَبِيَّة","الْعَرَبِيّ","عَرَبِيّ"],"why":"Languages take the article: الْعَرَبِيَّة.","xr":["ʿarabiyya","al-ʿarabī","ʿarabī"]},
+      {"t":"fill","q":"هَل __ عُمَر فِي الْبَيْت؟","p":"Does Omar work at home?","a":["يَعْمَل","yaʿmal"],"o":["تَعْمَل","أَعْمَل","يَعْمَلُون"],"why":"Omar is one man: the \"he\" form يَعْمَل after هَل.","xr":["taʿmal","aʿmal","yaʿmalūn"]},
+      {"t":"type","p":"Sara studies Arabic.","a":["تَدْرُس سَارَة الْعَرَبِيَّة","سَارَة تَدْرُس الْعَرَبِيَّة","tadrus sāra al-ʿarabiyya","sāra tadrus al-ʿarabiyya"],"hint":"أَدْرُس (I study) · سَارَة","x":["يَدْرُس"],"why":"Sara is a woman: the feminine prefix agrees with her in either order.","xr":["yadrus"]},
+      {"t":"type","p":"Omar likes Arabic coffee.","a":["يُحِبّ عُمَر الْقَهْوَة الْعَرَبِيَّة","عُمَر يُحِبّ الْقَهْوَة الْعَرَبِيَّة","yuḥibb ʿumar al-qahwa al-ʿarabiyya","ʿumar yuḥibb al-qahwa al-ʿarabiyya"],"hint":"أُحِبّ (I like) · عُمَر · قَهْوَة عَرَبِيَّة","x":["عَرَبِيَّة"],"why":"Coffee in general takes the article, and so does its adjective: الْقَهْوَة الْعَرَبِيَّة.","xr":["ʿarabiyya"]},
+      {"t":"type","p":"Maryam lives in Amman.","a":["تَسْكُن مَرْيَم فِي عَمَّان","مَرْيَم تَسْكُن فِي عَمَّان","taskun maryam fī ʿammān","maryam taskun fī ʿammān"],"hint":"أَسْكُن (I live) · مَرْيَم · عَمَّان (Amman)","x":["يَسْكُن"],"why":"Maryam is a woman, so the verb agrees: the feminine تَسْكُن.","xr":["yaskun"]}
     ],
     "negation": [
       {"t":"mc","q":"I don't know.","o":["لَا أَعْرِف","لَيْسَ أَعْرِف","أَنَا لَا","لَا يَعْرِف"],"why":"A present verb takes لَا right in front of it; the prefix أَ says \"I\"."},
@@ -1038,12 +1038,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"The room isn't big. (start with \"the room\")","a":["الْغُرْفَة","لَيْسَت","كَبِيرَة"],"x":["لَيْسَ","كَبِير"],"why":"غُرْفَة is feminine, so لَيْسَت and كَبِيرَة both agree with it."},
       {"t":"order","p":"I don't speak French.","a":["لَا","أَتَكَلَّم","الْفَرَنْسِيَّة"],"x":["لَيْسَ","فَرَنْسِيَّة"],"why":"لَا goes before a present verb, and languages take the article: الْفَرَنْسِيَّة."},
       {"t":"order","p":"She isn't at home. (start with \"she\")","a":["هِيَ","لَيْسَت","فِي","الْبَيْت"],"x":["لَيْسَ","بَيْت"],"why":"لَيْسَت agrees with the feminine هِيَ, and \"at home\" takes the article: فِي الْبَيْت."},
-      {"t":"fill","q":"هُوَ __ هُنَا","p":"He's not here.","a":["لَيْسَ","laysa"],"o":["لَا","لَيْسَت","لَسْتُ"],"why":"No verb in the sentence, and the subject is \"he\": لَيْسَ."},
-      {"t":"fill","q":"__ أَفْهَم","p":"I don't understand.","a":["لَا","lā"],"o":["لَيْسَ","لَسْتُ","لَيْسَت"],"why":"أَفْهَم is a present verb, so \"not\" is لَا."},
-      {"t":"fill","q":"الْعَرَبِيَّة __ صَعْبَة","p":"Arabic isn't hard.","a":["لَيْسَت","laysat"],"o":["لَيْسَ","لَا","لَسْتُ"],"why":"الْعَرَبِيَّة is feminine, so \"is not\" is the feminine لَيْسَت."},
-      {"t":"type","p":"I don't have time.","a":["لَيْسَ عِنْدِي وَقْت","laysa ʿindī waqt"],"hint":"لَيْسَ · عِنْدِي · وَقْت (time)","x":["لَا"],"why":"عِنْدِي is not a verb, so \"not\" is لَيْسَ, never لَا."},
-      {"t":"type","p":"She isn't busy.","a":["هِيَ لَيْسَت مَشْغُولَة","لَيْسَت مَشْغُولَة","hiya laysat mashghūla","laysat mashghūla"],"hint":"she · لَيْسَ (not) · مَشْغُول (busy)","x":["لَيْسَ","مَشْغُول"],"why":"She: لَيْسَت and مَشْغُولَة are feminine to agree with هِيَ."},
-      {"t":"type","p":"The car isn't new.","a":["السَّيَّارَة لَيْسَت جَدِيدَة","لَيْسَت السَّيَّارَة جَدِيدَة","as-sayyāra laysat jadīda","laysat as-sayyāra jadīda"],"hint":"سَيَّارَة (car) · لَيْسَ (not) · جَدِيد (new)","x":["جَدِيد","الْجَدِيدَة"],"why":"سَيَّارَة is feminine: لَيْسَت and جَدِيدَة agree, and the predicate has no article."}
+      {"t":"fill","q":"هُوَ __ هُنَا","p":"He's not here.","a":["لَيْسَ","laysa"],"o":["لَا","لَيْسَت","لَسْتُ"],"why":"No verb in the sentence, and the subject is \"he\": لَيْسَ.","xr":["lā","laysat","lastu"]},
+      {"t":"fill","q":"__ أَفْهَم","p":"I don't understand.","a":["لَا","lā"],"o":["لَيْسَ","لَسْتُ","لَيْسَت"],"why":"أَفْهَم is a present verb, so \"not\" is لَا.","xr":["laysa","lastu","laysat"]},
+      {"t":"fill","q":"الْعَرَبِيَّة __ صَعْبَة","p":"Arabic isn't hard.","a":["لَيْسَت","laysat"],"o":["لَيْسَ","لَا","لَسْتُ"],"why":"الْعَرَبِيَّة is feminine, so \"is not\" is the feminine لَيْسَت.","xr":["laysa","lā","lastu"]},
+      {"t":"type","p":"I don't have time.","a":["لَيْسَ عِنْدِي وَقْت","laysa ʿindī waqt"],"hint":"لَيْسَ · عِنْدِي · وَقْت (time)","x":["لَا"],"why":"عِنْدِي is not a verb, so \"not\" is لَيْسَ, never لَا.","xr":["lā"]},
+      {"t":"type","p":"She isn't busy.","a":["هِيَ لَيْسَت مَشْغُولَة","لَيْسَت مَشْغُولَة","hiya laysat mashghūla","laysat mashghūla"],"hint":"she · لَيْسَ (not) · مَشْغُول (busy)","x":["لَيْسَ","مَشْغُول"],"why":"She: لَيْسَت and مَشْغُولَة are feminine to agree with هِيَ.","xr":["laysa","mashghūl"]},
+      {"t":"type","p":"The car isn't new.","a":["السَّيَّارَة لَيْسَت جَدِيدَة","لَيْسَت السَّيَّارَة جَدِيدَة","as-sayyāra laysat jadīda","laysat as-sayyāra jadīda"],"hint":"سَيَّارَة (car) · لَيْسَ (not) · جَدِيد (new)","x":["جَدِيد","الْجَدِيدَة"],"why":"سَيَّارَة is feminine: لَيْسَت and جَدِيدَة agree, and the predicate has no article.","xr":["jadīd","al-jadīda"]}
     ],
     "adverbs": [
       {"t":"mc","q":"very big =","o":["كَبِير جِدًّا","جِدًّا كَبِير","كَبِير كُلّ","الْكَبِير جِدًّا"],"why":"جِدًّا comes after the adjective."},
@@ -1054,12 +1054,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"Tomorrow is Monday. (start with \"tomorrow\")","a":["غَدًا","يَوْم","الِاثْنَيْن"],"x":["الْيَوْم"],"why":"Day names are an iḍāfa: يَوْم takes no article."},
       {"t":"order","p":"The city is very beautiful.","a":["الْمَدِينَة","جَمِيلَة","جِدًّا"],"x":["جَمِيل"],"why":"مَدِينَة is feminine, so the adjective agrees: جَمِيلَة, and جِدًّا comes after it."},
       {"t":"order","p":"I study Arabic every day. (time at the end)","a":["أَدْرُس","الْعَرَبِيَّة","كُلّ","يَوْم"],"x":["الْيَوْم","عَرَبِيَّة"],"why":"كُلّ يَوْم has no article, but the language takes the article: الْعَرَبِيَّة."},
-      {"t":"fill","q":"أَشْرَب الشَّاي __","p":"I'm drinking tea now.","a":["الْآن","al-ān"],"o":["أَمْس","يَوْم","كُلّ"],"why":"Now is الْآن."},
-      {"t":"fill","q":"الْيَوْم يَوْم __","p":"Today is Thursday.","a":["الْخَمِيس","al-khamīs"],"o":["خَمِيس","الْيَوْم","الْجُمُعَة"],"why":"In a day name the second word takes the article: يَوْم الْخَمِيس."},
-      {"t":"fill","q":"أَعْمَل __ يَوْم","p":"I work every day.","a":["كُلّ","kull"],"o":["جِدًّا","كَثِيرًا","الْآن"],"why":"Every day is كُلّ يَوْم."},
-      {"t":"type","p":"We study Arabic in the evening.","a":["نَدْرُس الْعَرَبِيَّة فِي الْمَسَاء","نَحْنُ نَدْرُس الْعَرَبِيَّة فِي الْمَسَاء","فِي الْمَسَاء نَدْرُس الْعَرَبِيَّة","nadrus al-ʿarabiyya fī al-masāʾ","naḥnu nadrus al-ʿarabiyya fī al-masāʾ","fī al-masāʾ nadrus al-ʿarabiyya"],"hint":"نَدْرُس (we study) · عَرَبِيَّة · فِي الْمَسَاء","x":["مَسَاء"],"why":"In the evening is فِي الْمَسَاء, with the article; languages take the article too."},
-      {"t":"type","p":"She works every day.","a":["تَعْمَل كُلّ يَوْم","هِيَ تَعْمَل كُلّ يَوْم","كُلّ يَوْم تَعْمَل","taʿmal kull yawm","hiya taʿmal kull yawm","kull yawm taʿmal"],"hint":"أَعْمَل (I work) · she · كُلّ يَوْم","x":["يَعْمَل","الْيَوْم"],"why":"She: the feminine prefix agrees, تَعْمَل; كُلّ يَوْم takes no article."},
-      {"t":"type","p":"My father is in the office now.","a":["أَبِي فِي الْمَكْتَب الْآن","الْآن أَبِي فِي الْمَكْتَب","أَبِي الْآن فِي الْمَكْتَب","abī fī al-maktab al-ān","al-ān abī fī al-maktab","abī al-ān fī al-maktab"],"hint":"أَبِي (my father) · مَكْتَب (office) · الْآن (now)","x":["هُوَ"],"why":"No \"is\" in Arabic: أَبِي فِي الْمَكْتَب, with nothing between."}
+      {"t":"fill","q":"أَشْرَب الشَّاي __","p":"I'm drinking tea now.","a":["الْآن","al-ān"],"o":["أَمْس","يَوْم","كُلّ"],"why":"Now is الْآن.","xr":["ams","yawm","kull"]},
+      {"t":"fill","q":"الْيَوْم يَوْم __","p":"Today is Thursday.","a":["الْخَمِيس","al-khamīs"],"o":["خَمِيس","الْيَوْم","الْجُمُعَة"],"why":"In a day name the second word takes the article: يَوْم الْخَمِيس.","xr":["khamīs","al-yawm","al-jumuʿa"]},
+      {"t":"fill","q":"أَعْمَل __ يَوْم","p":"I work every day.","a":["كُلّ","kull"],"o":["جِدًّا","كَثِيرًا","الْآن"],"why":"Every day is كُلّ يَوْم.","xr":["jiddan","kathīran","al-ān"]},
+      {"t":"type","p":"We study Arabic in the evening.","a":["نَدْرُس الْعَرَبِيَّة فِي الْمَسَاء","نَحْنُ نَدْرُس الْعَرَبِيَّة فِي الْمَسَاء","فِي الْمَسَاء نَدْرُس الْعَرَبِيَّة","nadrus al-ʿarabiyya fī al-masāʾ","naḥnu nadrus al-ʿarabiyya fī al-masāʾ","fī al-masāʾ nadrus al-ʿarabiyya"],"hint":"نَدْرُس (we study) · عَرَبِيَّة · فِي الْمَسَاء","x":["مَسَاء"],"why":"In the evening is فِي الْمَسَاء, with the article; languages take the article too.","xr":["masāʾ"]},
+      {"t":"type","p":"She works every day.","a":["تَعْمَل كُلّ يَوْم","هِيَ تَعْمَل كُلّ يَوْم","كُلّ يَوْم تَعْمَل","taʿmal kull yawm","hiya taʿmal kull yawm","kull yawm taʿmal"],"hint":"أَعْمَل (I work) · she · كُلّ يَوْم","x":["يَعْمَل","الْيَوْم"],"why":"She: the feminine prefix agrees, تَعْمَل; كُلّ يَوْم takes no article.","xr":["yaʿmal","al-yawm"]},
+      {"t":"type","p":"My father is in the office now.","a":["أَبِي فِي الْمَكْتَب الْآن","الْآن أَبِي فِي الْمَكْتَب","أَبِي الْآن فِي الْمَكْتَب","abī fī al-maktab al-ān","al-ān abī fī al-maktab","abī al-ān fī al-maktab"],"hint":"أَبِي (my father) · مَكْتَب (office) · الْآن (now)","x":["هُوَ"],"why":"No \"is\" in Arabic: أَبِي فِي الْمَكْتَب, with nothing between.","xr":["huwa"]}
     ],
     "past": [
       {"t":"mc","q":"I studied.","o":["دَرَسْتُ","دَرَسَ","دَرَسَت","أَدْرُس"],"why":"In the past the ending says who: -tu is \"I\". أَدْرُس is the present."},
@@ -1070,12 +1070,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"Sara studied Arabic. (verb, then the name)","a":["دَرَسَت","سَارَة","الْعَرَبِيَّة"],"x":["دَرَسَ"],"why":"Sara is a woman: the feminine ending -at agrees with her, even before her name."},
       {"t":"order","p":"Ahmad lived in a big house. (start with the name)","a":["أَحْمَد","سَكَنَ","فِي","بَيْت","كَبِير"],"x":["سَكَنَت","كَبِيرَة"],"why":"Ahmad is a man and بَيْت is masculine: the verb and the adjective agree, with no feminine ending."},
       {"t":"order","p":"We went to the new restaurant.","a":["ذَهَبْنَا","إِلَى","الْمَطْعَم","الْجَدِيد"],"x":["جَدِيد"],"why":"Both words take the article: الْمَطْعَم الْجَدِيد."},
-      {"t":"fill","q":"سَارَة __ فِي الْقَاهِرَة","p":"Sara lived in Cairo.","a":["سَكَنَت","sakanat"],"o":["سَكَنَ","سَكَنُوا","تَسْكُن"],"why":"Sara is a woman, and it is the past: سَكَنَت."},
-      {"t":"fill","q":"__ إِلَى السُّوق أَمْس","p":"I went to the market yesterday.","a":["ذَهَبْتُ","dhahabtu"],"o":["ذَهَبَ","ذَهَبُوا","أَذْهَب"],"why":"Yesterday, and \"I\": the past with the ending -tu, ذَهَبْتُ."},
-      {"t":"fill","q":"هُم __ الْقَهْوَة","p":"They drank coffee.","a":["شَرِبُوا","sharibū"],"o":["شَرِبَ","يَشْرَبُون","شَرِبْنَا"],"why":"They, in the past: the ending -ū, شَرِبُوا."},
-      {"t":"type","p":"Sara studied Arabic.","a":["دَرَسَت سَارَة الْعَرَبِيَّة","سَارَة دَرَسَت الْعَرَبِيَّة","darasat sāra al-ʿarabiyya","sāra darasat al-ʿarabiyya"],"hint":"دَرَسَ (he studied) · سَارَة","x":["دَرَسَ"],"why":"Sara is a woman: the feminine ending -at agrees with her."},
-      {"t":"type","p":"She ate at the new restaurant.","a":["أَكَلَت فِي الْمَطْعَم الْجَدِيد","هِيَ أَكَلَت فِي الْمَطْعَم الْجَدِيد","akalat fī al-maṭʿam al-jadīd","hiya akalat fī al-maṭʿam al-jadīd"],"hint":"أَكَلَ (he ate) · she · مَطْعَم · جَدِيد","x":["أَكَلَ","جَدِيد"],"why":"She: the feminine ending -at agrees; both words of \"the new restaurant\" take the article."},
-      {"t":"type","p":"I lived in Chicago.","a":["سَكَنْتُ فِي شِيكَاغُو","أَنَا سَكَنْتُ فِي شِيكَاغُو","sakantu fī shīkāghū","anā sakantu fī shīkāghū"],"hint":"سَكَنَ (he lived) · شِيكَاغُو","x":["سَكَنَ"],"why":"The ending -tu says \"I\": سَكَنْتُ."}
+      {"t":"fill","q":"سَارَة __ فِي الْقَاهِرَة","p":"Sara lived in Cairo.","a":["سَكَنَت","sakanat"],"o":["سَكَنَ","سَكَنُوا","تَسْكُن"],"why":"Sara is a woman, and it is the past: سَكَنَت.","xr":["sakana","sakanū","taskun"]},
+      {"t":"fill","q":"__ إِلَى السُّوق أَمْس","p":"I went to the market yesterday.","a":["ذَهَبْتُ","dhahabtu"],"o":["ذَهَبَ","ذَهَبُوا","أَذْهَب"],"why":"Yesterday, and \"I\": the past with the ending -tu, ذَهَبْتُ.","xr":["dhahaba","dhahabū","adhhab"]},
+      {"t":"fill","q":"هُم __ الْقَهْوَة","p":"They drank coffee.","a":["شَرِبُوا","sharibū"],"o":["شَرِبَ","يَشْرَبُون","شَرِبْنَا"],"why":"They, in the past: the ending -ū, شَرِبُوا.","xr":["shariba","yashrabūn","sharibnā"]},
+      {"t":"type","p":"Sara studied Arabic.","a":["دَرَسَت سَارَة الْعَرَبِيَّة","سَارَة دَرَسَت الْعَرَبِيَّة","darasat sāra al-ʿarabiyya","sāra darasat al-ʿarabiyya"],"hint":"دَرَسَ (he studied) · سَارَة","x":["دَرَسَ"],"why":"Sara is a woman: the feminine ending -at agrees with her.","xr":["darasa"]},
+      {"t":"type","p":"She ate at the new restaurant.","a":["أَكَلَت فِي الْمَطْعَم الْجَدِيد","هِيَ أَكَلَت فِي الْمَطْعَم الْجَدِيد","akalat fī al-maṭʿam al-jadīd","hiya akalat fī al-maṭʿam al-jadīd"],"hint":"أَكَلَ (he ate) · she · مَطْعَم · جَدِيد","x":["أَكَلَ","جَدِيد"],"why":"She: the feminine ending -at agrees; both words of \"the new restaurant\" take the article.","xr":["akala","jadīd"]},
+      {"t":"type","p":"I lived in Chicago.","a":["سَكَنْتُ فِي شِيكَاغُو","أَنَا سَكَنْتُ فِي شِيكَاغُو","sakantu fī shīkāghū","anā sakantu fī shīkāghū"],"hint":"سَكَنَ (he lived) · شِيكَاغُو","x":["سَكَنَ"],"why":"The ending -tu says \"I\": سَكَنْتُ.","xr":["sakana"]}
     ],
     "directions": [
       {"t":"mc","q":"Excuse me. (to a woman)","o":["لَوْ سَمَحْتِ","لَوْ سَمَحْتَ","لَوْ سَمَحْتُ","مَعَ السَّلَامَة"],"why":"To a woman the last vowel is a kasra: سَمَحْتِ."},
@@ -1086,12 +1086,12 @@ LANGAPP_PACKS.course['en-ar'] = {
       {"t":"order","p":"The bank is on the left.","a":["الْبَنْك","عَلَى","الْيَسَار"],"x":["يَسَار","هُوَ"],"why":"No \"is\" in Arabic, and the left takes the article: عَلَى الْيَسَار."},
       {"t":"order","p":"Where is the big hotel?","a":["أَيْنَ","الْفُنْدُق","الْكَبِير"],"x":["كَبِير"],"why":"Both words take the article: الْفُنْدُق الْكَبِير."},
       {"t":"order","p":"The pharmacy is near here.","a":["الصَّيْدَلِيَّة","قَرِيبَة","مِن","هُنَا"],"x":["قَرِيب"],"why":"صَيْدَلِيَّة is feminine (taa marbuta), so the adjective agrees: قَرِيبَة."},
-      {"t":"fill","q":"الصَّيْدَلِيَّة __ عَن هُنَا","p":"The pharmacy is far from here.","a":["بَعِيدَة","baʿīda"],"o":["بَعِيد","الْبَعِيدَة","قَرِيبَة"],"why":"A feminine place takes the feminine adjective بَعِيدَة, with no article."},
-      {"t":"fill","q":"أَيْنَ مَحَطَّةْ __؟","p":"Where's the train station?","a":["الْقِطَار","al-qiṭār"],"o":["قِطَار","الْمَحَطَّة","الْفُنْدُق"],"why":"In an iḍāfa the second word takes the article: مَحَطَّةْ الْقِطَار."},
-      {"t":"fill","q":"الْفُنْدُق __ مِن الْمَحَطَّة","p":"The hotel is near the station.","a":["قَرِيب","qarīb"],"o":["قَرِيبَة","الْقَرِيب","بَعِيد"],"why":"فُنْدُق is masculine, so the adjective is قَرِيب, with no article."},
-      {"t":"type","p":"Where's the train station?","a":["أَيْنَ مَحَطَّةْ الْقِطَار","ayna maḥaṭṭat al-qiṭār"],"hint":"أَيْنَ · مَحَطَّة (station) · قِطَار (train)","x":["الْمَحَطَّة"],"why":"Iḍāfa: no article on the first word, مَحَطَّةْ الْقِطَار."},
-      {"t":"type","p":"The bank is on the right.","a":["الْبَنْك عَلَى الْيَمِين","al-bank ʿalā al-yamīn"],"hint":"بَنْك (bank) · عَلَى · يَمِين (right)","x":["يَمِين","هُوَ"],"why":"No \"is\" in Arabic, and the right takes the article: عَلَى الْيَمِين."},
-      {"t":"type","p":"The station is near.","a":["الْمَحَطَّة قَرِيبَة","al-maḥaṭṭa qarība"],"hint":"مَحَطَّة (station) · قَرِيب (near)","x":["قَرِيب"],"why":"مَحَطَّة is feminine, so the adjective agrees: قَرِيبَة."}
+      {"t":"fill","q":"الصَّيْدَلِيَّة __ عَن هُنَا","p":"The pharmacy is far from here.","a":["بَعِيدَة","baʿīda"],"o":["بَعِيد","الْبَعِيدَة","قَرِيبَة"],"why":"A feminine place takes the feminine adjective بَعِيدَة, with no article.","xr":["baʿīd","al-baʿīda","qarība"]},
+      {"t":"fill","q":"أَيْنَ مَحَطَّةْ __؟","p":"Where's the train station?","a":["الْقِطَار","al-qiṭār"],"o":["قِطَار","الْمَحَطَّة","الْفُنْدُق"],"why":"In an iḍāfa the second word takes the article: مَحَطَّةْ الْقِطَار.","xr":["qiṭār","al-maḥaṭṭa","al-funduq"]},
+      {"t":"fill","q":"الْفُنْدُق __ مِن الْمَحَطَّة","p":"The hotel is near the station.","a":["قَرِيب","qarīb"],"o":["قَرِيبَة","الْقَرِيب","بَعِيد"],"why":"فُنْدُق is masculine, so the adjective is قَرِيب, with no article.","xr":["qarība","al-qarīb","baʿīd"]},
+      {"t":"type","p":"Where's the train station?","a":["أَيْنَ مَحَطَّةْ الْقِطَار","ayna maḥaṭṭat al-qiṭār"],"hint":"أَيْنَ · مَحَطَّة (station) · قِطَار (train)","x":["الْمَحَطَّة"],"why":"Iḍāfa: no article on the first word, مَحَطَّةْ الْقِطَار.","xr":["al-maḥaṭṭa"]},
+      {"t":"type","p":"The bank is on the right.","a":["الْبَنْك عَلَى الْيَمِين","al-bank ʿalā al-yamīn"],"hint":"بَنْك (bank) · عَلَى · يَمِين (right)","x":["يَمِين","هُوَ"],"why":"No \"is\" in Arabic, and the right takes the article: عَلَى الْيَمِين.","xr":["yamīn","huwa"]},
+      {"t":"type","p":"The station is near.","a":["الْمَحَطَّة قَرِيبَة","al-maḥaṭṭa qarība"],"hint":"مَحَطَّة (station) · قَرِيب (near)","x":["قَرِيب"],"why":"مَحَطَّة is feminine, so the adjective agrees: قَرِيبَة.","xr":["qarīb"]}
     ]
   },
   PATTERNS: [

@@ -1,0 +1,59 @@
+{
+ "code": "hil",
+ "name": "Hiligaynon (Ilonggo)", "self": "Hiligaynon",
+ "variant": "Hiligaynon of Iloilo City (Panay), the speech Wolfenden's reference grammar describes; modern everyday spelling (siya, mga, Kumusta, hyphen for a glottal stop inside a word: gab-i, san-o, sin-o; no accent marks, no final apostrophe). Bacolod / Negros speech differs little at A1 and is not taught separately",
+ "voice": "hil-PH",
+ "script": "Latin (no extra letters; c, f, j, ñ, q, v, x, z only in loanwords); glottal stop inside a word written with a hyphen; left to right",
+ "basis": "Topic order of Cecile L. Motus, Hiligaynon Lessons (PALI Language Texts, University of Hawaii Press 1971; open access CC BY-NC-SA 4.0), as given in a library catalogue contents note (no lesson numbers): greetings and introductions, this and that, equational sentences, nationalities and occupations, more than one, home town, yes or no, telling time, source pronouns and pre-verbs, family, food, activities, goal focus, actor focus and questions, travel, ownership, interrogatives and where, buying and selling, numbers and days, why; forms checked against Wolfenden 1971 and the Peace Corps Ilonggo packet; cut to 27 A1 lessons",
+ "src": [
+  "Elmer P. Wolfenden, Hiligaynon Reference Grammar (PALI Language Texts, University of Hawaii Press 1971; open-access PDF 2019, CC BY-NC-SA 4.0) via core.ac.uk: read through a fetch tool's extracts in chunks covering the whole text: contents; introduction (based on the speech of Iloilo City, also called Ilongo); phonology and orthography; particles (si / ang, ni / sang, sa / kay, mga, nga, bala, kag, kay); verb focus chart (actor -um- / mag- / nag- / maga- / naga-, goal -on / gin-, referent -an / gin-...-an, accessory i- / gin-, maka- / naka-, ma- / na-); pronoun sets (ako, ikaw / ka, siya, kita, kami, kamo, sila; nakon / ko, nimo / mo, niya, naton, namon, ninyo, nila; sa akon, sa imo, sa iya ...); demonstratives ini, ina, ato and diri, dira, didto; question words ano, sin-o, diin, san-o, pila, ngaa, paano; may and wala / waay; negation with indi / di; imperatives; gusto. No numeral section in the extracts; OCR errors possible",
+  "Cecile L. Motus, Hiligaynon Lessons (PALI, UH Press 1971): NOT opened. Only its contents note (lesson topics without numbers) in the University of Pennsylvania library catalogue record, and its DOAB record (via a library mirror) giving the CC BY-NC-SA 4.0 licence. The DOAB page and the JSTOR full text could not be fetched",
+  "Peace Corps Philippines, Ilonggo Language Packet (Paz B. Meman, c. 1990; ERIC ED402758, archive.org text PDF): read through fetch-tool extracts of about 200,000 of its 219,000 characters: packet contents, glossary (markers ang, sang, si, ni, mga, nga; pronouns; possessives; question words), and workbook / grammar notes (greetings Maayong aga, Kamusta ka?, Salamat, Sige babay, Palihog; Ano ang ngalan mo?, Taga-diin ka?, Pila ang edad mo?; numbers isa ... napulo; ala una, alas tres; Tagpila ini?, Pila ang plete?, Diin ako manaog?, Para sa kanto; Gusto ko magkaon; Kinahanglan ko sang aspirin; May asawa ka na? Wala pa; Indi ako kahibalo; family nanay, tatay, utod, asawa; actor focus ma- / naga- / nag-, goal focus Batonon niya / Ginbaton nila). OCR text, errors possible",
+  "English Wikipedia, Hiligaynon language: speakers (about 8.6 million first-language speakers in 2020 per the infobox; the body cites 9.3 million from the 2000 census), dialects (Iloilo-based standard, urban Iloilo, Bacolodnon, Negrense, Mindanao), 2022 orthography (hyphen for medial glottal stop, mga, siya), greetings (Maayong aga / hapon / gab-i, Kumusta, Salamat, Huo / Indi, Halong), Spanish and native day names and numbers, part of the verb affix table",
+  "Not opened: Ethnologue / SIL entry for hil (paywalled, not tried beyond search), Zorc's work"
+ ],
+ "note": "From the sources: the topic order (Motus contents note, without lesson numbers, so the grouping into lessons is mine), every grammatical form in the titles (Wolfenden and the Peace Corps packet), and the survival phrases (Peace Corps packet; greetings also Wikipedia). My own judgment and common course practice: moving numbers and the question-word lesson earlier than Motus does (time and prices need numbers); teaching actor focus (ma- / naga- / nag-) before goal focus, where Motus puts goal focus first; leaving out -um-, the referent -an and accessory i- focus, the hospital, clothes, cooking, pets and courtship units; the example sentences that combine attested words (Ano ini?, Maestra si Fe, Sin-o ang nagluto?, Ano ang ginluto mo?, Diin ang ...?). Own knowledge, not stated in the extracts I read: wala + verb meaning 'did not' (the extracts only show wala for 'there isn't' and 'not yet'), bala as the yes-no question particle (Wolfenden lists it only as a relator), kay meaning 'because' in the why lesson (Wolfenden lists kay among conjunctions without a gloss in my extract). Spelling: the sources disagree (Wolfenden sia and manga, Peace Corps Kamusta and Palihog / Palihug, Wikipedia Kumusta and siya); I chose the modern forms siya, mga, Kumusta, Palihog and writers should keep them consistent. The Peace Corps packet teaches actor focus as ma- (will), naga- (is doing), nag- (did), with mag- after gusto and kahibalo; Wolfenden's chart gives mag- / maga- (unreal) and nag- / naga- (real) and shows mag- in commands (Magluto' ka sang adobo!). The verb lesson follows the Peace Corps teaching order; which verbs take ma- and which take mag- for 'will' must be checked with a speaker. Voice: hil-PH is the BCP-47 shape; no device voice was checked and probably none exists. Licence: Wolfenden and Motus are CC BY-NC-SA 4.0, so adapted course text must follow its NonCommercial and ShareAlike terms or be written independently; the Peace Corps packet is a US government work in ERIC (own knowledge). Writers must check every Hiligaynon word with a first-language speaker.",
+ "hardest": [
+  "Verb focus and aspect: actor-focus ma- / naga- / nag- (and mag- after gusto and in commands) against goal-focus -on / gin- (batonon, ginbaton), and choosing the right one in questions",
+  "Three pronoun sets (ako, ko / nakon, akon / sa akon) and the markers ang / si, sang / ni, sa / kay",
+  "Two words for 'not': indi (di) for now, later and orders; wala for the past and for 'there isn't'",
+  "Spanish numbers for the clock and money (ala una, alas tres) next to native numbers (isa, duha, tatlo)"
+ ],
+ "stages": [
+  {"en": "Sounds and first words", "items": [
+   ["hil-sounds", "Sounds and spelling: a, i / e, u / o, ng, and the glottal stop written with a hyphen (gab-i, san-o)"],
+   ["hil-greetings", "Greetings and leave-taking: Maayong aga, Maayong hapon, Maayong gab-i, Kumusta ka?, Maayo, Salamat, Halong"],
+   ["hil-intro", "Introductions: Ano ang ngalan mo?, Ako si …"],
+   ["hil-this-that", "This and that: ini, ina, ato; Ano ini?"],
+   ["hil-ang-si", "Sentences without 'is': ang and si (Maestra si Fe, Amerikano ako)"],
+   ["hil-pronouns", "Subject pronouns: ako, ikaw / ka, siya, kita and kami (we), kamo, sila"]
+  ]},
+  {"en": "First sentences", "items": [
+   ["hil-mga", "More than one: mga with nationalities and jobs (mga Amerikano, mga maestra)"],
+   ["hil-taga", "Home town: Taga-diin ka?, Taga-California ako"],
+   ["hil-yes-no", "Yes or no: Huo, Indi, and yes-no questions with bala"],
+   ["hil-questions", "Question words: ano, sin-o, diin, san-o, pila, ngaa, paano"],
+   ["hil-numbers", "Numbers: isa, duha, tatlo … napulo, and the Spanish numbers used for time and money"],
+   ["hil-time", "Telling time and age: ala una, alas tres; Pila ang edad mo?"],
+   ["hil-ko-mo", "Source pronouns and markers: ko, mo, niya, naton, namon, ninyo, nila; sang and ni"],
+   ["hil-gusto", "Pre-verbs: gusto and kinahanglan (Gusto ko magkaon, Kinahanglan ko sang aspirin)"],
+   ["hil-family", "Family: nanay, tatay, utod, asawa (Nanay ko, Tatay niya)"],
+   ["hil-may-wala", "Have and there is: may and wala (May asawa ka na? Wala pa.)"],
+   ["hil-food", "Food and being hungry: Gutom ako, Busog pa ako, Palihog"]
+  ]},
+  {"en": "Verbs", "items": [
+   ["hil-actor", "Activities: actor-focus naga- (is doing), nag- (did), ma- (will); mag- after gusto and in commands (Gusto ko magkaon, Magluto ka!)"],
+   ["hil-negation", "indi / di and wala: not (now, later) and did not"],
+   ["hil-goal", "Goal focus: -on (will) and gin- (did): Batonon niya …, Ginbaton nila …"],
+   ["hil-actor-goal", "Actor or goal focus in questions: Sin-o ang nagluto?, Ano ang ginluto mo?"],
+   ["hil-akon", "Whose is it?: akon, imo, iya, aton, amon, inyo, ila"]
+  ]},
+  {"en": "Getting around", "items": [
+   ["hil-where", "Where is it?: Diin ang …?; diri, dira, didto"],
+   ["hil-travel", "Getting a ride: Pila ang plete?, Diin ako manaog?, Para sa kanto, Lugar lang"],
+   ["hil-market", "Buying and bargaining: Tagpila ini?, Kamahal!, Indi na lang"],
+   ["hil-days", "Days and months: Lunes, Martes … Domingo; san-o (when)"],
+   ["hil-why", "Why and because: ngaa and kay"]
+  ]}
+ ]
+}

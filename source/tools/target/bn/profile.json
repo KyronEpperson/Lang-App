@@ -304,5 +304,6 @@
   "Conversationalist",
   "Storyteller",
   "Master"
- ]
+ ],
+ "pronAnswersSkipInWord": true
 }
