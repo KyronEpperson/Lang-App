@@ -4,9 +4,10 @@
    Runs the built app in a headless browser so the text is cleaned by the app's own sayText(). */
 const { chromium } = require('playwright'); const fs = require('fs'), path = require('path'); const { clipKey } = require('./lib.js');
 const CID = process.argv[2]; const OUT = process.argv[3] || path.join(__dirname, '..', '..', 'lang-app', 'audio');
-if (!/^[a-z]{2,3}-[a-z]{2,4}$/.test(CID || '')) { console.error('usage: node tools/audio/export.js <course id, e.g. en-ko>'); process.exit(1); }
-(async () => {
-  const b = await chromium.launch(); const p = await b.newPage(); const native = CID.split('-')[0];
+if (require.main === module && !/^[a-z]{2,3}-[a-z]{2,4}$/.test(CID || '')) { console.error('usage: node tools/audio/export.js <course id, e.g. en-ko>'); process.exit(1); }
+/* collect(browser, course id) → { target, lang, texts } or { err }: also used by tools/audio/refresh.js */
+async function collect(b, CID) {
+  const cx = await b.newContext(); const p = await cx.newPage(); const native = CID.split('-')[0];
   await p.addInitScript(([lang, cid]) => { const st = JSON.stringify({ nick: 'K', welcomed: 1, onboard: { skipped: 1 }, hintSeen: 1, tourDone: 1, fx3d: false }); localStorage.setItem('la-s-' + cid, st); if (cid === 'en-ko') localStorage.setItem('ko-app2', st); localStorage.setItem('la-meta', JSON.stringify({ v: 1, native: lang, course: cid, picked: 1, seenHome: 1, prefs: {} })); }, [native, CID]);
   await p.route(/supabase|fonts\.g/, r => r.abort());
   await p.goto('file://' + path.join(__dirname, '..', '..', 'korean-flashcards.html'));
@@ -26,7 +27,11 @@ if (!/^[a-z]{2,3}-[a-z]{2,4}$/.test(CID || '')) { console.error('usage: node too
     const seen = new Map(); raw.forEach(x => { const t = sayText(x).normalize('NFC'); if (t) seen.set(t, 1); });
     return { target: COURSE.target, lang: ttsLang(), texts: [...seen.keys()] };
   }, CID);
-  await b.close();
+  await cx.close(); return got;
+}
+module.exports = { collect };
+if (require.main === module) (async () => {
+  const b = await chromium.launch(); const got = await collect(b, CID); await b.close();
   if (got.err) { console.error(got.err); process.exit(1); }
   const clips = got.texts.map(t => ({ k: clipKey(t), t })).sort((a, b) => a.k < b.k ? -1 : 1);
   const keys = new Set(clips.map(c => c.k)); if (keys.size !== clips.length) { console.error('hash collision: rename is needed'); process.exit(1); }
