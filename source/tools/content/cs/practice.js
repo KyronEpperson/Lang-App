@@ -89,13 +89,13 @@ module.exports = {
   ],
 
   polite: [
-    { t: "mc", q: "Objednáváš si v kavárně latté. Která věta zní nejpřirozeněji?", o: ["Can I get a latte, please?", "Give me latte.", "I want latte.", "Latte, give me."], why: "V obchodě a v kavárně je přirozené „Can I get …?“. Latté je jedno, proto i člen „a“." },
+    { t: "mc", q: "Objednáváš si v kavárně latte. Která věta zní nejpřirozeněji?", o: ["Can I get a latte, please?", "Give me latte.", "I want latte.", "Latte, give me."], why: "V obchodě a v kavárně je přirozené „Can I get …?“. Latte je jedno, proto i člen „a“." },
     { t: "mc", q: "Žádáš o pomoc neznámého člověka. Která věta je nejzdvořilejší?", o: ["Could you help me?", "Help me.", "You help me.", "I want help."], why: "„Could you …?“ je zdvořilá prosba vhodná pro lidi, které neznáš." },
     { t: "mc", q: "Nerozumíš, co druhý řekl. Kterou větou ho zdvořile požádáš o zopakování?", o: ["Could you say that again?", "Say again.", "What you say?", "Again say, please."], why: "„Could you say that again?“ je zdvořilá prosba o zopakování." },
     { t: "mc", q: "Jak velmi zdvořile požádáš: „Nevadilo by vám nás vyfotit?“", o: ["Would you mind taking a picture of us?", "Would you mind take a picture of us?", "Would you mind to take a picture of us?", "Would you mind took a picture of us?"], why: "Po „mind“ následuje tvar s -ing: „taking“." },
     { t: "mc", q: "Jak v letadle požádáš o místo u okna?", o: ["I'd like a window seat.", "I'd like window seat.", "I like a window seat.", "I'd like the window seats."], why: "„I'd like …“ je zdvořilá žádost. Místo je jedno, proto člen „a“." },
 
-    { t: "order", p: "Můžu dostat latté?", a: ["Can", "I", "get", "a", "latte"], x: ["the", "give"], why: "Latté je jedno a objednáváš ho poprvé, proto člen „a“." },
+    { t: "order", p: "Můžu dostat latte?", a: ["Can", "I", "get", "a", "latte"], x: ["the", "give"], why: "Latte je jedno a objednáváš ho poprvé, proto člen „a“." },
     { t: "order", p: "Nevadilo by vám otevřít okno? (okno této místnosti)", a: ["Would", "you", "mind", "opening", "the", "window"], x: ["open", "a"], why: "Po „mind“ je tvar s -ing. Oba víte, o které okno jde, proto člen „the“." },
     { t: "order", p: "Můžete prosím mluvit pomaleji?", a: ["Could", "you", "speak", "more", "slowly"], x: ["slow"], why: "Zdvořilá prosba začíná „Could you …?“. Ke slovesu patří příslovce „slowly“, ne přídavné jméno „slow“." },
 
@@ -123,7 +123,7 @@ module.exports = {
     { t: "fill", q: "__ you have fun?", p: "Bavilo tě to?", a: ["Did"], o: ["Does", "Are", "Were"], why: "Otázku na minulost tvoří „Did“ a základní tvar slovesa." },
     { t: "fill", q: "I'm going __ visit my parents.", p: "Chystám se navštívit rodiče", a: ["to"], o: ["for", "at", "on"], why: "Plán vyjadřuje „be going to“ a základní tvar slovesa." },
 
-    { t: "type", p: "Dnes pracuju z domova (jen dnes, právě teď)", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today – děj, který probíhá teď", x: ["work"], why: "To, co děláš právě dnes, vyjadřuje „be“ a tvar s -ing." },
+    { t: "type", p: "Dnes pracuju z domu (jen dnes, právě teď)", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today – děj, který probíhá teď", x: ["work"], why: "To, co děláš právě dnes, vyjadřuje „be“ a tvar s -ing." },
     { t: "type", p: "Minulý víkend jsem jel / jela na pláž", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend – minulý tvar a člen", x: ["a"], why: "Minulý tvar slovesa „go“ je „went“. Pláž má určitý člen: „the beach“." },
     { t: "type", p: "Chystám se na kurz vaření (plán; jeden kurz)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class – člen před jedním kurzem", x: ["the"], why: "Plán připravený předem vyjadřuje „going to“. O kurzu mluvíš poprvé a je jeden, proto člen „a“." }
   ],
@@ -161,7 +161,7 @@ module.exports = {
 
     { t: "fill", q: "Pretty good! How __ you?", p: "Docela dobře! A ty?", a: ["about"], o: ["for", "with", "of"], why: "Odpověz krátce a otázku vrať: „How about you?“" },
     { t: "fill", q: "I know, __?", p: "Že jo? / Přesně tak!", a: ["right"], o: ["light", "yes", "true"], why: "„I know, right?“ vyjadřuje silný souhlas. Píše se s R: „right“." },
-    { t: "fill", q: "Have you seen any good __ lately?", p: "Viděl / viděla jsi v poslední době něco dobrého?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "Počitatelné podstatné jméno je po „any“ v otázce v množném čísle." },
+    { t: "fill", q: "Have you seen any good __ lately?", p: "Viděl / viděla jsi v poslední době nějaké dobré filmy nebo seriály?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "Počitatelné podstatné jméno je po „any“ v otázce v množném čísle." },
 
     { t: "type", p: "Jaký byl tvůj víkend?", a: ["How was your weekend"], hint: "how · weekend – minulý čas", x: ["is"], why: "Víkend už skončil, proto minulý čas: „was“." },
     { t: "type", p: "Dnes je hezké počasí", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today – patří sem člen „a“?", x: ["a"], why: "„Weather“ je nepočitatelné, proto bez členu „a“ („a nice weather“ ✗)." },

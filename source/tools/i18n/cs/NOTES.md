@@ -62,7 +62,7 @@ Author: not a native speaker. Style authority is `docs/profiles/cs.md` §2, §3 
 
 - **Session and drill.** Profile §10 gives «trénink» for both "drills" and "session". To keep one term per concept, session is «trénink» and drill is the profile's fallback «dril»; verbs use «procvičit». If the lead prefers «Trénink» for drills, session needs another word (candidates: «učení», «denní dávka»).
 - **«Opakovat» (8 characters)** is the Review tab label; the profile's fallback is «Opakuj» (6) if it does not fit at 390px.
-- **Level titles** (only shown if the pack uses these English names) are gender-neutral nouns, not literal: Sprout «Klíček», Student «Hlavička», Senior «Stálice», Pro «Eso», Master «Legenda», Sensei «Sensei»; Beginner «Začátky», Talker «Konverzace», Traveler «Na cestách», Local «Jako doma».
+- **Level titles** (only shown if the pack uses these English names) are gender-neutral nouns, not literal: Sprout «Klíček», Senior «Stálice», Sensei «Sensei»; the seven names the course pack shows agree with `TITLES` in `tools/content/cs/meta.js` (review, lead decision 4): Beginner «Začátky», Student «Učení», Talker «Povídání», Traveler «Na cestách», Local «Jako doma», Pro «Profi», Master «Mistrovství».
 - **Plan presets and tags:** «Příprava na cestu», «Přátelé a seznamování», «Konverzace za 90 dní», «Filmy, seriály a hudba» (localised from the Korean-specific wording, as de did); «Zkus český význam» for "Try the English meaning" (the meaning side is Czech in this course).
 - **"Review due cards"** is «Opakovat kartičky» and "⏰ All due" is «⏰ Vše k opakování»: Czech has no short adjective for "due".
 - **«naučeno kartiček» / «NAUČENO KARTIČEK»** (stat caption under a number and on the share image) uses the genitive plural as a label so that it does not read as an agreeing phrase.
@@ -78,7 +78,7 @@ Author: not a native speaker. Style authority is `docs/profiles/cs.md` §2, §3 
 6. «průchod» (pass n/3) against «kolo» (round).
 7. «přihrádka» for an SRS box; «problémová kartička» for a leech; «odložit» / «pozastavit».
 8. «splněno» / «ke splnění 80 %» for passed / to pass.
-9. Level titles in §3 («Hlavička», «Stálice», «Eso»).
+9. Level titles in §3 («Klíček», «Stálice» for the fallback series; «Učení», «Povídání», «Profi», «Mistrovství» shared with the course pack).
 10. «klepnout» for tap and «přejet» for swipe («klepnutím otočíš · přejetím odpovíš»).
 11. «🗣 říkat nahlas ×3» and «🗣 poslouchej… řekni nahlas» for shadowing.
 12. «Co zaznělo?» for "Which one did you hear?"; «Povedlo se» for "I nailed it"; «Zpátky ve hře.» for "Back in rotation."

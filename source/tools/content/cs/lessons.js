@@ -51,7 +51,7 @@ exports.LESSONS = [
 <p>Angličtina mezi slovy nedělá pauzy. Souhláska na konci slova se váže na samohlásku na začátku dalšího: <b>Turn it on</b> zní skoro jako jedno slovo.</p>
 <div class="tip">Kontrola před zrcadlem: u F a V se horní zuby dotýkají spodního rtu, u TH je <b>vidět</b> špička jazyka mezi zuby, u W jsou rty v kroužku a zubů se nedotýkají. A než slovo vyslovíš, najdi si v přepisu znak ˈ.</div>`},
 
-{ id:"articles", title:"2 · Členy a / an / the: tři základní pravidla", blurb:"Čeština členy nemá, proto se na ně zapomíná nejčastěji. Pro začátek stačí tři pravidla.", deck:"Představování", body:`
+{ id:"articles", title:"2 · Členy „a“ / „an“ / „the“: tři základní pravidla", blurb:"Čeština členy nemá, proto se na ně zapomíná nejčastěji. Pro začátek stačí tři pravidla.", deck:"Představování", body:`
 <p>Čeština členy nemá, proto se na <b>a</b> a <b>the</b> zapomíná nejčastěji. Je to běh na dlouhou trať: chybují v nich i pokročilí, a proto se k nim tato aplikace vrací v každém procvičování. Domluvíš se i s chybami, ale se třemi základními pravidly budeš znít mnohem přirozeněji.</p>
 <h3>a / an: jeden z mnoha, zmíněný poprvé</h3>
 <p>Patří k počitatelnému podstatnému jménu v jednotném čísle, když o věci mluvíš <b>poprvé</b> nebo když je to prostě „jeden z mnoha“. Patří i před povolání.</p>
@@ -67,7 +67,7 @@ exports.LESSONS = [
 {{ex:I love dogs.|/aɪ ˈlʌv ˈdɔːgz/|Miluju psy (psy obecně)}}{{ex:I don't drink coffee.|/aɪ ˈdoʊnt ˈdrɪŋk ˈkɔːfi/|Kávu nepiju}}{{ex:Let's have lunch.|/ˈlets ˈhæv ˈlʌntʃ/|Pojďme na oběd}}
 <div class="tip">Nejčastější chyba: <b>I'm teacher.</b> ✗ → <b>I'm a teacher.</b> ✓ Česky řekneš „Jsem učitel“, anglicky se člen před povoláním nevynechává nikdy.</div>`},
 
-{ id:"be", title:"3 · Sloveso „to be“ a ostatní slovesa", blurb:"am / is / are, nebo do / does? Nemíchej je dohromady. A pozor na tři české pasti: podmět, člen a věk.", deck:"Představování", body:`
+{ id:"be", title:"3 · Sloveso „to be“ a ostatní slovesa", blurb:"„am“ / „is“ / „are“, nebo „do“ / „does“? Nemíchej je dohromady. A pozor na tři české pasti: podmět, člen a věk.", deck:"Představování", body:`
 <p>Sloveso <i>být</i> čeština má a používá ho podobně jako angličtina své <b>to be</b>: „Jsem doma“ je <b>I'm at home</b>. Princip tedy znáš. Potíže dělají tři české zvyky a také to, že se <b>to be</b> nesmí míchat s ostatními slovesy.</p>
 <h3>Dva druhy sloves</h3>
 <div class="tbl"><table><tr><th></th><th>sloveso to be</th><th>ostatní slovesa</th></tr><tr><td>Význam</td><td>být někým, být někde, být nějaký</td><td>všechno ostatní: činnost, zvyk, pocit (pracovat, bydlet, mít rád)</td></tr><tr><td>Příklad</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>Zápor</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>Otázka</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
@@ -86,14 +86,14 @@ exports.LESSONS = [
 {{ex:My brother works in Brno.|/maɪ ˈbrʌðər ˈwɜːrks ɪn ˈbɜːrnoʊ/|Můj bratr pracuje v Brně}}{{ex:Does he speak English?|/dəz hi ˈspiːk ˈɪŋglɪʃ/|Mluví anglicky?}}{{ex:She doesn't eat meat.|/ʃi ˈdʌznt ˈiːt ˈmiːt/|Nejí maso}}
 <div class="tip">Když váháš, zeptej se: je ve větě <b>jiné sloveso než be</b> (like, live, want, go…)? Pokud ano, zápor a otázku tvoří <b>do / does</b>. Pokud ne (jen stav, povolání nebo místo), potřebuješ <b>to be</b>.</div>`},
 
-{ id:"polite", title:"4 · Zdvořilé prosby", blurb:"Can you → Could you → Would you mind. Rozkaz s „please“ nestačí.", deck:"Základní fráze 1", body:`
-<p>Angličtina má jen jedno <b>you</b>, tykání a vykání nerozlišuje. Zdvořilost se proto přesouvá do <b>způsobu, jakým o něco žádáš</b>. Český rozkaz s „prosím“ („Dejte mi kávu, prosím“) zní v angličtině stroze, i když k němu přidáš <b>please</b>.</p>
+{ id:"polite", title:"4 · Zdvořilé prosby", blurb:"„Can you“ → „Could you“ → „Would you mind“. Rozkaz s „please“ nestačí.", deck:"Základní fráze 1", body:`
+<p>Angličtina má jen jedno <b>you</b>, tykání a vykání nerozlišuje. Zdvořilost se proto přesouvá do <b>způsobu, jakým o něco žádáš</b>. Český rozkaz s „prosím“ („Dejte mi kávu, prosím“) zní v angličtině stroze, i když k němu přidáš <b>please</b>.</p>
 <h3>Stupně zdvořilosti</h3>
 <div class="tbl"><table><tr><th>Výraz</th><th>Jak působí</th><th>Kde se hodí</th></tr><tr><td class="k">Give me ~.</td><td>rozkaz, zní hrubě</td><td>nepoužívej</td></tr><tr><td class="k">Can you ~?</td><td>neformální prosba</td><td>mezi přáteli, v obchodě</td></tr><tr><td class="k">Could you ~?</td><td>zdvořilá prosba</td><td>neznámí lidé, práce</td></tr><tr><td class="k">Would you mind ~ing?</td><td>velmi zdvořilé</td><td>větší laskavost, nadřízení</td></tr></table></div>
 {{ex:Could you help me?|/kəd ju ˈhelp mi/|Můžete mi prosím pomoct?}}{{ex:Could you say that again?|/kəd ju ˈseɪ ˈðæt əˈgen/|Můžete to prosím zopakovat?}}{{ex:Would you mind taking a picture of us?|/wəd ju ˈmaɪnd ˈteɪkɪŋ ə ˈpɪktʃər əv əs/|Nevadilo by vám nás vyfotit?}}
 <h3>Objednávka: Can I get ~? / I'd like ~</h3>
 <p>České „Chci kávu“ přeložené jako <b>I want a coffee</b> zní jako dítě, které si něco vynucuje. A <b>Give me a coffee, please.</b> ✗ je pořád rozkaz. V obchodě a v restauraci řekni raději:</p>
-{{ex:Can I get a latte, please?|/kən aɪ ˈget ə ˈlɑːteɪ ˈpliːz/|Jedno latté, prosím}}{{ex:I'd like a window seat.|/aɪd ˈlaɪk ə ˈwɪndoʊ ˈsiːt/|Chtěl / chtěla bych místo u okna}}
+{{ex:Can I get a latte, please?|/kən aɪ ˈget ə ˈlɑːteɪ ˈpliːz/|Jedno latte, prosím}}{{ex:I'd like a window seat.|/aɪd ˈlaɪk ə ˈwɪndoʊ ˈsiːt/|Chtěl / chtěla bych místo u okna}}
 <h3>Past jménem Would you mind…?</h3>
 <p><b>Mind</b> znamená „vadit“. Odpověď <b>No</b> proto znamená souhlas: „nevadí mi to“.</p>
 {{ex:Would you mind opening the window?|/wəd ju ˈmaɪnd ˈoʊpənɪŋ ðə ˈwɪndoʊ/|Nevadilo by vám otevřít okno?}}{{ex:No, not at all.|/ˈnoʊ ˈnɑːt ət ˈɔːl/|Vůbec ne (= klidně, otevřu)}}
@@ -106,7 +106,7 @@ exports.LESSONS = [
 <p>Čeština má tři časy a k nim vid. Angličtina dělí stejné území na víc tvarů: české „čtu“ je <b>I read</b> (obvykle) i <b>I'm reading</b> (právě teď), české „četl jsem“ může být <b>I read</b>, <b>I was reading</b> i <b>I've read</b>. Tady je přehled pěti tvarů, které potřebuješ pro běžný rozhovor. K těm dalším se dostaneme v pozdějších lekcích.</p>
 <h3>Přítomný čas prostý a průběhový</h3>
 <div class="tbl"><table><tr><th>Tvar</th><th>Význam</th><th>Příklad</th></tr><tr><td class="k">přítomný čas prostý (Present Simple)</td><td>zvyk, trvalý fakt</td><td>I drink coffee every morning.</td></tr><tr><td class="k">přítomný čas průběhový (Present Continuous): be + -ing</td><td>právě teď / domluvený plán na nejbližší dobu</td><td>I'm drinking coffee right now.</td></tr></table></div>
-{{ex:I work at a bank.|/aɪ ˈwɜːrk ət ə ˈbæŋk/|Pracuju v bance (trvale)}}{{ex:I'm working from home today.|/aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/|Dnes pracuju z domova}}
+{{ex:I work at a bank.|/aɪ ˈwɜːrk ət ə ˈbæŋk/|Pracuju v bance (trvale)}}{{ex:I'm working from home today.|/aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/|Dnes pracuju z domu}}
 <p>Český nedokonavý vid není anglický průběhový čas. Zvyk patří do prostého času, i když je české sloveso nedokonavé: <b>I'm usually having dinner at 7.</b> ✗ → <b>I usually have dinner at 7.</b> ✓</p>
 <h3>Minulý čas prostý</h3>
 <p>Pravidelná slovesa přibírají <b>-ed</b>, ta nejčastější jsou ale nepravidelná: go → went, eat → ate, see → saw, have → had, get → got. V otázce a v záporu stojí <b>did</b> a základní tvar slovesa.</p>
@@ -117,7 +117,7 @@ exports.LESSONS = [
 <p>V řeči zní <b>going to</b> často jako <b>gonna</b>. Piš ale vždy <b>going to</b>.</p>
 <div class="tip">Na otázku <b>How was your weekend?</b> odpověz minulým časem, na <b>Any plans for the weekend?</b> vazbou <b>going to</b>. Nejjednodušší je držet se času, který zazněl v otázce.</div>`},
 
-{ id:"prep", title:"6 · Předložky in / on / at", blurb:"Velký celek in, den on, přesný bod at. A neřiď se českým „v“ a „na“.", deck:"Čísla, čas a datum", body:`
+{ id:"prep", title:"6 · Předložky „in“ / „on“ / „at“", blurb:"Velký celek „in“, den „on“, přesný bod „at“. A neřiď se českým „v“ a „na“.", deck:"Čísla, čas a datum", body:`
 <p><b>In</b>, <b>on</b> a <b>at</b> slouží pro čas i pro místo. Základní pomůcka: <b>čím větší celek, tím spíš in; čím přesnější bod, tím spíš at</b>. České předložky s pády ti tu nepomůžou: „v pondělí“ není <b>in Monday</b> a „v pět“ není <b>in five</b>.</p>
 <h3>Čas</h3>
 <div class="tbl"><table><tr><th>Předložka</th><th>Rozsah</th><th>Příklad</th></tr><tr><td class="k">in</td><td>měsíc, rok, roční období, část dne</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>den v týdnu, datum, konkrétní den</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>přesný čas, krátký okamžik</td><td>at 7, at noon, at night</td></tr></table></div>
@@ -201,7 +201,7 @@ exports.LESSONS = [
 <p>Většina idiomů se dobře pamatuje, když si představíš scénu, kterou popisují.</p>
 {{ex:It's a piece of cake.|/ɪts ə ˈpiːs əv ˈkeɪk/|Je to hračka (snadné jako sníst kousek dortu)}}{{ex:It costs an arm and a leg.|/ɪt ˈkɔːsts ən ˈɑːrm ənd ə ˈleg/|Stojí to majlant (doslova „ruku a nohu“)}}{{ex:I'm all ears.|/aɪm ˈɔːl ˈɪrz/|Jsem jedno ucho}}
 <h3>Podobné obraty v češtině</h3>
-<div class="tbl"><table><tr><th>Anglicky</th><th>Česky</th></tr><tr><td class="k">Speak of the devil!</td><td>My o vlku a vlk za dveřmi</td></tr><tr><td class="k">Kill two birds with one stone</td><td>Zabít dvě mouchy jednou ranou</td></tr><tr><td class="k">When pigs fly</td><td>Až naprší a uschne</td></tr><tr><td class="k">A blessing in disguise</td><td>Všechno zlé je k něčemu dobré</td></tr></table></div>
+<div class="tbl"><table><tr><th>Anglicky</th><th>Česky</th></tr><tr><td class="k">Speak of the devil!</td><td>My o vlku a vlk za dveřmi</td></tr><tr><td class="k">Kill two birds with one stone</td><td>Zabít dvě mouchy jednou ranou</td></tr><tr><td class="k">When pigs fly</td><td>Až naprší a uschne</td></tr><tr><td class="k">A blessing in disguise</td><td>Štěstí v neštěstí</td></tr></table></div>
 <p>Opačně to nefunguje: český idiom přeložený slovo od slova v angličtině neexistuje. „Je to pro mě španělská vesnice“ je <b>It's all Greek to me</b> a „chodit kolem horké kaše“ je <b>beat around the bush</b>.</p>
 <h3>Idiom, nebo slang?</h3>
 <p><b>Idiomy</b> jsou staré a ustálené, používá je každý a hodí se i do práce (<b>Let's call it a day</b>). <b>Slang</b> je móda mladých a patří jen mezi kamarády (<b>No cap</b>, <b>That song slaps</b>). Rychle se mění a od starších lidí může znít nepatřičně.</p>
@@ -233,7 +233,7 @@ exports.CHECKS = {
   polite: [
     ["Která prosba je vůči neznámému člověku nejzdvořilejší?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Základem zdvořilé prosby je „Could you …?“. „Give me“ zní jako rozkaz."],
     ["Would you mind opening the window? Která odpověď znamená „Ano, otevřu“?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "„Mind“ znamená vadit. „No“ (nevadí mi to) proto znamená „ano, udělám to“."],
-    ["Jaký tvar slovesa následuje po „Would you mind“?", ["základní tvar (open)","infinitiv s „to“ (to open)","minulý tvar (opened)","~ing (opening)"], 3, "Po „mind“ následuje tvar s -ing: „Would you mind waiting?“"]
+    ["Jaký tvar slovesa následuje po „Would you mind“?", ["základní tvar (open)","infinitiv s „to“ (to open)","minulý tvar (opened)","~ing (opening)"], 3, "Po „mind“ následuje tvar s -ing: „Would you mind waiting?“"]
   ],
   tense: [
     ["Jak se anglicky řekne „Každé ráno piju kávu“ (zvyk)?", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "Zvyk patří do přítomného času prostého. Průběhový čas by znamenal „piju ji právě teď“."],

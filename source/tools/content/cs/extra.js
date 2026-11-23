@@ -4,20 +4,20 @@ How are you? | Hi, Jake! How are you? | Good, thanks! How about you? | Ahoj, Jak
 What's up? | Hey, what's up? | Not much. Just getting some coffee. | Čau, jak je? / Nic zvláštního. Jdu si jen pro kávu.
 Nice to meet you. | Hi, I'm Lenka. Nice to meet you. | Nice to meet you, too. I'm Ryan. | Dobrý den, já jsem Lenka. Těší mě. / Mě taky. Já jsem Ryan.
 Long time no see! | Long time no see! How have you been? | I've been great! You look good! | Dlouho jsme se neviděli! Jak se pořád máš? / Mám se skvěle! Vypadáš dobře!
-Have a good one! | Here's your receipt. Have a good one! | Thanks, you too! | Tady je účtenka. Hezký den! / Děkuji, vám taky!
+Have a good one! | Here's your receipt. Have a good one! | Thanks, you too! | Tady je účtenka. Hezký den! / Děkuju, vám taky!
 Good night. | I'm going to bed. Good night! | Good night! Sleep well. | Jdu spát. Dobrou noc! / Dobrou! Hezky se vyspi.
 Where are you from? | So, where are you from? | I'm from the Czech Republic. Prague, actually. | A odkud jste? / Z České republiky. Přímo z Prahy.
-What do you do? | What do you do? | I'm a designer. I work at a small startup. | Co děláte za práci? / Jsem designér. Pracuji v malém startupu.
+What do you do? | What do you do? | I'm a designer. I work at a small startup. | Co děláte za práci? / Jsem designér. Pracuju v malém startupu.
 What should I call you? | What should I call you? | Just call me Jay. Everyone does. | Jak ti mám říkat? / Říkej mi prostě Jay. Říkají mi tak všichni.
 I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | Co děláš o víkendech? / Hrozně mě baví turistika. Chodím skoro každou sobotu.
 I'm here on vacation. | Are you here for work? | No, I'm here on vacation. | Jste tu pracovně? / Ne, jsem tu na dovolené.
 Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | Promiňte, je tohle fronta na lístky? / Ano. Konec je támhle.
-Thank you. | Here, let me get the door for you. | Oh, thank you! | Počkejte, podržím vám dveře. / Ó, děkuji!
+Thank you. | Here, let me get the door for you. | Oh, thank you! | Počkejte, podržím vám dveře. / Jé, děkuju!
 Sorry? | Your total is twenty-three fifty. | Sorry? Could you say that again? | Dohromady to dělá dvacet tři padesát. / Prosím? Můžete to zopakovat?
 Could you speak more slowly? | Take the B line to Central, then transfer to the red line and... | Sorry, could you speak more slowly? | Jeďte linkou B na Central, tam přestupte na červenou linku a… / Promiňte, můžete mluvit pomaleji?
 How do you say this in English? | How do you say this in English? | That's a whisk. | Jak se tohle řekne anglicky? / To je „whisk“ (metla na šlehání).
 Can you help me? | Excuse me, can you help me? I'm looking for this hotel. | Sure! It's just around the corner. | Promiňte, můžete mi pomoct? Hledám tenhle hotel. / Jistě! Je hned za rohem.
-No, thank you. | Would you like a bag? | No, thank you. I have one. | Chcete tašku? / Ne, děkuji. Mám svou.
+No, thank you. | Would you like a bag? | No, thank you. I have one. | Chcete tašku? / Ne, děkuju. Mám svou.
 Where's the restroom? | Excuse me, where's the restroom? | It's down the hall, on the left. | Promiňte, kde jsou toalety? / Na konci chodby vlevo.
 Can I get the Wi-Fi password? | Can I get the Wi-Fi password? | Sure, it's on the back of your receipt. | Můžete mi dát heslo na wi-fi? / Jistě, je na zadní straně účtenky.
 Could you take a picture of us? | Excuse me, could you take a picture of us? | Of course! Say cheese! | Promiňte, vyfotíte nás? / Samozřejmě! Úsměv, prosím!
@@ -41,8 +41,8 @@ It's on me. | Let's split it. | No, no. It's on me today. | Rozdělíme si to. /
 Can I get an iced Americano? | Hi, what can I get for you? | Can I get an iced Americano? | Dobrý den, co si dáte? / Jedno ledové americano, prosím.
 For here or to go? | For here or to go? | To go, please. | Tady, nebo s sebou? / S sebou, prosím.
 Can I get a name for the order? | Can I get a name for the order? | It's Jay. J-A-Y. | Na jaké jméno to bude? / Jay. J-A-Y.
-That's it. | Anything else? | No, that's it. Thanks! | Ještě něco? / Ne, to je všechno. Děkuji!
-I'm just looking, thanks. | Can I help you find anything? | I'm just looking, thanks. | Můžu vám s něčím poradit? / Jen se dívám, děkuji.
+That's it. | Anything else? | No, that's it. Thanks! | Ještě něco? / Ne, to je všechno. Děkuju!
+I'm just looking, thanks. | Can I help you find anything? | I'm just looking, thanks. | Můžu vám s něčím poradit? / Jen se dívám, děkuju.
 Can I try this on? | Can I try this on? | Sure, the fitting rooms are in the back. | Můžu si to vyzkoušet? / Jistě, kabinky jsou vzadu.
 I'll take it. | It fits perfectly! I'll take it. | Great! I can ring you up over here. | Sedí to perfektně! Vezmu si to. / Výborně! Zaplatit můžete tady u mě.
 Cash or card? | Cash or card? | Card, please. | Hotově, nebo kartou? / Kartou, prosím.
@@ -89,8 +89,8 @@ Who's your bias? | Who's your bias? | Definitely the lead singer. What about you
 `;
 
 exports.EXAMPLES = `
-I'm a student. | I'm a student at a university in Prague. | Studuji na vysoké škole v Praze.
-I work in marketing. | I work in marketing at a game company. | Pracuji v marketingu v herní firmě.
+I'm a student. | I'm a student at a university in Prague. | Studuju na vysoké škole v Praze.
+I work in marketing. | I work in marketing at a game company. | Pracuju v marketingu v herní firmě.
 I like watching movies. | I like watching movies on the weekends. | O víkendech se rád / ráda dívám na filmy.
 I've been learning English for a year. | I've been learning English for a year, but speaking is still hard. | Učím se anglicky už rok, ale mluvení je pro mě pořád těžké.
 Thanks a lot. | Thanks a lot for your help today. | Díky moc za dnešní pomoc.
@@ -107,8 +107,8 @@ Can I get a Coke? | Can I get a Coke with no ice? | Jednu kolu bez ledu, prosím
 Is it spicy? | Is it spicy? I can't handle spicy food. | Je to pálivé? Pálivá jídla mi nedělají dobře.
 Can we split the bill? | Can we split the bill three ways? | Můžeme účet rozdělit na tři?
 Can I get this to go? | I can't finish this. Can I get this to go? | Už to nedojím. Můžu to dostat s sebou?
-Less ice, please. | Can I get a large iced latte? Less ice, please. | Jedno velké ledové latté, prosím. A méně ledu.
-Can I get a receipt? | Can I get a receipt? It's for work. | Můžu dostat účtenku? Potřebuji ji do práce.
+Less ice, please. | Can I get a large iced latte? Less ice, please. | Jedno velké ledové latte, prosím. A méně ledu.
+Can I get a receipt? | Can I get a receipt? It's for work. | Můžu dostat účtenku? Potřebuju ji do práce.
 Is this on sale? | Is this jacket on sale? | Je tahle bunda ve slevě?
 I'd like to exchange this. | I'd like to exchange this for a smaller size. | Chtěl / chtěla bych to vyměnit za menší velikost.
 It's a bit tight. | These jeans are a bit tight. | Tyhle džíny jsou mi trochu těsné.
@@ -116,7 +116,7 @@ It's three thirty. | It's three thirty. We have half an hour left. | Je půl čt
 My birthday is in October. | My birthday is in October, so I'm a Libra. | Narozeniny mám v říjnu, takže jsem Váhy.
 In ten minutes | The train leaves in ten minutes. | Vlak odjíždí za deset minut.
 Twice a week | I go to the gym twice a week. | Dvakrát týdně chodím do posilovny.
-It was pretty relaxing. | It was pretty relaxing. I just read and slept. | Byla to docela pohoda. Jen jsem si četl / četla a spal / spala.
+It was pretty relaxing. | It was pretty relaxing. I just read and slept. | Byla to docela pohoda. Jen jsem si četla a spala.
 Have you been to the Czech Republic? | Have you been to the Czech Republic? You should try the dumplings. | Už jsi někdy byl / byla v Česku? Musíš ochutnat knedlíky.
 By the way | By the way, did you see the game last night? | Mimochodem, viděl / viděla jsi včera večer ten zápas?
 I'm bored. | I'm bored. Do you want to go for a walk? | Nudím se. Nechceš se jít projít?
@@ -125,9 +125,9 @@ I can't wait! | We're going to Croatia next week. I can't wait! | Příští tý
 That color looks good on you. | That color looks good on you. You should wear it more often. | Ta barva ti sluší. Nos ji častěji.
 You made my day! | Thanks for the cookies. You made my day! | Díky za sušenky. Díky tobě mám krásný den!
 Let me know if you have any questions. | I've attached the slides. Let me know if you have any questions. | V příloze posílám prezentaci. Kdybyste měli jakékoli dotazy, dejte mi vědět.
-Could you send me the file by Friday? | Could you send me the file by Friday? I need it for the presentation. | Můžete mi ten soubor poslat do pátku? Potřebuji ho na prezentaci.
+Could you send me the file by Friday? | Could you send me the file by Friday? I need it for the presentation. | Můžete mi ten soubor poslat do pátku? Potřebuju ho na prezentaci.
 Let's touch base next week. | Let's touch base next week and see how things are going. | Spojme se příští týden a řekněme si, jak to jde.
-I'm working from home today. | I'm working from home today, so let's meet on Zoom. | Dnes pracuji z domu, tak se sejděme na Zoomu.
+I'm working from home today. | I'm working from home today, so let's meet on Zoom. | Dnes pracuju z domu, tak se sejděme na Zoomu.
 Can I call you back? | I'm driving right now. Can I call you back? | Zrovna řídím. Můžu vám zavolat zpátky?
 Is breakfast included? | Is breakfast included, or is it extra? | Je snídaně v ceně, nebo se platí zvlášť?
 My flight was delayed. | My flight was delayed by three hours. | Můj let měl tři hodiny zpoždění.
@@ -157,7 +157,7 @@ I am / You are / She is | Sloveso „to be“ (být): kdo jsi, kde jsi, jak ti j
 Do you ~? / Does he ~? | Otázka s běžným slovesem. Ve 3. osobě jednotného čísla je „does“ | Does he live here? | be
 don't / doesn't + základní tvar | Zápor běžného slovesa | I don't eat meat. | be
 he / she / it + sloveso s -s | V přítomném čase prostém přidej ve 3. osobě jednotného čísla -s | My sister works at a hospital. | be
-be + tvar s -ing | Co se děje právě teď / co máš pevně domluveno na nejbližší dobu | I'm meeting Jake tonight. | tense
+be + tvar s -ing | Co se děje právě teď / co máš pevně domluveno na nejbližší dobu | I'm meeting Jake tonight. | tense
 sloveso s -ed / nepravidelný minulý tvar | Děj, který už skončil (went, ate, saw…) | I went to Brno last week. | tense
 will + základní tvar | Rozhodnutí v okamžiku řeči / slib / předpověď | I'll call you later. | tense
 be going to + základní tvar | Co máš v plánu už předem | I'm going to visit my parents this weekend. | tense
@@ -168,7 +168,7 @@ at + přesný čas / místo | Přesný čas nebo jeden bod v prostoru | Let's m
 How about ~ing? | Návrh: „Co kdybychom…?“ | How about getting lunch together? | smalltalk
 So do I / Neither do I | Přitakání „Já taky / Já taky ne“. Neformálně „Me too / Me neither“ | I love this song. / So do I. | smalltalk
 sloveso + it + příslovce | Je-li předmětem frázového slovesa zájmeno, patří doprostřed | Can you turn it down? | phrasal
-look forward to + tvar s -ing | „to“ je tu předložka, proto po něm následuje tvar s -ing | I'm looking forward to hearing from you. | phrasal
+look forward to + tvar s -ing | „to“ je tu předložka, proto po něm následuje tvar s -ing | I'm looking forward to hearing from you. | phrasal
 It's + čas | Kolik je hodin: přečti prostě hodiny a minuty | It's ten fifteen. | numbers
 I'm writing to ~ | První věta e-mailu: proč píšeš | I'm writing to confirm our meeting. | email
 Let me know if ~ | „Dejte mi vědět, kdyby…“ – obvyklý závěr e-mailu | Let me know if you need anything else. | email
@@ -184,7 +184,7 @@ You're so thoughtful | To je od tebe moc pozorné
 You have a great sense of humor | Máš skvělý smysl pro humor
 You're one of a kind | Nikdo jiný není jako ty
 You light up the room | S tebou je hned veseleji
-I admire you | Obdivuji tě
+I admire you | Obdivuju tě
 You inspire me | Inspiruješ mě
 You're really talented | Máš opravdu talent
 You're a great listener | Umíš skvěle naslouchat
@@ -221,7 +221,7 @@ Sort of | Tak trochu
 `,
 polite: `
 Please | Prosím
-Thank you so much | Moc děkuji
+Thank you so much | Moc děkuju
 Pardon me | Promiňte
 Go ahead | Jen do toho / Až po vás
 May I come in? | Můžu dál?
@@ -235,11 +235,11 @@ Would you like some? | Dáte si taky?
 Help yourself | Poslužte si
 It's my pleasure | Rádo se stalo
 Sorry I'm late | Omlouvám se za zpoždění
-Thank you for your time | Děkuji, že jste si na mě udělali čas
+Thank you for your time | Děkuju, že jste si na mě udělali čas
 I beg your pardon? | Jak prosím? (velmi zdvořile)
 Don't mention it | To nestojí za řeč
 Cheers | Díky (britsky) / Na zdraví! (při přípitku)
-Excuse me, coming through | S dovolením, potřebuji projít
+Excuse me, coming through | S dovolením, potřebuju projít
 `,
 saying: `
 Practice makes perfect | Cvičení dělá mistra

@@ -2,7 +2,7 @@
    (deviations extraLessons; placed after perfect-2 by profile.json lessonOrder). Shorthand is expanded by _dsl.js. */
 module.exports = [
 { id:"perfect-2", title:"Předpřítomný čas 2: „for“ a „since“, od minulosti dodnes", blurb:"Co začalo dřív a trvá dodnes. Česky přítomný čas, anglicky předpřítomný.", deck:"Představování", body:`
-<p>Druhé použití předpřítomného času: <b>něco začalo v minulosti a trvá dodnes</b>. Česky se to říká přítomným časem: „Bydlím tady pět let.“ Anglicky tu přítomný čas být nemůže. Je tu <b>have + příčestí minulé</b>.</p>
+<p>Druhé použití předpřítomného času: <b>něco začalo v minulosti a trvá dodnes</b>. Česky se to říká přítomným časem: „Bydlím tady pět let.“ Anglicky tu přítomný čas být nemůže. Je tu <b>have + příčestí minulé</b>.</p>
 {{ex:I've lived in Prague for five years.|/aɪv ˈlɪvd ɪn ˈprɑːg fər ˈfaɪv ˈjɪrz/|Bydlím v Praze pět let}}{{ex:I've worked here since 2020.|/aɪv ˈwɜːrkt ˈhɪr sɪns ˈtwenti ˈtwenti/|Pracuju tady od roku 2020}}{{ex:I've known her for a long time.|/aɪv ˈnoʊn hər fər ə ˈlɔːŋ ˈtaɪm/|Znám ji dlouho}}
 <h3>for, nebo since?</h3>
 <div class="tbl"><table><tr><th>for + jak dlouho</th><th>since + odkdy</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
@@ -47,7 +47,7 @@ practice:[
 {{ex:I saw it on my birthday.|/aɪ ˈsɔː ɪt ɑːn maɪ ˈbɜːrθdeɪ/|Viděl / viděla jsem to o narozeninách}}{{ex:I visited Lisbon last summer.|/aɪ ˈvɪzɪtɪd ˈlɪzbən ˈlæst ˈsʌmər/|Loni v létě jsem navštívil / navštívila Lisabon}}{{ex:We met in 2019.|/wi ˈmet ɪn ˈtwenti ˌnaɪnˈtiːn/|Poznali jsme se v roce 2019}}
 <p><b>I've seen it on my birthday.</b> ✗ <b>I've visited Lisbon last summer.</b> ✗ <b>We've met in 2019.</b> ✗</p>
 <p>Slova <b>ever, just, for</b> ani slovesa <b>see, visit, meet</b> čas neurčují. Rozhoduje jen to, jestli doba, o které mluvíš, sahá až do dneška, nebo už skončila.</p>
-<h3>Stejné slovo, dva časy</h3>
+<h3>Stejné sloveso, dva časy</h3>
 <div class="tbl"><table><tr><th>Česky</th><th>Doba</th><th>Anglicky</th></tr><tr><td>Bydlíme tady pět let.</td><td>trvá dodnes</td><td class="k">We've lived here for five years.</td></tr><tr><td>Bydleli jsme tam pět let.</td><td>skončila</td><td class="k">We lived there for five years.</td></tr><tr><td>Ztratila klíče (nemá je).</td><td>výsledek platí teď</td><td class="k">She has lost her keys.</td></tr><tr><td>Včera ztratila klíče.</td><td>včera</td><td class="k">She lost her keys yesterday.</td></tr></table></div>
 {{ex:We lived there for five years.|/wi ˈlɪvd ˈðer fər ˈfaɪv ˈjɪrz/|Bydleli jsme tam pět let (už tam nebydlíme)}}
 <h3>Americká angličtina</h3>
@@ -100,7 +100,7 @@ practice:[
 ["ty","Potkal / potkala jsem starého kamaráda","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend – člen „an“","a","„Old“ začíná samohláskou, proto neurčitý člen „an“."],
 ["ty","Šel / šla jsem zrovna pěšky domů","I was walking home","was · walking · home – průběhový čas","had","Pozadí je v minulém čase průběhovém."]]},
 { id:"conditionals", title:"Druhý a třetí kondicionál: kdyby…", blurb:"Co by bylo, kdyby. „Would“ patří jen do jedné půlky věty.", deck:"Pocity a reakce", body:`
-<p>Tyto věty mluví o tom, co není skutečné. Česky je „by“ v obou půlkách: „Kdy<i>by</i> měla čas, cestovala <i>by</i>.“ Anglicky je <b>would</b> jen v jedné. V půlce s <b>if</b> není nikdy.</p>
+<p>Tyto věty mluví o tom, co není skutečné. Česky je „by“ v obou půlkách: „Kdy<i>by</i> měla čas, cestovala <i>by</i>.“ Anglicky je <b>would</b> jen v jedné. V půlce s <b>if</b> není nikdy.</p>
 <h3>Druhý kondicionál: opak toho, co platí teď</h3>
 <p><b>If + minulý čas, would + základní tvar</b>. Tvar je minulý, ale mluvíš o přítomnosti.</p>
 {{ex:If I had time, I would travel.|/ɪf aɪ ˈhæd ˈtaɪm aɪ wəd ˈtrævl/|Kdybych měla čas, cestovala bych}}{{ex:If I were you, I'd take it.|/ɪf aɪ wər ˈjuː aɪd ˈteɪk ɪt/|Na tvém místě bych to vzal / vzala}}{{ex:What would you do?|/ˈwʌt wəd ju ˈduː/|Co bys udělal / udělala ty?}}
@@ -128,7 +128,7 @@ practice:[
 ["ty","Na tvém místě bych šel / šla","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go – ustálené spojení","am","Ustálené spojení: „If I were you, I'd …“."],
 ["ty","Kéž bych měl / měla auto (s „I wish“)","I wish I had a car","I wish · had · car – neurčitý člen „a“","the","Jakékoli auto, ne jedno určité: neurčitý člen „a“."],
 ["ty","Měl / měla jsem si vzít taxík","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi – neurčitý člen „a“","the","Jakýkoli taxík, ne jeden určitý: neurčitý člen „a“."]]},
-{ id:"passive", title:"Trpný rod: be + příčestí minulé", blurb:"Když je důležitější, co se stalo, než kdo to udělal. Česky často „se“ nebo „oni“.", deck:"Práce a e-maily", body:`
+{ id:"passive", title:"Trpný rod: „be“ + příčestí minulé", blurb:"Když je důležitější, co se stalo, než kdo to udělal. Česky často „se“ nebo „oni“.", deck:"Práce a e-maily", body:`
 <p>Trpný rod (passive) se tvoří jako <b>be + příčestí minulé</b>. Hodí se, když nevíš, kdo to udělal, nebo to není důležité. Čeština v takových větách raději použije „se“ nebo neurčité „oni“: „Tady <i>se mluví</i> anglicky“, „<i>Ukradli</i> mi telefon“. Angličtina sáhne po trpném rodu.</p>
 {{ex:My phone was stolen.|/maɪ ˈfoʊn wəz ˈstoʊlən/|Ukradli mi telefon}}{{ex:This was made in the Czech Republic.|/ˈðɪs wəz ˈmeɪd ɪn ðə ˈtʃek rɪˈpʌblɪk/|Tohle bylo vyrobeno v České republice}}{{ex:The meeting was canceled.|/ðə ˈmiːtɪŋ wəz ˈkænsld/|Schůzka byla zrušena}}
 <h3>Přítomný čas: co se děje běžně</h3>
@@ -161,7 +161,7 @@ practice:[
 ["ty","Ukradli mi telefon (trpný rod)","My phone was stolen|My phone got stolen","my phone · was · stolen – trpný rod","stole","„Be“ + příčestí minulé „stolen“."],
 ["ty","Ta schůzka byla zrušena","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled – určitý člen „the“","a","Schůzka, o které už byla řeč: určitý člen „the“."],
 ["ty","Dveře byly zamčené (jedny dveře)","The door was locked","the door · was · locked – určitý člen „the“","a","České „dveře“ jsou anglicky „door“ v jednotném čísle, proto „was“; tyto dveře tady mají určitý člen „the“."]]},
-{ id:"reported", title:"Nepřímá řeč: co kdo řekl", blurb:"She said she was tired. Čas se posouvá do minulosti a po „tell“ musí být osoba.", deck:"Telefon a chatové zkratky", body:`
+{ id:"reported", title:"Nepřímá řeč: co kdo řekl", blurb:"„She said she was tired.“ Čas se posouvá do minulosti a po „tell“ musí být osoba.", deck:"Telefon a chatové zkratky", body:`
 <p>Nepřímou řečí (reported speech) předáváš, co řekl někdo jiný. Čeština nechává původní čas: „Řekla, že <i>je</i> unavená.“ Angličtina po <b>said</b> posouvá čas o krok do minulosti: <b>She said she was tired.</b> Říká se tomu souslednost časů.</p>
 <div class="tbl"><table><tr><th>Přímá řeč</th><th>Nepřímá řeč</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>
 {{ex:She said she was tired.|/ʃi ˈsed ʃi wəz ˈtaɪərd/|Řekla, že je unavená}}{{ex:He said he would come.|/hi ˈsed hi wəd ˈkʌm/|Řekl, že přijde}}
@@ -170,7 +170,7 @@ practice:[
 <p>České „říct“ má dvě podoby. Po <b>tell</b> musí být osoba, které to říkáš. Po <b>say</b> hned osoba být nemůže. <b>I told I would be back.</b> ✗ → <b>I said I would be back.</b> / <b>I told her I would be back.</b> ✓</p>
 {{ex:He told me he was busy.|/hi ˈtoʊld mi hi wəz ˈbɪzi/|Řekl mi, že má moc práce}}
 <h3>Otázky v nepřímé řeči</h3>
-<p>Otázku ano/ne uvádí <b>if</b>. Otázka s tázacím slovem si tázací slovo nechá. Za ním je ale <b>slovosled jako v oznamovací větě</b> (podmět + sloveso) a pomocné <b>do / did</b> mizí.</p>
+<p>Otázku ano/ne uvádí <b>if</b>. Otázka s tázacím slovem si tázací slovo nechá. Za ním je ale <b>slovosled jako v oznamovací větě</b> (podmět + sloveso) a pomocné <b>do / did</b> mizí.</p>
 {{ex:She asked if I was okay.|/ʃi ˈæskt ɪf aɪ wəz oʊˈkeɪ/|Zeptala se, jestli jsem v pořádku}}{{ex:He asked where I lived.|/hi ˈæskt ˈwer aɪ ˈlɪvd/|Zeptal se, kde bydlím}}
 <p>Stejně tak: <b>I don't know what is his job.</b> ✗ → <b>I don't know what his job is.</b> ✓</p>
 <div class="tip">Nejčastější chyby: <b>He said me …</b> ✗ → <b>He told me …</b> ✓ a <b>He asked where did I live.</b> ✗ → <b>He asked where I lived.</b> ✓</div>`,

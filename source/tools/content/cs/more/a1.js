@@ -105,12 +105,12 @@ practice:[
 {{ex:Where do you live?|/ˈwer də ju ˈlɪv/|Kde bydlíš?}}{{ex:What do you do?|/ˈwʌt də ju ˈduː/|Jakou máš práci?}}{{ex:Where is the bathroom?|/ˈwer ɪz ðə ˈbæθruːm/|Kde je toaleta?}}{{ex:How much is this?|/ˈhaʊ ˈmʌtʃ ɪz ˈðɪs/|Kolik to stojí?}}{{ex:What is it called?|/ˈwʌt ɪz ɪt ˈkɔːld/|Jak se to jmenuje?}}
 <p>Pozor na české „jak“: „Jak se to jmenuje?“ je anglicky <b>What is it called?</b>, ne <b>How is it called?</b> A v nepřímé otázce se slovosled vrací k oznamovací větě: <b>Tell me where she lives.</b></p>
 <div class="tip">Nejčastější chyby: <b>Where you live?</b> ✗ → <b>Where do you live?</b> ✓ / <b>How old she is?</b> ✗ → <b>How old is she?</b> ✓ / <b>Are you like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓</div>`,
-check:[["Jak se anglicky zeptáš: „Chutná ti káva?“",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"Otázka se slovesem „like“ začíná pomocným slovesem „Do“."],["Jak se anglicky zeptáš: „Kde bydlíš?“",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"Pořadí je tázací slovo + „do“ + podmět + sloveso."],["Která odpověď se hodí k otázce „Do you speak English?“",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Na otázku s „Do“ odpovíš zase pomocí „do“."]],
+check:[["Jak se anglicky zeptáš: „Chutná ti káva?“",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"Otázka se slovesem „like“ začíná pomocným slovesem „Do“."],["Jak se anglicky zeptáš: „Kde bydlíš?“",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"Pořadí je tázací slovo + „do“ + podmět + sloveso."],["Která odpověď se hodí k otázce „Do you speak English?“",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Na otázku s „Do“ odpovíš zase pomocí „do“."]],
 practice:[
 ["mc","Jak se anglicky zeptáš: „Mluvíš anglicky?“","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","Otázka začíná pomocným slovesem „Do“."],
 ["mc","Jak se anglicky zeptáš: „Kde bydlíš?“","Where do you live?","Where you live?","Where are you live?","Where live you?","Pořadí je tázací slovo + „do“ + podmět + sloveso."],
 ["mc","Jak se anglicky zeptáš: „Kolik to stojí?“","How much is this?","How much this is?","How much does this?","What much is this?","Na cenu se ptáš „How much is …?“"],
-["mc","Do you like tea? Která odpověď je správně?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Na otázku s „Do“ odpovíš zase pomocí „do“."],
+["mc","Do you like tea? Která odpověď je správně?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Na otázku s „Do“ odpovíš zase pomocí „do“."],
 ["mc","Jak se anglicky zeptáš na povolání: „Co děláš?“","What do you do?","What are you do?","What you do?","What do you?","Na povolání se ptáš „What do you do?“"],
 ["or","Chutná ti káva?","Do you like coffee","Are the","Otázka se slovesem „like“ začíná „Do“. Káva obecně je bez členu."],
 ["or","Kde je toaleta?","Where is the bathroom","a do","Jde o toaletu v této budově, proto určitý člen „the“."],
@@ -211,7 +211,7 @@ practice:[
 <p>České „umět“ i „moct“ je anglicky <b>can</b>. Za ním stojí základní tvar slovesa a ani po <b>he</b> a <b>she</b> se nepřidává -s.</p>
 {{ex:I can swim.|/aɪ kən ˈswɪm/|Umím plavat}}{{ex:I can't drive.|/aɪ ˈkænt ˈdraɪv/|Neumím řídit}}{{ex:Can you speak Czech?|/kən ju ˈspiːk ˈtʃek/|Umíš česky?}}
 <h3>Like + -ing: baví mě to</h3>
-<p>České „rád plavu“ si vystačí s příslovcem. Angličtina takové příslovce nemá: použiješ sloveso <b>like</b> nebo <b>love</b> a za ním <b>tvar s -ing</b>. Obrací se i „Líbí se mi to“: podmětem je člověk, <b>I like it</b>.</p>
+<p>České „rád plavu“ si vystačí s příslovcem. Angličtina takové příslovce nemá: použiješ sloveso <b>like</b> nebo <b>love</b> a za ním <b>tvar s -ing</b>. Obrací se i „Líbí se mi to“: podmětem je člověk, <b>I like it</b>.</p>
 {{ex:I like cooking.|/aɪ ˈlaɪk ˈkʊkɪŋ/|Vaření mě baví}}{{ex:I love watching movies.|/aɪ ˈlʌv ˈwɑːtʃɪŋ ˈmuːviz/|Dívat se na filmy mě moc baví}}{{ex:I don't like running.|/aɪ ˈdoʊnt ˈlaɪk ˈrʌnɪŋ/|Běhání mě nebaví}}{{ex:I really like it.|/aɪ ˈriːəli ˈlaɪk ɪt/|Moc se mi to líbí}}
 <h3>I'd like: zdvořilé přání</h3>
 <p><b>I like</b> říká, co máš v oblibě stále. <b>I'd like</b> je zdvořilé „chci“ pro tuto chvíli, česky „dal bych si“ nebo „dala bych si“. Při objednávání používej <b>I'd like</b>.</p>
@@ -234,7 +234,7 @@ practice:[
 ["ty","Dám si sendvič","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich – člen „a“","the","Objednáváš jakýkoli jeden sendvič, proto neurčitý člen „a“."],
 ["ty","Mám rád / ráda psy","I like dogs|I love dogs","like · dog – množné číslo","dog","O psech obecně mluvíš v množném čísle: „dogs“."]]},
 { id:"continuous", title:"Právě teď: „be“ + -ing", blurb:"Co děláš běžně, říká přítomný čas prostý. Co děláš právě teď, říká „be“ a tvar s -ing.", deck:"Nezávazná konverzace", body:`
-<p>České „Hraju tenis“ znamená „hraju ho pravidelně“ i „hraju ho právě teď“. Angličtina to rozlišuje. Co se děje <b>v tuto chvíli</b>, má přítomný čas průběhový (Present Continuous): <b>be + tvar s -ing</b>.</p>
+<p>České „Hraju tenis“ znamená „hraju ho pravidelně“ i „hraju ho právě teď“. Angličtina to rozlišuje. Co se děje <b>v tuto chvíli</b>, má přítomný čas průběhový (Present Continuous): <b>be + tvar s -ing</b>.</p>
 {{ex:I'm working now.|/aɪm ˈwɜːrkɪŋ ˈnaʊ/|Teď pracuju}}{{ex:She's cooking dinner.|/ʃiz ˈkʊkɪŋ ˈdɪnər/|Ona zrovna vaří večeři}}{{ex:It's raining.|/ɪts ˈreɪnɪŋ/|Prší}}
 <h3>Otázka a zápor</h3>
 {{ex:What are you doing?|/ˈwʌt ər ju ˈduːɪŋ/|Co zrovna děláš?}}{{ex:Are you listening?|/ər ju ˈlɪsənɪŋ/|Posloucháš?}}{{ex:I'm not sleeping.|/aɪm ˈnɑːt ˈsliːpɪŋ/|Nespím}}
@@ -256,7 +256,7 @@ practice:[
 ["or","Děti si zrovna hrají","The kids are playing","kid is","Dětí je víc, proto množné číslo „kids“ a sloveso „are“."],
 ["or","Teď prší","It's raining now","rains","Co se děje právě teď, má „be“ a tvar s -ing."],
 ["fi","I'm __ TV.","Dívám se na televizi","watching","watch|watches|to watch","Po „be“ následuje tvar s -ing."],
-["fi","What __ you doing?","Co zrovna děláš?","are","do|is|does","K „you“ patří „are“."],
+["fi","What __ you doing?","Co zrovna děláš?","are","do|is|does","K „you“ patří „are“."],
 ["fi","She __ working today.","Ona dnes nepracuje","isn't|is not","doesn't|don't|not","Zápor průběhového tvaru je „isn't“ a tvar s -ing."],
 ["ty","Teď vařím","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook · now – tvar s -ing","cook","Co děláš právě teď, má „be“ a tvar s -ing."],
 ["ty","Zrovna se dívám na film","I'm watching a movie","I'm · watching · movie – člen „a“","the","Jde o jakýkoli jeden film, proto neurčitý člen „a“."],
@@ -265,7 +265,7 @@ practice:[
 <p>Čeština má jeden minulý čas a skládá ho ze slovesa „být“ a příčestí: „pracoval jsem“. Anglický minulý čas prostý (Past Simple) je jediné slovo, bez <b>am</b>: <b>I worked</b>. A nezáleží na tom, jestli je české sloveso dokonavé, nebo nedokonavé: „dělal jsem“ i „udělal jsem“ je <b>I did</b>.</p>
 <h3>Sloveso to be: was / were</h3>
 <p>Po <b>I</b>, <b>he</b>, <b>she</b> a <b>it</b> je <b>was</b>, po <b>you</b>, <b>we</b> a <b>they</b> je <b>were</b>.</p>
-{{ex:I was tired.|/aɪ wəz ˈtaɪərd/|Byl jsem unavený / byla jsem unavená}}{{ex:It was fun.|/ɪt wəz ˈfʌn/|Byla to zábava}}{{ex:We were at home.|/wi wər ət ˈhoʊm/|Byli jsme doma}}{{ex:Were you busy?|/wər ju ˈbɪzi/|Měl / měla jsi hodně práce?}}
+{{ex:I was tired.|/aɪ wəz ˈtaɪərd/|Byl jsem unavený}}{{ex:It was fun.|/ɪt wəz ˈfʌn/|Byla to zábava}}{{ex:We were at home.|/wi wər ət ˈhoʊm/|Byli jsme doma}}{{ex:Were you busy?|/wər ju ˈbɪzi/|Měl / měla jsi hodně práce?}}
 <h3>Ostatní slovesa: -ed</h3>
 <p>Ke slovesu přidáš <b>-ed</b>. Tvar je stejný pro všechny osoby. Koncovka se čte <b>/t/</b> po neznělé souhlásce (<b>worked</b>), <b>/d/</b> po znělé souhlásce a po samohlásce (<b>called</b>, <b>played</b>) a <b>/ɪd/</b> jen po t a d (<b>wanted</b>). Slabiku navíc tedy většinou nepřidává: <b>worked</b> má jen jednu.</p>
 {{ex:I worked yesterday.|/aɪ ˈwɜːrkt ˈjestərdeɪ/|Včera jsem pracoval / pracovala}}{{ex:We watched a movie.|/wi ˈwɑːtʃt ə ˈmuːvi/|Dívali jsme se na film}}{{ex:She called me.|/ʃi ˈkɔːld mi/|Volala mi}}
@@ -286,7 +286,7 @@ practice:[
 ["fi","We __ at home last night.","Včera večer jsme byli doma","were","was|did|are","Po „we“ je „were“."],
 ["fi","I __ soccer yesterday.","Včera jsem hrál / hrála fotbal","played","play|playing|was play","Minulý čas má koncovku -ed."],
 ["fi","__ you work yesterday?","Pracoval / pracovala jsi včera?","Did","Were|Do|Was","Otázka v minulém čase začíná „Did“."],
-["ty","Byl jsem unavený / byla jsem unavená","I was tired","was · tired – minulý čas","were","Po „I“ je „was“."],
+["ty","Byl jsem unavený","I was tired","was · tired – minulý čas","were","Po „I“ je „was“."],
 ["ty","Díval / dívala jsem se na film","I watched a movie","watched · movie – člen „a“","the","Film byl jeden a zmiňuješ ho poprvé, proto neurčitý člen „a“."],
 ["ty","Volal / volala jsem kamarádům","I called my friends","called · my · friend – množné číslo","friend","Kamarádů bylo víc, proto množné číslo „friends“."]]},
 { id:"irregular-past", title:"Nepravidelná slovesa v minulém čase: „went“, „ate“, „saw“", blurb:"Právě nejběžnější slovesa koncovku -ed nemají. Začni těmito dvanácti.", deck:"Nezávazná konverzace", body:`
@@ -355,7 +355,7 @@ practice:[
 <p>České „tak“ má dva překlady. Před samotným přídavným jménem je <b>so</b>: <b>so nice</b>. Když následuje i podstatné jméno, je to <b>such a</b>: <b>such a nice day</b>.</p>
 {{ex:It's such a nice day.|/ɪts ˈsʌtʃ ə ˈnaɪs ˈdeɪ/|Je tak krásný den}}
 <div class="tip">Nejčastější chyby: <b>more cheaper</b>, <b>more better</b> ✗ → <b>cheaper</b>, <b>better</b> ✓ Koncovka -er a slovo <b>more</b> se nikdy nepoužívají spolu. A také <b>so nice day</b> ✗ → <b>such a nice day</b> ✓</div>`,
-check:[["2. stupeň přídavného jména „big“?",["more big","biger","bigger","most big"],2,"Krátké slovo přidává -er a koncová souhláska se zdvojuje."],["This is ___ expensive than that. Co patří na vynechané místo?",["more","most","much","very"],0,"Dlouhé slovo tvoří 2. stupeň pomocí „more“."],["3. stupeň přídavného jména „good“?",["the goodest","the most good","the better","the best"],3,"Nepravidelně: „good“ – „better“ – „the best“."]],
+check:[["2. stupeň přídavného jména „big“?",["more big","biger","bigger","most big"],2,"Krátké slovo přidává -er; po krátké samohlásce se koncová souhláska zdvojuje."],["This is ___ expensive than that. Co patří na vynechané místo?",["more","most","much","very"],0,"Dlouhé slovo tvoří 2. stupeň pomocí „more“."],["3. stupeň přídavného jména „good“?",["the goodest","the most good","the better","the best"],3,"Nepravidelně: „good“ – „better“ – „the best“."]],
 practice:[
 ["mc","2. stupeň přídavného jména „cheap“?","cheaper","more cheap","cheapper","most cheap","Krátké slovo přidává -er."],
 ["mc","Jak se anglicky řekne „Tohle je dražší“?","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","Dlouhé slovo tvoří 2. stupeň pomocí „more“."],
@@ -381,10 +381,10 @@ practice:[
 <h3>Časové údaje</h3>
 <p>Na konec věty patří <b>tomorrow</b> (zítra), <b>tonight</b> (dnes večer), <b>this weekend</b> (tento víkend) nebo <b>next week</b> (příští týden).</p>
 <div class="tip">V řeči zní <b>going to</b> jako <b>gonna</b>. A nezapomeň na sloveso <b>be</b>: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
-check:[["Jak se anglicky řekne „Zítra se sejdu s kamarádem“?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"Vazba je „be“ + „going to“ + základní tvar slovesa."],["She ___ going to study. Co patří na vynechané místo?",["am","are","is","be"],2,"K „she“ patří „is“."],["Jak se anglicky zeptáš: „Co budeš dělat o víkendu?“",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Pořadí je tázací slovo + „be“ + podmět + „going to“."]],
+check:[["Jak se anglicky řekne „Zítra se sejdu s kamarádem“?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"Vazba je „be“ + „going to“ + základní tvar slovesa."],["She ___ going to study. Co patří na vynechané místo?",["am","are","is","be"],2,"K „she“ patří „is“."],["Jak se anglicky zeptáš: „Co budeš dělat o víkendu?“",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Pořadí je tázací slovo + „be“ + podmět + „going to“."]],
 practice:[
 ["mc","Jak se anglicky řekne „Pojedu do Pusanu“?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","Vazba je „be“ + „going to“ + základní tvar slovesa."],
-["mc","They ___ going to come.","are","is","am","be","K „they“ patří „are“."],
+["mc","They ___ going to come.","are","is","am","be","K „they“ patří „are“."],
 ["mc","Jak se anglicky řekne „Bude pršet“?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","Po „going to“ je základní tvar slovesa."],
 ["mc","Jak se anglicky řekne „Nepůjdu“?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","„Not“ stojí hned za slovesem „be“."],
 ["mc","Jak se anglicky zeptáš: „Přijdeš?“","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","V otázce jde sloveso „be“ před podmět."],
@@ -392,7 +392,7 @@ practice:[
 ["or","Sejdu se s kamarády","I'm going to meet my friends","friend","Kamarádů je víc, proto množné číslo „friends“."],
 ["or","Půjdeme na večeři","We're going to have dinner","a","Před slovem „dinner“ není žádný člen."],
 ["fi","I'm going __ study tonight.","Dnes večer se budu učit","to","for|at|will","Vazba je „going to“ + základní tvar slovesa."],
-["fi","__ you going to come?","Přijdeš?","Are","Do|Is|Will","K „you“ patří „Are“."],
+["fi","__ you going to come?","Přijdeš?","Are","Do|Is|Will","K „you“ patří „Are“."],
 ["fi","It's going to __ tomorrow.","Zítra bude pršet","rain","rains|raining|rained","Po „going to“ je základní tvar slovesa."],
 ["ty","Chystám se podívat na film","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie – člen „a“","the","Jde o jakýkoli jeden film, proto neurčitý člen „a“."],
 ["ty","Co budeš dělat? (plán)","What are you going to do","what · going to · do – plán","will","Na plány se ptáš vazbou „be going to“."],
@@ -400,13 +400,13 @@ practice:[
 { id:"joining", title:"Spojování vět: „and“, „but“, „or“, „so“, „because“", blurb:"Ze dvou krátkých vět jedna delší. A pozor: před „because“ se čárka nepíše.", deck:"Pocity a reakce", body:`
 <p>Samé krátké věty znějí úsečně. S těmito pěti spojkami bude tvoje angličtina plynulejší. Většinu z nich znáš z češtiny, liší se hlavně pořadí a čárky.</p>
 <h3>and, but, or</h3>
-{{ex:I like coffee and tea.|/aɪ ˈlaɪk ˈkɔːfi ənd ˈtiː/|Chutná mi káva i čaj}}{{ex:I'm tired but happy.|/aɪm ˈtaɪərd bət ˈhæpi/|Jsem unavený, ale šťastný / unavená, ale šťastná}}{{ex:Coffee or tea?|/ˈkɔːfi ər ˈtiː/|Kávu, nebo čaj?}}
+{{ex:I like coffee and tea.|/aɪ ˈlaɪk ˈkɔːfi ənd ˈtiː/|Chutná mi káva i čaj}}{{ex:I'm tired but happy.|/aɪm ˈtaɪərd bət ˈhæpi/|Jsem unavená, ale šťastná}}{{ex:Coffee or tea?|/ˈkɔːfi ər ˈtiː/|Kávu, nebo čaj?}}
 <h3>so: a tak, proto</h3>
 <p>Pořadí je <b>důvod + so + výsledek</b>.</p>
-{{ex:I was tired, so I went home.|/aɪ wəz ˈtaɪərd soʊ aɪ ˈwent ˈhoʊm/|Byl jsem unavený, tak jsem šel domů / byla jsem unavená, tak jsem šla domů}}
+{{ex:I was tired, so I went home.|/aɪ wəz ˈtaɪərd soʊ aɪ ˈwent ˈhoʊm/|Byl jsem unavený, tak jsem šel domů}}
 <h3>because: protože</h3>
 <p>Pořadí je <b>výsledek + because + důvod</b>. Česky se před „protože“ a „že“ píše čárka vždy. Anglicky se před <b>because</b> a <b>that</b> čárka nepíše.</p>
-{{ex:I went home because I was tired.|/aɪ ˈwent ˈhoʊm bɪkəz aɪ wəz ˈtaɪərd/|Šel jsem domů, protože jsem byl unavený / šla jsem domů, protože jsem byla unavená}}{{ex:I stayed home because it was raining.|/aɪ ˈsteɪd ˈhoʊm bɪkəz ɪt wəz ˈreɪnɪŋ/|Zůstal / zůstala jsem doma, protože pršelo}}
+{{ex:I went home because I was tired.|/aɪ ˈwent ˈhoʊm bɪkəz aɪ wəz ˈtaɪərd/|Šla jsem domů, protože jsem byla unavená}}{{ex:I stayed home because it was raining.|/aɪ ˈsteɪd ˈhoʊm bɪkəz ɪt wəz ˈreɪnɪŋ/|Zůstal / zůstala jsem doma, protože pršelo}}
 <h3>too: také</h3>
 {{ex:I like it too.|/aɪ ˈlaɪk ɪt ˈtuː/|Mně se to taky líbí}}
 <div class="tip"><b>So</b> a <b>because</b> nepatří do jedné věty: <b>Because I was tired, so I went home.</b> ✗ Vyber si jen jedno z nich. Stejně tak <b>although</b> a <b>but</b>: <b>Although I was tired, but I stayed.</b> ✗ → <b>Although I was tired, I stayed.</b> ✓</div>`,
@@ -416,20 +416,20 @@ practice:[
 ["mc","I was hungry, ___ I ate a sandwich.","so","because","but","or","Nejdřív důvod, potom výsledek: „so“."],
 ["mc","I ate a sandwich ___ I was hungry.","because","so","but","or","Nejdřív výsledek, potom důvod: „because“."],
 ["mc","Jak se anglicky zeptáš: „Kávu, nebo čaj?“","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","Výběr ze dvou možností: „or“."],
-["mc","Jak se anglicky řekne „Jsem unavený, ale šťastný / unavená, ale šťastná“?","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","České „ale“ je „but“."],
+["mc","Jak se anglicky řekne „Jsem unavená, ale šťastná“?","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","České „ale“ je „but“."],
 ["or","Mám rád / ráda kočky a psy","I like cats and dogs","cat dog","O zvířatech obecně mluvíš v množném čísle: „cats“, „dogs“."],
 ["or","Jednu kávu a jeden sendvič, prosím","A coffee and a sandwich please","the or","Objednáváš po jednom kusu, proto před každým slovem neurčitý člen „a“."],
-["or","Měl / měla jsem hlad, a tak jsem jedl / jedla","I was hungry so I ate","because","Nejdřív důvod, potom výsledek: „so“."],
-["fi","I'm tired __ happy.","Jsem unavený, ale šťastný / unavená, ale šťastná","but","so|because|or","České „ale“ je „but“."],
+["or","Měl jsem hlad, a tak jsem jedl","I was hungry so I ate","because","Nejdřív důvod, potom výsledek: „so“."],
+["fi","I'm tired __ happy.","Jsem unavená, ale šťastná","but","so|because|or","České „ale“ je „but“."],
 ["fi","I stayed home __ it was raining.","Zůstal / zůstala jsem doma, protože pršelo","because","so|but|or","Nejdřív výsledek, potom důvod: „because“."],
 ["fi","Coffee __ tea?","Kávu, nebo čaj?","or","so|but|because","Výběr ze dvou možností: „or“."],
 ["ty","Mám rád / ráda kávu a čaj","I like coffee and tea","like · coffee · and · tea – bez členu","a","Káva a čaj obecně jsou nepočitatelné a bez členu."],
-["ty","Jsem unavený, ale šťastný / unavená, ale šťastná","I'm tired but happy|I'm tired but I'm happy","tired · but · happy – česky „ale“","so","České „ale“ je „but“."],
+["ty","Jsem unavená, ale šťastná","I'm tired but happy|I'm tired but I'm happy","tired · but · happy – česky „ale“","so","České „ale“ je „but“."],
 ["ty","Mám rád / ráda psy a kočky","I like dogs and cats|I like cats and dogs","dog · and · cat – množné číslo","dog","O zvířatech obecně mluvíš v množném čísle: „dogs“, „cats“."]]},
 { id:"czenglish", title:"Czenglish: falešní přátelé a čechismy", blurb:"„Actual“ neznamená „aktuální“ a „How is it called?“ anglicky nikdo neřekne. Nejčastější pasti české angličtiny.", deck:"Falešní přátelé a čechismy", body:`
 <p>Hodně chyb, které Češi v angličtině dělají, nejsou chyby v gramatice, ale ve slovech. Anglické slovo vypadá jako české, a znamená něco jiného (<b>actual</b> není „aktuální“). Jedno české slovo má dva anglické překlady („učit“ je <b>teach</b>, „učit se“ je <b>learn</b>). A doslovný překlad dá větu, kterou angličtina nezná (<b>How is it called?</b>). Této směsi se říká Czenglish.</p>
 <h3>Falešní přátelé</h3>
-<div class="tbl"><table><tr><th>Česky</th><th>Špatně ✗</th><th>Správně ✓</th><th>Falešný přítel znamená</th></tr><tr><td>aktuální</td><td><b>actual</b></td><td class="k">current</td><td>skutečný</td></tr><tr><td>eventuálně</td><td><b>eventually</b></td><td class="k">possibly</td><td>nakonec</td></tr><tr><td>sympatický</td><td><b>sympathetic</b></td><td class="k">nice</td><td>soucitný</td></tr><tr><td>kontrola (u lékaře)</td><td><b>control</b></td><td class="k">check-up</td><td>ovládání, řízení</td></tr><tr><td>konkrétní</td><td><b>concrete</b></td><td class="k">specific</td><td>beton, betonový</td></tr><tr><td>gymnázium</td><td><b>gymnasium</b></td><td class="k">high school</td><td>tělocvična</td></tr><tr><td>novela</td><td><b>novel</b></td><td class="k">novella</td><td>román</td></tr><tr><td>bilion</td><td><b>billion</b></td><td class="k">trillion</td><td>miliarda</td></tr></table></div>
+<div class="tbl"><table><tr><th>Česky</th><th>Špatně ✗</th><th>Správně ✓</th><th>Falešný přítel znamená</th></tr><tr><td>aktuální</td><td><b>actual</b></td><td class="k">current</td><td>skutečný</td></tr><tr><td>eventuálně</td><td><b>eventually</b></td><td class="k">possibly</td><td>nakonec</td></tr><tr><td>sympatický</td><td><b>sympathetic</b></td><td class="k">nice</td><td>soucitný</td></tr><tr><td>kontrola (u lékaře)</td><td><b>control</b></td><td class="k">check-up</td><td>ovládání, řízení</td></tr><tr><td>konkrétní</td><td><b>concrete</b></td><td class="k">specific</td><td>beton, betonový; hmatatelný</td></tr><tr><td>gymnázium</td><td><b>gymnasium</b></td><td class="k">high school</td><td>tělocvična</td></tr><tr><td>novela</td><td><b>novel</b></td><td class="k">novella</td><td>román</td></tr><tr><td>bilion</td><td><b>billion</b></td><td class="k">trillion</td><td>miliarda</td></tr></table></div>
 {{ex:What's the current price?|/ˈwʌts ðə ˈkɜːrənt ˈpraɪs/|Jaká je aktuální cena?}}{{ex:She's very nice.|/ʃiz ˈveri ˈnaɪs/|Je moc sympatická}}{{ex:He goes to high school.|/hi ˈgoʊz tə ˈhaɪ ˈskuːl/|Chodí na gymnázium}}{{ex:I went to the doctor for a check-up.|/aɪ ˈwent tə ðə ˈdɑːktər fər ə ˈtʃekʌp/|Byl / byla jsem u lékaře na kontrole}}
 <p>Když slovo vyměníš, nezapomeň na člen a číslo. <b>Check-up</b> je počitatelné podstatné jméno, a tak chce <b>a</b>. Spojení <b>go to high school</b> je bez členu, stejně jako <b>go to work</b>.</p>
 <h3>Jedno české slovo, dvě anglická</h3>

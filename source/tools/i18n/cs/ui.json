@@ -3780,7 +3780,7 @@
    "where": "js (top level)"
   },
   "Finish a deck of the week to earn one.": {
-   "t": "Dokonči balíček týdne a jeden získáš.",
+   "t": "Dokonči balíček týdne a získáš odznak.",
    "ko": "이번 주의 덱을 끝내면 받을 수 있어요.",
    "kind": "sentence",
    "where": "js ws() <p>"
@@ -4033,7 +4033,7 @@
    "where": "js TITLES()"
   },
   "Student": {
-   "t": "Hlavička",
+   "t": "Učení",
    "ko": "학생",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4047,14 +4047,14 @@
    "where": "js (top level)"
   },
   "Pro": {
-   "t": "Eso",
+   "t": "Profi",
    "ko": "고수",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Master": {
-   "t": "Legenda",
+   "t": "Mistrovství",
    "ko": "달인",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4075,7 +4075,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Talker": {
-   "t": "Konverzace",
+   "t": "Povídání",
    "ko": "수다쟁이",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -5377,7 +5377,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· week {n} of {n}": {
-   "t": "· týden {1} z {2}",
+   "t": "· týden {1} z {2}",
    "ko": "· {2}주 중 {1}주차",
    "slots": "{1}=n, {2}=n",
    "example": "· week 5 of 2",
@@ -5702,7 +5702,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Continue learning · card {n} of {n}": {
-   "t": "Pokračovat v učení · kartička {1} z {2}",
+   "t": "Pokračovat v učení · kartička {1} z {2}",
    "ko": "이어서 배우기 · {2}장 중 {1}번째",
    "slots": "{1}=n, {2}=n",
    "example": "Continue learning · card 5 of 2",
@@ -6114,28 +6114,28 @@
    "example": "📝 Exam · 5/25 · mixed"
   },
   "Learn · card {n} of {n} · {x}": {
-   "t": "Učení · kartička {1} z {2} · {3}",
+   "t": "Učení · kartička {1} z {2} · {3}",
    "ko": "배우기 · {2}장 중 {1}번째 · {3}",
    "slots": "{1}=n, {2}=n, {3}=x",
    "example": "Learn · card 5 of 2 · Hello there",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Learn · new card {n} of {n} · {x}": {
-   "t": "Učení · nová kartička {1} z {2} · {3}",
+   "t": "Učení · nová kartička {1} z {2} · {3}",
    "ko": "배우기 · 새 카드 {2}장 중 {1}번째 · {3}",
    "slots": "{1}=n, {2}=n, {3}=x",
    "example": "Learn · new card 5 of 2 · Hello there",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Round {n} of {n} · passed": {
-   "t": "Kolo {1} z {2} · splněno",
+   "t": "Kolo {1} z {2} · splněno",
    "ko": "라운드 {1}/{2} · 통과",
    "slots": "{1}=n, {2}=n",
    "example": "Round 5 of 2 · passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Round {n} of {n} · 80% to pass": {
-   "t": "Kolo {1} z {2} · ke splnění 80 %",
+   "t": "Kolo {1} z {2} · ke splnění 80 %",
    "ko": "라운드 {1}/{2} · 80% 이상이면 통과",
    "slots": "{1}=n, {2}=n",
    "example": "Round 5 of 2 · 80% to pass",
@@ -6486,7 +6486,7 @@
    "example": "New cards · Hello there"
   },
   "week {n} of {n}": {
-   "t": "týden {1} z {2}",
+   "t": "týden {1} z {2}",
    "ko": "{2}주 중 {1}주차",
    "slots": "{1}=n, {2}=n",
    "example": "week 5 of 2",
@@ -6577,7 +6577,7 @@
    "example": "5/2 · now pass the quick check above"
   },
   "Card {n} of {n}": {
-   "t": "Kartička {1} z {2}",
+   "t": "Kartička {1} z {2}",
    "ko": "{2}장 중 {1}번째",
    "slots": "{1}=n, {2}=n",
    "example": "Card 5 of 2",

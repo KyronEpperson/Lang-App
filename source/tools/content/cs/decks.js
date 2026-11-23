@@ -21,7 +21,7 @@ Bye! | /ˈbaɪ/ | Ahoj! / Čau! (při loučení) | Česky říkáme „ahoj“ p
 Good night. | /ˈgʊd ˈnaɪt/ | Dobrou noc | Jen při loučení pozdě večer nebo před spaním. Při setkání řekni „Good evening“.
 `,
 "Představování": `
-My name is Lenka. | /maɪ ˈneɪm ɪz ˈleŋkə/ | Jmenuji se Lenka | V běžné řeči se říká spíš kratší „I'm Lenka.“
+My name is Lenka. | /maɪ ˈneɪm ɪz ˈleŋkə/ | Jmenuju se Lenka | V běžné řeči se říká spíš kratší „I'm Lenka.“
 Please call me Jay. | /ˈpliːz ˈkɔːl mi ˈdʒeɪ/ | Říkejte mi Jay | Hodí se, když máš přezdívku nebo kratší podobu jména, kterou cizinci snáz vysloví.
 What should I call you? | /ˈwʌt ʃəd aɪ ˈkɔːl ju/ | Jak ti mám říkat? | Užitečné, když nevíš, jak cizí jméno vyslovit, nebo jestli má druhý raději zkrácenou podobu.
 Where are you from? | /ˈwer ər ju frʌm/ | Odkud jsi? / Odkud jste? | Jedna z prvních otázek, které v cizině uslyšíš. Předložka „from“ stojí až na konci.
@@ -29,8 +29,8 @@ I'm from the Czech Republic. | /aɪm frəm ðə ˈtʃek rɪˈpʌblɪk/ | Jsem z�
 I live in Prague. | /aɪ ˈlɪv ɪn ˈprɑːg/ | Bydlím v Praze | Anglicky „Prague“ /ˈprɑːg/, nikdy „Praha“. Koncové „g“ zůstává znělé.
 I'm a student. | /aɪm ə ˈstuːdnt/ | Jsem student / studentka | Před povoláním musí být člen „a“ nebo „an“. „I'm student“ je jedna z nejčastějších českých chyb.
 What do you do? | /ˈwʌt də ju ˈduː/ | Čím jsi? / Co děláš (za práci)? | Ptá se na povolání. Co děláš právě teď, je „What are you doing?“
-I work at a bank. | /aɪ ˈwɜːrk ət ə ˈbæŋk/ | Pracuji v bance | Před firmou nebo místem je „at“: „I work at Google.“
-I work in marketing. | /aɪ ˈwɜːrk ɪn ˈmɑːrkɪtɪŋ/ | Pracuji v marketingu | Před oborem nebo oddělením je „in“. Česky je to v obou případech „v“.
+I work at a bank. | /aɪ ˈwɜːrk ət ə ˈbæŋk/ | Pracuju v bance | Před firmou nebo místem je „at“: „I work at Google.“
+I work in marketing. | /aɪ ˈwɜːrk ɪn ˈmɑːrkɪtɪŋ/ | Pracuju v marketingu | Před oborem nebo oddělením je „in“. Česky je to v obou případech „v“.
 I'm 25 years old. | /aɪm ˌtwentiˈfaɪv ˈjɪrz ˈoʊld/ | Je mi 25 let | Anglicky „jsem“, ne „je mi“. Řekni „I'm 25“ nebo „I'm 25 years old“, nikdy „I'm 25 years“ ani „I have 25 years“.
 I'm really into hiking. | /aɪm ˈriːəli ɪntə ˈhaɪkɪŋ/ | Hrozně mě baví turistika | Zní přirozeněji než „My hobby is…“. Po „into“ je podstatné jméno nebo tvar s -ing.
 I like watching movies. | /aɪ ˈlaɪk ˈwɑːtʃɪŋ ˈmuːviz/ | Rád / ráda se dívám na filmy | Po „like“ je tvar s -ing nebo infinitiv s „to“. Britsky se filmu říká „film“.
@@ -41,14 +41,14 @@ I have a younger brother. | /aɪ ˈhæv ə ˈjʌŋgər ˈbrʌðər/ | Mám mlad�
 `,
 "Základní fráze 1": `
 Excuse me. | /ɪkˈskjuːz mi/ | Promiňte / S dovolením | Když někoho oslovuješ nebo se potřebuješ protáhnout kolem. Když do někoho vrazíš, řekni „Sorry!“
-Thank you. | /ˈθæŋk ju/ | Děkuji | „th“ je /θ/: špička jazyka mezi zuby. Ne „senk jú“ ani „tenk jú“.
+Thank you. | /ˈθæŋk ju/ | Děkuju | „th“ je /θ/: špička jazyka mezi zuby. Ne „senk jú“ ani „tenk jú“.
 Thanks a lot. | /ˈθæŋks ə ˈlɑːt/ | Díky moc | Méně formální než „Thank you very much“.
 You're welcome. | /jʊr ˈwelkəm/ | Není zač / Rádo se stalo | Na „Thank you“ se neodpovídá „Please“, i když česky říkáme „prosím“. Neformálně: „Sure“, „No problem“, „Anytime“.
 No problem. | /ˈnoʊ ˈprɑːbləm/ | To nic / V pohodě | Velmi běžná odpověď na poděkování.
 I'm sorry. | /aɪm ˈsɑːri/ | Omlouvám se / Je mi to líto | Opravdová omluva. Když do někoho jen lehce strčíš, stačí „Sorry!“
 Yes, please. | /ˈjes ˈpliːz/ | Ano, prosím | Odpověď na nabídku, třeba „Would you like some water?“
-No, thank you. | /ˈnoʊ ˈθæŋk ju/ | Ne, děkuji | Zdvořilejší než pouhé „No“. Neformálně: „I'm good, thanks.“
-Sorry? | /ˈsɑːri/ | Prosím? / Cože? | S hlasem nahoru na konci znamená „zopakuj to, prosím“. Česky se ptáme „Prosím?“, ale anglické „Please?“ se takhle nepoužívá.
+No, thank you. | /ˈnoʊ ˈθæŋk ju/ | Ne, děkuju | Zdvořilejší než pouhé „No“. Neformálně: „I'm good, thanks.“
+Sorry? | /ˈsɑːri/ | Prosím? / Cože? | Se stoupavou intonací znamená „zopakuj to, prosím“. Česky se ptáme „Prosím?“, ale anglické „Please?“ se takhle nepoužívá.
 Could you say that again? | /kəd ju ˈseɪ ˈðæt əˈgen/ | Můžete to prosím zopakovat? | Neboj se zeptat, když nerozumíš. Rodilí mluvčí to říkají také.
 Could you speak more slowly? | /kəd ju ˈspiːk ˈmɔːr ˈsloʊli/ | Můžete prosím mluvit pomaleji? | S „please“ na konci zní ještě zdvořileji.
 I don't understand. | /aɪ ˈdoʊnt ˌʌndərˈstænd/ | Nerozumím | Zní trochu stroze. Jemněji: „Sorry, I didn't quite catch that.“
@@ -136,7 +136,7 @@ Here you go. | /ˈhɪr ju ˈgoʊ/ | Tady máte / Prosím (při podávání) | Ř
 Keep the change. | /ˈkiːp ðə ˈtʃeɪndʒ/ | Drobné si nechte / To je dobré | Česky při placení říkáme „To je dobré“. Anglickému „It's good“ by obsluha nerozuměla.
 `,
 "Nakupování a placení": `
-I'm just looking, thanks. | /aɪm ˈdʒʌst ˈlʊkɪŋ ˈθæŋks/ | Jen se dívám, děkuji | Odpověď na „Can I help you find anything?“
+I'm just looking, thanks. | /aɪm ˈdʒʌst ˈlʊkɪŋ ˈθæŋks/ | Jen se dívám, děkuju | Odpověď na „Can I help you find anything?“
 Do you have this in a medium? | /də ju ˈhæv ˈðɪs ɪn ə ˈmiːdiəm/ | Máte to ve velikosti M? | Velikosti: „small“, „medium“, „large“. S členem: „in a medium“.
 Do you have it in black? | /də ju ˈhæv ɪt ɪn ˈblæk/ | Máte to v černé? | Před barvou je „in“.
 Can I try this on? | /kən aɪ ˈtraɪ ˈðɪs ˈɑːn/ | Můžu si to vyzkoušet? | „try on“ = zkusit si oblečení nebo boty. Samotné „try“ je zkusit, ochutnat.
@@ -155,7 +155,7 @@ Does that include tax? | /dəz ˈðæt ɪnˈkluːd ˈtæks/ | Je to včetně dan
 `,
 "Čísla, čas a datum": `
 What time is it? | /ˈwʌt ˈtaɪm ɪz ɪt/ | Kolik je hodin? | Cizího člověka se zeptej: „Excuse me, do you have the time?“
-It's three thirty. | /ɪts ˈθriː ˈθɜːrti/ | Je půl čtvrté | České „půl čtvrté“ míří k další hodině. Anglicky se řekne hodina, která už byla: „three thirty“. Britsky také „half past three“.
+It's three thirty. | /ɪts ˈθriː ˈθɜːrti/ | Je půl čtvrté | České „půl čtvrté“ míří k další hodině. Anglicky se řekne hodina, která už byla: „three thirty“. Říká se i „half past three“.
 It's a quarter to five. | /ɪts ə ˈkwɔːrtər tə ˈfaɪv/ | Je tři čtvrtě na pět | „a quarter“ = čtvrt hodiny. Jde i „four forty-five“.
 At noon | /ət ˈnuːn/ | V poledne | Půlnoc je „midnight“. Je to jasnější než „12 a.m.“ a „12 p.m.“
 What's the date today? | /ˈwʌts ðə ˈdeɪt təˈdeɪ/ | Kolikátého je dnes? | Na den v týdnu se zeptáš „What day is it today?“
@@ -241,7 +241,7 @@ Let me know if you have any questions. | /ˈlet mi ˈnoʊ ɪf ju ˈhæv ˈeni ˈ
 Could you send me the file by Friday? | /kəd ju ˈsend mi ðə ˈfaɪl baɪ ˈfraɪdeɪ/ | Můžete mi ten soubor poslat do pátku? | „by“ = nejpozději do (termín). „until“ = po celou dobu až do. Česky je obojí „do“.
 Sorry for the late reply. | /ˈsɑːri fər ðə ˈleɪt rɪˈplaɪ/ | Omlouvám se za pozdní odpověď | Méně omluvně: „Thanks for your patience.“
 Thanks for getting back to me. | /ˈθæŋks fər ˈgetɪŋ ˈbæk tə mi/ | Děkuji za odpověď | „get back to“ = ozvat se zpátky. Po „Thanks for“ je tvar s -ing.
-Best regards, | /ˈbest rɪˈgɑːrdz/ | S pozdravem | Neutrální závěr e-mailu, obdoba českého „S pozdravem“. Mezi blízkými kolegy: „Best,“ nebo „Thanks,“.
+Best regards, | /ˈbest rɪˈgɑːrdz/ | S pozdravem | Neutrální závěr e-mailu, obdoba českého „S pozdravem“. Mezi blízkými kolegy: „Best,“ nebo „Thanks,“.
 Let's schedule a meeting. | /ˈlets ˈskedʒuːl ə ˈmiːtɪŋ/ | Domluvme si schůzku | „schedule“ se v USA čte /ˈskedʒuːl/, v Británii začíná na /ʃ/.
 I'm running late. | /aɪm ˈrʌnɪŋ ˈleɪt/ | Mám zpoždění / Trochu se zpozdím | Když dáváš vědět z cesty. Dodej, za jak dlouho dorazíš: „I'll be there in 10.“
 Can we push the meeting to 3? | /kən wi ˈpʊʃ ðə ˈmiːtɪŋ tə ˈθriː/ | Můžeme schůzku posunout na třetí? | Na dřívější čas: „move up“ – „Can we move it up to 1?“
@@ -249,7 +249,7 @@ I'll get back to you. | /aɪl ˈget ˈbæk tə ju/ | Ozvu se vám | Když neumí
 Can you walk me through it? | /kən ju ˈwɔːk mi θruː ɪt/ | Můžete mi to vysvětlit krok za krokem? | „walk through“ = provést někoho něčím krok za krokem.
 Let's touch base next week. | /ˈlets ˈtʌtʃ ˈbeɪs ˈnekst ˈwiːk/ | Spojme se příští týden | Krátce si říct, jak věci pokračují. Typická kancelářská fráze.
 What's the deadline? | /ˈwʌts ðə ˈdedlaɪn/ | Do kdy to má být? / Jaký je termín? | Totéž: „When is this due?“
-I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | Dnes pracuji z domu | Zkratka WFH. Pozor na čechismus „I have home office“: anglicky je „home office“ domácí pracovna, ne práce z domu.
+I'm working from home today. | /aɪm ˈwɜːrkɪŋ frəm ˈhoʊm təˈdeɪ/ | Dnes pracuju z domu | Zkratka WFH. Pozor na čechismus „I have home office“: anglicky je „home office“ domácí pracovna, ne práce z domu.
 I'm off tomorrow. | /aɪm ˈɔːf təˈmɑːroʊ/ | Zítra mám volno | Když si bereš dovolenou: „I'm taking a day off tomorrow.“
 Thanks for all your hard work. | /ˈθæŋks fər ˈɔːl jʊr ˈhɑːrd ˈwɜːrk/ | Děkuji vám za všechnu odvedenou práci | Uznání na konci projektu. Při odchodu z práce stačí „See you tomorrow!“
 I'll send you the invoice. | /aɪl ˈsend ju ði ˈɪnvɔɪs/ | Pošlu vám fakturu | Faktura je „invoice“ /ˈɪnvɔɪs/, s přízvukem na první slabice.
@@ -298,7 +298,7 @@ Do I need to take my laptop out? | /də aɪ ˈniːd tə ˈteɪk maɪ ˈlæptɑː
 "Lékař a nouzové situace": `
 Help! | /ˈhelp/ | Pomoc! | Volej nahlas, když jde o život nebo o zdraví.
 Call 911! | /ˈkɔːl ˈnaɪn ˈwʌn ˈwʌn/ | Zavolejte 911! | Tísňová linka v USA je 911 („nine one one“), v Británii 999. V celé Evropské unii platí 112.
-I need a doctor. | /aɪ ˈniːd ə ˈdɑːktər/ | Potřebuji lékaře | Když to spěchá: „I need an ambulance.“ Anglické „ambulance“ je sanitka.
+I need a doctor. | /aɪ ˈniːd ə ˈdɑːktər/ | Potřebuju lékaře | Když to spěchá: „I need an ambulance.“ Anglické „ambulance“ je sanitka.
 I don't feel well. | /aɪ ˈdoʊnt ˈfiːl ˈwel/ | Není mi dobře | Nejběžnější věta, když je ti špatně. Sloveso „feel“ je tu bez „myself“.
 I have a headache. | /aɪ ˈhæv ə ˈhedeɪk/ | Bolí mě hlava | Česky „bolí mě“, anglicky „mám bolest“ – a s členem „a“. Podobně „a stomachache“, „a toothache“.
 I have a fever. | /aɪ ˈhæv ə ˈfiːvər/ | Mám horečku | V USA se teplota měří ve stupních Fahrenheita: 100 °F je asi 38 °C.
@@ -307,11 +307,11 @@ I have a sore throat. | /aɪ ˈhæv ə ˈsɔːr ˈθroʊt/ | Bolí mě v krku |
 I feel dizzy. | /aɪ ˈfiːl ˈdɪzi/ | Točí se mi hlava | Když je ti na zvracení: „I feel nauseous.“
 I sprained my ankle. | /aɪ ˈspreɪnd maɪ ˈæŋkl/ | Podvrtl / podvrtla jsem si kotník | „sprain“ = podvrtnout. Zápěstí je „wrist“. Anglicky s přivlastňovacím zájmenem: „my ankle“.
 Is there a pharmacy near here? | /ɪz ðer ə ˈfɑːrməsi nɪr ˈhɪr/ | Je tady někde lékárna? | V USA se říká také „drugstore“; prodává se tam i drogerie a potraviny.
-Do I need a prescription? | /də aɪ ˈniːd ə prɪˈskrɪpʃn/ | Potřebuji na to recept? | Lékařský recept je „prescription“, recept na vaření „recipe“. Léky bez receptu jsou „over-the-counter“.
+Do I need a prescription? | /də aɪ ˈniːd ə prɪˈskrɪpʃn/ | Potřebuju na to recept? | Lékařský recept je „prescription“, recept na vaření „recipe“. Léky bez receptu jsou „over-the-counter“.
 I lost my wallet. | /aɪ ˈlɔːst maɪ ˈwɑːlɪt/ | Ztratil / ztratila jsem peněženku | Ztráty a nálezy jsou „lost and found“.
 Someone stole my phone. | /ˈsʌmwʌn ˈstoʊl maɪ ˈfoʊn/ | Někdo mi ukradl telefon | „stole“ je minulý tvar slovesa „steal“. České „mi“ se vyjádří přivlastňovacím zájmenem: „my phone“.
 Where is the police station? | /ˈwer ɪz ðə pəˈliːs ˈsteɪʃn/ | Kde je policejní stanice? | Přízvuk je na druhé slabice: /pəˈliːs/.
-I need to contact the Czech embassy. | /aɪ ˈniːd tə ˈkɑːntækt ðə ˈtʃek ˈembəsi/ | Potřebuji kontaktovat české velvyslanectví | Bude se hodit při ztrátě pasu. „contact“ je bez předložky: ne „contact with“.
+I need to contact the Czech embassy. | /aɪ ˈniːd tə ˈkɑːntækt ðə ˈtʃek ˈembəsi/ | Potřebuju kontaktovat české velvyslanectví | Bude se hodit při ztrátě pasu. „contact“ je bez předložky: ne „contact with“.
 I have travel insurance. | /aɪ ˈhæv ˈtrævl ɪnˈʃʊrəns/ | Mám cestovní pojištění | „insurance“ je nepočitatelné, proto bez „a“. Zdravotní péče je v USA velmi drahá, bez pojištění tam nejezdi.
 `,
 "Frázová slovesa": `
@@ -323,12 +323,12 @@ look for | /ˈlʊk fɔːr/ | hledat | „I'm looking for my keys.“ Když už t
 look after | /ˈlʊk ˈæftər/ | starat se o / hlídat | „Can you look after my cat?“ V USA se často říká „take care of“.
 look forward to | /ˈlʊk ˈfɔːrwərd tuː/ | těšit se na | Po „to“ je podstatné jméno nebo tvar s -ing: „I'm looking forward to seeing you.“ Ne „to see you“.
 run out of | /ˈrʌn ˈaʊt əv/ | dojít (o zásobách) | Co došlo, stojí za „of“, a podmětem je člověk: „We ran out of milk.“ – Došlo nám mléko.
-turn on | /ˈtɜːrn ˈɑːn/ | zapnout / rozsvítit | „Turn on the light.“ Zájmeno patří doprostřed: „Turn it on.“ Světlo se anglicky „neotvírá“.
+turn on | /ˈtɜːrn ˈɑːn/ | zapnout / rozsvítit | „Turn on the light.“ Zájmeno patří doprostřed: „Turn it on.“ Platí pro světlo i přístroje: české „rozsvítit“ i „zapnout“ je anglicky „turn on“.
 turn off | /ˈtɜːrn ˈɔːf/ | vypnout / zhasnout | Zájmeno patří doprostřed: „Turn it off.“, ne „Turn off it.“
 turn down | /ˈtɜːrn ˈdaʊn/ | odmítnout / ztlumit | Oba významy jsou běžné: „She turned down the offer.“ / „Turn it down!“
 put off | /ˈpʊt ˈɔːf/ | odložit (na později) | V běžné řeči častější než „postpone“: „Stop putting it off!“
 show up | /ˈʃoʊ ˈʌp/ | objevit se / dorazit | „He didn't show up to the party.“ – Na večírek nedorazil.
-hang out | /ˈhæŋ ˈaʊt/ | trávit spolu čas / být někde s kamarády | Dospělí si s kamarády „nehrají“: „play“ je pro děti, hry a sport. Řekni „hang out“.
+hang out | /ˈhæŋ ˈaʊt/ | trávit spolu čas / být někde s kamarády | Neformální výraz pro společně strávený volný čas: „We hung out at my place.“ Minulý tvar je „hung“. Sloveso „play“ se hodí jen pro děti, hry a sport.
 check out | /ˈtʃek ˈaʊt/ | mrknout na / odhlásit se z hotelu | „Check out this video!“ Druhý význam znáš z hotelu.
 work out | /ˈwɜːrk ˈaʊt/ | cvičit / dobře dopadnout | „I work out every day.“ – Každý den cvičím. „It'll work out.“ – To dobře dopadne.
 come up with | /ˈkʌm ˈʌp wɪð/ | přijít s (nápadem) / vymyslet | Nápad, výmluva, řešení: „She came up with a great idea.“
@@ -365,7 +365,7 @@ leave | /ˈliːv/ | odejít / odjet | Dlouhé /iː/ a znělé /v/ na konci, ne 
 live | /ˈlɪv/ | bydlet / žít | Krátké /ɪ/ je otevřenější než české „i“, skoro k „e“. Koncové /v/ zůstává znělé.
 banana | /bəˈnænə/ | banán | Přízvuk je na druhé slabice: /bəˈnænə/. První a poslední „a“ jsou slabé /ə/.
 hotel | /hoʊˈtel/ | hotel (ubytování) | Přízvuk není na první slabice jako v češtině: /hoʊˈtel/.
-milk | /ˈmɪlk/ | mléko | „l“ před souhláskou je temné: jazyk se zvedá i vzadu. Za „k“ nepřidávej žádnou samohlásku.
+milk | /ˈmɪlk/ | mléko | „l“ před souhláskou je temné: jazyk se zvedá i vzadu.
 McDonald's | /məkˈdɑːnldz/ | restaurace McDonald's | Přízvuk je na „Do“: /məkˈdɑːnldz/. První slabika je slabá /mək/, ne „mek“.
 event | /ɪˈvent/ | akce / událost | Přízvuk je na druhé slabice: /ɪˈvent/. Česky říkáme „event“ s přízvukem na začátku.
 development | /dɪˈveləpmənt/ | vývoj / rozvoj | Přízvuk je na druhé slabice. Nepřízvučné samohlásky jsou slabé /ə/, ne psané „o“ a „e“.
@@ -400,7 +400,7 @@ Better late than never. | /ˈbetər ˈleɪt ðən ˈnevər/ | Lepší pozdě ne�
 Don't beat around the bush. | /ˈdoʊnt ˈbiːt əraʊnd ðə ˈbʊʃ/ | Nechoď kolem horké kaše | Česky chodíme kolem kaše, anglicky se tluče kolem keře.
 It's not my cup of tea. | /ɪts ˈnɑːt maɪ ˈkʌp əv ˈtiː/ | To není nic pro mě | Zdvořilý způsob, jak říct, že tě něco nebaví. Česky se říká podobně: „není to můj šálek kávy“.
 Let's get the ball rolling. | /ˈlets ˈget ðə ˈbɔːl ˈroʊlɪŋ/ | Pojďme na to / Rozjeďme to | Na začátku porady nebo projektu.
-I'll keep my fingers crossed. | /aɪl ˈkiːp maɪ ˈfɪŋgərz ˈkrɔːst/ | Budu ti držet palce | Česky držíme palce, anglicky křížíme prsty: prostředníček přes ukazovák.
+I'll keep my fingers crossed. | /aɪl ˈkiːp maɪ ˈfɪŋgərz ˈkrɔːst/ | Budu ti držet palce | Česky držíme palce, anglicky křížíme prsty: prostředníček přes ukazováček.
 Hang in there. | /ˈhæŋ ˈɪn ˈðer/ | Vydrž / Drž se | Pro někoho, kdo má těžké období.
 Speak of the devil! | /ˈspiːk əv ðə ˈdevl/ | My o vlku a vlk za dveřmi! | Česky vlk, anglicky ďábel. Říká se, když přijde ten, o kom se zrovna mluví.
 The ball is in your court. | /ðə ˈbɔːl ɪz ɪn jʊr ˈkɔːrt/ | Teď je řada na tobě | Obraz z tenisu: míč je na tvé straně kurtu, další krok je na tobě.
@@ -413,7 +413,7 @@ When pigs fly. | /wen ˈpɪgz ˈflaɪ/ | Až naprší a uschne | O něčem, co
 Spill the tea. | /ˈspɪl ðə ˈtiː/ | Sem s těmi drby! | „tea“ je ve slangu drb. Jen mezi přáteli.
 No cap. | /ˈnoʊ ˈkæp/ | Fakt, nekecám | Slang mladých. „cap“ = lež.
 That song slaps. | /ˈðæt ˈsɔːŋ ˈslæps/ | Ta písnička je pecka | „slap“ = (o hudbě) být skvělý. Říká se i o jídle.
-I'm dead. | /aɪm ˈded/ | Já nemůžu! / Umřu smíchy | Ve zprávách s emoji lebky. Znamená „to je k popukání“, ne že je někdo mrtvý.
+I'm dead. | /aɪm ˈded/ | Já nemůžu! / Umřu smíchy | Ve zprávách s emoji lebky. Znamená „to je k popukání“, ne že je někdo mrtvý.
 Low-key | /ˌloʊˈkiː/ | tak trochu / potají | „I low-key love this song.“ Opak je „high-key“: otevřeně, naplno.
 I'm obsessed with this song. | /aɪm əbˈsest wɪð ˈðɪs ˈsɔːŋ/ | Ta písnička mě úplně dostala | „obsessed“ = posedlý, tady v dobrém smyslu. Předložka je „with“.
 What's it about? | /ˈwʌts ɪt əˈbaʊt/ | O čem to je? | Když se ptáš na děj filmu nebo seriálu. Předložka „about“ stojí na konci.
@@ -463,7 +463,7 @@ current | /ˈkɜːrənt/ | aktuální / současný | Falešný přítel: české
 eventually | /ɪˈventʃuəli/ | nakonec / časem | Falešný přítel: „eventually“ není české „eventuálně“. To se řekne „possibly“ nebo prostě „or“.
 nice | /ˈnaɪs/ | sympatický / milý | Falešný přítel: české „sympatický“ není „sympathetic“. To znamená „soucitný“. O sympatickém člověku řekni „nice“ nebo „likeable“.
 check | /ˈtʃek/ | zkontrolovat / kontrola | Falešný přítel: české „kontrolovat“ není „control“. To znamená „ovládat, řídit“. Kontrola u lékaře je „a check-up“.
-specific | /spəˈsɪfɪk/ | konkrétní | Falešný přítel: české „konkrétní“ se neřekne „concrete“, to je hlavně beton. Konkrétní příklad je „a specific example“.
+specific | /spəˈsɪfɪk/ | konkrétní | Falešný přítel: „concrete“ je hlavně beton, případně „hmatatelný“. České „konkrétní“ je většinou „specific“: „a specific example“, „to be specific“.
 high school | /ˈhaɪ ˈskuːl/ | střední škola / gymnázium | Falešný přítel: české „gymnázium“ není „gymnasium“. To je anglicky tělocvična.
 novel | /ˈnɑːvl/ | román | Falešný přítel: česká „novela“ není „novel“. Novela je anglicky „novella“.
 trillion | /ˈtrɪljən/ | bilion | Falešný přítel: český „bilion“ není „billion“. Anglické „billion“ je miliarda.
@@ -474,14 +474,14 @@ jersey | /ˈdʒɜːrzi/ | dres | Falešný přítel: český „dres“ není �
 elementary school | /ˌelɪˈmentri ˈskuːl/ | základní škola | Čechismus: „basic school“ je doslovný překlad české „základní školy“. V USA se říká „elementary school“.
 What is it called? | /ˈwʌt ɪz ɪt ˈkɔːld/ | Jak se to jmenuje? | Čechismus: „How is it called?“ podle českého „Jak se to jmenuje?“. Anglicky se tu ptáme slovem „what“.
 Can I ask a question? | /kən aɪ ˈæsk ə ˈkwestʃən/ | Můžu se na něco zeptat? | Čechismus: „Can I have a question?“ podle českého „Můžu mít otázku?“. Otázka se anglicky pokládá slovesem „ask“.
-She taught me English. | /ʃi ˈtɔːt mi ˈɪŋglɪʃ/ | Naučila mě anglicky | Čechismus: „She learned me English.“ České „učit“ jsou dvě slovesa: „learn“ (učit se) a „teach“ (učit někoho).
+She taught me English. | /ʃi ˈtɔːt mi ˈɪŋglɪʃ/ | Naučila mě anglicky | Čechismus: „She learned me English.“ Českému „učit“ odpovídají dvě slovesa: „learn“ (učit se) a „teach“ (učit někoho).
 I told her the truth. | /aɪ ˈtoʊld hər ðə ˈtruːθ/ | Řekl / řekla jsem jí pravdu | Čechismus: „I said her…“ podle českého „řekl jsem jí“. Po „tell“ následuje osoba („I told her“), po „say“ ne („I said that…“).
 He is 22 years old. | /hi ɪz ˌtwentiˈtuː ˈjɪrz ˈoʊld/ | Je mu 22 let | Čechismus: „He is 22 years.“ podle českého „Je mu 22 let“. Řekni „He is 22“ nebo „He is 22 years old“.
-everything that I need | /ˈevriθɪŋ ðət aɪ ˈniːd/ | všechno, co potřebuji | Čechismus: „everything what“ podle českého „všechno, co“. Po „everything“ je „that“, nebo nic: „everything I need“.
-The party was fun. | /ðə ˈpɑːrti wəz ˈfʌn/ | Večírek byl zábavný | Falešný přítel: české „zábavný“ není „funny“. To znamená „směšný, vtipný“. Zábavný je „fun“.
+everything that I need | /ˈevriθɪŋ ðət aɪ ˈniːd/ | všechno, co potřebuju | Čechismus: „everything what“ podle českého „všechno, co“. Po „everything“ je „that“, nebo nic: „everything I need“.
+The party was fun. | /ðə ˈpɑːrti wəz ˈfʌn/ | Večírek byl zábavný | Pozor: české „zábavný“ není „funny“. To znamená „směšný, vtipný“. Zábavný je „fun“.
 Welcome to Prague! | /ˈwelkəm tə ˈprɑːg/ | Vítejte v Praze! | Čechismus: „Welcome in Prague“ podle českého „Vítejte v…“. Po „welcome“ je předložka „to“.
 a book by a Czech author | /ə ˈbʊk baɪ ə ˈtʃek ˈɔːθər/ | kniha od českého autora | Čechismus: „a book from“ podle českého „kniha od“. Autor se uvádí předložkou „by“.
-You can count on me. | /ju kən ˈkaʊnt ɑːn ˈmiː/ | Můžeš se mnou počítat | Čechismus: „count with me“ podle českého „počítat s někým“. Spolehnout se na někoho je „count on“.
+You can count on me. | /ju kən ˈkaʊnt ɑːn ˈmiː/ | Můžeš se mnou počítat | Čechismus: „count with me“ podle českého „počítat s někým“. Spolehnout se na někoho je „count on“.
 guest | /ˈgest/ | host | Falešný přítel: český „host“ není „host“. Anglické „host“ je hostitel.
 `
 };
