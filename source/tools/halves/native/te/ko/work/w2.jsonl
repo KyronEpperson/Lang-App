@@ -29,7 +29,7 @@
 {"f": "cards", "id": "ko.c0729", "k": "meaning", "src": "doctor", "tgt": "డాక్టర్"}
 {"f": "cards", "id": "ko.c0729", "k": "note", "src": "Address one as 선생님.", "tgt": "డాక్టర్ని 선생님 అని పిలుస్తారు."}
 {"f": "cards", "id": "ko.c0730", "k": "meaning", "src": "answer; reply", "tgt": "జవాబు"}
-{"f": "cards", "id": "ko.c0730", "k": "note", "src": "대답해 주세요 = please answer.", "tgt": "대답해 주세요 = జవాబు చెప్పి పెట్టండి."}
+{"f": "cards", "id": "ko.c0730", "k": "note", "src": "대답해 주세요 = please answer.", "tgt": "대답해 주세요 = జవాబు చెప్పండి."}
 {"f": "cards", "id": "ko.c0731", "k": "meaning", "src": "start; beginning", "tgt": "మొదలు; ప్రారంభం"}
 {"f": "cards", "id": "ko.c0731", "k": "note", "src": "시작이 반이다 = starting is half the job.", "tgt": "시작이 반이다 = మొదలుపెడితే సగం పని అయినట్టే."}
 {"f": "cards", "id": "ko.c0732", "k": "meaning", "src": "homework", "tgt": "హోంవర్క్"}
@@ -455,7 +455,7 @@
 {"f": "cards", "id": "ko.c0942", "k": "meaning", "src": "we; us; our", "tgt": "మనం; మేము; మా"}
 {"f": "cards", "id": "ko.c0942", "k": "note", "src": "Also \"my\" for family and home: 우리 엄마, 우리 집.", "tgt": "కుటుంబం, ఇంటికి \"నా\" బదులు కూడా: 우리 엄마, 우리 집."}
 {"f": "cards", "id": "ko.c0943", "k": "meaning", "src": "Mr. / Ms. (after a full or given name)", "tgt": "గారు (పూర్తి పేరు లేదా పేరు తర్వాత)"}
-{"f": "cards", "id": "ko.c0943", "k": "note", "src": "Names replace \"you\": 민수 씨, 어디 가요? Never after your own name or a surname alone.", "tgt": "\"మీరు\" బదులు పేరు: 민수 씨, 어디 가요? మీ సొంత పేరుకు, ఇంటిపేరుకు మాత్రమే ఎప్పుడూ కాదు."}
+{"f": "cards", "id": "ko.c0943", "k": "note", "src": "Names replace \"you\": 민수 씨, 어디 가요? Never after your own name or a surname alone.", "tgt": "\"మీరు\" బదులు పేరు: 민수 씨, 어디 가요? మీ సొంత పేరు తర్వాత, లేదా ఇంటిపేరు ఒక్కదాని తర్వాత ఎప్పుడూ రాదు."}
 {"f": "cards", "id": "ko.c0944", "k": "meaning", "src": "that (thing, near you or mentioned)", "tgt": "అది (మీ దగ్గర ఉన్నది, లేదా చెప్పినది)"}
 {"f": "cards", "id": "ko.c0944", "k": "note", "src": "Spoken: 그거. With 이: 그게.", "tgt": "మాటల్లో: 그거. 이 తో: 그게."}
 {"f": "cards", "id": "ko.c0945", "k": "meaning", "src": "I; me (polite, humble)", "tgt": "నేను (మర్యాద, వినయంగా)"}
@@ -470,8 +470,8 @@
 {"f": "cards", "id": "ko.c0949", "k": "note", "src": "뭐 해요? = what are you doing? Formal: 무엇.", "tgt": "뭐 해요? = ఏం చేస్తున్నారు? అధికారికం: 무엇."}
 {"f": "cards", "id": "ko.c0950", "k": "meaning", "src": "who", "tgt": "ఎవరు"}
 {"f": "cards", "id": "ko.c0950", "k": "note", "src": "누구예요? With 가: 누가 왔어요? = who came?", "tgt": "누구예요? 가 తో: 누가 왔어요? = ఎవరు వచ్చారు?"}
-{"f": "cards", "id": "ko.c0951", "k": "meaning", "src": "oneself; honey (between couples)", "tgt": "తాను; డార్లింగ్ (ప్రేమికుల మధ్య)"}
-{"f": "cards", "id": "ko.c0951", "k": "note", "src": "자기 일 = one's own business. 자기야 = honey.", "tgt": "자기 일 = తన సొంత పని. 자기야 = డార్లింగ్."}
+{"f": "cards", "id": "ko.c0951", "k": "meaning", "src": "oneself; honey (between couples)", "tgt": "తాను; బంగారం (ప్రేమికుల మధ్య)"}
+{"f": "cards", "id": "ko.c0951", "k": "note", "src": "자기 일 = one's own business. 자기야 = honey.", "tgt": "자기 일 = తన సొంత పని. 자기야 = బంగారం (డియర్)."}
 {"f": "cards", "id": "ko.c0952", "k": "meaning", "src": "what (written, formal)", "tgt": "ఏది (రాతలో, అధికారిక)"}
 {"f": "cards", "id": "ko.c0952", "k": "note", "src": "무엇을 도와드릴까요? = how may I help you?", "tgt": "무엇을 도와드릴까요? = మీకు ఏం సహాయం చేయగలను?"}
 {"f": "cards", "id": "ko.c0953", "k": "meaning", "src": "that one (spoken)", "tgt": "అది (మాటల్లో)"}
@@ -492,7 +492,7 @@
 {"f": "cards", "id": "ko.c0960", "k": "note", "src": "아무나 = anyone at all; 아무 때나 = any time.", "tgt": "아무나 = ఎవరైనా సరే; 아무 때나 = ఎప్పుడైనా."}
 {"f": "cards", "id": "ko.c0961", "k": "meaning", "src": "nobody (with a negative)", "tgt": "ఎవరూ (వ్యతిరేకంతో)"}
 {"f": "cards", "id": "ko.c0961", "k": "note", "src": "아무도 없어요 = there's nobody here.", "tgt": "아무도 없어요 = ఇక్కడ ఎవరూ లేరు."}
-{"f": "cards", "id": "ko.c0962", "k": "meaning", "src": "that one over there (spoken)", "tgt": ""}
+{"f": "cards", "id": "ko.c0962", "k": "meaning", "src": "that one over there (spoken)", "tgt": "అదిగో అది (మాటల్లో)"}
 {"f": "cards", "id": "ko.c0962", "k": "note", "src": "저거 뭐예요?", "tgt": "저거 뭐예요?", "pre": 1}
 {"f": "cards", "id": "ko.c0963", "k": "meaning", "src": "nothing (with a negative)", "tgt": "ఏమీ (వ్యతిరేకంతో)"}
 {"f": "cards", "id": "ko.c0963", "k": "note", "src": "아무것도 몰라요 = I don't know anything.", "tgt": "아무것도 몰라요 = నాకు ఏమీ తెలియదు."}
@@ -518,7 +518,7 @@
 {"f": "cards", "id": "ko.c0973", "k": "note", "src": "A way around saying 너 or 당신 to someone whose name you don't know. Can sound distant or a little cheeky.", "tgt": "పేరు తెలియనివారికి 너 లేదా 당신 అనకుండా తప్పించుకునే మార్గం. దూరంగా లేదా కొంచెం పొగరుగా వినిపించవచ్చు."}
 {"f": "cards", "id": "ko.c0974", "k": "meaning", "src": "over that way", "tgt": "అటు వైపు (దూరంగా)"}
 {"f": "cards", "id": "ko.c0974", "k": "note", "src": "저쪽에 있어요 = it's over there.", "tgt": "저쪽에 있어요 = అది అటు వైపు ఉంది."}
-{"f": "cards", "id": "ko.c0975", "k": "meaning", "src": "that person over there (honorific)", "tgt": ""}
+{"f": "cards", "id": "ko.c0975", "k": "meaning", "src": "that person over there (honorific)", "tgt": "అదిగో ఆయన/ఆవిడ (గౌరవ)"}
 {"f": "cards", "id": "ko.c0975", "k": "note", "src": "저분이 누구세요?", "tgt": "저분이 누구세요?", "pre": 1}
 {"f": "cards", "id": "ko.c0976", "k": "meaning", "src": "that kid over there (casual)", "tgt": "అదిగో ఆ పిల్ల (సాధారణ)"}
 {"f": "cards", "id": "ko.c0976", "k": "note", "src": "From 저 아이. Don't use it about elders.", "tgt": "저 아이 నుంచి. పెద్దవారి గురించి వాడకండి."}
@@ -684,7 +684,7 @@
 {"f": "cards", "id": "ko.c1056", "k": "note", "src": "Disgust, especially at food. Casual; rude to say about someone's cooking.", "tgt": "అసహ్యం, ముఖ్యంగా ఆహారం మీద. సాధారణ; ఎవరైనా వండినదాని గురించి అంటే మొరటు."}
 {"f": "cards", "id": "ko.c1057", "k": "meaning", "src": "this / that / that (over there) (before a noun)", "tgt": "ఈ / ఆ / అదిగో ఆ (నామవాచకం ముందు)"}
 {"f": "cards", "id": "ko.c1057", "k": "note", "src": "이 사람, 그 책, 저 건물. 그 = near you or already mentioned; 저 = far from both.", "tgt": "이 사람, 그 책, 저 건물. 그 = మీ దగ్గర లేదా ఇదివరకే చెప్పినది; 저 = ఇద్దరికీ దూరం. తెలుగులో ఈ / ఆ రెండే, కొరియన్లో మూడు."}
-{"f": "cards", "id": "ko.c1058", "k": "meaning", "src": "one, two, three, four (before a counter)", "tgt": ""}
+{"f": "cards", "id": "ko.c1058", "k": "meaning", "src": "one, two, three, four (before a counter)", "tgt": "ఒక, రెండు, మూడు, నాలుగు (కౌంటర్ ముందు)"}
 {"f": "cards", "id": "ko.c1058", "k": "note", "src": "하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명.", "tgt": "하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명.", "pre": 1}
 {"f": "cards", "id": "ko.c1059", "k": "meaning", "src": "this kind of / that kind of / that kind of (over there)", "tgt": "ఇలాంటి / అలాంటి / అలాంటి (అక్కడ)"}
 {"f": "cards", "id": "ko.c1059", "k": "note", "src": "이런 날 = a day like this. 그런 거 아니에요 = it's not like that.", "tgt": "이런 날 = ఇలాంటి రోజు. 그런 거 아니에요 = అలాంటిదేమీ కాదు."}
@@ -716,7 +716,7 @@
 {"f": "cards", "id": "ko.c1072", "k": "note", "src": "오후 세 시 = 3 p.m.", "tgt": "오후 세 시 = మధ్యాహ్నం 3 గంటలు."}
 {"f": "cards", "id": "ko.c1073", "k": "meaning", "src": "first (before a noun)", "tgt": "మొదటి (నామవాచకం ముందు)"}
 {"f": "cards", "id": "ko.c1073", "k": "note", "src": "첫눈 = the first snow; 첫 데이트 = a first date.", "tgt": "첫눈 = ఆ ఏడాది మొదటి మంచు; 첫 데이트 = మొదటి డేట్."}
-{"f": "cards", "id": "ko.c1074", "k": "meaning", "src": "this year", "tgt": ""}
+{"f": "cards", "id": "ko.c1074", "k": "meaning", "src": "this year", "tgt": "ఈ సంవత్సరం"}
 {"f": "cards", "id": "ko.c1074", "k": "note", "src": "올해 몇 살이에요?", "tgt": "올해 몇 살이에요?", "pre": 1}
 {"f": "cards", "id": "ko.c1075", "k": "meaning", "src": "no (casual); no wait", "tgt": "లేదు (సాధారణ); అది కాదు…"}
 {"f": "cards", "id": "ko.c1075", "k": "note", "src": "To friends. Also starts a protest: 아니, 그게 아니라…", "tgt": "ఫ్రెండ్స్కి. అభ్యంతరం మొదలుపెట్టడానికి కూడా: 아니, 그게 아니라…"}
@@ -748,7 +748,7 @@
 {"f": "cards", "id": "ko.c1088", "k": "note", "src": "목 = wood.", "tgt": "목 = చెట్టు (కలప)."}
 {"f": "cards", "id": "ko.c1089", "k": "meaning", "src": "20 (native)", "tgt": "20 (అచ్చ కొరియన్)"}
 {"f": "cards", "id": "ko.c1089", "k": "note", "src": "Before a counter: 스무.", "tgt": "కౌంటర్ ముందు: 스무."}
-{"f": "cards", "id": "ko.c1090", "k": "meaning", "src": "next year", "tgt": ""}
+{"f": "cards", "id": "ko.c1090", "k": "meaning", "src": "next year", "tgt": "వచ్చే సంవత్సరం"}
 {"f": "cards", "id": "ko.c1090", "k": "note", "src": "내년에 한국에 가요.", "tgt": "내년에 한국에 가요.", "pre": 1}
 {"f": "cards", "id": "ko.c1091", "k": "meaning", "src": "30, 40, 50 (native)", "tgt": "30, 40, 50 (అచ్చ కొరియన్)"}
 {"f": "cards", "id": "ko.c1091", "k": "note", "src": "Mostly for age: 서른 살. Sino-Korean 삼십 is used for money and minutes.", "tgt": "ఎక్కువగా వయసుకు: 서른 살. డబ్బు, నిమిషాలకు సైనో-కొరియన్ 삼십."}
@@ -772,7 +772,7 @@
 {"f": "cards", "id": "ko.c1100", "k": "note", "src": "김밥 한 줄 = one gimbap roll; 한 줄로 = in a line.", "tgt": "김밥 한 줄 = ఒక కింబాప్ రోల్; 한 줄로 = ఒకే వరుసలో."}
 {"f": "cards", "id": "ko.c1101", "k": "meaning", "src": "one plate (of)", "tgt": "ఒక ప్లేటు"}
 {"f": "cards", "id": "ko.c1101", "k": "note", "src": "만두 한 접시 = a plate of dumplings.", "tgt": "만두 한 접시 = ఒక ప్లేటు డంప్లింగ్స్ (మండు)."}
-{"f": "cards", "id": "ko.c1102", "k": "meaning", "src": "one slice; one piece", "tgt": ""}
+{"f": "cards", "id": "ko.c1102", "k": "meaning", "src": "one slice; one piece", "tgt": "ఒక ముక్క; ఒక స్లైస్"}
 {"f": "cards", "id": "ko.c1102", "k": "note", "src": "피자 한 조각, 케이크 한 조각.", "tgt": "피자 한 조각, 케이크 한 조각.", "pre": 1}
 {"f": "cards", "id": "ko.c1103", "k": "meaning", "src": "one kind; one thing", "tgt": "ఒక రకం; ఒక విషయం"}
 {"f": "cards", "id": "ko.c1103", "k": "note", "src": "한 가지 더 = one more thing; 여러 가지 = all kinds.", "tgt": "한 가지 더 = ఇంకొక్క విషయం; 여러 가지 = రకరకాలు."}
@@ -1229,187 +1229,187 @@
 {"f": "cards", "id": "ko.c1413", "k": "meaning", "src": "Micronesia", "tgt": "మైక్రోనేషియా"}
 {"f": "cards", "id": "ko.c1414", "k": "meaning", "src": "Palau", "tgt": "పలావు"}
 {"f": "cards", "id": "ko.c1415", "k": "meaning", "src": "Guam", "tgt": "గ్వామ్"}
-{"f": "dialog", "id": "ko.g001", "k": "tr", "src": "Hello, nice to meet you for the first time. / Hi! Nice to meet you.", "tgt": ""}
-{"f": "dialog", "id": "ko.g002", "k": "tr", "src": "Thank you for helping. / Not at all.", "tgt": ""}
-{"f": "dialog", "id": "ko.g003", "k": "tr", "src": "Sorry I'm late. / It's fine, I just got here too.", "tgt": ""}
-{"f": "dialog", "id": "ko.g004", "k": "tr", "src": "How much is this? / 12,000 won.", "tgt": ""}
-{"f": "dialog", "id": "ko.g005", "k": "tr", "src": "Excuse me, where's the bathroom? / Go straight that way.", "tgt": ""}
-{"f": "dialog", "id": "ko.g006", "k": "tr", "src": "What can I get you? / This one, to go.", "tgt": ""}
-{"f": "dialog", "id": "ko.g007", "k": "tr", "src": "Are you okay? Hurt? / Yes, I'm fine.", "tgt": ""}
-{"f": "dialog", "id": "ko.g008", "k": "tr", "src": "Sorry, please speak slowly. / Ah, sure, I'll slow down.", "tgt": ""}
-{"f": "dialog", "id": "ko.g009", "k": "tr", "src": "Your Korean is good! / No, I'm still not good.", "tgt": ""}
-{"f": "dialog", "id": "ko.g010", "k": "tr", "src": "Excuse me, coming through. / Go ahead.", "tgt": ""}
-{"f": "dialog", "id": "ko.g011", "k": "tr", "src": "Excuse me! The menu, please. / Yes, one moment.", "tgt": ""}
-{"f": "dialog", "id": "ko.g012", "k": "tr", "src": "Excuse me, please help me. / Sure, what do you need?", "tgt": ""}
-{"f": "dialog", "id": "ko.g013", "k": "tr", "src": "Sorry, say that again please. / The subway station is on the left.", "tgt": ""}
-{"f": "dialog", "id": "ko.g014", "k": "tr", "src": "Can you speak English? / A little. I'll speak slowly.", "tgt": "", "rw": "mentions English"}
-{"f": "dialog", "id": "ko.g015", "k": "tr", "src": "What is this? / Tteokbokki. It's a bit spicy.", "tgt": ""}
-{"f": "dialog", "id": "ko.g016", "k": "tr", "src": "Do you take cards? / Yes. Insert it here.", "tgt": ""}
-{"f": "dialog", "id": "ko.g017", "k": "tr", "src": "What's the wifi password? / It's on the receipt.", "tgt": ""}
-{"f": "dialog", "id": "ko.g018", "k": "tr", "src": "I'm lost. Where is this? / This is Hongdae. Where are you going?", "tgt": ""}
-{"f": "dialog", "id": "ko.g019", "k": "tr", "src": "What's your name? / I'm @@. What's yours?", "tgt": ""}
-{"f": "dialog", "id": "ko.g020", "k": "tr", "src": "Nice to meet you. / Nice to meet you too.", "tgt": ""}
-{"f": "dialog", "id": "ko.g021", "k": "tr", "src": "Where are you from? / From the Philippines. Cebu.", "tgt": ""}
-{"f": "dialog", "id": "ko.g022", "k": "tr", "src": "Excuse me, how old are you? / 28. And you?", "tgt": ""}
-{"f": "dialog", "id": "ko.g023", "k": "tr", "src": "What do you do? / I work at an IT company.", "tgt": ""}
-{"f": "dialog", "id": "ko.g024", "k": "tr", "src": "Do you study Korean? / Yes, a little every day.", "tgt": ""}
-{"f": "dialog", "id": "ko.g025", "k": "tr", "src": "What's your hobby? / Running and music.", "tgt": ""}
-{"f": "dialog", "id": "ko.g026", "k": "tr", "src": "Long time no see! How've you been? / Good, thanks. You?", "tgt": ""}
-{"f": "dialog", "id": "ko.g027", "k": "tr", "src": "How are things lately? / Busy. But fun.", "tgt": ""}
-{"f": "dialog", "id": "ko.g028", "k": "tr", "src": "Nice weather today. / Yes, perfect for a walk.", "tgt": ""}
-{"f": "dialog", "id": "ko.g029", "k": "tr", "src": "What are you doing this weekend? / Going hiking. Want to come?", "tgt": ""}
-{"f": "dialog", "id": "ko.g030", "k": "tr", "src": "Today was fun. See you again! / Yes, I'll be in touch.", "tgt": ""}
-{"f": "dialog", "id": "ko.g031", "k": "tr", "src": "I'll head out first. Goodbye (stay well). / Bye (go well).", "tgt": ""}
-{"f": "dialog", "id": "ko.g032", "k": "tr", "src": "I'm bored. Let's hang out! / Deal! Where should we meet?", "tgt": ""}
-{"f": "dialog", "id": "ko.g033", "k": "tr", "src": "Are you free tomorrow? / In the afternoon. Why?", "tgt": ""}
-{"f": "dialog", "id": "ko.g034", "k": "tr", "src": "I'm going to a café, wanna come? / Sure, let's go.", "tgt": ""}
-{"f": "dialog", "id": "ko.g035", "k": "tr", "src": "I'm hungry. Wanna go eat? / Yes! What should we eat?", "tgt": ""}
-{"f": "dialog", "id": "ko.g036", "k": "tr", "src": "When should we meet? / How about Saturday?", "tgt": ""}
-{"f": "dialog", "id": "ko.g037", "k": "tr", "src": "Where should we meet? / Let's meet at Gangnam station exit 11.", "tgt": ""}
-{"f": "dialog", "id": "ko.g038", "k": "tr", "src": "Where are you? Almost here? / Sorry, coming now. 5 minutes!", "tgt": ""}
-{"f": "dialog", "id": "ko.g039", "k": "tr", "src": "Today was really fun. / Me too. Let's hang out again!", "tgt": ""}
-{"f": "dialog", "id": "ko.g040", "k": "tr", "src": "Ready to order? / One iced Americano, please.", "tgt": ""}
-{"f": "dialog", "id": "ko.g041", "k": "tr", "src": "For here? / No, to go.", "tgt": ""}
-{"f": "dialog", "id": "ko.g042", "k": "tr", "src": "What sizes do you have? / Tall, grande, venti.", "tgt": ""}
-{"f": "dialog", "id": "ko.g043", "k": "tr", "src": "Do you have a points card? / No, that's okay.", "tgt": ""}
-{"f": "dialog", "id": "ko.g044", "k": "tr", "src": "Please heat this up. / Sure, it takes a minute.", "tgt": ""}
-{"f": "dialog", "id": "ko.g045", "k": "tr", "src": "Do you need a bag? / Yes, one please.", "tgt": ""}
-{"f": "dialog", "id": "ko.g046", "k": "tr", "src": "Cash or card? / Card.", "tgt": ""}
-{"f": "dialog", "id": "ko.g047", "k": "tr", "src": "Where is a pharmacy? / On the first floor of that building.", "tgt": ""}
-{"f": "dialog", "id": "ko.g048", "k": "tr", "src": "Where does it hurt? / My head hurts. I have a fever too.", "tgt": ""}
-{"f": "dialog", "id": "ko.g049", "k": "tr", "src": "Do you have painkillers? / Yes, take these after a meal.", "tgt": ""}
-{"f": "dialog", "id": "ko.g050", "k": "tr", "src": "Do you have allergies? / Yes, I'm allergic to peanuts.", "tgt": ""}
-{"f": "dialog", "id": "ko.g051", "k": "tr", "src": "How many times a day? / Three times, 30 minutes after meals.", "tgt": ""}
-{"f": "dialog", "id": "ko.g052", "k": "tr", "src": "Package! / Please leave it at the door.", "tgt": ""}
-{"f": "dialog", "id": "ko.g053", "k": "tr", "src": "How much is rent? / 500,000 won, maintenance included.", "tgt": ""}
-{"f": "dialog", "id": "ko.g054", "k": "tr", "src": "Can you dry clean this? / Yes, pick it up tomorrow afternoon.", "tgt": ""}
-{"f": "dialog", "id": "ko.g055", "k": "tr", "src": "I'm starting work with you today. Please take care of me. / Likewise.", "tgt": ""}
-{"f": "dialog", "id": "ko.g056", "k": "tr", "src": "How are things? / So-so. Just busy.", "tgt": ""}
-{"f": "dialog", "id": "ko.g057", "k": "tr", "src": "I'm a coffee addict. / Me too! At least three cups a day.", "tgt": ""}
-{"f": "dialog", "id": "ko.g058", "k": "tr", "src": "I'm going to Korea next month. / Really? Where to?", "tgt": ""}
-{"f": "dialog", "id": "ko.g059", "k": "tr", "src": "I should get going. Goodbye. / Okay, get home safe.", "tgt": ""}
-{"f": "dialog", "id": "ko.g060", "k": "tr", "src": "See you next time. / Yes, I'll be in touch!", "tgt": ""}
-{"f": "dialog", "id": "ko.g061", "k": "tr", "src": "Hey, what are you doing? / Watching Netflix at home. Why?", "tgt": ""}
-{"f": "dialog", "id": "ko.g062", "k": "tr", "src": "Are you free tonight? / Yeah, after seven.", "tgt": ""}
-{"f": "dialog", "id": "ko.g063", "k": "tr", "src": "Wanna come over? I'll order chicken. / Deal! I'll bring beer.", "tgt": ""}
-{"f": "dialog", "id": "ko.g064", "k": "tr", "src": "Today was so fun. Let's hang again. / Sure, see you next week!", "tgt": ""}
-{"f": "dialog", "id": "ko.g065", "k": "tr", "src": "Can I get your number? / Sure, 010-3322-7788.", "tgt": ""}
-{"f": "dialog", "id": "ko.g066", "k": "tr", "src": "Do you have Instagram? / Yes, I'll give you my handle.", "tgt": ""}
-{"f": "dialog", "id": "ko.g067", "k": "tr", "src": "Today was lovely. Shall we meet again? / Sure. This time it's on me.", "tgt": ""}
-{"f": "dialog", "id": "ko.g068", "k": "tr", "src": "It's late. I'll walk you home. / It's fine, I can take the subway.", "tgt": ""}
-{"f": "dialog", "id": "ko.g069", "k": "tr", "src": "You look pretty today. / Thanks. I got a haircut.", "tgt": ""}
-{"f": "dialog", "id": "ko.g070", "k": "tr", "src": "You're here! I missed you. / Me too. Did you wait long?", "tgt": ""}
-{"f": "dialog", "id": "ko.g071", "k": "tr", "src": "Did you get home safe? / Yeah, just got in. Thanks for today.", "tgt": ""}
-{"f": "dialog", "id": "ko.g072", "k": "tr", "src": "I'm going to sleep. Night! / Okay, sweet dreams.", "tgt": ""}
-{"f": "dialog", "id": "ko.g073", "k": "tr", "src": "Did you eat? / Not yet. Wanna eat together?", "tgt": ""}
-{"f": "dialog", "id": "ko.g074", "k": "tr", "src": "What are you up to? / Just lying around. Bored.", "tgt": ""}
-{"f": "dialog", "id": "ko.g075", "k": "tr", "src": "Where are you? Almost here? / Sorry, five minutes! Just got off the subway.", "tgt": ""}
-{"f": "dialog", "id": "ko.g076", "k": "tr", "src": "I think I'll be late. / No worries, take your time. I'll be at the café.", "tgt": ""}
-{"f": "dialog", "id": "ko.g077", "k": "tr", "src": "Look at this meme lol / That's hilarious lol", "tgt": ""}
-{"f": "dialog", "id": "ko.g078", "k": "tr", "src": "I made this. / Wow, that's cool! How did you make it?", "tgt": ""}
-{"f": "dialog", "id": "ko.g079", "k": "tr", "src": "I passed the exam! / Really? Nice job!", "tgt": ""}
-{"f": "dialog", "id": "ko.g080", "k": "tr", "src": "I worked overtime today… / You worked hard. Get some rest.", "tgt": ""}
-{"f": "dialog", "id": "ko.g081", "k": "tr", "src": "Wanna grab a drink after work? / Love to! Where?", "tgt": ""}
-{"f": "dialog", "id": "ko.g082", "k": "tr", "src": "I'm so nervous about the interview. / You got this! You'll do great.", "tgt": ""}
-{"f": "dialog", "id": "ko.g083", "k": "tr", "src": "What are you doing tomorrow? / I'm off tomorrow. Why?", "tgt": ""}
-{"f": "dialog", "id": "ko.g084", "k": "tr", "src": "What time is it now? / Half past two.", "tgt": ""}
-{"f": "dialog", "id": "ko.g085", "k": "tr", "src": "What time is it? / 9:10.", "tgt": ""}
-{"f": "dialog", "id": "ko.g086", "k": "tr", "src": "How's the weather in Seoul? / Cold today, and the fine dust is bad.", "tgt": ""}
-{"f": "dialog", "id": "ko.g087", "k": "tr", "src": "Is it raining outside? / Yes, take an umbrella.", "tgt": ""}
-{"f": "dialog", "id": "ko.g088", "k": "tr", "src": "You look tired. / Yeah, I couldn't sleep last night.", "tgt": ""}
-{"f": "dialog", "id": "ko.g089", "k": "tr", "src": "I'm bored. / Then shall we watch a movie?", "tgt": ""}
-{"f": "dialog", "id": "ko.g090", "k": "tr", "src": "I won the lottery! / No way! How much?", "tgt": ""}
-{"f": "dialog", "id": "ko.g091", "k": "tr", "src": "I lost my wallet… / Oh no! Did you check with the police?", "tgt": ""}
-{"f": "dialog", "id": "ko.g092", "k": "tr", "src": "My presentation is tomorrow. / You got this! You can do it.", "tgt": ""}
-{"f": "dialog", "id": "ko.g093", "k": "tr", "src": "Please eat plenty. / Thank you, I will!", "tgt": ""}
-{"f": "dialog", "id": "ko.g094", "k": "tr", "src": "May I have your name? / I'm Kim Minsu.", "tgt": ""}
-{"f": "dialog", "id": "ko.g095", "k": "tr", "src": "Please sit here. / Thank you.", "tgt": ""}
-{"f": "dialog", "id": "ko.g096", "k": "tr", "src": "Anyone home? / Yes, come in!", "tgt": ""}
-{"f": "dialog", "id": "ko.g097", "k": "tr", "src": "Teacher, have you been well? / Yes, thanks to you. Long time no see.", "tgt": ""}
-{"f": "dialog", "id": "ko.g098", "k": "tr", "src": "Would you mind taking a photo? / Of course. One, two, three!", "tgt": ""}
-{"f": "dialog", "id": "ko.g099", "k": "tr", "src": "What are we? / Hmm… I like you. Want to go out?", "tgt": ""}
-{"f": "dialog", "id": "ko.g100", "k": "tr", "src": "Why didn't you text yesterday? / Sorry, my fault. Don't be mad.", "tgt": ""}
-{"f": "dialog", "id": "ko.g101", "k": "tr", "src": "How is it being with me? / I feel comfortable. That's the best part.", "tgt": ""}
-{"f": "dialog", "id": "ko.g102", "k": "tr", "src": "Can I hold your hand? / Yeah… is it because you're cold?", "tgt": ""}
-{"f": "dialog", "id": "ko.g103", "k": "tr", "src": "It's our 100th day today! / Really? Happy 100 days. I got you something.", "tgt": ""}
-{"f": "dialog", "id": "ko.g104", "k": "tr", "src": "I have something to tell you. / What is it? Is something wrong?", "tgt": ""}
-{"f": "dialog", "id": "ko.g105", "k": "tr", "src": "What time is the meeting? / Two. Meeting room B.", "tgt": ""}
-{"f": "dialog", "id": "ko.g106", "k": "tr", "src": "When is the deadline? / Friday, 6 PM.", "tgt": ""}
-{"f": "dialog", "id": "ko.g107", "k": "tr", "src": "Manager, do you have a moment? / Yes, come in.", "tgt": ""}
-{"f": "dialog", "id": "ko.g108", "k": "tr", "src": "I'll head out first. / Okay, good work today.", "tgt": ""}
-{"f": "dialog", "id": "ko.g109", "k": "tr", "src": "There's a team dinner today. / What time and where?", "tgt": ""}
-{"f": "dialog", "id": "ko.g110", "k": "tr", "src": "What should we have for lunch? / How about kimchi stew?", "tgt": ""}
-{"f": "dialog", "id": "ko.g111", "k": "tr", "src": "Ugh, I'm bored. What should I do? / Come out. Let's get chicken.", "tgt": ""}
-{"f": "dialog", "id": "ko.g112", "k": "tr", "src": "I'm so tired today. / Sleep early. See you tomorrow.", "tgt": ""}
-{"f": "dialog", "id": "ko.g113", "k": "tr", "src": "Where are you? / On my way. 10 minutes!", "tgt": ""}
-{"f": "dialog", "id": "ko.g114", "k": "tr", "src": "What's with him? / Dunno. I'm curious too.", "tgt": ""}
-{"f": "dialog", "id": "ko.g115", "k": "tr", "src": "I saved us seats. / You really are the best.", "tgt": ""}
-{"f": "dialog", "id": "ko.g116", "k": "tr", "src": "Karaoke tonight? / Let's go! My treat.", "tgt": ""}
-{"f": "dialog", "id": "ko.g117", "k": "tr", "src": "I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.", "tgt": ""}
-{"f": "dialog", "id": "ko.g118", "k": "tr", "src": "Finally done. / Nice work. A beer?", "tgt": ""}
-{"f": "dialog", "id": "ko.g119", "k": "tr", "src": "How's this? Just bought it. / Cute. It suits you.", "tgt": ""}
-{"f": "dialog", "id": "ko.g120", "k": "tr", "src": "I miss you. / Me too. Let's meet this weekend.", "tgt": ""}
-{"f": "dialog", "id": "ko.g121", "k": "tr", "src": "I like you. / …Me too. You should've said sooner.", "tgt": ""}
-{"f": "dialog", "id": "ko.g122", "k": "tr", "src": "Babe, what are you doing? / Thinking about you, obviously.", "tgt": ""}
-{"f": "dialog", "id": "ko.g123", "k": "tr", "src": "I'm heading out now. / Get home safe. Text me when you arrive.", "tgt": ""}
-{"f": "dialog", "id": "ko.g124", "k": "tr", "src": "Sleepy. Going to bed. / Okay, sweet dreams.", "tgt": ""}
-{"f": "dialog", "id": "ko.g125", "k": "tr", "src": "Why are you smiling like that? / Your smile just now made my heart skip.", "tgt": ""}
-{"f": "dialog", "id": "ko.g126", "k": "tr", "src": "Why'd you text? / No reason. I keep thinking about you.", "tgt": ""}
-{"f": "dialog", "id": "ko.g127", "k": "tr", "src": "You said you had something to say? / I think I like you.", "tgt": ""}
-{"f": "dialog", "id": "ko.g128", "k": "tr", "src": "What are we? / Let's date.", "tgt": ""}
-{"f": "dialog", "id": "ko.g129", "k": "tr", "src": "I passed! / Really? Congrats!", "tgt": ""}
-{"f": "dialog", "id": "ko.g130", "k": "tr", "src": "I'll go first. / Don't go. Stay a little longer.", "tgt": ""}
-{"f": "dialog", "id": "ko.g131", "k": "tr", "src": "Long time no see. / I missed you. Been well?", "tgt": ""}
-{"f": "dialog", "id": "ko.g132", "k": "tr", "src": "Who's your bias? / The main vocalist.", "tgt": ""}
-{"f": "dialog", "id": "ko.g133", "k": "tr", "src": "What are you listening to lately? / I became a fan of this group. Their stage is amazing.", "tgt": ""}
-{"f": "dialog", "id": "ko.g134", "k": "tr", "src": "What are you doing this weekend? / Going to a concert! I even bought a light stick.", "tgt": ""}
-{"f": "dialog", "id": "ko.g135", "k": "tr", "src": "I'm a fan! Please sign this. / Sure, thanks. What's your name?", "tgt": ""}
-{"f": "dialog", "id": "ko.g136", "k": "tr", "src": "They're making a comeback this month. / Really? Did you see the teaser?", "tgt": ""}
-{"f": "dialog", "id": "ko.g137", "k": "tr", "src": "How was the concert? / Got goosebumps during the singalong.", "tgt": ""}
-{"f": "dialog", "id": "ko.g138", "k": "tr", "src": "Are you on Instagram? / Yes, I just followed you.", "tgt": ""}
-{"f": "dialog", "id": "ko.g139", "k": "tr", "src": "Posted a photo. Hit like for me. / Already did.", "tgt": ""}
-{"f": "dialog", "id": "ko.g140", "k": "tr", "src": "Why did nobody laugh at my joke earlier? / It killed the mood…", "tgt": ""}
-{"f": "dialog", "id": "ko.g141", "k": "tr", "src": "How's the tteokbokki here? / Insanely good. I'm coming back.", "tgt": ""}
-{"f": "dialog", "id": "ko.g142", "k": "tr", "src": "This song is addictive. / For real, been listening all day.", "tgt": ""}
-{"f": "dialog", "id": "ko.g143", "k": "tr", "src": "What should I wear today? / Go effortless. Jeans and a white tee.", "tgt": ""}
-{"f": "dialog", "id": "ko.g144", "k": "tr", "src": "What are you doing this weekend? / Having a meal with family.", "tgt": ""}
-{"f": "dialog", "id": "ko.g145", "k": "tr", "src": "Who did you come with? / With a friend.", "tgt": ""}
-{"f": "dialog", "id": "ko.g146", "k": "tr", "src": "Who's that? / That's my older brother.", "tgt": ""}
-{"f": "dialog", "id": "ko.g147", "k": "tr", "src": "Unni, how's this? / It suits you. Buy it.", "tgt": ""}
-{"f": "dialog", "id": "ko.g148", "k": "tr", "src": "Do you have siblings? / Yes, one younger sibling.", "tgt": ""}
-{"f": "dialog", "id": "ko.g149", "k": "tr", "src": "Teacher, I have a question. / Yes, go ahead.", "tgt": ""}
-{"f": "dialog", "id": "ko.g150", "k": "tr", "src": "That restaurant is closed on Mondays. / Ah, really? Then let's go on Tuesday.", "tgt": ""}
-{"f": "dialog", "id": "ko.g151", "k": "tr", "src": "This is a cake I made. / Wow, it's really pretty!", "tgt": ""}
-{"f": "dialog", "id": "ko.g152", "k": "tr", "src": "Minsu, I'm here. / Oh, you're here? Come in.", "tgt": ""}
-{"f": "dialog", "id": "ko.g153", "k": "tr", "src": "Want to have lunch tomorrow? / Yeah, sure. What time?", "tgt": ""}
-{"f": "dialog", "id": "ko.g154", "k": "tr", "src": "What do you want to eat? / Hmm… bibimbap today.", "tgt": ""}
-{"f": "dialog", "id": "ko.g155", "k": "tr", "src": "I bought this with my first paycheck. / Oh, nice!", "tgt": ""}
-{"f": "dialog", "id": "ko.g156", "k": "tr", "src": "This is Namsan Tower. / Whoa, you can see all of Seoul!", "tgt": ""}
-{"f": "dialog", "id": "ko.g157", "k": "tr", "src": "I'm getting married next month. / Oh my, really? Congratulations!", "tgt": ""}
-{"f": "dialog", "id": "ko.g158", "k": "tr", "src": "Ouch! I banged my hand on the door. / Are you OK? Let me see.", "tgt": ""}
-{"f": "dialog", "id": "ko.g159", "k": "tr", "src": "Your face has gone red! / Oh, come on, stop looking.", "tgt": ""}
-{"f": "dialog", "id": "ko.g160", "k": "tr", "src": "Do you think this movie will be good? / Well, I'm not sure.", "tgt": ""}
-{"f": "dialog", "id": "ko.g161", "k": "tr", "src": "I saw BTS yesterday. / Come on, no way!", "tgt": ""}
-{"f": "dialog", "id": "ko.g162", "k": "tr", "src": "They say there's no team dinner today. / Yes! I'm going home early.", "tgt": ""}
-{"f": "dialog", "id": "ko.g163", "k": "tr", "src": "It's already eleven. / Yikes, I have to hurry!", "tgt": ""}
-{"f": "dialog", "id": "ko.g164", "k": "tr", "src": "Oops, I spilled the coffee! / It's fine, I'll wipe it up.", "tgt": ""}
-{"f": "dialog", "id": "ko.g165", "k": "tr", "src": "Did you bring an umbrella? / Oh no, I left it at home.", "tgt": ""}
-{"f": "dialog", "id": "ko.g166", "k": "tr", "src": "Is your exam over? / Yes, phew, now I need some rest.", "tgt": ""}
-{"f": "dialog", "id": "ko.g167", "k": "tr", "src": "Overtime again today? / Sigh, yes. There's too much work.", "tgt": ""}
-{"f": "dialog", "id": "ko.g168", "k": "tr", "src": "Shh, the baby is sleeping. / Oh, sorry. I'll be quiet.", "tgt": ""}
-{"f": "dialog", "id": "ko.g169", "k": "tr", "src": "Right, shall we start now? / Yes, let's start!", "tgt": ""}
-{"f": "dialog", "id": "ko.g170", "k": "tr", "src": "Hello? Is that Minji? / Yes, it's me. What's up?", "tgt": ""}
-{"f": "dialog", "id": "ko.g171", "k": "tr", "src": "This bag is a million won. / Oh my god, that's way too expensive!", "tgt": ""}
-{"f": "dialog", "id": "ko.g172", "k": "tr", "src": "Boo! / Ah, you scared me! That made me jump.", "tgt": ""}
-{"f": "dialog", "id": "ko.g173", "k": "tr", "src": "Aaah, a bug! / Stay still. I'll get it.", "tgt": ""}
-{"f": "dialog", "id": "ko.g174", "k": "tr", "src": "Ta-da! It's your birthday present. / Wow, thank you! What is it?", "tgt": ""}
-{"f": "dialog", "id": "ko.g175", "k": "tr", "src": "This milk is past its date. / Yuck, I already drank some!", "tgt": ""}
-{"f": "dialog", "id": "ko.g176", "k": "tr", "src": "You look even prettier today. / Really? I changed my hair a bit.", "tgt": ""}
-{"f": "dialog", "id": "ko.g177", "k": "tr", "src": "My name is Haneul. / Even your name is pretty.", "tgt": ""}
-{"f": "dialog", "id": "ko.g178", "k": "tr", "src": "Why are you so cute? / Oh, stop joking.", "tgt": ""}
-{"f": "dialog", "id": "ko.g179", "k": "tr", "src": "You're even better-looking in person. / Haha, I guess my photos don't do me justice.", "tgt": ""}
-{"f": "dialog", "id": "ko.g180", "k": "tr", "src": "You look cool when you're working. / Out of nowhere? Thank you.", "tgt": ""}
-{"f": "dialog", "id": "ko.g181", "k": "tr", "src": "You have a pretty smile. / Thank you. That's the first time I've heard that.", "tgt": ""}
-{"f": "dialog", "id": "ko.g182", "k": "tr", "src": "Your eye smile is really pretty. / Oh, come on, I'm embarrassed.", "tgt": ""}
-{"f": "dialog", "id": "ko.g183", "k": "tr", "src": "What's the occasion? You actually called. / I just wanted to hear your voice.", "tgt": ""}
-{"f": "dialog", "id": "ko.g184", "k": "tr", "src": "What do you think of me? / Honestly, you're totally my type.", "tgt": ""}
+{"f": "dialog", "id": "ko.g001", "k": "tr", "src": "Hello, nice to meet you for the first time. / Hi! Nice to meet you.", "tgt": "నమస్కారం, మిమ్మల్ని మొదటిసారి కలుస్తున్నాను. / నమస్కారం! మిమ్మల్ని కలవడం సంతోషం."}
+{"f": "dialog", "id": "ko.g002", "k": "tr", "src": "Thank you for helping. / Not at all.", "tgt": "సహాయం చేసినందుకు ధన్యవాదాలు. / అయ్యో, అదేం మాట."}
+{"f": "dialog", "id": "ko.g003", "k": "tr", "src": "Sorry I'm late. / It's fine, I just got here too.", "tgt": "ఆలస్యమైనందుకు క్షమించండి. / పర్వాలేదు, నేను కూడా ఇప్పుడే వచ్చాను."}
+{"f": "dialog", "id": "ko.g004", "k": "tr", "src": "How much is this? / 12,000 won.", "tgt": "ఇది ఎంత? / 12,000 వొన్."}
+{"f": "dialog", "id": "ko.g005", "k": "tr", "src": "Excuse me, where's the bathroom? / Go straight that way.", "tgt": "ఏమండీ, బాత్రూమ్ ఎక్కడ? / అటు వైపు నేరుగా వెళ్ళండి."}
+{"f": "dialog", "id": "ko.g006", "k": "tr", "src": "What can I get you? / This one, to go.", "tgt": "మీకు ఏం ఇవ్వమంటారు? / ఇది ఇవ్వండి. పార్సిల్."}
+{"f": "dialog", "id": "ko.g007", "k": "tr", "src": "Are you okay? Hurt? / Yes, I'm fine.", "tgt": "పర్వాలేదా? దెబ్బ తగిలిందా? / అవునండి, పర్వాలేదు."}
+{"f": "dialog", "id": "ko.g008", "k": "tr", "src": "Sorry, please speak slowly. / Ah, sure, I'll slow down.", "tgt": "క్షమించండి, కొంచెం నెమ్మదిగా మాట్లాడండి. / ఆ, సరేనండి. నెమ్మదిగా మాట్లాడతాను."}
+{"f": "dialog", "id": "ko.g009", "k": "tr", "src": "Your Korean is good! / No, I'm still not good.", "tgt": "మీరు కొరియన్ బాగా మాట్లాడుతున్నారు! / అయ్యో, అదేం లేదండి, ఇంకా సరిగ్గా రాదు."}
+{"f": "dialog", "id": "ko.g010", "k": "tr", "src": "Excuse me, coming through. / Go ahead.", "tgt": "ఒక్క నిమిషం, కొంచెం దారివ్వండి. / సరేనండి, వెళ్ళండి."}
+{"f": "dialog", "id": "ko.g011", "k": "tr", "src": "Excuse me! The menu, please. / Yes, one moment.", "tgt": "ఏమండీ! కొంచెం మెనూ ఇవ్వండి. / సరేనండి, ఒక్క నిమిషం."}
+{"f": "dialog", "id": "ko.g012", "k": "tr", "src": "Excuse me, please help me. / Sure, what do you need?", "tgt": "ఏమండీ, కొంచెం సాయం చేయండి. / చెప్పండి, మీకు ఏం కావాలి?"}
+{"f": "dialog", "id": "ko.g013", "k": "tr", "src": "Sorry, say that again please. / The subway station is on the left.", "tgt": "క్షమించండి, మళ్ళీ ఒకసారి చెప్పండి. / మెట్రో స్టేషన్ ఎడమ వైపు ఉంది."}
+{"f": "dialog", "id": "ko.g014", "k": "tr", "src": "Can you speak English? / A little. I'll speak slowly.", "tgt": "మీరు ఇంగ్లీష్ మాట్లాడగలరా? / కొంచెం. నెమ్మదిగా మాట్లాడతాను.", "rw": "mentions English"}
+{"f": "dialog", "id": "ko.g015", "k": "tr", "src": "What is this? / Tteokbokki. It's a bit spicy.", "tgt": "ఇది ఏమిటి? / తొక్బొక్కి. కొంచెం కారంగా ఉంటుంది."}
+{"f": "dialog", "id": "ko.g016", "k": "tr", "src": "Do you take cards? / Yes. Insert it here.", "tgt": "కార్డు తీసుకుంటారా? / అవునండి, తీసుకుంటాం. ఇక్కడ పెట్టండి."}
+{"f": "dialog", "id": "ko.g017", "k": "tr", "src": "What's the wifi password? / It's on the receipt.", "tgt": "వైఫై పాస్వర్డ్ ఏమిటి? / రసీదు మీద ఉంది."}
+{"f": "dialog", "id": "ko.g018", "k": "tr", "src": "I'm lost. Where is this? / This is Hongdae. Where are you going?", "tgt": "నేను దారి తప్పిపోయాను. ఇది ఏ చోటు? / ఇది హోంగ్దే. ఎక్కడికి వెళ్తున్నారు?"}
+{"f": "dialog", "id": "ko.g019", "k": "tr", "src": "What's your name? / I'm @@. What's yours?", "tgt": "మీ పేరు ఏమిటి? / నా పేరు @@. మీ పేరు ఏమిటి?"}
+{"f": "dialog", "id": "ko.g020", "k": "tr", "src": "Nice to meet you. / Nice to meet you too.", "tgt": "మిమ్మల్ని కలవడం సంతోషం. / నాకు కూడా సంతోషం."}
+{"f": "dialog", "id": "ko.g021", "k": "tr", "src": "Where are you from? / From the Philippines. Cebu.", "tgt": "మీరు ఎక్కడి నుంచి వచ్చారు? / ఫిలిప్పీన్స్ నుంచి వచ్చాను. సెబూ."}
+{"f": "dialog", "id": "ko.g022", "k": "tr", "src": "Excuse me, how old are you? / 28. And you?", "tgt": "ఏమీ అనుకోకపోతే, మీ వయసు ఎంత? / ఇరవై ఎనిమిది. మరి మీకు?"}
+{"f": "dialog", "id": "ko.g023", "k": "tr", "src": "What do you do? / I work at an IT company.", "tgt": "మీరు ఏం పని చేస్తారు? / నేను ఒక ఐటీ కంపెనీలో పని చేస్తాను."}
+{"f": "dialog", "id": "ko.g024", "k": "tr", "src": "Do you study Korean? / Yes, a little every day.", "tgt": "మీరు కొరియన్ నేర్చుకుంటున్నారా? / అవునండి, రోజూ కొంచెం కొంచెంగా నేర్చుకుంటున్నాను."}
+{"f": "dialog", "id": "ko.g025", "k": "tr", "src": "What's your hobby? / Running and music.", "tgt": "మీ హాబీ ఏమిటి? / పరుగెత్తడం, సంగీతం."}
+{"f": "dialog", "id": "ko.g026", "k": "tr", "src": "Long time no see! How've you been? / Good, thanks. You?", "tgt": "చాలా రోజులైంది! ఎలా ఉన్నారు? / బాగున్నానండి, మీ దయ వల్ల. మీరు ఎలా ఉన్నారు?"}
+{"f": "dialog", "id": "ko.g027", "k": "tr", "src": "How are things lately? / Busy. But fun.", "tgt": "ఈ మధ్య ఎలా ఉంది? / బిజీగా ఉంది. అయినా సరదాగానే ఉంది."}
+{"f": "dialog", "id": "ko.g028", "k": "tr", "src": "Nice weather today. / Yes, perfect for a walk.", "tgt": "ఈరోజు వాతావరణం బాగుంది. / అవునండి, వాకింగ్కి సరిగ్గా సరిపోతుంది."}
+{"f": "dialog", "id": "ko.g029", "k": "tr", "src": "What are you doing this weekend? / Going hiking. Want to come?", "tgt": "వారాంతంలో ఏం చేస్తున్నారు? / కొండ ఎక్కడానికి వెళ్తున్నాను. కలిసి వస్తారా?"}
+{"f": "dialog", "id": "ko.g030", "k": "tr", "src": "Today was fun. See you again! / Yes, I'll be in touch.", "tgt": "ఈరోజు సరదాగా గడిచింది. మళ్ళీ కలుద్దాం! / సరేనండి, కాంటాక్ట్ చేస్తాను."}
+{"f": "dialog", "id": "ko.g031", "k": "tr", "src": "I'll head out first. Goodbye (stay well). / Bye (go well).", "tgt": "నేను ముందు వెళ్తాను. వెళ్ళొస్తాను. / సరేనండి, వెళ్ళి రండి."}
+{"f": "dialog", "id": "ko.g032", "k": "tr", "src": "I'm bored. Let's hang out! / Deal! Where should we meet?", "tgt": "బోర్ కొడుతోంది. సరదాగా గడుపుదాం! / ఫిక్స్! ఎక్కడ కలుద్దాం?"}
+{"f": "dialog", "id": "ko.g033", "k": "tr", "src": "Are you free tomorrow? / In the afternoon. Why?", "tgt": "రేపు ఖాళీగా ఉన్నావా? / మధ్యాహ్నం ఉన్నాను. ఎందుకు?"}
+{"f": "dialog", "id": "ko.g034", "k": "tr", "src": "I'm going to a café, wanna come? / Sure, let's go.", "tgt": "నేను కేఫ్కి వెళ్తున్నా, నాతో కలిసి వస్తావా? / సరే, పద వెళ్దాం."}
+{"f": "dialog", "id": "ko.g035", "k": "tr", "src": "I'm hungry. Wanna go eat? / Yes! What should we eat?", "tgt": "ఆకలేస్తోంది. తినడానికి వస్తావా? / అవును! ఏం తిందాం?"}
+{"f": "dialog", "id": "ko.g036", "k": "tr", "src": "When should we meet? / How about Saturday?", "tgt": "మనం ఎప్పుడు కలుద్దాం? / శనివారం ఎలా ఉంది?"}
+{"f": "dialog", "id": "ko.g037", "k": "tr", "src": "Where should we meet? / Let's meet at Gangnam station exit 11.", "tgt": "ఎక్కడ కలుద్దాం? / గంగ్నమ్ స్టేషన్ ఎగ్జిట్ 11 దగ్గర కలుద్దాం."}
+{"f": "dialog", "id": "ko.g038", "k": "tr", "src": "Where are you? Almost here? / Sorry, coming now. 5 minutes!", "tgt": "ఎక్కడున్నావు? దగ్గరికి వచ్చేశావా? / సారీ, ఇప్పుడే వస్తున్నా. 5 నిమిషాలు!"}
+{"f": "dialog", "id": "ko.g039", "k": "tr", "src": "Today was really fun. / Me too. Let's hang out again!", "tgt": "ఈరోజు నిజంగా భలే సరదాగా గడిచింది. / నాకు కూడా. మళ్ళీ కలిసి సరదాగా గడుపుదాం!"}
+{"f": "dialog", "id": "ko.g040", "k": "tr", "src": "Ready to order? / One iced Americano, please.", "tgt": "ఆర్డర్ చేస్తారా? / ఒక ఐస్డ్ అమెరికానో ఇవ్వండి."}
+{"f": "dialog", "id": "ko.g041", "k": "tr", "src": "For here? / No, to go.", "tgt": "ఇక్కడే తీసుకుంటారా? / లేదండి, పార్సిల్."}
+{"f": "dialog", "id": "ko.g042", "k": "tr", "src": "What sizes do you have? / Tall, grande, venti.", "tgt": "ఏ సైజులు ఉన్నాయి? / టాల్, గ్రాండే, వెంటీ ఉన్నాయి."}
+{"f": "dialog", "id": "ko.g043", "k": "tr", "src": "Do you have a points card? / No, that's okay.", "tgt": "మీకు పాయింట్ల కార్డు ఉందా? / లేదండి, పర్వాలేదు."}
+{"f": "dialog", "id": "ko.g044", "k": "tr", "src": "Please heat this up. / Sure, it takes a minute.", "tgt": "ఇది వేడి చేసి పెట్టండి. / సరేనండి, 1 నిమిషం పడుతుంది."}
+{"f": "dialog", "id": "ko.g045", "k": "tr", "src": "Do you need a bag? / Yes, one please.", "tgt": "సంచి కావాలా? / అవునండి, ఒకటి ఇవ్వండి."}
+{"f": "dialog", "id": "ko.g046", "k": "tr", "src": "Cash or card? / Card.", "tgt": "క్యాషా, కార్డా? / కార్డుతో కడతాను."}
+{"f": "dialog", "id": "ko.g047", "k": "tr", "src": "Where is a pharmacy? / On the first floor of that building.", "tgt": "మందుల షాపు ఎక్కడ? / ఆ బిల్డింగ్ 1వ అంతస్తులో ఉంది."}
+{"f": "dialog", "id": "ko.g048", "k": "tr", "src": "Where does it hurt? / My head hurts. I have a fever too.", "tgt": "మీకు ఎక్కడ నొప్పిగా ఉంది? / నాకు తలనొప్పిగా ఉంది. జ్వరం కూడా ఉంది."}
+{"f": "dialog", "id": "ko.g049", "k": "tr", "src": "Do you have painkillers? / Yes, take these after a meal.", "tgt": "నొప్పి మాత్రలు ఉన్నాయా? / అవునండి, ఇవి భోజనం తర్వాత వేసుకోండి."}
+{"f": "dialog", "id": "ko.g050", "k": "tr", "src": "Do you have allergies? / Yes, I'm allergic to peanuts.", "tgt": "మీకు ఏమైనా అలర్జీలు ఉన్నాయా? / అవునండి, నాకు వేరుశెనగ అలర్జీ ఉంది."}
+{"f": "dialog", "id": "ko.g051", "k": "tr", "src": "How many times a day? / Three times, 30 minutes after meals.", "tgt": "రోజుకు ఎన్నిసార్లు వేసుకోవాలి? / రోజుకు మూడుసార్లు, భోజనం అయ్యాక 30 నిమిషాలకు."}
+{"f": "dialog", "id": "ko.g052", "k": "tr", "src": "Package! / Please leave it at the door.", "tgt": "పార్సిల్ వచ్చింది! / సరేనండి, తలుపు ముందు పెట్టేయండి."}
+{"f": "dialog", "id": "ko.g053", "k": "tr", "src": "How much is rent? / 500,000 won, maintenance included.", "tgt": "నెల అద్దె ఎంత? / 500,000 వొన్ (5 లక్షలు), మెయింటెనెన్స్తో కలిపి."}
+{"f": "dialog", "id": "ko.g054", "k": "tr", "src": "Can you dry clean this? / Yes, pick it up tomorrow afternoon.", "tgt": "ఇది డ్రై క్లీన్ చేస్తారా? / అవునండి, రేపు మధ్యాహ్నం వచ్చి తీసుకెళ్ళండి."}
+{"f": "dialog", "id": "ko.g055", "k": "tr", "src": "I'm starting work with you today. Please take care of me. / Likewise.", "tgt": "ఈరోజు నుంచి మీతో కలిసి పని చేయబోతున్నాను. మీ సహకారం ఆశిస్తున్నాను. / అలాగేనండి, నేను కూడా మీ సహకారం ఆశిస్తున్నాను."}
+{"f": "dialog", "id": "ko.g056", "k": "tr", "src": "How are things? / So-so. Just busy.", "tgt": "ఎలా ఉంది? / అంతంత మాత్రం. బిజీగానే ఉంది అంతే."}
+{"f": "dialog", "id": "ko.g057", "k": "tr", "src": "I'm a coffee addict. / Me too! At least three cups a day.", "tgt": "నేను కాఫీకి బానిసను. / నేను కూడా! రోజుకు కనీసం మూడు కప్పులు తాగుతాను."}
+{"f": "dialog", "id": "ko.g058", "k": "tr", "src": "I'm going to Korea next month. / Really? Where to?", "tgt": "నేను వచ్చే నెల కొరియా వెళ్తున్నాను. / నిజంగా? ఎక్కడికి వెళ్తున్నారు?"}
+{"f": "dialog", "id": "ko.g059", "k": "tr", "src": "I should get going. Goodbye. / Okay, get home safe.", "tgt": "ఇక నేను బయలుదేరతాను. వెళ్ళొస్తాను. / సరేనండి, జాగ్రత్తగా వెళ్ళండి."}
+{"f": "dialog", "id": "ko.g060", "k": "tr", "src": "See you next time. / Yes, I'll be in touch!", "tgt": "మళ్ళీ కలుద్దాం. / సరేనండి, కాంటాక్ట్ చేస్తాను!"}
+{"f": "dialog", "id": "ko.g061", "k": "tr", "src": "Hey, what are you doing? / Watching Netflix at home. Why?", "tgt": "ఏయ్, ఏం చేస్తున్నావు? / ఇంట్లో నెట్ఫ్లిక్స్ చూస్తున్నా. ఎందుకు?"}
+{"f": "dialog", "id": "ko.g062", "k": "tr", "src": "Are you free tonight? / Yeah, after seven.", "tgt": "ఈరోజు సాయంత్రం నీకు టైం ఉందా? / అవును, ఏడింటి తర్వాత."}
+{"f": "dialog", "id": "ko.g063", "k": "tr", "src": "Wanna come over? I'll order chicken. / Deal! I'll bring beer.", "tgt": "మా ఇంటికి వస్తావా? చికెన్ ఆర్డర్ చేస్తాను. / ఫిక్స్! బీర్ కొనుక్కొస్తాను."}
+{"f": "dialog", "id": "ko.g064", "k": "tr", "src": "Today was so fun. Let's hang again. / Sure, see you next week!", "tgt": "ఈరోజు నిజంగా భలే సరదాగా గడిచింది. మళ్ళీ కలిసి సరదాగా గడుపుదాం. / సరే, వచ్చే వారం కలుద్దాం!"}
+{"f": "dialog", "id": "ko.g065", "k": "tr", "src": "Can I get your number? / Sure, 010-3322-7788.", "tgt": "నీ నంబర్ ఇస్తావా? / అవును, 010-3322-7788."}
+{"f": "dialog", "id": "ko.g066", "k": "tr", "src": "Do you have Instagram? / Yes, I'll give you my handle.", "tgt": "మీకు ఇన్స్టా ఉందా? / అవునండి, నా ఐడీ మీకు చెప్తాను."}
+{"f": "dialog", "id": "ko.g067", "k": "tr", "src": "Today was lovely. Shall we meet again? / Sure. This time it's on me.", "tgt": "ఈరోజు చాలా బాగా గడిచింది. మనం మళ్ళీ కలుద్దామా? / సరే. ఈసారి నేను ఇప్పిస్తాను."}
+{"f": "dialog", "id": "ko.g068", "k": "tr", "src": "It's late. I'll walk you home. / It's fine, I can take the subway.", "tgt": "ఆలస్యమైంది. నిన్ను ఇంటిదాకా దిగబెడతాను. / పర్వాలేదు, మెట్రో ఎక్కితే చాలు."}
+{"f": "dialog", "id": "ko.g069", "k": "tr", "src": "You look pretty today. / Thanks. I got a haircut.", "tgt": "ఈరోజు మీరు అందంగా ఉన్నారు. / థాంక్సండి. జుట్టు కత్తిరించుకున్నాను."}
+{"f": "dialog", "id": "ko.g070", "k": "tr", "src": "You're here! I missed you. / Me too. Did you wait long?", "tgt": "వచ్చేశారా? మీరు చాలా గుర్తొచ్చారు. / నాకు కూడా. చాలాసేపు ఎదురుచూశారా?"}
+{"f": "dialog", "id": "ko.g071", "k": "tr", "src": "Did you get home safe? / Yeah, just got in. Thanks for today.", "tgt": "ఇంటికి క్షేమంగా చేరావా? / అవును, ఇప్పుడే చేరాను. ఈరోజుకు థాంక్స్."}
+{"f": "dialog", "id": "ko.g072", "k": "tr", "src": "I'm going to sleep. Night! / Okay, sweet dreams.", "tgt": "నేను పడుకుంటాను. బాగా నిద్రపో! / సరే, తియ్యని కలలు కను."}
+{"f": "dialog", "id": "ko.g073", "k": "tr", "src": "Did you eat? / Not yet. Wanna eat together?", "tgt": "అన్నం తిన్నావా? / ఇంకా లేదు. కలిసి తిందామా?"}
+{"f": "dialog", "id": "ko.g074", "k": "tr", "src": "What are you up to? / Just lying around. Bored.", "tgt": "ఏం చేస్తున్నావు? / ఊరికే పడుకుని ఉన్నా. బోర్ కొడుతోంది."}
+{"f": "dialog", "id": "ko.g075", "k": "tr", "src": "Where are you? Almost here? / Sorry, five minutes! Just got off the subway.", "tgt": "ఎక్కడున్నావు? దగ్గరికి వచ్చేశావా? / సారీ, ఐదు నిమిషాలు! ఇప్పుడే మెట్రో దిగాను."}
+{"f": "dialog", "id": "ko.g076", "k": "tr", "src": "I think I'll be late. / No worries, take your time. I'll be at the café.", "tgt": "నాకు కొంచెం ఆలస్యం అయ్యేలా ఉంది. / పర్వాలేదు, నెమ్మదిగా రా. నేను కేఫ్లో ఉంటాను."}
+{"f": "dialog", "id": "ko.g077", "k": "tr", "src": "Look at this meme lol / That's hilarious lol", "tgt": "ఈ మీమ్ చూడు హహహ / అబ్బ, నిజంగా భలే నవ్వొస్తోంది హహహ"}
+{"f": "dialog", "id": "ko.g078", "k": "tr", "src": "I made this. / Wow, that's cool! How did you make it?", "tgt": "ఇది నేను చేశాను. / వావ్, సూపర్! ఎలా చేశావు?"}
+{"f": "dialog", "id": "ko.g079", "k": "tr", "src": "I passed the exam! / Really? Nice job!", "tgt": "పరీక్ష పాసయ్యాను! / నిజంగా? శభాష్, భలే చేశావు!"}
+{"f": "dialog", "id": "ko.g080", "k": "tr", "src": "I worked overtime today… / You worked hard. Get some rest.", "tgt": "ఈరోజు ఓవర్టైమ్ చేశాను… / చాలా కష్టపడ్డావు. బాగా రెస్ట్ తీసుకో."}
+{"f": "dialog", "id": "ko.g081", "k": "tr", "src": "Wanna grab a drink after work? / Love to! Where?", "tgt": "ఆఫీసు అయ్యాక ఒక డ్రింక్ వేద్దామా? / తప్పకుండా! ఎక్కడ?"}
+{"f": "dialog", "id": "ko.g082", "k": "tr", "src": "I'm so nervous about the interview. / You got this! You'll do great.", "tgt": "ఇంటర్వ్యూ అంటే చాలా భయంగా ఉంది. / ధైర్యంగా ఉండు! నువ్వు బాగా చేస్తావు."}
+{"f": "dialog", "id": "ko.g083", "k": "tr", "src": "What are you doing tomorrow? / I'm off tomorrow. Why?", "tgt": "రేపు ఏం చేస్తున్నారు? / రేపు నాకు సెలవు. ఎందుకు?"}
+{"f": "dialog", "id": "ko.g084", "k": "tr", "src": "What time is it now? / Half past two.", "tgt": "ఇప్పుడు టైం ఎంత? / రెండున్నర."}
+{"f": "dialog", "id": "ko.g085", "k": "tr", "src": "What time is it? / 9:10.", "tgt": "ఇప్పుడు టైం ఎంత? / తొమ్మిది గంటల పది నిమిషాలు."}
+{"f": "dialog", "id": "ko.g086", "k": "tr", "src": "How's the weather in Seoul? / Cold today, and the fine dust is bad.", "tgt": "సియోల్లో వాతావరణం ఎలా ఉంది? / ఈరోజు చలిగా ఉంది, గాల్లో సూక్ష్మ ధూళి కూడా ఎక్కువగా ఉంది."}
+{"f": "dialog", "id": "ko.g087", "k": "tr", "src": "Is it raining outside? / Yes, take an umbrella.", "tgt": "బయట వాన పడుతోందా? / అవునండి, గొడుగు తీసుకెళ్ళండి."}
+{"f": "dialog", "id": "ko.g088", "k": "tr", "src": "You look tired. / Yeah, I couldn't sleep last night.", "tgt": "మీరు అలసిపోయినట్టు కనిపిస్తున్నారు. / అవునండి, నిన్న రాత్రి నిద్రపట్టలేదు."}
+{"f": "dialog", "id": "ko.g089", "k": "tr", "src": "I'm bored. / Then shall we watch a movie?", "tgt": "బోర్ కొడుతోంది. / అయితే సినిమా చూద్దామా?"}
+{"f": "dialog", "id": "ko.g090", "k": "tr", "src": "I won the lottery! / No way! How much?", "tgt": "నాకు లాటరీ తగిలింది! / అదిరిపోయింది! ఎంత?"}
+{"f": "dialog", "id": "ko.g091", "k": "tr", "src": "I lost my wallet… / Oh no! Did you check with the police?", "tgt": "నా పర్సు పోయింది… / అయ్యో, ఇప్పుడెలా! పోలీస్ స్టేషన్కి వెళ్ళి చూశావా?"}
+{"f": "dialog", "id": "ko.g092", "k": "tr", "src": "My presentation is tomorrow. / You got this! You can do it.", "tgt": "రేపు నా ప్రెజెంటేషన్. / ఆల్ ది బెస్ట్! నువ్వు చేయగలవు."}
+{"f": "dialog", "id": "ko.g093", "k": "tr", "src": "Please eat plenty. / Thank you, I will!", "tgt": "బాగా తినండి. / అలాగేనండి, భోజనానికి ధన్యవాదాలు!"}
+{"f": "dialog", "id": "ko.g094", "k": "tr", "src": "May I have your name? / I'm Kim Minsu.", "tgt": "మీ శుభనామం ఏమిటి? / నా పేరు కిమ్ మిన్సు."}
+{"f": "dialog", "id": "ko.g095", "k": "tr", "src": "Please sit here. / Thank you.", "tgt": "ఇక్కడ కూర్చోండి. / ధన్యవాదాలు."}
+{"f": "dialog", "id": "ko.g096", "k": "tr", "src": "Anyone home? / Yes, come in!", "tgt": "ఇంట్లో ఎవరైనా ఉన్నారా? / ఉన్నామండి, లోపలికి రండి!"}
+{"f": "dialog", "id": "ko.g097", "k": "tr", "src": "Teacher, have you been well? / Yes, thanks to you. Long time no see.", "tgt": "సార్/మేడం, ఇన్నాళ్ళూ బాగున్నారా? / బాగున్నాను, మీ దయ వల్ల. చాలా రోజులైంది."}
+{"f": "dialog", "id": "ko.g098", "k": "tr", "src": "Would you mind taking a photo? / Of course. One, two, three!", "tgt": "మా ఫోటో ఏమైనా ఒకటి తీసి పెడతారా? / అలాగేనండి, తప్పకుండా. ఒకటి, రెండు, మూడు!"}
+{"f": "dialog", "id": "ko.g099", "k": "tr", "src": "What are we? / Hmm… I like you. Want to go out?", "tgt": "మనం అసలు ఏంటి? / హ్మ్… నువ్వంటే నాకు ఇష్టం. మనం జంట అవుదామా?"}
+{"f": "dialog", "id": "ko.g100", "k": "tr", "src": "Why didn't you text yesterday? / Sorry, my fault. Don't be mad.", "tgt": "నిన్న ఎందుకు మెసేజ్ చేయలేదు? / సారీ, నాదే తప్పు. కోపం తగ్గించుకో."}
+{"f": "dialog", "id": "ko.g101", "k": "tr", "src": "How is it being with me? / I feel comfortable. That's the best part.", "tgt": "నాతో ఉంటే ఎలా అనిపిస్తుంది? / నీతో ఉంటే హాయిగా ఉంటుంది. అదే నాకు అన్నిటికంటే ఇష్టం."}
+{"f": "dialog", "id": "ko.g102", "k": "tr", "src": "Can I hold your hand? / Yeah… is it because you're cold?", "tgt": "నీ చెయ్యి పట్టుకోవచ్చా? / ఊఁ… చలి వేస్తోందనా?"}
+{"f": "dialog", "id": "ko.g103", "k": "tr", "src": "It's our 100th day today! / Really? Happy 100 days. I got you something.", "tgt": "ఈరోజు మన 100వ రోజు! / నిజంగా? 100 రోజుల శుభాకాంక్షలు. నీ కోసం బహుమతి తెచ్చాను."}
+{"f": "dialog", "id": "ko.g104", "k": "tr", "src": "I have something to tell you. / What is it? Is something wrong?", "tgt": "నీతో ఒక విషయం చెప్పాలి. / ఏంటి? ఏమైనా అయిందా?"}
+{"f": "dialog", "id": "ko.g105", "k": "tr", "src": "What time is the meeting? / Two. Meeting room B.", "tgt": "మీటింగ్ ఎన్ని గంటలకు? / రెండింటికి. మీటింగ్ రూమ్ బి."}
+{"f": "dialog", "id": "ko.g106", "k": "tr", "src": "When is the deadline? / Friday, 6 PM.", "tgt": "డెడ్లైన్ ఎప్పుడు? / శుక్రవారం సాయంత్రం ఆరు గంటలకు."}
+{"f": "dialog", "id": "ko.g107", "k": "tr", "src": "Manager, do you have a moment? / Yes, come in.", "tgt": "మేనేజర్ గారు, మీకు ఒక్క నిమిషం వీలవుతుందా? / అవును, లోపలికి రండి."}
+{"f": "dialog", "id": "ko.g108", "k": "tr", "src": "I'll head out first. / Okay, good work today.", "tgt": "నేను ముందు బయలుదేరుతాను. / సరే, ఈరోజు బాగా కష్టపడ్డారు."}
+{"f": "dialog", "id": "ko.g109", "k": "tr", "src": "There's a team dinner today. / What time and where?", "tgt": "ఈరోజు టీమ్ డిన్నర్ ఉంది. / ఎన్ని గంటలకు, ఎక్కడ?"}
+{"f": "dialog", "id": "ko.g110", "k": "tr", "src": "What should we have for lunch? / How about kimchi stew?", "tgt": "లంచ్కి ఏం తిందాం? / కిమ్చి జిగే ఎలా ఉంటుంది?"}
+{"f": "dialog", "id": "ko.g111", "k": "tr", "src": "Ugh, I'm bored. What should I do? / Come out. Let's get chicken.", "tgt": "అబ్బా, బోర్. ఏం చేయాలి? / బయటికి రా. చికెన్ తిందాం."}
+{"f": "dialog", "id": "ko.g112", "k": "tr", "src": "I'm so tired today. / Sleep early. See you tomorrow.", "tgt": "ఈరోజు చాలా అలసిపోయాను. / తొందరగా పడుకో. రేపు కలుద్దాం."}
+{"f": "dialog", "id": "ko.g113", "k": "tr", "src": "Where are you? / On my way. 10 minutes!", "tgt": "ఎక్కడున్నావు? / దారిలో ఉన్నా, వస్తున్నా. 10 నిమిషాలు!"}
+{"f": "dialog", "id": "ko.g114", "k": "tr", "src": "What's with him? / Dunno. I'm curious too.", "tgt": "వాడికేమైంది? / తెలీదు. నాకూ తెలియాలని ఉంది."}
+{"f": "dialog", "id": "ko.g115", "k": "tr", "src": "I saved us seats. / You really are the best.", "tgt": "నేను సీట్లు పట్టి ఉంచాను. / అందుకే నువ్వే బెస్ట్."}
+{"f": "dialog", "id": "ko.g116", "k": "tr", "src": "Karaoke tonight? / Let's go! My treat.", "tgt": "ఈరోజు కరోకే ఎలా ఉంటుంది? / పద! నేను ఇప్పిస్తా."}
+{"f": "dialog", "id": "ko.g117", "k": "tr", "src": "I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.", "tgt": "నా ప్రెజెంటేషన్ పాడవుతుందేమో అనిపిస్తోంది. / కంగారు పడకు. ప్రాక్టీస్ చేసినట్టే చెయ్యి."}
+{"f": "dialog", "id": "ko.g118", "k": "tr", "src": "Finally done. / Nice work. A beer?", "tgt": "ఎట్టకేలకు అయిపోయింది. / బాగా చేశావు. ఒక బీర్?"}
+{"f": "dialog", "id": "ko.g119", "k": "tr", "src": "How's this? Just bought it. / Cute. It suits you.", "tgt": "ఇది ఎలా ఉంది? కొత్తగా కొన్నా. / ముద్దుగా ఉంది. నీకు బాగా నప్పింది."}
+{"f": "dialog", "id": "ko.g120", "k": "tr", "src": "I miss you. / Me too. Let's meet this weekend.", "tgt": "నువ్వు గుర్తొస్తున్నావు. / నాకు కూడా. వీకెండ్ కలుద్దాం."}
+{"f": "dialog", "id": "ko.g121", "k": "tr", "src": "I like you. / …Me too. You should've said sooner.", "tgt": "నువ్వంటే నాకు ఇష్టం. / …నాకు కూడా. ముందే చెప్పొచ్చుగా."}
+{"f": "dialog", "id": "ko.g122", "k": "tr", "src": "Babe, what are you doing? / Thinking about you, obviously.", "tgt": "బంగారం, ఏం చేస్తున్నావు? / నీ గురించే ఆలోచిస్తున్నా, ఇంకేంటి."}
+{"f": "dialog", "id": "ko.g123", "k": "tr", "src": "I'm heading out now. / Get home safe. Text me when you arrive.", "tgt": "నేను ఇక వెళ్తున్నా. / జాగ్రత్తగా వెళ్ళు. చేరాక మెసేజ్ చెయ్."}
+{"f": "dialog", "id": "ko.g124", "k": "tr", "src": "Sleepy. Going to bed. / Okay, sweet dreams.", "tgt": "నిద్రొస్తోంది. పడుకుంటా. / సరే, తియ్యని కలలు కను."}
+{"f": "dialog", "id": "ko.g125", "k": "tr", "src": "Why are you smiling like that? / Your smile just now made my heart skip.", "tgt": "ఎందుకలా నవ్వుతున్నావు? / ఇప్పుడు నువ్వు నవ్వింది చూసి నా గుండె ఝల్లుమంది."}
+{"f": "dialog", "id": "ko.g126", "k": "tr", "src": "Why'd you text? / No reason. I keep thinking about you.", "tgt": "ఎందుకు మెసేజ్ చేశావు? / ఊరికే. పదే పదే నువ్వు గుర్తొస్తున్నావు."}
+{"f": "dialog", "id": "ko.g127", "k": "tr", "src": "You said you had something to say? / I think I like you.", "tgt": "ఏదో చెప్పాలన్నావుగా? / నువ్వంటే నాకు ఇష్టం అనిపిస్తోంది."}
+{"f": "dialog", "id": "ko.g128", "k": "tr", "src": "What are we? / Let's date.", "tgt": "మనం అసలు ఏంటి? / మనం జంట అయిపోదాం."}
+{"f": "dialog", "id": "ko.g129", "k": "tr", "src": "I passed! / Really? Congrats!", "tgt": "నేను పాసయ్యాను! / నిజంగా? కంగ్రాట్స్!"}
+{"f": "dialog", "id": "ko.g130", "k": "tr", "src": "I'll go first. / Don't go. Stay a little longer.", "tgt": "నేను ముందు వెళ్తాను. / వెళ్ళకు. ఇంకొంచెం సేపు ఉండు."}
+{"f": "dialog", "id": "ko.g131", "k": "tr", "src": "Long time no see. / I missed you. Been well?", "tgt": "చాలా రోజులైంది. / నువ్వు చాలా గుర్తొచ్చావు. బాగున్నావా?"}
+{"f": "dialog", "id": "ko.g132", "k": "tr", "src": "Who's your bias? / The main vocalist.", "tgt": "మీ బయాస్ ఎవరు? / నాకు మెయిన్ వోకలిస్ట్."}
+{"f": "dialog", "id": "ko.g133", "k": "tr", "src": "What are you listening to lately? / I became a fan of this group. Their stage is amazing.", "tgt": "ఈ మధ్య ఏం వింటున్నారు? / ఈ గ్రూప్కి ఫ్యాన్ అయిపోయాను. వాళ్ళ స్టేజ్ పర్ఫార్మెన్స్ అదిరిపోతుంది."}
+{"f": "dialog", "id": "ko.g134", "k": "tr", "src": "What are you doing this weekend? / Going to a concert! I even bought a light stick.", "tgt": "వారాంతంలో ఏం చేస్తున్నారు? / కాన్సర్ట్కి వెళ్తున్నాను! లైట్ స్టిక్ కూడా కొన్నాను."}
+{"f": "dialog", "id": "ko.g135", "k": "tr", "src": "I'm a fan! Please sign this. / Sure, thanks. What's your name?", "tgt": "నేను మీ ఫ్యాన్ని! సైన్ చేసి పెట్టండి. / సరేనండి, థాంక్సండి. మీ పేరు ఏమిటి?"}
+{"f": "dialog", "id": "ko.g136", "k": "tr", "src": "They're making a comeback this month. / Really? Did you see the teaser?", "tgt": "ఈ నెల కమ్బ్యాక్ అంట. / నిజంగా? టీజర్ చూశావా?"}
+{"f": "dialog", "id": "ko.g137", "k": "tr", "src": "How was the concert? / Got goosebumps during the singalong.", "tgt": "కాన్సర్ట్ ఎలా ఉంది? / అందరూ కలిసి పాడినప్పుడు ఒళ్ళు జలదరించింది."}
+{"f": "dialog", "id": "ko.g138", "k": "tr", "src": "Are you on Instagram? / Yes, I just followed you.", "tgt": "మీరు ఇన్స్టాలో ఉన్నారా? / అవునండి, ఇప్పుడే మిమ్మల్ని ఫాలో చేశాను."}
+{"f": "dialog", "id": "ko.g139", "k": "tr", "src": "Posted a photo. Hit like for me. / Already did.", "tgt": "ఫోటో పోస్ట్ చేశా. లైక్ కొట్టు. / ఎప్పుడో కొట్టేశా."}
+{"f": "dialog", "id": "ko.g140", "k": "tr", "src": "Why did nobody laugh at my joke earlier? / It killed the mood…", "tgt": "ఇందాక నా జోక్కి ఎవరూ ఎందుకు నవ్వలేదు? / ఒక్కసారిగా మూడ్ అంతా చల్లబడిపోయింది…"}
+{"f": "dialog", "id": "ko.g141", "k": "tr", "src": "How's the tteokbokki here? / Insanely good. I'm coming back.", "tgt": "ఇక్కడ తొక్బొక్కి ఎలా ఉంది? / అదిరిపోయే రుచి. మళ్ళీ వస్తాను."}
+{"f": "dialog", "id": "ko.g142", "k": "tr", "src": "This song is addictive. / For real, been listening all day.", "tgt": "ఈ పాట వదలబుద్ధి కావట్లేదు. / నిజంగా, రోజంతా ఇదే వింటున్నా."}
+{"f": "dialog", "id": "ko.g143", "k": "tr", "src": "What should I wear today? / Go effortless. Jeans and a white tee.", "tgt": "ఈరోజు ఏం వేసుకోను? / సింపుల్గా, కష్టపడనట్టు కనిపించేలా. జీన్స్, తెల్ల టీ-షర్ట్."}
+{"f": "dialog", "id": "ko.g144", "k": "tr", "src": "What are you doing this weekend? / Having a meal with family.", "tgt": "వారాంతంలో ఏం చేస్తున్నారు? / కుటుంబంతో కలిసి భోజనం చేస్తాను."}
+{"f": "dialog", "id": "ko.g145", "k": "tr", "src": "Who did you come with? / With a friend.", "tgt": "ఎవరితో వచ్చారు? / ఫ్రెండ్తో వచ్చాను."}
+{"f": "dialog", "id": "ko.g146", "k": "tr", "src": "Who's that? / That's my older brother.", "tgt": "ఆ వ్యక్తి ఎవరు? / మా అన్నయ్య."}
+{"f": "dialog", "id": "ko.g147", "k": "tr", "src": "Unni, how's this? / It suits you. Buy it.", "tgt": "అక్కా, ఇది ఎలా ఉంది? / నీకు బాగా నప్పింది. కొనెయ్."}
+{"f": "dialog", "id": "ko.g148", "k": "tr", "src": "Do you have siblings? / Yes, one younger sibling.", "tgt": "మీకు తోబుట్టువులు ఉన్నారా? / అవునండి, నాకు ఒక తమ్ముడు/చెల్లెలు ఉన్నారు."}
+{"f": "dialog", "id": "ko.g149", "k": "tr", "src": "Teacher, I have a question. / Yes, go ahead.", "tgt": "సార్/మేడం, నాకు ఒక ప్రశ్న ఉంది. / అలాగే, అడగండి."}
+{"f": "dialog", "id": "ko.g150", "k": "tr", "src": "That restaurant is closed on Mondays. / Ah, really? Then let's go on Tuesday.", "tgt": "ఆ రెస్టారెంట్ సోమవారం మూసి ఉంటుంది. / ఆ, అవునా? అయితే మంగళవారం వెళ్దాం."}
+{"f": "dialog", "id": "ko.g151", "k": "tr", "src": "This is a cake I made. / Wow, it's really pretty!", "tgt": "ఇది నేను చేసిన కేక్. / వావ్, నిజంగా చాలా అందంగా ఉంది!"}
+{"f": "dialog", "id": "ko.g152", "k": "tr", "src": "Minsu, I'm here. / Oh, you're here? Come in.", "tgt": "మిన్సూ, నేను వచ్చాను. / ఆ, వచ్చావా? లోపలికి రా."}
+{"f": "dialog", "id": "ko.g153", "k": "tr", "src": "Want to have lunch tomorrow? / Yeah, sure. What time?", "tgt": "రేపు కలిసి లంచ్ చేద్దామా? / ఊఁ, సరే. ఎన్ని గంటలకు?"}
+{"f": "dialog", "id": "ko.g154", "k": "tr", "src": "What do you want to eat? / Hmm… bibimbap today.", "tgt": "మీకు ఏం తినాలని ఉంది? / హ్మ్… ఈరోజు బిబింబాప్."}
+{"f": "dialog", "id": "ko.g155", "k": "tr", "src": "I bought this with my first paycheck. / Oh, nice!", "tgt": "ఇది నా మొదటి జీతంతో కొన్నాను. / ఓ, సూపర్!"}
+{"f": "dialog", "id": "ko.g156", "k": "tr", "src": "This is Namsan Tower. / Whoa, you can see all of Seoul!", "tgt": "ఇది నామ్సాన్ టవర్. / అబ్బో, సియోల్ అంతా కనిపిస్తోంది!"}
+{"f": "dialog", "id": "ko.g157", "k": "tr", "src": "I'm getting married next month. / Oh my, really? Congratulations!", "tgt": "నేను వచ్చే నెల పెళ్ళి చేసుకుంటున్నాను. / అమ్మో, నిజంగా? అభినందనలు!"}
+{"f": "dialog", "id": "ko.g158", "k": "tr", "src": "Ouch! I banged my hand on the door. / Are you OK? Let me see.", "tgt": "అమ్మా! తలుపుకు చెయ్యి కొట్టుకుంది. / పర్వాలేదా? ఏదీ, చూపించండి."}
+{"f": "dialog", "id": "ko.g159", "k": "tr", "src": "Your face has gone red! / Oh, come on, stop looking.", "tgt": "మీ ముఖం ఎర్రబడింది! / ఛ, పో, అలా చూడకండి."}
+{"f": "dialog", "id": "ko.g160", "k": "tr", "src": "Do you think this movie will be good? / Well, I'm not sure.", "tgt": "ఈ సినిమా బాగుంటుందంటావా? / ఏమో…, నాకు సరిగ్గా తెలియదు."}
+{"f": "dialog", "id": "ko.g161", "k": "tr", "src": "I saw BTS yesterday. / Come on, no way!", "tgt": "నేను నిన్న బీటీఎస్ని చూశాను. / అబ్బా, ఊరుకో, అబద్ధం!"}
+{"f": "dialog", "id": "ko.g162", "k": "tr", "src": "They say there's no team dinner today. / Yes! I'm going home early.", "tgt": "ఈరోజు టీమ్ డిన్నర్ లేదంట. / యస్! ఇంటికి తొందరగా వెళ్ళిపోతాను."}
+{"f": "dialog", "id": "ko.g163", "k": "tr", "src": "It's already eleven. / Yikes, I have to hurry!", "tgt": "అప్పుడే పదకొండు అయింది. / బాబోయ్, త్వరగా వెళ్ళాలి!"}
+{"f": "dialog", "id": "ko.g164", "k": "tr", "src": "Oops, I spilled the coffee! / It's fine, I'll wipe it up.", "tgt": "అరె, కాఫీ ఒలికిపోయింది! / పర్వాలేదు, నేను తుడుస్తాను."}
+{"f": "dialog", "id": "ko.g165", "k": "tr", "src": "Did you bring an umbrella? / Oh no, I left it at home.", "tgt": "గొడుగు తెచ్చారా? / అరెరే, ఇంట్లోనే మర్చిపోయాను."}
+{"f": "dialog", "id": "ko.g166", "k": "tr", "src": "Is your exam over? / Yes, phew, now I need some rest.", "tgt": "పరీక్షలు అయిపోయాయా? / అవునండి, హమ్మయ్య, ఇక కొంచెం విశ్రాంతి తీసుకోవాలి."}
+{"f": "dialog", "id": "ko.g167", "k": "tr", "src": "Overtime again today? / Sigh, yes. There's too much work.", "tgt": "ఈరోజు కూడా ఓవర్టైమా? / హుఁ, అవునండి. పని చాలా ఎక్కువగా ఉంది."}
+{"f": "dialog", "id": "ko.g168", "k": "tr", "src": "Shh, the baby is sleeping. / Oh, sorry. I'll be quiet.", "tgt": "ష్ష్, బిడ్డ నిద్రపోతోంది. / ఆ, సారీ అండి. నిశ్శబ్దంగా ఉంటాను."}
+{"f": "dialog", "id": "ko.g169", "k": "tr", "src": "Right, shall we start now? / Yes, let's start!", "tgt": "సరే మరి, ఇక మొదలుపెడదామా? / అవునండి, మొదలుపెడదాం!"}
+{"f": "dialog", "id": "ko.g170", "k": "tr", "src": "Hello? Is that Minji? / Yes, it's me. What's up?", "tgt": "హలో? మిన్జీ గారేనా? / అవునండి, నేనే. ఏంటి విషయం?"}
+{"f": "dialog", "id": "ko.g171", "k": "tr", "src": "This bag is a million won. / Oh my god, that's way too expensive!", "tgt": "ఈ బ్యాగ్ పది లక్షల వొన్. / అమ్మో, దేవుడా, మరీ ఖరీదు!"}
+{"f": "dialog", "id": "ko.g172", "k": "tr", "src": "Boo! / Ah, you scared me! That made me jump.", "tgt": "భౌ! / ఆ, భయపెట్టేశావు! ఉలిక్కిపడ్డాను."}
+{"f": "dialog", "id": "ko.g173", "k": "tr", "src": "Aaah, a bug! / Stay still. I'll get it.", "tgt": "ఆఆఆ, పురుగు! / కదలకుండా ఉండండి. నేను పట్టుకుంటాను."}
+{"f": "dialog", "id": "ko.g174", "k": "tr", "src": "Ta-da! It's your birthday present. / Wow, thank you! What is it?", "tgt": "టా-డా! మీ పుట్టినరోజు బహుమతి. / వావ్, థాంక్సండి! ఏంటిది?"}
+{"f": "dialog", "id": "ko.g175", "k": "tr", "src": "This milk is past its date. / Yuck, I already drank some!", "tgt": "ఈ పాల డేట్ అయిపోయింది. / యాక్, నేను అప్పుడే తాగేశాను!"}
+{"f": "dialog", "id": "ko.g176", "k": "tr", "src": "You look even prettier today. / Really? I changed my hair a bit.", "tgt": "ఈరోజు మీరు ఇంకా అందంగా ఉన్నారు. / నిజంగా? జుట్టు కొంచెం మార్చాను."}
+{"f": "dialog", "id": "ko.g177", "k": "tr", "src": "My name is Haneul. / Even your name is pretty.", "tgt": "నా పేరు హనుల్. / మీ పేరు కూడా అందంగా ఉంది."}
+{"f": "dialog", "id": "ko.g178", "k": "tr", "src": "Why are you so cute? / Oh, stop joking.", "tgt": "మీరు ఇంత ముద్దుగా ఎందుకు ఉన్నారు? / అబ్బా, జోక్ చేయకండి."}
+{"f": "dialog", "id": "ko.g179", "k": "tr", "src": "You're even better-looking in person. / Haha, I guess my photos don't do me justice.", "tgt": "మీరు ఫోటోల కంటే ఎదురుగా ఇంకా బాగున్నారు. / హహ, నా ఫోటోలు సరిగ్గా రాలేదేమో."}
+{"f": "dialog", "id": "ko.g180", "k": "tr", "src": "You look cool when you're working. / Out of nowhere? Thank you.", "tgt": "మీరు పని చేస్తుంటే భలే ఉంటారు. / ఉన్నట్టుండి ఇదేంటి? థాంక్సండి."}
+{"f": "dialog", "id": "ko.g181", "k": "tr", "src": "You have a pretty smile. / Thank you. That's the first time I've heard that.", "tgt": "మీ చిరునవ్వు అందంగా ఉంది. / ధన్యవాదాలు. అలాంటి మాట ఇదే మొదటిసారి వింటున్నాను."}
+{"f": "dialog", "id": "ko.g182", "k": "tr", "src": "Your eye smile is really pretty. / Oh, come on, I'm embarrassed.", "tgt": "మీ కళ్ళ నవ్వు నిజంగా అందంగా ఉంది. / ఛ, పో, సిగ్గేస్తోంది."}
+{"f": "dialog", "id": "ko.g183", "k": "tr", "src": "What's the occasion? You actually called. / I just wanted to hear your voice.", "tgt": "ఏంటి విశేషం? ఫోన్ కూడా చేశారు. / ఊరికే, మీ గొంతు వినాలనిపించింది."}
+{"f": "dialog", "id": "ko.g184", "k": "tr", "src": "What do you think of me? / Honestly, you're totally my type.", "tgt": "నేను మీకు ఎలా అనిపిస్తున్నాను? / నిజం చెప్పాలంటే, మీరు పూర్తిగా నా టైప్."}

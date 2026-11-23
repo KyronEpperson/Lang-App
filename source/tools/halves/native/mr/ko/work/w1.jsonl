@@ -1,262 +1,262 @@
-{"f":"course","id":"course","k":"name","src":"Korean","tgt":""}
-{"f":"groups","id":"ko.grp.foundations","k":"name","src":"Foundations","tgt":""}
-{"f":"groups","id":"ko.grp.everyday","k":"name","src":"Everyday","tgt":""}
-{"f":"groups","id":"ko.grp.vocabulary","k":"name","src":"Vocabulary","tgt":""}
-{"f":"groups","id":"ko.grp.grammar","k":"name","src":"Grammar","tgt":""}
-{"f":"groups","id":"ko.grp.social","k":"name","src":"Social","tgt":""}
-{"f":"groups","id":"ko.grp.core-words","k":"name","src":"Core words","tgt":""}
-{"f":"labels","id":"ko.t01","k":"text","src":"Sprout","tgt":""}
-{"f":"labels","id":"ko.t03","k":"text","src":"Student","tgt":""}
-{"f":"labels","id":"ko.t05","k":"text","src":"Senior","tgt":""}
-{"f":"labels","id":"ko.t08","k":"text","src":"Pro","tgt":""}
-{"f":"labels","id":"ko.t12","k":"text","src":"Master","tgt":""}
-{"f":"labels","id":"ko.t16","k":"text","src":"Sensei","tgt":""}
-{"f":"labels","id":"ko.h.night","k":"text","src":"it's late, good work","tgt":""}
-{"f":"labels","id":"ko.h.morning","k":"text","src":"good morning","tgt":""}
-{"f":"labels","id":"ko.h.afternoon","k":"text","src":"good afternoon","tgt":""}
-{"f":"labels","id":"ko.h.evening","k":"text","src":"good evening","tgt":""}
-{"f":"labels","id":"goal.travel","k":"text","src":"Travel & getting around","tgt":""}
-{"f":"labels","id":"goal.social","k":"text","src":"Dating, friends & nights out","tgt":""}
-{"f":"labels","id":"goal.drama","k":"text","src":"K-dramas & music","tgt":""}
-{"f":"labels","id":"goal.work","k":"text","src":"Work & study","tgt":""}
-{"f":"labels","id":"plan.trip","k":"text","src":"Trip to Korea","tgt":""}
-{"f":"labels","id":"plan.social","k":"text","src":"Make friends & date","tgt":""}
-{"f":"labels","id":"plan.conv","k":"text","src":"Conversational in 90 days","tgt":""}
-{"f":"labels","id":"ko.z.compliment","k":"text","src":"compliment","tgt":""}
-{"f":"labels","id":"ko.z.compliment.01","k":"text","src":"You look great / That's cool","tgt":""}
-{"f":"labels","id":"ko.z.compliment.02","k":"text","src":"You're the best","tgt":""}
-{"f":"labels","id":"ko.z.compliment.03","k":"text","src":"That's amazing","tgt":""}
-{"f":"labels","id":"ko.z.compliment.04","k":"text","src":"Well done","tgt":""}
-{"f":"labels","id":"ko.z.compliment.05","k":"text","src":"You've got great taste","tgt":""}
-{"f":"labels","id":"ko.z.compliment.06","k":"text","src":"You're so kind","tgt":""}
-{"f":"labels","id":"ko.z.compliment.07","k":"text","src":"You're smart","tgt":""}
-{"f":"labels","id":"ko.z.compliment.08","k":"text","src":"You're fun","tgt":""}
-{"f":"labels","id":"ko.z.compliment.09","k":"text","src":"Your smile is lovely","tgt":""}
-{"f":"labels","id":"ko.z.compliment.10","k":"text","src":"You have a nice voice","tgt":""}
-{"f":"labels","id":"ko.z.compliment.11","k":"text","src":"You're dependable","tgt":""}
-{"f":"labels","id":"ko.z.compliment.12","k":"text","src":"It suits you","tgt":""}
-{"f":"labels","id":"ko.z.compliment.13","k":"text","src":"I feel supported with you","tgt":""}
-{"f":"labels","id":"ko.z.compliment.14","k":"text","src":"You're awesome","tgt":""}
-{"f":"labels","id":"ko.z.compliment.15","k":"text","src":"You have a great personality","tgt":""}
-{"f":"labels","id":"ko.z.compliment.16","k":"text","src":"Your Korean is good","tgt":""}
-{"f":"labels","id":"ko.z.compliment.17","k":"text","src":"You've got a vibe","tgt":""}
-{"f":"labels","id":"ko.z.compliment.18","k":"text","src":"A warm person","tgt":""}
-{"f":"labels","id":"ko.z.compliment.19","k":"text","src":"I learn a lot from you","tgt":""}
-{"f":"labels","id":"ko.z.compliment.20","k":"text","src":"I feel at ease with you","tgt":""}
-{"f":"labels","id":"ko.z.compliment.21","k":"text","src":"You work so hard","tgt":""}
-{"f":"labels","id":"ko.z.compliment.22","k":"text","src":"You're thoughtful","tgt":""}
-{"f":"labels","id":"ko.z.expression","k":"text","src":"everyday expression","tgt":""}
-{"f":"labels","id":"ko.z.expression.01","k":"text","src":"Really?","tgt":""}
-{"f":"labels","id":"ko.z.expression.02","k":"text","src":"I see","tgt":""}
-{"f":"labels","id":"ko.z.expression.03","k":"text","src":"That's right","tgt":""}
-{"f":"labels","id":"ko.z.expression.04","k":"text","src":"Of course","tgt":""}
-{"f":"labels","id":"ko.z.expression.05","k":"text","src":"Well… I'm not sure","tgt":""}
-{"f":"labels","id":"ko.z.expression.06","k":"text","src":"Maybe","tgt":""}
-{"f":"labels","id":"ko.z.expression.07","k":"text","src":"It's okay","tgt":""}
-{"f":"labels","id":"ko.z.expression.08","k":"text","src":"Got it","tgt":""}
-{"f":"labels","id":"ko.z.expression.09","k":"text","src":"Just a moment","tgt":""}
-{"f":"labels","id":"ko.z.expression.10","k":"text","src":"Please say that again","tgt":""}
-{"f":"labels","id":"ko.z.expression.11","k":"text","src":"Oh no, what do I do","tgt":""}
-{"f":"labels","id":"ko.z.expression.12","k":"text","src":"Awesome / No way","tgt":""}
-{"f":"labels","id":"ko.z.expression.13","k":"text","src":"No wonder","tgt":""}
-{"f":"labels","id":"ko.z.expression.14","k":"text","src":"Surely not","tgt":""}
-{"f":"labels","id":"ko.z.expression.15","k":"text","src":"Obviously","tgt":""}
-{"f":"labels","id":"ko.z.expression.16","k":"text","src":"I know, right","tgt":""}
-{"f":"labels","id":"ko.z.expression.17","k":"text","src":"Oh my","tgt":""}
-{"f":"labels","id":"ko.z.expression.18","k":"text","src":"Of course","tgt":""}
-{"f":"labels","id":"ko.z.expression.19","k":"text","src":"I'm not sure","tgt":""}
-{"f":"labels","id":"ko.z.expression.20","k":"text","src":"Long time no see","tgt":""}
-{"f":"labels","id":"ko.z.expression.21","k":"text","src":"Good work today","tgt":""}
-{"f":"labels","id":"ko.z.expression.22","k":"text","src":"Thanks for the meal (before eating)","tgt":""}
-{"f":"labels","id":"ko.z.expression.23","k":"text","src":"That was delicious (after eating)","tgt":""}
-{"f":"labels","id":"ko.z.expression.24","k":"text","src":"Get home safe","tgt":""}
-{"f":"labels","id":"ko.z.expression.25","k":"text","src":"Have a good day","tgt":""}
-{"f":"labels","id":"ko.z.expression.26","k":"text","src":"What does it mean?","tgt":""}
-{"f":"labels","id":"ko.z.polite","k":"text","src":"polite basics","tgt":""}
-{"f":"labels","id":"ko.z.polite.01","k":"text","src":"Please (give me)","tgt":""}
-{"f":"labels","id":"ko.z.polite.02","k":"text","src":"Please (I'm asking a favor)","tgt":""}
-{"f":"labels","id":"ko.z.polite.03","k":"text","src":"Excuse me / Pardon me","tgt":""}
-{"f":"labels","id":"ko.z.polite.04","k":"text","src":"Excuse me (to get attention)","tgt":""}
-{"f":"labels","id":"ko.z.polite.05","k":"text","src":"Excuse me, one second","tgt":""}
-{"f":"labels","id":"ko.z.polite.06","k":"text","src":"I'm sorry","tgt":""}
-{"f":"labels","id":"ko.z.polite.07","k":"text","src":"Thank you","tgt":""}
-{"f":"labels","id":"ko.z.polite.08","k":"text","src":"Thanks","tgt":""}
-{"f":"labels","id":"ko.z.polite.09","k":"text","src":"You're welcome (lit. 'not at all')","tgt":""}
-{"f":"labels","id":"ko.z.polite.10","k":"text","src":"It's fine / No, thank you","tgt":""}
-{"f":"labels","id":"ko.z.polite.11","k":"text","src":"Hello","tgt":""}
-{"f":"labels","id":"ko.z.polite.12","k":"text","src":"Goodbye (you're staying)","tgt":""}
-{"f":"labels","id":"ko.z.polite.13","k":"text","src":"Goodbye (you're leaving)","tgt":""}
-{"f":"labels","id":"ko.z.polite.14","k":"text","src":"Please help me","tgt":""}
-{"f":"labels","id":"ko.z.polite.15","k":"text","src":"Nice to meet you (first time)","tgt":""}
-{"f":"labels","id":"ko.z.polite.16","k":"text","src":"Nice to meet you","tgt":""}
-{"f":"labels","id":"ko.z.polite.17","k":"text","src":"After you / Go ahead","tgt":""}
-{"f":"labels","id":"ko.z.polite.18","k":"text","src":"Coming through, excuse me","tgt":""}
-{"f":"labels","id":"ko.z.saying","k":"text","src":"saying","tgt":""}
-{"f":"labels","id":"ko.z.saying.01","k":"text","src":"Starting is half the battle","tgt":""}
-{"f":"labels","id":"ko.z.saying.02","k":"text","src":"Dreams come true","tgt":""}
-{"f":"labels","id":"ko.z.saying.03","k":"text","src":"If you try, you can","tgt":""}
-{"f":"labels","id":"ko.z.saying.04","k":"text","src":"Don't give up","tgt":""}
-{"f":"labels","id":"ko.z.saying.05","k":"text","src":"Little by little makes a mountain","tgt":""}
-{"f":"labels","id":"ko.z.saying.06","k":"text","src":"Of all the days! (funny timing)","tgt":""}
-{"f":"labels","id":"ko.z.saying.07","k":"text","src":"A piece of cake","tgt":""}
-{"f":"labels","id":"ko.z.saying.08","k":"text","src":"Even sightseeing comes after eating","tgt":""}
-{"f":"labels","id":"ko.z.saying.09","k":"text","src":"Smile and good luck comes","tgt":""}
-{"f":"labels","id":"ko.z.saying.10","k":"text","src":"After hardship comes joy","tgt":""}
-{"f":"labels","id":"ko.z.saying.11","k":"text","src":"A long journey starts with one step","tgt":""}
-{"f":"labels","id":"ko.z.saying.12","k":"text","src":"Old habits die hard","tgt":""}
-{"f":"labels","id":"ko.z.saying.13","k":"text","src":"Many hands make light work","tgt":""}
-{"f":"labels","id":"ko.z.saying.14","k":"text","src":"Stay strong today","tgt":""}
-{"f":"labels","id":"ko.z.saying.15","k":"text","src":"You can do it","tgt":""}
-{"f":"labels","id":"ko.z.saying.16","k":"text","src":"It's okay, it'll work out","tgt":""}
-{"f":"labels","id":"ko.z.saying.17","k":"text","src":"You only live once","tgt":""}
-{"f":"labels","id":"ko.z.saying.18","k":"text","src":"Slow is okay","tgt":""}
-{"f":"labels","id":"ko.z.saying.19","k":"text","src":"Even monkeys fall from trees","tgt":""}
-{"f":"labels","id":"ko.z.saying.20","k":"text","src":"Kind words can repay a great debt","tgt":""}
-{"f":"labels","id":"ko.i01","k":"text","src":"May all your wishes come true","tgt":""}
-{"f":"labels","id":"ko.i02","k":"text","src":"Killing two birds with one stone","tgt":""}
-{"f":"labels","id":"ko.i03","k":"text","src":"A blessing in disguise — bad luck may turn good","tgt":""}
-{"f":"labels","id":"ko.i04","k":"text","src":"Turning misfortune into good fortune","tgt":""}
-{"f":"labels","id":"ko.i05","k":"text","src":"After bitterness comes sweetness","tgt":""}
-{"f":"labels","id":"ko.i06","k":"text","src":"Great talents bloom late","tgt":""}
-{"f":"labels","id":"ko.i07","k":"text","src":"Be prepared and you'll have no worries","tgt":""}
-{"f":"labels","id":"ko.i08","k":"text","src":"Fall seven times, get up eight","tgt":""}
-{"f":"labels","id":"ko.i09","k":"text","src":"A resolution that lasts three days","tgt":""}
-{"f":"labels","id":"ko.i10","k":"text","src":"Understanding each other without words","tgt":""}
-{"f":"labels","id":"ko.i11","k":"text","src":"Sharing the hard times and the good","tgt":""}
-{"f":"labels","id":"ko.i12","k":"text","src":"Icing on the cake","tgt":""}
-{"f":"labels","id":"ko.i13","k":"text","src":"The more, the better","tgt":""}
-{"f":"labels","id":"ko.i14","k":"text","src":"Getting better day by day","tgt":""}
-{"f":"labels","id":"ko.i15","k":"text","src":"You reap what you sow","tgt":""}
-{"f":"labels","id":"ko.i16","k":"text","src":"Persistence can move mountains","tgt":""}
-{"f":"labels","id":"ko.i17","k":"text","src":"Success earned through hard study","tgt":""}
-{"f":"labels","id":"ko.i18","k":"text","src":"Learning from other people's mistakes","tgt":""}
-{"f":"labels","id":"ko.i19","k":"text","src":"Too much is as bad as too little","tgt":""}
-{"f":"labels","id":"ko.i20","k":"text","src":"Put yourself in their shoes","tgt":""}
-{"f":"labels","id":"ko.i21","k":"text","src":"A match made in heaven","tgt":""}
-{"f":"labels","id":"ko.i22","k":"text","src":"Unwavering, single-hearted devotion","tgt":""}
-{"f":"labels","id":"ko.i23","k":"text","src":"Watching for your chance like a tiger","tgt":""}
-{"f":"labels","id":"ko.i24","k":"text","src":"A friend since childhood","tgt":""}
-{"f":"labels","id":"ko.i25","k":"text","src":"Learn the new by studying the old","tgt":""}
-{"f":"labels","id":"ko.i26","k":"text","src":"Thinking it over carefully","tgt":""}
-{"f":"labels","id":"ko.i27","k":"text","src":"Good is rewarded, evil is punished","tgt":""}
-{"f":"labels","id":"ko.i28","k":"text","src":"In one ear and out the other","tgt":""}
-{"f":"labels","id":"ko.i29","k":"text","src":"Nine times out of ten","tgt":""}
-{"f":"labels","id":"ko.i30","k":"text","src":"Winning every battle","tgt":""}
-{"f":"labels","id":"ko.i31","k":"text","src":"Self-made success","tgt":""}
-{"f":"labels","id":"ko.i32","k":"text","src":"Sticking to your original goal","tgt":""}
-{"f":"labels","id":"ko.d.mydeck","k":"text","src":"Anything you add yourself.","tgt":""}
-{"f":"decks","id":"ko.d.hangul-vowels","k":"label","src":"Hangul vowels","tgt":""}
-{"f":"decks","id":"ko.d.hangul-vowels","k":"desc","src":"The 10 basic vowels — read them and you can sound out any word.","tgt":""}
-{"f":"decks","id":"ko.d.hangul-consonants","k":"label","src":"Hangul consonants","tgt":""}
-{"f":"decks","id":"ko.d.hangul-consonants","k":"desc","src":"The 14 basic consonants and how they change at the end of a syllable.","tgt":""}
-{"f":"decks","id":"ko.d.hangul-advanced","k":"label","src":"Hangul · advanced","tgt":""}
-{"f":"decks","id":"ko.d.hangul-advanced","k":"desc","src":"Tense and aspirated consonants, compound vowels, double finals.","tgt":""}
-{"f":"decks","id":"ko.d.pronunciation-tips","k":"label","src":"Pronunciation tips","tgt":""}
-{"f":"decks","id":"ko.d.pronunciation-tips","k":"desc","src":"The sound rules that make real speech differ from spelling.","tgt":""}
-{"f":"decks","id":"ko.d.survival-phrases","k":"label","src":"Survival phrases","tgt":""}
-{"f":"decks","id":"ko.d.survival-phrases","k":"desc","src":"The 12 lines that get you through a day in Korea.","tgt":""}
-{"f":"decks","id":"ko.d.introductions","k":"label","src":"Introductions","tgt":""}
-{"f":"decks","id":"ko.d.introductions","k":"desc","src":"Name, origin, age, job, hobby — the first-meeting script.","tgt":""}
-{"f":"decks","id":"ko.d.survival-phrases-2","k":"label","src":"Survival phrases 2","tgt":""}
-{"f":"decks","id":"ko.d.survival-phrases-2","k":"desc","src":"Asking for help, repeating, paying, getting un-lost.","tgt":""}
-{"f":"decks","id":"ko.d.asking-around","k":"label","src":"Asking around","tgt":""}
-{"f":"decks","id":"ko.d.asking-around","k":"desc","src":"Bathroom, exits, seats, wifi, opening hours — every where-is question.","tgt":""}
-{"f":"decks","id":"ko.d.cafe-convenience-store","k":"label","src":"Café & convenience store","tgt":""}
-{"f":"decks","id":"ko.d.cafe-convenience-store","k":"desc","src":"Sizes, hot/iced, points cards, heating food, bags.","tgt":""}
-{"f":"decks","id":"ko.d.numbers-in-the-wild","k":"label","src":"Numbers in the wild","tgt":""}
-{"f":"decks","id":"ko.d.numbers-in-the-wild","k":"desc","src":"Prices, phone numbers, floors and times as they're actually written.","tgt":""}
-{"f":"decks","id":"ko.d.counters","k":"label","src":"Counters","tgt":""}
-{"f":"decks","id":"ko.d.counters","k":"desc","src":"How to count things, people, cups, bottles, animals.","tgt":""}
-{"f":"decks","id":"ko.d.weather-feelings","k":"label","src":"Weather & feelings","tgt":""}
-{"f":"decks","id":"ko.d.weather-feelings","k":"desc","src":"Weather talk and how you feel, the two most common openers.","tgt":""}
-{"f":"decks","id":"ko.d.connectors","k":"label","src":"Connectors","tgt":""}
-{"f":"decks","id":"ko.d.connectors","k":"desc","src":"And, so, but, then — glue for telling a story.","tgt":""}
-{"f":"decks","id":"ko.d.doctor-pharmacy","k":"label","src":"Doctor & pharmacy","tgt":""}
-{"f":"decks","id":"ko.d.doctor-pharmacy","k":"desc","src":"Symptoms, medicine, allergies, prescriptions.","tgt":""}
-{"f":"decks","id":"ko.d.housing-errands","k":"label","src":"Housing & errands","tgt":""}
-{"f":"decks","id":"ko.d.housing-errands","k":"desc","src":"Rent, deposits, parcels, recycling, laundry.","tgt":""}
-{"f":"decks","id":"ko.d.honorifics","k":"label","src":"Honorifics","tgt":""}
-{"f":"decks","id":"ko.d.honorifics","k":"desc","src":"Raising the subject: 드시다, 주무시다, 계시다 and -(으)시-.","tgt":""}
-{"f":"decks","id":"ko.d.places-buildings","k":"label","src":"Places & buildings","tgt":""}
-{"f":"decks","id":"ko.d.places-buildings","k":"desc","src":"Café, gym, library, museum, house — the places you say you're going.","tgt":""}
-{"f":"decks","id":"ko.d.hobbies","k":"label","src":"Hobbies","tgt":""}
-{"f":"decks","id":"ko.d.hobbies","k":"desc","src":"Answer 취미가 뭐예요? with the real words.","tgt":""}
-{"f":"decks","id":"ko.d.food-words","k":"label","src":"Food words","tgt":""}
-{"f":"decks","id":"ko.d.food-words","k":"desc","src":"The dishes and ingredients on every menu.","tgt":""}
-{"f":"decks","id":"ko.d.drinks","k":"label","src":"Drinks","tgt":""}
-{"f":"decks","id":"ko.d.drinks","k":"desc","src":"Coffee, tea, soju, beer, and how to order one more.","tgt":""}
-{"f":"decks","id":"ko.d.activities","k":"label","src":"Activities","tgt":""}
-{"f":"decks","id":"ko.d.activities","k":"desc","src":"Everyday 'I do X' verbs in polite form.","tgt":""}
-{"f":"decks","id":"ko.d.tv-entertainment","k":"label","src":"TV & entertainment","tgt":""}
-{"f":"decks","id":"ko.d.tv-entertainment","k":"desc","src":"Dramas, variety shows, genres, episodes, binge-watching.","tgt":""}
-{"f":"decks","id":"ko.d.position-direction-words","k":"label","src":"Position & direction words","tgt":""}
-{"f":"decks","id":"ko.d.position-direction-words","k":"desc","src":"Above, beside, across, exits and floors — placing things and finding them.","tgt":""}
-{"f":"decks","id":"ko.d.core-verbs","k":"label","src":"Core verbs","tgt":""}
-{"f":"decks","id":"ko.d.core-verbs","k":"desc","src":"The 12 verbs you'll use every day, in polite form.","tgt":""}
-{"f":"decks","id":"ko.d.particles","k":"label","src":"Particles","tgt":""}
-{"f":"decks","id":"ko.d.particles","k":"desc","src":"The tags that mark topic, subject, object and place.","tgt":""}
-{"f":"decks","id":"ko.d.numbers","k":"label","src":"Numbers","tgt":""}
-{"f":"decks","id":"ko.d.numbers","k":"desc","src":"Native vs Sino-Korean numbers and when each is used.","tgt":""}
-{"f":"decks","id":"ko.d.sweet-talk","k":"label","src":"Sweet talk","tgt":""}
-{"f":"decks","id":"ko.d.sweet-talk","k":"desc","src":"Cute, pretty, miss you — for someone you're close to.","tgt":""}
-{"f":"decks","id":"ko.d.cute-things-to-say","k":"label","src":"Cute things to say","tgt":""}
-{"f":"decks","id":"ko.d.cute-things-to-say","k":"desc","src":"Compliments and caring lines that land.","tgt":""}
-{"f":"decks","id":"ko.d.flirting","k":"label","src":"Flirting","tgt":""}
-{"f":"decks","id":"ko.d.flirting","k":"desc","src":"Getting a number, asking out, saying how you feel.","tgt":""}
-{"f":"decks","id":"ko.d.casual-texting","k":"label","src":"Casual texting","tgt":""}
-{"f":"decks","id":"ko.d.casual-texting","k":"desc","src":"KakaoTalk shorthand and the lines friends actually send.","tgt":""}
-{"f":"decks","id":"ko.d.hype-cool","k":"label","src":"Hype & cool","tgt":""}
-{"f":"decks","id":"ko.d.hype-cool","k":"desc","src":"Compliments, encouragement and slang for friends.","tgt":""}
-{"f":"decks","id":"ko.d.hanging-out","k":"label","src":"Hanging out","tgt":""}
-{"f":"decks","id":"ko.d.hanging-out","k":"desc","src":"Inviting, planning where and when, wrapping up.","tgt":""}
-{"f":"decks","id":"ko.d.k-pop-fan-culture","k":"label","src":"K-pop & fan culture","tgt":""}
-{"f":"decks","id":"ko.d.k-pop-fan-culture","k":"desc","src":"Fandom vocabulary from 최애 to 떼창.","tgt":""}
-{"f":"decks","id":"ko.d.social-media-slang","k":"label","src":"Social media & slang","tgt":""}
-{"f":"decks","id":"ko.d.social-media-slang","k":"desc","src":"Instagram, memes, and the slang of the moment.","tgt":""}
-{"f":"decks","id":"ko.d.dating-deeper","k":"label","src":"Dating deeper","tgt":""}
-{"f":"decks","id":"ko.d.dating-deeper","k":"desc","src":"Defining the relationship, real compliments, apologizing, reassurance.","tgt":""}
-{"f":"decks","id":"ko.d.work-office","k":"label","src":"Work & office","tgt":""}
-{"f":"decks","id":"ko.d.work-office","k":"desc","src":"Meetings, deadlines, asking colleagues, leaving on time, 회식.","tgt":""}
-{"f":"decks","id":"ko.d.small-talk","k":"label","src":"Small talk","tgt":""}
-{"f":"decks","id":"ko.d.small-talk","k":"desc","src":"Catching up, weather, weekend plans, goodbyes done right.","tgt":""}
-{"f":"decks","id":"ko.d.food-ordering","k":"label","src":"Food & ordering","tgt":""}
-{"f":"decks","id":"ko.d.food-ordering","k":"desc","src":"Ordering, counters for food, the two meal phrases.","tgt":""}
-{"f":"decks","id":"ko.d.directions-transport","k":"label","src":"Directions & transport","tgt":""}
-{"f":"decks","id":"ko.d.directions-transport","k":"desc","src":"Left/right/straight, subway, bus, taxi lines.","tgt":""}
-{"f":"decks","id":"ko.d.time-days","k":"label","src":"Time & days","tgt":""}
-{"f":"decks","id":"ko.d.time-days","k":"desc","src":"Today/tomorrow, days of the week, what time is it.","tgt":""}
-{"f":"decks","id":"ko.d.family-people","k":"label","src":"Family & people","tgt":""}
-{"f":"decks","id":"ko.d.family-people","k":"desc","src":"Mom, dad, siblings, friends, teacher, and how age changes the word.","tgt":""}
-{"f":"decks","id":"ko.d.adjectives","k":"label","src":"Adjectives","tgt":""}
-{"f":"decks","id":"ko.d.adjectives","k":"desc","src":"Good, bad, big, small, hot, cold, busy, fun.","tgt":""}
-{"f":"decks","id":"ko.d.k-drama-phrases","k":"label","src":"K-drama phrases","tgt":""}
-{"f":"decks","id":"ko.d.k-drama-phrases","k":"desc","src":"Reactions and lines you'll hear in every episode.","tgt":""}
-{"f":"decks","id":"ko.d.top-nouns","k":"label","src":"Top nouns","tgt":""}
-{"f":"decks","id":"ko.d.top-nouns","k":"desc","src":"The most-used Korean nouns the course doesn't teach yet, most frequent first.","tgt":""}
-{"f":"decks","id":"ko.d.top-verbs","k":"label","src":"Top verbs","tgt":""}
-{"f":"decks","id":"ko.d.top-verbs","k":"desc","src":"Action verbs in dictionary form; the note gives the 해요 form and flags irregular verbs.","tgt":""}
-{"f":"decks","id":"ko.d.top-adjectives","k":"label","src":"Top adjectives","tgt":""}
-{"f":"decks","id":"ko.d.top-adjectives","k":"desc","src":"Descriptive verbs (Korean adjectives are verbs): the 해요 form and the form before a noun.","tgt":""}
-{"f":"decks","id":"ko.d.top-adverbs","k":"label","src":"Top adverbs","tgt":""}
-{"f":"decks","id":"ko.d.top-adverbs","k":"desc","src":"Time, degree, frequency and manner words: very, already, often, why, how.","tgt":""}
-{"f":"decks","id":"ko.d.top-pronouns","k":"label","src":"Top pronouns","tgt":""}
-{"f":"decks","id":"ko.d.top-pronouns","k":"desc","src":"I, you, this one, who, nobody, and why names and titles usually replace 'you'.","tgt":""}
-{"f":"decks","id":"ko.d.top-particles","k":"label","src":"Top particles","tgt":""}
-{"f":"decks","id":"ko.d.top-particles","k":"desc","src":"Korean's answer to prepositions: the particles beyond the nine in the Particles deck.","tgt":""}
-{"f":"decks","id":"ko.d.top-connectors","k":"label","src":"Top connectors","tgt":""}
-{"f":"decks","id":"ko.d.top-connectors","k":"desc","src":"Joining endings (-고, -지만, -아서, -(으)면 …) shown on a verb, plus linking words not in Connectors.","tgt":""}
-{"f":"decks","id":"ko.d.top-interjections","k":"label","src":"Top interjections","tgt":""}
-{"f":"decks","id":"ko.d.top-interjections","k":"desc","src":"What Koreans really exclaim: wow, ouch, oops, phew, ta-da, and who says each one.","tgt":""}
-{"f":"decks","id":"ko.d.top-words","k":"label","src":"Top words","tgt":""}
-{"f":"decks","id":"ko.d.top-words","k":"desc","src":"This / that / which before a noun, number forms, days and times, and ways to say yes and no.","tgt":""}
-{"f":"decks","id":"ko.d.top-counters","k":"label","src":"Top counters","tgt":""}
-{"f":"decks","id":"ko.d.top-counters","k":"desc","src":"Counters missing from the Counters deck: cars, portions, rolls, slices, minutes, months.","tgt":""}
-{"f":"decks","id":"ko.d.flirting-words","k":"label","src":"Flirting words","tgt":""}
-{"f":"decks","id":"ko.d.flirting-words","k":"desc","src":"The words Koreans flirt with, phrases built from them, and kind ways to say yes or no.","tgt":""}
-{"f":"decks","id":"ko.d.compliments","k":"label","src":"Compliments","tgt":""}
-{"f":"decks","id":"ko.d.compliments","k":"desc","src":"Everyday praise for food, work, homes and children, and the modest ways to answer it.","tgt":""}
-{"f":"decks","id":"ko.d.countries","k":"label","src":"Countries","tgt":""}
-{"f":"decks","id":"ko.d.countries","k":"desc","src":"Every country, most-asked first. Country + 에서 왔어요 = I'm from…; + 사람 = nationality; + 어 = language.","tgt":""}
+{"f":"course","id":"course","k":"name","src":"Korean","tgt":"कोरियन"}
+{"f":"groups","id":"ko.grp.foundations","k":"name","src":"Foundations","tgt":"मूलभूत"}
+{"f":"groups","id":"ko.grp.everyday","k":"name","src":"Everyday","tgt":"रोजचं"}
+{"f":"groups","id":"ko.grp.vocabulary","k":"name","src":"Vocabulary","tgt":"शब्दसंग्रह"}
+{"f":"groups","id":"ko.grp.grammar","k":"name","src":"Grammar","tgt":"व्याकरण"}
+{"f":"groups","id":"ko.grp.social","k":"name","src":"Social","tgt":"सामाजिक"}
+{"f":"groups","id":"ko.grp.core-words","k":"name","src":"Core words","tgt":"नेहमीचे शब्द"}
+{"f":"labels","id":"ko.t01","k":"text","src":"Sprout","tgt":"अंकुर"}
+{"f":"labels","id":"ko.t03","k":"text","src":"Student","tgt":"विद्यार्थी"}
+{"f":"labels","id":"ko.t05","k":"text","src":"Senior","tgt":"सीनियर"}
+{"f":"labels","id":"ko.t08","k":"text","src":"Pro","tgt":"प्रो"}
+{"f":"labels","id":"ko.t12","k":"text","src":"Master","tgt":"उस्ताद"}
+{"f":"labels","id":"ko.t16","k":"text","src":"Sensei","tgt":"सेन्सेई"}
+{"f":"labels","id":"ko.h.night","k":"text","src":"it's late, good work","tgt":"उशीर झाला, छान मेहनत"}
+{"f":"labels","id":"ko.h.morning","k":"text","src":"good morning","tgt":"सुप्रभात"}
+{"f":"labels","id":"ko.h.afternoon","k":"text","src":"good afternoon","tgt":"शुभ दुपार"}
+{"f":"labels","id":"ko.h.evening","k":"text","src":"good evening","tgt":"शुभ संध्याकाळ"}
+{"f":"labels","id":"goal.travel","k":"text","src":"Travel & getting around","tgt":"प्रवास आणि फिरणं"}
+{"f":"labels","id":"goal.social","k":"text","src":"Dating, friends & nights out","tgt":"डेटिंग, मित्र आणि बाहेर फिरणं"}
+{"f":"labels","id":"goal.drama","k":"text","src":"K-dramas & music","tgt":"के-ड्रामा आणि संगीत"}
+{"f":"labels","id":"goal.work","k":"text","src":"Work & study","tgt":"काम आणि शिक्षण"}
+{"f":"labels","id":"plan.trip","k":"text","src":"Trip to Korea","tgt":"कोरियाची ट्रिप"}
+{"f":"labels","id":"plan.social","k":"text","src":"Make friends & date","tgt":"मित्र आणि डेटिंग"}
+{"f":"labels","id":"plan.conv","k":"text","src":"Conversational in 90 days","tgt":"90 दिवसांत संभाषण"}
+{"f":"labels","id":"ko.z.compliment","k":"text","src":"compliment","tgt":"कौतुक"}
+{"f":"labels","id":"ko.z.compliment.01","k":"text","src":"You look great / That's cool","tgt":"मस्त! / छान दिसताय"}
+{"f":"labels","id":"ko.z.compliment.02","k":"text","src":"You're the best","tgt":"तुम्ही बेस्ट आहात"}
+{"f":"labels","id":"ko.z.compliment.03","k":"text","src":"That's amazing","tgt":"कमाल आहे!"}
+{"f":"labels","id":"ko.z.compliment.04","k":"text","src":"Well done","tgt":"छान केलंत"}
+{"f":"labels","id":"ko.z.compliment.05","k":"text","src":"You've got great taste","tgt":"तुमची निवड छान आहे"}
+{"f":"labels","id":"ko.z.compliment.06","k":"text","src":"You're so kind","tgt":"किती दयाळूपणा तुमचा!"}
+{"f":"labels","id":"ko.z.compliment.07","k":"text","src":"You're smart","tgt":"तुम्ही हुशार आहात"}
+{"f":"labels","id":"ko.z.compliment.08","k":"text","src":"You're fun","tgt":"तुमच्यासोबत मजा येते"}
+{"f":"labels","id":"ko.z.compliment.09","k":"text","src":"Your smile is lovely","tgt":"तुमचं हसू सुंदर आहे"}
+{"f":"labels","id":"ko.z.compliment.10","k":"text","src":"You have a nice voice","tgt":"तुमचा आवाज छान आहे"}
+{"f":"labels","id":"ko.z.compliment.11","k":"text","src":"You're dependable","tgt":"तुमच्यावर विश्वास ठेवता येतो"}
+{"f":"labels","id":"ko.z.compliment.12","k":"text","src":"It suits you","tgt":"तुम्हाला शोभून दिसतंय"}
+{"f":"labels","id":"ko.z.compliment.13","k":"text","src":"I feel supported with you","tgt":"तुमच्यामुळे आधार वाटतो"}
+{"f":"labels","id":"ko.z.compliment.14","k":"text","src":"You're awesome","tgt":"तुम्ही एकदम भारी आहात"}
+{"f":"labels","id":"ko.z.compliment.15","k":"text","src":"You have a great personality","tgt":"तुमचा स्वभाव छान आहे"}
+{"f":"labels","id":"ko.z.compliment.16","k":"text","src":"Your Korean is good","tgt":"तुम्ही छान कोरियन बोलता"}
+{"f":"labels","id":"ko.z.compliment.17","k":"text","src":"You've got a vibe","tgt":"तुमच्यात एक वेगळीच छाप आहे"}
+{"f":"labels","id":"ko.z.compliment.18","k":"text","src":"A warm person","tgt":"मायाळू माणूस"}
+{"f":"labels","id":"ko.z.compliment.19","k":"text","src":"I learn a lot from you","tgt":"तुमच्याकडून खूप शिकण्यासारखं आहे"}
+{"f":"labels","id":"ko.z.compliment.20","k":"text","src":"I feel at ease with you","tgt":"तुमच्यासोबत निवांत वाटतं"}
+{"f":"labels","id":"ko.z.compliment.21","k":"text","src":"You work so hard","tgt":"तुम्ही खूप मेहनत घेता"}
+{"f":"labels","id":"ko.z.compliment.22","k":"text","src":"You're thoughtful","tgt":"तुमचे विचार खोल आहेत"}
+{"f":"labels","id":"ko.z.expression","k":"text","src":"everyday expression","tgt":"रोजचे शब्दप्रयोग"}
+{"f":"labels","id":"ko.z.expression.01","k":"text","src":"Really?","tgt":"खरंच?"}
+{"f":"labels","id":"ko.z.expression.02","k":"text","src":"I see","tgt":"अच्छा, असं आहे तर"}
+{"f":"labels","id":"ko.z.expression.03","k":"text","src":"That's right","tgt":"बरोबर"}
+{"f":"labels","id":"ko.z.expression.04","k":"text","src":"Of course","tgt":"हो तर!"}
+{"f":"labels","id":"ko.z.expression.05","k":"text","src":"Well… I'm not sure","tgt":"हम्म… सांगता येत नाही"}
+{"f":"labels","id":"ko.z.expression.06","k":"text","src":"Maybe","tgt":"कदाचित"}
+{"f":"labels","id":"ko.z.expression.07","k":"text","src":"It's okay","tgt":"ठीक आहे / काही हरकत नाही"}
+{"f":"labels","id":"ko.z.expression.08","k":"text","src":"Got it","tgt":"समजलं"}
+{"f":"labels","id":"ko.z.expression.09","k":"text","src":"Just a moment","tgt":"एक मिनिट"}
+{"f":"labels","id":"ko.z.expression.10","k":"text","src":"Please say that again","tgt":"पुन्हा सांगा ना"}
+{"f":"labels","id":"ko.z.expression.11","k":"text","src":"Oh no, what do I do","tgt":"आता काय करू?"}
+{"f":"labels","id":"ko.z.expression.12","k":"text","src":"Awesome / No way","tgt":"भारी! / बापरे!"}
+{"f":"labels","id":"ko.z.expression.13","k":"text","src":"No wonder","tgt":"तरीच!"}
+{"f":"labels","id":"ko.z.expression.14","k":"text","src":"Surely not","tgt":"छे, असं कसं होईल?"}
+{"f":"labels","id":"ko.z.expression.15","k":"text","src":"Obviously","tgt":"साहजिकच"}
+{"f":"labels","id":"ko.z.expression.16","k":"text","src":"I know, right","tgt":"हो ना!"}
+{"f":"labels","id":"ko.z.expression.17","k":"text","src":"Oh my","tgt":"अरे देवा"}
+{"f":"labels","id":"ko.z.expression.18","k":"text","src":"Of course","tgt":"अर्थातच"}
+{"f":"labels","id":"ko.z.expression.19","k":"text","src":"I'm not sure","tgt":"मला नक्की माहीत नाही"}
+{"f":"labels","id":"ko.z.expression.20","k":"text","src":"Long time no see","tgt":"खूप दिवसांनी भेट होतेय"}
+{"f":"labels","id":"ko.z.expression.21","k":"text","src":"Good work today","tgt":"आजच्या मेहनतीबद्दल धन्यवाद"}
+{"f":"labels","id":"ko.z.expression.22","k":"text","src":"Thanks for the meal (before eating)","tgt":"जेवणासाठी धन्यवाद (जेवण्याआधी)"}
+{"f":"labels","id":"ko.z.expression.23","k":"text","src":"That was delicious (after eating)","tgt":"जेवण छान झालं, धन्यवाद (जेवणानंतर)"}
+{"f":"labels","id":"ko.z.expression.24","k":"text","src":"Get home safe","tgt":"सांभाळून जा"}
+{"f":"labels","id":"ko.z.expression.25","k":"text","src":"Have a good day","tgt":"तुमचा दिवस छान जावो"}
+{"f":"labels","id":"ko.z.expression.26","k":"text","src":"What does it mean?","tgt":"याचा अर्थ काय?"}
+{"f":"labels","id":"ko.z.polite","k":"text","src":"polite basics","tgt":"सभ्य शब्द"}
+{"f":"labels","id":"ko.z.polite.01","k":"text","src":"Please (give me)","tgt":"द्या"}
+{"f":"labels","id":"ko.z.polite.02","k":"text","src":"Please (I'm asking a favor)","tgt":"प्लीज, एवढं करा (विनंती)"}
+{"f":"labels","id":"ko.z.polite.03","k":"text","src":"Excuse me / Pardon me","tgt":"एक्सक्यूज मी / माफ असावं"}
+{"f":"labels","id":"ko.z.polite.04","k":"text","src":"Excuse me (to get attention)","tgt":"अहो, जरा ऐका"}
+{"f":"labels","id":"ko.z.polite.05","k":"text","src":"Excuse me, one second","tgt":"एक मिनिट"}
+{"f":"labels","id":"ko.z.polite.06","k":"text","src":"I'm sorry","tgt":"माफ करा"}
+{"f":"labels","id":"ko.z.polite.07","k":"text","src":"Thank you","tgt":"धन्यवाद"}
+{"f":"labels","id":"ko.z.polite.08","k":"text","src":"Thanks","tgt":"थँक यू"}
+{"f":"labels","id":"ko.z.polite.09","k":"text","src":"You're welcome (lit. 'not at all')","tgt":"त्यात काय! (शब्दशः \"नाही हो\")"}
+{"f":"labels","id":"ko.z.polite.10","k":"text","src":"It's fine / No, thank you","tgt":"काही हरकत नाही / नको, ठीक आहे"}
+{"f":"labels","id":"ko.z.polite.11","k":"text","src":"Hello","tgt":"नमस्कार"}
+{"f":"labels","id":"ko.z.polite.12","k":"text","src":"Goodbye (you're staying)","tgt":"काळजी घ्या (थांबणाऱ्याला)"}
+{"f":"labels","id":"ko.z.polite.13","k":"text","src":"Goodbye (you're leaving)","tgt":"सावकाश जा (जाणाऱ्याला)"}
+{"f":"labels","id":"ko.z.polite.14","k":"text","src":"Please help me","tgt":"मदत करा"}
+{"f":"labels","id":"ko.z.polite.15","k":"text","src":"Nice to meet you (first time)","tgt":"आपण पहिल्यांदाच भेटत आहोत"}
+{"f":"labels","id":"ko.z.polite.16","k":"text","src":"Nice to meet you","tgt":"तुम्हाला भेटून आनंद झाला"}
+{"f":"labels","id":"ko.z.polite.17","k":"text","src":"After you / Go ahead","tgt":"तुम्ही आधी जा"}
+{"f":"labels","id":"ko.z.polite.18","k":"text","src":"Coming through, excuse me","tgt":"जरा वाट द्या, मी पुढे जाईन"}
+{"f":"labels","id":"ko.z.saying","k":"text","src":"saying","tgt":"सुविचार"}
+{"f":"labels","id":"ko.z.saying.01","k":"text","src":"Starting is half the battle","tgt":"सुरुवात केली की अर्धं काम झालं"}
+{"f":"labels","id":"ko.z.saying.02","k":"text","src":"Dreams come true","tgt":"स्वप्नं खरी होतात"}
+{"f":"labels","id":"ko.z.saying.03","k":"text","src":"If you try, you can","tgt":"प्रयत्नांती परमेश्वर"}
+{"f":"labels","id":"ko.z.saying.04","k":"text","src":"Don't give up","tgt":"हार मानू नकोस"}
+{"f":"labels","id":"ko.z.saying.05","k":"text","src":"Little by little makes a mountain","tgt":"थेंबे थेंबे तळे साचे"}
+{"f":"labels","id":"ko.z.saying.06","k":"text","src":"Of all the days! (funny timing)","tgt":"नेमकं आजच व्हायचं होतं! (वेळ चुकल्याची गंमत)"}
+{"f":"labels","id":"ko.z.saying.07","k":"text","src":"A piece of cake","tgt":"डाव्या हाताचा मळ"}
+{"f":"labels","id":"ko.z.saying.08","k":"text","src":"Even sightseeing comes after eating","tgt":"आधी पोटोबा, मग विठोबा"}
+{"f":"labels","id":"ko.z.saying.09","k":"text","src":"Smile and good luck comes","tgt":"हसत राहा, नशीब साथ देईल"}
+{"f":"labels","id":"ko.z.saying.10","k":"text","src":"After hardship comes joy","tgt":"कष्टानंतर सुख येतं"}
+{"f":"labels","id":"ko.z.saying.11","k":"text","src":"A long journey starts with one step","tgt":"हजार मैलांचा प्रवासही एका पावलाने सुरू होतो"}
+{"f":"labels","id":"ko.z.saying.12","k":"text","src":"Old habits die hard","tgt":"जित्याची खोड मेल्याशिवाय जात नाही"}
+{"f":"labels","id":"ko.z.saying.13","k":"text","src":"Many hands make light work","tgt":"अनेक हात लागले की काम हलकं होतं"}
+{"f":"labels","id":"ko.z.saying.14","k":"text","src":"Stay strong today","tgt":"आजही हिंमत ठेवा"}
+{"f":"labels","id":"ko.z.saying.15","k":"text","src":"You can do it","tgt":"तुला जमेल!"}
+{"f":"labels","id":"ko.z.saying.16","k":"text","src":"It's okay, it'll work out","tgt":"ठीक आहे, सगळं नीट होईल"}
+{"f":"labels","id":"ko.z.saying.17","k":"text","src":"You only live once","tgt":"आयुष्य एकदाच मिळतं"}
+{"f":"labels","id":"ko.z.saying.18","k":"text","src":"Slow is okay","tgt":"हळू चाललं तरी चालेल"}
+{"f":"labels","id":"ko.z.saying.19","k":"text","src":"Even monkeys fall from trees","tgt":"माकडंही झाडावरून पडतात"}
+{"f":"labels","id":"ko.z.saying.20","k":"text","src":"Kind words can repay a great debt","tgt":"एका गोड शब्दाने मोठं कर्जही फिटतं"}
+{"f":"labels","id":"ko.i01","k":"text","src":"May all your wishes come true","tgt":"सगळ्या इच्छा पूर्ण होवोत"}
+{"f":"labels","id":"ko.i02","k":"text","src":"Killing two birds with one stone","tgt":"एका दगडात दोन पक्षी"}
+{"f":"labels","id":"ko.i03","k":"text","src":"A blessing in disguise — bad luck may turn good","tgt":"जे होतं ते भल्यासाठीच: दुर्दैवातूनही भलं होऊ शकतं"}
+{"f":"labels","id":"ko.i04","k":"text","src":"Turning misfortune into good fortune","tgt":"संकटाचं संधीत रूपांतर"}
+{"f":"labels","id":"ko.i05","k":"text","src":"After bitterness comes sweetness","tgt":"आधी कष्ट, मग गोड फळ"}
+{"f":"labels","id":"ko.i06","k":"text","src":"Great talents bloom late","tgt":"मोठं यश उशिरा मिळतं"}
+{"f":"labels","id":"ko.i07","k":"text","src":"Be prepared and you'll have no worries","tgt":"तयारी असेल तर चिंता नाही"}
+{"f":"labels","id":"ko.i08","k":"text","src":"Fall seven times, get up eight","tgt":"सात वेळा पडा, आठव्यांदा उठा"}
+{"f":"labels","id":"ko.i09","k":"text","src":"A resolution that lasts three days","tgt":"तीन दिवसांचा निश्चय (नव्याचे नऊ दिवस)"}
+{"f":"labels","id":"ko.i10","k":"text","src":"Understanding each other without words","tgt":"न बोलताच एकमेकांना समजणं"}
+{"f":"labels","id":"ko.i11","k":"text","src":"Sharing the hard times and the good","tgt":"सुखदुःखात एकमेकांची साथ"}
+{"f":"labels","id":"ko.i12","k":"text","src":"Icing on the cake","tgt":"दुधात साखर"}
+{"f":"labels","id":"ko.i13","k":"text","src":"The more, the better","tgt":"जितकं जास्त, तितकं चांगलं"}
+{"f":"labels","id":"ko.i14","k":"text","src":"Getting better day by day","tgt":"दिवसेंदिवस प्रगती"}
+{"f":"labels","id":"ko.i15","k":"text","src":"You reap what you sow","tgt":"जसं पेराल तसं उगवेल"}
+{"f":"labels","id":"ko.i16","k":"text","src":"Persistence can move mountains","tgt":"चिकाटीने डोंगरही हलतो"}
+{"f":"labels","id":"ko.i17","k":"text","src":"Success earned through hard study","tgt":"कष्टाने अभ्यास करून मिळवलेलं यश"}
+{"f":"labels","id":"ko.i18","k":"text","src":"Learning from other people's mistakes","tgt":"दुसऱ्यांच्या चुकांतून शिकणं"}
+{"f":"labels","id":"ko.i19","k":"text","src":"Too much is as bad as too little","tgt":"अति तिथे माती"}
+{"f":"labels","id":"ko.i20","k":"text","src":"Put yourself in their shoes","tgt":"दुसऱ्याच्या जागी स्वतःला ठेवून पाहणं"}
+{"f":"labels","id":"ko.i21","k":"text","src":"A match made in heaven","tgt":"स्वर्गात जुळलेली जोडी"}
+{"f":"labels","id":"ko.i22","k":"text","src":"Unwavering, single-hearted devotion","tgt":"अढळ, एकनिष्ठ भक्ती"}
+{"f":"labels","id":"ko.i23","k":"text","src":"Watching for your chance like a tiger","tgt":"वाघासारखी संधीची वाट पाहणं"}
+{"f":"labels","id":"ko.i24","k":"text","src":"A friend since childhood","tgt":"बालमित्र (लंगोटी यार)"}
+{"f":"labels","id":"ko.i25","k":"text","src":"Learn the new by studying the old","tgt":"जुनं शिकून नवं जाणणं"}
+{"f":"labels","id":"ko.i26","k":"text","src":"Thinking it over carefully","tgt":"खोलवर, नीट विचार करणं"}
+{"f":"labels","id":"ko.i27","k":"text","src":"Good is rewarded, evil is punished","tgt":"चांगल्याला बक्षीस, वाइटाला शिक्षा"}
+{"f":"labels","id":"ko.i28","k":"text","src":"In one ear and out the other","tgt":"एका कानाने ऐकून दुसऱ्याने सोडून देणं"}
+{"f":"labels","id":"ko.i29","k":"text","src":"Nine times out of ten","tgt":"दहापैकी नऊ वेळा"}
+{"f":"labels","id":"ko.i30","k":"text","src":"Winning every battle","tgt":"प्रत्येक लढाईत विजय"}
+{"f":"labels","id":"ko.i31","k":"text","src":"Self-made success","tgt":"स्वकष्टाने मिळवलेलं यश"}
+{"f":"labels","id":"ko.i32","k":"text","src":"Sticking to your original goal","tgt":"सुरुवातीच्या ध्येयाशी ठाम राहणं"}
+{"f":"labels","id":"ko.d.mydeck","k":"text","src":"Anything you add yourself.","tgt":"तुम्ही स्वतः जोडलेलं सगळं."}
+{"f":"decks","id":"ko.d.hangul-vowels","k":"label","src":"Hangul vowels","tgt":"हांगुल स्वर"}
+{"f":"decks","id":"ko.d.hangul-vowels","k":"desc","src":"The 10 basic vowels — read them and you can sound out any word.","tgt":"10 मूलभूत स्वर: हे वाचता आले की कोणताही शब्द उच्चारता येतो. रोमन लिपीत a म्हणजे नेहमी \"आ\"; eo हा एकच स्वर, \"अ\"च्या जवळचा, पण जबडा थोडा खाली आणि ओठ गोल नाहीत (\"यो\" नाही); eu म्हणजे ओठ पसरवून म्हटलेला \"उ\"; ae आणि e दोन्ही \"ए\", मराठी \"ऐ\" नाही."}
+{"f":"decks","id":"ko.d.hangul-consonants","k":"label","src":"Hangul consonants","tgt":"हांगुल व्यंजनं"}
+{"f":"decks","id":"ko.d.hangul-consonants","k":"desc","src":"The 14 basic consonants and how they change at the end of a syllable.","tgt":"14 मूलभूत व्यंजनं आणि अक्षराच्या शेवटी ती कशी बदलतात. रोमन लिपीत k, t, p, ch = ख, थ, फ, छ (हवेसह); g, d, b, j सुरुवातीला हलके ग, द, ब, ज; t, d म्हणजे त / द, ट / ड नाहीत; r दोन स्वरांमध्ये हलका र, शेवटचा l साफ ल (ळ नाही); ng म्हणजे \"अंग\"मधला ङ."}
+{"f":"decks","id":"ko.d.hangul-advanced","k":"label","src":"Hangul · advanced","tgt":"हांगुल: पुढचा टप्पा"}
+{"f":"decks","id":"ko.d.hangul-advanced","k":"desc","src":"Tense and aspirated consonants, compound vowels, double finals.","tgt":"ताणलेली आणि महाप्राण व्यंजनं, जोडस्वर, दुहेरी अंतिम व्यंजनं. रोमन लिपीतली दुहेरी अक्षरं kk, tt, pp, ss, jj म्हणजे ताणलेली व्यंजनं: हवा नाही, घसा घट्ट, पण उच्चार लांब नाही."}
+{"f":"decks","id":"ko.d.pronunciation-tips","k":"label","src":"Pronunciation tips","tgt":"उच्चाराच्या टिप्स"}
+{"f":"decks","id":"ko.d.pronunciation-tips","k":"desc","src":"The sound rules that make real speech differ from spelling.","tgt":"प्रत्यक्ष बोलणं लिखाणापेक्षा वेगळं का ऐकू येतं, याचे उच्चारनियम."}
+{"f":"decks","id":"ko.d.survival-phrases","k":"label","src":"Survival phrases","tgt":"अत्यावश्यक वाक्यं"}
+{"f":"decks","id":"ko.d.survival-phrases","k":"desc","src":"The 12 lines that get you through a day in Korea.","tgt":"कोरियात एक दिवस निभावून नेणारी 12 वाक्यं."}
+{"f":"decks","id":"ko.d.introductions","k":"label","src":"Introductions","tgt":"ओळख"}
+{"f":"decks","id":"ko.d.introductions","k":"desc","src":"Name, origin, age, job, hobby — the first-meeting script.","tgt":"नाव, देश, वय, काम, छंद: पहिल्या भेटीची स्क्रिप्ट."}
+{"f":"decks","id":"ko.d.survival-phrases-2","k":"label","src":"Survival phrases 2","tgt":"अत्यावश्यक वाक्यं 2"}
+{"f":"decks","id":"ko.d.survival-phrases-2","k":"desc","src":"Asking for help, repeating, paying, getting un-lost.","tgt":"मदत मागणं, पुन्हा सांगायला सांगणं, पैसे देणं, हरवल्यावर रस्ता शोधणं."}
+{"f":"decks","id":"ko.d.asking-around","k":"label","src":"Asking around","tgt":"चौकशी"}
+{"f":"decks","id":"ko.d.asking-around","k":"desc","src":"Bathroom, exits, seats, wifi, opening hours — every where-is question.","tgt":"टॉयलेट, एक्झिट, जागा, वायफाय, उघडण्याच्या वेळा: \"कुठे आहे?\" चे सगळे प्रश्न."}
+{"f":"decks","id":"ko.d.cafe-convenience-store","k":"label","src":"Café & convenience store","tgt":"कॅफे आणि कन्व्हिनियन्स स्टोअर"}
+{"f":"decks","id":"ko.d.cafe-convenience-store","k":"desc","src":"Sizes, hot/iced, points cards, heating food, bags.","tgt":"साइज, गरम / थंड, पॉइंट्स कार्ड, जेवण गरम करणं, पिशव्या."}
+{"f":"decks","id":"ko.d.numbers-in-the-wild","k":"label","src":"Numbers in the wild","tgt":"रोजच्या वापरातले आकडे"}
+{"f":"decks","id":"ko.d.numbers-in-the-wild","k":"desc","src":"Prices, phone numbers, floors and times as they're actually written.","tgt":"किमती, फोन नंबर, मजले आणि वेळा, प्रत्यक्ष जशा लिहिलेल्या असतात तशा."}
+{"f":"decks","id":"ko.d.counters","k":"label","src":"Counters","tgt":"मोजणी शब्द"}
+{"f":"decks","id":"ko.d.counters","k":"desc","src":"How to count things, people, cups, bottles, animals.","tgt":"वस्तू, माणसं, कप, बाटल्या, प्राणी कसे मोजायचे."}
+{"f":"decks","id":"ko.d.weather-feelings","k":"label","src":"Weather & feelings","tgt":"हवामान आणि भावना"}
+{"f":"decks","id":"ko.d.weather-feelings","k":"desc","src":"Weather talk and how you feel, the two most common openers.","tgt":"हवामान आणि तुम्हाला कसं वाटतंय: गप्पांची सगळ्यात नेहमीची सुरुवात."}
+{"f":"decks","id":"ko.d.connectors","k":"label","src":"Connectors","tgt":"जोडशब्द"}
+{"f":"decks","id":"ko.d.connectors","k":"desc","src":"And, so, but, then — glue for telling a story.","tgt":"आणि, म्हणून, पण, मग: गोष्ट सांगताना वाक्यं जोडणारे शब्द."}
+{"f":"decks","id":"ko.d.doctor-pharmacy","k":"label","src":"Doctor & pharmacy","tgt":"डॉक्टर आणि औषधं"}
+{"f":"decks","id":"ko.d.doctor-pharmacy","k":"desc","src":"Symptoms, medicine, allergies, prescriptions.","tgt":"लक्षणं, औषधं, ॲलर्जी, प्रिस्क्रिप्शन."}
+{"f":"decks","id":"ko.d.housing-errands","k":"label","src":"Housing & errands","tgt":"घर आणि रोजची कामं"}
+{"f":"decks","id":"ko.d.housing-errands","k":"desc","src":"Rent, deposits, parcels, recycling, laundry.","tgt":"भाडं, डिपॉझिट, पार्सल, कचऱ्याचं वर्गीकरण, लॉन्ड्री."}
+{"f":"decks","id":"ko.d.honorifics","k":"label","src":"Honorifics","tgt":"आदरार्थी रूपं"}
+{"f":"decks","id":"ko.d.honorifics","k":"desc","src":"Raising the subject: 드시다, 주무시다, 계시다 and -(으)시-.","tgt":"कर्त्याबद्दल आदर: 드시다, 주무시다, 계시다 आणि -(으)시-."}
+{"f":"decks","id":"ko.d.places-buildings","k":"label","src":"Places & buildings","tgt":"ठिकाणं आणि इमारती"}
+{"f":"decks","id":"ko.d.places-buildings","k":"desc","src":"Café, gym, library, museum, house — the places you say you're going.","tgt":"कॅफे, जिम, वाचनालय, संग्रहालय, घर: \"मी इथे जात आहे\" असं सांगताना लागणारी ठिकाणं."}
+{"f":"decks","id":"ko.d.hobbies","k":"label","src":"Hobbies","tgt":"छंद"}
+{"f":"decks","id":"ko.d.hobbies","k":"desc","src":"Answer 취미가 뭐예요? with the real words.","tgt":"취미가 뭐예요? याचं उत्तर खऱ्याखुऱ्या शब्दांत द्या."}
+{"f":"decks","id":"ko.d.food-words","k":"label","src":"Food words","tgt":"खाद्यपदार्थ"}
+{"f":"decks","id":"ko.d.food-words","k":"desc","src":"The dishes and ingredients on every menu.","tgt":"प्रत्येक मेन्यूवर दिसणारे पदार्थ आणि जिन्नस."}
+{"f":"decks","id":"ko.d.drinks","k":"label","src":"Drinks","tgt":"पेयं"}
+{"f":"decks","id":"ko.d.drinks","k":"desc","src":"Coffee, tea, soju, beer, and how to order one more.","tgt":"कॉफी, चहा, सोजू, बिअर, आणि आणखी एक कसं मागायचं."}
+{"f":"decks","id":"ko.d.activities","k":"label","src":"Activities","tgt":"रोजच्या कृती"}
+{"f":"decks","id":"ko.d.activities","k":"desc","src":"Everyday 'I do X' verbs in polite form.","tgt":"रोजची \"मी X करत आहे\" क्रियापदं, सभ्य रूपात."}
+{"f":"decks","id":"ko.d.tv-entertainment","k":"label","src":"TV & entertainment","tgt":"टीव्ही आणि मनोरंजन"}
+{"f":"decks","id":"ko.d.tv-entertainment","k":"desc","src":"Dramas, variety shows, genres, episodes, binge-watching.","tgt":"ड्रामा, व्हरायटी शो, प्रकार, एपिसोड, सलग पाहणं."}
+{"f":"decks","id":"ko.d.position-direction-words","k":"label","src":"Position & direction words","tgt":"जागा आणि दिशा"}
+{"f":"decks","id":"ko.d.position-direction-words","k":"desc","src":"Above, beside, across, exits and floors — placing things and finding them.","tgt":"वर, शेजारी, पलीकडे, एक्झिट आणि मजले: वस्तू कुठे आहे ते सांगणं आणि शोधणं."}
+{"f":"decks","id":"ko.d.core-verbs","k":"label","src":"Core verbs","tgt":"मुख्य क्रियापदं"}
+{"f":"decks","id":"ko.d.core-verbs","k":"desc","src":"The 12 verbs you'll use every day, in polite form.","tgt":"रोज लागणारी 12 क्रियापदं, सभ्य रूपात."}
+{"f":"decks","id":"ko.d.particles","k":"label","src":"Particles","tgt":"पार्टिकल"}
+{"f":"decks","id":"ko.d.particles","k":"desc","src":"The tags that mark topic, subject, object and place.","tgt":"विषय, कर्ता, कर्म आणि जागा दाखवणारे पार्टिकल: नामाला जोडून लिहिले जाणारे छोटे शब्द, मराठीतल्या विभक्ती प्रत्ययांसारखे."}
+{"f":"decks","id":"ko.d.numbers","k":"label","src":"Numbers","tgt":"संख्या"}
+{"f":"decks","id":"ko.d.numbers","k":"desc","src":"Native vs Sino-Korean numbers and when each is used.","tgt":"मूळ कोरियन आणि सिनो-कोरियन संख्या, आणि कोणती कधी वापरायची."}
+{"f":"decks","id":"ko.d.sweet-talk","k":"label","src":"Sweet talk","tgt":"गोड बोलणं"}
+{"f":"decks","id":"ko.d.sweet-talk","k":"desc","src":"Cute, pretty, miss you — for someone you're close to.","tgt":"क्यूट, सुंदर, आठवण येते: जवळच्या व्यक्तीसाठी."}
+{"f":"decks","id":"ko.d.cute-things-to-say","k":"label","src":"Cute things to say","tgt":"लाडिक वाक्यं"}
+{"f":"decks","id":"ko.d.cute-things-to-say","k":"desc","src":"Compliments and caring lines that land.","tgt":"मनाला भिडणारं कौतुक आणि काळजीची वाक्यं."}
+{"f":"decks","id":"ko.d.flirting","k":"label","src":"Flirting","tgt":"फ्लर्टिंग"}
+{"f":"decks","id":"ko.d.flirting","k":"desc","src":"Getting a number, asking out, saying how you feel.","tgt":"नंबर मागणं, बाहेर बोलावणं, मनातलं सांगणं."}
+{"f":"decks","id":"ko.d.casual-texting","k":"label","src":"Casual texting","tgt":"मित्रांशी चॅटिंग"}
+{"f":"decks","id":"ko.d.casual-texting","k":"desc","src":"KakaoTalk shorthand and the lines friends actually send.","tgt":"काकाओटॉकमधले शॉर्टफॉर्म आणि मित्र खरंच पाठवतात ते मेसेज."}
+{"f":"decks","id":"ko.d.hype-cool","k":"label","src":"Hype & cool","tgt":"जोश आणि स्टाइल"}
+{"f":"decks","id":"ko.d.hype-cool","k":"desc","src":"Compliments, encouragement and slang for friends.","tgt":"मित्रांसाठी कौतुक, प्रोत्साहन आणि स्लँग."}
+{"f":"decks","id":"ko.d.hanging-out","k":"label","src":"Hanging out","tgt":"भेटीगाठी"}
+{"f":"decks","id":"ko.d.hanging-out","k":"desc","src":"Inviting, planning where and when, wrapping up.","tgt":"आमंत्रण, कुठे आणि कधी ते ठरवणं, निरोप."}
+{"f":"decks","id":"ko.d.k-pop-fan-culture","k":"label","src":"K-pop & fan culture","tgt":"के-पॉप आणि फॅन कल्चर"}
+{"f":"decks","id":"ko.d.k-pop-fan-culture","k":"desc","src":"Fandom vocabulary from 최애 to 떼창.","tgt":"최애 पासून 떼창 पर्यंत फॅनडमचे शब्द."}
+{"f":"decks","id":"ko.d.social-media-slang","k":"label","src":"Social media & slang","tgt":"सोशल मीडिया आणि स्लँग"}
+{"f":"decks","id":"ko.d.social-media-slang","k":"desc","src":"Instagram, memes, and the slang of the moment.","tgt":"इन्स्टाग्राम, मीम्स आणि सध्याचा स्लँग."}
+{"f":"decks","id":"ko.d.dating-deeper","k":"label","src":"Dating deeper","tgt":"डेटिंग: पुढचं पाऊल"}
+{"f":"decks","id":"ko.d.dating-deeper","k":"desc","src":"Defining the relationship, real compliments, apologizing, reassurance.","tgt":"नातं स्पष्ट करणं, मनापासूनचं कौतुक, माफी मागणं, दिलासा देणं."}
+{"f":"decks","id":"ko.d.work-office","k":"label","src":"Work & office","tgt":"काम आणि ऑफिस"}
+{"f":"decks","id":"ko.d.work-office","k":"desc","src":"Meetings, deadlines, asking colleagues, leaving on time, 회식.","tgt":"मीटिंग, डेडलाइन, सहकाऱ्यांना विचारणं, वेळेवर निघणं, 회식."}
+{"f":"decks","id":"ko.d.small-talk","k":"label","src":"Small talk","tgt":"गप्पाटप्पा"}
+{"f":"decks","id":"ko.d.small-talk","k":"desc","src":"Catching up, weather, weekend plans, goodbyes done right.","tgt":"विचारपूस, हवामान, वीकेंडचे बेत, नीट निरोप घेणं."}
+{"f":"decks","id":"ko.d.food-ordering","k":"label","src":"Food & ordering","tgt":"जेवण आणि ऑर्डर"}
+{"f":"decks","id":"ko.d.food-ordering","k":"desc","src":"Ordering, counters for food, the two meal phrases.","tgt":"ऑर्डर देणं, जेवणासाठी मोजणी शब्द, जेवणाआधीचं आणि नंतरचं वाक्य."}
+{"f":"decks","id":"ko.d.directions-transport","k":"label","src":"Directions & transport","tgt":"रस्ता आणि वाहतूक"}
+{"f":"decks","id":"ko.d.directions-transport","k":"desc","src":"Left/right/straight, subway, bus, taxi lines.","tgt":"डावीकडे / उजवीकडे / सरळ, मेट्रो, बस, टॅक्सीतली वाक्यं."}
+{"f":"decks","id":"ko.d.time-days","k":"label","src":"Time & days","tgt":"वेळ आणि वार"}
+{"f":"decks","id":"ko.d.time-days","k":"desc","src":"Today/tomorrow, days of the week, what time is it.","tgt":"आज / उद्या, आठवड्याचे वार, किती वाजले."}
+{"f":"decks","id":"ko.d.family-people","k":"label","src":"Family & people","tgt":"कुटुंब आणि माणसं"}
+{"f":"decks","id":"ko.d.family-people","k":"desc","src":"Mom, dad, siblings, friends, teacher, and how age changes the word.","tgt":"आई, बाबा, भावंडं, मित्र, शिक्षक, आणि वयामुळे शब्द कसा बदलतो."}
+{"f":"decks","id":"ko.d.adjectives","k":"label","src":"Adjectives","tgt":"विशेषणं"}
+{"f":"decks","id":"ko.d.adjectives","k":"desc","src":"Good, bad, big, small, hot, cold, busy, fun.","tgt":"चांगलं, वाईट, मोठं, छोटं, गरम, थंड, बिझी, मजेशीर."}
+{"f":"decks","id":"ko.d.k-drama-phrases","k":"label","src":"K-drama phrases","tgt":"के-ड्रामाचे डायलॉग"}
+{"f":"decks","id":"ko.d.k-drama-phrases","k":"desc","src":"Reactions and lines you'll hear in every episode.","tgt":"प्रत्येक एपिसोडमध्ये ऐकू येणाऱ्या प्रतिक्रिया आणि डायलॉग."}
+{"f":"decks","id":"ko.d.top-nouns","k":"label","src":"Top nouns","tgt":"नेहमीची नामं"}
+{"f":"decks","id":"ko.d.top-nouns","k":"desc","src":"The most-used Korean nouns the course doesn't teach yet, most frequent first.","tgt":"कोर्समध्ये अजून न आलेली, सगळ्यात जास्त वापरली जाणारी कोरियन नामं; जास्त वापरातली आधी."}
+{"f":"decks","id":"ko.d.top-verbs","k":"label","src":"Top verbs","tgt":"नेहमीची क्रियापदं"}
+{"f":"decks","id":"ko.d.top-verbs","k":"desc","src":"Action verbs in dictionary form; the note gives the 해요 form and flags irregular verbs.","tgt":"क्रिया दाखवणारी क्रियापदं शब्दकोशातील रूपात; टीपेत 해요 रूप आणि अनियमित क्रियापदांची खूण."}
+{"f":"decks","id":"ko.d.top-adjectives","k":"label","src":"Top adjectives","tgt":"नेहमीची विशेषणं"}
+{"f":"decks","id":"ko.d.top-adjectives","k":"desc","src":"Descriptive verbs (Korean adjectives are verbs): the 해요 form and the form before a noun.","tgt":"वर्णनात्मक क्रियापदं (कोरियनमध्ये विशेषणं क्रियापदंच असतात): 해요 रूप आणि नामाआधीचं रूप."}
+{"f":"decks","id":"ko.d.top-adverbs","k":"label","src":"Top adverbs","tgt":"नेहमीची क्रियाविशेषणं"}
+{"f":"decks","id":"ko.d.top-adverbs","k":"desc","src":"Time, degree, frequency and manner words: very, already, often, why, how.","tgt":"वेळ, प्रमाण, वारंवारता आणि पद्धत दाखवणारे शब्द: खूप, आधीच, अनेकदा, का, कसं."}
+{"f":"decks","id":"ko.d.top-pronouns","k":"label","src":"Top pronouns","tgt":"नेहमीची सर्वनामं"}
+{"f":"decks","id":"ko.d.top-pronouns","k":"desc","src":"I, you, this one, who, nobody, and why names and titles usually replace 'you'.","tgt":"मी, तुम्ही, हे, कोण, कोणीच नाही, आणि \"तुम्ही\"ऐवजी नाव किंवा पद का वापरतात."}
+{"f":"decks","id":"ko.d.top-particles","k":"label","src":"Top particles","tgt":"आणखी पार्टिकल"}
+{"f":"decks","id":"ko.d.top-particles","k":"desc","src":"Korean's answer to prepositions: the particles beyond the nine in the Particles deck.","tgt":"मराठी विभक्ती प्रत्ययांचं कोरियन उत्तर: \"पार्टिकल\" डेकमधल्या नऊपलीकडचे पार्टिकल."}
+{"f":"decks","id":"ko.d.top-connectors","k":"label","src":"Top connectors","tgt":"नेहमीचे जोडशब्द"}
+{"f":"decks","id":"ko.d.top-connectors","k":"desc","src":"Joining endings (-고, -지만, -아서, -(으)면 …) shown on a verb, plus linking words not in Connectors.","tgt":"जोडणारे प्रत्यय (-고, -지만, -아서, -(으)면 …) क्रियापदावर लावून दाखवलेले, आणि \"जोडशब्द\" डेकमध्ये नसलेले जोडशब्द."}
+{"f":"decks","id":"ko.d.top-interjections","k":"label","src":"Top interjections","tgt":"नेहमीचे उद्गार"}
+{"f":"decks","id":"ko.d.top-interjections","k":"desc","src":"What Koreans really exclaim: wow, ouch, oops, phew, ta-da, and who says each one.","tgt":"कोरियन लोक खरंच कसे उद्गार काढतात: वा, आई गं, अरेरे, हुश्श, टडा, आणि कोण कोणता उद्गार काढतं."}
+{"f":"decks","id":"ko.d.top-words","k":"label","src":"Top words","tgt":"नेहमीचे छोटे शब्द"}
+{"f":"decks","id":"ko.d.top-words","k":"desc","src":"This / that / which before a noun, number forms, days and times, and ways to say yes and no.","tgt":"नामाआधीचे हा / तो / कोणता, संख्यांची रूपं, दिवस आणि वेळा, आणि हो / नाही म्हणायच्या पद्धती."}
+{"f":"decks","id":"ko.d.top-counters","k":"label","src":"Top counters","tgt":"आणखी मोजणी शब्द"}
+{"f":"decks","id":"ko.d.top-counters","k":"desc","src":"Counters missing from the Counters deck: cars, portions, rolls, slices, minutes, months.","tgt":"\"मोजणी शब्द\" डेकमध्ये नसलेले मोजणी शब्द: गाड्या, प्लेट्स, रोल, स्लाइस, मिनिटं, महिने."}
+{"f":"decks","id":"ko.d.flirting-words","k":"label","src":"Flirting words","tgt":"फ्लर्टिंगचे शब्द"}
+{"f":"decks","id":"ko.d.flirting-words","k":"desc","src":"The words Koreans flirt with, phrases built from them, and kind ways to say yes or no.","tgt":"कोरियन लोक ज्या शब्दांनी फ्लर्ट करतात, त्यांपासून बनलेली वाक्यं, आणि हो किंवा नाही प्रेमाने कसं म्हणायचं."}
+{"f":"decks","id":"ko.d.compliments","k":"label","src":"Compliments","tgt":"कौतुक"}
+{"f":"decks","id":"ko.d.compliments","k":"desc","src":"Everyday praise for food, work, homes and children, and the modest ways to answer it.","tgt":"जेवण, काम, घर आणि मुलांचं रोजचं कौतुक, आणि त्याला नम्रपणे कसं उत्तर द्यायचं."}
+{"f":"decks","id":"ko.d.countries","k":"label","src":"Countries","tgt":"देश"}
+{"f":"decks","id":"ko.d.countries","k":"desc","src":"Every country, most-asked first. Country + 에서 왔어요 = I'm from…; + 사람 = nationality; + 어 = language.","tgt":"सगळे देश, सगळ्यात जास्त विचारले जाणारे आधी. देश + 에서 왔어요 = मी … मधून आलो/आले; + 사람 = नागरिकत्व; + 어 = भाषा."}
 {"f":"cards","id":"ko.c0001","k":"meaning","src":"a as in father","tgt":"आ (पण लांब नाही)","rw":"English sound comparison (\"as in …\")"}
 {"f":"cards","id":"ko.c0001","k":"note","src":"Vertical stroke, tick to the right.","tgt":"उभी रेघ, उजवीकडे छोटी रेघ."}
 {"f":"cards","id":"ko.c0002","k":"meaning","src":"uh as in up","tgt":"\"अ\"च्या जवळ, जबडा जास्त खाली","rw":"English sound comparison (\"as in …\")"}
@@ -1028,7 +1028,7 @@
 {"f":"cards","id":"ko.c0388","k":"meaning","src":"see / watch (보다)","tgt":"पाहणे (보다)"}
 {"f":"cards","id":"ko.c0388","k":"note","src":"Past: 봤어요. 내일 봐요 = see you tomorrow.","tgt":"भूतकाळ: 봤어요. 내일 봐요 = उद्या भेटू."}
 {"f":"cards","id":"ko.c0389","k":"meaning","src":"like (좋아하다)","tgt":"आवडणे (좋아하다)"}
-{"f":"cards","id":"ko.c0389","k":"note","src":"좋아요 = it's good / I like it (adjective form).","tgt":"좋아요 = छान आहे / मला आवडतं (वर्णनात्मक क्रियापद). 좋아해요 सोबत आवडणारी गोष्ट कर्म असते."}
+{"f":"cards","id":"ko.c0389","k":"note","src":"좋아요 = it's good / I like it (adjective form).","tgt":"좋아요 = छान आहे / मला आवडतं (वर्णनात्मक क्रियापदाचं रूप)."}
 {"f":"cards","id":"ko.c0390","k":"meaning","src":"know (알다)","tgt":"माहीत असणे (알다)"}
 {"f":"cards","id":"ko.c0390","k":"note","src":"몰라요 (mollayo) = don't know.","tgt":"몰라요 (mollayo) = माहीत नाही."}
 {"f":"cards","id":"ko.c0391","k":"meaning","src":"please give","tgt":"द्या"}
@@ -1431,245 +1431,245 @@
 {"f":"cards","id":"ko.c0589","k":"note","src":"정류장 = stop.","tgt":"정류장 = थांबा."}
 {"f":"cards","id":"ko.c0590","k":"meaning","src":"taxi","tgt":"टॅक्सी"}
 {"f":"cards","id":"ko.c0590","k":"note","src":"Tell the driver: ~로 가 주세요 (please go to ~).","tgt":"ड्रायव्हरला सांगा: ~로 가 주세요 (~ला चला)."}
-{"f":"cards","id":"ko.c0591","k":"meaning","src":"airport","tgt":""}
-{"f":"cards","id":"ko.c0591","k":"note","src":"인천공항 = Incheon Airport.","tgt":""}
-{"f":"cards","id":"ko.c0592","k":"meaning","src":"How long does it take?","tgt":""}
-{"f":"cards","id":"ko.c0592","k":"note","src":"걸리다 = to take (time).","tgt":""}
-{"f":"cards","id":"ko.c0593","k":"meaning","src":"Please stop here","tgt":""}
-{"f":"cards","id":"ko.c0593","k":"note","src":"Taxi phrase.","tgt":""}
-{"f":"cards","id":"ko.c0594","k":"meaning","src":"T-money card","tgt":""}
-{"f":"cards","id":"ko.c0594","k":"note","src":"Tap-in transit card. Buy at any convenience store.","tgt":""}
-{"f":"cards","id":"ko.c0595","k":"meaning","src":"How do I get there?","tgt":""}
-{"f":"cards","id":"ko.c0595","k":"note","src":"Add the place + 에: 명동에 어떻게 가요?","tgt":""}
-{"f":"cards","id":"ko.c0596","k":"meaning","src":"today","tgt":""}
-{"f":"cards","id":"ko.c0596","k":"note","src":"오늘 뭐 해요? = what are you doing today?","tgt":""}
-{"f":"cards","id":"ko.c0597","k":"meaning","src":"tomorrow","tgt":""}
-{"f":"cards","id":"ko.c0597","k":"note","src":"내일 봐요 = see you tomorrow.","tgt":""}
-{"f":"cards","id":"ko.c0598","k":"meaning","src":"yesterday","tgt":""}
-{"f":"cards","id":"ko.c0598","k":"note","src":"어제 뭐 했어요? = what did you do yesterday?","tgt":""}
-{"f":"cards","id":"ko.c0599","k":"meaning","src":"now","tgt":""}
-{"f":"cards","id":"ko.c0599","k":"note","src":"지금 몇 시예요? = what time is it now?","tgt":""}
-{"f":"cards","id":"ko.c0600","k":"meaning","src":"morning / lunchtime / evening","tgt":""}
-{"f":"cards","id":"ko.c0600","k":"note","src":"Also mean breakfast / lunch / dinner.","tgt":""}
-{"f":"cards","id":"ko.c0601","k":"meaning","src":"Monday","tgt":""}
-{"f":"cards","id":"ko.c0601","k":"note","src":"요일 = day of the week.","tgt":""}
-{"f":"cards","id":"ko.c0602","k":"meaning","src":"Friday","tgt":""}
-{"f":"cards","id":"ko.c0602","k":"note","src":"불금 = 'burning Friday', Friday night out.","tgt":""}
-{"f":"cards","id":"ko.c0603","k":"meaning","src":"Saturday / Sunday","tgt":""}
-{"f":"cards","id":"ko.c0603","k":"note","src":"주말 (jumal) = weekend.","tgt":""}
-{"f":"cards","id":"ko.c0604","k":"meaning","src":"What time is it?","tgt":""}
-{"f":"cards","id":"ko.c0604","k":"note","src":"몇 = how many; 시 = o'clock.","tgt":""}
-{"f":"cards","id":"ko.c0605","k":"meaning","src":"when","tgt":""}
-{"f":"cards","id":"ko.c0605","k":"note","src":"언제 와요? = when are you coming?","tgt":""}
-{"f":"cards","id":"ko.c0606","k":"meaning","src":"every day","tgt":""}
-{"f":"cards","id":"ko.c0606","k":"note","src":"매일 공부해요 = I study every day.","tgt":""}
-{"f":"cards","id":"ko.c0607","k":"meaning","src":"Do you have time?","tgt":""}
-{"f":"cards","id":"ko.c0607","k":"note","src":"Low-key way to ask someone out.","tgt":""}
-{"f":"cards","id":"ko.c0608","k":"meaning","src":"mom / dad","tgt":""}
-{"f":"cards","id":"ko.c0608","k":"note","src":"어머니 / 아버지 = formal versions.","tgt":""}
-{"f":"cards","id":"ko.c0609","k":"meaning","src":"older brother","tgt":""}
-{"f":"cards","id":"ko.c0609","k":"note","src":"형 if you're male, 오빠 if you're female. Also used for older male friends.","tgt":""}
-{"f":"cards","id":"ko.c0610","k":"meaning","src":"older sister","tgt":""}
-{"f":"cards","id":"ko.c0610","k":"note","src":"누나 if you're male, 언니 if you're female.","tgt":""}
-{"f":"cards","id":"ko.c0611","k":"meaning","src":"younger sibling","tgt":""}
-{"f":"cards","id":"ko.c0611","k":"note","src":"남동생 = younger brother, 여동생 = younger sister.","tgt":""}
-{"f":"cards","id":"ko.c0612","k":"meaning","src":"grandma / grandpa","tgt":""}
-{"f":"cards","id":"ko.c0612","k":"note","src":"Also polite for any elderly person.","tgt":""}
-{"f":"cards","id":"ko.c0613","k":"meaning","src":"family","tgt":""}
-{"f":"cards","id":"ko.c0613","k":"note","src":"가족이 몇 명이에요? = how many in your family?","tgt":""}
-{"f":"cards","id":"ko.c0614","k":"meaning","src":"friend","tgt":""}
-{"f":"cards","id":"ko.c0614","k":"note","src":"Technically same-age friend only.","tgt":""}
-{"f":"cards","id":"ko.c0615","k":"meaning","src":"teacher","tgt":""}
-{"f":"cards","id":"ko.c0615","k":"note","src":"Also a respectful 'sir/ma'am'.","tgt":""}
-{"f":"cards","id":"ko.c0616","k":"meaning","src":"man / woman","tgt":""}
-{"f":"cards","id":"ko.c0616","k":"note","src":"남자친구 = boyfriend, 여자친구 = girlfriend.","tgt":""}
-{"f":"cards","id":"ko.c0617","k":"meaning","src":"person","tgt":""}
-{"f":"cards","id":"ko.c0617","k":"note","src":"한국 사람 = Korean person, 미국 사람 = American, 멕시코 사람 = Mexican: country + 사람.","tgt":""}
-{"f":"cards","id":"ko.c0618","k":"meaning","src":"good / I like it","tgt":""}
-{"f":"cards","id":"ko.c0618","k":"note","src":"안 좋아요 = not good.","tgt":""}
-{"f":"cards","id":"ko.c0619","k":"meaning","src":"bad","tgt":""}
-{"f":"cards","id":"ko.c0619","k":"note","src":"기분이 나빠요 = I feel bad.","tgt":""}
-{"f":"cards","id":"ko.c0620","k":"meaning","src":"big","tgt":""}
+{"f":"cards","id":"ko.c0591","k":"meaning","src":"airport","tgt":"विमानतळ"}
+{"f":"cards","id":"ko.c0591","k":"note","src":"인천공항 = Incheon Airport.","tgt":"인천공항 = इंचॉन विमानतळ."}
+{"f":"cards","id":"ko.c0592","k":"meaning","src":"How long does it take?","tgt":"किती वेळ लागतो?"}
+{"f":"cards","id":"ko.c0592","k":"note","src":"걸리다 = to take (time).","tgt":"걸리다 = (वेळ) लागणे."}
+{"f":"cards","id":"ko.c0593","k":"meaning","src":"Please stop here","tgt":"इथे थांबवा"}
+{"f":"cards","id":"ko.c0593","k":"note","src":"Taxi phrase.","tgt":"टॅक्सीत म्हणायचं वाक्य."}
+{"f":"cards","id":"ko.c0594","k":"meaning","src":"T-money card","tgt":"टी-मनी कार्ड"}
+{"f":"cards","id":"ko.c0594","k":"note","src":"Tap-in transit card. Buy at any convenience store.","tgt":"टॅप करून वापरायचं प्रवासाचं कार्ड, आपल्या मेट्रो कार्डसारखं. कोणत्याही कन्व्हिनियन्स स्टोअरमध्ये मिळतं."}
+{"f":"cards","id":"ko.c0595","k":"meaning","src":"How do I get there?","tgt":"तिथे कसं जायचं?"}
+{"f":"cards","id":"ko.c0595","k":"note","src":"Add the place + 에: 명동에 어떻게 가요?","tgt":"जागा + 에 जोडा: 명동에 어떻게 가요?"}
+{"f":"cards","id":"ko.c0596","k":"meaning","src":"today","tgt":"आज"}
+{"f":"cards","id":"ko.c0596","k":"note","src":"오늘 뭐 해요? = what are you doing today?","tgt":"오늘 뭐 해요? = आज काय करत आहात?"}
+{"f":"cards","id":"ko.c0597","k":"meaning","src":"tomorrow","tgt":"उद्या"}
+{"f":"cards","id":"ko.c0597","k":"note","src":"내일 봐요 = see you tomorrow.","tgt":"내일 봐요 = उद्या भेटू."}
+{"f":"cards","id":"ko.c0598","k":"meaning","src":"yesterday","tgt":"काल"}
+{"f":"cards","id":"ko.c0598","k":"note","src":"어제 뭐 했어요? = what did you do yesterday?","tgt":"어제 뭐 했어요? = काल काय केलंत?"}
+{"f":"cards","id":"ko.c0599","k":"meaning","src":"now","tgt":"आता"}
+{"f":"cards","id":"ko.c0599","k":"note","src":"지금 몇 시예요? = what time is it now?","tgt":"지금 몇 시예요? = आता किती वाजले?"}
+{"f":"cards","id":"ko.c0600","k":"meaning","src":"morning / lunchtime / evening","tgt":"सकाळ / दुपार / संध्याकाळ"}
+{"f":"cards","id":"ko.c0600","k":"note","src":"Also mean breakfast / lunch / dinner.","tgt":"याचा अर्थ नाश्ता / दुपारचं जेवण / रात्रीचं जेवण असाही होतो."}
+{"f":"cards","id":"ko.c0601","k":"meaning","src":"Monday","tgt":"सोमवार"}
+{"f":"cards","id":"ko.c0601","k":"note","src":"요일 = day of the week.","tgt":"요일 = वार."}
+{"f":"cards","id":"ko.c0602","k":"meaning","src":"Friday","tgt":"शुक्रवार"}
+{"f":"cards","id":"ko.c0602","k":"note","src":"불금 = 'burning Friday', Friday night out.","tgt":"불금 = \"धगधगता शुक्रवार\", शुक्रवारी रात्री बाहेरची मजा."}
+{"f":"cards","id":"ko.c0603","k":"meaning","src":"Saturday / Sunday","tgt":"शनिवार / रविवार"}
+{"f":"cards","id":"ko.c0603","k":"note","src":"주말 (jumal) = weekend.","tgt":"주말 (jumal) = वीकेंड."}
+{"f":"cards","id":"ko.c0604","k":"meaning","src":"What time is it?","tgt":"किती वाजले?"}
+{"f":"cards","id":"ko.c0604","k":"note","src":"몇 = how many; 시 = o'clock.","tgt":"몇 = किती; 시 = वाजता."}
+{"f":"cards","id":"ko.c0605","k":"meaning","src":"when","tgt":"कधी"}
+{"f":"cards","id":"ko.c0605","k":"note","src":"언제 와요? = when are you coming?","tgt":"언제 와요? = कधी येत आहात?"}
+{"f":"cards","id":"ko.c0606","k":"meaning","src":"every day","tgt":"रोज"}
+{"f":"cards","id":"ko.c0606","k":"note","src":"매일 공부해요 = I study every day.","tgt":"매일 공부해요 = मी रोज अभ्यास करतो/करते."}
+{"f":"cards","id":"ko.c0607","k":"meaning","src":"Do you have time?","tgt":"तुम्हाला वेळ आहे का?"}
+{"f":"cards","id":"ko.c0607","k":"note","src":"Low-key way to ask someone out.","tgt":"एखाद्याला बाहेर बोलावण्याची हलकी पद्धत."}
+{"f":"cards","id":"ko.c0608","k":"meaning","src":"mom / dad","tgt":"आई / बाबा"}
+{"f":"cards","id":"ko.c0608","k":"note","src":"어머니 / 아버지 = formal versions.","tgt":"어머니 / 아버지 = औपचारिक रूपं."}
+{"f":"cards","id":"ko.c0609","k":"meaning","src":"older brother","tgt":"मोठा भाऊ (दादा)"}
+{"f":"cards","id":"ko.c0609","k":"note","src":"형 if you're male, 오빠 if you're female. Also used for older male friends.","tgt":"बोलणारा मुलगा असेल तर 형, मुलगी असेल तर 오빠. मोठ्या मित्रांसाठीही वापरतात."}
+{"f":"cards","id":"ko.c0610","k":"meaning","src":"older sister","tgt":"मोठी बहीण (ताई)"}
+{"f":"cards","id":"ko.c0610","k":"note","src":"누나 if you're male, 언니 if you're female.","tgt":"बोलणारा मुलगा असेल तर 누나, मुलगी असेल तर 언니."}
+{"f":"cards","id":"ko.c0611","k":"meaning","src":"younger sibling","tgt":"धाकटं भावंड"}
+{"f":"cards","id":"ko.c0611","k":"note","src":"남동생 = younger brother, 여동생 = younger sister.","tgt":"남동생 = धाकटा भाऊ, 여동생 = धाकटी बहीण."}
+{"f":"cards","id":"ko.c0612","k":"meaning","src":"grandma / grandpa","tgt":"आजी / आजोबा"}
+{"f":"cards","id":"ko.c0612","k":"note","src":"Also polite for any elderly person.","tgt":"कोणत्याही वयस्कर व्यक्तीसाठीही सभ्य शब्द."}
+{"f":"cards","id":"ko.c0613","k":"meaning","src":"family","tgt":"कुटुंब"}
+{"f":"cards","id":"ko.c0613","k":"note","src":"가족이 몇 명이에요? = how many in your family?","tgt":"가족이 몇 명이에요? = तुमच्या कुटुंबात किती जण आहेत?"}
+{"f":"cards","id":"ko.c0614","k":"meaning","src":"friend","tgt":"मित्र / मैत्रीण"}
+{"f":"cards","id":"ko.c0614","k":"note","src":"Technically same-age friend only.","tgt":"खरं तर फक्त समवयस्क मित्रासाठी."}
+{"f":"cards","id":"ko.c0615","k":"meaning","src":"teacher","tgt":"शिक्षक"}
+{"f":"cards","id":"ko.c0615","k":"note","src":"Also a respectful 'sir/ma'am'.","tgt":"आदराने \"सर / मॅडम\" म्हणतानाही."}
+{"f":"cards","id":"ko.c0616","k":"meaning","src":"man / woman","tgt":"पुरुष / स्त्री"}
+{"f":"cards","id":"ko.c0616","k":"note","src":"남자친구 = boyfriend, 여자친구 = girlfriend.","tgt":"남자친구 = बॉयफ्रेंड, 여자친구 = गर्लफ्रेंड."}
+{"f":"cards","id":"ko.c0617","k":"meaning","src":"person","tgt":"माणूस / व्यक्ती"}
+{"f":"cards","id":"ko.c0617","k":"note","src":"한국 사람 = Korean person, 미국 사람 = American, 멕시코 사람 = Mexican: country + 사람.","tgt":"한국 사람 = कोरियन व्यक्ती, 미국 사람 = अमेरिकन, 멕시코 사람 = मेक्सिकन: देश + 사람."}
+{"f":"cards","id":"ko.c0618","k":"meaning","src":"good / I like it","tgt":"चांगलं / मला आवडतं"}
+{"f":"cards","id":"ko.c0618","k":"note","src":"안 좋아요 = not good.","tgt":"안 좋아요 = चांगलं नाही."}
+{"f":"cards","id":"ko.c0619","k":"meaning","src":"bad","tgt":"वाईट"}
+{"f":"cards","id":"ko.c0619","k":"note","src":"기분이 나빠요 = I feel bad.","tgt":"기분이 나빠요 = मला वाईट वाटतंय."}
+{"f":"cards","id":"ko.c0620","k":"meaning","src":"big","tgt":"मोठं"}
 {"f":"cards","id":"ko.c0620","k":"note","src":"크다 → 커요.","tgt":"크다 → 커요.","pre":1}
-{"f":"cards","id":"ko.c0621","k":"meaning","src":"small","tgt":""}
+{"f":"cards","id":"ko.c0621","k":"meaning","src":"small","tgt":"छोटं"}
 {"f":"cards","id":"ko.c0621","k":"note","src":"작다 → 작아요.","tgt":"작다 → 작아요.","pre":1}
-{"f":"cards","id":"ko.c0622","k":"meaning","src":"many / a lot","tgt":""}
-{"f":"cards","id":"ko.c0622","k":"note","src":"사람이 많아요 = lots of people.","tgt":""}
-{"f":"cards","id":"ko.c0623","k":"meaning","src":"expensive","tgt":""}
-{"f":"cards","id":"ko.c0623","k":"note","src":"너무 비싸요 = too expensive.","tgt":""}
-{"f":"cards","id":"ko.c0624","k":"meaning","src":"cheap","tgt":""}
-{"f":"cards","id":"ko.c0624","k":"note","src":"싸고 좋아요 = cheap and good.","tgt":""}
-{"f":"cards","id":"ko.c0625","k":"meaning","src":"hot (weather)","tgt":""}
-{"f":"cards","id":"ko.c0625","k":"note","src":"뜨거워요 = hot (to touch).","tgt":""}
-{"f":"cards","id":"ko.c0626","k":"meaning","src":"cold (weather)","tgt":""}
-{"f":"cards","id":"ko.c0626","k":"note","src":"차가워요 = cold (to touch).","tgt":""}
-{"f":"cards","id":"ko.c0627","k":"meaning","src":"busy","tgt":""}
-{"f":"cards","id":"ko.c0627","k":"note","src":"요즘 바빠요 = busy these days.","tgt":""}
-{"f":"cards","id":"ko.c0628","k":"meaning","src":"fun / interesting","tgt":""}
-{"f":"cards","id":"ko.c0628","k":"note","src":"재미없어요 = boring.","tgt":""}
-{"f":"cards","id":"ko.c0629","k":"meaning","src":"hard / exhausting","tgt":""}
-{"f":"cards","id":"ko.c0629","k":"note","src":"Complaint of choice.","tgt":""}
-{"f":"cards","id":"ko.c0630","k":"meaning","src":"Really?","tgt":""}
-{"f":"cards","id":"ko.c0630","k":"note","src":"Also 진짜로. 정말? (jeongmal) is slightly softer.","tgt":""}
-{"f":"cards","id":"ko.c0631","k":"meaning","src":"Awesome / no way","tgt":""}
-{"f":"cards","id":"ko.c0631","k":"note","src":"Good or bad surprise. 대박 사건 = huge deal.","tgt":""}
-{"f":"cards","id":"ko.c0632","k":"meaning","src":"OMG / what","tgt":""}
-{"f":"cards","id":"ko.c0632","k":"note","src":"Stunned reaction. Mostly texting and casual speech.","tgt":""}
-{"f":"cards","id":"ko.c0633","k":"meaning","src":"Oh my / ugh","tgt":""}
-{"f":"cards","id":"ko.c0633","k":"note","src":"Sigh word for any small misfortune.","tgt":""}
-{"f":"cards","id":"ko.c0634","k":"meaning","src":"It's okay","tgt":""}
-{"f":"cards","id":"ko.c0634","k":"note","src":"Casual. Said while clearly not okay.","tgt":""}
-{"f":"cards","id":"ko.c0635","k":"meaning","src":"Are you crazy?","tgt":""}
-{"f":"cards","id":"ko.c0635","k":"note","src":"Casual, often affectionate.","tgt":""}
-{"f":"cards","id":"ko.c0636","k":"meaning","src":"Don't go","tgt":""}
-{"f":"cards","id":"ko.c0636","k":"note","src":"Verb stem + 지 마 = don't.","tgt":""}
-{"f":"cards","id":"ko.c0637","k":"meaning","src":"I missed you","tgt":""}
-{"f":"cards","id":"ko.c0637","k":"note","src":"Past of 보고 싶어.","tgt":""}
-{"f":"cards","id":"ko.c0638","k":"meaning","src":"What do I do / oh no","tgt":""}
-{"f":"cards","id":"ko.c0638","k":"note","src":"Said with hands on face.","tgt":""}
-{"f":"cards","id":"ko.c0639","k":"meaning","src":"You got this!","tgt":""}
-{"f":"cards","id":"ko.c0639","k":"note","src":"From 'fighting'. Cheer before anything hard.","tgt":""}
-{"f":"cards","id":"ko.c0640","k":"meaning","src":"Got it / okay","tgt":""}
-{"f":"cards","id":"ko.c0640","k":"note","src":"Polite: 알았어요 or 알겠습니다.","tgt":""}
-{"f":"cards","id":"ko.c0641","k":"meaning","src":"What did you say?","tgt":""}
-{"f":"cards","id":"ko.c0641","k":"note","src":"Casual. 네? (ne?) is the polite 'pardon?'","tgt":""}
-{"f":"cards","id":"ko.c0645","k":"meaning","src":"thing; the one (that…)","tgt":""}
-{"f":"cards","id":"ko.c0645","k":"note","src":"Never alone: 이것 = this thing, 좋은 것 = a good one. Spoken: 거.","tgt":""}
-{"f":"cards","id":"ko.c0646","k":"meaning","src":"way; possibility (in -ㄹ 수 있다)","tgt":""}
-{"f":"cards","id":"ko.c0646","k":"note","src":"갈 수 있어요 = I can go. Never alone.","tgt":""}
-{"f":"cards","id":"ko.c0647","k":"meaning","src":"thing (spoken form of 것)","tgt":""}
-{"f":"cards","id":"ko.c0647","k":"note","src":"이거, 제 거 = mine. What people actually say.","tgt":""}
-{"f":"cards","id":"ko.c0648","k":"meaning","src":"words; what someone says","tgt":""}
-{"f":"cards","id":"ko.c0648","k":"note","src":"말이 빨라요 = you talk fast. 말 also means horse.","tgt":""}
-{"f":"cards","id":"ko.c0649","k":"meaning","src":"work; job; matter","tgt":""}
-{"f":"cards","id":"ko.c0649","k":"note","src":"일이 많아요 = I have a lot of work. Also: day (counter), one (Sino-Korean).","tgt":""}
-{"f":"cards","id":"ko.c0650","k":"meaning","src":"time (when something happens)","tgt":""}
-{"f":"cards","id":"ko.c0650","k":"note","src":"어릴 때 = when I was little; 그때 = back then.","tgt":""}
-{"f":"cards","id":"ko.c0651","k":"meaning","src":"problem; question (on a test)","tgt":""}
-{"f":"cards","id":"ko.c0651","k":"note","src":"문제없어요 = no problem.","tgt":""}
-{"f":"cards","id":"ko.c0652","k":"meaning","src":"inside (deep in)","tgt":""}
-{"f":"cards","id":"ko.c0652","k":"note","src":"마음속 = deep in your heart; 물속 = underwater.","tgt":""}
-{"f":"cards","id":"ko.c0653","k":"meaning","src":"middle; in the middle of","tgt":""}
-{"f":"cards","id":"ko.c0653","k":"note","src":"회의 중이에요 = I'm in a meeting.","tgt":""}
-{"f":"cards","id":"ko.c0654","k":"meaning","src":"thought; idea","tgt":""}
-{"f":"cards","id":"ko.c0654","k":"note","src":"좋은 생각이에요 = good idea. Verb: 생각하다.","tgt":""}
-{"f":"cards","id":"ko.c0655","k":"meaning","src":"sound; noise","tgt":""}
-{"f":"cards","id":"ko.c0655","k":"note","src":"무슨 소리예요? = what's that noise? (also: what nonsense!)","tgt":""}
-{"f":"cards","id":"ko.c0656","k":"meaning","src":"degree; about (an amount)","tgt":""}
-{"f":"cards","id":"ko.c0656","k":"note","src":"한 시간 정도 = about an hour.","tgt":""}
-{"f":"cards","id":"ko.c0657","k":"meaning","src":"child","tgt":""}
-{"f":"cards","id":"ko.c0657","k":"note","src":"Spoken: 애. Polite for someone's child: 아드님 / 따님.","tgt":""}
-{"f":"cards","id":"ko.c0658","k":"meaning","src":"time; hours","tgt":""}
-{"f":"cards","id":"ko.c0658","k":"note","src":"시간 있어요? = are you free? Counted: 두 시간 = two hours.","tgt":""}
-{"f":"cards","id":"ko.c0659","k":"meaning","src":"mother (respectful)","tgt":""}
-{"f":"cards","id":"ko.c0659","k":"note","src":"Family talk: 엄마. Someone else's: 어머님.","tgt":""}
-{"f":"cards","id":"ko.c0660","k":"meaning","src":"next; next time","tgt":""}
-{"f":"cards","id":"ko.c0660","k":"note","src":"다음 주 = next week; 다음에 봐요 = see you next time.","tgt":""}
-{"f":"cards","id":"ko.c0661","k":"meaning","src":"place","tgt":""}
-{"f":"cards","id":"ko.c0661","k":"note","src":"좋은 곳 = a nice place. Spoken also: 데.","tgt":""}
-{"f":"cards","id":"ko.c0662","k":"meaning","src":"world","tgt":""}
-{"f":"cards","id":"ko.c0662","k":"note","src":"세계 여행 = a trip around the world.","tgt":""}
-{"f":"cards","id":"ko.c0663","k":"meaning","src":"money","tgt":""}
-{"f":"cards","id":"ko.c0663","k":"note","src":"돈이 없어요 = I'm broke.","tgt":""}
-{"f":"cards","id":"ko.c0664","k":"meaning","src":"day","tgt":""}
-{"f":"cards","id":"ko.c0664","k":"note","src":"그날 = that day; 좋은 날 = a good day.","tgt":""}
-{"f":"cards","id":"ko.c0665","k":"meaning","src":"heart; mind; feelings","tgt":""}
-{"f":"cards","id":"ko.c0665","k":"note","src":"마음에 들어요 = I like it (it pleases me).","tgt":""}
-{"f":"cards","id":"ko.c0666","k":"meaning","src":"after; later","tgt":""}
-{"f":"cards","id":"ko.c0666","k":"note","src":"밥 먹은 후에 = after eating. Same as 뒤 for time.","tgt":""}
-{"f":"cards","id":"ko.c0667","k":"meaning","src":"father (respectful)","tgt":""}
-{"f":"cards","id":"ko.c0667","k":"note","src":"Family talk: 아빠. Someone else's: 아버님.","tgt":""}
-{"f":"cards","id":"ko.c0668","k":"meaning","src":"body","tgt":""}
-{"f":"cards","id":"ko.c0668","k":"note","src":"몸이 안 좋아요 = I don't feel well.","tgt":""}
-{"f":"cards","id":"ko.c0669","k":"meaning","src":"face","tgt":""}
-{"f":"cards","id":"ko.c0669","k":"note","src":"얼굴이 빨개요 = your face is red.","tgt":""}
-{"f":"cards","id":"ko.c0670","k":"meaning","src":"appearance; how someone looks","tgt":""}
-{"f":"cards","id":"ko.c0670","k":"note","src":"웃는 모습 = the way you look when you smile.","tgt":""}
-{"f":"cards","id":"ko.c0671","k":"meaning","src":"road; way","tgt":""}
-{"f":"cards","id":"ko.c0671","k":"note","src":"길이 막혀요 = the traffic is bad.","tgt":""}
-{"f":"cards","id":"ko.c0672","k":"meaning","src":"daily life; living","tgt":""}
-{"f":"cards","id":"ko.c0672","k":"note","src":"한국 생활 = life in Korea.","tgt":""}
-{"f":"cards","id":"ko.c0673","k":"meaning","src":"way (of doing something); method","tgt":""}
-{"f":"cards","id":"ko.c0673","k":"note","src":"좋은 방법 = a good way to do it.","tgt":""}
-{"f":"cards","id":"ko.c0674","k":"meaning","src":"the first time; the beginning","tgt":""}
-{"f":"cards","id":"ko.c0674","k":"note","src":"처음이에요 = it's my first time.","tgt":""}
-{"f":"cards","id":"ko.c0675","k":"meaning","src":"hand","tgt":""}
-{"f":"cards","id":"ko.c0675","k":"note","src":"손 씻으세요 = wash your hands.","tgt":""}
-{"f":"cards","id":"ko.c0676","k":"meaning","src":"story; talk","tgt":""}
-{"f":"cards","id":"ko.c0676","k":"note","src":"Spoken: 얘기. 이야기해요 = we talk.","tgt":""}
-{"f":"cards","id":"ko.c0677","k":"meaning","src":"company; the office","tgt":""}
-{"f":"cards","id":"ko.c0677","k":"note","src":"회사에 가요 = I'm going to work.","tgt":""}
-{"f":"cards","id":"ko.c0678","k":"meaning","src":"content; what it's about","tgt":""}
-{"f":"cards","id":"ko.c0678","k":"note","src":"무슨 내용이에요? = what's it about?","tgt":""}
-{"f":"cards","id":"ko.c0679","k":"meaning","src":"book","tgt":""}
-{"f":"cards","id":"ko.c0679","k":"note","src":"책을 읽어요. Counted: 한 권.","tgt":""}
-{"f":"cards","id":"ko.c0680","k":"meaning","src":"point; aspect; dot","tgt":""}
-{"f":"cards","id":"ko.c0680","k":"note","src":"좋은 점 = a good point; 점 also = a mole on the skin.","tgt":""}
-{"f":"cards","id":"ko.c0681","k":"meaning","src":"country","tgt":""}
-{"f":"cards","id":"ko.c0681","k":"note","src":"어느 나라 사람이에요? = which country are you from?","tgt":""}
-{"f":"cards","id":"ko.c0682","k":"meaning","src":"student","tgt":""}
-{"f":"cards","id":"ko.c0682","k":"note","src":"학생이에요? = are you a student?","tgt":""}
-{"f":"cards","id":"ko.c0683","k":"meaning","src":"name","tgt":""}
-{"f":"cards","id":"ko.c0683","k":"note","src":"Polite for an elder's name: 성함.","tgt":""}
-{"f":"cards","id":"ko.c0684","k":"meaning","src":"reason","tgt":""}
-{"f":"cards","id":"ko.c0684","k":"note","src":"이유가 뭐예요? = what's the reason?","tgt":""}
-{"f":"cards","id":"ko.c0685","k":"meaning","src":"husband","tgt":""}
-{"f":"cards","id":"ko.c0685","k":"note","src":"Spouses call each other 여보 or 자기.","tgt":""}
-{"f":"cards","id":"ko.c0686","k":"meaning","src":"night","tgt":""}
-{"f":"cards","id":"ko.c0686","k":"note","src":"오늘 밤 = tonight. 밤 also means chestnut.","tgt":""}
-{"f":"cards","id":"ko.c0687","k":"meaning","src":"computer","tgt":""}
-{"f":"cards","id":"ko.c0687","k":"note","src":"컴퓨터가 고장 났어요 = the computer broke.","tgt":""}
-{"f":"cards","id":"ko.c0688","k":"meaning","src":"head; hair","tgt":""}
-{"f":"cards","id":"ko.c0688","k":"note","src":"머리가 아파요 = headache; 머리 잘랐어요 = I got a haircut.","tgt":""}
-{"f":"cards","id":"ko.c0689","k":"meaning","src":"son","tgt":""}
-{"f":"cards","id":"ko.c0689","k":"note","src":"Someone else's son (polite): 아드님.","tgt":""}
-{"f":"cards","id":"ko.c0690","k":"meaning","src":"room","tgt":""}
-{"f":"cards","id":"ko.c0690","k":"note","src":"제 방 = my room. Also -방 places: 노래방, PC방.","tgt":""}
-{"f":"cards","id":"ko.c0691","k":"meaning","src":"end","tgt":""}
-{"f":"cards","id":"ko.c0691","k":"note","src":"끝났어요 = it's over.","tgt":""}
-{"f":"cards","id":"ko.c0692","k":"meaning","src":"sky","tgt":""}
-{"f":"cards","id":"ko.c0692","k":"note","src":"하늘이 맑아요 = the sky is clear.","tgt":""}
-{"f":"cards","id":"ko.c0693","k":"meaning","src":"love (the noun)","tgt":""}
-{"f":"cards","id":"ko.c0693","k":"note","src":"첫사랑 = first love. Verb: 사랑하다.","tgt":""}
-{"f":"cards","id":"ko.c0694","k":"meaning","src":"phone call; telephone","tgt":""}
-{"f":"cards","id":"ko.c0694","k":"note","src":"전화해요 = I call; 전화 왔어요 = there's a call.","tgt":""}
-{"f":"cards","id":"ko.c0695","k":"meaning","src":"taste; flavor","tgt":""}
-{"f":"cards","id":"ko.c0695","k":"note","src":"맛이 어때요? = how does it taste?","tgt":""}
-{"f":"cards","id":"ko.c0696","k":"meaning","src":"food (a dish, cuisine)","tgt":""}
-{"f":"cards","id":"ko.c0696","k":"note","src":"한국 음식 = Korean food.","tgt":""}
-{"f":"cards","id":"ko.c0697","k":"meaning","src":"wife","tgt":""}
-{"f":"cards","id":"ko.c0697","k":"note","src":"Casual: 와이프. Someone else's: 부인.","tgt":""}
-{"f":"cards","id":"ko.c0698","k":"meaning","src":"age","tgt":""}
-{"f":"cards","id":"ko.c0698","k":"note","src":"Polite: 연세. Age decides how people talk to each other.","tgt":""}
-{"f":"cards","id":"ko.c0699","k":"meaning","src":"daughter","tgt":""}
-{"f":"cards","id":"ko.c0699","k":"note","src":"Someone else's daughter (polite): 따님.","tgt":""}
-{"f":"cards","id":"ko.c0700","k":"meaning","src":"mountain","tgt":""}
-{"f":"cards","id":"ko.c0700","k":"note","src":"Korea is two-thirds mountains: 산에 가요 = we go hiking.","tgt":""}
-{"f":"cards","id":"ko.c0701","k":"meaning","src":"door","tgt":""}
+{"f":"cards","id":"ko.c0622","k":"meaning","src":"many / a lot","tgt":"खूप / भरपूर"}
+{"f":"cards","id":"ko.c0622","k":"note","src":"사람이 많아요 = lots of people.","tgt":"사람이 많아요 = खूप लोक आहेत."}
+{"f":"cards","id":"ko.c0623","k":"meaning","src":"expensive","tgt":"महाग"}
+{"f":"cards","id":"ko.c0623","k":"note","src":"너무 비싸요 = too expensive.","tgt":"너무 비싸요 = खूपच महाग."}
+{"f":"cards","id":"ko.c0624","k":"meaning","src":"cheap","tgt":"स्वस्त"}
+{"f":"cards","id":"ko.c0624","k":"note","src":"싸고 좋아요 = cheap and good.","tgt":"싸고 좋아요 = स्वस्त आणि मस्त."}
+{"f":"cards","id":"ko.c0625","k":"meaning","src":"hot (weather)","tgt":"गरम (हवा)"}
+{"f":"cards","id":"ko.c0625","k":"note","src":"뜨거워요 = hot (to touch).","tgt":"뜨거워요 = गरम (स्पर्शाला)."}
+{"f":"cards","id":"ko.c0626","k":"meaning","src":"cold (weather)","tgt":"थंड (हवा)"}
+{"f":"cards","id":"ko.c0626","k":"note","src":"차가워요 = cold (to touch).","tgt":"차가워요 = थंड (स्पर्शाला)."}
+{"f":"cards","id":"ko.c0627","k":"meaning","src":"busy","tgt":"बिझी"}
+{"f":"cards","id":"ko.c0627","k":"note","src":"요즘 바빠요 = busy these days.","tgt":"요즘 바빠요 = सध्या बिझी आहे."}
+{"f":"cards","id":"ko.c0628","k":"meaning","src":"fun / interesting","tgt":"मजेशीर / रंजक"}
+{"f":"cards","id":"ko.c0628","k":"note","src":"재미없어요 = boring.","tgt":"재미없어요 = कंटाळवाणं."}
+{"f":"cards","id":"ko.c0629","k":"meaning","src":"hard / exhausting","tgt":"अवघड / दमवणारं"}
+{"f":"cards","id":"ko.c0629","k":"note","src":"Complaint of choice.","tgt":"तक्रार करायचा आवडता शब्द."}
+{"f":"cards","id":"ko.c0630","k":"meaning","src":"Really?","tgt":"खरंच?"}
+{"f":"cards","id":"ko.c0630","k":"note","src":"Also 진짜로. 정말? (jeongmal) is slightly softer.","tgt":"진짜로 असंही. 정말? (jeongmal) थोडं सौम्य."}
+{"f":"cards","id":"ko.c0631","k":"meaning","src":"Awesome / no way","tgt":"भारी! / बापरे!"}
+{"f":"cards","id":"ko.c0631","k":"note","src":"Good or bad surprise. 대박 사건 = huge deal.","tgt":"चांगलं किंवा वाईट आश्चर्य. 대박 사건 = मोठीच गोष्ट."}
+{"f":"cards","id":"ko.c0632","k":"meaning","src":"OMG / what","tgt":"हैं?! / काय?!"}
+{"f":"cards","id":"ko.c0632","k":"note","src":"Stunned reaction. Mostly texting and casual speech.","tgt":"थक्क झाल्यावरची प्रतिक्रिया. बहुतेक मेसेजमध्ये आणि अनौपचारिक बोलण्यात."}
+{"f":"cards","id":"ko.c0633","k":"meaning","src":"Oh my / ugh","tgt":"अरे देवा"}
+{"f":"cards","id":"ko.c0633","k":"note","src":"Sigh word for any small misfortune.","tgt":"कोणत्याही छोट्या संकटावरचा उसासा."}
+{"f":"cards","id":"ko.c0634","k":"meaning","src":"It's okay","tgt":"ठीक आहे"}
+{"f":"cards","id":"ko.c0634","k":"note","src":"Casual. Said while clearly not okay.","tgt":"अनौपचारिक. बऱ्याचदा अजिबात ठीक नसताना म्हणतात."}
+{"f":"cards","id":"ko.c0635","k":"meaning","src":"Are you crazy?","tgt":"वेड लागलंय का?"}
+{"f":"cards","id":"ko.c0635","k":"note","src":"Casual, often affectionate.","tgt":"अनौपचारिक, बऱ्याचदा प्रेमाने."}
+{"f":"cards","id":"ko.c0636","k":"meaning","src":"Don't go","tgt":"जाऊ नकोस"}
+{"f":"cards","id":"ko.c0636","k":"note","src":"Verb stem + 지 마 = don't.","tgt":"क्रियापदाचं मूळ + 지 마 = …ू नकोस."}
+{"f":"cards","id":"ko.c0637","k":"meaning","src":"I missed you","tgt":"तुझी खूप आठवण आली"}
+{"f":"cards","id":"ko.c0637","k":"note","src":"Past of 보고 싶어.","tgt":"보고 싶어 चा भूतकाळ."}
+{"f":"cards","id":"ko.c0638","k":"meaning","src":"What do I do / oh no","tgt":"आता काय करू?"}
+{"f":"cards","id":"ko.c0638","k":"note","src":"Said with hands on face.","tgt":"चेहऱ्यावर हात ठेवून म्हणतात."}
+{"f":"cards","id":"ko.c0639","k":"meaning","src":"You got this!","tgt":"ऑल द बेस्ट!"}
+{"f":"cards","id":"ko.c0639","k":"note","src":"From 'fighting'. Cheer before anything hard.","tgt":"इंग्रजी \"फायटिंग\" वरून. कोणत्याही अवघड कामाआधी प्रोत्साहन."}
+{"f":"cards","id":"ko.c0640","k":"meaning","src":"Got it / okay","tgt":"समजलं / ठीक आहे"}
+{"f":"cards","id":"ko.c0640","k":"note","src":"Polite: 알았어요 or 알겠습니다.","tgt":"सभ्य: 알았어요 किंवा 알겠습니다."}
+{"f":"cards","id":"ko.c0641","k":"meaning","src":"What did you say?","tgt":"काय म्हटलं?"}
+{"f":"cards","id":"ko.c0641","k":"note","src":"Casual. 네? (ne?) is the polite 'pardon?'","tgt":"अनौपचारिक. सभ्यपणे \"काय म्हणालात?\" = 네? (ne?)"}
+{"f":"cards","id":"ko.c0645","k":"meaning","src":"thing; the one (that…)","tgt":"वस्तू; (…असलेली) गोष्ट"}
+{"f":"cards","id":"ko.c0645","k":"note","src":"Never alone: 이것 = this thing, 좋은 것 = a good one. Spoken: 거.","tgt":"कधीच एकटा नाही: 이것 = ही वस्तू, 좋은 것 = चांगली गोष्ट. बोलताना: 거."}
+{"f":"cards","id":"ko.c0646","k":"meaning","src":"way; possibility (in -ㄹ 수 있다)","tgt":"मार्ग; शक्यता (-ㄹ 수 있다 मध्ये)"}
+{"f":"cards","id":"ko.c0646","k":"note","src":"갈 수 있어요 = I can go. Never alone.","tgt":"갈 수 있어요 = मला जाता येईल. कधीच एकटा नाही."}
+{"f":"cards","id":"ko.c0647","k":"meaning","src":"thing (spoken form of 것)","tgt":"वस्तू (것 चं बोलीतलं रूप)"}
+{"f":"cards","id":"ko.c0647","k":"note","src":"이거, 제 거 = mine. What people actually say.","tgt":"이거, 제 거 = माझं. लोक खरंतर हेच बोलतात."}
+{"f":"cards","id":"ko.c0648","k":"meaning","src":"words; what someone says","tgt":"शब्द; बोलणं"}
+{"f":"cards","id":"ko.c0648","k":"note","src":"말이 빨라요 = you talk fast. 말 also means horse.","tgt":"말이 빨라요 = तुम्ही भराभर बोलता. 말 म्हणजे घोडासुद्धा."}
+{"f":"cards","id":"ko.c0649","k":"meaning","src":"work; job; matter","tgt":"काम; नोकरी; बाब"}
+{"f":"cards","id":"ko.c0649","k":"note","src":"일이 많아요 = I have a lot of work. Also: day (counter), one (Sino-Korean).","tgt":"일이 많아요 = मला खूप काम आहे. शिवाय: दिवस (मोजणी शब्द), एक (सिनो-कोरियन)."}
+{"f":"cards","id":"ko.c0650","k":"meaning","src":"time (when something happens)","tgt":"वेळ (एखादी गोष्ट घडते तेव्हा)"}
+{"f":"cards","id":"ko.c0650","k":"note","src":"어릴 때 = when I was little; 그때 = back then.","tgt":"어릴 때 = मी लहान असताना; 그때 = तेव्हा."}
+{"f":"cards","id":"ko.c0651","k":"meaning","src":"problem; question (on a test)","tgt":"समस्या; (परीक्षेतला) प्रश्न"}
+{"f":"cards","id":"ko.c0651","k":"note","src":"문제없어요 = no problem.","tgt":"문제없어요 = काही प्रॉब्लेम नाही."}
+{"f":"cards","id":"ko.c0652","k":"meaning","src":"inside (deep in)","tgt":"आतला भाग (खोल आत)"}
+{"f":"cards","id":"ko.c0652","k":"note","src":"마음속 = deep in your heart; 물속 = underwater.","tgt":"마음속 = मनात खोलवर; 물속 = पाण्याखाली."}
+{"f":"cards","id":"ko.c0653","k":"meaning","src":"middle; in the middle of","tgt":"मध्य; …चालू असताना"}
+{"f":"cards","id":"ko.c0653","k":"note","src":"회의 중이에요 = I'm in a meeting.","tgt":"회의 중이에요 = मी मीटिंगमध्ये आहे."}
+{"f":"cards","id":"ko.c0654","k":"meaning","src":"thought; idea","tgt":"विचार; कल्पना"}
+{"f":"cards","id":"ko.c0654","k":"note","src":"좋은 생각이에요 = good idea. Verb: 생각하다.","tgt":"좋은 생각이에요 = छान कल्पना आहे. क्रियापद: 생각하다."}
+{"f":"cards","id":"ko.c0655","k":"meaning","src":"sound; noise","tgt":"आवाज"}
+{"f":"cards","id":"ko.c0655","k":"note","src":"무슨 소리예요? = what's that noise? (also: what nonsense!)","tgt":"무슨 소리예요? = हा कसला आवाज? (आणि: काय बोलताय हे!)"}
+{"f":"cards","id":"ko.c0656","k":"meaning","src":"degree; about (an amount)","tgt":"प्रमाण; साधारण"}
+{"f":"cards","id":"ko.c0656","k":"note","src":"한 시간 정도 = about an hour.","tgt":"한 시간 정도 = साधारण एक तास."}
+{"f":"cards","id":"ko.c0657","k":"meaning","src":"child","tgt":"मूल"}
+{"f":"cards","id":"ko.c0657","k":"note","src":"Spoken: 애. Polite for someone's child: 아드님 / 따님.","tgt":"बोलताना: 애. दुसऱ्याच्या मुलासाठी सभ्य: 아드님 / 따님."}
+{"f":"cards","id":"ko.c0658","k":"meaning","src":"time; hours","tgt":"वेळ; तास"}
+{"f":"cards","id":"ko.c0658","k":"note","src":"시간 있어요? = are you free? Counted: 두 시간 = two hours.","tgt":"시간 있어요? = तुम्हाला वेळ आहे का? मोजताना: 두 시간 = दोन तास."}
+{"f":"cards","id":"ko.c0659","k":"meaning","src":"mother (respectful)","tgt":"आई (आदराने)"}
+{"f":"cards","id":"ko.c0659","k":"note","src":"Family talk: 엄마. Someone else's: 어머님.","tgt":"घरात: 엄마. दुसऱ्याची आई: 어머님."}
+{"f":"cards","id":"ko.c0660","k":"meaning","src":"next; next time","tgt":"पुढचा; पुढच्या वेळी"}
+{"f":"cards","id":"ko.c0660","k":"note","src":"다음 주 = next week; 다음에 봐요 = see you next time.","tgt":"다음 주 = पुढचा आठवडा; 다음에 봐요 = पुढच्या वेळी भेटू."}
+{"f":"cards","id":"ko.c0661","k":"meaning","src":"place","tgt":"जागा"}
+{"f":"cards","id":"ko.c0661","k":"note","src":"좋은 곳 = a nice place. Spoken also: 데.","tgt":"좋은 곳 = छान जागा. बोलताना 데 सुद्धा."}
+{"f":"cards","id":"ko.c0662","k":"meaning","src":"world","tgt":"जग"}
+{"f":"cards","id":"ko.c0662","k":"note","src":"세계 여행 = a trip around the world.","tgt":"세계 여행 = जगाची सफर."}
+{"f":"cards","id":"ko.c0663","k":"meaning","src":"money","tgt":"पैसे"}
+{"f":"cards","id":"ko.c0663","k":"note","src":"돈이 없어요 = I'm broke.","tgt":"돈이 없어요 = माझ्याकडे पैसे नाहीत."}
+{"f":"cards","id":"ko.c0664","k":"meaning","src":"day","tgt":"दिवस"}
+{"f":"cards","id":"ko.c0664","k":"note","src":"그날 = that day; 좋은 날 = a good day.","tgt":"그날 = त्या दिवशी; 좋은 날 = चांगला दिवस."}
+{"f":"cards","id":"ko.c0665","k":"meaning","src":"heart; mind; feelings","tgt":"मन; भावना"}
+{"f":"cards","id":"ko.c0665","k":"note","src":"마음에 들어요 = I like it (it pleases me).","tgt":"마음에 들어요 = मला आवडलं (मनात भरलं)."}
+{"f":"cards","id":"ko.c0666","k":"meaning","src":"after; later","tgt":"नंतर"}
+{"f":"cards","id":"ko.c0666","k":"note","src":"밥 먹은 후에 = after eating. Same as 뒤 for time.","tgt":"밥 먹은 후에 = जेवल्यानंतर. वेळेसाठी 뒤 सारखाच."}
+{"f":"cards","id":"ko.c0667","k":"meaning","src":"father (respectful)","tgt":"वडील (आदराने)"}
+{"f":"cards","id":"ko.c0667","k":"note","src":"Family talk: 아빠. Someone else's: 아버님.","tgt":"घरात: 아빠. दुसऱ्याचे वडील: 아버님."}
+{"f":"cards","id":"ko.c0668","k":"meaning","src":"body","tgt":"शरीर"}
+{"f":"cards","id":"ko.c0668","k":"note","src":"몸이 안 좋아요 = I don't feel well.","tgt":"몸이 안 좋아요 = मला बरं वाटत नाही."}
+{"f":"cards","id":"ko.c0669","k":"meaning","src":"face","tgt":"चेहरा"}
+{"f":"cards","id":"ko.c0669","k":"note","src":"얼굴이 빨개요 = your face is red.","tgt":"얼굴이 빨개요 = तुमचा चेहरा लाल झालाय."}
+{"f":"cards","id":"ko.c0670","k":"meaning","src":"appearance; how someone looks","tgt":"रूप; कोणी कसं दिसतं"}
+{"f":"cards","id":"ko.c0670","k":"note","src":"웃는 모습 = the way you look when you smile.","tgt":"웃는 모습 = हसतानाचं तुमचं रूप."}
+{"f":"cards","id":"ko.c0671","k":"meaning","src":"road; way","tgt":"रस्ता; वाट"}
+{"f":"cards","id":"ko.c0671","k":"note","src":"길이 막혀요 = the traffic is bad.","tgt":"길이 막혀요 = ट्रॅफिक जॅम आहे."}
+{"f":"cards","id":"ko.c0672","k":"meaning","src":"daily life; living","tgt":"रोजचं आयुष्य; राहणं"}
+{"f":"cards","id":"ko.c0672","k":"note","src":"한국 생활 = life in Korea.","tgt":"한국 생활 = कोरियातलं आयुष्य."}
+{"f":"cards","id":"ko.c0673","k":"meaning","src":"way (of doing something); method","tgt":"पद्धत; मार्ग"}
+{"f":"cards","id":"ko.c0673","k":"note","src":"좋은 방법 = a good way to do it.","tgt":"좋은 방법 = चांगली पद्धत."}
+{"f":"cards","id":"ko.c0674","k":"meaning","src":"the first time; the beginning","tgt":"पहिल्यांदा; सुरुवात"}
+{"f":"cards","id":"ko.c0674","k":"note","src":"처음이에요 = it's my first time.","tgt":"처음이에요 = माझी ही पहिलीच वेळ आहे."}
+{"f":"cards","id":"ko.c0675","k":"meaning","src":"hand","tgt":"हात"}
+{"f":"cards","id":"ko.c0675","k":"note","src":"손 씻으세요 = wash your hands.","tgt":"손 씻으세요 = हात धुवा."}
+{"f":"cards","id":"ko.c0676","k":"meaning","src":"story; talk","tgt":"गोष्ट; गप्पा"}
+{"f":"cards","id":"ko.c0676","k":"note","src":"Spoken: 얘기. 이야기해요 = we talk.","tgt":"बोलताना: 얘기. 이야기해요 = आपण गप्पा मारत आहोत."}
+{"f":"cards","id":"ko.c0677","k":"meaning","src":"company; the office","tgt":"कंपनी; ऑफिस"}
+{"f":"cards","id":"ko.c0677","k":"note","src":"회사에 가요 = I'm going to work.","tgt":"회사에 가요 = मी कामावर जात आहे."}
+{"f":"cards","id":"ko.c0678","k":"meaning","src":"content; what it's about","tgt":"मजकूर; कशाबद्दल आहे ते"}
+{"f":"cards","id":"ko.c0678","k":"note","src":"무슨 내용이에요? = what's it about?","tgt":"무슨 내용이에요? = हे कशाबद्दल आहे?"}
+{"f":"cards","id":"ko.c0679","k":"meaning","src":"book","tgt":"पुस्तक"}
+{"f":"cards","id":"ko.c0679","k":"note","src":"책을 읽어요. Counted: 한 권.","tgt":"책을 읽어요. मोजताना: 한 권."}
+{"f":"cards","id":"ko.c0680","k":"meaning","src":"point; aspect; dot","tgt":"मुद्दा; बाजू; ठिपका"}
+{"f":"cards","id":"ko.c0680","k":"note","src":"좋은 점 = a good point; 점 also = a mole on the skin.","tgt":"좋은 점 = चांगली बाजू; 점 म्हणजे अंगावरचा तीळही."}
+{"f":"cards","id":"ko.c0681","k":"meaning","src":"country","tgt":"देश"}
+{"f":"cards","id":"ko.c0681","k":"note","src":"어느 나라 사람이에요? = which country are you from?","tgt":"어느 나라 사람이에요? = तुम्ही कोणत्या देशाचे आहात?"}
+{"f":"cards","id":"ko.c0682","k":"meaning","src":"student","tgt":"विद्यार्थी"}
+{"f":"cards","id":"ko.c0682","k":"note","src":"학생이에요? = are you a student?","tgt":"학생이에요? = तुम्ही विद्यार्थी आहात का?"}
+{"f":"cards","id":"ko.c0683","k":"meaning","src":"name","tgt":"नाव"}
+{"f":"cards","id":"ko.c0683","k":"note","src":"Polite for an elder's name: 성함.","tgt":"वडीलधाऱ्यांच्या नावासाठी सभ्य शब्द: 성함."}
+{"f":"cards","id":"ko.c0684","k":"meaning","src":"reason","tgt":"कारण"}
+{"f":"cards","id":"ko.c0684","k":"note","src":"이유가 뭐예요? = what's the reason?","tgt":"이유가 뭐예요? = कारण काय?"}
+{"f":"cards","id":"ko.c0685","k":"meaning","src":"husband","tgt":"नवरा"}
+{"f":"cards","id":"ko.c0685","k":"note","src":"Spouses call each other 여보 or 자기.","tgt":"नवरा-बायको एकमेकांना 여보 किंवा 자기 म्हणतात."}
+{"f":"cards","id":"ko.c0686","k":"meaning","src":"night","tgt":"रात्र"}
+{"f":"cards","id":"ko.c0686","k":"note","src":"오늘 밤 = tonight. 밤 also means chestnut.","tgt":"오늘 밤 = आज रात्री. 밤 म्हणजे चेस्टनटही."}
+{"f":"cards","id":"ko.c0687","k":"meaning","src":"computer","tgt":"कॉम्प्युटर"}
+{"f":"cards","id":"ko.c0687","k":"note","src":"컴퓨터가 고장 났어요 = the computer broke.","tgt":"컴퓨터가 고장 났어요 = कॉम्प्युटर बिघडला."}
+{"f":"cards","id":"ko.c0688","k":"meaning","src":"head; hair","tgt":"डोकं; केस"}
+{"f":"cards","id":"ko.c0688","k":"note","src":"머리가 아파요 = headache; 머리 잘랐어요 = I got a haircut.","tgt":"머리가 아파요 = डोकं दुखतंय; 머리 잘랐어요 = मी केस कापले."}
+{"f":"cards","id":"ko.c0689","k":"meaning","src":"son","tgt":"मुलगा"}
+{"f":"cards","id":"ko.c0689","k":"note","src":"Someone else's son (polite): 아드님.","tgt":"दुसऱ्याचा मुलगा (सभ्य): 아드님."}
+{"f":"cards","id":"ko.c0690","k":"meaning","src":"room","tgt":"खोली"}
+{"f":"cards","id":"ko.c0690","k":"note","src":"제 방 = my room. Also -방 places: 노래방, PC방.","tgt":"제 방 = माझी खोली. -방 ठिकाणंही: 노래방, PC방."}
+{"f":"cards","id":"ko.c0691","k":"meaning","src":"end","tgt":"शेवट"}
+{"f":"cards","id":"ko.c0691","k":"note","src":"끝났어요 = it's over.","tgt":"끝났어요 = संपलं."}
+{"f":"cards","id":"ko.c0692","k":"meaning","src":"sky","tgt":"आकाश"}
+{"f":"cards","id":"ko.c0692","k":"note","src":"하늘이 맑아요 = the sky is clear.","tgt":"하늘이 맑아요 = आकाश निरभ्र आहे."}
+{"f":"cards","id":"ko.c0693","k":"meaning","src":"love (the noun)","tgt":"प्रेम (नाम)"}
+{"f":"cards","id":"ko.c0693","k":"note","src":"첫사랑 = first love. Verb: 사랑하다.","tgt":"첫사랑 = पहिलं प्रेम. क्रियापद: 사랑하다."}
+{"f":"cards","id":"ko.c0694","k":"meaning","src":"phone call; telephone","tgt":"फोन कॉल; टेलिफोन"}
+{"f":"cards","id":"ko.c0694","k":"note","src":"전화해요 = I call; 전화 왔어요 = there's a call.","tgt":"전화해요 = मी फोन करत आहे; 전화 왔어요 = फोन आलाय."}
+{"f":"cards","id":"ko.c0695","k":"meaning","src":"taste; flavor","tgt":"चव"}
+{"f":"cards","id":"ko.c0695","k":"note","src":"맛이 어때요? = how does it taste?","tgt":"맛이 어때요? = चव कशी आहे?"}
+{"f":"cards","id":"ko.c0696","k":"meaning","src":"food (a dish, cuisine)","tgt":"अन्न (पदार्थ, खाद्यसंस्कृती)"}
+{"f":"cards","id":"ko.c0696","k":"note","src":"한국 음식 = Korean food.","tgt":"한국 음식 = कोरियन जेवण."}
+{"f":"cards","id":"ko.c0697","k":"meaning","src":"wife","tgt":"बायको"}
+{"f":"cards","id":"ko.c0697","k":"note","src":"Casual: 와이프. Someone else's: 부인.","tgt":"अनौपचारिक: 와이프. दुसऱ्याची बायको: 부인."}
+{"f":"cards","id":"ko.c0698","k":"meaning","src":"age","tgt":"वय"}
+{"f":"cards","id":"ko.c0698","k":"note","src":"Polite: 연세. Age decides how people talk to each other.","tgt":"सभ्य: 연세. कोणी कसं बोलायचं ते वयावरून ठरतं."}
+{"f":"cards","id":"ko.c0699","k":"meaning","src":"daughter","tgt":"मुलगी"}
+{"f":"cards","id":"ko.c0699","k":"note","src":"Someone else's daughter (polite): 따님.","tgt":"दुसऱ्याची मुलगी (सभ्य): 따님."}
+{"f":"cards","id":"ko.c0700","k":"meaning","src":"mountain","tgt":"डोंगर"}
+{"f":"cards","id":"ko.c0700","k":"note","src":"Korea is two-thirds mountains: 산에 가요 = we go hiking.","tgt":"कोरियाचा दोन-तृतीयांश भाग डोंगराळ आहे: 산에 가요 = आम्ही ट्रेकिंगला जात आहोत."}
+{"f":"cards","id":"ko.c0701","k":"meaning","src":"door","tgt":"दार"}
 {"f":"cards","id":"ko.c0701","k":"note","src":"문 좀 닫아 주세요.","tgt":"문 좀 닫아 주세요.","pre":1}
-{"f":"cards","id":"ko.c0702","k":"meaning","src":"song","tgt":""}
-{"f":"cards","id":"ko.c0702","k":"note","src":"노래 불러요 = I sing.","tgt":""}
-{"f":"cards","id":"ko.c0703","k":"meaning","src":"sea; beach","tgt":""}
-{"f":"cards","id":"ko.c0703","k":"note","src":"바다에 가요 = we're going to the beach.","tgt":""}
-{"f":"cards","id":"ko.c0704","k":"meaning","src":"mood; how you feel","tgt":""}
-{"f":"cards","id":"ko.c0704","k":"note","src":"기분이 어때요? = how are you feeling?","tgt":""}
-{"f":"cards","id":"ko.c0705","k":"meaning","src":"clothes","tgt":""}
-{"f":"cards","id":"ko.c0705","k":"note","src":"옷이 예뻐요. Counted: 한 벌.","tgt":""}
-{"f":"cards","id":"ko.c0706","k":"meaning","src":"dream","tgt":""}
-{"f":"cards","id":"ko.c0706","k":"note","src":"꿈을 꿔요 = I have a dream (asleep).","tgt":""}
-{"f":"cards","id":"ko.c0707","k":"meaning","src":"thing; item (an object you buy or own)","tgt":""}
-{"f":"cards","id":"ko.c0707","k":"note","src":"물건을 사요 = I buy things.","tgt":""}
-{"f":"cards","id":"ko.c0708","k":"meaning","src":"experience","tgt":""}
-{"f":"cards","id":"ko.c0708","k":"note","src":"좋은 경험이었어요 = it was a good experience.","tgt":""}
-{"f":"cards","id":"ko.c0709","k":"meaning","src":"rain","tgt":""}
-{"f":"cards","id":"ko.c0709","k":"note","src":"비가 와요 = it's raining (rain comes).","tgt":""}
-{"f":"cards","id":"ko.c0710","k":"meaning","src":"hometown","tgt":""}
-{"f":"cards","id":"ko.c0710","k":"note","src":"고향이 어디예요? = where are you from originally?","tgt":""}
-{"f":"cards","id":"ko.c0711","k":"meaning","src":"baby","tgt":""}
-{"f":"cards","id":"ko.c0711","k":"note","src":"아기가 자요 = the baby is sleeping.","tgt":""}
-{"f":"cards","id":"ko.c0712","k":"meaning","src":"middle-aged man; sir (to a stranger)","tgt":""}
-{"f":"cards","id":"ko.c0712","k":"note","src":"To taxi drivers, shopkeepers. Don't use it to a young man.","tgt":""}
-{"f":"cards","id":"ko.c0713","k":"meaning","src":"month; the moon","tgt":""}
-{"f":"cards","id":"ko.c0713","k":"note","src":"이번 달 = this month. Counted: 한 달.","tgt":""}
-{"f":"cards","id":"ko.c0714","k":"meaning","src":"the last (one)","tgt":""}
-{"f":"cards","id":"ko.c0714","k":"note","src":"마지막 기회 = the last chance.","tgt":""}
+{"f":"cards","id":"ko.c0702","k":"meaning","src":"song","tgt":"गाणं"}
+{"f":"cards","id":"ko.c0702","k":"note","src":"노래 불러요 = I sing.","tgt":"노래 불러요 = मी गाणं म्हणत आहे."}
+{"f":"cards","id":"ko.c0703","k":"meaning","src":"sea; beach","tgt":"समुद्र; बीच"}
+{"f":"cards","id":"ko.c0703","k":"note","src":"바다에 가요 = we're going to the beach.","tgt":"바다에 가요 = आम्ही बीचवर जात आहोत."}
+{"f":"cards","id":"ko.c0704","k":"meaning","src":"mood; how you feel","tgt":"मूड; कसं वाटतंय"}
+{"f":"cards","id":"ko.c0704","k":"note","src":"기분이 어때요? = how are you feeling?","tgt":"기분이 어때요? = तुम्हाला कसं वाटतंय?"}
+{"f":"cards","id":"ko.c0705","k":"meaning","src":"clothes","tgt":"कपडे"}
+{"f":"cards","id":"ko.c0705","k":"note","src":"옷이 예뻐요. Counted: 한 벌.","tgt":"옷이 예뻐요. मोजताना: 한 벌."}
+{"f":"cards","id":"ko.c0706","k":"meaning","src":"dream","tgt":"स्वप्न"}
+{"f":"cards","id":"ko.c0706","k":"note","src":"꿈을 꿔요 = I have a dream (asleep).","tgt":"꿈을 꿔요 = मला स्वप्न पडतं (झोपेत)."}
+{"f":"cards","id":"ko.c0707","k":"meaning","src":"thing; item (an object you buy or own)","tgt":"वस्तू (विकत घेतलेली किंवा मालकीची)"}
+{"f":"cards","id":"ko.c0707","k":"note","src":"물건을 사요 = I buy things.","tgt":"물건을 사요 = मी वस्तू विकत घेत आहे."}
+{"f":"cards","id":"ko.c0708","k":"meaning","src":"experience","tgt":"अनुभव"}
+{"f":"cards","id":"ko.c0708","k":"note","src":"좋은 경험이었어요 = it was a good experience.","tgt":"좋은 경험이었어요 = चांगला अनुभव होता."}
+{"f":"cards","id":"ko.c0709","k":"meaning","src":"rain","tgt":"पाऊस"}
+{"f":"cards","id":"ko.c0709","k":"note","src":"비가 와요 = it's raining (rain comes).","tgt":"비가 와요 = पाऊस पडतोय (शब्दशः \"पाऊस येतो\")."}
+{"f":"cards","id":"ko.c0710","k":"meaning","src":"hometown","tgt":"मूळ गाव"}
+{"f":"cards","id":"ko.c0710","k":"note","src":"고향이 어디예요? = where are you from originally?","tgt":"고향이 어디예요? = तुमचं मूळ गाव कोणतं?"}
+{"f":"cards","id":"ko.c0711","k":"meaning","src":"baby","tgt":"बाळ"}
+{"f":"cards","id":"ko.c0711","k":"note","src":"아기가 자요 = the baby is sleeping.","tgt":"아기가 자요 = बाळ झोपलंय."}
+{"f":"cards","id":"ko.c0712","k":"meaning","src":"middle-aged man; sir (to a stranger)","tgt":"काका (मध्यमवयीन पुरुष)"}
+{"f":"cards","id":"ko.c0712","k":"note","src":"To taxi drivers, shopkeepers. Don't use it to a young man.","tgt":"टॅक्सी ड्रायव्हर, दुकानदार यांना म्हणतात. तरुण मुलाला वापरू नका."}
+{"f":"cards","id":"ko.c0713","k":"meaning","src":"month; the moon","tgt":"महिना; चंद्र"}
+{"f":"cards","id":"ko.c0713","k":"note","src":"이번 달 = this month. Counted: 한 달.","tgt":"이번 달 = हा महिना. मोजताना: 한 달."}
+{"f":"cards","id":"ko.c0714","k":"meaning","src":"the last (one)","tgt":"शेवटचा"}
+{"f":"cards","id":"ko.c0714","k":"note","src":"마지막 기회 = the last chance.","tgt":"마지막 기회 = शेवटची संधी."}

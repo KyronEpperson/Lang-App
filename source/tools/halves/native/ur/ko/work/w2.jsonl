@@ -1,175 +1,175 @@
-{"f":"cards","id":"ko.c0715","k":"meaning","src":"health","tgt":""}
-{"f":"cards","id":"ko.c0715","k":"note","src":"건강하세요 = stay healthy (a common goodbye to elders).","tgt":""}
-{"f":"cards","id":"ko.c0716","k":"meaning","src":"bus","tgt":""}
-{"f":"cards","id":"ko.c0716","k":"note","src":"버스 타요 = I take the bus.","tgt":""}
-{"f":"cards","id":"ko.c0717","k":"meaning","src":"photo","tgt":""}
-{"f":"cards","id":"ko.c0717","k":"note","src":"사진 찍어도 돼요? = may I take a photo?","tgt":""}
-{"f":"cards","id":"ko.c0718","k":"meaning","src":"meaning","tgt":""}
-{"f":"cards","id":"ko.c0718","k":"note","src":"이게 무슨 뜻이에요? = what does this mean?","tgt":""}
-{"f":"cards","id":"ko.c0719","k":"meaning","src":"car","tgt":""}
-{"f":"cards","id":"ko.c0719","k":"note","src":"Everyday: 차, which also means tea.","tgt":""}
-{"f":"cards","id":"ko.c0720","k":"meaning","src":"half; class (at school)","tgt":""}
-{"f":"cards","id":"ko.c0720","k":"note","src":"한 시 반 = half past one; 우리 반 = our class.","tgt":""}
-{"f":"cards","id":"ko.c0721","k":"meaning","src":"price","tgt":""}
-{"f":"cards","id":"ko.c0721","k":"note","src":"Spoken also: 값. 가격이 얼마예요?","tgt":""}
-{"f":"cards","id":"ko.c0722","k":"meaning","src":"mobile phone","tgt":""}
-{"f":"cards","id":"ko.c0722","k":"note","src":"Also 휴대폰; casual 폰.","tgt":""}
-{"f":"cards","id":"ko.c0723","k":"meaning","src":"neighborhood","tgt":""}
-{"f":"cards","id":"ko.c0723","k":"note","src":"우리 동네 = my neighborhood.","tgt":""}
-{"f":"cards","id":"ko.c0724","k":"meaning","src":"English (the language)","tgt":"","rw":"mentions English"}
-{"f":"cards","id":"ko.c0724","k":"note","src":"영어 선생님 = English teacher.","tgt":"","rw":"mentions English"}
-{"f":"cards","id":"ko.c0725","k":"meaning","src":"question","tgt":""}
-{"f":"cards","id":"ko.c0725","k":"note","src":"질문 있어요 = I have a question.","tgt":""}
-{"f":"cards","id":"ko.c0726","k":"meaning","src":"parents","tgt":""}
-{"f":"cards","id":"ko.c0726","k":"note","src":"Always with 님, even your own.","tgt":""}
-{"f":"cards","id":"ko.c0727","k":"meaning","src":"shop; store","tgt":""}
-{"f":"cards","id":"ko.c0727","k":"note","src":"작은 가게 = a small shop.","tgt":""}
-{"f":"cards","id":"ko.c0728","k":"meaning","src":"weather","tgt":""}
+{"f":"cards","id":"ko.c0715","k":"meaning","src":"health","tgt":"صحت"}
+{"f":"cards","id":"ko.c0715","k":"note","src":"건강하세요 = stay healthy (a common goodbye to elders).","tgt":"مثال: 건강하세요 = اپنی صحت کا خیال رکھیے (بزرگوں سے رخصت ہوتے وقت عام جملہ)۔"}
+{"f":"cards","id":"ko.c0716","k":"meaning","src":"bus","tgt":"بس"}
+{"f":"cards","id":"ko.c0716","k":"note","src":"버스 타요 = I take the bus.","tgt":"مثال: 버스 타요 = میں بس سے جاتا/جاتی ہوں۔"}
+{"f":"cards","id":"ko.c0717","k":"meaning","src":"photo","tgt":"تصویر"}
+{"f":"cards","id":"ko.c0717","k":"note","src":"사진 찍어도 돼요? = may I take a photo?","tgt":"مثال: 사진 찍어도 돼요 = تصویر لے لوں؟"}
+{"f":"cards","id":"ko.c0718","k":"meaning","src":"meaning","tgt":"مطلب"}
+{"f":"cards","id":"ko.c0718","k":"note","src":"이게 무슨 뜻이에요? = what does this mean?","tgt":"مثال: 이게 무슨 뜻이에요 = اس کا کیا مطلب ہے؟"}
+{"f":"cards","id":"ko.c0719","k":"meaning","src":"car","tgt":"گاڑی"}
+{"f":"cards","id":"ko.c0719","k":"note","src":"Everyday: 차, which also means tea.","tgt":"روزمرہ میں: 차، جس کا مطلب چائے بھی ہے۔"}
+{"f":"cards","id":"ko.c0720","k":"meaning","src":"half; class (at school)","tgt":"آدھا؛ کلاس (سکول میں)"}
+{"f":"cards","id":"ko.c0720","k":"note","src":"한 시 반 = half past one; 우리 반 = our class.","tgt":"مثال: 한 시 반 = ڈیڑھ بجے؛ 우리 반 = ہماری کلاس۔"}
+{"f":"cards","id":"ko.c0721","k":"meaning","src":"price","tgt":"قیمت"}
+{"f":"cards","id":"ko.c0721","k":"note","src":"Spoken also: 값. 가격이 얼마예요?","tgt":"بول چال میں یہ بھی: 값۔ مثال: 가격이 얼마예요 (قیمت کیا ہے؟)"}
+{"f":"cards","id":"ko.c0722","k":"meaning","src":"mobile phone","tgt":"موبائل فون"}
+{"f":"cards","id":"ko.c0722","k":"note","src":"Also 휴대폰; casual 폰.","tgt":"یہ بھی: 휴대폰؛ بے تکلف: 폰۔"}
+{"f":"cards","id":"ko.c0723","k":"meaning","src":"neighborhood","tgt":"محلہ"}
+{"f":"cards","id":"ko.c0723","k":"note","src":"우리 동네 = my neighborhood.","tgt":"مثال: 우리 동네 = میرا محلہ۔"}
+{"f":"cards","id":"ko.c0724","k":"meaning","src":"English (the language)","tgt":"انگریزی (زبان)","rw":"mentions English"}
+{"f":"cards","id":"ko.c0724","k":"note","src":"영어 선생님 = English teacher.","tgt":"مثال: 영어 선생님 = انگریزی کے استاد۔","rw":"mentions English"}
+{"f":"cards","id":"ko.c0725","k":"meaning","src":"question","tgt":"سوال"}
+{"f":"cards","id":"ko.c0725","k":"note","src":"질문 있어요 = I have a question.","tgt":"مثال: 질문 있어요 = میرا ایک سوال ہے۔"}
+{"f":"cards","id":"ko.c0726","k":"meaning","src":"parents","tgt":"والدین"}
+{"f":"cards","id":"ko.c0726","k":"note","src":"Always with 님, even your own.","tgt":"ہمیشہ 님 کے ساتھ، اپنے والدین کے لیے بھی۔"}
+{"f":"cards","id":"ko.c0727","k":"meaning","src":"shop; store","tgt":"دکان؛ اسٹور"}
+{"f":"cards","id":"ko.c0727","k":"note","src":"작은 가게 = a small shop.","tgt":"مثال: 작은 가게 = ایک چھوٹی دکان۔"}
+{"f":"cards","id":"ko.c0728","k":"meaning","src":"weather","tgt":"موسم"}
 {"f":"cards","id":"ko.c0728","k":"note","src":"날씨가 좋네요.","tgt":"날씨가 좋네요.","pre":1}
-{"f":"cards","id":"ko.c0729","k":"meaning","src":"doctor","tgt":""}
-{"f":"cards","id":"ko.c0729","k":"note","src":"Address one as 선생님.","tgt":""}
-{"f":"cards","id":"ko.c0730","k":"meaning","src":"answer; reply","tgt":""}
-{"f":"cards","id":"ko.c0730","k":"note","src":"대답해 주세요 = please answer.","tgt":""}
-{"f":"cards","id":"ko.c0731","k":"meaning","src":"start; beginning","tgt":""}
-{"f":"cards","id":"ko.c0731","k":"note","src":"시작이 반이다 = starting is half the job.","tgt":""}
-{"f":"cards","id":"ko.c0732","k":"meaning","src":"homework","tgt":""}
-{"f":"cards","id":"ko.c0732","k":"note","src":"숙제 다 했어요? = did you finish your homework?","tgt":""}
-{"f":"cards","id":"ko.c0733","k":"meaning","src":"ticket","tgt":""}
-{"f":"cards","id":"ko.c0733","k":"note","src":"표 두 장 = two tickets.","tgt":""}
-{"f":"cards","id":"ko.c0734","k":"meaning","src":"puppy; dog (everyday)","tgt":""}
-{"f":"cards","id":"ko.c0734","k":"note","src":"개 is the plain word but also a swear prefix; 강아지 is safe.","tgt":""}
-{"f":"cards","id":"ko.c0735","k":"meaning","src":"gift","tgt":""}
-{"f":"cards","id":"ko.c0735","k":"note","src":"선물이에요 = it's a present for you.","tgt":""}
-{"f":"cards","id":"ko.c0736","k":"meaning","src":"subway","tgt":""}
-{"f":"cards","id":"ko.c0736","k":"note","src":"지하철로 가요 = I go by subway.","tgt":""}
-{"f":"cards","id":"ko.c0737","k":"meaning","src":"weekend","tgt":""}
-{"f":"cards","id":"ko.c0737","k":"note","src":"주말 잘 보내세요 = have a good weekend.","tgt":""}
-{"f":"cards","id":"ko.c0738","k":"meaning","src":"birthday","tgt":""}
-{"f":"cards","id":"ko.c0738","k":"note","src":"생일 축하해요 = happy birthday.","tgt":""}
-{"f":"cards","id":"ko.c0739","k":"meaning","src":"cat","tgt":""}
-{"f":"cards","id":"ko.c0739","k":"note","src":"고양이 키워요 = I have a cat.","tgt":""}
-{"f":"cards","id":"ko.c0740","k":"meaning","src":"medicine","tgt":""}
-{"f":"cards","id":"ko.c0740","k":"note","src":"약 먹어요 = I take medicine (eat medicine).","tgt":""}
-{"f":"cards","id":"ko.c0741","k":"meaning","src":"middle-aged woman (casual)","tgt":""}
-{"f":"cards","id":"ko.c0741","k":"note","src":"Can sound rude. Politer: 아주머니, or in a shop 사장님.","tgt":""}
-{"f":"cards","id":"ko.c0742","k":"meaning","src":"week","tgt":""}
-{"f":"cards","id":"ko.c0742","k":"note","src":"이번 주 = this week; 다음 주 = next week.","tgt":""}
-{"f":"cards","id":"ko.c0743","k":"meaning","src":"Korean (the language)","tgt":""}
-{"f":"cards","id":"ko.c0743","k":"note","src":"Spoken: 한국말.","tgt":""}
-{"f":"cards","id":"ko.c0744","k":"meaning","src":"there isn't; not to have","tgt":""}
-{"f":"cards","id":"ko.c0744","k":"note","src":"없어요. The opposite of 있다. 시간이 없어요 = I have no time.","tgt":""}
-{"f":"cards","id":"ko.c0745","k":"meaning","src":"to become; to work out; to be OK","tgt":""}
-{"f":"cards","id":"ko.c0745","k":"note","src":"돼요. 돼요? = is that OK? 안 돼요 = no, you can't.","tgt":""}
-{"f":"cards","id":"ko.c0746","k":"meaning","src":"to speak; to say","tgt":""}
-{"f":"cards","id":"ko.c0746","k":"note","src":"말해요. To an elder: 말씀하세요.","tgt":""}
-{"f":"cards","id":"ko.c0747","k":"meaning","src":"to receive; to get","tgt":""}
-{"f":"cards","id":"ko.c0747","k":"note","src":"받아요. 전화 받아요 = I answer the phone.","tgt":""}
-{"f":"cards","id":"ko.c0748","k":"meaning","src":"to come out","tgt":""}
-{"f":"cards","id":"ko.c0748","k":"note","src":"나와요. 결과가 나왔어요 = the results are out.","tgt":""}
-{"f":"cards","id":"ko.c0749","k":"meaning","src":"to live","tgt":""}
-{"f":"cards","id":"ko.c0749","k":"note","src":"살아요. ㄹ drops before ㄴ/ㅂ/ㅅ: 사세요, 사는 곳.","tgt":""}
-{"f":"cards","id":"ko.c0750","k":"meaning","src":"to think","tgt":""}
-{"f":"cards","id":"ko.c0750","k":"note","src":"생각해요. 그렇게 생각해요 = I think so.","tgt":""}
-{"f":"cards","id":"ko.c0751","k":"meaning","src":"to make","tgt":""}
-{"f":"cards","id":"ko.c0751","k":"note","src":"만들어요. ㄹ drops: 만드세요, 만드는 법.","tgt":""}
-{"f":"cards","id":"ko.c0752","k":"meaning","src":"to want to (after -고)","tgt":""}
-{"f":"cards","id":"ko.c0752","k":"note","src":"싶어요. 먹고 싶어요 = I want to eat. Never alone.","tgt":""}
-{"f":"cards","id":"ko.c0753","k":"meaning","src":"to be seen; to look (like)","tgt":""}
-{"f":"cards","id":"ko.c0753","k":"note","src":"보여요. 잘 보여요 = I can see well.","tgt":""}
-{"f":"cards","id":"ko.c0754","k":"meaning","src":"to have; to take (own)","tgt":""}
-{"f":"cards","id":"ko.c0754","k":"note","src":"가져요. 가지고 가요 = I'll take it with me.","tgt":""}
-{"f":"cards","id":"ko.c0755","k":"meaning","src":"to pass (by); time goes by","tgt":""}
+{"f":"cards","id":"ko.c0729","k":"meaning","src":"doctor","tgt":"ڈاکٹر"}
+{"f":"cards","id":"ko.c0729","k":"note","src":"Address one as 선생님.","tgt":"ڈاکٹر کو 선생님 کہہ کر مخاطب کریں۔"}
+{"f":"cards","id":"ko.c0730","k":"meaning","src":"answer; reply","tgt":"جواب"}
+{"f":"cards","id":"ko.c0730","k":"note","src":"대답해 주세요 = please answer.","tgt":"مثال: 대답해 주세요 = جواب دیں۔"}
+{"f":"cards","id":"ko.c0731","k":"meaning","src":"start; beginning","tgt":"شروع؛ آغاز"}
+{"f":"cards","id":"ko.c0731","k":"note","src":"시작이 반이다 = starting is half the job.","tgt":"مثال: 시작이 반이다 = شروع کر دیا تو آدھا کام ہو گیا۔"}
+{"f":"cards","id":"ko.c0732","k":"meaning","src":"homework","tgt":"ہوم ورک"}
+{"f":"cards","id":"ko.c0732","k":"note","src":"숙제 다 했어요? = did you finish your homework?","tgt":"مثال: 숙제 다 했어요 = آپ نے ہوم ورک پورا کر لیا؟"}
+{"f":"cards","id":"ko.c0733","k":"meaning","src":"ticket","tgt":"ٹکٹ"}
+{"f":"cards","id":"ko.c0733","k":"note","src":"표 두 장 = two tickets.","tgt":"مثال: 표 두 장 = دو ٹکٹ۔"}
+{"f":"cards","id":"ko.c0734","k":"meaning","src":"puppy; dog (everyday)","tgt":"پلا؛ کتا (روزمرہ)"}
+{"f":"cards","id":"ko.c0734","k":"note","src":"개 is the plain word but also a swear prefix; 강아지 is safe.","tgt":"سیدھا لفظ 개 ہے، مگر یہ گالی کا سابقہ بھی ہے؛ 강아지 محفوظ ہے۔"}
+{"f":"cards","id":"ko.c0735","k":"meaning","src":"gift","tgt":"تحفہ"}
+{"f":"cards","id":"ko.c0735","k":"note","src":"선물이에요 = it's a present for you.","tgt":"مثال: 선물이에요 = یہ آپ کے لیے تحفہ ہے۔"}
+{"f":"cards","id":"ko.c0736","k":"meaning","src":"subway","tgt":"میٹرو"}
+{"f":"cards","id":"ko.c0736","k":"note","src":"지하철로 가요 = I go by subway.","tgt":"مثال: 지하철로 가요 = میں میٹرو سے جاتا/جاتی ہوں۔"}
+{"f":"cards","id":"ko.c0737","k":"meaning","src":"weekend","tgt":"ویک اینڈ"}
+{"f":"cards","id":"ko.c0737","k":"note","src":"주말 잘 보내세요 = have a good weekend.","tgt":"مثال: 주말 잘 보내세요 = آپ کا ویک اینڈ اچھا گزرے۔"}
+{"f":"cards","id":"ko.c0738","k":"meaning","src":"birthday","tgt":"سالگرہ"}
+{"f":"cards","id":"ko.c0738","k":"note","src":"생일 축하해요 = happy birthday.","tgt":"مثال: 생일 축하해요 = سالگرہ مبارک۔"}
+{"f":"cards","id":"ko.c0739","k":"meaning","src":"cat","tgt":"بلی"}
+{"f":"cards","id":"ko.c0739","k":"note","src":"고양이 키워요 = I have a cat.","tgt":"مثال: 고양이 키워요 = میرے پاس ایک بلی ہے۔"}
+{"f":"cards","id":"ko.c0740","k":"meaning","src":"medicine","tgt":"دوا"}
+{"f":"cards","id":"ko.c0740","k":"note","src":"약 먹어요 = I take medicine (eat medicine).","tgt":"مثال: 약 먹어요 = میں دوا کھاتا/کھاتی ہوں (اردو کی طرح دوا \"کھائی\" جاتی ہے)۔"}
+{"f":"cards","id":"ko.c0741","k":"meaning","src":"middle-aged woman (casual)","tgt":"ادھیڑ عمر خاتون (بے تکلف)"}
+{"f":"cards","id":"ko.c0741","k":"note","src":"Can sound rude. Politer: 아주머니, or in a shop 사장님.","tgt":"یہ بدتمیزی لگ سکتی ہے۔ زیادہ مؤدب: 아주머니، یا دکان میں 사장님۔"}
+{"f":"cards","id":"ko.c0742","k":"meaning","src":"week","tgt":"ہفتہ (سات دن)"}
+{"f":"cards","id":"ko.c0742","k":"note","src":"이번 주 = this week; 다음 주 = next week.","tgt":"مثال: 이번 주 = اس ہفتے؛ 다음 주 = اگلے ہفتے۔"}
+{"f":"cards","id":"ko.c0743","k":"meaning","src":"Korean (the language)","tgt":"کوریائی (زبان)"}
+{"f":"cards","id":"ko.c0743","k":"note","src":"Spoken: 한국말.","tgt":"بول چال میں: 한국말۔"}
+{"f":"cards","id":"ko.c0744","k":"meaning","src":"there isn't; not to have","tgt":"نہ ہونا؛ پاس نہ ہونا"}
+{"f":"cards","id":"ko.c0744","k":"note","src":"없어요. The opposite of 있다. 시간이 없어요 = I have no time.","tgt":"مؤدب شکل: 없어요۔ 있다 کا الٹ۔ 시간이 없어요 = میرے پاس وقت نہیں ہے۔"}
+{"f":"cards","id":"ko.c0745","k":"meaning","src":"to become; to work out; to be OK","tgt":"بننا؛ کام بن جانا؛ ٹھیک ہونا"}
+{"f":"cards","id":"ko.c0745","k":"note","src":"돼요. 돼요? = is that OK? 안 돼요 = no, you can't.","tgt":"مؤدب شکل: 돼요۔ سوال میں 돼요 = چلے گا؟ اور 안 돼요 = نہیں، ایسا نہیں کر سکتے۔"}
+{"f":"cards","id":"ko.c0746","k":"meaning","src":"to speak; to say","tgt":"بولنا؛ کہنا"}
+{"f":"cards","id":"ko.c0746","k":"note","src":"말해요. To an elder: 말씀하세요.","tgt":"مؤدب شکل: 말해요۔ کسی بزرگ سے: 말씀하세요 (فرمائیے)۔"}
+{"f":"cards","id":"ko.c0747","k":"meaning","src":"to receive; to get","tgt":"وصول کرنا؛ ملنا"}
+{"f":"cards","id":"ko.c0747","k":"note","src":"받아요. 전화 받아요 = I answer the phone.","tgt":"مؤدب شکل: 받아요۔ 전화 받아요 = میں فون اٹھاتا/اٹھاتی ہوں۔"}
+{"f":"cards","id":"ko.c0748","k":"meaning","src":"to come out","tgt":"باہر آنا"}
+{"f":"cards","id":"ko.c0748","k":"note","src":"나와요. 결과가 나왔어요 = the results are out.","tgt":"مؤدب شکل: 나와요۔ 결과가 나왔어요 = نتیجہ آ گیا۔"}
+{"f":"cards","id":"ko.c0749","k":"meaning","src":"to live","tgt":"رہنا؛ جینا"}
+{"f":"cards","id":"ko.c0749","k":"note","src":"살아요. ㄹ drops before ㄴ/ㅂ/ㅅ: 사세요, 사는 곳.","tgt":"مؤدب شکل: 살아요۔ ㄴ/ㅂ/ㅅ سے پہلے ㄹ گر جاتا ہے: 사세요، 사는 곳۔"}
+{"f":"cards","id":"ko.c0750","k":"meaning","src":"to think","tgt":"سوچنا"}
+{"f":"cards","id":"ko.c0750","k":"note","src":"생각해요. 그렇게 생각해요 = I think so.","tgt":"مؤدب شکل: 생각해요۔ 그렇게 생각해요 = میرا یہی خیال ہے۔"}
+{"f":"cards","id":"ko.c0751","k":"meaning","src":"to make","tgt":"بنانا"}
+{"f":"cards","id":"ko.c0751","k":"note","src":"만들어요. ㄹ drops: 만드세요, 만드는 법.","tgt":"مؤدب شکل: 만들어요۔ ㄹ گر جاتا ہے: 만드세요، 만드는 법۔"}
+{"f":"cards","id":"ko.c0752","k":"meaning","src":"to want to (after -고)","tgt":"چاہنا (-고 کے بعد)"}
+{"f":"cards","id":"ko.c0752","k":"note","src":"싶어요. 먹고 싶어요 = I want to eat. Never alone.","tgt":"مؤدب شکل: 싶어요۔ 먹고 싶어요 = کھانے کو دل چاہتا ہے۔ یہ کبھی اکیلا نہیں آتا۔"}
+{"f":"cards","id":"ko.c0753","k":"meaning","src":"to be seen; to look (like)","tgt":"دکھائی دینا؛ (جیسا) لگنا"}
+{"f":"cards","id":"ko.c0753","k":"note","src":"보여요. 잘 보여요 = I can see well.","tgt":"مؤدب شکل: 보여요۔ 잘 보여요 = مجھے صاف دکھائی دیتا ہے۔"}
+{"f":"cards","id":"ko.c0754","k":"meaning","src":"to have; to take (own)","tgt":"رکھنا؛ لے لینا (اپنا بنانا)"}
+{"f":"cards","id":"ko.c0754","k":"note","src":"가져요. 가지고 가요 = I'll take it with me.","tgt":"مؤدب شکل: 가져요۔ 가지고 가요 = میں اسے ساتھ لے جاؤں گا/گی۔"}
+{"f":"cards","id":"ko.c0755","k":"meaning","src":"to pass (by); time goes by","tgt":"گزرنا؛ وقت گزرنا"}
 {"f":"cards","id":"ko.c0755","k":"note","src":"지나요. 시간이 빨리 지나요.","tgt":"지나요. 시간이 빨리 지나요.","pre":1}
-{"f":"cards","id":"ko.c0756","k":"meaning","src":"to hold; to lift; to cost","tgt":""}
-{"f":"cards","id":"ko.c0756","k":"note","src":"들어요. ㄹ drops: 드세요 (but 드세요 also = please eat).","tgt":""}
-{"f":"cards","id":"ko.c0757","k":"meaning","src":"to throw away","tgt":""}
-{"f":"cards","id":"ko.c0757","k":"note","src":"버려요. After -아/어: 다 먹어 버렸어요 = I ate it all (oops).","tgt":""}
-{"f":"cards","id":"ko.c0758","k":"meaning","src":"to start","tgt":""}
+{"f":"cards","id":"ko.c0756","k":"meaning","src":"to hold; to lift; to cost","tgt":"ہاتھ میں پکڑنا؛ اٹھانا؛ (پیسے) لگنا"}
+{"f":"cards","id":"ko.c0756","k":"note","src":"들어요. ㄹ drops: 드세요 (but 드세요 also = please eat).","tgt":"مؤدب شکل: 들어요۔ ㄹ گر جاتا ہے: 드세요 (مگر 드세요 کا مطلب \"کھائیے\" بھی ہے)۔"}
+{"f":"cards","id":"ko.c0757","k":"meaning","src":"to throw away","tgt":"پھینکنا"}
+{"f":"cards","id":"ko.c0757","k":"note","src":"버려요. After -아/어: 다 먹어 버렸어요 = I ate it all (oops).","tgt":"مؤدب شکل: 버려요۔ -아/어 کے بعد: 다 먹어 버렸어요 = میں نے سب کھا ڈالا (اوہو)۔"}
+{"f":"cards","id":"ko.c0758","k":"meaning","src":"to start","tgt":"شروع کرنا"}
 {"f":"cards","id":"ko.c0758","k":"note","src":"시작해요. 영화가 시작해요.","tgt":"시작해요. 영화가 시작해요.","pre":1}
-{"f":"cards","id":"ko.c0759","k":"meaning","src":"to go in; to enter","tgt":""}
-{"f":"cards","id":"ko.c0759","k":"note","src":"들어가요. 집에 들어가요 = I'm heading home.","tgt":""}
-{"f":"cards","id":"ko.c0760","k":"meaning","src":"to put; to place","tgt":""}
+{"f":"cards","id":"ko.c0759","k":"meaning","src":"to go in; to enter","tgt":"اندر جانا؛ داخل ہونا"}
+{"f":"cards","id":"ko.c0759","k":"note","src":"들어가요. 집에 들어가요 = I'm heading home.","tgt":"مؤدب شکل: 들어가요۔ 집에 들어가요 = میں گھر جا رہا/رہی ہوں۔"}
+{"f":"cards","id":"ko.c0760","k":"meaning","src":"to put; to place","tgt":"رکھنا (کہیں پر)"}
 {"f":"cards","id":"ko.c0760","k":"note","src":"놓아요 / 놔요. 여기 놓으세요.","tgt":"놓아요 / 놔요. 여기 놓으세요.","pre":1}
-{"f":"cards","id":"ko.c0761","k":"meaning","src":"to meet","tgt":""}
-{"f":"cards","id":"ko.c0761","k":"note","src":"만나요. Note: 친구를 만나요 (을/를, not \"with\").","tgt":""}
-{"f":"cards","id":"ko.c0762","k":"meaning","src":"to put out; to pay","tgt":""}
-{"f":"cards","id":"ko.c0762","k":"note","src":"내요. 제가 낼게요 = I'll pay.","tgt":""}
-{"f":"cards","id":"ko.c0763","k":"meaning","src":"to write; to use","tgt":""}
-{"f":"cards","id":"ko.c0763","k":"note","src":"써요 (ㅡ drops). Also: to wear (a hat), to taste bitter.","tgt":""}
-{"f":"cards","id":"ko.c0764","k":"meaning","src":"to listen; to hear","tgt":""}
-{"f":"cards","id":"ko.c0764","k":"note","src":"들어요. ㄷ irregular: ㄷ → ㄹ before a vowel.","tgt":""}
-{"f":"cards","id":"ko.c0765","k":"meaning","src":"to look for; to find","tgt":""}
-{"f":"cards","id":"ko.c0765","k":"note","src":"찾아요. 돈 찾아요 = I withdraw money.","tgt":""}
-{"f":"cards","id":"ko.c0766","k":"meaning","src":"to go out; to leave","tgt":""}
-{"f":"cards","id":"ko.c0766","k":"note","src":"나가요. 오늘 나가요? = going out today?","tgt":""}
-{"f":"cards","id":"ko.c0767","k":"meaning","src":"to buy","tgt":""}
-{"f":"cards","id":"ko.c0767","k":"note","src":"사요. 제가 살게요 = it's on me.","tgt":""}
-{"f":"cards","id":"ko.c0768","k":"meaning","src":"to catch; to hold; to grab","tgt":""}
-{"f":"cards","id":"ko.c0768","k":"note","src":"잡아요. 택시를 잡아요 = I hail a taxi.","tgt":""}
-{"f":"cards","id":"ko.c0769","k":"meaning","src":"to stand; to stop","tgt":""}
-{"f":"cards","id":"ko.c0769","k":"note","src":"서요. 줄을 서요 = I stand in line.","tgt":""}
-{"f":"cards","id":"ko.c0770","k":"meaning","src":"to read","tgt":""}
-{"f":"cards","id":"ko.c0770","k":"note","src":"읽어요. Said [익따]; 책 읽어요.","tgt":""}
-{"f":"cards","id":"ko.c0771","k":"meaning","src":"to get up; to wake up","tgt":""}
+{"f":"cards","id":"ko.c0761","k":"meaning","src":"to meet","tgt":"ملنا"}
+{"f":"cards","id":"ko.c0761","k":"note","src":"만나요. Note: 친구를 만나요 (을/를, not \"with\").","tgt":"مؤدب شکل: 만나요۔ دھیان دیں: 친구를 만나요 (을/를 کے ساتھ؛ اردو کی طرح \"سے\" نہیں)۔"}
+{"f":"cards","id":"ko.c0762","k":"meaning","src":"to put out; to pay","tgt":"باہر نکالنا؛ پیسے دینا"}
+{"f":"cards","id":"ko.c0762","k":"note","src":"내요. 제가 낼게요 = I'll pay.","tgt":"مؤدب شکل: 내요۔ 제가 낼게요 = پیسے میں دوں گا/گی۔"}
+{"f":"cards","id":"ko.c0763","k":"meaning","src":"to write; to use","tgt":"لکھنا؛ استعمال کرنا"}
+{"f":"cards","id":"ko.c0763","k":"note","src":"써요 (ㅡ drops). Also: to wear (a hat), to taste bitter.","tgt":"مؤدب شکل: 써요 (ㅡ گر جاتا ہے)۔ یہ بھی: (ٹوپی) پہننا، کڑوا لگنا۔"}
+{"f":"cards","id":"ko.c0764","k":"meaning","src":"to listen; to hear","tgt":"سننا"}
+{"f":"cards","id":"ko.c0764","k":"note","src":"들어요. ㄷ irregular: ㄷ → ㄹ before a vowel.","tgt":"مؤدب شکل: 들어요۔ ㄷ بے قاعدہ: حرفِ علت سے پہلے ㄷ → ㄹ۔"}
+{"f":"cards","id":"ko.c0765","k":"meaning","src":"to look for; to find","tgt":"ڈھونڈنا؛ پا لینا"}
+{"f":"cards","id":"ko.c0765","k":"note","src":"찾아요. 돈 찾아요 = I withdraw money.","tgt":"مؤدب شکل: 찾아요۔ 돈 찾아요 = میں پیسے نکالتا/نکالتی ہوں۔"}
+{"f":"cards","id":"ko.c0766","k":"meaning","src":"to go out; to leave","tgt":"باہر جانا؛ نکلنا"}
+{"f":"cards","id":"ko.c0766","k":"note","src":"나가요. 오늘 나가요? = going out today?","tgt":"مؤدب شکل: 나가요۔ 오늘 나가요 = آج باہر جا رہے ہیں؟"}
+{"f":"cards","id":"ko.c0767","k":"meaning","src":"to buy","tgt":"خریدنا"}
+{"f":"cards","id":"ko.c0767","k":"note","src":"사요. 제가 살게요 = it's on me.","tgt":"مؤدب شکل: 사요۔ 제가 살게요 = میری طرف سے۔"}
+{"f":"cards","id":"ko.c0768","k":"meaning","src":"to catch; to hold; to grab","tgt":"پکڑنا؛ تھامنا؛ جھپٹنا"}
+{"f":"cards","id":"ko.c0768","k":"note","src":"잡아요. 택시를 잡아요 = I hail a taxi.","tgt":"مؤدب شکل: 잡아요۔ 택시를 잡아요 = میں ٹیکسی روکتا/روکتی ہوں۔"}
+{"f":"cards","id":"ko.c0769","k":"meaning","src":"to stand; to stop","tgt":"کھڑا ہونا؛ رکنا"}
+{"f":"cards","id":"ko.c0769","k":"note","src":"서요. 줄을 서요 = I stand in line.","tgt":"مؤدب شکل: 서요۔ 줄을 서요 = میں قطار میں لگتا/لگتی ہوں۔"}
+{"f":"cards","id":"ko.c0770","k":"meaning","src":"to read","tgt":"پڑھنا"}
+{"f":"cards","id":"ko.c0770","k":"note","src":"읽어요. Said [익따]; 책 읽어요.","tgt":"مؤدب شکل: 읽어요۔ بولتے ہیں [익따]؛ 책 읽어요۔"}
+{"f":"cards","id":"ko.c0771","k":"meaning","src":"to get up; to wake up","tgt":"اٹھنا؛ جاگنا"}
 {"f":"cards","id":"ko.c0771","k":"note","src":"일어나요. 일곱 시에 일어나요.","tgt":"일어나요. 일곱 시에 일어나요.","pre":1}
-{"f":"cards","id":"ko.c0772","k":"meaning","src":"to put in","tgt":""}
+{"f":"cards","id":"ko.c0772","k":"meaning","src":"to put in","tgt":"اندر ڈالنا"}
 {"f":"cards","id":"ko.c0772","k":"note","src":"넣어요. 설탕 넣어 주세요.","tgt":"넣어요. 설탕 넣어 주세요.","pre":1}
-{"f":"cards","id":"ko.c0773","k":"meaning","src":"to feel","tgt":""}
+{"f":"cards","id":"ko.c0773","k":"meaning","src":"to feel","tgt":"محسوس کرنا"}
 {"f":"cards","id":"ko.c0773","k":"note","src":"느껴요. 행복을 느껴요.","tgt":"느껴요. 행복을 느껴요.","pre":1}
-{"f":"cards","id":"ko.c0774","k":"meaning","src":"to call; to sing","tgt":""}
-{"f":"cards","id":"ko.c0774","k":"note","src":"불러요. 르 irregular: 르 → ㄹㄹ before 아/어.","tgt":""}
-{"f":"cards","id":"ko.c0775","k":"meaning","src":"to die","tgt":""}
-{"f":"cards","id":"ko.c0775","k":"note","src":"죽어요. Polite about people: 돌아가시다. Also slang: 배고파 죽겠어 = starving.","tgt":""}
-{"f":"cards","id":"ko.c0776","k":"meaning","src":"to get off; to come down (rain, snow)","tgt":""}
+{"f":"cards","id":"ko.c0774","k":"meaning","src":"to call; to sing","tgt":"بلانا؛ گانا"}
+{"f":"cards","id":"ko.c0774","k":"note","src":"불러요. 르 irregular: 르 → ㄹㄹ before 아/어.","tgt":"مؤدب شکل: 불러요۔ 르 بے قاعدہ: 아/어 سے پہلے 르 → ㄹㄹ۔"}
+{"f":"cards","id":"ko.c0775","k":"meaning","src":"to die","tgt":"مرنا"}
+{"f":"cards","id":"ko.c0775","k":"note","src":"죽어요. Polite about people: 돌아가시다. Also slang: 배고파 죽겠어 = starving.","tgt":"مؤدب شکل: 죽어요۔ لوگوں کے بارے میں ادب سے: 돌아가시다۔ سلینگ بھی: 배고파 죽겠어 = بھوک سے جان نکل رہی ہے۔"}
+{"f":"cards","id":"ko.c0776","k":"meaning","src":"to get off; to come down (rain, snow)","tgt":"اترنا؛ (بارش، برف) پڑنا"}
 {"f":"cards","id":"ko.c0776","k":"note","src":"내려요. 다음 역에서 내려요.","tgt":"내려요. 다음 역에서 내려요.","pre":1}
-{"f":"cards","id":"ko.c0777","k":"meaning","src":"to build; to make (a name, rice)","tgt":""}
-{"f":"cards","id":"ko.c0777","k":"note","src":"지어요. ㅅ irregular: ㅅ drops before a vowel.","tgt":""}
-{"f":"cards","id":"ko.c0778","k":"meaning","src":"to use","tgt":""}
-{"f":"cards","id":"ko.c0778","k":"note","src":"사용해요. Everyday speech prefers 쓰다.","tgt":""}
-{"f":"cards","id":"ko.c0779","k":"meaning","src":"to ride; to get on","tgt":""}
+{"f":"cards","id":"ko.c0777","k":"meaning","src":"to build; to make (a name, rice)","tgt":"تعمیر کرنا؛ (نام) رکھنا، (چاول) پکانا"}
+{"f":"cards","id":"ko.c0777","k":"note","src":"지어요. ㅅ irregular: ㅅ drops before a vowel.","tgt":"مؤدب شکل: 지어요۔ ㅅ بے قاعدہ: حرفِ علت سے پہلے ㅅ گر جاتا ہے۔"}
+{"f":"cards","id":"ko.c0778","k":"meaning","src":"to use","tgt":"استعمال کرنا"}
+{"f":"cards","id":"ko.c0778","k":"note","src":"사용해요. Everyday speech prefers 쓰다.","tgt":"مؤدب شکل: 사용해요۔ روزمرہ بول چال میں 쓰다 زیادہ چلتا ہے۔"}
+{"f":"cards","id":"ko.c0779","k":"meaning","src":"to ride; to get on","tgt":"سوار ہونا؛ چڑھنا"}
 {"f":"cards","id":"ko.c0779","k":"note","src":"타요. 버스를 타요 (을/를).","tgt":"타요. 버스를 타요 (을/를).","pre":1}
-{"f":"cards","id":"ko.c0780","k":"meaning","src":"to send; to spend (time)","tgt":""}
-{"f":"cards","id":"ko.c0780","k":"note","src":"보내요. 주말 잘 보내세요 = have a good weekend.","tgt":""}
-{"f":"cards","id":"ko.c0781","k":"meaning","src":"to go regularly; to attend","tgt":""}
-{"f":"cards","id":"ko.c0781","k":"note","src":"다녀요. 회사에 다녀요 = I work at a company.","tgt":""}
-{"f":"cards","id":"ko.c0782","k":"meaning","src":"to open","tgt":""}
-{"f":"cards","id":"ko.c0782","k":"note","src":"열어요. ㄹ drops: 여세요, 여는 시간.","tgt":""}
-{"f":"cards","id":"ko.c0783","k":"meaning","src":"to come back","tgt":""}
+{"f":"cards","id":"ko.c0780","k":"meaning","src":"to send; to spend (time)","tgt":"بھیجنا؛ (وقت) گزارنا"}
+{"f":"cards","id":"ko.c0780","k":"note","src":"보내요. 주말 잘 보내세요 = have a good weekend.","tgt":"مؤدب شکل: 보내요۔ 주말 잘 보내세요 = آپ کا ویک اینڈ اچھا گزرے۔"}
+{"f":"cards","id":"ko.c0781","k":"meaning","src":"to go regularly; to attend","tgt":"باقاعدگی سے جانا؛ (سکول، دفتر) جانا"}
+{"f":"cards","id":"ko.c0781","k":"note","src":"다녀요. 회사에 다녀요 = I work at a company.","tgt":"مؤدب شکل: 다녀요۔ 회사에 다녀요 = میری ایک کمپنی میں نوکری ہے۔"}
+{"f":"cards","id":"ko.c0782","k":"meaning","src":"to open","tgt":"کھولنا"}
+{"f":"cards","id":"ko.c0782","k":"note","src":"열어요. ㄹ drops: 여세요, 여는 시간.","tgt":"مؤدب شکل: 열어요۔ ㄹ گر جاتا ہے: 여세요، 여는 시간۔"}
+{"f":"cards","id":"ko.c0783","k":"meaning","src":"to come back","tgt":"واپس آنا"}
 {"f":"cards","id":"ko.c0783","k":"note","src":"돌아와요. 언제 돌아와요?","tgt":"돌아와요. 언제 돌아와요?","pre":1}
-{"f":"cards","id":"ko.c0784","k":"meaning","src":"to ask","tgt":""}
-{"f":"cards","id":"ko.c0784","k":"note","src":"물어요. ㄷ irregular. 길을 물어봐요 = I ask the way.","tgt":""}
-{"f":"cards","id":"ko.c0785","k":"meaning","src":"to be left over; to remain","tgt":""}
+{"f":"cards","id":"ko.c0784","k":"meaning","src":"to ask","tgt":"پوچھنا"}
+{"f":"cards","id":"ko.c0784","k":"note","src":"물어요. ㄷ irregular. 길을 물어봐요 = I ask the way.","tgt":"مؤدب شکل: 물어요۔ ㄷ بے قاعدہ۔ 길을 물어봐요 = میں راستہ پوچھتا/پوچھتی ہوں۔"}
+{"f":"cards","id":"ko.c0785","k":"meaning","src":"to be left over; to remain","tgt":"بچ جانا؛ باقی رہنا"}
 {"f":"cards","id":"ko.c0785","k":"note","src":"남아요. 시간이 좀 남았어요.","tgt":"남아요. 시간이 좀 남았어요.","pre":1}
-{"f":"cards","id":"ko.c0786","k":"meaning","src":"to come out; to break out (happen)","tgt":""}
-{"f":"cards","id":"ko.c0786","k":"note","src":"나요. 생각이 나요 = it comes to mind; 냄새가 나요 = it smells.","tgt":""}
-{"f":"cards","id":"ko.c0787","k":"meaning","src":"to laugh; to smile","tgt":""}
-{"f":"cards","id":"ko.c0787","k":"note","src":"웃어요. Regular (not ㅅ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0788","k":"meaning","src":"to wait","tgt":""}
+{"f":"cards","id":"ko.c0786","k":"meaning","src":"to come out; to break out (happen)","tgt":"نکلنا؛ (کچھ) ہو جانا"}
+{"f":"cards","id":"ko.c0786","k":"note","src":"나요. 생각이 나요 = it comes to mind; 냄새가 나요 = it smells.","tgt":"مؤدب شکل: 나요۔ 생각이 나요 = یاد آتا ہے؛ 냄새가 나요 = بو آتی ہے۔"}
+{"f":"cards","id":"ko.c0787","k":"meaning","src":"to laugh; to smile","tgt":"ہنسنا؛ مسکرانا"}
+{"f":"cards","id":"ko.c0787","k":"note","src":"웃어요. Regular (not ㅅ irregular).","tgt":"مؤدب شکل: 웃어요۔ باقاعدہ (ㅅ بے قاعدہ نہیں)۔"}
+{"f":"cards","id":"ko.c0788","k":"meaning","src":"to wait","tgt":"انتظار کرنا"}
 {"f":"cards","id":"ko.c0788","k":"note","src":"기다려요. 잠깐만 기다려 주세요.","tgt":"기다려요. 잠깐만 기다려 주세요.","pre":1}
-{"f":"cards","id":"ko.c0789","k":"meaning","src":"to wear (clothes)","tgt":""}
-{"f":"cards","id":"ko.c0789","k":"note","src":"입어요. Regular (not ㅂ irregular). Hats: 쓰다; shoes: 신다.","tgt":""}
-{"f":"cards","id":"ko.c0790","k":"meaning","src":"to end; to finish","tgt":""}
+{"f":"cards","id":"ko.c0789","k":"meaning","src":"to wear (clothes)","tgt":"پہننا (کپڑے)"}
+{"f":"cards","id":"ko.c0789","k":"note","src":"입어요. Regular (not ㅂ irregular). Hats: 쓰다; shoes: 신다.","tgt":"مؤدب شکل: 입어요۔ باقاعدہ (ㅂ بے قاعدہ نہیں)۔ ٹوپی: 쓰다؛ جوتے: 신다۔"}
+{"f":"cards","id":"ko.c0790","k":"meaning","src":"to end; to finish","tgt":"ختم ہونا"}
 {"f":"cards","id":"ko.c0790","k":"note","src":"끝나요. 수업이 끝났어요.","tgt":"끝나요. 수업이 끝났어요.","pre":1}
-{"f":"cards","id":"ko.c0791","k":"meaning","src":"to take (time); to catch (a cold)","tgt":""}
+{"f":"cards","id":"ko.c0791","k":"meaning","src":"to take (time); to catch (a cold)","tgt":"(وقت) لگنا؛ (زکام) ہو جانا"}
 {"f":"cards","id":"ko.c0791","k":"note","src":"걸려요. 감기에 걸렸어요.","tgt":"걸려요. 감기에 걸렸어요.","pre":1}
-{"f":"cards","id":"ko.c0792","k":"meaning","src":"to go up; to rise","tgt":""}
-{"f":"cards","id":"ko.c0792","k":"note","src":"올라요. 르 irregular. 가격이 올랐어요.","tgt":""}
-{"f":"cards","id":"ko.c0793","k":"meaning","src":"to believe; to trust","tgt":""}
+{"f":"cards","id":"ko.c0792","k":"meaning","src":"to go up; to rise","tgt":"اوپر جانا؛ بڑھنا"}
+{"f":"cards","id":"ko.c0792","k":"note","src":"올라요. 르 irregular. 가격이 올랐어요.","tgt":"مؤدب شکل: 올라요۔ 르 بے قاعدہ۔ 가격이 올랐어요۔"}
+{"f":"cards","id":"ko.c0793","k":"meaning","src":"to believe; to trust","tgt":"یقین کرنا؛ بھروسا کرنا"}
 {"f":"cards","id":"ko.c0793","k":"note","src":"믿어요. 저를 믿으세요.","tgt":"믿어요. 저를 믿으세요.","pre":1}
-{"f":"cards","id":"ko.c0794","k":"meaning","src":"to change; to exchange","tgt":""}
-{"f":"cards","id":"ko.c0794","k":"note","src":"바꿔요. 자리 바꿀까요? = shall we swap seats?","tgt":""}
-{"f":"cards","id":"ko.c0795","k":"meaning","src":"to learn","tgt":""}
+{"f":"cards","id":"ko.c0794","k":"meaning","src":"to change; to exchange","tgt":"بدلنا؛ تبادلہ کرنا"}
+{"f":"cards","id":"ko.c0794","k":"note","src":"바꿔요. 자리 바꿀까요? = shall we swap seats?","tgt":"مؤدب شکل: 바꿔요۔ 자리 바꿀까요 = سیٹ بدل لیں؟"}
+{"f":"cards","id":"ko.c0795","k":"meaning","src":"to learn","tgt":"سیکھنا"}
 {"f":"cards","id":"ko.c0795","k":"note","src":"배워요. 한국어를 배워요.","tgt":"배워요. 한국어를 배워요.","pre":1}
-{"f":"cards","id":"ko.c0796","k":"meaning","src":"to help","tgt":""}
-{"f":"cards","id":"ko.c0796","k":"note","src":"도와요. ㅂ irregular (ㅂ → 오 here). Asking: 도와주세요.","tgt":""}
-{"f":"cards","id":"ko.c0797","k":"meaning","src":"to talk; to chat","tgt":""}
-{"f":"cards","id":"ko.c0797","k":"note","src":"이야기해요. Spoken: 얘기해요.","tgt":""}
-{"f":"cards","id":"ko.c0798","k":"meaning","src":"to sleep","tgt":""}
-{"f":"cards","id":"ko.c0798","k":"note","src":"자요. To an elder: 주무세요.","tgt":""}
-{"f":"cards","id":"ko.c0799","k":"meaning","src":"to walk","tgt":""}
-{"f":"cards","id":"ko.c0799","k":"note","src":"걸어요. ㄷ irregular: ㄷ → ㄹ before a vowel.","tgt":""}
-{"f":"cards","id":"ko.c0800","k":"meaning","src":"to cry","tgt":""}
-{"f":"cards","id":"ko.c0800","k":"note","src":"울어요. ㄹ drops: 우세요, 우는 아이.","tgt":""}
+{"f":"cards","id":"ko.c0796","k":"meaning","src":"to help","tgt":"مدد کرنا"}
+{"f":"cards","id":"ko.c0796","k":"note","src":"도와요. ㅂ irregular (ㅂ → 오 here). Asking: 도와주세요.","tgt":"مؤدب شکل: 도와요۔ ㅂ بے قاعدہ (یہاں ㅂ → 오)۔ مدد مانگنی ہو تو: 도와주세요۔"}
+{"f":"cards","id":"ko.c0797","k":"meaning","src":"to talk; to chat","tgt":"بات کرنا؛ گپ شپ کرنا"}
+{"f":"cards","id":"ko.c0797","k":"note","src":"이야기해요. Spoken: 얘기해요.","tgt":"مؤدب شکل: 이야기해요۔ بول چال میں: 얘기해요۔"}
+{"f":"cards","id":"ko.c0798","k":"meaning","src":"to sleep","tgt":"سونا"}
+{"f":"cards","id":"ko.c0798","k":"note","src":"자요. To an elder: 주무세요.","tgt":"مؤدب شکل: 자요۔ کسی بزرگ سے: 주무세요۔"}
+{"f":"cards","id":"ko.c0799","k":"meaning","src":"to walk","tgt":"پیدل چلنا"}
+{"f":"cards","id":"ko.c0799","k":"note","src":"걸어요. ㄷ irregular: ㄷ → ㄹ before a vowel.","tgt":"مؤدب شکل: 걸어요۔ ㄷ بے قاعدہ: حرفِ علت سے پہلے ㄷ → ㄹ۔"}
+{"f":"cards","id":"ko.c0800","k":"meaning","src":"to cry","tgt":"رونا"}
+{"f":"cards","id":"ko.c0800","k":"note","src":"울어요. ㄹ drops: 우세요, 우는 아이.","tgt":"مؤدب شکل: 울어요۔ ㄹ گر جاتا ہے: 우세요، 우는 아이۔"}
 {"f":"cards","id":"ko.c0801","k":"meaning","src":"to get along; to spend days","tgt":""}
 {"f":"cards","id":"ko.c0801","k":"note","src":"지내요. 잘 지냈어요? = how have you been?","tgt":""}
 {"f":"cards","id":"ko.c0802","k":"meaning","src":"to sell","tgt":""}

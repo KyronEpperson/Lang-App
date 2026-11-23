@@ -186,7 +186,7 @@
 {"f":"decks","id":"ko.d.drinks","k":"label","src":"Drinks","tgt":"পানীয়"}
 {"f":"decks","id":"ko.d.drinks","k":"desc","src":"Coffee, tea, soju, beer, and how to order one more.","tgt":"কফি, চা, সোজু, বিয়ার, আর আরেকটা কীভাবে চাইবেন।"}
 {"f":"decks","id":"ko.d.activities","k":"label","src":"Activities","tgt":"রোজকার কাজকর্ম"}
-{"f":"decks","id":"ko.d.activities","k":"desc","src":"Everyday 'I do X' verbs in polite form.","tgt":"রোজকার \"আমি X করি\" ক্রিয়া, ভদ্র রূপে।"}
+{"f":"decks","id":"ko.d.activities","k":"desc","src":"Everyday 'I do X' verbs in polite form.","tgt":"রোজকার \"আমি … করি\" ক্রিয়া, ভদ্র রূপে।"}
 {"f":"decks","id":"ko.d.tv-entertainment","k":"label","src":"TV & entertainment","tgt":"টিভি ও বিনোদন"}
 {"f":"decks","id":"ko.d.tv-entertainment","k":"desc","src":"Dramas, variety shows, genres, episodes, binge-watching.","tgt":"ড্রামা, ভ্যারাইটি শো, ধরন, পর্ব, একটানা দেখা।"}
 {"f":"decks","id":"ko.d.position-direction-words","k":"label","src":"Position & direction words","tgt":"অবস্থান ও দিক"}
@@ -775,901 +775,901 @@
 {"f":"cards","id":"ko.c0257","k":"note","src":"앉다 + 으세요 (after consonant).","tgt":"앉다 + 으세요 (ব্যঞ্জনের পরে)।"}
 {"f":"cards","id":"ko.c0258","k":"meaning","src":"please come in","tgt":"ভেতরে আসুন"}
 {"f":"cards","id":"ko.c0258","k":"note","src":"들어오다 + 세요.","tgt":"들어오다 + 세요.","pre":1}
-{"f":"cards","id":"ko.c0259","k":"meaning","src":"coffee shop / café","tgt":""}
-{"f":"cards","id":"ko.c0259","k":"note","src":"카페 is far more common in speech.","tgt":""}
-{"f":"cards","id":"ko.c0260","k":"meaning","src":"gym","tgt":""}
-{"f":"cards","id":"ko.c0260","k":"note","src":"Health + 장 (place). 헬스하다 = to work out.","tgt":""}
-{"f":"cards","id":"ko.c0261","k":"meaning","src":"library","tgt":""}
-{"f":"cards","id":"ko.c0261","k":"note","src":"도서 books + 관 hall.","tgt":""}
-{"f":"cards","id":"ko.c0262","k":"meaning","src":"museum","tgt":""}
-{"f":"cards","id":"ko.c0262","k":"note","src":"미술관 = art museum.","tgt":""}
-{"f":"cards","id":"ko.c0263","k":"meaning","src":"house / home","tgt":""}
-{"f":"cards","id":"ko.c0263","k":"note","src":"집에 가요 = I'm going home.","tgt":""}
-{"f":"cards","id":"ko.c0264","k":"meaning","src":"school","tgt":""}
-{"f":"cards","id":"ko.c0264","k":"note","src":"대학교 = university.","tgt":""}
-{"f":"cards","id":"ko.c0265","k":"meaning","src":"hospital","tgt":""}
-{"f":"cards","id":"ko.c0265","k":"note","src":"Also used for any doctor's clinic.","tgt":""}
-{"f":"cards","id":"ko.c0266","k":"meaning","src":"pharmacy","tgt":""}
-{"f":"cards","id":"ko.c0266","k":"note","src":"Look for the green cross sign.","tgt":""}
-{"f":"cards","id":"ko.c0267","k":"meaning","src":"bank","tgt":""}
-{"f":"cards","id":"ko.c0267","k":"note","src":"Also means ginkgo — context decides.","tgt":""}
-{"f":"cards","id":"ko.c0268","k":"meaning","src":"convenience store","tgt":""}
-{"f":"cards","id":"ko.c0268","k":"note","src":"GS25, CU, 세븐일레븐.","tgt":""}
-{"f":"cards","id":"ko.c0269","k":"meaning","src":"restaurant","tgt":""}
-{"f":"cards","id":"ko.c0269","k":"note","src":"레스토랑 = Western-style restaurant.","tgt":""}
-{"f":"cards","id":"ko.c0270","k":"meaning","src":"market","tgt":""}
-{"f":"cards","id":"ko.c0270","k":"note","src":"전통시장 = traditional market.","tgt":""}
-{"f":"cards","id":"ko.c0271","k":"meaning","src":"department store","tgt":""}
-{"f":"cards","id":"ko.c0271","k":"note","src":"Lotte, Shinsegae, Hyundai.","tgt":""}
-{"f":"cards","id":"ko.c0272","k":"meaning","src":"movie theater","tgt":""}
-{"f":"cards","id":"ko.c0272","k":"note","src":"CGV, 메가박스, 롯데시네마.","tgt":""}
-{"f":"cards","id":"ko.c0273","k":"meaning","src":"park","tgt":""}
-{"f":"cards","id":"ko.c0273","k":"note","src":"한강공원 = Han River park.","tgt":""}
-{"f":"cards","id":"ko.c0274","k":"meaning","src":"hotel","tgt":""}
-{"f":"cards","id":"ko.c0274","k":"note","src":"모텔 is cheaper; 게스트하우스 for backpackers.","tgt":""}
-{"f":"cards","id":"ko.c0275","k":"meaning","src":"church / Buddhist temple","tgt":""}
-{"f":"cards","id":"ko.c0275","k":"note","src":"성당 = Catholic cathedral.","tgt":""}
-{"f":"cards","id":"ko.c0276","k":"meaning","src":"restroom","tgt":""}
-{"f":"cards","id":"ko.c0276","k":"note","src":"Literally 'makeup room'.","tgt":""}
-{"f":"cards","id":"ko.c0277","k":"meaning","src":"hobby","tgt":""}
-{"f":"cards","id":"ko.c0277","k":"note","src":"취미가 뭐예요? = What's your hobby?","tgt":""}
-{"f":"cards","id":"ko.c0278","k":"meaning","src":"exercise / working out","tgt":""}
-{"f":"cards","id":"ko.c0278","k":"note","src":"운동해요 = I work out.","tgt":""}
-{"f":"cards","id":"ko.c0279","k":"meaning","src":"reading (books)","tgt":""}
-{"f":"cards","id":"ko.c0279","k":"note","src":"책 읽는 거 좋아해요 is more natural in speech.","tgt":""}
-{"f":"cards","id":"ko.c0280","k":"meaning","src":"cooking","tgt":""}
-{"f":"cards","id":"ko.c0280","k":"note","src":"요리해요 = I cook.","tgt":""}
-{"f":"cards","id":"ko.c0281","k":"meaning","src":"travel","tgt":""}
-{"f":"cards","id":"ko.c0281","k":"note","src":"여행 가요 = I go on a trip.","tgt":""}
-{"f":"cards","id":"ko.c0282","k":"meaning","src":"listening to music","tgt":""}
-{"f":"cards","id":"ko.c0282","k":"note","src":"음악 들어요 = I listen to music.","tgt":""}
-{"f":"cards","id":"ko.c0283","k":"meaning","src":"watching movies","tgt":""}
-{"f":"cards","id":"ko.c0283","k":"note","src":"-기 turns a verb into a noun.","tgt":""}
-{"f":"cards","id":"ko.c0284","k":"meaning","src":"gaming","tgt":""}
-{"f":"cards","id":"ko.c0284","k":"note","src":"게임해요 = I play games. PC방 = internet café.","tgt":""}
-{"f":"cards","id":"ko.c0285","k":"meaning","src":"photography","tgt":""}
-{"f":"cards","id":"ko.c0285","k":"note","src":"사진 찍어요 = I take photos.","tgt":""}
-{"f":"cards","id":"ko.c0286","k":"meaning","src":"drawing / painting","tgt":""}
-{"f":"cards","id":"ko.c0286","k":"note","src":"그림 = picture.","tgt":""}
-{"f":"cards","id":"ko.c0287","k":"meaning","src":"singing","tgt":""}
-{"f":"cards","id":"ko.c0287","k":"note","src":"노래방 = karaoke room.","tgt":""}
-{"f":"cards","id":"ko.c0288","k":"meaning","src":"dancing","tgt":""}
-{"f":"cards","id":"ko.c0288","k":"note","src":"춤 춰요 = I dance.","tgt":""}
-{"f":"cards","id":"ko.c0289","k":"meaning","src":"hiking","tgt":""}
-{"f":"cards","id":"ko.c0289","k":"note","src":"National pastime — expect full gear on easy trails.","tgt":""}
-{"f":"cards","id":"ko.c0290","k":"meaning","src":"fishing","tgt":""}
-{"f":"cards","id":"ko.c0291","k":"meaning","src":"shopping","tgt":""}
-{"f":"cards","id":"ko.c0291","k":"note","src":"쇼핑해요 = I go shopping.","tgt":""}
-{"f":"cards","id":"ko.c0292","k":"meaning","src":"camping","tgt":""}
-{"f":"cards","id":"ko.c0292","k":"note","src":"차박 = car camping.","tgt":""}
-{"f":"cards","id":"ko.c0293","k":"meaning","src":"kimchi","tgt":""}
-{"f":"cards","id":"ko.c0293","k":"note","src":"Comes free with almost every meal.","tgt":""}
-{"f":"cards","id":"ko.c0294","k":"meaning","src":"gimbap (seaweed rice roll)","tgt":""}
-{"f":"cards","id":"ko.c0294","k":"note","src":"Cheap, everywhere, ~₩3,000–5,000.","tgt":""}
-{"f":"cards","id":"ko.c0295","k":"meaning","src":"bibimbap","tgt":""}
-{"f":"cards","id":"ko.c0295","k":"note","src":"비빔 = mixed; 밥 = rice.","tgt":""}
-{"f":"cards","id":"ko.c0296","k":"meaning","src":"bulgogi (marinated beef)","tgt":""}
-{"f":"cards","id":"ko.c0297","k":"meaning","src":"pork belly BBQ","tgt":""}
-{"f":"cards","id":"ko.c0297","k":"note","src":"Three-layer meat. Wrap it in lettuce: 쌈.","tgt":""}
-{"f":"cards","id":"ko.c0298","k":"meaning","src":"(Korean fried) chicken","tgt":""}
-{"f":"cards","id":"ko.c0298","k":"note","src":"치맥 = chicken + 맥주.","tgt":""}
-{"f":"cards","id":"ko.c0299","k":"meaning","src":"spicy rice cakes","tgt":""}
-{"f":"cards","id":"ko.c0299","k":"note","src":"Street food staple.","tgt":""}
-{"f":"cards","id":"ko.c0300","k":"meaning","src":"ramyeon (instant noodles)","tgt":""}
-{"f":"cards","id":"ko.c0300","k":"note","src":"라멘 is the Japanese kind.","tgt":""}
-{"f":"cards","id":"ko.c0301","k":"meaning","src":"stew","tgt":""}
+{"f":"cards","id":"ko.c0259","k":"meaning","src":"coffee shop / café","tgt":"কফিশপ / ক্যাফে"}
+{"f":"cards","id":"ko.c0259","k":"note","src":"카페 is far more common in speech.","tgt":"কথায় 카페 অনেক বেশি চলে।"}
+{"f":"cards","id":"ko.c0260","k":"meaning","src":"gym","tgt":"জিম"}
+{"f":"cards","id":"ko.c0260","k":"note","src":"Health + 장 (place). 헬스하다 = to work out.","tgt":"ইংরেজি \"হেলথ\" + 장 (জায়গা)। 헬스하다 = জিমে ব্যায়াম করা।"}
+{"f":"cards","id":"ko.c0261","k":"meaning","src":"library","tgt":"লাইব্রেরি"}
+{"f":"cards","id":"ko.c0261","k":"note","src":"도서 books + 관 hall.","tgt":"도서 বই + 관 ভবন।"}
+{"f":"cards","id":"ko.c0262","k":"meaning","src":"museum","tgt":"জাদুঘর"}
+{"f":"cards","id":"ko.c0262","k":"note","src":"미술관 = art museum.","tgt":"미술관 = শিল্পকলার জাদুঘর।"}
+{"f":"cards","id":"ko.c0263","k":"meaning","src":"house / home","tgt":"বাসা / বাড়ি"}
+{"f":"cards","id":"ko.c0263","k":"note","src":"집에 가요 = I'm going home.","tgt":"집에 가요 = আমি বাসায় যাচ্ছি।"}
+{"f":"cards","id":"ko.c0264","k":"meaning","src":"school","tgt":"স্কুল"}
+{"f":"cards","id":"ko.c0264","k":"note","src":"대학교 = university.","tgt":"대학교 = বিশ্ববিদ্যালয়।"}
+{"f":"cards","id":"ko.c0265","k":"meaning","src":"hospital","tgt":"হাসপাতাল"}
+{"f":"cards","id":"ko.c0265","k":"note","src":"Also used for any doctor's clinic.","tgt":"যেকোনো ডাক্তারের ক্লিনিককেও বলে।"}
+{"f":"cards","id":"ko.c0266","k":"meaning","src":"pharmacy","tgt":"ফার্মেসি"}
+{"f":"cards","id":"ko.c0266","k":"note","src":"Look for the green cross sign.","tgt":"সবুজ ক্রস চিহ্ন খুঁজুন।"}
+{"f":"cards","id":"ko.c0267","k":"meaning","src":"bank","tgt":"ব্যাংক"}
+{"f":"cards","id":"ko.c0267","k":"note","src":"Also means ginkgo — context decides.","tgt":"জিঙ্কগো গাছকেও বলে; প্রসঙ্গ দেখে বুঝবেন।"}
+{"f":"cards","id":"ko.c0268","k":"meaning","src":"convenience store","tgt":"কনভিনিয়েন্স স্টোর"}
+{"f":"cards","id":"ko.c0268","k":"note","src":"GS25, CU, 세븐일레븐.","tgt":"জিএস25, সিইউ, 세븐일레븐।"}
+{"f":"cards","id":"ko.c0269","k":"meaning","src":"restaurant","tgt":"রেস্টুরেন্ট / খাবারের দোকান"}
+{"f":"cards","id":"ko.c0269","k":"note","src":"레스토랑 = Western-style restaurant.","tgt":"레스토랑 = পশ্চিমা ধাঁচের রেস্টুরেন্ট।"}
+{"f":"cards","id":"ko.c0270","k":"meaning","src":"market","tgt":"বাজার"}
+{"f":"cards","id":"ko.c0270","k":"note","src":"전통시장 = traditional market.","tgt":"전통시장 = পুরনো ধাঁচের বাজার।"}
+{"f":"cards","id":"ko.c0271","k":"meaning","src":"department store","tgt":"ডিপার্টমেন্ট স্টোর"}
+{"f":"cards","id":"ko.c0271","k":"note","src":"Lotte, Shinsegae, Hyundai.","tgt":"লোটে, শিনসেগে, হুন্দাই।"}
+{"f":"cards","id":"ko.c0272","k":"meaning","src":"movie theater","tgt":"সিনেমা হল"}
+{"f":"cards","id":"ko.c0272","k":"note","src":"CGV, 메가박스, 롯데시네마.","tgt":"সিজিভি, 메가박스, 롯데시네마।"}
+{"f":"cards","id":"ko.c0273","k":"meaning","src":"park","tgt":"পার্ক"}
+{"f":"cards","id":"ko.c0273","k":"note","src":"한강공원 = Han River park.","tgt":"한강공원 = হান নদীর ধারের পার্ক।"}
+{"f":"cards","id":"ko.c0274","k":"meaning","src":"hotel","tgt":"হোটেল"}
+{"f":"cards","id":"ko.c0274","k":"note","src":"모텔 is cheaper; 게스트하우스 for backpackers.","tgt":"모텔 সস্তা; ব্যাকপ্যাকারদের জন্য 게스트하우스।"}
+{"f":"cards","id":"ko.c0275","k":"meaning","src":"church / Buddhist temple","tgt":"গির্জা / বৌদ্ধ মন্দির"}
+{"f":"cards","id":"ko.c0275","k":"note","src":"성당 = Catholic cathedral.","tgt":"성당 = ক্যাথলিক গির্জা।"}
+{"f":"cards","id":"ko.c0276","k":"meaning","src":"restroom","tgt":"টয়লেট"}
+{"f":"cards","id":"ko.c0276","k":"note","src":"Literally 'makeup room'.","tgt":"আক্ষরিক অর্থে \"সাজগোজের ঘর\"।"}
+{"f":"cards","id":"ko.c0277","k":"meaning","src":"hobby","tgt":"শখ"}
+{"f":"cards","id":"ko.c0277","k":"note","src":"취미가 뭐예요? = What's your hobby?","tgt":"취미가 뭐예요? = আপনার শখ কী?"}
+{"f":"cards","id":"ko.c0278","k":"meaning","src":"exercise / working out","tgt":"ব্যায়াম"}
+{"f":"cards","id":"ko.c0278","k":"note","src":"운동해요 = I work out.","tgt":"운동해요 = আমি ব্যায়াম করি।"}
+{"f":"cards","id":"ko.c0279","k":"meaning","src":"reading (books)","tgt":"বই পড়া"}
+{"f":"cards","id":"ko.c0279","k":"note","src":"책 읽는 거 좋아해요 is more natural in speech.","tgt":"কথায় 책 읽는 거 좋아해요 বলাই বেশি স্বাভাবিক।"}
+{"f":"cards","id":"ko.c0280","k":"meaning","src":"cooking","tgt":"রান্না"}
+{"f":"cards","id":"ko.c0280","k":"note","src":"요리해요 = I cook.","tgt":"요리해요 = আমি রান্না করি।"}
+{"f":"cards","id":"ko.c0281","k":"meaning","src":"travel","tgt":"ভ্রমণ"}
+{"f":"cards","id":"ko.c0281","k":"note","src":"여행 가요 = I go on a trip.","tgt":"여행 가요 = আমি ঘুরতে যাই।"}
+{"f":"cards","id":"ko.c0282","k":"meaning","src":"listening to music","tgt":"গান শোনা"}
+{"f":"cards","id":"ko.c0282","k":"note","src":"음악 들어요 = I listen to music.","tgt":"음악 들어요 = আমি গান শুনি।"}
+{"f":"cards","id":"ko.c0283","k":"meaning","src":"watching movies","tgt":"সিনেমা দেখা"}
+{"f":"cards","id":"ko.c0283","k":"note","src":"-기 turns a verb into a noun.","tgt":"-기 ক্রিয়াকে বিশেষ্য বানায়।"}
+{"f":"cards","id":"ko.c0284","k":"meaning","src":"gaming","tgt":"গেম খেলা"}
+{"f":"cards","id":"ko.c0284","k":"note","src":"게임해요 = I play games. PC방 = internet café.","tgt":"게임해요 = আমি গেম খেলি। PC방 = গেমিং ক্যাফে।"}
+{"f":"cards","id":"ko.c0285","k":"meaning","src":"photography","tgt":"ছবি তোলা"}
+{"f":"cards","id":"ko.c0285","k":"note","src":"사진 찍어요 = I take photos.","tgt":"사진 찍어요 = আমি ছবি তুলি।"}
+{"f":"cards","id":"ko.c0286","k":"meaning","src":"drawing / painting","tgt":"ছবি আঁকা"}
+{"f":"cards","id":"ko.c0286","k":"note","src":"그림 = picture.","tgt":"그림 = ছবি।"}
+{"f":"cards","id":"ko.c0287","k":"meaning","src":"singing","tgt":"গান গাওয়া"}
+{"f":"cards","id":"ko.c0287","k":"note","src":"노래방 = karaoke room.","tgt":"노래방 = কারাওকে রুম।"}
+{"f":"cards","id":"ko.c0288","k":"meaning","src":"dancing","tgt":"নাচ"}
+{"f":"cards","id":"ko.c0288","k":"note","src":"춤 춰요 = I dance.","tgt":"춤 춰요 = আমি নাচি।"}
+{"f":"cards","id":"ko.c0289","k":"meaning","src":"hiking","tgt":"পাহাড়ে হাইকিং"}
+{"f":"cards","id":"ko.c0289","k":"note","src":"National pastime — expect full gear on easy trails.","tgt":"জাতীয় শখ: সহজ পথেও সবাই পুরো সাজসরঞ্জাম নিয়ে যায়।"}
+{"f":"cards","id":"ko.c0290","k":"meaning","src":"fishing","tgt":"মাছ ধরা"}
+{"f":"cards","id":"ko.c0291","k":"meaning","src":"shopping","tgt":"কেনাকাটা"}
+{"f":"cards","id":"ko.c0291","k":"note","src":"쇼핑해요 = I go shopping.","tgt":"쇼핑해요 = আমি শপিং করি।"}
+{"f":"cards","id":"ko.c0292","k":"meaning","src":"camping","tgt":"ক্যাম্পিং"}
+{"f":"cards","id":"ko.c0292","k":"note","src":"차박 = car camping.","tgt":"차박 = গাড়িতে রাত কাটিয়ে ক্যাম্পিং।"}
+{"f":"cards","id":"ko.c0293","k":"meaning","src":"kimchi","tgt":"কিমচি"}
+{"f":"cards","id":"ko.c0293","k":"note","src":"Comes free with almost every meal.","tgt":"প্রায় সব খাবারের সাথে ফ্রি দেয়।"}
+{"f":"cards","id":"ko.c0294","k":"meaning","src":"gimbap (seaweed rice roll)","tgt":"কিমবাপ (সামুদ্রিক শৈবালে মোড়া ভাতের রোল)"}
+{"f":"cards","id":"ko.c0294","k":"note","src":"Cheap, everywhere, ~₩3,000–5,000.","tgt":"সস্তা, সব জায়গায় পাওয়া যায়, প্রায় ₩3,000–5,000।"}
+{"f":"cards","id":"ko.c0295","k":"meaning","src":"bibimbap","tgt":"বিবিমবাপ (মাখানো ভাত)"}
+{"f":"cards","id":"ko.c0295","k":"note","src":"비빔 = mixed; 밥 = rice.","tgt":"비빔 = মাখানো; 밥 = ভাত।"}
+{"f":"cards","id":"ko.c0296","k":"meaning","src":"bulgogi (marinated beef)","tgt":"বুলগোগি (মশলা মাখানো গরুর মাংস)"}
+{"f":"cards","id":"ko.c0297","k":"meaning","src":"pork belly BBQ","tgt":"শুয়োরের পেটের মাংসের বারবিকিউ"}
+{"f":"cards","id":"ko.c0297","k":"note","src":"Three-layer meat. Wrap it in lettuce: 쌈.","tgt":"তিন স্তরের মাংস। লেটুস পাতায় মুড়ে খান: 쌈।"}
+{"f":"cards","id":"ko.c0298","k":"meaning","src":"(Korean fried) chicken","tgt":"(কোরিয়ান) ফ্রাইড চিকেন"}
+{"f":"cards","id":"ko.c0298","k":"note","src":"치맥 = chicken + 맥주.","tgt":"치맥 = চিকেন + 맥주।"}
+{"f":"cards","id":"ko.c0299","k":"meaning","src":"spicy rice cakes","tgt":"ঝাল রাইস কেক"}
+{"f":"cards","id":"ko.c0299","k":"note","src":"Street food staple.","tgt":"রাস্তার খাবারের মূল আইটেম।"}
+{"f":"cards","id":"ko.c0300","k":"meaning","src":"ramyeon (instant noodles)","tgt":"রামিয়ন (ইনস্ট্যান্ট নুডলস)"}
+{"f":"cards","id":"ko.c0300","k":"note","src":"라멘 is the Japanese kind.","tgt":"라멘 হলো জাপানি ধরনের নুডলস।"}
+{"f":"cards","id":"ko.c0301","k":"meaning","src":"stew","tgt":"স্টু, ঘন ঝোল"}
 {"f":"cards","id":"ko.c0301","k":"note","src":"김치찌개, 된장찌개, 순두부찌개.","tgt":"김치찌개, 된장찌개, 순두부찌개.","pre":1}
-{"f":"cards","id":"ko.c0302","k":"meaning","src":"soup","tgt":""}
-{"f":"cards","id":"ko.c0302","k":"note","src":"탕 is heartier (삼계탕, 갈비탕).","tgt":""}
-{"f":"cards","id":"ko.c0303","k":"meaning","src":"side dishes","tgt":""}
-{"f":"cards","id":"ko.c0303","k":"note","src":"Refills are free: 반찬 좀 더 주세요.","tgt":""}
-{"f":"cards","id":"ko.c0304","k":"meaning","src":"bread","tgt":""}
-{"f":"cards","id":"ko.c0304","k":"note","src":"빵집 = bakery.","tgt":""}
-{"f":"cards","id":"ko.c0305","k":"meaning","src":"fruit","tgt":""}
-{"f":"cards","id":"ko.c0305","k":"note","src":"사과 apple, 딸기 strawberry, 귤 tangerine.","tgt":""}
-{"f":"cards","id":"ko.c0306","k":"meaning","src":"vegetables","tgt":""}
-{"f":"cards","id":"ko.c0306","k":"note","src":"채소 is the standard word.","tgt":""}
-{"f":"cards","id":"ko.c0307","k":"meaning","src":"egg","tgt":""}
-{"f":"cards","id":"ko.c0307","k":"note","src":"달걀 is the pure-Korean word.","tgt":""}
-{"f":"cards","id":"ko.c0308","k":"meaning","src":"fish (as food)","tgt":""}
-{"f":"cards","id":"ko.c0308","k":"note","src":"물고기 = fish (alive).","tgt":""}
-{"f":"cards","id":"ko.c0309","k":"meaning","src":"seafood","tgt":""}
-{"f":"cards","id":"ko.c0309","k":"note","src":"해물파전 = seafood pancake.","tgt":""}
-{"f":"cards","id":"ko.c0310","k":"meaning","src":"dessert","tgt":""}
-{"f":"cards","id":"ko.c0310","k":"note","src":"빙수 = shaved ice; 호떡 = sweet pancake.","tgt":""}
-{"f":"cards","id":"ko.c0311","k":"meaning","src":"soft drink / beverage","tgt":""}
-{"f":"cards","id":"ko.c0311","k":"note","src":"Umbrella word for non-alcoholic drinks.","tgt":""}
-{"f":"cards","id":"ko.c0312","k":"meaning","src":"coffee","tgt":""}
-{"f":"cards","id":"ko.c0312","k":"note","src":"아메리카노, 라떼, 믹스커피 (instant).","tgt":""}
-{"f":"cards","id":"ko.c0313","k":"meaning","src":"tea","tgt":""}
-{"f":"cards","id":"ko.c0313","k":"note","src":"녹차 green, 보리차 barley, 유자차 citron.","tgt":""}
-{"f":"cards","id":"ko.c0314","k":"meaning","src":"milk","tgt":""}
-{"f":"cards","id":"ko.c0314","k":"note","src":"두유 = soy milk.","tgt":""}
-{"f":"cards","id":"ko.c0315","k":"meaning","src":"juice","tgt":""}
+{"f":"cards","id":"ko.c0302","k":"meaning","src":"soup","tgt":"স্যুপ"}
+{"f":"cards","id":"ko.c0302","k":"note","src":"탕 is heartier (삼계탕, 갈비탕).","tgt":"탕 বেশি ভারী (삼계탕, 갈비탕)।"}
+{"f":"cards","id":"ko.c0303","k":"meaning","src":"side dishes","tgt":"পাশের ছোট ছোট পদ"}
+{"f":"cards","id":"ko.c0303","k":"note","src":"Refills are free: 반찬 좀 더 주세요.","tgt":"আবার নেওয়া ফ্রি: 반찬 좀 더 주세요।"}
+{"f":"cards","id":"ko.c0304","k":"meaning","src":"bread","tgt":"রুটি / পাউরুটি"}
+{"f":"cards","id":"ko.c0304","k":"note","src":"빵집 = bakery.","tgt":"빵집 = বেকারি।"}
+{"f":"cards","id":"ko.c0305","k":"meaning","src":"fruit","tgt":"ফল"}
+{"f":"cards","id":"ko.c0305","k":"note","src":"사과 apple, 딸기 strawberry, 귤 tangerine.","tgt":"사과 আপেল, 딸기 স্ট্রবেরি, 귤 ছোট কমলা।"}
+{"f":"cards","id":"ko.c0306","k":"meaning","src":"vegetables","tgt":"সবজি"}
+{"f":"cards","id":"ko.c0306","k":"note","src":"채소 is the standard word.","tgt":"채소 প্রমিত শব্দ।"}
+{"f":"cards","id":"ko.c0307","k":"meaning","src":"egg","tgt":"ডিম"}
+{"f":"cards","id":"ko.c0307","k":"note","src":"달걀 is the pure-Korean word.","tgt":"달걀 খাঁটি কোরিয়ান শব্দ।"}
+{"f":"cards","id":"ko.c0308","k":"meaning","src":"fish (as food)","tgt":"মাছ (খাবার হিসেবে)"}
+{"f":"cards","id":"ko.c0308","k":"note","src":"물고기 = fish (alive).","tgt":"물고기 = জ্যান্ত মাছ।"}
+{"f":"cards","id":"ko.c0309","k":"meaning","src":"seafood","tgt":"সামুদ্রিক খাবার"}
+{"f":"cards","id":"ko.c0309","k":"note","src":"해물파전 = seafood pancake.","tgt":"해물파전 = সামুদ্রিক খাবারের প্যানকেক।"}
+{"f":"cards","id":"ko.c0310","k":"meaning","src":"dessert","tgt":"ডেজার্ট"}
+{"f":"cards","id":"ko.c0310","k":"note","src":"빙수 = shaved ice; 호떡 = sweet pancake.","tgt":"빙수 = বরফকুচির মিষ্টি; 호떡 = মিষ্টি প্যানকেক।"}
+{"f":"cards","id":"ko.c0311","k":"meaning","src":"soft drink / beverage","tgt":"কোমল পানীয় / পানীয়"}
+{"f":"cards","id":"ko.c0311","k":"note","src":"Umbrella word for non-alcoholic drinks.","tgt":"অ্যালকোহল ছাড়া সব পানীয়ের সাধারণ নাম।"}
+{"f":"cards","id":"ko.c0312","k":"meaning","src":"coffee","tgt":"কফি"}
+{"f":"cards","id":"ko.c0312","k":"note","src":"아메리카노, 라떼, 믹스커피 (instant).","tgt":"아메리카노, 라떼, 믹스커피 (ইনস্ট্যান্ট)।"}
+{"f":"cards","id":"ko.c0313","k":"meaning","src":"tea","tgt":"চা"}
+{"f":"cards","id":"ko.c0313","k":"note","src":"녹차 green, 보리차 barley, 유자차 citron.","tgt":"녹차 গ্রিন টি, 보리차 যবের চা, 유자차 ইউজা লেবুর চা।"}
+{"f":"cards","id":"ko.c0314","k":"meaning","src":"milk","tgt":"দুধ"}
+{"f":"cards","id":"ko.c0314","k":"note","src":"두유 = soy milk.","tgt":"두유 = সয়া দুধ।"}
+{"f":"cards","id":"ko.c0315","k":"meaning","src":"juice","tgt":"জুস"}
 {"f":"cards","id":"ko.c0315","k":"note","src":"오렌지 주스.","tgt":"오렌지 주스.","pre":1}
-{"f":"cards","id":"ko.c0316","k":"meaning","src":"cola / lemon-lime soda","tgt":""}
-{"f":"cards","id":"ko.c0316","k":"note","src":"사이다 is Sprite-style, not alcoholic cider.","tgt":""}
-{"f":"cards","id":"ko.c0317","k":"meaning","src":"bottled water","tgt":""}
-{"f":"cards","id":"ko.c0317","k":"note","src":"Ask for 물 at restaurants — it's free.","tgt":""}
-{"f":"cards","id":"ko.c0318","k":"meaning","src":"beer","tgt":""}
-{"f":"cards","id":"ko.c0318","k":"note","src":"생맥주 = draft beer. 카스, 테라, 클라우드.","tgt":""}
-{"f":"cards","id":"ko.c0319","k":"meaning","src":"soju","tgt":""}
-{"f":"cards","id":"ko.c0319","k":"note","src":"참이슬, 처음처럼. Green bottle.","tgt":""}
-{"f":"cards","id":"ko.c0320","k":"meaning","src":"makgeolli (rice wine)","tgt":""}
-{"f":"cards","id":"ko.c0320","k":"note","src":"Goes with 파전 on rainy days.","tgt":""}
-{"f":"cards","id":"ko.c0321","k":"meaning","src":"wine","tgt":""}
-{"f":"cards","id":"ko.c0322","k":"meaning","src":"cocktail","tgt":""}
-{"f":"cards","id":"ko.c0323","k":"meaning","src":"smoothie","tgt":""}
-{"f":"cards","id":"ko.c0324","k":"meaning","src":"ice","tgt":""}
-{"f":"cards","id":"ko.c0324","k":"note","src":"얼음 빼 주세요 = no ice please.","tgt":""}
-{"f":"cards","id":"ko.c0325","k":"meaning","src":"One more glass, please","tgt":""}
-{"f":"cards","id":"ko.c0325","k":"note","src":"잔 is the counter for glasses/cups.","tgt":""}
-{"f":"cards","id":"ko.c0326","k":"meaning","src":"cheers (formal vs casual)","tgt":""}
-{"f":"cards","id":"ko.c0326","k":"note","src":"짠! among friends; 건배 at dinners.","tgt":""}
-{"f":"cards","id":"ko.c0327","k":"meaning","src":"I exercise","tgt":""}
+{"f":"cards","id":"ko.c0316","k":"meaning","src":"cola / lemon-lime soda","tgt":"কোলা / লেমন সোডা"}
+{"f":"cards","id":"ko.c0316","k":"note","src":"사이다 is Sprite-style, not alcoholic cider.","tgt":"사이다 হলো স্প্রাইটের মতো সোডা, অ্যালকোহলওয়ালা সাইডার নয়।"}
+{"f":"cards","id":"ko.c0317","k":"meaning","src":"bottled water","tgt":"বোতলের পানি"}
+{"f":"cards","id":"ko.c0317","k":"note","src":"Ask for 물 at restaurants — it's free.","tgt":"রেস্টুরেন্টে 물 চান, ফ্রি।"}
+{"f":"cards","id":"ko.c0318","k":"meaning","src":"beer","tgt":"বিয়ার"}
+{"f":"cards","id":"ko.c0318","k":"note","src":"생맥주 = draft beer. 카스, 테라, 클라우드.","tgt":"생맥주 = ড্রাফট বিয়ার। 카스, 테라, 클라우드।"}
+{"f":"cards","id":"ko.c0319","k":"meaning","src":"soju","tgt":"সোজু"}
+{"f":"cards","id":"ko.c0319","k":"note","src":"참이슬, 처음처럼. Green bottle.","tgt":"참이슬, 처음처럼। সবুজ বোতল।"}
+{"f":"cards","id":"ko.c0320","k":"meaning","src":"makgeolli (rice wine)","tgt":"মাকগোলি (চালের মদ)"}
+{"f":"cards","id":"ko.c0320","k":"note","src":"Goes with 파전 on rainy days.","tgt":"বৃষ্টির দিনে 파전 দিয়ে খাওয়া হয়।"}
+{"f":"cards","id":"ko.c0321","k":"meaning","src":"wine","tgt":"ওয়াইন"}
+{"f":"cards","id":"ko.c0322","k":"meaning","src":"cocktail","tgt":"ককটেল"}
+{"f":"cards","id":"ko.c0323","k":"meaning","src":"smoothie","tgt":"স্মুদি"}
+{"f":"cards","id":"ko.c0324","k":"meaning","src":"ice","tgt":"বরফ"}
+{"f":"cards","id":"ko.c0324","k":"note","src":"얼음 빼 주세요 = no ice please.","tgt":"얼음 빼 주세요 = বরফ ছাড়া দিন।"}
+{"f":"cards","id":"ko.c0325","k":"meaning","src":"One more glass, please","tgt":"আরেক গ্লাস দিন"}
+{"f":"cards","id":"ko.c0325","k":"note","src":"잔 is the counter for glasses/cups.","tgt":"잔 = গ্লাস বা কাপের কাউন্টার।"}
+{"f":"cards","id":"ko.c0326","k":"meaning","src":"cheers (formal vs casual)","tgt":"চিয়ার্স (আনুষ্ঠানিক বনাম ঘরোয়া)"}
+{"f":"cards","id":"ko.c0326","k":"note","src":"짠! among friends; 건배 at dinners.","tgt":"বন্ধুদের মধ্যে 짠!; অফিসের ডিনারে 건배।"}
+{"f":"cards","id":"ko.c0327","k":"meaning","src":"I exercise","tgt":"আমি ব্যায়াম করি"}
 {"f":"cards","id":"ko.c0327","k":"note","src":"운동하다.","tgt":"운동하다.","pre":1}
-{"f":"cards","id":"ko.c0328","k":"meaning","src":"I study","tgt":""}
+{"f":"cards","id":"ko.c0328","k":"meaning","src":"I study","tgt":"আমি পড়াশোনা করি"}
 {"f":"cards","id":"ko.c0328","k":"note","src":"공부하다.","tgt":"공부하다.","pre":1}
-{"f":"cards","id":"ko.c0329","k":"meaning","src":"I work","tgt":""}
+{"f":"cards","id":"ko.c0329","k":"meaning","src":"I work","tgt":"আমি কাজ করি"}
 {"f":"cards","id":"ko.c0329","k":"note","src":"일하다.","tgt":"일하다.","pre":1}
-{"f":"cards","id":"ko.c0330","k":"meaning","src":"I rest","tgt":""}
-{"f":"cards","id":"ko.c0330","k":"note","src":"쉬다. 주말에 쉬어요 = I rest on weekends.","tgt":""}
-{"f":"cards","id":"ko.c0331","k":"meaning","src":"I hang out / play","tgt":""}
-{"f":"cards","id":"ko.c0331","k":"note","src":"놀다. 같이 놀자 = let's hang out.","tgt":""}
-{"f":"cards","id":"ko.c0332","k":"meaning","src":"I take a walk","tgt":""}
+{"f":"cards","id":"ko.c0330","k":"meaning","src":"I rest","tgt":"আমি বিশ্রাম নিই"}
+{"f":"cards","id":"ko.c0330","k":"note","src":"쉬다. 주말에 쉬어요 = I rest on weekends.","tgt":"쉬다। 주말에 쉬어요 = সপ্তাহান্তে বিশ্রাম নিই।"}
+{"f":"cards","id":"ko.c0331","k":"meaning","src":"I hang out / play","tgt":"আমি আড্ডা দিই / খেলি"}
+{"f":"cards","id":"ko.c0331","k":"note","src":"놀다. 같이 놀자 = let's hang out.","tgt":"놀다। 같이 놀자 = চলো একসাথে আড্ডা দিই।"}
+{"f":"cards","id":"ko.c0332","k":"meaning","src":"I take a walk","tgt":"আমি হাঁটতে বের হই"}
 {"f":"cards","id":"ko.c0332","k":"note","src":"산책하다.","tgt":"산책하다.","pre":1}
-{"f":"cards","id":"ko.c0333","k":"meaning","src":"I swim","tgt":""}
-{"f":"cards","id":"ko.c0333","k":"note","src":"수영하다. 수영장 = pool.","tgt":""}
-{"f":"cards","id":"ko.c0334","k":"meaning","src":"I run","tgt":""}
-{"f":"cards","id":"ko.c0334","k":"note","src":"달리다. 러닝 is also common.","tgt":""}
-{"f":"cards","id":"ko.c0335","k":"meaning","src":"I ride a bike","tgt":""}
-{"f":"cards","id":"ko.c0335","k":"note","src":"타다 = to ride (bike, bus, horse).","tgt":""}
-{"f":"cards","id":"ko.c0336","k":"meaning","src":"I watch a movie","tgt":""}
+{"f":"cards","id":"ko.c0333","k":"meaning","src":"I swim","tgt":"আমি সাঁতার কাটি"}
+{"f":"cards","id":"ko.c0333","k":"note","src":"수영하다. 수영장 = pool.","tgt":"수영하다। 수영장 = সুইমিং পুল।"}
+{"f":"cards","id":"ko.c0334","k":"meaning","src":"I run","tgt":"আমি দৌড়াই"}
+{"f":"cards","id":"ko.c0334","k":"note","src":"달리다. 러닝 is also common.","tgt":"달리다। 러닝 শব্দটাও বেশ চলে।"}
+{"f":"cards","id":"ko.c0335","k":"meaning","src":"I ride a bike","tgt":"আমি সাইকেল চালাই"}
+{"f":"cards","id":"ko.c0335","k":"note","src":"타다 = to ride (bike, bus, horse).","tgt":"타다 = চড়া (সাইকেল, বাস, ঘোড়া)।"}
+{"f":"cards","id":"ko.c0336","k":"meaning","src":"I watch a movie","tgt":"আমি সিনেমা দেখি"}
 {"f":"cards","id":"ko.c0336","k":"note","src":"보다 → 봐요.","tgt":"보다 → 봐요.","pre":1}
-{"f":"cards","id":"ko.c0337","k":"meaning","src":"I listen to music","tgt":""}
-{"f":"cards","id":"ko.c0337","k":"note","src":"듣다 → 들어요 (ㄷ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0338","k":"meaning","src":"I read a book","tgt":""}
+{"f":"cards","id":"ko.c0337","k":"meaning","src":"I listen to music","tgt":"আমি গান শুনি"}
+{"f":"cards","id":"ko.c0337","k":"note","src":"듣다 → 들어요 (ㄷ irregular).","tgt":"듣다 → 들어요 (অনিয়মিত ㄷ)।"}
+{"f":"cards","id":"ko.c0338","k":"meaning","src":"I read a book","tgt":"আমি বই পড়ি"}
 {"f":"cards","id":"ko.c0338","k":"note","src":"읽다 → 읽어요.","tgt":"읽다 → 읽어요.","pre":1}
-{"f":"cards","id":"ko.c0339","k":"meaning","src":"I cook","tgt":""}
+{"f":"cards","id":"ko.c0339","k":"meaning","src":"I cook","tgt":"আমি রান্না করি"}
 {"f":"cards","id":"ko.c0339","k":"note","src":"요리하다.","tgt":"요리하다.","pre":1}
-{"f":"cards","id":"ko.c0340","k":"meaning","src":"I clean","tgt":""}
-{"f":"cards","id":"ko.c0340","k":"note","src":"청소하다. 빨래해요 = I do laundry.","tgt":""}
-{"f":"cards","id":"ko.c0341","k":"meaning","src":"I meet a friend","tgt":""}
+{"f":"cards","id":"ko.c0340","k":"meaning","src":"I clean","tgt":"আমি ঘর পরিষ্কার করি"}
+{"f":"cards","id":"ko.c0340","k":"note","src":"청소하다. 빨래해요 = I do laundry.","tgt":"청소하다। 빨래해요 = আমি কাপড় ধুই।"}
+{"f":"cards","id":"ko.c0341","k":"meaning","src":"I meet a friend","tgt":"আমি বন্ধুর সাথে দেখা করি"}
 {"f":"cards","id":"ko.c0341","k":"note","src":"만나다.","tgt":"만나다.","pre":1}
-{"f":"cards","id":"ko.c0342","k":"meaning","src":"I go shopping","tgt":""}
+{"f":"cards","id":"ko.c0342","k":"meaning","src":"I go shopping","tgt":"আমি শপিং করি"}
 {"f":"cards","id":"ko.c0342","k":"note","src":"쇼핑하다.","tgt":"쇼핑하다.","pre":1}
-{"f":"cards","id":"ko.c0343","k":"meaning","src":"I take photos","tgt":""}
+{"f":"cards","id":"ko.c0343","k":"meaning","src":"I take photos","tgt":"আমি ছবি তুলি"}
 {"f":"cards","id":"ko.c0343","k":"note","src":"찍다 → 찍어요.","tgt":"찍다 → 찍어요.","pre":1}
-{"f":"cards","id":"ko.c0344","k":"meaning","src":"I play games","tgt":""}
+{"f":"cards","id":"ko.c0344","k":"meaning","src":"I play games","tgt":"আমি গেম খেলি"}
 {"f":"cards","id":"ko.c0344","k":"note","src":"게임하다.","tgt":"게임하다.","pre":1}
-{"f":"cards","id":"ko.c0345","k":"meaning","src":"drama / TV series","tgt":""}
-{"f":"cards","id":"ko.c0345","k":"note","src":"K-drama = 한국 드라마 or just 드라마.","tgt":""}
-{"f":"cards","id":"ko.c0346","k":"meaning","src":"variety show","tgt":""}
-{"f":"cards","id":"ko.c0346","k":"note","src":"런닝맨, 유 퀴즈 — unscripted comedy shows.","tgt":""}
-{"f":"cards","id":"ko.c0347","k":"meaning","src":"news","tgt":""}
-{"f":"cards","id":"ko.c0348","k":"meaning","src":"movie","tgt":""}
-{"f":"cards","id":"ko.c0348","k":"note","src":"영화 보러 갈래? = wanna go see a movie?","tgt":""}
-{"f":"cards","id":"ko.c0349","k":"meaning","src":"documentary","tgt":""}
-{"f":"cards","id":"ko.c0349","k":"note","src":"Shortened to 다큐.","tgt":""}
-{"f":"cards","id":"ko.c0350","k":"meaning","src":"comics / webtoon","tgt":""}
-{"f":"cards","id":"ko.c0350","k":"note","src":"Many dramas are based on 웹툰.","tgt":""}
-{"f":"cards","id":"ko.c0351","k":"meaning","src":"animation / anime","tgt":""}
-{"f":"cards","id":"ko.c0351","k":"note","src":"Shortened to 애니.","tgt":""}
-{"f":"cards","id":"ko.c0352","k":"meaning","src":"comedy","tgt":""}
-{"f":"cards","id":"ko.c0352","k":"note","src":"개그 = gag / comedy sketch.","tgt":""}
-{"f":"cards","id":"ko.c0353","k":"meaning","src":"romance","tgt":""}
-{"f":"cards","id":"ko.c0353","k":"note","src":"로코 = romantic comedy.","tgt":""}
-{"f":"cards","id":"ko.c0354","k":"meaning","src":"thriller","tgt":""}
-{"f":"cards","id":"ko.c0355","k":"meaning","src":"horror movie","tgt":""}
-{"f":"cards","id":"ko.c0355","k":"note","src":"무서워요 = it's scary.","tgt":""}
-{"f":"cards","id":"ko.c0356","k":"meaning","src":"action","tgt":""}
-{"f":"cards","id":"ko.c0357","k":"meaning","src":"historical drama","tgt":""}
-{"f":"cards","id":"ko.c0357","k":"note","src":"Set in Joseon-era Korea.","tgt":""}
-{"f":"cards","id":"ko.c0358","k":"meaning","src":"music show","tgt":""}
-{"f":"cards","id":"ko.c0358","k":"note","src":"뮤직뱅크, 인기가요 — weekly idol stages.","tgt":""}
-{"f":"cards","id":"ko.c0359","k":"meaning","src":"audition show","tgt":""}
-{"f":"cards","id":"ko.c0359","k":"note","src":"서바이벌 = survival show.","tgt":""}
-{"f":"cards","id":"ko.c0360","k":"meaning","src":"which episode","tgt":""}
-{"f":"cards","id":"ko.c0360","k":"note","src":"화 is the counter for episodes. 3화 = episode 3.","tgt":""}
-{"f":"cards","id":"ko.c0361","k":"meaning","src":"rerun","tgt":""}
-{"f":"cards","id":"ko.c0361","k":"note","src":"본방송 = original airing; 본방사수 = watch it live.","tgt":""}
-{"f":"cards","id":"ko.c0362","k":"meaning","src":"binge-watching","tgt":""}
-{"f":"cards","id":"ko.c0362","k":"note","src":"정주행했어 = I binged it.","tgt":""}
-{"f":"cards","id":"ko.c0363","k":"meaning","src":"above / below","tgt":""}
-{"f":"cards","id":"ko.c0363","k":"note","src":"책상 위에 = on the desk.","tgt":""}
-{"f":"cards","id":"ko.c0364","k":"meaning","src":"front / behind","tgt":""}
-{"f":"cards","id":"ko.c0364","k":"note","src":"건물 앞에서 만나요 = meet in front of the building.","tgt":""}
-{"f":"cards","id":"ko.c0365","k":"meaning","src":"next to / beside","tgt":""}
-{"f":"cards","id":"ko.c0365","k":"note","src":"은행 옆에 있어요 = it's next to the bank.","tgt":""}
-{"f":"cards","id":"ko.c0366","k":"meaning","src":"inside / outside","tgt":""}
-{"f":"cards","id":"ko.c0366","k":"note","src":"안에 들어가요 = go inside.","tgt":""}
-{"f":"cards","id":"ko.c0367","k":"meaning","src":"between","tgt":""}
-{"f":"cards","id":"ko.c0367","k":"note","src":"카페와 약국 사이에 = between the café and pharmacy.","tgt":""}
-{"f":"cards","id":"ko.c0368","k":"meaning","src":"across the street","tgt":""}
+{"f":"cards","id":"ko.c0345","k":"meaning","src":"drama / TV series","tgt":"ড্রামা / টিভি সিরিজ"}
+{"f":"cards","id":"ko.c0345","k":"note","src":"K-drama = 한국 드라마 or just 드라마.","tgt":"কে-ড্রামা = 한국 드라마, বা শুধু 드라마।"}
+{"f":"cards","id":"ko.c0346","k":"meaning","src":"variety show","tgt":"ভ্যারাইটি শো"}
+{"f":"cards","id":"ko.c0346","k":"note","src":"런닝맨, 유 퀴즈 — unscripted comedy shows.","tgt":"런닝맨, 유 퀴즈: স্ক্রিপ্ট ছাড়া হাসির শো।"}
+{"f":"cards","id":"ko.c0347","k":"meaning","src":"news","tgt":"খবর"}
+{"f":"cards","id":"ko.c0348","k":"meaning","src":"movie","tgt":"সিনেমা"}
+{"f":"cards","id":"ko.c0348","k":"note","src":"영화 보러 갈래? = wanna go see a movie?","tgt":"영화 보러 갈래? = সিনেমা দেখতে যাবে?"}
+{"f":"cards","id":"ko.c0349","k":"meaning","src":"documentary","tgt":"ডকুমেন্টারি"}
+{"f":"cards","id":"ko.c0349","k":"note","src":"Shortened to 다큐.","tgt":"ছোট করে 다큐।"}
+{"f":"cards","id":"ko.c0350","k":"meaning","src":"comics / webtoon","tgt":"কমিকস / ওয়েবটুন"}
+{"f":"cards","id":"ko.c0350","k":"note","src":"Many dramas are based on 웹툰.","tgt":"অনেক ড্রামা 웹툰 থেকে বানানো।"}
+{"f":"cards","id":"ko.c0351","k":"meaning","src":"animation / anime","tgt":"অ্যানিমেশন / অ্যানিমে"}
+{"f":"cards","id":"ko.c0351","k":"note","src":"Shortened to 애니.","tgt":"ছোট করে 애니।"}
+{"f":"cards","id":"ko.c0352","k":"meaning","src":"comedy","tgt":"কমেডি"}
+{"f":"cards","id":"ko.c0352","k":"note","src":"개그 = gag / comedy sketch.","tgt":"개그 = হাসির স্কেচ।"}
+{"f":"cards","id":"ko.c0353","k":"meaning","src":"romance","tgt":"রোমান্স"}
+{"f":"cards","id":"ko.c0353","k":"note","src":"로코 = romantic comedy.","tgt":"로코 = রোমান্টিক কমেডি।"}
+{"f":"cards","id":"ko.c0354","k":"meaning","src":"thriller","tgt":"থ্রিলার"}
+{"f":"cards","id":"ko.c0355","k":"meaning","src":"horror movie","tgt":"ভূতের সিনেমা"}
+{"f":"cards","id":"ko.c0355","k":"note","src":"무서워요 = it's scary.","tgt":"무서워요 = ভয় লাগে।"}
+{"f":"cards","id":"ko.c0356","k":"meaning","src":"action","tgt":"অ্যাকশন"}
+{"f":"cards","id":"ko.c0357","k":"meaning","src":"historical drama","tgt":"ঐতিহাসিক ড্রামা"}
+{"f":"cards","id":"ko.c0357","k":"note","src":"Set in Joseon-era Korea.","tgt":"জোসন যুগের কোরিয়ার পটভূমিতে।"}
+{"f":"cards","id":"ko.c0358","k":"meaning","src":"music show","tgt":"গানের শো"}
+{"f":"cards","id":"ko.c0358","k":"note","src":"뮤직뱅크, 인기가요 — weekly idol stages.","tgt":"뮤직뱅크, 인기가요: প্রতি সপ্তাহে আইডলদের মঞ্চ।"}
+{"f":"cards","id":"ko.c0359","k":"meaning","src":"audition show","tgt":"অডিশন শো"}
+{"f":"cards","id":"ko.c0359","k":"note","src":"서바이벌 = survival show.","tgt":"서바이벌 = সারভাইভাল শো।"}
+{"f":"cards","id":"ko.c0360","k":"meaning","src":"which episode","tgt":"কত নম্বর পর্ব"}
+{"f":"cards","id":"ko.c0360","k":"note","src":"화 is the counter for episodes. 3화 = episode 3.","tgt":"화 হলো পর্বের কাউন্টার। 3화 = পর্ব 3।"}
+{"f":"cards","id":"ko.c0361","k":"meaning","src":"rerun","tgt":"পুনঃপ্রচার"}
+{"f":"cards","id":"ko.c0361","k":"note","src":"본방송 = original airing; 본방사수 = watch it live.","tgt":"본방송 = প্রথম প্রচার; 본방사수 = সরাসরি প্রচারের সময়েই দেখা।"}
+{"f":"cards","id":"ko.c0362","k":"meaning","src":"binge-watching","tgt":"একটানা দেখা"}
+{"f":"cards","id":"ko.c0362","k":"note","src":"정주행했어 = I binged it.","tgt":"정주행했어 = একটানা দেখে ফেলেছি।"}
+{"f":"cards","id":"ko.c0363","k":"meaning","src":"above / below","tgt":"উপরে / নিচে"}
+{"f":"cards","id":"ko.c0363","k":"note","src":"책상 위에 = on the desk.","tgt":"책상 위에 = টেবিলের উপরে।"}
+{"f":"cards","id":"ko.c0364","k":"meaning","src":"front / behind","tgt":"সামনে / পেছনে"}
+{"f":"cards","id":"ko.c0364","k":"note","src":"건물 앞에서 만나요 = meet in front of the building.","tgt":"건물 앞에서 만나요 = ভবনের সামনে দেখা করি।"}
+{"f":"cards","id":"ko.c0365","k":"meaning","src":"next to / beside","tgt":"পাশে"}
+{"f":"cards","id":"ko.c0365","k":"note","src":"은행 옆에 있어요 = it's next to the bank.","tgt":"은행 옆에 있어요 = ব্যাংকের পাশে।"}
+{"f":"cards","id":"ko.c0366","k":"meaning","src":"inside / outside","tgt":"ভেতরে / বাইরে"}
+{"f":"cards","id":"ko.c0366","k":"note","src":"안에 들어가요 = go inside.","tgt":"안에 들어가요 = ভেতরে যাই।"}
+{"f":"cards","id":"ko.c0367","k":"meaning","src":"between","tgt":"মাঝে"}
+{"f":"cards","id":"ko.c0367","k":"note","src":"카페와 약국 사이에 = between the café and pharmacy.","tgt":"카페와 약국 사이에 = ক্যাফে আর ফার্মেসির মাঝে।"}
+{"f":"cards","id":"ko.c0368","k":"meaning","src":"across the street","tgt":"রাস্তার ওপারে"}
 {"f":"cards","id":"ko.c0368","k":"note","src":"길 건너편에 있어요.","tgt":"길 건너편에 있어요.","pre":1}
-{"f":"cards","id":"ko.c0369","k":"meaning","src":"opposite side","tgt":""}
-{"f":"cards","id":"ko.c0369","k":"note","src":"Same meaning as 건너편.","tgt":""}
-{"f":"cards","id":"ko.c0370","k":"meaning","src":"nearby","tgt":""}
-{"f":"cards","id":"ko.c0370","k":"note","src":"이 근처에 = around here.","tgt":""}
-{"f":"cards","id":"ko.c0371","k":"meaning","src":"far / close","tgt":""}
-{"f":"cards","id":"ko.c0371","k":"note","src":"여기서 가까워요? = Is it close from here?","tgt":""}
-{"f":"cards","id":"ko.c0372","k":"meaning","src":"east / west / south / north","tgt":""}
-{"f":"cards","id":"ko.c0372","k":"note","src":"강남 = south of the river.","tgt":""}
-{"f":"cards","id":"ko.c0373","k":"meaning","src":"corner","tgt":""}
-{"f":"cards","id":"ko.c0373","k":"note","src":"코너에서 왼쪽으로 = left at the corner.","tgt":""}
-{"f":"cards","id":"ko.c0374","k":"meaning","src":"crosswalk","tgt":""}
-{"f":"cards","id":"ko.c0374","k":"note","src":"건너세요 = cross.","tgt":""}
-{"f":"cards","id":"ko.c0375","k":"meaning","src":"traffic light","tgt":""}
-{"f":"cards","id":"ko.c0375","k":"note","src":"신호등에서 우회전 = turn right at the light.","tgt":""}
-{"f":"cards","id":"ko.c0376","k":"meaning","src":"exit / entrance","tgt":""}
-{"f":"cards","id":"ko.c0376","k":"note","src":"지하철 3번 출구 = subway exit 3.","tgt":""}
-{"f":"cards","id":"ko.c0377","k":"meaning","src":"floor (of a building)","tgt":""}
-{"f":"cards","id":"ko.c0377","k":"note","src":"2층 = 2nd floor; 지하 1층 = B1.","tgt":""}
-{"f":"cards","id":"ko.c0378","k":"meaning","src":"Go back / turn around","tgt":""}
-{"f":"cards","id":"ko.c0378","k":"note","src":"돌다 = to turn.","tgt":""}
-{"f":"cards","id":"ko.c0379","k":"meaning","src":"straight ahead","tgt":""}
-{"f":"cards","id":"ko.c0379","k":"note","src":"Shorter than 똑바로 가세요; seen on signs.","tgt":""}
-{"f":"cards","id":"ko.c0380","k":"meaning","src":"right turn / left turn","tgt":""}
-{"f":"cards","id":"ko.c0380","k":"note","src":"Taxi talk: 우회전해 주세요.","tgt":""}
-{"f":"cards","id":"ko.c0381","k":"meaning","src":"am / is / are (polite)","tgt":""}
-{"f":"cards","id":"ko.c0381","k":"note","src":"이에요 after consonant, 예요 after vowel: 학생이에요, 저예요.","tgt":""}
-{"f":"cards","id":"ko.c0382","k":"meaning","src":"there is / have","tgt":""}
-{"f":"cards","id":"ko.c0382","k":"note","src":"없어요 (eopseoyo) = there isn't / don't have.","tgt":""}
-{"f":"cards","id":"ko.c0383","k":"meaning","src":"do (하다)","tgt":""}
-{"f":"cards","id":"ko.c0383","k":"note","src":"Past: 했어요. Future: 할 거예요.","tgt":""}
-{"f":"cards","id":"ko.c0384","k":"meaning","src":"go (가다)","tgt":""}
-{"f":"cards","id":"ko.c0384","k":"note","src":"Past: 갔어요. 집에 가요 = I'm going home.","tgt":""}
-{"f":"cards","id":"ko.c0385","k":"meaning","src":"come (오다)","tgt":""}
-{"f":"cards","id":"ko.c0385","k":"note","src":"Past: 왔어요.","tgt":""}
-{"f":"cards","id":"ko.c0386","k":"meaning","src":"eat (먹다)","tgt":""}
-{"f":"cards","id":"ko.c0386","k":"note","src":"Past: 먹었어요. 밥 먹었어요? = Did you eat?","tgt":""}
-{"f":"cards","id":"ko.c0387","k":"meaning","src":"drink (마시다)","tgt":""}
-{"f":"cards","id":"ko.c0387","k":"note","src":"Past: 마셨어요.","tgt":""}
-{"f":"cards","id":"ko.c0388","k":"meaning","src":"see / watch (보다)","tgt":""}
-{"f":"cards","id":"ko.c0388","k":"note","src":"Past: 봤어요. 내일 봐요 = see you tomorrow.","tgt":""}
-{"f":"cards","id":"ko.c0389","k":"meaning","src":"like (좋아하다)","tgt":""}
-{"f":"cards","id":"ko.c0389","k":"note","src":"좋아요 = it's good / I like it (adjective form).","tgt":""}
-{"f":"cards","id":"ko.c0390","k":"meaning","src":"know (알다)","tgt":""}
-{"f":"cards","id":"ko.c0390","k":"note","src":"몰라요 (mollayo) = don't know.","tgt":""}
-{"f":"cards","id":"ko.c0391","k":"meaning","src":"please give","tgt":""}
-{"f":"cards","id":"ko.c0391","k":"note","src":"Verb stem + 아/어 주세요 = please do X.","tgt":""}
-{"f":"cards","id":"ko.c0392","k":"meaning","src":"love (사랑하다)","tgt":""}
-{"f":"cards","id":"ko.c0392","k":"note","src":"Casual: 사랑해.","tgt":""}
-{"f":"cards","id":"ko.c0393","k":"meaning","src":"topic marker ('as for...')","tgt":""}
-{"f":"cards","id":"ko.c0393","k":"note","src":"은 after consonant, 는 after vowel. 저는 = as for me.","tgt":""}
-{"f":"cards","id":"ko.c0394","k":"meaning","src":"subject marker","tgt":""}
-{"f":"cards","id":"ko.c0394","k":"note","src":"이 after consonant, 가 after vowel. 비가 와요 = rain is falling.","tgt":""}
-{"f":"cards","id":"ko.c0395","k":"meaning","src":"object marker","tgt":""}
-{"f":"cards","id":"ko.c0395","k":"note","src":"을 after consonant, 를 after vowel. 밥을 먹어요.","tgt":""}
-{"f":"cards","id":"ko.c0396","k":"meaning","src":"to / at (place or time)","tgt":""}
-{"f":"cards","id":"ko.c0396","k":"note","src":"학교에 가요 = go to school. 세 시에 = at 3 o'clock.","tgt":""}
-{"f":"cards","id":"ko.c0397","k":"meaning","src":"at / in (where an action happens), from","tgt":""}
-{"f":"cards","id":"ko.c0397","k":"note","src":"집에서 먹어요 = eat at home.","tgt":""}
-{"f":"cards","id":"ko.c0398","k":"meaning","src":"also / too","tgt":""}
-{"f":"cards","id":"ko.c0398","k":"note","src":"Replaces 은/는/이/가/을/를. 저도 = me too.","tgt":""}
-{"f":"cards","id":"ko.c0399","k":"meaning","src":"possessive ('s)","tgt":""}
-{"f":"cards","id":"ko.c0399","k":"note","src":"Often pronounced 에. 친구의 책 = friend's book.","tgt":""}
-{"f":"cards","id":"ko.c0400","k":"meaning","src":"and / with","tgt":""}
-{"f":"cards","id":"ko.c0400","k":"note","src":"하고 is the safe spoken choice.","tgt":""}
-{"f":"cards","id":"ko.c0401","k":"meaning","src":"only","tgt":""}
-{"f":"cards","id":"ko.c0401","k":"note","src":"물만 주세요 = only water, please.","tgt":""}
-{"f":"cards","id":"ko.c0402","k":"meaning","src":"1, 2, 3 (native)","tgt":""}
-{"f":"cards","id":"ko.c0402","k":"note","src":"Native numbers: age, counting things, hours.","tgt":""}
-{"f":"cards","id":"ko.c0403","k":"meaning","src":"4, 5, 6 (native)","tgt":""}
-{"f":"cards","id":"ko.c0403","k":"note","src":"Before a counter, 하나→한, 둘→두, 셋→세, 넷→네.","tgt":""}
-{"f":"cards","id":"ko.c0404","k":"meaning","src":"7, 8, 9, 10 (native)","tgt":""}
+{"f":"cards","id":"ko.c0369","k":"meaning","src":"opposite side","tgt":"উল্টো দিকে"}
+{"f":"cards","id":"ko.c0369","k":"note","src":"Same meaning as 건너편.","tgt":"건너편 শব্দটির একই মানে।"}
+{"f":"cards","id":"ko.c0370","k":"meaning","src":"nearby","tgt":"কাছেই / আশেপাশে"}
+{"f":"cards","id":"ko.c0370","k":"note","src":"이 근처에 = around here.","tgt":"이 근처에 = এই আশেপাশে।"}
+{"f":"cards","id":"ko.c0371","k":"meaning","src":"far / close","tgt":"দূরে / কাছে"}
+{"f":"cards","id":"ko.c0371","k":"note","src":"여기서 가까워요? = Is it close from here?","tgt":"여기서 가까워요? = এখান থেকে কাছে?"}
+{"f":"cards","id":"ko.c0372","k":"meaning","src":"east / west / south / north","tgt":"পূর্ব / পশ্চিম / দক্ষিণ / উত্তর"}
+{"f":"cards","id":"ko.c0372","k":"note","src":"강남 = south of the river.","tgt":"강남 = নদীর দক্ষিণে।"}
+{"f":"cards","id":"ko.c0373","k":"meaning","src":"corner","tgt":"কোনা / মোড়"}
+{"f":"cards","id":"ko.c0373","k":"note","src":"코너에서 왼쪽으로 = left at the corner.","tgt":"코너에서 왼쪽으로 = মোড়ে গিয়ে বামে।"}
+{"f":"cards","id":"ko.c0374","k":"meaning","src":"crosswalk","tgt":"জেব্রা ক্রসিং"}
+{"f":"cards","id":"ko.c0374","k":"note","src":"건너세요 = cross.","tgt":"건너세요 = পার হোন।"}
+{"f":"cards","id":"ko.c0375","k":"meaning","src":"traffic light","tgt":"ট্রাফিক সিগন্যাল"}
+{"f":"cards","id":"ko.c0375","k":"note","src":"신호등에서 우회전 = turn right at the light.","tgt":"신호등에서 우회전 = সিগন্যালে ডানে মোড়।"}
+{"f":"cards","id":"ko.c0376","k":"meaning","src":"exit / entrance","tgt":"বের হওয়ার পথ / ঢোকার পথ"}
+{"f":"cards","id":"ko.c0376","k":"note","src":"지하철 3번 출구 = subway exit 3.","tgt":"지하철 3번 출구 = সাবওয়ের 3 নম্বর এক্সিট।"}
+{"f":"cards","id":"ko.c0377","k":"meaning","src":"floor (of a building)","tgt":"তলা (ভবনের)"}
+{"f":"cards","id":"ko.c0377","k":"note","src":"2층 = 2nd floor; 지하 1층 = B1.","tgt":"2층 = দোতলা; 지하 1층 = মাটির নিচে প্রথম তলা।"}
+{"f":"cards","id":"ko.c0378","k":"meaning","src":"Go back / turn around","tgt":"পেছনে ফিরে যান / ঘুরে যান"}
+{"f":"cards","id":"ko.c0378","k":"note","src":"돌다 = to turn.","tgt":"돌다 = ঘোরা।"}
+{"f":"cards","id":"ko.c0379","k":"meaning","src":"straight ahead","tgt":"সোজা সামনে"}
+{"f":"cards","id":"ko.c0379","k":"note","src":"Shorter than 똑바로 가세요; seen on signs.","tgt":"똑바로 가세요 বলার চেয়ে ছোট; সাইনবোর্ডে দেখা যায়।"}
+{"f":"cards","id":"ko.c0380","k":"meaning","src":"right turn / left turn","tgt":"ডানে মোড় / বামে মোড়"}
+{"f":"cards","id":"ko.c0380","k":"note","src":"Taxi talk: 우회전해 주세요.","tgt":"ট্যাক্সিতে: 우회전해 주세요।"}
+{"f":"cards","id":"ko.c0381","k":"meaning","src":"am / is / are (polite)","tgt":"… হলো … (ভদ্র রূপ)"}
+{"f":"cards","id":"ko.c0381","k":"note","src":"이에요 after consonant, 예요 after vowel: 학생이에요, 저예요.","tgt":"শেষ ব্যঞ্জনের পরে 이에요, স্বরের পরে 예요: 학생이에요, 저예요।"}
+{"f":"cards","id":"ko.c0382","k":"meaning","src":"there is / have","tgt":"আছে (কোথাও আছে / কাছে আছে)"}
+{"f":"cards","id":"ko.c0382","k":"note","src":"없어요 (eopseoyo) = there isn't / don't have.","tgt":"없어요 (eopseoyo) = নেই।"}
+{"f":"cards","id":"ko.c0383","k":"meaning","src":"do (하다)","tgt":"করা (하다)"}
+{"f":"cards","id":"ko.c0383","k":"note","src":"Past: 했어요. Future: 할 거예요.","tgt":"অতীত: 했어요। ভবিষ্যৎ: 할 거예요।"}
+{"f":"cards","id":"ko.c0384","k":"meaning","src":"go (가다)","tgt":"যাওয়া (가다)"}
+{"f":"cards","id":"ko.c0384","k":"note","src":"Past: 갔어요. 집에 가요 = I'm going home.","tgt":"অতীত: 갔어요। 집에 가요 = আমি বাসায় যাচ্ছি।"}
+{"f":"cards","id":"ko.c0385","k":"meaning","src":"come (오다)","tgt":"আসা (오다)"}
+{"f":"cards","id":"ko.c0385","k":"note","src":"Past: 왔어요.","tgt":"অতীত: 왔어요।"}
+{"f":"cards","id":"ko.c0386","k":"meaning","src":"eat (먹다)","tgt":"খাওয়া (먹다)"}
+{"f":"cards","id":"ko.c0386","k":"note","src":"Past: 먹었어요. 밥 먹었어요? = Did you eat?","tgt":"অতীত: 먹었어요। 밥 먹었어요? = খেয়েছেন?"}
+{"f":"cards","id":"ko.c0387","k":"meaning","src":"drink (마시다)","tgt":"পান করা (마시다)"}
+{"f":"cards","id":"ko.c0387","k":"note","src":"Past: 마셨어요.","tgt":"অতীত: 마셨어요।"}
+{"f":"cards","id":"ko.c0388","k":"meaning","src":"see / watch (보다)","tgt":"দেখা (보다)"}
+{"f":"cards","id":"ko.c0388","k":"note","src":"Past: 봤어요. 내일 봐요 = see you tomorrow.","tgt":"অতীত: 봤어요। 내일 봐요 = আগামীকাল দেখা হবে।"}
+{"f":"cards","id":"ko.c0389","k":"meaning","src":"like (좋아하다)","tgt":"পছন্দ করা (좋아하다)"}
+{"f":"cards","id":"ko.c0389","k":"note","src":"좋아요 = it's good / I like it (adjective form).","tgt":"좋아요 = ভালো / আমার ভালো লাগে (বিশেষণ-ক্রিয়ার রূপ)।"}
+{"f":"cards","id":"ko.c0390","k":"meaning","src":"know (알다)","tgt":"জানা (알다)"}
+{"f":"cards","id":"ko.c0390","k":"note","src":"몰라요 (mollayo) = don't know.","tgt":"몰라요 (mollayo) = জানি না।"}
+{"f":"cards","id":"ko.c0391","k":"meaning","src":"please give","tgt":"দিন"}
+{"f":"cards","id":"ko.c0391","k":"note","src":"Verb stem + 아/어 주세요 = please do X.","tgt":"ক্রিয়ার ধাতু + 아/어 주세요 = … করে দিন।"}
+{"f":"cards","id":"ko.c0392","k":"meaning","src":"love (사랑하다)","tgt":"ভালোবাসা (사랑하다)"}
+{"f":"cards","id":"ko.c0392","k":"note","src":"Casual: 사랑해.","tgt":"ঘরোয়া: 사랑해।"}
+{"f":"cards","id":"ko.c0393","k":"meaning","src":"topic marker ('as for...')","tgt":"বিষয় পার্টিকল (\"আর … এর কথা বললে\")"}
+{"f":"cards","id":"ko.c0393","k":"note","src":"은 after consonant, 는 after vowel. 저는 = as for me.","tgt":"শেষ ব্যঞ্জনের পরে 은, স্বরের পরে 는। 저는 = আমার কথা বললে।"}
+{"f":"cards","id":"ko.c0394","k":"meaning","src":"subject marker","tgt":"কর্তা পার্টিকল"}
+{"f":"cards","id":"ko.c0394","k":"note","src":"이 after consonant, 가 after vowel. 비가 와요 = rain is falling.","tgt":"শেষ ব্যঞ্জনের পরে 이, স্বরের পরে 가। 비가 와요 = বৃষ্টি পড়ছে।"}
+{"f":"cards","id":"ko.c0395","k":"meaning","src":"object marker","tgt":"কর্ম পার্টিকল"}
+{"f":"cards","id":"ko.c0395","k":"note","src":"을 after consonant, 를 after vowel. 밥을 먹어요.","tgt":"শেষ ব্যঞ্জনের পরে 을, স্বরের পরে 를। 밥을 먹어요।"}
+{"f":"cards","id":"ko.c0396","k":"meaning","src":"to / at (place or time)","tgt":"-এ / -তে (যাওয়ার জায়গা বা সময়)"}
+{"f":"cards","id":"ko.c0396","k":"note","src":"학교에 가요 = go to school. 세 시에 = at 3 o'clock.","tgt":"학교에 가요 = স্কুলে যাই। 세 시에 = তিনটায়।"}
+{"f":"cards","id":"ko.c0397","k":"meaning","src":"at / in (where an action happens), from","tgt":"-এ / -তে (যেখানে কাজটা হয়), থেকে"}
+{"f":"cards","id":"ko.c0397","k":"note","src":"집에서 먹어요 = eat at home.","tgt":"집에서 먹어요 = বাসায় খাই।"}
+{"f":"cards","id":"ko.c0398","k":"meaning","src":"also / too","tgt":"-ও"}
+{"f":"cards","id":"ko.c0398","k":"note","src":"Replaces 은/는/이/가/을/를. 저도 = me too.","tgt":"은/는/이/가/을/를 পার্টিকলের জায়গা নেয়। 저도 = আমিও।"}
+{"f":"cards","id":"ko.c0399","k":"meaning","src":"possessive ('s)","tgt":"-র / -এর (সম্বন্ধ)"}
+{"f":"cards","id":"ko.c0399","k":"note","src":"Often pronounced 에. 친구의 책 = friend's book.","tgt":"প্রায়ই 에 উচ্চারিত হয়। 친구의 책 = বন্ধুর বই।"}
+{"f":"cards","id":"ko.c0400","k":"meaning","src":"and / with","tgt":"আর / সাথে"}
+{"f":"cards","id":"ko.c0400","k":"note","src":"하고 is the safe spoken choice.","tgt":"কথায় 하고 সবচেয়ে নিরাপদ।"}
+{"f":"cards","id":"ko.c0401","k":"meaning","src":"only","tgt":"শুধু"}
+{"f":"cards","id":"ko.c0401","k":"note","src":"물만 주세요 = only water, please.","tgt":"물만 주세요 = শুধু পানি দিন।"}
+{"f":"cards","id":"ko.c0402","k":"meaning","src":"1, 2, 3 (native)","tgt":"1, 2, 3 (খাঁটি কোরিয়ান)"}
+{"f":"cards","id":"ko.c0402","k":"note","src":"Native numbers: age, counting things, hours.","tgt":"খাঁটি কোরিয়ান সংখ্যা: বয়স, জিনিস গোনা, ঘণ্টা।"}
+{"f":"cards","id":"ko.c0403","k":"meaning","src":"4, 5, 6 (native)","tgt":"4, 5, 6 (খাঁটি কোরিয়ান)"}
+{"f":"cards","id":"ko.c0403","k":"note","src":"Before a counter, 하나→한, 둘→두, 셋→세, 넷→네.","tgt":"কাউন্টারের আগে 하나→한, 둘→두, 셋→세, 넷→네।"}
+{"f":"cards","id":"ko.c0404","k":"meaning","src":"7, 8, 9, 10 (native)","tgt":"7, 8, 9, 10 (খাঁটি কোরিয়ান)"}
 {"f":"cards","id":"ko.c0404","k":"note","src":"스물 = 20, 서른 = 30.","tgt":"스물 = 20, 서른 = 30.","pre":1}
-{"f":"cards","id":"ko.c0405","k":"meaning","src":"1 to 5 (Sino-Korean)","tgt":""}
-{"f":"cards","id":"ko.c0405","k":"note","src":"Sino numbers: money, dates, minutes, phone numbers.","tgt":""}
-{"f":"cards","id":"ko.c0406","k":"meaning","src":"6 to 10 (Sino-Korean)","tgt":""}
+{"f":"cards","id":"ko.c0405","k":"meaning","src":"1 to 5 (Sino-Korean)","tgt":"1 থেকে 5 (সিনো-কোরিয়ান)"}
+{"f":"cards","id":"ko.c0405","k":"note","src":"Sino numbers: money, dates, minutes, phone numbers.","tgt":"সিনো-কোরিয়ান সংখ্যা: টাকাপয়সা, তারিখ, মিনিট, ফোন নম্বর।"}
+{"f":"cards","id":"ko.c0406","k":"meaning","src":"6 to 10 (Sino-Korean)","tgt":"6 থেকে 10 (সিনো-কোরিয়ান)"}
 {"f":"cards","id":"ko.c0406","k":"note","src":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000.","tgt":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000.","pre":1}
-{"f":"cards","id":"ko.c0407","k":"meaning","src":"10,000 won","tgt":""}
-{"f":"cards","id":"ko.c0407","k":"note","src":"Korean counts in 만 (10k). 오만 원 = 50,000 won.","tgt":""}
+{"f":"cards","id":"ko.c0407","k":"meaning","src":"10,000 won","tgt":"10,000 ওন"}
+{"f":"cards","id":"ko.c0407","k":"note","src":"Korean counts in 만 (10k). 오만 원 = 50,000 won.","tgt":"কোরিয়ানে গোনা হয় 만 (10 হাজার) ধরে। 오만 원 = 50,000 ওন।"}
 {"f":"cards","id":"ko.c0408","k":"meaning","src":"3:30","tgt":"3:30","pre":1}
-{"f":"cards","id":"ko.c0408","k":"note","src":"Hours = native (세), minutes = Sino (삼십).","tgt":""}
-{"f":"cards","id":"ko.c0409","k":"meaning","src":"25 years old","tgt":""}
-{"f":"cards","id":"ko.c0409","k":"note","src":"Age uses native numbers + 살.","tgt":""}
-{"f":"cards","id":"ko.c0410","k":"meaning","src":"You're cute","tgt":""}
-{"f":"cards","id":"ko.c0410","k":"note","src":"Casual. Polite: 귀여워요.","tgt":""}
-{"f":"cards","id":"ko.c0411","k":"meaning","src":"You're pretty","tgt":""}
-{"f":"cards","id":"ko.c0411","k":"note","src":"Also for things: a pretty café.","tgt":""}
-{"f":"cards","id":"ko.c0412","k":"meaning","src":"You're handsome","tgt":""}
-{"f":"cards","id":"ko.c0412","k":"note","src":"Lit. 'came out well-formed'.","tgt":""}
-{"f":"cards","id":"ko.c0413","k":"meaning","src":"I miss you","tgt":""}
-{"f":"cards","id":"ko.c0413","k":"note","src":"Lit. 'I want to see you'.","tgt":""}
-{"f":"cards","id":"ko.c0414","k":"meaning","src":"I like you","tgt":""}
-{"f":"cards","id":"ko.c0414","k":"note","src":"The step before 사랑해.","tgt":""}
-{"f":"cards","id":"ko.c0415","k":"meaning","src":"Babe / honey","tgt":""}
-{"f":"cards","id":"ko.c0415","k":"note","src":"Common couple nickname.","tgt":""}
-{"f":"cards","id":"ko.c0416","k":"meaning","src":"Sleep well / good night","tgt":""}
-{"f":"cards","id":"ko.c0416","k":"note","src":"Casual. Polite: 잘 자요; to elders: 안녕히 주무세요.","tgt":""}
-{"f":"cards","id":"ko.c0417","k":"meaning","src":"Did you eat?","tgt":""}
-{"f":"cards","id":"ko.c0417","k":"note","src":"How Koreans say 'how are you' to people they care about.","tgt":""}
-{"f":"cards","id":"ko.c0418","k":"meaning","src":"You look pretty today","tgt":""}
-{"f":"cards","id":"ko.c0418","k":"note","src":"네요 = noticing out loud. Casual: 오늘 예쁘네.","tgt":""}
-{"f":"cards","id":"ko.c0419","k":"meaning","src":"Your eyes are so pretty","tgt":""}
-{"f":"cards","id":"ko.c0419","k":"note","src":"눈 = eyes. 웃는 모습이 예뻐요 = your smile is pretty.","tgt":""}
-{"f":"cards","id":"ko.c0420","k":"meaning","src":"The way you laugh is so cute","tgt":""}
-{"f":"cards","id":"ko.c0420","k":"note","src":"웃다 = to laugh/smile.","tgt":""}
-{"f":"cards","id":"ko.c0421","k":"meaning","src":"I missed you","tgt":""}
-{"f":"cards","id":"ko.c0421","k":"note","src":"Casual: 보고 싶었어. Say it on arrival.","tgt":""}
-{"f":"cards","id":"ko.c0422","k":"meaning","src":"I'm happy when I'm with you","tgt":""}
-{"f":"cards","id":"ko.c0422","k":"note","src":"같이 = together. 행복하다 = to be happy.","tgt":""}
-{"f":"cards","id":"ko.c0423","k":"meaning","src":"I thought about you a lot","tgt":""}
-{"f":"cards","id":"ko.c0423","k":"note","src":"Casual. 생각 = thought.","tgt":""}
-{"f":"cards","id":"ko.c0424","k":"meaning","src":"Did you eat? Make sure you eat well","tgt":""}
-{"f":"cards","id":"ko.c0424","k":"note","src":"Peak Korean affection: caring about meals.","tgt":""}
-{"f":"cards","id":"ko.c0425","k":"meaning","src":"Did you get home safe?","tgt":""}
-{"f":"cards","id":"ko.c0425","k":"note","src":"Text this after a date. Expected, not optional.","tgt":""}
-{"f":"cards","id":"ko.c0426","k":"meaning","src":"Get home safe","tgt":""}
-{"f":"cards","id":"ko.c0426","k":"note","src":"Casual. Polite: 조심히 가세요.","tgt":""}
-{"f":"cards","id":"ko.c0427","k":"meaning","src":"Sweet dreams","tgt":""}
-{"f":"cards","id":"ko.c0427","k":"note","src":"Lit. 'dream a good dream'. Pairs with 잘 자.","tgt":""}
-{"f":"cards","id":"ko.c0428","k":"meaning","src":"Only look at me","tgt":""}
-{"f":"cards","id":"ko.c0428","k":"note","src":"Playful / clingy. 만 = only.","tgt":""}
-{"f":"cards","id":"ko.c0429","k":"meaning","src":"You're the only one for me","tgt":""}
-{"f":"cards","id":"ko.c0429","k":"note","src":"Lit. 'there's no one but you'.","tgt":""}
-{"f":"cards","id":"ko.c0430","k":"meaning","src":"You made my heart skip","tgt":""}
-{"f":"cards","id":"ko.c0430","k":"note","src":"심쿵 = heart (심장) + thump (쿵). Slang.","tgt":""}
-{"f":"cards","id":"ko.c0431","k":"meaning","src":"Will you be mine?","tgt":""}
-{"f":"cards","id":"ko.c0431","k":"note","src":"Casual, playful way to ask someone out.","tgt":""}
-{"f":"cards","id":"ko.c0432","k":"meaning","src":"Do you want to go out with me?","tgt":""}
-{"f":"cards","id":"ko.c0432","k":"note","src":"사귀다 = to date. The real ask.","tgt":""}
-{"f":"cards","id":"ko.c0433","k":"meaning","src":"Stop being cute, my heart hurts","tgt":""}
-{"f":"cards","id":"ko.c0433","k":"note","src":"애교 = acting cute. Joke-flirt line.","tgt":""}
-{"f":"cards","id":"ko.c0434","k":"meaning","src":"Can I get your number?","tgt":""}
-{"f":"cards","id":"ko.c0434","k":"note","src":"좀 softens it. Polite: 번호 좀 알려 주실래요?","tgt":""}
-{"f":"cards","id":"ko.c0435","k":"meaning","src":"Do you have Instagram?","tgt":""}
-{"f":"cards","id":"ko.c0435","k":"note","src":"The modern number ask. 인스타 = Insta.","tgt":""}
-{"f":"cards","id":"ko.c0436","k":"meaning","src":"If you're free, want to grab a coffee?","tgt":""}
-{"f":"cards","id":"ko.c0436","k":"note","src":"ㄹ래요 = want to? Low-pressure ask.","tgt":""}
-{"f":"cards","id":"ko.c0437","k":"meaning","src":"Do you have a boyfriend?","tgt":""}
-{"f":"cards","id":"ko.c0437","k":"note","src":"여자친구 = girlfriend. 남친/여친 = casual short forms.","tgt":""}
-{"f":"cards","id":"ko.c0438","k":"meaning","src":"It was love at first sight","tgt":""}
-{"f":"cards","id":"ko.c0438","k":"note","src":"첫눈 = first sight (also first snow). 반하다 = fall for.","tgt":""}
-{"f":"cards","id":"ko.c0439","k":"meaning","src":"Time flies when I'm with you","tgt":""}
-{"f":"cards","id":"ko.c0439","k":"note","src":"랑 = with (casual). 빨리 = fast.","tgt":""}
-{"f":"cards","id":"ko.c0440","k":"meaning","src":"Thinking of you makes me smile","tgt":""}
-{"f":"cards","id":"ko.c0440","k":"note","src":"웃음이 나다 = a smile comes out.","tgt":""}
-{"f":"cards","id":"ko.c0441","k":"meaning","src":"I keep thinking about you","tgt":""}
-{"f":"cards","id":"ko.c0441","k":"note","src":"자꾸 = keep / over and over.","tgt":""}
-{"f":"cards","id":"ko.c0442","k":"meaning","src":"You're the prettiest","tgt":""}
-{"f":"cards","id":"ko.c0442","k":"note","src":"제일 = the most. 제일 멋있어 for guys.","tgt":""}
-{"f":"cards","id":"ko.c0443","k":"meaning","src":"Should we meet again?","tgt":""}
-{"f":"cards","id":"ko.c0443","k":"note","src":"ㄹ까 = shall we? 또 = again.","tgt":""}
-{"f":"cards","id":"ko.c0444","k":"meaning","src":"I'll walk you home","tgt":""}
-{"f":"cards","id":"ko.c0444","k":"note","src":"ㄹ게 = I'll (promise). Classic end of date.","tgt":""}
-{"f":"cards","id":"ko.c0445","k":"meaning","src":"I think I like you","tgt":""}
-{"f":"cards","id":"ko.c0445","k":"note","src":"것 같아 = I think / it seems. Softens the confession.","tgt":""}
-{"f":"cards","id":"ko.c0446","k":"meaning","src":"I don't want to go home tonight","tgt":""}
-{"f":"cards","id":"ko.c0446","k":"note","src":"기 싫다 = don't want to. Said at the end of a good date.","tgt":""}
-{"f":"cards","id":"ko.c0447","k":"meaning","src":"Let's date","tgt":""}
-{"f":"cards","id":"ko.c0447","k":"note","src":"자 = let's. More confident than 사귈래?","tgt":""}
-{"f":"cards","id":"ko.c0448","k":"meaning","src":"What are you up to?","tgt":""}
-{"f":"cards","id":"ko.c0448","k":"note","src":"The universal opener. Polite: 뭐 해요?","tgt":""}
-{"f":"cards","id":"ko.c0449","k":"meaning","src":"I'm bored","tgt":""}
-{"f":"cards","id":"ko.c0449","k":"note","src":"심심하다 = bored. 놀자 = let's hang out.","tgt":""}
-{"f":"cards","id":"ko.c0450","k":"meaning","src":"I'm tired","tgt":""}
-{"f":"cards","id":"ko.c0450","k":"note","src":"피곤하다. 졸려 = I'm sleepy.","tgt":""}
-{"f":"cards","id":"ko.c0451","k":"meaning","src":"I'm hungry","tgt":""}
-{"f":"cards","id":"ko.c0451","k":"note","src":"Casual version of 배고파요.","tgt":""}
-{"f":"cards","id":"ko.c0452","k":"meaning","src":"Where are you?","tgt":""}
-{"f":"cards","id":"ko.c0452","k":"note","src":"Casual. 어디예요? polite.","tgt":""}
-{"f":"cards","id":"ko.c0453","k":"meaning","src":"I'm on my way","tgt":""}
-{"f":"cards","id":"ko.c0453","k":"note","src":"Lit. 'I go now'. 다 왔어 = I'm almost there.","tgt":""}
-{"f":"cards","id":"ko.c0454","k":"meaning","src":"I think I'll be late","tgt":""}
-{"f":"cards","id":"ko.c0454","k":"note","src":"것 같아 = I think. 미안, 늦었어 = sorry I'm late.","tgt":""}
-{"f":"cards","id":"ko.c0455","k":"meaning","src":"lol","tgt":""}
-{"f":"cards","id":"ko.c0455","k":"note","src":"Texting only. ㅎㅎ = softer chuckle. ㅠㅠ = crying.","tgt":""}
-{"f":"cards","id":"ko.c0456","k":"meaning","src":"yeah / ok","tgt":""}
-{"f":"cards","id":"ko.c0456","k":"note","src":"Texting shorthand for 응. ㄴㄴ = no.","tgt":""}
-{"f":"cards","id":"ko.c0457","k":"meaning","src":"That's hilarious","tgt":""}
-{"f":"cards","id":"ko.c0457","k":"note","src":"웃기다 = to be funny.","tgt":""}
-{"f":"cards","id":"ko.c0458","k":"meaning","src":"Dunno","tgt":""}
-{"f":"cards","id":"ko.c0458","k":"note","src":"Casual 몰라요. 글쎄 = hmm, not sure.","tgt":""}
-{"f":"cards","id":"ko.c0459","k":"meaning","src":"Okay / sure / fine","tgt":""}
-{"f":"cards","id":"ko.c0459","k":"note","src":"Also 'is that so?' with rising tone.","tgt":""}
-{"f":"cards","id":"ko.c0460","k":"meaning","src":"See you later","tgt":""}
-{"f":"cards","id":"ko.c0460","k":"note","src":"담에 = 다음에 (next time), shortened.","tgt":""}
-{"f":"cards","id":"ko.c0461","k":"meaning","src":"Night, see you tomorrow","tgt":""}
-{"f":"cards","id":"ko.c0461","k":"note","src":"Standard sign-off text.","tgt":""}
-{"f":"cards","id":"ko.c0462","k":"meaning","src":"That's cool! / You look cool","tgt":""}
-{"f":"cards","id":"ko.c0462","k":"note","src":"Works for people, outfits, moves. Polite: 멋있어요.","tgt":""}
-{"f":"cards","id":"ko.c0463","k":"meaning","src":"Nice job!","tgt":""}
-{"f":"cards","id":"ko.c0463","k":"note","src":"잘하다 = do well. Polite: 잘했어요.","tgt":""}
-{"f":"cards","id":"ko.c0464","k":"meaning","src":"You're the best","tgt":""}
-{"f":"cards","id":"ko.c0464","k":"note","src":"최고 = the best. 네가 최고야.","tgt":""}
-{"f":"cards","id":"ko.c0465","k":"meaning","src":"Respect / fair enough","tgt":""}
-{"f":"cards","id":"ko.c0465","k":"note","src":"Lit. 'acknowledge'. Slang: ㅇㅈ in texts.","tgt":""}
-{"f":"cards","id":"ko.c0466","k":"meaning","src":"Awesome / the best","tgt":""}
-{"f":"cards","id":"ko.c0466","k":"note","src":"짱 = top. 짱 멋있어 = super cool.","tgt":""}
-{"f":"cards","id":"ko.c0467","k":"meaning","src":"Legend","tgt":""}
-{"f":"cards","id":"ko.c0467","k":"note","src":"From English. 레전드다 = that's legendary.","tgt":"","rw":"English loanword explanation"}
-{"f":"cards","id":"ko.c0468","k":"meaning","src":"Insane (good)","tgt":""}
-{"f":"cards","id":"ko.c0468","k":"note","src":"Said about a goal, a beat, a view. Casual.","tgt":""}
-{"f":"cards","id":"ko.c0469","k":"meaning","src":"That's amazing","tgt":""}
-{"f":"cards","id":"ko.c0469","k":"note","src":"Safe hype word for any crowd.","tgt":""}
-{"f":"cards","id":"ko.c0470","k":"meaning","src":"Let's go!","tgt":""}
-{"f":"cards","id":"ko.c0470","k":"note","src":"Also the pre-game shout.","tgt":""}
-{"f":"cards","id":"ko.c0471","k":"meaning","src":"Okay, deal / I'm in","tgt":""}
-{"f":"cards","id":"ko.c0471","k":"note","src":"콜 = 'call', accepting a plan.","tgt":""}
-{"f":"cards","id":"ko.c0472","k":"meaning","src":"Good work, that was tough","tgt":""}
-{"f":"cards","id":"ko.c0472","k":"note","src":"Said after effort. Polite: 고생하셨어요.","tgt":""}
-{"f":"cards","id":"ko.c0473","k":"meaning","src":"Nice work today","tgt":""}
-{"f":"cards","id":"ko.c0473","k":"note","src":"End-of-day sign-off at work or practice.","tgt":""}
-{"f":"cards","id":"ko.c0474","k":"meaning","src":"You got this / cheer up","tgt":""}
-{"f":"cards","id":"ko.c0474","k":"note","src":"힘 = strength. 힘내세요 polite.","tgt":""}
-{"f":"cards","id":"ko.c0475","k":"meaning","src":"Don't worry","tgt":""}
-{"f":"cards","id":"ko.c0475","k":"note","src":"지 마 = don't. 걱정하지 마 full form.","tgt":""}
-{"f":"cards","id":"ko.c0476","k":"meaning","src":"Wanna grab a drink?","tgt":""}
-{"f":"cards","id":"ko.c0476","k":"note","src":"한잔 = one glass. The friend-making phrase.","tgt":""}
-{"f":"cards","id":"ko.c0477","k":"meaning","src":"What do you wanna eat?","tgt":""}
-{"f":"cards","id":"ko.c0477","k":"note","src":"Everyone's favorite question.","tgt":""}
-{"f":"cards","id":"ko.c0478","k":"meaning","src":"Hey!","tgt":""}
-{"f":"cards","id":"ko.c0478","k":"note","src":"Close friends / same age only. To anyone older it's rude.","tgt":""}
-{"f":"cards","id":"ko.c0479","k":"meaning","src":"Hey, what are you doing?","tgt":""}
-{"f":"cards","id":"ko.c0479","k":"note","src":"The opener before any invite.","tgt":""}
-{"f":"cards","id":"ko.c0480","k":"meaning","src":"Let's hang out!","tgt":""}
-{"f":"cards","id":"ko.c0480","k":"note","src":"놀다 = to play / hang out. 자 = let's.","tgt":""}
-{"f":"cards","id":"ko.c0481","k":"meaning","src":"Come out (come hang)","tgt":""}
-{"f":"cards","id":"ko.c0481","k":"note","src":"Lit. 'come out'. 빨리 나와 = hurry up and come out.","tgt":""}
-{"f":"cards","id":"ko.c0482","k":"meaning","src":"You free?","tgt":""}
-{"f":"cards","id":"ko.c0482","k":"note","src":"Polite: 시간 있어요?","tgt":""}
-{"f":"cards","id":"ko.c0483","k":"meaning","src":"Are you free today?","tgt":""}
-{"f":"cards","id":"ko.c0483","k":"note","src":"돼 = is it possible / does it work.","tgt":""}
-{"f":"cards","id":"ko.c0484","k":"meaning","src":"Wanna go together?","tgt":""}
-{"f":"cards","id":"ko.c0484","k":"note","src":"같이 = together. ㄹ래 = wanna?","tgt":""}
-{"f":"cards","id":"ko.c0485","k":"meaning","src":"Wanna go eat?","tgt":""}
-{"f":"cards","id":"ko.c0485","k":"note","src":"으러 가다 = go in order to. 커피 마시러 갈래? = wanna go get coffee?","tgt":""}
-{"f":"cards","id":"ko.c0486","k":"meaning","src":"Wanna watch a movie?","tgt":""}
-{"f":"cards","id":"ko.c0486","k":"note","src":"보다 → 볼래. 게임 할래? = wanna play games?","tgt":""}
-{"f":"cards","id":"ko.c0487","k":"meaning","src":"Shall we go to a café?","tgt":""}
-{"f":"cards","id":"ko.c0487","k":"note","src":"ㄹ까 = shall we? Softer than ㄹ래.","tgt":""}
-{"f":"cards","id":"ko.c0488","k":"meaning","src":"Wanna come over?","tgt":""}
-{"f":"cards","id":"ko.c0488","k":"note","src":"우리 집 = my (our) house. Koreans say 우리 for their own home.","tgt":""}
-{"f":"cards","id":"ko.c0489","k":"meaning","src":"When should we meet?","tgt":""}
-{"f":"cards","id":"ko.c0489","k":"note","src":"언제 = when. 만나다 = to meet.","tgt":""}
-{"f":"cards","id":"ko.c0490","k":"meaning","src":"What time should we meet?","tgt":""}
-{"f":"cards","id":"ko.c0490","k":"note","src":"보다 (see) doubles as 'meet up'.","tgt":""}
-{"f":"cards","id":"ko.c0491","k":"meaning","src":"Where should we meet?","tgt":""}
-{"f":"cards","id":"ko.c0491","k":"note","src":"어디서 = 어디에서 shortened.","tgt":""}
-{"f":"cards","id":"ko.c0492","k":"meaning","src":"I'm coming now","tgt":""}
-{"f":"cards","id":"ko.c0492","k":"note","src":"ㄹ게 = I'll. 금방 갈게 = I'll be there soon.","tgt":""}
-{"f":"cards","id":"ko.c0493","k":"meaning","src":"That was fun","tgt":""}
-{"f":"cards","id":"ko.c0493","k":"note","src":"Say it at the end. Polite: 재밌었어요.","tgt":""}
-{"f":"cards","id":"ko.c0494","k":"meaning","src":"Let's hang out again","tgt":""}
-{"f":"cards","id":"ko.c0494","k":"note","src":"또 = again.","tgt":""}
-{"f":"cards","id":"ko.c0495","k":"meaning","src":"Let's meet again next time","tgt":""}
-{"f":"cards","id":"ko.c0495","k":"note","src":"담에 = 다음에. 보자 = let's see (each other).","tgt":""}
-{"f":"cards","id":"ko.c0496","k":"meaning","src":"my favorite (member)","tgt":""}
-{"f":"cards","id":"ko.c0496","k":"note","src":"최애가 누구예요? = who's your bias? 차애 = second favorite.","tgt":""}
-{"f":"cards","id":"ko.c0497","k":"meaning","src":"being a fan / fangirling","tgt":""}
-{"f":"cards","id":"ko.c0497","k":"note","src":"From 오타쿠. 덕질해요 = I'm into fandom stuff.","tgt":""}
-{"f":"cards","id":"ko.c0498","k":"meaning","src":"I became a fan","tgt":""}
-{"f":"cards","id":"ko.c0498","k":"note","src":"입덕 = entering the fandom. 탈덕 = leaving it.","tgt":""}
-{"f":"cards","id":"ko.c0499","k":"meaning","src":"comeback (new release)","tgt":""}
-{"f":"cards","id":"ko.c0499","k":"note","src":"Every new album is a 컴백. 컴백 언제예요?","tgt":""}
-{"f":"cards","id":"ko.c0500","k":"meaning","src":"stage / performance","tgt":""}
-{"f":"cards","id":"ko.c0500","k":"note","src":"무대 진짜 잘해요 = they perform really well.","tgt":""}
-{"f":"cards","id":"ko.c0501","k":"meaning","src":"I'm going to a concert","tgt":""}
-{"f":"cards","id":"ko.c0501","k":"note","src":"콘서트 티켓팅 = ticketing, a blood sport.","tgt":""}
-{"f":"cards","id":"ko.c0502","k":"meaning","src":"light stick","tgt":""}
-{"f":"cards","id":"ko.c0502","k":"note","src":"Each group has one. 응원 = cheering.","tgt":""}
-{"f":"cards","id":"ko.c0503","k":"meaning","src":"singing along as a crowd","tgt":""}
-{"f":"cards","id":"ko.c0503","k":"note","src":"떼 = flock. The crowd sings the whole song.","tgt":""}
-{"f":"cards","id":"ko.c0504","k":"meaning","src":"I'm a fan","tgt":""}
-{"f":"cards","id":"ko.c0504","k":"note","src":"저 팬이에요 = I'm a fan (of you / them).","tgt":""}
-{"f":"cards","id":"ko.c0505","k":"meaning","src":"Please sign this","tgt":""}
-{"f":"cards","id":"ko.c0505","k":"note","src":"사인 = autograph.","tgt":""}
-{"f":"cards","id":"ko.c0506","k":"meaning","src":"The song is good","tgt":""}
-{"f":"cards","id":"ko.c0506","k":"note","src":"이 노래 진짜 좋아요 = this song is so good.","tgt":""}
-{"f":"cards","id":"ko.c0507","k":"meaning","src":"The lyrics are good","tgt":""}
-{"f":"cards","id":"ko.c0507","k":"note","src":"가사 = lyrics.","tgt":""}
-{"f":"cards","id":"ko.c0508","k":"meaning","src":"choreography","tgt":""}
-{"f":"cards","id":"ko.c0508","k":"note","src":"안무 외웠어요 = I memorized the choreo.","tgt":""}
-{"f":"cards","id":"ko.c0509","k":"meaning","src":"debut","tgt":""}
-{"f":"cards","id":"ko.c0509","k":"note","src":"몇 년에 데뷔했어요? = what year did they debut?","tgt":""}
-{"f":"cards","id":"ko.c0510","k":"meaning","src":"fan meeting","tgt":""}
-{"f":"cards","id":"ko.c0510","k":"note","src":"팬싸 = fan sign event.","tgt":""}
-{"f":"cards","id":"ko.c0511","k":"meaning","src":"fancam","tgt":""}
-{"f":"cards","id":"ko.c0511","k":"note","src":"직접 + 캠. Member-focused concert video.","tgt":""}
-{"f":"cards","id":"ko.c0512","k":"meaning","src":"Instagram story","tgt":""}
-{"f":"cards","id":"ko.c0512","k":"note","src":"스토리 봤어? = did you see my story?","tgt":""}
-{"f":"cards","id":"ko.c0513","k":"meaning","src":"Hit like for me","tgt":""}
-{"f":"cards","id":"ko.c0513","k":"note","src":"누르다 = to press.","tgt":""}
-{"f":"cards","id":"ko.c0514","k":"meaning","src":"I followed you","tgt":""}
-{"f":"cards","id":"ko.c0514","k":"note","src":"맞팔 = follow back. 맞팔해요 = let's follow each other.","tgt":""}
-{"f":"cards","id":"ko.c0515","k":"meaning","src":"meme image / reaction pic","tgt":""}
-{"f":"cards","id":"ko.c0515","k":"note","src":"짤 보내 줘 = send me the meme.","tgt":""}
-{"f":"cards","id":"ko.c0516","k":"meaning","src":"sudden awkward silence","tgt":""}
-{"f":"cards","id":"ko.c0516","k":"note","src":"갑자기 분위기 싸해짐. When a joke dies.","tgt":""}
-{"f":"cards","id":"ko.c0517","k":"meaning","src":"too much info / random fact","tgt":""}
-{"f":"cards","id":"ko.c0517","k":"note","src":"Used for cute oversharing, not gross stuff.","tgt":""}
-{"f":"cards","id":"ko.c0518","k":"meaning","src":"effortlessly styled","tgt":""}
-{"f":"cards","id":"ko.c0518","k":"note","src":"꾸민 듯 안 꾸민 듯. The 'I woke up like this' look.","tgt":""}
-{"f":"cards","id":"ko.c0519","k":"meaning","src":"insanely delicious","tgt":""}
-{"f":"cards","id":"ko.c0519","k":"note","src":"Very casual slang with a vulgar origin: only with close friends. JMT in texts.","tgt":""}
-{"f":"cards","id":"ko.c0520","k":"meaning","src":"agreed / facts","tgt":""}
-{"f":"cards","id":"ko.c0520","k":"note","src":"Text shorthand for 인정.","tgt":""}
-{"f":"cards","id":"ko.c0521","k":"meaning","src":"for real","tgt":""}
-{"f":"cards","id":"ko.c0521","k":"note","src":"Text shorthand for 리얼.","tgt":""}
-{"f":"cards","id":"ko.c0522","k":"meaning","src":"super extrovert / popular","tgt":""}
-{"f":"cards","id":"ko.c0522","k":"note","src":"핵 = nuke prefix. 아싸 = outsider / introvert.","tgt":""}
-{"f":"cards","id":"ko.c0523","k":"meaning","src":"small but certain happiness","tgt":""}
-{"f":"cards","id":"ko.c0523","k":"note","src":"소소하지만 확실한 행복. Café, nap, rain.","tgt":""}
-{"f":"cards","id":"ko.c0524","k":"meaning","src":"studying hard","tgt":""}
-{"f":"cards","id":"ko.c0524","k":"note","src":"열심히 공부. 열공 중 = studying hard right now.","tgt":""}
-{"f":"cards","id":"ko.c0525","k":"meaning","src":"mental breakdown","tgt":""}
-{"f":"cards","id":"ko.c0525","k":"note","src":"멘탈 붕괴. 멘붕 왔어 = I'm losing it.","tgt":""}
-{"f":"cards","id":"ko.c0526","k":"meaning","src":"I burst out laughing","tgt":""}
-{"f":"cards","id":"ko.c0526","k":"note","src":"빵 = pop sound.","tgt":""}
-{"f":"cards","id":"ko.c0527","k":"meaning","src":"Let's take a selfie","tgt":""}
-{"f":"cards","id":"ko.c0527","k":"note","src":"셀카 = selfie. 찍다 = to take (photo).","tgt":""}
-{"f":"cards","id":"ko.c0528","k":"meaning","src":"What are we?","tgt":""}
-{"f":"cards","id":"ko.c0528","k":"note","src":"사이 = relationship between people. The DTR line.","tgt":""}
-{"f":"cards","id":"ko.c0529","k":"meaning","src":"I want to date seriously","tgt":""}
-{"f":"cards","id":"ko.c0529","k":"note","src":"진지하다 = serious.","tgt":""}
-{"f":"cards","id":"ko.c0530","k":"meaning","src":"You're really warm-hearted","tgt":""}
-{"f":"cards","id":"ko.c0530","k":"note","src":"다정하다 = affectionate, kind. Compliment beyond looks.","tgt":""}
-{"f":"cards","id":"ko.c0531","k":"meaning","src":"I like your laugh","tgt":""}
-{"f":"cards","id":"ko.c0531","k":"note","src":"웃음소리 = laughing sound.","tgt":""}
-{"f":"cards","id":"ko.c0532","k":"meaning","src":"I feel comfortable with you","tgt":""}
-{"f":"cards","id":"ko.c0532","k":"note","src":"편하다 = comfortable. High praise in Korean dating.","tgt":""}
-{"f":"cards","id":"ko.c0533","k":"meaning","src":"Sorry, it was my fault","tgt":""}
-{"f":"cards","id":"ko.c0533","k":"note","src":"잘못하다 = to do wrong. Own it.","tgt":""}
-{"f":"cards","id":"ko.c0534","k":"meaning","src":"Don't be mad anymore","tgt":""}
-{"f":"cards","id":"ko.c0534","k":"note","src":"풀다 = to untie / release. 화 풀어 줘 softer.","tgt":""}
-{"f":"cards","id":"ko.c0535","k":"meaning","src":"Don't worry, you have me","tgt":""}
-{"f":"cards","id":"ko.c0535","k":"note","src":"잖아 = 'you know'. Reassurance.","tgt":""}
-{"f":"cards","id":"ko.c0536","k":"meaning","src":"How was the date today?","tgt":""}
-{"f":"cards","id":"ko.c0536","k":"note","src":"어땠어 = how was it.","tgt":""}
-{"f":"cards","id":"ko.c0537","k":"meaning","src":"Let's take a photo together","tgt":""}
-{"f":"cards","id":"ko.c0537","k":"note","src":"Couple photo = 커플 사진.","tgt":""}
-{"f":"cards","id":"ko.c0538","k":"meaning","src":"Happy 100 days","tgt":""}
-{"f":"cards","id":"ko.c0538","k":"note","src":"Couples celebrate 100 days. Big deal.","tgt":""}
-{"f":"cards","id":"ko.c0539","k":"meaning","src":"Can I hold your hand?","tgt":""}
-{"f":"cards","id":"ko.c0539","k":"note","src":"잡다 = to hold. 아/어도 돼 = may I.","tgt":""}
-{"f":"cards","id":"ko.c0540","k":"meaning","src":"Hug me","tgt":""}
-{"f":"cards","id":"ko.c0540","k":"note","src":"안다 = to hug. 안아 줄게 = I'll hug you.","tgt":""}
-{"f":"cards","id":"ko.c0541","k":"meaning","src":"I miss you to death","tgt":""}
-{"f":"cards","id":"ko.c0541","k":"note","src":"죽겠어 = 'I'll die' intensifier. Casual, dramatic.","tgt":""}
-{"f":"cards","id":"ko.c0542","k":"meaning","src":"I have something to tell you","tgt":""}
-{"f":"cards","id":"ko.c0542","k":"note","src":"Sets up a serious talk. 한테 = to (person).","tgt":""}
-{"f":"cards","id":"ko.c0543","k":"meaning","src":"I think we're a good match","tgt":""}
-{"f":"cards","id":"ko.c0543","k":"note","src":"맞다 = to fit / match.","tgt":""}
-{"f":"cards","id":"ko.c0544","k":"meaning","src":"What time is the meeting?","tgt":""}
-{"f":"cards","id":"ko.c0544","k":"note","src":"회의 = meeting. 회의실 = meeting room.","tgt":""}
-{"f":"cards","id":"ko.c0545","k":"meaning","src":"When is the deadline?","tgt":""}
-{"f":"cards","id":"ko.c0545","k":"note","src":"마감 = deadline. 마감 지켰어요 = I made the deadline.","tgt":""}
-{"f":"cards","id":"ko.c0546","k":"meaning","src":"I'll check and get back to you","tgt":""}
-{"f":"cards","id":"ko.c0546","k":"note","src":"Formal. The email reply you'll send most.","tgt":""}
-{"f":"cards","id":"ko.c0547","k":"meaning","src":"Do you have a moment?","tgt":""}
-{"f":"cards","id":"ko.c0547","k":"note","src":"To a colleague or senior. 잠깐 = briefly.","tgt":""}
-{"f":"cards","id":"ko.c0548","k":"meaning","src":"Could you help me with this?","tgt":""}
-{"f":"cards","id":"ko.c0548","k":"note","src":"도와주시다 honorific + 수 있어요 = could you.","tgt":""}
-{"f":"cards","id":"ko.c0549","k":"meaning","src":"I'll head out first","tgt":""}
-{"f":"cards","id":"ko.c0549","k":"note","src":"퇴근 = leaving work. Say it to the room, always.","tgt":""}
-{"f":"cards","id":"ko.c0550","k":"meaning","src":"Good work today (formal)","tgt":""}
-{"f":"cards","id":"ko.c0550","k":"note","src":"To seniors when leaving. 수고하세요 to those still working.","tgt":""}
-{"f":"cards","id":"ko.c0551","k":"meaning","src":"There's a team dinner","tgt":""}
-{"f":"cards","id":"ko.c0551","k":"note","src":"회식 = company dinner. Attendance is… encouraged.","tgt":""}
-{"f":"cards","id":"ko.c0552","k":"meaning","src":"I sent the report","tgt":""}
-{"f":"cards","id":"ko.c0552","k":"note","src":"보고서 = report. 보내다 = to send.","tgt":""}
-{"f":"cards","id":"ko.c0553","k":"meaning","src":"What should we have for lunch?","tgt":""}
-{"f":"cards","id":"ko.c0553","k":"note","src":"The 11:30 question in every office.","tgt":""}
-{"f":"cards","id":"ko.c0554","k":"meaning","src":"I have to work overtime","tgt":""}
-{"f":"cards","id":"ko.c0554","k":"note","src":"야근 = night work. 아/어야 돼요 = have to.","tgt":""}
-{"f":"cards","id":"ko.c0555","k":"meaning","src":"I applied for leave","tgt":""}
-{"f":"cards","id":"ko.c0555","k":"note","src":"휴가 = vacation. 신청하다 = apply.","tgt":""}
-{"f":"cards","id":"ko.c0556","k":"meaning","src":"Did you see my email?","tgt":""}
-{"f":"cards","id":"ko.c0556","k":"note","src":"Honorific past 하셨어요.","tgt":""}
-{"f":"cards","id":"ko.c0557","k":"meaning","src":"Thank you for the feedback","tgt":""}
-{"f":"cards","id":"ko.c0557","k":"note","src":"주셔서 = for giving (honorific).","tgt":""}
-{"f":"cards","id":"ko.c0558","k":"meaning","src":"I'm presenting next week","tgt":""}
-{"f":"cards","id":"ko.c0558","k":"note","src":"발표 = presentation.","tgt":""}
-{"f":"cards","id":"ko.c0559","k":"meaning","src":"Looking forward to working with you","tgt":""}
-{"f":"cards","id":"ko.c0559","k":"note","src":"Closes work emails and first meetings.","tgt":""}
-{"f":"cards","id":"ko.c0560","k":"meaning","src":"How have you been?","tgt":""}
-{"f":"cards","id":"ko.c0560","k":"note","src":"Standard greeting for someone you haven't seen in a while.","tgt":""}
-{"f":"cards","id":"ko.c0561","k":"meaning","src":"I've been well","tgt":""}
-{"f":"cards","id":"ko.c0561","k":"note","src":"Add 덕분에 (thanks to you) to sound extra polite.","tgt":""}
-{"f":"cards","id":"ko.c0562","k":"meaning","src":"How are things lately?","tgt":""}
-{"f":"cards","id":"ko.c0562","k":"note","src":"요즘 = these days. 어때요 = how is it.","tgt":""}
-{"f":"cards","id":"ko.c0563","k":"meaning","src":"So-so","tgt":""}
-{"f":"cards","id":"ko.c0563","k":"note","src":"Lit. 'it's just like that'. Very common honest answer.","tgt":""}
-{"f":"cards","id":"ko.c0564","k":"meaning","src":"Nice weather, isn't it","tgt":""}
-{"f":"cards","id":"ko.c0564","k":"note","src":"네요 ending = noticing something out loud. 날씨가 춥네요 = it's cold, huh.","tgt":""}
-{"f":"cards","id":"ko.c0565","k":"meaning","src":"What are you doing this weekend?","tgt":""}
-{"f":"cards","id":"ko.c0565","k":"note","src":"주말 = weekend, 에 = on.","tgt":""}
-{"f":"cards","id":"ko.c0566","k":"meaning","src":"Me too","tgt":""}
-{"f":"cards","id":"ko.c0566","k":"note","src":"Casual: 나도.","tgt":""}
-{"f":"cards","id":"ko.c0567","k":"meaning","src":"Really?","tgt":""}
-{"f":"cards","id":"ko.c0567","k":"note","src":"Softer than 진짜요?. Both fine.","tgt":""}
-{"f":"cards","id":"ko.c0568","k":"meaning","src":"See you again","tgt":""}
-{"f":"cards","id":"ko.c0568","k":"note","src":"또 = again. 내일 봐요 = see you tomorrow.","tgt":""}
-{"f":"cards","id":"ko.c0569","k":"meaning","src":"Goodbye (to someone leaving)","tgt":""}
-{"f":"cards","id":"ko.c0569","k":"note","src":"가세요 = go well. Say it when THEY are leaving.","tgt":""}
-{"f":"cards","id":"ko.c0570","k":"meaning","src":"Goodbye (to someone staying)","tgt":""}
-{"f":"cards","id":"ko.c0570","k":"note","src":"계세요 = stay well. Say it when YOU are leaving.","tgt":""}
-{"f":"cards","id":"ko.c0571","k":"meaning","src":"I'll be in touch","tgt":""}
-{"f":"cards","id":"ko.c0571","k":"note","src":"ㄹ게요 = I'll (promise). 연락 = contact.","tgt":""}
-{"f":"cards","id":"ko.c0572","k":"meaning","src":"water","tgt":""}
-{"f":"cards","id":"ko.c0572","k":"note","src":"물 주세요 = water, please.","tgt":""}
-{"f":"cards","id":"ko.c0573","k":"meaning","src":"rice / a meal","tgt":""}
-{"f":"cards","id":"ko.c0573","k":"note","src":"밥 먹자 = let's eat.","tgt":""}
-{"f":"cards","id":"ko.c0574","k":"meaning","src":"meat","tgt":""}
-{"f":"cards","id":"ko.c0574","k":"note","src":"소고기 beef, 돼지고기 pork, 닭고기 chicken.","tgt":""}
-{"f":"cards","id":"ko.c0575","k":"meaning","src":"Menu, please","tgt":""}
-{"f":"cards","id":"ko.c0575","k":"note","src":"Or just raise a hand and say 저기요 (excuse me).","tgt":""}
-{"f":"cards","id":"ko.c0576","k":"meaning","src":"Not spicy, please","tgt":""}
-{"f":"cards","id":"ko.c0576","k":"note","src":"맵다 = spicy. 안 매워요? = is it not spicy?","tgt":""}
-{"f":"cards","id":"ko.c0577","k":"meaning","src":"It's delicious","tgt":""}
-{"f":"cards","id":"ko.c0577","k":"note","src":"Say it to the owner on the way out.","tgt":""}
-{"f":"cards","id":"ko.c0578","k":"meaning","src":"I'm hungry","tgt":""}
-{"f":"cards","id":"ko.c0578","k":"note","src":"배불러요 (baebulleoyo) = I'm full.","tgt":""}
-{"f":"cards","id":"ko.c0579","k":"meaning","src":"One coffee","tgt":""}
-{"f":"cards","id":"ko.c0579","k":"note","src":"잔 = cup counter. 두 잔 = two cups.","tgt":""}
-{"f":"cards","id":"ko.c0580","k":"meaning","src":"Check, please","tgt":""}
-{"f":"cards","id":"ko.c0580","k":"note","src":"You usually pay at the counter.","tgt":""}
-{"f":"cards","id":"ko.c0581","k":"meaning","src":"To go, please","tgt":""}
-{"f":"cards","id":"ko.c0581","k":"note","src":"포장 = packaging.","tgt":""}
-{"f":"cards","id":"ko.c0582","k":"meaning","src":"Cheers!","tgt":""}
-{"f":"cards","id":"ko.c0582","k":"note","src":"Clink glasses; pour for others, not yourself.","tgt":""}
-{"f":"cards","id":"ko.c0583","k":"meaning","src":"(Said after eating)","tgt":""}
-{"f":"cards","id":"ko.c0583","k":"note","src":"Lit. 'I ate well.' Pairs with 잘 먹겠습니다.","tgt":""}
-{"f":"cards","id":"ko.c0584","k":"meaning","src":"here / over there","tgt":""}
-{"f":"cards","id":"ko.c0584","k":"note","src":"거기 (geogi) = there (near you).","tgt":""}
-{"f":"cards","id":"ko.c0585","k":"meaning","src":"left","tgt":""}
-{"f":"cards","id":"ko.c0585","k":"note","src":"왼쪽으로 가세요 = go left.","tgt":""}
-{"f":"cards","id":"ko.c0586","k":"meaning","src":"right","tgt":""}
-{"f":"cards","id":"ko.c0586","k":"note","src":"오른쪽으로 = to the right.","tgt":""}
-{"f":"cards","id":"ko.c0587","k":"meaning","src":"Go straight","tgt":""}
-{"f":"cards","id":"ko.c0587","k":"note","src":"쭉 가세요 also works.","tgt":""}
-{"f":"cards","id":"ko.c0588","k":"meaning","src":"subway station","tgt":""}
-{"f":"cards","id":"ko.c0588","k":"note","src":"Seoul Metro is the easiest way around.","tgt":""}
-{"f":"cards","id":"ko.c0589","k":"meaning","src":"bus stop","tgt":""}
-{"f":"cards","id":"ko.c0589","k":"note","src":"정류장 = stop.","tgt":""}
-{"f":"cards","id":"ko.c0590","k":"meaning","src":"taxi","tgt":""}
-{"f":"cards","id":"ko.c0590","k":"note","src":"Tell the driver: ~로 가 주세요 (please go to ~).","tgt":""}
-{"f":"cards","id":"ko.c0591","k":"meaning","src":"airport","tgt":""}
-{"f":"cards","id":"ko.c0591","k":"note","src":"인천공항 = Incheon Airport.","tgt":""}
-{"f":"cards","id":"ko.c0592","k":"meaning","src":"How long does it take?","tgt":""}
-{"f":"cards","id":"ko.c0592","k":"note","src":"걸리다 = to take (time).","tgt":""}
-{"f":"cards","id":"ko.c0593","k":"meaning","src":"Please stop here","tgt":""}
-{"f":"cards","id":"ko.c0593","k":"note","src":"Taxi phrase.","tgt":""}
-{"f":"cards","id":"ko.c0594","k":"meaning","src":"T-money card","tgt":""}
-{"f":"cards","id":"ko.c0594","k":"note","src":"Tap-in transit card. Buy at any convenience store.","tgt":""}
-{"f":"cards","id":"ko.c0595","k":"meaning","src":"How do I get there?","tgt":""}
-{"f":"cards","id":"ko.c0595","k":"note","src":"Add the place + 에: 명동에 어떻게 가요?","tgt":""}
-{"f":"cards","id":"ko.c0596","k":"meaning","src":"today","tgt":""}
-{"f":"cards","id":"ko.c0596","k":"note","src":"오늘 뭐 해요? = what are you doing today?","tgt":""}
-{"f":"cards","id":"ko.c0597","k":"meaning","src":"tomorrow","tgt":""}
-{"f":"cards","id":"ko.c0597","k":"note","src":"내일 봐요 = see you tomorrow.","tgt":""}
-{"f":"cards","id":"ko.c0598","k":"meaning","src":"yesterday","tgt":""}
-{"f":"cards","id":"ko.c0598","k":"note","src":"어제 뭐 했어요? = what did you do yesterday?","tgt":""}
-{"f":"cards","id":"ko.c0599","k":"meaning","src":"now","tgt":""}
-{"f":"cards","id":"ko.c0599","k":"note","src":"지금 몇 시예요? = what time is it now?","tgt":""}
-{"f":"cards","id":"ko.c0600","k":"meaning","src":"morning / lunchtime / evening","tgt":""}
-{"f":"cards","id":"ko.c0600","k":"note","src":"Also mean breakfast / lunch / dinner.","tgt":""}
-{"f":"cards","id":"ko.c0601","k":"meaning","src":"Monday","tgt":""}
-{"f":"cards","id":"ko.c0601","k":"note","src":"요일 = day of the week.","tgt":""}
-{"f":"cards","id":"ko.c0602","k":"meaning","src":"Friday","tgt":""}
-{"f":"cards","id":"ko.c0602","k":"note","src":"불금 = 'burning Friday', Friday night out.","tgt":""}
-{"f":"cards","id":"ko.c0603","k":"meaning","src":"Saturday / Sunday","tgt":""}
-{"f":"cards","id":"ko.c0603","k":"note","src":"주말 (jumal) = weekend.","tgt":""}
-{"f":"cards","id":"ko.c0604","k":"meaning","src":"What time is it?","tgt":""}
-{"f":"cards","id":"ko.c0604","k":"note","src":"몇 = how many; 시 = o'clock.","tgt":""}
-{"f":"cards","id":"ko.c0605","k":"meaning","src":"when","tgt":""}
-{"f":"cards","id":"ko.c0605","k":"note","src":"언제 와요? = when are you coming?","tgt":""}
-{"f":"cards","id":"ko.c0606","k":"meaning","src":"every day","tgt":""}
-{"f":"cards","id":"ko.c0606","k":"note","src":"매일 공부해요 = I study every day.","tgt":""}
-{"f":"cards","id":"ko.c0607","k":"meaning","src":"Do you have time?","tgt":""}
-{"f":"cards","id":"ko.c0607","k":"note","src":"Low-key way to ask someone out.","tgt":""}
-{"f":"cards","id":"ko.c0608","k":"meaning","src":"mom / dad","tgt":""}
-{"f":"cards","id":"ko.c0608","k":"note","src":"어머니 / 아버지 = formal versions.","tgt":""}
-{"f":"cards","id":"ko.c0609","k":"meaning","src":"older brother","tgt":""}
-{"f":"cards","id":"ko.c0609","k":"note","src":"형 if you're male, 오빠 if you're female. Also used for older male friends.","tgt":""}
-{"f":"cards","id":"ko.c0610","k":"meaning","src":"older sister","tgt":""}
-{"f":"cards","id":"ko.c0610","k":"note","src":"누나 if you're male, 언니 if you're female.","tgt":""}
-{"f":"cards","id":"ko.c0611","k":"meaning","src":"younger sibling","tgt":""}
-{"f":"cards","id":"ko.c0611","k":"note","src":"남동생 = younger brother, 여동생 = younger sister.","tgt":""}
-{"f":"cards","id":"ko.c0612","k":"meaning","src":"grandma / grandpa","tgt":""}
-{"f":"cards","id":"ko.c0612","k":"note","src":"Also polite for any elderly person.","tgt":""}
-{"f":"cards","id":"ko.c0613","k":"meaning","src":"family","tgt":""}
-{"f":"cards","id":"ko.c0613","k":"note","src":"가족이 몇 명이에요? = how many in your family?","tgt":""}
-{"f":"cards","id":"ko.c0614","k":"meaning","src":"friend","tgt":""}
-{"f":"cards","id":"ko.c0614","k":"note","src":"Technically same-age friend only.","tgt":""}
-{"f":"cards","id":"ko.c0615","k":"meaning","src":"teacher","tgt":""}
-{"f":"cards","id":"ko.c0615","k":"note","src":"Also a respectful 'sir/ma'am'.","tgt":""}
-{"f":"cards","id":"ko.c0616","k":"meaning","src":"man / woman","tgt":""}
-{"f":"cards","id":"ko.c0616","k":"note","src":"남자친구 = boyfriend, 여자친구 = girlfriend.","tgt":""}
-{"f":"cards","id":"ko.c0617","k":"meaning","src":"person","tgt":""}
-{"f":"cards","id":"ko.c0617","k":"note","src":"한국 사람 = Korean person, 미국 사람 = American, 멕시코 사람 = Mexican: country + 사람.","tgt":""}
-{"f":"cards","id":"ko.c0618","k":"meaning","src":"good / I like it","tgt":""}
-{"f":"cards","id":"ko.c0618","k":"note","src":"안 좋아요 = not good.","tgt":""}
-{"f":"cards","id":"ko.c0619","k":"meaning","src":"bad","tgt":""}
-{"f":"cards","id":"ko.c0619","k":"note","src":"기분이 나빠요 = I feel bad.","tgt":""}
-{"f":"cards","id":"ko.c0620","k":"meaning","src":"big","tgt":""}
+{"f":"cards","id":"ko.c0408","k":"note","src":"Hours = native (세), minutes = Sino (삼십).","tgt":"ঘণ্টা = খাঁটি কোরিয়ান (세), মিনিট = সিনো-কোরিয়ান (삼십)।"}
+{"f":"cards","id":"ko.c0409","k":"meaning","src":"25 years old","tgt":"25 বছর বয়স"}
+{"f":"cards","id":"ko.c0409","k":"note","src":"Age uses native numbers + 살.","tgt":"বয়সে খাঁটি কোরিয়ান সংখ্যা + 살।"}
+{"f":"cards","id":"ko.c0410","k":"meaning","src":"You're cute","tgt":"তুমি কিউট"}
+{"f":"cards","id":"ko.c0410","k":"note","src":"Casual. Polite: 귀여워요.","tgt":"ঘরোয়া। ভদ্র: 귀여워요।"}
+{"f":"cards","id":"ko.c0411","k":"meaning","src":"You're pretty","tgt":"তুমি সুন্দর"}
+{"f":"cards","id":"ko.c0411","k":"note","src":"Also for things: a pretty café.","tgt":"জিনিসের বেলাতেও বলে: সুন্দর একটা ক্যাফে।"}
+{"f":"cards","id":"ko.c0412","k":"meaning","src":"You're handsome","tgt":"তুমি দেখতে হ্যান্ডসাম"}
+{"f":"cards","id":"ko.c0412","k":"note","src":"Lit. 'came out well-formed'.","tgt":"আক্ষরিক: \"ভালোভাবে গড়া হয়েছ\"।"}
+{"f":"cards","id":"ko.c0413","k":"meaning","src":"I miss you","tgt":"তোমাকে মিস করছি"}
+{"f":"cards","id":"ko.c0413","k":"note","src":"Lit. 'I want to see you'.","tgt":"আক্ষরিক: \"তোমাকে দেখতে চাই\"।"}
+{"f":"cards","id":"ko.c0414","k":"meaning","src":"I like you","tgt":"তোমাকে পছন্দ করি"}
+{"f":"cards","id":"ko.c0414","k":"note","src":"The step before 사랑해.","tgt":"사랑해 বলার আগের ধাপ।"}
+{"f":"cards","id":"ko.c0415","k":"meaning","src":"Babe / honey","tgt":"জান / সোনা"}
+{"f":"cards","id":"ko.c0415","k":"note","src":"Common couple nickname.","tgt":"প্রেমিক-প্রেমিকার সাধারণ আদরের ডাক।"}
+{"f":"cards","id":"ko.c0416","k":"meaning","src":"Sleep well / good night","tgt":"ভালো করে ঘুমাও / শুভ রাত্রি"}
+{"f":"cards","id":"ko.c0416","k":"note","src":"Casual. Polite: 잘 자요; to elders: 안녕히 주무세요.","tgt":"ঘরোয়া। ভদ্র: 잘 자요; বয়স্কদের: 안녕히 주무세요।"}
+{"f":"cards","id":"ko.c0417","k":"meaning","src":"Did you eat?","tgt":"খেয়েছ?"}
+{"f":"cards","id":"ko.c0417","k":"note","src":"How Koreans say 'how are you' to people they care about.","tgt":"কাছের মানুষকে কোরিয়ানরা এভাবেই \"কেমন আছ\" জিজ্ঞেস করে।"}
+{"f":"cards","id":"ko.c0418","k":"meaning","src":"You look pretty today","tgt":"আজ আপনাকে সুন্দর লাগছে"}
+{"f":"cards","id":"ko.c0418","k":"note","src":"네요 = noticing out loud. Casual: 오늘 예쁘네.","tgt":"네요 = খেয়াল করে মুখে বলে ফেলা। ঘরোয়া: 오늘 예쁘네।"}
+{"f":"cards","id":"ko.c0419","k":"meaning","src":"Your eyes are so pretty","tgt":"আপনার চোখ দুটো খুব সুন্দর"}
+{"f":"cards","id":"ko.c0419","k":"note","src":"눈 = eyes. 웃는 모습이 예뻐요 = your smile is pretty.","tgt":"눈 = চোখ। 웃는 모습이 예뻐요 = আপনার হাসিমুখ সুন্দর।"}
+{"f":"cards","id":"ko.c0420","k":"meaning","src":"The way you laugh is so cute","tgt":"আপনার হাসিটা খুব কিউট"}
+{"f":"cards","id":"ko.c0420","k":"note","src":"웃다 = to laugh/smile.","tgt":"웃다 = হাসা।"}
+{"f":"cards","id":"ko.c0421","k":"meaning","src":"I missed you","tgt":"আপনাকে মিস করছিলাম"}
+{"f":"cards","id":"ko.c0421","k":"note","src":"Casual: 보고 싶었어. Say it on arrival.","tgt":"ঘরোয়া: 보고 싶었어। দেখা হলেই বলুন।"}
+{"f":"cards","id":"ko.c0422","k":"meaning","src":"I'm happy when I'm with you","tgt":"আপনার সাথে থাকলে আমি খুশি থাকি"}
+{"f":"cards","id":"ko.c0422","k":"note","src":"같이 = together. 행복하다 = to be happy.","tgt":"같이 = একসাথে। 행복하다 = সুখী হওয়া।"}
+{"f":"cards","id":"ko.c0423","k":"meaning","src":"I thought about you a lot","tgt":"তোমার কথা অনেক ভেবেছি"}
+{"f":"cards","id":"ko.c0423","k":"note","src":"Casual. 생각 = thought.","tgt":"ঘরোয়া। 생각 = চিন্তা।"}
+{"f":"cards","id":"ko.c0424","k":"meaning","src":"Did you eat? Make sure you eat well","tgt":"খেয়েছ? ঠিকমতো খেয়ো কিন্তু"}
+{"f":"cards","id":"ko.c0424","k":"note","src":"Peak Korean affection: caring about meals.","tgt":"কোরিয়ান ভালোবাসার চূড়া: খাওয়ার খোঁজ নেওয়া।"}
+{"f":"cards","id":"ko.c0425","k":"meaning","src":"Did you get home safe?","tgt":"ঠিকমতো বাসায় পৌঁছেছ?"}
+{"f":"cards","id":"ko.c0425","k":"note","src":"Text this after a date. Expected, not optional.","tgt":"ডেটের পরে এটা মেসেজ করুন। এটা প্রত্যাশিত, ঐচ্ছিক নয়।"}
+{"f":"cards","id":"ko.c0426","k":"meaning","src":"Get home safe","tgt":"সাবধানে বাসায় যেও"}
+{"f":"cards","id":"ko.c0426","k":"note","src":"Casual. Polite: 조심히 가세요.","tgt":"ঘরোয়া। ভদ্র: 조심히 가세요।"}
+{"f":"cards","id":"ko.c0427","k":"meaning","src":"Sweet dreams","tgt":"সুন্দর স্বপ্ন দেখো"}
+{"f":"cards","id":"ko.c0427","k":"note","src":"Lit. 'dream a good dream'. Pairs with 잘 자.","tgt":"আক্ষরিক: \"একটা ভালো স্বপ্ন দেখো\"। 잘 자 বলার সাথে মিলিয়ে বলে।"}
+{"f":"cards","id":"ko.c0428","k":"meaning","src":"Only look at me","tgt":"শুধু আমার দিকে তাকাও"}
+{"f":"cards","id":"ko.c0428","k":"note","src":"Playful / clingy. 만 = only.","tgt":"দুষ্টুমি করে, একটু আঁকড়ে ধরার ভাব। 만 = শুধু।"}
+{"f":"cards","id":"ko.c0429","k":"meaning","src":"You're the only one for me","tgt":"তুমি ছাড়া আমার আর কেউ নেই"}
+{"f":"cards","id":"ko.c0429","k":"note","src":"Lit. 'there's no one but you'.","tgt":"আক্ষরিক: \"তুমি ছাড়া কেউ নেই\"।"}
+{"f":"cards","id":"ko.c0430","k":"meaning","src":"You made my heart skip","tgt":"তুমি আমার বুকটা কাঁপিয়ে দিলে"}
+{"f":"cards","id":"ko.c0430","k":"note","src":"심쿵 = heart (심장) + thump (쿵). Slang.","tgt":"심쿵 = হৃদয় (심장) + ধক (쿵)। স্ল্যাং।"}
+{"f":"cards","id":"ko.c0431","k":"meaning","src":"Will you be mine?","tgt":"আমার হবে?"}
+{"f":"cards","id":"ko.c0431","k":"note","src":"Casual, playful way to ask someone out.","tgt":"ঘরোয়া, দুষ্টুমি করে প্রেমের প্রস্তাব।"}
+{"f":"cards","id":"ko.c0432","k":"meaning","src":"Do you want to go out with me?","tgt":"আমার সাথে প্রেম করবে?"}
+{"f":"cards","id":"ko.c0432","k":"note","src":"사귀다 = to date. The real ask.","tgt":"사귀다 = প্রেম করা, সম্পর্কে থাকা। আসল প্রস্তাব।"}
+{"f":"cards","id":"ko.c0433","k":"meaning","src":"Stop being cute, my heart hurts","tgt":"আহ্লাদ বন্ধ করো, বুক ব্যথা করছে"}
+{"f":"cards","id":"ko.c0433","k":"note","src":"애교 = acting cute. Joke-flirt line.","tgt":"애교 = আহ্লাদ করে কিউট সাজা। মজা করে ফ্লার্ট।"}
+{"f":"cards","id":"ko.c0434","k":"meaning","src":"Can I get your number?","tgt":"তোমার নম্বরটা দেবে?"}
+{"f":"cards","id":"ko.c0434","k":"note","src":"좀 softens it. Polite: 번호 좀 알려 주실래요?","tgt":"좀 নরম করে। ভদ্র: 번호 좀 알려 주실래요?"}
+{"f":"cards","id":"ko.c0435","k":"meaning","src":"Do you have Instagram?","tgt":"আপনার ইনস্টাগ্রাম আছে?"}
+{"f":"cards","id":"ko.c0435","k":"note","src":"The modern number ask. 인스타 = Insta.","tgt":"এখনকার দিনে নম্বর চাওয়া। 인스타 = ইনস্টা।"}
+{"f":"cards","id":"ko.c0436","k":"meaning","src":"If you're free, want to grab a coffee?","tgt":"সময় থাকলে এক কাপ কফি খাবেন?"}
+{"f":"cards","id":"ko.c0436","k":"note","src":"ㄹ래요 = want to? Low-pressure ask.","tgt":"ㄹ래요 = … করবেন? চাপ ছাড়া প্রস্তাব।"}
+{"f":"cards","id":"ko.c0437","k":"meaning","src":"Do you have a boyfriend?","tgt":"আপনার বয়ফ্রেন্ড আছে?"}
+{"f":"cards","id":"ko.c0437","k":"note","src":"여자친구 = girlfriend. 남친/여친 = casual short forms.","tgt":"여자친구 = গার্লফ্রেন্ড। 남친/여친 = ঘরোয়া ছোট রূপ।"}
+{"f":"cards","id":"ko.c0438","k":"meaning","src":"It was love at first sight","tgt":"প্রথম দেখাতেই প্রেমে পড়ে গেছি"}
+{"f":"cards","id":"ko.c0438","k":"note","src":"첫눈 = first sight (also first snow). 반하다 = fall for.","tgt":"첫눈 = প্রথম দেখা (বছরের প্রথম তুষারও)। 반하다 = প্রেমে পড়া।"}
+{"f":"cards","id":"ko.c0439","k":"meaning","src":"Time flies when I'm with you","tgt":"তোমার সাথে থাকলে সময় উড়ে যায়"}
+{"f":"cards","id":"ko.c0439","k":"note","src":"랑 = with (casual). 빨리 = fast.","tgt":"랑 = সাথে (ঘরোয়া)। 빨리 = তাড়াতাড়ি।"}
+{"f":"cards","id":"ko.c0440","k":"meaning","src":"Thinking of you makes me smile","tgt":"তোমার কথা ভাবলে হাসি পায়"}
+{"f":"cards","id":"ko.c0440","k":"note","src":"웃음이 나다 = a smile comes out.","tgt":"웃음이 나다 = হাসি বেরিয়ে আসা।"}
+{"f":"cards","id":"ko.c0441","k":"meaning","src":"I keep thinking about you","tgt":"বারবার তোমার কথা মনে পড়ে"}
+{"f":"cards","id":"ko.c0441","k":"note","src":"자꾸 = keep / over and over.","tgt":"자꾸 = বারবার।"}
+{"f":"cards","id":"ko.c0442","k":"meaning","src":"You're the prettiest","tgt":"তুমিই সবচেয়ে সুন্দর"}
+{"f":"cards","id":"ko.c0442","k":"note","src":"제일 = the most. 제일 멋있어 for guys.","tgt":"제일 = সবচেয়ে। ছেলেদের জন্য 제일 멋있어।"}
+{"f":"cards","id":"ko.c0443","k":"meaning","src":"Should we meet again?","tgt":"আবার দেখা করব নাকি?"}
+{"f":"cards","id":"ko.c0443","k":"note","src":"ㄹ까 = shall we? 또 = again.","tgt":"ㄹ까 = করব নাকি? 또 = আবার।"}
+{"f":"cards","id":"ko.c0444","k":"meaning","src":"I'll walk you home","tgt":"তোমাকে বাসায় পৌঁছে দেব"}
+{"f":"cards","id":"ko.c0444","k":"note","src":"ㄹ게 = I'll (promise). Classic end of date.","tgt":"ㄹ게 = …করব (কথা দিচ্ছি)। ডেট শেষের ক্লাসিক কথা।"}
+{"f":"cards","id":"ko.c0445","k":"meaning","src":"I think I like you","tgt":"মনে হয় তোমাকে পছন্দ করি"}
+{"f":"cards","id":"ko.c0445","k":"note","src":"것 같아 = I think / it seems. Softens the confession.","tgt":"것 같아 = মনে হয়। স্বীকারোক্তিটা নরম করে।"}
+{"f":"cards","id":"ko.c0446","k":"meaning","src":"I don't want to go home tonight","tgt":"আজ বাসায় যেতে ইচ্ছে করছে না"}
+{"f":"cards","id":"ko.c0446","k":"note","src":"기 싫다 = don't want to. Said at the end of a good date.","tgt":"기 싫다 = … করতে ইচ্ছে নেই। ভালো ডেটের শেষে বলা হয়।"}
+{"f":"cards","id":"ko.c0447","k":"meaning","src":"Let's date","tgt":"চলো প্রেম করি"}
+{"f":"cards","id":"ko.c0447","k":"note","src":"자 = let's. More confident than 사귈래?","tgt":"자 = চলো …! 사귈래? বলার চেয়ে বেশি আত্মবিশ্বাসী।"}
+{"f":"cards","id":"ko.c0448","k":"meaning","src":"What are you up to?","tgt":"কী করছ?"}
+{"f":"cards","id":"ko.c0448","k":"note","src":"The universal opener. Polite: 뭐 해요?","tgt":"সবচেয়ে চেনা শুরু। ভদ্র: 뭐 해요?"}
+{"f":"cards","id":"ko.c0449","k":"meaning","src":"I'm bored","tgt":"বোর লাগছে"}
+{"f":"cards","id":"ko.c0449","k":"note","src":"심심하다 = bored. 놀자 = let's hang out.","tgt":"심심하다 = বোর লাগা। 놀자 = চলো আড্ডা দিই।"}
+{"f":"cards","id":"ko.c0450","k":"meaning","src":"I'm tired","tgt":"ক্লান্ত লাগছে"}
+{"f":"cards","id":"ko.c0450","k":"note","src":"피곤하다. 졸려 = I'm sleepy.","tgt":"피곤하다। 졸려 = ঘুম পাচ্ছে।"}
+{"f":"cards","id":"ko.c0451","k":"meaning","src":"I'm hungry","tgt":"খিদে পেয়েছে"}
+{"f":"cards","id":"ko.c0451","k":"note","src":"Casual version of 배고파요.","tgt":"배고파요 শব্দের ঘরোয়া রূপ।"}
+{"f":"cards","id":"ko.c0452","k":"meaning","src":"Where are you?","tgt":"কোথায় তুমি?"}
+{"f":"cards","id":"ko.c0452","k":"note","src":"Casual. 어디예요? polite.","tgt":"ঘরোয়া। ভদ্র: 어디예요?"}
+{"f":"cards","id":"ko.c0453","k":"meaning","src":"I'm on my way","tgt":"আসছি এখনই"}
+{"f":"cards","id":"ko.c0453","k":"note","src":"Lit. 'I go now'. 다 왔어 = I'm almost there.","tgt":"আক্ষরিক: \"আমি এখন যাই\"। 다 왔어 = প্রায় পৌঁছে গেছি।"}
+{"f":"cards","id":"ko.c0454","k":"meaning","src":"I think I'll be late","tgt":"মনে হয় দেরি হবে"}
+{"f":"cards","id":"ko.c0454","k":"note","src":"것 같아 = I think. 미안, 늦었어 = sorry I'm late.","tgt":"것 같아 = মনে হয়। 미안, 늦었어 = সরি, দেরি হয়ে গেল।"}
+{"f":"cards","id":"ko.c0455","k":"meaning","src":"lol","tgt":"হাহাহা"}
+{"f":"cards","id":"ko.c0455","k":"note","src":"Texting only. ㅎㅎ = softer chuckle. ㅠㅠ = crying.","tgt":"শুধু মেসেজে। ㅎㅎ = হালকা হাসি। ㅠㅠ = কান্না।"}
+{"f":"cards","id":"ko.c0456","k":"meaning","src":"yeah / ok","tgt":"হুঁ / ঠিক আছে"}
+{"f":"cards","id":"ko.c0456","k":"note","src":"Texting shorthand for 응. ㄴㄴ = no.","tgt":"응 শব্দের মেসেজ-সংক্ষেপ। ㄴㄴ = না।"}
+{"f":"cards","id":"ko.c0457","k":"meaning","src":"That's hilarious","tgt":"হাসতে হাসতে শেষ"}
+{"f":"cards","id":"ko.c0457","k":"note","src":"웃기다 = to be funny.","tgt":"웃기다 = হাসানো, মজার হওয়া।"}
+{"f":"cards","id":"ko.c0458","k":"meaning","src":"Dunno","tgt":"কী জানি"}
+{"f":"cards","id":"ko.c0458","k":"note","src":"Casual 몰라요. 글쎄 = hmm, not sure.","tgt":"몰라요 শব্দের ঘরোয়া রূপ। 글쎄 = উম, ঠিক জানি না।"}
+{"f":"cards","id":"ko.c0459","k":"meaning","src":"Okay / sure / fine","tgt":"আচ্ছা / বেশ / ঠিক তো"}
+{"f":"cards","id":"ko.c0459","k":"note","src":"Also 'is that so?' with rising tone.","tgt":"সুর উঠলে মানে \"তাই নাকি?\"।"}
+{"f":"cards","id":"ko.c0460","k":"meaning","src":"See you later","tgt":"পরে দেখা হবে"}
+{"f":"cards","id":"ko.c0460","k":"note","src":"담에 = 다음에 (next time), shortened.","tgt":"담에 = 다음에 (পরের বার), ছোট করে।"}
+{"f":"cards","id":"ko.c0461","k":"meaning","src":"Night, see you tomorrow","tgt":"শুভ রাত্রি, আগামীকাল দেখা হবে"}
+{"f":"cards","id":"ko.c0461","k":"note","src":"Standard sign-off text.","tgt":"মেসেজ শেষ করার চেনা কথা।"}
+{"f":"cards","id":"ko.c0462","k":"meaning","src":"That's cool! / You look cool","tgt":"দারুণ! / তোমাকে কুল লাগছে"}
+{"f":"cards","id":"ko.c0462","k":"note","src":"Works for people, outfits, moves. Polite: 멋있어요.","tgt":"মানুষ, পোশাক, নাচের মুভ, সবকিছুর বেলায়। ভদ্র: 멋있어요।"}
+{"f":"cards","id":"ko.c0463","k":"meaning","src":"Nice job!","tgt":"দারুণ করেছ!"}
+{"f":"cards","id":"ko.c0463","k":"note","src":"잘하다 = do well. Polite: 잘했어요.","tgt":"잘하다 = ভালো করা। ভদ্র: 잘했어요।"}
+{"f":"cards","id":"ko.c0464","k":"meaning","src":"You're the best","tgt":"তুমিই সেরা"}
+{"f":"cards","id":"ko.c0464","k":"note","src":"최고 = the best. 네가 최고야.","tgt":"최고 = সেরা। 네가 최고야।"}
+{"f":"cards","id":"ko.c0465","k":"meaning","src":"Respect / fair enough","tgt":"মানলাম / ঠিক বলেছ"}
+{"f":"cards","id":"ko.c0465","k":"note","src":"Lit. 'acknowledge'. Slang: ㅇㅈ in texts.","tgt":"আক্ষরিক: \"স্বীকার করা\"। মেসেজে স্ল্যাং: ㅇㅈ।"}
+{"f":"cards","id":"ko.c0466","k":"meaning","src":"Awesome / the best","tgt":"অসাধারণ / একদম সেরা"}
+{"f":"cards","id":"ko.c0466","k":"note","src":"짱 = top. 짱 멋있어 = super cool.","tgt":"짱 = সেরা। 짱 멋있어 = দারুণ কুল।"}
+{"f":"cards","id":"ko.c0467","k":"meaning","src":"Legend","tgt":"লেজেন্ড"}
+{"f":"cards","id":"ko.c0467","k":"note","src":"From English. 레전드다 = that's legendary.","tgt":"ইংরেজি থেকে আসা, বাংলাতেও আমরা \"লেজেন্ড\" বলি। 레전드다 = একদম লেজেন্ডারি।","rw":"English loanword explanation"}
+{"f":"cards","id":"ko.c0468","k":"meaning","src":"Insane (good)","tgt":"পাগলামি (ভালো অর্থে)"}
+{"f":"cards","id":"ko.c0468","k":"note","src":"Said about a goal, a beat, a view. Casual.","tgt":"দারুণ গোল, বিট বা দৃশ্য দেখে বলে। ঘরোয়া।"}
+{"f":"cards","id":"ko.c0469","k":"meaning","src":"That's amazing","tgt":"দারুণ ব্যাপার তো!"}
+{"f":"cards","id":"ko.c0469","k":"note","src":"Safe hype word for any crowd.","tgt":"যেকোনো মানুষের সামনে বলা যায় এমন নিরাপদ প্রশংসার শব্দ।"}
+{"f":"cards","id":"ko.c0470","k":"meaning","src":"Let's go!","tgt":"চলো!"}
+{"f":"cards","id":"ko.c0470","k":"note","src":"Also the pre-game shout.","tgt":"খেলার আগের চিৎকারও।"}
+{"f":"cards","id":"ko.c0471","k":"meaning","src":"Okay, deal / I'm in","tgt":"ঠিক আছে, ডান!"}
+{"f":"cards","id":"ko.c0471","k":"note","src":"콜 = 'call', accepting a plan.","tgt":"콜 = \"কল\", প্ল্যানে রাজি হওয়া।"}
+{"f":"cards","id":"ko.c0472","k":"meaning","src":"Good work, that was tough","tgt":"অনেক ধকল গেল তোমার"}
+{"f":"cards","id":"ko.c0472","k":"note","src":"Said after effort. Polite: 고생하셨어요.","tgt":"পরিশ্রমের পরে বলা হয়। ভদ্র: 고생하셨어요।"}
+{"f":"cards","id":"ko.c0473","k":"meaning","src":"Nice work today","tgt":"ভালো খেটেছ"}
+{"f":"cards","id":"ko.c0473","k":"note","src":"End-of-day sign-off at work or practice.","tgt":"কাজ বা প্র্যাকটিস শেষে দিনের বিদায়।"}
+{"f":"cards","id":"ko.c0474","k":"meaning","src":"You got this / cheer up","tgt":"মন শক্ত করো / জোর রাখো"}
+{"f":"cards","id":"ko.c0474","k":"note","src":"힘 = strength. 힘내세요 polite.","tgt":"힘 = শক্তি। ভদ্র: 힘내세요।"}
+{"f":"cards","id":"ko.c0475","k":"meaning","src":"Don't worry","tgt":"চিন্তা কোরো না"}
+{"f":"cards","id":"ko.c0475","k":"note","src":"지 마 = don't. 걱정하지 마 full form.","tgt":"지 마 = কোরো না। পুরো রূপ 걱정하지 마।"}
+{"f":"cards","id":"ko.c0476","k":"meaning","src":"Wanna grab a drink?","tgt":"এক গ্লাস হয়ে যাক?"}
+{"f":"cards","id":"ko.c0476","k":"note","src":"한잔 = one glass. The friend-making phrase.","tgt":"한잔 = এক গ্লাস। বন্ধুত্ব পাতানোর বাক্য।"}
+{"f":"cards","id":"ko.c0477","k":"meaning","src":"What do you wanna eat?","tgt":"কী খাবে?"}
+{"f":"cards","id":"ko.c0477","k":"note","src":"Everyone's favorite question.","tgt":"সবার প্রিয় প্রশ্ন।"}
+{"f":"cards","id":"ko.c0478","k":"meaning","src":"Hey!","tgt":"এই!"}
+{"f":"cards","id":"ko.c0478","k":"note","src":"Close friends / same age only. To anyone older it's rude.","tgt":"শুধু কাছের বন্ধু বা সমবয়সীকে। বড় কাউকে বললে অভদ্রতা।"}
+{"f":"cards","id":"ko.c0479","k":"meaning","src":"Hey, what are you doing?","tgt":"এই, কী করছ?"}
+{"f":"cards","id":"ko.c0479","k":"note","src":"The opener before any invite.","tgt":"দাওয়াত দেওয়ার আগের শুরু।"}
+{"f":"cards","id":"ko.c0480","k":"meaning","src":"Let's hang out!","tgt":"চলো আড্ডা দিই!"}
+{"f":"cards","id":"ko.c0480","k":"note","src":"놀다 = to play / hang out. 자 = let's.","tgt":"놀다 = খেলা / আড্ডা দেওয়া। 자 = চলো।"}
+{"f":"cards","id":"ko.c0481","k":"meaning","src":"Come out (come hang)","tgt":"বেরিয়ে এসো (আড্ডায়)"}
+{"f":"cards","id":"ko.c0481","k":"note","src":"Lit. 'come out'. 빨리 나와 = hurry up and come out.","tgt":"আক্ষরিক: \"বাইরে এসো\"। 빨리 나와 = তাড়াতাড়ি বেরিয়ে এসো।"}
+{"f":"cards","id":"ko.c0482","k":"meaning","src":"You free?","tgt":"ফাঁকা আছ?"}
+{"f":"cards","id":"ko.c0482","k":"note","src":"Polite: 시간 있어요?","tgt":"ভদ্র: 시간 있어요?"}
+{"f":"cards","id":"ko.c0483","k":"meaning","src":"Are you free today?","tgt":"আজ সময় হবে?"}
+{"f":"cards","id":"ko.c0483","k":"note","src":"돼 = is it possible / does it work.","tgt":"돼 = হয় / চলে।"}
+{"f":"cards","id":"ko.c0484","k":"meaning","src":"Wanna go together?","tgt":"একসাথে যাবে?"}
+{"f":"cards","id":"ko.c0484","k":"note","src":"같이 = together. ㄹ래 = wanna?","tgt":"같이 = একসাথে। ㄹ래 = করবে?"}
+{"f":"cards","id":"ko.c0485","k":"meaning","src":"Wanna go eat?","tgt":"খেতে যাবে?"}
+{"f":"cards","id":"ko.c0485","k":"note","src":"으러 가다 = go in order to. 커피 마시러 갈래? = wanna go get coffee?","tgt":"으러 가다 = … করতে যাওয়া। 커피 마시러 갈래? = কফি খেতে যাবে?"}
+{"f":"cards","id":"ko.c0486","k":"meaning","src":"Wanna watch a movie?","tgt":"সিনেমা দেখবে?"}
+{"f":"cards","id":"ko.c0486","k":"note","src":"보다 → 볼래. 게임 할래? = wanna play games?","tgt":"보다 → 볼래। 게임 할래? = গেম খেলবে?"}
+{"f":"cards","id":"ko.c0487","k":"meaning","src":"Shall we go to a café?","tgt":"ক্যাফেতে যাব নাকি?"}
+{"f":"cards","id":"ko.c0487","k":"note","src":"ㄹ까 = shall we? Softer than ㄹ래.","tgt":"ㄹ까 = করব নাকি? ㄹ래 দিয়ে প্রশ্নের চেয়ে নরম।"}
+{"f":"cards","id":"ko.c0488","k":"meaning","src":"Wanna come over?","tgt":"আমার বাসায় আসবে?"}
+{"f":"cards","id":"ko.c0488","k":"note","src":"우리 집 = my (our) house. Koreans say 우리 for their own home.","tgt":"우리 집 = আমার (আমাদের) বাসা। কোরিয়ানরা নিজের বাসাকে 우리 বলে, যেমন বাংলায় \"আমাদের বাসা\"।"}
+{"f":"cards","id":"ko.c0489","k":"meaning","src":"When should we meet?","tgt":"কবে দেখা করব?"}
+{"f":"cards","id":"ko.c0489","k":"note","src":"언제 = when. 만나다 = to meet.","tgt":"언제 = কবে। 만나다 = দেখা করা।"}
+{"f":"cards","id":"ko.c0490","k":"meaning","src":"What time should we meet?","tgt":"কয়টায় দেখা করব?"}
+{"f":"cards","id":"ko.c0490","k":"note","src":"보다 (see) doubles as 'meet up'.","tgt":"보다 (দেখা) মানে \"দেখা করা\"-ও।"}
+{"f":"cards","id":"ko.c0491","k":"meaning","src":"Where should we meet?","tgt":"কোথায় দেখা করব?"}
+{"f":"cards","id":"ko.c0491","k":"note","src":"어디서 = 어디에서 shortened.","tgt":"어디서 = 어디에서, ছোট করে।"}
+{"f":"cards","id":"ko.c0492","k":"meaning","src":"I'm coming now","tgt":"এখনই আসছি"}
+{"f":"cards","id":"ko.c0492","k":"note","src":"ㄹ게 = I'll. 금방 갈게 = I'll be there soon.","tgt":"ㄹ게 = …করব (কথা দিচ্ছি)। 금방 갈게 = এক্ষুনি আসছি।"}
+{"f":"cards","id":"ko.c0493","k":"meaning","src":"That was fun","tgt":"খুব মজা হলো"}
+{"f":"cards","id":"ko.c0493","k":"note","src":"Say it at the end. Polite: 재밌었어요.","tgt":"শেষে বলুন। ভদ্র: 재밌었어요।"}
+{"f":"cards","id":"ko.c0494","k":"meaning","src":"Let's hang out again","tgt":"চলো আবার আড্ডা দিই"}
+{"f":"cards","id":"ko.c0494","k":"note","src":"또 = again.","tgt":"또 = আবার।"}
+{"f":"cards","id":"ko.c0495","k":"meaning","src":"Let's meet again next time","tgt":"চলো পরের বার আবার দেখা করি"}
+{"f":"cards","id":"ko.c0495","k":"note","src":"담에 = 다음에. 보자 = let's see (each other).","tgt":"담에 = 다음에। 보자 = চলো দেখা করি।"}
+{"f":"cards","id":"ko.c0496","k":"meaning","src":"my favorite (member)","tgt":"আমার সবচেয়ে প্রিয় (সদস্য)"}
+{"f":"cards","id":"ko.c0496","k":"note","src":"최애가 누구예요? = who's your bias? 차애 = second favorite.","tgt":"최애가 누구예요? = আপনার সবচেয়ে প্রিয় কে? 차애 = দ্বিতীয় প্রিয়।"}
+{"f":"cards","id":"ko.c0497","k":"meaning","src":"being a fan / fangirling","tgt":"ফ্যান হিসেবে মেতে থাকা"}
+{"f":"cards","id":"ko.c0497","k":"note","src":"From 오타쿠. 덕질해요 = I'm into fandom stuff.","tgt":"오타쿠 থেকে আসা। 덕질해요 = আমি ফ্যানডম নিয়ে মেতে আছি।"}
+{"f":"cards","id":"ko.c0498","k":"meaning","src":"I became a fan","tgt":"আমি ফ্যান হয়ে গেছি"}
+{"f":"cards","id":"ko.c0498","k":"note","src":"입덕 = entering the fandom. 탈덕 = leaving it.","tgt":"입덕 = ফ্যানডমে ঢোকা। 탈덕 = ফ্যানডম ছাড়া।"}
+{"f":"cards","id":"ko.c0499","k":"meaning","src":"comeback (new release)","tgt":"কামব্যাক (নতুন রিলিজ)"}
+{"f":"cards","id":"ko.c0499","k":"note","src":"Every new album is a 컴백. 컴백 언제예요?","tgt":"প্রতিটি নতুন অ্যালবামই 컴백। 컴백 언제예요?"}
+{"f":"cards","id":"ko.c0500","k":"meaning","src":"stage / performance","tgt":"মঞ্চ / পারফরম্যান্স"}
+{"f":"cards","id":"ko.c0500","k":"note","src":"무대 진짜 잘해요 = they perform really well.","tgt":"무대 진짜 잘해요 = মঞ্চে দারুণ পারফর্ম করে।"}
+{"f":"cards","id":"ko.c0501","k":"meaning","src":"I'm going to a concert","tgt":"আমি কনসার্টে যাচ্ছি"}
+{"f":"cards","id":"ko.c0501","k":"note","src":"콘서트 티켓팅 = ticketing, a blood sport.","tgt":"콘서트 티켓팅 = টিকিট কাটা, যেন একটা যুদ্ধ।"}
+{"f":"cards","id":"ko.c0502","k":"meaning","src":"light stick","tgt":"লাইট স্টিক"}
+{"f":"cards","id":"ko.c0502","k":"note","src":"Each group has one. 응원 = cheering.","tgt":"প্রতিটি গ্রুপের আলাদা। 응원 = উৎসাহ দেওয়া।"}
+{"f":"cards","id":"ko.c0503","k":"meaning","src":"singing along as a crowd","tgt":"দর্শকদের একসাথে গাওয়া"}
+{"f":"cards","id":"ko.c0503","k":"note","src":"떼 = flock. The crowd sings the whole song.","tgt":"떼 = ঝাঁক। পুরো গানটা দর্শকরাই গেয়ে ফেলে।"}
+{"f":"cards","id":"ko.c0504","k":"meaning","src":"I'm a fan","tgt":"আমি ফ্যান"}
+{"f":"cards","id":"ko.c0504","k":"note","src":"저 팬이에요 = I'm a fan (of you / them).","tgt":"저 팬이에요 = আমি আপনার / ওদের ফ্যান।"}
+{"f":"cards","id":"ko.c0505","k":"meaning","src":"Please sign this","tgt":"একটা অটোগ্রাফ দিন"}
+{"f":"cards","id":"ko.c0505","k":"note","src":"사인 = autograph.","tgt":"사인 = অটোগ্রাফ।"}
+{"f":"cards","id":"ko.c0506","k":"meaning","src":"The song is good","tgt":"গানটা ভালো"}
+{"f":"cards","id":"ko.c0506","k":"note","src":"이 노래 진짜 좋아요 = this song is so good.","tgt":"이 노래 진짜 좋아요 = এই গানটা সত্যিই দারুণ।"}
+{"f":"cards","id":"ko.c0507","k":"meaning","src":"The lyrics are good","tgt":"গানের কথাগুলো সুন্দর"}
+{"f":"cards","id":"ko.c0507","k":"note","src":"가사 = lyrics.","tgt":"가사 = গানের কথা।"}
+{"f":"cards","id":"ko.c0508","k":"meaning","src":"choreography","tgt":"কোরিওগ্রাফি"}
+{"f":"cards","id":"ko.c0508","k":"note","src":"안무 외웠어요 = I memorized the choreo.","tgt":"안무 외웠어요 = নাচটা মুখস্থ করেছি।"}
+{"f":"cards","id":"ko.c0509","k":"meaning","src":"debut","tgt":"ডেবিউ"}
+{"f":"cards","id":"ko.c0509","k":"note","src":"몇 년에 데뷔했어요? = what year did they debut?","tgt":"몇 년에 데뷔했어요? = কোন বছরে ডেবিউ করেছে?"}
+{"f":"cards","id":"ko.c0510","k":"meaning","src":"fan meeting","tgt":"ফ্যান মিটিং"}
+{"f":"cards","id":"ko.c0510","k":"note","src":"팬싸 = fan sign event.","tgt":"팬싸 = ফ্যান সাইন ইভেন্ট।"}
+{"f":"cards","id":"ko.c0511","k":"meaning","src":"fancam","tgt":"ফ্যানক্যাম"}
+{"f":"cards","id":"ko.c0511","k":"note","src":"직접 + 캠. Member-focused concert video.","tgt":"직접 + 캠। একজন সদস্যকে ধরে তোলা কনসার্ট ভিডিও।"}
+{"f":"cards","id":"ko.c0512","k":"meaning","src":"Instagram story","tgt":"ইনস্টাগ্রাম স্টোরি"}
+{"f":"cards","id":"ko.c0512","k":"note","src":"스토리 봤어? = did you see my story?","tgt":"스토리 봤어? = আমার স্টোরি দেখেছ?"}
+{"f":"cards","id":"ko.c0513","k":"meaning","src":"Hit like for me","tgt":"একটা লাইক দিয়ে দাও"}
+{"f":"cards","id":"ko.c0513","k":"note","src":"누르다 = to press.","tgt":"누르다 = চাপ দেওয়া।"}
+{"f":"cards","id":"ko.c0514","k":"meaning","src":"I followed you","tgt":"আপনাকে ফলো করেছি"}
+{"f":"cards","id":"ko.c0514","k":"note","src":"맞팔 = follow back. 맞팔해요 = let's follow each other.","tgt":"맞팔 = ফলো ব্যাক। 맞팔해요 = চলুন একে অপরকে ফলো করি।"}
+{"f":"cards","id":"ko.c0515","k":"meaning","src":"meme image / reaction pic","tgt":"মিমের ছবি / রিঅ্যাকশন ছবি"}
+{"f":"cards","id":"ko.c0515","k":"note","src":"짤 보내 줘 = send me the meme.","tgt":"짤 보내 줘 = মিমটা পাঠাও।"}
+{"f":"cards","id":"ko.c0516","k":"meaning","src":"sudden awkward silence","tgt":"হঠাৎ অস্বস্তিকর নীরবতা"}
+{"f":"cards","id":"ko.c0516","k":"note","src":"갑자기 분위기 싸해짐. When a joke dies.","tgt":"갑자기 분위기 싸해짐। কোনো জোক মাঠে মারা গেলে।"}
+{"f":"cards","id":"ko.c0517","k":"meaning","src":"too much info / random fact","tgt":"অতিরিক্ত তথ্য / এলোমেলো তথ্য"}
+{"f":"cards","id":"ko.c0517","k":"note","src":"Used for cute oversharing, not gross stuff.","tgt":"মজার ছোটখাটো নিজের কথা বলতে, বিশ্রী কিছু নয়।"}
+{"f":"cards","id":"ko.c0518","k":"meaning","src":"effortlessly styled","tgt":"অনায়াস স্টাইল"}
+{"f":"cards","id":"ko.c0518","k":"note","src":"꾸민 듯 안 꾸민 듯. The 'I woke up like this' look.","tgt":"꾸민 듯 안 꾸민 듯। \"ঘুম থেকে উঠেই এমন\" লুক।"}
+{"f":"cards","id":"ko.c0519","k":"meaning","src":"insanely delicious","tgt":"মারাত্মক মজাদার"}
+{"f":"cards","id":"ko.c0519","k":"note","src":"Very casual slang with a vulgar origin: only with close friends. JMT in texts.","tgt":"খুব ঘরোয়া স্ল্যাং, উৎসটা অশ্লীল: শুধু কাছের বন্ধুদের সাথে। মেসেজে JMT।"}
+{"f":"cards","id":"ko.c0520","k":"meaning","src":"agreed / facts","tgt":"একমত / একদম সত্যি"}
+{"f":"cards","id":"ko.c0520","k":"note","src":"Text shorthand for 인정.","tgt":"인정 শব্দের মেসেজ-সংক্ষেপ।"}
+{"f":"cards","id":"ko.c0521","k":"meaning","src":"for real","tgt":"সত্যি সত্যি"}
+{"f":"cards","id":"ko.c0521","k":"note","src":"Text shorthand for 리얼.","tgt":"리얼 শব্দের মেসেজ-সংক্ষেপ।"}
+{"f":"cards","id":"ko.c0522","k":"meaning","src":"super extrovert / popular","tgt":"সবার মধ্যমণি / খুব মিশুক"}
+{"f":"cards","id":"ko.c0522","k":"note","src":"핵 = nuke prefix. 아싸 = outsider / introvert.","tgt":"핵 = \"পারমাণবিক\" উপসর্গ। 아싸 = দলের বাইরের মানুষ / অন্তর্মুখী।"}
+{"f":"cards","id":"ko.c0523","k":"meaning","src":"small but certain happiness","tgt":"ছোট কিন্তু নিশ্চিত সুখ"}
+{"f":"cards","id":"ko.c0523","k":"note","src":"소소하지만 확실한 행복. Café, nap, rain.","tgt":"소소하지만 확실한 행복। ক্যাফে, দুপুরের ঘুম, বৃষ্টি।"}
+{"f":"cards","id":"ko.c0524","k":"meaning","src":"studying hard","tgt":"মন দিয়ে পড়াশোনা"}
+{"f":"cards","id":"ko.c0524","k":"note","src":"열심히 공부. 열공 중 = studying hard right now.","tgt":"열심히 공부। 열공 중 = এখন জোরসে পড়ছি।"}
+{"f":"cards","id":"ko.c0525","k":"meaning","src":"mental breakdown","tgt":"মাথা খারাপ অবস্থা"}
+{"f":"cards","id":"ko.c0525","k":"note","src":"멘탈 붕괴. 멘붕 왔어 = I'm losing it.","tgt":"멘탈 붕괴। 멘붕 왔어 = মাথা কাজ করছে না।"}
+{"f":"cards","id":"ko.c0526","k":"meaning","src":"I burst out laughing","tgt":"হো হো করে হেসে ফেলেছি"}
+{"f":"cards","id":"ko.c0526","k":"note","src":"빵 = pop sound.","tgt":"빵 = ফাটার শব্দ।"}
+{"f":"cards","id":"ko.c0527","k":"meaning","src":"Let's take a selfie","tgt":"চলো সেলফি তুলি"}
+{"f":"cards","id":"ko.c0527","k":"note","src":"셀카 = selfie. 찍다 = to take (photo).","tgt":"셀카 = সেলফি। 찍다 = (ছবি) তোলা।"}
+{"f":"cards","id":"ko.c0528","k":"meaning","src":"What are we?","tgt":"আমাদের সম্পর্কটা কী?"}
+{"f":"cards","id":"ko.c0528","k":"note","src":"사이 = relationship between people. The DTR line.","tgt":"사이 = মানুষের মধ্যে সম্পর্ক। সম্পর্কের নাম ঠিক করার প্রশ্ন।"}
+{"f":"cards","id":"ko.c0529","k":"meaning","src":"I want to date seriously","tgt":"আমি সিরিয়াসলি সম্পর্ক করতে চাই"}
+{"f":"cards","id":"ko.c0529","k":"note","src":"진지하다 = serious.","tgt":"진지하다 = সিরিয়াস।"}
+{"f":"cards","id":"ko.c0530","k":"meaning","src":"You're really warm-hearted","tgt":"তুমি সত্যিই খুব যত্নশীল"}
+{"f":"cards","id":"ko.c0530","k":"note","src":"다정하다 = affectionate, kind. Compliment beyond looks.","tgt":"다정하다 = স্নেহময়, যত্নশীল। চেহারার বাইরের প্রশংসা।"}
+{"f":"cards","id":"ko.c0531","k":"meaning","src":"I like your laugh","tgt":"তোমার হাসির শব্দটা ভালো লাগে"}
+{"f":"cards","id":"ko.c0531","k":"note","src":"웃음소리 = laughing sound.","tgt":"웃음소리 = হাসির শব্দ।"}
+{"f":"cards","id":"ko.c0532","k":"meaning","src":"I feel comfortable with you","tgt":"তোমার সাথে থাকলে স্বস্তি পাই"}
+{"f":"cards","id":"ko.c0532","k":"note","src":"편하다 = comfortable. High praise in Korean dating.","tgt":"편하다 = আরামের, স্বস্তির। কোরিয়ান প্রেমে বড় প্রশংসা।"}
+{"f":"cards","id":"ko.c0533","k":"meaning","src":"Sorry, it was my fault","tgt":"সরি, আমারই ভুল"}
+{"f":"cards","id":"ko.c0533","k":"note","src":"잘못하다 = to do wrong. Own it.","tgt":"잘못하다 = ভুল করা। দায়টা নিন।"}
+{"f":"cards","id":"ko.c0534","k":"meaning","src":"Don't be mad anymore","tgt":"আর রাগ করে থেকো না"}
+{"f":"cards","id":"ko.c0534","k":"note","src":"풀다 = to untie / release. 화 풀어 줘 softer.","tgt":"풀다 = খোলা, ছেড়ে দেওয়া। 화 풀어 줘 আরও নরম।"}
+{"f":"cards","id":"ko.c0535","k":"meaning","src":"Don't worry, you have me","tgt":"চিন্তা কোরো না, আমি তো আছি"}
+{"f":"cards","id":"ko.c0535","k":"note","src":"잖아 = 'you know'. Reassurance.","tgt":"잖아 = \"জানোই তো\"। ভরসা দেওয়া।"}
+{"f":"cards","id":"ko.c0536","k":"meaning","src":"How was the date today?","tgt":"আজকের ডেট কেমন লাগল?"}
+{"f":"cards","id":"ko.c0536","k":"note","src":"어땠어 = how was it.","tgt":"어땠어 = কেমন ছিল।"}
+{"f":"cards","id":"ko.c0537","k":"meaning","src":"Let's take a photo together","tgt":"চলো একসাথে ছবি তুলি"}
+{"f":"cards","id":"ko.c0537","k":"note","src":"Couple photo = 커플 사진.","tgt":"কাপলের ছবি = 커플 사진।"}
+{"f":"cards","id":"ko.c0538","k":"meaning","src":"Happy 100 days","tgt":"100 দিনের শুভেচ্ছা"}
+{"f":"cards","id":"ko.c0538","k":"note","src":"Couples celebrate 100 days. Big deal.","tgt":"জুটিরা 100 দিন উদযাপন করে। বড় ব্যাপার।"}
+{"f":"cards","id":"ko.c0539","k":"meaning","src":"Can I hold your hand?","tgt":"তোমার হাতটা ধরতে পারি?"}
+{"f":"cards","id":"ko.c0539","k":"note","src":"잡다 = to hold. 아/어도 돼 = may I.","tgt":"잡다 = ধরা। 아/어도 돼 = … করতে পারি?"}
+{"f":"cards","id":"ko.c0540","k":"meaning","src":"Hug me","tgt":"আমাকে জড়িয়ে ধরো"}
+{"f":"cards","id":"ko.c0540","k":"note","src":"안다 = to hug. 안아 줄게 = I'll hug you.","tgt":"안다 = জড়িয়ে ধরা। 안아 줄게 = তোমাকে জড়িয়ে ধরব।"}
+{"f":"cards","id":"ko.c0541","k":"meaning","src":"I miss you to death","tgt":"তোমাকে মিস করতে করতে মরে যাচ্ছি"}
+{"f":"cards","id":"ko.c0541","k":"note","src":"죽겠어 = 'I'll die' intensifier. Casual, dramatic.","tgt":"죽겠어 = \"মরে যাব\", জোর বাড়ায়। ঘরোয়া, নাটুকে।"}
+{"f":"cards","id":"ko.c0542","k":"meaning","src":"I have something to tell you","tgt":"তোমাকে একটা কথা বলার আছে"}
+{"f":"cards","id":"ko.c0542","k":"note","src":"Sets up a serious talk. 한테 = to (person).","tgt":"সিরিয়াস আলাপের শুরু। 한테 = (কাউকে)।"}
+{"f":"cards","id":"ko.c0543","k":"meaning","src":"I think we're a good match","tgt":"মনে হয় আমাদের খুব মেলে"}
+{"f":"cards","id":"ko.c0543","k":"note","src":"맞다 = to fit / match.","tgt":"맞다 = মেলা, খাপ খাওয়া।"}
+{"f":"cards","id":"ko.c0544","k":"meaning","src":"What time is the meeting?","tgt":"মিটিং কয়টায়?"}
+{"f":"cards","id":"ko.c0544","k":"note","src":"회의 = meeting. 회의실 = meeting room.","tgt":"회의 = মিটিং। 회의실 = মিটিং রুম।"}
+{"f":"cards","id":"ko.c0545","k":"meaning","src":"When is the deadline?","tgt":"ডেডলাইন কবে?"}
+{"f":"cards","id":"ko.c0545","k":"note","src":"마감 = deadline. 마감 지켰어요 = I made the deadline.","tgt":"마감 = ডেডলাইন। 마감 지켰어요 = ডেডলাইন মেনেছি।"}
+{"f":"cards","id":"ko.c0546","k":"meaning","src":"I'll check and get back to you","tgt":"দেখে জানাচ্ছি"}
+{"f":"cards","id":"ko.c0546","k":"note","src":"Formal. The email reply you'll send most.","tgt":"আনুষ্ঠানিক। ইমেইলে সবচেয়ে বেশি পাঠাবেন এই উত্তর।"}
+{"f":"cards","id":"ko.c0547","k":"meaning","src":"Do you have a moment?","tgt":"একটু সময় হবে আপনার?"}
+{"f":"cards","id":"ko.c0547","k":"note","src":"To a colleague or senior. 잠깐 = briefly.","tgt":"সহকর্মী বা সিনিয়রকে। 잠깐 = অল্প সময়।"}
+{"f":"cards","id":"ko.c0548","k":"meaning","src":"Could you help me with this?","tgt":"এটায় একটু সাহায্য করতে পারবেন?"}
+{"f":"cards","id":"ko.c0548","k":"note","src":"도와주시다 honorific + 수 있어요 = could you.","tgt":"도와주시다 সম্মানসূচক + 수 있어요 = পারবেন?"}
+{"f":"cards","id":"ko.c0549","k":"meaning","src":"I'll head out first","tgt":"আমি আগে বের হচ্ছি"}
+{"f":"cards","id":"ko.c0549","k":"note","src":"퇴근 = leaving work. Say it to the room, always.","tgt":"퇴근 = অফিস থেকে বের হওয়া। সবার উদ্দেশে বলুন, প্রতিদিন।"}
+{"f":"cards","id":"ko.c0550","k":"meaning","src":"Good work today (formal)","tgt":"অনেক খেটেছেন, ধন্যবাদ"}
+{"f":"cards","id":"ko.c0550","k":"note","src":"To seniors when leaving. 수고하세요 to those still working.","tgt":"বের হওয়ার সময় সিনিয়রদের বলুন। যাঁরা এখনো কাজ করছেন, তাঁদের 수고하세요।"}
+{"f":"cards","id":"ko.c0551","k":"meaning","src":"There's a team dinner","tgt":"অফিসের ডিনার আছে"}
+{"f":"cards","id":"ko.c0551","k":"note","src":"회식 = company dinner. Attendance is… encouraged.","tgt":"회식 = অফিসের ডিনার। যাওয়াটা… \"উৎসাহিত\" করা হয়।"}
+{"f":"cards","id":"ko.c0552","k":"meaning","src":"I sent the report","tgt":"রিপোর্ট পাঠিয়েছি"}
+{"f":"cards","id":"ko.c0552","k":"note","src":"보고서 = report. 보내다 = to send.","tgt":"보고서 = রিপোর্ট। 보내다 = পাঠানো।"}
+{"f":"cards","id":"ko.c0553","k":"meaning","src":"What should we have for lunch?","tgt":"দুপুরে কী খাব?"}
+{"f":"cards","id":"ko.c0553","k":"note","src":"The 11:30 question in every office.","tgt":"প্রতিটি অফিসে সাড়ে এগারোটার প্রশ্ন।"}
+{"f":"cards","id":"ko.c0554","k":"meaning","src":"I have to work overtime","tgt":"আমাকে ওভারটাইম করতে হবে"}
+{"f":"cards","id":"ko.c0554","k":"note","src":"야근 = night work. 아/어야 돼요 = have to.","tgt":"야근 = রাতের কাজ। 아/어야 돼요 = … করতে হবে।"}
+{"f":"cards","id":"ko.c0555","k":"meaning","src":"I applied for leave","tgt":"ছুটির আবেদন করেছি"}
+{"f":"cards","id":"ko.c0555","k":"note","src":"휴가 = vacation. 신청하다 = apply.","tgt":"휴가 = ছুটি। 신청하다 = আবেদন করা।"}
+{"f":"cards","id":"ko.c0556","k":"meaning","src":"Did you see my email?","tgt":"আমার ইমেইলটা দেখেছেন?"}
+{"f":"cards","id":"ko.c0556","k":"note","src":"Honorific past 하셨어요.","tgt":"সম্মানসূচক অতীত 하셨어요।"}
+{"f":"cards","id":"ko.c0557","k":"meaning","src":"Thank you for the feedback","tgt":"মতামতের জন্য ধন্যবাদ"}
+{"f":"cards","id":"ko.c0557","k":"note","src":"주셔서 = for giving (honorific).","tgt":"주셔서 = দেওয়ার জন্য (সম্মানসূচক)।"}
+{"f":"cards","id":"ko.c0558","k":"meaning","src":"I'm presenting next week","tgt":"আগামী সপ্তাহে আমার প্রেজেন্টেশন"}
+{"f":"cards","id":"ko.c0558","k":"note","src":"발표 = presentation.","tgt":"발표 = প্রেজেন্টেশন।"}
+{"f":"cards","id":"ko.c0559","k":"meaning","src":"Looking forward to working with you","tgt":"আপনার সহযোগিতা কামনা করছি"}
+{"f":"cards","id":"ko.c0559","k":"note","src":"Closes work emails and first meetings.","tgt":"কাজের ইমেইলের শেষে আর প্রথম দেখায় বলা হয়।"}
+{"f":"cards","id":"ko.c0560","k":"meaning","src":"How have you been?","tgt":"এতদিন কেমন ছিলেন?"}
+{"f":"cards","id":"ko.c0560","k":"note","src":"Standard greeting for someone you haven't seen in a while.","tgt":"অনেক দিন পর দেখা হলে চেনা সম্ভাষণ।"}
+{"f":"cards","id":"ko.c0561","k":"meaning","src":"I've been well","tgt":"জি, ভালো ছিলাম"}
+{"f":"cards","id":"ko.c0561","k":"note","src":"Add 덕분에 (thanks to you) to sound extra polite.","tgt":"덕분에 (আপনার বদৌলতে) যোগ করলে আরও ভদ্র শোনায়।"}
+{"f":"cards","id":"ko.c0562","k":"meaning","src":"How are things lately?","tgt":"আজকাল কেমন চলছে?"}
+{"f":"cards","id":"ko.c0562","k":"note","src":"요즘 = these days. 어때요 = how is it.","tgt":"요즘 = আজকাল। 어때요 = কেমন।"}
+{"f":"cards","id":"ko.c0563","k":"meaning","src":"So-so","tgt":"চলছে আর কি"}
+{"f":"cards","id":"ko.c0563","k":"note","src":"Lit. 'it's just like that'. Very common honest answer.","tgt":"আক্ষরিক: \"এই তো, এমনই\"। খুব চেনা সৎ উত্তর।"}
+{"f":"cards","id":"ko.c0564","k":"meaning","src":"Nice weather, isn't it","tgt":"আবহাওয়াটা সুন্দর, তাই না"}
+{"f":"cards","id":"ko.c0564","k":"note","src":"네요 ending = noticing something out loud. 날씨가 춥네요 = it's cold, huh.","tgt":"네요 এন্ডিং = খেয়াল করে মুখে বলা। 날씨가 춥네요 = বেশ ঠান্ডা, তাই না।"}
+{"f":"cards","id":"ko.c0565","k":"meaning","src":"What are you doing this weekend?","tgt":"সপ্তাহান্তে কী করছেন?"}
+{"f":"cards","id":"ko.c0565","k":"note","src":"주말 = weekend, 에 = on.","tgt":"주말 = সপ্তাহান্ত, 에 = -এ।"}
+{"f":"cards","id":"ko.c0566","k":"meaning","src":"Me too","tgt":"আমিও"}
+{"f":"cards","id":"ko.c0566","k":"note","src":"Casual: 나도.","tgt":"ঘরোয়া: 나도।"}
+{"f":"cards","id":"ko.c0567","k":"meaning","src":"Really?","tgt":"তাই নাকি?"}
+{"f":"cards","id":"ko.c0567","k":"note","src":"Softer than 진짜요?. Both fine.","tgt":"진짜요? বলার চেয়ে নরম। দুটোই ঠিক।"}
+{"f":"cards","id":"ko.c0568","k":"meaning","src":"See you again","tgt":"আবার দেখা হবে"}
+{"f":"cards","id":"ko.c0568","k":"note","src":"또 = again. 내일 봐요 = see you tomorrow.","tgt":"또 = আবার। 내일 봐요 = আগামীকাল দেখা হবে।"}
+{"f":"cards","id":"ko.c0569","k":"meaning","src":"Goodbye (to someone leaving)","tgt":"সাবধানে যাবেন (যিনি যাচ্ছেন তাঁকে)"}
+{"f":"cards","id":"ko.c0569","k":"note","src":"가세요 = go well. Say it when THEY are leaving.","tgt":"가세요 = যান; আক্ষরিক: «শান্তিতে যান»। অন্যজন চলে যাচ্ছেন, তখন বলুন।"}
+{"f":"cards","id":"ko.c0570","k":"meaning","src":"Goodbye (to someone staying)","tgt":"ভালো থাকবেন (যিনি থাকছেন তাঁকে)"}
+{"f":"cards","id":"ko.c0570","k":"note","src":"계세요 = stay well. Say it when YOU are leaving.","tgt":"계세요 = থাকুন; আক্ষরিক: «শান্তিতে থাকুন»। আপনি নিজে চলে যাচ্ছেন, তখন বলুন: বাংলায় যখন বলি \"আসি\"।"}
+{"f":"cards","id":"ko.c0571","k":"meaning","src":"I'll be in touch","tgt":"যোগাযোগ করব"}
+{"f":"cards","id":"ko.c0571","k":"note","src":"ㄹ게요 = I'll (promise). 연락 = contact.","tgt":"ㄹ게요 = …করব (কথা দিচ্ছি)। 연락 = যোগাযোগ।"}
+{"f":"cards","id":"ko.c0572","k":"meaning","src":"water","tgt":"পানি"}
+{"f":"cards","id":"ko.c0572","k":"note","src":"물 주세요 = water, please.","tgt":"물 주세요 = পানি দিন।"}
+{"f":"cards","id":"ko.c0573","k":"meaning","src":"rice / a meal","tgt":"ভাত / খাবার"}
+{"f":"cards","id":"ko.c0573","k":"note","src":"밥 먹자 = let's eat.","tgt":"밥 먹자 = চলো খাই।"}
+{"f":"cards","id":"ko.c0574","k":"meaning","src":"meat","tgt":"মাংস"}
+{"f":"cards","id":"ko.c0574","k":"note","src":"소고기 beef, 돼지고기 pork, 닭고기 chicken.","tgt":"소고기 গরু, 돼지고기 শুয়োর, 닭고기 মুরগি।"}
+{"f":"cards","id":"ko.c0575","k":"meaning","src":"Menu, please","tgt":"মেনুটা দিন"}
+{"f":"cards","id":"ko.c0575","k":"note","src":"Or just raise a hand and say 저기요 (excuse me).","tgt":"নয়তো হাত তুলে বলুন 저기요 (শুনছেন?)।"}
+{"f":"cards","id":"ko.c0576","k":"meaning","src":"Not spicy, please","tgt":"ঝাল ছাড়া দিন"}
+{"f":"cards","id":"ko.c0576","k":"note","src":"맵다 = spicy. 안 매워요? = is it not spicy?","tgt":"맵다 = ঝাল। 안 매워요? = ঝাল না তো?"}
+{"f":"cards","id":"ko.c0577","k":"meaning","src":"It's delicious","tgt":"খুব মজা হয়েছে"}
+{"f":"cards","id":"ko.c0577","k":"note","src":"Say it to the owner on the way out.","tgt":"বের হওয়ার সময় মালিককে বলুন।"}
+{"f":"cards","id":"ko.c0578","k":"meaning","src":"I'm hungry","tgt":"আমার খিদে পেয়েছে"}
+{"f":"cards","id":"ko.c0578","k":"note","src":"배불러요 (baebulleoyo) = I'm full.","tgt":"배불러요 (baebulleoyo) = পেট ভরে গেছে।"}
+{"f":"cards","id":"ko.c0579","k":"meaning","src":"One coffee","tgt":"এক কাপ কফি"}
+{"f":"cards","id":"ko.c0579","k":"note","src":"잔 = cup counter. 두 잔 = two cups.","tgt":"잔 = কাপের কাউন্টার। 두 잔 = দুই কাপ।"}
+{"f":"cards","id":"ko.c0580","k":"meaning","src":"Check, please","tgt":"বিলটা দিন"}
+{"f":"cards","id":"ko.c0580","k":"note","src":"You usually pay at the counter.","tgt":"সাধারণত কাউন্টারে গিয়ে টাকা দিতে হয়।"}
+{"f":"cards","id":"ko.c0581","k":"meaning","src":"To go, please","tgt":"প্যাক করে দিন"}
+{"f":"cards","id":"ko.c0581","k":"note","src":"포장 = packaging.","tgt":"포장 = প্যাকিং।"}
+{"f":"cards","id":"ko.c0582","k":"meaning","src":"Cheers!","tgt":"চিয়ার্স!"}
+{"f":"cards","id":"ko.c0582","k":"note","src":"Clink glasses; pour for others, not yourself.","tgt":"গ্লাসে গ্লাস ঠুকুন; অন্যদের গ্লাসে ঢেলে দিন, নিজেরটায় নয়।"}
+{"f":"cards","id":"ko.c0583","k":"meaning","src":"(Said after eating)","tgt":"খুব ভালো খেলাম, ধন্যবাদ (খাওয়ার পরে)"}
+{"f":"cards","id":"ko.c0583","k":"note","src":"Lit. 'I ate well.' Pairs with 잘 먹겠습니다.","tgt":"আক্ষরিক: \"ভালো করে খেলাম।\" 잘 먹겠습니다 কথাটির জোড়া।"}
+{"f":"cards","id":"ko.c0584","k":"meaning","src":"here / over there","tgt":"এখানে / ওখানে"}
+{"f":"cards","id":"ko.c0584","k":"note","src":"거기 (geogi) = there (near you).","tgt":"거기 (geogi) = সেখানে (যার সাথে কথা বলছেন, তার কাছে)।"}
+{"f":"cards","id":"ko.c0585","k":"meaning","src":"left","tgt":"বাম"}
+{"f":"cards","id":"ko.c0585","k":"note","src":"왼쪽으로 가세요 = go left.","tgt":"왼쪽으로 가세요 = বামে যান।"}
+{"f":"cards","id":"ko.c0586","k":"meaning","src":"right","tgt":"ডান"}
+{"f":"cards","id":"ko.c0586","k":"note","src":"오른쪽으로 = to the right.","tgt":"오른쪽으로 = ডানে।"}
+{"f":"cards","id":"ko.c0587","k":"meaning","src":"Go straight","tgt":"সোজা যান"}
+{"f":"cards","id":"ko.c0587","k":"note","src":"쭉 가세요 also works.","tgt":"쭉 가세요 বললেও চলে।"}
+{"f":"cards","id":"ko.c0588","k":"meaning","src":"subway station","tgt":"সাবওয়ে স্টেশন"}
+{"f":"cards","id":"ko.c0588","k":"note","src":"Seoul Metro is the easiest way around.","tgt":"সিউলে মেট্রোতেই সবচেয়ে সহজে ঘোরা যায়।"}
+{"f":"cards","id":"ko.c0589","k":"meaning","src":"bus stop","tgt":"বাস স্টপ"}
+{"f":"cards","id":"ko.c0589","k":"note","src":"정류장 = stop.","tgt":"정류장 = স্টপ।"}
+{"f":"cards","id":"ko.c0590","k":"meaning","src":"taxi","tgt":"ট্যাক্সি"}
+{"f":"cards","id":"ko.c0590","k":"note","src":"Tell the driver: ~로 가 주세요 (please go to ~).","tgt":"চালককে বলুন: ~로 가 주세요 (… নিয়ে চলুন)।"}
+{"f":"cards","id":"ko.c0591","k":"meaning","src":"airport","tgt":"বিমানবন্দর"}
+{"f":"cards","id":"ko.c0591","k":"note","src":"인천공항 = Incheon Airport.","tgt":"인천공항 = ইনচন বিমানবন্দর।"}
+{"f":"cards","id":"ko.c0592","k":"meaning","src":"How long does it take?","tgt":"কতক্ষণ লাগে?"}
+{"f":"cards","id":"ko.c0592","k":"note","src":"걸리다 = to take (time).","tgt":"걸리다 = (সময়) লাগা।"}
+{"f":"cards","id":"ko.c0593","k":"meaning","src":"Please stop here","tgt":"এখানে থামান"}
+{"f":"cards","id":"ko.c0593","k":"note","src":"Taxi phrase.","tgt":"ট্যাক্সির কথা।"}
+{"f":"cards","id":"ko.c0594","k":"meaning","src":"T-money card","tgt":"টি-মানি কার্ড"}
+{"f":"cards","id":"ko.c0594","k":"note","src":"Tap-in transit card. Buy at any convenience store.","tgt":"ছুঁইয়ে ওঠার যাতায়াত কার্ড। যেকোনো কনভিনিয়েন্স স্টোরে কেনা যায়।"}
+{"f":"cards","id":"ko.c0595","k":"meaning","src":"How do I get there?","tgt":"কীভাবে যাব?"}
+{"f":"cards","id":"ko.c0595","k":"note","src":"Add the place + 에: 명동에 어떻게 가요?","tgt":"জায়গা + 에 যোগ করুন: 명동에 어떻게 가요?"}
+{"f":"cards","id":"ko.c0596","k":"meaning","src":"today","tgt":"আজ"}
+{"f":"cards","id":"ko.c0596","k":"note","src":"오늘 뭐 해요? = what are you doing today?","tgt":"오늘 뭐 해요? = আজ কী করছেন?"}
+{"f":"cards","id":"ko.c0597","k":"meaning","src":"tomorrow","tgt":"আগামীকাল"}
+{"f":"cards","id":"ko.c0597","k":"note","src":"내일 봐요 = see you tomorrow.","tgt":"내일 봐요 = আগামীকাল দেখা হবে।"}
+{"f":"cards","id":"ko.c0598","k":"meaning","src":"yesterday","tgt":"গতকাল"}
+{"f":"cards","id":"ko.c0598","k":"note","src":"어제 뭐 했어요? = what did you do yesterday?","tgt":"어제 뭐 했어요? = গতকাল কী করলেন?"}
+{"f":"cards","id":"ko.c0599","k":"meaning","src":"now","tgt":"এখন"}
+{"f":"cards","id":"ko.c0599","k":"note","src":"지금 몇 시예요? = what time is it now?","tgt":"지금 몇 시예요? = এখন কয়টা বাজে?"}
+{"f":"cards","id":"ko.c0600","k":"meaning","src":"morning / lunchtime / evening","tgt":"সকাল / দুপুর / সন্ধ্যা"}
+{"f":"cards","id":"ko.c0600","k":"note","src":"Also mean breakfast / lunch / dinner.","tgt":"সকালের নাশতা / দুপুরের খাবার / রাতের খাবারও বোঝায়।"}
+{"f":"cards","id":"ko.c0601","k":"meaning","src":"Monday","tgt":"সোমবার"}
+{"f":"cards","id":"ko.c0601","k":"note","src":"요일 = day of the week.","tgt":"요일 = সপ্তাহের দিন।"}
+{"f":"cards","id":"ko.c0602","k":"meaning","src":"Friday","tgt":"শুক্রবার"}
+{"f":"cards","id":"ko.c0602","k":"note","src":"불금 = 'burning Friday', Friday night out.","tgt":"불금 = \"জ্বলন্ত শুক্রবার\", শুক্রবার রাতের আড্ডা।"}
+{"f":"cards","id":"ko.c0603","k":"meaning","src":"Saturday / Sunday","tgt":"শনিবার / রবিবার"}
+{"f":"cards","id":"ko.c0603","k":"note","src":"주말 (jumal) = weekend.","tgt":"주말 (jumal) = সপ্তাহান্ত।"}
+{"f":"cards","id":"ko.c0604","k":"meaning","src":"What time is it?","tgt":"কয়টা বাজে?"}
+{"f":"cards","id":"ko.c0604","k":"note","src":"몇 = how many; 시 = o'clock.","tgt":"몇 = কত; 시 = …টা (ঘণ্টা)।"}
+{"f":"cards","id":"ko.c0605","k":"meaning","src":"when","tgt":"কবে / কখন"}
+{"f":"cards","id":"ko.c0605","k":"note","src":"언제 와요? = when are you coming?","tgt":"언제 와요? = কখন আসছেন?"}
+{"f":"cards","id":"ko.c0606","k":"meaning","src":"every day","tgt":"প্রতিদিন"}
+{"f":"cards","id":"ko.c0606","k":"note","src":"매일 공부해요 = I study every day.","tgt":"매일 공부해요 = আমি প্রতিদিন পড়াশোনা করি।"}
+{"f":"cards","id":"ko.c0607","k":"meaning","src":"Do you have time?","tgt":"আপনার সময় আছে?"}
+{"f":"cards","id":"ko.c0607","k":"note","src":"Low-key way to ask someone out.","tgt":"কাউকে দেখা করতে বলার হালকা উপায়।"}
+{"f":"cards","id":"ko.c0608","k":"meaning","src":"mom / dad","tgt":"মা / বাবা"}
+{"f":"cards","id":"ko.c0608","k":"note","src":"어머니 / 아버지 = formal versions.","tgt":"어머니 / 아버지 = আনুষ্ঠানিক রূপ।"}
+{"f":"cards","id":"ko.c0609","k":"meaning","src":"older brother","tgt":"বড় ভাই (ভাইয়া)"}
+{"f":"cards","id":"ko.c0609","k":"note","src":"형 if you're male, 오빠 if you're female. Also used for older male friends.","tgt":"আপনি পুরুষ হলে 형, নারী হলে 오빠। বয়সে বড় ছেলে বন্ধুদেরও বলা হয়।"}
+{"f":"cards","id":"ko.c0610","k":"meaning","src":"older sister","tgt":"বড় বোন (আপু)"}
+{"f":"cards","id":"ko.c0610","k":"note","src":"누나 if you're male, 언니 if you're female.","tgt":"আপনি পুরুষ হলে 누나, নারী হলে 언니।"}
+{"f":"cards","id":"ko.c0611","k":"meaning","src":"younger sibling","tgt":"ছোট ভাই বা বোন"}
+{"f":"cards","id":"ko.c0611","k":"note","src":"남동생 = younger brother, 여동생 = younger sister.","tgt":"남동생 = ছোট ভাই, 여동생 = ছোট বোন।"}
+{"f":"cards","id":"ko.c0612","k":"meaning","src":"grandma / grandpa","tgt":"দাদি-নানি / দাদা-নানা"}
+{"f":"cards","id":"ko.c0612","k":"note","src":"Also polite for any elderly person.","tgt":"যেকোনো বয়স্ক মানুষকেও ভদ্রভাবে বলা হয়।"}
+{"f":"cards","id":"ko.c0613","k":"meaning","src":"family","tgt":"পরিবার"}
+{"f":"cards","id":"ko.c0613","k":"note","src":"가족이 몇 명이에요? = how many in your family?","tgt":"가족이 몇 명이에요? = আপনার পরিবারে কয়জন?"}
+{"f":"cards","id":"ko.c0614","k":"meaning","src":"friend","tgt":"বন্ধু"}
+{"f":"cards","id":"ko.c0614","k":"note","src":"Technically same-age friend only.","tgt":"নিয়ম অনুযায়ী শুধু সমবয়সী বন্ধু।"}
+{"f":"cards","id":"ko.c0615","k":"meaning","src":"teacher","tgt":"শিক্ষক"}
+{"f":"cards","id":"ko.c0615","k":"note","src":"Also a respectful 'sir/ma'am'.","tgt":"সম্মান করে \"স্যার / ম্যাডাম\" অর্থেও বলা হয়।"}
+{"f":"cards","id":"ko.c0616","k":"meaning","src":"man / woman","tgt":"পুরুষ / নারী"}
+{"f":"cards","id":"ko.c0616","k":"note","src":"남자친구 = boyfriend, 여자친구 = girlfriend.","tgt":"남자친구 = বয়ফ্রেন্ড, 여자친구 = গার্লফ্রেন্ড।"}
+{"f":"cards","id":"ko.c0617","k":"meaning","src":"person","tgt":"মানুষ"}
+{"f":"cards","id":"ko.c0617","k":"note","src":"한국 사람 = Korean person, 미국 사람 = American, 멕시코 사람 = Mexican: country + 사람.","tgt":"한국 사람 = কোরিয়ান, 미국 사람 = মার্কিন, 멕시코 사람 = মেক্সিকান: দেশ + 사람।"}
+{"f":"cards","id":"ko.c0618","k":"meaning","src":"good / I like it","tgt":"ভালো / আমার ভালো লাগে"}
+{"f":"cards","id":"ko.c0618","k":"note","src":"안 좋아요 = not good.","tgt":"안 좋아요 = ভালো না।"}
+{"f":"cards","id":"ko.c0619","k":"meaning","src":"bad","tgt":"খারাপ"}
+{"f":"cards","id":"ko.c0619","k":"note","src":"기분이 나빠요 = I feel bad.","tgt":"기분이 나빠요 = মনটা খারাপ লাগছে।"}
+{"f":"cards","id":"ko.c0620","k":"meaning","src":"big","tgt":"বড়"}
 {"f":"cards","id":"ko.c0620","k":"note","src":"크다 → 커요.","tgt":"크다 → 커요.","pre":1}
-{"f":"cards","id":"ko.c0621","k":"meaning","src":"small","tgt":""}
+{"f":"cards","id":"ko.c0621","k":"meaning","src":"small","tgt":"ছোট"}
 {"f":"cards","id":"ko.c0621","k":"note","src":"작다 → 작아요.","tgt":"작다 → 작아요.","pre":1}
-{"f":"cards","id":"ko.c0622","k":"meaning","src":"many / a lot","tgt":""}
-{"f":"cards","id":"ko.c0622","k":"note","src":"사람이 많아요 = lots of people.","tgt":""}
-{"f":"cards","id":"ko.c0623","k":"meaning","src":"expensive","tgt":""}
-{"f":"cards","id":"ko.c0623","k":"note","src":"너무 비싸요 = too expensive.","tgt":""}
-{"f":"cards","id":"ko.c0624","k":"meaning","src":"cheap","tgt":""}
-{"f":"cards","id":"ko.c0624","k":"note","src":"싸고 좋아요 = cheap and good.","tgt":""}
-{"f":"cards","id":"ko.c0625","k":"meaning","src":"hot (weather)","tgt":""}
-{"f":"cards","id":"ko.c0625","k":"note","src":"뜨거워요 = hot (to touch).","tgt":""}
-{"f":"cards","id":"ko.c0626","k":"meaning","src":"cold (weather)","tgt":""}
-{"f":"cards","id":"ko.c0626","k":"note","src":"차가워요 = cold (to touch).","tgt":""}
-{"f":"cards","id":"ko.c0627","k":"meaning","src":"busy","tgt":""}
-{"f":"cards","id":"ko.c0627","k":"note","src":"요즘 바빠요 = busy these days.","tgt":""}
-{"f":"cards","id":"ko.c0628","k":"meaning","src":"fun / interesting","tgt":""}
-{"f":"cards","id":"ko.c0628","k":"note","src":"재미없어요 = boring.","tgt":""}
-{"f":"cards","id":"ko.c0629","k":"meaning","src":"hard / exhausting","tgt":""}
-{"f":"cards","id":"ko.c0629","k":"note","src":"Complaint of choice.","tgt":""}
-{"f":"cards","id":"ko.c0630","k":"meaning","src":"Really?","tgt":""}
-{"f":"cards","id":"ko.c0630","k":"note","src":"Also 진짜로. 정말? (jeongmal) is slightly softer.","tgt":""}
-{"f":"cards","id":"ko.c0631","k":"meaning","src":"Awesome / no way","tgt":""}
-{"f":"cards","id":"ko.c0631","k":"note","src":"Good or bad surprise. 대박 사건 = huge deal.","tgt":""}
-{"f":"cards","id":"ko.c0632","k":"meaning","src":"OMG / what","tgt":""}
-{"f":"cards","id":"ko.c0632","k":"note","src":"Stunned reaction. Mostly texting and casual speech.","tgt":""}
-{"f":"cards","id":"ko.c0633","k":"meaning","src":"Oh my / ugh","tgt":""}
-{"f":"cards","id":"ko.c0633","k":"note","src":"Sigh word for any small misfortune.","tgt":""}
-{"f":"cards","id":"ko.c0634","k":"meaning","src":"It's okay","tgt":""}
-{"f":"cards","id":"ko.c0634","k":"note","src":"Casual. Said while clearly not okay.","tgt":""}
-{"f":"cards","id":"ko.c0635","k":"meaning","src":"Are you crazy?","tgt":""}
-{"f":"cards","id":"ko.c0635","k":"note","src":"Casual, often affectionate.","tgt":""}
-{"f":"cards","id":"ko.c0636","k":"meaning","src":"Don't go","tgt":""}
-{"f":"cards","id":"ko.c0636","k":"note","src":"Verb stem + 지 마 = don't.","tgt":""}
-{"f":"cards","id":"ko.c0637","k":"meaning","src":"I missed you","tgt":""}
-{"f":"cards","id":"ko.c0637","k":"note","src":"Past of 보고 싶어.","tgt":""}
-{"f":"cards","id":"ko.c0638","k":"meaning","src":"What do I do / oh no","tgt":""}
-{"f":"cards","id":"ko.c0638","k":"note","src":"Said with hands on face.","tgt":""}
-{"f":"cards","id":"ko.c0639","k":"meaning","src":"You got this!","tgt":""}
-{"f":"cards","id":"ko.c0639","k":"note","src":"From 'fighting'. Cheer before anything hard.","tgt":""}
-{"f":"cards","id":"ko.c0640","k":"meaning","src":"Got it / okay","tgt":""}
-{"f":"cards","id":"ko.c0640","k":"note","src":"Polite: 알았어요 or 알겠습니다.","tgt":""}
-{"f":"cards","id":"ko.c0641","k":"meaning","src":"What did you say?","tgt":""}
-{"f":"cards","id":"ko.c0641","k":"note","src":"Casual. 네? (ne?) is the polite 'pardon?'","tgt":""}
-{"f":"cards","id":"ko.c0645","k":"meaning","src":"thing; the one (that…)","tgt":""}
-{"f":"cards","id":"ko.c0645","k":"note","src":"Never alone: 이것 = this thing, 좋은 것 = a good one. Spoken: 거.","tgt":""}
-{"f":"cards","id":"ko.c0646","k":"meaning","src":"way; possibility (in -ㄹ 수 있다)","tgt":""}
-{"f":"cards","id":"ko.c0646","k":"note","src":"갈 수 있어요 = I can go. Never alone.","tgt":""}
-{"f":"cards","id":"ko.c0647","k":"meaning","src":"thing (spoken form of 것)","tgt":""}
-{"f":"cards","id":"ko.c0647","k":"note","src":"이거, 제 거 = mine. What people actually say.","tgt":""}
-{"f":"cards","id":"ko.c0648","k":"meaning","src":"words; what someone says","tgt":""}
-{"f":"cards","id":"ko.c0648","k":"note","src":"말이 빨라요 = you talk fast. 말 also means horse.","tgt":""}
-{"f":"cards","id":"ko.c0649","k":"meaning","src":"work; job; matter","tgt":""}
-{"f":"cards","id":"ko.c0649","k":"note","src":"일이 많아요 = I have a lot of work. Also: day (counter), one (Sino-Korean).","tgt":""}
-{"f":"cards","id":"ko.c0650","k":"meaning","src":"time (when something happens)","tgt":""}
-{"f":"cards","id":"ko.c0650","k":"note","src":"어릴 때 = when I was little; 그때 = back then.","tgt":""}
-{"f":"cards","id":"ko.c0651","k":"meaning","src":"problem; question (on a test)","tgt":""}
-{"f":"cards","id":"ko.c0651","k":"note","src":"문제없어요 = no problem.","tgt":""}
-{"f":"cards","id":"ko.c0652","k":"meaning","src":"inside (deep in)","tgt":""}
-{"f":"cards","id":"ko.c0652","k":"note","src":"마음속 = deep in your heart; 물속 = underwater.","tgt":""}
-{"f":"cards","id":"ko.c0653","k":"meaning","src":"middle; in the middle of","tgt":""}
-{"f":"cards","id":"ko.c0653","k":"note","src":"회의 중이에요 = I'm in a meeting.","tgt":""}
-{"f":"cards","id":"ko.c0654","k":"meaning","src":"thought; idea","tgt":""}
-{"f":"cards","id":"ko.c0654","k":"note","src":"좋은 생각이에요 = good idea. Verb: 생각하다.","tgt":""}
-{"f":"cards","id":"ko.c0655","k":"meaning","src":"sound; noise","tgt":""}
-{"f":"cards","id":"ko.c0655","k":"note","src":"무슨 소리예요? = what's that noise? (also: what nonsense!)","tgt":""}
-{"f":"cards","id":"ko.c0656","k":"meaning","src":"degree; about (an amount)","tgt":""}
-{"f":"cards","id":"ko.c0656","k":"note","src":"한 시간 정도 = about an hour.","tgt":""}
-{"f":"cards","id":"ko.c0657","k":"meaning","src":"child","tgt":""}
-{"f":"cards","id":"ko.c0657","k":"note","src":"Spoken: 애. Polite for someone's child: 아드님 / 따님.","tgt":""}
-{"f":"cards","id":"ko.c0658","k":"meaning","src":"time; hours","tgt":""}
-{"f":"cards","id":"ko.c0658","k":"note","src":"시간 있어요? = are you free? Counted: 두 시간 = two hours.","tgt":""}
-{"f":"cards","id":"ko.c0659","k":"meaning","src":"mother (respectful)","tgt":""}
-{"f":"cards","id":"ko.c0659","k":"note","src":"Family talk: 엄마. Someone else's: 어머님.","tgt":""}
-{"f":"cards","id":"ko.c0660","k":"meaning","src":"next; next time","tgt":""}
-{"f":"cards","id":"ko.c0660","k":"note","src":"다음 주 = next week; 다음에 봐요 = see you next time.","tgt":""}
-{"f":"cards","id":"ko.c0661","k":"meaning","src":"place","tgt":""}
-{"f":"cards","id":"ko.c0661","k":"note","src":"좋은 곳 = a nice place. Spoken also: 데.","tgt":""}
-{"f":"cards","id":"ko.c0662","k":"meaning","src":"world","tgt":""}
-{"f":"cards","id":"ko.c0662","k":"note","src":"세계 여행 = a trip around the world.","tgt":""}
-{"f":"cards","id":"ko.c0663","k":"meaning","src":"money","tgt":""}
-{"f":"cards","id":"ko.c0663","k":"note","src":"돈이 없어요 = I'm broke.","tgt":""}
-{"f":"cards","id":"ko.c0664","k":"meaning","src":"day","tgt":""}
-{"f":"cards","id":"ko.c0664","k":"note","src":"그날 = that day; 좋은 날 = a good day.","tgt":""}
-{"f":"cards","id":"ko.c0665","k":"meaning","src":"heart; mind; feelings","tgt":""}
-{"f":"cards","id":"ko.c0665","k":"note","src":"마음에 들어요 = I like it (it pleases me).","tgt":""}
-{"f":"cards","id":"ko.c0666","k":"meaning","src":"after; later","tgt":""}
-{"f":"cards","id":"ko.c0666","k":"note","src":"밥 먹은 후에 = after eating. Same as 뒤 for time.","tgt":""}
-{"f":"cards","id":"ko.c0667","k":"meaning","src":"father (respectful)","tgt":""}
-{"f":"cards","id":"ko.c0667","k":"note","src":"Family talk: 아빠. Someone else's: 아버님.","tgt":""}
-{"f":"cards","id":"ko.c0668","k":"meaning","src":"body","tgt":""}
-{"f":"cards","id":"ko.c0668","k":"note","src":"몸이 안 좋아요 = I don't feel well.","tgt":""}
-{"f":"cards","id":"ko.c0669","k":"meaning","src":"face","tgt":""}
-{"f":"cards","id":"ko.c0669","k":"note","src":"얼굴이 빨개요 = your face is red.","tgt":""}
-{"f":"cards","id":"ko.c0670","k":"meaning","src":"appearance; how someone looks","tgt":""}
-{"f":"cards","id":"ko.c0670","k":"note","src":"웃는 모습 = the way you look when you smile.","tgt":""}
-{"f":"cards","id":"ko.c0671","k":"meaning","src":"road; way","tgt":""}
-{"f":"cards","id":"ko.c0671","k":"note","src":"길이 막혀요 = the traffic is bad.","tgt":""}
-{"f":"cards","id":"ko.c0672","k":"meaning","src":"daily life; living","tgt":""}
-{"f":"cards","id":"ko.c0672","k":"note","src":"한국 생활 = life in Korea.","tgt":""}
-{"f":"cards","id":"ko.c0673","k":"meaning","src":"way (of doing something); method","tgt":""}
-{"f":"cards","id":"ko.c0673","k":"note","src":"좋은 방법 = a good way to do it.","tgt":""}
-{"f":"cards","id":"ko.c0674","k":"meaning","src":"the first time; the beginning","tgt":""}
-{"f":"cards","id":"ko.c0674","k":"note","src":"처음이에요 = it's my first time.","tgt":""}
-{"f":"cards","id":"ko.c0675","k":"meaning","src":"hand","tgt":""}
-{"f":"cards","id":"ko.c0675","k":"note","src":"손 씻으세요 = wash your hands.","tgt":""}
-{"f":"cards","id":"ko.c0676","k":"meaning","src":"story; talk","tgt":""}
-{"f":"cards","id":"ko.c0676","k":"note","src":"Spoken: 얘기. 이야기해요 = we talk.","tgt":""}
-{"f":"cards","id":"ko.c0677","k":"meaning","src":"company; the office","tgt":""}
-{"f":"cards","id":"ko.c0677","k":"note","src":"회사에 가요 = I'm going to work.","tgt":""}
-{"f":"cards","id":"ko.c0678","k":"meaning","src":"content; what it's about","tgt":""}
-{"f":"cards","id":"ko.c0678","k":"note","src":"무슨 내용이에요? = what's it about?","tgt":""}
-{"f":"cards","id":"ko.c0679","k":"meaning","src":"book","tgt":""}
-{"f":"cards","id":"ko.c0679","k":"note","src":"책을 읽어요. Counted: 한 권.","tgt":""}
-{"f":"cards","id":"ko.c0680","k":"meaning","src":"point; aspect; dot","tgt":""}
-{"f":"cards","id":"ko.c0680","k":"note","src":"좋은 점 = a good point; 점 also = a mole on the skin.","tgt":""}
-{"f":"cards","id":"ko.c0681","k":"meaning","src":"country","tgt":""}
-{"f":"cards","id":"ko.c0681","k":"note","src":"어느 나라 사람이에요? = which country are you from?","tgt":""}
-{"f":"cards","id":"ko.c0682","k":"meaning","src":"student","tgt":""}
-{"f":"cards","id":"ko.c0682","k":"note","src":"학생이에요? = are you a student?","tgt":""}
-{"f":"cards","id":"ko.c0683","k":"meaning","src":"name","tgt":""}
-{"f":"cards","id":"ko.c0683","k":"note","src":"Polite for an elder's name: 성함.","tgt":""}
-{"f":"cards","id":"ko.c0684","k":"meaning","src":"reason","tgt":""}
-{"f":"cards","id":"ko.c0684","k":"note","src":"이유가 뭐예요? = what's the reason?","tgt":""}
-{"f":"cards","id":"ko.c0685","k":"meaning","src":"husband","tgt":""}
-{"f":"cards","id":"ko.c0685","k":"note","src":"Spouses call each other 여보 or 자기.","tgt":""}
-{"f":"cards","id":"ko.c0686","k":"meaning","src":"night","tgt":""}
-{"f":"cards","id":"ko.c0686","k":"note","src":"오늘 밤 = tonight. 밤 also means chestnut.","tgt":""}
-{"f":"cards","id":"ko.c0687","k":"meaning","src":"computer","tgt":""}
-{"f":"cards","id":"ko.c0687","k":"note","src":"컴퓨터가 고장 났어요 = the computer broke.","tgt":""}
-{"f":"cards","id":"ko.c0688","k":"meaning","src":"head; hair","tgt":""}
-{"f":"cards","id":"ko.c0688","k":"note","src":"머리가 아파요 = headache; 머리 잘랐어요 = I got a haircut.","tgt":""}
-{"f":"cards","id":"ko.c0689","k":"meaning","src":"son","tgt":""}
-{"f":"cards","id":"ko.c0689","k":"note","src":"Someone else's son (polite): 아드님.","tgt":""}
-{"f":"cards","id":"ko.c0690","k":"meaning","src":"room","tgt":""}
-{"f":"cards","id":"ko.c0690","k":"note","src":"제 방 = my room. Also -방 places: 노래방, PC방.","tgt":""}
-{"f":"cards","id":"ko.c0691","k":"meaning","src":"end","tgt":""}
-{"f":"cards","id":"ko.c0691","k":"note","src":"끝났어요 = it's over.","tgt":""}
-{"f":"cards","id":"ko.c0692","k":"meaning","src":"sky","tgt":""}
-{"f":"cards","id":"ko.c0692","k":"note","src":"하늘이 맑아요 = the sky is clear.","tgt":""}
-{"f":"cards","id":"ko.c0693","k":"meaning","src":"love (the noun)","tgt":""}
-{"f":"cards","id":"ko.c0693","k":"note","src":"첫사랑 = first love. Verb: 사랑하다.","tgt":""}
-{"f":"cards","id":"ko.c0694","k":"meaning","src":"phone call; telephone","tgt":""}
-{"f":"cards","id":"ko.c0694","k":"note","src":"전화해요 = I call; 전화 왔어요 = there's a call.","tgt":""}
-{"f":"cards","id":"ko.c0695","k":"meaning","src":"taste; flavor","tgt":""}
-{"f":"cards","id":"ko.c0695","k":"note","src":"맛이 어때요? = how does it taste?","tgt":""}
-{"f":"cards","id":"ko.c0696","k":"meaning","src":"food (a dish, cuisine)","tgt":""}
-{"f":"cards","id":"ko.c0696","k":"note","src":"한국 음식 = Korean food.","tgt":""}
-{"f":"cards","id":"ko.c0697","k":"meaning","src":"wife","tgt":""}
-{"f":"cards","id":"ko.c0697","k":"note","src":"Casual: 와이프. Someone else's: 부인.","tgt":""}
-{"f":"cards","id":"ko.c0698","k":"meaning","src":"age","tgt":""}
-{"f":"cards","id":"ko.c0698","k":"note","src":"Polite: 연세. Age decides how people talk to each other.","tgt":""}
-{"f":"cards","id":"ko.c0699","k":"meaning","src":"daughter","tgt":""}
-{"f":"cards","id":"ko.c0699","k":"note","src":"Someone else's daughter (polite): 따님.","tgt":""}
-{"f":"cards","id":"ko.c0700","k":"meaning","src":"mountain","tgt":""}
-{"f":"cards","id":"ko.c0700","k":"note","src":"Korea is two-thirds mountains: 산에 가요 = we go hiking.","tgt":""}
-{"f":"cards","id":"ko.c0701","k":"meaning","src":"door","tgt":""}
+{"f":"cards","id":"ko.c0622","k":"meaning","src":"many / a lot","tgt":"অনেক / প্রচুর"}
+{"f":"cards","id":"ko.c0622","k":"note","src":"사람이 많아요 = lots of people.","tgt":"사람이 많아요 = অনেক মানুষ।"}
+{"f":"cards","id":"ko.c0623","k":"meaning","src":"expensive","tgt":"দামি"}
+{"f":"cards","id":"ko.c0623","k":"note","src":"너무 비싸요 = too expensive.","tgt":"너무 비싸요 = খুব বেশি দাম।"}
+{"f":"cards","id":"ko.c0624","k":"meaning","src":"cheap","tgt":"সস্তা"}
+{"f":"cards","id":"ko.c0624","k":"note","src":"싸고 좋아요 = cheap and good.","tgt":"싸고 좋아요 = সস্তা আর ভালো।"}
+{"f":"cards","id":"ko.c0625","k":"meaning","src":"hot (weather)","tgt":"গরম (আবহাওয়া)"}
+{"f":"cards","id":"ko.c0625","k":"note","src":"뜨거워요 = hot (to touch).","tgt":"뜨거워요 = গরম (ছুঁলে)।"}
+{"f":"cards","id":"ko.c0626","k":"meaning","src":"cold (weather)","tgt":"ঠান্ডা (আবহাওয়া)"}
+{"f":"cards","id":"ko.c0626","k":"note","src":"차가워요 = cold (to touch).","tgt":"차가워요 = ঠান্ডা (ছুঁলে)।"}
+{"f":"cards","id":"ko.c0627","k":"meaning","src":"busy","tgt":"ব্যস্ত"}
+{"f":"cards","id":"ko.c0627","k":"note","src":"요즘 바빠요 = busy these days.","tgt":"요즘 바빠요 = আজকাল ব্যস্ত।"}
+{"f":"cards","id":"ko.c0628","k":"meaning","src":"fun / interesting","tgt":"মজার / আকর্ষণীয়"}
+{"f":"cards","id":"ko.c0628","k":"note","src":"재미없어요 = boring.","tgt":"재미없어요 = একঘেয়ে।"}
+{"f":"cards","id":"ko.c0629","k":"meaning","src":"hard / exhausting","tgt":"কঠিন / ক্লান্তিকর"}
+{"f":"cards","id":"ko.c0629","k":"note","src":"Complaint of choice.","tgt":"অভিযোগ করার প্রিয় শব্দ।"}
+{"f":"cards","id":"ko.c0630","k":"meaning","src":"Really?","tgt":"সত্যি?"}
+{"f":"cards","id":"ko.c0630","k":"note","src":"Also 진짜로. 정말? (jeongmal) is slightly softer.","tgt":"진짜로 বলেও। 정말? (jeongmal) একটু নরম।"}
+{"f":"cards","id":"ko.c0631","k":"meaning","src":"Awesome / no way","tgt":"দারুণ! / বলো কী!"}
+{"f":"cards","id":"ko.c0631","k":"note","src":"Good or bad surprise. 대박 사건 = huge deal.","tgt":"ভালো বা খারাপ, দুই রকম চমকেই। 대박 사건 = বিরাট ঘটনা।"}
+{"f":"cards","id":"ko.c0632","k":"meaning","src":"OMG / what","tgt":"অ্যাঁ! / এটা কী!"}
+{"f":"cards","id":"ko.c0632","k":"note","src":"Stunned reaction. Mostly texting and casual speech.","tgt":"হতভম্ব প্রতিক্রিয়া। বেশির ভাগ মেসেজে আর ঘরোয়া কথায়।"}
+{"f":"cards","id":"ko.c0633","k":"meaning","src":"Oh my / ugh","tgt":"আহা রে / উফ"}
+{"f":"cards","id":"ko.c0633","k":"note","src":"Sigh word for any small misfortune.","tgt":"ছোটখাটো দুর্ভাগ্যে দীর্ঘশ্বাসের শব্দ।"}
+{"f":"cards","id":"ko.c0634","k":"meaning","src":"It's okay","tgt":"ঠিক আছে"}
+{"f":"cards","id":"ko.c0634","k":"note","src":"Casual. Said while clearly not okay.","tgt":"ঘরোয়া। প্রায়ই বলা হয় যখন একদমই ঠিক নেই।"}
+{"f":"cards","id":"ko.c0635","k":"meaning","src":"Are you crazy?","tgt":"তুমি পাগল নাকি?"}
+{"f":"cards","id":"ko.c0635","k":"note","src":"Casual, often affectionate.","tgt":"ঘরোয়া, প্রায়ই আদর করে।"}
+{"f":"cards","id":"ko.c0636","k":"meaning","src":"Don't go","tgt":"যেও না"}
+{"f":"cards","id":"ko.c0636","k":"note","src":"Verb stem + 지 마 = don't.","tgt":"ক্রিয়ার ধাতু + 지 마 = কোরো না।"}
+{"f":"cards","id":"ko.c0637","k":"meaning","src":"I missed you","tgt":"তোমাকে মিস করছিলাম"}
+{"f":"cards","id":"ko.c0637","k":"note","src":"Past of 보고 싶어.","tgt":"보고 싶어 কথাটির অতীত।"}
+{"f":"cards","id":"ko.c0638","k":"meaning","src":"What do I do / oh no","tgt":"হায় হায়, এখন কী করি"}
+{"f":"cards","id":"ko.c0638","k":"note","src":"Said with hands on face.","tgt":"দুই হাতে মুখ ঢেকে বলা হয়।"}
+{"f":"cards","id":"ko.c0639","k":"meaning","src":"You got this!","tgt":"তুমি পারবে!"}
+{"f":"cards","id":"ko.c0639","k":"note","src":"From 'fighting'. Cheer before anything hard.","tgt":"কঠিন কিছুর আগে উৎসাহ দেওয়ার কথা।"}
+{"f":"cards","id":"ko.c0640","k":"meaning","src":"Got it / okay","tgt":"আচ্ছা, বুঝলাম"}
+{"f":"cards","id":"ko.c0640","k":"note","src":"Polite: 알았어요 or 알겠습니다.","tgt":"ভদ্র: 알았어요 বা 알겠습니다।"}
+{"f":"cards","id":"ko.c0641","k":"meaning","src":"What did you say?","tgt":"কী বললে?"}
+{"f":"cards","id":"ko.c0641","k":"note","src":"Casual. 네? (ne?) is the polite 'pardon?'","tgt":"ঘরোয়া। ভদ্রভাবে \"জি, কী বললেন?\": 네? (ne?)"}
+{"f":"cards","id":"ko.c0645","k":"meaning","src":"thing; the one (that…)","tgt":"জিনিস; যেটা (…)"}
+{"f":"cards","id":"ko.c0645","k":"note","src":"Never alone: 이것 = this thing, 좋은 것 = a good one. Spoken: 거.","tgt":"কখনো একা বসে না: 이것 = এই জিনিস, 좋은 것 = ভালো একটা। কথায়: 거।"}
+{"f":"cards","id":"ko.c0646","k":"meaning","src":"way; possibility (in -ㄹ 수 있다)","tgt":"উপায়; সম্ভাবনা (-ㄹ 수 있다 গঠনে)"}
+{"f":"cards","id":"ko.c0646","k":"note","src":"갈 수 있어요 = I can go. Never alone.","tgt":"갈 수 있어요 = আমি যেতে পারি। কখনো একা বসে না।"}
+{"f":"cards","id":"ko.c0647","k":"meaning","src":"thing (spoken form of 것)","tgt":"জিনিস (것 শব্দের কথ্য রূপ)"}
+{"f":"cards","id":"ko.c0647","k":"note","src":"이거, 제 거 = mine. What people actually say.","tgt":"이거, 제 거 = আমারটা। লোকে আসলে এটাই বলে।"}
+{"f":"cards","id":"ko.c0648","k":"meaning","src":"words; what someone says","tgt":"কথা; কেউ যা বলে"}
+{"f":"cards","id":"ko.c0648","k":"note","src":"말이 빨라요 = you talk fast. 말 also means horse.","tgt":"말이 빨라요 = আপনি খুব তাড়াতাড়ি কথা বলেন। 말 মানে ঘোড়াও।"}
+{"f":"cards","id":"ko.c0649","k":"meaning","src":"work; job; matter","tgt":"কাজ; চাকরি; ব্যাপার"}
+{"f":"cards","id":"ko.c0649","k":"note","src":"일이 많아요 = I have a lot of work. Also: day (counter), one (Sino-Korean).","tgt":"일이 많아요 = আমার অনেক কাজ। আরও মানে: দিন (কাউন্টার), এক (সিনো-কোরিয়ান)।"}
+{"f":"cards","id":"ko.c0650","k":"meaning","src":"time (when something happens)","tgt":"সময় (যখন কিছু ঘটে)"}
+{"f":"cards","id":"ko.c0650","k":"note","src":"어릴 때 = when I was little; 그때 = back then.","tgt":"어릴 때 = যখন ছোট ছিলাম; 그때 = তখন।"}
+{"f":"cards","id":"ko.c0651","k":"meaning","src":"problem; question (on a test)","tgt":"সমস্যা; প্রশ্ন (পরীক্ষার)"}
+{"f":"cards","id":"ko.c0651","k":"note","src":"문제없어요 = no problem.","tgt":"문제없어요 = কোনো সমস্যা নেই।"}
+{"f":"cards","id":"ko.c0652","k":"meaning","src":"inside (deep in)","tgt":"ভেতর (গভীরে)"}
+{"f":"cards","id":"ko.c0652","k":"note","src":"마음속 = deep in your heart; 물속 = underwater.","tgt":"마음속 = মনের গভীরে; 물속 = পানির নিচে।"}
+{"f":"cards","id":"ko.c0653","k":"meaning","src":"middle; in the middle of","tgt":"মাঝখান; … চলছে"}
+{"f":"cards","id":"ko.c0653","k":"note","src":"회의 중이에요 = I'm in a meeting.","tgt":"회의 중이에요 = মিটিংয়ে আছি।"}
+{"f":"cards","id":"ko.c0654","k":"meaning","src":"thought; idea","tgt":"চিন্তা; আইডিয়া"}
+{"f":"cards","id":"ko.c0654","k":"note","src":"좋은 생각이에요 = good idea. Verb: 생각하다.","tgt":"좋은 생각이에요 = ভালো আইডিয়া। ক্রিয়া: 생각하다।"}
+{"f":"cards","id":"ko.c0655","k":"meaning","src":"sound; noise","tgt":"শব্দ; আওয়াজ"}
+{"f":"cards","id":"ko.c0655","k":"note","src":"무슨 소리예요? = what's that noise? (also: what nonsense!)","tgt":"무슨 소리예요? = কীসের আওয়াজ? (আবার: কী আবোলতাবোল!)"}
+{"f":"cards","id":"ko.c0656","k":"meaning","src":"degree; about (an amount)","tgt":"মাত্রা; প্রায় (পরিমাণে)"}
+{"f":"cards","id":"ko.c0656","k":"note","src":"한 시간 정도 = about an hour.","tgt":"한 시간 정도 = প্রায় এক ঘণ্টা।"}
+{"f":"cards","id":"ko.c0657","k":"meaning","src":"child","tgt":"বাচ্চা, ছেলেমেয়ে"}
+{"f":"cards","id":"ko.c0657","k":"note","src":"Spoken: 애. Polite for someone's child: 아드님 / 따님.","tgt":"কথায়: 애। অন্যের সন্তানকে ভদ্রভাবে: 아드님 / 따님।"}
+{"f":"cards","id":"ko.c0658","k":"meaning","src":"time; hours","tgt":"সময়; ঘণ্টা"}
+{"f":"cards","id":"ko.c0658","k":"note","src":"시간 있어요? = are you free? Counted: 두 시간 = two hours.","tgt":"시간 있어요? = ফাঁকা আছেন? গুনতে: 두 시간 = দুই ঘণ্টা।"}
+{"f":"cards","id":"ko.c0659","k":"meaning","src":"mother (respectful)","tgt":"মা (সম্মান দিয়ে)"}
+{"f":"cards","id":"ko.c0659","k":"note","src":"Family talk: 엄마. Someone else's: 어머님.","tgt":"পরিবারের মধ্যে: 엄마। অন্যের মা: 어머님।"}
+{"f":"cards","id":"ko.c0660","k":"meaning","src":"next; next time","tgt":"পরের; পরের বার"}
+{"f":"cards","id":"ko.c0660","k":"note","src":"다음 주 = next week; 다음에 봐요 = see you next time.","tgt":"다음 주 = আগামী সপ্তাহ; 다음에 봐요 = পরের বার দেখা হবে।"}
+{"f":"cards","id":"ko.c0661","k":"meaning","src":"place","tgt":"জায়গা"}
+{"f":"cards","id":"ko.c0661","k":"note","src":"좋은 곳 = a nice place. Spoken also: 데.","tgt":"좋은 곳 = সুন্দর একটা জায়গা। কথায় আরেকটা শব্দ: 데।"}
+{"f":"cards","id":"ko.c0662","k":"meaning","src":"world","tgt":"পৃথিবী, বিশ্ব"}
+{"f":"cards","id":"ko.c0662","k":"note","src":"세계 여행 = a trip around the world.","tgt":"세계 여행 = বিশ্বভ্রমণ।"}
+{"f":"cards","id":"ko.c0663","k":"meaning","src":"money","tgt":"টাকা"}
+{"f":"cards","id":"ko.c0663","k":"note","src":"돈이 없어요 = I'm broke.","tgt":"돈이 없어요 = আমার কাছে টাকা নেই।"}
+{"f":"cards","id":"ko.c0664","k":"meaning","src":"day","tgt":"দিন"}
+{"f":"cards","id":"ko.c0664","k":"note","src":"그날 = that day; 좋은 날 = a good day.","tgt":"그날 = সেদিন; 좋은 날 = একটা ভালো দিন।"}
+{"f":"cards","id":"ko.c0665","k":"meaning","src":"heart; mind; feelings","tgt":"মন; হৃদয়; অনুভূতি"}
+{"f":"cards","id":"ko.c0665","k":"note","src":"마음에 들어요 = I like it (it pleases me).","tgt":"마음에 들어요 = আমার পছন্দ হয়েছে (মনে ধরেছে)।"}
+{"f":"cards","id":"ko.c0666","k":"meaning","src":"after; later","tgt":"পরে; পরবর্তী"}
+{"f":"cards","id":"ko.c0666","k":"note","src":"밥 먹은 후에 = after eating. Same as 뒤 for time.","tgt":"밥 먹은 후에 = খাওয়ার পরে। সময়ের বেলায় 뒤 শব্দটির মতোই।"}
+{"f":"cards","id":"ko.c0667","k":"meaning","src":"father (respectful)","tgt":"বাবা (সম্মান দিয়ে)"}
+{"f":"cards","id":"ko.c0667","k":"note","src":"Family talk: 아빠. Someone else's: 아버님.","tgt":"পরিবারের মধ্যে: 아빠। অন্যের বাবা: 아버님।"}
+{"f":"cards","id":"ko.c0668","k":"meaning","src":"body","tgt":"শরীর"}
+{"f":"cards","id":"ko.c0668","k":"note","src":"몸이 안 좋아요 = I don't feel well.","tgt":"몸이 안 좋아요 = শরীরটা ভালো নেই।"}
+{"f":"cards","id":"ko.c0669","k":"meaning","src":"face","tgt":"মুখ, চেহারা"}
+{"f":"cards","id":"ko.c0669","k":"note","src":"얼굴이 빨개요 = your face is red.","tgt":"얼굴이 빨개요 = আপনার মুখ লাল হয়ে গেছে।"}
+{"f":"cards","id":"ko.c0670","k":"meaning","src":"appearance; how someone looks","tgt":"চেহারা-ভঙ্গি; কাউকে যেমন দেখায়"}
+{"f":"cards","id":"ko.c0670","k":"note","src":"웃는 모습 = the way you look when you smile.","tgt":"웃는 모습 = হাসলে আপনাকে যেমন দেখায়।"}
+{"f":"cards","id":"ko.c0671","k":"meaning","src":"road; way","tgt":"রাস্তা; পথ"}
+{"f":"cards","id":"ko.c0671","k":"note","src":"길이 막혀요 = the traffic is bad.","tgt":"길이 막혀요 = রাস্তায় জ্যাম।"}
+{"f":"cards","id":"ko.c0672","k":"meaning","src":"daily life; living","tgt":"দৈনন্দিন জীবন; বসবাস"}
+{"f":"cards","id":"ko.c0672","k":"note","src":"한국 생활 = life in Korea.","tgt":"한국 생활 = কোরিয়ার জীবন।"}
+{"f":"cards","id":"ko.c0673","k":"meaning","src":"way (of doing something); method","tgt":"উপায় (কিছু করার); পদ্ধতি"}
+{"f":"cards","id":"ko.c0673","k":"note","src":"좋은 방법 = a good way to do it.","tgt":"좋은 방법 = কাজটা করার ভালো একটা উপায়।"}
+{"f":"cards","id":"ko.c0674","k":"meaning","src":"the first time; the beginning","tgt":"প্রথমবার; শুরু"}
+{"f":"cards","id":"ko.c0674","k":"note","src":"처음이에요 = it's my first time.","tgt":"처음이에요 = এটা আমার প্রথমবার।"}
+{"f":"cards","id":"ko.c0675","k":"meaning","src":"hand","tgt":"হাত"}
+{"f":"cards","id":"ko.c0675","k":"note","src":"손 씻으세요 = wash your hands.","tgt":"손 씻으세요 = হাত ধুয়ে নিন।"}
+{"f":"cards","id":"ko.c0676","k":"meaning","src":"story; talk","tgt":"গল্প; কথাবার্তা"}
+{"f":"cards","id":"ko.c0676","k":"note","src":"Spoken: 얘기. 이야기해요 = we talk.","tgt":"কথায়: 얘기। 이야기해요 = আমরা কথা বলি।"}
+{"f":"cards","id":"ko.c0677","k":"meaning","src":"company; the office","tgt":"কোম্পানি; অফিস"}
+{"f":"cards","id":"ko.c0677","k":"note","src":"회사에 가요 = I'm going to work.","tgt":"회사에 가요 = অফিসে যাচ্ছি।"}
+{"f":"cards","id":"ko.c0678","k":"meaning","src":"content; what it's about","tgt":"বিষয়বস্তু; কী নিয়ে"}
+{"f":"cards","id":"ko.c0678","k":"note","src":"무슨 내용이에요? = what's it about?","tgt":"무슨 내용이에요? = কী নিয়ে?"}
+{"f":"cards","id":"ko.c0679","k":"meaning","src":"book","tgt":"বই"}
+{"f":"cards","id":"ko.c0679","k":"note","src":"책을 읽어요. Counted: 한 권.","tgt":"책을 읽어요। গুনতে: 한 권।"}
+{"f":"cards","id":"ko.c0680","k":"meaning","src":"point; aspect; dot","tgt":"বিন্দু; দিক; ফোঁটা"}
+{"f":"cards","id":"ko.c0680","k":"note","src":"좋은 점 = a good point; 점 also = a mole on the skin.","tgt":"좋은 점 = ভালো দিক; 점 মানে গায়ের তিলও।"}
+{"f":"cards","id":"ko.c0681","k":"meaning","src":"country","tgt":"দেশ"}
+{"f":"cards","id":"ko.c0681","k":"note","src":"어느 나라 사람이에요? = which country are you from?","tgt":"어느 나라 사람이에요? = আপনি কোন দেশের মানুষ?"}
+{"f":"cards","id":"ko.c0682","k":"meaning","src":"student","tgt":"শিক্ষার্থী"}
+{"f":"cards","id":"ko.c0682","k":"note","src":"학생이에요? = are you a student?","tgt":"학생이에요? = আপনি কি শিক্ষার্থী?"}
+{"f":"cards","id":"ko.c0683","k":"meaning","src":"name","tgt":"নাম"}
+{"f":"cards","id":"ko.c0683","k":"note","src":"Polite for an elder's name: 성함.","tgt":"বয়স্কদের নাম ভদ্রভাবে: 성함।"}
+{"f":"cards","id":"ko.c0684","k":"meaning","src":"reason","tgt":"কারণ"}
+{"f":"cards","id":"ko.c0684","k":"note","src":"이유가 뭐예요? = what's the reason?","tgt":"이유가 뭐예요? = কারণটা কী?"}
+{"f":"cards","id":"ko.c0685","k":"meaning","src":"husband","tgt":"স্বামী"}
+{"f":"cards","id":"ko.c0685","k":"note","src":"Spouses call each other 여보 or 자기.","tgt":"স্বামী-স্ত্রী একে অপরকে ডাকে 여보 বা 자기।"}
+{"f":"cards","id":"ko.c0686","k":"meaning","src":"night","tgt":"রাত"}
+{"f":"cards","id":"ko.c0686","k":"note","src":"오늘 밤 = tonight. 밤 also means chestnut.","tgt":"오늘 밤 = আজ রাতে। 밤 মানে চেস্টনাট বাদামও।"}
+{"f":"cards","id":"ko.c0687","k":"meaning","src":"computer","tgt":"কম্পিউটার"}
+{"f":"cards","id":"ko.c0687","k":"note","src":"컴퓨터가 고장 났어요 = the computer broke.","tgt":"컴퓨터가 고장 났어요 = কম্পিউটারটা নষ্ট হয়ে গেছে।"}
+{"f":"cards","id":"ko.c0688","k":"meaning","src":"head; hair","tgt":"মাথা; চুল"}
+{"f":"cards","id":"ko.c0688","k":"note","src":"머리가 아파요 = headache; 머리 잘랐어요 = I got a haircut.","tgt":"머리가 아파요 = মাথা ব্যথা; 머리 잘랐어요 = চুল কেটেছি।"}
+{"f":"cards","id":"ko.c0689","k":"meaning","src":"son","tgt":"ছেলে (সন্তান)"}
+{"f":"cards","id":"ko.c0689","k":"note","src":"Someone else's son (polite): 아드님.","tgt":"অন্যের ছেলে (ভদ্রভাবে): 아드님।"}
+{"f":"cards","id":"ko.c0690","k":"meaning","src":"room","tgt":"রুম, ঘর"}
+{"f":"cards","id":"ko.c0690","k":"note","src":"제 방 = my room. Also -방 places: 노래방, PC방.","tgt":"제 방 = আমার রুম। -방 দিয়ে জায়গার নামও: 노래방, PC방।"}
+{"f":"cards","id":"ko.c0691","k":"meaning","src":"end","tgt":"শেষ"}
+{"f":"cards","id":"ko.c0691","k":"note","src":"끝났어요 = it's over.","tgt":"끝났어요 = শেষ হয়ে গেছে।"}
+{"f":"cards","id":"ko.c0692","k":"meaning","src":"sky","tgt":"আকাশ"}
+{"f":"cards","id":"ko.c0692","k":"note","src":"하늘이 맑아요 = the sky is clear.","tgt":"하늘이 맑아요 = আকাশ পরিষ্কার।"}
+{"f":"cards","id":"ko.c0693","k":"meaning","src":"love (the noun)","tgt":"ভালোবাসা (বিশেষ্য)"}
+{"f":"cards","id":"ko.c0693","k":"note","src":"첫사랑 = first love. Verb: 사랑하다.","tgt":"첫사랑 = প্রথম প্রেম। ক্রিয়া: 사랑하다।"}
+{"f":"cards","id":"ko.c0694","k":"meaning","src":"phone call; telephone","tgt":"ফোন কল; টেলিফোন"}
+{"f":"cards","id":"ko.c0694","k":"note","src":"전화해요 = I call; 전화 왔어요 = there's a call.","tgt":"전화해요 = ফোন করি; 전화 왔어요 = ফোন এসেছে।"}
+{"f":"cards","id":"ko.c0695","k":"meaning","src":"taste; flavor","tgt":"স্বাদ"}
+{"f":"cards","id":"ko.c0695","k":"note","src":"맛이 어때요? = how does it taste?","tgt":"맛이 어때요? = স্বাদ কেমন?"}
+{"f":"cards","id":"ko.c0696","k":"meaning","src":"food (a dish, cuisine)","tgt":"খাবার (পদ, রান্না)"}
+{"f":"cards","id":"ko.c0696","k":"note","src":"한국 음식 = Korean food.","tgt":"한국 음식 = কোরিয়ান খাবার।"}
+{"f":"cards","id":"ko.c0697","k":"meaning","src":"wife","tgt":"স্ত্রী"}
+{"f":"cards","id":"ko.c0697","k":"note","src":"Casual: 와이프. Someone else's: 부인.","tgt":"ঘরোয়া: 와이프। অন্যের স্ত্রী: 부인।"}
+{"f":"cards","id":"ko.c0698","k":"meaning","src":"age","tgt":"বয়স"}
+{"f":"cards","id":"ko.c0698","k":"note","src":"Polite: 연세. Age decides how people talk to each other.","tgt":"ভদ্র: 연세। বয়স দেখেই ঠিক হয় কে কীভাবে কথা বলবে।"}
+{"f":"cards","id":"ko.c0699","k":"meaning","src":"daughter","tgt":"মেয়ে (সন্তান)"}
+{"f":"cards","id":"ko.c0699","k":"note","src":"Someone else's daughter (polite): 따님.","tgt":"অন্যের মেয়ে (ভদ্রভাবে): 따님।"}
+{"f":"cards","id":"ko.c0700","k":"meaning","src":"mountain","tgt":"পাহাড়"}
+{"f":"cards","id":"ko.c0700","k":"note","src":"Korea is two-thirds mountains: 산에 가요 = we go hiking.","tgt":"কোরিয়ার দুই-তৃতীয়াংশই পাহাড়: 산에 가요 = আমরা পাহাড়ে হাইকিংয়ে যাই।"}
+{"f":"cards","id":"ko.c0701","k":"meaning","src":"door","tgt":"দরজা"}
 {"f":"cards","id":"ko.c0701","k":"note","src":"문 좀 닫아 주세요.","tgt":"문 좀 닫아 주세요.","pre":1}
-{"f":"cards","id":"ko.c0702","k":"meaning","src":"song","tgt":""}
-{"f":"cards","id":"ko.c0702","k":"note","src":"노래 불러요 = I sing.","tgt":""}
-{"f":"cards","id":"ko.c0703","k":"meaning","src":"sea; beach","tgt":""}
-{"f":"cards","id":"ko.c0703","k":"note","src":"바다에 가요 = we're going to the beach.","tgt":""}
-{"f":"cards","id":"ko.c0704","k":"meaning","src":"mood; how you feel","tgt":""}
-{"f":"cards","id":"ko.c0704","k":"note","src":"기분이 어때요? = how are you feeling?","tgt":""}
-{"f":"cards","id":"ko.c0705","k":"meaning","src":"clothes","tgt":""}
-{"f":"cards","id":"ko.c0705","k":"note","src":"옷이 예뻐요. Counted: 한 벌.","tgt":""}
-{"f":"cards","id":"ko.c0706","k":"meaning","src":"dream","tgt":""}
-{"f":"cards","id":"ko.c0706","k":"note","src":"꿈을 꿔요 = I have a dream (asleep).","tgt":""}
-{"f":"cards","id":"ko.c0707","k":"meaning","src":"thing; item (an object you buy or own)","tgt":""}
-{"f":"cards","id":"ko.c0707","k":"note","src":"물건을 사요 = I buy things.","tgt":""}
-{"f":"cards","id":"ko.c0708","k":"meaning","src":"experience","tgt":""}
-{"f":"cards","id":"ko.c0708","k":"note","src":"좋은 경험이었어요 = it was a good experience.","tgt":""}
-{"f":"cards","id":"ko.c0709","k":"meaning","src":"rain","tgt":""}
-{"f":"cards","id":"ko.c0709","k":"note","src":"비가 와요 = it's raining (rain comes).","tgt":""}
-{"f":"cards","id":"ko.c0710","k":"meaning","src":"hometown","tgt":""}
-{"f":"cards","id":"ko.c0710","k":"note","src":"고향이 어디예요? = where are you from originally?","tgt":""}
-{"f":"cards","id":"ko.c0711","k":"meaning","src":"baby","tgt":""}
-{"f":"cards","id":"ko.c0711","k":"note","src":"아기가 자요 = the baby is sleeping.","tgt":""}
-{"f":"cards","id":"ko.c0712","k":"meaning","src":"middle-aged man; sir (to a stranger)","tgt":""}
-{"f":"cards","id":"ko.c0712","k":"note","src":"To taxi drivers, shopkeepers. Don't use it to a young man.","tgt":""}
-{"f":"cards","id":"ko.c0713","k":"meaning","src":"month; the moon","tgt":""}
-{"f":"cards","id":"ko.c0713","k":"note","src":"이번 달 = this month. Counted: 한 달.","tgt":""}
-{"f":"cards","id":"ko.c0714","k":"meaning","src":"the last (one)","tgt":""}
-{"f":"cards","id":"ko.c0714","k":"note","src":"마지막 기회 = the last chance.","tgt":""}
+{"f":"cards","id":"ko.c0702","k":"meaning","src":"song","tgt":"গান"}
+{"f":"cards","id":"ko.c0702","k":"note","src":"노래 불러요 = I sing.","tgt":"노래 불러요 = আমি গান গাই।"}
+{"f":"cards","id":"ko.c0703","k":"meaning","src":"sea; beach","tgt":"সমুদ্র; সৈকত"}
+{"f":"cards","id":"ko.c0703","k":"note","src":"바다에 가요 = we're going to the beach.","tgt":"바다에 가요 = আমরা সমুদ্রে যাচ্ছি।"}
+{"f":"cards","id":"ko.c0704","k":"meaning","src":"mood; how you feel","tgt":"মেজাজ; মনের অবস্থা"}
+{"f":"cards","id":"ko.c0704","k":"note","src":"기분이 어때요? = how are you feeling?","tgt":"기분이 어때요? = এখন কেমন লাগছে?"}
+{"f":"cards","id":"ko.c0705","k":"meaning","src":"clothes","tgt":"কাপড়, জামা"}
+{"f":"cards","id":"ko.c0705","k":"note","src":"옷이 예뻐요. Counted: 한 벌.","tgt":"옷이 예뻐요। গুনতে: 한 벌।"}
+{"f":"cards","id":"ko.c0706","k":"meaning","src":"dream","tgt":"স্বপ্ন"}
+{"f":"cards","id":"ko.c0706","k":"note","src":"꿈을 꿔요 = I have a dream (asleep).","tgt":"꿈을 꿔요 = আমি স্বপ্ন দেখি (ঘুমে)।"}
+{"f":"cards","id":"ko.c0707","k":"meaning","src":"thing; item (an object you buy or own)","tgt":"জিনিসপত্র (কেনা বা নিজের)"}
+{"f":"cards","id":"ko.c0707","k":"note","src":"물건을 사요 = I buy things.","tgt":"물건을 사요 = জিনিস কিনি।"}
+{"f":"cards","id":"ko.c0708","k":"meaning","src":"experience","tgt":"অভিজ্ঞতা"}
+{"f":"cards","id":"ko.c0708","k":"note","src":"좋은 경험이었어요 = it was a good experience.","tgt":"좋은 경험이었어요 = ভালো অভিজ্ঞতা হলো।"}
+{"f":"cards","id":"ko.c0709","k":"meaning","src":"rain","tgt":"বৃষ্টি"}
+{"f":"cards","id":"ko.c0709","k":"note","src":"비가 와요 = it's raining (rain comes).","tgt":"비가 와요 = বৃষ্টি হচ্ছে (আক্ষরিক: বৃষ্টি আসছে)।"}
+{"f":"cards","id":"ko.c0710","k":"meaning","src":"hometown","tgt":"দেশের বাড়ি, জন্মস্থান"}
+{"f":"cards","id":"ko.c0710","k":"note","src":"고향이 어디예요? = where are you from originally?","tgt":"고향이 어디예요? = আপনার দেশের বাড়ি কোথায়?"}
+{"f":"cards","id":"ko.c0711","k":"meaning","src":"baby","tgt":"ছোট্ট শিশু, বাবু"}
+{"f":"cards","id":"ko.c0711","k":"note","src":"아기가 자요 = the baby is sleeping.","tgt":"아기가 자요 = বাবু ঘুমাচ্ছে।"}
+{"f":"cards","id":"ko.c0712","k":"meaning","src":"middle-aged man; sir (to a stranger)","tgt":"মাঝবয়সী পুরুষ; চাচা / আঙ্কেল (অচেনা কাউকে)"}
+{"f":"cards","id":"ko.c0712","k":"note","src":"To taxi drivers, shopkeepers. Don't use it to a young man.","tgt":"ট্যাক্সিচালক, দোকানদারকে। কম বয়সী ছেলেকে বলবেন না।"}
+{"f":"cards","id":"ko.c0713","k":"meaning","src":"month; the moon","tgt":"মাস; চাঁদ"}
+{"f":"cards","id":"ko.c0713","k":"note","src":"이번 달 = this month. Counted: 한 달.","tgt":"이번 달 = এই মাস। গুনতে: 한 달।"}
+{"f":"cards","id":"ko.c0714","k":"meaning","src":"the last (one)","tgt":"শেষেরটা, সর্বশেষ"}
+{"f":"cards","id":"ko.c0714","k":"note","src":"마지막 기회 = the last chance.","tgt":"마지막 기회 = শেষ সুযোগ।"}

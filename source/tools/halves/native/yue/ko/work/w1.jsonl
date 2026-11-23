@@ -257,626 +257,626 @@
 {"f":"decks","id":"ko.d.compliments","k":"desc","src":"Everyday praise for food, work, homes and children, and the modest ways to answer it.","tgt":"讚嘢食、工作、屋企同小朋友嘅日常說法，同埋謙虛咁回應。"}
 {"f":"decks","id":"ko.d.countries","k":"label","src":"Countries","tgt":"國家同地區"}
 {"f":"decks","id":"ko.d.countries","k":"desc","src":"Every country, most-asked first. Country + 에서 왔어요 = I'm from…; + 사람 = nationality; + 어 = language.","tgt":"所有國家同地區，最多人問嘅排先。國名 + 에서 왔어요 = 我由……嚟；+ 사람 = 國籍；+ 어 = 語言。"}
-{"f":"cards","id":"ko.c0001","k":"meaning","src":"a as in father","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"cards","id":"ko.c0001","k":"note","src":"Vertical stroke, tick to the right.","tgt":""}
-{"f":"cards","id":"ko.c0002","k":"meaning","src":"uh as in up","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"cards","id":"ko.c0002","k":"note","src":"Tick to the left. Not 'oh'.","tgt":""}
-{"f":"cards","id":"ko.c0003","k":"meaning","src":"o as in go","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"cards","id":"ko.c0003","k":"note","src":"Horizontal, tick up.","tgt":""}
-{"f":"cards","id":"ko.c0004","k":"meaning","src":"oo as in moon","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"cards","id":"ko.c0004","k":"note","src":"Horizontal, tick down.","tgt":""}
-{"f":"cards","id":"ko.c0005","k":"meaning","src":"like the vowel in 'book' with lips flat","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
-{"f":"cards","id":"ko.c0005","k":"note","src":"No English match; smile and say 'oo'.","tgt":"","rw":"says English lacks the sound/feature"}
-{"f":"cards","id":"ko.c0006","k":"meaning","src":"ee as in see","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"cards","id":"ko.c0006","k":"note","src":"Single vertical stroke.","tgt":""}
-{"f":"cards","id":"ko.c0007","k":"meaning","src":"e as in bed (open; same sound as ㅔ today)","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"cards","id":"ko.c0007","k":"note","src":"Modern Korean: sounds same as ㅔ.","tgt":""}
-{"f":"cards","id":"ko.c0008","k":"meaning","src":"e as in bed","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"cards","id":"ko.c0008","k":"note","src":"Same sound as ㅐ in speech.","tgt":""}
-{"f":"cards","id":"ko.c0009","k":"meaning","src":"ya","tgt":""}
-{"f":"cards","id":"ko.c0009","k":"note","src":"ㅏ with an extra tick = y-glide.","tgt":""}
-{"f":"cards","id":"ko.c0010","k":"meaning","src":"yuh","tgt":""}
-{"f":"cards","id":"ko.c0010","k":"note","src":"ㅓ + y.","tgt":""}
-{"f":"cards","id":"ko.c0011","k":"meaning","src":"yo","tgt":""}
-{"f":"cards","id":"ko.c0011","k":"note","src":"ㅗ + y.","tgt":""}
-{"f":"cards","id":"ko.c0012","k":"meaning","src":"yoo","tgt":""}
-{"f":"cards","id":"ko.c0012","k":"note","src":"ㅜ + y.","tgt":""}
-{"f":"cards","id":"ko.c0013","k":"meaning","src":"g (soft) at start, k at syllable end","tgt":""}
-{"f":"cards","id":"ko.c0013","k":"note","src":"가 = ga, 악 = ak.","tgt":""}
-{"f":"cards","id":"ko.c0014","k":"meaning","src":"n","tgt":""}
-{"f":"cards","id":"ko.c0014","k":"note","src":"나 = na.","tgt":""}
-{"f":"cards","id":"ko.c0015","k":"meaning","src":"d at start, t at end","tgt":""}
-{"f":"cards","id":"ko.c0015","k":"note","src":"다 = da.","tgt":""}
-{"f":"cards","id":"ko.c0016","k":"meaning","src":"flap r between vowels, l at end","tgt":""}
-{"f":"cards","id":"ko.c0016","k":"note","src":"라 = ra, 물 = mul.","tgt":""}
-{"f":"cards","id":"ko.c0017","k":"meaning","src":"m","tgt":""}
-{"f":"cards","id":"ko.c0017","k":"note","src":"마 = ma.","tgt":""}
-{"f":"cards","id":"ko.c0018","k":"meaning","src":"b at start, p at end","tgt":""}
-{"f":"cards","id":"ko.c0018","k":"note","src":"바 = ba, 밥 = bap.","tgt":""}
-{"f":"cards","id":"ko.c0019","k":"meaning","src":"s; 'sh' before ㅣ","tgt":""}
-{"f":"cards","id":"ko.c0019","k":"note","src":"사 = sa, 시 = si (sounds like 'shee').","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"cards","id":"ko.c0020","k":"meaning","src":"silent at start, ng at end","tgt":""}
-{"f":"cards","id":"ko.c0020","k":"note","src":"아 = a, 강 = gang.","tgt":""}
-{"f":"cards","id":"ko.c0021","k":"meaning","src":"j","tgt":""}
-{"f":"cards","id":"ko.c0021","k":"note","src":"자 = ja.","tgt":""}
-{"f":"cards","id":"ko.c0022","k":"meaning","src":"ch (aspirated ㅈ)","tgt":""}
-{"f":"cards","id":"ko.c0022","k":"note","src":"차 = cha.","tgt":""}
-{"f":"cards","id":"ko.c0023","k":"meaning","src":"k (aspirated ㄱ)","tgt":""}
-{"f":"cards","id":"ko.c0023","k":"note","src":"카 = ka.","tgt":""}
-{"f":"cards","id":"ko.c0024","k":"meaning","src":"t (aspirated ㄷ)","tgt":""}
-{"f":"cards","id":"ko.c0024","k":"note","src":"타 = ta.","tgt":""}
-{"f":"cards","id":"ko.c0025","k":"meaning","src":"p (aspirated ㅂ)","tgt":""}
-{"f":"cards","id":"ko.c0025","k":"note","src":"파 = pa.","tgt":""}
-{"f":"cards","id":"ko.c0026","k":"meaning","src":"h","tgt":""}
-{"f":"cards","id":"ko.c0026","k":"note","src":"하 = ha.","tgt":""}
-{"f":"cards","id":"ko.c0027","k":"meaning","src":"tense g/k","tgt":""}
-{"f":"cards","id":"ko.c0027","k":"note","src":"까 kka. Tight throat, no air. 꽃 = flower, 까만 = black.","tgt":""}
-{"f":"cards","id":"ko.c0028","k":"meaning","src":"tense d/t","tgt":""}
-{"f":"cards","id":"ko.c0028","k":"note","src":"따 tta. 딸 = daughter, 똑바로 = straight.","tgt":""}
-{"f":"cards","id":"ko.c0029","k":"meaning","src":"tense b/p","tgt":""}
-{"f":"cards","id":"ko.c0029","k":"note","src":"빠 ppa. 빨리 = quickly, 아빠 = dad.","tgt":""}
-{"f":"cards","id":"ko.c0030","k":"meaning","src":"tense s","tgt":""}
-{"f":"cards","id":"ko.c0030","k":"note","src":"싸 ssa. 쌀 = rice, 있어요 = there is.","tgt":""}
-{"f":"cards","id":"ko.c0031","k":"meaning","src":"tense j","tgt":""}
-{"f":"cards","id":"ko.c0031","k":"note","src":"짜 jja. 짜다 = salty, 진짜 = really.","tgt":""}
-{"f":"cards","id":"ko.c0032","k":"meaning","src":"wa","tgt":""}
-{"f":"cards","id":"ko.c0032","k":"note","src":"ㅗ + ㅏ. 과일 = fruit, 와요 = come.","tgt":""}
-{"f":"cards","id":"ko.c0033","k":"meaning","src":"wo","tgt":""}
-{"f":"cards","id":"ko.c0033","k":"note","src":"ㅜ + ㅓ. 원 = won, 뭐 = what.","tgt":""}
-{"f":"cards","id":"ko.c0034","k":"meaning","src":"we","tgt":""}
-{"f":"cards","id":"ko.c0034","k":"note","src":"ㅗ + ㅣ. 회사 = company, 외국 = foreign country.","tgt":""}
-{"f":"cards","id":"ko.c0035","k":"meaning","src":"wi","tgt":""}
-{"f":"cards","id":"ko.c0035","k":"note","src":"ㅜ + ㅣ. 귀 = ear, 위 = up / stomach.","tgt":""}
-{"f":"cards","id":"ko.c0036","k":"meaning","src":"we","tgt":""}
-{"f":"cards","id":"ko.c0036","k":"note","src":"Both sound like 'we'. 왜 = why, 웨딩 = wedding.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"cards","id":"ko.c0037","k":"meaning","src":"ui / i / e","tgt":""}
-{"f":"cards","id":"ko.c0037","k":"note","src":"의사 = doctor (ui), 거의 = almost (i), 친구의 = friend's (e).","tgt":""}
-{"f":"cards","id":"ko.c0038","k":"meaning","src":"ye","tgt":""}
-{"f":"cards","id":"ko.c0038","k":"note","src":"Both 'ye'. 얘기 = talk/story, 예 = yes (formal).","tgt":""}
-{"f":"cards","id":"ko.c0039","k":"meaning","src":"all sound like t at the end","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"cards","id":"ko.c0039","k":"note","src":"옷 ot, 있다 itda, 꽃 kkot, 끝 kkeut, 낮 nat.","tgt":""}
-{"f":"cards","id":"ko.c0040","k":"meaning","src":"k at the end","tgt":""}
-{"f":"cards","id":"ko.c0040","k":"note","src":"부엌 bueok (kitchen), 밖 bak (outside).","tgt":""}
-{"f":"cards","id":"ko.c0041","k":"meaning","src":"p at the end","tgt":""}
-{"f":"cards","id":"ko.c0041","k":"note","src":"앞 ap (front), 옆 yeop (side).","tgt":""}
-{"f":"cards","id":"ko.c0042","k":"meaning","src":"double finals","tgt":""}
-{"f":"cards","id":"ko.c0042","k":"note","src":"Only one sounds: 닭 dak (chicken), 값 gap (price), 읽다 ikda.","tgt":""}
-{"f":"cards","id":"ko.c0043","k":"meaning","src":"final consonant","tgt":""}
-{"f":"cards","id":"ko.c0043","k":"note","src":"Only 7 sounds survive at the end of a syllable: k, n, t, l, m, p, ng. 옷 sounds like 'ot', 꽃 like 'kkot'.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"cards","id":"ko.c0044","k":"meaning","src":"soft s vs tense s","tgt":""}
-{"f":"cards","id":"ko.c0044","k":"note","src":"살 (sal, flesh) vs 쌀 (ssal, rice). Tense = tighter throat, no air puff.","tgt":""}
-{"f":"cards","id":"ko.c0045","k":"meaning","src":"g · kk · k (k-row: plain, tense, aspirated)","tgt":""}
-{"f":"cards","id":"ko.c0045","k":"note","src":"가 ga / 까 kka / 카 ka. Aspirated = big puff of air; tense = none, tight.","tgt":""}
-{"f":"cards","id":"ko.c0046","k":"meaning","src":"d · tt · t (t-row: plain, tense, aspirated)","tgt":""}
-{"f":"cards","id":"ko.c0046","k":"note","src":"달 dal (moon) / 딸 ttal (daughter) / 탈 tal (mask).","tgt":""}
-{"f":"cards","id":"ko.c0047","k":"meaning","src":"b · pp · p (p-row: plain, tense, aspirated)","tgt":""}
-{"f":"cards","id":"ko.c0047","k":"note","src":"불 bul (fire) / 뿔 ppul (horn) / 풀 pul (grass).","tgt":""}
-{"f":"cards","id":"ko.c0048","k":"meaning","src":"j · jj · ch (ch-row: plain, tense, aspirated)","tgt":""}
-{"f":"cards","id":"ko.c0048","k":"note","src":"자다 jada (sleep) / 짜다 jjada (salty) / 차다 chada (cold).","tgt":""}
-{"f":"cards","id":"ko.c0049","k":"meaning","src":"liaison (carry-over)","tgt":""}
-{"f":"cards","id":"ko.c0049","k":"note","src":"A final consonant jumps to the next vowel: 한국어 → 한구거 (han-gu-geo), 음악 → 으막 (eu-mak).","tgt":""}
-{"f":"cards","id":"ko.c0050","k":"meaning","src":"flap r, like Spanish 'pero'","tgt":""}
-{"f":"cards","id":"ko.c0050","k":"note","src":"머리 meori, 다리 dari. At the end: l sound, 물 mul.","tgt":""}
-{"f":"cards","id":"ko.c0051","k":"meaning","src":"double ㄹ = clear l","tgt":""}
-{"f":"cards","id":"ko.c0051","k":"note","src":"빨리 ppalli (fast), 몰라 molla.","tgt":""}
-{"f":"cards","id":"ko.c0052","k":"meaning","src":"ㅎ nearly silent between vowels","tgt":""}
-{"f":"cards","id":"ko.c0052","k":"note","src":"좋아요 → 조아요 (joayo). 많이 → 마니 (mani).","tgt":""}
-{"f":"cards","id":"ko.c0053","k":"meaning","src":"ng as in 'sing'","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"cards","id":"ko.c0053","k":"note","src":"강 gang, 사랑 sarang. Never 'n-g' separated.","tgt":""}
-{"f":"cards","id":"ko.c0054","k":"meaning","src":"nasal assimilation","tgt":""}
-{"f":"cards","id":"ko.c0054","k":"note","src":"ㄱ/ㄷ/ㅂ before ㄴ/ㅁ turn nasal: 감사합니다 → 감사함니다, 국물 → 궁물.","tgt":""}
-{"f":"cards","id":"ko.c0055","k":"meaning","src":"three sounds for one vowel","tgt":""}
-{"f":"cards","id":"ko.c0055","k":"note","src":"의사 ui-sa (doctor) at the start; 거의 geo-i; possessive 의 → 에 (친구의 → 친구에).","tgt":""}
-{"f":"cards","id":"ko.c0056","k":"meaning","src":"same sound in modern Seoul","tgt":""}
-{"f":"cards","id":"ko.c0056","k":"note","src":"개 and 게 sound identical; context decides.","tgt":""}
-{"f":"cards","id":"ko.c0057","k":"meaning","src":"the two 'o's","tgt":""}
-{"f":"cards","id":"ko.c0057","k":"note","src":"ㅓ = jaw open, lips relaxed (uh). ㅗ = lips round (oh). 서울 vs 소울.","tgt":"","rw":"English-spelling sound hint in brackets"}
-{"f":"cards","id":"ko.c0058","k":"meaning","src":"lips flat, tongue back","tgt":""}
-{"f":"cards","id":"ko.c0058","k":"note","src":"No English match. Say 'oo' while smiling. 음, 그, 는.","tgt":"","rw":"says English lacks the sound/feature"}
-{"f":"cards","id":"ko.c0059","k":"meaning","src":"questions rise, statements fall","tgt":""}
-{"f":"cards","id":"ko.c0059","k":"note","src":"가요↗ = are you going? 가요↘ = I'm going. Same word.","tgt":""}
-{"f":"cards","id":"ko.c0060","k":"meaning","src":"words are spaced, particles attach","tgt":""}
-{"f":"cards","id":"ko.c0060","k":"note","src":"저는 밥을 먹어요: 저는 / 밥을 / 먹어요. Particles never stand alone.","tgt":""}
-{"f":"cards","id":"ko.c0061","k":"meaning","src":"Hello","tgt":""}
-{"f":"cards","id":"ko.c0061","k":"note","src":"Polite default greeting, any time of day.","tgt":""}
-{"f":"cards","id":"ko.c0062","k":"meaning","src":"Thank you","tgt":""}
-{"f":"cards","id":"ko.c0062","k":"note","src":"Formal. Casual: 고마워 (gomawo).","tgt":""}
-{"f":"cards","id":"ko.c0063","k":"meaning","src":"I'm sorry","tgt":""}
-{"f":"cards","id":"ko.c0063","k":"note","src":"Formal apology. 미안해 (mianhae) = casual.","tgt":""}
-{"f":"cards","id":"ko.c0064","k":"meaning","src":"Yes / No","tgt":""}
-{"f":"cards","id":"ko.c0064","k":"note","src":"네 also works as 'okay' or 'uh-huh'.","tgt":""}
-{"f":"cards","id":"ko.c0065","k":"meaning","src":"How much is it?","tgt":""}
-{"f":"cards","id":"ko.c0065","k":"note","src":"Point at the item and ask.","tgt":""}
-{"f":"cards","id":"ko.c0066","k":"meaning","src":"Where is the bathroom?","tgt":""}
-{"f":"cards","id":"ko.c0066","k":"note","src":"어디예요 = where is.","tgt":""}
-{"f":"cards","id":"ko.c0067","k":"meaning","src":"This one, please","tgt":""}
-{"f":"cards","id":"ko.c0067","k":"note","src":"Ordering or shopping. 주세요 = please give.","tgt":""}
-{"f":"cards","id":"ko.c0068","k":"meaning","src":"(Said before eating)","tgt":""}
-{"f":"cards","id":"ko.c0068","k":"note","src":"Lit. 'I will eat well.' Thanks to the cook.","tgt":""}
-{"f":"cards","id":"ko.c0069","k":"meaning","src":"It's okay / I'm fine","tgt":""}
-{"f":"cards","id":"ko.c0069","k":"note","src":"Also used to politely refuse.","tgt":""}
-{"f":"cards","id":"ko.c0070","k":"meaning","src":"Please speak slowly","tgt":""}
-{"f":"cards","id":"ko.c0070","k":"note","src":"Lifesaver phrase.","tgt":""}
-{"f":"cards","id":"ko.c0071","k":"meaning","src":"I don't speak Korean well","tgt":""}
-{"f":"cards","id":"ko.c0071","k":"note","src":"Buys you patience.","tgt":""}
-{"f":"cards","id":"ko.c0072","k":"meaning","src":"Just a moment / excuse me","tgt":""}
-{"f":"cards","id":"ko.c0072","k":"note","src":"Squeezing past someone on the subway.","tgt":""}
-{"f":"cards","id":"ko.c0073","k":"meaning","src":"I'm ___","tgt":""}
-{"f":"cards","id":"ko.c0073","k":"note","src":"Look at the last Hangul block: 이에요 after a final consonant (저는 킴이에요), 예요 after a vowel (저는 리사예요).","tgt":""}
-{"f":"cards","id":"ko.c0074","k":"meaning","src":"What's your name?","tgt":""}
-{"f":"cards","id":"ko.c0074","k":"note","src":"Polite: 성함이 어떻게 되세요? for elders or formal settings.","tgt":""}
-{"f":"cards","id":"ko.c0075","k":"meaning","src":"Nice to meet you","tgt":""}
-{"f":"cards","id":"ko.c0075","k":"note","src":"Lit. 'glad because we met'. Formal: 반갑습니다.","tgt":""}
-{"f":"cards","id":"ko.c0076","k":"meaning","src":"Where are you from?","tgt":""}
-{"f":"cards","id":"ko.c0076","k":"note","src":"에서 = from. 어디 = where.","tgt":""}
-{"f":"cards","id":"ko.c0643","k":"meaning","src":"I'm from ___","tgt":""}
-{"f":"cards","id":"ko.c0643","k":"note","src":"Country + 에서 왔어요: 미국에서, 멕시코에서, 필리핀에서, 일본에서 왔어요. Every country is in the Countries deck.","tgt":""}
-{"f":"cards","id":"ko.c0078","k":"meaning","src":"How old are you?","tgt":""}
-{"f":"cards","id":"ko.c0078","k":"note","src":"Normal question in Korea; it decides how people speak to each other.","tgt":""}
-{"f":"cards","id":"ko.c0079","k":"meaning","src":"I'm 30","tgt":""}
-{"f":"cards","id":"ko.c0079","k":"note","src":"Native number + 살. 스물다섯 살 = 25.","tgt":""}
-{"f":"cards","id":"ko.c0080","k":"meaning","src":"What do you do?","tgt":""}
-{"f":"cards","id":"ko.c0080","k":"note","src":"일 = work. 직업이 뭐예요? also works.","tgt":""}
-{"f":"cards","id":"ko.c0081","k":"meaning","src":"I'm an office worker","tgt":""}
-{"f":"cards","id":"ko.c0081","k":"note","src":"학생 student, 선생님 teacher, 개발자 developer, 간호사 nurse.","tgt":""}
-{"f":"cards","id":"ko.c0082","k":"meaning","src":"I'm studying Korean","tgt":""}
-{"f":"cards","id":"ko.c0082","k":"note","src":"공부하다 = to study. Say this and people light up.","tgt":""}
-{"f":"cards","id":"ko.c0083","k":"meaning","src":"What's your hobby?","tgt":""}
-{"f":"cards","id":"ko.c0083","k":"note","src":"취미 = hobby. 제 취미는 운동이에요 = my hobby is working out.","tgt":""}
-{"f":"cards","id":"ko.c0084","k":"meaning","src":"Please take care of me","tgt":""}
-{"f":"cards","id":"ko.c0084","k":"note","src":"Said after introducing yourself at work or in a group. No English equivalent.","tgt":"","rw":"says English lacks the sound/feature"}
-{"f":"cards","id":"ko.c0085","k":"meaning","src":"Excuse me (to get attention)","tgt":""}
-{"f":"cards","id":"ko.c0085","k":"note","src":"Call a waiter or stop a stranger. Not an apology.","tgt":""}
-{"f":"cards","id":"ko.c0086","k":"meaning","src":"Are you okay?","tgt":""}
-{"f":"cards","id":"ko.c0086","k":"note","src":"Same word as 'I'm fine' with rising tone.","tgt":""}
-{"f":"cards","id":"ko.c0087","k":"meaning","src":"Please help me","tgt":""}
-{"f":"cards","id":"ko.c0087","k":"note","src":"Emergency or just a heavy bag.","tgt":""}
-{"f":"cards","id":"ko.c0088","k":"meaning","src":"I don't know","tgt":""}
+{"f":"cards","id":"ko.c0001","k":"meaning","src":"a as in father","tgt":"似「三（saam1）」嘅長 aa","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0001","k":"note","src":"Vertical stroke, tick to the right.","tgt":"一劃直，右邊加一短劃。"}
+{"f":"cards","id":"ko.c0002","k":"meaning","src":"uh as in up","tgt":"口張大、唇唔圓、舌向後縮","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0002","k":"note","src":"Tick to the left. Not 'oh'.","tgt":"短劃喺左邊。唔係粵拼 eo（「出（ceot1）」嗰個圓唇音），唇唔好圓。"}
+{"f":"cards","id":"ko.c0003","k":"meaning","src":"o as in go","tgt":"比「哥（go1）」嘅 o 更窄更圓","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0003","k":"note","src":"Horizontal, tick up.","tgt":"一橫，短劃向上。"}
+{"f":"cards","id":"ko.c0004","k":"meaning","src":"oo as in moon","tgt":"似「姑（gu1）」嘅 u","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0004","k":"note","src":"Horizontal, tick down.","tgt":"一橫，短劃向下。"}
+{"f":"cards","id":"ko.c0005","k":"meaning","src":"like the vowel in 'book' with lips flat","tgt":"唇扁好似讀「衣」，但舌向後縮","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"ko.c0005","k":"note","src":"No English match; smile and say 'oo'.","tgt":"廣東話冇呢個音：唇扁平好似讀「衣（ji1）」，舌頭向後縮。唔係 Cheung、Leung 嗰個 eu。","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0006","k":"meaning","src":"ee as in see","tgt":"似「衣（ji1）」","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0006","k":"note","src":"Single vertical stroke.","tgt":"一劃直。"}
+{"f":"cards","id":"ko.c0007","k":"meaning","src":"e as in bed (open; same sound as ㅔ today)","tgt":"似「些（se1）」嘅 e（而家讀法同 ㅔ 一樣）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0007","k":"note","src":"Modern Korean: sounds same as ㅔ.","tgt":"現代韓文讀法同 ㅔ 一樣。羅馬拼音 ae 唔係「街（gaai1）」嘅 aai。"}
+{"f":"cards","id":"ko.c0008","k":"meaning","src":"e as in bed","tgt":"似「些（se1）」嘅 e","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0008","k":"note","src":"Same sound as ㅐ in speech.","tgt":"講嘢時讀法同 ㅐ 一樣。"}
+{"f":"cards","id":"ko.c0009","k":"meaning","src":"ya","tgt":"似「也（jaa5）」嘅 jaa，但冇聲調"}
+{"f":"cards","id":"ko.c0009","k":"note","src":"ㅏ with an extra tick = y-glide.","tgt":"ㅏ 加多一短劃 = 前面加 y（即係粵拼 j）。"}
+{"f":"cards","id":"ko.c0010","k":"meaning","src":"yuh","tgt":"y + eo，一個音節，唔係 yo"}
+{"f":"cards","id":"ko.c0010","k":"note","src":"ㅓ + y.","tgt":"ㅓ + y。"}
+{"f":"cards","id":"ko.c0011","k":"meaning","src":"yo","tgt":"y + 窄而圓嘅 o"}
+{"f":"cards","id":"ko.c0011","k":"note","src":"ㅗ + y.","tgt":"ㅗ + y。"}
+{"f":"cards","id":"ko.c0012","k":"meaning","src":"yoo","tgt":"y + 「姑（gu1）」嘅 u，唔係粵拼 yu（「魚（jyu4）」）"}
+{"f":"cards","id":"ko.c0012","k":"note","src":"ㅜ + y.","tgt":"ㅜ + y。"}
+{"f":"cards","id":"ko.c0013","k":"meaning","src":"g (soft) at start, k at syllable end","tgt":"字頭係比粵拼 g 鬆嘅 g，音節尾讀 k"}
+{"f":"cards","id":"ko.c0013","k":"note","src":"가 = ga, 악 = ak.","tgt":"가 = ga，악 = ak。"}
+{"f":"cards","id":"ko.c0014","k":"meaning","src":"n","tgt":"同粵拼 n 一樣，唔好讀成 l"}
+{"f":"cards","id":"ko.c0014","k":"note","src":"나 = na.","tgt":"나 = na。"}
+{"f":"cards","id":"ko.c0015","k":"meaning","src":"d at start, t at end","tgt":"字頭係比粵拼 d 鬆嘅 d，音節尾讀 t"}
+{"f":"cards","id":"ko.c0015","k":"note","src":"다 = da.","tgt":"다 = da。"}
+{"f":"cards","id":"ko.c0016","k":"meaning","src":"flap r between vowels, l at end","tgt":"兩個元音中間舌尖輕彈一下（r），音節尾讀 l"}
+{"f":"cards","id":"ko.c0016","k":"note","src":"라 = ra, 물 = mul.","tgt":"라 = ra，물 = mul。"}
+{"f":"cards","id":"ko.c0017","k":"meaning","src":"m","tgt":"同粵拼 m 一樣"}
+{"f":"cards","id":"ko.c0017","k":"note","src":"마 = ma.","tgt":"마 = ma。"}
+{"f":"cards","id":"ko.c0018","k":"meaning","src":"b at start, p at end","tgt":"字頭係比粵拼 b 鬆嘅 b，音節尾讀 p"}
+{"f":"cards","id":"ko.c0018","k":"note","src":"바 = ba, 밥 = bap.","tgt":"바 = ba，밥 = bap。"}
+{"f":"cards","id":"ko.c0019","k":"meaning","src":"s; 'sh' before ㅣ","tgt":"s；喺 ㅣ 前面近似「詩（si1）」"}
+{"f":"cards","id":"ko.c0019","k":"note","src":"사 = sa, 시 = si (sounds like 'shee').","tgt":"사 = sa，시 = si，讀落似「詩（si1）」，舌頭再向後少少。","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0020","k":"meaning","src":"silent at start, ng at end","tgt":"字頭唔發音，音節尾讀 ng"}
+{"f":"cards","id":"ko.c0020","k":"note","src":"아 = a, 강 = gang.","tgt":"아 = a，강 = gang。"}
+{"f":"cards","id":"ko.c0021","k":"meaning","src":"j","tgt":"近似粵拼 z（「之（zi1）」），唔係粵拼 j"}
+{"f":"cards","id":"ko.c0021","k":"note","src":"자 = ja.","tgt":"자 = ja，唔係「也（jaa5）」。"}
+{"f":"cards","id":"ko.c0022","k":"meaning","src":"ch (aspirated ㅈ)","tgt":"近似粵拼 c（「車（ce1）」），即 ㅈ 嘅送氣音"}
+{"f":"cards","id":"ko.c0022","k":"note","src":"차 = cha.","tgt":"차 = cha。"}
+{"f":"cards","id":"ko.c0023","k":"meaning","src":"k (aspirated ㄱ)","tgt":"k，氣比粵拼 k 更強（ㄱ 嘅送氣音）"}
+{"f":"cards","id":"ko.c0023","k":"note","src":"카 = ka.","tgt":"카 = ka。"}
+{"f":"cards","id":"ko.c0024","k":"meaning","src":"t (aspirated ㄷ)","tgt":"t，氣比粵拼 t 更強（ㄷ 嘅送氣音）"}
+{"f":"cards","id":"ko.c0024","k":"note","src":"타 = ta.","tgt":"타 = ta。"}
+{"f":"cards","id":"ko.c0025","k":"meaning","src":"p (aspirated ㅂ)","tgt":"p，氣比粵拼 p 更強（ㅂ 嘅送氣音）"}
+{"f":"cards","id":"ko.c0025","k":"note","src":"파 = pa.","tgt":"파 = pa。"}
+{"f":"cards","id":"ko.c0026","k":"meaning","src":"h","tgt":"h，比廣東話嘅 h 輕"}
+{"f":"cards","id":"ko.c0026","k":"note","src":"하 = ha.","tgt":"하 = ha。"}
+{"f":"cards","id":"ko.c0027","k":"meaning","src":"tense g/k","tgt":"緊音 g / k"}
+{"f":"cards","id":"ko.c0027","k":"note","src":"까 kka. Tight throat, no air. 꽃 = flower, 까만 = black.","tgt":"까 kka。喉嚨收緊，完全唔送氣。꽃 = 花，까만 = 黑色嘅。"}
+{"f":"cards","id":"ko.c0028","k":"meaning","src":"tense d/t","tgt":"緊音 d / t"}
+{"f":"cards","id":"ko.c0028","k":"note","src":"따 tta. 딸 = daughter, 똑바로 = straight.","tgt":"따 tta。딸 = 女兒，똑바로 = 直直咁。"}
+{"f":"cards","id":"ko.c0029","k":"meaning","src":"tense b/p","tgt":"緊音 b / p"}
+{"f":"cards","id":"ko.c0029","k":"note","src":"빠 ppa. 빨리 = quickly, 아빠 = dad.","tgt":"빠 ppa。빨리 = 快啲，아빠 = 爸爸。"}
+{"f":"cards","id":"ko.c0030","k":"meaning","src":"tense s","tgt":"緊音 s"}
+{"f":"cards","id":"ko.c0030","k":"note","src":"싸 ssa. 쌀 = rice, 있어요 = there is.","tgt":"싸 ssa。쌀 = 米，있어요 = 有。"}
+{"f":"cards","id":"ko.c0031","k":"meaning","src":"tense j","tgt":"緊音 j"}
+{"f":"cards","id":"ko.c0031","k":"note","src":"짜 jja. 짜다 = salty, 진짜 = really.","tgt":"짜 jja。짜다 = 鹹，진짜 = 真係。"}
+{"f":"cards","id":"ko.c0032","k":"meaning","src":"wa","tgt":"似「華（waa4）」嘅 waa"}
+{"f":"cards","id":"ko.c0032","k":"note","src":"ㅗ + ㅏ. 과일 = fruit, 와요 = come.","tgt":"ㅗ + ㅏ。과일 = 生果，와요 = 嚟。"}
+{"f":"cards","id":"ko.c0033","k":"meaning","src":"wo","tgt":"w + eo，一拍讀完"}
+{"f":"cards","id":"ko.c0033","k":"note","src":"ㅜ + ㅓ. 원 = won, 뭐 = what.","tgt":"ㅜ + ㅓ。원 = 韓元，뭐 = 乜嘢。"}
+{"f":"cards","id":"ko.c0034","k":"meaning","src":"we","tgt":"讀 we：w + 「些（se1）」嘅 e，唔係粵拼 oe"}
+{"f":"cards","id":"ko.c0034","k":"note","src":"ㅗ + ㅣ. 회사 = company, 외국 = foreign country.","tgt":"ㅗ + ㅣ。회사 = 公司，외국 = 外國。"}
+{"f":"cards","id":"ko.c0035","k":"meaning","src":"wi","tgt":"w + i，一拍讀完"}
+{"f":"cards","id":"ko.c0035","k":"note","src":"ㅜ + ㅣ. 귀 = ear, 위 = up / stomach.","tgt":"ㅜ + ㅣ。귀 = 耳仔，위 = 上面 / 胃。"}
+{"f":"cards","id":"ko.c0036","k":"meaning","src":"we","tgt":"兩個都讀 we"}
+{"f":"cards","id":"ko.c0036","k":"note","src":"Both sound like 'we'. 왜 = why, 웨딩 = wedding.","tgt":"兩個都讀 w + 「些（se1）」嘅 e。왜 = 點解，웨딩 = 婚禮（wedding）。","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0037","k":"meaning","src":"ui / i / e","tgt":"ui / i / e（唔係「杯（bui1）」嘅 ui）"}
+{"f":"cards","id":"ko.c0037","k":"note","src":"의사 = doctor (ui), 거의 = almost (i), 친구의 = friend's (e).","tgt":"의사 = 醫生（讀 ui），거의 = 差唔多（讀 i），친구의 = 朋友嘅（讀 e）。"}
+{"f":"cards","id":"ko.c0038","k":"meaning","src":"ye","tgt":"兩個都讀 ye：y + 「些」嘅 e"}
+{"f":"cards","id":"ko.c0038","k":"note","src":"Both 'ye'. 얘기 = talk/story, 예 = yes (formal).","tgt":"都讀 ye。얘기 = 傾偈 / 故事，예 = 係（正式）。"}
+{"f":"cards","id":"ko.c0039","k":"meaning","src":"all sound like t at the end","tgt":"喺音節尾全部讀 t，似「物（mat6）」收尾","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0039","k":"note","src":"옷 ot, 있다 itda, 꽃 kkot, 끝 kkeut, 낮 nat.","tgt":"옷 ot，있다 itda，꽃 kkot，끝 kkeut，낮 nat。"}
+{"f":"cards","id":"ko.c0040","k":"meaning","src":"k at the end","tgt":"喺音節尾讀 k"}
+{"f":"cards","id":"ko.c0040","k":"note","src":"부엌 bueok (kitchen), 밖 bak (outside).","tgt":"부엌 bueok（廚房），밖 bak（出面）。"}
+{"f":"cards","id":"ko.c0041","k":"meaning","src":"p at the end","tgt":"喺音節尾讀 p"}
+{"f":"cards","id":"ko.c0041","k":"note","src":"앞 ap (front), 옆 yeop (side).","tgt":"앞 ap（前面），옆 yeop（隔籬）。"}
+{"f":"cards","id":"ko.c0042","k":"meaning","src":"double finals","tgt":"雙收音"}
+{"f":"cards","id":"ko.c0042","k":"note","src":"Only one sounds: 닭 dak (chicken), 값 gap (price), 읽다 ikda.","tgt":"只讀其中一個：닭 dak（雞），값 gap（價錢），읽다 ikda。"}
+{"f":"cards","id":"ko.c0043","k":"meaning","src":"final consonant","tgt":"收音（音節最尾嘅輔音）"}
+{"f":"cards","id":"ko.c0043","k":"note","src":"Only 7 sounds survive at the end of a syllable: k, n, t, l, m, p, ng. 옷 sounds like 'ot', 꽃 like 'kkot'.","tgt":"音節尾只有 7 個音：k、n、t、l、m、p、ng。廣東話有其中 6 個，只有 l 係新嘢。옷 讀 ot，꽃 讀 kkot，同「物（mat6）」一樣唔爆破。","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0044","k":"meaning","src":"soft s vs tense s","tgt":"鬆音 s 同緊音 s"}
+{"f":"cards","id":"ko.c0044","k":"note","src":"살 (sal, flesh) vs 쌀 (ssal, rice). Tense = tighter throat, no air puff.","tgt":"살（sal，肉）同 쌀（ssal，米）。緊音：喉嚨收緊，唔送氣。"}
+{"f":"cards","id":"ko.c0045","k":"meaning","src":"g · kk · k (k-row: plain, tense, aspirated)","tgt":"g · kk · k（k 組：鬆音、緊音、送氣音）"}
+{"f":"cards","id":"ko.c0045","k":"note","src":"가 ga / 까 kka / 카 ka. Aspirated = big puff of air; tense = none, tight.","tgt":"가 ga / 까 kka / 카 ka。送氣音：氣好強；緊音：完全冇氣，喉嚨收緊。廣東話分兩套，韓文分三套。"}
+{"f":"cards","id":"ko.c0046","k":"meaning","src":"d · tt · t (t-row: plain, tense, aspirated)","tgt":"d · tt · t（t 組：鬆音、緊音、送氣音）"}
+{"f":"cards","id":"ko.c0046","k":"note","src":"달 dal (moon) / 딸 ttal (daughter) / 탈 tal (mask).","tgt":"달 dal（月亮）/ 딸 ttal（女兒）/ 탈 tal（面具）。"}
+{"f":"cards","id":"ko.c0047","k":"meaning","src":"b · pp · p (p-row: plain, tense, aspirated)","tgt":"b · pp · p（p 組：鬆音、緊音、送氣音）"}
+{"f":"cards","id":"ko.c0047","k":"note","src":"불 bul (fire) / 뿔 ppul (horn) / 풀 pul (grass).","tgt":"불 bul（火）/ 뿔 ppul（角）/ 풀 pul（草）。"}
+{"f":"cards","id":"ko.c0048","k":"meaning","src":"j · jj · ch (ch-row: plain, tense, aspirated)","tgt":"j · jj · ch（ch 組：鬆音、緊音、送氣音）"}
+{"f":"cards","id":"ko.c0048","k":"note","src":"자다 jada (sleep) / 짜다 jjada (salty) / 차다 chada (cold).","tgt":"자다 jada（瞓覺）/ 짜다 jjada（鹹）/ 차다 chada（凍）。"}
+{"f":"cards","id":"ko.c0049","k":"meaning","src":"liaison (carry-over)","tgt":"連音（收音移去下一個音節）"}
+{"f":"cards","id":"ko.c0049","k":"note","src":"A final consonant jumps to the next vowel: 한국어 → 한구거 (han-gu-geo), 음악 → 으막 (eu-mak).","tgt":"收音會跳去下一個元音開頭嘅音節：한국어 → 한구거（han-gu-geo），음악 → 으막（eu-mak）。收音只讀一次。"}
+{"f":"cards","id":"ko.c0050","k":"meaning","src":"flap r, like Spanish 'pero'","tgt":"舌尖輕彈一下，好似好短嘅 l（廣東話冇 r）"}
+{"f":"cards","id":"ko.c0050","k":"note","src":"머리 meori, 다리 dari. At the end: l sound, 물 mul.","tgt":"머리 meori，다리 dari。喺音節尾讀 l：물 mul。"}
+{"f":"cards","id":"ko.c0051","k":"meaning","src":"double ㄹ = clear l","tgt":"兩個 ㄹ = 清楚嘅 l"}
+{"f":"cards","id":"ko.c0051","k":"note","src":"빨리 ppalli (fast), 몰라 molla.","tgt":"빨리 ppalli（快啲），몰라 molla。"}
+{"f":"cards","id":"ko.c0052","k":"meaning","src":"ㅎ nearly silent between vowels","tgt":"ㅎ 喺兩個元音中間差唔多唔讀"}
+{"f":"cards","id":"ko.c0052","k":"note","src":"좋아요 → 조아요 (joayo). 많이 → 마니 (mani).","tgt":"좋아요 → 조아요（joayo）。많이 → 마니（mani）。"}
+{"f":"cards","id":"ko.c0053","k":"meaning","src":"ng as in 'sing'","tgt":"似「香（hoeng1）」收尾嘅 ng","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0053","k":"note","src":"강 gang, 사랑 sarang. Never 'n-g' separated.","tgt":"강 gang，사랑 sarang。唔好將 n 同 g 分開讀，亦唔好懶音讀成 n。"}
+{"f":"cards","id":"ko.c0054","k":"meaning","src":"nasal assimilation","tgt":"鼻音化"}
+{"f":"cards","id":"ko.c0054","k":"note","src":"ㄱ/ㄷ/ㅂ before ㄴ/ㅁ turn nasal: 감사합니다 → 감사함니다, 국물 → 궁물.","tgt":"ㄱ/ㄷ/ㅂ 喺 ㄴ/ㅁ 前面變鼻音：감사합니다 → 감사함니다，국물 → 궁물。"}
+{"f":"cards","id":"ko.c0055","k":"meaning","src":"three sounds for one vowel","tgt":"一個元音，三種讀法"}
+{"f":"cards","id":"ko.c0055","k":"note","src":"의사 ui-sa (doctor) at the start; 거의 geo-i; possessive 의 → 에 (친구의 → 친구에).","tgt":"字頭讀 ui：의사 ui-sa（醫生）；字中間讀 i：거의 geo-i；表示「嘅」嘅 의 讀 에（친구의 → 친구에）。"}
+{"f":"cards","id":"ko.c0056","k":"meaning","src":"same sound in modern Seoul","tgt":"而家首爾話讀法一樣"}
+{"f":"cards","id":"ko.c0056","k":"note","src":"개 and 게 sound identical; context decides.","tgt":"개 同 게 讀法一樣，靠上文下理分。"}
+{"f":"cards","id":"ko.c0057","k":"meaning","src":"the two 'o's","tgt":"兩個易撈亂嘅 o 音"}
+{"f":"cards","id":"ko.c0057","k":"note","src":"ㅓ = jaw open, lips relaxed (uh). ㅗ = lips round (oh). 서울 vs 소울.","tgt":"ㅓ：口張大、唇放鬆唔圓。ㅗ：唇圓，比「哥（go1）」窄。比較 서울 同 소울。","rw":"English-spelling sound hint in brackets"}
+{"f":"cards","id":"ko.c0058","k":"meaning","src":"lips flat, tongue back","tgt":"唇扁，舌向後縮"}
+{"f":"cards","id":"ko.c0058","k":"note","src":"No English match. Say 'oo' while smiling. 음, 그, 는.","tgt":"廣東話冇呢個音：唇扁平好似讀「衣（ji1）」，舌頭向後縮。음，그，는。","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0059","k":"meaning","src":"questions rise, statements fall","tgt":"問句升，陳述句降"}
+{"f":"cards","id":"ko.c0059","k":"note","src":"가요↗ = are you going? 가요↘ = I'm going. Same word.","tgt":"가요↗ = 你去唔去？가요↘ = 我去。同一個字。韓文冇聲調，問定答靠句尾語調。"}
+{"f":"cards","id":"ko.c0060","k":"meaning","src":"words are spaced, particles attach","tgt":"字同字之間留空格，助詞黐住前面"}
+{"f":"cards","id":"ko.c0060","k":"note","src":"저는 밥을 먹어요: 저는 / 밥을 / 먹어요. Particles never stand alone.","tgt":"저는 밥을 먹어요：저는 / 밥을 / 먹어요。助詞永遠唔會單獨寫。中文唔使留空格，寫韓文最易漏。"}
+{"f":"cards","id":"ko.c0061","k":"meaning","src":"Hello","tgt":"你好"}
+{"f":"cards","id":"ko.c0061","k":"note","src":"Polite default greeting, any time of day.","tgt":"最常用嘅禮貌問候，一日任何時間都用得。"}
+{"f":"cards","id":"ko.c0062","k":"meaning","src":"Thank you","tgt":"多謝"}
+{"f":"cards","id":"ko.c0062","k":"note","src":"Formal. Casual: 고마워 (gomawo).","tgt":"正式體。半語：고마워（gomawo）。廣東話講「唔該」嘅場合（買嘢、人哋幫手），韓文都係講呢句。"}
+{"f":"cards","id":"ko.c0063","k":"meaning","src":"I'm sorry","tgt":"對唔住"}
+{"f":"cards","id":"ko.c0063","k":"note","src":"Formal apology. 미안해 (mianhae) = casual.","tgt":"正式嘅道歉。미안해（mianhae）係半語。"}
+{"f":"cards","id":"ko.c0064","k":"meaning","src":"Yes / No","tgt":"係 / 唔係"}
+{"f":"cards","id":"ko.c0064","k":"note","src":"네 also works as 'okay' or 'uh-huh'.","tgt":"네 都可以解「好」或者「嗯」。"}
+{"f":"cards","id":"ko.c0065","k":"meaning","src":"How much is it?","tgt":"幾多錢？"}
+{"f":"cards","id":"ko.c0065","k":"note","src":"Point at the item and ask.","tgt":"指住件嘢問就得。"}
+{"f":"cards","id":"ko.c0066","k":"meaning","src":"Where is the bathroom?","tgt":"洗手間喺邊？"}
+{"f":"cards","id":"ko.c0066","k":"note","src":"어디예요 = where is.","tgt":"어디예요 = 喺邊。화장실 漢字係「化妝室」，但係解廁所，唔係化妝間。"}
+{"f":"cards","id":"ko.c0067","k":"meaning","src":"This one, please","tgt":"唔該要呢個"}
+{"f":"cards","id":"ko.c0067","k":"note","src":"Ordering or shopping. 주세요 = please give.","tgt":"叫嘢食、買嘢都用得。주세요 = 唔該俾我。"}
+{"f":"cards","id":"ko.c0068","k":"meaning","src":"(Said before eating)","tgt":"我唔客氣喇（食飯前講）"}
+{"f":"cards","id":"ko.c0068","k":"note","src":"Lit. 'I will eat well.' Thanks to the cook.","tgt":"直譯「我會好好食」，係多謝煮飯或者請食飯嘅人。"}
+{"f":"cards","id":"ko.c0069","k":"meaning","src":"It's okay / I'm fine","tgt":"冇事 / 唔使喇"}
+{"f":"cards","id":"ko.c0069","k":"note","src":"Also used to politely refuse.","tgt":"都可以用嚟有禮貌咁拒絕。"}
+{"f":"cards","id":"ko.c0070","k":"meaning","src":"Please speak slowly","tgt":"唔該講慢啲"}
+{"f":"cards","id":"ko.c0070","k":"note","src":"Lifesaver phrase.","tgt":"救命句。"}
+{"f":"cards","id":"ko.c0071","k":"meaning","src":"I don't speak Korean well","tgt":"我韓文講得唔好"}
+{"f":"cards","id":"ko.c0071","k":"note","src":"Buys you patience.","tgt":"講咗呢句，對方會耐心啲。"}
+{"f":"cards","id":"ko.c0072","k":"meaning","src":"Just a moment / excuse me","tgt":"等等 / 等一陣"}
+{"f":"cards","id":"ko.c0072","k":"note","src":"Squeezing past someone on the subway.","tgt":"喺地鐵要擠過人哋身邊時都用得，好似「唔該借借」。"}
+{"f":"cards","id":"ko.c0073","k":"meaning","src":"I'm ___","tgt":"我係 ___"}
+{"f":"cards","id":"ko.c0073","k":"note","src":"Look at the last Hangul block: 이에요 after a final consonant (저는 킴이에요), 예요 after a vowel (저는 리사예요).","tgt":"睇最後一個音節塊：有收音用 이에요（저는 킴이에요），冇收音用 예요（저는 리사예요）。"}
+{"f":"cards","id":"ko.c0074","k":"meaning","src":"What's your name?","tgt":"你叫咩名？"}
+{"f":"cards","id":"ko.c0074","k":"note","src":"Polite: 성함이 어떻게 되세요? for elders or formal settings.","tgt":"對長輩或者正式場合，講 성함이 어떻게 되세요?（請問點稱呼？）。"}
+{"f":"cards","id":"ko.c0075","k":"meaning","src":"Nice to meet you","tgt":"好高興識到你"}
+{"f":"cards","id":"ko.c0075","k":"note","src":"Lit. 'glad because we met'. Formal: 반갑습니다.","tgt":"直譯「因為見到你所以高興」。正式：반갑습니다。"}
+{"f":"cards","id":"ko.c0076","k":"meaning","src":"Where are you from?","tgt":"你由邊度嚟㗎？"}
+{"f":"cards","id":"ko.c0076","k":"note","src":"에서 = from. 어디 = where.","tgt":"에서 = 由。어디 = 邊度。"}
+{"f":"cards","id":"ko.c0643","k":"meaning","src":"I'm from ___","tgt":"我由 ___ 嚟"}
+{"f":"cards","id":"ko.c0643","k":"note","src":"Country + 에서 왔어요: 미국에서, 멕시코에서, 필리핀에서, 일본에서 왔어요. Every country is in the Countries deck.","tgt":"國家 + 에서 왔어요：미국에서、멕시코에서、필리핀에서、일본에서 왔어요。所有國家都喺「國家同地區」卡組。"}
+{"f":"cards","id":"ko.c0078","k":"meaning","src":"How old are you?","tgt":"你幾多歲？"}
+{"f":"cards","id":"ko.c0078","k":"note","src":"Normal question in Korea; it decides how people speak to each other.","tgt":"喺韓國係好正常嘅問題：年紀決定大家點樣講嘢。"}
+{"f":"cards","id":"ko.c0079","k":"meaning","src":"I'm 30","tgt":"我 30 歲"}
+{"f":"cards","id":"ko.c0079","k":"note","src":"Native number + 살. 스물다섯 살 = 25.","tgt":"固有詞數字 + 살。스물다섯 살 = 25 歲。"}
+{"f":"cards","id":"ko.c0080","k":"meaning","src":"What do you do?","tgt":"你做咩工作？"}
+{"f":"cards","id":"ko.c0080","k":"note","src":"일 = work. 직업이 뭐예요? also works.","tgt":"일 = 工作。講 직업이 뭐예요? 都得。"}
+{"f":"cards","id":"ko.c0081","k":"meaning","src":"I'm an office worker","tgt":"我係上班族"}
+{"f":"cards","id":"ko.c0081","k":"note","src":"학생 student, 선생님 teacher, 개발자 developer, 간호사 nurse.","tgt":"학생 學生、선생님 老師、개발자 程式員、간호사 護士。"}
+{"f":"cards","id":"ko.c0082","k":"meaning","src":"I'm studying Korean","tgt":"我學緊韓文"}
+{"f":"cards","id":"ko.c0082","k":"note","src":"공부하다 = to study. Say this and people light up.","tgt":"공부하다 = 讀書、學嘢（漢字係「工夫」，唔係功夫）。講呢句，人哋即刻好開心。"}
+{"f":"cards","id":"ko.c0083","k":"meaning","src":"What's your hobby?","tgt":"你有咩興趣？"}
+{"f":"cards","id":"ko.c0083","k":"note","src":"취미 = hobby. 제 취미는 운동이에요 = my hobby is working out.","tgt":"취미 = 興趣。제 취미는 운동이에요 = 我嘅興趣係做運動。"}
+{"f":"cards","id":"ko.c0084","k":"meaning","src":"Please take care of me","tgt":"請多多指教"}
+{"f":"cards","id":"ko.c0084","k":"note","src":"Said after introducing yourself at work or in a group. No English equivalent.","tgt":"喺公司或者一班人面前自我介紹完之後講，用法同廣東話「請多多指教」差唔多。","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0085","k":"meaning","src":"Excuse me (to get attention)","tgt":"唔該（叫人嗰陣）"}
+{"f":"cards","id":"ko.c0085","k":"note","src":"Call a waiter or stop a stranger. Not an apology.","tgt":"叫侍應或者截住路人問嘢。唔係道歉，同香港人叫「唔該」一樣。"}
+{"f":"cards","id":"ko.c0086","k":"meaning","src":"Are you okay?","tgt":"你冇事吖嘛？"}
+{"f":"cards","id":"ko.c0086","k":"note","src":"Same word as 'I'm fine' with rising tone.","tgt":"同「我冇事」係同一個字，尾音升就變問題。"}
+{"f":"cards","id":"ko.c0087","k":"meaning","src":"Please help me","tgt":"唔該幫幫我"}
+{"f":"cards","id":"ko.c0087","k":"note","src":"Emergency or just a heavy bag.","tgt":"緊急情況用，或者只係袋嘢太重。"}
+{"f":"cards","id":"ko.c0088","k":"meaning","src":"I don't know","tgt":"我唔知"}
 {"f":"cards","id":"ko.c0088","k":"note","src":"모르다 → 몰라요.","tgt":"모르다 → 몰라요.","pre":1}
-{"f":"cards","id":"ko.c0089","k":"meaning","src":"I didn't understand","tgt":""}
-{"f":"cards","id":"ko.c0089","k":"note","src":"Say it, then 다시 말해 주세요.","tgt":""}
-{"f":"cards","id":"ko.c0090","k":"meaning","src":"Please say it again","tgt":""}
-{"f":"cards","id":"ko.c0090","k":"note","src":"다시 = again.","tgt":""}
-{"f":"cards","id":"ko.c0091","k":"meaning","src":"Can you speak English?","tgt":"","rw":"mentions English"}
-{"f":"cards","id":"ko.c0091","k":"note","src":"할 수 있다 = can do.","tgt":""}
-{"f":"cards","id":"ko.c0644","k":"meaning","src":"Do you speak ___?","tgt":""}
-{"f":"cards","id":"ko.c0644","k":"note","src":"Language + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? Most languages are the country name + 어 (see the Countries deck); English is 영어.","tgt":"","rw":"mentions English"}
-{"f":"cards","id":"ko.c0092","k":"meaning","src":"What is this?","tgt":""}
-{"f":"cards","id":"ko.c0092","k":"note","src":"Point and ask. Works for food, signs, everything.","tgt":""}
-{"f":"cards","id":"ko.c0093","k":"meaning","src":"I'm going to use the bathroom","tgt":""}
-{"f":"cards","id":"ko.c0093","k":"note","src":"좀 softens; 게요 announces.","tgt":""}
-{"f":"cards","id":"ko.c0094","k":"meaning","src":"Do you take cards?","tgt":""}
-{"f":"cards","id":"ko.c0094","k":"note","src":"돼요 = is it possible / does it work.","tgt":""}
-{"f":"cards","id":"ko.c0095","k":"meaning","src":"What's the wifi password?","tgt":""}
-{"f":"cards","id":"ko.c0095","k":"note","src":"비밀번호 = password.","tgt":""}
-{"f":"cards","id":"ko.c0096","k":"meaning","src":"Do you deliver?","tgt":""}
-{"f":"cards","id":"ko.c0096","k":"note","src":"배달 = delivery. Korea delivers everything.","tgt":""}
-{"f":"cards","id":"ko.c0097","k":"meaning","src":"I have a reservation","tgt":""}
-{"f":"cards","id":"ko.c0097","k":"note","src":"예약 = reservation. 예약 가능해요? = can I book?","tgt":""}
-{"f":"cards","id":"ko.c0098","k":"meaning","src":"I'm lost","tgt":""}
-{"f":"cards","id":"ko.c0098","k":"note","src":"길 = road/way. 잃다 = to lose.","tgt":""}
-{"f":"cards","id":"ko.c0099","k":"meaning","src":"Where is the hospital?","tgt":""}
-{"f":"cards","id":"ko.c0099","k":"note","src":"약국 (yakguk) = pharmacy. 경찰서 = police station.","tgt":""}
-{"f":"cards","id":"ko.c0100","k":"meaning","src":"Slowly, please","tgt":""}
-{"f":"cards","id":"ko.c0100","k":"note","src":"Shortest version of 천천히 말해 주세요.","tgt":""}
-{"f":"cards","id":"ko.c0101","k":"meaning","src":"Where is the bathroom?","tgt":""}
-{"f":"cards","id":"ko.c0101","k":"note","src":"Full form. Short: 화장실 어디예요? Both fine.","tgt":""}
-{"f":"cards","id":"ko.c0102","k":"meaning","src":"Is there a bathroom here?","tgt":""}
-{"f":"cards","id":"ko.c0102","k":"note","src":"Cafés and small shops often don't have one inside.","tgt":""}
-{"f":"cards","id":"ko.c0103","k":"meaning","src":"Can I use the bathroom?","tgt":""}
-{"f":"cards","id":"ko.c0103","k":"note","src":"아/어도 돼요 = is it okay if I…","tgt":""}
-{"f":"cards","id":"ko.c0104","k":"meaning","src":"What's the bathroom code?","tgt":""}
-{"f":"cards","id":"ko.c0104","k":"note","src":"Many café bathrooms have a keypad. It's printed on the receipt or ask staff.","tgt":""}
-{"f":"cards","id":"ko.c0105","k":"meaning","src":"Is there toilet paper?","tgt":""}
-{"f":"cards","id":"ko.c0105","k":"note","src":"휴지 = tissue/toilet paper. Carry some anyway.","tgt":""}
-{"f":"cards","id":"ko.c0106","k":"meaning","src":"Where's a convenience store?","tgt":""}
-{"f":"cards","id":"ko.c0106","k":"note","src":"GS25, CU, 세븐일레븐. There's always one.","tgt":""}
-{"f":"cards","id":"ko.c0107","k":"meaning","src":"Where's the nearest station?","tgt":""}
-{"f":"cards","id":"ko.c0107","k":"note","src":"제일 가까운 = the nearest.","tgt":""}
-{"f":"cards","id":"ko.c0108","k":"meaning","src":"Where's the exit?","tgt":""}
-{"f":"cards","id":"ko.c0108","k":"note","src":"입구 = entrance. 출구 = exit.","tgt":""}
-{"f":"cards","id":"ko.c0109","k":"meaning","src":"Which exit number?","tgt":""}
-{"f":"cards","id":"ko.c0109","k":"note","src":"Subway exits are numbered. 3번 출구 = exit 3.","tgt":""}
-{"f":"cards","id":"ko.c0110","k":"meaning","src":"Where is this? / Where am I?","tgt":""}
-{"f":"cards","id":"ko.c0110","k":"note","src":"Show your map and ask.","tgt":""}
-{"f":"cards","id":"ko.c0111","k":"meaning","src":"Where do I buy this?","tgt":""}
-{"f":"cards","id":"ko.c0111","k":"note","src":"사다 = to buy. 팔아요? = do you sell it?","tgt":""}
-{"f":"cards","id":"ko.c0112","k":"meaning","src":"Where's the checkout?","tgt":""}
-{"f":"cards","id":"ko.c0112","k":"note","src":"계산 = payment. 계산대 = counter.","tgt":""}
-{"f":"cards","id":"ko.c0113","k":"meaning","src":"Is there a seat / a table?","tgt":""}
-{"f":"cards","id":"ko.c0113","k":"note","src":"Walking into a restaurant or café.","tgt":""}
-{"f":"cards","id":"ko.c0114","k":"meaning","src":"Two people","tgt":""}
-{"f":"cards","id":"ko.c0114","k":"note","src":"Answer to 몇 명이세요? (how many?). 한 명이요 = one. 세 명이요 = three.","tgt":""}
-{"f":"cards","id":"ko.c0115","k":"meaning","src":"Can I sit here?","tgt":""}
-{"f":"cards","id":"ko.c0115","k":"note","src":"앉다 = to sit.","tgt":""}
-{"f":"cards","id":"ko.c0116","k":"meaning","src":"Do you have a charger?","tgt":""}
-{"f":"cards","id":"ko.c0116","k":"note","src":"Cafés often lend them. 콘센트 = outlet.","tgt":""}
-{"f":"cards","id":"ko.c0117","k":"meaning","src":"Where's an outlet?","tgt":""}
-{"f":"cards","id":"ko.c0117","k":"note","src":"콘센트 from 'concentric plug'.","tgt":""}
-{"f":"cards","id":"ko.c0118","k":"meaning","src":"Is there wifi?","tgt":""}
-{"f":"cards","id":"ko.c0118","k":"note","src":"Follow with 비밀번호가 뭐예요?","tgt":""}
-{"f":"cards","id":"ko.c0119","k":"meaning","src":"What time do you close?","tgt":""}
-{"f":"cards","id":"ko.c0119","k":"note","src":"닫다 = close. 열어요 = open.","tgt":""}
-{"f":"cards","id":"ko.c0120","k":"meaning","src":"What time do you open?","tgt":""}
-{"f":"cards","id":"ko.c0120","k":"note","src":"열다 = open.","tgt":""}
-{"f":"cards","id":"ko.c0121","k":"meaning","src":"How long do I have to wait?","tgt":""}
-{"f":"cards","id":"ko.c0121","k":"note","src":"기다리다 = wait. 아/어야 돼요 = have to.","tgt":""}
-{"f":"cards","id":"ko.c0122","k":"meaning","src":"Could you take a photo for us?","tgt":""}
-{"f":"cards","id":"ko.c0122","k":"note","src":"Extra polite with 주실래요. Hand over the phone after.","tgt":""}
-{"f":"cards","id":"ko.c0123","k":"meaning","src":"Receipt, please","tgt":""}
-{"f":"cards","id":"ko.c0123","k":"note","src":"영수증 필요하세요? = do you need a receipt? (they'll ask).","tgt":""}
-{"f":"cards","id":"ko.c0124","k":"meaning","src":"A bag, please","tgt":""}
-{"f":"cards","id":"ko.c0124","k":"note","src":"Bags cost ~100원. 봉투 필요하세요? = need a bag?","tgt":""}
-{"f":"cards","id":"ko.c0125","k":"meaning","src":"Is there a discount?","tgt":""}
-{"f":"cards","id":"ko.c0125","k":"note","src":"할인 = discount. 세일 = sale.","tgt":""}
-{"f":"cards","id":"ko.c0126","k":"meaning","src":"Can I exchange this?","tgt":""}
-{"f":"cards","id":"ko.c0126","k":"note","src":"교환 = exchange. 환불 = refund.","tgt":""}
-{"f":"cards","id":"ko.c0127","k":"meaning","src":"One iced Americano, please","tgt":""}
-{"f":"cards","id":"ko.c0127","k":"note","src":"아아 (a-a) = iced Americano slang. 뜨아 = hot Americano.","tgt":""}
-{"f":"cards","id":"ko.c0128","k":"meaning","src":"Hot one, please","tgt":""}
-{"f":"cards","id":"ko.c0128","k":"note","src":"따뜻한 = warm/hot. 차가운 거 = cold one.","tgt":""}
-{"f":"cards","id":"ko.c0129","k":"meaning","src":"What sizes do you have?","tgt":""}
-{"f":"cards","id":"ko.c0129","k":"note","src":"Most cafés: 톨 / 그란데 / 벤티 or 레귤러 / 라지.","tgt":""}
-{"f":"cards","id":"ko.c0130","k":"meaning","src":"The large one, please","tgt":""}
-{"f":"cards","id":"ko.c0130","k":"note","src":"큰 = big. 작은 거 = the small one.","tgt":""}
-{"f":"cards","id":"ko.c0131","k":"meaning","src":"Less sweet, please","tgt":""}
-{"f":"cards","id":"ko.c0131","k":"note","src":"덜 = less. 안 달게 = not sweet.","tgt":""}
-{"f":"cards","id":"ko.c0132","k":"meaning","src":"No syrup, please","tgt":""}
-{"f":"cards","id":"ko.c0132","k":"note","src":"빼다 = take out. 얼음 빼 주세요 = no ice.","tgt":""}
-{"f":"cards","id":"ko.c0133","k":"meaning","src":"For here? (they ask)","tgt":""}
-{"f":"cards","id":"ko.c0133","k":"note","src":"Answer: 네, 먹고 갈게요 (for here) / 포장이요 (to go).","tgt":""}
-{"f":"cards","id":"ko.c0134","k":"meaning","src":"To go","tgt":""}
-{"f":"cards","id":"ko.c0134","k":"note","src":"Short answer. 테이크아웃 also understood.","tgt":""}
-{"f":"cards","id":"ko.c0135","k":"meaning","src":"(Give me) the buzzer","tgt":""}
-{"f":"cards","id":"ko.c0135","k":"note","src":"They hand you a pager; it buzzes when your order is ready.","tgt":""}
-{"f":"cards","id":"ko.c0136","k":"meaning","src":"Do you have a points card? (they ask)","tgt":""}
-{"f":"cards","id":"ko.c0136","k":"note","src":"Answer: 아니요, 괜찮아요 = no thanks.","tgt":""}
-{"f":"cards","id":"ko.c0137","k":"meaning","src":"I don't have a membership","tgt":""}
-{"f":"cards","id":"ko.c0137","k":"note","src":"Convenience store cashiers ask this constantly.","tgt":""}
-{"f":"cards","id":"ko.c0138","k":"meaning","src":"Please heat it up","tgt":""}
-{"f":"cards","id":"ko.c0138","k":"note","src":"Convenience store 도시락 and 삼각김밥. 데우다 = to heat.","tgt":""}
-{"f":"cards","id":"ko.c0139","k":"meaning","src":"Where's the microwave?","tgt":""}
-{"f":"cards","id":"ko.c0139","k":"note","src":"Self-serve heating area, usually by the window seats.","tgt":""}
-{"f":"cards","id":"ko.c0140","k":"meaning","src":"Is there hot water?","tgt":""}
-{"f":"cards","id":"ko.c0140","k":"note","src":"For 컵라면 (cup noodles). It's free at every 편의점.","tgt":""}
-{"f":"cards","id":"ko.c0141","k":"meaning","src":"Do you need a bag? (they ask)","tgt":""}
-{"f":"cards","id":"ko.c0141","k":"note","src":"Answer: 네 / 아니요. Bags cost ~100원.","tgt":""}
-{"f":"cards","id":"ko.c0642","k":"meaning","src":"Is this buy one get one?","tgt":""}
-{"f":"cards","id":"ko.c0642","k":"note","src":"Korea's 1+1 / 2+1 stickers. Say 원 플러스 원.","tgt":""}
-{"f":"cards","id":"ko.c0143","k":"meaning","src":"Please bag these separately","tgt":""}
-{"f":"cards","id":"ko.c0143","k":"note","src":"따로 = separately. 담다 = put in.","tgt":""}
-{"f":"cards","id":"ko.c0144","k":"meaning","src":"I'll pay by card","tgt":""}
-{"f":"cards","id":"ko.c0144","k":"note","src":"현금으로 = by cash. Tap, no signature needed.","tgt":""}
-{"f":"cards","id":"ko.c0145","k":"meaning","src":"4,500 won","tgt":""}
-{"f":"cards","id":"ko.c0145","k":"note","src":"Sino-Korean: 사천오백. 원 = won.","tgt":""}
-{"f":"cards","id":"ko.c0146","k":"meaning","src":"12,000 won","tgt":""}
-{"f":"cards","id":"ko.c0146","k":"note","src":"만 이천 → 만이천. Big numbers group by 만 (10,000).","tgt":""}
-{"f":"cards","id":"ko.c0147","k":"meaning","src":"38,900 won","tgt":""}
-{"f":"cards","id":"ko.c0147","k":"note","src":"삼만 팔천 구백. Say it slowly; cashiers show the screen anyway.","tgt":""}
-{"f":"cards","id":"ko.c0148","k":"meaning","src":"Phone number","tgt":""}
-{"f":"cards","id":"ko.c0148","k":"note","src":"Phone digits are Sino, and 0 is 공 (gong), not 영.","tgt":""}
-{"f":"cards","id":"ko.c0149","k":"meaning","src":"3rd floor","tgt":""}
-{"f":"cards","id":"ko.c0149","k":"note","src":"층 = floor, Sino number. 지하 1층 (B1) = jiha ilcheung.","tgt":""}
-{"f":"cards","id":"ko.c0150","k":"meaning","src":"2 PM","tgt":""}
-{"f":"cards","id":"ko.c0150","k":"note","src":"Hours are native: 두 시. 오후 = PM, 오전 = AM.","tgt":""}
-{"f":"cards","id":"ko.c0151","k":"meaning","src":"9:30 AM","tgt":""}
-{"f":"cards","id":"ko.c0151","k":"note","src":"Native hour (아홉), Sino minutes (삼십).","tgt":""}
-{"f":"cards","id":"ko.c0152","k":"meaning","src":"Just 5 minutes","tgt":""}
-{"f":"cards","id":"ko.c0152","k":"note","src":"분 = minute (Sino). 만 = only.","tgt":""}
-{"f":"cards","id":"ko.c0153","k":"meaning","src":"Line 2","tgt":""}
-{"f":"cards","id":"ko.c0153","k":"note","src":"Subway lines: 호선 with Sino numbers. 9호선 = guhoseon.","tgt":""}
-{"f":"cards","id":"ko.c0154","k":"meaning","src":"Exit 4","tgt":""}
-{"f":"cards","id":"ko.c0154","k":"note","src":"번 = number. 몇 번 출구? = which exit?","tgt":""}
-{"f":"cards","id":"ko.c0155","k":"meaning","src":"2 people","tgt":""}
-{"f":"cards","id":"ko.c0155","k":"note","src":"명 = person counter, native: 한 명, 두 명, 세 명, 네 명.","tgt":""}
-{"f":"cards","id":"ko.c0156","k":"meaning","src":"3 bottles of beer","tgt":""}
-{"f":"cards","id":"ko.c0156","k":"note","src":"병 = bottle, native number. 잔 = glass.","tgt":""}
-{"f":"cards","id":"ko.c0157","k":"meaning","src":"3 (things)","tgt":""}
-{"f":"cards","id":"ko.c0157","k":"note","src":"개 = generic counter. 한 개, 두 개, 세 개, 네 개.","tgt":""}
-{"f":"cards","id":"ko.c0158","k":"meaning","src":"25 years old","tgt":""}
-{"f":"cards","id":"ko.c0158","k":"note","src":"Native. 서른 살 = 30.","tgt":""}
-{"f":"cards","id":"ko.c0159","k":"meaning","src":"November 13","tgt":""}
-{"f":"cards","id":"ko.c0159","k":"note","src":"Months and days are Sino: 십일월 십삼일.","tgt":""}
+{"f":"cards","id":"ko.c0089","k":"meaning","src":"I didn't understand","tgt":"我聽唔明"}
+{"f":"cards","id":"ko.c0089","k":"note","src":"Say it, then 다시 말해 주세요.","tgt":"講完再講 다시 말해 주세요。"}
+{"f":"cards","id":"ko.c0090","k":"meaning","src":"Please say it again","tgt":"唔該再講一次"}
+{"f":"cards","id":"ko.c0090","k":"note","src":"다시 = again.","tgt":"다시 = 再。"}
+{"f":"cards","id":"ko.c0091","k":"meaning","src":"Can you speak English?","tgt":"你識唔識講英文？","rw":"mentions English"}
+{"f":"cards","id":"ko.c0091","k":"note","src":"할 수 있다 = can do.","tgt":"할 수 있다 = 識、做得到。"}
+{"f":"cards","id":"ko.c0644","k":"meaning","src":"Do you speak ___?","tgt":"你識唔識講 ___？"}
+{"f":"cards","id":"ko.c0644","k":"note","src":"Language + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? Most languages are the country name + 어 (see the Countries deck); English is 영어.","tgt":"語言 + 할 수 있어요?：영어、스페인어、중국어 할 수 있어요? 大部分語言係國名 + 어（睇「國家同地區」卡組）；英文係 영어。","rw":"mentions English"}
+{"f":"cards","id":"ko.c0092","k":"meaning","src":"What is this?","tgt":"呢個係咩嚟？"}
+{"f":"cards","id":"ko.c0092","k":"note","src":"Point and ask. Works for food, signs, everything.","tgt":"指住問。嘢食、招牌，乜都用得。"}
+{"f":"cards","id":"ko.c0093","k":"meaning","src":"I'm going to use the bathroom","tgt":"我借用一下洗手間"}
+{"f":"cards","id":"ko.c0093","k":"note","src":"좀 softens; 게요 announces.","tgt":"좀 令語氣軟啲；게요 表示「我而家去做」。"}
+{"f":"cards","id":"ko.c0094","k":"meaning","src":"Do you take cards?","tgt":"可唔可以碌卡？"}
+{"f":"cards","id":"ko.c0094","k":"note","src":"돼요 = is it possible / does it work.","tgt":"돼요 = 得唔得、用唔用到。"}
+{"f":"cards","id":"ko.c0095","k":"meaning","src":"What's the wifi password?","tgt":"Wi-Fi 密碼係咩？"}
+{"f":"cards","id":"ko.c0095","k":"note","src":"비밀번호 = password.","tgt":"비밀번호 = 密碼。"}
+{"f":"cards","id":"ko.c0096","k":"meaning","src":"Do you deliver?","tgt":"有冇外賣送？"}
+{"f":"cards","id":"ko.c0096","k":"note","src":"배달 = delivery. Korea delivers everything.","tgt":"배달 = 送外賣。韓國乜都有得送。"}
+{"f":"cards","id":"ko.c0097","k":"meaning","src":"I have a reservation","tgt":"我有訂位"}
+{"f":"cards","id":"ko.c0097","k":"note","src":"예약 = reservation. 예약 가능해요? = can I book?","tgt":"예약 = 訂位、預約。예약 가능해요? = 可唔可以訂？"}
+{"f":"cards","id":"ko.c0098","k":"meaning","src":"I'm lost","tgt":"我蕩失路"}
+{"f":"cards","id":"ko.c0098","k":"note","src":"길 = road/way. 잃다 = to lose.","tgt":"길 = 路。잃다 = 唔見咗。"}
+{"f":"cards","id":"ko.c0099","k":"meaning","src":"Where is the hospital?","tgt":"醫院喺邊？"}
+{"f":"cards","id":"ko.c0099","k":"note","src":"약국 (yakguk) = pharmacy. 경찰서 = police station.","tgt":"약국（yakguk）= 藥房。경찰서 = 警署。"}
+{"f":"cards","id":"ko.c0100","k":"meaning","src":"Slowly, please","tgt":"慢啲吖，唔該"}
+{"f":"cards","id":"ko.c0100","k":"note","src":"Shortest version of 천천히 말해 주세요.","tgt":"천천히 말해 주세요 嘅最短版本。"}
+{"f":"cards","id":"ko.c0101","k":"meaning","src":"Where is the bathroom?","tgt":"洗手間喺邊度？"}
+{"f":"cards","id":"ko.c0101","k":"note","src":"Full form. Short: 화장실 어디예요? Both fine.","tgt":"完整講法。短啲：화장실 어디예요? 兩個都得。"}
+{"f":"cards","id":"ko.c0102","k":"meaning","src":"Is there a bathroom here?","tgt":"呢度有冇洗手間？"}
+{"f":"cards","id":"ko.c0102","k":"note","src":"Cafés and small shops often don't have one inside.","tgt":"咖啡店同細舖頭好多時入面冇。"}
+{"f":"cards","id":"ko.c0103","k":"meaning","src":"Can I use the bathroom?","tgt":"可唔可以借個洗手間？"}
+{"f":"cards","id":"ko.c0103","k":"note","src":"아/어도 돼요 = is it okay if I…","tgt":"아/어도 돼요 = 我……得唔得？"}
+{"f":"cards","id":"ko.c0104","k":"meaning","src":"What's the bathroom code?","tgt":"洗手間密碼係咩？"}
+{"f":"cards","id":"ko.c0104","k":"note","src":"Many café bathrooms have a keypad. It's printed on the receipt or ask staff.","tgt":"好多咖啡店洗手間有密碼鎖，密碼印喺收據上，或者問店員。"}
+{"f":"cards","id":"ko.c0105","k":"meaning","src":"Is there toilet paper?","tgt":"有冇廁紙？"}
+{"f":"cards","id":"ko.c0105","k":"note","src":"휴지 = tissue/toilet paper. Carry some anyway.","tgt":"휴지 = 紙巾、廁紙。最好自己帶定。"}
+{"f":"cards","id":"ko.c0106","k":"meaning","src":"Where's a convenience store?","tgt":"邊度有便利店？"}
+{"f":"cards","id":"ko.c0106","k":"note","src":"GS25, CU, 세븐일레븐. There's always one.","tgt":"GS25、CU、세븐일레븐，周圍都有。"}
+{"f":"cards","id":"ko.c0107","k":"meaning","src":"Where's the nearest station?","tgt":"最近嘅車站喺邊？"}
+{"f":"cards","id":"ko.c0107","k":"note","src":"제일 가까운 = the nearest.","tgt":"제일 가까운 = 最近嘅。"}
+{"f":"cards","id":"ko.c0108","k":"meaning","src":"Where's the exit?","tgt":"出口喺邊？"}
+{"f":"cards","id":"ko.c0108","k":"note","src":"입구 = entrance. 출구 = exit.","tgt":"입구 = 入口，출구 = 出口。「入（jap6）」收 -p，韓文收 p；「出（ceot1）」收 -t，韓文收 l。"}
+{"f":"cards","id":"ko.c0109","k":"meaning","src":"Which exit number?","tgt":"幾號出口？"}
+{"f":"cards","id":"ko.c0109","k":"note","src":"Subway exits are numbered. 3번 출구 = exit 3.","tgt":"首爾地鐵出口用數字（香港用字母加數字，例如 A1）。3번 출구 = 3 號出口。"}
+{"f":"cards","id":"ko.c0110","k":"meaning","src":"Where is this? / Where am I?","tgt":"呢度係邊？ / 我喺邊？"}
+{"f":"cards","id":"ko.c0110","k":"note","src":"Show your map and ask.","tgt":"攞地圖出嚟俾人睇住問。"}
+{"f":"cards","id":"ko.c0111","k":"meaning","src":"Where do I buy this?","tgt":"呢樣嘢喺邊度買？"}
+{"f":"cards","id":"ko.c0111","k":"note","src":"사다 = to buy. 팔아요? = do you sell it?","tgt":"사다 = 買。팔아요? = 有冇得賣？"}
+{"f":"cards","id":"ko.c0112","k":"meaning","src":"Where's the checkout?","tgt":"收銀處喺邊？"}
+{"f":"cards","id":"ko.c0112","k":"note","src":"계산 = payment. 계산대 = counter.","tgt":"계산 = 俾錢、埋單。계산대 = 收銀處。"}
+{"f":"cards","id":"ko.c0113","k":"meaning","src":"Is there a seat / a table?","tgt":"有冇位？"}
+{"f":"cards","id":"ko.c0113","k":"note","src":"Walking into a restaurant or café.","tgt":"行入餐廳或者咖啡店時講。"}
+{"f":"cards","id":"ko.c0114","k":"meaning","src":"Two people","tgt":"兩位"}
+{"f":"cards","id":"ko.c0114","k":"note","src":"Answer to 몇 명이세요? (how many?). 한 명이요 = one. 세 명이요 = three.","tgt":"答 몇 명이세요?（請問幾多位？）。한 명이요 = 一位。세 명이요 = 三位。"}
+{"f":"cards","id":"ko.c0115","k":"meaning","src":"Can I sit here?","tgt":"我可唔可以坐呢度？"}
+{"f":"cards","id":"ko.c0115","k":"note","src":"앉다 = to sit.","tgt":"앉다 = 坐。"}
+{"f":"cards","id":"ko.c0116","k":"meaning","src":"Do you have a charger?","tgt":"有冇叉電器？"}
+{"f":"cards","id":"ko.c0116","k":"note","src":"Cafés often lend them. 콘센트 = outlet.","tgt":"咖啡店好多時會借俾你。콘센트 = 插蘇。"}
+{"f":"cards","id":"ko.c0117","k":"meaning","src":"Where's an outlet?","tgt":"邊度有插蘇？"}
+{"f":"cards","id":"ko.c0117","k":"note","src":"콘센트 from 'concentric plug'.","tgt":"一般認為 콘센트 嚟自英文 concentric plug。"}
+{"f":"cards","id":"ko.c0118","k":"meaning","src":"Is there wifi?","tgt":"有冇 Wi-Fi？"}
+{"f":"cards","id":"ko.c0118","k":"note","src":"Follow with 비밀번호가 뭐예요?","tgt":"跟住問 비밀번호가 뭐예요?"}
+{"f":"cards","id":"ko.c0119","k":"meaning","src":"What time do you close?","tgt":"幾點閂門？"}
+{"f":"cards","id":"ko.c0119","k":"note","src":"닫다 = close. 열어요 = open.","tgt":"닫다 = 閂。열어요 = 開。"}
+{"f":"cards","id":"ko.c0120","k":"meaning","src":"What time do you open?","tgt":"幾點開門？"}
+{"f":"cards","id":"ko.c0120","k":"note","src":"열다 = open.","tgt":"열다 = 開。"}
+{"f":"cards","id":"ko.c0121","k":"meaning","src":"How long do I have to wait?","tgt":"要等幾耐？"}
+{"f":"cards","id":"ko.c0121","k":"note","src":"기다리다 = wait. 아/어야 돼요 = have to.","tgt":"기다리다 = 等。아/어야 돼요 = 要、一定要。"}
+{"f":"cards","id":"ko.c0122","k":"meaning","src":"Could you take a photo for us?","tgt":"可唔可以麻煩你幫我哋影張相？"}
+{"f":"cards","id":"ko.c0122","k":"note","src":"Extra polite with 주실래요. Hand over the phone after.","tgt":"用 주실래요 特別有禮貌。講完就將部手機遞俾對方。"}
+{"f":"cards","id":"ko.c0123","k":"meaning","src":"Receipt, please","tgt":"唔該俾張收據我"}
+{"f":"cards","id":"ko.c0123","k":"note","src":"영수증 필요하세요? = do you need a receipt? (they'll ask).","tgt":"영수증 필요하세요? = 請問要唔要收據？（店員會問）"}
+{"f":"cards","id":"ko.c0124","k":"meaning","src":"A bag, please","tgt":"唔該俾個袋我"}
+{"f":"cards","id":"ko.c0124","k":"note","src":"Bags cost ~100원. 봉투 필요하세요? = need a bag?","tgt":"膠袋大約 100원。봉투 필요하세요? = 請問要唔要膠袋？"}
+{"f":"cards","id":"ko.c0125","k":"meaning","src":"Is there a discount?","tgt":"有冇折？"}
+{"f":"cards","id":"ko.c0125","k":"note","src":"할인 = discount. 세일 = sale.","tgt":"할인 = 折扣。세일 = 減價。"}
+{"f":"cards","id":"ko.c0126","k":"meaning","src":"Can I exchange this?","tgt":"呢件可唔可以換？"}
+{"f":"cards","id":"ko.c0126","k":"note","src":"교환 = exchange. 환불 = refund.","tgt":"교환 = 換貨。환불 = 退錢。"}
+{"f":"cards","id":"ko.c0127","k":"meaning","src":"One iced Americano, please","tgt":"唔該要一杯凍美式"}
+{"f":"cards","id":"ko.c0127","k":"note","src":"아아 (a-a) = iced Americano slang. 뜨아 = hot Americano.","tgt":"아아（a-a）= 凍美式嘅潮語簡稱。뜨아 = 熱美式。"}
+{"f":"cards","id":"ko.c0128","k":"meaning","src":"Hot one, please","tgt":"唔該要熱嘅"}
+{"f":"cards","id":"ko.c0128","k":"note","src":"따뜻한 = warm/hot. 차가운 거 = cold one.","tgt":"따뜻한 = 暖、熱。차가운 거 = 凍嘅。"}
+{"f":"cards","id":"ko.c0129","k":"meaning","src":"What sizes do you have?","tgt":"有咩大細？"}
+{"f":"cards","id":"ko.c0129","k":"note","src":"Most cafés: 톨 / 그란데 / 벤티 or 레귤러 / 라지.","tgt":"大部分咖啡店：톨 / 그란데 / 벤티，或者 레귤러 / 라지。"}
+{"f":"cards","id":"ko.c0130","k":"meaning","src":"The large one, please","tgt":"唔該要大杯"}
+{"f":"cards","id":"ko.c0130","k":"note","src":"큰 = big. 작은 거 = the small one.","tgt":"큰 = 大。작은 거 = 細嘅。"}
+{"f":"cards","id":"ko.c0131","k":"meaning","src":"Less sweet, please","tgt":"唔該少甜"}
+{"f":"cards","id":"ko.c0131","k":"note","src":"덜 = less. 안 달게 = not sweet.","tgt":"덜 = 少啲。안 달게 = 唔要甜。"}
+{"f":"cards","id":"ko.c0132","k":"meaning","src":"No syrup, please","tgt":"唔該走糖漿"}
+{"f":"cards","id":"ko.c0132","k":"note","src":"빼다 = take out. 얼음 빼 주세요 = no ice.","tgt":"빼다 = 攞走。얼음 빼 주세요 = 走冰。"}
+{"f":"cards","id":"ko.c0133","k":"meaning","src":"For here? (they ask)","tgt":"請問喺度食？（店員問）"}
+{"f":"cards","id":"ko.c0133","k":"note","src":"Answer: 네, 먹고 갈게요 (for here) / 포장이요 (to go).","tgt":"答：네, 먹고 갈게요（喺度食）/ 포장이요（拎走）。"}
+{"f":"cards","id":"ko.c0134","k":"meaning","src":"To go","tgt":"拎走"}
+{"f":"cards","id":"ko.c0134","k":"note","src":"Short answer. 테이크아웃 also understood.","tgt":"簡短答法。講 테이크아웃 都聽得明。"}
+{"f":"cards","id":"ko.c0135","k":"meaning","src":"(Give me) the buzzer","tgt":"（唔該俾我）震機"}
+{"f":"cards","id":"ko.c0135","k":"note","src":"They hand you a pager; it buzzes when your order is ready.","tgt":"店員俾你一個震機，嘢整好佢就會震。"}
+{"f":"cards","id":"ko.c0136","k":"meaning","src":"Do you have a points card? (they ask)","tgt":"請問有冇積分卡？（店員問）"}
+{"f":"cards","id":"ko.c0136","k":"note","src":"Answer: 아니요, 괜찮아요 = no thanks.","tgt":"答：아니요, 괜찮아요 = 唔使喇，多謝。"}
+{"f":"cards","id":"ko.c0137","k":"meaning","src":"I don't have a membership","tgt":"我冇會員"}
+{"f":"cards","id":"ko.c0137","k":"note","src":"Convenience store cashiers ask this constantly.","tgt":"便利店收銀員成日都會問。"}
+{"f":"cards","id":"ko.c0138","k":"meaning","src":"Please heat it up","tgt":"唔該幫我叮熱"}
+{"f":"cards","id":"ko.c0138","k":"note","src":"Convenience store 도시락 and 삼각김밥. 데우다 = to heat.","tgt":"便利店嘅 도시락 同 삼각김밥。데우다 = 叮熱、翻熱。"}
+{"f":"cards","id":"ko.c0139","k":"meaning","src":"Where's the microwave?","tgt":"微波爐喺邊？"}
+{"f":"cards","id":"ko.c0139","k":"note","src":"Self-serve heating area, usually by the window seats.","tgt":"自助叮熱區，通常喺窗邊座位隔籬。"}
+{"f":"cards","id":"ko.c0140","k":"meaning","src":"Is there hot water?","tgt":"有冇熱水？"}
+{"f":"cards","id":"ko.c0140","k":"note","src":"For 컵라면 (cup noodles). It's free at every 편의점.","tgt":"沖 컵라면（杯麵）用。每間 편의점 都免費。"}
+{"f":"cards","id":"ko.c0141","k":"meaning","src":"Do you need a bag? (they ask)","tgt":"請問要唔要膠袋？（店員問）"}
+{"f":"cards","id":"ko.c0141","k":"note","src":"Answer: 네 / 아니요. Bags cost ~100원.","tgt":"答：네 / 아니요。膠袋大約 100원。"}
+{"f":"cards","id":"ko.c0642","k":"meaning","src":"Is this buy one get one?","tgt":"係咪買一送一？"}
+{"f":"cards","id":"ko.c0642","k":"note","src":"Korea's 1+1 / 2+1 stickers. Say 원 플러스 원.","tgt":"韓國嘅 1+1 / 2+1 貼紙。讀做 원 플러스 원。"}
+{"f":"cards","id":"ko.c0143","k":"meaning","src":"Please bag these separately","tgt":"唔該分開袋"}
+{"f":"cards","id":"ko.c0143","k":"note","src":"따로 = separately. 담다 = put in.","tgt":"따로 = 分開。담다 = 放入去。"}
+{"f":"cards","id":"ko.c0144","k":"meaning","src":"I'll pay by card","tgt":"我碌卡"}
+{"f":"cards","id":"ko.c0144","k":"note","src":"현금으로 = by cash. Tap, no signature needed.","tgt":"현금으로 = 用現金。拍卡就得，唔使簽名。"}
+{"f":"cards","id":"ko.c0145","k":"meaning","src":"4,500 won","tgt":"4,500 韓元"}
+{"f":"cards","id":"ko.c0145","k":"note","src":"Sino-Korean: 사천오백. 원 = won.","tgt":"漢字詞數字：사천오백，同廣東話「四千五百」一樣砌法。원 = 韓元。"}
+{"f":"cards","id":"ko.c0146","k":"meaning","src":"12,000 won","tgt":"12,000 韓元"}
+{"f":"cards","id":"ko.c0146","k":"note","src":"만 이천 → 만이천. Big numbers group by 만 (10,000).","tgt":"만 이천 → 만이천。大數目以 만（萬）做單位，同廣東話一樣；不過 만 前面唔使加「一」。"}
+{"f":"cards","id":"ko.c0147","k":"meaning","src":"38,900 won","tgt":"38,900 韓元"}
+{"f":"cards","id":"ko.c0147","k":"note","src":"삼만 팔천 구백. Say it slowly; cashiers show the screen anyway.","tgt":"삼만 팔천 구백，即係「三萬八千九百」。慢慢講；收銀員都會俾你睇螢幕。"}
+{"f":"cards","id":"ko.c0148","k":"meaning","src":"Phone number","tgt":"電話號碼"}
+{"f":"cards","id":"ko.c0148","k":"note","src":"Phone digits are Sino, and 0 is 공 (gong), not 영.","tgt":"電話號碼用漢字詞數字，0 讀 공（gong），唔係 영。"}
+{"f":"cards","id":"ko.c0149","k":"meaning","src":"3rd floor","tgt":"3 樓"}
+{"f":"cards","id":"ko.c0149","k":"note","src":"층 = floor, Sino number. 지하 1층 (B1) = jiha ilcheung.","tgt":"층 = 樓層，用漢字詞數字。지하 1층（B1）= jiha ilcheung。韓國嘅 1층 即係香港嘅地下。"}
+{"f":"cards","id":"ko.c0150","k":"meaning","src":"2 PM","tgt":"下晝 2 點"}
+{"f":"cards","id":"ko.c0150","k":"note","src":"Hours are native: 두 시. 오후 = PM, 오전 = AM.","tgt":"鐘點用固有詞：두 시。오후 = 下晝，오전 = 上晝。"}
+{"f":"cards","id":"ko.c0151","k":"meaning","src":"9:30 AM","tgt":"上晝 9:30"}
+{"f":"cards","id":"ko.c0151","k":"note","src":"Native hour (아홉), Sino minutes (삼십).","tgt":"鐘點用固有詞（아홉），分鐘用漢字詞（삼십）。"}
+{"f":"cards","id":"ko.c0152","k":"meaning","src":"Just 5 minutes","tgt":"5 分鐘就好"}
+{"f":"cards","id":"ko.c0152","k":"note","src":"분 = minute (Sino). 만 = only.","tgt":"분 = 分鐘（漢字詞）。만 = 淨係。"}
+{"f":"cards","id":"ko.c0153","k":"meaning","src":"Line 2","tgt":"2 號線"}
+{"f":"cards","id":"ko.c0153","k":"note","src":"Subway lines: 호선 with Sino numbers. 9호선 = guhoseon.","tgt":"地鐵線：漢字詞數字 + 호선（號線）。9호선 = guhoseon。"}
+{"f":"cards","id":"ko.c0154","k":"meaning","src":"Exit 4","tgt":"4 號出口"}
+{"f":"cards","id":"ko.c0154","k":"note","src":"번 = number. 몇 번 출구? = which exit?","tgt":"번 = 號。몇 번 출구? = 幾號出口？"}
+{"f":"cards","id":"ko.c0155","k":"meaning","src":"2 people","tgt":"2 個人"}
+{"f":"cards","id":"ko.c0155","k":"note","src":"명 = person counter, native: 한 명, 두 명, 세 명, 네 명.","tgt":"명 = 人嘅量詞，用固有詞：한 명、두 명、세 명、네 명。"}
+{"f":"cards","id":"ko.c0156","k":"meaning","src":"3 bottles of beer","tgt":"3 樽啤酒"}
+{"f":"cards","id":"ko.c0156","k":"note","src":"병 = bottle, native number. 잔 = glass.","tgt":"병 = 樽，用固有詞數字。잔 = 杯。"}
+{"f":"cards","id":"ko.c0157","k":"meaning","src":"3 (things)","tgt":"3 個"}
+{"f":"cards","id":"ko.c0157","k":"note","src":"개 = generic counter. 한 개, 두 개, 세 개, 네 개.","tgt":"개 = 通用量詞，好似廣東話「個」。한 개、두 개、세 개、네 개。"}
+{"f":"cards","id":"ko.c0158","k":"meaning","src":"25 years old","tgt":"25 歲"}
+{"f":"cards","id":"ko.c0158","k":"note","src":"Native. 서른 살 = 30.","tgt":"用固有詞。서른 살 = 30 歲。"}
+{"f":"cards","id":"ko.c0159","k":"meaning","src":"November 13","tgt":"11 月 13 日"}
+{"f":"cards","id":"ko.c0159","k":"note","src":"Months and days are Sino: 십일월 십삼일.","tgt":"月份同日子用漢字詞：십일월 십삼일，同廣東話「十一月十三日」一樣。"}
 {"f":"cards","id":"ko.c0160","k":"meaning","src":"2026","tgt":"2026","pre":1}
-{"f":"cards","id":"ko.c0160","k":"note","src":"년 = year. 이천이십육년.","tgt":""}
-{"f":"cards","id":"ko.c0161","k":"meaning","src":"50 percent","tgt":""}
-{"f":"cards","id":"ko.c0161","k":"note","src":"퍼센트 from English. 반값 = half price.","tgt":"","rw":"English loanword explanation"}
-{"f":"cards","id":"ko.c0162","k":"meaning","src":"It takes 30 minutes","tgt":""}
-{"f":"cards","id":"ko.c0162","k":"note","src":"걸리다 = to take (time).","tgt":""}
-{"f":"cards","id":"ko.c0163","k":"meaning","src":"one (thing)","tgt":""}
-{"f":"cards","id":"ko.c0163","k":"note","src":"개 = general things. 사과 한 개 = one apple.","tgt":""}
-{"f":"cards","id":"ko.c0164","k":"meaning","src":"two people","tgt":""}
-{"f":"cards","id":"ko.c0164","k":"note","src":"명 = people. 분 is the polite version: 두 분.","tgt":""}
-{"f":"cards","id":"ko.c0165","k":"meaning","src":"three cups / glasses","tgt":""}
-{"f":"cards","id":"ko.c0165","k":"note","src":"잔 = drinks in cups or glasses.","tgt":""}
-{"f":"cards","id":"ko.c0166","k":"meaning","src":"four bottles","tgt":""}
-{"f":"cards","id":"ko.c0166","k":"note","src":"병 = bottles. 소주 네 병 = four bottles of soju.","tgt":""}
-{"f":"cards","id":"ko.c0167","k":"meaning","src":"five animals","tgt":""}
-{"f":"cards","id":"ko.c0167","k":"note","src":"마리 = animals. 고양이 다섯 마리 = five cats.","tgt":""}
-{"f":"cards","id":"ko.c0168","k":"meaning","src":"six books","tgt":""}
-{"f":"cards","id":"ko.c0168","k":"note","src":"권 = books, notebooks.","tgt":""}
-{"f":"cards","id":"ko.c0169","k":"meaning","src":"seven sheets / tickets","tgt":""}
-{"f":"cards","id":"ko.c0169","k":"note","src":"장 = flat things: paper, tickets, photos.","tgt":""}
-{"f":"cards","id":"ko.c0170","k":"meaning","src":"eight years old","tgt":""}
-{"f":"cards","id":"ko.c0170","k":"note","src":"살 = age. 스물여덟 살 = 28.","tgt":""}
-{"f":"cards","id":"ko.c0171","k":"meaning","src":"two hours","tgt":""}
-{"f":"cards","id":"ko.c0171","k":"note","src":"시간 = hours of duration. 두 시 = 2 o'clock.","tgt":""}
-{"f":"cards","id":"ko.c0172","k":"meaning","src":"three times","tgt":""}
-{"f":"cards","id":"ko.c0172","k":"note","src":"번 = times (occurrences). Also 'number' for exits/buses.","tgt":""}
-{"f":"cards","id":"ko.c0173","k":"meaning","src":"one month","tgt":""}
-{"f":"cards","id":"ko.c0173","k":"note","src":"달 = months (native). 일 개월 = one month (Sino, formal).","tgt":""}
-{"f":"cards","id":"ko.c0174","k":"meaning","src":"two days","tgt":""}
-{"f":"cards","id":"ko.c0174","k":"note","src":"Special: 하루 (1 day), 이틀 (2), 사흘 (3). 일주일 = one week.","tgt":""}
-{"f":"cards","id":"ko.c0175","k":"meaning","src":"How many would you like?","tgt":""}
-{"f":"cards","id":"ko.c0175","k":"note","src":"몇 + counter = how many. Answer: 두 개요.","tgt":""}
-{"f":"cards","id":"ko.c0176","k":"meaning","src":"one bowl","tgt":""}
-{"f":"cards","id":"ko.c0176","k":"note","src":"그릇 = bowls (rice, soup). 국밥 한 그릇 주세요.","tgt":""}
-{"f":"cards","id":"ko.c0177","k":"meaning","src":"one bag (of)","tgt":""}
-{"f":"cards","id":"ko.c0177","k":"note","src":"봉지 = bag/packet of snacks or chips.","tgt":""}
-{"f":"cards","id":"ko.c0178","k":"meaning","src":"two pairs (shoes, socks)","tgt":""}
-{"f":"cards","id":"ko.c0178","k":"note","src":"켤레 = pairs of footwear.","tgt":""}
-{"f":"cards","id":"ko.c0179","k":"meaning","src":"How's the weather?","tgt":""}
-{"f":"cards","id":"ko.c0179","k":"note","src":"날씨 = weather. 어때요 = how is it.","tgt":""}
-{"f":"cards","id":"ko.c0180","k":"meaning","src":"It's so hot","tgt":""}
-{"f":"cards","id":"ko.c0180","k":"note","src":"Summer in Seoul: 덥고 습해요 = hot and humid.","tgt":""}
-{"f":"cards","id":"ko.c0181","k":"meaning","src":"The weather is cold","tgt":""}
-{"f":"cards","id":"ko.c0181","k":"note","src":"겨울 = winter. 너무 추워요 = so cold.","tgt":""}
-{"f":"cards","id":"ko.c0182","k":"meaning","src":"It's raining","tgt":""}
-{"f":"cards","id":"ko.c0182","k":"note","src":"비 = rain. 우산 있어요? = do you have an umbrella?","tgt":""}
-{"f":"cards","id":"ko.c0183","k":"meaning","src":"It's snowing","tgt":""}
-{"f":"cards","id":"ko.c0183","k":"note","src":"눈 = snow (also eye). 첫눈 = first snow, a date thing in Korea.","tgt":""}
-{"f":"cards","id":"ko.c0184","k":"meaning","src":"It's windy","tgt":""}
-{"f":"cards","id":"ko.c0184","k":"note","src":"바람 = wind. 불다 = to blow.","tgt":""}
-{"f":"cards","id":"ko.c0185","k":"meaning","src":"The fine dust is bad","tgt":""}
-{"f":"cards","id":"ko.c0185","k":"note","src":"Check the 미세먼지 level daily; people mask up when it's 나쁨.","tgt":""}
-{"f":"cards","id":"ko.c0186","k":"meaning","src":"I feel good","tgt":""}
-{"f":"cards","id":"ko.c0186","k":"note","src":"기분 = mood. 기분이 안 좋아요 = I feel bad.","tgt":""}
-{"f":"cards","id":"ko.c0187","k":"meaning","src":"I'm happy","tgt":""}
-{"f":"cards","id":"ko.c0187","k":"note","src":"행복 = happiness.","tgt":""}
-{"f":"cards","id":"ko.c0188","k":"meaning","src":"I'm sad","tgt":""}
+{"f":"cards","id":"ko.c0160","k":"note","src":"년 = year. 이천이십육년.","tgt":"년 = 年。이천이십육년。"}
+{"f":"cards","id":"ko.c0161","k":"meaning","src":"50 percent","tgt":"50%"}
+{"f":"cards","id":"ko.c0161","k":"note","src":"퍼센트 from English. 반값 = half price.","tgt":"퍼센트 嚟自英文 percent。반값 = 半價。","rw":"English loanword explanation"}
+{"f":"cards","id":"ko.c0162","k":"meaning","src":"It takes 30 minutes","tgt":"要 30 分鐘"}
+{"f":"cards","id":"ko.c0162","k":"note","src":"걸리다 = to take (time).","tgt":"걸리다 = 用（時間）。"}
+{"f":"cards","id":"ko.c0163","k":"meaning","src":"one (thing)","tgt":"一個（嘢）"}
+{"f":"cards","id":"ko.c0163","k":"note","src":"개 = general things. 사과 한 개 = one apple.","tgt":"개 = 一般嘅嘢，好似「個」。사과 한 개 = 一個蘋果。"}
+{"f":"cards","id":"ko.c0164","k":"meaning","src":"two people","tgt":"兩個人"}
+{"f":"cards","id":"ko.c0164","k":"note","src":"명 = people. 분 is the polite version: 두 분.","tgt":"명 = 人。분 係有禮貌嘅講法：두 분（兩位）。"}
+{"f":"cards","id":"ko.c0165","k":"meaning","src":"three cups / glasses","tgt":"三杯"}
+{"f":"cards","id":"ko.c0165","k":"note","src":"잔 = drinks in cups or glasses.","tgt":"잔 = 用杯裝嘅飲品。"}
+{"f":"cards","id":"ko.c0166","k":"meaning","src":"four bottles","tgt":"四樽"}
+{"f":"cards","id":"ko.c0166","k":"note","src":"병 = bottles. 소주 네 병 = four bottles of soju.","tgt":"병 = 樽。소주 네 병 = 四樽燒酒。"}
+{"f":"cards","id":"ko.c0167","k":"meaning","src":"five animals","tgt":"五隻（動物）"}
+{"f":"cards","id":"ko.c0167","k":"note","src":"마리 = animals. 고양이 다섯 마리 = five cats.","tgt":"마리 = 動物，好似「隻」。고양이 다섯 마리 = 五隻貓。"}
+{"f":"cards","id":"ko.c0168","k":"meaning","src":"six books","tgt":"六本書"}
+{"f":"cards","id":"ko.c0168","k":"note","src":"권 = books, notebooks.","tgt":"권 = 書、簿。"}
+{"f":"cards","id":"ko.c0169","k":"meaning","src":"seven sheets / tickets","tgt":"七張"}
+{"f":"cards","id":"ko.c0169","k":"note","src":"장 = flat things: paper, tickets, photos.","tgt":"장 = 扁平嘅嘢：紙、飛、相。"}
+{"f":"cards","id":"ko.c0170","k":"meaning","src":"eight years old","tgt":"八歲"}
+{"f":"cards","id":"ko.c0170","k":"note","src":"살 = age. 스물여덟 살 = 28.","tgt":"살 = 歲。스물여덟 살 = 28 歲。"}
+{"f":"cards","id":"ko.c0171","k":"meaning","src":"two hours","tgt":"兩個鐘"}
+{"f":"cards","id":"ko.c0171","k":"note","src":"시간 = hours of duration. 두 시 = 2 o'clock.","tgt":"시간 = 鐘頭（講幾耐）。두 시 = 兩點。"}
+{"f":"cards","id":"ko.c0172","k":"meaning","src":"three times","tgt":"三次"}
+{"f":"cards","id":"ko.c0172","k":"note","src":"번 = times (occurrences). Also 'number' for exits/buses.","tgt":"번 = 次。出口、巴士嘅「號」都係 번。"}
+{"f":"cards","id":"ko.c0173","k":"meaning","src":"one month","tgt":"一個月"}
+{"f":"cards","id":"ko.c0173","k":"note","src":"달 = months (native). 일 개월 = one month (Sino, formal).","tgt":"달 = 月（固有詞）。일 개월 = 一個月（漢字詞，較正式）。"}
+{"f":"cards","id":"ko.c0174","k":"meaning","src":"two days","tgt":"兩日"}
+{"f":"cards","id":"ko.c0174","k":"note","src":"Special: 하루 (1 day), 이틀 (2), 사흘 (3). 일주일 = one week.","tgt":"特別講法：하루（1 日）、이틀（2 日）、사흘（3 日）。일주일 = 一個星期。"}
+{"f":"cards","id":"ko.c0175","k":"meaning","src":"How many would you like?","tgt":"請問要幾多個？"}
+{"f":"cards","id":"ko.c0175","k":"note","src":"몇 + counter = how many. Answer: 두 개요.","tgt":"몇 + 量詞 = 幾多。答：두 개요。"}
+{"f":"cards","id":"ko.c0176","k":"meaning","src":"one bowl","tgt":"一碗"}
+{"f":"cards","id":"ko.c0176","k":"note","src":"그릇 = bowls (rice, soup). 국밥 한 그릇 주세요.","tgt":"그릇 = 碗（飯、湯）。국밥 한 그릇 주세요。"}
+{"f":"cards","id":"ko.c0177","k":"meaning","src":"one bag (of)","tgt":"一包"}
+{"f":"cards","id":"ko.c0177","k":"note","src":"봉지 = bag/packet of snacks or chips.","tgt":"봉지 = 一包零食、薯片。"}
+{"f":"cards","id":"ko.c0178","k":"meaning","src":"two pairs (shoes, socks)","tgt":"兩對（鞋、襪）"}
+{"f":"cards","id":"ko.c0178","k":"note","src":"켤레 = pairs of footwear.","tgt":"켤레 = 鞋襪嘅「對」。"}
+{"f":"cards","id":"ko.c0179","k":"meaning","src":"How's the weather?","tgt":"天氣點呀？"}
+{"f":"cards","id":"ko.c0179","k":"note","src":"날씨 = weather. 어때요 = how is it.","tgt":"날씨 = 天氣。어때요 = 點呀。"}
+{"f":"cards","id":"ko.c0180","k":"meaning","src":"It's so hot","tgt":"好熱呀"}
+{"f":"cards","id":"ko.c0180","k":"note","src":"Summer in Seoul: 덥고 습해요 = hot and humid.","tgt":"首爾夏天：덥고 습해요 = 又熱又焗，同香港差唔多。"}
+{"f":"cards","id":"ko.c0181","k":"meaning","src":"The weather is cold","tgt":"天氣好凍"}
+{"f":"cards","id":"ko.c0181","k":"note","src":"겨울 = winter. 너무 추워요 = so cold.","tgt":"겨울 = 冬天。너무 추워요 = 凍到死。"}
+{"f":"cards","id":"ko.c0182","k":"meaning","src":"It's raining","tgt":"落緊雨"}
+{"f":"cards","id":"ko.c0182","k":"note","src":"비 = rain. 우산 있어요? = do you have an umbrella?","tgt":"비 = 雨。우산 있어요? = 你有冇遮？"}
+{"f":"cards","id":"ko.c0183","k":"meaning","src":"It's snowing","tgt":"落緊雪"}
+{"f":"cards","id":"ko.c0183","k":"note","src":"눈 = snow (also eye). 첫눈 = first snow, a date thing in Korea.","tgt":"눈 = 雪（亦解眼）。첫눈 = 初雪，喺韓國係拍拖嘅浪漫時刻。"}
+{"f":"cards","id":"ko.c0184","k":"meaning","src":"It's windy","tgt":"好大風"}
+{"f":"cards","id":"ko.c0184","k":"note","src":"바람 = wind. 불다 = to blow.","tgt":"바람 = 風。불다 = 吹。"}
+{"f":"cards","id":"ko.c0185","k":"meaning","src":"The fine dust is bad","tgt":"懸浮粒子好嚴重"}
+{"f":"cards","id":"ko.c0185","k":"note","src":"Check the 미세먼지 level daily; people mask up when it's 나쁨.","tgt":"每日睇下 미세먼지 指數；去到 나쁨（差）大家就戴口罩。"}
+{"f":"cards","id":"ko.c0186","k":"meaning","src":"I feel good","tgt":"心情好好"}
+{"f":"cards","id":"ko.c0186","k":"note","src":"기분 = mood. 기분이 안 좋아요 = I feel bad.","tgt":"기분 = 心情。기분이 안 좋아요 = 心情唔好。"}
+{"f":"cards","id":"ko.c0187","k":"meaning","src":"I'm happy","tgt":"我好幸福 / 好開心"}
+{"f":"cards","id":"ko.c0187","k":"note","src":"행복 = happiness.","tgt":"행복 = 幸福。hang6 fuk1 收 -ng、-k，同韓文一樣。"}
+{"f":"cards","id":"ko.c0188","k":"meaning","src":"I'm sad","tgt":"我好傷心"}
 {"f":"cards","id":"ko.c0188","k":"note","src":"슬프다 → 슬퍼요.","tgt":"슬프다 → 슬퍼요.","pre":1}
-{"f":"cards","id":"ko.c0189","k":"meaning","src":"I'm tired","tgt":""}
-{"f":"cards","id":"ko.c0189","k":"note","src":"Most-used feeling word in Korea.","tgt":""}
-{"f":"cards","id":"ko.c0190","k":"meaning","src":"I'm nervous","tgt":""}
-{"f":"cards","id":"ko.c0190","k":"note","src":"긴장 = tension. Before a test or a date.","tgt":""}
-{"f":"cards","id":"ko.c0191","k":"meaning","src":"I'm bored","tgt":""}
-{"f":"cards","id":"ko.c0191","k":"note","src":"심심하다. 놀자! fixes it.","tgt":""}
-{"f":"cards","id":"ko.c0192","k":"meaning","src":"I'm angry","tgt":""}
-{"f":"cards","id":"ko.c0192","k":"note","src":"화 = anger. 화내지 마 = don't be mad.","tgt":""}
-{"f":"cards","id":"ko.c0193","k":"meaning","src":"I was surprised","tgt":""}
-{"f":"cards","id":"ko.c0193","k":"note","src":"놀라다. 깜짝 놀랐어요 = you startled me.","tgt":""}
-{"f":"cards","id":"ko.c0194","k":"meaning","src":"I miss you","tgt":""}
-{"f":"cards","id":"ko.c0194","k":"note","src":"Polite version. Casual 보고 싶어 is in Sweet talk.","tgt":""}
-{"f":"cards","id":"ko.c0195","k":"meaning","src":"My heart flutters","tgt":""}
-{"f":"cards","id":"ko.c0195","k":"note","src":"설레다 = the butterflies feeling. Very K-drama.","tgt":""}
-{"f":"cards","id":"ko.c0196","k":"meaning","src":"I'm annoyed","tgt":""}
-{"f":"cards","id":"ko.c0196","k":"note","src":"짜증 = irritation. 짜증 나! casual.","tgt":""}
-{"f":"cards","id":"ko.c0197","k":"meaning","src":"and (then)","tgt":""}
-{"f":"cards","id":"ko.c0197","k":"note","src":"Joins sentences. 밥 먹었어요. 그리고 커피 마셨어요.","tgt":""}
-{"f":"cards","id":"ko.c0198","k":"meaning","src":"so / therefore","tgt":""}
+{"f":"cards","id":"ko.c0189","k":"meaning","src":"I'm tired","tgt":"我好攰"}
+{"f":"cards","id":"ko.c0189","k":"note","src":"Most-used feeling word in Korea.","tgt":"韓國人最常講嘅感受。"}
+{"f":"cards","id":"ko.c0190","k":"meaning","src":"I'm nervous","tgt":"我好緊張"}
+{"f":"cards","id":"ko.c0190","k":"note","src":"긴장 = tension. Before a test or a date.","tgt":"긴장 = 緊張。考試前或者拍拖前。"}
+{"f":"cards","id":"ko.c0191","k":"meaning","src":"I'm bored","tgt":"好悶呀"}
+{"f":"cards","id":"ko.c0191","k":"note","src":"심심하다. 놀자! fixes it.","tgt":"심심하다。講句 놀자! 就搞掂。"}
+{"f":"cards","id":"ko.c0192","k":"meaning","src":"I'm angry","tgt":"我嬲咗"}
+{"f":"cards","id":"ko.c0192","k":"note","src":"화 = anger. 화내지 마 = don't be mad.","tgt":"화 = 火、嬲。화내지 마 = 唔好嬲。"}
+{"f":"cards","id":"ko.c0193","k":"meaning","src":"I was surprised","tgt":"我嚇咗一跳"}
+{"f":"cards","id":"ko.c0193","k":"note","src":"놀라다. 깜짝 놀랐어요 = you startled me.","tgt":"놀라다。깜짝 놀랐어요 = 真係嚇親我。"}
+{"f":"cards","id":"ko.c0194","k":"meaning","src":"I miss you","tgt":"我掛住你"}
+{"f":"cards","id":"ko.c0194","k":"note","src":"Polite version. Casual 보고 싶어 is in Sweet talk.","tgt":"禮貌版本。半語 보고 싶어 喺「甜言蜜語」卡組。"}
+{"f":"cards","id":"ko.c0195","k":"meaning","src":"My heart flutters","tgt":"好心動"}
+{"f":"cards","id":"ko.c0195","k":"note","src":"설레다 = the butterflies feeling. Very K-drama.","tgt":"설레다 = 期待到心卜卜跳嗰種感覺，好韓劇。"}
+{"f":"cards","id":"ko.c0196","k":"meaning","src":"I'm annoyed","tgt":"好煩呀"}
+{"f":"cards","id":"ko.c0196","k":"note","src":"짜증 = irritation. 짜증 나! casual.","tgt":"짜증 = 煩躁。짜증 나! 係半語。"}
+{"f":"cards","id":"ko.c0197","k":"meaning","src":"and (then)","tgt":"同埋 / 然後"}
+{"f":"cards","id":"ko.c0197","k":"note","src":"Joins sentences. 밥 먹었어요. 그리고 커피 마셨어요.","tgt":"連接兩句：밥 먹었어요. 그리고 커피 마셨어요."}
+{"f":"cards","id":"ko.c0198","k":"meaning","src":"so / therefore","tgt":"所以"}
 {"f":"cards","id":"ko.c0198","k":"note","src":"비가 왔어요. 그래서 집에 있었어요.","tgt":"비가 왔어요. 그래서 집에 있었어요.","pre":1}
-{"f":"cards","id":"ko.c0199","k":"meaning","src":"but / by the way","tgt":""}
-{"f":"cards","id":"ko.c0199","k":"note","src":"Soft contrast or topic shift. Casual: 근데.","tgt":""}
-{"f":"cards","id":"ko.c0200","k":"meaning","src":"but / however","tgt":""}
-{"f":"cards","id":"ko.c0200","k":"note","src":"Stronger contrast than 그런데.","tgt":""}
-{"f":"cards","id":"ko.c0201","k":"meaning","src":"after that","tgt":""}
+{"f":"cards","id":"ko.c0199","k":"meaning","src":"but / by the way","tgt":"不過 / 講開又講"}
+{"f":"cards","id":"ko.c0199","k":"note","src":"Soft contrast or topic shift. Casual: 근데.","tgt":"轉折比較輕，或者轉話題。半語：근데。"}
+{"f":"cards","id":"ko.c0200","k":"meaning","src":"but / however","tgt":"但係"}
+{"f":"cards","id":"ko.c0200","k":"note","src":"Stronger contrast than 그런데.","tgt":"轉折比 그런데 強。"}
+{"f":"cards","id":"ko.c0201","k":"meaning","src":"after that","tgt":"之後"}
 {"f":"cards","id":"ko.c0201","k":"note","src":"그다음에 영화 봤어요.","tgt":"그다음에 영화 봤어요.","pre":1}
-{"f":"cards","id":"ko.c0202","k":"meaning","src":"first","tgt":""}
-{"f":"cards","id":"ko.c0202","k":"note","src":"먼저 손 씻어요 = wash hands first.","tgt":""}
-{"f":"cards","id":"ko.c0203","k":"meaning","src":"lastly","tgt":""}
-{"f":"cards","id":"ko.c0203","k":"note","src":"Closes a sequence.","tgt":""}
-{"f":"cards","id":"ko.c0204","k":"meaning","src":"because","tgt":""}
+{"f":"cards","id":"ko.c0202","k":"meaning","src":"first","tgt":"首先 / 先"}
+{"f":"cards","id":"ko.c0202","k":"note","src":"먼저 손 씻어요 = wash hands first.","tgt":"먼저 손 씻어요 = 先洗手。"}
+{"f":"cards","id":"ko.c0203","k":"meaning","src":"lastly","tgt":"最後"}
+{"f":"cards","id":"ko.c0203","k":"note","src":"Closes a sequence.","tgt":"用嚟收尾。"}
+{"f":"cards","id":"ko.c0204","k":"meaning","src":"because","tgt":"因為"}
 {"f":"cards","id":"ko.c0204","k":"note","src":"왜냐하면 … 거든요 / 기 때문이에요.","tgt":"왜냐하면 … 거든요 / 기 때문이에요.","pre":1}
-{"f":"cards","id":"ko.c0205","k":"meaning","src":"or","tgt":""}
-{"f":"cards","id":"ko.c0205","k":"note","src":"커피 아니면 차? = coffee or tea?","tgt":""}
-{"f":"cards","id":"ko.c0206","k":"meaning","src":"then / in that case","tgt":""}
-{"f":"cards","id":"ko.c0206","k":"note","src":"그럼 내일 봐요 = then see you tomorrow.","tgt":""}
-{"f":"cards","id":"ko.c0207","k":"meaning","src":"actually","tgt":""}
+{"f":"cards","id":"ko.c0205","k":"meaning","src":"or","tgt":"定係 / 或者"}
+{"f":"cards","id":"ko.c0205","k":"note","src":"커피 아니면 차? = coffee or tea?","tgt":"커피 아니면 차? = 咖啡定茶？"}
+{"f":"cards","id":"ko.c0206","k":"meaning","src":"then / in that case","tgt":"咁 / 噉樣嘅話"}
+{"f":"cards","id":"ko.c0206","k":"note","src":"그럼 내일 봐요 = then see you tomorrow.","tgt":"그럼 내일 봐요 = 咁聽日見。"}
+{"f":"cards","id":"ko.c0207","k":"meaning","src":"actually","tgt":"其實"}
 {"f":"cards","id":"ko.c0207","k":"note","src":"사실 저 한국어 못해요.","tgt":"사실 저 한국어 못해요.","pre":1}
-{"f":"cards","id":"ko.c0208","k":"meaning","src":"anyway","tgt":""}
-{"f":"cards","id":"ko.c0208","k":"note","src":"Changes the subject back.","tgt":""}
-{"f":"cards","id":"ko.c0209","k":"meaning","src":"for example","tgt":""}
-{"f":"cards","id":"ko.c0209","k":"note","src":"Formal: 예를 들어.","tgt":""}
-{"f":"cards","id":"ko.c0210","k":"meaning","src":"even so / still","tgt":""}
+{"f":"cards","id":"ko.c0208","k":"meaning","src":"anyway","tgt":"總之"}
+{"f":"cards","id":"ko.c0208","k":"note","src":"Changes the subject back.","tgt":"拉返去原本嘅話題。"}
+{"f":"cards","id":"ko.c0209","k":"meaning","src":"for example","tgt":"例如"}
+{"f":"cards","id":"ko.c0209","k":"note","src":"Formal: 예를 들어.","tgt":"正式：예를 들어。"}
+{"f":"cards","id":"ko.c0210","k":"meaning","src":"even so / still","tgt":"就算係咁 / 都係"}
 {"f":"cards","id":"ko.c0210","k":"note","src":"피곤해요. 그래도 갈게요.","tgt":"피곤해요. 그래도 갈게요.","pre":1}
-{"f":"cards","id":"ko.c0211","k":"meaning","src":"Where is a pharmacy?","tgt":""}
-{"f":"cards","id":"ko.c0211","k":"note","src":"Green cross sign. Many open late; 편의점 sells basics.","tgt":""}
-{"f":"cards","id":"ko.c0212","k":"meaning","src":"I have a headache","tgt":""}
-{"f":"cards","id":"ko.c0212","k":"note","src":"아프다 = to hurt. 배가 아파요 = stomachache.","tgt":""}
-{"f":"cards","id":"ko.c0213","k":"meaning","src":"I have a fever","tgt":""}
-{"f":"cards","id":"ko.c0213","k":"note","src":"열 = fever. 열 나요 also works.","tgt":""}
-{"f":"cards","id":"ko.c0214","k":"meaning","src":"I have a cough","tgt":""}
-{"f":"cards","id":"ko.c0214","k":"note","src":"콧물이 나요 = runny nose.","tgt":""}
-{"f":"cards","id":"ko.c0215","k":"meaning","src":"My throat hurts","tgt":""}
-{"f":"cards","id":"ko.c0215","k":"note","src":"목 = neck / throat.","tgt":""}
-{"f":"cards","id":"ko.c0216","k":"meaning","src":"I caught a cold","tgt":""}
-{"f":"cards","id":"ko.c0216","k":"note","src":"감기약 주세요 = cold medicine, please.","tgt":""}
-{"f":"cards","id":"ko.c0217","k":"meaning","src":"Do you have painkillers?","tgt":""}
-{"f":"cards","id":"ko.c0217","k":"note","src":"타이레놀 is understood everywhere.","tgt":""}
-{"f":"cards","id":"ko.c0218","k":"meaning","src":"I have an allergy","tgt":""}
-{"f":"cards","id":"ko.c0218","k":"note","src":"땅콩 알레르기 = peanut allergy. Say it before ordering too.","tgt":""}
-{"f":"cards","id":"ko.c0219","k":"meaning","src":"I have a prescription","tgt":""}
-{"f":"cards","id":"ko.c0219","k":"note","src":"Pharmacies next to clinics fill them in minutes.","tgt":""}
-{"f":"cards","id":"ko.c0220","k":"meaning","src":"How many times a day do I take it?","tgt":""}
-{"f":"cards","id":"ko.c0220","k":"note","src":"식후 30분 = 30 min after meals, the usual answer.","tgt":""}
-{"f":"cards","id":"ko.c0221","k":"meaning","src":"I need to go to the hospital","tgt":""}
-{"f":"cards","id":"ko.c0221","k":"note","src":"아/어야 돼요 = have to. 응급실 = ER.","tgt":""}
-{"f":"cards","id":"ko.c0222","k":"meaning","src":"I have insurance","tgt":""}
-{"f":"cards","id":"ko.c0222","k":"note","src":"여행자 보험 = travel insurance. 영수증 for claims.","tgt":""}
-{"f":"cards","id":"ko.c0223","k":"meaning","src":"It hurts here","tgt":""}
-{"f":"cards","id":"ko.c0223","k":"note","src":"Point. 많이 아파요 = it hurts a lot.","tgt":""}
-{"f":"cards","id":"ko.c0224","k":"meaning","src":"It will get better","tgt":""}
-{"f":"cards","id":"ko.c0224","k":"note","src":"Said by doctors and friends alike.","tgt":""}
-{"f":"cards","id":"ko.c0225","k":"meaning","src":"A mask, please","tgt":""}
-{"f":"cards","id":"ko.c0225","k":"note","src":"Sold at every 편의점 and 약국.","tgt":""}
-{"f":"cards","id":"ko.c0226","k":"meaning","src":"Digestive medicine, please","tgt":""}
-{"f":"cards","id":"ko.c0226","k":"note","src":"After too much 삼겹살. 까스활명수 is the classic.","tgt":""}
-{"f":"cards","id":"ko.c0227","k":"meaning","src":"studio apartment","tgt":""}
-{"f":"cards","id":"ko.c0227","k":"note","src":"One-room. 투룸 = two rooms. 오피스텔 = officetel.","tgt":""}
-{"f":"cards","id":"ko.c0228","k":"meaning","src":"security deposit","tgt":""}
-{"f":"cards","id":"ko.c0228","k":"note","src":"Can be huge in Korea. 전세 = deposit-only lease.","tgt":""}
-{"f":"cards","id":"ko.c0229","k":"meaning","src":"monthly rent","tgt":""}
-{"f":"cards","id":"ko.c0229","k":"note","src":"월세 얼마예요? = how much is rent?","tgt":""}
-{"f":"cards","id":"ko.c0230","k":"meaning","src":"Is the maintenance fee included?","tgt":""}
-{"f":"cards","id":"ko.c0230","k":"note","src":"관리비 = building fees. 포함 = included.","tgt":""}
-{"f":"cards","id":"ko.c0231","k":"meaning","src":"A package came","tgt":""}
-{"f":"cards","id":"ko.c0231","k":"note","src":"택배 = parcel delivery. 문 앞에 놔 주세요 = leave it at the door.","tgt":""}
-{"f":"cards","id":"ko.c0232","k":"meaning","src":"recycling separation","tgt":""}
-{"f":"cards","id":"ko.c0232","k":"note","src":"Strict: 플라스틱 / 종이 / 캔 / 음식물. Fines exist.","tgt":""}
-{"f":"cards","id":"ko.c0233","k":"meaning","src":"food waste","tgt":""}
-{"f":"cards","id":"ko.c0233","k":"note","src":"Needs its own bag or card-based bin.","tgt":""}
-{"f":"cards","id":"ko.c0234","k":"meaning","src":"official trash bag","tgt":""}
-{"f":"cards","id":"ko.c0234","k":"note","src":"Buy at 편의점; must use it for general trash.","tgt":""}
-{"f":"cards","id":"ko.c0235","k":"meaning","src":"Where's a laundry / dry cleaner?","tgt":""}
-{"f":"cards","id":"ko.c0235","k":"note","src":"코인 세탁 = coin laundry, 24h.","tgt":""}
-{"f":"cards","id":"ko.c0236","k":"meaning","src":"Can you dry clean this?","tgt":""}
-{"f":"cards","id":"ko.c0236","k":"note","src":"드라이클리닝 shortened.","tgt":""}
-{"f":"cards","id":"ko.c0237","k":"meaning","src":"Please tell me the door code","tgt":""}
-{"f":"cards","id":"ko.c0237","k":"note","src":"Most doors use keypads, not keys.","tgt":""}
-{"f":"cards","id":"ko.c0238","k":"meaning","src":"wifi installation","tgt":""}
-{"f":"cards","id":"ko.c0238","k":"note","src":"설치 = installation. 기사님 = the technician.","tgt":""}
-{"f":"cards","id":"ko.c0239","k":"meaning","src":"I moved (house)","tgt":""}
-{"f":"cards","id":"ko.c0239","k":"note","src":"이사 = moving. 이삿짐센터 = movers.","tgt":""}
-{"f":"cards","id":"ko.c0240","k":"meaning","src":"landlord","tgt":""}
-{"f":"cards","id":"ko.c0240","k":"note","src":"부동산 = real-estate office, where you find rooms.","tgt":""}
-{"f":"cards","id":"ko.c0241","k":"meaning","src":"contract","tgt":""}
-{"f":"cards","id":"ko.c0241","k":"note","src":"계약 = contract. 사인하다 = to sign.","tgt":""}
-{"f":"cards","id":"ko.c0242","k":"meaning","src":"I send parcels from the convenience store","tgt":""}
-{"f":"cards","id":"ko.c0242","k":"note","src":"GS25/CU have parcel counters. Cheap and easy.","tgt":""}
-{"f":"cards","id":"ko.c0243","k":"meaning","src":"please eat (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0243","k":"note","src":"드시다 = honorific of 먹다/마시다. 맛있게 드세요 = enjoy your meal.","tgt":""}
-{"f":"cards","id":"ko.c0244","k":"meaning","src":"please sleep (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0244","k":"note","src":"주무시다 = honorific of 자다. 안녕히 주무세요 = good night (polite).","tgt":""}
-{"f":"cards","id":"ko.c0245","k":"meaning","src":"please stay / is (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0245","k":"note","src":"계시다 = honorific of 있다 (for people). 안녕히 계세요.","tgt":""}
-{"f":"cards","id":"ko.c0246","k":"meaning","src":"please speak (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0246","k":"note","src":"말씀 = honorific of 말. 말씀해 주세요 = please tell me.","tgt":""}
-{"f":"cards","id":"ko.c0247","k":"meaning","src":"What is your name? (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0247","k":"note","src":"성함 = honorific of 이름.","tgt":""}
-{"f":"cards","id":"ko.c0248","k":"meaning","src":"How old are you? (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0248","k":"note","src":"연세 = honorific of 나이. For elders.","tgt":""}
-{"f":"cards","id":"ko.c0249","k":"meaning","src":"go (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0211","k":"meaning","src":"Where is a pharmacy?","tgt":"藥房喺邊？"}
+{"f":"cards","id":"ko.c0211","k":"note","src":"Green cross sign. Many open late; 편의점 sells basics.","tgt":"認綠色十字招牌。好多開到夜晚；편의점 都有基本藥物賣。"}
+{"f":"cards","id":"ko.c0212","k":"meaning","src":"I have a headache","tgt":"我頭痛"}
+{"f":"cards","id":"ko.c0212","k":"note","src":"아프다 = to hurt. 배가 아파요 = stomachache.","tgt":"아프다 = 痛。배가 아파요 = 肚痛。"}
+{"f":"cards","id":"ko.c0213","k":"meaning","src":"I have a fever","tgt":"我發燒"}
+{"f":"cards","id":"ko.c0213","k":"note","src":"열 = fever. 열 나요 also works.","tgt":"열 = 熱、發燒。講 열 나요 都得。"}
+{"f":"cards","id":"ko.c0214","k":"meaning","src":"I have a cough","tgt":"我咳"}
+{"f":"cards","id":"ko.c0214","k":"note","src":"콧물이 나요 = runny nose.","tgt":"콧물이 나요 = 流鼻水。"}
+{"f":"cards","id":"ko.c0215","k":"meaning","src":"My throat hurts","tgt":"我喉嚨痛"}
+{"f":"cards","id":"ko.c0215","k":"note","src":"목 = neck / throat.","tgt":"목 = 頸、喉嚨。"}
+{"f":"cards","id":"ko.c0216","k":"meaning","src":"I caught a cold","tgt":"我感冒咗"}
+{"f":"cards","id":"ko.c0216","k":"note","src":"감기약 주세요 = cold medicine, please.","tgt":"감기약 주세요 = 唔該俾感冒藥我。漢字係「感氣」，「感（gam2）」收 -m，韓文都收 m。"}
+{"f":"cards","id":"ko.c0217","k":"meaning","src":"Do you have painkillers?","tgt":"有冇止痛藥？"}
+{"f":"cards","id":"ko.c0217","k":"note","src":"타이레놀 is understood everywhere.","tgt":"講 타이레놀（Tylenol）周圍都明。"}
+{"f":"cards","id":"ko.c0218","k":"meaning","src":"I have an allergy","tgt":"我有敏感"}
+{"f":"cards","id":"ko.c0218","k":"note","src":"땅콩 알레르기 = peanut allergy. Say it before ordering too.","tgt":"땅콩 알레르기 = 花生敏感。叫嘢食之前都要講。"}
+{"f":"cards","id":"ko.c0219","k":"meaning","src":"I have a prescription","tgt":"我有處方"}
+{"f":"cards","id":"ko.c0219","k":"note","src":"Pharmacies next to clinics fill them in minutes.","tgt":"診所隔籬嘅藥房幾分鐘就執好藥。"}
+{"f":"cards","id":"ko.c0220","k":"meaning","src":"How many times a day do I take it?","tgt":"一日食幾多次？"}
+{"f":"cards","id":"ko.c0220","k":"note","src":"식후 30분 = 30 min after meals, the usual answer.","tgt":"식후 30분 = 飯後 30 分鐘，通常係咁答。"}
+{"f":"cards","id":"ko.c0221","k":"meaning","src":"I need to go to the hospital","tgt":"我要去醫院"}
+{"f":"cards","id":"ko.c0221","k":"note","src":"아/어야 돼요 = have to. 응급실 = ER.","tgt":"아/어야 돼요 = 要。응급실 = 急症室。"}
+{"f":"cards","id":"ko.c0222","k":"meaning","src":"I have insurance","tgt":"我有保險"}
+{"f":"cards","id":"ko.c0222","k":"note","src":"여행자 보험 = travel insurance. 영수증 for claims.","tgt":"여행자 보험 = 旅遊保險。留低 영수증 嚟索償。"}
+{"f":"cards","id":"ko.c0223","k":"meaning","src":"It hurts here","tgt":"呢度痛"}
+{"f":"cards","id":"ko.c0223","k":"note","src":"Point. 많이 아파요 = it hurts a lot.","tgt":"指住講。많이 아파요 = 好痛。"}
+{"f":"cards","id":"ko.c0224","k":"meaning","src":"It will get better","tgt":"會好返嘅"}
+{"f":"cards","id":"ko.c0224","k":"note","src":"Said by doctors and friends alike.","tgt":"醫生同朋友都會咁講。"}
+{"f":"cards","id":"ko.c0225","k":"meaning","src":"A mask, please","tgt":"唔該俾個口罩我"}
+{"f":"cards","id":"ko.c0225","k":"note","src":"Sold at every 편의점 and 약국.","tgt":"每間 편의점 同 약국 都有得賣。"}
+{"f":"cards","id":"ko.c0226","k":"meaning","src":"Digestive medicine, please","tgt":"唔該俾啲消化藥我"}
+{"f":"cards","id":"ko.c0226","k":"note","src":"After too much 삼겹살. 까스활명수 is the classic.","tgt":"食太多 삼겹살 之後用。까스활명수 係經典牌子。"}
+{"f":"cards","id":"ko.c0227","k":"meaning","src":"studio apartment","tgt":"開放式單位"}
+{"f":"cards","id":"ko.c0227","k":"note","src":"One-room. 투룸 = two rooms. 오피스텔 = officetel.","tgt":"直譯 one-room。투룸 = 兩房單位。오피스텔 = 商住兩用單位。"}
+{"f":"cards","id":"ko.c0228","k":"meaning","src":"security deposit","tgt":"按金"}
+{"f":"cards","id":"ko.c0228","k":"note","src":"Can be huge in Korea. 전세 = deposit-only lease.","tgt":"喺韓國可以係好大筆錢。전세 = 只俾一大筆按金、唔使交月租嘅租約。"}
+{"f":"cards","id":"ko.c0229","k":"meaning","src":"monthly rent","tgt":"月租"}
+{"f":"cards","id":"ko.c0229","k":"note","src":"월세 얼마예요? = how much is rent?","tgt":"월세 얼마예요? = 月租幾多？"}
+{"f":"cards","id":"ko.c0230","k":"meaning","src":"Is the maintenance fee included?","tgt":"包唔包管理費？"}
+{"f":"cards","id":"ko.c0230","k":"note","src":"관리비 = building fees. 포함 = included.","tgt":"관리비 = 管理費。포함 = 包括。"}
+{"f":"cards","id":"ko.c0231","k":"meaning","src":"A package came","tgt":"有速遞到"}
+{"f":"cards","id":"ko.c0231","k":"note","src":"택배 = parcel delivery. 문 앞에 놔 주세요 = leave it at the door.","tgt":"택배 = 速遞。문 앞에 놔 주세요 = 唔該放喺門口。漢字係「宅配」，「宅（zaak6）」收 -k，韓文都收 k。"}
+{"f":"cards","id":"ko.c0232","k":"meaning","src":"recycling separation","tgt":"垃圾分類回收"}
+{"f":"cards","id":"ko.c0232","k":"note","src":"Strict: 플라스틱 / 종이 / 캔 / 음식물. Fines exist.","tgt":"好嚴格：플라스틱 / 종이 / 캔 / 음식물。唔跟會罰錢。"}
+{"f":"cards","id":"ko.c0233","k":"meaning","src":"food waste","tgt":"廚餘"}
+{"f":"cards","id":"ko.c0233","k":"note","src":"Needs its own bag or card-based bin.","tgt":"要用專用袋，或者拍卡嘅垃圾桶。"}
+{"f":"cards","id":"ko.c0234","k":"meaning","src":"official trash bag","tgt":"指定垃圾袋"}
+{"f":"cards","id":"ko.c0234","k":"note","src":"Buy at 편의점; must use it for general trash.","tgt":"喺 편의점 買；一般垃圾一定要用。"}
+{"f":"cards","id":"ko.c0235","k":"meaning","src":"Where's a laundry / dry cleaner?","tgt":"邊度有洗衣舖？"}
+{"f":"cards","id":"ko.c0235","k":"note","src":"코인 세탁 = coin laundry, 24h.","tgt":"코인 세탁 = 自助洗衣，24 小時開。"}
+{"f":"cards","id":"ko.c0236","k":"meaning","src":"Can you dry clean this?","tgt":"可唔可以乾洗？"}
+{"f":"cards","id":"ko.c0236","k":"note","src":"드라이클리닝 shortened.","tgt":"드라이클리닝 嘅簡稱。"}
+{"f":"cards","id":"ko.c0237","k":"meaning","src":"Please tell me the door code","tgt":"唔該話我知門口密碼"}
+{"f":"cards","id":"ko.c0237","k":"note","src":"Most doors use keypads, not keys.","tgt":"大部分門用密碼鎖，唔用鎖匙。"}
+{"f":"cards","id":"ko.c0238","k":"meaning","src":"wifi installation","tgt":"安裝 Wi-Fi"}
+{"f":"cards","id":"ko.c0238","k":"note","src":"설치 = installation. 기사님 = the technician.","tgt":"설치 = 安裝。기사님 = 師傅（技術員）。"}
+{"f":"cards","id":"ko.c0239","k":"meaning","src":"I moved (house)","tgt":"我搬咗屋"}
+{"f":"cards","id":"ko.c0239","k":"note","src":"이사 = moving. 이삿짐센터 = movers.","tgt":"이사 = 搬屋。이삿짐센터 = 搬屋公司。"}
+{"f":"cards","id":"ko.c0240","k":"meaning","src":"landlord","tgt":"業主"}
+{"f":"cards","id":"ko.c0240","k":"note","src":"부동산 = real-estate office, where you find rooms.","tgt":"부동산 = 地產舖，租屋就去呢度搵。"}
+{"f":"cards","id":"ko.c0241","k":"meaning","src":"contract","tgt":"合約"}
+{"f":"cards","id":"ko.c0241","k":"note","src":"계약 = contract. 사인하다 = to sign.","tgt":"계약 = 合約。사인하다 = 簽名。"}
+{"f":"cards","id":"ko.c0242","k":"meaning","src":"I send parcels from the convenience store","tgt":"我喺便利店寄速遞"}
+{"f":"cards","id":"ko.c0242","k":"note","src":"GS25/CU have parcel counters. Cheap and easy.","tgt":"GS25 / CU 有寄件櫃位，又平又方便。"}
+{"f":"cards","id":"ko.c0243","k":"meaning","src":"please eat (honorific)","tgt":"請用（尊敬）"}
+{"f":"cards","id":"ko.c0243","k":"note","src":"드시다 = honorific of 먹다/마시다. 맛있게 드세요 = enjoy your meal.","tgt":"드시다 = 먹다 / 마시다 嘅尊敬形。맛있게 드세요 = 請慢用。"}
+{"f":"cards","id":"ko.c0244","k":"meaning","src":"please sleep (honorific)","tgt":"請休息 / 早唞（尊敬）"}
+{"f":"cards","id":"ko.c0244","k":"note","src":"주무시다 = honorific of 자다. 안녕히 주무세요 = good night (polite).","tgt":"주무시다 = 자다 嘅尊敬形。안녕히 주무세요 = 早唞（對長輩講）。"}
+{"f":"cards","id":"ko.c0245","k":"meaning","src":"please stay / is (honorific)","tgt":"請留喺度 / 喺度（尊敬）"}
+{"f":"cards","id":"ko.c0245","k":"note","src":"계시다 = honorific of 있다 (for people). 안녕히 계세요.","tgt":"계시다 = 있다 嘅尊敬形（用喺人身上）。안녕히 계세요。"}
+{"f":"cards","id":"ko.c0246","k":"meaning","src":"please speak (honorific)","tgt":"請講（尊敬）"}
+{"f":"cards","id":"ko.c0246","k":"note","src":"말씀 = honorific of 말. 말씀해 주세요 = please tell me.","tgt":"말씀 = 말 嘅尊敬形。말씀해 주세요 = 唔該話我知。"}
+{"f":"cards","id":"ko.c0247","k":"meaning","src":"What is your name? (honorific)","tgt":"請問點稱呼？（尊敬）"}
+{"f":"cards","id":"ko.c0247","k":"note","src":"성함 = honorific of 이름.","tgt":"성함 = 이름 嘅尊敬形。"}
+{"f":"cards","id":"ko.c0248","k":"meaning","src":"How old are you? (honorific)","tgt":"請問你貴庚？（尊敬）"}
+{"f":"cards","id":"ko.c0248","k":"note","src":"연세 = honorific of 나이. For elders.","tgt":"연세 = 나이 嘅尊敬形，對長輩用。"}
+{"f":"cards","id":"ko.c0249","k":"meaning","src":"go (honorific)","tgt":"去（尊敬）"}
 {"f":"cards","id":"ko.c0249","k":"note","src":"가다 + 시 + 어요 → 가세요. 조심히 가세요.","tgt":"가다 + 시 + 어요 → 가세요. 조심히 가세요.","pre":1}
-{"f":"cards","id":"ko.c0250","k":"meaning","src":"Did you come? (honorific past)","tgt":""}
+{"f":"cards","id":"ko.c0250","k":"meaning","src":"Did you come? (honorific past)","tgt":"你嚟咗喇？（尊敬，過去式）"}
 {"f":"cards","id":"ko.c0250","k":"note","src":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?","tgt":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?","pre":1}
-{"f":"cards","id":"ko.c0251","k":"meaning","src":"do (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0251","k":"note","src":"안녕하세요 is literally 'are you at peace' with 시.","tgt":""}
-{"f":"cards","id":"ko.c0252","k":"meaning","src":"father / mother (someone else's, honorific)","tgt":""}
-{"f":"cards","id":"ko.c0252","k":"note","src":"님 raises 아버지/어머니. For your partner's parents.","tgt":""}
-{"f":"cards","id":"ko.c0253","k":"meaning","src":"grandmother (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0253","k":"note","src":"Someone else's grandmother, or very formal speech. Elderly strangers: 할머니 or 어르신.","tgt":""}
-{"f":"cards","id":"ko.c0254","k":"meaning","src":"customer / guest","tgt":""}
-{"f":"cards","id":"ko.c0254","k":"note","src":"손 + 님. 고객님 at shops.","tgt":""}
-{"f":"cards","id":"ko.c0255","k":"meaning","src":"Teacher, have you eaten?","tgt":""}
-{"f":"cards","id":"ko.c0255","k":"note","src":"식사 = honorific-ish 'meal'. 하셨어요 = did (honorific).","tgt":""}
-{"f":"cards","id":"ko.c0256","k":"meaning","src":"Have you been well? (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0251","k":"meaning","src":"do (honorific)","tgt":"做（尊敬）"}
+{"f":"cards","id":"ko.c0251","k":"note","src":"안녕하세요 is literally 'are you at peace' with 시.","tgt":"안녕하세요 加咗 시，直譯係「你平安嗎」。"}
+{"f":"cards","id":"ko.c0252","k":"meaning","src":"father / mother (someone else's, honorific)","tgt":"伯父 / 伯母（尊敬，指人哋嘅父母）"}
+{"f":"cards","id":"ko.c0252","k":"note","src":"님 raises 아버지/어머니. For your partner's parents.","tgt":"님 抬高 아버지 / 어머니。用嚟稱呼另一半嘅父母。"}
+{"f":"cards","id":"ko.c0253","k":"meaning","src":"grandmother (honorific)","tgt":"婆婆 / 嫲嫲（尊敬）"}
+{"f":"cards","id":"ko.c0253","k":"note","src":"Someone else's grandmother, or very formal speech. Elderly strangers: 할머니 or 어르신.","tgt":"指人哋嘅婆婆，或者好正式嘅場合。街上嘅老人家叫 할머니 或者 어르신。"}
+{"f":"cards","id":"ko.c0254","k":"meaning","src":"customer / guest","tgt":"客人"}
+{"f":"cards","id":"ko.c0254","k":"note","src":"손 + 님. 고객님 at shops.","tgt":"손 + 님。商店會叫 고객님。"}
+{"f":"cards","id":"ko.c0255","k":"meaning","src":"Teacher, have you eaten?","tgt":"老師，請問你食咗飯未？"}
+{"f":"cards","id":"ko.c0255","k":"note","src":"식사 = honorific-ish 'meal'. 하셨어요 = did (honorific).","tgt":"식사 = 用膳（比較尊敬嘅「飯」）。하셨어요 = 做咗（尊敬）。"}
+{"f":"cards","id":"ko.c0256","k":"meaning","src":"Have you been well? (honorific)","tgt":"你近排好嗎？（尊敬）"}
 {"f":"cards","id":"ko.c0256","k":"note","src":"지내다 + 시 + 었어요.","tgt":"지내다 + 시 + 었어요.","pre":1}
-{"f":"cards","id":"ko.c0257","k":"meaning","src":"please sit","tgt":""}
-{"f":"cards","id":"ko.c0257","k":"note","src":"앉다 + 으세요 (after consonant).","tgt":""}
-{"f":"cards","id":"ko.c0258","k":"meaning","src":"please come in","tgt":""}
+{"f":"cards","id":"ko.c0257","k":"meaning","src":"please sit","tgt":"請坐"}
+{"f":"cards","id":"ko.c0257","k":"note","src":"앉다 + 으세요 (after consonant).","tgt":"앉다 + 으세요（有收音之後）。"}
+{"f":"cards","id":"ko.c0258","k":"meaning","src":"please come in","tgt":"請入嚟"}
 {"f":"cards","id":"ko.c0258","k":"note","src":"들어오다 + 세요.","tgt":"들어오다 + 세요.","pre":1}
-{"f":"cards","id":"ko.c0259","k":"meaning","src":"coffee shop / café","tgt":""}
-{"f":"cards","id":"ko.c0259","k":"note","src":"카페 is far more common in speech.","tgt":""}
-{"f":"cards","id":"ko.c0260","k":"meaning","src":"gym","tgt":""}
-{"f":"cards","id":"ko.c0260","k":"note","src":"Health + 장 (place). 헬스하다 = to work out.","tgt":""}
-{"f":"cards","id":"ko.c0261","k":"meaning","src":"library","tgt":""}
-{"f":"cards","id":"ko.c0261","k":"note","src":"도서 books + 관 hall.","tgt":""}
-{"f":"cards","id":"ko.c0262","k":"meaning","src":"museum","tgt":""}
-{"f":"cards","id":"ko.c0262","k":"note","src":"미술관 = art museum.","tgt":""}
-{"f":"cards","id":"ko.c0263","k":"meaning","src":"house / home","tgt":""}
-{"f":"cards","id":"ko.c0263","k":"note","src":"집에 가요 = I'm going home.","tgt":""}
-{"f":"cards","id":"ko.c0264","k":"meaning","src":"school","tgt":""}
-{"f":"cards","id":"ko.c0264","k":"note","src":"대학교 = university.","tgt":""}
-{"f":"cards","id":"ko.c0265","k":"meaning","src":"hospital","tgt":""}
-{"f":"cards","id":"ko.c0265","k":"note","src":"Also used for any doctor's clinic.","tgt":""}
-{"f":"cards","id":"ko.c0266","k":"meaning","src":"pharmacy","tgt":""}
-{"f":"cards","id":"ko.c0266","k":"note","src":"Look for the green cross sign.","tgt":""}
-{"f":"cards","id":"ko.c0267","k":"meaning","src":"bank","tgt":""}
-{"f":"cards","id":"ko.c0267","k":"note","src":"Also means ginkgo — context decides.","tgt":""}
-{"f":"cards","id":"ko.c0268","k":"meaning","src":"convenience store","tgt":""}
-{"f":"cards","id":"ko.c0268","k":"note","src":"GS25, CU, 세븐일레븐.","tgt":""}
-{"f":"cards","id":"ko.c0269","k":"meaning","src":"restaurant","tgt":""}
-{"f":"cards","id":"ko.c0269","k":"note","src":"레스토랑 = Western-style restaurant.","tgt":""}
-{"f":"cards","id":"ko.c0270","k":"meaning","src":"market","tgt":""}
-{"f":"cards","id":"ko.c0270","k":"note","src":"전통시장 = traditional market.","tgt":""}
-{"f":"cards","id":"ko.c0271","k":"meaning","src":"department store","tgt":""}
-{"f":"cards","id":"ko.c0271","k":"note","src":"Lotte, Shinsegae, Hyundai.","tgt":""}
-{"f":"cards","id":"ko.c0272","k":"meaning","src":"movie theater","tgt":""}
-{"f":"cards","id":"ko.c0272","k":"note","src":"CGV, 메가박스, 롯데시네마.","tgt":""}
-{"f":"cards","id":"ko.c0273","k":"meaning","src":"park","tgt":""}
-{"f":"cards","id":"ko.c0273","k":"note","src":"한강공원 = Han River park.","tgt":""}
-{"f":"cards","id":"ko.c0274","k":"meaning","src":"hotel","tgt":""}
-{"f":"cards","id":"ko.c0274","k":"note","src":"모텔 is cheaper; 게스트하우스 for backpackers.","tgt":""}
-{"f":"cards","id":"ko.c0275","k":"meaning","src":"church / Buddhist temple","tgt":""}
-{"f":"cards","id":"ko.c0275","k":"note","src":"성당 = Catholic cathedral.","tgt":""}
-{"f":"cards","id":"ko.c0276","k":"meaning","src":"restroom","tgt":""}
-{"f":"cards","id":"ko.c0276","k":"note","src":"Literally 'makeup room'.","tgt":""}
-{"f":"cards","id":"ko.c0277","k":"meaning","src":"hobby","tgt":""}
-{"f":"cards","id":"ko.c0277","k":"note","src":"취미가 뭐예요? = What's your hobby?","tgt":""}
-{"f":"cards","id":"ko.c0278","k":"meaning","src":"exercise / working out","tgt":""}
-{"f":"cards","id":"ko.c0278","k":"note","src":"운동해요 = I work out.","tgt":""}
-{"f":"cards","id":"ko.c0279","k":"meaning","src":"reading (books)","tgt":""}
-{"f":"cards","id":"ko.c0279","k":"note","src":"책 읽는 거 좋아해요 is more natural in speech.","tgt":""}
-{"f":"cards","id":"ko.c0280","k":"meaning","src":"cooking","tgt":""}
-{"f":"cards","id":"ko.c0280","k":"note","src":"요리해요 = I cook.","tgt":""}
-{"f":"cards","id":"ko.c0281","k":"meaning","src":"travel","tgt":""}
-{"f":"cards","id":"ko.c0281","k":"note","src":"여행 가요 = I go on a trip.","tgt":""}
-{"f":"cards","id":"ko.c0282","k":"meaning","src":"listening to music","tgt":""}
-{"f":"cards","id":"ko.c0282","k":"note","src":"음악 들어요 = I listen to music.","tgt":""}
-{"f":"cards","id":"ko.c0283","k":"meaning","src":"watching movies","tgt":""}
-{"f":"cards","id":"ko.c0283","k":"note","src":"-기 turns a verb into a noun.","tgt":""}
-{"f":"cards","id":"ko.c0284","k":"meaning","src":"gaming","tgt":""}
-{"f":"cards","id":"ko.c0284","k":"note","src":"게임해요 = I play games. PC방 = internet café.","tgt":""}
-{"f":"cards","id":"ko.c0285","k":"meaning","src":"photography","tgt":""}
-{"f":"cards","id":"ko.c0285","k":"note","src":"사진 찍어요 = I take photos.","tgt":""}
-{"f":"cards","id":"ko.c0286","k":"meaning","src":"drawing / painting","tgt":""}
-{"f":"cards","id":"ko.c0286","k":"note","src":"그림 = picture.","tgt":""}
-{"f":"cards","id":"ko.c0287","k":"meaning","src":"singing","tgt":""}
-{"f":"cards","id":"ko.c0287","k":"note","src":"노래방 = karaoke room.","tgt":""}
-{"f":"cards","id":"ko.c0288","k":"meaning","src":"dancing","tgt":""}
-{"f":"cards","id":"ko.c0288","k":"note","src":"춤 춰요 = I dance.","tgt":""}
-{"f":"cards","id":"ko.c0289","k":"meaning","src":"hiking","tgt":""}
-{"f":"cards","id":"ko.c0289","k":"note","src":"National pastime — expect full gear on easy trails.","tgt":""}
-{"f":"cards","id":"ko.c0290","k":"meaning","src":"fishing","tgt":""}
-{"f":"cards","id":"ko.c0291","k":"meaning","src":"shopping","tgt":""}
-{"f":"cards","id":"ko.c0291","k":"note","src":"쇼핑해요 = I go shopping.","tgt":""}
-{"f":"cards","id":"ko.c0292","k":"meaning","src":"camping","tgt":""}
-{"f":"cards","id":"ko.c0292","k":"note","src":"차박 = car camping.","tgt":""}
-{"f":"cards","id":"ko.c0293","k":"meaning","src":"kimchi","tgt":""}
-{"f":"cards","id":"ko.c0293","k":"note","src":"Comes free with almost every meal.","tgt":""}
-{"f":"cards","id":"ko.c0294","k":"meaning","src":"gimbap (seaweed rice roll)","tgt":""}
-{"f":"cards","id":"ko.c0294","k":"note","src":"Cheap, everywhere, ~₩3,000–5,000.","tgt":""}
-{"f":"cards","id":"ko.c0295","k":"meaning","src":"bibimbap","tgt":""}
-{"f":"cards","id":"ko.c0295","k":"note","src":"비빔 = mixed; 밥 = rice.","tgt":""}
-{"f":"cards","id":"ko.c0296","k":"meaning","src":"bulgogi (marinated beef)","tgt":""}
-{"f":"cards","id":"ko.c0297","k":"meaning","src":"pork belly BBQ","tgt":""}
-{"f":"cards","id":"ko.c0297","k":"note","src":"Three-layer meat. Wrap it in lettuce: 쌈.","tgt":""}
-{"f":"cards","id":"ko.c0298","k":"meaning","src":"(Korean fried) chicken","tgt":""}
-{"f":"cards","id":"ko.c0298","k":"note","src":"치맥 = chicken + 맥주.","tgt":""}
-{"f":"cards","id":"ko.c0299","k":"meaning","src":"spicy rice cakes","tgt":""}
-{"f":"cards","id":"ko.c0299","k":"note","src":"Street food staple.","tgt":""}
-{"f":"cards","id":"ko.c0300","k":"meaning","src":"ramyeon (instant noodles)","tgt":""}
-{"f":"cards","id":"ko.c0300","k":"note","src":"라멘 is the Japanese kind.","tgt":""}
-{"f":"cards","id":"ko.c0301","k":"meaning","src":"stew","tgt":""}
+{"f":"cards","id":"ko.c0259","k":"meaning","src":"coffee shop / café","tgt":"咖啡店 / 咖啡室"}
+{"f":"cards","id":"ko.c0259","k":"note","src":"카페 is far more common in speech.","tgt":"講嘢多數講 카페。"}
+{"f":"cards","id":"ko.c0260","k":"meaning","src":"gym","tgt":"健身室"}
+{"f":"cards","id":"ko.c0260","k":"note","src":"Health + 장 (place). 헬스하다 = to work out.","tgt":"헬스 嚟自英文 health，장 = 地方。헬스하다 = 去健身。"}
+{"f":"cards","id":"ko.c0261","k":"meaning","src":"library","tgt":"圖書館"}
+{"f":"cards","id":"ko.c0261","k":"note","src":"도서 books + 관 hall.","tgt":"도서（圖書）+ 관（館）。"}
+{"f":"cards","id":"ko.c0262","k":"meaning","src":"museum","tgt":"博物館"}
+{"f":"cards","id":"ko.c0262","k":"note","src":"미술관 = art museum.","tgt":"미술관 = 美術館。博物館 bok3 mat6 gun2：-k 對 k，-t 對 l。"}
+{"f":"cards","id":"ko.c0263","k":"meaning","src":"house / home","tgt":"屋企"}
+{"f":"cards","id":"ko.c0263","k":"note","src":"집에 가요 = I'm going home.","tgt":"집에 가요 = 我返屋企。"}
+{"f":"cards","id":"ko.c0264","k":"meaning","src":"school","tgt":"學校"}
+{"f":"cards","id":"ko.c0264","k":"note","src":"대학교 = university.","tgt":"대학교 = 大學。學校 hok6 haau6：「學」收 -k，韓文都收 k。"}
+{"f":"cards","id":"ko.c0265","k":"meaning","src":"hospital","tgt":"醫院"}
+{"f":"cards","id":"ko.c0265","k":"note","src":"Also used for any doctor's clinic.","tgt":"普通診所都叫呢個字。"}
+{"f":"cards","id":"ko.c0266","k":"meaning","src":"pharmacy","tgt":"藥房"}
+{"f":"cards","id":"ko.c0266","k":"note","src":"Look for the green cross sign.","tgt":"認綠色十字招牌。漢字係「藥局」，joek6 guk6 兩個字都收 -k。"}
+{"f":"cards","id":"ko.c0267","k":"meaning","src":"bank","tgt":"銀行"}
+{"f":"cards","id":"ko.c0267","k":"note","src":"Also means ginkgo — context decides.","tgt":"亦可以解銀杏，靠上文下理分。"}
+{"f":"cards","id":"ko.c0268","k":"meaning","src":"convenience store","tgt":"便利店"}
+{"f":"cards","id":"ko.c0268","k":"note","src":"GS25, CU, 세븐일레븐.","tgt":"GS25、CU、세븐일레븐。漢字寫「便宜店」，但「便宜」喺度解方便，唔係平。"}
+{"f":"cards","id":"ko.c0269","k":"meaning","src":"restaurant","tgt":"餐廳"}
+{"f":"cards","id":"ko.c0269","k":"note","src":"레스토랑 = Western-style restaurant.","tgt":"레스토랑 = 西餐廳。漢字係「食堂」，但唔係飯堂，任何餐廳都叫呢個。"}
+{"f":"cards","id":"ko.c0270","k":"meaning","src":"market","tgt":"市場 / 街市"}
+{"f":"cards","id":"ko.c0270","k":"note","src":"전통시장 = traditional market.","tgt":"전통시장 = 傳統市場。"}
+{"f":"cards","id":"ko.c0271","k":"meaning","src":"department store","tgt":"百貨公司"}
+{"f":"cards","id":"ko.c0271","k":"note","src":"Lotte, Shinsegae, Hyundai.","tgt":"Lotte、Shinsegae、Hyundai。漢字係「百貨店」，「百（baak3）」收 -k，韓文都收 k。"}
+{"f":"cards","id":"ko.c0272","k":"meaning","src":"movie theater","tgt":"戲院"}
+{"f":"cards","id":"ko.c0272","k":"note","src":"CGV, 메가박스, 롯데시네마.","tgt":"CGV、메가박스、롯데시네마。"}
+{"f":"cards","id":"ko.c0273","k":"meaning","src":"park","tgt":"公園"}
+{"f":"cards","id":"ko.c0273","k":"note","src":"한강공원 = Han River park.","tgt":"한강공원 = 漢江公園。"}
+{"f":"cards","id":"ko.c0274","k":"meaning","src":"hotel","tgt":"酒店"}
+{"f":"cards","id":"ko.c0274","k":"note","src":"모텔 is cheaper; 게스트하우스 for backpackers.","tgt":"모텔 平啲；背包客住 게스트하우스。"}
+{"f":"cards","id":"ko.c0275","k":"meaning","src":"church / Buddhist temple","tgt":"教會 / 佛寺"}
+{"f":"cards","id":"ko.c0275","k":"note","src":"성당 = Catholic cathedral.","tgt":"성당 = 天主教堂。"}
+{"f":"cards","id":"ko.c0276","k":"meaning","src":"restroom","tgt":"洗手間"}
+{"f":"cards","id":"ko.c0276","k":"note","src":"Literally 'makeup room'.","tgt":"漢字係「化妝室」，直譯即係化妝間。「室（sat1）」收 -t，韓文收 l。"}
+{"f":"cards","id":"ko.c0277","k":"meaning","src":"hobby","tgt":"興趣"}
+{"f":"cards","id":"ko.c0277","k":"note","src":"취미가 뭐예요? = What's your hobby?","tgt":"취미가 뭐예요? = 你有咩興趣？"}
+{"f":"cards","id":"ko.c0278","k":"meaning","src":"exercise / working out","tgt":"運動 / 做運動"}
+{"f":"cards","id":"ko.c0278","k":"note","src":"운동해요 = I work out.","tgt":"운동해요 = 我做運動。漢字「運動」，wan6 dung6 收 -n、-ng，同韓文一樣。"}
+{"f":"cards","id":"ko.c0279","k":"meaning","src":"reading (books)","tgt":"閱讀"}
+{"f":"cards","id":"ko.c0279","k":"note","src":"책 읽는 거 좋아해요 is more natural in speech.","tgt":"講嘢多數講 책 읽는 거 좋아해요。"}
+{"f":"cards","id":"ko.c0280","k":"meaning","src":"cooking","tgt":"煮嘢食"}
+{"f":"cards","id":"ko.c0280","k":"note","src":"요리해요 = I cook.","tgt":"요리해요 = 我煮飯。"}
+{"f":"cards","id":"ko.c0281","k":"meaning","src":"travel","tgt":"旅行"}
+{"f":"cards","id":"ko.c0281","k":"note","src":"여행 가요 = I go on a trip.","tgt":"여행 가요 = 我去旅行。"}
+{"f":"cards","id":"ko.c0282","k":"meaning","src":"listening to music","tgt":"聽音樂"}
+{"f":"cards","id":"ko.c0282","k":"note","src":"음악 들어요 = I listen to music.","tgt":"음악 들어요 = 我聽音樂。「音樂」jam1 ngok6 收 -m、-k，同韓文一樣。"}
+{"f":"cards","id":"ko.c0283","k":"meaning","src":"watching movies","tgt":"睇戲"}
+{"f":"cards","id":"ko.c0283","k":"note","src":"-기 turns a verb into a noun.","tgt":"-기 將動詞變成名詞。"}
+{"f":"cards","id":"ko.c0284","k":"meaning","src":"gaming","tgt":"打機"}
+{"f":"cards","id":"ko.c0284","k":"note","src":"게임해요 = I play games. PC방 = internet café.","tgt":"게임해요 = 我打機。PC방 = 網吧。"}
+{"f":"cards","id":"ko.c0285","k":"meaning","src":"photography","tgt":"影相"}
+{"f":"cards","id":"ko.c0285","k":"note","src":"사진 찍어요 = I take photos.","tgt":"사진 찍어요 = 我影相。"}
+{"f":"cards","id":"ko.c0286","k":"meaning","src":"drawing / painting","tgt":"畫畫"}
+{"f":"cards","id":"ko.c0286","k":"note","src":"그림 = picture.","tgt":"그림 = 畫。"}
+{"f":"cards","id":"ko.c0287","k":"meaning","src":"singing","tgt":"唱歌"}
+{"f":"cards","id":"ko.c0287","k":"note","src":"노래방 = karaoke room.","tgt":"노래방 = 卡拉 OK 房。"}
+{"f":"cards","id":"ko.c0288","k":"meaning","src":"dancing","tgt":"跳舞"}
+{"f":"cards","id":"ko.c0288","k":"note","src":"춤 춰요 = I dance.","tgt":"춤 춰요 = 我跳舞。"}
+{"f":"cards","id":"ko.c0289","k":"meaning","src":"hiking","tgt":"行山"}
+{"f":"cards","id":"ko.c0289","k":"note","src":"National pastime — expect full gear on easy trails.","tgt":"漢字係「登山」。韓國人嘅國民運動，行好易行嘅山都全副裝備。"}
+{"f":"cards","id":"ko.c0290","k":"meaning","src":"fishing","tgt":"釣魚"}
+{"f":"cards","id":"ko.c0291","k":"meaning","src":"shopping","tgt":"行街買嘢"}
+{"f":"cards","id":"ko.c0291","k":"note","src":"쇼핑해요 = I go shopping.","tgt":"쇼핑해요 = 我去行街買嘢。"}
+{"f":"cards","id":"ko.c0292","k":"meaning","src":"camping","tgt":"露營"}
+{"f":"cards","id":"ko.c0292","k":"note","src":"차박 = car camping.","tgt":"차박 = 喺車入面過夜嘅露營。"}
+{"f":"cards","id":"ko.c0293","k":"meaning","src":"kimchi","tgt":"韓國泡菜"}
+{"f":"cards","id":"ko.c0293","k":"note","src":"Comes free with almost every meal.","tgt":"差唔多每餐都免費送。"}
+{"f":"cards","id":"ko.c0294","k":"meaning","src":"gimbap (seaweed rice roll)","tgt":"紫菜飯卷"}
+{"f":"cards","id":"ko.c0294","k":"note","src":"Cheap, everywhere, ~₩3,000–5,000.","tgt":"平、周圍都有，大約 ₩3,000–5,000。"}
+{"f":"cards","id":"ko.c0295","k":"meaning","src":"bibimbap","tgt":"韓式拌飯"}
+{"f":"cards","id":"ko.c0295","k":"note","src":"비빔 = mixed; 밥 = rice.","tgt":"비빔 = 撈勻；밥 = 飯。"}
+{"f":"cards","id":"ko.c0296","k":"meaning","src":"bulgogi (marinated beef)","tgt":"韓式烤牛肉（醃牛肉）"}
+{"f":"cards","id":"ko.c0297","k":"meaning","src":"pork belly BBQ","tgt":"烤五花腩"}
+{"f":"cards","id":"ko.c0297","k":"note","src":"Three-layer meat. Wrap it in lettuce: 쌈.","tgt":"直譯「三層肉」。用生菜包住食：쌈。"}
+{"f":"cards","id":"ko.c0298","k":"meaning","src":"(Korean fried) chicken","tgt":"韓式炸雞"}
+{"f":"cards","id":"ko.c0298","k":"note","src":"치맥 = chicken + 맥주.","tgt":"치맥 = 炸雞 + 맥주。"}
+{"f":"cards","id":"ko.c0299","k":"meaning","src":"spicy rice cakes","tgt":"辣炒年糕"}
+{"f":"cards","id":"ko.c0299","k":"note","src":"Street food staple.","tgt":"街頭小食必備。"}
+{"f":"cards","id":"ko.c0300","k":"meaning","src":"ramyeon (instant noodles)","tgt":"即食麵（公仔麵）"}
+{"f":"cards","id":"ko.c0300","k":"note","src":"라멘 is the Japanese kind.","tgt":"라멘 係日本拉麵。"}
+{"f":"cards","id":"ko.c0301","k":"meaning","src":"stew","tgt":"韓式湯鍋"}
 {"f":"cards","id":"ko.c0301","k":"note","src":"김치찌개, 된장찌개, 순두부찌개.","tgt":"김치찌개, 된장찌개, 순두부찌개.","pre":1}
-{"f":"cards","id":"ko.c0302","k":"meaning","src":"soup","tgt":""}
-{"f":"cards","id":"ko.c0302","k":"note","src":"탕 is heartier (삼계탕, 갈비탕).","tgt":""}
-{"f":"cards","id":"ko.c0303","k":"meaning","src":"side dishes","tgt":""}
-{"f":"cards","id":"ko.c0303","k":"note","src":"Refills are free: 반찬 좀 더 주세요.","tgt":""}
-{"f":"cards","id":"ko.c0304","k":"meaning","src":"bread","tgt":""}
-{"f":"cards","id":"ko.c0304","k":"note","src":"빵집 = bakery.","tgt":""}
-{"f":"cards","id":"ko.c0305","k":"meaning","src":"fruit","tgt":""}
-{"f":"cards","id":"ko.c0305","k":"note","src":"사과 apple, 딸기 strawberry, 귤 tangerine.","tgt":""}
-{"f":"cards","id":"ko.c0306","k":"meaning","src":"vegetables","tgt":""}
-{"f":"cards","id":"ko.c0306","k":"note","src":"채소 is the standard word.","tgt":""}
-{"f":"cards","id":"ko.c0307","k":"meaning","src":"egg","tgt":""}
-{"f":"cards","id":"ko.c0307","k":"note","src":"달걀 is the pure-Korean word.","tgt":""}
-{"f":"cards","id":"ko.c0308","k":"meaning","src":"fish (as food)","tgt":""}
-{"f":"cards","id":"ko.c0308","k":"note","src":"물고기 = fish (alive).","tgt":""}
-{"f":"cards","id":"ko.c0309","k":"meaning","src":"seafood","tgt":""}
-{"f":"cards","id":"ko.c0309","k":"note","src":"해물파전 = seafood pancake.","tgt":""}
-{"f":"cards","id":"ko.c0310","k":"meaning","src":"dessert","tgt":""}
-{"f":"cards","id":"ko.c0310","k":"note","src":"빙수 = shaved ice; 호떡 = sweet pancake.","tgt":""}
+{"f":"cards","id":"ko.c0302","k":"meaning","src":"soup","tgt":"湯"}
+{"f":"cards","id":"ko.c0302","k":"note","src":"탕 is heartier (삼계탕, 갈비탕).","tgt":"탕 比較濃（삼계탕、갈비탕）。"}
+{"f":"cards","id":"ko.c0303","k":"meaning","src":"side dishes","tgt":"小菜"}
+{"f":"cards","id":"ko.c0303","k":"note","src":"Refills are free: 반찬 좀 더 주세요.","tgt":"添小菜免費：반찬 좀 더 주세요。"}
+{"f":"cards","id":"ko.c0304","k":"meaning","src":"bread","tgt":"麵包"}
+{"f":"cards","id":"ko.c0304","k":"note","src":"빵집 = bakery.","tgt":"빵집 = 麵包舖。"}
+{"f":"cards","id":"ko.c0305","k":"meaning","src":"fruit","tgt":"生果"}
+{"f":"cards","id":"ko.c0305","k":"note","src":"사과 apple, 딸기 strawberry, 귤 tangerine.","tgt":"사과 蘋果、딸기 士多啤梨、귤 柑。"}
+{"f":"cards","id":"ko.c0306","k":"meaning","src":"vegetables","tgt":"蔬菜"}
+{"f":"cards","id":"ko.c0306","k":"note","src":"채소 is the standard word.","tgt":"채소 係標準講法。"}
+{"f":"cards","id":"ko.c0307","k":"meaning","src":"egg","tgt":"雞蛋"}
+{"f":"cards","id":"ko.c0307","k":"note","src":"달걀 is the pure-Korean word.","tgt":"달걀 係固有詞。"}
+{"f":"cards","id":"ko.c0308","k":"meaning","src":"fish (as food)","tgt":"魚（當食物）"}
+{"f":"cards","id":"ko.c0308","k":"note","src":"물고기 = fish (alive).","tgt":"물고기 = 生猛嘅魚。"}
+{"f":"cards","id":"ko.c0309","k":"meaning","src":"seafood","tgt":"海鮮"}
+{"f":"cards","id":"ko.c0309","k":"note","src":"해물파전 = seafood pancake.","tgt":"해물파전 = 海鮮煎餅。"}
+{"f":"cards","id":"ko.c0310","k":"meaning","src":"dessert","tgt":"甜品"}
+{"f":"cards","id":"ko.c0310","k":"note","src":"빙수 = shaved ice; 호떡 = sweet pancake.","tgt":"빙수 = 刨冰；호떡 = 糖餡煎餅。"}
 {"f":"cards","id":"ko.c0311","k":"meaning","src":"soft drink / beverage","tgt":""}
 {"f":"cards","id":"ko.c0311","k":"note","src":"Umbrella word for non-alcoholic drinks.","tgt":""}
 {"f":"cards","id":"ko.c0312","k":"meaning","src":"coffee","tgt":""}

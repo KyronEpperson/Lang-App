@@ -28,3 +28,4 @@ Launch w1..w4 as slots free (priority over the waiting deck writers). Launched: 
 
 - 04:20: bn w4 WAITING; yue-ko profile done, work files made: yue w1..w4 WAITING for slots.
 - 04:30: bn w4 launched. WAITING: yue w1-4, ur w1-4 (profile + work files ready).
+- 05:00: th hi id vi shipped (2.74/2.75). yue w1-4, ur w1 w2 launched; ur w3 w4 WAITING. kn pa profiles running.
