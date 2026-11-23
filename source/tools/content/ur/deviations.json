@@ -1,0 +1,24 @@
+{
+  "lessons": {
+    "pakistani-english": "ur-only lesson (profile ur.md §8 'add' / §4.11 / §9): Pakistani English usages that are fine at home and puzzle listeners abroad (out of station, cousin-brother, pass out, batchmate, shopper, copy, petrol pump, the light has gone, papers / numbers, timings, thrice, Where are you put up?, prepone, expired, I am elder to you), forms that are wrong or misleading in any variety (open / close the light, drink a cigarette, same to same, too much difficult, my head is paining, Myself Ali, isn't it? after every sentence) and Urdu calques (eat medicine, give an exam, good name, real brother); replaces the scaffold's Korean-only lesson konglish; placed after smalltalk via profile.json lessonOrder.after; deck 22 «پاکستانی انگریزی: یہاں اور باہر»; no ko-en counterpart (mirrors hi indian-english, zh chinglish)",
+    "stative-since": "ur-only lesson (profile ur.md §8 add, §4.2): states vs actions with the continuous (I am knowing ✗, She is having a car ✗), Urdu سے → since / for / from, and سے + رہا ہے → Present Perfect (states) or Present Perfect Continuous (actions), How long…? for کب سے. The most Urdu-specific grammar zone (Groningen handout on Pakistani English; eWAVE 89; the Hindi evidence cited in hi.md); ko-en has no such lesson. Same id and same English side (checks, practice o / a / x, fill q) as hi-en's stative-since; Urdu prompts and why lines written fresh; body rows carry IPA. Practice meets the article-plural standing rule. Placed after perfect-2 (profile.json lessonOrder.after), deck «اپنا تعارف» (deck 2, the deck of perfect-2)."
+  },
+  "items": {},
+  "decks": {
+    "اپنا تعارف": "localisation per profile ur.md §9 (Minji→Sara, Korea→Pakistan, Seoul→Karachi; same positions as hi-en and ar-en, confirmed against the scaffold): cards 0 'My name is Sara.', 4 'I'm from Pakistan.', 5 'I live in Karachi.'",
+    "سب سے ضروری 1": "localisation per profile ur.md §9: card 12 'Do you speak Korean?' → 'Do you speak Urdu?' (learner's own language)",
+    "ہلکی پھلکی گپ شپ": "localisation per profile ur.md §9: card 6 'Have you been to Korea?' → 'Have you been to Pakistan?'",
+    "تعریف اور پسند": "localisation per profile ur.md §9: card 8 'Your Korean is really good!' → 'Your Urdu is really good!'",
+    "کال اور چیٹ کی شارٹ فارم": "localisation per profile ur.md §9 (Minji→Sara; surnames only in work scenes, Mr. Kim→Mr. Khan): cards 0 'Hello, this is Sara.', 1 'Can I speak to Mr. Khan?'",
+    "سفر (ایئرپورٹ اور ہوٹل)": "localisation per profile ur.md §9: card 8 reservation name 'under Kim' → 'under Khan' (surname)",
+    "ڈاکٹر اور ایمرجنسی": "localisation per profile ur.md §9: card 15 'the Korean embassy' → 'the Pakistani embassy' (learner's own embassy)",
+    "تلفظ کی عام غلطیاں": "ur-only cards appended per profile ur.md §4.13 / §9 (cards 26–41): vine, wine, vest, west, wary (very / wary), they, day, school, station, street, bad, bed, about, photography, development, zoo — the v / w, th, s-cluster, bad / bed, weak-vowel, stress and z / j traps (the card Jew was dropped in the cold review by lead ruling; zoo carries the z / j note alone). very, think, sink, three and tree already exist and are reused. Original 26 cards unchanged",
+    "پاکستانی انگریزی: یہاں اور باہر": "ur-only deck (profile ur.md §4.11 / §8 pakistani-english / §9, DECKNAMES row 22; 28 cards): the international form of Pakistani English usages (out of station, cousin-sister, pass out, batchmate, shopper, petrol pump, the light has gone, papers, marks / numbers, copy, timings, put up, thrice, prepone, expired, elder to you), forms that are wrong anywhere (open / close the light, drink a cigarette, same to same, too much difficult, head is paining, Myself…, isn't it?) and Urdu calques (eat medicine, give an exam, good name, real brother); linked to the ur-only lesson pakistani-english; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: ur-only deck «پاکستانی انگریزی: یہاں اور باہر» (profile ur.md §9, DECKNAMES row 22) appended last"
+  },
+  "extraLessons": [
+    "pakistani-english",
+    "stative-since"
+  ],
+  "droppedLessons": []
+}
