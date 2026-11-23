@@ -1,0 +1,99 @@
+{"id":"compare.k1","q":"«El autobús es más barato que el taxi» =","why":"보다 va en lo que usas como punto de comparación."}
+{"id":"compare.k2","q":"«Esto es lo más rico» =","why":"제일 = lo más."}
+{"id":"compare.k3","q":"«Más, por favor» =","why":"더 = más."}
+{"id":"noun-modifiers.k1","q":"«una bolsa grande» =","why":"Raíz en vocal + ㄴ, delante del sustantivo."}
+{"id":"noun-modifiers.k2","q":"«comida rica» =","why":"Las palabras con 있다 llevan 는."}
+{"id":"noun-modifiers.k3","q":"«comida picante» =","why":"Raíz en ㅂ: 맵다 → 매운."}
+{"id":"joining.k1","q":"«Es caro pero rico» =","why":"-지만 = pero."}
+{"id":"joining.k2","q":"«Estaba ocupado, así que no fui» =","why":"-아/어서 nunca va en pasado."}
+{"id":"joining.k3","q":"«Es barato y rico» =","why":"Raíz + 고 = y."}
+{"id":"have-to.k1","q":"«Tengo que ir» =","why":"가요 → 가 + 야 해요."}
+{"id":"have-to.k2","q":"먹다 → «tener que comer» =","why":"먹어요 → 먹어 + 야 해요."}
+{"id":"have-to.k3","q":"«No hace falta que vayas» =","why":"안 … 도 돼요 = está bien no hacerlo."}
+{"id":"want-like.k1","q":"«Quiero ir» =","why":"Raíz + 고 싶어요."}
+{"id":"want-like.k2","q":"«Me gusta el café» =","why":"좋아해요 es un verbo de acción → 을/를."}
+{"id":"want-like.k3","q":"«¿Qué quieres comer?» =","why":"먹 + 고 싶어요."}
+{"id":"pronouns-questions.k1","q":"«¿Qué es esto?» =","why":"뭐 = qué; va donde iría la respuesta."}
+{"id":"pronouns-questions.k2","q":"«¿Dónde está el baño?» =","why":"어디 = dónde; 에 있어요 = está en."}
+{"id":"pronouns-questions.k3","q":"«¿Quién está ahí?» =","why":"누구 + 가 → 누가."}
+{"id":"sound-changes.k1","q":"감사합니다 suena como:","o":[null,"감사합니다, tal como se escribe",null,null],"why":"ㅂ antes de ㄴ se suaviza a ㅁ."}
+{"id":"sound-changes.k2","q":"한국어 suena como:","o":[null,"한국 어, con una pausa",null,null],"why":"La ㄱ final se pasa al asiento vacío de la ㅇ."}
+{"id":"sound-changes.k3","q":"좋아요 suena como:","why":"ㅎ entre vocales se vuelve muda."}
+{"id":"future.k1","q":"먹다 en futuro =","why":"Raíz que termina en consonante + 을 거예요."}
+{"id":"future.k2","q":"«¿Qué vas a hacer el fin de semana?» =","why":"하 + ㄹ 거예요 → 할 거예요."}
+{"id":"future.k3","q":"«No voy a ir» =","why":"안 va antes del verbo."}
+{"id":"past.k1","q":"가다 en pasado =","why":"가요 → quita 요 → 갔어요."}
+{"id":"past.k2","q":"«(Yo) era estudiante» =","why":"Termina en consonante → 이었어요."}
+{"id":"past.k3","q":"«¿Qué hiciste ayer?» =","why":"해요 → 했어요; la palabra de tiempo va primero."}
+{"id":"verbs.k1","q":"먹다 en presente cortés =","why":"La última vocal es ㅓ (no ㅏ/ㅗ) → 어요."}
+{"id":"verbs.k2","q":"보다 en presente cortés =","why":"Raíz con ㅗ + 아요; 보 + 아 se funden en 봐."}
+{"id":"verbs.k3","q":"«¿Vas a casa?» =","why":"La misma forma en 요; solo sube la entonación."}
+{"id":"nouns.k1","q":"«Yo soy estudiante» =","why":"저 termina en vocal → 는; 학생 termina en consonante → 이에요."}
+{"id":"nouns.k2","q":"«Aquel edificio» =","why":"이 = este, 그 = ese (cerca de ti), 저 = aquel (allá)."}
+{"id":"nouns.k3","q":"«Mi nombre es Minsu» =","why":"이름 termina en consonante → 은; 민수 termina en vocal → 예요."}
+{"id":"isseoyo.k1","q":"«Estoy en casa» =","why":"Estar en un lugar → lugar + 에 + 있어요."}
+{"id":"isseoyo.k2","q":"«Tengo un gato» =","why":"Tener = «hay un gato (para mí)»: 이/가 + 있어요."}
+{"id":"isseoyo.k3","q":"«No tengo tiempo» =","why":"없어요 = no hay / no tengo; 시간 termina en consonante → 이."}
+{"id":"sov.k1","q":"El orden de palabras en coreano es:","o":["Sujeto · Objeto · Verbo","Sujeto · Verbo · Objeto","Verbo · Sujeto · Objeto","Objeto · Verbo · Sujeto"],"why":"El verbo siempre cierra la oración."}
+{"id":"sov.k2","q":"«Estudio coreano» =","why":"한국어 termina en vocal → 를; el verbo al final."}
+{"id":"sov.k3","q":"«La bolsa es grande» =","why":"Los verbos descriptivos llevan 이/가, no 을/를."}
+{"id":"particles.k1","q":"«Voy a casa» =","why":"Destino con 가요 → 에 (como «a»)."}
+{"id":"particles.k2","q":"«Estudio en una cafetería» =","why":"Donde ocurre una acción → 에서."}
+{"id":"particles.k3","q":"«El gato está en casa» =","why":"있어요 lleva 에, no 에서."}
+{"id":"negation.k1","q":"«No estudio» =","why":"Con sustantivo + 하다, 안 va antes de 해요."}
+{"id":"negation.k2","q":"«No soy estudiante» =","why":"Los sustantivos se niegan con 이/가 아니에요."}
+{"id":"negation.k3","q":"«No tengo tiempo» =","why":"La negación de 있어요 es 없어요."}
+{"id":"do-man.k1","q":"«Yo también» =","why":"도 reemplaza a 은/는: nunca se suma a él."}
+{"id":"do-man.k2","q":"«Solo agua, por favor» =","why":"만 = solo; reemplaza a 을/를."}
+{"id":"do-man.k3","q":"«También estudio en la escuela» =","why":"에서 se queda; 도 va después."}
+{"id":"cant.k1","q":"«Hoy no puedo ir» (algo me lo impide) =","why":"못 = no poder; 안 = decidir no hacerlo."}
+{"id":"cant.k2","q":"«Puedo comer kimchi» =","why":"Raíz en consonante + 을 수 있어요 = poder."}
+{"id":"cant.k3","q":"Si te preguntan algo y no estás seguro, la respuesta suave es:","why":"모르겠어요 es el «no estoy seguro» más suave."}
+{"id":"verbbasics.k1","q":"Raíz de 먹다 =","why":"Quita 다 y te queda la raíz."}
+{"id":"verbbasics.k2","q":"«El clima está bueno» =","why":"좋아요 ya incluye el «es/está»."}
+{"id":"verbbasics.k3","q":"«Tengo tiempo» =","why":"있어요 = haber / tener."}
+{"id":"sentences.k1","q":"«Tomo café en una cafetería» =","why":"Lugar de la acción → 에서; verbo al final."}
+{"id":"sentences.k2","q":"«El café está rico» =","why":"Los verbos descriptivos llevan 이/가, no 을/를."}
+{"id":"sentences.k3","q":"¿Orden habitual?","o":["quién · cuándo · dónde · qué · verbo","verbo · qué · dónde · quién","quién · verbo · qué · dónde","qué · quién · verbo · cuándo"],"why":"Todo se acomoda delante del verbo."}
+{"id":"office.k1","q":"Te vas y un compañero de tu mismo nivel sigue trabajando. Dices:","why":"수고하세요 = ánimo con el trabajo (la otra persona se queda)."}
+{"id":"office.k2","q":"A un gerente llamado 김민수 lo llamas:","why":"Cargo + 님, no el nombre."}
+{"id":"office.k3","q":"Para rechazar con cortesía una copa en el 회식:","why":"Da una razón; 운전 es la universal."}
+{"id":"honorific.k1","q":"«Buen provecho» a un cliente:","why":"드시다 reemplaza a 먹다 en el habla honorífica."}
+{"id":"honorific.k2","q":"Honorífico de 자다 (dormir):","why":"안녕히 주무세요."}
+{"id":"honorific.k3","q":"¿Cuál está mal?","why":"Nunca uses 시 para hablar de ti mismo."}
+{"id":"requests.k1","q":"La forma más cortés de pedirle a alguien que tome una foto:","why":"좀 + 주시겠어요 = máxima cortesía."}
+{"id":"requests.k2","q":"«Por casualidad» =","why":"혹시 abre una pregunta cortés."}
+{"id":"requests.k3","q":"«¿Puedo sentarme aquí?» =","why":"-아/어도 돼요 = ¿puedo…?"}
+{"id":"story.k1","q":"«Así que llegué tarde a casa» =","why":"그래서 = así que / por eso."}
+{"id":"story.k2","q":"¿Qué conector agrega un contraste?","why":"그런데 / 하지만 = pero."}
+{"id":"story.k3","q":"¿Dónde suele ir 어제 (ayer)?","o":["al principio","después del verbo","después del objeto","es una terminación verbal"],"why":"Las palabras de tiempo van primero y sitúan la escena."}
+{"id":"counters.k1","q":"«Dos cafés, por favor» =","why":"둘 → 두 antes de un contador; las bebidas llevan 잔."}
+{"id":"counters.k2","q":"Para contar personas con cortesía se usa:","why":"분 es el contador honorífico de personas; 명 es neutro."}
+{"id":"counters.k3","q":"¿Dónde van el número y el contador?","o":["después del sustantivo: 맥주 두 병","antes del sustantivo: 두 병 맥주","después del verbo","en cualquier lugar"],"why":"Sustantivo → número → contador."}
+{"id":"titles.k1","q":"Tu compañero de trabajo Minsu tiene tu edad. La forma segura de llamarlo:","why":"Nombre + 씨 es el trato cortés por defecto entre iguales."}
+{"id":"titles.k2","q":"Eres hombre y ella es dos años mayor. La llamas:","why":"Hablante hombre → chica mayor = 누나."}
+{"id":"titles.k3","q":"Para llamar al dueño de la cafetería:","why":"사장님 = jefe/dueño, cortés y lo habitual."}
+{"id":"plans.k1","q":"«¿Tomamos un café?» (sugerencia suave)","why":"ㄹ까요 = «¿tomamos…?», «¿vamos…?»: una sugerencia suave."}
+{"id":"plans.k2","q":"«¡A comer!» (informal, ya decidido)","why":"자 = propuesta informal y ya decidida: «¡comamos!», «¡a comer!»."}
+{"id":"plans.k3","q":"Los coreanos suelen confirmar el punto de encuentro con:","o":["estación + número de salida","la dirección de la calle","coordenadas GPS","una foto de un lugar conocido"],"why":"p. ej., 강남역 11번 출구."}
+{"id":"texting.k1","q":"ㅋㅋㅋ significa:","o":["jajaja","perdón","no","adiós"],"why":"ㅋ = la k de 크크, el sonido de la risa (como nuestro «jajaja»)."}
+{"id":"texting.k2","q":"Un «sí» informal en un mensaje:","why":"ㅇㅇ = 응응."}
+{"id":"texting.k3","q":"Si le escribes a un compañero de trabajo mayor, debes:","o":["mantener el 요 y usar 네/넵","usar ㅇㅇ","quitar todas las partículas y el 요","mandar solo ㅋㅋ"],"why":"Las abreviaturas son para los amigos; con los mayores se mantiene la cortesía."}
+{"id":"hangul.k1","q":"¿Cuál es la vocal horizontal que suena u, como en «uno»?","why":"ㅜ: palito horizontal con la rayita hacia abajo = u."}
+{"id":"hangul.k2","q":"¿Cómo suena ㅇ al PRINCIPIO de un bloque?","o":["Muda","ng (como la n de «tengo»)","h (un soplo de aire)","g (como en «gato»)"],"why":"La ㅇ inicial solo ocupa un lugar; la ㅇ final suena ng, como la n de «tengo»."}
+{"id":"hangul.k3","q":"¿Qué bloque es 'han'?","why":"ㅎ + ㅏ + ㄴ (al final) = 한."}
+{"id":"polite.k1","q":"Estás pidiendo en un café. ¿Qué forma usas?","why":"La forma con 요 es la opción por defecto con desconocidos y con el personal."}
+{"id":"polite.k2","q":"Quitar el 요 hace que el habla sea…","o":["informal (반말)","más cortés","formal","una pregunta"],"why":"반말 = habla informal, para amigos cercanos y personas más jóvenes."}
+{"id":"polite.k3","q":"¿De qué nivel es 감사합니다?","o":["formal","informal","cortés, con 요","jerga"],"why":"-습니다 / -ㅂ니다 es el nivel formal."}
+{"id":"meet.k1","q":"«Soy Lisa»: en hangul es 리사, y el último bloque, 사, termina en vocal, así que:","why":"Fíjate en el último bloque en hangul: sin consonante final → 예요; con consonante final → 이에요."}
+{"id":"meet.k2","q":"Alguien se va y tú te quedas. Dices:","why":"가세요 = vaya en paz (a quien se va)."}
+{"id":"meet.k3","q":"«¿De dónde eres?»","why":"에서 왔어요 = vine de."}
+{"id":"numbers.k1","q":"¿Qué sistema se usa para el dinero?","o":["Sinocoreano (일, 이, 삼)","Nativo (하나, 둘, 셋)","Cualquiera de los dos","Ninguno"],"why":"Dinero, fechas, minutos, teléfonos → sinocoreano."}
+{"id":"numbers.k2","q":"«Las 3» =","why":"Las horas usan números nativos; 셋 → 세 delante de un contador."}
+{"id":"numbers.k3","q":"50,000 wones =","why":"El coreano agrupa por 만 (10,000): 5 × 만 = 오만."}
+{"id":"food.k1","q":"Para llamar al mesero dices:","why":"저기요 = disculpe (oiga). 야 es grosero con el personal."}
+{"id":"food.k2","q":"«Dos gimbap, por favor» =","why":"El nativo 둘 → 두 antes del contador 개 (cosas)."}
+{"id":"food.k3","q":"Se dice DESPUÉS de comer:","why":"먹었 = pasado (comí bien). 먹겠 = futuro (voy a comer bien)."}
+{"id":"getting-around.k1","q":"«Siga derecho» =","why":"똑바로 = derecho."}
+{"id":"getting-around.k2","q":"En el taxi, «lléveme a Myeongdong, por favor» =","why":"lugar + 으로 가 주세요."}
+{"id":"getting-around.k3","q":"La tarjeta de transporte se llama:","why":"T-money sirve en metro, autobús y la mayoría de los taxis."}

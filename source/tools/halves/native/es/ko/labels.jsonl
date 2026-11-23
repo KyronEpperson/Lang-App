@@ -1,0 +1,140 @@
+{"id":"ko.t01","text":"Brote"}
+{"id":"ko.t03","text":"Estudiante"}
+{"id":"ko.t05","text":"Veterano"}
+{"id":"ko.t08","text":"Pro"}
+{"id":"ko.t12","text":"As"}
+{"id":"ko.t16","text":"Sensei"}
+{"id":"ko.h.night","text":"ya es tarde, buen trabajo"}
+{"id":"ko.h.morning","text":"buenos días"}
+{"id":"ko.h.afternoon","text":"buenas tardes"}
+{"id":"ko.h.evening","text":"buenas noches"}
+{"id":"goal.travel","text":"Viajes y transporte"}
+{"id":"goal.social","text":"Citas, amistades y salidas nocturnas"}
+{"id":"goal.drama","text":"K-dramas y música"}
+{"id":"goal.work","text":"Trabajo y estudios"}
+{"id":"plan.trip","text":"Viaje a Corea"}
+{"id":"plan.social","text":"Hacer amigos y tener citas"}
+{"id":"plan.conv","text":"Conversar en 90 días"}
+{"id":"ko.z.compliment","text":"cumplido"}
+{"id":"ko.z.compliment.01","text":"Te ves genial / ¡Qué bien!"}
+{"id":"ko.z.compliment.02","text":"Eres lo máximo"}
+{"id":"ko.z.compliment.03","text":"¡Impresionante!"}
+{"id":"ko.z.compliment.04","text":"Bien hecho"}
+{"id":"ko.z.compliment.05","text":"Tienes muy buen gusto"}
+{"id":"ko.z.compliment.06","text":"Qué amable es usted"}
+{"id":"ko.z.compliment.07","text":"Eres muy listo/a"}
+{"id":"ko.z.compliment.08","text":"Eres divertido/a"}
+{"id":"ko.z.compliment.09","text":"Tu sonrisa es preciosa"}
+{"id":"ko.z.compliment.10","text":"Tienes una voz bonita"}
+{"id":"ko.z.compliment.11","text":"Eres de confianza"}
+{"id":"ko.z.compliment.12","text":"Te queda muy bien"}
+{"id":"ko.z.compliment.13","text":"Contigo me siento respaldado/a"}
+{"id":"ko.z.compliment.14","text":"Eres increíble"}
+{"id":"ko.z.compliment.15","text":"Tienes muy buena personalidad"}
+{"id":"ko.z.compliment.16","text":"Habla muy bien coreano"}
+{"id":"ko.z.compliment.17","text":"Tienes un aire especial"}
+{"id":"ko.z.compliment.18","text":"Una persona cálida"}
+{"id":"ko.z.compliment.19","text":"Aprendo mucho de ti"}
+{"id":"ko.z.compliment.20","text":"Contigo me siento a gusto"}
+{"id":"ko.z.compliment.21","text":"Le pone muchas ganas"}
+{"id":"ko.z.compliment.22","text":"Piensas las cosas a fondo"}
+{"id":"ko.z.expression","text":"expresión cotidiana"}
+{"id":"ko.z.expression.01","text":"¿En serio?"}
+{"id":"ko.z.expression.02","text":"Ya veo"}
+{"id":"ko.z.expression.03","text":"Así es"}
+{"id":"ko.z.expression.04","text":"¡Claro!"}
+{"id":"ko.z.expression.05","text":"Pues… no sé"}
+{"id":"ko.z.expression.06","text":"Quizás"}
+{"id":"ko.z.expression.07","text":"Está bien"}
+{"id":"ko.z.expression.08","text":"Entendido"}
+{"id":"ko.z.expression.09","text":"Un momento"}
+{"id":"ko.z.expression.10","text":"¿Puede repetirlo, por favor?"}
+{"id":"ko.z.expression.11","text":"Ay, ¿y ahora qué hago?"}
+{"id":"ko.z.expression.12","text":"¡Increíble! / ¡Qué locura!"}
+{"id":"ko.z.expression.13","text":"Con razón"}
+{"id":"ko.z.expression.14","text":"No puede ser…"}
+{"id":"ko.z.expression.15","text":"Obvio"}
+{"id":"ko.z.expression.16","text":"Sí, ¿verdad?"}
+{"id":"ko.z.expression.17","text":"¡Ay, Dios!"}
+{"id":"ko.z.expression.18","text":"Por supuesto"}
+{"id":"ko.z.expression.19","text":"No estoy seguro/a"}
+{"id":"ko.z.expression.20","text":"Cuánto tiempo sin vernos"}
+{"id":"ko.z.expression.21","text":"Gracias por su trabajo de hoy"}
+{"id":"ko.z.expression.22","text":"Gracias por la comida (antes de comer)"}
+{"id":"ko.z.expression.23","text":"Estuvo delicioso (después de comer)"}
+{"id":"ko.z.expression.24","text":"Que llegue bien"}
+{"id":"ko.z.expression.25","text":"Que tenga un buen día"}
+{"id":"ko.z.expression.26","text":"¿Qué significa?"}
+{"id":"ko.z.polite","text":"cortesía básica"}
+{"id":"ko.z.polite.01","text":"Por favor (deme…)"}
+{"id":"ko.z.polite.02","text":"Por favor (te lo pido)"}
+{"id":"ko.z.polite.03","text":"Disculpe / con permiso"}
+{"id":"ko.z.polite.04","text":"Disculpe (para llamar la atención)"}
+{"id":"ko.z.polite.05","text":"Un momentito, por favor"}
+{"id":"ko.z.polite.06","text":"Lo siento"}
+{"id":"ko.z.polite.07","text":"Gracias (formal)"}
+{"id":"ko.z.polite.08","text":"Gracias (cortés, más cercano)"}
+{"id":"ko.z.polite.09","text":"De nada (lit. «no es nada»)"}
+{"id":"ko.z.polite.10","text":"Está bien / No, gracias"}
+{"id":"ko.z.polite.11","text":"Hola"}
+{"id":"ko.z.polite.12","text":"Adiós (a quien se queda)"}
+{"id":"ko.z.polite.13","text":"Adiós (a quien se va)"}
+{"id":"ko.z.polite.14","text":"Ayúdeme, por favor"}
+{"id":"ko.z.polite.15","text":"Mucho gusto (la primera vez)"}
+{"id":"ko.z.polite.16","text":"Encantado/a"}
+{"id":"ko.z.polite.17","text":"Pase usted / adelante"}
+{"id":"ko.z.polite.18","text":"Con permiso, voy a pasar"}
+{"id":"ko.z.saying","text":"refrán"}
+{"id":"ko.z.saying.01","text":"Empezar es la mitad del camino"}
+{"id":"ko.z.saying.02","text":"Los sueños se cumplen"}
+{"id":"ko.z.saying.03","text":"Querer es poder"}
+{"id":"ko.z.saying.04","text":"No te rindas"}
+{"id":"ko.z.saying.05","text":"Juntando polvo se hace una montaña"}
+{"id":"ko.z.saying.06","text":"¡Justo hoy tenía que pasar!"}
+{"id":"ko.z.saying.07","text":"Pan comido"}
+{"id":"ko.z.saying.08","text":"Primero comer, luego pasear"}
+{"id":"ko.z.saying.09","text":"Sonríe y llegará la buena suerte"}
+{"id":"ko.z.saying.10","text":"Después de la tormenta viene la calma"}
+{"id":"ko.z.saying.11","text":"Un largo viaje empieza con un paso"}
+{"id":"ko.z.saying.12","text":"Genio y figura hasta la sepultura"}
+{"id":"ko.z.saying.13","text":"La unión hace la fuerza"}
+{"id":"ko.z.saying.14","text":"Hoy también, ¡ánimo!"}
+{"id":"ko.z.saying.15","text":"Tú puedes"}
+{"id":"ko.z.saying.16","text":"Tranquilo, todo saldrá bien"}
+{"id":"ko.z.saying.17","text":"Solo se vive una vez"}
+{"id":"ko.z.saying.18","text":"Ir despacio también está bien"}
+{"id":"ko.z.saying.19","text":"Hasta los monos se caen de los árboles"}
+{"id":"ko.z.saying.20","text":"Una palabra amable paga una gran deuda"}
+{"id":"ko.i01","text":"Que se cumplan todos tus deseos"}
+{"id":"ko.i02","text":"Matar dos pájaros de un tiro"}
+{"id":"ko.i03","text":"No hay mal que por bien no venga"}
+{"id":"ko.i04","text":"Convertir la desgracia en buena suerte"}
+{"id":"ko.i05","text":"Tras lo amargo viene lo dulce"}
+{"id":"ko.i06","text":"Los grandes talentos florecen tarde"}
+{"id":"ko.i07","text":"Hombre prevenido vale por dos"}
+{"id":"ko.i08","text":"Caer siete veces, levantarse ocho"}
+{"id":"ko.i09","text":"Un propósito que dura tres días"}
+{"id":"ko.i10","text":"Entenderse sin palabras"}
+{"id":"ko.i11","text":"Compartir las penas y las alegrías"}
+{"id":"ko.i12","text":"La cereza del pastel"}
+{"id":"ko.i13","text":"Cuanto más, mejor"}
+{"id":"ko.i14","text":"Mejorar día a día"}
+{"id":"ko.i15","text":"Cosechas lo que siembras"}
+{"id":"ko.i16","text":"La constancia mueve montañas"}
+{"id":"ko.i17","text":"Éxito ganado a fuerza de estudiar"}
+{"id":"ko.i18","text":"Aprender de los errores ajenos"}
+{"id":"ko.i19","text":"Pasarse es tan malo como no llegar"}
+{"id":"ko.i20","text":"Ponerse en los zapatos del otro"}
+{"id":"ko.i21","text":"Hechos el uno para el otro"}
+{"id":"ko.i22","text":"Devoción firme y sincera"}
+{"id":"ko.i23","text":"Acechar la ocasión como un tigre"}
+{"id":"ko.i24","text":"Amigo de la infancia"}
+{"id":"ko.i25","text":"Aprender lo nuevo estudiando lo antiguo"}
+{"id":"ko.i26","text":"Pensarlo con mucho cuidado"}
+{"id":"ko.i27","text":"El bien se premia y el mal se castiga"}
+{"id":"ko.i28","text":"Por un oído le entra y por el otro le sale"}
+{"id":"ko.i29","text":"Nueve de cada diez veces"}
+{"id":"ko.i30","text":"Ganar todas las batallas"}
+{"id":"ko.i31","text":"Hecho a sí mismo"}
+{"id":"ko.i32","text":"Mantenerse fiel a la meta inicial"}
+{"id":"ko.d.mydeck","text":"Todo lo que agregues tú."}

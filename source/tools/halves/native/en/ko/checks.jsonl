@@ -1,0 +1,99 @@
+{"id":"compare.k1","q":"'The bus is cheaper than a taxi' =","why":"보다 goes on the thing you compare against."}
+{"id":"compare.k2","q":"'This is the tastiest' =","why":"제일 = the most."}
+{"id":"compare.k3","q":"'More, please' =","why":"더 = more."}
+{"id":"noun-modifiers.k1","q":"'a big bag' =","why":"Vowel stem + ㄴ, in front of the noun."}
+{"id":"noun-modifiers.k2","q":"'tasty food' =","why":"있다 words take 는."}
+{"id":"noun-modifiers.k3","q":"'spicy food' =","why":"ㅂ stem: 맵다 → 매운."}
+{"id":"joining.k1","q":"'It's expensive but tasty' =","why":"-지만 = but."}
+{"id":"joining.k2","q":"'I was busy, so I didn't go' =","why":"-아/어서 never takes the past."}
+{"id":"joining.k3","q":"'It's cheap and tasty' =","why":"Stem + 고 = and."}
+{"id":"have-to.k1","q":"'(I) have to go' =","why":"가요 → 가 + 야 해요."}
+{"id":"have-to.k2","q":"먹다 → 'have to eat' =","why":"먹어요 → 먹어 + 야 해요."}
+{"id":"have-to.k3","q":"'(You) don't have to go' =","why":"안 … 도 돼요 = it's okay not to."}
+{"id":"want-like.k1","q":"'(I) want to go' =","why":"Stem + 고 싶어요."}
+{"id":"want-like.k2","q":"'(I) like coffee' =","why":"좋아해요 is an action verb → 을/를."}
+{"id":"want-like.k3","q":"'What do you want to eat?' =","why":"먹 + 고 싶어요."}
+{"id":"pronouns-questions.k1","q":"'What is this?' =","why":"뭐 = what; it sits where the answer goes."}
+{"id":"pronouns-questions.k2","q":"'Where is the bathroom?' =","why":"어디 = where; 에 있어요 = is at."}
+{"id":"pronouns-questions.k3","q":"'Who is there?' =","why":"누구 + 가 → 누가."}
+{"id":"sound-changes.k1","q":"감사합니다 sounds like:","o":[null,"감사합니다, exactly as spelled",null,null],"why":"ㅂ before ㄴ softens to ㅁ."}
+{"id":"sound-changes.k2","q":"한국어 sounds like:","o":[null,"한국 어, with a pause",null,null],"why":"The final ㄱ slides into the empty ㅇ seat."}
+{"id":"sound-changes.k3","q":"좋아요 sounds like:","why":"ㅎ between vowels goes silent."}
+{"id":"future.k1","q":"먹다 in the future =","why":"Consonant stem + 을 거예요."}
+{"id":"future.k2","q":"'What will you do on the weekend?' =","why":"하 + ㄹ 거예요 → 할 거예요."}
+{"id":"future.k3","q":"'(I) won't go' =","why":"안 goes before the verb."}
+{"id":"past.k1","q":"가다 in the past =","why":"가요 → drop 요 → 갔어요."}
+{"id":"past.k2","q":"'(I) was a student' =","why":"Consonant ending → 이었어요."}
+{"id":"past.k3","q":"'What did you do yesterday?' =","why":"해요 → 했어요; the time word goes first."}
+{"id":"verbs.k1","q":"먹다 in the polite present =","why":"Last vowel is ㅓ (not ㅏ/ㅗ) → 어요."}
+{"id":"verbs.k2","q":"보다 in the polite present =","why":"ㅗ stem + 아요; 보 + 아 merge into 봐."}
+{"id":"verbs.k3","q":"'Are you going home?' =","why":"Same 요-form; only the tone rises."}
+{"id":"nouns.k1","q":"'I'm a student' =","why":"저 ends in a vowel → 는; 학생 ends in a consonant → 이에요."}
+{"id":"nouns.k2","q":"'That building over there' =","why":"이 = this, 그 = that (near you), 저 = over there."}
+{"id":"nouns.k3","q":"'My name is Minsu' =","why":"이름 ends in a consonant → 은; 민수 ends in a vowel → 예요."}
+{"id":"isseoyo.k1","q":"'I'm at home' =","why":"Being somewhere → place + 에 + 있어요."}
+{"id":"isseoyo.k2","q":"'I have a cat' =","why":"Having = 'a cat exists': 이/가 + 있어요."}
+{"id":"isseoyo.k3","q":"'I don't have time' =","why":"없어요 = there isn't / don't have; 시간 ends in a consonant → 이."}
+{"id":"sov.k1","q":"Korean word order is:","o":["Subject · Object · Verb","Subject · Verb · Object","Verb · Subject · Object","Object · Verb · Subject"],"why":"The verb always closes the sentence."}
+{"id":"sov.k2","q":"'I study Korean' =","why":"한국어 ends in a vowel → 를; verb last."}
+{"id":"sov.k3","q":"'The bag is big' =","why":"Describing verbs take 이/가, not 을/를."}
+{"id":"particles.k1","q":"'I'm going home' =","why":"Destination with 가요 → 에."}
+{"id":"particles.k2","q":"'I study at a café' =","why":"Where an action happens → 에서."}
+{"id":"particles.k3","q":"'The cat is at home' =","why":"있어요 takes 에, not 에서."}
+{"id":"negation.k1","q":"'I don't study' =","why":"With noun + 하다, 안 goes before 해요."}
+{"id":"negation.k2","q":"'I'm not a student' =","why":"Nouns are negated with 이/가 아니에요."}
+{"id":"negation.k3","q":"'I don't have time' =","why":"The negative of 있어요 is 없어요."}
+{"id":"do-man.k1","q":"'Me too' =","why":"도 replaces 은/는 — it never stacks on it."}
+{"id":"do-man.k2","q":"'Just water, please' =","why":"만 = only; it replaces 을/를."}
+{"id":"do-man.k3","q":"'I study at school too' =","why":"에서 stays; 도 goes after it."}
+{"id":"cant.k1","q":"'I can't go today' (something stops me) =","why":"못 = can't; 안 = choose not to."}
+{"id":"cant.k2","q":"'I can eat kimchi' =","why":"Consonant stem + 을 수 있어요 = can."}
+{"id":"cant.k3","q":"Asked something you're unsure about, the soft answer is:","why":"모르겠어요 is the softer 'I'm not sure'."}
+{"id":"verbbasics.k1","q":"Stem of 먹다 =","why":"Drop 다 to get the stem."}
+{"id":"verbbasics.k2","q":"'The weather is good' =","why":"좋아요 already includes 'is'."}
+{"id":"verbbasics.k3","q":"'I have time' =","why":"있어요 = exist / have."}
+{"id":"sentences.k1","q":"'I drink coffee at a café' =","why":"Place of action → 에서; verb last."}
+{"id":"sentences.k2","q":"'The coffee is tasty' =","why":"Describing verbs take 이/가, not 을/를."}
+{"id":"sentences.k3","q":"Usual order?","o":["who · when · where · what · verb","verb · what · where · who","who · verb · what · where","what · who · verb · when"],"why":"Everything stacks up in front of the verb."}
+{"id":"office.k1","q":"You're leaving; a coworker at your level is still working. You say:","why":"수고하세요 = keep up the good work (they stay)."}
+{"id":"office.k2","q":"Address a manager named 김민수 as:","why":"Title + 님, not the name."}
+{"id":"office.k3","q":"Politely declining a drink at 회식:","why":"Give a reason; 운전 is the universal one."}
+{"id":"honorific.k1","q":"'Enjoy your meal' to a customer:","why":"드시다 replaces 먹다 in honorific speech."}
+{"id":"honorific.k2","q":"Honorific of 자다 (to sleep):","why":"안녕히 주무세요."}
+{"id":"honorific.k3","q":"Which is wrong?","why":"Never use 시 about yourself."}
+{"id":"requests.k1","q":"Most polite way to ask someone to take a photo:","why":"좀 + 주시겠어요 = maximum politeness."}
+{"id":"requests.k2","q":"'By any chance' =","why":"혹시 opens a polite question."}
+{"id":"requests.k3","q":"'May I sit here?' =","why":"-아/어도 돼요 = may I."}
+{"id":"story.k1","q":"'So I got home late' =","why":"그래서 = so / therefore."}
+{"id":"story.k2","q":"Which connector adds a contrast?","why":"그런데 / 하지만 = but."}
+{"id":"story.k3","q":"Where does 어제 (yesterday) usually go?","o":["at the start","after the verb","after the object","it is a verb ending"],"why":"Time words set the scene first."}
+{"id":"counters.k1","q":"'Two coffees, please' =","why":"둘 → 두 before a counter; drinks take 잔."}
+{"id":"counters.k2","q":"Counting people politely uses:","why":"분 is the honorific people counter; 명 is neutral."}
+{"id":"counters.k3","q":"Where does the number + counter go?","o":["after the noun: 맥주 두 병","before the noun: 두 병 맥주","after the verb","anywhere"],"why":"Noun → number → counter."}
+{"id":"titles.k1","q":"Your coworker Minsu, same age. Safe way to address him:","why":"Name + 씨 is the polite default with peers."}
+{"id":"titles.k2","q":"You're a guy; she's two years older. You call her:","why":"Male speaker → older girl = 누나."}
+{"id":"titles.k3","q":"Calling the café owner over:","why":"사장님 = boss/owner, polite and standard."}
+{"id":"plans.k1","q":"'Shall we get coffee?' (soft suggestion)","why":"ㄹ까요 = shall we."}
+{"id":"plans.k2","q":"'Let's eat!' (casual, decided)","why":"자 = let's."}
+{"id":"plans.k3","q":"Koreans usually confirm a meetup spot with:","o":["station + exit number","street address","GPS coordinates","a landmark photo"],"why":"e.g. 강남역 11번 출구."}
+{"id":"texting.k1","q":"ㅋㅋㅋ means:","o":["lol","sorry","no","bye"],"why":"ㅋ = the k in 크크 laughter."}
+{"id":"texting.k2","q":"Casual 'yeah' in a text:","why":"ㅇㅇ = 응응."}
+{"id":"texting.k3","q":"Texting your older coworker, you should:","o":["keep 요 and use 네/넵","use ㅇㅇ","drop all particles and 요","send only ㅋㅋ"],"why":"Shorthand is for friends; politeness stays with seniors."}
+{"id":"hangul.k1","q":"Which vowel is the horizontal 'u' (oo) sound?","why":"ㅜ: horizontal stick, tick down = u."}
+{"id":"hangul.k2","q":"What does ㅇ sound like at the START of a block?","o":["Silent","ng","h","g"],"why":"Initial ㅇ is a placeholder; final ㅇ is ng."}
+{"id":"hangul.k3","q":"Which block is 'han'?","why":"ㅎ + ㅏ + ㄴ (final) = 한."}
+{"id":"polite.k1","q":"You're ordering at a café. Which form?","why":"요-form is the default with strangers and staff."}
+{"id":"polite.k2","q":"Dropping the 요 makes speech…","o":["casual (반말)","more polite","formal","a question"],"why":"반말 = casual speech for close friends and younger people."}
+{"id":"polite.k3","q":"감사합니다 is which level?","o":["formal","casual","polite 요-form","slang"],"why":"-습니다 / -ㅂ니다 is the formal level."}
+{"id":"meet.k1","q":"'I'm Lisa' — in Hangul 리사, and the last block 사 ends in a vowel, so:","why":"Go by the last Hangul block: no final consonant → 예요; a final consonant → 이에요."}
+{"id":"meet.k2","q":"Someone is leaving and you are staying. You say:","why":"가세요 = go well (to the one leaving)."}
+{"id":"meet.k3","q":"'Where are you from?'","why":"에서 왔어요 = came from."}
+{"id":"numbers.k1","q":"Which number system for money?","o":["Sino-Korean (일, 이, 삼)","Native (하나, 둘, 셋)","Either","Neither"],"why":"Money, dates, minutes, phone numbers → Sino."}
+{"id":"numbers.k2","q":"'3 o'clock' =","why":"Hours use native numbers; 셋 → 세 before a counter."}
+{"id":"numbers.k3","q":"50,000 won =","why":"Korean groups by 만 (10,000): 5 × 만 = 오만."}
+{"id":"food.k1","q":"To call a waiter you say:","why":"저기요 = excuse me (there). 야 is rude to staff."}
+{"id":"food.k2","q":"'Two gimbap, please' =","why":"Native 둘 → 두 before the counter 개 (things)."}
+{"id":"food.k3","q":"Said AFTER eating:","why":"먹었 = past (I ate well). 먹겠 = future (I will eat well)."}
+{"id":"getting-around.k1","q":"'Go straight' =","why":"똑바로 = straight."}
+{"id":"getting-around.k2","q":"In a taxi, 'please go to Myeongdong' =","why":"place + 으로 가 주세요."}
+{"id":"getting-around.k3","q":"The transit card is called:","why":"T-money works on subway, bus and most taxis."}

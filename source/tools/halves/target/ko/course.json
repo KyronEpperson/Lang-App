@@ -1,0 +1,1150 @@
+{
+ "target": "ko",
+ "ttsLang": "ko-KR",
+ "self": "한국어",
+ "introWord": "한글",
+ "groups": [
+  {
+   "id": "ko.grp.foundations",
+   "decks": [
+    "ko.d.hangul-vowels",
+    "ko.d.hangul-consonants",
+    "ko.d.hangul-advanced",
+    "ko.d.pronunciation-tips"
+   ]
+  },
+  {
+   "id": "ko.grp.everyday",
+   "decks": [
+    "ko.d.survival-phrases",
+    "ko.d.survival-phrases-2",
+    "ko.d.asking-around",
+    "ko.d.introductions",
+    "ko.d.small-talk",
+    "ko.d.food-ordering",
+    "ko.d.cafe-convenience-store",
+    "ko.d.directions-transport",
+    "ko.d.time-days",
+    "ko.d.numbers-in-the-wild",
+    "ko.d.weather-feelings",
+    "ko.d.doctor-pharmacy",
+    "ko.d.housing-errands",
+    "ko.d.work-office"
+   ]
+  },
+  {
+   "id": "ko.grp.vocabulary",
+   "decks": [
+    "ko.d.places-buildings",
+    "ko.d.hobbies",
+    "ko.d.food-words",
+    "ko.d.drinks",
+    "ko.d.activities",
+    "ko.d.tv-entertainment",
+    "ko.d.position-direction-words"
+   ]
+  },
+  {
+   "id": "ko.grp.grammar",
+   "decks": [
+    "ko.d.core-verbs",
+    "ko.d.particles",
+    "ko.d.numbers",
+    "ko.d.counters",
+    "ko.d.adjectives",
+    "ko.d.connectors",
+    "ko.d.honorifics"
+   ]
+  },
+  {
+   "id": "ko.grp.social",
+   "decks": [
+    "ko.d.casual-texting",
+    "ko.d.hanging-out",
+    "ko.d.hype-cool",
+    "ko.d.sweet-talk",
+    "ko.d.cute-things-to-say",
+    "ko.d.flirting",
+    "ko.d.dating-deeper",
+    "ko.d.k-drama-phrases",
+    "ko.d.k-pop-fan-culture",
+    "ko.d.social-media-slang",
+    "ko.d.family-people"
+   ]
+  }
+ ],
+ "tags": {
+  "travel": [
+   "ko.d.survival-phrases",
+   "ko.d.survival-phrases-2",
+   "ko.d.asking-around",
+   "ko.d.directions-transport",
+   "ko.d.cafe-convenience-store",
+   "ko.d.numbers-in-the-wild",
+   "ko.d.food-ordering",
+   "ko.d.doctor-pharmacy",
+   "ko.d.places-buildings",
+   "ko.d.position-direction-words"
+  ],
+  "dating": [
+   "ko.d.sweet-talk",
+   "ko.d.cute-things-to-say",
+   "ko.d.flirting",
+   "ko.d.hanging-out",
+   "ko.d.small-talk",
+   "ko.d.dating-deeper"
+  ],
+  "work": [
+   "ko.d.introductions",
+   "ko.d.time-days",
+   "ko.d.numbers-in-the-wild",
+   "ko.d.core-verbs",
+   "ko.d.connectors",
+   "ko.d.work-office"
+  ],
+  "food": [
+   "ko.d.food-ordering",
+   "ko.d.cafe-convenience-store",
+   "ko.d.counters",
+   "ko.d.food-words",
+   "ko.d.drinks"
+  ],
+  "time": [
+   "ko.d.time-days",
+   "ko.d.numbers",
+   "ko.d.numbers-in-the-wild",
+   "ko.d.counters"
+  ],
+  "polite": [
+   "ko.d.survival-phrases",
+   "ko.d.introductions",
+   "ko.d.asking-around",
+   "ko.d.cafe-convenience-store",
+   "ko.d.weather-feelings",
+   "ko.d.doctor-pharmacy",
+   "ko.d.housing-errands",
+   "ko.d.honorifics",
+   "ko.d.work-office"
+  ],
+  "casual": [
+   "ko.d.casual-texting",
+   "ko.d.hanging-out",
+   "ko.d.hype-cool",
+   "ko.d.sweet-talk",
+   "ko.d.k-drama-phrases",
+   "ko.d.social-media-slang",
+   "ko.d.hobbies",
+   "ko.d.tv-entertainment"
+  ],
+  "slang": [
+   "ko.d.hype-cool",
+   "ko.d.k-drama-phrases",
+   "ko.d.casual-texting",
+   "ko.d.social-media-slang",
+   "ko.d.k-pop-fan-culture"
+  ],
+  "grammar": [
+   "ko.d.core-verbs",
+   "ko.d.particles",
+   "ko.d.counters",
+   "ko.d.connectors",
+   "ko.d.adjectives",
+   "ko.d.numbers",
+   "ko.d.honorifics"
+  ],
+  "reading": [
+   "ko.d.hangul-vowels",
+   "ko.d.hangul-consonants",
+   "ko.d.hangul-advanced",
+   "ko.d.pronunciation-tips"
+  ],
+  "family": [
+   "ko.d.family-people"
+  ],
+  "feelings": [
+   "ko.d.weather-feelings",
+   "ko.d.sweet-talk",
+   "ko.d.k-drama-phrases",
+   "ko.d.k-pop-fan-culture"
+  ],
+  "living": [
+   "ko.d.housing-errands",
+   "ko.d.doctor-pharmacy",
+   "ko.d.cafe-convenience-store",
+   "ko.d.places-buildings",
+   "ko.d.activities",
+   "ko.d.hobbies"
+  ],
+  "vocab": [
+   "ko.d.places-buildings",
+   "ko.d.hobbies",
+   "ko.d.food-words",
+   "ko.d.drinks",
+   "ko.d.activities",
+   "ko.d.tv-entertainment",
+   "ko.d.position-direction-words"
+  ]
+ },
+ "goals": [
+  {
+   "id": "goal.travel",
+   "key": "travel",
+   "decks": [
+    "ko.d.survival-phrases",
+    "ko.d.asking-around",
+    "ko.d.cafe-convenience-store",
+    "ko.d.directions-transport"
+   ]
+  },
+  {
+   "id": "goal.social",
+   "key": "social",
+   "decks": [
+    "ko.d.introductions",
+    "ko.d.hanging-out",
+    "ko.d.casual-texting",
+    "ko.d.flirting",
+    "ko.d.cute-things-to-say"
+   ]
+  },
+  {
+   "id": "goal.drama",
+   "key": "drama",
+   "decks": [
+    "ko.d.k-drama-phrases",
+    "ko.d.k-pop-fan-culture",
+    "ko.d.sweet-talk",
+    "ko.d.social-media-slang"
+   ]
+  },
+  {
+   "id": "goal.work",
+   "key": "work",
+   "decks": [
+    "ko.d.introductions",
+    "ko.d.numbers-in-the-wild",
+    "ko.d.time-days",
+    "ko.d.core-verbs"
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "id": "plan.trip",
+   "key": "trip",
+   "weeks": 3,
+   "decks": [
+    "ko.d.hangul-vowels",
+    "ko.d.hangul-consonants",
+    "ko.d.survival-phrases",
+    "ko.d.asking-around",
+    "ko.d.cafe-convenience-store",
+    "ko.d.food-ordering",
+    "ko.d.directions-transport",
+    "ko.d.numbers-in-the-wild",
+    "ko.d.survival-phrases-2"
+   ],
+   "lessons": [
+    "hangul",
+    "polite",
+    "meet",
+    "food",
+    "getting-around",
+    "numbers"
+   ]
+  },
+  {
+   "id": "plan.social",
+   "key": "social",
+   "weeks": 6,
+   "decks": [
+    "ko.d.hangul-vowels",
+    "ko.d.hangul-consonants",
+    "ko.d.survival-phrases",
+    "ko.d.introductions",
+    "ko.d.small-talk",
+    "ko.d.hanging-out",
+    "ko.d.casual-texting",
+    "ko.d.sweet-talk",
+    "ko.d.cute-things-to-say",
+    "ko.d.flirting",
+    "ko.d.hype-cool",
+    "ko.d.k-drama-phrases"
+   ],
+   "lessons": [
+    "hangul",
+    "polite",
+    "meet",
+    "sov",
+    "particles",
+    "verbs",
+    "plans",
+    "texting",
+    "titles"
+   ]
+  },
+  {
+   "id": "plan.conv",
+   "key": "conv",
+   "weeks": 13,
+   "decks": [
+    "ko.d.hangul-vowels",
+    "ko.d.hangul-consonants",
+    "ko.d.hangul-advanced",
+    "ko.d.pronunciation-tips",
+    "ko.d.survival-phrases",
+    "ko.d.survival-phrases-2",
+    "ko.d.asking-around",
+    "ko.d.introductions",
+    "ko.d.small-talk",
+    "ko.d.food-ordering",
+    "ko.d.cafe-convenience-store",
+    "ko.d.directions-transport",
+    "ko.d.time-days",
+    "ko.d.numbers-in-the-wild",
+    "ko.d.weather-feelings",
+    "ko.d.doctor-pharmacy",
+    "ko.d.housing-errands",
+    "ko.d.work-office",
+    "ko.d.places-buildings",
+    "ko.d.hobbies",
+    "ko.d.food-words",
+    "ko.d.drinks",
+    "ko.d.activities",
+    "ko.d.tv-entertainment",
+    "ko.d.position-direction-words",
+    "ko.d.core-verbs",
+    "ko.d.particles",
+    "ko.d.numbers",
+    "ko.d.counters",
+    "ko.d.adjectives",
+    "ko.d.connectors",
+    "ko.d.honorifics",
+    "ko.d.casual-texting",
+    "ko.d.hanging-out",
+    "ko.d.hype-cool",
+    "ko.d.sweet-talk",
+    "ko.d.cute-things-to-say",
+    "ko.d.flirting",
+    "ko.d.dating-deeper",
+    "ko.d.k-drama-phrases",
+    "ko.d.k-pop-fan-culture",
+    "ko.d.social-media-slang",
+    "ko.d.family-people"
+   ],
+   "lessons": [
+    "hangul",
+    "polite",
+    "meet",
+    "sound-changes",
+    "nouns",
+    "isseoyo",
+    "pronouns-questions",
+    "verbbasics",
+    "verbs",
+    "past",
+    "future",
+    "sov",
+    "particles",
+    "negation",
+    "do-man",
+    "sentences",
+    "want-like",
+    "numbers",
+    "food",
+    "getting-around",
+    "titles",
+    "plans",
+    "texting",
+    "counters",
+    "joining",
+    "story",
+    "noun-modifiers",
+    "compare",
+    "cant",
+    "have-to",
+    "honorific",
+    "requests",
+    "office"
+   ]
+  }
+ ],
+ "titles": [
+  {
+   "id": "ko.t01",
+   "level": 1,
+   "ko": "새싹"
+  },
+  {
+   "id": "ko.t03",
+   "level": 3,
+   "ko": "학생"
+  },
+  {
+   "id": "ko.t05",
+   "level": 5,
+   "ko": "선배"
+  },
+  {
+   "id": "ko.t08",
+   "level": 8,
+   "ko": "고수"
+  },
+  {
+   "id": "ko.t12",
+   "level": 12,
+   "ko": "달인"
+  },
+  {
+   "id": "ko.t16",
+   "level": 16,
+   "ko": "사범"
+  }
+ ],
+ "greet": [
+  {
+   "id": "ko.h.night",
+   "ko": "늦었어요, 수고했어요",
+   "rom": "neujeosseoyo, sugohaesseoyo"
+  },
+  {
+   "id": "ko.h.morning",
+   "ko": "좋은 아침이에요 ☀️",
+   "rom": "joeun achimieyo"
+  },
+  {
+   "id": "ko.h.afternoon",
+   "ko": "좋은 오후예요",
+   "rom": "joeun ohuyeyo"
+  },
+  {
+   "id": "ko.h.evening",
+   "ko": "좋은 저녁이에요 🌙",
+   "rom": "joeun jeonyeogieyo"
+  }
+ ],
+ "pairs": [
+  [
+   "고마워",
+   "고마워요"
+  ],
+  [
+   "미안해",
+   "미안해요"
+  ],
+  [
+   "뭐 해?",
+   "뭐 해요?"
+  ],
+  [
+   "어디야?",
+   "어디예요?"
+  ],
+  [
+   "밥 먹었어?",
+   "밥 먹었어요?"
+  ],
+  [
+   "잘 자",
+   "잘 자요"
+  ],
+  [
+   "보고 싶어",
+   "보고 싶어요"
+  ],
+  [
+   "사랑해",
+   "사랑해요"
+  ],
+  [
+   "귀여워",
+   "귀여워요"
+  ],
+  [
+   "알았어",
+   "알았어요"
+  ],
+  [
+   "몰라",
+   "몰라요"
+  ],
+  [
+   "괜찮아",
+   "괜찮아요"
+  ],
+  [
+   "가자",
+   "가요"
+  ],
+  [
+   "같이 갈래?",
+   "같이 갈래요?"
+  ],
+  [
+   "시간 있어?",
+   "시간 있어요?"
+  ],
+  [
+   "재밌었어",
+   "재밌었어요"
+  ],
+  [
+   "또 봐",
+   "또 봐요"
+  ],
+  [
+   "조심히 가",
+   "조심히 가세요"
+  ],
+  [
+   "잘했어",
+   "잘했어요"
+  ],
+  [
+   "힘내",
+   "힘내세요"
+  ],
+  [
+   "피곤해",
+   "피곤해요"
+  ],
+  [
+   "배고파",
+   "배고파요"
+  ],
+  [
+   "심심해",
+   "심심해요"
+  ],
+  [
+   "좋아",
+   "좋아요"
+  ],
+  [
+   "싫어",
+   "싫어요"
+  ],
+  [
+   "나 지금 가",
+   "저 지금 가요"
+  ],
+  [
+   "이거 먹어도 돼?",
+   "이거 먹어도 돼요?"
+  ],
+  [
+   "너 진짜 예뻐",
+   "정말 예뻐요"
+  ],
+  [
+   "담에 봐",
+   "다음에 봐요"
+  ],
+  [
+   "화이팅",
+   "화이팅하세요"
+  ],
+  [
+   "회의 몇 시야?",
+   "회의 몇 시예요?"
+  ],
+  [
+   "마감 언제야?",
+   "마감이 언제예요?"
+  ],
+  [
+   "잠깐 시간 돼?",
+   "잠깐 시간 괜찮으세요?"
+  ],
+  [
+   "이거 좀 도와줄래?",
+   "이거 좀 도와주실 수 있어요?"
+  ],
+  [
+   "나 먼저 갈게",
+   "저 먼저 갈게요"
+  ],
+  [
+   "수고했어",
+   "수고하셨습니다"
+  ]
+ ],
+ "pause": {
+  "sets": [
+   {
+    "id": "ko.z.compliment",
+    "key": "compliment",
+    "ko": "칭찬",
+    "sep": " · ",
+    "items": [
+     {
+      "id": "ko.z.compliment.01",
+      "ko": "멋져요"
+     },
+     {
+      "id": "ko.z.compliment.02",
+      "ko": "최고예요"
+     },
+     {
+      "id": "ko.z.compliment.03",
+      "ko": "대단해요"
+     },
+     {
+      "id": "ko.z.compliment.04",
+      "ko": "잘했어요"
+     },
+     {
+      "id": "ko.z.compliment.05",
+      "ko": "센스 있어요"
+     },
+     {
+      "id": "ko.z.compliment.06",
+      "ko": "친절하시네요"
+     },
+     {
+      "id": "ko.z.compliment.07",
+      "ko": "똑똑해요"
+     },
+     {
+      "id": "ko.z.compliment.08",
+      "ko": "재미있어요"
+     },
+     {
+      "id": "ko.z.compliment.09",
+      "ko": "웃는 게 예뻐요"
+     },
+     {
+      "id": "ko.z.compliment.10",
+      "ko": "목소리 좋아요"
+     },
+     {
+      "id": "ko.z.compliment.11",
+      "ko": "믿음직해요"
+     },
+     {
+      "id": "ko.z.compliment.12",
+      "ko": "잘 어울려요"
+     },
+     {
+      "id": "ko.z.compliment.13",
+      "ko": "든든해요"
+     },
+     {
+      "id": "ko.z.compliment.14",
+      "ko": "멋있어요"
+     },
+     {
+      "id": "ko.z.compliment.15",
+      "ko": "성격 좋아요"
+     },
+     {
+      "id": "ko.z.compliment.16",
+      "ko": "한국어 잘하시네요"
+     },
+     {
+      "id": "ko.z.compliment.17",
+      "ko": "분위기 있어요"
+     },
+     {
+      "id": "ko.z.compliment.18",
+      "ko": "따뜻한 사람"
+     },
+     {
+      "id": "ko.z.compliment.19",
+      "ko": "배울 점이 많아요"
+     },
+     {
+      "id": "ko.z.compliment.20",
+      "ko": "같이 있으면 편해요"
+     },
+     {
+      "id": "ko.z.compliment.21",
+      "ko": "열심히 하시네요"
+     },
+     {
+      "id": "ko.z.compliment.22",
+      "ko": "생각이 깊어요"
+     }
+    ]
+   },
+   {
+    "id": "ko.z.expression",
+    "key": "expression",
+    "ko": "표현",
+    "sep": " · ",
+    "items": [
+     {
+      "id": "ko.z.expression.01",
+      "ko": "진짜요?"
+     },
+     {
+      "id": "ko.z.expression.02",
+      "ko": "그렇군요"
+     },
+     {
+      "id": "ko.z.expression.03",
+      "ko": "맞아요"
+     },
+     {
+      "id": "ko.z.expression.04",
+      "ko": "그럼요"
+     },
+     {
+      "id": "ko.z.expression.05",
+      "ko": "글쎄요"
+     },
+     {
+      "id": "ko.z.expression.06",
+      "ko": "아마도"
+     },
+     {
+      "id": "ko.z.expression.07",
+      "ko": "괜찮아요"
+     },
+     {
+      "id": "ko.z.expression.08",
+      "ko": "알겠어요"
+     },
+     {
+      "id": "ko.z.expression.09",
+      "ko": "잠시만요"
+     },
+     {
+      "id": "ko.z.expression.10",
+      "ko": "다시 말해 주세요"
+     },
+     {
+      "id": "ko.z.expression.11",
+      "ko": "어떡해"
+     },
+     {
+      "id": "ko.z.expression.12",
+      "ko": "대박"
+     },
+     {
+      "id": "ko.z.expression.13",
+      "ko": "어쩐지"
+     },
+     {
+      "id": "ko.z.expression.14",
+      "ko": "설마"
+     },
+     {
+      "id": "ko.z.expression.15",
+      "ko": "당연하죠"
+     },
+     {
+      "id": "ko.z.expression.16",
+      "ko": "그러게요"
+     },
+     {
+      "id": "ko.z.expression.17",
+      "ko": "아이고"
+     },
+     {
+      "id": "ko.z.expression.18",
+      "ko": "물론이죠"
+     },
+     {
+      "id": "ko.z.expression.19",
+      "ko": "잘 모르겠어요"
+     },
+     {
+      "id": "ko.z.expression.20",
+      "ko": "오랜만이에요"
+     },
+     {
+      "id": "ko.z.expression.21",
+      "ko": "수고하셨어요"
+     },
+     {
+      "id": "ko.z.expression.22",
+      "ko": "잘 먹겠습니다"
+     },
+     {
+      "id": "ko.z.expression.23",
+      "ko": "잘 먹었습니다"
+     },
+     {
+      "id": "ko.z.expression.24",
+      "ko": "조심히 가세요"
+     },
+     {
+      "id": "ko.z.expression.25",
+      "ko": "좋은 하루 보내세요"
+     },
+     {
+      "id": "ko.z.expression.26",
+      "ko": "무슨 뜻이에요?"
+     }
+    ]
+   },
+   {
+    "id": "ko.z.polite",
+    "key": "polite",
+    "ko": "예의",
+    "sep": " · ",
+    "items": [
+     {
+      "id": "ko.z.polite.01",
+      "ko": "주세요"
+     },
+     {
+      "id": "ko.z.polite.02",
+      "ko": "부탁해요"
+     },
+     {
+      "id": "ko.z.polite.03",
+      "ko": "실례합니다"
+     },
+     {
+      "id": "ko.z.polite.04",
+      "ko": "저기요"
+     },
+     {
+      "id": "ko.z.polite.05",
+      "ko": "잠깐만요"
+     },
+     {
+      "id": "ko.z.polite.06",
+      "ko": "죄송합니다"
+     },
+     {
+      "id": "ko.z.polite.07",
+      "ko": "감사합니다"
+     },
+     {
+      "id": "ko.z.polite.08",
+      "ko": "고마워요"
+     },
+     {
+      "id": "ko.z.polite.09",
+      "ko": "아니에요"
+     },
+     {
+      "id": "ko.z.polite.10",
+      "ko": "괜찮습니다"
+     },
+     {
+      "id": "ko.z.polite.11",
+      "ko": "안녕하세요"
+     },
+     {
+      "id": "ko.z.polite.12",
+      "ko": "안녕히 계세요"
+     },
+     {
+      "id": "ko.z.polite.13",
+      "ko": "안녕히 가세요"
+     },
+     {
+      "id": "ko.z.polite.14",
+      "ko": "도와주세요"
+     },
+     {
+      "id": "ko.z.polite.15",
+      "ko": "처음 뵙겠습니다"
+     },
+     {
+      "id": "ko.z.polite.16",
+      "ko": "반갑습니다"
+     },
+     {
+      "id": "ko.z.polite.17",
+      "ko": "먼저 가세요"
+     },
+     {
+      "id": "ko.z.polite.18",
+      "ko": "지나갈게요"
+     }
+    ]
+   },
+   {
+    "id": "ko.z.saying",
+    "key": "saying",
+    "ko": "속담",
+    "sep": " · ",
+    "items": [
+     {
+      "id": "ko.z.saying.01",
+      "ko": "시작이 반이다"
+     },
+     {
+      "id": "ko.z.saying.02",
+      "ko": "꿈은 이루어진다"
+     },
+     {
+      "id": "ko.z.saying.03",
+      "ko": "하면 된다"
+     },
+     {
+      "id": "ko.z.saying.04",
+      "ko": "포기하지 마"
+     },
+     {
+      "id": "ko.z.saying.05",
+      "ko": "티끌 모아 태산"
+     },
+     {
+      "id": "ko.z.saying.06",
+      "ko": "가는 날이 장날"
+     },
+     {
+      "id": "ko.z.saying.07",
+      "ko": "누워서 떡 먹기"
+     },
+     {
+      "id": "ko.z.saying.08",
+      "ko": "금강산도 식후경"
+     },
+     {
+      "id": "ko.z.saying.09",
+      "ko": "웃으면 복이 와요"
+     },
+     {
+      "id": "ko.z.saying.10",
+      "ko": "고생 끝에 낙이 온다"
+     },
+     {
+      "id": "ko.z.saying.11",
+      "ko": "천 리 길도 한 걸음부터"
+     },
+     {
+      "id": "ko.z.saying.12",
+      "ko": "세 살 버릇 여든까지"
+     },
+     {
+      "id": "ko.z.saying.13",
+      "ko": "백지장도 맞들면 낫다"
+     },
+     {
+      "id": "ko.z.saying.14",
+      "ko": "오늘도 힘내요"
+     },
+     {
+      "id": "ko.z.saying.15",
+      "ko": "넌 할 수 있어"
+     },
+     {
+      "id": "ko.z.saying.16",
+      "ko": "괜찮아, 잘될 거야"
+     },
+     {
+      "id": "ko.z.saying.17",
+      "ko": "인생은 한 번뿐"
+     },
+     {
+      "id": "ko.z.saying.18",
+      "ko": "느려도 괜찮아"
+     },
+     {
+      "id": "ko.z.saying.19",
+      "ko": "원숭이도 나무에서 떨어진다"
+     },
+     {
+      "id": "ko.z.saying.20",
+      "ko": "말 한마디에 천 냥 빚도 갚는다"
+     }
+    ]
+   }
+  ],
+  "idioms": [
+   {
+    "id": "ko.i01",
+    "ko": "소원성취",
+    "hanja": "所願成就",
+    "rom": "sowon seongchwi"
+   },
+   {
+    "id": "ko.i02",
+    "ko": "일석이조",
+    "hanja": "一石二鳥",
+    "rom": "ilseogijo"
+   },
+   {
+    "id": "ko.i03",
+    "ko": "새옹지마",
+    "hanja": "塞翁之馬",
+    "rom": "saeong jima"
+   },
+   {
+    "id": "ko.i04",
+    "ko": "전화위복",
+    "hanja": "轉禍爲福",
+    "rom": "jeonhwa wibok"
+   },
+   {
+    "id": "ko.i05",
+    "ko": "고진감래",
+    "hanja": "苦盡甘來",
+    "rom": "gojin gamnae"
+   },
+   {
+    "id": "ko.i06",
+    "ko": "대기만성",
+    "hanja": "大器晩成",
+    "rom": "daegi manseong"
+   },
+   {
+    "id": "ko.i07",
+    "ko": "유비무환",
+    "hanja": "有備無患",
+    "rom": "yubi muhwan"
+   },
+   {
+    "id": "ko.i08",
+    "ko": "칠전팔기",
+    "hanja": "七顚八起",
+    "rom": "chiljeon palgi"
+   },
+   {
+    "id": "ko.i09",
+    "ko": "작심삼일",
+    "hanja": "作心三日",
+    "rom": "jaksim samil"
+   },
+   {
+    "id": "ko.i10",
+    "ko": "이심전심",
+    "hanja": "以心傳心",
+    "rom": "isim jeonsim"
+   },
+   {
+    "id": "ko.i11",
+    "ko": "동고동락",
+    "hanja": "同苦同樂",
+    "rom": "donggo dongnak"
+   },
+   {
+    "id": "ko.i12",
+    "ko": "금상첨화",
+    "hanja": "錦上添花",
+    "rom": "geumsang cheomhwa"
+   },
+   {
+    "id": "ko.i13",
+    "ko": "다다익선",
+    "hanja": "多多益善",
+    "rom": "dada ikseon"
+   },
+   {
+    "id": "ko.i14",
+    "ko": "일취월장",
+    "hanja": "日就月將",
+    "rom": "ilchwi woljang"
+   },
+   {
+    "id": "ko.i15",
+    "ko": "자업자득",
+    "hanja": "自業自得",
+    "rom": "jaeop jadeuk"
+   },
+   {
+    "id": "ko.i16",
+    "ko": "우공이산",
+    "hanja": "愚公移山",
+    "rom": "ugong isan"
+   },
+   {
+    "id": "ko.i17",
+    "ko": "형설지공",
+    "hanja": "螢雪之功",
+    "rom": "hyeongseol jigong"
+   },
+   {
+    "id": "ko.i18",
+    "ko": "타산지석",
+    "hanja": "他山之石",
+    "rom": "tasan jiseok"
+   },
+   {
+    "id": "ko.i19",
+    "ko": "과유불급",
+    "hanja": "過猶不及",
+    "rom": "gwayu bulgeup"
+   },
+   {
+    "id": "ko.i20",
+    "ko": "역지사지",
+    "hanja": "易地思之",
+    "rom": "yeokji saji"
+   },
+   {
+    "id": "ko.i21",
+    "ko": "천생연분",
+    "hanja": "天生緣分",
+    "rom": "cheonsaeng yeonbun"
+   },
+   {
+    "id": "ko.i22",
+    "ko": "일편단심",
+    "hanja": "一片丹心",
+    "rom": "ilpyeon dansim"
+   },
+   {
+    "id": "ko.i23",
+    "ko": "호시탐탐",
+    "hanja": "虎視眈眈",
+    "rom": "hosi tamtam"
+   },
+   {
+    "id": "ko.i24",
+    "ko": "죽마고우",
+    "hanja": "竹馬故友",
+    "rom": "jungma gou"
+   },
+   {
+    "id": "ko.i25",
+    "ko": "온고지신",
+    "hanja": "溫故知新",
+    "rom": "ongo jisin"
+   },
+   {
+    "id": "ko.i26",
+    "ko": "심사숙고",
+    "hanja": "深思熟考",
+    "rom": "simsa sukgo"
+   },
+   {
+    "id": "ko.i27",
+    "ko": "권선징악",
+    "hanja": "勸善懲惡",
+    "rom": "gwonseon jingak"
+   },
+   {
+    "id": "ko.i28",
+    "ko": "마이동풍",
+    "hanja": "馬耳東風",
+    "rom": "mai dongpung"
+   },
+   {
+    "id": "ko.i29",
+    "ko": "십중팔구",
+    "hanja": "十中八九",
+    "rom": "sipjung palgu"
+   },
+   {
+    "id": "ko.i30",
+    "ko": "백전백승",
+    "hanja": "百戰百勝",
+    "rom": "baekjeon baekseung"
+   },
+   {
+    "id": "ko.i31",
+    "ko": "자수성가",
+    "hanja": "自手成家",
+    "rom": "jasu seongga"
+   },
+   {
+    "id": "ko.i32",
+    "ko": "초지일관",
+    "hanja": "初志一貫",
+    "rom": "choji ilgwan"
+   }
+  ]
+ },
+ "exportedFrom": {
+  "file": "src/app.html",
+  "sha256_16": "28307e1020d17f1f"
+ }
+}

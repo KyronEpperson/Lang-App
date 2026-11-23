@@ -5257,6 +5257,90 @@
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
+  },
+  "Hand-tuned for speakers of your language": {
+   "t": "あなたの母語に合わせて作ったコース",
+   "ko": "이 언어 사용자에 맞춰 만든 코스",
+   "kind": "sentence",
+   "context": "legend under the course list (language home): a small ✦ next to a course means its lessons were written specifically for speakers of the learner's language, not a standard course assembled from shared material",
+   "where": "js cur() <span>"
+  },
+  "Go to the next card automatically": {
+   "t": "自動で次のカードへ進む",
+   "ko": "다음 카드로 자동으로 넘어가기",
+   "kind": "sentence",
+   "context": "settings checkbox on the Progress tab: after an answer, Review moves on to the next card without a Next button",
+   "where": "html <input> text"
+  },
+  "Extra practice": {
+   "t": "追加練習",
+   "ko": "추가 연습",
+   "kind": "label",
+   "context": "review status line (above the card): the current card is extra practice, not due; may be followed by \" · 2/6 learned\"; short UI label; keep it short",
+   "where": "js cur()"
+  },
+  "New card": {
+   "t": "新しいカード",
+   "ko": "새 카드",
+   "kind": "label",
+   "context": "review status line (above the card): the current card is new; may be followed by \" · 0/6 learned\"; short UI label; keep it short",
+   "where": "html <label> text"
+  },
+  "Woman's voice": {
+   "t": "女性の声",
+   "ko": "여자 목소리",
+   "kind": "label",
+   "context": "choice chip: hear the audio recordings spoken by a woman (which recorded voice to play, not the learner's gender)",
+   "where": "js v() <button>"
+  },
+  "Man's voice": {
+   "t": "男性の声",
+   "ko": "남자 목소리",
+   "kind": "label",
+   "context": "choice chip: hear the audio recordings spoken by a man (which recorded voice to play, not the learner's gender)",
+   "where": "js v() <button>"
+  },
+  "Which voice do you want to hear?": {
+   "t": "どちらの声で聞きますか？",
+   "ko": "어떤 목소리로 들을까요?",
+   "kind": "sentence",
+   "context": "question in the setup card / Today card: choose the woman's or the man's recorded voice for audio",
+   "where": "js voiceAskHtml() <b>"
+  },
+  "Voice: woman. Switch to man's voice": {
+   "t": "声：女性。男性の声に切り替える",
+   "ko": "목소리: 여자. 남자 목소리로 바꾸기",
+   "kind": "sentence",
+   "context": "accessible name and tooltip of the top-bar voice button (shows 👩): the woman's voice is on; pressing switches to the man's voice",
+   "where": "js lab()"
+  },
+  "Voice: man. Switch to woman's voice": {
+   "t": "声：男性。女性の声に切り替える",
+   "ko": "목소리: 남자. 여자 목소리로 바꾸기",
+   "kind": "sentence",
+   "context": "accessible name and tooltip of the top-bar voice button (shows 👨): the man's voice is on; pressing switches to the woman's voice",
+   "where": "js lab()"
+  },
+  "Voice: woman": {
+   "t": "声：女性",
+   "ko": "목소리: 여자",
+   "kind": "label",
+   "context": "toast after switching: the audio now uses the woman's recorded voice",
+   "where": "js lab()"
+  },
+  "Voice: man": {
+   "t": "声：男性",
+   "ko": "목소리: 남자",
+   "kind": "label",
+   "context": "toast after switching: the audio now uses the man's recorded voice",
+   "where": "js lab()"
+  },
+  "Voice": {
+   "t": "声",
+   "ko": "목소리",
+   "kind": "label",
+   "context": "settings label (Progress options) in front of the Woman's voice / Man's voice chips: which recorded voice plays",
+   "where": "js id()"
   }
  },
  "patterns": {
@@ -7010,6 +7094,27 @@
    "slots": "{1}=n, {2}=x",
    "example": "Level up! Level 2 · Beginner 初心者 🎉",
    "context": "{0} = level; {1} = level title from the course pack's TITLES (<English> <native>) — Level-up toast for non-Korean courses (DOM translator; Korean side keeps ^레벨 업! Level …) (DOM translator (JS-built text))"
+  },
+  "Extra practice · {n}/{n} learned": {
+   "t": "追加練習 · {1}/{2}枚を覚えた",
+   "ko": "추가 연습 · {1}/{2} 익힘",
+   "slots": "{1}=n, {2}=n",
+   "example": "Extra practice · 5/2 learned",
+   "context": "review status line: current card is extra practice · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
+  },
+  "New card · {n}/{n} learned": {
+   "t": "新しいカード · {1}/{2}枚を覚えた",
+   "ko": "새 카드 · {1}/{2} 익힘",
+   "slots": "{1}=n, {2}=n",
+   "example": "New card · 5/2 learned",
+   "context": "review status line: current card is new · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
+  },
+  "{n} due · {n}/{n} learned": {
+   "t": "復習予定{1}枚 · {2}/{3}枚を覚えた",
+   "ko": "복습 대기 {1} · {2}/{3} 익힘",
+   "slots": "{1}=n, {2}=n, {3}=n",
+   "example": "5 due · 2/3 learned",
+   "context": "review status line: cards still due in this queue · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
   }
  }
 }

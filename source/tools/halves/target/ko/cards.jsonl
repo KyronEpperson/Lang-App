@@ -1,0 +1,641 @@
+{"id":"ko.c0001","deck":"ko.d.hangul-vowels","ko":"ㅏ","rom":"a"}
+{"id":"ko.c0002","deck":"ko.d.hangul-vowels","ko":"ㅓ","rom":"eo"}
+{"id":"ko.c0003","deck":"ko.d.hangul-vowels","ko":"ㅗ","rom":"o"}
+{"id":"ko.c0004","deck":"ko.d.hangul-vowels","ko":"ㅜ","rom":"u"}
+{"id":"ko.c0005","deck":"ko.d.hangul-vowels","ko":"ㅡ","rom":"eu"}
+{"id":"ko.c0006","deck":"ko.d.hangul-vowels","ko":"ㅣ","rom":"i"}
+{"id":"ko.c0007","deck":"ko.d.hangul-vowels","ko":"ㅐ","rom":"ae"}
+{"id":"ko.c0008","deck":"ko.d.hangul-vowels","ko":"ㅔ","rom":"e"}
+{"id":"ko.c0009","deck":"ko.d.hangul-vowels","ko":"ㅑ","rom":"ya"}
+{"id":"ko.c0010","deck":"ko.d.hangul-vowels","ko":"ㅕ","rom":"yeo"}
+{"id":"ko.c0011","deck":"ko.d.hangul-vowels","ko":"ㅛ","rom":"yo"}
+{"id":"ko.c0012","deck":"ko.d.hangul-vowels","ko":"ㅠ","rom":"yu"}
+{"id":"ko.c0013","deck":"ko.d.hangul-consonants","ko":"ㄱ","rom":"g / k"}
+{"id":"ko.c0014","deck":"ko.d.hangul-consonants","ko":"ㄴ","rom":"n"}
+{"id":"ko.c0015","deck":"ko.d.hangul-consonants","ko":"ㄷ","rom":"d / t"}
+{"id":"ko.c0016","deck":"ko.d.hangul-consonants","ko":"ㄹ","rom":"r / l"}
+{"id":"ko.c0017","deck":"ko.d.hangul-consonants","ko":"ㅁ","rom":"m"}
+{"id":"ko.c0018","deck":"ko.d.hangul-consonants","ko":"ㅂ","rom":"b / p"}
+{"id":"ko.c0019","deck":"ko.d.hangul-consonants","ko":"ㅅ","rom":"s"}
+{"id":"ko.c0020","deck":"ko.d.hangul-consonants","ko":"ㅇ","rom":"silent / ng"}
+{"id":"ko.c0021","deck":"ko.d.hangul-consonants","ko":"ㅈ","rom":"j"}
+{"id":"ko.c0022","deck":"ko.d.hangul-consonants","ko":"ㅊ","rom":"ch"}
+{"id":"ko.c0023","deck":"ko.d.hangul-consonants","ko":"ㅋ","rom":"k"}
+{"id":"ko.c0024","deck":"ko.d.hangul-consonants","ko":"ㅌ","rom":"t"}
+{"id":"ko.c0025","deck":"ko.d.hangul-consonants","ko":"ㅍ","rom":"p"}
+{"id":"ko.c0026","deck":"ko.d.hangul-consonants","ko":"ㅎ","rom":"h"}
+{"id":"ko.c0027","deck":"ko.d.hangul-advanced","ko":"ㄲ","rom":"kk"}
+{"id":"ko.c0028","deck":"ko.d.hangul-advanced","ko":"ㄸ","rom":"tt"}
+{"id":"ko.c0029","deck":"ko.d.hangul-advanced","ko":"ㅃ","rom":"pp"}
+{"id":"ko.c0030","deck":"ko.d.hangul-advanced","ko":"ㅆ","rom":"ss"}
+{"id":"ko.c0031","deck":"ko.d.hangul-advanced","ko":"ㅉ","rom":"jj"}
+{"id":"ko.c0032","deck":"ko.d.hangul-advanced","ko":"ㅘ","rom":"wa"}
+{"id":"ko.c0033","deck":"ko.d.hangul-advanced","ko":"ㅝ","rom":"wo"}
+{"id":"ko.c0034","deck":"ko.d.hangul-advanced","ko":"ㅚ","rom":"oe / we"}
+{"id":"ko.c0035","deck":"ko.d.hangul-advanced","ko":"ㅟ","rom":"wi"}
+{"id":"ko.c0036","deck":"ko.d.hangul-advanced","ko":"ㅙ / ㅞ","rom":"wae / we"}
+{"id":"ko.c0037","deck":"ko.d.hangul-advanced","ko":"ㅢ","rom":"ui"}
+{"id":"ko.c0038","deck":"ko.d.hangul-advanced","ko":"ㅒ / ㅖ","rom":"yae / ye"}
+{"id":"ko.c0039","deck":"ko.d.hangul-advanced","ko":"받침 ㅅ ㅆ ㄷ ㅈ ㅊ ㅌ ㅎ","rom":"→ t"}
+{"id":"ko.c0040","deck":"ko.d.hangul-advanced","ko":"받침 ㅋ ㄲ","rom":"→ k"}
+{"id":"ko.c0041","deck":"ko.d.hangul-advanced","ko":"받침 ㅍ","rom":"→ p"}
+{"id":"ko.c0042","deck":"ko.d.hangul-advanced","ko":"겹받침","rom":"gyeopbatchim"}
+{"id":"ko.c0043","deck":"ko.d.pronunciation-tips","ko":"받침","rom":"batchim"}
+{"id":"ko.c0044","deck":"ko.d.pronunciation-tips","ko":"ㅅ vs ㅆ","rom":"s vs ss"}
+{"id":"ko.c0045","deck":"ko.d.pronunciation-tips","ko":"ㄱ ㄲ ㅋ","rom":"g kk k"}
+{"id":"ko.c0046","deck":"ko.d.pronunciation-tips","ko":"ㄷ ㄸ ㅌ","rom":"d tt t"}
+{"id":"ko.c0047","deck":"ko.d.pronunciation-tips","ko":"ㅂ ㅃ ㅍ","rom":"b pp p"}
+{"id":"ko.c0048","deck":"ko.d.pronunciation-tips","ko":"ㅈ ㅉ ㅊ","rom":"j jj ch"}
+{"id":"ko.c0049","deck":"ko.d.pronunciation-tips","ko":"연음","rom":"yeoneum"}
+{"id":"ko.c0050","deck":"ko.d.pronunciation-tips","ko":"ㄹ between vowels","rom":"r"}
+{"id":"ko.c0051","deck":"ko.d.pronunciation-tips","ko":"ㄹㄹ","rom":"ll"}
+{"id":"ko.c0052","deck":"ko.d.pronunciation-tips","ko":"ㅎ weakening","rom":"h"}
+{"id":"ko.c0053","deck":"ko.d.pronunciation-tips","ko":"ㅇ final","rom":"ng"}
+{"id":"ko.c0054","deck":"ko.d.pronunciation-tips","ko":"비음화","rom":"bieumhwa"}
+{"id":"ko.c0055","deck":"ko.d.pronunciation-tips","ko":"ㅢ (3 sounds)","rom":"ui"}
+{"id":"ko.c0056","deck":"ko.d.pronunciation-tips","ko":"ㅐ = ㅔ","rom":"e"}
+{"id":"ko.c0057","deck":"ko.d.pronunciation-tips","ko":"ㅓ vs ㅗ","rom":"eo vs o"}
+{"id":"ko.c0058","deck":"ko.d.pronunciation-tips","ko":"ㅡ sound","rom":"eu"}
+{"id":"ko.c0059","deck":"ko.d.pronunciation-tips","ko":"intonation","rom":"—"}
+{"id":"ko.c0060","deck":"ko.d.pronunciation-tips","ko":"spacing","rom":"—"}
+{"id":"ko.c0061","deck":"ko.d.survival-phrases","ko":"안녕하세요","rom":"annyeonghaseyo"}
+{"id":"ko.c0062","deck":"ko.d.survival-phrases","ko":"감사합니다","rom":"gamsahamnida"}
+{"id":"ko.c0063","deck":"ko.d.survival-phrases","ko":"죄송합니다","rom":"joesonghamnida"}
+{"id":"ko.c0064","deck":"ko.d.survival-phrases","ko":"네 / 아니요","rom":"ne / aniyo"}
+{"id":"ko.c0065","deck":"ko.d.survival-phrases","ko":"얼마예요?","rom":"eolmayeyo?"}
+{"id":"ko.c0066","deck":"ko.d.survival-phrases","ko":"화장실 어디예요?","rom":"hwajangsil eodiyeyo?"}
+{"id":"ko.c0067","deck":"ko.d.survival-phrases","ko":"이거 주세요","rom":"igeo juseyo"}
+{"id":"ko.c0068","deck":"ko.d.survival-phrases","ko":"잘 먹겠습니다","rom":"jal meokgetseumnida"}
+{"id":"ko.c0069","deck":"ko.d.survival-phrases","ko":"괜찮아요","rom":"gwaenchanayo"}
+{"id":"ko.c0070","deck":"ko.d.survival-phrases","ko":"천천히 말해 주세요","rom":"cheoncheonhi malhae juseyo"}
+{"id":"ko.c0071","deck":"ko.d.survival-phrases","ko":"한국어 잘 못해요","rom":"hangugeo jal motaeyo"}
+{"id":"ko.c0072","deck":"ko.d.survival-phrases","ko":"잠시만요","rom":"jamsimanyo"}
+{"id":"ko.c0073","deck":"ko.d.introductions","ko":"저는 ___이에요 / 예요","rom":"jeoneun ___ ieyo / yeyo"}
+{"id":"ko.c0074","deck":"ko.d.introductions","ko":"이름이 뭐예요?","rom":"ireumi mwoyeyo?"}
+{"id":"ko.c0075","deck":"ko.d.introductions","ko":"만나서 반가워요","rom":"mannaseo bangawoyo"}
+{"id":"ko.c0076","deck":"ko.d.introductions","ko":"어디에서 왔어요?","rom":"eodieseo wasseoyo?"}
+{"id":"ko.c0077","deck":"ko.d.introductions","ko":"미국에서 왔어요","rom":"migugeseo wasseoyo"}
+{"id":"ko.c0078","deck":"ko.d.introductions","ko":"몇 살이에요?","rom":"myeot sarieyo?"}
+{"id":"ko.c0079","deck":"ko.d.introductions","ko":"서른 살이에요","rom":"seoreun sarieyo"}
+{"id":"ko.c0080","deck":"ko.d.introductions","ko":"무슨 일 해요?","rom":"museun il haeyo?"}
+{"id":"ko.c0081","deck":"ko.d.introductions","ko":"회사원이에요","rom":"hoesawonieyo"}
+{"id":"ko.c0082","deck":"ko.d.introductions","ko":"한국어 공부해요","rom":"hangugeo gongbuhaeyo"}
+{"id":"ko.c0083","deck":"ko.d.introductions","ko":"취미가 뭐예요?","rom":"chwimiga mwoyeyo?"}
+{"id":"ko.c0084","deck":"ko.d.introductions","ko":"잘 부탁드립니다","rom":"jal butakdeurimnida"}
+{"id":"ko.c0085","deck":"ko.d.survival-phrases-2","ko":"저기요","rom":"jeogiyo"}
+{"id":"ko.c0086","deck":"ko.d.survival-phrases-2","ko":"괜찮아요?","rom":"gwaenchanayo?"}
+{"id":"ko.c0087","deck":"ko.d.survival-phrases-2","ko":"도와주세요","rom":"dowajuseyo"}
+{"id":"ko.c0088","deck":"ko.d.survival-phrases-2","ko":"몰라요","rom":"mollayo"}
+{"id":"ko.c0089","deck":"ko.d.survival-phrases-2","ko":"이해 못 했어요","rom":"ihae mot haesseoyo"}
+{"id":"ko.c0090","deck":"ko.d.survival-phrases-2","ko":"다시 말해 주세요","rom":"dasi malhae juseyo"}
+{"id":"ko.c0091","deck":"ko.d.survival-phrases-2","ko":"영어 할 수 있어요?","rom":"yeongeo hal su isseoyo?"}
+{"id":"ko.c0092","deck":"ko.d.survival-phrases-2","ko":"이게 뭐예요?","rom":"ige mwoyeyo?"}
+{"id":"ko.c0093","deck":"ko.d.survival-phrases-2","ko":"화장실 좀 쓸게요","rom":"hwajangsil jom sseulgeyo"}
+{"id":"ko.c0094","deck":"ko.d.survival-phrases-2","ko":"카드 돼요?","rom":"kadeu dwaeyo?"}
+{"id":"ko.c0095","deck":"ko.d.survival-phrases-2","ko":"와이파이 비밀번호가 뭐예요?","rom":"waipai bimilbeonhoga mwoyeyo?"}
+{"id":"ko.c0096","deck":"ko.d.survival-phrases-2","ko":"배달 돼요?","rom":"baedal dwaeyo?"}
+{"id":"ko.c0097","deck":"ko.d.survival-phrases-2","ko":"예약했어요","rom":"yeyakaesseoyo"}
+{"id":"ko.c0098","deck":"ko.d.survival-phrases-2","ko":"길을 잃었어요","rom":"gireul ireosseoyo"}
+{"id":"ko.c0099","deck":"ko.d.survival-phrases-2","ko":"병원 어디예요?","rom":"byeongwon eodiyeyo?"}
+{"id":"ko.c0100","deck":"ko.d.survival-phrases-2","ko":"천천히요","rom":"cheoncheonhiyo"}
+{"id":"ko.c0101","deck":"ko.d.asking-around","ko":"화장실이 어디에 있어요?","rom":"hwajangsiri eodie isseoyo?"}
+{"id":"ko.c0102","deck":"ko.d.asking-around","ko":"여기 화장실 있어요?","rom":"yeogi hwajangsil isseoyo?"}
+{"id":"ko.c0103","deck":"ko.d.asking-around","ko":"화장실 좀 써도 돼요?","rom":"hwajangsil jom sseodo dwaeyo?"}
+{"id":"ko.c0104","deck":"ko.d.asking-around","ko":"화장실 비밀번호가 뭐예요?","rom":"hwajangsil bimilbeonhoga mwoyeyo?"}
+{"id":"ko.c0105","deck":"ko.d.asking-around","ko":"휴지 있어요?","rom":"hyuji isseoyo?"}
+{"id":"ko.c0106","deck":"ko.d.asking-around","ko":"편의점 어디예요?","rom":"pyeonuijeom eodiyeyo?"}
+{"id":"ko.c0107","deck":"ko.d.asking-around","ko":"제일 가까운 역이 어디예요?","rom":"jeil gakkaun yeogi eodiyeyo?"}
+{"id":"ko.c0108","deck":"ko.d.asking-around","ko":"출구가 어디예요?","rom":"chulguga eodiyeyo?"}
+{"id":"ko.c0109","deck":"ko.d.asking-around","ko":"몇 번 출구예요?","rom":"myeot beon chulguyeyo?"}
+{"id":"ko.c0110","deck":"ko.d.asking-around","ko":"여기가 어디예요?","rom":"yeogiga eodiyeyo?"}
+{"id":"ko.c0111","deck":"ko.d.asking-around","ko":"이거 어디에서 사요?","rom":"igeo eodieseo sayo?"}
+{"id":"ko.c0112","deck":"ko.d.asking-around","ko":"계산대 어디예요?","rom":"gyesandae eodiyeyo?"}
+{"id":"ko.c0113","deck":"ko.d.asking-around","ko":"자리 있어요?","rom":"jari isseoyo?"}
+{"id":"ko.c0114","deck":"ko.d.asking-around","ko":"두 명이요","rom":"du myeongiyo"}
+{"id":"ko.c0115","deck":"ko.d.asking-around","ko":"여기 앉아도 돼요?","rom":"yeogi anjado dwaeyo?"}
+{"id":"ko.c0116","deck":"ko.d.asking-around","ko":"충전기 있어요?","rom":"chungjeongi isseoyo?"}
+{"id":"ko.c0117","deck":"ko.d.asking-around","ko":"콘센트 어디 있어요?","rom":"konsenteu eodi isseoyo?"}
+{"id":"ko.c0118","deck":"ko.d.asking-around","ko":"와이파이 돼요?","rom":"waipai dwaeyo?"}
+{"id":"ko.c0119","deck":"ko.d.asking-around","ko":"몇 시에 닫아요?","rom":"myeot sie dadayo?"}
+{"id":"ko.c0120","deck":"ko.d.asking-around","ko":"몇 시에 열어요?","rom":"myeot sie yeoreoyo?"}
+{"id":"ko.c0121","deck":"ko.d.asking-around","ko":"얼마나 기다려야 돼요?","rom":"eolmana gidaryeoya dwaeyo?"}
+{"id":"ko.c0122","deck":"ko.d.asking-around","ko":"사진 좀 찍어 주실래요?","rom":"sajin jom jjigeo jusillaeyo?"}
+{"id":"ko.c0123","deck":"ko.d.asking-around","ko":"영수증 주세요","rom":"yeongsujeung juseyo"}
+{"id":"ko.c0124","deck":"ko.d.asking-around","ko":"봉투 주세요","rom":"bongtu juseyo"}
+{"id":"ko.c0125","deck":"ko.d.asking-around","ko":"할인 돼요?","rom":"harin dwaeyo?"}
+{"id":"ko.c0126","deck":"ko.d.asking-around","ko":"이거 교환 돼요?","rom":"igeo gyohwan dwaeyo?"}
+{"id":"ko.c0127","deck":"ko.d.cafe-convenience-store","ko":"아이스 아메리카노 한 잔 주세요","rom":"aiseu amerikano han jan juseyo"}
+{"id":"ko.c0128","deck":"ko.d.cafe-convenience-store","ko":"따뜻한 거로 주세요","rom":"ttatteutan georo juseyo"}
+{"id":"ko.c0129","deck":"ko.d.cafe-convenience-store","ko":"사이즈 뭐 있어요?","rom":"saijeu mwo isseoyo?"}
+{"id":"ko.c0130","deck":"ko.d.cafe-convenience-store","ko":"큰 거로 주세요","rom":"keun georo juseyo"}
+{"id":"ko.c0131","deck":"ko.d.cafe-convenience-store","ko":"덜 달게 해 주세요","rom":"deol dalge hae juseyo"}
+{"id":"ko.c0132","deck":"ko.d.cafe-convenience-store","ko":"시럽 빼 주세요","rom":"sireop ppae juseyo"}
+{"id":"ko.c0133","deck":"ko.d.cafe-convenience-store","ko":"드시고 가세요?","rom":"deusigo gaseyo?"}
+{"id":"ko.c0134","deck":"ko.d.cafe-convenience-store","ko":"포장이요","rom":"pojangiyo"}
+{"id":"ko.c0135","deck":"ko.d.cafe-convenience-store","ko":"진동벨 주세요","rom":"jindongbel juseyo"}
+{"id":"ko.c0136","deck":"ko.d.cafe-convenience-store","ko":"적립 되세요?","rom":"jeongnip doeseyo?"}
+{"id":"ko.c0137","deck":"ko.d.cafe-convenience-store","ko":"멤버십 없어요","rom":"membeosip eopseoyo"}
+{"id":"ko.c0138","deck":"ko.d.cafe-convenience-store","ko":"데워 주세요","rom":"dewo juseyo"}
+{"id":"ko.c0139","deck":"ko.d.cafe-convenience-store","ko":"전자레인지 어디 있어요?","rom":"jeonjareinji eodi isseoyo?"}
+{"id":"ko.c0140","deck":"ko.d.cafe-convenience-store","ko":"뜨거운 물 있어요?","rom":"tteugeoun mul isseoyo?"}
+{"id":"ko.c0141","deck":"ko.d.cafe-convenience-store","ko":"봉투 필요하세요?","rom":"bongtu piryohaseyo?"}
+{"id":"ko.c0642","deck":"ko.d.cafe-convenience-store","ko":"1+1이에요?","rom":"won peulleoseu wonieyo?"}
+{"id":"ko.c0143","deck":"ko.d.cafe-convenience-store","ko":"따로 담아 주세요","rom":"ttaro dama juseyo"}
+{"id":"ko.c0144","deck":"ko.d.cafe-convenience-store","ko":"카드로 할게요","rom":"kadeuro halgeyo"}
+{"id":"ko.c0145","deck":"ko.d.numbers-in-the-wild","ko":"4,500원","rom":"sacheonobaek won"}
+{"id":"ko.c0146","deck":"ko.d.numbers-in-the-wild","ko":"12,000원","rom":"manicheon won"}
+{"id":"ko.c0147","deck":"ko.d.numbers-in-the-wild","ko":"38,900원","rom":"sammanpalcheongubaek won"}
+{"id":"ko.c0148","deck":"ko.d.numbers-in-the-wild","ko":"010-1234-5678","rom":"gong il gong, il i sam sa, o yuk chil pal"}
+{"id":"ko.c0149","deck":"ko.d.numbers-in-the-wild","ko":"3층","rom":"samcheung"}
+{"id":"ko.c0150","deck":"ko.d.numbers-in-the-wild","ko":"오후 2시","rom":"ohu du si"}
+{"id":"ko.c0151","deck":"ko.d.numbers-in-the-wild","ko":"오전 9시 30분","rom":"ojeon ahop si samsip bun"}
+{"id":"ko.c0152","deck":"ko.d.numbers-in-the-wild","ko":"5분만요","rom":"obunmanyo"}
+{"id":"ko.c0153","deck":"ko.d.numbers-in-the-wild","ko":"2호선","rom":"ihoseon"}
+{"id":"ko.c0154","deck":"ko.d.numbers-in-the-wild","ko":"4번 출구","rom":"sabeon chulgu"}
+{"id":"ko.c0155","deck":"ko.d.numbers-in-the-wild","ko":"2명이요","rom":"du myeongiyo"}
+{"id":"ko.c0156","deck":"ko.d.numbers-in-the-wild","ko":"맥주 3병","rom":"maekju se byeong"}
+{"id":"ko.c0157","deck":"ko.d.numbers-in-the-wild","ko":"3개","rom":"se gae"}
+{"id":"ko.c0158","deck":"ko.d.numbers-in-the-wild","ko":"25살","rom":"seumuldaseot sal"}
+{"id":"ko.c0159","deck":"ko.d.numbers-in-the-wild","ko":"11월 13일","rom":"sibirwol sipsamil"}
+{"id":"ko.c0160","deck":"ko.d.numbers-in-the-wild","ko":"2026년","rom":"icheonisimnyungnyeon"}
+{"id":"ko.c0161","deck":"ko.d.numbers-in-the-wild","ko":"50%","rom":"osip peosenteu"}
+{"id":"ko.c0162","deck":"ko.d.numbers-in-the-wild","ko":"30분 걸려요","rom":"samsip bun geollyeoyo"}
+{"id":"ko.c0163","deck":"ko.d.counters","ko":"한 개","rom":"han gae"}
+{"id":"ko.c0164","deck":"ko.d.counters","ko":"두 명","rom":"du myeong"}
+{"id":"ko.c0165","deck":"ko.d.counters","ko":"세 잔","rom":"se jan"}
+{"id":"ko.c0166","deck":"ko.d.counters","ko":"네 병","rom":"ne byeong"}
+{"id":"ko.c0167","deck":"ko.d.counters","ko":"다섯 마리","rom":"daseot mari"}
+{"id":"ko.c0168","deck":"ko.d.counters","ko":"여섯 권","rom":"yeoseot gwon"}
+{"id":"ko.c0169","deck":"ko.d.counters","ko":"일곱 장","rom":"ilgop jang"}
+{"id":"ko.c0170","deck":"ko.d.counters","ko":"여덟 살","rom":"yeodeol sal"}
+{"id":"ko.c0171","deck":"ko.d.counters","ko":"두 시간","rom":"du sigan"}
+{"id":"ko.c0172","deck":"ko.d.counters","ko":"세 번","rom":"se beon"}
+{"id":"ko.c0173","deck":"ko.d.counters","ko":"한 달","rom":"han dal"}
+{"id":"ko.c0174","deck":"ko.d.counters","ko":"이틀","rom":"iteul"}
+{"id":"ko.c0175","deck":"ko.d.counters","ko":"몇 개 드릴까요?","rom":"myeot gae deurilkkayo?"}
+{"id":"ko.c0176","deck":"ko.d.counters","ko":"한 그릇","rom":"han geureut"}
+{"id":"ko.c0177","deck":"ko.d.counters","ko":"한 봉지","rom":"han bongji"}
+{"id":"ko.c0178","deck":"ko.d.counters","ko":"두 켤레","rom":"du kyeolle"}
+{"id":"ko.c0179","deck":"ko.d.weather-feelings","ko":"날씨가 어때요?","rom":"nalssiga eottaeyo?"}
+{"id":"ko.c0180","deck":"ko.d.weather-feelings","ko":"너무 더워요","rom":"neomu deowoyo"}
+{"id":"ko.c0181","deck":"ko.d.weather-feelings","ko":"날씨가 추워요","rom":"nalssiga chuwoyo"}
+{"id":"ko.c0182","deck":"ko.d.weather-feelings","ko":"비가 와요","rom":"biga wayo"}
+{"id":"ko.c0183","deck":"ko.d.weather-feelings","ko":"눈이 와요","rom":"nuni wayo"}
+{"id":"ko.c0184","deck":"ko.d.weather-feelings","ko":"바람이 불어요","rom":"barami bureoyo"}
+{"id":"ko.c0185","deck":"ko.d.weather-feelings","ko":"미세먼지 심해요","rom":"misemeonji simhaeyo"}
+{"id":"ko.c0186","deck":"ko.d.weather-feelings","ko":"기분이 좋아요","rom":"gibuni joayo"}
+{"id":"ko.c0187","deck":"ko.d.weather-feelings","ko":"행복해요","rom":"haengbokaeyo"}
+{"id":"ko.c0188","deck":"ko.d.weather-feelings","ko":"슬퍼요","rom":"seulpeoyo"}
+{"id":"ko.c0189","deck":"ko.d.weather-feelings","ko":"피곤해요","rom":"pigonhaeyo"}
+{"id":"ko.c0190","deck":"ko.d.weather-feelings","ko":"긴장돼요","rom":"ginjangdwaeyo"}
+{"id":"ko.c0191","deck":"ko.d.weather-feelings","ko":"심심해요","rom":"simsimhaeyo"}
+{"id":"ko.c0192","deck":"ko.d.weather-feelings","ko":"화났어요","rom":"hwanasseoyo"}
+{"id":"ko.c0193","deck":"ko.d.weather-feelings","ko":"놀랐어요","rom":"nollasseoyo"}
+{"id":"ko.c0194","deck":"ko.d.weather-feelings","ko":"보고 싶어요","rom":"bogo sipeoyo"}
+{"id":"ko.c0195","deck":"ko.d.weather-feelings","ko":"설레요","rom":"seolleyo"}
+{"id":"ko.c0196","deck":"ko.d.weather-feelings","ko":"짜증 나요","rom":"jjajeung nayo"}
+{"id":"ko.c0197","deck":"ko.d.connectors","ko":"그리고","rom":"geurigo"}
+{"id":"ko.c0198","deck":"ko.d.connectors","ko":"그래서","rom":"geuraeseo"}
+{"id":"ko.c0199","deck":"ko.d.connectors","ko":"그런데","rom":"geureonde"}
+{"id":"ko.c0200","deck":"ko.d.connectors","ko":"하지만","rom":"hajiman"}
+{"id":"ko.c0201","deck":"ko.d.connectors","ko":"그다음에","rom":"geudaeume"}
+{"id":"ko.c0202","deck":"ko.d.connectors","ko":"먼저","rom":"meonjeo"}
+{"id":"ko.c0203","deck":"ko.d.connectors","ko":"마지막으로","rom":"majimageuro"}
+{"id":"ko.c0204","deck":"ko.d.connectors","ko":"왜냐하면","rom":"waenyahamyeon"}
+{"id":"ko.c0205","deck":"ko.d.connectors","ko":"아니면","rom":"animyeon"}
+{"id":"ko.c0206","deck":"ko.d.connectors","ko":"그러면 / 그럼","rom":"geureomyeon / geureom"}
+{"id":"ko.c0207","deck":"ko.d.connectors","ko":"사실","rom":"sasil"}
+{"id":"ko.c0208","deck":"ko.d.connectors","ko":"아무튼","rom":"amuteun"}
+{"id":"ko.c0209","deck":"ko.d.connectors","ko":"예를 들면","rom":"yereul deulmyeon"}
+{"id":"ko.c0210","deck":"ko.d.connectors","ko":"그래도","rom":"geuraedo"}
+{"id":"ko.c0211","deck":"ko.d.doctor-pharmacy","ko":"약국 어디예요?","rom":"yakguk eodiyeyo?"}
+{"id":"ko.c0212","deck":"ko.d.doctor-pharmacy","ko":"머리가 아파요","rom":"meoriga apayo"}
+{"id":"ko.c0213","deck":"ko.d.doctor-pharmacy","ko":"열이 있어요","rom":"yeori isseoyo"}
+{"id":"ko.c0214","deck":"ko.d.doctor-pharmacy","ko":"기침이 나요","rom":"gichimi nayo"}
+{"id":"ko.c0215","deck":"ko.d.doctor-pharmacy","ko":"목이 아파요","rom":"mogi apayo"}
+{"id":"ko.c0216","deck":"ko.d.doctor-pharmacy","ko":"감기 걸렸어요","rom":"gamgi geollyeosseoyo"}
+{"id":"ko.c0217","deck":"ko.d.doctor-pharmacy","ko":"진통제 있어요?","rom":"jintongje isseoyo?"}
+{"id":"ko.c0218","deck":"ko.d.doctor-pharmacy","ko":"알레르기 있어요","rom":"allereugi isseoyo"}
+{"id":"ko.c0219","deck":"ko.d.doctor-pharmacy","ko":"처방전 있어요","rom":"cheobangjeon isseoyo"}
+{"id":"ko.c0220","deck":"ko.d.doctor-pharmacy","ko":"하루에 몇 번 먹어요?","rom":"harue myeot beon meogeoyo?"}
+{"id":"ko.c0221","deck":"ko.d.doctor-pharmacy","ko":"병원에 가야 돼요","rom":"byeongwone gaya dwaeyo"}
+{"id":"ko.c0222","deck":"ko.d.doctor-pharmacy","ko":"보험 있어요","rom":"boheom isseoyo"}
+{"id":"ko.c0223","deck":"ko.d.doctor-pharmacy","ko":"여기가 아파요","rom":"yeogiga apayo"}
+{"id":"ko.c0224","deck":"ko.d.doctor-pharmacy","ko":"괜찮아질 거예요","rom":"gwaenchanajil geoyeyo"}
+{"id":"ko.c0225","deck":"ko.d.doctor-pharmacy","ko":"마스크 주세요","rom":"maseukeu juseyo"}
+{"id":"ko.c0226","deck":"ko.d.doctor-pharmacy","ko":"소화제 주세요","rom":"sohwaje juseyo"}
+{"id":"ko.c0227","deck":"ko.d.housing-errands","ko":"원룸","rom":"wollum"}
+{"id":"ko.c0228","deck":"ko.d.housing-errands","ko":"보증금","rom":"bojeunggeum"}
+{"id":"ko.c0229","deck":"ko.d.housing-errands","ko":"월세","rom":"wolse"}
+{"id":"ko.c0230","deck":"ko.d.housing-errands","ko":"관리비 포함이에요?","rom":"gwallibi pohamieyo?"}
+{"id":"ko.c0231","deck":"ko.d.housing-errands","ko":"택배 왔어요","rom":"taekbae wasseoyo"}
+{"id":"ko.c0232","deck":"ko.d.housing-errands","ko":"분리수거","rom":"bullisugeo"}
+{"id":"ko.c0233","deck":"ko.d.housing-errands","ko":"음식물 쓰레기","rom":"eumsingmul sseuregi"}
+{"id":"ko.c0234","deck":"ko.d.housing-errands","ko":"종량제 봉투","rom":"jongnyangje bongtu"}
+{"id":"ko.c0235","deck":"ko.d.housing-errands","ko":"세탁소 어디예요?","rom":"setakso eodiyeyo?"}
+{"id":"ko.c0236","deck":"ko.d.housing-errands","ko":"드라이 돼요?","rom":"deurai dwaeyo?"}
+{"id":"ko.c0237","deck":"ko.d.housing-errands","ko":"비밀번호 알려 주세요","rom":"bimilbeonho allyeo juseyo"}
+{"id":"ko.c0238","deck":"ko.d.housing-errands","ko":"와이파이 설치","rom":"waipai seolchi"}
+{"id":"ko.c0239","deck":"ko.d.housing-errands","ko":"이사했어요","rom":"isahaesseoyo"}
+{"id":"ko.c0240","deck":"ko.d.housing-errands","ko":"집주인","rom":"jipjuin"}
+{"id":"ko.c0241","deck":"ko.d.housing-errands","ko":"계약서","rom":"gyeyakseo"}
+{"id":"ko.c0242","deck":"ko.d.housing-errands","ko":"편의점에서 택배 보내요","rom":"pyeonuijeomeseo taekbae bonaeyo"}
+{"id":"ko.c0243","deck":"ko.d.honorifics","ko":"드세요","rom":"deuseyo"}
+{"id":"ko.c0244","deck":"ko.d.honorifics","ko":"주무세요","rom":"jumuseyo"}
+{"id":"ko.c0245","deck":"ko.d.honorifics","ko":"계세요","rom":"gyeseyo"}
+{"id":"ko.c0246","deck":"ko.d.honorifics","ko":"말씀하세요","rom":"malsseumhaseyo"}
+{"id":"ko.c0247","deck":"ko.d.honorifics","ko":"성함이 어떻게 되세요?","rom":"seonghami eotteoke doeseyo?"}
+{"id":"ko.c0248","deck":"ko.d.honorifics","ko":"연세가 어떻게 되세요?","rom":"yeonsega eotteoke doeseyo?"}
+{"id":"ko.c0249","deck":"ko.d.honorifics","ko":"가세요","rom":"gaseyo"}
+{"id":"ko.c0250","deck":"ko.d.honorifics","ko":"오셨어요?","rom":"osyeosseoyo?"}
+{"id":"ko.c0251","deck":"ko.d.honorifics","ko":"하세요","rom":"haseyo"}
+{"id":"ko.c0252","deck":"ko.d.honorifics","ko":"아버님 / 어머님","rom":"abeonim / eomeonim"}
+{"id":"ko.c0253","deck":"ko.d.honorifics","ko":"할머님","rom":"halmeonim"}
+{"id":"ko.c0254","deck":"ko.d.honorifics","ko":"손님","rom":"sonnim"}
+{"id":"ko.c0255","deck":"ko.d.honorifics","ko":"선생님 식사하셨어요?","rom":"seonsaengnim siksahasyeosseoyo?"}
+{"id":"ko.c0256","deck":"ko.d.honorifics","ko":"잘 지내셨어요?","rom":"jal jinaesyeosseoyo?"}
+{"id":"ko.c0257","deck":"ko.d.honorifics","ko":"앉으세요","rom":"anjeuseyo"}
+{"id":"ko.c0258","deck":"ko.d.honorifics","ko":"들어오세요","rom":"deureooseyo"}
+{"id":"ko.c0259","deck":"ko.d.places-buildings","ko":"커피숍 / 카페","rom":"keopisyop / kape"}
+{"id":"ko.c0260","deck":"ko.d.places-buildings","ko":"헬스장","rom":"helseujang"}
+{"id":"ko.c0261","deck":"ko.d.places-buildings","ko":"도서관","rom":"doseogwan"}
+{"id":"ko.c0262","deck":"ko.d.places-buildings","ko":"박물관","rom":"bangmulgwan"}
+{"id":"ko.c0263","deck":"ko.d.places-buildings","ko":"집","rom":"jip"}
+{"id":"ko.c0264","deck":"ko.d.places-buildings","ko":"학교","rom":"hakgyo"}
+{"id":"ko.c0265","deck":"ko.d.places-buildings","ko":"병원","rom":"byeongwon"}
+{"id":"ko.c0266","deck":"ko.d.places-buildings","ko":"약국","rom":"yakguk"}
+{"id":"ko.c0267","deck":"ko.d.places-buildings","ko":"은행","rom":"eunhaeng"}
+{"id":"ko.c0268","deck":"ko.d.places-buildings","ko":"편의점","rom":"pyeonuijeom"}
+{"id":"ko.c0269","deck":"ko.d.places-buildings","ko":"식당","rom":"sikdang"}
+{"id":"ko.c0270","deck":"ko.d.places-buildings","ko":"시장","rom":"sijang"}
+{"id":"ko.c0271","deck":"ko.d.places-buildings","ko":"백화점","rom":"baekhwajeom"}
+{"id":"ko.c0272","deck":"ko.d.places-buildings","ko":"영화관","rom":"yeonghwagwan"}
+{"id":"ko.c0273","deck":"ko.d.places-buildings","ko":"공원","rom":"gongwon"}
+{"id":"ko.c0274","deck":"ko.d.places-buildings","ko":"호텔","rom":"hotel"}
+{"id":"ko.c0275","deck":"ko.d.places-buildings","ko":"교회 / 절","rom":"gyohoe / jeol"}
+{"id":"ko.c0276","deck":"ko.d.places-buildings","ko":"화장실","rom":"hwajangsil"}
+{"id":"ko.c0277","deck":"ko.d.hobbies","ko":"취미","rom":"chwimi"}
+{"id":"ko.c0278","deck":"ko.d.hobbies","ko":"운동","rom":"undong"}
+{"id":"ko.c0279","deck":"ko.d.hobbies","ko":"독서","rom":"dokseo"}
+{"id":"ko.c0280","deck":"ko.d.hobbies","ko":"요리","rom":"yori"}
+{"id":"ko.c0281","deck":"ko.d.hobbies","ko":"여행","rom":"yeohaeng"}
+{"id":"ko.c0282","deck":"ko.d.hobbies","ko":"음악 감상","rom":"eumak gamsang"}
+{"id":"ko.c0283","deck":"ko.d.hobbies","ko":"영화 보기","rom":"yeonghwa bogi"}
+{"id":"ko.c0284","deck":"ko.d.hobbies","ko":"게임","rom":"geim"}
+{"id":"ko.c0285","deck":"ko.d.hobbies","ko":"사진 찍기","rom":"sajin jjikgi"}
+{"id":"ko.c0286","deck":"ko.d.hobbies","ko":"그림 그리기","rom":"geurim geurigi"}
+{"id":"ko.c0287","deck":"ko.d.hobbies","ko":"노래 부르기","rom":"norae bureugi"}
+{"id":"ko.c0288","deck":"ko.d.hobbies","ko":"춤","rom":"chum"}
+{"id":"ko.c0289","deck":"ko.d.hobbies","ko":"등산","rom":"deungsan"}
+{"id":"ko.c0290","deck":"ko.d.hobbies","ko":"낚시","rom":"naksi"}
+{"id":"ko.c0291","deck":"ko.d.hobbies","ko":"쇼핑","rom":"syoping"}
+{"id":"ko.c0292","deck":"ko.d.hobbies","ko":"캠핑","rom":"kaemping"}
+{"id":"ko.c0293","deck":"ko.d.food-words","ko":"김치","rom":"gimchi"}
+{"id":"ko.c0294","deck":"ko.d.food-words","ko":"김밥","rom":"gimbap"}
+{"id":"ko.c0295","deck":"ko.d.food-words","ko":"비빔밥","rom":"bibimbap"}
+{"id":"ko.c0296","deck":"ko.d.food-words","ko":"불고기","rom":"bulgogi"}
+{"id":"ko.c0297","deck":"ko.d.food-words","ko":"삼겹살","rom":"samgyeopsal"}
+{"id":"ko.c0298","deck":"ko.d.food-words","ko":"치킨","rom":"chikin"}
+{"id":"ko.c0299","deck":"ko.d.food-words","ko":"떡볶이","rom":"tteokbokki"}
+{"id":"ko.c0300","deck":"ko.d.food-words","ko":"라면","rom":"ramyeon"}
+{"id":"ko.c0301","deck":"ko.d.food-words","ko":"찌개","rom":"jjigae"}
+{"id":"ko.c0302","deck":"ko.d.food-words","ko":"국 / 탕","rom":"guk / tang"}
+{"id":"ko.c0303","deck":"ko.d.food-words","ko":"반찬","rom":"banchan"}
+{"id":"ko.c0304","deck":"ko.d.food-words","ko":"빵","rom":"ppang"}
+{"id":"ko.c0305","deck":"ko.d.food-words","ko":"과일","rom":"gwail"}
+{"id":"ko.c0306","deck":"ko.d.food-words","ko":"야채 / 채소","rom":"yachae / chaeso"}
+{"id":"ko.c0307","deck":"ko.d.food-words","ko":"계란","rom":"gyeran"}
+{"id":"ko.c0308","deck":"ko.d.food-words","ko":"생선","rom":"saengseon"}
+{"id":"ko.c0309","deck":"ko.d.food-words","ko":"해산물","rom":"haesanmul"}
+{"id":"ko.c0310","deck":"ko.d.food-words","ko":"디저트","rom":"dijeoteu"}
+{"id":"ko.c0311","deck":"ko.d.drinks","ko":"음료수","rom":"eumnyosu"}
+{"id":"ko.c0312","deck":"ko.d.drinks","ko":"커피","rom":"keopi"}
+{"id":"ko.c0313","deck":"ko.d.drinks","ko":"차","rom":"cha"}
+{"id":"ko.c0314","deck":"ko.d.drinks","ko":"우유","rom":"uyu"}
+{"id":"ko.c0315","deck":"ko.d.drinks","ko":"주스","rom":"juseu"}
+{"id":"ko.c0316","deck":"ko.d.drinks","ko":"콜라 / 사이다","rom":"kolla / saida"}
+{"id":"ko.c0317","deck":"ko.d.drinks","ko":"생수","rom":"saengsu"}
+{"id":"ko.c0318","deck":"ko.d.drinks","ko":"맥주","rom":"maekju"}
+{"id":"ko.c0319","deck":"ko.d.drinks","ko":"소주","rom":"soju"}
+{"id":"ko.c0320","deck":"ko.d.drinks","ko":"막걸리","rom":"makgeolli"}
+{"id":"ko.c0321","deck":"ko.d.drinks","ko":"와인","rom":"wain"}
+{"id":"ko.c0322","deck":"ko.d.drinks","ko":"칵테일","rom":"kakteil"}
+{"id":"ko.c0323","deck":"ko.d.drinks","ko":"스무디","rom":"seumudi"}
+{"id":"ko.c0324","deck":"ko.d.drinks","ko":"얼음","rom":"eoreum"}
+{"id":"ko.c0325","deck":"ko.d.drinks","ko":"한 잔 더 주세요","rom":"han jan deo juseyo"}
+{"id":"ko.c0326","deck":"ko.d.drinks","ko":"건배 vs 짠","rom":"geonbae / jjan"}
+{"id":"ko.c0327","deck":"ko.d.activities","ko":"운동해요","rom":"undonghaeyo"}
+{"id":"ko.c0328","deck":"ko.d.activities","ko":"공부해요","rom":"gongbuhaeyo"}
+{"id":"ko.c0329","deck":"ko.d.activities","ko":"일해요","rom":"ilhaeyo"}
+{"id":"ko.c0330","deck":"ko.d.activities","ko":"쉬어요","rom":"swieoyo"}
+{"id":"ko.c0331","deck":"ko.d.activities","ko":"놀아요","rom":"norayo"}
+{"id":"ko.c0332","deck":"ko.d.activities","ko":"산책해요","rom":"sanchaekaeyo"}
+{"id":"ko.c0333","deck":"ko.d.activities","ko":"수영해요","rom":"suyeonghaeyo"}
+{"id":"ko.c0334","deck":"ko.d.activities","ko":"달려요","rom":"dallyeoyo"}
+{"id":"ko.c0335","deck":"ko.d.activities","ko":"자전거 타요","rom":"jajeongeo tayo"}
+{"id":"ko.c0336","deck":"ko.d.activities","ko":"영화 봐요","rom":"yeonghwa bwayo"}
+{"id":"ko.c0337","deck":"ko.d.activities","ko":"음악 들어요","rom":"eumak deureoyo"}
+{"id":"ko.c0338","deck":"ko.d.activities","ko":"책 읽어요","rom":"chaek ilgeoyo"}
+{"id":"ko.c0339","deck":"ko.d.activities","ko":"요리해요","rom":"yorihaeyo"}
+{"id":"ko.c0340","deck":"ko.d.activities","ko":"청소해요","rom":"cheongsohaeyo"}
+{"id":"ko.c0341","deck":"ko.d.activities","ko":"친구 만나요","rom":"chingu mannayo"}
+{"id":"ko.c0342","deck":"ko.d.activities","ko":"쇼핑해요","rom":"syopinghaeyo"}
+{"id":"ko.c0343","deck":"ko.d.activities","ko":"사진 찍어요","rom":"sajin jjigeoyo"}
+{"id":"ko.c0344","deck":"ko.d.activities","ko":"게임해요","rom":"geimhaeyo"}
+{"id":"ko.c0345","deck":"ko.d.tv-entertainment","ko":"드라마","rom":"deurama"}
+{"id":"ko.c0346","deck":"ko.d.tv-entertainment","ko":"예능","rom":"yeneung"}
+{"id":"ko.c0347","deck":"ko.d.tv-entertainment","ko":"뉴스","rom":"nyuseu"}
+{"id":"ko.c0348","deck":"ko.d.tv-entertainment","ko":"영화","rom":"yeonghwa"}
+{"id":"ko.c0349","deck":"ko.d.tv-entertainment","ko":"다큐멘터리","rom":"dakyumenteori"}
+{"id":"ko.c0350","deck":"ko.d.tv-entertainment","ko":"만화 / 웹툰","rom":"manhwa / weptun"}
+{"id":"ko.c0351","deck":"ko.d.tv-entertainment","ko":"애니메이션","rom":"aenimeisyeon"}
+{"id":"ko.c0352","deck":"ko.d.tv-entertainment","ko":"코미디","rom":"komidi"}
+{"id":"ko.c0353","deck":"ko.d.tv-entertainment","ko":"로맨스","rom":"romaenseu"}
+{"id":"ko.c0354","deck":"ko.d.tv-entertainment","ko":"스릴러","rom":"seurilleo"}
+{"id":"ko.c0355","deck":"ko.d.tv-entertainment","ko":"공포 영화","rom":"gongpo yeonghwa"}
+{"id":"ko.c0356","deck":"ko.d.tv-entertainment","ko":"액션","rom":"aeksyeon"}
+{"id":"ko.c0357","deck":"ko.d.tv-entertainment","ko":"사극","rom":"sageuk"}
+{"id":"ko.c0358","deck":"ko.d.tv-entertainment","ko":"음악 방송","rom":"eumak bangsong"}
+{"id":"ko.c0359","deck":"ko.d.tv-entertainment","ko":"오디션 프로그램","rom":"odisyeon peurogeuraem"}
+{"id":"ko.c0360","deck":"ko.d.tv-entertainment","ko":"몇 화","rom":"myeot hwa"}
+{"id":"ko.c0361","deck":"ko.d.tv-entertainment","ko":"재방송","rom":"jaebangsong"}
+{"id":"ko.c0362","deck":"ko.d.tv-entertainment","ko":"정주행","rom":"jeongjuhaeng"}
+{"id":"ko.c0363","deck":"ko.d.position-direction-words","ko":"위 / 아래","rom":"wi / arae"}
+{"id":"ko.c0364","deck":"ko.d.position-direction-words","ko":"앞 / 뒤","rom":"ap / dwi"}
+{"id":"ko.c0365","deck":"ko.d.position-direction-words","ko":"옆","rom":"yeop"}
+{"id":"ko.c0366","deck":"ko.d.position-direction-words","ko":"안 / 밖","rom":"an / bak"}
+{"id":"ko.c0367","deck":"ko.d.position-direction-words","ko":"사이","rom":"sai"}
+{"id":"ko.c0368","deck":"ko.d.position-direction-words","ko":"건너편","rom":"geonneopyeon"}
+{"id":"ko.c0369","deck":"ko.d.position-direction-words","ko":"맞은편","rom":"majeunpyeon"}
+{"id":"ko.c0370","deck":"ko.d.position-direction-words","ko":"근처","rom":"geuncheo"}
+{"id":"ko.c0371","deck":"ko.d.position-direction-words","ko":"멀어요 / 가까워요","rom":"meoreoyo / gakkawoyo"}
+{"id":"ko.c0372","deck":"ko.d.position-direction-words","ko":"동 / 서 / 남 / 북","rom":"dong / seo / nam / buk"}
+{"id":"ko.c0373","deck":"ko.d.position-direction-words","ko":"코너","rom":"koneo"}
+{"id":"ko.c0374","deck":"ko.d.position-direction-words","ko":"횡단보도","rom":"hoengdanbodo"}
+{"id":"ko.c0375","deck":"ko.d.position-direction-words","ko":"신호등","rom":"sinhodeung"}
+{"id":"ko.c0376","deck":"ko.d.position-direction-words","ko":"출구 / 입구","rom":"chulgu / ipgu"}
+{"id":"ko.c0377","deck":"ko.d.position-direction-words","ko":"층","rom":"cheung"}
+{"id":"ko.c0378","deck":"ko.d.position-direction-words","ko":"돌아가세요","rom":"doragaseyo"}
+{"id":"ko.c0379","deck":"ko.d.position-direction-words","ko":"직진","rom":"jikjin"}
+{"id":"ko.c0380","deck":"ko.d.position-direction-words","ko":"우회전 / 좌회전","rom":"uhoejeon / jwahoejeon"}
+{"id":"ko.c0381","deck":"ko.d.core-verbs","ko":"이에요 / 예요","rom":"ieyo / yeyo"}
+{"id":"ko.c0382","deck":"ko.d.core-verbs","ko":"있어요","rom":"isseoyo"}
+{"id":"ko.c0383","deck":"ko.d.core-verbs","ko":"해요","rom":"haeyo"}
+{"id":"ko.c0384","deck":"ko.d.core-verbs","ko":"가요","rom":"gayo"}
+{"id":"ko.c0385","deck":"ko.d.core-verbs","ko":"와요","rom":"wayo"}
+{"id":"ko.c0386","deck":"ko.d.core-verbs","ko":"먹어요","rom":"meogeoyo"}
+{"id":"ko.c0387","deck":"ko.d.core-verbs","ko":"마셔요","rom":"masyeoyo"}
+{"id":"ko.c0388","deck":"ko.d.core-verbs","ko":"봐요","rom":"bwayo"}
+{"id":"ko.c0389","deck":"ko.d.core-verbs","ko":"좋아해요","rom":"joahaeyo"}
+{"id":"ko.c0390","deck":"ko.d.core-verbs","ko":"알아요","rom":"arayo"}
+{"id":"ko.c0391","deck":"ko.d.core-verbs","ko":"주세요","rom":"juseyo"}
+{"id":"ko.c0392","deck":"ko.d.core-verbs","ko":"사랑해요","rom":"saranghaeyo"}
+{"id":"ko.c0393","deck":"ko.d.particles","ko":"은 / 는","rom":"eun / neun"}
+{"id":"ko.c0394","deck":"ko.d.particles","ko":"이 / 가","rom":"i / ga"}
+{"id":"ko.c0395","deck":"ko.d.particles","ko":"을 / 를","rom":"eul / reul"}
+{"id":"ko.c0396","deck":"ko.d.particles","ko":"에","rom":"e"}
+{"id":"ko.c0397","deck":"ko.d.particles","ko":"에서","rom":"eseo"}
+{"id":"ko.c0398","deck":"ko.d.particles","ko":"도","rom":"do"}
+{"id":"ko.c0399","deck":"ko.d.particles","ko":"의","rom":"ui"}
+{"id":"ko.c0400","deck":"ko.d.particles","ko":"하고 / 와 / 과","rom":"hago / wa / gwa"}
+{"id":"ko.c0401","deck":"ko.d.particles","ko":"만","rom":"man"}
+{"id":"ko.c0402","deck":"ko.d.numbers","ko":"하나, 둘, 셋","rom":"hana, dul, set"}
+{"id":"ko.c0403","deck":"ko.d.numbers","ko":"넷, 다섯, 여섯","rom":"net, daseot, yeoseot"}
+{"id":"ko.c0404","deck":"ko.d.numbers","ko":"일곱, 여덟, 아홉, 열","rom":"ilgop, yeodeol, ahop, yeol"}
+{"id":"ko.c0405","deck":"ko.d.numbers","ko":"일, 이, 삼, 사, 오","rom":"il, i, sam, sa, o"}
+{"id":"ko.c0406","deck":"ko.d.numbers","ko":"육, 칠, 팔, 구, 십","rom":"yuk, chil, pal, gu, sip"}
+{"id":"ko.c0407","deck":"ko.d.numbers","ko":"만 원","rom":"man won"}
+{"id":"ko.c0408","deck":"ko.d.numbers","ko":"세 시 삼십 분","rom":"se si samsip bun"}
+{"id":"ko.c0409","deck":"ko.d.numbers","ko":"스물다섯 살","rom":"seumuldaseot sal"}
+{"id":"ko.c0410","deck":"ko.d.sweet-talk","ko":"귀여워","rom":"gwiyeowo"}
+{"id":"ko.c0411","deck":"ko.d.sweet-talk","ko":"예뻐","rom":"yeppeo"}
+{"id":"ko.c0412","deck":"ko.d.sweet-talk","ko":"잘생겼어","rom":"jalsaenggyeosseo"}
+{"id":"ko.c0413","deck":"ko.d.sweet-talk","ko":"보고 싶어","rom":"bogo sipeo"}
+{"id":"ko.c0414","deck":"ko.d.sweet-talk","ko":"좋아해","rom":"joahae"}
+{"id":"ko.c0415","deck":"ko.d.sweet-talk","ko":"자기야","rom":"jagiya"}
+{"id":"ko.c0416","deck":"ko.d.sweet-talk","ko":"잘 자","rom":"jal ja"}
+{"id":"ko.c0417","deck":"ko.d.sweet-talk","ko":"밥 먹었어?","rom":"bap meogeosseo?"}
+{"id":"ko.c0418","deck":"ko.d.cute-things-to-say","ko":"오늘 예쁘네요","rom":"oneul yeppeuneyo"}
+{"id":"ko.c0419","deck":"ko.d.cute-things-to-say","ko":"눈이 너무 예뻐요","rom":"nuni neomu yeppeoyo"}
+{"id":"ko.c0420","deck":"ko.d.cute-things-to-say","ko":"웃는 게 너무 귀여워요","rom":"unneun ge neomu gwiyeowoyo"}
+{"id":"ko.c0421","deck":"ko.d.cute-things-to-say","ko":"보고 싶었어요","rom":"bogo sipeosseoyo"}
+{"id":"ko.c0422","deck":"ko.d.cute-things-to-say","ko":"같이 있으면 행복해요","rom":"gachi isseumyeon haengbokaeyo"}
+{"id":"ko.c0423","deck":"ko.d.cute-things-to-say","ko":"네 생각 많이 했어","rom":"ne saenggak mani haesseo"}
+{"id":"ko.c0424","deck":"ko.d.cute-things-to-say","ko":"밥 먹었어? 잘 챙겨 먹어","rom":"bap meogeosseo? jal chaenggyeo meogeo"}
+{"id":"ko.c0425","deck":"ko.d.cute-things-to-say","ko":"집에 잘 들어갔어?","rom":"jibe jal deureogasseo?"}
+{"id":"ko.c0426","deck":"ko.d.cute-things-to-say","ko":"조심히 가","rom":"josimhi ga"}
+{"id":"ko.c0427","deck":"ko.d.cute-things-to-say","ko":"좋은 꿈 꿔","rom":"joeun kkum kkwo"}
+{"id":"ko.c0428","deck":"ko.d.cute-things-to-say","ko":"나만 봐","rom":"naman bwa"}
+{"id":"ko.c0429","deck":"ko.d.cute-things-to-say","ko":"너밖에 없어","rom":"neobakke eopseo"}
+{"id":"ko.c0430","deck":"ko.d.cute-things-to-say","ko":"심쿵했어","rom":"simkunghaesseo"}
+{"id":"ko.c0431","deck":"ko.d.cute-things-to-say","ko":"내 거 할래?","rom":"nae geo hallae?"}
+{"id":"ko.c0432","deck":"ko.d.cute-things-to-say","ko":"우리 사귈래?","rom":"uri sagwillae?"}
+{"id":"ko.c0433","deck":"ko.d.cute-things-to-say","ko":"애교 부리지 마, 심장 아파","rom":"aegyo buriji ma, simjang apa"}
+{"id":"ko.c0434","deck":"ko.d.flirting","ko":"번호 좀 알려 줄래?","rom":"beonho jom allyeo jullae?"}
+{"id":"ko.c0435","deck":"ko.d.flirting","ko":"인스타 있어요?","rom":"inseuta isseoyo?"}
+{"id":"ko.c0436","deck":"ko.d.flirting","ko":"시간 있으면 커피 한잔 할래요?","rom":"sigan isseumyeon keopi hanjan hallaeyo?"}
+{"id":"ko.c0437","deck":"ko.d.flirting","ko":"남자친구 있어요?","rom":"namjachingu isseoyo?"}
+{"id":"ko.c0438","deck":"ko.d.flirting","ko":"첫눈에 반했어","rom":"cheonnune banhaesseo"}
+{"id":"ko.c0439","deck":"ko.d.flirting","ko":"너랑 있으면 시간이 빨리 가","rom":"neorang isseumyeon sigani ppalli ga"}
+{"id":"ko.c0440","deck":"ko.d.flirting","ko":"너 생각하면 웃음이 나","rom":"neo saenggakamyeon useumi na"}
+{"id":"ko.c0441","deck":"ko.d.flirting","ko":"자꾸 생각나","rom":"jakku saenggangna"}
+{"id":"ko.c0442","deck":"ko.d.flirting","ko":"네가 제일 예뻐","rom":"nega jeil yeppeo"}
+{"id":"ko.c0443","deck":"ko.d.flirting","ko":"우리 또 만날까?","rom":"uri tto mannalkka?"}
+{"id":"ko.c0444","deck":"ko.d.flirting","ko":"데려다줄게","rom":"deryeodajulge"}
+{"id":"ko.c0445","deck":"ko.d.flirting","ko":"나 너 좋아하는 것 같아","rom":"na neo joahaneun geot gata"}
+{"id":"ko.c0446","deck":"ko.d.flirting","ko":"오늘 집에 가기 싫다","rom":"oneul jibe gagi silta"}
+{"id":"ko.c0447","deck":"ko.d.flirting","ko":"나랑 사귀자","rom":"narang sagwija"}
+{"id":"ko.c0448","deck":"ko.d.casual-texting","ko":"뭐 해?","rom":"mwo hae?"}
+{"id":"ko.c0449","deck":"ko.d.casual-texting","ko":"심심해","rom":"simsimhae"}
+{"id":"ko.c0450","deck":"ko.d.casual-texting","ko":"피곤해","rom":"pigonhae"}
+{"id":"ko.c0451","deck":"ko.d.casual-texting","ko":"배고파","rom":"baegopa"}
+{"id":"ko.c0452","deck":"ko.d.casual-texting","ko":"어디야?","rom":"eodiya?"}
+{"id":"ko.c0453","deck":"ko.d.casual-texting","ko":"나 지금 가","rom":"na jigeum ga"}
+{"id":"ko.c0454","deck":"ko.d.casual-texting","ko":"늦을 것 같아","rom":"neujeul geot gata"}
+{"id":"ko.c0455","deck":"ko.d.casual-texting","ko":"ㅋㅋㅋ","rom":"kekeke"}
+{"id":"ko.c0456","deck":"ko.d.casual-texting","ko":"ㅇㅇ","rom":"eung eung"}
+{"id":"ko.c0457","deck":"ko.d.casual-texting","ko":"진짜 웃겨","rom":"jinjja utgyeo"}
+{"id":"ko.c0458","deck":"ko.d.casual-texting","ko":"몰라","rom":"molla"}
+{"id":"ko.c0459","deck":"ko.d.casual-texting","ko":"그래","rom":"geurae"}
+{"id":"ko.c0460","deck":"ko.d.casual-texting","ko":"담에 봐","rom":"dame bwa"}
+{"id":"ko.c0461","deck":"ko.d.casual-texting","ko":"잘 자, 내일 봐","rom":"jal ja, naeil bwa"}
+{"id":"ko.c0462","deck":"ko.d.hype-cool","ko":"멋있다!","rom":"meositda!"}
+{"id":"ko.c0463","deck":"ko.d.hype-cool","ko":"잘했어!","rom":"jalhaesseo!"}
+{"id":"ko.c0464","deck":"ko.d.hype-cool","ko":"최고야","rom":"choegoya"}
+{"id":"ko.c0465","deck":"ko.d.hype-cool","ko":"인정","rom":"injeong"}
+{"id":"ko.c0466","deck":"ko.d.hype-cool","ko":"짱이다","rom":"jjangida"}
+{"id":"ko.c0467","deck":"ko.d.hype-cool","ko":"레전드","rom":"rejeondeu"}
+{"id":"ko.c0468","deck":"ko.d.hype-cool","ko":"미쳤다","rom":"michyeotda"}
+{"id":"ko.c0469","deck":"ko.d.hype-cool","ko":"대박이다","rom":"daebagida"}
+{"id":"ko.c0470","deck":"ko.d.hype-cool","ko":"가자!","rom":"gaja!"}
+{"id":"ko.c0471","deck":"ko.d.hype-cool","ko":"오케이 콜","rom":"okei kol"}
+{"id":"ko.c0472","deck":"ko.d.hype-cool","ko":"고생했어","rom":"gosaenghaesseo"}
+{"id":"ko.c0473","deck":"ko.d.hype-cool","ko":"수고했어","rom":"sugohaesseo"}
+{"id":"ko.c0474","deck":"ko.d.hype-cool","ko":"힘내!","rom":"himnae!"}
+{"id":"ko.c0475","deck":"ko.d.hype-cool","ko":"걱정 마","rom":"geokjeong ma"}
+{"id":"ko.c0476","deck":"ko.d.hype-cool","ko":"한잔 할래?","rom":"hanjan hallae?"}
+{"id":"ko.c0477","deck":"ko.d.hype-cool","ko":"뭐 먹을래?","rom":"mwo meogeullae?"}
+{"id":"ko.c0478","deck":"ko.d.hanging-out","ko":"야!","rom":"ya!"}
+{"id":"ko.c0479","deck":"ko.d.hanging-out","ko":"야, 뭐 해?","rom":"ya, mwo hae?"}
+{"id":"ko.c0480","deck":"ko.d.hanging-out","ko":"놀자!","rom":"nolja!"}
+{"id":"ko.c0481","deck":"ko.d.hanging-out","ko":"나와","rom":"nawa"}
+{"id":"ko.c0482","deck":"ko.d.hanging-out","ko":"시간 있어?","rom":"sigan isseo?"}
+{"id":"ko.c0483","deck":"ko.d.hanging-out","ko":"오늘 시간 돼?","rom":"oneul sigan dwae?"}
+{"id":"ko.c0484","deck":"ko.d.hanging-out","ko":"같이 갈래?","rom":"gachi gallae?"}
+{"id":"ko.c0485","deck":"ko.d.hanging-out","ko":"밥 먹으러 갈래?","rom":"bap meogeureo gallae?"}
+{"id":"ko.c0486","deck":"ko.d.hanging-out","ko":"영화 볼래?","rom":"yeonghwa bollae?"}
+{"id":"ko.c0487","deck":"ko.d.hanging-out","ko":"카페 갈까?","rom":"kape galkka?"}
+{"id":"ko.c0488","deck":"ko.d.hanging-out","ko":"우리 집에 올래?","rom":"uri jibe ollae?"}
+{"id":"ko.c0489","deck":"ko.d.hanging-out","ko":"언제 만날까?","rom":"eonje mannalkka?"}
+{"id":"ko.c0490","deck":"ko.d.hanging-out","ko":"몇 시에 볼까?","rom":"myeot sie bolkka?"}
+{"id":"ko.c0491","deck":"ko.d.hanging-out","ko":"어디서 볼까?","rom":"eodiseo bolkka?"}
+{"id":"ko.c0492","deck":"ko.d.hanging-out","ko":"지금 갈게","rom":"jigeum galge"}
+{"id":"ko.c0493","deck":"ko.d.hanging-out","ko":"재밌었어","rom":"jaemisseosseo"}
+{"id":"ko.c0494","deck":"ko.d.hanging-out","ko":"또 놀자","rom":"tto nolja"}
+{"id":"ko.c0495","deck":"ko.d.hanging-out","ko":"담에 또 보자","rom":"dame tto boja"}
+{"id":"ko.c0496","deck":"ko.d.k-pop-fan-culture","ko":"최애","rom":"choeae"}
+{"id":"ko.c0497","deck":"ko.d.k-pop-fan-culture","ko":"덕질","rom":"deokjil"}
+{"id":"ko.c0498","deck":"ko.d.k-pop-fan-culture","ko":"입덕했어요","rom":"ipdeokaesseoyo"}
+{"id":"ko.c0499","deck":"ko.d.k-pop-fan-culture","ko":"컴백","rom":"keombaek"}
+{"id":"ko.c0500","deck":"ko.d.k-pop-fan-culture","ko":"무대","rom":"mudae"}
+{"id":"ko.c0501","deck":"ko.d.k-pop-fan-culture","ko":"콘서트 가요","rom":"konseoteu gayo"}
+{"id":"ko.c0502","deck":"ko.d.k-pop-fan-culture","ko":"응원봉","rom":"eungwonbong"}
+{"id":"ko.c0503","deck":"ko.d.k-pop-fan-culture","ko":"떼창","rom":"ttechang"}
+{"id":"ko.c0504","deck":"ko.d.k-pop-fan-culture","ko":"팬이에요","rom":"paenieyo"}
+{"id":"ko.c0505","deck":"ko.d.k-pop-fan-culture","ko":"사인해 주세요","rom":"sainhae juseyo"}
+{"id":"ko.c0506","deck":"ko.d.k-pop-fan-culture","ko":"노래 좋아요","rom":"norae joayo"}
+{"id":"ko.c0507","deck":"ko.d.k-pop-fan-culture","ko":"가사가 좋아요","rom":"gasaga joayo"}
+{"id":"ko.c0508","deck":"ko.d.k-pop-fan-culture","ko":"안무","rom":"anmu"}
+{"id":"ko.c0509","deck":"ko.d.k-pop-fan-culture","ko":"데뷔","rom":"debwi"}
+{"id":"ko.c0510","deck":"ko.d.k-pop-fan-culture","ko":"팬미팅","rom":"paenmiting"}
+{"id":"ko.c0511","deck":"ko.d.k-pop-fan-culture","ko":"직캠","rom":"jikkaem"}
+{"id":"ko.c0512","deck":"ko.d.social-media-slang","ko":"인스타 스토리","rom":"inseuta seutori"}
+{"id":"ko.c0513","deck":"ko.d.social-media-slang","ko":"좋아요 눌러 줘","rom":"joayo nulleo jwo"}
+{"id":"ko.c0514","deck":"ko.d.social-media-slang","ko":"팔로우했어요","rom":"pallouhaesseoyo"}
+{"id":"ko.c0515","deck":"ko.d.social-media-slang","ko":"짤","rom":"jjal"}
+{"id":"ko.c0516","deck":"ko.d.social-media-slang","ko":"갑분싸","rom":"gapbunssa"}
+{"id":"ko.c0517","deck":"ko.d.social-media-slang","ko":"TMI","rom":"ti-em-ai"}
+{"id":"ko.c0518","deck":"ko.d.social-media-slang","ko":"꾸안꾸","rom":"kkuankku"}
+{"id":"ko.c0519","deck":"ko.d.social-media-slang","ko":"존맛탱","rom":"jonmattaeng"}
+{"id":"ko.c0520","deck":"ko.d.social-media-slang","ko":"ㅇㅈ","rom":"injeong"}
+{"id":"ko.c0521","deck":"ko.d.social-media-slang","ko":"ㄹㅇ","rom":"rieol"}
+{"id":"ko.c0522","deck":"ko.d.social-media-slang","ko":"핵인싸","rom":"haeginssa"}
+{"id":"ko.c0523","deck":"ko.d.social-media-slang","ko":"소확행","rom":"sohwakaeng"}
+{"id":"ko.c0524","deck":"ko.d.social-media-slang","ko":"열공","rom":"yeolgong"}
+{"id":"ko.c0525","deck":"ko.d.social-media-slang","ko":"멘붕","rom":"menbung"}
+{"id":"ko.c0526","deck":"ko.d.social-media-slang","ko":"빵 터졌어","rom":"ppang teojyeosseo"}
+{"id":"ko.c0527","deck":"ko.d.social-media-slang","ko":"셀카 찍자","rom":"selka jjikja"}
+{"id":"ko.c0528","deck":"ko.d.dating-deeper","ko":"우리 무슨 사이야?","rom":"uri museun saiya?"}
+{"id":"ko.c0529","deck":"ko.d.dating-deeper","ko":"진지하게 만나고 싶어","rom":"jinjihage mannago sipeo"}
+{"id":"ko.c0530","deck":"ko.d.dating-deeper","ko":"너 되게 다정해","rom":"neo doege dajeonghae"}
+{"id":"ko.c0531","deck":"ko.d.dating-deeper","ko":"네 웃음소리가 좋아","rom":"ne useumsoriga joa"}
+{"id":"ko.c0532","deck":"ko.d.dating-deeper","ko":"같이 있으면 편해","rom":"gachi isseumyeon pyeonhae"}
+{"id":"ko.c0533","deck":"ko.d.dating-deeper","ko":"미안해, 내가 잘못했어","rom":"mianhae, naega jalmotaesseo"}
+{"id":"ko.c0534","deck":"ko.d.dating-deeper","ko":"화 풀어","rom":"hwa pureo"}
+{"id":"ko.c0535","deck":"ko.d.dating-deeper","ko":"걱정하지 마, 내가 있잖아","rom":"geokjeonghaji ma, naega itjana"}
+{"id":"ko.c0536","deck":"ko.d.dating-deeper","ko":"오늘 데이트 어땠어?","rom":"oneul deiteu eottaesseo?"}
+{"id":"ko.c0537","deck":"ko.d.dating-deeper","ko":"우리 사진 찍자","rom":"uri sajin jjikja"}
+{"id":"ko.c0538","deck":"ko.d.dating-deeper","ko":"100일 축하해","rom":"baegil chukahae"}
+{"id":"ko.c0539","deck":"ko.d.dating-deeper","ko":"손 잡아도 돼?","rom":"son jabado dwae?"}
+{"id":"ko.c0540","deck":"ko.d.dating-deeper","ko":"안아 줘","rom":"ana jwo"}
+{"id":"ko.c0541","deck":"ko.d.dating-deeper","ko":"보고 싶어 죽겠어","rom":"bogo sipeo jukgesseo"}
+{"id":"ko.c0542","deck":"ko.d.dating-deeper","ko":"너한테 할 말 있어","rom":"neohante hal mal isseo"}
+{"id":"ko.c0543","deck":"ko.d.dating-deeper","ko":"우리 잘 맞는 것 같아","rom":"uri jal manneun geot gata"}
+{"id":"ko.c0544","deck":"ko.d.work-office","ko":"회의 몇 시예요?","rom":"hoeui myeot siyeyo?"}
+{"id":"ko.c0545","deck":"ko.d.work-office","ko":"마감이 언제예요?","rom":"magami eonjeyeyo?"}
+{"id":"ko.c0546","deck":"ko.d.work-office","ko":"확인해 보겠습니다","rom":"hwaginhae bogetseumnida"}
+{"id":"ko.c0547","deck":"ko.d.work-office","ko":"잠깐 시간 괜찮으세요?","rom":"jamkkan sigan gwaenchaneuseyo?"}
+{"id":"ko.c0548","deck":"ko.d.work-office","ko":"이거 좀 도와주실 수 있어요?","rom":"igeo jom dowajusil su isseoyo?"}
+{"id":"ko.c0549","deck":"ko.d.work-office","ko":"먼저 퇴근하겠습니다","rom":"meonjeo toegeunhagetseumnida"}
+{"id":"ko.c0550","deck":"ko.d.work-office","ko":"수고하셨습니다","rom":"sugohasyeotseumnida"}
+{"id":"ko.c0551","deck":"ko.d.work-office","ko":"회식 있어요","rom":"hoesik isseoyo"}
+{"id":"ko.c0552","deck":"ko.d.work-office","ko":"보고서 보냈어요","rom":"bogoseo bonaesseoyo"}
+{"id":"ko.c0553","deck":"ko.d.work-office","ko":"점심 뭐 먹을까요?","rom":"jeomsim mwo meogeulkkayo?"}
+{"id":"ko.c0554","deck":"ko.d.work-office","ko":"야근해야 돼요","rom":"yageunhaeya dwaeyo"}
+{"id":"ko.c0555","deck":"ko.d.work-office","ko":"휴가 신청했어요","rom":"hyuga sincheonghaesseoyo"}
+{"id":"ko.c0556","deck":"ko.d.work-office","ko":"이메일 확인하셨어요?","rom":"imeil hwaginhasyeosseoyo?"}
+{"id":"ko.c0557","deck":"ko.d.work-office","ko":"피드백 주셔서 감사합니다","rom":"pideubaek jusyeoseo gamsahamnida"}
+{"id":"ko.c0558","deck":"ko.d.work-office","ko":"다음 주에 발표해요","rom":"daeum jue balpyohaeyo"}
+{"id":"ko.c0559","deck":"ko.d.work-office","ko":"잘 부탁드립니다 (업무)","rom":"jal butakdeurimnida"}
+{"id":"ko.c0560","deck":"ko.d.small-talk","ko":"잘 지냈어요?","rom":"jal jinaesseoyo?"}
+{"id":"ko.c0561","deck":"ko.d.small-talk","ko":"네, 잘 지냈어요","rom":"ne, jal jinaesseoyo"}
+{"id":"ko.c0562","deck":"ko.d.small-talk","ko":"요즘 어때요?","rom":"yojeum eottaeyo?"}
+{"id":"ko.c0563","deck":"ko.d.small-talk","ko":"그냥 그래요","rom":"geunyang geuraeyo"}
+{"id":"ko.c0564","deck":"ko.d.small-talk","ko":"날씨가 좋네요","rom":"nalssiga jonneyo"}
+{"id":"ko.c0565","deck":"ko.d.small-talk","ko":"주말에 뭐 해요?","rom":"jumare mwo haeyo?"}
+{"id":"ko.c0566","deck":"ko.d.small-talk","ko":"저도요","rom":"jeodoyo"}
+{"id":"ko.c0567","deck":"ko.d.small-talk","ko":"정말요?","rom":"jeongmallyo?"}
+{"id":"ko.c0568","deck":"ko.d.small-talk","ko":"또 봐요","rom":"tto bwayo"}
+{"id":"ko.c0569","deck":"ko.d.small-talk","ko":"안녕히 가세요","rom":"annyeonghi gaseyo"}
+{"id":"ko.c0570","deck":"ko.d.small-talk","ko":"안녕히 계세요","rom":"annyeonghi gyeseyo"}
+{"id":"ko.c0571","deck":"ko.d.small-talk","ko":"연락할게요","rom":"yeollakalgeyo"}
+{"id":"ko.c0572","deck":"ko.d.food-ordering","ko":"물","rom":"mul"}
+{"id":"ko.c0573","deck":"ko.d.food-ordering","ko":"밥","rom":"bap"}
+{"id":"ko.c0574","deck":"ko.d.food-ordering","ko":"고기","rom":"gogi"}
+{"id":"ko.c0575","deck":"ko.d.food-ordering","ko":"메뉴 주세요","rom":"menyu juseyo"}
+{"id":"ko.c0576","deck":"ko.d.food-ordering","ko":"맵지 않게 해 주세요","rom":"maepji anke hae juseyo"}
+{"id":"ko.c0577","deck":"ko.d.food-ordering","ko":"맛있어요","rom":"masisseoyo"}
+{"id":"ko.c0578","deck":"ko.d.food-ordering","ko":"배고파요","rom":"baegopayo"}
+{"id":"ko.c0579","deck":"ko.d.food-ordering","ko":"커피 한 잔","rom":"keopi han jan"}
+{"id":"ko.c0580","deck":"ko.d.food-ordering","ko":"계산해 주세요","rom":"gyesanhae juseyo"}
+{"id":"ko.c0581","deck":"ko.d.food-ordering","ko":"포장해 주세요","rom":"pojanghae juseyo"}
+{"id":"ko.c0582","deck":"ko.d.food-ordering","ko":"건배","rom":"geonbae"}
+{"id":"ko.c0583","deck":"ko.d.food-ordering","ko":"잘 먹었습니다","rom":"jal meogeotseumnida"}
+{"id":"ko.c0584","deck":"ko.d.directions-transport","ko":"여기 / 저기","rom":"yeogi / jeogi"}
+{"id":"ko.c0585","deck":"ko.d.directions-transport","ko":"왼쪽","rom":"oenjjok"}
+{"id":"ko.c0586","deck":"ko.d.directions-transport","ko":"오른쪽","rom":"oreunjjok"}
+{"id":"ko.c0587","deck":"ko.d.directions-transport","ko":"똑바로 가세요","rom":"ttokbaro gaseyo"}
+{"id":"ko.c0588","deck":"ko.d.directions-transport","ko":"지하철역","rom":"jihacheollyeok"}
+{"id":"ko.c0589","deck":"ko.d.directions-transport","ko":"버스 정류장","rom":"beoseu jeongnyujang"}
+{"id":"ko.c0590","deck":"ko.d.directions-transport","ko":"택시","rom":"taeksi"}
+{"id":"ko.c0591","deck":"ko.d.directions-transport","ko":"공항","rom":"gonghang"}
+{"id":"ko.c0592","deck":"ko.d.directions-transport","ko":"얼마나 걸려요?","rom":"eolmana geollyeoyo?"}
+{"id":"ko.c0593","deck":"ko.d.directions-transport","ko":"여기서 세워 주세요","rom":"yeogiseo sewo juseyo"}
+{"id":"ko.c0594","deck":"ko.d.directions-transport","ko":"티머니 카드","rom":"timeoni kadeu"}
+{"id":"ko.c0595","deck":"ko.d.directions-transport","ko":"어떻게 가요?","rom":"eotteoke gayo?"}
+{"id":"ko.c0596","deck":"ko.d.time-days","ko":"오늘","rom":"oneul"}
+{"id":"ko.c0597","deck":"ko.d.time-days","ko":"내일","rom":"naeil"}
+{"id":"ko.c0598","deck":"ko.d.time-days","ko":"어제","rom":"eoje"}
+{"id":"ko.c0599","deck":"ko.d.time-days","ko":"지금","rom":"jigeum"}
+{"id":"ko.c0600","deck":"ko.d.time-days","ko":"아침 / 점심 / 저녁","rom":"achim / jeomsim / jeonyeok"}
+{"id":"ko.c0601","deck":"ko.d.time-days","ko":"월요일","rom":"woryoil"}
+{"id":"ko.c0602","deck":"ko.d.time-days","ko":"금요일","rom":"geumyoil"}
+{"id":"ko.c0603","deck":"ko.d.time-days","ko":"토요일 / 일요일","rom":"toyoil / iryoil"}
+{"id":"ko.c0604","deck":"ko.d.time-days","ko":"몇 시예요?","rom":"myeot siyeyo?"}
+{"id":"ko.c0605","deck":"ko.d.time-days","ko":"언제","rom":"eonje"}
+{"id":"ko.c0606","deck":"ko.d.time-days","ko":"매일","rom":"maeil"}
+{"id":"ko.c0607","deck":"ko.d.time-days","ko":"시간 있어요?","rom":"sigan isseoyo?"}
+{"id":"ko.c0608","deck":"ko.d.family-people","ko":"엄마 / 아빠","rom":"eomma / appa"}
+{"id":"ko.c0609","deck":"ko.d.family-people","ko":"형 / 오빠","rom":"hyeong / oppa"}
+{"id":"ko.c0610","deck":"ko.d.family-people","ko":"누나 / 언니","rom":"nuna / eonni"}
+{"id":"ko.c0611","deck":"ko.d.family-people","ko":"동생","rom":"dongsaeng"}
+{"id":"ko.c0612","deck":"ko.d.family-people","ko":"할머니 / 할아버지","rom":"halmeoni / harabeoji"}
+{"id":"ko.c0613","deck":"ko.d.family-people","ko":"가족","rom":"gajok"}
+{"id":"ko.c0614","deck":"ko.d.family-people","ko":"친구","rom":"chingu"}
+{"id":"ko.c0615","deck":"ko.d.family-people","ko":"선생님","rom":"seonsaengnim"}
+{"id":"ko.c0616","deck":"ko.d.family-people","ko":"남자 / 여자","rom":"namja / yeoja"}
+{"id":"ko.c0617","deck":"ko.d.family-people","ko":"사람","rom":"saram"}
+{"id":"ko.c0618","deck":"ko.d.adjectives","ko":"좋아요","rom":"joayo"}
+{"id":"ko.c0619","deck":"ko.d.adjectives","ko":"나빠요","rom":"nappayo"}
+{"id":"ko.c0620","deck":"ko.d.adjectives","ko":"커요","rom":"keoyo"}
+{"id":"ko.c0621","deck":"ko.d.adjectives","ko":"작아요","rom":"jagayo"}
+{"id":"ko.c0622","deck":"ko.d.adjectives","ko":"많아요","rom":"manayo"}
+{"id":"ko.c0623","deck":"ko.d.adjectives","ko":"비싸요","rom":"bissayo"}
+{"id":"ko.c0624","deck":"ko.d.adjectives","ko":"싸요","rom":"ssayo"}
+{"id":"ko.c0625","deck":"ko.d.adjectives","ko":"더워요","rom":"deowoyo"}
+{"id":"ko.c0626","deck":"ko.d.adjectives","ko":"추워요","rom":"chuwoyo"}
+{"id":"ko.c0627","deck":"ko.d.adjectives","ko":"바빠요","rom":"bappayo"}
+{"id":"ko.c0628","deck":"ko.d.adjectives","ko":"재미있어요","rom":"jaemiisseoyo"}
+{"id":"ko.c0629","deck":"ko.d.adjectives","ko":"힘들어요","rom":"himdeureoyo"}
+{"id":"ko.c0630","deck":"ko.d.k-drama-phrases","ko":"진짜?","rom":"jinjja?"}
+{"id":"ko.c0631","deck":"ko.d.k-drama-phrases","ko":"대박","rom":"daebak"}
+{"id":"ko.c0632","deck":"ko.d.k-drama-phrases","ko":"헐","rom":"heol"}
+{"id":"ko.c0633","deck":"ko.d.k-drama-phrases","ko":"아이고","rom":"aigo"}
+{"id":"ko.c0634","deck":"ko.d.k-drama-phrases","ko":"괜찮아","rom":"gwaenchana"}
+{"id":"ko.c0635","deck":"ko.d.k-drama-phrases","ko":"미쳤어?","rom":"michyeosseo?"}
+{"id":"ko.c0636","deck":"ko.d.k-drama-phrases","ko":"가지 마","rom":"gaji ma"}
+{"id":"ko.c0637","deck":"ko.d.k-drama-phrases","ko":"보고 싶었어","rom":"bogo sipeosseo"}
+{"id":"ko.c0638","deck":"ko.d.k-drama-phrases","ko":"어떡해","rom":"eotteokae"}
+{"id":"ko.c0639","deck":"ko.d.k-drama-phrases","ko":"화이팅","rom":"hwaiting"}
+{"id":"ko.c0640","deck":"ko.d.k-drama-phrases","ko":"알았어","rom":"arasseo"}
+{"id":"ko.c0641","deck":"ko.d.k-drama-phrases","ko":"뭐라고?","rom":"mworago?"}

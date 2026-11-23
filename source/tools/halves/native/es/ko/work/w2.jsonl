@@ -1,0 +1,758 @@
+{"f": "cards", "id": "ko.c0492", "k": "meaning", "src": "I'm coming now", "tgt": "Ya voy"}
+{"f": "cards", "id": "ko.c0492", "k": "note", "src": "ㄹ게 = I'll. 금방 갈게 = I'll be there soon.", "tgt": "ㄹ게 = voy a… (te lo prometo). 금방 갈게 = ya casi llego."}
+{"f": "cards", "id": "ko.c0493", "k": "meaning", "src": "That was fun", "tgt": "Estuvo divertido"}
+{"f": "cards", "id": "ko.c0493", "k": "note", "src": "Say it at the end. Polite: 재밌었어요.", "tgt": "Se dice al despedirse. Cortés: 재밌었어요."}
+{"f": "cards", "id": "ko.c0494", "k": "meaning", "src": "Let's hang out again", "tgt": "Salgamos otra vez"}
+{"f": "cards", "id": "ko.c0494", "k": "note", "src": "또 = again.", "tgt": "또 = otra vez."}
+{"f": "cards", "id": "ko.c0495", "k": "meaning", "src": "Let's meet again next time", "tgt": "Nos vemos la próxima"}
+{"f": "cards", "id": "ko.c0495", "k": "note", "src": "담에 = 다음에. 보자 = let's see (each other).", "tgt": "담에 = 다음에. 보자 = veámonos."}
+{"f": "cards", "id": "ko.c0496", "k": "meaning", "src": "my favorite (member)", "tgt": "mi favorito (del grupo)"}
+{"f": "cards", "id": "ko.c0496", "k": "note", "src": "최애가 누구예요? = who's your bias? 차애 = second favorite.", "tgt": "최애가 누구예요? = ¿quién es tu favorito? 차애 = el segundo favorito."}
+{"f": "cards", "id": "ko.c0497", "k": "meaning", "src": "being a fan / fangirling", "tgt": "ser fan / fanatismo"}
+{"f": "cards", "id": "ko.c0497", "k": "note", "src": "From 오타쿠. 덕질해요 = I'm into fandom stuff.", "tgt": "Viene de 오타쿠. 덕질해요 = ando metido en lo del fandom."}
+{"f": "cards", "id": "ko.c0498", "k": "meaning", "src": "I became a fan", "tgt": "Me hice fan"}
+{"f": "cards", "id": "ko.c0498", "k": "note", "src": "입덕 = entering the fandom. 탈덕 = leaving it.", "tgt": "입덕 = entrar al fandom. 탈덕 = salirse."}
+{"f": "cards", "id": "ko.c0499", "k": "meaning", "src": "comeback (new release)", "tgt": "comeback (nuevo lanzamiento)"}
+{"f": "cards", "id": "ko.c0499", "k": "note", "src": "Every new album is a 컴백. 컴백 언제예요?", "tgt": "Cada álbum nuevo es un 컴백. 컴백 언제예요?"}
+{"f": "cards", "id": "ko.c0500", "k": "meaning", "src": "stage / performance", "tgt": "escenario / presentación"}
+{"f": "cards", "id": "ko.c0500", "k": "note", "src": "무대 진짜 잘해요 = they perform really well.", "tgt": "무대 진짜 잘해요 = en el escenario son buenísimos."}
+{"f": "cards", "id": "ko.c0501", "k": "meaning", "src": "I'm going to a concert", "tgt": "Voy a un concierto"}
+{"f": "cards", "id": "ko.c0501", "k": "note", "src": "콘서트 티켓팅 = ticketing, a blood sport.", "tgt": "콘서트 티켓팅 = conseguir boletos, un deporte de alto riesgo."}
+{"f": "cards", "id": "ko.c0502", "k": "meaning", "src": "light stick", "tgt": "lightstick (barra de luz)"}
+{"f": "cards", "id": "ko.c0502", "k": "note", "src": "Each group has one. 응원 = cheering.", "tgt": "Cada grupo tiene el suyo. 응원 = apoyo, ánimos."}
+{"f": "cards", "id": "ko.c0503", "k": "meaning", "src": "singing along as a crowd", "tgt": "el público cantando a coro"}
+{"f": "cards", "id": "ko.c0503", "k": "note", "src": "떼 = flock. The crowd sings the whole song.", "tgt": "떼 = multitud. El público canta la canción entera."}
+{"f": "cards", "id": "ko.c0504", "k": "meaning", "src": "I'm a fan", "tgt": "Soy fan"}
+{"f": "cards", "id": "ko.c0504", "k": "note", "src": "저 팬이에요 = I'm a fan (of you / them).", "tgt": "저 팬이에요 = soy tu fan (o su fan)."}
+{"f": "cards", "id": "ko.c0505", "k": "meaning", "src": "Please sign this", "tgt": "¿Me firmas esto?"}
+{"f": "cards", "id": "ko.c0505", "k": "note", "src": "사인 = autograph.", "tgt": "사인 = autógrafo."}
+{"f": "cards", "id": "ko.c0506", "k": "meaning", "src": "The song is good", "tgt": "La canción está buena"}
+{"f": "cards", "id": "ko.c0506", "k": "note", "src": "이 노래 진짜 좋아요 = this song is so good.", "tgt": "이 노래 진짜 좋아요 = esta canción está buenísima."}
+{"f": "cards", "id": "ko.c0507", "k": "meaning", "src": "The lyrics are good", "tgt": "La letra está buena"}
+{"f": "cards", "id": "ko.c0507", "k": "note", "src": "가사 = lyrics.", "tgt": "가사 = letra (de canción)."}
+{"f": "cards", "id": "ko.c0508", "k": "meaning", "src": "choreography", "tgt": "coreografía"}
+{"f": "cards", "id": "ko.c0508", "k": "note", "src": "안무 외웠어요 = I memorized the choreo.", "tgt": "안무 외웠어요 = me aprendí la coreo."}
+{"f": "cards", "id": "ko.c0509", "k": "meaning", "src": "debut", "tgt": "debut (primer lanzamiento)"}
+{"f": "cards", "id": "ko.c0509", "k": "note", "src": "데뷔 몇 년이에요? = what year did they debut?", "tgt": "데뷔 몇 년이에요? = ¿en qué año debutaron?"}
+{"f": "cards", "id": "ko.c0510", "k": "meaning", "src": "fan meeting", "tgt": "fan meeting (encuentro con fans)"}
+{"f": "cards", "id": "ko.c0510", "k": "note", "src": "팬싸 = fan sign event.", "tgt": "팬싸 = firma de autógrafos para fans."}
+{"f": "cards", "id": "ko.c0511", "k": "meaning", "src": "fancam", "tgt": "fancam (video de un fan)"}
+{"f": "cards", "id": "ko.c0511", "k": "note", "src": "직접 + 캠. Member-focused concert video.", "tgt": "직접 + 캠. Video de concierto centrado en un solo integrante."}
+{"f": "cards", "id": "ko.c0512", "k": "meaning", "src": "Instagram story", "tgt": "historia de Instagram"}
+{"f": "cards", "id": "ko.c0512", "k": "note", "src": "스토리 봤어? = did you see my story?", "tgt": "스토리 봤어? = ¿viste mi historia?"}
+{"f": "cards", "id": "ko.c0513", "k": "meaning", "src": "Hit like for me", "tgt": "Dame like"}
+{"f": "cards", "id": "ko.c0513", "k": "note", "src": "누르다 = to press.", "tgt": "누르다 = presionar, tocar."}
+{"f": "cards", "id": "ko.c0514", "k": "meaning", "src": "I followed you", "tgt": "Te seguí"}
+{"f": "cards", "id": "ko.c0514", "k": "note", "src": "맞팔 = follow back. 맞팔해요 = let's follow each other.", "tgt": "맞팔 = seguirse mutuamente. 맞팔해요 = sigámonos."}
+{"f": "cards", "id": "ko.c0515", "k": "meaning", "src": "meme image / reaction pic", "tgt": "meme / imagen de reacción"}
+{"f": "cards", "id": "ko.c0515", "k": "note", "src": "짤 보내 줘 = send me the meme.", "tgt": "짤 보내 줘 = mándame el meme."}
+{"f": "cards", "id": "ko.c0516", "k": "meaning", "src": "sudden awkward silence", "tgt": "silencio incómodo de repente"}
+{"f": "cards", "id": "ko.c0516", "k": "note", "src": "갑자기 분위기 싸해짐. When a joke dies.", "tgt": "갑자기 분위기 싸해짐. Cuando un chiste no le da risa a nadie."}
+{"f": "cards", "id": "ko.c0517", "k": "meaning", "src": "too much info / random fact", "tgt": "demasiada información / dato random"}
+{"f": "cards", "id": "ko.c0517", "k": "note", "src": "Used for cute oversharing, not gross stuff.", "tgt": "Para contar de más algo tierno, no algo asqueroso."}
+{"f": "cards", "id": "ko.c0518", "k": "meaning", "src": "effortlessly styled", "tgt": "arreglado sin parecerlo"}
+{"f": "cards", "id": "ko.c0518", "k": "note", "src": "꾸민 듯 안 꾸민 듯. The 'I woke up like this' look.", "tgt": "꾸민 듯 안 꾸민 듯. El look de «me levanté así»."}
+{"f": "cards", "id": "ko.c0519", "k": "meaning", "src": "insanely delicious", "tgt": "riquísimo, delicioso a morir"}
+{"f": "cards", "id": "ko.c0519", "k": "note", "src": "Very casual. JMT in texts.", "tgt": "Muy coloquial. En mensajes: JMT."}
+{"f": "cards", "id": "ko.c0520", "k": "meaning", "src": "agreed / facts", "tgt": "de acuerdo / es verdad"}
+{"f": "cards", "id": "ko.c0520", "k": "note", "src": "Text shorthand for 인정.", "tgt": "Abreviatura escrita de 인정."}
+{"f": "cards", "id": "ko.c0521", "k": "meaning", "src": "for real", "tgt": "de verdad, en serio"}
+{"f": "cards", "id": "ko.c0521", "k": "note", "src": "Text shorthand for 리얼.", "tgt": "Abreviatura escrita de 리얼."}
+{"f": "cards", "id": "ko.c0522", "k": "meaning", "src": "super extrovert / popular", "tgt": "superpopular / muy sociable"}
+{"f": "cards", "id": "ko.c0522", "k": "note", "src": "핵 = nuke prefix. 아싸 = outsider / introvert.", "tgt": "핵 = prefijo «nuclear», súper. 아싸 = el que no encaja / introvertido."}
+{"f": "cards", "id": "ko.c0523", "k": "meaning", "src": "small but certain happiness", "tgt": "pequeña felicidad segura"}
+{"f": "cards", "id": "ko.c0523", "k": "note", "src": "소소하지만 확실한 행복. Café, nap, rain.", "tgt": "소소하지만 확실한 행복. Un café, una siesta, la lluvia."}
+{"f": "cards", "id": "ko.c0524", "k": "meaning", "src": "studying hard", "tgt": "estudiar duro"}
+{"f": "cards", "id": "ko.c0524", "k": "note", "src": "열심히 공부. 열공 중 = studying hard right now.", "tgt": "열심히 공부. 열공 중 = estoy estudiando a fondo ahora."}
+{"f": "cards", "id": "ko.c0525", "k": "meaning", "src": "mental breakdown", "tgt": "crisis mental, colapso"}
+{"f": "cards", "id": "ko.c0525", "k": "note", "src": "멘탈 붕괴. 멘붕 왔어 = I'm losing it.", "tgt": "멘탈 붕괴. 멘붕 왔어 = ya no puedo más."}
+{"f": "cards", "id": "ko.c0526", "k": "meaning", "src": "I burst out laughing", "tgt": "Me morí de risa"}
+{"f": "cards", "id": "ko.c0526", "k": "note", "src": "빵 = pop sound.", "tgt": "빵 = ¡pum!, sonido de explosión."}
+{"f": "cards", "id": "ko.c0527", "k": "meaning", "src": "Let's take a selfie", "tgt": "Tomémonos una selfie"}
+{"f": "cards", "id": "ko.c0527", "k": "note", "src": "셀카 = selfie. 찍다 = to take (photo).", "tgt": "셀카 = selfie. 찍다 = tomar (una foto)."}
+{"f": "cards", "id": "ko.c0528", "k": "meaning", "src": "What are we?", "tgt": "¿Qué somos?"}
+{"f": "cards", "id": "ko.c0528", "k": "note", "src": "사이 = relationship between people. The DTR line.", "tgt": "사이 = relación entre dos personas. La pregunta para definir la relación."}
+{"f": "cards", "id": "ko.c0529", "k": "meaning", "src": "I want to date seriously", "tgt": "Quiero una relación en serio"}
+{"f": "cards", "id": "ko.c0529", "k": "note", "src": "진지하다 = serious.", "tgt": "진지하다 = ser serio."}
+{"f": "cards", "id": "ko.c0530", "k": "meaning", "src": "You're really warm-hearted", "tgt": "Eres muy cariñoso"}
+{"f": "cards", "id": "ko.c0530", "k": "note", "src": "다정하다 = affectionate, kind. Compliment beyond looks.", "tgt": "다정하다 = cariñoso, atento. Un halago que va más allá del físico."}
+{"f": "cards", "id": "ko.c0531", "k": "meaning", "src": "I like your laugh", "tgt": "Me gusta tu risa"}
+{"f": "cards", "id": "ko.c0531", "k": "note", "src": "웃음소리 = laughing sound.", "tgt": "웃음소리 = el sonido de la risa."}
+{"f": "cards", "id": "ko.c0532", "k": "meaning", "src": "I feel comfortable with you", "tgt": "Contigo me siento a gusto"}
+{"f": "cards", "id": "ko.c0532", "k": "note", "src": "편하다 = comfortable. High praise in Korean dating.", "tgt": "편하다 = estar cómodo. Un gran halago en una relación coreana."}
+{"f": "cards", "id": "ko.c0533", "k": "meaning", "src": "Sorry, it was my fault", "tgt": "Perdón, fue mi culpa"}
+{"f": "cards", "id": "ko.c0533", "k": "note", "src": "잘못하다 = to do wrong. Own it.", "tgt": "잘못하다 = hacer algo mal. Acepta tu error."}
+{"f": "cards", "id": "ko.c0534", "k": "meaning", "src": "Don't be mad anymore", "tgt": "Ya no te enojes"}
+{"f": "cards", "id": "ko.c0534", "k": "note", "src": "풀다 = to untie / release. 화 풀어 줘 softer.", "tgt": "풀다 = desatar, soltar. 화 풀어 줘 es más suave."}
+{"f": "cards", "id": "ko.c0535", "k": "meaning", "src": "Don't worry, you have me", "tgt": "No te preocupes, me tienes a mí"}
+{"f": "cards", "id": "ko.c0535", "k": "note", "src": "잖아 = 'you know'. Reassurance.", "tgt": "잖아 = «ya sabes». Para dar tranquilidad."}
+{"f": "cards", "id": "ko.c0536", "k": "meaning", "src": "How was the date today?", "tgt": "¿Qué tal la cita de hoy?"}
+{"f": "cards", "id": "ko.c0536", "k": "note", "src": "어땠어 = how was it.", "tgt": "어땠어 = ¿qué tal estuvo?"}
+{"f": "cards", "id": "ko.c0537", "k": "meaning", "src": "Let's take a photo together", "tgt": "Tomémonos una foto juntos"}
+{"f": "cards", "id": "ko.c0537", "k": "note", "src": "Couple photo = 커플 사진.", "tgt": "Foto de pareja = 커플 사진."}
+{"f": "cards", "id": "ko.c0538", "k": "meaning", "src": "Happy 100 days", "tgt": "Feliz día 100"}
+{"f": "cards", "id": "ko.c0538", "k": "note", "src": "Couples celebrate 100 days. Big deal.", "tgt": "Las parejas celebran sus primeros 100 días. Es algo importante."}
+{"f": "cards", "id": "ko.c0539", "k": "meaning", "src": "Can I hold your hand?", "tgt": "¿Te puedo tomar de la mano?"}
+{"f": "cards", "id": "ko.c0539", "k": "note", "src": "잡다 = to hold. 아/어도 돼 = may I.", "tgt": "잡다 = tomar, agarrar. 아/어도 돼 = ¿puedo…?"}
+{"f": "cards", "id": "ko.c0540", "k": "meaning", "src": "Hug me", "tgt": "Abrázame"}
+{"f": "cards", "id": "ko.c0540", "k": "note", "src": "안다 = to hug. 안아 줄게 = I'll hug you.", "tgt": "안다 = abrazar. 안아 줄게 = te abrazo."}
+{"f": "cards", "id": "ko.c0541", "k": "meaning", "src": "I miss you to death", "tgt": "Te extraño muchísimo"}
+{"f": "cards", "id": "ko.c0541", "k": "note", "src": "죽겠어 = 'I'll die' intensifier. Casual, dramatic.", "tgt": "죽겠어 = «me muero», intensificador. Coloquial y dramático."}
+{"f": "cards", "id": "ko.c0542", "k": "meaning", "src": "I have something to tell you", "tgt": "Tengo algo que decirte"}
+{"f": "cards", "id": "ko.c0542", "k": "note", "src": "Sets up a serious talk. 한테 = to (person).", "tgt": "Anuncia una plática seria. 한테 = a (una persona)."}
+{"f": "cards", "id": "ko.c0543", "k": "meaning", "src": "I think we're a good match", "tgt": "Creo que hacemos buena pareja"}
+{"f": "cards", "id": "ko.c0543", "k": "note", "src": "맞다 = to fit / match.", "tgt": "맞다 = encajar, coincidir."}
+{"f": "cards", "id": "ko.c0544", "k": "meaning", "src": "What time is the meeting?", "tgt": "¿A qué hora es la reunión?"}
+{"f": "cards", "id": "ko.c0544", "k": "note", "src": "회의 = meeting. 회의실 = meeting room.", "tgt": "회의 = reunión. 회의실 = sala de reuniones."}
+{"f": "cards", "id": "ko.c0545", "k": "meaning", "src": "When is the deadline?", "tgt": "¿Cuándo es la fecha límite?"}
+{"f": "cards", "id": "ko.c0545", "k": "note", "src": "마감 = deadline. 마감 지켰어요 = I made the deadline.", "tgt": "마감 = fecha de entrega. 마감 지켰어요 = entregué a tiempo."}
+{"f": "cards", "id": "ko.c0546", "k": "meaning", "src": "I'll check and get back to you", "tgt": "Lo reviso y le aviso"}
+{"f": "cards", "id": "ko.c0546", "k": "note", "src": "Formal. The email reply you'll send most.", "tgt": "Formal. La respuesta de correo que más vas a enviar."}
+{"f": "cards", "id": "ko.c0547", "k": "meaning", "src": "Do you have a moment?", "tgt": "¿Tiene un momento?"}
+{"f": "cards", "id": "ko.c0547", "k": "note", "src": "To a colleague or senior. 잠깐 = briefly.", "tgt": "A un compañero o a un superior. 잠깐 = un momento."}
+{"f": "cards", "id": "ko.c0548", "k": "meaning", "src": "Could you help me with this?", "tgt": "¿Me podría ayudar con esto?"}
+{"f": "cards", "id": "ko.c0548", "k": "note", "src": "도와주시다 honorific + 수 있어요 = could you.", "tgt": "도와주시다 honorífico + 수 있어요 = ¿podría…?"}
+{"f": "cards", "id": "ko.c0549", "k": "meaning", "src": "I'll head out first", "tgt": "Me retiro primero"}
+{"f": "cards", "id": "ko.c0549", "k": "note", "src": "퇴근 = leaving work. Say it to the room, always.", "tgt": "퇴근 = salir del trabajo. Díselo a todos en la oficina, siempre."}
+{"f": "cards", "id": "ko.c0550", "k": "meaning", "src": "Good work today (formal)", "tgt": "Buen trabajo hoy (formal)"}
+{"f": "cards", "id": "ko.c0550", "k": "note", "src": "To seniors when leaving. 수고하세요 to those still working.", "tgt": "A los superiores al irte. 수고하세요 a quienes siguen trabajando."}
+{"f": "cards", "id": "ko.c0551", "k": "meaning", "src": "There's a team dinner", "tgt": "Hay cena de equipo"}
+{"f": "cards", "id": "ko.c0551", "k": "note", "src": "회식 = company dinner. Attendance is… encouraged.", "tgt": "회식 = cena de la empresa. La asistencia es… muy recomendable."}
+{"f": "cards", "id": "ko.c0552", "k": "meaning", "src": "I sent the report", "tgt": "Ya mandé el informe"}
+{"f": "cards", "id": "ko.c0552", "k": "note", "src": "보고서 = report. 보내다 = to send.", "tgt": "보고서 = informe. 보내다 = enviar."}
+{"f": "cards", "id": "ko.c0553", "k": "meaning", "src": "What should we have for lunch?", "tgt": "¿Qué almorzamos?"}
+{"f": "cards", "id": "ko.c0553", "k": "note", "src": "The 11:30 question in every office.", "tgt": "La pregunta de las 11:30 en toda oficina."}
+{"f": "cards", "id": "ko.c0554", "k": "meaning", "src": "I have to work overtime", "tgt": "Tengo que quedarme a trabajar tarde"}
+{"f": "cards", "id": "ko.c0554", "k": "note", "src": "야근 = night work. 아/어야 돼요 = have to.", "tgt": "야근 = trabajo nocturno, horas extra. 아/어야 돼요 = tener que."}
+{"f": "cards", "id": "ko.c0555", "k": "meaning", "src": "I applied for leave", "tgt": "Pedí vacaciones"}
+{"f": "cards", "id": "ko.c0555", "k": "note", "src": "휴가 = vacation. 신청하다 = apply.", "tgt": "휴가 = vacaciones. 신청하다 = solicitar."}
+{"f": "cards", "id": "ko.c0556", "k": "meaning", "src": "Did you see my email?", "tgt": "¿Vio mi correo?"}
+{"f": "cards", "id": "ko.c0556", "k": "note", "src": "Honorific past 하셨어요.", "tgt": "Pasado honorífico: 하셨어요."}
+{"f": "cards", "id": "ko.c0557", "k": "meaning", "src": "Thank you for the feedback", "tgt": "Gracias por sus comentarios"}
+{"f": "cards", "id": "ko.c0557", "k": "note", "src": "주셔서 = for giving (honorific).", "tgt": "주셔서 = por darme (honorífico)."}
+{"f": "cards", "id": "ko.c0558", "k": "meaning", "src": "I'm presenting next week", "tgt": "Presento la próxima semana"}
+{"f": "cards", "id": "ko.c0558", "k": "note", "src": "발표 = presentation.", "tgt": "발표 = presentación."}
+{"f": "cards", "id": "ko.c0559", "k": "meaning", "src": "Looking forward to working with you", "tgt": "Será un gusto trabajar con usted"}
+{"f": "cards", "id": "ko.c0559", "k": "note", "src": "Closes work emails and first meetings.", "tgt": "Cierra correos de trabajo y primeras reuniones."}
+{"f": "cards", "id": "ko.c0560", "k": "meaning", "src": "How have you been?", "tgt": "¿Cómo has estado?"}
+{"f": "cards", "id": "ko.c0560", "k": "note", "src": "Standard greeting for someone you haven't seen in a while.", "tgt": "Saludo típico para alguien a quien no ves desde hace tiempo."}
+{"f": "cards", "id": "ko.c0561", "k": "meaning", "src": "I've been well", "tgt": "He estado bien"}
+{"f": "cards", "id": "ko.c0561", "k": "note", "src": "Add 덕분에 (thanks to you) to sound extra polite.", "tgt": "Agrega 덕분에 (gracias a ti) para sonar todavía más amable."}
+{"f": "cards", "id": "ko.c0562", "k": "meaning", "src": "How are things lately?", "tgt": "¿Qué tal todo últimamente?"}
+{"f": "cards", "id": "ko.c0562", "k": "note", "src": "요즘 = these days. 어때요 = how is it.", "tgt": "요즘 = estos días. 어때요 = ¿qué tal está?"}
+{"f": "cards", "id": "ko.c0563", "k": "meaning", "src": "So-so", "tgt": "Más o menos"}
+{"f": "cards", "id": "ko.c0563", "k": "note", "src": "Lit. 'it's just like that'. Very common honest answer.", "tgt": "Lit. «es así, sin más». Una respuesta sincera muy común."}
+{"f": "cards", "id": "ko.c0564", "k": "meaning", "src": "Nice weather, isn't it", "tgt": "Qué buen clima, ¿no?"}
+{"f": "cards", "id": "ko.c0564", "k": "note", "src": "네요 ending = noticing something out loud. 날씨가 춥네요 = it's cold, huh.", "tgt": "La terminación 네요 = notar algo en voz alta. 날씨가 춥네요 = qué frío hace, ¿eh?"}
+{"f": "cards", "id": "ko.c0565", "k": "meaning", "src": "What are you doing this weekend?", "tgt": "¿Qué haces este fin de semana?"}
+{"f": "cards", "id": "ko.c0565", "k": "note", "src": "주말 = weekend, 에 = on.", "tgt": "주말 = fin de semana, 에 = en."}
+{"f": "cards", "id": "ko.c0566", "k": "meaning", "src": "Me too", "tgt": "Yo también"}
+{"f": "cards", "id": "ko.c0566", "k": "note", "src": "Casual: 나도.", "tgt": "Informal: 나도."}
+{"f": "cards", "id": "ko.c0567", "k": "meaning", "src": "Really?", "tgt": "¿De veras?"}
+{"f": "cards", "id": "ko.c0567", "k": "note", "src": "Softer than 진짜요?. Both fine.", "tgt": "Más suave que 진짜요?. Los dos están bien."}
+{"f": "cards", "id": "ko.c0568", "k": "meaning", "src": "See you again", "tgt": "Nos vemos"}
+{"f": "cards", "id": "ko.c0568", "k": "note", "src": "또 = again. 내일 봐요 = see you tomorrow.", "tgt": "또 = otra vez. 내일 봐요 = nos vemos mañana."}
+{"f": "cards", "id": "ko.c0569", "k": "meaning", "src": "Goodbye (to someone leaving)", "tgt": "Adiós (a quien se va)"}
+{"f": "cards", "id": "ko.c0569", "k": "note", "src": "가세요 = go well. Say it when THEY are leaving.", "tgt": "가세요 = ve en paz. Dilo cuando la OTRA persona se va."}
+{"f": "cards", "id": "ko.c0570", "k": "meaning", "src": "Goodbye (to someone staying)", "tgt": "Adiós (a quien se queda)"}
+{"f": "cards", "id": "ko.c0570", "k": "note", "src": "계세요 = stay well. Say it when YOU are leaving.", "tgt": "계세요 = quédate en paz. Dilo cuando TÚ te vas."}
+{"f": "cards", "id": "ko.c0571", "k": "meaning", "src": "I'll be in touch", "tgt": "Te escribo / estamos en contacto"}
+{"f": "cards", "id": "ko.c0571", "k": "note", "src": "ㄹ게요 = I'll (promise). 연락 = contact.", "tgt": "ㄹ게요 = lo haré (promesa). 연락 = contacto."}
+{"f": "cards", "id": "ko.c0572", "k": "meaning", "src": "water", "tgt": "agua"}
+{"f": "cards", "id": "ko.c0572", "k": "note", "src": "물 주세요 = water, please.", "tgt": "물 주세요 = agua, por favor."}
+{"f": "cards", "id": "ko.c0573", "k": "meaning", "src": "rice / a meal", "tgt": "arroz / comida"}
+{"f": "cards", "id": "ko.c0573", "k": "note", "src": "밥 먹자 = let's eat.", "tgt": "밥 먹자 = vamos a comer."}
+{"f": "cards", "id": "ko.c0574", "k": "meaning", "src": "meat", "tgt": "carne"}
+{"f": "cards", "id": "ko.c0574", "k": "note", "src": "소고기 beef, 돼지고기 pork, 닭고기 chicken.", "tgt": "소고기 res, 돼지고기 cerdo, 닭고기 pollo."}
+{"f": "cards", "id": "ko.c0575", "k": "meaning", "src": "Menu, please", "tgt": "El menú, por favor"}
+{"f": "cards", "id": "ko.c0575", "k": "note", "src": "Or just raise a hand and say 저기요 (excuse me).", "tgt": "O simplemente levanta la mano y di 저기요 (disculpe)."}
+{"f": "cards", "id": "ko.c0576", "k": "meaning", "src": "Not spicy, please", "tgt": "Sin picante, por favor"}
+{"f": "cards", "id": "ko.c0576", "k": "note", "src": "맵다 = spicy. 안 매워요? = is it not spicy?", "tgt": "맵다 = picar (ser picante). 안 매워요? = ¿no pica?"}
+{"f": "cards", "id": "ko.c0577", "k": "meaning", "src": "It's delicious", "tgt": "Está delicioso"}
+{"f": "cards", "id": "ko.c0577", "k": "note", "src": "Say it to the owner on the way out.", "tgt": "Díselo al dueño al salir."}
+{"f": "cards", "id": "ko.c0578", "k": "meaning", "src": "I'm hungry", "tgt": "Tengo hambre"}
+{"f": "cards", "id": "ko.c0578", "k": "note", "src": "배불러요 (baebulleoyo) = I'm full.", "tgt": "배불러요 (baebulleoyo) = estoy lleno."}
+{"f": "cards", "id": "ko.c0579", "k": "meaning", "src": "One coffee", "tgt": "Un café"}
+{"f": "cards", "id": "ko.c0579", "k": "note", "src": "잔 = cup counter. 두 잔 = two cups.", "tgt": "잔 = contador de tazas. 두 잔 = dos tazas."}
+{"f": "cards", "id": "ko.c0580", "k": "meaning", "src": "Check, please", "tgt": "La cuenta, por favor"}
+{"f": "cards", "id": "ko.c0580", "k": "note", "src": "You usually pay at the counter.", "tgt": "Normalmente se paga en la caja."}
+{"f": "cards", "id": "ko.c0581", "k": "meaning", "src": "To go, please", "tgt": "Para llevar, por favor"}
+{"f": "cards", "id": "ko.c0581", "k": "note", "src": "포장 = packaging.", "tgt": "포장 = empaque."}
+{"f": "cards", "id": "ko.c0582", "k": "meaning", "src": "Cheers!", "tgt": "¡Salud!"}
+{"f": "cards", "id": "ko.c0582", "k": "note", "src": "Clink glasses; pour for others, not yourself.", "tgt": "Choca las copas; sirve a los demás, no a ti mismo."}
+{"f": "cards", "id": "ko.c0583", "k": "meaning", "src": "(Said after eating)", "tgt": "(Se dice después de comer)"}
+{"f": "cards", "id": "ko.c0583", "k": "note", "src": "Lit. 'I ate well.' Pairs with 잘 먹겠습니다.", "tgt": "Lit. «comí bien». Va en pareja con 잘 먹겠습니다."}
+{"f": "cards", "id": "ko.c0584", "k": "meaning", "src": "here / over there", "tgt": "aquí / allá"}
+{"f": "cards", "id": "ko.c0584", "k": "note", "src": "거기 (geogi) = there (near you).", "tgt": "거기 (geogi) = ahí (cerca de ti)."}
+{"f": "cards", "id": "ko.c0585", "k": "meaning", "src": "left", "tgt": "izquierda"}
+{"f": "cards", "id": "ko.c0585", "k": "note", "src": "왼쪽으로 가세요 = go left.", "tgt": "왼쪽으로 가세요 = vaya a la izquierda."}
+{"f": "cards", "id": "ko.c0586", "k": "meaning", "src": "right", "tgt": "derecha"}
+{"f": "cards", "id": "ko.c0586", "k": "note", "src": "오른쪽으로 = to the right.", "tgt": "오른쪽으로 = a la derecha."}
+{"f": "cards", "id": "ko.c0587", "k": "meaning", "src": "Go straight", "tgt": "Siga derecho"}
+{"f": "cards", "id": "ko.c0587", "k": "note", "src": "쭉 가세요 also works.", "tgt": "También sirve 쭉 가세요."}
+{"f": "cards", "id": "ko.c0588", "k": "meaning", "src": "subway station", "tgt": "estación de metro"}
+{"f": "cards", "id": "ko.c0588", "k": "note", "src": "Seoul Metro is the easiest way around.", "tgt": "El metro de Seúl es la forma más fácil de moverse."}
+{"f": "cards", "id": "ko.c0589", "k": "meaning", "src": "bus stop", "tgt": "parada de autobús"}
+{"f": "cards", "id": "ko.c0589", "k": "note", "src": "정류장 = stop.", "tgt": "정류장 = parada."}
+{"f": "cards", "id": "ko.c0590", "k": "meaning", "src": "taxi", "tgt": "taxi"}
+{"f": "cards", "id": "ko.c0590", "k": "note", "src": "Tell the driver: ~로 가 주세요 (please go to ~).", "tgt": "Dile al chofer: ~로 가 주세요 (lléveme a ~, por favor)."}
+{"f": "cards", "id": "ko.c0591", "k": "meaning", "src": "airport", "tgt": "aeropuerto"}
+{"f": "cards", "id": "ko.c0591", "k": "note", "src": "인천공항 = Incheon Airport.", "tgt": "인천공항 = aeropuerto de Incheon."}
+{"f": "cards", "id": "ko.c0592", "k": "meaning", "src": "How long does it take?", "tgt": "¿Cuánto se tarda?"}
+{"f": "cards", "id": "ko.c0592", "k": "note", "src": "걸리다 = to take (time).", "tgt": "걸리다 = tardar (tiempo)."}
+{"f": "cards", "id": "ko.c0593", "k": "meaning", "src": "Please stop here", "tgt": "Pare aquí, por favor"}
+{"f": "cards", "id": "ko.c0593", "k": "note", "src": "Taxi phrase.", "tgt": "Frase para el taxi."}
+{"f": "cards", "id": "ko.c0594", "k": "meaning", "src": "T-money card", "tgt": "tarjeta T-money"}
+{"f": "cards", "id": "ko.c0594", "k": "note", "src": "Tap-in transit card. Buy at any convenience store.", "tgt": "Tarjeta de transporte que se pasa por el lector. Se compra en cualquier tienda de conveniencia."}
+{"f": "cards", "id": "ko.c0595", "k": "meaning", "src": "How do I get there?", "tgt": "¿Cómo llego?"}
+{"f": "cards", "id": "ko.c0595", "k": "note", "src": "Add the place + 에: 명동에 어떻게 가요?", "tgt": "Agrega el lugar + 에: 명동에 어떻게 가요?"}
+{"f": "cards", "id": "ko.c0596", "k": "meaning", "src": "today", "tgt": "hoy"}
+{"f": "cards", "id": "ko.c0596", "k": "note", "src": "오늘 뭐 해요? = what are you doing today?", "tgt": "오늘 뭐 해요? = ¿qué haces hoy?"}
+{"f": "cards", "id": "ko.c0597", "k": "meaning", "src": "tomorrow", "tgt": "mañana (el día siguiente)"}
+{"f": "cards", "id": "ko.c0597", "k": "note", "src": "내일 봐요 = see you tomorrow.", "tgt": "내일 봐요 = nos vemos mañana."}
+{"f": "cards", "id": "ko.c0598", "k": "meaning", "src": "yesterday", "tgt": "ayer"}
+{"f": "cards", "id": "ko.c0598", "k": "note", "src": "어제 뭐 했어요? = what did you do yesterday?", "tgt": "어제 뭐 했어요? = ¿qué hiciste ayer?"}
+{"f": "cards", "id": "ko.c0599", "k": "meaning", "src": "now", "tgt": "ahora"}
+{"f": "cards", "id": "ko.c0599", "k": "note", "src": "지금 몇 시예요? = what time is it now?", "tgt": "지금 몇 시예요? = ¿qué hora es ahora?"}
+{"f": "cards", "id": "ko.c0600", "k": "meaning", "src": "morning / lunchtime / evening", "tgt": "la mañana / el mediodía / la noche"}
+{"f": "cards", "id": "ko.c0600", "k": "note", "src": "Also mean breakfast / lunch / dinner.", "tgt": "También significan desayuno / almuerzo / cena."}
+{"f": "cards", "id": "ko.c0601", "k": "meaning", "src": "Monday", "tgt": "lunes"}
+{"f": "cards", "id": "ko.c0601", "k": "note", "src": "요일 = day of the week.", "tgt": "요일 = día de la semana."}
+{"f": "cards", "id": "ko.c0602", "k": "meaning", "src": "Friday", "tgt": "viernes"}
+{"f": "cards", "id": "ko.c0602", "k": "note", "src": "불금 = 'burning Friday', Friday night out.", "tgt": "불금 = «viernes en llamas», salir el viernes en la noche."}
+{"f": "cards", "id": "ko.c0603", "k": "meaning", "src": "Saturday / Sunday", "tgt": "sábado / domingo"}
+{"f": "cards", "id": "ko.c0603", "k": "note", "src": "주말 (jumal) = weekend.", "tgt": "주말 (jumal) = fin de semana."}
+{"f": "cards", "id": "ko.c0604", "k": "meaning", "src": "What time is it?", "tgt": "¿Qué hora es?"}
+{"f": "cards", "id": "ko.c0604", "k": "note", "src": "몇 = how many; 시 = o'clock.", "tgt": "몇 = cuántos; 시 = hora (en punto)."}
+{"f": "cards", "id": "ko.c0605", "k": "meaning", "src": "when", "tgt": "cuándo"}
+{"f": "cards", "id": "ko.c0605", "k": "note", "src": "언제 와요? = when are you coming?", "tgt": "언제 와요? = ¿cuándo vienes?"}
+{"f": "cards", "id": "ko.c0606", "k": "meaning", "src": "every day", "tgt": "todos los días"}
+{"f": "cards", "id": "ko.c0606", "k": "note", "src": "매일 공부해요 = I study every day.", "tgt": "매일 공부해요 = estudio todos los días."}
+{"f": "cards", "id": "ko.c0607", "k": "meaning", "src": "Do you have time?", "tgt": "¿Tienes tiempo?"}
+{"f": "cards", "id": "ko.c0607", "k": "note", "src": "Low-key way to ask someone out.", "tgt": "Una forma discreta de invitar a salir."}
+{"f": "cards", "id": "ko.c0608", "k": "meaning", "src": "mom / dad", "tgt": "mamá / papá"}
+{"f": "cards", "id": "ko.c0608", "k": "note", "src": "어머니 / 아버지 = formal versions.", "tgt": "어머니 / 아버지 = versiones formales."}
+{"f": "cards", "id": "ko.c0609", "k": "meaning", "src": "older brother", "tgt": "hermano mayor"}
+{"f": "cards", "id": "ko.c0609", "k": "note", "src": "형 if you're male, 오빠 if you're female. Also used for older male friends.", "tgt": "형 si eres hombre, 오빠 si eres mujer. También para amigos mayores."}
+{"f": "cards", "id": "ko.c0610", "k": "meaning", "src": "older sister", "tgt": "hermana mayor"}
+{"f": "cards", "id": "ko.c0610", "k": "note", "src": "누나 if you're male, 언니 if you're female.", "tgt": "누나 si eres hombre, 언니 si eres mujer."}
+{"f": "cards", "id": "ko.c0611", "k": "meaning", "src": "younger sibling", "tgt": "hermano o hermana menor"}
+{"f": "cards", "id": "ko.c0611", "k": "note", "src": "남동생 = younger brother, 여동생 = younger sister.", "tgt": "남동생 = hermano menor, 여동생 = hermana menor."}
+{"f": "cards", "id": "ko.c0612", "k": "meaning", "src": "grandma / grandpa", "tgt": "abuela / abuelo"}
+{"f": "cards", "id": "ko.c0612", "k": "note", "src": "Also polite for any elderly person.", "tgt": "También es cortés para cualquier persona mayor."}
+{"f": "cards", "id": "ko.c0613", "k": "meaning", "src": "family", "tgt": "familia"}
+{"f": "cards", "id": "ko.c0613", "k": "note", "src": "가족이 몇 명이에요? = how many in your family?", "tgt": "가족이 몇 명이에요? = ¿cuántos son en tu familia?"}
+{"f": "cards", "id": "ko.c0614", "k": "meaning", "src": "friend", "tgt": "amigo, amiga"}
+{"f": "cards", "id": "ko.c0614", "k": "note", "src": "Technically same-age friend only.", "tgt": "En sentido estricto, solo amigos de tu misma edad."}
+{"f": "cards", "id": "ko.c0615", "k": "meaning", "src": "teacher", "tgt": "maestro, maestra"}
+{"f": "cards", "id": "ko.c0615", "k": "note", "src": "Also a respectful 'sir/ma'am'.", "tgt": "También sirve como un respetuoso «señor/señora»."}
+{"f": "cards", "id": "ko.c0616", "k": "meaning", "src": "man / woman", "tgt": "hombre / mujer"}
+{"f": "cards", "id": "ko.c0616", "k": "note", "src": "남자친구 = boyfriend, 여자친구 = girlfriend.", "tgt": "남자친구 = novio, 여자친구 = novia."}
+{"f": "cards", "id": "ko.c0617", "k": "meaning", "src": "person", "tgt": "persona"}
+{"f": "cards", "id": "ko.c0617", "k": "note", "src": "한국 사람 = Korean person. 미국 사람 = American.", "tgt": "한국 사람 = coreano (persona). 미국 사람 = estadounidense."}
+{"f": "cards", "id": "ko.c0618", "k": "meaning", "src": "good / I like it", "tgt": "bueno / me gusta"}
+{"f": "cards", "id": "ko.c0618", "k": "note", "src": "안 좋아요 = not good.", "tgt": "안 좋아요 = no es bueno."}
+{"f": "cards", "id": "ko.c0619", "k": "meaning", "src": "bad", "tgt": "malo"}
+{"f": "cards", "id": "ko.c0619", "k": "note", "src": "기분이 나빠요 = I feel bad.", "tgt": "기분이 나빠요 = me siento mal."}
+{"f": "cards", "id": "ko.c0620", "k": "meaning", "src": "big", "tgt": "grande"}
+{"f": "cards", "id": "ko.c0620", "k": "note", "src": "크다 → 커요.", "tgt": "크다 → 커요.", "pre": 1}
+{"f": "cards", "id": "ko.c0621", "k": "meaning", "src": "small", "tgt": "pequeño"}
+{"f": "cards", "id": "ko.c0621", "k": "note", "src": "작다 → 작아요.", "tgt": "작다 → 작아요.", "pre": 1}
+{"f": "cards", "id": "ko.c0622", "k": "meaning", "src": "many / a lot", "tgt": "mucho / muchos"}
+{"f": "cards", "id": "ko.c0622", "k": "note", "src": "사람이 많아요 = lots of people.", "tgt": "사람이 많아요 = hay mucha gente."}
+{"f": "cards", "id": "ko.c0623", "k": "meaning", "src": "expensive", "tgt": "caro"}
+{"f": "cards", "id": "ko.c0623", "k": "note", "src": "너무 비싸요 = too expensive.", "tgt": "너무 비싸요 = demasiado caro."}
+{"f": "cards", "id": "ko.c0624", "k": "meaning", "src": "cheap", "tgt": "barato"}
+{"f": "cards", "id": "ko.c0624", "k": "note", "src": "싸고 좋아요 = cheap and good.", "tgt": "싸고 좋아요 = bueno y barato."}
+{"f": "cards", "id": "ko.c0625", "k": "meaning", "src": "hot (weather)", "tgt": "hace calor (clima)"}
+{"f": "cards", "id": "ko.c0625", "k": "note", "src": "뜨거워요 = hot (to touch).", "tgt": "뜨거워요 = está caliente (al tacto)."}
+{"f": "cards", "id": "ko.c0626", "k": "meaning", "src": "cold (weather)", "tgt": "hace frío (clima)"}
+{"f": "cards", "id": "ko.c0626", "k": "note", "src": "차가워요 = cold (to touch).", "tgt": "차가워요 = está frío (al tacto)."}
+{"f": "cards", "id": "ko.c0627", "k": "meaning", "src": "busy", "tgt": "ocupado"}
+{"f": "cards", "id": "ko.c0627", "k": "note", "src": "요즘 바빠요 = busy these days.", "tgt": "요즘 바빠요 = ando ocupado estos días."}
+{"f": "cards", "id": "ko.c0628", "k": "meaning", "src": "fun / interesting", "tgt": "divertido / interesante"}
+{"f": "cards", "id": "ko.c0628", "k": "note", "src": "재미없어요 = boring.", "tgt": "재미없어요 = es aburrido."}
+{"f": "cards", "id": "ko.c0629", "k": "meaning", "src": "hard / exhausting", "tgt": "difícil / agotador"}
+{"f": "cards", "id": "ko.c0629", "k": "note", "src": "Complaint of choice.", "tgt": "La queja favorita."}
+{"f": "cards", "id": "ko.c0630", "k": "meaning", "src": "Really?", "tgt": "¿En serio?"}
+{"f": "cards", "id": "ko.c0630", "k": "note", "src": "Also 진짜로. 정말? (jeongmal) is slightly softer.", "tgt": "También 진짜로. 정말? (jeongmal) es un poco más suave."}
+{"f": "cards", "id": "ko.c0631", "k": "meaning", "src": "Awesome / no way", "tgt": "¡Increíble! / ¡no puede ser!"}
+{"f": "cards", "id": "ko.c0631", "k": "note", "src": "Good or bad surprise. 대박 사건 = huge deal.", "tgt": "Sorpresa buena o mala. 대박 사건 = algo enorme."}
+{"f": "cards", "id": "ko.c0632", "k": "meaning", "src": "OMG / what", "tgt": "¡¿Qué?! / ¡Dios mío!"}
+{"f": "cards", "id": "ko.c0632", "k": "note", "src": "Stunned reaction. Mostly texting and casual speech.", "tgt": "Reacción de asombro. Sobre todo en mensajes y habla informal."}
+{"f": "cards", "id": "ko.c0633", "k": "meaning", "src": "Oh my / ugh", "tgt": "¡Ay! / uf"}
+{"f": "cards", "id": "ko.c0633", "k": "note", "src": "Sigh word for any small misfortune.", "tgt": "Suspiro para cualquier pequeña desgracia."}
+{"f": "cards", "id": "ko.c0634", "k": "meaning", "src": "It's okay", "tgt": "Estoy bien"}
+{"f": "cards", "id": "ko.c0634", "k": "note", "src": "Casual. Said while clearly not okay.", "tgt": "Informal. Se dice cuando claramente no estás bien."}
+{"f": "cards", "id": "ko.c0635", "k": "meaning", "src": "Are you crazy?", "tgt": "¿Estás loco?"}
+{"f": "cards", "id": "ko.c0635", "k": "note", "src": "Casual, often affectionate.", "tgt": "Informal, muchas veces cariñoso."}
+{"f": "cards", "id": "ko.c0636", "k": "meaning", "src": "Don't go", "tgt": "No te vayas"}
+{"f": "cards", "id": "ko.c0636", "k": "note", "src": "Verb stem + 지 마 = don't.", "tgt": "Raíz del verbo + 지 마 = no (hagas)."}
+{"f": "cards", "id": "ko.c0637", "k": "meaning", "src": "I missed you", "tgt": "Te extrañé"}
+{"f": "cards", "id": "ko.c0637", "k": "note", "src": "Past of 보고 싶어.", "tgt": "Pasado de 보고 싶어."}
+{"f": "cards", "id": "ko.c0638", "k": "meaning", "src": "What do I do / oh no", "tgt": "¿Qué hago? / ¡ay, no!"}
+{"f": "cards", "id": "ko.c0638", "k": "note", "src": "Said with hands on face.", "tgt": "Se dice con las manos en la cara."}
+{"f": "cards", "id": "ko.c0639", "k": "meaning", "src": "You got this!", "tgt": "¡Tú puedes!"}
+{"f": "cards", "id": "ko.c0639", "k": "note", "src": "From 'fighting'. Cheer before anything hard.", "tgt": "Viene del inglés «fighting» (¡a luchar!). Ánimo antes de algo difícil."}
+{"f": "cards", "id": "ko.c0640", "k": "meaning", "src": "Got it / okay", "tgt": "Entendido / de acuerdo"}
+{"f": "cards", "id": "ko.c0640", "k": "note", "src": "Polite: 알았어요 or 알겠습니다.", "tgt": "Cortés: 알았어요 o 알겠습니다."}
+{"f": "cards", "id": "ko.c0641", "k": "meaning", "src": "What did you say?", "tgt": "¿Qué dijiste?"}
+{"f": "cards", "id": "ko.c0641", "k": "note", "src": "Casual. 네? (ne?) is the polite 'pardon?'", "tgt": "Informal. 네? (ne?) es el «¿perdón?» cortés."}
+{"f": "dialog", "id": "ko.g001", "k": "tr", "src": "Hello, nice to meet you for the first time. / Hi! Nice to meet you.", "tgt": "Hola, mucho gusto. / ¡Hola! Mucho gusto."}
+{"f": "dialog", "id": "ko.g002", "k": "tr", "src": "Thank you for helping. / Not at all.", "tgt": "Gracias por ayudarme. / No hay de qué."}
+{"f": "dialog", "id": "ko.g003", "k": "tr", "src": "Sorry I'm late. / It's fine, take your time.", "tgt": "Perdón por llegar tarde. / No pasa nada, tranquilo."}
+{"f": "dialog", "id": "ko.g004", "k": "tr", "src": "How much is this? / 12,000 won.", "tgt": "¿Cuánto cuesta esto? / 12,000 wones."}
+{"f": "dialog", "id": "ko.g005", "k": "tr", "src": "Excuse me, where's the bathroom? / Go straight that way.", "tgt": "Disculpe, ¿dónde está el baño? / Siga derecho por allá."}
+{"f": "dialog", "id": "ko.g006", "k": "tr", "src": "What can I get you? / This one, to go.", "tgt": "¿Qué le sirvo? / Este, para llevar."}
+{"f": "dialog", "id": "ko.g007", "k": "tr", "src": "Are you okay? Hurt? / Yes, I'm fine.", "tgt": "¿Estás bien? ¿Te lastimaste? / Sí, estoy bien."}
+{"f": "dialog", "id": "ko.g008", "k": "tr", "src": "Sorry, please speak slowly. / Ah, sure, I'll slow down.", "tgt": "Perdón, ¿puede hablar más despacio? / Ah, claro, hablo más despacio."}
+{"f": "dialog", "id": "ko.g009", "k": "tr", "src": "Your Korean is good! / No, I'm still not good.", "tgt": "¡Hablas muy bien coreano! / No, todavía no lo hablo bien."}
+{"f": "dialog", "id": "ko.g010", "k": "tr", "src": "Excuse me, coming through. / Go ahead.", "tgt": "Disculpe, con permiso. / Adelante."}
+{"f": "dialog", "id": "ko.g011", "k": "tr", "src": "Excuse me! The menu, please. / Yes, one moment.", "tgt": "¡Disculpe! El menú, por favor. / Sí, un momento."}
+{"f": "dialog", "id": "ko.g012", "k": "tr", "src": "Excuse me, please help me. / Sure, what do you need?", "tgt": "Disculpe, ¿me ayuda? / Claro, ¿qué necesita?"}
+{"f": "dialog", "id": "ko.g013", "k": "tr", "src": "Sorry, say that again please. / The subway station is on the left.", "tgt": "Perdón, ¿puede repetirlo? / La estación de metro está a la izquierda."}
+{"f": "dialog", "id": "ko.g014", "k": "tr", "src": "Can you speak English? / A little. I'll speak slowly.", "tgt": "¿Hablas inglés? / Un poco. Voy a hablar despacio.", "rw": "mentions English"}
+{"f": "dialog", "id": "ko.g015", "k": "tr", "src": "What is this? / Tteokbokki. It's a bit spicy.", "tgt": "¿Qué es esto? / Tteokbokki. Pica un poco."}
+{"f": "dialog", "id": "ko.g016", "k": "tr", "src": "Do you take cards? / Yes. Insert it here.", "tgt": "¿Aceptan tarjeta? / Sí. Insértela aquí."}
+{"f": "dialog", "id": "ko.g017", "k": "tr", "src": "What's the wifi password? / It's on the receipt.", "tgt": "¿Cuál es la contraseña del wifi? / Está en el recibo."}
+{"f": "dialog", "id": "ko.g018", "k": "tr", "src": "I'm lost. Where is this? / This is Hongdae. Where are you going?", "tgt": "Me perdí. ¿Dónde estoy? / Esto es Hongdae. ¿A dónde vas?"}
+{"f": "dialog", "id": "ko.g019", "k": "tr", "src": "What's your name? / I'm Kii. What's yours?", "tgt": "¿Cómo te llamas? / Soy Kii. ¿Y tú?"}
+{"f": "dialog", "id": "ko.g020", "k": "tr", "src": "Nice to meet you. / Nice to meet you too.", "tgt": "Mucho gusto. / Igualmente."}
+{"f": "dialog", "id": "ko.g021", "k": "tr", "src": "Where are you from? / From the US. Oklahoma.", "tgt": "¿De dónde eres? / De Estados Unidos. De Oklahoma."}
+{"f": "dialog", "id": "ko.g022", "k": "tr", "src": "Excuse me, how old are you? / 28. And you?", "tgt": "Disculpa, ¿cuántos años tienes? / 28. ¿Y tú?"}
+{"f": "dialog", "id": "ko.g023", "k": "tr", "src": "What do you do? / I work at an IT company.", "tgt": "¿A qué te dedicas? / Trabajo en una empresa de TI."}
+{"f": "dialog", "id": "ko.g024", "k": "tr", "src": "Do you study Korean? / Yes, a little every day.", "tgt": "¿Estudias coreano? / Sí, un poco todos los días."}
+{"f": "dialog", "id": "ko.g025", "k": "tr", "src": "What's your hobby? / Running and music.", "tgt": "¿Cuál es tu pasatiempo? / Correr y la música."}
+{"f": "dialog", "id": "ko.g026", "k": "tr", "src": "Long time no see! How've you been? / Good, thanks. You?", "tgt": "¡Cuánto tiempo! ¿Cómo has estado? / Bien, gracias. ¿Y tú?"}
+{"f": "dialog", "id": "ko.g027", "k": "tr", "src": "How are things lately? / Busy. But fun.", "tgt": "¿Qué tal todo últimamente? / Ocupado. Pero divertido."}
+{"f": "dialog", "id": "ko.g028", "k": "tr", "src": "Nice weather today. / Yes, perfect for a walk.", "tgt": "Qué buen clima hace hoy. / Sí, perfecto para pasear."}
+{"f": "dialog", "id": "ko.g029", "k": "tr", "src": "What are you doing this weekend? / Going hiking. Want to come?", "tgt": "¿Qué haces este fin de semana? / Voy a ir de excursión. ¿Vienes?"}
+{"f": "dialog", "id": "ko.g030", "k": "tr", "src": "Today was fun. See you again! / Yes, I'll be in touch.", "tgt": "Hoy estuvo divertido. ¡Nos vemos! / Sí, te escribo."}
+{"f": "dialog", "id": "ko.g031", "k": "tr", "src": "I'll head out first. Goodbye (stay well). / Bye (go well).", "tgt": "Me voy primero. Adiós (quédate en paz). / Adiós (ve en paz)."}
+{"f": "dialog", "id": "ko.g032", "k": "tr", "src": "I'm bored. Let's hang out! / Deal! Where should we meet?", "tgt": "Me aburro. ¡Salgamos! / ¡Listo! ¿Dónde nos vemos?"}
+{"f": "dialog", "id": "ko.g033", "k": "tr", "src": "Are you free tomorrow? / In the afternoon. Why?", "tgt": "¿Estás libre mañana? / En la tarde. ¿Por?"}
+{"f": "dialog", "id": "ko.g034", "k": "tr", "src": "I'm going to a café, wanna come? / Sure, let's go.", "tgt": "Voy a un café, ¿vienes? / Claro, vamos."}
+{"f": "dialog", "id": "ko.g035", "k": "tr", "src": "I'm hungry. Wanna go eat? / Yes! What should we eat?", "tgt": "Tengo hambre. ¿Vamos a comer? / ¡Sí! ¿Qué comemos?"}
+{"f": "dialog", "id": "ko.g036", "k": "tr", "src": "When should we meet? / How about Saturday?", "tgt": "¿Cuándo nos vemos? / ¿Qué tal el sábado?"}
+{"f": "dialog", "id": "ko.g037", "k": "tr", "src": "Where should we meet? / Let's meet at Gangnam station exit 11.", "tgt": "¿Dónde nos vemos? / Veámonos en la salida 11 de la estación Gangnam."}
+{"f": "dialog", "id": "ko.g038", "k": "tr", "src": "Where are you? Almost here? / Sorry, coming now. 5 minutes!", "tgt": "¿Dónde estás? ¿Ya casi llegas? / Perdón, ya voy. ¡5 minutos!"}
+{"f": "dialog", "id": "ko.g039", "k": "tr", "src": "Today was really fun. / Me too. Let's hang out again!", "tgt": "Hoy estuvo muy divertido. / Para mí también. ¡Salgamos otra vez!"}
+{"f": "dialog", "id": "ko.g040", "k": "tr", "src": "Ready to order? / One iced Americano, please.", "tgt": "¿Ya va a ordenar? / Un americano helado, por favor."}
+{"f": "dialog", "id": "ko.g041", "k": "tr", "src": "For here? / No, to go.", "tgt": "¿Para tomar aquí? / No, para llevar."}
+{"f": "dialog", "id": "ko.g042", "k": "tr", "src": "What sizes do you have? / Tall, grande, venti.", "tgt": "¿Qué tamaños tienen? / Tall, grande y venti."}
+{"f": "dialog", "id": "ko.g043", "k": "tr", "src": "Do you have a points card? / No, that's okay.", "tgt": "¿Tiene tarjeta de puntos? / No, así está bien."}
+{"f": "dialog", "id": "ko.g044", "k": "tr", "src": "Please heat this up. / Sure, it takes a minute.", "tgt": "Caliénteme esto, por favor. / Claro, tarda un minuto."}
+{"f": "dialog", "id": "ko.g045", "k": "tr", "src": "Do you need a bag? / Yes, one please.", "tgt": "¿Necesita bolsa? / Sí, una, por favor."}
+{"f": "dialog", "id": "ko.g046", "k": "tr", "src": "Cash or card? / Card.", "tgt": "¿Efectivo o tarjeta? / Tarjeta."}
+{"f": "dialog", "id": "ko.g047", "k": "tr", "src": "Where is a pharmacy? / On the first floor of that building.", "tgt": "¿Dónde hay una farmacia? / En el primer piso de ese edificio."}
+{"f": "dialog", "id": "ko.g048", "k": "tr", "src": "Where does it hurt? / My head hurts. I have a fever too.", "tgt": "¿Dónde le duele? / Me duele la cabeza. También tengo fiebre."}
+{"f": "dialog", "id": "ko.g049", "k": "tr", "src": "Do you have painkillers? / Yes, take these after a meal.", "tgt": "¿Tiene analgésicos? / Sí, tómelos después de comer."}
+{"f": "dialog", "id": "ko.g050", "k": "tr", "src": "Do you have allergies? / Yes, I'm allergic to peanuts.", "tgt": "¿Tiene alergias? / Sí, soy alérgico al cacahuate."}
+{"f": "dialog", "id": "ko.g051", "k": "tr", "src": "How many times a day? / Three times, 30 minutes after meals.", "tgt": "¿Cuántas veces al día? / Tres veces, 30 minutos después de cada comida."}
+{"f": "dialog", "id": "ko.g052", "k": "tr", "src": "Package! / Please leave it at the door.", "tgt": "¡Paquete! / Déjelo en la puerta, por favor."}
+{"f": "dialog", "id": "ko.g053", "k": "tr", "src": "How much is rent? / 500,000 won, maintenance included.", "tgt": "¿Cuánto es la renta? / 500,000 wones, con mantenimiento incluido."}
+{"f": "dialog", "id": "ko.g054", "k": "tr", "src": "Can you dry clean this? / Yes, pick it up tomorrow afternoon.", "tgt": "¿Me puede lavar esto en seco? / Sí, recójalo mañana en la tarde."}
+{"f": "dialog", "id": "ko.g055", "k": "tr", "src": "I'm starting work with you today. Please take care of me. / Likewise.", "tgt": "Hoy empiezo a trabajar con ustedes. Cuento con su apoyo. / Igualmente."}
+{"f": "dialog", "id": "ko.g056", "k": "tr", "src": "How are things? / So-so. Just busy.", "tgt": "¿Qué tal todo? / Más o menos. Solo ocupado."}
+{"f": "dialog", "id": "ko.g057", "k": "tr", "src": "I'm a coffee addict. / Me too! At least three cups a day.", "tgt": "Soy adicto al café. / ¡Yo también! Mínimo tres tazas al día."}
+{"f": "dialog", "id": "ko.g058", "k": "tr", "src": "I'm going to Korea next month. / Really? Where to?", "tgt": "El próximo mes voy a Corea. / ¿En serio? ¿A dónde?"}
+{"f": "dialog", "id": "ko.g059", "k": "tr", "src": "I should get going. Goodbye. / Okay, get home safe.", "tgt": "Ya me tengo que ir. Adiós. / Bueno, que llegues bien a casa."}
+{"f": "dialog", "id": "ko.g060", "k": "tr", "src": "See you next time. / Yes, I'll be in touch!", "tgt": "Nos vemos la próxima. / ¡Sí, te escribo!"}
+{"f": "dialog", "id": "ko.g061", "k": "tr", "src": "Hey, what are you doing? / Watching Netflix at home. Why?", "tgt": "Oye, ¿qué haces? / Viendo Netflix en casa. ¿Por?"}
+{"f": "dialog", "id": "ko.g062", "k": "tr", "src": "Are you free tonight? / Yeah, after seven.", "tgt": "¿Estás libre hoy en la noche? / Sí, después de las siete."}
+{"f": "dialog", "id": "ko.g063", "k": "tr", "src": "Wanna come over? I'll order chicken. / Deal! I'll bring beer.", "tgt": "¿Vienes a mi casa? Pido pollo frito. / ¡Listo! Yo llevo cerveza."}
+{"f": "dialog", "id": "ko.g064", "k": "tr", "src": "Today was so fun. Let's hang again. / Sure, see you next week!", "tgt": "Hoy estuvo superdivertido. Salgamos otra vez. / Claro, ¡nos vemos la próxima semana!"}
+{"f": "dialog", "id": "ko.g065", "k": "tr", "src": "Can I get your number? / Sure, 010-3322-7788.", "tgt": "¿Me das tu número? / Claro, 010-3322-7788."}
+{"f": "dialog", "id": "ko.g066", "k": "tr", "src": "Do you have Instagram? / Yes, I'll give you my handle.", "tgt": "¿Tienes Instagram? / Sí, te paso mi usuario."}
+{"f": "dialog", "id": "ko.g067", "k": "tr", "src": "Today was lovely. Shall we meet again? / Sure. This time it's on me.", "tgt": "Hoy la pasé muy bien. ¿Nos vemos otra vez? / Claro. Esta vez invito yo."}
+{"f": "dialog", "id": "ko.g068", "k": "tr", "src": "It's late. I'll walk you home. / It's fine, I can take the subway.", "tgt": "Ya es tarde. Te acompaño a tu casa. / No te preocupes, me voy en metro."}
+{"f": "dialog", "id": "ko.g069", "k": "tr", "src": "You look pretty today. / Thanks. I got a haircut.", "tgt": "Te ves muy bonita hoy. / Gracias. Me corté el pelo."}
+{"f": "dialog", "id": "ko.g070", "k": "tr", "src": "You're here! I missed you. / Me too. Did you wait long?", "tgt": "¡Llegaste! Te extrañé. / Yo también. ¿Esperaste mucho?"}
+{"f": "dialog", "id": "ko.g071", "k": "tr", "src": "Did you get home safe? / Yeah, just got in. Thanks for today.", "tgt": "¿Llegaste bien a casa? / Sí, acabo de llegar. Gracias por lo de hoy."}
+{"f": "dialog", "id": "ko.g072", "k": "tr", "src": "I'm going to sleep. Night! / Okay, sweet dreams.", "tgt": "Me voy a dormir. ¡Buenas noches! / Bueno, que sueñes bonito."}
+{"f": "dialog", "id": "ko.g073", "k": "tr", "src": "Did you eat? / Not yet. Wanna eat together?", "tgt": "¿Ya comiste? / Todavía no. ¿Comemos juntos?"}
+{"f": "dialog", "id": "ko.g074", "k": "tr", "src": "What are you up to? / Just lying around. Bored.", "tgt": "¿Qué haces? / Nada, aquí acostado. Aburrido."}
+{"f": "dialog", "id": "ko.g075", "k": "tr", "src": "Where are you? Almost here? / Sorry, five minutes! Just got off the subway.", "tgt": "¿Dónde estás? ¿Ya casi llegas? / ¡Perdón, cinco minutos! Acabo de bajar del metro."}
+{"f": "dialog", "id": "ko.g076", "k": "tr", "src": "I think I'll be late. / No worries, take your time. I'll be at the café.", "tgt": "Creo que voy a llegar tarde. / No te preocupes, tómate tu tiempo. Te espero en el café."}
+{"f": "dialog", "id": "ko.g077", "k": "tr", "src": "Look at this meme lol / That's hilarious lol", "tgt": "Mira este meme jaja / Está buenísimo jaja"}
+{"f": "dialog", "id": "ko.g078", "k": "tr", "src": "I made this. / Wow, that's cool! How did you make it?", "tgt": "Yo hice esto. / ¡Guau, qué genial! ¿Cómo lo hiciste?"}
+{"f": "dialog", "id": "ko.g079", "k": "tr", "src": "I passed the exam! / Really? Nice job!", "tgt": "¡Pasé el examen! / ¿En serio? ¡Bien hecho!"}
+{"f": "dialog", "id": "ko.g080", "k": "tr", "src": "I worked overtime today… / You worked hard. Get some rest.", "tgt": "Hoy me quedé a trabajar tarde… / Trabajaste mucho. Descansa."}
+{"f": "dialog", "id": "ko.g081", "k": "tr", "src": "Wanna grab a drink after work? / Love to! Where?", "tgt": "¿Vamos por un trago después del trabajo? / ¡Me encantaría! ¿Dónde?"}
+{"f": "dialog", "id": "ko.g082", "k": "tr", "src": "I'm so nervous about the interview. / You got this! You'll do great.", "tgt": "Estoy muy nervioso por la entrevista. / ¡Tú puedes! Te va a ir muy bien."}
+{"f": "dialog", "id": "ko.g083", "k": "tr", "src": "What are you doing tomorrow? / I'm off tomorrow. Why?", "tgt": "¿Qué haces mañana? / Mañana descanso. ¿Por?"}
+{"f": "dialog", "id": "ko.g084", "k": "tr", "src": "What time is it now? / Half past two.", "tgt": "¿Qué hora es ahora? / Las dos y media."}
+{"f": "dialog", "id": "ko.g085", "k": "tr", "src": "What time is it? / 9:10.", "tgt": "¿Qué hora es? / Las 9:10."}
+{"f": "dialog", "id": "ko.g086", "k": "tr", "src": "How's the weather in Seoul? / Cold today, and the fine dust is bad.", "tgt": "¿Qué tal el clima en Seúl? / Hoy hace frío y hay mucho polvo fino."}
+{"f": "dialog", "id": "ko.g087", "k": "tr", "src": "Is it raining outside? / Yes, take an umbrella.", "tgt": "¿Está lloviendo afuera? / Sí, llévate un paraguas."}
+{"f": "dialog", "id": "ko.g088", "k": "tr", "src": "You look tired. / Yeah, I couldn't sleep last night.", "tgt": "Te ves cansado. / Sí, anoche no pude dormir."}
+{"f": "dialog", "id": "ko.g089", "k": "tr", "src": "I'm bored. / Then shall we watch a movie?", "tgt": "Me aburro. / ¿Entonces vemos una película?"}
+{"f": "dialog", "id": "ko.g090", "k": "tr", "src": "I won the lottery! / No way! How much?", "tgt": "¡Me gané la lotería! / ¡No puede ser! ¿Cuánto?"}
+{"f": "dialog", "id": "ko.g091", "k": "tr", "src": "I lost my wallet… / Oh no! Did you check with the police?", "tgt": "Perdí mi cartera… / ¡Ay, no! ¿Ya preguntaste en la policía?"}
+{"f": "dialog", "id": "ko.g092", "k": "tr", "src": "My presentation is tomorrow. / You got this! You can do it.", "tgt": "Mañana es mi presentación. / ¡Tú puedes! Lo vas a hacer bien."}
+{"f": "dialog", "id": "ko.g093", "k": "tr", "src": "Please eat plenty. / Thank you, I will!", "tgt": "Coma bastante, por favor. / ¡Gracias, eso haré!"}
+{"f": "dialog", "id": "ko.g094", "k": "tr", "src": "May I have your name? / I'm Kim Minsu.", "tgt": "¿Me dice su nombre? / Soy Kim Minsu."}
+{"f": "dialog", "id": "ko.g095", "k": "tr", "src": "Please sit here. / Thank you.", "tgt": "Siéntese aquí, por favor. / Gracias."}
+{"f": "dialog", "id": "ko.g096", "k": "tr", "src": "Anyone home? / Yes, come in!", "tgt": "¿Hay alguien en casa? / ¡Sí, pasa!"}
+{"f": "dialog", "id": "ko.g097", "k": "tr", "src": "Teacher, have you been well? / Yes, thanks to you. Long time no see.", "tgt": "Maestro, ¿cómo ha estado? / Bien, gracias a ti. Cuánto tiempo."}
+{"f": "dialog", "id": "ko.g098", "k": "tr", "src": "Would you mind taking a photo? / Of course. One, two, three!", "tgt": "¿Le molestaría tomarnos una foto? / Claro. ¡Uno, dos, tres!"}
+{"f": "dialog", "id": "ko.g099", "k": "tr", "src": "What are we? / Hmm… I like you. Want to go out?", "tgt": "¿Qué somos? / Mmm… Me gustas. ¿Quieres ser mi pareja?"}
+{"f": "dialog", "id": "ko.g100", "k": "tr", "src": "Why didn't you text yesterday? / Sorry, my fault. Don't be mad.", "tgt": "¿Por qué no me escribiste ayer? / Perdón, fue mi culpa. No te enojes."}
+{"f": "dialog", "id": "ko.g101", "k": "tr", "src": "How is it being with me? / I feel comfortable. That's the best part.", "tgt": "¿Cómo te sientes estando conmigo? / Me siento a gusto. Eso es lo mejor."}
+{"f": "dialog", "id": "ko.g102", "k": "tr", "src": "Can I hold your hand? / Yeah… is it because you're cold?", "tgt": "¿Te puedo tomar de la mano? / Sí… ¿es porque tienes frío?"}
+{"f": "dialog", "id": "ko.g103", "k": "tr", "src": "It's our 100th day today! / Really? Happy 100 days. I got you something.", "tgt": "¡Hoy cumplimos 100 días! / ¿En serio? Feliz día 100. Te traje algo."}
+{"f": "dialog", "id": "ko.g104", "k": "tr", "src": "I have something to tell you. / What is it? Is something wrong?", "tgt": "Tengo algo que decirte. / ¿Qué pasa? ¿Algo anda mal?"}
+{"f": "dialog", "id": "ko.g105", "k": "tr", "src": "What time is the meeting? / Two. Meeting room B.", "tgt": "¿A qué hora es la reunión? / A las dos. En la sala B."}
+{"f": "dialog", "id": "ko.g106", "k": "tr", "src": "When is the deadline? / Friday, 6 PM.", "tgt": "¿Cuándo es la fecha límite? / El viernes a las 6 de la tarde."}
+{"f": "dialog", "id": "ko.g107", "k": "tr", "src": "Manager, do you have a moment? / Yes, come in.", "tgt": "Jefe, ¿tiene un momento? / Sí, pase."}
+{"f": "dialog", "id": "ko.g108", "k": "tr", "src": "I'll head out first. / Okay, good work today.", "tgt": "Me retiro primero. / Bueno, buen trabajo hoy."}
+{"f": "dialog", "id": "ko.g109", "k": "tr", "src": "There's a team dinner today. / What time and where?", "tgt": "Hoy hay cena de equipo. / ¿A qué hora y dónde?"}
+{"f": "dialog", "id": "ko.g110", "k": "tr", "src": "What should we have for lunch? / How about kimchi stew?", "tgt": "¿Qué almorzamos? / ¿Qué tal un guiso de kimchi?"}
+{"f": "dialog", "id": "ko.g111", "k": "tr", "src": "Ugh, I'm bored. What should I do? / Come out. Let's get chicken.", "tgt": "Uf, me aburro. ¿Qué hago? / Sal. Vamos por pollo frito."}
+{"f": "dialog", "id": "ko.g112", "k": "tr", "src": "I'm so tired today. / Sleep early. See you tomorrow.", "tgt": "Hoy estoy muy cansado. / Duérmete temprano. Nos vemos mañana."}
+{"f": "dialog", "id": "ko.g113", "k": "tr", "src": "Where are you? / On my way. 10 minutes!", "tgt": "¿Dónde estás? / En camino. ¡10 minutos!"}
+{"f": "dialog", "id": "ko.g114", "k": "tr", "src": "What's with him? / Dunno. I'm curious too.", "tgt": "¿Qué le pasa a ese? / Ni idea. Yo también tengo curiosidad."}
+{"f": "dialog", "id": "ko.g115", "k": "tr", "src": "I saved us seats. / You really are the best.", "tgt": "Les aparté lugares. / De verdad eres lo máximo."}
+{"f": "dialog", "id": "ko.g116", "k": "tr", "src": "Karaoke tonight? / Let's go! My treat.", "tgt": "¿Karaoke hoy en la noche? / ¡Vamos! Yo invito."}
+{"f": "dialog", "id": "ko.g117", "k": "tr", "src": "I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.", "tgt": "Creo que la presentación me va a salir fatal. / No te preocupes. Hazlo como lo practicaste."}
+{"f": "dialog", "id": "ko.g118", "k": "tr", "src": "Finally done. / Nice work. A beer?", "tgt": "Por fin terminé. / Buen trabajo. ¿Una cerveza?"}
+{"f": "dialog", "id": "ko.g119", "k": "tr", "src": "How's this? Just bought it. / Cute. It suits you.", "tgt": "¿Qué tal esto? Lo acabo de comprar. / Está lindo. Te queda bien."}
+{"f": "dialog", "id": "ko.g120", "k": "tr", "src": "I miss you. / Me too. Let's meet this weekend.", "tgt": "Te extraño. / Yo también. Veámonos este fin de semana."}
+{"f": "dialog", "id": "ko.g121", "k": "tr", "src": "I like you. / …Me too. You should've said sooner.", "tgt": "Me gustas. / …Tú también me gustas. Me lo hubieras dicho antes."}
+{"f": "dialog", "id": "ko.g122", "k": "tr", "src": "Babe, what are you doing? / Thinking about you, obviously.", "tgt": "Amor, ¿qué haces? / Pensando en ti, obvio."}
+{"f": "dialog", "id": "ko.g123", "k": "tr", "src": "I'm heading out now. / Get home safe. Text me when you arrive.", "tgt": "Ya me voy. / Llega bien. Mándame mensaje cuando llegues."}
+{"f": "dialog", "id": "ko.g124", "k": "tr", "src": "Sleepy. Going to bed. / Okay, sweet dreams.", "tgt": "Tengo sueño. Me voy a dormir. / Bueno, dulces sueños."}
+{"f": "dialog", "id": "ko.g125", "k": "tr", "src": "Why are you smiling like that? / Your smile just now made my heart skip.", "tgt": "¿Por qué sonríes así? / Tu sonrisa de hace rato me aceleró el corazón."}
+{"f": "dialog", "id": "ko.g126", "k": "tr", "src": "Why'd you text? / No reason. I keep thinking about you.", "tgt": "¿Por qué me escribiste? / Por nada. No dejo de pensar en ti."}
+{"f": "dialog", "id": "ko.g127", "k": "tr", "src": "You said you had something to say? / I think I like you.", "tgt": "¿Dijiste que tenías algo que decirme? / Creo que me gustas."}
+{"f": "dialog", "id": "ko.g128", "k": "tr", "src": "What are we? / Let's date.", "tgt": "¿Qué somos? / Seamos novios."}
+{"f": "dialog", "id": "ko.g129", "k": "tr", "src": "I passed! / Really? Congrats!", "tgt": "¡Pasé! / ¿En serio? ¡Felicidades!"}
+{"f": "dialog", "id": "ko.g130", "k": "tr", "src": "I'll go first. / Don't go. Stay a little longer.", "tgt": "Me voy primero. / No te vayas. Quédate un rato más."}
+{"f": "dialog", "id": "ko.g131", "k": "tr", "src": "Long time no see. / I missed you. Been well?", "tgt": "Cuánto tiempo. / Te extrañé. ¿Has estado bien?"}
+{"f": "dialog", "id": "ko.g132", "k": "tr", "src": "Who's your bias? / The main vocalist.", "tgt": "¿Quién es tu favorito? / El vocalista principal."}
+{"f": "dialog", "id": "ko.g133", "k": "tr", "src": "What are you listening to lately? / I became a fan of this group. Their stage is amazing.", "tgt": "¿Qué escuchas últimamente? / Me hice fan de este grupo. En el escenario son increíbles."}
+{"f": "dialog", "id": "ko.g134", "k": "tr", "src": "What are you doing this weekend? / Going to a concert! I even bought a light stick.", "tgt": "¿Qué haces este fin de semana? / ¡Voy a un concierto! Hasta compré un lightstick."}
+{"f": "dialog", "id": "ko.g135", "k": "tr", "src": "I'm a fan! Please sign this. / Sure, thanks. What's your name?", "tgt": "¡Soy tu fan! ¿Me firmas esto? / Claro, gracias. ¿Cómo te llamas?"}
+{"f": "dialog", "id": "ko.g136", "k": "tr", "src": "They're making a comeback this month. / Really? Did you see the teaser?", "tgt": "Este mes regresan con un comeback. / ¿En serio? ¿Viste el teaser?"}
+{"f": "dialog", "id": "ko.g137", "k": "tr", "src": "How was the concert? / Got goosebumps during the singalong.", "tgt": "¿Qué tal el concierto? / Se me puso la piel de gallina cuando todos cantamos a coro."}
+{"f": "dialog", "id": "ko.g138", "k": "tr", "src": "Are you on Instagram? / Yes, I just followed you.", "tgt": "¿Usas Instagram? / Sí, te acabo de seguir."}
+{"f": "dialog", "id": "ko.g139", "k": "tr", "src": "Posted a photo. Hit like for me. / Already did.", "tgt": "Subí una foto. Dame like. / Ya te lo di."}
+{"f": "dialog", "id": "ko.g140", "k": "tr", "src": "Why did nobody laugh at my joke earlier? / It killed the mood…", "tgt": "¿Por qué nadie se rio de mi chiste hace rato? / Mató el ambiente…"}
+{"f": "dialog", "id": "ko.g141", "k": "tr", "src": "How's the tteokbokki here? / Insanely good. I'm coming back.", "tgt": "¿Qué tal el tteokbokki de aquí? / Riquísimo. Voy a volver."}
+{"f": "dialog", "id": "ko.g142", "k": "tr", "src": "This song is addictive. / For real, been listening all day.", "tgt": "Esta canción es adictiva. / En serio, la he escuchado todo el día."}
+{"f": "dialog", "id": "ko.g143", "k": "tr", "src": "What should I wear today? / Go effortless. Jeans and a white tee.", "tgt": "¿Qué me pongo hoy? / Algo arreglado sin parecerlo. Jeans y una camiseta blanca."}
+{"f": "dialog", "id": "ko.g144", "k": "tr", "src": "What are you doing this weekend? / Having a meal with family.", "tgt": "¿Qué haces este fin de semana? / Voy a comer con mi familia."}
+{"f": "dialog", "id": "ko.g145", "k": "tr", "src": "Who did you come with? / With a friend.", "tgt": "¿Con quién viniste? / Con un amigo."}
+{"f": "dialog", "id": "ko.g146", "k": "tr", "src": "Who's that? / That's my older brother.", "tgt": "¿Quién es? / Es mi hermano mayor."}
+{"f": "dialog", "id": "ko.g147", "k": "tr", "src": "Unni, how's this? / It suits you. Buy it.", "tgt": "Unni, ¿qué tal esto? / Te queda bien. Cómpratelo."}
+{"f": "dialog", "id": "ko.g148", "k": "tr", "src": "Do you have siblings? / Yes, one younger sibling.", "tgt": "¿Tienes hermanos? / Sí, uno menor."}
+{"f": "dialog", "id": "ko.g149", "k": "tr", "src": "Teacher, I have a question. / Yes, go ahead.", "tgt": "Maestra, tengo una pregunta. / Sí, adelante."}
+{"f": "examples", "id": "ko.e001", "k": "tr", "src": "A glass of water, please.", "tgt": "Un vaso de agua, por favor."}
+{"f": "examples", "id": "ko.e002", "k": "tr", "src": "Have you eaten?", "tgt": "¿Ya comiste?"}
+{"f": "examples", "id": "ko.e003", "k": "tr", "src": "Do you like meat?", "tgt": "¿Te gusta la carne?"}
+{"f": "examples", "id": "ko.e004", "k": "tr", "src": "This is really delicious.", "tgt": "Esto está riquísimo."}
+{"f": "examples", "id": "ko.e005", "k": "tr", "src": "I'm hungry. What shall we eat?", "tgt": "Tengo hambre. ¿Qué comemos?"}
+{"f": "examples", "id": "ko.e006", "k": "tr", "src": "Okay, cheers!", "tgt": "Bueno, ¡salud!"}
+{"f": "examples", "id": "ko.e007", "k": "tr", "src": "The weather is nice today.", "tgt": "Hoy hace buen clima."}
+{"f": "examples", "id": "ko.e008", "k": "tr", "src": "Are you free tomorrow?", "tgt": "¿Estás libre mañana?"}
+{"f": "examples", "id": "ko.e009", "k": "tr", "src": "I went to bed late yesterday.", "tgt": "Ayer me dormí tarde."}
+{"f": "examples", "id": "ko.e010", "k": "tr", "src": "I'm going now!", "tgt": "¡Ya me voy!"}
+{"f": "examples", "id": "ko.e011", "k": "tr", "src": "Mondays are always busy.", "tgt": "Los lunes siempre son pesados."}
+{"f": "examples", "id": "ko.e012", "k": "tr", "src": "See you on Friday.", "tgt": "Nos vemos el viernes."}
+{"f": "examples", "id": "ko.e013", "k": "tr", "src": "When did you come to Korea?", "tgt": "¿Cuándo llegaste a Corea?"}
+{"f": "examples", "id": "ko.e014", "k": "tr", "src": "I exercise every day.", "tgt": "Hago ejercicio todos los días."}
+{"f": "examples", "id": "ko.e015", "k": "tr", "src": "It's so hot today.", "tgt": "Hoy hace muchísimo calor."}
+{"f": "examples", "id": "ko.e016", "k": "tr", "src": "It's cold outside. Dress warm.", "tgt": "Afuera hace frío. Abrígate."}
+{"f": "examples", "id": "ko.e017", "k": "tr", "src": "It's raining. Do you have an umbrella?", "tgt": "Está lloviendo. ¿Traes paraguas?"}
+{"f": "examples", "id": "ko.e018", "k": "tr", "src": "Wow, it's snowing!", "tgt": "¡Guau, está nevando!"}
+{"f": "examples", "id": "ko.e019", "k": "tr", "src": "I feel good today.", "tgt": "Hoy me siento bien."}
+{"f": "examples", "id": "ko.e020", "k": "tr", "src": "I'm happy because we're together.", "tgt": "Estoy feliz porque estamos juntos."}
+{"f": "examples", "id": "ko.e021", "k": "tr", "src": "The movie is so sad.", "tgt": "La película es muy triste."}
+{"f": "examples", "id": "ko.e022", "k": "tr", "src": "I'm nervous because of the interview.", "tgt": "Estoy nervioso por la entrevista."}
+{"f": "examples", "id": "ko.e023", "k": "tr", "src": "Why are you angry?", "tgt": "¿Por qué estás enojado?"}
+{"f": "examples", "id": "ko.e024", "k": "tr", "src": "I'm excited because I travel tomorrow.", "tgt": "Estoy emocionado porque mañana me voy de viaje."}
+{"f": "examples", "id": "ko.e025", "k": "tr", "src": "My mom cooks well.", "tgt": "Mi mamá cocina muy bien."}
+{"f": "examples", "id": "ko.e026", "k": "tr", "src": "Oppa, what is this?", "tgt": "Oppa, ¿qué es esto?"}
+{"f": "examples", "id": "ko.e027", "k": "tr", "src": "Your (older sister's) clothes are pretty.", "tgt": "Tu ropa está bonita (a una hermana mayor)."}
+{"f": "examples", "id": "ko.e028", "k": "tr", "src": "I have two younger siblings.", "tgt": "Tengo dos hermanos menores."}
+{"f": "examples", "id": "ko.e029", "k": "tr", "src": "I'm going to grandma's house.", "tgt": "Voy a casa de mi abuela."}
+{"f": "examples", "id": "ko.e030", "k": "tr", "src": "I miss my family.", "tgt": "Extraño a mi familia."}
+{"f": "examples", "id": "ko.e031", "k": "tr", "src": "I watched a movie with a friend.", "tgt": "Vi una película con un amigo."}
+{"f": "examples", "id": "ko.e032", "k": "tr", "src": "Teacher, I have a question.", "tgt": "Maestra, tengo una pregunta."}
+{"f": "examples", "id": "ko.e033", "k": "tr", "src": "Who is that woman?", "tgt": "¿Quién es esa mujer?"}
+{"f": "examples", "id": "ko.e034", "k": "tr", "src": "There are many people here.", "tgt": "Aquí hay mucha gente."}
+{"f": "examples", "id": "ko.e035", "k": "tr", "src": "One apple, please.", "tgt": "Una manzana, por favor."}
+{"f": "examples", "id": "ko.e036", "k": "tr", "src": "Two people.", "tgt": "Somos dos."}
+{"f": "examples", "id": "ko.e037", "k": "tr", "src": "Three coffees, please.", "tgt": "Tres cafés, por favor."}
+{"f": "examples", "id": "ko.e038", "k": "tr", "src": "I bought four bottles of beer.", "tgt": "Compré cuatro botellas de cerveza."}
+{"f": "examples", "id": "ko.e039", "k": "tr", "src": "I have five cats.", "tgt": "Tengo cinco gatos."}
+{"f": "examples", "id": "ko.e040", "k": "tr", "src": "I read six books.", "tgt": "Leí seis libros."}
+{"f": "examples", "id": "ko.e041", "k": "tr", "src": "I have seven tickets.", "tgt": "Tengo siete boletos."}
+{"f": "examples", "id": "ko.e042", "k": "tr", "src": "I waited two hours.", "tgt": "Esperé dos horas."}
+{"f": "examples", "id": "ko.e043", "k": "tr", "src": "I called three times.", "tgt": "Llamé tres veces."}
+{"f": "examples", "id": "ko.e044", "k": "tr", "src": "I'm in Korea for a month.", "tgt": "Voy a estar un mes en Corea."}
+{"f": "examples", "id": "ko.e045", "k": "tr", "src": "I ate. And then I drank coffee.", "tgt": "Comí. Y después tomé un café."}
+{"f": "examples", "id": "ko.e046", "k": "tr", "src": "I'm tired. So I'll sleep early.", "tgt": "Estoy cansado. Así que me voy a dormir temprano."}
+{"f": "examples", "id": "ko.e047", "k": "tr", "src": "It's tasty. But a bit expensive.", "tgt": "Está rico. Pero un poco caro."}
+{"f": "examples", "id": "ko.e048", "k": "tr", "src": "It's hard but fun.", "tgt": "Es difícil pero divertido."}
+{"f": "examples", "id": "ko.e049", "k": "tr", "src": "What did you do after that?", "tgt": "¿Y qué hiciste después?"}
+{"f": "examples", "id": "ko.e050", "k": "tr", "src": "You go first.", "tgt": "Ve tú primero."}
+{"f": "examples", "id": "ko.e051", "k": "tr", "src": "Because I don't have time.", "tgt": "Porque no tengo tiempo."}
+{"f": "examples", "id": "ko.e052", "k": "tr", "src": "Coffee or tea?", "tgt": "¿Café o té?"}
+{"f": "examples", "id": "ko.e053", "k": "tr", "src": "Then see you tomorrow.", "tgt": "Entonces nos vemos mañana."}
+{"f": "examples", "id": "ko.e054", "k": "tr", "src": "Actually, my Korean isn't good.", "tgt": "La verdad, no hablo bien coreano."}
+{"f": "examples", "id": "ko.e055", "k": "tr", "src": "I like this song.", "tgt": "Me gusta esta canción."}
+{"f": "examples", "id": "ko.e056", "k": "tr", "src": "The weather is bad.", "tgt": "El clima está feo."}
+{"f": "examples", "id": "ko.e057", "k": "tr", "src": "The house is big.", "tgt": "La casa es grande."}
+{"f": "examples", "id": "ko.e058", "k": "tr", "src": "The room is small.", "tgt": "El cuarto es pequeño."}
+{"f": "examples", "id": "ko.e059", "k": "tr", "src": "I have a lot to do.", "tgt": "Tengo mucho que hacer."}
+{"f": "examples", "id": "ko.e060", "k": "tr", "src": "This is too expensive.", "tgt": "Esto está demasiado caro."}
+{"f": "examples", "id": "ko.e061", "k": "tr", "src": "It's cheap here.", "tgt": "Aquí es barato."}
+{"f": "examples", "id": "ko.e062", "k": "tr", "src": "Are you busy these days?", "tgt": "¿Andas ocupado estos días?"}
+{"f": "examples", "id": "ko.e063", "k": "tr", "src": "Studying Korean is fun.", "tgt": "Estudiar coreano es divertido."}
+{"f": "examples", "id": "ko.e064", "k": "tr", "src": "Today is really tough.", "tgt": "Hoy está siendo un día muy pesado."}
+{"f": "examples", "id": "ko.e065", "k": "tr", "src": "Be honest. What are we?", "tgt": "Sé sincero. ¿Qué somos?"}
+{"f": "examples", "id": "ko.e066", "k": "tr", "src": "I'm not joking. I want to date you seriously.", "tgt": "No estoy bromeando. Quiero andar contigo en serio."}
+{"f": "examples", "id": "ko.e067", "k": "tr", "src": "I'll buy dinner. Stop being mad.", "tgt": "Yo invito la cena. Ya no te enojes."}
+{"f": "examples", "id": "ko.e068", "k": "tr", "src": "It's already 100 days. Happy 100th!", "tgt": "Ya son 100 días. ¡Feliz día 100!"}
+{"f": "examples", "id": "ko.e069", "k": "tr", "src": "Same taste. I think we're a good match.", "tgt": "Tenemos los mismos gustos. Creo que hacemos buena pareja."}
+{"f": "examples", "id": "ko.e070", "k": "tr", "src": "What time is tomorrow's meeting? It's not on the calendar.", "tgt": "¿A qué hora es la reunión de mañana? No está en el calendario."}
+{"f": "examples", "id": "ko.e071", "k": "tr", "src": "When is this report due?", "tgt": "¿Para cuándo es este informe?"}
+{"f": "examples", "id": "ko.e072", "k": "tr", "src": "Manager, do you have a moment?", "tgt": "Jefe, ¿tiene un momento?"}
+{"f": "examples", "id": "ko.e073", "k": "tr", "src": "I'll head out first. Keep up the good work.", "tgt": "Me retiro primero. Sigan con el buen trabajo."}
+{"f": "examples", "id": "ko.e074", "k": "tr", "src": "I have to work late today. Next time for the team dinner.", "tgt": "Hoy tengo que quedarme a trabajar tarde. La cena de equipo será para la próxima."}
+{"f": "patterns", "id": "ko.p001", "k": "meaning", "src": "topic marker: 'as for…'; contrast, general statements", "tgt": "marca de tema: «en cuanto a…»; contraste, afirmaciones generales"}
+{"f": "patterns", "id": "ko.p002", "k": "meaning", "src": "subject marker: who/what specifically; new information", "tgt": "marca de sujeto: quién o qué en concreto; información nueva"}
+{"f": "patterns", "id": "ko.p003", "k": "meaning", "src": "object marker", "tgt": "marca de objeto directo"}
+{"f": "patterns", "id": "ko.p004", "k": "meaning", "src": "to / at (destination, time)", "tgt": "a / en (destino, momento)"}
+{"f": "patterns", "id": "ko.p005", "k": "meaning", "src": "at (where an action happens) / from", "tgt": "en (donde ocurre la acción) / desde"}
+{"f": "patterns", "id": "ko.p006", "k": "meaning", "src": "also / too (replaces 은/는/이/가/을/를)", "tgt": "también (sustituye a 은/는/이/가/을/를)"}
+{"f": "patterns", "id": "ko.p007", "k": "meaning", "src": "possessive; often pronounced 에", "tgt": "posesivo («de»); a menudo se pronuncia 에"}
+{"f": "patterns", "id": "ko.p008", "k": "meaning", "src": "and / with", "tgt": "y / con"}
+{"f": "patterns", "id": "ko.p009", "k": "meaning", "src": "only", "tgt": "solo, nada más"}
+{"f": "patterns", "id": "ko.p010", "k": "meaning", "src": "toward / by means of", "tgt": "hacia / por medio de"}
+{"f": "patterns", "id": "ko.p011", "k": "meaning", "src": "polite present (ㅏ/ㅗ stems → 아요, others → 어요, 하다 → 해요)", "tgt": "presente cortés (raíces con ㅏ/ㅗ → 아요, las demás → 어요, 하다 → 해요)"}
+{"f": "patterns", "id": "ko.p012", "k": "meaning", "src": "polite past", "tgt": "pasado cortés"}
+{"f": "patterns", "id": "ko.p013", "k": "meaning", "src": "future / intention", "tgt": "futuro / intención"}
+{"f": "patterns", "id": "ko.p014", "k": "meaning", "src": "don't / not (choice)", "tgt": "no (por decisión)"}
+{"f": "patterns", "id": "ko.p015", "k": "meaning", "src": "can't (ability, circumstance)", "tgt": "no poder (por capacidad o circunstancia)"}
+{"f": "patterns", "id": "ko.p016", "k": "meaning", "src": "don't (slightly formal 안)", "tgt": "no (un poco más formal que 안)"}
+{"f": "patterns", "id": "ko.p017", "k": "meaning", "src": "can / cannot", "tgt": "poder / no poder"}
+{"f": "patterns", "id": "ko.p018", "k": "meaning", "src": "shall we…? (suggestion)", "tgt": "¿y si…? (sugerencia)"}
+{"f": "patterns", "id": "ko.p019", "k": "meaning", "src": "do you want to…?", "tgt": "¿quieres…?"}
+{"f": "patterns", "id": "ko.p020", "k": "meaning", "src": "let's (casual)", "tgt": "vamos a… (informal)"}
+{"f": "patterns", "id": "ko.p021", "k": "meaning", "src": "I will (promise, speaker's intent)", "tgt": "voy a… (promesa, intención del hablante)"}
+{"f": "patterns", "id": "ko.p022", "k": "meaning", "src": "polite request / honorific present", "tgt": "petición cortés / presente honorífico"}
+{"f": "patterns", "id": "ko.p023", "k": "meaning", "src": "please do (for me)", "tgt": "hazlo por favor (por mí)"}
+{"f": "patterns", "id": "ko.p024", "k": "meaning", "src": "don't (command)", "tgt": "no (orden: «no hagas»)"}
+{"f": "patterns", "id": "ko.p025", "k": "meaning", "src": "noticing / mild surprise", "tgt": "darse cuenta / ligera sorpresa"}
+{"f": "patterns", "id": "ko.p026", "k": "meaning", "src": "soft contrast, background info", "tgt": "contraste suave, contexto"}
+{"f": "patterns", "id": "ko.p027", "k": "meaning", "src": "is (after consonant / after vowel)", "tgt": "ser (después de consonante / después de vocal)"}
+{"f": "patterns", "id": "ko.p028", "k": "meaning", "src": "there is, have / there isn't", "tgt": "hay, tener / no hay"}
+{"f": "patterns", "id": "ko.p029", "k": "meaning", "src": "go in order to", "tgt": "ir a (hacer algo)"}
+{"f": "patterns", "id": "ko.p030", "k": "meaning", "src": "want to", "tgt": "querer (hacer algo)"}
+{"f": "patterns", "id": "ko.p031", "k": "meaning", "src": "I think / it seems", "tgt": "creo que / parece que"}
+{"f": "patterns", "id": "ko.p032", "k": "meaning", "src": "if / when", "tgt": "si / cuando"}
+{"f": "patterns", "id": "ko.p033", "k": "meaning", "src": "things, people, cups, age, hours", "tgt": "cosas, personas, tazas, edad, horas"}
+{"f": "patterns", "id": "ko.p034", "k": "meaning", "src": "money, dates, minutes, phone, floors", "tgt": "dinero, fechas, minutos, teléfonos, pisos"}
+{"f": "patterns", "id": "ko.p035", "k": "meaning", "src": "and then / so / but", "tgt": "y luego / así que / pero"}
+{"f": "patterns", "id": "ko.p036", "k": "meaning", "src": "address forms: polite name, title, casual call", "tgt": "formas de llamar a alguien: nombre cortés, cargo, trato informal"}
+{"f": "patterns", "id": "ko.p037", "k": "meaning", "src": "honorific: raises the subject (elders, customers)", "tgt": "honorífico: eleva al sujeto (mayores, clientes)"}
+{"f": "patterns", "id": "ko.p038", "k": "meaning", "src": "honorific replacements for 먹다·마시다 / 자다 / 있다", "tgt": "sustitutos honoríficos de 먹다·마시다 / 자다 / 있다"}
+{"f": "patterns", "id": "ko.p039", "k": "meaning", "src": "softener: 'a bit' / 'please'", "tgt": "suavizador: «un poco» / «por favor»"}
+{"f": "patterns", "id": "ko.p040", "k": "meaning", "src": "'by any chance' — opens a polite question", "tgt": "«por casualidad»: abre una pregunta cortés"}
+{"f": "patterns", "id": "ko.p041", "k": "meaning", "src": "'would you mind…?' (very polite request)", "tgt": "«¿le molestaría…?» (petición muy cortés)"}
+{"f": "patterns", "id": "ko.p042", "k": "meaning", "src": "'would it be okay if…?' (permission)", "tgt": "«¿estaría bien si…?» (permiso)"}
+{"f": "patterns", "id": "ko.p043", "k": "meaning", "src": "'may I…?'", "tgt": "«¿puedo…?»"}
+{"f": "patterns", "id": "ko.p044", "k": "meaning", "src": "address colleagues by title, never bare name", "tgt": "a los compañeros se les llama por su cargo, nunca solo por el nombre"}
+{"f": "patterns", "id": "ko.p045", "k": "meaning", "src": "work sign-offs: to those staying / to seniors after work", "tgt": "despedidas del trabajo: a quien se queda / a los superiores al salir"}
+{"f": "patterns", "id": "ko.p046", "k": "meaning", "src": "email opener: 'the reason I'm writing is…'", "tgt": "para abrir un correo: «le escribo porque…»"}
+{"f": "patterns", "id": "ko.p047", "k": "meaning", "src": "polite request closer (humble)", "tgt": "cierre cortés de una petición (humilde)"}
+{"f": "lessons", "id": "hangul", "k": "title", "src": "1 · Hangul in one sitting", "tgt": "1 · El hangul en una sentada", "_waive": ["hangul"], "_note": "Body adds the single letter ㄹ (only present in the English body inside {{strokes:ㄹ}}, which the check strips) so the reading guide can explain ㄹ as the tap of Spanish «pero» / final l."}
+{"f": "lessons", "id": "hangul", "k": "blurb", "src": "The alphabet: 14 consonants, 10 vowels, how blocks stack.", "tgt": "El alfabeto: 14 consonantes, 10 vocales y cómo se forman los bloques."}
+{"f": "sentences", "id": "ko.s0001", "k": "gloss", "src": "ㄴ + ㅏ side by side", "tgt": "ㄴ + ㅏ, una al lado de la otra"}
+{"f": "sentences", "id": "ko.s0002", "k": "gloss", "src": "ㄴ + ㅗ stacked", "tgt": "ㄴ + ㅗ, una encima de la otra"}
+{"f": "sentences", "id": "ko.s0003", "k": "gloss", "src": "ㅎ + ㅏ + ㄴ final", "tgt": "ㅎ + ㅏ + ㄴ al final"}
+{"f": "sentences", "id": "ko.s0004", "k": "gloss", "src": "ㅅ+ㅓ, ㅇ(silent)+ㅜ+ㄹ", "tgt": "ㅅ+ㅓ, ㅇ(muda)+ㅜ+ㄹ"}
+{"f": "checks", "id": "hangul.k1", "k": "q", "src": "Which vowel is the horizontal 'u' (oo) sound?", "tgt": "¿Cuál es la vocal horizontal que suena u, como en «uno»?", "rw": "English-spelling sound hint in brackets"}
+{"f": "checks", "id": "hangul.k1", "k": "why", "src": "ㅜ: horizontal stick, tick down = u.", "tgt": "ㅜ: palito horizontal con la rayita hacia abajo = u."}
+{"f": "checks", "id": "hangul.k2", "k": "q", "src": "What does ㅇ sound like at the START of a block?", "tgt": "¿Cómo suena ㅇ al PRINCIPIO de un bloque?", "rw": "English sound comparison (\"sounds like …\")"}
+{"f": "checks", "id": "hangul.k2", "k": "o[0]", "src": "Silent", "tgt": "Muda"}
+{"f": "checks", "id": "hangul.k2", "k": "o[1]", "src": "ng", "tgt": "ng (como la n de «tengo»)"}
+{"f": "checks", "id": "hangul.k2", "k": "o[2]", "src": "h", "tgt": "h (un soplo de aire)"}
+{"f": "checks", "id": "hangul.k2", "k": "o[3]", "src": "g", "tgt": "g (como en «gato»)"}
+{"f": "checks", "id": "hangul.k2", "k": "why", "src": "Initial ㅇ is a placeholder; final ㅇ is ng.", "tgt": "La ㅇ inicial solo ocupa un lugar; la ㅇ final suena ng, como la n de «tengo»."}
+{"f": "checks", "id": "hangul.k3", "k": "q", "src": "Which block is 'han'?", "tgt": "¿Qué bloque es 'han'?"}
+{"f": "checks", "id": "hangul.k3", "k": "why", "src": "ㅎ + ㅏ + ㄴ (final) = 한.", "tgt": "ㅎ + ㅏ + ㄴ (al final) = 한."}
+{"f": "practice", "id": "hangul.01", "k": "q", "src": "Which letter is the 'a' sound, as in father?", "tgt": "¿Qué letra suena a, como en «casa»?", "rw": "English sound comparison (\"as in …\")"}
+{"f": "practice", "id": "hangul.01", "k": "why", "src": "ㅏ: vertical stick, tick to the right.", "tgt": "ㅏ: palito vertical con la rayita a la derecha."}
+{"f": "practice", "id": "hangul.02", "k": "q", "src": "Which letter is silent at the start of a block?", "tgt": "¿Qué letra es muda al principio de un bloque?"}
+{"f": "practice", "id": "hangul.02", "k": "why", "src": "Initial ㅇ only holds the vowel's place; at the end it is ng.", "tgt": "La ㅇ inicial solo guarda el lugar de la vocal; al final suena ng."}
+{"f": "practice", "id": "hangul.03", "k": "q", "src": "Which block reads 'no'?", "tgt": "¿Qué bloque se lee 'no'?"}
+{"f": "practice", "id": "hangul.03", "k": "why", "src": "ㄴ + ㅗ, with the horizontal vowel stacked below.", "tgt": "ㄴ + ㅗ, con la vocal horizontal debajo."}
+{"f": "practice", "id": "hangul.04", "k": "q", "src": "Which block reads 'gang'?", "tgt": "¿Qué bloque se lee 'gang'?"}
+{"f": "practice", "id": "hangul.04", "k": "why", "src": "ㄱ + ㅏ + final ㅇ (ng).", "tgt": "ㄱ + ㅏ + ㅇ final (ng)."}
+{"f": "practice", "id": "hangul.05", "k": "q", "src": "Which word reads 'seoul'?", "tgt": "¿Qué palabra se lee 'seoul'?"}
+{"f": "practice", "id": "hangul.05", "k": "why", "src": "ㅅ+ㅓ = seo, silent ㅇ+ㅜ+ㄹ = ul.", "tgt": "ㅅ+ㅓ = seo, ㅇ muda+ㅜ+ㄹ = ul."}
+{"f": "practice", "id": "hangul.06", "k": "p", "src": "Seoul (seo-ul)", "tgt": "Seúl (seo-ul)"}
+{"f": "practice", "id": "hangul.06", "k": "why", "src": "seo = ㅅ+ㅓ, ul = ㅇ+ㅜ+ㄹ.", "tgt": "seo = ㅅ+ㅓ; ul = ㅇ+ㅜ+ㄹ."}
+{"f": "practice", "id": "hangul.07", "k": "p", "src": "Korean language (han-gu-geo)", "tgt": "idioma coreano (han-gu-geo)"}
+{"f": "practice", "id": "hangul.07", "k": "why", "src": "han + guk + eo; the ㄱ of 국 links into 어 when spoken.", "tgt": "han + guk + eo; al hablar, la ㄱ de 국 se une a 어."}
+{"f": "practice", "id": "hangul.08", "k": "p", "src": "friend (chin-gu)", "tgt": "amigo (chin-gu)"}
+{"f": "practice", "id": "hangul.08", "k": "why", "src": "ㅊ is ch; ㅈ is j.", "tgt": "ㅊ es ch, como en «chico»; ㅈ es j (nunca como la jota)."}
+{"f": "practice", "id": "hangul.09", "k": "p", "src": "Seoul (seoul)", "tgt": "Seúl (seoul)"}
+{"f": "practice", "id": "hangul.09", "k": "why", "src": "ㅜ (u) sits below the ㅇ: 울.", "tgt": "ㅜ (u) va debajo de la ㅇ: 울."}
+{"f": "practice", "id": "hangul.10", "k": "p", "src": "Korean language (hangugeo)", "tgt": "idioma coreano (hangugeo)"}
+{"f": "practice", "id": "hangul.10", "k": "why", "src": "h = ㅎ, a = ㅏ, final n = ㄴ: 한.", "tgt": "h = ㅎ, a = ㅏ, n final = ㄴ: 한."}
+{"f": "practice", "id": "hangul.11", "k": "p", "src": "banana (banana)", "tgt": "plátano (banana)"}
+{"f": "practice", "id": "hangul.11", "k": "why", "src": "na = ㄴ + ㅏ, side by side.", "tgt": "na = ㄴ + ㅏ, una al lado de la otra."}
+{"f": "practice", "id": "hangul.12", "k": "p", "src": "Type 'gang' — river", "tgt": "Escribe 'gang': río"}
+{"f": "practice", "id": "hangul.12", "k": "why", "src": "Final ㅇ sounds like ng.", "tgt": "La ㅇ final suena ng, como la n de «tengo» (sin pronunciar la g).", "rw": "English sound comparison (\"sounds like …\")"}
+{"f": "practice", "id": "hangul.13", "k": "p", "src": "Type 'seoul' — Seoul", "tgt": "Escribe 'seoul': Seúl"}
+{"f": "practice", "id": "hangul.13", "k": "why", "src": "Two blocks: 서 + 울.", "tgt": "Dos bloques: 서 + 울."}
+{"f": "practice", "id": "hangul.14", "k": "p", "src": "Type 'hangugeo' — Korean language", "tgt": "Escribe 'hangugeo': idioma coreano"}
+{"f": "practice", "id": "hangul.14", "k": "why", "src": "Three blocks: 한 + 국 + 어.", "tgt": "Tres bloques: 한 + 국 + 어."}
+{"f": "lessons", "id": "polite", "k": "title", "src": "2 · Politeness levels", "tgt": "2 · Niveles de cortesía"}
+{"f": "lessons", "id": "polite", "k": "blurb", "src": "Why every verb has two endings, and which one to use.", "tgt": "Por qué cada verbo tiene dos terminaciones y cuál usar."}
+{"f": "sentences", "id": "ko.s0005", "k": "gloss", "src": "Thanks (polite)", "tgt": "Gracias (cortés)"}
+{"f": "sentences", "id": "ko.s0006", "k": "gloss", "src": "Thanks (casual)", "tgt": "Gracias (informal)"}
+{"f": "sentences", "id": "ko.s0007", "k": "gloss", "src": "You're cute (polite)", "tgt": "Eres adorable (cortés)"}
+{"f": "sentences", "id": "ko.s0008", "k": "gloss", "src": "You're cute (casual)", "tgt": "Eres adorable (informal)"}
+{"f": "checks", "id": "polite.k1", "k": "q", "src": "You're ordering at a café. Which form?", "tgt": "Estás pidiendo en un café. ¿Qué forma usas?"}
+{"f": "checks", "id": "polite.k1", "k": "why", "src": "요-form is the default with strangers and staff.", "tgt": "La forma con 요 es la opción por defecto con desconocidos y con el personal."}
+{"f": "checks", "id": "polite.k2", "k": "q", "src": "Dropping the 요 makes speech…", "tgt": "Quitar el 요 hace que el habla sea…"}
+{"f": "checks", "id": "polite.k2", "k": "o[0]", "src": "casual (반말)", "tgt": "informal (반말)"}
+{"f": "checks", "id": "polite.k2", "k": "o[1]", "src": "more polite", "tgt": "más cortés"}
+{"f": "checks", "id": "polite.k2", "k": "o[2]", "src": "formal", "tgt": "formal"}
+{"f": "checks", "id": "polite.k2", "k": "o[3]", "src": "a question", "tgt": "una pregunta"}
+{"f": "checks", "id": "polite.k2", "k": "why", "src": "반말 = casual speech for close friends and younger people.", "tgt": "반말 = habla informal, para amigos cercanos y personas más jóvenes."}
+{"f": "checks", "id": "polite.k3", "k": "q", "src": "감사합니다 is which level?", "tgt": "¿De qué nivel es 감사합니다?"}
+{"f": "checks", "id": "polite.k3", "k": "o[0]", "src": "formal", "tgt": "formal"}
+{"f": "checks", "id": "polite.k3", "k": "o[1]", "src": "casual", "tgt": "informal"}
+{"f": "checks", "id": "polite.k3", "k": "o[2]", "src": "polite 요-form", "tgt": "cortés, con 요"}
+{"f": "checks", "id": "polite.k3", "k": "o[3]", "src": "slang", "tgt": "jerga"}
+{"f": "checks", "id": "polite.k3", "k": "why", "src": "-습니다 / -ㅂ니다 is the formal level.", "tgt": "-습니다 / -ㅂ니다 es el nivel formal."}
+{"f": "practice", "id": "polite.01", "k": "q", "src": "'Thanks' to a close friend (casual):", "tgt": "«Gracias» a un amigo cercano (informal):"}
+{"f": "practice", "id": "polite.01", "k": "why", "src": "Casual speech drops 요.", "tgt": "El habla informal quita el 요."}
+{"f": "practice", "id": "polite.02", "k": "q", "src": "'Thank you' to a shop clerk you've never met:", "tgt": "«Gracias» a un dependiente que no conoces:"}
+{"f": "practice", "id": "polite.02", "k": "why", "src": "With strangers use a polite or formal form.", "tgt": "Con desconocidos usa una forma cortés o formal."}
+{"f": "practice", "id": "polite.03", "k": "q", "src": "Which one is the formal level?", "tgt": "¿Cuál es el nivel formal?"}
+{"f": "practice", "id": "polite.03", "k": "why", "src": "-습니다 / -ㅂ니다 is the formal level.", "tgt": "-습니다 / -ㅂ니다 es el nivel formal."}
+{"f": "practice", "id": "polite.04", "k": "q", "src": "'Sorry' to a close friend (casual):", "tgt": "«Perdón» a un amigo cercano (informal):"}
+{"f": "practice", "id": "polite.04", "k": "why", "src": "미안해 is the casual form; 미안해요 is polite.", "tgt": "미안해 es la forma informal; 미안해요 es la cortés."}
+{"f": "practice", "id": "polite.05", "k": "q", "src": "'You're cute' (polite):", "tgt": "«Eres adorable» (cortés):"}
+{"f": "practice", "id": "polite.05", "k": "why", "src": "귀여워 + 요 = polite.", "tgt": "귀여워 + 요 = cortés."}
+{"f": "practice", "id": "polite.06", "k": "p", "src": "This one, please (polite)", "tgt": "Este, por favor (cortés)"}
+{"f": "practice", "id": "polite.06", "k": "why", "src": "주세요 is the polite 'please give'.", "tgt": "주세요 es el «deme, por favor» cortés."}
+{"f": "practice", "id": "polite.07", "k": "p", "src": "Yes, thanks (polite)", "tgt": "Sí, gracias (cortés)"}
+{"f": "practice", "id": "polite.07", "k": "why", "src": "Keep 요 with people you don't know well.", "tgt": "Mantén el 요 con quien no conoces bien."}
+{"f": "practice", "id": "polite.08", "k": "p", "src": "No, it's okay (polite)", "tgt": "No, así está bien (cortés)"}
+{"f": "practice", "id": "polite.08", "k": "why", "src": "괜찮아 without 요 is casual.", "tgt": "괜찮아 sin 요 es informal."}
+{"f": "practice", "id": "polite.09", "k": "p", "src": "Thanks (polite)", "tgt": "Gracias (cortés)"}
+{"f": "practice", "id": "polite.09", "k": "why", "src": "Add 요 to make it polite.", "tgt": "Agrega 요 para que sea cortés."}
+{"f": "practice", "id": "polite.10", "k": "p", "src": "Sorry (casual)", "tgt": "Perdón (informal)"}
+{"f": "practice", "id": "polite.10", "k": "why", "src": "Casual = the 요-form without 요: 미안해.", "tgt": "Informal = la forma con 요, pero sin el 요: 미안해."}
+{"f": "practice", "id": "polite.11", "k": "p", "src": "I'm sorry (formal)", "tgt": "Le pido disculpas (formal)"}
+{"f": "practice", "id": "polite.11", "k": "why", "src": "Formal level ends in -ㅂ니다.", "tgt": "El nivel formal termina en -ㅂ니다."}
+{"f": "practice", "id": "polite.12", "k": "p", "src": "Yes, thanks (polite 요-form)", "tgt": "Sí, gracias (cortés, con 요)"}
+{"f": "practice", "id": "polite.12", "k": "why", "src": "Polite = casual form + 요.", "tgt": "Cortés = forma informal + 요."}
+{"f": "practice", "id": "polite.13", "k": "p", "src": "Yes, I'm sorry (formal)", "tgt": "Sí, le pido disculpas (formal)"}
+{"f": "practice", "id": "polite.13", "k": "why", "src": "죄송합니다 is the safe apology to strangers.", "tgt": "죄송합니다 es la disculpa segura con desconocidos."}
+{"f": "practice", "id": "polite.14", "k": "p", "src": "No, it's okay (casual)", "tgt": "No, está bien (informal)"}
+{"f": "practice", "id": "polite.14", "k": "hint", "src": "drop the 요", "tgt": "quita el 요"}
+{"f": "practice", "id": "polite.14", "k": "why", "src": "Casual drops the 요.", "tgt": "El habla informal quita el 요."}
+{"f": "lessons", "id": "meet", "k": "title", "src": "3 · Meeting people", "tgt": "3 · Conocer gente"}
+{"f": "lessons", "id": "meet", "k": "blurb", "src": "Introduce yourself, ask the four standard questions, say goodbye correctly.", "tgt": "Preséntate, haz las cuatro preguntas de siempre y despídete como se debe."}
+{"f": "sentences", "id": "ko.s0009", "k": "gloss", "src": "Hello. I'm Kii.", "tgt": "Hola. Soy Kii."}
+{"f": "sentences", "id": "ko.s0010", "k": "gloss", "src": "Nice to meet you", "tgt": "Mucho gusto"}
+{"f": "sentences", "id": "ko.s0011", "k": "gloss", "src": "Where are you from?", "tgt": "¿De dónde eres?"}
+{"f": "sentences", "id": "ko.s0012", "k": "gloss", "src": "I'm from the US", "tgt": "Soy de Estados Unidos"}
+{"f": "sentences", "id": "ko.s0013", "k": "gloss", "src": "What do you do?", "tgt": "¿A qué te dedicas?"}
+{"f": "sentences", "id": "ko.s0014", "k": "gloss", "src": "I'm studying Korean", "tgt": "Estudio coreano"}
+{"f": "sentences", "id": "ko.s0015", "k": "gloss", "src": "How old are you?", "tgt": "¿Cuántos años tienes?"}
+{"f": "sentences", "id": "ko.s0016", "k": "gloss", "src": "I'm 28", "tgt": "Tengo 28 años"}
+{"f": "sentences", "id": "ko.s0017", "k": "gloss", "src": "Go well (they are leaving)", "tgt": "Ve en paz (la otra persona se va)"}
+{"f": "sentences", "id": "ko.s0018", "k": "gloss", "src": "Stay well (you are leaving)", "tgt": "Quédate en paz (tú te vas)"}
+{"f": "checks", "id": "meet.k1", "k": "q", "src": "'I'm Lisa' — Lisa ends in a vowel, so:", "tgt": "«Soy Lisa»: Lisa termina en vocal, así que:"}
+{"f": "checks", "id": "meet.k1", "k": "why", "src": "예요 after a vowel, 이에요 after a consonant.", "tgt": "예요 después de vocal, 이에요 después de consonante."}
+{"f": "checks", "id": "meet.k2", "k": "q", "src": "Someone is leaving and you are staying. You say:", "tgt": "Alguien se va y tú te quedas. Dices:"}
+{"f": "checks", "id": "meet.k2", "k": "why", "src": "가세요 = go well (to the one leaving).", "tgt": "가세요 = ve en paz (a quien se va)."}
+{"f": "checks", "id": "meet.k3", "k": "q", "src": "'Where are you from?'", "tgt": "«¿De dónde eres?»"}
+{"f": "checks", "id": "meet.k3", "k": "why", "src": "에서 왔어요 = came from.", "tgt": "에서 왔어요 = vine de."}
+{"f": "practice", "id": "meet.01", "k": "q", "src": "'I'm Minsu' — 민수 ends in a vowel, so:", "tgt": "«Soy Minsu»: 민수 termina en vocal, así que:"}
+{"f": "practice", "id": "meet.01", "k": "why", "src": "예요 after a vowel, 이에요 after a consonant.", "tgt": "예요 después de vocal, 이에요 después de consonante."}
+{"f": "practice", "id": "meet.02", "k": "q", "src": "'Nice to meet you' =", "tgt": "«Mucho gusto» ="}
+{"f": "practice", "id": "meet.02", "k": "why", "src": "만나서 반가워요 = glad because we met.", "tgt": "만나서 반가워요 = me alegra porque nos conocimos."}
+{"f": "practice", "id": "meet.03", "k": "q", "src": "You leave a shop; the owner stays. You say:", "tgt": "Sales de una tienda; el dueño se queda. Dices:"}
+{"f": "practice", "id": "meet.03", "k": "why", "src": "계세요 = stay well, said by the one leaving.", "tgt": "계세요 = quédate en paz; lo dice quien se va."}
+{"f": "practice", "id": "meet.04", "k": "q", "src": "'Where are you from?' =", "tgt": "«¿De dónde eres?» ="}
+{"f": "practice", "id": "meet.04", "k": "why", "src": "에서 왔어요 = came from.", "tgt": "에서 왔어요 = vine de."}
+{"f": "practice", "id": "meet.05", "k": "q", "src": "'I'm a student' =", "tgt": "«Soy estudiante» ="}
+{"f": "practice", "id": "meet.05", "k": "why", "src": "학생 ends in a consonant → 이에요.", "tgt": "학생 termina en consonante → 이에요."}
+{"f": "practice", "id": "meet.06", "k": "p", "src": "I'm from the US", "tgt": "Soy de Estados Unidos"}
+{"f": "practice", "id": "meet.06", "k": "why", "src": "Place + 에서 왔어요 = came from.", "tgt": "Lugar + 에서 왔어요 = vine de."}
+{"f": "practice", "id": "meet.07", "k": "p", "src": "I'm studying Korean", "tgt": "Estudio coreano"}
+{"f": "practice", "id": "meet.07", "k": "why", "src": "한국어 = Korean language; 한국 = Korea.", "tgt": "한국어 = idioma coreano; 한국 = Corea."}
+{"f": "practice", "id": "meet.08", "k": "p", "src": "Hello, I'm Minsu", "tgt": "Hola, soy Minsu"}
+{"f": "practice", "id": "meet.08", "k": "why", "src": "민수 ends in a vowel → 예요.", "tgt": "민수 termina en vocal → 예요."}
+{"f": "practice", "id": "meet.09", "k": "p", "src": "I'm a student", "tgt": "Soy estudiante"}
+{"f": "practice", "id": "meet.09", "k": "why", "src": "Consonant ending → 이에요.", "tgt": "Termina en consonante → 이에요."}
+{"f": "practice", "id": "meet.10", "k": "p", "src": "I'm Minsu", "tgt": "Soy Minsu"}
+{"f": "practice", "id": "meet.10", "k": "why", "src": "Vowel ending → 예요.", "tgt": "Termina en vocal → 예요."}
+{"f": "practice", "id": "meet.11", "k": "p", "src": "Goodbye (you are leaving, they stay)", "tgt": "Adiós (tú te vas, la otra persona se queda)"}
+{"f": "practice", "id": "meet.11", "k": "why", "src": "The one leaving says 계세요 (stay well).", "tgt": "Quien se va dice 계세요 (quédate en paz)."}
+{"f": "practice", "id": "meet.12", "k": "p", "src": "Nice to meet you", "tgt": "Mucho gusto"}
+{"f": "practice", "id": "meet.12", "k": "why", "src": "The standard first-meeting phrase.", "tgt": "La frase de siempre al conocer a alguien."}
+{"f": "practice", "id": "meet.13", "k": "p", "src": "Where are you from?", "tgt": "¿De dónde eres?"}
+{"f": "practice", "id": "meet.13", "k": "why", "src": "Lit. 'from where did you come?'", "tgt": "Lit. «¿de dónde viniste?»."}
+{"f": "practice", "id": "meet.14", "k": "p", "src": "How old are you?", "tgt": "¿Cuántos años tienes?"}
+{"f": "practice", "id": "meet.14", "k": "why", "src": "몇 = how many, 살 = years of age.", "tgt": "몇 = cuántos, 살 = años de edad."}
+{"f": "lessons", "id": "sound-changes", "k": "title", "src": "4 · Sound changes: why 감사합니다 sounds different", "tgt": "4 · Cambios de sonido: por qué 감사합니다 suena distinto"}
+{"f": "lessons", "id": "sound-changes", "k": "blurb", "src": "Four habits that make spoken Korean differ from its spelling. Learn to expect them.", "tgt": "Cuatro hábitos que hacen que el coreano hablado no suene como se escribe. Aprende a esperarlos."}
+{"f": "sentences", "id": "ko.s0019", "k": "gloss", "src": "Korean language · sounds like 한구거", "tgt": "idioma coreano · suena como 한구거"}
+{"f": "sentences", "id": "ko.s0020", "k": "gloss", "src": "music · sounds like 으막", "tgt": "música · suena como 으막"}
+{"f": "sentences", "id": "ko.s0021", "k": "gloss", "src": "there is · sounds like 이써요", "tgt": "hay · suena como 이써요"}
+{"f": "sentences", "id": "ko.s0022", "k": "gloss", "src": "thank you · sounds like 감사함니다", "tgt": "gracias · suena como 감사함니다"}
+{"f": "sentences", "id": "ko.s0023", "k": "gloss", "src": "nice to meet you · sounds like 반갑씀니다", "tgt": "mucho gusto · suena como 반갑씀니다"}
+{"f": "sentences", "id": "ko.s0024", "k": "gloss", "src": "Korean (speech) · sounds like 한궁말", "tgt": "coreano (el idioma hablado) · suena como 한궁말"}
+{"f": "sentences", "id": "ko.s0025", "k": "gloss", "src": "to be good · sounds like 조타", "tgt": "ser bueno · suena como 조타"}
+{"f": "sentences", "id": "ko.s0026", "k": "gloss", "src": "congratulations · sounds like 추카", "tgt": "felicitación · suena como 추카"}
+{"f": "sentences", "id": "ko.s0027", "k": "gloss", "src": "it's good · sounds like 조아요", "tgt": "es bueno, me gusta · suena como 조아요"}
+{"f": "sentences", "id": "ko.s0028", "k": "gloss", "src": "contact · sounds like 열락", "tgt": "contacto · suena como 열락"}
+{"f": "sentences", "id": "ko.s0029", "k": "gloss", "src": "Lunar New Year · sounds like 설랄", "tgt": "Año Nuevo lunar · suena como 설랄"}
+{"f": "checks", "id": "sound-changes.k1", "k": "q", "src": "감사합니다 sounds like:", "tgt": "감사합니다 suena como:"}
+{"f": "checks", "id": "sound-changes.k1", "k": "o[1]", "src": "감사합니다, exactly as spelled", "tgt": "감사합니다, tal como se escribe"}
+{"f": "checks", "id": "sound-changes.k1", "k": "why", "src": "ㅂ before ㄴ softens to ㅁ.", "tgt": "ㅂ antes de ㄴ se suaviza a ㅁ."}
+{"f": "checks", "id": "sound-changes.k2", "k": "q", "src": "한국어 sounds like:", "tgt": "한국어 suena como:"}
+{"f": "checks", "id": "sound-changes.k2", "k": "o[1]", "src": "한국 어, with a pause", "tgt": "한국 어, con una pausa"}
+{"f": "checks", "id": "sound-changes.k2", "k": "why", "src": "The final ㄱ slides into the empty ㅇ seat.", "tgt": "La ㄱ final se pasa al asiento vacío de la ㅇ."}
+{"f": "checks", "id": "sound-changes.k3", "k": "q", "src": "좋아요 sounds like:", "tgt": "좋아요 suena como:"}
+{"f": "checks", "id": "sound-changes.k3", "k": "why", "src": "ㅎ between vowels goes silent.", "tgt": "ㅎ entre vocales se vuelve muda."}
+{"f": "practice", "id": "sound-changes.01", "k": "q", "src": "감사합니다 sounds like:", "tgt": "감사합니다 suena como:"}
+{"f": "practice", "id": "sound-changes.01", "k": "why", "src": "ㅂ before ㄴ softens to ㅁ.", "tgt": "ㅂ antes de ㄴ se suaviza a ㅁ."}
+{"f": "practice", "id": "sound-changes.02", "k": "q", "src": "한국어 sounds like:", "tgt": "한국어 suena como:"}
+{"f": "practice", "id": "sound-changes.02", "k": "why", "src": "Final ㄱ links into the next block.", "tgt": "La ㄱ final se une al bloque siguiente."}
+{"f": "practice", "id": "sound-changes.03", "k": "q", "src": "좋아요 sounds like:", "tgt": "좋아요 suena como:"}
+{"f": "practice", "id": "sound-changes.03", "k": "why", "src": "ㅎ between vowels goes silent.", "tgt": "ㅎ entre vocales se vuelve muda."}
+{"f": "practice", "id": "sound-changes.04", "k": "q", "src": "연락 (contact) sounds like:", "tgt": "연락 (contacto) suena como:"}
+{"f": "practice", "id": "sound-changes.04", "k": "why", "src": "ㄴ + ㄹ → ㄹㄹ.", "tgt": "ㄴ + ㄹ → ㄹㄹ.", "pre": 1}
+{"f": "practice", "id": "sound-changes.05", "k": "q", "src": "축하 (congratulations) sounds like:", "tgt": "축하 (felicitación) suena como:"}
+{"f": "practice", "id": "sound-changes.05", "k": "why", "src": "ㄱ + ㅎ → ㅋ.", "tgt": "ㄱ + ㅎ → ㅋ.", "pre": 1}
+{"f": "practice", "id": "sound-changes.06", "k": "p", "src": "Build how 한국어 SOUNDS", "tgt": "Arma cómo SUENA 한국어"}
+{"f": "practice", "id": "sound-changes.06", "k": "why", "src": "ㄱ moves to the next block.", "tgt": "La ㄱ se pasa al bloque siguiente."}
+{"f": "practice", "id": "sound-changes.07", "k": "p", "src": "Build how 음악 SOUNDS", "tgt": "Arma cómo SUENA 음악"}
+{"f": "practice", "id": "sound-changes.07", "k": "why", "src": "ㅁ moves to the next block.", "tgt": "La ㅁ se pasa al bloque siguiente."}
+{"f": "practice", "id": "sound-changes.08", "k": "p", "src": "Build how 한국말 SOUNDS", "tgt": "Arma cómo SUENA 한국말"}
+{"f": "practice", "id": "sound-changes.08", "k": "why", "src": "ㄱ before ㅁ → ㅇ.", "tgt": "ㄱ antes de ㅁ → ㅇ."}
+{"f": "practice", "id": "sound-changes.09", "k": "p", "src": "Thank you — write the block as it SOUNDS", "tgt": "Gracias: escribe el bloque como SUENA"}
+{"f": "practice", "id": "sound-changes.09", "k": "why", "src": "ㅂ + ㄴ → ㅁ + ㄴ.", "tgt": "ㅂ + ㄴ → ㅁ + ㄴ.", "pre": 1}
+{"f": "practice", "id": "sound-changes.10", "k": "p", "src": "It's good — how 좋아요 SOUNDS", "tgt": "Es bueno: cómo SUENA 좋아요"}
+{"f": "practice", "id": "sound-changes.10", "k": "why", "src": "The ㅎ is silent between vowels.", "tgt": "La ㅎ entre vocales es muda."}
+{"f": "practice", "id": "sound-changes.11", "k": "p", "src": "Contact — how 연락 SOUNDS", "tgt": "Contacto: cómo SUENA 연락"}
+{"f": "practice", "id": "sound-changes.11", "k": "why", "src": "ㄴ + ㄹ → ㄹㄹ.", "tgt": "ㄴ + ㄹ → ㄹㄹ.", "pre": 1}
+{"f": "practice", "id": "sound-changes.12", "k": "p", "src": "Type the real SPELLING of the word that sounds like 한구거 (Korean language)", "tgt": "Escribe la ORTOGRAFÍA real de la palabra que suena como 한구거 (idioma coreano)"}
+{"f": "practice", "id": "sound-changes.12", "k": "why", "src": "Spelling keeps the ㄱ under 국.", "tgt": "La ortografía conserva la ㄱ debajo de 국."}
+{"f": "practice", "id": "sound-changes.13", "k": "p", "src": "Type the real SPELLING of the word that sounds like 조아요 (it's good)", "tgt": "Escribe la ORTOGRAFÍA real de la palabra que suena como 조아요 (es bueno)"}
+{"f": "practice", "id": "sound-changes.13", "k": "why", "src": "The silent ㅎ is still written.", "tgt": "La ㅎ muda se sigue escribiendo."}
+{"f": "practice", "id": "sound-changes.14", "k": "p", "src": "Type the real SPELLING of the word that sounds like 이써요 (there is)", "tgt": "Escribe la ORTOGRAFÍA real de la palabra que suena como 이써요 (hay)"}
+{"f": "practice", "id": "sound-changes.14", "k": "why", "src": "ㅆ is written under 있.", "tgt": "La ㅆ se escribe debajo de 있."}

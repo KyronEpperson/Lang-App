@@ -10,7 +10,7 @@ const PACK={ id:'es-ko', native:'es', target:'ko', ttsLang:'ko-KR', name:{en:'Ko
     'Comida':[['물','mul','agua',''],['밥','bap','arroz; comida',''],['커피','keopi','café',''],['김치','gimchi','kimchi',''],['맛있어요','masisseoyo','Está rico',''],['주세요','juseyo','Deme, por favor','Tras el objeto.']] },
   GROUPS:[['Primeros pasos',['Saludos','Comida']]], DESC:{'Saludos':'Saludar y agradecer.','Comida':'Pedir y opinar.'},
   DIALOG:{'안녕하세요':['안녕하세요!','네, 안녕하세요!','¡Hola! / ¡Sí, hola!']}, EXAMPLES:{'물':['물 주세요.','Agua, por favor.']}, PATTERNS:[['__ 주세요','Deme __, por favor','커피 주세요','Un café, por favor']],
-  LESSONS:[{id:'meet',title:'1 · Saludar',blurb:'Decir hola y gracias.',deck:'Saludos',body:'<h3>Hola</h3><p>En coreano el saludo no cambia con la hora.</p>{{ex:안녕하세요|annyeonghaseyo|Hola}}{{ex:감사합니다|gamsahamnida|Gracias}}'},
+  LESSONS:[{id:'meet',title:'1 · Saludar',blurb:'Decir hola y gracias.',deck:'Saludos',body:'<h3>Hola</h3><p>En coreano el saludo no cambia con la hora.</p>{{ex:안녕하세요|annyeonghaseyo|Hola}}{{ex:감사합니다|gamsahamnida|Gracias}}<div class="strokes-grid">{{strokes:ㄱ}}{{strokes:ㅏ}}</div>'},
     {id:'polite',title:'2 · Pedir',blurb:'Pedir algo con 주세요.',deck:'Comida',body:'<h3>Pedir</h3><p>El objeto va primero y 주세요 al final.</p>{{ex:물 주세요|mul juseyo|Agua, por favor}}'}],
   CHECKS:{meet:[['«Gracias» es…',['감사합니다','안녕하세요','네','아니요'],0,'감사합니다 es gracias.']],polite:[['«Agua, por favor» es…',['밥 주세요','물 주세요','커피 주세요','김치 주세요'],1,'물 es agua.']]},
   PRACTICE:{ meet:[{t:'mc',q:'¿Cómo se dice «hola»?',o:['안녕하세요','감사합니다','네','아니요'],why:'안녕하세요 es el saludo.'},{t:'order',p:'Sí, hola.',a:['네','안녕하세요'],x:['아니요'],why:'네 va primero.'},{t:'fill',q:'안녕__',p:'Hola (formal)',a:['하세요'],o:['히 가세요','합니다','이에요'],why:'안녕하세요.'},{t:'type',p:'Gracias',a:['감사합니다'],hint:'감사 · formal',why:'감사합니다.'}],
@@ -25,6 +25,7 @@ const BAD=/\b(English|Korean \(required\)|Hangul|Survival phrases|good morning|g
   /* open a lesson, its check and practice */
   const les=await p.evaluate(()=>{ location.hash='#lessons'; route(); const b=document.querySelector('[data-lesson="meet"],[data-open="meet"],[data-id="meet"]'); if(b){ b.click(); return 'click'; } if(typeof openLesson!=='undefined'){ openLesson='meet'; route(); return 'var'; } return null; }); await scan('lesson meet ('+les+')');
   const body=await p.evaluate(()=>document.body.innerText); ok('E3 lesson body shows the Spanish prose and Korean examples',/saludo no cambia/.test(body)&&/감사합니다/.test(body),body.slice(0,200).replace(/\n/g,' '));
+  const stx=await p.evaluate(()=>({cells:document.querySelectorAll('.sgl svg').length,raw:/\{\{strokes/.test(document.body.innerText)})); ok('E3b stroke-order tokens draw diagrams',stx.cells===2&&!stx.raw,JSON.stringify(stx));
   /* grading: typed Hangul against the pack's answers */
   const g=await p.evaluate(()=>{ const it=COURSE.PRACTICE.polite[3]; const m=typeof pracMatch==='function'?pracMatch:null; if(!m) return 'no pracMatch'; const r=x=>{ try{ return JSON.stringify(m(x,it.a)); }catch(e2){ return 'ERR '+e2; } }; return {exact:r('물 주세요'),nospace:r('물주세요'),wrong:r('밥 주세요')}; }); console.log('   grading',JSON.stringify(g));
   /* progress key and save */

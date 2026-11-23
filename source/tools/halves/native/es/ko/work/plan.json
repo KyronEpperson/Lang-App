@@ -1,0 +1,78 @@
+[
+ {
+  "name": "w1",
+  "desc": "course/groups/labels/decks; cards ko.c0001–ko.c0491 (491)",
+  "rows": 1206,
+  "pre": 29,
+  "rw": 19,
+  "words": 4413,
+  "bodyWords": 0,
+  "lessons": []
+ },
+ {
+  "name": "w2",
+  "desc": "cards ko.c0492–ko.c0641 (150); dialog/examples/patterns; lessons 1–4 (hangul … sound-changes): bodies + titles + example glosses + checks + practice",
+  "rows": 758,
+  "pre": 6,
+  "rw": 5,
+  "words": 4416,
+  "bodyWords": 596,
+  "lessons": [
+   "hangul",
+   "polite",
+   "meet",
+   "sound-changes"
+  ]
+ },
+ {
+  "name": "w3",
+  "desc": "lessons 5–18 (nouns … numbers): bodies + titles + example glosses + checks + practice",
+  "rows": 668,
+  "pre": 30,
+  "rw": 0,
+  "words": 4488,
+  "bodyWords": 1889,
+  "lessons": [
+   "nouns",
+   "isseoyo",
+   "pronouns-questions",
+   "verbbasics",
+   "verbs",
+   "past",
+   "future",
+   "sov",
+   "particles",
+   "negation",
+   "do-man",
+   "sentences",
+   "want-like",
+   "numbers"
+  ]
+ },
+ {
+  "name": "w4",
+  "desc": "lessons 19–33 (food … office): bodies + titles + example glosses + checks + practice",
+  "rows": 674,
+  "pre": 32,
+  "rw": 2,
+  "words": 4529,
+  "bodyWords": 1460,
+  "lessons": [
+   "food",
+   "getting-around",
+   "titles",
+   "plans",
+   "texting",
+   "counters",
+   "joining",
+   "story",
+   "noun-modifiers",
+   "compare",
+   "cant",
+   "have-to",
+   "honorific",
+   "requests",
+   "office"
+  ]
+ }
+]

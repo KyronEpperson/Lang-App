@@ -1,0 +1,294 @@
+{"id":"ko.s0001","gloss":"ㄴ + ㅏ side by side"}
+{"id":"ko.s0002","gloss":"ㄴ + ㅗ stacked"}
+{"id":"ko.s0003","gloss":"ㅎ + ㅏ + ㄴ final"}
+{"id":"ko.s0004","gloss":"ㅅ+ㅓ, ㅇ(silent)+ㅜ+ㄹ"}
+{"id":"ko.s0005","gloss":"Thanks (polite)"}
+{"id":"ko.s0006","gloss":"Thanks (casual)"}
+{"id":"ko.s0007","gloss":"You're cute (polite)"}
+{"id":"ko.s0008","gloss":"You're cute (casual)"}
+{"id":"ko.s0295","gloss":"Hello. I'm Kii."}
+{"id":"ko.s0010","gloss":"Nice to meet you"}
+{"id":"ko.s0011","gloss":"Where are you from?"}
+{"id":"ko.s0012","gloss":"I'm from the US"}
+{"id":"ko.s0013","gloss":"What do you do?"}
+{"id":"ko.s0014","gloss":"I'm studying Korean"}
+{"id":"ko.s0015","gloss":"How old are you?"}
+{"id":"ko.s0016","gloss":"I'm 28"}
+{"id":"ko.s0017","gloss":"Go well (they are leaving)"}
+{"id":"ko.s0018","gloss":"Stay well (you are leaving)"}
+{"id":"ko.s0019","gloss":"Korean language · sounds like 한구거"}
+{"id":"ko.s0020","gloss":"music · sounds like 으막"}
+{"id":"ko.s0021","gloss":"there is · sounds like 이써요"}
+{"id":"ko.s0022","gloss":"thank you · sounds like 감사함니다"}
+{"id":"ko.s0023","gloss":"nice to meet you · sounds like 반갑씀니다"}
+{"id":"ko.s0024","gloss":"Korean (speech) · sounds like 한궁말"}
+{"id":"ko.s0025","gloss":"to be good · sounds like 조타"}
+{"id":"ko.s0026","gloss":"congratulations · sounds like 추카"}
+{"id":"ko.s0027","gloss":"it's good · sounds like 조아요"}
+{"id":"ko.s0028","gloss":"contact · sounds like 열락"}
+{"id":"ko.s0029","gloss":"Lunar New Year · sounds like 설랄"}
+{"id":"ko.s0030","gloss":"a book / the book / books"}
+{"id":"ko.s0031","gloss":"friend / friends"}
+{"id":"ko.s0032","gloss":"friends (clearly more than one)"}
+{"id":"ko.s0033","gloss":"this book"}
+{"id":"ko.s0034","gloss":"that person"}
+{"id":"ko.s0035","gloss":"that building over there"}
+{"id":"ko.s0036","gloss":"(my) friend's house"}
+{"id":"ko.s0037","gloss":"my name"}
+{"id":"ko.s0038","gloss":"(I) am a student"}
+{"id":"ko.s0039","gloss":"(She) is a doctor"}
+{"id":"ko.s0040","gloss":"(I'm) not a student"}
+{"id":"ko.s0041","gloss":"What is this?"}
+{"id":"ko.s0042","gloss":"I'm a student (as for me: student)"}
+{"id":"ko.s0043","gloss":"My name is Minsu"}
+{"id":"ko.s0044","gloss":"This book is my book"}
+{"id":"ko.s0045","gloss":"My friend is a doctor"}
+{"id":"ko.s0046","gloss":"Is there a bathroom?"}
+{"id":"ko.s0047","gloss":"Yes, there is"}
+{"id":"ko.s0048","gloss":"No, there isn't"}
+{"id":"ko.s0049","gloss":"There is time / (I) have time"}
+{"id":"ko.s0050","gloss":"There is a cat"}
+{"id":"ko.s0051","gloss":"There's no money / (I) have no money"}
+{"id":"ko.s0052","gloss":"I have a cat"}
+{"id":"ko.s0053","gloss":"Do you have a younger sibling?"}
+{"id":"ko.s0054","gloss":"I don't have time"}
+{"id":"ko.s0055","gloss":"(I'm) at home"}
+{"id":"ko.s0056","gloss":"The cat is at home"}
+{"id":"ko.s0057","gloss":"Where is the bathroom?"}
+{"id":"ko.s0058","gloss":"My friend is at school"}
+{"id":"ko.s0059","gloss":"I am a student"}
+{"id":"ko.s0060","gloss":"my home (our house)"}
+{"id":"ko.s0061","gloss":"my mom"}
+{"id":"ko.s0062","gloss":"Are you a student, Minsu?"}
+{"id":"ko.s0063","gloss":"This (person) is a teacher"}
+{"id":"ko.s0064","gloss":"It's over there"}
+{"id":"ko.s0065","gloss":"Who is that person?"}
+{"id":"ko.s0066","gloss":"When is your birthday?"}
+{"id":"ko.s0067","gloss":"How much is this?"}
+{"id":"ko.s0068","gloss":"Who is there?"}
+{"id":"ko.s0069","gloss":"I go / you go / she goes / we go"}
+{"id":"ko.s0070","gloss":"eat"}
+{"id":"ko.s0071","gloss":"drink"}
+{"id":"ko.s0072","gloss":"The weather is good"}
+{"id":"ko.s0073","gloss":"The bag is big"}
+{"id":"ko.s0074","gloss":"study (noun) → (I) study"}
+{"id":"ko.s0075","gloss":"(I) exercise"}
+{"id":"ko.s0076","gloss":"(I) have time"}
+{"id":"ko.s0077","gloss":"(I) have no money"}
+{"id":"ko.s0078","gloss":"go"}
+{"id":"ko.s0079","gloss":"come"}
+{"id":"ko.s0080","gloss":"see, watch"}
+{"id":"ko.s0081","gloss":"read"}
+{"id":"ko.s0082","gloss":"there is / have"}
+{"id":"ko.s0083","gloss":"I go to school / I'm going to school"}
+{"id":"ko.s0084","gloss":"Are you going home?"}
+{"id":"ko.s0085","gloss":"What are you doing now?"}
+{"id":"ko.s0086","gloss":"My friend is coming"}
+{"id":"ko.s0087","gloss":"went"}
+{"id":"ko.s0088","gloss":"ate"}
+{"id":"ko.s0089","gloss":"studied"}
+{"id":"ko.s0090","gloss":"(it) was good"}
+{"id":"ko.s0091","gloss":"(I) was at home yesterday"}
+{"id":"ko.s0092","gloss":"(I) had no time"}
+{"id":"ko.s0093","gloss":"(I) was a student"}
+{"id":"ko.s0094","gloss":"(She) was a doctor"}
+{"id":"ko.s0095","gloss":"My friend came yesterday"}
+{"id":"ko.s0096","gloss":"What did you do yesterday?"}
+{"id":"ko.s0097","gloss":"(I) didn't go"}
+{"id":"ko.s0098","gloss":"will go"}
+{"id":"ko.s0099","gloss":"will watch"}
+{"id":"ko.s0100","gloss":"will do"}
+{"id":"ko.s0101","gloss":"will eat"}
+{"id":"ko.s0102","gloss":"will be (there)"}
+{"id":"ko.s0103","gloss":"I'll go to school tomorrow"}
+{"id":"ko.s0104","gloss":"What will you do on the weekend?"}
+{"id":"ko.s0105","gloss":"I'll be at home"}
+{"id":"ko.s0106","gloss":"I won't go"}
+{"id":"ko.s0107","gloss":"It will probably be tasty"}
+{"id":"ko.s0108","gloss":"It will probably be cold tomorrow"}
+{"id":"ko.s0109","gloss":"I (topic) rice (object) eat"}
+{"id":"ko.s0110","gloss":"Friend (subject) coffee (object) drinks"}
+{"id":"ko.s0111","gloss":"(I) read / look at a book"}
+{"id":"ko.s0112","gloss":"(I) drink coffee"}
+{"id":"ko.s0113","gloss":"(I) study Korean"}
+{"id":"ko.s0114","gloss":"(Did you) eat?"}
+{"id":"ko.s0115","gloss":"Yes, (I) ate"}
+{"id":"ko.s0116","gloss":"(I) drink coffee — 를 dropped"}
+{"id":"ko.s0117","gloss":"(I'm) going. / (Are you) going?"}
+{"id":"ko.s0118","gloss":"Where (are you) going?"}
+{"id":"ko.s0119","gloss":"What (are you) eating?"}
+{"id":"ko.s0120","gloss":"(I'm) going home"}
+{"id":"ko.s0121","gloss":"(I) go to school"}
+{"id":"ko.s0122","gloss":"My friend is coming to the café"}
+{"id":"ko.s0123","gloss":"(I) go to school on the weekend"}
+{"id":"ko.s0124","gloss":"(I) drink coffee in the morning"}
+{"id":"ko.s0125","gloss":"(I) rest at home"}
+{"id":"ko.s0126","gloss":"(I) study at a café"}
+{"id":"ko.s0127","gloss":"(I) came from the US"}
+{"id":"ko.s0128","gloss":"As for me, I'm a student"}
+{"id":"ko.s0129","gloss":"Who came? My friend came (new info → 가)"}
+{"id":"ko.s0130","gloss":"(I'm) not going"}
+{"id":"ko.s0131","gloss":"(I) don't drink coffee"}
+{"id":"ko.s0132","gloss":"(I) didn't eat"}
+{"id":"ko.s0133","gloss":"The weather isn't good"}
+{"id":"ko.s0134","gloss":"(I) don't study"}
+{"id":"ko.s0135","gloss":"(I) don't exercise on weekends"}
+{"id":"ko.s0136","gloss":"(I) don't like coffee"}
+{"id":"ko.s0137","gloss":"(I) don't go"}
+{"id":"ko.s0138","gloss":"(I) don't eat meat"}
+{"id":"ko.s0139","gloss":"(I) didn't study"}
+{"id":"ko.s0140","gloss":"I'm not a student"}
+{"id":"ko.s0141","gloss":"(She) isn't a doctor"}
+{"id":"ko.s0142","gloss":"(I) don't have time"}
+{"id":"ko.s0143","gloss":"I'm a student too"}
+{"id":"ko.s0144","gloss":"Me too"}
+{"id":"ko.s0145","gloss":"(I) have a cat too"}
+{"id":"ko.s0146","gloss":"as for me → me too"}
+{"id":"ko.s0147","gloss":"My friend came too (친구가 → 친구도)"}
+{"id":"ko.s0148","gloss":"(I) ate rice too (밥을 → 밥도)"}
+{"id":"ko.s0149","gloss":"(I) only drink coffee"}
+{"id":"ko.s0150","gloss":"Just this, please"}
+{"id":"ko.s0151","gloss":"Just water, please"}
+{"id":"ko.s0152","gloss":"(I) only eat rice"}
+{"id":"ko.s0153","gloss":"It's at home too"}
+{"id":"ko.s0154","gloss":"(I) study at school too"}
+{"id":"ko.s0155","gloss":"(I) only exercise on weekends"}
+{"id":"ko.s0156","gloss":"The coffee is tasty"}
+{"id":"ko.s0157","gloss":"(I) go to a café"}
+{"id":"ko.s0158","gloss":"(I) drink"}
+{"id":"ko.s0159","gloss":"(I) drink coffee at a café"}
+{"id":"ko.s0160","gloss":"Today I'm drinking coffee at a café with a friend"}
+{"id":"ko.s0161","gloss":"(I) drink water — new noun"}
+{"id":"ko.s0162","gloss":"(I) buy coffee — new verb"}
+{"id":"ko.s0163","gloss":"(I) don't drink coffee — 안 before the verb"}
+{"id":"ko.s0164","gloss":"Do you drink coffee? — same words, rising tone"}
+{"id":"ko.s0165","gloss":"(I) want to go"}
+{"id":"ko.s0166","gloss":"(I) want to eat"}
+{"id":"ko.s0167","gloss":"(I) want to see (it) / I miss you"}
+{"id":"ko.s0168","gloss":"(I) want to drink coffee"}
+{"id":"ko.s0169","gloss":"(I) want to go to Korea"}
+{"id":"ko.s0170","gloss":"What do you want to eat?"}
+{"id":"ko.s0171","gloss":"(I) don't want to go"}
+{"id":"ko.s0172","gloss":"(I) wanted to go"}
+{"id":"ko.s0173","gloss":"(I) like coffee"}
+{"id":"ko.s0174","gloss":"(I) like movies"}
+{"id":"ko.s0175","gloss":"Coffee is good / I like coffee"}
+{"id":"ko.s0176","gloss":"What do you like?"}
+{"id":"ko.s0177","gloss":"Two cups of coffee, please (native + counter 잔)"}
+{"id":"ko.s0178","gloss":"It's 5,000 won (Sino)"}
+{"id":"ko.s0179","gloss":"2:30 (native hour, Sino minutes)"}
+{"id":"ko.s0180","gloss":"I'm 25 (native + 살)"}
+{"id":"ko.s0181","gloss":"Excuse me! (to call staff)"}
+{"id":"ko.s0182","gloss":"This one, please (point at the menu)"}
+{"id":"ko.s0183","gloss":"Water, please"}
+{"id":"ko.s0184","gloss":"Check, please"}
+{"id":"ko.s0185","gloss":"Two gimbap, please"}
+{"id":"ko.s0186","gloss":"Three beers, please"}
+{"id":"ko.s0187","gloss":"Before eating: 'I will eat well'"}
+{"id":"ko.s0188","gloss":"After eating: 'I ate well'"}
+{"id":"ko.s0189","gloss":"Where is the subway station?"}
+{"id":"ko.s0190","gloss":"Go straight"}
+{"id":"ko.s0191","gloss":"Go left (으로 = toward)"}
+{"id":"ko.s0192","gloss":"Please go to Myeongdong"}
+{"id":"ko.s0193","gloss":"Please stop here"}
+{"id":"ko.s0194","gloss":"The next station is Gangnam"}
+{"id":"ko.s0195","gloss":"Boss (owner), the check please"}
+{"id":"ko.s0196","gloss":"Minsu, are you free?"}
+{"id":"ko.s0197","gloss":"(to older guy, from a girl) What are you doing?"}
+{"id":"ko.s0198","gloss":"What shall we do this weekend?"}
+{"id":"ko.s0199","gloss":"Want to have dinner together?"}
+{"id":"ko.s0200","gloss":"Sure, what time shall we meet?"}
+{"id":"ko.s0201","gloss":"See you at 7 at Hongik Univ. station exit 2"}
+{"id":"ko.s0202","gloss":"Sounds good / Deal!"}
+{"id":"ko.s0203","gloss":"Sorry, I have plans that day"}
+{"id":"ko.s0204","gloss":"Next time for sure"}
+{"id":"ko.s0205","gloss":"Where (are you) now?"}
+{"id":"ko.s0206","gloss":"I'm almost there"}
+{"id":"ko.s0207","gloss":"OK, 5 minutes"}
+{"id":"ko.s0208","gloss":"Hungry ㅠㅠ what should I eat"}
+{"id":"ko.s0209","gloss":"Yes, confirmed (work chat)"}
+{"id":"ko.s0210","gloss":"Two coffees, please"}
+{"id":"ko.s0211","gloss":"How many people? Four"}
+{"id":"ko.s0212","gloss":"Two tickets, please"}
+{"id":"ko.s0213","gloss":"I have three cats"}
+{"id":"ko.s0214","gloss":"It's cheap and tasty"}
+{"id":"ko.s0215","gloss":"(I) eat and (then) drink coffee"}
+{"id":"ko.s0216","gloss":"It's expensive but tasty"}
+{"id":"ko.s0217","gloss":"(I) want to go, but I have no time"}
+{"id":"ko.s0218","gloss":"I'm busy, so I'm not going"}
+{"id":"ko.s0219","gloss":"I was hungry, so I ate"}
+{"id":"ko.s0220","gloss":"(I) go to a café and study (there)"}
+{"id":"ko.s0221","gloss":"(I) came home and rested"}
+{"id":"ko.s0222","gloss":"I was busy, so I didn't go"}
+{"id":"ko.s0223","gloss":"Yesterday I met a friend"}
+{"id":"ko.s0224","gloss":"First we went to a café"}
+{"id":"ko.s0225","gloss":"And we drank coffee"}
+{"id":"ko.s0226","gloss":"After that we watched a movie"}
+{"id":"ko.s0227","gloss":"But the movie was too long"}
+{"id":"ko.s0228","gloss":"So I got home late"}
+{"id":"ko.s0229","gloss":"What did you do last weekend?"}
+{"id":"ko.s0230","gloss":"I had lunch a while ago"}
+{"id":"ko.s0231","gloss":"a big bag (크다)"}
+{"id":"ko.s0232","gloss":"a pretty flower (예쁘다)"}
+{"id":"ko.s0233","gloss":"good weather (좋다)"}
+{"id":"ko.s0234","gloss":"a small house (작다)"}
+{"id":"ko.s0235","gloss":"tasty food"}
+{"id":"ko.s0236","gloss":"a fun movie"}
+{"id":"ko.s0237","gloss":"spicy food (맵다)"}
+{"id":"ko.s0238","gloss":"cold weather (춥다)"}
+{"id":"ko.s0239","gloss":"a long movie (길다)"}
+{"id":"ko.s0240","gloss":"(I) have a big bag"}
+{"id":"ko.s0241","gloss":"(I) like spicy food"}
+{"id":"ko.s0242","gloss":"Have a good day"}
+{"id":"ko.s0243","gloss":"The bus is cheaper than a taxi"}
+{"id":"ko.s0244","gloss":"Today is colder than yesterday"}
+{"id":"ko.s0245","gloss":"The bus is cheaper than a taxi (same meaning)"}
+{"id":"ko.s0246","gloss":"More, please"}
+{"id":"ko.s0247","gloss":"Do you have a bigger bag?"}
+{"id":"ko.s0248","gloss":"It's less spicy"}
+{"id":"ko.s0249","gloss":"This is the tastiest"}
+{"id":"ko.s0250","gloss":"What is your favourite food?"}
+{"id":"ko.s0251","gloss":"Which is better?"}
+{"id":"ko.s0252","gloss":"Where is the cheapest?"}
+{"id":"ko.s0253","gloss":"I don't eat spicy food (by choice)"}
+{"id":"ko.s0254","gloss":"I can't eat spicy food (it's too much)"}
+{"id":"ko.s0255","gloss":"I can't go today"}
+{"id":"ko.s0296","gloss":"I can't swim (no skill: 못해요, one word)"}
+{"id":"ko.s0257","gloss":"I can't work out today"}
+{"id":"ko.s0258","gloss":"Can you speak Korean?"}
+{"id":"ko.s0259","gloss":"I can, a little"}
+{"id":"ko.s0260","gloss":"I can eat kimchi"}
+{"id":"ko.s0261","gloss":"I can't go tomorrow"}
+{"id":"ko.s0262","gloss":"I'm not sure"}
+{"id":"ko.s0263","gloss":"I don't know the way"}
+{"id":"ko.s0264","gloss":"I don't know either"}
+{"id":"ko.s0265","gloss":"(I) have to go now"}
+{"id":"ko.s0266","gloss":"(I) have to eat"}
+{"id":"ko.s0267","gloss":"(I) have to work tomorrow"}
+{"id":"ko.s0268","gloss":"(I) have to study"}
+{"id":"ko.s0269","gloss":"Do I have to go now?"}
+{"id":"ko.s0270","gloss":"What do I have to do?"}
+{"id":"ko.s0271","gloss":"(I) had to work yesterday"}
+{"id":"ko.s0272","gloss":"(You) don't have to go"}
+{"id":"ko.s0273","gloss":"(You) don't have to eat it"}
+{"id":"ko.s0274","gloss":"Where are you going? (to an elder)"}
+{"id":"ko.s0275","gloss":"When did you arrive? (honorific)"}
+{"id":"ko.s0276","gloss":"Please sit here"}
+{"id":"ko.s0277","gloss":"Enjoy your meal (lit. eat deliciously)"}
+{"id":"ko.s0278","gloss":"Good night (to an elder)"}
+{"id":"ko.s0279","gloss":"Is the owner in?"}
+{"id":"ko.s0280","gloss":"By any chance, do you have an English menu?"}
+{"id":"ko.s0281","gloss":"Would you mind speaking slowly?"}
+{"id":"ko.s0282","gloss":"Could you move us to a window seat?"}
+{"id":"ko.s0283","gloss":"May I charge here?"}
+{"id":"ko.s0284","gloss":"Sorry, but that's not possible"}
+{"id":"ko.s0285","gloss":"It's fine, never mind"}
+{"id":"ko.s0286","gloss":"Keep up the good work (to someone still working, as you leave)"}
+{"id":"ko.s0287","gloss":"Good work today (to a senior, after work)"}
+{"id":"ko.s0288","gloss":"Good work (to a junior or peer)"}
+{"id":"ko.s0289","gloss":"Hello, this is Kii from the marketing team"}
+{"id":"ko.s0290","gloss":"I'm writing about the report"}
+{"id":"ko.s0291","gloss":"Please take a look"}
+{"id":"ko.s0292","gloss":"Thank you. Kii"}
+{"id":"ko.s0293","gloss":"Please have a drink (pouring for a senior)"}
+{"id":"ko.s0294","gloss":"I have to drive, so (no thanks)"}

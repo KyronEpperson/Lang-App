@@ -148,3 +148,31 @@ if old and 'counts' in old:
 with open(KEYS, 'w', encoding='utf-8') as f:
     json.dump(out, f, ensure_ascii=False, indent=1); f.write('\n')
 print('keys.json: exact', len(exact), '· pattern positions', len(patterns), '· distinct templates', len(seen))
+
+# ---------- report static app strings that have no key (print only; keys.json and the exit code are unaffected) ----------
+# A string added to the static HTML of src/app.html after the key freeze never reaches any dictionary unless someone adds it to
+# ko/ui.json, and validate.js's app-coverage report only runs when cov.json exists. This lists such strings every time keys are
+# rebuilt. It skips data-noi18n subtrees; other content classes in the app's I18N_SKIP list may still show up (review by hand).
+if app and s0 > 0 and st_end > 0:
+    from html.parser import HTMLParser
+    VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr'}
+    class _P(HTMLParser):
+        def __init__(s): super().__init__(convert_charrefs=True); s.out, s.stack = [], []
+        def handle_starttag(s, tag, attrs):
+            a = dict(attrs); skip = (bool(s.stack) and s.stack[-1]) or 'data-noi18n' in a or tag in ('script', 'style', 'textarea')
+            if not skip:
+                for k in ('placeholder', 'aria-label', 'title'):
+                    if a.get(k): s.out.append(a[k])
+            if tag not in VOID: s.stack.append(skip)
+        def handle_endtag(s, tag):
+            if tag not in VOID and s.stack: s.stack.pop()
+        def handle_data(s, d):
+            if not (s.stack and s.stack[-1]): s.out.append(d)
+    _p = _P(); _p.feed(app[st_end + 8:s0])
+    _keys = {e['key'] for e in exact}; _rx = [re.compile(p['regex']) for p in patterns]; _miss = []
+    for v in _p.out:
+        v = re.sub(r'\s+', ' ', v).strip()
+        if v and re.search(r'[A-Za-z]{2}', v) and v not in _keys and v not in _miss and not any(r.match(v) for r in _rx): _miss.append(v)
+    if _miss:
+        print('NOTE %d static string(s) in src/app.html have no key (review; real UI strings go in ko/ui.json, then rerun):' % len(_miss))
+        for v in _miss: print('   ', json.dumps(v if len(v) <= 120 else v[:117] + '...', ensure_ascii=False))
