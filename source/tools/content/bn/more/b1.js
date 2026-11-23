@@ -81,10 +81,10 @@ practice:[
 ["fi","I would __ helped.","আমি সাহায্য করতাম","have","had|has|having","would-এর পরে have + V3 বসে।"],
 ["fi","I wish I __ more time.","আরেকটু সময় থাকলে ভালো হতো","had","have|would have|will have","I wish-এর পরে past রূপ বসে।"],
 ["ty","আমি তোমার জায়গায় থাকলে যেতাম","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd … একটা বাঁধা কথা।"],
-["ty","আমার একটা গাড়ি থাকলে ভালো হতো","I wish I had a car","I wish · had · car — আর্টিকেল a","the","যেকোনো একটা গাড়ি, তাই আর্টিকেল a।"],
+["ty","আমার একটা গাড়ি থাকলে ভালো হতো (I wish দিয়ে)","I wish I had a car","I wish · had · car — আর্টিকেল a","the","যেকোনো একটা গাড়ি, তাই আর্টিকেল a।"],
 ["ty","আমার একটা ট্যাক্সি নেওয়া উচিত ছিল","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — আর্টিকেল a","the","যেকোনো একটা ট্যাক্সি, তাই আর্টিকেল a।"]]},
 { id:"passive", title:"Passive (কর্মবাচ্য): be + V3", blurb:"কে করল তার চেয়ে কী ঘটল, সেটাই যখন বড় কথা।", deck:"অফিস ও ইমেইল", body:`
-<p>কাজটা <b>কে করল</b> তা অজানা বা গুরুত্বহীন হলে passive (কর্মবাচ্য) ব্যবহার করা হয়। বাংলায় আমরা সাধারণত অন্যভাবে বলি ("আমার ফোন চুরি হয়েছে", "মিটিংটা বাতিল হয়েছে") অথবা "করা হয়" বসাই; be + V3-এর মতো কোনো ছক বাংলায় নেই। ইংরেজির ছক: <b>be ক্রিয়া + V3</b>। কোন tense, তা দেখায় be ক্রিয়াটাই।</p>
+<p>কাজটা <b>কে করল</b> তা অজানা বা গুরুত্বহীন হলে passive (কর্মবাচ্য) ব্যবহার করা হয়। বাংলায় আমরা সাধারণত অন্যভাবে বলি ("আমার ফোন চুরি হয়েছে", "মিটিংটা বাতিল হয়েছে") অথবা "করা হয়" বসাই; be + V3-এর সঙ্গে হুবহু মেলে এমন একটিমাত্র ছক বাংলায় নেই। ইংরেজির ছক: <b>be ক্রিয়া + V3</b>। কোন tense, তা দেখায় be ক্রিয়াটাই।</p>
 {{ex:My phone was stolen.|মাই ˈফৌন ওয়াজ় ˈস্টৌলান|আমার ফোন চুরি হয়েছে}}{{ex:This was made in Bangladesh.|ˈদ়িস ওয়াজ় ˈমেইড ইন বাːংগ্লাˈডেশ|এটা বাংলাদেশে তৈরি}}{{ex:The meeting was canceled.|দ়া ˈমীটিং ওয়াজ় ˈক্যান্সাল্ড|মিটিংটা বাতিল হয়েছে}}
 <h3>Present: যা সব সময় এভাবেই হয়</h3>
 {{ex:English is spoken here.|ˈইংগ্লিশ ইজ় ˈস্পৌকান ˈহির|এখানে ইংরেজি বলা হয়}}{{ex:Breakfast is served at seven.|ˈব্রেক্ফাস্ট ইজ় ˈসার্ভ়্ড আট ˈসেভ়ান|সকালের নাশতা সাতটায় দেওয়া হয়}}
@@ -108,7 +108,7 @@ practice:[
 ["fi","It was written __ Han Kang.","এটা হান কাং-এর লেখা","by","from|of|with","কে করল, তা বলতে by বসে।"],
 ["ty","আমার ফোন চুরি হয়েছে","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be ক্রিয়া + V3, এখানে stolen।"],
 ["ty","মিটিংটা বাতিল হয়েছে","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — আর্টিকেল the","a","দুজনেরই জানা মিটিংটা, তাই আর্টিকেল the।"],
-["ty","দরজাটা তালা দেওয়া ছিল","The door was locked","the door · was · locked — আর্টিকেল the","a","এখানকার নির্দিষ্ট দরজাটা, তাই আর্টিকেল the।"]]},
+["ty","দরজাটায় তালা দেওয়া ছিল","The door was locked","the door · was · locked — আর্টিকেল the","a","এখানকার নির্দিষ্ট দরজাটা, তাই আর্টিকেল the।"]]},
 { id:"reported", title:"পরোক্ষ উক্তি: অন্যের কথা জানানো", blurb:"She said she was tired. tense এক ধাপ পেছায়, tell-এর পরে মানুষ।", deck:"ফোন ও চ্যাটের সংক্ষেপ", body:`
 <p>অন্য কেউ কী বলেছে, তা জানানোর উপায় (পরোক্ষ উক্তি)। বাংলায় সাধারণত "যে" বসিয়ে আসল কথাটাই রেখে দিই: সে বলল যে "আমি যাব"। ইংরেজিতে সর্বনাম বদলায়, আর <b>tense এক ধাপ অতীতে সরে যায়</b>: He said he would go.</p>
 <div class="tbl"><table><tr><th>আসল কথা</th><th>জানানোর সময়</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>

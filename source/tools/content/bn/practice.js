@@ -76,7 +76,7 @@ module.exports = {
     { t: "order", p: "আমি ছাত্র নই", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "be ক্রিয়ার না-বাচক রূপে not বসে; আর পরিচয়ের আগে আর্টিকেল a।" },
     { t: "order", p: "তার (মেয়ে) দুইটা কুকুর আছে", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "she-এর সঙ্গে has; দুইটা, তাই বহুবচনের -s বসিয়ে dogs।" },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "আমার ভাই সিউলে থাকে", a: ["lives"], o: ["live", "is live", "living"], why: "কর্তা he, তাই ক্রিয়ায় -s বসে: lives।" },
+    { t: "fill", q: "My brother __ in Seoul.", p: "আমার ভাই সিউলে থাকে", a: ["lives"], o: ["live", "is live", "living"], why: "কর্তা my brother, মানে he; তাই ক্রিয়ায় -s বসে: lives।" },
     { t: "fill", q: "__ you tired?", p: "তুমি কি ক্লান্ত?", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired একটা অবস্থা, তাই be ক্রিয়া দিয়ে প্রশ্ন; you-এর সঙ্গে are।" },
     { t: "fill", q: "We __ hungry.", p: "আমাদের খিদে পেয়েছে", a: ["are"], o: ["is", "am", "do"], why: "hungry একটা অবস্থা, তাই be ক্রিয়া লাগে; we-এর সঙ্গে are।" },
 
@@ -107,21 +107,21 @@ module.exports = {
 
   tense: [
     { t: "mc", q: "\"আমি এখন কফি খাচ্ছি\" ইংরেজিতে?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "এই মুহূর্তে চলছে এমন কাজে be + -ing; be ক্রিয়া বাদ দেওয়া যায় না।" },
-    { t: "mc", q: "\"গত উইকএন্ডে আমি সমুদ্রসৈকতে গিয়েছিলাম\" ইংরেজিতে?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go-এর past রূপ went। সৈকতের আগে আর্টিকেল the বসিয়ে the beach বলা হয়।" },
+    { t: "mc", q: "\"গত উইকেন্ডে আমি সমুদ্রসৈকতে গিয়েছিলাম\" ইংরেজিতে?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go-এর past রূপ went। সৈকতের আগে আর্টিকেল the বসিয়ে the beach বলা হয়।" },
     { t: "mc", q: "আগামী মাসের পরিকল্পনা: \"আমি জেজু দ্বীপে বেড়াতে যাব\"", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "আগে থেকে ঠিক করা পরিকল্পনায় be going to + ক্রিয়ার মূল রূপ।" },
     { t: "mc", q: "কলিং বেল বাজল। তখনই বললেন: \"আমি দরজা খুলছি!\"", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "কথা বলার মুহূর্তে নেওয়া সিদ্ধান্তে will।" },
     { t: "mc", q: "see-এর past রূপ?", o: ["saw", "seed", "seen", "sawed"], why: "see অনিয়মিত ক্রিয়া: see - saw - seen।" },
 
     { t: "order", p: "আমি একটা ব্যাংকে কাজ করি (সব সময়)", a: ["I", "work", "at", "a", "bank"], x: ["the", "working"], why: "সব সময়ের কাজে Present Simple; একটা ব্যাংকের কথা প্রথমবার বলছেন, তাই আর্টিকেল a।" },
     { t: "order", p: "আমি তোমাকে পরে ফোন করব", a: ["I'll", "call", "you", "later"], x: ["calling"], why: "কথা বলার মুহূর্তে দেওয়া কথায় will।" },
-    { t: "order", p: "আমি দুইটা সিনেমা দেখেছি", a: ["I", "saw", "two", "movies"], x: ["movie", "see"], why: "see-এর past রূপ saw; দুইটা, তাই বহুবচনের -s বসিয়ে movies।" },
+    { t: "order", p: "আমি দুইটা সিনেমা দেখলাম", a: ["I", "saw", "two", "movies"], x: ["movie", "see"], why: "see-এর past রূপ saw; দুইটা, তাই বহুবচনের -s বসিয়ে movies।" },
 
     { t: "fill", q: "I __ pizza last night.", p: "কাল রাতে আমি পিৎজা খেয়েছি", a: ["ate", "had"], o: ["eat", "eated", "eating"], why: "eat-এর past রূপ ate (have হলে had)। last night আছে, তাই Past Simple।" },
     { t: "fill", q: "__ you have fun?", p: "মজা হয়েছিল?", a: ["Did"], o: ["Does", "Are", "Were"], why: "অতীতের কথা জিজ্ঞেস করতে Did + ক্রিয়ার মূল রূপ।" },
     { t: "fill", q: "I'm going __ visit my parents.", p: "আমি মা-বাবার সঙ্গে দেখা করতে যাব (ঠিক করে রেখেছি)", a: ["to"], o: ["for", "at", "on"], why: "পরিকল্পনায় be going to + ক্রিয়ার মূল রূপ।" },
 
     { t: "type", p: "আজ আমি বাসা থেকে কাজ করছি", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — এখন চলছে", x: ["work"], why: "আজ যে কাজ চলছে, তাতে be + -ing।" },
-    { t: "type", p: "গত উইকএন্ডে আমি সমুদ্রসৈকতে গিয়েছিলাম", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — past রূপ আর আর্টিকেল", x: ["a"], why: "go-এর past রূপ went; সৈকতের আগে আর্টিকেল the বসিয়ে the beach।" },
+    { t: "type", p: "গত উইকেন্ডে আমি সমুদ্রসৈকতে গিয়েছিলাম", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — past রূপ আর আর্টিকেল", x: ["a"], why: "go-এর past রূপ went; সৈকতের আগে আর্টিকেল the বসিয়ে the beach।" },
     { t: "type", p: "আমি একটা রান্নার ক্লাস করব (পরিকল্পনা)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — একটা ক্লাসের আগের আর্টিকেল", x: ["the"], why: "আগে থেকে ঠিক করা পরিকল্পনায় going to; একটা ক্লাসের কথা প্রথমবার বলছেন, তাই আর্টিকেল a।" }
   ],
 
@@ -142,7 +142,7 @@ module.exports = {
 
     { t: "type", p: "আমি সকালে কফি খাই", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "coffee · morning — in + আর্টিকেল", x: ["at"], why: "দিনের ভাগের আগে in; আর in the morning-এ আর্টিকেল the বসাতেই হয়।" },
     { t: "type", p: "আমি এখন বাসায় আছি", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home — আর্টিকেল ছাড়া", x: ["the"], why: "at home-এ আর্টিকেল the বসে না।" },
-    { t: "type", p: "আগামী উইকএন্ডে দেখা হবে", a: ["See you next weekend"], hint: "see · next weekend — next-এর আগে preposition?", x: ["on"], why: "next-এর আগে কোনো preposition বসে না।" }
+    { t: "type", p: "আগামী উইকেন্ডে দেখা হবে", a: ["See you next weekend"], hint: "see · next weekend — next-এর আগে preposition?", x: ["on"], why: "next-এর আগে কোনো preposition বসে না।" }
   ],
 
   smalltalk: [
@@ -152,16 +152,16 @@ module.exports = {
     { t: "mc", q: "প্রথম আলাপে কোন কথাটা দিয়ে শুরু করা ভালো?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "আবহাওয়া হালকা আলাপের সবচেয়ে নিরাপদ বিষয়। বেতন, বিয়ে বা ওজনের কথা এড়িয়ে চলুন।" },
     { t: "mc", q: "I went to Busan last weekend. শুনে আগ্রহ দেখাতে কী বলবেন?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really? আর That sounds fun! দিয়ে আগ্রহ দেখানো যায়।" },
 
-    { t: "order", p: "উইকএন্ডে কোনো পরিকল্পনা আছে?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "পরিকল্পনা জিজ্ঞেস করার এই বাক্যে বহুবচন plans বসে; আর সামনের উইকএন্ডটাই, তাই আর্টিকেল the।" },
+    { t: "order", p: "উইকেন্ডে কোনো পরিকল্পনা আছে?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "পরিকল্পনা জিজ্ঞেস করার এই বাক্যে বহুবচন plans বসে; আর সামনের উইকেন্ডটাই, তাই আর্টিকেল the।" },
     { t: "order", p: "আপনার সঙ্গে কথা বলে ভালো লাগল", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "আলাপ শেষ করার সময়ের কথা। nice-এর পরে talking বসে।" },
     { t: "order", p: "আমি ভূতের সিনেমা পছন্দ করি না", a: ["I", "don't", "like", "horror", "movies"], x: ["movie", "the"], why: "সিনেমার কথা সাধারণভাবে বলছেন, তাই আর্টিকেল ছাড়া বহুবচন movies।" },
 
     { t: "fill", q: "Pretty good! How __ you?", p: "ভালোই! তোমার কী খবর?", a: ["about"], o: ["for", "with", "of"], why: "ছোট করে উত্তর দিয়ে How about you? বলে পাল্টা জিজ্ঞেস করাই ভদ্রতা।" },
     { t: "fill", q: "I know, __?", p: "ঠিক তাই! / আমিও তো তা-ই বলি!", a: ["right"], o: ["light", "yes", "true"], why: "I know, right? দিয়ে জোরালো সায় দেওয়া হয়। শব্দটা R দিয়ে শুরু।" },
-    { t: "fill", q: "Have you seen any good __ lately?", p: "ইদানীং ভালো কিছু দেখেছেন?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "any-র পরে গণনাযোগ্য বিশেষ্য নিয়ে এভাবে প্রশ্ন করলে বহুবচন বসে।" },
+    { t: "fill", q: "Have you seen any good __ lately?", p: "ইদানীং ভালো কোনো শো বা সিনেমা দেখেছেন?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "any-র পরে গণনাযোগ্য বিশেষ্য নিয়ে এভাবে প্রশ্ন করলে বহুবচন বসে।" },
 
-    { t: "type", p: "আপনার উইকএন্ড কেমন কাটল?", a: ["How was your weekend"], hint: "how · weekend — Past Simple-এ", x: ["is"], why: "গত উইকএন্ডের কথা, তাই was দিয়ে প্রশ্ন।" },
-    { t: "type", p: "আজ আবহাওয়াটা চমৎকার, তাই না?", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today — আর্টিকেল বসবে কি?", x: ["a"], why: "weather গণনাযোগ্য নয়, তাই আগে আর্টিকেল a বসে না (a nice weather ✗)।" },
+    { t: "type", p: "আপনার উইকেন্ড কেমন কাটল?", a: ["How was your weekend"], hint: "how · weekend — Past Simple-এ", x: ["is"], why: "গত উইকেন্ডের কথা, তাই was দিয়ে প্রশ্ন।" },
+    { t: "type", p: "আজ আবহাওয়াটা চমৎকার (nice দিয়ে)", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today — আর্টিকেল বসবে কি?", x: ["a"], why: "weather গণনাযোগ্য নয়, তাই আগে আর্টিকেল a বসে না (a nice weather ✗)।" },
     { t: "type", p: "আমি সিনেমা দেখতে পছন্দ করি", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "like · watch · movie — সাধারণভাবে বললে বহুবচন", x: ["movie"], why: "সিনেমার কথা সাধারণভাবে বলছেন, তাই বহুবচন movies।" }
   ],
 
@@ -201,7 +201,7 @@ module.exports = {
     { t: "fill", q: "I'll be there in ten __.", p: "আমি দশ মিনিটের মধ্যে পৌঁছাব", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "দশ মিনিট, তাই বহুবচন বসে: minutes।" },
 
     { t: "type", p: "সাড়ে তিনটা বাজে", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — ঘণ্টা আর মিনিট পরপর", x: ["thirteen"], why: "ঘণ্টা আর মিনিট পরপর বলুন: three thirty। 13 (thirteen)-এর সঙ্গে গুলিয়ে ফেলবেন না।" },
-    { t: "type", p: "দাম বিশ ডলার", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "twenty · dollar — দুই বা তার বেশি হলে বহুবচন", x: ["dollar"], why: "দুই ডলার বা তার বেশি হলে বহুবচনের -s বসিয়ে dollars।" },
+    { t: "type", p: "দাম বিশ ডলার", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "twenty · dollar — একের বেশি হলে বহুবচন", x: ["dollar"], why: "এক ডলারের বেশি হলে বহুবচনের -s বসিয়ে dollars।" },
     { t: "type", p: "আমি সপ্তাহে দুইবার ব্যায়াম করি", a: ["I work out twice a week", "I exercise twice a week"], hint: "work out · twice · week — \"সপ্তাহে\" বোঝাতে কোন আর্টিকেল?", x: ["the"], why: "\"সপ্তাহে\" বোঝাতে আর্টিকেল a বসিয়ে a week (the week ✗)।" }
   ],
 
@@ -210,7 +210,7 @@ module.exports = {
     { t: "mc", q: "রিপোর্ট অ্যাটাচ করেছেন, এ কথা জানাতে", o: ["I've attached the report.", "I've attached report.", "I attaching the report.", "I've attach the report."], why: "প্রাপক যে রিপোর্টটা পাচ্ছেন সেটাই, তাই আর্টিকেল the।" },
     { t: "mc", q: "\"ডেডলাইন কবে?\" ইংরেজিতে?", o: ["What's the deadline?", "What's deadline?", "When is a deadline?", "What deadline is?"], why: "এই কাজেরই নির্দিষ্ট ডেডলাইন, তাই আর্টিকেল the।" },
     { t: "mc", q: "উত্তর দিতে দেরি হলে ক্ষমা চাওয়ার বদলে কোন ইতিবাচক কথাটা লেখা যায়?", o: ["Thanks for your patience.", "Sorry, sorry, sorry.", "You waited too long.", "Thanks for your patients."], why: "Thanks for your patience লিখলে ক্ষমা না চেয়েও ভদ্র শোনায়। patients (রোগীরা)-এর সঙ্গে বানান গুলিয়ে ফেলবেন না।" },
-    { t: "mc", q: "শুক্রবারের ইমেইলের শেষে কোন শুভেচ্ছাটা মানানসই?", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "একটা উইকএন্ডের কথা, তাই আর্টিকেল a বসে আর weekend থাকে একবচনে।" },
+    { t: "mc", q: "শুক্রবারের ইমেইলের শেষে কোন শুভেচ্ছাটা মানানসই?", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "একটা উইকেন্ডের কথা, তাই আর্টিকেল a বসে আর weekend থাকে একবচনে।" },
 
     { t: "order", p: "রিপোর্টটা অ্যাটাচ করে দিয়েছি", a: ["I've", "attached", "the", "report"], x: ["a"], why: "প্রাপক যে রিপোর্টটা পাচ্ছেন সেটাই, তাই আর্টিকেল the।" },
     { t: "order", p: "চলুন, একটা মিটিং ঠিক করি", a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: "এখনো ঠিক হয়নি এমন একটা মিটিং, তাই আর্টিকেল a।" },
@@ -222,7 +222,7 @@ module.exports = {
 
     { t: "type", p: "কাল আমার ছুটি", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be ক্রিয়া + off", x: ["do"], why: "ছুটিতে থাকা বোঝাতে be off বলা হয়।" },
     { t: "type", p: "ফাইলটা অ্যাটাচ করে দিয়েছি", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — নির্দিষ্ট ফাইলটাই", x: ["a"], why: "প্রাপক যে ফাইলটা পাচ্ছেন সেটাই, তাই আর্টিকেল the।" },
-    { t: "type", p: "উইকএন্ড ভালো কাটুক!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — একটা উইকএন্ডের আগের আর্টিকেল", x: ["the"], why: "একটা উইকএন্ডের কথা, তাই আর্টিকেল a বসে: a great weekend।" }
+    { t: "type", p: "উইকেন্ড ভালো কাটুক!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — একটা উইকেন্ডের আগের আর্টিকেল", x: ["the"], why: "একটা উইকেন্ডের কথা, তাই আর্টিকেল a বসে: a great weekend।" }
   ],
 
   idioms: [

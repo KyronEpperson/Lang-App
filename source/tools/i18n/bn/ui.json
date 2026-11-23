@@ -602,7 +602,7 @@
    "where": "html <h3> text"
   },
   "Make card": {
-   "t": "কার্ড বানান",
+   "t": "কার্ড তৈরি করুন",
    "ko": "카드 만들기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1202,7 +1202,7 @@
    "where": "js admin() <button> @aria-label"
   },
   "Mark complete": {
-   "t": "সম্পন্ন চিহ্ন দিন",
+   "t": "সম্পন্ন হিসেবে চিহ্নিত করুন",
    "ko": "완료로 표시",
    "kind": "label",
    "where": "js admin() <button> @aria-label"
@@ -3108,7 +3108,7 @@
    "where": "js pl()"
   },
   "Make one": {
-   "t": "একটি বানান",
+   "t": "তৈরি করুন",
    "ko": "만들기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3180,7 +3180,7 @@
    "where": "js box() <h2>"
   },
   "Can you already read Hangul?": {
-   "t": "আপনি কি এখনই ইংরেজি পড়তে পারেন?",
+   "t": "আপনি কি আগে থেকেই ইংরেজি পড়তে পারেন?",
    "ko": "영어를 읽을 수 있나요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -4047,7 +4047,7 @@
    "where": "js (top level)"
   },
   "Pro": {
-   "t": "প্রো",
+   "t": "দক্ষ",
    "ko": "고수",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4075,7 +4075,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Talker": {
-   "t": "আড্ডাবাজ",
+   "t": "আলাপি",
    "ko": "수다쟁이",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4207,7 +4207,7 @@
    "where": "js x()"
   },
   "it's late, good work": {
-   "t": "অনেক রাত হয়েছে, ভালো কাজ করেছেন",
+   "t": "এত রাতেও পড়ছেন, দারুণ",
    "ko": "늦었네요, 수고했어요",
    "kind": "label",
    "where": "js x()"
@@ -4852,7 +4852,7 @@
    ]
   },
   "The missing part…": {
-   "t": "যে অংশটি নেই…",
+   "t": "শূন্যস্থানে যা বসবে…",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner fill placeholder",
@@ -6683,7 +6683,7 @@
    "example": "Start typing"
   },
   "Start typing · streak {n}": {
-   "t": "লেখা শুরু করুন · টানা {1}",
+   "t": "লেখা শুরু করুন · টানা সঠিক {1}",
    "ko": "입력해 보세요 · 연속 {1}",
    "slots": "{1}=n",
    "example": "Start typing · streak 5"
@@ -6695,13 +6695,13 @@
    "example": "Start typing · best 5"
   },
   "Start typing · streak {n} · best {n}": {
-   "t": "লেখা শুরু করুন · টানা {1} · সেরা {2}",
+   "t": "লেখা শুরু করুন · টানা সঠিক {1} · সেরা {2}",
    "ko": "입력해 보세요 · 연속 {1} · 최고 {2}",
    "slots": "{1}=n, {2}=n",
    "example": "Start typing · streak 5 · best 2"
   },
   "{n}% · {n} tried · streak {n}": {
-   "t": "{1}% · {2} বার চেষ্টা · টানা {3}",
+   "t": "{1}% · {2} বার চেষ্টা · টানা সঠিক {3}",
    "ko": "{1}% · {2}번 시도 · 연속 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5% · 2 tried · streak 3",
@@ -6715,7 +6715,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}% · {n} tried · streak {n} · best {n}": {
-   "t": "{1}% · {2} বার চেষ্টা · টানা {3} · সেরা {4}",
+   "t": "{1}% · {2} বার চেষ্টা · টানা সঠিক {3} · সেরা {4}",
    "ko": "{1}% · {2}번 시도 · 연속 {3} · 최고 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5% · 2 tried · streak 3 · best 4",

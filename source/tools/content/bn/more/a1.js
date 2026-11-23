@@ -66,7 +66,7 @@ practice:[
 {{ex:I drink coffee.|আই ˈড্রিংক ˈকফি|আমি কফি খাই}}{{ex:I study English.|আই ˈস্টাডি ˈইংগ্লিশ|আমি ইংরেজি পড়ি}}
 <h3>জায়গা আর সময় পরে</h3>
 <p>বাকি তথ্য ক্রিয়া ও কর্মের পরে বসে, <b>জায়গা → সময়</b> ক্রমে।</p>
-{{ex:We live in Dhaka.|ওয়ি ˈলিভ় ইন ˈডাːকা|আমরা ঢাকায় থাকি}}{{ex:I study English every day.|আই ˈস্টাডি ˈইংগ্লিশ ˈএভ়্রি ˈডেই|আমি প্রতিদিন ইংরেজি পড়ি}}{{ex:They work on weekends.|দ়েই ˈওয়ার্ক আːন ˈওয়ীকেন্ড্জ়|তারা সাপ্তাহিক ছুটির দিনে কাজ করে}}
+{{ex:We live in Dhaka.|ওয়ি ˈলিভ় ইন ˈডাːকা|আমরা ঢাকায় থাকি}}{{ex:I study English every day.|আই ˈস্টাডি ˈইংগ্লিশ ˈএভ়্রি ˈডেই|আমি প্রতিদিন ইংরেজি পড়ি}}{{ex:They work on weekends.|দ়েই ˈওয়ার্ক আːন ˈওয়ীকেন্ড্জ়|তারা উইকেন্ডে কাজ করে}}
 <h3>Present Simple: অভ্যাস আর সত্য</h3>
 <p>যা নিয়মিত করেন বা যা সব সময় সত্য, তা Present Simple-এ বলুন। বাংলায় ক্রিয়া কর্তা অনুযায়ী বদলায় (আমি করি, তুমি করো); ইংরেজিতে I, you, we, they-এর সঙ্গে ক্রিয়া একই থাকে। না-বাচক বাক্যে বাংলার "না" বসে ক্রিয়ার পরে, কিন্তু ইংরেজির <b>don't</b> বসে ক্রিয়ার <b>আগে</b>।</p>
 {{ex:I don't eat meat.|আই ˈডৌন্ট ˈঈট ˈমীট|আমি মাংস খাই না}}
@@ -83,7 +83,7 @@ practice:[
 ["mc","কোন বাক্যটি প্রতিদিনের অভ্যাস বোঝায়?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","অভ্যাস Present Simple-এ বলা হয়।"],
 ["or","আমি প্রতিদিন কফি খাই","I drink coffee every day","the am","অভ্যাস Present Simple-এ বলা হয়। সাধারণভাবে coffee বললে আর্টিকেল বসে না।"],
 ["or","আমি অনেক বই পড়ি","I read many books","book","many-এর পরে বহুবচন books বসে।"],
-["or","আমরা সাপ্তাহিক ছুটির দিনে কাজ করি","We work on weekends","are","be ছাড়া অন্য ক্রিয়ার আগে আবার be ক্রিয়া বসে না।"],
+["or","আমরা উইকেন্ডে কাজ করি","We work on weekends","are","be ছাড়া অন্য ক্রিয়ার আগে আবার be ক্রিয়া বসে না।"],
 ["fi","I __ like fish.","আমি মাছ পছন্দ করি না","don't|do not","not|am not|no","be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্যে don't বসে।"],
 ["fi","I __ English every day.","আমি প্রতিদিন ইংরেজি পড়ি","study","am study|studying|to study","Present Simple-এ I-এর সঙ্গে ক্রিয়ার মূল রূপ বসে।"],
 ["fi","They live __ Busan.","তারা বুসানে থাকে","in","at|on|to","শহরের নামের আগে in বসে।"],
@@ -119,8 +119,8 @@ practice:[
 ["ty","আপনি কি ইংরেজি বলেন?","Do you speak English|Can you speak English","do · speak · English","Are","be ছাড়া অন্য ক্রিয়ার প্রশ্ন Do দিয়ে শুরু হয়।"],
 ["ty","বাথরুমটা কোথায়?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — আর্টিকেল the","a","দুজনেই বুঝছেন কোন বাথরুম, তাই আর্টিকেল the।"],
 ["ty","আপনি কি কুকুর পছন্দ করেন?","Do you like dogs","do · like · dog — বহুবচন","dog","সব কুকুরের কথা সাধারণভাবে বললে বহুবচন dogs।"]]},
-{ id:"third-s", title:"he, she, it-এর সঙ্গে -s: does / doesn't", blurb:"কর্তা একজন বা একটা হলে ক্রিয়ায় -s। প্রশ্ন আর না-বাচক বাক্যে does।", deck:"নিজের পরিচয়", body:`
-<p>বাংলায় "সে কাজ করে" আর "তারা কাজ করে": ক্রিয়া একই। ইংরেজির Present Simple-এ কর্তা <b>he, she, it</b> বা যেকোনো একজন মানুষ / একটা জিনিস হলে ক্রিয়ার শেষে <b>-s</b> বসে: <b>He works</b>, কিন্তু <b>They work</b>। একটি গবেষণায় বাংলাভাষী শিক্ষার্থীদের ইংরেজি লেখায় কর্তা আর ক্রিয়ার এই মিলের ভুলই সবচেয়ে বেশি পাওয়া গেছে।</p>
+{ id:"third-s", title:"he, she, it-এর সঙ্গে -s: does / doesn't", blurb:"কর্তা he, she, it (বা my mom-এর মতো একজন) হলে ক্রিয়ায় -s। প্রশ্ন আর না-বাচক বাক্যে does।", deck:"নিজের পরিচয়", body:`
+<p>বাংলায় "সে কাজ করে" আর "তারা কাজ করে": ক্রিয়া একই। ইংরেজির Present Simple-এ কর্তা <b>he, she, it</b> বা অন্য যেকোনো একজন মানুষ / একটা জিনিস (I আর you বাদে) হলে ক্রিয়ার শেষে <b>-s</b> বসে: <b>He works</b>, কিন্তু <b>They work</b>। একটি গবেষণায় বাংলাভাষী শিক্ষার্থীদের ইংরেজি লেখায় কর্তা আর ক্রিয়ার এই মিলের ভুলই সবচেয়ে বেশি পাওয়া গেছে।</p>
 <div class="tbl"><table><tr><th>কর্তা</th><th>ক্রিয়া</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
 {{ex:She works at a bank.|শি ˈওয়ার্ক্স আট আ ˈব্যাংক|সে (মেয়ে) একটা ব্যাংকে কাজ করে}}{{ex:He likes soccer.|হি ˈলাইক্স ˈসাːকার|সে (ছেলে) ফুটবল পছন্দ করে}}{{ex:My mom cooks well.|মাই ˈমাːম ˈকুক্স ˈওয়েল|আমার মা ভালো রান্না করেন}}
 <p>আমেরিকায় ফুটবলকে বলে <b>soccer</b>; ব্রিটিশ ইংরেজিতে football।</p>
@@ -199,7 +199,7 @@ practice:[
 ["fi","Call __ tonight.","আজ রাতে আমাকে ফোন করো","me","I|my|mine","ক্রিয়ার পরে me বসে।"],
 ["fi","I work with __.","আমি তার (ছেলে) সঙ্গে কাজ করি","him","he|his|he's","preposition-এর পরেও কর্মের রূপ বসে।"],
 ["fi","She __ a dog.","তার (মেয়ে) একটা কুকুর আছে","has","have|is|haves","কর্তা she, তাই has।"],
-["ty","আমাকে একটু সাহায্য করবেন?","Can you help me|Could you help me","can you · help · me","I","ক্রিয়ার পরে কর্মের রূপ me বসে।"],
+["ty","আমাকে একটু সাহায্য করবেন? (Can you …?)","Can you help me|Could you help me","can you · help · me","I","ক্রিয়ার পরে কর্মের রূপ me বসে।"],
 ["ty","আপনার কাছে কলম আছে?","Do you have a pen","do you have · pen — আর্টিকেল a","the","যেকোনো একটা কলম খুঁজছেন, তাই আর্টিকেল a।"],
 ["ty","আমার অনেক বন্ধু আছে","I have many friends|I have a lot of friends","have · many · friend — বহুবচন","friend","many-এর পরে বহুবচন friends বসে।"]]},
 { id:"can-like", title:"can, like + -ing, I'd like: যা পারেন আর যা চান", blurb:"কী পারেন, কী ভালো লাগে আর এখন কী চান, তা বলুন।", deck:"হালকা আলাপ", body:`
@@ -227,7 +227,7 @@ practice:[
 ["fi","I can't __.","আমি সাঁতার কাটতে পারি না","swim","swimming|swims|to swim","can't-এর পরে ক্রিয়ার মূল রূপ বসে।"],
 ["fi","I like __ music.","আমার গান শুনতে ভালো লাগে","listening to","listen to|listen|to listening","like-এর পরে -ing রূপ বসে।"],
 ["fi","__ like a sandwich, please.","একটা স্যান্ডউইচ দিন","I'd|I would","I|I'm|I can","অর্ডার করতে I'd like বলুন।"],
-["ty","আমার রান্না করতে ভালো লাগে","I like cooking|I love cooking|I like to cook","like · cook — -ing","cook","like-এর পরে -ing রূপ বসে।"],
+["ty","আমার রান্না করতে ভালো লাগে","I like cooking|I love cooking|I like to cook","like · cook — -ing","cook","শখের কথায় like-এর পরে সাধারণত -ing রূপ বসে; like to cook-ও ঠিক।"],
 ["ty","(অর্ডার করছেন) একটা স্যান্ডউইচ দিন","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — আর্টিকেল a","the","যেকোনো একটা স্যান্ডউইচ, তাই আর্টিকেল a।"],
 ["ty","আমি কুকুর পছন্দ করি","I like dogs|I love dogs","like · dog — বহুবচন","dog","সব কুকুরের কথা সাধারণভাবে বললে বহুবচন dogs।"]]},
 { id:"continuous", title:"এখন যা করছেন: be + -ing", blurb:"নিয়মিত কাজ Present Simple-এ, এই মুহূর্তের কাজ be + -ing দিয়ে।", deck:"হালকা আলাপ", body:`
@@ -283,7 +283,7 @@ practice:[
 ["fi","I __ soccer yesterday.","আমি গতকাল ফুটবল খেলেছি","played","play|playing|was play","গতকালের কথা, তাই past রূপ: -ed।"],
 ["fi","__ you work yesterday?","তুমি কি গতকাল কাজ করেছ?","Did","Were|Do|Was","be ছাড়া অন্য ক্রিয়ার past-এর প্রশ্ন Did দিয়ে হয়।"],
 ["ty","আমি ক্লান্ত ছিলাম","I was tired","was · tired","were","I-এর সঙ্গে was বসে।"],
-["ty","আমি একটা সিনেমা দেখেছিলাম","I watched a movie","watched · movie — আর্টিকেল a","the","সিনেমা একটা, তাই আর্টিকেল a বসে।"],
+["ty","আমি একটা সিনেমা দেখেছিলাম (watch দিয়ে)","I watched a movie","watched · movie — আর্টিকেল a","the","সিনেমা একটা, তাই আর্টিকেল a বসে।"],
 ["ty","আমি আমার বন্ধুদের ফোন করেছিলাম","I called my friends","called · my · friend — বহুবচন","friend","একাধিক বন্ধু, তাই বহুবচন friends।"]]},
 { id:"irregular-past", title:"অনিয়মিত past: went, ate, saw", blurb:"যে ক্রিয়া যত বেশি চলে, তার past রূপ তত কম -ed দিয়ে হয়। আগে এই 12টি শিখে নিন।", deck:"হালকা আলাপ", body:`
 <p>রোজকার সবচেয়ে চেনা ক্রিয়াগুলো <b>অনিয়মিত</b>: এদের past রূপ -ed দিয়ে হয় না। কোনো নিয়ম নেই, তাই জোড়ায় জোড়ায় মুখস্থ করুন, স্কুলে যেভাবে ক্রিয়ার রূপের তালিকা পড়েছেন।</p>
@@ -336,7 +336,7 @@ practice:[
 ["fi","I saw a movie. __ movie was great.","আমি একটা সিনেমা দেখেছি। সিনেমাটা দারুণ ছিল","The","A|An|Some","একটু আগে বলা সেই সিনেমাটা, তাই the।"],
 ["fi","Where's __ bathroom?","বাথরুমটা কোথায়?","the","a|an|some","এই ভবনের নির্দিষ্ট বাথরুমটা, তাই the।"],
 ["fi","I have __ idea.","আমার একটা বুদ্ধি আছে","an","a|the|some","প্রথমবার বলা একটা জিনিস, আর idea স্বরধ্বনি দিয়ে শুরু, তাই an।"],
-["ty","দরজাটা একটু বন্ধ করবেন?","Can you close the door|Could you close the door","can you · close · door — আর্টিকেল the","a","দুজনেই জানেন কোন দরজা, তাই আর্টিকেল the।"],
+["ty","দরজাটা একটু বন্ধ করবেন? (Can you …?)","Can you close the door|Could you close the door","can you · close · door — আর্টিকেল the","a","দুজনেই জানেন কোন দরজা, তাই আর্টিকেল the।"],
 ["ty","স্টেশনটা কোথায়?","Where is the station|Where's the station","where · station — আর্টিকেল the","a","কাছের সেই স্টেশনটা, তাই আর্টিকেল the।"],
 ["ty","আমি বাসায় আছি","I'm at home|I'm home","I'm · at · home — আর্টিকেল ছাড়া","the","home-এর আগে আর্টিকেল বসে না।"]]},
 { id:"adjectives", title:"বিশেষণ ও তুলনা: bigger, more expensive, the best", blurb:"বিশেষণ বিশেষ্যের আগে। তুলনায় -er / more; সবচেয়ে বোঝাতে the -est / the most।", deck:"কেনাকাটা ও বিল", body:`
@@ -362,20 +362,20 @@ practice:[
 ["fi","It's __ small.","এটা বেশি ছোট","too","much|more|most","\"দরকারের চেয়ে বেশি\" বোঝাতে too।"],
 ["fi","This is cheaper __ that one.","এটা ওটার চেয়ে সস্তা","than","then|that|more","\"চেয়ে\" = than।"],
 ["fi","It's the __ expensive one.","এটাই সবচেয়ে দামি","most","more|much|very","লম্বা শব্দের সবচেয়ে-র রূপ: the most।"],
-["ty","আরও ছোট সাইজ আছে?","Do you have a smaller size","do you have · smaller · size — আর্টিকেল a","the","যেকোনো একটা সাইজ খুঁজছেন, তাই আর্টিকেল a।"],
+["ty","(দোকানিকে: Do you have …?) আরও ছোট সাইজ আছে?","Do you have a smaller size","do you have · smaller · size — আর্টিকেল a","the","যেকোনো একটা সাইজ খুঁজছেন, তাই আর্টিকেল a।"],
 ["ty","এটাই সবচেয়ে ভালো","This is the best|This one is the best","the · best — আর্টিকেল the","a","সবচেয়ে-র রূপের আগে আর্টিকেল the বসে।"],
 ["ty","এটা আরও সস্তা","This is cheaper|This one is cheaper","cheap — তুলনার রূপ","more","ছোট শব্দে -er বসে; সঙ্গে more নয়।"]]},
 { id:"going-to", title:"পরিকল্পনা বলা: be going to", blurb:"আগে থেকেই ঠিক করা কাজ: be going to + ক্রিয়া।", deck:"হালকা আলাপ", body:`
 <p>বাংলার "করব" দিয়ে পরিকল্পনা, প্রতিশ্রুতি, হঠাৎ নেওয়া সিদ্ধান্ত সবই বোঝায়। ইংরেজিতে <b>আগে থেকেই ঠিক করা পরিকল্পনা</b> বলতে <b>be + going to + ক্রিয়ার মূল রূপ</b> বসে।</p>
 {{ex:I'm going to visit Cox's Bazar.|আইম ˈগৌইং টা ˈভ়িজ়িট ˈকাːক্সিজ় বাˈজ়াːর|আমি কক্সবাজার বেড়াতে যাব}}{{ex:She's going to buy a car.|শিজ় ˈগৌইং টা ˈবাই আ ˈকাːর|সে (মেয়ে) একটা গাড়ি কিনবে}}{{ex:We're going to have dinner.|ওয়ির ˈগৌইং টা ˈহ্যাভ় ˈডিনার|আমরা রাতের খাবার খাব}}
 <h3>না-বাচক বাক্য ও প্রশ্ন</h3>
-{{ex:I'm not going to go.|আইম ˈনাːট ˈগৌইং টা ˈগৌ|আমি যাব না}}{{ex:Are you going to come?|আর ইউ ˈগৌইং টা ˈকাম|তুমি আসবে?}}{{ex:What are you going to do this weekend?|ˈওয়াট আর ইউ ˈগৌইং টা ˈডূ ˈদ়িস ˈওয়ীকেন্ড|এই সাপ্তাহিক ছুটিতে তুমি কী করবে?}}
+{{ex:I'm not going to go.|আইম ˈনাːট ˈগৌইং টা ˈগৌ|আমি যাব না}}{{ex:Are you going to come?|আর ইউ ˈগৌইং টা ˈকাম|তুমি আসবে?}}{{ex:What are you going to do this weekend?|ˈওয়াট আর ইউ ˈগৌইং টা ˈডূ ˈদ়িস ˈওয়ীকেন্ড|এই উইকেন্ডে তুমি কী করবে?}}
 <h3>চোখে যা দেখছেন, তা থেকে অনুমান</h3>
 {{ex:It's going to rain.|ইট্স ˈগৌইং টা ˈরেইন|বৃষ্টি হবে (আকাশ দেখেই বোঝা যাচ্ছে)}}
 <h3>সঙ্গে যে সময় বোঝানো শব্দ বসে</h3>
-<p>tomorrow (আগামীকাল), tonight (আজ রাতে), this weekend (এই সাপ্তাহিক ছুটিতে), next week (আগামী সপ্তাহে) বাক্যের শেষে বসান।</p>
+<p>tomorrow (আগামীকাল), tonight (আজ রাতে), this weekend (এই উইকেন্ডে), next week (আগামী সপ্তাহে) বাক্যের শেষে বসান।</p>
 <div class="tip">বলার সময় going to প্রায়ই <b>gonna</b>-র মতো শোনায়। আর be ক্রিয়া বাদ দেবেন না: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
-check:[["\"আমি আগামীকাল আমার বন্ধুর সঙ্গে দেখা করব\" ইংরেজিতে?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"ছাঁচটা হলো be + going to + ক্রিয়ার মূল রূপ।"],["She ___ going to study. শূন্যস্থানে কী বসবে?",["am","are","is","be"],2,"she-এর সঙ্গে is বসে।"],["\"এই সাপ্তাহিক ছুটিতে তুমি কী করবে?\" ইংরেজিতে?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"ক্রম হলো প্রশ্নবোধক শব্দ + be + কর্তা + going to।"]],
+check:[["\"আমি আগামীকাল আমার বন্ধুর সঙ্গে দেখা করব\" ইংরেজিতে?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"ছাঁচটা হলো be + going to + ক্রিয়ার মূল রূপ।"],["She ___ going to study. শূন্যস্থানে কী বসবে?",["am","are","is","be"],2,"she-এর সঙ্গে is বসে।"],["\"এই উইকেন্ডে তুমি কী করবে?\" ইংরেজিতে?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"ক্রম হলো প্রশ্নবোধক শব্দ + be + কর্তা + going to।"]],
 practice:[
 ["mc","\"আমি বুসান যাব\" ইংরেজিতে?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","ছাঁচটা হলো be + going to + ক্রিয়ার মূল রূপ।"],
 ["mc","They ___ going to come.","are","is","am","be","they-এর সঙ্গে are বসে।"],
@@ -432,7 +432,7 @@ practice:[
 {{ex:I woke up late this morning.|আই ˈওয়ৌক ˈআপ ˈলেইট ˈদ়িস ˈমর্নিং|আজ সকালে আমি দেরিতে উঠেছি}}{{ex:I didn't sleep well last night.|আই ˈডিডান্ট ˈস্লীপ ˈওয়েল ˈল্যাস্ট ˈনাইট|গতকাল রাতে আমার ভালো ঘুম হয়নি}}{{ex:I have a cousin in Sylhet.|আই ˈহ্যাভ় আ ˈকাজ়ান ইন সিল্ˈহেট|সিলেটে আমার একজন কাজিন আছে}}{{ex:He's my older brother.|হিজ় মাই ˈঔল্ডার ˈব্রাদ়ার|সে আমার বড় ভাই}}{{ex:One million taka.|ˈওয়ান ˈমিলিয়ান ˈটাːকা|10 লাখ টাকা}}{{ex:I'm Rafi.|আইম ˈরাːফি|আমি রাফি}}{{ex:Tomorrow is my day off.|টাˈমাːরৌ ইজ় মাই ˈডেই ˈঅফ|আগামীকাল আমার ছুটি}}
 <p>ইংরেজিতে "বড় ভাই", "ছোট বোন"-এর আলাদা শব্দ নেই; দরকার হলে <b>older</b> / <b>younger</b> বসান: my older brother, my younger sister। আর cousin গণনাযোগ্য, তাই একজন হলে <b>a cousin</b>, একাধিক হলে <b>cousins</b>।</p>
 <h3>যেসব শব্দের অর্থ বাইরে আলাদা</h3>
-<div class="tbl"><table><tr><th>দেশে</th><th>বিদেশে বলুন</th><th>সরাসরি বললে যা বোঝায়</th></tr><tr><td>হোটেল (খাওয়ার জায়গা)</td><td class="k">restaurant</td><td>hotel মানে শুধু থাকার জায়গা</td></tr><tr><td>কারেন্ট চলে গেছে</td><td class="k">The power is out.</td><td>current is gone বা load-shedding বেশির ভাগ দেশে অচেনা</td></tr><tr><td>কোচিং</td><td class="k">tutoring / a prep course</td><td>coaching বললে সাধারণত খেলার প্রশিক্ষণ বোঝায়</td></tr><tr><td>মার্কস, রেজাল্ট</td><td class="k">grades / score</td><td>আমেরিকায় marks-এর জায়গায় grades বা score বলে</td></tr><tr><td>এসএসসি / এইচএসসি পাস করেছি</td><td class="k">I finished high school.</td><td>SSC, HSC নামগুলো বাইরে অচেনা</td></tr><tr><td>ব্যাচেলর (ভাড়াটিয়া)</td><td class="k">single</td><td>bachelor মানে অবিবাহিত পুরুষ; শব্দটা এখন কম চলে</td></tr><tr><td>মেস</td><td class="k">a shared apartment</td><td>mess মানে অগোছালো, নোংরা অবস্থা</td></tr></table></div>
+<div class="tbl"><table><tr><th>দেশে</th><th>বিদেশে বলুন</th><th>সরাসরি বললে যা বোঝায়</th></tr><tr><td>হোটেল (খাওয়ার জায়গা)</td><td class="k">restaurant</td><td>hotel মানে শুধু থাকার জায়গা</td></tr><tr><td>কারেন্ট চলে গেছে</td><td class="k">The power is out.</td><td>current is gone বা load-shedding বেশির ভাগ দেশে অচেনা</td></tr><tr><td>কোচিং</td><td class="k">tutoring / a prep course</td><td>coaching বললে সাধারণত খেলার প্রশিক্ষণ বোঝায়</td></tr><tr><td>মার্কস, রেজাল্ট</td><td class="k">grades / score</td><td>আমেরিকায় marks-এর জায়গায় grades বা score বলে</td></tr><tr><td>এইচএসসি পাস করেছি</td><td class="k">I finished high school.</td><td>SSC, HSC নামগুলো বাইরে অচেনা</td></tr><tr><td>ব্যাচেলর (ভাড়াটিয়া)</td><td class="k">single</td><td>bachelor মানে অবিবাহিত পুরুষ; শব্দটা এখন কম চলে</td></tr><tr><td>মেস</td><td class="k">a shared apartment</td><td>mess মানে অগোছালো, নোংরা অবস্থা</td></tr></table></div>
 {{ex:Let's eat at a restaurant.|ˈলেট্স ˈঈট আট আ ˈরেস্টারাːন্ট|চলো রেস্টুরেন্টে খাই}}{{ex:The power is out.|দ়া ˈপাউআর ইজ় ˈআউট|কারেন্ট চলে গেছে}}{{ex:I finished high school last year.|আই ˈফিনিশ্ট ˈহাই ˈস্কূল ˈল্যাস্ট ˈইয়ির|আমি গত বছর এইচএসসি পাস করেছি}}
 <p>lift, flat, petrol, biscuit, torch, mobile ভুল নয়: এগুলো ব্রিটিশ ইংরেজি। আমেরিকায় বলে <b>elevator, apartment, gas, cookie, flashlight, cell phone</b>। এই কোর্সে আমেরিকান শব্দটা শেখানো হয়।</p>
 <h3>ব্যাকরণের চারটি চেনা অভ্যাস</h3>
@@ -456,9 +456,9 @@ practice:[
 ["or","আজ সকালে আমি চা খেয়েছি","I had tea this morning","ate today","চা খাওয়া = have tea; \"আজ সকালে\" = this morning।"],
 ["fi","We need new __.","আমাদের নতুন যন্ত্রপাতি দরকার","equipment","equipments|an equipment|equipmentes","equipment গোনা যায় না, তাই শেষে -s বসে না।"],
 ["fi","She is married __ a doctor.","তার (মেয়ে) বিয়ে হয়েছে একজন ডাক্তারের সঙ্গে","to","with|by|at","বাংলায় \"সঙ্গে\" হলেও ইংরেজিতে married to।"],
-["fi","Tomorrow is my day __.","আগামীকাল আমার ছুটির দিন","off","of|out|leave","ছুটির দিন = day off; off day নয়।"],
-["ty","সে (মেয়ে) আমাকে ভালো পরামর্শ দিয়েছে","She gave me good advice|She gave me some good advice","gave · good · advice — আর্টিকেল ছাড়া","advices an","advice গণনাযোগ্য নয়: আগে আর্টিকেল an বসে না, শেষে -s-ও বসে না।"],
-["ty","সিলেটে আমার একজন কাজিন আছে","I have a cousin in Sylhet|I have one cousin in Sylhet","have · cousin · in Sylhet — আর্টিকেল a","the brother","cousin গণনাযোগ্য আর এখানে একজন, তাই আর্টিকেল a; সঙ্গে brother বসে না।"],
+["fi","Tomorrow is my day __.","আগামীকাল আমার ছুটির দিন","off","of|up|leave","ছুটির দিন = day off; off day নয়।"],
+["ty","সে (মেয়ে) আমাকে ভালো পরামর্শ দিয়েছে","She gave me good advice|She gave me some good advice|She has given me good advice|She has given me some good advice","gave · good · advice — আর্টিকেল ছাড়া","advices an","advice গণনাযোগ্য নয়: আগে আর্টিকেল an বসে না, শেষে -s-ও বসে না।"],
+["ty","সিলেটে আমার একজন কাজিন আছে","I have a cousin in Sylhet|I have one cousin in Sylhet|I've got a cousin in Sylhet","have · cousin · in Sylhet — আর্টিকেল a","the brother","cousin গণনাযোগ্য আর এখানে একজন, তাই আর্টিকেল a; সঙ্গে brother বসে না।"],
 ["ty","আমার জ্বর হয়েছে","I have a fever|I've got a fever","have · fever — আর্টিকেল a","the am","জ্বর বোঝাতে a fever: আর্টিকেল a বাদ দেওয়া যায় না।"],
 ["ty","আমি তাকে (ছেলে) চিনি","I know him","know · him — -ing ছাড়া","knowing am","know অবস্থা বোঝায়, তাই I am knowing নয়, I know।"]]},
 ];

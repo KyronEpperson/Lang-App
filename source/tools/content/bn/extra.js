@@ -9,7 +9,7 @@ Good night. | I'm going to bed. Good night! | Good night! Sleep well. | আম�
 Where are you from? | So, where are you from? | I'm from Bangladesh. Dhaka, actually. | তা, আপনি কোথা থেকে এসেছেন? / বাংলাদেশ থেকে। ঢাকা থেকেই।
 What do you do? | What do you do? | I'm a designer. I work at a small startup. | আপনি কী করেন? / আমি ডিজাইনার। ছোট একটা স্টার্টআপে কাজ করি।
 What should I call you? | What should I call you? | Just call me Jay. Everyone does. | আপনাকে কী বলে ডাকব? / শুধু জে বলবেন। সবাই তা-ই ডাকে।
-I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | ছুটির দিনে কী করেন? / পাহাড়ে হাঁটতে আমার দারুণ লাগে। প্রায় প্রতি শনিবারই যাই।
+I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | উইকেন্ডে কী করেন? / পাহাড়ে হাঁটতে আমার দারুণ লাগে। প্রায় প্রতি শনিবারই যাই।
 I'm here on vacation. | Are you here for work? | No, I'm here on vacation. | আপনি কি কাজে এসেছেন? / না, ছুটি কাটাতে এসেছি।
 Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | মাফ করবেন, এটা কি টিকিটের লাইন? / জি, এটাই। লাইনের শেষ ওই দিকে।
 Thank you. | Here, let me get the door for you. | Oh, thank you! | দাঁড়ান, দরজাটা আমি ধরছি। / ও, ধন্যবাদ!
@@ -48,8 +48,8 @@ I'll take it. | It fits perfectly! I'll take it. | Great! I can ring you up over
 Cash or card? | Cash or card? | Card, please. | ক্যাশ, না কার্ড? / কার্ডে দেব।
 What time is it? | Excuse me, what time is it? | It's almost three. | মাফ করবেন, এখন কয়টা বাজে? / প্রায় তিনটা।
 Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | ত্রিশ ডলার হয়েছে। / দুঃখিত, তেরো, না ত্রিশ?
-How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | ছুটির দিনগুলো কেমন কাটল? / দারুণ! সমুদ্রের ধারে গিয়েছিলাম। আপনার কেমন কাটল?
-Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | ছুটির দিনে কোনো পরিকল্পনা আছে? / তেমন কিছু না। বাসায় বসে আরাম করব।
+How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | উইকেন্ড কেমন কাটল? / দারুণ! সমুদ্রের ধারে গিয়েছিলাম। আপনার কেমন কাটল?
+Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | উইকেন্ডে কোনো পরিকল্পনা আছে? / তেমন কিছু না। বাসায় বসে আরাম করব।
 Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | আজ আবহাওয়াটা সুন্দর, তাই না? / একদম! অবশেষে একটু রোদ উঠল।
 What do you do for fun? | What do you do for fun? | I play cricket and watch a lot of TV series. | অবসরে কী করতে ভালো লাগে? / আমি ক্রিকেট খেলি আর প্রচুর সিরিজ দেখি।
 Me neither. | I don't really like spicy food. | Me neither. | ঝাল খাবার আমার তেমন ভালো লাগে না। / আমারও না।
@@ -77,7 +77,7 @@ My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I se
 I don't feel well. | Are you okay? You look pale. | I don't feel well. I think I need to sit down. | আপনি ঠিক আছেন? মুখটা ফ্যাকাশে লাগছে। / আমার শরীর ভালো লাগছে না। মনে হয় একটু বসতে হবে।
 I have a sore throat. | What seems to be the problem? | I have a sore throat and a slight fever. | কী সমস্যা হচ্ছে? / আমার গলা ব্যথা করছে, সঙ্গে হালকা জ্বর।
 I lost my wallet. | I lost my wallet. I think I left it on the bus. | Let's call the bus company's lost and found. | আমার মানিব্যাগ হারিয়ে গেছে। মনে হয় বাসে ফেলে এসেছি। / চলুন, বাস কোম্পানির হারানো জিনিসের বিভাগে ফোন করি।
-hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | এই ছুটির দিনে একসঙ্গে ঘুরবে? / অবশ্যই! চলো, একটা সিনেমা দেখি।
+hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | এই উইকেন্ডে একসঙ্গে ঘুরবে? / অবশ্যই! চলো, একটা সিনেমা দেখি।
 pick up | Can you pick me up at the airport? | Of course. What time does your flight land? | এয়ারপোর্ট থেকে আমাকে নিয়ে আসতে পারবে? / অবশ্যই। তোমার ফ্লাইট কয়টায় নামবে?
 work out | You look great! Do you work out? | Yeah, I go to the gym three times a week. | তোমাকে দারুণ লাগছে! ব্যায়াম করো নাকি? / হ্যাঁ, সপ্তাহে তিন দিন জিমে যাই।
 It's not my cup of tea. | Do you want to go to the jazz concert? | Thanks, but honestly, it's not my cup of tea. | জ্যাজ কনসার্টে যাবে? / ধন্যবাদ, তবে সত্যি বলতে এটা ঠিক আমার পছন্দের জিনিস না।
@@ -91,7 +91,7 @@ Who's your bias? | Who's your bias? | Definitely the lead singer. What about you
 exports.EXAMPLES = `
 I'm a student. | I'm a student at a university in Dhaka. | আমি ঢাকার একটা বিশ্ববিদ্যালয়ে পড়ি।
 I work in marketing. | I work in marketing at a game company. | আমি একটা গেম কোম্পানির মার্কেটিংয়ে কাজ করি।
-I like watching movies. | I like watching movies on the weekends. | ছুটির দিনে আমি সিনেমা দেখতে পছন্দ করি।
+I like watching movies. | I like watching movies on the weekends. | উইকেন্ডে আমি সিনেমা দেখতে পছন্দ করি।
 I've been learning English for a year. | I've been learning English for a year, but speaking is still hard. | আমি এক বছর ধরে ইংরেজি শিখছি, কিন্তু বলতে এখনো কষ্ট হয়।
 Thanks a lot. | Thanks a lot for your help today. | আজ সাহায্য করার জন্য অনেক ধন্যবাদ।
 I speak a little English. | Sorry, I only speak a little English. | দুঃখিত, আমি অল্পই ইংরেজি বলতে পারি।
@@ -140,7 +140,7 @@ get along with | I get along with my roommate really well. | রুমমেট�
 It costs an arm and a leg. | Living in New York costs an arm and a leg. | নিউইয়র্কে থাকার খরচ আকাশছোঁয়া।
 Once in a blue moon | I only drink soda once in a blue moon. | আমি কোমল পানীয় খাই কালেভদ্রে।
 Low-key | I low-key want to dye my hair pink. | ভেতরে ভেতরে আমার চুল গোলাপি রং করার ইচ্ছা আছে।
-I binge-watched the whole season. | I binge-watched the whole season in one weekend. | এক ছুটিতেই পুরো সিজন এক টানা দেখে ফেলেছি।
+I binge-watched the whole season. | I binge-watched the whole season in one weekend. | এক উইকেন্ডেই পুরো সিজন এক টানা দেখে ফেলেছি।
 rice | I had rice and dal for lunch. | দুপুরে ডাল-ভাত খেয়েছি।
 think | I think so, too. | আমারও তা-ই মনে হয়।
 `;

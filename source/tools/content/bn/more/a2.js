@@ -51,7 +51,7 @@ practice:[
 ["fi","__ you help me?","তুমি কি আমাকে একটু সাহায্য করবে?","Will|Can|Could|Would","Do|Are|Is","অনুরোধ করতে Will you …? বলা যায়।"],
 ["ty","আমি তোমাকে সাহায্য করব","I'll help you|I'll help","I'll · help · you","helping","will-এর পরে ক্রিয়ার মূল রূপ বসে।"],
 ["ty","আমি একটা সালাদ নেব","I'll have a salad|I'll have the salad","I'll have · salad — আর্টিকেল খেয়াল করুন","salads","একটা অর্ডার করছেন, তাই আর্টিকেল a (মেনুর নির্দিষ্টটা হলে the)।"],
-["ty","আমি দরজাটা বন্ধ করে দিচ্ছি","I'll close the door|I'll shut the door","I'll · close · door — আর্টিকেল the","a","এখানকার নির্দিষ্ট দরজাটা, তাই আর্টিকেল the।"]]},
+["ty","আমি দরজাটা বন্ধ করে দিচ্ছি (will দিয়ে)","I'll close the door|I'll shut the door","I'll · close · door — আর্টিকেল the","a","এখানকার নির্দিষ্ট দরজাটা, তাই আর্টিকেল the।"]]},
 { id:"perfect", title:"Present Perfect: কখনো করেছেন?", blurb:"have + V3 দিয়ে অভিজ্ঞতার কথা। কখন, সেটা বললে Past Simple।", deck:"ভ্রমণ (বিমানবন্দর ও হোটেল)", body:`
 <p><b>have + V3 (past participle)</b> দিয়ে বলা হয়, "জীবনে এ পর্যন্ত এটা করেছি" বা "করিনি"। <b>কখন</b> করেছেন, সেটা এখানে বলা হয় না।</p>
 {{ex:I've been to Japan.|আইভ় বিন টা জাˈপ্যান|আমি জাপানে গিয়েছি}}{{ex:She has visited Bangladesh twice.|শি হাজ় ˈভ়িজ়িটিড বাːংগ্লাˈডেশ ˈট্ওয়াইস|সে দুইবার বাংলাদেশে এসেছে}}
@@ -64,13 +64,13 @@ practice:[
 <p>বাংলায় "গত বছর জাপানে গিয়েছি" বলা যায়: "করেছি" রূপটা শেষ হয়ে যাওয়া সময়ের সঙ্গেও চলে। ইংরেজিতে চলে না। last year, yesterday, in 2020-এর মতো সময় বোঝানো শব্দ থাকলে Present Perfect নয়, Past Simple বসে।</p>
 {{ex:I went to Japan last year.|আই ˈওয়েন্ট টা জাˈপ্যান ˈল্যাস্ট ˈইয়ির|আমি গত বছর জাপানে গিয়েছিলাম}}
 <div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓ "করেছি" দেখলেই have + V3 বসাবেন না; আগে দেখুন বাক্যে নির্দিষ্ট সময় আছে কি না।</div>`,
-check:[["\"তুমি কি কখনো জাপানে গিয়েছ?\" ইংরেজিতে?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"অভিজ্ঞতার প্রশ্ন: Have you ever + V3।"],["I ___ never seen that movie. শূন্যস্থানে কী বসবে?",["am","did","have","was"],2,"have + never + V3 বসে।"],["কোন বাক্যটি সঠিক?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"last year-এর মতো নির্দিষ্ট সময় থাকলে Past Simple বসে।"]],
+check:[["\"তুমি কি কখনো জাপানে গিয়েছ?\" ইংরেজিতে?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"অভিজ্ঞতার প্রশ্ন: Have you ever + V3।"],["I ___ never seen that movie. শূন্যস্থানে কী বসবে?",["am","did","have","was"],2,"have + never + V3 বসে।"],["কোন বাক্যটি ঠিক?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"last year-এর মতো নির্দিষ্ট সময় থাকলে Past Simple বসে।"]],
 practice:[
 ["mc","\"আমি জাপানে গিয়েছি\" (অভিজ্ঞতা) ইংরেজিতে?","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","have + V3, এখানে been।"],
 ["mc","see-এর V3 (past participle)?","seen","saw","seed","seeing","তিনটি রূপ: see – saw – seen।"],
 ["mc","\"তুমি কি কখনো কিমচি খেয়েছ?\" ইংরেজিতে?","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","অভিজ্ঞতার প্রশ্নে Have you ever + V3 বসে।"],
 ["mc","\"আমি এটা কখনো দেখিনি\" ইংরেজিতে?","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","have + never + V3 বসে।"],
-["mc","বাক্যে \"গত বছর\" আছে। কোনটি সঠিক?","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","নির্দিষ্ট সময় থাকলে Past Simple বসে।"],
+["mc","বাক্যে \"গত বছর\" আছে। কোনটি ঠিক?","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","নির্দিষ্ট সময় থাকলে Past Simple বসে।"],
 ["or","আমি সিনেমাটা দেখেছি","I've seen the movie","a saw","দুজনেরই জানা সিনেমাটা, তাই আর্টিকেল the।"],
 ["or","আমি দুইবার কোরিয়ায় গিয়েছি","I've been to Korea twice","went","have-এর পরে V3 বসে, এখানে been।"],
 ["or","আমি কখনো সাপ দেখিনি","I've never seen a snake","the snakes","যেকোনো একটা সাপের কথা, তাই আর্টিকেল a।"],
@@ -78,7 +78,7 @@ practice:[
 ["fi","I've __ eaten that.","আমি ওটা কখনো খাইনি","never","ever|no|not never","\"কখনো না\" বোঝাতে never বসে।"],
 ["fi","She __ visited Korea twice.","সে দুইবার কোরিয়ায় এসেছে","has","have|is|did","she-এর সঙ্গে has বসে।"],
 ["ty","তুমি কি কখনো জাপানে গিয়েছ?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","অভিজ্ঞতার প্রশ্ন: Have you ever been to …?"],
-["ty","আমি বইটা পড়েছি","I've read the book|I've read that book","I've · read · book — আর্টিকেল the","a","দুজনেরই জানা বইটা, তাই আর্টিকেল the।"],
+["ty","আমি বইটা পড়েছি (have দিয়ে)","I've read the book|I've read that book","I've · read · book — আর্টিকেল the","a","দুজনেরই জানা বইটা, তাই আর্টিকেল the।"],
 ["ty","আমি কখনো বিড়াল পুষিনি","I've never had a cat","never · had · cat — আর্টিকেল a","the","যেকোনো একটা বিড়ালের কথা, তাই আর্টিকেল a।"]]},
 { id:"modals", title:"have to, must, should, might: বাধ্যবাধকতা ও পরামর্শ", blurb:"করতে হবে, করা উচিত, হয়তো করব।", deck:"হাসপাতাল ও জরুরি অবস্থা", body:`
 <p>বাধ্যবাধকতা, পরামর্শ আর সম্ভাবনা বোঝানোর চারটি উপায়। চারটির পরেই <b>ক্রিয়ার মূল রূপ</b> বসে।</p>
@@ -159,7 +159,7 @@ practice:[
 ["fi","I speak __.","আমি ইংরেজি বলতে পারি","English","the English|an English|a English","ভাষার নামের আগে আর্টিকেল বসে না।"],
 ["fi","The sun rises in __ east.","সূর্য পূর্ব দিকে ওঠে","the","a|an|some","দিকের নামের আগে the বসে।"],
 ["fi","I love __.","গান আমার খুব ভালো লাগে","music","the musics|a music|musics","সাধারণ অর্থে music-এর আগে আর্টিকেল বসে না; এটা গণনাযোগ্য নয়, তাই -s-ও বসে না।"],
-["ty","আমি যুক্তরাষ্ট্র থেকে এসেছি","I'm from the United States|I'm from the US|I'm from America","I'm from · United States — আর্টিকেল the","a","United States-এর আগে আর্টিকেল the বসে।"],
+["ty","আমি যুক্তরাষ্ট্র থেকে এসেছি (I'm from দিয়ে)","I'm from the United States|I'm from the US|I'm from America","I'm from · United States — আর্টিকেল the","a","United States-এর আগে আর্টিকেল the বসে।"],
 ["ty","আমি গিটার বাজাই","I play the guitar|I play guitar","play · guitar — আর্টিকেল the","a","বাদ্যযন্ত্রের আগে আর্টিকেল the বসে।"],
 ["ty","বিড়াল খুব আদুরে হয় (সব বিড়াল)","Cats are cute","cat — আর্টিকেল ছাড়া বহুবচন","The cat","সাধারণভাবে বললে আর্টিকেল ছাড়া বহুবচন cats।"]]},
 { id:"first-conditional", title:"শর্তের বাক্য 1: If + present, will", blurb:"যদি … তাহলে …। if-এর পরে will বসে না।", deck:"অফিস ও ইমেইল", body:`
@@ -174,7 +174,7 @@ practice:[
 <p>ঘটনাটা ঘটবেই জানা থাকলে if-এর বদলে when বসে। এখানেও will বসে না।</p>
 {{ex:When I get home, I'll call you.|ওয়েন আই ˈগেট ˈহৌম আইল ˈকল ইউ|বাসায় পৌঁছে তোমাকে ফোন করব}}
 <div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>If it will rain, …</b> ✗ → <b>If it rains, …</b> ✓</div>`,
-check:[["If it ___ tomorrow, I'll stay home. শূন্যস্থানে কী বসবে?",["will rain","rains","rained","raining"],1,"if-এর পরে Present Simple বসে।"],["If you study, you ___ pass. শূন্যস্থানে কী বসবে?",["pass will","passing","will pass","passed"],2,"ফলাফলের অংশে will + ক্রিয়ার মূল রূপ।"],["কোন বাক্যটি সঠিক?",["If I have time, I'll call you.","If I will have time, I call you.","If I'll have time, I'll call you.","If I have time, I calling you."],0,"if-এর অংশে Present Simple, ফলাফলের অংশে will।"]],
+check:[["If it ___ tomorrow, I'll stay home. শূন্যস্থানে কী বসবে?",["will rain","rains","rained","raining"],1,"if-এর পরে Present Simple বসে।"],["If you study, you ___ pass. শূন্যস্থানে কী বসবে?",["pass will","passing","will pass","passed"],2,"ফলাফলের অংশে will + ক্রিয়ার মূল রূপ।"],["কোন বাক্যটি ঠিক?",["If I have time, I'll call you.","If I will have time, I call you.","If I'll have time, I'll call you.","If I have time, I calling you."],0,"if-এর অংশে Present Simple, ফলাফলের অংশে will।"]],
 practice:[
 ["mc","If it ___, I'll stay home.","rains","will rain","rained","is rain","if-এর পরে Present Simple বসে।"],
 ["mc","If you're late, ___ me.","call","will calling","calls","to call","আদেশ বা অনুরোধ ক্রিয়ার মূল রূপ দিয়ে শুরু হয়।"],
@@ -202,7 +202,7 @@ practice:[
 <h3>জায়গার বেলায় where</h3>
 {{ex:the cafe where we met|দ়া ক্যাˈফেই ওয়ের ওয়ি ˈমেট|যে ক্যাফেতে আমাদের দেখা হয়েছিল}}
 <div class="tip">ক্রমটা মনে রাখুন: <b>আগে বিশেষ্য, পরে বর্ণনা।</b> "আমার কেনা বই" → the book (that) I bought। what বসে না: <b>the book what I bought</b> ✗ বাড়তি সর্বনামও বসে না: <b>the man who he lives next door</b> ✗</div>`,
-check:[["I have a friend ___ lives in Busan. শূন্যস্থানে কী বসবে?",["which","who","what","he"],1,"মানুষের বর্ণনায় who বসে।"],["\"আমার কেনা বইটা\" ইংরেজিতে?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"আগে বিশেষ্য, তারপর that দিয়ে বর্ণনা।"],["কোন বাক্যটি সঠিক?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"বর্ণনা বিশেষ্যের পরে বসে।"]],
+check:[["I have a friend ___ lives in Busan. শূন্যস্থানে কী বসবে?",["which","who","what","he"],1,"মানুষের বর্ণনায় who বসে।"],["\"আমার কেনা বইটা\" ইংরেজিতে?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"আগে বিশেষ্য, তারপর that দিয়ে বর্ণনা।"],["কোন বাক্যটি ঠিক?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"বর্ণনা বিশেষ্যের পরে বসে।"]],
 practice:[
 ["mc","I have a friend ___ speaks English.","who","which","what","she","মানুষের বর্ণনায় who বসে।"],
 ["mc","\"আমার কেনা বইটা\" ইংরেজিতে?","the book that I bought","the I bought book","the book what I bought","the bought I book","আগে বিশেষ্য, পরে বর্ণনা।"],
@@ -216,6 +216,6 @@ practice:[
 ["fi","the book __ I read","আমার পড়া বইটা","that|which","who|what|it","জিনিসের বর্ণনায় that বসে।"],
 ["fi","the cafe __ we met","যে ক্যাফেতে আমাদের দেখা হয়েছিল","where","who|what|it","জায়গার বর্ণনায় where বসে।"],
 ["ty","এটাই আমার কেনা বইটা","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought — আর্টিকেল the","a","আমার কেনা নির্দিষ্ট বইটা, তাই আর্টিকেল the।"],
-["ty","আমার এমন একজন বন্ধু আছে যে কোরিয়ান বলতে পারে","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — আর্টিকেল a","the","প্রথমবার বলা একজন বন্ধু, তাই আর্টিকেল a।"],
+["ty","আমার এমন একজন বন্ধু আছে যে কোরিয়ান ভাষায় কথা বলে","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean — আর্টিকেল a","the","প্রথমবার বলা একজন বন্ধু, তাই আর্টিকেল a।"],
 ["ty","আমরা যে সিনেমাটা দেখেছি, সেটা দারুণ ছিল","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","আগে বিশেষ্য, পরে বর্ণনা।"]]},
 ];
