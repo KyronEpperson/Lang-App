@@ -110,7 +110,7 @@ module.exports = {
 
   tense: [
     { t: "mc", q: "\"ఇప్పుడు కాఫీ తాగుతున్నాను\" ఇంగ్లీష్‌లో?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "ఇప్పుడు జరుగుతున్న పనికి be + -ing." },
-    { t: "mc", q: "\"పోయిన వారాంతం బీచ్‌కి వెళ్ళాను\" ఇంగ్లీష్‌లో?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go కి V2 went. బీచ్ ముందు ఆర్టికల్ the వస్తుంది: the beach." },
+    { t: "mc", q: "\"పోయిన వీకెండ్ బీచ్‌కి వెళ్ళాను\" ఇంగ్లీష్‌లో?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go కి V2 went. బీచ్ ముందు ఆర్టికల్ the వస్తుంది: the beach." },
     { t: "mc", q: "వచ్చే నెల ప్లాన్ చెబుతూ: \"జెజుకి వెళ్ళబోతున్నాను\"", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "ముందే వేసుకున్న ప్లాన్‌కు be going to + V1." },
     { t: "mc", q: "కాలింగ్ బెల్ మోగింది. అప్పటికప్పుడు: \"నేను తలుపు తీస్తాను!\"", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "మాట్లాడుతున్న క్షణంలో తీసుకున్న నిర్ణయానికి will." },
     { t: "mc", q: "see కి V2 (past) ఏది?", o: ["saw", "seed", "seen", "sawed"], why: "see ఇర్రెగ్యులర్ క్రియ: see, saw, seen." },
@@ -124,7 +124,7 @@ module.exports = {
     { t: "fill", q: "I'm going __ visit my parents.", p: "మా అమ్మానాన్నల దగ్గరికి వెళ్ళబోతున్నాను", a: ["to"], o: ["for", "at", "on"], why: "ప్లాన్‌కు be going to + V1." },
 
     { t: "type", p: "ఈరోజు ఇంటి నుంచి పని చేస్తున్నాను", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today (ఇప్పుడు జరుగుతున్నది)", x: ["work"], why: "ఈరోజు జరుగుతున్న పనికి be + -ing." },
-    { t: "type", p: "పోయిన వారాంతం బీచ్‌కి వెళ్ళాను", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend (V2, ఆర్టికల్)", x: ["a"], why: "go కి V2 went; బీచ్ ముందు ఆర్టికల్ the వస్తుంది: the beach." },
+    { t: "type", p: "పోయిన వీకెండ్ బీచ్‌కి వెళ్ళాను", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend (V2, ఆర్టికల్)", x: ["a"], why: "go కి V2 went; బీచ్ ముందు ఆర్టికల్ the వస్తుంది: the beach." },
     { t: "type", p: "నేను ఒక వంట క్లాసులో చేరబోతున్నాను (ప్లాన్; take వాడండి)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class (ఒక క్లాసు ముందు ఆర్టికల్)", x: ["the"], why: "ముందే వేసుకున్న ప్లాన్‌కు going to; ఒక క్లాసు గురించి మొదటిసారి చెబుతున్నాం కాబట్టి ఆర్టికల్ a." }
   ],
 
@@ -145,7 +145,7 @@ module.exports = {
 
     { t: "type", p: "నేను ఉదయం పూట కాఫీ తాగుతాను", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "coffee · morning (in + ఆర్టికల్)", x: ["at"], why: "రోజులో ఒక పూటకు in; in the morning లో ఆర్టికల్ the తప్పనిసరి." },
     { t: "type", p: "నేను ఇప్పుడు ఇంట్లో ఉన్నాను", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home (ఆర్టికల్ లేకుండా)", x: ["the"], why: "at home లో ఆర్టికల్ the రాదు." },
-    { t: "type", p: "వచ్చే వారాంతం కలుద్దాం", a: ["See you next weekend"], hint: "see · next weekend (next ముందు ప్రిపొజిషన్ వస్తుందా?)", x: ["on"], why: "next ముందు ప్రిపొజిషన్ రాదు." }
+    { t: "type", p: "వచ్చే వీకెండ్ కలుద్దాం", a: ["See you next weekend"], hint: "see · next weekend (next ముందు ప్రిపొజిషన్ వస్తుందా?)", x: ["on"], why: "next ముందు ప్రిపొజిషన్ రాదు." }
   ],
 
   smalltalk: [
@@ -155,7 +155,7 @@ module.exports = {
     { t: "mc", q: "మొదటిసారి కలిసిన వ్యక్తితో మాట కలపడానికి ఏది మంచిది?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "వాతావరణం అన్నిటికంటే సురక్షితమైన small talk విషయం. జీతం, పెళ్ళి, బరువు వ్యక్తిగత విషయాలు." },
     { t: "mc", q: "I went to Busan last weekend. విని ఆసక్తి చూపించే మాట ఏది?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really?, That sounds fun! తో ఆసక్తి చూపిస్తాం." },
 
-    { t: "order", p: "వారాంతానికి ఏమైనా ప్లాన్‌లు ఉన్నాయా?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "ఈ ప్రశ్నలో బహువచనం plans వస్తుంది; రాబోయే ఈ వారాంతం కాబట్టి ఆర్టికల్ the." },
+    { t: "order", p: "వీకెండ్‌కి ఏమైనా ప్లాన్‌లు ఉన్నాయా?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "ఈ ప్రశ్నలో బహువచనం plans వస్తుంది; రాబోయే ఈ వీకెండ్ కాబట్టి ఆర్టికల్ the." },
     { t: "order", p: "మీతో మాట్లాడటం సంతోషంగా ఉంది", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "సంభాషణ ముగించేటప్పుడు చెప్పే మాట. nice తర్వాత talking వస్తుంది." },
     { t: "order", p: "నాకు హారర్ సినిమాలు ఇష్టం లేదు", a: ["I", "don't", "like", "horror", "movies"], x: ["movie", "the"], why: "సినిమాల గురించి మామూలుగా చెబుతున్నాం కాబట్టి ఆర్టికల్ లేకుండా బహువచనం: movies." },
 
@@ -163,7 +163,7 @@ module.exports = {
     { t: "fill", q: "I know, __?", p: "అవును కదా! / నేనూ అదే అంటున్నా!", a: ["right"], o: ["light", "yes", "true"], why: "I know, right? గట్టిగా ఏకీభవించే మాట. right R తో మొదలవుతుంది; light అంటే వెలుతురు." },
     { t: "fill", q: "Have you seen any good __ lately?", p: "ఈ మధ్య మంచివి ఏమైనా చూశారా?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "any తర్వాత లెక్కించదగిన నామవాచకం గురించి ఇలా అడిగేటప్పుడు బహువచనం వస్తుంది." },
 
-    { t: "type", p: "మీ వారాంతం ఎలా గడిచింది?", a: ["How was your weekend"], hint: "how · weekend (Simple Past లో)", x: ["is"], why: "గడిచిపోయిన వారాంతం కాబట్టి was తో అడగాలి." },
+    { t: "type", p: "మీ వీకెండ్ ఎలా గడిచింది?", a: ["How was your weekend"], hint: "how · weekend (Simple Past లో)", x: ["is"], why: "గడిచిపోయిన వీకెండ్ కాబట్టి was తో అడగాలి." },
     { t: "type", p: "ఈరోజు వాతావరణం బాగుంది", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today (ఆర్టికల్ వస్తుందా?)", x: ["a"], why: "weather లెక్కించలేని నామవాచకం: ఆర్టికల్ a రాదు (a nice weather ✗)." },
     { t: "type", p: "నాకు సినిమాలు చూడటం ఇష్టం", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "like · watch · movie (మామూలుగా చెప్పేటప్పుడు బహువచనం)", x: ["movie"], why: "సినిమాల గురించి మామూలుగా చెబుతున్నాం కాబట్టి బహువచనం: movies." }
   ],
@@ -213,7 +213,7 @@ module.exports = {
     { t: "mc", q: "రిపోర్ట్ జత చేశానని ఎలా చెబుతారు?", o: ["I've attached the report.", "I've attached report.", "I attaching the report.", "I've attach the report."], why: "అవతలివారికి అందే ఆ రిపోర్ట్ కాబట్టి ఆర్టికల్ the." },
     { t: "mc", q: "\"గడువు ఎప్పుడు?\" ఇంగ్లీష్‌లో?", o: ["What's the deadline?", "What's deadline?", "When is a deadline?", "What deadline is?"], why: "ఈ పనికి సంబంధించిన ఆ గడువు (deadline) కాబట్టి ఆర్టికల్ the." },
     { t: "mc", q: "జవాబు ఆలస్యమైనప్పుడు క్షమాపణకు బదులు వాడగలిగే సానుకూలమైన మాట ఏది?", o: ["Thanks for your patience.", "Sorry, sorry, sorry.", "You waited too long.", "Thanks for your patients."], why: "Thanks for your patience క్షమాపణ లేకుండానే మర్యాదగా వినిపిస్తుంది. patients (రోగులు) తో స్పెల్లింగ్ కలిపేయకండి." },
-    { t: "mc", q: "శుక్రవారం ఈమెయిల్ చివర రాయడానికి మంచి మాట ఏది?", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "ఒక వారాంతం గురించి కాబట్టి ఆర్టికల్ a; weekend ఏకవచనం." },
+    { t: "mc", q: "శుక్రవారం ఈమెయిల్ చివర రాయడానికి మంచి మాట ఏది?", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "ఒక వీకెండ్ గురించి కాబట్టి ఆర్టికల్ a; weekend ఏకవచనం." },
 
     { t: "order", p: "రిపోర్ట్ జత చేశాను", a: ["I've", "attached", "the", "report"], x: ["a"], why: "అవతలివారికి అందే ఆ రిపోర్ట్ కాబట్టి ఆర్టికల్ the." },
     { t: "order", p: "ఒక మీటింగ్ ఏర్పాటు చేద్దాం", a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: "ఇంకా నిర్ణయించని ఒక మీటింగ్ కాబట్టి ఆర్టికల్ a." },
@@ -225,7 +225,7 @@ module.exports = {
 
     { t: "type", p: "రేపు నాకు సెలవు (off వాడండి)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow (be తో)", x: ["do"], why: "సెలవు రోజును be off తో చెబుతారు." },
     { t: "type", p: "ఫైల్ జత చేశాను", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file (ఇద్దరికీ తెలిసిన ఆ ఫైల్)", x: ["a"], why: "అవతలివారికి అందే ఆ ఫైల్ కాబట్టి ఆర్టికల్ the." },
-    { t: "type", p: "వారాంతం బాగా గడపండి!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend (ఒక వారాంతం ముందు ఆర్టికల్)", x: ["the"], why: "ఒక వారాంతం గురించి కాబట్టి ఆర్టికల్ a: a great weekend." }
+    { t: "type", p: "వీకెండ్ బాగా గడపండి!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend (ఒక వీకెండ్ ముందు ఆర్టికల్)", x: ["the"], why: "ఒక వీకెండ్ గురించి కాబట్టి ఆర్టికల్ a: a great weekend." }
   ],
 
   idioms: [

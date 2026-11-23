@@ -57,15 +57,15 @@ practice:[
 ["ty","నేను ఒక పాత స్నేహితుడిని కలిశాను","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend (ఆర్టికల్ an)","a","old అచ్చు శబ్దంతో మొదలవుతుంది కాబట్టి ఆర్టికల్ an."],
 ["ty","నేను ఇంటికి నడిచి వెళ్తున్నాను (Past Continuous లో)","I was walking home","was · walking · home","had","నేపథ్యానికి Past Continuous."]]},
 { id:"conditionals", title:"if వాక్యాలు 2, 3: ఊహ, పశ్చాత్తాపం", blurb:"ఇప్పటి నిజానికి వ్యతిరేకమైతే would, గడిచిపోయిన దాని గురించైతే would have.", deck:"భావాలు, స్పందనలు", body:`
-<p>నిజం కాని దాన్ని ఊహించేటప్పుడు వాడే if వాక్యాలు (conditional). తెలుగులో "టైం ఉంటే ప్రయాణాలు చేసేవాడిని", "చదివి ఉంటే పాస్ అయ్యేవాడిని": రెండిటిలోనూ ఫలితం వైపు ఒకే రూపం (-ేవాడిని / -ేదాన్ని). ఇంగ్లీష్ కాలాన్ని బట్టి రెండుగా విడదీస్తుంది: ఇప్పటి ఊహకు <b>would</b>, గతం గురించిన ఊహకు <b>would have</b>.</p>
+<p>నిజం కాని దాన్ని ఊహించేటప్పుడు వాడే if వాక్యాలు (conditional). తెలుగులో "టైమ్ ఉంటే ప్రయాణాలు చేసేవాడిని", "చదివి ఉంటే పాస్ అయ్యేవాడిని": రెండిటిలోనూ ఫలితం వైపు ఒకే రూపం ("చేసేవాడిని" / "చేసేదాన్ని" లాంటిది). ఇంగ్లీష్ కాలాన్ని బట్టి రెండుగా విడదీస్తుంది: ఇప్పటి ఊహకు <b>would</b>, గతం గురించిన ఊహకు <b>would have</b>.</p>
 <h3>if 2: ఇప్పటి నిజానికి వ్యతిరేకం</h3>
 <p><b>If + V2, would + V1</b>. V2 వాడినా అర్థం ఇప్పటిదే.</p>
-{{ex:If I had time, I would travel.|ఇఫ్ ఐ హ్యాడ్ టైమ్ ఐ వడ్ ˈట్ర్యావ఼ల్|నాకు టైం ఉంటే ప్రయాణాలు చేసేవాడిని}}{{ex:If I were you, I'd take it.|ఇఫ్ ఐ వర్ యూ ఐడ్ టేక్ ఇట్|నేను నీ స్థానంలో ఉంటే అది తీసుకునేదాన్ని}}{{ex:What would you do?|వట్ వడ్ యు డూ|మీరైతే ఏం చేస్తారు?}}
+{{ex:If I had time, I would travel.|ఇఫ్ ఐ హ్యాడ్ టైమ్ ఐ వడ్ ˈట్ర్యావ఼ల్|నాకు టైమ్ ఉంటే ప్రయాణాలు చేసేవాడిని}}{{ex:If I were you, I'd take it.|ఇఫ్ ఐ వర్ యూ ఐడ్ టేక్ ఇట్|నేను నీ స్థానంలో ఉంటే అది తీసుకునేదాన్ని}}{{ex:What would you do?|వట్ వడ్ యు డూ|మీరైతే ఏం చేస్తారు?}}
 <h3>if 3: గడిచిపోయిన దానికి వ్యతిరేకం</h3>
 <p><b>If + had + V3, would have + V3</b>.</p>
 {{ex:If I had studied, I would have passed.|ఇఫ్ ఐ హడ్ ˈస్టడిడ్ ఐ వడ్ అవ఼్ ప్యాస్ట్|నేను చదివి ఉంటే పాస్ అయ్యేవాడిని}}
 <h3>పశ్చాత్తాపం: should have, I wish</h3>
-{{ex:I should have called.|ఐ షడ్ అవ఼్ కాల్డ్|నేను ఫోన్ చేసి ఉండాల్సింది}}{{ex:I wish I had more time.|ఐ విష్ ఐ హ్యాడ్ మోర్ టైమ్|నాకు ఇంకా టైం ఉంటే బాగుండేది}}
+{{ex:I should have called.|ఐ షడ్ అవ఼్ కాల్డ్|నేను ఫోన్ చేసి ఉండాల్సింది}}{{ex:I wish I had more time.|ఐ విష్ ఐ హ్యాడ్ మోర్ టైమ్|నాకు ఇంకా టైమ్ ఉంటే బాగుండేది}}
 <div class="tbl"><table><tr><th>రకం</th><th>if వైపు</th><th>ఫలితం వైపు</th></tr><tr><td>1 (జరగగలది)</td><td class="k">Simple Present</td><td class="k">will</td></tr><tr><td>2 (ఇప్పటికి వ్యతిరేకం)</td><td class="k">V2</td><td class="k">would</td></tr><tr><td>3 (గతానికి వ్యతిరేకం)</td><td class="k">had + V3</td><td class="k">would have + V3</td></tr></table></div>
 <div class="tip">If I were you స్థిరపడిన మాట: I తర్వాత కూడా was కాదు, <b>were</b>. if వైపు would రాదు: <b>If I would have time, …</b> ✗ → <b>If I had time, …</b> ✓</div>`,
 check:[["If I ___ rich, I would travel. ఖాళీలో ఏది సరిపోతుంది?",["am","were","will be","would be"],1,"ఇప్పటి నిజానికి వ్యతిరేకమైతే if వైపు V2 (were)."],["If I had studied, I ___ passed. ఖాళీలో ఏది సరిపోతుంది?",["would","will have","would have","had"],2,"గతానికి వ్యతిరేకమైతే would have + V3."],["\"నేను ఫోన్ చేసి ఉండాల్సింది\" ఇంగ్లీష్‌లో?",["I should have called.","I should called.","I should had call.","I would call should."],0,"పశ్చాత్తాపానికి should have + V3."]],
@@ -75,12 +75,12 @@ practice:[
 ["mc","If I had known, I ___ come.","would have","would","will have","had","గతానికి వ్యతిరేకమైతే would have + V3."],
 ["mc","\"నేను ఫోన్ చేసి ఉండాల్సింది\" ఇంగ్లీష్‌లో?","I should have called.","I should called.","I should had call.","I must called.","పశ్చాత్తాపానికి should have + V3."],
 ["mc","\"మీరైతే ఏం చేస్తారు?\" ఇంగ్లీష్‌లో?","What would you do?","What will you did?","What would you did?","What you would do?","ఊహకు would + V1."],
-["or","నాకు టైం ఉంటే ప్రయాణాలు చేసేదాన్ని","If I had time I'd travel","have will","ఇప్పటి నిజానికి వ్యతిరేకమైతే if వైపు V2 రూపం had, ఫలితం వైపు would."],
+["or","నాకు టైమ్ ఉంటే ప్రయాణాలు చేసేదాన్ని","If I had time I'd travel","have will","ఇప్పటి నిజానికి వ్యతిరేకమైతే if వైపు V2 రూపం had, ఫలితం వైపు would."],
 ["or","నేనైతే టాక్సీలో వెళ్తాను","I'd take a taxi","the taxis","ఏదో ఒక టాక్సీ కాబట్టి ఆర్టికల్ a."],
 ["or","నేను టికెట్ కొని ఉండాల్సింది","I should have bought a ticket","the buy","ఒక టికెట్ కాబట్టి ఆర్టికల్ a."],
 ["fi","If I __ you, I'd go.","నేను నీ స్థానంలో ఉంటే వెళ్ళేవాడిని","were|was","am|be|would be","If I were you అనేది స్థిరపడిన మాట."],
 ["fi","I would __ helped.","నేను సహాయం చేసి ఉండేదాన్ని","have","had|has|having","గతం గురించిన ఊహకు would have + V3."],
-["fi","I wish I __ more time.","నాకు ఇంకా టైం ఉంటే బాగుండేది","had","have|would have|will have","I wish తర్వాత V2 వస్తుంది."],
+["fi","I wish I __ more time.","నాకు ఇంకా టైమ్ ఉంటే బాగుండేది","had","have|would have|will have","I wish తర్వాత V2 వస్తుంది."],
 ["ty","నేను నీ స్థానంలో ఉంటే వెళ్ళేవాడిని","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd … అనేది స్థిరపడిన మాట."],
 ["ty","నాకు ఒక కారు ఉంటే బాగుండేది (I wish తో)","I wish I had a car","I wish · had · car (ఆర్టికల్ a)","the","ఏదో ఒక కారు కాబట్టి ఆర్టికల్ a."],
 ["ty","నేను టాక్సీలో వెళ్ళి ఉండాల్సింది (take తో)","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi (ఆర్టికల్ a)","the","ఏదో ఒక టాక్సీ కాబట్టి ఆర్టికల్ a."]]},

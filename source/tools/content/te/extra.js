@@ -12,9 +12,9 @@ What do you do? | What do you do? | I'm a designer. I work at a small startup. |
 What should I call you? | What should I call you? | Just call me Jay. Everyone does. | మిమ్మల్ని ఏమని పిలవాలి? / జే అని పిలవండి. అందరూ అలాగే పిలుస్తారు.
 I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | వీకెండ్‌లో ఏం చేస్తుంటారు? / నాకు ట్రెక్కింగ్ అంటే చాలా ఇష్టం. దాదాపు ప్రతి శనివారం వెళ్తాను.
 I'm here on vacation. | Are you here for work? | No, I'm here on vacation. | పని మీద వచ్చారా? / లేదు, సెలవులకి వచ్చాను.
-Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | ఏమండీ, టికెట్ల లైన్ ఇదేనా? / అవును, ఇదే. లైన్ చివర అక్కడ ఉంది.
+Excuse me. | Excuse me, is this the line for tickets? | Yes, it is. The end is over there. | ఏమండీ, టికెట్‌ల లైన్ ఇదేనా? / అవును, ఇదే. లైన్ చివర అక్కడ ఉంది.
 Thank you. | Here, let me get the door for you. | Oh, thank you! | ఉండండి, నేను తలుపు తీసి పట్టుకుంటాను. / ఓ, ధన్యవాదాలు!
-Sorry? | Your total is twenty-three fifty. | Sorry? Could you say that again? | మొత్తం 23 డాలర్ల 50 సెంట్లు. / ఏమన్నారు? మళ్ళీ ఒకసారి చెబుతారా?
+Sorry? | Your total is twenty-three fifty. | Sorry? Could you say that again? | మొత్తం 23 డాలర్‌ల 50 సెంట్‌లు. / ఏమన్నారు? మళ్ళీ ఒకసారి చెబుతారా?
 Could you speak more slowly? | Take the B line to Central, then transfer to the red line and... | Sorry, could you speak more slowly? | B లైన్ ఎక్కి సెంట్రల్ వరకు వెళ్ళి, అక్కడ రెడ్ లైన్‌కి మారి… / క్షమించండి, కొంచెం నెమ్మదిగా మాట్లాడతారా?
 How do you say this in English? | How do you say this in English? | That's a whisk. | దీన్ని ఇంగ్లీష్‌లో ఏమంటారు? / అది whisk (గుడ్లు గిలకొట్టే పరికరం).
 Can you help me? | Excuse me, can you help me? I'm looking for this hotel. | Sure! It's just around the corner. | ఏమండీ, కొంచెం సహాయం చేస్తారా? నేను ఈ హోటల్ కోసం వెతుకుతున్నాను. / తప్పకుండా! ఆ మూల తిరగగానే ఉంటుంది.
@@ -48,7 +48,7 @@ Can I try this on? | Can I try this on? | Sure, the fitting rooms are in the bac
 I'll take it. | It fits perfectly! I'll take it. | Great! I can ring you up over here. | సరిగ్గా సరిపోయింది! ఇదే తీసుకుంటాను. / మంచిది! ఇటు రండి, బిల్లు వేస్తాను.
 Cash or card? | Cash or card? | Card, please. | క్యాషా, కార్డా? / కార్డు.
 What time is it? | Excuse me, what time is it? | It's almost three. | ఏమండీ, ఇప్పుడు టైమ్ ఎంత? / దాదాపు మూడు అవుతోంది.
-Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | ముప్పై డాలర్లు. / క్షమించండి, పదమూడా, ముప్పైనా?
+Thirteen or thirty? | That's thirty dollars. | Sorry, thirteen or thirty? | ముప్పై డాలర్‌లు. / క్షమించండి, పదమూడా, ముప్పైనా?
 How was your weekend? | How was your weekend? | It was great! I went to the beach. How about yours? | మీ వీకెండ్ ఎలా గడిచింది? / చాలా బాగా గడిచింది! బీచ్‌కి వెళ్ళాను. మీది?
 Any plans for the weekend? | Any plans for the weekend? | Not really. I'm just going to relax at home. | వీకెండ్‌కి ఏమైనా ప్లాన్స్ ఉన్నాయా? / పెద్దగా ఏం లేవు. ఇంట్లోనే విశ్రాంతి తీసుకుంటాను.
 Nice weather today, huh? | Nice weather today, huh? | I know! Finally some sun. | ఈరోజు వాతావరణం బాగుంది కదా? / అవును! ఇన్నాళ్ళకు ఎండ వచ్చింది.
@@ -156,7 +156,7 @@ a / an + నామవాచకం | మొదటిసారి చెబుత�
 the + నామవాచకం | ఇద్దరికీ తెలిసిన ఆ ఒక్క వస్తువు. | Can you open the door? | articles
 I am / You are / She is | be (am, is, are): ఎవరు, ఏమిటి, ఎక్కడ, ఎలా అని చెప్పడానికి. తెలుగులో ఈ క్రియ ఉండదు ("ఆమె నర్సు"); ఇంగ్లీష్‌లో తప్పనిసరి. | She is a nurse. | be
 Do you ~? / Does he ~? | be కాకుండా వేరే క్రియ ఉంటే ప్రశ్న do / does తో మొదలవుతుంది; he / she / it కి does. | Does he live here? | be
-don't / doesn't + V1 | be కాని క్రియలకు వ్యతిరేక వాక్యం. doesn't తర్వాత క్రియకు -s రాదు. | I don't eat meat. | be
+don't / doesn't + V1 | be కాకుండా వేరే క్రియలకు వ్యతిరేక వాక్యం. doesn't తర్వాత క్రియకు -s రాదు. | I don't eat meat. | be
 he / she / it + క్రియ-s | he, she, it తర్వాత Simple Present క్రియకు -s. | My sister works at a hospital. | be
 be + -ing | ఇప్పుడు జరుగుతున్న పని, లేదా ముందే ఖాయం చేసుకున్న దగ్గరి భవిష్యత్తు. | I'm meeting Jake tonight. | tense
 క్రియ-ed / ఇర్రెగ్యులర్ V2 | ముగిసిపోయిన పని (went, ate, saw…). | I went to Vizag last week. | tense

@@ -17,14 +17,14 @@ Author: not a native speaker. Everything needs a Telugu speaker's check (§6). A
 - Results are plain statements (సేవ్ అయింది, కాపీ అయింది); the app's own actions use "we" (చేర్చాం, పంపాం, తొలగించలేకపోయాం).
 - Western digits only, NFC, ASCII punctuation, no em dash (an English dash became a colon, a comma or two sentences).
 - ళ్ళ (మళ్ళీ, వెళ్ళండి), నుంచి, ఇంగ్లీష్, ఈమెయిల్, ఈరోజు.
-- ZWNJ (U+200C) between a loan ending in a pollu and a Telugu ending: డెక్‌లు, రివిజన్‌కు, ఇంగ్లీష్‌లో, సెట్టింగ్‌లు. **Deviation from the profile's "one place only":** it is also used inside five compound loans where the letters would otherwise fuse, as Google's Telugu pages do: పాస్‌వర్డ్, వెబ్‌సైట్, ఇన్‌బాక్స్, డౌన్‌లోడ్, ల్యాప్‌టాప్. No ZWNJ in tab labels. Export / Import are ఎగుమతి / దిగుమతి, and "flashcard" is two words (ఫ్లాష్ కార్డు), partly to avoid more of these.
+- ZWNJ (U+200C), one policy for course and interface (lead ruling, applied in review): (1) between a loan written with a final pollu and a Telugu ending: డెక్‌లు, రివిజన్‌కు, ఇంగ్లీష్‌లో, సెట్టింగ్‌లు, and since the review also నంబర్‌లు, పాయింట్‌లు, రౌండ్‌లు, సర్టిఫికెట్‌లు, సైట్‌ల, యూజర్‌లందరికీ; (2) inside compound loans where the letters would otherwise fuse: పాస్‌వర్డ్, వెబ్‌సైట్, ఇన్‌బాక్స్, డౌన్‌లోడ్, ల్యాప్‌టాప్ (course: ఫుట్‌బాల్, శాండ్‌విచ్, బాత్‌రూమ్, బ్రేక్‌ఫాస్ట్). Loans nativised with a final -ఉ follow ordinary Telugu sandhi and take no ZWNJ: కార్డులు, పోస్టులు, రిపోర్టులు, స్కోర్లు (స్కోరు), సెకన్లు (సెకను). Never inside a pronunciation aid. No ZWNJ in tab labels. Export / Import are ఎగుమతి / దిగుమతి, and "flashcard" is two words (ఫ్లాష్ కార్డు), partly to avoid more of these.
 
 ## 2. Counts and slots
 
 - Every count pattern is label + colon + number, nothing after the slot: «కార్డులు: {1}», «రోజులు: {1}», «రివిజన్: {1}», «మిగిలినవి: {1}», «నిమిషాలు: {1}», «సెకన్లు: {1}». English singular and plural templates carry identical Telugu. All were rendered at 0, 1, 2 and 21.
 - Positions are noun + number: «లెవెల్ {1}», «బాక్స్ {1}», «కార్డు {1}/{2}», «వారం {1}/{2}», «రౌండ్ {1}/{2}», «విడత {1}/3», «రోజు {1} 🔥».
 - "{n} XP to Level {n}" is «కావాల్సిన XP: {1} → లెవెల్ {2}»; "+{n} d: {n}" is «రోజు +{1}: {2}».
-- The fixed chips "2 min / 5 min / 10 min" are «2 నిమిషాలు» etc. (correct plural), while the pattern "{n} min" is «నిమిషాలు: {1}». If both show in one row the lead may want the chips changed to the colon form.
+- The fixed chips "2 min / 5 min / 10 min" use the same colon form as the pattern "{n} min" (lead ruling, changed in review): «నిమిషాలు: 2», «నిమిషాలు: 5», «నిమిషాలు: 10», «నిమిషాలు: {1}». "Quick · 2 min" and "~5 min" are fixed strings and keep «2 నిమిషాలు», «~5 నిమిషాలు».
 - Language-name slots stand before or after a colon with no ending: «ప్రగతి: {1}», «{1}: మీకు ఎంత వచ్చు?», «{1}: ఎందుకు నేర్చుకుంటున్నారు?», «ఈ భాషలో రాయండి: {1}», «జవాబు భాష: {1}. …», «{1}: కీబోర్డ్ లేదా? టైల్స్ వాడండి», «{1}: రోజుకు 5 నిమిషాల్లో నేర్చుకోండి», «ఇప్పుడు నేర్చుకుంటున్న భాష: {1} · …».
 
 ## 3. Glossary used (one term per concept)
@@ -37,7 +37,7 @@ lesson పాఠం · practice సాధన · review రివిజన్ · 
 - `Category` = «వర్గం», `Text size` = «అక్షరాల సైజు».
 - Mode chips: «చదవండి en→తెలుగు», «గుర్తు తెలుగు→en», «వినండి 🔊→తెలుగు».
 - Weekdays: ఆది సోమ మంగళ బుధ గురు శుక్ర శని (2 to 3 graphemes).
-- Level titles: మొలక, విద్యార్థి, సీనియర్, ప్రో, నేర్పరి, గురువు; ఆరంభం, మాటకారి, బాటసారి, లోకల్ (chosen to carry no gender ending).
+- Level titles: మొలక, విద్యార్థి, సీనియర్, ప్రో, నేర్పరి, గురువు; ఆరంభం, మాటకారి, బాటసారి, లోకల్ (chosen to carry no gender ending). The course ladder in `tools/content/te/meta.js` TITLES uses the same words since the review: ఆరంభం, విద్యార్థి, మాటకారి, బాటసారి, లోకల్, ప్రో, నేర్పరి (Beginner, Student, Talker, Traveler, Local, Pro, Master).
 - Tense names stay in English (Simple Present, Present Perfect); grammar terms as profile §3.
 
 ## 4. Fragments that were re-cut

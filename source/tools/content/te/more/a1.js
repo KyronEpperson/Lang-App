@@ -9,12 +9,12 @@ module.exports = [
 <p>తెలుగులో "దగ్గర్లో ఒక కేఫ్ ఉంది" అని "ఉంది" చివర వస్తుంది. ఇంగ్లీష్‌లో వాక్యం <b>There</b> తో మొదలవుతుంది: ఒకటి ఉంటే <b>There is a …</b>, ఎక్కువ ఉంటే <b>There are … -s</b>. మాట్లాడేటప్పుడు There's అంటారు.</p>
 {{ex:There's a cafe near here.|ద఼ెర్జ఼్ అ క్యాˈఫే నిర్ హిర్|ఇక్కడ దగ్గర్లో ఒక కేఫ్ ఉంది}}{{ex:There are two rooms.|ద఼ెర్ అర్ టూ రూమ్జ఼్|రెండు గదులు ఉన్నాయి}}
 <h3>ప్రశ్న, వ్యతిరేక వాక్యం</h3>
-{{ex:Is there a bathroom here?|ఇజ఼్ ద఼ెర్ అ ˈబ్యాథ఼్రూమ్ హిర్|ఇక్కడ బాత్రూమ్ ఉందా?}}{{ex:Are there any seats?|అర్ ద఼ెర్ ˈఎని సీట్స్|సీట్లు ఉన్నాయా?}}{{ex:There isn't a bus today.|ద఼ెర్ ˈఇజ఼ంట్ అ బస్ టˈడే|ఈరోజు బస్సు లేదు}}
+{{ex:Is there a bathroom here?|ఇజ఼్ ద఼ెర్ అ ˈబ్యాథ఼్రూమ్ హిర్|ఇక్కడ బాత్‌రూమ్ ఉందా?}}{{ex:Are there any seats?|అర్ ద఼ెర్ ˈఎని సీట్స్|సీట్లు ఉన్నాయా?}}{{ex:There isn't a bus today.|ద఼ెర్ ˈఇజ఼ంట్ అ బస్ టˈడే|ఈరోజు బస్సు లేదు}}
 <h3>have తో తేడా</h3>
 <p>మనిషి దగ్గర ఉన్నదానికి <b>have</b>, ఒక చోట ఉన్నదానికి <b>there is</b>.</p>
 {{ex:I have a car.|ఐ హ్యావ఼్ అ కార్|నాకు కారు ఉంది}}{{ex:There's a car outside.|ద఼ెర్జ఼్ అ కార్ ఔట్ˈసైడ్|బయట ఒక కారు ఉంది}}
 <div class="tip">ఎక్కువగా జరిగే తప్పులు: <b>Is cold.</b> ✗ → <b>It's cold.</b> ✓ / తెలుగు వరుసలో చెప్పిన <b>Near here one cafe is there.</b> ✗ → <b>There's a cafe near here.</b> ✓</div>`,
-check:[["\"ఈరోజు వేడిగా ఉంది\" ఇంగ్లీష్‌లో?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"వాతావరణం చెప్పేటప్పుడు కర్త స్థానంలో it వస్తుంది."],["There ___ three people. ఖాళీలో ఏది సరిపోతుంది?",["is","are","have","be"],1,"ఒకరి కంటే ఎక్కువ మంది ఉంటే there are."],["\"ఇక్కడ బాత్రూమ్ ఉందా?\" ఇంగ్లీష్‌లో?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"ఉందా అని అడగడానికి Is there a …? వాడతారు."]],
+check:[["\"ఈరోజు వేడిగా ఉంది\" ఇంగ్లీష్‌లో?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"వాతావరణం చెప్పేటప్పుడు కర్త స్థానంలో it వస్తుంది."],["There ___ three people. ఖాళీలో ఏది సరిపోతుంది?",["is","are","have","be"],1,"ఒకరి కంటే ఎక్కువ మంది ఉంటే there are."],["\"ఇక్కడ బాత్‌రూమ్ ఉందా?\" ఇంగ్లీష్‌లో?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"ఉందా అని అడగడానికి Is there a …? వాడతారు."]],
 practice:[
 ["mc","\"వర్షం పడుతోంది\" ఇంగ్లీష్‌లో?","It's raining.","Is raining.","There is raining.","Rain is.","వాతావరణం చెప్పేటప్పుడు కర్త it."],
 ["mc","\"ఇక్కడ దగ్గర్లో ఒక కేఫ్ ఉంది\" ఇంగ్లీష్‌లో?","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","ఒక చోట ఉన్నదానికి there is. ఒకటే కాబట్టి ఆర్టికల్ a."],
@@ -28,7 +28,7 @@ practice:[
 ["fi","There __ a bank near here.","దగ్గర్లో ఒక బ్యాంకు ఉంది","is","are|have|be","ఒకటే కాబట్టి is."],
 ["fi","__ there any seats?","సీట్లు ఉన్నాయా?","Are","Is|Do|Have","seats బహువచనం కాబట్టి Are."],
 ["ty","ఈరోజు వేడిగా ఉంది","It's hot today","it · hot · today: వాతావరణానికి it","There's","వాతావరణం it తో మొదలవుతుంది."],
-["ty","ఇక్కడ బాత్రూమ్ ఉందా?","Is there a bathroom here|Is there a restroom here","is there · bathroom: ఆర్టికల్ మర్చిపోకండి","the","మొదటిసారి అడుగుతున్నాం, ఏదైనా ఒకటి: ఆర్టికల్ a."],
+["ty","ఇక్కడ బాత్‌రూమ్ ఉందా?","Is there a bathroom here|Is there a restroom here","is there · bathroom: ఆర్టికల్ మర్చిపోకండి","the","మొదటిసారి అడుగుతున్నాం, ఏదైనా ఒకటి: ఆర్టికల్ a."],
 ["ty","రెండు గదులు ఉన్నాయి","There are two rooms","there are · two · room: బహువచనం","room","రెండు కాబట్టి బహువచనం rooms."]]},
 
 { id:"plurals", title:"బహువచనం -s, this / these, my / your", blurb:"ఒకటి కంటే ఎక్కువ ఉంటే -s. this ఒక్కదానికి, these ఎక్కువ వాటికి.", deck:"షాపింగ్, చెల్లింపులు", body:`
@@ -56,24 +56,24 @@ practice:[
 ["or","ఆ బూట్లు బాగున్నాయి","Those shoes are nice","That","shoes బహువచనం కాబట్టి those."],
 ["fi","I have three __.","నాకు మూడు పిల్లులు ఉన్నాయి","cats","cat|a cat|cat's","మూడు కాబట్టి బహువచనం cats."],
 ["fi","__ is my friend.","ఇతను నా స్నేహితుడు","This","These|Those|They","ఒక్కరే కాబట్టి this."],
-["fi","Two __, please.","రెండు కాఫీలు ఇవ్వండి","coffees","coffee|a coffee|coffee's","కప్పులు లెక్కపెట్టి ఆర్డర్ చేసేటప్పుడు coffees అని బహువచనంలో చెప్తారు."],
+["fi","Two __, please.","రెండు కాఫీలు ఇవ్వండి","coffees","coffee|a coffee|coffee's","కప్పులు లెక్కపెట్టి ఆర్డర్ చేసేటప్పుడు coffees అని బహువచనంలో చెబుతారు."],
 ["ty","ఇవి నా పుస్తకాలు","These are my books","these · my · book: బహువచనం","book","ఎక్కువ ఉన్నాయి కాబట్టి these, బహువచనం books."],
 ["ty","నాకు ఇద్దరు అక్కచెల్లెళ్ళు ఉన్నారు","I have two sisters","have · two · sister: బహువచనం","sister","ఇద్దరు కాబట్టి బహువచనం sisters."],
 ["ty","ఇది నా బ్యాగ్","This is my bag","this · my · bag: ఆర్టికల్ లేకుండా","a","my ఉంటే ఆర్టికల్ a రాదు."]]},
 { id:"present", title:"Simple Present, పదాల వరుస: కర్త + క్రియ + కర్మ", blurb:"తెలుగులో క్రియ చివర వస్తుంది, ఇంగ్లీష్‌లో కర్త తర్వాత వెంటనే. అలవాటుకు Simple Present, will కాదు.", deck:"నా పరిచయం", body:`
-<p>తెలుగులో "నేను టీ <b>తాగుతాను</b>" అని క్రియ చివర వస్తుంది. ఇంగ్లీష్ వరుస: <b>ఎవరు → ఏం చేస్తారు → దేన్ని</b>. తెలుగులో "-ని", "-కి" లాంటి విభక్తి ప్రత్యయాలు ఎవరు ఎవర్ని అనేది చెప్తాయి. ఇంగ్లీష్‌లో ఆ పని పదాల వరుసదే.</p>
+<p>తెలుగులో "నేను టీ <b>తాగుతాను</b>" అని క్రియ చివర వస్తుంది. ఇంగ్లీష్ వరుస: <b>ఎవరు → ఏం చేస్తారు → దేన్ని</b>. తెలుగులో "-ని", "-కి" లాంటి విభక్తి ప్రత్యయాలు ఎవరు ఎవర్ని అనేది చెబుతాయి. ఇంగ్లీష్‌లో ఆ పని పదాల వరుసదే.</p>
 <h3>కర్త + క్రియ + కర్మ</h3>
 {{ex:I drink coffee.|ఐ డ్రింక్ ˈకాఫి|నేను కాఫీ తాగుతాను}}{{ex:I study English.|ఐ ˈస్టడి ˈఇంగ్లిష్|నేను ఇంగ్లీష్ చదువుతాను}}
 <h3>చోటు, సమయం చివర</h3>
 <p>మిగతా వివరాలు <b>చోటు → సమయం</b> వరుసలో చివర వస్తాయి.</p>
-{{ex:We live in Hyderabad.|వి లివ఼్ ఇన్ ˈహైడరబ్యాడ్|మేము హైదరాబాద్‌లో ఉంటాం}}{{ex:I study English every day.|ఐ ˈస్టడి ˈఇంగ్లిష్ ˈఎవ఼్రి డే|నేను రోజూ ఇంగ్లీష్ చదువుతాను}}{{ex:They work on weekends.|ద఼ే వర్క్ ఆన్ ˈవీకెండ్జ఼్|వాళ్ళు వారాంతాల్లో పని చేస్తారు}}
+{{ex:We live in Hyderabad.|వి లివ఼్ ఇన్ ˈహైడరబ్యాడ్|మేము హైదరాబాద్‌లో ఉంటాం}}{{ex:I study English every day.|ఐ ˈస్టడి ˈఇంగ్లిష్ ˈఎవ఼్రి డే|నేను రోజూ ఇంగ్లీష్ చదువుతాను}}{{ex:They work on weekends.|ద఼ే వర్క్ ఆన్ ˈవీకెండ్జ఼్|వాళ్ళు వీకెండ్‌లలో పని చేస్తారు}}
 <h3>Simple Present: అలవాట్లు, నిజాలు</h3>
 <p>Simple Present, అంటే వర్తమాన కాలం, ఎప్పుడూ చేసే పనులకు, మారని నిజాలకు. తెలుగులో "తాగుతాను" అనే రూపం అలవాటుకీ, భవిష్యత్తుకీ ఒకటే. ఇంగ్లీష్‌లో అలవాటుకు will రాదు: <b>I will drink tea daily.</b> ✗ → <b>I drink tea every day.</b> ✓. వ్యతిరేక వాక్యంలో క్రియ ముందు <b>don't</b> వస్తుంది: "తినను" = don't eat.</p>
 {{ex:I don't eat meat.|ఐ డోంట్ ఈట్ మీట్|నేను మాంసం తినను}}
 <h3>ఎంత తరచుగా: always, usually, sometimes, never</h3>
 <p>ఈ పదాలు క్రియకు <b>సరిగ్గా ముందు</b> వస్తాయి.</p>
 {{ex:I usually get up at seven.|ఐ ˈయూఝ఼ుఅలి గెట్ అప్ అట్ ˈసెవ఼న్|నేను సాధారణంగా ఏడు గంటలకు లేస్తాను}}{{ex:I never drink coffee at night.|ఐ ˈనెవ఼ర్ డ్రింక్ ˈకాఫి అట్ నైట్|నేను రాత్రిపూట కాఫీ అస్సలు తాగను}}
-<div class="tip">తెలుగు వరుసలో చెప్తే తప్పు: <b>I coffee drink.</b> ✗ → <b>I drink coffee.</b> ✓. కర్త తర్వాత వెంటనే క్రియ చెప్పడం అలవాటు చేసుకోండి. he, she తో వచ్చే -s తర్వాతి పాఠాల్లో వస్తుంది.</div>`,
+<div class="tip">తెలుగు వరుసలో చెబితే తప్పు: <b>I coffee drink.</b> ✗ → <b>I drink coffee.</b> ✓. కర్త తర్వాత వెంటనే క్రియ చెప్పడం అలవాటు చేసుకోండి. he, she తో వచ్చే -s తర్వాతి పాఠాల్లో వస్తుంది.</div>`,
 check:[["\"నేను కాఫీ తాగుతాను\" సరైన పదాల వరుస ఏది?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"కర్త + క్రియ + కర్మ వరుసలో రావాలి."],["I ___ eat meat. (తినను)",["not","am not","no","don't"],3,"వ్యతిరేక వాక్యంలో క్రియ ముందు don't వస్తుంది."],["always సరైన స్థానంలో ఉన్న వాక్యం ఏది?",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"ఎంత తరచుగా అని చెప్పే పదం క్రియకు సరిగ్గా ముందు వస్తుంది."]],
 practice:[
 ["mc","\"నేను ఇంగ్లీష్ చదువుతాను\" ఇంగ్లీష్‌లో?","I study English.","I English study.","I am study English.","Study I English.","కర్త + క్రియ + కర్మ వరుస."],
@@ -83,7 +83,7 @@ practice:[
 ["mc","రోజూ చేసే పనిని చెప్పే వాక్యం ఏది?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","అలవాటు = Simple Present; will కాదు."],
 ["or","నేను రోజూ కాఫీ తాగుతాను","I drink coffee every day","the am","అలవాటు కాబట్టి Simple Present. సాధారణంగా చెప్పే coffee ముందు ఆర్టికల్ రాదు."],
 ["or","నేను చాలా పుస్తకాలు చదువుతాను","I read many books","book","many తర్వాత బహువచనం books."],
-["or","మేము వారాంతాల్లో పని చేస్తాం","We work on weekends","are","మామూలు క్రియ ముందు be పెట్టకూడదు."],
+["or","మేము వీకెండ్‌లలో పని చేస్తాం","We work on weekends","are","వేరే క్రియ ముందు be పెట్టకూడదు."],
 ["fi","I __ like fish.","నాకు చేపలు ఇష్టం లేదు","don't|do not","not|am not|no","వ్యతిరేక వాక్యంలో క్రియ ముందు don't."],
 ["fi","I __ English every day.","నేను రోజూ ఇంగ్లీష్ చదువుతాను","study","am study|studying|to study","Simple Present లో క్రియ V1 గానే ఉంటుంది."],
 ["fi","They live __ Busan.","వాళ్ళు బూసాన్‌లో ఉంటారు","in","at|on|to","ఊరి పేరు ముందు in."],
@@ -94,34 +94,34 @@ practice:[
 <p>తెలుగులో చివరి పదానికి "-ఆ" చేరిస్తే ప్రశ్న అవుతుంది: "మీకు టీ ఇష్టమా?". ఇంగ్లీష్‌లో ప్రశ్న కావాలంటే <b>పదాల వరుస</b> మారాలి.</p>
 <h3>be (am, is, are): స్థానం మారుతుంది</h3>
 {{ex:Are you okay?|అర్ యు ఓˈకే|మీరు బాగానే ఉన్నారా?}}{{ex:Is this your bag?|ఇజ఼్ ద఼ిస్ యుర్ బ్యాగ్|ఇది మీ బ్యాగా?}}
-<h3>మిగతా క్రియలు: ముందు Do</h3>
+<h3>వేరే క్రియలు: ముందు Do</h3>
 <p>వాక్యం ముందు సహాయక క్రియ <b>Do</b> వస్తుంది. మిగతా వరుస అలాగే ఉంటుంది. తెలుగులో ఇలాంటి సహాయక క్రియ లేదు కాబట్టి దీన్ని వదిలేయడం సులభం: <b>You like tea?</b> ✗ → <b>Do you like tea?</b> ✓</p>
 {{ex:Do you like coffee?|డ యు లైక్ ˈకాఫి|మీకు కాఫీ ఇష్టమా?}}{{ex:Do you speak English?|డ యు స్పీక్ ˈఇంగ్లిష్|మీరు ఇంగ్లీష్ మాట్లాడతారా?}}
-<p>జవాబు చిన్నగా చెప్తారు: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
+<p>జవాబు చిన్నగా చెబుతారు: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
 <h3>wh- పదం అన్నిటికంటే ముందు</h3>
 <p>what (ఏమిటి), where (ఎక్కడ), when (ఎప్పుడు), who (ఎవరు), why (ఎందుకు), how (ఎలా). తెలుగులో ఈ పదం వాక్యం మధ్యలోనే ఉంటుంది: "మీరు ఎక్కడ ఉంటారు?". ఇంగ్లీష్‌లో అది ముందుకు వస్తుంది, దాని వెంటనే do లేదా be.</p>
-{{ex:Where do you live?|వెర్ డ యు లివ఼్|మీరు ఎక్కడ ఉంటారు?}}{{ex:What do you do?|వట్ డ యు డూ|మీరు ఏం చేస్తారు? (ఉద్యోగం)}}{{ex:Where is the bathroom?|వెర్ ఇజ఼్ ద఼ ˈబ్యాథ఼్రూమ్|బాత్రూమ్ ఎక్కడ ఉంది?}}{{ex:How much is this?|హౌ మచ్ ఇజ఼్ ద఼ిస్|ఇది ఎంత?}}
+{{ex:Where do you live?|వెర్ డ యు లివ఼్|మీరు ఎక్కడ ఉంటారు?}}{{ex:What do you do?|వట్ డ యు డూ|మీరు ఏం చేస్తారు? (ఉద్యోగం)}}{{ex:Where is the bathroom?|వెర్ ఇజ఼్ ద఼ ˈబ్యాథ఼్రూమ్|బాత్‌రూమ్ ఎక్కడ ఉంది?}}{{ex:How much is this?|హౌ మచ్ ఇజ఼్ ద఼ిస్|ఇది ఎంత?}}
 <div class="tip">ఎక్కువగా జరిగే తప్పులు: <b>Where you live?</b> ✗ → <b>Where do you live?</b> ✓, <b>Are you like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓. "కదా?" లాంటి question tags, వాక్యం లోపల వచ్చే ప్రశ్నలు తర్వాతి లెవెల్‌లో వస్తాయి.</div>`,
-check:[["\"మీకు కాఫీ ఇష్టమా?\" ఇంగ్లీష్‌లో?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"ప్రశ్నలో సహాయక క్రియ do ముందు వస్తుంది."],["\"మీరు ఎక్కడ ఉంటారు?\" ఇంగ్లీష్‌లో?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"వరుస: wh- పదం + do + కర్త + క్రియ."],["Do you speak English? కి సరైన జవాబు ఏది?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Do తో అడిగితే do తో జవాబు చెప్తారు."]],
+check:[["\"మీకు కాఫీ ఇష్టమా?\" ఇంగ్లీష్‌లో?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"ప్రశ్నలో సహాయక క్రియ do ముందు వస్తుంది."],["\"మీరు ఎక్కడ ఉంటారు?\" ఇంగ్లీష్‌లో?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"వరుస: wh- పదం + do + కర్త + క్రియ."],["Do you speak English? కి సరైన జవాబు ఏది?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Do తో అడిగితే do తో జవాబు చెబుతారు."]],
 practice:[
 ["mc","\"మీరు ఇంగ్లీష్ మాట్లాడతారా?\" ఇంగ్లీష్‌లో?","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","ప్రశ్నలో సహాయక క్రియ do ముందు వస్తుంది."],
 ["mc","\"మీరు ఎక్కడ ఉంటారు?\" ఇంగ్లీష్‌లో?","Where do you live?","Where you live?","Where are you live?","Where live you?","వరుస: wh- పదం + do + కర్త + క్రియ."],
 ["mc","\"ఇది ఎంత?\" ఇంగ్లీష్‌లో?","How much is this?","How much this is?","How much does this?","What much is this?","ధర అడగడానికి How much is …?"],
-["mc","Do you like tea? కి సరైన జవాబు ఏది?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Do తో అడిగితే do తో జవాబు చెప్తారు."],
+["mc","Do you like tea? కి సరైన జవాబు ఏది?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Do తో అడిగితే do తో జవాబు చెబుతారు."],
 ["mc","\"మీరు ఏం చేస్తారు?\" (ఉద్యోగం) ఇంగ్లీష్‌లో?","What do you do?","What are you do?","What you do?","What do you?","ఉద్యోగం గురించి What do you do? అని అడుగుతారు."],
 ["or","మీకు కాఫీ ఇష్టమా?","Do you like coffee","Are the","ప్రశ్న Do తో మొదలవుతుంది. సాధారణంగా చెప్పే coffee ముందు ఆర్టికల్ రాదు."],
-["or","బాత్రూమ్ ఎక్కడ ఉంది?","Where is the bathroom","a do","ఈ బిల్డింగ్‌లోని బాత్రూమ్ అని ఇద్దరికీ తెలుసు కాబట్టి ఆర్టికల్ the."],
+["or","బాత్‌రూమ్ ఎక్కడ ఉంది?","Where is the bathroom","a do","ఈ బిల్డింగ్‌లోని బాత్‌రూమ్ అని ఇద్దరికీ తెలుసు కాబట్టి ఆర్టికల్ the."],
 ["or","మీరు ఎక్కడ ఉంటారు?","Where do you live","are","live లాంటి క్రియతో ప్రశ్నకు do కావాలి."],
 ["fi","__ you like music?","మీకు సంగీతం ఇష్టమా?","Do","Are|Is|Does","like తో ప్రశ్నకు సహాయక క్రియ Do."],
 ["fi","__ do you live?","మీరు ఎక్కడ ఉంటారు?","Where","What|Who|When","చోటు అడగడానికి where."],
-["fi","What time __ it?","టైం ఎంత అయింది?","is","do|does|are","సమయం be తో అడుగుతారు."],
+["fi","What time __ it?","టైమ్ ఎంత అయింది?","is","do|does|are","సమయం be తో అడుగుతారు."],
 ["ty","మీరు ఇంగ్లీష్ మాట్లాడతారా?","Do you speak English|Can you speak English","do · speak · English","Are","ప్రశ్నలో సహాయక క్రియ do ముందు వస్తుంది."],
-["ty","బాత్రూమ్ ఎక్కడ ఉంది?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom: ఆర్టికల్ the","a","ఏ బాత్రూమో ఇద్దరికీ తెలుసు కాబట్టి ఆర్టికల్ the."],
+["ty","బాత్‌రూమ్ ఎక్కడ ఉంది?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom: ఆర్టికల్ the","a","ఏ బాత్‌రూమో ఇద్దరికీ తెలుసు కాబట్టి ఆర్టికల్ the."],
 ["ty","మీకు కుక్కలంటే ఇష్టమా?","Do you like dogs","do · like · dog: బహువచనం","dog","ఆ జంతువులన్నిటి గురించి చెప్పేటప్పుడు బహువచనం dogs."]]},
 { id:"third-s", title:"he, she, it తో -s: does / doesn't", blurb:"కర్త ఒక్కరే అయితే క్రియకు -s. ప్రశ్న, వ్యతిరేక వాక్యంలో does.", deck:"నా పరిచయం", body:`
 <p>Simple Present లో కర్త <b>he, she, it</b> లేదా ఒక మనిషి, ఒక వస్తువు అయితే క్రియకు <b>-s</b> వస్తుంది. తెలుగులో క్రియ ప్రతి కర్తకూ మారుతుంది (వెళ్తాను, వెళ్తాడు, వెళ్తుంది). ఇంగ్లీష్‌లో ఒక్కసారే మారుతుంది, ఆ ఒక్క -s పదం చివర ఉంటుంది కాబట్టి మాట్లాడేటప్పుడు సులభంగా జారిపోతుంది.</p>
 <div class="tbl"><table><tr><th>కర్త</th><th>క్రియ</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
-{{ex:She works at a bank.|షి వర్క్స్ అట్ అ బ్యాంక్|ఆమె బ్యాంకులో పని చేస్తుంది}}{{ex:He likes soccer.|హి లైక్స్ ˈసాకర్|అతనికి ఫుట్బాల్ ఇష్టం}}{{ex:My mom cooks well.|మై మామ్ కుక్స్ వెల్|మా అమ్మ బాగా వండుతుంది}}
+{{ex:She works at a bank.|షి వర్క్స్ అట్ అ బ్యాంక్|ఆమె బ్యాంకులో పని చేస్తుంది}}{{ex:He likes soccer.|హి లైక్స్ ˈసాకర్|అతనికి ఫుట్‌బాల్ ఇష్టం}}{{ex:My mom cooks well.|మై మామ్ కుక్స్ వెల్|మా అమ్మ బాగా వండుతుంది}}
 <h3>రూపం కొంచెం మారే క్రియలు</h3>
 {{ex:She has a car.|షి హ్యాజ఼్ అ కార్|ఆమెకు కారు ఉంది (have → has)}}{{ex:He goes to work at eight.|హి గోజ఼్ ట వర్క్ అట్ ఏట్|అతను ఎనిమిది గంటలకు ఆఫీసుకి వెళ్తాడు (go → goes)}}{{ex:She studies English.|షి ˈస్టడిజ఼్ ˈఇంగ్లిష్|ఆమె ఇంగ్లీష్ చదువుతుంది (study → studies)}}
 <h3>వ్యతిరేక వాక్యం, ప్రశ్న: does</h3>
@@ -135,10 +135,10 @@ practice:[
 ["mc","\"ఆమె ఇక్కడ ఉంటుందా?\" ఇంగ్లీష్‌లో?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does తర్వాత క్రియకు -s రాదు."],
 ["mc","have → she ___","has","haves","have","is have","have అనేది has గా మారుతుంది."],
 ["mc","study → he ___","studies","studys","study","studyes","హల్లు + y అయితే -ies."],
-["or","ఆమె బ్యాంకులో పని చేస్తుంది","She works at a bank","work the","she కాబట్టి works. మొదటిసారి చెప్తున్న ఆఫీసు కాబట్టి ఆర్టికల్ a."],
+["or","ఆమె బ్యాంకులో పని చేస్తుంది","She works at a bank","work the","she కాబట్టి works. మొదటిసారి చెబుతున్న ఆఫీసు కాబట్టి ఆర్టికల్ a."],
 ["or","అతనికి రెండు కుక్కలు ఉన్నాయి","He has two dogs","have dog","he కాబట్టి has. రెండు కాబట్టి బహువచనం dogs."],
 ["or","ఆమె మాంసం తినదు","She doesn't eat meat","eats","doesn't తర్వాత క్రియకు -s రాదు."],
-["fi","He __ soccer.","అతనికి ఫుట్బాల్ ఇష్టం","likes","like|liking|is like","he కాబట్టి likes."],
+["fi","He __ soccer.","అతనికి ఫుట్‌బాల్ ఇష్టం","likes","like|liking|is like","he కాబట్టి likes."],
 ["fi","__ she speak English?","ఆమె ఇంగ్లీష్ మాట్లాడుతుందా?","Does","Do|Is|Are","she తో ప్రశ్నకు Does."],
 ["fi","She __ to work at eight.","ఆమె ఎనిమిది గంటలకు ఆఫీసుకి వెళ్తుంది","goes","go|going|gos","go అనేది goes అవుతుంది."],
 ["ty","అతనికి కారు ఉంది","He has a car","has · car: ఆర్టికల్ a","have","he కాబట్టి has. ఒక కారు కాబట్టి ఆర్టికల్ a."],
@@ -152,7 +152,7 @@ practice:[
 {{ex:I have some money.|ఐ హ్యావ఼్ సమ్ ˈమని|నా దగ్గర కొంచెం డబ్బు ఉంది}}{{ex:I don't have any money.|ఐ డోంట్ హ్యావ఼్ ˈఎని ˈమని|నా దగ్గర డబ్బు అస్సలు లేదు}}{{ex:Do you have any questions?|డ యు హ్యావ఼్ ˈఎని ˈక్వెస్చన్జ఼్|మీకు ఏమైనా ప్రశ్నలు ఉన్నాయా?}}
 <h3>many, much</h3>
 <p>లెక్కించదగిన వాటికి <b>many</b> + బహువచనం, లెక్కించలేని వాటికి <b>much</b>. <b>a lot of</b> రెండిటికీ సరిపోతుంది.</p>
-{{ex:How many people?|హౌ ˈమెని ˈపీపల్|ఎంత మంది?}}{{ex:How much is it?|హౌ మచ్ ఇజ఼్ ఇట్|ఎంత అవుతుంది?}}{{ex:I don't have much time.|ఐ డోంట్ హ్యావ఼్ మచ్ టైమ్|నాకు ఎక్కువ టైం లేదు}}
+{{ex:How many people?|హౌ ˈమెని ˈపీపల్|ఎంత మంది?}}{{ex:How much is it?|హౌ మచ్ ఇజ఼్ ఇట్|ఎంత అవుతుంది?}}{{ex:I don't have much time.|ఐ డోంట్ హ్యావ఼్ మచ్ టైమ్|నాకు ఎక్కువ టైమ్ లేదు}}
 <h3>లెక్కించలేని వాటిని లెక్కించే పద్ధతి</h3>
 {{ex:a glass of water|అ గ్ల్యాస్ అవ఼్ ˈవాటర్|ఒక గ్లాసు నీళ్ళు}}{{ex:a cup of coffee|అ కప్ అవ఼్ ˈకాఫి|ఒక కప్పు కాఫీ}}
 <div class="tip">ఎక్కువగా జరిగే తప్పులు: <b>a water</b>, <b>many money</b>, <b>informations</b>, <b>many advices</b> ✗ → <b>some water</b>, <b>much money</b>, <b>information</b>, <b>a lot of advice</b> ✓</div>`,
@@ -165,7 +165,7 @@ practice:[
 ["mc","I have ___ friends in Seoul.","many","much","a","an","friends లెక్కించదగిన బహువచనం కాబట్టి many."],
 ["or","నా దగ్గర కొంచెం డబ్బు ఉంది","I have some money","a moneys","money లెక్కించలేని నామవాచకం: ఆర్టికల్ a రాదు, బహువచనం -s రాదు."],
 ["or","రెండు యాపిల్ పండ్లు ఇవ్వండి","Two apples please","apple","రెండు కాబట్టి బహువచనం apples."],
-["or","నాకు ఎక్కువ టైం లేదు","I don't have much time","many","time లెక్కించలేని నామవాచకం కాబట్టి much."],
+["or","నాకు ఎక్కువ టైమ్ లేదు","I don't have much time","many","time లెక్కించలేని నామవాచకం కాబట్టి much."],
 ["fi","How __ is this?","ఇది ఎంత?","much","many|any|some","ధర how much తో అడుగుతారు."],
 ["fi","I don't have __ questions.","నాకు ప్రశ్నలేమీ లేవు","any","some|much|a","వ్యతిరేక వాక్యంలో any వస్తుంది."],
 ["fi","a cup __ coffee","ఒక కప్పు కాఫీ","of","for|in|a","a cup of … అని లెక్కిస్తారు."],
@@ -178,9 +178,9 @@ practice:[
 {{ex:She knows me.|షి నోజ఼్ మి|ఆమెకు నేను తెలుసు}}{{ex:I like him.|ఐ లైక్ హిమ్|నాకు అతనంటే ఇష్టం}}{{ex:Can you help us?|కన్ యు హెల్ప్ అస్|మాకు కొంచెం సహాయం చేస్తారా?}}{{ex:I work with her.|ఐ వర్క్ విద఼్ హర్|నేను ఆమెతో కలిసి పని చేస్తాను}}
 <p>తెలుగులో "ఆమె వచ్చింది", "అది వచ్చింది" అని క్రియ ఒకటే. ఇంగ్లీష్‌లో ఆడవారికి she / her, మగవారికి he / him, వస్తువులకు it. తెలిసిన కర్మను తెలుగులో వదిలేస్తాం ("నాకు ఇష్టం లేదు"), ఇంగ్లీష్‌లో చెప్పాలి: <b>I don't like.</b> ✗</p>
 {{ex:I don't like it.|ఐ డోంట్ లైక్ ఇట్|నాకు అది ఇష్టం లేదు}}
-<h3>have: ఉండడం</h3>
+<h3>have: ఉండటం</h3>
 <p>తెలుగులో "నాకు కారు ఉంది" అంటాం. ఇంగ్లీష్‌లో ఎవరి దగ్గర ఉందో వాళ్ళే కర్త: <b>I have a car.</b> కుటుంబం, వస్తువులు, సమయం అన్నిటికీ have. ఈ అర్థంలో -ing రాదు: <b>I am having a car.</b> ✗</p>
-{{ex:I have two brothers.|ఐ హ్యావ఼్ టూ ˈబ్రద఼ర్జ఼్|నాకు ఇద్దరు అన్నదమ్ములు ఉన్నారు}}{{ex:Do you have a pen?|డ యు హ్యావ఼్ అ పెన్|మీ దగ్గర పెన్ ఉందా?}}{{ex:I don't have time.|ఐ డోంట్ హ్యావ఼్ టైమ్|నాకు టైం లేదు}}
+{{ex:I have two brothers.|ఐ హ్యావ఼్ టూ ˈబ్రద఼ర్జ఼్|నాకు ఇద్దరు అన్నదమ్ములు ఉన్నారు}}{{ex:Do you have a pen?|డ యు హ్యావ఼్ అ పెన్|మీ దగ్గర పెన్ ఉందా?}}{{ex:I don't have time.|ఐ డోంట్ హ్యావ఼్ టైమ్|నాకు టైమ్ లేదు}}
 <h3>have: తినడం, తాగడం</h3>
 <p>భోజనం పేర్ల ముందు ఆర్టికల్ రాదు.</p>
 {{ex:Let's have lunch.|లెట్స్ హ్యావ఼్ లంచ్|లంచ్ చేద్దాం}}{{ex:I have coffee every morning.|ఐ హ్యావ఼్ ˈకాఫి ˈఎవ఼్రి ˈమోర్నిఙ్|నేను రోజూ ఉదయం కాఫీ తాగుతాను}}
@@ -191,7 +191,7 @@ practice:[
 ["mc","I like ___. (వాళ్ళను)","them","they","their","theirs","క్రియ తర్వాత కర్మ రూపం them."],
 ["mc","\"మాకు కొంచెం సహాయం చేస్తారా?\" ఇంగ్లీష్‌లో?","Can you help us?","Can you help we?","Can you help our?","Can us help you?","క్రియ తర్వాత us."],
 ["mc","\"లంచ్ చేద్దాం\" ఇంగ్లీష్‌లో?","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","భోజనం పేర్ల ముందు ఆర్టికల్ రాదు."],
-["mc","\"నాకు ఇద్దరు అన్నదమ్ములు ఉన్నారు\" ఇంగ్లీష్‌లో?","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","కుటుంబం గురించి have తో చెప్తారు. ఇద్దరు కాబట్టి బహువచనం."],
+["mc","\"నాకు ఇద్దరు అన్నదమ్ములు ఉన్నారు\" ఇంగ్లీష్‌లో?","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","కుటుంబం గురించి have తో చెబుతారు. ఇద్దరు కాబట్టి బహువచనం."],
 ["or","మీ దగ్గర పెన్ ఉందా?","Do you have a pen","the pens","ఏదైనా ఒక పెన్ కాబట్టి ఆర్టికల్ a, ఏకవచనం pen."],
 ["or","నాకు ఆమె అంటే ఇష్టం","I like her","she","క్రియ తర్వాత కర్మ రూపం her."],
 ["or","నాకు ఇద్దరు చెల్లెళ్ళు ఉన్నారు","I have two sisters","sister a","ఇద్దరు కాబట్టి బహువచనం sisters. ఆర్టికల్ a రాదు."],
@@ -208,26 +208,26 @@ practice:[
 {{ex:I can swim.|ఐ కన్ స్విమ్|నాకు ఈత వచ్చు}}{{ex:I can't drive.|ఐ క్యాంట్ డ్రైవ఼్|నాకు డ్రైవింగ్ రాదు}}{{ex:Can you speak Telugu?|కన్ యు స్పీక్ ˈటెలగు|మీకు తెలుగు వచ్చా?}}
 <h3>like + -ing: చేయడం ఇష్టం</h3>
 <p>హాబీల గురించి చెప్పేటప్పుడు like, love తర్వాత <b>-ing రూపం</b> వస్తుంది.</p>
-{{ex:I like cooking.|ఐ లైక్ ˈకుకిఙ్|నాకు వంట చేయడం ఇష్టం}}{{ex:I love watching movies.|ఐ లవ఼్ ˈవాచిఙ్ ˈమూవ఼ిజ఼్|నాకు సినిమాలు చూడడం చాలా ఇష్టం}}{{ex:I don't like running.|ఐ డోంట్ లైక్ ˈరనిఙ్|నాకు పరుగెత్తడం ఇష్టం లేదు}}
+{{ex:I like cooking.|ఐ లైక్ ˈకుకిఙ్|నాకు వంట చేయడం ఇష్టం}}{{ex:I love watching movies.|ఐ లవ఼్ ˈవాచిఙ్ ˈమూవ఼ిజ఼్|నాకు సినిమాలు చూడటం చాలా ఇష్టం}}{{ex:I don't like running.|ఐ డోంట్ లైక్ ˈరనిఙ్|నాకు పరుగెత్తడం ఇష్టం లేదు}}
 <h3>I'd like: ఇవ్వండి, కావాలి</h3>
 <p><b>I like</b> అంటే ఎప్పుడూ ఇష్టం అని. <b>I'd like</b> అంటే ఇప్పుడు కావాలి అని మర్యాదగా చెప్పడం. ఆర్డర్ చేసేటప్పుడు I'd like వాడండి.</p>
 {{ex:I'd like a coffee, please.|ఐడ్ లైక్ అ ˈకాఫి ప్లీజ఼్|ఒక కాఫీ ఇవ్వండి}}{{ex:Would you like some tea?|వడ్ యు లైక్ సమ్ టీ|కొంచెం టీ తీసుకుంటారా?}}
 <div class="tip">ఎక్కువగా జరిగే తప్పులు: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓, <b>Swimming comes to me.</b> ✗ → <b>I can swim.</b> ✓, కేఫ్‌లో <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
-check:[["She can ___ very well. ఖాళీలో ఏది సరిపోతుంది?",["sings","sing","singing","to sing"],1,"can తర్వాత V1 వస్తుంది."],["\"నాకు వంట చేయడం ఇష్టం\" ఇంగ్లీష్‌లో?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like తర్వాత -ing రూపం వస్తుంది."],["కేఫ్‌లో ఆర్డర్ చేసేటప్పుడు ఏది సహజంగా ఉంటుంది?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"ఇప్పుడు కావలసినది I'd like తో చెప్తారు."]],
+check:[["She can ___ very well. ఖాళీలో ఏది సరిపోతుంది?",["sings","sing","singing","to sing"],1,"can తర్వాత V1 వస్తుంది."],["\"నాకు వంట చేయడం ఇష్టం\" ఇంగ్లీష్‌లో?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like తర్వాత -ing రూపం వస్తుంది."],["కేఫ్‌లో ఆర్డర్ చేసేటప్పుడు ఏది సహజంగా ఉంటుంది?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"ఇప్పుడు కావలసినది I'd like తో చెబుతారు."]],
 practice:[
 ["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can తర్వాత V1 వస్తుంది."],
 ["mc","\"నాకు డ్రైవింగ్ రాదు\" ఇంగ్లీష్‌లో?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can వ్యతిరేక రూపం can't."],
-["mc","\"నాకు సినిమాలు చూడడం ఇష్టం\" ఇంగ్లీష్‌లో?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like తర్వాత -ing రూపం. సినిమాలు అన్నీ అనే అర్థంలో బహువచనం movies."],
-["mc","ఆర్డర్ చేస్తూ \"ఒక కాఫీ ఇవ్వండి\" ఇంగ్లీష్‌లో?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","ఇప్పుడు కావలసినది I'd like తో చెప్తారు."],
+["mc","\"నాకు సినిమాలు చూడటం ఇష్టం\" ఇంగ్లీష్‌లో?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like తర్వాత -ing రూపం. సినిమాలు అన్నీ అనే అర్థంలో బహువచనం movies."],
+["mc","ఆర్డర్ చేస్తూ \"ఒక కాఫీ ఇవ్వండి\" ఇంగ్లీష్‌లో?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","ఇప్పుడు కావలసినది I'd like తో చెబుతారు."],
 ["mc","\"కొంచెం టీ తీసుకుంటారా?\" ఇంగ్లీష్‌లో?","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","ఏదైనా ఇస్తానని అడిగేటప్పుడు Would you like …?"],
 ["or","ఒక కాఫీ ఇవ్వండి","I'd like a coffee please","the coffees","ఆర్డర్ చేస్తున్నది ఒక కప్పు కాబట్టి ఆర్టికల్ a, ఏకవచనం coffee."],
 ["or","నాకు పుస్తకాలు చదవడం ఇష్టం","I like reading books","book read","like తర్వాత -ing రూపం. పుస్తకాలు అన్నీ అనే అర్థంలో బహువచనం books."],
 ["or","మీకు ఈత వచ్చా?","Can you swim","swimming","can తర్వాత V1 వస్తుంది."],
 ["fi","I can't __.","నాకు ఈత రాదు","swim","swimming|swims|to swim","can't తర్వాత V1 వస్తుంది."],
 ["fi","I like __ music.","నాకు సంగీతం వినడం ఇష్టం","listening to","listen to|listen|to listening","like తర్వాత -ing రూపం వస్తుంది."],
-["fi","__ like a sandwich, please.","ఒక శాండ్విచ్ ఇవ్వండి","I'd|I would","I|I'm|I can","ఆర్డర్ చేసేటప్పుడు I'd like."],
+["fi","__ like a sandwich, please.","ఒక శాండ్‌విచ్ ఇవ్వండి","I'd|I would","I|I'm|I can","ఆర్డర్ చేసేటప్పుడు I'd like."],
 ["ty","నాకు వంట చేయడం ఇష్టం","I like cooking|I love cooking|I like to cook","like · cook: -ing రూపం","cook","like తర్వాత -ing రూపం వస్తుంది."],
-["ty","ఒక శాండ్విచ్ ఇవ్వండి (ఆర్డర్ చేస్తూ)","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich: ఆర్టికల్ a","the","ఏదైనా ఒక శాండ్విచ్ కాబట్టి ఆర్టికల్ a."],
+["ty","ఒక శాండ్‌విచ్ ఇవ్వండి (ఆర్డర్ చేస్తూ)","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich: ఆర్టికల్ a","the","ఏదైనా ఒక శాండ్‌విచ్ కాబట్టి ఆర్టికల్ a."],
 ["ty","నాకు కుక్కలంటే ఇష్టం","I like dogs|I love dogs","like · dog: బహువచనం","dog","కుక్కలన్నిటి గురించి చెప్పేటప్పుడు బహువచనం dogs."]]},
 { id:"continuous", title:"ఇప్పుడు జరుగుతున్నది: be + -ing", blurb:"ఎప్పుడూ చేసే పనికి Simple Present, ఇప్పుడు చేస్తున్న పనికి be + -ing.", deck:"సరదా కబుర్లు", body:`
 <p>తెలుగులో "చేస్తున్నాను" అనే రూపానికి ఇంగ్లీష్‌లో Present Continuous: <b>am / is / are + -ing రూపం</b>. <b>ఇప్పుడు ఈ క్షణంలో</b> జరుగుతున్న పనులకు వాడతారు.</p>
@@ -237,10 +237,10 @@ practice:[
 <h3>Simple Present తో పోలిక</h3>
 <div class="tbl"><table><tr><th>ఎప్పుడూ (Simple Present)</th><th>ఇప్పుడు (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
 <h3>-ing తీసుకోని క్రియలు</h3>
-<p>like, know, want, need, understand, have (ఉండడం) లాంటివి <b>స్థితిని చెప్పే క్రియలు</b> (stative verbs). ఇప్పటి విషయమైనా ఇవి Simple Present లోనే ఉంటాయి. "హైదరాబాద్‌లో ఉంటున్నాను" అని ఇల్లు ఎక్కడో చెప్పడానికి <b>I live in Hyderabad.</b> అనాలి. I'm staying అంటే కొద్ది రోజుల బస.</p>
+<p>like, know, want, need, understand, have (ఉండటం) లాంటివి <b>స్థితిని చెప్పే క్రియలు</b> (stative verbs). ఇప్పటి విషయమైనా ఇవి Simple Present లోనే ఉంటాయి. "హైదరాబాద్‌లో ఉంటున్నాను" అని ఇల్లు ఎక్కడో చెప్పడానికి <b>I live in Hyderabad.</b> అనాలి. I'm staying అంటే కొద్ది రోజుల బస.</p>
 {{ex:I know him.|ఐ నో హిమ్|నాకు అతను తెలుసు}}{{ex:I want some water.|ఐ వాంట్ సమ్ ˈవాటర్|నాకు కొంచెం నీళ్ళు కావాలి}}
 <div class="tip">ఎక్కువగా జరిగే తప్పులు: be ను వదిలేయడం, <b>I working.</b> ✗ → <b>I'm working.</b> ✓. స్థితిని చెప్పే క్రియకు -ing పెట్టడం, <b>I'm knowing.</b> ✗ → <b>I know.</b> ✓. "ఐదేళ్ళుగా ఇక్కడ పని చేస్తున్నాను" లాంటి వాక్యాలకు Present Continuous సరిపోదు. అది Present Perfect పాఠంలో వస్తుంది.</div>`,
-check:[["\"ఇప్పుడు ఏం చేస్తున్నావు?\" ఇంగ్లీష్‌లో?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"ఇప్పుడు చేస్తున్న పని గురించి be + -ing తో అడుగుతారు."],["I ___ coffee every morning. ఖాళీలో ఏది సరిపోతుంది?",["am drinking","drinking","drink","am drink"],2,"రోజూ చేసే అలవాటు కాబట్టి Simple Present."],["వీటిలో సరైన వాక్యం ఏది?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"know, want, have (ఉండడం) స్థితిని చెప్పే క్రియలు: -ing తీసుకోవు."]],
+check:[["\"ఇప్పుడు ఏం చేస్తున్నావు?\" ఇంగ్లీష్‌లో?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"ఇప్పుడు చేస్తున్న పని గురించి be + -ing తో అడుగుతారు."],["I ___ coffee every morning. ఖాళీలో ఏది సరిపోతుంది?",["am drinking","drinking","drink","am drink"],2,"రోజూ చేసే అలవాటు కాబట్టి Simple Present."],["వీటిలో సరైన వాక్యం ఏది?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"know, want, have (ఉండటం) స్థితిని చెప్పే క్రియలు: -ing తీసుకోవు."]],
 practice:[
 ["mc","\"నేను ఇప్పుడు పని చేస్తున్నాను\" ఇంగ్లీష్‌లో?","I'm working now.","I work now am.","I'm work now.","I working now.","ఇప్పుడు చేస్తున్న పనికి be + -ing."],
 ["mc","\"ఆమె డిన్నర్ వండుతోంది\" ఇంగ్లీష్‌లో?","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","be + -ing. భోజనం పేర్ల ముందు ఆర్టికల్ రాదు."],
@@ -256,12 +256,12 @@ practice:[
 ["ty","నేను ఇప్పుడు వంట చేస్తున్నాను","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook: -ing రూపం · now","cook","ఇప్పుడు చేస్తున్న పనికి be + -ing."],
 ["ty","నేను ఒక సినిమా చూస్తున్నాను","I'm watching a movie","I'm · watching · movie: ఆర్టికల్ a","the","ఏదో ఒక సినిమా కాబట్టి ఆర్టికల్ a."],
 ["ty","పిల్లలు నిద్రపోతున్నారు","The kids are sleeping|The children are sleeping","the kids · are · sleeping: బహువచనం","kid","ఒకరి కంటే ఎక్కువ కాబట్టి బహువచనం kids, దానితో are."]]},
-{ id:"past", title:"జరిగిపోయిన విషయాలు: was / were, -ed", blurb:"be కి was, were. మిగతా క్రియలకు -ed. ప్రశ్న, వ్యతిరేక వాక్యంలో did.", deck:"సరదా కబుర్లు", body:`
-<p>జరిగిపోయిన విషయాలకు Simple Past (తెలుగులో "చేశాను", "వెళ్ళాను"). be కి ఒక పద్ధతి, మిగతా క్రియలకు ఇంకో పద్ధతి.</p>
+{ id:"past", title:"జరిగిపోయిన విషయాలు: was / were, -ed", blurb:"be కి was, were. వేరే క్రియలకు -ed. ప్రశ్న, వ్యతిరేక వాక్యంలో did.", deck:"సరదా కబుర్లు", body:`
+<p>జరిగిపోయిన విషయాలకు Simple Past (తెలుగులో "చేశాను", "వెళ్ళాను"). be కి ఒక పద్ధతి, వేరే క్రియలకు ఇంకో పద్ధతి.</p>
 <h3>be గత రూపం: was / were</h3>
 <p>I, he, she, it తో <b>was</b>. you, we, they తో <b>were</b>.</p>
 {{ex:I was tired.|ఐ వజ఼్ ˈటైఅర్డ్|నేను అలసిపోయి ఉన్నాను}}{{ex:It was fun.|ఇట్ వజ఼్ ఫన్|సరదాగా గడిచింది}}{{ex:We were at home.|వి వర్ అట్ హోమ్|మేము ఇంట్లో ఉన్నాం}}{{ex:Were you busy?|వర్ యు ˈబిజ఼ి|మీరు బిజీగా ఉన్నారా? (అప్పుడు)}}
-<h3>మిగతా క్రియలు: -ed</h3>
+<h3>వేరే క్రియలు: -ed</h3>
 <p>క్రియ చివర <b>-ed</b> వస్తుంది. కర్త ఎవరైనా రూపం ఒకటే. -ed పలికిన తర్వాత చివర అచ్చు చేర్చకండి.</p>
 {{ex:I worked yesterday.|ఐ వర్క్ట్ ˈయెస్టర్డే|నేను నిన్న పని చేశాను}}{{ex:We watched a movie.|వి వాచ్ట్ అ ˈమూవ఼ి|మేము ఒక సినిమా చూశాం}}{{ex:She called me.|షి కాల్డ్ మి|ఆమె నాకు ఫోన్ చేసింది}}
 <h3>వ్యతిరేక వాక్యం, ప్రశ్న: did</h3>
@@ -279,7 +279,7 @@ practice:[
 ["or","నేను నా స్నేహితులతో ఆడుకున్నాను","I played with my friends","friend play","ఒకరి కంటే ఎక్కువ మంది కాబట్టి బహువచనం friends."],
 ["or","నేను నిన్న పని చేయలేదు","I didn't work yesterday","worked","didn't తర్వాత V1 వస్తుంది."],
 ["fi","We __ at home last night.","నిన్న రాత్రి మేము ఇంట్లో ఉన్నాం","were","was|did|are","we తో were."],
-["fi","I __ soccer yesterday.","నేను నిన్న ఫుట్బాల్ ఆడాను","played","play|playing|was play","గతానికి -ed."],
+["fi","I __ soccer yesterday.","నేను నిన్న ఫుట్‌బాల్ ఆడాను","played","play|playing|was play","గతానికి -ed."],
 ["fi","__ you work yesterday?","మీరు నిన్న పని చేశారా?","Did","Were|Do|Was","Simple Past ప్రశ్నకు సహాయక క్రియ Did."],
 ["ty","నేను అలసిపోయి ఉన్నాను (గతంలో)","I was tired","was · tired","were","I తో was."],
 ["ty","నేను ఒక సినిమా చూశాను (watch వాడండి)","I watched a movie","watched · movie: ఆర్టికల్ a","the","ఒక సినిమా కాబట్టి ఆర్టికల్ a."],
@@ -308,7 +308,7 @@ practice:[
 ["ty","నేను బూసాన్ వెళ్ళాను","I went to Busan","went · to · Busan","go","go గత రూపం went."],
 ["ty","నేను ఒక పుస్తకం కొన్నాను","I bought a book","bought · book: ఆర్టికల్ a","the","ఒక పుస్తకం కాబట్టి ఆర్టికల్ a."],
 ["ty","నేను నా స్నేహితులను కలిశాను","I met my friends|I saw my friends","met · my · friend: బహువచనం","friend","ఒకరి కంటే ఎక్కువ మంది కాబట్టి బహువచనం friends."]]},
-{ id:"the", title:"the మళ్ళీ: మొదటిసారి a, తర్వాత the", blurb:"కొత్తగా చెప్తున్నప్పుడు a. ఏది అని ఇద్దరికీ తెలిస్తే the.", deck:"దారి, రవాణా", body:`
+{ id:"the", title:"the మళ్ళీ: మొదటిసారి a, తర్వాత the", blurb:"కొత్తగా చెబుతున్నప్పుడు a. ఏది అని ఇద్దరికీ తెలిస్తే the.", deck:"దారి, రవాణా", body:`
 <p>తెలుగులో ఆర్టికల్స్ లేవు కాబట్టి ఇవి ఒక్కసారికి అలవాటు కావు. తప్పు రెండు వైపులా జరుగుతుంది: కావలసిన చోట వదిలేస్తాం, అవసరం లేని చోట పెడతాం. ఇక్కడ <b>the</b> ఎప్పుడు వస్తుందో, <b>ఏ ఆర్టికల్ రాని చోట్లు</b> ఏవో మళ్ళీ సాధన చేద్దాం.</p>
 <h3>మొదటిసారి a, మళ్ళీ చెప్పినప్పుడు the</h3>
 <p>వినేవారికి కొత్త విషయమైతే a. ఇప్పుడే చెప్పాం కాబట్టి తెలిసినదైతే the.</p>
@@ -331,8 +331,8 @@ practice:[
 ["or","నేను బస్సులో ఆఫీసుకి వెళ్తాను","I go to work by bus","the a","go to work, by bus లో ఆర్టికల్ రాదు."],
 ["or","ఆ కుక్క పెద్దది","The dog is big","A dogs","ముందే చెప్పిన కుక్క కాబట్టి ఆర్టికల్ the."],
 ["fi","I saw a movie. __ movie was great.","నేను ఒక సినిమా చూశాను. ఆ సినిమా చాలా బాగుంది","The","A|An|Some","ఇప్పుడే చెప్పిన సినిమా కాబట్టి the."],
-["fi","Where's __ bathroom?","బాత్రూమ్ ఎక్కడ ఉంది?","the","a|an|some","ఈ బిల్డింగ్‌లోని బాత్రూమ్ కాబట్టి the."],
-["fi","I have __ idea.","నాకు ఒక ఐడియా వచ్చింది","an","a|the|some","మొదటిసారి చెప్తున్న ఒక ఐడియా, పైగా అచ్చు శబ్దంతో మొదలవుతుంది కాబట్టి an."],
+["fi","Where's __ bathroom?","బాత్‌రూమ్ ఎక్కడ ఉంది?","the","a|an|some","ఈ బిల్డింగ్‌లోని బాత్‌రూమ్ కాబట్టి the."],
+["fi","I have __ idea.","నాకు ఒక ఐడియా వచ్చింది","an","a|the|some","మొదటిసారి చెబుతున్న ఒక ఐడియా, పైగా అచ్చు శబ్దంతో మొదలవుతుంది కాబట్టి an."],
 ["ty","తలుపు కొంచెం మూస్తారా?","Can you close the door|Could you close the door","can you · close · door: ఆర్టికల్ the","a","ఏ తలుపో ఇద్దరికీ తెలుసు కాబట్టి ఆర్టికల్ the."],
 ["ty","స్టేషన్ ఎక్కడ ఉంది?","Where is the station|Where's the station","where · station: ఆర్టికల్ the","a","దగ్గర్లోని ఆ స్టేషన్ కాబట్టి ఆర్టికల్ the."],
 ["ty","నేను ఇంట్లో ఉన్నాను","I'm at home|I'm home","I'm · at · home: ఆర్టికల్ లేకుండా","the","home ముందు ఆర్టికల్ రాదు."]]},
@@ -346,7 +346,7 @@ practice:[
 <h3>superlative ముందు the</h3>
 {{ex:This is the best restaurant here.|ద఼ిస్ ఇజ఼్ ద఼ బెస్ట్ ˈరెస్టరాంట్ హిర్|ఇక్కడ అన్నిటికంటే మంచి రెస్టారెంట్ ఇదే}}{{ex:Which is the cheapest?|విచ్ ఇజ఼్ ద఼ ˈచీపిస్ట్|అన్నిటికంటే చవకైనది ఏది?}}
 <div class="tip">-er, more రెండూ కలిసి రావు: <b>more cheaper</b>, <b>more better</b> ✗ → <b>cheaper</b>, <b>better</b> ✓. రెండూ లేకుండా కూడా కుదరదు: <b>He is tall than me.</b> ✗ → <b>He is taller than me.</b> ✓</div>`,
-check:[["big కి comparative ఏది?",["more big","biger","bigger","most big"],2,"చిన్న పదాలకు -er. చివరి హల్లు రెండుసార్లు వస్తుంది."],["This is ___ expensive than that. ఖాళీలో ఏది సరిపోతుంది?",["more","most","much","very"],0,"పెద్ద పదాల comparative కి ముందు more."],["good కి superlative ఏది?",["the goodest","the most good","the better","the best"],3,"good, better, the best: ఇది ఇర్రెగ్యులర్ పోలిక."]],
+check:[["big కి comparative ఏది?",["more big","biger","bigger","most big"],2,"చిన్న పదాలకు -er. big లో ఒక్క అచ్చు అక్షరం, దాని తర్వాత ఒక్క హల్లు అక్షరం ఉన్నాయి కాబట్టి g రెండుసార్లు వస్తుంది: bigger."],["This is ___ expensive than that. ఖాళీలో ఏది సరిపోతుంది?",["more","most","much","very"],0,"పెద్ద పదాల comparative కి ముందు more."],["good కి superlative ఏది?",["the goodest","the most good","the better","the best"],3,"good, better, the best: ఇది ఇర్రెగ్యులర్ పోలిక."]],
 practice:[
 ["mc","cheap కి comparative ఏది?","cheaper","more cheap","cheapper","most cheap","చిన్న పదాలకు -er వస్తుంది."],
 ["mc","\"ఇది ఇంకా ఖరీదు\" ఇంగ్లీష్‌లో?","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","పెద్ద పదాలకు ముందు more."],
@@ -389,7 +389,7 @@ practice:[
 ["ty","మీరు ఏం చేయబోతున్నారు?","What are you going to do","what · going to · do","will","ప్లాన్ గురించి అడగడానికి be going to."],
 ["ty","నేను నా స్నేహితులను కలవబోతున్నాను","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend: బహువచనం","friend","ఒకరి కంటే ఎక్కువ మంది కాబట్టి బహువచనం friends."]]},
 { id:"joining", title:"వాక్యాలు కలపడం: and, but, or, so, because", blurb:"రెండు చిన్న వాక్యాలను ఒకటిగా చేయండి. so ముందు కారణం, because తర్వాత కారణం.", deck:"భావాలు, స్పందనలు", body:`
-<p>చిన్న చిన్న వాక్యాలే చెప్తే మాట తెగిపోతున్నట్టు ఉంటుంది. ఈ ఐదు కలిపే పదాలతో వాక్యాలు సహజంగా వినిపిస్తాయి.</p>
+<p>చిన్న చిన్న వాక్యాలే చెబితే మాట తెగిపోతున్నట్టు ఉంటుంది. ఈ ఐదు కలిపే పదాలతో వాక్యాలు సహజంగా వినిపిస్తాయి.</p>
 <h3>and, but, or</h3>
 {{ex:I like coffee and tea.|ఐ లైక్ ˈకాఫి అండ్ టీ|నాకు కాఫీ, టీ ఇష్టం}}{{ex:I'm tired but happy.|ఐమ్ ˈటైఅర్డ్ బట్ ˈహ్యాపి|అలసిపోయాను కానీ సంతోషంగా ఉన్నాను}}{{ex:Coffee or tea?|ˈకాఫి అర్ టీ|కాఫీనా, టీనా?}}
 <h3>so: కాబట్టి</h3>
@@ -409,7 +409,7 @@ practice:[
 ["mc","\"కాఫీనా, టీనా?\" ఇంగ్లీష్‌లో?","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","రెండిట్లో ఒకటి అనడానికి or."],
 ["mc","\"అలసిపోయాను కానీ సంతోషంగా ఉన్నాను\" ఇంగ్లీష్‌లో?","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","\"కానీ\" = but."],
 ["or","నాకు పిల్లులు, కుక్కలు ఇష్టం","I like cats and dogs","cat dog","ఆ జంతువులన్నిటి గురించి చెప్పేటప్పుడు బహువచనం: cats, dogs."],
-["or","ఒక కాఫీ, ఒక శాండ్విచ్ ఇవ్వండి","A coffee and a sandwich please","the or","ఒక్కొక్కటి ఆర్డర్ చేస్తున్నాం కాబట్టి రెండిటికీ ఆర్టికల్ a."],
+["or","ఒక కాఫీ, ఒక శాండ్‌విచ్ ఇవ్వండి","A coffee and a sandwich please","the or","ఒక్కొక్కటి ఆర్డర్ చేస్తున్నాం కాబట్టి రెండిటికీ ఆర్టికల్ a."],
 ["or","ఆకలిగా ఉంది కాబట్టి తిన్నాను","I was hungry so I ate","because","కారణం తర్వాత ఫలితం వస్తే so."],
 ["fi","I'm tired __ happy.","అలసిపోయాను కానీ సంతోషంగా ఉన్నాను","but","so|because|or","\"కానీ\" = but."],
 ["fi","I stayed home __ it was raining.","వర్షం పడుతోంది కాబట్టి ఇంట్లోనే ఉన్నాను","because","so|but|or","ఫలితం తర్వాత కారణం వస్తే because."],
@@ -418,34 +418,34 @@ practice:[
 ["ty","అలసిపోయాను కానీ సంతోషంగా ఉన్నాను","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","\"కానీ\" = but."],
 ["ty","నాకు కుక్కలు, పిల్లులు ఇష్టం","I like dogs and cats|I like cats and dogs","dog · and · cat: బహువచనం","dog","ఆ జంతువులన్నిటి గురించి చెప్పేటప్పుడు బహువచనం: dogs, cats."]]},
 { id:"indian-english", title:"ఇండియన్ ఇంగ్లీష్: ఇక్కడ సరే, విదేశాల్లో వింత", blurb:"prepone, out of station, good name: ఇండియాలో అందరికీ అర్థమవుతాయి. విదేశాల్లో ఏమంటారో తెలుసుకోండి.", deck:"ఇండియన్ ఇంగ్లీష్: ఇక్కడ, విదేశాల్లో", body:`
-<p>అమెరికన్ ఇంగ్లీష్, బ్రిటిష్ ఇంగ్లీష్ లాగే ఇండియన్ ఇంగ్లీష్ కూడా ఇంగ్లీష్‌లో ఒక నిజమైన రకం. దాని మాటలు ఇండియాలో అందరికీ అర్థమవుతాయి. ఇక్కడి సహోద్యోగులతో వాటిని ధైర్యంగా వాడండి. కానీ విదేశాల్లో, లేదా విదేశీ క్లయింట్‌తో మాట్లాడేటప్పుడు కొన్ని మాటలు అవతలివారికి అర్థం కాకపోవచ్చు. అక్కడ ఏ మాటలు వినిపిస్తాయో ఈ పాఠం చెప్తుంది.</p>
+<p>అమెరికన్ ఇంగ్లీష్, బ్రిటిష్ ఇంగ్లీష్ లాగే ఇండియన్ ఇంగ్లీష్ కూడా ఇంగ్లీష్‌లో ఒక నిజమైన రకం. దాని మాటలు ఇండియాలో అందరికీ అర్థమవుతాయి. ఇక్కడి సహోద్యోగులతో వాటిని ధైర్యంగా వాడండి. కానీ విదేశాల్లో, లేదా విదేశీ క్లయింట్‌తో మాట్లాడేటప్పుడు కొన్ని మాటలు అవతలివారికి అర్థం కాకపోవచ్చు. అక్కడ ఏ మాటలు వినిపిస్తాయో ఈ పాఠం చెబుతుంది.</p>
 <h3>ఇండియాలో సరే, విదేశాల్లో ఇలా చెప్పండి</h3>
-<div class="tbl"><table><tr><th>ఇండియాలో</th><th>విదేశాల్లో</th></tr><tr><td>prepone</td><td class="k">move up / bring forward</td></tr><tr><td>out of station</td><td class="k">out of town</td></tr><tr><td>What is your good name?</td><td class="k">What's your name?</td></tr><tr><td>cousin brother / cousin sister</td><td class="k">cousin</td></tr><tr><td>passed out (చదువు పూర్తి చేయడం)</td><td class="k">graduated</td></tr><tr><td>revert (జవాబు ఇవ్వడం)</td><td class="k">get back to you / reply</td></tr><tr><td>do the needful · kindly + పని</td><td class="k">please take care of it · could you please …</td></tr><tr><td>kindly adjust</td><td class="k">sorry for the trouble</td></tr><tr><td>hotel (భోజనం చేసే చోటు) · tiffin</td><td class="k">restaurant · breakfast / a snack</td></tr><tr><td>petrol bunk · brinjal</td><td class="k">gas station · eggplant</td></tr><tr><td>years back</td><td class="k">years ago</td></tr><tr><td>today itself · now only · and all</td><td class="k">today · right now · and so on</td></tr></table></div>
-<p>కొన్ని మాటలకు విదేశాల్లో వేరే అర్థం వస్తుంది: <b>passed out</b> అంటే అక్కడ "స్పృహ తప్పి పడిపోయాడు", <b>revert</b> అంటే "పాత స్థితికి తిరిగి వెళ్ళడం", <b>hotel</b> అంటే బస చేసే చోటు. prepone అనే మాటను అక్కడ చాలామంది విని ఉండరు.</p>
+<div class="tbl"><table><tr><th>ఇండియాలో</th><th>విదేశాల్లో</th></tr><tr><td>prepone</td><td class="k">move up / bring forward</td></tr><tr><td>out of station</td><td class="k">out of town</td></tr><tr><td>What is your good name?</td><td class="k">What's your name?</td></tr><tr><td>cousin brother / cousin sister</td><td class="k">cousin</td></tr><tr><td>passed out (చదువు పూర్తి చేయడం)</td><td class="k">graduated</td></tr><tr><td>revert (జవాబు ఇవ్వడం)</td><td class="k">get back to you / reply</td></tr><tr><td>do the needful · kindly + పని</td><td class="k">please take care of it · could you please …</td></tr><tr><td>kindly adjust</td><td class="k">sorry for the trouble</td></tr><tr><td>hotel (భోజనం చేసే చోటు) · tiffin</td><td class="k">restaurant · breakfast / a snack</td></tr><tr><td>petrol bunk · brinjal</td><td class="k">gas station · eggplant</td></tr><tr><td>I have a doubt. (ప్రశ్న అడగడానికి)</td><td class="k">I have a question.</td></tr><tr><td>today itself · now only · and all</td><td class="k">today · right now · and so on</td></tr></table></div>
+<p>కొన్ని మాటలకు విదేశాల్లో వేరే అర్థం వస్తుంది: <b>passed out</b> అంటే అక్కడ "స్పృహ తప్పి పడిపోయాడు", <b>revert</b> అంటే "పాత స్థితికి తిరిగి వెళ్ళడం", <b>hotel</b> అంటే బస చేసే చోటు, <b>doubt</b> అంటే "అనుమానం". prepone అనే మాటను అక్కడ చాలామంది విని ఉండరు.</p>
 {{ex:Can we move the meeting up?|కన్ వి మూవ఼్ ద఼ ˈమీటిఙ్ అప్|మీటింగ్ ముందుకు జరపగలమా?}}{{ex:I'm out of town this week.|ఐమ్ ఔట్ అవ఼్ టౌన్ ద఼ిస్ వీక్|నేను ఈ వారం ఊళ్ళో లేను}}{{ex:I graduated in 2019.|ఐ ˈగ్ర్యాజుఏటిడ్ ఇన్ ˈట్వెంటి నైంˈటీన్|నేను 2019 లో డిగ్రీ పూర్తి చేశాను}}{{ex:I moved here five years ago.|ఐ మూవ఼్డ్ హిర్ ఫైవ఼్ యిర్జ఼్ అˈగో|నేను ఐదేళ్ళ క్రితం ఇక్కడికి వచ్చాను}}
-<h3>ఎక్కడైనా తప్పే</h3>
-<p>కొన్ని అలవాట్లు ఏ రకం ఇంగ్లీష్‌లోనైనా తప్పే. doubt అంటే "అనుమానం". discuss లోనే "గురించి" అనే అర్థం ఉంది కాబట్టి about రాదు.</p>
-<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>Myself Ravi.</td><td class="k">I'm Ravi. / My name is Ravi.</td></tr><tr><td>discuss about the plan</td><td class="k">discuss the plan</td></tr><tr><td>revert back</td><td class="k">get back to you</td></tr><tr><td>cope up with the work</td><td class="k">cope with the work</td></tr><tr><td>more better</td><td class="k">better</td></tr><tr><td>I have a doubt. (ప్రశ్న అడగడానికి)</td><td class="k">I have a question.</td></tr><tr><td>You are coming, isn't it?</td><td class="k">You're coming, aren't you?</td></tr></table></div>
+<h3>మాటల్లో వినిపిస్తాయి, కానీ రాతలో వద్దు</h3>
+<p>ఈ కింది మాటలు ఇండియాలో రోజూ వినిపిస్తాయి, అందరికీ అర్థమవుతాయి. కానీ పరీక్షల్లో, ఫార్మల్ రాతలో ఇక్కడ కూడా వీటిని తప్పుగా లెక్కిస్తారు; విదేశాల్లో వింతగా వినిపిస్తాయి. discuss లోనే "గురించి" అనే అర్థం ఉంది కాబట్టి about రాదు.</p>
+<div class="tbl"><table><tr><th>ఇండియాలో వినిపించేది</th><th>ప్రామాణిక ఇంగ్లీష్</th></tr><tr><td>Myself Ravi.</td><td class="k">I'm Ravi. / My name is Ravi.</td></tr><tr><td>discuss about the plan</td><td class="k">discuss the plan</td></tr><tr><td>revert back</td><td class="k">get back to you</td></tr><tr><td>cope up with the work</td><td class="k">cope with the work</td></tr><tr><td>more better</td><td class="k">better</td></tr><tr><td>You are coming, isn't it?</td><td class="k">You're coming, aren't you?</td></tr></table></div>
 {{ex:Hi, I'm Ravi.|హై ఐమ్ ˈరావ఼ి|హాయ్, నేను రవిని}}{{ex:Let's discuss the plan.|లెట్స్ డిˈస్కస్ ద఼ ప్ల్యాన్|ప్లాన్ గురించి మాట్లాడుకుందాం}}{{ex:I have a question.|ఐ హ్యావ఼్ అ ˈక్వెస్చన్|నాకు ఒక ప్రశ్న ఉంది}}
 <h3>తెలుగు నుంచి నేరుగా వచ్చినవి</h3>
-<div class="tbl"><table><tr><th>తెలుగు</th><th>నేరుగా అనువాదం</th><th>విదేశాల్లో</th></tr><tr><td>మీరు ఎక్కడ ఉంటారు?</td><td>Where do you stay?</td><td class="k">Where do you live?</td></tr><tr><td>వెళ్ళొస్తాను</td><td>I'll go and come.</td><td class="k">I'll be right back. / See you later.</td></tr><tr><td>ఒక కాఫీ</td><td>one coffee</td><td class="k">a coffee</td></tr><tr><td>సొంత ఊరు</td><td>native place</td><td class="k">hometown</td></tr><tr><td>ఊరికే</td><td>simply</td><td class="k">for no reason</td></tr></table></div>
+<div class="tbl"><table><tr><th>తెలుగు</th><th>నేరుగా అనువాదం</th><th>విదేశాల్లో</th></tr><tr><td>మీరు ఎక్కడ ఉంటారు?</td><td>Where do you stay?</td><td class="k">Where do you live?</td></tr><tr><td>వెళ్ళొస్తాను</td><td>I'll go and come.</td><td class="k">I'll be right back. / See you later.</td></tr><tr><td>ఒక కాఫీ</td><td>one coffee</td><td class="k">a coffee</td></tr><tr><td>సొంత ఊరు</td><td>native place</td><td class="k">hometown</td></tr><tr><td>ఊరికే</td><td>simply</td><td class="k">for no reason</td></tr><tr><td>ఐదేళ్ళ ముందు</td><td>before five years</td><td class="k">five years ago</td></tr></table></div>
 <p>తెలుగులో "ఉండు" అనే ఒక్క క్రియకు ఇంగ్లీష్‌లో stay, live, be మూడూ వస్తాయి. ఇల్లు ఎక్కడ అని అడగడానికి విదేశాల్లో live వాడతారు. stay అంటే కొద్ది రోజుల బస.</p>
 {{ex:Where do you live?|వెర్ డ యు లివ఼్|మీరు ఎక్కడ ఉంటారు?}}{{ex:I'll be right back.|ఐల్ బి రైట్ బ్యాక్|ఇప్పుడే వస్తాను}}{{ex:I'm from Vijayawada.|ఐమ్ ఫ్రమ్ వ఼ిజయˈవాడ|మాది విజయవాడ}}
 <div class="tip">ఇండియన్ ఇంగ్లీష్ గురించి సిగ్గుపడాల్సిన పని లేదు. వినేవారిని బట్టి మాట ఎంచుకోండి: ఇక్కడి టీమ్‌తో <b>out of station</b>, విదేశీ క్లయింట్‌తో <b>out of town</b>.</div>`,
-check:[["విదేశీ క్లయింట్‌తో మీటింగ్ ముందుకు జరపమని అడగడానికి ఏది సరైనది?",["Can we prepone the meeting?","Can we move the meeting up?","Can we before the meeting?","Can we early the meeting?"],1,"prepone ఇండియాలో వాడతారు, విదేశాల్లో చాలామందికి తెలియదు: move up లేదా bring forward."],["\"నాకు ఒక ప్రశ్న ఉంది\" అని విదేశాల్లో స్పష్టంగా చెప్పే వాక్యం ఏది?",["I have one doubt.","I have a doubt.","I have doubt.","I have a question."],3,"doubt అంటే అనుమానం. ప్రశ్నకు question, ఒక ప్రశ్న కాబట్టి ఆర్టికల్ a."],["\"ఇప్పుడే వెళ్ళొస్తాను\" అని విదేశాల్లో ఎలా చెప్తారు?",["I'll be right back.","I'll go and come.","I'll go and I come.","I go come."],0,"I'll go and come తెలుగు \"వెళ్ళొస్తాను\" నుంచి వచ్చింది. విదేశాల్లో I'll be right back."]],
+check:[["విదేశీ క్లయింట్‌తో మీటింగ్ ముందుకు జరపమని అడగడానికి ఏది సరైనది?",["Can we prepone the meeting?","Can we move the meeting up?","Can we before the meeting?","Can we early the meeting?"],1,"prepone ఇండియాలో వాడతారు, విదేశాల్లో చాలామందికి తెలియదు: move up లేదా bring forward."],["\"నాకు ఒక ప్రశ్న ఉంది\" అని విదేశాల్లో స్పష్టంగా చెప్పే వాక్యం ఏది?",["I have one doubt.","I have a doubt.","I have doubt.","I have a question."],3,"doubt అంటే అనుమానం. ప్రశ్నకు question, ఒక ప్రశ్న కాబట్టి ఆర్టికల్ a."],["\"ఇప్పుడే వెళ్ళొస్తాను\" అని విదేశాల్లో ఎలా చెబుతారు?",["I'll be right back.","I'll go and come.","I'll go and I come.","I go come."],0,"I'll go and come తెలుగు \"వెళ్ళొస్తాను\" నుంచి వచ్చింది. విదేశాల్లో I'll be right back."]],
 practice:[
 ["mc","\"మీ పేరు ఏమిటి?\" అని విదేశాల్లో ఎలా అడుగుతారు?","What's your name?","What is your good name?","What is you name?","Your name is what?","good name ఇండియాలో వాడతారు. విదేశాల్లో What's your name? చాలు."],
 ["mc","\"నేను ఈ వారం ఊళ్ళో లేను\" విదేశాల్లో?","I'm out of town this week.","I'm out of station this week.","I'm out of the town this week.","I'm outside city this week.","out of station ఇండియాలో వాడతారు. విదేశాల్లో out of town."],
 ["mc","\"నేను 2019 లో డిగ్రీ పూర్తి చేశాను\" విదేశాల్లో?","I graduated in 2019.","I passed out in 2019.","I was passed out in 2019.","I graduated on 2019.","విదేశాల్లో passed out అంటే \"స్పృహ తప్పి పడిపోయాను\". చదువు పూర్తయితే graduated."],
-["mc","మిమ్మల్ని మీరు పరిచయం చేసుకోవడానికి సరైన వాక్యం ఏది?","I'm Ravi.","Myself Ravi.","Myself is Ravi.","I am myself Ravi.","Myself Ravi ఏ రకం ఇంగ్లీష్‌లోనూ సరైనది కాదు: I'm Ravi లేదా My name is Ravi."],
+["mc","మిమ్మల్ని మీరు పరిచయం చేసుకోవడానికి సరైన వాక్యం ఏది?","I'm Ravi.","Myself Ravi.","Myself is Ravi.","I am myself Ravi.","Myself Ravi ఇండియాలో వినిపిస్తుంది, కానీ ప్రామాణిక ఇంగ్లీష్ కాదు: I'm Ravi లేదా My name is Ravi."],
 ["mc","\"మీరు ఎక్కడ ఉంటారు?\" (ఇల్లు ఎక్కడ) అని విదేశాల్లో ఎలా అడుగుతారు?","Where do you live?","Where do you stay?","Where you live?","Where are you live?","stay అంటే విదేశాల్లో కొద్ది రోజుల బస. ఇల్లు ఎక్కడ అని అడగడానికి live."],
 ["or","నేను ఒక ప్రశ్న అడగవచ్చా?","Can I ask a question","doubt the","doubt అంటే అనుమానం. ప్రశ్నకు question, ఒక ప్రశ్న కాబట్టి ఆర్టికల్ a."],
 ["or","నేను ఈ వారం ఊళ్ళో లేను","I'm out of town this week","station the","out of station ఇండియాలో వాడతారు. విదేశాల్లో out of town. town ముందు ఆర్టికల్ రాదు."],
-["or","మీటింగ్ ముందుకు జరుపుదాం","Let's move the meeting up","prepone a","prepone విదేశాల్లో అర్థం కాకపోవచ్చు: move up. ఏ మీటింగో ఇద్దరికీ తెలుసు కాబట్టి ఆర్టికల్ the."],
-["or","ప్లాన్ గురించి మాట్లాడుకుందాం","Let's discuss the plan","about","discuss తో about రాదు. discuss అంటేనే \"దాని గురించి మాట్లాడడం\"."],
+["or","దాన్ని (మీటింగ్‌ని) ముందుకు జరుపుదాం","Let's move it up","early before","prepone విదేశాల్లో అర్థం కాకపోవచ్చు: move up. it లాంటి సర్వనామం move, up మధ్యలో వస్తుంది: move it up."],
+["or","ప్లాన్ గురించి మాట్లాడుకుందాం","Let's discuss the plan","about","discuss తో about రాదు. discuss అంటేనే \"దాని గురించి మాట్లాడటం\"."],
 ["fi","I'll get __ to you tomorrow.","నేను రేపు మీకు జవాబు ఇస్తాను (విదేశాల్లో)","back","revert|reply|return","revert ఇండియాలో వాడతారు. విదేశాల్లో I'll get back to you."],
 ["fi","She's my __.","ఆమె నా కజిన్ (విదేశాల్లో)","cousin","cousin sister|sister cousin|real cousin","cousin sister ఇండియాలో వాడతారు. విదేశాల్లో cousin ఒక్కటే చాలు."],
-["fi","I moved to Hyderabad five years __.","నేను ఐదేళ్ళ క్రితం హైదరాబాద్ వచ్చాను (విదేశాల్లో)","ago","back|before|from","years back ఇండియాలో వాడతారు. విదేశాల్లో years ago."],
+["fi","I moved to Hyderabad five years __.","నేను ఐదేళ్ళ క్రితం హైదరాబాద్ వచ్చాను","ago","before|since|from","\"ఐదేళ్ళ క్రితం\" = five years ago. before five years, since five years తెలుగు నుంచి నేరుగా వచ్చినవి; ఇక్కడ రావు."],
 ["ty","నాకు కొంచెం సలహా కావాలి","I need some advice|I need advice|I want some advice|I'd like some advice","need · advice: లెక్కించలేని నామవాచకం","advices","advice లెక్కించలేని నామవాచకం: advices అనే బహువచనం లేదు."],
 ["ty","నాకు రిపోర్ట్ పంపగలరా?","Could you send me the report|Can you send me the report|Could you please send me the report|Can you please send me the report|Please send me the report|Can you send me the report please|Could you send me the report please|Can you send the report to me|Could you send the report to me","could you · send · report: ఆర్టికల్ the","a","ఏ రిపోర్టో ఇద్దరికీ తెలుసు కాబట్టి ఆర్టికల్ the. Kindly కూడా అర్థమవుతుంది, కానీ విదేశాల్లో please లేదా Could you ఎక్కువగా వినిపిస్తాయి."],
 ["ty","దగ్గర్లో మంచి రెస్టారెంట్ ఉందా?","Is there a good restaurant near here|Is there a good restaurant nearby|Is there a good restaurant around here","is there · good · restaurant: ఆర్టికల్ a","hotel","భోజనం చేసే చోటు restaurant. hotel అంటే బస చేసే చోటు. ఏదైనా ఒకటి కాబట్టి ఆర్టికల్ a."],

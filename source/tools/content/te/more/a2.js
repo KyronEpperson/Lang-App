@@ -119,7 +119,7 @@ practice:[
 <h3>tag ఎలా తయారవుతుంది</h3>
 <p>మూడు అడుగులు: వాక్యంలోని సహాయక క్రియను (be, do, did, can, will, have) మళ్ళీ చెప్పండి; వాక్యంలో not లేకపోతే tag లో n't పెట్టండి, ఉంటే తీసేయండి; కర్తను సర్వనామంగా మార్చి చివర పెట్టండి. వాక్యంలో సహాయక క్రియ కనిపించకపోతే do / does / did వస్తుంది.</p>
 {{ex:You're coming, aren't you?|యుర్ ˈకమిఙ్ ఆర్న్ట్ యు|నువ్వు వస్తున్నావు, కదా?}}{{ex:She doesn't know, does she?|షి ˈడజ఼ంట్ నో డజ఼్ షి|ఆమెకు తెలియదు, కదా?}}{{ex:They went home, didn't they?|ద఼ే వెంట్ హోమ్ ˈడిడంట్ ద఼ే|వాళ్ళు ఇంటికి వెళ్ళారు, కదా?}}{{ex:You can drive, can't you?|యు కన్ డ్రైవ఼్ క్యాంట్ యు|నీకు డ్రైవింగ్ వచ్చు, కదా?}}
-<p><b>You are coming, isn't it?</b> ✗ → <b>You're coming, aren't you?</b> ✓ <b>isn't it?</b> వచ్చేది it is / this is / that is తర్వాత మాత్రమే:</p>
+<p><b>You are coming, isn't it?</b> ✗ → <b>You're coming, aren't you?</b> ✓ <b>isn't it?</b> వచ్చేది కర్త it / this / that (లేదా ఒక వస్తువు పేరు), క్రియ is అయినప్పుడు మాత్రమే:</p>
 {{ex:It's a nice day, isn't it?|ఇట్స్ అ నైస్ డే ˈఇజ఼ంట్ ఇట్|ఈరోజు వాతావరణం బాగుంది, కదా?}}
 <h3>గుర్తు రాకపోతే right?</h3>
 <p><b>right?</b> ఏ వాక్యం తర్వాతైనా సరిపోతుంది, స్నేహంగా వినిపిస్తుంది.</p>
@@ -132,10 +132,10 @@ practice:[
 <p><b>Why you are late?</b> ✗ <b>Where you went?</b> ✗</p>
 <h3>వాక్యం లోపల ఉన్న ప్రశ్న: మామూలు వరుస</h3>
 <p>I don't know, Can you tell me, Do you know తర్వాత వచ్చే ప్రశ్న మామూలు వాక్యం వరుసలోకి వస్తుంది: ముందు కర్త, తర్వాత క్రియ. do / does / did రావు.</p>
-{{ex:I don't know where he is.|ఐ డోంట్ నో వెర్ హి ఇజ఼్|అతను ఎక్కడ ఉన్నాడో నాకు తెలియదు}}{{ex:Can you tell me what time it is?|కన్ యు టెల్ మి వట్ టైమ్ ఇట్ ఇజ఼్|టైం ఎంతైందో చెప్పగలరా?}}
+{{ex:I don't know where he is.|ఐ డోంట్ నో వెర్ హి ఇజ఼్|అతను ఎక్కడ ఉన్నాడో నాకు తెలియదు}}{{ex:Can you tell me what time it is?|కన్ యు టెల్ మి వట్ టైమ్ ఇట్ ఇజ఼్|టైమ్ ఎంతైందో చెప్పగలరా?}}
 <p><b>I don't know what are they doing.</b> ✗ → <b>I don't know what they are doing.</b> ✓</p>
 <div class="tip">ఒక్క మాటలో: tag = వాక్యంలోని సహాయక క్రియ (n't లేకపోతే పెట్టి, ఉంటే తీసి) + కర్త సర్వనామం. గుర్తు రాకపోతే <b>right?</b></div>`,
-check:[["\"నువ్వు వస్తున్నావు, కదా?\" ఇంగ్లీష్‌లో?",["You're coming, isn't it?","You're coming, aren't you?","You coming, aren't you?","You're coming, are you?"],1,"You're లో సహాయక క్రియ are కాబట్టి tag aren't you. isn't it అన్ని చోట్లా రాదు."],["They went home, ___ they? ఖాళీలో ఏది సరిపోతుంది?",["didn't","weren't","don't","isn't"],0,"went అంటే Simple Past కాబట్టి సహాయక క్రియ did. వాక్యంలో not లేదు కాబట్టి tag లో n't: didn't they."],["సరైన వాక్యం ఏది?",["I don't know what are they doing.","I don't know what they doing.","I don't know what do they do.","I don't know what they are doing."],3,"వాక్యం లోపల ఉన్న ప్రశ్నలో మామూలు వరుస: they are."]],
+check:[["\"నువ్వు వస్తున్నావు, కదా?\" ఇంగ్లీష్‌లో?",["You're coming, isn't it?","You're coming, aren't you?","You coming, aren't you?","You're coming, don't you?"],1,"You're లో సహాయక క్రియ are కాబట్టి tag aren't you. isn't it అన్ని చోట్లా రాదు."],["They went home, ___ they? ఖాళీలో ఏది సరిపోతుంది?",["didn't","weren't","don't","isn't"],0,"went అంటే Simple Past కాబట్టి సహాయక క్రియ did. వాక్యంలో not లేదు కాబట్టి tag లో n't: didn't they."],["సరైన వాక్యం ఏది?",["I don't know what are they doing.","I don't know what they doing.","I don't know what do they do.","I don't know what they are doing."],3,"వాక్యం లోపల ఉన్న ప్రశ్నలో మామూలు వరుస: they are."]],
 practice:[
 ["mc","సరైన వాక్యం ఎంచుకోండి.","You're coming, aren't you?","You're coming, isn't it?","You're coming, don't you?","You coming, aren't you?","You're లో సహాయక క్రియ are కాబట్టి tag aren't you. isn't it అన్ని చోట్లా రాదు."],
 ["mc","\"మీరు ఎందుకు లేట్ అయ్యారు?\" ఇంగ్లీష్‌లో?","Why are you late?","Why you are late?","Why late you are?","Why you late?","wh- పదం, తర్వాత సహాయక క్రియ are, తర్వాత కర్త you."],
@@ -143,15 +143,15 @@ practice:[
 ["mc","\"అతను ఎక్కడ పని చేస్తాడో నాకు తెలియదు\" ఇంగ్లీష్‌లో?","I don't know where he works.","I don't know where does he work.","I don't know where he work.","I don't know where works he.","వాక్యం లోపల ఉన్న ప్రశ్నలో మామూలు వరుస: he works. does రాదు."],
 ["mc","You're not coming, are you? అని అడిగారు. మీరు రావడం లేదు. జవాబు ఏది?","No, I'm not.","Yes, I'm not.","Yes, I am.","No, I am.","రావడం లేదంటే No. తెలుగులో లాగా \"అవును, రావడం లేదు\" అనరు."],
 ["or","ఈరోజు వాతావరణం బాగుంది, కదా?","It's a nice day, isn't it","the aren't","day లెక్కించదగిన నామవాచకం, ఒక రోజు: ఆర్టికల్ a. It's తో మొదలైంది కాబట్టి tag isn't it."],
-["or","పిల్లలు బయట ఉన్నారు, కదా?","The children are outside, aren't they","A isn't","children బహువచనం కాబట్టి ఆర్టికల్ a రాదు, the వస్తుంది. are ఉంది కాబట్టి tag aren't they."],
+["or","పిల్లలు బయట ఉన్నారు, కదా?","The children are outside, aren't they","A isn't","children బహువచనం కాబట్టి ఆర్టికల్ a రాదు; ఏ పిల్లలో ఇద్దరికీ తెలుసు కాబట్టి the. are ఉంది కాబట్టి tag aren't they."],
 ["or","అతను ఎక్కడ ఉన్నాడో నాకు తెలియదు","I don't know where he is","does","వాక్యం లోపల ఉన్న ప్రశ్నలో మామూలు వరుస: he is. is he కాదు."],
 ["or","మీరు నిన్న ఎక్కడికి వెళ్ళారు?","Where did you go yesterday","went","did ఉంటే క్రియ V1 రూపంలో ఉంటుంది: go."],
 ["fi","You like coffee, __ you?","నీకు కాఫీ ఇష్టం, కదా?","don't","aren't|isn't|doesn't","like కి సహాయక క్రియ do. వాక్యంలో not లేదు కాబట్టి tag లో n't: don't you."],
 ["fi","She can't swim, __ she?","ఆమెకు ఈత రాదు, కదా?","can","can't|does|is","వాక్యంలో can't ఉంది కాబట్టి tag లో n't లేకుండా can."],
 ["fi","Do you know where the station __?","స్టేషన్ ఎక్కడ ఉందో మీకు తెలుసా?","is","does|is it|it is","వాక్యం లోపల ఉన్న ప్రశ్నలో క్రియ చివర వస్తుంది: the station is."],
-["ty","మీకు ఇద్దరు అన్నదమ్ములు ఉన్నారు, కదా?","You have two brothers, don't you|You have two brothers, right","two brothers · don't you (బహువచనం)","brother","two తర్వాత బహువచనం: brothers. have కి tag don't you."],
+["ty","మీకు ఇద్దరు అన్నదమ్ములు ఉన్నారు, కదా?","You have two brothers, don't you|You have two brothers, right|You've got two brothers, haven't you|You've got two brothers, right","two brothers · don't you (బహువచనం)","brother","two తర్వాత బహువచనం: brothers. have కి tag don't you."],
 ["ty","ఆమె డాక్టర్, కదా?","She's a doctor, isn't she|She's a doctor, right","a doctor · isn't she (ఆర్టికల్ a)","it","ఉద్యోగం పేరు ముందు ఆర్టికల్ a. she కాబట్టి isn't she, isn't it కాదు."],
-["ty","టైం ఎంతైందో మీకు తెలుసా? (Do you know తో)","Do you know what time it is|Can you tell me what time it is|Could you tell me what time it is","what time · it is","does","వాక్యం లోపల ఉన్న ప్రశ్నలో మామూలు వరుస: it is. is it కాదు."],
+["ty","టైమ్ ఎంతైందో మీకు తెలుసా? (Do you know తో)","Do you know what time it is|Do you know what the time is|Can you tell me what time it is|Could you tell me what time it is","what time · it is","does","వాక్యం లోపల ఉన్న ప్రశ్నలో మామూలు వరుస: it is. is it కాదు."],
 ["ty","మీరు ఎందుకు లేట్ అయ్యారు?","Why are you late|Why were you late","why · are · late","did","wh- పదం తర్వాత సహాయక క్రియ, తర్వాత కర్త: Why are you …"]]},
 { id:"to-ing", title:"క్రియ తర్వాత to లేదా -ing: want to, enjoy -ing", blurb:"want తర్వాత to, enjoy తర్వాత -ing. ఏ క్రియకు ఏది వస్తుందో ముందే నిర్ణయమై ఉంటుంది.", deck:"సరదా కబుర్లు", body:`
 <p>రెండు క్రియలు వరుసగా వచ్చినప్పుడు, మొదటి క్రియను బట్టి రెండోది <b>to + V1</b> గానో, <b>-ing</b> రూపంగానో వస్తుంది. తెలుగు అనువాదం చూసి ఏది వస్తుందో చెప్పలేం, అందుకే ఎక్కువగా వాడే క్రియలను గుంపులుగా గుర్తుపెట్టుకోండి.</p>
@@ -173,7 +173,7 @@ practice:[
 ["mc","\"నా పని అయిపోయింది\" ఇంగ్లీష్‌లో?","I finished working.","I finished to work.","I finished work to.","I finish worked.","finish తర్వాత -ing రూపం."],
 ["mc","\"వేచి ఉండడానికి నాకు అభ్యంతరం లేదు\" ఇంగ్లీష్‌లో?","I don't mind waiting.","I don't mind to wait.","I don't mind wait.","I'm not mind waiting.","mind తర్వాత -ing రూపం."],
 ["or","నాకు ఒక కారు కొనాలని ఉంది","I want to buy a car","the buying","want తర్వాత to. ఒక కారు కాబట్టి ఆర్టికల్ a."],
-["or","నాకు సినిమాలు చూడడం చాలా ఇష్టం","I enjoy watching movies","movie watch","enjoy తర్వాత -ing. ఏ సినిమా అయినా అని అర్థం కాబట్టి బహువచనం movies."],
+["or","నాకు సినిమాలు చూడటం చాలా ఇష్టం","I enjoy watching movies","movie watch","enjoy తర్వాత -ing. ఏ సినిమా అయినా అని అర్థం కాబట్టి బహువచనం movies."],
 ["or","నేను విశ్రాంతి తీసుకోవాలి","I need to rest","resting","need తర్వాత to + V1."],
 ["fi","I want __ a coffee.","నాకు ఒక కాఫీ తాగాలని ఉంది","to have|to drink|to get","have|having|drinking","want తర్వాత to + V1."],
 ["fi","She enjoys __.","ఆమెకు ఈత కొట్టడం చాలా ఇష్టం","swimming","to swim|swim|swims","enjoy తర్వాత -ing రూపం."],
@@ -214,7 +214,7 @@ practice:[
 {{ex:If it rains, I'll stay home.|ఇఫ్ ఇట్ రేన్జ఼్ ఐల్ స్టే హోమ్|వర్షం పడితే నేను ఇంట్లోనే ఉంటాను}}{{ex:If you don't hurry, you'll miss the bus.|ఇఫ్ యు డోంట్ ˈహరి యుల్ మిస్ ద఼ బస్|నువ్వు తొందరపడకపోతే బస్సు మిస్ అవుతావు}}
 <h3>వరుస మార్చవచ్చు</h3>
 <p>if ని వెనక్కి పంపితే కామా అవసరం లేదు.</p>
-{{ex:I'll help you if I have time.|ఐల్ హెల్ప్ యు ఇఫ్ ఐ హ్యావ఼్ టైమ్|నాకు టైం ఉంటే నీకు సహాయం చేస్తాను}}
+{{ex:I'll help you if I have time.|ఐల్ హెల్ప్ యు ఇఫ్ ఐ హ్యావ఼్ టైమ్|నాకు టైమ్ ఉంటే నీకు సహాయం చేస్తాను}}
 <h3>ఏదైనా చేయమని చెప్పేటప్పుడు</h3>
 {{ex:If you're late, call me.|ఇఫ్ యుర్ లేట్ కాల్ మి|లేట్ అయితే నాకు ఫోన్ చెయ్యి}}{{ex:If you need help, let me know.|ఇఫ్ యు నీడ్ హెల్ప్ లెట్ మి నో|సహాయం కావాలంటే నాకు చెప్పు}}
 <h3>when: తప్పకుండా జరిగే విషయం</h3>
@@ -225,16 +225,16 @@ check:[["If it ___ tomorrow, I'll stay home. ఖాళీలో ఏది సర
 practice:[
 ["mc","If it ___, I'll stay home.","rains","will rain","rained","is rain","if పక్కన Simple Present వస్తుంది."],
 ["mc","If you're late, ___ me.","call","will calling","calls","to call","ఏదైనా చేయమని చెప్పే వాక్యం V1 తో మొదలవుతుంది."],
-["mc","\"నాకు టైం ఉంటే నీకు సహాయం చేస్తాను\" ఇంగ్లీష్‌లో?","I'll help you if I have time.","I help you if I'll have time.","I'll help you if I will have time.","I'll helping you if I have time.","if పక్కన will రాదు."],
+["mc","\"నాకు టైమ్ ఉంటే నీకు సహాయం చేస్తాను\" ఇంగ్లీష్‌లో?","I'll help you if I have time.","I help you if I'll have time.","I'll help you if I will have time.","I'll helping you if I have time.","if పక్కన will రాదు."],
 ["mc","\"నువ్వు తొందరపడకపోతే బస్సు మిస్ అవుతావు\" ఇంగ్లీష్‌లో?","If you don't hurry, you'll miss the bus.","If you won't hurry, you miss the bus.","If you don't hurry, you miss will the bus.","If you not hurry, you'll miss bus.","if వైపు Simple Present వ్యతిరేక రూపం: don't."],
 ["mc","\"ఇంటికి చేరగానే నీకు ఫోన్ చేస్తాను\" ఇంగ్లీష్‌లో?","When I get home, I'll call you.","When I'll get home, I call you.","When I will get home, I'll call you.","When I get the home, I call you.","when పక్కన కూడా Simple Present వస్తుంది."],
 ["or","వర్షం పడితే నేను ఇంట్లోనే ఉంటాను","If it rains I'll stay home","will the","if పక్కన Simple Present వస్తుంది. home ముందు ఆర్టికల్ రాదు."],
-["or","నీకు టైం ఉంటే నాకు ఫోన్ చెయ్యి","If you have time call me","will","if పక్కన will రాదు."],
+["or","నీకు టైమ్ ఉంటే నాకు ఫోన్ చెయ్యి","If you have time call me","will","if పక్కన will రాదు."],
 ["or","నువ్వు బస్సు మిస్ అవుతావు","You'll miss the bus","a buses","ఎక్కాలనుకున్న ఆ బస్సే కాబట్టి ఆర్టికల్ the."],
 ["fi","If it __ tomorrow, we'll cancel.","రేపు వర్షం పడితే రద్దు చేస్తాం","rains","will rain|rained|raining","if పక్కన Simple Present వస్తుంది."],
 ["fi","If you study, you __ pass.","చదివితే పాస్ అవుతావు","will|can|might","are|did|passing","ఫలితం వైపు will + V1."],
 ["fi","__ you need help, call me.","సహాయం కావాలంటే నాకు ఫోన్ చెయ్యి","If|When","So|But|Because","\"కావాలంటే\" = if."],
-["ty","నాకు టైం ఉంటే సహాయం చేస్తాను","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","if పక్కన will రాదు."],
+["ty","నాకు టైమ్ ఉంటే సహాయం చేస్తాను","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","if పక్కన will రాదు."],
 ["ty","వర్షం పడితే నేను టాక్సీలో వెళ్తాను (take తో)","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi (ఆర్టికల్ a)","the","ఏదో ఒక టాక్సీ కాబట్టి ఆర్టికల్ a."],
 ["ty","నువ్వు బస్సు మిస్ అవుతావు","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus (ఆర్టికల్ the)","a","ఎక్కాలనుకున్న ఆ బస్సే కాబట్టి ఆర్టికల్ the."]]},
 { id:"relative", title:"who / that: మనిషిని, వస్తువును వివరించడం", blurb:"తెలుగులో వివరణ ముందు వస్తుంది, ఇంగ్లీష్‌లో నామవాచకం తర్వాత.", deck:"షాపింగ్, చెల్లింపులు", body:`

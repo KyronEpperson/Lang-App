@@ -504,7 +504,7 @@
    "where": "html <h3> text"
   },
   "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": {
-   "t": "(han). ఇంగ్లీష్‌లో స్పెల్లింగ్ చూసి ఉచ్చారణ ఎప్పుడూ చెప్పలేం: ఆడియో వినండి, ఒత్తి పలికే సిలబుల్ గమనించండి.",
+   "t": "(han). ఇంగ్లీష్‌లో స్పెల్లింగ్ చూసి ఉచ్చారణ ప్రతిసారీ ఊహించలేం: ఆడియో వినండి, ఒత్తి పలికే సిలబుల్ గమనించండి.",
    "ko": "(han). 세로 모음(ㅏㅓㅣ)은 자음 오른쪽에, 가로 모음(ㅗㅜㅡ)은 자음 아래에 와요. 받침은 항상 맨 아래에 들어가요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -609,7 +609,7 @@
    "where": "html <button> text"
   },
   "Certificates": {
-   "t": "సర్టిఫికెట్లు",
+   "t": "సర్టిఫికెట్‌లు",
    "ko": "수료증",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -884,7 +884,7 @@
    "where": "html <b> text"
   },
   "to all users. Your name is shown only if you tick \"Show my name\". We also store the page you posted from, the app version and your browser type (never shown publicly) to help fix bugs.": {
-   "t": "(యూజర్లందరికీ కనిపిస్తుంది). \"నా పేరు చూపించండి\" టిక్ చేస్తేనే మీ పేరు కనిపిస్తుంది. బగ్‌లు సరిచేయడానికి మీరు పోస్ట్ చేసిన పేజీ, యాప్ వెర్షన్, బ్రౌజర్ రకం కూడా సేవ్ చేస్తాం (ఇవి బయటికి ఎప్పుడూ కనిపించవు).",
+   "t": "(యూజర్‌లందరికీ కనిపిస్తుంది). \"నా పేరు చూపించండి\" టిక్ చేస్తేనే మీ పేరు కనిపిస్తుంది. బగ్‌లు సరిచేయడానికి మీరు పోస్ట్ చేసిన పేజీ, యాప్ వెర్షన్, బ్రౌజర్ రకం కూడా సేవ్ చేస్తాం (ఇవి బయటికి ఎప్పుడూ కనిపించవు).",
    "ko": "로 모든 사용자에게 보여요. 이름은 \"내 이름 표시\"를 체크했을 때만 보여요. 버그 수정을 위해 글을 올린 페이지, 앱 버전, 브라우저 종류도 저장해요(공개되지 않아요).",
    "kind": "sentence",
    "where": "html text"
@@ -897,7 +897,7 @@
    "where": "html <b> text"
   },
   ": anonymous page-view counts via Vercel Web Analytics — no cookies, no cross-site tracking, no personal profile.": {
-   "t": ": Vercel Web Analytics ద్వారా పేజీ వీక్షణల లెక్క మాత్రమే, అదీ పేరు లేకుండా. కుకీలు లేవు, సైట్ల మధ్య ట్రాకింగ్ లేదు, వ్యక్తిగత ప్రొఫైల్ లేదు.",
+   "t": ": Vercel Web Analytics ద్వారా పేజీ వీక్షణల లెక్క మాత్రమే, అదీ పేరు లేకుండా. కుకీలు లేవు, సైట్‌ల మధ్య ట్రాకింగ్ లేదు, వ్యక్తిగత ప్రొఫైల్ లేదు.",
    "ko": ": Vercel Web Analytics로 익명 페이지 조회수만 집계해요 — 쿠키, 사이트 간 추적, 개인 프로필 없음.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -969,7 +969,7 @@
    "where": "html <h3> text"
   },
   "Be kind, stay on topic, no spam, no personal information (yours or anyone else's). Posts that break these may be hidden. Don't post passwords, phone numbers or addresses.": {
-   "t": "మర్యాదగా ఉండండి, విషయానికి కట్టుబడి ఉండండి, స్పామ్ వద్దు, వ్యక్తిగత సమాచారం వద్దు (మీది గానీ, ఇతరులది గానీ). ఇవి పాటించని పోస్టులను దాచవచ్చు. పాస్‌వర్డ్‌లు, ఫోన్ నంబర్లు, అడ్రస్‌లు పోస్ట్ చేయకండి.",
+   "t": "మర్యాదగా ఉండండి, విషయానికి కట్టుబడి ఉండండి, స్పామ్ వద్దు, వ్యక్తిగత సమాచారం వద్దు (మీది గానీ, ఇతరులది గానీ). ఇవి పాటించని పోస్టులను దాచవచ్చు. పాస్‌వర్డ్‌లు, ఫోన్ నంబర్‌లు, అడ్రస్‌లు పోస్ట్ చేయకండి.",
    "ko": "친절하게, 주제에 맞게 써 주세요. 스팸이나 개인정보(본인 것이든 남의 것이든)는 안 돼요. 규칙을 어긴 글은 숨겨질 수 있어요. 비밀번호, 전화번호, 주소는 올리지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1064,7 +1064,7 @@
    "where": "html text"
   },
   "Your post appears on the public board below. Don't include passwords, phone numbers or addresses.": {
-   "t": "మీ పోస్ట్ కింద ఉన్న పబ్లిక్ బోర్డులో కనిపిస్తుంది. పాస్‌వర్డ్‌లు, ఫోన్ నంబర్లు, అడ్రస్‌లు రాయకండి.",
+   "t": "మీ పోస్ట్ కింద ఉన్న పబ్లిక్ బోర్డులో కనిపిస్తుంది. పాస్‌వర్డ్‌లు, ఫోన్ నంబర్‌లు, అడ్రస్‌లు రాయకండి.",
    "ko": "글은 아래 공개 게시판에 올라가요. 비밀번호, 전화번호, 주소는 적지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -3220,21 +3220,21 @@
    "where": "js tn() <h3>"
   },
   "2 min": {
-   "t": "2 నిమిషాలు",
+   "t": "నిమిషాలు: 2",
    "ko": "2분",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js tn() <button>"
   },
   "5 min": {
-   "t": "5 నిమిషాలు",
+   "t": "నిమిషాలు: 5",
    "ko": "5분",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "10 min": {
-   "t": "10 నిమిషాలు",
+   "t": "నిమిషాలు: 10",
    "ko": "10분",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -5493,7 +5493,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} points": {
-   "t": "పాయింట్లు: {1}",
+   "t": "పాయింట్‌లు: {1}",
    "ko": "{1}점",
    "slots": "{1}=n",
    "example": "5 points",
@@ -5716,7 +5716,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} rounds left": {
-   "t": "మిగిలిన రౌండ్లు: {1}",
+   "t": "మిగిలిన రౌండ్‌లు: {1}",
    "ko": "{1}라운드 남음",
    "slots": "{1}=n",
    "example": "5 rounds left",
@@ -6188,14 +6188,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· {n} pts · 🔥×{n}": {
-   "t": "· పాయింట్లు: {1} · 🔥×{2}",
+   "t": "· పాయింట్‌లు: {1} · 🔥×{2}",
    "ko": "· {1}점 · 🔥×{2}",
    "slots": "{1}=n, {2}=n",
    "example": "· 5 pts · 🔥×2",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· {n} pts": {
-   "t": "· పాయింట్లు: {1}",
+   "t": "· పాయింట్‌లు: {1}",
    "ko": "· {1}점",
    "slots": "{1}=n",
    "example": "· 5 pts",
